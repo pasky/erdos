@@ -45,6 +45,7 @@ on
 and accepted on the site's documented adoption, not on any review by this
 project. The label's Lean mark refers to that file and its copy in the
 lean-proofs repository, listed on the claim page and not built here.
+
 **Source.** [erdosproblems.com/1193](https://www.erdosproblems.com/1193),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1193,
 https://www.erdosproblems.com/1193.

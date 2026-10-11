@@ -166,6 +166,7 @@ and he could not prove his guess that $t<u_k$ and $T>t$ force $M(t;k)\le M(T;k)$
 $71657610814440>35640326882160$, recomputed here). [Er92e] is not held; the
 site's reading that the 1992 note states the varying-$k$ question and names the
 referee is second-hand here.
+
 **Status-defining source.**
 [[../library/integer_sequences/cambie_2024_resolution_erdos_problem_least_common_multiples/theorem_1|Theorem 1]]
 of [Ca24]: for $C\ge1$ and every sufficiently large $k$ there exist integers
