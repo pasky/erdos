@@ -2,10 +2,10 @@
 name: problems/set_systems/E1076/claims/2025_06_02_pikhurko_sun
 title: The (10,8) limit is at least 3/16, refuting the site's wording at k = 10
 desc: |
-  The $(10,8)$ limit is at least $3/16$, above $1/6$, refereed in European J.
-  Combin. It is correct but answers the site's wording (the single family
-  $F_{10}$), not the corrected Statement (the cumulative family), so it does not
-  count toward the problem's standing.
+  Correct, but answers the site's wording (the single family $F_{10}$), not the
+  corrected Statement (the cumulative family), so it does not count toward the
+  problem's standing. The $(10,8)$ limit is at least $3/16$, above $1/6$,
+  refereed in European J. Combin.
 authors:
 - Oleg Pikhurko
 - Shumin Sun

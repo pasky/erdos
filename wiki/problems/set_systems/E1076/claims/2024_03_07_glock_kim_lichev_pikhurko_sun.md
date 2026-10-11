@@ -2,10 +2,10 @@
 name: problems/set_systems/E1076/claims/2024_03_07_glock_kim_lichev_pikhurko_sun
 title: The (7,5), (8,6) and (9,7) limits refute the site's wording at k = 7, 8, 9
 desc: |
-  The $(7,5)$, $(8,6)$ and $(9,7)$ limits are $1/5$, $61/330$ and $1/5$, not
-  $1/6$, refereed in Canad. J. Math. It is correct but answers the site's
-  wording (the single families $F_7$ to $F_9$), not the corrected Statement (the
-  cumulative family), so it does not count toward the problem's standing.
+  Correct, but answers the site's wording (the single families $F_7$, $F_8$ and
+  $F_9$), not the corrected Statement (the cumulative family), so it does not
+  count toward the problem's standing. The $(7,5)$, $(8,6)$ and $(9,7)$ limits
+  are $1/5$, $61/330$ and $1/5$, not $1/6$, refereed in Canad. J. Math.
 authors:
 - Stefan Glock
 - Jaehoon Kim

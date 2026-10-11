@@ -4,18 +4,18 @@ desc: The 3 claim pages of Problem 180, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-11T22:37:30Z
 ---
 
 # problems/extremal_graph_theory/E0180/claims
 
 [[problems/extremal_graph_theory/E0180/_index|..]]
 
-[[problems/extremal_graph_theory/E0180/claims/2022_07_25_wigderson|2022_07_25_wigderson]]: Wigderson's note records the folklore example: a two-edge star and a two-edge
-matching have joint extremal number 1, but each alone has a linear one. It
-answers the site's wording (every finite family), not the corrected Statement
-(any family but a star with a matching), so it does not count toward the
-standing.
+[[problems/extremal_graph_theory/E0180/claims/2022_07_25_wigderson|2022_07_25_wigderson]]: Answers the site's wording (every finite family), not the corrected Statement
+(every family other than a star with a matching), so it does not count toward
+the problem's standing. Wigderson's note records the folklore example: the
+two-edge star and the two-edge matching have joint extremal number 1, while
+each alone has a linear extremal number.
 
 [[problems/extremal_graph_theory/E0180/claims/2026_04_28_kj_c|2026_04_28_kj_c]]: A forum post claims that a family whose members all have linear extremal
 number has bounded extremal number exactly when it contains a star and a

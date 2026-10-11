@@ -2,10 +2,10 @@
 name: problems/set_systems/E1076/claims/2022_09_28_glock_joos_kim_kuhn_lichev_pikhurko
 title: The (6,4) limit 7/36 refutes the site's wording at k = 6
 desc: |
-  The $(6,4)$ limit is $7/36$, not $1/6$, refereed in Proc. Amer. Math. Soc.
-  Ser. B. It is correct but answers the site's wording (the single family
-  $F_6$), not the corrected Statement (the cumulative family), so it does not
-  count toward the problem's standing.
+  Correct, but answers the site's wording (the single family $F_6$), not the
+  corrected Statement (the cumulative family), so it does not count toward the
+  problem's standing. The $(6,4)$ limit is $7/36$, not $1/6$, refereed in Proc.
+  Amer. Math. Soc. Ser. B.
 authors:
 - Stefan Glock
 - Felix Joos

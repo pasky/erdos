@@ -2,10 +2,11 @@
 name: problems/set_theory/E1167/claims/2026_01_31_zeraoulia
 title: Zeraoulia's counterexample to the site's wording
 desc: |
-  Zeraoulia's self-published note answers the site's wording (no condition on
-  $\gamma$ or $\kappa_\alpha$), not the corrected Statement ($\gamma\ge2$,
-  $\kappa_\alpha>r$), so it does not count toward the standing. With one color
-  and target $\lambda^+$, the premise holds and the conclusion fails.
+  Answers the site's wording (no condition on $\gamma$ or on the
+  $\kappa_\alpha$), not the corrected Statement ($\gamma\ge2$ and every
+  $\kappa_\alpha>r$), so it does not count toward the problem's standing. With
+  one color and target $\lambda^+$, the premise of the stepping-up implication
+  holds and its conclusion fails. The source is a self-published note.
 authors:
 - Rafik Zeraoulia
 status: rejected

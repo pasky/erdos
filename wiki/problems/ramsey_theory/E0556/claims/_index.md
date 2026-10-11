@@ -4,17 +4,17 @@ desc: The 4 claim pages of Problem 556, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-11T22:37:30Z
 ---
 
 # problems/ramsey_theory/E0556/claims
 
 [[problems/ramsey_theory/E0556/_index|..]]
 
-[[problems/ramsey_theory/E0556/claims/1955_01_01_greenwood_gleason|1955_01_01_greenwood_gleason]]: The classical value $R(3,3,3)=17$ of Greenwood and Gleason (Canad. J. Math.
-1955) exceeds $4n-3=9$ at $n=3$, the triangle. This is correct but answers the
-site's wording (every cycle length $n\ge3$), not the corrected Statement
-($n>3$), so it does not count toward the problem's standing.
+[[problems/ramsey_theory/E0556/claims/1955_01_01_greenwood_gleason|1955_01_01_greenwood_gleason]]: Correct, but answers the site's wording (every cycle length $n\ge3$), not the
+corrected Statement (every $n>3$), so it does not count toward the problem's
+standing. The classical value $R(3,3,3)=17$ of Greenwood and Gleason (Canad.
+J. Math. 1955) exceeds $4n-3=9$ at $n=3$, the triangle.
 
 [[problems/ramsey_theory/E0556/claims/2005_06_01_kohayakawa_simonovits_skokan|2005_06_01_kohayakawa_simonovits_skokan]]: Theorem 1 of Kohayakawa, Simonovits and Skokan gives a threshold beyond which
 $R(C_{n_1},C_{n_2},C_{n_3})=4\max\{n_1,n_2,n_3\}-3$ for odd lengths. So the

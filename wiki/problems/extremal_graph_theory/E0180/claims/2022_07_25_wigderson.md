@@ -2,11 +2,11 @@
 name: problems/extremal_graph_theory/E0180/claims/2022_07_25_wigderson
 title: The two-forest counterexample
 desc: |
-  Wigderson's note records the folklore example: a two-edge star and a two-edge
-  matching have joint extremal number 1, but each alone has a linear one. It
-  answers the site's wording (every finite family), not the corrected Statement
-  (any family but a star with a matching), so it does not count toward the
-  standing.
+  Answers the site's wording (every finite family), not the corrected Statement
+  (every family other than a star with a matching), so it does not count toward
+  the problem's standing. Wigderson's note records the folklore example: the
+  two-edge star and the two-edge matching have joint extremal number 1, while
+  each alone has a linear extremal number.
 authors:
 - Yuval Wigderson
 status: rejected

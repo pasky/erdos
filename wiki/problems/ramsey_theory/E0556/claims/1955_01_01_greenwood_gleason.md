@@ -2,10 +2,10 @@
 name: problems/ramsey_theory/E0556/claims/1955_01_01_greenwood_gleason
 title: Greenwood and Gleason, R(3,3,3) = 17 refutes the bound at the triangle
 desc: |
-  The classical value $R(3,3,3)=17$ of Greenwood and Gleason (Canad. J. Math.
-  1955) exceeds $4n-3=9$ at $n=3$, the triangle. This is correct but answers the
-  site's wording (every cycle length $n\ge3$), not the corrected Statement
-  ($n>3$), so it does not count toward the problem's standing.
+  Correct, but answers the site's wording (every cycle length $n\ge3$), not the
+  corrected Statement (every $n>3$), so it does not count toward the problem's
+  standing. The classical value $R(3,3,3)=17$ of Greenwood and Gleason (Canad.
+  J. Math. 1955) exceeds $4n-3=9$ at $n=3$, the triangle.
 authors:
 - R. E. Greenwood
 - A. M. Gleason

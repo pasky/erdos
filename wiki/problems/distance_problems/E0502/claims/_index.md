@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 502, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-11T22:37:30Z
 ---
 
 # problems/distance_problems/E0502/claims
@@ -15,10 +15,11 @@ updated: 2026-10-11T22:24:14Z
 determine only two distinct distances has at most $\binom{n+2}{2}$ points.
 More generally, an $s$-distance set has at most $\binom{n+s}{s}$ points.
 
-[[problems/distance_problems/E0502/claims/1997_02_01_lisonek|1997_02_01_lisonek]]: Lisoněk (1997) finds the largest two-distance sets in $\mathbb R^n$ for
-$n\le8$: 3, 5, 6, 10, 16, 27, 29 and 45 points, the last meeting the
-Bannai–Bannai–Stanton bound. It is correct but answers the site's wording, not
-the corrected Statement on the asymptotics of $M_2(n)$, so it does not count.
+[[problems/distance_problems/E0502/claims/1997_02_01_lisonek|1997_02_01_lisonek]]: Correct, but answers the site's wording (the exact maximum, for $n\le8$), not
+the corrected Statement (the asymptotic behavior of $M_2(n)$), so it does not
+count toward the problem's standing. Lisoněk (1997) determines the largest
+two-distance sets in $\mathbb{R}^n$ for every $n\le8$: 3, 5, 6, 10, 16, 27, 29
+and 45 points, the last attaining the Bannai–Bannai–Stanton bound.
 
 [[problems/distance_problems/E0502/claims/2019_12_17_petrov_pohoata|2019_12_17_petrov_pohoata]]: Petrov and Pohoata give a new proof, through the inertia of a polynomial
 matrix, that an $s$-distance set in $\mathbb R^n$ has at most $\binom{n+s}{s}$
