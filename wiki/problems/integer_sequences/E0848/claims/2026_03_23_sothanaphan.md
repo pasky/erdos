@@ -3,8 +3,9 @@ name: problems/integer_sequences/E0848/claims/2026_03_23_sothanaphan
 title: Sothanaphan's explicit threshold 2.64e17 for the large-N result
 desc: |
   Sothanaphan's note of 23 March 2026, produced with GPT-5.2 Thinking and
-  GPT-5.4 Thinking, claims that for every N at least 2.64e17 the class 7 mod
-  25 attains the maximum, making Sawhney's threshold explicit; nothing accepted.
+  GPT-5.4 Thinking, claims that for every $N\ge2.64\cdot10^{17}$ the class
+  $7\bmod25$ attains the maximum, making Sawhney's threshold explicit. Nothing
+  in it is accepted.
 authors:
 - Nat Sothanaphan
 status: claimed
@@ -77,15 +78,14 @@ assert closed, the first of them by certificates and envelope arguments up
 to this threshold and then this note's theorem.
 
 **Acceptance.** None on record. The note was not submitted to the site's
-proof-claim tab; the site's label is DECIDABLE for Sawhney's result (page
-last edited 6 December 2025, before the note), and the curator has not
-acted on the note. The thread's replies report attempts by other systems
-to lower the constant further and no review of the argument. A comment of
-19 August 2026 on Li's proof claim reports that its writer recomputed the
-note's constants and found them exact, with a true crossover near
-$2.636\cdot10^{17}$; a forum comment is neither a named reviewer nor a
-referee. The claim stays `claimed`; a partial claim derives nothing for the
-problem's standing.
+proof-claim tab. The site's label is DECIDABLE for Sawhney's result (page last
+edited 6 December 2025, before the note), and the curator has not acted on the
+note. The thread's replies report attempts by other systems to lower the
+constant further. They report no review of the argument. A comment of 19 August
+2026 on Li's proof claim reports that its writer recomputed the note's constants
+and found them exact, with a true crossover near $2.636\cdot10^{17}$. A forum
+comment is neither a named reviewer nor a referee. The claim stays `claimed`,
+and a partial claim derives nothing for the problem's standing.
 
 **Depends on.** No page of this wiki: the note follows the structure of
 Sawhney's proof but replaces its asymptotic inputs, so it rests on no result

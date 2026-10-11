@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0188/claims/2017_05_05_conlon_fox
 title: Conlon and Fox, an avoiding coloring for unit progressions of 10^10 terms
 desc: |
-  Conlon and Fox's line corollary gives a red-blue coloring of the plane with
-  no red unit pair and no blue unit progression of 10^10 terms, so the least
-  avoiding length is at most 10^10.
+  Conlon and Fox's line corollary gives a red-blue coloring of the plane with no
+  red unit pair and no blue unit progression of $10^{10}$ terms. So the least
+  avoiding length is at most $10^{10}$.
 authors:
 - David Conlon
 - Jacob Fox

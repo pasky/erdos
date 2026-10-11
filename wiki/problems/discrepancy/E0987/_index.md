@@ -2,8 +2,10 @@
 name: problems/discrepancy/E0987
 title: Problem 987
 desc: |
-  Concerns the limiting sizes of the exponential sums of an infinite sequence
-  in the unit interval taken at integer frequencies.
+  For a sequence $x_j\in(0,1)$, asks whether
+  $A_k=\limsup_n\lvert\sum_{j\le n}e(kx_j)\rvert$ must be unbounded in $k$, and
+  whether $A_k=o(k)$ is possible. Both are answered: the first by Erdős (1965),
+  the second by a 2026 construction.
 tags:
 - Analysis
 - Discrepancy
@@ -38,28 +40,33 @@ $$
 
 Is it possible for $A_k=o(k)$?
 
-**Status.** PROVED (LEAN), the site's label: the first question was answered by
-Erdős himself in 1965, with the bound $A_k>c\log k$ for infinitely many $k$
-([[problems/discrepancy/E0987/claims/1965_03_01_erdos|Erdős's 1965 theorem]]),
-sharpened to $A_k\gg k^{1/2}$ by
-[[problems/discrepancy/E0987/claims/1967_01_01_clunie|Clunie's 1967 theorem]],
-the first bound of power type, and reproved, with a Lean formalization, on
-[[problems/discrepancy/E0987/claims/2025_08_30_tao|Tao's 2025 claim page]]; the
-second is answered by
+**Status.** PROVED (LEAN), the site's label. The problem's two questions are its
+two parts, and accepted partial claims settle each part. The frontmatter
+standing derives from them as solved and proved, with the two answers counted
+together as the site's label counts them.
+
+Erdős himself answered the first question in 1965, with the bound $A_k>c\log k$
+for infinitely many $k$
+([[problems/discrepancy/E0987/claims/1965_03_01_erdos|Erdős's 1965 theorem]]).
+[[problems/discrepancy/E0987/claims/1967_01_01_clunie|Clunie's 1967 theorem]]
+sharpened this to $A_k\gg k^{1/2}$, the first bound of power type. The answer
+was reproved, with a Lean formalization, on
+[[problems/discrepancy/E0987/claims/2025_08_30_tao|Tao's 2025 claim page]]. The
+second question is answered by
 [[problems/discrepancy/E0987/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant|the 2026 construction]]
-of Alexeev, Putterman, Sawhney, Sellke and Valiant, an unrefereed preprint
-accepted by the site's curator, Thomas Bloom. For sequences with finitely many
-distinct values,
+of Alexeev, Putterman, Sawhney, Sellke and Valiant. This is an unrefereed
+preprint, accepted by the site's curator, Thomas Bloom. Each of these four
+claims covers one of the two questions, so each is an accepted partial claim.
+
+For sequences with finitely many distinct values,
 [[problems/discrepancy/E0987/claims/1969_06_01_liu|Liu's 1969 theorem]] gives
-$A_k>k^{1-\delta}/5$ for infinitely many $k$; it settles neither question as a
-whole. Each of the other four claims covers one of the two questions, so each is
-an accepted partial claim; the two questions are the problem's two parts, each
-part is settled by accepted partial claims, and the frontmatter standing derives
-from them as solved and proved, the two answers counted together as the site's
-label counts them. The site's Lean qualifier matches the community database's
-Lean status, dated 2026-08-23, which Boris Alexeev set in a batch of forty
-problems whose solutions his lean-proofs collection formalizes; that
-collection's file for this problem proves both questions (see Formalization).
+$A_k>k^{1-\delta}/5$ for infinitely many $k$. It settles neither question as a
+whole.
+
+The site's Lean qualifier matches the community database's Lean status, dated
+2026-08-23. Boris Alexeev set this status in a batch of forty problems whose
+solutions his lean-proofs collection formalizes. That collection's file for this
+problem proves both questions (see Formalization).
 
 **Source.** [erdosproblems.com/987](https://www.erdosproblems.com/987), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #987,

@@ -2,10 +2,10 @@
 name: problems/set_systems/E1076
 title: Problem 1076
 desc: |
-  Asks whether, for k at least five, the most edges of a 3-uniform hypergraph
-  on n vertices with no j vertices spanning j minus two edges for any j from
-  four to k is asymptotic to n squared over six; false for the single family
-  as printed.
+  Asks whether, for $k\ge5$, the most edges of a $3$-uniform hypergraph on $n$
+  vertices with no $j$ vertices spanning $j-2$ edges for any $4\le j\le k$ is
+  asymptotic to $n^2/6$; proved. The version as printed, with only the single
+  family $j=k$, is false.
 tags:
 - Hypergraphs
 status: solved
@@ -78,24 +78,25 @@ the problem is proved. Collin Yuanjie Ren's Lean submission states the corrected
 Statement and assembles its proof from the formalized theorem on Problem 207;
 the lean-proofs file states the site's wording. Neither is built here.
 
-**Status.** The site's label is PROVED (page last edited 7 October 2025), and it
-describes the corrected Statement: the site's remark credits the asymptotic
-version to Bohman and Warnke [BoWa19] and to Glock, Kühn, Lo and Osthus
-[GKLO20], whose lower bound $(1/6-o(1))n^2$, with the upper bound $\binom n2/3$
-that linearity gives, proves it
+**Status.** The site's label is PROVED (page last edited 7 October 2025). That
+label describes the corrected Statement. The site's remark credits the
+asymptotic version to Bohman and Warnke [BoWa19] and to Glock, Kühn, Lo and
+Osthus [GKLO20]. Their lower bound $(1/6-o(1))n^2$, together with the upper
+bound $\binom n2/3$ that linearity gives, proves it
 ([[problems/set_systems/E1076/claims/2018_02_12_glock_kuhn_lo_osthus|Glock–Kühn–Lo–Osthus 2018]],
 [[problems/set_systems/E1076/claims/2018_08_03_bohman_warnke|Bohman–Warnke 2018]]).
-The site's wording, with $\mathcal F_k$ the single family of $3$-graphs with $k$
-vertices and $k-2$ edges, is refuted at $k=5$
+
+The site's wording takes $\mathcal F_k$ to be the single family of $3$-graphs
+with $k$ vertices and $k-2$ edges. That wording is refuted at $k=5$
 ([[problems/set_systems/E1076/claims/2018_09_06_glock|Glock 2019]]), at $k=6$
 ([[problems/set_systems/E1076/claims/2022_09_28_glock_joos_kim_kuhn_lichev_pikhurko|Glock–Joos–Kim–Kühn–Lichev–Pikhurko 2024]]),
 at $k=7,8,9$
 ([[problems/set_systems/E1076/claims/2024_03_07_glock_kim_lichev_pikhurko_sun|Glock–Kim–Lichev–Pikhurko–Sun 2026]])
 and at $k=10$
 ([[problems/set_systems/E1076/claims/2025_06_02_pikhurko_sun|Pikhurko–Sun 2026]]),
-all refereed, and at $k=5$ by the Lean file
-[[problems/set_systems/E1076/claims/2026_08_17_alexeev|Alexeev 2026]]; those
-five claim pages are rejected, as they answer the site's wording, not the
+all refereed. It is also refuted at $k=5$ by the Lean file
+[[problems/set_systems/E1076/claims/2026_08_17_alexeev|Alexeev 2026]]. Those
+five claim pages are rejected, because they answer the site's wording, not the
 corrected Statement.
 
 **Source.** [erdosproblems.com/1076](https://www.erdosproblems.com/1076),

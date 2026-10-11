@@ -2,8 +2,9 @@
 name: problems/analysis/E0229
 title: Problem 229
 desc: |
-  Asks whether, given sets of complex numbers with no finite limit point, some
-  transcendental entire function has each set among zeros of some derivative.
+  Asks whether, for any sets $S_1,S_2,\ldots$ of complex numbers with no finite
+  limit point, some transcendental entire function $f$ has, for each $n$, a
+  derivative $f^{(k_n)}$ vanishing on all of $S_n$; proved.
 tags:
 - Analysis
 - Iterated functions
@@ -30,13 +31,12 @@ $$
 f^{(k_n)}(z) = 0\textrm{ for all }z\in S_n?
 $$
 
-**Status.** PROVED (LEAN). The site credits Barth and Schneider [BaSc72]
-with the affirmative answer; the claim page
-[[problems/analysis/E0229/claims/1972_03_01_barth_schneider|Barth and
-Schneider 1972]] records it, accepted on its refereed publication and the
-site's credit. The site's Lean qualification refers to Boris Alexeev's
-formalization of that solution, linked from the claim page and not built
-here.
+**Status.** PROVED (LEAN). The site credits Barth and Schneider [BaSc72] with
+the affirmative answer. The claim page
+[[problems/analysis/E0229/claims/1972_03_01_barth_schneider|Barth and Schneider 1972]]
+records it, accepted on its refereed publication and the site's credit. The
+site's Lean qualification refers to Boris Alexeev's formalization of that
+solution. The formalization is linked from the claim page and is not built here.
 
 **Source.** [erdosproblems.com/229](https://www.erdosproblems.com/229), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #229,

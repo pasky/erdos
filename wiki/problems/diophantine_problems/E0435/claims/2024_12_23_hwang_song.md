@@ -2,9 +2,10 @@
 name: problems/diophantine_problems/E0435/claims/2024_12_23_hwang_song
 title: Hwang and Song's Frobenius number of the binomial semigroup
 desc: |
-  Hwang and Song determine the largest integer not a nonnegative combination
-  of the binomial coefficients with upper index n, for n with two or more
-  prime factors: a sum over the prime powers dividing n, minus n.
+  Hwang and Song determine the largest integer that is not a nonnegative
+  combination of the binomial coefficients with upper index $n$, for $n$ with
+  two or more distinct prime factors. It is a sum over the prime powers dividing
+  $n$, minus $n$.
 authors:
 - WonTae Hwang
 - Kyunghwan Song
@@ -73,10 +74,9 @@ posts are forum comments, not a dated manuscript, so they have no claim page
 of their own and are recorded here; the OEIS entry A389479 lists the
 sequence of values.
 
-**Acceptance.** The site's curator, T. F. Bloom, labels the problem proved
-and credits this paper with the first proof; that documented acceptance is
-the `reviewed` evidence. The paper is a preprint, so `refereed` is not
-listed.
+**Acceptance.** The site's curator, T. F. Bloom, labels the problem proved and
+credits this paper with the first proof. That documented acceptance is the
+`reviewed` evidence. The paper is a preprint, so `refereed` is not listed.
 
 **Formalization.** On 2026-02-04 Boris Alexeev posted in the site's thread
 that Cambie's forum proof had been formalized by the AI system Aristotle. The

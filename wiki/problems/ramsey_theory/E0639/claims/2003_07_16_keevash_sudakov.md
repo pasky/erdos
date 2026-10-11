@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0639/claims/2003_07_16_keevash_sudakov
 title: Keevash and Sudakov, edges in no monochromatic triangle
 desc: |
-  Theorem 1.1 of Keevash and Sudakov (J. Combin. Theory Ser. B 2004) gives the
-  maximum number of edges in no monochromatic triangle for every n; it is
-  ⌊n²/4⌋ ≤ n²/4 for every n ≥ 7, proving the bound for large n.
+  Theorem 1.1 of Keevash and Sudakov (J. Combin. Theory Ser. B 2004) gives, for
+  every $n$, the maximum number of edges of a 2-colored $K_n$ that lie in no
+  monochromatic triangle. For every $n\ge7$ it is
+  $\lfloor n^2/4\rfloor\le n^2/4$, which proves the bound for large $n$.
 authors:
 - Peter Keevash
 - Benny Sudakov
@@ -82,16 +83,16 @@ line, so the first posting was in 2003 and not in the issue month, January
 "available online" day could not be retrieved, so the paper link carries no
 date. The paper was received on 9 May 2002.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, credits the
-complete solution of the problem to Keevash and Sudakov's theorem in the
-problem's commentary, with the same three small values, and labels the
-problem PROVED (LEAN), a label that describes the corrected Statement (page
-accessed 2026-09-18); the thread's one comment concerns the formalization
-below and the proof-claim tab is empty. Refereed: J. Combin. Theory Ser. B
-90 (2004), no. 1, 41--53. The acknowledgments credit Thomason and Scott with
-catching a mistake in an earlier draft, so the journal version is the one
-used. Semantic Scholar's ten citing records, scanned by title on 2026-09-18,
-include no dispute or correction.
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+PROVED (LEAN), a label that describes the corrected Statement (page accessed
+2026-09-18). In the problem's commentary, the curator credits the complete
+solution of the problem to Keevash and Sudakov's theorem, with the same three
+small values. The thread's one comment concerns the formalization below, and the
+proof-claim tab is empty. Refereed: J. Combin. Theory Ser. B 90 (2004), no. 1,
+41--53. The acknowledgments credit Thomason and Scott with catching a mistake in
+an earlier draft, so the journal version is the one used. Semantic Scholar's ten
+citing records, scanned by title on 2026-09-18, include no dispute or
+correction.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos639.lean` of
 Boris Alexeev's repository `plby/lean-proofs`, linked above at the commit of

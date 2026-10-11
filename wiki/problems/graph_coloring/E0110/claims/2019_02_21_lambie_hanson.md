@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0110/claims/2019_02_21_lambie_hanson
 title: ZFC counterexample with slowly growing finite subgraphs
 desc: |
-  Lambie-Hanson's theorem that for every function f there is a graph of
-  chromatic number aleph_1 whose subgraphs of chromatic number k >= 3 all have
-  at least f(k) vertices, answering the question no in ZFC; refereed in 2020.
+  Lambie-Hanson's theorem, refereed in 2020, gives for every function $f$ a
+  graph of chromatic number $\aleph_1$ whose subgraphs of chromatic number
+  $k\ge3$ all have at least $f(k)$ vertices. This answers the question no in
+  ZFC.
 authors:
 - Chris Lambie-Hanson
 status: accepted
@@ -52,12 +53,11 @@ outright; de Bruijn and Erdős's theorem guarantees finite subgraphs of every
 finite chromatic number, so what the question asked for, and what fails, is a
 size bound on them.
 
-**Acceptance.** The paper is refereed: Adv. Math. 369 (2020), 107176, with the
-preprint posted on 21 February 2019 (the page's date). The site's curator,
-Thomas Bloom, labels the problem DISPROVED and credits Shelah, citing the
-Komjáth–Shelah paper, with the consistency result and Lambie-Hanson with the
-counterexample in ZFC, so the curator's independent credit is listed as
-`reviewed`.
+**Acceptance.** The paper is refereed: Adv. Math. 369 (2020), 107176. The
+preprint was posted on 21 February 2019, the page's date. The site's curator,
+Thomas Bloom, labels the problem DISPROVED. The curator credits Shelah with the
+consistency result, citing the Komjáth–Shelah paper, and Lambie-Hanson with the
+counterexample in ZFC. This independent credit is listed as `reviewed`.
 
 **Formalization.** The Lean 4 file linked above, in Boris Alexeev's repository
 of Lean proofs, declares itself a formalization of a solution to the problem

@@ -2,9 +2,9 @@
 name: problems/irrationality/E0252/claims/2006_12_01_schlage_puchta
 title: Schlage-Puchta's unconditional case k = 3
 desc: |
-  Schlage-Puchta's 2006 paper proves by a sieve count and exponential-sum
-  estimates that the sum of sigma_3(n)/n! is irrational, the case k = 3,
-  independently of Friedlander, Luca and Stoiciu; refereed in Ramanujan J.
+  Schlage-Puchta's 2006 paper, refereed in Ramanujan J., proves by a sieve count
+  and exponential-sum estimates that $\sum_n\sigma_3(n)/n!$ is irrational, the
+  case $k=3$. The proof is independent of Friedlander, Luca and Stoiciu's.
 authors:
 - Jan-Christoph Schlage-Puchta
 status: accepted
@@ -69,12 +69,12 @@ research solved, citing both papers.
 **Covers.** The case $k=3$ only: $\sum_{n\ge1}\sigma_3(n)/n!$ is irrational.
 Nothing unconditional about any $k\ge4$.
 
-**Acceptance.** Refereed: the Ramanujan Journal, volume 12, issue 3
-(December 2006), pp. 455--460; the Crossref record of the DOI gives these
-data, and the journal version was not compared with the arXiv posting. The
-site labels the problem OPEN, so its curator's remark crediting this paper
-and Friedlander, Luca and Stoiciu with the case $k=3$ is commentary on an
-open problem and not acceptance, and no `reviewed` evidence is listed. The
-proof is not checked here.
+**Acceptance.** Refereed: the Ramanujan Journal, volume 12, issue 3 (December
+2006), pp. 455--460. These data come from the Crossref record of the DOI. The
+journal version was not compared with the arXiv posting. The site labels the
+problem OPEN. Its curator's remark credits this paper and Friedlander, Luca and
+Stoiciu with the case $k=3$, but that remark is commentary on an open problem
+and not acceptance, so no `reviewed` evidence is listed. The proof is not
+checked here.
 
 **Depends on.** Nothing in this wiki.

@@ -2,8 +2,9 @@
 name: problems/discrepancy/E0178
 title: Problem 178
 desc: |
-  Asks whether one plus-minus-one function can keep the initial partial sums
-  along each of infinitely many prescribed integer sequences bounded.
+  Asks whether one function $f:\mathbb{N}\to\{-1,1\}$ can keep the initial
+  partial sums along each of infinitely many prescribed integer sequences
+  bounded. Beck answered yes in 1981.
 tags:
 - Discrepancy
 status: solved
@@ -30,16 +31,15 @@ $$
 
 for all $d\geq 1$?
 
-**Status.** PROVED (LEAN): Beck [Be81] answered yes, and [Be17] made the
-bound quantitative, $\ll d^{4+\epsilon}$ for every $\epsilon>0$; a Lean 4
-proof of a theorem `erdos_178`, whose statement formal-conjectures adopted in
-its answer form on 26 June 2026, following Beck's argument, was posted to the
-site's thread on 21 April 2026. The accepted claim is
-[[problems/discrepancy/E0178/claims/1981_09_01_beck|Beck 1981]]. A claim of
-19 September 2026,
-[[problems/discrepancy/E0178/claims/2026_09_19_korsky|Korsky 2026]], would
-reprove the statement with the explicit bound $\ll d^{3/2+\sqrt2}$ in place
-of Beck's exponent and is unreviewed.
+**Status.** PROVED (LEAN). Beck [Be81] answered yes, and [Be17] made the bound
+quantitative: $\ll d^{4+\epsilon}$ for every $\epsilon>0$. The accepted claim is
+[[problems/discrepancy/E0178/claims/1981_09_01_beck|Beck 1981]]. A Lean 4 proof
+of a theorem `erdos_178`, following Beck's argument, was posted to the site's
+thread on 21 April 2026. The theorem's statement was adopted by
+formal-conjectures, in its answer form, on 26 June 2026. A claim of 19 September
+2026, [[problems/discrepancy/E0178/claims/2026_09_19_korsky|Korsky 2026]], would
+reprove the statement with the explicit bound $\ll d^{3/2+\sqrt2}$ in place of
+Beck's exponent. It is unreviewed.
 
 **Source.** [erdosproblems.com/178](https://www.erdosproblems.com/178), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #178,

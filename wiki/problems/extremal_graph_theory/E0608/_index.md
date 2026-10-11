@@ -2,8 +2,8 @@
 name: problems/extremal_graph_theory/E0608
 title: Problem 608
 desc: |
-  Asks whether every graph on n vertices with more than a quarter of n squared
-  edges has at least two ninths of n squared edges lying on five-cycles.
+  Asks whether every graph on $n$ vertices with more than $n^2/4$ edges has at
+  least $2n^2/9$ edges that lie in a $C_5$; disproved.
 tags:
 - Graph theory
 status: solved
@@ -35,23 +35,23 @@ $n$. So no range on $n$ removes the failures, the Statement stands as printed,
 and both readings have the negative answer.
 
 **Status.** Disproved, the site's label (DISPROVED (LEAN)), whose suffix is a
-catalog label explained under Formalization. The Statement fails trivially at
-small orders, first at $K_3$ (Formulation), and it fails at every large order:
-the status-defining source is the Füredi--Maleki construction described as
-Construction 2 of [GHV19] (J. Combin. Theory Ser. B 137 (2019), 65--103,
-refereed): for all large $n$ a graph with $\lfloor n^2/4\rfloor+1$ edges and
-only $((2+\sqrt2)/16)n^2+O(n)<2n^2/9$ edges on pentagons, the count being
-sharp by the same paper's Theorem 1.3. The site's commentary adopts this
-negative answer, crediting Füredi and Maleki as described by [GHV19] (page
-last edited 25 October 2025, as of 2026-10-07). The result and its acceptance
+catalog label explained under Formalization. The result and its acceptance
 evidence are recorded on the claim page
 [[problems/extremal_graph_theory/E0608/claims/2016_05_29_grzesik_hu_volec|Grzesik--Hu--Volec]],
-from which the frontmatter is derived. The suffix "(LEAN)" rests on the
-repository the community database records as the problem's formal status, a
-public Lean 4 development that declares itself a formalization of this
-disproof and is recorded as a formalization link on the same claim page; the
-corpus holds no build or audit of it, so it adds no evidence (Formalization
-below).
+from which the frontmatter is derived. The Statement fails trivially at small
+orders, first at $K_3$ (Formulation). It also fails at every large order. The
+status-defining source is the Füredi--Maleki construction, described as
+Construction 2 of [GHV19] (J. Combin. Theory Ser. B 137 (2019), 65--103,
+refereed). For all large $n$ it gives a graph with $\lfloor n^2/4\rfloor+1$
+edges and only $((2+\sqrt2)/16)n^2+O(n)<2n^2/9$ edges on pentagons. The same
+paper's Theorem 1.3 shows that this count is sharp. The site's commentary adopts
+this negative answer, crediting Füredi and Maleki as described by [GHV19] (page
+last edited 25 October 2025, as of 2026-10-07). The suffix "(LEAN)" rests on the
+repository that the community database records as the problem's formal status.
+That repository is a public Lean 4 development that declares itself a
+formalization of this disproof, and it is recorded as a formalization link on
+the same claim page. The corpus holds no build or audit of it, so it adds no
+evidence (Formalization below).
 
 **Source.** [erdosproblems.com/608](https://www.erdosproblems.com/608), accessed
 2026-10-07: the problem page (DISPROVED (LEAN); last edited 25 October 2025;

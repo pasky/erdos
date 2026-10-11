@@ -2,9 +2,10 @@
 name: problems/polynomials/E1130
 title: Problem 1130
 desc: |
-  Asks for the extreme behavior of sums of the fundamental Lagrange
-  interpolation polynomials built from nodes in the interval from minus one to
-  one.
+  For nodes $x_1,\ldots,x_n\in[-1,1]$, let $\Upsilon$ be the least, over the
+  intervals between consecutive points of $-1,x_1,\ldots,x_n,1$, of the maximum
+  of $\sum_k\lvert l_k(x)\rvert$ on the interval. Asks whether
+  $\Upsilon\ll\log n$ and which nodes maximize $\Upsilon$; both are answered.
 tags:
 - Analysis
 - Polynomials
@@ -45,13 +46,13 @@ $$
 Describe which choice of $x_i$ maximise $\Upsilon(x_1,\ldots,x_n)$.
 
 **Status.** The site labels the problem PROVED (page last edited 17 January
-2026, label accessed 2026-09-04). The site records that de Boor and Pinkus
-[dBPi78] proved Erdős's conjectured characterization of the maximizing
-nodes, from which the logarithmic bound follows; the accepted claim page is
+2026, label accessed 2026-09-04). The problem pairs a yes-or-no question,
+answered yes, with a request to describe the maximizing choice, so the derived
+claim value is `answered`. The site records that de Boor and Pinkus [dBPi78]
+proved Erdős's conjectured characterization of the maximizing nodes, from which
+the logarithmic bound follows. The accepted claim page is
 [[problems/polynomials/E1130/claims/1978_12_01_deboor_pinkus|de Boor and Pinkus 1978]],
-which records the paper's convention that the endpoints are nodes. The
-problem pairs a yes-or-no question, answered yes, with a request to describe
-the maximizing choice, so the derived claim value is `answered`.
+which records the paper's convention that the endpoints are nodes.
 
 **Source.** [erdosproblems.com/1130](https://www.erdosproblems.com/1130),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1130,

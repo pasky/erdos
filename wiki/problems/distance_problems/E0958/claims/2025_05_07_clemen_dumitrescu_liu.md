@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0958/claims/2025_05_07_clemen_dumitrescu_liu
 title: Clemen, Dumitrescu and Liu's arc-and-center family
 desc: |
-  Equally spaced points on a short arc of a unit circle, together with the
-  center, determine n-1 distances with multiplicities n-1, ..., 1 for every
-  n, so the characterization by lines and circles fails.
+  Clemen, Dumitrescu and Liu observe that equally spaced points on a short arc
+  of a unit circle, together with the center, determine $n-1$ distances with
+  multiplicities $n-1,\ldots,1$ for every $n$. So the characterization by lines
+  and circles fails.
 authors:
 - Felix Christian Clemen
 - Adrian Dumitrescu
@@ -62,14 +63,13 @@ and with it Erdős's questions for $n>4$ and for all sufficiently large $n$.
 The paper is carded at
 [[../library/distance_problems/clemen_2025_multiplicities_interpoint_distances/_index|clemen_2025_multiplicities_interpoint_distances]].
 
-**Acceptance.** The result is refereed: the paper appeared in Acta
-Mathematica Hungarica. The site's curator, Thomas Bloom, marks the problem
-DISPROVED (LEAN) and credits Clemen, Dumitrescu and Liu with the
-configuration on the problem page; the curator neither wrote nor submitted
-the result. This corpus has not reviewed the paper, and no such review is
-needed for the standing recorded here; the chord computation above is a
-reading aid. A separate four-point counterexample, found by Aristotle and
-proved in Lean, is recorded on
-[[problems/distance_problems/E0958/claims/2025_12_27_alexeev|its own claim page]];
-the site's label carries the Lean marker for it, and it is not a
+**Acceptance.** The result is refereed: the paper appeared in Acta Mathematica
+Hungarica. The site's curator, Thomas Bloom, marks the problem DISPROVED (LEAN)
+and credits Clemen, Dumitrescu and Liu with the configuration on the problem
+page. The curator neither wrote nor submitted the result. This corpus has not
+reviewed the paper, and the standing recorded here does not need such a review.
+The chord computation above is a reading aid. A separate four-point
+counterexample, found by Aristotle and proved in Lean, is recorded on
+[[problems/distance_problems/E0958/claims/2025_12_27_alexeev|its own claim page]].
+The site's label carries the Lean marker for that counterexample, which is not a
 formalization of this result.

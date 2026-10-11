@@ -2,9 +2,10 @@
 name: problems/analysis/E0516/claims/1954_12_01_erdos_macintyre
 title: "Erdős and Macintyre: limsup m(r)/M(r) = 1 under a convergent gap sum"
 desc: |
-  Erdős and Macintyre prove that an entire lacunary series whose reciprocal
-  gaps have a convergent sum has limsup m(r)/M(r) = 1, which gives the
-  question's equality on that subclass; refereed in Proc. Edinburgh Math. Soc.
+  Erdős and Macintyre prove that an entire lacunary series with
+  $\sum_k1/(n_{k+1}-n_k)<\infty$ has $\limsup m(r)/M(r)=1$, which gives the
+  question's equality on that subclass. The paper is refereed in Proc. Edinburgh
+  Math. Soc.
 authors:
 - P. Erdös
 - A. J. Macintyre
@@ -64,12 +65,11 @@ accepted full claim of Fuchs.
 
 **Depends on.** Nothing in this wiki: the argument is the paper's own.
 
-**Acceptance.** Refereed: the paper appeared in the Proceedings of the
-Edinburgh Mathematical Society, a refereed journal. The site labels the
-problem PROVED (LEAN) and credits Fuchs with the solution, recording this
-paper's gap condition as an earlier result; the label settles the problem
-through Fuchs's paper, not this one, so the page lists no `reviewed`
-evidence.
+**Acceptance.** Refereed: the paper appeared in the Proceedings of the Edinburgh
+Mathematical Society, a refereed journal. The site labels the problem PROVED
+(LEAN) and credits Fuchs with the solution. It records this paper's gap
+condition as an earlier result. The label settles the problem through Fuchs's
+paper, not this one, so the page lists no `reviewed` evidence.
 
 **Dating.** The page is dated by the issue month in the publisher's record
 (Crossref), December 1954; the day is a placeholder.

@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0760/claims/1997_08_01_alon_krivelevich_sudakov
 title: Subgraphs with a large cochromatic number
 desc: |
-  Every graph with chromatic number m has a subgraph of cochromatic number
-  at least (1/4 + o(1)) m / log_2 m, tight up to the constant; refereed in
-  J. Graph Theory and credited by the site's curator.
+  Alon, Krivelevich and Sudakov prove that every graph with chromatic number $m$
+  has a subgraph of cochromatic number at least $(1/4+o(1))\,m/\log_2 m$, tight
+  up to the constant. It was refereed in J. Graph Theory and is credited by the
+  site's curator.
 authors:
 - Noga Alon
 - Michael Krivelevich
@@ -53,14 +54,14 @@ number $(1+o(1))m$ on at most $m^2$ vertices, and Lemma 2.2 shows that a
 random subgraph of the latter, keeping each edge with probability $1/2$, has
 large cochromatic number with positive probability.
 
-**Acceptance.** Refereed: N. Alon, M. Krivelevich and B. Sudakov, Subgraphs
-with a large cochromatic number, J. Graph Theory 25 (1997), no. 4, 295–297,
-as the publisher's record gives it; the paper's own printed header reads
-volume 26. The issue is dated August 1997, and this page carries the first of
-that month because the day is not recorded. Reviewed: the site's curator, Thomas
-Bloom, marks Problem 760 proved on the problem page and credits the theorem
-[AKS97]; the community database records the problem as proved, with a Lean proof,
-from 2026-04-23.
+**Acceptance.** Refereed: N. Alon, M. Krivelevich and B. Sudakov, Subgraphs with
+a large cochromatic number, J. Graph Theory 25 (1997), no. 4, 295–297, as the
+publisher's record gives it. The paper's own printed header reads volume 26. The
+issue is dated August 1997, and this page carries the first of that month
+because the day is not recorded. Reviewed: the site's curator, Thomas Bloom,
+marks Problem 760 proved on the problem page and credits the theorem [AKS97].
+The community database records the problem as proved, with a Lean proof, from
+2026-04-23.
 
 **Formalizations.** One Lean 4 development, posted by Matteo Del Vecchio,
 declares itself a formalization of this result; its original posting and two

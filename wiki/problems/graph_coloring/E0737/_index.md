@@ -2,8 +2,8 @@
 name: problems/graph_coloring/E0737
 title: Problem 737
 desc: |
-  Asks whether a graph of chromatic number aleph one must contain an edge
-  lying on a cycle of every sufficiently large length.
+  Asks whether every graph of chromatic number $\aleph_1$ has an edge that lies
+  on a cycle of every sufficiently large length; proved.
 tags:
 - Graph theory
 - Chromatic number
@@ -25,11 +25,11 @@ updated: 2026-10-08T01:29:59Z
 exist an edge $e$ such that, for all large $n$, $G$ contains a cycle of length
 $n$ containing $e$?
 
-**Status.** Proved: the site labels the problem PROVED and credits Thomassen
-[Th83], whose theorem gives, in any graph of uncountable chromatic number, an
-edge lying on a cycle of every sufficiently large length. The site attributes
-the question to Erdős, Hajnal and Shelah [EHS74], who proved that such a graph
-contains odd cycles of every sufficiently large length,
+**Status.** Proved. The site labels the problem PROVED and credits Thomassen
+[Th83]. His theorem gives, in any graph of uncountable chromatic number, an edge
+lying on a cycle of every sufficiently large length. The site attributes the
+question to Erdős, Hajnal and Shelah [EHS74]. They proved that such a graph
+contains odd cycles of every sufficiently large length. That result is
 [[problems/set_theory/E0594/_index|Problem 594]].
 
 **Source.** [erdosproblems.com/737](https://www.erdosproblems.com/737), accessed

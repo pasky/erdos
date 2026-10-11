@@ -2,9 +2,9 @@
 name: problems/additive_bases/E0338/claims/2026_10_01_veljjanoski
 title: Veljjanoski's restricted order for robust bases of positive density
 desc: |
-  A write-up of October 2026 states that a set of positive lower density delta
-  which stays a basis after removing any finite set has restricted order at
-  most 3 times the ceiling of 8 over delta squared, minus 2; it is unreviewed.
+  A write-up of October 2026 by Daniel Veljjanoski states that a set of positive
+  lower density $\delta$ that stays a basis after removing any finite set has
+  restricted order at most $3\lceil8/\delta^2\rceil-2$. It is unreviewed.
 authors:
 - Daniel Veljjanoski
 status: claimed

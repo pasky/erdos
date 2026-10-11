@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0167/claims/2024_05_18_chahua_gutierrez
 title: Chahua and Gutiérrez's dense split, tripartite and 4-partite classes
 desc: |
-  Chahua and Gutiérrez (Discrete Appl. Math. 2025) prove tau <= 2 nu for dense
-  split graphs and dense tripartite graphs and tau <= 3 nu / 2 for complete
-  4-partite graphs; accepted on the refereed publication.
+  Chahua and Gutiérrez (Discrete Appl. Math. 2025) prove $\tau\le2\nu$ for dense
+  split graphs and dense tripartite graphs, and $\tau\le3\nu/2$ for complete
+  $4$-partite graphs. The claim is accepted on the refereed publication.
 authors:
 - Luis Chahua
 - Juan Gutiérrez

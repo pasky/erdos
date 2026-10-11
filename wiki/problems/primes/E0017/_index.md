@@ -2,8 +2,8 @@
 name: problems/primes/E0017
 title: Problem 17
 desc: |
-  Asks whether infinitely many primes p have every even number up to p minus 3
-  expressible as a difference of two primes not exceeding p.
+  Asks whether infinitely many primes $p$ have every even $n\le p-3$ expressible
+  as $q_1-q_2$ with primes $q_1,q_2\le p$; open.
 tags:
 - Number theory
 - Primes

@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E1158
 title: Problem 1158
 desc: |
-  Asks whether Erdős's 1964 upper exponent for the Turán number of the
-  complete t-partite t-uniform hypergraph with r vertices per class is
-  attained up to o(1); known only for t = 2 and r at most 3.
+  Asks whether Erdős's 1964 upper exponent for the Turán number of $K_t(r)$, the
+  complete $t$-partite $t$-uniform hypergraph with $r$ vertices per class, is
+  attained up to $o(1)$. It is known only for $t=2$ and $r\le3$.
 tags:
 - Hypergraphs
 - Turán numbers
@@ -86,36 +86,38 @@ factor for fixed $t$, so the exponent questions agree (an observation made
 here). The literature calls the balanced case $r=2$ the Erdős box problem.
 
 **Status.** Open. The site records the exponent as known only for $t=2$ and
-$2\le r\le3$, which agrees with every source on this page: for graphs
-($t=2$) the Kővári--Sós--Turán exponent $2-1/r$ is attained for $r=2$ and
-$r=3$, the subject of
-[[problems/extremal_graph_theory/E0714/_index|Problem 714]]. These settle the
-instances $(t,r)=(2,2)$ and $(2,3)$ of the statement in the affirmative,
-through the refereed results recorded as accepted partial claims of Problem
-714: [[problems/extremal_graph_theory/E0714/claims/1966_08_01_brown|Brown 1966]]
-for $r=3$ and $r=2$, and
+$2\le r\le3$, and every source on this page agrees. For graphs ($t=2$), the
+Kővári--Sós--Turán exponent $2-1/r$ is attained for $r=2$ and $r=3$. This is the
+subject of [[problems/extremal_graph_theory/E0714/_index|Problem 714]]. These
+results settle the instances $(t,r)=(2,2)$ and $(2,3)$ of the statement in the
+affirmative. They are the refereed results recorded as accepted partial claims
+of Problem 714:
+[[problems/extremal_graph_theory/E0714/claims/1966_08_01_brown|Brown 1966]] for
+$r=3$ and $r=2$, and
 [[problems/extremal_graph_theory/E0714/claims/1966_01_01_erdos_renyi_sos|Erdős, Rényi and Sós 1966]]
 and
 [[problems/extremal_graph_theory/E0714/claims/1954_01_01_kovari_sos_turan|Kővári, Sós and Turán 1954]]
-for $r=2$. They have no claim page here because the site routes the case
-$t=2$ to Problem 714 and credits no source for it on this page; as partial
-results they leave this problem open. For $t\ge3$ no
-pair $(t,r)$ is known to attain the exponent $t-r^{1-t}$. The best general
-lower bounds recorded here are for the box problem $r=2$: Corollary 1 of
-[CPZ21] ([[../library/extremal_graph_theory/conlon_2021_random_multilinear_maps_erdos_box_problem/corollary_1|result page]]),
-$\mathrm{ex}_t(n,K_t(2))=\Omega(n^{t-1/\lceil(2^t-1)/t\rceil})$ for every
-$t\ge2$, from random multilinear maps, against the asked exponent
-$t-1/2^{t-1}$ (the two agree only for $t=2$; for $t=3$ the bound is $n^{8/3}$
-against the asked $n^{11/4}$), and Theorem 3.2 of [Go23]
-([[../library/extremal_graph_theory/gordeev_2023_combinatorial_nullstellensatz_turan_numbers_complete_r/theorem_3_2|result page]]),
-an explicit construction with $\mathrm{ex}_t(n,K_t(2))=\Omega(n^{t-1/t})$,
-matching the Conlon--Pohoata--Zakharov exponent for $t\le4$. For unbalanced
-parts the exponent $t-1/(s_1\cdots s_{t-1})$ is attained once the last part
-is large (leads below), which does not cover the balanced $K_t(r)$. No
-construction reaching $n^{t-r^{1-t}-o(1)}$ for any $t\ge3$, no disproof, and
-no proof claim was found in the search whose scope the
-Current assessment records. This is a bounded negative finding, not a
-certificate of openness.
+for $r=2$. They have no claim page here, because the site routes the case $t=2$
+to Problem 714 and credits no source for it on this page. As partial results,
+they leave this problem open.
+
+For $t\ge3$, no pair $(t,r)$ is known to attain the exponent $t-r^{1-t}$. The
+best general lower bounds recorded here are for the box problem $r=2$. Corollary
+1 of [CPZ21]
+([[../library/extremal_graph_theory/conlon_2021_random_multilinear_maps_erdos_box_problem/corollary_1|result page]])
+gives $\mathrm{ex}_t(n,K_t(2))=\Omega(n^{t-1/\lceil(2^t-1)/t\rceil})$ for every
+$t\ge2$, from random multilinear maps. The asked exponent is $t-1/2^{t-1}$. The
+two agree only for $t=2$. For $t=3$ the bound is $n^{8/3}$, against the asked
+$n^{11/4}$. Theorem 3.2 of [Go23]
+([[../library/extremal_graph_theory/gordeev_2023_combinatorial_nullstellensatz_turan_numbers_complete_r/theorem_3_2|result page]])
+gives an explicit construction with $\mathrm{ex}_t(n,K_t(2))=\Omega(n^{t-1/t})$.
+This matches the Conlon--Pohoata--Zakharov exponent for $t\le4$. For unbalanced
+parts, the exponent $t-1/(s_1\cdots s_{t-1})$ is attained once the last part is
+large (leads below). This does not cover the balanced $K_t(r)$.
+
+No construction reaching $n^{t-r^{1-t}-o(1)}$ for any $t\ge3$, no disproof, and
+no proof claim was found in the search whose scope the Current assessment
+records. This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/1158](https://www.erdosproblems.com/1158),
 accessed 2026-09-18: the problem page (OPEN, with

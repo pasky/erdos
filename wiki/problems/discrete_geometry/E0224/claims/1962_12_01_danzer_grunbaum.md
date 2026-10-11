@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0224/claims/1962_12_01_danzer_grunbaum
 title: Danzer and Grünbaum's bound on sets without an obtuse angle
 desc: |
-  At most $2^n$ points of Euclidean $n$-space, not all in a hyperplane, avoid
-  an obtuse triangle, the vertex sets of boxes being extremal; so among
-  $2^d+1$ points of $\mathbb{R}^d$ some three determine an obtuse angle.
+  Danzer and Grünbaum prove that at most $2^n$ points of Euclidean $n$-space,
+  not all in a hyperplane, avoid an obtuse triangle, and the vertex sets of
+  boxes are extremal. So among $2^d+1$ points of $\mathbb{R}^d$ some three
+  determine an obtuse angle.
 authors:
 - L. Danzer
 - B. Grünbaum
@@ -93,8 +94,8 @@ either copy of that development, so it is a link on this page and not
 evidence of acceptance.
 
 **Acceptance.** The paper is refereed: L. Danzer and B. Grünbaum, Über zwei
-Probleme bezüglich konvexer Körper von P. Erdös und von V. L. Klee, Math. Z.
-79 (1962), 95–99. The curator of erdosproblems.com, Thomas Bloom, labels the
-problem proved and credits this paper for the general case. The record gives
-the publication month, December 1962, without a day, and the page is dated to
-the first of that month.
+Probleme bezüglich konvexer Körper von P. Erdös und von V. L. Klee, Math. Z. 79
+(1962), 95–99. The curator of erdosproblems.com, Thomas Bloom, labels the
+problem proved and credits this paper for the general case. The record gives the
+publication month, December 1962, but no day, so the page is dated to the first
+of that month.

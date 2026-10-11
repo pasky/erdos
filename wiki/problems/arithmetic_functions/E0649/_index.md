@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0649
 title: Problem 649
 desc: |
-  Asks whether for any two primes p and q there is an integer n whose greatest
-  prime factor is p while that of n plus one is q.
+  Asks whether, for any two primes $p$ and $q$, some integer $n$ has greatest
+  prime factor $p$ while $n+1$ has greatest prime factor $q$; disproved.
 tags:
 - Number theory
 status: solved
@@ -36,20 +36,21 @@ remarks suggest that Erdős may have meant odd primes or all sufficiently
 large primes; that is a guess, and Tong's family, whose primes $q$ are odd
 and exceed $p$, refutes those forms as well.
 
-**Status.** Disproved; the site's label is DISPROVED (LEAN). The disproof is
-elementary and the site's remarks record two independent arguments, both
-accepted there:
-[[problems/arithmetic_functions/E0649/claims/2025_01_16_tong|Tong's]], for
-every prime $p$ infinitely many primes $q$ admit no such $n$, and
-[[problems/arithmetic_functions/E0649/claims/2025_01_16_sampaio|Sampaio's]],
-the pair $p=19$, $q=2$. The site's Lean qualification refers to a Lean file
-posted in the site's thread. Its main theorem, the 2020 Romanian Master of
-Mathematics argument that infinitely many primes $q$ make $\{2,q\}$ a strange
-pair, is a third argument, accepted on its own
-[[problems/arithmetic_functions/E0649/claims/2026_02_07_alexeev|claim page]]:
-this corpus built a later revision of the file and audited that theorem's
+**Status.** Disproved. The site's label is DISPROVED (LEAN). The disproof is
+elementary. The site's remarks record two independent arguments, both accepted
+there. [[problems/arithmetic_functions/E0649/claims/2025_01_16_tong|Tong's]]
+argument shows that for every prime $p$ infinitely many primes $q$ admit no such
+$n$. [[problems/arithmetic_functions/E0649/claims/2025_01_16_sampaio|Sampaio's]]
+argument gives the pair $p=19$, $q=2$.
+
+The site's Lean qualification refers to a Lean file posted in the site's thread.
+The file's main theorem is the 2020 Romanian Master of Mathematics argument that
+infinitely many primes $q$ make $\{2,q\}$ a strange pair. This is a third
+argument, accepted on its own
+[[problems/arithmetic_functions/E0649/claims/2026_02_07_alexeev|claim page]].
+This corpus built a later revision of the file and audited that theorem's
 statement. The file's formalizations of Tong's and Sampaio's results are links
-on their pages; their statements were not audited here, so they give no
+on their pages. Their statements were not audited here, so they give no
 formalized evidence.
 
 **Source.** [erdosproblems.com/649](https://www.erdosproblems.com/649), accessed

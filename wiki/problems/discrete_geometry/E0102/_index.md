@@ -2,8 +2,9 @@
 name: problems/discrete_geometry/E0102
 title: Problem 102
 desc: |
-  Estimates the largest number of collinear points forced when n plane points
-  admit a constant times n squared lines with more than three points each.
+  Asks how many collinear points are forced when $n$ points in the plane
+  determine at least $cn^2$ lines with more than three points each, and whether
+  this number $h_c(n)$ tends to infinity for fixed $c>0$; open.
 tags:
 - Geometry
 status: open

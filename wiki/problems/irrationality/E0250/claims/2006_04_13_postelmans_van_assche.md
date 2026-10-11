@@ -2,9 +2,10 @@
 name: problems/irrationality/E0250/claims/2006_04_13_postelmans_van_assche
 title: "Postelmans and Van Assche: 1, zeta_q(1), zeta_q(2) linearly independent"
 desc: |
-  Postelmans and Van Assche (J. Number Theory 126 (2007)) prove 1, zeta_q(1)
-  and zeta_q(2) linearly independent over Q for q = 1/p, p at least 2; at
-  q = 1/2 this makes the sum of sigma(n) over 2^n irrational; refereed.
+  Postelmans and Van Assche (J. Number Theory 126 (2007), refereed) prove that
+  $1$, $\zeta_q(1)$ and $\zeta_q(2)$ are linearly independent over $\mathbb Q$
+  for $q=1/p$ with $p\ge2$. At $q=1/2$ this makes $\sum_n\sigma(n)/2^n$
+  irrational.
 authors:
 - K. Postelmans
 - W. Van Assche

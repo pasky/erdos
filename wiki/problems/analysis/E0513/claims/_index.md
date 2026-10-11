@@ -4,27 +4,28 @@ desc: The 4 claim pages of Problem 513, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-07T20:32:50Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/analysis/E0513/claims
 
 [[problems/analysis/E0513/_index|..]]
 
-[[problems/analysis/E0513/claims/1964_12_01_clunie_hayman|1964_12_01_clunie_hayman]]: Clunie and Hayman prove that the maximum-term constant B lies strictly
-above 4/7 and at most 2/pi minus an absolute positive constant; refereed in
-J. Analyse Math., the best refereed bounds on B.
+[[problems/analysis/E0513/claims/1964_12_01_clunie_hayman|1964_12_01_clunie_hayman]]: Clunie and Hayman prove that the maximum-term constant $B$ satisfies
+$4/7<B\le2/\pi-c$ for an absolute constant $c>0$. Their paper in J. Analyse
+Math. is refereed and gives the best refereed bounds on $B$.
 
-[[problems/analysis/E0513/claims/2026_02_12_he_tang|2026_02_12_he_tang]]: He and Tang's arXiv paper generalizes the Clunie-Hayman construction to a
+[[problems/analysis/E0513/claims/2026_02_12_he_tang|2026_02_12_he_tang]]: He and Tang's arXiv paper generalizes the Clunie–Hayman construction to a
 two-parameter family and certifies by ball arithmetic that one member gives
-B > 0.58507; credited by the site's commentary, unrefereed.
+$B>0.58507$. The site's commentary credits it, but it is unrefereed.
 
 [[problems/analysis/E0513/claims/2026_02_27_sothanaphan|2026_02_27_sothanaphan]]: Sothanaphan's note, produced with GPT-5.2 Thinking, certifies by interval
 arithmetic that a new parameter choice in He and Tang's family gives
-B >= 0.585078819653; credited by the site's commentary, unreviewed.
+$B\ge0.585078819653$. The site's commentary credits it, but it is unreviewed.
 
-[[problems/analysis/E0513/claims/2026_08_02_lystad|2026_08_02_lystad]]: A Zenodo record with declared AI assistance certifying B >= 0.5850788196
-from an explicit function of the He-Tang family by interval arithmetic,
-and re-verifying the stronger bound 0.585078819653; unreviewed.
+[[problems/analysis/E0513/claims/2026_08_02_lystad|2026_08_02_lystad]]: T. Alexander Lystad's Zenodo record, with declared AI assistance, certifies
+$B\ge0.5850788196$ by interval arithmetic for an explicit function of the
+He–Tang family. It also re-verifies the stronger bound $0.585078819653$ and is
+unreviewed.
 
 ***

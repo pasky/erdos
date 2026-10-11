@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E1149
 title: Problem 1149
 desc: |
-  Determines the density of integers n whose greatest common divisor with the
-  integer part of n to the power alpha is one, for non-integer positive alpha.
+  States that for every non-integer real $\alpha>0$ the integers $n\ge1$ with
+  $(n,\lfloor n^\alpha\rfloor)=1$ have density $6/\pi^2$; proved.
 tags:
 - Number theory
 status: solved
@@ -23,19 +23,19 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Let $\alpha>0$ be a real number, not an integer. The density of
 integers $n\geq 1$ for which $(n,\lfloor n^\alpha\rfloor)=1$ is $6/\pi^2$.
 
-**Status.** Proved. Theorem 1 of Bergelson and Richter ([BeRi17], a chapter of
-a Springer Festschrift volume, arXiv:1611.08044) gives density $6/\pi^2$ for
-the integers $n$ coprime to $\lfloor f(n)\rfloor$ for every Hardy-field $f$
-meeting its growth conditions, $f(t)=t^\alpha$ with $\alpha>0$ a non-integer
-among them; the site's curator, Thomas Bloom, records this as the proof. The
+**Status.** Proved. Theorem 1 of Bergelson and Richter ([BeRi17], a chapter of a
+Springer Festschrift volume, arXiv:1611.08044) gives density $6/\pi^2$ for the
+integers $n$ coprime to $\lfloor f(n)\rfloor$. It covers every Hardy-field $f$
+meeting its growth conditions, and $f(t)=t^\alpha$ with $\alpha>0$ a non-integer
+is among them. The site's curator, Thomas Bloom, records this as the proof. The
 claim page
 [[problems/integer_sequences/E1149/claims/2016_11_24_bergelson_richter|Bergelson and Richter 2017]]
 records the acceptance. Earlier, Delmer and Deshouillers (2002) proved the
-statement for every non-integer $\alpha>0$,
-[[problems/integer_sequences/E1149/claims/2002_09_01_delmer_deshouillers|Delmer and Deshouillers 2002]],
-and Lambek and Moser (1955) proved the exponents $\alpha=1/k$ for integers
-$k\ge2$,
-[[problems/integer_sequences/E1149/claims/1955_01_01_lambek_moser|Lambek and Moser 1955]].
+statement for every non-integer $\alpha>0$
+([[problems/integer_sequences/E1149/claims/2002_09_01_delmer_deshouillers|Delmer and Deshouillers 2002]]).
+Before them, Lambek and Moser (1955) proved the exponents $\alpha=1/k$ for
+integers $k\ge2$
+([[problems/integer_sequences/E1149/claims/1955_01_01_lambek_moser|Lambek and Moser 1955]]).
 Bergelson and Richter's introduction credits Lambek and Moser with all
 $0<\alpha<1$, which is more than their paper states.
 

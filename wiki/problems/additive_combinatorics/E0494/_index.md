@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0494
 title: Problem 494
 desc: |
-  Asks whether, for k greater than two, the multiset of all sums of k distinct
-  elements of a finite set of complex numbers determines the set, given its
-  size.
+  Asks whether, for $k>2$, the multiset of sums of $k$ distinct elements of a
+  finite set $A\subset\mathbb{C}$, together with $|A|$, determines $A$ when
+  $|A|$ is large enough in terms of $k$; the answer is yes.
 tags:
 - Analysis
 - Additive combinatorics
@@ -99,18 +99,16 @@ two large exceptions rest on the credit to Fomin and Izhboldin (1994) in the
 formal-conjectures statement file; the exceptional sizes are finite in
 number for every $k>2$ by [GFS62].
 
-**Status.** The site labels the problem PROVED and credits Gordon, Fraenkel
-and Straus with uniqueness for every $k$ once $|A|$ is sufficiently large;
-the corrected Statement is Bloom's reading, so the label describes it. The
-theorem of Section 4 of [GFS62] (Pacific J. Math. 12 (1962), 187--196,
-refereed) settles it: for every $k>2$, all but finitely many sizes $|A|$
-admit no two distinct sets with the same multiset $A_k$. Selfridge and Straus
-[SeSt58] settle $k=3$ for $|A|>6$ other than $27$ and $486$, $k=4$ for
-$|A|>12$, and every $k$ when $|A|$ has a prime factor exceeding $k$. The claim
-pages are
+**Status.** The site labels the problem PROVED. It credits Gordon, Fraenkel and
+Straus with uniqueness for every $k$ once $|A|$ is sufficiently large. The
+corrected Statement is Bloom's reading, so the label describes it. The theorem
+of Section 4 of [GFS62] (Pacific J. Math. 12 (1962), 187--196, refereed) settles
+it. For every $k>2$, all but finitely many sizes $|A|$ admit no two distinct
+sets with the same multiset $A_k$. Selfridge and Straus [SeSt58] settle three
+cases: $k=3$ for $|A|>6$ other than $27$ and $486$, $k=4$ for $|A|>12$, and
+every $k$ when $|A|$ has a prime factor exceeding $k$. The claim pages are
 [[problems/additive_combinatorics/E0494/claims/1962_03_01_gordon_fraenkel_straus|Gordon, Fraenkel and Straus]]
-(an accepted full claim, on the refereed publication and the site's credit)
-and
+(an accepted full claim, on the refereed publication and the site's credit) and
 [[problems/additive_combinatorics/E0494/claims/1958_12_01_selfridge_straus|Selfridge and Straus]]
 (an accepted partial claim).
 

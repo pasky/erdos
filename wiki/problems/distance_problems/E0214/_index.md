@@ -2,8 +2,9 @@
 name: problems/distance_problems/E0214
 title: Problem 214
 desc: |
-  Asks whether the complement of any planar set that avoids distance one must
-  contain the four corners of a unit square.
+  Asks whether the complement of any set in the plane with no two points at
+  distance $1$ must contain the four corners of a unit square. The answer is
+  yes.
 tags:
 - Geometry
 - Distances
@@ -26,12 +27,12 @@ updated: 2026-10-08T00:44:25Z
 are distance $1$ apart. Must the complement of $S$ contain four points which
 form a unit square?
 
-**Status.** Proved. Juhász's 1979 theorem gives the stronger conclusion that
-the complement contains a congruent copy of every prescribed four-point set.
-The site's label, PROVED (LEAN), carries a Lean qualifier that refers to the
-public formalizations discussed below; this corpus has built neither of them.
-The theorem is recorded in `claims/` as an accepted claim, from which the
-problem's standing derives.
+**Status.** Proved. The site's label is PROVED (LEAN). Juhász's 1979 theorem
+gives the stronger conclusion that the complement contains a congruent copy of
+every prescribed four-point set. The theorem is recorded in `claims/` as an
+accepted claim, from which the problem's standing derives. The site's Lean
+qualifier refers to the public formalizations discussed below. This corpus has
+built neither of them.
 
 
 **Source.** T. F. Bloom, [Erdős Problem #214](https://www.erdosproblems.com/214),

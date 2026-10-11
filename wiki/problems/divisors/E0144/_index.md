@@ -2,9 +2,8 @@
 name: problems/divisors/E0144
 title: Problem 144
 desc: |
-  Asks whether almost every integer has two divisors with the larger less than
-  twice the smaller, so that the density of such integers exists and equals
-  one.
+  Asks whether the density of integers with two divisors $d_1<d_2<2d_1$ exists
+  and equals $1$, so that almost every integer has such a pair; proved.
 tags:
 - Number theory
 - Divisors

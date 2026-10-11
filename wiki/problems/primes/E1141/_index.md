@@ -2,8 +2,8 @@
 name: problems/primes/E1141
 title: Problem 1141
 desc: |
-  Asks whether infinitely many n have n minus k squared prime for every k
-  coprime to n with k squared below n.
+  Asks whether infinitely many $n$ have $n-k^2$ prime for every $k$ coprime to
+  $n$ with $k^2<n$; disproved.
 tags:
 - Number theory
 - Primes
@@ -25,11 +25,10 @@ updated: 2026-10-08T17:47:46Z
 $k$ with $(n,k)=1$ and $k^2<n$?
 
 **Status.** The site labels the problem DISPROVED (LEAN). It credits the
-finiteness theorem of [APSSV26b], whose authors attribute the proof to an
-internal OpenAI model; its Lean marker refers to third-party formalizations that
-this corpus has not built. The standing derives from
-[[problems/primes/E1141/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant|the
-claim page]].
+finiteness theorem of [APSSV26b]. The authors of that paper attribute the proof
+to an internal OpenAI model. The site's Lean marker refers to third-party
+formalizations that this corpus has not built. The standing derives from
+[[problems/primes/E1141/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant|the claim page]].
 
 **Source.** [erdosproblems.com/1141](https://www.erdosproblems.com/1141),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1141,

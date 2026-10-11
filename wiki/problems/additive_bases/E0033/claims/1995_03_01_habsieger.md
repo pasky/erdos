@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0033/claims/1995_03_01_habsieger
 title: "Habsieger's lower bound: the liminf is at least 4 over pi"
 desc: |
-  Habsieger's 1995 theorem bounds an additive complement of a polynomial's
-  values up to N below by an explicit constant, 4/pi for the squares, so every
-  additive complement of the squares has liminf at least 4/pi.
+  Habsieger's 1995 theorem gives an explicit lower bound for an additive
+  complement of a polynomial's values up to $N$, with constant $4/\pi$ for the
+  squares. So every additive complement of the squares has liminf at least
+  $4/\pi$.
 authors:
 - L. Habsieger
 status: accepted
@@ -61,12 +62,12 @@ the smallest possible limsup is at least $4/\pi$.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper.
 
-**Acceptance.** Refereed: L. Habsieger, On the additive completion of
-polynomial sets, J. Number Theory 51 (1995), no. 1, 130–135. The site's curator
-records the bound in the problem's remarks, but the site labels the problem
-OPEN, so that remark is not acceptance of the problem and the page lists no
-`reviewed` evidence. The edition read is a scan of the journal paper; its
-proof is not compiled in this corpus.
+**Acceptance.** Refereed: L. Habsieger, On the additive completion of polynomial
+sets, J. Number Theory 51 (1995), no. 1, 130–135. The site's curator records the
+bound in the problem's remarks. But the site labels the problem OPEN, so that
+remark is not acceptance of the problem, and the page lists no `reviewed`
+evidence. The edition read is a scan of the journal paper. Its proof is not
+compiled in this corpus.
 
 **Dating.** The page is dated by the issue month in the publisher's record,
 March 1995; the day is a placeholder.

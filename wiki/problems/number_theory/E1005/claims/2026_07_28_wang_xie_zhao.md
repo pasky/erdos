@@ -2,9 +2,10 @@
 name: problems/number_theory/E1005/claims/2026_07_28_wang_xie_zhao
 title: Wang, Xie and Zhao's exact formula for f(n)
 desc: |
-  A 2026 preprint, with declared AI assistance, claiming f(n) = floor(n/4) + d
-  for all sufficiently large n and, with computer checks, for every n at
-  least 4 outside fifteen listed exceptions; a tab claim, unreviewed.
+  A 2026 preprint of Wang, Xie and Zhao, with declared AI assistance, claims
+  $f(n)=\lfloor n/4\rfloor+d$ for all sufficiently large $n$ and, with computer
+  checks, for every $n\ge4$ outside fifteen listed exceptions. It is a tab
+  claim, unreviewed.
 authors:
 - Yanmohan Wang
 - Mingxu Xie

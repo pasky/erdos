@@ -4,15 +4,16 @@ desc: The 1 claim page of Problem 294, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T08:47:56Z
-updated: 2026-10-07T08:47:56Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/unit_fractions/E0294/claims
 
 [[problems/unit_fractions/E0294/_index|..]]
 
-[[problems/unit_fractions/E0294/claims/2024_04_10_liu_sawhney|2024_04_10_liu_sawhney]]: Liu and Sawhney's Theorem 1.6 (Int. Math. Res. Not. 2026) determines the
-least starting denominator t(N) that admits no Egyptian fraction for 1 below
-N up to a factor (log log N)^3 (log log log N)^O(1).
+[[problems/unit_fractions/E0294/claims/2024_04_10_liu_sawhney|2024_04_10_liu_sawhney]]: Liu and Sawhney's Theorem 1.6 (Int. Math. Res. Not. 2026) determines $t(N)$,
+the least $t$ that cannot start a representation of $1$ by distinct unit
+fractions with denominators at most $N$, up to a factor
+$(\log\log N)^3(\log\log\log N)^{O(1)}$.
 
 ***

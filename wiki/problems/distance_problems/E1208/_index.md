@@ -2,9 +2,9 @@
 name: problems/distance_problems/E1208
 title: Problem 1208
 desc: |
-  Estimates, for fixed dimension d, the largest number of points with all
-  distances distinct that must lie inside every set of n points in
-  d-dimensional space.
+  Asks for an estimate of $F_d(n)$, the largest number of points with all
+  distances distinct that every set of $n$ points in $\mathbb{R}^d$ must
+  contain, for fixed $d\ge2$ as $n\to\infty$; open.
 tags:
 - Geometry
 - Distances

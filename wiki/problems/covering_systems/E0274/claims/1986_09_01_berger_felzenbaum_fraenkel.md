@@ -2,9 +2,10 @@
 name: problems/covering_systems/E0274/claims/1986_09_01_berger_felzenbaum_fraenkel
 title: Berger, Felzenbaum and Fraenkel's finite nilpotent groups
 desc: |
-  Corollary IV of the Canad. Math. Bull. paper (1986): a coset partition of a
-  finite nilpotent group into two or more cosets has two cosets of the same
-  order; accepted on the refereed paper.
+  Corollary IV of Berger, Felzenbaum and Fraenkel's 1986 paper in Canad. Math.
+  Bull. states that a coset partition of a finite nilpotent group into two or
+  more cosets has two cosets of the same order. It is accepted on the refereed
+  paper.
 authors:
 - M. A. Berger
 - A. Felzenbaum

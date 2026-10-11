@@ -2,8 +2,10 @@
 name: problems/analysis/E1042
 title: Problem 1042
 desc: |
-  Asks what can be said about a closed set in the plane of transfinite
-  diameter one that lies inside no closed disc of radius one.
+  Asks whether $\{z:\lvert f(z)\rvert<1\}$ can have $n$ components for monic $f$
+  of degree $n$ with roots in a closed $F\subset\mathbb{C}$ of transfinite
+  diameter $1$ in no closed disc of radius $1$, and whether it has at most
+  $(1-c)n$, with $c=c(F)>0$, when the diameter is below $1$; proved.
 tags:
 - Analysis
 status: solved
@@ -49,7 +51,7 @@ set, the question is not answered. The paper proves $n$ components along a
 subsequence only for closed lemniscates, and it conjectures only the weaker
 $\limsup_n C_n/n=1$ for every compact set of capacity $1$.
 
-**Status.** Proved. The site credits Ghosh and Ramachandran [GhRa24]; the
+**Status.** Proved. The site credits Ghosh and Ramachandran [GhRa24]. The
 standing derives from
 [[problems/analysis/E1042/claims/2023_12_21_ghosh_ramachandran|their claim page]].
 

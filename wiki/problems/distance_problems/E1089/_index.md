@@ -2,9 +2,9 @@
 name: problems/distance_problems/E1089
 title: Problem 1089
 desc: |
-  Estimates the fewest points in d-dimensional space guaranteeing at least n
-  distinct distances, and whether dividing it by d to the n minus one has a
-  limit.
+  Asks to estimate $g_d(n)$, the least number such that any $g_d(n)$ points in
+  $\mathbb{R}^d$ determine at least $n$ distinct distances, and whether
+  $\lim_{d\to\infty}g_d(n)/d^{n-1}$ exists; the limit is proved to exist.
 tags:
 - Geometry
 - Distances
@@ -32,14 +32,15 @@ $$
 
 exist?
 
-**Status.** SOLVED, in the site's label: for $n\ge2$,
-$\binom{d+1}{n-1}+1\le g_d(n)\le\binom{d+n-1}{n-1}+1$, so the limit exists and
-equals $1/(n-1)!$. The site credits the lower bound to the Aletheia agent of
-Feng et al. [Fe26] and the upper bound to Bannai, Bannai and Stanton [BBS83];
-the limit question is thereby answered yes, and the accepted proof is recorded
-on [[problems/distance_problems/E1089/claims/2026_01_29_feng|its claim page]].
-The derived standing, solved and proved, is more specific than the site's label,
-which names no polarity: the accepted claim proves that the limit exists. The
+**Status.** SOLVED on the site. The derived standing is solved and proved. This
+is more specific than the site's label, which names no polarity, because the
+accepted claim proves that the limit exists. The site gives, for $n\ge2$, the
+bounds $\binom{d+1}{n-1}+1\le g_d(n)\le\binom{d+n-1}{n-1}+1$. So the limit
+exists and equals $1/(n-1)!$, and the limit question is answered yes. The site
+credits the lower bound to the Aletheia agent of Feng et al. [Fe26] and the
+upper bound to Bannai, Bannai and Stanton [BBS83]. The accepted proof is
+recorded on
+[[problems/distance_problems/E1089/claims/2026_01_29_feng|its claim page]]. The
 exact value of $g_d(n)$ is not determined.
 
 **Source.** [erdosproblems.com/1089](https://www.erdosproblems.com/1089),

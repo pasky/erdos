@@ -2,8 +2,9 @@
 name: problems/irrationality/E0260
 title: Problem 260
 desc: |
-  Asks whether the sum of a-n divided by two to the a-n is irrational for
-  every increasing sequence whose ratio to n tends to infinity.
+  Asks whether $\sum_n a_n/2^{a_n}$ is irrational for every increasing sequence
+  $a_n$ with $a_n/n\to\infty$; open, with a pending claim that the answer is
+  yes.
 tags:
 - Irrationality
 status: claimed
@@ -29,12 +30,13 @@ $$
 
 irrational?
 
-**Status.** Open, the site's label (OPEN; page last edited 2026-02-01). One
-pending full claim is recorded:
-[[problems/irrationality/E0260/claims/2026_06_23_wang_grau_ribas|Wang and Grau Ribas's positive-density theorem]],
-a 2026 preprint (later versions by Wang alone) with an author-built Lean
-development stating that the answer is yes; the frontmatter standing,
-`claimed`/`proved`, follows from it. An accepted partial claim page records
+**Status.** Open, the site's label (OPEN; page last edited 2026-02-01). The
+frontmatter standing, `claimed`/`proved`, follows from the one pending full
+claim recorded:
+[[problems/irrationality/E0260/claims/2026_06_23_wang_grau_ribas|Wang and Grau Ribas's positive-density theorem]].
+It is a 2026 preprint (later versions by Wang alone) with an author-built Lean
+development, and it states that the answer is yes. An accepted partial claim
+page records
 [[problems/irrationality/E0260/claims/1981_05_11_erdos|Erdős's 1981 theorem]]
 for the sequences whose consecutive gaps tend to infinity.
 

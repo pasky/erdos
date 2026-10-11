@@ -2,10 +2,10 @@
 name: problems/integer_sequences/E0980
 title: Problem 980
 desc: |
-  Asks whether the sum over primes below x of the least kth power nonresidue
-  is asymptotic to a constant times x over log x; proved for every k under
-  Elliott's convention (Erdős 1961 for k=2, Elliott 1967); the sum over every
-  prime with a kth power nonresidue is an open variant for composite k.
+  Asks whether $\sum_{p<x}n_k(p)\sim c_kx/\log x$, with $n_k(p)$ the least $k$th
+  power nonresidue of $p$. It is proved for every $k$ under Elliott's convention
+  (Erdős 1961 for $k=2$, Elliott 1967), and the variant over every prime with a
+  $k$th power nonresidue is open for composite $k$.
 tags:
 - Number theory
 status: solved
@@ -78,15 +78,15 @@ $n_d(p)$. Theorem 1 of [El67b] does not cover that sum, and no recorded source
 does, so the variant is open for composite $k$. It has no claim page and does
 not enter the standing.
 
-**Status.** PROVED on erdosproblems.com, crediting Elliott [El67b], who proved
-the asymptotic for every $k$ under the convention of the precise Statement,
-with a constant $C_{k,1}$ given as an explicit prime series when $k$ is an odd
-prime
-([[problems/integer_sequences/E0980/claims/1967_01_09_elliott|claim page]]),
-after Erdős [Er61e] had proved the case $k=2$
+**Status.** PROVED on erdosproblems.com. The label describes the precise
+Statement. The variant under Formulation stays open for composite $k$. The site
+credits Elliott [El67b], who proved the asymptotic for every $k$ under the
+convention of the precise Statement
+([[problems/integer_sequences/E0980/claims/1967_01_09_elliott|claim page]]).
+When $k$ is an odd prime, he gives the constant $C_{k,1}$ as an explicit prime
+series. Before him, Erdős [Er61e] had proved the case $k=2$
 ([[problems/integer_sequences/E0980/claims/1961_01_01_erdos|claim page]]) and
-conjectured the general one. The label describes the precise Statement; the
-variant under Formulation stays open for composite $k$.
+conjectured the general case.
 
 **Source.** [erdosproblems.com/980](https://www.erdosproblems.com/980), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #980,

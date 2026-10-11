@@ -2,10 +2,11 @@
 name: problems/set_systems/E1076/claims/2018_02_12_glock_kuhn_lo_osthus
 title: Glock, Kühn, Lo and Osthus's locally sparse partial Steiner systems
 desc: |
-  For every fixed k there are partial Steiner triple systems on n vertices
-  with (1/6-o(1))n^2 triples and no j vertices spanning j-2 triples for any j
-  from 4 to k, which with linearity settles the corrected Statement; refereed
-  in Combinatorica and credited by the site's curator.
+  For every fixed $k$, Glock, Kühn, Lo and Osthus build $n$-vertex partial
+  Steiner triple systems with $(1/6-o(1))n^2$ triples and no $j$ vertices
+  spanning $j-2$ triples for $4\le j\le k$. With linearity, this refereed
+  Combinatorica result, credited by the curator, settles the corrected
+  Statement.
 authors:
 - Stefan Glock
 - Daniela Kühn
@@ -63,14 +64,15 @@ results that answer only that wording.
 
 **Acceptance.** Refereed: S. Glock, D. Kühn, A. Lo and D. Osthus, On a
 conjecture of Erdős on locally sparse Steiner triple systems, Combinatorica 40
-(2020), no. 3, 363–403, published online 28 April 2020 after the arXiv posting
-of 12 February 2018. Reviewed: the site's curator, Thomas Bloom, marks Problem
-1076 proved and credits the asymptotic version to this paper [GKLO20] and to
-Bohman and Warnke [BoWa19], reading the question as the approximate form of
-[[problems/set_systems/E0207/_index|Problem 207]], the reading the corrected
-Statement adopts (problem page last edited 7 October 2025, after a comment in
-the site's thread the day before pointed to the two papers). The card records
-the theorem from the paper; its proof is unreviewed.
+(2020), no. 3, 363–403. It was published online on 28 April 2020, after the
+arXiv posting of 12 February 2018. Reviewed: the site's curator, Thomas Bloom,
+marks Problem 1076 proved. Bloom credits the asymptotic version to this paper
+[GKLO20] and to Bohman and Warnke [BoWa19]. Bloom reads the question as the
+approximate form of [[problems/set_systems/E0207/_index|Problem 207]], which is
+the reading the corrected Statement adopts. The problem page was last edited on
+7 October 2025, after a comment in the site's thread the day before pointed to
+the two papers. The card records the theorem from the paper. Its proof is
+unreviewed.
 
 **Formalizations.** Collin Yuanjie Ren's Lean 4 submission, linked above,
 states the corrected Statement, forbidding every $(j,j-2)$-configuration for

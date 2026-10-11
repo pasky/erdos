@@ -2,9 +2,10 @@
 name: problems/diophantine_problems/E0935
 title: Problem 935
 desc: |
-  Asks whether the powerful part of n(n+1)...(n+l) is below n^(2+eps) for
-  every eps once n is large, whether its ratio to n squared is unbounded when l
-  is at least 2, and whether its ratio to n^(l+1) tends to zero.
+  Asks whether the powerful part of $n(n+1)\cdots(n+\ell)$ is below
+  $n^{2+\epsilon}$ for every $\epsilon>0$ once $n$ is large and, for
+  $\ell\geq 2$, whether its ratio to $n^2$ is unbounded and whether its ratio to
+  $n^{\ell+1}$ tends to zero; open.
 tags:
 - Number theory
 - Powerful numbers

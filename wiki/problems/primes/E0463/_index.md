@@ -2,9 +2,9 @@
 name: problems/primes/E0463
 title: Problem 463
 desc: |
-  Asks whether some function tending to infinity admits, for every large n, a
-  composite number above n plus that function but below n plus its least prime
-  factor.
+  Asks whether there is a function $f$ with $f(n)\to\infty$ such that, for all
+  large $n$, some composite $m$ satisfies $n+f(n)<m<n+p(m)$, where $p(m)$ is the
+  least prime factor of $m$; open.
 tags:
 - Number theory
 - Primes

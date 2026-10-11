@@ -2,8 +2,9 @@
 name: problems/distance_problems/E0217
 title: Problem 217
 desc: |
-  Asks for which n there are n points, no three collinear and no four
-  concyclic, whose distances take each multiplicity up to n minus one.
+  Asks for which $n$ there are $n$ points in the plane, no three on a line and
+  no four on a circle, that determine $n-1$ distinct distances, the $i$th of
+  which occurs $i$ times. It is open.
 tags:
 - Geometry
 - Distances
@@ -25,24 +26,25 @@ updated: 2026-10-07T23:33:05Z
 a line and no four on a circle, which determine $n-1$ distinct distances and so
 that (in some ordering of the distances) the $i$th distance occurs $i$ times?
 
-**Status.** Open, the site's label (OPEN). Four claim pages are recorded,
-each answering one value of $n$ yes: $n=5$ on
-[[problems/distance_problems/E0217/claims/1983_01_01_pomerance|Pomerance's
-claim page]], a construction Erdős describes in [Er83c], which stays claimed
-because that transcript is its only publication; $n=7$ on
-[[problems/distance_problems/E0217/claims/1987_01_01_palasti|Palásti's 1987
-claim page]]; $n=6$, with the further restrictions that no point is
-equidistant from three others and no triangle is equilateral, on
-[[problems/distance_problems/E0217/claims/1989_01_01_palasti|Palásti's
-Discrete Mathematics claim page]]; and $n=8$ on
-[[problems/distance_problems/E0217/claims/1989_09_01_palasti|Palásti's
-lattice-point claim page]], the last three accepted on their refereed
-publications. With the four-point example, an isosceles triangle and its
-circumcenter ([Er83c], p. 53; Erdős's own example, recorded in prose rather
-than on a claim page), the answer is yes for $4\le n\le8$ and open for every
-$n\ge9$. The property does not pass to subsets, so each construction settles
-only its own $n$. Erdős believed that no example exists for all large $n$;
-this would follow from $h(n)\ge n$ for large $n$, with $h$ the function of
+**Status.** Open. This is the site's label (OPEN). Four claim pages are
+recorded, and each answers yes for one value of $n$. The case $n=5$ is on
+[[problems/distance_problems/E0217/claims/1983_01_01_pomerance|Pomerance's claim page]].
+Erdős describes this construction in [Er83c], and it stays claimed because that
+transcript is its only publication. The case $n=7$ is on
+[[problems/distance_problems/E0217/claims/1987_01_01_palasti|Palásti's 1987 claim page]].
+The case $n=6$ is on
+[[problems/distance_problems/E0217/claims/1989_01_01_palasti|Palásti's Discrete Mathematics claim page]],
+with the further restrictions that no point is equidistant from three others and
+no triangle is equilateral. The case $n=8$ is on
+[[problems/distance_problems/E0217/claims/1989_09_01_palasti|Palásti's lattice-point claim page]].
+These last three are accepted on their refereed publications.
+
+Erdős's own four-point example is an isosceles triangle and its circumcenter
+([Er83c], p. 53). It is recorded in prose rather than on a claim page. With it,
+the answer is yes for $4\le n\le8$ and open for every $n\ge9$. The property does
+not pass to subsets, so each construction settles only its own $n$. Erdős
+believed that no example exists for all large $n$. This would follow from
+$h(n)\ge n$ for large $n$, where $h$ is the function of
 [[problems/distance_problems/E0098/_index|Problem 98]].
 
 **Source.** [erdosproblems.com/217](https://www.erdosproblems.com/217), accessed

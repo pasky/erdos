@@ -2,8 +2,9 @@
 name: problems/divisors/E0844
 title: Problem 844
 desc: |
-  Bounds the largest set of integers up to N in which the product of any two
-  members is never squarefree.
+  Asks whether the even numbers together with the odd non-squarefree numbers
+  form a largest $A\subseteq\{1,\ldots,N\}$ in which no product $ab$ with
+  $a,b\in A$ is squarefree; proved.
 tags:
 - Number theory
 - Intersecting families

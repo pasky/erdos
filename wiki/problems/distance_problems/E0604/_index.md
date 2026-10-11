@@ -2,8 +2,8 @@
 name: problems/distance_problems/E0604
 title: Problem 604
 desc: |
-  Asks whether any n distinct points in the plane must contain a point from
-  which the number of distinct distances to the others is almost n.
+  Asks whether any $n$ distinct points in the plane must include a point with
+  $\gg n^{1-o(1)}$ distinct distances to the others; open.
 tags:
 - Geometry
 - Distances

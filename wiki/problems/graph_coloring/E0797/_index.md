@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0797
 title: Problem 797
 desc: |
-  The largest number of colors needed to color any graph of maximum degree d
-  so that no edge and no cycle uses only one or two colors respectively; of
-  order d^{4/3} up to a (log d)^{1/3} factor by Alon, McDiarmid and Reed 1991.
+  Asks for an estimate of the largest acyclic chromatic number $f(d)$ of a graph
+  with maximum degree $d$ (proper colorings with no two-colored cycle), in
+  particular whether $f(d)=o(d^2)$. Alon, McDiarmid and Reed (1991) showed that
+  $f(d)$ has order $d^{4/3}$ up to a $(\log d)^{1/3}$ factor.
 tags:
 - Graph theory
 - Chromatic number

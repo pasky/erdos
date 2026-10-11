@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0736
 title: Problem 736
 desc: |
-  Asks whether a graph of chromatic number aleph one must, for every cardinal
-  m, admit a graph of chromatic number m all of whose finite subgraphs occur
-  in it.
+  Asks whether, for every graph $G$ of chromatic number $\aleph_1$ and every
+  cardinal $m$, there is a graph of chromatic number $m$ all of whose finite
+  subgraphs occur in $G$; open.
 tags:
 - Graph theory
 - Chromatic number
@@ -27,18 +27,19 @@ for every cardinal number $m$, some graph $G_m$ of chromatic number $m$ such
 that every finite subgraph of $G_m$ is a subgraph of $G$?
 
 **Status.** Open. The site labels the problem NOT PROVABLE, since Komjáth and
-Shelah [KoSh05] proved it consistent with ZFC that the answer is no, through a
-graph of chromatic number $\aleph_1$ such that every graph whose finite
-subgraphs all occur in it has chromatic number at most $\aleph_2$, so that no
+Shelah [KoSh05] proved it consistent with ZFC that the answer is no. They did
+this through a graph of chromatic number $\aleph_1$ such that every graph whose
+finite subgraphs all occur in it has chromatic number at most $\aleph_2$. So no
 $G_m$ exists for $m>\aleph_2$. That result settles one side: ZFC does not prove
-a positive answer. Whether a positive answer is itself consistent, and so
-whether ZFC also fails to disprove it, is not settled. This page departs from
+a positive answer. It is not settled whether a positive answer is itself
+consistent, and so whether ZFC also fails to disprove it. This page departs from
 the site's label and shows the problem open, because one side alone leaves the
-question open. The question is Walter Taylor's conjecture at $\aleph_1$; the
-general form replaces $\aleph_1$ by any uncountable cardinal $\kappa$, and
-Erdős asked more broadly which families $\mathcal{F}_\alpha$ of finite graphs
-contain all the finite subgraphs of some graph of chromatic number
-$\aleph_\alpha$.
+question open.
+
+The question is Walter Taylor's conjecture at $\aleph_1$. The general form
+replaces $\aleph_1$ by any uncountable cardinal $\kappa$. Erdős asked more
+broadly which families $\mathcal{F}_\alpha$ of finite graphs contain all the
+finite subgraphs of some graph of chromatic number $\aleph_\alpha$.
 
 **Source.** [erdosproblems.com/736](https://www.erdosproblems.com/736), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #736,

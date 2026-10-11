@@ -3,8 +3,8 @@ name: problems/diophantine_problems/E0407/claims/1988_10_13_evertse_gyory_stewar
 title: Evertse, Győry, Stewart and Tijdeman's proof of Newman's conjecture
 desc: |
   Evertse, Győry, Stewart and Tijdeman prove that the number of representations
-  of n as a power of two plus a power of three plus a product of the two is
-  bounded by an absolute constant, the first proof of Newman's conjecture.
+  of $n$ as $2^a+3^b+2^c3^d$ is bounded by an absolute constant. This is the
+  first proof of Newman's conjecture.
 authors:
 - J.-H. Evertse
 - K. Győry
@@ -68,11 +68,11 @@ finite rank also bounds $w(n)$, as the corpus's
 [[../library/diophantine_problems/evertse_schlickewei_schmidt_2002_linear_equations_multiplicative_group/_index|card]]
 of that paper records; it is not a claim about this problem by its authors.
 
-**Acceptance.** The site's curator, T. F. Bloom, labels the problem proved
-and credits this paper with the proof; that documented acceptance is the
-`reviewed` evidence. The paper appears in an edited proceedings volume, and
-whether its chapters were refereed is not recorded here, so `refereed` is not
-listed. Nothing of the proof was checked by this project.
+**Acceptance.** The site's curator, T. F. Bloom, labels the problem proved and
+credits this paper with the proof. That documented acceptance is the `reviewed`
+evidence. The paper appears in an edited proceedings volume. Whether its
+chapters were refereed is not recorded here, so `refereed` is not listed. This
+project did not check any part of the proof.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos407.lean` of
 Boris Alexeev's repository `plby/lean-proofs` (Lean and Mathlib v4.33.0; 267

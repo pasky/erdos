@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0627/claims/2025_12_18_araujo_filipe_miyazaki
 title: Conditional existence of the limit from the diagonal Ramsey limit
 desc: |
-  Theorem 1.2 of Araujo, Filipe and Miyazaki (arXiv, 2025): if R(s,t) is at
-  most R(k,k) whenever st is at most k^2, and log_2 R(k,k)/k tends to l, then
-  f(n)/(n/(log_2 n)^2) tends to l^2; conditional on two unproved hypotheses.
+  Theorem 1.2 of Araujo, Filipe and Miyazaki (arXiv, 2025) states that if
+  $R(s,t)\le R(k,k)$ whenever $st\le k^2$, and $\log_2R(k,k)/k\to\ell$, then
+  $f(n)/(n/(\log_2n)^2)\to\ell^2$. The result is conditional on these two
+  unproved hypotheses.
 authors:
 - Igor Araujo
 - Rafael Filipe
@@ -61,10 +62,10 @@ constant $3.71943$, bounds only the upper limit and is recorded on the problem
 page. The argument was not checked here.
 
 **Acceptance.** None: the note is not refereed (Crossref lists no journal
-version), no outside reviewer has endorsed it, and the site's commentary
-(page last edited 8 February 2026) describes the conditional theorem and the
-improved constant on a problem it labels OPEN, which is context and not
-acceptance. The discussion thread's one post, of 19 December 2025, points to
+version), and no outside reviewer has endorsed it. The site's commentary (page
+last edited 8 February 2026) describes the conditional theorem and the improved
+constant. But the site labels the problem OPEN, so the commentary is context and
+not acceptance. The discussion thread's one post, of 19 December 2025, points to
 the note and its corrected constants.
 
 **Depends on.** No page of this wiki.

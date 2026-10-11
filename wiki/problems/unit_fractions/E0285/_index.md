@@ -2,8 +2,9 @@
 name: problems/unit_fractions/E0285
 title: Problem 285
 desc: |
-  Asks whether the least possible largest denominator among k distinct unit
-  fractions summing to one is asymptotically e over e minus one, times k.
+  Asks whether $f(k)$, the least possible largest denominator among $k$ distinct
+  unit fractions summing to $1$, satisfies $f(k)=(1+o(1))\frac{e}{e-1}k$;
+  proved.
 tags:
 - Number theory
 - Unit fractions
@@ -46,17 +47,15 @@ $\sum_{u\le n\le eu}1/n=1+o(1)$: the $k$ reciprocals of distinct
 denominators at most $f(k)$ sum to $1$, so $k\le\frac{e-1}{e}f(k)+o(f(k))$.
 The question is whether the matching upper bound holds.
 
-**Status.** PROVED (LEAN), in the site's label. Martin's Theorem 2 (Acta
-Arith. 95 (2000), no. 3, 231--260; refereed) gives, for every positive
-rational $r$ and all $t\ge t_0(r)$,
-$M_t(r)=t/(1-e^{-r})+O_r(t\log\log3t/\log3t)$, best possible; at $r=1$
-this is $f(k)=\frac{e}{e-1}k+O(k\log\log k/\log k)$, so the answer is yes;
-the standing in the frontmatter derives from the accepted claim page
+**Status.** The site's label is PROVED (LEAN). Its Lean suffix refers to a
+public Lean proof of the statement in Boris Alexeev's repository, recorded under
+Formalization and the Lean label below. The corpus has not built it, and no
+local kernel credit is claimed. Martin's Theorem 2 (Acta Arith. 95 (2000), no.
+3, 231--260; refereed) gives $M_t(r)=t/(1-e^{-r})+O_r(t\log\log3t/\log3t)$ for
+every positive rational $r$ and all $t\ge t_0(r)$, and this is best possible. At
+$r=1$ this is $f(k)=\frac{e}{e-1}k+O(k\log\log k/\log k)$, so the answer is yes.
+The standing in the frontmatter derives from the accepted claim page
 [[problems/unit_fractions/E0285/claims/1998_11_18_martin|Martin 1998]].
-The Lean suffix of the site's label refers to a public Lean proof of the
-statement in Boris Alexeev's repository, recorded under Formalization and
-the Lean label below; the corpus has not built it, and no local kernel
-credit is claimed.
 
 **Source.** [erdosproblems.com/285](https://www.erdosproblems.com/285),
 accessed 2026-09-17: the problem page (PROVED (LEAN), whose label tooltip

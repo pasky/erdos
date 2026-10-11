@@ -2,9 +2,10 @@
 name: problems/analysis/E1038
 title: Problem 1038
 desc: |
-  Determines the smallest and largest measure of the set where a monic real
-  polynomial with all roots real in minus one to one has absolute value below
-  one.
+  Asks for the infimum and supremum of the measure of
+  $\{x\in\mathbb{R}:\lvert f(x)\rvert<1\}$ over non-constant monic real
+  polynomials $f$ with all roots in $[-1,1]$. The supremum is settled, and
+  pending claims give the infimum.
 tags:
 - Analysis
 parts:
@@ -33,18 +34,18 @@ $$
 as $f\in \mathbb{R}[x]$ ranges over all non-constant monic polynomials, all of
 whose roots are real and in the interval $[-1,1]$.
 
-**Status.** Open. The site's proof-claims tab carries three full proof claims,
-each with AI systems named on the tab: by Shouqiao Wang (14 July 2026), by Tamás
-Darvas, Binghui Peng and Runzhou Tao (15 July 2026) and by Cristian Budala (24
-August 2026); all three give the same infimum, and the site's label is unchanged
-(OPEN; page last edited 11 January 2026). The pending claims are
+**Status.** Open. The site's label is unchanged (OPEN; page last edited 11
+January 2026). The site's proof-claims tab carries three full proof claims, each
+with AI systems named on the tab. They are by Shouqiao Wang (14 July 2026), by
+Tamás Darvas, Binghui Peng and Runzhou Tao (15 July 2026), and by Cristian
+Budala (24 August 2026). All three give the same infimum. The pending claims are
 [[problems/analysis/E1038/claims/2026_07_14_wang|Wang's page]],
-[[problems/analysis/E1038/claims/2026_07_15_darvas_peng_tao|the page of Darvas,
-Peng and Tao]] and [[problems/analysis/E1038/claims/2026_08_24_budala|Budala's
-page]]; the supremum alone is the accepted partial claim on
-[[problems/analysis/E1038/claims/1966_01_01_elbert|Elbert's page]] and the
-pending partial claim on [[problems/analysis/E1038/claims/2025_12_21_tao|Tao's
-page]].
+[[problems/analysis/E1038/claims/2026_07_15_darvas_peng_tao|the page of Darvas, Peng and Tao]]
+and [[problems/analysis/E1038/claims/2026_08_24_budala|Budala's page]]. The
+supremum alone is the subject of the accepted partial claim on
+[[problems/analysis/E1038/claims/1966_01_01_elbert|Elbert's page]] and of the
+pending partial claim on
+[[problems/analysis/E1038/claims/2025_12_21_tao|Tao's page]].
 
 **Source.** [erdosproblems.com/1038](https://www.erdosproblems.com/1038),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1038,

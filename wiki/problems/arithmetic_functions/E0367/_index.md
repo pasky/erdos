@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0367
 title: Problem 367
 desc: |
-  Asks whether the product of the powerful parts of k consecutive integers
-  near n is at most about n squared, for every fixed k.
+  Asks whether, for every fixed $k$, the product of the powerful parts of $k$
+  consecutive integers near $n$ is at most about $n^2$; open.
 tags:
 - Number theory
 - Powerful numbers
@@ -32,21 +32,24 @@ $$
 
 Or perhaps even $\ll_k n^2$?
 
-**Status.** Open, in the site's label (OPEN; page last edited 23 March 2026),
-which attaches to the pair of questions, listed in the frontmatter as the
+**Status.** Open, in the site's label (OPEN; page last edited 23 March 2026).
+The label attaches to the pair of questions. The frontmatter lists them as the
 parts `weak_bound` (the bound $n^{2+o(1)}$) and `strong_bound` (the bound
-$\ll_k n^2$). The second question is answered no: for $k\le2$ the bound is
-trivial, and for every $k\ge3$ the product exceeds $c\,n^2\log n$ infinitely
-often, by a Pell-equation construction of van Doorn completed by Tao with
-Gemini Deepthink in the problem's thread on 2025-11-20, which the site's
-commentary credits; the corpus records it as the pending partial claim
-[[problems/arithmetic_functions/E0367/claims/2025_11_20_van_doorn|van Doorn 2025]]
-and Hughes's sharpening of the rate as
-[[problems/arithmetic_functions/E0367/claims/2026_06_10_hughes|Hughes 2026]],
-both `claimed`, since the site labels the problem OPEN and neither has a
-refereed publication or Lean the corpus built. The first question is open
-unconditionally; Hughes's conditional yes under a consequence of the abc
-conjecture is
+$\ll_k n^2$).
+
+The second question is answered no. For $k\le2$ the bound is trivial. For every
+$k\ge3$ the product exceeds $c\,n^2\log n$ infinitely often. This follows from a
+Pell-equation construction of van Doorn, which Tao completed with Gemini
+Deepthink in the problem's thread on 2025-11-20, and which the site's commentary
+credits. The corpus records it as the pending partial claim
+[[problems/arithmetic_functions/E0367/claims/2025_11_20_van_doorn|van Doorn 2025]].
+It records Hughes's sharpening of the rate as
+[[problems/arithmetic_functions/E0367/claims/2026_06_10_hughes|Hughes 2026]].
+Both are `claimed`, since the site labels the problem OPEN and neither has a
+refereed publication or Lean the corpus built.
+
+The first question is open unconditionally. Hughes's conditional yes, under a
+consequence of the abc conjecture, is
 [[problems/arithmetic_functions/E0367/claims/2026_06_10_hughes_conditional|his conditional claim]].
 
 **Source.** [erdosproblems.com/367](https://www.erdosproblems.com/367), accessed

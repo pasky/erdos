@@ -2,8 +2,8 @@
 name: problems/primes/E0779
 title: Problem 779
 desc: |
-  Asks whether, for the product P of the first n primes, there is always a
-  prime p between the n-th prime and P such that P plus p is prime.
+  Asks whether, for the product $P=p_1\cdots p_n$ of the first $n>1$ primes,
+  there is always a prime $p$ with $p_n<p<P$ such that $P+p$ is prime; open.
 tags:
 - Number theory
 - Primes
@@ -23,8 +23,8 @@ updated: 2026-10-07T10:53:17Z
 $P=\prod_{1\leq i\leq n}p_i$. Does there always exist some prime $p$ with
 $p_n<p<P$ such that $P+p$ is prime?
 
-**Status.** Falsifiable: the site's label, an open problem that a single
-finite counterexample would disprove.
+**Status.** Falsifiable. This is the site's label. It marks an open problem that
+a single finite counterexample would disprove.
 
 **Source.** [erdosproblems.com/779](https://www.erdosproblems.com/779), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #779,

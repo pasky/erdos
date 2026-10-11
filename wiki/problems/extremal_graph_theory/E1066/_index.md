@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E1066
 title: Problem 1066
 desc: |
-  Concerns the graph on n plane points that are pairwise at least distance one
-  apart, with edges joining the pairs exactly distance one apart.
+  Asks to estimate $g(n)$, the largest $g$ such that every graph on $n$ points
+  in the plane at pairwise distance at least $1$, with edges joining the pairs
+  at distance exactly $1$, has an independent set of size $g$; open.
 tags:
 - Graph theory
 - Planar graphs

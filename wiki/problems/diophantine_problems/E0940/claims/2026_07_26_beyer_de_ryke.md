@@ -2,9 +2,10 @@
 name: problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke
 title: Beyer de Ryke's density deficit for sums of three cube-full numbers
 desc: |
-  Beyer de Ryke claims that the integers not representable as sums of at most
-  three 3-powerful numbers have positive lower density, answering the
-  infinitude question of Problem 940 at r = 3; unrefereed, with no review.
+  Beyer de Ryke claims, in an unrefereed and unreviewed manuscript, that the
+  integers that are not sums of at most three $3$-powerful numbers have positive
+  lower density. This would answer the infinitude question of Problem 940 at
+  $r=3$.
 authors:
 - Basile Beyer de Ryke
 status: claimed
@@ -71,11 +72,10 @@ finitely many of them, chosen by Chebotarev's theorem with prescribed
 reciprocal sum, are combined into one reduced class on which the three-sum
 count is small, with the remaining parts controlled by the two tail weights.
 
-**Acceptance.** None is recorded. The manuscript is not refereed, the site's
-label is OPEN (page last edited 2025-11-03) and the tab's claim had no
-comments as of 2026-10-06, no independent review is on record, and there is
-no Lean formalization of the manuscript's own argument. The statement was
-checked at claims level on the source card; no review of the proof is
-recorded.
+**Acceptance.** None is recorded. The manuscript is not refereed. The site's
+label is OPEN (page last edited 2025-11-03), and the tab's claim had no comments
+as of 2026-10-06. No independent review is on record, and there is no Lean
+formalization of the manuscript's own argument. The statement was checked at
+claims level on the source card, but no review of the proof is recorded.
 
 **Depends on.** No other wiki page; the claim rests on the manuscript above.

@@ -2,8 +2,10 @@
 name: problems/polynomials/E1153
 title: Problem 1153
 desc: |
-  Asks a question about the size of the fundamental Lagrange interpolation
-  polynomials determined by n nodes in the interval from minus one to one.
+  Asks whether, for fixed $-1\le a<b\le 1$, the sum
+  $\lambda(x)=\sum_k\lvert l_k(x)\rvert$ of the fundamental Lagrange polynomials
+  for $n$ nodes in $[-1,1]$ satisfies
+  $\max_{x\in[a,b]}\lambda(x)>(\frac{2}{\pi}-o(1))\log n$; the answer is yes.
 tags:
 - Analysis
 - Polynomials
@@ -47,18 +49,17 @@ ordinary-Lagrange setting. One may reorder them as $-1\le x_1<\cdots<x_n\le1$
 without changing $\lambda$. The interval $[a,b]$ has positive length and is
 fixed independently of $n$.
 
-**Status.** Proved. The catalog labels the problem PROVED (page last edited
-1 April 2026, accessed 2026-10-07), crediting Tao [Ta26b]; the frontmatter
+**Status.** Proved. The catalog labels the problem PROVED (page last edited 1
+April 2026, accessed 2026-10-07) and credits Tao [Ta26b]. The frontmatter
 standing (solved, proved) derives from the accepted claim page
 [[problems/polynomials/E1153/claims/2026_03_23_tao|Tao 2026]]. The
-status-defining source is Tao's arXiv:2603.21453v3 preprint, Theorem
-1.10(i), with the elementary transfer below; no journal acceptance,
-compilation of the complete source proof or independent review of that
-proof is recorded, and the site's proof-claims page lists one unexamined
-alternative proof, the pending claim page
-[[problems/polynomials/E1153/claims/2026_08_31_yang|Yang 2026]]
-(Formalization). The refereed whole-interval bound of Erdős, the case
-$a=-1$, $b=1$, has the accepted partial claim page
+status-defining source is Tao's arXiv:2603.21453v3 preprint, Theorem 1.10(i),
+with the elementary transfer below. No journal acceptance, compilation of the
+complete source proof or independent review of that proof is recorded. The
+site's proof-claims page lists one unexamined alternative proof, the pending
+claim page [[problems/polynomials/E1153/claims/2026_08_31_yang|Yang 2026]]
+(Formalization). The refereed whole-interval bound of Erdős, the case $a=-1$,
+$b=1$, has the accepted partial claim page
 [[problems/polynomials/E1153/claims/1961_01_01_erdos|Erdős 1961]].
 
 **Source.** [erdosproblems.com/1153](https://www.erdosproblems.com/1153),

@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0174/claims/1973_05_01_erdos_graham_montgomery_rothschild_spencer_straus
 title: Sphericity is necessary and products of Ramsey sets are Ramsey
 desc: |
-  Theorems 13 and 20 of Euclidean Ramsey Theorems I: every finite Ramsey set
-  lies on a sphere, and the orthogonal product of two Ramsey sets is Ramsey,
-  so every rectangular box and its subsets are Ramsey; refereed, JCTA 1973.
+  Theorems 13 and 20 of Euclidean Ramsey Theorems I (refereed, JCTA 1973) show
+  that every finite Ramsey set lies on a sphere and that the orthogonal product
+  of two Ramsey sets is Ramsey. So every rectangular box and each of its subsets
+  is Ramsey.
 authors:
 - P. Erdös
 - R. L. Graham
@@ -68,9 +69,10 @@ whose criterion refines the sphere condition proved here.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper is a journal publication in the Journal of
-Combinatorial Theory, Series A, volume 14, issue 3 (May 1973), the `refereed`
-evidence; the issue carries no day, so this page is dated to the first day of
-that month. The site's curator credits both results to [EGMRSS73] in the
-problem's commentary, but the site labels the problem OPEN, so that credit is
-not `reviewed` evidence. The library's complete reconstructions of Theorems
-13 and 20 are the corpus's own reading and are not an independent review.
+Combinatorial Theory, Series A, volume 14, issue 3 (May 1973). This is the
+`refereed` evidence. The issue carries no day, so this page is dated to the
+first day of that month. In the problem's commentary the site's curator credits
+both results to [EGMRSS73]. The site labels the problem OPEN, however, so that
+credit is not `reviewed` evidence. The library's complete reconstructions of
+Theorems 13 and 20 are the corpus's own reading. They are not an independent
+review.

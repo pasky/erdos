@@ -2,8 +2,8 @@
 name: problems/divisors/E0946
 title: Problem 946
 desc: |
-  Asks whether there are infinitely many n for which n and n plus 1 have the
-  same number of divisors.
+  Asks whether there are infinitely many $n$ such that $n$ and $n+1$ have the
+  same number of divisors; proved.
 tags:
 - Number theory
 - Divisors
@@ -24,11 +24,11 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** Are there infinitely many $n$ such that $\tau(n)=\tau(n+1)$,
 where $\tau$ is the divisor function?
 
-**Status.** Proved. The site credits Heath-Brown [He84] with the proof; the
+**Status.** Proved. The site credits Heath-Brown [He84] with the proof. The
 accepted claim is recorded on the
-[[problems/divisors/E0946/claims/1984_06_01_heath_brown|claim page]], and
-Hildebrand's 1987 count and Pinner's 1997 theorem for every shift, each of
-which answers the question again, on
+[[problems/divisors/E0946/claims/1984_06_01_heath_brown|claim page]].
+Hildebrand's 1987 count and Pinner's 1997 theorem for every shift each answer
+the question again. They are recorded on
 [[problems/divisors/E0946/claims/1987_10_01_hildebrand|Hildebrand's claim page]]
 and [[problems/divisors/E0946/claims/1997_12_01_pinner|Pinner's claim page]].
 

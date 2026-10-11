@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0750/claims/1967_01_01_erdos_hajnal
 title: Erdős and Hajnal's graphs with independence density near one half
 desc: |
-  For every c below one half, a graph of chromatic number aleph-0 whose every
-  finite induced subgraph on m vertices has an independent set of size at
-  least cm; this settles Problem 750 for every f(m) = epsilon m.
+  Erdős and Hajnal give, for every $c<1/2$, a graph of chromatic number
+  $\aleph_0$ in which every finite induced subgraph on $m$ vertices has an
+  independent set of size at least $cm$. This settles Problem 750 for every
+  $f(m)=\epsilon m$.
 authors:
 - Erdős Pál
 - Hajnal András
@@ -62,8 +63,8 @@ placeholder.
 **Acceptance.** Refereed: P. Erdős and A. Hajnal, Kromatikus gráfokról (On
 chromatic graphs), Mat. Lapok 18 (1967), 1–4, in Hungarian with an English
 summary. The site's curator credits the paper with the case $f(m)\ge cm$,
-$c>1/4$, while labeling the problem PROVED (LEAN) on Chojecki's result, so
-the page lists no `reviewed` evidence; the problem page compares the site's
-account of the paper with its text. The formal-conjectures statement file
-states the $c>1/4$ case as `erdos_750.variants.c_gt_quarter`, research
-solved with a `sorry` body, so no Lean proof of either case is recorded.
+$c>1/4$. The curator labels the problem PROVED (LEAN) on Chojecki's result,
+however, so the page lists no `reviewed` evidence. The problem page compares the
+site's account of the paper with its text. The formal-conjectures statement file
+states the $c>1/4$ case as `erdos_750.variants.c_gt_quarter`, marked research
+solved, with a `sorry` body. So no Lean proof of either case is recorded.

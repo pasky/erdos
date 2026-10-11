@@ -3,8 +3,8 @@ name: problems/diophantine_problems/E0676/claims/2025_09_19_zeraoulia
 title: Conditional finiteness of the exceptions by an entropy-sieve method
 desc: |
   A 2025 preprint by Rafik Zeraoulia claims that only finitely many integers
-  lack the form, under a uniformity hypothesis it says follows from the
-  Elliott-Halberstam conjecture or GRH; the site's thread disputes it.
+  lack the form, under a uniformity hypothesis that it says follows from the
+  Elliott-Halberstam conjecture or GRH. The site's thread disputes it.
 authors:
 - Rafik Zeraoulia
 status: claimed

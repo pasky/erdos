@@ -2,9 +2,10 @@
 name: problems/analysis/E1115
 title: Problem 1115
 desc: |
-  The linear-length asymptotic-path conjecture fails at every finite order,
-  even for functions growing arbitrarily close to the logarithmic-square
-  threshold that guarantees radial paths.
+  Asks how slowly the length $\ell(r)$ in $|z|<r$ of a path on which an entire
+  $f$ of finite order tends to $\infty$ can grow, and whether $\ell(r)\ll r$ is
+  possible; disproved at every finite order, even for $f$ growing arbitrarily
+  close to the $(\log r)^2$ threshold that guarantees radial paths.
 tags:
 - Analysis
 status: solved
@@ -42,23 +43,23 @@ including any later returns, not merely the arc up to its first intersection
 with the circle. The definite question asks whether every entire function of
 finite order has such a path.
 
-**Status.** SOLVED, the site's label, with commentary recording a disproof by
-Gol'dberg and Eremenko. Their Theorems 1 and 2 give entire functions of order
-zero, growing barely above Hayman's logarithmic-square threshold, and of every
-finite order, such that no path on which $f\to\infty$ has length $O(r)$ inside
-the disc of radius $r$; the answer to the problem's question is therefore no,
-and the standing is solved, disproved
+**Status.** SOLVED, the site's label. The derived standing is solved, disproved.
+It records a disproof where the label says only SOLVED, because the problem's
+definite question asks whether every entire function of finite order has a path
+with $\ell(r)\ll r$, and the accepted full claims refute that. The site's
+commentary records a disproof by Gol'dberg and Eremenko
 ([[problems/analysis/E1115/claims/1979_01_01_goldberg_eremenko|their claim page]]).
-The standing records a disproof where the label says only SOLVED, because the
-problem's definite question asks whether every entire function of finite order
-has a path with $\ell(r)\ll r$, and the accepted full claims refute that.
-Toppila's 1980 note proves the same theorem independently
-([[problems/analysis/E1115/claims/1980_02_01_toppila|Toppila's claim page]]),
-and Hayman's 1960 theorem, the yes-instances for functions with
+Their Theorems 1 and 2 give entire functions such that no path on which
+$f\to\infty$ has length $O(r)$ inside the disc of radius $r$. These include
+functions of order zero, growing barely above Hayman's logarithmic-square
+threshold, and functions of every finite order. So the answer to the problem's
+question is no. Toppila's 1980 note proves the same theorem independently
+([[problems/analysis/E1115/claims/1980_02_01_toppila|Toppila's claim page]]).
+Hayman's 1960 theorem, which gives the yes-instances for functions with
 $\log M(r,f)=O((\log r)^2)$, is a partial claim
-([[problems/analysis/E1115/claims/1960_12_01_hayman|its claim page]]). The wider
-request for an optimal length estimate in terms of $M(r)$ is not supplied by
-that counterexample, and no optimal replacement bound for every growth class is
+([[problems/analysis/E1115/claims/1960_12_01_hayman|its claim page]]). The
+counterexample does not supply the wider request for an optimal length estimate
+in terms of $M(r)$. No optimal replacement bound for every growth class is
 asserted here.
 
 **Source.** [erdosproblems.com/1115](https://www.erdosproblems.com/1115),

@@ -2,8 +2,10 @@
 name: problems/integer_sequences/E0436
 title: Problem 436
 desc: |
-  Asks whether the limiting least start of m consecutive k-th power residues
-  modulo p is finite for m equal to two, and for m equal to three with k odd.
+  Asks whether $\Lambda(k,2)$ is finite for all $k$ and $\Lambda(k,3)$ for all
+  odd $k$, and how large they are, where $\Lambda(k,m)$ is the limsup over
+  primes $p$ of the least start of $m$ consecutive $k$th power residues modulo
+  $p$; open, though Hildebrand (1991) proved $\Lambda(k,2)$ finite.
 tags:
 - Number theory
 status: open

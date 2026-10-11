@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0304
 title: Problem 304
 desc: |
-  Bounds the fewest distinct unit fractions needed to represent any fraction
-  with denominator b, and asks whether it is at most a constant times log log
-  b; answered yes by the OpenAI release's Theorem 1.1 (2026), accepted on Lean.
+  Asks to estimate $N(b)$, the fewest distinct unit fractions needed to write
+  any fraction with denominator $b$, and whether $N(b)\ll\log\log b$. Answered
+  yes by Theorem 1.1 of the OpenAI release (2026), accepted on Lean evidence.
 tags:
 - Number theory
 - Unit fractions
@@ -38,27 +38,28 @@ coprimality condition; the formal statement below does the same. The
 average $\frac1b\sum_{1\le a<b}N(a,b)\gg\log\log b$ quoted by the site is a
 separate statement of the same 1950 paper.
 
-**Status.** Open on the site: the label is OPEN (page last edited 29 December
-2025; no proof claim on its tab). The standing derived from the claim pages
-is solved, claim proved: Theorem 1.1 of the OpenAI mathematics release's
-manuscript of 25 September 2026 gives $N(b)\le c_2\log\log b$ for every
-$b\ge b_0$, so $N(b)\ll\log\log b$ and, with Erdős's lower bound of 1950,
+**Status.** Open on the site. The label is OPEN (page last edited 29 December
+2025), and there is no proof claim on its tab. The standing derived from the
+claim pages is solved, claim proved. Theorem 1.1 of the OpenAI mathematics
+release's manuscript of 25 September 2026 gives $N(b)\le c_2\log\log b$ for
+every $b\ge b_0$. So $N(b)\ll\log\log b$, and with Erdős's lower bound of 1950,
 $N(b)\asymp\log\log b$. The claim is accepted on `formalized` evidence alone,
-the Lean declarations the corpus's verification built and audited, as
-[[problems/unit_fractions/E0304/claims/2026_09_25_openai|its claim page]]
-records; it has no outside review and no refereed publication. The earlier
-bounds have accepted partial claim pages on their refereed papers:
+namely the Lean declarations that the corpus's verification built and audited,
+as [[problems/unit_fractions/E0304/claims/2026_09_25_openai|its claim page]]
+records. It has no outside review and no refereed publication.
+
+The earlier bounds have accepted partial claim pages on their refereed papers.
 [[problems/unit_fractions/E0304/claims/1950_01_01_erdos|Erdős's 1950 bounds]]
-$\log\log b\ll N(b)\ll\log b/\log\log b$, and
+are $\log\log b\ll N(b)\ll\log b/\log\log b$.
 [[problems/unit_fractions/E0304/claims/1985_01_01_vose|Vose's 1985 bound]]
-$N(b)\ll\sqrt{\log b}$, which replaced Erdős's upper bound. Two pending
-partial claims do not change the standing:
+$N(b)\ll\sqrt{\log b}$ replaced Erdős's upper bound. Two pending partial claims
+do not change the standing. One is
 [[problems/unit_fractions/E0304/claims/2026_09_16_van_doorn|van Doorn and GPT-6 Astra Pro's squared double-logarithm bound]]
-of 16 September 2026, implied by the accepted bound, and
+of 16 September 2026, which the accepted bound implies. The other is
 [[problems/unit_fractions/E0304/claims/2026_09_01_thepriceisright|a Lean proof by Harmonic's Aristotle prover]]
-of the lower bound $\log\log b\le6N(b)$, published in 2026 and not built
-here. The conjecture $N(b)\ll\log\log b$ was stated by Erdős in 1950 and
-repeated in the 1980 monograph.
+of the lower bound $\log\log b\le6N(b)$, published in 2026 and not built here.
+Erdős stated the conjecture $N(b)\ll\log\log b$ in 1950 and repeated it in the
+1980 monograph.
 
 **Source.** [erdosproblems.com/304](https://www.erdosproblems.com/304),
 accessed 2026-09-17: the label OPEN (page last edited 29 December 2025), one

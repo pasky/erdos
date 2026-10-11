@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E1070/claims/2026_06_26_ducz_varga
 title: Dúcz and Varga's unit-distance graph with independence ratio below 1/4
 desc: |
-  An arXiv preprint proving that some finite planar unit-distance graph has
-  independence ratio below 1/4, so f(n) < n/4 for all large n and the
-  particular question has answer no; partial, with Lean proofs, unreviewed.
+  Dúcz and Varga's arXiv preprint proves that some finite planar unit-distance
+  graph has independence ratio below $1/4$, so $f(n)<n/4$ for all large $n$ and
+  the particular question has answer no. The claim is partial, comes with Lean
+  proofs, and is unreviewed.
 authors:
 - Ákos Dúcz
 - Dániel Varga

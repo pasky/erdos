@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0420
 title: Problem 420
 desc: |
-  Asks whether the ratio of the divisor counts of the factorials of n plus a
-  power of the logarithm of n and of n tends to infinity for large exponents.
+  Asks whether $\tau((n+\lfloor(\log n)^C\rfloor)!)/\tau(n!)$ tends to infinity
+  for large $C$, where $\tau$ counts divisors; open.
 tags:
 - Number theory
 status: open

@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0124
 title: Problem 124
 desc: |
-  Asks whether all large integers are sums of one number from each of several
-  sets of sums of distinct powers of given bases satisfying a density
-  condition.
+  Asks whether, for integers $3\le d_1<\cdots<d_r$ with $\sum_i 1/(d_i-1)\ge1$,
+  every large integer is a sum of one number from each $P(d_i,0)$, the set of
+  sums of distinct powers of $d_i$; open.
 tags:
 - Number theory
 - Base representations
@@ -66,8 +66,8 @@ misprint. The change replaces $d_r$ by $d_i$ in the summand. The first question
 has a claimed affirmative answer; the second is open apart from the instances
 the claim pages settle.
 
-**Status.** Open. The site's label is OPEN (page last edited 1 December
-2025); the claim pages are named under Current assessment.
+**Status.** Open. The site's label is OPEN (page last edited 1 December 2025).
+The claim pages are named under Current assessment.
 
 **Source.** [erdosproblems.com/124](https://www.erdosproblems.com/124), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #124,

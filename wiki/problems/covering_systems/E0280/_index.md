@@ -2,9 +2,9 @@
 name: problems/covering_systems/E0280
 title: Problem 280
 desc: |
-  Asks whether a sequence of moduli growing faster than k log k always leaves
-  a number of uncovered integers below each modulus that is not small compared
-  with k.
+  Asks whether, for moduli $n_1<n_2<\cdots$ with $n_k>(1+\epsilon)k\log k$ for
+  some $\epsilon>0$ and all $k$, the number of $m<n_k$ missed by the first $k$
+  congruences $a_i\pmod{n_i}$ is not $o(k)$. The answer is no.
 tags:
 - Number theory
 - Covering systems
@@ -31,12 +31,13 @@ $$
 $$
 
 **Status.** DISPROVED (LEAN). The status-defining source is Stijn Cambie's
-observation on the site's thread (2025-08-10): with $n_k=2^k$ and
-$a_k=2^{k-1}+1$ the only uncovered $m<n_k$ is $1$, so the count is the
-constant $1$ and the statement is false; the claim page is
-[[problems/covering_systems/E0280/claims/2025_08_10_cambie|Cambie]] (accepted
-on the curator's credit; no refereed source). The site's Lean qualification
-refers to the Lean formalization recorded under Formalization.
+observation on the site's thread (2025-08-10). Take $n_k=2^k$ and
+$a_k=2^{k-1}+1$. Then the only uncovered $m<n_k$ is $1$, so the count is the
+constant $1$ and the statement is false. The claim page is
+[[problems/covering_systems/E0280/claims/2025_08_10_cambie|Cambie]]. It is
+accepted on the curator's credit, and there is no refereed source. The site's
+Lean qualification refers to the Lean formalization recorded under
+Formalization.
 
 **Source.** [erdosproblems.com/280](https://www.erdosproblems.com/280), accessed
 2026-09-04 and 2026-10-07 (page last edited 18 November 2025; five

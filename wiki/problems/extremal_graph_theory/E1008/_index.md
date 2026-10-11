@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E1008
 title: Problem 1008
 desc: |
-  Asks whether every graph with m edges has a four-cycle-free subgraph with at
-  least a constant times m^{2/3} edges; true (Conlon, Fox and Sudakov), while
-  Bollobás and Erdős's first form with m^{3/4} fails by Folkman's example.
+  Asks whether every graph with $m$ edges has a $C_4$-free subgraph with
+  $\gg m^{2/3}$ edges. True (Conlon, Fox and Sudakov); Bollobás and Erdős's
+  first form, with $m^{3/4}$, fails by Folkman's example.
 tags:
 - Graph theory
 - Cycles
@@ -45,33 +45,35 @@ catalog suffix explained under Formalization.
 
 **Status.** PROVED (LEAN). Theorem 2.1 of Conlon, Fox and Sudakov [CFS14b]
 gives, for every $r\ge2$, a $K_{r,r}$-free subgraph with at least
-$\tfrac14m^{r/(r+1)}$ edges in every graph with $m$ edges; at $r=2$,
-$K_{2,2}=C_4$ and the bound is $\tfrac14m^{2/3}$, the statement with
+$\tfrac14m^{r/(r+1)}$ edges in every graph with $m$ edges. At $r=2$ we have
+$K_{2,2}=C_4$, and the bound is $\tfrac14m^{2/3}$, which is the statement with
 $c=\tfrac14$. Their Theorem 2.3 at $r=s=2$ shows the order is tight: the
 complete bipartite graph with parts of sizes $m^{1/3}$ and $m^{2/3}$ has $m$
-edges and no $C_4$-free subgraph with more than $2m^{2/3}$ edges. The
-status-defining source is an arXiv note (v1, 27 January 2014); the site
-accepted it, a forum proof of the same bound with $c=\tfrac12$ stands in the
-thread, and an external Lean proof of the
-bound with $c=\tfrac12$ accompanies the site's label (both recorded below,
-neither taken as the page's own). The thread also reports that the result
-reappears as Theorem 3.1 of the same authors' refereed paper *Short proofs of
-some extremal results II* (J. Combin. Theory Ser. B 121 (2016), 173--196), whose
-arXiv v2 states it as Theorem 3.1, quoted below; the journal text was not
-compared. The claim pages
+edges and no $C_4$-free subgraph with more than $2m^{2/3}$ edges.
+
+The status-defining source is an arXiv note (v1, 27 January 2014), which the
+site accepted. A forum proof of the same bound with $c=\tfrac12$ stands in the
+thread. An external Lean proof of the bound with $c=\tfrac12$ accompanies the
+site's label. Both are recorded below, and neither is taken as the page's own.
+The thread also reports that the result reappears as Theorem 3.1 of the same
+authors' refereed paper *Short proofs of some extremal results II* (J. Combin.
+Theory Ser. B 121 (2016), 173--196). The arXiv v2 of that paper states it as
+Theorem 3.1, quoted below. The journal text was not compared.
+
+The claim pages
 [[problems/extremal_graph_theory/E1008/claims/2014_01_27_conlon_fox_sudakov|Conlon, Fox and Sudakov 2014]]
 and
 [[problems/extremal_graph_theory/E1008/claims/2025_09_13_zach_hunter|Hunter's forum proof of 2025]]
-record the two results, their postings and the acceptance evidence; the Lean
+record the two results, their postings and the acceptance evidence. The Lean
 development of 2026 described under Formalization names both as the informal
-authors of what it proves and is a formalization link on both pages, not a claim
+authors of what it proves. It is a formalization link on both pages, not a claim
 of its own. A third page,
 [[problems/extremal_graph_theory/E1008/claims/2026_01_20_alexeev|Aristotle's proof with c equal to three eighths]],
-records a pending claim: a Lean proof of the bound with $c=\tfrac38$ that the
-same development's author committed on 20 January 2026 and announced in an
-update to his comment of 17 January 2026, and that names no informal author,
-found by the automated prover Aristotle from the statement alone. The standing
-in the frontmatter is derived from the three pages.
+records a pending claim: a Lean proof of the bound with $c=\tfrac38$. The same
+development's author committed it on 20 January 2026 and announced it in an
+update to his comment of 17 January 2026. It names no informal author. The
+automated prover Aristotle found it from the statement alone. The standing in
+the frontmatter is derived from the three pages.
 
 **Source.** [erdosproblems.com/1008](https://www.erdosproblems.com/1008),
 accessed 2026-09-18: the problem page (PROVED

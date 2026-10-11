@@ -2,9 +2,10 @@
 name: problems/polynomials/E0521/claims/2026_07_21_sneiderman
 title: Finite-prefix zero-one strengthening of the cone-record argument
 desc: |
-  Sneiderman, working with GPT-5.6 models, claims that the ratio of real roots
-  to log n has lower limit one over pi almost surely, by a finite-prefix restart
-  of the April cone-record note; a full claim on the site's tab, no comments.
+  Sneiderman, working with GPT-5.6 models, claims that the number $R_n$ of real
+  roots has $\liminf R_n/\log n=1/\pi$ almost surely, by a finite-prefix restart
+  of the April cone-record note. It is a full claim on the site's tab, with no
+  comments.
 authors:
 - Rob Sneiderman
 status: claimed

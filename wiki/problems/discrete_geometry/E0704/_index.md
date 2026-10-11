@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0704
 title: Problem 704
 desc: |
-  Estimates the chromatic number of the unit distance graph in n-dimensional
-  space, whose edges join points at distance exactly one.
+  Asks to estimate the chromatic number of the unit distance graph in
+  $\mathbb{R}^n$, whose edges join points at distance exactly $1$; open.
 tags:
 - Graph theory
 - Geometry
@@ -38,15 +38,15 @@ $$
 
 exist?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 10
-April 2026); its proof-claims thread carried no claim as of 6 October 2026.
-The three questions are listed as the problem's parts: the exponential-growth
-question is settled by the accepted partial claims of
-[[problems/discrete_geometry/E0704/claims/1981_12_01_frankl_wilson|Frankl and
-Wilson]] and
-[[problems/discrete_geometry/E0704/claims/2000_04_30_raigorodskii|Raigorodskii]],
-while the estimate and the existence of the limit are open, so the standing
-derived from the claim pages is open.
+**Status.** Open. The site labels the problem OPEN (page last edited 10 April
+2026). Its proof-claims thread carried no claim as of 6 October 2026. The
+problem's three questions are listed as its parts. The accepted partial claims
+of
+[[problems/discrete_geometry/E0704/claims/1981_12_01_frankl_wilson|Frankl and Wilson]]
+and
+[[problems/discrete_geometry/E0704/claims/2000_04_30_raigorodskii|Raigorodskii]]
+settle the exponential-growth question. The estimate and the existence of the
+limit are open, so the standing derived from the claim pages is open.
 
 **Source.** [erdosproblems.com/704](https://www.erdosproblems.com/704), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #704,

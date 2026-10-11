@@ -2,8 +2,8 @@
 name: problems/divisors/E0381
 title: Problem 381
 desc: |
-  Asks whether the number of highly composite numbers up to x grows faster
-  than any fixed power of the logarithm of x.
+  Asks whether the number $Q(x)$ of highly composite numbers up to $x$ grows
+  faster than every fixed power of $\log x$; disproved.
 tags:
 - Number theory
 - Divisors
@@ -33,7 +33,7 @@ $$
 
 for every $k\geq 1$?
 
-**Status.** Disproved. The site's label; Nicolas's 1971 upper bound
+**Status.** Disproved. This is the site's label. Nicolas's 1971 upper bound
 $Q(x)\ll(\log x)^{1+c'}$ answers the question no, as the claim page below
 records.
 

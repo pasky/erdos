@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0542
 title: Problem 542
 desc: |
-  Asks whether a set of integers up to n with pairwise least common multiples
-  above n has reciprocal sum at most 31/30, and whether a positive proportion
-  of the integers up to n avoid its multiples; yes and no, Schinzel-Szekeres.
+  Asks whether a set $A\subseteq\{1,\ldots,n\}$ with all pairwise least common
+  multiples above $n$ has $\sum_{a\in A}1/a\le31/30$, and whether a positive
+  proportion of the integers up to $n$ are divisible by no element of $A$.
+  Schinzel and Szekeres answered yes and no.
 tags:
 - Number theory
 status: solved
@@ -90,25 +91,26 @@ $n-\sum_{a\in A}\lfloor n/a\rfloor$ integers up to $n$ are divisible by no
 element. The Schinzel--Szekeres sets exclude $1$ (their $T_n$ is defined
 through a least prime divisor).
 
-**Status.** Solved, the site's label for two answers: yes to the first
-question and no to the second, both by Schinzel and Szekeres (Acta Sci.
-Math. (Szeged) 20 (1959), 221--229, a refereed journal); the label describes
-the corrected Statement. Their Theorem 1 gives $\sum_{a\in A}1/a\le31/30$
-with equality only for $\{2,3,5\}$ and $n=5$. Their Theorem 3 and its
-construction (pp. 228--229) give admissible sets $A_n$, with $1\notin A_n$,
-whose reciprocal sums exceed $1-\varepsilon$ for every $\varepsilon>0$ and
-all large $n$ and which leave only $o(n)$ integers $m\le n$ divisible by no
-element, so no constant $c>0$ with $cn$ such integers exists. Their Theorem 2
-adds $\sum1/a<c+\varepsilon$ for large $n$ with $c=1.017262\ldots$, and Chen
-(1996) lowers that constant to $1.0170166$, a partial result on the first
-question for large $n$. Erdős's 1973 speculation that the sum is at most
-$1+o(1)$ is recorded below. The claim pages
-[[problems/integer_sequences/E0542/claims/1959_01_17_schinzel_szekeres|Schinzel and Szekeres 1959]],
-which records the acceptance and links the Lean file of 2026 that declares
-itself a formalization of their theorems, not built here, and
-[[problems/integer_sequences/E0542/claims/1996_01_01_chen|Chen 1996]] record
-the results, and the frontmatter standing, which judges the corrected
-Statement, derives from them.
+**Status.** The site's label is Solved, and it covers two answers: yes to the
+first question and no to the second. Both are by Schinzel and Szekeres (Acta
+Sci. Math. (Szeged) 20 (1959), 221--229, a refereed journal). The label
+describes the corrected Statement. The claim pages
+[[problems/integer_sequences/E0542/claims/1959_01_17_schinzel_szekeres|Schinzel and Szekeres 1959]]
+and [[problems/integer_sequences/E0542/claims/1996_01_01_chen|Chen 1996]] record
+the results. The frontmatter standing, which judges the corrected Statement,
+derives from them. The Schinzel and Szekeres page records the acceptance and
+links the Lean file of 2026 that declares itself a formalization of their
+theorems, not built here.
+
+Their Theorem 1 gives $\sum_{a\in A}1/a\le31/30$, with equality only for
+$\{2,3,5\}$ and $n=5$. Their Theorem 3 and its construction (pp. 228--229) give
+admissible sets $A_n$, with $1\notin A_n$, whose reciprocal sums exceed
+$1-\varepsilon$ for every $\varepsilon>0$ and all large $n$. These sets leave
+only $o(n)$ integers $m\le n$ divisible by no element, so no constant $c>0$ with
+$cn$ such integers exists. Their Theorem 2 adds $\sum1/a<c+\varepsilon$ for
+large $n$ with $c=1.017262\ldots$. Chen (1996) lowers that constant to
+$1.0170166$, a partial result on the first question for large $n$. Erdős's 1973
+speculation that the sum is at most $1+o(1)$ is recorded below.
 
 **Source.** [erdosproblems.com/542](https://www.erdosproblems.com/542),
 accessed 2026-09-18: the problem page (SOLVED, the site's label for a

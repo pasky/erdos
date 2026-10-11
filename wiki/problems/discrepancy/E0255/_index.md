@@ -2,8 +2,9 @@
 name: problems/discrepancy/E0255
 title: Problem 255
 desc: |
-  Asks whether every infinite sequence in the unit interval has some
-  subinterval whose counting discrepancy is unbounded.
+  Asks whether every infinite sequence in $[0,1]$ has a subinterval $I$ whose
+  discrepancy $D_N(I)$ is unbounded as $N\to\infty$. Schmidt's 1968 theorem
+  answers yes.
 tags:
 - Discrepancy
 status: solved
@@ -33,10 +34,10 @@ $$
 \limsup_{N\to \infty}\lvert D_N(I)\rvert =\infty?
 $$
 
-**Status.** PROVED (LEAN): Schmidt's 1968 theorem, refereed in the
-Quarterly Journal of Mathematics, answers yes; see
-[[problems/discrepancy/E0255/claims/1968_01_01_schmidt|the claim page]],
-which also links the unbuilt public Lean file that the site's Lean
+**Status.** PROVED (LEAN). Schmidt's 1968 theorem, refereed in the Quarterly
+Journal of Mathematics, answers yes. See
+[[problems/discrepancy/E0255/claims/1968_01_01_schmidt|the claim page]]. The
+claim page also links the unbuilt public Lean file that the site's Lean
 qualifier most likely refers to.
 
 **Source.** [erdosproblems.com/255](https://www.erdosproblems.com/255), accessed

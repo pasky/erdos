@@ -2,8 +2,9 @@
 name: problems/set_theory/E0593
 title: Problem 593
 desc: |
-  Characterizes the finite three-uniform hypergraphs that must appear in every
-  three-uniform hypergraph with uncountable chromatic number.
+  Asks for a characterization of the finite $3$-uniform hypergraphs that appear
+  in every $3$-uniform hypergraph of uncountable chromatic number. Two pending
+  claims give the same characterization, and neither is accepted.
 tags:
 - Set theory
 - Graph theory
@@ -26,13 +27,13 @@ updated: 2026-10-08T17:47:46Z
 **Statement.** Characterize those finite 3-uniform hypergraphs which appear in
 every 3-uniform hypergraph of chromatic number $>\aleph_0$.
 
-**Status.** OPEN, the site's label. The site's proof-claims tab carries two full
-proof claims, both found with AI systems and both with Lean developments; the
-site shows no verdict on either and its label is unchanged (proof-claims thread
-accessed 2026-10-06). The derived standing departs from the label because the
+**Status.** The site labels the problem OPEN. Its proof-claims tab carries two
+full proof claims, both found with AI systems and both with Lean developments.
+The site shows no verdict on either, and its label is unchanged (proof-claims
+thread accessed 2026-10-06). The derived standing departs from the label. The
 two claims are pending full claims that give the same characterization, recorded
-on their claim pages, so the problem is claimed as answered; neither is refereed
-or reviewed by anyone the record names, so neither is accepted.
+on their claim pages, so the problem is claimed as answered. Neither claim is
+refereed or reviewed by anyone the record names, so neither is accepted.
 
 **Source.** [erdosproblems.com/593](https://www.erdosproblems.com/593), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #593,

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1077
 title: Problem 1077
 desc: |
-  Asks whether every graph with n^{1+α} edges has an almost-regular subgraph
-  on more than n^{1−α} vertices with εm^{1+α} edges; false as written, with
-  n^α the right size on the site's account of a 2025 preprint.
+  Asks whether every graph on $n$ vertices with $n^{1+\alpha}$ edges has an
+  almost-regular subgraph on $m>n^{1-\alpha}$ vertices with at least
+  $\epsilon m^{1+\alpha}$ edges. It is false as written; on the site's account
+  of a 2025 preprint, $n^\alpha$ is the right size.
 tags:
 - Graph theory
 status: solved
@@ -85,32 +86,35 @@ claim page and does not enter the standing. The 1970 positive result is
 a subgraph on $m\ge n^{\alpha(1-\alpha)/(1+\alpha)}$ vertices with
 $\frac25m^{1+\alpha}$ edges.
 
-**Status.** DISPROVED (LEAN), the site's label, which describes the Statement
-as printed. The witness is the one the site's commentary names, a complete
-bipartite graph whose smaller side has about $n^\alpha$ vertices, recomputed
-here in the Current assessment: for $0<\alpha<\tfrac12$, every $\epsilon>0$
-and every $D\ge1$, the graph $K_{a,n-a}$ with $a=\lceil2n^\alpha\rceil$ has at
-least $n^{1+\alpha}$ edges for large $n$, and every $D$-balanced subgraph of
-it with an edge has at most $(D+1)a<n^{1-\alpha}$ vertices, so no $D$-balanced
-subgraph on more than $n^{1-\alpha}$ vertices has any edge. As a universal
-statement over $\epsilon$ and $\alpha$ the Statement is therefore false; for
-$\alpha\ge\tfrac12$ this witness gives nothing and the page decides nothing.
-The failure holds for every $0<\alpha<\tfrac12$, not only at boundary values,
-and the exponent $1-\alpha$ is the poser's explicit print, so the curator's
-guess at the intended question is a variant (Formulation) and not a
-correction. A Lean file refutes the collection's formal statement with the
-same family at $\alpha=\tfrac14$, and with it the printed wording, which
-implies that statement; the corpus built the file and audited its statement
-(Formalization). The claim pages record the complete bipartite witness of 28
+**Status.** DISPROVED (LEAN), the site's label, which describes the Statement as
+printed. The witness is the one the site's commentary names: a complete
+bipartite graph whose smaller side has about $n^\alpha$ vertices. It is
+recomputed here in the Current assessment. Take $0<\alpha<\tfrac12$, any
+$\epsilon>0$ and any $D\ge1$, and let $a=\lceil2n^\alpha\rceil$. The graph
+$K_{a,n-a}$ has at least $n^{1+\alpha}$ edges for large $n$. Every $D$-balanced
+subgraph of it with an edge has at most $(D+1)a<n^{1-\alpha}$ vertices. So no
+$D$-balanced subgraph on more than $n^{1-\alpha}$ vertices has any edge. As a
+universal statement over $\epsilon$ and $\alpha$ the Statement is therefore
+false. For $\alpha\ge\tfrac12$ this witness gives nothing, and the page decides
+nothing. The failure holds for every $0<\alpha<\tfrac12$, not only at boundary
+values. The exponent $1-\alpha$ is the poser's explicit print, so the curator's
+guess at the intended question is a variant (Formulation) and not a correction.
+
+A Lean file refutes the collection's formal statement with the same family at
+$\alpha=\tfrac14$. The printed wording implies that statement, so the file
+refutes the printed wording too. The corpus built the file and audited its
+statement (Formalization).
+
+The claim pages record three items: the complete bipartite witness of 28
 December 2025
-([[problems/extremal_graph_theory/E1077/claims/2025_12_28_jungao|JunGao]]),
-the clique counterexample of 24 December 2025
+([[problems/extremal_graph_theory/E1077/claims/2025_12_28_jungao|JunGao]]), the
+clique counterexample of 24 December 2025
 ([[problems/extremal_graph_theory/E1077/claims/2025_12_24_alexeev|clique counterexample]])
 and the Lean file
 ([[problems/extremal_graph_theory/E1077/claims/2026_08_16_alexeev|Lean file]]).
 JunGao's witness carries the site's acceptance, since the site's label and
-commentary credit JunGao and the complete bipartite graph; the Lean file's
-acceptance rests on the corpus's build and statement audit; the clique
+commentary credit JunGao and the complete bipartite graph. The Lean file's
+acceptance rests on the corpus's build and statement audit. The clique
 construction, which neither the site nor a build credits, is claimed.
 
 **Source.** [erdosproblems.com/1077](https://www.erdosproblems.com/1077),

@@ -3,7 +3,7 @@ name: problems/covering_systems/E0586
 title: Problem 586
 desc: |
   Asks whether there is a system of congruences covering all integers in which
-  no modulus divides another.
+  no modulus divides another. The answer is no.
 tags:
 - Number theory
 - Covering systems
@@ -24,12 +24,12 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Is there a covering system such that no two of the moduli divide
 each other?
 
-**Status.** Disproved. The status-defining source is Theorem 1.2 of
-Balister, Bollobás, Morris, Sahasrabudhe and Tiba (Invent. Math. 228 (2022),
-377--414, refereed): every finite covering system with moduli above $1$ has
-two moduli with one dividing the other, so the answer is no; the claim page is
-[[problems/covering_systems/E0586/claims/2018_11_08_balister_bollobas_morris_sahasrabudhe_tiba|Balister, Bollobás, Morris, Sahasrabudhe and Tiba]]
-(accepted on the refereed publication and the site's credit).
+**Status.** Disproved. The status-defining source is Theorem 1.2 of Balister,
+Bollobás, Morris, Sahasrabudhe and Tiba (Invent. Math. 228 (2022), 377--414,
+refereed). It states that every finite covering system with moduli above $1$ has
+two moduli with one dividing the other, so the answer is no. The claim page is
+[[problems/covering_systems/E0586/claims/2018_11_08_balister_bollobas_morris_sahasrabudhe_tiba|Balister, Bollobás, Morris, Sahasrabudhe and Tiba]],
+accepted on the refereed publication and the site's credit.
 
 **Source.** [erdosproblems.com/586](https://www.erdosproblems.com/586), accessed
 2026-09-04 and re-read 2026-10-07 (no comments; empty proof-claim tab). Cite

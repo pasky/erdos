@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E1121/claims/1945_11_01_goodman_goodman
 title: Goodman and Goodman's circle covering theorem
 desc: |
-  Finitely many disks in the plane that no disjoint line separates lie in one
-  disk whose radius is the sum of their radii; the 1945 refereed proof of
-  Erdős's conjecture, credited by the site, with a Lean formalization linked.
+  Goodman and Goodman proved in 1945 that finitely many disks in the plane that
+  no disjoint line separates lie in one disk whose radius is the sum of their
+  radii, as Erdős conjectured. The proof is refereed and credited by the site,
+  and a Lean formalization is linked.
 authors:
 - A. W. Goodman
 - R. E. Goodman
@@ -49,18 +50,17 @@ line.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** The result is refereed: it appeared in the American
-Mathematical Monthly. The site's curator, Thomas Bloom, marks the problem
-proved and credits Goodman and Goodman with the proof (problem page last
-edited 17 April 2026). Four later published proofs settle the same statement
-and have their own pages:
+**Acceptance.** The result is refereed. It appeared in the American Mathematical
+Monthly. The site's curator, Thomas Bloom, marks the problem proved and credits
+Goodman and Goodman with the proof (problem page last edited 17 April 2026).
+Four later published proofs settle the same statement and have their own pages:
 [[problems/discrete_geometry/E1121/claims/1947_12_01_hadwiger|Hadwiger's inequalities for nonseparable convex systems]],
-which the curator records as a generalization rather than an independent
-proof,
 [[problems/discrete_geometry/E1121/claims/2015_07_17_bezdek_litvak|Bezdek and Litvak's analytic proof]],
 [[problems/discrete_geometry/E1121/claims/2016_02_02_bezdek_langi|Bezdek and Lángi's theorem for symmetric bodies]]
 and
 [[problems/discrete_geometry/E1121/claims/2016_05_13_akopyan_balitskiy_grigorev|Akopyan, Balitskiy and Grigorev's theorem for arbitrary bodies]].
+The curator records Hadwiger's result as a generalization rather than an
+independent proof.
 
 **Formalization.** Boris Alexeev's `lean-proofs` repository holds, at the
 pinned commit linked above, a Lean 4 file whose header declares it a

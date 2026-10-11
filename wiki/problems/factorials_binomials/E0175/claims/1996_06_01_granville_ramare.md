@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0175/claims/1996_06_01_granville_ramare
 title: Granville and Ramaré's proof for every n at least 5
 desc: |
-  The central binomial coefficient is never squarefree for n greater than 4,
-  proved with explicit exponential-sum bounds in Mathematika (1996); the
-  argument has a third-party Lean formalization.
+  Granville and Ramaré prove in Mathematika (1996) that $\binom{2n}{n}$ is never
+  squarefree for $n>4$, using explicit bounds on exponential sums. The argument
+  has a third-party Lean formalization.
 authors:
 - Andrew Granville
 - Olivier Ramaré

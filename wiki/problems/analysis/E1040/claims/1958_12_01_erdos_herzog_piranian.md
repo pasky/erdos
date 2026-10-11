@@ -2,9 +2,10 @@
 name: problems/analysis/E1040/claims/1958_12_01_erdos_herzog_piranian
 title: The segment and disc cases of Erdős, Herzog and Piranian
 desc: |
-  A line segment or a closed disc of transfinite diameter at least one has
-  minimal lemniscate area zero; the problem's source derives the two cases from
-  Chebyshev polynomials and from zeros on a circle.
+  In the problem's source, Erdős, Herzog and Piranian show that a line segment
+  or a closed disc of transfinite diameter at least one has minimal lemniscate
+  area zero. They derive the two cases from Chebyshev polynomials and from zeros
+  on a circle.
 authors:
 - P. Erdős
 - F. Herzog

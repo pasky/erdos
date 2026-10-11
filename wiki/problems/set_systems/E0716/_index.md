@@ -2,9 +2,9 @@
 name: problems/set_systems/E0716
 title: Problem 716
 desc: |
-  Asks whether the largest 3-uniform hypergraph on n vertices containing no
-  three edges spanning six vertices has o(n squared) edges, fewer than any
-  fixed fraction of n squared for large n.
+  Asks whether the largest 3-uniform hypergraph on $n$ vertices with no three
+  edges spanning six vertices has $o(n^2)$ edges, that is, fewer than any fixed
+  fraction of $n^2$ for large $n$. It is proved.
 tags:
 - Graph theory
 - Hypergraphs
@@ -29,14 +29,14 @@ $$
 \mathrm{ex}_3(n,\mathcal{F})=o(n^2)?
 $$
 
-**Status.** PROVED (LEAN): the site labels the problem PROVED (LEAN), notes
-that the question is a conjecture of Brown, Erdős and Sós [BES73], and credits
-the answer yes to Ruzsa and Szemerédi [RuSz78], the result known as the
-Ruzsa–Szemerédi or $(6,3)$-theorem. The Lean qualification refers to a Lean
-4 proof posted on the site's discussion thread on 2026-06-20 and held in
-Boris Alexeev's lean-proofs collection, linked from
-[[problems/set_systems/E0716/claims/1978_01_01_ruzsa_szemeredi|the Ruzsa and Szemerédi six-three theorem]];
-this corpus has not built it.
+**Status.** The site labels the problem PROVED (LEAN). It notes that the
+question is a conjecture of Brown, Erdős and Sós [BES73]. It credits the answer
+yes to Ruzsa and Szemerédi [RuSz78], in the result known as the Ruzsa–Szemerédi
+or $(6,3)$-theorem. The Lean qualification refers to a Lean 4 proof posted on
+the site's discussion thread on 2026-06-20. The proof is held in Boris Alexeev's
+lean-proofs collection, linked from
+[[problems/set_systems/E0716/claims/1978_01_01_ruzsa_szemeredi|the Ruzsa and Szemerédi six-three theorem]].
+This corpus has not built it.
 
 **Source.** [erdosproblems.com/716](https://www.erdosproblems.com/716), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #716,

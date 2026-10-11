@@ -2,8 +2,10 @@
 name: problems/additive_combinatorics/E0179
 title: Problem 179
 desc: |
-  Bounds how many k-term arithmetic progressions a set of N integers can have
-  before it must contain a longer progression of a given length.
+  Asks for upper bounds on $F_k(N,\ell)$, the least number of $k$-term
+  arithmetic progressions that forces a set of $N$ integers to contain an
+  $\ell$-term one, for $k<\ell$. Also asks whether $F_3(N,4)=o(N^2)$ and
+  $\log F_3(N,\ell)/\log N\to2$ for every $\ell>3$; both are answered yes.
 tags:
 - Additive combinatorics
 - Arithmetic progressions
@@ -37,14 +39,14 @@ $$
 \lim_{N\to \infty}\frac{\log F_3(N,\ell)}{\log N}=2?
 $$
 
-**Status.** Proved: the site's label. Both displayed questions are
-answered yes by Fox and Pohoata
-([[problems/additive_combinatorics/E0179/claims/2019_08_26_fox_pohoata|claim page]]),
-whose bounds tie $F_k(N,\ell)$ to the largest $\ell$-term-progression-free
-subset of $\{1,\ldots,N\}$, so that the Szemerédi bounds of Leng, Sah and
-Sawhney [LSS24] sharpen the upper bound; the claim is accepted on the
-refereed publication in Random Structures and Algorithms (2021) and the
-site's adoption, and nothing rests on a review by this project.
+**Status.** Proved, the site's label. Fox and Pohoata answer both displayed
+questions yes
+([[problems/additive_combinatorics/E0179/claims/2019_08_26_fox_pohoata|claim page]]).
+Their bounds tie $F_k(N,\ell)$ to the largest $\ell$-term-progression-free
+subset of $\{1,\ldots,N\}$, so the Szemerédi bounds of Leng, Sah and Sawhney
+[LSS24] sharpen the upper bound. The claim is accepted on the refereed
+publication in Random Structures and Algorithms (2021) and the site's adoption.
+Nothing rests on a review by this project.
 
 **Source.** [erdosproblems.com/179](https://www.erdosproblems.com/179), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #179,

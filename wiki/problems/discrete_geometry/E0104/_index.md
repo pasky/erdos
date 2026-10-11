@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0104
 title: Problem 104
 desc: |
-  Asks whether n points in the plane lie on only a negligible fraction of n
-  squared distinct unit circles containing three or more of them.
+  Asks whether $n$ points in the plane lie on only $o(n^2)$ distinct unit
+  circles that each contain at least three of them; open.
 tags:
 - Geometry
 status: open

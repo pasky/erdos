@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0382
 title: Problem 382
 desc: |
-  Asks how long an interval of integers can be when the largest prime dividing
-  its product appears at least twice, and whether that length can be
-  arbitrarily large.
+  Asks whether an interval $[u,v]$ in which the largest prime dividing the
+  product appears at least twice must have $v-u=v^{o(1)}$, and whether $v-u$ can
+  be arbitrarily large; open.
 tags:
 - Number theory
 status: open

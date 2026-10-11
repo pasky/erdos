@@ -2,8 +2,8 @@
 name: problems/irrationality/E0257
 title: Problem 257
 desc: |
-  Asks whether the sum of one over two to the n minus one, taken over any
-  infinite set of naturals, is irrational.
+  Asks whether $\sum_{n\in A}\frac{1}{2^n-1}$ is irrational for every infinite
+  set $A\subseteq\mathbb{N}$; open.
 tags:
 - Irrationality
 status: open
@@ -28,19 +28,19 @@ $$
 
 irrational?
 
-**Status.** Open, the site's label (OPEN; page last edited 2026-04-15). No
-claim settles the question for every infinite support, so the frontmatter
-standing, `open`/`none`, follows. Accepted partial claim pages record the
-settled classes of supports:
+**Status.** Open, the site's label (OPEN; page last edited 2026-04-15). No claim
+settles the question for every infinite support, so the frontmatter standing,
+`open`/`none`, follows. Accepted partial claim pages record the classes of
+supports that are settled.
 [[problems/irrationality/E0257/claims/1948_07_08_erdos|Erdős's 1948 theorem]]
-for $A=\mathbb N$ and its sets of multiples,
+covers $A=\mathbb N$ and its sets of multiples.
 [[problems/irrationality/E0257/claims/1965_12_13_erdos|Erdős's 1968 theorem]]
-for pairwise coprime supports with convergent reciprocal sum,
+covers pairwise coprime supports with convergent reciprocal sum.
 [[problems/irrationality/E0257/claims/2019_08_14_duverney_tachiya|Duverney and Tachiya's theorem]]
-for the sets $F_s(E)$ of products of powers below $s$ of a pairwise coprime,
-polynomially bounded sequence, such as the squarefree integers, and
+covers the sets $F_s(E)$ of products of powers below $s$ of a pairwise coprime,
+polynomially bounded sequence, such as the squarefree integers.
 [[problems/irrationality/E0257/claims/2025_12_01_tao_teravainen|Tao and Teräväinen's theorem]]
-for the primes. One pending partial claim,
+covers the primes. One pending partial claim,
 [[problems/irrationality/E0257/claims/2026_09_11_cook|Cook's 2026 note]],
 asserts irrationality for every support with convergent reciprocal sum.
 

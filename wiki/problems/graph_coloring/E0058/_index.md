@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0058
 title: Problem 58
 desc: |
-  Asks whether a graph with odd cycles of at most k distinct lengths has
-  chromatic number at most two k plus two, with equality only if it has a big
-  clique.
+  Asks whether a graph whose odd cycles have at most $k$ distinct lengths has
+  chromatic number at most $2k+2$, with equality only if it contains $K_{2k+2}$;
+  proved.
 tags:
 - Graph theory
 - Chromatic number
@@ -27,12 +27,12 @@ updated: 2026-10-08T01:29:59Z
 lengths then $\chi(G)\leq 2k+2$, with equality if and only if $G$ contains
 $K_{2k+2}$.
 
-**Status.** The site labels the problem proved, crediting Gyárfás [Gy92].
-The accepted claim is
-[[problems/graph_coloring/E0058/claims/1992_05_01_gyarfas|Gyárfás's bound with its equality case]];
-the strengthening by Gao, Huo and Ma [GaHuMa21] is an accepted partial claim,
-[[problems/graph_coloring/E0058/claims/2020_12_19_gao_huo_ma|consecutive odd cycle lengths]],
-covering the inequality but not the equality case.
+**Status.** The site labels the problem proved, crediting Gyárfás [Gy92]. The
+accepted claim is
+[[problems/graph_coloring/E0058/claims/1992_05_01_gyarfas|Gyárfás's bound with its equality case]].
+The strengthening by Gao, Huo and Ma [GaHuMa21] is an accepted partial claim,
+[[problems/graph_coloring/E0058/claims/2020_12_19_gao_huo_ma|consecutive odd cycle lengths]].
+It covers the inequality but not the equality case.
 
 **Source.** [erdosproblems.com/58](https://www.erdosproblems.com/58), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #58,

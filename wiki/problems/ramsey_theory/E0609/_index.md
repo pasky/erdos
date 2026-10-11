@@ -2,8 +2,8 @@
 name: problems/ramsey_theory/E0609
 title: Problem 609
 desc: |
-  Estimates the least m such that n-coloring a complete graph on two to the n
-  plus one vertices forces a monochromatic odd cycle of length at most m.
+  Asks for estimates of the least $m$ such that every $n$-coloring of the edges
+  of $K_{2^n+1}$ has a monochromatic odd cycle of length at most $m$; open.
 tags:
 - Graph theory
 - Ramsey theory
@@ -27,14 +27,14 @@ cycle of length at most $m$. Estimate $f(n)$.
 
 **Status.** Open (the site's label, which adds that the problem cannot be
 resolved by a finite computation). The sources below give separated lower and
-upper bounds at the exact host threshold $K_{2^n+1}$, but they do not
-determine the growth order; the search recorded under
-Current assessment found nothing further, and that negative result is not
-proof of openness. Two refereed bounds are accepted partial claims:
+upper bounds at the exact host threshold $K_{2^n+1}$, but they do not determine
+the growth order. The search recorded under Current assessment found nothing
+further, and that negative result is not proof of openness. Two refereed bounds
+are accepted partial claims. These are
 [[problems/ramsey_theory/E0609/claims/2016_02_24_day_johnson|Day and Johnson's]]
 lower bound, which answers Chung's question whether $f(n)\to\infty$, and
 [[problems/ramsey_theory/E0609/claims/2025_06_17_janzer_yip|Janzer and Yip's]]
-upper bound. Two partial claims are pending:
+upper bound. Two partial claims are pending. These are
 [[problems/ramsey_theory/E0609/claims/2024_12_10_girao_hunter|Girão and Hunter's]]
 earlier upper bound, a preprint, and the value $f(3)=5$, recorded on
 [[problems/ramsey_theory/E0609/claims/2026_09_25_cai|its claim page]].

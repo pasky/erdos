@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E1102/claims/2025_11_30_van_doorn_tao
 title: Van Doorn and Tao's density bounds for properties P and Q
 desc: |
-  Van Doorn and Tao (arXiv 2025, Acta Arith. 2026) show that property P forces
-  density zero with arbitrarily slow decay, that property Q forces upper
-  density at most 6/pi^2, attained, and which growth gives Q.
+  Van Doorn and Tao (arXiv 2025, Acta Arith. 2026) show that property $P$ forces
+  density zero with arbitrarily slow decay, and that property $Q$ forces upper
+  density at most $6/\pi^2$, which is attained. They also show which growth
+  gives $Q$.
 authors:
 - Wouter van Doorn
 - Terence Tao
@@ -86,19 +87,21 @@ lists the theorems. Whether $2^n\pm1$ or $n!\pm1$ has property $P$ is left
 open, a side question of the site's commentary and not of the statement.
 
 **Acceptance.** The site's curator, Thomas Bloom, credits the paper with the
-result: the problem page is labeled SOLVED (LEAN) and its commentary (last
-edited 2 December 2025, accessed 2026-10-07) states that most of the questions
-are resolved by this paper and summarizes the density results above; the
-thread's posts of October and November 2025 carry the arguments' development
-before the paper, and the arXiv announcement was posted there on 2 December
-2025. Both authors took part in that thread; the curator is independent of
-them, and their credit is the `reviewed` evidence listed. Refereed: the paper is
-published as Growth rates of sequences governed by the squarefree properties of
-their translates, Acta Arith. 224 (2026), 173–195 (DOI 10.4064/aa251207-28-5,
-published online 10 July 2026), the `paper` link. The formal-conjectures
-catalog tags four statements covering the property-$P$ and property-$Q$
-theorems `research solved` and registers the property-$P$ and property-$Q$
-density files below. Nothing is independently reviewed by this project.
+result. The problem page is labeled SOLVED (LEAN). Its commentary (last edited 2
+December 2025, accessed 2026-10-07) states that most of the questions are
+resolved by this paper and summarizes the density results above. The thread's
+posts of October and November 2025 carry the development of the arguments before
+the paper, and the arXiv announcement was posted there on 2 December 2025. Both
+authors took part in that thread. The curator is independent of them, and the
+curator's credit is the `reviewed` evidence listed.
+
+Refereed: the paper is published as Growth rates of sequences governed by the
+squarefree properties of their translates, Acta Arith. 224 (2026), 173–195 (DOI
+10.4064/aa251207-28-5, published online 10 July 2026). This is the `paper` link.
+The formal-conjectures catalog tags four statements covering the property-$P$
+and property-$Q$ theorems `research solved`, and it registers the property-$P$
+and property-$Q$ density files below. Nothing is independently reviewed by this
+project.
 
 **Formalization.** On 23 February 2026 the first author posted four Lean files
 in the repository `Woett/Lean-files`, one per theorem group, whose proofs were

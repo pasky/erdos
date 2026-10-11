@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0353/claims/2024_12_16_kovac_predojevic
 title: Kovač and Predojević's cyclic and congruent-sided polygons
 desc: |
-  Every measurable planar set of infinite measure contains the vertices of a
-  cyclic quadrilateral of area one, while some planar set of infinite measure
-  contains no convex polygon with congruent sides and area one.
+  Kovač and Predojević prove that every measurable planar set of infinite
+  measure contains the vertices of a cyclic quadrilateral of area $1$. They also
+  show that some planar set of infinite measure contains no convex polygon with
+  congruent sides and area $1$.
 authors:
 - Vjekoslav Kovač
 - Bruno Predojević
@@ -72,9 +73,9 @@ part after Koizumi's theorems; the formal-conjectures statements of the
 cyclic quadrilateral and congruent-sides variants point to it. This corpus has
 not built or audited it, so it is a link, not evidence.
 
-**Acceptance.** The paper is refereed: V. Kovač and B. Predojević, Polygons
-of unit area with vertices in sets of infinite planar measure, Canad. Math.
-Bull. 69 (2026), no. 3, 849–864, published online 2025-12-01, DOI
-10.4153/S0008439525101537. The curator of erdosproblems.com, Thomas Bloom,
-labels the problem proved and credits this paper with the two parts it
-settles, the cyclic quadrilateral and the polygon with congruent sides.
+**Acceptance.** The paper is refereed: V. Kovač and B. Predojević, Polygons of
+unit area with vertices in sets of infinite planar measure, Canad. Math. Bull.
+69 (2026), no. 3, 849–864, published online 2025-12-01, DOI
+10.4153/S0008439525101537. Thomas Bloom, the curator of erdosproblems.com,
+labels the problem proved. He credits this paper with the two parts it settles:
+the cyclic quadrilateral and the polygon with congruent sides.

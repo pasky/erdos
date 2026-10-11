@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0490/claims/1972_05_02_szemeredi
 title: Szemerédi's proof of the distinct-products bound
 desc: |
-  Szemerédi's theorem (J. Number Theory, 1976) that two subsets of the first
-  N integers with all cross products distinct have size product below an
-  absolute constant times N squared over log N; refereed and site-credited.
+  Szemerédi's theorem (J. Number Theory, 1976) shows that if two subsets of the
+  first $N$ integers have all cross products distinct, the product of their
+  sizes is below $cN^2/\log N$ for an absolute constant $c$. It is refereed and
+  credited by the site.
 authors:
 - E. Szemerédi
 status: accepted
@@ -51,30 +52,33 @@ common quotient in $A$ have none in $B$. It was followed here for its
 structure, not checked step by step.
 
 **Acceptance.** Refereed: the journal publication cited above. Reviewed: the
-site's curator, Thomas Bloom, marks the problem proved and credits this paper
-in the commentary as its proof; Erdős himself announced the proof in 1972 and,
-with Szemerédi, gave a second proof in 1976, paged as
+site's curator, Thomas Bloom, marks the problem proved and credits this paper in
+the commentary as its proof. Erdős himself announced the proof in 1972. With
+Szemerédi, he gave a second proof in 1976, paged as
 [[problems/integer_sequences/E0490/claims/1974_12_01_erdos_szemeredi|the Erdős--Szemerédi claim]].
+
 The formalization links are two Lean developments that declare themselves
-formalizations of this theorem. The first, of 17 May 2026, posted in the
-site's thread, proves the bound with the explicit constant $60$ for
-sufficiently large $N$ relative to four declared axioms (explicit prime
-estimates of Dusart); its header says the informal argument, an improved
-version of Szemerédi's proof, was written down by ChatGPT 5.5 Pro and
-formalized by Aristotle (the thread comment says ChatGPT). The second, the
-file `Erdos490.lean` in `plby/lean-proofs` (last changed 25 August 2026),
-names Szemerédi and ChatGPT 5.5 Pro as the informal authors, Aristotle and
-Wouter van Doorn as the formal authors of the original formalization and Codex
-for its axiom-free analytic replacement, proves the same constant-$60$ bound
-with no declared axiom, and is the proof that the formal-conjectures statement
+formalizations of this theorem. The first, of 17 May 2026, was posted in the
+site's thread. It proves the bound with the explicit constant $60$ for
+sufficiently large $N$, relative to four declared axioms (explicit prime
+estimates of Dusart). Its header says the informal argument, an improved version
+of Szemerédi's proof, was written down by ChatGPT 5.5 Pro and formalized by
+Aristotle (the thread comment says ChatGPT). The second is the file
+`Erdos490.lean` in `plby/lean-proofs` (last changed 25 August 2026). It names
+Szemerédi and ChatGPT 5.5 Pro as the informal authors. It names Aristotle and
+Wouter van Doorn as the formal authors of the original formalization, and Codex
+for its axiom-free analytic replacement. It proves the same constant-$60$ bound
+with no declared axiom. It is the proof that the formal-conjectures statement
 `erdos_490` (`research solved`, added 19 September 2026) names in its
-`formal_proof` attribute. Neither was built or audited here, and they are not
-acceptance evidence. The site's (LEAN) suffix, which the community database
-records since 22 May 2026, predates the axiom-free version of the second file
-(25 August 2026) and the formal-conjectures pointer (19 September 2026); the
-site does not say which development it rests on. Nothing here bears on the
-limit question of 1972, whether $\max\lvert A\rvert\lvert B\rvert\log N/N^2$
-converges, which is open.
+`formal_proof` attribute. Neither development was built or audited here, and
+they are not acceptance evidence.
+
+The community database records the site's (LEAN) suffix since 22 May 2026. The
+suffix therefore predates the axiom-free version of the second file (25 August
+2026) and the formal-conjectures pointer (19 September 2026). The site does not
+say which development it rests on. Nothing here bears on the limit question of
+1972, whether $\max\lvert A\rvert\lvert B\rvert\log N/N^2$ converges, which is
+open.
 
 **Depends on.** Nothing in this wiki: the theorem is proved within the
 paper, whose card is linked above.

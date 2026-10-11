@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0546/claims/2003_11_01_alon_krivelevich_sudakov
 title: Alon, Krivelevich and Sudakov, the bipartite case with 2 to the 16 root m plus 1
 desc: |
-  Theorem 5.2 of Alon, Krivelevich and Sudakov (Combin. Probab. Comput. 2003):
-  every bipartite graph with m edges and no isolated vertices has Ramsey number
-  at most 2 to the power 16 root m plus 1.
+  Theorem 5.2 of Alon, Krivelevich and Sudakov (Combin. Probab. Comput. 2003)
+  shows that every bipartite graph with $m$ edges and no isolated vertices has
+  Ramsey number at most $2^{16\sqrt m+1}$.
 authors:
 - Noga Alon
 - Michael Krivelevich

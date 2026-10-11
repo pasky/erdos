@@ -2,8 +2,8 @@
 name: problems/ramsey_theory/E0637
 title: Problem 637
 desc: |
-  Asks whether a graph on n vertices with no large clique or independent set
-  has an induced subgraph on many vertices realizing many distinct degrees.
+  Asks whether a graph on $n$ vertices with no large clique or independent set
+  has an induced subgraph on many vertices with many distinct degrees; proved.
 tags:
 - Graph theory
 - Ramsey theory
@@ -49,22 +49,21 @@ quantity $f(G)$ of Jenssen, Keevash, Long and Yepremyan, the largest number
 of distinct degrees in an induced subgraph of any size, is a different
 quantity from the one this statement bounds; see the assessment.
 
-**Status.** Proved. Bukh and Sudakov's Theorem 1.1 [BuSu07] is the statement,
-published in J. Combin. Theory Ser. B 97 (2007), 612--619 (refereed).
-Jenssen, Keevash, Long and
-Yepremyan's Theorem 1 [JKLY20] strengthens the count from $\Omega_C(n^{1/2})$
-to $\Omega_C(n^{2/3})$ for an induced subgraph of unrestricted size, in Proc.
-Amer. Math. Soc. 148 (2020), 3835--3846 (refereed; the edition cited is the
-arXiv v1); the order $n^{2/3}$ is the largest possible by Bukh and Sudakov's
-Proposition 2.4 (the random graph $G(n,1/2)$), so it is tight, for Ramsey
-graphs and for $G(n,1/2)$, on those two published results. The site labels the
-problem PROVED and its curator credits the proof to Bukh and Sudakov. Read
-depth: claims checked for both theorems, and Section 2 of [JKLY20] for the
-observation under "The exponent and the strengthening"; no proof is
-reviewed here. The claim page
+**Status.** Proved. The site labels the problem PROVED, and its curator credits
+the proof to Bukh and Sudakov. The claim page
 [[problems/ramsey_theory/E0637/claims/2006_11_14_bukh_sudakov|Bukh and Sudakov 2006]]
-records the result, its postings and the acceptance evidence; the
-frontmatter standing derives from it.
+records the result, its postings and the acceptance evidence, and the
+frontmatter standing derives from it. The statement is Bukh and Sudakov's
+Theorem 1.1 [BuSu07], published in J. Combin. Theory Ser. B 97 (2007), 612--619
+(refereed). Jenssen, Keevash, Long and Yepremyan's Theorem 1 [JKLY20]
+strengthens the count from $\Omega_C(n^{1/2})$ to $\Omega_C(n^{2/3})$ for an
+induced subgraph of unrestricted size. It appeared in Proc. Amer. Math. Soc. 148
+(2020), 3835--3846 (refereed; the edition cited is the arXiv v1). The order
+$n^{2/3}$ is the largest possible by Bukh and Sudakov's Proposition 2.4 (the
+random graph $G(n,1/2)$). So, on those two published results, it is tight for
+Ramsey graphs and for $G(n,1/2)$. Read depth: claims checked for both theorems,
+and Section 2 of [JKLY20] for the observation under "The exponent and the
+strengthening"; no proof is reviewed here.
 
 **Source.** [erdosproblems.com/637](https://www.erdosproblems.com/637),
 accessed 2026-09-18: the problem page (PROVED, a

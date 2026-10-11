@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0436/claims/1962_01_01_lehmer_lehmer_mills_selfridge
 title: The Lehmer, Lehmer, Mills and Selfridge machine proof of Lambda(3,3)
 desc: |
-  Theorem 1 of Lehmer, Lehmer, Mills and Selfridge (Math. Comp. 16 (1962))
-  lists the thirteen primes with no three consecutive cubic residues and shows
-  every other prime has such a run starting by 23532, sharp infinitely often.
+  Theorem 1 of Lehmer, Lehmer, Mills and Selfridge (Math. Comp. 16 (1962)) lists
+  the thirteen primes with no three consecutive cubic residues. Every other
+  prime has such a run starting at or below 23532, and this bound is attained
+  for infinitely many primes.
 authors:
 - D. H. Lehmer
 - E. Lehmer
@@ -66,10 +67,10 @@ $\Lambda(k,2)$ or $\Lambda(k,3)$ in $k$.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: Mathematics of Computation, a refereed journal,
-cited with its venue above. The site added the credit to its commentary after
-a comment of 24 October 2025 on its discussion thread (page last edited 25
-October 2025); the site labels the problem OPEN, so the credit is not
-`reviewed` evidence. The page is dated by the publication year, since the
-record gives only the year. The machine case analysis carries no independent
-review in this corpus.
+**Acceptance.** Refereed: Mathematics of Computation, a refereed journal, cited
+with its venue above. The site added the credit to its commentary after a
+comment of 24 October 2025 on its discussion thread (page last edited 25 October
+2025). The site labels the problem OPEN, so the credit is not `reviewed`
+evidence. The page is dated by the publication year, since the record gives only
+the year. The machine case analysis carries no independent review in this
+corpus.

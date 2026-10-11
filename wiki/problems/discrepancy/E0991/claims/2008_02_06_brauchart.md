@@ -2,9 +2,10 @@
 name: problems/discrepancy/E0991/claims/2008_02_06_brauchart
 title: Brauchart's cap-discrepancy bound for optimal logarithmic energy points
 desc: |
-  Brauchart's bound of order n^{-1/4} on the spherical cap discrepancy of the
-  n-point maximizers of the product of distances on the sphere, so every cap
-  count deviates from its area share by O(n^{3/4}); refereed in Math. Comp.
+  Brauchart proves a bound of order $n^{-1/4}$ on the spherical cap discrepancy
+  of the $n$-point maximizers of the product of distances on the sphere, so
+  every cap count deviates from its area share by $O(n^{3/4})$. The paper is
+  refereed, in Math. Comp.
 authors:
 - J. Brauchart
 status: accepted
@@ -72,17 +73,20 @@ alone.
 
 **Acceptance.** Refereed: Math. Comp. 77 (2008), 1599–1613, published
 electronically 2008-02-06. Reviewed: the site's curator, T. F. Bloom, lists the
-problem as proved and credits this paper with the rate $\ll n^{3/4}$ and with
-the remark that the qualitative statement is classical potential theory, while
-noting that the attribution is therefore unclear (site page last edited
-2025-09-16). The thread's one comment (2025-10-17), by Terence Tao and not by
-the curator, reports a literature search with ChatGPT (the version the comment
-calls "Thinking") and the Gemini deep research tool that found no earlier
-published reference than this paper and describes the qualitative
-equidistribution as folklore among potential theorists, with Landkof's
-monograph among the standard texts the paper cites; it adds no acceptance
-evidence beyond the curator's label.
-This corpus has not reproduced the proof; the standing rests on the refereed
+problem as proved. He credits this paper with the rate $\ll n^{3/4}$ and with
+the remark that the qualitative statement is classical potential theory. He
+notes that the attribution is therefore unclear (site page last edited
+2025-09-16).
+
+The thread's one comment (2025-10-17) is by Terence Tao, not by the curator. It
+reports a literature search with ChatGPT (the version the comment calls
+"Thinking") and the Gemini deep research tool. The search found no published
+reference earlier than this paper. The comment describes the qualitative
+equidistribution as folklore among potential theorists, with Landkof's monograph
+among the standard texts the paper cites. It adds no acceptance evidence beyond
+the curator's label.
+
+This corpus has not reproduced the proof. The standing rests on the refereed
 paper and the site's acceptance.
 
 **Relation to the other claim.** The rate here, $O(n^{3/4})$, is weaker

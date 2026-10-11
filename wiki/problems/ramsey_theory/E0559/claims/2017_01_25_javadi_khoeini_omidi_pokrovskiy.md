@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0559/claims/2017_01_25_javadi_khoeini_omidi_pokrovskiy
 title: Javadi, Khoeini, Omidi and Pokrovskiy, explicit linear size Ramsey bounds for cycles
 desc: |
-  Theorem 1.1 of Javadi, Khoeini, Omidi and Pokrovskiy (Combin. Probab.
-  Comput. 2019): an explicit linear bound on the size Ramsey number of long
-  cycles without the regularity lemma, a second proof for cycles; refereed.
+  Theorem 1.1 of Javadi, Khoeini, Omidi and Pokrovskiy (Combin. Probab. Comput.
+  2019) gives an explicit linear bound on the size Ramsey number of long cycles
+  without the regularity lemma. It is a second, refereed proof for cycles.
 authors:
 - R. Javadi
 - F. Khoeini
@@ -57,13 +57,12 @@ explicit constants; a second proof of the case first proved on the page
 [[problems/ramsey_theory/E0559/claims/1995_09_01_haxell_kohayakawa_luczak|Haxell, Kohayakawa and Łuczak 1995]].
 Not covered: other graphs.
 
-**Acceptance.** Refereed: On the size-Ramsey number of cycles, Combin.
-Probab. Comput. 28 (2019), no. 6, 871--880, published online 17 July 2019
-(the Crossref record). The site's curator, T. F. Bloom, credits the paper
-with an alternative proof for cycles with better constants in the
-problem's commentary, but the DISPROVED label settles the problem in the
-negative and credits no positive sub-claim, so the credit is not
-`reviewed` evidence.
+**Acceptance.** Refereed: On the size-Ramsey number of cycles, Combin. Probab.
+Comput. 28 (2019), no. 6, 871--880, published online 17 July 2019 (the Crossref
+record). The site's curator, T. F. Bloom, credits the paper in the problem's
+commentary with an alternative proof for cycles with better constants. But the
+DISPROVED label settles the problem in the negative and credits no positive
+sub-claim, so the credit is not `reviewed` evidence.
 
 **Read depth.** Claims checked: Theorem 1.1 and the abstract (pp. 1--2)
 and the two-color consequences of Theorems 3.4 and 3.6 (pp. 11--12) in

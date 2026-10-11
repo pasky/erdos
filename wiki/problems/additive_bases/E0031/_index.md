@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0031
 title: Problem 31
 desc: |
-  Asks whether every infinite set of natural numbers has a density-zero
-  companion whose sumset with it omits only finitely many integers.
+  Asks whether every infinite set $A\subset\mathbb{N}$ has a set $B$ of density
+  $0$ such that $A+B$ contains all but finitely many integers; proved.
 tags:
 - Number theory
 - Additive bases
@@ -24,14 +24,14 @@ updated: 2026-10-08T00:44:24Z
 **Statement.** Given any infinite set $A\subset \mathbb{N}$ there is a set $B$
 of density $0$ such that $A+B$ contains all except finitely many integers.
 
-**Status.** Proved; the site's label is PROVED (LEAN). Lorentz's Theorem 1
-[Lo54] gives every infinite $A$ a density-zero complement with $A+B$ cofinite;
-the Lean qualification of the site's label corresponds to the proof the
+**Status.** Proved, and the site's label is PROVED (LEAN). Lorentz's Theorem 1
+[Lo54] gives every infinite $A$ a density-zero complement with $A+B$ cofinite.
+The Lean qualification of the site's label corresponds to the proof the
 formal-conjectures catalog links, a third party's Lean proof. The claim page
-[[problems/additive_bases/E0031/claims/1954_03_02_lorentz|Lorentz's sparse
-additive complement]] records the acceptance evidence, the refereed publication
-and the catalog's curator, Thomas Bloom; the Lean proof carries no
-formal-verification credit in this corpus.
+[[problems/additive_bases/E0031/claims/1954_03_02_lorentz|Lorentz's sparse additive complement]]
+records the acceptance evidence: the refereed publication and the catalog's
+curator, Thomas Bloom. The Lean proof carries no formal-verification credit in
+this corpus.
 
 **Source.** [erdosproblems.com/31](https://www.erdosproblems.com/31), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #31,

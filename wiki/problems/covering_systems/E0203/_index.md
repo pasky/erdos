@@ -2,8 +2,8 @@
 name: problems/covering_systems/E0203
 title: Problem 203
 desc: |
-  Asks whether some integer coprime to 6 makes every number of the form two to
-  the k times three to the l times it, plus one, composite.
+  Asks whether some integer $m\ge1$ coprime to $6$ makes $2^k3^\ell m+1$
+  composite for all $k,\ell\ge0$; open.
 tags:
 - Primes
 - Covering systems

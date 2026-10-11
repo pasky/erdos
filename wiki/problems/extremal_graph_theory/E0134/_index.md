@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0134
 title: Problem 134
 desc: |
-  Asks whether a triangle-free graph on n vertices with maximum degree below n
-  to the power one half minus epsilon can reach diameter two by adding few
-  edges.
+  Asks whether a triangle-free graph on $n$ vertices with maximum degree below
+  $n^{1/2-\epsilon}$ can be made into a triangle-free graph of diameter $2$ by
+  adding at most $\delta n^2$ edges; proved.
 tags:
 - Graph theory
 status: solved
@@ -29,14 +29,14 @@ Can $G$ be made into a triangle-free graph with diameter $2$ by adding at most
 $\delta n^2$ edges?
 
 **Status.** PROVED (LEAN). Alon's published Theorem 3.2 gives a stronger
-quantitative bound and implies the exact fixed-$\epsilon$, fixed-$\delta$
-question as explained below; the site's curator credits Alon's note with the
+quantitative bound. As explained below, it implies the exact question with
+$\epsilon$ and $\delta$ fixed. The site's curator credits Alon's note with the
 solution
 ([[problems/extremal_graph_theory/E0134/claims/2024_07_01_alon|claim page]]).
-The site's label carries a Lean suffix for the Aristotle formalization of
-Alon's theorem reported on the thread, which is linked from the claim page and
-is not built or audited here. Search scope, 2026-10-07: the site's commentary
-and thread.
+The site's label carries a Lean suffix for the Aristotle formalization of Alon's
+theorem reported on the thread. That formalization is linked from the claim page
+and is not built or audited here. Search scope, 2026-10-07: the site's
+commentary and thread.
 
 **Source.** [erdosproblems.com/134](https://www.erdosproblems.com/134), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #134,

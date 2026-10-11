@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0418/claims/2004_09_14_banks_luca
 title: Banks and Luca's noncototients 2p
 desc: |
-  Proves that 2p is a noncototient for almost all primes p, so at least
-  (1+o(1))x/(2 log x) integers up to x are not of the form n minus phi(n);
-  arXiv preprint only, the journal version omitting this theorem.
+  Banks and Luca prove that $2p$ is a noncototient for almost all primes $p$, so
+  at least $(1+o(1))x/(2\log x)$ integers up to $x$ are not of the form
+  $n-\phi(n)$. The theorem is in the arXiv preprint only, since the journal
+  version omits it.
 authors:
 - William D. Banks
 - Florian Luca

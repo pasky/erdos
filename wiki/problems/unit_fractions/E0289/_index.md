@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0289
 title: Problem 289
 desc: |
-  Asks whether, for every large k, one can be written as the sum of
-  reciprocals over k separated intervals of integers, each of length at least
-  two.
+  Asks whether, for every large $k$, one can write $1$ as the sum of $1/n$ over
+  $k$ distinct integer intervals, none overlapping or adjacent and each of
+  length at least $2$; proofs are claimed but none is accepted.
 tags:
 - Number theory
 - Unit fractions
@@ -42,24 +42,23 @@ readings have different status: the unrestricted one is answered in the
 site's discussion, the restricted one is the problem.
 
 **Status.** Open on the site: the label is OPEN (page last edited 22 September
-2025; accessed 2026-10-07), and the site marks the problem as not resolvable
-by a finite computation. The standing derived from the claim pages is claimed,
-claim proved: four full proof claims are pending, three on the site's
-proof-claim tab, of 4 September, 7 September and 26 September 2026
+2025; accessed 2026-10-07). The site marks the problem as not resolvable by a
+finite computation. The standing derived from the claim pages is claimed, claim
+proved, because four full proof claims are pending. Three are on the site's
+proof-claim tab, dated 4 September, 7 September and 26 September 2026
 ([[problems/unit_fractions/E0289/claims/2026_09_04_land|Land]],
 [[problems/unit_fractions/E0289/claims/2026_09_07_tang|Tang]],
-[[problems/unit_fractions/E0289/claims/2026_09_26_budden|Budden]]), each
-declaring AI assistance and each asserting a form stronger than the restricted
-statement, and a Lean 4 proof of the statement by the LEAP prover agent,
-posted 1 October 2026 and linked by formal-conjectures since 7 October 2026
-([[problems/unit_fractions/E0289/claims/2026_10_01_leap|LEAP]]); none is
-accepted by the site, a referee or a named mathematician, and no build or
-review of any of them is recorded. No proof, disproof or accepted resolution
-of the restricted statement was found in the search whose
-scope the Current assessment records. The unrestricted variant, in which
-intervals may repeat or overlap, is settled affirmatively by an argument in
-the site's discussion (Kovač, September 2025) that the site's commentary
-adopts.
+[[problems/unit_fractions/E0289/claims/2026_09_26_budden|Budden]]). Each
+declares AI assistance, and each asserts a form stronger than the restricted
+statement. The fourth is a Lean 4 proof of the statement by the LEAP prover
+agent, posted 1 October 2026 and linked by formal-conjectures since 7 October
+2026 ([[problems/unit_fractions/E0289/claims/2026_10_01_leap|LEAP]]). None is
+accepted by the site, a referee or a named mathematician. No build or review of
+any of them is recorded. No proof, disproof or accepted resolution of the
+restricted statement was found in the search whose scope the Current assessment
+records. The unrestricted variant, in which intervals may repeat or overlap, is
+settled affirmatively by an argument in the site's discussion (Kovač, September
+2025). The site's commentary adopts that argument.
 
 **Source.** [erdosproblems.com/289](https://www.erdosproblems.com/289),
 accessed 2026-09-17: the problem page (OPEN, marked as not resolvable by a

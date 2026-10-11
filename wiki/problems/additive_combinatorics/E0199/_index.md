@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0199
 title: Problem 199
 desc: |
   Asks whether the complement of a set of reals with no three-term arithmetic
-  progression must contain an infinite arithmetic progression.
+  progression must contain an infinite arithmetic progression; the answer is no.
 tags:
 - Arithmetic progressions
 status: solved
@@ -24,14 +24,14 @@ updated: 2026-10-08T02:16:54Z
 progression then must $\mathbb{R}\backslash A$ contain an infinite arithmetic
 progression?
 
-**Status.** DISPROVED (LEAN), the site's label: the answer is no, by
+**Status.** DISPROVED (LEAN), the site's label. The answer is no, by
 Baumgartner's published 1975 theorem applied to $\mathbb R$ as a vector space
-over $\mathbb Q$, recorded on
+over $\mathbb Q$. This is recorded on
 [[problems/additive_combinatorics/E0199/claims/1975_03_01_baumgartner|its claim page]]
-with its refereed and site evidence; the label's Lean mark refers to a Lean
+with its refereed and site evidence. The label's Lean mark refers to a Lean
 formalization of Baumgartner's proof posted in the site's discussion thread in
-February 2026 and linked by the catalog, listed on the claim page and not
-built by this corpus.
+February 2026 and linked by the catalog. That formalization is listed on the
+claim page and was not built by this corpus.
 
 **Source.** [erdosproblems.com/199](https://www.erdosproblems.com/199), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #199,

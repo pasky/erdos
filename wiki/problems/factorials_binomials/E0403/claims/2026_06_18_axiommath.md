@@ -3,8 +3,8 @@ name: problems/factorials_binomials/E0403/claims/2026_06_18_axiommath
 title: AxiomProver's Lean classification of the five solutions
 desc: |
   A Lean 4 proof, produced by the AxiomProver system and published in the
-  AxiomMath repository, shows that 2^m is a sum of distinct positive factorials
-  exactly for m in {0, 1, 3, 5, 7}, with the five solutions listed.
+  AxiomMath repository, shows that $2^m$ is a sum of distinct positive
+  factorials exactly for $m\in\{0,1,3,5,7\}$. It lists the five solutions.
 authors: []
 status: claimed
 claim: proved

@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0502/claims/1983_06_01_bannai_bannai_stanton
 title: The Bannai–Bannai–Stanton bound on two-distance sets
 desc: |
-  A set in $\mathbb R^n$ whose points determine only two distinct distances
-  has at most $\binom{n+2}{2}$ points; more generally an $s$-distance set has
-  at most $\binom{n+s}{s}$ points.
+  Bannai, Bannai and Stanton prove that a set in $\mathbb R^n$ whose points
+  determine only two distinct distances has at most $\binom{n+2}{2}$ points.
+  More generally, an $s$-distance set has at most $\binom{n+s}{s}$ points.
 authors:
 - Eiichi Bannai
 - Etsuko Bannai

@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0372
 title: Problem 372
 desc: |
-  Asks whether infinitely many integers n have the largest prime factors of n,
-  n plus one, and n plus two in strictly decreasing order.
+  Asks whether infinitely many integers $n$ have the largest prime factors of
+  $n$, $n+1$ and $n+2$ in strictly decreasing order; proved.
 tags:
 - Number theory
 status: solved
@@ -23,10 +23,10 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Let $P(n)$ denote the largest prime factor of $n$. There are
 infinitely many $n$ such that $P(n)>P(n+1)>P(n+2)$.
 
-**Status.** PROVED, the site's label: solved by Balog [Ba01], who proves
-that there are $\gg\sqrt x$ such $n\le x$ for all large $x$; the statement is
-a conjecture of Erdős and Pomerance [ErPo78], and no Lean proof is linked. The
-accepted claim is
+**Status.** PROVED, the site's label. The problem was solved by Balog [Ba01],
+who proves that there are $\gg\sqrt x$ such $n\le x$ for all large $x$. The
+statement is a conjecture of Erdős and Pomerance [ErPo78]. No Lean proof is
+linked. The accepted claim is
 [[problems/arithmetic_functions/E0372/claims/2001_05_01_balog|Balog 2001]].
 
 **Source.** [erdosproblems.com/372](https://www.erdosproblems.com/372), accessed

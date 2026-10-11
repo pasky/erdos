@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0805/claims/2020_04_09_alon_bucic_sudakov
 title: Alon, Bucić and Sudakov's locally Ramsey graphs
 desc: |
-  Alon, Bucić and Sudakov (Proc. Amer. Math. Soc. 149, 2021) build n-vertex
-  graphs in which every 2^{2^{(log log n)^{1/2+o(1)}}} vertices contain a clique
-  and an independent set of size log n; refereed; partial.
+  Alon, Bucić and Sudakov (Proc. Amer. Math. Soc. 149, 2021) build $n$-vertex
+  graphs in which every $2^{2^{(\log\log n)^{1/2+o(1)}}}$ vertices contain a
+  clique and an independent set of size $\log n$. This is a refereed partial
+  result.
 authors:
 - Noga Alon
 - Matija Bucić

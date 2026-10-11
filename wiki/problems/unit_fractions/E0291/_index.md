@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0291
 title: Problem 291
 desc: |
-  Asks whether the harmonic sum numerator over the least common multiple of
-  one through n is coprime to it infinitely often, and not coprime infinitely
-  often.
+  Asks whether $(a_n,L_n)=1$ and $(a_n,L_n)>1$ each hold for infinitely many
+  $n$, where $L_n=\mathrm{lcm}(1,\ldots,n)$ and $\sum_{k\le n}1/k=a_n/L_n$;
+  open.
 tags:
 - Number theory
 - Unit fractions
@@ -43,29 +43,31 @@ status attaches to the pair through the first. The site's example, the
 integers whose leading digit in base $3$ is $2$, needs $n\ge6$: at $n=2$ the
 prime $3$ exceeds $n$ and $(a_2,L_2)=(3,2)=1$.
 
-**Status.** Open: the site's label is OPEN (; page last
-edited 12 January 2026), and the site marks the problem as not resolvable
-by a finite computation. The standing derived from the claim pages is open,
-claim none. Three of the four claim pages concern the second question:
-[[problems/unit_fractions/E0291/claims/2024_11_07_steinerberger|Steinerberger's base-3 observation]],
-a pending partial claim answering the second question in the affirmative,
-which the site's commentary credits to him while the site labels the whole
-problem OPEN and declares no parts, so that the credit is context and not
-acceptance,
-[[problems/unit_fractions/E0291/claims/2016_07_11_shiu|Shiu's criterion and infinitude theorem]],
-a pending partial claim giving the same answer with the exact criterion
-(the commentary credits the observation, not this paper), and
-[[problems/unit_fractions/E0291/claims/2026_02_05_van_doorn|van Doorn's generalization to periodic numerators]],
-a pending partial claim from a dated note with a conditional Lean proof by
-the prover Aristotle. The fourth,
+**Status.** Open: the site's label is OPEN (page last edited 12 January 2026),
+and the site marks the problem as not resolvable by a finite computation. The
+standing derived from the claim pages is open, claim none. No claim settles or
+pends on the first question.
+
+Three of the four claim pages concern the second question.
+[[problems/unit_fractions/E0291/claims/2024_11_07_steinerberger|Steinerberger's base-3 observation]]
+is a pending partial claim answering the second question in the affirmative. The
+site's commentary credits it to him, but the site labels the whole problem OPEN
+and declares no parts, so the credit is context and not acceptance.
+[[problems/unit_fractions/E0291/claims/2016_07_11_shiu|Shiu's criterion and infinitude theorem]]
+is a pending partial claim giving the same answer with the exact criterion. The
+commentary credits the observation, not this paper.
+[[problems/unit_fractions/E0291/claims/2026_02_05_van_doorn|van Doorn's generalization to periodic numerators]]
+is a pending partial claim from a dated note, with a conditional Lean proof by
+the prover Aristotle. The fourth page,
 [[problems/unit_fractions/E0291/claims/2022_01_26_wu_yan|Wu and Yan's conditional density theorem]],
-an accepted conditional claim, gives the second question only under an open
-independence conjecture and derives nothing; no claim settles or pends on
-the first. For the first, no proof, disproof, preprint or proof claim that
-$(a_n,L_n)=1$ infinitely often was found in the search
-whose scope the Current assessment records: Shiu's paper states it as a
-conjecture, and Wu and Yan's theorem is conditional and concerns the other
-half. This is a bounded negative finding, not a certificate of openness.
+is an accepted conditional claim. It gives the second question only under an
+open independence conjecture and derives nothing.
+
+For the first question, no proof, disproof, preprint or proof claim that
+$(a_n,L_n)=1$ infinitely often was found in the search whose scope the Current
+assessment records. Shiu's paper states it as a conjecture. Wu and Yan's theorem
+is conditional and concerns the other half. This is a bounded negative finding,
+not a certificate of openness.
 
 **Source.** [erdosproblems.com/291](https://www.erdosproblems.com/291),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that no

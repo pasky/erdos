@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0305/claims/2024_04_10_liu_sawhney
 title: Liu and Sawhney's bound on the largest denominator
 desc: |
-  Liu and Sawhney's Theorem 1.5 (2024; IMRN 2026) that every fraction a/b is
-  a sum of distinct unit fractions with denominators at most
-  b(log b)(log log b)^3(log log log b)^O(1), sharpening Yokota's bound.
+  Liu and Sawhney's Theorem 1.5 (2024; IMRN 2026) states that every fraction
+  $a/b$ is a sum of distinct unit fractions with denominators at most
+  $b(\log b)(\log\log b)^3(\log\log\log b)^{O(1)}$. This sharpens Yokota's
+  bound.
 authors:
 - Yang P. Liu
 - Mehtaab Sawhney
@@ -57,17 +58,17 @@ disjoint by size when $a>16$ and, when $a\le16$, because $y$ is a prime
 not dividing $b$.
 
 **Acceptance.** Refereed: Liu, Y. P. and Sawhney, M., On further questions
-regarding unit fractions, Int. Math. Res. Not. IMRN 2026, no. 2, rnaf382,
-received 28 October 2025, accepted 23 December 2025, published online 14
-January 2026 (the publisher's record). The arXiv preprint is v1 of 10
-April 2024, the version the library's
+regarding unit fractions, Int. Math. Res. Not. IMRN 2026, no. 2, rnaf382. The
+publisher's record gives the dates: received 28 October 2025, accepted 23
+December 2025, published online 14 January 2026. The arXiv preprint is v1 of 10
+April 2024, which is the version the library's
 [[../library/unit_fractions/liu_2024_further_questions_regarding_unit_fractions/_index|source card]]
-records; the published text has not been compared with it. Reviewed: the
-site's curator, Thomas Bloom, marks Problem 305 proved and records this
-bound by name in the problem's commentary, as the improvement of the bound
-of Yokota's paper, which the commentary credits with the solution. The
-theorem's full proof at its own parameters is not compiled in this corpus,
-and no independent review of it is recorded.
+records. The published text has not been compared with it. Reviewed: the site's
+curator, Thomas Bloom, marks Problem 305 proved. The problem's commentary
+records this bound by name as the improvement of the bound of Yokota's paper,
+which the commentary credits with the solution. The full proof of the theorem at
+its own parameters is not compiled in this corpus, and no independent review of
+it is recorded.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos305.lean` in
 Boris Alexeev's `lean-proofs` collection at the pinned commit (the third

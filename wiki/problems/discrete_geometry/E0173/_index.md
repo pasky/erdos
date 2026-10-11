@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0173
 title: Problem 173
 desc: |
   Asks whether every two-coloring of the plane contains a monochromatic
-  congruent copy of every triangle, with at most one exception.
+  congruent copy of every triangle, with at most one exception; open.
 tags:
 - Geometry
 - Ramsey theory
@@ -24,24 +24,23 @@ updated: 2026-10-08T18:26:56Z
 **Statement.** In any $2$-colouring of $\mathbb{R}^2$, for all but at most one
 triangle $T$, there is a monochromatic congruent copy of $T$.
 
-**Status.** Open, the site's label (page last edited 16 October 2025). No
-result settles the question. Three results decide the question for particular
-triangles and are recorded as partial claims: Shader's refereed theorem of 1976
-that every right triangle, and every triangle of two further one-parameter
-families, has a monochromatic congruent copy in every two-coloring of the
-plane, on
-[[problems/discrete_geometry/E0173/claims/1976_05_01_shader|Shader 1976]]
-(accepted on the refereed publication alone); the triangle families of the
-1975 colloquium paper of Erdős, Graham, Montgomery, Rothschild, Spencer and
-Straus, on
+**Status.** Open. This is the site's label (page last edited 16 October 2025).
+No result settles the question. No full claim exists, and the standing derives
+from the claim pages. Three results decide the question for particular triangles
+and are recorded as partial claims. Shader's refereed theorem of 1976 shows that
+every right triangle, and every triangle of two further one-parameter families,
+has a monochromatic congruent copy in every two-coloring of the plane. It is on
+[[problems/discrete_geometry/E0173/claims/1976_05_01_shader|Shader 1976]],
+accepted on the refereed publication alone. The 1975 colloquium paper of Erdős,
+Graham, Montgomery, Rothschild, Spencer and Straus gives further triangle
+families. It is on
 [[problems/discrete_geometry/E0173/claims/1975_01_01_erdos_graham_montgomery_rothschild_spencer_straus|EGMRSS 1975]]
-(claimed, a proceedings volume); and Currier, Moore and Yip's refereed theorem
-of 2024 that three equally spaced collinear points, and every
-$(\alpha,2\alpha,x\alpha)$ triangle with $1\le x\le3$, appear
-monochromatically, on
-[[problems/discrete_geometry/E0173/claims/2024_02_22_currier_moore_yip|Currier, Moore and Yip 2024]]
-(accepted on the refereed publication alone). No full claim exists, and the
-standing derives from the claim pages.
+with status claimed. The paper appeared in a proceedings volume. Currier, Moore
+and Yip's refereed theorem of 2024 shows that three equally spaced collinear
+points, and every $(\alpha,2\alpha,x\alpha)$ triangle with $1\le x\le3$, appear
+monochromatically. It is on
+[[problems/discrete_geometry/E0173/claims/2024_02_22_currier_moore_yip|Currier, Moore and Yip 2024]],
+accepted on the refereed publication alone.
 
 **Source.** [erdosproblems.com/173](https://www.erdosproblems.com/173), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #173,

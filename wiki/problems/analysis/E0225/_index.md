@@ -2,8 +2,9 @@
 name: problems/analysis/E0225
 title: Problem 225
 desc: |
-  Asks whether a trigonometric polynomial with all real roots and maximum
-  modulus one has integral of its absolute value at most 4 over a full period.
+  Asks whether a trigonometric polynomial $f$ with all roots real and maximum
+  modulus $1$ satisfies $\int_0^{2\pi}|f(\theta)|\,\mathrm{d}\theta\le4$;
+  proved.
 tags:
 - Analysis
 status: solved
@@ -70,17 +71,18 @@ degree-$n$ trigonometric polynomial has $2n$ real zeros in a period and is
 converted to a degree-$2n$ algebraic polynomial. That normalization is
 recorded separately rather than identified with the one-sided display.
 
-**Status.** Proved, the site's label. The site credits two independent
-solutions, Kristiansen [Kr74], which it describes as the real-coefficient case,
-and Saff and Sheil-Small [SaSh74] for general complex coefficients. The claim
-pages [[problems/analysis/E0225/claims/1974_11_01_saff_sheil_small|Saff and
-Sheil-Small 1974]], accepted on its refereed publication and the site's credit,
-and [[problems/analysis/E0225/claims/1974_05_01_kristiansen|Kristiansen 1974]],
-accepted on its refereed publication, record them. Kristiansen's theorem is the
-two-sided real form, a real trigonometric polynomial of degree $n\ge1$ with $2n$
-real roots, which implies the display for arbitrary complex coefficients; the
-site's description is narrower than his paper. Both routes prove the corrected
-Statement; this project's own review of the compiled chain is described under
+**Status.** Proved. This is the site's label. The site credits two independent
+solutions: Kristiansen [Kr74], which it describes as the real-coefficient case,
+and Saff and Sheil-Small [SaSh74] for general complex coefficients. They are
+recorded on the claim pages
+[[problems/analysis/E0225/claims/1974_11_01_saff_sheil_small|Saff and Sheil-Small 1974]],
+accepted on its refereed publication and the site's credit, and
+[[problems/analysis/E0225/claims/1974_05_01_kristiansen|Kristiansen 1974]],
+accepted on its refereed publication. Kristiansen's theorem is the two-sided
+real form, a real trigonometric polynomial of degree $n\ge1$ with $2n$ real
+roots. It implies the display for arbitrary complex coefficients. The site's
+description is narrower than his paper. Both routes prove the corrected
+Statement. This project's own review of the compiled chain is described under
 Review record below and awards no standing.
 
 **Source.** [erdosproblems.com/225](https://www.erdosproblems.com/225), accessed

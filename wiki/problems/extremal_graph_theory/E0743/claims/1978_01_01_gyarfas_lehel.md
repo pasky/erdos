@@ -3,8 +3,8 @@ name: problems/extremal_graph_theory/E0743/claims/1978_01_01_gyarfas_lehel
 title: Gyárfás and Lehel's star and path cases
 desc: |
   Gyárfás and Lehel (1978) prove the tree packing conjecture when all but at
-  most two of the trees are stars, and when every tree is a star or a path; a
-  conference proceedings paper, so the claim is pending.
+  most two of the trees are stars, and when every tree is a star or a path. The
+  paper is in conference proceedings, so the claim is pending.
 authors: []
 status: claimed
 claim: proved

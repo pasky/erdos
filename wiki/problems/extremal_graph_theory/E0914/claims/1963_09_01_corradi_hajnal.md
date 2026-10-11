@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0914/claims/1963_09_01_corradi_hajnal
 title: The Corrádi–Hajnal theorem, the case r = 3
 desc: |
-  Corrádi and Hajnal (Acta Math. Acad. Sci. Hungar. 1963) prove that a graph
-  on at least 3k vertices with minimum degree at least 2k has k disjoint
-  cycles, which at 3m vertices gives the case r = 3; refereed, site-credited.
+  Corrádi and Hajnal (Acta Math. Acad. Sci. Hungar. 1963, refereed) prove that a
+  graph on at least $3k$ vertices with minimum degree at least $2k$ has $k$
+  disjoint cycles. At $3m$ vertices this gives the case $r=3$, and the site
+  credits it.
 authors:
 - K. Corrádi
 - A. Hajnal

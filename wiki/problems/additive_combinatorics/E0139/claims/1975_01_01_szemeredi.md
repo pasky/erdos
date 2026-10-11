@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0139/claims/1975_01_01_szemeredi
 title: Szemerédi's theorem on sets without long progressions
 desc: |
-  Szemerédi's 1975 theorem in Acta Arithmetica that r_k(N) = o(N) for every
-  k, accepted on the refereed publication and the site's credit, with the
-  unaudited Lean formalization of it in Boris Alexeev's repository linked.
+  Szemerédi's 1975 theorem in Acta Arithmetica states that $r_k(N)=o(N)$ for
+  every $k$. It is accepted on the refereed publication and the site's credit,
+  and the page links the unaudited Lean formalization of it in Boris Alexeev's
+  repository.
 authors:
 - E. Szemerédi
 status: accepted
@@ -57,16 +58,16 @@ still invokes van der Waerden's theorem, so, as the author notes, it gives no
 workable upper bound on the van der Waerden function. The page name carries
 the publication year; the publication records give only the year.
 
-**Acceptance.** Refereed: Acta Arithmetica 27 (1975), 199–245, the DOI
-linked above. Reviewed: the site's curator, Thomas Bloom, marks the problem
-proved and credits the proof to Szemerédi [Sz75] in the problem's commentary
-(page last edited 2026-04-04), and the community database lists the problem
-as proved; the theorem has also been reproved independently by different
-methods, by Furstenberg through
-multiple recurrence in measure-preserving systems (J. Analyse Math. 31,
-1977) and by Gowers with the uniformity norms and a quantitative bound (Geom.
-Funct. Anal. 11, 2001). This corpus has built and audited no formal proof of
-the statement, so `formalized` is not listed as evidence.
+**Acceptance.** Refereed: Acta Arithmetica 27 (1975), 199–245, the DOI linked
+above. Reviewed: the site's curator, Thomas Bloom, marks the problem proved and
+credits the proof to Szemerédi [Sz75] in the problem's commentary (page last
+edited 2026-04-04). The community database also lists the problem as proved. The
+theorem has been reproved independently by different methods. Furstenberg
+reproved it through multiple recurrence in measure-preserving systems (J.
+Analyse Math. 31, 1977). Gowers reproved it with the uniformity norms and a
+quantitative bound (Geom. Funct. Anal. 11, 2001). This corpus has built and
+audited no formal proof of the statement, so `formalized` is not listed as
+evidence.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos139.lean` of Boris
 Alexeev's repository plby/lean-proofs, at the pinned commit linked above,

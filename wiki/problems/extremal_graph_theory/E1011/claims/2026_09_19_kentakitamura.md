@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E1011/claims/2026_09_19_kentakitamura
 title: Lean determination of f_5(n) for n at least 80
 desc: |
-  A forum comment of 19 September 2026 announcing a kernel-checked Lean 4
-  proof that f_5(n) = floor(n^2/4) - 3n + 15 for every n >= 80; read as text
-  only, unreviewed and not accepted by the site.
+  Kenta Kitamura's forum comment of 19 September 2026 announces a kernel-checked
+  Lean 4 proof that $f_5(n)=\lfloor n^2/4\rfloor-3n+15$ for every $n\ge80$. It
+  was read as text only, is unreviewed and is not accepted by the site.
 authors:
 - Kenta Kitamura
 status: claimed

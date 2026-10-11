@@ -2,9 +2,9 @@
 name: problems/discrepancy/E0255/claims/1980_12_01_tijdeman_wagner
 title: "Tijdeman and Wagner: discrepancy of order log N at almost every anchor"
 desc: |
-  Tijdeman and Wagner's 1980 theorem that every sequence in $[0,1)$ has
-  $\limsup_N\lvert D_N([0,x))\rvert/\log N\ge1/400$ for almost all $x$, so
-  almost every anchored interval answers the question yes; refereed.
+  Tijdeman and Wagner's refereed 1980 theorem says that every sequence in
+  $[0,1)$ has $\limsup_N\lvert D_N([0,x))\rvert/\log N\ge1/400$ for almost all
+  $x$. So almost every anchored interval answers the question yes.
 authors:
 - R. Tijdeman
 - G. Wagner

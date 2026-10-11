@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E0128/claims/2013_11_22_norin_yepremyan
 title: Norin and Yepremyan's sparse halves for dense and near-Petersen graphs
 desc: |
   Norin and Yepremyan (J. Combin. Theory Ser. B 2015) prove the sparse-halves
-  conjecture for triangle-free graphs of minimum degree at least 5n/14, with at
-  least (1/5 - γ)n² edges, or close to the Petersen graph; refereed.
+  conjecture for triangle-free graphs with minimum degree at least $5n/14$, with
+  at least $(1/5-\gamma)n^2$ edges, or close to a blow-up of the Petersen graph.
+  The result is refereed.
 authors:
 - Sergey Norin
 - Liana Yepremyan

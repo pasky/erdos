@@ -2,9 +2,9 @@
 name: problems/polynomials/E1150/claims/2025_04_30_el_abdalaoui
 title: el Abdalaoui's nonflatness claim for plus-minus-one polynomials
 desc: |
-  A 2025 preprint claims that plus or minus one polynomials are never L^alpha
-  flat for even alpha above two, which would give the universal gap asked
-  for; rejected after objections in the site's thread and the accepted disproof.
+  A 2025 preprint claims that $\pm1$ polynomials are never $L^\alpha$-flat for
+  even $\alpha>2$, which would give the universal gap asked for. The claim was
+  rejected after objections in the site's thread and the accepted disproof.
 authors:
 - el Houcein el Abdalaoui
 status: rejected

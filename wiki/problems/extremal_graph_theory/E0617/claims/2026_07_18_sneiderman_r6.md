@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0617/claims/2026_07_18_sneiderman_r6
 title: Sneiderman's proof of the six-color case
 desc: |
-  A preprint of 18 July 2026 claims the fixed case r = 6 of Problem 617: every
-  six-coloring of K_37 has seven vertices missing a color, by clique lemmas on
-  18, 19, 24 and 25 vertices and an edge count on 31; unrefereed, so claimed.
+  An unrefereed preprint by Robert Sneiderman of 18 July 2026 claims the fixed
+  case $r=6$ of Problem 617: every six-coloring of $K_{37}$ has seven vertices
+  missing a color. The argument uses clique lemmas on $18$, $19$, $24$ and $25$
+  vertices and an edge count on $31$.
 authors:
 - Robert Sneiderman
 status: claimed

@@ -2,9 +2,10 @@
 name: problems/set_systems/E0719/claims/1966_01_01_erdos_goodman_posa
 title: Erdős, Goodman and Pósa's edge-and-triangle decomposition, the case r = 2
 desc: |
-  Erdős, Goodman and Pósa (1966) prove that every graph on n vertices is the
-  union of at most floor(n^2/4) pairwise edge-disjoint edges and triangles,
-  the case r = 2 of the Erdős–Sauer question for every n; refereed.
+  Erdős, Goodman and Pósa (1966, refereed) prove that every graph on $n$
+  vertices is the union of at most $\lfloor n^2/4\rfloor$ edges and triangles,
+  no two sharing an edge. This is the case $r=2$ of the Erdős–Sauer question,
+  for every $n$.
 authors:
 - Paul Erdös
 - A. W. Goodman
@@ -48,9 +49,9 @@ conjecture with Sauer for general $r$, which is the problem's statement.
 where the hypergraph Turán numbers $\mathrm{ex}_r(n;K_{r+1}^r)$ are
 themselves unknown.
 
-**Acceptance.** Refereed: Canad. J. Math. **18** (1966), 106–112, Theorem 4
-on p. 108, as the library result page records. The publication record gives
-only the year, so the page is dated to the first day of it. The site's
+**Acceptance.** Refereed: Canad. J. Math. **18** (1966), 106–112, Theorem 4 on
+p. 108, as the library result page records. The publication record gives only
+the year, so the page is dated to the first day of that year. The site's
 commentary credits no result on the problem and labels it OPEN, so the page
-lists no `reviewed`; the standing of the problem is unchanged by this partial
-claim.
+lists no `reviewed` evidence. This partial claim does not change the standing of
+the problem.

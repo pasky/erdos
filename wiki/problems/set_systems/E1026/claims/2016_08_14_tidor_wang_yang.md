@@ -2,9 +2,9 @@
 name: problems/set_systems/E1026/claims/2016_08_14_tidor_wang_yang
 title: Tidor, Wang and Yang's weighted Erdős–Szekeres bound
 desc: |
-  The 2016 inequality that some monotone subsequence of distinct reals has sum
-  at least the root of the sum of squares of the positive terms, which gives
-  the lower bound c at least 1; the first proof, as the site's curator credits.
+  Tidor, Wang and Yang (2016) prove that distinct reals $x_i$ have a monotone
+  subsequence with sum at least $(\sum_i\max(x_i,0)^2)^{1/2}$, which gives the
+  lower bound $c\ge1$. The site's curator credits this as the first proof.
 authors:
 - Jonathan Tidor
 - Victor Y. Wang
@@ -69,8 +69,8 @@ and Cauchy–Schwarz, which Alexeev's post identifies with the paper's Section 3
 argument; the thread then identified this paper as the first published proof. A
 thread post is not a manuscript and has no page.
 
-**Acceptance.** Reviewed: Thomas Bloom, the site's curator, labels the
-problem solved and credits the first proof of the stronger conjecture to
-Tidor, Wang and Yang, with Wagner's paper as implicit prior work. Not
-refereed: the arXiv record lists two versions, of 14 August
-and 22 September 2016, and no journal reference.
+**Acceptance.** Reviewed: Thomas Bloom, the site's curator, labels the problem
+solved. Bloom credits the first proof of the stronger conjecture to Tidor, Wang
+and Yang, with Wagner's paper as implicit prior work. Not refereed: the arXiv
+record lists two versions, of 14 August and 22 September 2016, and no journal
+reference.

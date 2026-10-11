@@ -2,8 +2,8 @@
 name: problems/primes/E0427
 title: Problem 427
 desc: |
-  Asks whether, for every n and d, some run of consecutive primes starting
-  after the n-th prime has sum divisible by d.
+  Asks whether, for every $n$ and $d$, some sum $p_{n+1}+\cdots+p_{n+k}$ of
+  consecutive primes is divisible by $d$; proved.
 tags:
 - Number theory
 - Primes
@@ -30,12 +30,11 @@ $$
 
 where $p_r$ denotes the $r$th prime?
 
-**Status.** PROVED (LEAN), on the site's label, which credits Cédric
-Pilatte's observation that the answer follows from Shiu's theorem on runs of
-consecutive primes in one residue class [Sh00], and records Lean proofs of
-the statement outside this corpus; the deduction, the credit and the Lean
-developments are on the
-[[problems/primes/E0427/claims/2024_05_25_pilatte|claim page]]. None of the
+**Status.** PROVED (LEAN), the site's label. The site credits Cédric Pilatte's
+observation that the answer follows from Shiu's theorem on runs of consecutive
+primes in one residue class [Sh00]. It also records Lean proofs of the statement
+outside this corpus. The deduction, the credit and the Lean developments are on
+the [[problems/primes/E0427/claims/2024_05_25_pilatte|claim page]]. None of the
 Lean proofs is built here.
 
 **Source.** [erdosproblems.com/427](https://www.erdosproblems.com/427), accessed

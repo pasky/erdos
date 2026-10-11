@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0794
 title: Problem 794
 desc: |
-  Asks whether every three-uniform hypergraph on 3n vertices with more than n
-  cubed edges has four vertices spanning three edges; false as written by a
-  28-edge example, while the Turán density of K_4 minus an edge stays open.
+  Asks whether every $3$-uniform hypergraph on $3n$ vertices with more than
+  $n^3$ edges has four vertices spanning three edges. False as written, by a
+  $28$-edge example; the Turán density of $K_4$ minus an edge stays open.
 tags:
 - Graph theory
 - Hypergraphs
@@ -67,24 +67,24 @@ Current assessment records; this is a bounded negative finding for the exact
 value of $\pi(K_4^-)$, not a certificate of openness.
 
 **Status.** Disproved, by an elementary counterexample to the statement as
-printed. The counterexample is the site's, due to Harris, recomputed in the
-Current assessment: the $3$-uniform hypergraph on $\{1,\dots,9\}$ whose $28$
-edges are the $27$ triples with one element in each of $\{1,2,3\}$, $\{4,5,6\}$,
-$\{7,8,9\}$ and the triple $\{1,2,3\}$ has $3^3+1$ edges on $3\cdot3$ vertices,
-and no four of its vertices span three edges (the check is in the Current
-assessment), so the statement fails at $n=3$. The same construction (the
-complete 3-partite 3-graph on $3n$ vertices plus one triple inside a class)
-fails it for every $n\ge3$ by the same check, a class needing three vertices to
-hold the extra triple. The frontmatter standing is derived from the accepted
-claim page
-[[problems/extremal_graph_theory/E0794/claims/2025_09_08_harris|Harris's counterexample]],
-whose acceptance evidence is the site's own and which also carries the links to
-the Lean checks of the example; a pending claim page,
+printed. The site's label is DISPROVED (LEAN). It carries a catalog suffix
+explained under Formalization: the counterexample has been checked in Lean in
+external files the corpus has not built. The frontmatter standing is derived
+from the accepted claim page
+[[problems/extremal_graph_theory/E0794/claims/2025_09_08_harris|Harris's counterexample]].
+Its acceptance evidence is the site's own, and it also carries the links to the
+Lean checks of the example. A pending claim page,
 [[problems/extremal_graph_theory/E0794/claims/2026_02_06_alexeev|Aristotle's Lean proof published by Alexeev]],
 records an independent Lean proof of the construction for every $n\ge3$. The
-site's label DISPROVED (LEAN) carries a catalog suffix explained under
-Formalization: the counterexample has been checked in Lean in external files the
-corpus has not built.
+counterexample is the site's, due to Harris, and is recomputed in the Current
+assessment. Take the $3$-uniform hypergraph on $\{1,\dots,9\}$ whose $28$ edges
+are the $27$ triples with one element in each of $\{1,2,3\}$, $\{4,5,6\}$,
+$\{7,8,9\}$, together with the triple $\{1,2,3\}$. It has $3^3+1$ edges on
+$3\cdot3$ vertices, and no four of its vertices span three edges (the check is
+in the Current assessment). So the statement fails at $n=3$. The same
+construction, the complete 3-partite 3-graph on $3n$ vertices plus one triple
+inside a class, fails it for every $n\ge3$ by the same check (a class needs
+three vertices to hold the extra triple).
 
 **Source.** [erdosproblems.com/794](https://www.erdosproblems.com/794),
 accessed 2026-09-18T10:47Z: the problem page (DISPROVED

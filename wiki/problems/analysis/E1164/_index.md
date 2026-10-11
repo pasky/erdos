@@ -2,10 +2,10 @@
 name: problems/analysis/E1164
 title: Problem 1164
 desc: |
-  Asks whether the logarithm of the radius of the largest origin-centered disc
-  a planar simple random walk covers by time n has order sqrt(log n) in
-  probability; the site's almost-every wording is corrected, and Révész and
-  Dembo–Peres–Rosen–Zeitouni prove it.
+  Asks whether $\log R_n\asymp\sqrt{\log n}$ in probability, where $R_n$ is the
+  radius of the largest origin-centered disc a planar simple random walk covers
+  within $n$ steps. The site's "almost every" wording is corrected, and the
+  result is proved by Révész and by Dembo–Peres–Rosen–Zeitouni.
 tags:
 - Probability
 status: solved
@@ -79,17 +79,17 @@ event with $<x$, and the 2007 paper prints $e^{-4y}$ for the event with
 $\ge y$.
 
 **Status.** PROVED, the site's label (page last edited 25 January 2026), which
-describes the corrected Statement: the commentary credits the order as proved
-independently by Révész [Re90] and Kesten, and the stronger limit law to
-Dembo, Peres, Rosen and Zeitouni [DPRZ04]. Both results are accepted full
-claims,
+describes the corrected Statement. The derived standing is solved, proved. The
+commentary credits the order as proved independently by Révész [Re90] and
+Kesten. It credits the stronger limit law to Dembo, Peres, Rosen and Zeitouni
+[DPRZ04]. Both results are accepted full claims:
 [[problems/analysis/E1164/claims/1990_09_01_revesz|Révész's two-sided bound]]
 and the
-[[problems/analysis/E1164/claims/2001_07_26_dembo_peres_rosen_zeitouni|limit law with rate 4]],
-and the derived standing is solved, proved. Kesten's independent proof has no
-publication of his own, the 2004 paper citing it as quoted by Aldous and by
-Lawler, so it has no claim page and is disclosed on Révész's. An independent
-Lean proof of the order in probability, in Boris Alexeev's repository, is a
+[[problems/analysis/E1164/claims/2001_07_26_dembo_peres_rosen_zeitouni|limit law with rate 4]].
+Kesten's independent proof has no publication of his own. The 2004 paper cites
+it as quoted by Aldous and by Lawler. So it has no claim page and is disclosed
+on Révész's. An independent Lean proof of the order in probability, in Boris
+Alexeev's repository, is a
 [[problems/analysis/E1164/claims/2026_08_26_alexeev|pending full claim]].
 
 **Source.** T. F. Bloom,

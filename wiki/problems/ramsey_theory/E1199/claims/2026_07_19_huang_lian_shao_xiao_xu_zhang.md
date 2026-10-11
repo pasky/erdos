@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E1199/claims/2026_07_19_huang_lian_shao_xiao_xu_zhang
 title: An affirmative answer for two colors, claimed in a 2026 preprint
 desc: |
-  Huang, Lian, Shao, Xiao, Xu and Zhang's preprint claims that every
-  two-coloring of the natural numbers has an infinite set B with B+B,
-  doubles included, in one color, the site's statement; unreviewed, pending.
+  The preprint of Huang, Lian, Shao, Xiao, Xu and Zhang claims that every
+  two-coloring of the natural numbers has an infinite set $B$ with $B+B$,
+  doubles included, in one color, which is the site's statement. The claim is
+  unreviewed and pending.
 authors:
 - Wen Huang
 - Zhengxing Lian

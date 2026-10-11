@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0822
 title: Problem 822
 desc: |
-  Asks whether the integers of the form n plus the Euler totient of n have
-  positive lower density.
+  Asks whether the integers of the form $n+\phi(n)$ have positive lower density;
+  proved.
 tags:
 - Number theory
 status: solved
@@ -23,10 +23,11 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Does the set of integers of the form $n+\phi(n)$ have positive
 (lower) density?
 
-**Status.** Proved. The site's label, for the refereed theorem of
-[[problems/arithmetic_functions/E0822/claims/2023_06_28_gabdullin_iudelevich_luca|Gabdullin, Iudelevich and Luca]]:
-a positive proportion of the integers up to $x$ are of the form $n+\phi(n)$,
-and at most $0.93x$ of them are; the site adopted it on 2025-10-14.
+**Status.** Proved, the site's label, for the refereed theorem of
+[[problems/arithmetic_functions/E0822/claims/2023_06_28_gabdullin_iudelevich_luca|Gabdullin, Iudelevich and Luca]].
+The theorem states that a positive proportion of the integers up to $x$ are of
+the form $n+\phi(n)$, and that at most $0.93x$ of them are. The site adopted it
+on 2025-10-14.
 
 **Source.** [erdosproblems.com/822](https://www.erdosproblems.com/822), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #822,

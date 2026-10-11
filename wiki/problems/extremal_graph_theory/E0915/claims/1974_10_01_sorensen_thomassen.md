@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0915/claims/1974_10_01_sorensen_thomassen
 title: Sørensen and Thomassen disprove the vertex-disjoint reading for every m at least 5
 desc: |
-  Sørensen and Thomassen (J. Combin. Theory Ser. B 1974) determine k_5(n) and
-  prove a lower bound for k_m(n) with slope above m/2 for every m at least 5,
-  refuting the vertex-disjoint reading of the conjecture for every such m.
+  Sørensen and Thomassen (J. Combin. Theory Ser. B 1974) determine $k_5(n)$ and
+  prove a lower bound for $k_m(n)$ with slope above $m/2$ for every $m\ge5$.
+  This refutes the vertex-disjoint reading of the conjecture for every such $m$.
 authors:
 - Bo Aagaard Sørensen
 - Carsten Thomassen
@@ -63,20 +63,20 @@ on
 The first published counterexample, at $m=5$, is
 [[problems/extremal_graph_theory/E0915/claims/1973_09_01_leonard|Leonard's]].
 
-**Acceptance.** Refereed: Journal of Combinatorial Theory, Series B (volume
-17, issue 2, pp. 143--159, issued October 1974 by its Crossref record,
-accessed 2026-10-07; the day is the issue's nominal first day, used for this
-page's date). Reviewed: the site's curator (T. F. Bloom), independent of the
-authors, credits the paper with the exact $k_5(n)$ and the general lower bound
-in the problem's commentary, and the thread post of 27 October 2025 that led
-to the label describes the paper as disproving the question for all $k\ge5$
-while proving the $k=5$ case for 3-connected graphs. The source, the
-publisher's open-archive file, has a library
+**Acceptance.** Refereed: Journal of Combinatorial Theory, Series B, volume 17,
+issue 2, pp. 143--159. Its Crossref record, accessed 2026-10-07, gives the issue
+date as October 1974, and this page's date is the issue's nominal first day.
+Reviewed: the site's curator, T. F. Bloom, independent of the authors, credits
+the paper with the exact $k_5(n)$ and the general lower bound in the problem's
+commentary. The thread post of 27 October 2025 that led to the label describes
+the paper as disproving the question for all $k\ge5$ while proving the $k=5$
+case for 3-connected graphs. The source, the publisher's open-archive file, has
+a library
 [[../library/extremal_graph_theory/sorensen_thomassen_1974_k_rails_graphs/_index|source card]].
-Read depth: Theorems 3 and 4 and Corollary 2; Lemma 5 behind the corollary and
-the value $f_5(12)=28$ are printed without proof, and no proof is checked. The
-acceptance rests on the publication and the site's acceptance; nothing is
-independently reviewed by this project.
+Read depth: Theorems 3 and 4 and Corollary 2. Lemma 5, which lies behind the
+corollary, and the value $f_5(12)=28$ are printed without proof, and no proof is
+checked. The acceptance rests on the publication and the site's acceptance.
+Nothing is independently reviewed by this project.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos915.lean` of
 Alexeev's repository `plby/lean-proofs`, linked above at the repository's head

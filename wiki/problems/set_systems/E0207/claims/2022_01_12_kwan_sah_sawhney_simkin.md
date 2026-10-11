@@ -2,9 +2,10 @@
 name: problems/set_systems/E0207/claims/2022_01_12_kwan_sah_sawhney_simkin
 title: Steiner triple systems of arbitrarily high girth
 desc: |
-  Kwan, Sah, Sawhney and Simkin prove Erdős's 1973 conjecture: for every g,
-  every large admissible order admits a Steiner triple system in which no j
-  triples span at most j+2 vertices for 2 <= j <= g; refereed in Ann. of Math.
+  Kwan, Sah, Sawhney and Simkin prove Erdős's 1973 conjecture that for every
+  $g$, every large admissible order admits a Steiner triple system in which no
+  $j$ triples span at most $j+2$ vertices for $2\le j\le g$. The refereed paper
+  appeared in Ann. of Math.
 authors:
 - Matthew Kwan
 - Ashwin Sah
@@ -62,11 +63,11 @@ $4$-sparse case was known for all large admissible orders, with partial
 results for $r=5$ and $r=6$ and no $7$-sparse system known, as the paper's
 survey of previous work states.
 
-**Acceptance.** Refereed: Ann. of Math. (2) **200** (2024), no. 3, 1059–1156,
-after its first posting as arXiv:2201.04554 on 2022-01-12. Reviewed: Thomas
+**Acceptance.** Refereed: Ann. of Math. (2) **200** (2024), no. 3, 1059–1156.
+The paper was first posted as arXiv:2201.04554 on 2022-01-12. Reviewed: Thomas
 Bloom, the site's curator, marks the problem proved and credits the proof to
 Kwan, Sah, Sawhney and Simkin [KSSS22b]. The formal-conjectures catalog states
-the problem, in a file added 2026-10-07 whose proof is left as `sorry`, and no
-Lean proof of the theorem is recorded, so the page lists no `formalized`
-evidence. The library card summarizes the paper's statements from its text
-and does not verify the proof; that reading is not acceptance evidence.
+the problem in a file added 2026-10-07, whose proof is left as `sorry`. No Lean
+proof of the theorem is recorded, so the page lists no `formalized` evidence.
+The library card summarizes the paper's statements from its text and does not
+verify the proof. That reading is not acceptance evidence.

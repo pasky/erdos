@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0389
 title: Problem 389
 desc: |
-  Asks whether every positive integer n admits some k for which the product of
-  the first k integers from n divides the product of the next k.
+  Asks whether every $n\ge1$ has some $k$ for which $n(n+1)\cdots(n+k-1)$
+  divides $(n+k)\cdots(n+2k-1)$; open.
 tags:
 - Number theory
 status: open

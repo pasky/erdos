@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0475/claims/2026_02_17_pham_sauermann
 title: Graham's rearrangement conjecture for all sufficiently large primes
 desc: |
-  Pham and Sauermann's 2026 medium-range theorem, which with the small range
-  of Bedert and Kravitz and the large ranges of Bedert, Bucić, Kravitz,
-  Montgomery and Müyesser proves the conjecture for all large primes; claimed.
+  Pham and Sauermann (2026) claim a medium-range theorem that, together with the
+  small range of Bedert and Kravitz and the large ranges of Bedert, Bucić,
+  Kravitz, Montgomery and Müyesser, proves the conjecture for all large primes.
 authors:
 - Huy Tuan Pham
 - Lisa Sauermann

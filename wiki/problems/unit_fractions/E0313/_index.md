@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0313
 title: Problem 313
 desc: |
   Asks whether infinitely many sums of reciprocals of distinct primes equal
-  one minus the reciprocal of an integer.
+  $1-1/m$ for an integer $m\ge2$; open.
 tags:
 - Number theory
 - Unit fractions
@@ -39,20 +39,20 @@ most one solution. The question is whether there are infinitely many
 primary pseudoperfect numbers. With $k=1$ the equation allows
 $1/2=1-1/2$, so $m=2$ counts, as in OEIS A054377.
 
-**Status.** Open. Eleven solutions are known (OEIS A054377, revision of
-30 September 2026): the eight the site counts; $N_9=5998279018951962402$
-and $N_{10}=N_9(N_9+1)$, with nine and ten prime factors, published in
-Wang's arXiv preprint of May 2026; and a second solution with ten prime
-factors, $2318487344461212044808266715505249967391337588451045543300838$,
-in an OEIS comment of Pedro Martins of 27 September 2026. The entry also
-reports no further term below $10^{24}$ (12 August 2026); the equations
-were recomputed here. Infinitude is unproved: Wang's Theorem 19.5 gives it
-only under an unproved prime-points hypothesis of Bateman--Horn type,
-recorded on
+**Status.** Open. Eleven solutions are known (OEIS A054377, revision of 30
+September 2026). Eight are the ones the site counts. Two more are
+$N_9=5998279018951962402$ and $N_{10}=N_9(N_9+1)$, with nine and ten prime
+factors, published in Wang's arXiv preprint of May 2026. The eleventh is a
+second solution with ten prime factors,
+$2318487344461212044808266715505249967391337588451045543300838$, given in an
+OEIS comment of Pedro Martins of 27 September 2026. The entry also reports no
+further term below $10^{24}$ (12 August 2026). The equations were recomputed
+here. Infinitude is unproved. Wang's Theorem 19.5 gives it only under an
+unproved prime-points hypothesis of Bateman--Horn type, recorded on
 [[problems/unit_fractions/E0313/claims/2026_05_18_wang|Wang's conditional claim page]].
 No proof, disproof or proof claim for the exact statement was found in the
-search whose scope the Current assessment records;
-this is a bounded negative finding.
+search whose scope the Current assessment records. This is a bounded negative
+finding.
 
 **Source.** [erdosproblems.com/313](https://www.erdosproblems.com/313),
 accessed 2026-09-18: the problem page (labeled OPEN, with the site's

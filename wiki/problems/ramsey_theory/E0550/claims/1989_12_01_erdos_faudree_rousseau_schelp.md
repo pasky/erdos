@@ -4,7 +4,8 @@ title: Erdős, Faudree, Rousseau and Schelp, the inequality when the smallest cl
 desc: |
   The Theorem of the 1989 multipartite graph-tree paper (Ann. New York Acad.
   Sci. 576) proves the inequality of Problem 550 for large trees when the
-  smallest class has size 1; a proceedings paper, claimed.
+  smallest class has size 1. It is a proceedings paper and is recorded as
+  claimed.
 authors:
 - P. Erdős
 - R. J. Faudree

@@ -2,9 +2,8 @@
 name: problems/set_theory/E0601
 title: Problem 601
 desc: |
-  Asks for which limit ordinals every graph on that many vertices has an
-  infinite path or an independent set whose vertices have that same order
-  type.
+  Asks for which limit ordinals $\alpha$ every graph on vertex set $\alpha$ has
+  an infinite path or an independent set of order type $\alpha$; open.
 tags:
 - Graph theory
 - Set theory
@@ -26,11 +25,11 @@ updated: 2026-10-08T14:17:37Z
 graph with vertex set $\alpha$ then $G$ must have either an infinite path or
 independent set on a set of vertices with order type $\alpha$?
 
-**Status.** Open. The site labels the problem OPEN and credits [EHM70] with
-every limit $\alpha<\omega_1^{\omega+2}$ and [La90] with every limit
-$\alpha<2^{\aleph_0}$ under Martin's axiom. The site's commentary records
-Erdős's offers in [Er82e] of a prize for the case $\alpha=\omega_1^{\omega+2}$
-and a larger one for the general question.
+**Status.** Open. The site labels the problem OPEN. It credits [EHM70] with
+every limit $\alpha<\omega_1^{\omega+2}$, and [La90] with every limit
+$\alpha<2^{\aleph_0}$ under Martin's axiom. The site's commentary records that
+in [Er82e] Erdős offered a prize for the case $\alpha=\omega_1^{\omega+2}$ and a
+larger one for the general question.
 
 **Source.** [erdosproblems.com/601](https://www.erdosproblems.com/601), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #601,

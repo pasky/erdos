@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0618
 title: Problem 618
 desc: |
-  Records Alon's subquadratic triangle-free diameter-two completion theorem,
-  the catalog's notation and diameter qualifications, and the earlier
-  bounded-degree results.
+  Asks whether every triangle-free graph with maximum degree $o(n^{1/2})$ can be
+  given diameter $2$, still triangle-free, by adding $o(n^2)$ edges; proved by
+  Alon. The page also records the catalog's notation and diameter qualifications
+  and the earlier bounded-degree results.
 tags:
 - Graph theory
 status: solved
@@ -47,13 +48,13 @@ since it would then be a complete graph containing a triangle, and the
 question is asymptotic in $n$. No result about the site's wording is recorded.
 
 **Status.** PROVED (LEAN). The site's label credits Alon's note with the
-solution, and the frontmatter standing is derived from the accepted claim page
+solution. The frontmatter standing is derived from the accepted claim page
 [[problems/extremal_graph_theory/E0618/claims/2024_07_01_alon|Alon's theorem]],
-whose acceptance evidence is the site's own. The Lean part of the label refers
-to the formalization of Alon's solution whose header names Aristotle and
-Alexeev as formal authors, linked from that claim page; the corpus has not
-built that Lean file, so it gives no `formalized` evidence. The standing
-judges the corrected Statement.
+whose acceptance evidence is the site's own. The standing judges the corrected
+Statement. The Lean part of the label refers to the formalization of Alon's
+solution that is linked from that claim page. The formalization's header names
+Aristotle and Alexeev as formal authors. The corpus has not built that Lean
+file, so it gives no `formalized` evidence.
 
 **Source.** [erdosproblems.com/618](https://www.erdosproblems.com/618), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #618,

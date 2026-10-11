@@ -2,8 +2,9 @@
 name: problems/set_theory/E1128
 title: Problem 1128
 desc: |
-  Asks whether every two-coloring of a product of three sets of size aleph
-  one contains a monochromatic product of three countably infinite subsets.
+  Asks whether every $2$-coloring of $A\times B\times C$, for sets $A,B,C$ of
+  size $\aleph_1$, has a monochromatic product of three countably infinite
+  subsets; disproved.
 tags:
 - Set theory
 - Ramsey theory

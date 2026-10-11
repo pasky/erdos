@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0559/claims/2000_02_01_rodl_szemeredi
 title: Rödl and Szemerédi, cubic graphs with size Ramsey number at least n (log n)^c
 desc: |
-  Theorem 1 of Rödl and Szemerédi (Combinatorica 2000): for large n there is
-  an n-vertex graph of maximum degree 3 whose size Ramsey number is at least
-  c n (log_2 n)^alpha with c, alpha > 0, so the statement fails at d = 3.
+  Theorem 1 of Rödl and Szemerédi (Combinatorica 2000) gives, for large $n$, an
+  $n$-vertex graph of maximum degree $3$ whose size Ramsey number is at least
+  $cn(\log_2n)^\alpha$ with $c,\alpha>0$. So the statement fails at $d=3$.
 authors:
 - V. Rödl
 - E. Szemerédi
@@ -59,27 +59,27 @@ of the library's
 The same question is settled again, with a larger lower bound, on the page
 [[problems/ramsey_theory/E0559/claims/2022_10_11_tikhomirov|Tikhomirov 2022]].
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the
-problem DISPROVED and credits Rödl and Szemerédi with the disproof for
-$d=3$ in the problem's commentary (page last edited 18 January 2026,
-accessed 2026-09-17); the curator is independent of the authors. Refereed:
-On size Ramsey numbers of graphs with bounded degree, Combinatorica 20 (2000),
-no. 2, 257--262, received 21 December 1998 and published in the February
-2000 issue (the Crossref record), the date this page is
-named by. Tikhomirov (2022), Conlon, Nenadov and Trujić (2022) and
-Draganić and Petrova (2022) each cite the paper as the negative answer to
-Beck's question. Formalization: the Lean 4 file pinned above, in Boris
-Alexeev's repository, declares itself a formalization of a solution to
-this problem, names Rödl and Szemerédi as the informal authors and Codex
-and GPT-5.6 Sol as the formal authors, and proves the negative answer at
-degree three by a deterministic finite version of the construction; its
-first commit is dated 17 August 2026, and the formal-conjectures statement
-file `ErdosProblems/559.lean` (added 20 September 2026) points to it as
-the formal proof of `erdos_559` and of the degree-three variant. It is a
-third party's formalization of this claim, so it is a link on this page
-and not a page of its own; this corpus has not built it or audited its
-statement, so `formalized` is not listed, and the claim is accepted on the
-curator's credit and the refereed publication alone.
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+DISPROVED. In the problem's commentary the curator credits Rödl and Szemerédi
+with the disproof for $d=3$ (page last edited 18 January 2026, accessed
+2026-09-17). The curator is independent of the authors. Refereed: On size Ramsey
+numbers of graphs with bounded degree, Combinatorica 20 (2000), no. 2, 257--262.
+The paper was received on 21 December 1998 and published in the February 2000
+issue (the Crossref record), the date this page is named by. Tikhomirov (2022),
+Conlon, Nenadov and Trujić (2022) and Draganić and Petrova (2022) each cite the
+paper as the negative answer to Beck's question.
+
+Formalization: the Lean 4 file pinned above, in Boris Alexeev's repository,
+declares itself a formalization of a solution to this problem. It names Rödl and
+Szemerédi as the informal authors and Codex and GPT-5.6 Sol as the formal
+authors. It proves the negative answer at degree three by a deterministic finite
+version of the construction. Its first commit is dated 17 August 2026. The
+formal-conjectures statement file `ErdosProblems/559.lean` (added 20 September
+2026) points to it as the formal proof of `erdos_559` and of the degree-three
+variant. It is a third party's formalization of this claim, so it is a link on
+this page and not a page of its own. This corpus has not built it or audited its
+statement, so `formalized` is not listed. The claim is accepted on the curator's
+credit and the refereed publication alone.
 
 **Read depth.** Claims checked: Theorem 1, the constants fixed in its
 proof and the Fact of p. 259 were read (pp. 258--259); the proof

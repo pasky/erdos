@@ -3,8 +3,9 @@ name: problems/diophantine_problems/E0123/claims/2026_07_20_principia_math
 title: Principia Math's proof through a local limit theorem
 desc: |
   Claims a second proof that the products of powers of three pairwise coprime
-  bases are d-complete, with the summands confined to a short multiplicative
-  window, written up and formalized in Lean; the site shows no verdict.
+  bases are $d$-complete, with the summands confined to a short multiplicative
+  window. The proof is written up and formalized in Lean, and the site shows no
+  verdict.
 authors: []
 status: claimed
 claim: proved

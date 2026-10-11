@@ -2,8 +2,9 @@
 name: problems/additive_combinatorics/E0170
 title: Problem 170
 desc: |
-  The limiting value, divided by the square root of N, of the smallest subset
-  of zero through N whose difference set covers every integer up to N.
+  Asks for the value of $\lim_{N\to\infty}F(N)/N^{1/2}$, where $F(N)$ is the
+  smallest size of a set $A\subseteq\{0,1,\ldots,N\}$ with
+  $\{0,1,\ldots,N\}\subseteq A-A$; open.
 tags:
 - Additive combinatorics
 status: open
@@ -27,25 +28,25 @@ $$
 \lim_{N\to \infty}\frac{F(N)}{N^{1/2}}.
 $$
 
-**Status.** Open, the site's label. The site's commentary calls this the
-sparse ruler problem: Rédei asked whether the limit exists, Erdős and Gál
-proved that it does
-([[problems/additive_combinatorics/E0170/claims/1948_10_30_erdos_gal|claim page]],
-which also records a slip in the paper's printed covering argument and the
-parts of its theorem that are not covered), and the limit lies in
-$[1.56,\sqrt3]$, the lower bound Leech's
+**Status.** Open, the site's label. The site's commentary calls this the sparse
+ruler problem. It records that Rédei asked whether the limit exists and that
+Erdős and Gál proved that it does
+([[problems/additive_combinatorics/E0170/claims/1948_10_30_erdos_gal|claim page]]).
+That claim page also records a slip in the paper's printed covering argument and
+the parts of its theorem that are not covered. The commentary also records that
+the limit lies in $[1.56,\sqrt3]$. The lower bound is Leech's
 ([[problems/additive_combinatorics/E0170/claims/1956_04_01_leech|claim page]])
-and the upper bound Wichmann's
-([[problems/additive_combinatorics/E0170/claims/1963_01_01_wichmann|claim page]]);
-each is recorded as an accepted partial claim on its refereed publication,
-none on acceptance by the site, whose label leaves the problem open. Pegg's
-computations, which the commentary cites as evidence that $\sqrt3$ is the
-value, prove nothing about the limit and have no claim page. Bernshteyn and
-Tait (J. Number Theory 205 (2019)) showed that Leech's constant is not sharp,
-without a new numerical bound; that is recorded on Leech's page. The value of
-the limit is open. The commentary also raises the variant without the
-restriction $A\subseteq\{0,1,\ldots,N\}$, the unrestricted difference
-bases of Rédei and Rényi, which is not the problem's question.
+and the upper bound is Wichmann's
+([[problems/additive_combinatorics/E0170/claims/1963_01_01_wichmann|claim page]]).
+Each is recorded as an accepted partial claim on its refereed publication. None
+rests on acceptance by the site, whose label leaves the problem open. Pegg's
+computations, which the commentary cites as evidence that $\sqrt3$ is the value,
+prove nothing about the limit and have no claim page. Bernshteyn and Tait (J.
+Number Theory 205 (2019)) showed that Leech's constant is not sharp, without a
+new numerical bound. This is recorded on Leech's page. The value of the limit is
+open. The commentary also raises the variant without the restriction
+$A\subseteq\{0,1,\ldots,N\}$, the unrestricted difference bases of Rédei and
+Rényi. That variant is not the problem's question.
 
 **Source.** [erdosproblems.com/170](https://www.erdosproblems.com/170), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #170,

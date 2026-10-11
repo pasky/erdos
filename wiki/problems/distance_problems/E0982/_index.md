@@ -2,8 +2,9 @@
 name: problems/distance_problems/E0982
 title: Problem 982
 desc: |
-  Asks whether n points in the plane in convex position always include a
-  vertex with at least half of n distinct distances to the other vertices.
+  Asks whether $n$ points in convex position in the plane always include a
+  vertex with at least $\lfloor n/2\rfloor$ distinct distances to the other
+  vertices; open.
 tags:
 - Geometry
 - Convexity
@@ -26,16 +27,17 @@ updated: 2026-10-08T14:17:37Z
 then some vertex has at least $\lfloor \frac{n}{2}\rfloor$ different distances
 to other vertices.
 
-**Status.** Falsifiable: the site labels the problem FALSIFIABLE, a
-counterexample being a finite check, and its page was last edited on 19
-October 2025. Three refereed lower bounds the site credits settle small
-cases and have accepted partial claim pages:
+**Status.** Falsifiable. The site labels the problem FALSIFIABLE, since a
+counterexample is a finite check. Its page was last edited on 19 October 2025,
+and the label was unchanged on 2026-10-06. The site credits three refereed lower
+bounds that settle small cases, and each has an accepted partial claim page:
 [[problems/distance_problems/E0982/claims/1952_02_01_moser|Moser 1952]],
 [[problems/distance_problems/E0982/claims/1994_01_01_erdos_fishburn|Erdős and Fishburn 1994]]
-and [[problems/distance_problems/E0982/claims/2006_09_29_dumitrescu|Dumitrescu 2006]].
+and
+[[problems/distance_problems/E0982/claims/2006_09_29_dumitrescu|Dumitrescu 2006]].
 The proof-claims tab carries one partial claim, a lower bound submitted
-2026-07-25 by Scott Duke Kominers, which has no claim page for the reason
-given under Current assessment; the label was unchanged on 2026-10-06.
+2026-07-25 by Scott Duke Kominers. It has no claim page, for the reason given
+under Current assessment.
 
 **Source.** [erdosproblems.com/982](https://www.erdosproblems.com/982), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #982,

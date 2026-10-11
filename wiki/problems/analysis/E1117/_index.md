@@ -2,8 +2,10 @@
 name: problems/analysis/E1117
 title: Problem 1117
 desc: |
-  Concerns the number of points on the circle of radius r at which a
-  non-monomial entire function attains its maximum modulus.
+  Asks whether $\limsup\nu(r)=\infty$ is possible, and whether
+  $\liminf\nu(r)=\infty$ is, where $\nu(r)$ counts the points of $|z|=r$ at
+  which a non-monomial entire function attains its maximum modulus; both parts
+  have pending claims.
 tags:
 - Analysis
 status: claimed
@@ -38,24 +40,26 @@ $$
 \liminf \nu(r)=\infty?
 $$
 
-**Status.** The site labels the problem OPEN (page last edited 29
-December 2025). The site's commentary records that the first question has the
-answer yes, by Herzog and Piranian (1968), a pending partial claim on
-[[problems/analysis/E1117/claims/1968_01_01_herzog_piranian|their page]], and
-that the second question is open, with an approximate affirmative analogue by
-Glücksam and Pardo-Simón [GlPa24]. The site's proof-claims tab carries a claim
-credited to Qiyuan Gu, submitted 2026-09-05 and listed there as a full claim;
-the claim's notes say that GPT-6 Astra generated the proofs and that GPT-5.6 Sol
-and Claude Opus 5 were used for editorial review. It asserts $\nu(r)\le2k$
-outside a countable set of radii, where $k$ is the gap between the exponents of
-the first two nonzero terms of $f$, so that $\liminf\nu(r)<\infty$ for every
-non-monomial entire $f$, a negative answer to the second question. It is pending
-on [[problems/analysis/E1117/claims/2026_09_05_gu|its page]] as a partial claim
-settling the second question (proof-claims thread accessed 2026-10-06). The
-derived standing, claimed with the value answered, departs from OPEN because a
-pending claim answers the second question, which the site's commentary records
-as open, and with the pending affirmative answer to the first every part is
-covered by a pending claim.
+**Status.** The site labels the problem OPEN (page last edited 29 December
+2025). The derived standing is claimed, with the value answered. It departs from
+OPEN because a pending claim answers the second question, which the site's
+commentary records as open. Together with the pending affirmative answer to the
+first question, every part is covered by a pending claim. The site's commentary
+records that the first question has the answer yes, by Herzog and Piranian
+(1968). This is a pending partial claim on
+[[problems/analysis/E1117/claims/1968_01_01_herzog_piranian|their page]]. The
+commentary records the second question as open, with an approximate affirmative
+analogue by Glücksam and Pardo-Simón [GlPa24].
+
+The site's proof-claims tab carries a claim credited to Qiyuan Gu, submitted
+2026-09-05 and listed there as a full claim. The claim's notes say that GPT-6
+Astra generated the proofs and that GPT-5.6 Sol and Claude Opus 5 were used for
+editorial review. It asserts $\nu(r)\le2k$ outside a countable set of radii,
+where $k$ is the gap between the exponents of the first two nonzero terms of
+$f$. So $\liminf\nu(r)<\infty$ for every non-monomial entire $f$, which is a
+negative answer to the second question. The claim is pending on
+[[problems/analysis/E1117/claims/2026_09_05_gu|its page]] as a partial claim
+settling the second question (proof-claims thread accessed 2026-10-06).
 
 **Source.** [erdosproblems.com/1117](https://www.erdosproblems.com/1117),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1117,

@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0053
 title: Problem 53
 desc: |
-  Asks whether, for every k, a large enough finite set of integers gives at
-  least its size to the power k integers that are sums or products of distinct
-  elements.
+  Asks whether, for every $k$, every large enough finite set $A$ of integers has
+  at least $\lvert A\rvert^k$ integers that are sums or products of distinct
+  elements of $A$; proved.
 tags:
 - Number theory
 - Additive combinatorics
@@ -27,22 +27,21 @@ $k$, if $\lvert A\rvert$ is sufficiently large depending on $k$, then there are
 least $\lvert A\rvert^k$ many integers which are either the sum or product of
 distinct elements of $A$?
 
-**Status.** **PROVED (LEAN)**, the site's label; its suffix is a catalog
-label explained under Formalization. The status-defining source is Chang
-(Ann. of Math. (2) 157 (2003), 939--957, refereed). Section 2 proves the
-lower bound of her Theorem 2 in the form (2.2):
-$g(A)>k^{(\frac18-\varepsilon)\log k/\log\log k}$ for every
-$\varepsilon>0$ and every set $A$ of $k$ positive integers with $k$ large,
-where $g(A)$ is the number of simple sums plus the number of simple products
-of $A$. Theorem 2 as printed, display (0.21), asserts its two bounds for some
-$\varepsilon>0$. This bound exceeds every fixed power of $k$; the case of a
-set of integers of either sign follows by the sign reduction on the claim
-page, so the answer is yes. The claim page is
-[[problems/additive_combinatorics/E0053/claims/2003_05_01_chang|Chang]],
-accepted on the site curator's credit and the refereed publication; the 2026
-Lean development that declares itself a formalization of her result is
-linked there and gives no `formalized` evidence, since this corpus has not
-built or audited it.
+**Status.** **PROVED (LEAN)**, the site's label. Its suffix is a catalog label
+explained under Formalization. The status-defining source is Chang (Ann. of
+Math. (2) 157 (2003), 939--957, refereed). Section 2 proves the lower bound of
+her Theorem 2 in the form (2.2):
+$g(A)>k^{(\frac18-\varepsilon)\log k/\log\log k}$ for every $\varepsilon>0$ and
+every set $A$ of $k$ positive integers with $k$ large. Here $g(A)$ is the number
+of simple sums plus the number of simple products of $A$. Theorem 2 as printed,
+display (0.21), asserts its two bounds for some $\varepsilon>0$. The bound (2.2)
+exceeds every fixed power of $k$. The case of a set of integers of either sign
+follows by the sign reduction on the claim page, so the answer is yes. The claim
+page is [[problems/additive_combinatorics/E0053/claims/2003_05_01_chang|Chang]],
+accepted on the site curator's credit and the refereed publication. The 2026
+Lean development that declares itself a formalization of her result is linked
+there. It gives no `formalized` evidence, since this corpus has not built or
+audited it.
 
 **Source.** [erdosproblems.com/53](https://www.erdosproblems.com/53), accessed
 2026-09-04 and 2026-10-07 (no last-edited date shown; empty

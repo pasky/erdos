@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0106
 title: Problem 106
 desc: |
-  Asks whether the largest total side length of interior-disjoint squares
-  packed in the unit square equals k when there are k squared plus one
-  squares.
+  Asks whether $f(k^2+1)=k$, where $f(n)$ is the largest total side length of
+  $n$ interior-disjoint squares in the unit square. It was disproved in 2026 by
+  a packing of 17 squares that gives $f(17)>4$.
 tags:
 - Geometry
 status: solved
@@ -25,9 +25,9 @@ updated: 2026-10-08T02:16:54Z
 point. Let $f(n)$ be the maximum possible sum of the side-lengths of the
 squares. Is $f(k^2+1)=k$?
 
-**Status.** DISPROVED (LEAN): the site credits a packing of seventeen squares
-with total side length above $4$, so $f(17)>4$, found by Claude Opus 5 prompted
-by Conner Silverstein (2026); see the
+**Status.** DISPROVED (LEAN). The site credits a packing of seventeen squares
+with total side length above $4$, so $f(17)>4$. It was found by Claude Opus 5
+prompted by Conner Silverstein (2026). See the
 [[problems/discrete_geometry/E0106/claims/2026_07_29_silverstein|claim page]].
 
 **Source.** [erdosproblems.com/106](https://www.erdosproblems.com/106), accessed

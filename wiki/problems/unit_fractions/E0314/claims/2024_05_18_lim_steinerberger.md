@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0314/claims/2024_05_18_lim_steinerberger
 title: Lim and Steinerberger's harmonic overshoot bound
 desc: |
-  Lim and Steinerberger's Theorem 1: consecutive reciprocals from n can sum to
-  within c over n squared above one for infinitely many n, so the liminf of n
-  squared times the overshoot is zero; refereed in Mathematika.
+  Lim and Steinerberger's Theorem 1: for any $c>0$ and infinitely many $n$, the
+  consecutive reciprocals from $1/n$ can sum to a value in $[1,1+c/n^2]$, so the
+  liminf of $n^2$ times the overshoot is $0$. It is refereed in Mathematika.
 authors:
 - Jeck Lim
 - Stefan Steinerberger
@@ -65,15 +65,15 @@ recorded on the problem page as open.
 **Acceptance.** Refereed: the paper is published in Mathematika 71 (2025), no.
 2, e70009 (published online 27 January 2025; DOI 10.1112/mtk.70009). Reviewed:
 the site's curator, T. F. Bloom, marks the problem proved and credits Lim and
-Steinerberger (the community database lists proved, as of its last update of 31
-August 2025); a thread comment of 22 January 2026 led to the 23 January 2026
-revision stating their refined bound with the absolute value and exponent $5/4$.
-Bloom is not an author of the paper. The locators are those of arXiv v3 (11 June
-2024); the journal text has not been compared, and the result pages record the
-proofs (an elementary construction from the continued fraction of $e$ for
-Theorem 1, quadratic rational approximation for Theorem 2) as read for structure
-only. The corpus has not verified the proofs; the acceptance rests on the
-refereed publication and the curator's credit.
+Steinerberger. The community database lists the problem as proved, as of its
+last update of 31 August 2025. A thread comment of 22 January 2026 led to the 23
+January 2026 revision, which states their refined bound with the absolute value
+and exponent $5/4$. Bloom is not an author of the paper. The locators are those
+of arXiv v3 (11 June 2024), and the journal text has not been compared. The
+result pages record the proofs as read for structure only: an elementary
+construction from the continued fraction of $e$ for Theorem 1, and quadratic
+rational approximation for Theorem 2. The corpus has not verified the proofs.
+The acceptance rests on the refereed publication and the curator's credit.
 
 **Formalization.** Two Lean files prove Theorem 1's statement and are linked
 above as formalizations of this result; neither was built or audited by the

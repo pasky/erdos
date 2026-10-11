@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0457
 title: Problem 457
 desc: |
-  Whether some epsilon > 0 gives infinitely many n with every prime up to
-  (2 + epsilon) log n dividing the product of the next log n integers: yes,
-  by a 2026 AI construction the site accepted; Erdős's opposite 1979 form: no.
+  Asks whether some $\epsilon>0$ gives infinitely many $n$ such that every prime
+  $p\le(2+\epsilon)\log n$ divides $\prod_{1\le i\le\log n}(n+i)$; yes, by a
+  2026 AI construction the site accepted. Erdős's 1979 form, which asks the
+  opposite, has the answer no.
 tags:
 - Number theory
 status: solved
@@ -48,39 +49,44 @@ The site attributes the problem to Erdős and Pomerance; its source keys are
 [Er79d, p. 78] and [ErGr80, p. 91]; the upper-bound question for $q(n,\log n)$
 is Problem 1181, split off on 7 March 2026.
 
-**Status.** Proved. The status-defining source is the site's own account of a
-construction that its commentary attributes to GPT-5.2 Pro prompted by Kevin
-Barreto (2 March 2026): the construction gives infinitely many $n$ with every
-prime $p\le(2+\epsilon)\log n$ dividing the product, for each fixed
-$\epsilon<3/\log4-2\approx0.164$, so the constant $2$ can be raised to any
-constant below $3/\log4\approx2.164$, and a second run of GPT-5.2 Pro the same
-day proves the statement for every constant in place of $2$. Tao's thread
-comments (2--3 March 2026) sketch an elaboration giving infinitely many $n$
-with $q(n,\log n)>\frac{1-o(1)}2\frac{\log\log n}{\log\log\log n}\log n$; a
-write-up of that elaboration produced by GPT-5.2 Thinking, posted by Nat
-Sothanaphan on 3 March 2026, states the $\gg$ form, and its proof gives the
-constant $\frac12$, which Tao's reply credits to GPT; it is the second claim
-page,
-[[problems/integer_sequences/E0457/claims/2026_03_03_sothanaphan|Sothanaphan]],
-claimed and not adopted. The site's curator, Thomas Bloom, accepted the answer
-on 7 March 2026 with the label PROVED (LEAN). No paper, preprint or refereed
-publication exists: the argument's written forms are documents linked from the
-thread on a file-sharing service (the first of them is the anonymous four-page
-note [Anon26], see gap (1); the second was not read) and an external Lean file
-at a pinned commit, which proves the formal-conjectures statement with
-$\epsilon=0.1$; it was not built or independently audited here, and no local
-kernel credit is claimed. This is a source-supported solution accepted by the
-site, distinct from a claim of journal refereeing: no refereed publication, no
-arXiv version and no independent expert review of the argument was found. The
-results in hand before 2026 were Erdős's own example, $n$ the product of the
-primes between $\log n$ and $(2+o(1))\log n$, giving $q(n,[\log
-n])\ge(2+o(1))\log n$ once $n+1$ rather than $n$ is that product or the product
-starts at $i=0$ (see the origins paragraph below), and his crude bound
-$q(n,k)<(1+o(1))k\log n$ (both 1979). The standing is derived from the claim
+**Status.** Proved. The site's curator, Thomas Bloom, accepted the answer on 7
+March 2026 with the label PROVED (LEAN). The standing is derived from the claim
 page
-[[problems/integer_sequences/E0457/claims/2026_03_02_barreto|the construction's claim page]]
-with these qualifications (accepted on the site's documented acceptance; no
-paper, no refereed publication and no formal audit here).
+[[problems/integer_sequences/E0457/claims/2026_03_02_barreto|the construction's claim page]],
+with these qualifications: it is accepted on the site's documented acceptance,
+there is no paper and no refereed publication, and there was no formal audit
+here. This is a source-supported solution accepted by the site, distinct from a
+claim of journal refereeing. No refereed publication, no arXiv version and no
+independent expert review of the argument was found.
+
+The status-defining source is the site's own account of a construction. Its
+commentary attributes the construction to GPT-5.2 Pro prompted by Kevin Barreto
+(2 March 2026). For each fixed $\epsilon<3/\log4-2\approx0.164$, the
+construction gives infinitely many $n$ with every prime $p\le(2+\epsilon)\log n$
+dividing the product. So the constant $2$ can be raised to any constant below
+$3/\log4\approx2.164$. A second run of GPT-5.2 Pro the same day proves the
+statement for every constant in place of $2$. No paper, preprint or refereed
+publication exists. The argument's written forms are documents linked from the
+thread on a file-sharing service, and an external Lean file at a pinned commit.
+The first document is the anonymous four-page note [Anon26] (see gap (1)), and
+the second was not read. The Lean file proves the formal-conjectures statement
+with $\epsilon=0.1$. It was not built or independently audited here, and no
+local kernel credit is claimed.
+
+Tao's thread comments (2--3 March 2026) sketch an elaboration giving infinitely
+many $n$ with
+$q(n,\log n)>\frac{1-o(1)}2\frac{\log\log n}{\log\log\log n}\log n$. Nat
+Sothanaphan posted a write-up of that elaboration, produced by GPT-5.2 Thinking,
+on 3 March 2026. It states the $\gg$ form, and its proof gives the constant
+$\frac12$, which Tao's reply credits to GPT. It is the second claim page,
+[[problems/integer_sequences/E0457/claims/2026_03_03_sothanaphan|Sothanaphan]],
+claimed and not adopted.
+
+The results in hand before 2026 were Erdős's own example and his crude bound
+$q(n,k)<(1+o(1))k\log n$ (both 1979). In the example, $n$ is the product of the
+primes between $\log n$ and $(2+o(1))\log n$. It gives
+$q(n,[\log n])\ge(2+o(1))\log n$ once $n+1$ rather than $n$ is that product or
+the product starts at $i=0$ (see the origins paragraph below).
 
 **Source.** [erdosproblems.com/457](https://www.erdosproblems.com/457),
 accessed 2026-09-18: the problem page (PROVED (LEAN), which the site

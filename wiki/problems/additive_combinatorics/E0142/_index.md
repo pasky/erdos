@@ -2,8 +2,8 @@
 name: problems/additive_combinatorics/E0142
 title: Problem 142
 desc: |
-  Asks for an asymptotic formula for the largest subset of the first N
-  integers containing no non-trivial k-term arithmetic progression.
+  Asks for an asymptotic formula for $r_k(N)$, the size of the largest subset of
+  $\{1,\ldots,N\}$ with no non-trivial $k$-term arithmetic progression; open.
 tags:
 - Additive combinatorics
 - Arithmetic progressions
@@ -23,19 +23,19 @@ updated: 2026-10-08T00:44:24Z
 $\{1,\ldots,N\}$ that does not contain any non-trivial $k$-term arithmetic
 progression. Prove an asymptotic formula for $r_k(N)$.
 
-**Status.** Open. The OpenAI mathematics release of 23 September 2026 claims
-$r_k(N)\le C_kN\exp(-c_k(\log N)^{\varepsilon_k})$ for every fixed $k\ge3$, an
-upper bound beyond those recorded below for $k\ge4$. It gives no asymptotic
-formula, no order of magnitude and no answer to whether $r_k(N)/r_{k+1}(N)\to0$
-for any $k$, so it settles no instance of the problem and has no claim page. The
-bound would also give $r_k(N)=o(N/\log N)$, which the formal-conjectures file
-linked under Formalization states as the open variant
-`erdos_142.variants.lower`; the site's commentary attaches that statement to
-Problem 3, not to this problem. The theorem is recorded on
+**Status.** Open. The site's label is OPEN (page last edited 4 April 2026). The
+OpenAI mathematics release of 23 September 2026 claims
+$r_k(N)\le C_kN\exp(-c_k(\log N)^{\varepsilon_k})$ for every fixed $k\ge3$. For
+$k\ge4$ this upper bound goes beyond those recorded below. It gives no
+asymptotic formula and no order of magnitude, and it does not answer whether
+$r_k(N)/r_{k+1}(N)\to0$ for any $k$. So it settles no instance of the problem
+and has no claim page. The bound would also give $r_k(N)=o(N/\log N)$. The
+formal-conjectures file linked under Formalization states this as the open
+variant `erdos_142.variants.lower`, but the site's commentary attaches that
+statement to Problem 3, not to this problem. The theorem is recorded on
 [[problems/additive_combinatorics/E0139/claims/2026_09_23_openai|the claim page of Problem 139]],
 and its reciprocal-sum corollary is accepted on
 [[problems/additive_combinatorics/E0003/claims/2026_09_23_openai|the claim page of Problem 3]].
-The site's label is OPEN (page last edited 4 April 2026).
 
 **Source.** [erdosproblems.com/142](https://www.erdosproblems.com/142), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #142,

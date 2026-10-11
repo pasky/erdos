@@ -2,9 +2,8 @@
 name: problems/integer_sequences/E0839
 title: Problem 839
 desc: |
-  Asks whether an increasing integer sequence in which no term is a sum of
-  consecutive earlier terms must have terms growing faster than linearly at
-  times.
+  Asks whether an increasing sequence of positive integers in which no term is a
+  sum of consecutive earlier terms must satisfy $\limsup a_n/n=\infty$; open.
 tags:
 - Number theory
 status: open
@@ -32,7 +31,7 @@ $$
 \lim \frac{1}{\log x}\sum_{a_n<x}\frac{1}{a_n}=0?
 $$
 
-**Status.** Open; the site labels the problem OPEN.
+**Status.** Open. The site labels the problem OPEN.
 
 **Source.** [erdosproblems.com/839](https://www.erdosproblems.com/839), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #839,

@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0879/claims/1984_01_01_erdos_van_lint
 title: An optimal coprime set eventually contains a non-prime-power
 desc: |
-  Erdős states in 1984, without proof, that for large n an optimal admissible
-  set must contain an element that is not a prime power, the second question
-  at k = 2; the site credits the result to Erdős and van Lint.
+  Erdős states in 1984, without proof, that for large $n$ an optimal admissible
+  set must contain an element that is not a prime power, which is the second
+  question at $k=2$. The site credits the result to Erdős and van Lint.
 authors:
 - P. Erdős
 status: claimed

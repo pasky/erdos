@@ -3,8 +3,9 @@ name: problems/integer_sequences/E0539/claims/2026_06_10_schmitt_gehrunger_dekon
 title: The exponent of h(n) is one half
 desc: |
   Theorem A.1 of the July 2026 ProofCouncil preprint by Schmitt and six
-  coauthors: h(n) is at most n^(1/2) exp(C sqrt(log n)), so the exponent of
-  h(n) is one half; in the site's commentary under its label OPEN, not refereed.
+  coauthors gives $h(n)\le n^{1/2}\exp(C\sqrt{\log n})$, so the exponent of
+  $h(n)$ is $1/2$. It appears in the site's commentary under the site's label
+  OPEN and is not refereed.
 authors:
 - Johannes Schmitt
 - Tim Gehrunger

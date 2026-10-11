@@ -2,8 +2,9 @@
 name: problems/divisors/E0884
 title: Problem 884
 desc: |
-  Asks whether the sum of one over all differences of divisors of n is bounded
-  by a constant times one plus the sum of one over consecutive divisor gaps.
+  Asks whether the sum of $1/(d_j-d_i)$ over all pairs of divisors $d_i<d_j$ of
+  $n$ is at most an absolute constant times $1+\sum_i 1/(d_{i+1}-d_i)$, the sum
+  over consecutive divisors; disproved.
 tags:
 - Number theory
 - Divisors
@@ -31,10 +32,10 @@ $$
 where the implied constant is absolute?
 
 **Status.** DISPROVED (LEAN). The site's remarks credit a conditional disproof
-to Tao and an unconditional one to Larsen, and the Lean label rests on a
-third-party formalization of Larsen's proof; see
-[[problems/divisors/E0884/claims/2026_03_27_larsen|Larsen's unconditional disproof]];
-the conditional result is its own pending page,
+to Tao and an unconditional one to Larsen. The Lean label rests on a third-party
+formalization of Larsen's proof. See
+[[problems/divisors/E0884/claims/2026_03_27_larsen|Larsen's unconditional disproof]].
+The conditional result has its own pending page,
 [[problems/divisors/E0884/claims/2025_09_10_tao|Tao's conditional disproof]].
 
 **Source.** [erdosproblems.com/884](https://www.erdosproblems.com/884), accessed

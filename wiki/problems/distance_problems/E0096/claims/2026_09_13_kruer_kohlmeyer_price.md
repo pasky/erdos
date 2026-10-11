@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0096/claims/2026_09_13_kruer_kohlmeyer_price
 title: Kruer, Kohlmeyer and Price's convex sets with n log log n unit distances
 desc: |
-  A manuscript with a Lean file constructing, for every large n, n points in
-  strictly convex position with at least (1/4 - o(1)) n log log n unit-distance
-  pairs, so the count is not O(n); posted as a proof claim under Problem 97.
+  A manuscript by Kruer, Kohlmeyer and Price, with a Lean file, constructs for
+  every large $n$ a set of $n$ points in strictly convex position with at least
+  $(1/4-o(1))\,n\log\log n$ unit-distance pairs, so the count is not $O(n)$. It
+  was posted as a proof claim under Problem 97.
 authors:
 - Liam Kruer
 - Jensen Kohlmeyer

@@ -2,8 +2,8 @@
 name: problems/set_theory/E1127
 title: Problem 1127
 desc: |
-  Asks whether real n-dimensional space splits into countably many sets in
-  each of which all pairwise distances are distinct.
+  Asks whether $\mathbb{R}^n$ splits into countably many sets in each of which
+  all pairwise distances are distinct; independent.
 tags:
 - Geometry
 - Distances

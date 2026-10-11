@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0479
 title: Problem 479
 desc: |
-  Asks whether, for every k other than one, there are infinitely many n with
-  two to the n congruent to k modulo n.
+  Asks whether, for every $k\neq1$, there are infinitely many $n$ with
+  $2^n\equiv k\pmod n$; open.
 tags:
 - Number theory
 status: open
@@ -23,9 +23,9 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Is it true that, for all $k\neq 1$, there are infinitely many $n$
 such that $2^n\equiv k\pmod{n}$?
 
-**Status.** Open: the site's label. The one claim page,
-[[problems/diophantine_problems/E0479/claims/2025_12_02_tang|Tang 2025]], is
-a pending partial claim for the cases $k=2^i$, so the problem is `open`.
+**Status.** Open, the site's label. The problem is `open` because its one claim
+page, [[problems/diophantine_problems/E0479/claims/2025_12_02_tang|Tang 2025]],
+is a pending partial claim for the cases $k=2^i$.
 
 **Source.** [erdosproblems.com/479](https://www.erdosproblems.com/479), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #479,

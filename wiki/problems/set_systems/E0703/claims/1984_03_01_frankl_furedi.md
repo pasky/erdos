@@ -2,9 +2,9 @@
 name: problems/set_systems/E0703/claims/1984_03_01_frankl_furedi
 title: Frankl and Füredi's exact value of T(n,r) for large n
 desc: |
-  Frankl and Füredi (1984) determine T(n,r) exactly for every fixed r and
-  all n large in terms of r, with the extremal family unique; a partial
-  answer to the problem's request for estimates.
+  Frankl and Füredi (1984) determine $T(n,r)$ exactly for every fixed $r$ and
+  all $n$ large in terms of $r$, and show that the extremal family is unique.
+  This is a partial answer to the problem's request for estimates.
 authors:
 - P Frankl
 - Z Füredi
@@ -51,13 +51,13 @@ $\epsilon n<r<(1/2-\epsilon)n$, which
 settle.
 
 **Acceptance.** Refereed: J. Combin. Theory Ser. A **36** (1984), no. 2,
-230–236; the issue is dated March 1984, and the page is dated to the first
-day of that month. The site's curator records the theorem with its two
-extremal families in the problem's commentary and credits it to Frankl and
-Füredi [FrFu84b]; the site's PROVED label rests on the Frankl–Rödl answer to
-the second question, so that remark is context and not acceptance evidence,
-and the page lists no `reviewed`. The library card records the paper's
-results; no proof review is recorded.
+230–236. The issue is dated March 1984, and the page is dated to the first day
+of that month. In the problem's commentary, the site's curator records the
+theorem with its two extremal families and credits it to Frankl and Füredi
+[FrFu84b]. But the site's PROVED label rests on the Frankl–Rödl answer to the
+second question. So that remark is context and not acceptance evidence, and the
+page lists no `reviewed`. The library card records the paper's results. No proof
+review is recorded.
 
 **Formalization.** Collin Yuanjie Ren's submission jsp-000573-cyr in his awards
 repository, committed 2026-09-16 and linked above at that commit, formalizes

@@ -2,9 +2,9 @@
 name: problems/divisors/E0448/claims/1988_09_15_hall_tenenbaum
 title: "Hall and Tenenbaum: the distribution function of tau-plus over tau"
 desc: |
-  The Hall–Tenenbaum theorem that tau^+(n)/tau(n) has a limiting distribution
-  function nu with nu(z) of order between z/sqrt(log(2/z)) and z log(2/z), so
-  the integers with tau^+(n) < eps tau(n) do not have density one.
+  The Hall–Tenenbaum theorem states that $\tau^+(n)/\tau(n)$ has a limiting
+  distribution function $\nu$ with $z/\sqrt{\log(2/z)}\ll\nu(z)\ll z\log(2/z)$.
+  So the integers with $\tau^+(n)<\epsilon\tau(n)$ do not have density one.
 authors:
 - Richard R. Hall
 - Gérald Tenenbaum
@@ -54,8 +54,8 @@ both without proof.
 
 **Acceptance.** The book is a monograph, not a journal publication, so no
 `refereed` evidence is listed. The site credits the sharper bound and the
-distribution function to Hall and Tenenbaum but the disproof of the problem
-to Erdős and Tenenbaum, so no `reviewed` evidence is listed either; Tenenbaum's
-survey is by a co-author and is not independent acceptance. The problem's
-standing derives from the accepted Erdős–Tenenbaum page. This repository has
-not checked the proof.
+distribution function to Hall and Tenenbaum, but it credits the disproof of the
+problem to Erdős and Tenenbaum. So no `reviewed` evidence is listed either.
+Tenenbaum's survey is by a co-author and is not independent acceptance. The
+problem's standing derives from the accepted Erdős–Tenenbaum page. This
+repository has not checked the proof.

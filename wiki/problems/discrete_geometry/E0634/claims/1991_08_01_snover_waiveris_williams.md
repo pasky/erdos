@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0634/claims/1991_08_01_snover_waiveris_williams
 title: The rep-tiling theorem of Snover, Waiveris and Williams
 desc: |
-  Snover, Waiveris and Williams classify the cuttings of a triangle into N
-  congruent copies similar to itself, so the values n^2 + m^2 and 3n^2 occur;
-  a refereed paper in Discrete Mathematics.
+  In a refereed paper in Discrete Mathematics, Snover, Waiveris and Williams
+  classify the cuttings of a triangle into $N$ congruent copies similar to
+  itself. So the values $n^2+m^2$ and $3n^2$ occur.
 authors:
 - Stephen L. Snover
 - Charles Waiveris

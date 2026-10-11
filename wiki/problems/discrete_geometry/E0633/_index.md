@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0633
 title: Problem 633
 desc: |
-  Characterizes the triangles that can only be cut into a square number of
-  congruent triangles.
+  Asks which triangles can only be cut into a square number of congruent
+  triangles; solved.
 tags:
 - Geometry
 status: solved
@@ -25,12 +25,12 @@ number of congruent triangles.
 
 **Status.** Solved by the classification of Beeson, Laczkovich, and Zhang,
 [[../library/discrete_geometry/beeson_2026_solution_erdos_problem_633/theorem_1|Theorem 1]],
-arXiv:2604.03609v3. The site page accessed records
-the solution, and the authors' primary paper supplies the argument.
-The eight families in that theorem are exactly the triangles admitting
-a nonsquare tiling; all other triangles answer this question. The accepted
-claim is
+arXiv:2604.03609v3. The accepted claim is
 [[problems/discrete_geometry/E0633/claims/2026_04_04_beeson_laczkovich_zhang|Beeson–Laczkovich–Zhang 2026]].
+The eight families in that theorem are exactly the triangles that admit a
+nonsquare tiling. All other triangles answer this question. The site page
+accessed records the solution, and the authors' primary paper supplies the
+argument.
 
 **Source.** [erdosproblems.com/633](https://www.erdosproblems.com/633), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #633,

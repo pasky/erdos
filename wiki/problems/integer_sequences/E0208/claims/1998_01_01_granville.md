@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0208/claims/1998_01_01_granville
 title: Granville's squarefree gap bound under the abc conjecture
 desc: |
-  Granville proves that the abc conjecture implies s_{n+1} - s_n is at most a
-  constant times s_n^epsilon for every epsilon > 0; refereed and conditional,
-  so it answers the first question only under an unproved hypothesis.
+  Granville proves that the abc conjecture implies
+  $s_{n+1}-s_n\ll_\epsilon s_n^\epsilon$ for every $\epsilon>0$. The result is
+  refereed but conditional, so it answers the first question only under an
+  unproved hypothesis.
 authors:
 - Andrew Granville
 status: accepted
@@ -54,8 +55,7 @@ and claimed for every $\epsilon>1/5-\eta$
 **Depends on.** Nothing in this wiki; the hypothesis is stated above.
 
 **Acceptance.** Refereed: International Mathematics Research Notices is a
-refereed journal, and the publisher's record dates the article to 1998
-without a month or day, so this page is named by the first day of that year.
-The site labels the problem OPEN, so the curator's credit is not acceptance
-and no `reviewed` evidence is listed. The corpus records no check of the
-proof.
+refereed journal. The publisher's record dates the article to 1998 without a
+month or day, so this page is named by the first day of that year. The site
+labels the problem OPEN, so the curator's credit is not acceptance and no
+`reviewed` evidence is listed. The corpus records no check of the proof.

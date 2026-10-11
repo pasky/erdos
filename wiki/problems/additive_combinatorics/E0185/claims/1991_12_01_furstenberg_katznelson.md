@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0185/claims/1991_12_01_furstenberg_katznelson
 title: Density Hales-Jewett theorem settles Moser's cube problem
 desc: |
-  Furstenberg and Katznelson's 1991 density Hales-Jewett theorem, whose
-  three-letter case gives that a subset of the ternary n-cube with no three
-  collinear points has size o(3^n); refereed, credited by the site.
+  Furstenberg and Katznelson's 1991 density Hales–Jewett theorem is refereed and
+  credited by the site. Its three-letter case shows that a subset of the ternary
+  $n$-cube with no three collinear points has size $o(3^n)$.
 authors:
 - H. Furstenberg
 - Y. Katznelson
@@ -61,17 +61,19 @@ answer.
 the theorem the corollary rests on; the deduction above uses nothing beyond
 its statement.
 
-**Acceptance.** Refereed: the paper appeared in Journal d'Analyse
-Mathématique, volume 57, issue 1 (its Crossref record dates the issue to
-December 1991 without a day, so this page is named by the first day of that
-month). Reviewed: the site's curator, Thomas Bloom, records the answer as
-yes, a corollary of the density Hales--Jewett theorem of Furstenberg and
-Katznelson, in the problem page's commentary (label PROVED (LEAN)); that is
-documented acceptance outside this project. The site's Lean marker traces
-to a formalization of the problem through the Dodos--Kanellopoulos--Tyros
-proof of the theorem, pinned on
-[[problems/additive_combinatorics/E0185/claims/2012_09_22_dodos_kanellopoulos_tyros|their claim page]],
-not through this one, so no `formalized` evidence is listed. Nothing here
-is this project's own review of the proof. Context from the site, not part
-of the claim: the problem was first considered by Moser,
-$f_3(n)\ge r_3(3^n)$ trivially, and Moser showed $f_3(n)\gg3^n/\sqrt n$.
+**Acceptance.** Refereed: the paper appeared in Journal d'Analyse Mathématique,
+volume 57, issue 1. Its Crossref record dates the issue to December 1991 without
+a day, so this page is named by the first day of that month. Reviewed: the
+site's curator, Thomas Bloom, records the answer as yes in the problem page's
+commentary (label PROVED (LEAN)). He records it as a corollary of the density
+Hales--Jewett theorem of Furstenberg and Katznelson. This is documented
+acceptance outside this project. The site's Lean marker traces to a
+formalization of the problem through the Dodos--Kanellopoulos--Tyros proof of
+the theorem, which is pinned on
+[[problems/additive_combinatorics/E0185/claims/2012_09_22_dodos_kanellopoulos_tyros|their claim page]].
+It does not go through this proof, so no `formalized` evidence is listed.
+Nothing here is this project's own review of the proof.
+
+Context from the site, not part of the claim: Moser first considered the
+problem. Trivially $f_3(n)\ge r_3(3^n)$, and Moser showed
+$f_3(n)\gg3^n/\sqrt n$.

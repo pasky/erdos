@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0948
 title: Problem 948
 desc: |
-  Asks whether some bound and some number of colors force, in every coloring
-  of the integers, a slowly growing sequence whose subset sums miss a color;
-  no, by a 2026 AI-generated coloring accepted by the site after review.
+  Asks whether there are $f$ and $k$ such that every $k$-coloring of the
+  integers has a sequence $a_1<a_2<\cdots$ with $a_n<f(n)$ for infinitely many
+  $n$ whose finite subset sums miss a color. No, by a 2026 AI-generated coloring
+  that the site accepted after review.
 tags:
 - Number theory
 - Ramsey theory
@@ -51,40 +52,38 @@ records how the site's wording was settled: the sequence does not depend on $n$
 (otherwise Folkman's theorem answers yes) and the bound is required infinitely
 often. Source keys [Er77c, p.57] and [ErGa91, p.268].
 
-**Status.** Disproved; the site labels the problem SOLVED. The
-status-defining source is an AI-generated disproof, a note titled "A
-Negative Answer to an Erdős--Galvin Problem" (as its Lean formalization
-names it), produced by GPT Pro at the prompting of a contributor, Liam
-Price, who posted it to the site's thread on 21 June 2026 together with a
-Lean formalization made with Aristotle; the site's commentary credits the
-answer to GPT Pro, prompted by Price (the Lean file's header writes the
-model's name as GPT-5.5 Pro). The theorem: for
-every $f:\mathbb{N}\to\mathbb{N}$ there is a coloring of $\mathbb{N}$ by
-$\mathbb{N}$ such that for every strictly increasing sequence with
-$a_n<f(n)$ for infinitely many $n$ the finite sums take every color, hence
-for every $k$ a $k$-coloring with the same property. Acceptance evidence: a
-review by Stijn Cambie, a contributor to the thread, whose comment of 22
-June 2026 reports that it confirmed the proof; a screening comment of 21
-June 2026; the adoption by the site's curator, Thomas Bloom (label SOLVED,
-page last edited 5 July 2026, the commentary's paragraph and the curator's
-sketch of the construction in the thread on 6 July 2026); the
-community database (6 July 2026) and the community's AI-contributions wiki
-(a full solution with a Lean formalization, 21 June 2026). This is a
-source-supported solution accepted by the site, distinct from a claim of
-journal refereeing: no refereed publication, no arXiv version and no
-written expert review beyond the thread were found on 2026-09-18. The
-argument document is an online editable document whose read link gives the
-editor's application page, with no PDF or export; the page rests on the
-site's account, the review comment and the Lean file [Le26], whose theorem
-statements and declared axioms are the basis here (this corpus has not built
-or audited it). Two vocabulary points about the label are recorded below. The
-claim page
+**Status.** Disproved. The site labels the problem SOLVED. The claim page
 [[problems/ramsey_theory/E0948/claims/2026_06_21_price|the 2026 coloring]]
 records the result, its postings and its acceptance evidence under the site's
-label, and the frontmatter standing derives from it; beside it,
+label, and the frontmatter standing derives from it. Beside it,
 [[problems/ramsey_theory/E0948/claims/1991_02_01_erdos_galvin|Galvin's two-coloring]]
 (Theorem 4.1 of [ErGa91], refereed and credited by the site's curator) is an
-accepted partial claim for the case $k=2$.
+accepted partial claim for the case $k=2$. The status-defining source is an
+AI-generated disproof, a note titled "A Negative Answer to an Erdős--Galvin
+Problem" (as its Lean formalization names it). It was produced by GPT Pro at the
+prompting of a contributor, Liam Price. Price posted it to the site's thread on
+21 June 2026, together with a Lean formalization made with Aristotle. The site's
+commentary credits the answer to GPT Pro, prompted by Price. The Lean file's
+header writes the model's name as GPT-5.5 Pro. The theorem states that for every
+$f:\mathbb{N}\to\mathbb{N}$ there is a coloring of $\mathbb{N}$ by $\mathbb{N}$
+such that, for every strictly increasing sequence with $a_n<f(n)$ for infinitely
+many $n$, the finite sums take every color. Hence for every $k$ there is a
+$k$-coloring with the same property. The acceptance evidence has several parts.
+Stijn Cambie, a contributor to the thread, reviewed the note, and Cambie's
+comment of 22 June 2026 reports that the review confirmed the proof. There is
+also a screening comment of 21 June 2026. The site's curator, Thomas Bloom,
+adopted the result (label SOLVED, page last edited 5 July 2026, the commentary's
+paragraph and the curator's sketch of the construction in the thread on 6 July
+2026). The remaining evidence is the community database (6 July 2026) and the
+community's AI-contributions wiki (a full solution with a Lean formalization, 21
+June 2026). This is a source-supported solution accepted by the site, distinct
+from a claim of journal refereeing. No refereed publication, no arXiv version
+and no written expert review beyond the thread were found on 2026-09-18. The
+argument document is an online editable document whose read link gives the
+editor's application page, with no PDF or export. The page rests on the site's
+account, the review comment and the Lean file [Le26]. The Lean file's theorem
+statements and declared axioms are the basis here, and this corpus has not built
+or audited it. Two vocabulary points about the label are recorded below.
 
 **Source.** [erdosproblems.com/948](https://www.erdosproblems.com/948),
 accessed 2026-09-18: the problem page (SOLVED, the

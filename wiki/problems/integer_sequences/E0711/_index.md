@@ -2,9 +2,11 @@
 name: problems/integer_sequences/E0711
 title: Problem 711
 desc: |
-  Bounds the shortest interval anywhere holding distinct integers, the kth
-  divisible by k, for k up to n, against the one just above n; the comparison
-  is proved (van Doorn 2026), the n to the 1+o(1) bound open, n^(3/2) proved.
+  Asks to prove $\max_mf(n,m)\le n^{1+o(1)}$ and
+  $\max_m(f(n,m)-f(n,n))\to\infty$, where $(m,m+f(n,m))$ is the shortest
+  interval holding distinct $a_1,\ldots,a_n$ with $k\mid a_k$. The second was
+  proved by van Doorn (2026); the first is open, with an upper bound of order
+  $n^{3/2}$ proved.
 tags:
 - Number theory
 status: open
@@ -48,30 +50,34 @@ in both conventions. The site's source keys are [ErPo80] and [Er92c, p. 36],
 with [vD26] cited in the commentary.
 
 **Status.** Open, in the site's label, which attaches to the pair of questions.
-The second question is answered yes: van Doorn's Theorem 1 (Integers 26
-(2026), #A7, a refereed journal) gives
-$\max_mf(n,m)-f(n,n)>0.36\,n\log n/\log\log n$ for all large $n$; it is an
+The derived standing stays open while the first question is unsettled.
+
+The second question is answered yes by van Doorn's Theorem 1 (Integers 26
+(2026), #A7, a refereed journal), which gives
+$\max_mf(n,m)-f(n,n)>0.36\,n\log n/\log\log n$ for all large $n$. It is an
 accepted partial claim on
 [[problems/integer_sequences/E0711/claims/2026_01_05_van_doorn|its claim page]],
-which settles the second of the problem's two parts; the derived standing stays
-open while the first is unsettled. The first question is open: the best
-published bound is Erdős and Pomerance's Theorem 4, $f(n,m)\le4n([\sqrt n]+1)$
-for all $m,n$ (1980), so $\max_mf(n,m)\ll n^{3/2}$; a preprint first posted in
-July 2026 states, in the abstract of its revision of 13 August 2026,
-$\max_mf(n,m)\le n^{4/3}\exp(O(\log n/\log\log n))$, not held and not refereed,
-a pending claim on
+and it settles the second of the problem's two parts.
+
+The first question is open. The best published bound is Erdős and Pomerance's
+Theorem 4, $f(n,m)\le4n([\sqrt n]+1)$ for all $m,n$ (1980), so
+$\max_mf(n,m)\ll n^{3/2}$. A preprint first posted in July 2026 states
+$\max_mf(n,m)\le n^{4/3}\exp(O(\log n/\log\log n))$ in the abstract of its
+revision of 13 August 2026. It is not held and not refereed, and it is a pending
+claim on
 [[problems/integer_sequences/E0711/claims/2026_07_29_chen_korsky|Chen and Korsky's claim page]].
-For the lower side, $\max_mf(n,m)\ge f(n,n)\gg n\sqrt{\log n/\log\log n}$
-(Theorem 2 of 1980), van Doorn's $n\log n/\log\log n$, and two 2026 preprints
-claiming $(1/e-o(1))n\log n$ and
-$n\exp((\tfrac{\log2}2-o(1))\log n/\log\log n)$, the last two pending claims on
+On the lower side, the known bounds are
+$\max_mf(n,m)\ge f(n,n)\gg n\sqrt{\log n/\log\log n}$ (Theorem 2 of 1980) and
+van Doorn's $n\log n/\log\log n$. Two 2026 preprints claim $(1/e-o(1))n\log n$
+and $n\exp((\tfrac{\log2}2-o(1))\log n/\log\log n)$. They are pending claims on
 [[problems/integer_sequences/E0711/claims/2026_07_11_kominers|Kominers's claim page]]
 and
 [[problems/integer_sequences/E0711/claims/2026_07_29_chen_korsky|Chen and Korsky's claim page]],
-each of which also answers the second question. This is a bounded negative
-finding for the first question, not a certificate of openness. Erdős offered a
-prize for each of the two questions in 1992, and the site's prize converts the
-two offers together (below).
+and each of them also answers the second question. This is a bounded negative
+finding for the first question, not a certificate of openness.
+
+Erdős offered a prize for each of the two questions in 1992, and the site's
+prize converts the two offers together (below).
 
 **Source.** [erdosproblems.com/711](https://www.erdosproblems.com/711), accessed
 2026-09-18: the problem page (labeled OPEN, with the site's note that no finite

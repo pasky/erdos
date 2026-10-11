@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0784/claims/2023_10_19_weingartner
 title: Weingartner's exact order of the small sieve count
 desc: |
-  Weingartner proves that the least unsifted count for reciprocal budget C has
-  exact order x^(e^(1-C)) / log x uniformly for C between 1 and any fixed bound,
-  sharpening Ruzsa; Research in Number Theory (2025), credited by the site.
+  Weingartner proves that the least unsifted count for reciprocal budget $C$ has
+  exact order $x^{e^{1-C}}/\log x$, uniformly for $C$ between $1$ and any fixed
+  bound, sharpening Ruzsa. The paper appeared in Research in Number Theory
+  (2025) and the site credits it.
 authors:
 - Andreas Weingartner
 status: accepted
@@ -66,9 +67,9 @@ Ruzsa's claim page.
 **Acceptance.** Refereed: the paper appeared in Research in Number Theory.
 Reviewed: the site's curator, Thomas Bloom, who is independent of the author,
 credits the paper in the curator's commentary (page last edited 8 April 2026,
-accessed 2026-09-05 and 2026-10-07) with the exact order
-$H_C(x)\asymp x^{e^{1-C}}/\log x$ for fixed $C>1$ and with the finer
-estimates at $C=1$, and a thread comment of 18 December 2025 derives the
-negative answer for $C>1$ from Theorem 5.
+accessed 2026-09-05 and 2026-10-07). The credit covers the exact order
+$H_C(x)\asymp x^{e^{1-C}}/\log x$ for fixed $C>1$ and the finer estimates at
+$C=1$. A thread comment of 18 December 2025 derives the negative answer for
+$C>1$ from Theorem 5.
 
 **Depends on.** No page of this wiki.

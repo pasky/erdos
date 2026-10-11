@@ -2,8 +2,8 @@
 name: problems/covering_systems/E0273
 title: Problem 273
 desc: |
-  Asks whether there is a covering system of congruences whose moduli are all
-  of the form p minus one for primes p at least 5.
+  Asks whether there is a covering system of congruences whose moduli are all of
+  the form $p-1$ for primes $p\ge5$; open.
 tags:
 - Number theory
 - Covering systems
@@ -35,19 +35,20 @@ site's remark that Selfridge found an example from divisors of $360$ when
 $p=3$ is allowed is notable only under this reading, since the two classes
 modulo $2=3-1$ already cover.
 
-**Status.** Open, the site's label (OPEN; page last edited 01 October 2025).
-The site's proof-claims tab carries a partial proof claim by Rafik Zeraoulia
-(submitted 2026-07-27, with OpenAI GPT-5.6 Thinking as the assisting system
-the claim names) that any such covering system with distinct moduli has
-moduli whose least common multiple is at least $393120$, by an exact
-computer-assisted sieve, recorded as claimed on
+**Status.** Open, the site's label (OPEN; page last edited 01 October 2025). The
+site's proof-claims tab carries a partial proof claim by Rafik Zeraoulia,
+submitted 2026-07-27. The claim names OpenAI GPT-5.6 Thinking as the assisting
+system. It asserts, by an exact computer-assisted sieve, that any such covering
+system with distinct moduli has moduli whose least common multiple is at least
+$393120$. It is recorded as claimed on
 [[problems/covering_systems/E0273/claims/2026_07_26_zeraoulia|its claim page]].
 The discussion thread carries a research note of July 2026 by the pseudonymous
-user ideal_ombrer, whose Theorem 1.1 asserts that every such covering system
-uses a modulus $p-1$ with $p>877$, recorded as claimed on
-[[problems/covering_systems/E0273/claims/2026_07_11_ideal_ombrer|its claim page]],
-and later posts, without a manuscript, asserting larger bounds on the least
-common multiple, described on Zeraoulia's claim page.
+user ideal_ombrer. Its Theorem 1.1 asserts that every such covering system uses
+a modulus $p-1$ with $p>877$. The note is recorded as claimed on
+[[problems/covering_systems/E0273/claims/2026_07_11_ideal_ombrer|its claim page]].
+The thread also carries later posts, without a manuscript, that assert larger
+bounds on the least common multiple. These are described on Zeraoulia's claim
+page.
 
 **Source.** [erdosproblems.com/273](https://www.erdosproblems.com/273), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #273,

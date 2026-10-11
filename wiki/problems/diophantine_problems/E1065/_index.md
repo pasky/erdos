@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E1065
 title: Problem 1065
 desc: |
-  Asks whether infinitely many primes are one plus a power of two times a
-  prime, or one plus a power of two times a power of three times a prime.
+  Asks whether infinitely many primes have the form $2^kq+1$ with $q$ prime, or
+  the form $2^k3^lq+1$; open.
 tags:
 - Number theory
 status: open

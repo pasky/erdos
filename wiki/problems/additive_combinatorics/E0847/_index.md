@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0847
 title: Problem 847
 desc: |
-  Asks what follows for an infinite set of naturals in which every n of its
-  members contain a fixed proportion forming no three-term arithmetic
-  progression.
+  Asks whether an infinite set of naturals must be a finite union of sets with
+  no three-term arithmetic progression if, for a fixed $\epsilon>0$, any $n$ of
+  its members include at least $\epsilon n$ forming no such progression;
+  disproved.
 tags:
 - Additive combinatorics
 status: solved

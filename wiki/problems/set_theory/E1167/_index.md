@@ -2,10 +2,11 @@
 name: problems/set_theory/E1167
 title: Problem 1167
 desc: |
-  Asks about a partition problem for infinite cardinals, coloring r-element
-  sets when the parts are given by a sequence of prescribed cardinals; open
-  under the Erdős–Hajnal list's conditions gamma at least 2 and every
-  kappa_alpha above r, which exclude the failures of the site's wording.
+  Asks whether, for infinite $\lambda$,
+  $2^\lambda\to(\kappa_\alpha+1)_{\alpha<\gamma}^{r+1}$ implies
+  $\lambda\to(\kappa_\alpha)_{\alpha<\gamma}^{r}$; open under the Erdős–Hajnal
+  list's conditions $\gamma\geq2$ and all $\kappa_\alpha>r$, which exclude the
+  failures of the site's wording.
 tags:
 - Set theory
 - Ramsey theory
@@ -89,7 +90,7 @@ on
 The problem's standing judges the corrected Statement.
 
 **Status.** The site's label is OPEN. The corrected Statement, with the
-conditions $\gamma\ge2$ and $\kappa_\alpha>r$, is open; the counterexample to
+conditions $\gamma\ge2$ and $\kappa_\alpha>r$, is open. The counterexample to
 the site's wording at $\gamma=1$ is credited in the Notes and recorded on a
 rejected claim page.
 

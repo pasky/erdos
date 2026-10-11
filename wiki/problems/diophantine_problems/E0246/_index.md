@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0246
 title: Problem 246
 desc: |
-  Asks whether, for coprime a and b, every large integer is a sum of distinct
-  numbers of the form a to the k times b to the l.
+  Asks whether, for coprime $a,b\ge2$, every large integer is a sum of distinct
+  numbers $a^kb^l$ with $k,l\ge0$. The answer is yes.
 tags:
 - Number theory
 status: solved
@@ -35,9 +35,9 @@ and $a=b=1$ fails as well. The corrected Statement adds $a,b\geq2$, the setting
 of Birch's theorem [Bi59], of the later literature and of the formal-conjectures
 statement; the standing judges it.
 
-**Status.** PROVED (LEAN). The "(LEAN)" suffix is the site's catalog label;
-the theorem, its acceptance and the Lean development are recorded on the
-claim pages, and no Lean was built here.
+**Status.** PROVED (LEAN). The "(LEAN)" suffix is the site's catalog label. The
+theorem, its acceptance and the Lean development are recorded on the claim
+pages. No Lean was built here.
 
 **Source.** [erdosproblems.com/246](https://www.erdosproblems.com/246), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #246,

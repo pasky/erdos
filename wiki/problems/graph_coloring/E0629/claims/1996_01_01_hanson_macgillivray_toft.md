@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0629/claims/1996_01_01_hanson_macgillivray_toft
 title: Hanson, MacGillivray and Toft's value n(3) = 14
 desc: |
-  Every complete bipartite graph that is not 3-choosable has at least 14
-  vertices, and the lines of the Fano plane as lists on K_{7,7} show that 14 is
-  attained, so n(3) = 14; refereed.
+  In a refereed paper, Hanson, MacGillivray and Toft prove that every complete
+  bipartite graph that is not $3$-choosable has at least $14$ vertices. The
+  lines of the Fano plane as lists on $K_{7,7}$ show that $14$ is attained, so
+  $n(3)=14$.
 authors:
 - D. Hanson
 - G. MacGillivray
@@ -54,9 +55,9 @@ on $K_{7,7}$; the
 records the paper's statements at claims checked, the proofs unchecked. The
 value closes the gap $12\le n(3)\le14$ that Erdős, Rubin and Taylor left.
 
-**Acceptance.** The paper is refereed: Ars Combinatoria is a refereed
-journal; the journal has no online edition of the 1996 volume, so the link
-above is the zbMATH record of the article (Zbl 0889.05048). The curator of
-erdosproblems.com, Thomas Bloom, credits $n(3)=14$ to this paper in the
-problem's remarks, but the site labels the problem OPEN, so that remark is
-not acceptance of this partial claim.
+**Acceptance.** The paper is refereed: Ars Combinatoria is a refereed journal.
+The journal has no online edition of the 1996 volume, so the link above is the
+zbMATH record of the article (Zbl 0889.05048). The curator of erdosproblems.com,
+Thomas Bloom, credits $n(3)=14$ to this paper in the problem's remarks. But the
+site labels the problem OPEN, so that remark is not acceptance of this partial
+claim.

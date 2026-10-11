@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0352/claims/2002_01_01_freiling_mauldin
 title: "Freiling and Mauldin: the sharp constant for convex sets"
 desc: |
-  Freiling and Mauldin's theorem, reported by Mauldin in 2002, that a planar
-  set with no triangle of area greater than one has outer measure at most
-  $4\pi/\sqrt{27}$; for convex sets it answers the question yes.
+  Mauldin's 2002 chapter reports Freiling and Mauldin's theorem that a planar
+  set with no triangle of area greater than $1$ has outer measure at most
+  $4\pi/\sqrt{27}$. For convex sets it answers the question yes.
 authors:
 - R. Daniel Mauldin
 status: claimed
@@ -59,7 +59,7 @@ linked above is dated April 23, 2001.
 
 **Acceptance.** None listed. The chapter appeared in a Bolyai Society volume,
 not a journal, and no evidence that the volume was refereed is recorded. The
-site's curator credits the result in the problem's commentary while labeling
-the problem OPEN, which is not acceptance of a claim. The convex case is
-classical through Sas's refereed theorem, but Sas's paper is not credited by
-the site and has no page here.
+site's curator credits the result in the problem's commentary but labels the
+problem OPEN, which is not acceptance of a claim. The convex case is classical
+through Sas's refereed theorem. Sas's paper is not credited by the site and has
+no page here.

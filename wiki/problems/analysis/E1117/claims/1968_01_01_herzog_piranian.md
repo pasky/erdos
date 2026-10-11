@@ -3,8 +3,9 @@ name: problems/analysis/E1117/claims/1968_01_01_herzog_piranian
 title: "Herzog and Piranian: the maximum modulus count can be unbounded"
 desc: |
   Herzog and Piranian construct a non-monomial entire function whose number of
-  maximum modulus points on the circle of radius r is unbounded as r grows,
-  answering the first question of Problem 1117 affirmatively; credited by the site.
+  maximum modulus points on the circle of radius $r$ is unbounded as $r$ grows.
+  This answers the first question of Problem 1117 affirmatively and is credited
+  by the site.
 authors:
 - F. Herzog
 - G. Piranian

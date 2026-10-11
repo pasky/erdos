@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0846/claims/2026_02_24_putterman_sawhney_valiant
 title: Putterman, Sawhney and Valiant build a counterexample
 desc: |
-  An infinite plane set in which every n points contain n/2 with no three
-  collinear, yet which is no finite union of such sets; a preprint whose
-  construction an internal OpenAI model produced, credited by the curator.
+  The preprint of Putterman, Sawhney and Valiant gives an infinite plane set in
+  which every $n$ points contain $n/2$ with no three collinear, yet which is not
+  a finite union of such sets. An internal OpenAI model produced the
+  construction, and the curator credits the result.
 authors:
 - Moe Putterman
 - Mehtaab Sawhney
@@ -60,10 +61,11 @@ three-term arithmetic progressions; the forum announcement repeats the remark.
 The remark has no page of its own: it is a derivation reported in this paper,
 not a manuscript of Rödl's.
 
-**Acceptance.** The site's curator, T. F. Bloom, marks the problem disproved
-and credits this paper, beside the independent proof of
+**Acceptance.** The site's curator, T. F. Bloom, marks the problem disproved on
+the problem's page at erdosproblems.com (page last edited 2026-04-10, read
+2026-10-07). The curator credits this paper there, beside the independent proof
+of
 [[problems/discrete_geometry/E0846/claims/2026_02_25_deepmind|a DeepMind prover agent]]
-with essentially the same construction, on the problem's page at
-erdosproblems.com (page last edited 2026-04-10, read 2026-10-07); that credit
-is the `reviewed` evidence. No journal publication was found on 2026-10-07, so
-the claim is not `refereed`, and this paper has no Lean of its own.
+with essentially the same construction. That credit is the `reviewed` evidence.
+No journal publication was found on 2026-10-07, so the claim is not `refereed`.
+This paper has no Lean of its own.

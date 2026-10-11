@@ -2,8 +2,10 @@
 name: problems/graph_coloring/E0632
 title: Problem 632
 desc: |
-  Asks whether choosability from lists of a colors with b chosen per vertex
-  implies the same for other pairs of list size and choice size.
+  Asks whether every $(a,b)$-choosable graph is $(am,bm)$-choosable for every
+  integer $m\ge 1$; disproved. A graph is $(a,b)$-choosable if, from any lists
+  of $a$ colors, one can choose $b$ colors per vertex so that adjacent vertices
+  get disjoint sets.
 tags:
 - Graph theory
 - Chromatic number
@@ -29,13 +31,13 @@ If $G$ is $(a,b)$-choosable then $G$ is $(am,bm)$-choosable for every integer
 $m\geq 1$.
 
 **Status.** Disproved. Being $(a,1)$-choosable is the same as being
-$a$-choosable, that is, having list chromatic number at most $a$. Dvořák, Hu
-and Sereni [DHS19] constructed a graph that is $4$-choosable but not
-$(8,2)$-choosable, a counterexample to the conjectured implication at $m=2$;
-the result is the accepted full claim
+$a$-choosable, that is, having list chromatic number at most $a$. Dvořák, Hu and
+Sereni [DHS19] constructed a graph that is $4$-choosable but not
+$(8,2)$-choosable. This is a counterexample to the conjectured implication at
+$m=2$. The result is the accepted full claim
 [[problems/graph_coloring/E0632/claims/2018_06_11_dvorak_hu_sereni|Dvořák, Hu and Sereni]].
-The question is from Erdős, Rubin and Taylor [ERT80], who printed it as an
-open question; a positive answer is sometimes called the $(am,bm)$-conjecture.
+The question is from Erdős, Rubin and Taylor [ERT80], who printed it as an open
+question. A positive answer is sometimes called the $(am,bm)$-conjecture.
 
 **Source.** [erdosproblems.com/632](https://www.erdosproblems.com/632), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #632,

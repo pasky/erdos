@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E1015/claims/1975_01_01_burr_erdos_spencer
 title: Burr, Erdős and Spencer determine the leftover of Moon's decomposition
 desc: |
-  Burr, Erdős and Spencer (1975), Theorem 6: for fixed k and large n, the most
-  vertices a 2-coloring of K_n can force to be left after deleting disjoint
-  monochromatic copies of K_k is r(k,k−1) − 1 plus (n − r(k,k−1) + 1) mod k.
+  Theorem 6 of Burr, Erdős and Spencer (1975): for fixed $k$ and large $n$, the
+  most vertices a 2-coloring of $K_n$ can force to be left after deleting
+  disjoint monochromatic copies of $K_k$ is
+  $r(k,k-1)-1+\bigl((n-r(k,k-1)+1)\bmod k\bigr)$.
 authors:
 - S. A. Burr
 - P. Erdős
@@ -66,15 +67,14 @@ $k=3$ and does not repair it.
 **Depends on.** Nothing in this wiki; the result is the paper's own
 theorem over Ramsey's theorem.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the
-problem SOLVED and in its commentary credits Burr, Erdős and Spencer with
-the determination of $f$ for $n$ large in terms of $t$; the curator is
-independent of the authors. Refereed: the paper appeared in Transactions of
-the American Mathematical Society 209 (1975), 87--99, received 14 January
-1974 (Crossref record; the record gives the year only, so the page's month
-and day are placeholders). The site's discussion thread and proof-claim tab
-are empty. OpenAlex lists 88 citing works (2026-09-18), whose titles record
-no dispute.
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+SOLVED. In the site's commentary, the curator credits Burr, Erdős and Spencer
+with the determination of $f$ for $n$ large in terms of $t$. The curator is
+independent of the authors. Refereed: the paper appeared in Transactions of the
+American Mathematical Society 209 (1975), 87--99, received 14 January 1974
+(Crossref record). The record gives the year only, so the page's month and day
+are placeholders. The site's discussion thread and proof-claim tab are empty.
+OpenAlex lists 88 citing works (2026-09-18), and their titles record no dispute.
 
 **Read depth.** The text read is the Rényi archive's scan, which the
 library does not hold: the opening of Section 5, the trivial bound, Theorem

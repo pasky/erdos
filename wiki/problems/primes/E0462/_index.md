@@ -2,8 +2,9 @@
 name: problems/primes/E0462
 title: Problem 462
 desc: |
-  Asks whether the sum of the least prime factor over n, over a short interval
-  near x, is always bounded below by a constant for large x.
+  Asks whether there is a constant $C>0$ with
+  $\sum_{x\le n\le x+Cx^{1/2}(\log x)^2}p(n)/n\gg1$ for all large $x$, where
+  $p(n)$ is the least prime factor of $n$; open.
 tags:
 - Number theory
 - Primes

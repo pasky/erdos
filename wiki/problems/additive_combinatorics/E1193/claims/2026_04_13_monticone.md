@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E1193/claims/2026_04_13_monticone
 title: Monticone's counterexample with A the whole of the natural numbers
 desc: |
-  Taking A to be all natural numbers and g(n) = n + 1 makes the representation
-  count equal g(n) at every n, so the set has density one and both answers are
-  no; posted with a Lean file produced with Aristotle, adopted by the curator.
+  Pietro Monticone takes $A=\mathbb N$ and $g(n)=n+1$, so the representation
+  count equals $g(n)$ at every $n$, the set of such $n$ has density one, and
+  both answers are no. Posted with a Lean file produced with Aristotle, the
+  example was adopted by the curator.
 authors:
 - Pietro Monticone
 status: accepted
@@ -73,13 +74,13 @@ the counterexample identity, not the two density questions themselves.
 
 **Acceptance.** Reviewed: the site's curator, Thomas Bloom, adopted the
 counterexample. The problem's commentary states that both questions have the
-answer no with no work needed, gives $A=\mathbb N$ with $1_A\ast1_A(n)=n+1$, and
-presumes unrecorded restrictions in [Er80]; the page is labeled SOLVED (LEAN),
-the thread carries no proof claim, and the community database
-(teorth/erdosproblems) records the problem solved with formal status Lean. Not
+answer no with no work needed. It gives $A=\mathbb N$ with $1_A\ast1_A(n)=n+1$
+and presumes unrecorded restrictions in [Er80]. The page is labeled SOLVED
+(LEAN), and the thread carries no proof claim. The community database
+(teorth/erdosproblems) records the problem solved, with formal status Lean. Not
 refereed: there is no publication. Not listed as formalized: nothing was built,
-replayed or audited by this project, and the catalog's statement file
+replayed or audited by this project. The catalog's statement file
 (google-deepmind/formal-conjectures, `ErdosProblems/1193.lean`) states both
-parts with `answer(False)` and a variant `sumRep_univ` pointing to the
-lean-proofs copy as its formal proof, each with a `sorry` body in the catalog
+parts with `answer(False)` and a variant `sumRep_univ` that points to the
+lean-proofs copy as its formal proof. Each has a `sorry` body in the catalog
 file itself.

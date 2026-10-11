@@ -3,7 +3,7 @@ name: problems/graph_coloring/E0738
 title: Problem 738
 desc: |
   Asks whether every triangle-free graph of infinite chromatic number contains
-  every tree as an induced subgraph.
+  every tree as an induced subgraph; open.
 tags:
 - Graph theory
 - Chromatic number

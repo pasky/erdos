@@ -2,9 +2,10 @@
 name: problems/covering_systems/E0027/claims/2005_07_18_filaseta_ford_konyagin_pomerance_yu
 title: No bounded modulus ratio for almost covering systems
 desc: |
-  The theorem of Filaseta, Ford, Konyagin, Pomerance and Yu that distinct
-  moduli from N to CN, with C below a slow power of N, leave nearly the trivial
-  density uncovered, so no constant C works; refereed in J. Amer. Math. Soc.
+  Filaseta, Ford, Konyagin, Pomerance and Yu proved that distinct moduli in
+  $[N,CN]$, with $C$ below a slow power of $N$, leave nearly the trivial density
+  uncovered, so no constant $C$ works. The refereed paper appeared in J. Amer.
+  Math. Soc.
 authors:
 - Michael Filaseta
 - Kevin Ford
@@ -98,15 +99,18 @@ Sahasrabudhe and Tiba, has
 [[problems/covering_systems/E0027/claims/2018_11_08_balister_bollobas_morris_sahasrabudhe_tiba|its own claim page]].
 
 **Acceptance.** Refereed: Journal of the American Mathematical Society 20
-(2007), no. 2, 495–517, published online 2006-09-19, the DOI linked above;
-the arXiv preprint math/0507374 of 2005-07-18 is the first posting and gives
-the page its date. Reviewed: the site's curator, Thomas F. Bloom, labels the
-problem DISPROVED, records the answer as no and credits the paper in the
-problem's commentary, restating its density bound (page last edited 16 July
-2026). The problem's thread carries two editorial comments, of 12 and 13
-July 2026, on the wording of that commentary, and no proof claim. The
-statement above follows the paper's Theorem B and its discussion of
-Conjecture 2; the proof is not checked in this corpus.
+(2007), no. 2, 495–517, at the DOI linked above, published online 2006-09-19.
+The arXiv preprint math/0507374 of 2005-07-18 is the first posting and gives the
+page its date.
+
+Reviewed: the site's curator, Thomas F. Bloom, labels the problem DISPROVED and
+records the answer as no. Bloom credits the paper in the problem's commentary
+and restates its density bound there (page last edited 16 July 2026). The
+problem's thread carries two editorial comments, of 12 and 13 July 2026, on the
+wording of that commentary, and no proof claim.
+
+The statement above follows the paper's Theorem B and its discussion of
+Conjecture 2. The proof is not checked in this corpus.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos27.lean` of Boris
 Alexeev's lean-proofs repository (first added 2026-08-17, pinned above at the

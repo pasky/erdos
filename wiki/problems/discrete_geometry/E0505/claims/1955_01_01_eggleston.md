@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0505/claims/1955_01_01_eggleston
 title: Eggleston's proof of Borsuk's assertion in dimension three
 desc: |
-  Every set of diameter one in three-dimensional space is the union of four
-  sets of smaller diameter, the n = 3 instance of the question; refereed, and
-  credited by the site and by the formal-conjectures statement file.
+  Eggleston proves that every set of diameter $1$ in $\mathbb R^3$ is the union
+  of four sets of smaller diameter, the instance $n=3$ of the question. The
+  result is refereed, and the site and the formal-conjectures statement file
+  credit it.
 authors:
 - H. G. Eggleston
 status: accepted
@@ -62,11 +63,11 @@ no source recorded here.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** The result is refereed: the Journal of the London
+**Acceptance.** The result is refereed, since the Journal of the London
 Mathematical Society published the paper. The site's label, DISPROVED (LEAN),
 credits
 [[problems/discrete_geometry/E0505/claims/1993_07_01_kahn_kalai|Kahn and Kalai]]
 and
 [[problems/discrete_geometry/E0505/claims/2014_11_06_jenrich_brouwer|Jenrich and Brouwer]]
-with the disproof, so the curator's mention of Eggleston is context and not
-acceptance evidence for this partial claim.
+with the disproof. The curator's mention of Eggleston is therefore context and
+not acceptance evidence for this partial claim.

@@ -2,7 +2,8 @@
 name: problems/ramsey_theory/E0555
 title: Problem 555
 desc: |
-  Determines the k-color Ramsey number of the even cycle on two n vertices.
+  Asks for the $k$-color Ramsey number $R_k(C_{2n})$ of the even cycle on $2n$
+  vertices; open.
 tags:
 - Graph theory
 - Ramsey theory
@@ -39,18 +40,19 @@ for every $\varepsilon>0$, so the site's form is the exponent up to $o(1)$. The
 this page keeps the site's $n$ and says which is meant where it matters.
 
 **Status.** Open, in the site's label (OPEN; page last edited 8 February 2026,
-accessed 2026-09-17). No source determines $R_k(C_{2n})$ for general $k$ and
-$n$, and the search, whose scope the Current assessment
-records, found no proof claim; the problem has no claim page and its frontmatter
-standing is open. What is known: exact values for two colors (all $n\ge3$) and
-for three colors and large $n$; for fixed $k\ge4$ and large $n$ the linear
-bracket $(k-1)(2n-2)+2\le R_k(C_{2n})\le (k-\frac14)2n+o(n)$ from sources read
-here, improved to the coefficient $k-\frac12$ in a later paper not held; for
-fixed $n$ and growing $k$ the polynomial bracket $k^{1+1/2n}\ll R_k(C_{2n})\ll
-k^{1+(1+\varepsilon)/(n-1)}$, whose upper exponent is the truth,
-$R_k(C_{2n})=\Theta(k^{n/(n-1)})$, for $n\in\{2,3,5\}$ by a refereed paper
-[LiLih09]; and for $C_4$ the bracket $k^2+2\le R_k(C_4)\le k^2+k+1$ for prime
-powers $k$. This is a bounded negative finding, not a certificate of openness.
+accessed 2026-09-17). The problem has no claim page, and its frontmatter
+standing is open. No source determines $R_k(C_{2n})$ for general $k$ and $n$,
+and the search, whose scope the Current assessment records, found no proof
+claim. Exact values are known for two colors (all $n\ge3$) and for three colors
+and large $n$. For fixed $k\ge4$ and large $n$, the sources read here give the
+linear bracket $(k-1)(2n-2)+2\le R_k(C_{2n})\le (k-\frac14)2n+o(n)$. A later
+paper, not held, improves the coefficient to $k-\frac12$. For fixed $n$ and
+growing $k$ the polynomial bracket is
+$k^{1+1/2n}\ll R_k(C_{2n})\ll k^{1+(1+\varepsilon)/(n-1)}$. Its upper exponent
+is the truth for $n\in\{2,3,5\}$, where $R_k(C_{2n})=\Theta(k^{n/(n-1)})$ by a
+refereed paper [LiLih09]. For $C_4$ the bracket is
+$k^2+2\le R_k(C_4)\le k^2+k+1$ for prime powers $k$. This is a bounded negative
+finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/555](https://www.erdosproblems.com/555), accessed
 2026-09-17: the problem page (OPEN, which the site qualifies as not resolvable

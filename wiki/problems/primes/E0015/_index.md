@@ -2,9 +2,9 @@
 name: problems/primes/E0015
 title: Problem 15
 desc: |
-  Asks whether the alternating sum of n divided by the nth prime converges;
-  open, with Tao's proof of convergence conditional on a strong
-  Hardy-Littlewood prime tuples conjecture.
+  Asks whether $\sum_{n\ge 1}(-1)^n n/p_n$ converges, where $p_n$ is the $n$th
+  prime; open. Tao proved convergence conditional on a strong Hardy-Littlewood
+  prime tuples conjecture.
 tags:
 - Number theory
 - Primes
@@ -30,34 +30,35 @@ $$
 
 converges, where $p_n$ is the sequence of primes?
 
-**Status.** Open; the site's label is OPEN. The best result is conditional:
-Tao proves that the series converges assuming a quantitative Hardy-Littlewood
-prime tuples conjecture (Theorem 1.4 of arXiv:2308.07205, published as Comm.
-Amer. Math. Soc. 4 (2024), 80-96); the result is recorded as the accepted
-conditional claim page
-[[problems/primes/E0015/claims/2023_08_14_tao|Tao 2023]], which derives no
-standing. A Lean file accepted by the bounty site Conjectures.io (record
-`f8fbf2ed-4ae2-49ab-b0b0-f2f7924af6b4`,
-[solution](https://conjectures.io/results/f8fbf2ed-4ae2-49ab-b0b0-f2f7924af6b4/solution),
-accessed 2026-09-28; kernel verified; review outcome a
-formalization-defect award under its policy v1, whose decision file is dated
-2026-08-05 and which Conjectures.io displays as decided 25 August 2026;
-certified 6 August 2026) proves the negation of the formal-conjectures statement
-as it stood from 2026-04-17 to 2026-09-09,
-`True ↔ Summable (fun k : ℕ => (-1 : ℚ) ^ (k + 1) * (k + 1) / (k.nth Nat.Prime))`.
-That statement is not the site's question: Mathlib's `Summable` is
-unconditional summability, over the reals equivalent to absolute convergence,
-and its rational coefficients demand a rational limit, so the file refutes the
-absolute-convergence variant ($\sum n/p_n$ diverges since $n/p_n\sim 1/\log n$)
-and says nothing about the partial sums. Conjectures.io's review records that
-the result does not settle the informal Erdős problem, and Conjectures.io
-withdrew the problem from its pool on 5 August 2026 pending a corrected
-statement; formal-conjectures restated the theorem as convergence of the real
-partial sums on 9 September 2026 (PR #4990) and keeps it open. No proof claim on
-erdosproblems.com, no refereed resolution and no other candidate was found. The Conjectures.io submission has no claim page of its own: its
-submitter is pseudonymous on Conjectures.io, and its own decision classes it as
-the refutation of a defective formal task that settles nothing about the
-problem.
+**Status.** Open. The site's label is OPEN. The best result is conditional. Tao
+proves that the series converges assuming a quantitative Hardy-Littlewood prime
+tuples conjecture (Theorem 1.4 of arXiv:2308.07205, published as Comm. Amer.
+Math. Soc. 4 (2024), 80-96). The result is recorded as the accepted conditional
+claim page [[problems/primes/E0015/claims/2023_08_14_tao|Tao 2023]], which
+derives no standing.
+
+A Lean file accepted by the bounty site Conjectures.io proves the negation of
+the formal-conjectures statement as it stood from 2026-04-17 to 2026-09-09,
+`True ↔ Summable (fun k : ℕ => (-1 : ℚ) ^ (k + 1) * (k + 1) / (k.nth
+Nat.Prime))`. Its record is `f8fbf2ed-4ae2-49ab-b0b0-f2f7924af6b4`
+([solution](https://conjectures.io/results/f8fbf2ed-4ae2-49ab-b0b0-f2f7924af6b4/solution),
+accessed 2026-09-28). The file is kernel verified and was certified 6
+August 2026. The review outcome was a formalization-defect award under Conjectures.io's
+policy v1. The decision file is dated 2026-08-05, and Conjectures.io displays
+the decision as made 25 August 2026. That statement is not the site's question.
+Mathlib's `Summable` is unconditional summability, which over the reals is
+equivalent to absolute convergence, and its rational coefficients demand a
+rational limit. So the file refutes the absolute-convergence variant
+($\sum n/p_n$ diverges since $n/p_n\sim 1/\log n$) and says nothing about the
+partial sums. Conjectures.io's review records that the result does not settle
+the informal Erdős problem. Conjectures.io withdrew the problem from its pool on
+5 August 2026 pending a corrected statement. On 9 September 2026
+formal-conjectures restated the theorem as convergence of the real partial sums
+(PR #4990), and it keeps the theorem open. No proof claim on erdosproblems.com,
+no refereed resolution and no other candidate was found. The Conjectures.io
+submission has no claim page of its own. Its submitter is pseudonymous on
+Conjectures.io, and Conjectures.io's own decision classes it as the refutation
+of a defective formal task that settles nothing about the problem.
 
 **Source.** [erdosproblems.com/15](https://www.erdosproblems.com/15), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #15,

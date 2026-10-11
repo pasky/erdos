@@ -2,8 +2,9 @@
 name: problems/additive_bases/E0864
 title: Problem 864
 desc: |
-  Estimates the largest set of integers up to N with at most one number having
-  more than one representation as a sum of two members.
+  Asks for an estimate of the largest set $A\subseteq\{1,\ldots,N\}$ in which at
+  most one number has more than one representation as a sum of two members;
+  open.
 tags:
 - Number theory
 - Sidon sets

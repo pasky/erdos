@@ -2,8 +2,10 @@
 name: problems/group_theory/E0117
 title: Problem 117
 desc: |
-  Estimates how many Abelian subgroups are needed to cover a group in which
-  every set of more than n elements contains two distinct commuting elements.
+  Asks for an estimate of $h(n)$, the least number of Abelian subgroups that
+  suffices to cover every group in which any set of more than $n$ elements
+  contains two distinct commuting elements. It is open on the site, with one
+  pending proof claim.
 tags:
 - Group theory
 status: claimed
@@ -26,11 +28,11 @@ be covered by at most $h(n)$ many Abelian subgroups.
 
 Estimate $h(n)$ as well as possible.
 
-**Status.** Open on the site (label OPEN; page last edited 23 January 2026).
-The site's proof-claims tab carries one full proof claim, submitted 18 August
-2026 by Guillaume Lecomte and recorded as a pending claim on
-[[problems/group_theory/E0117/claims/2026_08_18_lecomte|its claim page]]: that
-$\log_2 h(n)=n/2+o(n)$, so $h(n)^{1/n}\to\sqrt{2}$.
+**Status.** Open on the site (label OPEN; page last edited 23 January 2026). The
+site's proof-claims tab carries one full proof claim, submitted 18 August 2026
+by Guillaume Lecomte. It claims that $\log_2 h(n)=n/2+o(n)$, so
+$h(n)^{1/n}\to\sqrt{2}$. It is recorded as a pending claim on
+[[problems/group_theory/E0117/claims/2026_08_18_lecomte|its claim page]].
 
 **Source.** [erdosproblems.com/117](https://www.erdosproblems.com/117), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #117,

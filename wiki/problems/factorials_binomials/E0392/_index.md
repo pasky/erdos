@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0392
 title: Problem 392
 desc: |
-  Asks whether the fewest factors needed to write n factorial as increasing
-  factors of size at most n squared is about n over two minus n over two log
-  n.
+  Asks whether $A(n)=n/2-n/(2\log n)+o(n/\log n)$, where $A(n)$ is the least $t$
+  such that $n!=a_1\cdots a_t$ with $a_1\le\cdots\le a_t\le n^2$; a proof is
+  claimed but not accepted.
 tags:
 - Number theory
 - Factorials
@@ -34,12 +34,12 @@ $$
 A(n)=\frac{n}{2}-\frac{n}{2\log n}+o\left(\frac{n}{\log n}\right)?
 $$
 
-**Status.** The site labels the problem PROVED (LEAN). The standing derived
-from the claim pages is `claimed`, `proved`, through the pending full claim
-[[problems/factorials_binomials/E0392/claims/2026_01_03_tao|Tao 2026]]: the
-site's commentary credits only Cambie's pairing reduction and does not name
-the proof's author, and the Lean formalization in the PNT+ project is
-third-party work not built here, so the claim lists no acceptance evidence.
+**Status.** The site labels the problem PROVED (LEAN). The standing derived from
+the claim pages is `claimed`, `proved`, through the pending full claim
+[[problems/factorials_binomials/E0392/claims/2026_01_03_tao|Tao 2026]]. The
+claim lists no acceptance evidence, for two reasons. The site's commentary
+credits only Cambie's pairing reduction and does not name the proof's author.
+The Lean formalization in the PNT+ project is third-party work not built here.
 
 **Source.** [erdosproblems.com/392](https://www.erdosproblems.com/392), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #392,

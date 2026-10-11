@@ -2,8 +2,10 @@
 name: problems/integer_sequences/E0848
 title: Problem 848
 desc: |
-  Asks whether the largest set of integers up to N with no two members whose
-  product plus one is squarefree is those congruent to seven mod twenty-five.
+  Asks whether the maximum size of a set $A\subseteq\{1,\ldots,N\}$ with $ab+1$
+  never squarefree for $a,b\in A$ is attained by the integers
+  $n\equiv7\pmod{25}$; proved for large $N$, and claimed for every $N$ in
+  unreviewed work.
 tags:
 - Number theory
 status: claimed
@@ -24,39 +26,42 @@ updated: 2026-10-07T20:39:38Z
 that $ab+1$ is never squarefree (for all $a,b\in A$) achieved by taking those
 $n\equiv 7\pmod{25}$?
 
-**Status.** The site's label is DECIDABLE, meaning that the site counts the
-problem as resolved except for a finite check (page last edited 6 December
-2025; proof-claim tab accessed 2026-10-06); the label is recorded here, not
-adopted as the standing. The standing derives from the
-claim pages. The accepted partial claim
-[[problems/integer_sequences/E0848/claims/2025_10_19_sawhney|Sawhney]],
-a note the site's curator, Thomas Bloom, credits in the commentary and whose
-Section 4 names ChatGPT 5 Pro as having assisted the proof, proves that for all
+**Status.** The site's label is DECIDABLE (page last edited 6 December 2025;
+proof-claim tab accessed 2026-10-06). The label means that the site counts the
+problem as resolved except for a finite check. It is recorded here, not adopted
+as the standing. The standing derives from the claim pages.
+
+The accepted partial claim
+[[problems/integer_sequences/E0848/claims/2025_10_19_sawhney|Sawhney]] is a note
+that the site's curator, Thomas Bloom, credits in the commentary. Its Section 4
+names ChatGPT 5 Pro as having assisted the proof. It proves that for all
 sufficiently large $N$ the class $7\bmod25$ attains the maximum, with a
-stability statement, and leaves the finite range of small $N$ unchecked and
+stability statement. It leaves the finite range of small $N$ unchecked and
 unquantified. The pending partial claim
-[[problems/integer_sequences/E0848/claims/2026_03_23_sothanaphan|Sothanaphan 2026]],
-a note posted in the discussion thread on 23 March 2026 and produced, as it
-declares, with GPT-5.2 Thinking and GPT-5.4 Thinking, makes the threshold
-explicit: the class attains the maximum for every $N\ge2.64\cdot10^{17}$.
-Two full claims assert the exact maximum $\lfloor(N+18)/25\rfloor$ for
-every $N\ge1$:
+[[problems/integer_sequences/E0848/claims/2026_03_23_sothanaphan|Sothanaphan 2026]]
+makes the threshold explicit: the class attains the maximum for every
+$N\ge2.64\cdot10^{17}$. It is a note posted in the discussion thread on 23 March
+2026 and produced, as it declares, with GPT-5.2 Thinking and GPT-5.4 Thinking.
+
+Two full claims assert the exact maximum $\lfloor(N+18)/25\rfloor$ for every
+$N\ge1$. The first is
 [[problems/integer_sequences/E0848/claims/2026_07_28_pitchford|Pitchford 2026]],
-a candidate computer-assisted determination published on Zenodo on 28 July
-2026 with OpenAI Codex as its reported author and Ian Pitchford as its
-publisher, by certificates and exact-rational envelope arguments up to
-Sothanaphan's threshold; and
-[[problems/integer_sequences/E0848/claims/2026_07_30_li|Li 2026]], released
-on 30 July 2026 and submitted to the site's proof-claim tab on 16 August
-2026 with a tools line naming OpenAI ChatGPT 5.5, OpenAI ChatGPT 5.6 and a
-proof-engineering system of the author's own, with a Lean 4 project. The
-site has acted on none of the three, no referee or named expert has
-examined them, and nothing was built or audited here, so they are `claimed`
-and the problem's standing is claimed, proved. The
-site's commentary also records the bound $\lvert A\rvert\le(0.108\ldots+o(1))N$
-sent by van Doorn, from the fact that $a^2+1$ must be divisible by the
-square of a prime $p\equiv1\pmod4$, sharpened to about $0.105N$ by
-Weisenberg.
+a candidate computer-assisted determination published on Zenodo on 28 July 2026,
+with OpenAI Codex as its reported author and Ian Pitchford as its publisher. It
+works by certificates and exact-rational envelope arguments up to Sothanaphan's
+threshold. The second is
+[[problems/integer_sequences/E0848/claims/2026_07_30_li|Li 2026]], released on
+30 July 2026 and submitted to the site's proof-claim tab on 16 August 2026. Its
+tools line names OpenAI ChatGPT 5.5, OpenAI ChatGPT 5.6 and a proof-engineering
+system of the author's own, and it comes with a Lean 4 project. The site has
+acted on none of the three, no referee or named expert has examined them, and
+nothing was built or audited here. So they are `claimed`, and the problem's
+standing is claimed, proved.
+
+The site's commentary also records the bound
+$\lvert A\rvert\le(0.108\ldots+o(1))N$ sent by van Doorn. It comes from the fact
+that $a^2+1$ must be divisible by the square of a prime $p\equiv1\pmod4$.
+Weisenberg sharpened it to about $0.105N$.
 
 **Source.** [erdosproblems.com/848](https://www.erdosproblems.com/848), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #848,

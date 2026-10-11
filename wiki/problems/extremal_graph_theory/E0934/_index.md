@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0934
 title: Problem 934
 desc: |
-  The least number of edges forcing a graph of maximum degree at most d to have
-  two edges at distance at least t; open, exact for t = 1, t = 2 and h_3(3) = 23,
-  between 0.629^t d^t and 3d^t/2 + 1 in general, with 2026 preprints at t = 3.
+  Estimates $h_t(d)$, the least number of edges forcing a graph of maximum
+  degree at most $d$ to have two edges at distance at least $t$. Open: it is
+  known exactly for $t=1$ and $t=2$ and at $h_3(3)=23$, lies between
+  $0.629^td^t$ and $\frac32d^t+1$ in general, and 2026 preprints treat $t=3$.
 tags:
 - Graph theory
 status: open
@@ -43,36 +44,37 @@ text says "The order of magnitude of $h_r(n)$ is easily seen to be $n^{r+1}$
 ($h_1\sim d$, $h_2\sim\frac54d^2$); recorded as printed. The site's two
 displayed conjectures of 2022 are variants recorded below, not the question.
 
-**Status.** Open. No estimate of $h_t(d)$ up to a factor $1+o(1)$ for
-general $t$, and no "nice expression" in Erdős's sense, was found in the
-search whose scope the Current assessment records.
-Known exactly: $h_1(d)=d+1$ for $d\ge3$;
-$h_2(d)=\frac54d^2+1$ for even $d$ and $\frac{5d^2-2d+1}4+1$ for odd $d$
-(Chung, Gyárfás, Tuza and Trotter 1990, refereed; an accepted partial
-claim on
-[[problems/extremal_graph_theory/E0934/claims/1990_04_01_chung_gyarfas_tuza_trotter|its claim page]]);
-$h_3(3)=23$ (Cambie, Cames van Batenburg, de Joannis de Verclos and Kang,
-SIAM J. Discrete Math. 2022, refereed; an accepted partial claim on
+**Status.** Open. The search whose scope the Current assessment records found no
+estimate of $h_t(d)$ up to a factor $1+o(1)$ for general $t$, and no "nice
+expression" in Erdős's sense. This is a bounded negative finding, not a
+certificate of openness. Some values are known exactly. For $d\ge3$,
+$h_1(d)=d+1$. Next, $h_2(d)=\frac54d^2+1$ for even $d$ and $\frac{5d^2-2d+1}4+1$
+for odd $d$ (Chung, Gyárfás, Tuza and Trotter 1990, refereed; an accepted
+partial claim on
+[[problems/extremal_graph_theory/E0934/claims/1990_04_01_chung_gyarfas_tuza_trotter|its claim page]]).
+Finally, $h_3(3)=23$ (Cambie, Cames van Batenburg, de Joannis de Verclos and
+Kang, SIAM J. Discrete Math. 2022, refereed; an accepted partial claim on
 [[problems/extremal_graph_theory/E0934/claims/2021_03_22_cambie_cames_van_batenburg_de_joannis_de_verclos_kang|its claim page]]).
-In general
-$h_t(d)\le\frac32d^t+1$ for all $t\ge1$ and $h_t(d)\ge0.629^td^t$ for all
-large $t$ and infinitely many $d$ (the same paper), with $h_t(d)\le d^t+1$
-for graphs without a $(2t+1)$-cycle. Two preprints of 2026 change the
-picture at $t=3$ and for the asymptotics: Kumar, Mohar and Pragada refute
-the 2022 conjecture $h_3(d)\le d^3-d^2+d+2$ at $d=4$ ($h_3(4)\ge71>54$) and
-prove $\liminf h_3(d)/d^3\ge\frac{253}{225}$ (a pending partial claim on
-[[problems/extremal_graph_theory/E0934/claims/2026_07_02_kumar_mohar_pragada|its claim page]]),
-and Korsky claims on the
-site's proof-claim tab, and Cames van Batenburg and Korsky in a preprint,
-$h_t(d)\ge(1-o(1))d^t$ as $d\to\infty$ for every $t\ge3$ (the preprint's
-abstract states it for every $t\ge2$), a result first submitted to the tab
-on 29 July 2026 and recorded as a pending partial claim on
-[[problems/extremal_graph_theory/E0934/claims/2026_07_29_korsky|its claim page]];
-both are unrefereed and recorded as claimed progress. A thread post and
-Zenodo manuscript of 17 August 2026 claim the exact value $h_3(4)=71$ with
-a Lean 4 development, a pending partial claim on
+In general, $h_t(d)\le\frac32d^t+1$ for all $t\ge1$, and $h_t(d)\ge0.629^td^t$
+for all large $t$ and infinitely many $d$ (the same paper). For graphs without a
+$(2t+1)$-cycle, $h_t(d)\le d^t+1$.
+
+Two preprints of 2026 change the picture at $t=3$ and for the asymptotics. Both
+are unrefereed and recorded as claimed progress. Kumar, Mohar and Pragada refute
+the 2022 conjecture $h_3(d)\le d^3-d^2+d+2$ at $d=4$, with $h_3(4)\ge71>54$.
+They also prove $\liminf h_3(d)/d^3\ge\frac{253}{225}$. This is a pending
+partial claim on
+[[problems/extremal_graph_theory/E0934/claims/2026_07_02_kumar_mohar_pragada|its claim page]].
+Korsky claims on the site's proof-claim tab, and Cames van Batenburg and Korsky
+claim in a preprint, that $h_t(d)\ge(1-o(1))d^t$ as $d\to\infty$ for every
+$t\ge3$. The preprint's abstract states it for every $t\ge2$. The result was
+first submitted to the tab on 29 July 2026 and is recorded as a pending partial
+claim on
+[[problems/extremal_graph_theory/E0934/claims/2026_07_29_korsky|its claim page]].
+Separately, a thread post and Zenodo manuscript of 17 August 2026 claim the
+exact value $h_3(4)=71$ with a Lean 4 development. This is a pending partial
+claim on
 [[problems/extremal_graph_theory/E0934/claims/2026_08_17_bitterlemma|its claim page]].
-This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/934](https://www.erdosproblems.com/934),
 accessed 2026-09-19: the problem page (labeled OPEN,

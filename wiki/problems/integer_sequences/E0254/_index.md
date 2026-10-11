@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0254
 title: Problem 254
 desc: |
-  Asks whether a set that grows in every dyadic range and has divergent sums
-  of distances to the nearest integer for every angle represents all large
-  integers as distinct sums.
+  Asks whether a set $A$ with $|A\cap(x,2x]|\to\infty$ and
+  $\sum_{n\in A}\{\theta n\}=\infty$ for every $\theta\in(0,1)$, where
+  $\{\cdot\}$ is the distance to the nearest integer, represents every large
+  integer as a sum of distinct elements; proved.
 tags:
 - Number theory
 status: solved
@@ -39,16 +40,16 @@ elements of $A$.
 
 **Status.** OPEN, the site's label (page last edited 7 December 2025). The
 corpus accepts Fan's full proof claim of July 2026 on formalized evidence
-([[problems/integer_sequences/E0254/claims/2026_07_15_fan|claim page]]): Boris
-Alexeev's Lean formalization of the preprint's six-per-interval version, with
-OpenAI Codex as its formal author, was built here and its theorem audited
-against the Statement above, so the problem stands solved and proved; the
-preprint's Corollary 1.2, at five elements in every large dyadic interval, is
-not built. Snyder's Lean proof of the statement as posed
-([[problems/integer_sequences/E0254/claims/2026_07_15_snyder|claim page]]),
-which formal-conjectures registers as the formal proof of its statement, is
-pending; the corpus has not built or audited it. The site has not accepted
-either claim, and neither has a refereed version or independent review.
+([[problems/integer_sequences/E0254/claims/2026_07_15_fan|claim page]]), so the
+problem stands solved and proved. The evidence is Boris Alexeev's Lean
+formalization of the preprint's six-per-interval version, with OpenAI Codex as
+its formal author. It was built here, and its theorem was audited against the
+Statement above. The preprint's Corollary 1.2, at five elements in every large
+dyadic interval, is not built. Snyder's Lean proof of the statement as posed
+([[problems/integer_sequences/E0254/claims/2026_07_15_snyder|claim page]]) is
+pending. The formal-conjectures collection registers it as the formal proof of
+its statement, but the corpus has not built or audited it. The site has not
+accepted either claim, and neither has a refereed version or independent review.
 
 **Source.** [erdosproblems.com/254](https://www.erdosproblems.com/254), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #254,

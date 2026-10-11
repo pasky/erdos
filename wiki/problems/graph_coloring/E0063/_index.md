@@ -2,8 +2,8 @@
 name: problems/graph_coloring/E0063
 title: Problem 63
 desc: |
-  Asks whether every graph with infinite chromatic number contains a cycle
-  whose length is a power of two, for infinitely many powers of two.
+  Asks whether every graph with infinite chromatic number contains a cycle of
+  length $2^n$ for infinitely many $n$; proved.
 tags:
 - Graph theory
 - Chromatic number
@@ -25,12 +25,13 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Does every graph with infinite chromatic number contain a
 cycle of length $2^n$ for infinitely many $n$?
 
-**Status.** The site labels the problem PROVED (LEAN) and credits Zach
-Hunter with deducing it from Liu and Montgomery's even-cycle interval theorem;
-the Lean behind the qualifier is described below. The accepted full claim is
-[[problems/graph_coloring/E0063/claims/2020_10_29_liu_montgomery|powers of two from the even-cycle interval theorem]];
-the uncountable-chromatic case is an accepted partial claim,
+**Status.** The site labels the problem PROVED (LEAN). It credits Zach Hunter
+with deducing it from Liu and Montgomery's even-cycle interval theorem. The
+accepted full claim is
+[[problems/graph_coloring/E0063/claims/2020_10_29_liu_montgomery|powers of two from the even-cycle interval theorem]].
+The uncountable-chromatic case is an accepted partial claim,
 [[problems/graph_coloring/E0063/claims/1966_03_01_erdos_hajnal|every power of two at uncountable chromatic number]].
+The Lean behind the qualifier is described below.
 
 **Source.** T. F. Bloom, Erdős Problem #63,
 [erdosproblems.com/63](https://www.erdosproblems.com/63), accessed

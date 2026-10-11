@@ -2,9 +2,8 @@
 name: problems/unit_fractions/E0315
 title: Problem 315
 desc: |
-  Asks whether every other increasing sequence whose reciprocals sum to one
-  has liminf of its nth term raised to the power one over two to the n below
-  1.264085.
+  Asks whether every increasing sequence $a_1<a_2<\cdots$ with $\sum 1/a_k=1$,
+  other than Sylvester's, has $\liminf a_n^{1/2^n}<c_0=1.264085\cdots$; proved.
 tags:
 - Number theory
 - Unit fractions
@@ -60,27 +59,29 @@ excluded sequence as Sylvester's $2,3,7,43,\ldots$ and the constant as the
 Vardi constant, so their statements are the site's question in either
 convention.
 
-**Status.** Proved, by two independent sources. Li and Tang's Corollary 1.7
-(arXiv:2503.12277, March 2025) proves exactly the statement: every strictly
-increasing sequence of positive integers other than Sylvester's with reciprocal
-sum $1$ has $\liminf a_n^{1/2^n}<c_0=1.264085\ldots$. Kamio's Theorem 8
-(arXiv:2503.02317, March 2025; an author preprint) proves it for nondecreasing
-sequences and for every unit fraction $1/n$ in place of $1$. The two preprints
-appeared eleven days apart: Li and Tang's Remark 1.13 records Kamio's proof as
-independent, and Kamio's, the earlier one, does not cite theirs. Neither proof
-has a refereed publication: Li and Tang's Acta Math. Hungar. paper (177 (2025),
+**Status.** Proved, by two independent sources. The site's label is PROVED
+(LEAN). Its Lean qualifier is a catalog label whose scope is qualified under
+Formalization and the Lean label below, and no local kernel credit is claimed.
+The two accepted claims are recorded on
+[[problems/unit_fractions/E0315/claims/2025_03_15_li_tang|Li and Tang's claim page]]
+and
+[[problems/unit_fractions/E0315/claims/2025_03_04_kamio|Kamio's claim page]].
+The pending claim is recorded on
+[[problems/unit_fractions/E0315/claims/2026_07_30_kovac_tang|Kovač and Tang's claim page]].
+
+Li and Tang's Corollary 1.7 (arXiv:2503.12277, March 2025) proves exactly the
+statement. Every strictly increasing sequence of positive integers other than
+Sylvester's with reciprocal sum $1$ has
+$\liminf a_n^{1/2^n}<c_0=1.264085\ldots$. Kamio's Theorem 8 (arXiv:2503.02317,
+March 2025; an author preprint) proves it for nondecreasing sequences and for
+every unit fraction $1/n$ in place of $1$. The two preprints appeared eleven
+days apart. Li and Tang's Remark 1.13 records Kamio's proof as independent, and
+Kamio's preprint, the earlier one, does not cite theirs. Neither proof has a
+refereed publication. Li and Tang's Acta Math. Hungar. paper (177 (2025),
 41--63) publishes their conditional generalization and cites the preprint for
 the proof of this statement. Kovač and Tang's 2026 preprint generalizes the
-statement to rationals and re-derives it by a non-constructive route; it is a
-pending claim. The site's label is PROVED (LEAN); its Lean qualifier is a
-catalog label whose scope is qualified under Formalization and the Lean label
-below, and no local kernel credit is claimed. The two accepted claims are
-recorded on [[problems/unit_fractions/E0315/claims/2025_03_15_li_tang|Li and
-Tang's claim page]] and
-[[problems/unit_fractions/E0315/claims/2025_03_04_kamio|Kamio's claim page]],
-and the pending claim on
-[[problems/unit_fractions/E0315/claims/2026_07_30_kovac_tang|Kovač and Tang's
-claim page]].
+statement to rationals and re-derives it by a non-constructive route. It is a
+pending claim.
 
 **Source.** [erdosproblems.com/315](https://www.erdosproblems.com/315),
 accessed 2026-09-18: the problem page (PROVED (LEAN), with the site's banner

@@ -2,8 +2,8 @@
 name: problems/additive_combinatorics/E0818
 title: Problem 818
 desc: |
-  Asks whether a finite set of integers with small sumset must have product
-  set nearly the square of its size, up to a power of a logarithm.
+  Asks whether a finite set $A$ of integers with $|A+A|\ll|A|$ must satisfy
+  $|AA|\gg|A|^2/(\log|A|)^C$ for some constant $C>0$; proved.
 tags:
 - Additive combinatorics
 status: solved
@@ -29,7 +29,7 @@ $$
 
 for some constant $C>0$?
 
-**Status.** Proved: the site labels the problem PROVED (LEAN); the corpus has
+**Status.** Proved. The site labels the problem PROVED (LEAN). The corpus has
 not built the Lean proof, so it gives no formal evidence. The standing is
 derived from the
 [[problems/additive_combinatorics/E0818/claims/2008_06_05_solymosi|claim page]],

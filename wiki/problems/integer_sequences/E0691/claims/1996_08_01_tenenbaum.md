@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0691/claims/1996_08_01_tenenbaum
 title: Tenenbaum's critical exponent log 2 for block Behrend sequences
 desc: |
-  Tenenbaum's Corollary 2 (Math. Proc. Cambridge Philos. Soc. 1996): blocks
-  (T_j, (1+j^-alpha)T_j] with consecutive ratios between two constants above
-  1 form a Behrend sequence for alpha < log 2 and not for alpha > log 2.
+  Tenenbaum's Corollary 2 (Math. Proc. Cambridge Philos. Soc. 1996) shows that
+  blocks $(T_j,(1+j^{-\alpha})T_j]$ with consecutive ratios between two
+  constants above $1$ form a Behrend sequence for $\alpha<\log2$ and not for
+  $\alpha>\log2$.
 authors:
 - G. Tenenbaum
 status: accepted

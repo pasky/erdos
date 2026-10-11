@@ -2,8 +2,8 @@
 name: problems/ramsey_theory/E1029
 title: Problem 1029
 desc: |
-  Asks whether the Ramsey number for a complete graph on k vertices, divided
-  by k times two to the k over two, tends to infinity.
+  Asks whether $R(k)/(k2^{k/2})\to\infty$, where $R(k)$ is the Ramsey number of
+  the complete graph $K_k$. It is open.
 tags:
 - Graph theory
 - Ramsey theory
@@ -41,13 +41,13 @@ Corollary 1. The formal-conjectures file encodes the statement as the
 divergence of $R(k)/(k2^{k/2})$.
 
 **Status.** Open. The best lower bound located is Spencer's Corollary 2 (J.
-Combinatorial Theory Ser. A 18 (1975)), $R(k)\ge k2^{k/2}[(\sqrt2/e)+o(1)]$,
-a constant multiple of $k2^{k/2}$; the introduction of the 2023 diagonal
-upper-bound paper of Campos, Griffiths, Morris and Sahasrabudhe confirms
-that Erdős's 1947 bound "has only been improved by a factor of 2, by
-Spencer". No source proving a larger order or disproving divergence was
-found in the search whose scope the Current assessment
-records. This is a bounded negative finding, not a certificate of openness.
+Combinatorial Theory Ser. A 18 (1975)), $R(k)\ge k2^{k/2}[(\sqrt2/e)+o(1)]$, a
+constant multiple of $k2^{k/2}$. The introduction of the 2023 diagonal
+upper-bound paper of Campos, Griffiths, Morris and Sahasrabudhe confirms that
+Erdős's 1947 bound "has only been improved by a factor of 2, by Spencer". No
+source proving a larger order or disproving divergence was found in the search
+whose scope the Current assessment records. This is a bounded negative finding,
+not a certificate of openness.
 
 **Source.** [erdosproblems.com/1029](https://www.erdosproblems.com/1029),
 accessed 2026-09-17: the problem page (OPEN; source

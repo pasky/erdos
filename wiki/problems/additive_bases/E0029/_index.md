@@ -2,8 +2,9 @@
 name: problems/additive_bases/E0029
 title: Problem 29
 desc: |
-  Asks for an explicit set whose sumset is all natural numbers while the
-  number of representations of n grows slower than every power of n.
+  Asks whether there is an explicit set $A$ with $A+A=\mathbb{N}$ whose number
+  of representations $1_A\ast 1_A(n)$ is $o(n^\epsilon)$ for every $\epsilon>0$;
+  answered yes.
 tags:
 - Number theory
 - Additive bases
@@ -29,16 +30,16 @@ every $\epsilon>0$?
 as [JPSZ24] do, as membership in $A$ testable in time polynomial in the
 number of digits.
 
-**Status.** PROVED (LEAN), the site's label (page last edited 28 December
-2025): Jain, Pham, Sawhney and Zakharov [JPSZ24] give an explicit set with
-$A+A=\mathbb{N}$ and $1_A\ast1_A(n)\le Cn^{c/\log\log n}$, so the answer is
-yes; the site's Lean marker corresponds to the proof the formal-conjectures
-catalog links, a third party's Lean proof of a weaker existence statement (see
-Formalization). The claim page
-[[problems/additive_bases/E0029/claims/2024_05_14_jain_pham_sawhney_zakharov|An
-explicit economical additive basis]] records the acceptance evidence: the
-refereed publication and the curator of erdosproblems.com, Thomas Bloom; the
-corpus has not built or audited the Lean proof.
+**Status.** PROVED (LEAN), the site's label (page last edited 28 December 2025).
+Jain, Pham, Sawhney and Zakharov [JPSZ24] give an explicit set with
+$A+A=\mathbb{N}$ and $1_A\ast1_A(n)\le Cn^{c/\log\log n}$, so the answer is yes.
+The site's Lean marker corresponds to the proof the formal-conjectures catalog
+links. That proof is a third party's Lean proof of a weaker existence statement
+(see Formalization). The claim page
+[[problems/additive_bases/E0029/claims/2024_05_14_jain_pham_sawhney_zakharov|An explicit economical additive basis]]
+records the acceptance evidence: the refereed publication and the curator of
+erdosproblems.com, Thomas Bloom. The corpus has not built or audited the Lean
+proof.
 
 **Source.** [erdosproblems.com/29](https://www.erdosproblems.com/29), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #29,

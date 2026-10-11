@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E1209/claims/2015_06_27_gurev_korsky
 title: "ELMO 2015 Problem 4: no shift above 1 keeps n + 2^(2^k) prime"
 desc: |
-  Problem 4 of ELMO 2015, proposed by Gurev with Korsky's official solution:
-  for every integer a > 1 some 2^(2^n) + a is composite, which answers
-  question (iii.a) no for every shift at least 2; pending.
+  Problem 4 of ELMO 2015, proposed by Gurev with an official solution by Korsky,
+  states that for every integer $a>1$ some $2^{2^n}+a$ is composite. This
+  pending claim answers question (iii.a) no for every shift at least $2$.
 authors:
 - Jack Gurev
 - Sam Korsky

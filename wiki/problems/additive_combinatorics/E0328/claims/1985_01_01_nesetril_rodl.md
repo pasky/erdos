@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0328/claims/1985_01_01_nesetril_rodl
 title: Nešetřil and Rödl's unsplittable bounded-representation sets
 desc: |
-  For every integer C at least 2 there is a set of naturals whose pairwise sums
-  each have at most C representations and which no partition into finitely
-  many parts reduces to fewer than C representations in every part; answers no.
+  Nešetřil and Rödl prove that for every integer $C\ge2$ there is a set of
+  natural numbers whose pairwise sums each have at most $C$ representations, and
+  which no partition into finitely many parts reduces to fewer than $C$
+  representations in every part. This answers the question no.
 authors:
 - J. Nešetřil
 - V. Rödl
@@ -59,11 +60,11 @@ above is Theorem 2 of the published paper, whose proof counts each unordered
 representation once, and its proof is not checked in this corpus.
 
 **Acceptance.** Refereed: Proceedings of the American Mathematical Society
-**93** (1985), no. 1, 185–188, the DOI linked above. Reviewed: the site's
-curator, Thomas Bloom, labels the problem DISPROVED (LEAN) and credits
-Nešetřil and Rödl in the problem's commentary with showing that the answer is
-no for all $C$, even if $t$ may depend on $A$ (page last edited 6 April 2026).
-The site's Lean mark refers to a separate public Lean refutation of the site's
-ordered-count wording, which settles no instance of the corrected Statement
-and is recorded on its own, rejected,
+**93** (1985), no. 1, 185–188, at the DOI linked above. Reviewed: the site's
+curator, Thomas Bloom, labels the problem DISPROVED (LEAN). In the problem's
+commentary (page last edited 6 April 2026), he credits Nešetřil and Rödl with
+showing that the answer is no for all $C$, even if $t$ may depend on $A$. The
+site's Lean mark refers to a separate public Lean refutation of the site's
+ordered-count wording. That refutation settles no instance of the corrected
+Statement. It is recorded on its own, rejected,
 [[problems/additive_combinatorics/E0328/claims/2026_06_18_axiommath|claim page]].

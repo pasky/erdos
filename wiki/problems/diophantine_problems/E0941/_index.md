@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0941
 title: Problem 941
 desc: |
   Asks whether every sufficiently large integer is the sum of at most three
-  powerful numbers.
+  powerful numbers; proved.
 tags:
 - Number theory
 - Powerful numbers

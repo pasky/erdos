@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0036/claims/2026_09_19_drynshock
 title: Drynshock's lower bound 0.3805634 for the minimum overlap constant
 desc: |
-  A partial proof claim on the site's proof-claims tab, submitted by the
-  user Drynshock on 2026-09-19 and credited to GPT 6 Pro, that the minimum
-  overlap constant exceeds 0.3805634; unexamined by the site, so claimed.
+  The user Drynshock submitted to the site's proof-claims tab on 2026-09-19 a
+  partial proof claim, credited to GPT 6 Pro, that the minimum overlap constant
+  exceeds 0.3805634. The site has not examined it, so it is claimed.
 authors: []
 status: claimed
 claim: proved

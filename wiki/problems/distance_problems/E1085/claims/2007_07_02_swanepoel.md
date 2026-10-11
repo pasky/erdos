@@ -2,9 +2,9 @@
 name: problems/distance_problems/E1085/claims/2007_07_02_swanepoel
 title: Swanepoel's exact unit-distance count in even dimensions six and above
 desc: |
-  For d at least 4 and n large in terms of d, the n-point sets of d-space with
-  the most unit distances are Lenz configurations, which gives the exact value
-  of f_d(n) for every even d at least 6.
+  Swanepoel proved that for $d\ge4$ and $n$ large in terms of $d$, the $n$-point
+  sets in $\mathbb{R}^d$ with the most unit distances are Lenz configurations.
+  This gives the exact value of $f_d(n)$ for every even $d\ge6$.
 authors:
 - Konrad J Swanepoel
 status: accepted
@@ -59,7 +59,7 @@ higher dimensions of [[problems/distance_problems/E0223/_index|Problem 223]].
 
 **Acceptance.** Refereed: K. J. Swanepoel, Unit distances and diameters in
 Euclidean spaces, Discrete & Computational Geometry 41 (2009), no. 1, 1–27,
-published online 2008-05-08; the preprint is arXiv:0707.0213, posted
-2007-07-02. Not reviewed: the site's remarks say that this paper determined
-$f_d(n)$ exactly for even $d\ge6$, but the site labels the problem OPEN, so
-the remark is not an acceptance of the problem or of a part.
+published online 2008-05-08. The preprint is arXiv:0707.0213, posted 2007-07-02.
+Not reviewed: the site's remarks say that this paper determined $f_d(n)$ exactly
+for even $d\ge6$, but the site labels the problem OPEN, so the remark is not an
+acceptance of the problem or of a part.

@@ -2,8 +2,9 @@
 name: problems/discrete_geometry/E0215
 title: Problem 215
 desc: |
-  Asks whether some planar set has the property that every translated and
-  rotated copy of it contains exactly one integer lattice point.
+  Asks whether some set $S\subseteq\mathbb{R}^2$ has the property that every
+  translated and rotated copy of it contains exactly one point of
+  $\mathbb{Z}^2$; proved.
 tags:
 - Geometry
 status: solved

@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0870/claims/2026_04_24_turturean
 title: Turturean answers the question no for every order k at least 3
 desc: |
-  For every k at least 3 and every C > 0 there is an additive basis of order
-  k, in the at-most-k sense, with at least C log n representations of each
-  large n and no minimal subbasis of order k; the question is answered no.
+  David Turturean claims that for every $k\ge3$ and every $C>0$ there is an
+  additive basis of order $k$, in the at-most-$k$ sense, with at least $C\log n$
+  representations of each large $n$ and no minimal subbasis of order $k$,
+  answering the question no.
 authors:
 - David Turturean
 status: claimed

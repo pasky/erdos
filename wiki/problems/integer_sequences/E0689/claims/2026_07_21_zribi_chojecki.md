@@ -3,8 +3,9 @@ name: problems/integer_sequences/E0689/claims/2026_07_21_zribi_chojecki
 title: The joint full proof claim of Zribi and Chojecki
 desc: |
   Zribi and Chojecki's AI-assisted full proof claim of 21 July 2026 on the
-  site's tab, merging their notes: leftover integers paired through prime
-  progressions and a Selberg sieve; a shorter version in September; pending.
+  site's tab merges their notes, pairing leftover integers through prime
+  progressions and a Selberg sieve. A shorter version followed in September, and
+  the claim is pending.
 authors:
 - Malek Zribi
 - Przemek Chojecki

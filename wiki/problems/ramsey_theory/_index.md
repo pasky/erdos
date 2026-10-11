@@ -7,7 +7,7 @@ desc: |
   of Schur and Rado type; Euclidean Ramsey problems and colorings of the
   plane are filed with discrete geometry.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:38:41Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # Ramsey Theory
@@ -15,419 +15,426 @@ updated: 2026-10-08T01:38:41Z
 [[problems/_index|..]]
 
 [[problems/ramsey_theory/E0054/_index|E0054/]]: Asks to improve the Burr–Erdős
-bounds on how sparse a Ramsey 2-complete sequence can be; Conlon, Fox and Pham
-determined the order as the square of the logarithm, closing the gap to a
-constant factor.
+bounds on how sparse a Ramsey $2$-complete sequence can be. Conlon, Fox and Pham
+determined the order as $(\log N)^2$, closing the gap to a constant factor.
 
-[[problems/ramsey_theory/E0055/_index|E0055/]]: Bounds the growth of the
-sparsest sets of integers for which every large integer is a monochromatic sum
-under any coloring with more than two colors.
+[[problems/ramsey_theory/E0055/_index|E0055/]]: Asks for non-trivial bounds on
+how sparse a set $A$ of integers can be if, for a given $r>2$, all large
+integers are monochromatic sums of elements of $A$ under every $r$-coloring of
+$A$; solved.
 
-[[problems/ramsey_theory/E0076/_index|E0076/]]: Asks whether every two-coloring
-of the edges of the complete graph on n vertices yields about n squared over
-twelve edge-disjoint monochromatic triangles; yes, by a 2020 theorem of Gruslys
-and Letzter the site accepted.
+[[problems/ramsey_theory/E0076/_index|E0076/]]: Asks whether every $2$-coloring
+of the edges of $K_n$ has at least $(1+o(1))n^2/12$ edge-disjoint monochromatic
+triangles; yes, by a 2020 theorem of Gruslys and Letzter that the site accepted.
 
-[[problems/ramsey_theory/E0077/_index|E0077/]]: Asks for the limit of the k-th
-root of the Ramsey number of the complete graph on k vertices as k grows, a
-limit not known to exist.
+[[problems/ramsey_theory/E0077/_index|E0077/]]: Asks for the value of
+$\lim_{k\to\infty}R(k)^{1/k}$, where $R(k)$ is the Ramsey number of $K_k$; open,
+and the limit is not known to exist.
 
 [[problems/ramsey_theory/E0078/_index|E0078/]]: Asks for a constructive proof
-that the Ramsey number of the complete graph on k vertices grows at least
-exponentially in k, equivalently for an explicit graph with logarithmic clique
-and independence numbers.
+that $R(k)>C^k$ for some constant $C>1$, or equivalently for an explicit graph
+on $n$ vertices with clique and independence numbers $O(\log n)$; open.
 
-[[problems/ramsey_theory/E0079/_index|E0079/]]: Asks whether there are
-infinitely many graphs that are not Ramsey size linear even though all of their
-proper subgraphs are; proved by Wigderson in 2024 non-constructively, with no
-explicit example beyond K_4 known.
+[[problems/ramsey_theory/E0079/_index|E0079/]]: Asks whether infinitely many
+graphs fail to be Ramsey size linear while all their proper subgraphs are Ramsey
+size linear. Wigderson proved this in 2024 by a non-constructive argument, and
+no explicit example beyond $K_4$ is known.
 
-[[problems/ramsey_theory/E0080/_index|E0080/]]: Estimates the largest book, an
-edge lying in many triangles, forced in a graph on n vertices with quadratically
-many edges each in a triangle; open, the polynomial question answered no and the
-logarithmic one open.
+[[problems/ramsey_theory/E0080/_index|E0080/]]: Asks to estimate $f_c(n)$, the
+largest book (an edge in many triangles) forced in an $n$-vertex graph with at
+least $cn^2$ edges, each in a triangle. It is open: the question whether
+$f_c(n)>n^{\epsilon}$ for some $\epsilon>0$ was answered no, and the question
+whether $f_c(n)\gg\log n$ is open.
 
 [[problems/ramsey_theory/E0085/_index|E0085/]]: Asks whether the least minimum
-degree forcing a four-cycle on n vertices is nondecreasing for all large n;
-open, with the equivalent star Ramsey numbers R(C_4, K_{1,n}) known exactly only
-for small n and near prime-power squares.
+degree $f(n)$ forcing a $C_4$ in an $n$-vertex graph satisfies $f(n+1)\ge f(n)$
+for all large $n$. It is open, and the equivalent star Ramsey numbers
+$R(C_4,K_{1,n})$ are known exactly only for small $n$ and near prime-power
+squares.
 
-[[problems/ramsey_theory/E0087/_index|E0087/]]: Asks whether every graph with
-chromatic number k has Ramsey number at least a constant fraction, or at least
-an exponentially small fraction, of the Ramsey number of the complete graph on k
-vertices; Erdős's original conjecture, at least that Ramsey number itself, fails
-at k = 4.
+[[problems/ramsey_theory/E0087/_index|E0087/]]: Asks whether, for each
+$0<\epsilon<1$ and all large $k$, every graph $G$ with $\chi(G)=k$ has
+$R(G)>(1-\epsilon)^kR(k)$, or even $R(G)>cR(k)$ for a fixed $c>0$; open. Erdős's
+original conjecture, $R(G)\ge R(k)$, fails at $k=4$.
 
-[[problems/ramsey_theory/E0088/_index|E0088/]]: Asks whether a graph on n
-vertices with no clique or independent set of logarithmic size has induced
-subgraphs of every edge count up to order n squared.
+[[problems/ramsey_theory/E0088/_index|E0088/]]: Asks whether, for some
+$\delta=\delta(\epsilon)>0$, every $n$-vertex graph with no clique or
+independent set of size $\epsilon\log n$ has an induced subgraph with $m$ edges
+for every $m\le\delta n^2$; proved.
 
-[[problems/ramsey_theory/E0112/_index|E0112/]]: Determines the fewest vertices
-forcing every directed graph to contain an independent set of size n or a
-transitive tournament of size m; open, known exactly when n = 1, m <= 2, n = 2
-and m <= 6, or m = 3 and n <= 5.
+[[problems/ramsey_theory/E0112/_index|E0112/]]: Asks to determine $k(n,m)$, the
+fewest vertices forcing every directed graph to contain an independent set of
+size $n$ or a transitive tournament of size $m$. It is open, with exact values
+known when $n=1$ or $m\le2$, when $n=2$ and $m\le6$, and when $m=3$ and $n\le5$.
 
-[[problems/ramsey_theory/E0129/_index|E0129/]]: Asks for a bound of the form
-C^(sqrt n) on the least N forcing, in any r-coloring of K_N, n vertices missing
-some color's triangle; a random coloring refutes the site's wording, and no
-source gives another intended form.
+[[problems/ramsey_theory/E0129/_index|E0129/]]: Asks for a constant $C=C(r)>1$
+with $R(n;3,r)<C^{\sqrt n}$, where $R(n;3,r)$ is the least $N$ such that every
+$r$-coloring of $K_N$ has $n$ vertices with no triangle in some color. A random
+coloring refutes the site's wording, and no source gives another intended form.
 
-[[problems/ramsey_theory/E0159/_index|E0159/]]: Asks whether the Ramsey number
-for a four-cycle versus a complete graph on n vertices is at most order n to the
-power two minus a fixed positive constant.
+[[problems/ramsey_theory/E0159/_index|E0159/]]: Asks whether $R(C_4,K_n)\ll
+n^{2-c}$ for some constant $c>0$; open.
 
-[[problems/ramsey_theory/E0163/_index|E0163/]]: Asks whether graphs in which
-every subgraph has a vertex of degree at most a fixed bound have Ramsey number
-linear in the number of vertices; proved by Lee (2015 preprint, Ann. of Math.
-2017), with the constant still open.
+[[problems/ramsey_theory/E0163/_index|E0163/]]: Asks whether every graph $H$ on
+$n$ vertices in which each subgraph has a vertex of degree at most $d$ satisfies
+$R(H)\ll_d n$. Lee proved it (2015 preprint, Ann. of Math. 2017), and the
+constant is still open.
 
 [[problems/ramsey_theory/E0165/_index|E0165/]]: Asks for an asymptotic formula
-for the Ramsey number of a triangle versus a complete graph on k vertices; the
-order k^2/log k is known and the constant lies between 1/2 and 1.
+for $R(3,k)$; open. The order $k^2/\log k$ is known, and the constant lies
+between $1/2$ and $1$.
 
-[[problems/ramsey_theory/E0166/_index|E0166/]]: Asks whether the Ramsey number
-of a complete graph on four vertices versus one on k vertices is at least k
-cubed divided by a power of the logarithm of k; proved by Mattheus and
-Verstraete with the fourth power.
+[[problems/ramsey_theory/E0166/_index|E0166/]]: Asks to prove that $R(4,k)\gg
+k^3/(\log k)^{O(1)}$; proved by Mattheus and Verstraete, with the fourth power
+of the logarithm.
 
 [[problems/ramsey_theory/E0172/_index|E0172/]]: Asks whether every finite
-coloring of the positive integers admits arbitrarily large finite sets whose
-sums and products of distinct members share one color.
+coloring of $\mathbb{N}$ has arbitrarily large finite sets $A$ whose sums and
+products of distinct elements all have one color; open on the site, with a proof
+claim pending.
 
-[[problems/ramsey_theory/E0181/_index|E0181/]]: Asks whether the Ramsey number
-of the n-dimensional hypercube graph is at most a constant times its number of
-vertices; open on the site, with the linear bound claimed in full by a 2026
-OpenAI release preprint.
+[[problems/ramsey_theory/E0181/_index|E0181/]]: Asks whether $R(Q_n)\ll 2^n$ for
+the $n$-dimensional hypercube graph $Q_n$, which has $2^n$ vertices. It is open
+on the site, and a 2026 OpenAI release preprint claims the linear bound in full.
 
-[[problems/ramsey_theory/E0183/_index|E0183/]]: Determines the limit of the k-th
-root of the least order forcing a monochromatic triangle in every k-coloring of
-a complete graph.
+[[problems/ramsey_theory/E0183/_index|E0183/]]: Asks for
+$\lim_{k\to\infty}R(3;k)^{1/k}$, where $R(3;k)$ is the least $n$ such that every
+$k$-coloring of the edges of $K_n$ has a monochromatic triangle; solved.
 
-[[problems/ramsey_theory/E0187/_index|E0187/]]: The best length, in the common
-difference d, of a monochromatic progression of difference d forced for
-infinitely many d in every two-coloring of the integers; at most (1 + o(1))
-log_2 d by Beck 1980, with no usable lower bound known.
+[[problems/ramsey_theory/E0187/_index|E0187/]]: Asks for the best $f(d)$ such
+that every $2$-coloring of the integers has, for infinitely many $d$, a
+monochromatic arithmetic progression of difference $d$ and length $f(d)$; open.
+Beck (1980) gives $f(d)\le(1+o(1))\log_2 d$, and no usable lower bound is known.
 
-[[problems/ramsey_theory/E0191/_index|E0191/]]: Asks whether every two-coloring
-of the pairs from 2 up to n yields a monochromatic complete set whose
-reciprocal-logarithm sum is arbitrarily large; proved by Rödl, with the order
-determined by Conlon, Fox and Sudakov.
+[[problems/ramsey_theory/E0191/_index|E0191/]]: Asks whether, for every $C>0$
+and large $n$, every $2$-coloring of the pairs from $\{2,\ldots,n\}$ has a set
+$X$ with all its pairs one color and $\sum_{x\in X}1/\log x\ge C$; proved by
+Rödl, with the order of growth determined by Conlon, Fox and Sudakov.
 
 [[problems/ramsey_theory/E0439/_index|E0439/]]: Asks whether every finite
-coloring of the integers has two distinct integers of one color summing to a
-square, or to a k-th power; proved by Khalfalah and Szemerédi for every
-non-constant polynomial with an even value.
+coloring of the integers has two distinct integers of one color whose sum is a
+square, or a $k$th power. Khalfalah and Szemerédi proved it for the values of
+every non-constant polynomial that takes an even value.
 
-[[problems/ramsey_theory/E0483/_index|E0483/]]: Estimates the least N forcing a
-monochromatic solution of a plus b equals c in every k-coloring of one through
-N, and asks whether it is exponential in k; open between c times 3.28 to the k
-and (e minus 1/6) times k factorial.
+[[problems/ramsey_theory/E0483/_index|E0483/]]: Asks for an estimate of the
+least $N=f(k)$ such that every $k$-coloring of $\{1,\ldots,N\}$ has a
+monochromatic solution of $a+b=c$, and whether $f(k)$ is at most exponential in
+$k$. It is open, with $f(k)$ between a constant times $3.28^k$ and
+$(e-\frac16)k!$.
 
-[[problems/ramsey_theory/E0484/_index|E0484/]]: Asks whether every k-coloring of
-the first N integers leaves a positive proportion of them expressible as a sum
-of two distinct integers of one color.
+[[problems/ramsey_theory/E0484/_index|E0484/]]: Asks whether there is an
+absolute constant $c>0$ such that, for $N$ large in terms of $k$, every
+$k$-coloring of $\{1,\ldots,N\}$ leaves at least $cN$ of these integers
+expressible as a sum of two distinct integers of one color; proved.
 
 [[problems/ramsey_theory/E0518/_index|E0518/]]: Asks whether every two-coloring
-of the complete graph on n vertices admits root n monochromatic paths of one
-color covering all vertices; proved for n above 20 to the 40th, the remaining n
+of the edges of $K_n$ has $\sqrt{n}$ monochromatic paths, all of one color, that
+cover all vertices. It is proved for $n>20^{40}$, and the remaining $n$ are
 claimed in an unrefereed 2026 preprint.
 
-[[problems/ramsey_theory/E0531/_index|E0531/]]: Estimates the least N such that
-every two-coloring of the integers up to N contains a set of k numbers all of
-whose non-empty subset sums have the same color.
+[[problems/ramsey_theory/E0531/_index|E0531/]]: Asks for an estimate of the
+least $N=F(k)$ such that every two-coloring of $\{1,\ldots,N\}$ has a
+$k$-element set whose non-empty subset sums all have the same color; open.
 
 [[problems/ramsey_theory/E0532/_index|E0532/]]: Asks whether every two-coloring
-of the natural numbers admits an infinite set all of whose finite non-empty
-subset sums share one color; yes, by Hindman's theorem, held in his 1974 paper
-and Baumgartner's 1974 note.
+of $\mathbb{N}$ has an infinite set whose finite non-empty subset sums all have
+one color. The answer is yes, by Hindman's theorem, proved in his 1974 paper and
+in Baumgartner's 1974 note.
 
-[[problems/ramsey_theory/E0544/_index|E0544/]]: Asks whether the gap between
-consecutive Ramsey numbers of a triangle against a complete graph tends to
-infinity, and whether it is smaller than order k; open, with the gap known only
-to lie between 3 and k+1.
+[[problems/ramsey_theory/E0544/_index|E0544/]]: Asks whether the gap
+$R(3,k+1)-R(3,k)$ between consecutive Ramsey numbers of a triangle against a
+complete graph tends to infinity, and whether it is $o(k)$. Both are open, and
+the gap is known only to lie between $3$ and $k+1$.
 
-[[problems/ramsey_theory/E0545/_index|E0545/]]: Asks whether, for all large m,
-the graph with m edges that is as complete as possible has the largest Ramsey
-number among graphs with m edges and no isolated vertices; open, while the
-site's wording, for every m, fails at two edges.
+[[problems/ramsey_theory/E0545/_index|E0545/]]: Asks whether, for all large $m$,
+the graph with $m$ edges that is as complete as possible has the largest Ramsey
+number among graphs with $m$ edges and no isolated vertices; open. The site's
+wording, for every $m$, fails at two edges.
 
-[[problems/ramsey_theory/E0546/_index|E0546/]]: Asks whether the Ramsey number
-of any graph with m edges and no isolated vertices is at most exponential in the
-square root of m.
+[[problems/ramsey_theory/E0546/_index|E0546/]]: Asks whether
+$R(G)\le2^{O(\sqrt{m})}$ for every graph $G$ with $m$ edges and no isolated
+vertices; proved.
 
-[[problems/ramsey_theory/E0547/_index|E0547/]]: Asks whether every tree on n at
-least 2 vertices has Ramsey number at most 2n minus 2; proved, since 2026 on a
-third party's Lean proof built here, while the site's wording fails for the
-one-vertex tree.
+[[problems/ramsey_theory/E0547/_index|E0547/]]: Asks whether every tree $T$ on
+$n\ge2$ vertices has $R(T)\le2n-2$; proved in 2026, on the evidence of a third
+party's Lean proof that was built here. The site's wording also covers the
+one-vertex tree, where it fails.
 
-[[problems/ramsey_theory/E0549/_index|E0549/]]: Asks whether a tree that is
-bipartite with k vertices in one class and two k in the other has Ramsey number
-exactly four k minus one.
+[[problems/ramsey_theory/E0549/_index|E0549/]]: Asks whether every tree $T$ with
+$k$ vertices in one class and $2k$ in the other has $R(T)=4k-1$; disproved.
 
-[[problems/ramsey_theory/E0550/_index|E0550/]]: Asks for a proof bounding the
-Ramsey number of a large tree against a complete multipartite graph by a formula
-in its chromatic number and smallest class size.
+[[problems/ramsey_theory/E0550/_index|E0550/]]: Asks for a proof that, for large
+$n$, every tree $T$ on $n$ vertices and the complete multipartite graph $G$ with
+class sizes $m_1\le\cdots\le m_k$ satisfy
+$R(T,G)\le(\chi(G)-1)(R(T,K_{m_1,m_2})-1)+m_1$. A full proof is claimed in an
+unreviewed 2026 preprint.
 
-[[problems/ramsey_theory/E0551/_index|E0551/]]: Asks for a proof that the Ramsey
-number of a k-cycle against a complete graph on n vertices is k minus one times
-n minus one plus one, when k is at least n.
+[[problems/ramsey_theory/E0551/_index|E0551/]]: Asks for a proof that
+$R(C_k,K_n)=(k-1)(n-1)+1$ for $k\ge n\ge3$, except when $n=k=3$; proved.
 
-[[problems/ramsey_theory/E0552/_index|E0552/]]: Determines the Ramsey number of
-a four-cycle against the star with n edges.
+[[problems/ramsey_theory/E0552/_index|E0552/]]: Asks for the Ramsey number
+$R(C_4,S_n)$ of a four-cycle against the star with $n$ edges, and whether, for
+every $c>0$, infinitely many $n$ have $R(C_4,S_n)\le n+\sqrt{n}-c$; open.
 
-[[problems/ramsey_theory/E0553/_index|E0553/]]: Asks for a proof that the
-three-color Ramsey number for two triangles and a complete graph on n vertices
-grows much faster than the two-color version.
+[[problems/ramsey_theory/E0553/_index|E0553/]]: Asks for a proof that
+$R(3,3,n)/R(3,n)\to\infty$, where $R(3,3,n)$ is the three-color Ramsey number
+for two triangles and $K_n$ and $R(3,n)$ is the two-color one; proved.
 
-[[problems/ramsey_theory/E0554/_index|E0554/]]: Asks for a proof that the
-k-color Ramsey number of an odd cycle on two n plus one vertices is negligible
-against that of the triangle, for n at least two.
+[[problems/ramsey_theory/E0554/_index|E0554/]]: Asks for a proof that
+$R_k(C_{2n+1})/R_k(K_3)\to0$ as $k\to\infty$ for every $n\ge2$, where $R_k$ is
+the $k$-color Ramsey number; open.
 
-[[problems/ramsey_theory/E0555/_index|E0555/]]: Determines the k-color Ramsey
-number of the even cycle on two n vertices.
+[[problems/ramsey_theory/E0555/_index|E0555/]]: Asks for the $k$-color Ramsey
+number $R_k(C_{2n})$ of the even cycle on $2n$ vertices; open.
 
-[[problems/ramsey_theory/E0556/_index|E0556/]]: Asks whether every 3-coloring of
-the edges of the complete graph on 4n - 3 vertices has a monochromatic cycle of
-length n, for every n > 3; the site's wording also includes the triangle, where
-it fails, and the bound is known for all large n.
+[[problems/ramsey_theory/E0556/_index|E0556/]]: Asks whether, for every $n>3$,
+every 3-coloring of the edges of $K_{4n-3}$ has a monochromatic cycle of length
+$n$; the bound is known for all large $n$, and the problem is open. The site's
+wording also includes the triangle, where it fails.
 
-[[problems/ramsey_theory/E0557/_index|E0557/]]: Asks whether the k-color Ramsey
-number of any tree on n vertices is at most k times n plus a bounded amount.
+[[problems/ramsey_theory/E0557/_index|E0557/]]: Asks whether $R_k(T)\le kn+O(1)$
+for every tree $T$ on $n$ vertices, where $R_k$ is the $k$-color Ramsey number;
+proved.
 
-[[problems/ramsey_theory/E0558/_index|E0558/]]: Determines the k-color Ramsey
-number of the complete bipartite graph with s vertices in one class and t in the
-other.
+[[problems/ramsey_theory/E0558/_index|E0558/]]: Asks for the $k$-color Ramsey
+number $R_k(K_{s,t})$ of the complete bipartite graph with $s$ vertices in one
+class and $t$ in the other; open.
 
-[[problems/ramsey_theory/E0559/_index|E0559/]]: Asks whether every graph on n
-vertices with bounded maximum degree has size Ramsey number linear in n; false
-already for maximum degree three.
+[[problems/ramsey_theory/E0559/_index|E0559/]]: Asks whether every graph $G$ on
+$n$ vertices with maximum degree $d$ has size Ramsey number $\hat{R}(G)\ll_d n$.
+It is false already for maximum degree $3$.
 
 [[problems/ramsey_theory/E0560/_index|E0560/]]: Asks for the size Ramsey number
-of the balanced complete bipartite graph with n vertices on each side; known
-between orders n squared times two to the n and n cubed times two to the n.
+of $K_{n,n}$, the complete bipartite graph with $n$ vertices on each side; open,
+with its order known to lie between $n^22^n$ and $n^32^n$.
 
-[[problems/ramsey_theory/E0561/_index|E0561/]]: Asks to prove the 1978 formula
-for the size Ramsey number of two star forests as a sum over diagonals of the
-largest star-size sums minus one; proved in special cases only.
+[[problems/ramsey_theory/E0561/_index|E0561/]]: Asks for a proof of the 1978
+formula $\hat{R}(F_1,F_2)=\sum_{2\le k\le s+t}l_k$, with
+$l_k=\max\{n_i+m_j-1:i+j=k\}$, for the star forests $F_1=\bigcup_{i\le
+s}K_{1,n_i}$ and $F_2=\bigcup_{j\le t}K_{1,m_j}$ with stars in decreasing order
+of size; proved in special cases only.
 
-[[problems/ramsey_theory/E0562/_index|E0562/]]: Estimates the Ramsey number for
-r-uniform hypergraphs, the fewest vertices forcing a monochromatic complete
-r-uniform subhypergraph on n vertices.
+[[problems/ramsey_theory/E0562/_index|E0562/]]: Asks for a proof that
+$\log_{r-1}R_r(n)\asymp_r n$ for $r\ge3$, where $R_r(n)$ is the two-color Ramsey
+number of the complete $r$-uniform hypergraph on $n$ vertices and $\log_{r-1}$
+is the $(r-1)$-fold iterated logarithm; open.
 
-[[problems/ramsey_theory/E0563/_index|E0563/]]: Determines the least size m such
-that some two-coloring of the complete graph on n vertices leaves every vertex
-set of size at least m rich in both colors.
+[[problems/ramsey_theory/E0563/_index|E0563/]]: Asks for a proof that
+$F(n,\alpha)\sim c_\alpha\log n$ for each $0\le\alpha<1/2$, where $F(n,\alpha)$
+is the least $m$ such that some two-coloring of $K_n$ gives every set $X$ of at
+least $m$ vertices more than $\alpha\binom{|X|}{2}$ edges of each color; open.
 
-[[problems/ramsey_theory/E0564/_index|E0564/]]: Estimates the Ramsey number for
-three-uniform hypergraphs, the fewest vertices forcing a monochromatic complete
-three-uniform subhypergraph on n vertices.
+[[problems/ramsey_theory/E0564/_index|E0564/]]: Asks whether
+$R_3(n)\ge2^{2^{cn}}$ for some $c>0$, where $R_3(n)$ is the two-color Ramsey
+number of the complete $3$-uniform hypergraph on $n$ vertices; open.
 
-[[problems/ramsey_theory/E0565/_index|E0565/]]: Bounds the induced Ramsey
-number, the fewest vertices of a host graph in which every two-coloring of the
-edges gives an induced monochromatic copy of a graph.
+[[problems/ramsey_theory/E0565/_index|E0565/]]: Asks whether $R^*(G)\le2^{O(n)}$
+for every graph $G$ on $n$ vertices, where the induced Ramsey number $R^*(G)$ is
+the fewest vertices of a graph in which every two-coloring of the edges gives an
+induced monochromatic copy of $G$; proved.
 
-[[problems/ramsey_theory/E0566/_index|E0566/]]: Asks whether a graph whose
-subgraphs on k at least 2 vertices have at most 2k-3 edges is Ramsey size
-linear; corrected from the site's wording, which no graph meets since one vertex
-exceeds the bound; open.
+[[problems/ramsey_theory/E0566/_index|E0566/]]: Asks whether every graph whose
+subgraphs on $k\ge2$ vertices have at most $2k-3$ edges is Ramsey size linear;
+open. This corrects the site's wording, which no graph meets, since a one-vertex
+subgraph exceeds the bound.
 
-[[problems/ramsey_theory/E0567/_index|E0567/]]: Asks whether the three-cube, the
-complete bipartite graph with three vertices per side, or the complete graph on
-four vertices with one edge subdivided is Ramsey size linear; open, with partial
-results.
+[[problems/ramsey_theory/E0567/_index|E0567/]]: Asks whether each of the cube
+$Q_3$, the graph $K_{3,3}$ and the graph $H_5$ ($K_4$ with one edge subdivided)
+is Ramsey size linear; open, with partial results.
 
-[[problems/ramsey_theory/E0568/_index|E0568/]]: Asks whether a graph with linear
-Ramsey numbers against trees and quadratic against complete graphs has Ramsey
-number linear in the edge count of every graph without isolated vertices.
+[[problems/ramsey_theory/E0568/_index|E0568/]]: Asks whether every graph $G$
+with $R(G,T_n)\ll n$ for all trees $T_n$ on $n$ vertices and $R(G,K_n)\ll n^2$
+satisfies $R(G,H)\ll m$ for every graph $H$ with $m$ edges and no isolated
+vertices; open.
 
-[[problems/ramsey_theory/E0569/_index|E0569/]]: Asks for the least constant c
-such that the Ramsey number of an odd cycle of length two k plus one against any
-m-edge graph without isolated vertices is at most c times m.
+[[problems/ramsey_theory/E0569/_index|E0569/]]: Asks for the least constant
+$c_k$ such that $R(C_{2k+1},H)\le c_km$ for every graph $H$ with $m$ edges and
+no isolated vertices. Open on the site, with a pending claim of an exact answer.
 
-[[problems/ramsey_theory/E0570/_index|E0570/]]: Asks whether, for each k at
-least three and sufficiently large m, the Ramsey number of a k-cycle against any
-m-edge graph without isolated vertices is at most two m plus the floor of half
-of (k minus one).
+[[problems/ramsey_theory/E0570/_index|E0570/]]: Asks whether, for each $k\ge3$
+and all sufficiently large $m$, every graph $H$ with $m$ edges and no isolated
+vertices has $R(C_k,H)\le 2m+\lfloor(k-1)/2\rfloor$; proved.
 
-[[problems/ramsey_theory/E0582/_index|E0582/]]: Asks whether there is a graph
-with no complete subgraph on four vertices in which every two-coloring of the
-edges produces a monochromatic triangle.
+[[problems/ramsey_theory/E0582/_index|E0582/]]: Asks whether some $K_4$-free
+graph has a monochromatic triangle in every 2-coloring of its edges; proved.
 
-[[problems/ramsey_theory/E0609/_index|E0609/]]: Estimates the least m such that
-n-coloring a complete graph on two to the n plus one vertices forces a
-monochromatic odd cycle of length at most m.
+[[problems/ramsey_theory/E0609/_index|E0609/]]: Asks for estimates of the least
+$m$ such that every $n$-coloring of the edges of $K_{2^n+1}$ has a monochromatic
+odd cycle of length at most $m$; open.
 
 [[problems/ramsey_theory/E0613/_index|E0613/]]: Asks whether every graph with
-one edge fewer than a conjectured size Ramsey number splits into a bipartite
-graph and a graph of maximum degree below n; disproved for every n at least five
-by Pikhurko's constructions.
+one edge fewer than a conjectured size Ramsey number is the union of a bipartite
+graph and a graph of maximum degree below $n$. Disproved for every $n\ge5$ by
+Pikhurko's constructions.
 
-[[problems/ramsey_theory/E0615/_index|E0615/]]: Asks whether a fixed saving
-below an eighth of n squared edges forces a graph on n vertices to contain a
-four-vertex clique or an independent set of n over log n vertices; disproved by
-Fox, Loh and Zhao.
+[[problems/ramsey_theory/E0615/_index|E0615/]]: Asks whether, for some constant
+$c>0$, every graph on $n$ vertices with at least $(1/8-c)n^2$ edges contains a
+$K_4$ or an independent set of $n/\log n$ vertices. Disproved by Fox, Loh and
+Zhao.
 
-[[problems/ramsey_theory/E0636/_index|E0636/]]: Asks whether a graph on n
+[[problems/ramsey_theory/E0636/_index|E0636/]]: Asks whether a graph on $n$
 vertices with no large clique or independent set has many induced subgraphs that
-pairwise differ in vertex count or edge count.
+pairwise differ in vertex count or edge count; proved.
 
-[[problems/ramsey_theory/E0637/_index|E0637/]]: Asks whether a graph on n
+[[problems/ramsey_theory/E0637/_index|E0637/]]: Asks whether a graph on $n$
 vertices with no large clique or independent set has an induced subgraph on many
-vertices realizing many distinct degrees.
+vertices with many distinct degrees; proved.
 
-[[problems/ramsey_theory/E0638/_index|E0638/]]: Asks whether a hereditary family
-of finite graphs forcing monochromatic triangles under every finite number of
-colors holds the finite subgraphs of a graph forcing them under any infinite
-cardinal; a disproof is claimed.
+[[problems/ramsey_theory/E0638/_index|E0638/]]: Asks whether a family of finite
+graphs closed under subgraphs, with members forcing a monochromatic triangle
+under each finite number of colors, must contain all finite subgraphs of some
+graph forcing one under $\aleph$ colors, for every infinite cardinal $\aleph$. A
+disproof is claimed.
 
-[[problems/ramsey_theory/E0639/_index|E0639/]]: Asks whether any two-coloring of
-the edges of K_n leaves at most n²/4 edges on no monochromatic triangle for
-large n, as Erdős stated it; proved by Keevash and Sudakov's exact theorem,
-while the site's wording fails for n from 3 to 6.
+[[problems/ramsey_theory/E0639/_index|E0639/]]: Asks whether, for large $n$,
+every 2-coloring of the edges of $K_n$ leaves at most $n^2/4$ edges in no
+monochromatic triangle, as Erdős stated it. Proved by Keevash and Sudakov's
+exact theorem, though the site's wording fails for $3\le n\le6$.
 
-[[problems/ramsey_theory/E0645/_index|E0645/]]: Asks whether every two-coloring
-of the positive integers has a monochromatic three-term progression whose
-difference exceeds its first term; proved by Brown and Landman in 1999, with an
-elementary argument recorded by the site.
+[[problems/ramsey_theory/E0645/_index|E0645/]]: Asks whether every 2-coloring of
+the positive integers has a monochromatic progression $x,x+d,x+2d$ with $d>x$.
+Proved by Brown and Landman in 1999, and the site also records an elementary
+argument.
 
-[[problems/ramsey_theory/E0667/_index|E0667/]]: Asks whether the exponent
-governing the largest clique forced when every p vertices span at least q edges
-is strictly increasing in q; open, with the 1997 source's endpoint bounds and a
-disputed upper bound at the top.
+[[problems/ramsey_theory/E0667/_index|E0667/]]: Asks whether $c(p,q)$, the
+growth exponent of the largest clique forced when every $p$ vertices span at
+least $q$ edges, is strictly increasing in $q$. Open; the 1997 source gives
+bounds at the endpoints and a disputed upper bound near the top.
 
 [[problems/ramsey_theory/E0720/_index|E0720/]]: Asks whether the size Ramsey
-number of the path grows faster than linearly but slower than quadratically, and
-whether that of the cycle is subquadratic; both are linear, so the first answer
-is no and the others yes.
+number of the path $P_n$ grows faster than $n$ but slower than $n^2$, and
+whether that of the cycle $C_n$ is $o(n^2)$. Both are linear, so the first
+answer is no and the other two are yes.
 
-[[problems/ramsey_theory/E0721/_index|E0721/]]: Bounds the least n such that
-every red-blue coloring of 1 up to n has a red three-term progression or a blue
-k-term one; Green, Hunter and Schoen meet the two explicit challenges while the
-order of magnitude stays open.
+[[problems/ramsey_theory/E0721/_index|E0721/]]: Asks for bounds on $W(3,k)$, the
+least $n$ such that every red/blue coloring of $\{1,\ldots,n\}$ has a red 3-term
+progression or a blue $k$-term one. Green, Hunter and Schoen meet the two
+explicit challenges, but the order of magnitude remains open.
 
-[[problems/ramsey_theory/E0800/_index|E0800/]]: Asks whether every graph on n
-vertices with no two adjacent vertices both of degree at least three has Ramsey
-number at most a constant times n.
+[[problems/ramsey_theory/E0800/_index|E0800/]]: Asks whether every graph $G$ on
+$n$ vertices with no two adjacent vertices both of degree at least 3 has $R(G)$
+at most an absolute constant times $n$; proved.
 
-[[problems/ramsey_theory/E0801/_index|E0801/]]: Asks whether a graph on n
-vertices with no independent set larger than the square root of n has a set of
-that many vertices spanning many more edges.
+[[problems/ramsey_theory/E0801/_index|E0801/]]: Asks whether every graph on $n$
+vertices with no independent set of more than $\sqrt n$ vertices has a set of at
+most $\sqrt n$ vertices spanning $\gg\sqrt n\log n$ edges; proved.
 
-[[problems/ramsey_theory/E0809/_index|E0809/]]: Asks whether the fewest colors
-making every odd cycle of length 2k+1 rainbow on some n-vertex graph one edge
-past the Turán number is asymptotically n squared over eight for all k at least
-3; proved by two Lean developments built and audited here, Asad Shahab's, filed
-first, and the project's claim L17.
+[[problems/ramsey_theory/E0809/_index|E0809/]]: Asks whether, for every $k\ge3$,
+the fewest colors that make every $C_{2k+1}$ rainbow in some $n$-vertex graph
+with $\lfloor n^2/4\rfloor+1$ edges is asymptotically $n^2/8$. Proved by two
+Lean developments built and audited here: Asad Shahab's, filed first, and the
+project's claim L17.
 
-[[problems/ramsey_theory/E0810/_index|E0810/]]: Asks whether some graph on n
-vertices with a positive fraction of all possible edges can be edge-colored with
-n colors so that every four-cycle gets four distinct colors.
+[[problems/ramsey_theory/E0810/_index|E0810/]]: Asks whether there is an
+$\epsilon>0$ such that, for all large $n$, some graph on $n$ vertices with at
+least $\epsilon n^2$ edges can be edge-colored with $n$ colors so that every
+$C_4$ gets four distinct colors; open.
 
-[[problems/ramsey_theory/E0811/_index|E0811/]]: Asks which graphs are forced as
-rainbow copies in every balanced coloring of a large complete graph with as many
-colors as the graph has edges, where each vertex sees equally many edges of
-every color.
+[[problems/ramsey_theory/E0811/_index|E0811/]]: Asks for which graphs $G$ every
+balanced coloring of a large $K_n$ with $e(G)$ colors, in which each vertex sees
+equally many edges of every color, contains a rainbow copy of $G$; open.
 
 [[problems/ramsey_theory/E0812/_index|E0812/]]: Asks whether consecutive
-diagonal Ramsey numbers grow by at least a constant factor, and whether their
-difference is at least a constant times n squared.
+diagonal Ramsey numbers satisfy $R(n+1)/R(n)\ge1+c$ for a constant $c>0$, and
+whether $R(n+1)-R(n)\gg n^2$; open.
 
-[[problems/ramsey_theory/E0894/_index|E0894/]]: Asks whether the integers can be
-finitely colored with no two of one color differing by a term of a given
-lacunary sequence; proved, with Peres and Schlag's bound of order (1/epsilon)
-log(1/epsilon) colors as the best known.
+[[problems/ramsey_theory/E0894/_index|E0894/]]: Asks whether, for a lacunary
+sequence $A$, the integers can be finitely colored so that no two numbers of the
+same color differ by an element of $A$. Proved, and Peres and Schlag's bound of
+order $\epsilon^{-1}\log(1/\epsilon)$ colors is the best known.
 
 [[problems/ramsey_theory/E0911/_index|E0911/]]: Asks whether the size Ramsey
-number of every graph with n vertices and at least Cn edges exceeds the edge
-count by a factor growing faster than linearly in C; open, with no result found
-beyond Erdős's 1982 statement.
+number of every graph with $n$ vertices and $e\ge Cn$ edges exceeds $f(C)e$ for
+some $f$ growing faster than linearly. Open, with no result found beyond Erdős's
+1982 statement.
 
-[[problems/ramsey_theory/E0924/_index|E0924/]]: Asks whether, for k at least 2
-and l at least 3, some graph with no clique on l plus 1 vertices forces a
-monochromatic l-clique in every k-edge-coloring; true, by Folkman for two colors
-and by Nešetřil and Rödl for every k.
+[[problems/ramsey_theory/E0924/_index|E0924/]]: Asks whether, for $k\ge2$ and
+$l\ge3$, some $K_{l+1}$-free graph has a monochromatic $K_l$ in every
+$k$-coloring of its edges. True, by Folkman for two colors and by Nešetřil and
+Rödl for every $k$.
 
-[[problems/ramsey_theory/E0925/_index|E0925/]]: Asks whether every n-vertex
+[[problems/ramsey_theory/E0925/_index|E0925/]]: Asks whether every $n$-vertex
 graph whose edges can be 2-colored with no monochromatic triangle has an
-independent set above the cube root of n by a power; disproved through the
-Alon–Rödl bound on R(3,3,m).
+independent set of size $\gg n^{1/3+\delta}$ for some fixed $\delta>0$.
+Disproved through the Alon–Rödl bound on $R(3,3,m)$.
 
-[[problems/ramsey_theory/E0948/_index|E0948/]]: Asks whether some bound and some
-number of colors force, in every coloring of the integers, a slowly growing
-sequence whose subset sums miss a color; no, by a 2026 AI-generated coloring
-accepted by the site after review.
+[[problems/ramsey_theory/E0948/_index|E0948/]]: Asks whether there are $f$ and
+$k$ such that every $k$-coloring of the integers has a sequence $a_1<a_2<\cdots$
+with $a_n<f(n)$ for infinitely many $n$ whose finite subset sums miss a color.
+No, by a 2026 AI-generated coloring that the site accepted after review.
 
 [[problems/ramsey_theory/E0949/_index|E0949/]]: Asks whether the complement of
-any sum-free set of reals contains a set of size continuum whose pairwise sums
-also avoid it; open; AlphaProof's Lean proof of the Sidon case is a pending
-claim and a thread comment argues the Baire case.
+every sum-free set $S\subseteq\mathbb R$ contains a set $A$ of size continuum
+with $A+A$ also outside $S$. Open, with AlphaProof's Lean proof of the Sidon
+case pending as a claim and a thread comment arguing the Baire case.
 
-[[problems/ramsey_theory/E0965/_index|E0965/]]: Asks whether every two-coloring
-of the reals admits a set of size aleph one whose sums of two distinct elements
-share one color; false in ZFC by Komjáth and by Soukup and Weiss, after a CH
-proof by Hindman, Leader and Strauss.
+[[problems/ramsey_theory/E0965/_index|E0965/]]: Asks whether every 2-coloring of
+$\mathbb R$ admits a set of size $\aleph_1$ whose sums of two distinct elements
+all have one color. False in ZFC, by Komjáth and by Soukup and Weiss, after
+Hindman, Leader and Strauss showed it false under CH.
 
-[[problems/ramsey_theory/E0966/_index|E0966/]]: Asks whether, for k and r at
-least two, some set with no arithmetic progression of length k plus one has a
-monochromatic k-term one in every r-coloring; true, by Spencer's 1975 restricted
-van der Waerden theorem.
+[[problems/ramsey_theory/E0966/_index|E0966/]]: Asks whether, for $k,r\ge2$,
+some set $A\subseteq\mathbb N$ with no $(k+1)$-term arithmetic progression has a
+monochromatic $k$-term one in every $r$-coloring. True, by Spencer's 1975
+restricted van der Waerden theorem.
 
-[[problems/ramsey_theory/E0986/_index|E0986/]]: Asks whether, for fixed s at
-least three, the Ramsey number of s against k is at least k to the s minus one
-over a power of log k.
+[[problems/ramsey_theory/E0986/_index|E0986/]]: Asks whether, for each fixed
+$s\ge3$, $R(s,k)\gg k^{s-1}/(\log k)^c$ for some constant $c=c(s)>0$; proved.
 
-[[problems/ramsey_theory/E1014/_index|E1014/]]: Asks whether, for each fixed k,
-the ratio of consecutive off-diagonal Ramsey numbers R(k,l+1)/R(k,l) tends to
-one; answered yes by a 2026 manuscript hosted by OpenAI, attributed to an
-internal model and accepted by the site.
+[[problems/ramsey_theory/E1014/_index|E1014/]]: Asks whether, for each fixed
+$k$, the ratio $R(k,l+1)/R(k,l)$ of consecutive off-diagonal Ramsey numbers
+tends to $1$. Answered yes by a 2026 manuscript hosted by OpenAI, attributed to
+an internal model and accepted by the site.
 
-[[problems/ramsey_theory/E1015/_index|E1015/]]: The most vertices a two-colored
-complete graph can force to be left over when it is covered by disjoint
-monochromatic copies of K_t; Burr, Erdős and Spencer determine it for fixed t
-and large n in terms of R(t,t−1), so it grows exponentially.
+[[problems/ramsey_theory/E1015/_index|E1015/]]: Asks for the largest number of
+vertices that a two-colored complete graph can force to be left over when it is
+covered by disjoint monochromatic copies of $K_t$. Burr, Erdős and Spencer
+determined it for fixed $t$ and large $n$ in terms of $R(t,t-1)$, so it grows
+exponentially.
 
-[[problems/ramsey_theory/E1029/_index|E1029/]]: Asks whether the Ramsey number
-for a complete graph on k vertices, divided by k times two to the k over two,
-tends to infinity.
+[[problems/ramsey_theory/E1029/_index|E1029/]]: Asks whether
+$R(k)/(k2^{k/2})\to\infty$, where $R(k)$ is the Ramsey number of the complete
+graph $K_k$. It is open.
 
 [[problems/ramsey_theory/E1030/_index|E1030/]]: Asks whether the off-diagonal
-Ramsey number R(k+1,k) exceeds the diagonal number R(k,k) by a constant factor
-in the limit.
+Ramsey number $R(k+1,k)$ exceeds the diagonal number $R(k,k)$ by a constant
+factor in the limit. It is open.
 
 [[problems/ramsey_theory/E1105/_index|E1105/]]: Asks for the anti-Ramsey numbers
-of cycles and paths, the most colors on the edges of the complete graph on n
-vertices without a rainbow copy: an asymptotic formula for cycles and an exact
-formula for paths.
+of cycles and paths, the most colors on the edges of $K_n$ without a rainbow
+copy. It proposes an asymptotic formula for cycles and an exact formula for
+paths, and both are proved.
 
-[[problems/ramsey_theory/E1182/_index|E1182/]]: Estimates the largest edge
-counts for connected graphs on n vertices whose Ramsey number against a triangle
-equals two n minus one; a 1996 preprint claims a linear threshold for all such
-graphs, a no to the closing question.
+[[problems/ramsey_theory/E1182/_index|E1182/]]: Asks to estimate the largest
+edge counts of connected graphs $G$ on $n$ vertices with $R(K_3,G)=2n-1$. A 1996
+preprint claims a linear threshold for all such graphs, a negative answer to the
+closing question.
 
-[[problems/ramsey_theory/E1183/_index|E1183/]]: Estimates how large a
-monochromatic family closed under unions and intersections must exist in every
-two-coloring of the subsets of the first n integers; open, with nothing beyond
-the trivial chain bound proved.
+[[problems/ramsey_theory/E1183/_index|E1183/]]: Asks to estimate the size of the
+largest monochromatic family closed under unions and intersections that every
+two-coloring of the subsets of $\{1,\ldots,n\}$ must contain. It is open, and
+nothing beyond the trivial chain bound is proved.
 
 [[problems/ramsey_theory/E1198/_index|E1198/]]: Asks whether every two-coloring
-of the natural numbers admits an infinite set all of whose sums of products of
-distinct members share one color; no, by a 1995 theorem of Smith, as the site's
-thread deduced in 2026.
+of $\mathbb{N}$ admits an infinite set all of whose sums of products of distinct
+members share one color. The answer is no, by a 1995 theorem of Smith, as the
+site's thread deduced in 2026.
 
 [[problems/ramsey_theory/E1199/_index|E1199/]]: Asks whether every two-coloring
-of the natural numbers admits an infinite set whose pairwise sums, doubles
-included, share one color (Owings's question); open on the site, false for three
-colors, claimed for two.
+of $\mathbb{N}$ admits an infinite set whose pairwise sums, doubles included,
+share one color (Owings's question). The site lists it as open, the analogue for
+three colors is false, and a proof for two colors is claimed.
 
 [[problems/ramsey_theory/E1211/_index|E1211/]]: Asks how large the larger upper
-logarithmic density of the two subset-sum sets must be when the natural numbers
-are split into two classes; Conlon, Fox and Pham determined the minimum as (2 +
-sqrt 3)/4.
+logarithmic density of the two subset-sum sets must be when $\mathbb{N}$ is
+split into two classes. Conlon, Fox and Pham showed that the minimum is
+$(2+\sqrt3)/4$.
 
-[[problems/ramsey_theory/E1216/_index|E1216/]]: Estimates the largest transitive
-subtournament every tournament on n vertices must contain; floor(log_2 n) + 1
-first fails at n = 14 and fails for infinitely many n; f is known exactly for n
-<= 33 and 47 <= n <= 56.
+[[problems/ramsey_theory/E1216/_index|E1216/]]: Asks whether the largest
+transitive subtournament that every tournament on $n$ vertices must contain has
+$\lfloor\log_2 n\rfloor+1$ vertices. This first fails at $n=14$ and fails for
+infinitely many $n$, and the exact value is known for $n\le33$ and $47\le
+n\le56$.
 
 ***
 

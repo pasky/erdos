@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 48, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T10:44:32Z
-updated: 2026-10-07T12:03:40Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/arithmetic_functions/E0048/claims
@@ -12,11 +12,13 @@ updated: 2026-10-07T12:03:40Z
 [[problems/arithmetic_functions/E0048/_index|..]]
 
 [[problems/arithmetic_functions/E0048/claims/2009_06_18_ford_luca_pomerance|2009_06_18_ford_luca_pomerance]]: Ford, Luca and Pomerance prove that Euler's totient and the sum of divisors
-take infinitely many common values, with at least exp((log log x)^alpha) of
-them up to x; refereed in the Bulletin of the London Mathematical Society.
+take infinitely many common values, with at least $\exp((\log\log x)^\alpha)$
+of them up to $x$. The result appeared in a refereed paper in the Bulletin of
+the London Mathematical Society.
 
-[[problems/arithmetic_functions/E0048/claims/2011_01_01_garaev|2011_01_01_garaev]]: Garaev proves that for every A there are at least exp((log log x)^A) common
-values of Euler's totient and the sum of divisors up to x, which answers the
-question; refereed in the Moscow Journal of Combinatorics and Number Theory.
+[[problems/arithmetic_functions/E0048/claims/2011_01_01_garaev|2011_01_01_garaev]]: Garaev proves that for every $A$ there are at least $\exp((\log\log x)^A)$
+common values of Euler's totient and the sum of divisors up to $x$, which
+answers the question. The result appeared in a refereed paper in the Moscow
+Journal of Combinatorics and Number Theory.
 
 ***

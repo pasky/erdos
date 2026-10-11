@@ -2,9 +2,10 @@
 name: problems/set_theory/E1119/claims/2023_10_30_schilhan_weinert
 title: Schilhan and Weinert's Wetzel family of size aleph two
 desc: |
-  Forces, over a model of GCH, aleph two entire functions taking at most
-  aleph one values at each point while the continuum is aleph two, so a no
-  answer is consistent; with Kumar and Shelah's model, independence of ZFC.
+  Schilhan and Weinert force, over a model of GCH, $\aleph_2$ entire functions
+  taking at most $\aleph_1$ values at each point while $\mathfrak c=\aleph_2$,
+  so a no answer is consistent. With Kumar and Shelah's model, the problem is
+  independent of ZFC.
 authors:
 - Jonathan Schilhan
 - Thilo Weinert
@@ -80,21 +81,23 @@ left open, whether a Wetzel family is consistent with $\mathfrak c=\aleph_2$.
 The proof is not reconstructed on this page.
 
 **Acceptance.** The result appeared in a refereed journal, the *Journal of the
-London Mathematical Society*, in 2024, the `refereed` evidence; the statements
-are those of the arXiv preprint, not compared with the published version. The
-site's curator, Thomas Bloom, marks the problem INDEPENDENT and records in the
-commentary that the question is undecidable when $\mathfrak m^+=\mathfrak c$,
-crediting Kumar and Shelah with the model where the answer is yes and Schilhan
-and Weinert with the model where it is no: that curator credit is the `reviewed`
-evidence. The `independent` claim value combines this page's theorem with the
-linked Kumar--Shelah page; the paper itself claims only the consistency of a
-negative answer. The
-[formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/17d2cec2f5bec8eede237a146ac893375daf4faf/FormalConjectures/ErdosProblems/1119.lean)
-for the problem, at the commit linked, holds statements only, every research
-declaration with a `sorry` body; its easy-case declaration points to an outside
-Lean proof of the case $\mathfrak m^+<\mathfrak c$ in Boris Alexeev's
-lean-proofs repository, whose header names Erdős as the informal author and
-Codex and GPT-5.6 Sol as the formal authors. Neither formalizes this result: the
-easy-case proof is the formalization link on
+London Mathematical Society*, in 2024. This is the `refereed` evidence. The
+statements are those of the arXiv preprint, which were not compared with the
+published version. The site's curator, Thomas Bloom, marks the problem
+INDEPENDENT. The commentary records that the question is undecidable when
+$\mathfrak m^+=\mathfrak c$. It credits Kumar and Shelah with the model where
+the answer is yes, and Schilhan and Weinert with the model where it is no. That
+curator credit is the `reviewed` evidence. The `independent` claim value
+combines this page's theorem with the linked Kumar--Shelah page. The paper
+itself claims only the consistency of a negative answer. The [formal-conjectures
+statement
+file](https://github.com/google-deepmind/formal-conjectures/blob/17d2cec2f5bec8eede237a146ac893375daf4faf/FormalConjectures/ErdosProblems/1119.lean)
+for the problem, at the commit linked, holds statements only. Every research
+declaration in it has a `sorry` body. Its easy-case declaration points to an
+outside Lean proof of the case $\mathfrak m^+<\mathfrak c$ in Boris Alexeev's
+lean-proofs repository. The header of that proof names Erdős as the informal
+author and Codex and GPT-5.6 Sol as the formal authors. Neither the statement
+file nor that proof formalizes this result. The easy-case proof is the
+formalization link on
 [[problems/set_theory/E1119/claims/1964_03_01_erdos|Erdős's page]], and this
 page lists no `formalized` evidence.

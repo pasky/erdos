@@ -2,9 +2,10 @@
 name: problems/diophantine_problems/E0363/claims/2007_01_01_bauer_bennett
 title: Bauer and Bennett's infinite families for three and five blocks of four
 desc: |
-  Disproves the finiteness question with infinitely many collections of n
-  disjoint blocks of four consecutive integers with square product for every
-  n at least three, completing the cases Ulas left; refereed in 2007.
+  Bauer and Bennett, in a paper refereed in 2007, disprove the finiteness
+  question with infinitely many collections of $n$ disjoint blocks of four
+  consecutive integers with square product, for every $n\ge3$. This completes
+  the cases Ulas left.
 authors:
 - Mark Bauer
 - Michael A. Bennett
@@ -59,12 +60,12 @@ disproves the statement on its own.
 of integral points on the hypersurfaces defined by the product equation,
 extending the polynomial identities Ulas used.
 
-**Acceptance.** The result appeared in a refereed journal in 2007, the
-`refereed` evidence. The site's curator, Thomas Bloom, credits Bauer and
-Bennett in the problem's commentary with the cases $n=3$ and $n=5$ of
-blocks of four: that curator credit is the `reviewed` evidence. Bennett and
-Van Luijk's 2012 paper
+**Acceptance.** The result appeared in a refereed journal in 2007, which is the
+`refereed` evidence. The site's curator, Thomas Bloom, credits Bauer and Bennett
+in the problem's commentary with the cases $n=3$ and $n=5$ of blocks of four.
+That curator credit is the `reviewed` evidence. Bennett and Van Luijk's 2012
+paper
 ([[../library/diophantine_problems/bennett_2012_squares_blocks_consecutive_integers_problem_erdos/_index|card]])
-builds on the method, but as the second author's own later work it is not
-independent review. Ulas's earlier disproof is
+builds on the method. It is the second author's own later work, so it is not
+independent review. Ulas's earlier disproof is on
 [[problems/diophantine_problems/E0363/claims/2005_01_01_ulas|his own claim page]].

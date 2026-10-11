@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0199/claims/1975_03_01_baumgartner
 title: Baumgartner's progression-hitting set without three-term progressions
 desc: |
-  In every vector space over the rationals, so in the reals, there is a set
-  with no three-term arithmetic progression that meets every infinite
-  arithmetic progression; its complement contains none, answering no.
+  Baumgartner showed that every vector space over the rationals, and so the
+  reals, contains a set with no three-term arithmetic progression that meets
+  every infinite arithmetic progression. Its complement contains no infinite
+  progression, so the answer is no.
 authors:
 - James E. Baumgartner
 status: accepted
@@ -51,18 +52,17 @@ of the
 [[../library/additive_combinatorics/baumgartner_1975_partitioning_vector_spaces/_index|source card]].
 
 **Acceptance.** Refereed: the Journal of Combinatorial Theory, Series A, is a
-refereed journal. Reviewed: Erdős and Graham's 1979 survey reports
-Baumgartner's answer to Erdős's question without the continuum hypothesis
-(P. Erdős and R. L. Graham, Old and new problems and results in
-combinatorial number theory: van der Waerden's theorem and related topics,
-L'Enseignement Math. (2) 25 (1979), 325–344, printed p. 339; the
+refereed journal. Reviewed: Erdős and Graham's 1979 survey reports Baumgartner's
+answer to Erdős's question without the continuum hypothesis (P. Erdős and R. L.
+Graham, Old and new problems and results in combinatorial number theory: van der
+Waerden's theorem and related topics, L'Enseignement Math. (2) 25 (1979),
+325–344, printed p. 339). The
 [[../library/additive_combinatorics/erdos_1979_old_new_problems_results_combinatorial_number/_index|survey's card]]
-holds no file and records this passage in its Bears-on paragraph), and the site's
-curator, Thomas
-Bloom, labels the problem disproved on erdosproblems.com and credits
-Baumgartner with showing that the answer is no. The source card's own
-reconstruction and reported review warrant nothing; the acceptance rests
-on the publication and on these two outside records.
+holds no file and records this passage in its Bears-on paragraph. The site's
+curator, Thomas Bloom, also labels the problem disproved on erdosproblems.com
+and credits Baumgartner with showing that the answer is no. The source card's
+own reconstruction and reported review warrant nothing. The acceptance rests on
+the publication and on these two outside records.
 
 **Formalization.** The site's label carries a Lean mark. It refers to a Lean 4
 formalization of Baumgartner's paper, except its closing remark on the

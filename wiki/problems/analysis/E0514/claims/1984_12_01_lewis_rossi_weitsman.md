@@ -2,9 +2,10 @@
 name: problems/analysis/E0514/claims/1984_12_01_lewis_rossi_weitsman
 title: "Lewis, Rossi and Weitsman: a path on which f outgrows every power"
 desc: |
-  Lewis, Rossi and Weitsman's path theorem for subharmonic functions, applied
-  to log|f|, gives every transcendental entire f a path to infinity on which
-  log|f(z)|/log|z| tends to infinity; refereed in Ark. Mat.
+  Lewis, Rossi and Weitsman's path theorem for subharmonic functions, applied to
+  $\log\lvert f\rvert$, gives every transcendental entire $f$ a path to infinity
+  on which $\log\lvert f(z)\rvert/\log\lvert z\rvert\to\infty$. Their paper in
+  Ark. Mat. is refereed.
 authors:
 - John Lewis
 - John Rossi
@@ -73,10 +74,10 @@ the growth of $f$ along the path in terms of $M(r)$.
 **Depends on.** Nothing in this wiki: the argument is the paper's own, and
 the specialization to $u=\log\lvert f\rvert$ is immediate.
 
-**Acceptance.** Refereed: the paper appeared in Arkiv för Matematik, a
-refereed journal. The site labels the problem OPEN and credits Boas,
-unpublished, with the first question; it does not credit this paper, so
-the page lists no `reviewed` evidence.
+**Acceptance.** Refereed: the paper appeared in Arkiv för Matematik, a refereed
+journal. The site labels the problem OPEN and credits Boas, unpublished, with
+the first question. It does not credit this paper, so the page lists no
+`reviewed` evidence.
 
 **Dating.** The page is dated by the issue month in the publisher's record
 (Crossref), December 1984; the day is a placeholder.

@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E1140/claims/2010_01_01_epure_gica
 title: Only finitely many n make n - 2x^2 prime whenever 2x^2 < n
 desc: |
-  Epure and Gica show, with a class-number-one result of Mollin and Williams,
-  that at most nine integers n have n - 2x^2 prime for every x with 2x^2 < n,
-  so the answer to the question is no.
+  Using a class-number-one result of Mollin and Williams, Epure and Gica show
+  that at most nine integers $n$ have $n-2x^2$ prime for every $x$ with
+  $2x^2<n$. So the answer to the question is no.
 authors:
 - Mihai Epure
 - Alexandru Gica
@@ -70,12 +70,12 @@ site accepts.
 
 **Acceptance.** Refereed: Bull. Math. Soc. Sci. Math. Roumanie 53(101), no. 3
 (2010). Reviewed: the site's curator, Thomas Bloom, labels the problem
-disproved and credits Theorem 4.1 of Epure and Gica for the residue class
-$1\pmod 4$ and their remark with the Mollin–Williams result for the class
-$3\pmod 4$ (problem page last edited 2026-01-26; the community database
-records the disproved status from 2026-01-24). A forum comment of 2026-01-24
-brought the paper to the thread. No Lean formalization of the result is
-recorded, and this corpus has not independently verified the proof.
+disproved. The curator credits Theorem 4.1 of Epure and Gica for the residue
+class $1\pmod 4$, and their remark with the Mollin–Williams result for the class
+$3\pmod 4$. The problem page was last edited 2026-01-26, and the community
+database records the disproved status from 2026-01-24. A forum comment of
+2026-01-24 brought the paper to the thread. No Lean formalization of the result
+is recorded, and this corpus has not independently verified the proof.
 
 **Depends on.** No page of this wiki; the result rests on the two cited
 papers.

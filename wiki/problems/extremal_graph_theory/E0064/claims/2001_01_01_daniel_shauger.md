@@ -3,8 +3,8 @@ name: problems/extremal_graph_theory/E0064/claims/2001_01_01_daniel_shauger
 title: Daniel and Shauger's planar claw-free graphs
 desc: |
   Daniel and Shauger (Congressus Numerantium 2001) prove the conjecture for
-  planar claw-free graphs, using results of Dean and of Dean, Lesniak and
-  Saito; a proceedings paper.
+  planar claw-free graphs, using results of Dean and of Dean, Lesniak and Saito.
+  It is a proceedings paper.
 authors:
 - Dale Daniel
 - Stephen E. Shauger

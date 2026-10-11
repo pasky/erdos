@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0540/claims/1969_05_15_szemeredi
 title: Szemerédi's zero-sum theorem for abelian groups
 desc: |
-  Szemerédi's theorem (Acta Arith., 1970) that in every abelian group of order
-  n, any c times the square root of n elements have a nonempty zero-sum
-  subset; refereed, acknowledged by Erdős and accepted by the site.
+  Szemerédi's theorem (Acta Arith., 1970) states that in every abelian group of
+  order $n$, any $c\sqrt n$ elements have a nonempty zero-sum subset. It is
+  refereed, acknowledged by Erdős and accepted by the site.
 authors:
 - E. Szemerédi
 status: accepted
@@ -55,17 +55,18 @@ and
 
 **Acceptance.** Refereed: the journal publication cited above. Reviewed: the
 site's curator, Thomas Bloom, who is independent of the author, accepts the
-theorem as the proof of the conjecture of Erdős and Heilbronn, with the label
-PROVED (LEAN) and a commentary attributing the general case to this paper and
-the prime case to Olson (1968); Erdős acknowledged the proof in his 1973 survey
-and, with Graham, in the 1980 monograph. The formalization link is the external
-Lean file that the formal-conjectures statement names as its proof, at the
-repository head of 15 September 2026; it names Szemerédi as the informal author
-and the prover Aristotle (Harmonic) and Matteo Del Vecchio as the formal
-authors, proves the problem's statement with the constant $10000$ with the axiom
-closure its closing comment records as `propext`, `Classical.choice` and
-`Quot.sound`; the corpus has not built or independently audited it, so it is not
-acceptance evidence.
+theorem as the proof of the conjecture of Erdős and Heilbronn. He gives the
+problem the label PROVED (LEAN). His commentary attributes the general case to
+this paper and the prime case to Olson (1968). Erdős acknowledged the proof in
+his 1973 survey and, with Graham, in the 1980 monograph.
+
+The formalization link is the external Lean file that the formal-conjectures
+statement names as its proof, at the repository head of 15 September 2026. The
+file names Szemerédi as the informal author, and the prover Aristotle (Harmonic)
+and Matteo Del Vecchio as the formal authors. It proves the problem's statement
+with the constant $10000$. Its closing comment records the axiom closure as
+`propext`, `Classical.choice` and `Quot.sound`. The corpus has not built or
+independently audited it, so it is not acceptance evidence.
 
 **Depends on.** Nothing in this wiki: the theorem is proved within the
 paper, whose card is linked above.

@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0937
 title: Problem 937
 desc: |
-  Asks whether there are infinitely many four-term arithmetic progressions
-  made of pairwise coprime powerful numbers.
+  Asks whether there are infinitely many four-term arithmetic progressions of
+  pairwise coprime powerful numbers; proved.
 tags:
 - Number theory
 - Powerful numbers

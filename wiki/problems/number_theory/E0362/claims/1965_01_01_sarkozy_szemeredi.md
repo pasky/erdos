@@ -2,9 +2,10 @@
 name: problems/number_theory/E0362/claims/1965_01_01_sarkozy_szemeredi
 title: Sárközy and Szemerédi's bound on equal subset sums
 desc: |
-  The Satz of Sárközy and Szemerédi: for n distinct positive reals and large
-  n, no value is a subset sum in more than (1 + epsilon)(8/sqrt pi) 2^n/n^1.5
-  ways; the affirmative answer to the first question of Problem 362.
+  The Satz of Sárközy and Szemerédi: for $n$ distinct positive reals and large
+  $n$, no value is a subset sum in more than
+  $(1+\varepsilon)\frac8{\sqrt\pi}\cdot\frac{2^n}{n^{3/2}}$ ways. This is the
+  affirmative answer to the first question of Problem 362.
 authors:
 - A. Sárközy
 - E. Szemerédi
@@ -88,14 +89,14 @@ pinned commit. This project has not built the file or audited its statement
 against the problem, so it supplies no `formalized` evidence; the site's label
 PROVED (LEAN) refers to this development.
 
-**Acceptance.** The paper is refereed: A. Sárközy and E. Szemerédi, *Über
-ein Problem von Erdös und Moser*, Acta Arith. 11, no. 2 (1965), 205--208,
-received 26 November 1964; the paper prints the first author as Sárközy,
-while the site's key and Erdős's 1973 survey write Sárközi. Erdős's surveys of 1973 and 1980 report the theorem
-as the proof of his conjecture with Moser. The site's curator, Thomas F.
-Bloom, marks Problem 362 proved and credits this paper with the affirmative
-answer to the first question. The page is dated by the first day of the
-publication year, since the paper's first posting carries no finer date.
+**Acceptance.** The paper is refereed: A. Sárközy and E. Szemerédi, *Über ein
+Problem von Erdös und Moser*, Acta Arith. 11, no. 2 (1965), 205--208, received
+26 November 1964. The paper prints the first author as Sárközy, while the site's
+key and Erdős's 1973 survey write Sárközi. Erdős's surveys of 1973 and 1980
+report the theorem as the proof of his conjecture with Moser. The site's
+curator, Thomas F. Bloom, marks Problem 362 proved and credits this paper with
+the affirmative answer to the first question. The page is dated by the first day
+of the publication year, since the paper's first posting carries no finer date.
 
 **Depends on.**
 [[../library/number_theory/sarkozi_1965_uber_ein_problem_von_erdos_und/satz|Sárközi and Szemerédi 1965, the Satz]].

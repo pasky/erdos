@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0607
 title: Problem 607
 desc: |
-  Asks whether the number of distinct sets of line sizes determined by n points
-  in the plane is at most exp(O(sqrt n)).
+  Asks whether the number of distinct sets of line sizes determined by $n$
+  points in the plane is at most $\exp(O(\sqrt{n}))$; proved.
 tags:
 - Geometry
 status: solved
@@ -31,8 +31,8 @@ $$
 F(n) \leq \exp(O(\sqrt{n}))?
 $$
 
-**Status.** Proved, by Szemerédi and Trotter [SzTr83], whom the site
-credits; the accepted claim is
+**Status.** Proved, by Szemerédi and Trotter [SzTr83], whom the site credits.
+The accepted claim is
 [[problems/discrete_geometry/E0607/claims/1983_09_01_szemeredi_trotter|Szemerédi–Trotter 1983]].
 
 **Source.** [erdosproblems.com/607](https://www.erdosproblems.com/607), accessed

@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0707/claims/2025_10_22_alexeev_mixon
 title: Alexeev and Mixon's non-extendable Sidon sets
 desc: |
-  The Sidon set 1, 2, 4, 8 extends to no perfect difference set modulo p^2+p+1
-  with p prime, and 1, 2, 4, 8, 13 to none modulo any v, disproving the prize
-  conjecture; the authors verified both in Lean.
+  Alexeev and Mixon show that the Sidon set $\{1,2,4,8\}$ extends to no perfect
+  difference set modulo $p^2+p+1$ with $p$ prime, and $\{1,2,4,8,13\}$ to none
+  modulo any $v$, disproving the prize conjecture. They verified both results in
+  Lean.
 authors:
 - Boris Alexeev
 - Dustin G. Mixon
@@ -71,10 +72,10 @@ $3\leq s\leq 5$. The site's problem page records a MathOverflow argument of
 Sawin that every Sidon set of size $3$ extends; its remarks (last edited
 2025-10-26) record size $4$ as open.
 
-**Acceptance.** The site's curator, T. F. Bloom, records the disproof on the
-problem page (last edited 2025-10-26) under the label DISPROVED (LEAN), which
-is the `reviewed` evidence named here. The paper is refereed: Proc. Natl.
-Acad. Sci. USA 123 (2026), no. 21, e2531760123. This corpus has not built
-the Lean file or audited its statements, so `formalized` is not listed.
+**Acceptance.** The site's curator, T. F. Bloom, records the disproof under the
+label DISPROVED (LEAN) on the problem page, which was last edited 2025-10-26.
+This is the `reviewed` evidence named here. The paper is refereed: Proc. Natl.
+Acad. Sci. USA 123 (2026), no. 21, e2531760123. This corpus has not built the
+Lean file or audited its statements, so `formalized` is not listed.
 
 **Depends on.** Nothing beyond the cited paper.

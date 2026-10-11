@@ -2,9 +2,8 @@
 name: problems/factorials_binomials/E0698
 title: Problem 698
 desc: |
-  Asks whether the greatest common divisor of n choose i and n choose j always
-  tends to infinity with n, uniformly over all i and j between 2 and half of
-  n.
+  Asks whether there is $h(n)\to\infty$ with
+  $\gcd(\binom{n}{i},\binom{n}{j})\ge h(n)$ for all $2\le i<j\le n/2$; proved.
 tags:
 - Number theory
 - Binomial coefficients
@@ -30,12 +29,12 @@ $$
 $$
 
 **Status.** The site labels the problem PROVED (LEAN). The standing derived from
-the claim page is `solved`, `proved`, by
+the claim page is `solved`, `proved`. It rests on
 [[problems/factorials_binomials/E0698/claims/2008_06_03_bergman|Bergman 2011]],
-whose bound tends to infinity with $n$ uniformly in $i$ (the claim page derives
-the explicit $h(n)=n^{1/2}/6$ from it); a refereed paper credited by the site's
-curator. The Lean proofs the site's label refers to are third-party work not
-built here.
+a refereed paper credited by the site's curator. Its bound tends to infinity
+with $n$ uniformly in $i$, and the claim page derives the explicit
+$h(n)=n^{1/2}/6$ from it. The Lean proofs that the site's label refers to are
+third-party work and are not built here.
 
 **Source.** [erdosproblems.com/698](https://www.erdosproblems.com/698), accessed
 2026-09-04. The site attributes the problem to Erdős and Szekeres [ErSz78].

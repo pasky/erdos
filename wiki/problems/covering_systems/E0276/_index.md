@@ -3,7 +3,7 @@ name: problems/covering_systems/E0276
 title: Problem 276
 desc: |
   Asks whether some Fibonacci-type sequence has all terms composite while no
-  integer shares a factor with every term.
+  integer shares a factor with every term; open.
 tags:
 - Number theory
 - Covering systems

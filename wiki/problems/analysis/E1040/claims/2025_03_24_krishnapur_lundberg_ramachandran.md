@@ -2,9 +2,10 @@
 name: problems/analysis/E1040/claims/2025_03_24_krishnapur_lundberg_ramachandran
 title: Krishnapur, Lundberg and Ramachandran's smooth capacity-one case
 desc: |
-  For the closure K of a bounded open set with C^2 boundary and capacity one,
-  the minimal area of {|p| < 1} over monic polynomials with zeros in K has
-  infimum zero over the degrees; preprint.
+  A preprint of Krishnapur, Lundberg and Ramachandran claims that if $K$ has
+  capacity one and is the closure of a bounded open set with $C^2$ boundary,
+  then the minimal area of $\{|p|<1\}$ over monic polynomials $p$ with zeros in
+  $K$ has infimum zero over the degrees.
 authors:
 - Manjunath Krishnapur
 - Erik Lundberg

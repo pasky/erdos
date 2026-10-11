@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0650/claims/2026_03_07_van_doorn_li_tang
 title: Van Doorn, Li and Tang's exact value of f(m)
 desc: |
-  Theorem 2.1 of van Doorn, Li and Tang (arXiv, 2026): the least number of
-  distinct multiples of distinct members of an m-set in an interval of twice
-  the largest member is min(m, ceiling of 2 root m); site-accepted preprint.
+  Theorem 2.1 of van Doorn, Li and Tang (arXiv, 2026) shows that the least
+  number of distinct multiples of distinct members of an $m$-set in an interval
+  of length twice the largest member is $\min(m,\lceil2\sqrt m\rceil)$. The site
+  accepts this preprint.
 authors:
 - Wouter van Doorn
 - Yanyang Li
@@ -125,35 +126,43 @@ paper adopts. Tang's note on the gap, added to the same repository on 21 March
 2026, is linked above; both repository links are pinned to its commit of that
 day.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, independent of the
-authors, labels the problem SOLVED (LEAN), last edited 2 April 2026, and the
-commentary states the formula with a citation of the corrected paper; `reviewed`
-rests on that label and commentary. The thread's outline review of 7 March 2026
-by Terence Tao and the site's curator, Thomas Bloom, the curator reproducing the
-injection $a\mapsto(c_a,c_a+a)$ and the neighborhood bound in a few lines, was
-of that day's draft and did not catch the gap in its Case 2 injection (Dating,
-above), so it is not counted as acceptance evidence. Not refereed: the paper has
-no journal record (the arXiv listing carried no journal reference, a Crossref
-query for the title returned nothing, and Semantic Scholar listed one citing
-preprint, all on 2026-09-18). The formalization link is the Lean file the
-formal-conjectures `formal_proof` attribute names, pinned to the repository head
-of 10 September 2026 (the file last changed 31 March 2026): it defines the
-paper's $f$ and proves `erdos_f_eq` with no `sorry`, `axiom` or `native_decide`
-in its text; it is neither built nor audited in this corpus, so `formalized` is
-not listed and no kernel credit is claimed. The second formalization link is the
-copy in Boris Alexeev's lean-proofs repository (added 6 May 2026), which
-declares itself a formalization of the solution and names GPT-5.4 Pro, van
-Doorn, He, Li and Tang as informal authors and Aristotle and van Doorn as formal
-authors; it is not built here either. Provenance, recorded not judged: the paper
-declares that its proof strategy was proposed by ChatGPT (GPT-5.4 Pro) and that
-Aristotle, Harmonic's automated theorem-proving system, made the argument
-rigorous and formally verified it, with the exposition human-written; the site's
-commentary credits the upper bound to GPT 5.4 Pro, prompted by He, Li and Tang,
-and the lower bound to GPT 5.4 Pro and Aristotle, before citing the paper. A
-refereed version or an independent review of the argument is the reopening
-condition for the preprint qualification. The claim value is `answered`: the
-question asks for an estimate of $f(m)$, which the theorem gives exactly, so the
-result is neither a proof nor a disproof.
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, who is independent
+of the authors, labels the problem SOLVED (LEAN). The page was last edited 2
+April 2026. The commentary states the formula and cites the corrected paper. The
+`reviewed` evidence rests on that label and commentary.
+
+On 7 March 2026 Terence Tao and the curator reviewed an outline in the thread,
+and the curator reproduced the injection $a\mapsto(c_a,c_a+a)$ and the
+neighborhood bound in a few lines. That review was of that day's draft. It did
+not catch the gap in the draft's Case 2 injection (Dating, above), so it is not
+counted as acceptance evidence.
+
+Not refereed: the paper has no journal record. On 2026-09-18 the arXiv listing
+carried no journal reference, a Crossref query for the title returned nothing,
+and Semantic Scholar listed one citing preprint.
+
+The formalization link is the Lean file that the formal-conjectures
+`formal_proof` attribute names, pinned to the repository head of 10 September
+2026 (the file last changed 31 March 2026). It defines the paper's $f$ and
+proves `erdos_f_eq`, with no `sorry`, `axiom` or `native_decide` in its text. It
+is neither built nor audited in this corpus, so `formalized` is not listed and
+no kernel credit is claimed. The second formalization link is the copy in Boris
+Alexeev's lean-proofs repository (added 6 May 2026). That copy declares itself a
+formalization of the solution. It names GPT-5.4 Pro, van Doorn, He, Li and Tang
+as informal authors, and Aristotle and van Doorn as formal authors. It is not
+built here either.
+
+Provenance, recorded but not judged: the paper declares that ChatGPT (GPT-5.4
+Pro) proposed its proof strategy. It also declares that Aristotle, Harmonic's
+automated theorem-proving system, made the argument rigorous and formally
+verified it, and that the exposition is human-written. The site's commentary
+credits the upper bound to GPT 5.4 Pro, prompted by He, Li and Tang, and the
+lower bound to GPT 5.4 Pro and Aristotle, before citing the paper.
+
+A refereed version or an independent review of the argument is the reopening
+condition for the preprint qualification. The claim value is `answered`. The
+question asks for an estimate of $f(m)$, and the theorem gives $f(m)$ exactly,
+so the result is neither a proof nor a disproof.
 
 **Depends on.** Nothing in this wiki: the theorem is proved within the
 paper, whose card is linked above.

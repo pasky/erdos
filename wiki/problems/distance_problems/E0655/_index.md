@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0655
 title: Problem 655
 desc: |
-  Asks whether n planar points, with no circle centered at one of them holding
-  three others, determine more than half of n distinct distances by a constant
-  factor.
+  Asks whether $n$ points in the plane determine at least $(1+c)n/2$ distinct
+  distances when no circle centered at one of them contains three others; a
+  disproof is claimed.
 tags:
 - Geometry
 - Distances
@@ -32,14 +32,14 @@ $$
 distinct distances determined between the $x_i$, for some constant $c>0$ and all
 $n$ sufficiently large?
 
-**Status.** OPEN, the site's label. The site's commentary records Zach Hunter's
+**Status.** OPEN, the site's label. The derived standing departs from the label.
+It is claimed and disproved, because the page shows only the site's Statement
+and Zach Hunter's regular polygon disproves it. That claim stays pending because
+it is unrefereed and the corpus has not built the Lean proof that the
+formal-conjectures catalog records. The site's commentary records Hunter's
 observation that equally spaced points on a circle disprove the statement as
-printed and presumes that a general-position hypothesis was intended, and the
-page's database box flags the original source as ambiguous. The derived standing
-departs from the label: it is claimed and disproved, because the page shows only
-the site's Statement and Hunter's regular polygon disproves it; that claim stays
-pending because it is unrefereed and the corpus has not built the Lean proof
-that the formal-conjectures catalog records.
+printed. The commentary presumes that a general-position hypothesis was
+intended. The page's database box flags the original source as ambiguous.
 
 **Source.** [erdosproblems.com/655](https://www.erdosproblems.com/655), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #655,

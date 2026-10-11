@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0108/claims/2026_09_15_kohlmeyer_kruer
 title: Lean disproof at girth five and seven colors
 desc: |
-  A kernel-checked Lean counterexample family certified by Conjectures.io in
-  September 2026: finite graphs of arbitrarily large chromatic number whose
-  four-cycle-free subgraphs are 6-colorable, so no f(7,5) exists.
+  Kohlmeyer and Kruer's kernel-checked Lean counterexample family, certified by
+  Conjectures.io in September 2026, gives finite graphs of arbitrarily large
+  chromatic number whose four-cycle-free subgraphs are $6$-colorable. Hence no
+  $f(7,5)$ exists.
 authors:
 - Jensen Kohlmeyer
 - Liam Kruer
@@ -112,17 +113,19 @@ instantiates $r=5$ and $k=7$, both inside the wording's range, and its
 counterexamples are finite graphs lifted to every universe, so the refutation
 holds under both a finite-graph and an all-graphs reading of "every graph".
 
-**Acceptance.** Conjectures.io records the proof as verified (its Lean kernel
+**Acceptance.** Conjectures.io records the proof as verified. Its Lean kernel
 accepted the file with `propext`, `Quot.sound` and `Classical.choice` as the
-only axioms, after a static scan finding no imports, axiom declarations,
-`sorry`, `native_decide` or unsafe options; the site's second kernel was not
-run, so the verdict rests on one kernel implementation), its review as approved
-on 16 September 2026 on two independent agent assessments covering formal
-semantics and prior-source eligibility, and the record as certified on 17
-September 2026 with the bounty paid. A Conjectures.io certification is
+only axioms, after a static scan found no imports, axiom declarations, `sorry`,
+`native_decide` or unsafe options. The site's second kernel was not run, so the
+verdict rests on one kernel implementation. Conjectures.io records its review as
+approved on 16 September 2026, on two independent agent assessments covering
+formal semantics and prior-source eligibility. It marks the record as certified
+on 17 September 2026, with the bounty paid. A Conjectures.io certification is
 documented independent acceptance, listed as `reviewed`. The result is not
 refereed, and the file was not built here, so no `formalized` evidence is
-listed. On 27 September 2026 the site's curator, Thomas Bloom, posted the claim
-on the erdosproblems.com proof-claims forum so that it could be discussed,
-stating that they had not verified the proof, did not claim the formalization
-correct and did not endorse the platform; the site labels the problem OPEN.
+listed.
+
+On 27 September 2026 the site's curator, Thomas Bloom, posted the claim on the
+erdosproblems.com proof-claims forum so that it could be discussed. The curator
+stated that they had not verified the proof, did not claim the formalization
+correct and did not endorse the platform. The site labels the problem OPEN.

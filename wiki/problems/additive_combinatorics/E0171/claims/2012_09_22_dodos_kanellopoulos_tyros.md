@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0171/claims/2012_09_22_dodos_kanellopoulos_tyros
 title: Dodos, Kanellopoulos and Tyros's simple proof of density Hales-Jewett
 desc: |
-  Dodos, Kanellopoulos and Tyros's 2012 combinatorial proof of the density
-  Hales-Jewett theorem, modeled on Polymath's but with the uniform measure
-  only; refereed, and the proof that Alexeev's lean-proofs file formalizes.
+  Dodos, Kanellopoulos and Tyros gave a combinatorial proof of the density
+  Hales–Jewett theorem in 2012, modeled on Polymath's but using only the uniform
+  measure. It is refereed, and it is the proof that Alexeev's lean-proofs file
+  formalizes.
 authors:
 - Pandelis Dodos
 - Vassilis Kanellopoulos
@@ -60,11 +61,11 @@ Katznelson
 route to the theorem beside the Furstenberg--Katznelson and Polymath proofs.
 
 **Acceptance.** Refereed: the paper appeared in International Mathematics
-Research Notices, published online 15 March 2013 and in print in the 2014
-volume, issue 12, as the publication record dates it. Not reviewed: the site's
-curator credits the problem to Furstenberg and Katznelson and to the
-Polymath project, not to this paper, and no outside reviewer of this proof
-is documented. Nothing here is this project's own review of the proof.
+Research Notices. The publication record dates it to 15 March 2013 online and to
+the 2014 volume, issue 12, in print. Not reviewed: the site's curator credits
+the problem to Furstenberg and Katznelson and to the Polymath project, not to
+this paper. No outside reviewer of this proof is documented. Nothing here is
+this project's own review of the proof.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos171.lean` of Boris
 Alexeev's lean-proofs repository (first added 2026-08-17, last changed

@@ -2,8 +2,10 @@
 name: problems/graph_coloring/E0836
 title: Problem 836
 desc: |
-  Separates the false vertex-bound question from the unresolved linear
-  intersection question and repairs the site's chromatic-number gloss.
+  Asks whether an intersecting $r$-uniform hypergraph with chromatic number $3$
+  must have $O(r^2)$ vertices, and whether two of its edges must meet in $\gg r$
+  vertices. The answer to the first is no and the second is open; the page also
+  corrects the site's gloss of chromatic number $3$.
 tags:
 - Graph theory
 - Hypergraphs
@@ -52,7 +54,7 @@ isolates would trivially falsify the first question even under the exact
 chromatic-number hypothesis.
 
 **Status.** Open on erdosproblems.com (label OPEN). The site credits a
-counterexample to the first question to Alon; the same construction gives the
+counterexample to the first question to Alon. The same construction gives the
 lower bound of Erdős and Lovász's Theorem 8, recorded on
 [[problems/graph_coloring/E0836/claims/1975_01_01_erdos_lovasz|their claim page]].
 

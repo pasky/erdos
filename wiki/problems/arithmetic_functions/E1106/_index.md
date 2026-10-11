@@ -2,8 +2,10 @@
 name: problems/arithmetic_functions/E1106
 title: Problem 1106
 desc: |
-  Asks whether the number of distinct prime factors of the product of the
-  partition numbers up to n tends to infinity, and eventually exceeds n.
+  Asks whether the number $F(n)$ of distinct prime factors of
+  $p(1)p(2)\cdots p(n)$, with $p$ the partition function, tends to infinity, and
+  whether $F(n)>n$ for all large $n$. The answer to the first question is yes,
+  and the second is open.
 tags:
 - Number theory
 status: open
@@ -32,8 +34,8 @@ Does $F(n)\to \infty$ with $n$? Is $F(n)>n$ for all sufficiently large $n$?
 
 **Status.** Open, the site's label (OPEN, page last edited 16 November 2025).
 The first question is answered yes (Schinzel, with the proof in [ErIv90];
-[ScWi87]; [On00]); the second, whether $F(n)>n$ for all large $n$, is open.
-The page lists the two parts as `tends_to_infinity` and `exceeds_n`.
+[ScWi87]; [On00]). The second question, whether $F(n)>n$ for all large $n$, is
+open. The page lists the two parts as `tends_to_infinity` and `exceeds_n`.
 
 **Source.** [erdosproblems.com/1106](https://www.erdosproblems.com/1106),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1106,

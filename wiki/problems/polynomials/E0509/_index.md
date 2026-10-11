@@ -2,9 +2,9 @@
 name: problems/polynomials/E0509
 title: Problem 509
 desc: |
-  Asks whether the set where a monic nonconstant complex polynomial has
-  modulus at most one can be covered by circles whose radii sum to at most
-  two.
+  Asks whether, for every monic nonconstant $f\in\mathbb{C}[z]$, the set
+  $\{z:\lvert f(z)\rvert\le 1\}$ can be covered by circles whose radii sum to at
+  most $2$; open.
 tags:
 - Analysis
 - Polynomials
@@ -32,18 +32,18 @@ $$
 be covered by a set of circles the sum of whose radii is $\leq 2$?
 
 **Status.** Open. The site labels the problem OPEN (page last edited
-2025-12-29). Two accepted partial claims, both Pommerenke's, answer yes for
-the connected case the site's remarks credit to him: his 1959 theorem for
+2025-12-29). Two accepted partial claims, both Pommerenke's, answer yes in the
+connected case, which the site's remarks credit to him. His 1959 theorem covers
 every monic $f$ whose open set $\{|f|<1\}$ is connected
-([[problems/polynomials/E0509/claims/1959_01_01_pommerenke|Pommerenke 1959]]),
-and his 1961 paper for every monic $f$ whose closed set $\{|f|\le1\}$ is
+([[problems/polynomials/E0509/claims/1959_01_01_pommerenke|Pommerenke 1959]]).
+His 1961 paper covers every monic $f$ whose closed set $\{|f|\le1\}$ is
 connected
 ([[problems/polynomials/E0509/claims/1961_01_01_pommerenke|Pommerenke 1961]]).
-One pending partial claim on the proof-claims tab, recorded here and not
-adopted: [[problems/polynomials/E0509/claims/2026_07_19_hong|Hong 2026]],
-registered on 2026-07-19 with a write-up in a shared file, which asserts the
-answer yes for degrees two to four, the quartic case computer-assisted, and
-credits ChatGPT for most of the text; no review or acceptance of it is recorded
+One pending partial claim on the proof-claims tab is recorded here and not
+adopted. It is [[problems/polynomials/E0509/claims/2026_07_19_hong|Hong 2026]],
+registered on 2026-07-19 with a write-up in a shared file. It asserts the answer
+yes for degrees two to four, with the quartic case computer-assisted, and it
+credits ChatGPT for most of the text. No review or acceptance of it is recorded
 (proof-claims thread, 2026-10-07).
 
 **Source.** [erdosproblems.com/509](https://www.erdosproblems.com/509), accessed

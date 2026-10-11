@@ -2,8 +2,9 @@
 name: problems/set_systems/E0447
 title: Problem 447
 desc: |
-  The largest family of subsets of one through n in which no set is the union
-  of two other distinct members of the family.
+  Asks how large a family of subsets of $\{1,\ldots,n\}$ can be when no member
+  is the union of two other distinct members. The proposed bound
+  $(1+o(1))\binom{n}{\lfloor n/2\rfloor}$ is proved.
 tags:
 - Combinatorics
 status: solved
@@ -30,9 +31,9 @@ $$
 $$
 
 **Status.** The site labels the problem PROVED (LEAN), crediting Kleitman
-[Kl71]; the Lean artifact behind the qualifier is described under
-Formalization. The accepted claim is
+[Kl71]. The accepted claim is
 [[problems/set_systems/E0447/claims/1971_01_01_kleitman|union-free families have at most (1+o(1)) times the middle layer]].
+The Lean artifact behind the qualifier is described under Formalization.
 
 **Source.** [erdosproblems.com/447](https://www.erdosproblems.com/447), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #447,

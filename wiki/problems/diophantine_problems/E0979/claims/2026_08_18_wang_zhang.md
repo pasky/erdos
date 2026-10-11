@@ -2,9 +2,10 @@
 name: problems/diophantine_problems/E0979/claims/2026_08_18_wang_zhang
 title: Wang and Zhang's proof of the case k = 3
 desc: |
-  A preprint proving unconditionally that some integers have arbitrarily many
-  representations as sums of three cubes of primes, the case k = 3, through
-  Hecke equidistribution for the Fermat cubic; not refereed.
+  Wang and Zhang's preprint proves unconditionally that some integers have
+  arbitrarily many representations as sums of three cubes of primes, the case
+  $k=3$. The proof goes through Hecke equidistribution for the Fermat cubic, and
+  the preprint is not refereed.
 authors:
 - Yukai Wang
 - Xu Zhang

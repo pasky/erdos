@@ -2,9 +2,10 @@
 name: problems/set_theory/E0623
 title: Problem 623
 desc: |
-  Asks whether a function on the finite subsets of a set of size aleph_omega
-  that never picks a member of its input (a set mapping) must have an
-  infinite independent set.
+  Asks whether every set mapping on a set $X$ of size $\aleph_\omega$, a
+  function $f$ from the finite subsets of $X$ to $X$ with $f(A)\notin A$, has an
+  infinite independent set. An unaccepted claim says the question is
+  independent.
 tags:
 - Set theory
 status: claimed
@@ -26,9 +27,9 @@ function from the finite subsets of $X$ to $X$ such that $f(A)\not\in A$ for all
 $A$. Must there exist an infinite $Y\subseteq X$ that is independent - that is,
 for all finite $B\subset Y$ we have $f(B)\not\in Y$?
 
-**Status.** Open. The site's label is OPEN; the results claimed against the
-problem are recorded on the claim pages, and the standing in the frontmatter
-is derived from them.
+**Status.** Open. The site's label is OPEN. The results claimed against the
+problem are recorded on the claim pages, and the standing in the frontmatter is
+derived from them.
 
 **Source.** [erdosproblems.com/623](https://www.erdosproblems.com/623), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #623,

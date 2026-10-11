@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0073
 title: Problem 73
 desc: |
-  Asks whether a graph whose every n-vertex subgraph has an independent set of
-  at least (n-k)/2 vertices becomes bipartite after deleting a number of
-  vertices bounded in terms of k.
+  Asks whether a graph in which every subgraph on $n$ vertices has an
+  independent set of size at least $(n-k)/2$ becomes bipartite after deleting
+  $O_k(1)$ vertices; proved.
 tags:
 - Graph theory
 status: solved
@@ -26,11 +26,11 @@ contains an independent set of size $\geq (n-k)/2$, where $n$ is the number of
 vertices of $H$. Must $G$ be the union of a bipartite graph and $O_k(1)$ many
 vertices?
 
-**Status.** Proved: the site labels the problem PROVED and credits Reed
-[Re99], noting with him that the case $k=0$ is trivial. The frontmatter
-standing is derived from the one claim page under `claims/`,
-[[problems/extremal_graph_theory/E0073/claims/1999_02_01_reed|Reed]],
-accepted on the refereed publication and the site's credit.
+**Status.** Proved. The site labels the problem PROVED and credits Reed [Re99],
+noting with him that the case $k=0$ is trivial. The frontmatter standing is
+derived from the one claim page under `claims/`,
+[[problems/extremal_graph_theory/E0073/claims/1999_02_01_reed|Reed]], accepted
+on the refereed publication and the site's credit.
 
 **Source.** [erdosproblems.com/73](https://www.erdosproblems.com/73), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #73,

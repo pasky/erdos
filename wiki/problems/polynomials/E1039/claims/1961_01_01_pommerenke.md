@@ -2,9 +2,10 @@
 name: problems/polynomials/E1039/claims/1961_01_01_pommerenke
 title: Inradius at least one over 2e n squared
 desc: |
-  Pommerenke (1961) proves that the lemniscate set of a monic polynomial with
-  zeros in the closed unit disk contains a disk of radius 1/(2e n^2) about a
-  zero, the first lower bound for the minimal inradius; refereed.
+  Pommerenke (1961) proves that the lemniscate set of a monic polynomial of
+  degree $n$ with zeros in the closed unit disk contains a disk of radius
+  $1/(2en^2)$ about a zero. This refereed result is the first lower bound for
+  the minimal inradius.
 authors:
 - Ch. Pommerenke
 status: accepted
@@ -61,8 +62,8 @@ and the order $1/n$ is the claim on
 paper, with the external inputs the result page names.
 
 **Acceptance.** Refereed: the paper appeared in the Michigan Mathematical
-Journal in 1961 (volume 8, issue 2; the issue carries no month, so the page is
-dated to the first day of the publication year). The site's commentary
-credits the bound to this paper, cited as [Po61], but labels the problem
-OPEN, so the remark is not acceptance and no `reviewed` is listed. Nothing
-here rests on this project's own review.
+Journal in 1961 (volume 8, issue 2). The issue carries no month, so the page is
+dated to the first day of the publication year. The site's commentary credits
+the bound to this paper, cited as [Po61], but the site labels the problem OPEN.
+So the remark is not acceptance, and no `reviewed` is listed. Nothing here rests
+on this project's own review.

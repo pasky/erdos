@@ -3,8 +3,9 @@ name: problems/unit_fractions/E0327/claims/2026_07_29_della_pietra
 title: "Della Pietra: a positive-density gain over the odd numbers"
 desc: |
   A full, AI-assisted claim of 29 July 2026 by Donald Della Pietra that sets
-  in which a + b never divides ab can exceed the odd numbers by a positive
-  proportion of N, with a reproof of the second question; not accepted.
+  with $a+b\nmid ab$ for all distinct members can exceed the odd numbers by a
+  positive proportion of $N$. It also reproves the answer to the second question
+  and is not accepted.
 authors:
 - Donald Della Pietra
 status: claimed

@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E1121/claims/2016_02_02_bezdek_langi
 title: Bezdek and Lángi's covering theorem for symmetric bodies
 desc: |
-  A nonseparable family of positive homothets of an o-symmetric convex body
-  with ratios tau_i is covered by a translate of the body scaled by their sum;
-  for the disk this is the circle covering theorem.
+  Bezdek and Lángi prove that a nonseparable family of positive homothets of an
+  o-symmetric convex body with ratios $\tau_i$ is covered by a translate of the
+  body scaled by $\sum_i\tau_i$. For the disk this is the circle covering
+  theorem.
 authors:
 - Károly Bezdek
 - Zsolt Lángi

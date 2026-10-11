@@ -2,8 +2,8 @@
 name: problems/set_systems/E0724
 title: Problem 724
 desc: |
-  Asks whether the largest number of mutually orthogonal Latin squares of
-  order n grows at least as fast as a constant times the square root of n.
+  Asks whether the largest number of mutually orthogonal Latin squares of order
+  $n$ is $\gg n^{1/2}$; open.
 tags:
 - Combinatorics
 status: open

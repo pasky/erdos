@@ -2,9 +2,8 @@
 name: problems/diophantine_problems/E1056
 title: Problem 1056
 desc: |
-  Asks whether, for every k at least two, there are a prime and k consecutive
-  intervals of integers whose products are each congruent to one modulo that
-  prime.
+  Asks whether, for every $k\geq 2$, there are a prime $p$ and $k$ consecutive
+  intervals of integers whose products are each congruent to 1 modulo $p$; open.
 tags:
 - Number theory
 status: open

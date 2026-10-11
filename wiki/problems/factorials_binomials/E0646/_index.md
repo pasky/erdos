@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E0646
 title: Problem 646
 desc: |
-  Asks whether, for any finitely many distinct primes, infinitely many n make
-  n factorial divisible by an even power of each of those primes.
+  Asks whether, for any distinct primes $p_1,\ldots,p_k$, there are infinitely
+  many $n$ such that $n!$ is divisible by an even power of each $p_i$; proved.
 tags:
 - Number theory
 - Factorials
@@ -32,11 +32,11 @@ the $p$-adic valuation of $n!$ be even for each prime $p$ of the set. Read as
 the site words it, divisibility by an even power of each $p_i$ holds for every
 $n$, since $p_i^0$ divides $n!$, and $p_i^2$ does once $n\ge2p_i$.
 
-**Status.** The site labels the problem PROVED (LEAN). The standing derived
-from the claim page is `solved`, `proved`, by
-[[problems/factorials_binomials/E0646/claims/1997_05_01_berend|Berend 1997]],
-a refereed paper credited by the site's curator. The Lean proof the site's
-label refers to is third-party work not built here.
+**Status.** The site labels the problem PROVED (LEAN). The standing derived from
+the claim page is `solved`, `proved`. It rests on
+[[problems/factorials_binomials/E0646/claims/1997_05_01_berend|Berend 1997]], a
+refereed paper credited by the site's curator. The Lean proof that the site's
+label refers to is third-party work and is not built here.
 
 **Source.** [erdosproblems.com/646](https://www.erdosproblems.com/646), accessed
 2026-09-04 and 2026-10-07 (problem page last edited 28 December 2025; on the

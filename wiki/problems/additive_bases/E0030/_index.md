@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0030
 title: Problem 30
 desc: |
-  Asks whether the largest Sidon set in the first N integers has size the
-  square root of N plus an error smaller than every power of N.
+  Asks whether the largest Sidon set in $\{1,\ldots,N\}$ has size
+  $N^{1/2}+O_\epsilon(N^\epsilon)$ for every $\epsilon>0$; open.
 tags:
 - Number theory
 - Sidon sets
@@ -28,19 +28,19 @@ h(N) = N^{1/2}+O_\epsilon(N^\epsilon)?
 $$
 
 **Status.** Open, the site's label (OPEN; page last edited 2026-04-06). The
-site's proof-claims thread carries one partial claim (2026-10-02): Haoyu
-Chen's write-up *An explicit second-order bound for Sidon sets*
-([Zenodo](https://doi.org/10.5281/zenodo.23103979); the proofs are credited
-to GPT-6 Astra and the referee reports to Claude Opus, and a
-[Lean proof](https://github.com/chy4pro/automath/tree/442b8e19d364b2200cd4fb87f26ae05d4194797a/lean/sidon30)
-of the bound carries no formal-verification credit in this corpus) claims
+site's proof-claims thread carries one partial claim (2026-10-02), Haoyu Chen's
+write-up *An explicit second-order bound for Sidon sets*
+([Zenodo](https://doi.org/10.5281/zenodo.23103979)). It claims
 $h(N)\le\sqrt N+(2\sqrt2/3)N^{1/4}+1$ for $N\ge120^4$, with
-$2\sqrt2/3=0.9428\ldots$ below the $0.98183$ of [CHO25]. It settles no
-instance of the question, so it has no claim page; the thread (as of
-2026-10-07) lists it without comment. The discussion thread (as of
-2026-10-07) reports further bounds on the same $N^{1/4}$ coefficient, among
-them $0.9435$ by Hou and Zhao (arXiv:2607.01169, 2026), none of which touches
-the $O_\epsilon(N^\epsilon)$ question.
+$2\sqrt2/3=0.9428\ldots$ below the $0.98183$ of [CHO25]. The write-up credits
+the proofs to GPT-6 Astra and the referee reports to Claude Opus. A [Lean
+proof](https://github.com/chy4pro/automath/tree/442b8e19d364b2200cd4fb87f26ae05d4194797a/lean/sidon30)
+of the bound carries no formal-verification credit in this corpus. The claim
+settles no instance of the question, so it has no claim page. The thread (as of
+2026-10-07) lists it without comment. The discussion thread (as of 2026-10-07)
+reports further bounds on the same $N^{1/4}$ coefficient, among them $0.9435$ by
+Hou and Zhao (arXiv:2607.01169, 2026). None of these bounds touches the
+$O_\epsilon(N^\epsilon)$ question.
 
 **Source.** [erdosproblems.com/30](https://www.erdosproblems.com/30), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #30,

@@ -2,10 +2,10 @@
 name: problems/diophantine_problems/E0123
 title: Problem 123
 desc: |
-  Asks whether, for pairwise coprime a, b, c above one, every large integer is
-  a sum of distinct products of powers of a, b and c, none dividing another.
-  Erdős also suggested the weaker hypothesis that a, b and c have no common
-  factor, under which the answer is no, as 6, 10 and 15 show.
+  Asks whether, for pairwise coprime $a,b,c>1$, every large integer is a sum of
+  distinct numbers $a^kb^lc^m$, none dividing another; proved. Erdős also
+  suggested the weaker hypothesis that $a,b,c$ have no common factor, under
+  which the answer is no, as $6$, $10$ and $15$ show.
 tags:
 - Number theory
 status: solved
@@ -43,9 +43,9 @@ the Corollary of [ErLe96, p. 838] shows that those are $d$-complete only for
 $\{b,c\}=\{2,3\}$. Erdős's stronger conjecture of [Er92b] for $2,3,5$, with all
 summands in a window $[x,(1+\epsilon)x)$, is discussed with the claims below.
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN); the proof
-and its acceptance are recorded on the claim pages, and this corpus has built
-none of the Lean.
+**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN). The proof
+and its acceptance are recorded on the claim pages. This corpus has built none
+of the Lean.
 
 **Source.** [erdosproblems.com/123](https://www.erdosproblems.com/123), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #123,

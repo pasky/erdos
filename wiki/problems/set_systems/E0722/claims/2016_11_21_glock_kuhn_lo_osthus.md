@@ -2,9 +2,10 @@
 name: problems/set_systems/E0722/claims/2016_11_21_glock_kuhn_lo_osthus
 title: Glock, Kühn, Lo and Osthus's designs by iterative absorption
 desc: |
-  An independent proof, by iterative absorption, that the divisibility
-  conditions suffice for an F-decomposition of a large complete r-uniform
-  hypergraph for every F, hence for Steiner systems; refereed in 2023.
+  Glock, Kühn, Lo and Osthus give an independent proof, by iterative absorption,
+  that the divisibility conditions suffice for an $F$-decomposition of a large
+  complete $r$-uniform hypergraph for every $F$, hence for Steiner systems. The
+  work was refereed in 2023.
 authors:
 - Stefan Glock
 - Daniela Kühn
@@ -55,11 +56,10 @@ memoir.
 
 **Acceptance.** Refereed: Glock, S., Kühn, D., Lo, A. and Osthus, D., The
 existence of designs via iterative absorption: hypergraph $F$-designs for
-arbitrary $F$, Mem. Amer. Math. Soc. 284 (2023), no. 1406, published
-2023-03-21; the preprint was first posted 2016-11-21, the date of this page.
-The site credits the problem to Keevash and does not name this proof, so the
-page lists no `reviewed` evidence. No formalization of this proof is
-recorded; the Lean development linked from
-[[problems/set_systems/E0722/claims/2014_01_15_keevash|Keevash's page]]
-names Keevash as its informal author. The proof was not reconstructed in this
-corpus.
+arbitrary $F$, Mem. Amer. Math. Soc. 284 (2023), no. 1406, published 2023-03-21.
+The preprint was first posted 2016-11-21, the date of this page. The site
+credits the problem to Keevash and does not name this proof, so the page lists
+no `reviewed` evidence. No formalization of this proof is recorded. The Lean
+development linked from
+[[problems/set_systems/E0722/claims/2014_01_15_keevash|Keevash's page]] names
+Keevash as its informal author. The proof was not reconstructed in this corpus.

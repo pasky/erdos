@@ -2,8 +2,9 @@
 name: problems/set_systems/E0021
 title: Problem 21
 desc: |
-  Asks whether the smallest intersecting family of n-element sets in which
-  every set of size at most n minus 1 misses a member has size linear in n.
+  Asks whether the smallest intersecting family of $n$-element sets in which
+  every set of size at most $n-1$ misses some member has size linear in $n$. It
+  is proved.
 tags:
 - Combinatorics
 - Intersecting families
@@ -32,9 +33,10 @@ $$
 f(n) \ll n?
 $$
 
-**Status.** The site labels the problem PROVED (LEAN), crediting Kahn [Ka94];
-the Lean behind the qualifier is described below. The accepted claim is
-[[problems/set_systems/E0021/claims/1994_01_01_kahn|Kahn's linear bound]].
+**Status.** The site labels the problem PROVED (LEAN), crediting Kahn [Ka94].
+The accepted claim is
+[[problems/set_systems/E0021/claims/1994_01_01_kahn|Kahn's linear bound]]. The
+Lean behind the qualifier is described below.
 
 **Source.** [erdosproblems.com/21](https://www.erdosproblems.com/21), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #21,

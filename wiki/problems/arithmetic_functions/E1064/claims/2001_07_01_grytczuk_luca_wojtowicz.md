@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E1064/claims/2001_07_01_grytczuk_luca_wojtowicz
 title: Lower density 0.54 and infinitely many reversals
 desc: |
-  Grytczuk, Luca and Wójtowicz prove the totient of n minus its totient exceeds
-  the totient of n infinitely often, with a growing gap, and the reverse on a
-  set of lower density at least 0.54; refereed and credited by the site.
+  Grytczuk, Luca and Wójtowicz prove that $\phi(n-\phi(n))>\phi(n)$ for
+  infinitely many $n$, with a growing gap, and that the reverse holds on a set
+  of lower density at least 0.54. The paper is refereed, and the site credits
+  the result.
 authors:
 - A. Grytczuk
 - F. Luca
@@ -66,14 +67,13 @@ and Pomerance 2002]] proved the next year.
 self-contained in the paper.
 
 **Acceptance.** Refereed: the paper appeared in Publicationes Mathematicae
-Debrecen in July 2001. Reviewed: erdosproblems.com labels the problem PROVED
-and credits the lower density $0.54$ and the infinitude of $A_<$ to this
-paper as [GLW01] (page last edited 2025-10-06), which the corpus counts as
-documented independent acceptance of the second part by the site's curator,
-T. F. Bloom (erdosproblems.com). The
-[formal-conjectures file](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/1064.lean)
-proves this part as `erdos_1064.variants.k2`, through $n=30\cdot2^k$
-(Theorem 3 with $m=5$), and cites this paper for the statement; the corpus
-has not built it, so the evidence lists no `formalized` kind. The proofs are
-not compiled in this wiki; the standing rests on the refereeing and the
-site's acceptance.
+Debrecen in July 2001. Reviewed: erdosproblems.com labels the problem PROVED and
+credits the lower density $0.54$ and the infinitude of $A_<$ to this paper as
+[GLW01] (page last edited 2025-10-06). The corpus counts this as documented
+independent acceptance of the second part by the site's curator, T. F. Bloom
+(erdosproblems.com). The [formal-conjectures
+file](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/1064.lean)
+proves this part as `erdos_1064.variants.k2`, through $n=30\cdot2^k$ (Theorem 3
+with $m=5$), and cites this paper for the statement. The corpus has not built
+it, so the evidence lists no `formalized` kind. The proofs are not compiled in
+this wiki. The standing rests on the refereeing and the site's acceptance.

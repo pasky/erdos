@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E0619
 title: Problem 619
 desc: |
-  Asks whether every connected triangle-free graph can be augmented to
-  diameter at most four, still triangle-free, using fewer than (1-c)n edges.
+  Asks whether there is a constant $c>0$ such that every connected triangle-free
+  graph on $n$ vertices can be given diameter at most $4$, still triangle-free,
+  by adding fewer than $(1-c)n$ edges; disproved.
 tags:
 - Graph theory
 status: solved
@@ -40,14 +41,13 @@ exactly four is one of diameter at most four, so requiring exact diameter can
 only increase $h_4(G)$ or leave it undefined, and the lower bound
 $h_4(G)\ge(1-\eta)n$ stands.
 
-**Status.** SOLVED (LEAN), the site's label (snapshot of 5 September 2026);
-the resolution is negative, no such constant $c$ exists, so the frontmatter
-records the question as disproved. The standing is derived from the accepted
-claim page
-[[problems/extremal_graph_theory/E0619/claims/2026_06_14_kuhn|Kuhn's counterexample]],
-whose acceptance evidence is the site's and formal-conjectures' documented
-acceptance; the corpus has not built the Lean proof, so no `formalized`
-evidence is listed.
+**Status.** SOLVED (LEAN), the site's label (snapshot of 5 September 2026). The
+resolution is negative: no such constant $c$ exists, so the frontmatter records
+the question as disproved. The standing is derived from the accepted claim page
+[[problems/extremal_graph_theory/E0619/claims/2026_06_14_kuhn|Kuhn's counterexample]].
+Its acceptance evidence is the site's and formal-conjectures' documented
+acceptance. The corpus has not built the Lean proof, so no `formalized` evidence
+is listed.
 
 **Source.** [erdosproblems.com/619](https://www.erdosproblems.com/619),
 snapshot of 5 September 2026, page last edited 15 June 2026. Cite as:

@@ -3,8 +3,9 @@ name: problems/ramsey_theory/E0080/claims/1979_01_01_khadzhiivanov_nikiforov
 title: Khadzhiivanov and Nikiforov, a linear book above density one quarter
 desc: |
   Khadzhiivanov and Nikiforov's 1979 theorem, proved in full in Khadzhiivanov's
-  1988 account, that more than n²/4 edges force an edge on at least n/6
-  triangles, so in Problem 80 the forced book is linear above density 1/4.
+  1988 account, says that more than $n^2/4$ edges force an edge on at least
+  $n/6$ triangles. So in Problem 80 the forced book is linear above density
+  $1/4$.
 authors:
 - N. Khadzhiivanov
 - V. Nikiforov
@@ -71,27 +72,31 @@ of Khadzhiivanov's 1988 account, the proof relied on.
 
 **Acceptance.** The site's curator, T. F. Bloom, labels Problem 905, whose
 statement is the claim above, PROVED (LEAN) and credits it to Edwards and,
-independently, to Khadzhiivanov and Nikiforov, and records the bound
-$f_c(n)\ge n/6$ for $c>1/4$ in this problem's commentary with a pointer to
-Problem 905 (both pages last edited 7 April 2026, accessed 2026-09-18).
-That label settles Problem 905, not Problem 80 or a part of it, and the
-commentary on Problem 80, which the site labels OPEN, is not acceptance, so
-no `reviewed` evidence is listed. The Lean proof behind the site's suffix is
-the file in Boris Alexeev's repository linked above at the commit of 15
-September 2026, which declares itself a formalization of the 1979 note's
-result, the claim above; it is linked, not built in this corpus, so it is
-no `formalized` evidence here. Refereeing is not documented: the 1979 note
-appeared in C. R. Acad. Bulgare Sci. 32 (1979), 1315--1318, and the 1988
-account in Annuaire Univ. Sofia, Fac. Math. Inform. 82 (1988), 37--49 (the
-journal's article record, linked above, lists volume 82, number 1, pp.
-37--49), but no record shows that either venue refereed them, so `refereed`
-is not listed. With no evidence listed, the claim stands as claimed. The
-1988 text's Corollary 3 is covered at claims-checked depth, and the proofs
-of its Theorem 1 and Lemma 4 at structure depth, as the library card
-records; nothing is independently reviewed in this corpus. Edwards's
-announcement (Colloques internationaux C.N.R.S. 260, 1978) is not held, and
-the 1988 account reports that the proofs it announced were never published,
-so Edwards's independent proof is disclosed here and not relied on.
+independently, to Khadzhiivanov and Nikiforov. The curator also records the
+bound $f_c(n)\ge n/6$ for $c>1/4$ in this problem's commentary, with a pointer
+to Problem 905 (both pages last edited 7 April 2026, accessed 2026-09-18). That
+label settles Problem 905, not Problem 80 or a part of it. The site labels
+Problem 80 OPEN, and its commentary on Problem 80 is not acceptance. So no
+`reviewed` evidence is listed.
+
+The Lean proof behind the site's suffix is the file in Boris Alexeev's
+repository linked above, at the commit of 15 September 2026. The file declares
+itself a formalization of the 1979 note's result, the claim above. It is linked,
+not built in this corpus, so it is not `formalized` evidence here.
+
+Refereeing is not documented. The 1979 note appeared in C. R. Acad. Bulgare Sci.
+32 (1979), 1315--1318. The 1988 account appeared in Annuaire Univ. Sofia, Fac.
+Math. Inform. 82 (1988), 37--49 (the journal's article record, linked above,
+lists volume 82, number 1, pp. 37--49). No record shows that either venue
+refereed them, so `refereed` is not listed. With no evidence listed, the claim
+stands as claimed.
+
+The 1988 text's Corollary 3 is covered at claims-checked depth, and the proofs
+of its Theorem 1 and Lemma 4 at structure depth, as the library card records.
+Nothing is independently reviewed in this corpus. Edwards's announcement
+(Colloques internationaux C.N.R.S. 260, 1978) is not held. The 1988 account
+reports that the proofs announced there were never published. Edwards's
+independent proof is therefore disclosed here and not relied on.
 
 **Dating.** The page is dated by the year of the 1979 note, the source the
 site cites, which the 1988 account's reference list gives as Dokl. BAN 32

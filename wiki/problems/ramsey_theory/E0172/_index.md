@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0172
 title: Problem 172
 desc: |
-  Asks whether every finite coloring of the positive integers admits
-  arbitrarily large finite sets whose sums and products of distinct members
-  share one color.
+  Asks whether every finite coloring of $\mathbb{N}$ has arbitrarily large
+  finite sets $A$ whose sums and products of distinct elements all have one
+  color; open on the site, with a proof claim pending.
 tags:
 - Additive combinatorics
 - Ramsey theory
@@ -42,22 +42,24 @@ and pairwise products in that cell, the seven-color statement the site and
 [[problems/ramsey_theory/E1198/_index|Problem 1198]]. The formal-conjectures
 statement uses the reading above.
 
-**Status.** OPEN, the site's label (page last edited 6 April 2026). No proof
-or disproof of the statement over $\mathbb{N}$ was found in the search whose scope the Current assessment records. The strongest
-results are the case $n=2$ for two colors (by computer in
+**Status.** OPEN, the site's label (page last edited 6 April 2026). The derived
+standing is claimed, through the claim page of a preprint that appeared after
+the search described here. That search, whose scope the Current assessment
+records, found no proof or disproof of the statement over $\mathbb{N}$. The
+strongest results are these. The case $n=2$ for two colors was proved by
+computer in
 [[problems/ramsey_theory/E0172/claims/1979_01_01_hindman|Hindman 1979]] and
-without a computer in Bowen 2022, both refereed), the pattern $\{x,x+y,xy\}$
-for all finite colorings (Moreira 2017, refereed), and the full statement
-over $\mathbb{Q}$ (Bowen and Sabok for $n=2$, refereed; Alweiss for all $n$,
-a preprint accepted per its arXiv comment). Even the case $n=2$ over
-$\mathbb{N}$ with three or more colors was open at that date. This is a
-bounded negative finding, not a certificate of openness. After that search,
-the OpenAI release's preprint of 23 September 2026 claimed the full
-statement for every $n$ and every finite coloring; it is recorded on the
-claim page
-[[problems/ramsey_theory/E0172/claims/2026_09_23_openai|OpenAI 2026]] as
-claimed, since it is unrefereed, unreviewed and has no Lean statement of the
-theorem, and the derived standing is claimed through that page.
+without a computer in Bowen 2022, both refereed. Moreira 2017 (refereed) proved
+the pattern $\{x,x+y,xy\}$ for all finite colorings. Over $\mathbb{Q}$ the full
+statement is proved by Bowen and Sabok for $n=2$ (refereed) and by Alweiss for
+all $n$ (a preprint accepted per its arXiv comment). Even the case $n=2$ over
+$\mathbb{N}$ with three or more colors was open at that date. This is a bounded
+negative finding, not a certificate of openness. After that search, the OpenAI
+release's preprint of 23 September 2026 claimed the full statement for every $n$
+and every finite coloring. The claim page
+[[problems/ramsey_theory/E0172/claims/2026_09_23_openai|OpenAI 2026]] records it
+as claimed, since it is unrefereed, unreviewed and has no Lean statement of the
+theorem.
 
 **Source.** [erdosproblems.com/172](https://www.erdosproblems.com/172),
 accessed 2026-09-17: the problem page (OPEN, with the site's note that the

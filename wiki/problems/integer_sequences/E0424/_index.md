@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0424
 title: Problem 424
 desc: |
-  Asks whether the integers eventually produced from two and three by
-  repeatedly adjoining products of two distinct terms minus one have positive
-  density, read as positive lower density following the site's curator.
+  Asks whether the integers that eventually appear, starting from $2,3$ and
+  repeatedly appending every $a_ia_j-1$ with $i\neq j$, have positive density,
+  read as positive lower density following the site's curator; proved by
+  Korsky's Lean-formalized 2026 claim, which the site has not accepted.
 tags:
 - Number theory
 status: solved
@@ -98,23 +99,24 @@ to $1$ modulo $3$ ever appears and the set has upper density at most $2/3$, an
 observation the site credits to Steinerberger.
 
 **Status.** The site labels the problem OPEN (page last edited 31 March 2026;
-proof-claims thread accessed 2026-10-06). A proof claim by Samuel Korsky, posted
-as a full claim to the site's proof-claims tab on 20 July 2026 after a partial
-claim of 18 July 2026 for a variant, claims a proof of positive lower density,
-which is the precise Statement. It was
-written with GPT 5.6-Pro, is on arXiv (August 2026), and was formalized in Lean
-4 by Codex, with Boris Alexeev as formal co-author (the file in
-`plby/lean-proofs`, built and audited here on 2026-10-07). The
-formal-conjectures statement of the lower-density reading is tagged solved. The
-site has not accepted the claim: its proof-claims tab says that a claim's
-appearing there does not mean that anyone associated with the site has examined
-any part of the proof, and the site's curator commented in the thread only on
-the write-up's style. No refereed version exists. The claim page
+proof-claims thread accessed 2026-10-06). This record's derived standing is
+settled: the precise Statement is proved. The claim page
 [[problems/integer_sequences/E0424/claims/2026_07_20_korsky|Korsky's proof]]
-records it as an accepted full claim on formalized evidence, so the precise
-Statement is proved and the problem's derived standing is settled. That standing
-departs from the site's label OPEN, which predates the claims; the acceptance
-rests on the kernel-checked formalization, not on the site.
+records the proof as an accepted full claim on formalized evidence. That
+standing departs from the site's label OPEN, which predates the claims. The
+acceptance rests on the kernel-checked formalization, not on the site.
+
+Samuel Korsky posted a proof claim to the site's proof-claims tab as a full
+claim on 20 July 2026, after a partial claim of 18 July 2026 for a variant. It
+claims a proof of positive lower density, which is the precise Statement. It was
+written with GPT 5.6-Pro and is on arXiv (August 2026). Codex formalized it in
+Lean 4, with Boris Alexeev as formal co-author. The file is in
+`plby/lean-proofs`, and it was built and audited here on 2026-10-07. The
+formal-conjectures statement of the lower-density reading is tagged solved. The
+site has not accepted the claim. Its proof-claims tab says that a claim's
+appearing there does not mean that anyone associated with the site has examined
+any part of the proof. The site's curator commented in the thread only on the
+write-up's style. No refereed version exists.
 
 **Source.** [erdosproblems.com/424](https://www.erdosproblems.com/424), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #424,

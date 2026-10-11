@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0136/claims/1997_12_01_erdos_gyarfas
 title: Erdős and Gyárfás's bounds five sixths of n minus one and n
 desc: |
-  Theorem 3 of Erdős and Gyárfás proves f(n) >= 5(n-1)/6 for n >= 4, f(n) <=
-  n for odd n and f(n) <= n-1 for infinitely many even n: the lower half of
-  f(n) ~ 5n/6, refereed in Combinatorica and credited by the site's curator.
+  Theorem 3 of Erdős and Gyárfás proves $f(n)\ge\frac56(n-1)$ for $n\ge4$,
+  $f(n)\le n$ for odd $n$, and $f(n)\le n-1$ for infinitely many even $n$. This
+  is the lower half of $f(n)\sim\frac56n$, refereed in Combinatorica and
+  credited by the site's curator.
 authors:
 - Paul Erdős
 - András Gyárfás
@@ -62,8 +63,8 @@ page]]).
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed publication in Combinatorica, cited with its venue
-above. Reviewed: the site's curator, Thomas Bloom, credits the bounds
-$\frac56(n-1)<f(n)<n$ and $f(9)=8$ to Erdős and Gyárfás in the commentary
-of a problem he labels SOLVED, and took no part in the paper. Bennett,
-Cushman, Dudek and Prałat and Joos and Mubayi each take the lower bound from
-this paper. No proof step was checked by this corpus.
+above. Reviewed: the site's curator, Thomas Bloom, labels the problem SOLVED and
+in the commentary credits the bounds $\frac56(n-1)<f(n)<n$ and $f(9)=8$ to Erdős
+and Gyárfás. Bloom took no part in the paper. Bennett, Cushman, Dudek and
+Prałat, and also Joos and Mubayi, each take the lower bound from this paper. No
+proof step was checked by this corpus.

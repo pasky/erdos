@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 1007, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-07T12:39:51Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/extremal_graph_theory/E1007/claims
@@ -12,11 +12,13 @@ updated: 2026-10-07T12:39:51Z
 [[problems/extremal_graph_theory/E1007/_index|..]]
 
 [[problems/extremal_graph_theory/E1007/claims/2013_06_04_house|2013_06_04_house]]: House (Discrete Math. 2013) proves that the smallest number of edges of a
-graph of dimension four is nine and that K_{3,3} is the only graph without
-isolated vertices attaining it, the first proof of the value; accepted.
+graph of dimension four is nine, and that $K_{3,3}$ is the only graph without
+isolated vertices attaining it. This is the first proof of the value, and the
+claim is accepted.
 
 [[problems/extremal_graph_theory/E1007/claims/2016_02_01_chaffee_noble|2016_02_01_chaffee_noble]]: Theorem 6 of Chaffee and Noble (Australas. J. Combin. 2016) proves that the
-minimum number of edges of a graph of dimension four is nine, with Lemma 3
-supplying K_{3,3} as the witness and Theorem 7 its uniqueness; accepted.
+minimum number of edges of a graph of dimension four is nine. Lemma 3 supplies
+$K_{3,3}$ as the witness, Theorem 7 shows that it is unique, and the claim is
+accepted.
 
 ***

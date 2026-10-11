@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0148/claims/2020_12_10_elsholtz_planitzer
 title: Elsholtz and Planitzer's doubly exponential upper bound
 desc: |
-  Corollary 3(2) of Elsholtz and Planitzer bounds the number of k-term
-  representations of 1 by a constant to the power (2/5 + epsilon) 2^(k-1);
-  an upper bound of the form c^(2^k), accepted on the refereed publication.
+  Corollary 3(2) of Elsholtz and Planitzer bounds the number of $k$-term
+  representations of $1$ by a constant to the power $(2/5+\varepsilon)2^{k-1}$,
+  an upper bound of the form $c^{2^k}$. It is accepted on the refereed
+  publication.
 authors:
 - Christian Elsholtz
 - Stefan Planitzer

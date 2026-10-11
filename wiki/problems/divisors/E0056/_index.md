@@ -2,8 +2,8 @@
 name: problems/divisors/E0056
 title: Problem 56
 desc: |
-  Asks whether the multiples of the first k primes form the largest subset of
-  the first N integers with no k plus one pairwise relatively prime elements.
+  Asks whether the multiples of the first $k$ primes form the largest subset of
+  $\{1,\ldots,N\}$ with no $k+1$ pairwise relatively prime elements; disproved.
 tags:
 - Number theory
 - Intersecting families

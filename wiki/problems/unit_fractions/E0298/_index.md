@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0298
 title: Problem 298
 desc: |
   Asks whether every set of positive integers of positive density contains a
-  finite subset whose reciprocals sum to one.
+  finite subset whose reciprocals sum to $1$; proved.
 tags:
 - Number theory
 - Unit fractions
@@ -40,10 +40,10 @@ implies the upper-density reading, so the paper's two sentences point to
 different readings. The site's commentary says that Bloom's proof covers
 positive upper density, which it calls likely to be what Erdős intended.
 
-**Status.** Proved, in the site's label. Bloom's theorem applies under the
-assumption of positive upper density, so it answers the Statement in each
-of its readings. The site's label is PROVED (LEAN); the existing formal
-proof and statement-only declarations are distinguished below.
+**Status.** Proved. The site's label is PROVED (LEAN). Bloom's theorem applies
+under the assumption of positive upper density, so it answers the Statement in
+each of its readings. The existing formal proof and the statement-only
+declarations are distinguished below.
 
 **Source.** T. F. Bloom, Erdős Problem #298,
 https://www.erdosproblems.com/298, accessed 2026-09-05. The site's original

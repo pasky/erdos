@@ -2,8 +2,9 @@
 name: problems/additive_bases/E0358
 title: Problem 358
 desc: |
-  Asks whether some infinite sequence of integers writes every large n as a
-  sum of consecutive terms at least twice, or in ways tending to infinity.
+  Asks whether some infinite sequence of integers writes every large $n$ as a
+  sum of consecutive terms at least twice, or in a number of ways
+  $f(n)\to\infty$; proved.
 tags:
 - Number theory
 - Additive bases
@@ -32,15 +33,14 @@ $$
 Is there such an $A$ for which $f(n)\to \infty$ as $n\to \infty$? Or even where
 $f(n)\geq 2$ for all large $n$?
 
-**Status.** PROVED (LEAN): Tao's 2026 probabilistic construction gives
-$f(n)\gg\log n$ for all large $n$, answering both questions yes
-([[problems/additive_bases/E0358/claims/2026_02_23_tao|claim page]]); the
-site's label rests on a third-party Lean proof that this corpus has not
-audited. A thread report of 2026-03-27 found the middle-range step of
-Proposition 3.1 in the posted manuscript false as written, which Tao said the
-next revision will correct; no revision had been posted by 2026-10-07, the
-Lean proof establishes the two answers and not the logarithmic bound, and the
-claim page records the dispute.
+**Status.** PROVED (LEAN). Tao's 2026 probabilistic construction gives
+$f(n)\gg\log n$ for all large $n$, which answers both questions yes
+([[problems/additive_bases/E0358/claims/2026_02_23_tao|claim page]]). The site's
+label rests on a third-party Lean proof that this corpus has not audited. The
+Lean proof establishes the two answers and not the logarithmic bound. A thread
+report of 2026-03-27 found the middle-range step of Proposition 3.1 in the
+posted manuscript false as written. Tao said the next revision will correct it.
+No revision had been posted by 2026-10-07. The claim page records the dispute.
 
 **Source.** [erdosproblems.com/358](https://www.erdosproblems.com/358), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #358,

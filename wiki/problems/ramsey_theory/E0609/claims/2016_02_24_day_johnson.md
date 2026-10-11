@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0609/claims/2016_02_24_day_johnson
 title: Day and Johnson's lower bound, f(n) tends to infinity
 desc: |
-  Day and Johnson (J. Combin. Theory Ser. B 124, 2017) give n-colorings of
-  K_(2^n+1) with long shortest monochromatic odd cycles, so f(n) tends to
-  infinity, at least 2^(sqrt(2 log2 n) - O(1)); refereed.
+  Day and Johnson (J. Combin. Theory Ser. B 124, 2017, refereed) give
+  $n$-colorings of $K_{2^n+1}$ whose shortest monochromatic odd cycles are long.
+  So $f(n)\to\infty$, and $f(n)\ge2^{\sqrt{2\log_2n}-O(1)}$.
 authors:
 - A. Nicholas Day
 - J. Robert Johnson

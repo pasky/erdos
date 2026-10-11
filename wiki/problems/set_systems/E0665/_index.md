@@ -2,8 +2,10 @@
 name: problems/set_systems/E0665
 title: Problem 665
 desc: |
-  Concerns pairwise balanced designs on the first n integers, families of sets
-  in which every pair of distinct elements lies in exactly one set.
+  Asks whether, for some constant $C$ and all large $n$, there is a pairwise
+  balanced design on $\{1,\ldots,n\}$ (a family of sets in which every pair of
+  distinct elements lies in exactly one set) whose sets all have more than
+  $n^{1/2}-C$ elements. It is open.
 tags:
 - Combinatorics
 status: open
@@ -35,18 +37,18 @@ $$
 for all $1\leq i\leq m$?
 
 **Status.** Open on erdosproblems.com (label OPEN; page last edited 18 January
-2026). The site records the question as Erdős and Larson's, and Erdős's wider
-one, for the slowest-growing $h$ such that for all large $n$ some pairwise
-balanced design has $|A_i|>n^{1/2}-h(n)$ for every block: Erdős and Larson
-[ErLa82] reach $h(n)\ll n^{1/2-c}$ for some $c>0$, and $h(n)\ll(\log n)^2$ under
-a Cramér-type bound on prime gaps; Shrikhande and Singhi [ShSi85] embed every
-large design with blocks of size at least $n^{1/2}-c$ in a projective plane, so
-the answer is no if every projective plane has prime power order, and, with
-$H(n)$ the largest gap between consecutive primes up to $n$, the prime power
-conjecture gives $H(n)\asymp h(n)$. The conditional negative answer is recorded
-as the accepted conditional claim
-[[problems/set_systems/E0665/claims/1985_12_01_shrikhande_singhi|Shrikhande and Singhi 1985]];
-no unconditional result settles the question.
+2026). No unconditional result settles the question. The site records the
+question as Erdős and Larson's. It also records Erdős's wider question: find the
+slowest-growing $h$ such that, for all large $n$, some pairwise balanced design
+has $|A_i|>n^{1/2}-h(n)$ for every block. Erdős and Larson [ErLa82] reach
+$h(n)\ll n^{1/2-c}$ for some $c>0$, and $h(n)\ll(\log n)^2$ under a Cramér-type
+bound on prime gaps. Shrikhande and Singhi [ShSi85] embed every large design
+with blocks of size at least $n^{1/2}-c$ in a projective plane. So the answer is
+no if every projective plane has prime power order. Let $H(n)$ be the largest
+gap between consecutive primes up to $n$. Then the prime power conjecture gives
+$H(n)\asymp h(n)$. This conditional negative answer is recorded as the accepted
+conditional claim
+[[problems/set_systems/E0665/claims/1985_12_01_shrikhande_singhi|Shrikhande and Singhi 1985]].
 
 **Source.** [erdosproblems.com/665](https://www.erdosproblems.com/665), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #665,

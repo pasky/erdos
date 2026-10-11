@@ -2,8 +2,9 @@
 name: problems/distance_problems/E0213
 title: Problem 213
 desc: |
-  Asks whether, for every n at least 4, there are n points in the plane with
-  no three collinear and no four concyclic and all distances integers.
+  Asks whether, for every $n\ge4$, there are $n$ points in the plane, no three
+  on a line and no four on a circle, with all pairwise distances integers. It is
+  open.
 tags:
 - Geometry
 - Distances
@@ -39,24 +40,24 @@ points on a line, no four on a circle and all distances integers keeps all
 three properties, so a construction for $n$ points answers every smaller
 $n\ge4$ as well.
 
-**Status.** Open, the site's label (OPEN). Three claim pages are recorded, two
-accepted partial claims and one accepted conditional claim, none of which
-settles the question.
-[[problems/distance_problems/E0213/claims/1971_01_01_harborth|Harborth's five
-points]] and
-[[problems/distance_problems/E0213/claims/2007_09_29_kreisel_kurz|Kreisel and
-Kurz's seven points]] have the three properties, so the answer is yes for
-$n=5$ and for every $n\le7$, and no construction with eight points is known.
-[[problems/distance_problems/E0213/claims/2019_01_09_ascher_braune_turchet|Ascher,
-Braune and Turchet]] prove that Lang's conjecture, which is unproven, implies a
-uniform bound on the size of such sets, so that under it the answer would be
-no for all large $n$. Two further results settle no instance and are recorded
-here rather than as claims: Anning and Erdős [AnEr45] proved that an infinite
-set of points in the plane with all distances integers lies on a line, and
-Greenfeld, Iliopoulou and Peluse [GIP24] proved unconditionally, in their
+**Status.** Open. This is the site's label (OPEN). Three claim pages are
+recorded: two accepted partial claims and one accepted conditional claim. None
+of them settles the question.
+[[problems/distance_problems/E0213/claims/1971_01_01_harborth|Harborth's five points]]
+and
+[[problems/distance_problems/E0213/claims/2007_09_29_kreisel_kurz|Kreisel and Kurz's seven points]]
+have the three properties. So the answer is yes for $n=5$ and for every $n\le7$,
+and no construction with eight points is known.
+[[problems/distance_problems/E0213/claims/2019_01_09_ascher_braune_turchet|Ascher, Braune and Turchet]]
+prove that Lang's conjecture, which is unproven, implies a uniform bound on the
+size of such sets. Under that conjecture the answer would be no for all large
+$n$. Two further results settle no instance, and they are recorded here rather
+than as claims. Anning and Erdős [AnEr45] proved that an infinite set of points
+in the plane with all distances integers lies on a line. Greenfeld, Iliopoulou
+and Peluse [GIP24] proved unconditionally, in their
 [[../library/distance_problems/greenfeld_2024_integer_distance_sets/corollary_1_3|Corollary 1.3]],
-that a set with the three properties inside $[-N,N]^2$ has
-$O((\log N)^{O(1)})$ points. The site's remarks also point to
+that a set with the three properties inside $[-N,N]^2$ has $O((\log N)^{O(1)})$
+points. The site's remarks also point to
 [[problems/distance_problems/E0130/_index|Problem 130]].
 
 **Source.** [erdosproblems.com/213](https://www.erdosproblems.com/213), accessed

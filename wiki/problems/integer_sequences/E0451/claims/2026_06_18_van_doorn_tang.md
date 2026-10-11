@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0451/claims/2026_06_18_van_doorn_tang
 title: The van Doorn-Tang superpolynomial lower bound
 desc: |
-  Van Doorn and Tang's Theorem 1.1 (arXiv, June 2026): n_k exceeds
-  exp(log^2 k / (20 log log k)) for all large k, so n_k grows faster than
-  every power of k, as Erdős expected; an unrefereed preprint.
+  Van Doorn and Tang's Theorem 1.1 (arXiv, June 2026) states that
+  $n_k>\exp(\log^2k/(20\log\log k))$ for all large $k$, so $n_k$ grows faster
+  than every power of $k$, as Erdős expected. The paper is an unrefereed
+  preprint.
 authors:
 - Wouter van Doorn
 - Quanyu Tang

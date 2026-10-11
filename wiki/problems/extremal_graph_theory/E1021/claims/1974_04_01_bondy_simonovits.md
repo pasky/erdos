@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1021/claims/1974_04_01_bondy_simonovits
 title: Bondy and Simonovits's even-cycle theorem, the case k = 3
 desc: |
-  Bondy and Simonovits (J. Combin. Theory Ser. B 1974) prove that more than
-  100k n^{1+1/k} edges force every even cycle C_{2l} with k <= l <= kn^{1/k};
-  with k = 3 this bounds ex(n,C_6) by 300 n^{4/3}, so c_3 = 1/6; refereed.
+  Bondy and Simonovits (J. Combin. Theory Ser. B 1974, refereed) prove that more
+  than $100kn^{1+1/k}$ edges force every even cycle $C_{2l}$ with
+  $k\le l\le kn^{1/k}$. With $k=3$ this gives $\mathrm{ex}(n,C_6)\le300n^{4/3}$,
+  so $c_3=1/6$.
 authors:
 - J. A. Bondy
 - M. Simonovits
@@ -48,18 +49,22 @@ claim value is `proved`: the result proves the statement for $k=3$.
 substitution $k=3$ are elementary and written above.
 
 **Acceptance.** Refereed: published in the Journal of Combinatorial Theory,
-Series B, cited with its venue above. No `reviewed` evidence is listed: the
-site's PROVED label settles the whole problem and credits Conlon and Lee and
-Janzer, whose claim pages carry it, and the site's remark on $k=3$, which
-credits Erdős [Er64c] and Bondy and Simonovits, misprints the bound as
-$\mathrm{ex}(n,C_6)\ll n^{7/6}$. The site also credits Erdős's 1964
-proceedings paper [Er64c] with this case; there Erdős stated the even-cycle
-bound without proof. Bondy and Simonovits (p. 97) describe Erdős's theorem as
-published without proof, and Erdős writes in his 1974 survey
+Series B, cited with its venue above.
+
+No `reviewed` evidence is listed. The site's PROVED label settles the whole
+problem and credits Conlon and Lee and Janzer, whose claim pages carry it. The
+site's remark on $k=3$ credits Erdős [Er64c] and Bondy and Simonovits, and it
+misprints the bound as $\mathrm{ex}(n,C_6)\ll n^{7/6}$.
+
+The site also credits Erdős's 1964 proceedings paper [Er64c] with this case.
+There Erdős stated the even-cycle bound without proof. Bondy and Simonovits (p.
+97) describe Erdős's theorem as published without proof. Erdős writes in his
+1974 survey
 ([[../library/extremal_graph_theory/erdos_1974_extremal_problems_graphs_hypergraphs/equation_5|equation 5]])
-that he never published a proof and that Bondy and Simonovits have proved it,
-so that statement has no claim page of its own. Read depth: Theorem 1, the
-deduction of Theorem 1 from Theorem 1\* and the quoted theorem of Erdős
-(pp. 97--98) are checked clause by clause; the proofs (Sections 2--3,
-pp. 99--104) are followed for structure only, and nothing is independently
-reviewed by this project.
+that he never published a proof and that Bondy and Simonovits have proved it. So
+that statement has no claim page of its own.
+
+Read depth: Theorem 1, the deduction of Theorem 1 from Theorem 1\* and the
+quoted theorem of Erdős (pp. 97--98) are checked clause by clause. The proofs
+(Sections 2--3, pp. 99--104) are followed for structure only. Nothing is
+independently reviewed by this project.

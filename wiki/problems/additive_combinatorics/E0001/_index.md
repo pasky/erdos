@@ -2,8 +2,8 @@
 name: problems/additive_combinatorics/E0001
 title: Problem 1
 desc: |
-  Asks whether a set of n integers up to N whose subset sums are all distinct
-  forces N to be at least a constant times 2 to the power n.
+  Asks whether a set of $n$ integers in $\{1,\ldots,N\}$ whose subset sums are
+  all distinct forces $N\gg2^n$; disproved.
 tags:
 - Number theory
 - Additive combinatorics
@@ -30,16 +30,16 @@ $$
 
 **Status.** DISPROVED (FORMALIZED), the site's label. In fact, for every
 $\varepsilon>0$ there are examples of arbitrarily large cardinality with
-$N\leq\varepsilon2^{|A|}$. The claim pages are the 2026
+$N\leq\varepsilon2^{|A|}$. There are two claim pages. The first is the 2026
 [[problems/additive_combinatorics/E0001/claims/2026_09_03_adamczewski|GPT-6 Astra disproof]],
-posted on the proof-claim tab by the site's curator, and the
+posted on the proof-claim tab by the site's curator. The second is the
 [[problems/additive_combinatorics/E0001/claims/2026_09_15_alexeev|dyadic-graph Lean disproof]]
 in Boris Alexeev's lean-proofs repository, which gives an explicit bound at
-every cardinality. Both are accepted on their Lean developments, each pinned
-by its repository's comparator challenge, which this corpus built and checked,
-so the problem stands solved and disproved here; the curator's label and
-credit are not an independent review of a proof claim the curator submitted,
-and neither route has a refereed write-up.
+every cardinality. Both are accepted on their Lean developments. Each is pinned
+by its repository's comparator challenge, which this corpus built and checked.
+So the problem stands solved and disproved here. The curator's label and credit
+are not an independent review of a proof claim the curator submitted. Neither
+route has a refereed write-up.
 
 **Source.** [erdosproblems.com/1](https://www.erdosproblems.com/1), accessed
 2026-10-07 (page last edited 3 September 2026; two entries on the proof-claim

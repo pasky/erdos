@@ -2,8 +2,9 @@
 name: problems/additive_bases/E0337
 title: Problem 337
 desc: |
-  Asks whether every additive basis of density zero has its sumset counting
-  function grow infinitely faster than its own counting function.
+  Asks whether every additive basis $A$ of density zero has
+  $\lvert (A+A)\cap\{1,\ldots,N\}\rvert/\lvert A\cap\{1,\ldots,N\}\rvert\to\infty$;
+  disproved.
 tags:
 - Number theory
 - Additive combinatorics
@@ -29,13 +30,12 @@ $$
 \lim_{N\to \infty}\frac{\lvert (A+A)\cap \{1,\ldots,N\}\rvert}{\lvert A\cap \{1,\ldots,N\}\rvert}=\infty?
 $$
 
-**Status.** Disproved, the site's label (DISPROVED (LEAN),):
-Turjányi [Tu84] gave a counterexample basis of every order $k\ge4$, Ruzsa and
-Turjányi [RT85] gave one of every order $h\ge3$ with the $(h-1)$-fold sumset
-in place of $A+A$, and their order-3 construction has a Lean 4 proof, the
-label's Lean qualifier. The accepted claims are
-[[problems/additive_bases/E0337/claims/1984_01_01_turjanyi|Turjányi 1984]]
-and
+**Status.** Disproved, the site's label (DISPROVED (LEAN)). Turjányi [Tu84] gave
+a counterexample basis of every order $k\ge4$. Ruzsa and Turjányi [RT85] gave
+one of every order $h\ge3$, with the $(h-1)$-fold sumset in place of $A+A$.
+Their order-3 construction has a Lean 4 proof, which is the label's Lean
+qualifier. The accepted claims are
+[[problems/additive_bases/E0337/claims/1984_01_01_turjanyi|Turjányi 1984]] and
 [[problems/additive_bases/E0337/claims/1985_01_01_ruzsa_turjanyi|Ruzsa and Turjányi 1985]].
 
 **Source.** [erdosproblems.com/337](https://www.erdosproblems.com/337), accessed

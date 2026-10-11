@@ -4,15 +4,16 @@ desc: The 1 claim page of Problem 1193, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-07T08:44:40Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/additive_combinatorics/E1193/claims
 
 [[problems/additive_combinatorics/E1193/_index|..]]
 
-[[problems/additive_combinatorics/E1193/claims/2026_04_13_monticone|2026_04_13_monticone]]: Taking A to be all natural numbers and g(n) = n + 1 makes the representation
-count equal g(n) at every n, so the set has density one and both answers are
-no; posted with a Lean file produced with Aristotle, adopted by the curator.
+[[problems/additive_combinatorics/E1193/claims/2026_04_13_monticone|2026_04_13_monticone]]: Pietro Monticone takes $A=\mathbb N$ and $g(n)=n+1$, so the representation
+count equals $g(n)$ at every $n$, the set of such $n$ has density one, and
+both answers are no. Posted with a Lean file produced with Aristotle, the
+example was adopted by the curator.
 
 ***

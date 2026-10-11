@@ -2,8 +2,8 @@
 name: problems/ramsey_theory/E0582
 title: Problem 582
 desc: |
-  Asks whether there is a graph with no complete subgraph on four vertices in
-  which every two-coloring of the edges produces a monochromatic triangle.
+  Asks whether some $K_4$-free graph has a monochromatic triangle in every
+  2-coloring of its edges; proved.
 tags:
 - Graph theory
 - Ramsey theory
@@ -24,31 +24,32 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Does there exist a graph $G$ which contains no $K_4$, and yet any
 $2$-colouring of the edges produces a monochromatic $K_3$?
 
-**Status.** The site labels the problem PROVED (LEAN); the suffix refers to a
-third-party Lean proof of the problem's statement, the case $k_1=k_2=3$ of
-Folkman's theorem, described under Formalization, which this corpus has not
-built. Folkman's 1970 theorem supplies the required graph, and this classical
-existence theorem is sufficient; the quantitative problem of finding the least
-possible order remains open. The claim page
+**Status.** The site labels the problem PROVED (LEAN). The suffix refers to a
+third-party Lean proof of the problem's statement, which is the case $k_1=k_2=3$
+of Folkman's theorem. That proof is described under Formalization, and this
+corpus has not built it. Folkman's 1970 theorem supplies the required graph, and
+this classical existence theorem is sufficient. The quantitative problem of
+finding the least possible order remains open. The claim page
 [[problems/ramsey_theory/E0582/claims/1970_01_01_folkman|Folkman 1970]] records
 the refereed theorem, its specialization to the question, the site's acceptance
 and the Lean proof as a formalization link. The later refereed upper bounds on
-the least order each prove the existence the problem asks for and have their own
-claim pages:
+the least order each prove the existence the problem asks for, and each has its
+own claim page:
 [[problems/ramsey_theory/E0582/claims/1986_12_01_frankl_rodl|Frankl and Rödl 1986]],
 [[problems/ramsey_theory/E0582/claims/1988_11_01_spencer|Spencer 1988]],
 [[problems/ramsey_theory/E0582/claims/2008_01_22_lu|Lu 2008]],
 [[problems/ramsey_theory/E0582/claims/2008_01_01_dudek_rodl|Dudek and Rödl 2008]]
 and
-[[problems/ramsey_theory/E0582/claims/2012_07_16_lange_radziszowski_xu|Lange, Radziszowski and Xu]];
-the lower bounds of Radziszowski and Xu and of Bikov and Nenov settle nothing
-about existence and have none. The frontmatter standing derives from them. The
-site lists a prize without saying which offer it records; the offers the sources
-describe all concern the least order $F_e(3,3;4)$, not existence: Erdős's 1975
-offer for deciding whether fewer than $10^{10}$ vertices suffice, which Spencer
-[Sp88] met; Erdős's later offer for fewer than $10^6$ vertices, which Lu claims
-with $9697$; and Graham's 2012 offer for a proof that $F_e(3,3;4)\le100$ (Lange,
-Radziszowski and Xu, Table 1), which is open.
+[[problems/ramsey_theory/E0582/claims/2012_07_16_lange_radziszowski_xu|Lange, Radziszowski and Xu]].
+The frontmatter standing derives from these claim pages. The lower bounds of
+Radziszowski and Xu and of Bikov and Nenov settle nothing about existence and
+have no claim page. The site lists a prize without saying which offer it
+records. The offers the sources describe all concern the least order
+$F_e(3,3;4)$, not existence. Erdős's 1975 offer was for deciding whether fewer
+than $10^{10}$ vertices suffice, and Spencer [Sp88] met it. Erdős's later offer
+was for fewer than $10^6$ vertices, which Lu claims with $9697$. Graham's 2012
+offer is for a proof that $F_e(3,3;4)\le100$ (Lange, Radziszowski and Xu, Table
+1), and it is open.
 
 **Source.** [erdosproblems.com/582](https://www.erdosproblems.com/582), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #582,

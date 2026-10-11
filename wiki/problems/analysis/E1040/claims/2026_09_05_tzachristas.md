@@ -2,9 +2,10 @@
 name: problems/analysis/E1040/claims/2026_09_05_tzachristas
 title: Tzachristas's general capacity-one case
 desc: |
-  Every compact set of capacity one admits monic polynomials with zeros in it
-  and unit lemniscates of arbitrarily small area; hence every closed infinite
-  set of transfinite diameter at least one has minimal area zero.
+  Tzachristas claims that every compact set of capacity one admits monic
+  polynomials with zeros in it whose unit lemniscates have arbitrarily small
+  area, and hence that every closed infinite set of transfinite diameter at
+  least one has minimal area zero.
 authors:
 - Ioannis Tzachristas
 status: claimed

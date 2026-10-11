@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0929/claims/2014_12_16_ford_green_konyagin_maynard_tao
 title: Ford, Green, Konyagin, Maynard and Tao's covering bound, inverted to an upper bound on S(k)
 desc: |
-  Display (1.2) of the 2018 long-gaps paper, inverted through the covering
-  form, gives S(k) << k log_2 k/(log k log_3 k), a refereed upper bound
-  implying the site's display; the displayed question stays open.
+  Display (1.2) of the 2018 long-gaps paper of Ford, Green, Konyagin, Maynard
+  and Tao, inverted through the covering form, gives the refereed upper bound
+  $S(k)\ll k\log_2k/(\log k\log_3k)$, which implies the site's display. The
+  displayed question stays open.
 authors:
 - Kevin Ford
 - Ben Green

@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E1146
 title: Problem 1146
 desc: |
-  Asks a question about essential components, sets whose sum with any other
-  set of Schnirelmann density strictly between zero and one raises that
-  density.
+  Asks whether $\{2^m3^n : m,n\ge0\}$ is an essential component, that is, a set
+  $A$ with $d_s(A+B)>d_s(B)$ whenever the Schnirelmann density $d_s(B)$ lies
+  strictly between $0$ and $1$; open.
 tags:
 - Number theory
 status: open

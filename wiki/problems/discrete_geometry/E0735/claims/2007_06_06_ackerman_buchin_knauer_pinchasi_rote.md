@@ -3,8 +3,9 @@ name: problems/discrete_geometry/E0735/claims/2007_06_06_ackerman_buchin_knauer_
 title: Ackerman, Buchin, Knauer, Pinchasi and Rote classify magic configurations
 desc: |
   Theorem 1 of Ackerman, Buchin, Knauer, Pinchasi and Rote proves Murty's
-  conjecture: a magic configuration has all but at most one point collinear,
-  no three collinear, or is the failed Fano configuration; refereed in 2008.
+  conjecture that a magic configuration has all but at most one point collinear,
+  has no three points collinear, or is the failed Fano configuration. It was
+  refereed in 2008.
 authors:
 - Eyal Ackerman
 - Kevin Buchin
@@ -75,7 +76,7 @@ point sets whose union's ordinary lines are exactly the lines through two points
 of the first set, and uses the Sylvester–Gallai theorem, the Kelly–Moser bound
 on ordinary lines, and a dual argument on great circles of a sphere.
 
-**Acceptance.** The paper is refereed: it appeared in Discrete and Computational
+**Acceptance.** The paper is refereed. It appeared in Discrete and Computational
 Geometry, volume 39 (2008), after the SCG '07 proceedings version. The site's
 curator, Thomas Bloom, labels the problem solved and credits Ackerman, Buchin,
 Knauer, Pinchasi and Rote.

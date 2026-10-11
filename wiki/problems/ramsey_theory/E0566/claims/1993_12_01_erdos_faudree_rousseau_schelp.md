@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0566/claims/1993_12_01_erdos_faudree_rousseau_schelp
 title: Erdős, Faudree, Rousseau and Schelp, three sparse families
 desc: |
-  The 1993 paper that posed the question proves Ramsey size linearity for
-  connected graphs with at most p+1 edges, the graphs K_1+T_(p-1) and the
-  graphs with Turán number O(n^(3/2)), each inside the corrected hypothesis.
+  The 1993 paper of Erdős, Faudree, Rousseau and Schelp that posed the question
+  proves Ramsey size linearity for three families, each inside the corrected
+  hypothesis: connected $p$-vertex graphs with at most $p+1$ edges, the graphs
+  $K_1+T_{p-1}$, and the graphs with Turán number $O(n^{3/2})$.
 authors:
 - Paul Erdős
 - R. J. Faudree
@@ -75,11 +76,11 @@ alone.
 
 **Acceptance.** Refereed: P. Erdős, R. J. Faudree, C. C. Rousseau and R. H.
 Schelp, Ramsey size linear graphs, Combin. Probab. Comput. 2 (1993), no. 4,
-389--399, received 12 March 1993 and printed in the December 1993 issue, the
-month this page is dated by; the day is a placeholder. The site labels the
-problem OPEN; its commentary credits the paper with Ramsey size linearity for
-graphs on $n$ vertices with at most $n+1$ edges, omitting the connectedness
-Theorem 4 requires, and is not an acceptance.
+389--399. The paper was received on 12 March 1993 and printed in the December
+1993 issue, the month this page is dated by. The day is a placeholder. The site
+labels the problem OPEN, and its commentary is not an acceptance. The commentary
+credits the paper with Ramsey size linearity for graphs on $n$ vertices with at
+most $n+1$ edges, and it omits the connectedness that Theorem 4 requires.
 
 **Read depth.** The statements of Theorems 3, 4 and 5 and Corollary 2 were
 checked clause by clause; their proofs (pp. 392--395) were checked for structure

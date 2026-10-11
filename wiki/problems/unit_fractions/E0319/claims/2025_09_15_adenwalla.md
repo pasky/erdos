@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0319/claims/2025_09_15_adenwalla
 title: "Adenwalla: a lower bound of (1 - 1/e + o(1))N from Croot's theorem"
 desc: |
-  A construction credited to Sarosh Adenwalla in the site's commentary that
-  the largest minimal signed zero-sum relation among the reciprocals of 1
-  through N has size at least (1 - 1/e + o(1))N; site commentary only, pending.
+  A construction credited to Sarosh Adenwalla in the site's commentary, by which
+  the largest minimal signed zero-sum relation among the reciprocals of
+  $1,\ldots,N$ has size at least $(1-1/e+o(1))N$. It rests on site commentary
+  only and is pending.
 authors:
 - Sarosh Adenwalla
 status: claimed

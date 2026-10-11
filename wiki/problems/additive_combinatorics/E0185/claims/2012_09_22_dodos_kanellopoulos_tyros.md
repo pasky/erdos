@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0185/claims/2012_09_22_dodos_kanellopoulos_tyros
 title: Dodos, Kanellopoulos and Tyros's density Hales-Jewett proof applied to Moser sets
 desc: |
-  Dodos, Kanellopoulos and Tyros's 2012 combinatorial proof of the density
-  Hales-Jewett theorem, whose ternary case gives f_3(n)=o(3^n) since a
-  combinatorial line is collinear; refereed; a Lean formalization exists,
+  Dodos, Kanellopoulos and Tyros's refereed 2012 combinatorial proof of the
+  density Hales–Jewett theorem gives $f_3(n)=o(3^n)$ in its ternary case,
+  because a combinatorial line is collinear. A Lean formalization exists but was
   not built here.
 authors:
 - Pandelis Dodos
@@ -64,11 +64,11 @@ the theorem the corollary rests on; the deduction above uses nothing beyond
 its statement.
 
 **Acceptance.** Refereed: the paper appeared in International Mathematics
-Research Notices, published online 15 March 2013 and in print in the 2014
-volume, issue 12 (per its Crossref record). Not reviewed: the site's
-curator credits the answer to the theorem of Furstenberg and Katznelson, not
-to this paper, and no outside reviewer of this proof is documented. Nothing
-here is this project's own review of the proof.
+Research Notices. Its Crossref record dates it to 15 March 2013 online and to
+the 2014 volume, issue 12, in print. Not reviewed: the site's curator credits
+the answer to the theorem of Furstenberg and Katznelson, not to this paper. No
+outside reviewer of this proof is documented. Nothing here is this project's own
+review of the proof.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos185.lean` of
 Boris Alexeev's lean-proofs repository (first added 2026-08-17, last

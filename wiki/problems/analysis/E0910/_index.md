@@ -2,8 +2,9 @@
 name: problems/analysis/E0910
 title: Problem 910
 desc: |
-  Asks whether every connected set in n-dimensional space has a connected
-  subset that is neither a single point nor homeomorphic to the whole set.
+  Asks whether every connected set in $\mathbb{R}^n$ has a connected subset that
+  is neither a point nor homeomorphic to the whole set. This page treats it as
+  open, though the site labels it DISPROVED.
 tags:
 - Topology
 status: open
@@ -59,14 +60,15 @@ is asserted by [Er82e] and the site and has not been found here. The first
 defect is already in [Er82e], which excludes points for the subset only; the
 second is the site's. The $2^c$ form of [Er44] is a variant.
 
-**Status.** The site labels the problem DISPROVED on the strength of
-Rudin's 1958 construction [Ru58]: its commentary credits the construction, under
-the continuum hypothesis, with a negative answer to both questions, a result
-recorded as an [[problems/analysis/E0910/claims/1958_01_01_rudin|accepted
-conditional claim]]. The page departs from the DISPROVED label, as the Notes
-explain: the homeomorphism step that the credit needs for the first question is
-not in the paper and is unchecked here. A conditional claim derives nothing in
-any case, so the standing is open.
+**Status.** The site labels the problem DISPROVED on the strength of Rudin's
+1958 construction [Ru58]. Its commentary credits the construction, under the
+continuum hypothesis, with a negative answer to both questions. That result is
+recorded as an
+[[problems/analysis/E0910/claims/1958_01_01_rudin|accepted conditional claim]].
+The page departs from the DISPROVED label, as the Notes explain. The
+homeomorphism step that the credit needs for the first question is not in the
+paper and is unchecked here. A conditional claim derives nothing in any case, so
+the standing is open.
 
 **Source.** [erdosproblems.com/910](https://www.erdosproblems.com/910), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #910,

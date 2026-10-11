@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E1007/claims/2016_02_01_chaffee_noble
 title: Chaffee and Noble's second proof of the nine-edge minimum
 desc: |
   Theorem 6 of Chaffee and Noble (Australas. J. Combin. 2016) proves that the
-  minimum number of edges of a graph of dimension four is nine, with Lemma 3
-  supplying K_{3,3} as the witness and Theorem 7 its uniqueness; accepted.
+  minimum number of edges of a graph of dimension four is nine. Lemma 3 supplies
+  $K_{3,3}$ as the witness, Theorem 7 shows that it is unique, and the claim is
+  accepted.
 authors:
 - Joe Chaffee
 - Matt Noble
@@ -65,19 +66,19 @@ and its Theorems 10 and 11 add the dimension-$5$ value $15$, attained only by
 $K_6$ and $K_{1,3,3}$, which the site records as context.
 
 **Acceptance.** Refereed publication in the Australasian Journal of
-Combinatorics, an open-access journal (received 14 January 2015, revised 19
-July and 27 October 2015; volume 64, part 2, of 2016; the journal's volume
-listing, 2026-09-18 and 2026-10-07, dates volume 64 February 2016, whose
-nominal first day is this page's date). The site's curator, Thomas Bloom,
-labels the problem solved and credits the alternative proof to Chaffee and
-Noble [ChNo16] (the `reviewed` evidence; Bloom took no part in the paper);
-the proof-claim tab is empty. Read depth: claims checked for Lemma 3,
-Theorem 6 and Theorem 7; the proof of Theorem 6 was followed and rests on
-values that Erdős, Harary and Tutte assert on pp. 118--119 without printed
-proof (except Lenz's construction for $\dim K_{m,n}\le4$); the proof of
-Theorem 7 was read for structure only; nothing is independently reviewed by
-this project. The acceptance rests on the publication and the curator's
-credit.
+Combinatorics, an open-access journal. The paper was received 14 January 2015
+and revised 19 July and 27 October 2015. It appeared in volume 64, part 2,
+of 2016. The journal's volume listing (2026-09-18 and 2026-10-07) dates volume 64
+February 2016, and this page's date is that month's nominal first day. The
+site's curator, Thomas Bloom, labels the problem solved and credits the
+alternative proof to Chaffee and Noble [ChNo16]. This is the `reviewed`
+evidence, and Bloom took no part in the paper. The proof-claim tab is empty.
+Read depth: claims checked for Lemma 3, Theorem 6 and Theorem 7. The proof of
+Theorem 6 was followed. It rests on values that Erdős, Harary and Tutte assert
+on pp. 118--119 without printed proof, except Lenz's construction for
+$\dim K_{m,n}\le4$. The proof of Theorem 7 was read for structure only. Nothing
+is independently reviewed by this project. The acceptance rests on the
+publication and the curator's credit.
 
 **Formalization.** The file `src/v4.29.1/ErdosProblems/Erdos1007.lean` of
 Boris Alexeev's repository plby/lean-proofs (Lean v4.29.1 with Mathlib

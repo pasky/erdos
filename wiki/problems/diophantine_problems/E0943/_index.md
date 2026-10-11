@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0943
 title: Problem 943
 desc: |
-  Asks whether the number of ways of writing n as a sum of two powerful
-  numbers is smaller than any fixed power of n.
+  Asks whether the number of ways to write $n$ as a sum of two powerful numbers
+  is $n^{o(1)}$; open.
 tags:
 - Number theory
 - Powerful numbers

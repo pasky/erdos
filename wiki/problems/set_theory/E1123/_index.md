@@ -2,8 +2,9 @@
 name: problems/set_theory/E1123
 title: Problem 1123
 desc: |
-  Compares the Boolean algebra of sets of integers modulo density zero with
-  the Boolean algebra of sets modulo logarithmic density zero.
+  Asks for a proof that the Boolean algebra of sets of integers modulo sets of
+  density $0$ is not isomorphic to the Boolean algebra of sets modulo sets of
+  logarithmic density $0$; independent.
 tags:
 - Set theory
 status: solved

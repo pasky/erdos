@@ -3,8 +3,9 @@ name: problems/set_theory/E1174/claims/1993_03_01_komjath_shelah
 title: Komjáth and Shelah's consistent edge partition theorem
 desc: |
   Komjáth and Shelah (Acta Math. Hungar., 1993) proved, from a class of
-  measurable cardinals, the consistency of: for every graph Y and cardinal mu
-  some graph X has X -> (Y)^2_mu and omits every complete graph Y omits.
+  measurable cardinals, that it is consistent that for every graph $Y$ and
+  cardinal $\mu$ some graph $X$ has $X\to(Y)^2_\mu$ and omits every complete
+  graph that $Y$ omits.
 authors:
 - P. Komjáth
 - S. Shelah
@@ -80,12 +81,12 @@ The publisher's record dates the issue, volume 61, numbers 1--2, to March
 1993 and carries no day, so this page is dated the first of that month.
 
 **Acceptance.** Refereed: a journal paper in Acta Mathematica Hungarica.
-Reviewed: the curator of erdosproblems.com, T. F. Bloom, labels the problem
-not disprovable, and the page's remark credits Shelah with the consistency of
-a graph with either property without citing a paper; the written source of
-the second property found is this joint paper, whose introduction claims it,
-and the thread comment of 9 February 2026 links the archive's copy. The
-community database records the label from 19 March 2026. Nothing on this page
-is independently reviewed by this project.
+Reviewed: the curator of erdosproblems.com, T. F. Bloom, labels the problem not
+disprovable. The page's remark credits Shelah with the consistency of a graph
+with either property, without citing a paper. The written source found for the
+second property is this joint paper, whose introduction claims it. The thread
+comment of 9 February 2026 links the archive's copy. The community database
+records the label from 19 March 2026. Nothing on this page is independently
+reviewed by this project.
 
 **Depends on.** No other wiki page; the claim rests on the paper above.

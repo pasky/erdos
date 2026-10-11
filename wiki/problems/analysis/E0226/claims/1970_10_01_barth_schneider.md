@@ -2,9 +2,10 @@
 name: problems/analysis/E0226/claims/1970_10_01_barth_schneider
 title: Barth and Schneider's entire function mapping countable dense sets
 desc: |
-  Barth and Schneider construct, for countable dense sets A and B of reals, a
-  transcendental entire function real on the real line that takes values in B
-  exactly at the points of A; A = B = Q answers Problem 226 yes.
+  Barth and Schneider construct, for countable dense sets $A$ and $B$ of reals,
+  a transcendental entire function, real on the real line, that takes values in
+  $B$ exactly at the points of $A$. Taking $A=B=\mathbb Q$ answers Problem 226
+  yes.
 authors:
 - K. F. Barth
 - W. J. Schneider

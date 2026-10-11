@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0576
 title: Problem 576
 desc: |
-  Determines how many edges a graph on n vertices can have without containing
-  the k-dimensional hypercube graph; for the cube the order lies between n to
-  the three halves and n to the eight fifths, refuting Erdős's first guess.
+  Asks for the behaviour of $\mathrm{ex}(n;Q_k)$, the most edges of a graph on
+  $n$ vertices with no $k$-dimensional hypercube $Q_k$. It is open; for the cube
+  the order lies between $n^{3/2}$ and $n^{8/5}$, which refutes Erdős's first
+  guess.
 tags:
 - Graph theory
 - Turán numbers
@@ -52,20 +53,21 @@ site's lower bound is this containment applied to the $C_4$ asymptotic of
 Problem 765, not a separate theorem of the paper, as Janzer and Sudakov also
 say (p. 1: it "follows from the observation that $Q_3$ contains a 4-cycle").
 
-**Status.** Open. For the cube, $(\tfrac12+o(1))n^{3/2}\le\mathrm{ex}(n;Q_3)\le
-O(n^{8/5})$, the upper bound being display (5) of Erdős and Simonovits (1970)
-and unimproved since, the lower bound the 4-cycle bound; Erdős's original guess
-that $n^{5/3}$ is the order is refuted by the upper bound. For $k\ge3$ in
-general, $\mathrm{ex}(n;Q_k)=O_k(n^{2-\frac1{k-1}+\frac1{(k-1)2^{k-1}}})$
-(Janzer and Sudakov, Theorem 1.4; Forum of Mathematics, Sigma 2024, refereed),
-the first power improvement over the dependent-random-choice bound
-$O(n^{2-1/k})$ and over the $o(n^{2-1/k})$ they attribute to Sudakov and Tomon,
-against the lower bound
-$\Omega(n^{2-\frac{2^k-2}{k2^{k-1}-1}})\ge\Omega(n^{2-2/k})$ from the deletion
-method (their p. 17); for $k=3$ their exponent $13/8$ exceeds $8/5$, so the 1970
-bound stands for the cube. No source cited here determines the exponent for any
-$k\ge3$, and none was found in the search whose scope the Current assessment
-records. This is a bounded negative finding, not a certificate of openness.
+**Status.** Open. For the cube,
+$(\tfrac12+o(1))n^{3/2}\le\mathrm{ex}(n;Q_3)\le O(n^{8/5})$. The upper bound is
+display (5) of Erdős and Simonovits (1970) and has not been improved since. The
+lower bound is the 4-cycle bound. The upper bound refutes Erdős's original guess
+that $n^{5/3}$ is the order. For $k\ge3$ in general,
+$\mathrm{ex}(n;Q_k)=O_k(n^{2-\frac1{k-1}+\frac1{(k-1)2^{k-1}}})$ (Janzer and
+Sudakov, Theorem 1.4; Forum of Mathematics, Sigma 2024, refereed). This is the
+first power improvement over the dependent-random-choice bound $O(n^{2-1/k})$
+and over the $o(n^{2-1/k})$ they attribute to Sudakov and Tomon. The lower bound
+from the deletion method is
+$\Omega(n^{2-\frac{2^k-2}{k2^{k-1}-1}})\ge\Omega(n^{2-2/k})$ (their p. 17). For
+$k=3$ their exponent $13/8$ exceeds $8/5$, so the 1970 bound stands for the
+cube. No source cited here determines the exponent for any $k\ge3$, and none was
+found in the search whose scope the Current assessment records. This is a
+bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/576](https://www.erdosproblems.com/576),
 accessed 2026-09-18: the problem page (OPEN,

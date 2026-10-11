@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0132/claims/2025_05_07_clemen_dumitrescu_liu
 title: Clemen, Dumitrescu and Liu's convex and two-layer cases
 desc: |
-  For n at least 5, every convex n-point planar set, and every n-point set with
-  small enough first two convex layers, has a distance besides the diameter
-  occurring at most n times (Theorems 1.2 and 1.3); refereed in Acta Math. Hungar.
+  Theorems 1.2 and 1.3 of Clemen, Dumitrescu and Liu show that for $n\ge5$,
+  every convex $n$-point planar set, and every $n$-point set with small enough
+  first two convex layers, has a distance besides the diameter occurring at most
+  $n$ times. The paper is refereed in Acta Math. Hungar.
 authors:
 - Felix Christian Clemen
 - Adrian Dumitrescu
@@ -63,10 +64,10 @@ $n\ge7$ points and the second, asymptotic question are not touched.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper is the publisher's version of record in Acta
-Mathematica Hungarica, volume 177, issue 1 (the Crossref record dates the issue
-to October 2025 and the online publication to 12 November 2025); the preprint
+Mathematica Hungarica, volume 177, issue 1. The Crossref record dates the issue
+to October 2025 and the online publication to 12 November 2025. The preprint
 arXiv:2505.04283 was first posted on 7 May 2025, the date this page carries. Not
 reviewed under the corpus's rule: the site's commentary credits [CDL25] with the
 convex case and a case of nearly convex sets, but the site labels the problem
-OPEN, so that commentary is a credit on an open problem and not an acceptance
-that settles it. The proofs were not independently reviewed by this corpus.
+OPEN. That commentary is therefore a credit on an open problem, not an
+acceptance that settles it. This corpus did not independently review the proofs.

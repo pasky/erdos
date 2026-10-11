@@ -2,8 +2,9 @@
 name: problems/additive_bases/E0153
 title: Problem 153
 desc: |
-  Asks whether the mean squared gap between consecutive elements of the sumset
-  of a finite Sidon set grows without bound as the set grows.
+  Asks whether, for a finite Sidon set $A$, the mean squared gap between
+  consecutive elements of $A+A$ tends to infinity as $\lvert A\rvert\to\infty$;
+  open.
 tags:
 - Sidon sets
 status: open
@@ -29,24 +30,27 @@ $$
 
 as $\lvert A\rvert\to \infty$?
 
-**Status.** Open, the site's label (OPEN). Three claim pages are recorded,
-two pending partial claims and one withdrawn full claim.
-[[problems/additive_bases/E0153/claims/2026_05_16_liu|Liu's withdrawn proof]],
-a note of 2026-05-16 posted to the site's discussion thread, derived the answer
-yes from a shifted-intersection bound that was retracted the same day, and the
-author withdrew it.
-[[problems/additive_bases/E0153/claims/2026_05_19_liu|Liu's divergence for
-asymptotically maximum Sidon sets]], the corrected note dated 2026-05-20,
-entered in the author's repository on 2026-05-19 and posted to the thread on
-2026-05-20, proves the answer yes for every family of Sidon sets whose diameter
-is $(1+o(1))n^2$ through Pikhurko's uniformity lemma.
-[[problems/additive_bases/E0153/claims/2026_08_14_kapoor|Kapoor's logarithmic
-lower bound]], a write-up of 2026-08-14, entered on the site's proof-claims
-thread on 2026-08-21, bounds the mean squared gap below by a constant
-times $\min\{\log\frac1{\kappa-1},\log n\}$ with $\kappa$ the diameter over
-$n^2$, answering yes for sets of nearly minimal diameter and for dyadically
-non-concentrated families and reducing the general case without settling it.
-The proof-claims thread had no comment on it as of 2026-10-06.
+**Status.** Open, the site's label (OPEN). Three claim pages are recorded: two
+pending partial claims and one withdrawn full claim.
+
+[[problems/additive_bases/E0153/claims/2026_05_16_liu|Liu's withdrawn proof]] is
+a note of 2026-05-16 posted to the site's discussion thread. It derived the
+answer yes from a shifted-intersection bound that was retracted the same day,
+and the author withdrew it.
+
+[[problems/additive_bases/E0153/claims/2026_05_19_liu|Liu's divergence for asymptotically maximum Sidon sets]]
+is the corrected note, dated 2026-05-20. It was entered in the author's
+repository on 2026-05-19 and posted to the thread on 2026-05-20. Through
+Pikhurko's uniformity lemma, it proves the answer yes for every family of Sidon
+sets whose diameter is $(1+o(1))n^2$.
+
+[[problems/additive_bases/E0153/claims/2026_08_14_kapoor|Kapoor's logarithmic lower bound]]
+is a write-up of 2026-08-14, entered on the site's proof-claims thread on
+2026-08-21. It bounds the mean squared gap below by a constant times
+$\min\{\log\frac1{\kappa-1},\log n\}$, where $\kappa$ is the diameter over
+$n^2$. This answers yes for sets of nearly minimal diameter and for dyadically
+non-concentrated families. It reduces the general case without settling it. The
+proof-claims thread had no comment on it as of 2026-10-06.
 
 **Source.** [erdosproblems.com/153](https://www.erdosproblems.com/153), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #153,

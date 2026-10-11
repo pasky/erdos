@@ -2,9 +2,10 @@
 name: problems/polynomials/E0525
 title: Problem 525
 desc: |
-  Asks whether almost all degree n polynomials with coefficients plus or minus
-  one dip below absolute value one on the unit circle, and how small that
-  minimum is.
+  Asks whether all but $o(2^n)$ of the degree-$n$ polynomials $f$ with $\pm 1$
+  coefficients have $\lvert f(z)\rvert<1$ somewhere on $\lvert z\rvert=1$, and
+  how $\min_{\lvert z\rvert=1}\lvert f(z)\rvert$ behaves; both questions are
+  answered.
 tags:
 - Analysis
 - Probability
@@ -31,21 +32,27 @@ $$
 m(f)=\min_{\lvert z\rvert=1}\lvert f(z)\rvert?
 $$
 
-**Status.** Solved; the site's label is PROVED. Both questions are answered:
-Konyagin proved in 1994 that $m(f)\le n^{-1/2+o(1)}$ for all but $o(2^n)$ of
-the sign choices, the first bound below $1$ and so the first answer, yes, to
-the first question, after Kashin's bound $m(f)\le n^{1/2}(\log n)^{-1/3}$ of
-1987; Konyagin and Schlag proved in 1999 that $m(f)$ is not typically
-smaller than a constant times $n^{-1/2}$, so the exponent $-1/2$ is optimal;
-and Cook and Nguyen proved in 2021 the exponential limit law of $m(f)$ at
-that scale (all refereed; the accepted claim pages are [[problems/polynomials/E0525/claims/1987_01_01_kashin|Kashin 1987]], [[problems/polynomials/E0525/claims/1994_06_20_konyagin|Konyagin 1994]], [[problems/polynomials/E0525/claims/1999_08_27_konyagin_schlag|Konyagin and Schlag 1999]] and
-[[problems/polynomials/E0525/claims/2021_01_18_cook_nguyen|Cook and Nguyen 2021]], the last of scope full). The derived standing is `solved`/`answered`:
-the first question is answered yes, and the second asks for the behavior of
-$m(f)$, which a limit law determines rather than proves or disproves. The
-site's commentary credits the first question to Kashin, which the account
-in Konyagin's paper contradicts, as the Current assessment records. The
-site's page links a formalized statement in formal-conjectures; no formal
-proof is built or audited in this repository.
+**Status.** Solved. The site's label is PROVED. The derived standing is
+`solved`/`answered`. Both questions are answered. The first is answered yes. The
+second asks for the behavior of $m(f)$, which a limit law determines rather than
+proves or disproves.
+
+Kashin proved the bound $m(f)\le n^{1/2}(\log n)^{-1/3}$ in 1987. Konyagin then
+proved in 1994 that $m(f)\le n^{-1/2+o(1)}$ for all but $o(2^n)$ of the sign
+choices. This was the first bound below $1$, and so the first answer, yes, to
+the first question. Konyagin and Schlag proved in 1999 that $m(f)$ is not
+typically smaller than a constant times $n^{-1/2}$, so the exponent $-1/2$ is
+optimal. Cook and Nguyen proved in 2021 the exponential limit law of $m(f)$ at
+that scale. All of these results are refereed. The accepted claim pages are
+[[problems/polynomials/E0525/claims/1987_01_01_kashin|Kashin 1987]],
+[[problems/polynomials/E0525/claims/1994_06_20_konyagin|Konyagin 1994]],
+[[problems/polynomials/E0525/claims/1999_08_27_konyagin_schlag|Konyagin and Schlag 1999]]
+and
+[[problems/polynomials/E0525/claims/2021_01_18_cook_nguyen|Cook and Nguyen 2021]],
+the last of scope full. The site's commentary credits the first question to
+Kashin. The account in Konyagin's paper contradicts this, as the Current
+assessment records. The site's page links a formalized statement in
+formal-conjectures. No formal proof is built or audited in this repository.
 
 **Source.** [erdosproblems.com/525](https://www.erdosproblems.com/525), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #525,

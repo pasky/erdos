@@ -2,8 +2,10 @@
 name: problems/analysis/E0973
 title: Problem 973
 desc: |
-  Asks whether n complex numbers of modulus at least one, the first equal to
-  one, can keep all their power sums below an exponentially small bound.
+  Asks whether there is $C>1$ such that, for every $n\geq 2$, some complex
+  $z_1=1,z_2,\ldots,z_n$ with $\lvert z_i\rvert\geq 1$ satisfy
+  $\lvert\sum_iz_i^k\rvert<C^{-n}$ for all $2\leq k\leq n+1$. Pending claims
+  answer no; the site lists it as OPEN.
 tags:
 - Analysis
 status: claimed
@@ -29,14 +31,13 @@ $$
 $$
 
 **Status.** Open. The site's proof-claims tab carries one full proof claim,
-filed 15 July 2026 by Luo, Yang and Zhu, who name GPT 5.6 Sol Pro on the tab,
-and the formal-conjectures statement file marks the problem research solved citing
-their preprint; the site's label is unchanged (OPEN; page last edited 23 January
-2026, before the claim). The pending claims, both negative answers, are
-[[problems/analysis/E0973/claims/2026_07_15_luo_yang_zhu|the page of Luo, Yang
-and Zhu]] and
-[[problems/analysis/E0973/claims/2026_08_03_tan_wang_huang_chen|the page of Tan,
-Wang, Huang and Chen]].
+filed 15 July 2026 by Luo, Yang and Zhu, who name GPT 5.6 Sol Pro on the tab.
+The site's label is unchanged (OPEN; page last edited 23 January 2026, before
+the claim). The formal-conjectures statement file marks the problem research
+solved, citing their preprint. The pending claims, both negative answers, are
+[[problems/analysis/E0973/claims/2026_07_15_luo_yang_zhu|the page of Luo, Yang and Zhu]]
+and
+[[problems/analysis/E0973/claims/2026_08_03_tan_wang_huang_chen|the page of Tan, Wang, Huang and Chen]].
 
 **Source.** [erdosproblems.com/973](https://www.erdosproblems.com/973), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #973,

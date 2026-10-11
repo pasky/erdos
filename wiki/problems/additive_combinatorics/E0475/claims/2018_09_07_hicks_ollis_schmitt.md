@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0475/claims/2018_09_07_hicks_ollis_schmitt
 title: Hicks, Ollis and Schmitt's size p - 3 with nonzero sum
 desc: |
-  Theorem 4.6 of Hicks, Ollis and Schmitt (J. Combin. Des. 2019): Alspach's
-  conjecture in Z_p for size p - 3, so every (p - 3)-subset with nonzero sum
-  has an ordering with distinct partial sums; accepted, refereed.
+  Theorem 4.6 of Hicks, Ollis and Schmitt (J. Combin. Des. 2019), accepted and
+  refereed, proves Alspach's conjecture in $\mathbb Z_p$ for size $p-3$. So
+  every $(p-3)$-subset with nonzero sum has an ordering with distinct partial
+  sums.
 authors:
 - Jacob Hicks
 - M. A. Ollis
@@ -72,8 +73,8 @@ $13\le t\le p-4$ for a fixed prime.
 its library result page.
 
 **Acceptance.** Refereed publication: Journal of Combinatorial Designs 27
-(2019), no. 6, 369--385, published online 31 January 2019 (Crossref record;
-the journal text is not held and not compared with the arXiv version). The
-site's commentary credits the range $p-3\le t\le p-1$ to this paper and its
-references, but the site's label DECIDABLE leaves the problem open and settles
-no part of it, so that credit is not `reviewed` evidence.
+(2019), no. 6, 369--385, published online 31 January 2019 (Crossref record). The
+journal text is not held and was not compared with the arXiv version. The site's
+commentary credits the range $p-3\le t\le p-1$ to this paper and its references.
+But the site's label DECIDABLE leaves the problem open and settles no part of
+it, so that credit is not `reviewed` evidence.

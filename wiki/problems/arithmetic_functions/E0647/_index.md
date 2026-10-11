@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0647
 title: Problem 647
 desc: |
-  Asks whether some n greater than 24 has m plus the number of divisors of m
-  at most n plus two for every m less than n.
+  Asks whether some $n>24$ satisfies $m+\tau(m)\le n+2$ for every $m<n$, where
+  $\tau(m)$ is the number of divisors of $m$; open.
 tags:
 - Number theory
 status: open

@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E1073
 title: Problem 1073
 desc: |
-  Asks whether the number of composite numbers below x dividing n factorial
-  plus one for some n is at most x to a power tending to zero.
+  Asks whether the number $A(x)$ of composite $u<x$ dividing $n!+1$ for some $n$
+  satisfies $A(x)\le x^{o(1)}$; open.
 tags:
 - Number theory
 status: open

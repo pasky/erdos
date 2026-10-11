@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E0666
 title: Problem 666
 desc: |
-  Asks whether every subgraph of the n-dimensional hypercube with a positive
-  fraction of its edges contains a six-cycle, once n is large enough.
+  Asks whether, for every $\epsilon>0$ and all large $n$, every subgraph of the
+  hypercube $Q_n$ with at least an $\epsilon$ fraction of its edges contains a
+  $C_6$; disproved.
 tags:
 - Graph theory
 status: solved
@@ -30,17 +31,17 @@ $$
 
 many edges contains a $C_6$?
 
-**Status.** DISPROVED (LEAN). The site answers the question with no and
-credits Chung [Ch92] and Brouwer, Dejter and Thomassen [BDT93] with an
-edge-partition of $Q_n$ into four subgraphs none containing a $C_6$, so a
-class with a quarter of the edges avoids $C_6$; each paper is recorded as an
-accepted claim, on the refereed venue and the site's acceptance, on
+**Status.** DISPROVED (LEAN), the site's label. The site answers the question
+with no. It credits Chung [Ch92] and Brouwer, Dejter and Thomassen [BDT93] with
+an edge-partition of $Q_n$ into four subgraphs, none containing a $C_6$, so a
+class with a quarter of the edges avoids $C_6$. Each paper is recorded as an
+accepted claim, on the basis of the refereed venue and the site's acceptance, on
 [[problems/extremal_graph_theory/E0666/claims/1992_07_01_chung|Chung's claim page]]
 and
-[[problems/extremal_graph_theory/E0666/claims/1993_03_01_brouwer_dejter_thomassen|the Brouwer--Dejter--Thomassen claim page]],
-from which the frontmatter standing is derived. The site's label is
-"DISPROVED (LEAN)"; the formalization its Lean qualification refers to is
-linked on both claim pages and described under Formalization below.
+[[problems/extremal_graph_theory/E0666/claims/1993_03_01_brouwer_dejter_thomassen|the Brouwer--Dejter--Thomassen claim page]].
+The frontmatter standing is derived from these pages. The formalization that the
+label's Lean qualification refers to is linked on both claim pages and described
+under Formalization below.
 
 **Source.** [erdosproblems.com/666](https://www.erdosproblems.com/666), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #666,

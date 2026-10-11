@@ -2,9 +2,9 @@
 name: problems/irrationality/E0495
 title: Problem 495
 desc: |
-  Asks whether, for all pairs of real numbers, the product of n with the
-  distances from n times each number to the nearest integer has limit inferior
-  zero.
+  Asks whether $\liminf_{n\to\infty} n\|n\alpha\|\|n\beta\|=0$ for all real
+  $\alpha,\beta$, where $\|x\|$ is the distance from $x$ to the nearest integer;
+  open.
 tags:
 - Diophantine approximation
 - Number theory

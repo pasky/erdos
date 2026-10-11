@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0979
 title: Problem 979
 desc: |
-  Asks whether, for each k at least two, the number of ways to write n as a
-  sum of k kth powers of primes is unbounded.
+  Asks whether, for each $k\geq 2$, the number of ways to write
+  $n=p_1^k+\cdots+p_k^k$ with all $p_i$ prime is unbounded; open.
 tags:
 - Number theory
 status: open
@@ -28,9 +28,9 @@ $$
 
 where the $p_i$ are prime numbers. Is it true that $\limsup f_k(n)=\infty$?
 
-**Status.** Open. The site labels the problem OPEN (the page was last edited
-on 19 September 2025) and credits Erdős with the case $k=2$ [Er37b] and with
-a proof of the case $k=3$ that appears to be unpublished.
+**Status.** Open. The site labels the problem OPEN, and its page was last edited
+on 19 September 2025. The site credits Erdős with the case $k=2$ [Er37b]. It
+also credits him with a proof of the case $k=3$ that appears to be unpublished.
 
 **Source.** [erdosproblems.com/979](https://www.erdosproblems.com/979), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #979,

@@ -3,8 +3,9 @@ name: problems/arithmetic_functions/E0048/claims/2009_06_18_ford_luca_pomerance
 title: Infinitely many common values of phi and sigma
 desc: |
   Ford, Luca and Pomerance prove that Euler's totient and the sum of divisors
-  take infinitely many common values, with at least exp((log log x)^alpha) of
-  them up to x; refereed in the Bulletin of the London Mathematical Society.
+  take infinitely many common values, with at least $\exp((\log\log x)^\alpha)$
+  of them up to $x$. The result appeared in a refereed paper in the Bulletin of
+  the London Mathematical Society.
 authors:
 - Kevin Ford
 - Florian Luca
@@ -72,10 +73,11 @@ kernel-checked or audited it.
 
 **Acceptance.** Refereed: Bull. Lond. Math. Soc. 42 (2010), no. 3, 478–488,
 published online 2010-03-24. Reviewed: the site's curator, Thomas F. Bloom,
-credits the affirmative answer to this paper in the problem's commentary, and Garaev's refereed paper of 2011 (Mosc. J. Comb. Number
-Theory 1 (2011), no. 3, 42–49; its own accepted claim page is
-[[problems/arithmetic_functions/E0048/claims/2011_01_01_garaev|Garaev 2011]])
-takes the theorem as its starting point and sharpens the count to
-$\exp((\log\log x)^{A})$ for every $A>0$. The site's label is PROVED
-(LEAN); this corpus has not built or audited the Lean development linked
-above, so no `formalized` evidence is listed.
+credits the affirmative answer to this paper in the problem's commentary.
+Garaev's refereed paper of 2011 (Mosc. J. Comb. Number Theory 1 (2011), no. 3,
+42–49) takes the theorem as its starting point and sharpens the count to
+$\exp((\log\log x)^{A})$ for every $A>0$. Garaev's paper has its own accepted
+claim page,
+[[problems/arithmetic_functions/E0048/claims/2011_01_01_garaev|Garaev 2011]].
+The site's label is PROVED (LEAN). This corpus has not built or audited the Lean
+development linked above, so no `formalized` evidence is listed.

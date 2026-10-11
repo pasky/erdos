@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0072/claims/2020_10_29_liu_montgomery
 title: Liu and Montgomery's explicit unavoidable set
 desc: |
-  Liu and Montgomery prove that every increasing sequence of even integers of
-  at most stretched-exponential growth, the powers of two among them, is
-  unavoidable at large average degree: an explicit density-zero set for 72.
+  Liu and Montgomery prove that every increasing sequence of even integers of at
+  most stretched-exponential growth, such as the powers of two, is unavoidable
+  at large average degree. This gives an explicit density-zero set for
+  Problem 72.
 authors:
 - Hong Liu
 - Richard Montgomery
@@ -54,14 +55,14 @@ problem a second time, after
 and contradicts Erdős's expectation that the powers of two are avoidable.
 
 **Acceptance.** The paper is a refereed publication in the Journal of the
-American Mathematical Society (published online 2023-03-31), and the site's
-curator, Thomas Bloom, records it as proving the statement for the powers of
-two, which is the reviewed evidence listed. The corpus's
+American Mathematical Society (published online 2023-03-31). The site's curator,
+Thomas Bloom, records it as proving the statement for the powers of two, which
+is the reviewed evidence listed. The corpus's
 [[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/_index|source card]]
-reconstructs the proof from the arXiv v2 manuscript; that reconstruction is
-incomplete at one lemma and is author-recorded, not independently reviewed,
-which concerns the compilation and not the published result. The acceptance
-recorded here rests on the publication and the site's acceptance.
+reconstructs the proof from the arXiv v2 manuscript. That reconstruction is
+incomplete at one lemma and is author-recorded, not independently reviewed. This
+concerns the compilation and not the published result. The acceptance recorded
+here rests on the publication and the site's acceptance.
 
 **Depends on.**
 [[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/corollary_1_3|Corollary 1.3]],

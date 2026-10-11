@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E1064/claims/2002_01_01_luca_pomerance
 title: Totient of n minus its totient is almost always smaller
 desc: |
-  Luca and Pomerance prove that the totient of n exceeds the totient of n minus
-  its totient for almost all n, by a margin of any order below n, and remark
-  without proof that the reverse holds infinitely often by any factor.
+  Luca and Pomerance prove that $\phi(n)>\phi(n-\phi(n))$ for almost all $n$, by
+  a margin of any order below $n$. They remark without proof that the reverse
+  holds infinitely often by any factor.
 authors:
 - Florian Luca
 - Carl Pomerance
@@ -67,22 +67,22 @@ margin $n\varepsilon(n)$ for any $\varepsilon(x)\to0$. The second part
 **Depends on.** No page of this wiki: the proof is self-contained in the
 paper.
 
-**Acceptance.** Refereed: the paper appeared in Colloquium Mathematicum in
-2002 (volume 92, issue 1; the issue carries no month, so the page's date is
-the first day of the publication year). Reviewed: erdosproblems.com labels
-the problem PROVED and credits the density-one statement, with the margin
-$o(n)$, to this paper as [LuPo02] (page last edited 2025-10-06), which the
-corpus counts as documented independent acceptance of this part by the
-site's curator, T. F. Bloom (erdosproblems.com); the site's commentary also
-describes the density remark as proved, which the paper does not support.
-The community database lists the problem proved, with its statement
-formalized and no formal proof. Formalization: the Lean file in Boris
-Alexeev's lean-proofs repository, linked above at its pinned commit, declares
-itself a formalization of Luca and Pomerance's solution, names Codex and
-GPT-5.6 Sol as its formal authors, and proves the density-one statement
-`erdos_1064` without `sorry`, together with the infinitude variant and the
-margin variant of the formal-conjectures file; the corpus has not built or
-audited it, and no Lean that the corpus built and audited checks the
-statement, so the evidence lists no `formalized` kind. The proof is not
-compiled in this wiki; the standing rests on the refereeing and the site's
-acceptance.
+**Acceptance.** Refereed: the paper appeared in Colloquium Mathematicum in 2002
+(volume 92, issue 1). The issue carries no month, so the page's date is the
+first day of the publication year. Reviewed: erdosproblems.com labels the
+problem PROVED and credits the density-one statement, with the margin $o(n)$, to
+this paper as [LuPo02] (page last edited 2025-10-06). The corpus counts this as
+documented independent acceptance of this part by the site's curator, T. F.
+Bloom (erdosproblems.com). The site's commentary also describes the density
+remark as proved, which the paper does not support. The community database lists
+the problem proved, with its statement formalized and no formal proof.
+
+Formalization: the Lean file in Boris Alexeev's lean-proofs repository, linked
+above at its pinned commit, declares itself a formalization of Luca and
+Pomerance's solution. It names Codex and GPT-5.6 Sol as its formal authors. It
+proves the density-one statement `erdos_1064` without `sorry`, together with the
+infinitude variant and the margin variant of the formal-conjectures file. The
+corpus has not built or audited it, and no Lean that the corpus built and
+audited checks the statement. So the evidence lists no `formalized` kind. The
+proof is not compiled in this wiki. The standing rests on the refereeing and the
+site's acceptance.

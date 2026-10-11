@@ -2,9 +2,9 @@
 name: problems/analysis/E0513
 title: Problem 513
 desc: |
-  Determines the largest limit inferior of the ratio of the maximal power
-  series term of a transcendental entire function to its maximum modulus on
-  radius r.
+  Asks for the greatest possible value of
+  $\liminf_{r\to\infty}\max_n\lvert a_nr^n\rvert/\max_{\lvert z\rvert=r}\lvert f(z)\rvert$
+  over transcendental entire functions $f=\sum a_nz^n$; open.
 tags:
 - Analysis
 status: open
@@ -30,22 +30,24 @@ $$
 
 **Status.** Open, the site's label (page last edited 2 April 2026). The value
 asked for, the supremum $B$, is known to lie in an interval whose ends are
-recorded below. One accepted partial claim,
-[[problems/analysis/E0513/claims/1964_12_01_clunie_hayman|Clunie and Hayman
-1964]], proves $4/7<B\le2/\pi-c$ on its refereed publication; three pending
-partial claims certify larger lower bounds by interval arithmetic:
-[[problems/analysis/E0513/claims/2026_02_12_he_tang|He and Tang's certified
-lower bound]], an arXiv paper of 12 February 2026 announced in the site's
-discussion thread and credited by the site's commentary, which raised the
-bound from $4/7$ to $0.58507$;
-[[problems/analysis/E0513/claims/2026_02_27_sothanaphan|Sothanaphan's
-certified parameter improvement]], a note of 27 February 2026 produced with
-GPT-5.2 Thinking, announced in the discussion thread and credited by the
-commentary, which holds the best lower bound; and
-[[problems/analysis/E0513/claims/2026_08_02_lystad|Lystad's certified lower
-bound]], filed on the site's proof-claims tab on 2 August 2026 with declared
-AI assistance, which certifies a bound slightly below it and re-verifies it.
-The site has adopted none as a solution, and the derived standing is open.
+recorded below.
+
+One accepted partial claim,
+[[problems/analysis/E0513/claims/1964_12_01_clunie_hayman|Clunie and Hayman 1964]],
+proves $4/7<B\le2/\pi-c$ on its refereed publication. Three pending partial
+claims certify larger lower bounds by interval arithmetic.
+[[problems/analysis/E0513/claims/2026_02_12_he_tang|He and Tang's certified lower bound]]
+is an arXiv paper of 12 February 2026, announced in the site's discussion thread
+and credited by the site's commentary. It raised the bound from $4/7$ to
+$0.58507$.
+[[problems/analysis/E0513/claims/2026_02_27_sothanaphan|Sothanaphan's certified parameter improvement]]
+is a note of 27 February 2026 produced with GPT-5.2 Thinking, announced in the
+discussion thread and credited by the commentary. It holds the best lower bound.
+[[problems/analysis/E0513/claims/2026_08_02_lystad|Lystad's certified lower bound]]
+was filed on the site's proof-claims tab on 2 August 2026 with declared AI
+assistance. It certifies a bound slightly below the best one and re-verifies the
+best one. The site has adopted none of these claims as a solution, and the
+derived standing is open.
 
 **Source.** [erdosproblems.com/513](https://www.erdosproblems.com/513), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #513,

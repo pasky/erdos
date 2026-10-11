@@ -6,174 +6,186 @@ desc: |
   theory, cardinal arithmetic, and problems whose answers are independent of
   the usual axioms of set theory.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T23:33:34Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # Set Theory and Infinite Combinatorics
 
 [[problems/_index|..]]
 
-[[problems/set_theory/E0070/_index|E0070/]]: Asks whether the order type of the
-real line arrows a countable ordinal and a finite number for two-colorings of
-triples.
+[[problems/set_theory/E0070/_index|E0070/]]: Asks whether the order type
+$\mathfrak{c}$ of the real line satisfies $\mathfrak{c}\to(\beta,n)_2^3$ for
+every countable ordinal $\beta$ and every finite $n\ge2$; open.
 
 [[problems/set_theory/E0111/_index|E0111/]]: Asks how many edge deletions make
-an n-vertex subgraph bipartite, and whether that number grows faster than n for
-graphs of uncountable chromatic number.
+every $n$-vertex subgraph of a graph $G$ bipartite, and whether this number
+grows faster than $n$ when $G$ has chromatic number $\aleph_1$; open.
 
-[[problems/set_theory/E0118/_index|E0118/]]: Asks whether an order type whose
-two-colorings always give a red copy of itself or a blue triangle must likewise
-force a blue complete graph on n vertices.
+[[problems/set_theory/E0118/_index|E0118/]]: Asks whether, for an order type
+$\alpha$ such that every two-coloring of $K_\alpha$ has a red $K_\alpha$ or a
+blue $K_3$, every such coloring also has a red $K_\alpha$ or a blue $K_n$ for
+each $n\ge3$; disproved.
 
-[[problems/set_theory/E0474/_index|E0474/]]: Which set theoretic assumptions
-allow a three-coloring of the plane in which every uncountable set contains a
-pair of points of each color.
+[[problems/set_theory/E0474/_index|E0474/]]: Asks under which set-theoretic
+assumptions the plane has a three-coloring in which every uncountable set
+contains a pair of points of each color; independent of ZFC, relative to the
+consistency of an Erdős or measurable cardinal.
 
-[[problems/set_theory/E0501/_index|E0501/]]: Asks whether bounded sets of outer
-measure below one assigned to the reals leave an infinite set no member of which
-lies in another's set (independent of ZFC), and whether closed sets of measure
-below one leave three (proved).
+[[problems/set_theory/E0501/_index|E0501/]]: Asks whether, if each real $x$ is
+assigned a bounded set $A_x$ of outer measure $<1$, some infinite $X$ has
+$x\notin A_y$ for all distinct $x,y\in X$ (independent of ZFC), and whether
+closed $A_x$ of measure $<1$ give such an $X$ of size $3$ (proved).
 
-[[problems/set_theory/E0590/_index|E0590/]]: Asks whether every red-blue
-coloring of the pairs from the ordinal omega to the omega yields a red complete
-subgraph of that order type or a blue triangle.
+[[problems/set_theory/E0590/_index|E0590/]]: Asks whether every red/blue
+coloring of the edges of $K_{\omega^\omega}$ contains a red $K_{\omega^\omega}$
+or a blue $K_3$; proved.
 
 [[problems/set_theory/E0591/_index|E0591/]]: Asks whether every red-blue
-coloring of pairs from the ordinal omega to the omega squared gives a red
-complete subgraph of that order type or a blue triangle.
+coloring of the pairs from the ordinal $\omega^{\omega^2}$ gives a red complete
+subgraph of that order type or a blue triangle; proved.
 
-[[problems/set_theory/E0592/_index|E0592/]]: Determines which countable ordinals
-force every red-blue coloring of pairs from omega to that ordinal to give a red
-clique of that type or a blue triangle.
+[[problems/set_theory/E0592/_index|E0592/]]: Asks which countable ordinals
+$\beta$ make every red-blue coloring of the pairs from $\omega^\beta$ give a red
+complete subgraph of order type $\omega^\beta$ or a blue triangle; open.
 
-[[problems/set_theory/E0593/_index|E0593/]]: Characterizes the finite
-three-uniform hypergraphs that must appear in every three-uniform hypergraph
-with uncountable chromatic number.
+[[problems/set_theory/E0593/_index|E0593/]]: Asks for a characterization of the
+finite $3$-uniform hypergraphs that appear in every $3$-uniform hypergraph of
+uncountable chromatic number. Two pending claims give the same characterization,
+and neither is accepted.
 
 [[problems/set_theory/E0594/_index|E0594/]]: Asks whether every graph with
-chromatic number at least the first uncountable cardinal contains all
-sufficiently large odd cycles.
+chromatic number at least $\aleph_1$ contains all sufficiently large odd cycles;
+proved.
 
 [[problems/set_theory/E0595/_index|E0595/]]: Asks whether there is an infinite
-graph with no complete subgraph on four vertices that is not a union of
-countably many triangle-free graphs.
+$K_4$-free graph that is not a union of countably many triangle-free graphs;
+open.
 
-[[problems/set_theory/E0596/_index|E0596/]]: Characterizes pairs of graphs for
-which finite colorings of a host avoiding the first force a monochromatic
-second, while countably many colors do not; Erdős and Hajnal first guessed that
-no pair exists, which C_4 and C_6 refute.
+[[problems/set_theory/E0596/_index|E0596/]]: Asks for which graphs $G_1,G_2$
+every finite number of colors forces a monochromatic $G_2$ in some $G_1$-free
+graph, while countably many colors never do. Erdős and Hajnal first guessed that
+no pair exists, which $C_4$ and $C_6$ refute; open.
 
-[[problems/set_theory/E0597/_index|E0597/]]: Asks whether a partition relation
-holds for graphs on at most aleph_1 vertices with no K_4 and no
-K_{aleph_0,aleph_0}; Erdős first asked it for every K_4-free graph, which a
-relation of Baumgartner refutes.
+[[problems/set_theory/E0597/_index|E0597/]]: Asks whether
+$\omega_1^2\to(\omega_1\omega,G)^2$ holds for every graph $G$ on at most
+$\aleph_1$ vertices with no $K_4$ and no $K_{\aleph_0,\aleph_0}$; open. Erdős
+first asked it for every $K_4$-free graph, which a relation of Baumgartner
+refutes.
 
 [[problems/set_theory/E0598/_index|E0598/]]: Asks whether the countable subsets
-of an infinite cardinal can be colored with successor-of-continuum many colors
-so every set of that size gets all colors.
+of an infinite cardinal $m$ can be colored with $\kappa=(2^{\aleph_0})^+$ colors
+so that every subset of $m$ of size $\kappa$ contains sets of every color; open.
 
-[[problems/set_theory/E0599/_index|E0599/]]: Asks whether every graph with two
-disjoint independent sets has a family of disjoint paths between them plus a
-blocking set meeting each path once.
+[[problems/set_theory/E0599/_index|E0599/]]: Asks whether, for disjoint
+independent sets $A$ and $B$ in a graph, there are disjoint paths between them
+and a set that has exactly one vertex on each of these paths and meets every
+path from $A$ to $B$; proved.
 
-[[problems/set_theory/E0601/_index|E0601/]]: Asks for which limit ordinals every
-graph on that many vertices has an infinite path or an independent set whose
-vertices have that same order type.
+[[problems/set_theory/E0601/_index|E0601/]]: Asks for which limit ordinals
+$\alpha$ every graph on vertex set $\alpha$ has an infinite path or an
+independent set of order type $\alpha$; open.
 
-[[problems/set_theory/E0602/_index|E0602/]]: Asks whether a family of countably
-infinite sets meeting pairwise in a finite set of size other than one can always
-be two-colored with no set monochromatic.
+[[problems/set_theory/E0602/_index|E0602/]]: Asks whether every family of
+countably infinite sets, any two meeting in a finite set of size other than $1$,
+has a $2$-coloring of its union with no set monochromatic; open.
 
-[[problems/set_theory/E0603/_index|E0603/]]: The least number of colors always
-enough to color the union of countably infinite sets meeting pairwise in a set
-of size other than two with none one color.
+[[problems/set_theory/E0603/_index|E0603/]]: Asks for the least number of colors
+that always suffices to color the union of countably infinite sets, any two
+meeting in other than $2$ points, with no set monochromatic. Solved: no number
+of colors suffices.
 
-[[problems/set_theory/E0623/_index|E0623/]]: Asks whether a function on the
-finite subsets of a set of size aleph_omega that never picks a member of its
-input (a set mapping) must have an infinite independent set.
+[[problems/set_theory/E0623/_index|E0623/]]: Asks whether every set mapping on a
+set $X$ of size $\aleph_\omega$, a function $f$ from the finite subsets of $X$
+to $X$ with $f(A)\notin A$, has an infinite independent set. An unaccepted claim
+says the question is independent.
 
 [[problems/set_theory/E1067/_index|E1067/]]: Asks whether every graph of
-chromatic number aleph one contains an infinitely connected subgraph of
-chromatic number aleph one.
+chromatic number $\aleph_1$ contains an infinitely connected subgraph of
+chromatic number $\aleph_1$; disproved.
 
 [[problems/set_theory/E1068/_index|E1068/]]: Asks whether every graph of
-chromatic number aleph one contains a countable subgraph that is infinitely
-vertex-connected.
+chromatic number $\aleph_1$ contains a countable subgraph that is infinitely
+vertex-connected; open.
 
 [[problems/set_theory/E1119/_index|E1119/]]: Asks whether a family of entire
-functions taking at most m distinct values at each point has cardinality at most
-m, for m between countable and continuum.
+functions taking at most $\mathfrak m$ distinct values at each point has
+cardinality at most $\mathfrak m$, for $\aleph_0<\mathfrak m<2^{\aleph_0}$;
+independent.
 
-[[problems/set_theory/E1123/_index|E1123/]]: Compares the Boolean algebra of
-sets of integers modulo density zero with the Boolean algebra of sets modulo
-logarithmic density zero.
+[[problems/set_theory/E1123/_index|E1123/]]: Asks for a proof that the Boolean
+algebra of sets of integers modulo sets of density $0$ is not isomorphic to the
+Boolean algebra of sets modulo sets of logarithmic density $0$; independent.
 
-[[problems/set_theory/E1127/_index|E1127/]]: Asks whether real n-dimensional
-space splits into countably many sets in each of which all pairwise distances
-are distinct.
+[[problems/set_theory/E1127/_index|E1127/]]: Asks whether $\mathbb{R}^n$ splits
+into countably many sets in each of which all pairwise distances are distinct;
+independent.
 
-[[problems/set_theory/E1128/_index|E1128/]]: Asks whether every two-coloring of
-a product of three sets of size aleph one contains a monochromatic product of
-three countably infinite subsets.
+[[problems/set_theory/E1128/_index|E1128/]]: Asks whether every $2$-coloring of
+$A\times B\times C$, for sets $A,B,C$ of size $\aleph_1$, has a monochromatic
+product of three countably infinite subsets; disproved.
 
-[[problems/set_theory/E1167/_index|E1167/]]: Asks about a partition problem for
-infinite cardinals, coloring r-element sets when the parts are given by a
-sequence of prescribed cardinals; open under the Erdős–Hajnal list's conditions
-gamma at least 2 and every kappa_alpha above r, which exclude the failures of
-the site's wording.
+[[problems/set_theory/E1167/_index|E1167/]]: Asks whether, for infinite
+$\lambda$, $2^\lambda\to(\kappa_\alpha+1)_{\alpha<\gamma}^{r+1}$ implies
+$\lambda\to(\kappa_\alpha)_{\alpha<\gamma}^{r}$; open under the Erdős–Hajnal
+list's conditions $\gamma\geq2$ and all $\kappa_\alpha>r$, which exclude the
+failures of the site's wording.
 
-[[problems/set_theory/E1168/_index|E1168/]]: Asks for a proof of a negative
-partition relation for pairs at the successor of the omega-th infinite cardinal,
-without the generalized continuum hypothesis.
+[[problems/set_theory/E1168/_index|E1168/]]: Asks for a proof of
+$\aleph_{\omega+1}\not\to(\aleph_{\omega+1},3,\ldots,3)_{\aleph_0}^2$ without
+the generalized continuum hypothesis; open.
 
-[[problems/set_theory/E1169/_index|E1169/]]: Asks whether the square of the
-first uncountable ordinal fails a partition relation for pairs into itself and a
-triangle.
+[[problems/set_theory/E1169/_index|E1169/]]: Asks whether the negative partition
+relation $\omega_1^2\not\to(\omega_1^2,3)^2$ holds; open.
 
 [[problems/set_theory/E1170/_index|E1170/]]: Asks whether it is consistent that
-the second uncountable ordinal has the two-color partition property for pairs
-for every smaller ordinal.
+$\omega_2\to(\alpha)_2^2$ for every $\alpha<\omega_2$; open.
 
-[[problems/set_theory/E1171/_index|E1171/]]: Asks whether the square of the
-first uncountable ordinal has a partition property for pairs giving a large
-ordinal or a triangle, for each finite color count.
+[[problems/set_theory/E1171/_index|E1171/]]: Asks whether
+$\omega_1^2\to(\omega_1\omega,3,\ldots,3)_{k+1}^2$ holds for every finite $k$;
+open.
 
 [[problems/set_theory/E1172/_index|E1172/]]: Asks whether several partition
-relations for pairs of small uncountable ordinals hold, or are consistent, under
-the generalized continuum hypothesis.
+relations for pairs on the ordinals $\omega_2$ and $\omega_3$ hold under the
+generalized continuum hypothesis, or are consistent with it; open.
 
 [[problems/set_theory/E1173/_index|E1173/]]: Asks whether, under the generalized
-continuum hypothesis, a set mapping on omega_{omega+1} with values of size at
-most aleph_omega and pairwise intersections below aleph_omega must have a free
-set of size aleph_{omega+1}.
+continuum hypothesis, every set mapping on $\omega_{\omega+1}$ whose values have
+size at most $\aleph_\omega$ and pairwise intersections of size below
+$\aleph_\omega$ has a free set of size $\aleph_{\omega+1}$; open.
 
-[[problems/set_theory/E1174/_index|E1174/]]: Asks whether some K_4-free graph
-forces a monochromatic triangle, and whether some K_{aleph_1}-free graph forces
-a monochromatic K_{aleph_0}, in every edge coloring with countably many colors.
+[[problems/set_theory/E1174/_index|E1174/]]: Asks whether some $K_4$-free graph
+forces a monochromatic triangle, and whether some $K_{\aleph_1}$-free graph
+forces a monochromatic $K_{\aleph_0}$, in every edge coloring with countably
+many colors; open.
 
 [[problems/set_theory/E1175/_index|E1175/]]: Asks whether, for each uncountable
-cardinal kappa, some cardinal lambda makes every graph of chromatic number
-lambda contain a triangle-free subgraph of chromatic number kappa.
+cardinal $\kappa$, there is a cardinal $\lambda$ such that every graph of
+chromatic number $\lambda$ contains a triangle-free subgraph of chromatic number
+$\kappa$; open.
 
 [[problems/set_theory/E1176/_index|E1176/]]: Asks whether every graph of
-chromatic number aleph_1 has an edge coloring with aleph_1 colors such that
-every countable vertex coloring has a class containing edges of all colors.
+chromatic number $\aleph_1$ has an edge coloring with $\aleph_1$ colors such
+that every countable coloring of its vertices has a color class containing edges
+of all colors; open.
 
-[[problems/set_theory/E1177/_index|E1177/]]: Concerns the families of
-three-uniform hypergraphs of a given chromatic number that avoid a fixed finite
-three-uniform hypergraph.
+[[problems/set_theory/E1177/_index|E1177/]]: Asks whether three assertions hold
+about the families $F_G(\kappa)$ of $3$-uniform hypergraphs of chromatic number
+$\kappa$ that avoid a fixed finite $3$-uniform hypergraph $G$. One claim, not
+accepted, answers all three.
 
 [[problems/set_theory/E1218/_index|E1218/]]: Asks whether, under GCH, the
-successor of aleph_{omega_{omega+1}} fails the partition relation for triples
-whose first target is that cardinal and whose other countably many targets are 4.
+partition relation for triples $\aleph_{\beta+1}\to(\aleph_\beta,4,\ldots,4)^3$
+fails for $\beta=\omega_{\omega+1}$, with countably infinitely many targets
+equal to $4$; open.
 
-[[problems/set_theory/E1219/_index|E1219/]]: Asks whether a sum of strictly
-increasing powers two to the aleph n_k, the first above aleph omega, satisfies
-the partition relation to aleph omega for pairs.
+[[problems/set_theory/E1219/_index|E1219/]]: Asks whether $\sum_k
+2^{\aleph_{n_k}}\to(\aleph_\omega)^2$ when the cardinals $2^{\aleph_{n_k}}$
+strictly increase and the first exceeds $\aleph_\omega$; proved.
 
-[[problems/set_theory/E1220/_index|E1220/]]: Asks whether a singular cardinal
-that is aleph-zero-inaccessible, as is its cofinality, satisfies the partition
-relation to itself and aleph one for pairs.
+[[problems/set_theory/E1220/_index|E1220/]]: Asks whether
+$\lambda\to(\lambda,\aleph_1)^2$ for every singular cardinal $\lambda$ such that
+$\lambda$ and $\mathrm{cf}(\lambda)$ are both $\aleph_0$-inaccessible;
+independent of ZFC.
 
 ***
 

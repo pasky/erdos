@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1019
 title: Problem 1019
 desc: |
-  Asks whether every graph on n vertices with the Turán number plus half of
-  n edges contains a saturated planar subgraph on more than three vertices;
-  proved by Simonovits in his thesis, attested by Erdős and the site.
+  Asks whether every graph on $n$ vertices with
+  $\lfloor n^2/4\rfloor+\lfloor\frac{n+1}{2}\rfloor$ edges contains a saturated
+  planar subgraph on more than $3$ vertices. Proved by Simonovits in his thesis,
+  as attested by Erdős and the site.
 tags:
 - Graph theory
 - Planar graphs
@@ -45,28 +46,31 @@ and restated in item 13 of his 1971 list
 the passage the site cites; the site attributes the "easy to construct" example
 to the 1971 list, where it is not written out.
 
-**Status.** Proved, in the site's label, which this page keeps with the
+**Status.** Proved. This is the site's label, which this page keeps with the
 qualification below. The site credits Simonovits's PhD thesis with the
-affirmative answer, in the stronger form that the graph contains a $K_4$ or
-a $C_l+2K_1$ for some $l\ge3$, and points to the comments for the proof,
-which it attributes to Cambie. The status-defining text is Simonovits's PhD
-thesis (Chapter 9, per the thread), unpublished and not held. The evidence
-in hand is of three kinds: Erdős's printed attestation of 1971, "Simonovits
-has just proved this conjecture [15], [34]" ([Er71], p. 102; the two
-references are Erdős's own 1969 and 1964 papers, not a text of Simonovits);
-the site's acceptance of a proof posted in the discussion thread on 21
-November 2025 by the account StijnC after correspondence with Simonovits,
-which the site credits to Cambie (the community database's file history
-changes the problem to proved in a commit of that day); and Erdős's own
-partial result, Satz 1 of the 1969 paper (a saturated planar subgraph on
-more than $c_1f(n)/n$ vertices for $\lfloor n^2/4\rfloor+f(n)$ edges), whose
-unspecified constant does not reach $m>3$ at the threshold. The forum proof
-is recorded below with its provenance and is not reproduced as this page's
-own; no refereed text of the theorem was found. Two third-party Lean
-developments state and prove the theorem (recorded under Formalization);
-neither was built or audited here, so they are formal support and not
-acceptance evidence. The label rests on a printed attestation of an
-unpublished thesis together with a site-accepted forum proof. The claim page
+affirmative answer, in the stronger form that the graph contains a $K_4$ or a
+$C_l+2K_1$ for some $l\ge3$. It points to the comments for the proof, which it
+attributes to Cambie. The status-defining text is Simonovits's PhD thesis
+(Chapter 9, per the thread), which is unpublished and not held.
+
+The evidence in hand is of three kinds. The first is Erdős's printed attestation
+of 1971: "Simonovits has just proved this conjecture [15], [34]" ([Er71], p.
+102). The two references are Erdős's own 1969 and 1964 papers, not a text of
+Simonovits. The second is the site's acceptance of a proof posted in the
+discussion thread on 21 November 2025 by the account StijnC, after
+correspondence with Simonovits. The site credits this proof to Cambie, and the
+community database's file history changes the problem to proved in a commit of
+that day. The third is Erdős's own partial result, Satz 1 of the 1969 paper: a
+saturated planar subgraph on more than $c_1f(n)/n$ vertices for
+$\lfloor n^2/4\rfloor+f(n)$ edges. Its unspecified constant does not reach $m>3$
+at the threshold.
+
+The forum proof is recorded below with its provenance and is not reproduced as
+this page's own. No refereed text of the theorem was found. Two third-party Lean
+developments state and prove the theorem (recorded under Formalization). Neither
+was built or audited here, so they are formal support and not acceptance
+evidence. The label rests on a printed attestation of an unpublished thesis
+together with a site-accepted forum proof. The claim page
 [[problems/extremal_graph_theory/E1019/claims/1971_01_01_simonovits|Simonovits]]
 records the result as accepted on that documented evidence, with the same
 qualification, and the standing derives from it.

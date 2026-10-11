@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E1063/claims/2026_07_27_cipollini
 title: An upper bound of order k log log k / log k for log n_k
 desc: |
-  A proof claim posted to the site's proof-claim tab on 27 July 2026 asserts
-  that log n_k is at most (k / log k)(log log k + log log log k + log 2 +
-  o(1)); the write-up requires a sign-in, and the claim is unreviewed.
+  Ricky Cipollini's proof claim, posted to the site's proof-claim tab on 27 July
+  2026, asserts that
+  $\log n_k\le\frac{k}{\log k}(\log\log k+\log\log\log k+\log2+o(1))$. The
+  write-up requires a sign-in, and the claim is unreviewed.
 authors:
 - Ricky Cipollini
 status: claimed

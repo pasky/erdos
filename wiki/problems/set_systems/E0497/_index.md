@@ -2,8 +2,8 @@
 name: problems/set_systems/E0497
 title: Problem 497
 desc: |
-  Determines the number of antichains of subsets of an n-element set, that is,
-  families in which no member contains another.
+  Asks for the number of antichains of subsets of an $n$-element set, that is,
+  families in which no member contains another. It is solved.
 tags:
 - Combinatorics
 status: solved
@@ -33,9 +33,9 @@ of subsets of $[n]$, the families in which no member contains a different
 member.
 
 **Status.** The site labels the problem SOLVED (LEAN), crediting Kleitman
-[Kl69]; the Lean artifact behind the qualifier is described under
-Formalization. The accepted claim is
+[Kl69]. The accepted claim is
 [[problems/set_systems/E0497/claims/1969_06_01_kleitman|the number of antichains is 2 to the (1+o(1)) middle layer]].
+The Lean artifact behind the qualifier is described under Formalization.
 
 **Source.** [erdosproblems.com/497](https://www.erdosproblems.com/497), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #497,

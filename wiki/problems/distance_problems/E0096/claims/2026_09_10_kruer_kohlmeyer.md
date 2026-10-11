@@ -2,10 +2,10 @@
 name: problems/distance_problems/E0096/claims/2026_09_10_kruer_kohlmeyer
 title: Superlinearly many unit distances in convex position
 desc: |
-  Kruer and Kohlmeyer construct, for every d at least 2, a set of
-  2 d^d 2^(d^(d+1)) points in strictly convex position with at least d/4 times
-  as many unit-distance pairs as points, so the count is not O(n); Lean,
-  certified by Conjectures.io.
+  For every $d\ge2$, Kruer and Kohlmeyer construct $2d^d\,2^{d^{d+1}}$ points in
+  strictly convex position with at least $d/4$ times as many unit-distance pairs
+  as points, so the count is not $O(n)$. The result has a Lean proof, certified
+  by Conjectures.io.
 authors:
 - Liam Kruer
 - Jensen Kohlmeyer
@@ -74,21 +74,24 @@ locating an erroneous step; that claim has
 
 **Acceptance.** The `reviewed` evidence is the certification by the bounty site
 Conjectures.io, linked above as the record. The site's Lean kernel verified the
-proof in a fresh isolated replay with statement, dependency and permitted-axiom
-checks, the permitted axioms being `propext`, `Quot.sound` and
-`Classical.choice`; its review approved the record on 11 September 2026 under
-its policy v2, finding that the reviewed definitions use Euclidean distance and
-unordered pairs, that the argument handles every proposed linear constant and
-every size threshold, and that the formal target matches the question of Problem
-96; the record was certified on 14 September 2026 and shows the bounty as paid.
+proof in a fresh isolated replay, with checks on the statement, the dependencies
+and the permitted axioms. The permitted axioms are `propext`, `Quot.sound` and
+`Classical.choice`. The site's review approved the record on 11 September 2026
+under its policy v2. It found that the reviewed definitions use Euclidean
+distance and unordered pairs, that the argument handles every proposed linear
+constant and every size threshold, and that the formal target matches the
+question of Problem 96. The record was certified on 14 September 2026 and shows
+the bounty as paid.
+
 The review states that it is an eligibility decision and not a guarantee of
-originality, that its provenance search found no earlier completed negative
-solution, and that only Lean's default kernel was used. The accepting body is
-the bounty site alone: no refereed publication exists, the explanation is a
-working draft on the site, and erdosproblems.com records no such result: its
-export of 2026-09-04 labels the problem "OPEN", and its page, last edited 23
-January 2026, carries no proof claim and no proof exposition. The curator of
-erdosproblems.com is not a party to this acceptance.
+originality. It also states that its provenance search found no earlier
+completed negative solution, and that only Lean's default kernel was used.
+
+The bounty site is the only accepting body. No refereed publication exists, and
+the explanation is a working draft on the site. The site erdosproblems.com
+records no such result. Its export of 2026-09-04 labels the problem "OPEN", and
+its page, last edited 23 January 2026, carries no proof claim and no proof
+exposition. The curator of erdosproblems.com is not a party to this acceptance.
 
 **Formal statement.** The task fixed the formal-conjectures statement
 `Erdos96.erdos_96` (`FormalConjectures/ErdosProblems/96.lean` at a pinned

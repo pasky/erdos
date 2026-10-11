@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0396/claims/2026_03_18_kesarwani
 title: Kesarwani's witnesses for k = 8 to 11 and k = 15
 desc: |
-  Sharvil Kesarwani's terms a(8) to a(11) and a(15) of the OEIS entry A375077
-  are the least n with n(n-1)...(n-k) dividing the central binomial coefficient
-  for those k, so those instances have the answer yes.
+  Sharvil Kesarwani's terms $a(8)$ to $a(11)$ and $a(15)$ of the OEIS entry
+  A375077 are the least $n$ with $n(n-1)\cdots(n-k)\mid\binom{2n}{n}$ for those
+  $k$. So those instances have the answer yes.
 authors:
 - Sharvil Kesarwani
 status: claimed

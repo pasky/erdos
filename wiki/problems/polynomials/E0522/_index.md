@@ -2,8 +2,9 @@
 name: problems/polynomials/E0522
 title: Problem 522
 desc: |
-  Concerns the behavior of a random polynomial of degree n whose coefficients
-  are chosen independently and uniformly from plus one and minus one.
+  Asks whether the number $R_n$ of roots in the closed unit disc of a random
+  degree-$n$ polynomial with independent uniform $\pm 1$ coefficients satisfies
+  $R_n/(n/2)\to 1$ almost surely; proofs are claimed but none is accepted.
 tags:
 - Analysis
 - Polynomials
@@ -35,29 +36,30 @@ $$
 
 almost surely?
 
-**Status.** OPEN (LEAN) (the site's label, OPEN (LEAN), 2026-10-06; page
-last edited 06 December 2025). The community database recorded a Lean
-formalization of a claimed proof on 2026-09-26 (pull request 448 of
-teorth/erdosproblems, merged that day), which sets the formal status to Lean
-and leaves the informal status open until a human reader has digested the
-proof, and the site derives its label from it, so a machine-checked proof is
-recorded and no human review has accepted it; the site's remarks cite
-Yakir's in-probability result [Ya21] as the progress. The derived standing
-is `claimed`/`proved`: five pending full claims, none accepted, assert that
-$R_n/(n/2)\to1$ almost surely for $\{-1,1\}$ coefficients. They are the
-notes on
+**Status.** OPEN (LEAN), the site's label as of 2026-10-06 (page last edited 06
+December 2025). The site derives this label from the community database. On
+2026-09-26 the database recorded a Lean formalization of a claimed proof (pull
+request 448 of teorth/erdosproblems, merged that day). That record sets the
+formal status to Lean and leaves the informal status open until a human reader
+has digested the proof. So a machine-checked proof is recorded, and no human
+review has accepted it. The site's remarks cite Yakir's in-probability result
+[Ya21] as the progress.
+
+The derived standing is `claimed`/`proved`. Five pending full claims, none
+accepted, assert that $R_n/(n/2)\to1$ almost surely for $\{-1,1\}$ coefficients.
+Two are the notes on
 [[problems/polynomials/E0522/claims/2026_04_20_chojecki|Chojecki 2026]] and
-[[problems/polynomials/E0522/claims/2026_04_28_kwon_zou|Kwon–Zou 2026]],
-posted on the thread in April 2026, the Lean proof credited to Colin Snyder
-of Star Fleet Math and hosted in the lean-proofs repository on 2026-07-23
-([[problems/polynomials/E0522/claims/2026_07_23_snyder|Snyder 2026]]), and
-the two Lean-backed claims of September 2026,
-[[problems/polynomials/E0522/claims/2026_09_25_kawada|Kawada 2026]] (the
-formalization the database recorded, with a Zenodo preprint and the one claim
-on the site's proof-claims tab) and
-[[problems/polynomials/E0522/claims/2026_09_25_kitamura|Kitamura 2026]] (a
-Lean proof of both coefficient readings, linked by formal-conjectures). None
-is refereed, independently reviewed, or built or audited here.
+[[problems/polynomials/E0522/claims/2026_04_28_kwon_zou|Kwon–Zou 2026]], posted
+on the thread in April 2026. The third is the Lean proof credited to Colin
+Snyder of Star Fleet Math and hosted in the lean-proofs repository on 2026-07-23
+([[problems/polynomials/E0522/claims/2026_07_23_snyder|Snyder 2026]]). The last
+two are the Lean-backed claims of September 2026.
+[[problems/polynomials/E0522/claims/2026_09_25_kawada|Kawada 2026]] is the
+formalization the database recorded, with a Zenodo preprint, and it is the one
+claim on the site's proof-claims tab.
+[[problems/polynomials/E0522/claims/2026_09_25_kitamura|Kitamura 2026]] is a
+Lean proof of both coefficient readings, linked by formal-conjectures. None is
+refereed, independently reviewed, or built or audited here.
 
 **Source.** [erdosproblems.com/522](https://www.erdosproblems.com/522), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #522,

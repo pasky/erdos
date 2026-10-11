@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0141/claims/2001_11_28_dubner_forbes_lygeros_mizony_nelson_zimmermann
 title: Ten consecutive primes in arithmetic progression
 desc: |
-  Dubner, Forbes, Lygeros, Mizony, Nelson and Zimmermann report ten
-  consecutive primes in arithmetic progression, which answers the problem yes
-  for every k from 3 to 10; refereed in Math. Comp. 71 (2002).
+  Dubner, Forbes, Lygeros, Mizony, Nelson and Zimmermann report ten consecutive
+  primes in arithmetic progression, which answers the problem yes for every $k$
+  from 3 to 10. The paper was refereed and published in Math. Comp. 71 (2002).
 authors:
 - H. Dubner
 - T. Forbes
@@ -54,11 +54,11 @@ Schinzel and Sierpiński derive every $k$ from Hypothesis H on
 [[problems/additive_combinatorics/E0141/claims/1958_01_01_schinzel_sierpinski|their conditional page]].
 
 **Acceptance.** Refereed: Mathematics of Computation, volume 71, number 239
-(July 2002), pp. 1323--1328; the Crossref record of the DOI gives these
-data. The site labels the problem OPEN (page last edited 28 September 2025)
-and its commentary says that such progressions have been found for every
-$k\le10$, which is commentary on an open problem and not acceptance, so no
-`reviewed` evidence is listed. The corpus holds no card for the paper, has
-not recomputed the progressions and awards no tier of its own.
+(July 2002), pp. 1323--1328, as given by the Crossref record of the DOI. The
+site labels the problem OPEN (page last edited 28 September 2025). Its
+commentary says that such progressions have been found for every $k\le10$. That
+is commentary on an open problem and not acceptance, so no `reviewed` evidence
+is listed. The corpus holds no card for the paper and has not recomputed the
+progressions. It awards no tier of its own.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper.

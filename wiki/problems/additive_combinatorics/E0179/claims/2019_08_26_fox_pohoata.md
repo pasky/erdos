@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0179/claims/2019_08_26_fox_pohoata
 title: Fox and Pohoata's bounds for progressions in sets without longer ones
 desc: |
-  Fox and Pohoata's 2019 theorem that a set of N integers with no l-term
-  progression can hold N^{2-o(1)} k-term progressions, with bounds tied to
-  the largest l-progression-free set; answers both displayed questions yes.
+  Fox and Pohoata proved in 2019 that a set of $N$ integers with no $l$-term
+  progression can contain $N^{2-o(1)}$ progressions of length $k$, with bounds
+  tied to the largest set with no $l$-term progression. This answers both
+  displayed questions yes.
 authors:
 - Jacob Fox
 - Cosmin Pohoata
@@ -83,15 +84,14 @@ site, is that $o(N^2)$ fails once $\ell$ grows like $\epsilon\log N$.
 with the Gowers and Rankin bounds, cited from the literature in the paper.
 
 **Acceptance.** Refereed: the paper appeared in Random Structures and
-Algorithms, volume 58, issue 3 (Crossref record read, published
-online 15 December 2020); the arXiv record lists no journal reference, and
-the library card does not cite the journal version. Reviewed: the site's
-curator, Thomas Bloom, records the answer as yes, with the Fox--Pohoata
-bounds and their
-consequence through Leng, Sah and Sawhney, in the problem page's commentary
-(label PROVED, page last edited 5 April 2026); that is documented acceptance
-outside this project. The library card records the paper as held and
-digested; its proof was not reviewed by this project.
+Algorithms, volume 58, issue 3. Its Crossref record, which was read, gives the
+online publication date as 15 December 2020. The arXiv record lists no journal
+reference, and the library card does not cite the journal version. Reviewed: the
+site's curator, Thomas Bloom, records the answer as yes in the problem page's
+commentary (label PROVED, page last edited 5 April 2026). The commentary gives
+the Fox--Pohoata bounds and their consequence through Leng, Sah and Sawhney.
+This is documented acceptance outside this project. The library card records the
+paper as held and digested. This project did not review its proof.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos179.lean` of
 Boris Alexeev's lean-proofs repository (first added 2026-08-17, last

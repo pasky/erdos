@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0819
 title: Problem 819
 desc: |
-  Estimates the largest possible size of the sumset within the integers up to
-  N of a subset of them having about root N elements; open, with Erdős and
-  Freud's 1991 bounds 3/8 and 1/2 and an unreviewed 2026 note claiming 0.469.
+  Estimates $f(N)$, the largest size of $(A+A)\cap[1,N]$ for
+  $A\subseteq\{1,\ldots,N\}$ with $\lfloor N^{1/2}\rfloor$ elements; open. Erdős
+  and Freud (1991) bounded $f(N)/N$ asymptotically by $3/8$ and $1/2$, and an
+  unreviewed 2026 note claims the lower constant $0.469$.
 tags:
 - Additive combinatorics
 status: open
@@ -40,33 +41,34 @@ removing $o(N^{1/2})$ elements from a set of $O(N^{1/2})$ loses $o(N)$
 sums (a one-line step made here). [Er91] is not held, so the problem's
 original wording is known here only as the site states it.
 
-**Status.** Open. The site labels the problem OPEN. Its
-commentary credits Erdős and Freud [ErFr91] (J. Number Theory 38 (1991)
-196--205, refereed) with
-$(\tfrac38-o(1))N\le f(N)\le(\tfrac12+o(1))N$ and ties the problem to how
-large a quasi-Sidon set can be,
-[[problems/additive_bases/E0840/_index|Problem 840]]. The bounds are the
-paper's Proposition 1 (p. 203): "Given any $\varepsilon>0$, then for $n$
-large enough $3/8-\varepsilon\le T(n)/n\le1/2+\varepsilon$", the upper
-bound being the count of all sums and the lower bound the set
-$B\cup(3n/4-B)$ for a maximally dense Sidon set $B\subset[1,n/4]$, whose
-sums are all distinct except those equal to $3n/4$; the connection to
-quasi-Sidon sets rests on the paper's statement (p. 204) that improving the
-upper bound of Proposition 1 and pushing the coefficient in the trivial
-quasi-Sidon bound $k\le(2+o(1))n^{1/2}$ below $\sqrt2$ are equivalent
-problems. The lower bound is the accepted partial claim
+**Status.** Open. The site labels the problem OPEN. Its commentary credits Erdős
+and Freud [ErFr91] (J. Number Theory 38 (1991) 196--205, refereed) with
+$(\tfrac38-o(1))N\le f(N)\le(\tfrac12+o(1))N$. It ties the problem to how large
+a quasi-Sidon set can be, [[problems/additive_bases/E0840/_index|Problem 840]].
+
+The bounds are the paper's Proposition 1 (p. 203): "Given any $\varepsilon>0$,
+then for $n$ large enough $3/8-\varepsilon\le T(n)/n\le1/2+\varepsilon$". The
+upper bound counts all sums. The lower bound comes from the set $B\cup(3n/4-B)$
+for a maximally dense Sidon set $B\subset[1,n/4]$, whose sums are all distinct
+except those equal to $3n/4$. The link to quasi-Sidon sets rests on a statement
+in the paper (p. 204) that two problems are equivalent: improving the upper
+bound of Proposition 1, and pushing the coefficient in the trivial quasi-Sidon
+bound $k\le(2+o(1))n^{1/2}$ below $\sqrt2$. The lower bound is the accepted
+partial claim
 [[problems/additive_combinatorics/E0819/claims/1991_01_01_erdos_freud|Erdős and Freud's lower bound]],
-on the refereed paper. A discussion-thread comment of 15 May 2026 announces
-a nine-page note on the commenter's personal site claiming
-$\liminf f(N)/N\ge(16\sqrt2-17)/12\approx0.4690$, found with GPT-5.5 and
-Rethlas and verified by hand according to the comment; the note's statement
-is recorded and its argument is not checked in this corpus; no proof claim
-is on the tab and the site's commentary does not mention it. It has a
+on the refereed paper.
+
+A discussion-thread comment of 15 May 2026 announces a nine-page note on the
+commenter's personal site. The note claims
+$\liminf f(N)/N\ge(16\sqrt2-17)/12\approx0.4690$. According to the comment, the
+result was found with GPT-5.5 and Rethlas and verified by hand. This corpus
+records the note's statement but does not check its argument. No proof claim is
+on the tab, and the site's commentary does not mention the note. The note has a
 partial claim page,
 [[problems/additive_combinatorics/E0819/claims/2026_05_15_liu|Liu's lower bound 0.469]],
-with status claimed. No refereed source improving the bounds was found in
-the search whose scope the Current assessment records;
-this is a bounded negative finding, not a certificate of openness.
+with status claimed. No refereed source improving the bounds was found in the
+search whose scope the Current assessment records. This is a bounded negative
+finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/819](https://www.erdosproblems.com/819),
 accessed 2026-09-18 and 2026-10-07: the problem page (labeled

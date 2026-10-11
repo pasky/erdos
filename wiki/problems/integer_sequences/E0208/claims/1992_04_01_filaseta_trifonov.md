@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0208/claims/1992_04_01_filaseta_trifonov
 title: Filaseta and Trifonov's gap bound of order the fifth root
 desc: |
-  Filaseta and Trifonov prove that every interval (x, x + c x^{1/5} log x]
-  contains a squarefree number for large x, so consecutive squarefree numbers
-  differ by at most s_n^{1/5+o(1)}; the first question for every epsilon > 1/5.
+  Filaseta and Trifonov prove that every interval $(x,x+cx^{1/5}\log x]$
+  contains a squarefree number for large $x$, so consecutive squarefree numbers
+  differ by at most $s_n^{1/5+o(1)}$. This answers the first question for every
+  $\epsilon>1/5$.
 authors:
 - Michael Filaseta
 - Ognian Trifonov
@@ -50,10 +51,10 @@ exponent, $1/5-\eta$ for some $\eta>0$, is claimed on
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper.
 
-**Acceptance.** Refereed: the paper is the version of record in the Journal
-of the London Mathematical Society, a refereed journal; the publisher's record
-dates the issue to April 1992 without a day, so this page is named by the
-first day of that month. The site's curator credits the bound in the
-problem's commentary, but the site labels the problem OPEN, so that credit is
-not acceptance of the problem and no `reviewed` evidence is listed. The corpus
+**Acceptance.** Refereed: the paper is the version of record in the Journal of
+the London Mathematical Society, a refereed journal. The publisher's record
+dates the issue to April 1992 without a day, so this page is named by the first
+day of that month. The site's curator credits the bound in the problem's
+commentary. The site labels the problem OPEN, however, so that credit is not
+acceptance of the problem and no `reviewed` evidence is listed. The corpus
 records no check of the proof.

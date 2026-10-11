@@ -2,8 +2,8 @@
 name: problems/divisors/E0893/claims/2025_06_05_kovac_luca
 title: "Kovač and Luca: no finite limit for the doubling ratios"
 desc: |
-  Kovač and Luca prove that the ratios f(2n)/f(n) are unbounded, so they
-  converge to no finite limit; whether they tend to infinity stays open.
+  Kovač and Luca prove that the ratios $f(2n)/f(n)$ are unbounded, so they
+  converge to no finite limit. Whether they tend to infinity stays open.
 authors:
 - Vjekoslav Kovač
 - Florian Luca

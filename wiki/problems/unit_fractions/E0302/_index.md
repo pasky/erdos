@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0302
 title: Problem 302
 desc: |
-  Estimates the largest subset of one through N with no distinct members where
-  one reciprocal is the sum of two others, and asks whether it is about half
-  of N.
+  Asks for estimates of $f(N)$, the size of the largest
+  $A\subseteq\{1,\ldots,N\}$ with no distinct $a,b,c\in A$ satisfying
+  $1/a=1/b+1/c$, and whether $f(N)=(\frac{1}{2}+o(1))N$; open.
 tags:
 - Number theory
 - Unit fractions
@@ -43,32 +43,33 @@ and the coloring version is [[problems/unit_fractions/E0303/_index|Problem 303]]
 $f(N)$ is OEIS A390395 ($1,2,3,4,5,5,6,\ldots$, to $N=731$). The statement
 asks for an estimate and whether $f(N)=(1/2+o(1))N$.
 
-**Status.** Open: the site's label is OPEN (no last-edited date shown;), and the site marks the problem as not resolvable by a
-finite computation. The standing derived from the claim pages is open,
-claim none: five pending partial claims,
+**Status.** Open: the site's label is OPEN (no last-edited date shown), and the
+site marks the problem as not resolvable by a finite computation. The standing
+derived from the claim pages is open, claim none. There are five pending partial
+claims, and none of them would settle the estimation question.
 [[problems/unit_fractions/E0302/claims/2025_03_25_cambie|Cambie's construction of density 5/8]]
 and
-[[problems/unit_fractions/E0302/claims/2025_08_11_van_doorn|van Doorn's upper bound 9/10]],
-both recorded from the site's commentary,
-[[problems/unit_fractions/E0302/claims/2026_07_20_schuh|Schuh's 373/420]]
-and
+[[problems/unit_fractions/E0302/claims/2025_08_11_van_doorn|van Doorn's upper bound 9/10]]
+are both recorded from the site's commentary.
+[[problems/unit_fractions/E0302/claims/2026_07_20_schuh|Schuh's 373/420]] and
 [[problems/unit_fractions/E0302/claims/2026_08_16_khanukov|Khanukov's two-sided bounds]]
-from the proof-claim tab, and
+come from the proof-claim tab.
 [[problems/unit_fractions/E0302/claims/2026_09_25_kitamura|Kitamura's Lean upper bound of about 0.8462]]
-from the discussion thread, none of which would settle the estimation
-question. The bounds supported by sources read here are
-$(5/8+o(1))N\le f(N)\le(25/28+o(1))N$: the upper bound comes from the site's
-$25/28$ argument for Problem 301 (elementary; its counting facts checked on
-that problem's page), which uses only two-term relations and sharpens van
-Doorn's Theorem 2, $f(N)<9N/10+(\log N)^3+1$ (an undated GitHub note of
-2025, unrefereed; statement checked, proof read for structure); the lower
-bound is Cambie's construction in the site's commentary (elementary, checked
-here). Since $5/8>1/2$, the site's particular guess $f(N)=(1/2+o(1))N$
-fails; that negative answer is Cambie's partial claim, pending because the
-site's commentary credits it while the site's label is OPEN, which it keeps
-for the estimation question. No proof, disproof or accepted determination of
-the asymptotic constant was found in the search whose
-scope the Current assessment records.
+comes from the discussion thread.
+
+The bounds supported by sources read here are
+$(5/8+o(1))N\le f(N)\le(25/28+o(1))N$. The upper bound comes from the site's
+$25/28$ argument for Problem 301 (elementary; its counting facts checked on that
+problem's page). That argument uses only two-term relations. It sharpens van
+Doorn's Theorem 2, $f(N)<9N/10+(\log N)^3+1$, from an undated GitHub note of
+2025 (unrefereed; statement checked, proof read for structure). The lower bound
+is Cambie's construction in the site's commentary (elementary, checked here).
+Since $5/8>1/2$, the site's particular guess $f(N)=(1/2+o(1))N$ fails. That
+negative answer is Cambie's partial claim. It is pending because the site's
+commentary credits it while the site's label is OPEN, which the site keeps for
+the estimation question. No proof, disproof or accepted determination of the
+asymptotic constant was found in the search whose scope the Current assessment
+records.
 
 **Source.** [erdosproblems.com/302](https://www.erdosproblems.com/302),
 accessed 2026-09-17: the problem page (OPEN, with the site's note that no

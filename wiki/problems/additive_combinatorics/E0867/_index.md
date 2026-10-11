@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0867
 title: Problem 867
 desc: |
-  Asks whether a set of integers up to N in which no sum of consecutive
-  members lies in the set has size at most half of N plus a constant; false,
-  by Freud's 1993 construction of density 19/36.
+  Asks whether a subset of $\{1,\ldots,N\}$ in which no sum of consecutive
+  members lies in the set has size at most $N/2+O(1)$; false, by Freud's 1993
+  construction of density $19/36$.
 tags:
 - Additive combinatorics
 status: solved
@@ -53,31 +53,32 @@ perhaps $t\le[\frac{x+1}2]$; perhaps this is trivial or trivially false
 and I overlook a simple argument". The site's source keys are [Er92c,
 p. 43], [Fr93] and [CoPh96].
 
-**Status.** DISPROVED (LEAN). Freud's construction (1993, a note in the James
-Cook Mathematical Notes) gives, for $N=144y-12$, a set of
-$76y-7=\tfrac{19}{36}N-\tfrac23$ integers up to $N$ with no member a sum of
-two or more consecutive members, so $|A|-N/2$
-grows like $N/36$ and no bound $N/2+O(1)$ holds; repeating it with rapidly
-growing parameters gives an infinite sequence with $\limsup A(n)/n=19/36$.
-The acceptance evidence is the refereed paper of Coppersmith and Phillips
-(SIAM J. Discrete Math. 9 (1996), 173--177), whose Theorem 2.1 builds on
-Freud's construction (its reference
-[1]) and gives a set of $\tfrac{13}{24}N-O(1)$ such integers up to $N$, a
-disproof in its own right, together with the site's label and thread; an
-external Lean file behind the catalog's label proves the
-consecutive-sum-freeness and the count of Freud's set for its own
-encoding; the corpus holds no build of it, so it gives no formalized
-evidence. The best bounds the
-site records are $\tfrac{13}{24}N-O(1)\le|A|\le(\tfrac23-\tfrac1{512})N+\log N$
-(Coppersmith and Phillips, Theorems 2.1 and 3.7; the printed upper bound
-is
-$\tfrac23N-\lfloor N/512\rfloor+3\log_4N-\tfrac12$); Freud's note reports
-their upper bound as $\tfrac23-\tfrac1{3584}$, a figure the published
-paper does not print, recorded below. The standing is derived from the
-claim pages of
+**Status.** DISPROVED (LEAN). The standing is derived from the claim pages of
 [[problems/additive_combinatorics/E0867/claims/1993_01_01_freud|Freud]] and
 [[problems/additive_combinatorics/E0867/claims/1996_05_01_coppersmith_phillips|Coppersmith and Phillips]],
-both accepted on the evidence above.
+both accepted on the evidence below.
+
+Freud's construction (1993, a note in the James Cook Mathematical Notes) gives,
+for $N=144y-12$, a set of $76y-7=\tfrac{19}{36}N-\tfrac23$ integers up to $N$ in
+which no member is a sum of two or more consecutive members. So $|A|-N/2$ grows
+like $N/36$, and no bound $N/2+O(1)$ holds. Repeating the construction with
+rapidly growing parameters gives an infinite sequence with
+$\limsup A(n)/n=19/36$.
+
+The acceptance evidence is the refereed paper of Coppersmith and Phillips (SIAM
+J. Discrete Math. 9 (1996), 173--177), together with the site's label and
+thread. Its Theorem 2.1 builds on Freud's construction (its reference [1]) and
+gives a set of $\tfrac{13}{24}N-O(1)$ such integers up to $N$, a disproof in its
+own right. An external Lean file behind the catalog's label proves the
+consecutive-sum-freeness and the count of Freud's set for its own encoding. The
+corpus holds no build of it, so it gives no formalized evidence.
+
+The best bounds the site records are
+$\tfrac{13}{24}N-O(1)\le|A|\le(\tfrac23-\tfrac1{512})N+\log N$ (Coppersmith and
+Phillips, Theorems 2.1 and 3.7). The printed upper bound is
+$\tfrac23N-\lfloor N/512\rfloor+3\log_4N-\tfrac12$. Freud's note reports their
+upper bound as $\tfrac23-\tfrac1{3584}$, a figure the published paper does not
+print. That figure is recorded below.
 
 **Source.** [erdosproblems.com/867](https://www.erdosproblems.com/867),
 accessed 2026-09-18: the problem page (DISPROVED

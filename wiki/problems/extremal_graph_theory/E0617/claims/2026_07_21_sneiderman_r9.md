@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0617/claims/2026_07_21_sneiderman_r9
 title: Sneiderman's computer-assisted proof of the nine-color case
 desc: |
-  A preprint of 21 July 2026 claims the fixed case r = 9 of Problem 617: every
-  nine-coloring of K_82 has ten vertices missing a color, by a density recursion
-  reduced to finite statements on 26 and 27 vertices; unrefereed, so claimed.
+  An unrefereed preprint by Robert Sneiderman of 21 July 2026 claims the fixed
+  case $r=9$ of Problem 617: every nine-coloring of $K_{82}$ has ten vertices
+  missing a color. The argument is a density recursion reduced to finite
+  statements on $26$ and $27$ vertices.
 authors:
 - Robert Sneiderman
 status: claimed

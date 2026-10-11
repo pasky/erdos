@@ -2,9 +2,9 @@
 name: problems/discrepancy/E0995
 title: Problem 995
 desc: |
-  Estimates the growth of the sums of a square integrable function at the
-  fractional parts of alpha times a lacunary integer sequence, for almost
-  every alpha.
+  Asks for the growth, for almost every $\alpha$, of
+  $\sum_{k\le N}f(\{\alpha n_k\})$, where $f\in L^2([0,1])$ and $n_k$ is a
+  lacunary integer sequence; open.
 tags:
 - Analysis
 - Discrepancy
@@ -35,12 +35,12 @@ $$
 \sum_{1\leq k\leq N}f(\{ \alpha n_k\})=o(N\sqrt{\log\log N})?
 $$
 
-**Status.** OPEN on erdosproblems.com; the site's commentary records Erdős's
-bounds and does not name a later result. One pending partial claim answers the
-example question in the negative: Boon Suan Ho's preprint of 20 April 2026,
-announced in the problem's thread on 21 April 2026,
-[[problems/discrepancy/E0995/claims/2026_04_20_ho|Ho 2026]]. No claim had been
-filed on the site's proof-claims tab.
+**Status.** OPEN on erdosproblems.com. The site's commentary records Erdős's
+bounds and does not name a later result. No claim had been filed on the site's
+proof-claims tab. One pending partial claim answers the example question in the
+negative. It is Boon Suan Ho's preprint of 20 April 2026,
+[[problems/discrepancy/E0995/claims/2026_04_20_ho|Ho 2026]], announced in the
+problem's thread on 21 April 2026.
 
 **Source.** [erdosproblems.com/995](https://www.erdosproblems.com/995), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #995,

@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0894
 title: Problem 894
 desc: |
-  Asks whether the integers can be finitely colored with no two of one color
-  differing by a term of a given lacunary sequence; proved, with Peres and
-  Schlag's bound of order (1/epsilon) log(1/epsilon) colors as the best known.
+  Asks whether, for a lacunary sequence $A$, the integers can be finitely
+  colored so that no two numbers of the same color differ by an element of $A$.
+  Proved, and Peres and Schlag's bound of order $\epsilon^{-1}\log(1/\epsilon)$
+  colors is the best known.
 tags:
 - Number theory
 - Ramsey theory
@@ -46,31 +47,31 @@ first-hand, the opening sentence of [Ka01] (p. 211): "In 1987 Paul Erdős asked
 me if the Cayley graph defined on $\mathbb Z$ by a lacunary sequence has
 necessarily a finite chromatic number."
 
-**Status.** Proved. Theorem 1.1 of Peres and Schlag [PeSc10], cited from
-the arXiv version and published in the Bulletin of the London Mathematical
-Society in 2010 (refereed; page references follow the preprint), gives, for every lacunary $S$ with ratio at least $1+\epsilon$,
-$0<\epsilon<1/4$, a $\theta\in(0,1)$ with $\inf_j\|\theta n_j\|>c\epsilon
-|\log\epsilon|^{-1}$ and hence, by Katznelson's reduction (the proof of his
-Theorem 1.1, [Ka01] p. 212; restated in the same paper), a proper
-coloring of the graph with at most
-$1+c^{-1}\epsilon^{-1}|\log\epsilon|$ colors; the site's $\ll\epsilon^{-1}
-\log(1/\epsilon)$ bound is this. The same paper gives a self-contained
-elementary coloring with $4^K$ colors, $K=\lceil2\epsilon^{-1}\rceil$, on its
-p. 3, and shows that the power of $\epsilon$ in the bound cannot be improved.
-The earlier solutions of the Diophantine question behind the reduction
-(de Mathan and Pollington, 1979--80) are the site's account of Problem 464;
-Pollington's theorem gives a second route to finiteness through the
-reduction, without an explicit dependence on $\epsilon$. Katznelson's own
-Theorem 1.1 (p. 211), "If $\Lambda$ is lacunary then
-$\chi(\Lambda)<\infty$", is the original answer, proved from
-his Theorem 1.2 by the reduction and again, elementarily, with $5^d$ colors
-where $\rho^d\ge5$ (p. 212). The frontmatter standing is derived from the
-claim pages: Peres and Schlag's theorem
-([[problems/ramsey_theory/E0894/claims/2007_06_01_peres_schlag|claim page]])
-and Katznelson's
+**Status.** Proved. The frontmatter standing is derived from the claim pages.
+Peres and Schlag's theorem
+([[problems/ramsey_theory/E0894/claims/2007_06_01_peres_schlag|claim page]]) and
+Katznelson's
 ([[problems/ramsey_theory/E0894/claims/2001_04_01_katznelson|claim page]]) are
-accepted full claims on their refereed publications and on the site's
-commentary, which credits both papers.
+accepted full claims, on their refereed publications and on the site's
+commentary, which credits both papers. Theorem 1.1 of Peres and Schlag [PeSc10]
+was published in the Bulletin of the London Mathematical Society in 2010
+(refereed). It is cited from the arXiv version, and page references follow the
+preprint. For every lacunary $S$ with ratio at least $1+\epsilon$,
+$0<\epsilon<1/4$, the theorem gives a $\theta\in(0,1)$ with
+$\inf_j\|\theta n_j\|>c\epsilon |\log\epsilon|^{-1}$. By Katznelson's reduction
+(the proof of his Theorem 1.1, [Ka01] p. 212; restated in the same paper), this
+gives a proper coloring of the graph with at most
+$1+c^{-1}\epsilon^{-1}|\log\epsilon|$ colors. This is the site's
+$\ll\epsilon^{-1} \log(1/\epsilon)$ bound. The same paper gives a self-contained
+elementary coloring with $4^K$ colors, $K=\lceil2\epsilon^{-1}\rceil$, on its
+p. 3. It also shows that the power of $\epsilon$ in the bound cannot be improved.
+The earlier solutions of the Diophantine question behind the reduction (de
+Mathan and Pollington, 1979--80) are the site's account of Problem 464.
+Pollington's theorem gives a second route to finiteness through the reduction,
+without an explicit dependence on $\epsilon$. Katznelson's own Theorem 1.1 (p.
+211), "If $\Lambda$ is lacunary then $\chi(\Lambda)<\infty$", is the original
+answer. It is proved from his Theorem 1.2 by the reduction, and again,
+elementarily, with $5^d$ colors where $\rho^d\ge5$ (p. 212).
 
 **Source.** [erdosproblems.com/894](https://www.erdosproblems.com/894),
 accessed 2026-09-18: the problem page (PROVED, which

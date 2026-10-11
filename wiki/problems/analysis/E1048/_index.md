@@ -2,9 +2,9 @@
 name: problems/analysis/E1048
 title: Problem 1048
 desc: |
-  Asks whether a monic polynomial with all roots of absolute value at most r
-  below two has a component of diameter over two minus r where it is below
-  one.
+  Asks whether, for a monic polynomial $f$ with all roots in $|z|\le r$ for some
+  $r<2$, the set $\{z:|f(z)|<1\}$ must have a connected component of diameter
+  $>2-r$; disproved.
 tags:
 - Analysis
 status: solved
@@ -30,22 +30,23 @@ $$
 
 have a connected component with diameter $>2-r$?
 
-**Status.** The site's label is DISPROVED (LEAN). Pommerenke's 1961
-example $z^n-r^n$, whose sublevel set for $1<r<2$ has $n$ components of
-diameter tending to $0$, is the accepted disproof, refuting the question for
-every $1<r<2$
+**Status.** The site's label is DISPROVED (LEAN). Pommerenke's 1961 example
+$z^n-r^n$ is the accepted disproof
 ([[problems/analysis/E1048/claims/1961_01_01_pommerenke|Pommerenke's claim page]]).
-The same paper's Theorem 3 gives the affirmative answer for $0<r\le1$ for
-the closed set $\{|f|\le1\}$ of Pommerenke's restatement; for $0<r\le1/2$
-the bound carries over to the problem's open set, while for $1/2<r\le1$ the
-paper bounds the closed set only (both observations are recorded on the
-claim page). The degenerate case $r=0$ fails the strict inequality: $z^n$
-has the open unit disc, of diameter exactly $2$, as its sublevel set. The
-label's qualifier (LEAN) refers to Alexeev's formalization of Pommerenke's
-example, which its author reports as verified by Lean, written by Aristotle
-and linked from that page. Aristotle's separate disproof with $z^{10}-2$,
-published in Lean by Alexeev, is a second accepted disproof: this corpus
-built and audited a later revision of its development
+For $1<r<2$ its sublevel set has $n$ components of diameter tending to $0$, so
+it refutes the question for every $1<r<2$. The same paper's Theorem 3 gives the
+affirmative answer for $0<r\le1$, for the closed set $\{|f|\le1\}$ of
+Pommerenke's restatement. For $0<r\le1/2$ the bound carries over to the
+problem's open set. For $1/2<r\le1$ the paper bounds the closed set only. Both
+observations are recorded on the claim page. The degenerate case $r=0$ fails the
+strict inequality: $z^n$ has the open unit disc, of diameter exactly $2$, as its
+sublevel set.
+
+The label's qualifier (LEAN) refers to Alexeev's formalization of Pommerenke's
+example. Its author reports it as verified by Lean. It was written by Aristotle
+and is linked from the claim page. Aristotle's separate disproof with
+$z^{10}-2$, published in Lean by Alexeev, is a second accepted disproof. This
+corpus built and audited a later revision of its development
 ([[problems/analysis/E1048/claims/2026_01_28_alexeev|Alexeev's claim page]]).
 
 **Source.** [erdosproblems.com/1048](https://www.erdosproblems.com/1048),

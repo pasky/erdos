@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E1062/claims/1977_06_01_lebensold
 title: Lebensold's bracket for f(n)
 desc: |
-  Lebensold's 1977 bound 0.6725 n <= f(n) <= 0.6736 n for all large n, from a
-  decomposition of {1, ..., n} into divisibility chains; refereed in Studies in
-  Applied Mathematics.
+  Lebensold proved in 1977 that $0.6725n\le f(n)\le0.6736n$ for all large $n$,
+  by decomposing $\{1,\ldots,n\}$ into divisibility chains. The result is
+  refereed in Studies in Applied Mathematics.
 authors:
 - Kenneth Lebensold
 status: accepted

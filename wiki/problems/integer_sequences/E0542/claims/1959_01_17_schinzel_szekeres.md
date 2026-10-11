@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0542/claims/1959_01_17_schinzel_szekeres
 title: Schinzel and Szekeres's two answers on sets with large pairwise lcm
 desc: |
-  Schinzel and Szekeres (1959): sets of integers up to n with pairwise least
-  common multiples above n have reciprocal sum at most 31/30, yet can leave
-  only o(n) integers divisible by no element; yes and no, refereed, credited.
+  Schinzel and Szekeres (1959) show that sets of integers up to $n$ with
+  pairwise least common multiples above $n$ have reciprocal sum at most $31/30$,
+  yet can leave only $o(n)$ integers divisible by no element, so the answers are
+  yes and no. The result is refereed and credited.
 authors:
 - A. Schinzel
 - G. Szekeres
@@ -66,20 +67,21 @@ its bound were checked clause by clause; Lemmas 1 and 2 and the proof of
 Theorem 3 were read for structure, and the finite verification behind Lemma
 2 was not rerun.
 
-**Acceptance.** Refereed: Acta Scientiarum Mathematicarum (Szeged) is a
-refereed journal, and the paper is dated received on its last page.
-Reviewed: Erdős's 1973 survey (p. 135) records that Schinzel and Szekeres
-proved his $31/30$ conjecture and disproved his expectation of $cn$
-integers, and his 1980 survey (p. 111) records the disproof again; the
-site's curator, Thomas Bloom, labels the problem SOLVED and credits both
-answers to this paper, with the count $n/(\log n)^c$ and the sums above
-$1-\varepsilon$ (page last edited 8 April 2026; three thread comments and an
-empty proof-claim tab on 2026-09-18 and on 2026-10-07). The paper itself
-proves $o(n)$ (p. 229); the power-of-log count is the site's and Erdős's
-1980 report, which prints no source. Nothing here is independently reviewed
-by this project. The claim value is `answered` because the result has neither
-the shape of a proof nor that of a disproof alone: it proves the first
-question and refutes the second.
+**Acceptance.** Refereed: Acta Scientiarum Mathematicarum (Szeged) is a refereed
+journal, and the last page of the paper gives the date it was received.
+Reviewed: Erdős's 1973 survey (p. 135) records that Schinzel and Szekeres proved
+his $31/30$ conjecture and disproved his expectation of $cn$ integers. His 1980
+survey (p. 111) records the disproof again. The site's curator, Thomas Bloom,
+labels the problem SOLVED and credits both answers to this paper, with the count
+$n/(\log n)^c$ and the sums above $1-\varepsilon$ (page last edited 8 April
+2026). On 2026-09-18 and on 2026-10-07 the page showed three thread comments and
+an empty proof-claim tab. The paper itself proves $o(n)$ (p. 229). The
+power-of-log count comes from the site and from Erdős's 1980 report, which
+prints no source. Nothing here is independently reviewed by this project.
+
+The claim value is `answered` because the result has neither the shape of a
+proof nor that of a disproof alone. It proves the first question and refutes the
+second.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos542.lean` of
 Boris Alexeev's public repository `plby/lean-proofs`, added on 17 August

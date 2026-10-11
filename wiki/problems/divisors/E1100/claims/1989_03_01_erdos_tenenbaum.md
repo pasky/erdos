@@ -2,9 +2,10 @@
 name: problems/divisors/E1100/claims/1989_03_01_erdos_tenenbaum
 title: Erdős and Tenenbaum's orders of coprime consecutive divisors
 desc: |
-  For almost all n the count of coprime consecutive divisor pairs exceeds a
-  power of log n, so its ratio to omega(n) tends to infinity, and its maximum
-  up to x is at least exp of order log x over (log log x) squared.
+  Erdős and Tenenbaum (1989) prove that for almost all $n$ the number of coprime
+  consecutive divisor pairs exceeds a power of $\log n$, so its ratio to
+  $\omega(n)$ tends to infinity. They also show that its maximum up to $x$ is at
+  least $\exp\bigl(c\log x/(\log\log x)^2\bigr)$ for some $c>0$.
 authors:
 - P. Erdös
 - G. Tenenbaum
@@ -79,8 +80,8 @@ large $n$, is not in the site's statement and is not covered; it is the
 subject of [[problems/divisors/E1100/claims/2026_07_31_korsky|Korsky's pending claim]].
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Number Theory,
-volume 31, issue 3 (March 1989), communicated by R. L. Graham and received 10
-December 1987; the Crossref record of its DOI gives these data. Read depth:
-the introduction's numbered theorems, from the author-archive scan (second
-link); the proofs are not checked. The site's problem page (last edited 19
-October 2025) does not cite the paper and lists the problem as open.
+volume 31, issue 3 (March 1989). It was communicated by R. L. Graham and
+received 10 December 1987. The Crossref record of its DOI gives these data. Read
+depth: the numbered theorems of the introduction, read from the author-archive
+scan (second link). The proofs are not checked. The site's problem page (last
+edited 19 October 2025) does not cite the paper and lists the problem as open.

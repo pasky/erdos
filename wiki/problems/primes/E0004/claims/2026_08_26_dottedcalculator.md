@@ -3,8 +3,9 @@ name: problems/primes/E0004/claims/2026_08_26_dottedcalculator
 title: "DottedCalculator: the tilted residue sieve and a stronger prime-gap bound"
 desc: |
   A manuscript written by an AI system and posted by the forum user
-  DottedCalculator proves prime gaps of order log n log log n over the fourth
-  iterated logarithm, beyond the question's bound; credited by the curator.
+  DottedCalculator proves prime gaps of order
+  $\log n\log\log n/\log\log\log\log n$, beyond the question's bound. The result
+  is credited by the curator.
 authors:
 - GPT 5.6 Sol
 status: accepted
@@ -89,21 +90,25 @@ used:
 > intact. $o\left(\frac x{\log x}\right)$ remain, which can be removed by
 > slightly larger primes.
 
-**Acceptance.** The site's curator, Thomas Bloom, labels the problem proved,
+**Acceptance.** The site's curator, Thomas Bloom, labels the problem proved and
 records this bound in the problem's commentary as an improvement of the 2018
-result, and wrote the problem's proof exposition on the manuscript's two new
-ideas; that credit is the `reviewed` evidence. In the thread Ben Green, a
-coauthor of the 2018 bound, writes that after discussion with Terence Tao and
-James Maynard they are largely convinced the argument is correct, that its new
-sieving step alone beats the Erdős–Rankin bound, and that a human-written
-account is planned; Green also notes that the manuscript imports two of the 2018
-paper's ingredients verbatim. Asked in the thread why the tab lists the claim as
-full rather than partial, the curator agrees that it should be listed as
-partial, since the original question was already answered and neither label fits
-an improvement; as of 2026-10-07 the tab shows the claim with no full or partial
+result. The curator also wrote the problem's proof exposition on the
+manuscript's two new ideas. That credit is the `reviewed` evidence.
+
+In the thread, Ben Green, a coauthor of the 2018 bound, writes that after
+discussion with Terence Tao and James Maynard they are largely convinced the
+argument is correct. Green writes that its new sieving step alone beats the
+Erdős–Rankin bound, and that a human-written account is planned. Green also
+notes that the manuscript imports two of the 2018 paper's ingredients verbatim.
+
+When asked in the thread why the tab lists the claim as full rather than
+partial, the curator agrees that it should be listed as partial. The reason
+given is that the original question was already answered and neither label fits
+an improvement. As of 2026-10-07 the tab shows the claim with no full or partial
 label. The page keeps `scope: full` because the bound implies the question's
-statement for every $C$, as computed above. The manuscript is not refereed, so
-no `refereed` evidence is listed.
+statement for every $C$, as computed above.
+
+The manuscript is not refereed, so no `refereed` evidence is listed.
 
 **Formalization.** The linked Lean module in Boris Alexeev's `lean-proofs`
 repository, pinned at the commit in the link, states that it formalizes the two

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0802/claims/1980_11_01_ajtai_komlos_szemeredi
 title: Ajtai, Komlós and Szemerédi's bound for triangle-free graphs
 desc: |
-  Theorem 2 of Ajtai, Komlós and Szemerédi (J. Combin. Theory Ser. A 1980): a
-  triangle-free graph on n vertices with average degree t has an independent
-  set of at least 0.01 (n/t) ln t vertices, the case r = 3 of the question.
+  Theorem 2 of Ajtai, Komlós and Szemerédi (J. Combin. Theory Ser. A 1980) gives
+  every triangle-free graph on $n$ vertices with average degree $t$ an
+  independent set of at least $0.01(n/t)\ln t$ vertices. This is the case $r=3$
+  of the question.
 authors:
 - Miklós Ajtai
 - János Komlós
@@ -53,10 +54,9 @@ settles.
 **Depends on.** Nothing in this wiki: the proof (pp. 355--357, an induction
 deleting a vertex and its neighborhood) is the paper's own.
 
-**Acceptance.** Refereed: Journal of Combinatorial Theory, Series A, volume
-29 (1980), no. 3, 354--360; Crossref dates the issue November 1980, and the
-page name uses the first day of that month. The site's commentary credits the
-paper with the case $r=3$, but the site's label is OPEN so
-that credit is not listed as `reviewed`; the site's label concerns the
-question for $r\ge4$. Proof coverage is statement depth with the proof at
-structure depth.
+**Acceptance.** Refereed: Journal of Combinatorial Theory, Series A, volume 29
+(1980), no. 3, 354--360. Crossref dates the issue November 1980, and the page
+name uses the first day of that month. The site's commentary credits the paper
+with the case $r=3$. The site's label is OPEN, so that credit is not listed as
+`reviewed`. The label concerns the question for $r\ge4$. Proof coverage is
+statement depth, with the proof at structure depth.

@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E0727
 title: Problem 727
 desc: |
-  Asks, for each k at least 2, whether the square of the factorial of n plus k
-  divides the factorial of two n for infinitely many n.
+  Asks whether, for each $k\ge2$, $(n+k)!^2\mid(2n)!$ for infinitely many $n$;
+  open.
 tags:
 - Number theory
 - Factorials
@@ -29,11 +29,11 @@ $$
 
 for infinitely many $n$?
 
-**Status.** Open: the site's label, and its page does not mention the one
-claim. Johan Land's partial claim of 2026-09-07, a proof for $k=3$ (hence
-$k=2$) with a Lean development, is pending on the
+**Status.** Open: the site's label. The site's page does not mention the one
+claim. The standing in the frontmatter derives from the claim pages. Johan
+Land's partial claim of 2026-09-07 is pending on the
 [[problems/factorials_binomials/E0727/claims/2026_09_07_land|Land claim page]].
-The standing in the frontmatter derives from the claim pages.
+It is a proof for $k=3$ (hence $k=2$) with a Lean development.
 
 **Source.** [erdosproblems.com/727](https://www.erdosproblems.com/727), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #727,

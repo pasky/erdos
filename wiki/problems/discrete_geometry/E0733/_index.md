@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0733
 title: Problem 733
 desc: |
-  Bounds by exp(O(n^{1/2})) the number of nondecreasing sequences that can be
-  the point counts of lines, each through at least two of n points in the
-  plane.
+  Asks to prove that at most $\exp(O(n^{1/2}))$ nondecreasing sequences can be
+  the point counts of lines, each through at least two of $n$ points in the
+  plane; proved.
 tags:
 - Combinatorics
 - Geometry
@@ -36,7 +36,7 @@ $$
 many line-compatible sequences.
 
 **Status.** Proved. The site credits Szemerédi and Trotter, whose Theorem 4
-bounds the number of line-compatible sequences by $2^{c\sqrt n}$; the accepted
+bounds the number of line-compatible sequences by $2^{c\sqrt n}$. The accepted
 claim is
 [[problems/discrete_geometry/E0733/claims/1983_09_01_szemeredi_trotter|their 1983 theorem]].
 

@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0483
 title: Problem 483
 desc: |
-  Estimates the least N forcing a monochromatic solution of a plus b equals c
-  in every k-coloring of one through N, and asks whether it is exponential in
-  k; open between c times 3.28 to the k and (e minus 1/6) times k factorial.
+  Asks for an estimate of the least $N=f(k)$ such that every $k$-coloring of
+  $\{1,\ldots,N\}$ has a monochromatic solution of $a+b=c$, and whether $f(k)$
+  is at most exponential in $k$. It is open, with $f(k)$ between a constant
+  times $3.28^k$ and $(e-\frac16)k!$.
 tags:
 - Number theory
 - Additive combinatorics
@@ -60,17 +61,17 @@ the least number of sum-free classes into which $\{1,\ldots,n\}$ can be split,
 $H(n)>c\log n$ holds for a certain $c>0$."
 
 **Status.** OPEN, the site's label. The bounds in hand are a growth rate of at
-least $380^{1/5}$ below and $f(k)\le(e-\tfrac16)\,k!$ for $k\ge4$ above: the
-lower bound is Corollary 2.9 of Ageron, Casteras, Pellerin, Portella, Rimmel
-and Tomasik (2021--22, an arXiv preprint), from their recursion
-$S(n+5)\ge380S(n)+148$; the upper bound is Xu, Xie and Chen's
-$R_k(3)\le k!(e-1/6)+1$ (2002, in Chinese, not held) with $f(k)\le R_k(3)-1$,
-proved in English in Eliahou's refereed paper (Integers 2020, Corollary 2) whose
-finite input is $R_4(3)\le62$. No source proving or refuting an exponential
-upper bound, and none proving a superexponential lower bound, was found in the
-search whose scope the Current assessment records; the values $f(k)$ are
-known exactly for $k\le5$ only, the last by Heule's 2017 computation. This is a
-bounded negative finding, not a certificate of openness.
+least $380^{1/5}$ below and $f(k)\le(e-\tfrac16)\,k!$ for $k\ge4$ above. The
+lower bound is Corollary 2.9 of Ageron, Casteras, Pellerin, Portella, Rimmel and
+Tomasik (2021--22, an arXiv preprint), from their recursion
+$S(n+5)\ge380S(n)+148$. The upper bound is Xu, Xie and Chen's
+$R_k(3)\le k!(e-1/6)+1$ (2002, in Chinese, not held) with $f(k)\le R_k(3)-1$.
+That bound is proved in English in Eliahou's refereed paper (Integers 2020,
+Corollary 2), whose finite input is $R_4(3)\le62$. The values $f(k)$ are known
+exactly for $k\le5$ only, the last by Heule's 2017 computation. The search whose
+scope the Current assessment records found no source proving or refuting an
+exponential upper bound, and none proving a superexponential lower bound. This
+is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/483](https://www.erdosproblems.com/483),
 accessed 2026-09-18: the problem page (labeled OPEN, with the site's note that

@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0741
 title: Problem 741
 desc: |
-  Asks whether every set of naturals whose sumset has positive upper density
-  splits into two parts whose sumsets both do, and whether some basis of order
-  two has no split in which both self-sumsets have bounded gaps.
+  Asks whether every $A\subseteq\mathbb{N}$ with $A+A$ of positive upper density
+  splits into two parts whose sumsets both have positive upper density, and
+  whether some basis of order $2$ has no split in which both self-sumsets have
+  bounded gaps; both answers are yes.
 tags:
 - Additive combinatorics
 status: solved
@@ -39,20 +40,21 @@ question has the answer no (the counterexample on the
 the formal-conjectures file under Formalization lists the lower-density
 reading as an open variant (`erdos_741.variants.lower`).
 
-**Status.** Proved; the site labels the problem SOLVED (LEAN), and the
-suffix is a catalog label explained under Formalization. Both questions are
-answered yes: the first under the upper-density reading of the Formulation; the
-second by an explicit basis of order $2$ that no bipartition splits into
-two self-sumsets with bounded gaps. The claim pages are the
-[[problems/additive_combinatorics/E0741/claims/2026_03_31_firsching|DeepMind prover agent's three Lean proofs]]
-posted on the site's thread by Moritz Firsching (accepted on the site
-curator's credit; full), the
+**Status.** Proved. The site labels the problem SOLVED (LEAN), and the suffix is
+a catalog label explained under Formalization. Both questions are answered yes.
+The first is answered under the upper-density reading of the Formulation. The
+second is answered by an explicit basis of order $2$ that no bipartition splits
+into two self-sumsets with bounded gaps. There are three claim pages. The first
+is the
+[[problems/additive_combinatorics/E0741/claims/2026_03_31_firsching|DeepMind prover agent's three Lean proofs]],
+posted on the site's thread by Moritz Firsching. It is a full claim, accepted on
+the site curator's credit. The second is the
 [[problems/additive_combinatorics/E0741/claims/2026_03_31_alexeev_putterman_sawhney_sellke_valiant|Alexeev–Putterman–Sawhney–Sellke–Valiant basis]]
-from arXiv:2603.29961, attributed by its authors to an internal OpenAI model
-(accepted on the site curator's credit; partial, the second question only),
-and a
+from arXiv:2603.29961, which its authors attribute to an internal OpenAI model.
+It is a partial claim, for the second question only, accepted on the site
+curator's credit. The third is a
 [[problems/additive_combinatorics/E0741/claims/2026_04_24_chojecki|note of April 2026]]
-reproving all three statements (claimed). No refereed publication records
+that reproves all three statements (claimed). No refereed publication records
 any of the answers.
 
 **Source.** [erdosproblems.com/741](https://www.erdosproblems.com/741), accessed

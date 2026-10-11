@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0862/claims/2012_04_30_saxton_thomason
 title: Saxton and Thomason count Sidon sets
 desc: |
-  At least 2^((1.16+o(1)) root N) Sidon subsets of the first N integers by an
-  explicit construction, hence 2^((0.16+o(1)) root N) maximal ones; refereed;
-  the deduction, posted in the forum on 2025-11-23, is recorded by the curator.
+  Saxton and Thomason's refereed explicit construction gives at least
+  $2^{(1.16+o(1))\sqrt N}$ Sidon subsets of $\{1,\ldots,N\}$, hence at least
+  $2^{(0.16+o(1))\sqrt N}$ maximal ones. The curator records this deduction,
+  which was posted in the forum on 2025-11-23.
 authors:
 - David Saxton
 - Andrew Thomason
@@ -69,12 +70,12 @@ second question yes (any $c<1/2$ works), which is why the claim is `answered`
 rather than proved or disproved.
 
 **Acceptance.** The counting theorem is refereed: Invent. Math. 201 (2015),
-925–992, with the Sidon proof in J. Combin. Theory Ser. B 121 (2016),
-248–283. The deduction to the two questions is recorded by the site's
-curator, T. F. Bloom, who labels the problem solved and states the lower
-bound on $A_1(N)$ in the problem's remarks (page last edited 2025-12-28),
-after a forum comment of 2025-11-23 pointed the deduction out; that is the
-reviewed evidence. The source card is
+925–992. The Sidon proof is in J. Combin. Theory Ser. B 121 (2016), 248–283. The
+deduction to the two questions is recorded by the site's curator, T. F. Bloom.
+Bloom labels the problem solved and states the lower bound on $A_1(N)$ in the
+problem's remarks (page last edited 2025-12-28). This followed a forum comment
+of 2025-11-23 that pointed the deduction out. That record is the reviewed
+evidence. The source card is
 [[../library/additive_bases/saxton_2015_hypergraph_containers/_index|saxton_2015_hypergraph_containers]].
 
 **Formalization.** The site's label carries a Lean qualifier. A Lean 4 proof

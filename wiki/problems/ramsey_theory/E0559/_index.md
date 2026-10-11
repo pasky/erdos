@@ -2,8 +2,8 @@
 name: problems/ramsey_theory/E0559
 title: Problem 559
 desc: |
-  Asks whether every graph on n vertices with bounded maximum degree has size
-  Ramsey number linear in n; false already for maximum degree three.
+  Asks whether every graph $G$ on $n$ vertices with maximum degree $d$ has size
+  Ramsey number $\hat{R}(G)\ll_d n$. It is false already for maximum degree $3$.
 tags:
 - Graph theory
 - Ramsey theory
@@ -47,25 +47,26 @@ to Beck and Erdős with the 1990 volume containing [Be90] as its reference.
 graphs of $n$ edges and maximal degree $D$.
 
 **Status.** Disproved, in the site's label (DISPROVED; page last edited 18
-January 2026, accessed 2026-09-17). The statement fails for $d=3$: Tikhomirov's
-Theorem 1.1 [Ti22b] gives, for every $n\ge1$, an $n$-vertex graph of maximum
-degree at most three with $\hat r(G')\ge cn\exp(c\sqrt{\log n})$, which is not
-$O(n)$; the arXiv version is the one accepted by Combinatorica, where the paper
-appeared in 2024 (refereed; the journal text was not compared). The original
-disproof is Theorem 1 of [RoSz00] (p. 258): positive constants $c$ and $\alpha$
-and a graph $G$ with $|V|=n$ and maximum degree $3$ such that $\hat r(G)\ge
-cn(\log_2n)^\alpha$, proved for $n\ge n_0$ with $c=\frac1{10}$ and
-$\alpha=\frac1{60}$. The statement holds for paths [Be83b], bounded-degree trees
-[FrPi87] and graphs of maximum degree two (cycles by [HKL95] and [JKOP19]; all
-such graphs through bounded treewidth, second-hand), so the failure begins at
-$d=3$. How large $\hat r$ can be for cubic graphs is open: between
-$n\exp(c\sqrt{\log n})$ and $n^{3/2+o(1)}$ [DrPe22]. The claim pages
+January 2026, accessed 2026-09-17). The claim pages
 [[problems/ramsey_theory/E0559/claims/2000_02_01_rodl_szemeredi|Rödl and Szemerédi 2000]]
 and
 [[problems/ramsey_theory/E0559/claims/2022_10_11_tikhomirov|Tikhomirov 2022]]
-record the two refereed disproofs with their postings and acceptance evidence;
-the frontmatter standing derives from these pages. The positive cases have
-partial claim pages:
+record the two refereed disproofs with their postings and acceptance evidence.
+The frontmatter standing derives from these pages. The statement fails for
+$d=3$. Tikhomirov's Theorem 1.1 [Ti22b] gives, for every $n\ge1$, an $n$-vertex
+graph of maximum degree at most three with
+$\hat r(G')\ge cn\exp(c\sqrt{\log n})$, which is not $O(n)$. The arXiv version
+is the one accepted by Combinatorica, where the paper appeared in 2024
+(refereed; the journal text was not compared). The original disproof is Theorem
+1 of [RoSz00] (p. 258). It gives positive constants $c$ and $\alpha$ and a graph
+$G$ with $|V|=n$ and maximum degree $3$ such that
+$\hat r(G)\ge cn(\log_2n)^\alpha$, proved for $n\ge n_0$ with $c=\frac1{10}$ and
+$\alpha=\frac1{60}$. The statement holds for paths [Be83b], bounded-degree trees
+[FrPi87] and graphs of maximum degree two. For the last, cycles are covered by
+[HKL95] and [JKOP19], and all such graphs through bounded treewidth,
+second-hand. So the failure begins at $d=3$. How large $\hat r$ can be for cubic
+graphs is open: it lies between $n\exp(c\sqrt{\log n})$ and $n^{3/2+o(1)}$
+[DrPe22]. The positive cases have partial claim pages:
 [[problems/ramsey_theory/E0559/claims/1983_03_01_beck|Beck 1983]] (paths),
 [[problems/ramsey_theory/E0559/claims/1987_03_01_friedman_pippenger|Friedman and Pippenger 1987]]
 (bounded-degree trees),

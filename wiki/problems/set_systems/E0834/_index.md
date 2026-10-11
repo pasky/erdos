@@ -2,8 +2,8 @@
 name: problems/set_systems/E0834
 title: Problem 834
 desc: |
-  Asks whether there is a three-critical three-uniform hypergraph in which
-  every vertex has degree at least seven.
+  Asks whether there is a $3$-critical $3$-uniform hypergraph in which every
+  vertex has degree at least $7$; solved.
 tags:
 - Graph theory
 - Hypergraphs

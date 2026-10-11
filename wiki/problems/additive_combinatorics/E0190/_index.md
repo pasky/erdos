@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0190
 title: Problem 190
 desc: |
-  Asks whether the least N forcing a monochromatic or a rainbow k-term
-  arithmetic progression in every coloring of [N] has k-th root growing
-  faster than k; proved by Bae and by Fox and Hunter in 2026 preprints.
+  Asks whether $H(k)^{1/k}/k\to\infty$, where $H(k)$ is the least $N$ such that
+  every coloring of $\{1,\ldots,N\}$ has a monochromatic or a rainbow $k$-term
+  arithmetic progression; proved by Bae and by Fox and Hunter in 2026 preprints.
 tags:
 - Additive combinatorics
 - Arithmetic progressions
@@ -65,22 +65,21 @@ and Fox and Hunter (Section 1.1) define $H(k)$ the same way. The omission is
 the site's. No result about the readings with a shorter rainbow progression is
 recorded.
 
-**Status.** The site shows SOLVED (page last edited 2 June 2026), a label
-that describes the precise Statement, and its commentary credits two
-independent 2026 preprints. The precise Statement is **proved**, by each of
-them: Bae proves $H(k)\ge k^{(2-o(1))k}$, so $H(k)^{1/k}/k\to\infty$
-([[problems/additive_combinatorics/E0190/claims/2026_04_22_bae|claim page]]),
-and Fox and Hunter prove the stronger $H(k)\ge k^{(1-o(1))k\log k}$
-([[problems/additive_combinatorics/E0190/claims/2026_06_01_fox_hunter|claim
-page]]). The acceptance evidence is the site's curator's (T. F. Bloom),
-whose commentary credits both results; Fox and Hunter's preprint credits
-Bae's earlier independent resolution, and Bae acknowledged their stronger
-bound in a discussion-thread post of 2026-09-14. Neither is refereed, and
-no formal proof of the statement has been audited here; the community
-database lists the problem as solved (Lean) as of its last update of
-2026-09-15, through Bae's repository (see Formalization). The request to
-estimate $H(k)$ is open-ended, and no upper bound beyond the existence of
-$H(k)$ is recorded.
+**Status.** The site shows SOLVED (page last edited 2 June 2026), a label that
+describes the precise Statement. The precise Statement is **proved**, by each of
+two independent 2026 preprints that the site's commentary credits. Bae proves
+$H(k)\ge k^{(2-o(1))k}$, so $H(k)^{1/k}/k\to\infty$
+([[problems/additive_combinatorics/E0190/claims/2026_04_22_bae|claim page]]).
+Fox and Hunter prove the stronger $H(k)\ge k^{(1-o(1))k\log k}$
+([[problems/additive_combinatorics/E0190/claims/2026_06_01_fox_hunter|claim page]]).
+The acceptance evidence comes from the site's curator, T. F. Bloom, whose
+commentary credits both results. Fox and Hunter's preprint credits Bae's earlier
+independent resolution, and Bae acknowledged their stronger bound in a
+discussion-thread post of 2026-09-14. Neither preprint is refereed, and no
+formal proof of the statement has been audited here. The community database
+lists the problem as solved (Lean) as of its last update of 2026-09-15, through
+Bae's repository (see Formalization). The request to estimate $H(k)$ is
+open-ended, and no upper bound beyond the existence of $H(k)$ is recorded.
 
 **Source.** [erdosproblems.com/190](https://www.erdosproblems.com/190), accessed
 2026-09-04; its discussion thread and proof-claims page, 2026-10-07. Cite

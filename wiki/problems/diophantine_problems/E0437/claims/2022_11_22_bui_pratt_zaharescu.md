@@ -2,9 +2,10 @@
 name: problems/diophantine_problems/E0437/claims/2022_11_22_bui_pratt_zaharescu
 title: Many square partial products from short square-completing runs
 desc: |
-  Bui, Pratt and Zaharescu prove that many integers n have a very short run
-  n+1, ..., n+t_n with a subproduct completing n to a square; Tao's greedy
-  deduction from this gives more than x^(1-epsilon) square partial products.
+  Bui, Pratt and Zaharescu prove that many integers $n$ have a very short run
+  $n+1,\ldots,n+t_n$ with a subproduct that completes $n$ to a square. Tao's
+  greedy deduction from this gives more than $x^{1-\epsilon}$ square partial
+  products.
 authors:
 - Hung M. Bui
 - Kyle Pratt
@@ -94,11 +95,11 @@ theorem. Nothing was built or audited here, so the page lists no
 `formalized` evidence.
 
 **Acceptance.** Theorem 1.2 is refereed (Math. Proc. Cambridge Philos. Soc. 176
-(2024), no. 2, 309-323, published online on 5 October 2023), but the paper does
-not state the answer to Problem 437; the deduction is Tao's post, which is not
-refereed, so `refereed` is not listed for this claim. The site's curator, Thomas
-Bloom, labels the problem proved and credits the work of Bui, Pratt and
-Zaharescu as Tao applied it, and Tao's post is a named expert's public
-derivation of the answer; that credit is the `reviewed` evidence. This
-repository has not reviewed the proof of Theorem 1.2 or Tao's derivation; the
-source card records the paper's statements.
+(2024), no. 2, 309-323, published online on 5 October 2023). The paper does not
+state the answer to Problem 437, however. The deduction is Tao's post, which is
+not refereed, so `refereed` is not listed for this claim. The site's curator,
+Thomas Bloom, labels the problem proved and credits the work of Bui, Pratt and
+Zaharescu as Tao applied it. That credit is the `reviewed` evidence. Tao's post
+is a named expert's public derivation of the answer. This repository has not
+reviewed the proof of Theorem 1.2 or Tao's derivation. The source card records
+the paper's statements.

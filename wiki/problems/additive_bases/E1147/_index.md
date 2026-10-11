@@ -2,9 +2,9 @@
 name: problems/additive_bases/E1147
 title: Problem 1147
 desc: |
-  Asks whether the set of n with alpha times n squared within one over the
-  logarithm of n of an integer is an additive basis of order two, for
-  irrational alpha.
+  Asks whether, for irrational $\alpha>0$, the set of $n$ such that $\alpha n^2$
+  lies within $1/\log n$ of an integer is an additive basis of order $2$;
+  disproved.
 tags:
 - Additive bases
 - Diophantine approximation
@@ -31,13 +31,13 @@ $$
 where $\|\cdot\|$ denotes the distance to the nearest integer, an additive basis
 of order $2$?
 
-**Status.** Disproved. Konieczny [Ko16b] proves that the set is not an
-additive basis of order two for almost every $\alpha>0$, and explicitly for
-$\alpha=\sqrt2$, with any $\epsilon(n)\to0$ in place of $1/\log n$; for
-thresholds decaying slowly enough (an $\alpha$-dependent rate that the paper
-does not relate to $1/\log n$) the set is a basis of order two for
-uncountably many exceptional $\alpha$ and of order three for every irrational
-$\alpha$. The accepted claim is
+**Status.** Disproved. Konieczny [Ko16b] proves that the set is not an additive
+basis of order two for almost every $\alpha>0$, and explicitly for
+$\alpha=\sqrt2$. This holds with any $\epsilon(n)\to0$ in place of $1/\log n$.
+For thresholds that decay slowly enough, the set is a basis of order two for
+uncountably many exceptional $\alpha$, and of order three for every irrational
+$\alpha$. The required rate depends on $\alpha$, and the paper does not relate
+it to $1/\log n$. The accepted claim is
 [[problems/additive_bases/E1147/claims/2015_04_09_konieczny|Konieczny]].
 
 **Source.** [erdosproblems.com/1147](https://www.erdosproblems.com/1147),

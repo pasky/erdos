@@ -2,9 +2,10 @@
 name: problems/factorials_binomials/E0730
 title: Problem 730
 desc: |
-  Asks whether infinitely many pairs of distinct integers n and m give central
-  binomial coefficients with exactly the same set of prime divisors; answered
-  yes in 2026, with consecutive pairs, by an AI proof credited to Price.
+  Asks whether there are infinitely many pairs $n\ne m$ such that
+  $\binom{2n}{n}$ and $\binom{2m}{m}$ have the same set of prime divisors. It
+  was answered yes in 2026, with consecutive pairs, by an AI proof credited to
+  Price.
 tags:
 - Number theory
 - Binomial coefficients
@@ -27,18 +28,19 @@ updated: 2026-10-08T14:17:37Z
 $\binom{2n}{n}$ and $\binom{2m}{m}$ have the same set of prime divisors?
 
 **Status.** Solved. The site labels the problem SOLVED (page last edited 1
-September 2026) and credits GPT Pro, prompted by Price, for a proof that
-infinitely many $n$ have $\binom{2n}{n}$ and $\binom{2n+2}{n+1}$ with the
-same prime divisors, at least a constant times $x^{1/2}$ of them below $x$
-for all large $x$; the result is recorded on the claim page
-[[problems/factorials_binomials/E0730/claims/2026_06_24_price|Price 2026]],
-and the site's proof-claim entry states that the proof has been accepted as
-correct. The question is a yes-or-no question answered yes, so the claim
-value is `proved`. A third-party Lean formalization of the argument is
-registered with the Palomar registry and copied into Boris Alexeev's
-repository of formalized Erdős problems; this corpus has built neither, and
-nothing is refereed. The standing in the frontmatter derives from the claim
-page.
+September 2026). The standing in the frontmatter derives from the claim page.
+The question is a yes-or-no question answered yes, so the claim value is
+`proved`.
+
+The site credits GPT Pro, prompted by Price, for a proof that infinitely many
+$n$ have $\binom{2n}{n}$ and $\binom{2n+2}{n+1}$ with the same prime divisors.
+For all large $x$, at least a constant times $x^{1/2}$ of these $n$ lie below
+$x$. The result is recorded on the claim page
+[[problems/factorials_binomials/E0730/claims/2026_06_24_price|Price 2026]]. The
+site's proof-claim entry states that the proof has been accepted as correct. A
+third-party Lean formalization of the argument is registered with the Palomar
+registry and copied into Boris Alexeev's repository of formalized Erdős
+problems. This corpus has built neither, and nothing is refereed.
 
 **Source.** [erdosproblems.com/730](https://www.erdosproblems.com/730), accessed
 2026-09-04 and, with its discussion thread, its proof-claims page and the

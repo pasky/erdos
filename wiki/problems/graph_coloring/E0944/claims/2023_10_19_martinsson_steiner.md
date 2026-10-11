@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0944/claims/2023_10_19_martinsson_steiner
 title: Martinsson and Steiner's answer for every r once k is large
 desc: |
-  Martinsson and Steiner prove that for every r there is k_0 such that every
-  k at least k_0 has a vertex-critical k-chromatic graph with no critical set
-  of at most r edges; refereed in Combin. Probab. Comput.
+  In a refereed paper in Combin. Probab. Comput., Martinsson and Steiner prove
+  that for every $r$ there is $k_0$ such that for every $k\ge k_0$ some
+  vertex-critical $k$-chromatic graph has no critical set of at most $r$ edges.
 authors:
 - Anders Martinsson
 - Raphael Steiner

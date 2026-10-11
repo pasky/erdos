@@ -2,9 +2,11 @@
 name: problems/number_theory/E0951
 title: Problem 951
 desc: |
-  Asks whether a sequence of reals whose distinct integer power products
-  always differ by at least 1 has no more terms up to x than there are primes
-  up to x; the quantifier over x is implicit, and the two readings are parts.
+  Asks whether every real sequence $1<a_1<a_2<\cdots$ whose products
+  $\prod_i a_i^{k_i}$ for different exponent tuples differ by at least $1$
+  satisfies $\#\{a_i\le x\}\le\pi(x)$; open. The quantifier over $x$ is
+  implicit, and the readings for every $x$ and for all large $x$ are separate
+  parts.
 tags:
 - Number theory
 status: open
@@ -57,22 +59,22 @@ whether equality can hold only when the $a_i$ are the primes; it is a
 variant, not the problem.
 
 **Status.** Open. The site labels the problem OPEN (page last edited 06 April
-2026) and says that no finite computation can resolve it; its commentary
-states that the wording leaves the quantifier over $x$ implicit, that the
-reading for every $x$ fails by a finite calculation, and credits the
-counterexample at $x=10$ to ChatGPT-5.2 Pro prompted by Leeham. The reading
-for every $x$ is answered in the negative by that counterexample, a
-[[problems/number_theory/E0951/claims/2026_01_27_leeham|pending partial claim]]
-which the curator's commentary credits; the further finite counterexamples of
-28 January and 1 February 2026 ($x=5-\varepsilon$, $7-\varepsilon$,
+2026) and says that no finite computation can resolve it. The site's label and
+the formal-conjectures statement follow the reading for all sufficiently large
+$x$, and that reading is open. No proof, disproof, refereed partial result or
+proof claim for it was found in the search whose scope the Current assessment
+records. Nothing found bears on it beyond the elementary integer case. The
+derived standing is open. The site's commentary states that the wording leaves
+the quantifier over $x$ implicit and that the reading for every $x$ fails by a
+finite calculation. It credits the counterexample at $x=10$ to ChatGPT-5.2 Pro
+prompted by Leeham. That counterexample answers the reading for every $x$ in the
+negative. It is a
+[[problems/number_theory/E0951/claims/2026_01_27_leeham|pending partial claim]],
+which the curator's commentary credits. The further finite counterexamples of 28
+January and 1 February 2026 ($x=5-\varepsilon$, $7-\varepsilon$,
 $11-\varepsilon$, $13-\varepsilon$, $17-\varepsilon$) are a
 [[problems/number_theory/E0951/claims/2026_01_28_sothanaphan|pending partial claim]]
-for the same part. The reading for all sufficiently large $x$, the one the
-site's label and the formal-conjectures statement follow, is open: no proof,
-disproof, refereed partial result or proof claim for it was found in the
-search whose scope the Current assessment records, and
-nothing found bears on it beyond the elementary integer case. The derived
-standing is open.
+for the same part.
 
 **Source.** [erdosproblems.com/951](https://www.erdosproblems.com/951),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that no

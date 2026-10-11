@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0617/claims/2026_07_18_sneiderman_r5
 title: Sneiderman's proof of the five-color case
 desc: |
-  A preprint of 18 July 2026 claims the fixed case r = 5 of Problem 617: every
-  five-coloring of K_26 has six vertices missing a color, while K_25 has one
-  without; with Kara's Lean and LRAT formalization of the argument; claimed.
+  A preprint by Robert Sneiderman of 18 July 2026 claims the fixed case $r=5$ of
+  Problem 617: every five-coloring of $K_{26}$ has six vertices missing a color,
+  while $K_{25}$ has a five-coloring without such a set. Kara has formalized the
+  argument in Lean and LRAT.
 authors:
 - Robert Sneiderman
 status: claimed

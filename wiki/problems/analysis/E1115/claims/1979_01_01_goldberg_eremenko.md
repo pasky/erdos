@@ -2,10 +2,10 @@
 name: problems/analysis/E1115/claims/1979_01_01_goldberg_eremenko
 title: Gol'dberg–Eremenko functions without linear-length asymptotic paths
 desc: |
-  Gol'dberg and Eremenko's 1979 Theorems 1 and 2: entire functions of order
-  zero growing barely above Hayman's threshold, and of every finite order,
-  with no path on which f tends to infinity having length O(r) inside the
-  disc of radius r.
+  Gol'dberg and Eremenko's 1979 Theorems 1 and 2 give entire functions with no
+  path on which $f\to\infty$ has length $O(r)$ inside the disc of radius $r$.
+  Such functions exist of order zero, growing barely above Hayman's threshold,
+  and of every finite order.
 authors:
 - A. A. Gol'dberg
 - A. E. Eremenko
@@ -72,16 +72,15 @@ of finite order, Math. USSR-Sb. 37 (1980), no. 4, 509--533, DOI
 is the version cited here. The page is named by the original's year, which
 the record gives alone.
 
-**Acceptance.** Refereed: the paper appeared in Matematicheskii Sbornik,
-with its translation in Mathematics of the USSR-Sbornik. Reviewed: the
-site's curator, T. F. Bloom, labels the problem solved and records that
-Gol'dberg and Eremenko disproved it with the functions of Theorems 1 and 2;
-Hayman and Lingham's 2018 survey of Hayman's problems (Update 2.41) records
-the problem as completely solved by this paper. Toppila's 1980 note, which
-the survey cites as an independent proof and which acknowledges this paper's
-priority, has
-[[problems/analysis/E1115/claims/1980_02_01_toppila|its own claim page]].
-Nothing here is independently reviewed by this project.
+**Acceptance.** Refereed: the paper appeared in Matematicheskii Sbornik, with
+its translation in Mathematics of the USSR-Sbornik. Reviewed: the site's
+curator, T. F. Bloom, labels the problem solved and records that Gol'dberg and
+Eremenko disproved it with the functions of Theorems 1 and 2. Hayman and
+Lingham's 2018 survey of Hayman's problems (Update 2.41) records the problem as
+completely solved by this paper. Toppila's 1980 note has
+[[problems/analysis/E1115/claims/1980_02_01_toppila|its own claim page]]. The
+survey cites that note as an independent proof, and the note acknowledges this
+paper's priority. Nothing here is independently reviewed by this project.
 
 **Formalization.** The file `Erdos1115.lean` in Boris Alexeev's repository,
 added on 17 August 2026 and linked above at the commit of 23 August 2026

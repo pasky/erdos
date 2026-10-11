@@ -2,9 +2,9 @@
 name: problems/irrationality/E0243/claims/1964_01_01_erdos_straus
 title: Erdős and Straus's recurrence criterion under an lcm condition
 desc: |
-  Erdős and Straus's 1964 Theorem 3 proves that a reciprocal sum with
-  limsup n_k^2/n_(k+1) at most 1 is rational exactly when the Sylvester
-  recurrence holds eventually, given a limsup condition on the lcm of the terms.
+  Erdős and Straus's 1964 Theorem 3 proves that if $\limsup n_k^2/n_{k+1}\le1$
+  and a limsup condition on the lcm of the terms holds, then $\sum1/n_k$ is
+  rational exactly when the Sylvester recurrence holds eventually.
 authors:
 - P. Erdös
 - E. G. Straus

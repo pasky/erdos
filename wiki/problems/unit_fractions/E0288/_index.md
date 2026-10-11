@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0288
 title: Problem 288
 desc: |
-  Asks whether only finitely many pairs of integer intervals have their
-  combined sum of reciprocals equal to a whole number.
+  Asks whether only finitely many pairs of integer intervals $I_1,I_2$ satisfy
+  $\sum_{n\in I_1}\frac{1}{n}+\sum_{n\in I_2}\frac{1}{n}\in\mathbb{N}$; open.
 tags:
 - Number theory
 - Unit fractions
@@ -43,22 +43,20 @@ related
 question with $k$ separated intervals of length at least $2$ summing to
 exactly $1$ is [[problems/unit_fractions/E0289/_index|Problem 289]].
 
-**Status.** Open on the site: the label is OPEN (no last-edited date shown;
-accessed), and the site marks the problem as not resolvable by a
-finite computation. The standing derived from the claim pages is open, claim
-none: the one claim page,
+**Status.** Open on the site: the label is OPEN, with no last-edited date shown.
+The site marks the problem as not resolvable by a finite computation. The
+standing derived from the claim pages is open, claim none. The one claim page,
 [[problems/unit_fractions/E0288/claims/2026_05_03_nayak|Nayak's note on the intersecting case]],
-is a pending partial claim that the pairs of intersecting intervals with an
-integer sum are exactly four small pairs, and no claim settles or pends on
-the full statement. The site's proof-claim tab is empty; the other note
+is a pending partial claim. It claims that the pairs of intersecting intervals
+with an integer sum are exactly four small pairs. No claim settles or pends on
+the full statement. The site's proof-claim tab is empty. The other note
 announced in the discussion (Zeraoulia, recorded in the Current assessment)
-offers a reduction and an obstruction for the singleton case, not a proof of
-finiteness, so it has no page. No proof of finiteness, no infinite family of
-pairs and no proof claim for the exact statement (or for the singleton case)
-was found in the search whose scope the Current
-assessment records; the located results concern one interval approaching
-$1$, not two intervals summing to an integer. This is a bounded negative
-finding, not a certificate of openness.
+offers a reduction and an obstruction for the singleton case. It is not a proof
+of finiteness, so it has no page. No proof of finiteness, no infinite family of
+pairs and no proof claim for the exact statement (or for the singleton case) was
+found in the search whose scope the Current assessment records. The located
+results concern one interval approaching $1$, not two intervals summing to an
+integer. This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/288](https://www.erdosproblems.com/288),
 accessed 2026-09-17: the problem page (OPEN; no last-edited date shown;

@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0108
 title: Problem 108
 desc: |
-  Asks whether, for every girth bound at least 4 and every k, large enough
-  chromatic number forces a subgraph of that girth with chromatic number at
-  least k; disproved at girth 5 and k = 7 by a Lean counterexample family.
+  Asks whether, for every $r\ge 4$ and $k\ge 2$, large enough chromatic number
+  forces a subgraph of girth $\ge r$ and chromatic number $\ge k$; disproved at
+  $r=5$ and $k=7$ by a Lean counterexample family.
 tags:
 - Graph theory
 - Chromatic number
@@ -27,29 +27,30 @@ updated: 2026-10-08T01:29:59Z
 such that every graph of chromatic number $\geq f(k,r)$ contains a subgraph of
 girth $\geq r$ and chromatic number $\geq k$?
 
-**Status.** Open on the site: the label is OPEN and the page was last edited
-23 January 2026; on 27 September 2026 the curator posted the Conjectures.io
-claim below on the site's proof-claims forum without endorsing it. The derived
+**Status.** Open on the site, with the label OPEN. The page was last edited 23
+January 2026. On 27 September 2026 the curator posted the Conjectures.io claim
+below on the site's proof-claims forum without endorsing it. The derived
 standing rests on the accepted claim page of
-[[problems/graph_coloring/E0108/claims/2026_09_15_kohlmeyer_kruer|Kohlmeyer
-and Kruer's Lean counterexample family]], published under the handle JenW1N
-and certified by Conjectures.io in September 2026: for every $M$ a finite graph
-of chromatic number at least $M$ all of whose subgraphs of girth at least $5$
-are $6$-colorable, so no finite $f(7,5)$ exists. That certification is
-documented independent acceptance by the bounty site, with no refereed
-publication and no formalization built here. The
-[[problems/graph_coloring/E0108/claims/2026_09_30_nguyen_walczak|expository
-note of Nguyen and Walczak]] (30 September 2026) explains the construction and
-sharpens the bound to $3$, which refutes every $r\ge5$ with $k\ge4$; it is a
-pending claim. The $r=4$ case is Rödl's theorem, an accepted partial claim
-([[problems/graph_coloring/E0108/claims/1977_06_01_rodl|triangle-free
-subgraphs of large chromatic number]]; it is the whole of
-[[problems/graph_coloring/E0923/_index|Problem 923]]), for which
+[[problems/graph_coloring/E0108/claims/2026_09_15_kohlmeyer_kruer|Kohlmeyer and Kruer's Lean counterexample family]],
+published under the handle JenW1N and certified by Conjectures.io in
+September 2026. The family gives, for every $M$, a finite graph of chromatic number at
+least $M$ all of whose subgraphs of girth at least $5$ are $6$-colorable. So no
+finite $f(7,5)$ exists. That certification is documented independent acceptance
+by the bounty site. There is no refereed publication, and no formalization was
+built here.
+
+The
+[[problems/graph_coloring/E0108/claims/2026_09_30_nguyen_walczak|expository note of Nguyen and Walczak]]
+(30 September 2026) explains the construction and sharpens the bound to $3$,
+which refutes every $r\ge5$ with $k\ge4$. It is a pending claim. The $r=4$ case
+is Rödl's theorem, an accepted partial claim
+([[problems/graph_coloring/E0108/claims/1977_06_01_rodl|triangle-free subgraphs of large chromatic number]]).
+It is the whole of [[problems/graph_coloring/E0923/_index|Problem 923]].
 [[problems/graph_coloring/E0108/claims/2026_08_03_steiner|Steiner's preprint]]
-(August 2026) gives a second proof with a single-exponential bound in place of
-Rödl's tower, a pending partial claim; the cases $r\ge5$ with $k\in\{2,3\}$
-hold for the elementary reasons given below. The infinitary version is
-[[problems/graph_coloring/E0740/_index|Problem 740]].
+(August 2026) gives a second proof of Rödl's theorem, with a single-exponential
+bound in place of Rödl's tower. That preprint is a pending partial claim. The
+cases $r\ge5$ with $k\in\{2,3\}$ hold for the elementary reasons given below.
+The infinitary version is [[problems/graph_coloring/E0740/_index|Problem 740]].
 
 **Source.** [erdosproblems.com/108](https://www.erdosproblems.com/108), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #108,

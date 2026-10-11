@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E0617/claims/1999_04_01_erdos_gyarfas
 title: Erdős and Gyárfás prove the cases r = 3 and r = 4
 desc: |
   Lemmas 1 and 2 of Erdős and Gyárfás (Discrete Math. 1999) show that every
-  three-coloring of K_10 and every four-coloring of K_17 has r + 1 vertices
-  missing a color, the cases r = 3 and r = 4 of Problem 617; refereed.
+  three-coloring of $K_{10}$ and every four-coloring of $K_{17}$ has $r+1$
+  vertices missing a color. These are the cases $r=3$ and $r=4$ of Problem 617,
+  and the paper is refereed.
 authors:
 - Paul Erdös
 - András Gyárfás
@@ -57,10 +58,9 @@ $R^3_2(K_4,K_4,K_4)=10$; that earlier proof is the accepted partial claim
 **Depends on.** Nothing in this wiki; the proofs are the paper's own, with
 Brooks's theorem and $R(3,4)=9$ as external inputs.
 
-**Acceptance.** Refereed: Discrete Mathematics 200 (1999), issue 1--3,
-79--86 (the Crossref record dates the issue April 1999; the day is the issue's
-nominal first day, used for this page's date). The site's commentary credits
-the authors with the cases $r=3$ and $r=4$ while labeling the problem
-FALSIFIABLE, which is commentary on an open problem and not acceptance, so
-`reviewed` is not listed. The acceptance recorded here rests on the
-publication, not on a local review.
+**Acceptance.** Refereed: Discrete Mathematics 200 (1999), issue 1--3, 79--86.
+The Crossref record dates the issue April 1999, and this page's date uses the
+issue's nominal first day. The site's commentary credits the authors with the
+cases $r=3$ and $r=4$, but the site labels the problem FALSIFIABLE. That is
+commentary on an open problem, not acceptance, so `reviewed` is not listed. The
+acceptance recorded here rests on the publication, not on a local review.

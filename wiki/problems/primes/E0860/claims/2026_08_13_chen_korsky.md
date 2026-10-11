@@ -2,9 +2,10 @@
 name: problems/primes/E0860/claims/2026_08_13_chen_korsky
 title: Chen and Korsky's upper bound n^{4/3}/(log n)^{1/3}
 desc: |
-  Theorem 1.2 of the second version of Chen and Korsky's arXiv paper: h(n)
-  << n^{4/3}/(log n)^{1/3}, from a new estimate for unions of arithmetic
-  progressions; made with ChatGPT-5.6 Sol; pending.
+  Theorem 1.2 of the second version of Chen and Korsky's arXiv paper states
+  $h(n)\ll n^{4/3}/(\log n)^{1/3}$, from a new estimate for unions of arithmetic
+  progressions. The work was made with ChatGPT-5.6 Sol, and the claim is
+  pending.
 authors:
 - Kaizhe Chen
 - Samuel Korsky

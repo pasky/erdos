@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0209/claims/1984_12_01_furedi_palasti
 title: Arrangements without a Gallai triangle for d not divisible by 9
 desc: |
-  Füredi and Palásti exhibit, for every d at least 4 not divisible by 9, an
-  arrangement of d lines with no point on four lines and no Gallai triangle,
-  answering the question negatively.
+  For every $d\ge4$ not divisible by $9$, Füredi and Palásti exhibit an
+  arrangement of $d$ lines with no point on four lines and no Gallai triangle.
+  This answers the question negatively.
 authors:
 - Z. Füredi
 - I. Palásti

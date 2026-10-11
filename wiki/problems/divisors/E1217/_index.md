@@ -3,8 +3,9 @@ name: problems/divisors/E1217
 title: Problem 1217
 desc: |
   Asks whether a sequence of positive lower logarithmic density contains a
-  divisibility chain whose upper growth rate against log log x is at least the
-  weighted sum's; answered yes in 2026 by Alexeev and seven coauthors.
+  divisibility chain whose count below $x$, divided by $\log\log x$, has
+  $\limsup$ at least that of $\sum_{a_n<x}1/(a_n\log a_n)$ divided by
+  $\log\log x$; answered yes in 2026 by Alexeev and seven coauthors.
 tags:
 - Number theory
 - Divisors
@@ -38,16 +39,16 @@ $$
 \limsup_{x\to \infty}\frac{1}{\log\log x}\sum_{a_{n_i}<x}1 \geq \limsup_{x\to \infty} \frac{1}{\log\log x}\sum_{a_n<x}\frac{1}{a_n\log a_n}?
 $$
 
-**Status.** Proved. The site labels the problem PROVED (page last edited 12
-May 2026) and credits Theorem 1.6 of Alexeev, Barreto, Li, Lichtman, Price,
-Shah, Tang and Tao (arXiv, 1 May 2026), recorded on
-[[problems/divisors/E1217/claims/2026_05_01_alexeev_barreto_li_lichtman_price_shah_tang_tao|its claim page]];
-the theorem needs only that the weighted sum $\sum_{a_n<x}1/(a_n\log a_n)$
-has a positive upper growth rate against $\log\log x$, that is, a positive
-$\limsup$ of the quotient, which positive lower logarithmic density implies,
-so the density hypothesis is not needed. The result is an arXiv
-preprint accepted by the site's curator, with no journal record and no Lean
-proof. The standing in the frontmatter derives from the claim pages.
+**Status.** Proved. The site labels the problem PROVED (page last edited 12 May
+2026). It credits Theorem 1.6 of Alexeev, Barreto, Li, Lichtman, Price, Shah,
+Tang and Tao (arXiv, 1 May 2026), which is recorded on
+[[problems/divisors/E1217/claims/2026_05_01_alexeev_barreto_li_lichtman_price_shah_tang_tao|its claim page]].
+The standing in the frontmatter derives from the claim pages. The result is an
+arXiv preprint accepted by the site's curator, with no journal record and no
+Lean proof. The theorem needs only that the weighted sum
+$\sum_{a_n<x}1/(a_n\log a_n)$ has a positive upper growth rate against
+$\log\log x$, that is, a positive $\limsup$ of the quotient. Positive lower
+logarithmic density implies this, so the density hypothesis is not needed.
 
 **Source.** [erdosproblems.com/1217](https://www.erdosproblems.com/1217),
 accessed 2026-09-04 and 2026-10-07: the problem page, its nine-comment

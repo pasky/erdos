@@ -2,8 +2,8 @@
 name: problems/divisors/E0450
 title: Problem 450
 desc: |
-  How long an interval must be so that at most a small fraction of its
-  integers have a divisor strictly between n and twice n.
+  Asks how large $y=y(\epsilon,n)$ must be for at most $\epsilon y$ of the
+  integers in $(x,x+y)$ to have a divisor in $(n,2n)$; open.
 tags:
 - Number theory
 - Divisors
@@ -38,11 +38,11 @@ The reading over typical $x$, and the regimes in which $\epsilon$ shrinks with
 $n$, which the site's remarks discuss, are not settled by any claim, so the
 problem stays open.
 
-**Status.** Open on the site (OPEN with one proof claim listed
-as full). The frontmatter standing `open` derives from the claim pages: the
-pending partial claim page
+**Status.** Open on the site (OPEN with one proof claim listed as full). The
+frontmatter standing `open` derives from the claim pages, and no claim is
+accepted. The pending partial claim page
 [[problems/divisors/E0450/claims/2026_07_15_snyder|Snyder's linear order for the window length]]
-answers the every-$x$ reading only; no claim is accepted.
+answers the every-$x$ reading only.
 
 **Source.** [erdosproblems.com/450](https://www.erdosproblems.com/450), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #450,

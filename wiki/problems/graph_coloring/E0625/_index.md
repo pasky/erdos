@@ -2,8 +2,9 @@
 name: problems/graph_coloring/E0625
 title: Problem 625
 desc: |
-  Compares the cochromatic number, the fewest colors whose classes each
-  induce a complete or empty graph, with the ordinary chromatic number.
+  Asks whether $\chi(G)-\zeta(G)\to\infty$ almost surely for the random graph
+  $G(n,1/2)$, where the cochromatic number $\zeta(G)$ is the fewest colors whose
+  classes each induce a complete or empty graph; proved.
 tags:
 - Graph theory
 - Chromatic number
@@ -40,25 +41,27 @@ random-graph meaning:
 the relevant probability tends to one under $G(n,1/2)$ as $n$ runs through
 all integers. A coupling of graphs across different orders is not specified.
 
-**Status.** SOLVED, the site's label since 5 September 2026, when the curator
-changed it from OPEN and credited Petkov and GPT-5.6 in the commentary (the page
-was last edited that day). The site's commentary records the known bounds
-$n/(2\log_2 n)\le\zeta(G)\le \chi(G)\le(1+o(1))\,n/(2\log_2 n)$, the results of
-Heckel and Steiner that the gap is not bounded with high probability, Heckel's
-conjecture that it is of order $n/(\log n)^3$, Heckel's bound $n^{1-\epsilon}$
-for roughly $95\%$ of all $n$, and, since September 2026, an improvement by
-Petkov and GPT-5.6, through the proof claims, to a gap $\gg n/(\log n)^3$ almost
-surely, as Heckel predicted. Two full proof claims are recorded:
+**Status.** SOLVED has been the site's label since 5 September 2026. That day
+the curator changed it from OPEN and credited Petkov and GPT-5.6 in the
+commentary, and the page was last edited then. Two full proof claims are
+recorded, and neither is refereed.
 [[problems/graph_coloring/E0625/claims/2026_07_14_petkov|Petkov's manuscript]]
-(forum 14 July 2026, arXiv 31 August 2026), whose uniform main theorem gives an
-explicit $c\,n/(\log n)^3$ lower bound with probability tending to one along all
-integers and carries an external kernel-verification record the corpus did not
-build, and [[problems/graph_coloring/E0625/claims/2026_09_09_serraj|Serraj's
-manuscript]] (9 September 2026), a different route. Neither is refereed.
-Petkov's is accepted on the curator's label and credit. Serraj's, which the site
-does not credit, is pending. The problem therefore stands solved and proved.
-The assessment below records what each source states and what the corpus's
-reviews cover.
+(forum 14 July 2026, arXiv 31 August 2026) has a uniform main theorem that gives
+an explicit $c\,n/(\log n)^3$ lower bound with probability tending to one along
+all integers. It carries an external kernel-verification record that the corpus
+did not build. It is accepted on the curator's label and credit.
+[[problems/graph_coloring/E0625/claims/2026_09_09_serraj|Serraj's manuscript]]
+(9 September 2026) takes a different route. The site does not credit it, and it
+is pending. The problem therefore stands solved and proved.
+
+The site's commentary records the known bounds
+$n/(2\log_2 n)\le\zeta(G)\le \chi(G)\le(1+o(1))\,n/(2\log_2 n)$. It records the
+results of Heckel and Steiner that the gap is not bounded with high probability,
+Heckel's conjecture that the gap is of order $n/(\log n)^3$, and Heckel's bound
+$n^{1-\epsilon}$ for roughly $95\%$ of all $n$. Since September 2026 it also
+records an improvement by Petkov and GPT-5.6, through the proof claims, to a gap
+$\gg n/(\log n)^3$ almost surely, as Heckel predicted. The assessment below
+records what each source states and what the corpus's reviews cover.
 
 
 **Source.** [erdosproblems.com/625](https://www.erdosproblems.com/625), accessed

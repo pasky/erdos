@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0375/claims/1975_03_01_ramachandra_shorey_tijdeman
 title: Ramachandra, Shorey and Tijdeman's range (log n/log log n)^3
 desc: |
-  Ramachandra, Shorey and Tijdeman prove that n+1, ..., n+g have distinct
-  prime divisors p_i dividing n+i for g = [a_3 (log n/log log n)^3] and all
-  n at least 3, settling every composite run of that length; refereed in 1975.
+  In a refereed 1975 paper, Ramachandra, Shorey and Tijdeman prove that
+  $n+1,\ldots,n+g$ have distinct prime divisors $p_i\mid n+i$ for
+  $g=[\alpha_3(\log n/\log\log n)^3]$ and all $n\ge3$. This settles every run of
+  composites of that length.
 authors:
 - K. Ramachandra
 - T. N. Shorey
@@ -42,9 +43,9 @@ The constant $\alpha_3$ is very small, so the range is empty for small $n$,
 and longer runs are not covered. The formal-conjectures statement file
 records this range as a variant of the problem.
 
-**Acceptance.** The result appeared in a refereed journal, the Journal für
-die reine und angewandte Mathematik, in 1975: the `refereed` evidence. The
-site labels the problem FALSIFIABLE, an open label, so its commentary's
-credit is not `reviewed` evidence. The range of
+**Acceptance.** The result appeared in 1975 in the Journal für die reine und
+angewandte Mathematik, a refereed journal. This is the `refereed` evidence. The
+site labels the problem FALSIFIABLE, which is an open label, so the credit in
+its commentary is not `reviewed` evidence. For all large $n$, the range of
 [[problems/integer_sequences/E0375/claims/1969_12_01_grimm|Grimm's theorem]]
-lies inside this one for all large $n$.
+lies inside the range of this one.

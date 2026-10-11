@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0367/claims/2026_06_10_hughes_conditional
 title: "Hughes: the n^{2+o(1)} bound under the abc conjecture"
 desc: |
-  Scott Hughes's conditional theorem that, under a radical lower bound implied
-  by the abc conjecture, the product of the powerful parts of k consecutive
-  integers is at most a constant times n^{2+eps}; no public paper, pending.
+  Scott Hughes's conditional theorem says that, under a lower bound on the
+  radical implied by the abc conjecture, the product of the powerful parts of
+  $k$ consecutive integers is at most a constant times $n^{2+\varepsilon}$.
+  There is no public paper, and the claim is pending.
 authors:
 - S. D. Hughes
 status: claimed

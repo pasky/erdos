@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0948/claims/1991_02_01_erdos_galvin
 title: Erdős and Galvin, Galvin's two-coloring refutes the case of two colors
 desc: |
-  Theorem 4.1 of Erdős and Galvin (Discrete Math. 1991): for every bound, a
-  two-coloring under which no sequence with monochromatic finite sums meets
-  the bound even once; the case k = 2, refereed.
+  Theorem 4.1 of Erdős and Galvin (Discrete Math. 1991, refereed) gives, for
+  every bound, a 2-coloring under which no sequence with monochromatic finite
+  sums meets the bound even once. It covers the case $k=2$.
 authors:
 - Paul Erdős
 - Fred Galvin

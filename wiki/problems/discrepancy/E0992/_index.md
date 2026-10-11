@@ -2,8 +2,9 @@
 name: problems/discrepancy/E0992
 title: Problem 992
 desc: |
-  Asks whether, for any increasing integer sequence, the discrepancy of its
-  multiples of alpha stays near the square root of N for almost every alpha.
+  Asks whether, for every increasing integer sequence $x_n$ and almost every
+  $\alpha$, the discrepancy of $\{\alpha x_n\}$ satisfies
+  $D(N)\ll N^{1/2}(\log N)^{o(1)}$. Berkes and Philipp disproved it in 1994.
 tags:
 - Discrepancy
 status: solved
@@ -39,9 +40,9 @@ $$
 D(N)\ll N^{1/2}(\log\log N)^{O(1)}?
 $$
 
-**Status.** Disproved: Berkes and Philipp [BePh94] built an integer sequence
+**Status.** Disproved. Berkes and Philipp [BePh94] built an integer sequence
 whose discrepancy has $\limsup D(N)/(N\log N)^{1/2}>0$ for almost every
-$\alpha$, so both asked bounds fail; the accepted claim is
+$\alpha$. So both bounds asked for fail. The accepted claim is
 [[problems/discrepancy/E0992/claims/1994_12_01_berkes_philipp|Berkes and Philipp 1994]].
 
 **Source.** [erdosproblems.com/992](https://www.erdosproblems.com/992), accessed

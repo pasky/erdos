@@ -2,9 +2,9 @@
 name: problems/set_theory/E0601/claims/1970_01_01_erdos_hajnal_milner
 title: Erdős, Hajnal and Milner's positive answer below omega_1^(omega+2)
 desc: |
-  Theorem 7 of Erdős, Hajnal and Milner (Balatonfüred colloquium, 1970): a
-  graph with no infinite path on an ordered set of type omega theta below
-  omega_1^(omega+2) has an independent set of the same type.
+  Erdős, Hajnal and Milner (Balatonfüred colloquium, 1970) prove, as Theorem 7,
+  that a graph with no infinite path on an ordered set of type
+  $\omega\theta<\omega_1^{\omega+2}$ has an independent set of the same type.
 authors:
 - P. Erdős
 - A. Hajnal
@@ -57,15 +57,15 @@ records the paper. The volume carries only the year, so this page is dated
 the first of January 1970. Nothing on this page is independently reviewed
 by this project.
 
-**Acceptance.** Reviewed: the theorem is restated as proved and built on
-in the refereed papers of Jean A. Larson
+**Acceptance.** Reviewed: the theorem is restated as proved and built on in the
+refereed papers of Jean A. Larson
 ([[problems/set_theory/E0601/claims/1986_04_01_larson|1986]],
 [[problems/set_theory/E0601/claims/1987_09_01_larson|1987]],
-[[problems/set_theory/E0601/claims/1990_04_01_larson|1990]]) and of
-Baumgartner and Larson
-([[problems/set_theory/E0601/claims/1990_04_01_baumgartner_larson|1990]]),
-whose zbMATH reviews repeat it: a documented acceptance by named experts
-independent of the authors. Not `refereed`: the colloquium proceedings
-carry no evidence that their papers were refereed. The site's commentary
-credits the authors with the result, but the site labels the problem OPEN,
-so the curator's credit is not acceptance of a claim.
+[[problems/set_theory/E0601/claims/1990_04_01_larson|1990]]) and of Baumgartner
+and Larson
+([[problems/set_theory/E0601/claims/1990_04_01_baumgartner_larson|1990]]). Their
+zbMATH reviews repeat it. This is a documented acceptance by named experts
+independent of the authors. Not `refereed`: the colloquium proceedings carry no
+evidence that their papers were refereed. The site's commentary credits the
+authors with the result. But the site labels the problem OPEN, so the curator's
+credit is not acceptance of a claim.

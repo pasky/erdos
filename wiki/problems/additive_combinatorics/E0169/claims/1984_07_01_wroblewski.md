@@ -3,8 +3,8 @@ name: problems/additive_combinatorics/E0169/claims/1984_07_01_wroblewski
 title: Wróblewski's set giving f(3) at least 3.00849
 desc: |
   Wróblewski constructed an explicit set of integers with no three-term
-  arithmetic progression and reciprocal sum above 3.00849, the record for f(3)
-  that the site credits.
+  arithmetic progression and reciprocal sum above 3.00849. This is the record
+  for $f(3)$ that the site credits.
 authors:
 - Jacek Wróblewski
 status: accepted
@@ -48,8 +48,8 @@ $f(3)$, any other $k$, and the displayed limit question.
 
 **Acceptance.** Refereed: J. Wróblewski, A nonaveraging set of integers with a
 large sum of reciprocals, Math. Comp. 43 (1984), no. 167, 261–262. The site's
-curator credits the bound in the problem's commentary, but the site labels the
-problem OPEN, so that commentary is not acceptance of the problem and the page
+curator credits the bound in the problem's commentary. The site labels the
+problem OPEN, so that commentary is not acceptance of the problem, and the page
 lists no `reviewed` evidence.
 
 **Dating.** The page is dated by the issue of the publisher's record, number

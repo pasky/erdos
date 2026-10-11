@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0310
 title: Problem 310
 desc: |
-  Asks whether every subset of one through N of density at least alpha has a
-  subset whose reciprocals sum to a rational with boundedly small denominator.
+  Asks whether every $A\subseteq\{1,\ldots,N\}$ with $|A|\ge\alpha N$ has a
+  subset whose reciprocals sum to some $a/b$ with $a\le b=O_\alpha(1)$; proved.
 tags:
 - Number theory
 - Unit fractions
@@ -45,26 +45,32 @@ $((1/e+\gamma)N,N]$ has density above $\alpha$ for small $\gamma$ and all
 of its subsums are below $1$, so none is an integer (checked on this page from Liu
 and Sawhney's remark after their Theorem 1.3).
 
-**Status.** Proved. The status-defining source is Liu and Sawhney's
-Proposition 1.4 (Int. Math. Res. Not. 2026, refereed): there is an absolute
-$C\ge1$ such that for $\varepsilon>0$, $N$ large in terms of $\varepsilon$,
-$A\subseteq[1,N]$ with $|A|\ge\alpha N$ and
-$(\log N)^{-1/7+\varepsilon}\le\alpha\le1/2$, some $B\subseteq A$ has
-$\sum_{n\in B}1/n=s/t$ with $1\le s\le t\le\exp(C/\alpha)$; for $\alpha>1/2$
-the case $\alpha=1/2$ applies to any subset of $A$ of size $N/2$ (checked on
-this page). The site attributes the qualitative answer to Bloom's density
-theorem through Liu and Sawhney's observation; their remark says a direct
-application of Bloom's Proposition 1 gives $t=O_\alpha(1)$, and that the
-dependence $\exp(O(1/\alpha))$ is sharp. The site's label is PROVED (LEAN);
-its Lean suffix refers to a Lean development in Boris Alexeev's collection,
-authored by OpenAI Codex and naming Thomas Bloom and Bhavik Mehta as its
-informal authors, at which the formal-conjectures statement file added on 20
-September 2026 points; it proves the qualitative answer by the route of
-Bloom's density theorem, has its own pending claim page,
-[[problems/unit_fractions/E0310/claims/2026_08_17_alexeev|Alexeev's Lean proof]],
-and is described under Existing formalization, and no local kernel credit is
-claimed. The accepted claim is recorded on
+**Status.** Proved. The site's label is PROVED (LEAN). The accepted claim is
+recorded on
 [[problems/unit_fractions/E0310/claims/2024_04_10_liu_sawhney|Liu and Sawhney's claim page]].
+The status-defining source is Liu and Sawhney's Proposition 1.4 (Int. Math. Res.
+Not. 2026, refereed). It gives an absolute $C\ge1$ with the following property.
+Let $\varepsilon>0$, let $N$ be large in terms of $\varepsilon$, and let
+$A\subseteq[1,N]$ with $|A|\ge\alpha N$ and
+$(\log N)^{-1/7+\varepsilon}\le\alpha\le1/2$. Then some $B\subseteq A$ has
+$\sum_{n\in B}1/n=s/t$ with $1\le s\le t\le\exp(C/\alpha)$. For $\alpha>1/2$,
+the case $\alpha=1/2$ applies to any subset of $A$ of size $N/2$ (checked on
+this page).
+
+The site attributes the qualitative answer to Bloom's density theorem through
+Liu and Sawhney's observation. Their remark says that a direct application of
+Bloom's Proposition 1 gives $t=O_\alpha(1)$, and that the dependence
+$\exp(O(1/\alpha))$ is sharp.
+
+The label's Lean suffix refers to a Lean development in Boris Alexeev's
+collection. That development was authored by OpenAI Codex and names Thomas Bloom
+and Bhavik Mehta as its informal authors. The formal-conjectures statement file
+added on 20 September 2026 points at it. The development proves the qualitative
+answer by the route of Bloom's density theorem. It has its own pending claim
+page,
+[[problems/unit_fractions/E0310/claims/2026_08_17_alexeev|Alexeev's Lean proof]],
+and is described under Existing formalization. No local kernel credit is
+claimed.
 
 **Source.** [erdosproblems.com/310](https://www.erdosproblems.com/310),
 accessed 2026-09-18: the problem page (PROVED (LEAN), with the site's

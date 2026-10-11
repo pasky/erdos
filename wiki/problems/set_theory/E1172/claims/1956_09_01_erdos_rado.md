@@ -2,9 +2,10 @@
 name: problems/set_theory/E1172/claims/1956_09_01_erdos_rado
 title: The Erdős–Rado theorem settles the first relation
 desc: |
-  Erdős and Rado (Bull. Amer. Math. Soc., 1956) prove (2^kappa)^+ ->
-  (kappa^+)^2_kappa; under GCH at kappa = aleph_1 this gives the first relation
-  of Problem 1172 as printed, omega_3 -> (omega_2, omega_1+2)^2.
+  Erdős and Rado (Bull. Amer. Math. Soc., 1956) prove
+  $(2^\kappa)^+\to(\kappa^+)^2_\kappa$. Under GCH at $\kappa=\aleph_1$ this
+  gives the first relation of Problem 1172 as printed,
+  $\omega_3\to(\omega_2,\omega_1+2)^2$.
 authors:
 - P. Erdős
 - R. Rado

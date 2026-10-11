@@ -2,9 +2,9 @@
 name: problems/additive_bases/E0346
 title: Problem 346
 desc: |
-  Asks whether a sequence complete after any finite deletion but never after
-  an infinite one, with ratios bounded away from one, must have ratios
-  tending to the golden ratio.
+  Asks whether a sequence that stays complete after any finite deletion but
+  never after an infinite one, with $a_{n+1}/a_n\ge1+\epsilon$ for some
+  $\epsilon>0$, must have $a_{n+1}/a_n\to(1+\sqrt5)/2$; disproved.
 tags:
 - Number theory
 - Complete sequences
@@ -60,13 +60,13 @@ covering the sequences whose ratios converge; the answer yes on the variant is
 claimed, not accepted.
 
 **Status.** SOLVED, in the site's label (page last edited 1 September 2026). The
-site's remarks credit the counterexample that GPT Pro produced at Liam Price's
-prompting: a sequence with both deletion properties and $a_{n+1}/a_n\ge6/5$
-whose ratios have the two subsequential limits $\varphi$ and $\varphi+1/4$. The
-statement is disproved, so the answer to the question as posed is no. The
 derived standing, solved and disproved, is more specific than the site's label,
-which names no polarity: the accepted claim is a counterexample to the
-Statement. See the
+which names no polarity, because the accepted claim is a counterexample to the
+Statement. The site's remarks credit the counterexample that GPT Pro produced at
+Liam Price's prompting. It is a sequence with both deletion properties and
+$a_{n+1}/a_n\ge6/5$ whose ratios have the two subsequential limits $\varphi$ and
+$\varphi+1/4$. The statement is therefore disproved, and the answer to the
+question as posed is no. See the
 [[problems/additive_bases/E0346/claims/2026_06_19_price|claim page]], which also
 carries the site's proof-claim entry of 2026-07-15.
 

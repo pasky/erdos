@@ -2,8 +2,9 @@
 name: problems/unit_fractions/E0319
 title: Problem 319
 desc: |
-  The size of the largest subset of one through N carrying signs whose signed
-  reciprocals sum to zero while no proper non-empty subset sums to zero.
+  Asks for the size of the largest $A\subseteq\{1,\ldots,N\}$ with signs
+  $\delta_n=\pm1$ such that $\sum_{n\in A}\delta_n/n=0$ but no proper non-empty
+  subset of $A$ gives zero; open.
 tags:
 - Number theory
 - Unit fractions
@@ -52,23 +53,24 @@ $[1-\frac1e,1]$, and whether $c(N)=(1-o(1))N$ is unknown. The
 formal-conjectures file also poses the $\Theta$-order variant, which the
 lower bound together with $c(N)\le N$ would answer with $N$.
 
-**Status.** Open on the site: the label is OPEN (2026-10-07; the page shows
-no last-edited stamp) and the site marks the problem as not resolvable by a
-finite computation. The standing derived from the claim pages is open,
-claim none: both claim pages are partial and pending, and a partial claim
-derives nothing. The site's commentary credits Adenwalla with the lower
-bound $c(N)\ge(1-\frac1e+o(1))N$ from Croot's Main Theorem (Acta Arith. 99
-(2001); refereed), written out below and recorded on
-[[problems/unit_fractions/E0319/claims/2025_09_15_adenwalla|Adenwalla's claim page]];
-the credit is commentary on a problem the site labels OPEN, not an
-acceptance, so the bound is site-credited and pending. With the trivial
-upper bound $N$ it would give $c(N)$ the order $N$. The one claim on the
-site's proof-claim tab, an
+**Status.** Open on the site. The label is OPEN (2026-10-07; the page shows no
+last-edited stamp), and the site marks the problem as not resolvable by a finite
+computation. The standing derived from the claim pages is open, claim none. Both
+claim pages are partial and pending, and a partial claim derives nothing.
+
+The site's commentary credits Adenwalla with the lower bound
+$c(N)\ge(1-\frac1e+o(1))N$, from Croot's Main Theorem (Acta Arith. 99 (2001);
+refereed). The bound is written out below and recorded on
+[[problems/unit_fractions/E0319/claims/2025_09_15_adenwalla|Adenwalla's claim page]].
+The credit is commentary on a problem the site labels OPEN, not an acceptance,
+so the bound is site-credited and pending. With the trivial upper bound $N$, it
+would give $c(N)$ the order $N$. The one claim on the site's proof-claim tab is
+an
 [[problems/unit_fractions/E0319/claims/2026_07_16_popular_12345|AI-assisted partial claim of 16 July 2026]]
-that $c(N)=N-o(N)$, is pending. No determination of the asymptotic, and no
-proof that $c(N)=(1-o(1))N$, was found in the search
-whose scope the Current assessment records. This is a bounded negative
-finding, not a certificate of openness.
+that $c(N)=N-o(N)$. It is pending. No determination of the asymptotic, and no
+proof that $c(N)=(1-o(1))N$, was found in the search whose scope the Current
+assessment records. This is a bounded negative finding, not a certificate of
+openness.
 
 **Source.** [erdosproblems.com/319](https://www.erdosproblems.com/319),
 accessed 2026-09-18: the problem page (OPEN, marked as not resolvable by a

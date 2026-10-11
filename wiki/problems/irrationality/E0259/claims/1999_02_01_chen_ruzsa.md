@@ -3,8 +3,9 @@ name: problems/irrationality/E0259/claims/1999_02_01_chen_ruzsa
 title: Chen and Ruzsa's irrationality of squarefree subseries
 desc: |
   Chen and Ruzsa's 1999 paper proves Erdős's stronger conjecture that every
-  infinite subseries of the sum of n over 2^n taken over squarefree n is
-  irrational, which answers the question yes; refereed and curator-credited.
+  infinite subseries of $\sum n/2^n$ over squarefree $n$ is irrational, which
+  answers the question yes. The paper is refereed, and the site's curator
+  credits it with this result.
 authors:
 - Yong-Gao Chen
 - Imre Z. Ruzsa
@@ -64,29 +65,31 @@ pointers; the
 [[../library/irrationality/chen_ruzsa_1999_irrationality_certain_series/_index|library card]]
 holds the bibliographic record.
 
-**Acceptance.** Refereed: Periodica Mathematica Hungarica, volume 38, issue
-1–2, published in print in February 1999. Reviewed: Thomas Bloom, the site's
-curator, labels the problem proved and credits the paper with the stronger
-conjecture in the problem's remarks (page last edited 19 October 2025;
-accessed 2026-10-07), and a comment in the site's thread of 2025-09-02
-records that the constant's OEIS entry cites the paper as the positive
-solution. The site's Lean qualifier refers to a Lean 4 gist by the GitHub
-user `ster-oc`, posted to the thread on 2026-04-21 and made with Aristotle,
-per that thread comment: the community database records the problem's Lean
-status from that day, and formal-conjectures, which tags its statement
-`erdos_259` research solved, has cited the gist as its formal proof since
-2026-04-27 (the revision of 2026-10-06 is the `record` link). The gist's
-header says it proves the irrationality "using the Chen–Ruzsa irrationality
-criterion", so it is recorded as a formalization of this result and not as
-an independent proof. The second `formalization` link is the gist's port in
-Boris Alexeev's lean-proofs repository
-(`src/latest/ErdosProblems/Erdos259.lean`, added 2026-04-28), whose header
-calls it a Lean formalization of a solution
-to Problem 259, names Chen and Ruzsa as the informal authors and Aristotle
-and Stefano Rocca as the formal authors, and lists the gist as its source.
-This corpus has not built, replayed or audited either file, so the claim
-carries no `formalized` evidence, and the corpus records no check of the
-proof.
+**Acceptance.** Refereed: Periodica Mathematica Hungarica, volume 38, issue 1–2,
+published in print in February 1999.
+
+Reviewed: Thomas Bloom, the site's curator, labels the problem proved and, in
+the problem's remarks, credits the paper with the stronger conjecture (page last
+edited 19 October 2025; accessed 2026-10-07). A comment in the site's thread of
+2025-09-02 records that the constant's OEIS entry cites the paper as the
+positive solution.
+
+The site's Lean qualifier refers to a Lean 4 gist by the GitHub user `ster-oc`,
+posted to the thread on 2026-04-21 and made with Aristotle, per that thread
+comment. The community database records the problem's Lean status from that day.
+In formal-conjectures, the statement `erdos_259` is tagged research solved, and
+the gist has been cited as its formal proof since 2026-04-27. The revision of
+2026-10-06 is the `record` link. The gist's header says it proves the
+irrationality "using the Chen–Ruzsa irrationality criterion", so it is recorded
+as a formalization of this result and not as an independent proof.
+
+The second `formalization` link is the gist's port in Boris Alexeev's
+lean-proofs repository (`src/latest/ErdosProblems/Erdos259.lean`, added
+2026-04-28). Its header calls it a Lean formalization of a solution to
+Problem 259. It names Chen and Ruzsa as the informal authors and Aristotle and Stefano
+Rocca as the formal authors, and it lists the gist as its source. This corpus
+has not built, replayed or audited either file, so the claim carries no
+`formalized` evidence. The corpus records no check of the proof.
 
 **Depends on.** Nothing in this wiki; the claim is the cited paper's theorem.
 

@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0370
 title: Problem 370
 desc: |
-  Asks whether infinitely many integers n have both n and n plus one with
-  largest prime factor below their own square root.
+  Asks whether infinitely many $n$ have the largest prime factor of $n$ below
+  $\sqrt{n}$ and that of $n+1$ below $\sqrt{n+1}$; proved.
 tags:
 - Number theory
 status: solved
@@ -24,10 +24,10 @@ updated: 2026-10-08T01:29:58Z
 of $n$ is $<n^{1/2}$ and the largest prime factor of $n+1$ is $<(n+1)^{1/2}$?
 
 **Status.** PROVED (LEAN), the site's label. The site records Steinerberger's
-trivial construction $n=m^2-1$ with $m$ and $m+1$ composite, and the
-formal-conjectures project links two Lean proofs of its statement; the site's
-curator suspects that the problem was misstated but offers no intended
-reading. The accepted claim is
+trivial construction $n=m^2-1$ with $m$ and $m+1$ composite. The
+formal-conjectures project links two Lean proofs of its statement. The site's
+curator suspects that the problem was misstated but offers no intended reading.
+The accepted claim is
 [[problems/arithmetic_functions/E0370/claims/2025_10_17_steinerberger|Steinerberger's construction]].
 
 **Source.** [erdosproblems.com/370](https://www.erdosproblems.com/370), accessed

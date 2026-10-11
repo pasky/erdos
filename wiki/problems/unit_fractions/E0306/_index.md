@@ -3,8 +3,8 @@ name: problems/unit_fractions/E0306
 title: Problem 306
 desc: |
   Asks whether every positive rational with squarefree denominator is a sum of
-  distinct unit fractions whose denominators are all products of two distinct
-  primes.
+  distinct unit fractions whose denominators are each a product of two distinct
+  primes; open on the site, with pending proof claims.
 tags:
 - Number theory
 - Unit fractions
@@ -45,28 +45,29 @@ however a proof of this result was never published", prove the
 natural-number case, and "conjecture that a similar result holds for
 $\omega=2$".
 
-**Status.** Open, in the site's label. The frontmatter standing is `claimed`
-with claim `proved`, derived from two pending full claims, each on its own
-page:
-[[problems/unit_fractions/E0306/claims/2026_06_19_tang|Tang's Lean proof]]
-of June 2026, a Lean development asserting the whole statement with two
-Rosser--Schoenfeld bounds taken as axioms, followed by a manuscript
-published in October 2026, and
-[[problems/unit_fractions/E0306/claims/2026_09_26_li|Li's elementary proof]]
-of September 2026, a preprint with a Lean formalization and the one full
-proof claim on the site's tab. A third page,
-[[problems/unit_fractions/E0306/claims/2026_06_13_li|Li's earlier preprint]]
-of June 2026, is a partial claim covering the case $b=1$ and every $a/b$
-above an explicit threshold. Three further partial pages record the
-representations of $1$ by two-prime denominators that settle the instance
-$a/b=1$, Barbeau's of 1977, Johnson's of 1978 and Watanabe's of 2020, each
-`claimed`. None of the six is refereed, independently reviewed or accepted
-by the site, which labels the problem OPEN (page last edited 21 June 2026,
-and the community database agreeing, as of 2026-10-07); this corpus has
-built none of the Lean developments. No refereed source proves the statement
-for any $a/b$ beyond finite examples for $a/b=1$; the refereed theorem on
-record is Butler, Erdős and Graham's Theorem 1, the natural-number case with
-three prime factors instead of two.
+**Status.** Open, in the site's label. The site labels the problem OPEN (page
+last edited 21 June 2026), and the community database agrees, as of 2026-10-07.
+The frontmatter standing is `claimed` with claim `proved`. It derives from two
+pending full claims, each on its own page. The first is
+[[problems/unit_fractions/E0306/claims/2026_06_19_tang|Tang's Lean proof]] of
+June 2026. This is a Lean development asserting the whole statement with two
+Rosser--Schoenfeld bounds taken as axioms, followed by a manuscript published in
+October 2026. The second is
+[[problems/unit_fractions/E0306/claims/2026_09_26_li|Li's elementary proof]] of
+September 2026, a preprint with a Lean formalization and the one full proof
+claim on the site's tab.
+
+A third page,
+[[problems/unit_fractions/E0306/claims/2026_06_13_li|Li's earlier preprint]] of
+June 2026, is a partial claim. It covers the case $b=1$ and every $a/b$ above an
+explicit threshold. Three further partial pages record the representations of
+$1$ by two-prime denominators that settle the instance $a/b=1$: Barbeau's of
+1977, Johnson's of 1978 and Watanabe's of 2020, each `claimed`. None of the six
+is refereed, independently reviewed or accepted by the site. This corpus has
+built none of the Lean developments. No refereed source proves the statement for
+any $a/b$ beyond finite examples for $a/b=1$. The refereed theorem on record is
+Butler, Erdős and Graham's Theorem 1, the natural-number case with three prime
+factors instead of two.
 
 **Source.** [erdosproblems.com/306](https://www.erdosproblems.com/306),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that the

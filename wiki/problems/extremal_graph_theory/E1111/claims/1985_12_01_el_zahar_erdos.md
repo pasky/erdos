@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E1111/claims/1985_12_01_el_zahar_erdos
 title: El-Zahar and Erdős's case of chromatic number three
 desc: |
-  El-Zahar and Erdős (Combinatorica, 1985) prove that d(t,3) exists for every
-  t, with d(3,3) at most 8 and a polynomial bound for t > 3: the case c = 3.
+  El-Zahar and Erdős (Combinatorica, 1985) prove that $d(t,3)$ exists for every
+  $t$, with $d(3,3)\le8$ and a polynomial bound for $t>3$. This is the case
+  $c=3$.
 authors:
 - M. El-Zahar
 - P. Erdős

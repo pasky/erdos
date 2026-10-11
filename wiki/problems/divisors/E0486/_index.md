@@ -2,9 +2,10 @@
 name: problems/divisors/E0486
 title: Problem 486
 desc: |
-  Asks whether the set of integers avoiding a prescribed residue class pattern
-  modulo each member of a given set of moduli always has a logarithmic
-  density.
+  Asks whether, for any $A\subseteq\mathbb{N}$ and sets
+  $X_n\subseteq\mathbb{Z}/n\mathbb{Z}$, the integers $m$ with
+  $m\notin X_n\pmod n$ for all $n\in A$ with $m>n$ must have a logarithmic
+  density; open on the site, but a disproof is claimed.
 tags:
 - Number theory
 - Primitive sets
@@ -37,14 +38,15 @@ $$
 
 exists?
 
-**Status.** OPEN, the site's label (2026-10-06). The derived standing departs
-from it because a 2026 manuscript of Wang, produced with GPT-5.6 Sol, claims a
-disproof by a fixed delayed congruence system whose survivor set has no
-logarithmic density; it is a pending full claim on its
-[[problems/divisors/E0486/claims/2026_07_16_wang|claim page]], which makes the
-problem claimed as disproved, and it has no refereed publication, site
-acceptance or review by a named reviewer. The case $X_n=\{0\}$, which the site's
-remark credits to Davenport and Erdős, is an accepted partial claim on its
+**Status.** The site's label is OPEN (2026-10-06). The derived standing departs
+from it: the problem is claimed as disproved. The reason is a 2026 manuscript of
+Wang, produced with GPT-5.6 Sol. It claims a disproof by a fixed delayed
+congruence system whose survivor set has no logarithmic density. The manuscript
+is a pending full claim on its
+[[problems/divisors/E0486/claims/2026_07_16_wang|claim page]]. It has no
+refereed publication, site acceptance or review by a named reviewer. The case
+$X_n=\{0\}$, which the site's remark credits to Davenport and Erdős, is an
+accepted partial claim on its
 [[problems/divisors/E0486/claims/1936_01_01_davenport_erdos|claim page]].
 
 **Source.** [erdosproblems.com/486](https://www.erdosproblems.com/486), accessed

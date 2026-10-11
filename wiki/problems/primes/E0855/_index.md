@@ -2,8 +2,8 @@
 name: problems/primes/E0855
 title: Problem 855
 desc: |
-  Asks whether the number of primes up to x plus y is at most the number up to
-  x plus the number up to y, for all large x and y.
+  Asks whether the prime-counting function satisfies $\pi(x+y)\le\pi(x)+\pi(y)$
+  for all large $x$ and $y$; open.
 tags:
 - Number theory
 - Primes

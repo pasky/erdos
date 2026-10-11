@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0714/claims/1966_02_01_erdos_renyi_sos
 title: Erdős, Rényi and Sós's C_4 asymptotic, the case r = 2
 desc: |
-  Erdős, Rényi and Sós prove that the largest number of edges of a graph on n
-  vertices with no four-cycle is asymptotic to n^{3/2}/2, so ex(n;K_{2,2}) >>
-  n^{3/2}, the case r = 2; refereed in Studia Sci. Math. Hungar. 1 (1966).
+  In a refereed paper in Studia Sci. Math. Hungar. 1 (1966), Erdős, Rényi and
+  Sós prove that the largest number of edges of a graph on $n$ vertices with no
+  four-cycle is asymptotic to $n^{3/2}/2$. So
+  $\mathrm{ex}(n;K_{2,2})\gg n^{3/2}$, the case $r=2$.
 authors:
 - P. Erdős
 - A. Rényi
@@ -63,8 +64,8 @@ Rényi and Sós with $r=3$, which their paper does not contain.
 prime-distribution input and the counting are the paper's.
 
 **Acceptance.** Refereed: Studia Scientiarum Mathematicarum Hungarica, a
-refereed journal. No `reviewed` evidence is listed: the site labels the
-problem OPEN, and commentary on an open problem is not an acceptance. This
-corpus supplies no independent proof review: the statements of Theorem 1 and
-Corollary 2 are checked against the print, and the prime-distribution input
-and the proofs are not.
+refereed journal. No `reviewed` evidence is listed: the site labels the problem
+OPEN, and commentary on an open problem is not an acceptance. This corpus
+supplies no independent proof review. The statements of Theorem 1 and Corollary
+2 are checked against the print, but the prime-distribution input and the proofs
+are not.

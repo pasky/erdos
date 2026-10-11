@@ -3,8 +3,9 @@ name: problems/additive_combinatorics/E0763/claims/1990_01_01_montgomery_vaughan
 title: Montgomery and Vaughan rule out an error term o(N^{1/4})
 desc: |
   Montgomery and Vaughan (1990), after Jurkat, prove that no sequence has its
-  pair count equal to cN plus o(N^{1/4}) with c > 0, ruling out a bounded
-  error; accepted on the site's credit, the volume's refereeing undocumented.
+  pair count equal to $cN+o(N^{1/4})$ with $c>0$, which rules out a bounded
+  error. The claim is accepted on the site's credit, and the volume's refereeing
+  is undocumented.
 authors:
 - H. L. Montgomery
 - R. C. Vaughan
@@ -48,18 +49,19 @@ statement follows the site's commentary and the formal-conjectures variant
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the
-problem DISPROVED and credits the improved error term $o(N^{1/4})$ to
-Jurkat and to Montgomery and Vaughan in the problem page's commentary (the
-proof-claim tab is empty and the thread has no posts). The paper
-appeared in *A Tribute to Paul Erdős*, Cambridge Univ. Press (1990),
-331--338, doi:10.1017/CBO9780511983917.025, an edited volume whose
-refereeing is not documented, so no `refereed` evidence is listed; the
-Crossref record gives only the year, so the page carries
-the first day of it. The Lean 4 development
-`src/latest/ErdosProblems/Erdos763.lean` of Boris Alexeev's lean-proofs
-repository (first added 2026-08-17; formal authors Codex and GPT-5.6 Sol)
-names Montgomery and Vaughan, with Erdős and Fuchs, as informal authors of
-the solution it formalizes, and its `not_erdos_763` proves the
-bounded-error case only, not the $o(N^{1/4})$ error term; the corpus has
-not built it, so the page lists no `formalized` evidence.
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
+DISPROVED. The problem page's commentary credits the improved error term
+$o(N^{1/4})$ to Jurkat and to Montgomery and Vaughan. The proof-claim tab is
+empty and the thread has no posts.
+
+The paper appeared in *A Tribute to Paul Erdős*, Cambridge Univ. Press (1990),
+331--338, doi:10.1017/CBO9780511983917.025. This is an edited volume whose
+refereeing is not documented, so no `refereed` evidence is listed. The Crossref
+record gives only the year, so the page carries the first day of it.
+
+The Lean 4 development `src/latest/ErdosProblems/Erdos763.lean` of Boris
+Alexeev's lean-proofs repository was first added 2026-08-17, with Codex and
+GPT-5.6 Sol as formal authors. It names Montgomery and Vaughan, with Erdős and
+Fuchs, as informal authors of the solution it formalizes. Its `not_erdos_763`
+proves the bounded-error case only, not the $o(N^{1/4})$ error term. The corpus
+has not built it, so the page lists no `formalized` evidence.

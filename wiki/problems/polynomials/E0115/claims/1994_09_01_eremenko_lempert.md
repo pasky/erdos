@@ -2,9 +2,10 @@
 name: problems/polynomials/E0115/claims/1994_09_01_eremenko_lempert
 title: Sharp derivative bound on a connected lemniscate set
 desc: |
-  Eremenko and Lempert prove that a monic degree n polynomial whose set of
-  modulus at most one is connected has derivative at most 2^(1/n-1) n^2 on it,
-  attained by a shifted Chebyshev polynomial; refereed, credited by the site.
+  Eremenko and Lempert prove that if $p$ is monic of degree $n$ and
+  $\{\lvert p\rvert\le1\}$ is connected, then $\lvert p'\rvert\le2^{1/n-1}n^2$
+  on that set, with equality for a shifted Chebyshev polynomial. The result is
+  refereed and credited by the site.
 authors:
 - A. Eremenko
 - L. Lempert
@@ -61,9 +62,9 @@ paper.
 **Acceptance.** Refereed: the paper appeared in the Proceedings of the American
 Mathematical Society in September 1994. Reviewed: erdosproblems.com labels the
 problem proved, states that Eremenko and Lempert showed the bound with Chebyshev
-polynomials as the extreme examples and cites the paper as [ErLe94], which the
-corpus counts as documented independent acceptance by the site's curator, T. F.
-Bloom (erdosproblems.com); the community database lists the problem as proved
+polynomials as the extreme examples, and cites the paper as [ErLe94]. The corpus
+counts this as documented independent acceptance by the site's curator, T. F.
+Bloom (erdosproblems.com). The community database lists the problem as proved
 with a Lean marker as of its last update.
 
 **Formalization.** The site's Lean marker refers to a formal proof by

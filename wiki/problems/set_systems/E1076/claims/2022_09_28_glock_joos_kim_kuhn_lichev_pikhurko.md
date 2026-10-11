@@ -2,10 +2,10 @@
 name: problems/set_systems/E1076/claims/2022_09_28_glock_joos_kim_kuhn_lichev_pikhurko
 title: The (6,4) limit 7/36 refutes the site's wording at k = 6
 desc: |
-  Correct, but answers the site's wording (the single family F_6), not the
-  corrected Statement (the cumulative family), so it does not count toward the
-  problem's standing. The (6,4) limit is 7/36, not 1/6, refereed in Proc.
-  Amer. Math. Soc. Ser. B.
+  The $(6,4)$ limit is $7/36$, not $1/6$, refereed in Proc. Amer. Math. Soc.
+  Ser. B. It is correct but answers the site's wording (the single family
+  $F_6$), not the corrected Statement (the cumulative family), so it does not
+  count toward the problem's standing.
 authors:
 - Stefan Glock
 - Felix Joos
@@ -61,10 +61,10 @@ against it, and the page does not count toward the problem's standing. The
 problem page's Notes credit the result.
 
 **Acceptance.** Refereed: S. Glock, F. Joos, J. Kim, M. Kühn, L. Lichev and O.
-Pikhurko, On the $(6,4)$-problem of Brown, Erdős and Sós, Proc. Amer. Math.
-Soc. Ser. B 11 (2024), 173–186, published 4 June 2024 after the arXiv posting
-of 28 September 2022. The abstract presents the result as the case $k=4$ of
-Brown, Erdős and Sós's conjecture that the limit of $f^{(3)}(n;k+2,k)/n^2$
-exists, after the cases $k=2$ (Brown, Erdős and Sós) and $k=3$ (Glock). The
-site does not cite the paper on this problem and its curator makes no
-statement about it; the proof is unreviewed, and no formalization is known.
+Pikhurko, On the $(6,4)$-problem of Brown, Erdős and Sós, Proc. Amer. Math. Soc.
+Ser. B 11 (2024), 173–186. It was published on 4 June 2024, after the arXiv
+posting of 28 September 2022. The abstract presents the result as the case $k=4$
+of Brown, Erdős and Sós's conjecture that the limit of $f^{(3)}(n;k+2,k)/n^2$
+exists. The cases $k=2$ (Brown, Erdős and Sós) and $k=3$ (Glock) came before it.
+The site does not cite the paper on this problem, and its curator makes no
+statement about it. The proof is unreviewed, and no formalization is known.

@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0271/claims/1978_01_01_odlyzko_stanley
 title: Odlyzko and Stanley's ternary descriptions of the regular sequences
 desc: |
-  The 1978 Bell Laboratories memorandum of Odlyzko and Stanley describing the
-  members of A(3^m) and A(2·3^m) by their ternary digits, with growth of order
-  k^{log_2 3}; stated without proof and unrefereed.
+  Odlyzko and Stanley's 1978 Bell Laboratories memorandum describes the members
+  of $A(3^m)$ and $A(2\cdot3^m)$ by their ternary digits, with growth of order
+  $k^{\log_2 3}$. It states these results without proof and is unrefereed.
 authors:
 - A. M. Odlyzko
 - R. P. Stanley

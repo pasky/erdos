@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0571
 title: Problem 571
 desc: |
-  Every rational exponent in [1,2) is realized by the Turán number of a
-  finite bipartite graph; records the 2026 proof, accepted on Lean built
-  here, and its exposition qualifications.
+  Asks for a bipartite graph $G$ with $\mathrm{ex}(n;G)\asymp n^{\alpha}$ for
+  each rational $\alpha\in[1,2)$. The 2026 proof is accepted on a Lean
+  development built here, and the page records the qualifications on its
+  exposition.
 tags:
 - Graph theory
 - Turán numbers
@@ -34,21 +35,20 @@ simple graph on $n$ vertices containing no subgraph isomorphic to $G$. The
 notation $\asymp$ means two positive constant bounds for all sufficiently
 large $n$; the graph and constants may depend on $\alpha$.
 
-**Status.** Proved. The site labels the problem proved and formalized,
-crediting GPT-6 Astra, and its curator submitted proof claim 243; the corpus
-accepts the result on the
+**Status.** Proved. The site labels the problem proved and formalized, crediting
+GPT-6 Astra, and its curator submitted proof claim 243. The corpus accepts the
+result on the
 [[problems/extremal_graph_theory/E0571/claims/2026_09_03_adamczewski|claim page]]
-on formalized evidence: the pinned Lean development was built here, its
-axioms found to be the three standard ones, its compared declaration matched
-to the comparator challenge and its statement audited against the Statement
-above, so the problem stands solved and proved. The site's acceptance comes
-from the curator who submitted the entry and co-wrote the publication, so it
-is not an independent review, and nothing is refereed; the formal evidence
-and the preliminary exposition are distinguished on the claim page and
-below. The eight
-earlier single-graph exponent families the site lists are partial claims,
-one page each under `claims/` (seven accepted on their refereed venues, the
-2026 preprint claimed); none settles the problem.
+on formalized evidence, so the problem stands solved and proved. The pinned Lean
+development was built here, and its axioms were found to be the three standard
+ones. Its compared declaration was matched to the comparator challenge, and its
+statement was audited against the Statement above. The site's acceptance comes
+from the curator who submitted the entry and co-wrote the publication, so it is
+not an independent review. Nothing is refereed. The formal evidence and the
+preliminary exposition are distinguished on the claim page and below. The site
+lists eight earlier single-graph exponent families. They are partial claims, one
+page each under `claims/`. Seven are accepted on their refereed venues, and the
+2026 preprint is claimed. None settles the problem.
 
 **Source.** T. F. Bloom, Erdős Problem #571,
 [https://www.erdosproblems.com/571](https://www.erdosproblems.com/571),

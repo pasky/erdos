@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0484
 title: Problem 484
 desc: |
-  Asks whether every k-coloring of the first N integers leaves a positive
-  proportion of them expressible as a sum of two distinct integers of one
-  color.
+  Asks whether there is an absolute constant $c>0$ such that, for $N$ large in
+  terms of $k$, every $k$-coloring of $\{1,\ldots,N\}$ leaves at least $cN$ of
+  these integers expressible as a sum of two distinct integers of one color;
+  proved.
 tags:
 - Number theory
 - Additive combinatorics
@@ -39,21 +40,20 @@ integer $n\le M$ with $n=a_1+a_2$, $a_1\ne a_2$, in one class of a
 $k$-partition of $\mathbb{N}$ has $a_1,a_2<n\le M$, and only the colors of
 $\{1,\ldots,M\}$ matter.
 
-**Status.** PROVED (LEAN). Theorem 1(i) of Erdős, Sárközy and Sós (1989)
-gives, for every $k\ge2$ and every $k$-partition,
-$|C^2_M|>M/2-3M^{1-2^{-k-1}}$ for $M>M_0(k)$, where $C^2_M$ counts the even
-integers up to $M$ that are sums of two distinct integers of one class; so at
-least $cM$ integers up to $M$ are monochromatic sums for any fixed
-$c<\tfrac12$ once $M$ is large in terms of $k$, which is the statement with
-the absolute constant $c$. The source is a chapter of a Springer conference
-volume. The site's suffix (LEAN) is a catalog label whose scope is qualified
-under Existing formalization below, and no local kernel credit is claimed.
-The claim page
+**Status.** PROVED (LEAN). Theorem 1(i) of Erdős, Sárközy and Sós (1989) gives,
+for every $k\ge2$ and every $k$-partition, $|C^2_M|>M/2-3M^{1-2^{-k-1}}$ for
+$M>M_0(k)$. Here $C^2_M$ counts the even integers up to $M$ that are sums of two
+distinct integers of one class. So for any fixed $c<\tfrac12$, at least $cM$
+integers up to $M$ are monochromatic sums once $M$ is large in terms of $k$.
+This is the statement with the absolute constant $c$. The source is a chapter of
+a Springer conference volume. The site's suffix (LEAN) is a catalog label whose
+scope is qualified under Existing formalization below. No local kernel credit is
+claimed. The claim page
 [[problems/ramsey_theory/E0484/claims/1989_01_01_erdos_sarkozy_sos|Erdős, Sárközy and Sós 1989]]
-(accepted on the site's crediting of the paper; the Lean 4 formalization of
-the result is a link on it, neither built nor checked here) records the
-result, its postings and its acceptance evidence, and the frontmatter
-standing derives from it.
+records the result, its postings and its acceptance evidence, and the
+frontmatter standing derives from it. The claim is accepted on the site's
+crediting of the paper. The Lean 4 formalization of the result is a link on that
+page, neither built nor checked here.
 
 **Source.** [erdosproblems.com/484](https://www.erdosproblems.com/484),
 accessed 2026-09-17: the problem page (labeled

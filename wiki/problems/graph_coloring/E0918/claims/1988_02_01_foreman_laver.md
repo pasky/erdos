@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0918/claims/1988_02_01_foreman_laver
 title: Foreman and Laver's model with no such graph on aleph two
 desc: |
-  Foreman and Laver (Adv. Math., 1988) build from a huge cardinal a model of
-  ZFC and GCH in which every graph of size and chromatic number aleph two has
-  a subgraph of size and chromatic number aleph one.
+  Foreman and Laver (Adv. Math., 1988) build from a huge cardinal a model of ZFC
+  and GCH in which every graph of size and chromatic number $\aleph_2$ has a
+  subgraph of size and chromatic number $\aleph_1$.
 authors:
 - Matthew Foreman
 - Richard Laver

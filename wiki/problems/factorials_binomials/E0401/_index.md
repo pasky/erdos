@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0401
 title: Problem 401
 desc: |
-  Asks whether, for infinitely many n, two numbers whose factorials' product
-  divides n! times the n-th power of the product of the first r primes can sum
-  to more than n plus f(r) log n, with f(r) tending to infinity.
+  Asks whether there is $f(r)\to\infty$ such that, for infinitely many $n$, some
+  $a_1,a_2$ with $a_1!a_2!\mid n!\,2^n3^n\cdots p_r^n$ have
+  $a_1+a_2>n+f(r)\log n$; proved.
 tags:
 - Number theory
 - Factorials
@@ -37,18 +37,18 @@ Problems 728 and 729, and that reading is the statement above and the target
 of the standing. The reading with all sufficiently large $n$ is false; see the
 Current assessment.
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page
-last edited 12 January 2026) and credits a proof by Barreto and Leeham,
-working with ChatGPT, recorded on
-[[problems/factorials_binomials/E0401/claims/2026_01_11_barreto_price|its claim page]];
-the Lean qualifier refers to the Aristotle-generated formalization of that
-proof in Boris Alexeev's repository, which this corpus has not built. A
-second route, the deduction from the Problem 729 construction that ChatGPT
-noticed and Nat Sothanaphan posted and checked, developed in the appendix of
-his write-up of Problem 728, is a pending claim on
+**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
+edited 12 January 2026). The standing in the frontmatter derives from the claim
+pages. The site credits a proof by Barreto and Leeham, working with ChatGPT,
+recorded on
+[[problems/factorials_binomials/E0401/claims/2026_01_11_barreto_price|its claim page]].
+The Lean qualifier refers to the Aristotle-generated formalization of that proof
+in Boris Alexeev's repository, which this corpus has not built. A second route
+is a pending claim on
 [[problems/factorials_binomials/E0401/claims/2026_01_11_sothanaphan|its own page]].
-There is no refereed write-up. The standing in the frontmatter derives from
-the claim pages.
+It is the deduction from the Problem 729 construction that ChatGPT noticed and
+Nat Sothanaphan posted and checked. It is developed in the appendix of his
+write-up of Problem 728. There is no refereed write-up.
 
 **Source.** [erdosproblems.com/401](https://www.erdosproblems.com/401), accessed
 2026-09-04 and, with its discussion thread, its empty proof-claims list, the

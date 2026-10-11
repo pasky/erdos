@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0571/claims/2019_03_25_conlon_janzer_lee
 title: Conlon, Janzer and Lee, the exponents 3/2 minus 1/(2s)
 desc: |
-  Conlon, Janzer and Lee (Combinatorica 2021): the 1-subdivision of K_{s,t}
-  has Turán exponent 3/2 minus 1/(2s) for t large in terms of s, and a graph
-  with exponent 1 + s/(sk+1) exists for all s, k; infinitely many instances.
+  Conlon, Janzer and Lee (Combinatorica 2021) show that the $1$-subdivision of
+  $K_{s,t}$ has Turán exponent $\frac32-\frac1{2s}$ for $t$ large in terms of
+  $s$, and that a graph with exponent $1+\frac{s}{sk+1}$ exists for all $s,k$.
+  This gives infinitely many instances.
 authors:
 - David Conlon
 - Oliver Janzer
@@ -49,14 +50,14 @@ rational $\alpha\in[1,2)$ is settled by the accepted claim page
 
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.
 
-**Acceptance.** Refereed: D. Conlon, O. Janzer and J. Lee, *More on the
-extremal number of subdivisions*, Combinatorica 41 (2021), no. 4, 465--494,
+**Acceptance.** Refereed: D. Conlon, O. Janzer and J. Lee, *More on the extremal
+number of subdivisions*, Combinatorica 41 (2021), no. 4, 465--494,
 doi:10.1007/s00493-020-4202-1, a refereed journal. First posting:
 arXiv:1903.10631, v1 25 March 2019 (the date this page is named by), v2 25
-April 2020. No `reviewed` evidence is listed: the site's commentary lists these
-exponents among the Turán exponents known before 2026 and credits the paper,
-but its label credits GPT-6 Astra with the full proof and is not an acceptance
-of this result.
+April 2020. No `reviewed` evidence is listed. The site's commentary lists these
+exponents among the Turán exponents known before 2026 and credits the paper. But
+the site's label credits GPT-6 Astra with the full proof and is not an
+acceptance of this result.
 
 **Read depth.** The statements are taken from the paper's abstract and the
 result list on the library card; no proof was read, and nothing is

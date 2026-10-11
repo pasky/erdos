@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0181
 title: Problem 181
 desc: |
-  Asks whether the Ramsey number of the n-dimensional hypercube graph is at
-  most a constant times its number of vertices; open on the site, with the
-  linear bound claimed in full by a 2026 OpenAI release preprint.
+  Asks whether $R(Q_n)\ll 2^n$ for the $n$-dimensional hypercube graph $Q_n$,
+  which has $2^n$ vertices. It is open on the site, and a 2026 OpenAI release
+  preprint claims the linear bound in full.
 tags:
 - Graph theory
 - Ramsey theory
@@ -39,20 +39,21 @@ cubes as "an interesting test case" with a prize and states no expected answer,
 and Erdős's 1981 survey says "Burr and I expected (16) to be true and (16') to
 be false" ([Er81], p. 13).
 
-**Status.** Open: the site labels the problem OPEN.
-The best bounds located in the search, whose scope the
-Current assessment records, are the trivial
-$R(Q_n)\ge2^n$ (a copy of $Q_n$ needs $2^n$ vertices) and Tikhomirov's
-$R(Q_n)\le2^{2n-cn+1}+2$ for all large $n$ with $c=0.03656$ (European J.
-Combin. 120 (2024), 103954, refereed; cited from the arXiv v3), that
-is $R(Q_n)\le2^{1.96344n+1}+2$; no proof of the linear bound, no
-counterexample, no preprint and no proof claim was found. This is a
-bounded negative finding, not a certificate of openness. After that search,
-the OpenAI release's preprint of 23 September 2026 claimed the linear bound
-$R(Q_n)\le C2^n$ in full; it is recorded on the claim page
-[[problems/ramsey_theory/E0181/claims/2026_09_23_openai|OpenAI 2026]] as
-claimed, since it is unrefereed, unreviewed and has no Lean proof of the
-theorem, and the derived standing is claimed through that page.
+**Status.** Open: the site labels the problem OPEN. The derived standing is
+claimed, through the claim page of a preprint that appeared after the search
+described here. The best bounds located in that search, whose scope the Current
+assessment records, are the following. The first is the trivial $R(Q_n)\ge2^n$,
+since a copy of $Q_n$ needs $2^n$ vertices. The second is Tikhomirov's
+$R(Q_n)\le2^{2n-cn+1}+2$ for all large $n$ with $c=0.03656$, that is
+$R(Q_n)\le2^{1.96344n+1}+2$ (European J. Combin. 120 (2024), 103954, refereed;
+cited from the arXiv v3). The search found no proof of the linear bound, no
+counterexample, no preprint and no proof claim. This is a bounded negative
+finding, not a certificate of openness. After that search, the OpenAI release's
+preprint of 23 September 2026 claimed the linear bound $R(Q_n)\le C2^n$ in full.
+The claim page
+[[problems/ramsey_theory/E0181/claims/2026_09_23_openai|OpenAI 2026]] records it
+as claimed, since it is unrefereed, unreviewed and has no Lean proof of the
+theorem.
 
 **Source.** [erdosproblems.com/181](https://www.erdosproblems.com/181),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that the

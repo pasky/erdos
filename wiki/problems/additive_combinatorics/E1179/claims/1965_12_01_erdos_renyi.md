@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E1179/claims/1965_12_01_erdos_renyi
 title: Erdős and Rényi equidistribute the subset sums of 2 log N random elements
 desc: |
-  Theorem 1 of Erdős and Rényi (J. Analyse Math. 1965) equidistributes the
-  subset sums of about 2 log_2 N random elements of an abelian group of order
-  N, so g_eps(N) <= (2+o(1)) log_2 N + O_eps(1); refereed, superseded in 1976.
+  Theorem 1 of Erdős and Rényi (J. Analyse Math. 1965, refereed) equidistributes
+  the subset sums of about $2\log_2N$ random elements of an abelian group of
+  order $N$, so $g_\epsilon(N)\le(2+o(1))\log_2N+O_\epsilon(1)$. The bound was
+  superseded in 1976.
 authors:
 - P. Erdős
 - A. Rényi

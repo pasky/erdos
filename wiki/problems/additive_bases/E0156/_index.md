@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0156
 title: Problem 156
 desc: |
-  Asks whether the first N integers contain a maximal Sidon set of size only
-  order N to the power one third.
+  Asks whether $\{1,\ldots,N\}$ contains a maximal Sidon set of size
+  $O(N^{1/3})$; open.
 tags:
 - Sidon sets
 status: open

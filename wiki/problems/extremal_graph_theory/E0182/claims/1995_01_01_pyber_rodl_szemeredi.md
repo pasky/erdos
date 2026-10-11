@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0182/claims/1995_01_01_pyber_rodl_szemeredi
 title: The Pyber, Rödl and Szemerédi lower bound
 desc: |
-  A random bipartite construction with a constant times n log log n edges
-  and no k-regular subgraph for any k at least 3, so the maximum is not
-  linear in n; refereed in J. Combin. Theory Ser. B 63 (1995).
+  Pyber, Rödl and Szemerédi give a random bipartite construction with
+  $cn\log\log n$ edges, for a constant $c$, and no $k$-regular subgraph for any
+  $k\ge3$, so the maximum is not linear in $n$. It was refereed in J. Combin.
+  Theory Ser. B 63 (1995).
 authors:
 - L. Pyber
 - V. Rödl
@@ -51,11 +52,11 @@ count, was followed for structure with none of its displayed estimates
 checked. Janzer and Sudakov (Theorem 1.1) and Chakraborti, Janzer, Methuku
 and Montgomery (Theorem 1.2) quote the result in the same form.
 
-**Acceptance.** Refereed: Journal of Combinatorial Theory, Series B, 63
-(1995). The site's label PROVED credits Janzer and Sudakov and lists no
-parts, so the curator's mention of this construction in the problem's
-commentary, as showing their bound best possible (erdosproblems.com/182,
-last edited 7 March 2026), is context and not `reviewed` evidence; the two
-later refereed papers quote the result as the known lower bound. A thread
-comment of 22 August 2026 says the prize was paid for this construction; the
-sources do not confirm that report.
+**Acceptance.** Refereed: Journal of Combinatorial Theory, Series B, 63 (1995).
+The site's label PROVED credits Janzer and Sudakov and lists no parts. The
+curator's commentary mentions this construction as showing their bound best
+possible (erdosproblems.com/182, last edited 7 March 2026). Because of the
+label, that mention is context and not `reviewed` evidence. The two later
+refereed papers quote the result as the known lower bound. A thread comment of
+22 August 2026 says the prize was paid for this construction, but the sources do
+not confirm that report.

@@ -2,8 +2,8 @@
 name: problems/additive_combinatorics/E0335
 title: Problem 335
 desc: |
-  Characterizes the pairs of positive-density sets of integers whose sumset
-  has density exactly the sum of their densities.
+  Asks for a characterization of the pairs of sets $A,B$ of integers with
+  positive density such that $d(A+B)=d(A)+d(B)$; open.
 tags:
 - Number theory
 - Additive combinatorics
@@ -30,10 +30,10 @@ $$
 
 **Status.** Open, the site's label (OPEN; page last edited 2026-04-15). One
 partial claim is recorded:
-[[problems/additive_combinatorics/E0335/claims/2026_04_14_ackelsberg_richter|Ackelsberg
-and Richter's inverse theorem]], a preprint of 2026-04-14 whose Theorem 1.4
-characterizes the pairs in which one of the sets meets every residue class;
-the characterization without that assumption is not settled.
+[[problems/additive_combinatorics/E0335/claims/2026_04_14_ackelsberg_richter|Ackelsberg and Richter's inverse theorem]],
+a preprint of 2026-04-14. Its Theorem 1.4 characterizes the pairs in which one
+of the sets meets every residue class. The characterization without that
+assumption is not settled.
 
 **Source.** [erdosproblems.com/335](https://www.erdosproblems.com/335), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #335,

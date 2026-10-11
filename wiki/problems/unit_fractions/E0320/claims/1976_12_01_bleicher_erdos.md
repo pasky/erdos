@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0320/claims/1976_12_01_bleicher_erdos
 title: Bleicher and Erdős's 1976 upper bound for log S(N)
 desc: |
-  Bleicher and Erdős's Theorem 3: log S(N) is at most N log_r N / log N times
-  the iterated-logarithm product up to depth r, when log_{2r} N >= 1; above
-  the order of magnitude by an unbounded factor.
+  Bleicher and Erdős's Theorem 3:
+  $\log S(N)\le\frac{N\log_rN}{\log N}\prod_{j=3}^{r}\log_jN$ when
+  $\log_{2r}N\ge1$. This exceeds the order of magnitude by an unbounded factor.
 authors:
 - M. N. Bleicher
 - P. Erdős
@@ -59,8 +59,7 @@ $\log_kN=O(1)$ by an unbounded factor. The upper bound of that order is
 **Depends on.** No page of this wiki; the theorem rests on the paper's own
 lemmas.
 
-**Acceptance.** Refereed: M. N. Bleicher and P. Erdős, Denominators of
-Egyptian fractions II, Illinois J. Math. 20 (1976), no. 4, 598--613, DOI
-10.1215/ijm/1256049650; the issue is dated 1 December 1976 in the Crossref
-record, the date this page carries. The proofs are not verified by this
-corpus.
+**Acceptance.** Refereed: M. N. Bleicher and P. Erdős, Denominators of Egyptian
+fractions II, Illinois J. Math. 20 (1976), no. 4, 598--613, DOI
+10.1215/ijm/1256049650. The Crossref record dates the issue 1 December 1976, the
+date this page carries. The proofs are not verified by this corpus.

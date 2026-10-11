@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0057/claims/2020_10_29_liu_montgomery
 title: Divergent odd-cycle reciprocals from the odd interval theorem
 desc: |
-  Liu and Montgomery's odd-cycle interval theorem makes the reciprocals of the
-  odd cycle lengths of any graph with infinite chromatic number sum to
-  infinity; refereed in J. Amer. Math. Soc. and credited by the site's curator.
+  Liu and Montgomery's odd-cycle interval theorem implies that in any graph with
+  infinite chromatic number, the reciprocals of the odd cycle lengths sum to
+  infinity. It was refereed in J. Amer. Math. Soc. and is credited by the site's
+  curator.
 authors:
 - Hong Liu
 - Richard Montgomery
@@ -57,17 +58,18 @@ records the summation and the passage to infinite chromatic number.
 
 **Acceptance.** Refereed: the paper appeared in J. Amer. Math. Soc. **36**
 (2023), 1191–1234, after its first posting as arXiv:2010.15802 on 2020-10-29.
-Reviewed: Thomas Bloom, the site's curator, marks the problem proved and
-credits the solution to Liu and Montgomery. The site's label adds a Lean
-qualification. The Lean 4 file linked above, in Boris Alexeev's repository of
-Lean proofs, declares itself a formalization of a solution to the problem,
-names Erdős, Hajnal, Liu and Montgomery as its informal authors and Codex and
-GPT-5.6 Sol as its formal authors, and ends with the theorem `erdos_57`, that
-a graph whose chromatic number is $\top$ has a non-summable series of
-odd-cycle reciprocals, followed by `#print axioms`. The
-[formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/385455575cd8231996f89b3dc5ddfeda40d9f1dc/FormalConjectures/ErdosProblems/57.lean)
+Reviewed: Thomas Bloom, the site's curator, marks the problem proved and credits
+the solution to Liu and Montgomery. The site's label adds a Lean qualification.
+
+The Lean 4 file linked above, in Boris Alexeev's repository of Lean proofs,
+declares itself a formalization of a solution to the problem. It names Erdős,
+Hajnal, Liu and Montgomery as its informal authors and Codex and GPT-5.6 Sol as
+its formal authors. It ends with the theorem `erdos_57`, that a graph whose
+chromatic number is $\top$ has a non-summable series of odd-cycle reciprocals,
+followed by `#print axioms`. The [formal-conjectures statement
+file](https://github.com/google-deepmind/formal-conjectures/blob/385455575cd8231996f89b3dc5ddfeda40d9f1dc/FormalConjectures/ErdosProblems/57.lean)
 for the problem cites it as the formal proof. This corpus has not built the
-file, so it is a link and not `formalized` evidence. The library's
-compilation of the proof chain, incomplete at
-[[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/lemma_3_13|Lemma 3.13]],
-is reading coverage and not acceptance evidence.
+file, so it is a link and not `formalized` evidence. The library's compilation
+of the proof chain is incomplete at
+[[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/lemma_3_13|Lemma 3.13]].
+That compilation is reading coverage and not acceptance evidence.

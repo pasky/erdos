@@ -3,8 +3,8 @@ name: problems/graph_coloring/E0063/claims/1966_03_01_erdos_hajnal
 title: Every power of two at uncountable chromatic number
 desc: |
   Erdős and Hajnal's theorem that a graph of uncountable chromatic number
-  contains K_{i,aleph_1} for every finite i gives it a cycle of every length
-  2^m with m at least 2; the site credits David Penman with the observation.
+  contains $K_{i,\aleph_1}$ for every finite $i$ gives it a cycle of length
+  $2^m$ for every $m\ge2$. The site credits David Penman with this observation.
 authors:
 - P. Erdős
 - A. Hajnal
@@ -50,11 +50,11 @@ settles them.
 [[../library/set_theory/erdos_1966_chromatic_number_graphs_set_systems/corollary_5_6|Corollary 5.6]],
 held in the library. No claim page of this wiki is a dependency.
 
-**Acceptance.** Refereed: Acta Math. Acad. Sci. Hungar. **17** (1966),
-no. 1–2, 61–99; the publisher's record dates the issue March 1966 without a
-day, so the page carries the first of that month. The cycles are subgraphs of
-the $K_{2^{m-1},\aleph_1}$ the paper supplies, so the covered statement needs
-no argument beyond the paper's. Thomas Bloom, the site's curator, credits the
-case to Penman's observation from [ErHa66], but the site's label rests on Zach
+**Acceptance.** Refereed: Acta Math. Acad. Sci. Hungar. **17** (1966), no. 1–2,
+61–99. The publisher's record dates the issue March 1966 without a day, so the
+page carries the first of that month. The cycles are subgraphs of the
+$K_{2^{m-1},\aleph_1}$ the paper supplies, so the covered statement needs no
+argument beyond the paper's. Thomas Bloom, the site's curator, credits the case
+to Penman's observation from [ErHa66]. But the site's label rests on Zach
 Hunter's deduction from Liu and Montgomery, so that credit is context and not
 `reviewed` evidence.

@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0773
 title: Problem 773
 desc: |
-  The size of the largest Sidon subset of the squares up to N squared, and
-  whether it is N to the power one minus o(1).
+  Asks for the size of the largest Sidon subset of the squares
+  $\{1,2^2,\ldots,N^2\}$, and whether it is $N^{1-o(1)}$; open.
 tags:
 - Number theory
 - Sidon sets

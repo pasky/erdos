@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0897
 title: Problem 897
 desc: |
-  Asks whether an additive function whose values on prime powers are
-  unboundedly large compared with the logarithm must have consecutive
-  differences unboundedly large compared with log n, or even unbounded ratios.
+  Asks whether an additive function $f$ with $\limsup f(p^k)/\log p^k=\infty$
+  must have $\limsup(f(n+1)-f(n))/\log n=\infty$, or even
+  $\limsup f(n+1)/f(n)=\infty$; disproved.
 tags:
 - Number theory
 status: solved
@@ -40,10 +40,11 @@ $$
 \limsup_n \frac{f(n+1)}{f(n)}=\infty?
 $$
 
-**Status.** The site labels the problem DISPROVED (LEAN) (page last edited
-1 April 2026). The counterexample is recorded on the claim page
-[[problems/arithmetic_functions/E0897/claims/1981_01_01_wirsing|Wirsing 1981]];
-its 2025 rediscovery and the Lean formalization of that rediscovery on
+**Status.** The site labels the problem DISPROVED (LEAN) (page last edited 1
+April 2026). The counterexample is recorded on the claim page
+[[problems/arithmetic_functions/E0897/claims/1981_01_01_wirsing|Wirsing 1981]].
+Its 2025 rediscovery, and the Lean formalization of that rediscovery, are
+recorded on
 [[problems/arithmetic_functions/E0897/claims/2025_12_26_archivara|Archivara 2025]].
 
 **Source.** [erdosproblems.com/897](https://www.erdosproblems.com/897), accessed

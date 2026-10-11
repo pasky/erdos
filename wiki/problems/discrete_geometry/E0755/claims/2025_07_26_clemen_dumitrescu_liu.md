@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0755/claims/2025_07_26_clemen_dumitrescu_liu
 title: Clemen, Dumitrescu and Liu count equilateral triangles in six dimensions
 desc: |
-  Proves that n points in six-dimensional space span at most n^3/27 + o(n^3)
-  equilateral triangles of all sizes together, hence of unit size; the site's
-  curator credits the result, and no refereed version was found.
+  Clemen, Dumitrescu and Liu prove that $n$ points in $\mathbb{R}^6$ span at
+  most $n^3/27+o(n^3)$ equilateral triangles of all sizes together, hence at
+  most that many of unit size. The site's curator credits the result, and no
+  refereed version was found.
 authors:
 - Felix Christian Clemen
 - Adrian Dumitrescu
@@ -61,19 +62,20 @@ The lower-bound construction is on the
 (printed pp. 301–302), which gives both the printed unit-circle form and the
 radius-$1/\sqrt2$ correction.
 
-**Acceptance.** The site's curator, T. F. Bloom, marks the problem proved and
-credits the result to this paper, in a strong form, on the problem's page at
-erdosproblems.com (page last edited 2025-10-16); that credit is the `reviewed`
-evidence. No journal publication was found on 2026-10-07: the arXiv record
-carries no journal reference, so the claim is not `refereed`. The site's label
-PROVED (LEAN) carries a Lean qualifier, which refers to a third-party Lean
-formalization of the problem's unit-size bound in a public repository of Lean
-proofs of Erdős problems, linked above and named by the `formal_proof`
-attribute of the
-[formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/755.lean);
-its header names Clemen, Dumitrescu and Liu as the informal authors and the
-systems Codex and GPT-5.6 Sol as the formal authors, and its theorem
-`erdos_755` bounds the number of unit equilateral triangles only. The
-statement file's any-size variant, the bound of Theorem 2 for all sizes
-together, carries no proof. This corpus has built no Lean for it, so the
-claim is not `formalized`.
+**Acceptance.** The site's curator, T. F. Bloom, marks the problem proved on the
+problem's page at erdosproblems.com (page last edited 2025-10-16). The curator
+credits the result to this paper, in a strong form. That credit is the
+`reviewed` evidence. No journal publication was found on 2026-10-07. The arXiv
+record carries no journal reference, so the claim is not `refereed`.
+
+The site's label PROVED (LEAN) carries a Lean qualifier. It refers to a
+third-party Lean formalization of the problem's unit-size bound, in a public
+repository of Lean proofs of Erdős problems. That formalization is linked above.
+It is named by the `formal_proof` attribute of the [formal-conjectures statement
+file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/755.lean).
+The formalization's header names Clemen, Dumitrescu and Liu as the informal
+authors and the systems Codex and GPT-5.6 Sol as the formal authors. Its theorem
+`erdos_755` bounds the number of unit equilateral triangles only. The statement
+file's any-size variant, the bound of Theorem 2 for all sizes together, carries
+no proof. This corpus has built no Lean for it, so the claim is not
+`formalized`.

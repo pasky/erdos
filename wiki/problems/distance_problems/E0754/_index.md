@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0754
 title: Problem 754
 desc: |
-  Estimates the largest f(n) for which some set of n points in
-  four-dimensional space has every point equidistant from at least f(n) of the
-  others.
+  Asks whether $f(n)\le n/2+O(1)$, where $f(n)$ is the largest number such that
+  some $n$ points in $\mathbb{R}^4$ have every point equidistant from at least
+  $f(n)$ of the others; proved.
 tags:
 - Geometry
 - Distances
@@ -28,10 +28,10 @@ $A$ equidistant from $x$.
 
 Is it true that $f(n)\leq \frac{n}{2}+O(1)$?
 
-**Status.** Proved. The site marks the problem proved and credits
-Swanepoel's bound on favorite distances in four dimensions (label PROVED in
-the site's export of 2026-09-04; the community database records proved
-(Lean)); see the
+**Status.** Proved. The site marks the problem proved and credits Swanepoel's
+bound on favorite distances in four dimensions. The label is PROVED in the
+site's export of 2026-09-04, and the community database records proved (Lean).
+See the
 [[problems/distance_problems/E0754/claims/2011_08_24_swanepoel|claim page]].
 
 **Source.** [erdosproblems.com/754](https://www.erdosproblems.com/754), accessed

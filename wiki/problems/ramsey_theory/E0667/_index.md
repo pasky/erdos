@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0667
 title: Problem 667
 desc: |
-  Asks whether the exponent governing the largest clique forced when every p
-  vertices span at least q edges is strictly increasing in q; open, with the
-  1997 source's endpoint bounds and a disputed upper bound at the top.
+  Asks whether $c(p,q)$, the growth exponent of the largest clique forced when
+  every $p$ vertices span at least $q$ edges, is strictly increasing in $q$.
+  Open; the 1997 source gives bounds at the endpoints and a disputed upper bound
+  near the top.
 tags:
 - Graph theory
 - Ramsey theory
@@ -45,26 +46,24 @@ condition for $q+1$ meets it for $q$, so the forced clique can only grow);
 the question is strictness.
 
 **Status.** The site labels the problem OPEN, with the note that no finite
-computation can settle it, and no claim about it has been found, so the
-problem is open. The source records the bounds the site repeats: for $q=1$
-the condition says that $G$ has no independent set of size $p$, so
-$H(n;p,1)$ is governed by Ramsey numbers and $1/(p-1)\le c(p,1)\le2/(p+1)$;
-for $q=\binom{p-1}2+1$ the complement of $G$ has all components of order
-below $p$, so $G$ has a clique of order at least $n/(p-1)$ and $c(p,q)=1$
-(a three-line argument printed in the source); and, without proof or
-reference, "we have shown that $H(n;p,\binom{p-1}2)\le cn^{1/2}$, so
-$c(p,\binom{p-1}2)\le1/2$". No source found addresses strict monotonicity
-for any $p\ge4$, and the paper behind the last bound was not identified.
-The last bound is disputed: a comment in the site's thread (18 April 2026)
-gives an elementary argument, recomputed below, that $c(2k,\binom{2k-1}2)\ge
-1-1/k>1/2$ for every $k\ge3$, and the elementary arguments recorded below
-show that the bound is incompatible with the source's own conjecture for
-every $p\ge4$, that it fails for odd $p\ge7$ as well, and that the printed
-inequality $H(n;p,\binom{p-1}2)\le cn^{1/2}$ is false for every $p\ge3$.
-The search dated 2026-09-18 UTC, whose scope the
-Current assessment records, found no proof, disproof, preprint or proof claim
-for the question. This is a bounded negative finding, not a certificate of
-openness.
+computation can settle it. No claim about it has been found, so the problem is
+open. The source records the bounds the site repeats. For $q=1$, the condition
+says that $G$ has no independent set of size $p$, so $H(n;p,1)$ is governed by
+Ramsey numbers and $1/(p-1)\le c(p,1)\le2/(p+1)$. For $q=\binom{p-1}2+1$, the
+complement of $G$ has all components of order below $p$, so $G$ has a clique of
+order at least $n/(p-1)$ and $c(p,q)=1$ (a three-line argument printed in the
+source). The source also states, without proof or reference, "we have shown that
+$H(n;p,\binom{p-1}2)\le cn^{1/2}$, so $c(p,\binom{p-1}2)\le1/2$". The paper
+behind this last bound was not identified, and the bound is disputed. A comment
+in the site's thread (18 April 2026) gives an elementary argument, recomputed
+below, that $c(2k,\binom{2k-1}2)\ge 1-1/k>1/2$ for every $k\ge3$. The elementary
+arguments recorded below show three things. The bound is incompatible with the
+source's own conjecture for every $p\ge4$. It fails for odd $p\ge7$ as well. The
+printed inequality $H(n;p,\binom{p-1}2)\le cn^{1/2}$ is false for every $p\ge3$.
+No source found addresses strict monotonicity for any $p\ge4$. The search dated
+2026-09-18 UTC, whose scope the Current assessment records, found no proof,
+disproof, preprint or proof claim for the question. This is a bounded negative
+finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/667](https://www.erdosproblems.com/667),
 accessed 2026-09-18: the problem page (labeled OPEN, with the site's note

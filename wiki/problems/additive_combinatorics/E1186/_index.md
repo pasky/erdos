@@ -2,8 +2,9 @@
 name: problems/additive_combinatorics/E1186
 title: Problem 1186
 desc: |
-  Estimates the least density of monochromatic k-term arithmetic progressions
-  forced in every two-coloring of the first n integers.
+  Estimates $\delta_k$, where every $2$-coloring of $\{1,\ldots,n\}$ has at
+  least $(\delta_k+o(1))n^2$ monochromatic $k$-term arithmetic progressions;
+  open.
 tags:
 - Additive combinatorics
 - Arithmetic progressions
@@ -26,15 +27,15 @@ $\{1,\ldots,n\}$ there exist at least $(\delta_k+o(1))n^2$ many monochromatic
 $k$-term arithmetic progressions. Give reasonable bounds (or even an asymptotic
 formula) for $\delta_k$.
 
-**Status.** Open. The label is the site's (OPEN, page last edited 8 April
-2026); its commentary records the bounds $1675/32768\le\delta_3\le117/2192$
-of Parrilo, Robertson and Saracino, an accepted partial claim on
+**Status.** Open. The label is the site's (OPEN, page last edited 8 April 2026).
+Its commentary records the bounds $1675/32768\le\delta_3\le117/2192$ of Parrilo,
+Robertson and Saracino, an accepted partial claim on
 [[problems/additive_combinatorics/E1186/claims/2006_09_19_parrilo_robertson_saracino|its claim page]].
 The site's proof-claims tab carries a partial proof claim by Carlos Toledo,
-submitted 2026-10-05 and produced with Claude (Anthropic), the system the
-claim names, that $\delta_3=117/2192$, so that the upper bound of Parrilo,
-Robertson and Saracino is exact, by a computer-assisted proof closed with
-exact rational certificates; it is recorded as claimed on
+submitted 2026-10-05, that $\delta_3=117/2192$, so that the upper bound of
+Parrilo, Robertson and Saracino is exact. The claim was produced with Claude
+(Anthropic), the system the claim names. Its proof is computer-assisted and
+closed with exact rational certificates. It is recorded as claimed on
 [[problems/additive_combinatorics/E1186/claims/2026_10_05_toledo|its claim page]].
 
 **Source.** [erdosproblems.com/1186](https://www.erdosproblems.com/1186),

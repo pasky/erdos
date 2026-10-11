@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E0222
 title: Problem 222
 desc: |
-  Bounds the gaps between consecutive integers that are sums of two squares,
-  from above and below.
+  Asks for good upper and lower bounds on the gaps between consecutive integers
+  that are sums of two squares; open.
 tags:
 - Number theory
 - Squares

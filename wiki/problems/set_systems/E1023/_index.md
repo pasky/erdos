@@ -2,9 +2,9 @@
 name: problems/set_systems/E1023
 title: Problem 1023
 desc: |
-  Asks whether the largest family of subsets of the first n integers with no
-  member a union of others is a constant times two to the n over the square
-  root of n.
+  Asks whether the largest family of subsets of $\{1,\ldots,n\}$ in which no
+  member is a union of others has size $\sim c\,2^n/n^{1/2}$ for some constant
+  $c>0$; proved.
 tags:
 - Combinatorics
 status: solved
@@ -37,9 +37,9 @@ since the middle layer alone gives $F(n)\ge\binom{n}{\lfloor n/2\rfloor}$.
 With the exponent $3/2$ the conjecture is false; the Statement carries the
 site's exponent $1/2$.
 
-**Status.** The site labels the problem SOLVED (LEAN) and credits Hunter's
-observation in its thread that the solution of Problem 447 settles it: the
-answer is yes, $F(n)\sim\binom{n}{\lfloor n/2\rfloor}$, so
+**Status.** The site labels the problem SOLVED (LEAN). It credits Hunter's
+observation, in the problem's thread, that the solution of Problem 447 settles
+it. The answer is yes: $F(n)\sim\binom{n}{\lfloor n/2\rfloor}$, so
 $c=\sqrt{2/\pi}$.
 
 **Source.** [erdosproblems.com/1023](https://www.erdosproblems.com/1023),

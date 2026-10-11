@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0865
 title: Problem 865
 desc: |
-  Asks whether every set of integers up to N of size just above five eighths
-  of N contains three members whose three pairwise sums also lie in the set;
-  proved in a 2026 preprint, developed with GPT-5.5 Pro, that the site accepted.
+  Asks whether every subset of $\{1,\ldots,N\}$ of size at least $\frac58N+C$,
+  for some constant $C$, contains three distinct members whose pairwise sums
+  also lie in the set. It was proved in a 2026 preprint, developed with GPT-5.5
+  Pro, which the site accepted.
 tags:
 - Number theory
 - Additive combinatorics
@@ -48,31 +49,32 @@ $[1,n]$; the printed $2n$ is carried over from the preceding sentence and
 the site's range $\{1,\ldots,N\}$ is the one the examples fit). The site's
 source keys are [Er72], [CES75] and [Er92c].
 
-**Status.** PROVED (LEAN). The status-defining source is Theorem 1.1 of a
-seven-page arXiv preprint, R. Cipollini, *A sharp 5/8 bound for an
-Erdős--Sós pairwise-sums problem*, arXiv:2606.29361v1 (28 June 2026): there
-is a constant $C>0$ such that for all $N$, not only large $N$, every
-$A\subseteq[1,N]$ with $|A|\ge\tfrac58N+C$ contains a pairwise-sum triple,
-with the explicit form $|A|\le\tfrac54H+6$ for every triple-free
-$A\subseteq[1,2H]$. The manuscript's first page declares that it was
-written by an AI model, GPT-5.5 Pro, from a proof developed by the author
-together with that model, and that the Lean formalization was carried out
-with the prover Aristotle; the site's commentary credits the solution to
-Cipollini and GPT Pro, and the site accepted it on 2 July 2026 with the
-label PROVED (LEAN); Stijn Cambie, a contributor the paper's
-acknowledgments thank for feedback and improvements, reported in the
-site's thread on 27 June 2026 that he had read a version of the paper in
-detail and confirmed it. This is a source-supported solution accepted by the site,
-distinct from a claim of journal refereeing: no refereed publication, no
-later arXiv version, no citing paper and no written expert review beyond
-the thread were found. Two external Lean developments prove
-the theorem for their own definitions; the corpus holds no build of
-either, so they give no formalized evidence. The refereed content behind the label is
-the density bound $f_k(N)\le(\tfrac23-\epsilon_k)N$ of Choi, Erdős and
-Szemerédi (1975), and the folklore $k=2$ fact the site
-states. The standing is derived from the
+**Status.** PROVED (LEAN). The standing is derived from the
 [[problems/additive_combinatorics/E0865/claims/2026_06_28_cipollini|claim page]],
-accepted on the site's documented review with these qualifications.
+accepted on the site's documented review with the qualifications below.
+
+The status-defining source is Theorem 1.1 of a seven-page arXiv preprint, R.
+Cipollini, *A sharp 5/8 bound for an Erdős--Sós pairwise-sums problem*,
+arXiv:2606.29361v1 (28 June 2026). It shows that there is a constant $C>0$ such
+that, for all $N$ and not only large $N$, every $A\subseteq[1,N]$ with
+$|A|\ge\tfrac58N+C$ contains a pairwise-sum triple. The explicit form is
+$|A|\le\tfrac54H+6$ for every triple-free $A\subseteq[1,2H]$. The manuscript's
+first page declares that it was written by an AI model, GPT-5.5 Pro, from a
+proof the author developed together with that model. It also declares that the
+Lean formalization was carried out with the prover Aristotle. The site's
+commentary credits the solution to Cipollini and GPT Pro, and the site accepted
+it on 2 July 2026 with the label PROVED (LEAN). On 27 June 2026, Stijn Cambie
+reported in the site's thread that he had read a version of the paper in detail
+and confirmed it. The paper's acknowledgments thank him for feedback and
+improvements.
+
+This is a source-supported solution accepted by the site, distinct from a claim
+of journal refereeing. No refereed publication, later arXiv version, citing
+paper or written expert review beyond the thread was found. Two external Lean
+developments prove the theorem for their own definitions. The corpus holds no
+build of either, so they give no formalized evidence. The refereed content
+behind the label is the density bound $f_k(N)\le(\tfrac23-\epsilon_k)N$ of Choi,
+Erdős and Szemerédi (1975), and the folklore $k=2$ fact the site states.
 
 **Source.** [erdosproblems.com/865](https://www.erdosproblems.com/865),
 accessed 2026-09-18: the problem page (PROVED

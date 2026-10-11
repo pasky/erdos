@@ -2,9 +2,9 @@
 name: problems/irrationality/E0252/claims/1971_03_01_erdos_straus
 title: Erdős and Straus's case k = 1 through general series theorems
 desc: |
-  Erdős and Straus's general theorems on series over products a_1 through
-  a_n (1971, Theorem 2.26; 1974, Theorem 3.7) give, with a_n = n, that the
-  sum of sigma(n)/n! is irrational, the case k = 1.
+  Erdős and Straus's general theorems on series over the products
+  $a_1\cdots a_n$ (1971, Theorem 2.26; 1974, Theorem 3.7) give, with $a_n=n$,
+  that $\sum_n\sigma(n)/n!$ is irrational. This is the case $k=1$.
 authors:
 - P. Erdős
 - E. G. Straus
@@ -65,10 +65,10 @@ question. The Monthly solution of the case $k=1$ is
 **Covers.** The case $k=1$ only: $\sum_{n\ge1}\sigma_1(n)/n!$ is irrational.
 Nothing about any $k\ge2$.
 
-**Acceptance.** Refereed: the Pacific Journal of Mathematics, volume 36,
-issue 3 (March 1971), pp. 635--646, and volume 55, issue 1 (November 1974),
-pp. 85--92; the Crossref records of the DOIs give these data. The site labels
-the problem OPEN, so no curator credit is acceptance and no `reviewed`
-evidence is listed. The proofs are not checked here.
+**Acceptance.** Refereed: the Pacific Journal of Mathematics, volume 36, issue 3
+(March 1971), pp. 635--646, and volume 55, issue 1 (November 1974), pp. 85--92.
+The Crossref records of the DOIs give these data. The site labels the problem
+OPEN, so no curator credit is acceptance and no `reviewed` evidence is listed.
+The proofs are not checked here.
 
 **Depends on.** Nothing in this wiki.

@@ -2,9 +2,10 @@
 name: problems/primes/E1212
 title: Problem 1212
 desc: |
-  Asks for a path to infinity through coprime pairs above 1 with a composite
-  coordinate, steps changing one coordinate by one; Erdős first asked it
-  without the composite condition, which Stewart quickly answered yes.
+  Asks whether some path to infinity, changing one coordinate by $\pm1$ per
+  step, stays among coprime pairs $(x,y)$ with $\min(x,y)>1$ and a composite
+  coordinate; open on the site, with a proof claim pending. Stewart quickly
+  answered yes to Erdős's first version, without the composite condition.
 tags:
 - Number theory
 - Primes
@@ -49,17 +50,17 @@ increasing the distance from the origin, and for one that changes direction
 after a bounded number of steps; the site's commentary repeats both questions,
 which are not part of the Statement.
 
-**Status.** OPEN, in the site's label (page last edited 08 April 2026), with the
-explanation that the question cannot be settled by a finite computation. The
-derived standing departs from the label because of a pending proof. The site's
-proof-claims tab carries one entry, a full claim by Alex Chengyu Li, published
-on Zenodo on 2026-09-06 and filed on the tab on 2026-09-07 with a tools line
-naming Proof Engine, ChatGPT 5.6 and ChatGPT 6 Astra, and with a Lean
-development this corpus has not built. The claim answers the Statement yes; the
-site has not accepted it, and it is recorded as pending on
-[[problems/primes/E1212/claims/2026_09_06_li|Li's claim page]]. A pending full
-claim gives the derived standing `claimed` with claim `proved`, while the site's
-label, which records no accepted proof, is OPEN.
+**Status.** OPEN. This is the site's label (page last edited 08 April 2026),
+with the explanation that the question cannot be settled by a finite
+computation. The derived standing departs from the label because of a pending
+proof. A pending full claim gives the derived standing `claimed` with claim
+`proved`, while the site's label records no accepted proof. The site's
+proof-claims tab carries one entry, a full claim by Alex Chengyu Li. It was
+published on Zenodo on 2026-09-06 and filed on the tab on 2026-09-07. Its tools
+line names Proof Engine, ChatGPT 5.6 and ChatGPT 6 Astra, and it comes with a
+Lean development this corpus has not built. The claim answers the Statement yes.
+The site has not accepted it, and it is recorded as pending on
+[[problems/primes/E1212/claims/2026_09_06_li|Li's claim page]].
 
 **Source.** [erdosproblems.com/1212](https://www.erdosproblems.com/1212),
 accessed 2026-09-04; its discussion thread accessed 2026-10-07. Cite as:

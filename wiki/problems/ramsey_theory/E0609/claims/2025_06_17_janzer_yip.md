@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0609/claims/2025_06_17_janzer_yip
 title: Janzer and Yip's upper bound O(n^(3/2) 2^(n/2))
 desc: |
-  Janzer and Yip (Math. Proc. Cambridge Philos. Soc. 181, 2026) prove that
-  every n-coloring of K_(2^n+1) has a monochromatic odd cycle of length
-  O(n^(3/2) 2^(n/2)); refereed.
+  Janzer and Yip (Math. Proc. Cambridge Philos. Soc. 181, 2026, refereed) prove
+  that every $n$-coloring of $K_{2^n+1}$ has a monochromatic odd cycle of length
+  $O(n^{3/2}2^{n/2})$.
 authors:
 - Oliver Janzer
 - Fredy Yip

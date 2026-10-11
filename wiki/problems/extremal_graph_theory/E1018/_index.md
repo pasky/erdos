@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E1018
 title: Problem 1018
 desc: |
-  Asks whether every large graph with at least n to the power one plus
-  epsilon edges has a non-planar subgraph of bounded size; answered yes by
-  Kostochka and Pyber in 1988 through a bounded subdivided K_5.
+  Asks whether, for large $n$, every graph on $n$ vertices with at least
+  $n^{1+\epsilon}$ edges has a non-planar subgraph of bounded size. Answered yes
+  by Kostochka and Pyber in 1988, through a subdivided $K_5$ of bounded size.
 tags:
 - Graph theory
 - Planar graphs
@@ -41,32 +41,35 @@ SOLVED, its label for a resolution that is neither a proof nor a disproof,
 although the answer is yes; the label is the site's, and the claim value
 recorded on the claim page is proved.
 
-**Status.** Solved (the site's label SOLVED; on 2026-10-07 the
-page printed no label, and the community database listed the problem as solved
-(Lean), with a last update of 16 September 2026). The answer is yes: Kostochka
-and Pyber (Combinatorica 8 (1988), no. 1, 83--86; refereed) state Erdős's
-question in their introduction and answer it with their Theorem (p. 83): "Every
+**Status.** Solved. The site's label is SOLVED. On 2026-10-07 the page printed
+no label, and the community database listed the problem as solved (Lean), with a
+last update of 16 September 2026. The answer is yes. Kostochka and Pyber
+(Combinatorica 8 (1988), no. 1, 83--86; refereed) state Erdős's question in
+their introduction and answer it with their Theorem (p. 83): "Every
 $G[n,4^{t^2}n^{1+\varepsilon}]$ contains a $TK_t$ of size at most
 $c(\varepsilon,t)\le7t^2\log t/\varepsilon$ for all $t\in\mathbb N$ and
-$\varepsilon>0$", where $G[n,m]$ is a graph with $n$ vertices and $m$ edges and
-$TK_t$ a topological complete graph (a subdivided $K_t$) of $t$ vertices; "This
-result answers the question of Erdős" (p. 83). Library home:
+$\varepsilon>0$". Here $G[n,m]$ is a graph with $n$ vertices and $m$ edges, and
+$TK_t$ is a topological complete graph (a subdivided $K_t$) of $t$ vertices. The
+paper says: "This result answers the question of Erdős" (p. 83). Library home:
 [[../library/extremal_graph_theory/kostochka_pyber_1988_small_topological_complete_subgraphs_dense_graphs/_index|kostochka_pyber_1988_small_topological_complete_subgraphs_dense_graphs]],
 result page
 [[../library/extremal_graph_theory/kostochka_pyber_1988_small_topological_complete_subgraphs_dense_graphs/theorem|Theorem]].
-With $t=5$ this gives a non-planar subgraph on $O(1/\epsilon)$ vertices in
-every graph with $n^{1+\epsilon}$ edges once $n$ is large (an authored
-conversion below); the site's account and the restatement in Janzer's
-refereed paper of 2021 (Bull. London Math. Soc. 53, 108--118; quoted from
-its arXiv copy) agree with the printed statement. The label rests on
-Erdős's question, the site's acceptance and the Theorem as printed; the
-proof (p. 85) was followed for structure and not checked. The claim page
+
+With $t=5$ this gives a non-planar subgraph on $O(1/\epsilon)$ vertices in every
+graph with $n^{1+\epsilon}$ edges once $n$ is large (an authored conversion
+below). The site's account and the restatement in Janzer's refereed paper of
+2021 (Bull. London Math. Soc. 53, 108--118; quoted from its arXiv copy) agree
+with the printed statement. The label rests on Erdős's question, the site's
+acceptance and the Theorem as printed. The proof (p. 85) was followed for
+structure and not checked.
+
+The claim page
 [[problems/extremal_graph_theory/E1018/claims/1988_03_01_kostochka_pyber|Kostochka and Pyber]]
-records the result, its acceptance evidence and its postings, and the
-standing derives from it: the question is answered in the affirmative, so
-the claim's value is proved, while this sentence keeps the site's label.
-Jiang (J. Graph Theory 67
-(2011), 139--152; not held) later sharpened the bound, as Janzer reports.
+records the result, its acceptance evidence and its postings, and the standing
+derives from it. The question is answered in the affirmative, so the claim's
+value is proved, while the first word of this text keeps the site's label. Jiang
+(J. Graph Theory 67 (2011), 139--152; not held) later sharpened the bound, as
+Janzer reports.
 
 **Source.** [erdosproblems.com/1018](https://www.erdosproblems.com/1018),
 accessed 2026-09-18: the problem page (SOLVED, the

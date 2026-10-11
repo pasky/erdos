@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0933/claims/2026_02_07_belachhab
 title: Belachhab's claimed bound 3/log 2 on the {2,3}-part of n(n+1)
 desc: |
-  Belachhab claims that the {2,3}-part of n(n+1) is at most (3/log 2) n log n
-  for every n at least 2, a negative answer; the thread refutes the bound with
-  n = 3^14 * 311, where the ratio is about 4.99.
+  Belachhab claims a negative answer, that the $\{2,3\}$-part of $n(n+1)$ is at
+  most $(3/\log 2)\,n\log n$ for every $n\geq 2$. The thread refutes the bound
+  with $n=3^{14}\cdot 311$, where the ratio is about $4.99$.
 authors:
 - Mohamed Amine Belachhab
 status: rejected

@@ -2,8 +2,9 @@
 name: problems/additive_combinatorics/E0895
 title: Problem 895
 desc: |
-  Asks whether every large triangle-free graph on one to n contains three
-  pairwise nonadjacent numbers of the form a, b and a plus b.
+  Asks whether, for all large $n$, every triangle-free graph on $\{1,\ldots,n\}$
+  has three pairwise nonadjacent vertices of the form $a$, $b$ and $a+b$;
+  proved.
 tags:
 - Additive combinatorics
 - Graph theory
@@ -25,18 +26,18 @@ updated: 2026-10-08T02:16:54Z
 triangle-free graph on $\{1,\ldots,n\}$ then there must exist three independent
 points $a,b,a+b$?
 
-**Status.** Proved, the site's label, which records the answer as yes; the
-explicit threshold is $n\ge18$. The accepted claim is Barber's verification with
-a SAT solver, which the site reports as a personal communication, that the
-statement holds for every $n\ge18$; a check at $n=18$ suffices by restricting a
-graph to its first eighteen vertices, as the claim page explains. It is recorded
-on
+**Status.** Proved. This is the site's label, which records the answer as yes.
+The explicit threshold is $n\ge18$. The accepted claim is Barber's verification
+with a SAT solver that the statement holds for every $n\ge18$. The site reports
+it as a personal communication. A check at $n=18$ suffices by restricting a
+graph to its first eighteen vertices, as the claim page explains. The claim is
+recorded on
 [[problems/additive_combinatorics/E0895/claims/2025_04_06_barber|its claim page]]
-with the curator's acceptance as its only evidence; no paper or certificate of
-Barber's is known (see the search scope below). Hajnal's stronger question,
-whether a large triangle-free graph must have an independent Hindman set, which
-the site's commentary records, remains open and is separate from the stated
-problem.
+with the curator's acceptance as its only evidence. No paper or certificate of
+Barber's is known (see the search scope below). The site's commentary also
+records Hajnal's stronger question: whether a large triangle-free graph must
+have an independent Hindman set. That question remains open and is separate from
+the stated problem.
 
 **Source.** [erdosproblems.com/895](https://www.erdosproblems.com/895), accessed
 2026-09-04: the problem page (PROVED; no last-edited date shown; source key

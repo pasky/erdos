@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0610
 title: Problem 610
 desc: |
-  Bounds the clique transversal number of an n-vertex graph; proved, with the
-  answer n − Θ(√(n log n)), by the Joret–Micek–Reed–Smid clique-coloring bound
-  and Kim's triangle-free graphs, under the site's PROVED (LEAN) label.
+  Asks for estimates of the clique transversal number of an $n$-vertex graph.
+  Proved under the site's PROVED (LEAN) label, with the answer
+  $n-\Theta(\sqrt{n\log n})$: the Joret–Micek–Reed–Smid clique-coloring bound
+  gives the upper bound and Kim's triangle-free graphs the lower bound.
 tags:
 - Graph theory
 status: solved
@@ -57,37 +58,37 @@ The site's label PROVED (LEAN) carries a catalog suffix explained under
 Formalization.
 
 **Status.** PROVED (LEAN), the site's label, whose suffix is a catalog label
-explained under Formalization; proved for both displayed questions:
+explained under Formalization. Both displayed questions are proved:
 $T(n)=n-\Theta(\sqrt{n\log n})$. The status-defining source is Corollary 2 of
-Joret, Micek, Reed and Smid (Electron. J. Combin. 28 (2021), P3.51, refereed
-and open access; the result and its acceptance
-evidence are recorded on the claim page
+Joret, Micek, Reed and Smid (Electron. J. Combin. 28 (2021), P3.51, refereed and
+open access). The result and its acceptance evidence are recorded on the claim
+page
 [[problems/extremal_graph_theory/E0610/claims/2020_06_19_joret_micek_reed_smid|Joret--Micek--Reed--Smid]],
-from which the frontmatter is derived): every $n$-vertex graph has clique
-chromatic number $O(\sqrt{n/\log n})$, that is a coloring with that many colors
-in which no clique is monochromatic. The transfer to clique transversals is one
-line, written out below as an authored deduction: the complement of a largest
-color class meets every clique, so $\tau(G)\le n-\lceil n/\chi_c(G)\rceil\le
-n-c\sqrt{n\log n}$ for large $n$ and some $c>0$, which answers the second
-question with $c$ and the first with $\omega(n)=c\sqrt{\log n}$. The lower
-bound $T(n)\ge n-9\sqrt{n\log n}$ is Kim's Theorem 1.1 (1995, refereed)
-with the 1992 paper's Lemma 1(b). The 1992 paper's own bound is its Theorem 1,
-$\tau(G)\le n-\sqrt{2n}+\frac32$. Three qualifications, each written out in the
-Current assessment: the site's "(LEAN)" suffix attaches to a company-hosted
-Lean file that declares the two theorems it uses (the 2021 corollary and Kim's
-theorem) with `sorry`, so it is a kernel-checkable derivation of the statement
-from unproved inputs and not a kernel-checked proof of the statement; the
-resolution reached the site through an unrefereed four-page note that a thread
-post credits to GPT-5.4 Pro, while the theorem it rests on is refereed (the
-note and the file are the pending claim on
-[[problems/extremal_graph_theory/E0610/claims/2026_04_21_przemek_chojecki|its
-own claim page]]); and a thread post of 26 August 2026 reports that GPT-5.6
-Sol claims a gap in the proof of Theorem 1 of the 2021 paper, from which
-Corollary 2 is derived, a report that gives no argument on the page, is
-examined by no published source and is unanswered on the thread beyond a note that
-the authors were contacted. The frontmatter keeps `proved` on the refereed
-theorem with
-these qualifications.
+from which the frontmatter is derived. The corollary says that every $n$-vertex
+graph has clique chromatic number $O(\sqrt{n/\log n})$, that is, a coloring with
+that many colors in which no clique is monochromatic. The transfer to clique
+transversals is one line, written out below as an authored deduction. The
+complement of a largest color class meets every clique, so
+$\tau(G)\le n-\lceil n/\chi_c(G)\rceil\le n-c\sqrt{n\log n}$ for large $n$ and
+some $c>0$. This answers the second question with $c$ and the first with
+$\omega(n)=c\sqrt{\log n}$. The lower bound $T(n)\ge n-9\sqrt{n\log n}$ is Kim's
+Theorem 1.1 (1995, refereed) with the 1992 paper's Lemma 1(b). The 1992 paper's
+own bound is its Theorem 1, $\tau(G)\le n-\sqrt{2n}+\frac32$.
+
+The frontmatter keeps `proved` on the refereed theorem with three
+qualifications, each written out in the Current assessment. First, the site's
+"(LEAN)" suffix attaches to a company-hosted Lean file that declares the two
+theorems it uses (the 2021 corollary and Kim's theorem) with `sorry`. So the
+file is a kernel-checkable derivation of the statement from unproved inputs, not
+a kernel-checked proof of the statement. Second, the resolution reached the site
+through an unrefereed four-page note that a thread post credits to GPT-5.4 Pro,
+while the theorem it rests on is refereed. The note and the file are the pending
+claim on
+[[problems/extremal_graph_theory/E0610/claims/2026_04_21_przemek_chojecki|its own claim page]].
+Third, a thread post of 26 August 2026 reports that GPT-5.6 Sol claims a gap in
+the proof of Theorem 1 of the 2021 paper, from which Corollary 2 is derived. The
+report gives no argument on the page and is examined by no published source. On
+the thread it is unanswered beyond a note that the authors were contacted.
 
 **Source.** [erdosproblems.com/610](https://www.erdosproblems.com/610),
 accessed 2026-09-19: the problem page (PROVED

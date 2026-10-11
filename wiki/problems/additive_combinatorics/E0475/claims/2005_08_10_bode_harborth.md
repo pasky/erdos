@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0475/claims/2005_08_10_bode_harborth
 title: Bode and Harborth's sizes p - 2 and p - 1
 desc: |
-  Theorem 2 of Bode and Harborth (Discrete Math. 2005), Alspach's conjecture
-  for n - 2 lengths: every set of p - 2 nonzero residues modulo a prime, and
-  the set of all p - 1, has an ordering with distinct partial sums; refereed.
+  Theorem 2 of Bode and Harborth (Discrete Math. 2005, refereed) proves
+  Alspach's conjecture for $n-2$ lengths. So every set of $p-2$ nonzero residues
+  modulo a prime $p$, and the set of all $p-1$, has an ordering with distinct
+  partial sums.
 authors:
 - Jens-P. Bode
 - Heiko Harborth
@@ -65,7 +66,7 @@ whose proof no cited source prints.
 its library result pages.
 
 **Acceptance.** Refereed publication: Discrete Mathematics 299 (2005), 3--10,
-DOI 10.1016/j.disc.2005.05.006, available online 10 August 2005, which dates
-this page. The site credits the range $p-3\le t\le p-1$ through Hicks, Ollis
-and Schmitt and the references therein, but its label DECIDABLE leaves the
+DOI 10.1016/j.disc.2005.05.006. It was available online 10 August 2005, which
+dates this page. The site credits the range $p-3\le t\le p-1$ through Hicks,
+Ollis and Schmitt and the references therein. But its label DECIDABLE leaves the
 problem open, so that credit is not `reviewed` evidence.

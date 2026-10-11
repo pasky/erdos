@@ -2,8 +2,8 @@
 name: problems/irrationality/E0252/claims/2006_12_01_schlage_puchta_conditional
 title: Schlage-Puchta's irrationality for every k under Hypothesis H
 desc: |
-  Schlage-Puchta's 2006 paper proves that Schinzel's Hypothesis H implies
-  that the sum of sigma_k(n)/n! is irrational for every k; the hypothesis is
+  Schlage-Puchta's 2006 paper proves that Schinzel's Hypothesis H implies that
+  $\sum_n\sigma_k(n)/n!$ is irrational for every $k$. The hypothesis is
   unproven, so the page derives nothing for the problem's standing.
 authors:
 - Jan-Christoph Schlage-Puchta
@@ -61,11 +61,11 @@ formal-conjectures tags its variant `erdos_252.variants.schinzel`, which
 takes Hypothesis H as an explicit hypothesis, research solved, citing this
 paper.
 
-**Acceptance.** Refereed: the Ramanujan Journal, volume 12, issue 3
-(December 2006), pp. 455--460; the Crossref record of the DOI gives these
-data. The site labels the problem OPEN, so its curator's remark that the sum
-is irrational for every $k$ under Schinzel's conjecture by this paper is
-commentary on an open problem and not acceptance, and no `reviewed` evidence
-is listed. The proof is not checked here.
+**Acceptance.** Refereed: the Ramanujan Journal, volume 12, issue 3 (December
+2006), pp. 455--460. These data come from the Crossref record of the DOI. The
+site labels the problem OPEN. Its curator remarks that, by this paper, the sum
+is irrational for every $k$ under Schinzel's conjecture. That remark is
+commentary on an open problem and not acceptance, so no `reviewed` evidence is
+listed. The proof is not checked here.
 
 **Depends on.** Nothing in this wiki.

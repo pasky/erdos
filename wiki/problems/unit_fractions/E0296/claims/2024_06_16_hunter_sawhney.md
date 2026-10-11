@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0296/claims/2024_06_16_hunter_sawhney
 title: Hunter and Sawhney's estimate of k(N) from Bloom's theorem
 desc: |
-  The observation, recorded on the site, that Bloom's Theorem 3 applied by
-  greedy removal gives k(N) = (1 - o(1)) log N disjoint unit-sum subsets of
-  {1, ..., N}, which refutes the guess k(N) = o(log N).
+  Hunter and Sawhney's observation, recorded on the site, that Bloom's Theorem 3
+  applied by greedy removal gives $k(N)=(1-o(1))\log N$ disjoint subsets of
+  $\{1,\ldots,N\}$ with reciprocal sum one. This refutes the guess
+  $k(N)=o(\log N)$.
 authors:
 - Zachary Hunter
 - Mehtaab Sawhney
@@ -66,27 +67,29 @@ supplies Theorem 3; the greedy removal is the only further step. The
 sharpening of the error term rests on
 [[problems/unit_fractions/E0047/claims/2024_04_10_liu_sawhney|Liu and Sawhney's threshold]].
 
-**Acceptance.** The observation appears in no publication: the site's
-commentary records it, crediting Hunter and Sawhney. An archived copy of the
-problem page captured on 16 June 2024 (the record link above) already shows
-the remark, the thanks to Zachary Hunter and Mehtaab Sawhney and the label
-SOLVED, so the remark predates that date, which dates this page; the site's
-revision history begins only with a version of 20 October 2025 and records no
-finer date. The site's curator, Thomas Bloom, labels the
-problem proved on the strength of the estimate and credits the observation
-to Hunter and Sawhney; the curator is not one of them, and that credit is the
-`reviewed` evidence. The curator is the author of Theorem 3, which is
-refereed, but the deduction itself is unpublished, so `refereed` is not
-listed. Three Lean files declare themselves formalizations of the estimate
-and are linked above: the file in `plby/lean-proofs` that the
-formal-conjectures statement tags as its proof names Bloom, Hunter and
-Sawhney as informal authors and the prover Aristotle and John Jennings as
-formal authors, and proves the two-sided statement without `sorry`, its
-closing comment listing the axioms `propext`, `Classical.choice` and
-`Quot.sound`; the gist of 22 April 2026, produced by Aristotle, is
-conditional on one declared axiom standing for Theorem 3; the standalone
-file in `Jayyhk/erdos-lean` of 26 May 2026 vendors the Lean 4 port of the
-Bloom–Mehta formalization and proves the lower bound unconditionally with the
-same three axioms. None was built or audited by this corpus, so `formalized`
-is not listed; the formal-conjectures file is a statement with a `sorry`
-body and is not a formalization.
+**Acceptance.** The observation appears in no publication. The site's commentary
+records it and credits Hunter and Sawhney. An archived copy of the problem page
+captured on 16 June 2024 (the record link above) already shows the remark, the
+thanks to Zachary Hunter and Mehtaab Sawhney, and the label SOLVED. So the
+remark predates that date, and that date dates this page. The site's revision
+history begins only with a version of 20 October 2025 and records no finer date.
+
+The site's curator, Thomas Bloom, labels the problem proved on the strength of
+the estimate and credits the observation to Hunter and Sawhney. The curator is
+not one of them, and that credit is the `reviewed` evidence. The curator is the
+author of Theorem 3, which is refereed, but the deduction itself is unpublished,
+so `refereed` is not listed.
+
+Three Lean files declare themselves formalizations of the estimate and are
+linked above. The first is the file in `plby/lean-proofs` that the
+formal-conjectures statement tags as its proof. It names Bloom, Hunter and
+Sawhney as informal authors and the prover Aristotle and John Jennings as formal
+authors. It proves the two-sided statement without `sorry`, and its closing
+comment lists the axioms `propext`, `Classical.choice` and `Quot.sound`. The
+second is the gist of 22 April 2026, produced by Aristotle. It is conditional on
+one declared axiom that stands for Theorem 3. The third is the standalone file
+in `Jayyhk/erdos-lean` of 26 May 2026. It vendors the Lean 4 port of the
+Bloom–Mehta formalization and proves the lower bound unconditionally, with the
+same three axioms. This corpus did not build or audit any of them, so
+`formalized` is not listed. The formal-conjectures file is a statement with a
+`sorry` body and is not a formalization.

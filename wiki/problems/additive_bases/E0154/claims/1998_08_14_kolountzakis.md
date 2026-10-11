@@ -3,7 +3,7 @@ name: problems/additive_bases/E0154/claims/1998_08_14_kolountzakis
 title: Kolountzakis's quantitative equidistribution of Sidon sets
 desc: |
   Kolountzakis proved an explicit bound on the discrepancy of a near-maximal
-  Sidon set among residue classes, uniform in moduli growing with N, which
+  Sidon set among residue classes, uniform in moduli growing with $N$. This
   strengthens Lindström's theorem and settles Problem 154.
 authors:
 - Mihail N. Kolountzakis
@@ -55,9 +55,9 @@ $A$; the equidistribution itself is the paper's.
 
 **Acceptance.** Refereed: M. N. Kolountzakis, On the uniform distribution in
 residue classes of dense sets of integers with distinct sums, J. Number Theory
-76 (1999), no. 1, 147–153; the page name uses the date of the first version of
-the preprint, arXiv:math/9808061, 1998-08-14. Reviewed: the site's curator,
-T. F. Bloom, records the problem as proved at erdosproblems.com on Lindström's
-theorem and this strengthening, which is the site's acceptance. No Lean
-formalization of this quantitative statement is recorded; the formalizations
-linked from Lindström's page cover the qualitative statement.
+76 (1999), no. 1, 147–153. The page name uses the date of the first version of
+the preprint, arXiv:math/9808061, 1998-08-14. Reviewed: the site's curator, T.
+F. Bloom, records the problem as proved at erdosproblems.com on the basis of
+Lindström's theorem and this strengthening. This is the site's acceptance. No
+Lean formalization of this quantitative statement is recorded. The
+formalizations linked from Lindström's page cover the qualitative statement.

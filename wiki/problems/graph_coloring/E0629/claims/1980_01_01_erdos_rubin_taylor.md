@@ -2,10 +2,10 @@
 name: problems/graph_coloring/E0629/claims/1980_01_01_erdos_rubin_taylor
 title: Erdős, Rubin and Taylor's value n(2) = 6
 desc: |
-  The paper that introduces choosability states that the least number of
-  vertices of a bipartite graph that is not 2-choosable is 6, together with
-  general bounds on n(k); a conference proceedings with no record of
-  refereeing.
+  Erdős, Rubin and Taylor's paper introducing choosability states that the least
+  number of vertices of a bipartite graph that is not $2$-choosable is $6$, and
+  gives general bounds on $n(k)$. It appeared in conference proceedings with no
+  record of refereeing.
 authors:
 - Paul Erdös
 - Arthur L. Rubin

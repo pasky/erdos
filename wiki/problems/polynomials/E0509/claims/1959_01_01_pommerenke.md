@@ -2,9 +2,10 @@
 name: problems/polynomials/E0509/claims/1959_01_01_pommerenke
 title: Pommerenke's disc of radius 2 for a connected lemniscate interior
 desc: |
-  Pommerenke's 1959 Theorem 3: when the set where a monic polynomial has
-  modulus below one is connected, one disc of radius two covers the set where
-  the modulus is at most one, answering yes for those polynomials; refereed.
+  Pommerenke's 1959 Theorem 3 shows that if $f$ is monic and
+  $\{\lvert f\rvert<1\}$ is connected, then one disc of radius $2$ covers
+  $\{\lvert f\rvert\le1\}$. This answers the question yes for those polynomials
+  and is refereed.
 authors:
 - Chr. Pommerenke
 status: accepted
@@ -60,10 +61,10 @@ received January 15, 1959. The publisher's record dates the article to the
 year 1959 alone, and the page is named by the record's date.
 
 **Acceptance.** Refereed: the note appeared in the Michigan Mathematical
-Journal. The site's remarks credit the paper with the connected case, but
-the site labels the problem OPEN, so the curator's label settles neither the
-problem nor a part of it, and no `reviewed` evidence is listed. Nothing here
-is independently reviewed by this project.
+Journal. The site's remarks credit the paper with the connected case, but the
+site labels the problem OPEN. So the curator's label settles neither the problem
+nor a part of it, and no `reviewed` evidence is listed. Nothing here is
+independently reviewed by this project.
 
 **Depends on.** No page of this wiki. The proof rests on the cited paper and
 on a Pólya--Szegő problem (Aufgaben und Lehrsätze, Vol. 2, Section IV,

@@ -2,9 +2,9 @@
 name: problems/divisors/E0448
 title: Problem 448
 desc: |
-  Asks whether, for almost all n, the number of dyadic ranges containing a
-  divisor of n is an arbitrarily small fraction of the total number of
-  divisors.
+  Asks whether, for every $\epsilon>0$, almost all $n$ have fewer than
+  $\epsilon\tau(n)$ dyadic intervals $[2^k,2^{k+1})$ containing a divisor of
+  $n$, where $\tau(n)$ is the number of divisors; disproved.
 tags:
 - Number theory
 - Divisors
@@ -32,10 +32,11 @@ $$
 
 for almost all $n$?
 
-**Status.** DISPROVED (LEAN). The site's label; Erdős and Tenenbaum showed
-in 1981 that the integers with $\tau^+(n)<\epsilon\tau(n)$ do not have
-density one for small $\epsilon$, and the Lean is a third-party formalization
-of their disproof, not built here, as the claim page below records.
+**Status.** DISPROVED (LEAN). This is the site's label. In 1981 Erdős and
+Tenenbaum showed that, for small $\epsilon$, the integers with
+$\tau^+(n)<\epsilon\tau(n)$ do not have density one. The Lean is a third-party
+formalization of their disproof and was not built here, as the claim page below
+records.
 
 **Source.** [erdosproblems.com/448](https://www.erdosproblems.com/448), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #448,

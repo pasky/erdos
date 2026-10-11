@@ -2,9 +2,8 @@
 name: problems/integer_sequences/E0220
 title: Problem 220
 desc: |
-  Asks whether the sum of squared gaps between consecutive integers below n
-  and coprime to n is at most a constant times n squared over Euler's totient
-  of n.
+  Asks whether the sum of the squared gaps between consecutive integers below
+  $n$ that are coprime to $n$ is $\ll n^2/\phi(n)$; proved.
 tags:
 - Number theory
 status: solved
@@ -35,15 +34,15 @@ $$
 
 **Status.** PROVED (LEAN). Montgomery and Vaughan (1986) prove
 $\sum(a_{k+1}-a_k)^\gamma\ll n^\gamma/\phi(n)^{\gamma-1}$ for every
-$\gamma\geq 1$, whose case $\gamma=2$ answers the question yes; Thomas
-Bloom, the site's curator, attributes the answer to their paper, and Guy's
-collection records that they won the prize. The site's Lean suffix refers
-to a 2026 formalization in Boris Alexeev's public repository that declares
-Montgomery and Vaughan its informal authors, so it is a formalization link
-on the claim page; the corpus has neither built nor audited it, and it
-gives no `formalized` evidence. The claim page
-[[problems/integer_sequences/E0220/claims/1986_03_01_montgomery_vaughan|Montgomery
-and Vaughan 1986]] records the acceptance.
+$\gamma\geq 1$. The case $\gamma=2$ answers the question yes. Thomas Bloom, the
+site's curator, attributes the answer to their paper, and Guy's collection
+records that they won the prize. The claim page
+[[problems/integer_sequences/E0220/claims/1986_03_01_montgomery_vaughan|Montgomery and Vaughan 1986]]
+records the acceptance. The site's Lean suffix refers to a 2026 formalization in
+Boris Alexeev's public repository. That formalization declares Montgomery and
+Vaughan its informal authors, so it is a formalization link on the claim page.
+The corpus has neither built nor audited it, and it gives no `formalized`
+evidence.
 
 **Source.** [erdosproblems.com/220](https://www.erdosproblems.com/220), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #220,

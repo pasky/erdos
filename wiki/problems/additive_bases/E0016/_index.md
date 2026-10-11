@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0016
 title: Problem 16
 desc: |
-  Asks whether the odd integers not of the form a power of 2 plus a prime form
-  the union of an infinite arithmetic progression and a set of density zero.
+  Asks whether the odd integers not of the form $2^k+p$ are the union of an
+  infinite arithmetic progression and a set of density $0$; the answer is no.
 tags:
 - Number theory
 - Additive bases
@@ -25,17 +25,16 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Is the set of odd integers not of the form $2^k+p$ the union of
 an infinite arithmetic progression and a set of density $0$?
 
-**Status.** DISPROVED (LEAN), the site's label (page last edited 05 April
-2026): Chen's 2023 preprint [Ch23] shows that the odd integers not of the form
-$2^k+p$ are not a finite union of arithmetic progressions plus a set of density
-zero, so the answer is no; the site's Lean marker corresponds to the proof the
-formal-conjectures catalog links, Daniel Chin's Lean file, which proves that no
-single infinite progression plus a progression-free remainder equals that set
+**Status.** DISPROVED (LEAN), the site's label (page last edited 05 April 2026).
+Chen's 2023 preprint [Ch23] shows that the odd integers not of the form $2^k+p$
+are not a finite union of arithmetic progressions plus a set of density zero, so
+the answer is no. The site's Lean marker corresponds to the proof the
+formal-conjectures catalog links, Daniel Chin's Lean file. That file proves that
+no single infinite progression plus a progression-free remainder equals that set
 of odd integers, a statement that implies the negative answer. The claim page
-[[problems/additive_bases/E0016/claims/2023_12_07_chen|Chen's disproof]]
-records the acceptance evidence: the curator of erdosproblems.com, Thomas
-Bloom, with no refereed publication found; the corpus has not
-built or audited the Lean proof.
+[[problems/additive_bases/E0016/claims/2023_12_07_chen|Chen's disproof]] records
+the acceptance evidence: the curator of erdosproblems.com, Thomas Bloom, with no
+refereed publication found. The corpus has not built or audited the Lean proof.
 
 **Source.** [erdosproblems.com/16](https://www.erdosproblems.com/16), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #16,

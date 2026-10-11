@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0360/claims/1995_05_15_alon_erdos
 title: Alon and Erdős's bounds of order n to the one third
 desc: |
-  Alon and Erdős's 1996 Theorem 1.1, placing f(n) between n^{1/3}/(log n)^{4/3}
-  and n^{1/3}(log log n)^{1/3}/(log n)^{1/3} up to constants, so that
-  f(n) = n^{1/3+o(1)}; refereed, and recorded by the site.
+  Alon and Erdős's 1996 Theorem 1.1 places $f(n)$ between
+  $n^{1/3}/(\log n)^{4/3}$ and $n^{1/3}(\log\log n)^{1/3}/(\log n)^{1/3}$ up to
+  constants, so $f(n)=n^{1/3+o(1)}$. It is refereed, and the site records it.
 authors:
 - Noga Alon
 - Paul Erdős

@@ -4,15 +4,16 @@ desc: The 1 claim page of Problem 437, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T07:33:50Z
-updated: 2026-10-07T07:58:35Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/diophantine_problems/E0437/claims
 
 [[problems/diophantine_problems/E0437/_index|..]]
 
-[[problems/diophantine_problems/E0437/claims/2022_11_22_bui_pratt_zaharescu|2022_11_22_bui_pratt_zaharescu]]: Bui, Pratt and Zaharescu prove that many integers n have a very short run
-n+1, ..., n+t_n with a subproduct completing n to a square; Tao's greedy
-deduction from this gives more than x^(1-epsilon) square partial products.
+[[problems/diophantine_problems/E0437/claims/2022_11_22_bui_pratt_zaharescu|2022_11_22_bui_pratt_zaharescu]]: Bui, Pratt and Zaharescu prove that many integers $n$ have a very short run
+$n+1,\ldots,n+t_n$ with a subproduct that completes $n$ to a square. Tao's
+greedy deduction from this gives more than $x^{1-\epsilon}$ square partial
+products.
 
 ***

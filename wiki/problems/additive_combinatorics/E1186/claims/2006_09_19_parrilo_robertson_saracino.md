@@ -3,8 +3,8 @@ name: problems/additive_combinatorics/E1186/claims/2006_09_19_parrilo_robertson_
 title: Parrilo, Robertson and Saracino's bounds for delta_3
 desc: |
   Theorems 4 and 5 of Parrilo, Robertson and Saracino (J. Combin. Theory Ser. A
-  2008) bound delta_3 between 1675/32768 and 117/2192, refuting the guess
-  delta_3 = 1/16; refereed; the case k = 3 only.
+  2008, refereed) bound $\delta_3$ between $1675/32768$ and $117/2192$, refuting
+  the guess $\delta_3=1/16$. The result covers the case $k=3$ only.
 authors:
 - Pablo A. Parrilo
 - Aaron Robertson
@@ -55,8 +55,8 @@ is on
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Refereed publication: J. Combin. Theory Ser. A 115 (2008),
-no. 1, 185--192, doi:10.1016/j.jcta.2007.03.006; the arXiv version was posted
-19 September 2006, the date of this page. The site's commentary records both
+**Acceptance.** Refereed publication: J. Combin. Theory Ser. A 115 (2008), no.
+1, 185--192, doi:10.1016/j.jcta.2007.03.006. The arXiv version was posted 19
+September 2006, the date of this page. The site's commentary records both
 bounds, but the site labels the problem OPEN, so its commentary is not
 acceptance and no `reviewed` evidence is listed.

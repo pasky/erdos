@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0965/claims/2015_09_01_soukup_weiss
 title: Soukup and Weiss, a ZFC two-coloring of the reals with no uncountable set of monochromatic sums
 desc: |
-  Corollary 3.2 of the unpublished Soukup--Weiss manuscript: in ZFC some
-  two-coloring of the reals gives every uncountable set N-fold sums of both
-  colors for every N at least 2, so the answer is no. Not refereed.
+  Corollary 3.2 of the unpublished Soukup--Weiss manuscript shows in ZFC that
+  some two-coloring of the reals gives every uncountable set $N$-fold sums of
+  both colors for every $N\ge2$, so the answer is no. The manuscript is not
+  refereed.
 authors:
 - Dániel T. Soukup
 - William Weiss
@@ -52,18 +53,18 @@ independently; Komjáth's refereed paper is the accepted claim
 [[problems/ramsey_theory/E0965/claims/2016_01_01_komjath|Komjáth 2016]].
 
 **Acceptance.** Reviewed: the site's curator, Thomas Bloom, adopted the
-manuscript as one of two independent ZFC disproofs in the problem's
-commentary and relabeled the problem DISPROVED (page last edited 16 January
-2026, accessed 2026-09-18), after the thread's comment of 2 January 2026
-pointed to it; the formal-conjectures statement file for the problem cites
-it beside Komjáth's paper in its docstring, from a second copy on the first
-author's site (the github.io link above), which was not compared with the
-renyi.hu copy. Not refereed: the manuscript is unpublished, with no journal
-or arXiv record found on 2026-09-18 (Crossref bibliographic query, arXiv
-author and abstract queries, Semantic Scholar), and no independent review of
-it was found. The acceptance rests on the curator's adoption; Komjáth's
-refereed publication of the same theorem is the problem's other accepted
-claim, not evidence listed here.
+manuscript in the problem's commentary as one of two independent ZFC disproofs
+and relabeled the problem DISPROVED (page last edited 16 January 2026, accessed
+2026-09-18). This followed the thread's comment of 2 January 2026, which pointed
+to the manuscript. The formal-conjectures statement file for the problem cites
+it in its docstring beside Komjáth's paper. That file cites a second copy on the
+first author's site (the github.io link above), which was not compared with the
+renyi.hu copy. Not refereed: the manuscript is unpublished. No journal or arXiv
+record was found on 2026-09-18 (Crossref bibliographic query, arXiv author and
+abstract queries, Semantic Scholar), and no independent review of it was found.
+The acceptance rests on the curator's adoption. Komjáth's refereed publication
+of the same theorem is the problem's other accepted claim, not evidence listed
+here.
 
 **Postings.** The copy on the first author's github.io site (the second
 link) is the one the formal-conjectures docstring cites and the one that

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0610/claims/2026_04_21_przemek_chojecki
 title: The 2026 note and Lean derivation assembling the answer
 desc: |
-  A four-page note of 21 April 2026 and a Lean file posted on the site's thread
-  derive T(n) = n - Theta(sqrt(n log n)) from the Joret–Micek–Reed–Smid
-  corollary and Kim's theorem, both declared with sorry; unrefereed.
+  A four-page note of 21 April 2026 and a Lean file, posted on the site's thread
+  by the account Przemek Chojecki, derive $T(n)=n-\Theta(\sqrt{n\log n})$ from
+  the Joret–Micek–Reed–Smid corollary and Kim's theorem. Both inputs are
+  declared with sorry, and the work is unrefereed.
 authors:
 - Przemek Chojecki
 status: claimed

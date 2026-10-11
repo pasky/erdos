@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0412
 title: Problem 412
 desc: |
-  Asks whether, for all m and n at least two, the iterated sum-of-divisors
-  sequences starting at m and at n eventually share a value.
+  Asks whether, for all $m,n\ge2$, the iterated sum-of-divisors sequences
+  starting at $m$ and at $n$ eventually share a value; open.
 tags:
 - Number theory
 - Iterated functions

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1011/claims/2026_09_10_kentakitamura
 title: Lean determination of f_4(n) for every n
 desc: |
-  A forum comment of 10 September 2026 announcing a Lean 4 development said
-  to determine f_4(n) for every n, extending the preprint's range; read as
-  text only, unreviewed and not accepted by the site.
+  Kenta Kitamura's forum comment of 10 September 2026 announces a Lean 4
+  development said to determine $f_4(n)$ for every $n$, extending the preprint's
+  range. It was read as text only, is unreviewed and is not accepted by the
+  site.
 authors:
 - Kenta Kitamura
 status: claimed

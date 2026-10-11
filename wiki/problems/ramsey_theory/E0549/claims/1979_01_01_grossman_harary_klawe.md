@@ -3,8 +3,8 @@ name: problems/ramsey_theory/E0549/claims/1979_01_01_grossman_harary_klawe
 title: Grossman, Harary and Klawe, the double star with classes k and 2k has Ramsey number at least 4k
 desc: |
   Theorem 2.1 of Grossman, Harary and Klawe (Discrete Math. 1979) gives the
-  double star S(2k-1,k-1), with classes k and 2k, Ramsey number at least 4k
-  for every k >= 4, so the equality 4k minus 1 fails; refereed.
+  double star $S(2k-1,k-1)$, with classes $k$ and $2k$, Ramsey number at least
+  $4k$ for every $k\ge4$, so the equality $R(T)=4k-1$ fails. It is refereed.
 authors:
 - J. W. Grossman
 - F. Harary
@@ -60,11 +60,11 @@ paper's own, with the Ramsey numbers of stars (Chvátal and Harary) quoted in
 Lemma 2.3.
 
 **Acceptance.** Refereed: the paper is a journal publication in Discrete
-Mathematics, volume 28, number 3 (1979), received 8 May 1978 and revised 22
-May 1979, the `refereed` evidence; the issue carries no month in its
-record, so this page is dated to the first day of the year. The site's
-curator credits the disproof to Norin, Sun and Zhao, not to this paper, so
-`reviewed` is not listed. The same paper conjectures (p. 254) that
-$r(S(2k-1,k-1))=4k$ for $k\ge4$, which the asymptotic bound of
+Mathematics, volume 28, number 3 (1979). It was received on 8 May 1978 and
+revised on 22 May 1979. This is the `refereed` evidence. The issue carries no
+month in its record, so this page is dated to the first day of the year. The
+site's curator credits the disproof to Norin, Sun and Zhao, not to this paper,
+so `reviewed` is not listed. The same paper conjectures (p. 254) that
+$r(S(2k-1,k-1))=4k$ for $k\ge4$. The asymptotic bound of
 [[problems/ramsey_theory/E0549/claims/2016_05_11_norin_sun_zhao|Norin, Sun and Zhao 2016]]
-refutes for large $k$.
+refutes this conjecture for large $k$.

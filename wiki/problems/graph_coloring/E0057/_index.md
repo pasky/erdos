@@ -2,8 +2,8 @@
 name: problems/graph_coloring/E0057
 title: Problem 57
 desc: |
-  Asks whether the reciprocals of the odd cycle lengths of a graph with
-  infinite chromatic number must always sum to infinity.
+  Asks whether the reciprocals of the odd cycle lengths of a graph with infinite
+  chromatic number must sum to infinity; proved.
 tags:
 - Graph theory
 - Chromatic number
@@ -30,10 +30,10 @@ $\sum \frac{1}{a_i}=\infty$.
 length is counted once. Infinite chromatic number means that $G$ is not
 colorable with any finite number of colors.
 
-**Status.** The site labels the problem PROVED (LEAN), crediting the
-solution to Liu and Montgomery; the Lean behind the qualifier is described
-below. The accepted claim is
+**Status.** The site labels the problem PROVED (LEAN) and credits the solution
+to Liu and Montgomery. The accepted claim is
 [[problems/graph_coloring/E0057/claims/2020_10_29_liu_montgomery|Liu and Montgomery's odd interval theorem]].
+The Lean behind the qualifier is described below.
 
 **Source.** T. F. Bloom, Erdős Problem #57,
 [erdosproblems.com/57](https://www.erdosproblems.com/57), accessed 2026-09-05.

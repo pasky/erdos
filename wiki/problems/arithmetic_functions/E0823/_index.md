@@ -2,8 +2,9 @@
 name: problems/arithmetic_functions/E0823
 title: Problem 823
 desc: |
-  Asks whether, for every real number at least one, there are pairs of
-  integers with equal sums of divisors whose ratio tends to that number.
+  Asks whether, for every real $\alpha\ge1$, there are pairs $n_k,m_k$ with
+  $\sigma(n_k)=\sigma(m_k)$ and $n_k/m_k\to\alpha$, where $\sigma$ is the sum of
+  divisors; proved.
 tags:
 - Number theory
 status: solved

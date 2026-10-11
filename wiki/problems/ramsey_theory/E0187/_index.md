@@ -2,10 +2,10 @@
 name: problems/ramsey_theory/E0187
 title: Problem 187
 desc: |
-  The best length, in the common difference d, of a monochromatic progression
-  of difference d forced for infinitely many d in every two-coloring of the
-  integers; at most (1 + o(1)) log_2 d by Beck 1980, with no usable lower bound
-  known.
+  Asks for the best $f(d)$ such that every $2$-coloring of the integers has, for
+  infinitely many $d$, a monochromatic arithmetic progression of difference $d$
+  and length $f(d)$; open. Beck (1980) gives $f(d)\le(1+o(1))\log_2 d$, and no
+  usable lower bound is known.
 tags:
 - Additive combinatorics
 - Ramsey theory
@@ -59,26 +59,27 @@ the "for infinitely many values of $d$" quantifier, adds that the 1973 statement
 on p. 121 "is stated incorrectly", and gives no reference for Cohen).
 
 **Status.** Open: the site labels the problem OPEN (page last edited 4 April
-2026). The only results on the exact question are upper bounds; the best is
-Beck's theorem (J. Combin. Theory Ser. A 29 (1980), 376--379, refereed), which
-gives, for every $\varepsilon>0$, a 2-coloring under which
+2026). The only results on the exact question are upper bounds. The best is
+Beck's theorem (J. Combin. Theory Ser. A 29 (1980), 376--379, refereed). For
+every $\varepsilon>0$ it gives a 2-coloring under which
 $F(d)\le(1+\varepsilon)\log_2d$ for all large $d$, so the best $f$ satisfies
-$f(d)\le(1+o(1))\log_2d$; it is an accepted partial claim on
+$f(d)\le(1+o(1))\log_2d$. It is an accepted partial claim on
 [[problems/ramsey_theory/E0187/claims/1980_11_01_beck|Beck's claim page]].
 Erdős's earlier bound $f(d)<cd$ (1973) is a pending partial claim on
 [[problems/ramsey_theory/E0187/claims/1973_01_01_erdos|his claim page]],
-superseded by Beck's. In the other direction only the growth that van der
-Waerden's theorem gives is known: Erdős's "Van der Waerden's theorem certainly
-implies that $f(d)\to\infty$" (1973), which a diagonal choice of the multiple
-turns into the qualifying $f(d)=\max\{L:W(L)^2\le d\}$, $W(L)$ the two-color
-van der Waerden number (under What is known), a function tending to infinity
-only as slowly as the inverse of the van der Waerden numbers; and "no lower
-bound for $l(d)$ is in sight" (1980), "we currently have no usable lower bound
-for $h(d)$" (1979, 1980). No source proving a lower bound of usable size, or
-improving Beck's upper bound, was found in the search
-whose scope the Current assessment records; this is a bounded negative
-finding, not a certificate of openness. The sources disagree on the strength
-of the unpublished Petruska–Szemerédi result, recorded below and not resolved.
+superseded by Beck's. In the other direction, only the growth that van der
+Waerden's theorem gives is known. Erdős wrote that "Van der Waerden's theorem
+certainly implies that $f(d)\to\infty$" (1973). A diagonal choice of the
+multiple turns this into the qualifying $f(d)=\max\{L:W(L)^2\le d\}$, where
+$W(L)$ is the two-color van der Waerden number (under What is known). This
+function tends to infinity only as slowly as the inverse of the van der Waerden
+numbers. Other quoted remarks say "no lower bound for $l(d)$ is in sight" (1980)
+and "we currently have no usable lower bound for $h(d)$" (1979, 1980). The
+search whose scope the Current assessment records found no source proving a
+lower bound of usable size, or improving Beck's upper bound. This is a bounded
+negative finding, not a certificate of openness. The sources disagree on the
+strength of the unpublished Petruska–Szemerédi result, which is recorded below
+and not resolved.
 
 **Source.** [erdosproblems.com/187](https://www.erdosproblems.com/187),
 accessed 2026-09-18: the problem page (labeled OPEN, with the site's note

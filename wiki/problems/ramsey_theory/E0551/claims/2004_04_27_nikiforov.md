@@ -3,8 +3,8 @@ name: problems/ramsey_theory/E0551/claims/2004_04_27_nikiforov
 title: "Nikiforov: the identity for cycles of length at least 4n+2"
 desc: |
   Theorem 1 of Nikiforov's preprint arXiv:math/0404501v1 (journal version
-  Combin. Probab. Comput. 14 (2005)): R(C_k,K_n) = (k-1)(n-1)+1 whenever
-  n >= 4 and k >= 4n+2, a linear threshold; refereed.
+  Combin. Probab. Comput. 14 (2005)) gives $R(C_k,K_n)=(k-1)(n-1)+1$ whenever
+  $n\ge4$ and $k\ge4n+2$, a linear threshold. It is refereed.
 authors:
 - V. Nikiforov
 status: accepted
@@ -69,12 +69,11 @@ Schiermeyer) that start its induction (preprint p. 5), and, in the proof
 of Lemma 5 (p. 12), a theorem of Dirac and Corollary 2.13 of Bondy's
 handbook chapter.
 
-**Acceptance.** Refereed: the paper is a journal publication in
-Combinatorics, Probability and Computing, volume 14, issue 3 (2005),
-published 11 April 2005, the `refereed` evidence. The site's curator,
-Thomas Bloom, credits the range to this paper in the problem page's
-commentary, but the site's label DECIDABLE settles neither the problem nor
-a declared part of it, so that credit is not `reviewed` evidence. The
-statement is checked against the arXiv preprint; the journal text, which
-is paywalled, is not compared, the proof is not checked, and nothing is
-independently reviewed by this corpus.
+**Acceptance.** Refereed: the paper is a journal publication in Combinatorics,
+Probability and Computing, volume 14, issue 3 (2005), published 11 April 2005.
+This is the `refereed` evidence. The site's curator, Thomas Bloom, credits the
+range to this paper in the problem page's commentary. But the site's label
+DECIDABLE settles neither the problem nor a declared part of it, so that credit
+is not `reviewed` evidence. The statement is checked against the arXiv preprint.
+The journal text is paywalled and is not compared. The proof is not checked, and
+nothing is independently reviewed by this corpus.

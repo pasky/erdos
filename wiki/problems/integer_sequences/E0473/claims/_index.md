@@ -4,15 +4,15 @@ desc: The 1 claim page of Problem 473, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-07T07:23:56Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/integer_sequences/E0473/claims
 
 [[problems/integer_sequences/E0473/_index|..]]
 
-[[problems/integer_sequences/E0473/claims/1980_01_01_odlyzko|1980_01_01_odlyzko]]: An unpublished construction of a permutation of the positive integers whose
-consecutive sums are all prime, reported as settling Segal's question by
-Erdős and Graham in 1980 and accepted by the site.
+[[problems/integer_sequences/E0473/claims/1980_01_01_odlyzko|1980_01_01_odlyzko]]: Odlyzko gave an unpublished construction of a permutation of the positive
+integers whose consecutive sums are all prime. Erdős and Graham reported it in
+1980 as settling Segal's question, and the site accepts it.
 
 ***

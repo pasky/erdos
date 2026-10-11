@@ -2,8 +2,9 @@
 name: problems/covering_systems/E1188
 title: Problem 1188
 desc: |
-  Concerns covering systems with distinct moduli that are minimal, in that no
-  proper subsystem still covers every integer.
+  Asks for an estimate of the number $F(x)$ of minimal covering systems with
+  distinct moduli in $[1,x]$, where minimal means no proper subsystem still
+  covers every integer. A full answer is claimed and pending.
 tags:
 - Number theory
 - Covering systems
@@ -41,21 +42,22 @@ question about $F(x)$, whose commentary says that Erdős asked it without the
 minimality assumption. The standing below concerns the site's $F(x)$.
 
 **Status.** Open. The site labels the problem OPEN (page last edited 17 April
-2026, as of 2026-10-06). Its commentary records that $F(x)\to\infty$, with the
-elementary bound $F(x)\gg\log x$ from van Doorn's comment, the lower bound
+2026, as of 2026-10-06). The standing is claimed through a pending full claim,
+described below. The site's commentary records that $F(x)\to\infty$. It gives
+the elementary bound $F(x)\gg\log x$ from van Doorn's comment, the lower bound
 $F(x)\ge\exp((\log x)^{3-o(1)})$ from the construction of Balister, Bollobás,
 Morris, Sahasrabudhe and Tiba, and the trivial upper bound
-$F(x)\le\exp(O(x\log x))$; the lower bound is an accepted partial claim on
+$F(x)\le\exp(O(x\log x))$. The lower bound is an accepted partial claim on
 [[problems/covering_systems/E1188/claims/2019_04_09_balister_bollobas_morris_sahasrabudhe_tiba|its claim page]].
+
 The proof-claims tab carries one full claim, recorded without adoption on
-[[problems/covering_systems/E1188/claims/2026_07_12_snyder|Snyder's claim page]]:
-$\log\log F(x)/\log x\to1$, that is $F(x)=\exp(x^{1+o(1)})$, placing
-$F$ near the trivial upper bound, with a Lean 4 proof in a downloadable bundle
-produced by the Star Fleet Math system running GPT 5.6 in a custom harness
-(accepted in Star Fleet Math's listing on 2026-07-12 and submitted to the site
-on 2026-07-15 by Colin Snyder). The standing is claimed through that pending
-full claim; this corpus has not built the Lean bundle, and no outside review
-is recorded.
+[[problems/covering_systems/E1188/claims/2026_07_12_snyder|Snyder's claim page]].
+It asserts that $\log\log F(x)/\log x\to1$, that is $F(x)=\exp(x^{1+o(1)})$,
+which places $F$ near the trivial upper bound. It comes with a Lean 4 proof in a
+downloadable bundle, produced by the Star Fleet Math system running GPT 5.6 in a
+custom harness. The claim was accepted in Star Fleet Math's listing on
+2026-07-12 and submitted to the site on 2026-07-15 by Colin Snyder. This corpus
+has not built the Lean bundle, and no outside review is recorded.
 
 **Source.** [erdosproblems.com/1188](https://www.erdosproblems.com/1188)
 with its discussion thread (as of 2026-10-06: six comments in the discussion

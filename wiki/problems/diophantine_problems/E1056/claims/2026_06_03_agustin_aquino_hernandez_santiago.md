@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E1056/claims/2026_06_03_agustin_aquino_hernandez_santiago
 title: Infinitely many primes with a tetrad of factorials equal to one
 desc: |
-  Agustín-Aquino and Hernández Santiago prove that infinitely many primes p
-  have four distinct n with n! ≡ 1 (mod p), which gives the case k = 3 for
-  infinitely many primes; with a Lean formalization.
+  Agustín-Aquino and Hernández Santiago prove that infinitely many primes $p$
+  have four distinct $n$ with $n!\equiv1\pmod p$, which gives the case $k=3$ for
+  infinitely many primes. The proof comes with a Lean formalization.
 authors:
 - Octavio A. Agustín-Aquino
 - José Hernández Santiago

@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E1018/claims/1988_03_01_kostochka_pyber
 title: Kostochka and Pyber's bounded subdivided complete graph
 desc: |
-  Kostochka and Pyber (Combinatorica 1988) prove that a graph with n vertices
-  and at least 4 to the t squared times n to the 1 + epsilon edges contains a
-  subdivided K_t on at most 7 t squared log t over epsilon vertices.
+  Kostochka and Pyber (Combinatorica 1988) prove that a graph with $n$ vertices
+  and at least $4^{t^2}n^{1+\varepsilon}$ edges contains a subdivided $K_t$ on
+  at most $7t^2\log t/\varepsilon$ vertices.
 authors:
 - A. Kostochka
 - L. Pyber
@@ -81,26 +81,28 @@ second-hand on this page and not part of this claim.
 **Depends on.** Nothing in this wiki; the paper's own statement and the
 conversion above are the whole argument.
 
-**Acceptance.** Refereed publication in Combinatorica (Crossref record:
-volume 8, issue 1, pp. 83--86, issued March 1988), which is the
-`refereed` evidence. The `reviewed` evidence is documented acceptance by a
-named expert and by the site's curator: Janzer, *The extremal number of
-longer subdivisions*, Bull. London Math. Soc. 53 (2021), 108--118
-(refereed; its arXiv copy filed on its
+**Acceptance.** The `refereed` evidence is the publication in Combinatorica
+(Crossref record: volume 8, issue 1, pp. 83--86, issued March 1988).
+
+The `reviewed` evidence is documented acceptance by a named expert and by the
+site's curator. Janzer, *The extremal number of longer subdivisions*, Bull.
+London Math. Soc. 53 (2021), 108--118 (refereed; its arXiv copy filed on its
 [[../library/extremal_graph_theory/janzer_2021_extremal_number_longer_subdivisions/_index|card]]),
-opens by crediting Kostochka and Pyber with answering Erdős's question on
-planar subgraphs through this theorem, stated with the same constants, and calls
-it the first result giving a subdivided $K_t$ of bounded size; and the site's
-curator, Thomas Bloom, who took no part in the paper, labels the problem SOLVED
-and credits the paper with a bounded subdivision of $K_5$, the community
-database agreeing (solved as of its last update of 12 December 2025, and on
-2026-10-07 solved (Lean), with a last update of 16 September 2026, through the
-second formalization below). The thread's first pointer (13 September 2025) was
-to Janzer's paper, from which the curator traced the earlier solution. Read
-depth: the Theorem, the abstract, Erdős's question as the paper states it and
-the Notation (p. 83) are checked clause by clause; the lemmas (p. 84) and the
-proof (p. 85) are read for structure only, with a sign misprint in the printed
-exponents of Lemma 1.1 recorded on the card and not resolved; nothing is
+opens by crediting Kostochka and Pyber with answering Erdős's question on planar
+subgraphs through this theorem, stated with the same constants. Janzer calls it
+the first result giving a subdivided $K_t$ of bounded size. The site's curator,
+Thomas Bloom, who took no part in the paper, labels the problem SOLVED and
+credits the paper with a bounded subdivision of $K_5$. The community database
+agrees. It listed the problem as solved as of its last update of 12 December
+2025, and on 2026-10-07 it listed it as solved (Lean), with a last update of 16
+September 2026, through the second formalization below. The thread's first
+pointer (13 September 2025) was to Janzer's paper, and the curator traced the
+earlier solution from it.
+
+Read depth: the Theorem, the abstract, Erdős's question as the paper states it
+and the Notation (p. 83) are checked clause by clause. The lemmas (p. 84) and
+the proof (p. 85) are read for structure only. A sign misprint in the printed
+exponents of Lemma 1.1 is recorded on the card and not resolved. Nothing is
 independently reviewed.
 
 **Formalizations.** Two Lean developments declare themselves formalizations

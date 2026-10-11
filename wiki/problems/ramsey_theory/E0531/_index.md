@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0531
 title: Problem 531
 desc: |
-  Estimates the least N such that every two-coloring of the integers up to N
-  contains a set of k numbers all of whose non-empty subset sums have the same
-  color.
+  Asks for an estimate of the least $N=F(k)$ such that every two-coloring of
+  $\{1,\ldots,N\}$ has a $k$-element set whose non-empty subset sums all have
+  the same color; open.
 tags:
 - Number theory
 - Ramsey theory
@@ -34,15 +34,13 @@ Folkman number $F(k,r)$. The existence of $F(k)$ is Folkman's theorem, proved
 independently by Folkman, Rado and Sanders; Erdős's 1973 survey calls the
 function $g(n)$. The problem asks for its order of growth.
 
-**Status.** The site labels the problem OPEN. The bounds located in the
-search,
-whose scope the Current assessment records, are the doubly exponential lower
-bound $F(k)\ge2^{2^{k-1}/k}$ of Balogh, Eberhard, Narayanan, Treglown and
-Wagner (2017, refereed), which replaced Erdős and Spencer's
-$F(k)>2^{ck^2/\lg k}$ (1989), and Taylor's tower-type upper bound (1981,
-Corollary 3.4), $F(k)$ at most a
-tower of threes of height $4k-3$. No source narrows the gap between them.
-This is a bounded negative finding, not a certificate of openness.
+**Status.** The site labels the problem OPEN. The search whose scope the Current
+assessment records located two bounds. The lower bound is the doubly exponential
+$F(k)\ge2^{2^{k-1}/k}$ of Balogh, Eberhard, Narayanan, Treglown and Wagner
+(2017, refereed), which replaced Erdős and Spencer's $F(k)>2^{ck^2/\lg k}$
+(1989). The upper bound is Taylor's tower-type bound (1981, Corollary 3.4):
+$F(k)$ is at most a tower of threes of height $4k-3$. No source narrows the gap
+between them. This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/531](https://www.erdosproblems.com/531),
 accessed 2026-09-17: the problem page (labeled

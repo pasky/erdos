@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0502/claims/2019_12_17_petrov_pohoata
 title: Petrov and Pohoata's short proof of the two-distance bound
 desc: |
-  A new proof, through the inertia of a polynomial matrix, that an
-  $s$-distance set in $\mathbb R^n$ has at most $\binom{n+s}{s}$ points, so a
-  two-distance set has at most $\binom{n+2}{2}$.
+  Petrov and Pohoata give a new proof, through the inertia of a polynomial
+  matrix, that an $s$-distance set in $\mathbb R^n$ has at most $\binom{n+s}{s}$
+  points. So a two-distance set has at most $\binom{n+2}{2}$ points.
 authors:
 - Fedor Petrov
 - Cosmin Pohoata
@@ -74,9 +74,9 @@ paper. It declares the upper bound only, not the exact maximum. This corpus
 has not built or audited that development, so it is a link on this page
 and not evidence of acceptance.
 
-**Acceptance.** The paper is refereed: F. Petrov and C. Pohoata, A remark
-on sets with few distances in $\mathbb R^d$, Proceedings of the American
-Mathematical Society 149 (2021), no. 2, 569–571, published online
-2020-11-25; the preprint is arXiv:1912.08181, posted 2019-12-17. The
-curator of erdosproblems.com, Thomas Bloom, marks the problem solved and
-credits this paper with the simple proof of the upper bound.
+**Acceptance.** The paper is refereed: F. Petrov and C. Pohoata, A remark on
+sets with few distances in $\mathbb R^d$, Proceedings of the American
+Mathematical Society 149 (2021), no. 2, 569–571, published online 2020-11-25.
+The preprint is arXiv:1912.08181, posted 2019-12-17. The curator of
+erdosproblems.com, Thomas Bloom, marks the problem solved and credits this paper
+with the simple proof of the upper bound.

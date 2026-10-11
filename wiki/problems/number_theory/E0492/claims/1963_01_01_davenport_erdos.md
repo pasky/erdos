@@ -2,9 +2,10 @@
 name: problems/number_theory/E0492/claims/1963_01_01_davenport_erdos
 title: Davenport and Erdős's sparse-sequence theorem
 desc: |
-  The 1963 theorem that the multiples of almost every real are uniformly
-  distributed relative to a sequence with at most N^(2 - delta) terms below N;
-  a partial positive case, containing every set of integers; refereed.
+  The 1963 theorem of Davenport and Erdős: the multiples of almost every real
+  are uniformly distributed relative to a sequence with at most $N^{2-\delta}$
+  terms below $N$. This refereed result settles a partial positive case, which
+  contains every set of integers.
 authors:
 - H. Davenport
 - P. Erdős
@@ -63,14 +64,14 @@ every $\delta>0$ its number of terms below $N$ is not $O(N^{2-\delta})$
 (an authored deduction).
 
 **Acceptance.** Refereed: H. Davenport and P. Erdős, *A theorem on uniform
-distribution*, Magyar Tud. Akad. Mat. Kutató Int. Közl. 8 (1963), 3--11.
-The publication record carries no finer date than the year, so the page is
-named by its first day. The site's curator credits the paper, in the
-problem's commentary, with the case $a_n\gg n^{1/2+\epsilon}$, but the
-site's label DISPROVED rests on Schmidt's theorem, so the credit is not an
-acceptance of this case and no `reviewed` evidence is listed. Schmidt's
-1969 introduction also attests the theorem, and no source read disputes it.
-The proof (pp. 5--10) is not independently reviewed here.
+distribution*, Magyar Tud. Akad. Mat. Kutató Int. Közl. 8 (1963), 3--11. The
+publication record carries no finer date than the year, so the page is named by
+its first day. In the problem's commentary, the site's curator credits the paper
+with the case $a_n\gg n^{1/2+\epsilon}$. But the site's label DISPROVED rests on
+Schmidt's theorem, so the credit is not an acceptance of this case, and no
+`reviewed` evidence is listed. Schmidt's 1969 introduction also attests the
+theorem, and no source read disputes it. The proof (pp. 5--10) is not
+independently reviewed here.
 
 **Depends on.** Nothing on the wiki; the result rests on the refereed paper
 linked above.

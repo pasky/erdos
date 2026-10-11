@@ -3,7 +3,7 @@ name: problems/integer_sequences/E1101
 title: Problem 1101
 desc: |
   Asks whether a good sequence of pairwise coprime integers with convergent
-  reciprocal sum can grow only polynomially, or at most subexponentially.
+  reciprocal sum can have $u_n<n^{O(1)}$, or at least $u_n\le e^{o(n)}$; open.
 tags:
 - Number theory
 status: open
@@ -40,14 +40,13 @@ $$
 Is there a good sequence such that $u_n< n^{O(1)}$? Is there a good sequence
 such that $u_n\leq e^{o(n)}$?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 19
-October 2025). Its two questions are the problem's two parts; Erdős expected
-the first to have a negative answer and the second a positive one. The second,
-whether some good sequence has $u_n\leq e^{o(n)}$, has one pending partial
-claim,
+**Status.** Open. The site labels the problem OPEN (page last edited 19 October
+2025). Its two questions are the problem's two parts. Erdős expected the first
+to have a negative answer and the second a positive one. The second asks whether
+some good sequence has $u_n\leq e^{o(n)}$. It has one pending partial claim,
 [[problems/integer_sequences/E1101/claims/2026_04_27_li|Li's subexponential good sequence of 2026]],
-which constructs a good sequence of primes with $u_n=\exp((1+o(1))\sqrt n)$.
-The first, whether some good sequence has $u_n<n^{O(1)}$, has no claim.
+which constructs a good sequence of primes with $u_n=\exp((1+o(1))\sqrt n)$. The
+first asks whether some good sequence has $u_n<n^{O(1)}$. It has no claim.
 
 **Source.** [erdosproblems.com/1101](https://www.erdosproblems.com/1101),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1101,

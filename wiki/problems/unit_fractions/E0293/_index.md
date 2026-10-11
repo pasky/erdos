@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0293
 title: Problem 293
 desc: |
-  Estimates the growth of the least integer above one that never appears as
-  a denominator in any representation of one as a sum of k distinct unit
-  fractions.
+  Asks for the growth of $v(k)$, the least integer greater than $1$ that is not
+  a denominator in any representation of $1$ as a sum of $k$ distinct unit
+  fractions; open.
 tags:
 - Number theory
 - Unit fractions
@@ -65,26 +65,26 @@ $v(k)=\min\{m>1:m\notin D_k\}$. Van Doorn and Tang's Lemma 2.1 records
 $D_2=\emptyset$ and $D_3=\{2,3,6\}$, and $D_1=\{1\}$, so $v(1)=v(2)=2$ and
 $v(3)=4$.
 
-**Status.** Open on the site: the label is OPEN, which the commentary
-attaches to the corrected Statement (page last edited 29 December 2025; no
-proof claim on its tab; read 2026-10-07), and the standing derived from the
-claim pages is open, since every claim is partial. The growth of $v(k)$ is
-fixed at the double-logarithmic scale and not beyond: for all large $k$,
-$e^{e^{k/600}}\le v(k)$ and $\log\log v(k)=\Theta(k)$ with
-$\liminf\log\log v(k)/k\ge\log2/257$ and $\limsup\le\log2$, by Corollary 1.3
-of the OpenAI mathematics release's manuscript of 25 September 2026, accepted
-as a partial claim on `formalized` evidence
-([[problems/unit_fractions/E0293/claims/2026_09_25_openai|its claim page]]).
-The best upper bound remains $v(k)\le c_0^{(2/5+o(1))2^k}$ with
-$c_0=1.26408\ldots$ the Vardi constant, from van Doorn and Tang's inequality
-(1.2) and the Elsholtz–Planitzer count (the paper prints $(1/5+o(1))2^k$;
-see the Upper bound below); whether the slope tends to $\log2$ and any
-asymptotic for $v(k)$ are open. Before the release
-the best lower bound was $v(k)\ge e^{ck^2}$ (van Doorn and Tang, Theorem 1.1,
-for every $k\ge1$), accepted as a refereed partial claim
-([[problems/unit_fractions/E0293/claims/2025_12_26_van_doorn_tang|its claim page]]);
-a claimed intermediate bound, doubly exponential in $\sqrt k$, has its own
-page
+**Status.** Open on the site: the label is OPEN, and the commentary attaches it
+to the corrected Statement. The page was last edited 29 December 2025 and read
+2026-10-07, and there is no proof claim on its tab. The standing derived from
+the claim pages is open, since every claim is partial.
+
+The growth of $v(k)$ is fixed at the double-logarithmic scale and not beyond.
+For all large $k$, $e^{e^{k/600}}\le v(k)$ and $\log\log v(k)=\Theta(k)$, with
+$\liminf\log\log v(k)/k\ge\log2/257$ and $\limsup\le\log2$. This is Corollary
+1.3 of the OpenAI mathematics release's manuscript of 25 September 2026,
+accepted as a partial claim on `formalized` evidence
+([[problems/unit_fractions/E0293/claims/2026_09_25_openai|its claim page]]). The
+best upper bound remains $v(k)\le c_0^{(2/5+o(1))2^k}$, where
+$c_0=1.26408\ldots$ is the Vardi constant. It comes from van Doorn and Tang's
+inequality (1.2) and the Elsholtz–Planitzer count. The paper prints
+$(1/5+o(1))2^k$ (see the Upper bound below). Whether the slope tends to $\log2$,
+and any asymptotic for $v(k)$, are open. Before the release the best lower bound
+was $v(k)\ge e^{ck^2}$ (van Doorn and Tang, Theorem 1.1, for every $k\ge1$),
+accepted as a refereed partial claim
+([[problems/unit_fractions/E0293/claims/2025_12_26_van_doorn_tang|its claim page]]).
+A claimed intermediate bound, doubly exponential in $\sqrt k$, has its own page
 ([[problems/unit_fractions/E0293/claims/2026_09_16_van_doorn|van Doorn and GPT-6 Astra Pro, 16 September 2026]]).
 
 **Source.** [erdosproblems.com/293](https://www.erdosproblems.com/293),

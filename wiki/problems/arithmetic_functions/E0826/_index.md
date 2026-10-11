@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0826
 title: Problem 826
 desc: |
-  Asks whether there are infinitely many n for which the number of divisors of
-  n plus k is at most a constant times k for every k at least one.
+  Asks whether infinitely many $n$ have $\tau(n+k)\ll k$ for every $k\ge1$,
+  where $\tau$ is the number of divisors; open.
 tags:
 - Number theory
 status: open

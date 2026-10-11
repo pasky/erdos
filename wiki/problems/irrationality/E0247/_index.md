@@ -2,8 +2,8 @@
 name: problems/irrationality/E0247
 title: Problem 247
 desc: |
-  Asks whether the sum of two to the power minus a-n is transcendental
-  whenever the increasing integer sequence a-n has unbounded ratio to n.
+  Asks whether $\sum_n 2^{-a_n}$ is transcendental for every increasing integer
+  sequence $a_n$ with $\limsup a_n/n=\infty$; open.
 tags:
 - Number theory
 - Irrationality

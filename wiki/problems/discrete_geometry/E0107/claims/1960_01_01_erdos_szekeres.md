@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0107/claims/1960_01_01_erdos_szekeres
 title: The Erdős–Szekeres construction of 2^(n-2) points with no convex n-gon
 desc: |
-  Erdős and Szekeres (1960/61) construct, for every n, a set of 2^(n-2) points
-  in the plane with no three collinear and no n in convex position, so
-  f(n) is at least 2^(n-2) + 1, the lower half of the conjecture; refereed.
+  In a refereed paper, Erdős and Szekeres (1960/61) construct, for every $n$, a
+  set of $2^{n-2}$ points in the plane with no three collinear and no $n$ in
+  convex position. So $f(n)\ge2^{n-2}+1$, the lower half of the conjecture.
 authors:
 - P. Erdős
 - G. Szekeres
@@ -53,9 +53,9 @@ at $n=5$ by the result the site credits to Makai and Turán, and at $n=6$ by
 **Depends on.** Nothing in this wiki; the construction is self-contained.
 
 **Acceptance.** Refereed: the paper appeared in the Annales Universitatis
-Scientiarum Budapestinensis de Rolando Eötvös Nominatae, Sectio Mathematica,
-a journal. The site's commentary credits the lower bound to this paper, but
-the site labels the problem FALSIFIABLE, which settles nothing, so that credit
+Scientiarum Budapestinensis de Rolando Eötvös Nominatae, Sectio Mathematica, a
+journal. The site's commentary credits the lower bound to this paper. The site
+labels the problem FALSIFIABLE, however, which settles nothing, so that credit
 is not listed as `reviewed`.
 
 **Dating.** The journal volume carries the years 1960/61 and no month; the

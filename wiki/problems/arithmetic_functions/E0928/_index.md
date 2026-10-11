@@ -2,10 +2,10 @@
 name: problems/arithmetic_functions/E0928
 title: Problem 928
 desc: |
-  Asks whether the density exists of integers n whose largest prime factor is
-  below n to the alpha while that of n plus 1 is below n plus 1 to the beta;
-  the OpenAI release of September 2026 shows it is a Dickman product, accepted
-  on its built Lean proof.
+  Asks whether the integers $n$ with $P(n)<n^{\alpha}$ and
+  $P(n+1)<(n+1)^{\beta}$ have a density, where $P$ is the largest prime factor.
+  The OpenAI release of September 2026 shows the density is a Dickman product;
+  this is accepted because its Lean proof was built.
 tags:
 - Number theory
 status: solved
@@ -33,27 +33,28 @@ $\pi(X^{\alpha})+\pi((X+1)^{\beta})$ integers, so a density statement for
 either set holds for the other; the claim page below states the bridge, which
 is elementary and not in Lean.
 
-**Status.** Proved here; the site labels the problem OPEN (page last edited 3
+**Status.** Proved here. The site labels the problem OPEN (page last edited 3
 April 2026). The OpenAI release of September 2026 claims that the density exists
-and equals $\rho(1/\alpha)\rho(1/\beta)$, with $\rho$ Dickman's function, the
-independence Erdős asked for, and proves the theorem in Lean. This corpus built
-that Lean with only the three standard axioms, its fingerprint identical to the
-release's comparator challenge, and the statement audit found it exact, with the
-elementary bridge to the Statement's strict inequalities stated on the claim
-page, so the claim is accepted on
-[[problems/arithmetic_functions/E0928/claims/2026_09_24_openai|OpenAI 2026]] and
-the problem stands solved; no outside review is known. Wang [Wa21] proved the
-density under the Elliott–Halberstam conjecture for friable integers, an
-accepted conditional claim,
-[[problems/arithmetic_functions/E0928/claims/2021_01_20_wang|Wang 2021]], which
+and equals $\rho(1/\alpha)\rho(1/\beta)$, where $\rho$ is Dickman's function.
+This is the independence Erdős asked for. The release proves the theorem in
+Lean. This corpus built that Lean with only the three standard axioms, and its
+fingerprint is identical to the release's comparator challenge. The statement
+audit found it exact, and the elementary bridge to the Statement's strict
+inequalities is stated on the claim page. So the claim is accepted on
+[[problems/arithmetic_functions/E0928/claims/2026_09_24_openai|OpenAI 2026]],
+and the problem stands solved. No outside review is known.
+
+Wang [Wa21] proved the density under the Elliott–Halberstam conjecture for
+friable integers. This is an accepted conditional claim,
+[[problems/arithmetic_functions/E0928/claims/2021_01_20_wang|Wang 2021]], and it
 settles no standing. Teräväinen [Te18] proved the product law in logarithmic
-density, and Tao and Teräväinen (Algebra Number Theory 13 (2019), Remark 3.3)
-proved it for ordinary averages outside an exceptional set of scales of
-logarithmic density zero; neither settles an instance of the natural-density
+density. Tao and Teräväinen (Algebra Number Theory 13 (2019), Remark 3.3) proved
+it for ordinary averages outside an exceptional set of scales of logarithmic
+density zero. Neither result settles an instance of the natural-density
 question, so neither has a claim page. The site's commentary also records
-Erdős's further question whether infinitely many such $n$ exist, which Meza
-observed follows from Schinzel's theorem [Sc67b] that
-$P(n(n+1))\le n^{O(1/\log\log n)}$ for infinitely many $n$; that answers a side
+Erdős's further question whether infinitely many such $n$ exist. Meza observed
+that this follows from Schinzel's theorem [Sc67b] that
+$P(n(n+1))\le n^{O(1/\log\log n)}$ for infinitely many $n$. That answers a side
 question and settles no instance of the density question, so it has no claim
 page.
 

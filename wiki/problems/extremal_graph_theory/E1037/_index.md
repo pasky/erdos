@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E1037
 title: Problem 1037
 desc: |
-  Asks whether a graph on n vertices with each degree repeated at most twice
-  and more than half of n distinct degrees has a large empty or complete
-  subgraph.
+  Asks whether a graph on $n$ vertices with each degree occurring at most twice
+  and more than $(\frac12+\epsilon)n$ distinct degrees has an empty or complete
+  subgraph much larger than $\log n$. It is disproved.
 tags:
 - Graph theory
 status: solved
@@ -44,12 +44,12 @@ also asks the question with more than $(\frac23+\epsilon)n$ distinct degrees,
 which the site's statement omits; the same construction answers it no for every
 $\epsilon<\frac1{12}$.
 
-**Status.** DISPROVED (LEAN), the site's label. The claim page
-([[problems/extremal_graph_theory/E1037/claims/2025_09_22_cambie_chan_hunter|Cambie, Chan and Hunter]])
-records the construction the site credits, with the Lean formalization of
-it in Boris Alexeev's repository linked from that page; the formalization
-was not built or audited here, and the standing rests on the site's
-acceptance.
+**Status.** DISPROVED (LEAN), the site's label. The standing rests on the site's
+acceptance. The claim page
+[[problems/extremal_graph_theory/E1037/claims/2025_09_22_cambie_chan_hunter|Cambie, Chan and Hunter]]
+records the construction the site credits. The Lean formalization of that
+construction, in Boris Alexeev's repository, is linked from that page. It was
+not built or audited here.
 
 **Source.** [erdosproblems.com/1037](https://www.erdosproblems.com/1037),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1037,

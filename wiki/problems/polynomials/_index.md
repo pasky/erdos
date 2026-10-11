@@ -5,121 +5,142 @@ desc: |
   Extremal and approximation problems for polynomials, including coefficient
   and norm bounds, zero distribution, and random polynomials.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:34:29Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # Polynomials
 
 [[problems/_index|..]]
 
-[[problems/polynomials/E0114/_index|E0114/]]: Asks whether the curve where a
-monic degree n complex polynomial has absolute value one is longest for the
-polynomial z to the n minus one.
+[[problems/polynomials/E0114/_index|E0114/]]: Asks whether, among monic complex
+polynomials $p$ of degree $n$, the length of the curve $\{z:|p(z)|=1\}$ is
+maximized by $z^n-1$; open.
 
-[[problems/polynomials/E0115/_index|E0115/]]: Asks whether a monic degree n
-polynomial whose set of modulus at most one is connected has derivative at most
-(1/2+o(1))n^2 there; Eremenko and Lempert proved it, and Erdős's exact bound
-n^2/2 fails for every n.
+[[problems/polynomials/E0115/_index|E0115/]]: Asks whether a monic polynomial
+$p$ of degree $n$ with $\{z:|p(z)|\le1\}$ connected has
+$|p'(z)|\le(\frac{1}{2}+o(1))n^2$ on that set. Eremenko and Lempert proved it,
+and Erdős's exact bound $n^2/2$ fails for every $n$.
 
 [[problems/polynomials/E0116/_index|E0116/]]: Asks whether a monic polynomial
-with roots in the unit disc has modulus below one on a set of area at least an
-inverse power of n; proved by Pommerenke (1961), with a constant over log n by
-Krishnapur, Lundberg and Ramachandran.
+$p$ of degree $n$ with all roots in the unit disc has $|p(z)|<1$ on a set of
+area at least $n^{-O(1)}$; proved by Pommerenke (1961), and with area $\gg1/\log
+n$ by Krishnapur, Lundberg and Ramachandran.
 
-[[problems/polynomials/E0119/_index|E0119/]]: Asks whether the maximum modulus
-on the unit circle of the partial products of z minus a unimodular point is
-unbounded, exceeds a power of n, and has partial sums above n^(1+c); yes by
-Wagner, Beck, and Korsky with GPT 5.6-Pro.
+[[problems/polynomials/E0119/_index|E0119/]]: Asks, for unimodular $z_i$ and
+$M_n=\max_{|z|=1}\prod_{i\le n}|z-z_i|$, whether $\limsup M_n=\infty$, whether
+$M_n>n^c$ for infinitely many $n$, and whether $\sum_{k\le n}M_k>n^{1+c}$ for
+all large $n$, for some $c>0$. The answers are yes, by Wagner, Beck, and Korsky
+with GPT 5.6-Pro.
 
-[[problems/polynomials/E0228/_index|E0228/]]: Asks whether every large n admits
-a degree n polynomial with plus or minus one coefficients whose modulus stays
-within fixed multiples of the root of n on the unit circle; yes for every n at
-least 2 by Balister et al. (2020).
+[[problems/polynomials/E0228/_index|E0228/]]: Asks whether, for all large $n$,
+some degree-$n$ polynomial $P$ with coefficients $\pm 1$ has $\sqrt{n}\ll\lvert
+P(z)\rvert\ll\sqrt{n}$ on $\lvert z\rvert=1$, with constants independent of $z$
+and $n$; yes for every $n\ge 2$, by Balister et al. (2020).
 
-[[problems/polynomials/E0230/_index|E0230/]]: Asks whether a polynomial with
-unimodular coefficients has maximum modulus on the unit circle exceeding the
-square root of its degree by a constant factor.
+[[problems/polynomials/E0230/_index|E0230/]]: Asks whether some $c>0$ gives
+$\max_{\lvert z\rvert=1}\lvert P(z)\rvert\ge(1+c)\sqrt{n}$ for every $n\ge 2$
+and every $P(z)=\sum_{k=1}^n a_kz^k$ with all $\lvert a_k\rvert=1$; the answer
+is no.
 
-[[problems/polynomials/E0485/_index|E0485/]]: Asks whether the least possible
-number of nonzero terms in the square of a rational polynomial with exactly k
-nonzero terms tends to infinity as k grows.
+[[problems/polynomials/E0485/_index|E0485/]]: Asks whether the least number of
+terms in $P(x)^2$, over $P\in\mathbb{Q}[x]$ with exactly $k$ nonzero terms,
+tends to infinity as $k\to\infty$; the answer is yes.
 
-[[problems/polynomials/E0509/_index|E0509/]]: Asks whether the set where a monic
-nonconstant complex polynomial has modulus at most one can be covered by circles
-whose radii sum to at most two.
+[[problems/polynomials/E0509/_index|E0509/]]: Asks whether, for every monic
+nonconstant $f\in\mathbb{C}[z]$, the set $\{z:\lvert f(z)\rvert\le 1\}$ can be
+covered by circles whose radii sum to at most $2$; open.
 
-[[problems/polynomials/E0521/_index|E0521/]]: Asks whether, for a random
-polynomial of degree n with independent sign coefficients, the count of real
-roots divided by log n tends almost surely to two over pi.
+[[problems/polynomials/E0521/_index|E0521/]]: Asks whether the number $R_n$ of
+real roots of a random degree-$n$ polynomial with independent uniform $\pm 1$
+coefficients satisfies $R_n/\log n\to 2/\pi$ almost surely; the answer is no.
 
-[[problems/polynomials/E0522/_index|E0522/]]: Concerns the behavior of a random
-polynomial of degree n whose coefficients are chosen independently and uniformly
-from plus one and minus one.
+[[problems/polynomials/E0522/_index|E0522/]]: Asks whether the number $R_n$ of
+roots in the closed unit disc of a random degree-$n$ polynomial with independent
+uniform $\pm 1$ coefficients satisfies $R_n/(n/2)\to 1$ almost surely; proofs
+are claimed but none is accepted.
 
-[[problems/polynomials/E0523/_index|E0523/]]: Concerns the behavior of a random
-polynomial of degree n whose coefficients are chosen independently and uniformly
-from plus one and minus one.
+[[problems/polynomials/E0523/_index|E0523/]]: Asks whether some $C>0$ makes the
+maximum on $\lvert z\rvert=1$ of a random degree-$n$ polynomial with independent
+uniform $\pm 1$ coefficients equal $(C+o(1))\sqrt{n\log n}$ almost surely; the
+answer is yes.
 
-[[problems/polynomials/E0524/_index|E0524/]]: The order of magnitude, for almost
-every real number in the unit interval, of the maximum on minus one to one of
-the polynomial built from its binary digits.
+[[problems/polynomials/E0524/_index|E0524/]]: Asks for the order of magnitude,
+for almost all $t\in(0,1)$, of $M_n(t)=\max_{x\in[-1,1]}\lvert\sum_{k\le
+n}(-1)^{\epsilon_k(t)}x^k\rvert$, where $\epsilon_k(t)$ are the binary digits of
+$t$; an answer is claimed but not accepted.
 
-[[problems/polynomials/E0525/_index|E0525/]]: Asks whether almost all degree n
-polynomials with coefficients plus or minus one dip below absolute value one on
-the unit circle, and how small that minimum is.
+[[problems/polynomials/E0525/_index|E0525/]]: Asks whether all but $o(2^n)$ of
+the degree-$n$ polynomials $f$ with $\pm 1$ coefficients have $\lvert
+f(z)\rvert<1$ somewhere on $\lvert z\rvert=1$, and how $\min_{\lvert
+z\rvert=1}\lvert f(z)\rvert$ behaves; both questions are answered.
 
-[[problems/polynomials/E0975/_index|E0975/]]: Asks whether the sum of the number
-of divisors of the values of an irreducible integer polynomial up to X is
-asymptotic to a constant times X log X.
+[[problems/polynomials/E0975/_index|E0975/]]: Asks whether, for an irreducible
+nonconstant $f\in\mathbb{Z}[x]$ with $f(n)\ge 1$ for large $n$, there is a
+constant $c=c(f)>0$ with $\sum_{n\le X}\tau(f(n))\sim cX\log X$; open.
 
-[[problems/polynomials/E1039/_index|E1039/]]: The radius of the largest disc
-inside the region where a monic complex polynomial with all roots in the unit
-disc has absolute value below one.
+[[problems/polynomials/E1039/_index|E1039/]]: Asks how $\rho(f)$, the radius of
+the largest disc inside $\{z:\lvert f(z)\rvert<1\}$, behaves for monic $f$ of
+degree $n$ with all roots in the closed unit disc, and whether $\rho(f)\gg 1/n$
+always holds; an answer is claimed but not accepted.
 
-[[problems/polynomials/E1041/_index|E1041/]]: Examines a polynomial whose roots
-all lie strictly inside the unit disc and the shape of the region where its
-absolute value is below one.
+[[problems/polynomials/E1041/_index|E1041/]]: Asks whether every monic
+polynomial $f$ with all roots in the open unit disc has a path of length less
+than $2$ inside $\{z:\lvert f(z)\rvert<1\}$ joining two of its roots; a
+counterexample is claimed but not accepted.
 
-[[problems/polynomials/E1114/_index|E1114/]]: Concerns real polynomials of
-degree n whose roots are all real and form an arithmetic progression.
+[[problems/polynomials/E1114/_index|E1114/]]: Asserts that if the roots
+$a_0<\cdots<a_n$ of a real polynomial $f$ form an arithmetic progression, then
+the gaps between consecutive zeros of $f'$ increase from the midpoint of
+$(a_0,a_n)$ toward the endpoints; proved.
 
-[[problems/polynomials/E1129/_index|E1129/]]: Asks a question about how large
-the fundamental Lagrange interpolation polynomials for nodes in the interval
-from minus one to one can be.
+[[problems/polynomials/E1129/_index|E1129/]]: Asks which nodes
+$x_1,\ldots,x_n\in[-1,1]$ minimize $\max_{x\in[-1,1]}\sum_k\lvert l_k(x)\rvert$,
+where the $l_k$ are the fundamental Lagrange interpolation polynomials;
+answered.
 
-[[problems/polynomials/E1130/_index|E1130/]]: Asks for the extreme behavior of
-sums of the fundamental Lagrange interpolation polynomials built from nodes in
-the interval from minus one to one.
+[[problems/polynomials/E1130/_index|E1130/]]: For nodes
+$x_1,\ldots,x_n\in[-1,1]$, let $\Upsilon$ be the least, over the intervals
+between consecutive points of $-1,x_1,\ldots,x_n,1$, of the maximum of
+$\sum_k\lvert l_k(x)\rvert$ on the interval. Asks whether $\Upsilon\ll\log n$
+and which nodes maximize $\Upsilon$; both are answered.
 
-[[problems/polynomials/E1131/_index|E1131/]]: Asks for the least value, over n
-nodes in the interval from minus one to one, of the integral of the sum of
-squares of the Lagrange basis polynomials, and whether that least value is 2
-minus (1+o(1))/n.
+[[problems/polynomials/E1131/_index|E1131/]]: Asks for the minimum over
+$x_1,\ldots,x_n\in[-1,1]$ of $I=\int_{-1}^1\sum_k\lvert l_k(x)\rvert^2\,dx$,
+where the $l_k$ are the Lagrange basis polynomials, and whether $\min
+I=2-(1+o(1))/n$; open.
 
-[[problems/polynomials/E1132/_index|E1132/]]: Asks for the best possible bounds
-on the fundamental Lagrange interpolation polynomials for nodes in the interval
-from minus one to one.
+[[problems/polynomials/E1132/_index|E1132/]]: For a sequence of nodes in
+$[-1,1]$, let $L_n(x)=\sum_{k\le n}\lvert l_k(x)\rvert$. Asks whether some
+$x\in(-1,1)$ has $L_n(x)>\frac{2}{\pi}\log n-O(1)$ for infinitely many $n$, and
+whether $\limsup_n L_n(x)/\log n\ge 2/\pi$ for almost all $x$; open.
 
-[[problems/polynomials/E1133/_index|E1133/]]: Asks whether, for each positive
-constant, a small positive number exists making a stated property hold for all
-large degrees of polynomial interpolation.
+[[problems/polynomials/E1133/_index|E1133/]]: Asks whether each $C>0$ has an
+$\epsilon>0$ such that, for large $n$ and any $x_1,\ldots,x_n\in[-1,1]$, some
+$y_i\in[-1,1]$ give $\max_{[-1,1]}\lvert P\rvert>C$ whenever $\deg
+P<(1+\epsilon)n$ and $P(x_i)=y_i$ for at least $(1-\epsilon)n$ values of $i$;
+proofs are claimed but none is accepted.
 
-[[problems/polynomials/E1150/_index|E1150/]]: Asks whether every plus or minus
-one polynomial of degree n has maximum modulus on the unit circle above (1+c)
-times the square root of n for some fixed c>0; answered no by the OpenAI
-release's construction of 2026-09-23.
+[[problems/polynomials/E1150/_index|E1150/]]: Asks whether some constant $c>0$
+makes every polynomial $P$ of large degree $n$ with coefficients $\pm 1$ have
+$\max_{\lvert z\rvert=1}\lvert P(z)\rvert>(1+c)\sqrt{n}$; answered no by the
+OpenAI release's construction of 2026-09-23.
 
-[[problems/polynomials/E1151/_index|E1151/]]: Asks a question about the Lagrange
-interpolation polynomial of degree n minus one matching a function at n given
-nodes in the interval from minus one to one.
+[[problems/polynomials/E1151/_index|E1151/]]: Asks for a proof that, with
+Chebyshev nodes, every closed $A\subseteq[-1,1]$ is the set of limit points of
+$\mathcal{L}^nf(x)$ for some continuous $f$, where $\mathcal{L}^nf$ is the
+Lagrange interpolation polynomial of degree $n-1$; a proof is claimed but not
+accepted.
 
-[[problems/polynomials/E1152/_index|E1152/]]: Asks a question about fixed sets
-of n distinct interpolation nodes in the interval from minus one to one together
-with a tolerance tending to zero.
+[[problems/polynomials/E1152/_index|E1152/]]: Asks whether, for any array of
+distinct nodes in $[-1,1]$ and any $\epsilon(n)\to 0$, some continuous $f$ makes
+every sequence of interpolants $p_n$ of $f$ with $\deg p_n<(1+\epsilon(n))n$
+fail to converge to $f(x)$ for almost all $x$; a proof is claimed but not
+accepted.
 
-[[problems/polynomials/E1153/_index|E1153/]]: Asks a question about the size of
-the fundamental Lagrange interpolation polynomials determined by n nodes in the
-interval from minus one to one.
+[[problems/polynomials/E1153/_index|E1153/]]: Asks whether, for fixed $-1\le
+a<b\le 1$, the sum $\lambda(x)=\sum_k\lvert l_k(x)\rvert$ of the fundamental
+Lagrange polynomials for $n$ nodes in $[-1,1]$ satisfies
+$\max_{x\in[a,b]}\lambda(x)>(\frac{2}{\pi}-o(1))\log n$; the answer is yes.
 
 ***
 

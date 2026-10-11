@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0712
 title: Problem 712
 desc: |
-  Asks for the Turán density of the complete r-uniform hypergraph on k
-  vertices for any k > r > 2; Turán's 1941 theorem settles r = 2 and no pair
-  with r > 2 is known, with Erdős's two prize offers standing.
+  Asks for the Turán density of the complete $r$-uniform hypergraph on $k$
+  vertices, for any $k>r>2$; open. Turán's 1941 theorem settles $r=2$, no pair
+  with $r>2$ is known, and Erdős's two prize offers stand.
 tags:
 - Graph theory
 - Turán numbers
@@ -50,21 +50,22 @@ copy prints the limit with the denominator $\binom nk$ (quoted below as
 printed). The discrepancy is one of normalization and does not touch the
 status.
 
-**Status.** Open. Turán's 1941 theorem settles $r=2$ for every $k$; for $r>2$ no
-pair $k>r$ has a determined density in the sources listed under Search scope.
+**Status.** Open. The problem has no claim pages, so its frontmatter standing is
+open with no claim. Turán's 1941 theorem settles $r=2$ for every $k$. For $r>2$,
+no pair $k>r$ has a determined density in the sources listed under Search scope.
 The smallest case, $r=3$ and $k=4$, is
-[[problems/extremal_graph_theory/E0500/_index|Problem 500]] (Turán's conjectured
-$5/9$ against the rigorous upper bound $0.5615$), and for $r=3$, $k=5$ Turán's
-conjectured value $g(2n;3,5)=2n\binom n2+1$ of the least number of triples on
-$2n$ points forcing a $K_5^3$ ([Er71], display (8); $f(2n,3,5)=n^2(n-1)+1$ in
-[Er69], p. 80), one more than the extremal number $n^2(n-1)$, corresponds to the
-density $3/4$ (by the computation $n^2(n-1)/\binom{2n}3\to3/4$), also unproved.
-Erdős's offers stand as printed in [Er81] (Part III, item 1, p. 6): one prize
-"for even a single $k>r>2$" and another "for clearing up the whole set of
-problems". No determination of any pair and no proof claim was found in the
-search whose scope the Current assessment records; the problem has no claim
-pages, so its frontmatter standing is open with no claim. The search is a
-bounded negative finding, not a certificate of openness.
+[[problems/extremal_graph_theory/E0500/_index|Problem 500]]: Turán's conjectured
+$5/9$ against the rigorous upper bound $0.5615$. For $r=3$, $k=5$, Turán
+conjectured that the least number of triples on $2n$ points forcing a $K_5^3$ is
+$g(2n;3,5)=2n\binom n2+1$ ([Er71], display (8); $f(2n,3,5)=n^2(n-1)+1$ in
+[Er69], p. 80). This is one more than the extremal number $n^2(n-1)$, and it
+corresponds to the density $3/4$, by the computation
+$n^2(n-1)/\binom{2n}3\to3/4$. This value is also unproved. Erdős's offers stand
+as printed in [Er81] (Part III, item 1, p. 6): one prize "for even a single
+$k>r>2$" and another "for clearing up the whole set of problems". No
+determination of any pair and no proof claim was found in the search whose scope
+the Current assessment records. The search is a bounded negative finding, not a
+certificate of openness.
 
 **Source.** [erdosproblems.com/712](https://www.erdosproblems.com/712), accessed
 2026-09-18 UTC: the problem page (OPEN, with the site's definition of the label;

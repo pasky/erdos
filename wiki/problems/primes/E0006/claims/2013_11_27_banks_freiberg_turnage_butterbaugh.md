@@ -2,9 +2,10 @@
 name: problems/primes/E0006/claims/2013_11_27_banks_freiberg_turnage_butterbaugh
 title: "Banks, Freiberg and Turnage-Butterbaugh: increasing runs of prime gaps"
 desc: |
-  Proves that for every m there are infinitely many strings of m plus one
-  consecutive primes whose gaps strictly increase, and infinitely many whose
-  gaps strictly decrease; the case m equal to three is the question; refereed.
+  Banks, Freiberg and Turnage-Butterbaugh prove that for every $m$ there are
+  infinitely many strings of $m+1$ consecutive primes whose gaps strictly
+  increase, and infinitely many whose gaps strictly decrease. The case $m=3$ is
+  the question, and the paper is refereed.
 authors:
 - William D. Banks
 - Tristan Freiberg
@@ -69,10 +70,10 @@ paper, digested on
 [[../library/primes/erdos_1948_new_questions_distribution_prime_numbers/_index|its library card]].
 
 **Acceptance.** The paper is a refereed journal publication, the `refereed`
-evidence; the publisher's record gives the year 2015 and the page is dated by
+evidence. The publisher's record gives the year 2015, and the page is dated by
 the preprint's first posting. The site's curator, Thomas Bloom, labels the
-problem proved and credits the affirmative answer to this paper, the
-`reviewed` evidence.
+problem proved and credits the affirmative answer to this paper, the `reviewed`
+evidence.
 
 **Formalization.** The linked Lean file in Boris Alexeev's `lean-proofs`
 repository, pinned at the commit in the link, declares itself a Lean

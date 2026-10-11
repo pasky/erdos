@@ -3,8 +3,8 @@ name: problems/extremal_graph_theory/E1111
 title: Problem 1111
 desc: |
   Asks whether bounded clique number and large chromatic number force two
-  anticomplete vertex sets both of large chromatic number; the El-Zahar-Erdős
-  problem, open beyond the case of chromatic number three.
+  anticomplete vertex sets, both of large chromatic number. This is the
+  El-Zahar–Erdős problem, open beyond the case of chromatic number $3$.
 tags:
 - Graph theory
 status: open
@@ -48,37 +48,40 @@ thread comment of 16 December 2025 reads as the implication from $d(c,c)<\infty$
 to $d(t,c)<\infty$ for all $t$. The statement is a conjecture; the site's label
 OPEN marks a problem that is open and not settled by a finite computation.
 
-**Status.** Open. The most recent refereed treatment,
+**Status.** Open. The most recent refereed treatment is
 [[../library/extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/problem_1_1|Problem 1.1]]
 of [NSS24] (J. Combin. Theory Ser. B 165 (2024), 211--222; cited in the arXiv v1
-text of March 2023), restates the statement in the site's letters and says "This
-remains open." What is settled: $c=2$ for every $t$, through Wagon's
+text of March 2023). It restates the statement in the site's letters and says
+"This remains open."
+
+Two cases are settled. The case $c=2$ holds for every $t$, through Wagon's
 [[../library/extremal_graph_theory/wagon_1980_bound_chromatic_number_graphs_without_certain_induced_subgraphs/theorem_p345|Theorem]]
-of [Wa80b] (J. Combin. Theory Ser. B 1980, refereed),
-$\chi(G)\le\binom{\omega(G)+1}2$ for graphs with no induced $K_2\cup K_2$, so
+of [Wa80b] (J. Combin. Theory Ser. B 1980, refereed):
+$\chi(G)\le\binom{\omega(G)+1}2$ for graphs with no induced $K_2\cup K_2$. So
 $d(t,2)\le\binom t2+1$, with $d(2,2)=2$, $d(3,2)=4$, $d(4,2)=5$ as [ElEr85]
-reports them; and $c=3$ for every $t$, by
+reports them. The case $c=3$ holds for every $t$, by
 [[../library/extremal_graph_theory/elzahar_1985_existence_two_nonneighboring_subgraphs_graph/corollary_3|Corollary 3]]
-of [ElEr85] (Combinatorica 1985, refereed),
-$d(t,3)\le2\binom{t-1}3+7\binom{t-1}2+t$ for $t>3$, from
+of [ElEr85] (Combinatorica 1985, refereed):
+$d(t,3)\le2\binom{t-1}3+7\binom{t-1}2+t$ for $t>3$. This comes from
 [[../library/extremal_graph_theory/elzahar_1985_existence_two_nonneighboring_subgraphs_graph/theorem_2|Theorem 2]],
 $d(3,3)\le8$, and the reduction
 [[../library/extremal_graph_theory/elzahar_1985_existence_two_nonneighboring_subgraphs_graph/theorem_1|Theorem 1]].
 Both cases are recorded as accepted partial claims, on
 [[problems/extremal_graph_theory/E1111/claims/1980_12_01_wagon|Wagon 1980]] and
 [[problems/extremal_graph_theory/E1111/claims/1985_12_01_el_zahar_erdos|El-Zahar and Erdős 1985]].
+
 For $c\ge4$ nothing found decides the statement for any $t\ge3$ (the cases
-$t\le2$ are trivial); Erdős wrote in 1985 that "great difficulties appeared for
+$t\le2$ are trivial). Erdős wrote in 1985 that "great difficulties appeared for
 $k=4$" ([Er85b], p. 206). The strongest partial results are
 [[../library/extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/result_1_2|1.2]]
-of [NSS24], the statement with $\chi(A)\ge c$ weakened to minimum degree at
-least $c$ on $A$, and
-[[../library/extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/result_1_3|1.3]],
-a minimum-degree variant with $K_{t,t}$ excluded instead of $K_t$; neither
-settles an instance of the statement, so neither is a claim. No proof or
-disproof was found in the search whose scope the Current
-assessment records; this is a bounded negative finding, not a certificate of
-openness.
+and
+[[../library/extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/result_1_3|1.3]]
+of [NSS24]. Result 1.2 is the statement with $\chi(A)\ge c$ weakened to minimum
+degree at least $c$ on $A$. Result 1.3 is a minimum-degree variant with
+$K_{t,t}$ excluded instead of $K_t$. Neither settles an instance of the
+statement, so neither is a claim. No proof or disproof was found in the search
+whose scope the Current assessment records. This is a bounded negative finding,
+not a certificate of openness.
 
 **Source.** [erdosproblems.com/1111](https://www.erdosproblems.com/1111),
 accessed 2026-09-18: the problem page

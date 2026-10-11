@@ -2,8 +2,8 @@
 name: problems/irrationality/E0265
 title: Problem 265
 desc: |
-  Asks how fast an increasing integer sequence can grow when the sum of
-  reciprocals of its terms and of its terms minus one are both rational.
+  Asks how fast an increasing integer sequence $a_n$ can grow if $\sum 1/a_n$
+  and $\sum 1/(a_n-1)$ are both rational; open.
 tags:
 - Irrationality
 status: open
@@ -38,23 +38,21 @@ which notes that without it the remaining question would be trivial, since
 any sequence making both sums rational could be rearranged to grow as fast as
 one likes along a subsequence.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 21
-January 2026). Its commentary says that Kovač and Tao [KoTa24] have almost
-completely solved the problem by constructing a sequence growing doubly
-exponentially, $a_n^{1/\beta^n}\to\infty$ for some $\beta>1$, and that the
-remaining question is the exact exponent, in particular whether
-$\limsup a_n^{1/2^n}>1$ is possible, since a folklore result makes the sum
-irrational once $\lim a_n^{1/2^n}=\infty$. Their result is the accepted
-partial claim on
-[[problems/irrationality/E0265/claims/2024_11_27_kovac_tao|the Kovač–Tao
-claim page]], every base $\beta<\sqrt{6/5}$. Two pending partial claims
-follow:
-[[problems/irrationality/E0265/claims/2026_08_28_cam|a residual-state
-construction of 2026]] asserts that every exponent $\beta<(\sqrt{13}-1)/2$
-can be reached, and
-[[problems/irrationality/E0265/claims/2026_09_07_kitamura|a Lean 4
-development of 2026]] asserts that $\limsup a_n^{1/2^n}>1$ is impossible. The
-problem asks for the exact growth threshold, which no claim determines.
+**Status.** Open. The site labels the problem OPEN (page last edited 21 January
+2026). Its commentary says that Kovač and Tao [KoTa24] have almost completely
+solved the problem by constructing a sequence growing doubly exponentially,
+$a_n^{1/\beta^n}\to\infty$ for some $\beta>1$. It says the remaining question is
+the exact exponent, in particular whether $\limsup a_n^{1/2^n}>1$ is possible,
+since a folklore result makes the sum irrational once $\lim a_n^{1/2^n}=\infty$.
+Their result, for every base $\beta<\sqrt{6/5}$, is the accepted partial claim
+on
+[[problems/irrationality/E0265/claims/2024_11_27_kovac_tao|the Kovač–Tao claim page]].
+There are also two pending partial claims. One,
+[[problems/irrationality/E0265/claims/2026_08_28_cam|a residual-state construction of 2026]],
+asserts that every exponent $\beta<(\sqrt{13}-1)/2$ can be reached. The other,
+[[problems/irrationality/E0265/claims/2026_09_07_kitamura|a Lean 4 development of 2026]],
+asserts that $\limsup a_n^{1/2^n}>1$ is impossible. The problem asks for the
+exact growth threshold, which no claim determines.
 
 **Source.** [erdosproblems.com/265](https://www.erdosproblems.com/265), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #265,

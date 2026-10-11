@@ -2,9 +2,10 @@
 name: problems/number_theory/E1096/claims/2011_03_23_akiyama_komornik
 title: Akiyama and Komornik's Theorem 1.4 (i) up to the cube root of 2
 desc: |
-  The theorem that the gaps of the ordered sums of distinct powers of q tend
-  to zero for every q in (1, 2^(1/3)], closing the point Erdős and Komornik
-  had left out; refereed in the Journal of Number Theory (2013).
+  Akiyama and Komornik's theorem: the gaps of the ordered sums of distinct
+  powers of $q$ tend to zero for every $q\in(1,2^{1/3}]$, which closes the point
+  Erdős and Komornik had left out. It was refereed and published in the Journal
+  of Number Theory (2013).
 authors:
 - Shigeki Akiyama
 - Vilmos Komornik
@@ -61,13 +62,13 @@ record created 12 October 2012); arXiv:1103.4508v1 of 23 March 2011, the
 text whose page is cited. The journal text is not compared, and the paper is
 not held in the library.
 
-**Acceptance.** Refereed: the paper appeared in the Journal of Number
-Theory. The site's commentary credits the problem's resolution to Erdős and
-Komornik and to Feng and does not mention this paper, so no `reviewed`
-evidence is listed. Read depth: claims checked for Theorem 1.4 and for the
-structure of its proof in Section 5 of the arXiv text; Theorem 1.1 and the
-lemmas are taken at their statements and not checked. Nothing here is
-independently reviewed by this project.
+**Acceptance.** Refereed: the paper appeared in the Journal of Number Theory.
+The site's commentary credits the problem's resolution to Erdős and Komornik and
+to Feng and does not mention this paper, so no `reviewed` evidence is listed.
+Read depth: the claims were checked for Theorem 1.4 and for the structure of its
+proof in Section 5 of the arXiv text. Theorem 1.1 and the lemmas are taken at
+their statements and not checked. Nothing here is independently reviewed by this
+project.
 
 **Depends on.** Nothing on the wiki. The same answer, for narrower ranges,
 is on

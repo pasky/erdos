@@ -2,8 +2,9 @@
 name: problems/additive_combinatorics/E0171
 title: Problem 171
 desc: |
-  Asks whether every subset of a fixed positive density of a large grid of
-  words must contain a combinatorial line.
+  Asks whether, for every $\epsilon>0$ and integer $t\ge1$, every subset of
+  $[t]^N$ of size at least $\epsilon t^N$ contains a combinatorial line once $N$
+  is large enough; proved.
 tags:
 - Additive combinatorics
 - Combinatorics
@@ -36,21 +37,21 @@ theorem, in which a combinatorial line has at least one coordinate equal to
 $i$ on $p_i$ (as Mathlib's `Combinatorics.Line`, used by the formal-conjectures
 statement, requires), and the claim pages answer that question.
 
-**Status.** PROVED (LEAN): the site's label. The answer is yes, by the
-density Hales--Jewett theorem of Furstenberg and Katznelson
-([[problems/additive_combinatorics/E0171/claims/1991_12_01_furstenberg_katznelson|claim page]]),
-reproved with explicit bounds by the Polymath project
-([[problems/additive_combinatorics/E0171/claims/2009_10_20_polymath|claim page]])
-and again, by a shorter density-increment argument, by Dodos, Kanellopoulos
-and Tyros
-([[problems/additive_combinatorics/E0171/claims/2012_09_22_dodos_kanellopoulos_tyros|claim page]]);
-the first two claims are accepted on their refereed publication and the
-site's adoption, the third on its refereed publication alone, and none on
-any review by this project. The site's Lean marker traces to the community
-database's Lean record and to the Lean development in Boris Alexeev's
-lean-proofs repository that declares itself a formalization of the
-Dodos--Kanellopoulos--Tyros proof, linked on their claim page; this corpus
-has not built or audited it, so no claim lists `formalized` evidence (see
+**Status.** PROVED (LEAN), the site's label. The answer is yes, by the density
+Hales--Jewett theorem of Furstenberg and Katznelson
+([[problems/additive_combinatorics/E0171/claims/1991_12_01_furstenberg_katznelson|claim page]]).
+The Polymath project reproved the theorem with explicit bounds
+([[problems/additive_combinatorics/E0171/claims/2009_10_20_polymath|claim page]]).
+Dodos, Kanellopoulos and Tyros reproved it again by a shorter density-increment
+argument
+([[problems/additive_combinatorics/E0171/claims/2012_09_22_dodos_kanellopoulos_tyros|claim page]]).
+The first two claims are accepted on their refereed publication and the site's
+adoption, and the third on its refereed publication alone. None rests on any
+review by this project. The site's Lean marker traces to the community
+database's Lean record. It also traces to the Lean development in Boris
+Alexeev's lean-proofs repository that declares itself a formalization of the
+Dodos--Kanellopoulos--Tyros proof, which is linked on their claim page. This
+corpus has not built or audited it, so no claim lists `formalized` evidence (see
 Formalization).
 
 **Source.** [erdosproblems.com/171](https://www.erdosproblems.com/171), accessed

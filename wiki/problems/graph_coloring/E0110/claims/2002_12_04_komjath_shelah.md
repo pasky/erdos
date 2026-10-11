@@ -3,8 +3,9 @@ name: problems/graph_coloring/E0110/claims/2002_12_04_komjath_shelah
 title: Komjáth and Shelah show a positive answer is unprovable
 desc: |
   Komjáth and Shelah (J. Graph Theory 2005) prove it consistent with ZFC that
-  for every increasing f some graph of chromatic number aleph one has every
-  n-chromatic subgraph on at least f(n) vertices; a yes answer is unprovable.
+  for every increasing $f$ some graph of chromatic number $\aleph_1$ has every
+  $n$-chromatic subgraph on at least $f(n)$ vertices. Hence a yes answer is
+  unprovable.
 authors:
 - Péter Komjáth
 - Saharon Shelah
@@ -58,10 +59,10 @@ Lambie-Hanson's ZFC counterexample, on
 settles the question and subsumes this result.
 
 **Acceptance.** Refereed: J. Graph Theory 49 (2005), no. 1, 28--38, DOI
-10.1002/jgt.20060, published online 25 February 2005; the preprint is
-arXiv:math/0212064, posted 4 December 2002, the date of this page. Reviewed:
-the site's curator, Thomas Bloom, labels the problem DISPROVED and credits
-Shelah, citing this paper as [KoSh05], with the proof that a negative answer is
-consistent; the site labeled the problem NOT PROVABLE on this paper's basis
-until 5 April 2026, when the community database moved it to disproved on
+10.1002/jgt.20060, published online 25 February 2005. The preprint is
+arXiv:math/0212064, posted 4 December 2002, the date of this page. Reviewed: the
+site's curator, Thomas Bloom, labels the problem DISPROVED. The curator credits
+Shelah with the proof that a negative answer is consistent, citing this paper as
+[KoSh05]. The site labeled the problem NOT PROVABLE on this paper's basis until
+5 April 2026. On that date the community database moved it to disproved on
 Lambie-Hanson's theorem. The curator is independent of the authors.

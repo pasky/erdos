@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E0926/claims/2003_11_01_alon_krivelevich_su
 title: Alon, Krivelevich and Sudakov's bound linear in k
 desc: |
   Theorem 6.1 of Alon, Krivelevich and Sudakov (Combin. Probab. Comput. 2003)
-  bounds the extremal number of the three-layer Boolean-cube graph H_k on 2n
-  vertices by 4k n^{3/2}, a second proof of Problem 926's answer yes; refereed.
+  bounds the extremal number of the three-layer Boolean-cube graph $H_k$ on $2n$
+  vertices by $4kn^{3/2}$. This refereed result is a second proof that the
+  answer to Problem 926 is yes.
 authors:
 - N. Alon
 - M. Krivelevich
@@ -65,19 +66,19 @@ choice of the vertices $x_I^\alpha$), without invoking Lemma 2.1; it is
 independent of Füredi's set-system argument.
 
 **Acceptance.** Refereed publication in Combinatorics, Probability and
-Computing (Crossref record accessed: volume 12, issue 5--6,
-pp. 477--494, issued November 2003, whose nominal first day is this page's
-date; published online 3 December 2003). The site's curator, Thomas Bloom,
-labels the problem proved and credits the paper with the improvement to
-$\mathrm{ex}(n;H_k)\ll kn^{3/2}$, but the site's entry carries additional
-thanks to Noga Alon, so the curator's credit is not listed as `reviewed`
+Computing. The Crossref record, as accessed, gives volume 12, issue 5--6, pp.
+477--494, issued November 2003, and this page's date is that issue's nominal
+first day. The paper was published online on 3 December 2003. The site's
+curator, Thomas Bloom, labels the problem proved and credits the paper with the
+improvement to $\mathrm{ex}(n;H_k)\ll kn^{3/2}$. But the site's entry also
+carries thanks to Noga Alon, so the curator's credit is not listed as `reviewed`
 evidence independent of the claimants. The source has a library
 [[../library/extremal_graph_theory/alon_2003_turan_numbers_bipartite_graphs_related_ramsey/_index|source card]],
 with the result page
 [[../library/extremal_graph_theory/alon_2003_turan_numbers_bipartite_graphs_related_ramsey/theorem_6_1|Theorem 6.1]].
-Read depth: Theorem 6.1 and the definition of $L_t^{k,s}$; the proof read
-for structure only; nothing is independently reviewed by this project. The
+Read depth: Theorem 6.1 and the definition of $L_t^{k,s}$. The proof was read
+for structure only. Nothing is independently reviewed by this project. The
 formal-conjectures statement file for the problem states this bound as the
-variant `erdos_926.variants.aks`, with no proof link; it is a statement, not
-a formalization, and is described on the problem page. The acceptance rests
-on the refereed publication.
+variant `erdos_926.variants.aks`, with no proof link. It is a statement, not a
+formalization, and the problem page describes it. The acceptance rests on the
+refereed publication.

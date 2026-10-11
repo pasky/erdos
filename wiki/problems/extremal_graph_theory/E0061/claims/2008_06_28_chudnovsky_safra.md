@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0061/claims/2008_06_28_chudnovsky_safra
 title: Chudnovsky and Safra's bull-free case
 desc: |
-  Chudnovsky and Safra prove that every bull-free graph on n vertices has a
-  clique or a stable set of size at least n^(1/4), the Erdős-Hajnal conjecture
-  for the bull; accepted on the refereed JCTB paper.
+  Chudnovsky and Safra prove that every bull-free graph on $n$ vertices has a
+  clique or a stable set of size at least $n^{1/4}$, which is the Erdős-Hajnal
+  conjecture for the bull. The claim is accepted on the refereed JCTB paper.
 authors:
 - Maria Chudnovsky
 - Shmuel Safra
@@ -47,8 +47,8 @@ instance it shares with its complement. The problem stays open.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** The paper is a refereed publication in the Journal of
-Combinatorial Theory, Series B, registered with its DOI on 2008-06-28 (this
-page's date) and issued in November 2008, which is the `refereed` evidence.
+Combinatorial Theory, Series B, which is the `refereed` evidence. Its DOI was
+registered on 2008-06-28 (this page's date), and it was issued in November 2008.
 The site's commentary credits the case to the paper, but the site labels the
-problem OPEN, so no `reviewed` evidence is listed. This corpus has not
-checked the proof.
+problem OPEN, so no `reviewed` evidence is listed. This corpus has not checked
+the proof.

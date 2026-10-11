@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0795
 title: Problem 795
 desc: |
-  Asks whether the largest subset of one to n with all subset products
-  distinct is bounded by the primes up to n plus those up to the square root
-  of n; proved by Raghavan with a power-saving error term.
+  Asks whether the largest $A\subseteq\{1,\ldots,n\}$ with all subset products
+  distinct has size at most $\pi(n)+\pi(n^{1/2})+o(n^{1/2}/\log n)$; proved by
+  Raghavan with a power-saving error term.
 tags:
 - Number theory
 status: solved
@@ -49,11 +49,11 @@ the same sum as (15).
 
 **Status.** Proved. Raghavan's Theorem 1.3 (Acta Math. Hungar. 177 (2025), no.
 2, 363--377; refereed; arXiv:2501.02695) gives
-$g(n)=\pi(n)+\pi(n^{1/2})+O(n^{5/12})$, an error term smaller than the
-$o(n^{1/2}/\log n)$ asked for, so the answer is yes; his Theorem 1.4 gives
-$g(n)\ge\pi(n)+\pi(n^{1/2})+\tfrac13\pi(n^{1/3})-O(1)$, which disproves
-Erdős's 1980 expansion. The copy read is arXiv v2, of which no file is held;
-the journal text was not compared. Claim page:
+$g(n)=\pi(n)+\pi(n^{1/2})+O(n^{5/12})$. Its error term is smaller than the
+$o(n^{1/2}/\log n)$ asked for, so the answer is yes. His Theorem 1.4 gives
+$g(n)\ge\pi(n)+\pi(n^{1/2})+\tfrac13\pi(n^{1/3})-O(1)$, which disproves Erdős's
+1980 expansion. The copy read is arXiv v2, of which no file is held. The journal
+text was not compared. Claim page:
 [[problems/integer_sequences/E0795/claims/2025_01_06_raghavan|Raghavan 2025]]
 (accepted: refereed, and credited by the site's curator, Thomas Bloom).
 

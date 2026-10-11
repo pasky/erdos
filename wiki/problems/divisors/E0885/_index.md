@@ -2,8 +2,9 @@
 name: problems/divisors/E0885
 title: Problem 885
 desc: |
-  Asks whether, for every k, there are k integers whose sets of differences of
-  complementary factor pairs share at least k common values.
+  Asks whether, for every $k\ge1$, there are integers $N_1<\cdots<N_k$ whose
+  factor difference sets $D(N)=\{\lvert a-b\rvert : N=ab\}$ share at least $k$
+  common values; open.
 tags:
 - Number theory
 - Divisors
@@ -35,15 +36,15 @@ $$
 \lvert \cap_i D(N_i)\rvert \geq k?
 $$
 
-**Status.** The site labels the problem OPEN. The instances $k=2$ and $k=3$ are
-settled by
+**Status.** The site labels the problem OPEN, and the general question is open.
+The instances $k=2$ and $k=3$ are settled by
 [[problems/divisors/E0885/claims/1997_01_01_erdos_rosenfeld|Erdős and Rosenfeld's two shared values and Guiduli's triples]]
 and
-[[problems/divisors/E0885/claims/1999_09_01_jimenez_urroz|Jiménez-Urroz's three shared values]],
-and $k=4$ by
-[[problems/divisors/E0885/claims/2019_05_28_bremner|Bremner's four integers]];
-[[problems/divisors/E0885/claims/2026_09_23_sanexxxx777|a Lean proof of the case k = 4]]
-is a pending page. The general question is open.
+[[problems/divisors/E0885/claims/1999_09_01_jimenez_urroz|Jiménez-Urroz's three shared values]].
+The instance $k=4$ is settled by
+[[problems/divisors/E0885/claims/2019_05_28_bremner|Bremner's four integers]].
+There is also a pending page,
+[[problems/divisors/E0885/claims/2026_09_23_sanexxxx777|a Lean proof of the case k = 4]].
 
 **Source.** [erdosproblems.com/885](https://www.erdosproblems.com/885), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #885,

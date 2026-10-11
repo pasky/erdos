@@ -2,9 +2,10 @@
 name: problems/set_theory/E1127/claims/1943_06_01_erdos_kakutani
 title: Erdős and Kakutani's rationally independent decomposition of the line
 desc: |
-  Erdős and Kakutani (Bull. Amer. Math. Soc., 1943) prove that the continuum
-  hypothesis splits the reals into countably many rationally independent
-  sets, which have no repeated distances: the case n = 1 under CH.
+  Erdős and Kakutani (Bull. Amer. Math. Soc., 1943) prove that under the
+  continuum hypothesis the reals split into countably many rationally
+  independent sets. Such sets have no repeated distances, which gives the case
+  $n=1$ under CH.
 authors:
 - P. Erdős
 - S. Kakutani

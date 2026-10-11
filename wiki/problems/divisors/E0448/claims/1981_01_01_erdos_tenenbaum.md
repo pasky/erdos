@@ -2,9 +2,10 @@
 name: problems/divisors/E0448/claims/1981_01_01_erdos_tenenbaum
 title: "Erdős and Tenenbaum: tau-plus is not o(tau) for almost all n"
 desc: |
-  The Erdős–Tenenbaum theorem that the integers with tau^+(n) at most alpha
-  tau(n) have upper density at most c(eps) alpha^(1-eps), so the conjectured
-  density-one statement fails; Alexeev's Lean formalization is linked.
+  By the Erdős–Tenenbaum theorem, the integers with $\tau^+(n)\le\alpha\tau(n)$
+  have upper density at most $c(\varepsilon)\alpha^{1-\varepsilon}$, so the
+  conjectured density-one statement fails. Alexeev's Lean formalization is
+  linked.
 authors:
 - P. Erdös
 - G. Tenenbaum

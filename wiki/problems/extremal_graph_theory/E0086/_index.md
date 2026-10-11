@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E0086
 title: Problem 86
 desc: |
-  Asks whether every subgraph of the n-dimensional hypercube with slightly
-  more than half of its edges must contain a four-cycle.
+  Asks whether every subgraph of the $n$-dimensional hypercube with at least
+  $(1/2+o(1))n2^{n-1}$ edges, slightly more than half of all its edges, must
+  contain a $C_4$; open.
 tags:
 - Graph theory
 status: open

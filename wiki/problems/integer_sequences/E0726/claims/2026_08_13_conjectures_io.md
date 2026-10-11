@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0726/claims/2026_08_13_conjectures_io
 title: A Lean refutation of the defective formal statement
 desc: |
-  A Conjectures.io record of 13 August 2026: a kernel-checked Lean refutation
-  of the defective pre-fix formal statement of Problem 726, whose sum was
-  identically zero; Conjectures.io's review says it settles nothing; rejected.
+  A Conjectures.io record of 13 August 2026 gives a kernel-checked Lean
+  refutation of the defective pre-fix formal statement of Problem 726, whose sum
+  was identically zero. Conjectures.io's review says it settles nothing, and the
+  claim is rejected.
 authors: []
 status: rejected
 claim: disproved

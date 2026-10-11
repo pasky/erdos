@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0830
 title: Problem 830
 desc: |
-  Asks whether there are infinitely many amicable pairs, and whether the count
-  of them up to x is at least x to the power one minus a small amount.
+  Asks whether there are infinitely many amicable pairs, and whether the number
+  $A(x)$ of them up to $x$ satisfies $A(x)>x^{1-o(1)}$; open.
 tags:
 - Number theory
 status: open

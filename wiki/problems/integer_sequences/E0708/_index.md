@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0708
 title: Problem 708
 desc: |
-  Bounds the fewest integers from a run of consecutive integers whose product
-  is divisible by the product of n given integers; the corrected at-most
-  statement is open, with a partial bound of 12n pending.
+  Asks for bounds on the fewest integers from a run of $\max(A)$ consecutive
+  integers whose product is divisible by $\prod_{a\in A}a$, for any set $A$ of
+  $n$ integers. The corrected at-most statement is open, with a partial bound of
+  $12n$ pending.
 tags:
 - Number theory
 status: open
@@ -75,15 +76,15 @@ Mazur posted the exact-size failure in
 2026, attributing the observation to GPT-5.5 Pro. The page's standing judges the
 corrected Statement.
 
-**Status.** Open, the site's label; both questions of the corrected Statement
-are open. A partial proof claim of 5 September 2026 gives explicit linear upper
-bounds in the at-most convention, $g(n)\le12n$ for every $n$ with a Lean
-development its author reports kernel-checked, and the conjectured $2n$ for sets
-with $\max(A)\ge8n^3$; it is pending on
+**Status.** The site's label is Open, and both questions of the corrected
+Statement are open. A partial proof claim of 5 September 2026 gives explicit
+linear upper bounds in the at-most convention. It gives $g(n)\le12n$ for every
+$n$, with a Lean development its author reports kernel-checked, and the
+conjectured $2n$ for sets with $\max(A)\ge8n^3$. It is pending on
 [[problems/integer_sequences/E0708/claims/2026_09_05_chen|its claim page]],
-unreviewed outside its author's pipeline and not built here, and it leaves both
+unreviewed outside its author's pipeline and not built here. It leaves both
 displayed questions, $(2+o(1))n$ and $2n$, unresolved. The site's exact-size
-wording admits no $g(n)$ for large $n$, an observation that answers only the
+wording admits no $g(n)$ for large $n$. This observation answers only the
 printed wording (Notes).
 
 **Source.** [erdosproblems.com/708](https://www.erdosproblems.com/708), accessed

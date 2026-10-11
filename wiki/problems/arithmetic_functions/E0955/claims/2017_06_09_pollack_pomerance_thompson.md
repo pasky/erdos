@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0955/claims/2017_06_09_pollack_pomerance_thompson
 title: Pollack, Pomerance and Thompson on preimages of very sparse sets
 desc: |
-  Pollack, Pomerance and Thompson prove that a set of at most x to the
-  one-half plus o(1) integers has o(x) preimages up to x under s, settling
-  the conjecture for every target of counting function y^(1/2+o(1)).
+  Pollack, Pomerance and Thompson prove that a set of at most $x^{1/2+o(1)}$
+  integers has $o(x)$ preimages $n\le x$ under $s$. This settles the conjecture
+  for every target set with counting function $y^{1/2+o(1)}$.
 authors:
 - Paul Pollack
 - Carl Pomerance

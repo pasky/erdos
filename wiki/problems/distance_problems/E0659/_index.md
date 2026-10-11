@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0659
 title: Problem 659
 desc: |
-  Asks whether n planar points can have every four of them determining at
-  least three distances while the total number of distinct distances is far
-  below n.
+  Asks whether $n$ planar points can have every four of them determine at least
+  three distances while the number of distinct distances is
+  $\ll n/\sqrt{\log n}$; proved.
 tags:
 - Geometry
 - Distances
@@ -30,9 +30,9 @@ $$
 \ll \frac{n}{\sqrt{\log n}}?
 $$
 
-**Status.** Proved. The site's label is PROVED (LEAN); the formalization that
-suffix marks assumes Bernays' theorem as an axiom, and this corpus has not built
-it, so no `formalized` evidence is credited.
+**Status.** Proved. The site's label is PROVED (LEAN). The formalization that
+this suffix marks assumes Bernays' theorem as an axiom, and this corpus has not
+built it. No `formalized` evidence is therefore credited.
 
 **Source.** [erdosproblems.com/659](https://www.erdosproblems.com/659), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #659,

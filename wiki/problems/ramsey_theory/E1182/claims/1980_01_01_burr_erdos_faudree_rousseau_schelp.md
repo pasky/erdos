@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E1182/claims/1980_01_01_burr_erdos_faudree_rousseau_schelp
 title: Burr, Erdős, Faudree, Rousseau and Schelp, the first bounds on F(n) and f(n)
 desc: |
-  The 1980 Ars Combinatoria paper proves (17n+1)/15 <= F(n) for n >= 4 and
-  F(n) < (27/4+eps) n (log n)^2, bounds f(n) between n^(3/2) (log n)^(1/2) and
-  n^(5/3) (log n)^(2/3) up to constants, and tabulates both for n <= 6.
+  Burr, Erdős, Faudree, Rousseau and Schelp (Ars Combinatoria 1980) prove
+  $F(n)\ge(17n+1)/15$ for $n\ge4$ and $F(n)<(27/4+\varepsilon)n(\log n)^2$, and
+  bound $f(n)$ between $n^{3/2}(\log n)^{1/2}$ and $n^{5/3}(\log n)^{2/3}$ up to
+  constants. They also tabulate both functions for $n\le6$.
 authors:
 - S. A. Burr
 - P. Erdős
@@ -72,9 +73,9 @@ the inputs of the paper's bounds.
 
 **Acceptance.** Refereed: S. A. Burr, P. Erdős, R. J. Faudree, C. C. Rousseau
 and R. H. Schelp, *An extremal problem in generalized Ramsey theory*, Ars
-Combin. 10 (1980), 193--203 (MR 82b:05096; no Crossref record); the scan in the
+Combin. 10 (1980), 193--203 (MR 82b:05096; no Crossref record). The scan in the
 Rényi Institute's Erdős archive is linked above. Not reviewed: the site's
 commentary credits the paper with these bounds, but the site labels the problem
-OPEN, so no curator credit exists and `reviewed` is not listed. The journal
-issue carries only the year, so this page is dated the first of January 1980.
+OPEN. So no curator credit exists, and `reviewed` is not listed. The journal
+issue gives only the year, so this page is dated the first of January 1980.
 Nothing here is independently reviewed by this project.

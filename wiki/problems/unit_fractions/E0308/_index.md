@@ -2,10 +2,10 @@
 name: problems/unit_fractions/E0308
 title: Problem 308
 desc: |
-  The smallest integer not a sum of distinct unit fractions with denominators
-  up to N, and whether the representable integers form an initial segment of
-  integers; corrected to ask, for large N, whether that integer is the floor
-  of the harmonic sum or one more.
+  Asks for the least integer that is not a sum of distinct unit fractions with
+  denominators at most $N$, and whether the representable integers form an
+  initial segment. A corrected version, now proved, asks for large $N$ whether
+  that integer is $\lfloor\sum_{n\le N}1/n\rfloor$ or one more.
 tags:
 - Number theory
 - Unit fractions
@@ -108,12 +108,12 @@ Croot's theorem bounds $n(N)=f(N)-1$, the largest integer with every integer
 up to it representable, as recorded below.
 
 **Status.** Proved, in the site's label, which the site itself calls an
-essential solution; the standing on this page agrees, for the corrected
+essential solution. The standing on this page agrees, for the corrected
 Statement. The one claim page,
 [[problems/unit_fractions/E0308/claims/1999_12_01_croot|Croot's Main Theorem]]
-(Mathematika 46 (1999), no. 2, 359--372; refereed; credited by the site), is
-an accepted full claim: it answers both questions of the corrected Statement.
-The theorem, in the author's typescript, gives for all large $N$
+(Mathematika 46 (1999), no. 2, 359--372; refereed; credited by the site), is an
+accepted full claim. It answers both questions of the corrected Statement. The
+theorem, in the author's typescript, gives for all large $N$
 
 $$
 \Bigl\lfloor H_N-\tfrac92(1+o(1))\tfrac{(\log\log N)^2}{\log N}\Bigr\rfloor
@@ -121,14 +121,14 @@ $$
 \Bigl\lfloor H_N-\tfrac12(1+o(1))\tfrac{(\log\log N)^2}{\log N}\Bigr\rfloor.
 $$
 
-Hence, for all large $N$, $N(N)$ is $\{1,\ldots,m_N-1\}$ or $\{1,\ldots,m_N\}$
-(the second question is answered yes), and $f(N)\in\{m_N,m_N+1\}$ (the first
-question is answered yes), with the case decided by the fractional part of
-$H_N$ except when it lies between $(\frac12+o(1))$ and $(\frac92+o(1))$ times
-$(\log\log N)^2/\log N$. The value inside that window, which Croot's
-conjecture (p. 2) would close, and the initial-segment property for every
-$N\ge1$ are the two variants the Formulation records. The site's discussion
-and proof-claim pages carry no further claim.
+Hence, for all large $N$, $N(N)$ is $\{1,\ldots,m_N-1\}$ or $\{1,\ldots,m_N\}$,
+so the second question is answered yes. Also $f(N)\in\{m_N,m_N+1\}$, so the
+first question is answered yes. The fractional part of $H_N$ decides which case
+holds, except when it lies between $(\frac12+o(1))$ and $(\frac92+o(1))$ times
+$(\log\log N)^2/\log N$. The Formulation records two variants: the value inside
+that window, which Croot's conjecture (p. 2) would close, and the
+initial-segment property for every $N\ge1$. The site's discussion and
+proof-claim pages carry no further claim.
 
 **Source.** [erdosproblems.com/308](https://www.erdosproblems.com/308), accessed
 2026-09-18: the problem page (PROVED, with the site's note that it is solved in

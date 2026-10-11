@@ -2,8 +2,9 @@
 name: problems/diophantine_problems/E0686
 title: Problem 686
 desc: |
-  Asks whether every integer at least 2 is a ratio of two products of k
-  consecutive integers, for some k at least 2 with the blocks disjoint.
+  Asks whether every integer $N\ge2$ is a ratio
+  $\prod_{i=1}^k(m+i)/\prod_{i=1}^k(n+i)$ of products of $k$ consecutive
+  integers, for some $k\ge2$ and $m\ge n+k$; open.
 tags:
 - Number theory
 status: open

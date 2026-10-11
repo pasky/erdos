@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0791/claims/1976_11_01_hammerer_hofmeister
 title: Hämmerer and Hofmeister's bases refuting Rohrbach's conjecture
 desc: |
-  Hämmerer and Hofmeister (J. Reine Angew. Math. 1976) build 2-bases of k
-  positive elements with range above (10/9)(k^2/4), so g(n)^2 ≤ (18/5 + o(1)) n
-  and the guess g(n) ~ 2 n^{1/2} of Problem 791 is false; refereed.
+  Hämmerer and Hofmeister (J. Reine Angew. Math. 1976) build $2$-bases of $k$
+  positive elements with range above $(10/9)(k^2/4)$, so $g(n)^2\le(18/5+o(1))n$
+  and the guess $g(n)\sim2n^{1/2}$ of Problem 791 is false. The paper is
+  refereed.
 authors:
 - N. Hämmerer
 - G. Hofmeister
@@ -57,10 +58,10 @@ Not covered: the estimate of $g(n)$, which the problem page records as open.
 **Depends on.** No page of this wiki; the construction is self-contained.
 
 **Acceptance.** Refereed: the paper is published in the Journal für die reine
-und angewandte Mathematik (Crossref: issued 1976-11-01), which dates this
-page; zbMATH reviews it as Zbl 0332.10032. It appeared in print before
-Mrose's refutation
-([[problems/additive_combinatorics/E0791/claims/1979_04_01_mrose|its claim page]]),
-which was received in 1975, published in 1979 and does not cite it; the two
-refutations are independent. The site does not cite this paper. The
-construction behind (1) is not reviewed in this corpus.
+und angewandte Mathematik (Crossref: issued 1976-11-01), which dates this page.
+It is reviewed in zbMATH as Zbl 0332.10032. It appeared in print before Mrose's
+refutation
+([[problems/additive_combinatorics/E0791/claims/1979_04_01_mrose|its claim page]]).
+Mrose's paper was received in 1975 and published in 1979, and it does not cite
+this one. The two refutations are independent. The site does not cite this
+paper. The construction behind (1) is not reviewed in this corpus.

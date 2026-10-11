@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0804/claims/2007_06_27_alon_sudakov
 title: Alon and Sudakov's bounds on locally forced independence
 desc: |
-  Alon and Sudakov bound f((log n)^2, n) between (log n)^2/log log n and
-  (log n)^2 and find f((log n)^3, n) of order (log n)^2/log log n, so both
-  displayed lower-bound proposals fail; refereed in J. Graph Theory 56 (2007).
+  Alon and Sudakov (J. Graph Theory 56, 2007, refereed) bound $f((\log n)^2,n)$
+  between $(\log n)^2/\log\log n$ and $(\log n)^2$, and find that
+  $f((\log n)^3,n)$ has order $(\log n)^2/\log\log n$. So both displayed
+  lower-bound proposals fail.
 authors:
 - Noga Alon
 - Benny Sudakov
@@ -67,14 +68,14 @@ the journal's pp. 149--151 (both listed on the
 and the two versions agree on them; the proofs (Section 3) and
 Theorems 2.3 and 2.4 are not checked.
 
-**Acceptance.** Refereed: Journal of Graph Theory, volume 56, issue 2
-(2007), 149--157, published online 9 August 2007, as the journal's first
-page and the Crossref record give it. Reviewed: the site's curator,
-T. F. Bloom, credits the paper with both displayed bounds in the problem's
-commentary and thanks Alon (erdosproblems.com/804, accessed 2026-10-07, label
-DISPROVED; no comment and no proof claim on the site). The site's
-formulation mixes $f(m,n)$ with a one-variable $f(n)$; the problem page
-records that defect and the two-variable reading this page targets.
+**Acceptance.** Refereed: Journal of Graph Theory, volume 56, issue 2 (2007),
+149--157, published online 9 August 2007, as the journal's first page and the
+Crossref record give it. Reviewed: the site's curator, T. F. Bloom, credits the
+paper with both displayed bounds in the problem's commentary and thanks Alon
+(erdosproblems.com/804, accessed 2026-10-07). The site's label is DISPROVED, and
+the site has no comment and no proof claim. The site's formulation mixes
+$f(m,n)$ with a one-variable $f(n)$. The problem page records that defect and
+the two-variable reading this page targets.
 
 **Formalization.** The statement file `ErdosProblems/804.lean` of
 formal-conjectures, added on 2026-09-20, names theorem `erdos_804` of

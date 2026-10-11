@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0616/claims/1991_09_01_erdos_hajnal_tuza
 title: Erdős, Hajnal and Tuza's bounds on the covering number
 desc: |
-  Erdős, Hajnal and Tuza bound the best t between floor(3r/16 + 7/8) and
-  ceil(r/5), which determines t = ceil(r/5) for the 38 values of r from 3 to 70
-  where the two bounds meet; refereed.
+  Erdős, Hajnal and Tuza prove, in a refereed paper, that the best $t$ lies
+  between $\lfloor 3r/16+7/8\rfloor$ and $\lceil r/5\rceil$. This determines
+  $t=\lceil r/5\rceil$ for the 38 values of $r$ from $3$ to $70$ where the two
+  bounds meet.
 authors:
 - P. Erdős
 - A. Hajnal
@@ -57,9 +58,8 @@ for every $r>70$, the bounds differ and the best $t$ is not determined.
 
 **Depends on.** Nothing in this wiki; the proofs are the paper's own.
 
-**Acceptance.** Refereed: Journal of Combinatorial Theory, Series A 58
-(1991), no. 1, 78--84, received 2 July 1989; the publisher's record dates the
-issue September 1991, and the page's date is the month's first day. The site
-labels the problem OPEN and credits the paper only with the two bounds, so
-`reviewed` is not listed. No independent proof review and no formalization
-are recorded.
+**Acceptance.** Refereed: Journal of Combinatorial Theory, Series A 58 (1991),
+no. 1, 78--84, received 2 July 1989. The publisher's record dates the issue
+September 1991, and the page's date is the month's first day. The site labels
+the problem OPEN and credits the paper only with the two bounds, so `reviewed`
+is not listed. No independent proof review and no formalization are recorded.

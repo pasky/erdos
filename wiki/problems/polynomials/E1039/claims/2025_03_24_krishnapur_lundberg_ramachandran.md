@@ -2,9 +2,10 @@
 name: problems/polynomials/E1039/claims/2025_03_24_krishnapur_lundberg_ramachandran
 title: Minimal inradius at least c over n root log n
 desc: |
-  Krishnapur, Lundberg and Ramachandran (2025) prove that the minimal
-  inradius of a degree n lemniscate with zeros in the closed unit disk is at
-  least a constant over n root(log n); an arXiv preprint credited by the site.
+  Krishnapur, Lundberg and Ramachandran (2025) prove that the minimal inradius
+  of a degree $n$ lemniscate with zeros in the closed unit disk is at least
+  $c/(n\sqrt{\log n})$ for a constant $c>0$. The result is in an arXiv preprint
+  credited by the site.
 authors:
 - Manjunath Krishnapur
 - Erik Lundberg

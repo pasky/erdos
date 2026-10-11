@@ -2,9 +2,10 @@
 name: problems/set_systems/E0723/claims/1949_02_01_bruck_ryser
 title: Bruck and Ryser's exclusion of orders that are not sums of two squares
 desc: |
-  Bruck and Ryser (1949): a finite projective plane of order n congruent to 1
-  or 2 mod 4 exists only if n is a sum of two squares, excluding orders 6,
-  14, 21, 22 and infinitely many more; a partial answer to the problem.
+  Bruck and Ryser (1949) prove that a finite projective plane of order
+  $n\equiv1$ or $2\pmod 4$ exists only if $n$ is a sum of two squares. This
+  excludes orders $6$, $14$, $21$, $22$ and infinitely many more, a partial
+  answer to the problem.
 authors:
 - R. H. Bruck
 - H. J. Ryser
@@ -48,10 +49,10 @@ powers; the smallest of them, $n=10$, is excluded by
 [[problems/set_systems/E0723/claims/1989_12_01_lam_thiel_swiercz|Lam, Thiel and Swiercz's search]],
 and $n=12$ is the first order the problem leaves undecided.
 
-**Acceptance.** Refereed: Canad. J. Math. **1** (1949), no. 1, 88–93; the
-issue is dated February 1949, and the page is dated to the first day of that
-month. The site's curator records the theorem under [BrRy49] while labeling
-the problem FALSIFIABLE, which credits the partial result without settling
-the problem, so the page lists no `reviewed` evidence. The library card
-records the paper's theorems; the proof has not been reconstructed or
-independently reviewed in this corpus.
+**Acceptance.** Refereed: Canad. J. Math. **1** (1949), no. 1, 88–93. The issue
+is dated February 1949, and the page is dated to the first day of that month.
+The site's curator records the theorem under [BrRy49] and labels the problem
+FALSIFIABLE. This credits the partial result without settling the problem, so
+the page lists no `reviewed` evidence. The library card records the paper's
+theorems. The proof has not been reconstructed or independently reviewed in this
+corpus.

@@ -2,11 +2,10 @@
 name: problems/number_theory/E0362
 title: Problem 362
 desc: |
-  Bounds the number of subsets of an N-element set of naturals summing to a
-  fixed target by 2^N over N^{3/2}, proved by Sárközy and Szemerédi with
-  Stanley's exact maximizers, and the count with the subset size also fixed by
-  2^N over N squared, proved by Halász from his bound on signed sums of
-  1-separated plane vectors in a unit ball.
+  Asks whether $\ll2^N/N^{3/2}$ subsets of a set of $N$ naturals have sum $t$,
+  and $\ll2^N/N^2$ if their size is fixed too. Sárközy and Szemerédi proved the
+  first (Stanley found the exact maximizers), and Halász the second, via his
+  bound on signed sums of $1$-separated plane vectors in a unit ball.
 tags:
 - Number theory
 status: solved
@@ -69,50 +68,56 @@ under Formalization.
 
 **Status.** PROVED (LEAN), on the site's label, which the two refereed sources
 support, one for each question. The derived frontmatter standing is solved,
-proved: the page lists the two questions as its parts, and each is settled by an
-accepted partial claim page,
-[[problems/number_theory/E0362/claims/1965_01_01_sarkozy_szemeredi|Sárközy and
-Szemerédi 1965]] settling the first question and
+proved. The page lists the two questions as its parts, and each is settled by an
+accepted partial claim page.
+[[problems/number_theory/E0362/claims/1965_01_01_sarkozy_szemeredi|Sárközy and Szemerédi 1965]]
+settles the first question and
 [[problems/number_theory/E0362/claims/1977_09_01_halasz|Halász 1977]] the
-second, so the two claims together settle every part, and both questions are
+second. So the two claims together settle every part, and both questions are
 answered yes below. A Lean development that declares itself a formalization of
-both results is linked from both claim pages and described under Formalization;
-it was not built here and supplies no formalized evidence. First question: yes,
-by the Satz of Sárközy and Szemerédi (Acta Arith. 11 (1965), 205--208,
-refereed): for every $\varepsilon>0$ and $n>n_0(\varepsilon)$, any $n$ distinct
-positive reals have $\max_tf(t)<(1+\varepsilon)(8/\sqrt\pi)2^n/n^{3/2}$; for the
-finitely many $N\le n_0(1)$ the trivial $f_A(t)\le2^N$ gives the bound with the
-constant $n_0(1)^{3/2}$ (an authored line), so $f_A(t)\ll2^N/N^{3/2}$ with an
+both results is linked from both claim pages and described under Formalization.
+It was not built here and supplies no formalized evidence.
+
+First question: yes, by the Satz of Sárközy and Szemerédi (Acta Arith. 11
+(1965), 205--208, refereed). For every $\varepsilon>0$ and $n>n_0(\varepsilon)$,
+any $n$ distinct positive reals have
+$\max_tf(t)<(1+\varepsilon)(8/\sqrt\pi)2^n/n^{3/2}$. For the finitely many
+$N\le n_0(1)$, the trivial bound $f_A(t)\le2^N$ gives the bound with the
+constant $n_0(1)^{3/2}$ (an authored line). So $f_A(t)\ll2^N/N^{3/2}$ with an
 absolute constant. The order is sharp: $A=\{1,\ldots,N\}$ has
-$\max_tf(t)>c_32^N/N^{3/2}$ (the paper's remark), and Stanley's Corollary 5.1
-(SIAM J. Algebraic Discrete Methods 1 (1980), 168--184, refereed) identifies the
-exact maximum over $N$ distinct positive reals as the middle coefficient of
-$(1+q)(1+q^2)\cdots(1+q^N)$, attained by $\{1,\ldots,N\}$, and his Corollary 5.3
-the maximum over all sets of $N$ distinct reals, attained by
-$\{-\lfloor(N-1)/2\rfloor,\ldots,\lfloor N/2\rfloor\}$, the site's set. Second
-question: yes, by Halász's Theorem 2 and the remark that follows it (Period.
-Math. Hungar. 8 (1977), 197--211, refereed): for $n$ vectors $\mathbf
-a_k\in\mathbb R^d$ with $|\mathbf a_k-\mathbf a_{k'}|\ge1$ for $k\ne k'$ such
-that, for some $\delta>0$ and every unit vector $\mathbf e$, at least $\delta n$
-of them satisfy $|(\mathbf a_k,\mathbf e)|\ge1$, at most
-$c(\delta,d)2^nn^{-1-d/2}$ of the $2^n$ signed sums $\sum_k\varepsilon_k\mathbf
-a_k$ lie in any open unit ball, and the remark records "a conjecture of Erdős
-(oral communication), confirmed by Theorem 2: $N\le c2^nn^{-2}$ if $\mathbf
-a_k=(a_k,1)$, $|a_k-a_{k'}|\ge1$, i.e., if in the above result of Sárközi and
-Szemerédi the number of $+$ signs in $\mathbf S$ is also fixed", the
-multidimensional theorem the site's commentary credits and its consequence. For
-the page, the subsets $S\subseteq A$ with $|S|=l$ and $\sum S=t$ are the sign
-vectors whose sum $\sum_k\varepsilon_k(a_k,1)$ is the point $(2t-\sum
-A,\,2l-N)$, and translating $A$ so that its middle element is $0$, which leaves
-the fixed-size counts unchanged, supplies the condition on $\delta$ with
-$\delta=1/4$ for $N\ge6$, so the count is at most $c(1/4,2)2^N/N^2$ with an
-absolute constant (an authored reduction, recorded under The second question
-below; $N\le5$ is covered by the trivial bound $2^N$). The conjecture itself is
-Erdős's (1965, with the constant independent of the subset size, his $t$, the
-page's $l$; 1973, display (8.8), with the constant independent of $t$, $l$, $n$
-and the sequence). Halász's printed proof of Theorem 2 is a one-paragraph
-modification (p. 208) of his proof of the probabilistic Theorem 4, not checked
-here. The site's label agrees with the two refereed sources.
+$\max_tf(t)>c_32^N/N^{3/2}$ (the paper's remark). Stanley's Corollary 5.1 (SIAM
+J. Algebraic Discrete Methods 1 (1980), 168--184, refereed) identifies the exact
+maximum over $N$ distinct positive reals as the middle coefficient of
+$(1+q)(1+q^2)\cdots(1+q^N)$, attained by $\{1,\ldots,N\}$. His Corollary 5.3
+identifies the maximum over all sets of $N$ distinct reals, attained by
+$\{-\lfloor(N-1)/2\rfloor,\ldots,\lfloor N/2\rfloor\}$, the site's set.
+
+Second question: yes, by Halász's Theorem 2 and the remark that follows it
+(Period. Math. Hungar. 8 (1977), 197--211, refereed). Take $n$ vectors
+$\mathbf a_k\in\mathbb R^d$ with $|\mathbf a_k-\mathbf a_{k'}|\ge1$ for
+$k\ne k'$, such that, for some $\delta>0$ and every unit vector $\mathbf e$, at
+least $\delta n$ of them satisfy $|(\mathbf a_k,\mathbf e)|\ge1$. Then at most
+$c(\delta,d)2^nn^{-1-d/2}$ of the $2^n$ signed sums
+$\sum_k\varepsilon_k\mathbf a_k$ lie in any open unit ball. The remark records
+"a conjecture of Erdős (oral communication), confirmed by Theorem 2:
+$N\le c2^nn^{-2}$ if $\mathbf a_k=(a_k,1)$, $|a_k-a_{k'}|\ge1$, i.e., if in the
+above result of Sárközi and Szemerédi the number of $+$ signs in $\mathbf S$ is
+also fixed". Theorem 2 and this remark are the multidimensional theorem that the
+site's commentary credits and its consequence. For the page, the subsets
+$S\subseteq A$ with $|S|=l$ and $\sum S=t$ are the sign vectors whose sum
+$\sum_k\varepsilon_k(a_k,1)$ is the point $(2t-\sum A,\,2l-N)$. Translating $A$
+so that its middle element is $0$ leaves the fixed-size counts unchanged. It
+supplies the condition on $\delta$ with $\delta=1/4$ for $N\ge6$, so the count
+is at most $c(1/4,2)2^N/N^2$ with an absolute constant. This is an authored
+reduction, recorded under The second question below. The case $N\le5$ is covered
+by the trivial bound $2^N$.
+
+The conjecture itself is Erdős's. In 1965 he stated it with the constant
+independent of the subset size (his $t$, the page's $l$). In 1973, display
+(8.8), he stated it with the constant independent of $t$, $l$, $n$ and the
+sequence. Halász's printed proof of Theorem 2 is a one-paragraph modification
+(p. 208) of his proof of the probabilistic Theorem 4, and it was not checked
+here.
 
 **Source.** [erdosproblems.com/362](https://www.erdosproblems.com/362), accessed
 2026-09-18: the problem page (PROVED (LEAN), with the site's note that the

@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0051/claims/2026_01_11_colossal_noob
 title: A one-page proof attributed to ChatGPT, refuted the same day
 desc: |
-  A forum user posted on 11 January 2026 a one-page proof that ChatGPT (free
-  version) had produced, asserting a yes answer through the products of
-  p_i minus 1; its minimality step fails, as three replies showed the same day.
+  On 11 January 2026 a forum user posted a one-page proof that ChatGPT (free
+  version) had produced, asserting a yes answer through the products
+  $\prod_{i\le k}(p_i-1)$. Its minimality step fails, as three replies showed
+  the same day.
 authors: []
 status: rejected
 claim: proved

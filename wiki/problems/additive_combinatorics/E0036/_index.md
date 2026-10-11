@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0036
 title: Problem 36
 desc: |
-  Asks for the largest constant c such that every split of the first 2N
-  integers into two equal halves has a difference realized at least c times N
-  ways.
+  Asks for the largest constant $c$ such that, for large $N$, every partition of
+  $\{1,\ldots,2N\}$ into sets $A$ and $B$ of size $N$ has some $x$ with at least
+  $cN$ solutions to $a-b=x$ with $a\in A$ and $b\in B$; open.
 tags:
 - Number theory
 - Additive combinatorics
@@ -29,32 +29,35 @@ into two equal parts, so that $\lvert A\rvert=\lvert B\rvert=N$, then there is
 some $x$ such that the number of solutions to $a-b=x$ with $a\in A$ and $b\in B$
 is at least $cN$.
 
-**Status.** Open, the site's label (OPEN; page last edited 23 January
-2026). The site's commentary gives the records $0.379005<c<0.380876$, the
-lower bound due to White [Wh22] and the upper bound to the TTT-Discover LLM
+**Status.** Open, the site's label (OPEN; page last edited 23 January 2026). The
+site's commentary gives the records $0.379005<c<0.380876$. The lower bound is
+due to White [Wh22], and the upper bound to the TTT-Discover LLM
 [YKLBMWKCZGS26], improving on AlphaEvolve [GGTW25] and Haugland [Ha16]. The
-record bounds and the later bounds with library cards have partial claim
-pages: White's refereed lower bound
-([[problems/additive_combinatorics/E0036/claims/2022_01_14_white|claim page]], accepted
-on the refereed publication), the TTT-Discover upper bound
-([[problems/additive_combinatorics/E0036/claims/2026_01_22_yuksekgonul_et_al|claim page]], claimed), Kim and Pilanci's lower bound
-$0.37912$ of June 2026
-([[problems/additive_combinatorics/E0036/claims/2026_06_30_kim_pilanci|claim page]], claimed) and Russell's
-certified upper bound $0.38085906$ of July 2026
-([[problems/additive_combinatorics/E0036/claims/2026_07_12_russell|claim page]], claimed). The site's proof-claims tab carries
-two partial proof claims, each raising the lower bound for the constant:
-one submitted by Liam Price on 2026-07-20 and credited to GPT Pro, claiming
-$c\ge0.38055470$
-([[problems/additive_combinatorics/E0036/claims/2026_07_20_price|claim page]]), and one submitted by the
-forum user Drynshock on 2026-09-19 and credited to GPT 6 Pro, claiming
-$c>0.3805634$ through a subadditivity inequality for the overlap function
-added to the convex relaxation
-([[problems/additive_combinatorics/E0036/claims/2026_09_19_drynshock|claim page]]); neither
-claim had comments on its thread as of 2026-10-06, and this page records them
-without adopting them. The superseded bounds, the trivial $1/4$, Scherk's
-$1-1/\sqrt2$, Moser's $\sqrt{4-\sqrt{15}}\approx0.3564$, Haugland's upper
-bounds of 1996 and 2016 and AlphaEvolve's $0.380924$, are history recorded in
-the references and get no claim page.
+record bounds and the later bounds with library cards have partial claim pages.
+White's refereed lower bound is accepted on the refereed publication
+([[problems/additive_combinatorics/E0036/claims/2022_01_14_white|claim page]]).
+The TTT-Discover upper bound is claimed
+([[problems/additive_combinatorics/E0036/claims/2026_01_22_yuksekgonul_et_al|claim page]]).
+Kim and Pilanci's lower bound $0.37912$ of June 2026 is claimed
+([[problems/additive_combinatorics/E0036/claims/2026_06_30_kim_pilanci|claim page]]),
+and so is Russell's certified upper bound $0.38085906$ of July 2026
+([[problems/additive_combinatorics/E0036/claims/2026_07_12_russell|claim page]]).
+
+The site's proof-claims tab carries two partial proof claims, each raising the
+lower bound for the constant. The first, submitted by Liam Price on 2026-07-20
+and credited to GPT Pro, claims $c\ge0.38055470$
+([[problems/additive_combinatorics/E0036/claims/2026_07_20_price|claim page]]).
+The second, submitted by the forum user Drynshock on 2026-09-19 and credited to
+GPT 6 Pro, claims $c>0.3805634$. It does so through a subadditivity inequality
+for the overlap function added to the convex relaxation
+([[problems/additive_combinatorics/E0036/claims/2026_09_19_drynshock|claim page]]).
+Neither claim had comments on its thread as of 2026-10-06. This page records
+them without adopting them.
+
+The superseded bounds are history recorded in the references and get no claim
+page. They are the trivial $1/4$, Scherk's $1-1/\sqrt2$, Moser's
+$\sqrt{4-\sqrt{15}}\approx0.3564$, Haugland's upper bounds of 1996 and 2016, and
+AlphaEvolve's $0.380924$.
 
 **Source.** [erdosproblems.com/36](https://www.erdosproblems.com/36), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #36,

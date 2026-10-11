@@ -2,9 +2,10 @@
 name: problems/analysis/E0909/claims/1967_01_24_anderson_keisler
 title: Anderson and Keisler's set whose powers keep its dimension
 desc: |
-  Constructs in Euclidean (n+1)-space a set of dimension n whose finite and
-  countable powers all have dimension n, answering the question yes for every
-  n; refereed and credited by the site's curator.
+  Anderson and Keisler construct in Euclidean $(n+1)$-space a set of dimension
+  $n$ whose finite and countable powers all have dimension $n$, answering the
+  question yes for every $n$. The paper is refereed and credited by the site's
+  curator.
 authors:
 - R. D. Anderson
 - J. E. Keisler
@@ -48,11 +49,11 @@ the
 card]]; its proofs are not reconstructed in this corpus.
 
 **Acceptance.** The result is refereed: R. D. Anderson and J. E. Keisler, *An
-example in dimension theory*, Proc. Amer. Math. Soc. 18 (1967), no. 4,
-709–713, received by the editors on December 16, 1966. It is reviewed in the
-sense of a documented independent acceptance: Thomas Bloom, the curator of
-erdosproblems.com, marks Problem 909 proved and credits Anderson and Keisler
-for the general case.
+example in dimension theory*, Proc. Amer. Math. Soc. 18 (1967), no. 4, 709–713.
+The editors received it on December 16, 1966. It is reviewed in the sense of a
+documented independent acceptance: Thomas Bloom, the curator of
+erdosproblems.com, marks Problem 909 proved and credits Anderson and Keisler for
+the general case.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos909.lean` of Boris
 Alexeev's lean-proofs repository, linked above at a fixed commit and added on

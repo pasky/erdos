@@ -2,9 +2,9 @@
 name: problems/distance_problems/E1085/claims/1990_09_01_erdos_pach
 title: Erdős and Pach's unit-distance count in odd dimensions five and above
 desc: |
-  For odd d at least 5 and p the floor of d/2, the maximum number of unit
-  distances among n points of d-space is (p-1)/(2p) n^2 plus a second-order
-  term of exact order n^(4/3).
+  Erdős and Pach proved that for odd $d\ge5$ and $p=\lfloor d/2\rfloor$, the
+  maximum number of unit distances among $n$ points of $\mathbb{R}^d$ is
+  $\frac{p-1}{2p}n^2$ plus a second-order term of exact order $n^{4/3}$.
 authors:
 - P. Erdős
 - J. Pach
@@ -59,8 +59,8 @@ Erdős–Stone theorem with the $O(n^{4/3})$ bound for unit distances among $n$
 points on a two-sphere.
 
 **Acceptance.** Refereed: P. Erdős and J. Pach, Variations on the theme of
-repeated distances, Combinatorica 10 (1990), no. 3, 261–269. Not reviewed:
-the site's remarks credit this result to the paper, but the site labels the
-problem OPEN, so the remark is not an acceptance of the problem or of a part.
-The statement is taken from the site's remarks and from the introduction of
-[Sw09]; the paper has no library card.
+repeated distances, Combinatorica 10 (1990), no. 3, 261–269. Not reviewed: the
+site's remarks credit this result to the paper, but the site labels the problem
+OPEN, so the remark is not an acceptance of the problem or of a part. The
+statement is taken from the site's remarks and from the introduction of [Sw09].
+The paper has no library card.

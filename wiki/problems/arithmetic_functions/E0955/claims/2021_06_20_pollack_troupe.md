@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0955/claims/2021_06_20_pollack_troupe
 title: Pollack and Troupe's Erdős-Kac law for omega(s(n))
 desc: |
-  Pollack and Troupe prove that omega(s(n)) satisfies the Erdős-Kac law, so
-  the integers whose prime-factor count is far from log log m in Erdős-Kac
-  units have a density-zero preimage.
+  Pollack and Troupe prove that $\omega(s(n))$ satisfies the Erdős–Kac law. So
+  the integers $m$ whose number of prime factors is far from $\log\log m$ in
+  units of $\sqrt{\log\log m}$ have a density-zero preimage under $s$.
 authors:
 - Paul Pollack
 - Lee Troupe

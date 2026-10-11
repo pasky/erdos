@@ -2,8 +2,7 @@
 name: problems/arithmetic_functions/E0368
 title: Problem 368
 desc: |
-  Asks how large the largest prime factor of the product of n and n plus one
-  is.
+  Asks how large the largest prime factor of $n(n+1)$ is; open.
 tags:
 - Number theory
 status: open
@@ -22,21 +21,21 @@ updated: 2026-10-07T20:33:08Z
 
 **Statement.** How large is the largest prime factor of $n(n+1)$?
 
-**Status.** Open, in the site's label (OPEN). Writing $F(n)$ for the prime in
-question, the site's commentary credits four refereed bounds, which the
-corpus accepts on their publication as partial claims, none determining the
-order of $F(n)$: Pólya [Po18] proved $F(n)\to\infty$
-([[problems/arithmetic_functions/E0368/claims/1918_06_01_polya|claim page]]),
+**Status.** Open, in the site's label (OPEN). Write $F(n)$ for the prime in
+question. The site's commentary credits four refereed bounds. The corpus accepts
+each on its publication as a partial claim, and none determines the order of
+$F(n)$. Pólya [Po18] proved $F(n)\to\infty$
+([[problems/arithmetic_functions/E0368/claims/1918_06_01_polya|claim page]]).
 Mahler [Ma35] proved $F(n)\gg\log\log n$
-([[problems/arithmetic_functions/E0368/claims/1935_01_01_mahler|claim page]]),
-Schinzel [Sc67b] observed that $F(n)\le n^{O(1/\log\log\log n)}$ for
-infinitely many $n$
-([[problems/arithmetic_functions/E0368/claims/1967_01_01_schinzel|claim page]]),
-and Pasten [Pa24b] proved $F(n)\gg(\log\log n)^2/\log\log\log n$
+([[problems/arithmetic_functions/E0368/claims/1935_01_01_mahler|claim page]]).
+Schinzel [Sc67b] observed that $F(n)\le n^{O(1/\log\log\log n)}$ for infinitely
+many $n$
+([[problems/arithmetic_functions/E0368/claims/1967_01_01_schinzel|claim page]]).
+Pasten [Pa24b] proved $F(n)\gg(\log\log n)^2/\log\log\log n$
 ([[problems/arithmetic_functions/E0368/claims/2023_12_06_pasten|claim page]]).
-The problem stays open: the site expects $F(n)\gg(\log n)^2$ for all $n$,
-and Erdős [Er76d] conjectured that for every $\varepsilon>0$ there are
-infinitely many $n$ with $F(n)<(\log n)^{2+\varepsilon}$.
+The problem stays open. The site expects $F(n)\gg(\log n)^2$ for all $n$. Erdős
+[Er76d] conjectured that for every $\varepsilon>0$ there are infinitely many $n$
+with $F(n)<(\log n)^{2+\varepsilon}$.
 
 **Source.** [erdosproblems.com/368](https://www.erdosproblems.com/368), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #368,

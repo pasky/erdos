@@ -3,8 +3,8 @@ name: problems/factorials_binomials/E0699/claims/2026_07_25_van_doorn_rocca
 title: Van Doorn and Rocca's reduction to i = 3 and a finite set
 desc: |
   Two unpublished 2026 manuscripts by Wouter van Doorn and Stefano Rocca prove
-  that no counterexample has i = 1, 2 or i at least 1476, that each fixed i at
-  least 4 allows only finitely many, and leave i = 3 open.
+  that no counterexample has $i=1$, $i=2$ or $i\ge1476$, and that each fixed
+  $i\ge4$ allows only finitely many. They leave $i=3$ open.
 authors:
 - Wouter van Doorn
 - Stefano Rocca

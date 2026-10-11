@@ -3,8 +3,9 @@ name: problems/analysis/E0225/claims/1974_05_01_kristiansen
 title: Kristiansen's proof of Erdős's conjecture
 desc: |
   Kristiansen proves Erdős's conjecture for real trigonometric polynomials of
-  degree n with 2n real roots, which gives the bound 4 of Problem 225 for all
-  complex coefficients; the erratum the site cites concerns a companion note.
+  degree $n$ with $2n$ real roots, which gives the bound $4$ of Problem 225 for
+  all complex coefficients. The erratum the site cites concerns a companion
+  note.
 authors:
 - G. K. Kristiansen
 status: accepted
@@ -58,10 +59,9 @@ trigonometric paper, which cites only Erdős's 1940 note. The site's
 commentary thus attaches the companion note's erratum to this paper.
 
 **Acceptance.** The paper is refereed: G. K. Kristiansen, *Proof of an
-inequality for trigonometric polynomials*, Proc. Amer. Math. Soc. 44, no. 1
-(May 1974), 49--57. The site's curator, Thomas F. Bloom, marks Problem 225
-proved and credits this paper with an independent solution of the case
-$c_k\in\mathbb R$ only, which is narrower than the paper's theorem, so the
-curator's credit is not listed as `reviewed`. The page is dated by the first
-day of the issue month, since the paper's first posting carries no finer
-date.
+inequality for trigonometric polynomials*, Proc. Amer. Math. Soc. 44, no. 1 (May
+1974), 49--57. The site's curator, Thomas F. Bloom, marks Problem 225 proved. He
+credits this paper with an independent solution of the case $c_k\in\mathbb R$
+only. That is narrower than the paper's theorem, so the curator's credit is not
+listed as `reviewed`. The page is dated by the first day of the issue month,
+since the paper's first posting carries no finer date.

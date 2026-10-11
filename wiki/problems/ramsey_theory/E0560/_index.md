@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0560
 title: Problem 560
 desc: |
-  Asks for the size Ramsey number of the balanced complete bipartite graph
-  with n vertices on each side; known between orders n squared times two to
-  the n and n cubed times two to the n.
+  Asks for the size Ramsey number of $K_{n,n}$, the complete bipartite graph
+  with $n$ vertices on each side; open, with its order known to lie between
+  $n^22^n$ and $n^32^n$.
 tags:
 - Graph theory
 - Ramsey theory
@@ -51,25 +51,26 @@ carries the same citation, evidently the origin of the key.
 
 **Status.** Open, in the site's label (OPEN; page last edited 18 January 2026,
 accessed 2026-09-17). No source cited here determines the order of
-$\hat R(K_{n,n})$. Checked at statement depth against the sources:
-$\hat R(K_{n,n})>\frac1{60}n^22^n$ for all $n\ge1$ ([ErRo93] Theorem 1; [CFW23]
-present the argument for all $t\ge s+2$ in Proposition 2.2 with footnote 1) and
-$\hat R(K_{n,n})\le4en^32^n$ ([CFW23] Proposition 2.1; the 1978 paper's
-$b_2n^32^{n-1}$ comes from its Theorem 6 applied at $m=n$). The site's
-constants, $\frac1{60}n^22^n<\hat R(K_{n,n})<\frac32n^32^n$, are both printed in
-[ErRo93]: the lower bound is its Theorem 1 for all $n\ge1$, and the upper bound
-is its display (1), credited there to [EFRS78b] and derived from a pigeonhole
-criterion whose parameters work "for all $n\ge6$"; the site attaches the
-qualification $n\ge6$ to the lower bound, where the paper has none. The site
-also credits the upper bound to [NeRo78]; that paper concerns critical Ramsey
-graphs, the Ramsey graphs minimal under subgraph inclusion, and contains no
-statement about size Ramsey numbers or $K_{n,n}$, so its text does not support
-the credit. Conlon, Fox and Wigderson's Theorem 1.1,
-$\hat R(K_{s,t})\gg s^{2-s/t}t2^s$ for all $s\le t$, gives on the diagonal $s=t$
-only $\Omega(n^22^n)$; their Conjecture 5.1 predicts
+$\hat R(K_{n,n})$. Two bounds were checked at statement depth against the
+sources. The lower bound is $\hat R(K_{n,n})>\frac1{60}n^22^n$ for all $n\ge1$
+([ErRo93] Theorem 1), and [CFW23] present the argument for all $t\ge s+2$ in
+Proposition 2.2 with footnote 1. The upper bound is $\hat R(K_{n,n})\le4en^32^n$
+([CFW23] Proposition 2.1), and the 1978 paper's $b_2n^32^{n-1}$ comes from its
+Theorem 6 applied at $m=n$. Conlon, Fox and Wigderson's Theorem 1.1,
+$\hat R(K_{s,t})\gg s^{2-s/t}t2^s$ for all $s\le t$, gives only $\Omega(n^22^n)$
+on the diagonal $s=t$. Their Conjecture 5.1 predicts
 $\hat R(K_{n,n})=\Theta(n^32^n)$. The gap is a factor of $n$. This is a bounded
-negative finding from the search, not a certificate of
-openness.
+negative finding from the search, not a certificate of openness.
+
+The site's constants, $\frac1{60}n^22^n<\hat R(K_{n,n})<\frac32n^32^n$, are both
+printed in [ErRo93]. The lower bound is its Theorem 1, for all $n\ge1$. The
+upper bound is its display (1), credited there to [EFRS78b] and derived from a
+pigeonhole criterion whose parameters work "for all $n\ge6$". The site attaches
+the qualification $n\ge6$ to the lower bound, where the paper has none. The site
+also credits the upper bound to [NeRo78]. That paper concerns critical Ramsey
+graphs, the Ramsey graphs minimal under subgraph inclusion. It contains no
+statement about size Ramsey numbers or $K_{n,n}$, so its text does not support
+the credit.
 
 **Source.** [erdosproblems.com/560](https://www.erdosproblems.com/560),
 accessed 2026-09-17: the problem page (labeled OPEN, with the site's note

@@ -24,37 +24,40 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** Is there a permutation $a_1,a_2,\ldots$ of the positive integers
 such that $a_k+a_{k+1}$ is always prime?
 
-**Status.** Proved. The site records that Odlyzko showed the answer is yes and
+**Status.** Proved. The site records that Odlyzko showed the answer is yes, and
 that no reference is given. Erdős and Graham report on printed p. 94 of their
 1980 monograph that Odlyzko constructed a permutation with prime consecutive
-sums, settling the question Segal had posed in 1977; their bibliography marks
-the construction unpublished. The claim page
+sums. This settled the question Segal had posed in 1977. Their bibliography
+marks the construction unpublished. The claim page
 [[problems/integer_sequences/E0473/claims/1980_01_01_odlyzko|Odlyzko]] records
-it, accepted on Erdős and Graham's published report and the PROVED label set
-by the site's curator, Thomas Bloom, who credits Odlyzko; the construction has
-not been located (a thread exchange of 8 October 2025 looked for it without
-success), so it has not been checked. The site's commentary also carries side
-questions that do not bear on the standing: Watts asked whether the greedy
-permutation ($a_1=1$, and $a_{n+1}$ the least unused $x$ with $a_n+x$ prime)
-is onto the positive integers and whether every prime occurs as a consecutive
-sum; a thread comment of 8 October 2025 settles the second in the negative,
-$197$ never occurring as a sum. Segal's finite version, a permutation of
-$\{1,\ldots,n\}$ with prime consecutive sums for every $n\ge2$, is reported by
-the site as expected on probabilistic grounds and true for infinitely many
-$n$, with a link to a MathOverflow discussion; a thread comment of 8 October
-2025 points to the bounded-gaps argument given there. A preprint of 16
-September 2026 [She26] claims a prime circle of order $2n$, a circular
-ordering of $1,\ldots,2n$ with every two adjacent terms summing to a prime,
-for every sufficiently large $n$; deleting one edge of a circle of order $N$
-(for even $N$), or the vertex $N+1$ of a circle of order $N+1$ (for odd $N$),
-would give the finite version for all large $N$. It is a claimed result on
-that variant, not on the question; the formal-conjectures file marks the
-variant open. A related refereed result is the two-way infinite variant:
-Shang, Li and Zhang construct an arrangement $(a_i)_{i\in\mathbb Z}$ of the
-positive integers with every $a_i+a_{i+1}$ prime, using Zhang's bounded gaps
-between primes (abstract accessed; the paper is not held). A
-two-way arrangement is not a sequence $a_1,a_2,\ldots$, so it is a variant,
-not a claim on the question.
+it. The claim is accepted on Erdős and Graham's published report and on the
+PROVED label set by the site's curator, Thomas Bloom, who credits Odlyzko. The
+construction has not been located, so it has not been checked. A thread exchange
+of 8 October 2025 looked for it without success.
+
+The site's commentary also carries side questions that do not bear on the
+standing. Watts asked two questions about the greedy permutation ($a_1=1$, and
+$a_{n+1}$ the least unused $x$ with $a_n+x$ prime): whether it is onto the
+positive integers, and whether every prime occurs as a consecutive sum. A thread
+comment of 8 October 2025 settles the second in the negative: $197$ never occurs
+as a sum. Segal's finite version asks for a permutation of $\{1,\ldots,n\}$ with
+prime consecutive sums for every $n\ge2$. The site reports it as expected on
+probabilistic grounds and true for infinitely many $n$, with a link to a
+MathOverflow discussion. A thread comment of 8 October 2025 points to the
+bounded-gaps argument given there.
+
+A preprint of 16 September 2026 [She26] claims a prime circle of order $2n$ for
+every sufficiently large $n$. A prime circle of order $2n$ is a circular
+ordering of $1,\ldots,2n$ with every two adjacent terms summing to a prime.
+Deleting one edge of a circle of order $N$ (for even $N$), or the vertex $N+1$
+of a circle of order $N+1$ (for odd $N$), would give the finite version for all
+large $N$. The preprint is a claimed result on that variant, not on the
+question. The formal-conjectures file marks the variant open. A related refereed
+result concerns the two-way infinite variant. Shang, Li and Zhang construct an
+arrangement $(a_i)_{i\in\mathbb Z}$ of the positive integers with every
+$a_i+a_{i+1}$ prime, using Zhang's bounded gaps between primes (abstract
+accessed; the paper is not held). A two-way arrangement is not a sequence
+$a_1,a_2,\ldots$, so it is a variant, not a claim on the question.
 
 **Source.** [erdosproblems.com/473](https://www.erdosproblems.com/473), accessed
 2026-09-04 and, for the page (last edited 2 December 2025), its

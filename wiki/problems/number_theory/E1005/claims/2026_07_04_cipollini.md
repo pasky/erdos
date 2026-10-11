@@ -2,9 +2,10 @@
 name: problems/number_theory/E1005/claims/2026_07_04_cipollini
 title: Cipollini's asymptotic f(n) = (1/4 + o(1)) n
 desc: |
-  Cipollini's 2026 preprint, with declared AI assistance, proving the lower
-  bound (1/4 - o(1)) n and so the asymptotic with c = 1/4; the site's
-  resolution, unrefereed, with three outside Lean developments not built here.
+  Cipollini's 2026 preprint, with declared AI assistance, proves the lower bound
+  $(\frac14-o(1))n$ and so the asymptotic with $c=1/4$. It is the site's
+  resolution and is unrefereed, and three outside Lean developments were not
+  built here.
 authors:
 - Ricky Cipollini
 status: accepted
@@ -111,16 +112,15 @@ theorem does not rest on
 with which the site's account pairs it.
 
 **Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labels the
-problem solved and credits this preprint, in the problem's commentary,
-with the lower bound that gives $f(n)=(\frac14+o(1))n$ (the page was last
-edited 1 September 2026); the curator neither wrote nor submitted the
-result. Not refereed: arXiv:2607.23302v1 is the only version, no journal
-record (Crossref, 2026-09-18) and no written independent expert review
-were found, and Semantic Scholar lists one citing record, the Wang--Xie--Zhao
-preprint. Read depth: the statement, the reduction and the lemma
-statements were checked; the lower-bound argument (pp. 3--14) was read for
-structure, no step was checked, and nothing here is independently reviewed
-by this project.
+problem solved and, in the problem's commentary, credits this preprint with the
+lower bound that gives $f(n)=(\frac14+o(1))n$ (the page was last edited 1
+September 2026). The curator neither wrote nor submitted the result. Not
+refereed: arXiv:2607.23302v1 is the only version. No journal record (Crossref,
+2026-09-18) and no written independent expert review were found. Semantic
+Scholar lists one citing record, the Wang--Xie--Zhao preprint. Read depth: the
+statement, the reduction and the lemma statements were checked. The lower-bound
+argument (pp. 3--14) was read for structure, and no step of it was checked.
+Nothing here is independently reviewed by this project.
 
 **Depends on.** Nothing on the wiki; the theorem, both bounds included, is
 proved in the preprint linked above.

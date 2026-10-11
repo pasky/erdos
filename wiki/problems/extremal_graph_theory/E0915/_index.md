@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0915
 title: Problem 915
 desc: |
-  Asks whether a graph with 1+n(m−1) vertices and 1+n·C(m,2) edges has two
-  vertices joined by m disjoint paths; false for m at least 5 if the paths are
-  vertex-disjoint, true for every m if edge-disjoint; the site labels it solved.
+  Asks whether a graph with $1+n(m-1)$ vertices and $1+n\binom{m}{2}$ edges has
+  two vertices joined by $m$ disjoint paths. False for $m\ge5$ if the paths are
+  vertex-disjoint, true for every $m$ if they are edge-disjoint; the site labels
+  it solved.
 tags:
 - Graph theory
 status: solved
@@ -55,70 +56,77 @@ endpoints (p. 283), and Sørensen and Thomassen state it for $k$-rails
 reading is a variant. The site's label SOLVED is the one it uses for a problem
 resolved otherwise than by a proof or a disproof.
 
-**Status.** SOLVED, the site's label, which attaches to one reading of the
-ambiguous wording: under the vertex-disjoint reading the answer is no for every
-$m\ge5$, and under the edge-disjoint reading the answer is yes for every
+**Status.** SOLVED. This is the site's label, and it attaches to one reading of
+the ambiguous wording. Under the vertex-disjoint reading the answer is no for
+every $m\ge5$. Under the edge-disjoint reading the answer is yes for every
 $m\ge2$. The site's curator wrote in the thread (28 October 2025) that the
-question as stated had been disproved for every $m\ge5$ and that the problem was
-therefore marked solved, having written the day before of leaning toward leaving
-it open, since calling a false statement solved seemed against the spirit of the
-question. The standing derived from the claim pages departs from that label: it
-is `disproved`, not a bare answer, because the page reads the wording as
+question as stated had been disproved for every $m\ge5$, and that the problem
+was therefore marked solved. The day before, the curator had written of leaning
+toward leaving it open, since calling a false statement solved seemed against
+the spirit of the question. The site's label is read as attached to one reading
+of an ambiguous wording, not as a defective one, since each reading is a
+meaningful question with a settled answer.
+
+The standing derived from the claim pages departs from that label. It is
+`disproved`, not a bare answer, because the page reads the wording as
 vertex-disjoint, the source's reading (Formulation), and under that reading
-accepted full claims disprove the statement; the edge-disjoint reading is proved
-and is recorded as a variant. The vertex-disjoint reading's status-defining text
-is Sørensen and Thomassen's paper ([SoTh74]), which proves
-$k_5(n)=\lfloor\frac83n\rfloor-3$ for $n\ge6$, $n\ne7$, $n\ne12$ (Theorem 4,
-p. 158) and $k_m(n)>\frac{m(m-1)-2}{2m-3}(n-m)$ for infinitely many $n$ for each
-$m\ge5$ (Corollary 2(a), p. 156), which the paper says "disproves the conjecture
-of Bollobás and Erdös for all $k\ge5$" (p. 144). Leonard's counterexample for
-$m=5$ ([Le73], Period. Math. Hungar. 3 (1973), 281--284) is a graph $G$ with
-$57$ points and $141$ edges and no two points joined by five internally disjoint
-paths (pp. 281--282), and for every integer $s$ graphs with $n$ points and more
-than $[5n/2]+s$ edges and no such pair (pp. 282--283). The other vertex-disjoint
-text, Mader's $k_m(n)>\frac m2n+C$ for $m\ge6$ ([Ma73], Math. Z. 131 (1973),
-223--231): the examples of pp. 228--229 give, in the site's letters, graphs on
-$N$ vertices with $\frac m2(N-1)+j(\frac m2-2)$ edges for odd $m\ge5$, or
-$\frac m2(N-1)+j(m-5)$ edges for even $m\ge6$, $j$ the number of cut cliques,
-and no two vertices joined by $m$ internally disjoint paths, so that no constant
-$C$ makes $\frac m2N+C$ edges force such a pair; both papers are reported as
-citations in [SoTh74]'s introduction (p. 143). The edge-disjoint reading's
-status-defining text is Satz 1 of [Ma73] (p. 223) with its Korollar (p. 226),
-which gives $\ell_m(n)=\lfloor\frac m2(n-1)+1\rfloor$ for every $m\ge2$, as the
-site and the thread's reading of the German original state it. What the primary
-texts establish: the case $m=3$ (Bártfai 1960 and Bollobás and Erdős 1962,
-$k_3(2n+1)=3n+1$, the problem's exact parameters, true under either reading);
-under the vertex-disjoint reading, the exact $k_5(n)$ and the disproof for every
-$m\ge5$ ([SoTh74], above) with Leonard's counterexample at $m=5$ ([Le73], above)
-and Mader's examples for every $m\ge5$ ([Ma73], above); and, under the
-edge-disjoint reading, every $m\ge2$ (Satz 1 and the Korollar of [Ma73], above),
-with the earlier cases $m=5$ (Leonard's $\ell_5(2n)=5n-2$, $\ell_5(2n+1)=5n+1$,
-[Le72]) and $m=6$ (Leonard's $\ell_6(n)=3n-2$, [Le73b]), and [Le72]'s
-observation that $\ell_m(n)=k_m(n)$ for $m\le4$, so the two readings agree
-there. The standing targets the vertex-disjoint reading, the source's reading
-(Formulation), which the curator's post of 28 October 2025 and the
-formal-conjectures statement also take; under it the question asks whether the
-statement holds for every $m\ge2$ and $n\ge1$, and a counterexample at one pair
-$(m,n)$ refutes it. The claim pages are
-[[problems/extremal_graph_theory/E0915/claims/1973_09_01_leonard|Leonard]] (the
-first published counterexample, at $m=5$, $n=14$),
+accepted full claims disprove the statement. The curator's post of 28 October
+2025 and the formal-conjectures statement also take this reading. Under it, the
+question asks whether the statement holds for every $m\ge2$ and $n\ge1$, and a
+counterexample at one pair $(m,n)$ refutes it. The edge-disjoint reading is
+proved. It is recorded as a variant, true for every $m\ge2$, on Mader's page and
+under Status support.
+
+The frontmatter is derived from the claim pages.
+[[problems/extremal_graph_theory/E0915/claims/1973_09_01_leonard|Leonard]]
+records the first published counterexample, at $m=5$, $n=14$.
 [[problems/extremal_graph_theory/E0915/claims/1974_10_01_sorensen_thomassen|Sørensen and Thomassen]]
-(the exact $k_5(n)$ and the disproof for every $m\ge5$) and
-[[problems/extremal_graph_theory/E0915/claims/1973_09_01_mader|Mader]] (the
-examples for every $m\ge5$, and the edge-disjoint variant proved with its exact
-threshold), each an accepted full disproof on the refereed publication and the
-site's acceptance, and the accepted partial claims of
+records the exact $k_5(n)$ and the disproof for every $m\ge5$.
+[[problems/extremal_graph_theory/E0915/claims/1973_09_01_mader|Mader]] records
+the examples for every $m\ge5$, and the edge-disjoint variant proved with its
+exact threshold. Each of these three is an accepted full disproof on the
+refereed publication and the site's acceptance. The accepted partial claims of
 [[problems/extremal_graph_theory/E0915/claims/1960_01_01_bartfai|Bártfai]]
 ($m=3$) and
 [[problems/extremal_graph_theory/E0915/claims/1966_01_01_bollobas|Bollobás]]
-($m=4$), each proved on its refereed publication. Leonard's $\ell_5$ [Le72] and
-$\ell_6$ [Le73b] answer only the edge-disjoint variant and settle no instance of
-the targeted reading, so they are recorded as variant results, not claims. The
-frontmatter is derived from the claim pages; the edge-disjoint reading is
-recorded as a variant, true for every $m\ge2$, on Mader's page and under Status
-support. The site's label is read as attached to one reading of an ambiguous
-wording, not as a defective one, since each reading is a meaningful question
-with a settled answer.
+($m=4$) are each proved on its refereed publication. Leonard's $\ell_5$ [Le72]
+and $\ell_6$ [Le73b] answer only the edge-disjoint variant and settle no
+instance of the targeted reading. So they are recorded as variant results, not
+claims.
+
+The vertex-disjoint reading's status-defining text is Sørensen and Thomassen's
+paper ([SoTh74]). It proves $k_5(n)=\lfloor\frac83n\rfloor-3$ for $n\ge6$,
+$n\ne7$, $n\ne12$ (Theorem 4, p. 158). It also proves
+$k_m(n)>\frac{m(m-1)-2}{2m-3}(n-m)$ for infinitely many $n$, for each $m\ge5$
+(Corollary 2(a), p. 156). The paper says this "disproves the conjecture of
+Bollobás and Erdös for all $k\ge5$" (p. 144). Leonard's counterexample for $m=5$
+([Le73], Period. Math. Hungar. 3 (1973), 281--284) is a graph $G$ with $57$
+points and $141$ edges and no two points joined by five internally disjoint
+paths (pp. 281--282). For every integer $s$, Leonard also gives graphs with $n$
+points and more than $[5n/2]+s$ edges and no such pair (pp. 282--283). The other
+vertex-disjoint text is Mader's $k_m(n)>\frac m2n+C$ for $m\ge6$ ([Ma73], Math.
+Z. 131 (1973), 223--231). In the site's letters, the examples of pp. 228--229
+are graphs on $N$ vertices with no two vertices joined by $m$ internally
+disjoint paths. They have $\frac m2(N-1)+j(\frac m2-2)$ edges for odd $m\ge5$,
+or $\frac m2(N-1)+j(m-5)$ edges for even $m\ge6$, where $j$ is the number of cut
+cliques. So no constant $C$ makes $\frac m2N+C$ edges force such a pair. Both
+papers are reported as citations in [SoTh74]'s introduction (p. 143).
+
+The edge-disjoint reading's status-defining text is Satz 1 of [Ma73] (p. 223)
+with its Korollar (p. 226). It gives $\ell_m(n)=\lfloor\frac m2(n-1)+1\rfloor$
+for every $m\ge2$, as the site and the thread's reading of the German original
+state it.
+
+The primary texts establish the following. The case $m=3$ is true under either
+reading: Bártfai 1960 and Bollobás and Erdős 1962 give $k_3(2n+1)=3n+1$, the
+problem's exact parameters. Under the vertex-disjoint reading, they establish
+the exact $k_5(n)$ and the disproof for every $m\ge5$ ([SoTh74], above), with
+Leonard's counterexample at $m=5$ ([Le73], above) and Mader's examples for every
+$m\ge5$ ([Ma73], above). Under the edge-disjoint reading, they establish every
+$m\ge2$ (Satz 1 and the Korollar of [Ma73], above). The earlier edge-disjoint
+cases are $m=5$ (Leonard's $\ell_5(2n)=5n-2$, $\ell_5(2n+1)=5n+1$, [Le72]) and
+$m=6$ (Leonard's $\ell_6(n)=3n-2$, [Le73b]). [Le72] also observes that
+$\ell_m(n)=k_m(n)$ for $m\le4$, so the two readings agree there.
 
 **Source.** [erdosproblems.com/915](https://www.erdosproblems.com/915),
 accessed 2026-09-19: the problem page (SOLVED; last edited 8 December 2025;

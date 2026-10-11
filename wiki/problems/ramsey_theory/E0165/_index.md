@@ -2,9 +2,8 @@
 name: problems/ramsey_theory/E0165
 title: Problem 165
 desc: |
-  Asks for an asymptotic formula for the Ramsey number of a triangle versus
-  a complete graph on k vertices; the order k^2/log k is known and the
-  constant lies between 1/2 and 1.
+  Asks for an asymptotic formula for $R(3,k)$; open. The order $k^2/\log k$ is
+  known, and the constant lies between $1/2$ and $1$.
 tags:
 - Graph theory
 - Ramsey theory
@@ -32,29 +31,28 @@ is the constant $c$ in $R(3,k)\sim c\,k^2/\log k$, if the limit exists. The
 conjectured formula is $R(3,k)=(\frac12+o(1))k^2/\log k$ (Campos, Jenssen,
 Michelen and Sahasrabudhe 2025, restated by Hefty, Horn, King and Pfender).
 
-**Status.** Open, the site's label. No asymptotic formula is proved; the
-search whose scope the Current assessment records found
-none, and no proof claim exists. The known bounds, each checked against its
-source, are
+**Status.** Open, the site's label. No asymptotic formula is proved. The search
+whose scope the Current assessment records found none, and no proof claim
+exists. This is a bounded negative finding, not a certificate of openness. The
+known bounds, each checked against its source, are
 
 $$
 \Bigl(\frac12+o(1)\Bigr)\frac{k^2}{\log k}\ \le\ R(3,k)\ \le\ (1+o(1))\frac{k^2}{\log k},
 $$
 
-the lower bound Hefty, Horn, King and Pfender's Theorem 1.2 (arXiv preprint,
-v3 of February 2026, no journal record), after Kim's $1/162$ (1995,
-refereed), Bohman and Keevash's and Fiz Pontiveros, Griffiths and Morris's
-$1/4$ (refereed, 2021 and 2020) and Campos, Jenssen, Michelen and
-Sahasrabudhe's $1/3$ (preprint, 2025); the upper bound Shearer's (1983,
-refereed; Theorem 1, the independence bound
+where the lower bound is Hefty, Horn, King and Pfender's Theorem 1.2 (arXiv
+preprint, v3 of February 2026, no journal record). Earlier lower bounds were
+Kim's $1/162$ (1995, refereed), the $1/4$ of Bohman and Keevash and of Fiz
+Pontiveros, Griffiths and Morris (refereed, 2021 and 2020), and the $1/3$ of
+Campos, Jenssen, Michelen and Sahasrabudhe (preprint, 2025). The upper bound is
+Shearer's (1983, refereed). His Theorem 1 is the independence bound
 $\alpha\ge n(d\ln d-d+1)/(d-1)^2$ for triangle-free graphs of average degree
-$d$, from which the Ramsey bound follows by an elementary step), sharpening
-Ajtai, Komlós and Szemerédi (1980, refereed; Theorem 3,
-$R(3,x)<100x^2/\ln x$, from their Theorem 2, $\alpha(G)\ge0.01(n/t)\ln t$
-for triangle-free graphs of average degree $t$). Campos, Jenssen, Michelen
-and Sahasrabudhe conjecture $c=1/2$, and Hefty, Horn, King and
-Pfender restate the conjecture as their Conjecture 1.1 and support it. This
-is a bounded negative finding, not a certificate of openness.
+$d$, from which the Ramsey bound follows by an elementary step. It sharpens
+Ajtai, Komlós and Szemerédi (1980, refereed), whose Theorem 3,
+$R(3,x)<100x^2/\ln x$, comes from their Theorem 2, $\alpha(G)\ge0.01(n/t)\ln t$
+for triangle-free graphs of average degree $t$. Campos, Jenssen, Michelen and
+Sahasrabudhe conjecture $c=1/2$. Hefty, Horn, King and Pfender restate the
+conjecture as their Conjecture 1.1 and support it.
 
 **Source.** [erdosproblems.com/165](https://www.erdosproblems.com/165), accessed
 2026-09-18: the problem page (labeled OPEN, with the site's note that no finite

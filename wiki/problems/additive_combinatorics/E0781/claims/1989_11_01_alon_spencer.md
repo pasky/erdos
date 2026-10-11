@@ -3,8 +3,9 @@ name: problems/additive_combinatorics/E0781/claims/1989_11_01_alon_spencer
 title: Alon and Spencer show f(k) grows like k cubed
 desc: |
   Alon and Spencer (J. Combin. Theory Ser. A 1989) prove that the two-color
-  descending-wave number f(k) grows like k^3, so k^2 - k + 1 fails for all
-  large k; accepted on the refereed publication and the site's credit.
+  descending-wave number $f(k)$ grows like $k^3$, so $k^2-k+1$ fails for all
+  large $k$. The claim is accepted on the refereed publication and the site's
+  credit.
 authors:
 - N Alon
 - Joel Spencer
@@ -59,24 +60,25 @@ the lower bound is recorded) and
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Refereed: J. Combin. Theory Ser. A 52 (1989), no. 2,
-275--287, doi:10.1016/0097-3165(89)90033-2; the Crossref record dates the
-issue to November 1989, filled to the first of the month for this page's
-name. Reviewed: the site's curator, Thomas Bloom, credits the resolution to
-Alon and Spencer in the problem page's commentary and labels the problem
-disproved (accessed 2026-10-07; no last-edited date; the community database
-lists the problem as disproved as of its last update on 2025-08-31); its
-discussion thread and proof-claim tab were empty. A Lean 4 development,
-`src/latest/ErdosProblems/Erdos781.lean` of Boris Alexeev's lean-proofs
-repository (3,223 lines at the pinned commit of 2026-09-15, first added
-2026-08-17), declares itself a formalization of a solution to the problem:
-its header names Alon and Spencer as informal authors and Codex and GPT-5.6
-Sol as formal authors, and its `erdos_781` proves that $k^3\le2^{48}f(k)$
-and $f(k)\le8k^3+1$ for all $k\ge2^{50}$ and that $f(k)=k^2-k+1$ does not
-hold for all $k$, with the minimal $n$ defined in the file as `waveRamsey`;
-it closes with `#print axioms erdos_781` without the printed output. The
-formal-conjectures statement for the problem (commit of 2026-09-20) is
-tagged solved in both its parts and names line 3202 of the file, the
-theorem, as their formal proof. The corpus has not built the development, so
-the page lists no `formalized` evidence. Nothing here rests on a review by
-this project.
+**Acceptance.** Refereed: J. Combin. Theory Ser. A 52 (1989), no. 2, 275--287,
+doi:10.1016/0097-3165(89)90033-2. The Crossref record dates the issue to
+November 1989, and this page's name fills that to the first of the month.
+
+Reviewed: the site's curator, Thomas Bloom, credits the resolution to Alon and
+Spencer in the problem page's commentary and labels the problem disproved
+(accessed 2026-10-07; no last-edited date). The problem's discussion thread and
+proof-claim tab were empty. The community database lists the problem as
+disproved as of its last update on 2025-08-31.
+
+A Lean 4 development declares itself a formalization of a solution to the
+problem. It is `src/latest/ErdosProblems/Erdos781.lean` of Boris Alexeev's
+lean-proofs repository, first added 2026-08-17, with 3,223 lines at the pinned
+commit of 2026-09-15. Its header names Alon and Spencer as informal authors and
+Codex and GPT-5.6 Sol as formal authors. Its `erdos_781` proves that
+$k^3\le2^{48}f(k)$ and $f(k)\le8k^3+1$ for all $k\ge2^{50}$, and that
+$f(k)=k^2-k+1$ does not hold for all $k$. The file defines the minimal $n$ as
+`waveRamsey`. It closes with `#print axioms erdos_781`, without the printed
+output. The formal-conjectures statement for the problem (commit of 2026-09-20)
+is tagged solved in both its parts and names line 3202 of the file, the theorem,
+as their formal proof. The corpus has not built the development, so the page
+lists no `formalized` evidence. Nothing here rests on a review by this project.

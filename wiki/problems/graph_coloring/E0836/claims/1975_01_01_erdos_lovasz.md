@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0836/claims/1975_01_01_erdos_lovasz
 title: Erdős and Lovász's 3-chromatic cliques with exponentially many points
 desc: |
-  Theorem 8 of Erdős and Lovász (1975) bounds the largest number of points of
-  a 3-chromatic r-uniform clique below by (1/2)C(2r-2,r-1)+2r-2, so the first
-  question's O(r^2) bound fails; a proceedings result, claimed.
+  Theorem 8 of Erdős and Lovász (1975) bounds the largest number of points of a
+  $3$-chromatic $r$-uniform clique below by $\frac12\binom{2r-2}{r-1}+2r-2$, so
+  the first question's $O(r^2)$ bound fails. It is a proceedings result, and its
+  status is claimed.
 authors:
 - P. Erdős
 - L. Lovász
@@ -54,8 +55,8 @@ the authors jointly (p. 613), and asks whether $cr$ or even $r-c$ holds.
 
 **Depends on.** No page of this wiki; the construction is checked directly.
 
-**Acceptance.** None recorded. The colloquium volume is a proceedings
-volume with no evidence of refereeing on record, so `refereed` is not
-listed. The site credits a counterexample to the first question to Alon,
-giving the same construction with $\asymp4^r/\sqrt r$ vertices; that credit
-is commentary on a problem the site labels OPEN and is not an acceptance.
+**Acceptance.** None recorded. The colloquium volume is a proceedings volume
+with no evidence of refereeing on record, so `refereed` is not listed. The site
+credits a counterexample to the first question to Alon, giving the same
+construction with $\asymp4^r/\sqrt r$ vertices. That credit is commentary on a
+problem the site labels OPEN, and it is not an acceptance.

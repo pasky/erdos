@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0490
 title: Problem 490
 desc: |
-  Asks whether two subsets of the first N integers with all pairwise products
-  distinct must have size product at most about N squared over the logarithm
-  of N; proved by Szemerédi (1976), with a second proof by Erdős and Szemerédi.
+  Asks whether $A,B\subseteq\{1,\ldots,N\}$ with all products $ab$ distinct must
+  satisfy $|A||B|\ll N^2/\log N$; proved by Szemerédi (1976), with a second
+  proof by Erdős and Szemerédi.
 tags:
 - Number theory
 status: solved
@@ -42,37 +42,39 @@ the primes in $(N/2,N]$) shows the bound is best possible up to the
 constant; Erdős and Szemerédi's construction (1976, display (6)) gives
 $|A||B|>N^2/\log N-N^2\log\log N/(\log N)^2+o(N^2\log\log N/(\log N)^2)$.
 
-**Status.** The site's label is PROVED (LEAN): the site records the statement
-as true and attributes the proof to Szemerédi [Sz76] (J. Number Theory 8
-(1976), 264--270). The standing derives from the claim pages:
+**Status.** The site's label is PROVED (LEAN). The site records the statement as
+true and attributes the proof to Szemerédi [Sz76] (J. Number Theory 8 (1976),
+264--270). The standing derives from the claim pages.
 [[problems/integer_sequences/E0490/claims/1972_05_02_szemeredi|Szemerédi's claim]]
 is accepted on the refereed publication and the site's acceptance, and
 [[problems/integer_sequences/E0490/claims/1974_12_01_erdos_szemeredi|the Erdős--Szemerédi claim]]
-is accepted on its refereed publication, so the problem is solved, proved.
+is accepted on its refereed publication. So the problem is solved, proved. What
+the label's suffix (LEAN) refers to is set out under Formalization and the Lean
+label below, and no local kernel credit is claimed.
+
 The paper [Sz76], in the publisher's open archive, states the theorem in its
 abstract (printed p. 264): "Let $n$ be a positive integer and let
-$A=\{a_1,\ldots,a_s\}$, $B=\{b_1,\ldots,b_t\}$ be two sets of positive
-integers such that the product set consists of $st$ distinct numbers. Then,
-for a certain positive constant $c$, $st\le c\,n^2/\log n$, establishing a
-conjecture made by P. Erdös", the sets inside $\{1,\ldots,n\}$ by the body's
-statement of the problem on the same page; the closing line of the proof (p.
-269) gives $|A|\cdot|B|<C(n^2/\log n)$ for every $n\ge2$ with $C$ written out
-in the Brun and Mertens constants. It is the paper Erdős's 1972 attribution
-announced ("Szemerédi recently found a surprisingly simple proof of (1), his
-paper will appear in the Journal of Number Theory", printed p. 81), and it
-calls its own argument "the surprisingly simple proof of (2)". A second proof
-is Theorem 1 of Erdős and Szemerédi, *On multiplicative representations of
-integers*, J. Austral. Math. Soc. Ser. A 21 (1976), 418--427 (refereed;
-printed p. 421), which proves the statement, $kl<cx^2/\log x$, by "a simpler
-proof of (4), which nevertheless uses many of the ideas of the original
-proof", and which the site's discussion thread links. The limit question Erdős
-asked next, whether $\max|A||B|\log N/N^2$ converges and to what, is open;
-[Sz76] records only the hope to investigate whether the bound holds "for avery
-[sic] $c>1$ if $n>n_0(c)$" (p. 265), Erdős and Szemerédi conjectured the value
-$1$, and a forum construction of 7 September 2026 reports a constant above $1$
-(not checked here). The site's label carries the suffix (LEAN); what it refers
-to is set out under Formalization and the Lean label below, and no local
-kernel credit is claimed.
+$A=\{a_1,\ldots,a_s\}$, $B=\{b_1,\ldots,b_t\}$ be two sets of positive integers
+such that the product set consists of $st$ distinct numbers. Then, for a certain
+positive constant $c$, $st\le c\,n^2/\log n$, establishing a conjecture made by
+P. Erdös". The body's statement of the problem on the same page puts the sets
+inside $\{1,\ldots,n\}$. The closing line of the proof (p. 269) gives
+$|A|\cdot|B|<C(n^2/\log n)$ for every $n\ge2$, with $C$ written out in the Brun
+and Mertens constants. It is the paper that Erdős's 1972 attribution announced
+("Szemerédi recently found a surprisingly simple proof of (1), his paper will
+appear in the Journal of Number Theory", printed p. 81). It calls its own
+argument "the surprisingly simple proof of (2)". A second proof is Theorem 1 of
+Erdős and Szemerédi, *On multiplicative representations of integers*, J.
+Austral. Math. Soc. Ser. A 21 (1976), 418--427 (refereed; printed p. 421). It
+proves the statement, $kl<cx^2/\log x$, by "a simpler proof of (4), which
+nevertheless uses many of the ideas of the original proof". The site's
+discussion thread links it.
+
+The limit question Erdős asked next is open: whether $\max|A||B|\log N/N^2$
+converges, and to what. [Sz76] records only the hope to investigate whether the
+bound holds "for avery [sic] $c>1$ if $n>n_0(c)$" (p. 265). Erdős and Szemerédi
+conjectured the value $1$. A forum construction of 7 September 2026 reports a
+constant above $1$ (not checked here).
 
 **Source.** [erdosproblems.com/490](https://www.erdosproblems.com/490),
 accessed 2026-09-18: the problem page (PROVED

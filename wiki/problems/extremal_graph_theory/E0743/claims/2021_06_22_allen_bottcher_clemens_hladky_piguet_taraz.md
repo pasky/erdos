@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0743/claims/2021_06_22_allen_bottcher_clemens_hladky_piguet_taraz
 title: Allen, Böttcher, Clemens, Hladký, Piguet and Taraz's almost-linear-degree packing
 desc: |
-  An arXiv preprint of 2021 proves the tree packing conjecture for all large n
-  when every tree has maximum degree at most cn/log n; it has no journal
-  record, so the claim is pending.
+  An arXiv preprint of 2021 by Allen, Böttcher, Clemens, Hladký, Piguet and
+  Taraz proves the tree packing conjecture for all large $n$ when every tree has
+  maximum degree at most $cn/\log n$. It has no journal record, so the claim is
+  pending.
 authors:
 - Peter Allen
 - Julia Böttcher

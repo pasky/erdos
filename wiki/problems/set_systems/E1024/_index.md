@@ -2,8 +2,8 @@
 name: problems/set_systems/E1024
 title: Problem 1024
 desc: |
-  Estimates the largest independent set guaranteed in a three-uniform
-  hypergraph on n vertices in which any two edges share at most one vertex.
+  Asks to estimate how large an independent set every $3$-uniform hypergraph on
+  $n$ vertices must have when any two edges share at most one vertex; solved.
 tags:
 - Graph theory
 - Hypergraphs
@@ -31,7 +31,7 @@ The function $f(n)$ is the largest such value, the least independence number
 of a $3$-uniform linear hypergraph on $n$ vertices; the bounds the site's
 commentary records, an upper bound among them, concern that value.
 
-**Status.** The site labels the problem SOLVED, crediting Phelps and Rödl
+**Status.** The site labels the problem SOLVED. It credits Phelps and Rödl
 [PhRo86] with $f(n)\asymp(n\log n)^{1/2}$.
 
 **Source.** [erdosproblems.com/1024](https://www.erdosproblems.com/1024),

@@ -2,9 +2,10 @@
 name: problems/set_theory/E1119/claims/2017_01_05_kumar_shelah
 title: Kumar and Shelah's model where the answer is yes
 desc: |
-  Shows that after adding aleph one Cohen reals to a model with continuum
-  aleph two, every continuum-sized family of entire functions takes continuum
-  many values at some point, so a yes answer is consistent; refereed in 2017.
+  Kumar and Shelah show that after adding $\aleph_1$ Cohen reals to a model with
+  $\mathfrak c=\aleph_2$, every family of $\mathfrak c$ entire functions takes
+  $\mathfrak c$ values at some point, so a yes answer is consistent. The paper
+  was refereed in 2017.
 authors:
 - Ashutosh Kumar
 - Saharon Shelah
@@ -82,9 +83,9 @@ $\mathfrak m^+=\mathfrak c$, which this model realizes with
 $\mathfrak m=\aleph_1$ and $\mathfrak c=\aleph_2$.
 
 **Acceptance.** The result appeared in a refereed journal, *Fundamenta
-Mathematicae*, in 2017, the `refereed` evidence; the preprint was not
-compared with the published version. The site's curator, Thomas Bloom,
-marks the problem INDEPENDENT and records in the commentary that Kumar and
-Shelah gave a model with $\mathfrak c=\aleph_2$ in which the answer is yes
-for $\mathfrak m=\aleph_1$: that curator credit is the `reviewed` evidence.
-No formalization of this result is known.
+Mathematicae*, in 2017. This is the `refereed` evidence. The preprint was not
+compared with the published version. The site's curator, Thomas Bloom, marks the
+problem INDEPENDENT. The commentary records that Kumar and Shelah gave a model
+with $\mathfrak c=\aleph_2$ in which the answer is yes for
+$\mathfrak m=\aleph_1$. That curator credit is the `reviewed` evidence. No
+formalization of this result is known.

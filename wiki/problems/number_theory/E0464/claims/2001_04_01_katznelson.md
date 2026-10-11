@@ -2,9 +2,10 @@
 name: problems/number_theory/E0464/claims/2001_04_01_katznelson
 title: Katznelson's separated multipliers for lacunary sequences
 desc: |
-  Katznelson's Theorem 1.2 and Claim 2: for a lacunary sequence the multipliers
-  alpha keeping every lambda alpha away from the integers form a set of
-  Hausdorff dimension 1; an irrational one answers Problem 464.
+  Katznelson's Theorem 1.2 and Claim 2: for a lacunary sequence, the multipliers
+  $\alpha$ that keep every $\lambda\alpha$, with $\lambda$ in the sequence, away
+  from the integers form a set of Hausdorff dimension 1. An irrational such
+  $\alpha$ answers Problem 464.
 authors:
 - Y. Katznelson
 status: accepted

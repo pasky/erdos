@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0583/claims/2025_08_18_chu_fan_zhou
 title: Chu, Fan and Zhou's even-degree cliques of order at most 15
 desc: |
-  Chu, Fan and Zhou prove floor(n/2)+1 paths when the even-degree vertices
-  induce K_m with m at most 15, which is Gallai's bound for odd n; refereed in
-  Discrete Mathematics.
+  Chu, Fan and Zhou prove, in a refereed paper in Discrete Mathematics, that a
+  graph whose even-degree vertices induce $K_m$ with $m\le15$ decomposes into at
+  most $\lfloor n/2\rfloor+1$ paths. For odd $n$ this is Gallai's bound.
 authors:
 - Yanan Chu
 - Genghua Fan

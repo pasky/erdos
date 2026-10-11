@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0819/claims/1991_01_01_erdos_freud
 title: Erdős and Freud's lower bound 3/8 for the sumset density
 desc: |
-  Proposition 1 of Erdős and Freud (J. Number Theory 1991) gives a set of
-  about root N integers up to N with (3/8 - o(1))N distinct sums up to N, the
-  lower bound f(N) ≥ (3/8 - o(1))N; refereed and credited by the site.
+  Proposition 1 of Erdős and Freud (J. Number Theory 1991) gives a set of about
+  $\sqrt N$ integers up to $N$ with $(3/8-o(1))N$ distinct sums up to $N$, the
+  lower bound $f(N)\ge(3/8-o(1))N$. The paper is refereed and the site credits
+  it.
 authors:
 - P. Erdős
 - R. Freud
@@ -68,10 +69,10 @@ asserts the larger lower constant $(16\sqrt2-17)/12\approx0.469$.
 **Depends on.** No page of this wiki; the proof uses the existence of Sidon
 sets of about $m^{1/2}$ elements in $[1,m]$ and nothing else.
 
-**Acceptance.** Refereed: the paper is the publisher's version of record in
-the Journal of Number Theory (the Crossref record gives the issue month,
-June 1991, and no day, so this page is dated by the first day of its year).
-The site's curator, Thomas F. Bloom, credits the bounds to Erdős and Freud
-in the problem page's commentary, with the label OPEN; the problem is not
-marked settled there, so the credit is recorded here and is not listed as
-`reviewed`. No independent review is recorded.
+**Acceptance.** Refereed: the paper is the publisher's version of record in the
+Journal of Number Theory. The Crossref record gives the issue month, June 1991,
+and no day, so this page is dated by the first day of its year. The site's
+curator, Thomas F. Bloom, credits the bounds to Erdős and Freud in the problem
+page's commentary, with the label OPEN. The problem is not marked settled there,
+so the credit is recorded here and is not listed as `reviewed`. No independent
+review is recorded.

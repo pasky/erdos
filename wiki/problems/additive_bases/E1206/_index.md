@@ -2,8 +2,9 @@
 name: problems/additive_bases/E1206
 title: Problem 1206
 desc: |
-  Asks whether the set of cubes up to N cubed contains a Sidon set, with all
-  pairwise sums distinct, of size proportional to N.
+  Asks whether $\{1,2^3,\ldots,N^3\}$ contains a Sidon set of size $\gg N$, and
+  whether the cubes of some set of positive density form a Sidon set; open. A
+  Sidon set has all pairwise sums distinct.
 tags:
 - Number theory
 - Sidon sets

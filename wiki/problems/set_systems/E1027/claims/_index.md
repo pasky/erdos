@@ -4,15 +4,16 @@ desc: The 1 claim page of Problem 1027, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:36:08Z
-updated: 2026-10-07T08:36:08Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/set_systems/E1027/claims
 
 [[problems/set_systems/E1027/_index|..]]
 
-[[problems/set_systems/E1027/claims/2025_09_21_koishichan|2025_09_21_koishichan]]: A family of at most c 2^n sets of size n has, for large n, a positive
-proportion of subsets of its union meeting every member and containing none;
-proved in the site's comment thread and credited by the site's curator.
+[[problems/set_systems/E1027/claims/2025_09_21_koishichan|2025_09_21_koishichan]]: For large $n$, a family of at most $c2^n$ sets of size $n$ has a positive
+proportion of subsets of its union that meet every member and contain none.
+The proof was given in the site's comment thread, and the site's curator
+credits it.
 
 ***

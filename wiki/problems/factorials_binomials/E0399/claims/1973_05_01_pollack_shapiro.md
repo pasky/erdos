@@ -2,9 +2,10 @@
 name: problems/factorials_binomials/E0399/claims/1973_05_01_pollack_shapiro
 title: "Pollack and Shapiro: n! + 1 is never a fourth power"
 desc: |
-  Pollack and Shapiro (Comm. Pure Appl. Math. 26 (1973)) are credited with
-  showing that n! = x^4 - 1 has no solution; the monograph's wider report,
-  the whole coprime case k = 4, is unconfirmed; refereed.
+  In a refereed paper (Comm. Pure Appl. Math. 26 (1973)), Pollack and Shapiro
+  are credited with showing that $n!=x^4-1$ has no solution. The monograph's
+  wider report, that the paper covers the whole coprime case $k=4$, is
+  unconfirmed.
 authors:
 - Richard M. Pollack
 - Harold N. Shapiro

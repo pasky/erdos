@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0393/claims/2022_04_18_bui_pratt_zaharescu
 title: Bui, Pratt and Zaharescu's power saving for P(x) = n!
 desc: |
-  Bui, Pratt and Zaharescu prove that the n in [N, 2N) with s n! = P(x)
-  solvable number at most C N^(33/34) for fixed P of degree at least 2, so
-  F_m(N) is O_m(N^(33/34)); a refereed partial result.
+  Bui, Pratt and Zaharescu prove that, for fixed $P$ of degree at least $2$, at
+  most $CN^{33/34}$ of the $n\in[N,2N)$ make $s\cdot n!=P(x)$ solvable. Hence
+  $F_m(N)=O_m(N^{33/34})$, a refereed partial result.
 authors:
 - Hung M. Bui
 - Kyle Pratt

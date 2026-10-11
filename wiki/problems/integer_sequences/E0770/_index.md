@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E0770
 title: Problem 770
 desc: |
-  Densities and growth of the smallest endpoint at which the collective gcd
-  of the integer power differences becomes one.
+  Asks about the densities and growth of $h(n)$, the least $h$ with
+  $\gcd(2^n-1,3^n-1,\ldots,h^n-1)=1$; open.
 tags:
 - Number theory
 status: open
@@ -98,15 +98,15 @@ would be answered yes by Zeng's claimed bound below, taking any
 $\epsilon>1/2$; the first two questions are open under either reading, so
 the standing does not depend on the choice.
 
-**Status.** The site's label is OPEN (page last edited 24 September 2025),
-and the standing derives from the claim pages: the only claim page,
+**Status.** The site's label is OPEN (page last edited 24 September 2025). The
+standing derives from the claim pages. The only claim page,
 [[problems/integer_sequences/E0770/claims/2026_07_24_zeng|Zeng 2026]], is
 partial, so the problem's standing is open, with no pending full claim. The
-historical bounds and unboundedness below do not answer the three questions.
-Erdős expected infinitely many $h(n)=3$, which would give a negative answer
-to the second question; that infinitude is itself unresolved in the sources
-this page cites. The partial claim settles the third implication for every
-fixed $\epsilon>1/2$, but not for every positive $\epsilon$.
+partial claim settles the third implication for every fixed $\epsilon>1/2$, but
+not for every positive $\epsilon$. The historical bounds and unboundedness below
+do not answer the three questions. Erdős expected infinitely many $h(n)=3$,
+which would give a negative answer to the second question. That infinitude is
+itself unresolved in the sources this page cites.
 
 **Source.** [T. F. Bloom, Erdős Problem #770](https://www.erdosproblems.com/770),
 accessed 5 September 2026, and

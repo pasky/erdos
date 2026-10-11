@@ -2,8 +2,8 @@
 name: problems/set_systems/E0207
 title: Problem 207
 desc: |
-  Asks whether, for every g at least 2, large Steiner triple systems exist in
-  which any j edges span at least j plus 3 vertices for j up to g.
+  Asks whether, for every $g\ge2$, large Steiner triple systems exist in which
+  any $j$ edges span at least $j+3$ vertices for $2\le j\le g$. It is proved.
 tags:
 - Combinatorics
 - Hypergraphs

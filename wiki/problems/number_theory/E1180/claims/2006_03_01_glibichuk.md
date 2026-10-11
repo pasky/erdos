@@ -2,9 +2,10 @@
 name: problems/number_theory/E1180/claims/2006_03_01_glibichuk
 title: Glibichuk's bound of order epsilon to the minus 2
 desc: |
-  Glibichuk's Theorem 3 of 2006: for every epsilon and every large prime p,
-  every residue is a sum of 8([1/epsilon + 1/2] + 1)^2 inverses of distinct
-  integers up to p^epsilon; the site's improvement to epsilon^(-2), refereed.
+  Glibichuk's Theorem 3 of 2006: for every $\varepsilon$ and every large prime
+  $p$, every residue is a sum of $8([1/\varepsilon+1/2]+1)^2$ inverses of
+  distinct integers up to $p^\varepsilon$. It is the site's improvement to
+  $\varepsilon^{-2}$, and it is refereed.
 authors:
 - А. А. Глибичук
 status: accepted
@@ -62,15 +63,16 @@ paper.
 
 **Acceptance.** Refereed: A. A. Glibichuk, *Combinatorial properties of sets of
 residues modulo a prime and the Erdős--Graham problem*, Mat. Zametki 79 (2006),
-no. 3, 384--395, received 3 May 2005 and revised 26 September 2005; English
-translation Math. Notes 79 (2006), no. 3--4, 356--365, not held. The Russian
-record gives the year only and the translation's record dates its issue to March
-2006, so the page is named by the first of that month. Reviewed: the site's
-curator, Thomas F. Bloom, labels the problem proved and credits Glibichuk, in
-the problem's commentary, with the improvement to $C_\epsilon\ll\epsilon^{-2}$;
-the curator neither wrote nor submitted the result. The theorem is cited in the
-sum-product literature (eighteen citing records on Semantic Scholar). Nothing
-here is independently reviewed by this project.
+no. 3, 384--395, received 3 May 2005 and revised 26 September 2005. The English
+translation, Math. Notes 79 (2006), no. 3--4, 356--365, is not held. The Russian
+record gives the year only, and the translation's record dates its issue to
+March 2006, so the page is named by the first of that month. Reviewed: the
+site's curator, Thomas F. Bloom, labels the problem proved and, in the problem's
+commentary, credits Glibichuk with the improvement to
+$C_\epsilon\ll\epsilon^{-2}$. The curator neither wrote nor submitted the
+result. The theorem is cited in the sum-product literature (eighteen citing
+records on Semantic Scholar). Nothing here is independently reviewed by this
+project.
 
 **Formalization.** A Lean file in Boris Alexeev's `lean-proofs` repository,
 linked above at a pinned commit, declares Glibichuk as its informal author and

@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E0061
 title: Problem 61
 desc: |
-  Asks whether every graph on n vertices with no induced copy of a fixed graph
-  has a clique or an independent set of size at least a fixed power of n.
+  Asks whether, for each graph $H$, there is $c=c(H)>0$ such that every graph on
+  $n$ vertices with no induced copy of $H$ has a clique or an independent set of
+  size at least $n^c$; open.
 tags:
 - Graph theory
 status: open
@@ -24,28 +25,30 @@ updated: 2026-10-07T21:38:27Z
 $G$ on $n$ vertices that does not contain $H$ as an induced subgraph contains
 either a complete graph or independent set on $\geq n^c$ vertices?
 
-**Status.** Open: the site labels the problem OPEN (page last edited 10
-April 2026), and the frontmatter standing is derived from the seven claim
-pages under `claims/`, all partial. Six are accepted on refereed
-publications: every $H$ on at most four vertices, by Erdős and Hajnal
-([[problems/extremal_graph_theory/E0061/claims/1989_10_01_erdos_hajnal|claim page]]);
-the closure of the property under vertex substitution, by Alon, Pach and
-Solymosi
-([[problems/extremal_graph_theory/E0061/claims/2001_04_01_alon_pach_solymosi|claim page]]);
-the bull, by Chudnovsky and Safra
-([[problems/extremal_graph_theory/E0061/claims/2008_06_28_chudnovsky_safra|claim page]]);
-$C_5$, by Chudnovsky, Scott, Seymour and Spirkl
-([[problems/extremal_graph_theory/E0061/claims/2021_02_09_chudnovsky_scott_seymour_spirkl|claim page]]);
-$P_5$, and with the four pages before it every $H$ on at most five vertices,
-by Nguyen, Scott and Seymour
-([[problems/extremal_graph_theory/E0061/claims/2023_12_23_nguyen_scott_seymour|claim page]]);
-and an infinite family of $H$ with infinitely many prime members, by the same
-authors
+**Status.** Open. The site labels the problem OPEN (page last edited 10 April
+2026). The frontmatter standing is derived from the seven claim pages under
+`claims/`, all partial. None settles the question for every $H$, so the standing
+is open.
+
+Six of the claims are accepted on refereed publications. Erdős and Hajnal cover
+every $H$ on at most four vertices
+([[problems/extremal_graph_theory/E0061/claims/1989_10_01_erdos_hajnal|claim page]]).
+Alon, Pach and Solymosi show that the property is closed under vertex
+substitution
+([[problems/extremal_graph_theory/E0061/claims/2001_04_01_alon_pach_solymosi|claim page]]).
+Chudnovsky and Safra cover the bull
+([[problems/extremal_graph_theory/E0061/claims/2008_06_28_chudnovsky_safra|claim page]]).
+Chudnovsky, Scott, Seymour and Spirkl cover $C_5$
+([[problems/extremal_graph_theory/E0061/claims/2021_02_09_chudnovsky_scott_seymour_spirkl|claim page]]).
+Nguyen, Scott and Seymour cover $P_5$, and with the four pages before it this
+gives every $H$ on at most five vertices
+([[problems/extremal_graph_theory/E0061/claims/2023_12_23_nguyen_scott_seymour|claim page]]).
+The same authors cover an infinite family of $H$ with infinitely many prime
+members
 ([[problems/extremal_graph_theory/E0061/claims/2023_07_12_nguyen_scott_seymour|claim page]]).
-One is claimed: Huang, Ju and Zhou's arXiv preprint of 4 June 2026 for two
-six-vertex graphs, the E-graph and the Bird graph
+One claim is only claimed: Huang, Ju and Zhou's arXiv preprint of 4 June 2026
+covers two six-vertex graphs, the E-graph and the Bird graph
 ([[problems/extremal_graph_theory/E0061/claims/2026_06_04_huang_ju_zhou|claim page]]).
-None settles the question for every $H$, so the standing is open.
 
 **Source.** [erdosproblems.com/61](https://www.erdosproblems.com/61), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #61,

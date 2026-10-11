@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0530/claims/1975_01_01_komlos_sulyok_szemeredi
 title: "Komlós, Sulyok and Szemerédi: a Sidon subset of order N to the one half"
 desc: |
-  Every set of N integers contains a Sidon subset of size at least c N^{1/2},
-  which with the trivial upper bound fixes the order of l(N) at N^{1/2}; the
-  lower half of the order question, refereed and credited by the site.
+  In a refereed result credited by the site, Komlós, Sulyok and Szemerédi (1975)
+  show that every set of $N$ integers has a Sidon subset of size at least
+  $cN^{1/2}$. This is the lower half of the order question, and with the trivial
+  upper bound it fixes the order of $\ell(N)$ at $N^{1/2}$.
 authors:
 - János Komlós
 - Miklós Sulyok
@@ -71,12 +72,12 @@ only and are recorded on the problem page without claim pages.
 are the paper's own, and the Sidon inputs $f(n)=(1+o(1))n^{1/2}$ are the
 classical Erdős--Turán and Singer results.
 
-**Acceptance.** Refereed: the paper is a journal publication in Acta
-Mathematica Academiae Scientiarum Hungaricae, volume 26, issue 1--2
-(1975), received 20 November 1973, the `refereed` evidence; the citation
-gives the year without a month or day, so this page is dated to the first
-day of that year. The site's curator, Thomas Bloom, credits the bound
-$N^{1/2}\ll\ell(N)$ to this paper in the problem page's commentary, but
-the site labels the problem OPEN, so that credit is not `reviewed`
-evidence. The library's result pages reconstruct the paper's proof chain
-and await independent review; they award nothing by this corpus.
+**Acceptance.** Refereed: the paper is a journal publication in Acta Mathematica
+Academiae Scientiarum Hungaricae, volume 26, issue 1--2 (1975), received 20
+November 1973. This is the `refereed` evidence. The citation gives the year
+without a month or day, so this page is dated to the first day of that year. The
+site's curator, Thomas Bloom, credits the bound $N^{1/2}\ll\ell(N)$ to this
+paper in the problem page's commentary. The site labels the problem OPEN, so
+that credit is not `reviewed` evidence. The library's result pages reconstruct
+the paper's proof chain and await independent review. They award nothing by this
+corpus.

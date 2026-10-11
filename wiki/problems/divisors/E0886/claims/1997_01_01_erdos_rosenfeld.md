@@ -2,9 +2,9 @@
 name: problems/divisors/E0886/claims/1997_01_01_erdos_rosenfeld
 title: Erdős and Rosenfeld's bound on divisors just above the square root
 desc: |
-  Erdős and Rosenfeld show that every n has at most one plus c squared divisors
-  between its square root and that root plus c times its fourth root, which
-  answers the question yes for every epsilon of at least one quarter.
+  Erdős and Rosenfeld show that every $n$ has at most $1+c^2$ divisors in
+  $[\sqrt n,\sqrt n+cn^{1/4}]$. This answers the question yes for every
+  $\epsilon\ge1/4$.
 authors:
 - Paul Erdős
 - Moshe Rosenfeld

@@ -2,9 +2,9 @@
 name: problems/analysis/E0519
 title: Problem 519
 desc: |
-  Asks whether the largest modulus among the first n power sums of complex
-  numbers, one of which is one, is bounded below by an absolute positive
-  constant.
+  Asks whether complex numbers $z_1,\ldots,z_n$ with $z_1=1$ always satisfy
+  $\max_{1\leq k\leq n}\lvert\sum_iz_i^k\rvert>c$ for an absolute constant
+  $c>0$; proved.
 tags:
 - Analysis
 status: solved
@@ -28,16 +28,15 @@ $$
 \max_{1\leq k\leq n}\left\lvert \sum_{i}z_i^k\right\rvert>c?
 $$
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page
-last edited 1 February 2026), credits Atkinson [At61b] with the solution,
-$c=1/6$, and names Biró's improvements to $c=1/2$ [Bi94] and to an absolute
-constant above $1/2$ [Bi00]; the Lean qualifier refers to formalizations of
-Atkinson's proof that have not been built here (see Formalization). Three
-accepted claim pages record three full proofs, each on its refereed venue and
-the site's credit:
-[[problems/analysis/E0519/claims/1961_01_01_atkinson|Atkinson 1961]],
+**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
+edited 1 February 2026) and credits Atkinson [At61b] with the solution, $c=1/6$.
+It also names Biró's improvements to $c=1/2$ [Bi94] and to an absolute constant
+above $1/2$ [Bi00]. The Lean qualifier refers to formalizations of Atkinson's
+proof that have not been built here (see Formalization). Three accepted claim
+pages record three full proofs, each on its refereed venue and the site's
+credit: [[problems/analysis/E0519/claims/1961_01_01_atkinson|Atkinson 1961]],
 [[problems/analysis/E0519/claims/1994_09_01_biro|Biró 1994]] and
-[[problems/analysis/E0519/claims/2000_09_25_biro|Biró 2000]]; the frontmatter
+[[problems/analysis/E0519/claims/2000_09_25_biro|Biró 2000]]. The frontmatter
 standing derives from them.
 
 **Source.** [erdosproblems.com/519](https://www.erdosproblems.com/519), accessed

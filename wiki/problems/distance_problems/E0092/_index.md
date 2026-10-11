@@ -2,8 +2,9 @@
 name: problems/distance_problems/E0092
 title: Problem 92
 desc: |
-  Asks how many points can be equidistant from every point of an n-point plane
-  set, and whether this maximum stays below any fixed power of n.
+  Asks for the largest $f(n)$ such that some $n$-point set in the plane has, for
+  each of its points $x$, at least $f(n)$ points of the set equidistant from
+  $x$, and whether $f(n)\le n^{o(1)}$. It has been disproved.
 tags:
 - Geometry
 - Distances
@@ -28,8 +29,8 @@ $A$ equidistant from $x$.
 Is it true that $f(n)\leq n^{o(1)}$? Or even $f(n) < n^{O(1/\log\log n)}$?
 
 **Status.** Disproved. The site's export of 2026-09-04 labels the problem
-"DISPROVED" (page last edited 21 May 2026), and its remarks say that the
-disproof of Problem 90 disproves this stronger form; see the
+"DISPROVED" (page last edited 21 May 2026). Its remarks say that the disproof of
+Problem 90 disproves this stronger form. See the
 [[problems/distance_problems/E0092/claims/2026_05_20_openai|claim page]].
 
 **Source.** [erdosproblems.com/92](https://www.erdosproblems.com/92), accessed

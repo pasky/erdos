@@ -2,9 +2,10 @@
 name: problems/irrationality/E1002
 title: Problem 1002
 desc: |
-  Asks whether the logarithmically normalized sum of one half minus fractional
-  parts of multiples of a fixed irrational has an asymptotic distribution
-  function.
+  Asks whether
+  $f(\alpha,n)=\frac{1}{\log n}\sum_{k\le n}(\frac{1}{2}-\{\alpha k\})$ has an
+  asymptotic distribution function over $\alpha\in(0,1)$ as $n\to\infty$;
+  proved.
 tags:
 - Analysis
 - Diophantine approximation
@@ -38,16 +39,15 @@ $$
 $$
 
 **Status.** The site labels the problem OPEN (proof-claims thread of
-2026-10-07). Two full claims of July 2026, developed independently and both
-crediting AI systems, assert the answer yes with the same explicit limit, the
-centered Cauchy law of scale $1/(2\pi)$:
-[[problems/irrationality/E1002/claims/2026_07_13_kwon|Kwon's manuscript]]
-and
-[[problems/irrationality/E1002/claims/2026_07_21_wang|Wang's preprint with a Lean 4 proof]].
-Neither has been accepted by the site or refereed. This page departs from the
-site's label and records the problem as proved, because this corpus built and
-audited a port of Wang's Lean proof, whose two main theorems answer the site's
-question yes and pin the Cauchy limit (Formalization).
+2026-10-07). This page departs from the site's label and records the problem as
+proved. The reason is that this corpus built and audited a port of Wang's Lean
+proof, whose two main theorems answer the site's question yes and pin the Cauchy
+limit (Formalization). Two full claims of July 2026,
+[[problems/irrationality/E1002/claims/2026_07_13_kwon|Kwon's manuscript]] and
+[[problems/irrationality/E1002/claims/2026_07_21_wang|Wang's preprint with a Lean 4 proof]],
+assert the answer yes with the same explicit limit, the centered Cauchy law of
+scale $1/(2\pi)$. They were developed independently, and both credit AI systems.
+Neither has been accepted by the site or refereed.
 
 **Source.** [erdosproblems.com/1002](https://www.erdosproblems.com/1002),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1002,

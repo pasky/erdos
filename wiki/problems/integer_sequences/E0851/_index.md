@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0851
 title: Problem 851
 desc: |
-  Asks whether some bounded r makes the integers of the form a power of two
-  plus a number with at most r prime divisors have density at least one minus
-  epsilon.
+  Asks whether, for each $\epsilon>0$, some $r\ll_\epsilon1$ makes the integers
+  $2^k+n$, with $n$ having at most $r$ prime divisors, have density at least
+  $1-\epsilon$; proved.
 tags:
 - Number theory
 status: solved
@@ -35,26 +35,26 @@ acceptance of Price's argument needs this reading. Price's argument gives
 lower density at least $1-\epsilon$; it does not show that the density
 exists.
 
-**Status.** Proved. The answer is yes. Price posted an argument generated
-with GPT-5.2 Pro in the site's thread on 5 February 2026: a sieve count of
-the representations $2^k+m$ with $m$ free of primes in $(z,x^{1/t}]$ for
-large constants $z,t$, whose first and second moments the fundamental lemma
-of sieve theory estimates, the second moment resting on an averaged bound
-for a singular series over the primes dividing $2^k-2^l$. Tao confirmed the
-proof correct in an edit to his thread comment of 5 February 2026, and the
-site's curator, Thomas Bloom, labels the problem PROVED and credits the
-solution to Price (page last edited 2 April 2026, accessed 2026-09-05 and
-2026-10-07; five comments, no proof claim, no exposition). No refereed or
-arXiv version was found on 2026-10-07. Romanoff (1934) gives the $r=1$ case
-with a positive density in place of $1-\epsilon$. Claim page:
+**Status.** Proved. The answer is yes. The site's curator, Thomas Bloom, labels
+the problem PROVED and credits the solution to Price (page last edited 2 April
+2026, accessed 2026-09-05 and 2026-10-07; five comments, no proof claim, no
+exposition). Price posted an argument generated with GPT-5.2 Pro in the site's
+thread on 5 February 2026. It is a sieve count of the representations $2^k+m$
+with $m$ free of primes in $(z,x^{1/t}]$ for large constants $z,t$. The
+fundamental lemma of sieve theory estimates the first and second moments of this
+count. The second moment rests on an averaged bound for a singular series over
+the primes dividing $2^k-2^l$. Tao confirmed the proof correct in an edit to his
+thread comment of 5 February 2026. No refereed or arXiv version was found on
+2026-10-07. Romanoff (1934) gives the $r=1$ case with a positive density in
+place of $1-\epsilon$. Claim page:
 [[problems/integer_sequences/E0851/claims/2026_02_05_price|Price 2026]]
 (accepted on Tao's confirmation and the site's curator's acceptance; not
-refereed, not counted as formalized). A thread comment of 6 February 2026
-by Sawhney announces that he and Green have a version of the argument that
-gives $r\ll\log(1/\epsilon)/\log\log(1/\epsilon)$ by a high-moment
-argument in place of the second moment, which the site's commentary also
-mentions; it is a thread comment without a write-up, no manuscript was
-found on 2026-10-07, and it has no claim page.
+refereed, not counted as formalized). A thread comment of 6 February 2026 by
+Sawhney announces that he and Green have a version of the argument that gives
+$r\ll\log(1/\epsilon)/\log\log(1/\epsilon)$, using a high-moment argument in
+place of the second moment. The site's commentary also mentions it. It is a
+thread comment without a write-up, no manuscript was found on 2026-10-07, and it
+has no claim page.
 
 **Source.** [erdosproblems.com/851](https://www.erdosproblems.com/851), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #851,

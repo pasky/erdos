@@ -2,9 +2,9 @@
 name: problems/irrationality/E1001/claims/2006_01_01_xiong_zaharescu
 title: Xiong and Zaharescu's explicit limit
 desc: |
-  Xiong and Zaharescu reprove in 2006 that the limiting measure exists for
-  every A>0 and c>=1 and give a formula for it as a finite alternating sum
-  of double integrals, from which the closed forms in the known ranges follow.
+  Xiong and Zaharescu reprove in 2006 that the limiting measure exists for every
+  $A>0$ and $c\ge1$. They give a formula for it as a finite alternating sum of
+  double integrals, from which the closed forms in the known ranges follow.
 authors:
 - Maosheng Xiong
 - Alexandru Zaharescu
@@ -57,19 +57,18 @@ the card
 [[../library/irrationality/xiong_2006_problem_erdos_szusz_turan_diophantine/_index|xiong_2006_problem_erdos_szusz_turan_diophantine]]
 records the paper.
 
-**Acceptance.** The `refereed` evidence is the journal publication cited
-above. The `reviewed` evidence is the documented acceptance by the catalog
-erdosproblems.com, whose page for the problem (the `discussion` link)
-carries the label SOLVED and whose curator, Thomas Bloom, credits Xiong and
-Zaharescu, independently of Boca, with an alternative, more explicit proof of
-the existence of the limit; the SOLVED label is read
-as resting on these two proofs for the explicit form. Existence was
-first proved by
-[[problems/irrationality/E1001/claims/1966_01_01_kesten_sos|Kesten and Sós]];
+**Acceptance.** The `refereed` evidence is the journal publication cited above.
+The `reviewed` evidence is the documented acceptance by the catalog
+erdosproblems.com. Its page for the problem (the `discussion` link) carries the
+label SOLVED. Its curator, Thomas Bloom, credits Xiong and Zaharescu,
+independently of Boca, with an alternative, more explicit proof of the existence
+of the limit. The SOLVED label is read as resting on these two proofs for the
+explicit form. Existence was first proved by
+[[problems/irrationality/E1001/claims/1966_01_01_kesten_sos|Kesten and Sós]].
 [[problems/irrationality/E1001/claims/2008_08_01_boca|Boca]] identifies the
-limit independently. No independent check of the proof is recorded, and
-whether the formula counts as the "explicit form" Erdős asked for is a
-reading: it is a finite expression in integrals of elementary functions,
-not a closed form in $A$ and $c$ for all parameters.
+limit independently. No independent check of the proof is recorded. Whether the
+formula counts as the "explicit form" Erdős asked for is a matter of reading. It
+is a finite expression in integrals of elementary functions, not a closed form
+in $A$ and $c$ for all parameters.
 
 **Depends on.** Nothing in this wiki.

@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E1074
 title: Problem 1074
 desc: |
-  Asks whether the m for which m factorial plus one has a prime factor not
-  congruent to one modulo m, and the primes arising so (Pillai primes, counted
-  among all primes), have densities, and what they are.
+  Asks whether the set of $m$ such that $m!+1$ has a prime factor
+  $p\not\equiv1\pmod m$, and the set of primes arising this way (Pillai primes,
+  as a proportion of all primes), have densities, and what they are; open.
 tags:
 - Number theory
 status: open

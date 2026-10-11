@@ -2,9 +2,10 @@
 name: problems/set_systems/E0837
 title: Problem 837
 desc: |
-  Asks for the set A_3 of densities alpha such that 3-uniform hypergraphs of
-  limiting density above alpha must have growing subgraphs of density above
-  some fixed beta > alpha, while limiting density at least alpha need not.
+  Asks for the set $A_3$ of $\alpha$ such that $3$-uniform hypergraphs of
+  limiting density above $\alpha$ must contain growing subgraphs of density
+  above some fixed $\beta>\alpha$, while limiting density at least $\alpha$ need
+  not; open.
 tags:
 - Graph theory
 - Hypergraphs

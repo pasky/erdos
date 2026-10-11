@@ -2,8 +2,9 @@
 name: problems/set_theory/E1177
 title: Problem 1177
 desc: |
-  Concerns the families of three-uniform hypergraphs of a given chromatic
-  number that avoid a fixed finite three-uniform hypergraph.
+  Asks whether three assertions hold about the families $F_G(\kappa)$ of
+  $3$-uniform hypergraphs of chromatic number $\kappa$ that avoid a fixed finite
+  $3$-uniform hypergraph $G$. One claim, not accepted, answers all three.
 tags:
 - Set theory
 - Chromatic number
@@ -36,7 +37,7 @@ If $\kappa,\lambda$ are uncountable cardinals and $F_G(\kappa)$ is non-empty
 then $F_G(\lambda)$ is non-empty.
 
 **Status.** Open. The site labels the problem OPEN (page last edited 23 January
-2026); the one result claimed against the problem is recorded on its claim page,
+2026). The one result claimed against the problem is recorded on its claim page,
 and the standing in the frontmatter is derived from it.
 
 **Source.** [erdosproblems.com/1177](https://www.erdosproblems.com/1177),

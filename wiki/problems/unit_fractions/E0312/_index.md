@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0312
 title: Problem 312
 desc: |
-  Asks whether a large multiset of integers whose reciprocals sum above K
-  always has a subset whose reciprocals sum to at most one but within e to the
-  minus cK.
+  Asks whether, for some $c>0$, every large enough finite multiset of positive
+  integers with reciprocal sum above $K$ has a subset whose reciprocal sum lies
+  in $(1-e^{-cK},1]$; open.
 tags:
 - Number theory
 - Unit fractions
@@ -41,19 +41,18 @@ below has no size condition and instead requires $K\ge K_0$. Multiplicity
 matters: with distinct denominators the problem is different (a
 dense-set version is Problem 310).
 
-**Status.** Open; the site labels it OPEN. Erdős and Graham state the
-bound with $c/K^2$ in place of $e^{-cK}$ (the monograph, without proof or
-reference); the best bound found is Korsky's
-$\varepsilon(A)\le\exp(-c\sqrt{K\log K})$ for $R(A)>K\ge K_0$, an arXiv
-preprint of July 2026 whose acknowledgment declares extensive assistance
-from GPT-5.5 Pro, with no journal record and, by its author's own
-statement, no journal submission planned; a construction (the site's
-thread; the preprint's display (1.4)) shows that no bound better than
-$\exp(-(1+o(1))K\log K)$ holds for all multisets. Korsky's bound settles
-no instance of the question, so it has no claim page. The conjectured
-exponential rate is open, and no proof, disproof or proof claim for it was
-found in the search whose scope the Current
-assessment records; this is a bounded negative finding.
+**Status.** Open. The site labels it OPEN. Erdős and Graham state the bound with
+$c/K^2$ in place of $e^{-cK}$, in the monograph, without proof or reference. The
+best bound found is Korsky's $\varepsilon(A)\le\exp(-c\sqrt{K\log K})$ for
+$R(A)>K\ge K_0$. It appears in an arXiv preprint of July 2026, whose
+acknowledgment declares extensive assistance from GPT-5.5 Pro. The preprint has
+no journal record, and its author states that no journal submission is planned.
+Korsky's bound settles no instance of the question, so it has no claim page. A
+construction shows that no bound better than $\exp(-(1+o(1))K\log K)$ holds for
+all multisets (the site's thread; the preprint's display (1.4)). The conjectured
+exponential rate is open. No proof, disproof or proof claim for it was found in
+the search whose scope the Current assessment records. This is a bounded
+negative finding.
 
 **Source.** [erdosproblems.com/312](https://www.erdosproblems.com/312),
 accessed 2026-09-18: the problem page (labeled OPEN, with the site's

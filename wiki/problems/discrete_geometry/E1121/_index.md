@@ -2,8 +2,9 @@
 name: problems/discrete_geometry/E1121
 title: Problem 1121
 desc: |
-  Asks whether circles in the plane that no disjoint line separates can always
-  be covered by a single circle whose radius is the sum of their radii.
+  Asks whether circles in the plane can always be covered by one circle whose
+  radius is the sum of their radii, provided no line missing all of them splits
+  them into two nonempty groups. The answer is yes.
 tags:
 - Geometry
 status: solved
@@ -25,9 +26,9 @@ $r_1,\ldots,r_n$ such that no line disjoint from all the circles divides them
 into two non-empty sets then the circles can be covered by a circle of radius
 $r=\sum r_i$.
 
-**Status.** PROVED (LEAN): the site credits Goodman and Goodman's 1945 proof,
-records Hadwiger's 1947 generalization and Bezdek and Litvak's 2016
-alternative proof, and flags a Lean formalization; see the
+**Status.** PROVED (LEAN). The site credits Goodman and Goodman's 1945 proof. It
+also records Hadwiger's 1947 generalization and Bezdek and Litvak's 2016
+alternative proof, and it flags a Lean formalization. See the
 [[problems/discrete_geometry/E1121/claims/_index|claim pages]].
 
 **Source.** [erdosproblems.com/1121](https://www.erdosproblems.com/1121),

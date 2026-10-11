@@ -2,9 +2,10 @@
 name: problems/discrepancy/E0161/claims/2009_01_25_conlon_fox_sudakov
 title: Conlon, Fox and Sudakov's almost monochromatic sets of triples
 desc: |
-  Every two-coloring of the triples of an n-set has a set of c sqrt(log n)
-  points with all but an epsilon fraction of its triples in one color, and a
-  random coloring makes this tight; so for t = 3 no jump occurs inside (0, 1/2).
+  Conlon, Fox and Sudakov prove that every two-coloring of the triples of an
+  $n$-set has a set of $c\sqrt{\log n}$ points with all but an $\epsilon$
+  fraction of its triples in one color, and a random coloring makes this tight.
+  So for $t=3$ no jump occurs inside $(0,1/2)$.
 authors:
 - David Conlon
 - Jacob Fox
@@ -76,7 +77,7 @@ order $\log\log n$ and order $\sqrt{\log n}$); and every $t\ge4$.
 
 **Acceptance.** Refereed: the paper is the publisher's version of record in
 Israel Journal of Mathematics, volume 181, issue 1. Not reviewed under the
-corpus's rule: the site's commentary credits [CFS11] with the case $t=3$,
-but the site labels the problem OPEN, so that commentary is a credit on an
-open problem and not an acceptance that settles it. The proof was not
-independently reviewed by this corpus.
+corpus's rule: the site's commentary credits [CFS11] with the case $t=3$, but
+the site labels the problem OPEN. That commentary is therefore a credit on an
+open problem, not an acceptance that settles it. The proof was not independently
+reviewed by this corpus.

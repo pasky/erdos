@@ -2,8 +2,9 @@
 name: problems/irrationality/E0258
 title: Problem 258
 desc: |
-  States that the divisor-function product-denominator series is irrational
-  for every positive-integer sequence tending to infinity.
+  Asks whether $\sum_n \tau(n)/(a_1\cdots a_n)$ is irrational for every sequence
+  of positive integers $a_n\to\infty$, where $\tau(n)$ is the number of divisors
+  of $n$; answered yes.
 tags:
 - Irrationality
 status: solved
@@ -30,19 +31,19 @@ $$
 irrational, where $\tau(n)$ is the number of divisors of $n$?
 
 **Status.** Proved. The catalog labels the problem PROVED (LEAN) (page last
-edited 28 May 2026), saying the proof was verified in Lean and crediting
-Chojecki and GPT-5.4 Pro via Tao--Teräväinen [TaTe25]; the label is retained
-from the catalog, and the frontmatter standing derives from the
+edited 28 May 2026). It says the proof was verified in Lean and credits Chojecki
+and GPT-5.4 Pro via Tao--Teräväinen [TaTe25]. The label is retained from the
+catalog. The frontmatter standing derives from the
 [[problems/irrationality/E0258/claims/2026_04_14_chojecki|claim page]] for
-Chojecki's deduction, accepted on the curator's credit and on Tao and
-Teräväinen's adoption of the deduction as Remark 1.4 of their preprint. The
-status-defining source is
-[arXiv:2512.01739v2](https://arxiv.org/abs/2512.01739v2), Remark 1.4,
-physical p. 5, a preprint; the Lean qualifier rests on a formalization of the
-deduction that assumes the Tao--Teräväinen theorem as an axiom, described
-under Formalization, and is not independent verification of the input. An
-accepted partial claim page records
-[[problems/irrationality/E0258/claims/1971_03_01_erdos_straus|Erdős and Straus's 1971 cases]],
+Chojecki's deduction. That deduction is accepted on the curator's credit and on
+Tao and Teräväinen's adoption of it as Remark 1.4 of their preprint. The
+status-defining source is that preprint,
+[arXiv:2512.01739v2](https://arxiv.org/abs/2512.01739v2), Remark 1.4, physical
+p. 5. The Lean qualifier rests on a formalization of the deduction, described
+under Formalization. That formalization assumes the Tao--Teräväinen theorem as
+an axiom and is not independent verification of the input. An accepted partial
+claim page records
+[[problems/irrationality/E0258/claims/1971_03_01_erdos_straus|Erdős and Straus's 1971 cases]]:
 the monotone sequences and the sequences growing past a power of $\log n$.
 
 **Source.** [erdosproblems.com/258](https://www.erdosproblems.com/258), accessed

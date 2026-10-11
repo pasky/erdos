@@ -2,10 +2,10 @@
 name: problems/number_theory/E0034
 title: Problem 34
 desc: |
-  Asks whether every permutation of the first n integers has only o(n squared)
-  distinct sums of consecutive terms; false, by Hegyvári's 1986 construction
-  and Konieczny's explicit permutation with at least n squared over 4 distinct
-  sums, the maximum lying between 0.286 and 0.446 times n squared.
+  Asks whether every permutation of $\{1,\ldots,n\}$ has only $o(n^2)$ distinct
+  sums of consecutive terms. False: Hegyvári's 1986 construction and Konieczny's
+  explicit permutation with at least $n^2/4$ such sums refute it, and the
+  maximum lies between $0.286n^2$ and $0.446n^2$.
 tags:
 - Number theory
 status: solved
@@ -47,23 +47,25 @@ suffix explained under Formalization.
 
 **Status.** The site labels the problem DISPROVED (LEAN), a catalog label
 explained under Formalization. Konieczny's Proposition 1.1 (J. Combinatorics 12
-(2021), 413--477, refereed; arXiv:1504.07156v5) gives for every $n\ge1$ the
-permutation $1,n,2,n-1,3,n-2,\ldots$ with $S(\pi)\ge n^2/4$, so $S(\pi)=o(n^2)$
+(2021), 413--477, refereed; arXiv:1504.07156v5) gives, for every $n\ge1$, the
+permutation $1,n,2,n-1,3,n-2,\ldots$ with $S(\pi)\ge n^2/4$. So $S(\pi)=o(n^2)$
 fails along these permutations. Hegyvári's 1986 Theorem 1 (claims checked) gives
-$(1/3+o(1))n$ distinct integers in $[1,n]$ with all consecutive sums distinct,
-and Konieczny (Section 1.5) and the site deduce from it a permutation with
-$S(\pi)\ge(1/18+o(1))n^2$, the first refutation; the paper itself states nothing
-about permutations. The extremal behavior is known to constants:
-$(3/2-2/\sqrt e+o(1))n^2\le\max_\pi S(\pi)\le(1/4+\pi/16+o(1))n^2$ (Konieczny's
-Theorem 1.2), a uniformly random permutation has $S(\pi)=((1+e^{-2})/4+o(1))n^2$
-in probability (Theorem 1.3), and $\min_\pi S(\pi)\ge n^{3/2}/(4\sqrt2)$
-(Proposition 6.1), while $S(\iota)=n^{2-o(1)}$ for the identity $\iota$. The two
-refutations are recorded as the accepted claim pages
+$(1/3+o(1))n$ distinct integers in $[1,n]$ with all consecutive sums distinct.
+Konieczny (Section 1.5) and the site deduce from it a permutation with
+$S(\pi)\ge(1/18+o(1))n^2$, which was the first refutation. Hegyvári's paper
+itself states nothing about permutations. The two refutations are recorded as
+the accepted claim pages
 [[problems/number_theory/E0034/claims/1986_03_01_hegyvari|Hegyvári 1986]] and
-[[problems/number_theory/E0034/claims/2015_04_27_konieczny|Konieczny 2015]]. The
-proof claim of 15 September 2026 on the minimum $g(n)$ has no claim page: it
-concerns a question of the site's commentary, not the page's question, and
-settles no instance of the problem.
+[[problems/number_theory/E0034/claims/2015_04_27_konieczny|Konieczny 2015]].
+
+The extremal behavior is known up to constants. Konieczny's Theorem 1.2 gives
+$(3/2-2/\sqrt e+o(1))n^2\le\max_\pi S(\pi)\le(1/4+\pi/16+o(1))n^2$. Theorem 1.3
+shows that a uniformly random permutation has $S(\pi)=((1+e^{-2})/4+o(1))n^2$ in
+probability. Proposition 6.1 gives $\min_\pi S(\pi)\ge n^{3/2}/(4\sqrt2)$, while
+$S(\iota)=n^{2-o(1)}$ for the identity $\iota$. The proof claim of 15 September
+2026 on the minimum $g(n)$ has no claim page. It concerns a question of the
+site's commentary, not the page's question, and it settles no instance of the
+problem.
 
 **Source.** [erdosproblems.com/34](https://www.erdosproblems.com/34),
 accessed 2026-09-18: the problem page (DISPROVED

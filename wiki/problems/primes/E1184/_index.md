@@ -2,8 +2,9 @@
 name: problems/primes/E1184
 title: Problem 1184
 desc: |
-  Asks whether the count of integers just above n whose largest prime factor
-  exceeds k follows the prediction given by the Dickman function.
+  Asks whether, for $n=k^{\alpha+o(1)}$ with $\alpha>1$, the number of integers
+  among $n+1,\ldots,n+k$ whose largest prime factor exceeds $k$ is
+  $(1-\rho(\alpha)+o(1))k$, with $\rho$ the Dickman function; open.
 tags:
 - Number theory
 - Primes

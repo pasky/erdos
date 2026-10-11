@@ -2,9 +2,10 @@
 name: problems/analysis/E1165/claims/2024_09_02_hao_li_okada_zheng
 title: Hao, Li, Okada and Zheng's three favorite sites in the plane
 desc: |
-  Proves that planar simple random walk has exactly three favorite sites
-  infinitely often with probability one and four or more only finitely often,
-  so the asked probability is 1 for r = 3 and 0 for r at least 4; refereed.
+  Hao, Li, Okada and Zheng prove in a refereed paper that planar simple random
+  walk almost surely has exactly three favorite sites infinitely often and four
+  or more only finitely often. The asked probability is therefore $1$ for $r=3$
+  and $0$ for $r\ge4$.
 authors:
 - Chenxu Hao
 - Xinyi Li
@@ -60,18 +61,19 @@ version of 12 November 2025, with a weighted, parity-specific replacement for
 one printed conditional display, as the theorem's page explains; they do not
 cite the journal version's pagination.
 
-**Acceptance.** Refereed: the paper appeared in Probability Theory and
-Related Fields, published online on 12 November 2025. Reviewed: Thomas
-Bloom, the curator of erdosproblems.com, labels the problem solved and
-credits this paper for the value $1$ at $r=3$; Bloom credits the value $0$ for
-$r\ge4$ to Tóth's 2001 paper, which concerns the walk on $\mathbb Z$, so the
-planar value for $r\ge4$ rests here on Theorem 1.1 as well, which gives it
-with the same limit superior. Tóth's result is a different dimension's and
-has no claim page. The page is dated by the first arXiv posting, 2 September
-2024. A Lean formalization in Boris Alexeev's lean-proofs repository, linked
-above, names Hao, Li, Okada and Zheng as its informal authors and Codex and
-GPT-5.6 Sol as its formal authors, and states `erdos_1165`: for every $r\ge3$
-the probability is $1$ if $r=3$ and $0$ otherwise. It has not been built or
-audited here, so no `formalized` evidence is listed.
+**Acceptance.** Refereed: the paper appeared in Probability Theory and Related
+Fields and was published online on 12 November 2025. Reviewed: Thomas Bloom, the
+curator of erdosproblems.com, labels the problem solved and credits this paper
+for the value $1$ at $r=3$. Bloom credits the value $0$ for $r\ge4$ to Tóth's
+2001 paper. That paper concerns the walk on $\mathbb Z$, so the planar value for
+$r\ge4$ also rests here on Theorem 1.1, which gives it with the same limit
+superior. Tóth's result concerns a different dimension and has no claim page.
+The page is dated by the first arXiv posting, 2 September 2024.
+
+A Lean formalization in Boris Alexeev's lean-proofs repository, linked above,
+names Hao, Li, Okada and Zheng as its informal authors and Codex and GPT-5.6 Sol
+as its formal authors. It states `erdos_1165`: for every $r\ge3$ the probability
+is $1$ if $r=3$ and $0$ otherwise. It has not been built or audited here, so no
+`formalized` evidence is listed.
 
 **Depends on.** Nothing in this wiki: the argument is the paper's own.

@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0689
 title: Problem 689
 desc: |
-  Asks whether, for large n, one residue class per prime up to n can be chosen
-  so that every integer from 1 to n lies in at least two of them; open on the
-  site, with three pending AI-assisted full claims of April and July 2026.
+  Asks whether, for large $n$, one residue class can be chosen for each prime
+  $p\le n$ so that every integer in $[1,n]$ lies in at least two of them. It is
+  open on the site, with three pending AI-assisted full claims from April and
+  July 2026.
 tags:
 - Number theory
 status: claimed
@@ -46,30 +47,30 @@ question for large $n$. Whether the classes are chosen for every prime up
 to $n$ or only some does not matter, since an unused prime can take any
 class; the count is of classes containing the integer.
 
-**Status.** Open on the site, with pending full claims. No refereed proof
-or disproof was found in the searches whose scope the Current assessment records, and the site keeps the label
-OPEN: its maintainer wrote in the thread on 2 June 2026 that two
-full-solution claims had been posted, both built on the sketch developed in
-the thread mainly by Sawhney and Tao, and that he would wait for a refereed
-publication or a careful reading by an expert before changing the label.
-Three claim pages record the pending claims, all answering yes for all
-large $n$ and all declaring AI assistance: Zribi's notes of 25 April to 2
+**Status.** Open on the site, with pending full claims. The frontmatter standing
+`claimed`/`proved` derives from those claims, while the site keeps the label
+OPEN. Its maintainer wrote in the thread on 2 June 2026 that two full-solution
+claims had been posted, both built on the sketch developed in the thread mainly
+by Sawhney and Tao. He wrote that he would wait for a refereed publication or a
+careful reading by an expert before changing the label. No refereed proof or
+disproof was found in the searches whose scope the Current assessment records.
+
+Three claim pages record the pending claims. All answer yes for all large $n$,
+and all declare AI assistance. The first is for Zribi's notes of 25 April to 2
 June 2026
-([[problems/integer_sequences/E0689/claims/2026_04_25_zribi|claim page]]);
-Chojecki's working manuscript dated 27 April 2026, posted 30 April
-([[problems/integer_sequences/E0689/claims/2026_04_30_chojecki|claim
-page]]), whose page also carries, as a `formalization` link, Xu's Lean
-development registered on the Palomar registry on 20 September 2026, which
-declares itself a formalization of that manuscript's Theorem 1.1; and their
-joint submission to the proof-claim tab of 21 July 2026, with a shorter
-version of 5 September
-([[problems/integer_sequences/E0689/claims/2026_07_21_zribi_chojecki|claim
-page]]).
-None is refereed, accepted by the site or reviewed independently, so each
-is `claimed`, and the frontmatter standing `claimed`/`proved` derives from
-them. The results in hand are Erdős's questions, the thread's sketch of a
-construction for $r=2$ and its obstruction remarks for $r\ge3$, and the
-trivial bound that the multiplicity cannot exceed $(1+o(1))\log\log n$.
+([[problems/integer_sequences/E0689/claims/2026_04_25_zribi|claim page]]). The
+second is for Chojecki's working manuscript dated 27 April 2026, posted 30 April
+([[problems/integer_sequences/E0689/claims/2026_04_30_chojecki|claim page]]).
+That page also carries, as a `formalization` link, Xu's Lean development,
+registered on the Palomar registry on 20 September 2026, which declares itself a
+formalization of that manuscript's Theorem 1.1. The third is for their joint
+submission to the proof-claim tab of 21 July 2026, with a shorter version of 5
+September
+([[problems/integer_sequences/E0689/claims/2026_07_21_zribi_chojecki|claim page]]).
+None is refereed, accepted by the site or reviewed independently, so each is
+`claimed`. The results in hand are Erdős's questions, the thread's sketch of a
+construction for $r=2$ and its obstruction remarks for $r\ge3$, and the trivial
+bound that the multiplicity cannot exceed $(1+o(1))\log\log n$.
 
 **Source.** [erdosproblems.com/689](https://www.erdosproblems.com/689),
 accessed 2026-09-18 and 2026-10-07: the problem page (OPEN, with the site's

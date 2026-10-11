@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E1124
 title: Problem 1124
 desc: |
   Asks whether a square and a circle of the same area can be cut into finitely
-  many congruent pieces.
+  many congruent pieces. The answer is yes.
 tags:
 - Geometry
 status: solved
@@ -23,8 +23,8 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Can a square and a circle of the same area be decomposed into a
 finite number of congruent parts?
 
-**Status.** Proved: the site credits Laczkovich's 1990 theorem, which gives
-the decomposition with translations alone; see the
+**Status.** Proved. The site credits Laczkovich's 1990 theorem, which gives the
+decomposition with translations alone. See the
 [[problems/discrete_geometry/E1124/claims/1990_02_01_laczkovich|claim page]].
 
 **Source.** [erdosproblems.com/1124](https://www.erdosproblems.com/1124),

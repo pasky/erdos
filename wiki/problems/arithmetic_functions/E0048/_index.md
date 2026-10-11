@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0048
 title: Problem 48
 desc: |
-  Asks whether there are infinitely many pairs of integers for which Euler's
-  totient of one equals the sum of the divisors of the other.
+  Asks whether $\phi(n)=\sigma(m)$ for infinitely many pairs of integers $n,m$,
+  where $\phi$ is Euler's totient and $\sigma$ is the sum of divisors; proved.
 tags:
 - Number theory
 status: solved
@@ -23,16 +23,16 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Are there infinitely many integers $n,m$ such that
 $\phi(n)=\sigma(m)$?
 
-**Status.** PROVED (LEAN). The site's label is PROVED (LEAN). The answer is
-yes: Ford, Luca and Pomerance proved in 2010 that $\phi$ and $\sigma$ have
-infinitely many common values (refereed; the accepted claim page is
-[[problems/arithmetic_functions/E0048/claims/2009_06_18_ford_luca_pomerance|Ford–Luca–Pomerance 2010]]),
-and Garaev's refereed sharpening of the count in 2011 is a second accepted
-claim page
-([[problems/arithmetic_functions/E0048/claims/2011_01_01_garaev|Garaev 2011]]).
+**Status.** PROVED (LEAN), the site's label. The answer is yes. Ford, Luca and
+Pomerance proved in 2010 that $\phi$ and $\sigma$ have infinitely many common
+values. Their result is refereed, and its accepted claim page is
+[[problems/arithmetic_functions/E0048/claims/2009_06_18_ford_luca_pomerance|Ford–Luca–Pomerance 2010]].
+Garaev's refereed sharpening of the count in 2011 is a second accepted claim
+page,
+[[problems/arithmetic_functions/E0048/claims/2011_01_01_garaev|Garaev 2011]].
 The site's Lean marker refers to a community Lean formalization of the
-Ford–Luca–Pomerance argument, linked from their claim page; this corpus has
-not built or audited it.
+Ford–Luca–Pomerance argument, linked from their claim page. This corpus has not
+built or audited it.
 
 **Source.** [erdosproblems.com/48](https://www.erdosproblems.com/48), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #48,

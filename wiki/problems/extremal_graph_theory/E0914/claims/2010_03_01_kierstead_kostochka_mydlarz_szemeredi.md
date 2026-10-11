@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0914/claims/2010_03_01_kierstead_kostochka
 title: The algorithmic proof of Kierstead, Kostochka, Mydlarz and Szemerédi
 desc: |
   Theorem 1 of Kierstead, Kostochka, Mydlarz and Szemerédi (Combinatorica 2010)
-  restates the Hajnal–Szemerédi theorem and proves it algorithmically; the
+  restates the Hajnal–Szemerédi theorem and proves it algorithmically. It is the
   refereed text behind the problem's standing.
 authors:
 - H. A. Kierstead
@@ -50,6 +50,6 @@ from scratch, and the elementary transfer to the clique form is written on
 the problem page.
 
 **Acceptance.** Refereed publication in Combinatorica, cited with its venue
-above. The site does not cite this paper; it is the text on which this
-corpus rests the theorem. Read depth: claims checked for Theorem 1; the
-proof of Section 2 read for structure only, with no step checked.
+above. The site does not cite this paper. It is the text on which this corpus
+rests the theorem. Read depth: claims checked for Theorem 1. The proof of
+Section 2 was read for structure only, with no step checked.

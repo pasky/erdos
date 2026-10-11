@@ -2,8 +2,10 @@
 name: problems/divisors/E1054
 title: Problem 1054
 desc: |
-  Studies the least m such that n is the sum of the k smallest divisors of m
-  for some k, and how that function behaves.
+  Asks whether $f(n)=o(n)$, or whether this holds only for almost all $n$ and
+  $\limsup f(n)/n=\infty$, where $f(n)$ is the least $m$ such that $n$ is the
+  sum of the $k$ smallest divisors of $m$ for some $k$; open on the site, with
+  pending claimed answers.
 tags:
 - Number theory
 - Divisors
@@ -44,11 +46,11 @@ is defined at every other $n$, using explicit constants of Helfgott and of
 Rosser and Schoenfeld.
 
 **Status.** Open. The site labels the problem OPEN (page last edited 6 December
-2025). Its commentary credits Tao, in comments first posted under Problem 468,
-with disproving the strong claim $f(n)=o(n)$ by showing that the $n$ with
-$f(n)\le\delta n$ have upper density $\ll\delta^2$. The frontmatter standing
-derives from the claim pages: two pending full claims answer all three parts, so
-it is claimed.
+2025). The frontmatter standing derives from the claim pages. Two pending full
+claims answer all three parts, so the standing is claimed. The site's commentary
+credits Tao, in comments first posted under Problem 468, with disproving the
+strong claim $f(n)=o(n)$. He did so by showing that the $n$ with
+$f(n)\le\delta n$ have upper density $\ll\delta^2$.
 
 **Source.** [erdosproblems.com/1054](https://www.erdosproblems.com/1054),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1054,

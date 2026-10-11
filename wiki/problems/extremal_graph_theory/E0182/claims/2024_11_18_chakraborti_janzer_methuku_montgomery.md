@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0182/claims/2024_11_18_chakraborti_janzer_methuku_montgomery
 title: The order k squared n log log n
 desc: |
-  Average degree C r squared log log n forces an r-regular subgraph with one
-  absolute constant C, and the r squared dependence is sharp, so the maximum
-  is of order k squared n log log n for fixed k; Trans. Amer. Math. Soc. 2026.
+  Chakraborti, Janzer, Methuku and Montgomery prove that, for one absolute
+  constant $C$, average degree $Cr^2\log\log n$ forces an $r$-regular subgraph,
+  and that the $r^2$ dependence is sharp. So for fixed $k$ the maximum is of
+  order $k^2n\log\log n$ (Trans. Amer. Math. Soc. 2026).
 authors:
 - Debsoumya Chakraborti
 - Oliver Janzer
@@ -61,8 +62,8 @@ construction of Pyber, Rödl and Szemerédi, and both results are proved in
 the paper.
 
 **Acceptance.** Refereed: Transactions of the American Mathematical Society,
-published online 18 August 2026 (Crossref record). The
-site's label PROVED credits Janzer and Sudakov and lists no parts, so the
-curator's mention of this paper's $C(k)\ll k^2$ as best possible up to an
-absolute constant in the problem's commentary (erdosproblems.com/182, last
-edited 7 March 2026) is context and not `reviewed` evidence.
+published online 18 August 2026 (Crossref record). The site's label PROVED
+credits Janzer and Sudakov and lists no parts. The curator's commentary mentions
+this paper's $C(k)\ll k^2$ as best possible up to an absolute constant
+(erdosproblems.com/182, last edited 7 March 2026). Because of the label, that
+mention is context and not `reviewed` evidence.

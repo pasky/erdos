@@ -2,8 +2,8 @@
 name: problems/polynomials/E0114
 title: Problem 114
 desc: |
-  Asks whether the curve where a monic degree n complex polynomial has
-  absolute value one is longest for the polynomial z to the n minus one.
+  Asks whether, among monic complex polynomials $p$ of degree $n$, the length of
+  the curve $\{z:|p(z)|=1\}$ is maximized by $z^n-1$; open.
 tags:
 - Polynomials
 - Analysis
@@ -27,21 +27,22 @@ maximised when $p(z)=z^n-1$?
 
 **Status.** Falsifiable. The site's label is FALSIFIABLE (page last edited
 2026-01-23): open, but refutable by a finite counterexample. Six partial claims
-are recorded, none settling the question. Degree $2$ is proved twice, by Wang
+are recorded, and none settles the question. Degree $2$ is proved twice, by Wang
 ([[problems/polynomials/E0114/claims/1998_01_01_wang|Wang 1998]], accepted,
 refereed) and by Eremenko and Hayman
 ([[problems/polynomials/E0114/claims/1999_09_01_eremenko_hayman|Eremenko–Hayman 1999]],
-accepted, refereed). All sufficiently large degrees are proved by Tao in an
-arXiv preprint ([[problems/polynomials/E0114/claims/2025_12_13_tao|Tao 2025]],
-pending). Degree $3$ has two pending claims: Dahlke's Zenodo manuscript,
-announced on the site's discussion thread on 2026-05-21
-([[problems/polynomials/E0114/claims/2026_05_20_dahlke|Dahlke 2026]]), and
-Chatelet's write-up and Lean development, posted in August 2026 and registered
-on the site's proof-claims tab on 2026-09-07
-([[problems/polynomials/E0114/claims/2026_08_22_chatelet|Chatelet 2026]]), which
-asserts the cubic case under a domain reduction cited from Eremenko–Hayman and
-Tao; no review or acceptance of either is recorded. Degrees $3$ to $14$ were
-claimed by Mendoza's computer search, withdrawn by its author on 2026-10-01
+accepted, refereed). Tao proves all sufficiently large degrees in an arXiv
+preprint ([[problems/polynomials/E0114/claims/2025_12_13_tao|Tao 2025]],
+pending). Degree $3$ has two pending claims, and no review or acceptance of
+either is recorded. Dahlke's Zenodo manuscript was announced on the site's
+discussion thread on 2026-05-21
+([[problems/polynomials/E0114/claims/2026_05_20_dahlke|Dahlke 2026]]).
+Chatelet's write-up and Lean development were posted in August 2026 and
+registered on the site's proof-claims tab on 2026-09-07
+([[problems/polynomials/E0114/claims/2026_08_22_chatelet|Chatelet 2026]]).
+Chatelet's claim asserts the cubic case under a domain reduction cited from
+Eremenko–Hayman and Tao. Mendoza's computer search claimed degrees $3$ to $14$,
+and its author withdrew the claim on 2026-10-01
 ([[problems/polynomials/E0114/claims/2026_03_23_mendoza|Mendoza 2026]]).
 
 **Source.** [erdosproblems.com/114](https://www.erdosproblems.com/114), accessed

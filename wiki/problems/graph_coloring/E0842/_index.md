@@ -2,8 +2,9 @@
 name: problems/graph_coloring/E0842
 title: Problem 842
 desc: |
-  Asks whether n disjoint triangles joined by a Hamiltonian cycle on their 3n
-  vertices always give a 3-colorable graph; proved by Fleischner and Stiebitz.
+  Asks whether $n$ disjoint triangles joined by a Hamiltonian cycle on their
+  $3n$ vertices always give a $3$-colorable graph; proved by Fleischner and
+  Stiebitz.
 tags:
 - Graph theory
 - Chromatic number
@@ -25,18 +26,17 @@ updated: 2026-10-08T00:44:25Z
 disjoint triangles and adding a Hamiltonian cycle (with all new edges) between
 these vertices. Does $G$ have chromatic number at most $3$?
 
-**Status.** Proved. **Evidence warning.** The original solution, Fleischner
-and Stiebitz's Theorem 1.1 [FlSt92], was checked at statement depth; its
-proof, a parity theorem on Eulerian arc sets, was read for structure and not
-checked. Sachs's 1993 published chapter contains the exact
-cycle-plus-triangles corollary and a stronger parity theorem. The chapter
-prints its proof, which was not reconstructed or given a correctness review,
-so the direct primary statement is checked
-from both sources without complete-proof or final-review credit. The site
-credits the proof to Fleischner and Stiebitz; the claim pages
+**Status.** Proved. **Evidence warning.** The original solution, Fleischner and
+Stiebitz's Theorem 1.1 [FlSt92], was checked at statement depth. Its proof, a
+parity theorem on Eulerian arc sets, was read for structure and not checked.
+Sachs's 1993 published chapter contains the exact cycle-plus-triangles corollary
+and a stronger parity theorem. The chapter prints its proof, but that proof was
+not reconstructed or given a correctness review. So the direct primary statement
+is checked from both sources, without complete-proof or final-review credit. The
+site credits the proof to Fleischner and Stiebitz. The claim pages
 [[problems/graph_coloring/E0842/claims/1992_05_01_fleischner_stiebitz|Fleischner–Stiebitz 1992]]
-and [[problems/graph_coloring/E0842/claims/1993_01_01_sachs|Sachs 1993]]
-record the two published proofs and their acceptance evidence.
+and [[problems/graph_coloring/E0842/claims/1993_01_01_sachs|Sachs 1993]] record
+the two published proofs and their acceptance evidence.
 
 **Source.** [erdosproblems.com/842](https://www.erdosproblems.com/842), accessed
 2026-09-07. Cite as: T. F. Bloom, Erdős Problem #842,

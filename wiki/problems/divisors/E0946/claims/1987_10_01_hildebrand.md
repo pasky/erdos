@@ -2,9 +2,9 @@
 name: problems/divisors/E0946/claims/1987_10_01_hildebrand
 title: Hildebrand's count of equal divisor counts at consecutive integers
 desc: |
-  Hildebrand proves that tau(n) equals tau(n plus 1) for at least a constant
-  times x over (log log x) cubed integers n up to x, answering the question
-  again with a far larger count.
+  Hildebrand proves that $\tau(n)=\tau(n+1)$ for at least $cx/(\log\log x)^3$
+  integers $n\le x$, where $c$ is a constant. This answers the question again
+  with a far larger count.
 authors:
 - Adolf Hildebrand
 status: accepted

@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E1013
 title: Problem 1013
 desc: |
-  Asks for an asymptotic formula for the fewest vertices of a triangle-free
-  graph with chromatic number k, and for a proof that consecutive values have
-  ratio tending to one.
+  Asks for an asymptotic formula for $h_3(k)$, the fewest vertices of a
+  triangle-free graph with chromatic number $k$, and for a proof that
+  $h_3(k+1)/h_3(k)\to1$; open.
 tags:
 - Graph theory
 - Chromatic number

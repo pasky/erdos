@@ -2,8 +2,8 @@
 name: problems/analysis/E0967
 title: Problem 967
 desc: |
-  Asks whether, for integer sequences whose reciprocals sum finitely, one plus
-  the sum of their reciprocals to the power one plus i t is never zero.
+  Asks whether $1+\sum_ka_k^{-(1+it)}\neq 0$ for every real $t$ whenever
+  $1<a_1<a_2<\cdots$ are integers with $\sum 1/a_k<\infty$; disproved.
 tags:
 - Number theory
 - Analysis
@@ -28,12 +28,12 @@ $$
 1+\sum_{k}\frac{1}{a_k^{1+it}}\neq 0?
 $$
 
-**Status.** DISPROVED (LEAN). The site credits Yip [Yi25], whose
-representation theorem yields, for each real $t\neq 0$, an admissible infinite
-sequence with $1+\sum_k a_k^{-(1+it)}=0$; its Lean marker refers to a
-third-party formalization that this corpus has not built, and it records the
-finite-sequence variant as open. The standing derives from
-[[problems/analysis/E0967/claims/2025_12_18_yip|Yip's claim page]].
+**Status.** DISPROVED (LEAN). The site credits Yip [Yi25]. Yip's representation
+theorem yields, for each real $t\neq 0$, an admissible infinite sequence with
+$1+\sum_k a_k^{-(1+it)}=0$. The standing derives from
+[[problems/analysis/E0967/claims/2025_12_18_yip|Yip's claim page]]. The site's
+Lean marker refers to a third-party formalization that this corpus has not
+built. The site records the finite-sequence variant as open.
 
 **Source.** [erdosproblems.com/967](https://www.erdosproblems.com/967), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #967,

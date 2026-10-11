@@ -2,8 +2,8 @@
 name: problems/distance_problems/E0958
 title: Problem 958
 desc: |
-  Asks whether n planar points with n-1 distances of multiplicities
-  n-1, ..., 1 must be equally spaced on a line or a circle.
+  Asks whether $n$ planar points with $n-1$ distances of multiplicities
+  $n-1,\ldots,1$ must be equally spaced on a line or a circle; disproved.
 tags:
 - Distances
 - Geometry
@@ -79,10 +79,10 @@ sufficiently large $n$, have the same answer, no, as the Current assessment
 records.
 
 **Status.** DISPROVED (LEAN), in the site's label. The site marks the problem
-disproved, crediting Clemen, Dumitrescu and Liu with a second family of
-configurations, and flags a Lean proof of a four-point counterexample; both
-have the profile under the unordered count, so the label describes the
-corrected Statement. See the
+disproved and credits Clemen, Dumitrescu and Liu with a second family of
+configurations. It also flags a Lean proof of a four-point counterexample. Both
+have the profile under the unordered count, so the label describes the corrected
+Statement. See the
 [[problems/distance_problems/E0958/claims/2025_05_07_clemen_dumitrescu_liu|accepted claim page]]
 and the
 [[problems/distance_problems/E0958/claims/2025_12_27_alexeev|Lean claim page]].

@@ -2,9 +2,9 @@
 name: problems/polynomials/E0230/claims/2009_06_30_bombieri_bourgain
 title: Bombieri and Bourgain's quantitative ultraflat polynomials
 desc: |
-  Theorems 4 and 7 of Bombieri and Bourgain: unimodular polynomials whose
-  modulus on the unit circle is the square root of n up to an error of order
-  n to the power 7/18 plus epsilon, also by an effective construction.
+  Theorem 4 of Bombieri and Bourgain gives unimodular polynomials whose modulus
+  on the unit circle is $\sqrt n$ up to an error of order
+  $n^{7/18+\varepsilon}$. Theorem 7 gives the same by an effective construction.
 authors:
 - Enrico Bombieri
 - Jean Bourgain
@@ -67,12 +67,17 @@ coefficients, so the paper does not touch the real-sign question of
 **Depends on.** Nothing in this wiki: the construction is self-contained in
 the paper.
 
-**Acceptance.** A refereed sharpening of Kahane's disproof, named by the
-site's curator. Refereed: E. Bombieri and J. Bourgain, On Kahane's ultraflat
-polynomials, J. Eur. Math. Soc. (JEMS) 11 (2009), no. 3, 627--703, received 3
-September 2008, published 30 June 2009. Reviewed: the site's curator, Thomas
-Bloom, names the paper in the problem's commentary as the sharpening of
-Kahane's construction to a polynomial within $O(n^{7/18}(\log n)^{O(1)})$ of
-$\sqrt n$ on the whole circle (page last edited 23 January 2026). The card
-digests the paper; its arguments are not independently rederived. No
+**Acceptance.** A refereed sharpening of Kahane's disproof, named by the site's
+curator.
+
+Refereed: E. Bombieri and J. Bourgain, On Kahane's ultraflat polynomials, J.
+Eur. Math. Soc. (JEMS) 11 (2009), no. 3, 627--703, received 3 September 2008,
+published 30 June 2009.
+
+Reviewed: the site's curator, Thomas Bloom, names the paper in the problem's
+commentary (page last edited 23 January 2026). The commentary describes it as
+the sharpening of Kahane's construction to a polynomial within
+$O(n^{7/18}(\log n)^{O(1)})$ of $\sqrt n$ on the whole circle.
+
+The card digests the paper. Its arguments are not independently rederived. No
 formalization of this result is known here.

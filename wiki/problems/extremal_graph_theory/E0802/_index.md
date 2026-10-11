@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0802
 title: Problem 802
 desc: |
-  Asks whether every K_r-free graph on n vertices with average degree t has an
-  independent set of order n log t over t; true for r = 3 since 1980, and for
-  every r at least 4 by a Lean-checked theorem of the 2026 OpenAI release.
+  Asks whether every $K_r$-free graph on $n$ vertices with average degree $t$
+  has an independent set of size $\gg_r n\log t/t$. True for $r=3$ since 1980,
+  and for every $r\ge4$ by a Lean-checked theorem of the 2026 OpenAI release.
 tags:
 - Graph theory
 status: solved
@@ -45,31 +45,32 @@ The case $r=3$ is the theorem of Ajtai, Komlós and Szemerédi, and the paper
 says the question is undecided already at $p=4$. The paper states that the
 $r=3$ bound "is best possible up to constant multiple".
 
-**Status.** Proved. The site's label is OPEN with the
-remark that the problem cannot be resolved by a finite computation and an
-empty proof-claims tab. The question is settled by one accepted full claim,
-on
-[[problems/extremal_graph_theory/E0802/claims/2026_09_25_openai|its claim page]]:
+**Status.** Proved. The site's label is OPEN, with the remark that the problem
+cannot be resolved by a finite computation, and its proof-claims tab is empty.
+The question is settled by one accepted full claim, on
+[[problems/extremal_graph_theory/E0802/claims/2026_09_25_openai|its claim page]].
 Theorem 1.1 of the OpenAI release manuscript of 25 September 2026 proves the
-bound for every fixed $r\ge4$, its Lean declaration was built by this corpus's
-verification with the three standard axioms only, and this corpus's own
-statement-fidelity audit, part of that `formalized` evidence and not an
-outside review, found the formal statement faithful to the question; the
-frontmatter standing is derived from that page and from the accepted
-partial claim page
+bound for every fixed $r\ge4$. Its Lean declaration was built by this corpus's
+verification with the three standard axioms only. This corpus's own
+statement-fidelity audit found the formal statement faithful to the question.
+That audit is part of the `formalized` evidence, not an outside review. The
+frontmatter standing is derived from that page and from the accepted partial
+claim page
 [[problems/extremal_graph_theory/E0802/claims/1980_11_01_ajtai_komlos_szemeredi|Ajtai, Komlós and Szemerédi]],
-the case $r=3$. Before the release, the bounds in hand were: Theorem 2 of
-[AEKS81], $\alpha(G)>c_1\frac nt\log\frac{\log t}r$, that is
-$\gg_r\frac{\log\log t}tn$ for fixed $r$; Shearer's improvement [Sh95] to
-$\gg_r\frac nt\cdot\frac{\log t}{\log\log t}$ (Corollary 2 of the paper;
-the paper says it does not settle the $\log t$ question), the best bound in
-the refereed record; the case $r=3$, proved as Theorem 2 of [AKS80]
-($\alpha(G)\ge0.01\frac nt\ln t$ for triangle-free $G$, sharp up to the
-constant for $t<n^{1/3+o(1)}$ by its Remark 2, and restated as Theorem 1 of
-[AEKS81]); and Alon's
-Theorem 1.1 [Al96b], the conjectured order under the stronger hypothesis that
-every vertex neighborhood is $(r-2)$-colorable. The search, whose scope the Current assessment records, found no proof, disproof or
-claim at any $r\ge4$; the release postdates it.
+which covers the case $r=3$.
+
+Before the release, the bounds in hand were the following. Theorem 2 of [AEKS81]
+gives $\alpha(G)>c_1\frac nt\log\frac{\log t}r$, that is
+$\gg_r\frac{\log\log t}tn$ for fixed $r$. Shearer [Sh95] improved this to
+$\gg_r\frac nt\cdot\frac{\log t}{\log\log t}$ (Corollary 2 of the paper), the
+best bound in the refereed record. The paper says it does not settle the
+$\log t$ question. The case $r=3$ was proved as Theorem 2 of [AKS80]:
+$\alpha(G)\ge0.01\frac nt\ln t$ for triangle-free $G$. By its Remark 2 this is
+sharp up to the constant for $t<n^{1/3+o(1)}$, and it is restated as Theorem 1
+of [AEKS81]. Alon's Theorem 1.1 [Al96b] gives the conjectured order under the
+stronger hypothesis that every vertex neighborhood is $(r-2)$-colorable. The
+search, whose scope the Current assessment records, found no proof, disproof or
+claim at any $r\ge4$. The release postdates it.
 
 **Source.** [erdosproblems.com/802](https://www.erdosproblems.com/802),
 accessed 2026-09-18: the problem page (OPEN,

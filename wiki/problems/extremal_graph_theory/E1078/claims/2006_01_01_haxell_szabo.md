@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E1078/claims/2006_01_01_haxell_szabo
 title: Haxell and Szabó's exact threshold for Problem 1078
 desc: |
   Haxell and Szabó (Combin. Probab. Comput. 2006) determine the sharp
-  minimum-degree threshold for a complete r-vertex subgraph of an r-partite
-  graph, below (r − 3/2)n for every r and n; refereed and named by the site.
+  minimum-degree threshold for a $K_r$ in an $r$-partite graph, which lies below
+  $(r-\frac32)n$ for every $r$ and $n$. The paper is refereed and named by the
+  site.
 authors:
 - P. Haxell
 - T. Szabó
@@ -64,14 +65,16 @@ paper.
 [[problems/extremal_graph_theory/E1078/_index|the problem page]].
 
 **Acceptance.** Refereed: Combinatorics, Probability and Computing (the Crossref
-record: volume 15, issue 1--2, pp. 193--211, issued January 2006; the day is the
-issue's nominal first day, used for this page's date). Reviewed: the site's
-curator, T. F. Bloom, labels the problem proved and credits this paper with the
-sharp threshold, which contains the statement. The locators are pages of the
-authors' preprint, posted on Szabó's publication page and linked above, and
-described on the
-[[../library/extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/_index|source card]];
-Theorem 1.1 and the introduction are checked at claims checked, the proof
+record: volume 15, issue 1--2, pp. 193--211, issued January 2006). The day in
+this page's date is the issue's nominal first day.
+
+Reviewed: the site's curator, T. F. Bloom, labels the problem proved and credits
+this paper with the sharp threshold, which contains the statement.
+
+The locators are pages of the authors' preprint. The preprint is posted on
+Szabó's publication page and linked above, and it is described on the
+[[../library/extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/_index|source card]].
+Theorem 1.1 and the introduction are checked at claims checked. The proof
 (Sections 2--4) was not read, and the journal text was not compared with the
 preprint. The acceptance recorded here rests on the publication and the site's
 acceptance, not on a local review.

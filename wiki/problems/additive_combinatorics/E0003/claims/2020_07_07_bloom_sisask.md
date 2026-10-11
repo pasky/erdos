@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0003/claims/2020_07_07_bloom_sisask
 title: Bloom and Sisask's three-term case
 desc: |
-  Corollary 1.2 of Bloom and Sisask's 2020 preprint: a set of naturals with
-  divergent reciprocal sum contains infinitely many three-term arithmetic
-  progressions, the case k = 3 of the problem; claimed, with no journal version.
+  Corollary 1.2 of Bloom and Sisask's 2020 preprint states that a set of natural
+  numbers with divergent reciprocal sum contains infinitely many three-term
+  arithmetic progressions. This is the case $k=3$ of the problem, and it is
+  claimed, with no journal version.
 authors:
 - Thomas F. Bloom
 - Olof Sisask

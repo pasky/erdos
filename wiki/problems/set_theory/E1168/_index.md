@@ -2,9 +2,9 @@
 name: problems/set_theory/E1168
 title: Problem 1168
 desc: |
-  Asks for a proof of a negative partition relation for pairs at the successor
-  of the omega-th infinite cardinal, without the generalized continuum
-  hypothesis.
+  Asks for a proof of
+  $\aleph_{\omega+1}\not\to(\aleph_{\omega+1},3,\ldots,3)_{\aleph_0}^2$ without
+  the generalized continuum hypothesis; open.
 tags:
 - Set theory
 - Ramsey theory

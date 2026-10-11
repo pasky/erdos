@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1008/claims/2014_01_27_conlon_fox_sudakov
 title: Conlon, Fox and Sudakov's quarter-of-m^{2/3} C_4-free subgraph
 desc: |
-  Theorem 2.1 of Conlon, Fox and Sudakov (arXiv 2014; Theorem 3.1 of their
-  refereed paper in J. Combin. Theory Ser. B 2016) gives every graph with m
-  edges a C_4-free subgraph with at least a quarter of m^{2/3} edges; accepted.
+  Theorem 2.1 of Conlon, Fox and Sudakov (arXiv 2014) gives every graph with $m$
+  edges a $C_4$-free subgraph with at least $\frac14m^{2/3}$ edges. It is also
+  Theorem 3.1 of their refereed paper (J. Combin. Theory Ser. B 2016), and the
+  claim is accepted.
 authors:
 - David Conlon
 - Jacob Fox
@@ -73,27 +74,28 @@ The exponent cannot be raised: Folkman's example, recomputed on the problem
 page, and Theorem 2.3 both bound every $C_4$-free subgraph by $O(m^{2/3})$
 edges in the extremal graphs.
 
-**Acceptance.** The note of 2014 is an arXiv preprint with no journal
-record (no journal reference on arXiv and no Crossref record for its title
-on 2026-09-18). The refereed acceptance is the restatement in J. Combin.
-Theory Ser. B 121 (2016), 173--196 (Crossref record, 2026-10-07: issued
-November 2016), whose journal text was not compared with the arXiv v2,
-so the match of the printed statement is checked against the preprint only.
-The site's curator, Thomas Bloom, labels the problem proved and credits
-Conlon, Fox and Sudakov [CFS14b] with the first solution (the `reviewed`
-evidence; Bloom took no part in the paper), after the forum comment of 29
-September 2025 identified it; the proof-claim tab is empty, and the
-community database records the problem proved. The first-solution credit
-is the site's: the authors themselves, in the opening of Section 3 of
-[CFS16], describe their theorem as extending the Folkman--Szemerédi result,
-after Erdős's remark that the answer is likely $\Theta(m^{2/3})$ on the
-strength of Folkman's example and a private communication from Szemerédi,
-of which no text is located. Read depth: claims
-checked for Theorems 2.1 and 2.3 and Lemma 2.2 of the note and Theorems 3.1
-and 3.3 of the 2016 paper; the short proofs were read and
+**Acceptance.** The note of 2014 is an arXiv preprint with no journal record.
+arXiv gives no journal reference, and no Crossref record for its title was found
+on 2026-09-18. The refereed acceptance is the restatement in J. Combin. Theory
+Ser. B 121 (2016), 173--196 (Crossref record, 2026-10-07: issued November 2016).
+Its journal text was not compared with the arXiv v2, so the printed statement is
+matched against the preprint only.
+
+The site's curator, Thomas Bloom, labels the problem proved and credits Conlon,
+Fox and Sudakov [CFS14b] with the first solution. This is the `reviewed`
+evidence, and Bloom took no part in the paper. The credit came after the forum
+comment of 29 September 2025 identified the paper. The proof-claim tab is empty,
+and the community database records the problem proved. The first-solution credit
+is the site's. In the opening of Section 3 of [CFS16], the authors themselves
+describe their theorem as extending the Folkman--Szemerédi result, after Erdős's
+remark that the answer is likely $\Theta(m^{2/3})$ on the strength of Folkman's
+example and a private communication from Szemerédi. No text of that
+communication is located.
+
+Read depth: claims checked for Theorems 2.1 and 2.3 and Lemma 2.2 of the note
+and for Theorems 3.1 and 3.3 of the 2016 paper. The short proofs were read but
 are not independently reviewed by this project. The acceptance rests on the
-refereed publication and the curator's credit. The forum proof with
-$c=\tfrac12$
+refereed publication and the curator's credit. The forum proof with $c=\tfrac12$
 ([[problems/extremal_graph_theory/E1008/claims/2025_09_13_zach_hunter|its claim page]])
 records the same bound with the larger constant separately.
 

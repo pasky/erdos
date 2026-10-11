@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0765/claims/1966_01_01_erdos_renyi_sos
 title: Erdős, Rényi and Sós's asymptotic for ex(n;C4)
 desc: |
-  Erdős, Rényi and Sós prove that the largest number of edges of a graph on n
-  vertices with no four-cycle is asymptotic to n^{3/2}/2, the formula Problem
-  765 asks for; refereed in Studia Sci. Math. Hungar. 1 (1966); Lean linked.
+  In a refereed paper in Studia Sci. Math. Hungar. 1 (1966), Erdős, Rényi and
+  Sós prove that the largest number of edges of a graph on $n$ vertices with no
+  four-cycle is asymptotic to $n^{3/2}/2$, the formula Problem 765 asks for. A
+  Lean development is linked.
 authors:
 - P. Erdős
 - A. Rényi
@@ -77,14 +78,13 @@ records, and no replacement second-order asymptotic is known.
 
 **Acceptance.** Refereed: Studia Scientiarum Mathematicarum Hungarica. Reviewed:
 the site's curator, Thomas Bloom, labels the problem solved and records the
-asymptotic $\operatorname{ex}(n;C_4)\sim\tfrac12n^{3/2}$ as the answer in
-the problem's commentary, crediting the construction to Erdős and Rényi and
-to Brown and the upper bound to Reiman; Füredi (1983) and Ma and Yang
-(2023), in refereed papers, credit the asymptotic to Erdős, Rényi and Sós
-by name, with Brown's independent proof beside it. The result page records
-Corollary 2 and its proof pointers at the author level; this corpus has not
-audited the prime-distribution input and supplies no independent
-whole-proof review.
+asymptotic $\operatorname{ex}(n;C_4)\sim\tfrac12n^{3/2}$ as the answer in the
+problem's commentary. He credits the construction to Erdős and Rényi and to
+Brown, and the upper bound to Reiman. Füredi (1983) and Ma and Yang (2023), in
+refereed papers, credit the asymptotic to Erdős, Rényi and Sós by name, with
+Brown's independent proof beside it. The result page records Corollary 2 and its
+proof pointers at the author level. This corpus has not audited the
+prime-distribution input and supplies no independent whole-proof review.
 
 **Formalization.** A Lean 4 development proving this asymptotic was posted
 on 2026-05-16 in the site's discussion thread by

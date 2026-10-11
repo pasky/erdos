@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E0399
 title: Problem 399
 desc: |
-  Asks whether a factorial can equal a sum or difference of two kth powers
-  with k greater than two and the powers not both trivial.
+  Asks whether $n!=x^k\pm y^k$ has no solutions in positive integers with $xy>1$
+  and $k>2$; disproved.
 tags:
 - Number theory
 - Factorials
@@ -29,13 +29,14 @@ $$
 
 with $x,y,n\in \mathbb{N}$, with $xy>1$ and $k>2$?
 
-**Status.** DISPROVED (LEAN). The site labels the problem DISPROVED (LEAN)
-(page last edited 30 September 2025) and credits Jonas Barfield with the
-solution $10!=48^4-36^4$, recorded on
-[[problems/factorials_binomials/E0399/claims/2025_04_07_barfield|its claim page]];
-the Lean qualifier refers to the formal-conjectures file, which checks the
-witness by `decide` and which this corpus has not built. There is no refereed
-write-up. The standing in the frontmatter derives from the claim pages.
+**Status.** DISPROVED (LEAN). The site labels the problem DISPROVED (LEAN) (page
+last edited 30 September 2025). The standing in the frontmatter derives from the
+claim pages. The site credits Jonas Barfield with the solution $10!=48^4-36^4$,
+recorded on
+[[problems/factorials_binomials/E0399/claims/2025_04_07_barfield|its claim page]].
+The Lean qualifier refers to the formal-conjectures file, which checks the
+witness by `decide`. This corpus has not built that file. There is no refereed
+write-up.
 
 **Source.** [erdosproblems.com/399](https://www.erdosproblems.com/399), accessed
 2026-09-04 and, with its empty discussion thread and proof-claims list, the

@@ -2,9 +2,10 @@
 name: problems/analysis/E0514
 title: Problem 514
 desc: |
-  Asks whether every transcendental entire function has a path to infinity
-  on which it outgrows every power of the variable, how long such a path
-  must be, and whether it can outgrow a fixed function of the maximum modulus.
+  Asks whether every transcendental entire function $f$ has a path to infinity
+  on which $\lvert f(z)/z^n\rvert\to\infty$ for all $n$, how long it must be,
+  and whether $\lvert f\rvert$ can outgrow a fixed function of its maximum
+  modulus. The first part is proved, and pending claims answer the rest.
 tags:
 - Analysis
 parts: [path, length, growth]
@@ -47,21 +48,19 @@ $\lvert f\rvert\to\infty$ along the path of the first question and any
 slower function of $M(r)$ then works. The standing targets this reading,
 with the power $M(r)^\epsilon$ as its special case.
 
-**Status.** The site labels the problem OPEN (page last edited 18 January
-2026) and credits Boas, unpublished, with the first question. The
-three parts are answered by three partial claims: the first question yes,
-by the accepted claim
-[[problems/analysis/E0514/claims/1984_12_01_lewis_rossi_weitsman|Lewis,
-Rossi and Weitsman 1984]], on its refereed publication; the first and
-second yes, by the pending claim
-[[problems/analysis/E0514/claims/2026_04_20_chojecki|Chojecki 2026]], a
-note of 20 April 2026 produced with GPT-5.4 Pro; and the third no, by the
-pending claim [[problems/analysis/E0514/claims/2026_04_28_oriike|Oriike
-2026]], a note of 28 April 2026 produced with GPT-5.5 Pro, with a Lean
-file. Accepted and pending claims together settle every part, so the
-derived standing is claimed, and its value is `answered` because the parts
-are answered in opposite directions. The site has adopted none of the
-claims.
+**Status.** The site labels the problem OPEN (page last edited 18 January 2026)
+and credits Boas, unpublished, with the first question. The site has adopted
+none of the claims below. Accepted and pending claims together settle every
+part, so the derived standing is claimed. Its value is `answered` because the
+parts are answered in opposite directions. Three partial claims answer the three
+parts. The accepted claim
+[[problems/analysis/E0514/claims/1984_12_01_lewis_rossi_weitsman|Lewis, Rossi and Weitsman 1984]]
+answers the first question yes, on its refereed publication. The pending claim
+[[problems/analysis/E0514/claims/2026_04_20_chojecki|Chojecki 2026]], a note of
+20 April 2026 produced with GPT-5.4 Pro, answers the first and second yes. The
+pending claim [[problems/analysis/E0514/claims/2026_04_28_oriike|Oriike 2026]],
+a note of 28 April 2026 produced with GPT-5.5 Pro, answers the third no and
+comes with a Lean file.
 
 **Source.** [erdosproblems.com/514](https://www.erdosproblems.com/514), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #514,

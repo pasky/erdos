@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0955/claims/2023_07_24_benli_cesana_dartyge_dombrowsky_thompson
 title: Missing-digit preimages of the sum of proper divisors, bases 3 and up
 desc: |
-  Benli, Cesana, Dartyge, Dombrowsky and Thompson prove that the n up to x
-  with every base-g digit of s(n) in a fixed proper digit set number
-  O(x exp(-(log log x)^gamma)) for g at least 3.
+  Benli, Cesana, Dartyge, Dombrowsky and Thompson prove that, for each base
+  $g\ge3$, the number of $n\le x$ for which every base-$g$ digit of $s(n)$ lies
+  in a fixed proper digit set is $O(x\exp(-(\log\log x)^\gamma))$.
 authors:
 - Kübra Benli
 - Giulia Cesana
@@ -47,6 +47,6 @@ the general assertion stay open here (base $2$ is
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Claimed. The paper appeared in a collected volume of the
-Association for Women in Mathematics series, and no record of the volume's
-refereeing is on file, so `refereed` is not listed; the site does not credit
-the paper.
+Association for Women in Mathematics series. No record of the volume's
+refereeing is on file, so `refereed` is not listed. The site does not credit the
+paper.

@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0019/claims/2020_10_12_alesandroni
 title: Alesandroni proves the conjecture for weakly dense hypergraphs
 desc: |
-  Alesandroni proves that a linear n-uniform hypergraph with n edges has
-  chromatic number n when, for each k from 2 up to the square root of n, at
-  most k squared of its vertices have degree k (Discrete Math. 2021).
+  Alesandroni (Discrete Math. 2021) proves that a linear $n$-uniform hypergraph
+  with $n$ edges has chromatic number $n$ when, for each $k$ with
+  $2\le k<\sqrt n$, at most $k^2$ of its vertices have degree $k$.
 authors:
 - Guillermo Alesandroni
 status: accepted

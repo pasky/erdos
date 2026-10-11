@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E0182
 title: Problem 182
 desc: |
-  The maximum number of edges on n vertices with no k-regular subgraph, and
-  whether it is barely more than linear in n, for every k at least 3.
+  Asks, for each $k\ge3$, for the maximum number of edges of a graph on $n$
+  vertices with no $k$-regular subgraph, and whether it is $\ll n^{1+o(1)}$;
+  proved.
 tags:
 - Graph theory
 status: solved
@@ -35,37 +36,35 @@ $f_3(n)<n^{1+\varepsilon}$", and "We do not even know if $f_3(n)<Cn$ is true or
 false", with a prize) and for every $k$ ([Er81]: "We conjectured that
 $F(n,r)=O(n^{1+\varepsilon})$ for every $r$ and $\varepsilon>0$").
 
-**Status.** Proved, the site's label. The answer to the yes-or-no part is
-yes, first by Pyber's $f_k(n)<ck^2n\log n$ (Combinatorica 1985; an accepted
-partial claim, refereed, on
+**Status.** Proved, the site's label. The answer to the yes-or-no part is yes.
+Pyber first showed this with $f_k(n)<ck^2n\log n$ (Combinatorica 1985; an
+accepted partial claim, refereed, on
 [[problems/extremal_graph_theory/E0182/claims/1985_12_01_pyber|its claim page]]).
-Janzer and Sudakov's Theorem 1.2 (Forum Math. Pi 11 (2023), e19; refereed),
-which the site credits with the resolution, gives for every $k$ a constant
-$C(k)$ with $f_k(n)\le\tfrac12C(k)\,n\log\log n$ and, with the
-Pyber--Rödl--Szemerédi construction, determines the order. The order is
-known up to constants and not asymptotically: the construction of Pyber,
-Rödl and Szemerédi (1995; Theorem 1, printed p. 42) gives
-$f_k(n)\ge cn\log\log n$ for every $k\ge3$, and Chakraborti, Janzer,
-Methuku and Montgomery (Trans. Amer. Math. Soc., online 18 August 2026;
-cited from arXiv v2) prove that the maximum is $\Theta(k^2\,n\log\log n)$
-once $n$ is large in terms of $k$, tight up to an absolute constant. No
-asymptotic formula is known. The prize question of [Er78] for $k=3$,
-whether $f_3(n)<Cn$, is settled in the negative by the lower bound. Two
-accepted full claims, both refereed, carry the standing: Janzer and
-Sudakov's, on
+The site credits the resolution to Janzer and Sudakov's Theorem 1.2 (Forum Math.
+Pi 11 (2023), e19; refereed). It gives for every $k$ a constant $C(k)$ with
+$f_k(n)\le\tfrac12C(k)\,n\log\log n$, and with the Pyber--Rödl--Szemerédi
+construction it determines the order. The order is known up to constants but not
+asymptotically. The construction of Pyber, Rödl and Szemerédi (1995; Theorem 1,
+printed p. 42) gives $f_k(n)\ge cn\log\log n$ for every $k\ge3$. Chakraborti,
+Janzer, Methuku and Montgomery (Trans. Amer. Math. Soc., online 18 August 2026;
+cited from arXiv v2) prove that the maximum is $\Theta(k^2\,n\log\log n)$ once
+$n$ is large in terms of $k$, tight up to an absolute constant. No asymptotic
+formula is known. The lower bound settles in the negative the prize question of
+[Er78] for $k=3$, whether $f_3(n)<Cn$. Two accepted full claims, both refereed,
+carry the standing. One is Janzer and Sudakov's, on
 [[problems/extremal_graph_theory/E0182/claims/2022_04_26_janzer_sudakov|its claim page]],
-also `reviewed` through the curator's credit, and Chakraborti, Janzer,
-Methuku and Montgomery's, on
+which is also `reviewed` through the curator's credit. The other is Chakraborti,
+Janzer, Methuku and Montgomery's, on
 [[problems/extremal_graph_theory/E0182/claims/2024_11_18_chakraborti_janzer_methuku_montgomery|its claim page]].
-Pyber's bound and the Pyber--Rödl--Szemerédi lower bound are accepted
-partial claims, refereed, on
+Pyber's bound and the Pyber--Rödl--Szemerédi lower bound are accepted partial
+claims, refereed, on
 [[problems/extremal_graph_theory/E0182/claims/1985_12_01_pyber|Pyber's page]]
 and
 [[problems/extremal_graph_theory/E0182/claims/1995_01_01_pyber_rodl_szemeredi|the Pyber--Rödl--Szemerédi page]].
-One unreviewed proof claim of 2026-08-24 on the site's proof-claim tab
-asserts the $n^{1+o(1)}$ bound for induced $k$-regular subgraphs, the
-variant Szemerédi asked about, which implies the answer yes to the
-yes-or-no part; it is a claimed partial claim on
+One unreviewed proof claim of 2026-08-24 on the site's proof-claim tab asserts
+the $n^{1+o(1)}$ bound for induced $k$-regular subgraphs, the variant Szemerédi
+asked about. That bound implies the answer yes to the yes-or-no part. The claim
+is a claimed partial claim on
 [[problems/extremal_graph_theory/E0182/claims/2026_08_24_korsky|its claim page]]
 and bears no weight on the standing.
 

@@ -2,9 +2,10 @@
 name: problems/analysis/E1166/claims/2024_09_02_hao_li_okada_zheng
 title: Three favorites at most bounds the union
 desc: |
-  The eventual bound of three on planar favorite sites, with the Erdős–Taylor
-  maximum-local-time estimate, gives almost surely O((log n)^2) sites ever
-  favorite by time n; refereed inputs, the deduction itself unpublished.
+  The eventual bound of three on planar favorite sites by Hao, Li, Okada and
+  Zheng, combined with the Erdős–Taylor estimate for the maximum local time,
+  gives almost surely $O((\log n)^2)$ sites ever favorite by time $n$. The
+  inputs are refereed, but the deduction itself is unpublished.
 authors:
 - Chenxu Hao
 - Xinyi Li
@@ -78,15 +79,15 @@ Problem 6.78 of the 1999 booklet *Some of Paul's favorite problems*,
 attributed there to Erdős and Révész, whose union starts at $k=1$;
 including $F(0)$ changes the count by at most one.
 
-**Acceptance.** Both inputs are refereed: Theorem 1.1 in *Probability Theory
-and Related Fields* 195 (2026), 1765–1822, published online 12 November 2025,
-and P. Erdős and S. J. Taylor, *Some problems concerning the structure of
-random walk paths*, Acta Math. Acad. Sci. Hungar. 11 (1960), 137–162. The
-deduction itself is unpublished, so `refereed` is not listed. The site's
-curator, Thomas F. Bloom, states the deduction and marks the problem proved,
-but credits the eventual bound to Tóth rather than to this claimant, so no
-`reviewed` evidence is listed and the claim stays claimed. An independent Lean
-proof of the deduction is recorded on
+**Acceptance.** Both inputs are refereed. The first is Theorem 1.1 in
+*Probability Theory and Related Fields* 195 (2026), 1765–1822, published online
+12 November 2025. The second is P. Erdős and S. J. Taylor, *Some problems
+concerning the structure of random walk paths*, Acta Math. Acad. Sci. Hungar. 11
+(1960), 137–162. The deduction itself is unpublished, so `refereed` is not
+listed. The site's curator, Thomas F. Bloom, states the deduction and marks the
+problem proved. However, Bloom credits the eventual bound to Tóth rather than to
+this claimant, so no `reviewed` evidence is listed and the claim stays claimed.
+An independent Lean proof of the deduction is recorded on
 [[problems/analysis/E1166/claims/2026_08_23_alexeev|its own claim page]]. The
 page is dated by the first arXiv posting of the paper, 2 September 2024.
 

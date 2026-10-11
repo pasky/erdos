@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0032
 title: Problem 32
 desc: |
-  Asks how sparse a set can be if every large integer is a prime plus one of
-  its members, measured against the square of the logarithm of N.
+  Asks how sparse a set $A$ can be if every large integer is a prime plus an
+  element of $A$, measured against $(\log N)^2$; open.
 tags:
 - Number theory
 - Additive bases
@@ -38,22 +38,25 @@ $$
 $$
 
 **Status.** Open, the site's label (OPEN; page last edited 23 January 2026),
-which attaches to the three questions together. The first two are open: Erdős
-[Er54] constructed a set $A$ with
+which attaches to the three questions together. The first two questions are open
+and the third is answered yes. The parts `existence` and `log` are unsettled, so
+the problem stays open.
+
+Erdős [Er54] constructed a set $A$ with
 $\lvert A\cap\{1,\ldots,N\}\rvert\ll(\log N)^2$ such that every large integer is
-$p+a$, improving Lorentz's $(\log N)^3$ [Lo54], but no source reaches
-$o((\log N)^2)$, and the $O(\log N)$ question is open even for the almost-all
-variant, where Wolke [Wo96] reached $(\log N)^{1+o(1)}$, Kolountzakis [Ko96]
-$(\log N)\log\log N$ and Ruzsa [Ru98c] $O(\omega(N)\log N)$ for any
-$\omega\to\infty$, with $O(\log N)$ known only when the sumset need have lower
-density at least $1-\varepsilon$ (Ruzsa, Theorem 1). The third question is
-answered yes: Theorem 2 of Ruzsa [Ru98c] gives
+$p+a$, improving Lorentz's $(\log N)^3$ [Lo54]. No source reaches
+$o((\log N)^2)$. The $O(\log N)$ question is open even for the almost-all
+variant. For that variant Wolke [Wo96] reached $(\log N)^{1+o(1)}$, Kolountzakis
+[Ko96] $(\log N)\log\log N$ and Ruzsa [Ru98c] $O(\omega(N)\log N)$ for any
+$\omega\to\infty$. The bound $O(\log N)$ is known only when the sumset need have
+lower density at least $1-\varepsilon$ (Ruzsa, Theorem 1).
+
+Theorem 2 of Ruzsa [Ru98c] answers the third question yes. It gives
 $\liminf\lvert A\cap\{1,\ldots,N\}\rvert/\log N\ge e^{\gamma}\approx1.781$ for
-every such $A$, recorded as the accepted partial claim on
+every such $A$. This is recorded as the accepted partial claim on
 [[problems/additive_bases/E0032/claims/1998_01_01_ruzsa|Ruzsa's claim page]],
-settling the part `liminf` on the refereed publication. The parts `existence`
-and `log` are unsettled, so the problem stays open. Erdős offered a prize for
-the second question, as Guy [Gu04] reports it.
+which settles the part `liminf` on the refereed publication. Erdős offered a
+prize for the second question, as Guy [Gu04] reports it.
 
 **Source.** [erdosproblems.com/32](https://www.erdosproblems.com/32), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #32,

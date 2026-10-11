@@ -3,7 +3,8 @@ name: problems/discrete_geometry/E1071
 title: Problem 1071
 desc: |
   Asks whether a finite family of pairwise disjoint unit segments in the unit
-  square can be maximal, so that no further unit segment can be added.
+  square can be maximal, so that no further unit segment can be added. The
+  answer is yes.
 tags:
 - Geometry
 parts:
@@ -30,18 +31,22 @@ which are maximal with respect to this property?
 Is there a region $R$ with a maximal set of disjoint unit line segments that is
 countably infinite?
 
-**Status.** PROVED (LEAN): the site labels the problem PROVED (LEAN). The
-first question was answered yes by Danzer at the 1985 Siófok meeting, as Erdős
-reports, and the second by Boris Alexeev in the site's comments (January 2026)
-with the unit square as the region; see the claim pages of
+**Status.** PROVED (LEAN), in the site's label. Danzer answered the first
+question yes at the 1985 Siófok meeting, as Erdős reports. Boris Alexeev
+answered the second in the site's comments (January 2026), with the unit square
+as the region. See the claim pages of
 [[problems/discrete_geometry/E1071/claims/1987_01_01_danzer|Danzer]] and
-[[problems/discrete_geometry/E1071/claims/2026_01_25_alexeev|Alexeev]]. Erdős's
-paper gives a second finite example for the first question, its Figure 4,
-found by a participant of the meeting whom he does not name; it has no claim
-page of its own because its claimant is unnamed. Alexeev's repository holds
-Lean proofs of both questions: the proof of the second is his own construction
-formalized, linked on his page, and the proof of the first formalizes the
-Figure 4 example and is recorded as an independent claim on
+[[problems/discrete_geometry/E1071/claims/2026_01_25_alexeev|Alexeev]].
+
+Erdős's paper gives a second finite example for the first question, its
+Figure 4. A participant of the meeting found it, and Erdős does not name that
+participant. The example has no claim page of its own because its claimant is
+unnamed.
+
+Alexeev's repository holds Lean proofs of both questions. The proof of the
+second formalizes his own construction and is linked on his page. The proof of
+the first formalizes the Figure 4 example. It is recorded as an independent
+claim on
 [[problems/discrete_geometry/E1071/claims/2026_02_13_alexeev|its own page]].
 
 **Source.** [erdosproblems.com/1071](https://www.erdosproblems.com/1071),

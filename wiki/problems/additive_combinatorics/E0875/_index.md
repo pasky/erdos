@@ -2,8 +2,9 @@
 name: problems/additive_combinatorics/E0875
 title: Problem 875
 desc: |
-  Determines how slowly an infinite set of naturals can grow while its sets of
-  sums of r distinct members stay disjoint for different r.
+  Asks how slowly an infinite set of naturals can grow while its sets of sums of
+  $r$ distinct members stay disjoint for different $r$, and for which $c$ its
+  gaps can be at most $n^c$; open.
 tags:
 - Additive combinatorics
 status: open
@@ -44,28 +45,29 @@ bounds below, the necessary $c\ge1$ holds in either reading, while the
 sufficient exponents are for all large $n$). The site quotes Erdős (1998) on the
 related property $a_{n+1}/a_n\to1$.
 
-**Status.** Open. The site's label is OPEN (on 2026-09-18 and on
-2026-10-06). What the primary sources give, each with the page it comes
-from: every infinite admissible $A$ has
-$A(x)\le2\sqrt{x+1/4}-1$ for $x\ge N_0$ (Theorem 1 of Deshouillers and Freiman applied to $A\cap[1,x]$),
-so $a_n\ge n(n+2)/4$ for large $n$ and a gap bound $a_{n+1}-a_n\le n^c$ for
-all large $n$ forces $c\ge1$; Erdős, Nicolas and Sárközy construct an
-infinite admissible $A$ with $A(x)\gg x^{5-2\sqrt6}$ (Théorème 2), whence
-$a_n\ll n^{5+2\sqrt6}$ and trivially $a_{n+1}-a_n\ll n^{5+2\sqrt6}$
-($5+2\sqrt6=9.899\ldots$), with an implied constant; Erdős (1962) had
-constructed such a sequence with $A(x)>cx^\alpha$ for an unspecified
-$\alpha>0$. The two one-line deductions are made on this page and named as
-such. So $c\ge1$ is necessary, and every $c>5+2\sqrt6$ is possible for all
-large $n$; no source found places $c$ between them, and none gives an
-admissible sequence with $a_{n+1}/a_n\to1$
-(Erdős's 1998 remark is quoted from the site; the paper is not held). A
-note in the site's thread, generated with GPT-5.5 Pro and accompanied by
-a Lean development, claims gaps at most $n^{3+2\sqrt2}$ for every $n$
-and $o(n^{3+2\sqrt2})$, with $3+2\sqrt2=5.828\ldots$; it has a partial claim
-page,
+**Status.** Open. The site's label is OPEN (on 2026-09-18 and on 2026-10-06).
+
+The primary sources give the following, each with the page it comes from. Every
+infinite admissible $A$ has $A(x)\le2\sqrt{x+1/4}-1$ for $x\ge N_0$, by Theorem
+1 of Deshouillers and Freiman applied to $A\cap[1,x]$. So $a_n\ge n(n+2)/4$ for
+large $n$, and a gap bound $a_{n+1}-a_n\le n^c$ for all large $n$ forces
+$c\ge1$. Erdős, Nicolas and Sárközy construct an infinite admissible $A$ with
+$A(x)\gg x^{5-2\sqrt6}$ (Théorème 2). Hence $a_n\ll n^{5+2\sqrt6}$ and,
+trivially, $a_{n+1}-a_n\ll n^{5+2\sqrt6}$ with an implied constant, where
+$5+2\sqrt6=9.899\ldots$. Erdős (1962) had constructed such a sequence with
+$A(x)>cx^\alpha$ for an unspecified $\alpha>0$. The two one-line deductions are
+made on this page and named as such.
+
+So $c\ge1$ is necessary, and every $c>5+2\sqrt6$ is possible for all large $n$.
+No source found places $c$ between them. None gives an admissible sequence with
+$a_{n+1}/a_n\to1$. Erdős's 1998 remark is quoted from the site, and the paper is
+not held. A note in the site's thread, generated with GPT-5.5 Pro and
+accompanied by a Lean development, claims gaps at most $n^{3+2\sqrt2}$ for every
+$n$ and $o(n^{3+2\sqrt2})$, where $3+2\sqrt2=5.828\ldots$. It has a partial
+claim page,
 [[problems/additive_combinatorics/E0875/claims/2026_05_07_mazur|Mazur's admissible sequence]],
-with status claimed, and is not a source for the bounds above. This is a
-bounded negative finding, not a certificate of openness.
+with status claimed. It is not a source for the bounds above. This is a bounded
+negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/875](https://www.erdosproblems.com/875),
 accessed 2026-09-18: the problem page (labeled OPEN, with the site's note that the problem cannot be settled by a finite

@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0750
 title: Problem 750
 desc: |
-  Asks, for any function tending to infinity, whether some graph of infinite
-  chromatic number has every m-vertex subgraph containing a large independent
-  set.
+  Asks whether, for every $f(m)\to\infty$, some graph of infinite chromatic
+  number has an independent set of size at least $m/2-f(m)$ in every $m$-vertex
+  subgraph; proved.
 tags:
 - Graph theory
 - Chromatic number
@@ -38,10 +38,10 @@ also takes $f$ nonnegative, noting that in Erdős's 1994 statement of the
 problem $f$ generalizes the proven case $f(m)=\epsilon m$. This page reads
 $f$ as nonnegative, and its standing concerns that reading.
 
-**Status.** PROVED (LEAN): a 2026 note by Chojecki with the AI system GPT-5.5
-Pro proves the statement; the Lean qualification refers to third-party
-formalizations, the first assuming Stiebitz's theorem as an axiom and a later
-one proving it unconditionally, neither among the corpus's audited builds.
+**Status.** PROVED (LEAN). A 2026 note by Chojecki with the AI system GPT-5.5
+Pro proves the statement. The Lean qualification refers to third-party
+formalizations. The first assumes Stiebitz's theorem as an axiom, and a later
+one proves it unconditionally. Neither is among the corpus's audited builds.
 
 **Source.** [erdosproblems.com/750](https://www.erdosproblems.com/750), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #750,

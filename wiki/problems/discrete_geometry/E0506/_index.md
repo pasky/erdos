@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0506
 title: Problem 506
 desc: |
-  Determines the least number of circles determined by n points of the plane,
-  not all on one circle or one line (Elliott's reading); known for n > 393
-  since Purdy and Smith's correction; a 2026 claim of every value is pending.
+  Asks for the least number of circles determined by $n$ points in the plane,
+  not all on one circle or one line (Elliott's reading). Purdy and Smith's
+  correction settles every $n>393$, and a 2026 claim giving every value is
+  pending.
 tags:
 - Geometry
 status: claimed
@@ -40,23 +41,23 @@ claimed answer: Wrona's repository claims $1+\binom{n-1}{2}$ for it, except $20$
 at $n=8$.
 
 **Status.** The site labels the problem DECIDABLE, a label it glosses as
-resolved up to a finite check (page last edited 1 February 2026; the label
-and the proof-claims thread as of 6 October 2026). The standing in the
+resolved up to a finite check (page last edited 1 February 2026). The label and
+the proof-claims thread are recorded as of 6 October 2026. The standing in the
 frontmatter derives from the claim pages. The accepted partial result is the
 corrected Elliott bound of
-[[problems/discrete_geometry/E0506/claims/2009_07_03_purdy_smith|Purdy and Smith]]:
-for $n\ge394$ the minimum is $1+\binom{n-1}{2}-\lfloor(n-1)/2\rfloor$, so
-only the values for $4\le n\le393$ remain. Elliott's original bound
-$\binom{n-1}{2}$ is the rejected claim
-[[problems/discrete_geometry/E0506/claims/1967_03_01_elliott|Elliott 1967]],
-and Bálintová and Bálint's bounds on circles through exactly three of the
-points are the accepted partial claim
+[[problems/discrete_geometry/E0506/claims/2009_07_03_purdy_smith|Purdy and Smith]].
+For $n\ge394$ the minimum is $1+\binom{n-1}{2}-\lfloor(n-1)/2\rfloor$, so only
+the values for $4\le n\le393$ remain. Elliott's original bound $\binom{n-1}{2}$
+is the rejected claim
+[[problems/discrete_geometry/E0506/claims/1967_03_01_elliott|Elliott 1967]].
+Bálintová and Bálint's bounds on circles through exactly three of the points are
+the accepted partial claim
 [[problems/discrete_geometry/E0506/claims/1994_09_01_balintova_balint|Bálintová and Bálint 1994]].
 The pending full claim is
-[[problems/discrete_geometry/E0506/claims/2026_08_20_wrona|Wrona's]], posted
-on the site's proof-claims thread on 20 August 2026 with a manuscript and a
-Lean development, asserting the exact minimum for every $n\ge4$; it is
-AI-assisted and carries no acceptance evidence.
+[[problems/discrete_geometry/E0506/claims/2026_08_20_wrona|Wrona's]], posted on
+the site's proof-claims thread on 20 August 2026 with a manuscript and a Lean
+development. It asserts the exact minimum for every $n\ge4$. It is AI-assisted
+and carries no acceptance evidence.
 
 **Source.** [erdosproblems.com/506](https://www.erdosproblems.com/506), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #506,

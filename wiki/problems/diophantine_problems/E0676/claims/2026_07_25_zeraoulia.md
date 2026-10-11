@@ -2,9 +2,10 @@
 name: problems/diophantine_problems/E0676/claims/2026_07_25_zeraoulia
 title: Zeraoulia's barrier reformulation and computed exceptions
 desc: |
-  A write-up filed on the site's proof-claims tab as a full proof claim, whose
-  own summary and abstract call it partial progress and leave the question
-  open; it reformulates the condition and computes integers not of the form.
+  Rafik Zeraoulia filed a write-up on the site's proof-claims tab as a full
+  proof claim, but its own summary and abstract call it partial progress and
+  leave the question open. It reformulates the condition and computes integers
+  not of the form.
 authors:
 - Rafik Zeraoulia
 status: withdrawn

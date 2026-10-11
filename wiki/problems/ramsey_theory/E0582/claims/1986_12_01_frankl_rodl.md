@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0582/claims/1986_12_01_frankl_rodl
 title: Frankl and Rödl, a K_4-free arrowing graph on fewer than 7.02·10^11 vertices
 desc: |
-  Frankl and Rödl (Graphs Combin. 2, 1986) give the first concrete bound: some
-  K_4-free graph on fewer than 7.02·10^11 vertices forces a monochromatic
-  triangle in every two-coloring of its edges; refereed.
+  Frankl and Rödl (Graphs Combin. 2, 1986) give the first concrete bound,
+  showing that some $K_4$-free graph on fewer than $7.02\cdot10^{11}$ vertices
+  forces a monochromatic triangle in every two-coloring of its edges. The result
+  is refereed.
 authors:
 - P. Frankl
 - V. Rödl

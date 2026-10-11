@@ -2,9 +2,10 @@
 name: problems/factorials_binomials/E0729/claims/2026_01_10_barreto_price
 title: Barreto and Price's AI-generated proof for every C
 desc: |
-  For every C there is a K such that infinitely many triples with a plus b
-  above n plus C log n have n! over a! b! with a K-smooth denominator; an
-  argument of GPT-5.2 Pro formalized by Aristotle, adapting the proof of 728.
+  For every $C$ there is a $K$ such that infinitely many triples with
+  $a+b>n+C\log n$ have $n!/(a!\,b!)$ with a $K$-smooth denominator. The
+  argument, by GPT-5.2 Pro and formalized by Aristotle, adapts the proof of
+  Problem 728.
 authors:
 - Kevin Barreto
 - Liam Price
@@ -136,16 +137,18 @@ audited the Lean development, so the page lists no `formalized` evidence.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Thomas Bloom, the site's curator, marks the problem proved and
-credits Barreto and Leeham, using ChatGPT and Aristotle, on the problem page
-(last edited 11 January 2026), which the page lists as `reviewed`; the community
-database records the problem as proved, with a Lean proof (its entry's last
-update is dated 2026-01-10). Nothing is refereed. The thread's literature
-searches found no earlier solution, and Carl Pomerance, asked by a participant,
-replied that their 2015 method would give such results but that they knew of no
-place where it had been done; their later note (on the claim page
+**Acceptance.** Thomas Bloom, the site's curator, marks the problem proved on
+the problem page (last edited 11 January 2026). The curator credits Barreto and
+Leeham, using ChatGPT and Aristotle. The page lists this as `reviewed`. The
+community database records the problem as proved, with a Lean proof. Its entry's
+last update is dated 2026-01-10. Nothing is refereed.
+
+The thread's literature searches found no earlier solution. Carl Pomerance,
+asked by a participant, replied that their 2015 method would give such results,
+but that they knew of no place where it had been done. Their later note is on
+the claim page
 [[problems/factorials_binomials/E0728/claims/2026_01_14_pomerance|Pomerance 2026]]
-of Problem 728) proves the stronger integrality
+of Problem 728. It proves the stronger integrality
 $(m+1)\cdots(m+k)\mid\binom{2m}{m}$ for almost all $m$, but only for
-$k\le\eta\log m$ with $\eta<1/\log4$, so it does not by itself answer this
+$k\le\eta\log m$ with $\eta<1/\log4$. So it does not by itself answer this
 problem for every $C$.

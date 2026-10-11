@@ -2,8 +2,9 @@
 name: problems/additive_combinatorics/E0186
 title: Problem 186
 desc: |
-  The order of growth of the largest subset of the first N integers in which
-  no element is the average of two or more other elements.
+  Asks for the order of growth of $F(N)$, the largest size of a subset of
+  $\{1,\ldots,N\}$ in which no element is the average of two or more other
+  elements; solved, with $F(N)=N^{1/4+o(1)}$.
 tags:
 - Additive combinatorics
 status: solved
@@ -35,23 +36,21 @@ and Zakharov, and Erdős's $F(x)$ (1973), $f(X)$ (1975), $g(n)$ (1977) and $A(n)
 (1980). The question asks for the order of growth; the answer below determines
 the exponent and leaves the $o(1)$ in it, and any constant, open.
 
-**Status.** Solved: $F(N)=N^{1/4+o(1)}$. The upper bound
-$F(N)\le N^{1/4+o(1)}$ is Theorem 1 of Pham and Zakharov (Geom. Funct. Anal.
-35 (2025), 1712--1738, refereed); the matching lower bound $F(N)\gg N^{1/4}$
-is Bosznay's Theorem (Acta Math. Hungar. 53 (1989), 155--157, refereed),
-proved by the construction $iq^3+i(i+1)/2$, $1\le i\le q-1$, which the
-introductions of [PhZa24] and [CFP23] also reproduce. The order of growth is
-thereby determined up to the $o(1)$ in the exponent, which is what the
-site's SOLVED label, its label for a resolution that is neither a proof nor
-a disproof, records; the exact order beyond the exponent is not known. The
-claim pages are
+**Status.** Solved: $F(N)=N^{1/4+o(1)}$. The upper bound $F(N)\le N^{1/4+o(1)}$
+is Theorem 1 of Pham and Zakharov (Geom. Funct. Anal. 35 (2025), 1712--1738,
+refereed). The matching lower bound $F(N)\gg N^{1/4}$ is Bosznay's Theorem (Acta
+Math. Hungar. 53 (1989), 155--157, refereed). It is proved by the construction
+$iq^3+i(i+1)/2$, $1\le i\le q-1$, which the introductions of [PhZa24] and
+[CFP23] also reproduce. Together these determine the order of growth up to the
+$o(1)$ in the exponent. That is what the site's SOLVED label records; the site
+uses this label for a resolution that is neither a proof nor a disproof. The
+exact order beyond the exponent is not known. The claim pages are
 [[problems/additive_combinatorics/E0186/claims/2024_10_18_pham_zakharov|Pham and Zakharov]]
 (the full determination, accepted on the refereed publication and the site's
 adoption) and
-[[problems/additive_combinatorics/E0186/claims/1989_03_01_bosznay|Bosznay]]
-(the lower bound, partial, accepted on the refereed publication and the
-credit the site and the later papers give it); neither rests on a review by
-this project.
+[[problems/additive_combinatorics/E0186/claims/1989_03_01_bosznay|Bosznay]] (the
+lower bound, partial, accepted on the refereed publication and the credit the
+site and the later papers give it). Neither rests on a review by this project.
 
 **Source.** [erdosproblems.com/186](https://www.erdosproblems.com/186),
 accessed 2026-09-18: the problem page (SOLVED, the

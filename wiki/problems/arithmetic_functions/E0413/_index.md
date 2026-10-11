@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0413
 title: Problem 413
 desc: |
-  Asks whether infinitely many n have the property that every smaller m
-  satisfies m plus its number of distinct prime factors being at most n.
+  Asks whether infinitely many $n$ satisfy $m+\omega(m)\le n$ for every $m<n$,
+  where $\omega(m)$ is the number of distinct prime factors of $m$; open.
 tags:
 - Number theory
 - Iterated functions
@@ -29,12 +29,12 @@ Are there infinitely many $n$ such that, for all $m<n$, we have $m+\omega(m)
 Can one show that there exists an $\epsilon>0$ such that there are infinitely
 many $n$ where $m+\epsilon \omega(m)\leq n$ for all $m<n$?
 
-**Status.** Open: the site's label (page last edited 17 April 2026). Its
-commentary credits Lau [La26] with a positive answer to the second question
-and with a weaker version of the first. The partial claim page
-[[problems/arithmetic_functions/E0413/claims/2026_04_16_lau|Lau 2026]]
-records the result for the second question; the first question has no claim,
-so the derived standing stays open.
+**Status.** Open, the site's label (page last edited 17 April 2026). The derived
+standing stays open, because the first question has no claim. The site's
+commentary credits Lau [La26] with a positive answer to the second question and
+with a weaker version of the first. The partial claim page
+[[problems/arithmetic_functions/E0413/claims/2026_04_16_lau|Lau 2026]] records
+the result for the second question.
 
 **Source.** [erdosproblems.com/413](https://www.erdosproblems.com/413), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #413,

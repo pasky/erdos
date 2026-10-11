@@ -2,9 +2,8 @@
 name: problems/ramsey_theory/E0551
 title: Problem 551
 desc: |
-  Asks for a proof that the Ramsey number of a k-cycle against a complete
-  graph on n vertices is k minus one times n minus one plus one, when k is at
-  least n.
+  Asks for a proof that $R(C_k,K_n)=(k-1)(n-1)+1$ for $k\ge n\ge3$, except when
+  $n=k=3$; proved.
 tags:
 - Graph theory
 - Ramsey theory
@@ -52,39 +51,44 @@ linear formula, and [KLS21] Theorem 1.2 gives $r(C_\ell,K_n)>n\log n$ for
 $3\le\ell\le(1-\varepsilon)\log n/\log\log n$ and $n\ge n_0(\varepsilon)$.
 
 **Status.** The site labels the problem DECIDABLE, which the site defines as
-resolved up to a finite check. The label is a statement about the shape of what
-remains, not a theorem; it is recorded as the accepted partial claim page
+resolved up to a finite check. The derived standing, solved, proved, departs
+from the site's DECIDABLE by counting an accepted full claim. A full proof of
+the identity, closing that check, is given by the OpenAI release's preprint of
+25 September 2026. It is accepted on the claim page
+[[problems/ramsey_theory/E0551/claims/2026_09_25_openai|OpenAI 2026]] on its
+Lean proof, which this corpus built, checked for axioms and found identical to
+the release's comparator challenge. The preprint itself is unrefereed and
+unreviewed. The refereed partial claims alone leave the finite check open, which
+is what the label records. The label is a statement about the shape of what
+remains, not a theorem. It is recorded as the accepted partial claim page
 [[problems/ramsey_theory/E0551/claims/2018_07_17_keevash_long_skokan|Keevash, Long and Skokan 2021]],
 whose **Covers.** states the finite check, and the page records what is proved
-and what remains. A full proof of the identity, closing that check, is given by
-the OpenAI release's preprint of 25 September 2026 and accepted on the claim
-page [[problems/ramsey_theory/E0551/claims/2026_09_25_openai|OpenAI 2026]] on
-its Lean proof, which this corpus built, checked for axioms and found identical
-to the release's comparator challenge; the preprint itself is unrefereed and
-unreviewed. The derived standing, solved, proved, departs from the site's
-DECIDABLE by counting that accepted full claim; the refereed partial claims
-alone leave the finite check open, which is what the label records. Proved, in
-refereed sources, each an accepted partial claim on its refereed publication
-alone: the identity for $k\ge n^2-2$ ([BoEr73] Theorem 4,
+and what remains.
+
+Three results are proved in refereed sources, and each is an accepted partial
+claim on its refereed publication alone. They give the identity for $k\ge n^2-2$
+([BoEr73] Theorem 4,
 [[problems/ramsey_theory/E0551/claims/1973_02_01_bondy_erdos|Bondy and Erdős 1973]]),
 for $k\ge4n+2$ when $n\ge4$ ([Ni05], preprint Theorem 1,
 [[problems/ramsey_theory/E0551/claims/2004_04_27_nikiforov|Nikiforov 2005]]) and
 for $k\ge C\log n/\log\log n$ with an absolute constant $C$ that is not computed
-([KLS21] Theorem 1.1), which covers every $k\ge n$ once $n$ exceeds a threshold
-$n_0(C)$ that the paper does not name; the case $n=3$ is the classical
+([KLS21] Theorem 1.1). The last covers every $k\ge n$ once $n$ exceeds a
+threshold $n_0(C)$ that the paper does not name. The case $n=3$ is the classical
 $R(C_k,K_3)=2k-1$ for $k>3$ (quoted from Chartrand and Schuster on p. 47 of
-[BoEr73]), the cases $n=4$, $5$, $6$ are reported settled for all $k\ge n$ by
-the introductions of [Ni05] and [KLS21] (sources not held), and the literature
-list of [OAI26] (Section 1.1) reports $n=7$ settled for all $k\ge7$ by Chen,
-Cheng and Zhang (2008) and, for $n=8$, the lengths $k=8$, $9$ and $10\le k\le15$
-settled by papers of 2007--2023 (sources not held). Left by the refereed
-results: for each of the finitely many $n$ with $8\le n<n_0(C)$, the cycle
-lengths $k$ with $n\le k\le\min\{4n+1,\lceil C\log n/\log\log n\rceil-1\}$, less
-the settled $n=8$ cases, so that for $n=8$ the lengths $16\le k\le33$ below the
-threshold of [KLS21] remain: a finite set of pairs whose extent is unknown
-because $C$ is not explicit. No refereed source closes it; the accepted 2026
-result closes all of it. The one site comment (1 September 2025) describes the
-state before the release: reduced to a finitary problem, still open.
+[BoEr73]). The introductions of [Ni05] and [KLS21] report the cases $n=4$, $5$,
+$6$ settled for all $k\ge n$ (sources not held). The literature list of [OAI26]
+(Section 1.1) reports $n=7$ settled for all $k\ge7$ by Chen, Cheng and Zhang
+(2008), and, for $n=8$, the lengths $k=8$, $9$ and $10\le k\le15$ settled by
+papers of 2007--2023 (sources not held).
+
+The refereed results leave the following open. For each of the finitely many $n$
+with $8\le n<n_0(C)$, the cycle lengths $k$ with
+$n\le k\le\min\{4n+1,\lceil C\log n/\log\log n\rceil-1\}$ remain, less the
+settled $n=8$ cases. So for $n=8$ the lengths $16\le k\le33$ below the threshold
+of [KLS21] remain. This is a finite set of pairs whose extent is unknown because
+$C$ is not explicit. No refereed source closes it. The accepted 2026 result
+closes all of it. The one site comment (1 September 2025) describes the state
+before the release: reduced to a finitary problem, still open.
 
 **Source.** [erdosproblems.com/551](https://www.erdosproblems.com/551),
 accessed 2026-09-17: the problem page (DECIDABLE, defined on the page as

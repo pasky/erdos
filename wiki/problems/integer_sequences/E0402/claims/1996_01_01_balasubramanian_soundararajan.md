@@ -3,8 +3,9 @@ name: problems/integer_sequences/E0402/claims/1996_01_01_balasubramanian_soundar
 title: Graham's conjecture proved for every finite set
 desc: |
   Balasubramanian and Soundararajan prove Graham's conjecture for every set of
-  N integers, so every finite set has two members a, b with gcd(a,b) at most
-  a/|A|; refereed in Acta Arithmetica 75 (1996) and credited by the site.
+  $N$ integers, so every finite set $A$ has two members $a,b$ with
+  $\gcd(a,b)\le a/|A|$. The refereed paper appeared in Acta Arithmetica 75
+  (1996), and the site credits it.
 authors:
 - R. Balasubramanian
 - K. Soundararajan
@@ -82,24 +83,27 @@ $N>10^{50\,000}$. Szegedy's and Zaharescu's results have their own pages,
 the site's commentary credits Szegedy and Zaharescu for large sets and
 Balasubramanian and Soundararajan for all sets.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, who is
-independent of the authors, labels the problem PROVED and credits the paper in
-his commentary (page last edited 8 April 2026); the discussion thread and the
-proof-claim tab are empty. Refereed: Acta Arithmetica is a refereed journal of
-the Polish Academy of Sciences, and the publisher's record offers the article
-under a Creative Commons Attribution license. The statement collection
-formal-conjectures holds the problem's statement
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, who is independent
+of the authors, labels the problem PROVED and credits the paper in his
+commentary (page last edited 8 April 2026). The discussion thread and the
+proof-claim tab are empty.
+
+Refereed: Acta Arithmetica is a refereed journal of the Polish Academy of
+Sciences. The publisher's record offers the article under a Creative Commons
+Attribution license.
+
+The statement collection formal-conjectures holds the problem's statement
 ([`ErdosProblems/402.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/402.lean),
-linked at its commit of 18 September 2026) and no proof: its theorem and its
-two variants have `sorry` bodies. A Lean development in Boris Alexeev's
-repository `plby/lean-proofs`, with Codex and GPT-5.6 Sol as formal authors,
-declares itself a formalization of this paper's solution (the `formalization`
-link, at the repository's commit holding the file's version of 24 August
-2026). Its main theorem `Erdos402.erdos_402` proves the inequality only for
-sets of at least some inexplicit size $N_0$, another theorem covers every set
-of at most $7000$ elements, and the file records the range from $7001$ to
-$N_0$ as still missing. This corpus has not built or audited it, so it gives
-no `formalized` evidence. This corpus has not reviewed the proof.
+linked at its commit of 18 September 2026) but no proof. Its theorem and its two
+variants have `sorry` bodies. A Lean development in Boris Alexeev's repository
+`plby/lean-proofs`, with Codex and GPT-5.6 Sol as formal authors, declares
+itself a formalization of this paper's solution. The `formalization` link points
+to the repository's commit that holds the file's version of 24 August 2026. Its
+main theorem `Erdos402.erdos_402` proves the inequality only for sets of at
+least some inexplicit size $N_0$. Another theorem covers every set of at most
+$7000$ elements. The file records the range from $7001$ to $N_0$ as still
+missing. This corpus has not built or audited the development, so it gives no
+`formalized` evidence. This corpus has not reviewed the proof.
 
 **Depends on.** No page of this wiki. The proof is self-contained in the
 paper, with its small-$N$ section resting on Riesel's prime-gap table and a

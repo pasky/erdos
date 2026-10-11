@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0061/claims/1989_10_01_erdos_hajnal
 title: Erdős and Hajnal's cases on at most four vertices
 desc: |
-  Erdős and Hajnal (1989) prove their conjecture for every graph H on at most
-  four vertices, beside the general bound exp(c sqrt(log n)) for every H;
-  accepted on the refereed Discrete Applied Mathematics paper.
+  Erdős and Hajnal (1989) prove their conjecture for every graph $H$ on at most
+  four vertices, alongside the general bound $\exp(c\sqrt{\log n})$ for every
+  $H$. The claim is accepted on the refereed Discrete Applied Mathematics paper.
 authors:
 - P. Erdös
 - A. Hajnal
@@ -50,8 +50,8 @@ statement about every $H$.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** The paper is a refereed publication in Discrete Applied
-Mathematics, in the issue of October 1989 (the day is not recorded, and this
-page's date is the first of that month), which is the `refereed` evidence.
-The site's commentary credits the cases to the paper, but the site labels the
-problem OPEN, so no `reviewed` evidence is listed. This corpus has not
+Mathematics, which is the `refereed` evidence. It appeared in the issue of
+October 1989. The day is not recorded, and this page's date is the first of that
+month. The site's commentary credits the cases to the paper, but the site labels
+the problem OPEN, so no `reviewed` evidence is listed. This corpus has not
 checked the proof.

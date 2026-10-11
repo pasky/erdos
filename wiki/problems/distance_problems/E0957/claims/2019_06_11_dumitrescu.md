@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0957/claims/2019_06_11_dumitrescu
 title: Dumitrescu's product inequality for extreme distances
 desc: |
-  Among n points in the plane, the multiplicities of the smallest and the
-  largest distance multiply to at most (9/8)n^2 + O(n), answering the
-  question of Erdős and Pach yes with a linear error term.
+  Dumitrescu proves that among $n$ points in the plane, the multiplicities of
+  the smallest and the largest distance have product at most $\tfrac98n^2+O(n)$.
+  This answers the question of Erdős and Pach yes, with a linear error term.
 authors:
 - Adrian Dumitrescu
 status: accepted
@@ -60,12 +60,12 @@ the two graphs with the degree bound $6$ in the minimum-distance graph. The
 paper is carded at
 [[../library/distance_problems/dumitrescu_2019_product_inequality_extreme_distances/_index|dumitrescu_2019_product_inequality_extreme_distances]].
 
-**Acceptance.** The result is refereed: it appeared in Computational
-Geometry, after the SoCG 2019 proceedings. The site's curator, Thomas Bloom,
-marks the problem PROVED and credits Dumitrescu's theorem on the problem
-page; the curator neither wrote nor submitted the result. This corpus has
-not reviewed the proof, and no such review is needed for the standing
-recorded here. The site's further remarks, the sum bound
-$f(d_1)+f(d_k)\leq3n-c\sqrt n+o(\sqrt n)$ with its best constant, and the
-stronger conjecture $f(d_1)\leq3n-2m+o(\sqrt n)$ for a hull of $m$ vertices,
-are not part of the question and are not settled by this claim.
+**Acceptance.** The result is refereed: it appeared in Computational Geometry,
+after the SoCG 2019 proceedings. The site's curator, Thomas Bloom, marks the
+problem PROVED and credits Dumitrescu's theorem on the problem page. The curator
+neither wrote nor submitted the result. This corpus has not reviewed the proof,
+and the standing recorded here does not need such a review. The site makes
+further remarks that are not part of the question and are not settled by this
+claim. These are the sum bound $f(d_1)+f(d_k)\leq3n-c\sqrt n+o(\sqrt n)$ with
+its best constant, and the stronger conjecture $f(d_1)\leq3n-2m+o(\sqrt n)$ for
+a hull of $m$ vertices.

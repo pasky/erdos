@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E1183
 title: Problem 1183
 desc: |
-  Estimates how large a monochromatic family closed under unions and
-  intersections must exist in every two-coloring of the subsets of the first
-  n integers; open, with nothing beyond the trivial chain bound proved.
+  Asks to estimate the size of the largest monochromatic family closed under
+  unions and intersections that every two-coloring of the subsets of
+  $\{1,\ldots,n\}$ must contain. It is open, and nothing beyond the trivial
+  chain bound is proved.
 tags:
 - Combinatorics
 - Ramsey theory
@@ -45,18 +46,19 @@ whether $F(n)$ is superpolynomial and whether it is subexponential;
 $f(n)\le F(n)\le2^n$ trivially.
 
 **Status.** Open. No proof, disproof, preprint or proof claim for the exact
-statement was found in the search whose scope the Current assessment
-records, beyond a forum-posted AI-assisted manuscript and a posted
-chat record of March 2026; a partial proof claim of 30 September 2026, with
-the authors' own Lean development, was listed on the site's tab on 5 October
-2026. Chojecki's manuscript and that claim have claim pages below, and the
-March chat record is described in the Current assessment without one, since a
-thread post without a dated manuscript gets no claim page; all three report
-partial results on the two "in particular" questions, so the derived standing
-stays open. The only bounds verified here are the trivial $f(n)\ge(n+1)/2$ of
-the origin and its Theorem 2, which bounds the number of generators with
-distinct monochromatic unions by $(1+o(1))\log_2n$ and not $F(n)$ itself. This
-is a bounded negative finding, not a certificate of openness.
+statement was found in the search whose scope the Current assessment records,
+beyond a forum-posted AI-assisted manuscript and a posted chat record of
+March 2026. This is a bounded negative finding, not a certificate of openness. A
+partial proof claim of 30 September 2026, with the authors' own Lean
+development, was listed on the site's tab on 5 October 2026. Chojecki's
+manuscript and that claim have claim pages below. The March chat record is
+described in the Current assessment without a claim page, since a thread post
+without a dated manuscript gets none. All three report partial results on the
+two "in particular" questions, so the derived standing stays open. The only
+bounds verified here are two from the origin. One is the trivial
+$f(n)\ge(n+1)/2$. The other is the origin's Theorem 2, which bounds the number
+of generators with distinct monochromatic unions by $(1+o(1))\log_2n$, and not
+$F(n)$ itself.
 
 **Source.** [erdosproblems.com/1183](https://www.erdosproblems.com/1183),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that no

@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E1091/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant
 title: Four-critical K4-free graphs with at most ten chords per cycle
 desc: |
-  Alexeev, Putterman, Sawhney, Sellke and Valiant give explicit K4-free
-  4-chromatic graphs whose proper subgraphs are 3-colorable and whose cycles
-  have at most ten chords, so no diagonal count f(r) tending to infinity exists.
+  Alexeev, Putterman, Sawhney, Sellke and Valiant give explicit $K_4$-free
+  $4$-chromatic graphs whose proper subgraphs are $3$-colorable and whose cycles
+  have at most ten chords. Hence no diagonal count $f(r)$ tending to infinity
+  exists.
 authors:
 - Boris Alexeev
 - Moe Putterman
@@ -68,13 +69,14 @@ at issue here.
 
 **Acceptance.** Reviewed: Thomas Bloom, the site's curator, marks the problem
 solved and credits the negative answer to the second question to an internal
-OpenAI model through this paper. The paper is a preprint, arXiv:2604.06609
-posted 2026-04-08, and its arXiv record lists no journal, so the page lists
-no `refereed` evidence. The Lean file for the problem in Boris Alexeev's
-lean-proofs collection, linked above at its pinned commit, names OpenAI Codex
-as its author, credits the construction to the five authors in its docstring
-and proves a finite relabeling of the family
-(`apssv_four_critical_family`, `erdos_1091_quantitative_negative`) beside
-Voss's theorem; the corpus has not built this development, so the page lists
-no `formalized` evidence. The library card records the statement from the
-paper and does not verify the proof.
+OpenAI model through this paper. The paper is a preprint, arXiv:2604.06609,
+posted 2026-04-08. Its arXiv record lists no journal, so the page lists no
+`refereed` evidence.
+
+Boris Alexeev's lean-proofs collection has a Lean file for the problem, linked
+above at its pinned commit. The file names OpenAI Codex as its author and
+credits the construction to the five authors in its docstring. It proves a
+finite relabeling of the family (`apssv_four_critical_family`,
+`erdos_1091_quantitative_negative`), beside Voss's theorem. The corpus has not
+built this development, so the page lists no `formalized` evidence. The library
+card records the statement from the paper and does not verify the proof.

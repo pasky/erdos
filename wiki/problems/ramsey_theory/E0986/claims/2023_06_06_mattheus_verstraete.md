@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0986/claims/2023_06_06_mattheus_verstraete
 title: Mattheus and Verstraete, r(4,t) at least t^3 over log^4 t, the case s = 4
 desc: |
-  Mattheus and Verstraete's Theorem 1, r(4,t) at least a constant times t^3
-  over the fourth power of log t, which proves the case s = 4 with c(4) = 4;
-  refereed in the Annals (2024).
+  Theorem 1 of Mattheus and Verstraete, in their refereed 2024 paper in the
+  Annals, shows that $r(4,t)$ is at least a constant times $t^3/(\log t)^4$.
+  This is the case $s=4$ of the problem, with $c(4)=4$.
 authors:
 - Sam Mattheus
 - Jacques Verstraete
@@ -55,8 +55,8 @@ this page is named by; v5 of 20 February 2024 is marked on arXiv as the
 updated journal version. The journal article was published online on 5
 March 2024.
 
-**Acceptance.** Refereed: Annals of Mathematics (2) 199 (2024), no. 2,
-919--941. The site's commentary credits Mattheus and Verstraete with the
-case $s=4$, but its PROVED label settles the problem through
-[[problems/ramsey_theory/E0986/claims/2026_06_16_bradac|Bradač's claim]],
-so the curator's credit is not listed as review of this one.
+**Acceptance.** Refereed: Annals of Mathematics (2) 199 (2024), no. 2, 919--941.
+The site's commentary credits Mattheus and Verstraete with the case $s=4$. But
+the site's PROVED label settles the problem through
+[[problems/ramsey_theory/E0986/claims/2026_06_16_bradac|Bradač's claim]], so the
+curator's credit is not listed as review of this one.

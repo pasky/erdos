@@ -2,9 +2,9 @@
 name: problems/set_systems/E0231/claims/1957_11_16_de_bruijn_erdos
 title: Reported finite disproof at four letters
 desc: |
-  Erdős reports in 1957 and 1961 that he and de Bruijn disproved at k = 4 his
-  conjecture that every string of length 2^k over k symbols, printed as
-  2^k - 1, has an abelian square; no construction is given.
+  Erdős reports in 1957 and 1961 that he and de Bruijn disproved at $k=4$ his
+  conjecture that every string of length $2^k$ over $k$ symbols has an abelian
+  square, with the length printed as $2^k-1$. No construction is given.
 authors:
 - Paul Erdős
 status: claimed

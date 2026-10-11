@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0426/claims/2024_10_21_bradac_christoph
 title: Bradač and Christoph, unique subgraphs are rare
 desc: |
-  Theorem 1.2 of Bradač and Christoph: a graph on n vertices has o(2^(n choose
-  2)/n!) unique subgraphs, so the answer is no; published in Proc. Amer. Math.
-  Soc. 153 (2025), credited by the site's curator, with public Lean of 2026.
+  Theorem 1.2 of Bradač and Christoph shows that a graph on $n$ vertices has
+  $o(2^{\binom n2}/n!)$ unique subgraphs, so the answer is no. It was published
+  in Proc. Amer. Math. Soc. 153 (2025) and is credited by the site's curator,
+  with public Lean code from 2026.
 authors:
 - Domagoj Bradač
 - Micha Christoph
@@ -67,28 +68,31 @@ this corpus has not reviewed the proof, and the claim consumes no page of this
 wiki.
 
 **Acceptance.** Reviewed: the site's curator writes in the problem's commentary
-that Bradač and Christoph proved the answer is no, with $f(n)=o(2^{\binom
-n2}/n!)$; the proof-claim tab is empty. The site's label is DISPROVED (LEAN)
-(site export of 2026-09-04); on 2026-10-07 the public page's markup showed no
-label text, and the community database (teorth/erdosproblems,
-`data/problems.yaml` as of 2026-09-28) records status "disproved (Lean)", which
-its commit of 20 April 2026 set, with `formal_status` Lean. Refereed: D. Bradač
-and M. Christoph, Unique subgraphs are rare, Proc. Amer. Math. Soc. 153 (2025),
-no. 11, 4585-4593, doi:10.1090/proc/17303, published electronically 20 August
-2025; the arXiv record (v1 of 21 October 2024, CC BY 4.0) carries no journal
-reference. Not counted as formalized: a public Lean formalization exists, but
-the corpus has not built it or audited its statement. Lorenzo Luccioli posted to
-the problem's thread on 20 April 2026 a formalization of the paper's result
-produced with Aristotle, and on 24 April 2026 a refined version carrying the
-paper's quantitative rate for the normalized quantity `fSeq`; both gists are
+that Bradač and Christoph proved the answer is no, with
+$f(n)=o(2^{\binom n2}/n!)$. The proof-claim tab is empty. The site's label is
+DISPROVED (LEAN) (site export of 2026-09-04). On 2026-10-07 the public page's
+markup showed no label text. The community database (teorth/erdosproblems,
+`data/problems.yaml` as of 2026-09-28) records status "disproved (Lean)", set by
+its commit of 20 April 2026, with `formal_status` Lean.
+
+Refereed: D. Bradač and M. Christoph, Unique subgraphs are rare, Proc. Amer.
+Math. Soc. 153 (2025), no. 11, 4585-4593, doi:10.1090/proc/17303, published
+electronically 20 August 2025. The arXiv record (v1 of 21 October 2024, CC BY
+4.0) carries no journal reference.
+
+Not counted as formalized: a public Lean formalization exists, but the corpus
+has not built it or audited its statement. On 20 April 2026, Lorenzo Luccioli
+posted to the problem's thread a formalization of the paper's result produced
+with Aristotle. On 24 April 2026 he posted a refined version that carries the
+paper's quantitative rate for the normalized quantity `fSeq`. Both gists are
 linked above by their posting dates. The file in plby/lean-proofs, linked at its
-commit of 1 August 2026, collects it and names Bradač and Christoph as informal
-authors and Aristotle and Luccioli as formal authors (`f_tendsto_zero : Tendsto
-fSeq atTop (nhds 0)`, with the file's own `#print axioms` comment listing
-`propext`, `Classical.choice` and `Quot.sound`). The formal-conjectures file at
-its pin, a statement file and so not linked above, states `erdos_426` as
-`answer(False)` under `research solved` with proof `sorry` and a `formal_proof`
-attribute naming that file; its docstring reads the site's $\gg$ as a constant
-working for arbitrarily large $n$ and identifies the negation with
-$f(n)=o(2^{\binom n2}/n!)$. The corpus has built and checked none of these
-files.
+commit of 1 August 2026, collects this formalization. It names Bradač and
+Christoph as informal authors and Aristotle and Luccioli as formal authors. It
+contains `f_tendsto_zero : Tendsto fSeq atTop (nhds 0)`, and the file's own
+`#print axioms` comment lists `propext`, `Classical.choice` and `Quot.sound`.
+The formal-conjectures file at its pin is a statement file and so is not linked
+above. It states `erdos_426` as `answer(False)` under `research solved`, with
+proof `sorry` and a `formal_proof` attribute naming that file. Its docstring
+reads the site's $\gg$ as a constant that works for arbitrarily large $n$, and
+it identifies the negation with $f(n)=o(2^{\binom n2}/n!)$. The corpus has built
+and checked none of these files.

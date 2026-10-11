@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E0905/claims/1979_10_01_khadzhiivanov_nikif
 title: Khadzhiivanov and Nikiforov's edge on n/6 triangles
 desc: |
   Khadzhiivanov and Nikiforov (C. R. Acad. Bulgare Sci. 1979) prove that every
-  graph with n vertices and more than n^2/4 edges has an edge on at least n/6
-  triangles; accepted on the 1988 reproof, Fox and Loh, and the site's credit.
+  graph with $n$ vertices and more than $n^2/4$ edges has an edge on at least
+  $n/6$ triangles. The claim is accepted on the 1988 reproof, Fox and Loh, and
+  the site's credit.
 authors: []
 status: accepted
 claim: proved
@@ -63,25 +64,25 @@ is number 10 of a twelve-issue volume, and no source read gives its day.
 and the 1979 note is cited through it.
 
 **Acceptance.** The `reviewed` evidence is documented acceptance by named
-experts and by the site's curator (T. F. Bloom), who is independent of the
-authors. Fox and Loh, in a refereed paper (Combinatorica 32 (2012); p. 2 of
-the preprint, recorded on
+experts and by the site's curator, T. F. Bloom, who is independent of the
+authors. Fox and Loh, in a refereed paper (Combinatorica 32 (2012); p. 2 of the
+preprint, recorded on
 [[../library/ramsey_theory/fox_2012_problem_erdos_rothschild_edges_triangles/theorem_1_1|the card for Problem 80]]),
-state that Edwards and Khadzhiivanov and Nikiforov proved that every
-$n$-vertex graph with more than $n^2/4$ edges has an edge in at least $n/6$
-triangles. Khadzhiivanov's 1988 paper, in a university annual whose refereeing
-practice is not established, reproves the statement with the surplus above.
-The site's commentary credits the proof to this note and labels the problem
-proved, and the community database agrees. Bollobás and Nikiforov's refereed
-paper of 2005 (its own claim page,
+state that Edwards and Khadzhiivanov and Nikiforov proved that every $n$-vertex
+graph with more than $n^2/4$ edges has an edge in at least $n/6$ triangles. The
+site's commentary credits the proof to this note and labels the problem proved,
+and the community database agrees. Khadzhiivanov's 1988 paper reproves the
+statement with the surplus above. It appeared in a university annual whose
+refereeing practice is not established. Bollobás and Nikiforov's refereed paper
+of 2005 (its own claim page,
 [[problems/extremal_graph_theory/E0905/claims/2004_05_05_bollobas_nikiforov|Bollobás and Nikiforov]])
 credits the first proofs to Edwards and to this note and proves the statement
-again by another route; its second author shares the 1979 coauthor's name, so
-it is not counted as independent acceptance of this note. Whether the Comptes
+again by another route. Its second author shares the 1979 coauthor's name, so it
+is not counted as independent acceptance of this note. Whether the Comptes
 rendus of the Bulgarian Academy refereed the note is not documented, so
-`refereed` is not listed. Read depth: the 1979 text is not held; the 1988
-statements are checked clause by clause and the proofs of Theorem 1 and Lemma
-4 only for structure. Erdős's own 1982 and 1993 reports of the problem credit
+`refereed` is not listed. Read depth: the 1979 text is not held. The 1988
+statements are checked clause by clause, and the proofs of Theorem 1 and Lemma 4
+only for structure. Erdős's own 1982 and 1993 reports of the problem credit
 Edwards (see the problem page), not this note.
 
 **Formalization.** The file `src/v4.29.1/ErdosProblems/Erdos905.lean` of

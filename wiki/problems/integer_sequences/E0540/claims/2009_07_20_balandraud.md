@@ -3,8 +3,9 @@ name: problems/integer_sequences/E0540/claims/2009_07_20_balandraud
 title: Balandraud's exact zero-sum-free maximum for prime moduli
 desc: |
   Balandraud (Israel J. Math., 2012) proves Selfridge's conjecture: a largest
-  zero-sum free subset of Z/pZ has k elements, k the greatest integer with
-  k(k+1)/2 < p; refereed, credited by the site.
+  zero-sum free subset of $\mathbb Z/p\mathbb Z$ has $k$ elements, where $k$ is
+  the greatest integer with $k(k+1)/2<p$. The result is refereed and credited by
+  the site.
 authors:
 - Éric Balandraud
 status: accepted
@@ -47,10 +48,9 @@ The theorem is deduced from the paper's addition theorem for subsums
 **Covers.** Prime $N$, with the exact threshold of Theorem 9. Composite $N$
 is not covered.
 
-**Acceptance.** Refereed: the journal publication. Reviewed: the site's
-curator, Thomas Bloom, who is independent of the author, labels the problem
-PROVED (LEAN) and his commentary credits this paper with Selfridge's
-conjecture for prime $N$. The erratum has not been compared with the arXiv
-version.
+**Acceptance.** Refereed: the journal publication. Reviewed: the site's curator,
+Thomas Bloom, who is independent of the author, labels the problem PROVED
+(LEAN). His commentary credits this paper with Selfridge's conjecture for prime
+$N$. The erratum has not been compared with the arXiv version.
 
 **Depends on.** No page of this wiki.

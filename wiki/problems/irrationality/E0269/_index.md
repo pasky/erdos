@@ -2,8 +2,9 @@
 name: problems/irrationality/E0269
 title: Problem 269
 desc: |
-  Asks whether the sum of reciprocals of the least common multiples of the
-  first n integers built from a fixed finite set of primes is irrational.
+  Asks whether $\sum_n 1/\operatorname{lcm}(a_1,\ldots,a_n)$ is irrational,
+  where $a_1<a_2<\cdots$ are the integers whose prime factors lie in a fixed
+  finite set of at least two primes; open.
 tags:
 - Irrationality
 status: open

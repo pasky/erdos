@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0321/claims/1976_12_01_bleicher_erdos
 title: Bleicher and Erdős's upper bound for R(N)
 desc: |
-  Bleicher and Erdős's 1976 Theorem 3 bound for log S(N), with 2^R(N) <= S(N),
-  gives R(N) at most (1 / log 2) N log_r N / log N times the iterated-logarithm
-  product up to depth r, when log_{2r} N >= 1.
+  Bleicher and Erdős's 1976 Theorem 3 bound for $\log S(N)$, combined with
+  $2^{R(N)}\le S(N)$, gives
+  $R(N)\le\frac{1}{\log2}\frac{N\log_rN}{\log N}\prod_{j=3}^{r}\log_jN$ when
+  $\log_{2r}N\ge1$.
 authors:
 - M. N. Bleicher
 - P. Erdős
@@ -53,7 +54,7 @@ order is
 [[../library/unit_fractions/bleicher_1976_denominators_egyptian_fractions_ii/theorem_3|Theorem 3]],
 the library page that states the bound for $\log S(N)$.
 
-**Acceptance.** Refereed: M. N. Bleicher and P. Erdős, Denominators of
-Egyptian fractions II, Illinois J. Math. 20 (1976), no. 4, 598--613, DOI
-10.1215/ijm/1256049650; the issue is dated 1 December 1976 in the Crossref
-record, the date this page carries. The proof is not verified by this corpus.
+**Acceptance.** Refereed: M. N. Bleicher and P. Erdős, Denominators of Egyptian
+fractions II, Illinois J. Math. 20 (1976), no. 4, 598--613, DOI
+10.1215/ijm/1256049650. The Crossref record dates the issue 1 December 1976, the
+date this page carries. The proof is not verified by this corpus.

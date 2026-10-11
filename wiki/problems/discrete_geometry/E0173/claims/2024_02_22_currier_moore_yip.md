@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0173/claims/2024_02_22_currier_moore_yip
 title: Currier, Moore and Yip's monochromatic three-term progressions
 desc: |
-  Every two-coloring of the plane contains a monochromatic congruent copy of
-  three equally spaced collinear points, hence of every (a, 2a, xa) triangle
-  with x in [1,3]; refereed, in Combinatorica 44 (2024).
+  Currier, Moore and Yip prove that every two-coloring of the plane contains a
+  monochromatic congruent copy of three equally spaced collinear points, and
+  hence of every $(a,2a,xa)$ triangle with $x\in[1,3]$. The paper is refereed,
+  in Combinatorica 44 (2024).
 authors:
 - Gabriel Currier
 - Kenneth Moore
@@ -57,9 +58,9 @@ miss two triangles.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper is a journal publication in Combinatorica,
-volume 44, issue 6 (2024), the `refereed` evidence; this page is dated to the
-first arXiv posting, the journal record carrying no day known here. The site's
-commentary does not cite the paper; the problem's discussion on the site cites
-it (15 February 2026), which is commentary on a problem the site labels OPEN and
-not `reviewed` evidence. The proof is not checked by this corpus, and nothing is
-independently reviewed by this project.
+volume 44, issue 6 (2024). This is the `refereed` evidence. This page is dated
+to the first arXiv posting, because the journal record carries no day known
+here. The site's commentary does not cite the paper. The problem's discussion on
+the site cites it (15 February 2026). That is commentary on a problem the site
+labels OPEN, so it is not `reviewed` evidence. The proof is not checked by this
+corpus. Nothing is independently reviewed by this project.

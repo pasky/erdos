@@ -2,8 +2,7 @@
 name: problems/diophantine_problems/E0674
 title: Problem 674
 desc: |
-  Asks whether x to the power x times y to the power y equals z to the power z
-  has integer solutions with x, y and z all greater than one.
+  Asks whether $x^xy^y=z^z$ has integer solutions with $x,y,z>1$; proved.
 tags:
 - Number theory
 status: solved
@@ -22,10 +21,10 @@ updated: 2026-10-08T02:16:54Z
 
 **Statement.** Are there any integer solutions to $x^xy^y=z^z$ with $x,y,z>1$?
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page
-last edited 1 February 2026); the accepted claim on
+**Status.** PROVED (LEAN), the site's label (page last edited 1 February 2026).
+The accepted claim on
 [[problems/diophantine_problems/E0674/claims/1940_01_01_ko|Ko's infinite family of solutions]]
-settles it.
+settles the problem.
 
 **Source.** [erdosproblems.com/674](https://www.erdosproblems.com/674), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #674,

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1080/claims/1994_05_01_lazebnik_ustimenko_woldar
 title: Lazebnik, Ustimenko and Woldar's n^(16/15) lower bound
 desc: |
-  Lazebnik, Ustimenko and Woldar construct 4- and 6-cycle-free bipartite graphs
-  between about n^(2/3) and n vertices with n^(16/15+o(1)) edges, which alone
-  answers Problem 1080 in the negative; refereed in JCTB 61 (1994), not held.
+  Lazebnik, Ustimenko and Woldar construct $C_4$- and $C_6$-free bipartite
+  graphs with parts of about $n^{2/3}$ and $n$ vertices and $n^{16/15+o(1)}$
+  edges, which alone answers Problem 1080 in the negative. It is a refereed
+  paper in JCTB 61 (1994), not held here.
 authors:
 - F. Lazebnik
 - V.A. Ustimenko
@@ -54,15 +55,17 @@ copy has been fetched, and the problem page records the route tried. The bound i
 paged, and the construction was not read. The claim consumes no page of this
 wiki.
 
-**Acceptance.** Refereed: the Journal of Combinatorial Theory, Series B,
-volume 61, issue 1 (May 1994), 111--117, on which the acceptance rests. The
-site's commentary (erdosproblems.com/1080, page last edited 14 October 2025,
-accessed 2026-09-18) credits the disproof to de Caen and Székely and records this
-bound as an improvement of theirs, so the site's record is context for this
-claim, not review, and no `reviewed` evidence is listed. The external Lean
-file of 2025 linked from
-[[problems/extremal_graph_theory/E1080/claims/1992_01_01_de_caen_szekely|de Caen and Székely's claim page]],
-which declares itself a formalization of their solution, follows this
-construction; not built here, it is not this page's evidence.
+**Acceptance.** Refereed: the Journal of Combinatorial Theory, Series B, volume
+61, issue 1 (May 1994), 111--117. The acceptance rests on this publication.
+
+The site's commentary (erdosproblems.com/1080, page last edited 14 October 2025,
+accessed 2026-09-18) credits the disproof to de Caen and Székely and records
+this bound as an improvement of theirs. So the site's record is context for this
+claim, not review, and no `reviewed` evidence is listed.
+
+The external Lean file of 2025 linked from
+[[problems/extremal_graph_theory/E1080/claims/1992_01_01_de_caen_szekely|de Caen and Székely's claim page]]
+declares itself a formalization of their solution, and it follows this
+construction. It was not built here, so it is not this page's evidence.
 
 **Depends on.** No page of this wiki.

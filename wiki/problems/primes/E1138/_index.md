@@ -2,9 +2,8 @@
 name: problems/primes/E1138
 title: Problem 1138
 desc: |
-  Asks whether an interval of length a constant times the maximal prime gap
-  below x contains the expected number of primes, for y between x halved and
-  x.
+  Asks whether $\pi(y+Cd)-\pi(y)\sim Cd/\log y$ for $x/2<y<x$ and $C>1$, where
+  $d=\max_{p_n<x}(p_{n+1}-p_n)$ is the largest prime gap below $x$; disproved.
 tags:
 - Number theory
 - Primes
@@ -37,13 +36,14 @@ $p_{n+1}-p_n$ with $p_n<x$, even when $p_{n+1}>x$, and the question asks
 whether, for every fixed $C>1$, the asymptotic holds as $x\to\infty$
 uniformly over real $y$ with $x/2<y<x$.
 
-**Status.** The site labels the problem DISPROVED (LEAN) (page last edited
-06 July 2026) and credits Sunder, Kumrawat and Cheri, working with GPT 5.5,
-for the disproof: under the reading in the Formulation, two constants less
-than $1/2$ apart cannot both satisfy the asymptotic, so it fails for some
-$C>1$. Whether it fails for every single $C>1$ is open. The paper, the
-credit and the Lean proofs of the disproof, not built here, are on the
+**Status.** The site labels the problem DISPROVED (LEAN) (page last edited 06
+July 2026). It credits Sunder, Kumrawat and Cheri, working with GPT 5.5, with
+the disproof. Under the reading in the Formulation, two constants less than
+$1/2$ apart cannot both satisfy the asymptotic. So the asymptotic fails for some
+$C>1$. Whether it fails for every single $C>1$ is open. The paper, the credit
+and the Lean proofs of the disproof are on the
 [[problems/primes/E1138/claims/2026_04_25_sunder_kumrawat_cheri|claim page]].
+The Lean proofs are not built here.
 
 **Source.** [erdosproblems.com/1138](https://www.erdosproblems.com/1138),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1138,

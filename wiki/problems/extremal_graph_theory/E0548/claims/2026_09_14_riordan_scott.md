@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0548/claims/2026_09_14_riordan_scott
 title: Riordan and Scott, a short proof of the Erdős–Sós conjecture
 desc: |
-  An arXiv note of Riordan and Scott simplifying GPT-6 Astra's argument: it
-  proves the Erdős–Sós conjecture with its extremal graphs and the
-  antidirected-tree conjecture for digraphs; a preprint.
+  An arXiv note of Riordan and Scott, a preprint, simplifies GPT-6 Astra's
+  argument. It proves the Erdős–Sós conjecture with its extremal graphs, and
+  also the antidirected-tree conjecture for digraphs.
 authors:
 - Oliver Riordan
 - Alex Scott

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1080/claims/1992_01_01_de_caen_szekely
 title: De Caen and Székely's superlinear 4- and 6-cycle-free bipartite graphs
 desc: |
-  De Caen and Székely prove n^(10/9) >> f(n, floor(n^(2/3))) >> n^(58/57+o(1))
-  for 4- and 6-cycle-free bipartite graphs, so the answer to Problem 1080 is
-  no; credited by the site's curator, the chapter not held, a Lean file linked.
+  De Caen and Székely prove
+  $n^{10/9}\gg f(n,\lfloor n^{2/3}\rfloor)\gg n^{58/57+o(1)}$ for $C_4$- and
+  $C_6$-free bipartite graphs, so the answer to Problem 1080 is no. The site's
+  curator credits it, the chapter is not held here, and a Lean file is linked.
 authors:
 - D. de Caen
 - L. A. Székely
@@ -59,16 +60,19 @@ the routes. The exponents are quoted from the site's commentary, no theorem
 is paged, and the construction was not read. The claim consumes no page of
 this wiki.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, credits de Caen
-and Székely with the negative answer and states their bounds in the problem's
-commentary (erdosproblems.com/1080, page last edited 14 October 2025, accessed 2026-09-18);
-the proof-claim tab is empty, and the dated search recorded on the problem
-page found no dispute. Not counted as refereed: the chapter appears in an
-edited Bolyai Society colloquium volume, not a journal, and its refereeing is
-not documented. The later construction of
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, credits de Caen and
+Székely with the negative answer and states their bounds in the problem's
+commentary (erdosproblems.com/1080, page last edited 14 October 2025, accessed
+2026-09-18). The proof-claim tab is empty, and the dated search recorded on the
+problem page found no dispute.
+
+Not counted as refereed: the chapter appears in an edited Bolyai Society
+colloquium volume, not a journal, and its refereeing is not documented.
+
+The later construction of
 [[problems/extremal_graph_theory/E1080/claims/1994_05_01_lazebnik_ustimenko_woldar|Lazebnik, Ustimenko and Woldar]]
-improves the lower bound, and the Lean file described below formalizes a
-disproof along that construction; neither is this page's evidence.
+improves the lower bound. The Lean file described below formalizes a disproof
+along that construction. Neither is this page's evidence.
 
 **The formalization.** The file `src/v4.24.0/ErdosProblems/Erdos1080.lean` of
 the `plby/lean-proofs` repository, linked above at the commit of 15

@@ -4,19 +4,20 @@ desc: The 2 claim pages of Problem 1199, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/ramsey_theory/E1199/claims
 
 [[problems/ramsey_theory/E1199/_index|..]]
 
-[[problems/ramsey_theory/E1199/claims/1979_07_01_hindman|1979_07_01_hindman]]: Corollary 2.10 of Hindman's 1979 paper in J. Combin. Theory Ser. A: every
-admissible two-cell partition of the positive integers has a cell holding
-A+A, doubles included, for an infinite A; refereed, partial.
+[[problems/ramsey_theory/E1199/claims/1979_07_01_hindman|1979_07_01_hindman]]: Corollary 2.10 of Hindman's refereed 1979 paper in J. Combin. Theory Ser. A:
+every admissible two-cell partition of the positive integers has a cell that
+holds $A+A$, doubles included, for some infinite $A$. The claim is partial.
 
-[[problems/ramsey_theory/E1199/claims/2026_07_19_huang_lian_shao_xiao_xu_zhang|2026_07_19_huang_lian_shao_xiao_xu_zhang]]: Huang, Lian, Shao, Xiao, Xu and Zhang's preprint claims that every
-two-coloring of the natural numbers has an infinite set B with B+B,
-doubles included, in one color, the site's statement; unreviewed, pending.
+[[problems/ramsey_theory/E1199/claims/2026_07_19_huang_lian_shao_xiao_xu_zhang|2026_07_19_huang_lian_shao_xiao_xu_zhang]]: The preprint of Huang, Lian, Shao, Xiao, Xu and Zhang claims that every
+two-coloring of the natural numbers has an infinite set $B$ with $B+B$,
+doubles included, in one color, which is the site's statement. The claim is
+unreviewed and pending.
 
 ***

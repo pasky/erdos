@@ -2,9 +2,9 @@
 name: problems/covering_systems/E0586/claims/2018_11_08_balister_bollobas_morris_sahasrabudhe_tiba
 title: No covering system has a divisibility-free set of moduli
 desc: |
-  Balister, Bollobás, Morris, Sahasrabudhe and Tiba (Invent. Math. 2022)
-  prove Schinzel's conjecture that every finite covering system with moduli
-  above one has a modulus dividing another; accepted on the refereed paper.
+  Balister, Bollobás, Morris, Sahasrabudhe and Tiba (Invent. Math. 2022) prove
+  Schinzel's conjecture that every finite covering system with moduli above one
+  has a modulus dividing another. It is accepted on the refereed paper.
 authors:
 - Paul Balister
 - Béla Bollobás
@@ -61,12 +61,12 @@ is a necessary condition on any odd covering with distinct moduli.
 
 **Acceptance.** Refereed: Invent. Math. 228 (2022), no. 1, 377--414,
 doi:10.1007/s00222-021-01087-5, published online 2021-11-16 (Crossref record
-read); the arXiv preprint 1811.03547 was posted 2018-11-08, this
-page's date. Reviewed: the site's curator, Thomas Bloom, credits the five
-authors with the negative answer in the problem's commentary and labels the
-problem disproved (the page's comments and proof-claim tab are empty; read). The
-library's compilation of the theorem is this project's own reading and counts
-as no acceptance evidence.
+read). The arXiv preprint 1811.03547 was posted 2018-11-08, this page's date.
+Reviewed: the site's curator, Thomas Bloom, credits the five authors with the
+negative answer in the problem's commentary and labels the problem disproved.
+The page's comments and proof-claim tab were read and are empty. The library's
+compilation of the theorem is this project's own reading and counts as no
+acceptance evidence.
 
 **Formalization.** The formal-conjectures statement file for the problem
 (read 2026-10-07) carries the category `research solved` and a

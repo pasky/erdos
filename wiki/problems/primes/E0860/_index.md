@@ -2,8 +2,9 @@
 name: problems/primes/E0860
 title: Problem 860
 desc: |
-  Estimates the shortest interval length that always contains distinct
-  integers, one divisible by each prime up to n.
+  Asks to estimate the least $h(n)$ such that every interval $(m,m+h(n))$
+  contains distinct integers $a_1,\ldots,a_{\pi(n)}$, with $a_i$ divisible by
+  the $i$th prime $p_i$; open.
 tags:
 - Number theory
 - Primes
@@ -27,14 +28,14 @@ that $p_i\mid a_i$, where $p_i$ denotes the $i$th prime.
 
 Estimate $h(n)$.
 
-**Status.** Open, the site's label (page last edited 30 September 2025), with
-two pending partial claims on the proof-claims tab, neither of which would
-settle the problem; the Current assessment records them. The accepted partial
+**Status.** Open. This is the site's label (page last edited 30 September 2025).
+The proof-claims tab carries two pending partial claims. Neither would settle
+the problem, and the Current assessment records them. The accepted partial
 claims are on
 [[problems/primes/E0860/claims/1980_06_13_erdos_pomerance|the page of Erdős and Pomerance]]
-and [[problems/primes/E0860/claims/1995_01_01_ruzsa|Ruzsa's page]]; the
+and [[problems/primes/E0860/claims/1995_01_01_ruzsa|Ruzsa's page]]. The
 Erdős--Selfridge lower bound and the joint upper bound of Chen and Korsky are
-claimed partial results, on
+claimed partial results. They are on
 [[problems/primes/E0860/claims/1980_06_13_erdos_selfridge|the page of Erdős and Selfridge]]
 and
 [[problems/primes/E0860/claims/2026_08_13_chen_korsky|the joint page of Chen and Korsky]].

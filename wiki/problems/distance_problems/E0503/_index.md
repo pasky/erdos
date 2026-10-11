@@ -2,8 +2,8 @@
 name: problems/distance_problems/E0503
 title: Problem 503
 desc: |
-  Determines the largest size of a set of points in d-dimensional space in
-  which every three points form an isosceles triangle.
+  Asks for the largest size of a set $A\subseteq\mathbb{R}^d$ in which every
+  three points form an isosceles triangle; open.
 tags:
 - Geometry
 - Distances
@@ -26,15 +26,15 @@ that every three points from $A$ determine an isosceles triangle? That is, for
 any three points $x,y,z$ from $A$, at least two of the distances $\lvert
 x-y\rvert,\lvert y-z\rvert,\lvert x-z\rvert$ are equal.
 
-**Status.** Open, the site's label. The site records the exact values in the
-plane, $6$ (Kelly), and in space, $8$ (Croft), Blokhuis's upper bound
+**Status.** Open, the site's label. The standing stays open because no claim
+settles the general question. The site records the exact values in the plane,
+$6$ (Kelly), and in space, $8$ (Croft). It also records Blokhuis's upper bound
 $\binom{d+2}{2}$ and the lower bound $\binom{d+1}{2}+1$ of Alweiss and
 Weisenberg. The refereed literature determines the value for every $d\le8$
-(Ionin, Kido), and Chojecki's note of 2026 derives the value $276$ for $d=22$
-and reduces the problem to the two-distance extremal functions. Each
-determined instance is a partial claim in `claims/`, the literature's
-accepted and Chojecki's pending; no claim settles the general question, so
-the standing stays open.
+(Ionin, Kido). Chojecki's note of 2026 derives the value $276$ for $d=22$ and
+reduces the problem to the two-distance extremal functions. Each determined
+instance is a partial claim in `claims/`. The literature's claims are accepted,
+and Chojecki's is pending.
 
 **Source.** [erdosproblems.com/503](https://www.erdosproblems.com/503), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #503,

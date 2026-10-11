@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0188/claims/2017_03_31_tsaturian
 title: Tsaturian, a red unit pair or a blue five-term unit progression
 desc: |
-  Every red-blue coloring of the plane has a red unit pair or a blue
-  five-term progression with unit step, so the least avoiding length is at
-  least 6.
+  Tsaturian proves that every red-blue coloring of the plane has a red unit pair
+  or a blue five-term progression with unit step. So the least avoiding length
+  is at least $6$.
 authors:
 - Sergei Tsaturian
 status: accepted
@@ -59,10 +59,10 @@ Combinatorics 24(4) (2017), #P4.35, published on 24 November 2017. The
 published version corrects a triangle side length in a lemma of the arXiv
 version.
 
-**Acceptance.** Refereed: the Electronic Journal of Combinatorics, 24(4)
-(2017), #P4.35. The site's commentary credits Tsaturian with the bound, but
-the site labels the problem OPEN, so that credit is not listed as `reviewed`.
-No formalization of the theorem is recorded.
+**Acceptance.** Refereed: the Electronic Journal of Combinatorics, 24(4) (2017),
+#P4.35. The site's commentary credits Tsaturian with the bound. The site labels
+the problem OPEN, however, so that credit is not listed as `reviewed`. No
+formalization of the theorem is recorded.
 
 **Depends on.**
 [[../library/discrete_geometry/tsaturian_2017_euclidean_ramsey_result_plane/theorem_1|Tsaturian, Theorem 1]].

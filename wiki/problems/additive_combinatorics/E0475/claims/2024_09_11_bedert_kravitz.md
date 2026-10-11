@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0475/claims/2024_09_11_bedert_kravitz
 title: Bedert and Kravitz's small sets for large primes
 desc: |
-  Theorem 1.2 of Bedert and Kravitz (Israel J. Math. 2026): for every c > 0
-  and every large prime p, every set of at most exp(c (log p)^{1/4}) nonzero
-  residues has an ordering with distinct partial sums; accepted, refereed.
+  Theorem 1.2 of Bedert and Kravitz (Israel J. Math. 2026), accepted and
+  refereed, proves that for every $c>0$ and every large prime $p$, every set of
+  at most $\exp(c(\log p)^{1/4})$ nonzero residues has an ordering with distinct
+  partial sums.
 authors:
 - Benjamin Bedert
 - Noah Kravitz
@@ -57,8 +58,8 @@ its library result page. Kravitz's integer ordering theorem (Theorem 1.3 of
 arXiv:2407.01835), which the proof uses as a step, enters as a cited input of
 this refereed paper, not through the pending Kravitz page.
 
-**Acceptance.** Refereed publication: Israel Journal of Mathematics 273
-(2026), no. 1, 471--500, published online 30 November 2025 (the journal text
-is not held and not compared with the arXiv version). The site's commentary
-credits the range, but its label DECIDABLE leaves the problem open, so that
-credit is not `reviewed` evidence.
+**Acceptance.** Refereed publication: Israel Journal of Mathematics 273 (2026),
+no. 1, 471--500, published online 30 November 2025. The journal text is not held
+and was not compared with the arXiv version. The site's commentary credits the
+range, but its label DECIDABLE leaves the problem open, so that credit is not
+`reviewed` evidence.

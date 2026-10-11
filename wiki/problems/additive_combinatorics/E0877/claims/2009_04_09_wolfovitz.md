@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0877/claims/2009_04_09_wolfovitz
 title: Wolfovitz's bound of two to the 3n over 8 for maximal sum-free sets
 desc: |
-  At most 2^(3n/8 + o(n)), which is o(2^(n/2)), maximal sum-free subsets of
-  the first n integers; Wolfovitz's bound, refereed in the European Journal
-  of Combinatorics, quoted from Balogh--Liu--Sharifzadeh--Treglown; not held.
+  Wolfovitz's bound, refereed in the European Journal of Combinatorics, that the
+  first $n$ integers have at most $2^{3n/8+o(n)}$ maximal sum-free subsets,
+  which is $o(2^{n/2})$. The paper is not held, and the bound is quoted from
+  Balogh, Liu, Sharifzadeh and Treglown.
 authors:
 - Guy Wolfovitz
 status: accepted
@@ -52,10 +53,10 @@ named by the journal paper's date.
 **Depends on.** No wiki page; the claim rests on the cited paper.
 
 **Acceptance.** Refereed: the paper is a research article in the European
-Journal of Combinatorics (Crossref record read: volume 30, issue
-7, print issue October 2009; the record was created 9 April 2009, the date
-that names this page). The site's curator does not mention Wolfovitz in
-the problem's commentary, so no `reviewed` evidence is listed; the two
-refereed papers of 2015 and 2018 cite the bound as an intermediate step
-between Łuczak and Schoen's answer and their own. The paper's read status is
-unread, so no further evidence is listed.
+Journal of Combinatorics. Its Crossref record (read) gives volume 30, issue 7,
+print issue October 2009. The record was created on 9 April 2009, the date that
+names this page. The site's curator does not mention Wolfovitz in the problem's
+commentary, so no `reviewed` evidence is listed. The two refereed papers of 2015
+and 2018 cite the bound as an intermediate step between Łuczak and Schoen's
+answer and their own. The paper has not been read, so no further evidence is
+listed.

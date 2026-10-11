@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0128/claims/2006_01_05_keevash_sudakov
 title: Keevash and Sudakov's sparse halves at low and high edge density
 desc: |
-  Keevash and Sudakov (J. Combin. Theory Ser. B 2006) prove that a
-  triangle-free graph with at most n²/12 edges, or with at least n²/5 edges,
-  has n/2 vertices spanning at most n²/50 edges; refereed.
+  Keevash and Sudakov (J. Combin. Theory Ser. B 2006) prove that a triangle-free
+  graph with at most $n^2/12$ edges, or with at least $n^2/5$ edges, has $n/2$
+  vertices spanning at most $n^2/50$ edges. The result is refereed.
 authors:
 - Peter Keevash
 - Benny Sudakov

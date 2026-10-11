@@ -2,8 +2,9 @@
 name: problems/additive_bases/E0333
 title: Problem 333
 desc: |
-  Asks whether every set of integers of density zero lies in the sumset of
-  some set whose counting function is smaller than the square root of N.
+  Asks whether every set $A\subseteq\mathbb{N}$ of density zero lies in $B+B$
+  for some set $B$ with $\lvert B\cap\{1,\ldots,N\}\rvert=o(N^{1/2})$;
+  disproved.
 tags:
 - Number theory
 - Additive bases
@@ -41,15 +42,15 @@ and $B$, the reading of the thread and of formal-conjectures, the answer is
 still no, by Theorem 2 of Erdős and Newman as their claim page derives. Both
 readings give the negative answer recorded here.
 
-**Status.** The site labels the problem disproved, with a Lean qualifier
-(page last edited 2025-12-27): the negative answer follows from Theorem 2 of
-[ErNe77], which Erdős and Graham appear to have overlooked, and a separate
-direct construction has a Lean 4 proof. Both are accepted claims:
+**Status.** The site labels the problem disproved, with a Lean qualifier (page
+last edited 2025-12-27). The negative answer follows from Theorem 2 of [ErNe77],
+which Erdős and Graham appear to have overlooked. A separate direct construction
+has a Lean 4 proof. Both are accepted claims.
 [[problems/additive_bases/E0333/claims/1977_11_01_erdos_newman|Erdős and Newman 1977]]
-on the curator's acceptance and the journal publication, and the Lean-backed
+rests on the curator's acceptance and the journal publication. The Lean-backed
 construction,
-[[problems/additive_bases/E0333/claims/2025_12_25_barreto|Barreto 2025]], on
-formalized evidence.
+[[problems/additive_bases/E0333/claims/2025_12_25_barreto|Barreto 2025]], rests
+on formalized evidence.
 
 **Source.** [erdosproblems.com/333](https://www.erdosproblems.com/333), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #333,

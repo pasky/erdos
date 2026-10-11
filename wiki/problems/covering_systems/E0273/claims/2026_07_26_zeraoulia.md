@@ -2,9 +2,10 @@
 name: problems/covering_systems/E0273/claims/2026_07_26_zeraoulia
 title: Zeraoulia's lower bound on the least common multiple of the moduli
 desc: |
-  Rafik Zeraoulia's partial proof claim, deposited 2026-07-26, that a covering
-  system with distinct moduli all of the form p - 1, p at least 5 prime, has
-  moduli with least common multiple at least 393120; existence stays open.
+  Rafik Zeraoulia claims, in a partial proof deposited 2026-07-26, that a
+  covering system with distinct moduli all of the form $p-1$, $p\ge5$ prime, has
+  moduli with least common multiple at least 393120. Whether such a system
+  exists stays open.
 authors:
 - Rafik Zeraoulia
 status: claimed

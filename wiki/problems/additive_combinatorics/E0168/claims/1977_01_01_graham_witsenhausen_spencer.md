@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0168/claims/1977_01_01_graham_witsenhausen_spencer
 title: The limit exists and is a series over the 3-smooth numbers
 desc: |
-  Graham, Witsenhausen and Spencer proved that the limiting density of sets
-  with no triple n, 2n, 3n exists and equals one third of a series over the
-  3-smooth numbers; the collected volume is not shown to be refereed.
+  Graham, Witsenhausen and Spencer proved that the limiting density of sets with
+  no triple $n,2n,3n$ exists and equals one third of a series over the
+  $3$-smooth numbers. The collected volume is not shown to be refereed.
 authors:
 - R. L. Graham
 - H. S. Witsenhausen

@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0633/claims/2026_04_04_beeson_laczkovich_zhang
 title: The Beeson–Laczkovich–Zhang classification
 desc: |
-  Beeson, Laczkovich and Zhang classify the triangles that admit a tiling
-  into a nonsquare number of congruent triangles as eight explicit families,
-  so every other triangle answers the problem; a preprint the site accepts.
+  Beeson, Laczkovich and Zhang classify the triangles that admit a tiling into a
+  nonsquare number of congruent triangles as eight explicit families, so every
+  other triangle answers the problem. The site accepts this preprint.
 authors:
 - Michael Beeson
 - Miklos Laczkovich
@@ -50,14 +50,13 @@ of the source card, whose qualifications (a misidentified reference on
 p. 9, an unproved remark on p. 16, and the secondary Theorem 32) do not
 touch the classification.
 
-**Acceptance.** The site's curator, T. F. Bloom, labels the problem Solved
-and credits the classification to Beeson, Laczkovich and Zhang [BLZ26]
-(problem page last edited 2026-04-08, accessed 2026-09-05), which is the
-`reviewed` evidence. The result is a preprint, arXiv:2604.03609, first
-posted 2026-04-04 (v1, 21 pages) and revised to v3 on 2026-08-25 (33
-pages), with no journal record found; the Creative Commons Attribution 4.0
-license is from the arXiv record. The library's rewritten deductions are
-this corpus's own reading and award no acceptance; no independent proof
-review is recorded. The formal-conjectures file for the problem states
-the question with an unspecified answer and `sorry` and is not a
-formalization of this result.
+**Acceptance.** T. F. Bloom, the site's curator, labels the problem Solved and
+credits the classification to Beeson, Laczkovich and Zhang [BLZ26] (problem page
+last edited 2026-04-08, accessed 2026-09-05). This is the `reviewed` evidence.
+The result is a preprint, arXiv:2604.03609. It was first posted 2026-04-04 (v1,
+21 pages) and revised to v3 on 2026-08-25 (33 pages), and no journal record was
+found. The Creative Commons Attribution 4.0 license is from the arXiv record.
+The library's rewritten deductions are this corpus's own reading and award no
+acceptance. No independent proof review is recorded. The formal-conjectures file
+for the problem states the question with an unspecified answer and `sorry`, and
+it is not a formalization of this result.

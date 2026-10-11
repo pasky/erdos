@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0107
 title: Problem 107
 desc: |
-  Asks whether two to the power n minus 2, plus one, points in the plane with
-  no three collinear are always enough to force a convex n-gon.
+  Asks whether $2^{n-2}+1$ points in the plane, no three on a line, always
+  contain the vertices of a convex $n$-gon; open.
 tags:
 - Geometry
 - Convexity
@@ -25,13 +25,12 @@ updated: 2026-10-08T00:44:25Z
 $\mathbb{R}^2$, no three on a line, contain $n$ points which form the vertices
 of a convex $n$-gon. Prove that $f(n)=2^{n-2}+1$.
 
-**Status.** Falsifiable. The frontmatter standing is derived
-from the claim pages under `claims/`: three accepted partial claims settle
-instances of the conjectured equality and its lower half (Klein's $f(4)=5$ as
-published by Erdős and Szekeres, the Erdős--Szekeres construction giving
-$f(n)\ge2^{n-2}+1$, and Szekeres and Peters's $f(6)=17$; see the Current
-assessment), and no claim addresses the conjecture for every $n$, so the
-problem stays open.
+**Status.** Falsifiable. The frontmatter standing derives from the claim pages
+under `claims/`. Three accepted partial claims settle instances of the
+conjectured equality and its lower half: Klein's $f(4)=5$ as published by Erdős
+and Szekeres, the Erdős--Szekeres construction giving $f(n)\ge2^{n-2}+1$, and
+Szekeres and Peters's $f(6)=17$ (see the Current assessment). No claim addresses
+the conjecture for every $n$, so the problem stays open.
 
 **Source.** [erdosproblems.com/107](https://www.erdosproblems.com/107), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #107,

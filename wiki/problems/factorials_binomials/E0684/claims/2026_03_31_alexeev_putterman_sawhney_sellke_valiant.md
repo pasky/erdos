@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0684/claims/2026_03_31_alexeev_putterman_sawhney_sellke_valiant
 title: A polylogarithmic upper bound and a logarithmic lower bound for f(n)
 desc: |
-  Theorem 2.1 of Alexeev, Putterman, Sawhney, Sellke and Valiant (arXiv 2026):
-  f(n) is at most (24/(pi^2-6)+o(1))(log n)^2 for large n and at least
-  (1/2+o(1)) log n along a sequence; unrefereed, the order of f(n) stays open.
+  Theorem 2.1 of Alexeev, Putterman, Sawhney, Sellke and Valiant (arXiv 2026,
+  unrefereed) gives $f(n)\le(24/(\pi^2-6)+o(1))(\log n)^2$ for large $n$ and
+  $f(n)\ge(1/2+o(1))\log n$ along a sequence. The order of $f(n)$ stays open.
 authors:
 - Boris Alexeev
 - Moe Putterman

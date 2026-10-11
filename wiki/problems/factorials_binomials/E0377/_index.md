@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E0377
 title: Problem 377
 desc: |
-  Asks whether the sum of the reciprocals of the primes up to n that do not
-  divide the central binomial coefficient of n is bounded by a constant.
+  Asks whether the sum of $1/p$ over the primes $p\le n$ that do not divide
+  $\binom{2n}{n}$ is bounded by an absolute constant; open.
 tags:
 - Number theory
 - Binomial coefficients

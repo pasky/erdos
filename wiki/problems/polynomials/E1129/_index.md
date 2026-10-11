@@ -2,8 +2,9 @@
 name: problems/polynomials/E1129
 title: Problem 1129
 desc: |
-  Asks a question about how large the fundamental Lagrange interpolation
-  polynomials for nodes in the interval from minus one to one can be.
+  Asks which nodes $x_1,\ldots,x_n\in[-1,1]$ minimize
+  $\max_{x\in[-1,1]}\sum_k\lvert l_k(x)\rvert$, where the $l_k$ are the
+  fundamental Lagrange interpolation polynomials; answered.
 tags:
 - Analysis
 - Polynomials
@@ -44,19 +45,19 @@ and it alone minimizes the Lebesgue constant among them. The minimal value
 $\lambda^*$ is the same for free and canonical nodes.
 
 **Status.** The site labels the problem PROVED (page last edited 23 January
-2026, label accessed 2026-09-04), and the community database at
-teorth/erdosproblems lists its status as proved (Lean) as of its last update
-on 2026-09-16, pointing to a third-party Lean development described below. The
-site credits the characterization of the minimizing nodes to de Boor and Pinkus
-[dBPi78], after Kilgore and Cheney [KiCh76] and Kilgore [Ki77], and the
-four-node optimum to Rack and Vajda [RaVa15]; the accepted claim pages are
+2026, label accessed 2026-09-04). The community database at teorth/erdosproblems
+lists its status as proved (Lean) as of its last update on 2026-09-16. It points
+to a third-party Lean development described below. The question asks for a
+description, so the derived claim value is `answered`. The site credits the
+characterization of the minimizing nodes to de Boor and Pinkus [dBPi78], after
+Kilgore and Cheney [KiCh76] and Kilgore [Ki77]. It credits the four-node optimum
+to Rack and Vajda [RaVa15]. The accepted claim pages are
 [[problems/polynomials/E1129/claims/1978_12_01_deboor_pinkus|de Boor and Pinkus 1978]],
 which records the paper's convention that the endpoints are nodes,
 [[problems/polynomials/E1129/claims/1978_12_01_kilgore|Kilgore 1978]], an
 independent proof of Bernstein's conjecture in the same issue, and the partial
 [[problems/polynomials/E1129/claims/2015_06_01_rack_vajda|Rack and Vajda 2015]],
-which describes every four-node minimizer. The question asks for a
-description, so the derived claim value is `answered`.
+which describes every four-node minimizer.
 
 **Source.** [erdosproblems.com/1129](https://www.erdosproblems.com/1129),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1129,

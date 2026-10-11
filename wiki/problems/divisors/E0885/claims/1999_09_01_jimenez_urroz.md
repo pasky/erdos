@@ -2,8 +2,8 @@
 name: problems/divisors/E0885/claims/1999_09_01_jimenez_urroz
 title: Jiménez-Urroz's three common factor differences
 desc: |
-  Jiménez-Urroz proves that for every k there are k positive integers whose
-  factor difference sets share at least three values, which settles k = 3.
+  Jiménez-Urroz proves that for every $k$ there are $k$ positive integers whose
+  factor difference sets share at least three values, which settles $k=3$.
 authors:
 - Jorge Jiménez-Urroz
 status: accepted

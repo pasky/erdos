@@ -2,8 +2,8 @@
 name: problems/primes/E0680
 title: Problem 680
 desc: |
-  Asks whether every sufficiently large n admits some k for which the least
-  prime factor of n plus k exceeds k squared plus one.
+  Asks whether every sufficiently large $n$ has some $k$ with $p(n+k)>k^2+1$,
+  where $p(m)$ is the least prime factor of $m$; open.
 tags:
 - Number theory
 - Primes

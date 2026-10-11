@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0936
 title: Problem 936
 desc: |
-  Asks whether 2 to the n plus or minus 1 and n factorial plus or minus 1 are
-  powerful numbers for only finitely many n.
+  Asks whether $2^n\pm 1$ and $n!\pm 1$ are powerful numbers for only finitely
+  many $n$; open.
 tags:
 - Number theory
 - Powerful numbers
@@ -35,8 +35,8 @@ $$
 
 powerful (i.e. if $p\mid m$ then $p^2\mid m$) for only finitely many $n$?
 
-**Status.** Open, the site's label (OPEN). No claim settles the question;
-both claim pages are conditional on the abc conjecture.
+**Status.** Open, which is the site's label (OPEN). No claim settles the
+question. Both claim pages are conditional on the abc conjecture.
 
 **Source.** [erdosproblems.com/936](https://www.erdosproblems.com/936), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #936,

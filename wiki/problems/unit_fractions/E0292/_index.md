@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0292
 title: Problem 292
 desc: |
-  Asks whether the integers that can occur as the largest denominator in a
-  representation of one by distinct unit fractions have density one.
+  Asks whether the integers that occur as the largest denominator in some
+  representation of $1$ by distinct unit fractions have density $1$; proved.
 tags:
 - Number theory
 - Unit fractions
@@ -36,14 +36,14 @@ of integers greater than $1$ that cannot be the largest denominator.
 "Density $1$" is asymptotic density; the site's commentary states the
 finer order of the complement $B=\mathbb N\setminus A$.
 
-**Status.** Proved, in the site's label, and the answer is yes: Martin's
-Theorem 4 (Acta Arith. 95 (2000), no. 3, 231--260; refereed) shows that
+**Status.** Proved, in the site's label, and the answer is yes. Martin's Theorem
+4 (Acta Arith. 95 (2000), no. 3, 231--260; refereed) shows that
 $\mathcal L_1(r)$ has zero density for every positive rational $r$, with
-counting function of exact order $x\log\log x/\log x$; at $r=1$ this is
-$|B\cap[1,x]|\asymp x\log\log x/\log x$, so $A$ has density $1$. This is
-the accepted claim
-[[problems/unit_fractions/E0292/claims/1998_11_18_martin|Martin 2000]],
-refereed and credited by the site's curator.
+counting function of exact order $x\log\log x/\log x$. At $r=1$ this is
+$|B\cap[1,x]|\asymp x\log\log x/\log x$, so $A$ has density $1$. This is the
+accepted claim
+[[problems/unit_fractions/E0292/claims/1998_11_18_martin|Martin 2000]], refereed
+and credited by the site's curator.
 
 **Source.** [erdosproblems.com/292](https://www.erdosproblems.com/292),
 accessed 2026-09-17: the problem page (PROVED, the site stating that the

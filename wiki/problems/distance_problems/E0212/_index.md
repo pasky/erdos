@@ -3,7 +3,7 @@ name: problems/distance_problems/E0212
 title: Problem 212
 desc: |
   Asks whether the plane contains a dense set of points all of whose pairwise
-  distances are rational.
+  distances are rational. It is open.
 tags:
 - Geometry
 - Distances
@@ -24,8 +24,8 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** Is there a dense subset of $\mathbb{R}^2$ such that all pairwise
 distances are rational?
 
-**Status.** Open, the site's label (OPEN). Two conditional claim pages record
-that the Bombieri-Lang conjecture would answer the question no:
+**Status.** Open. This is the site's label (OPEN). Two conditional claim pages
+record that the Bombieri-Lang conjecture would answer the question no:
 [[problems/distance_problems/E0212/claims/2014_12_31_shaffaf|Shaffaf's refereed paper]]
 and [[problems/distance_problems/E0212/claims/2014_12_20_tao|Tao's blog post]].
 The hypothesis is unproven, so neither page settles the problem.

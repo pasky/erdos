@@ -2,9 +2,8 @@
 name: problems/extremal_graph_theory/E0062
 title: Problem 62
 desc: |
-  Asks whether two graphs of chromatic number aleph-one must share a common
-  subgraph of chromatic number four, or even of countably infinite chromatic
-  number.
+  Asks whether any two graphs of chromatic number $\aleph_1$ must share a common
+  subgraph of chromatic number $4$, or even $\aleph_0$; open.
 tags:
 - Graph theory
 status: open

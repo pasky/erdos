@@ -2,10 +2,10 @@
 name: problems/number_theory/E0465
 title: Problem 465
 desc: |
-  Asks whether the largest set of points in a disc of radius X whose pairwise
-  distances all stay at least delta from the integers has o(X) points, and
-  even fewer than X to the one half plus o(1); proved by Sárközy (the first
-  bound) and Konyagin (the sharp exponent one half).
+  Asks whether the largest number $N(X,\delta)$ of points in a disc of radius
+  $X$ with all pairwise distances at least $\delta$ from the integers is $o(X)$,
+  and even below $X^{1/2+o(1)}$; proved by Sárközy (the first bound) and
+  Konyagin (the sharp exponent $1/2$).
 tags:
 - Number theory
 status: solved
@@ -60,22 +60,20 @@ once $X\ge X(\delta,\varepsilon)$. The companion
 same quantity; the monograph of 1980 prints the two problems as one
 passage.
 
-**Status.** PROVED, the site's label (page last edited 18 January 2026),
-which credits Sárközy [Sa76] with the first conjecture and Konyagin [Ko01]
-with the bound of order $X^{1/2}$. The accepted claim pages are
-[[problems/number_theory/E0465/claims/2001_04_01_konyagin|Konyagin 2001]],
-the full claim: for every $\delta>0$ there is $C(\delta)$ with
-$N(X,\delta)<C(\delta)X^{1/2}$ for all $X\ge1$ (Mat. Zametki 69 (2001),
-refereed; p. 630), which is $o(X)$ and, for any
-$\varepsilon>0$, below $X^{1/2+\varepsilon}$ as soon as
-$X\ge C(\delta)^{1/\varepsilon}$, the second question's
-$N(X,\delta)<X^{1/2+o(1)}$ (an authored one-line remark); and
-[[problems/number_theory/E0465/claims/1976_01_01_sarkozy|Sárközy 1976]], the
-partial claim that settled the first question earlier:
-$N(X,\delta)<(4\cdot10^4/\delta^3)\,X/\log\log X$ for $X$ large depending
-on $\delta$ (Part I, Studia Sci. Math. Hungar. 11 (1976), refereed;
-p. 38). Each is accepted on its refereed publication and the
-curator's credit. No exponent below $1/2$ holds for all small $\delta$:
+**Status.** PROVED, the site's label (page last edited 18 January 2026). The
+site credits Sárközy [Sa76] with the first conjecture and Konyagin [Ko01] with
+the bound of order $X^{1/2}$. There are two accepted claim pages, each accepted
+on its refereed publication and the curator's credit. The full claim is
+[[problems/number_theory/E0465/claims/2001_04_01_konyagin|Konyagin 2001]]: for
+every $\delta>0$ there is $C(\delta)$ with $N(X,\delta)<C(\delta)X^{1/2}$ for
+all $X\ge1$ (Mat. Zametki 69 (2001), refereed; p. 630). This bound is $o(X)$.
+For any $\varepsilon>0$ it is below $X^{1/2+\varepsilon}$ as soon as
+$X\ge C(\delta)^{1/\varepsilon}$, which is the second question's
+$N(X,\delta)<X^{1/2+o(1)}$ (an authored one-line remark). The partial claim
+[[problems/number_theory/E0465/claims/1976_01_01_sarkozy|Sárközy 1976]] settled
+the first question earlier: $N(X,\delta)<(4\cdot10^4/\delta^3)\,X/\log\log X$
+for $X$ large depending on $\delta$ (Part I, Studia Sci. Math. Hungar. 11
+(1976), refereed; p. 38). No exponent below $1/2$ holds for all small $\delta$.
 Sárközy's Theorem 1 of Part II gives $N(X,\delta)>X^{1/2-\delta^{1/7}}$ for
 $0<\delta\le1/(6\cdot8^4)$ and large $X$ (compiled on Problem 466), and the
 lower exponent $1/2-\delta^{1/7}$ tends to $1/2$ as $\delta\to0$.

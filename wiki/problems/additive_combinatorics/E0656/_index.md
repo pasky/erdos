@@ -2,8 +2,9 @@
 name: problems/additive_combinatorics/E0656
 title: Problem 656
 desc: |
-  Asks whether every set of positive upper density contains, after some shift,
-  all pairwise sums of distinct members of an infinite subset.
+  Asks whether every set $A\subseteq\mathbb{N}$ of positive upper density
+  contains, after some shift, all sums of two distinct members of an infinite
+  subset of $A$; the answer is yes.
 tags:
 - Number theory
 - Additive combinatorics
@@ -30,9 +31,9 @@ $$
 
 **Status.** Proved. The status-defining source is Theorem 1.2 of Kra, Moreira,
 Richter and Robertson [KMRR24] (Commun. Amer. Math. Soc. 4 (2024), 480--494,
-refereed), which proves the statement for every set of positive upper Banach
-density, of which positive upper density along the intervals is the special
-case; the paper calls it Erdős's $B+B+t$ conjecture. The claim page is
+refereed). It proves the statement for every set of positive upper Banach
+density. Positive upper density along the intervals is a special case of this.
+The paper calls the statement Erdős's $B+B+t$ conjecture. The claim page is
 [[problems/additive_combinatorics/E0656/claims/2022_06_24_kra_moreira_richter_robertson|Kra, Moreira, Richter and Robertson]]
 (accepted on the refereed publication and the site's credit).
 

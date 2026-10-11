@@ -3,8 +3,9 @@ name: problems/additive_combinatorics/E0741/claims/2026_03_31_firsching
 title: DeepMind prover agent settles both questions of Problem 741
 desc: |
   Three Lean proofs found by a DeepMind prover agent and posted by Moritz
-  Firsching settle both questions, the first for upper density (yes) and for
-  an existing limit (no), the second yes; accepted on the site's credit.
+  Firsching settle both questions, and the claim is accepted on the site's
+  credit. The first question is answered yes for upper density and no for an
+  existing limit, and the second is answered yes.
 authors:
 - Moritz Firsching
 status: accepted
@@ -268,18 +269,20 @@ Posted to the site's forum by Moritz Firsching on 16 April 2026:
 **Depends on.** Nothing in this wiki: the constructions and the
 upper-density argument are self-contained.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the
-problem solved and, in the problem page's commentary (page last edited
-2 May 2026), credits DeepMind with the basis answering the second question,
-with the set refuting the first question when density means an existing
-limit, and with the proof of the first question for upper density, pointing
-to the sketches in the comments; the proof-claim tab is empty.
-Not refereed: there is no journal or arXiv write-up of these proofs; the
-same basis question was independently answered in the
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
+solved. The problem page's commentary (page last edited 2 May 2026) credits
+DeepMind with the basis that answers the second question. It also credits
+DeepMind with the set that refutes the first question when density means an
+existing limit, and with the proof of the first question for upper density. It
+points to the sketches in the comments. The proof-claim tab is empty.
+
+Not refereed: there is no journal or arXiv write-up of these proofs. The same
+basis question was independently answered in the
 [[problems/additive_combinatorics/E0741/claims/2026_03_31_alexeev_putterman_sawhney_sellke_valiant|Alexeev–Putterman–Sawhney–Sellke–Valiant preprint]],
 and a later
 [[problems/additive_combinatorics/E0741/claims/2026_04_24_chojecki|note]]
-reproves all three statements. Not counted as formalized: this corpus has
-not built the three Lean proofs or audited their statements, and no outside
-reviewer has published an examination of their fidelity to the site's
-questions.
+reproves all three statements.
+
+Not counted as formalized: this corpus has not built the three Lean proofs or
+audited their statements. No outside reviewer has published an examination of
+their fidelity to the site's questions.

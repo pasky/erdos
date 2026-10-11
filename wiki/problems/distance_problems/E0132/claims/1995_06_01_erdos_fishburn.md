@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0132/claims/1995_06_01_erdos_fishburn
 title: Erdős and Fishburn's cases n = 5 and n = 6
 desc: |
-  Every five-point and every six-point planar set has two distinct distances
-  each occurring between at most n pairs: the cases n = 5 and n = 6 of the
-  first question, by Erdős and Fishburn's small-case classifications; refereed.
+  Erdős and Fishburn's small-case classifications show that every five-point and
+  every six-point planar set has two distinct distances each occurring between
+  at most $n$ pairs. These are the cases $n=5$ and $n=6$ of the first question,
+  and the paper is refereed.
 authors:
 - Paul Erdős
 - Peter C. Fishburn
@@ -54,10 +55,10 @@ $n\ge7$ and the second, asymptotic question are not touched.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper is the publisher's version of record in
-Discrete Applied Mathematics (the Crossref record dates the issue to June
-1995 without a day, so this page is named by the first day of that month).
-Not reviewed under the corpus's rule: the site's commentary credits [ErFi95]
-with the cases $n=5$ and $n=6$, but the site labels the problem OPEN, so that
-commentary is a credit on an open problem and not an acceptance that settles
-it. Clemen, Dumitrescu and Liu restate the two cases as known in their 2025
-paper. The proof was not independently reviewed by this corpus.
+Discrete Applied Mathematics. The Crossref record dates the issue to June 1995
+without a day, so this page is named by the first day of that month. Not
+reviewed under the corpus's rule: the site's commentary credits [ErFi95] with
+the cases $n=5$ and $n=6$, but the site labels the problem OPEN. That commentary
+is therefore a credit on an open problem, not an acceptance that settles it.
+Clemen, Dumitrescu and Liu restate the two cases as known in their 2025 paper.
+This corpus did not independently review the proof.

@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0109/claims/2018_03_01_moreira_richter_robertson
 title: Moreira, Richter and Robertson prove the sumset conjecture
 desc: |
-  Theorem 1.2 of Moreira, Richter and Robertson (Ann. of Math. 2019) gives, in
-  every set of natural numbers of positive upper density, a sumset B + C with
-  B and C infinite; credited by the site's curator and refereed.
+  Theorem 1.2 of Moreira, Richter and Robertson (Ann. of Math. 2019) shows that
+  every set of natural numbers of positive upper density contains a sumset $B+C$
+  with $B$ and $C$ infinite. The site's curator credits it, and it is refereed.
 authors:
 - Joel Moreira
 - Florian K. Richter
@@ -65,22 +65,25 @@ the proof is not checked in this corpus.
 
 **Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labels the
 problem proved, calls it the Erdős sumset conjecture and credits Moreira,
-Richter and Robertson [MRR19] on the problem page; the proof-claim tab was
-empty on 2026-10-07. Refereed publication: Ann. of Math. (2) 189 (2019),
-no. 2, 605--652, doi:10.4007/annals.2019.189.2.4, issued March 2019
-(Crossref record); the paper's acknowledgement thanks its
-anonymous referees. The arXiv record (arXiv:1803.00498, v1 posted 1 March
-2018, the date of this page; v6 of 13 June 2019) carries the journal
-reference; this page cites arXiv v6, not the journal version. The journal
-text predates a correction. arXiv v6 corrects the proof of Theorem 3.22, the
-splitting of a function into compact and weak-mixing parts, adds Example
-3.27, and thanks Bernard Host and Bryna Kra for finding the mistake. The
+Richter and Robertson [MRR19] on the problem page. The proof-claim tab was empty
+on 2026-10-07.
+
+Refereed publication: Ann. of Math. (2) 189 (2019), no. 2, 605--652,
+doi:10.4007/annals.2019.189.2.4, issued March 2019 according to the Crossref
+record. The paper's acknowledgement thanks its anonymous referees. The arXiv
+record (arXiv:1803.00498) carries the journal reference. Its v1 was posted on 1
+March 2018, the date of this page, and its v6 is dated 13 June 2019. This page
+cites arXiv v6, not the journal version.
+
+The journal text predates a correction. arXiv v6 corrects the proof of Theorem
+3.22, the splitting of a function into compact and weak-mixing parts, and adds
+Example 3.27. It thanks Bernard Host and Bryna Kra for finding the mistake. The
 corrected step extends the splitting from bounded functions to all of
 $L^2(\mathbb N,\Phi)$, whose functions need not be limits of bounded ones
-(Example 3.27). The proof of Theorem 1.2 applies Theorem 3.22 only to a
-bounded non-negative function, where the two versions argue alike, so the
-refereed proof of the result is unaffected. Host gave a short independent
-proof of the theorem by classical ergodic theory (arXiv:1904.09952, 2019).
+(Example 3.27). The proof of Theorem 1.2 applies Theorem 3.22 only to a bounded
+non-negative function, where the two versions argue alike. The refereed proof of
+the result is therefore unaffected. Host gave a short independent proof of the
+theorem by classical ergodic theory (arXiv:1904.09952, 2019).
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos109.lean` of
 Boris Alexeev's lean-proofs repository (Lean `v4.33.0`, Mathlib `v4.33.0`;

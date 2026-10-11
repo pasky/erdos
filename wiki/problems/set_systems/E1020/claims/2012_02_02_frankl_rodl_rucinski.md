@@ -2,9 +2,9 @@
 name: problems/set_systems/E1020/claims/2012_02_02_frankl_rodl_rucinski
 title: Frankl, Rödl and Ruciński's triple systems with n at least 4k
 desc: |
-  Frankl, Rödl and Ruciński (2012) prove the matching conjecture for
-  3-uniform hypergraphs whenever n is at least four times the forbidden
-  matching size, that is n at least 4k; refereed in Combin. Probab. Comput.
+  Frankl, Rödl and Ruciński (2012) prove the matching conjecture for $3$-uniform
+  hypergraphs whenever $n\ge4k$, four times the forbidden matching size. The
+  paper is refereed and appeared in Combin. Probab. Comput.
 authors:
 - Peter Frankl
 - Vojtech Rödl
@@ -50,9 +50,9 @@ and for every $n$ on
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: the paper appeared in Combinatorics, Probability
-and Computing 21 (2012), no. 1–2, 141–148, published online on 2012-02-02,
-the page's date. The site labels the problem FALSIFIABLE, an open label, so
-its commentary, which credits the range to the paper as [FRR12], is not
-acceptance and no `reviewed` is listed. Nothing here rests on this project's
+**Acceptance.** Refereed: the paper appeared in Combinatorics, Probability and
+Computing 21 (2012), no. 1–2, 141–148, published online on 2012-02-02, the
+page's date. The site's commentary credits the range to the paper as [FRR12].
+The site labels the problem FALSIFIABLE, an open label, so this commentary is
+not acceptance and no `reviewed` is listed. Nothing here rests on this project's
 own review.

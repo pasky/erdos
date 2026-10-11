@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0563
 title: Problem 563
 desc: |
-  Determines the least size m such that some two-coloring of the complete
-  graph on n vertices leaves every vertex set of size at least m rich in both
-  colors.
+  Asks for a proof that $F(n,\alpha)\sim c_\alpha\log n$ for each
+  $0\le\alpha<1/2$, where $F(n,\alpha)$ is the least $m$ such that some
+  two-coloring of $K_n$ gives every set $X$ of at least $m$ vertices more than
+  $\alpha\binom{|X|}{2}$ edges of each color; open.
 tags:
 - Graph theory
 - Ramsey theory
@@ -68,19 +69,19 @@ admissible thresholds form an up-set, "largest" gives no meaningful quantity, so
 this page follows the site's and Erdős's "smallest" and records the paper's
 wording as printed.
 
-**Status.** Open, the site's label; no claim about the problem exists. The
-only known results are the two-sided bound $c_\alpha'\log n<F(n,\alpha)<c_\alpha''\log n$ for
-$0\le\alpha<1/2$, asserted without proof by Erdős in 1990 ("The probability method easily
-gives", display (29)) and by Conlon, Fox and Sudakov in 2008 ("It is easy to
-show"), and quoted by the site's commentary as $F(n,\alpha)\asymp_\alpha\log n$.
-No source proving that $F(n,\alpha)/\log n$ converges, or determining
-$c_\alpha$ for any $\alpha$, was found in the search
-whose scope the Current assessment records. An observation made here: since
-$F(n,0)$ is the least $m$ with $R(m,m)>n$, the case $\alpha=0$ of the
-statement, $F(n,0)\sim c_0\log n$, holds exactly when
-$\log R(k,k)\sim k/c_0$, that is, when $\lim_{k\to\infty}R(k,k)^{1/k}$ exists
-(Problem 77), with $c_0$ the reciprocal of the logarithm of that limit; so the
-problem contains the existence half of Problem 77 as its $\alpha=0$ case.
+**Status.** Open, the site's label. No claim about the problem exists. The only
+known result is the two-sided bound
+$c_\alpha'\log n<F(n,\alpha)<c_\alpha''\log n$ for $0\le\alpha<1/2$. Erdős
+asserted it without proof in 1990 ("The probability method easily gives",
+display (29)), and so did Conlon, Fox and Sudakov in 2008 ("It is easy to
+show"). The site's commentary quotes it as $F(n,\alpha)\asymp_\alpha\log n$. The
+search whose scope the Current assessment records found no source proving that
+$F(n,\alpha)/\log n$ converges, or determining $c_\alpha$ for any $\alpha$. An
+observation made here: $F(n,0)$ is the least $m$ with $R(m,m)>n$. So the case
+$\alpha=0$ of the statement, $F(n,0)\sim c_0\log n$, holds exactly when
+$\log R(k,k)\sim k/c_0$. That is, it holds when $\lim_{k\to\infty}R(k,k)^{1/k}$
+exists (Problem 77), with $c_0$ the reciprocal of the logarithm of that limit.
+So the problem contains the existence half of Problem 77 as its $\alpha=0$ case.
 This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/563](https://www.erdosproblems.com/563),

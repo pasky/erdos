@@ -2,9 +2,9 @@
 name: problems/number_theory/E0972
 title: Problem 972
 desc: |
-  Asks whether, for irrational alpha > 1, infinitely many primes p have the
-  integer part of p alpha prime; open, the one-prime statement classical and
-  the two-prime statement known only for almost all alpha.
+  Asks whether, for irrational $\alpha>1$, infinitely many primes $p$ have
+  $\lfloor p\alpha\rfloor$ prime; open. The one-prime statement is classical,
+  and the two-prime statement is known only for almost all $\alpha$.
 tags:
 - Number theory
 status: open
@@ -37,14 +37,14 @@ primes up to $x$ is of order $x/(\log x)^2$, as for twin primes (the
 thread), a heuristic and not a result.
 
 **Status.** Open. No proof, disproof, preprint or proof claim for the exact
-statement was found in the search whose scope the
-Current assessment records. The one-prime statement is classical and, for
-$\alpha$ of finite type, quantitative (Banks and Shparlinski's Theorem
-5.4); the two-prime statement is known for almost all $\alpha$ in the sense
-of Lebesgue measure (Li and Pan, 2009, second-hand from the arXiv abstract),
-which leaves every individual $\alpha$, hence the question, open; the
-thread's judgment puts it at the difficulty of the twin prime conjecture.
-This is a bounded negative finding, not a certificate of openness.
+statement was found in the search whose scope the Current assessment records.
+This is a bounded negative finding, not a certificate of openness. The one-prime
+statement is classical and, for $\alpha$ of finite type, quantitative (Banks and
+Shparlinski's Theorem 5.4). The two-prime statement is known for almost all
+$\alpha$ in the sense of Lebesgue measure (Li and Pan, 2009, second-hand from
+the arXiv abstract). That leaves every individual $\alpha$ open, and hence the
+question. The thread's judgment puts it at the difficulty of the twin prime
+conjecture.
 
 **Source.** [erdosproblems.com/972](https://www.erdosproblems.com/972),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that no

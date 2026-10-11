@@ -2,8 +2,10 @@
 name: problems/set_systems/E0701
 title: Problem 701
 desc: |
-  Asks whether a family of sets closed under subsets always has an element
-  contained in as many members as the largest intersecting subfamily has sets.
+  Asks whether a family of sets closed under taking subsets always has an
+  element contained in as many members as its largest intersecting subfamily has
+  sets. The site lists it as open, and three proofs were claimed in
+  September 2026.
 tags:
 - Combinatorics
 - Intersecting families
@@ -75,17 +77,18 @@ of the site's wording with infinite ground sets is a variant, and it is
 false, as the Notes record.
 
 **Status.** The site labels the problem OPEN (discussion and proof-claims
-threads accessed 2026-10-07), a label that describes the corrected
-Statement. The frontmatter's standing follows from three pending full claims
-of September 2026, all proving the corrected Statement:
+threads accessed 2026-10-07). This label describes the corrected Statement. The
+frontmatter's standing follows from three pending full claims of September 2026,
+all proving the corrected Statement:
 [[problems/set_systems/E0701/claims/2026_09_16_chang_liu_liu|Chang, Liu and Liu]],
 [[problems/set_systems/E0701/claims/2026_09_20_keevash|Keevash]] and
 [[problems/set_systems/E0701/claims/2026_09_23_ellis_filmus_friedgut|Ellis, Filmus and Friedgut]].
-None is refereed or reviewed by a named outside party, and the site's single
-proof-claims entry, posted on 30 September 2026 by a forum user for the first
-preprint and naming the other two, has no comments. The curator's remarks
-credit partial results of Chvátal [Ch74], Sterboul [St74], Frankl and
-Kupavskii [FrKu23] and Borg [Bo11], described under Current assessment.
+None is refereed or reviewed by a named outside party. The site has a single
+proof-claims entry, posted on 30 September 2026 by a forum user. It is for the
+first preprint and names the other two. It has no comments. The curator's
+remarks credit partial results of Chvátal [Ch74], Sterboul [St74], Frankl and
+Kupavskii [FrKu23] and Borg [Bo11], which are described under Current
+assessment.
 
 **Source.** [erdosproblems.com/701](https://www.erdosproblems.com/701), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #701,

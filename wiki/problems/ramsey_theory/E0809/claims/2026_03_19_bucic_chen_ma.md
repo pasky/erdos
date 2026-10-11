@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0809/claims/2026_03_19_bucic_chen_ma
 title: Bucić, Chen and Ma settle the odd cycles of length at least nine
 desc: |
-  Theorem 1.2 of the 2026 preprint gives the asymptotic maximal anti-Ramsey
-  function of C_{2k+1} for every k at least 4, one edge past the Turán number
-  n squared over eight; unrefereed, formalized in the k at least 4 branch of L17.
+  Theorem 1.2 of the 2026 preprint of Bucić, Chen and Ma shows that, one edge
+  past the Turán number, the maximal anti-Ramsey function of $C_{2k+1}$ is
+  asymptotically $n^2/8$ for every $k\ge4$. It is unrefereed and formalized in
+  the $k\ge4$ branch of L17.
 authors:
 - Matija Bucic
 - Kaizhe Chen
@@ -66,32 +67,35 @@ evidence is the $k\ge4$ branch of
 [[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_index|L17]].
 
 **Acceptance.** Formalized: the $k\ge4$ branch of the project's claim
-[[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_index|L17]]
-(`Erdos.Library.Problem809.BucicChenMa`, a Lean reconstruction of the paper's
-argument, linked above) is Lean this corpus built and audited. It is
-kernel-checked on `propext`, `Classical.choice` and `Quot.sound` only, and L17's
-audited statement contains every $k\ge4$ instance this page covers. The same
-development proves the full-range formula, but only its consequence at
-$e=\lfloor n^2/4\rfloor+1$ lies inside the audited statement. The site's curator
-credits the paper in the problem's commentary, updated after a thread comment of
-20 March 2026 (read 2026-09-18; unchanged as of 2026-10-07). The site labels the
-problem OPEN, so that credit is not acceptance. The site's proof-claim tab did
-not carry the paper on 2026-10-05. The paper is an arXiv preprint with one
-version (19 March 2026) and no journal record found on 2026-09-18, so no
-refereeing is listed. This corpus checked the definition, the statement, display
-(1) and the Section 2 sketch clause by clause and did not read the proof. Two
-Lean developments declare a formalization of the theorem and are linked above as
-such: the $k\ge4$ branch of L17, which also gives
+[[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_index|L17]] is Lean that
+this corpus built and audited. That branch is
+`Erdos.Library.Problem809.BucicChenMa`, a Lean reconstruction of the paper's
+argument, linked above. It is kernel-checked on `propext`, `Classical.choice`
+and `Quot.sound` only. L17's audited statement contains every $k\ge4$ instance
+this page covers. The same development proves the full-range formula, but only
+its consequence at $e=\lfloor n^2/4\rfloor+1$ lies inside the audited statement.
+
+The site's curator credits the paper in the problem's commentary, which was
+updated after a thread comment of 20 March 2026 (read 2026-09-18 and unchanged
+as of 2026-10-07). The site labels the problem OPEN, so that credit is not
+acceptance. The site's proof-claim tab did not carry the paper on 2026-10-05.
+The paper is an arXiv preprint with one version (19 March 2026). No journal
+record was found on 2026-09-18, so no refereeing is listed. This corpus checked
+the definition, the statement, display (1) and the Section 2 sketch clause by
+clause, and did not read the proof.
+
+Two Lean developments declare a formalization of the theorem and are linked
+above as such. The first is the $k\ge4$ branch of L17, which also gives
 [[problems/ramsey_theory/E0809/claims/2026_09_27_plasma_ai|the project's own claim page]]
-its `formalized` evidence, and the development of
+its `formalized` evidence. The second is the development of
 [[problems/ramsey_theory/E0809/claims/2026_09_27_shahab|Shahab]], which
 formalizes the paper's argument beside its own seven-cycle proof. This corpus
 built that development at its pinned commit and audited its headline statement,
-as Shahab's claim page records: its theorem
+as Shahab's claim page records. Its theorem
 `Erdos809.erdos_809_long_odd_cycles`, which the audited headline
 `Erdos809.erdos_809` applies for every $k\ge4$, proves the instances this page
 covers at $e=\lfloor n^2/4\rfloor+1$, on `propext`, `Classical.choice` and
-`Quot.sound` only, and only that threshold case lies inside the audited
-statement. A Lean proof built and audited here that checks the statement is
-`formalized` evidence, so the development gives this page that evidence a second
-time, independently of L17.
+`Quot.sound` only. Only that threshold case lies inside the audited statement. A
+Lean proof built and audited here that checks the statement is `formalized`
+evidence. So Shahab's development gives this page that evidence a second time,
+independently of L17.

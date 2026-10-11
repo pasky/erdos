@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0536/claims/1966_11_17_abbott_gardner
 title: Abbott and Gardner's lower bound N log log N over log N
 desc: |
-  Abbott and Gardner's 1967 bound (Canadian Mathematical Bulletin) that some
-  (1 - eps) N log log N / log N integers up to N have no three with equal
-  pairwise least common multiples; refereed.
+  Abbott and Gardner's refereed 1967 bound (Canadian Mathematical Bulletin)
+  shows that some $(1-\varepsilon)N\log\log N/\log N$ integers up to $N$ contain
+  no three with equal pairwise least common multiples.
 authors:
 - H. L. Abbott
 - B. Gardner
@@ -42,8 +42,9 @@ The page is named by the date the paper was received.
 **Covers.** The lower bound only; neither $f(N)=o(N)$ nor the order of
 $f(N)$ is settled.
 
-**Acceptance.** Refereed: the journal publication. The site's commentary
-credits the bound on a problem it labels OPEN, which is not acceptance.
+**Acceptance.** Refereed: the journal publication. The site's commentary credits
+the bound, but the site labels the problem OPEN, so the credit is not
+acceptance.
 
 **Depends on.** Nothing in this wiki: the bound and its proof are contained in
 the cited paper, whose card is linked above.

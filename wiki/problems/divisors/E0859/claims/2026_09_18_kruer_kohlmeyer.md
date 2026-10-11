@@ -2,9 +2,10 @@
 name: problems/divisors/E0859/claims/2026_09_18_kruer_kohlmeyer
 title: Kruer and Kohlmeyer's Lean disproof of the density asymptotic
 desc: |
-  A kernel-checked Lean proof, certified by the bounty site Conjectures.io, that
-  the density of integers whose distinct divisors can sum to t exists for every
-  t but is asymptotic to no constant times a power of log t.
+  Kruer and Kohlmeyer give a kernel-checked Lean proof, certified by the bounty
+  site Conjectures.io, that the density of integers whose distinct divisors can
+  sum to $t$ exists for every $t$ but is asymptotic to no constant times a power
+  of $\log t$.
 authors:
 - Liam Kruer
 - Jensen Kohlmeyer
@@ -92,32 +93,37 @@ declares no AI system, and the site's forum entry gives the system as
 unknown, so which AI system, if any, generated the proof is not disclosed.
 
 **Acceptance.** The `reviewed` evidence is the certification by the bounty site
-Conjectures.io: its Lean kernel verified the proof under
-Lean 4.33.1 with the axioms `propext`, `Quot.sound` and `Classical.choice`
-permitted, its review approved the record on 21 September 2026 under its policy
-v3, and the record was certified on 23 September 2026 and shows the bounty as
-paid. The review decision says the submission "refutes the proposed
-positive-constant logarithmic power asymptotic for the natural density of
-integers whose distinct divisors can sum to a prescribed target", that two agent
-assessments of the Codex/GPT-6 family using shared evidence and selected source
-checks supported approval and a human reviewer authorized the decision, and that
-the approval is "not an exhaustive novelty certification or fresh independent
-kernel replay"; its verification report records a static scan with "no imports,
-no axiom declarations, no sorry, no native_decide, no unsafe options",
-"Statement unchanged", "Lean kernel accepted", and a second kernel "Not run", so
-"The verdict rests on a single kernel implementation". Beyond the bounty site
-there is no acceptance: no refereed publication, and erdosproblems.com lists the
-problem as open. The curator, Thomas Bloom, posted a proof-claim entry on the
-problem's forum on 27 September 2026 (fourth link) to make the Conjectures.io
-claim known. The entry lists the claimant as conjectures.io with the system
-given as unknown. In it the curator says they had not verified the proof or
-looked into it, that the entry is no endorsement of the Conjectures.io program,
-which in their view uses the problems for its own ends without explaining its
-proofs or engaging with the mathematical community, and that the program is not
-transparent about who runs the problems through an AI system, for how long, or
-with which one. The entry's summary states the opposite direction (that the
-constants exist) and its link points at an earlier, different Lean contribution
-of 1 September 2026 that proves only that each `DivisorSumSet t` has positive
-density, a theorem of Erdős [Er70], so neither its summary nor its link
-describes this result. This corpus has not built the proof, so no `formalized`
-evidence is listed; what it checked is on the problem page.
+Conjectures.io. Its Lean kernel verified the proof under Lean 4.33.1 with the
+axioms `propext`, `Quot.sound` and `Classical.choice` permitted. Its review
+approved the record on 21 September 2026 under its policy v3. The record was
+certified on 23 September 2026 and shows the bounty as paid.
+
+The review decision says the submission "refutes the proposed positive-constant
+logarithmic power asymptotic for the natural density of integers whose distinct
+divisors can sum to a prescribed target". It says that two agent assessments of
+the Codex/GPT-6 family, using shared evidence and selected source checks,
+supported approval, and that a human reviewer authorized the decision. It also
+says the approval is "not an exhaustive novelty certification or fresh
+independent kernel replay". Its verification report records a static scan with
+"no imports, no axiom declarations, no sorry, no native_decide, no unsafe
+options", together with "Statement unchanged" and "Lean kernel accepted". The
+report gives a second kernel as "Not run", so "The verdict rests on a single
+kernel implementation".
+
+Beyond the bounty site there is no acceptance. There is no refereed publication,
+and erdosproblems.com lists the problem as open. The curator, Thomas Bloom,
+posted a proof-claim entry on the problem's forum on 27 September 2026 (fourth
+link) to make the Conjectures.io claim known. The entry lists the claimant as
+conjectures.io and gives the system as unknown. In it the curator says they had
+not verified the proof or looked into it. They say the entry is no endorsement
+of the Conjectures.io program, which in their view uses the problems for its own
+ends without explaining its proofs or engaging with the mathematical community.
+They also say the program is not transparent about who runs the problems through
+an AI system, for how long, or with which one. The entry's summary states the
+opposite direction (that the constants exist). Its link points at an earlier,
+different Lean contribution of 1 September 2026, which proves only that each
+`DivisorSumSet t` has positive density, a theorem of Erdős [Er70]. So neither
+the entry's summary nor its link describes this result.
+
+This corpus has not built the proof, so no `formalized` evidence is listed. What
+it checked is on the problem page.

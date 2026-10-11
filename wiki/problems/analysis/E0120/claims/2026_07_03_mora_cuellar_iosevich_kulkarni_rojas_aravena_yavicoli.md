@@ -2,9 +2,10 @@
 name: problems/analysis/E0120/claims/2026_07_03_mora_cuellar_iosevich_kulkarni_rojas_aravena_yavicoli
 title: Sums and differences of a geometric sequence and an infinite set
 desc: |
-  An arXiv preprint asserting that the sum or difference of a geometric
-  sequence, or of any set containing a lacunary sequence of at most
-  exponential decay, and an arbitrary infinite set is never measure universal.
+  An arXiv preprint of Mora Cuellar, Iosevich, Kulkarni, Rojas Aravena and
+  Yavicoli asserts that $G+A$ and $G-A$ are never measure universal when $A$ is
+  an arbitrary infinite set and $G$ is a geometric sequence, or any set
+  containing a lacunary sequence of at most exponential decay.
 authors:
 - N. Mora Cuellar
 - A. Iosevich

@@ -7,7 +7,7 @@ desc: |
   powerful and squarefree numbers, sums of k-th powers, products of
   consecutive integers, and base and digit representations.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T22:12:53Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # Diophantine Problems and Powers
@@ -15,264 +15,278 @@ updated: 2026-10-07T22:12:53Z
 [[problems/_index|..]]
 
 [[problems/diophantine_problems/E0123/_index|E0123/]]: Asks whether, for
-pairwise coprime a, b, c above one, every large integer is a sum of distinct
-products of powers of a, b and c, none dividing another. Erdős also suggested
-the weaker hypothesis that a, b and c have no common factor, under which the
-answer is no, as 6, 10 and 15 show.
+pairwise coprime $a,b,c>1$, every large integer is a sum of distinct numbers
+$a^kb^lc^m$, none dividing another; proved. Erdős also suggested the weaker
+hypothesis that $a,b,c$ have no common factor, under which the answer is no, as
+$6$, $10$ and $15$ show.
 
-[[problems/diophantine_problems/E0124/_index|E0124/]]: Asks whether all large
-integers are sums of one number from each of several sets of sums of distinct
-powers of given bases satisfying a density condition.
+[[problems/diophantine_problems/E0124/_index|E0124/]]: Asks whether, for
+integers $3\le d_1<\cdots<d_r$ with $\sum_i 1/(d_i-1)\ge1$, every large integer
+is a sum of one number from each $P(d_i,0)$, the set of sums of distinct powers
+of $d_i$; open.
 
-[[problems/diophantine_problems/E0125/_index|E0125/]]: Asks whether the sumset
-of integers using only digits zero and one in base three and those using only
-those digits in base four has positive lower density.
+[[problems/diophantine_problems/E0125/_index|E0125/]]: Asks whether $A+B$ has
+positive lower density, where $A$ and $B$ are the integers whose only digits are
+$0$ and $1$ in base $3$ and in base $4$. The answer is no.
 
 [[problems/diophantine_problems/E0137/_index|E0137/]]: Asks whether the product
-of k consecutive positive integers, for some k at least three, can ever be
-powerful, meaning every prime dividing it divides it twice.
+of $k\ge3$ consecutive positive integers can ever be powerful, meaning that
+$p^2$ divides it whenever a prime $p$ does; open.
 
 [[problems/diophantine_problems/E0246/_index|E0246/]]: Asks whether, for coprime
-a and b, every large integer is a sum of distinct numbers of the form a to the k
-times b to the l.
+$a,b\ge2$, every large integer is a sum of distinct numbers $a^kb^l$ with
+$k,l\ge0$. The answer is yes.
 
-[[problems/diophantine_problems/E0261/_index|E0261/]]: Asks for which n the
-value n over two to the n is a sum of distinct terms k over two to the k, and
-whether some rational has uncountably many such sums.
+[[problems/diophantine_problems/E0261/_index|E0261/]]: Asks for which $n$ the
+number $n/2^n$ is a sum of distinct terms $k/2^k$, and whether some rational has
+uncountably many such sums; open.
 
-[[problems/diophantine_problems/E0322/_index|E0322/]]: Estimates the number of
-ways an integer is a sum of k many kth powers, and asks whether it exceeds n to
-a fixed positive power infinitely often.
+[[problems/diophantine_problems/E0322/_index|E0322/]]: Asks for the order of
+growth of the number of ways to write $n$ as a sum of $k$ many $k$th powers, and
+whether it exceeds $n^c$ for some fixed $c>0$ and infinitely many $n$; open.
 
-[[problems/diophantine_problems/E0323/_index|E0323/]]: Asks whether the integers
-up to x that are sums of k kth powers number at least x to the power 1 minus
-epsilon, and whether sums of m such powers, m below k, number at least a
-constant times x to the m over k.
+[[problems/diophantine_problems/E0323/_index|E0323/]]: Asks whether
+$f_{k,k}(x)\gg_\epsilon x^{1-\epsilon}$ and, for $m<k$, whether $f_{k,m}(x)\gg
+x^{m/k}$, where $f_{k,m}(x)$ counts the integers up to $x$ that are sums of $m$
+nonnegative $k$th powers; open.
 
 [[problems/diophantine_problems/E0324/_index|E0324/]]: Asks whether some
-polynomial with integer coefficients has all sums of two of its values at
-distinct nonnegative integers distinct.
+polynomial $f\in\mathbb{Z}[x]$ makes all the sums $f(a)+f(b)$, with $a<b$
+nonnegative integers, distinct; open.
 
-[[problems/diophantine_problems/E0325/_index|E0325/]]: Asks whether the number
-of integers up to x that are sums of three nonnegative kth powers is at least a
-constant times x to the power three over k.
+[[problems/diophantine_problems/E0325/_index|E0325/]]: Asks whether, for
+$k\ge3$, the number of integers up to $x$ that are sums of three nonnegative
+$k$th powers is at least a constant times $x^{3/k}$; open.
 
 [[problems/diophantine_problems/E0363/_index|E0363/]]: Asks whether only
-finitely many families of disjoint integer intervals, each of length at least
-four, have the product of all their members equal to a square.
+finitely many collections of disjoint integer intervals, each containing at
+least four integers, have the product of all their members equal to a square;
+disproved.
 
 [[problems/diophantine_problems/E0364/_index|E0364/]]: Asks whether three
-consecutive positive integers can all be powerful, meaning every prime dividing
-such a number divides it at least twice.
+consecutive positive integers can all be powerful, meaning that every prime
+dividing such a number divides it at least twice; open.
 
-[[problems/diophantine_problems/E0365/_index|E0365/]]: Asks whether one of any
-two consecutive powerful numbers must be a square, and whether such pairs up to
-x number at most a power of the logarithm of x.
+[[problems/diophantine_problems/E0365/_index|E0365/]]: Asks whether one of $n$
+and $n+1$ must be a square when both are powerful, and whether the number of
+such $n\le x$ is at most $(\log x)^{O(1)}$. The first answer is no, and the
+second question is open.
 
 [[problems/diophantine_problems/E0366/_index|E0366/]]: Asks whether some integer
 divisible by the square of each of its prime factors is followed by one
-divisible by the cube of each; Erdős and Graham's companion question, with the
-cube first, is answered by 12167, 12168.
+divisible by the cube of each of its prime factors; open. Erdős and Graham's
+companion question, with the cube first, is answered by 12167, 12168.
 
-[[problems/diophantine_problems/E0374/_index|E0374/]]: Determines how many
-integers up to n need exactly k factorials, with the largest being that
-integer's, to form a square product, for k from three to six.
+[[problems/diophantine_problems/E0374/_index|E0374/]]: Asks for the order of
+growth, for $3\le k\le6$, of the number of $m\le n$ that need exactly $k$
+distinct factorials, the largest being $m!$, to form a square product. Two
+pending claims answer it.
 
 [[problems/diophantine_problems/E0388/_index|E0388/]]: Asks whether two disjoint
 blocks of more than three consecutive integers can have equal products only
-finitely often, and whether such cases can be classified.
+finitely often, and whether all such cases can be classified; open.
 
 [[problems/diophantine_problems/E0389/_index|E0389/]]: Asks whether every
-positive integer n admits some k for which the product of the first k integers
-from n divides the product of the next k.
+$n\ge1$ has some $k$ for which $n(n+1)\cdots(n+k-1)$ divides
+$(n+k)\cdots(n+2k-1)$; open.
 
-[[problems/diophantine_problems/E0394/_index|E0394/]]: Bounds the average least
-starting point m for which n divides a product of k consecutive integers from m,
-and asks whether these averages shrink as k grows.
+[[problems/diophantine_problems/E0394/_index|E0394/]]: With $t_k(n)$ the least
+$m$ such that $n\mid m(m+1)\cdots(m+k-1)$, asks whether $\sum_{n\le x}t_2(n)\ll
+x^2/(\log x)^c$ for some $c>0$, and whether $\sum_{n\le
+x}t_{k+1}(n)=o\bigl(\sum_{n\le x}t_k(n)\bigr)$ for $k\ge2$. A pending claim
+answers yes to both.
 
 [[problems/diophantine_problems/E0406/_index|E0406/]]: Asks whether only
-finitely many powers of two are written with just the digits zero and one in
-base three.
+finitely many powers of $2$ use only the digits $0$ and $1$ in base $3$; open.
 
 [[problems/diophantine_problems/E0407/_index|E0407/]]: Asks whether the number
-of ways to write an integer as a power of two plus a power of three plus a
-product of a power of two and a power of three is bounded.
+of solutions of $n=2^a+3^b+2^c3^d$ in nonnegative integers $a,b,c,d$ is bounded
+by an absolute constant; proved.
 
 [[problems/diophantine_problems/E0433/_index|E0433/]]: Asks whether the largest
-non-representable integer for the worst coprime k-element subset of the first n
-integers is asymptotically n squared over k minus one.
+integer that some $k$-element set $A\subseteq\{1,\ldots,n\}$ with $\gcd(A)=1$
+cannot write as a sum of its elements, repetition allowed, is asymptotically
+$n^2/(k-1)$; proved.
 
-[[problems/diophantine_problems/E0434/_index|E0434/]]: Determines which coprime
-k-element subset of the first n integers leaves the most integers
-unrepresentable as sums of its members, and whether it is the top k.
+[[problems/diophantine_problems/E0434/_index|E0434/]]: Asks which $k$-element
+set $A\subseteq\{1,\ldots,n\}$ with $\gcd(A)=1$ leaves the most integers that
+are not sums of its elements, repetition allowed, and whether it is
+$\{n,n-1,\ldots,n-k+1\}$; proved.
 
-[[problems/diophantine_problems/E0435/_index|E0435/]]: The largest integer not
-expressible as a nonnegative integer combination of the binomial coefficients
-C(n,1), ..., C(n,n-1), for n not a prime power.
+[[problems/diophantine_problems/E0435/_index|E0435/]]: Asks for the largest
+integer that is not a nonnegative integer combination of
+$\binom{n}{1},\ldots,\binom{n}{n-1}$, for $n$ not a prime power; solved.
 
-[[problems/diophantine_problems/E0437/_index|E0437/]]: Estimates how many of the
-partial products of an increasing sequence bounded by x can be perfect squares,
-and whether nearly x of them can be.
+[[problems/diophantine_problems/E0437/_index|E0437/]]: Asks how many of the
+partial products $a_1,a_1a_2,\ldots,a_1\cdots a_k$ of integers $1\le
+a_1<\cdots<a_k\le x$ can be squares, and whether more than $x^{1-\epsilon}$ can
+be for every $\epsilon>0$; proved.
 
-[[problems/diophantine_problems/E0443/_index|E0443/]]: How many values are
-shared by the two sets of products k times m minus k and l times n minus l for m
-different from n, and whether this count can be large or must be very small.
+[[problems/diophantine_problems/E0443/_index|E0443/]]: Asks for the size of
+$\{k(m-k):1\le k\le m/2\}\cap\{l(n-l):1\le l\le n/2\}$ when $m\neq n$, whether
+it can be arbitrarily large, and whether it is at most $(mn)^{o(1)}$ for large
+$m,n$; proved.
 
-[[problems/diophantine_problems/E0445/_index|E0445/]]: Asks whether, for any
-exponent above one half and any large prime, every interval of that length
-contains two numbers whose product is one modulo the prime.
+[[problems/diophantine_problems/E0445/_index|E0445/]]: Asks whether, for every
+$c>1/2$ and every large enough prime $p$, each interval $(n,n+p^c)$ contains
+$a,b$ with $ab\equiv1\pmod p$; open.
 
-[[problems/diophantine_problems/E0477/_index|E0477/]]: Asks whether the image of
-an integer polynomial of degree at least two admits a unique additive complement
-in the integers.
+[[problems/diophantine_problems/E0477/_index|E0477/]]: Asks whether there are a
+polynomial $f:\mathbb{Z}\to\mathbb{Z}$ of degree at least $2$ and a set
+$A\subset\mathbb{Z}$ such that every integer is $a+b$ in exactly one way, with
+$a\in A$ and $b$ a value of $f$; proved.
 
-[[problems/diophantine_problems/E0479/_index|E0479/]]: Asks whether, for every k
-other than one, there are infinitely many n with two to the n congruent to k
-modulo n.
+[[problems/diophantine_problems/E0479/_index|E0479/]]: Asks whether, for every
+$k\neq1$, there are infinitely many $n$ with $2^n\equiv k\pmod n$; open.
 
-[[problems/diophantine_problems/E0493/_index|E0493/]]: Asks whether there is a
-fixed k such that every large enough integer is the product of k integers at
-least two minus their sum.
+[[problems/diophantine_problems/E0493/_index|E0493/]]: Asks whether some $k$
+makes every large enough integer of the form $\prod_{i=1}^k a_i-\sum_{i=1}^k
+a_i$ with all $a_i\ge2$; proved.
 
-[[problems/diophantine_problems/E0672/_index|E0672/]]: Asks whether a product of
-at least four positive terms in a primitive arithmetic progression, with gcd of
-initial term and difference one, can be a perfect power.
+[[problems/diophantine_problems/E0672/_index|E0672/]]: Asks whether the product
+$n(n+d)\cdots(n+(k-1)d)$ of $k\ge4$ positive terms of an arithmetic progression
+with $(n,d)=1$ can be a perfect power; open.
 
-[[problems/diophantine_problems/E0674/_index|E0674/]]: Asks whether x to the
-power x times y to the power y equals z to the power z has integer solutions
-with x, y and z all greater than one.
+[[problems/diophantine_problems/E0674/_index|E0674/]]: Asks whether $x^xy^y=z^z$
+has integer solutions with $x,y,z>1$; proved.
 
 [[problems/diophantine_problems/E0676/_index|E0676/]]: Asks whether every
-sufficiently large integer has the form a times a prime squared plus b, with a
-at least one and b less than that prime.
+sufficiently large integer has the form $ap^2+b$ with $p$ prime, $a\ge1$ and
+$0\le b<p$; open.
 
 [[problems/diophantine_problems/E0686/_index|E0686/]]: Asks whether every
-integer at least 2 is a ratio of two products of k consecutive integers, for
-some k at least 2 with the blocks disjoint.
+integer $N\ge2$ is a ratio $\prod_{i=1}^k(m+i)/\prod_{i=1}^k(n+i)$ of products
+of $k$ consecutive integers, for some $k\ge2$ and $m\ge n+k$; open.
 
 [[problems/diophantine_problems/E0782/_index|E0782/]]: Asks whether the squares
-contain arbitrarily long progressions with bounded gap error, and arbitrarily
-large sets of all zero-one sums of given numbers.
+contain arbitrarily long quasi-progressions, with all gaps between $d$ and $d+C$
+for a fixed $C$, and arbitrarily large cubes
+$a+\{\sum_i\epsilon_ib_i:\epsilon_i\in\{0,1\}\}$; open.
 
 [[problems/diophantine_problems/E0829/_index|E0829/]]: Asks whether the number
-of ways to write n as a sum of two cubes is at most a power of the logarithm of
-n.
+of ways to write $n$ as a sum of two cubes is at most $(\log n)^{O(1)}$; open.
 
-[[problems/diophantine_problems/E0841/_index|E0841/]]: Estimates the least
-length of a run of integers just above n that contains a subset whose product
-with n is a perfect square; Erdős's original question, whether the n with t_n at
-least n^{1-o(1)} have density zero, has the answer yes.
+[[problems/diophantine_problems/E0841/_index|E0841/]]: Asks for estimates of the
+least $t_n$ such that $\{n+1,\ldots,n+t_n\}$ contains a subset whose product
+with $n$ is a square; solved. Erdős's original question, whether the $n$ with
+$t_n\ge n^{1-o(1)}$ have density zero, has the answer yes.
 
 [[problems/diophantine_problems/E0843/_index|E0843/]]: Asks whether the squares
-are Ramsey 2-complete, so that any 2-coloring of them leaves all large integers
-as sums of distinct same-colored squares.
+are Ramsey $2$-complete, meaning that in every $2$-coloring of the squares each
+large enough integer is a sum of distinct squares of one color; proved.
 
 [[problems/diophantine_problems/E0845/_index|E0845/]]: Asks whether, for each
-constant C, the sums of distinct products of powers of two and three lying
-within a factor C of each other have density zero.
+$C>0$, the integers $b_1+\cdots+b_t$ with $b_1<\cdots<b_t\le Cb_1$ and each
+$b_i$ of the form $2^k3^l$ have density $0$; disproved.
 
-[[problems/diophantine_problems/E0913/_index|E0913/]]: Asks whether infinitely
-many n have all exponents distinct in the prime factorization of n times n plus
-one.
+[[problems/diophantine_problems/E0913/_index|E0913/]]: Asks whether there are
+infinitely many $n$ such that the prime factorization of $n(n+1)$ has all
+exponents distinct; open.
 
 [[problems/diophantine_problems/E0930/_index|E0930/]]: Asks whether, for every
-r, some k makes the product of all integers in any r disjoint intervals of
-length at least k never a perfect power.
+$r$, there is a $k$ such that the product of all integers in any $r$ disjoint
+intervals of consecutive integers, each of length at least $k$, is never a
+perfect power; open.
 
-[[problems/diophantine_problems/E0931/_index|E0931/]]: Asks whether only
-finitely many disjoint blocks of consecutive integers, of lengths k1 and k2 at
-least 3, have products with the same prime factors.
+[[problems/diophantine_problems/E0931/_index|E0931/]]: Asks whether, for
+$k_1\geq k_2\geq 3$, only finitely many disjoint blocks of $k_1$ and $k_2$
+consecutive integers have products with the same prime factors; open.
 
 [[problems/diophantine_problems/E0933/_index|E0933/]]: Asks whether the largest
-divisor of n times n plus 1 built only from the primes 2 and 3 exceeds any fixed
-multiple of n log n for suitable n.
+divisor of $n(n+1)$ built only from the primes 2 and 3 exceeds every fixed
+multiple of $n\log n$ for suitable $n$; open.
 
 [[problems/diophantine_problems/E0935/_index|E0935/]]: Asks whether the powerful
-part of n(n+1)...(n+l) is below n^(2+eps) for every eps once n is large, whether
-its ratio to n squared is unbounded when l is at least 2, and whether its ratio
-to n^(l+1) tends to zero.
+part of $n(n+1)\cdots(n+\ell)$ is below $n^{2+\epsilon}$ for every $\epsilon>0$
+once $n$ is large and, for $\ell\geq 2$, whether its ratio to $n^2$ is unbounded
+and whether its ratio to $n^{\ell+1}$ tends to zero; open.
 
-[[problems/diophantine_problems/E0936/_index|E0936/]]: Asks whether 2 to the n
-plus or minus 1 and n factorial plus or minus 1 are powerful numbers for only
-finitely many n.
+[[problems/diophantine_problems/E0936/_index|E0936/]]: Asks whether $2^n\pm 1$
+and $n!\pm 1$ are powerful numbers for only finitely many $n$; open.
 
 [[problems/diophantine_problems/E0937/_index|E0937/]]: Asks whether there are
-infinitely many four-term arithmetic progressions made of pairwise coprime
-powerful numbers.
+infinitely many four-term arithmetic progressions of pairwise coprime powerful
+numbers; proved.
 
-[[problems/diophantine_problems/E0938/_index|E0938/]]: Concerns the increasing
-sequence of powerful numbers, those integers divisible by the square of every
-prime dividing them, and the gaps between them.
+[[problems/diophantine_problems/E0938/_index|E0938/]]: Asks whether only
+finitely many runs of three consecutive powerful numbers (integers divisible by
+the square of each of their prime factors) are equally spaced; open.
 
-[[problems/diophantine_problems/E0939/_index|E0939/]]: Concerns sums of coprime
-r-powerful numbers; the 3-powerful triple question is answered yes (Nitaj 1995),
-infinitely many solutions exist for every r at least 6, and r = 4 is open.
+[[problems/diophantine_problems/E0939/_index|E0939/]]: Asks whether, for $r\geq
+4$, a sum of $r-2$ coprime $r$-powerful numbers can be $r$-powerful and if so
+only finitely often, and whether $a+b=c$ has infinitely many coprime 3-powerful
+solutions. The last is answered yes (Nitaj 1995), every $r\geq 6$ has infinitely
+many solutions, and $r=4$ is open.
 
-[[problems/diophantine_problems/E0940/_index|E0940/]]: Concerns r-powerful
-numbers for r at least 3, the integers divisible by the r-th power of each of
-their prime factors.
+[[problems/diophantine_problems/E0940/_index|E0940/]]: Asks, for $r\geq 3$,
+whether infinitely many integers are not a sum of at most $r$ numbers divisible
+by the $r$th power of each of their prime factors, and whether the integers that
+are such sums have density $0$; open.
 
 [[problems/diophantine_problems/E0941/_index|E0941/]]: Asks whether every
-sufficiently large integer is the sum of at most three powerful numbers.
+sufficiently large integer is the sum of at most three powerful numbers; proved.
 
-[[problems/diophantine_problems/E0942/_index|E0942/]]: Estimates how many
-powerful integers lie between consecutive squares, in particular whether some
-fixed power of log n bounds that count for every n and is nearly reached for
-infinitely many n.
+[[problems/diophantine_problems/E0942/_index|E0942/]]: Asks for estimates of the
+number $h(n)$ of powerful integers in $[n^2,(n+1)^2)$, in particular whether
+some $c>0$ gives $h(n)<(\log n)^{c+o(1)}$ for all $n$ and $h(n)>(\log
+n)^{c-o(1)}$ for infinitely many $n$; open.
 
 [[problems/diophantine_problems/E0943/_index|E0943/]]: Asks whether the number
-of ways of writing n as a sum of two powerful numbers is smaller than any fixed
-power of n.
+of ways to write $n$ as a sum of two powerful numbers is $n^{o(1)}$; open.
 
-[[problems/diophantine_problems/E0969/_index|E0969/]]: Determines the order of
-magnitude of the error term when the count of squarefree integers up to x is
-compared with six over pi squared times x.
+[[problems/diophantine_problems/E0969/_index|E0969/]]: Asks for the order of
+magnitude of the error term $E(x)$ in $Q(x)=\frac{6}{\pi^2}x+E(x)$, where $Q(x)$
+counts the squarefree integers up to $x$; open.
 
-[[problems/diophantine_problems/E0978/_index|E0978/]]: Concerns the values of an
-irreducible integer polynomial with positive leading coefficient whose degree
-exceeds two and is not a power of two.
+[[problems/diophantine_problems/E0978/_index|E0978/]]: Asks how often an
+irreducible $f\in\mathbb{Z}[x]$ with positive leading coefficient and degree
+$k>2$, not a power of 2, takes $(k-1)$- or $(k-2)$-power-free values, and
+whether $n^4+2$ is squarefree infinitely often; proved, departing from the
+site's label OPEN.
 
-[[problems/diophantine_problems/E0979/_index|E0979/]]: Asks whether, for each k
-at least two, the number of ways to write n as a sum of k kth powers of primes
-is unbounded.
+[[problems/diophantine_problems/E0979/_index|E0979/]]: Asks whether, for each
+$k\geq 2$, the number of ways to write $n=p_1^k+\cdots+p_k^k$ with all $p_i$
+prime is unbounded; open.
 
-[[problems/diophantine_problems/E1056/_index|E1056/]]: Asks whether, for every k
-at least two, there are a prime and k consecutive intervals of integers whose
-products are each congruent to one modulo that prime.
+[[problems/diophantine_problems/E1056/_index|E1056/]]: Asks whether, for every
+$k\geq 2$, there are a prime $p$ and $k$ consecutive intervals of integers whose
+products are each congruent to 1 modulo $p$; open.
 
 [[problems/diophantine_problems/E1058/_index|E1058/]]: Asks whether only
-finitely many n lying between two consecutive primes have n factorial plus one
-divisible only by the next two primes.
+finitely many $n$ with $p_{k-1}\leq n<p_k$ have the next two primes $p_k$ and
+$p_{k+1}$ as the only prime factors of $n!+1$; proved.
 
 [[problems/diophantine_problems/E1065/_index|E1065/]]: Asks whether infinitely
-many primes are one plus a power of two times a prime, or one plus a power of
-two times a power of three times a prime.
+many primes have the form $2^kq+1$ with $q$ prime, or the form $2^k3^lq+1$;
+open.
 
-[[problems/diophantine_problems/E1072/_index|E1072/]]: Studies the least n for
-which a given prime divides n factorial plus one, as a function of that prime.
+[[problems/diophantine_problems/E1072/_index|E1072/]]: Asks, for $f(p)$ the
+least $n$ with $p\mid n!+1$, whether $f(p)=p-1$ for infinitely many primes $p$
+and whether $f(p)/p\to 0$ for almost all $p$; open.
 
-[[problems/diophantine_problems/E1081/_index|E1081/]]: Asks whether the count of
-integers up to x that are sums of two squarefull numbers is asymptotic to a
-constant times x over the square root of log x.
+[[problems/diophantine_problems/E1081/_index|E1081/]]: Asks whether the number
+of $n\leq x$ that are sums of two squarefull numbers is asymptotic to
+$cx/\sqrt{\log x}$ for some $c>0$; disproved.
 
-[[problems/diophantine_problems/E1107/_index|E1107/]]: Asks whether every large
-integer is the sum of at most r plus one numbers divisible by the r-th power of
-each of their prime factors, for r at least 2.
+[[problems/diophantine_problems/E1107/_index|E1107/]]: Asks whether, for $r\geq
+2$, every large integer is the sum of at most $r+1$ numbers divisible by the
+$r$th power of each of their prime factors; open.
 
-[[problems/diophantine_problems/E1110/_index|E1110/]]: Concerns which integers
-are sums of numbers of the form a power of p times a power of q, none dividing
-another, for coprime integers p greater than q.
+[[problems/diophantine_problems/E1110/_index|E1110/]]: Asks, for coprime
+$p>q\geq 2$ with $\{p,q\}\neq\{2,3\}$, about the density of integers that are
+not sums of numbers $p^kq^l$, none dividing another, and whether infinitely many
+coprime such integers exist; open.
 
 [[problems/diophantine_problems/E1140/_index|E1140/]]: Asks whether infinitely
-many n make n - 2x^2 prime for every x with 2x^2 < n.
+many $n$ make $n-2x^2$ prime for every $x$ with $2x^2<n$; disproved.
 
 [[problems/diophantine_problems/E1148/_index|E1148/]]: Asks whether every large
-integer is a sum of two squares minus a square with all three squares at most
-that integer.
+integer $n$ can be written as $x^2+y^2-z^2$ with $\max(x^2,y^2,z^2)\leq n$;
+proved.
 
-[[problems/diophantine_problems/E1214/_index|E1214/]]: Asks whether two positive
-integers x and y must be equal when the primes dividing x to the n minus one
-match those dividing y to the n minus one for every n.
+[[problems/diophantine_problems/E1214/_index|E1214/]]: Asks whether integers
+$x,y\geq 1$ must be equal when, for every $n\geq 1$, the primes dividing $x^n-1$
+are the same as those dividing $y^n-1$; proved.
 
 ***
 

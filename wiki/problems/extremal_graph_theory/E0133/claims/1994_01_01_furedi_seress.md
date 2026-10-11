@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0133/claims/1994_01_01_furedi_seress
 title: Füredi and Seress's bound of two over root three times root n
 desc: |
-  Theorem 6.1 of Füredi and Seress gives, for every large n, a triangle-free
-  graph of diameter two on n vertices with maximum degree at most two over
-  root three times root n plus a lower-order term, so f(n) has order root n.
+  Theorem 6.1 of Füredi and Seress gives, for every large $n$, a triangle-free
+  graph of diameter two on $n$ vertices with maximum degree at most
+  $\frac{2}{\sqrt3}\sqrt n$ plus a lower-order term. So $f(n)$ has order
+  $\sqrt n$.
 authors:
 - Zoltán Füredi
 - Ákos Seress
@@ -61,10 +62,9 @@ determined by any source read; the problem does not ask for it.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Refereed publication in the Journal of Graph Theory, cited
-with its venue above. The site's curator, Thomas Bloom, marks the problem
-DISPROVED and credits the bound to Füredi and Seress under the reference
-[FuSe94] in the commentary; that credit is the `reviewed`
-evidence, and Bloom took no part in the paper. No
-independent review of the argument was made here, and no proof step was
-checked beyond the statement and the construction's description.
+**Acceptance.** Refereed publication in the Journal of Graph Theory, cited with
+its venue above. The site's curator, Thomas Bloom, marks the problem DISPROVED.
+In the commentary he credits the bound to Füredi and Seress under the reference
+[FuSe94]. That credit is the `reviewed` evidence, and Bloom took no part in the
+paper. No independent review of the argument was made here. No proof step was
+checked beyond the statement and the description of the construction.

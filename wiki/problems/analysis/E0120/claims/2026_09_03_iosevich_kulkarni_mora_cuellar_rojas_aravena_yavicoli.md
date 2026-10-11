@@ -2,9 +2,10 @@
 name: problems/analysis/E0120/claims/2026_09_03_iosevich_kulkarni_mora_cuellar_rojas_aravena_yavicoli
 title: Sets supporting a Rajchman measure are avoided
 desc: |
-  An arXiv preprint asserting that every set supporting a probability measure
-  with Fourier-Stieltjes transform vanishing at infinity is avoided by a
-  closed periodic set of relative measure at least 1 - epsilon.
+  An arXiv preprint of Iosevich, Kulkarni, Mora Cuéllar, Rojas Aravena and
+  Yavicoli asserts that every set supporting a probability measure whose
+  Fourier–Stieltjes transform vanishes at infinity is avoided by a closed
+  periodic set of relative measure at least $1-\varepsilon$.
 authors:
 - A. Iosevich
 - N. Kulkarni

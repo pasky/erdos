@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0861
 title: Problem 861
 desc: |
-  Asks how many Sidon subsets of the integers up to N there are, compared with
-  two to the power of the largest Sidon set size.
+  Asks how the number of Sidon subsets of $\{1,\ldots,N\}$ compares with
+  $2^{f(N)}$, where $f(N)$ is the size of the largest Sidon subset; solved.
 tags:
 - Number theory
 - Sidon sets
@@ -35,10 +35,10 @@ $$
 A(N) = 2^{(1+o(1))f(N)}?
 $$
 
-**Status.** Solved: the site labels the problem SOLVED (page last edited 15
-October 2025), and Saxton and Thomason's lower bound
-$A(N)\geq 2^{(1.16+o(1))f(N)}$ answers the first question yes and the second
-no ([[problems/additive_bases/E0861/claims/2012_04_30_saxton_thomason|claim page]]).
+**Status.** Solved. The site labels the problem SOLVED (page last edited 15
+October 2025). Saxton and Thomason's lower bound $A(N)\geq 2^{(1.16+o(1))f(N)}$
+answers the first question yes and the second no
+([[problems/additive_bases/E0861/claims/2012_04_30_saxton_thomason|claim page]]).
 
 **Source.** [erdosproblems.com/861](https://www.erdosproblems.com/861), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #861,

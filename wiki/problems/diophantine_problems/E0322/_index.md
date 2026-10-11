@@ -2,8 +2,9 @@
 name: problems/diophantine_problems/E0322
 title: Problem 322
 desc: |
-  Estimates the number of ways an integer is a sum of k many kth powers, and
-  asks whether it exceeds n to a fixed positive power infinitely often.
+  Asks for the order of growth of the number of ways to write $n$ as a sum of
+  $k$ many $k$th powers, and whether it exceeds $n^c$ for some fixed $c>0$ and
+  infinitely many $n$; open.
 tags:
 - Number theory
 - Powers

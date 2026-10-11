@@ -2,9 +2,10 @@
 name: problems/covering_systems/E0027/claims/2018_11_08_balister_bollobas_morris_sahasrabudhe_tiba
 title: The Balister–Bollobás–Morris–Sahasrabudhe–Tiba uniform density bound
 desc: |
-  Theorem 5.1 of the Inventiones paper (2022), a second proof that distinct
-  moduli in [n, Kn] with n at least an absolute M leave density at least some
-  positive number depending on K uncovered, so no constant C works; refereed.
+  Theorem 5.1 of the 2022 Inventiones paper of Balister, Bollobás, Morris,
+  Sahasrabudhe and Tiba is a second, refereed proof that no constant $C$ works.
+  Distinct moduli in $[n,Kn]$ with $n$ at least an absolute $M$ leave density at
+  least some $\delta(K)>0$ uncovered.
 authors:
 - Paul Balister
 - Béla Bollobás
@@ -63,14 +64,14 @@ records the density bound.
 earlier one of Filaseta, Ford, Konyagin, Pomerance and Yu, which is on
 [[problems/covering_systems/E0027/claims/2005_07_18_filaseta_ford_konyagin_pomerance_yu|their claim page]].
 
-**Acceptance.** Refereed: Inventiones mathematicae 228 (2022), no. 1,
-377–414, doi:10.1007/s00222-021-01087-5, published online 2021-11-16; the
-arXiv v1 of 2018-11-08 names this page. The site's curator cites the paper
-on the problem page only for its bound $616000$ on the minimum modulus of a
-covering system and credits the answer to Filaseta, Ford, Konyagin,
-Pomerance and Yu, so no `reviewed` evidence is listed. The library's
-compilation of the proof is author-recorded coverage by this project and
-awards nothing here. No formalization of this theorem is recorded.
+**Acceptance.** Refereed: Inventiones mathematicae 228 (2022), no. 1, 377–414,
+doi:10.1007/s00222-021-01087-5, published online 2021-11-16. The arXiv v1 of
+2018-11-08 names this page. On the problem page, the site's curator cites the
+paper only for its bound $616000$ on the minimum modulus of a covering system.
+The curator credits the answer to Filaseta, Ford, Konyagin, Pomerance and Yu, so
+no `reviewed` evidence is listed. The library's compilation of the proof is
+author-recorded coverage by this project and awards nothing here. No
+formalization of this theorem is recorded.
 
 **Not covered.** Nothing of the question remains. The optimal order of the
 uncovered density for moduli in $[n,Kn]$, which this theorem does not give,

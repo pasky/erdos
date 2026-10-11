@@ -4,15 +4,16 @@ desc: The 1 claim page of Problem 444, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T07:37:55Z
-updated: 2026-10-07T20:00:46Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/divisors/E0444/claims
 
 [[problems/divisors/E0444/_index|..]]
 
-[[problems/divisors/E0444/claims/1982_08_01_erdos_sarkozy|1982_08_01_erdos_sarkozy]]: The Erdős–Sárközy theorem that, whenever the reciprocal sum f_A(x) of an
-infinite set A is unbounded, max d_A(n) over n up to x exceeds
-exp(c (log f_A(x))^2) infinitely often, which answers the question yes.
+[[problems/divisors/E0444/claims/1982_08_01_erdos_sarkozy|1982_08_01_erdos_sarkozy]]: The Erdős–Sárközy theorem states that when the reciprocal sum $f_A(x)$ of an
+infinite set $A$ is unbounded, $\max_{n\le x}d_A(n)$ exceeds
+$\exp\bigl(c(\log f_A(x))^2\bigr)$ infinitely often. This answers the question
+yes.
 
 ***

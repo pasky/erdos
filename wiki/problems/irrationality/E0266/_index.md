@@ -2,9 +2,9 @@
 name: problems/irrationality/E0266
 title: Problem 266
 desc: |
-  Asks whether every sequence of positive integers with convergent reciprocal
-  sum admits a positive integer shift making the shifted reciprocal sum
-  irrational.
+  Asks whether every sequence of positive integers $a_n$ with $\sum 1/a_n$
+  convergent has an integer $t\ge1$ making $\sum 1/(a_n+t)$ irrational; answered
+  no.
 tags:
 - Irrationality
 status: solved
@@ -30,13 +30,13 @@ $$
 
 is irrational.
 
-**Status.** Disproved: Kovač and Tao's 2024 construction of a sequence whose
-shifted reciprocal sums are rational for every rational shift is recorded on
-[[problems/irrationality/E0266/claims/2024_11_27_kovac_tao|its claim page]].
-The site (page last edited 2025-09-28) labels the problem DISPROVED (LEAN) and
-credits them with the negative answer; the Lean proof behind the label is a
-public formalization of their argument linked from the claim page, not built
-or audited in this corpus.
+**Status.** Disproved. The site (page last edited 2025-09-28) labels the problem
+DISPROVED (LEAN) and credits Kovač and Tao with the negative answer. Their 2024
+construction of a sequence whose shifted reciprocal sums are rational for every
+rational shift is recorded on
+[[problems/irrationality/E0266/claims/2024_11_27_kovac_tao|its claim page]]. The
+Lean proof behind the label is a public formalization of their argument, linked
+from the claim page. It has not been built or audited in this corpus.
 
 **Source.** [erdosproblems.com/266](https://www.erdosproblems.com/266), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #266,

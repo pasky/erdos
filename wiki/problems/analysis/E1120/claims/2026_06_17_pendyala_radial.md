@@ -2,9 +2,9 @@
 name: problems/analysis/E1120/claims/2026_06_17_pendyala_radial
 title: Radial escape up to degree three and a degree-six obstruction
 desc: |
-  An SSRN preprint claims that every admissible polynomial of degree at most
-  three has a radius in the origin's component, so S(n)=1 for n<=3, and that a
-  degree-six polynomial blocks every radius, so S(6)>1.
+  An SSRN preprint of Pendyala claims that every admissible polynomial of degree
+  at most three has a radius in the origin's component, so $S(n)=1$ for $n\le3$.
+  It also claims that a degree-six polynomial blocks every radius, so $S(6)>1$.
 authors:
 - Venkata Siddharth Pendyala
 status: claimed

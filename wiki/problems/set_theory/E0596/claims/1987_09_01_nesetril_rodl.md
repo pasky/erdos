@@ -2,9 +2,10 @@
 name: problems/set_theory/E0596/claims/1987_09_01_nesetril_rodl
 title: The pair (C_4, C_6) has the finite-versus-countable Ramsey gap
 desc: |
-  For every n, Nešetřil and Rödl (1987) give a C_4-free graph whose n-colored
-  edges always carry a monochromatic C_6, while by Erdős and Hajnal (1967)
-  every C_4-free graph is a countable union of trees, so (C_4, C_6) qualifies.
+  For every $n$, Nešetřil and Rödl (1987) give a $C_4$-free graph in which every
+  $n$-coloring of the edges has a monochromatic $C_6$. Since Erdős and Hajnal
+  (1967) proved that every $C_4$-free graph is a countable union of trees, the
+  pair $(C_4,C_6)$ qualifies.
 authors:
 - Jaroslav Nešetřil
 - Vojtěch Rödl
@@ -82,10 +83,10 @@ first day of that month as a placeholder. P. Erdős and A. Hajnal, *On
 decomposition of graphs*, Acta Math. Acad. Sci. Hungar. 18 (1967), no. 3-4,
 359–377; DOI 10.1007/BF02280296.
 
-**Acceptance.** Refereed: both results appeared in refereed journals,
-Transactions of the American Mathematical Society and Acta Mathematica
-Academiae Scientiarum Hungaricae, cited above. The site labels the problem
-OPEN, since the characterization is open, and its remarks credit Nešetřil
-and Rödl with the first property and Erdős and Hajnal with the second for
-this pair; that credit on an OPEN problem is not counted as `reviewed`.
-Nothing on this page is independently reviewed by this project.
+**Acceptance.** Refereed: both results appeared in refereed journals, cited
+above: Transactions of the American Mathematical Society and Acta Mathematica
+Academiae Scientiarum Hungaricae. The site labels the problem OPEN, since the
+characterization is open. For this pair, its remarks credit Nešetřil and Rödl
+with the first property and Erdős and Hajnal with the second. Credit on an OPEN
+problem is not counted as `reviewed`. Nothing on this page is independently
+reviewed by this project.

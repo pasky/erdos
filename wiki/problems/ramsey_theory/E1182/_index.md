@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E1182
 title: Problem 1182
 desc: |
-  Estimates the largest edge counts for connected graphs on n vertices whose
-  Ramsey number against a triangle equals two n minus one; a 1996 preprint
-  claims a linear threshold for all such graphs, a no to the closing question.
+  Asks to estimate the largest edge counts of connected graphs $G$ on $n$
+  vertices with $R(K_3,G)=2n-1$. A 1996 preprint claims a linear threshold for
+  all such graphs, a negative answer to the closing question.
 tags:
 - Graph theory
 - Ramsey theory
@@ -55,46 +55,48 @@ page: the 1980 bound $(17n+1)/15$ supersedes it for every $n\ge4$, and for
 $n\le3$ the 1980 table gives the exact values, so it settles nothing the 1980
 page does not.
 
-**Status.** Open, in the site's label, which attaches to the estimation problem:
-subject to Brandt's pending bound, $F(n)$ is known to within a constant factor,
-between $17n/15$ and $84n$ for large $n$, but not asymptotically, and $f(n)$ is
-not known to within a constant factor, its bounds being $n^{3/2}(\log n)^{1/2}$
-and $n^{3/2}\log n$ up to constants, a factor $(\log n)^{1/2}$ apart. The
-closing question has the answer no if a 1996 preprint of Brandt is right that
-$F(n)<84n$ for all large $n$, so $F(n)/n$ is bounded; the source is a preprint
-(Freie Universität Berlin, Preprint A 96-24), read in a converted copy that
-the library does not hold, and the site's commentary says that it answers the
-final question in the negative under the label OPEN, which is not acceptance,
-so the bound is a pending partial claim. The frontmatter's standing is derived from the claim pages, and the
-pending negative answer to the closing question is recorded here. The bounds the
-sources state are
+**Status.** Open, in the site's label, which attaches to the estimation problem.
+Subject to Brandt's pending bound, $F(n)$ is known to within a constant factor,
+between $17n/15$ and $84n$ for large $n$, but not asymptotically. $f(n)$ is not
+known to within a constant factor. Its bounds are $n^{3/2}(\log n)^{1/2}$ and
+$n^{3/2}\log n$ up to constants, a factor $(\log n)^{1/2}$ apart. The
+frontmatter's standing is derived from the claim pages. Two proof claims of
+September 2026 on the site's tab are recorded on their claim pages. One is a
+full claim by Qiyuan Gu asserting the order of $f(n)$
+([[problems/ramsey_theory/E1182/claims/2026_09_10_gu|Gu 2026]]). The other is a
+partial claim by Pravar Kataria tightening the constants for $F(n)$
+([[problems/ramsey_theory/E1182/claims/2026_09_28_kataria|Kataria 2026]]). Both
+are unreviewed, and the frontmatter's `claimed` standing is derived from the
+pending full claim. The closing question has the answer no if a 1996 preprint of
+Brandt is right that $F(n)<84n$ for all large $n$, since then $F(n)/n$ is
+bounded. The source is a preprint (Freie Universität Berlin, Preprint A 96-24),
+read in a converted copy that the library does not hold. The site's commentary
+says that it answers the final question in the negative, but it does so under
+the label OPEN, which is not acceptance. So the bound is a pending partial
+claim, and the pending negative answer to the closing question is recorded here.
+The bounds the sources state are
 
 $$
 \frac{17n+1}{15}\le F(n)<84n,\qquad
 An^{3/2}(\log n)^{1/2}<f(n)<Bn^{5/3}(\log n)^{2/3},
 $$
 
-the lower bound on $F$ for all $n\ge4$ and the other three for large $n$ (Burr,
-Erdős, Faudree, Rousseau and Schelp 1980, Ars Combin., refereed, an accepted
-partial claim on
-[[problems/ramsey_theory/E1182/claims/1980_01_01_burr_erdos_faudree_rousseau_schelp|its claim page]];
-Brandt 1996, preprint; Brandt's bound and the site's note on it are recorded on
-[[problems/ramsey_theory/E1182/claims/1996_12_01_brandt|its claim page]]). The
+with the lower bound on $F$ for all $n\ge4$ and the other three for large $n$.
+The sources are Burr, Erdős, Faudree, Rousseau and Schelp 1980 (Ars Combin.,
+refereed), an accepted partial claim on
+[[problems/ramsey_theory/E1182/claims/1980_01_01_burr_erdos_faudree_rousseau_schelp|its claim page]],
+and Brandt 1996, a preprint. Brandt's bound and the site's note on it are
+recorded on
+[[problems/ramsey_theory/E1182/claims/1996_12_01_brandt|its claim page]]. The
 upper bound on $f(n)$ is superseded by Sudakov's theorem of 2007 (SIAM J.
-Discrete Math., refereed; not held, its statement as its arXiv abstract gives
-it): for $s\ge3$ every graph $G$ with $m$ edges has $R(K_s,G)\ge c(m/\log
-m)^{(s+1)/(s+3)}$, so with $s=3$ a connected $n$-vertex graph with $f(n)$ edges
-and $R(K_3,G)=2n-1$ has $c(f(n)/\log f(n))^{2/3}\le2n-1$, whence
-$f(n)=O(n^{3/2}\log n)$; the exponents meet and the gap is the factor $(\log
-n)^{1/2}$. The bound is recorded as an accepted partial claim on
-[[problems/ramsey_theory/E1182/claims/2007_06_27_sudakov|its claim page]]. Two
-proof claims of September 2026 on the site's tab, a full claim by Qiyuan Gu
-asserting the order of $f(n)$
-([[problems/ramsey_theory/E1182/claims/2026_09_10_gu|Gu 2026]]) and a partial
-claim by Pravar Kataria tightening the constants for $F(n)$
-([[problems/ramsey_theory/E1182/claims/2026_09_28_kataria|Kataria 2026]]), are
-recorded on their claim pages; both are unreviewed, and the frontmatter's
-`claimed` standing is derived from the pending full claim.
+Discrete Math., refereed). That paper is not held, and its statement is used as
+its arXiv abstract gives it. For $s\ge3$, every graph $G$ with $m$ edges has
+$R(K_s,G)\ge c(m/\log m)^{(s+1)/(s+3)}$. Take $s=3$ and a connected $n$-vertex
+graph $G$ with $f(n)$ edges and $R(K_3,G)=2n-1$. Then
+$c(f(n)/\log f(n))^{2/3}\le2n-1$, whence $f(n)=O(n^{3/2}\log n)$. The exponents
+meet, and the gap is the factor $(\log n)^{1/2}$. The bound is recorded as an
+accepted partial claim on
+[[problems/ramsey_theory/E1182/claims/2007_06_27_sudakov|its claim page]].
 
 **Source.** [erdosproblems.com/1182](https://www.erdosproblems.com/1182),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that no finite

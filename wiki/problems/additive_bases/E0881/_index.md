@@ -2,8 +2,10 @@
 name: problems/additive_bases/E0881
 title: Problem 881
 desc: |
-  Concerns additive bases of order k that are minimal, in the sense that
-  removing any infinite subset destroys the basis property.
+  Asks whether every minimal additive basis $A$ of order $k$, one that stops
+  being a basis of order $k$ when any infinite subset is removed, has an
+  infinite $B\subset A$ with $A\setminus B$ a basis of order $k+1$; a pending
+  claim answers no.
 tags:
 - Number theory
 - Additive bases
@@ -28,13 +30,13 @@ $A\backslash B$ is not a basis of order $k$.
 Must there exist an infinite $B\subset A$ such that $A\backslash B$ is a basis
 of order $k+1$?
 
-**Status.** Claimed: a pending full claim answers the question no; the site's
-label is OPEN and the site lists no proof claim. A manuscript posted in the
-site's thread on 2026-05-03 claims a complete answer, no for every $k\ge2$, and
-is the pending claim
-[[problems/additive_bases/E0881/claims/2026_05_03_svyable|Svyable]]; a reader's
-AI check reports that it counts sums of exactly $k$ elements where the site's
-definition allows at most $k$, and finds fatal defects in its proof.
+**Status.** Claimed. The site's label is OPEN, and the site lists no proof
+claim. A pending full claim answers the question no. That claim is
+[[problems/additive_bases/E0881/claims/2026_05_03_svyable|Svyable]], a
+manuscript posted in the site's thread on 2026-05-03. It claims a complete
+answer: no for every $k\ge2$. A reader's AI check reports that it counts sums of
+exactly $k$ elements, where the site's definition allows at most $k$. The check
+also finds fatal defects in its proof.
 
 **Source.** [erdosproblems.com/881](https://www.erdosproblems.com/881), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #881,

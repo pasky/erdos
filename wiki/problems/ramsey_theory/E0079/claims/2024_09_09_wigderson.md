@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0079/claims/2024_09_09_wigderson
 title: Wigderson's infinitely many minimal non-Ramsey-size-linear graphs
 desc: |
-  Wigderson's 2024 theorem that infinitely many graphs are not Ramsey size
-  linear while every proper subgraph is, answering Problem 79 yes; refereed
-  in European J. Combin. 128 (2025) and labeled PROVED by the site.
+  Wigderson's 2024 theorem, that infinitely many graphs are not Ramsey size
+  linear while all their proper subgraphs are, answers Problem 79 yes. It is
+  refereed in European J. Combin. 128 (2025) and labeled PROVED by the site.
 authors:
 - Yuval Wigderson
 status: accepted
@@ -57,14 +57,14 @@ checks.
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the
-problem PROVED and credits the paper with the proof in the problem's
-commentary, noting that the proof is not explicit and that no example
-beyond $K_4$ is known; the thread and the proof-claim tab were empty on
-2026-09-18. Refereed: the paper appeared in European J. Combin. 128 (2025),
-104175 (the acknowledgments thank the anonymous referees). The text cited
-is arXiv v2 of 5 May 2025. Proof coverage: the statement, Lemmas 2--4 and
-Open problem 5; the proof is not compiled in this corpus.
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+PROVED and credits the paper with the proof in the problem's commentary. The
+commentary notes that the proof is not explicit and that no example beyond $K_4$
+is known. The thread and the proof-claim tab were empty on 2026-09-18. Refereed:
+the paper appeared in European J. Combin. 128 (2025), 104175, and its
+acknowledgments thank the anonymous referees. The text cited is arXiv v2 of 5
+May 2025. Proof coverage: the statement, Lemmas 2--4 and Open problem 5. The
+proof is not compiled in this corpus.
 
 **Postings.** arXiv:2409.05931, v1 of 9 September 2024 (the first posting,
 which dates this page) and v2 of 5 May 2025, the version cited; the journal

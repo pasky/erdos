@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E1064
 title: Problem 1064
 desc: |
-  Asks whether the totient of n exceeds the totient of n minus its totient for
-  almost all n and the reverse holds infinitely often; the first part proved by
-  Luca and Pomerance (2002), the second by Grytczuk, Luca and Wójtowicz (2001).
+  Asks whether $\phi(n)>\phi(n-\phi(n))$ for almost all $n$ and the reverse
+  inequality holds for infinitely many $n$. Luca and Pomerance (2002) proved the
+  first part, and Grytczuk, Luca and Wójtowicz (2001) the second.
 tags:
 - Number theory
 status: solved
@@ -26,22 +26,20 @@ updated: 2026-10-08T01:29:58Z
 $\phi(n)<\phi(n-\phi(n))$ for infinitely many $n$, where $\phi$ is Euler's
 totient function.
 
-**Status.** Proved (the site's label). The answer to both parts is yes, and
-the page lists the two parts as `almost_all` and `infinitely_often`. Luca and
-Pomerance [LuPo02] prove the first inequality on a set of density one, by a
-margin of any order below $n$, refereed in Colloquium Mathematicum and
-credited by the site, which the corpus accepts on the claim page
-[[problems/arithmetic_functions/E1064/claims/2002_01_01_luca_pomerance|Luca
-and Pomerance 2002]] as settling the first part. The second inequality was
-proved by Grytczuk, Luca and Wójtowicz [GLW01], with a gap growing like $2^k$
-along explicit families; they also gave the first inequality a lower density
-of at least $0.54$. The site credits the infinitude to that paper, and the
-corpus accepts it on
-[[problems/arithmetic_functions/E1064/claims/2001_07_01_grytczuk_luca_wojtowicz|Grytczuk,
-Luca and Wójtowicz 2001]] as settling the second part. Luca and Pomerance
-state the second inequality in the stronger form $\phi(n)<c\,\phi(n-\phi(n))$
-for every $c>0$ as a remark without proof, and for the infinite families they
-cite [GLW01].
+**Status.** Proved (the site's label). The answer to both parts is yes. The page
+lists the two parts as `almost_all` and `infinitely_often`. Luca and Pomerance
+[LuPo02] prove the first inequality on a set of density one, by a margin of any
+order below $n$. Their paper is refereed in Colloquium Mathematicum and credited
+by the site. The corpus accepts it on the claim page
+[[problems/arithmetic_functions/E1064/claims/2002_01_01_luca_pomerance|Luca and Pomerance 2002]]
+as settling the first part. Grytczuk, Luca and Wójtowicz [GLW01] proved the
+second inequality, with a gap growing like $2^k$ along explicit families. They
+also proved the first inequality on a set of lower density at least $0.54$. The
+site credits the infinitude to that paper, and the corpus accepts it on
+[[problems/arithmetic_functions/E1064/claims/2001_07_01_grytczuk_luca_wojtowicz|Grytczuk, Luca and Wójtowicz 2001]]
+as settling the second part. Luca and Pomerance state the second inequality in
+the stronger form $\phi(n)<c\,\phi(n-\phi(n))$ for every $c>0$, as a remark
+without proof. For the infinite families they cite [GLW01].
 
 **Source.** [erdosproblems.com/1064](https://www.erdosproblems.com/1064),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1064,

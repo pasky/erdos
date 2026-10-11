@@ -2,8 +2,10 @@
 name: problems/graph_coloring/E0833
 title: Problem 833
 desc: |
-  Records the Erdős–Lovász exponential vertex-degree bound and an explicit
-  constant that covers every uniformity r at least two.
+  Asks whether there is an absolute constant $c>0$ such that, for all $r\geq2$,
+  every $r$-uniform hypergraph with chromatic number $3$ has a vertex in at
+  least $(1+c)^r$ edges. Erdős and Lovász proved this, and the page records an
+  explicit constant that works for every $r\geq2$.
 tags:
 - Graph theory
 - Hypergraphs
@@ -27,8 +29,8 @@ absolute constant $c>0$ such that, for all $r\geq 2$, in any $r$-uniform
 hypergraph with chromatic number $3$ there is a vertex contained in at least
 $(1+c)^r$ many edges?
 
-**Status.** Proved. The site credits the solution to Erdős and Lovász
-[ErLo75], citing their bound $2^{r-1}/(4r)$; the claim page
+**Status.** Proved. The site credits the solution to Erdős and Lovász [ErLo75],
+citing their bound $2^{r-1}/(4r)$. The claim page
 [[problems/graph_coloring/E0833/claims/1975_01_01_erdos_lovasz|Erdős–Lovász 1975]]
 records the result and its acceptance evidence.
 

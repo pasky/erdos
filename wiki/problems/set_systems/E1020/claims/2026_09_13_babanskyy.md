@@ -2,9 +2,10 @@
 name: problems/set_systems/E1020/claims/2026_09_13_babanskyy
 title: The four-uniform case of the matching conjecture
 desc: |
-  Babanskyy's 2026 manuscript claiming the Erdős matching conjecture for
-  4-uniform hypergraphs and every matching size, by the finite-board method
-  with rational certificates; AI-assisted, unreviewed, not refereed.
+  Babanskyy's 2026 manuscript claims a proof of the Erdős matching conjecture
+  for $4$-uniform hypergraphs and every matching size, by the finite-board
+  method with rational certificates. The work is AI-assisted, unreviewed and not
+  refereed.
 authors:
 - Oleksiy Babanskyy
 status: claimed
@@ -99,7 +100,7 @@ integer and rational arithmetic and says the reductions and the induction are
 proved in the paper, not in a proof assistant, so no formalization is reported;
 it grants no license to redistribute the paper.
 
-**Acceptance.** None: the manuscript is not refereed, no outside reviewer has
-endorsed it, and as of 2026-10-06 the forum entry had no comments and the
-site's label was FALSIFIABLE, with its commentary last edited on 28 December
-2025.
+**Acceptance.** None: the manuscript is not refereed, and no outside reviewer
+has endorsed it. As of 2026-10-06 the forum entry had no comments and the site's
+label was FALSIFIABLE. The site's commentary was last edited on 28
+December 2025.

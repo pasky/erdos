@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0728/claims/2026_01_14_pomerance
 title: Pomerance's density-one divisibility theorem
 desc: |
-  For almost all m the binomial coefficient m+k choose k divides 2m choose m
-  for every k up to exp(0.8 sqrt(log m)), which gives the triples the problem
-  asks for with a gap far beyond C log n; published in Integers (2026).
+  Pomerance (Integers, 2026) proves that for almost all $m$, $\binom{m+k}{k}$
+  divides $\binom{2m}{m}$ for every $k\le\exp(0.8\sqrt{\log m})$. This gives the
+  triples the problem asks for, with a gap far beyond $C\log n$.
 authors:
 - Carl Pomerance
 status: accepted
@@ -113,7 +113,7 @@ constants. This corpus has not built or audited it, so the page lists no
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The paper appeared in Integers, a refereed journal, which the
-page lists as `refereed`; its acknowledgments thank four mathematicians for
+page lists as `refereed`. Its acknowledgments thank four mathematicians for
 comments and for pointing out errors. The site's curator credits Barreto and
-ChatGPT-5.2 for the problem's resolution and does not mention this paper, so
-no `reviewed` evidence is listed.
+ChatGPT-5.2 for the problem's resolution and does not mention this paper, so no
+`reviewed` evidence is listed.

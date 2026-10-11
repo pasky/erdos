@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0960/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant
 title: Quadratically many ordinary lines without an ordinary triangle
 desc: |
-  For r at least 3 and k at least 4, n-point sets with no k on a line, at
-  least n^2/12 minus 10n/3 ordinary lines and no r points spanning only
-  ordinary lines, so the threshold is of order n^2 and not o(n^2).
+  For $r\ge3$ and $k\ge4$, Alexeev, Putterman, Sawhney, Sellke and Valiant give
+  $n$-point sets with no $k$ on a line, at least $n^2/12-10n/3$ ordinary lines,
+  and no $r$ points spanning only ordinary lines. Hence the threshold is of
+  order $n^2$ and not $o(n^2)$.
 authors:
 - Boris Alexeev
 - Moe Putterman
@@ -74,11 +75,11 @@ Erdős posed the question in his 1984 research-problem note
 p. 102), where he conjectured the $o(n^2)$ bound and suggested a linear one.
 
 **Acceptance.** Thomas Bloom, the site's curator, marks the problem disproved
-and credits this bound on the problem's page at erdosproblems.com, last edited
-2026-04-09, whose label and credit showed on 2026-10-06; that credit is the
-`reviewed` evidence.
-The paper is a preprint, with no refereed version found on 2026-10-06, and no
-Lean proof is recorded, so the claim is neither `refereed` nor `formalized`.
+and credits this bound on the problem's page at erdosproblems.com. The page was
+last edited 2026-04-09, and its label and credit showed on 2026-10-06. That
+credit is the `reviewed` evidence. The paper is a preprint, and no refereed
+version was found on 2026-10-06. No Lean proof is recorded. The claim is
+therefore neither `refereed` nor `formalized`.
 
 **What remains.** The order of $f_{r,k}(n)$ is settled at $n^2$ for
 $r\geq3$ and $k\geq4$, between $n^2/12-O(n)$ and

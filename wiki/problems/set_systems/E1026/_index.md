@@ -2,8 +2,9 @@
 name: problems/set_systems/E1026
 title: Problem 1026
 desc: |
-  Determines the largest possible sum of a monotonic subsequence of a sequence
-  of n distinct real numbers.
+  Asks how large, relative to $n^{-1/2}\sum x_i$, the largest sum of a monotonic
+  subsequence of a sequence $x_1,\ldots,x_n$ of distinct real numbers must be;
+  solved.
 tags:
 - Combinatorics
 status: solved
@@ -67,11 +68,11 @@ distinct positive reals with sum $1$ have a monotone subsequence of sum at
 least $1/k$.
 
 **Status.** The site labels the problem SOLVED (LEAN): $c=1$. It credits the
-lower bound $c\ge1$, the stronger finite form, to Tidor, Wang and Yang
-[TWY16] as its first proof, implicit in Wagner [Wa17], and names the Lean
-proof of the finite form that the AI system Aristotle produced, posted by
-Alexeev, together with Chan's second proof from the Erdős–Szekeres theorem;
-the upper bound $c\le1$ is Cambie's construction in the thread.
+first proof of the lower bound $c\ge1$, in its stronger finite form, to Tidor,
+Wang and Yang [TWY16], and notes that it is implicit in Wagner [Wa17]. It also
+names the Lean proof of the finite form that the AI system Aristotle produced,
+posted by Alexeev, and Chan's second proof from the Erdős–Szekeres theorem. The
+upper bound $c\le1$ is Cambie's construction in the thread.
 
 **Source.** [erdosproblems.com/1026](https://www.erdosproblems.com/1026),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1026,

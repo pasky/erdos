@@ -3,7 +3,7 @@ name: problems/additive_bases/E0011
 title: Problem 11
 desc: |
   Asks whether every large odd integer is the sum of a squarefree number and a
-  power of 2.
+  power of 2; open.
 tags:
 - Number theory
 - Additive bases

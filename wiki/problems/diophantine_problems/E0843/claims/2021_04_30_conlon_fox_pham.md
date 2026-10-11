@@ -3,8 +3,9 @@ name: problems/diophantine_problems/E0843/claims/2021_04_30_conlon_fox_pham
 title: Complete polynomial sequences are Ramsey complete
 desc: |
   Conlon, Fox and Pham prove that every complete polynomial sequence has a
-  sparse r-Ramsey complete subsequence for every r, so the squares are Ramsey
-  2-complete; a preprint, credited by the site's curator, not yet refereed.
+  sparse $r$-Ramsey complete subsequence for every $r$, so the squares are
+  Ramsey 2-complete. The paper is a preprint, not yet refereed, and the site's
+  curator credits it.
 authors:
 - David Conlon
 - Jacob Fox
@@ -55,12 +56,12 @@ proof was never published, and the paper's p. 4 says its theorem subsumes
 that result. With no manuscript, Burr's proof has no claim page of its own;
 the problem's standing rests on the published argument above.
 
-**Acceptance.** The site's curator, Thomas Bloom, labels the problem proved
-and credits the stronger result to Conlon, Fox and Pham in the page's
-commentary, which is the `reviewed` evidence. The paper is an arXiv preprint:
-its arXiv record lists no journal reference and no published version is
-recorded, so there is no `refereed` evidence. No formalization is on record;
-the community database lists the problem as unformalized.
+**Acceptance.** The site's curator, Thomas Bloom, labels the problem proved and
+credits the stronger result to Conlon, Fox and Pham in the page's commentary.
+This is the `reviewed` evidence. The paper is an arXiv preprint. Its arXiv
+record lists no journal reference and no published version is recorded, so there
+is no `refereed` evidence. No formalization is on record, and the community
+database lists the problem as unformalized.
 
 **Scope.** The claim covers the problem's question for the squares and, by
 the same theorem, the $k$-th powers for every $k\ge2$ and every number $r$ of

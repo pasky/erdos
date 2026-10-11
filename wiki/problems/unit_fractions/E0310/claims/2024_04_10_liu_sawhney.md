@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0310/claims/2024_04_10_liu_sawhney
 title: Liu and Sawhney's bounded-denominator subsums
 desc: |
-  Liu and Sawhney's Proposition 1.4: a dense subset of one through N has a
-  subset whose reciprocal sum is a rational with denominator bounded in terms
-  of the density; refereed in IMRN and credited by the site's curator.
+  Liu and Sawhney's Proposition 1.4: every dense subset of $\{1,\ldots,N\}$ has
+  a subset whose reciprocal sum is a rational with denominator bounded in terms
+  of the density. It is refereed in IMRN and credited by the site's curator.
 authors:
 - Yang P. Liu
 - Mehtaab Sawhney
@@ -56,14 +56,14 @@ constant, since the integers in $[N/2,N]$ with all prime factors above
 $\exp(1/\alpha)$ have density $\gg\alpha$, reciprocal sum below $1$, and no
 nontrivial subsum with denominator below $\exp(1/\alpha)$.
 
-**Acceptance.** Refereed: the paper is published in International
-Mathematics Research Notices 2026, no. 2, rnaf382 (published online 14
-January 2026; DOI 10.1093/imrn/rnaf382). Reviewed: the site's curator,
-T. F. Bloom, marks the problem proved and credits the answer to Liu and
-Sawhney's observation and their precise version; Bloom is not an author of
-their paper (Bloom's density theorem is the input their remark applies), so the
-credit is independent of the claimants. arXiv v1 (10 April 2024) is the
-only arXiv version, and its result page records the proof (p. 21) as a
-pointer and sketch with four parameter questions to be compared against the
-published text; the corpus has not verified the proof, and the acceptance
-rests on the refereed publication and the curator's credit.
+**Acceptance.** Refereed: the paper is published in International Mathematics
+Research Notices 2026, no. 2, rnaf382 (published online 14 January 2026; DOI
+10.1093/imrn/rnaf382). Reviewed: the site's curator, T. F. Bloom, marks the
+problem proved and credits the answer to Liu and Sawhney's observation and their
+precise version. Bloom is not an author of their paper, so the credit is
+independent of the claimants. Bloom's density theorem is the input that their
+remark applies. arXiv v1 (10 April 2024) is the only arXiv version. Its result
+page records the proof (p. 21) as a pointer and sketch, with four parameter
+questions to be compared against the published text. The corpus has not verified
+the proof. The acceptance rests on the refereed publication and the curator's
+credit.

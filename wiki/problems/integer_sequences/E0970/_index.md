@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0970
 title: Problem 970
 desc: |
-  Asks for the order of magnitude of Jacobsthal's function over integers with at
-  most k distinct prime factors, and whether it is O(k^2); the quadratic bound is
-  proved by an accepted partial claim, and the order of magnitude stays open.
+  Asks for the order of magnitude of Jacobsthal's function $h(k)$ over integers
+  with at most $k$ distinct prime factors, and whether $h(k)\ll k^2$. An
+  accepted partial claim proves the quadratic bound, and the order of magnitude
+  stays open.
 tags:
 - Number theory
 status: open
@@ -50,40 +51,44 @@ label OPEN attaches and which stays open, and the displayed $h(k)\ll k^2$,
 answered yes by the accepted partial claim recorded under Status (the site's
 OPEN label predates the release that settled it).
 
-**Status.** Open. The displayed question, $h(k)\ll k^2$, is answered yes by
-the accepted partial claim of 25 September 2026 (the
-[[problems/integer_sequences/E0970/claims/2026_09_25_openai|claim page]]): the
-OpenAI release's Lean declaration
+**Status.** Open. The label attaches to the order of magnitude, which stays open
+between the lower bounds below and the accepted quadratic bound. The displayed
+question, $h(k)\ll k^2$, is answered yes by the accepted partial claim of 25
+September 2026 (the
+[[problems/integer_sequences/E0970/claims/2026_09_25_openai|claim page]]). This
+claim is the OpenAI release's Lean declaration
 `OAI.Erdos970.Erdos970Final.erdos_970_quadratic`, which states $h(k)\le Ck^2$
-for one absolute $C$ and which this corpus built, axiom-checked and audited
-against the formulation above on 2026-10-07, the claim's only acceptance
-evidence. The manuscript claims the sharper $h(k)\ll k^2/(\log\log 3k)^2$,
-which the release proves in a separate declaration, `erdos_970_iterated_log`,
-that this corpus has not axiom-checked or accepted; the manuscript has no
-refereed version and no outside review known here. The order of magnitude, to
-which the label attaches, stays open between the lower bounds below and the
-accepted quadratic bound. The bounds in hand from the search,
-whose scope the Current assessment records: the refereed upper bound
-$h(k)\ll(k\log k)^2$ (the claim page
+for one absolute $C$. This corpus built it, axiom-checked it and audited it
+against the formulation above on 2026-10-07. That check is the claim's only
+acceptance evidence. The manuscript claims the sharper
+$h(k)\ll k^2/(\log\log 3k)^2$. The release proves it in a separate declaration,
+`erdos_970_iterated_log`, which this corpus has not axiom-checked or accepted.
+The manuscript has no refereed version and no outside review known here.
+Jacobsthal's conjecture $h(k)\ll k^2$ was already "hopeless at present" for
+Erdős in 1965.
+
+The search, whose scope the Current assessment records, found the following
+bounds. The refereed upper bound is $h(k)\ll(k\log k)^2$ (the claim page
 [[problems/integer_sequences/E0970/claims/1978_01_01_iwaniec|Iwaniec 1978]],
-accepted, partial), the Corollary of [Iw78], p. 226, $C(r)\ll r^2\log^2r$ for
-the longest run of consecutive integers each divisible by one of $r$ arbitrary
-primes, where $C(k)=h(k)-1$ is the same function as Erdős's 1965 $C(r)$
-([FGKMT18] attests the primorial case $Y(x)\ll x^2$, and Erdős's 1965 lecture
-had $C(r)<c_2r^{c_3}$); and two lower bounds, Erdős's 1965 display (29),
-$C(r)>c_1r(\log r)^2\log_3r/(\log_2r)^2$, and the bound obtained from
-[FGKMT18]'s (1.2) through the identity above,
-$h(k)\gg k(\log k)^2\log_3k/\log_2k$, an authored one-line derivation recorded
-below and on the claim page
+accepted, partial). It is the Corollary of [Iw78], p. 226: $C(r)\ll r^2\log^2r$
+for the longest run of consecutive integers each divisible by one of $r$
+arbitrary primes. Here $C(k)=h(k)-1$ is the same function as Erdős's 1965
+$C(r)$. [FGKMT18] attests the primorial case $Y(x)\ll x^2$, and Erdős's 1965
+lecture had $C(r)<c_2r^{c_3}$. There are two lower bounds. The first is Erdős's
+1965 display (29), $C(r)>c_1r(\log r)^2\log_3r/(\log_2r)^2$. The second,
+$h(k)\gg k(\log k)^2\log_3k/\log_2k$, is obtained from [FGKMT18]'s (1.2) through
+the identity above. It is an authored one-line derivation, recorded below and on
+the claim page
 [[problems/integer_sequences/E0970/claims/2014_12_16_ford_green_konyagin_maynard_tao|Ford, Green, Konyagin, Maynard and Tao 2014]]
-(accepted, partial). The site's commentary prints the best lower bound as
-$h(k)\gg k\log k\log_3k/(\log_2k)^2$ and attributes it to [FGKMT18]; that
-display is weaker than both source-supported bounds, by a factor of $\log k$
-against (29) and $\log k\cdot\log_2k$ against the derived bound, is recorded
-here as the site's, with the discrepancy noted as a site-versus-source matter;
-it does not affect the label. Jacobsthal's conjecture $h(k)\ll k^2$ was
-already "hopeless at present" for Erdős in 1965. This is a bounded negative
-finding, not a certificate of openness.
+(accepted, partial).
+
+The site's commentary prints the best lower bound as
+$h(k)\gg k\log k\log_3k/(\log_2k)^2$ and attributes it to [FGKMT18]. That
+display is weaker than both source-supported bounds: by a factor of $\log k$
+against (29), and by $\log k\cdot\log_2k$ against the derived bound. It is
+recorded here as the site's, and the discrepancy is noted as a
+site-versus-source matter. It does not affect the label. The search's result is
+a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/970](https://www.erdosproblems.com/970),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that the

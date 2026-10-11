@@ -2,9 +2,9 @@
 name: problems/polynomials/E1150/claims/2025_09_04_el_abdalaoui
 title: el Abdalaoui's generalized Littlewood criterion and its sign corollary
 desc: |
-  A September 2025 preprint claims that plus or minus one polynomials are not
-  L^alpha-flat for any alpha > 0, so their maximum modulus exceeds (1+d) times
-  the square root of n; rejected after the accepted disproof.
+  A September 2025 preprint claims that $\pm1$ polynomials are not
+  $L^\alpha$-flat for any $\alpha>0$, so their maximum modulus exceeds
+  $(1+d)\sqrt n$. The claim was rejected after the accepted disproof.
 authors:
 - el Houcein el Abdalaoui
 status: rejected

@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0300
 title: Problem 300
 desc: |
-  Estimates the size of the largest subset of one through N having no subset
-  whose reciprocals sum to one.
+  Asks for estimates of $A(N)$, the size of the largest subset of
+  $\{1,\ldots,N\}$ with no subset whose reciprocals sum to $1$; solved.
 tags:
 - Number theory
 - Unit fractions
@@ -32,17 +32,16 @@ fixed $\gamma>0$ and large $N$ the integers in $((1/e+\gamma)N,N]$ have
 reciprocal sum below one, so $A(N)\ge(1-1/e-\gamma)N-1$; the site calls
 $A(N)\ge(1-1/e+o(1))N$ trivial.
 
-**Status.** Solved, in the site's label, which marks an estimate carried
-out rather than a proof or disproof: $A(N)=(1-1/e+o(1))N$, by Liu and
-Sawhney's Theorem 1.3 (Int. Math. Res. Not. 2026) together with the trivial
-lower bound. Erdős and Graham had expected $A(N)=(1+o(1))N$; the site
-credits Croot's 2003 work with the first disproof, $A(N)<cN$ for some
-$c<1$. The site's label is SOLVED (LEAN); the Lean behind the suffix is a
-file in Boris Alexeev's `lean-proofs` collection that declares itself a
-formalization of Liu and Sawhney's theorem, with Codex and GPT-5.6 Sol as
-formal authors, linked on their claim page and described under Existing
-formalization. The corpus has not built it and claims no formalized
-evidence.
+**Status.** Solved. The site's label is SOLVED (LEAN), which marks an estimate
+carried out rather than a proof or disproof. The estimate is
+$A(N)=(1-1/e+o(1))N$, by Liu and Sawhney's Theorem 1.3 (Int. Math. Res. Not.
+2026) together with the trivial lower bound. Erdős and Graham had expected
+$A(N)=(1+o(1))N$. The site credits Croot's 2003 work with the first disproof,
+$A(N)<cN$ for some $c<1$. The Lean behind the suffix is a file in Boris
+Alexeev's `lean-proofs` collection. The file declares itself a formalization of
+Liu and Sawhney's theorem, with Codex and GPT-5.6 Sol as formal authors. It is
+linked on Liu and Sawhney's claim page and described under Existing
+formalization. The corpus has not built it and claims no formalized evidence.
 
 **Source.** [erdosproblems.com/300](https://www.erdosproblems.com/300),
 accessed 2026-09-17: the problem page (SOLVED (LEAN); last edited 23

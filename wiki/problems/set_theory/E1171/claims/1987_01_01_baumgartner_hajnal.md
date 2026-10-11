@@ -2,9 +2,10 @@
 name: problems/set_theory/E1171/claims/1987_01_01_baumgartner_hajnal
 title: "Baumgartner and Hajnal: the cases k = 1 and k = 2 in ZFC"
 desc: |
-  Baumgartner and Hajnal (Contemp. Math. 65, 1987) prove that (kappa^+)^2 ->
-  (kappa^+ kappa, 3, 3)^2 for regular kappa with kappa^(<kappa) = kappa; for
-  kappa = omega this is the ZFC case k = 2 of Problem 1171, containing k = 1.
+  Baumgartner and Hajnal (Contemp. Math. 65, 1987) prove that
+  $(\kappa^+)^2\to(\kappa^+\kappa,3,3)^2$ for regular $\kappa$ with
+  $\kappa^{<\kappa}=\kappa$. For $\kappa=\omega$ this is the ZFC case $k=2$ of
+  Problem 1171, and that case contains the case $k=1$.
 authors:
 - James E. Baumgartner
 - András Hajnal

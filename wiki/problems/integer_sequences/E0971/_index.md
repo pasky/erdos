@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0971
 title: Problem 971
 desc: |
-  Asks whether the least prime congruent to a modulo d exceeds a fixed factor
-  above Euler's totient of d times log d for many residues a; two 2026 proof
-  claims answering yes, one with a Lean development, pending and unreviewed.
+  Asks whether some $c>0$ makes the least prime $p(a,d)\equiv a\pmod d$ exceed
+  $(1+c)\phi(d)\log d$ for $\gg\phi(d)$ residues $a$, for all large $d$. Two
+  2026 proof claims answer yes, one with a Lean development; both are pending
+  and unreviewed.
 tags:
 - Number theory
 status: claimed
@@ -30,31 +31,34 @@ $$
 
 for $\gg \phi(d)$ many values of $a$?
 
-**Status.** OPEN on erdosproblems.com; two full proof claims are pending. The
-site's proof-claims tab carries one entry: KyungMin Han's candidate proof of
-25 July 2026, made with GPT 5.6 Pro, that a positive proportion of reduced
-classes have least prime beyond $(1+c)\phi(d)\log d$ for all large $d$, by a
-second- and third-moment count of primes in classes, with a Lean file covering
-only the finite reduction
-([[problems/integer_sequences/E0971/claims/2026_07_25_han|claim page]]); the
+**Status.** OPEN on erdosproblems.com. Two full proof claims are pending. This
+page records the claims without adopting them.
+
+The site's proof-claims tab carries one entry, KyungMin Han's candidate proof of
+25 July 2026, made with GPT 5.6 Pro
+([[problems/integer_sequences/E0971/claims/2026_07_25_han|claim page]]). It
+claims that a positive proportion of reduced classes have least prime beyond
+$(1+c)\phi(d)\log d$ for all large $d$, using a second- and third-moment count
+of primes in classes. Its Lean file covers only the finite reduction. The
 claimant, posting as the forum account Dogcake, labeled the entry a partial
-proof claim, while the manuscript's main theorem is the full statement, and
-the full scope recorded here follows the manuscript. A comment under that
-entry of 28 September 2026 announces Shisheng Li's Lean 4 development proving
-the formal-conjectures statement of the problem along a related route, found
-with GPT-6 and formalized with Claude by its author's account, with no `sorry`
-and the standard three axioms by the same account, not built or audited by
-this corpus
-([[problems/integer_sequences/E0971/claims/2026_09_28_li|claim page]]). The
-tab's disclaimer says that a listing does not mean anyone associated with the
-site has examined the proof; no review of either proof is recorded beyond Li's
-check of one step of Han's argument, recorded on Han's claim page; this page
-records the claims without adopting them. The site's commentary credits Erdős
-[Er49c] with the assertion along an infinite sequence of moduli
+proof claim. The manuscript's main theorem is the full statement, and the full
+scope recorded here follows the manuscript. A comment under that entry, dated 28
+September 2026, announces Shisheng Li's Lean 4 development proving the
+formal-conjectures statement of the problem along a related route
+([[problems/integer_sequences/E0971/claims/2026_09_28_li|claim page]]). By its
+author's account, it was found with GPT-6 and formalized with Claude, and it has
+no `sorry` and uses the standard three axioms. This corpus has not built or
+audited it. The tab's disclaimer says that a listing does not mean anyone
+associated with the site has examined the proof. No review of either proof is
+recorded beyond Li's check of one step of Han's argument, which is recorded on
+Han's claim page.
+
+The site's commentary credits Erdős [Er49c] with the assertion along an infinite
+sequence of moduli
 ([[problems/integer_sequences/E0971/claims/1949_01_01_erdos|claim page]],
-accepted, partial). The discussion thread holds no proof: a comment of 31
-January 2026 derives the answer yes from a uniform prime-tuple hypothesis by a
-Poisson count of primes per class, and two others give heuristics and a
+accepted, partial). The discussion thread holds no proof. A comment of 31
+January 2026 derives the answer yes from a uniform prime-tuple hypothesis, by a
+Poisson count of primes per class. Two other comments give heuristics and a
 literature note on the larger quantity $\max_ap(a,d)$.
 
 **Source.** [erdosproblems.com/971](https://www.erdosproblems.com/971), accessed

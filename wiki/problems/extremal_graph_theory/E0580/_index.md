@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0580
 title: Problem 580
 desc: |
-  Asks whether every graph on n vertices in which at least half the vertices
-  have degree at least n over two contains every tree on at most n over two
-  vertices; proved by Zhao for large n, with finitely many orders unchecked.
+  Asks whether every graph on $n$ vertices in which at least $n/2$ vertices have
+  degree at least $n/2$ contains every tree on at most $n/2$ vertices. It is
+  open: Zhao proved it for large $n$, and finitely many orders remain unchecked.
 tags:
 - Graph theory
 status: open
@@ -43,29 +43,29 @@ and $\lfloor n/2\rfloor+1$ vertices, which the site's form does not ask
 about. The label DECIDABLE is the site's, which the site explains as a
 problem settled except for a finite check.
 
-**Status.** Decidable is the site's label; it describes the shape of what
-remains and is not a theorem, and the problem is open on the claims
-recorded here. Proved for all sufficiently large $n$: Zhao's Theorem 1.6
-[Zh11] (Electron. J. Combin. 18 (2011), P27, refereed;
+**Status.** Decidable is the site's label. It describes the shape of what
+remains and is not a theorem. The problem is open on the claims recorded here.
+It is proved for all sufficiently large $n$. Zhao's Theorem 1.6 [Zh11]
+(Electron. J. Combin. 18 (2011), P27, refereed;
 [[../library/extremal_graph_theory/zhao_2011_proof_n_2_n_2_n_2_conjecture_large_n/theorem_1_6|result page]])
-gives a threshold $n_0$ such that for every $n\ge n_0$ a graph of order $n$
-with at least $\lceil n/2\rceil$ vertices of degree at least
-$\lceil n/2\rceil$ contains every tree with at most $\lfloor n/2\rfloor$
-edges, which answers the site's question affirmatively for $n\ge n_0$; it is
-recorded as an accepted partial claim, the reduction to a finite check, on
+gives a threshold $n_0$ with the following property. For every $n\ge n_0$, a
+graph of order $n$ with at least $\lceil n/2\rceil$ vertices of degree at least
+$\lceil n/2\rceil$ contains every tree with at most $\lfloor n/2\rfloor$ edges.
+This answers the site's question affirmatively for $n\ge n_0$. It is recorded as
+an accepted partial claim, the reduction to a finite check, on
 [[problems/extremal_graph_theory/E0580/claims/2011_02_04_zhao|its claim page]].
-The threshold is not made explicit (the proof uses the Regularity Lemma), so the
-finite remainder $n<n_0$ has no stated bound and no source on record settles it;
-the earlier approximate theorem of Ajtai, Komlós and Szemerédi [AKS95] (quoted
-through Zhao's Theorem 1.5 and Chung's Problem (69); the original is not held)
-has $(1+\rho)n/2$ in both places. The site's proof-claim tab carries one partial
-claim of a computer-assisted verification for $n\le19$, unreviewed, recorded as
-a pending partial claim on
+The threshold is not made explicit (the proof uses the Regularity Lemma). So the
+finite remainder $n<n_0$ has no stated bound, and no source on record settles
+it. The earlier approximate theorem of Ajtai, Komlós and Szemerédi [AKS95] has
+$(1+\rho)n/2$ in both places. It is quoted through Zhao's Theorem 1.5 and
+Chung's Problem (69), and the original is not held. The site's proof-claim tab
+carries one unreviewed partial claim of a computer-assisted verification for
+$n\le19$. It is recorded as a pending partial claim on
 [[problems/extremal_graph_theory/E0580/claims/2026_07_14_zeraoulia|its claim page]].
-The site's label here stands for a statement proved for all $n\ge n_0$ with
-$n_0$ unknown and unchecked for finitely many $n$; this page keeps the label
-and records that reading without deciding whether the label's definition
-fits it.
+The site's label here stands for a statement proved for all $n\ge n_0$, with
+$n_0$ unknown, and unchecked for finitely many $n$. This page keeps the label
+and records that reading without deciding whether the label's definition fits
+it.
 
 **Source.** [erdosproblems.com/580](https://www.erdosproblems.com/580),
 accessed 2026-09-18: the problem page (DECIDABLE,

@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0569
 title: Problem 569
 desc: |
-  Asks for the least constant c such that the Ramsey number of an odd cycle
-  of length two k plus one against any m-edge graph without isolated vertices
-  is at most c times m.
+  Asks for the least constant $c_k$ such that $R(C_{2k+1},H)\le c_km$ for every
+  graph $H$ with $m$ edges and no isolated vertices. Open on the site, with a
+  pending claim of an exact answer.
 tags:
 - Graph theory
 - Ramsey theory
@@ -30,21 +30,21 @@ $$
 
 for any graph $H$ on $m$ edges without isolated vertices?
 
-**Status.** The site labels the problem OPEN. The triangle case $c_1=3$
-follows classically from Goddard and Kleitman's theorem and the one-edge
-endpoint described below, and is recorded as an accepted partial claim on
+**Status.** The site labels the problem OPEN. The pending claim gives the exact
+answer $c_k=2k+1$ for every $k\geq1$, by
+[[../library/ramsey_theory/cambie_2026_general_bound_r_c_k_h/theorem_3|Cambie--Freschi Theorem 3]]
+and the one-edge endpoint described below. The preprint claims the needed upper
+bound, but specific unverified proof concerns remain unresolved, and acceptance
+has not been established. The claim is recorded on
+[[problems/ramsey_theory/E0569/claims/2026_06_09_cambie_freschi|its claim page]].
+The frontmatter's standing is derived from that page as claimed, through the
+pending full claim. That standing is not a refutation of the claim. The triangle
+case $c_1=3$ follows classically from Goddard and Kleitman's theorem and the
+same endpoint. It is recorded as an accepted partial claim on
 [[problems/ramsey_theory/E0569/claims/1994_02_01_goddard_kleitman|Goddard and Kleitman 1994]]
 and on
-[[problems/ramsey_theory/E0569/claims/1993_07_01_sidorenko|Sidorenko 1993]],
-who proved the same theorem independently. For every $k\geq1$, the pending
-claim gives the exact answer $c_k=2k+1$, by
-[[../library/ramsey_theory/cambie_2026_general_bound_r_c_k_h/theorem_3|Cambie--Freschi Theorem 3]]
-and the same endpoint. The preprint claims the needed upper bound, but
-specific unverified proof concerns remain unresolved and acceptance has not
-been established. The claim is recorded on
-[[problems/ramsey_theory/E0569/claims/2026_06_09_cambie_freschi|its claim page]],
-and the frontmatter's standing is derived from that page as claimed, through
-the pending full claim; that standing is not a refutation of the claim.
+[[problems/ramsey_theory/E0569/claims/1993_07_01_sidorenko|Sidorenko 1993]], who
+proved the same theorem independently.
 
 **Source.** [erdosproblems.com/569](https://www.erdosproblems.com/569), accessed
 2026-09-09; the displayed formulation was unchanged from the 2026-09-04

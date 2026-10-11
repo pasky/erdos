@@ -2,8 +2,9 @@
 name: problems/integer_sequences/E0422
 title: Problem 422
 desc: |
-  Determines the behavior of a self-referential recursion whose terms are
-  sums of earlier terms, and whether it misses infinitely many integers.
+  Asks how the sequence given by $f(1)=f(2)=1$ and
+  $f(n)=f(n-f(n-1))+f(n-f(n-2))$ behaves, and whether it misses infinitely many
+  integers; open.
 tags:
 - Number theory
 status: open

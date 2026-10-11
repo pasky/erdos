@@ -2,9 +2,8 @@
 name: problems/primes/E0682
 title: Problem 682
 desc: |
-  Asks whether almost every n admits an integer strictly between the nth and
-  next prime whose least prime factor is at least the gap between those
-  primes.
+  Asks whether, for almost all $n$, some integer $m\in(p_n,p_{n+1})$ has least
+  prime factor $p(m)\ge p_{n+1}-p_n$; proved.
 tags:
 - Number theory
 - Primes
@@ -31,12 +30,13 @@ $$
 
 where $p(m)$ denotes the least prime factor of $m$?
 
-**Status.** Proved, on the site's label, which credits Gafni and Tao
-[GaTa25] for the affirmative answer: all but $O(X/(\log X)^2)$ of the prime
+**Status.** Proved, on the site's label. The label credits Gafni and Tao
+[GaTa25] with the affirmative answer: all but $O(X/(\log X)^2)$ of the prime
 gaps starting in $[X,2X]$ contain an integer whose least prime factor is at
-least the gap. A Lean proof of the statement in Alexeev's repository, not
-built here, is recorded beside the credit on the
-[[problems/primes/E0682/claims/2025_08_08_gafni_tao|claim page]].
+least the gap. Alexeev's repository holds a Lean proof of the statement. That
+proof is not built here. The
+[[problems/primes/E0682/claims/2025_08_08_gafni_tao|claim page]] records it
+beside the credit.
 
 **Source.** [erdosproblems.com/682](https://www.erdosproblems.com/682), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #682,

@@ -3,7 +3,7 @@ name: problems/additive_bases/E0707
 title: Problem 707
 desc: |
   Asks whether every finite Sidon set of integers can be extended to a perfect
-  difference set modulo p squared plus p plus 1 for some prime p.
+  difference set modulo $p^2+p+1$ for some prime $p$; disproved.
 tags:
 - Additive combinatorics
 - Sidon sets
@@ -25,11 +25,13 @@ updated: 2026-10-08T14:17:37Z
 set $B$ with $A\subseteq B$ which is perfect difference set modulo $p^2+p+1$ for
 some prime $p$?
 
-**Status.** DISPROVED (LEAN): Alexeev and Mixon's 2025 counterexamples
-([[problems/additive_bases/E0707/claims/2025_10_22_alexeev_mixon|claim page]]),
-whose Lean proofs this corpus has not audited, and Hall's 1947 counterexample
-([[problems/additive_bases/E0707/claims/1947_12_01_hall|claim page]]), which
-they recognized as the first disproof.
+**Status.** DISPROVED (LEAN). The disproofs are Alexeev and Mixon's 2025
+counterexamples
+([[problems/additive_bases/E0707/claims/2025_10_22_alexeev_mixon|claim page]])
+and Hall's 1947 counterexample
+([[problems/additive_bases/E0707/claims/1947_12_01_hall|claim page]]). This
+corpus has not audited Alexeev and Mixon's Lean proofs. Alexeev and Mixon
+recognized Hall's counterexample as the first disproof.
 
 **Source.** [erdosproblems.com/707](https://www.erdosproblems.com/707), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #707,

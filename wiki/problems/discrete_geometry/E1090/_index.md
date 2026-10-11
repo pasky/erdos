@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E1090
 title: Problem 1090
 desc: |
-  Asks whether, for each k at least 3, some finite planar set has every
-  two-coloring giving a line whose at least k points of the set share one
-  color.
+  Asks whether, for each $k\ge3$, some finite set in the plane has the property
+  that every $2$-coloring of it gives a line meeting it in at least $k$ points,
+  all of the same color. The answer is yes.
 tags:
 - Geometry
 - Ramsey theory
@@ -27,12 +27,13 @@ updated: 2026-10-08T14:17:37Z
 contains at least $k$ points from $A$, and all the points of $A$ on the line
 have the same colour?
 
-**Status.** PROVED (LEAN): the site credits Zach Hunter's observation (October
-2025) that a generic plane projection of a high-dimensional cube $[k]^n$ has
-the property by the Hales–Jewett theorem, proved in Lean in February 2026; see
-the [[problems/discrete_geometry/E1090/claims/2025_10_17_hunter|claim page]].
-The site also repeats Erdős's 1975 report that Graham and Selfridge answered
-the case $k=3$; that report is a pending partial claim on
+**Status.** PROVED (LEAN). The site credits Zach Hunter's observation (October
+2025) that a generic plane projection of a high-dimensional cube $[k]^n$ has the
+property by the Hales–Jewett theorem. The observation was proved in Lean in
+February 2026. See the
+[[problems/discrete_geometry/E1090/claims/2025_10_17_hunter|claim page]]. The
+site also repeats Erdős's 1975 report that Graham and Selfridge answered the
+case $k=3$. That report is a pending partial claim on
 [[problems/discrete_geometry/E1090/claims/1975_12_01_graham_selfridge|its own claim page]].
 
 **Source.** [erdosproblems.com/1090](https://www.erdosproblems.com/1090),

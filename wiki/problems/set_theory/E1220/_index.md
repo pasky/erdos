@@ -2,9 +2,9 @@
 name: problems/set_theory/E1220
 title: Problem 1220
 desc: |
-  Asks whether a singular cardinal that is aleph-zero-inaccessible, as is its
-  cofinality, satisfies the partition relation to itself and aleph one for
-  pairs.
+  Asks whether $\lambda\to(\lambda,\aleph_1)^2$ for every singular cardinal
+  $\lambda$ such that $\lambda$ and $\mathrm{cf}(\lambda)$ are both
+  $\aleph_0$-inaccessible; independent of ZFC.
 tags:
 - Set theory
 - Ramsey theory
@@ -35,16 +35,15 @@ hold?
 2026). The not-provable side, that ZFC does not prove the universal statement,
 is settled by
 [[problems/set_theory/E1220/claims/1987_01_01_shelah_stanley|Shelah and Stanley's accepted result]]
-[ShSt87, Theorem 3]: in its model $\aleph_{\mathfrak c^+}$, which meets both
-hypotheses in ZFC by Shelah's bound, fails the relation; Bae's pending claim
-asserts the same side. The not-disprovable side, that ZFC does not refute the
-statement, is settled by
+[ShSt87, Theorem 3]. In its model, $\aleph_{\mathfrak c^+}$ fails the relation.
+By Shelah's bound, this cardinal meets both hypotheses in ZFC. Bae's pending
+claim asserts the same side. The not-disprovable side, that ZFC does not refute
+the statement, is settled by
 [[problems/set_theory/E1220/claims/1965_03_01_erdos_hajnal_rado|Erdős, Hajnal and Rado's accepted result]]
-[EHR65, Theorem I (iv)], which gives the relation for every qualifying $\lambda$
+[EHR65, Theorem I (iv)]. It gives the relation for every qualifying $\lambda$
 under GCH, and GCH is consistent with ZFC. One accepted result of each kind
-settles the question as independent; the frontmatter standing is derived from
-these two claim pages, and this page departs from the site's label on that
-ground.
+settles the question as independent, and this page departs from the site's label
+on that ground. The frontmatter standing is derived from these two claim pages.
 
 **Source.** [erdosproblems.com/1220](https://www.erdosproblems.com/1220),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1220,

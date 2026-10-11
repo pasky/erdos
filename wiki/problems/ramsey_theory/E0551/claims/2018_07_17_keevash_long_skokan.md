@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0551/claims/2018_07_17_keevash_long_skokan
 title: Keevash, Long and Skokan prove the identity for all large n, leaving a finite check
 desc: |
-  Theorem 1.1 of Keevash, Long and Skokan (IMRN 2021) gives an absolute C with
-  R(C_k,K_n) = (k-1)(n-1)+1 whenever k is at least C log n / log log n, so
-  the identity holds for all large n; finitely many pairs remain unchecked.
+  Theorem 1.1 of Keevash, Long and Skokan (IMRN 2021) gives an absolute constant
+  $C$ with $R(C_k,K_n)=(k-1)(n-1)+1$ whenever $k\ge C\log n/\log\log n$, so the
+  identity holds for all large $n$. Finitely many pairs remain unchecked.
 authors:
 - Peter Keevash
 - Eoin Long
@@ -77,20 +77,21 @@ it in full is recorded on the pending claim page
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.
 
 **Acceptance.** Refereed: Int. Math. Res. Not. IMRN 2021, no. 1, 275--300,
-doi:10.1093/imrn/rnz119, published online 10 July 2019 (the site's
-reference gives the pages as 277--302), the `refereed` evidence; first
-posted as arXiv:1807.06376v1 on 17 July 2018, the date this page is named
-by, the only arXiv version. The statement is cited from the arXiv preprint;
-the journal text is not compared. The site's curator, T. F. Bloom, labels
-the problem DECIDABLE and credits this paper in the page's commentary with
-the identity for all $k\ge C\log n/\log\log n$ and so with the conjecture
-for every large $n$; but the label DECIDABLE, defined on the site as
-resolved up to a finite check, settles neither the problem nor a declared
-part of it, since a finite check of unknown extent remains, so the
-curator's credit is not `reviewed` evidence and the claim is accepted on
-the refereed publication alone. The one comment of the site's discussion
-thread (1 September 2025) describes the problem as reduced to a finitary
-question and still open.
+doi:10.1093/imrn/rnz119, published online 10 July 2019. The site's reference
+gives the pages as 277--302. This publication is the `refereed` evidence. The
+paper was first posted as arXiv:1807.06376v1 on 17 July 2018, the date this page
+is named by, and that is the only arXiv version. The statement is cited from the
+arXiv preprint, and the journal text is not compared.
+
+The site's curator, T. F. Bloom, labels the problem DECIDABLE. In the page's
+commentary the curator credits this paper with the identity for all
+$k\ge C\log n/\log\log n$, and so with the conjecture for every large $n$. The
+site defines DECIDABLE as resolved up to a finite check. Here a finite check of
+unknown extent remains, so the label settles neither the problem nor a declared
+part of it. The curator's credit is therefore not `reviewed` evidence, and the
+claim is accepted on the refereed publication alone. The one comment of the
+site's discussion thread (1 September 2025) describes the problem as reduced to
+a finitary question and still open.
 
 **Read depth.** Theorem 1.1 (arXiv:1807.06376v1, p. 2) and the remark on
 the constant (p. 16) are checked clause by clause; the proof is not

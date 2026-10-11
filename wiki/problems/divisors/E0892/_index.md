@@ -2,8 +2,9 @@
 name: problems/divisors/E0892
 title: Problem 892
 desc: |
-  Asks for a necessary and sufficient condition on an increasing sequence for
-  a primitive sequence, no term dividing another, to grow no faster than it.
+  Asks for a necessary and sufficient condition on an increasing sequence
+  $(b_n)$ of integers for there to be a primitive sequence $(a_n)$, in which no
+  term divides another, with $a_n\ll b_n$; open.
 tags:
 - Number theory
 - Primitive sets

@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0421
 title: Problem 421
 desc: |
-  Asks whether there is an increasing sequence of density one all of whose
-  products of consecutive blocks of terms are distinct; answered yes in July
-  2026 by Chojecki and Sneiderman, accepted by the site, not refereed.
+  Asks whether there is an increasing sequence of density $1$ whose products of
+  blocks of consecutive terms are all distinct. Chojecki and Sneiderman answered
+  yes in July 2026, in work the site accepts but that is not refereed.
 tags:
 - Number theory
 status: solved
@@ -24,31 +24,31 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Is there a sequence $1\leq d_1<d_2<\cdots$ with density $1$ such
 that all products $\prod_{u\leq i\leq v}d_i$ are distinct?
 
-**Status.** Solved: the answer is yes. The site labels the problem SOLVED
-(page last edited 1 September 2026). The result is Theorem 1.1 of
-Chojecki's preprint of 13 July 2026 (arXiv 2609.17543, 14 July 2026), a
-gap-greedy construction over consecutive primes whose proof the preprint states
-was found by GPT-5.6 Sol; Sneiderman's note of 21 July 2026
-reproves it with a sharper exponent, and Pratt's digested proof of 1
-September 2026, posted as the site's proof exposition, presents the argument
-in full following both. The site's curator records the answer as yes and describes
-its provenance as an approach sketched by Tao and fleshed out by Chojecki,
-full proofs claimed from GPT by several people independently, and Pratt's
-simplified exposition. No refereed publication exists as of 2026-10-07, and no
-formal proof has been built in this corpus; three further AI-assisted claims
-stand unreviewed, and Chojecki's claimed proof of January 2026 is recorded as
-rejected. Claim pages:
+**Status.** Solved: the answer is yes. The site labels the problem SOLVED (page
+last edited 1 September 2026). The site's curator records the answer as yes. The
+curator describes its provenance as an approach sketched by Tao and fleshed out
+by Chojecki, full proofs claimed from GPT by several people independently, and
+Pratt's simplified exposition. The result is Theorem 1.1 of Chojecki's preprint
+of 13 July 2026 (arXiv 2609.17543, 14 July 2026). It is a gap-greedy
+construction over consecutive primes, and the preprint states that its proof was
+found by GPT-5.6 Sol. Sneiderman's note of 21 July 2026 reproves it with a
+sharper exponent. Pratt's digested proof of 1 September 2026, posted as the
+site's proof exposition, presents the argument in full following both. As of
+2026-10-07 no refereed publication exists, and no formal proof has been built in
+this corpus. Three further AI-assisted claims stand unreviewed. Chojecki's
+claimed proof of January 2026 is recorded as rejected.
+
+Claim pages:
 [[problems/integer_sequences/E0421/claims/2026_07_13_chojecki|Chojecki]] and
 [[problems/integer_sequences/E0421/claims/2026_07_21_sneiderman|Sneiderman]]
 (accepted);
 [[problems/integer_sequences/E0421/claims/2026_07_10_kielhorn|Kielhorn]],
 [[problems/integer_sequences/E0421/claims/2026_07_13_pauwels|Pauwels]] and
-[[problems/integer_sequences/E0421/claims/2026_06_28_sharma|Sharma]]
-(claimed);
+[[problems/integer_sequences/E0421/claims/2026_06_28_sharma|Sharma]] (claimed);
 [[problems/integer_sequences/E0421/claims/2026_01_17_chojecki|Chojecki's January claim]]
 (rejected). Selfridge's construction, recorded under
-[[problems/integer_sequences/E0786/_index|Problem 786]], gives such a
-sequence of density greater than $1/e-\epsilon$ for every $\epsilon>0$.
+[[problems/integer_sequences/E0786/_index|Problem 786]], gives such a sequence
+of density greater than $1/e-\epsilon$ for every $\epsilon>0$.
 
 **Source.** [erdosproblems.com/421](https://www.erdosproblems.com/421), accessed
 2026-09-04, 2026-09-05 and 2026-10-07; the problem page carries a 47-comment

@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0883/claims/1996_12_02_erdos_sarkozy
 title: Odd cycles up to a constant multiple of n above the triangle threshold
 desc: |
-  Erdős and Sárközy prove that for large n a set above the triangle threshold
-  has every odd cycle of length up to 2cn+1 in its coprime graph, for some
-  unspecified c > 0; a weaker form of the first question.
+  Erdős and Sárközy prove that for large $n$, the coprime graph of a set above
+  the triangle threshold contains every odd cycle of length up to $2cn+1$, for
+  some unspecified $c>0$. This is a weaker form of the first question.
 authors:
 - Paul Erdős
 - Gábor N. Sárközy

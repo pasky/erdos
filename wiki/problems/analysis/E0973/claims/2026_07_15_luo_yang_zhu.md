@@ -2,9 +2,10 @@
 name: problems/analysis/E0973/claims/2026_07_15_luo_yang_zhu
 title: Luo, Yang and Zhu's subexponential power-sum bound
 desc: |
-  For every fixed lambda > 0 and all large n, complex numbers of modulus at
-  least one have a power sum of index between 2 and n + 1 above e^(-lambda n),
-  so no constant C > 1 exists; unreviewed, with only partial Lean support.
+  Luo, Yang and Zhu claim that for every fixed $\lambda>0$ and all large $n$,
+  complex numbers of modulus at least $1$ have a power sum of index between $2$
+  and $n+1$ above $e^{-\lambda n}$, so no constant $C>1$ exists. The claim is
+  unreviewed, with only partial Lean support.
 authors:
 - Yanping Luo
 - Ruiyi Yang

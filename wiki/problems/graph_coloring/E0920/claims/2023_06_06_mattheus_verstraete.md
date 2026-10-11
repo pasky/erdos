@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0920/claims/2023_06_06_mattheus_verstraete
 title: Mattheus and Verstraete's bound settles the case k = 4
 desc: |
-  The bound r(4,t) of order at least t^3/(log t)^4 of Mattheus and Verstraete
-  gives K_4-free graphs on n vertices with chromatic number at least a constant
-  times n^(2/3)/(log n)^(4/3); refereed, and credited by the site for k = 4.
+  Mattheus and Verstraete's bound that $r(4,t)$ is of order at least
+  $t^3/(\log t)^4$ gives $K_4$-free graphs on $n$ vertices with chromatic number
+  at least a constant times $n^{2/3}/(\log n)^{4/3}$. It is refereed and
+  credited by the site for $k=4$.
 authors:
 - Sam Mattheus
 - Jacques Verstraete
@@ -61,14 +62,16 @@ holds with $c_4=4/3$. The cases $k\ge5$ are the subject of
 **Depends on.**
 [[problems/ramsey_theory/E0166/claims/2023_06_06_mattheus_verstraete|Mattheus and Verstraete's claim page for Problem 166]].
 
-**Acceptance.** Published in Annals of Mathematics (2) **199** (2024), no. 2,
-919–941, after the arXiv posting of 6 June 2023. The site's curator, Thomas
-Bloom, marks the problem solved and credits the case $k=4$ to this bound, as the
-site's problem page, last edited 25 July 2026, records. This corpus has not
-reviewed its proof. Third-party Lean formalizations exist in Boris Alexeev's
-`lean-proofs` repository, with Codex and GPT-5.6 Sol as formal authors, linked
-above: `Erdos166.lean`, which names Mattheus and Verstraëte as informal authors,
-derives $r(4,t)=\Omega(t^3/\log^4t)$ from Bradač's general construction as
-formalized in `Erdos920.lean`, not from Mattheus and Verstraete's own proof, and
-`Erdos920.lean` names them among its informal authors. This corpus has not built
-them, so no `formalized` evidence is listed.
+**Acceptance.** The paper was posted to arXiv on 6 June 2023 and published in
+Annals of Mathematics (2) **199** (2024), no. 2, 919–941. The site's curator,
+Thomas Bloom, marks the problem solved and credits the case $k=4$ to this bound,
+as the site's problem page, last edited 25 July 2026, records. This corpus has
+not reviewed the proof.
+
+Third-party Lean formalizations exist in Boris Alexeev's `lean-proofs`
+repository, linked above, with Codex and GPT-5.6 Sol as formal authors.
+`Erdos166.lean` names Mattheus and Verstraëte as informal authors. It derives
+$r(4,t)=\Omega(t^3/\log^4t)$ from Bradač's general construction as formalized in
+`Erdos920.lean`, not from Mattheus and Verstraete's own proof. `Erdos920.lean`
+also names them among its informal authors. This corpus has not built these
+files, so no `formalized` evidence is listed.

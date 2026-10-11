@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0778/claims/2026_08_05_didin_pimenov
 title: The two-edge player wins the biased clique game for large n
 desc: |
-  Didin and Pimenov prove by a potential argument that the two-edge player
-  wins the (1:2)-biased clique-building game for every large n, with 3^158 as
-  the threshold of their Lean development; confirmed by Cambie on the thread.
+  Didin and Pimenov prove, by a potential argument, that the two-edge player
+  wins the $(1:2)$-biased clique-building game for every large $n$. Their Lean
+  development names $3^{158}$ as the threshold, and Cambie confirmed the result
+  on the thread.
 authors:
 - M. A. Didin
 - Mark Pimenov
@@ -101,15 +102,15 @@ questions are on
 paper, and the discrepancy-game theorem it credits as its inspiration is a
 precedent, not an input.
 
-**Acceptance.** Reviewed: Stijn Cambie (the account StijnC, author with
-Provoost of the 2025 paper on these games) wrote on the claim's thread on
-7 August 2026 that Cambie had proofread the paper and confirms its correctness,
-describing the argument as a linear combination of potentials in the manner
-of Beck's proofs for maker-breaker games; Cambie's earlier comment of 6 August
-2026 remarked only on the introduction's account of the Malekshahian--Spiro
-bias, giving the bias 15 of their first arXiv version; their second version
-(Theorem 3, Corollary 14) proves the bias $1:4$ that the introduction
-states. That is a named expert's documented review, not a referee's report:
-the preprint is unpublished, so `refereed` is not listed, and the site's
-label is OPEN as a partial claim does not change it.
-Nothing on this page is this project's own review.
+**Acceptance.** Reviewed: Stijn Cambie (the account StijnC, author with Provoost
+of the 2025 paper on these games) wrote on the claim's thread on 7 August 2026
+that Cambie had proofread the paper and confirms its correctness. Cambie
+described the argument as a linear combination of potentials in the manner of
+Beck's proofs for maker-breaker games. Cambie's earlier comment, of 6 August
+2026, remarked only on the introduction's account of the Malekshahian--Spiro
+bias. That comment gave the bias 15 of Malekshahian and Spiro's first arXiv
+version. Their second version (Theorem 3, Corollary 14) proves the bias $1:4$
+that the introduction states. This is a named expert's documented review, not a
+referee's report. The preprint is unpublished, so `refereed` is not listed. The
+site's label is OPEN, and a partial claim does not change it. Nothing on this
+page is this project's own review.

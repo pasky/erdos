@@ -3,8 +3,8 @@ name: problems/set_theory/E0597/claims/1971_09_01_erdos_hajnal
 title: The Erdős–Hajnal triangle case of the finite question
 desc: |
   Erdős and Hajnal (Period. Math. Hungar., 1971) proved in ZFC that
-  omega_1^2 -> (omega_1 omega, 3)^2, which answers the finite question for
-  the triangle and so for every graph on at most three vertices.
+  $\omega_1^2\to(\omega_1\omega,3)^2$. This answers the finite question for the
+  triangle, and so for every graph on at most three vertices.
 authors:
 - P. Erdős
 - A. Hajnal
@@ -69,8 +69,8 @@ is the open scan in the Rényi Institute's Erdős archive. The paper proves
 Theorem 5 by induction on $t$; nothing on this page is independently
 reviewed by this project.
 
-**Acceptance.** Refereed: a journal paper in Periodica Mathematica
-Hungarica. The site labels Problem 597 OPEN, so the curator's commentary
-crediting the relation is not acceptance of a claim and `reviewed` is not
-listed. [[problems/set_theory/E0597/claims/2026_07_27_white|White's report]]
-uses the relation as the base case of its block-graph theorem.
+**Acceptance.** Refereed: a journal paper in Periodica Mathematica Hungarica.
+The site labels Problem 597 OPEN. So the curator's commentary crediting the
+relation is not acceptance of a claim, and `reviewed` is not listed.
+[[problems/set_theory/E0597/claims/2026_07_27_white|White's report]] uses the
+relation as the base case of its block-graph theorem.

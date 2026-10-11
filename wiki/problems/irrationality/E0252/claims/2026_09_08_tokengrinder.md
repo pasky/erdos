@@ -2,9 +2,9 @@
 name: problems/irrationality/E0252/claims/2026_09_08_tokengrinder
 title: Anonymous Lean proof for every k
 desc: |
-  A kernel-checked Lean 4 development, published anonymously in September
-  2026 under the name Tokengrinder, proves that the sum of sigma_k(n)/n! is
-  irrational for every natural k; rebuilt and statement-audited here.
+  A kernel-checked Lean 4 development, published anonymously in September 2026
+  under the name Tokengrinder, proves that $\sum_n\sigma_k(n)/n!$ is irrational
+  for every natural $k$. It was rebuilt and its statement audited here.
 authors: []
 status: accepted
 claim: proved
@@ -98,32 +98,35 @@ reviewed. The repository also carries the author's written exposition,
 source, not the exposition, is the checked artifact.
 
 **Acceptance.** Formalized: this corpus cloned the repository at the pinned
-commit, built it under its pinned Lean 4.33.1 and Mathlib v4.33.1, printed
-the axioms of the main theorem and the six audit corollaries with
-`--trust=0` (the closure is exactly `propext`, `Classical.choice`,
-`Quot.sound`), found no `sorry`, `native_decide`, `axiom`, `opaque`,
-`unsafe`, `implemented_by` or `extern` in the sources, and replayed the
-module and its whole import closure from an empty environment with
-`leanchecker --fresh`; a fresh-context blind reviewer then read the theorem
-as it stood on 2026-09-18 through a frozen extraction, unfolded the statement
-to Mathlib's primitives and found it faithful to the site's question and
-strictly stronger (verdict refutation-failed), and a distinct grader passed
-that review for its contract and for independence. Those records, the
-third-round
+commit and built it under its pinned Lean 4.33.1 and Mathlib v4.33.1. The corpus
+then printed the axioms of the main theorem and of the six audit corollaries
+with `--trust=0`. The closure is exactly `propext`, `Classical.choice`,
+`Quot.sound`. The corpus found no `sorry`, `native_decide`, `axiom`, `opaque`,
+`unsafe`, `implemented_by` or `extern` in the sources. It replayed the module
+and its whole import closure from an empty environment with `leanchecker
+--fresh`.
+
+A fresh-context blind reviewer then read the theorem as it stood on 2026-09-18
+through a frozen extraction. The reviewer unfolded the statement to Mathlib's
+primitives and found it faithful to the site's question and strictly stronger
+(verdict refutation-failed). A distinct grader passed that review for its
+contract and for independence. These records, the third-round
 [[../library/irrationality/tokengrinder_2026_erdos_252_irrationality_factorial_divisor_sum/evidence/verify/fidelity_review_r3|fidelity review]]
 and its
 [[../library/irrationality/tokengrinder_2026_erdos_252_irrationality_factorial_divisor_sum/evidence/verify/fidelity_grade_r3|grade]],
-are the statement audit behind the `formalized` evidence; two earlier review
-rounds of 2026-09-17 and 2026-09-18 are void for independence and warrant
-nothing. No `reviewed` or `refereed` evidence exists: as of 2026-09-17 the
-site labels the problem open (page last edited 2026-01-22) and lists the
-author's entry under its disclaimer, the community database and
-formal-conjectures list it open with the issue unanswered (at the revision
-of 2026-10-06 linked as the `record`, the formal-conjectures statement
-`erdos_252` is tagged research open and proved by `sorry`), and there is no
-refereed write-up, referee, maintainer response or expert acknowledgment. The
-trust base is Lean's kernel and the consistency of Mathlib v4.33.1. No native
-L-claim, native Lean coverage or numerical tier is assigned.
+are the statement audit behind the `formalized` evidence. Two earlier review
+rounds, of 2026-09-17 and 2026-09-18, are void for independence and warrant
+nothing.
+
+No `reviewed` or `refereed` evidence exists. As of 2026-09-17 the site labels
+the problem open (page last edited 2026-01-22) and lists the author's entry
+under its disclaimer. The community database and formal-conjectures list it
+open, with the issue unanswered. At the revision of 2026-10-06 linked as the
+`record`, the formal-conjectures statement `erdos_252` is tagged research open
+and proved by `sorry`. There is no refereed write-up, referee, maintainer
+response or expert acknowledgment. The trust base is Lean's kernel and the
+consistency of Mathlib v4.33.1. No native L-claim, native Lean coverage or
+numerical tier is assigned.
 
 **Depends on.** Nothing in this wiki; the claim is the kernel-checked
 theorem of the cited development.

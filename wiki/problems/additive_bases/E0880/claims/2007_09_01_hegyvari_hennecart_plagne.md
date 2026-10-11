@@ -3,8 +3,8 @@ name: problems/additive_bases/E0880/claims/2007_09_01_hegyvari_hennecart_plagne
 title: Hegyvári, Hennecart and Plagne on gaps between restricted sums
 desc: |
   Hegyvári, Hennecart and Plagne (2007) prove bounded gaps for a basis of order
-  two and construct, for every order k at least three, a basis whose sums of
-  distinct elements have unbounded gaps: the assertion fails except for k = 2.
+  two. For every order $k\ge3$ they construct a basis whose sums of distinct
+  elements have unbounded gaps, so the assertion fails except for $k=2$.
 authors:
 - N. Hegyvári
 - F. Hennecart
@@ -77,13 +77,12 @@ fails for every $h\ge3$. The source card is
 the theorem numbering used here is that of the authors' preprint. This
 outline is a reading aid, not proof coverage.
 
-**Acceptance.** The `refereed` evidence is the journal publication cited
-above (Combinatorics, Probability and Computing; Crossref gives the issue
-date 2007-09-01, which is the page's date). The `reviewed` evidence is the
-documented acceptance by the catalog erdosproblems.com: its curator, Thomas
-Bloom, credits both answers to this paper in the problem's remarks, and the
-page carries the label PROVED (accessed 2026-10-07). The proof is not compiled
-or reviewed here.
+**Acceptance.** The `refereed` evidence is the journal publication cited above,
+in Combinatorics, Probability and Computing. Crossref gives the issue date
+2007-09-01, which is the page's date. The `reviewed` evidence is the documented
+acceptance by the catalog erdosproblems.com. Its curator, Thomas Bloom, credits
+both answers to this paper in the problem's remarks, and the page carries the
+label PROVED (accessed 2026-10-07). The proof is not compiled or reviewed here.
 
 **Formalization.** A third party formalized both answers: `not_erdos_880` in
 `src/latest/ErdosProblems/Erdos880.lean` of Boris Alexeev's repository

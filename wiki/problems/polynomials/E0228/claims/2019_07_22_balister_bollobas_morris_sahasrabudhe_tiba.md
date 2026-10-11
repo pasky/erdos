@@ -2,9 +2,10 @@
 name: problems/polynomials/E0228/claims/2019_07_22_balister_bollobas_morris_sahasrabudhe_tiba
 title: Flat Littlewood polynomials exist
 desc: |
-  Balister, Bollobás, Morris, Sahasrabudhe and Tiba prove that every degree
-  at least 2 admits a plus-minus-one polynomial with modulus within fixed
-  multiples of the root of the degree on the whole circle; Annals, 2020.
+  Balister, Bollobás, Morris, Sahasrabudhe and Tiba prove that for every degree
+  $n\ge2$ some polynomial $P$ with coefficients $\pm1$ has
+  $\delta\sqrt n\le\lvert P(z)\rvert\le\Delta\sqrt n$ on the whole unit circle,
+  for fixed $\delta,\Delta>0$. It appeared in the Annals in 2020.
 authors:
 - Paul Balister
 - Béla Bollobás
@@ -67,19 +68,23 @@ et al. 2020]].
 paper.
 
 **Acceptance.** Refereed: the paper appeared in the Annals of Mathematics in
-November 2020. Reviewed: erdosproblems.com labels the problem proved, credits
-the answer to this paper for every $n\ge2$ and cites it as [BBMST20] (page
-last edited 2026-01-23), which the corpus counts as documented independent
-acceptance by the site's curator, T. F. Bloom (erdosproblems.com). Not
-counted as formalized: the site's label is PROVED (LEAN), and the Lean it
-refers to is the file `Erdos228.lean` of Boris Alexeev's lean-proofs
-repository (added 2026-08-21, last changed 2026-08-23; the formalization
-link), which declares itself a formalization of a solution to Problem 228
-with Balister, Bollobás, Morris, Sahasrabudhe and Tiba as informal authors
-and Codex and GPT-5.6 Sol as formal authors and proves `Erdos228.erdos_228`,
-the statement of the formal-conjectures file, which itself holds no proof.
-As a self-declared formalization of this theorem it is a link on this page
-and not a claim of its own; it was not built or audited here, so the evidence
-lists no `formalized` kind. The
-corpus has not verified the proof; the standing rests on the refereeing and
+November 2020.
+
+Reviewed: erdosproblems.com labels the problem proved, credits the answer to
+this paper for every $n\ge2$ and cites it as [BBMST20] (page last edited
+2026-01-23). The corpus counts this as documented independent acceptance by the
+site's curator, T. F. Bloom (erdosproblems.com).
+
+Not counted as formalized. The site's label is PROVED (LEAN). The Lean it refers
+to is the file `Erdos228.lean` of Boris Alexeev's lean-proofs repository (added
+2026-08-21, last changed 2026-08-23; the formalization link). The file declares
+itself a formalization of a solution to Problem 228. It names Balister,
+Bollobás, Morris, Sahasrabudhe and Tiba as informal authors and Codex and
+GPT-5.6 Sol as formal authors. It proves `Erdos228.erdos_228`, the statement of
+the formal-conjectures file, which itself holds no proof. As a self-declared
+formalization of this theorem, it is a link on this page and not a claim of its
+own. It was not built or audited here, so the evidence lists no `formalized`
+kind.
+
+The corpus has not verified the proof. The standing rests on the refereeing and
 the site's acceptance, not on a local review.

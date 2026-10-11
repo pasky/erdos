@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0552/claims/2017_04_01_zhang_chen_cheng
 title: Zhang, Chen and Cheng, R(C_4,S_n) at n = q^2-t for odd prime powers q and odd t
 desc: |
-  Theorem 4 of Zhang, Chen and Cheng (Discrete Math. 2017) gives
-  R(C_4,K_{1,q^2-t}) = q^2+q-(t-1) for odd prime powers q and 1 <= t <=
-  2 ceil(q/4), t not 2 ceil(q/4)-1; refereed.
+  Theorem 4 of Zhang, Chen and Cheng (Discrete Math. 2017), a refereed result,
+  gives $R(C_4,K_{1,q^2-t})=q^2+q-(t-1)$ for every odd prime power $q$ and every
+  $t$ with $1\le t\le2\lceil q/4\rceil$ and $t\ne2\lceil q/4\rceil-1$.
 authors:
 - Xuemei Zhang
 - Yaojun Chen
@@ -54,9 +54,9 @@ $n+\lceil\sqrt n\rceil$ or one more.
 constructions and lemmas.
 
 **Acceptance.** Refereed: the paper is a journal publication in Discrete
-Mathematics, volume 340, number 4 (April 2017), the `refereed` evidence;
-the issue carries no day, so this page is dated to the first day of that
-month. The site's curator refers to this paper in the commentary on exact
-values, but the site's label OPEN settles neither the problem nor a
-declared part of it, so `reviewed` is not listed. The statement is checked
-against the publisher's text; the proof is read for structure only.
+Mathematics, volume 340, number 4 (April 2017). This is the `refereed` evidence.
+The issue carries no day, so this page is dated to the first day of that month.
+The site's curator refers to this paper in the commentary on exact values. But
+the site's label OPEN settles neither the problem nor a declared part of it, so
+`reviewed` is not listed. The statement is checked against the publisher's text,
+and the proof is read for structure only.

@@ -2,8 +2,9 @@
 name: problems/unit_fractions/E0295
 title: Problem 295
 desc: |
-  Asks whether the fewest distinct unit fractions with denominators at least N
-  summing to one exceeds e minus one times N by an amount tending to infinity.
+  Asks whether $k(N)-(e-1)N\to\infty$, where $k(N)$ is the least number of
+  distinct unit fractions, all with denominators at least $N$, that sum to $1$;
+  open.
 tags:
 - Number theory
 - Unit fractions
@@ -42,12 +43,11 @@ it. Small values from the Monthly problem: $k(1)=1$, $k(2)=3$, $k(3)=5$ (since
 $1=\frac13+\frac14+\frac15+\frac16+\frac1{20}$).
 
 **Status.** Open: the site's label is OPEN. The Erdős–Straus solution of 1971
-proves $(e-1)N-c_2<k(N)<(e-1)N+c_1N/\log N$ and says the divergence "seems to
-us certain" but is unproved; the 1980 monograph repeats both. No proof or
-disproof of the divergence was found in the search whose
-scope the Current assessment records; the one proof claim on the site is
-partial, AI-assisted and unreviewed. This is a bounded negative finding, not a
-certificate of openness.
+proves $(e-1)N-c_2<k(N)<(e-1)N+c_1N/\log N$. It says that the divergence "seems
+to us certain" but is unproved. The 1980 monograph repeats both. No proof or
+disproof of the divergence was found in the search whose scope the Current
+assessment records. The one proof claim on the site is partial, AI-assisted and
+unreviewed. This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/295](https://www.erdosproblems.com/295),
 accessed 2026-09-17: the problem page (OPEN; last edited 1 October 2025), its

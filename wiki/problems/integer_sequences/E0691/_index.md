@@ -3,8 +3,8 @@ name: problems/integer_sequences/E0691
 title: Problem 691
 desc: |
   Asks for a necessary and sufficient condition on a set of positive integers
-  for its set of multiples to have density one; open, with one family of
-  block sequences settled by Tenenbaum.
+  for its set of multiples to have density $1$; open, with one family of block
+  sequences settled by Tenenbaum.
 tags:
 - Number theory
 status: open
@@ -25,18 +25,18 @@ updated: 2026-10-07T19:40:10Z
 n\textrm{ for some }a\in A\}$ be the set of multiples of $A$. Find a necessary
 and sufficient condition on $A$ for $M_A$ to have density $1$.
 
-**Status.** Open, the site's label. The site credits Tenenbaum's 1996
-theorem. For block sequences whose consecutive ratios lie between two
-constants above $1$ and whose blocks have relative length $j^{-\alpha}$, it
-proves Erdős's threshold conjecture with critical exponent $\log 2$
-([[problems/integer_sequences/E0691/claims/1996_08_01_tenenbaum|claim page]]),
-an accepted partial claim with refereed evidence. It does not answer the
-general question, so the derived standing is `open` with claim `none`. A
-thread note of 17 April 2026 with a Lean formalization, both produced with
-GPT-5.4 Pro, proves the classical Davenport--Erdős criterion: $M_A$ has
-density $1$ exactly when the densities of the multiples of $A\cap[1,N]$ tend
-to $1$. On 18 April 2026 its author recast it as an exposition of that known
-fact (equation (1.3) of Hall and Tenenbaum), so it has no claim page.
+**Status.** The site's label is Open. The site credits Tenenbaum's 1996 theorem.
+For block sequences whose consecutive ratios lie between two constants above $1$
+and whose blocks have relative length $j^{-\alpha}$, it proves Erdős's threshold
+conjecture with critical exponent $\log 2$
+([[problems/integer_sequences/E0691/claims/1996_08_01_tenenbaum|claim page]]).
+This is an accepted partial claim with refereed evidence. It does not answer the
+general question, so the derived standing is `open` with claim `none`. A thread
+note of 17 April 2026 with a Lean formalization, both produced with GPT-5.4 Pro,
+proves the classical Davenport--Erdős criterion: $M_A$ has density $1$ exactly
+when the densities of the multiples of $A\cap[1,N]$ tend to $1$. On 18 April
+2026 its author recast it as an exposition of that known fact (equation (1.3) of
+Hall and Tenenbaum), so it has no claim page.
 
 **Source.** [erdosproblems.com/691](https://www.erdosproblems.com/691), accessed
 2026-09-04 and 2026-10-07 (problem page last edited 28 December 2025; its

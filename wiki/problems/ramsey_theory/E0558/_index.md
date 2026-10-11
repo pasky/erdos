@@ -2,8 +2,8 @@
 name: problems/ramsey_theory/E0558
 title: Problem 558
 desc: |
-  Determines the k-color Ramsey number of the complete bipartite graph with s
-  vertices in one class and t in the other.
+  Asks for the $k$-color Ramsey number $R_k(K_{s,t})$ of the complete bipartite
+  graph with $s$ vertices in one class and $t$ in the other; open.
 tags:
 - Graph theory
 - Ramsey theory
@@ -50,21 +50,21 @@ Roberts (below), and the case $s=t=2$ is the four-cycle of
 
 **Status.** Open, in the site's label (OPEN; page last edited 8 February 2026,
 accessed 2026-09-17). No source determines $R_k(K_{s,t})$ in general, and the
-search, whose scope the Current assessment records, found
-no proof claim. The one claim page,
+search, whose scope the Current assessment records, found no proof claim. The
+one claim page,
 [[problems/ramsey_theory/E0558/claims/1999_07_01_alon_ronyai_szabo|Alon, Rónyai and Szabó 1999]],
 settles the instance $s=t=3$ only, so the frontmatter standing derived from it
-stays open. What is known from the sources read: the exact star values
+stays open. The sources read give the following. The exact star values are
 $R_k(K_{1,t})=k(t-1)+1$ when $k$ and $t$ are both even and $k(t-1)+2$ otherwise
-(Burr and Roberts, quoted by Chung and Graham), the order $\Theta(k^t)$ whenever
-$s\ge(t-1)!+1$ (Alon, Rónyai and Szabó, J. Combin. Theory Ser. B 76 (1999)), the
-asymptotics $(1+o(1))k^3$ for $K_{3,3}$ (same paper) and $(1+o(1))k^2$ for
-$K_{2,2}$ (the site's sentence; Chung and Graham print $k^2-k+1<R_k(K_{2,2})\le
-k^2+k+1$ for $k-1$ a prime power, from which it follows), the bracket $tk^2+1\le
-R_k(K_{2,t+1})\le tk^2+k+2$ for $t$ and $k$ powers of one prime (Taranchuk 2024,
-a preprint, with Chung and Graham's Theorem 2), and Chung and Graham's general
-bounds, their Theorems 1 and 4. This is a bounded negative finding, not a
-certificate of openness.
+(Burr and Roberts, quoted by Chung and Graham). The order is $\Theta(k^t)$
+whenever $s\ge(t-1)!+1$ (Alon, Rónyai and Szabó, J. Combin. Theory Ser. B 76
+(1999)). The asymptotics are $(1+o(1))k^3$ for $K_{3,3}$ (same paper) and
+$(1+o(1))k^2$ for $K_{2,2}$. The latter is the site's sentence. It follows from
+the bounds $k^2-k+1<R_k(K_{2,2})\le k^2+k+1$ for $k-1$ a prime power, which
+Chung and Graham print. The bracket $tk^2+1\le R_k(K_{2,t+1})\le tk^2+k+2$ holds
+for $t$ and $k$ powers of one prime (Taranchuk 2024, a preprint, with Chung and
+Graham's Theorem 2). Chung and Graham also give general bounds, their Theorems 1
+and 4. This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/558](https://www.erdosproblems.com/558), accessed
 2026-09-17: the problem page (OPEN, which the site qualifies as not resolvable

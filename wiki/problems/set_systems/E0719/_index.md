@@ -2,9 +2,9 @@
 name: problems/set_systems/E0719
 title: Problem 719
 desc: |
-  Asks whether every r-uniform hypergraph on n vertices is a union of at most
-  ex_r(n; K_{r+1}^r) edges and (r+1)-cliques, no two sharing an edge; the
-  Erdős–Sauer conjecture, known for r = 2.
+  Asks whether every $r$-uniform hypergraph on $n$ vertices is a union of at
+  most $\mathrm{ex}_r(n;K_{r+1}^r)$ edges and $(r+1)$-cliques, no two sharing an
+  edge. It is the Erdős–Sauer conjecture, known for $r=2$ and otherwise open.
 tags:
 - Graph theory
 - Hypergraphs
@@ -47,8 +47,8 @@ poses the conjecture for $r$-graphs as the generalization of the
 Erdős–Goodman–Pósa theorem on graphs, the case $r=2$ ([Er81], Part IV, item 3),
 and the formal-conjectures statement assumes $r\ge2$.
 
-**Status.** Open on erdosproblems.com (label OPEN; the site's notes call it a
-conjecture of Erdős and Sauer).
+**Status.** Open on erdosproblems.com (label OPEN). The site's notes call it a
+conjecture of Erdős and Sauer.
 
 **Source.** [erdosproblems.com/719](https://www.erdosproblems.com/719), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #719,

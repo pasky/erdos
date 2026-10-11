@@ -2,8 +2,10 @@
 name: problems/polynomials/E1152
 title: Problem 1152
 desc: |
-  Asks a question about fixed sets of n distinct interpolation nodes in the
-  interval from minus one to one together with a tolerance tending to zero.
+  Asks whether, for any array of distinct nodes in $[-1,1]$ and any
+  $\epsilon(n)\to 0$, some continuous $f$ makes every sequence of interpolants
+  $p_n$ of $f$ with $\deg p_n<(1+\epsilon(n))n$ fail to converge to $f(x)$ for
+  almost all $x$; a proof is claimed but not accepted.
 tags:
 - Analysis
 - Polynomials
@@ -30,21 +32,22 @@ such that $p_n(x_{kn})=f(x_{kn})$ for all $1\leq k\leq n$, then $p_n(x)\not\to
 f(x)$ for almost all $x\in [-1,1]$?
 
 **Status.** OPEN, the site's label (page last edited 23 January 2026; the
-problem page and its proof-claims tab accessed 2026-10-06). The tab carries one
-full proof claim, by Qiyuan Gu, submitted 2026-09-04 with a Zenodo write-up
-drafted, as the tab discloses, using GPT 6 Astra, running on top of GPT 5.6 Sol
-and Claude Fable 5.1; it claims to answer the question yes in a stronger form:
-for any array and any excess degree $r_n=o(n)$ some continuous $f$ makes every
-sequence of interpolants $p_n$ of degree at most $n+r_n$ satisfy
+problem page and its proof-claims tab accessed 2026-10-06). The derived standing
+departs from this label: the problem is claimed as proved, because the tab
+carries one pending full proof claim. The claim is by Qiyuan Gu, submitted
+2026-09-04 with a Zenodo write-up. As the tab discloses, the write-up was
+drafted using GPT 6 Astra, running on top of GPT 5.6 Sol and Claude Fable 5.1.
+It claims to answer the question yes in a stronger form: for any array and any
+excess degree $r_n=o(n)$, some continuous $f$ makes every sequence of
+interpolants $p_n$ of degree at most $n+r_n$ satisfy
 $\limsup_n\lvert p_n(x)\rvert=\infty$ at almost every $x$. The claim is
 recorded, unadopted, on
-[[problems/polynomials/E1152/claims/2026_09_04_gu|its claim page]]; the derived
-standing departs from the site's label because this pending full claim makes the
-problem claimed as proved, and it stays pending since no outside review or
-refereed publication of it is known. For a fixed $\epsilon>0$ the opposite holds
-for suitable arrays: Erdős, Kroó and Szabados [EKS89] give arrays for which
-every continuous $f$ has interpolants of degree below $(1+\epsilon)n$ converging
-uniformly, as the site's commentary records.
+[[problems/polynomials/E1152/claims/2026_09_04_gu|its claim page]]. It stays
+pending since no outside review or refereed publication of it is known. For a
+fixed $\epsilon>0$ the opposite holds for suitable arrays. As the site's
+commentary records, Erdős, Kroó and Szabados [EKS89] give arrays for which every
+continuous $f$ has interpolants of degree below $(1+\epsilon)n$ converging
+uniformly.
 
 **Source.** [erdosproblems.com/1152](https://www.erdosproblems.com/1152),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1152,

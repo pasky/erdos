@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0579/claims/1983_03_01_erdos_hajnal_sos_szemeredi
 title: "Erdős, Hajnal, Sós and Szemerédi: the case delta > 1/8"
 desc: |
-  Theorem 1 of Erdős, Hajnal, Sós and Szemerédi (Combinatorica 1983) with the
-  arboricity-two membership of K_{2,2,2} gives every K_{2,2,2}-free graph with
-  more than n^2/8 edges a linear independent set, the case delta > 1/8; refereed.
+  Theorem 1 of Erdős, Hajnal, Sós and Szemerédi (Combinatorica 1983), with
+  $K_{2,2,2}$ in the paper's arboricity-two class, gives every $K_{2,2,2}$-free
+  graph with at least $\delta n^2$ edges an independent set of linear size when
+  $\delta>1/8$. The result is refereed.
 authors:
 - P. Erdős
 - A. Hajnal
@@ -74,6 +75,6 @@ claims depth; the proof (Sections 2--5) is not checked. Library home:
 [[../library/ramsey_theory/erdos_1983_more_results_ramsey_turan_type_problems/_index|erdos_1983_more_results_ramsey_turan_type_problems]].
 
 **Acceptance.** Refereed: Combinatorica is a refereed journal. The site's
-commentary credits Erdős, Hajnal, Sós and Szemerédi with the case
-$\delta>1/8$ while labeling the problem OPEN, so the credit is context and not
-`reviewed` evidence. Nothing here is independently reviewed by this corpus.
+commentary credits Erdős, Hajnal, Sós and Szemerédi with the case $\delta>1/8$,
+but the site labels the problem OPEN. So the credit is context, not `reviewed`
+evidence. Nothing here is independently reviewed by this corpus.

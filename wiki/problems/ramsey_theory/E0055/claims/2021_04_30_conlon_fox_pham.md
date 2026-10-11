@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0055/claims/2021_04_30_conlon_fox_pham
 title: Conlon, Fox and Pham bound the growth of r-Ramsey complete sequences
 desc: |
-  Theorem 1.1 of the 2021 preprint: for every r at least 2, an r-Ramsey
-  complete sequence with O(r log² n) terms up to n, and none with c r log² n
-  terms up to every large n; an unrefereed preprint the site's curator credits.
+  Theorem 1.1 of Conlon, Fox and Pham's 2021 preprint gives, for every $r\ge2$,
+  an $r$-Ramsey complete sequence with $O(r\log^2 n)$ terms up to $n$, and shows
+  that none has $cr\log^2 n$ terms up to every large $n$. The preprint is
+  unrefereed, and the site's curator credits it.
 authors:
 - David Conlon
 - Jacob Fox
@@ -50,19 +51,22 @@ it together with the two-color question, which is
 the paper's threshold $n(A)$ makes the constructed sequence entirely
 $r$-Ramsey complete.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the
-problem SOLVED and credits the solution to the paper in the problem's
-commentary, which records the construction for every $r\ge2$ and the
-matching lower bound (accessed 2026-09-17; the page shows no last-edited
-date); the discussion thread and the proof-claim tab are empty. The curator
-is independent of the authors. Not refereed: the paper is an arXiv preprint,
-version 1 of 30 April 2021 and the only version on the listing on
-2026-09-17, with no journal version found (Crossref bibliographic query of
-the same date). The eight works citing the paper in the Semantic Scholar
-record of 2026-09-17 concern subset sums and knapsack algorithms and dispute
-nothing. Read depth: this page rests on the statement of Theorem 1.1 and the
-paragraphs around it, not on the proof, which the paper builds on its
-density Lemma 2.8; nothing here is independent review.
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+SOLVED and credits the solution to the paper in the problem's commentary. The
+commentary records the construction for every $r\ge2$ and the matching lower
+bound (accessed 2026-09-17; the page shows no last-edited date). The discussion
+thread and the proof-claim tab are empty. The curator is independent of the
+authors.
+
+Not refereed: the paper is an arXiv preprint. Version 1 of 30 April 2021 was the
+only version on the listing on 2026-09-17, and no journal version was found
+(Crossref bibliographic query of the same date). The eight works citing the
+paper in the Semantic Scholar record of 2026-09-17 concern subset sums and
+knapsack algorithms, and they dispute nothing.
+
+Read depth: this page rests on the statement of Theorem 1.1 and the paragraphs
+around it, not on the proof, which the paper builds on its density Lemma 2.8.
+Nothing here is independent review.
 
 **Depends on.** Nothing in this wiki; the result is the paper's own
 theorem.

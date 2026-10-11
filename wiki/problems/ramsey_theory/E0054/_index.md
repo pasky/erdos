@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0054
 title: Problem 54
 desc: |
-  Asks to improve the Burr–Erdős bounds on how sparse a Ramsey 2-complete
-  sequence can be; Conlon, Fox and Pham determined the order as the square of
-  the logarithm, closing the gap to a constant factor.
+  Asks to improve the Burr–Erdős bounds on how sparse a Ramsey $2$-complete
+  sequence can be. Conlon, Fox and Pham determined the order as $(\log N)^2$,
+  closing the gap to a constant factor.
 tags:
 - Number theory
 - Ramsey theory
@@ -71,17 +71,17 @@ their Theorem 1.1 proves it in any case. The site's prize is Erdős's: "could (8
 and (9) be improved (100 dollars)?" in his 1995 collection, where (8) and (9)
 are the growth forms of Theorems 1a and 2a (quoted below).
 
-**Status.** Solved, in the site's label, which marks a request carried out
-rather than a proposition proved: the sparsest Ramsey $2$-complete sequence has
-counting function of order $(\log N)^2$, by Theorem 1.1 of Conlon, Fox and Pham
-at $r=2$, which improves the site's second display from the cube to the square
-of the logarithm and matches the first display up to the constant factor. The
-status-defining source is an arXiv preprint, arXiv:2104.14766v1 (30 April 2021);
-the site's curator accepted it as the resolution (SOLVED, last edited 28
-October 2025), and the authors' refereed 2022 paper on Problem 1211 uses its
-Theorem 6.1 as an input. On the curator's acceptance the claim page records the
-result as accepted, with no refereed version, and the frontmatter standing is
-derived from it.
+**Status.** Solved. The site's label here marks a request carried out rather
+than a proposition proved. The sparsest Ramsey $2$-complete sequence has
+counting function of order $(\log N)^2$. This is Theorem 1.1 of Conlon, Fox and
+Pham at $r=2$. It improves the site's second display from the cube to the square
+of the logarithm, and it matches the first display up to the constant factor.
+The status-defining source is an arXiv preprint, arXiv:2104.14766v1 (30 April
+2021). The site's curator accepted it as the resolution (SOLVED, last edited 28
+October 2025). The authors' refereed 2022 paper on Problem 1211 uses its Theorem
+6.1 as an input. On the curator's acceptance, the claim page records the result
+as accepted, with no refereed version. The frontmatter standing is derived from
+it.
 
 **Source.** [erdosproblems.com/54](https://www.erdosproblems.com/54),
 accessed 2026-09-18: the problem page (SOLVED, the site's label for a

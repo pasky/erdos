@@ -2,9 +2,9 @@
 name: problems/divisors/E0056/claims/1995_01_01_ahlswede_khachatrian
 title: Ahlswede and Khachatrian, the conjecture for N large in terms of k
 desc: |
-  For every k there is n(k) such that for every N above n(k) the multiples of
-  the first k primes are the unique largest subset of the first N integers with
-  no k plus one pairwise coprime elements.
+  Ahlswede and Khachatrian prove that for every $k$ there is $n(k)$ such that
+  for every $N>n(k)$ the multiples of the first $k$ primes form the unique
+  largest subset of $\{1,\ldots,N\}$ with no $k+1$ pairwise coprime elements.
 authors:
 - Rudolf Ahlswede
 - Levon Khachatrian
@@ -54,7 +54,7 @@ gives no such bound on $n(k)$, so that form is not settled.
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.
 
 **Acceptance.** Refereed: Acta Arith. 72 (1995), no. 1, 77--100, a refereed
-journal. The site's DISPROVED (LEAN) label credits the 1994 paper, not this
-one, so no `reviewed` evidence is listed. The page is dated by the publication
-year alone: the publisher's record gives 1995 without a month, so the first
-day of the year stands in for the issue date.
+journal. The site's DISPROVED (LEAN) label credits the 1994 paper, not this one,
+so no `reviewed` evidence is listed. The page is dated by the publication year
+alone. The publisher's record gives 1995 without a month, so the first day of
+the year stands in for the issue date.

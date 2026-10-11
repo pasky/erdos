@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0481
 title: Problem 481
 desc: |
-  Asks whether iterating a family of affine maps from the value one must
-  repeat an element when the reciprocals of the multipliers sum to over one;
-  yes, by Klarner's 1982 theorem, its 2022 extension and a 2025 thread proof.
+  Asks whether, when $\sum_i 1/a_i>1$, iterating the maps $x\mapsto a_ix+b_i$
+  from $A_1=(1)$ must produce some $A_k$ with repeated elements; yes, by
+  Klarner's 1982 theorem, its 2022 extension and a 2025 thread proof.
 tags:
 - Number theory
 status: solved
@@ -33,34 +33,37 @@ $$
 Prove that, if $A_1=(1)$ and $A_{i+1}=T(A_i)$, then there must be some $A_k$
 with repeated elements.
 
-**Status.** PROVED (LEAN). The site records the statement as true: first
-shown by Klarner in 1982, generalized by Kolpakov and Talambutsa in 2022, and
-proved independently by an elementary argument posted in the site's thread on
-1 December 2025. The three are the claim pages
+**Status.** PROVED (LEAN). The site records the statement as true. Klarner first
+showed it in 1982, Kolpakov and Talambutsa generalized it in 2022, and an
+elementary argument posted in the site's thread on 1 December 2025 proved it
+independently. The three are the claim pages
 [[problems/integer_sequences/E0481/claims/1982_01_01_klarner|Klarner]],
 [[problems/integer_sequences/E0481/claims/2021_05_19_kolpakov_talambutsa|Kolpakov and Talambutsa]]
-and [[problems/integer_sequences/E0481/claims/2025_12_01_barreto|Barreto]];
-the first two are accepted on refereed publication and the acceptance of the
-site's curator, Thomas Bloom, the third on that acceptance and Terence Tao's
-endorsement in the thread. Klarner's paper is not held, and Kolpakov and
+and [[problems/integer_sequences/E0481/claims/2025_12_01_barreto|Barreto]]. The
+first two are accepted on refereed publication and the acceptance of the site's
+curator, Thomas Bloom. The third is accepted on that acceptance and on Terence
+Tao's endorsement in the thread. Klarner's paper is not held. Kolpakov and
 Talambutsa report that it omits the second part of its proof, which their
-Theorem 3 supplies in print. The (Lean) suffix is a catalog label: the
-community database lists the Lean status as of its last update on 1 December
-2025, the day of the thread proof, whose comment links a Lean 4 web-editor
-formalization; a second Lean proof of the statement, with Barreto and Claude
-Opus 4.5 as its formal authors, sits in Boris Alexeev's lean-proofs
-repository; formal-conjectures holds only the statement, neither proof is
-recorded in formal-conjectures or the community database, and nothing was
-built or checked here (see Formalization). The site notes that the original
-formulation also required the least element of $A_k$ to be large, a
-condition that, as the site credits Ryan Alweiss with pointing out, holds
-automatically, since the least element grows by at least one at each stage.
-Erdős and Graham, who pose the problem on printed p. 96 of their 1980
-monograph, call its difficulty surprising. The thread also relates the
-problem to a 2002 shortlist problem and generalizes the harmonic-sum
-argument to non-affine maps whose growth ratios
-$c_i=\limsup_n f_i(n)/n$ satisfy $\sum_i 1/c_i>1$; those are remarks, not
-claims on the question.
+Theorem 3 supplies in print.
+
+The (Lean) suffix is a catalog label. The community database lists the Lean
+status as of its last update on 1 December 2025, the day of the thread proof.
+The comment with the thread proof links a Lean 4 web-editor formalization. A
+second Lean proof of the statement, with Barreto and Claude Opus 4.5 as its
+formal authors, sits in Boris Alexeev's lean-proofs repository. Only the
+statement is in formal-conjectures. Neither proof is recorded in
+formal-conjectures or the community database, and nothing was built or checked
+here (see Formalization).
+
+The site notes that the original formulation also required the least element of
+$A_k$ to be large. As the site credits Ryan Alweiss with pointing out, this
+condition holds automatically, since the least element grows by at least one at
+each stage. Erdős and Graham pose the problem on printed p. 96 of their 1980
+monograph and call its difficulty surprising. The thread also relates the
+problem to a 2002 shortlist problem. The thread also generalizes the
+harmonic-sum argument to non-affine maps whose growth ratios
+$c_i=\limsup_n f_i(n)/n$ satisfy $\sum_i 1/c_i>1$. Those are remarks, not claims
+on the question.
 
 **Source.** [erdosproblems.com/481](https://www.erdosproblems.com/481), accessed
 2026-09-04, and the page (PROVED (LEAN), last edited 3 December 2025, source

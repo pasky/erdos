@@ -2,8 +2,8 @@
 name: problems/distance_problems/E0959
 title: Problem 959
 desc: |
-  Estimates the largest possible gap between the two highest distance
-  multiplicities determined by a set of n points in the plane.
+  Asks to estimate the largest possible gap between the two highest distance
+  multiplicities determined by a set of $n$ points in the plane; open.
 tags:
 - Geometry
 - Distances
@@ -38,15 +38,15 @@ $$
 
 where the maximum is taken over all $A$ of size $n$.
 
-**Status.** Open. The site's label was OPEN on 2026-10-06, and its page
-credits no result beyond the $n\log n$ bound of [CDL25], on the
+**Status.** Open. The site's label was OPEN on 2026-10-06. Its page credits no
+result beyond the $n\log n$ bound of [CDL25], which is on the
 [[problems/distance_problems/E0959/claims/2025_05_07_clemen_dumitrescu_liu|Clemen--Dumitrescu--Liu claim page]].
-The proof-claims tab carries two partial claims, neither adopted by the site:
-Colin Snyder's claim of 2026-07-15, a lower bound of order $n^{1+c/\log\log n}$
-on the largest gap with a Lean 4 archive, on the
-[[problems/distance_problems/E0959/claims/2026_07_15_snyder|Snyder claim page]],
-and Theofil Xeff's claim of 2026-07-21, a lower bound of order $n^{1+c}$ for
-an absolute $c>0$, on the
+The proof-claims tab carries two partial claims, and the site has adopted
+neither. Colin Snyder's claim of 2026-07-15 is a lower bound of order
+$n^{1+c/\log\log n}$ on the largest gap, with a Lean 4 archive. It is on the
+[[problems/distance_problems/E0959/claims/2026_07_15_snyder|Snyder claim page]].
+Theofil Xeff's claim of 2026-07-21 is a lower bound of order $n^{1+c}$ for an
+absolute $c>0$. It is on the
 [[problems/distance_problems/E0959/claims/2026_07_21_xeff|Xeff claim page]].
 
 **Source.** [erdosproblems.com/959](https://www.erdosproblems.com/959), accessed

@@ -2,9 +2,10 @@
 name: problems/number_theory/E1135
 title: Problem 1135
 desc: |
-  Asks whether every orbit of the shortcut Collatz map reaches one; open, with
-  the site's caveat on the reported Erdős prize figure, verification below
-  2^71, no cycle with at most 91 local minima, and Tao's almost-all theorem.
+  Asks whether every orbit of the shortcut Collatz map reaches $1$; open, with
+  verification below $2^{71}$, no nontrivial cycle with at most $91$ local
+  minima, and Tao's almost-all theorem. The site adds a caveat on the reported
+  Erdős prize figure.
 tags:
 - Number theory
 - Iterated functions
@@ -44,25 +45,27 @@ comments stay at that intersection; this page does the same.
 
 **Status.** The site labels the problem OPEN (page last edited 12 January 2026,
 label accessed 2026-09-18). No proof, disproof or accepted resolution was found
-in the search whose scope the Current assessment records; the
-formal-conjectures file is `research open`, and the sources cited here prove
-partial results only: every starting value below $2^{71}$ reaches $1$ (Barina,
-J. Supercomput. 81 (2025), refereed); no nontrivial cycle of $f$ has at most
-$91$ local minima (Hercher, J. Integer Seq. 26 (2023), refereed); almost all
-orbits attain almost bounded values in logarithmic density (Tao, Forum Math. Pi
-10 (2022), refereed); and at least $X^{0.84}$ of the integers up to $X$ reach
-$1$ (Krasikov and Lagarias, Acta Arith. 109 (2003), reported by Lagarias's
-survey and Tao's introduction). Unrefereed manuscripts claiming proofs exist on
-the arXiv listing and are recorded below as leads only. This is a bounded
-negative finding, not a certificate of openness. The site lists a prize with its
-own caveat: the figure comes from Lagarias's 1985 survey [La85], and Lagarias,
-in a personal communication the site reports, traced it to a conversation around
-1983 in which Graham asked where Erdős would put the problem on the Erdős prize
-scale, and Erdős named a sum; so, the site says, Erdős never offered the sum as
-a prize, and the figure is listed only to place the problem on that scale beside
-the problems Erdős did rate. The 1985 survey's p. 4 lists Erdős's figure among
-three prizes offered for a solution, beside Coxeter's of 1970 and a later one of
-Thwaites, with no source, date or occasion for the Erdős figure
+in the search whose scope the Current assessment records. This is a bounded
+negative finding, not a certificate of openness. The formal-conjectures file is
+`research open`. The sources cited here prove partial results only. Every
+starting value below $2^{71}$ reaches $1$ (Barina, J. Supercomput. 81 (2025),
+refereed). No nontrivial cycle of $f$ has at most $91$ local minima (Hercher, J.
+Integer Seq. 26 (2023), refereed). Almost all orbits attain almost bounded
+values in logarithmic density (Tao, Forum Math. Pi 10 (2022), refereed). At
+least $X^{0.84}$ of the integers up to $X$ reach $1$ (Krasikov and Lagarias,
+Acta Arith. 109 (2003), reported by Lagarias's survey and Tao's introduction).
+Unrefereed manuscripts claiming proofs exist on the arXiv listing and are
+recorded below as leads only.
+
+The site lists a prize with its own caveat. The figure comes from Lagarias's
+1985 survey [La85]. In a personal communication that the site reports, Lagarias
+traced it to a conversation around 1983. In that conversation Graham asked where
+Erdős would put the problem on the Erdős prize scale, and Erdős named a sum. So,
+the site says, Erdős never offered the sum as a prize. The figure is listed only
+to place the problem on that scale beside the problems Erdős did rate. The 1985
+survey's p. 4 lists Erdős's figure among three prizes offered for a solution,
+beside Coxeter's of 1970 and a later one of Thwaites. It gives no source, date
+or occasion for the Erdős figure
 ([[../library/number_theory/lagarias_1985_3x1_problem_generalizations/erdos_remarks_p3_p4|the passage]]).
 
 **Source.** [erdosproblems.com/1135](https://www.erdosproblems.com/1135),

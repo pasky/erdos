@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0678
 title: Problem 678
 desc: |
-  Asks whether infinitely often a block of k consecutive integers has a
-  larger least common multiple than a later block of k+1; proved in a strong
-  form by Cambie (2024, arXiv), the ratio exceeding any constant.
+  Asks whether, infinitely often, a block of $k$ consecutive integers has a
+  larger least common multiple than a later block of $k+1$. Cambie (2024, arXiv)
+  proved this in a strong form, with the ratio exceeding any constant.
 tags:
 - Number theory
 status: solved
@@ -46,21 +46,22 @@ target; the fixed-$k$ reading is a Formulation note on the 1979 item, not a
 defect of the site's question. The site's source keys are [Er79, p. 67] and
 [Er92e, p. 47], with [Ca24] cited in the commentary.
 
-**Status.** Proved; the site's label is PROVED (LEAN). Cambie's Theorem 1
-(arXiv:2410.09138v1, 11 October 2024, 5 pages): for every constant $C\ge1$
-and every sufficiently large $k$ there are integers $0<x<y$ with $y>x+k$ and
+**Status.** Proved. The site's label is PROVED (LEAN). The status-defining
+source is Cambie's Theorem 1 (arXiv:2410.09138v1, 11 October 2024, 5 pages). It
+states that for every constant $C\ge1$ and every sufficiently large $k$ there
+are integers $0<x<y$ with $y>x+k$ and
 $\operatorname{lcm}\{x,\ldots,x+k-1\}>C\cdot\operatorname{lcm}\{y,\ldots,y+k\}$.
 With $n=x-1$ and $m=y-1$ (an authored one-line substitution), this reads
-$M(n,k)>C\cdot M(m,k+1)$ with $m>n+k$, so for $C=1$ every large $k$ gives a
-triple and there are infinitely many; the ratio can moreover exceed any
-constant. The status-defining source is an arXiv preprint with no journal
-acceptance found on 2026-09-18; the site accepted it (PROVED (LEAN), 11
-January 2026), and an external Lean formalization of the theorem, which
-imports an external project for the prime number theorem, accompanies it.
-The suffix is a catalog label explained under Formalization and the Lean
-label, and no local kernel credit is claimed. Claim page:
-[[problems/integer_sequences/E0678/claims/2024_10_11_cambie|Cambie 2024]]
-(accepted on the site's documented acceptance; not refereed).
+$M(n,k)>C\cdot M(m,k+1)$ with $m>n+k$. So for $C=1$ every large $k$ gives a
+triple, and there are infinitely many. The ratio can also exceed any constant.
+The preprint has no journal acceptance found on 2026-09-18. The site accepted it
+(PROVED (LEAN), 11 January 2026), and an external Lean formalization of the
+theorem accompanies it. That formalization imports an external project for the
+prime number theorem. The suffix is a catalog label explained under
+Formalization and the Lean label, and no local kernel credit is claimed. The
+claim page is
+[[problems/integer_sequences/E0678/claims/2024_10_11_cambie|Cambie 2024]],
+accepted on the site's documented acceptance and not refereed.
 
 **Source.** [erdosproblems.com/678](https://www.erdosproblems.com/678),
 accessed 2026-09-18: the problem page (PROVED (LEAN), with the site's note

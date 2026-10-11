@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E1211/claims/2021_05_31_conlon_fox_pham
 title: Conlon, Fox and Pham, the minimum is (2 + sqrt 3)/4
 desc: |
-  Theorem 1 of Conlon, Fox and Pham (Mathematika 2022): in every two-class
-  partition of the natural numbers the larger upper logarithmic density of
-  the subset sums is at least (2 + sqrt 3)/4, and a coloring attains it.
+  Theorem 1 of Conlon, Fox and Pham (Mathematika 2022): in every partition of
+  the natural numbers into two classes, the larger upper logarithmic density of
+  the two sets of subset sums is at least $(2+\sqrt3)/4$, and a coloring attains
+  this value.
 authors:
 - David Conlon
 - Jacob Fox
@@ -62,15 +63,15 @@ part of this problem.
 theorem.
 
 **Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
-SOLVED and credits Conlon, Fox and Pham in the problem's commentary with the
-value $c=(2+\sqrt3)/4$ and with the coloring that attains it (page last edited 8
-April 2026); the curator is independent of the authors, and the community
-database records the problem solved (last updated 4 April 2026). Refereed:
+SOLVED. In the problem's commentary, the curator credits Conlon, Fox and Pham
+with the value $c=(2+\sqrt3)/4$ and with the coloring that attains it (page last
+edited 8 April 2026). The curator is independent of the authors. The community
+database records the problem as solved (last updated 4 April 2026). Refereed:
 Mathematika 68 (2022), no. 4, 1292--1301, published online 10 October 2022 (per
-the Crossref record). The text cited is arXiv:2105.15195v3 (22 September 2022);
-the journal text was not compared, so every locator is a preprint page. The
-search (arXiv, Crossref, OpenAlex) found no dispute of the theorem
-and no second determination of $c_2$.
+the Crossref record). The text cited is arXiv:2105.15195v3 (22 September 2022).
+The journal text was not compared, so every locator is a preprint page. The
+search (arXiv, Crossref, OpenAlex) found no dispute of the theorem and no second
+determination of $c_2$.
 
 **Read depth.** Theorem 1, the definitions and the upper-bound argument on
 pp. 1--2 of the preprint were checked, as were the statements of Lemma 2,

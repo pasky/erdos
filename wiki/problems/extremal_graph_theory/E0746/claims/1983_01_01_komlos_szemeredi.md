@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0746/claims/1983_01_01_komlos_szemeredi
 title: Komlós and Szemerédi's limit law
 desc: |
-  Komlós and Szemerédi prove that with (n/2) log n + (n/2) log log n + c n edges
-  the probability of a Hamiltonian cycle tends to exp(-exp(-2c)), and to 1 as
-  c → ∞, answering Problem 746; refereed in Discrete Mathematics 43 (1983).
+  In a refereed paper in Discrete Mathematics 43 (1983), Komlós and Szemerédi
+  prove that with $\tfrac n2\log n+\tfrac n2\log\log n+cn$ edges the probability
+  of a Hamiltonian cycle tends to $e^{-e^{-2c}}$, and to $1$ as $c\to\infty$.
+  This answers Problem 746.
 authors:
 - János Komlós
 - Endre Szemerédi
@@ -65,13 +66,13 @@ Korshunov's 1985 comment calls this paper an independent solution.
 
 **Acceptance.** Refereed: Discrete Mathematics 43 (1983), no. 1, per the
 publisher's Crossref record. Reviewed: Erdős cites the paper, then "to appear",
-as settling the conjecture in his 1981 Combinatorica paper (Part VIII) and his
-1982 Singapore paper (§ 1); the site's curator, Thomas Bloom, labels the problem
-proved and records the limit law in the problem's commentary; Frieze's 2021
-bibliography records it. Theorems 1 and 2 are taken as printed and the proof (§§
-1--2) for structure only; the equivalence of the two random-graph models is
-asserted on p. 56 without argument. This corpus supplies no independent proof
-review.
+as settling the conjecture in his 1981 Combinatorica paper (Part VIII) and in
+his 1982 Singapore paper (§ 1). The site's curator, Thomas Bloom, labels the
+problem proved and records the limit law in the problem's commentary. Frieze's
+2021 bibliography records the paper. Theorems 1 and 2 are taken as printed, and
+the proof (§§ 1--2) for structure only. The equivalence of the two random-graph
+models is asserted on p. 56 without argument. This corpus supplies no
+independent proof review.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos746.lean` of
 Boris Alexeev's `plby/lean-proofs` repository, linked above at a pinned

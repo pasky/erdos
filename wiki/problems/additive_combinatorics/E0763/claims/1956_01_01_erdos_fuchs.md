@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0763/claims/1956_01_01_erdos_fuchs
 title: The Erdős–Fuchs theorem rules out a bounded error term
 desc: |
-  Theorem 1 of Erdős and Fuchs (1956) proves that no sequence has its pair
-  count equal to cn plus o(n^{1/4} (log n)^{-1/2}) with c > 0, so a bounded
-  error is impossible; accepted, refereed and credited by the site.
+  Theorem 1 of Erdős and Fuchs (1956) proves that no sequence has its pair count
+  equal to $cn+o(n^{1/4}(\log n)^{-1/2})$ with $c>0$, so a bounded error is
+  impossible. The claim is accepted, refereed and credited by the site.
 authors:
 - P. Erdös
 - W. H. J. Fuchs
@@ -68,25 +68,28 @@ extended the impossibility to an error term $o(N^{1/4})$
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed publication: J. London Math. Soc. 31 (1956), no. 1,
-67--73, doi:10.1112/jlms/s1-31.1.67; the Crossref record dates the issue to
-January 1956, filled to the first of the month for this page's name. The 1954
-printing is the Cornell University and Air Force Office of Scientific Research
-technical report of August 1954 that preceded the journal paper; the journal's
-pagination comes from the Crossref record and the zbMATH review, not from that
-printing. Reviewed: the site's curator, Thomas Bloom, labels the problem
-DISPROVED and credits the answer, in its strong form, to Erdős and Fuchs in the
-problem page's commentary (the proof-claim tab is empty and the thread has no
-posts). A Lean 4 development, `src/latest/ErdosProblems/Erdos763.lean` of Boris
-Alexeev's lean-proofs repository (1,495 lines at the pinned commit of
-2026-09-15, first added 2026-08-17), declares itself a formalization of the
-solution: its header names Erdős, Fuchs, Montgomery and Vaughan as informal
-authors and Codex and GPT-5.6 Sol as formal authors, and its `not_erdos_763`
-proves that for no `A : Set ℕ` and `c > 0` is the summatory ordered
-representation count through `N` equal to `c * N` up to `O(1)`, the
-bounded-error case only, by a Parseval argument on a circle; it closes with
-`#print axioms not_erdos_763` without the printed output. The formal-conjectures
+67--73, doi:10.1112/jlms/s1-31.1.67. The Crossref record dates the issue to
+January 1956, and this page's name fills that to the first of the month. The
+1954 printing is the Cornell University and Air Force Office of Scientific
+Research technical report of August 1954, which preceded the journal paper. The
+journal's pagination comes from the Crossref record and the zbMATH review, not
+from that printing.
+
+Reviewed: the site's curator, Thomas Bloom, labels the problem DISPROVED. The
+problem page's commentary credits the answer, in its strong form, to Erdős and
+Fuchs. The proof-claim tab is empty and the thread has no posts.
+
+A Lean 4 development declares itself a formalization of the solution. It is
+`src/latest/ErdosProblems/Erdos763.lean` of Boris Alexeev's lean-proofs
+repository, first added 2026-08-17, with 1,495 lines at the pinned commit of
+2026-09-15. Its header names Erdős, Fuchs, Montgomery and Vaughan as informal
+authors and Codex and GPT-5.6 Sol as formal authors. Its `not_erdos_763` proves
+that for no `A : Set ℕ` and `c > 0` is the summatory ordered representation
+count through `N` equal to `c * N` up to `O(1)`. This is the bounded-error case
+only, proved by a Parseval argument on a circle. The file closes with `#print
+axioms not_erdos_763`, without the printed output. The formal-conjectures
 statement for the problem (commit of 2026-09-20) is tagged solved and names line
-1464 of the file, the theorem, as its formal proof; it also states the
+1464 of the file, the theorem, as its formal proof. It also states the
 Erdős–Fuchs and Montgomery–Vaughan error terms as variants without proofs. The
 corpus has not built the development, so the page lists no `formalized`
 evidence.

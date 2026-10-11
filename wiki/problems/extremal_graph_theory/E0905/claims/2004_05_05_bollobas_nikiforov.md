@@ -3,8 +3,8 @@ name: problems/extremal_graph_theory/E0905/claims/2004_05_05_bollobas_nikiforov
 title: Bollobás and Nikiforov's book of size above n/6
 desc: |
   Corollary 3 of Bollobás and Nikiforov, Books in graphs (European J. Combin.
-  2005), gives every graph with n vertices and more than n^2/4 edges a book of
-  size greater than n/6; accepted on the refereed publication.
+  2005), gives every graph with $n$ vertices and more than $n^2/4$ edges a book
+  of size greater than $n/6$. The claim is accepted on the refereed publication.
 authors:
 - Bela Bollobas
 - Vladimir Nikiforov
@@ -67,20 +67,20 @@ coauthor, V. Nikiforov.
 $\sum_id^2(i)\ge4m^2/n$ from the Cauchy--Schwarz inequality) is
 self-contained.
 
-**Acceptance.** Refereed publication in the European Journal of Combinatorics
-(Crossref record: volume 26, issue 2, pp. 259--270, issue dated February 2005;
-the arXiv comment of May 2004 says the paper was accepted there), the
-`refereed` evidence. No `reviewed` evidence is listed: the site's commentary
-credits Edwards and the 1979 note and does not name this paper, and the
-external Lean file's docstring, which calls this paper's proof cleaner and
-follows its route, is not an independent review. Because of the shared author,
-this page is not used as independent acceptance of the 1979 note on
-[[problems/extremal_graph_theory/E0905/claims/1979_10_01_khadzhiivanov_nikiforov|its claim page]];
-it does independently attest Edwards's 1977 manuscript, recorded on
+**Acceptance.** The `refereed` evidence is the paper's refereed publication in
+the European Journal of Combinatorics. The Crossref record gives volume 26,
+issue 2, pp. 259--270, with the issue dated February 2005, and the arXiv comment
+of May 2004 says the paper was accepted there. No `reviewed` evidence is listed.
+The site's commentary credits Edwards and the 1979 note and does not name this
+paper. The external Lean file's docstring calls this paper's proof cleaner and
+follows its route, but it is not an independent review. Because of the shared
+author, this page is not used as independent acceptance of the 1979 note on
+[[problems/extremal_graph_theory/E0905/claims/1979_10_01_khadzhiivanov_nikiforov|its claim page]].
+It does independently attest Edwards's 1977 manuscript, recorded on
 [[problems/extremal_graph_theory/E0905/claims/1977_01_01_edwards|Edwards's page]].
 Read depth: claims checked for Theorem 1 and Corollaries 2 and 3 in the arXiv
-text; the proof of Corollary 2 read and followed; the proof of Theorem 1 not
-read; the journal text not compared with the preprint.
+text. The proof of Corollary 2 was read and followed. The proof of Theorem 1 was
+not read, and the journal text was not compared with the preprint.
 
 **Formalization.** None declared a formalization of this paper. The
 external Lean file linked on the Khadzhiivanov and Nikiforov page declares

@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0456/claims/2026_09_23_turturean
 title: Turturean's answers no, no and yes
 desc: |
-  A forum claim asserts that the least prime 1 mod n equals the least m with
-  n | phi(m) on a set of positive lower density, refuting the first two
-  questions, and that uniqueness primes number >> X/(log X)^55; pending.
+  Turturean's forum claim asserts that the least prime $\equiv1\pmod n$ equals
+  the least $m$ with $n\mid\varphi(m)$ on a set of positive lower density,
+  answering the first two questions no. It also asserts that uniqueness primes
+  up to $X$ number $\gg X/(\log X)^{55}$, and it is pending.
 authors:
 - David Turturean
 status: claimed

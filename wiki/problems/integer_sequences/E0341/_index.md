@@ -2,8 +2,9 @@
 name: problems/integer_sequences/E0341
 title: Problem 341
 desc: |
-  Asks whether the sequence extending a finite set by the least integer that
-  is not a sum of two earlier terms has eventually periodic differences.
+  Asks whether the sequence that extends a finite set by repeatedly adding the
+  least larger integer that is not a sum of two earlier terms has eventually
+  periodic differences; disproved.
 tags:
 - Number theory
 status: solved
@@ -26,13 +27,13 @@ defining $a_{n+1}$ for $n\geq k$ to be the least integer exceeding $a_n$ which
 is not of the form $a_i+a_j$ with $i,j\leq n$. Is it true that the sequence of
 differences $a_{m+1}-a_m$ is eventually periodic?
 
-**Status.** Disproved; the site's label is OPEN (on 2026-10-07; page last
-edited 20 January 2026). The corpus accepts Li's full disproof of 9 August 2026,
-[[problems/integer_sequences/E0341/claims/2026_08_09_li|an explicit 21-element seed whose greedy extension has aperiodic gaps]],
-on formalized evidence: Boris Alexeev's Lean formalization of it was built
-here and its theorem audited against the Statement above, so the problem
-stands solved and disproved. The site has not accepted the claim, and no
-refereed version or independent review was found.
+**Status.** Disproved; the site's label is OPEN (on 2026-10-07; page last edited
+20 January 2026). Li's full disproof of 9 August 2026 is
+[[problems/integer_sequences/E0341/claims/2026_08_09_li|an explicit 21-element seed whose greedy extension has aperiodic gaps]].
+The corpus accepts it on formalized evidence. Boris Alexeev's Lean formalization
+of it was built here, and its theorem was audited against the Statement above,
+so the problem stands solved and disproved. The site has not accepted the claim,
+and no refereed version or independent review was found.
 
 **Source.** [erdosproblems.com/341](https://www.erdosproblems.com/341), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #341,

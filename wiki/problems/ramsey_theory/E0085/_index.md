@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0085
 title: Problem 85
 desc: |
-  Asks whether the least minimum degree forcing a four-cycle on n vertices is
-  nondecreasing for all large n; open, with the equivalent star Ramsey numbers
-  R(C_4, K_{1,n}) known exactly only for small n and near prime-power squares.
+  Asks whether the least minimum degree $f(n)$ forcing a $C_4$ in an $n$-vertex
+  graph satisfies $f(n+1)\ge f(n)$ for all large $n$. It is open, and the
+  equivalent star Ramsey numbers $R(C_4,K_{1,n})$ are known exactly only for
+  small $n$ and near prime-power squares.
 tags:
 - Graph theory
 - Ramsey theory
@@ -50,33 +51,34 @@ complementary $h(n)$ with a constant $C$; only the 1995 statement adds that
 the question can be asked for graphs other than $C_4$.
 
 **Status.** Open. No source found proves or refutes eventual monotonicity of
-$f$. The size of $f$ is known: $f(n)=(1+o(1))\sqrt n$ (the site, from the
-bounds of Problem 552; Erdős's display (3) of 1996 for $h(n)$) and $f(4)=2$
-(the site). The site's further bound $f(n)<\sqrt n+1$ is an off-by-one
-error: the counting argument behind it bounds $h$, the largest minimum
-degree of a $C_4$-free graph on $n$ vertices, by $h(n)(h(n)-1)\le n-1$, so
-$h(n)\le(1+\sqrt{4n-3})/2$ and $f(n)=h(n)+1<\sqrt n+3/2$, and Erdős's
-"$f(n)<\sqrt n+1$ is easy" in [Er93] is about his own $f$, which is $h$.
-The bound fails for the page's $f$: the line graph of the Petersen graph is
-$4$-regular and $C_4$-free on $15$ vertices, so $f(15)=5>\sqrt{15}+1$
-(Boza's values $R(C_4,K_{1,10})=14$ and $R(C_4,K_{1,11})=16$ give the same
-through the corrected conversion formula). The closest statements concern
-the equivalent star Ramsey sequence $s(n)=R(C_4,K_{1,n})$: Boza's Remark 12
-records $s(n)\ge s(n-1)+1$ for $3\le n\le39$ with no counterexample known
-for larger $n$, and Chen's Theorem 4 [Ch97] gives $s(n+1)\le s(n)+2$ for
-all positive integers $n$ (Boza's Lemma 1 quotes it as $s(n-1)\ge
-s(n)-2$). Since $s$ is nondecreasing, the corrected conversion gives
-$f(n)=n-\max\{k:s(k)\le n\}$ for $n\ge4$, so $f(n+1)<f(n)$ exactly when
-$s(k)=s(k+1)=n+1$ for some $k$. The problem is therefore equivalent to
-$s(k+1)>s(k)$ for all large $k$, the negation of the question of Burr,
-Erdős, Faudree, Rousseau and Schelp whether $s(k+1)=s(k)$ holds infinitely
-often ([BEFRS89], p. 89, which also asks whether such $k$ have density
-zero; the site records the question under Problem 552). Boza's Remark 12 is
-that inequality for $2\le k\le38$, which with $s(38)=45$ gives $f(n+1)\ge
-f(n)$ for $4\le n\le44$; Chen's theorem gives $f(n+2)\le f(n)+1$. The
-search, whose scope the Current assessment records,
-found nothing more. This is a bounded negative finding, not a certificate
-of openness.
+$f$. The size of $f$ is known: $f(n)=(1+o(1))\sqrt n$ (the site, from the bounds
+of Problem 552; Erdős's display (3) of 1996 for $h(n)$) and $f(4)=2$ (the site).
+
+The site's further bound $f(n)<\sqrt n+1$ is an off-by-one error. Let $h(n)$ be
+the largest minimum degree of a $C_4$-free graph on $n$ vertices. The counting
+argument behind the bound gives $h(n)(h(n)-1)\le n-1$, so
+$h(n)\le(1+\sqrt{4n-3})/2$ and $f(n)=h(n)+1<\sqrt n+3/2$. Erdős's
+"$f(n)<\sqrt n+1$ is easy" in [Er93] is about his own $f$, which is $h$. The
+bound fails for the page's $f$. The line graph of the Petersen graph is
+$4$-regular and $C_4$-free on $15$ vertices, so $f(15)=5>\sqrt{15}+1$. Boza's
+values $R(C_4,K_{1,10})=14$ and $R(C_4,K_{1,11})=16$ give the same through the
+corrected conversion formula.
+
+The closest statements concern the equivalent star Ramsey sequence
+$s(n)=R(C_4,K_{1,n})$. Boza's Remark 12 records $s(n)\ge s(n-1)+1$ for
+$3\le n\le39$, with no counterexample known for larger $n$. Chen's Theorem 4
+[Ch97] gives $s(n+1)\le s(n)+2$ for all positive integers $n$. Boza's Lemma 1
+quotes it as $s(n-1)\ge s(n)-2$. Since $s$ is nondecreasing, the corrected
+conversion gives $f(n)=n-\max\{k:s(k)\le n\}$ for $n\ge4$. So $f(n+1)<f(n)$
+exactly when $s(k)=s(k+1)=n+1$ for some $k$. The problem is therefore equivalent
+to $s(k+1)>s(k)$ for all large $k$. This is the negation of the question of
+Burr, Erdős, Faudree, Rousseau and Schelp whether $s(k+1)=s(k)$ holds infinitely
+often ([BEFRS89], p. 89, which also asks whether such $k$ have density zero; the
+site records the question under Problem 552). Boza's Remark 12 is that
+inequality for $2\le k\le38$. With $s(38)=45$, it gives $f(n+1)\ge f(n)$ for
+$4\le n\le44$. Chen's theorem gives $f(n+2)\le f(n)+1$. The search, whose scope
+the Current assessment records, found nothing more. This is a bounded negative
+finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/85](https://www.erdosproblems.com/85),
 accessed 2026-09-18: the problem page (labeled OPEN, with the site's note

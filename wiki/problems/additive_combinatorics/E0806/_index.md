@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0806
 title: Problem 806
 desc: |
-  Asks whether every set of at most sqrt(n) integers up to n lies in B + B
-  for some B of size o(sqrt(n)); proved by Alon, Bukh and Sudakov with a
-  basis of order sqrt(n) log log n / log n, the sharp order.
+  Asks whether every set of at most $\sqrt n$ integers in $\{1,\ldots,n\}$ lies
+  in $B+B$ for some $B$ of size $o(\sqrt n)$. Alon, Bukh and Sudakov proved it
+  with a basis of order $\sqrt n\log\log n/\log n$, which is the sharp order.
 tags:
 - Additive combinatorics
 status: solved
@@ -37,23 +37,23 @@ $|A|\le N^{1/2}$, which the resolving theorem covers directly. The question asks
 about a single $o(\cdot)$ for all $A$, that is about $M_n=o(n)$, as the origin
 makes explicit.
 
-**Status.** Proved; the site labels the problem PROVED. Theorem 1.4 of Alon,
+**Status.** Proved. The site labels the problem PROVED. Theorem 1.4 of Alon,
 Bukh and Sudakov [ABS09] (Israel J. Math. 174 (2009) 285--301, refereed;
 [[../library/additive_combinatorics/alon_2009_discrete_kakeya_type_problems_small_bases/theorem_1_4|result page]])
-shows that a group of order $n$ containing a non-doubling set of size between
-$\sqrt n\log^2n$ and $\sqrt n\log^{10}n$ satisfies the "EN-condition": every
-$A\subseteq G$ with $|A|\le\sqrt n$ has a basis $B$ with
-$|B|\le50\sqrt n\log\log n/\log n$. Cyclic groups qualify (Corollary 1.5(a),
-solvable groups; or since an interval is non-doubling), and the paper's
+concerns a group of order $n$ containing a non-doubling set of size between
+$\sqrt n\log^2n$ and $\sqrt n\log^{10}n$. It shows that such a group satisfies
+the "EN-condition": every $A\subseteq G$ with $|A|\le\sqrt n$ has a basis $B$
+with $|B|\le50\sqrt n\log\log n/\log n$. Cyclic groups qualify, by Corollary
+1.5(a) on solvable groups or because an interval is non-doubling. The paper's
 reduction (p. 3) lifts a basis $B'\subseteq\mathbb Z/n\mathbb Z$ to
-$B=B'\cup(B'-n)\subset\mathbb Z$ at the cost of a factor $2$, so every
-$A\subseteq\{1,\ldots,n\}$ with $|A|\le n^{1/2}$ lies in $B+B$ for some
-$B\subset\mathbb Z$ with $|B|\le100\,n^{1/2}\log\log n/\log n=o(n^{1/2})$, for
-all sufficiently large $n$. The order is sharp up to constants: Erdős and Newman
-[ErNe77] (J. Number Theory 9 (1977), refereed) state on p. 423 that most sets of
-type $(n,n^2)$ have $m_A>c\,n\log\log n/\log n$, the site's lower bound, a
-remark they assert without proof and which [ABS09] (pp. 2--3) restates and
-carries to every finite group. The claim page is
+$B=B'\cup(B'-n)\subset\mathbb Z$ at the cost of a factor $2$. So for all
+sufficiently large $n$, every $A\subseteq\{1,\ldots,n\}$ with $|A|\le n^{1/2}$
+lies in $B+B$ for some $B\subset\mathbb Z$ with
+$|B|\le100\,n^{1/2}\log\log n/\log n=o(n^{1/2})$. The order is sharp up to
+constants. Erdős and Newman [ErNe77] (J. Number Theory 9 (1977), refereed) state
+on p. 423 that most sets of type $(n,n^2)$ have $m_A>c\,n\log\log n/\log n$,
+which is the site's lower bound. They assert this remark without proof. [ABS09]
+(pp. 2--3) restates it and carries it to every finite group. The claim page is
 [[problems/additive_combinatorics/E0806/claims/2007_11_10_alon_bukh_sudakov|Alon, Bukh and Sudakov]]
 (accepted on the refereed publication and the site's credit).
 

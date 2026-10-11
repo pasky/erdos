@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0369/claims/2017_10_05_bober_fretwell_martin_wooley
 title: Bober, Fretwell, Martin and Wooley's smooth runs just below n
 desc: |
-  Theorem 2.1 of Bober, Fretwell, Martin and Wooley gives, for every epsilon
-  and k and all large n, k consecutive n to the epsilon smooth integers in
-  the interval from n minus n to the theta to n for some theta below one.
+  Theorem 2.1 of Bober, Fretwell, Martin and Wooley gives, for every
+  $\epsilon>0$ and $k$ and all large $n$, $k$ consecutive $n^\epsilon$-smooth
+  integers in $[n-n^\theta,n]$ for some $\theta<1$.
 authors:
 - Jonathan Bober
 - Dan Fretwell
@@ -63,13 +63,12 @@ whose run lies in $(3n/4,n)$, and than that of
 which gives infinitely many $n$. The source card is
 [[../library/arithmetic_functions/bober_2020_smooth_values_polynomials/_index|Bober, Fretwell, Martin and Wooley 2020]].
 
-**Acceptance.** Published in J. Aust. Math. Soc. 108 (2020), no. 2,
-245–261, a refereed journal, online 2019-02-01 in the publisher's record
-(`refereed`); the arXiv posting of 2017-10-05 dates this page. The site's
-curator labels the problem PROVED (LEAN) and credits the paper's main result,
-in the problem's commentary (page last edited 2026-04-28), with the stronger
+**Acceptance.** Published in J. Aust. Math. Soc. 108 (2020), no. 2, 245–261, a
+refereed journal, online 2019-02-01 in the publisher's record (`refereed`). The
+arXiv posting of 2017-10-05 dates this page. The site's curator labels the
+problem PROVED (LEAN). In the problem's commentary (page last edited
+2026-04-28), the curator credits the paper's main result with the stronger
 statement above (`reviewed`). The Lean proofs linked by formal-conjectures
-formalize Yang's construction, not this theorem, so `formalized` is not
-listed.
+formalize Yang's construction, not this theorem, so `formalized` is not listed.
 
 **Depends on.** Nothing in this wiki.

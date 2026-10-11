@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0190/claims/2026_06_01_fox_hunter
 title: Fox and Hunter's bound H(k) at least k to the (1-o(1))k log k
 desc: |
-  Fox and Hunter prove H(k) is at least k^{(1-o(1)) k log k}, the strongest
-  known lower bound, from their many-color van der Waerden bound; it answers
-  the displayed question independently of Bae.
+  Fox and Hunter prove $H(k)\ge k^{(1-o(1))k\log k}$, the strongest known lower
+  bound, from their many-color van der Waerden bound. This answers the displayed
+  question independently of Bae.
 authors:
 - Jacob Fox
 - Zach Hunter
@@ -57,14 +57,14 @@ as an independent resolution.
 **Depends on.** No page of this wiki: the proof is self-contained in the
 preprint apart from the published results it cites.
 
-**Acceptance.** Reviewed: the site's curator (T. F. Bloom) labels Problem
-190 solved and, in the commentary last edited 2026-06-02, states the bound
-$H(k)\ge k^{(1-o(1))k\log k}$ as Fox and Hunter's. Bae, in a
-discussion-thread post of 2026-09-14, acknowledges that Fox and Hunter
-obtained the stronger bound and contests the commentary's attribution of the
-$H(k)=k^{\omega(k)}$ observation to Hunter's 2025 paper, asking that it be
-credited to this preprint. The preprint has no refereed publication and no formalization of the result is recorded, so the evidence
-is `reviewed` only. The
-preprint is also the source of the three-color super-exponential bound
-recorded on [[problems/additive_combinatorics/E0138/_index|Problem 138]],
-which is a different result and not part of this claim.
+**Acceptance.** Reviewed: the site's curator (T. F. Bloom) labels Problem 190
+solved. In the commentary last edited 2026-06-02, he states the bound
+$H(k)\ge k^{(1-o(1))k\log k}$ as Fox and Hunter's. In a discussion-thread post
+of 2026-09-14, Bae acknowledges that Fox and Hunter obtained the stronger bound.
+He also contests the commentary's attribution of the $H(k)=k^{\omega(k)}$
+observation to Hunter's 2025 paper and asks that it be credited to this
+preprint. The preprint has no refereed publication, and no formalization of the
+result is recorded, so the evidence is `reviewed` only. The preprint is also the
+source of the three-color super-exponential bound recorded on
+[[problems/additive_combinatorics/E0138/_index|Problem 138]]. That is a
+different result and not part of this claim.

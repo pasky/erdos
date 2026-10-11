@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0687
 title: Problem 687
 desc: |
-  Asks for the order of the longest initial interval that one residue class
-  per prime up to x can cover, the covering form of Jacobsthal's function;
-  open between x log x times iterated logarithms and Iwaniec's x squared.
+  Asks for the order of the longest initial interval that one residue class for
+  each prime $p\le x$ can cover, the covering form of Jacobsthal's function. It
+  is open, between $x\log x$ times iterated logarithms and Iwaniec's bound
+  $x^2$.
 tags:
 - Number theory
 status: open
@@ -51,29 +52,33 @@ both open.
 
 **Status.** Open. No source proving $Y(x)=o(x^2)$, or any upper bound below
 Iwaniec's $Y(x)\ll x^2$, was found in the search whose scope the Current
-assessment records. The bounds in hand: $Y(x)\ll x^2$ (the Corollary of [Iw78],
-p. 226, $C(r)\ll r^2\log^2r$ for the longest run of consecutive integers each
-divisible by one of $r$ arbitrary primes, taken at $r=\pi(x)$; attested in this
-form by the introduction of [FGKMT18] and, in the inverse form $B(n)>c\sqrt n$,
-by [Er79d] p. 79); $Y(x)\gg x\log x\log_3x/\log_2x$ (display (1.2) of [FGKMT18],
-J. Amer. Math. Soc. 2018, refereed, cited from the arXiv version), improving
-Rankin's $x\log x\log_3x/(\log_2x)^2$; and the site's account, since 31 August
-2026, of a further improvement $Y(x)\gg x\log x/\log_3x$ attributed to GPT 5.6
-Pro (the name the site gives) prompted by a forum contributor, supported by a
-proof claim and a maintainer's exposition on the site's Problem 4 page and
-recorded here as the site's account, not as a refereed result. The conjectured
-truth is $Y(x)\ll x(\log x)^{2+o(1)}$ (Maier and Pomerance, as attested by
-[FGKMT18]); Erdős expected $B(n)>n^{1-\varepsilon}$. This is a bounded negative
-finding, not a certificate of openness. Since that search, the OpenAI
-mathematics release of 25 September 2026 claims $h(k)\ll k^2/(\log\log3k)^2$ for
-Jacobsthal's function; its Theorem 1.2 states the covering form directly,
-$Y(z)<z^2/(\log z)^2$ for large $z$, a yes to the first displayed question if it
-stands, without naming $Y(x)$ or this problem. The manuscript is unreviewed, and
-the Lean declaration the corpus built and audited concerns $h(k)$ alone, so it
-is a pending partial claim on
-[[problems/integer_sequences/E0687/claims/2026_09_25_openai|its claim page]] and
-the standing stays open. Erdős's offer in [Er80] p. 106 is a prize "for clearing
-up of this problem", and the site lists a prize.
+assessment records. This is a bounded negative finding, not a certificate of
+openness.
+
+Since that search, the OpenAI mathematics release of 25 September 2026 claims
+$h(k)\ll k^2/(\log\log3k)^2$ for Jacobsthal's function. Its Theorem 1.2 states
+the covering form directly, $Y(z)<z^2/(\log z)^2$ for large $z$, without naming
+$Y(x)$ or this problem. If it stands, this is a yes to the first displayed
+question. The manuscript is unreviewed, and the Lean declaration the corpus
+built and audited concerns $h(k)$ alone. So it is a pending partial claim on
+[[problems/integer_sequences/E0687/claims/2026_09_25_openai|its claim page]],
+and the standing stays open.
+
+The upper bound in hand is $Y(x)\ll x^2$. It is the Corollary of [Iw78], p. 226,
+$C(r)\ll r^2\log^2r$ for the longest run of consecutive integers each divisible
+by one of $r$ arbitrary primes, taken at $r=\pi(x)$. It is attested in this form
+by the introduction of [FGKMT18], and in the inverse form $B(n)>c\sqrt n$ by
+[Er79d] p. 79. The lower bound in hand is $Y(x)\gg x\log x\log_3x/\log_2x$,
+display (1.2) of [FGKMT18] (J. Amer. Math. Soc. 2018, refereed, cited from the
+arXiv version). It improves Rankin's $x\log x\log_3x/(\log_2x)^2$. Since 31
+August 2026 the site has given an account of a further improvement,
+$Y(x)\gg x\log x/\log_3x$, attributed to GPT 5.6 Pro (the name the site gives)
+prompted by a forum contributor. It is supported by a proof claim and a
+maintainer's exposition on the site's Problem 4 page. It is recorded here as the
+site's account, not as a refereed result. The conjectured truth is
+$Y(x)\ll x(\log x)^{2+o(1)}$ (Maier and Pomerance, as attested by [FGKMT18]).
+Erdős expected $B(n)>n^{1-\varepsilon}$. Erdős's offer in [Er80] p. 106 is a
+prize "for clearing up of this problem", and the site lists a prize.
 
 **Source.** [erdosproblems.com/687](https://www.erdosproblems.com/687), accessed
 2026-09-18: the problem page (OPEN, with the site's note that no finite

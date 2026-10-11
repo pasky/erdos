@@ -2,8 +2,9 @@
 name: problems/primes/E0238
 title: Problem 238
 desc: |
-  Asks whether for any positive constants there are, below every large x, more
-  than a multiple of log x consecutive primes that are pairwise far apart.
+  Asks whether, for any $c_1,c_2>0$ and all large $x$, there are more than
+  $c_1\log x$ consecutive primes $\le x$ whose pairwise differences all exceed
+  $c_2$; open.
 tags:
 - Number theory
 - Primes

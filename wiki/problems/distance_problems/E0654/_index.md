@@ -2,8 +2,8 @@
 name: problems/distance_problems/E0654
 title: Problem 654
 desc: |
-  Estimates how many distinct distances to other points some point must have,
-  among n points in the plane with no four of them on a circle.
+  Asks to estimate how many distinct distances to the others some point must
+  have, among any $n$ points in the plane with no four on a circle; open.
 tags:
 - Geometry
 - Distances
@@ -39,11 +39,12 @@ $$
 for some $c>0$, for all large $n$?
 
 **Status.** Open, the site's label. The site's commentary credits Aletheia
-[Fe26] with disproving the strongest form, $f(n)>(1-o(1))n$, by points on two
-lines with no four on a circle; the result is on
-[[problems/distance_problems/E0654/claims/2026_01_29_feng|Feng and coauthors' claim page]],
-a claimed partial claim. Whether $f(n)>(1/3+c)n$ for some $c>0$ remains open,
-as does the version with no three points on a line.
+[Fe26] with disproving the strongest form, $f(n)>(1-o(1))n$. The construction
+uses points on two lines with no four on a circle. The result is a claimed
+partial claim, on
+[[problems/distance_problems/E0654/claims/2026_01_29_feng|Feng and coauthors' claim page]].
+Whether $f(n)>(1/3+c)n$ for some $c>0$ remains open. The version with no three
+points on a line also remains open.
 
 **Source.** [erdosproblems.com/654](https://www.erdosproblems.com/654), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #654,

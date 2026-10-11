@@ -2,9 +2,9 @@
 name: problems/irrationality/E0264
 title: Problem 264
 desc: |
-  The powers-of-two case is false; asks whether factorial denominators
-  keep their reciprocal sum irrational under every bounded nonzero integer
-  perturbation.
+  Asks whether $a_n=2^n$ or $a_n=n!$ makes $\sum 1/(a_n+b_n)$ irrational for
+  every bounded sequence of nonzero integers $b_n$ with $a_n+b_n\ne0$. The case
+  $a_n=2^n$ is answered no, and the factorial case is open.
 tags:
 - Irrationality
 status: open
@@ -32,9 +32,8 @@ $$
 
 is irrational. Are $a_n=2^n$ or $a_n=n!$ examples of such a sequence?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 20
-January 2026). Its two questions are the problem's two parts. The powers-of-two
-part is answered no by
+**Status.** Open. The site labels the problem OPEN (page last edited 20 January
+2026). The problem asks two questions. The powers-of-two part is answered no by
 [[problems/irrationality/E0264/claims/2024_11_27_kovac_tao|Kovač and Tao's accepted partial claim]].
 Their Corollary 2.6 (Acta Math. Hungar. 175 (2025)) shows that no strictly
 increasing sequence with bounded successive ratios is an irrationality sequence

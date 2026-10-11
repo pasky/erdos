@@ -2,9 +2,9 @@
 name: problems/irrationality/E0250/claims/1996_03_07_nesterenko
 title: Nesterenko's transcendence of the Ramanujan function values
 desc: |
-  Nesterenko's 1996 theorem that at least three of q, P(q), Q(q), R(q) are
-  algebraically independent for 0 < |q| < 1 makes P(1/2) = 1 - 24 times the
-  sum of sigma(n) over 2^n transcendental, hence the sum irrational.
+  Nesterenko's 1996 theorem says that at least three of $q$, $P(q)$, $Q(q)$,
+  $R(q)$ are algebraically independent for $0<|q|<1$. It makes
+  $P(1/2)=1-24\sum_n\sigma(n)/2^n$ transcendental, so the sum is irrational.
 authors:
 - Yu. V. Nesterenko
 status: accepted
@@ -67,24 +67,28 @@ months earlier by Duverney, on
 
 **Acceptance.** Refereed: Matematicheskii Sbornik, volume 187, number 9 (1996),
 received by the editors on 7 March 1996, with the English translation in
-Sbornik: Mathematics. Reviewed: Thomas Bloom, the site's curator, credits this
-theorem with the answer in the problem's remarks and labels the problem proved
-(page last edited 28 September 2025, as of 2026-09-17); zbMATH reviews the paper
-(Zbl 0898.11031, reviewer J. Wolfart) and the announcement (Zbl 0859.11047)
-without objection; the theorem was the subject of Waldschmidt's Bourbaki exposé
-of November 1996 (Astérisque 245 (1997), 105–140, whose Théorème 4 restates it)
-and of a chapter of Lecture Notes in Mathematics 1752 (2001), and Nesterenko
-received the 1997 Ostrowski Prize. The formal-conjectures statement for the
-problem cites this paper and is tagged research solved
+Sbornik: Mathematics.
+
+Reviewed: Thomas Bloom, the site's curator, credits this theorem with the answer
+in the problem's remarks and labels the problem proved (page last edited 28
+September 2025, as of 2026-09-17). zbMATH reviews the paper (Zbl 0898.11031,
+reviewer J. Wolfart) and the announcement (Zbl 0859.11047) without objection.
+The theorem was the subject of Waldschmidt's Bourbaki exposé of November 1996
+(Astérisque 245 (1997), 105–140, whose Théorème 4 restates it) and of a chapter
+of Lecture Notes in Mathematics 1752 (2001). Nesterenko received the 1997
+Ostrowski Prize. The formal-conjectures statement for the problem cites this
+paper and is tagged research solved
 ([`250.lean`](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/250.lean)).
-This corpus has not reproved the theorem and awards no tier of its own. The
-`formalization` link is a public Lean 4 proof of the problem's statement in
+This corpus has not reproved the theorem and awards no tier of its own.
+
+The `formalization` link is a public Lean 4 proof of the problem's statement in
 Boris Alexeev's lean-proofs repository (file of 2026-08-15, pinned to the commit
-of 2026-09-15), whose header names Nesterenko as the informal author and Codex
-and GPT-5.6 Sol as the formal authors; its route differs from Nesterenko's,
-building nonzero integer linear forms in the value that tend to zero,
-formal-conjectures cites it as the formal proof of its statement, and it is not
-part of this repository's audited Lean, so it gives no `formalized` evidence.
+of 2026-09-15). Its header names Nesterenko as the informal author and Codex and
+GPT-5.6 Sol as the formal authors. Its route differs from Nesterenko's: it
+builds nonzero integer linear forms in the value that tend to zero. The
+formal-conjectures catalog cites it as the formal proof of its statement. It is
+not part of this repository's audited Lean, so it gives no `formalized`
+evidence.
 
 **Depends on.** Nothing in this wiki; the claim is the cited paper's theorem.
 

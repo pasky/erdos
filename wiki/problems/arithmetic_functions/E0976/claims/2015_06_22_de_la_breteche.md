@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0976/claims/2015_06_22_de_la_breteche
 title: De la Bretèche's power gain for Klein-group quartics
 desc: |
-  De la Bretèche proves that for every even monic irreducible quartic with
-  Galois group V4 a positive density of n <= X have f(n) with a prime
-  factor above X^(1+c), so the answer is yes for these quartics.
+  De la Bretèche proves that if $f$ is an even monic irreducible quartic with
+  Galois group $V_4$, then $f(n)$ has a prime factor above $X^{1+c}$ for a
+  positive density of the $n\le X$. So the answer to the first question is yes
+  for these quartics.
 authors:
 - R. de la Bretèche
 status: accepted

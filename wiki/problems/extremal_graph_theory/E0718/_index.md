@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0718
 title: Problem 718
 desc: |
-  Asks whether a constant times r squared times n edges on n vertices always
-  force a subdivision of the complete graph on r vertices; the conjecture of
-  Erdős, Hajnal and Mader, proved by Bollobás–Thomason and Komlós–Szemerédi.
+  Asks whether there is a constant $C$ such that every graph on $n$ vertices
+  with at least $Cr^2n$ edges contains a subdivision of $K_r$. This conjecture
+  of Erdős, Hajnal and Mader was proved by Bollobás and Thomason and by Komlós
+  and Szemerédi.
 tags:
 - Graph theory
 status: solved
@@ -39,44 +40,48 @@ at average degree about $n/2$) show that $cr^2$ edges per vertex are
 necessary for some $c>0$. Erdős's own words are quoted under the Current
 assessment.
 
-**Status.** Proved is the site's label, and the answer is yes. The theorem is
-stated first-hand in Bollobás and Thomason's own proof paper [BT98]
-(European J. Combin. 19 (1998), 883--887; printed p. 886, PDF p. 4 of the
-publisher's open-archive PDF), which is not one of the two papers the site
-names (its key for their proof, BoTh96, is *Highly linked graphs*), paged at
-[[../library/extremal_graph_theory/bollobas_thomason_1998_proof_conjecture_mader_erdos_hajnal_topological_complete_subgraphs/theorem_4|Theorem 4]]:
-"Let $p$ be a positive integer and let $G$ be a graph of size $256p^2|G|$.
-Then $G$ contains a topological subgraph of order $p$", where $|G|$ is the
-order, the size is the number of edges, and a topological complete graph of
-order $p$ has $p$ vertices joined pairwise by vertex-disjoint paths
-(p. 883); the abstract states it with "at least $256p^2|G|$" and calls the
-result the proof of "a conjecture made by Mader and by Erdös and Hajnal".
-With $p=r$ this is the site's statement with $C=256$. The other proof,
-Komlós and Szemerédi's [KoSz96], is not held in its own text. The two
-claim pages,
+**Status.** Proved is the site's label, and the answer is yes. The two claim
+pages,
 [[problems/extremal_graph_theory/E0718/claims/1996_09_01_bollobas_thomason|Bollobás and Thomason]]
 and
 [[problems/extremal_graph_theory/E0718/claims/1996_03_01_komlos_szemeredi|Komlós and Szemerédi]],
-record the two results, their scope and their acceptance evidence, from
-which the frontmatter standing is derived. The theorem
-is also quoted in a refereed paper:
+record the two results, their scope and their acceptance evidence, and the
+frontmatter standing is derived from them.
+
+The theorem is stated first-hand in Bollobás and Thomason's own proof paper
+[BT98] (European J. Combin. 19 (1998), 883--887; printed p. 886, PDF p. 4 of the
+publisher's open-archive PDF). This paper is not one of the two papers the site
+names: the site's key for their proof, BoTh96, is *Highly linked graphs*. It is
+paged at
+[[../library/extremal_graph_theory/bollobas_thomason_1998_proof_conjecture_mader_erdos_hajnal_topological_complete_subgraphs/theorem_4|Theorem 4]]:
+"Let $p$ be a positive integer and let $G$ be a graph of size $256p^2|G|$. Then
+$G$ contains a topological subgraph of order $p$". Here $|G|$ is the order and
+the size is the number of edges. A topological complete graph of order $p$ has
+$p$ vertices joined pairwise by vertex-disjoint paths (p. 883). The abstract
+states the theorem with "at least $256p^2|G|$" and calls the result the proof of
+"a conjecture made by Mader and by Erdös and Hajnal". With $p=r$ this is the
+site's statement with $C=256$. The other proof, Komlós and Szemerédi's [KoSz96],
+is not held in its own text.
+
+The theorem is also quoted in a refereed paper.
 [[../library/extremal_graph_theory/fox_2013_chromatic_number_clique_subdivisions_conjectures_hajos/theorem_3_1|Theorem 3.1]]
 of Fox, Lee and Sudakov [FLS13] (Combinatorica 33 (2013), 181--197; p. 4 of
-arXiv v3): "Every graph $G$ with $n$
-vertices and at least $256t^2n$ edges satisfies $\sigma(G)\ge t$", stated as
-"a theorem independently proved by Bollobás and Thomason [5], and Komlós and
-Szemerédi [13]" that solved "an old conjecture made by Erdős and Hajnal, and
-also by Mader". This is the attestation shape: the statement is first-hand
-in a refereed proof paper, whose proof is followed here at filing depth
-only, and the second proof is second-hand. Mader's earlier bound is stated
-in his own text: Satz 2 of [Ma67] (Math. Ann. 174 (1967), 265--268; printed
-p. 266), paged at
-[[../library/extremal_graph_theory/mader_1967_homomorphieeigenschaften_und_mittlere_kantendichte_von_graphen/satz_2|Satz 2]],
-gives a subdivision of $K_r$ in every finite graph with $n$ vertices and at
-least $2^{\binom{r-1}2-1}(r-1)n$ edges, a constant smaller than the
-$2^{\binom r2}$ in which Erdős's 1981 paper and the site quote the bound, so
-the quoted form follows from it. A site-versus-source item on the key BoTh96
-is recorded below.
+arXiv v3) reads "Every graph $G$ with $n$ vertices and at least $256t^2n$ edges
+satisfies $\sigma(G)\ge t$". The paper states it as "a theorem independently
+proved by Bollobás and Thomason [5], and Komlós and Szemerédi [13]" that solved
+"an old conjecture made by Erdős and Hajnal, and also by Mader". This is the
+attestation shape: the statement is first-hand in a refereed proof paper, whose
+proof is followed here at filing depth only, and the second proof is
+second-hand.
+
+Mader's earlier bound is stated in his own text, Satz 2 of [Ma67] (Math. Ann.
+174 (1967), 265--268; printed p. 266), paged at
+[[../library/extremal_graph_theory/mader_1967_homomorphieeigenschaften_und_mittlere_kantendichte_von_graphen/satz_2|Satz 2]].
+It gives a subdivision of $K_r$ in every finite graph with $n$ vertices and at
+least $2^{\binom{r-1}2-1}(r-1)n$ edges. This constant is smaller than the
+$2^{\binom r2}$ with which Erdős's 1981 paper and the site quote the bound, so
+the quoted form follows from it. A site-versus-source item on the key BoTh96 is
+recorded below.
 
 **Source.** [erdosproblems.com/718](https://www.erdosproblems.com/718),
 accessed 2026-09-19: the problem page (PROVED, glossed

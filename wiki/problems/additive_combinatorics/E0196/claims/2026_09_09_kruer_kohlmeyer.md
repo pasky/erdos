@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0196/claims/2026_09_09_kruer_kohlmeyer
 title: Kruer and Kohlmeyer's permutation without a monotone 4-term progression
 desc: |
-  A Lean-checked permutation of the natural numbers with no four-term
-  arithmetic progression at increasing or decreasing indices, certified by the
-  bounty site Conjectures.io in September 2026; no refereed publication.
+  Kruer and Kohlmeyer give a Lean-checked permutation of the natural numbers
+  with no four-term arithmetic progression at increasing or decreasing indices.
+  The bounty site Conjectures.io certified it in September 2026, and there is no
+  refereed publication.
 authors:
 - Liam Kruer
 - Jensen Kohlmeyer
@@ -104,23 +105,25 @@ its ten declarations against the standard axioms, credits the argument to
 Kohlmeyer and Kruer, and disclaims priority; this corpus has not built it, so
 it is not acceptance evidence.
 
-**Acceptance.** Reviewed: the bounty site Conjectures.io certified the result,
-a documented independent acceptance by a body outside this project and
-independent of the claimants. Its decision finds that the submission refutes
-the exact target for Problem 196 with both directions covered, that the change
-from positive integers to zero-based naturals is immaterial under translation,
-that no unproved assumption remains, and that the proof passed its statement,
-dependency, permitted-axiom (`propext`, `Quot.sound`, `Classical.choice`) and
-Lean-kernel checks, on Lean's default kernel only; it records that, under its
-policy, unresolved provenance questions alone do not deny the reward, and it
-describes the approval as a decision on eligibility for the bounty, not a
-guarantee of originality. No other body accepts the result: the site's curator
-keeps the label Open and lists the proof claim, on which the curator has not
-commented (its three forum comments are by other users), and the
-formal-conjectures statement `erdos_196` is tagged open on the catalog's
-default branch (2026-10-07), so no `refereed` evidence exists; the kernel check
-is the bounty site's alone and the file was not built by this corpus, so
-`formalized` is not listed.
+**Acceptance.** Reviewed: the bounty site Conjectures.io certified the result.
+This is a documented independent acceptance by a body outside this project and
+independent of the claimants. Its decision finds that the submission refutes the
+exact target for Problem 196, with both directions covered. It finds that the
+change from positive integers to zero-based naturals is immaterial under
+translation and that no unproved assumption remains. It also finds that the
+proof passed its statement, dependency, permitted-axiom (`propext`,
+`Quot.sound`, `Classical.choice`) and Lean-kernel checks, on Lean's default
+kernel only. The decision records that, under the bounty site's policy,
+unresolved provenance questions alone do not deny the reward. It describes the
+approval as a decision on eligibility for the bounty, not a guarantee of
+originality.
+
+No other body accepts the result. The site's curator keeps the label Open and
+lists the proof claim, but has not commented on it. The claim's three forum
+comments are by other users. The formal-conjectures statement `erdos_196` is
+tagged open on the catalog's default branch (2026-10-07). So no `refereed`
+evidence exists. The kernel check is the bounty site's alone, and the file was
+not built by this corpus, so `formalized` is not listed.
 
 **Depends on.** No wiki page; the claim rests on the Lean file and its
 exposition.

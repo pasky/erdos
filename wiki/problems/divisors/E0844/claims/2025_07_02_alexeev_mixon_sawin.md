@@ -2,9 +2,9 @@
 name: problems/divisors/E0844/claims/2025_07_02_alexeev_mixon_sawin
 title: Alexeev, Mixon and Sawin's clique partition
 desc: |
-  Alexeev, Mixon and Sawin prove that the squarefree graph's vertices split
-  into cliques each holding one even vertex, so the even vertices are a
-  maximum independent set and the Erdős–Sárközy guess is correct.
+  Alexeev, Mixon and Sawin prove that the vertices of the squarefree graph split
+  into cliques that each hold one even vertex. So the even vertices form a
+  maximum independent set, and the Erdős–Sárközy guess is correct.
 authors:
 - Boris Alexeev
 - Dustin G. Mixon

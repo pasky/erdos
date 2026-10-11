@@ -2,9 +2,10 @@
 name: problems/divisors/E0872
 title: Problem 872
 desc: |
-  How long the game in which two players alternately add integers up to n to a
-  shared set free of divisibility between members can be guaranteed to last,
-  and whether it lasts at least εn or (1-ε)n/2 moves.
+  Asks how long a game can be guaranteed to last in which two players
+  alternately add integers from $\{2,\ldots,n\}$ to a shared set with no member
+  dividing another, and whether it lasts at least $\epsilon n$ or
+  $(1-\epsilon)n/2$ moves; open.
 tags:
 - Number theory
 - Primitive sets
@@ -33,15 +34,16 @@ game be guaranteed to last for?
 At least $\epsilon n$ moves? (For $\epsilon>0$ and $n$ sufficiently large.) At
 least $(1-\epsilon)\frac{n}{2}$ moves?
 
-**Status.** Open on the site (OPEN; page last edited 24 April 2026; one
-proof claim is listed as full on the proof-claims thread). The frontmatter
-standing derives from the claim pages: the pending partial claim
-[[problems/divisors/E0872/claims/2026_02_14_price|Price's Shortener
-strategy]] would answer the second displayed question in the negative with
-Prolonger moving first, and the pending partial claim
-[[problems/divisors/E0872/claims/2026_07_24_buddhdev|Buddhdev's sublinear
-bound]] would answer both displayed questions in the negative while leaving
-the order of the game's length open; no full claim is recorded.
+**Status.** Open on the site. The page shows OPEN and was last edited 24
+April 2026. Its proof-claims thread lists one proof claim as full. The frontmatter
+standing derives from the claim pages, and no full claim is recorded there. The
+pending partial claim
+[[problems/divisors/E0872/claims/2026_02_14_price|Price's Shortener strategy]]
+would answer the second displayed question in the negative, with Prolonger
+moving first. The pending partial claim
+[[problems/divisors/E0872/claims/2026_07_24_buddhdev|Buddhdev's sublinear bound]]
+would answer both displayed questions in the negative, while leaving the order
+of the game's length open.
 
 **Source.** [erdosproblems.com/872](https://www.erdosproblems.com/872), accessed
 2026-09-04 and 2026-10-07. Cite as: T. F. Bloom, Erdős Problem #872,

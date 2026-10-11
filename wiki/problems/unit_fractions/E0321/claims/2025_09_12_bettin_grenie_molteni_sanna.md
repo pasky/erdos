@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0321/claims/2025_09_12_bettin_grenie_molteni_sanna
 title: A dissociated set of the right size from Bettin, Grenié, Molteni and Sanna
 desc: |
-  The set U(N) in the proof of Bettin, Grenié, Molteni and Sanna's Theorem 1
-  has distinct reciprocal subset sums and size of order N / log N times the
-  iterated-logarithm product, the lower half of the order of R(N).
+  The set $\mathcal U(N)$ in the proof of Bettin, Grenié, Molteni and Sanna's
+  Theorem 1 has distinct reciprocal subset sums and size of order $N/\log N$
+  times the iterated-logarithm product. This is the lower half of the order of
+  $R(N)$.
 authors:
 - Sandro Bettin
 - Loïc Grenié
@@ -64,11 +65,11 @@ the upper bound.
 the library page that states the theorem, the proof's bound for
 $|\mathcal U(N)|$ and the deduction that $\mathcal U(N)$ is dissociated.
 
-**Acceptance.** Refereed: the paper appeared in Mathematics of Computation,
-DOI 10.1090/mcom/4190, published online 22 January 2026; the page is dated by
-the arXiv posting of 12 September 2025. Reviewed: the site's curator, Thomas
-Bloom, labels the problem SOLVED for the order of magnitude and in its
-commentary calls the lower bound implicit in this work; Bloom's comment of 16
-July 2026 under the accepted claim on the tab says that the lower bound comes
-from that earlier work. The curator is independent of the authors. The proof is
-not verified by this corpus.
+**Acceptance.** Refereed: the paper appeared in Mathematics of Computation, DOI
+10.1090/mcom/4190, published online 22 January 2026. The page is dated by the
+arXiv posting of 12 September 2025. Reviewed: the site's curator, Thomas Bloom,
+labels the problem SOLVED for the order of magnitude. The problem's commentary
+calls the lower bound implicit in this work. Bloom's comment of 16 July 2026
+under the accepted claim on the tab says that the lower bound comes from that
+earlier work. The curator is independent of the authors. The proof is not
+verified by this corpus.

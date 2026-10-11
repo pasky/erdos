@@ -2,8 +2,9 @@
 name: problems/additive_bases/E0040
 title: Problem 40
 desc: |
-  Asks which growth rates just below the square root of N force some
-  integers to have arbitrarily many representations as sums of two elements.
+  Asks for which functions $g(N)\to\infty$ a set with $\gg N^{1/2}/g(N)$
+  elements up to $N$ must have integers with arbitrarily many representations as
+  a sum of two elements; open.
 tags:
 - Number theory
 - Additive bases

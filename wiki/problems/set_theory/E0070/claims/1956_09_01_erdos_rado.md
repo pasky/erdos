@@ -2,9 +2,9 @@
 name: problems/set_theory/E0070/claims/1956_09_01_erdos_rado
 title: Erdős and Rado's triple relation for the real line
 desc: |
-  Erdős and Rado prove that the order type of the real line arrows (4, alpha)
-  on triples for every alpha below omega times 2, which settles Problem 70 for
-  every beta below omega times 2 and n at most 4; refereed in Bull. AMS.
+  Erdős and Rado prove $\lambda\to(4,\alpha)^3$ for the order type $\lambda$ of
+  the real line and every $\alpha<\omega 2$. This settles Problem 70 for every
+  $\beta<\omega 2$ and $n\le4$, and it is refereed in Bull. AMS.
 authors:
 - P. Erdös
 - R. Rado
@@ -50,9 +50,9 @@ $\omega<\beta<\omega 2$.
 linked above.
 
 **Acceptance.** Refereed: Bull. Amer. Math. Soc. 62 (1956), no. 5, 427–489,
-received by the editors on 17 May 1955; Theorem 31 is on p. 447 and the proof of
-(30) on pp. 454–457. The page is dated by the September 1956 issue, which gives
-no day, so the first of the month stands in for it. The site credits the result
-in its commentary but labels the problem OPEN, so the commentary is not
-`reviewed` evidence. No formal proof of the relation is recorded, so no
+received by the editors on 17 May 1955. Theorem 31 is on p. 447, and the proof
+of (30) is on pp. 454–457. The page is dated by the September 1956 issue. The
+issue gives no day, so the first of the month stands in for it. The site credits
+the result in its commentary but labels the problem OPEN, so the commentary is
+not `reviewed` evidence. No formal proof of the relation is recorded, so no
 `formalized` evidence is listed. Nothing here is this project's own review.

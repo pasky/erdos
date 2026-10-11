@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0193/claims/2026_08_28_kalviainen
 title: A lifted Hilbert-curve walk with no collinear triple
 desc: |
-  Kalviainen's earlier construction: points of a discrete Hilbert curve, one
-  chosen per block of sixteen indices and lifted to its index as height,
-  claimed to give an infinite bounded-step walk with no three collinear points.
+  Kalviainen's earlier construction takes points of a discrete Hilbert curve,
+  one per block of sixteen indices, and lifts each to its index as height. The
+  construction is claimed to give an infinite bounded-step walk with no three
+  collinear points.
 authors:
 - Erik Kalviainen
 status: claimed

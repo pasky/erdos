@@ -2,9 +2,9 @@
 name: problems/divisors/E0692
 title: Problem 692
 desc: |
-  Asks whether the density of integers with exactly one divisor in an interval
-  from n to m is unimodular in m; disproved by Cambie, who also shows many
-  local maxima.
+  Asks whether the density $\delta_1(n,m)$ of integers with exactly one divisor
+  in $(n,m)$ is unimodular in $m$ for $m>n+1$; disproved by Cambie, who also
+  shows it has many local maxima.
 tags:
 - Number theory
 - Divisors
@@ -68,13 +68,12 @@ is attained at $m=3$ and $m=4$. For every $n\ge2$ the variant is open: no
 recorded source determines the maximizing $m$, and the formal-conjectures
 file marks this part research open.
 
-**Status.** DISPROVED (LEAN). The site's label describes the precise
-Statement, which
+**Status.** DISPROVED (LEAN). The site's label describes the precise Statement.
 [[problems/divisors/E0692/claims/2025_01_17_cambie|Cambie's accepted claim]]
-disproves, so the derived standing is disproved. The maximizing-$m$ variant
-under Formulation is answered only for $n=1$ and does not bear on that
-standing. The Lean qualification refers to an Aristotle autoformalization of
-Cambie's finite example, linked from the claim page.
+disproves that Statement, so the derived standing is disproved. The Lean
+qualification refers to an Aristotle autoformalization of Cambie's finite
+example, linked from the claim page. The maximizing-$m$ variant under
+Formulation is answered only for $n=1$ and does not bear on that standing.
 
 **Source.** [erdosproblems.com/692](https://www.erdosproblems.com/692), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #692,

@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0174/claims/2026_09_20_palvolgyi
 title: Pálvölgyi's cyclic non-Ramsey heptagon
 desc: |
-  Seven points on a circle, with a transcendental radius, claimed not to be
-  Ramsey; the first claimed disproof of Graham's conjecture that every
-  spherical set is Ramsey, with the proof attributed by the author to ChatGPT.
+  Pálvölgyi claims that seven points on a circle with a transcendental radius
+  form a set that is not Ramsey. This is the first claimed disproof of Graham's
+  conjecture that every spherical set is Ramsey, and the author attributes the
+  proof to ChatGPT.
 authors:
 - Dömötör Pálvölgyi
 status: claimed
@@ -70,10 +71,11 @@ whose criterion applies to every finite set.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** None documented. The manuscript is an arXiv preprint with no
-journal record known here, the site's statement and remarks for the problem do
-not mention it, and its proof-claims thread carried no claim as of 6 October
-2026; the author announced the result in the problem's discussion on the site on
-23 September 2026, attributing the counterexample to ChatGPT 6 and linking the
-exposition. Nothing here has reviewed the proof. OpenAI's preprint of 23
-September 2026 cites this theorem as the disproof of the spherical conjecture,
-which is a dated uptake and not a review. The claim is therefore claimed.
+journal record known here. The site's statement and remarks for the problem do
+not mention it. The problem's proof-claims thread carried no claim as of 6
+October 2026. The author announced the result in the problem's discussion on the
+site on 23 September 2026. The announcement attributes the counterexample to
+ChatGPT 6 and links the exposition. Nothing here has reviewed the proof.
+OpenAI's preprint of 23 September 2026 cites this theorem as the disproof of the
+spherical conjecture. That is a dated uptake, not a review. The claim is
+therefore claimed.

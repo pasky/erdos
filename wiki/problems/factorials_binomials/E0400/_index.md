@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0400
 title: Problem 400
 desc: |
-  Asks for the average and typical size of the largest excess of a sum of
-  numbers whose factorials divide n factorial over n, for each fixed count k
-  of terms.
+  Asks, for each $k\ge2$, whether $\sum_{n\le x}g_k(n)\sim c_kx\log x$ and
+  whether $g_k(n)=c_k\log x+o(\log x)$ for almost all $n<x$, where $g_k(n)$ is
+  the largest value of $a_1+\cdots+a_k-n$ with $a_1!\cdots a_k!\mid n!$; open.
 tags:
 - Number theory
 - Factorials

@@ -4,15 +4,15 @@ desc: The 1 claim page of Problem 730, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T07:37:55Z
-updated: 2026-10-07T07:37:55Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/factorials_binomials/E0730/claims
 
 [[problems/factorials_binomials/E0730/_index|..]]
 
-[[problems/factorials_binomials/E0730/claims/2026_06_24_price|2026_06_24_price]]: Infinitely many n have 2n choose n and 2n+2 choose n+1 with the same prime
-divisors, at least a constant times the square root of x of them below x;
-an argument of GPT Pro accepted by the site and formalized by Blair.
+[[problems/factorials_binomials/E0730/claims/2026_06_24_price|2026_06_24_price]]: Infinitely many $n$ have $\binom{2n}{n}$ and $\binom{2n+2}{n+1}$ with the same
+prime divisors, and at least a constant times $\sqrt{x}$ of them lie below
+$x$. The argument is GPT Pro's, accepted by the site and formalized by Blair.
 
 ***

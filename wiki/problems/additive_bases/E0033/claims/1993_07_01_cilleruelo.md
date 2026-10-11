@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0033/claims/1993_07_01_cilleruelo
 title: "Cilleruelo's lower bound: the liminf is at least 4 over pi"
 desc: |
-  Cilleruelo's 1993 theorem bounds a set completing the squares up to N below
-  by (4/pi + o(1)) times the square root of N, so every additive complement of
-  the squares has liminf at least 4/pi; it answers the liminf question yes.
+  Cilleruelo's 1993 theorem shows that a set completing the squares up to $N$
+  has at least $(4/\pi+o(1))\sqrt N$ elements. So every additive complement of
+  the squares has liminf at least $4/\pi$, which answers the liminf question
+  yes.
 authors:
 - J. Cilleruelo
 status: accepted
@@ -68,9 +69,9 @@ the smallest possible limsup is at least $4/\pi$.
 
 **Acceptance.** Refereed: J. Cilleruelo, The additive completion of $k$th
 powers, J. Number Theory 44 (1993), no. 3, 237–243. The site's curator records
-the bound in the problem's remarks, but the site labels the problem OPEN, so
-that remark is not acceptance of the problem and the page lists no `reviewed`
-evidence. The edition read is an author-typeset manuscript; its proof is not
+the bound in the problem's remarks. But the site labels the problem OPEN, so
+that remark is not acceptance of the problem, and the page lists no `reviewed`
+evidence. The edition read is an author-typeset manuscript. Its proof is not
 compiled in this corpus.
 
 **Dating.** The page is dated by the issue month in the publisher's record,

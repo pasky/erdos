@@ -2,9 +2,10 @@
 name: problems/set_systems/E0083/claims/1997_02_01_ahlswede_khachatrian
 title: The 4m-conjecture from the complete intersection theorem
 desc: |
-  Ahlswede and Khachatrian prove the Erdős–Ko–Rado 4m-conjecture, the bound of
+  Ahlswede and Khachatrian prove the Erdős–Ko–Rado $4m$-conjecture, the bound of
   Problem 83, both directly and as a case of their complete intersection
-  theorem; refereed in European J. Combin. and credited by the site's curator.
+  theorem. The site's curator credits the refereed paper, which appeared in
+  European J. Combin.
 authors:
 - Rudolf Ahlswede
 - Levon H. Khachatrian
@@ -51,16 +52,15 @@ whose Theorem 2 covers the range $n\geq t+(k-t)\binom kt^3$; the paper
 records that Erdős called the $4m$-conjecture the last open problem from
 that paper.
 
-**Acceptance.** Refereed: European J. Combin. **18** (1997), no. 2, 125–136;
-the publisher's record dates the issue February 1997 without a day, and the
-page's date is the first of that month. Reviewed: Thomas Bloom, the site's
-curator, marks the problem proved and credits the proof to Ahlswede and
-Khachatrian [AhKh97]. The site's label adds a Lean qualification. The
-formal-conjectures statement file for the problem states the bound, leaves
-its proof as `sorry` and points, through its `formal_proof` attribute, at the
-Lean file in Boris Alexeev's lean-proofs collection linked above at its
-pinned commit, which declares itself a formalization of Ahlswede and
-Khachatrian's solution with Codex and GPT-5.6 Sol as formal authors. This
-corpus has not built or audited that file, so the page lists no `formalized`
-evidence. The library card records the statements and does not verify the
-proofs; it is not acceptance evidence.
+**Acceptance.** Refereed: European J. Combin. **18** (1997), no. 2, 125–136. The
+publisher's record dates the issue February 1997 without a day, and the page's
+date is the first of that month. Reviewed: Thomas Bloom, the site's curator,
+marks the problem proved and credits the proof to Ahlswede and Khachatrian
+[AhKh97]. The site's label adds a Lean qualification. The formal-conjectures
+statement file for the problem states the bound and leaves its proof as `sorry`.
+Its `formal_proof` attribute points at the Lean file in Boris Alexeev's
+lean-proofs collection, linked above at its pinned commit. That file declares
+itself a formalization of Ahlswede and Khachatrian's solution, with Codex and
+GPT-5.6 Sol as formal authors. This corpus has not built or audited that file,
+so the page lists no `formalized` evidence. The library card records the
+statements but does not verify the proofs. It is not acceptance evidence.

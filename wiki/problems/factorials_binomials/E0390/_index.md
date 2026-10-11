@@ -2,9 +2,10 @@
 name: problems/factorials_binomials/E0390
 title: Problem 390
 desc: |
-  Asks whether the least top factor in a factorization of n factorial into
-  increasing factors above n exceeds two n by about a constant times n over
-  log n.
+  Asks whether there is a constant $c$, and what it is, with
+  $f(n)-2n\sim cn/\log n$, where $f(n)$ is the least $m$ such that
+  $n!=a_1\cdots a_k$ with $n<a_1<\cdots<a_k=m$; a proof is claimed but not
+  accepted.
 tags:
 - Number theory
 - Factorials
@@ -34,23 +35,23 @@ $$
 f(n)-2n \sim c\frac{n}{\log n}?
 $$
 
-**Status.** Claimed, proved. The site labels the problem OPEN (LEAN) and
-credits no solution. The qualification records Wang's Lean development, which
-the site's community database lists (2026-08-28) as machine-checked against
-Mathlib and bridged to the formal-conjectures statement, with the informal
-status left open until a human reader has digested it. The standing derives
-from the claim pages: the one pending full claim,
-[[problems/factorials_binomials/E0390/claims/2026_07_18_wang|Wang 2026]], is a
-manuscript found by GPT-5.6 Sol asserting that $f(n)-2n\sim C_0\,n/\log n$ with
-$C_0=4029639598/25970038185$, with that Lean development, which this corpus has
-not built, and no outside reviewer's acceptance; so the problem is `claimed`,
-`proved`. Two partial claims are pending:
-[[problems/factorials_binomials/E0390/claims/1982_01_01_erdos_guy_selfridge|Erdős, Guy and Selfridge 1982]],
-a proceedings paper proving that $f(n)-2n$ is of exact order $n/\log n$ [EGS82],
-and
-[[problems/factorials_binomials/E0390/claims/2026_05_02_mausberg|Mausberg 2026]],
-a note written with GPT-5.5 Pro proving the lower bound
-$\liminf(f(n)-2n)\log n/n\ge C_0$ on which the manuscript's lower bound rests.
+**Status.** Claimed, proved. The site labels the problem OPEN (LEAN) and credits
+no solution. The qualification records Wang's Lean development. The site's
+community database lists it (2026-08-28) as machine-checked against Mathlib and
+bridged to the formal-conjectures statement. The database leaves the informal
+status open until a human reader has digested it. The standing derives from the
+claim pages: the problem is `claimed`, `proved`, through the one pending full
+claim, [[problems/factorials_binomials/E0390/claims/2026_07_18_wang|Wang 2026]].
+This is a manuscript found by GPT-5.6 Sol. It asserts that
+$f(n)-2n\sim C_0\,n/\log n$ with $C_0=4029639598/25970038185$. It comes with
+that Lean development, which this corpus has not built, and with no outside
+reviewer's acceptance. Two partial claims are pending.
+[[problems/factorials_binomials/E0390/claims/1982_01_01_erdos_guy_selfridge|Erdős, Guy and Selfridge 1982]]
+is a proceedings paper proving that $f(n)-2n$ is of exact order $n/\log n$
+[EGS82].
+[[problems/factorials_binomials/E0390/claims/2026_05_02_mausberg|Mausberg 2026]]
+is a note written with GPT-5.5 Pro. It proves the lower bound
+$\liminf(f(n)-2n)\log n/n\ge C_0$, on which the manuscript's lower bound rests.
 
 **Source.** [erdosproblems.com/390](https://www.erdosproblems.com/390), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #390,

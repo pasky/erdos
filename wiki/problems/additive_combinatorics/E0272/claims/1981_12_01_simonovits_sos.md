@@ -2,8 +2,8 @@
 name: problems/additive_combinatorics/E0272/claims/1981_12_01_simonovits_sos
 title: Simonovits and Sós's quadratic upper bound
 desc: |
-  The 1981 European J. Combin. paper of Simonovits and Sós bounding the
-  extremal family by (pi^2/24 + 1/2 + o(1)) N^2 and refuting the Erdős–Graham
+  Simonovits and Sós's 1981 European J. Combin. paper bounds the size of the
+  extremal family by $(\pi^2/24+1/2+o(1))N^2$. It also refutes the Erdős–Graham
   guess that the progressions through a fixed element are extremal.
 authors:
 - Miklós Simonovits
@@ -72,12 +72,12 @@ from the quoted $k=0$ result of Graham, Simonovits and Sós, which has no
 page.
 
 **Acceptance.** Refereed: European Journal of Combinatorics 2 (1981), no. 4,
-363--372, the DOI linked above; the publication record dates the issue to
-December 1981, filled to the first of the month for this page's name.
-Reviewed is not listed: the site labels the problem OPEN and its commentary
+363--372, at the DOI linked above. The publication record dates the issue to
+December 1981, so the date was filled to the first of the month for this page's
+name. Reviewed is not listed. The site labels the problem OPEN. Its commentary
 credits the paper with $t\ll N^2$ and with the refutation of the Erdős–Graham
-guess, which is commentary on an open problem and not acceptance of a
-solution. Formalized is not listed: the formal-conjectures catalog states the
-bound $t(N)=O(N^2)$ as the variant `isBigO_sq` of its file for the problem and
-marks it research solved, but states it without a proof, and this corpus has
-built no proof of it.
+guess, but that is commentary on an open problem and not acceptance of a
+solution. Formalized is not listed. The formal-conjectures catalog states the
+bound $t(N)=O(N^2)$ as the variant `isBigO_sq` in its file for the problem and
+marks it research solved. But the catalog states it without a proof, and this
+corpus has built no proof of it.

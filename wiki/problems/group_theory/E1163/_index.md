@@ -3,7 +3,7 @@ name: problems/group_theory/E1163
 title: Problem 1163
 desc: |
   Asks for a statistical description of the arithmetic structure of the orders
-  of subgroups of the symmetric group on n letters.
+  of subgroups of the symmetric group $S_n$; open.
 tags:
 - Group theory
 status: open
@@ -23,11 +23,10 @@ updated: 2026-10-07T21:33:46Z
 **Statement.** Describe (by statistical means) the arithmetic structure of the
 orders of subgroups of $S_n$.
 
-**Status.** Open. The site's proof-claims tab carries one partial proof
-claim, a count of the subgroups of the symmetric group of a prescribed
-power-of-two order; the site shows no verdict and its label is unchanged
-(proof-claims thread accessed 2026-10-06). The claim is recorded on its claim
-page.
+**Status.** Open. The site's proof-claims tab carries one partial proof claim: a
+count of the subgroups of the symmetric group of a prescribed power-of-two
+order. The site shows no verdict, and its label is unchanged (proof-claims
+thread accessed 2026-10-06). The claim is recorded on its claim page.
 
 **Source.** [erdosproblems.com/1163](https://www.erdosproblems.com/1163),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1163,

@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E0402
 title: Problem 402
 desc: |
-  Asks for a proof that every finite set of integers has two members whose
-  greatest common divisor is at most one member divided by the set's size.
+  Asks for a proof that every finite set $A$ of integers has two members $a,b$
+  with $\gcd(a,b)\leq a/|A|$; proved.
 tags:
 - Number theory
 status: solved
@@ -27,18 +27,18 @@ $$
 \mathrm{gcd}(a,b)\leq a/\lvert A\rvert.
 $$
 
-**Status.** Proved: Graham's conjecture, proved for every finite set by
-Balasubramanian and Soundararajan (Acta Arith. 75 (1996), a refereed journal)
-after Szegedy (1986) and Zaharescu (1987) had proved it for all sufficiently
-large sets. The site labels the problem PROVED and credits the paper (page
-last edited 8 April 2026). Claim page:
+**Status.** Proved. The site labels the problem PROVED and credits the paper
+(page last edited 8 April 2026). Graham's conjecture was proved for every finite
+set by Balasubramanian and Soundararajan (Acta Arith. 75 (1996), a refereed
+journal). Szegedy (1986) and Zaharescu (1987) had earlier proved it for all
+sufficiently large sets. The standing in the frontmatter derives from the claim
+pages. The claim page
 [[problems/integer_sequences/E0402/claims/1996_01_01_balasubramanian_soundararajan|Balasubramanian and Soundararajan 1996]]
-(accepted on the refereed publication and the curator's credit). The
-large-set proofs are accepted partial claims on their refereed publications,
-[[problems/integer_sequences/E0402/claims/1986_03_01_szegedy|Szegedy 1986]]
-and
-[[problems/integer_sequences/E0402/claims/1987_09_01_zaharescu|Zaharescu 1987]].
-The standing in the frontmatter derives from the claim pages.
+is accepted on the refereed publication and the curator's credit. The large-set
+proofs,
+[[problems/integer_sequences/E0402/claims/1986_03_01_szegedy|Szegedy 1986]] and
+[[problems/integer_sequences/E0402/claims/1987_09_01_zaharescu|Zaharescu 1987]],
+are accepted partial claims on their refereed publications.
 
 **Source.** [erdosproblems.com/402](https://www.erdosproblems.com/402), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #402,

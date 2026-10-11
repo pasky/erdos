@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0188
 title: Problem 188
 desc: |
-  The least number of terms k such that the plane can be two-colored avoiding
-  red points at unit distance and blue unit-spaced progressions of k terms;
-  Erdős and Graham's question, with the step left free, has no finite answer.
+  Asks for the least $k$ such that the plane can be colored red and blue with no
+  two red points at unit distance and no blue $k$-term progression with step
+  $1$; open. If the step is left free, Erdős and Graham's question has no finite
+  answer.
 tags:
 - Geometry
 - Ramsey theory
@@ -55,8 +56,8 @@ arbitrary. The length counts points, so a five-term progression has four
 unit gaps. "With distance $1$" means a unit common difference, as the
 site's remarks explain.
 
-**Status.** Open: the site labels the problem OPEN. The public sources
-compiled as of 2026-09-13 give
+**Status.** Open. The site labels the problem OPEN. The public sources compiled
+as of 2026-09-13 give
 
 $$
 6\leq K_*\leq6330.
@@ -65,12 +66,12 @@ $$
 The lower bound is Tsaturian's refereed theorem
 ([[problems/discrete_geometry/E0188/claims/2017_03_31_tsaturian|claim page]]).
 The upper bound is from the revised Currier–Mody–Xie–Zhang preprint
-([[problems/discrete_geometry/E0188/claims/2026_06_15_currier_mody_xie_zhang|claim page]]);
-the best refereed upper bound is Conlon and Fox's $10^{10}$
+([[problems/discrete_geometry/E0188/claims/2026_06_15_currier_mody_xie_zhang|claim page]]).
+The best refereed upper bound is Conlon and Fox's $10^{10}$
 ([[problems/discrete_geometry/E0188/claims/2017_05_05_conlon_fox|claim page]]).
 The site's commentary, last edited 14 October 2025, does not cite the
-Currier–Mody–Xie–Zhang bound. These are the compiled source-backed bounds,
-not the outcome of an exhaustive literature census.
+Currier–Mody–Xie–Zhang bound. These are the compiled source-backed bounds, not
+the outcome of an exhaustive literature census.
 
 **Source.** [erdosproblems.com/188](https://www.erdosproblems.com/188), accessed
 2026-09-05, together with the discussion and empty proof-claim thread. Cite as:

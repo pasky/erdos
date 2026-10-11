@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0645/claims/1999_08_01_brown_landman
 title: Brown and Landman, monochromatic three-term progressions with any prescribed large difference
 desc: |
-  Theorem 7 of Brown and Landman (Bull. Austral. Math. Soc. 1999): for any f,
-  every 2-coloring of the positive integers has a monochromatic three-term
-  progression with difference at least f of its first term; f(a) = a + 1 here.
+  Theorem 7 of Brown and Landman (Bull. Austral. Math. Soc. 1999) states that,
+  for any $f$, every 2-coloring of the positive integers has a monochromatic
+  three-term progression $a,a+d,a+2d$ with $d\ge f(a)$. This page applies it
+  with $f(a)=a+1$.
 authors:
 - Tom C. Brown
 - Bruce M. Landman
@@ -63,13 +64,13 @@ record, whose only online date, 17 April 2009, is the digitization); the day
 in the page name is a placeholder, and the paper link carries no date for
 that reason.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, credits the
-first proof of the problem to Brown and Landman's paper in the problem's
-commentary and labels the problem PROVED (LEAN) (page last edited 4 April
-2026); the curator is independent of the authors. Refereed: Bull. Austral.
-Math. Soc. 60 (1999), no. 1, 21--35. The community database also lists the
-problem as proved. The site's own elementary argument, attributed to Ryan
-Alweiss, is a second proof with its own
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+PROVED (LEAN) and, in the problem's commentary, credits the first proof of the
+problem to Brown and Landman's paper (page last edited 4 April 2026). The
+curator is independent of the authors. Refereed: Bull. Austral. Math. Soc. 60
+(1999), no. 1, 21--35. The community database also lists the problem as proved.
+The site's own elementary argument, attributed to Ryan Alweiss, is a second
+proof with its own
 [[problems/ramsey_theory/E0645/claims/2025_10_20_alweiss|claim page]].
 
 **Read depth.** The paper is held as the authors' 14-page copy with its own

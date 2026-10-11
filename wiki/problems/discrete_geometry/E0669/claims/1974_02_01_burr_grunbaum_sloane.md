@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0669/claims/1974_02_01_burr_grunbaum_sloane
 title: Burr, Grünbaum and Sloane's orchard bound for k = 3
 desc: |
-  Points on a cubic curve give at least 1 + floor(n(n-3)/6) lines through
-  exactly three of n points; with the pair count this makes both limits for
-  k = 3 equal to 1/6.
+  Burr, Grünbaum and Sloane place $n$ points on a cubic curve so that at least
+  $1+\lfloor n(n-3)/6\rfloor$ lines pass through exactly three of them. With the
+  pair count, this makes both limits for $k=3$ equal to $1/6$.
 authors:
 - Stefan A. Burr
 - Branko Grünbaum

@@ -2,9 +2,9 @@
 name: problems/set_theory/E0598
 title: Problem 598
 desc: |
-  Asks whether the countable subsets of an infinite cardinal can be colored
-  with successor-of-continuum many colors so every set of that size gets all
-  colors.
+  Asks whether the countable subsets of an infinite cardinal $m$ can be colored
+  with $\kappa=(2^{\aleph_0})^+$ colors so that every subset of $m$ of size
+  $\kappa$ contains sets of every color; open.
 tags:
 - Set theory
 - Ramsey theory
@@ -27,9 +27,9 @@ cardinal of $2^{\aleph_0}$. Can one colour the countable subsets of $m$ using
 $\kappa$ many colours so that every $X\subseteq m$ with $\lvert X\rvert=\kappa$
 contains subsets of all possible colours?
 
-**Status.** Open. The site labels the problem OPEN, with no commentary and
-no proof claim; the results posted on its discussion thread and outside the
-site are recorded in the Current assessment and on the claim pages.
+**Status.** Open. The site labels the problem OPEN, with no commentary and no
+proof claim. The results posted on its discussion thread and outside the site
+are recorded in the Current assessment and on the claim pages.
 
 **Source.** [erdosproblems.com/598](https://www.erdosproblems.com/598), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #598,

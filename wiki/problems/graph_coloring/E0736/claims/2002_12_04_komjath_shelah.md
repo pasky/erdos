@@ -3,8 +3,9 @@ name: problems/graph_coloring/E0736/claims/2002_12_04_komjath_shelah
 title: Komjáth and Shelah show a negative answer is consistent
 desc: |
   Komjáth and Shelah (J. Graph Theory 2005) prove it consistent with ZFC that
-  a graph of chromatic number aleph one has no graph of chromatic number above
-  aleph two whose finite subgraphs all occur in it; a yes answer is unprovable.
+  some graph of chromatic number $\aleph_1$ has no graph of chromatic number
+  above $\aleph_2$ whose finite subgraphs all occur in it. So a yes answer is
+  unprovable.
 authors:
 - Péter Komjáth
 - Saharon Shelah
@@ -66,14 +67,13 @@ for graphs of chromatic number at least $\aleph_2$, and no model is recorded
 in which the statement holds at $\aleph_1$. The page claims no more than
 `not_provable`.
 
-**Acceptance.** Refereed publication: J. Graph Theory 49 (2005), no. 1,
-28--38, doi:10.1002/jgt.20060, published online 25 February 2005; the
-preprint is arXiv:math/0212064, posted 4 December 2002, the date of this
-page. The site's curator, T. F. Bloom, labels the problem NOT PROVABLE and
-credits [KoSh05] with the consistency result (the site's commentary names
-Komjáth alone; the paper is joint and attributes Theorem 3 to Komjáth,
-Theorems 1 and 2 to Shelah), which the page lists as `reviewed`. The
-question is Walter Taylor's conjecture at $\aleph_1$, taken up by Erdős,
-Hajnal and Shelah in
+**Acceptance.** Refereed publication: J. Graph Theory 49 (2005), no. 1, 28--38,
+doi:10.1002/jgt.20060, published online 25 February 2005. The preprint is
+arXiv:math/0212064, posted 4 December 2002, which is the date of this page. The
+site's curator, T. F. Bloom, labels the problem NOT PROVABLE and credits
+[KoSh05] with the consistency result. The page lists this credit as `reviewed`.
+The site's commentary names Komjáth alone. The paper is joint, and it attributes
+Theorem 3 to Komjáth and Theorems 1 and 2 to Shelah. The question is Walter
+Taylor's conjecture at $\aleph_1$. Erdős, Hajnal and Shelah took it up in
 [[../library/graph_coloring/erdos_1974_general_properties_chromatic_numbers/_index|On some general properties of chromatic numbers]]
-(1974), whose Problem 2 would have answered it positively.
+(1974), and their Problem 2 would have answered it positively.

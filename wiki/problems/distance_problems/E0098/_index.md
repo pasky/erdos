@@ -2,8 +2,9 @@
 name: problems/distance_problems/E0098
 title: Problem 98
 desc: |
-  Asks whether the fewest distinct distances among n plane points with no
-  three on a line and no four on a circle grows faster than n.
+  Asks whether the least number $h(n)$ of distinct distances among $n$ points in
+  the plane, with no three on a line and no four on a circle, satisfies
+  $h(n)/n\to\infty$. It is open.
 tags:
 - Geometry
 - Distances
@@ -23,9 +24,9 @@ updated: 2026-10-08T18:26:20Z
 three on a line and no four on a circle, determine at least $h(n)$ distinct
 distances. Does $h(n)/n\to \infty$?
 
-**Status.** Open: the site labels the problem OPEN (snapshot of 5 September
-2026). No result about the problem has been claimed, so it has no claim page
-and the frontmatter standing is open.
+**Status.** Open. The site labels the problem OPEN (snapshot of 5 September
+2026). No result about the problem has been claimed, so it has no claim page and
+the frontmatter standing is open.
 
 **Source.** [erdosproblems.com/98](https://www.erdosproblems.com/98), snapshot
 accessed 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #98,

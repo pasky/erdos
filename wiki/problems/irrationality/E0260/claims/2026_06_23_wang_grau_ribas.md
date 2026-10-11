@@ -2,9 +2,9 @@
 name: problems/irrationality/E0260/claims/2026_06_23_wang_grau_ribas
 title: Wang and Grau Ribas's positive-density theorem for rational weighted binary expansions
 desc: |
-  Wang and Grau Ribas's 2026 preprint (later versions by Wang alone) claims
-  that a rational sum of n/2^n over an infinite set has positive density on
-  every large dyadic block, so Problem 260's series is irrational.
+  Wang and Grau Ribas's 2026 preprint (later versions by Wang alone) claims that
+  an infinite set $S$ with $\sum_{n\in S}n/2^n$ rational has positive density on
+  every large dyadic block, so that Problem 260's series is irrational.
 authors:
 - Han Wang
 - José María Grau Ribas

@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0549/claims/1976_01_01_burr_erdos
 title: Burr and Erdős, the equality for a path on four vertices with stars at its ends
 desc: |
-  Lemma 4.1 of Burr and Erdős (Utilitas Math. 1976) gives Ramsey number 4k-1
-  for the tree made of a path on four vertices with stars on 2k-1 and k-1
-  vertices at its ends, classes 2k and k; refereed.
+  Lemma 4.1 of Burr and Erdős (Utilitas Math. 1976) gives Ramsey number $4k-1$
+  for the tree with classes $2k$ and $k$ made of a path on four vertices with
+  stars on $2k-1$ and $k-1$ vertices at its ends. It is refereed.
 authors:
 - S. A. Burr
 - P. Erdős
@@ -62,8 +62,7 @@ $r(K_{1,k-1}\cup K_{1,\ell})$, unpublished and quoted through Burr's 1974
 survey (Lecture Notes in Math. 406), which this corpus does not hold.
 
 **Acceptance.** Refereed: the paper is a journal publication in Utilitas
-Mathematica, volume 9 (1976), received 5 November 1974, the `refereed`
-evidence; the record carries no month, so this page is dated to the first
-day of the year. The site's curator lists this family in the commentary,
-but the label DISPROVED credits the disproof, not this case, so `reviewed`
-is not listed.
+Mathematica, volume 9 (1976), received 5 November 1974. This is the `refereed`
+evidence. The record carries no month, so this page is dated to the first day of
+the year. The site's curator lists this family in the commentary. But the label
+DISPROVED credits the disproof, not this case, so `reviewed` is not listed.

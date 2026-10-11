@@ -2,8 +2,8 @@
 name: problems/analysis/E0517
 title: Problem 517
 desc: |
-  Asks whether an entire power series whose exponents grow faster than
-  linearly in the index must take every complex value infinitely often.
+  Asks whether an entire power series $\sum a_kz^{n_k}$ with $n_k/k\to\infty$
+  must take every complex value infinitely often; open.
 tags:
 - Analysis
 status: open
@@ -24,17 +24,16 @@ updated: 2026-10-07T20:33:08Z
 (with $a_k\neq 0$ for all $k\geq 1$). Is it true that if $n_k/k\to \infty$ then
 $f(z)$ assumes every value infinitely often?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 29
-December 2025) and notes that it cannot be resolved by a finite
-computation. Three partial claims settle subclasses of the question:
-[[problems/analysis/E0517/claims/1929_12_01_polya|Pólya 1929]] (accepted,
-refereed) every function of finite order, and
-[[problems/analysis/E0517/claims/1927_01_01_biernacki|Biernacki 1927]]
-(pending) and [[problems/analysis/E0517/claims/1983_01_01_murai|Murai 1983]]
-(accepted, refereed) every function with $\sum1/n_k<\infty$; the question
-is open only for functions of infinite order with $\sum1/n_k=\infty$. The
-frontmatter standing derives from the claim pages and stays open, since no
-claim settles the whole question.
+**Status.** Open. The site labels the problem OPEN (page last edited 29 December
+2025) and notes that it cannot be resolved by a finite computation. The
+frontmatter standing derives from the claim pages and stays open, since no claim
+settles the whole question. Three partial claims settle subclasses of the
+question. [[problems/analysis/E0517/claims/1929_12_01_polya|Pólya 1929]]
+(accepted, refereed) settles every function of finite order.
+[[problems/analysis/E0517/claims/1927_01_01_biernacki|Biernacki 1927]] (pending)
+and [[problems/analysis/E0517/claims/1983_01_01_murai|Murai 1983]] (accepted,
+refereed) settle every function with $\sum1/n_k<\infty$. The question is open
+only for functions of infinite order with $\sum1/n_k=\infty$.
 
 **Source.** [erdosproblems.com/517](https://www.erdosproblems.com/517), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #517,

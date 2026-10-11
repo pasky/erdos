@@ -2,8 +2,9 @@
 name: problems/analysis/E1126
 title: Problem 1126
 desc: |
-  Asks whether a function additive for almost all pairs of reals must agree
-  almost everywhere with a function that is additive for all pairs.
+  Asks whether a function $f$ with $f(x+y)=f(x)+f(y)$ for almost all
+  $x,y\in\mathbb{R}$ must agree almost everywhere with some $g$ satisfying
+  $g(x+y)=g(x)+g(y)$ for all $x,y$; proved.
 tags:
 - Analysis
 status: solved
@@ -44,14 +45,14 @@ null set excluded from each variable, the hypothesis is Hartman's, which de
 Bruijn records as the earlier partial result; it is a special case of the
 plane-measure hypothesis, so the answer is the same.
 
-**Status.** PROVED (LEAN), on the site's label, which credits the result as
-proved independently by de Bruijn [dB66] and Jurkat [Ju65]; both proofs are
-recorded as accepted claims, de Bruijn's
+**Status.** PROVED (LEAN) on the site's label, which credits the result as
+proved independently by de Bruijn [dB66] and Jurkat [Ju65]. Both proofs are
+recorded as accepted claims: de Bruijn's
 [[problems/analysis/E1126/claims/1966_01_01_debruijn|translation-difference proof]]
 and Jurkat's
 [[problems/analysis/E1126/claims/1965_08_01_jurkat|conull-sumset proof]]. The
-Lean part of the label refers to a public formalization of de Bruijn's
-argument, linked from his claim page; the corpus has not built it.
+Lean part of the label refers to a public formalization of de Bruijn's argument,
+linked from his claim page. The corpus has not built it.
 
 **Source.** [erdosproblems.com/1126](https://www.erdosproblems.com/1126),
 accessed 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #1126,

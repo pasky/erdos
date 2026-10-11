@@ -2,9 +2,9 @@
 name: problems/covering_systems/E0007/claims/1987_01_01_berger_felzenbaum_fraenkel
 title: Six distinct primes in the period of an odd covering
 desc: |
-  The six-prime corollary of Berger, Felzenbaum and Fraenkel (Acta Arith.
-  1987): the least common multiple of the moduli of a distinct odd covering
-  has at least six distinct prime factors; accepted on the refereed paper.
+  The six-prime corollary of Berger, Felzenbaum and Fraenkel (Acta Arith. 1987)
+  shows that the least common multiple of the moduli of a distinct odd covering
+  has at least six distinct prime factors. It is accepted on the refereed paper.
 authors:
 - Marc Berger
 - Alexander Felzenbaum
@@ -47,8 +47,7 @@ stays open.
 **Depends on.** Nothing in this wiki; the theorem is the paper's own.
 
 **Acceptance.** Refereed: Acta Arithmetica 48 (1987), no. 1, 73--79,
-doi:10.4064/aa-48-1-73-79. Not reviewed: the site labels the problem
-VERIFIABLE, an open label, and its commentary does not cite the paper. Not
-formalized: no Lean proof of the corollary is recorded; the library's
-compilation is author-recorded coverage by this project and awards nothing
-here.
+doi:10.4064/aa-48-1-73-79. Not reviewed: the site labels the problem VERIFIABLE,
+an open label, and its commentary does not cite the paper. Not formalized: no
+Lean proof of the corollary is recorded. The library's compilation is
+author-recorded coverage by this project and awards nothing here.

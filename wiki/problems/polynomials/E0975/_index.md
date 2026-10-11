@@ -2,9 +2,9 @@
 name: problems/polynomials/E0975
 title: Problem 975
 desc: |
-  Asks whether the sum of the number of divisors of the values of an
-  irreducible integer polynomial up to X is asymptotic to a constant times X
-  log X.
+  Asks whether, for an irreducible nonconstant $f\in\mathbb{Z}[x]$ with
+  $f(n)\ge 1$ for large $n$, there is a constant $c=c(f)>0$ with
+  $\sum_{n\le X}\tau(f(n))\sim cX\log X$; open.
 tags:
 - Number theory
 - Divisors

@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0984
 title: Problem 984
 desc: |
-  Asks whether the naturals can be two-colored so that every monochromatic
-  arithmetic progression starting at a has fewer terms than any fixed power of
-  a.
+  Asks whether $\mathbb{N}$ can be $2$-colored so that every monochromatic
+  $k$-term arithmetic progression starting at $a$ has $k\ll_\epsilon a^\epsilon$
+  for all $\epsilon>0$; proved.
 tags:
 - Arithmetic progressions
 - Additive combinatorics
@@ -32,15 +32,15 @@ is a $k$-term monochromatic arithmetic progression then $k\ll_\epsilon
 a^\epsilon$ for all $\epsilon>0$?
 
 **Status.** Proved. The label is the site's (PROVED, page last edited 4 April
-2026, read 2026-10-07), with the commentary crediting Zach Hunter's proof on
-the discussion thread. The standing is derived from the claim page: the
-accepted claim is Hunter's $2$-coloring of 10 August 2025, on
+2026, read 2026-10-07), and its commentary credits Zach Hunter's proof on the
+discussion thread. The standing is derived from the claim page. The accepted
+claim is Hunter's $2$-coloring of 10 August 2025, on
 [[problems/additive_combinatorics/E0984/claims/2025_08_10_hunter|its claim page]],
-which gives every monochromatic $k$-term progression starting at $a$ at most
-$\exp((\log a)^{1/2+o(1)})$ terms and is accepted on the site's label; no
-write-up outside the thread was found on 2026-10-07. Spencer's three-color version with a very
-slowly growing bound and Erdős's two-coloring with $k\ll a^{1-c}$ are the
-earlier results the site records.
+accepted on the site's label. In this coloring, every monochromatic $k$-term
+progression starting at $a$ has at most $\exp((\log a)^{1/2+o(1)})$ terms. No
+write-up outside the thread was found on 2026-10-07. The site also records two
+earlier results: Spencer's three-color version with a very slowly growing bound,
+and Erdős's two-coloring with $k\ll a^{1-c}$.
 
 **Source.** [erdosproblems.com/984](https://www.erdosproblems.com/984), accessed
 2026-09-04; page and thread read 2026-10-07 (page last edited 4 April 2026;

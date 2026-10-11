@@ -2,8 +2,9 @@
 name: problems/additive_bases/E0028
 title: Problem 28
 desc: |
-  Asks whether a set whose sumset omits only finitely many integers must have
-  integers with arbitrarily many representations as sums of two elements.
+  Asks whether, when $A+A$ contains all but finitely many integers, some
+  integers must have arbitrarily many representations as a sum of two elements
+  of $A$; open.
 tags:
 - Number theory
 - Additive bases

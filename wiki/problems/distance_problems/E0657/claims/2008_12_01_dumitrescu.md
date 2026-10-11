@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0657/claims/2008_12_01_dumitrescu
 title: Dumitrescu's bounds for collinear sets without isosceles triples
 desc: |
-  Dumitrescu's 2008 note proves the problem's assertion for collinear sets:
-  n points on a line with no isosceles triple determine at least (log n)^c n
-  distinct distances, and some determine at most n 2^{O(sqrt(log n))}; refereed.
+  Dumitrescu's refereed 2008 note proves the problem's assertion for collinear
+  sets: $n$ points on a line with no isosceles triple determine at least
+  $(\log n)^c\,n$ distinct distances. Some such sets determine at most
+  $n\,2^{O(\sqrt{\log n})}$.
 authors:
 - Adrian Dumitrescu
 status: accepted
@@ -58,9 +59,8 @@ problem's question remains open.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The paper is refereed: it appeared in the journal Discrete
-Mathematics, volume 308 (2008). The site labels the problem OPEN, and its
-remark (page last edited 15 October 2025) credits Dumitrescu [Du08] with the
-two bounds; that remark on an open problem is not an acceptance, so no
-`reviewed` evidence is listed. The lower bound was later raised to
-$2^{c(\log n)^{1/9}}$ on
+Mathematics, volume 308 (2008). The site labels the problem OPEN. Its remark
+(page last edited 15 October 2025) credits Dumitrescu [Du08] with the two
+bounds. That remark on an open problem is not an acceptance, so no `reviewed`
+evidence is listed. The lower bound was later raised to $2^{c(\log n)^{1/9}}$ on
 [[problems/distance_problems/E0657/claims/2025_08_19_hunter|Hunter's claim page]].

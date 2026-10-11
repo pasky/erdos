@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0476
 title: Problem 476
 desc: |
-  Asks whether the set of sums of distinct pairs from a subset of the
-  integers modulo a prime has size at least twice the subset size minus
-  three, or the prime (the Erdős–Heilbronn conjecture); proved in 1994.
+  Asks whether, for $A\subseteq\mathbb{F}_p$, the set of sums $a+b$ with
+  $a\neq b$ in $A$ has size at least $\min(2|A|-3,p)$ (the Erdős–Heilbronn
+  conjecture); proved in 1994.
 tags:
 - Number theory
 - Additive combinatorics
@@ -56,44 +56,50 @@ $p\le2k-3$)? It is surprising this old question of Erdős and Heilbronn
 [Er-He (64)] is still open." The bound is sharp: $A=\{0,1,\ldots,k-1\}$
 has $A\hat{+}A=\{1,\ldots,2k-3\}$ ([ANR95], p. 5).
 
-**Status.** Proved. The site's status-defining source is the paper of Dias da
-Silva and Hamidoune [dSHa94] (Bull. London Math. Soc. 26 (1994), no. 2,
-140--146, refereed), at its Theorem 4.1 (printed p. 144;
-[[../library/additive_combinatorics/dias_da_silva_hamidoune_1994_cyclic_spaces_grassmann_derivatives_additive_theory/theorem_4_1|result page]]):
-for a finite subset $A$ of a field of characteristic $p$ and a positive
-integer $m$, the sums of the $m$-subsets of $A$ number at least
-$\min\{p,m|A|-m^2+1\}$, and the remark after its proof states the case $m=2$
-for $A\subseteq Z_p$, $|A\wedge A|\ge\min\{p,2|A|-3\}$, as the conjecture of
-Erdős and Heilbronn; its proof uses linear algebra and the representation
-theory of the symmetric group. The general theorem is also stated and proved
-in the refereed paper [ANR96], whose Theorem 3.3 (p. 411;
+**Status.** Proved. The site's label is PROVED (LEAN), and its Lean mark is a
+catalog label explained under Formalization.
+
+The site's status-defining source is the paper of Dias da Silva and Hamidoune
+[dSHa94] (Bull. London Math. Soc. 26 (1994), no. 2, 140--146, refereed), at its
+Theorem 4.1 (printed p. 144;
+[[../library/additive_combinatorics/dias_da_silva_hamidoune_1994_cyclic_spaces_grassmann_derivatives_additive_theory/theorem_4_1|result page]]).
+For a finite subset $A$ of a field of characteristic $p$ and a positive integer
+$m$, the theorem says that the sums of the $m$-subsets of $A$ number at least
+$\min\{p,m|A|-m^2+1\}$. The remark after its proof states the case $m=2$ for
+$A\subseteq Z_p$, $|A\wedge A|\ge\min\{p,2|A|-3\}$, as the conjecture of Erdős
+and Heilbronn. Its proof uses linear algebra and the representation theory of
+the symmetric group. The general theorem is also stated and proved in the
+refereed paper [ANR96]. Its Theorem 3.3 (p. 411;
 [[../library/additive_combinatorics/alon_1996_polynomial_method_restricted_sums_congruence_classes/theorem_3_3|result page]])
-states it with the label "([4])" and proves it from that paper's own Theorem
-3.2 by the polynomial method. The statement itself is also proved in refereed
-papers: Theorem 2 of Alon, Nathanson and Ruzsa [ANR95] (Amer. Math. Monthly
-102 (1995), 250--255;
-[[../library/additive_combinatorics/alon_1995_adding_distinct_congruence_classes_modulo_prime/theorem_2|result page]]),
-labeled by them "(Dias da Silva--Hamidoune [3])", states
-$|2^\wedge A|\ge\min(p,2k-3)$ for $|A|=k\ge2$ and derives it in three lines
+states it with the label "([4])" and proves it from that paper's own Theorem 3.2
+by the polynomial method.
+
+The statement itself is also proved in refereed papers. Theorem 2 of Alon,
+Nathanson and Ruzsa [ANR95] (Amer. Math. Monthly 102 (1995), 250--255;
+[[../library/additive_combinatorics/alon_1995_adding_distinct_congruence_classes_modulo_prime/theorem_2|result page]])
+is labeled by them "(Dias da Silva--Hamidoune [3])". It states
+$|2^\wedge A|\ge\min(p,2k-3)$ for $|A|=k\ge2$. They derive it in three lines
 from their
 [[../library/additive_combinatorics/alon_1995_adding_distinct_congruence_classes_modulo_prime/theorem_1|Theorem 1]],
-$|A\hat{+}B|\ge\min(p,k+l-2)$ for $|A|=k\ne l=|B|$, proved by the polynomial
-method (the Alon--Tarsi lemma with interpolation); and Theorem 1.3 of [ANR96]
-(p. 405;
-[[../library/additive_combinatorics/alon_1996_polynomial_method_restricted_sums_congruence_classes/theorem_1_3|result page]]),
-labeled "([4])", states $|\{a+a': a,a'\in A,\ a\ne a'\}|\ge\min\{p,2|A|-3\}$
-for nonempty $A\subseteq Z_p$ and derives it from the case $k=1$ of that
-paper's Proposition 1.2, and again as the case $s=2$ of its Theorem 3.3. An
-external Lean proof following the same method is described under
-Formalization. The site's label is PROVED (LEAN); its Lean mark is a catalog
-label explained there. The claim pages are
+$|A\hat{+}B|\ge\min(p,k+l-2)$ for $|A|=k\ne l=|B|$. That theorem is proved by
+the polynomial method (the Alon--Tarsi lemma with interpolation). Theorem 1.3 of
+[ANR96] (p. 405;
+[[../library/additive_combinatorics/alon_1996_polynomial_method_restricted_sums_congruence_classes/theorem_1_3|result page]])
+is labeled "([4])". It states
+$|\{a+a': a,a'\in A,\ a\ne a'\}|\ge\min\{p,2|A|-3\}$ for nonempty
+$A\subseteq Z_p$. That paper derives it from the case $k=1$ of its Proposition
+1.2, and again as the case $s=2$ of its Theorem 3.3.
+
+An external Lean proof following the same method is described under
+Formalization. The claim pages are
 [[problems/additive_combinatorics/E0476/claims/1994_03_01_dias_da_silva_hamidoune|Dias da Silva and Hamidoune]]
-(accepted on the refereed publication and the site's credit) and
-[[problems/additive_combinatorics/E0476/claims/1995_03_01_alon_nathanson_ruzsa|Alon, Nathanson and Ruzsa]]
-(the polynomial-method proof; accepted on the refereed publications; the Lean
-proof in the lean-proofs repository, which declares itself a formalization of
-their argument, is its formalization link, third-party Lean that gives no
-`formalized` evidence).
+and
+[[problems/additive_combinatorics/E0476/claims/1995_03_01_alon_nathanson_ruzsa|Alon, Nathanson and Ruzsa]].
+The first is accepted on the refereed publication and the site's credit. The
+second covers the polynomial-method proof and is accepted on the refereed
+publications. Its formalization link is the Lean proof in the lean-proofs
+repository, which declares itself a formalization of their argument. That proof
+is third-party Lean and gives no `formalized` evidence.
 
 **Source.** [erdosproblems.com/476](https://www.erdosproblems.com/476),
 accessed 2026-09-18: the problem page (labeled

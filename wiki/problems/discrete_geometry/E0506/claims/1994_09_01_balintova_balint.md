@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0506/claims/1994_09_01_balintova_balint
 title: Bálintová and Bálint's bounds on three-point circles
 desc: |
-  Bálintová and Bálint prove that n points, not all on one circle or one line,
-  determine at least 5n(n-1)/133 circles through exactly three of them, and
-  print the corrected Elliott bound without proof; refereed.
+  Bálintová and Bálint prove that $n$ points, not all on one circle or one line,
+  determine at least $5n(n-1)/133$ circles through exactly three of them, and
+  print the corrected Elliott bound without proof. The paper is refereed.
 authors:
 - A. Bálintová
 - V. Bálint
@@ -53,7 +53,7 @@ the corrected Elliott bound it prints is not proved there.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: Acta Mathematica Hungarica published the paper.
-The site's curator labels the problem DECIDABLE and credits Purdy and Smith;
-the remark that this paper reported the corrected bound without explanation
-is context and not acceptance evidence.
+**Acceptance.** Refereed: Acta Mathematica Hungarica published the paper. The
+site's curator labels the problem DECIDABLE and credits Purdy and Smith. The
+remark that this paper reported the corrected bound without explanation is
+context and not acceptance evidence.

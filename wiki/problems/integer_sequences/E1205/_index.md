@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E1205
 title: Problem 1205
 desc: |
-  The largest number of congruences guaranteed, over choices of one residue
-  class modulo each n up to x, to be satisfied by every integer up to x; the
-  site's own argument gives log x plus lower-order terms, a pending claim.
+  Asks for estimates of $F(x)$, the largest $F$ such that some choice of one
+  class $a_n\pmod n$ for each $n\le x$ makes every $m\le x$ satisfy at least $F$
+  of the congruences. The site's own argument, a pending claim, gives
+  $F(x)\sim\log x$.
 tags:
 - Number theory
 status: claimed
@@ -40,18 +41,18 @@ that $F(x)\to\infty$ as $x\to\infty$. The only problem is to determine or
 estimate how fast $F(x)$ tends to infinity." The site's statement is this
 question with $m$ for $t$.
 
-**Status.** SOLVED, the site's label, which the page glosses as a resolution by
-some means other than a proof or disproof: the site's own commentary gives an
+**Status.** SOLVED is the site's label, which the page glosses as a resolution
+by some means other than a proof or disproof. The site's own commentary gives an
 argument that $F(x)\sim\log x$, with the two-sided bound
 $\log x-O(\sqrt{\log x\log\log x})\le F(x)\le\log x+O(1)$. The status-defining
 source is that commentary (last edited 8 April 2026), which this compilation
 admits as a source for status. No paper, preprint or independent review of the
-argument exists, and the label is the claimant's own (the site's curator, T. F.
-Bloom, wrote the argument, so the curator's label is no independent review), so
-the argument is a pending claim
-([[problems/integer_sequences/E1205/claims/2026_04_08_bloom|the site's argument, April 2026]])
+argument exists. The label is also the claimant's own: the site's curator, T. F.
+Bloom, wrote the argument, so the curator's label is no independent review. For
+these reasons the argument is a pending claim
+([[problems/integer_sequences/E1205/claims/2026_04_08_bloom|the site's argument, April 2026]]),
 and the derived standing is `claimed`, not `solved`. The argument is presented
-below as the site's account with its steps named and is not checked step by step
+below as the site's account with its steps named. It is not checked step by step
 here.
 
 **Source.** [erdosproblems.com/1205](https://www.erdosproblems.com/1205),

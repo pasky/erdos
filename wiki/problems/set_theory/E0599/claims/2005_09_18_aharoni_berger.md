@@ -2,9 +2,10 @@
 name: problems/set_theory/E0599/claims/2005_09_18_aharoni_berger
 title: Aharoni and Berger's infinite Menger theorem
 desc: |
-  Proves that any digraph has a family of disjoint A-B paths and an A-B
-  separator choosing one vertex from each path, so the undirected question
-  follows; refereed in 2009 and credited by the site's curator.
+  Aharoni and Berger prove that every digraph has a family of disjoint $A$–$B$
+  paths and an $A$–$B$ separator made of one vertex from each path, so the
+  undirected question follows. It was refereed in 2009 and is credited by the
+  site's curator.
 authors:
 - Ron Aharoni
 - Eli Berger
@@ -57,11 +58,10 @@ and on the problem page. The paper's proof, a transfinite structural
 analysis of digraphs, was not reconstructed here.
 
 **Acceptance.** The result appeared in a refereed journal, *Inventiones
-Mathematicae*, in 2009, the `refereed` evidence; the inspected text is the
-arXiv v4 final version, and the version of record was not compared with it.
-The site's curator, Thomas Bloom, marks the problem PROVED and credits the
-proof to Aharoni and Berger: that curator credit is the `reviewed`
-evidence. The formal-conjectures statement file for the problem, at the
-commit read and linked from the problem page, holds only
-statements with `sorry` bodies, so no formalization is linked and the page
-lists no `formalized` evidence.
+Mathematicae*, in 2009. This is the `refereed` evidence. The inspected text is
+the arXiv v4 final version, which was not compared with the version of record.
+The site's curator, Thomas Bloom, marks the problem PROVED and credits the proof
+to Aharoni and Berger. That curator credit is the `reviewed` evidence. The
+formal-conjectures statement file for the problem is linked from the problem
+page. At the commit read, it holds only statements with `sorry` bodies. So no
+formalization is linked, and the page lists no `formalized` evidence.

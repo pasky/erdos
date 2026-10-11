@@ -2,9 +2,9 @@
 name: problems/set_theory/E0592
 title: Problem 592
 desc: |
-  Determines which countable ordinals force every red-blue coloring of pairs
-  from omega to that ordinal to give a red clique of that type or a blue
-  triangle.
+  Asks which countable ordinals $\beta$ make every red-blue coloring of the
+  pairs from $\omega^\beta$ give a red complete subgraph of order type
+  $\omega^\beta$ or a blue triangle; open.
 tags:
 - Set theory
 - Ramsey theory

@@ -2,9 +2,10 @@
 name: problems/number_theory/E0034/claims/2015_04_27_konieczny
 title: Konieczny's permutation with n^2/4 distinct consecutive sums
 desc: |
-  Konieczny's Proposition 1.1: the permutation 1, n, 2, n-1, 3, n-2, ... has
-  pairwise distinct consecutive sums of odd length, hence at least n^2/4
-  distinct consecutive sums, so S(pi) = o(n^2) fails, refuting Problem 34.
+  Konieczny's Proposition 1.1: in the permutation $1,n,2,n-1,3,n-2,\ldots$ the
+  consecutive sums of odd length are pairwise distinct. So it has at least
+  $n^2/4$ distinct consecutive sums, and $S(\pi)=o(n^2)$ fails, which refutes
+  Problem 34.
 authors:
 - Jakub Konieczny
 status: accepted
@@ -73,7 +74,7 @@ audited its statement against the problem, so it supplies no `formalized`
 evidence; the site's label DISPROVED (LEAN) refers to this development.
 
 **Acceptance.** The paper is refereed: J. Konieczny, *On consecutive sums in
-permutations*, J. Combinatorics 12, no. 3 (2021), 413--477; the statements cited
+permutations*, J. Combinatorics 12, no. 3 (2021), 413--477. The statements cited
 here agree word for word with the arXiv text. The site's curator, Thomas F.
 Bloom, marks Problem 34 disproved and credits this paper with the explicit
 permutation and the random-permutation asymptotic. The page is dated by the

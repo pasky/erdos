@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0944
 title: Problem 944
 desc: |
-  Asks whether for every k at least 4 and r at least 1 some k-chromatic graph
-  has every vertex critical and no critical set of at most r edges; settled by
-  a Lean proof the bounty site Conjectures.io certified in September 2026.
+  Asks whether, for every $k\geq4$ and $r\geq1$, some $k$-chromatic graph has
+  every vertex critical but no critical set of at most $r$ edges. A Lean proof
+  certified by the bounty site Conjectures.io in September 2026 settles it.
 tags:
 - Graph theory
 - Chromatic number
@@ -29,10 +29,11 @@ Let $k\geq 4$ and $r\geq 1$. Must there exist a graph $G$ with chromatic number
 $k$ such that every vertex is critical, yet every critical set of edges has size
 $>r$?
 
-**Status.** Proved, departing from the site's label OPEN (page fetched), whose notes say that the case $k=4$ is open even for $r=1$: the
-Lean proof of Kruer and Kohlmeyer, certified by Conjectures.io on 16 September
-2026 and not recorded by the site at that fetch, answers the question for every
-$k\geq4$ and $r\geq1$; the standing derives from the
+**Status.** Proved. This departs from the site's label OPEN (page fetched),
+whose notes say that the case $k=4$ is open even for $r=1$. The Lean proof of
+Kruer and Kohlmeyer answers the question for every $k\geq4$ and $r\geq1$.
+Conjectures.io certified it on 16 September 2026, and the site had not recorded
+it at that fetch. The standing derives from the
 [[problems/graph_coloring/E0944/claims/2026_09_11_kruer_kohlmeyer|claim page]].
 
 **Source.** [erdosproblems.com/944](https://www.erdosproblems.com/944), accessed

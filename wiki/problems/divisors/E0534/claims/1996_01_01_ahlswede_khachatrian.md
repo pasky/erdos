@@ -2,9 +2,10 @@
 name: problems/divisors/E0534/claims/1996_01_01_ahlswede_khachatrian
 title: Ahlswede and Khachatrian's largest pairwise non-coprime set containing N
 desc: |
-  The maximum is attained by the integers up to N divisible by one of 2q_1,
-  ..., 2q_j, q_1 ... q_j for some j, where q_1 < ... < q_r are the prime
-  factors of N, as Erdős conjectured after the original guess failed.
+  Ahlswede and Khachatrian prove that the maximum is attained, for some $j$, by
+  the integers up to $N$ divisible by one of $2q_1,\ldots,2q_j,q_1\cdots q_j$,
+  where $q_1<\cdots<q_r$ are the prime factors of $N$. Erdős conjectured this
+  form after the original guess failed.
 authors:
 - Rudolf Ahlswede
 - Levon Khachatrian
@@ -55,15 +56,16 @@ the prime factors of $N$ and $n=N$. The source card
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** The result is refereed: R. Ahlswede and L. H. Khachatrian,
-Sets of integers with pairwise common divisor and a factor from a specified
-set of primes, Acta Arith. 75 (1996), no. 3, 259-276. Thomas Bloom, the
-site's curator, marks the problem solved and credits this paper on the
-problem page. Boris Alexeev's repository of formalized Erdős problems holds a
-Lean development, added on 2026-08-20, whose index page of 2026-08-22 is
-linked above at a pinned commit; its header names Ahlswede and Khachatrian as
-informal authors and Codex and GPT-5.6 Sol as formal authors; its theorem `Erdos534.erdos_534` states that
-for every $N\ge2$ some prime factor $q$ of $N$ gives an admissible candidate
-set of the displayed form whose size bounds every admissible set. This corpus
-has not built or audited it, so no `formalized` evidence is listed. No proof
-was checked here.
+**Acceptance.** The result is refereed: R. Ahlswede and L. H. Khachatrian, Sets
+of integers with pairwise common divisor and a factor from a specified set of
+primes, Acta Arith. 75 (1996), no. 3, 259-276. Thomas Bloom, the site's curator,
+marks the problem solved and credits this paper on the problem page.
+
+Boris Alexeev's repository of formalized Erdős problems holds a Lean
+development, added on 2026-08-20. Its index page of 2026-08-22 is linked above
+at a pinned commit. The development's header names Ahlswede and Khachatrian as
+informal authors and Codex and GPT-5.6 Sol as formal authors. Its theorem
+`Erdos534.erdos_534` states that for every $N\ge2$ some prime factor $q$ of $N$
+gives an admissible candidate set of the displayed form whose size bounds every
+admissible set. This corpus has not built or audited it, so no `formalized`
+evidence is listed. No proof was checked here.

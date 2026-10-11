@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0150/claims/2008_07_02_fomin_kratsch_todinca_villanger
 title: Fomin, Kratsch, Todinca and Villanger's separator bound
 desc: |
-  Fomin, Kratsch, Todinca and Villanger prove that an n-vertex graph has
-  O(1.7087^n) minimal separators, the first proof that the limit is below 2;
-  accepted on the refereed paper in SIAM J. Comput. 38 (2008).
+  Fomin, Kratsch, Todinca and Villanger prove that an $n$-vertex graph has
+  $O(1.7087^n)$ minimal separators, the first proof that the limit is below $2$.
+  The claim is accepted on the refereed paper in SIAM J. Comput. 38 (2008).
 authors:
 - Fedor V. Fomin
 - Dieter Kratsch
@@ -56,6 +56,6 @@ existence of the limit is not addressed.
 is the one line above.
 
 **Acceptance.** Refereed: the paper is a publication in the SIAM Journal on
-Computing. The site's curator credits the paper in the problem's commentary,
-but the site lists no parts and its label credits Bradač's note for the whole
-problem, so the credit is not listed as reviewed evidence.
+Computing. The site's curator credits the paper in the problem's commentary. The
+site lists no parts, and its label credits Bradač's note for the whole problem,
+so the credit is not listed as reviewed evidence.

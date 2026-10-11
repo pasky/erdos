@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0369/claims/1998_04_01_balog_wooley
 title: Balog and Wooley's strings of smooth integers
 desc: |
-  Balog and Wooley prove that for every fixed u above 1 infinitely many n are
-  followed by about log log log log n consecutive n^(1/u)-smooth integers:
-  the wording and the first reading, the second for infinitely many n only.
+  Balog and Wooley prove that for every fixed $u>1$ infinitely many $n$ are
+  followed by about $\log\log\log\log n$ consecutive $n^{1/u}$-smooth integers.
+  This settles the problem as worded and its first reading, and the second
+  reading only for infinitely many $n$.
 authors:
 - Antal Balog
 - Trevor D. Wooley
@@ -54,17 +55,19 @@ slightly different, with a stronger uniformity that yields only infinitely
 many $n$.
 
 **Acceptance.** Published in J. Austral. Math. Soc. Ser. A 64 (1998), no. 2,
-266–276, a refereed journal, in the issue dated April 1998 in the publisher's
-record, which dates this page (`refereed`). The site's curator, Thomas F.
-Bloom, records in the problem's commentary (page last edited 2026-04-28) that
-the first strengthening follows from this result and that the second follows
-from it for infinitely many $n$ (`reviewed`). Eggleton and Selfridge [EgSe76]
-had earlier given, for every $\epsilon>0$, infinitely many runs of five
-consecutive integers $n,\dots,n+4$ each $n^\epsilon$-smooth, which the site
-notes sits oddly with Erdős and Graham's remark that the problem was open
-even for $k=2$; that result is the partial claim
-[[problems/arithmetic_functions/E0369/claims/1976_08_01_eggleton_selfridge|Eggleton and Selfridge 1976]],
-and the paper's section 2 comparison (pp. 267–268) records its smoothness
-bounds and corrects a minor oversight in that result's source.
+266–276, a refereed journal (`refereed`). The publisher's record dates the issue
+April 1998, and that date dates this page. The site's curator, Thomas F. Bloom,
+records in the problem's commentary (page last edited 2026-04-28) that the first
+strengthening follows from this result and that the second follows from it for
+infinitely many $n$ (`reviewed`).
+
+Eggleton and Selfridge [EgSe76] had earlier given, for every $\epsilon>0$,
+infinitely many runs of five consecutive integers $n,\dots,n+4$, each
+$n^\epsilon$-smooth. The site notes that this sits oddly with Erdős and Graham's
+remark that the problem was open even for $k=2$. That result is the partial
+claim
+[[problems/arithmetic_functions/E0369/claims/1976_08_01_eggleton_selfridge|Eggleton and Selfridge 1976]].
+The paper's section 2 comparison (pp. 267–268) records its smoothness bounds and
+corrects a minor oversight in that result's source.
 
 **Depends on.** Nothing in this wiki.

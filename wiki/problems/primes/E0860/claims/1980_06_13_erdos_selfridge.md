@@ -2,9 +2,9 @@
 name: problems/primes/E0860/claims/1980_06_13_erdos_selfridge
 title: Erdős and Selfridge's lower bound of about 3n
 desc: |
-  Erdős and Selfridge's lower bound h(n) > (3-o(1))n, by Brun's method,
-  recorded by Erdős and Pomerance (1980) and by Guy without a printed proof;
-  pending.
+  Erdős and Selfridge's lower bound $h(n)>(3-o(1))n$, by Brun's method, is
+  recorded by Erdős and Pomerance (1980) and by Guy without a printed proof. The
+  claim is pending.
 authors:
 - P. Erdős
 - J. L. Selfridge

@@ -3,8 +3,8 @@ name: problems/extremal_graph_theory/E0064/claims/2017_11_21_ghaffari_mostaghim
 title: Ghaffari and Mostaghim's Cayley graphs of small groups
 desc: |
   Ghaffari and Mostaghim prove the conjecture for Cayley graphs on generalized
-  quaternion, dihedral and semidihedral groups and on groups of order p cubed;
-  accepted on the refereed paper in Aequationes Mathematicae.
+  quaternion, dihedral and semidihedral groups and on groups of order $p^3$. The
+  claim is accepted on the refereed paper in Aequationes Mathematicae.
 authors:
 - Mohammad Hossein Ghaffari
 - Zohreh Mostaghim
@@ -45,5 +45,5 @@ quaternion, dihedral and semidihedral groups and on groups of order $p^3$.
 
 **Acceptance.** Refereed: the paper is a publication in Aequationes
 Mathematicae. The site's curator cites the family list that names the paper
-while labeling the problem FALSIFIABLE, which is commentary on an open
+while labeling the problem FALSIFIABLE. That citation is commentary on an open
 problem and not reviewed evidence.

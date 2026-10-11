@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0778
 title: Problem 778
 desc: |
-  Asks whether the first player can win the game of alternately coloring
-  edges of a complete graph so that her largest monochromatic clique beats her
-  opponent's.
+  Two players alternately color the edges of a complete graph, and the first
+  wins if her largest monochromatic clique beats her opponent's. Asks whether
+  the first player can win; open.
 tags:
 - Graph theory
 status: open
@@ -35,21 +35,21 @@ Alice's, then does Bob have a winning strategy for $n>3$?
 Finally, consider the game when Alice wins if the maximum degree of the red
 subgraph is larger than the maximum degree of the blue subgraph. Who wins?
 
-**Status.** Open. The site's label is OPEN. Two claims
-are recorded. Didin and Pimenov's potential argument, on
+**Status.** Open. The site's label is OPEN. Two claims are recorded, and the
+frontmatter standing is derived from the claim pages. Didin and Pimenov's
+potential argument, on
 [[problems/extremal_graph_theory/E0778/claims/2026_08_05_didin_pimenov|its claim page]],
 proves that the two-edge player wins the $(1:2)$-biased game of the second
-question for every sufficiently large $n$, with a Lean development naming the
-threshold $3^{158}$; Cambie confirmed the proof on the thread, so the page
+question for every sufficiently large $n$. Its Lean development names the
+threshold $3^{158}$. Cambie confirmed the proof on the thread, so the page
 records it as an accepted partial claim. Cambie and Provoost's exhaustive
 search, on
 [[problems/extremal_graph_theory/E0778/claims/2025_05_06_cambie_provoost|its claim page]],
-shows that Bob wins the unbiased game of the first question for $3\le n\le8$
-and determines the maximum-degree game of the third question for $n\le8$
-(Alice wins for $n=2,3$, Bob for $4\le n\le8$), a pending partial claim. No
-claim covers the first or third question for $n\ge9$ or the second question
-below the threshold, and the frontmatter standing is derived from the claim
-pages.
+is a pending partial claim. It shows that Bob wins the unbiased game of the
+first question for $3\le n\le8$. It also determines the maximum-degree game of
+the third question for $n\le8$: Alice wins for $n=2,3$, and Bob wins for
+$4\le n\le8$. No claim covers the first or third question for $n\ge9$, or the
+second question below the threshold.
 
 **Source.** [erdosproblems.com/778](https://www.erdosproblems.com/778), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #778,

@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0097/claims/2026_09_13_kruer_kohlmeyer_price
 title: Kruer, Kohlmeyer and Price's convex sets with many unit neighbors
 desc: |
-  A manuscript with a Lean file constructing, for every large n, n points in
-  strictly convex position each with at least (1/4 - o(1)) log log n others
-  at distance one, so some convex polygon refutes the question; claimed.
+  Kruer, Kohlmeyer and Price claim, in a manuscript with a Lean file, that for
+  every large $n$ there are $n$ points in strictly convex position each with at
+  least $(1/4-o(1))\log\log n$ others at distance one, so that some convex
+  polygon refutes the question.
 authors:
 - Liam Kruer
 - Jensen Kohlmeyer

@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E1103/claims/2025_11_30_van_doorn_tao
 title: Van Doorn and Tao's growth bounds for squarefree sums
 desc: |
-  Van Doorn and Tao's first arXiv version (2025): every infinite set with
-  squarefree sums has a_j >> j^{4/3}, and some squarefree such set has
-  a_j <= exp(Cj/log j); the true growth rate is not settled.
+  Van Doorn and Tao's first arXiv version (2025) proves that every infinite set
+  with squarefree sums has $a_j\gg j^{4/3}$, and that some such set of
+  squarefree numbers has $a_j\le\exp(Cj/\log j)$. The true growth rate is not
+  settled.
 authors:
 - Wouter van Doorn
 - Terence Tao

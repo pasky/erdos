@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0549/claims/2016_05_11_norin_sun_zhao
 title: Norin, Sun and Zhao, the double star with classes k and 2k has Ramsey number at least 4.2k minus o(k)
 desc: |
-  Theorem 1.3 of the 2016 preprint gives the double star S(2k-1,k-1), with
-  classes k and 2k, Ramsey number at least 4.2k minus o(k), so the equality
-  4k minus 1 fails for all large k; refereed later work relies on the bound.
+  Theorem 1.3 of the 2016 preprint of Norin, Sun and Zhao gives the double star
+  $S(2k-1,k-1)$, with classes $k$ and $2k$, Ramsey number at least $4.2k-o(k)$,
+  so the equality $R(T)=4k-1$ fails for all large $k$. Refereed later work
+  relies on the bound.
 authors:
 - S. Norin
 - Y. R. Sun
@@ -60,21 +61,23 @@ condition.
 **Depends on.** Nothing in this wiki; the result is the paper's own
 theorem.
 
-**Acceptance.** Reviewed: the bound is restated and relied on in the
-refereed paper of Dubó and Stein (Discrete Mathematics 348 (2025), 114227;
-Crossref record read), whose introduction (pp. 2--3 of arXiv
-v2) records that the results of this preprint give $R(S(2m,m))\ge4.2m+o(m)$
-and builds its own upper bound around that value; Montgomery, Pavez-Signé
-and Yan's 2025 preprint on Ramsey numbers of trees calls the 1982 statement
-"strongly disproved" by it (p. 2); and the site's curator, T. F. Bloom,
-labels the problem DISPROVED and credits the disproof to the paper in the
-problem's commentary (page last edited 28 December 2025, read 2026-09-17),
-a credit independent of the authors. Not refereed: the paper is an arXiv
-preprint, version 1 of 11 May 2016 (the date this page is named by) and the
-only version, with no journal version found on 2026-09-17 (the arXiv
-listing and a Crossref bibliographic query), so `refereed` is not listed.
+**Acceptance.** Reviewed: the refereed paper of Dubó and Stein (Discrete
+Mathematics 348 (2025), 114227; Crossref record read) restates the bound and
+relies on it. Its introduction (pp. 2--3 of arXiv v2) records that the results
+of this preprint give $R(S(2m,m))\ge4.2m+o(m)$, and it builds its own upper
+bound around that value. Montgomery, Pavez-Signé and Yan's 2025 preprint on
+Ramsey numbers of trees says the 1982 statement is "strongly disproved" by this
+paper (p. 2). The site's curator, T. F. Bloom, labels the problem DISPROVED and
+credits the disproof to the paper in the problem's commentary (page last edited
+28 December 2025, read 2026-09-17). This credit is independent of the authors.
+
+Not refereed: the paper is an arXiv preprint. Version 1, of 11 May 2016, is the
+only version and gives this page its date. No journal version was found on
+2026-09-17 (the arXiv listing and a Crossref bibliographic query), so `refereed`
+is not listed.
+
 The refereed Theorem 2.1 of Grossman, Harary and Klawe (Discrete Math. 28
-(1979)) gives the failure at every $k\ge4$ by an explicit coloring; it is
+(1979)) gives the failure at every $k\ge4$ by an explicit coloring. It is
 recorded on its own claim page,
 [[problems/ramsey_theory/E0549/claims/1979_01_01_grossman_harary_klawe|Grossman, Harary and Klawe 1979]].
 

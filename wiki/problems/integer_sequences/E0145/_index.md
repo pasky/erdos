@@ -2,8 +2,9 @@
 name: problems/integer_sequences/E0145
 title: Problem 145
 desc: |
-  Asks whether the average of the alpha-th power of gaps between consecutive
-  squarefree numbers up to x has a limit for every non-negative alpha.
+  Asks whether the average of the $\alpha$-th powers of the gaps between
+  consecutive squarefree numbers up to $x$ has a limit for every $\alpha\geq0$;
+  open.
 tags:
 - Number theory
 status: open
@@ -29,21 +30,22 @@ $$
 
 exists?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 19
-October 2025) and its commentary credits a chain of partial results, each
-recorded as a claim page: Erdős's range $0\le\alpha\le2$
+**Status.** Open. The site labels the problem OPEN (page last edited 19 October
+2025). Its commentary credits a chain of partial results, each recorded as a
+claim page. They are Erdős's range $0\le\alpha\le2$
 ([[problems/integer_sequences/E0145/claims/1951_01_01_erdos|Erdős 1951]]),
 Hooley's $0\le\alpha\le3$
 ([[problems/integer_sequences/E0145/claims/1973_12_01_hooley|Hooley 1973]]),
 Huxley's $0\le\alpha<11/3$
 ([[problems/integer_sequences/E0145/claims/1997_01_30_huxley|Huxley 1997]],
-pending, since the proceedings volume has no refereeing on record) and
-Chan's $0\le\alpha<3.75$
-([[problems/integer_sequences/E0145/claims/2023_10_12_chan|Chan 2023]]),
-and Granville's derivation of every $\alpha\ge0$ from the abc conjecture
+pending, since the proceedings volume has no refereeing on record) and Chan's
+$0\le\alpha<3.75$
+([[problems/integer_sequences/E0145/claims/2023_10_12_chan|Chan 2023]]). The
+chain also includes Granville's derivation of every $\alpha\ge0$ from the abc
+conjecture
 ([[problems/integer_sequences/E0145/claims/1998_01_01_granville|Granville 1998]],
-conditional). Every exponent $\alpha\ge3.75$ is open unconditionally, so no
-full claim exists and the frontmatter standing stays open.
+conditional). Every exponent $\alpha\ge3.75$ is open unconditionally. So no full
+claim exists, and the frontmatter standing stays open.
 
 **Source.** [erdosproblems.com/145](https://www.erdosproblems.com/145), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #145,

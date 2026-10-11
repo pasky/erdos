@@ -2,9 +2,10 @@
 name: problems/covering_systems/E0202/claims/2013_01_01_de_la_breteche_ford_vandehey
 title: De la Bretèche, Ford and Vandehey's bounds with coefficients 1 and root 3 over 2
 desc: |
-  The 2013 theorem in Acta Arithmetica that the largest number of disjoint
-  residue classes with distinct moduli at most N lies between N L(N)^{-1-o(1)}
-  and N L(N)^{-sqrt 3 / 2 + o(1)}; accepted on the refereed paper.
+  De la Bretèche, Ford and Vandehey proved in Acta Arithmetica (2013) that the
+  largest number of disjoint residue classes with distinct moduli at most $N$
+  lies between $NL(N)^{-1-o(1)}$ and $NL(N)^{-\sqrt3/2+o(1)}$, where
+  $L(N)=\exp(\sqrt{\log N\log\log N})$. It is accepted on the refereed paper.
 authors:
 - Régis de la Bretèche
 - Kevin Ford
@@ -63,8 +64,7 @@ families.
 **Depends on.** Nothing in this wiki; the theorem is the paper's own.
 
 **Acceptance.** Refereed: Acta Arithmetica 157 (2013), no. 4, 381–392,
-doi:10.4064/aa157-4-5. Not reviewed: the site labels the problem SOLVED
-(LEAN) and credits the answer to Ho's result, not to this paper. The page is
-named by the publication year; the journal record gives no day, and the
-author manuscript dated 2 October 2012 on Kevin Ford's site carries no
-posting date.
+doi:10.4064/aa157-4-5. Not reviewed: the site labels the problem SOLVED (LEAN)
+and credits the answer to Ho's result, not to this paper. The page is named by
+the publication year. The journal record gives no day, and the author manuscript
+dated 2 October 2012 on Kevin Ford's site carries no posting date.

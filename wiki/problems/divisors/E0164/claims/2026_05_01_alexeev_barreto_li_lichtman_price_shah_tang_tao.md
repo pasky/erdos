@@ -2,9 +2,10 @@
 name: problems/divisors/E0164/claims/2026_05_01_alexeev_barreto_li_lichtman_price_shah_tang_tao
 title: Alexeev and coauthors, a shorter proof through von Mangoldt flows
 desc: |
-  A second proof that the primes maximize the sum of one over a log a over
-  primitive sets, by a Markov chain on the divisibility order with von
-  Mangoldt weights, with a Lean formalization of a variant by the first author.
+  Alexeev and coauthors give a second proof that the primes maximize
+  $\sum_{a\in A}1/(a\log a)$ over primitive sets $A$, using a Markov chain on
+  the divisibility order with von Mangoldt weights. A Lean formalization of a
+  variant by the first author accompanies it.
 authors:
 - Boris Alexeev
 - Kevin Barreto
@@ -83,6 +84,6 @@ the second pinned file found no `sorry`. This corpus has not built or audited
 the file, so no `formalized` evidence is listed.
 
 **Acceptance.** The site's curator, T. F. Bloom, credits the preprint on the
-problem page as an alternative, simpler proof of the settled problem, which
-the page lists as `reviewed`. The preprint is not refereed: only the arXiv
-first version of 2026-05-01 is recorded.
+problem page as an alternative, simpler proof of the settled problem. This is
+listed as `reviewed`. The preprint is not refereed. Only the arXiv first version
+of 2026-05-01 is recorded.

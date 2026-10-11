@@ -3,8 +3,9 @@ name: problems/set_theory/E1167/claims/1984_01_01_erdos_hajnal_mate_rado
 title: Five cases of the negative stepping-up lemma
 desc: |
   Erdős, Hajnal, Máté and Rado's monograph (North-Holland, 1984) proves the
-  stepping-up implication, under the Erdős–Hajnal list's conditions, in five
-  cases; claimed, since the monograph is not a journal paper.
+  stepping-up implication in five cases, under the conditions of the
+  Erdős–Hajnal list. It is recorded as claimed, since the monograph is not a
+  journal paper.
 authors:
 - Paul Erdős
 - András Hajnal

@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0574
 title: Problem 574
 desc: |
-  Asks whether the most edges on n vertices avoiding cycles of length two k
-  minus one and two k is asymptotic to n over two to the power one plus one over
-  k, for k above one; disproved at k equal to 3 and 5.
+  Asks whether, for every $k\ge2$, the most edges of a graph on $n$ vertices
+  with no cycle of length $2k-1$ or $2k$ is $(1+o(1))(n/2)^{1+1/k}$; disproved
+  at $k=3$ and $k=5$.
 tags:
 - Graph theory
 - Turán numbers
@@ -29,15 +29,15 @@ $$
 $$
 
 **Status.** Disproved. The site labels the problem DISPROVED (page last edited 1
-April 2026; one comment, no proof claims) and credits two refereed papers: it
+April 2026; one comment, no proof claims) and credits two refereed papers. It
 names [LUW94b] as apparently the first disproof, at $k=3$ and $k=5$, through
-bipartite $C_{2k}$-free graphs with constant $(k-1)/k^{1+1/k}$, and [FNV06] as
-an alternative disproof at $k=3$. Both are accepted claims here, on the refereed
-venue and the site's acceptance:
+bipartite $C_{2k}$-free graphs with constant $(k-1)/k^{1+1/k}$. It names [FNV06]
+as an alternative disproof at $k=3$. Both are accepted claims here, on the
+refereed venue and the site's acceptance:
 [[problems/extremal_graph_theory/E0574/claims/1994_03_01_lazebnik_ustimenko_woldar|Lazebnik, Ustimenko and Woldar 1994]]
 and
-[[problems/extremal_graph_theory/E0574/claims/2005_06_10_furedi_naor_verstraete|Füredi, Naor and Verstraëte 2006]];
-the problem's standing derives from them.
+[[problems/extremal_graph_theory/E0574/claims/2005_06_10_furedi_naor_verstraete|Füredi, Naor and Verstraëte 2006]].
+The problem's standing derives from them.
 
 **Source.** [erdosproblems.com/574](https://www.erdosproblems.com/574), accessed
 2026-10-07. The site cites [ErSi82] as the problem's source, calls it a problem

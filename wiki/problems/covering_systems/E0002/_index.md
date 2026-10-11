@@ -2,8 +2,9 @@
 name: problems/covering_systems/E0002
 title: Problem 2
 desc: |
-  Asks whether finite distinct covering systems can have arbitrarily large
-  minimum modulus; Hough proved an absolute bound.
+  Asks whether a finite covering system with distinct moduli can have
+  arbitrarily large minimum modulus. Hough proved an absolute bound, so the
+  answer is no.
 tags:
 - Number theory
 - Covering systems
@@ -68,18 +69,18 @@ $p_i>B$, and the infinite family $z_i\pmod{p_i}$ covers every integer; every
 source cited in the Notes defines a covering system as finite. No irredundancy
 condition is imposed on the finite covers in this question.
 
-**Status.** DISPROVED (LEAN), the site's label: Hough's published theorem
-gives an absolute upper bound for the minimum modulus. The later published
-BBMST bound gives $m_1<616000$, equivalently $m_1\le615999$. The largest
-achievable minimum modulus is unidentified in the literature search. The two
-proofs are recorded on their claim pages,
+**Status.** DISPROVED (LEAN), the site's label. Hough's published theorem gives
+an absolute upper bound for the minimum modulus. The later published BBMST bound
+gives $m_1<616000$, equivalently $m_1\le615999$. The literature search did not
+identify the largest achievable minimum modulus. The two proofs are recorded on
+their claim pages,
 [[problems/covering_systems/E0002/claims/2013_07_02_hough|Hough]] and
-[[problems/covering_systems/E0002/claims/2018_11_08_balister_bollobas_morris_sahasrabudhe_tiba|Balister, Bollobás, Morris, Sahasrabudhe and Tiba]],
-each accepted on its refereed publication and the site's credit. Two
-refereed results on restricted classes are accepted partial claims:
+[[problems/covering_systems/E0002/claims/2018_11_08_balister_bollobas_morris_sahasrabudhe_tiba|Balister, Bollobás, Morris, Sahasrabudhe and Tiba]].
+Each is accepted on its refereed publication and the site's credit. Two refereed
+results on restricted classes are accepted partial claims.
 [[problems/covering_systems/E0002/claims/2005_07_18_filaseta_ford_konyagin_pomerance_yu|Filaseta, Ford, Konyagin, Pomerance and Yu]]
-bound the minimum modulus when the reciprocal sum of the moduli is bounded,
-and [[problems/covering_systems/E0002/claims/2022_11_15_cummings_filaseta_trifonov|Cummings, Filaseta and Trifonov]]
+bound the minimum modulus when the reciprocal sum of the moduli is bounded.
+[[problems/covering_systems/E0002/claims/2022_11_15_cummings_filaseta_trifonov|Cummings, Filaseta and Trifonov]]
 bound it by $118$ when every modulus is squarefree. The site's Lean badge is
 qualified below.
 

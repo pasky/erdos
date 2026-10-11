@@ -2,9 +2,9 @@
 name: problems/covering_systems/E1190
 title: Problem 1190
 desc: |
-  Asks for the size of the supremum of reciprocal sums over finite disjoint
-  congruence families with distinct moduli greater than m; the supremum is
-  known to logarithmic scale.
+  Asks for an estimate of $\epsilon_m$, the supremum of $\sum 1/n_i$ over finite
+  families of pairwise disjoint congruence classes with distinct moduli $n_i>m$.
+  It is solved at the sharp logarithmic scale.
 tags:
 - Number theory
 - Covering systems
@@ -69,11 +69,10 @@ sources alone; Ho's manuscript and both Lean developments, which settle the
 corrected Statement, use the same supremum. Allowing the empty family, with
 sum zero, does not change the supremum.
 
-**Status.** Solved with a Lean qualification, the site's label
-(SOLVED (LEAN), page last edited 28 May 2026, as of 2026-10-07), which
-describes the supremum of the corrected Statement and derives the estimate
-from the resolution of Problem 202. The corrected Statement is solved at the
-sharp logarithmic scale by
+**Status.** Solved with a Lean qualification, the site's label (SOLVED (LEAN),
+page last edited 28 May 2026, as of 2026-10-07). The site describes the supremum
+of the corrected Statement and derives the estimate from the resolution of
+Problem 202. The corrected Statement is solved at the sharp logarithmic scale by
 [[problems/covering_systems/E1190/claims/2026_04_23_ho|Ho's accepted claim page]].
 
 **Source.** [erdosproblems.com/1190](https://www.erdosproblems.com/1190)

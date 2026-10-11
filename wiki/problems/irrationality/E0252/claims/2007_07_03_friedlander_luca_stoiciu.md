@@ -2,9 +2,9 @@
 name: problems/irrationality/E0252/claims/2007_07_03_friedlander_luca_stoiciu
 title: Friedlander, Luca and Stoiciu's unconditional case k = 3
 desc: |
-  Friedlander, Luca and Stoiciu's 2007 paper proves by a Chen-type sieve
-  theorem that the sum of sigma_3(n)/n! is irrational, the case k = 3,
-  independently of Schlage-Puchta; refereed in Integers.
+  Friedlander, Luca and Stoiciu's 2007 paper, refereed in Integers, proves by a
+  Chen-type sieve theorem that $\sum_n\sigma_3(n)/n!$ is irrational, the case
+  $k=3$. The proof is independent of Schlage-Puchta's.
 authors:
 - John B. Friedlander
 - Florian Luca
@@ -58,12 +58,12 @@ research solved, citing both papers.
 **Covers.** The case $k=3$ only: $\sum_{n\ge1}\sigma_3(n)/n!$ is irrational.
 Nothing unconditional about any $k\ge4$.
 
-**Acceptance.** Refereed: Integers, volume 7 (2007), article A31, received
-8 December 2006, revised 20 March 2007, accepted 12 June 2007 and published
-3 July 2007, as the paper's header prints; Integers is a refereed electronic
-journal. The site labels the problem OPEN, so its curator's remark crediting
-this paper and Schlage-Puchta with the case $k=3$ is commentary on an open
-problem and not acceptance, and no `reviewed` evidence is listed. The proof
-is not checked here.
+**Acceptance.** Refereed: Integers, volume 7 (2007), article A31. The paper's
+header prints that it was received 8 December 2006, revised 20 March 2007,
+accepted 12 June 2007 and published 3 July 2007. Integers is a refereed
+electronic journal. The site labels the problem OPEN. Its curator's remark
+credits this paper and Schlage-Puchta with the case $k=3$, but that remark is
+commentary on an open problem and not acceptance, so no `reviewed` evidence is
+listed. The proof is not checked here.
 
 **Depends on.** Nothing in this wiki.

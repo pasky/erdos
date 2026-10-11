@@ -2,10 +2,10 @@
 name: problems/covering_systems/E0204/claims/2025_01_25_adenwalla
 title: Adenwalla's disproof of the coprime-disjoint divisor covering
 desc: |
-  Sarosh Adenwalla's 2025 arXiv paper proving that no integer n has a covering
-  system of residue classes, one per divisor of n above one, in which any two
-  overlapping classes have coprime moduli; accepted on the refereed paper and
-  the site's credit.
+  Sarosh Adenwalla's 2025 arXiv paper proves that no integer $n$ has a covering
+  system of residue classes, one for each divisor of $n$ above one, in which any
+  two overlapping classes have coprime moduli. It is accepted on the refereed
+  paper and the site's credit.
 authors:
 - Sarosh Adenwalla
 status: accepted
@@ -62,31 +62,34 @@ and its transcription at the
 **Depends on.** Nothing in this wiki: the proof is the paper's own.
 
 **Acceptance.** Refereed: INTEGERS 26 (2026), #A52, published 2026-05-01
-(doi:10.5281/zenodo.19949505), linked above as the paper; the published version
+(doi:10.5281/zenodo.19949505), linked above as the paper. The published version
 keeps the arXiv labels (Lemma 3.1, Theorem 3.2, Propositions 4.1 and 4.2,
-Conjecture 5.1). Reviewed: the site's curator, Thomas F. Bloom, credits
-Adenwalla with the proof that no such $n$ exist, thanks Adenwalla on the problem
-page, and labels the problem disproved with a Lean qualification (page last
-edited 2025-12-28, as of 2026-10-07); Bloom is independent of the author.
-Formal-conjectures tags its statement of the problem `research solved` and
-points to the Lean proof linked above (the catalog revision of 2026-10-06,
-linked as a record). The arXiv version was first posted 2025-01-25 and revised
-to a third version of ten pages on 2025-12-03. Not counted as `formalized`: the
-linked Lean 4 file (Lean `v4.24.0`, with its Mathlib commit stated in the
-header, committed 2026-03-15 and announced on the site's discussion thread the
-same day) states in its header that the formalization of Adenwalla's proof was
-produced by Aristotle, Harmonic's system, so it is a formalization of this
-claimant's result and not an independent proof. Its main theorem `T1` proves
-that no $n$ is coprime-disjoint covering, with overlap defined as a common
-solution of two congruences; the file closes with `erdos_204`, a restatement
-under the formal-conjectures wording derived from `T1`, and at the pinned commit
-that wrapper writes the overlap hypothesis as an implication (`x ≡ a d → x ≡ a
-d'`) where the formal-conjectures statement at the linked revision has a
-conjunction, so the wrapper as written is a weaker corollary of the
-formal-conjectures statement while `T1` carries the intended condition. The file
-ends with `#print axioms` commands for both theorems. This corpus has not built
-or audited the development, so it gives no `formalized` evidence and the Lean
-development is described and not counted.
+Conjecture 5.1). The arXiv version was first posted 2025-01-25 and revised to a
+third version of ten pages on 2025-12-03.
+
+Reviewed: the site's curator, Thomas F. Bloom, credits Adenwalla with the proof
+that no such $n$ exist and thanks Adenwalla on the problem page. Bloom labels
+the problem disproved with a Lean qualification (page last edited 2025-12-28, as
+of 2026-10-07). Bloom is independent of the author. Formal-conjectures tags its
+statement of the problem `research solved` and points to the Lean proof linked
+above (the catalog revision of 2026-10-06, linked as a record).
+
+Not counted as `formalized`: the linked Lean 4 file uses Lean `v4.24.0`, with
+its Mathlib commit stated in the header. It was committed 2026-03-15 and
+announced on the site's discussion thread the same day. Its header states that
+the formalization of Adenwalla's proof was produced by Aristotle, Harmonic's
+system. So it is a formalization of this claimant's result and not an
+independent proof. Its main theorem `T1` proves that no $n$ is coprime-disjoint
+covering, with overlap defined as a common solution of two congruences. The file
+closes with `erdos_204`, a restatement under the formal-conjectures wording
+derived from `T1`. At the pinned commit, that wrapper writes the overlap
+hypothesis as an implication (`x ≡ a d → x ≡ a d'`), where the
+formal-conjectures statement at the linked revision has a conjunction. The
+wrapper as written is therefore a weaker corollary of the formal-conjectures
+statement, while `T1` carries the intended condition. The file ends with `#print
+axioms` commands for both theorems. This corpus has not built or audited the
+development, so it gives no `formalized` evidence and is described here, not
+counted.
 
 **Not covered.** Nothing of the question remains. The largest density that
 the divisors of a given $n$ can cover under the coprime-disjoint condition

@@ -2,9 +2,9 @@
 name: problems/additive_bases/E0349/claims/2026_03_09_sothanaphan
 title: A sharpening of van Doorn's infinite-area region with GPT-5.2 Thinking
 desc: |
-  Nat Sothanaphan's note of March 2026, written with GPT-5.2 Thinking,
-  sharpens van Doorn's infinite-area completeness region by a bounded amount
-  and certifies further rectangles of pairs (alpha, t) as complete.
+  Nat Sothanaphan's note of March 2026, written with GPT-5.2 Thinking, sharpens
+  van Doorn's infinite-area completeness region by a bounded amount. It also
+  certifies further rectangles of pairs $(\alpha,t)$ as complete.
 authors:
 - Nat Sothanaphan
 status: claimed

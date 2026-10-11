@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0772/claims/1985_09_01_alon_erdos
 title: Alon and Erdős's Sidon subsets of size about n to the two thirds
 desc: |
-  Every set of n integers in which no integer has more than k representations
-  as a sum of two distinct elements contains a Sidon subset of size at least
-  c(k) n^{2/3}, answering both questions yes; the exponent is sharp for k >= 2.
+  Alon and Erdős prove that every set of $n$ integers in which no integer has
+  more than $k$ representations as a sum of two distinct elements contains a
+  Sidon subset of size at least $c(k)n^{2/3}$, answering both questions yes. The
+  exponent is sharp for $k\ge2$.
 authors:
 - Noga Alon
 - P. Erdös
@@ -66,10 +67,10 @@ required size when $c=c(k)$ is small. Inequality (4) is the main ingredient of t
 Theorem 1, that such a sequence is a union of $O_k(n^{1/3})$ Sidon sequences,
 which is sharp up to the constant.
 
-**Acceptance.** The paper is refereed (European J. Combin.). The site's
-curator, T. F. Bloom, records the answer yes with this bound and its proof on
-the problem page, which is the `reviewed` evidence named here. The month of the issue, September 1985,
-supplies the page's date.
+**Acceptance.** The paper is refereed (European J. Combin.). The site's curator,
+T. F. Bloom, records the answer yes with this bound and its proof on the problem
+page. This is the `reviewed` evidence named here. The month of the issue,
+September 1985, supplies the page's date.
 
 **Formalization.** A Lean 4 formalization of the argument for the site's
 ordered count, posted on 2026-08-17 in Boris

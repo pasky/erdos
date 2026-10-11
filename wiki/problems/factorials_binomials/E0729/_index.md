@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0729
 title: Problem 729
 desc: |
-  Asks whether infinitely many triples a, b, n have a plus b above n plus C
-  log n while n! over a! b! has only bounded primes in its denominator;
-  answered yes in 2026 by an AI-generated proof credited to Barreto and Price.
+  Asks whether there are infinitely many $a,b,n$ with $a+b>n+C\log n$ such that
+  the denominator of $n!/(a!\,b!)$ has only primes $\ll_C 1$. It was answered
+  yes in 2026 by an AI-generated proof credited to Barreto and Price.
 tags:
 - Number theory
 - Factorials
@@ -31,15 +31,15 @@ $$
 
 contains only primes $\ll_C 1$?
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page
-last edited 11 January 2026) and credits Barreto and Leeham, using ChatGPT
-and Aristotle, for an affirmative proof that modifies the argument used for
-Problem 728; the result is recorded on the claim page
+**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
+edited 11 January 2026). The standing in the frontmatter derives from the claim
+page. The site credits Barreto and Leeham, using ChatGPT and Aristotle, for an
+affirmative proof that modifies the argument used for Problem 728. The result is
+recorded on the claim page
 [[problems/factorials_binomials/E0729/claims/2026_01_10_barreto_price|Barreto and Price 2026]].
 The Lean qualifier refers to Aristotle's formalization of the GPT-5.2 Pro
-argument, in Boris Alexeev's repository of formalized Erdős problems, which
-this corpus has not built; nothing is refereed. The standing in the
-frontmatter derives from the claim page.
+argument, in Boris Alexeev's repository of formalized Erdős problems. This
+corpus has not built it, and nothing is refereed.
 
 **Source.** [erdosproblems.com/729](https://www.erdosproblems.com/729), accessed
 2026-09-04 and, with its discussion thread and the community database,

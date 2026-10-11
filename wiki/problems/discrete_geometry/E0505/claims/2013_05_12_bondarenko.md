@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0505/claims/2013_05_12_bondarenko
 title: Bondarenko's counterexample in dimension 65
 desc: |
-  A two-distance set of 416 points on the unit sphere in 65-dimensional space
-  that cannot be split into 83 parts of smaller diameter, so at least 84 are
-  needed where Borsuk's assertion allows 66; refereed in Discrete Comput. Geom.
+  Bondarenko gives a two-distance set of $416$ points on the unit sphere in
+  $\mathbb R^{65}$ that cannot be split into $83$ parts of smaller diameter, so
+  at least $84$ are needed where Borsuk's assertion allows $66$. The result is
+  refereed in Discrete Comput. Geom.
 authors:
 - Andriy Bondarenko
 status: accepted
@@ -52,14 +53,14 @@ from the $Fi_{23}$ graph.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** The result is refereed: Discrete and Computational Geometry
-published it. The site's label, DISPROVED (LEAN), credits
+**Acceptance.** The result is refereed, since Discrete and Computational
+Geometry published it. The site's label, DISPROVED (LEAN), credits
 [[problems/discrete_geometry/E0505/claims/1993_07_01_kahn_kalai|Kahn and Kalai]]
 with the disproof and
 [[problems/discrete_geometry/E0505/claims/2014_11_06_jenrich_brouwer|Jenrich and Brouwer]]
-for the smallest dimension it records, and names no source for dimension 65,
-so no curator credit is recorded here. The question was already answered no
-by Kahn and Kalai; this result settles it again in dimension 65, and the
+for the smallest dimension it records. The label names no source for dimension
+65, so no curator credit is recorded here. Kahn and Kalai had already answered
+the question no. This result settles it again in dimension 65, and the
 dimension-64 set of Jenrich and Brouwer is built from 352 of its vectors.
 
 **Formalization.** The formal-conjectures file

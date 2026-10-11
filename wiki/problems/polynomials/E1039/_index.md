@@ -2,8 +2,10 @@
 name: problems/polynomials/E1039
 title: Problem 1039
 desc: |
-  The radius of the largest disc inside the region where a monic complex
-  polynomial with all roots in the unit disc has absolute value below one.
+  Asks how $\rho(f)$, the radius of the largest disc inside
+  $\{z:\lvert f(z)\rvert<1\}$, behaves for monic $f$ of degree $n$ with all
+  roots in the closed unit disc, and whether $\rho(f)\gg 1/n$ always holds; an
+  answer is claimed but not accepted.
 tags:
 - Analysis
 - Polynomials
@@ -42,26 +44,26 @@ question, and the second question is whether $\rho_n\gg1/n$. The source is
 carded at
 [[../library/polynomials/erdos_1958_metric_properties_polynomials/_index|Metric properties of polynomials]].
 
-**Status.** Open (the site's label OPEN; page last edited 27 December 2025).
-The site's commentary credits Pommerenke [Po61] with $\rho(f)\ge1/(2en^2)$,
-the accepted partial claim on
-[[problems/polynomials/E1039/claims/1961_01_01_pommerenke|Pommerenke 1961]],
-and Krishnapur, Lundberg and Ramachandran [KLR25] with
+**Status.** Open (the site's label OPEN; page last edited 27 December 2025). The
+site's commentary credits Pommerenke [Po61] with $\rho(f)\ge1/(2en^2)$, the
+accepted partial claim on
+[[problems/polynomials/E1039/claims/1961_01_01_pommerenke|Pommerenke 1961]]. It
+credits Krishnapur, Lundberg and Ramachandran [KLR25] with
 $\rho(f)\gg1/(n\sqrt{\log n})$, the partial claim on
 [[problems/polynomials/E1039/claims/2025_03_24_krishnapur_lundberg_ramachandran|Krishnapur, Lundberg and Ramachandran 2025]].
-The site's proof-claims tab carries one full proof claim with no comments and
+The site's proof-claims tab carries one full proof claim, with no comments and
 no acceptance, on
-[[problems/polynomials/E1039/claims/2026_09_06_geng_qiu|Geng–Qiu 2026]]: an
-arXiv preprint with a Lean companion, registered on the tab on 2026-09-09,
-asserts that $n\inf_{\deg f=n}\rho(f)\to\pi/2$. Two partial claims precede
-it: [[problems/polynomials/E1039/claims/2026_05_07_price|Price 2026]], posted
-on the thread on 2026-05-07, claims $\rho(f)\ge(\log2)/n$, which would answer
-the second question in the affirmative; it was endorsed by readers on the
-thread and formalized by Kitamura, and is not marked accepted by the site.
+[[problems/polynomials/E1039/claims/2026_09_06_geng_qiu|Geng–Qiu 2026]]. It is
+an arXiv preprint with a Lean companion, registered on the tab on 2026-09-09,
+and it asserts that $n\inf_{\deg f=n}\rho(f)\to\pi/2$. Two partial claims
+precede it. [[problems/polynomials/E1039/claims/2026_05_07_price|Price 2026]],
+posted on the thread on 2026-05-07, claims $\rho(f)\ge(\log2)/n$, which would
+answer the second question in the affirmative. Readers on the thread endorsed it
+and Kitamura formalized it, but the site does not mark it accepted.
 [[problems/polynomials/E1039/claims/2026_03_06_houi|Houi 2026]] claims
-$\rho(f)\ge1/(4n)$ when every critical value has modulus at least $1$. None
-of the 2026 claims is refereed or accepted by the site, and none has been
-built or audited in this wiki.
+$\rho(f)\ge1/(4n)$ when every critical value has modulus at least $1$. None of
+the 2026 claims is refereed or accepted by the site, and none has been built or
+audited in this wiki.
 
 **Source.** [erdosproblems.com/1039](https://www.erdosproblems.com/1039),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1039,

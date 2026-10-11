@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0983
 title: Problem 983
 desc: |
-  The least r such that every k-element subset of the first n integers
-  contains more than r members divisible only by primes from some set of r
-  primes.
+  Asks for estimates of the least $r=f(k,n)$ such that every $k$-element subset
+  of $\{1,\ldots,n\}$ has more than $r$ members divisible only by primes from
+  some set of $r$ primes, and whether $2\pi(n^{1/2})-f(\pi(n)+1,n)\to\infty$;
+  open.
 tags:
 - Number theory
 status: open

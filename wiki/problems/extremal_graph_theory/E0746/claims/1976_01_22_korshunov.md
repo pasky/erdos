@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0746/claims/1976_01_22_korshunov
 title: Korshunov's Hamiltonicity threshold
 desc: |
-  Korshunov proves that almost every graph with n labeled vertices and k edges
-  is Hamiltonian exactly when k = (n/2)(log n + log log n + φ(n)), φ(n) → ∞,
-  answering Problem 746; announced 1976, a part proved 1977, in full in 1985.
+  Korshunov proves that almost every graph with $n$ labeled vertices and $k$
+  edges is Hamiltonian exactly when $k=\tfrac n2(\log n+\log\log n+\varphi(n))$
+  with $\varphi(n)\to\infty$, answering Problem 746. He announced it in 1976,
+  proved a part in 1977 and gave the full proof in 1985.
 authors:
 - A. D. Korshunov
 status: accepted
@@ -66,21 +67,21 @@ $\tfrac12n\log n+\tfrac12n\log\log n+O(n)$ edges do not suffice. Komlós and
 Szemerédi proved the threshold independently, with a limit law, on
 [[problems/extremal_graph_theory/E0746/claims/1983_01_01_komlos_szemeredi|their claim page]].
 
-**Acceptance.** Reviewed: Erdős writes in his 1982 Singapore paper that
-"The full conjecture was proved soon afterwards by Kurshonov [sic] and
-Komlós-Szemerédi" (p. 69), crediting Korshunov by name, with no Korshunov
-item in that paper's reference list; the abstract of Komlós and Szemerédi's
-refereed paper [KoSz83] credits the $f(n)\to\infty$ case to Korshunov by
-name, with no Korshunov item among its references; and the site's curator,
-Thomas Bloom, labels the problem PROVED and credits the theorem to [Ko77] in
-the problem's commentary, citing the 1977 paper with its venue, as the 1985
-paper's own reference list does. Not refereed: by the author's account the
-1977 journal paper proves only the case $k>6n\log n$, and the complete
-proof is the 1985 paper in Annals of Discrete Mathematics 28, the
-proceedings of Random Graphs '83, for which no evidence of refereeing is
-held, so this page lists no `refereed` evidence; the 1976 note, a Doklady
-announcement, states the theorem without the proof for the full range.
-No file of the 1976 note (the mathnet.ru copy), the 1985 paper or the 1977
-paper is held. Theorems 1 and 2 of the 1985 paper are taken as printed and
-its proof for structure only; this corpus supplies no independent proof
-review.
+**Acceptance.** Reviewed: three sources credit Korshunov. Erdős writes in his
+1982 Singapore paper that "The full conjecture was proved soon afterwards by
+Kurshonov [sic] and Komlós-Szemerédi" (p. 69). He credits Korshunov by name, but
+that paper's reference list has no Korshunov item. The abstract of Komlós and
+Szemerédi's refereed paper [KoSz83] credits the $f(n)\to\infty$ case to
+Korshunov by name, again with no Korshunov item among its references. The site's
+curator, Thomas Bloom, labels the problem PROVED and credits the theorem to
+[Ko77] in the problem's commentary. He cites the 1977 paper with its venue, as
+the 1985 paper's own reference list does.
+
+Not refereed: by the author's account, the 1977 journal paper proves only the
+case $k>6n\log n$. The complete proof is the 1985 paper in Annals of Discrete
+Mathematics 28, the proceedings of Random Graphs '83. No evidence of refereeing
+is held for it, so this page lists no `refereed` evidence. The 1976 note, a
+Doklady announcement, states the theorem without the proof for the full range.
+No file is held of the 1976 note (the mathnet.ru copy), the 1985 paper or the
+1977 paper. Theorems 1 and 2 of the 1985 paper are taken as printed, and its
+proof for structure only. This corpus supplies no independent proof review.

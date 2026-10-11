@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1157
 title: Problem 1157
 desc: |
-  Asks for the most edges an r-graph on n vertices can have with no k vertices
-  spanning s edges, the Brown-Erdős-Sós problem; the conjecture's s = 3 case and
-  large-uniformity linear form are proved; 3-graphs with k = s + 3, s ≥ 4, open.
+  Asks for the most edges an $r$-graph on $n$ vertices can have with no $k$
+  vertices spanning $s$ edges, the Brown–Erdős–Sós problem. The associated
+  conjecture is proved for $s=3$ and, in its linear form, for large uniformity,
+  but open for $3$-graphs with $k=s+3$ and $s\ge4$.
 tags:
 - Hypergraphs
 - Turán numbers
@@ -49,37 +50,40 @@ defect, not a degenerate statement, and the field describes the question as
 written. The 1999 booklet [Va99] states the same question as its item 3.64
 in yet other letters (quoted below).
 
-**Status.** Open. The problem is a whole family of Turán-type questions,
-and no cited source determines $\mathrm{ex}_r(n,\mathcal F)$ in general. What
-the cited sources prove: the general lower bound
-$\mathrm{ex}_r(n,\mathcal F)>c_{k,s}n^{(rs-k)/(s-1)}$ for $k>r$ and $s>1$
-(the Theorem of Section 4 of [BES73],
-[[../library/extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_section_4|result page]],
-which the authors remark, without proof, is sharp in the exponent when $s-1$
-divides $rs-k$); the Brown--Erdős--Sós
-conjecture, that $\mathrm{ex}_r(n,\mathcal F)=o(n^t)$ once
-$k\ge(r-t)s+t+1$, proved for $s=3$ and every $r>t\ge2$ with a matching
-$n^{t-o(1)}$ lower bound (Theorem 1 of [AlSh06],
-[[../library/extremal_graph_theory/alon_2006_extremal_hypergraph_problem_brown_erdos_sos/theorem_1|result page]],
-extending the Ruzsa--Szemerédi $(6,3)$-theorem and the Erdős--Frankl--Rödl
-case $t=2$) and, in its $t=2$ linear form, for every uniformity $r$ large
-enough in terms of the density (Theorem 3 of [KeLo20],
-[[../library/extremal_graph_theory/keevash_2020_brown_erdos_sos_conjecture_hypergraphs_large/theorem_3|result page]]);
-for 3-graphs and $t=2$ the approximate versions
-$\mathrm{ex}_3(n,\mathcal F)=o(n^2)$ for $k=s+\lfloor\log_2s\rfloor+2$
-(Sárközy and Selkow, quoted) and $k=s+O(\log s/\log\log s)$ (Conlon,
-Gishboliner, Levanzov and Shapira, quoted), and the power saving
+**Status.** Open. The problem is a whole family of Turán-type questions. No
+cited source determines $\mathrm{ex}_r(n,\mathcal F)$ in general.
+
+The cited sources prove the following. The Theorem of Section 4 of [BES73]
+([[../library/extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_section_4|result page]])
+gives the general lower bound
+$\mathrm{ex}_r(n,\mathcal F)>c_{k,s}n^{(rs-k)/(s-1)}$ for $k>r$ and $s>1$. The
+authors remark, without proof, that it is sharp in the exponent when $s-1$
+divides $rs-k$. The Brown--Erdős--Sós conjecture states that
+$\mathrm{ex}_r(n,\mathcal F)=o(n^t)$ once $k\ge(r-t)s+t+1$. It is proved for
+$s=3$ and every $r>t\ge2$, with a matching $n^{t-o(1)}$ lower bound (Theorem 1
+of [AlSh06],
+[[../library/extremal_graph_theory/alon_2006_extremal_hypergraph_problem_brown_erdos_sos/theorem_1|result page]]).
+This extends the Ruzsa--Szemerédi $(6,3)$-theorem and the Erdős--Frankl--Rödl
+case $t=2$. In its linear form with $t=2$, the conjecture is proved for every
+uniformity $r$ large enough in terms of the density (Theorem 3 of [KeLo20],
+[[../library/extremal_graph_theory/keevash_2020_brown_erdos_sos_conjecture_hypergraphs_large/theorem_3|result page]]).
+For 3-graphs and $t=2$, the sources give approximate versions. They show
+$\mathrm{ex}_3(n,\mathcal F)=o(n^2)$ for $k=s+\lfloor\log_2s\rfloor+2$ (Sárközy
+and Selkow, quoted) and for $k=s+O(\log s/\log\log s)$ (Conlon, Gishboliner,
+Levanzov and Shapira, quoted). They also give the power saving
 $\mathrm{ex}_3(n,\mathcal F)=O(n^{2-\varepsilon})$ for
 $k=s+\lfloor\log_2s\rfloor+38$ (Theorem 1.3 of [JMMS25],
-[[../library/extremal_graph_theory/janzer_2025_power_saving_brown_erdos_sos_problem/theorem_1_3|result page]]);
-and a conditional reduction of the constant-deficiency form to a Turán
-conjecture on 2-degenerate bipartite graphs (Theorem 1.4 of [ShTy23],
-[[../library/extremal_graph_theory/shapira_2023_new_approach_brown_erdos_sos_problem/theorem_1_4|result page]]).
-The conjecture itself, $\mathrm{ex}_3(n,\mathcal F)=o(n^2)$ for $k=s+3$, is
-open for every $s\ge4$, the $(7,4)$ case included, in every cited source. No
-resolution and no proof claim was found in the search
-whose scope the Current assessment records. This is a bounded negative
-finding, not a certificate of openness.
+[[../library/extremal_graph_theory/janzer_2025_power_saving_brown_erdos_sos_problem/theorem_1_3|result page]]).
+Finally, Theorem 1.4 of [ShTy23]
+([[../library/extremal_graph_theory/shapira_2023_new_approach_brown_erdos_sos_problem/theorem_1_4|result page]])
+gives a conditional reduction of the constant-deficiency form to a Turán
+conjecture on 2-degenerate bipartite graphs.
+
+The conjecture itself, $\mathrm{ex}_3(n,\mathcal F)=o(n^2)$ for $k=s+3$, is open
+for every $s\ge4$ in every cited source, including the $(7,4)$ case. No
+resolution and no proof claim was found in the search whose scope the Current
+assessment records. This is a bounded negative finding, not a certificate of
+openness.
 
 **Source.** [erdosproblems.com/1157](https://www.erdosproblems.com/1157),
 accessed 2026-09-18 at 10:47 UTC: the problem page (OPEN, with

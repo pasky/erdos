@@ -2,8 +2,9 @@
 name: problems/additive_combinatorics/E0789
 title: Problem 789
 desc: |
-  The largest subset guaranteed inside any n integers in which equal sums of
-  elements can only occur between equally many terms.
+  Estimates $h(n)$, the size of the largest subset guaranteed inside any $n$
+  integers in which equal sums of elements can occur only between equally many
+  terms. It is open on the site, with a pending full claim from 2026.
 tags:
 - Additive combinatorics
 status: claimed
@@ -46,37 +47,38 @@ defining $k(n)$ and writing $h(n)$ in the display) and for $n$ integers
 the upper-bound witness is $\{1,\ldots,n\}$, so the sources do not separate
 the integer and positive-integer cases.
 
-**Status.** Open, the site's label. The bounds supported by sources in hand
-are $n^{1/3}(\log n)^{1/3}\ll h(n)<\tfrac4{\sqrt3}n^{1/2}+1$ for all $n$, with
-the sharper $h(n)\le2\sqrt{n+1/4}-1$ for all $n\ge N_0$: the upper bounds are
-Straus's square-root bound in the form proved by Erdős, Nicolas and Sárközy
-(Lemme 2, applied to the admissible subsets of $\{1,\ldots,n\}$; an accepted
+**Status.** Open, the site's label. The label was OPEN on 2026-09-18 and on
+2026-10-06. A full proof claim of 12 September 2026 on the site's tab, declaring
+the use of GPT Astra, claims $h(n)\gg(n\log\log n/\log n)^{1/2}$. It is recorded
+as a pending claim on
+[[problems/additive_combinatorics/E0789/claims/2026_09_12_korsky|its claim page]].
+The site's commentary does not adopt the claim. Since 2026-09-29 the
+formal-conjectures catalog has carried a third-party formal proof of that lower
+bound, which the corpus has not built. The catalog's main statement `erdos_789`
+stays open. The frontmatter standing, claimed with the claim value answered,
+derives from the pending full claim. The accepted claims are partial.
+
+The bounds supported by sources in hand are
+$n^{1/3}(\log n)^{1/3}\ll h(n)<\tfrac4{\sqrt3}n^{1/2}+1$ for all $n$, with the
+sharper $h(n)\le2\sqrt{n+1/4}-1$ for all $n\ge N_0$. The upper bounds come from
+two sources. The first is Straus's square-root bound in the form proved by
+Erdős, Nicolas and Sárközy (Lemme 2, applied to the admissible subsets of
+$\{1,\ldots,n\}$). It is an accepted partial claim on
+[[problems/additive_combinatorics/E0789/claims/1966_01_01_straus|Straus's claim page]].
+The second is Theorem 1 of Deshouillers and Freiman (Astérisque 258 (1999),
+refereed), applied to the same witness $\{1,\ldots,n\}$. The lower bound is
+Choi's estimate (1) (J. Number Theory 6 (1974), 105--111, refereed), an accepted
 partial claim on
-[[problems/additive_combinatorics/E0789/claims/1966_01_01_straus|Straus's claim page]])
-and Theorem 1 of Deshouillers and Freiman (Astérisque 258 (1999), refereed),
-applied to the same witness $\{1,\ldots,n\}$; the lower bound is Choi's
-estimate (1) (J. Number Theory 6 (1974), 105--111, refereed; an accepted
-partial claim on
-[[problems/additive_combinatorics/E0789/claims/1974_04_01_choi|Choi's claim page]]),
-which sharpens Erdős's 1965 inequality (31), $h(n)\ge n^{1/3}$. Erdős's 1962
-Theorem IV gives the weaker $h(n)<Cn^{5/6}$ (an accepted partial claim on
-[[problems/additive_combinatorics/E0789/claims/1962_01_01_erdos|its claim page]]).
-Inequality (31) and the theorem of Deshouillers and Freiman have no claim
-pages: (31) appeared in a proceedings volume with only a sketch of its proof
-and is superseded by Choi's refereed bound, and the site does not credit the
-1999 theorem, which sharpens only the constant of Straus's bound. A full proof
-claim of 12 September 2026 on the site's tab, declaring the use of GPT Astra,
-claims $h(n)\gg(n\log\log n/\log n)^{1/2}$ and is recorded as a pending claim
-on
-[[problems/additive_combinatorics/E0789/claims/2026_09_12_korsky|its claim page]];
-the site's label was OPEN on 2026-09-18 and on 2026-10-06 and its commentary
-does not adopt the claim; the formal-conjectures catalog has carried a
-third-party formal proof of that lower bound since 2026-09-29, which the
-corpus has not built, and the catalog's main statement `erdos_789` stays open.
-The exponent of $h(n)$ is open between $1/3$ and $1/2$ on the accepted
-evidence; this is a bounded negative finding, not a certificate of openness. The
-frontmatter standing, claimed with the claim value answered, derives from the
-pending full claim; the accepted claims are partial.
+[[problems/additive_combinatorics/E0789/claims/1974_04_01_choi|Choi's claim page]].
+It sharpens Erdős's 1965 inequality (31), $h(n)\ge n^{1/3}$. Erdős's 1962
+Theorem IV gives the weaker $h(n)<Cn^{5/6}$, an accepted partial claim on
+[[problems/additive_combinatorics/E0789/claims/1962_01_01_erdos|its claim page]].
+Inequality (31) and the theorem of Deshouillers and Freiman have no claim pages.
+Inequality (31) appeared in a proceedings volume with only a sketch of its proof
+and is superseded by Choi's refereed bound. The site does not credit the 1999
+theorem, which sharpens only the constant of Straus's bound. On the accepted
+evidence, the exponent of $h(n)$ is open between $1/3$ and $1/2$. This is a
+bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/789](https://www.erdosproblems.com/789),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that no

@@ -5,183 +5,188 @@ desc: |
   Divisibility, prime factorization and digit arithmetic of factorials,
   binomial coefficients, and products of consecutive integers.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # Factorials and Binomial Coefficients
 
 [[problems/_index|..]]
 
-[[problems/factorials_binomials/E0175/_index|E0175/]]: Asks whether the central
-binomial coefficient of 2n choose n fails to be squarefree for every n at least
-5; proved for large n by Sárközy (1985) and for every n at least 5 by Velammal
-(1995) and by Granville and Ramaré (1996).
+[[problems/factorials_binomials/E0175/_index|E0175/]]: Asks whether
+$\binom{2n}{n}$ fails to be squarefree for every $n\ge5$. Proved for large $n$
+by Sárközy (1985), and for every $n\ge5$ by Velammal (1995) and by Granville and
+Ramaré (1996).
 
-[[problems/factorials_binomials/E0373/_index|E0373/]]: Asks whether a factorial
-can equal a product of two or more smaller factorials, each at least two, only
-finitely often.
+[[problems/factorials_binomials/E0373/_index|E0373/]]: Asks whether
+$n!=a_1!a_2!\cdots a_k!$ with $n-1>a_1\ge a_2\ge\cdots\ge a_k\ge2$ has only
+finitely many solutions; open.
 
-[[problems/factorials_binomials/E0376/_index|E0376/]]: Asks whether infinitely
-many central binomial coefficients are coprime to one hundred and five.
+[[problems/factorials_binomials/E0376/_index|E0376/]]: Asks whether there are
+infinitely many $n$ such that $\binom{2n}{n}$ is coprime to $105$; open.
 
 [[problems/factorials_binomials/E0377/_index|E0377/]]: Asks whether the sum of
-the reciprocals of the primes up to n that do not divide the central binomial
-coefficient of n is bounded by a constant.
+$1/p$ over the primes $p\le n$ that do not divide $\binom{2n}{n}$ is bounded by
+an absolute constant; open.
 
 [[problems/factorials_binomials/E0378/_index|E0378/]]: Asks whether the integers
-n with at least r squarefree binomial coefficients in row n have a density, and
-whether that density is positive; both answered yes by Granville and Ramaré's
-1996 theorem.
+$n$ with $\binom{n}{k}$ squarefree for at least $r$ values of $1\le k<n$ have a
+density, and whether that density is positive. Both are answered yes by
+Granville and Ramaré's 1996 theorem.
 
-[[problems/factorials_binomials/E0379/_index|E0379/]]: Asks whether the largest
-exponent S such that every binomial coefficient in row n is divisible by some
-prime to the power S is unbounded as n varies; answered yes in 2025 by Cambie,
-Kovač and Tao.
+[[problems/factorials_binomials/E0379/_index|E0379/]]: Asks whether $\limsup
+S(n)=\infty$, where $S(n)$ is the largest $S$ such that each $\binom{n}{k}$ with
+$1\le k<n$ is divisible by $p^S$ for some prime $p$. Answered yes in 2025 by
+Cambie, Kovač and Tao.
 
-[[problems/factorials_binomials/E0384/_index|E0384/]]: Asks whether, for 1 < k <
-n - 1, every binomial coefficient n choose k has a prime divisor at most n/2,
-except 7 choose 3; proved by Ecklund in 1969, while the site's strict bound p <
-n/2 fails at 4 choose 2.
+[[problems/factorials_binomials/E0384/_index|E0384/]]: Asks whether, for
+$1<k<n-1$, every $\binom{n}{k}$ other than $\binom{7}{3}$ has a prime divisor
+$p\le n/2$. Proved by Ecklund in 1969, while the site's strict bound $p<n/2$
+fails at $\binom{4}{2}$.
 
-[[problems/factorials_binomials/E0386/_index|E0386/]]: Asks whether a binomial
-coefficient, other than the trivial ones, can be a product of consecutive primes
-infinitely often.
+[[problems/factorials_binomials/E0386/_index|E0386/]]: Asks whether
+$\binom{n}{k}$ with $2\le k\le n-2$ can be a product of consecutive primes
+infinitely often, as $\binom{21}{2}=2\cdot3\cdot5\cdot7$ is; open.
 
-[[problems/factorials_binomials/E0387/_index|E0387/]]: Asks whether some
-constant c makes every binomial coefficient in row n have a divisor between c
-times n and n.
+[[problems/factorials_binomials/E0387/_index|E0387/]]: Asks whether there is an
+absolute constant $c>0$ such that every $\binom{n}{k}$ with $1\le k<n$ has a
+divisor in $(cn,n]$; disproved.
 
-[[problems/factorials_binomials/E0390/_index|E0390/]]: Asks whether the least
-top factor in a factorization of n factorial into increasing factors above n
-exceeds two n by about a constant times n over log n.
+[[problems/factorials_binomials/E0390/_index|E0390/]]: Asks whether there is a
+constant $c$, and what it is, with $f(n)-2n\sim cn/\log n$, where $f(n)$ is the
+least $m$ such that $n!=a_1\cdots a_k$ with $n<a_1<\cdots<a_k=m$; a proof is
+claimed but not accepted.
 
-[[problems/factorials_binomials/E0391/_index|E0391/]]: Bounds the largest
-possible smallest factor when n factorial is written as a product of n
-increasing factors, in particular whether it approaches n over e.
+[[problems/factorials_binomials/E0391/_index|E0391/]]: Asks for bounds on
+$t(n)/n$, where $t(n)$ is the largest possible $a_1$ in $n!=a_1\cdots a_n$ with
+$a_1\le\cdots\le a_n$, and in particular whether $t(n)/n\to1/e$; solved.
 
-[[problems/factorials_binomials/E0392/_index|E0392/]]: Asks whether the fewest
-factors needed to write n factorial as increasing factors of size at most n
-squared is about n over two minus n over two log n.
+[[problems/factorials_binomials/E0392/_index|E0392/]]: Asks whether
+$A(n)=n/2-n/(2\log n)+o(n/\log n)$, where $A(n)$ is the least $t$ such that
+$n!=a_1\cdots a_t$ with $a_1\le\cdots\le a_t\le n^2$; a proof is claimed but not
+accepted.
 
-[[problems/factorials_binomials/E0393/_index|E0393/]]: Determines the behavior
-of the smallest spread between largest and smallest factor when a factorial is
-written as a product of distinct increasing integers.
+[[problems/factorials_binomials/E0393/_index|E0393/]]: Asks how $f(n)$ behaves,
+where $f(n)$ is the least $m\ge1$ such that $n!=a_1\cdots a_t$ with
+$a_1<\cdots<a_t=a_1+m$; open.
 
 [[problems/factorials_binomials/E0396/_index|E0396/]]: Asks whether, for every
-k, some n makes the product of the k plus one integers from n minus k to n
-divide the central binomial coefficient of n.
+$k$, there is an $n$ with $n(n-1)\cdots(n-k)\mid\binom{2n}{n}$; open.
 
-[[problems/factorials_binomials/E0397/_index|E0397/]]: Asks whether only
-finitely many equalities hold between two products of central binomial
-coefficients taken over distinct indices.
+[[problems/factorials_binomials/E0397/_index|E0397/]]: Asks whether
+$\prod_i\binom{2m_i}{m_i}=\prod_j\binom{2n_j}{n_j}$ has only finitely many
+solutions with the $m_i,n_j$ distinct; disproved.
 
-[[problems/factorials_binomials/E0398/_index|E0398/]]: Asks whether a factorial
-is one less than a perfect square only for n equal to four, five, and seven.
+[[problems/factorials_binomials/E0398/_index|E0398/]]: Asks whether $n!=x^2-1$
+has solutions only for $n=4,5,7$; a proof is claimed but not accepted.
 
-[[problems/factorials_binomials/E0399/_index|E0399/]]: Asks whether a factorial
-can equal a sum or difference of two kth powers with k greater than two and the
-powers not both trivial.
+[[problems/factorials_binomials/E0399/_index|E0399/]]: Asks whether $n!=x^k\pm
+y^k$ has no solutions in positive integers with $xy>1$ and $k>2$; disproved.
 
-[[problems/factorials_binomials/E0400/_index|E0400/]]: Asks for the average and
-typical size of the largest excess of a sum of numbers whose factorials divide n
-factorial over n, for each fixed count k of terms.
+[[problems/factorials_binomials/E0400/_index|E0400/]]: Asks, for each $k\ge2$,
+whether $\sum_{n\le x}g_k(n)\sim c_kx\log x$ and whether $g_k(n)=c_k\log
+x+o(\log x)$ for almost all $n<x$, where $g_k(n)$ is the largest value of
+$a_1+\cdots+a_k-n$ with $a_1!\cdots a_k!\mid n!$; open.
 
-[[problems/factorials_binomials/E0401/_index|E0401/]]: Asks whether, for
-infinitely many n, two numbers whose factorials' product divides n! times the
-n-th power of the product of the first r primes can sum to more than n plus f(r)
-log n, with f(r) tending to infinity.
+[[problems/factorials_binomials/E0401/_index|E0401/]]: Asks whether there is
+$f(r)\to\infty$ such that, for infinitely many $n$, some $a_1,a_2$ with
+$a_1!a_2!\mid n!\,2^n3^n\cdots p_r^n$ have $a_1+a_2>n+f(r)\log n$; proved.
 
-[[problems/factorials_binomials/E0403/_index|E0403/]]: Asks whether a power of
-two can equal a sum of distinct factorials in only finitely many ways.
+[[problems/factorials_binomials/E0403/_index|E0403/]]: Asks whether
+$2^m=a_1!+\cdots+a_k!$ with $a_1<\cdots<a_k$ has only finitely many solutions;
+proved.
 
-[[problems/factorials_binomials/E0404/_index|E0404/]]: Asks for which integers a
-and primes p the power of p dividing a sum of increasing factorials starting at
-a is bounded, and how that bound behaves.
+[[problems/factorials_binomials/E0404/_index|E0404/]]: Asks for which $a\ge1$
+and primes $p$ the exponents $k$ with $p^k\mid a_1!+\cdots+a_n!$ for some
+$a=a_1<\cdots<a_n$ are bounded, and how the largest such $k$ behaves; open.
 
 [[problems/factorials_binomials/E0405/_index|E0405/]]: Asks whether, for each
-odd prime p, the equation with p minus one factorial plus a power of a equal to
-a power of p has only finitely many solutions.
+odd prime $p$, the equation $(p-1)!+a^{p-1}=p^k$ has only finitely many
+solutions; proved.
 
-[[problems/factorials_binomials/E0419/_index|E0419/]]: The set of limit points
-of the ratio of the number of divisors of n plus one factorial to the number of
-divisors of n factorial.
+[[problems/factorials_binomials/E0419/_index|E0419/]]: Asks for the set of limit
+points of $\tau((n+1)!)/\tau(n!)$, where $\tau$ counts divisors; solved.
 
-[[problems/factorials_binomials/E0478/_index|E0478/]]: Asks whether the number
-of distinct factorial residues modulo a prime is asymptotically one minus one
-over e times the prime.
+[[problems/factorials_binomials/E0478/_index|E0478/]]: Asks whether, for a prime
+$p$, the set $A_p$ of residues $k!\bmod p$ with $1\le k<p$ has
+$|A_p|\sim(1-1/e)p$; open.
 
 [[problems/factorials_binomials/E0646/_index|E0646/]]: Asks whether, for any
-finitely many distinct primes, infinitely many n make n factorial divisible by
-an even power of each of those primes.
+distinct primes $p_1,\ldots,p_k$, there are infinitely many $n$ such that $n!$
+is divisible by an even power of each $p_i$; proved.
 
-[[problems/factorials_binomials/E0683/_index|E0683/]]: Asks whether the largest
-prime divisor of n choose k is always at least the smaller of n minus k plus 1
-and k to a power greater than one.
+[[problems/factorials_binomials/E0683/_index|E0683/]]: Asks whether, for some
+constant $c>0$, the largest prime divisor of $\binom{n}{k}$ is at least
+$\min(n-k+1,k^{1+c})$ for all $1\le k\le n$; open.
 
-[[problems/factorials_binomials/E0684/_index|E0684/]]: Splits n choose k into
-the part made of primes at most k and the part made of primes above k, and asks
-how the sizes of the two parts compare.
+[[problems/factorials_binomials/E0684/_index|E0684/]]: Writes $\binom{n}{k}=uv$,
+where the prime factors of $u$ are at most $k$ and those of $v$ lie in $(k,n]$,
+and asks for bounds on the least $k$ with $u>n^2$; open.
 
-[[problems/factorials_binomials/E0685/_index|E0685/]]: Asks whether, for k in a
-middle range, the distinct prime divisors of n choose k number about k times the
-sum of one over p for primes p between k and n.
+[[problems/factorials_binomials/E0685/_index|E0685/]]: Asks whether, for
+$n^\epsilon<k\le n^{1-\epsilon}$, the number of distinct prime divisors of
+$\binom{n}{k}$ is $(1+o(1))k\sum_{k<p<n}1/p$; open.
 
-[[problems/factorials_binomials/E0698/_index|E0698/]]: Asks whether the greatest
-common divisor of n choose i and n choose j always tends to infinity with n,
-uniformly over all i and j between 2 and half of n.
+[[problems/factorials_binomials/E0698/_index|E0698/]]: Asks whether there is
+$h(n)\to\infty$ with $\gcd(\binom{n}{i},\binom{n}{j})\ge h(n)$ for all $2\le
+i<j\le n/2$; proved.
 
-[[problems/factorials_binomials/E0699/_index|E0699/]]: Asks whether for all i
-less than j up to half of n some prime at least i divides both n choose i and n
-choose j.
+[[problems/factorials_binomials/E0699/_index|E0699/]]: Asks whether, for every
+$1\le i<j\le n/2$, some prime $p\ge i$ divides both $\binom{n}{i}$ and
+$\binom{n}{j}$; open.
 
-[[problems/factorials_binomials/E0700/_index|E0700/]]: Studies the least
-greatest common divisor of n and n choose k over k between 1 and half of n,
-asking when it is large and how big it can be for composite n.
+[[problems/factorials_binomials/E0700/_index|E0700/]]: Asks, for composite $n$
+and $f(n)=\min_{1<k\le n/2}\gcd(n,\binom{n}{k})$, which $n$ have $f(n)=n/P(n)$,
+where $P(n)$ is the largest prime factor of $n$, whether $f(n)>n^{1/2}$
+infinitely often, and whether $f(n)\ll_A n/(\log n)^A$ for every $A>0$; open.
 
-[[problems/factorials_binomials/E0727/_index|E0727/]]: Asks, for each k at least
-2, whether the square of the factorial of n plus k divides the factorial of two
-n for infinitely many n.
+[[problems/factorials_binomials/E0727/_index|E0727/]]: Asks whether, for each
+$k\ge2$, $(n+k)!^2\mid(2n)!$ for infinitely many $n$; open.
 
-[[problems/factorials_binomials/E0728/_index|E0728/]]: Asks whether infinitely
-many triples a, b, n with a plus b above n plus C log n have a! b! dividing n!
-(a+b-n)!; answered yes in 2026 by an AI-generated proof credited to Barreto and,
-separately, by Pomerance.
+[[problems/factorials_binomials/E0728/_index|E0728/]]: Asks whether there are
+infinitely many $a,b,n$ with $a,b\ge\epsilon n$, $a+b>n+C\log n$ and $a!\,b!\mid
+n!\,(a+b-n)!$. It was answered yes in 2026 by an AI-generated proof credited to
+Barreto, and separately by Pomerance.
 
-[[problems/factorials_binomials/E0729/_index|E0729/]]: Asks whether infinitely
-many triples a, b, n have a plus b above n plus C log n while n! over a! b! has
-only bounded primes in its denominator; answered yes in 2026 by an AI-generated
-proof credited to Barreto and Price.
+[[problems/factorials_binomials/E0729/_index|E0729/]]: Asks whether there are
+infinitely many $a,b,n$ with $a+b>n+C\log n$ such that the denominator of
+$n!/(a!\,b!)$ has only primes $\ll_C 1$. It was answered yes in 2026 by an
+AI-generated proof credited to Barreto and Price.
 
-[[problems/factorials_binomials/E0730/_index|E0730/]]: Asks whether infinitely
-many pairs of distinct integers n and m give central binomial coefficients with
-exactly the same set of prime divisors; answered yes in 2026, with consecutive
-pairs, by an AI proof credited to Price.
+[[problems/factorials_binomials/E0730/_index|E0730/]]: Asks whether there are
+infinitely many pairs $n\ne m$ such that $\binom{2n}{n}$ and $\binom{2m}{m}$
+have the same set of prime divisors. It was answered yes in 2026, with
+consecutive pairs, by an AI proof credited to Price.
 
-[[problems/factorials_binomials/E0731/_index|E0731/]]: Asks for a function
-describing, for almost all n, the least integer that fails to divide the central
-binomial coefficient of n.
+[[problems/factorials_binomials/E0731/_index|E0731/]]: Asks for a reasonable
+$f(n)$ such that, for almost all $n$, the least $m$ with $m\nmid\binom{2n}{n}$
+satisfies $m\sim f(n)$; a negative answer under one reading of "reasonable" is
+claimed but not accepted.
 
-[[problems/factorials_binomials/E0849/_index|E0849/]]: Asks whether, for every t
-at least one, some value is taken by exactly t binomial coefficients with the
-lower index between one and half the upper.
+[[problems/factorials_binomials/E0849/_index|E0849/]]: Asks whether, for every
+$t\ge1$, some integer $a$ has exactly $t$ solutions of $\binom{n}{k}=a$ with
+$1\le k\le n/2$; open.
 
-[[problems/factorials_binomials/E0912/_index|E0912/]]: Estimates how many
-distinct exponents occur in the prime factorization of n factorial.
+[[problems/factorials_binomials/E0912/_index|E0912/]]: Asks for a proof that the
+number $h(n)$ of distinct exponents in the prime factorization of $n!$ satisfies
+$h(n)\sim c(n/\log n)^{1/2}$ for some $c>0$; open.
 
-[[problems/factorials_binomials/E1093/_index|E1093/]]: Studies the deficiency of
-n choose k, the number of the k integers from n downwards whose prime factors
-are all at most k, when no prime up to k divides it.
+[[problems/factorials_binomials/E1093/_index|E1093/]]: Asks whether infinitely
+many $\binom{n}{k}$ with $n\ge 2k$ have deficiency $1$, and whether only
+finitely many have deficiency $>1$; open. The deficiency, defined when no prime
+$p\le k$ divides $\binom{n}{k}$, counts those of $n,\ldots,n-k+1$ whose prime
+factors are all at most $k$.
 
-[[problems/factorials_binomials/E1094/_index|E1094/]]: Asks whether the least
-prime factor of n choose k is at most the larger of n over k and k for all n at
-least 2k, with only finitely many exceptions.
+[[problems/factorials_binomials/E1094/_index|E1094/]]: Asks whether, for all
+$n\ge 2k$ with only finitely many exceptions, the least prime factor of
+$\binom{n}{k}$ is at most $\max(n/k,k)$; open.
 
-[[problems/factorials_binomials/E1095/_index|E1095/]]: Estimates the smallest n
-greater than k plus one for which every prime factor of n choose k exceeds k.
+[[problems/factorials_binomials/E1095/_index|E1095/]]: Asks for an estimate of
+$g(k)$, the smallest $n>k+1$ for which every prime factor of $\binom{n}{k}$
+exceeds $k$; open.
 
 [[problems/factorials_binomials/E1108/_index|E1108/]]: Asks whether the set of
-sums of distinct factorials contains only finitely many k-th powers for k at
-least 2, and only finitely many powerful numbers.
+sums of distinct factorials contains only finitely many $k$th powers for each
+$k\ge 2$, and only finitely many powerful numbers; open.
 
 ***
 

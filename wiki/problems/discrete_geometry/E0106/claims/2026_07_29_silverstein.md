@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0106/claims/2026_07_29_silverstein
 title: A 17-square packing with total side length above 4
 desc: |
-  An explicit packing of seventeen squares in the unit square whose side
-  lengths sum to more than 4, so f(17) > 4 and f(k^2+1) = k fails at k = 4;
-  found with Claude Opus 5 and checked in exact rational arithmetic.
+  Conner Silverstein's explicit packing of seventeen squares in the unit square
+  has side lengths summing to more than $4$, so $f(17)>4$ and $f(k^2+1)=k$ fails
+  at $k=4$. It was found with Claude Opus 5 and checked in exact rational
+  arithmetic.
 authors:
 - Conner Silverstein
 status: accepted
@@ -86,12 +87,12 @@ the result to Claude Opus 5 prompted by Silverstein.
 **Acceptance.** Thomas Bloom, the site's curator, marks the problem disproved
 and credits this result on the problem page (edited 2026-08-28). The site's
 label notes a Lean verification, but neither the claim nor the problem page
-links one; the Lean proof of $f(17)>4$ in Boris Alexeev's repository, credited
-to Raj Singh, uses a different packing and is recorded on
+links one. The Lean proof of $f(17)>4$ in Boris Alexeev's repository, credited
+to Raj Singh, uses a different packing. It is recorded on
 [[problems/discrete_geometry/E0106/claims/2026_07_29_singh|its own claim page]].
-This claim is accepted on the curator's documented acceptance alone. No
-refereed publication exists. The problem's discussion also reports a simpler
-construction by Bojan Bašić with $k=16$, posted as a comment only.
+This claim is accepted on the curator's documented acceptance alone. No refereed
+publication exists. The problem's discussion also reports a simpler construction
+by Bojan Bašić with $k=16$, posted as a comment only.
 
 **What remains.** $f(5)=2$ is known; whether $f(10)=3$ is open, and the
 general conjecture of Erdős and Soifer and of Campbell and Staton, which

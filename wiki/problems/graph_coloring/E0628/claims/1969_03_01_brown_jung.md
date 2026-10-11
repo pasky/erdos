@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0628/claims/1969_03_01_brown_jung
 title: The case a = b = 3 through two disjoint odd cycles
 desc: |
-  Brown and Jung (1969) prove that a graph with chromatic number 5 and no
-  K_5 contains two vertex-disjoint odd cycles, settling the instance a = b
-  = 3 that Erdős asked; refereed in Acta Math. Acad. Sci. Hungar.
+  Brown and Jung (1969) prove that a graph with chromatic number $5$ and no
+  $K_5$ contains two vertex-disjoint odd cycles, settling the instance $a=b=3$
+  that Erdős asked about. It was refereed in Acta Math. Acad. Sci. Hungar.
 authors:
 - W. G. Brown
 - H. A. Jung
@@ -43,7 +43,7 @@ statement is recorded on this page as the site credits it.
 other pair $(a,b)$ or any larger $k$.
 
 **Acceptance.** Refereed: Acta Math. Acad. Sci. Hungar. 20 (1969), no. 1-2,
-129–134; the issue is dated March 1969, and the page carries the first day of
-that month because the day is not recorded. The site's curator credits the
-result in the commentary of a problem the site labels FALSIFIABLE, a label
-that settles nothing, so the credit is not listed as `reviewed`.
+129–134. The issue is dated March 1969. The page carries the first day of that
+month because the day is not recorded. The site's curator credits the result in
+the commentary of a problem the site labels FALSIFIABLE. That label settles
+nothing, so the credit is not listed as `reviewed`.

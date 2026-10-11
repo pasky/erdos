@@ -2,9 +2,10 @@
 name: problems/diophantine_problems/E0374/claims/2026_09_29_hartley_olson
 title: Hartley and Olson's orders of growth of the factorial classes
 desc: |
-  Hartley and Olson claim the order of growth of every D_k for k from 3 to 6:
-  D_3(X) of order sqrt X and D_4, D_5, D_6 of order X, so D_6 has positive
-  lower density, the Erdős–Graham conjecture; with a Lean development.
+  Hartley and Olson claim the order of growth of $D_k$ for every $k$ from 3 to
+  6, namely $D_3(X)\asymp\sqrt X$ and $D_k(X)\asymp X$ for $k=4,5,6$. This
+  includes the Erdős–Graham conjecture that $D_6$ has positive lower density,
+  and the claim comes with a Lean development.
 authors:
 - Jonathan S. Hartley
 - Matthew A. Olson

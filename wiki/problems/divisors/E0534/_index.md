@@ -2,8 +2,8 @@
 name: problems/divisors/E0534
 title: Problem 534
 desc: |
-  The largest subset of the integers up to N that contains N itself and in
-  which every two distinct elements share a common factor greater than one.
+  Asks for the largest $A\subseteq\{1,\ldots,N\}$ that contains $N$ and has
+  $\gcd(a,b)>1$ for all distinct $a,b\in A$; solved.
 tags:
 - Number theory
 - Intersecting families
@@ -24,16 +24,16 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** What is the largest possible subset $A\subseteq\{1,\ldots,N\}$
 which contains $N$ such that $\mathrm{gcd}(a,b)>1$ for all $a\neq b\in A$?
 
-**Status.** Solved on the site: the curator credits Ahlswede and Khachatrian
-(1996) with proving Erdős's refined conjecture that the maximum is attained,
-for some $j$, by the integers up to $N$ divisible by one of
+**Status.** Solved on the site. The curator credits Ahlswede and Khachatrian
+(1996) with proving Erdős's refined conjecture. The conjecture says that the
+maximum is attained, for some $j$, by the integers up to $N$ divisible by one of
 $2q_1,\ldots,2q_j,q_1\cdots q_j$, where $q_1<\cdots<q_r$ are the prime factors
-of $N$, after the original guess of Erdős and Graham fell to easy
-counterexamples; see the
+of $N$. This refined conjecture came after the original guess of Erdős and
+Graham fell to easy counterexamples. See the
 [[problems/divisors/E0534/claims/1996_01_01_ahlswede_khachatrian|claim page]].
-The site notes that the 1973 source printed the condition as $(a,b)=1$, a
-misprint for $(a,b)>1$. The standing in the frontmatter derives from the claim
-pages.
+The standing in the frontmatter derives from the claim pages. The site notes
+that the 1973 source printed the condition as $(a,b)=1$, a misprint for
+$(a,b)>1$.
 
 **Source.** [erdosproblems.com/534](https://www.erdosproblems.com/534), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #534,

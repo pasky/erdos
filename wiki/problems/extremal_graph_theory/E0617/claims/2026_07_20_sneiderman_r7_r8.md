@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0617/claims/2026_07_20_sneiderman_r7_r8
 title: Sneiderman's computer-assisted proofs of the seven- and eight-color cases
 desc: |
-  A preprint of 20 July 2026 claims the fixed cases r = 7 and r = 8 of Problem
-  617 (K_50 with seven colors, K_65 with eight), by a colored-density reduction
-  closed by an exhaustive lemma and 862 LRAT-checked instances; claimed.
+  A preprint by Robert Sneiderman of 20 July 2026 claims the fixed cases $r=7$
+  and $r=8$ of Problem 617 ($K_{50}$ with seven colors, $K_{65}$ with eight).
+  The argument is a colored-density reduction closed by an exhaustive lemma and
+  $862$ LRAT-checked instances.
 authors:
 - Robert Sneiderman
 status: claimed

@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0357/claims/2026_07_27_lenthall_cleary
 title: Adaptive packing bound of n/2 plus order n to the two thirds
 desc: |
-  A partial proof claim of 27 July 2026: the upper bound f(n) at most n/2 plus
-  a constant times n^{2/3}, by blocks of adaptive length, with the finite
-  inequality in Lean 4, not built here; the bound leaves f(n) = o(n) open.
+  Lenthall-Cleary's partial proof claim of 27 July 2026 gives the upper bound
+  $f(n)\le n/2+O(n^{2/3})$ by blocks of adaptive length, with the finite
+  inequality in Lean 4, not built here. The bound leaves $f(n)=o(n)$ open.
 authors:
 - Chapin Lenthall-Cleary
 status: claimed

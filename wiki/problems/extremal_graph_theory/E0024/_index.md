@@ -2,8 +2,8 @@
 name: problems/extremal_graph_theory/E0024
 title: Problem 24
 desc: |
-  Asks whether every triangle-free graph on 5n vertices contains at most n to
-  the fifth power many 5-cycles.
+  Asks whether every triangle-free graph on $5n$ vertices contains at most $n^5$
+  copies of $C_5$; proved.
 tags:
 - Graph theory
 status: solved
@@ -28,15 +28,13 @@ counted once, not one of its ten cyclically ordered vertex labelings. Every
 five-cycle in a triangle-free graph is induced, since any chord would create a
 triangle.
 
-**Status.** Proved. The site's label reads "PROVED (LEAN)"; the Lean proof
-it reports and its public scope are recorded below. The claim pages are
-[[problems/extremal_graph_theory/E0024/claims/2011_02_04_grzesik|Grzesik]]
-and
-[[problems/extremal_graph_theory/E0024/claims/2011_02_08_hatami_hladky_kral_norine_razborov|Hatami, Hladký, Král', Norine and Razborov]]
-(both accepted on their refereed publications and the curator's credit); the
-2026 Lean proof declares itself a formalization of Grzesik's proof and is
-recorded on that page as a formalization link; it gives no `formalized`
-evidence.
+**Status.** Proved. The site's label reads "PROVED (LEAN)". The claim pages are
+[[problems/extremal_graph_theory/E0024/claims/2011_02_04_grzesik|Grzesik]] and
+[[problems/extremal_graph_theory/E0024/claims/2011_02_08_hatami_hladky_kral_norine_razborov|Hatami, Hladký, Král', Norine and Razborov]],
+both accepted on their refereed publications and the curator's credit. The 2026
+Lean proof declares itself a formalization of Grzesik's proof. It is recorded on
+that page as a formalization link and gives no `formalized` evidence. The Lean
+proof the site reports and its public scope are recorded below.
 
 **Source.** [erdosproblems.com/24](https://www.erdosproblems.com/24), accessed
 2026-09-10 UTC. Cite as: T. F. Bloom, Erdős Problem #24,

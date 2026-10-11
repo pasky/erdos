@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0785
 title: Problem 785
 desc: |
-  Asks whether two infinite sets whose sumset covers all large integers and
-  whose counting functions multiply to about x must have that product exceed
-  x by an amount tending to infinity.
+  Asks whether infinite sets $A,B$ of naturals with $A+B$ containing all large
+  integers and $A(x)B(x)\sim x$ must have $A(x)B(x)-x\to\infty$; the answer is
+  yes.
 tags:
 - Additive combinatorics
 status: solved
@@ -31,31 +31,34 @@ $$
 
 as $x\to \infty$?
 
-**Status.** The site labels the problem PROVED (LEAN); the Lean qualifier is
+**Status.** The site labels the problem PROVED (LEAN). The Lean qualifier is
 explained under Formalization. The status-defining source is the theorem of
 Sárközy and Szemerédi [SaSz94] (Acta Math. Hungar. 64 (1994), 237--245,
-refereed): for infinite $A,B$ with $A+B$ containing every large integer and
-$A(x)B(x)\sim x$, the excess $A(x)B(x)-x$ tends to infinity and is not even
-$o(A(x))$. Chen and Fang proved the conclusion under the weaker hypotheses
-$\limsup A(x)B(x)/x<5/4$ [ChFa10] and then $<3-\sqrt3$ [ChFa14], and sharpened
-the excess to exceed every power of $\min(A(x),B(x))$ [ChFa15]; Ruzsa [Ru17]
-proved $A(x)B(x)-x>(1-o(1))\,a^*(x)/A(x)$ with $a^*(x)=\max A\cap[1,x]$, nearly
-best possible by his construction. The claim pages are
+refereed). Let $A,B$ be infinite, with $A+B$ containing every large integer and
+$A(x)B(x)\sim x$. The theorem shows that the excess $A(x)B(x)-x$ tends to
+infinity and is not even $o(A(x))$. Chen and Fang proved the conclusion under
+weaker hypotheses, first $\limsup A(x)B(x)/x<5/4$ [ChFa10] and then $<3-\sqrt3$
+[ChFa14]. They then sharpened the excess to exceed every power of
+$\min(A(x),B(x))$ [ChFa15]. Ruzsa [Ru17] proved
+$A(x)B(x)-x>(1-o(1))\,a^*(x)/A(x)$, where $a^*(x)=\max A\cap[1,x]$. His
+construction shows this is nearly best possible.
+
+The claim pages are
 [[problems/additive_combinatorics/E0785/claims/1994_09_01_sarkozy_szemeredi|Sárközy and Szemerédi]]
 (accepted on the refereed publication and the site's credit),
 [[problems/additive_combinatorics/E0785/claims/2010_02_05_fang_chen|Fang and Chen (2010)]],
 [[problems/additive_combinatorics/E0785/claims/2014_08_01_fang_chen|Fang and Chen (2014)]]
 and
 [[problems/additive_combinatorics/E0785/claims/2015_01_01_chen_fang|Chen and Fang (2015)]]
-(each accepted on its refereed publication and the site's credit),
+(each accepted on its refereed publication and the site's credit), and
 [[problems/additive_combinatorics/E0785/claims/2015_10_03_ruzsa|Ruzsa]]
-(accepted on the refereed publication and the site's credit; the proof van Doorn
-formalized in Lean in March 2026, a development the corpus has not built), and
-the 2026 proof claim of
+(accepted on the refereed publication and the site's credit). Ruzsa's proof was
+formalized in Lean by van Doorn in March 2026, a development the corpus has not
+built. The last claim page is the 2026 proof claim of
 [[problems/additive_combinatorics/E0785/claims/2026_08_05_van_doorn_liu_tang|van Doorn, Liu and Tang]]
-for Chen's conjectured threshold $3/2$, a generalization of the problem
-(claimed; the proof claim names GPT-5.6 Sol as the system that wrote the note,
-and the Lean proof is by Aristotle; no review recorded).
+for Chen's conjectured threshold $3/2$, a generalization of the problem. It is
+claimed, and no review is recorded. The proof claim names GPT-5.6 Sol as the
+system that wrote the note, and the Lean proof is by Aristotle.
 
 **Source.** [erdosproblems.com/785](https://www.erdosproblems.com/785), accessed
 2026-10-07 (page last edited 7 March 2026; five comments in the discussion

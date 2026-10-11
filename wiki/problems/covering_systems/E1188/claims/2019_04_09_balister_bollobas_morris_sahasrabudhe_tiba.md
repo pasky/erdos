@@ -2,9 +2,10 @@
 name: problems/covering_systems/E1188/claims/2019_04_09_balister_bollobas_morris_sahasrabudhe_tiba
 title: Balister, Bollobás, Morris, Sahasrabudhe and Tiba's lower bound
 desc: |
-  The minimal covering systems built by Balister, Bollobás, Morris,
-  Sahasrabudhe and Tiba (J. Eur. Math. Soc. 2024) give, as the site derives,
-  F(x) >= exp((log x)^(3-o(1))); refereed; a lower bound only.
+  The minimal covering systems built by Balister, Bollobás, Morris, Sahasrabudhe
+  and Tiba (J. Eur. Math. Soc. 2024) give
+  $F(x)\ge\exp\bigl((\log x)^{3-o(1)}\bigr)$, as the site derives. The paper is
+  refereed, and the result is a lower bound only.
 authors:
 - Paul Balister
 - Béla Bollobás
@@ -62,9 +63,9 @@ $F(x)\le\exp(O(x\log x))$.
 assertion that its construction gives distinct moduli. Pickhardt's pending
 verification of that assertion, cited in the Claim, is context only.
 
-**Acceptance.** Refereed publication: J. Eur. Math. Soc. (JEMS) 26 (2024),
-no. 1, 75--109, doi:10.4171/JEMS/1357; the arXiv version was posted 9 April
-2019, the date of this page. The site labels the problem OPEN, so its
-commentary crediting the bound is not acceptance and no `reviewed` evidence
-is listed; the deduction from the construction to the bound on $F(x)$ is the
-site's, not a statement of the paper.
+**Acceptance.** Refereed publication: J. Eur. Math. Soc. (JEMS) 26 (2024), no.
+1, 75--109, doi:10.4171/JEMS/1357. The arXiv version was posted 9 April 2019,
+the date of this page. The site labels the problem OPEN, so its commentary
+crediting the bound is not acceptance, and no `reviewed` evidence is listed. The
+deduction from the construction to the bound on $F(x)$ is the site's, not a
+statement of the paper.

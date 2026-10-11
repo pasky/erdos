@@ -2,8 +2,9 @@
 name: problems/integer_sequences/E0675
 title: Problem 675
 desc: |
-  Asks which sets of integers are locally periodic, in that membership up to n
-  is unchanged by some shift, for sums of two squares and other examples.
+  Asks which sets of integers, such as the sums of two squares, have the
+  translation property: for every $n$, some shift $t_n\ge1$ leaves membership of
+  each $a\le n$ unchanged; open.
 tags:
 - Number theory
 status: open
@@ -35,19 +36,20 @@ divisible by primes from $P$ have the translation property? If $A$ is the set of
 squarefree numbers then how fast does the minimal such $t_n$ grow? Is it true
 that $t_n>\exp(n^c)$ for some constant $c>0$?
 
-**Status.** Open, the site's label (proof-claims thread accessed 2026-10-06).
+**Status.** The site's label is Open (proof-claims thread accessed 2026-10-06).
 The site notes that elementary sieve theory gives the squarefree numbers the
-translation property, and that Brun's sieve gives it to the integers divisible
-by no member of a set $B$ of pairwise coprime integers with
-$\sum_{b<x}1/b=o(\log\log x)$. A partial proof claim posted to the site's
-proof-claims tab on 27 July 2026 by Liam Price, using GPT 5.6 Sol Pro, answers
-the second question yes for a partition of the primes into parts of any
-prescribed proportions; it is recorded on
-[[problems/integer_sequences/E0675/claims/2026_07_27_price|its claim page]] and
-not adopted here. The first question and the growth questions are not
-addressed by it. The discussion thread carries a pending partial claim on the
-growth question: Boon Suan Ho's note of 18 April 2026, found with GPT-5.4
-Pro, proves $t_n>\exp(n^c)$ for every $c<25/72$ and all large $n$
+translation property. It also notes that Brun's sieve gives the property to the
+integers divisible by no member of a set $B$ of pairwise coprime integers with
+$\sum_{b<x}1/b=o(\log\log x)$.
+
+A partial proof claim was posted to the site's proof-claims tab on 27 July 2026
+by Liam Price, using GPT 5.6 Sol Pro. It answers the second question yes for a
+partition of the primes into parts of any prescribed proportions. It is recorded
+on [[problems/integer_sequences/E0675/claims/2026_07_27_price|its claim page]]
+and not adopted here. It does not address the first question or the growth
+questions. The discussion thread carries a pending partial claim on the growth
+question. Boon Suan Ho's note of 18 April 2026, found with GPT-5.4 Pro, proves
+$t_n>\exp(n^c)$ for every $c<25/72$ and all large $n$
 ([[problems/integer_sequences/E0675/claims/2026_04_18_ho|its claim page]]). A
 comment of 29 April 2026 raising the exponent to $3/8$ was questioned in the
 thread and has no write-up. Yu Leon Liu's note of 9 May 2026, found with

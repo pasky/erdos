@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0548/claims/2026_09_18_frederickson
 title: Frederickson, the Erdős–Sós conjecture via random cyclic orderings
 desc: |
-  An arXiv paper of Frederickson giving a simplified proof of the Erdős–Sós
-  conjecture, based on GPT-6 Astra's resolution, and another proof of the
-  antidirected-tree conjecture for digraphs; a preprint.
+  An arXiv paper of Frederickson, a preprint, gives a simplified proof of the
+  Erdős–Sós conjecture based on GPT-6 Astra's resolution. It also gives another
+  proof of the antidirected-tree conjecture for digraphs.
 authors:
 - Bryce Frederickson
 status: claimed

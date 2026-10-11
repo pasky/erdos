@@ -2,7 +2,9 @@
 name: problems/ramsey_theory/E0552
 title: Problem 552
 desc: |
-  Determines the Ramsey number of a four-cycle against the star with n edges.
+  Asks for the Ramsey number $R(C_4,S_n)$ of a four-cycle against the star with
+  $n$ edges, and whether, for every $c>0$, infinitely many $n$ have
+  $R(C_4,S_n)\le n+\sqrt{n}-c$; open.
 tags:
 - Graph theory
 - Ramsey theory
@@ -49,27 +51,25 @@ them as two parts. Every known value satisfies $f(n)\ge n+\lceil\sqrt
 n\rceil\ge n+\sqrt n$, so no known $n$ satisfies the displayed inequality
 for any $c>0$.
 
-**Status.** Open. $f(n)$ is known exactly only for special $n$: all
-$n\le38$ and $n=67$, the prime-power families $n=q^2$ and $q^2+1$,
-further families of the form $q^2\pm t$ with $0\le t\le q$, and Zhang, Chen
-and Cheng's families $n=(q-1)^2+t$ ($q\ge4$ an even prime power,
-$t=1,0,-2$) and $n=q(q-1)-t$ ($q\ge5$ an odd prime power,
-$t=2,4,\ldots,2\lceil q/4\rceil$); in general it is known only within the
-window, for all large $n$,
-$n+\lfloor\sqrt n-6n^{\alpha/2}\rfloor<f(n)\le n+\lceil\sqrt n\rceil+1$,
-where $\alpha$ is an exponent for gaps between consecutive primes (below
-$11/20$ in 1989). The refereed determinations have accepted partial claim
-pages
+**Status.** Open. The value $f(n)$ is known exactly only for special $n$. These
+are all $n\le38$ and $n=67$, the prime-power families $n=q^2$ and $q^2+1$,
+further families of the form $q^2\pm t$ with $0\le t\le q$, and Zhang, Chen and
+Cheng's families $n=(q-1)^2+t$ ($q\ge4$ an even prime power, $t=1,0,-2$) and
+$n=q(q-1)-t$ ($q\ge5$ an odd prime power, $t=2,4,\ldots,2\lceil q/4\rceil$). In
+general $f(n)$ is known only within a window. For all large $n$,
+$n+\lfloor\sqrt n-6n^{\alpha/2}\rfloor<f(n)\le n+\lceil\sqrt n\rceil+1$, where
+$\alpha$ is an exponent for gaps between consecutive primes (below $11/20$ in
+1989). The refereed determinations have accepted partial claim pages
 ([[problems/ramsey_theory/E0552/claims/1975_01_01_parsons|Parsons 1975]],
 [[problems/ramsey_theory/E0552/claims/2015_01_24_wu_sun_zhang_radziszowski|Wu, Sun, Zhang and Radziszowski 2015]],
 [[problems/ramsey_theory/E0552/claims/2017_04_01_zhang_chen_cheng|Zhang, Chen and Cheng 2017 (Discrete Math.)]],
-[[problems/ramsey_theory/E0552/claims/2017_05_01_zhang_chen_cheng|Zhang, Chen and Cheng 2017 (Finite Fields Appl.)]]),
-and Boza's preprint values a claimed one
-([[problems/ramsey_theory/E0552/claims/2024_09_19_boza|Boza 2024]]); none
-settles the second question. The search,
-whose scope the Current assessment records, found no proof or disproof of
-the displayed question and no determination of $f(n)$ for all $n$. This is
-a bounded negative finding, not a certificate of openness.
+[[problems/ramsey_theory/E0552/claims/2017_05_01_zhang_chen_cheng|Zhang, Chen and Cheng 2017 (Finite Fields Appl.)]]).
+Boza's preprint values have a claimed one
+([[problems/ramsey_theory/E0552/claims/2024_09_19_boza|Boza 2024]]). None of
+these settles the second question. The search, whose scope the Current
+assessment records, found no proof or disproof of the displayed question and no
+determination of $f(n)$ for all $n$. This is a bounded negative finding, not a
+certificate of openness.
 
 **Source.** [erdosproblems.com/552](https://www.erdosproblems.com/552),
 accessed 2026-09-17: the problem page (OPEN; last

@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0080
 title: Problem 80
 desc: |
-  Estimates the largest book, an edge lying in many triangles, forced in a
-  graph on n vertices with quadratically many edges each in a triangle; open,
-  the polynomial question answered no and the logarithmic one open.
+  Asks to estimate $f_c(n)$, the largest book (an edge in many triangles) forced
+  in an $n$-vertex graph with at least $cn^2$ edges, each in a triangle. It is
+  open: the question whether $f_c(n)>n^{\epsilon}$ for some $\epsilon>0$ was
+  answered no, and the question whether $f_c(n)\gg\log n$ is open.
 tags:
 - Graph theory
 - Ramsey theory
@@ -50,30 +51,31 @@ that for every $c$ and sufficiently large $n$ (2) $g(n;c)>\log n$.
 Rothschild and I expected that a very much stronger result that [sic] (2)
 will hold."
 
-**Status.** Open. The page-level question, to estimate $f_c(n)$, is open:
-for fixed $c<1/4$ the known bounds are $2^{\Omega(\log^*n)}\le f_c(n)\le
-n^{14/\log\log n}$, and for $c\ge1/4$ they are $n/6\le f_c(n)\le n-2$. The
-first "in particular" question is answered no, since it fails for every
-fixed $c<1/4$, by Theorem 1.1 of Fox and Loh (Combinatorica 32 (2012),
-refereed), which the site records as the disproof of Erdős's first
-conjecture; the property it asks for holds for $c>1/4$ by the bound
-$f_c(n)\ge n/6$ of Edwards and of Khadzhiivanov and Nikiforov, proved in
-full as Corollary 3 of Khadzhiivanov's 1988 account [Kh88], and at $c=1/4$
-by that account's Corollary 4. The second, whether $f_c(n)\gg\log n$ for
-every $c$, is open: it holds for $c\ge1/4$ by the same bounds and is open
-for every fixed $c<1/4$, the lower bound Fox and Loh derive being exponential
-in the iterated logarithm. No source answering the estimate or the
-logarithmic question was found in the search whose
-scope the Current assessment records; this is a bounded negative finding,
-not a certificate of openness. The frontmatter standing derives from the
-claim pages
-[[problems/ramsey_theory/E0080/claims/2011_06_01_fox_loh|Fox and Loh 2012]],
-an accepted partial claim answering the first closing question no, and
-[[problems/ramsey_theory/E0080/claims/1979_01_01_khadzhiivanov_nikiforov|Khadzhiivanov and Nikiforov 1979]],
-a claimed partial claim covering the range $c>1/4$ (neither its venues'
-refereeing nor an acceptance of it under this problem is documented); no
-claim settles the whole problem, so the derived standing is open with no
-settling claim.
+**Status.** Open. The page-level question, to estimate $f_c(n)$, is open. For
+fixed $c<1/4$ the known bounds are
+$2^{\Omega(\log^*n)}\le f_c(n)\le n^{14/\log\log n}$. For $c\ge1/4$ they are
+$n/6\le f_c(n)\le n-2$. The frontmatter standing derives from two claim pages.
+[[problems/ramsey_theory/E0080/claims/2011_06_01_fox_loh|Fox and Loh 2012]] is
+an accepted partial claim that answers the first closing question no.
+[[problems/ramsey_theory/E0080/claims/1979_01_01_khadzhiivanov_nikiforov|Khadzhiivanov and Nikiforov 1979]]
+is a claimed partial claim covering the range $c>1/4$. Neither the refereeing of
+its venues nor an acceptance of it under this problem is documented. No claim
+settles the whole problem, so the derived standing is open with no settling
+claim.
+
+The first "in particular" question is answered no, since it fails for every
+fixed $c<1/4$. This is Theorem 1.1 of Fox and Loh (Combinatorica 32 (2012),
+refereed), which the site records as the disproof of Erdős's first conjecture.
+The property it asks for holds for $c>1/4$ by the bound $f_c(n)\ge n/6$ of
+Edwards and of Khadzhiivanov and Nikiforov. That bound is proved in full as
+Corollary 3 of Khadzhiivanov's 1988 account [Kh88]. At $c=1/4$ the property
+holds by that account's Corollary 4. The second question, whether
+$f_c(n)\gg\log n$ for every $c$, is open. It holds for $c\ge1/4$ by the same
+bounds. It is open for every fixed $c<1/4$, where the lower bound Fox and Loh
+derive is exponential in the iterated logarithm. The search whose scope the
+Current assessment records found no source answering the estimate or the
+logarithmic question. This is a bounded negative finding, not a certificate of
+openness.
 
 **Source.** [erdosproblems.com/80](https://www.erdosproblems.com/80),
 accessed 2026-09-18: the problem page (OPEN, with

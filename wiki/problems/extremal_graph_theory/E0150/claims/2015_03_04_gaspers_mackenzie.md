@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0150/claims/2015_03_04_gaspers_mackenzie
 title: Gaspers and Mackenzie's simpler golden-ratio bound
 desc: |
-  Theorem 1 of Gaspers and Mackenzie proves by a short measure argument that
-  an n-vertex graph has O(rho^n n) minimal separators, rho the golden ratio;
-  accepted on the refereed paper in J. Graph Theory 87 (2018).
+  Theorem 1 of Gaspers and Mackenzie proves by a short measure argument that an
+  $n$-vertex graph has $O(\rho^n n)$ minimal separators, where $\rho$ is the
+  golden ratio. The claim is accepted on the refereed paper in J. Graph Theory
+  87 (2018).
 authors:
 - Serge Gaspers
 - Simon Mackenzie
@@ -60,6 +61,6 @@ the limit is not addressed.
 the source's result page.
 
 **Acceptance.** Refereed: the paper is a publication in the Journal of Graph
-Theory. The site's curator credits the paper in the problem's commentary, but
-the site lists no parts and its label credits Bradač's note for the whole
-problem, so the credit is not listed as reviewed evidence.
+Theory. The site's curator credits the paper in the problem's commentary. The
+site lists no parts, and its label credits Bradač's note for the whole problem,
+so the credit is not listed as reviewed evidence.

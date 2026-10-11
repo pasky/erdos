@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0350/claims/1977_09_01_hanson_steele_stenger
 title: Hanson, Steele and Stenger's Dirichlet-series strengthening
 desc: |
-  A two-page note (Proc. Amer. Math. Soc. 1977) proving that a set with distinct
-  subset sums has sum of n^(-s) below 1/(1 - 2^(-s)) for every s > 0; s = 1 is
-  the problem's bound. Accepted on the publication and the site's credit.
+  A two-page note by Hanson, Steele and Stenger (Proc. Amer. Math. Soc. 1977)
+  proves that a set $A$ with distinct subset sums has
+  $\sum_{n\in A}n^{-s}<1/(1-2^{-s})$ for every $s>0$, and $s=1$ is the problem's
+  bound. It is accepted on the publication and the site's credit.
 authors:
 - F. Hanson
 - J. M. Steele
@@ -50,14 +51,13 @@ records its argument.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Refereed publication: Proceedings of the American
-Mathematical Society 66 (1977), no. 1, 179--180, issued September 1977
-(Crossref record, 2026-10-07; the date of this page). Reviewed: the
-site's curator (T. F. Bloom) records the stronger statement as proved by
-Hanson, Steele and Stenger in the problem page's commentary, and Erdős and Graham report it as a recent strengthening of
-Ryavec's theorem in the 1980 monograph (p. 60). The acceptance rests on the
-publication record and these two reports, not on the note itself.
-The problem's status-defining source is
-Ryavec's proof on
-[[problems/additive_combinatorics/E0350/claims/1974_04_01_benkoski_erdos|the Benkoski--Erdős page]];
-this page records the second, stronger route.
+**Acceptance.** Refereed publication: Proceedings of the American Mathematical
+Society 66 (1977), no. 1, 179--180, issued September 1977 (Crossref record,
+2026-10-07). That is the date of this page. Reviewed: the site's curator (T. F.
+Bloom) records the stronger statement as proved by Hanson, Steele and Stenger in
+the problem page's commentary. Erdős and Graham report it as a recent
+strengthening of Ryavec's theorem in the 1980 monograph (p. 60). The acceptance
+rests on the publication record and these two reports, not on the note itself.
+The problem's status-defining source is Ryavec's proof on
+[[problems/additive_combinatorics/E0350/claims/1974_04_01_benkoski_erdos|the Benkoski--Erdős page]].
+This page records the second, stronger route.

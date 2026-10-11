@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0528/claims/1993_08_07_conway_guttmann
 title: Conway and Guttmann's lower bound 2.62 for the square lattice
 desc: |
-  Conway and Guttmann's 1993 paper proves the lower bound C_2 >= 2.62 for the
-  connective constant of the square lattice by enumerating irreducible bridges
-  up to 40 steps; refereed, credited by the site, determining no C_k.
+  Conway and Guttmann's refereed 1993 paper proves the lower bound $C_2\ge2.62$
+  for the connective constant of the square lattice by enumerating irreducible
+  bridges up to $40$ steps. The site credits the paper, which determines no
+  $C_k$.
 authors:
 - A R Conway
 - A J Guttmann

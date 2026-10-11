@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0962
 title: Problem 962
 desc: |
-  Estimates the greatest k for which some run of k consecutive integers
-  starting at most at n has every term divisible by a prime larger than k;
-  log k(n) is between c sqrt(log n log log n) and (log n)/2; both questions open.
+  Asks for an estimate of the greatest $k$ such that, for some $m\le n$, each of
+  $m+1,\ldots,m+k$ is divisible by a prime greater than $k$, and whether
+  $\log k(n)\le(\log n)^{1/2+o(1)}$. Both are open, and $\log k(n)$ lies between
+  $c\sqrt{\log n\log\log n}$ and $(\log n)/2$.
 tags:
 - Number theory
 status: open
@@ -47,29 +48,34 @@ is the inverse form of Erdős's 1976 conjecture (7),
 $n_k>\exp((\log k)^{2-\epsilon})$ for every $\epsilon>0$ and large $k$. The
 site's source keys are [Er65] and [Er76e, p. 273].
 
-**Status.** Open, for both questions. In hand: lower bounds
-$\log k(n)\ge(\log n)^{1/2-o(1)}$ (Erdős 1965, asserted as "not hard to prove"
-without proof) and, from Erdős's 1976 display (6),
-$n_k<k^{\log k/\log\log k}$, proved by a short smooth-number count, the bound
-$\log k(n)\ge(1/\sqrt2-o(1))\sqrt{\log n\log\log n}$ (a substitution made
-here; the site prints $\log k(n)\gg\sqrt{\log n\log\log n}$), which a forum
-note of December 2025 (Tang) also proves directly with the same constant;
-upper bounds $k(n)\le(1+o(1))n^{1/2}$ (a forum argument of October 2025 by
-Tao, accepted into the site's commentary and checked here) and, reported by
-Erdős in 1976 without proof, $n_k>k^2\exp((\log k)^c)$, that is
-$k(n)\le n^{1/2}\exp(-(\log n)^{c'})$; Erdős could not show
+**Status.** Open, for both questions.
+
+Two lower bounds are in hand. Erdős (1965) asserted
+$\log k(n)\ge(\log n)^{1/2-o(1)}$ as "not hard to prove", without proof. Erdős's
+1976 display (6), $n_k<k^{\log k/\log\log k}$, is proved by a short
+smooth-number count. It gives the bound
+$\log k(n)\ge(1/\sqrt2-o(1))\sqrt{\log n\log\log n}$ by a substitution made
+here; the site prints $\log k(n)\gg\sqrt{\log n\log\log n}$. A forum note of
+December 2025 (Tang) also proves this bound directly, with the same constant.
+
+Two upper bounds are in hand. A forum argument of October 2025 by Tao gives
+$k(n)\le(1+o(1))n^{1/2}$. It was accepted into the site's commentary and checked
+here. Erdős reported in 1976, without proof, that $n_k>k^2\exp((\log k)^c)$,
+that is $k(n)\le n^{1/2}\exp(-(\log n)^{c'})$. Erdős could not show
 $k(n)\le n^{1/2-c}$, "a ridiculously weak result". Nothing approaches the
-displayed question. Erdős's 1976 lower bound, his reported upper bound and
-Tang's dated note have claim pages:
+displayed question.
+
+Erdős's 1976 lower bound, his reported upper bound and Tang's dated note have
+claim pages:
 [[problems/integer_sequences/E0962/claims/1976_01_01_erdos|Erdős 1976]]
 (accepted, refereed),
 [[problems/integer_sequences/E0962/claims/1976_01_01_erdos_upper|Erdős 1976, upper bound]]
 (claimed) and
-[[problems/integer_sequences/E0962/claims/2025_12_28_tang|Tang 2025]]
-(claimed). Tao's argument is a thread post, not a dated manuscript, so it has
-no claim page and is recorded below as progress. No later source was found in
-the search whose scope the Current assessment records;
-this is a bounded negative finding, not a certificate of openness.
+[[problems/integer_sequences/E0962/claims/2025_12_28_tang|Tang 2025]] (claimed).
+Tao's argument is a thread post, not a dated manuscript. So it has no claim
+page, and it is recorded below as progress. No later source was found in the
+search whose scope the Current assessment records. This is a bounded negative
+finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/962](https://www.erdosproblems.com/962),
 accessed 2026-09-18: the problem page (labeled OPEN,

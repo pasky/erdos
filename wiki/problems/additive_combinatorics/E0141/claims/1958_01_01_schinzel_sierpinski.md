@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0141/claims/1958_01_01_schinzel_sierpinski
 title: Arbitrarily long progressions of consecutive primes under Hypothesis H
 desc: |
-  Schinzel and Sierpiński's 1958 paper derives from Hypothesis H that for
-  every k there are infinitely many progressions of k consecutive primes; the
-  hypothesis is unproven, so the page derives nothing for the standing.
+  Schinzel and Sierpiński's 1958 paper derives from Hypothesis H that for every
+  $k$ there are infinitely many progressions of $k$ consecutive primes. The
+  hypothesis is unproven, so the page derives nothing for the problem's
+  standing.
 authors:
 - Andrzej Schinzel
 - Wacław Sierpiński
@@ -46,11 +47,10 @@ by computation on
 [[problems/additive_combinatorics/E0141/claims/2001_11_28_dubner_forbes_lygeros_mizony_nelson_zimmermann|the Dubner et al. page]].
 
 **Acceptance.** Refereed: Acta Arithmetica, volume 4, issue 3 (1958), pp.
-185--208; the Crossref record of the DOI gives these data. The site labels
-the problem OPEN (page last edited 28 September 2025) and its commentary
-does not cite this paper, so no `reviewed` evidence is listed. The corpus
-holds no card for the paper, has not checked the derivation and awards no
-tier of its own.
+185--208, as given by the Crossref record of the DOI. The site labels the
+problem OPEN (page last edited 28 September 2025), and its commentary does not
+cite this paper, so no `reviewed` evidence is listed. The corpus holds no card
+for the paper and has not checked the derivation. It awards no tier of its own.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper
 and on Hypothesis H.

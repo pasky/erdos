@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0799
 title: Problem 799
 desc: |
-  Asks whether almost every graph on n vertices has list chromatic number
-  o(n); yes by Alon 1992 (O(n log log n / log n)), sharpened by Alon,
-  Krivelevich and Sudakov 1999 to order n / log n.
+  Asks whether almost every graph on $n$ vertices has list chromatic number
+  $o(n)$. Alon proved this in 1992 with the bound $O(n\log\log n/\log n)$, and
+  Alon, Krivelevich and Sudakov sharpened it in 1999 to order $n/\log n$.
 tags:
 - Graph theory
 - Chromatic number

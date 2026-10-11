@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0175
 title: Problem 175
 desc: |
-  Asks whether the central binomial coefficient of 2n choose n fails to be
-  squarefree for every n at least 5; proved for large n by Sárközy (1985) and
-  for every n at least 5 by Velammal (1995) and by Granville and Ramaré (1996).
+  Asks whether $\binom{2n}{n}$ fails to be squarefree for every $n\ge5$. Proved
+  for large $n$ by Sárközy (1985), and for every $n\ge5$ by Velammal (1995) and
+  by Granville and Ramaré (1996).
 tags:
 - Number theory
 - Binomial coefficients
@@ -25,19 +25,19 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Show that, for any $n\geq 5$, the binomial coefficient
 $\binom{2n}{n}$ is not squarefree.
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page
-last edited 8 February 2026) and credits Sárközy for all sufficiently large
-$n$ and, independently, Granville and Ramaré and Velammal for every $n\ge5$;
-the three results are recorded on the claim pages
+**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
+edited 8 February 2026). The standing in the frontmatter derives from the claim
+pages. The site credits Sárközy for all sufficiently large $n$ and,
+independently, Granville and Ramaré and Velammal for every $n\ge5$. The three
+results are recorded on the claim pages
 [[problems/factorials_binomials/E0175/claims/1985_02_01_sarkozy|Sárközy 1985]]
 (partial),
 [[problems/factorials_binomials/E0175/claims/1995_01_01_velammal|Velammal 1995]]
 and
 [[problems/factorials_binomials/E0175/claims/1996_06_01_granville_ramare|Granville and Ramaré 1996]].
-The Lean qualifier refers to Boris Alexeev's formalization of the
-Granville–Ramaré argument in his repository of formalized Erdős problems,
-which this corpus has not built; the two full proofs are refereed. The
-standing in the frontmatter derives from the claim pages.
+The two full proofs are refereed. The Lean qualifier refers to Boris Alexeev's
+formalization of the Granville–Ramaré argument in his repository of formalized
+Erdős problems, which this corpus has not built.
 
 **Source.** [erdosproblems.com/175](https://www.erdosproblems.com/175), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #175,

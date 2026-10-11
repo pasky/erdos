@@ -2,9 +2,10 @@
 name: problems/primes/E0850/claims/2016_12_16_shorey_tijdeman
 title: Shorey and Tijdeman's conditional no under Baker's explicit abc
 desc: |
-  Theorem 9.1 of Shorey and Tijdeman: assuming Baker's explicit abc
-  conjecture, no positive integers n1 < n2 have n1+i and n2+i with the same
-  prime divisors for i = 0, 1, 2; conditional, so it settles no standing.
+  Theorem 9.1 of Shorey and Tijdeman states that, assuming Baker's explicit abc
+  conjecture, no positive integers $n_1<n_2$ have $n_1+i$ and $n_2+i$ with the
+  same prime divisors for $i=0,1,2$. The result is conditional, so it settles no
+  standing.
 authors:
 - Tarlok N. Shorey
 - Rob Tijdeman

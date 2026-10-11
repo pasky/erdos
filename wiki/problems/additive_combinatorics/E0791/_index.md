@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0791
 title: Problem 791
 desc: |
-  Estimates the fewest elements of zero to n whose pairwise sums cover zero to
-  n (the smallest finite additive 2-basis); its square lies between 2.181 n and
-  3.458 n, and the guess 2 sqrt(n) is refuted (Hämmerer-Hofmeister, Mrose).
+  Estimates $g(n)$, the fewest elements of $\{0,\ldots,n\}$ whose pairwise sums
+  cover $\{0,\ldots,n\}$ (the smallest finite additive $2$-basis); open. Its
+  square lies between $2.181n$ and $3.458n$, and the guess $g(n)\sim2\sqrt n$ is
+  refuted (Hämmerer and Hofmeister, Mrose).
 tags:
 - Additive combinatorics
 status: open
@@ -46,54 +47,53 @@ $g(n)$ does, so $n_2(k)$ is Kohonen's $n(k)$); this is $g(n)=2\sqrt n+O(1)$,
 and the site's $g(n)\sim2n^{1/2}$ is its asymptotic form. The two parts of
 the statement have different status, recorded separately below.
 
-**Status.** Open, the site's label. The best source-supported bounds are
+**Status.** Open, the site's label. Read on this page, the label concerns the
+estimate. The wording is a compound of an estimate, which has no truth value,
+and a displayed particular guess. The negative answer to that guess is recorded
+on the claim pages. The best source-supported bounds are
 
 $$
 (2.181\ldots+o(1))\,n\ \le\ g(n)^2\ \le\ (3.458\ldots+o(1))\,n,
 $$
 
-the upper bound from Kohonen's equation (1) [Ko17] (J. Number Theory 174
-(2017), refereed;
+the upper bound from Kohonen's equation (1) [Ko17] (J. Number Theory 174 (2017),
+refereed;
 [[../library/additive_combinatorics/kohonen_2017_improved_lower_bound_finite_additive_2/equation_1|result page]]),
 $\liminf n(k)/k^2\ge85/294$, and the lower bound from Yu's
-$\limsup n(k)/k^2\le0.4585$ [Yu15] (J. Number Theory 156 (2015), refereed,
-not held; quoted from [Ko17], p. 1, and the site), converted on this page;
-each is an accepted partial claim on its claim page
+$\limsup n(k)/k^2\le0.4585$ [Yu15] (J. Number Theory 156 (2015), refereed, not
+held; quoted from [Ko17], p. 1, and the site), converted on this page. Each is
+an accepted partial claim on its claim page
 ([[problems/additive_combinatorics/E0791/claims/2016_06_15_kohonen|Kohonen]],
-[[problems/additive_combinatorics/E0791/claims/2015_11_01_yu|Yu]]). The
-site's "in particular" question is answered in the negative. The first
-refutation in print is Hämmerer and Hofmeister's [HH76]
-(J. Reine Angew. Math. 1976), $n(2,k)>\frac5{18}k^2$ with $k$ counting the
-positive elements, so $g(n)^2\le(\frac{18}5+o(1))n$; it is an accepted
-partial claim on
+[[problems/additive_combinatorics/E0791/claims/2015_11_01_yu|Yu]]). The site's
+"in particular" question is answered in the negative. The first refutation in
+print is Hämmerer and Hofmeister's [HH76] (J. Reine Angew. Math. 1976):
+$n(2,k)>\frac5{18}k^2$ with $k$ counting the positive elements, so
+$g(n)^2\le(\frac{18}5+o(1))n$. It is an accepted partial claim on
 [[problems/additive_combinatorics/E0791/claims/1976_11_01_hammerer_hofmeister|its claim page]].
-Mrose's construction, received in April 1975 and the one the site credits,
-gives the stronger $g(n)^2\le\frac72n$ [Mr79] (equation (3), printed
-p. 118;
-[[../library/additive_combinatorics/mrose_1979_untere_schranken_reichweiten_extremalbasen_fester_ordnung/equation_3|result page]];
-it is the $\liminf n(k)/k^2\ge2/7$ that [Ko17], p. 1, quotes for Mrose),
-and Kohonen's theorem gives $g(n)^2\le(3.459+o(1))n<4n$ directly, so
-$g(n)\le(1.860+o(1))\sqrt n$ and $g(n)\sim2\sqrt n$ is false; Mrose's
-refutation is also an accepted partial claim on
+Mrose's construction, received in April 1975 and the one the site credits, gives
+the stronger $g(n)^2\le\frac72n$ [Mr79] (equation (3), printed p. 118;
+[[../library/additive_combinatorics/mrose_1979_untere_schranken_reichweiten_extremalbasen_fester_ordnung/equation_3|result page]]).
+This is the $\liminf n(k)/k^2\ge2/7$ that [Ko17], p. 1, quotes for Mrose.
+Mrose's refutation is also an accepted partial claim on
 [[problems/additive_combinatorics/E0791/claims/1979_04_01_mrose|its claim page]].
-Read on this page, the label concerns the estimate: the wording is a
-compound of an estimate, which has no truth value, and a displayed
-particular guess whose negative answer is recorded on the claim pages.
-Rohrbach's original bounds, the site's $(2+c)n\le g(n)^2\le4n$ [Ro37], are
-these: Satz 3 (printed p. 5), $g(n)<2\sqrt n$ for $n>1$, by the explicit
+Kohonen's theorem gives $g(n)^2\le(3.459+o(1))n<4n$ directly. So
+$g(n)\le(1.860+o(1))\sqrt n$, and $g(n)\sim2\sqrt n$ is false.
+
+Rohrbach's original bounds, the site's $(2+c)n\le g(n)^2\le4n$ [Ro37], are as
+follows. Satz 3 (printed p. 5) gives $g(n)<2\sqrt n$ for $n>1$, by the explicit
 basis (6)
-([[../library/additive_combinatorics/rohrbach_1937_ein_beitrag_zur_additiven_zahlentheorie/satz_3|result page]]);
-the Folgerung to Satz 6 (p. 15), $n\le k^2/2$ for every $2$-basis of $k$
-elements for $n$, so $g(n)^2\ge2n$; and inequality (47) (p. 18),
+([[../library/additive_combinatorics/rohrbach_1937_ein_beitrag_zur_additiven_zahlentheorie/satz_3|result page]]).
+The Folgerung to Satz 6 (p. 15) gives $n\le k^2/2$ for every $2$-basis of $k$
+elements for $n$, so $g(n)^2\ge2n$. Inequality (47) (p. 18) gives
 $n<0.4992\,k^2$ for every such basis once $k$ is large, so
-$g(n)^2>(2.0032\ldots)n$ for large $n$, the "$(2+c)n$" with $c=0.0032$
-([[../library/additive_combinatorics/rohrbach_1937_ein_beitrag_zur_additiven_zahlentheorie/inequality_47|result page]]);
-these are an accepted partial claim on
-[[problems/additive_combinatorics/E0791/claims/1937_12_01_rohrbach|its claim page]],
-and the proofs of §§ 3--5 behind the lower bounds were not checked. No
-result determining the constant was found in the search whose scope the
-Current assessment records; for the estimate this is a bounded negative
-finding, not a certificate of openness.
+$g(n)^2>(2.0032\ldots)n$ for large $n$. This is the "$(2+c)n$" with $c=0.0032$
+([[../library/additive_combinatorics/rohrbach_1937_ein_beitrag_zur_additiven_zahlentheorie/inequality_47|result page]]).
+These bounds are an accepted partial claim on
+[[problems/additive_combinatorics/E0791/claims/1937_12_01_rohrbach|its claim page]].
+The proofs of §§ 3--5 behind the lower bounds were not checked. No result
+determining the constant was found in the search whose scope the Current
+assessment records. For the estimate, this is a bounded negative finding, not a
+certificate of openness.
 
 **Source.** [erdosproblems.com/791](https://www.erdosproblems.com/791),
 accessed 2026-09-18T15:09Z: the problem page (OPEN, with the site's note that no finite

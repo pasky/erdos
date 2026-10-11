@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0065/claims/1984_12_01_gyarfas_komlos_szemeredi
 title: Gyárfás, Komlós and Szemerédi's logarithmic harmonic bound
 desc: |
-  Gyárfás, Komlós and Szemerédi prove that the reciprocals of the distinct
-  cycle lengths of a graph of minimum degree d sum to at least c log d, which
-  answers the first question; accepted on the refereed J. Graph Theory paper.
+  Gyárfás, Komlós and Szemerédi prove that the reciprocals of the distinct cycle
+  lengths of a graph of minimum degree $d$ sum to at least $c\log d$, which
+  answers the first question. The claim is accepted on the refereed J. Graph
+  Theory paper.
 authors:
 - A. Gyárfás
 - J. Komlós
@@ -62,10 +63,10 @@ sharp constant $\tfrac12$ is recorded on
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** The paper is a refereed publication in the Journal of Graph
-Theory, in the issue of December 1984 (the day is not recorded, and this
-page's date is the first of that month), which is the `refereed` evidence.
-The site's commentary credits the first question to the paper, saying that
-only the second question remains, but the site labels the problem OPEN, so
-no `reviewed` evidence is listed. This corpus has not checked the proof, and
-the statement above rests on the publisher's abstract and the two later
-papers' reports of the theorem.
+Theory, which is the `refereed` evidence. It appeared in the issue of
+December 1984. The day is not recorded, and this page's date is the first of that month.
+The site's commentary credits the first question to the paper and says that only
+the second question remains. But the site labels the problem OPEN, so no
+`reviewed` evidence is listed. This corpus has not checked the proof. The
+statement above rests on the publisher's abstract and on the two later papers'
+reports of the theorem.

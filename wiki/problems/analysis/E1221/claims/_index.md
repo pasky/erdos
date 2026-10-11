@@ -4,15 +4,16 @@ desc: The 1 claim page of Problem 1221, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-07T07:58:35Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/analysis/E1221/claims
 
 [[problems/analysis/E1221/_index|..]]
 
-[[problems/analysis/E1221/claims/2026_09_08_korsky|2026_09_08_korsky]]: Claims, for sequences of distinct points and in mean-normalized form, that
-the two one-sided excesses grow at least like root log r and the ratio excess
-at least like log r over r; an unrefereed, AI-assisted preprint, unreviewed.
+[[problems/analysis/E1221/claims/2026_09_08_korsky|2026_09_08_korsky]]: Samuel Korsky claims that, for sequences of distinct points and in
+mean-normalized form, the two one-sided excesses grow at least like
+$\sqrt{\log r}$ and the ratio excess at least like $\log r/r$. The source is
+an unrefereed, AI-assisted preprint and has not been reviewed.
 
 ***

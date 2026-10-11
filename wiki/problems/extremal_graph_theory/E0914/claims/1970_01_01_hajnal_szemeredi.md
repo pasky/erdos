@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E0914/claims/1970_01_01_hajnal_szemeredi
 title: The Hajnal–Szemerédi theorem
 desc: |
   Hajnal and Szemerédi (1970) prove Erdős's conjecture that every graph with
-  rm vertices and minimum degree at least m(r−1) has m disjoint copies of K_r;
-  accepted on the site's credit and Kierstead and Kostochka's refereed reproof.
+  $rm$ vertices and minimum degree at least $m(r-1)$ has $m$ disjoint copies of
+  $K_r$. The claim is accepted on the site's credit and Kierstead and
+  Kostochka's refereed reproof.
 authors: []
 status: accepted
 claim: proved
@@ -46,23 +47,21 @@ known.
 **Depends on.** Nothing in this wiki; the elementary transfer between the
 two forms is written on the problem page and carries no independent review.
 
-**Acceptance.** The `reviewed` evidence is documented acceptance
-independent of the 1970 paper's authors: the site's curator (T. F. Bloom)
-credits the proof to the 1970 paper for every $r\ge4$ and labels the problem
-proved, and Kierstead and Kostochka (Combin. Probab. Comput. 17 (2008),
-refereed, not held) publish a short proof under the theorem's name.
-Kierstead, Kostochka, Mydlarz and Szemerédi (Combinatorica 30 (2010),
-refereed;
+**Acceptance.** The `reviewed` evidence is documented acceptance independent of
+the 1970 paper's authors. The site's curator, T. F. Bloom, credits the proof to
+the 1970 paper for every $r\ge4$ and labels the problem proved, and the
+community database agrees with the site. Kierstead and Kostochka (Combin.
+Probab. Comput. 17 (2008), refereed, not held) publish a short proof under the
+theorem's name. Kierstead, Kostochka, Mydlarz and Szemerédi (Combinatorica 30
+(2010), refereed;
 [[../library/extremal_graph_theory/kierstead_2010_fast_algorithm_equitable_coloring/theorem_1|Theorem 1]])
-state the theorem, attribute it to Hajnal and Szemerédi in 1970 as a
-conjecture of Erdős, and prove it again, but that paper shares an author,
-Szemerédi, with the 1970 paper, so it is cited as a restatement and not as
-independent acceptance; the community database agrees with the site. No
-evidence that the 1970 proceedings volume was refereed is recorded, so
-`refereed` is not listed. The two later proofs have
-their own claim pages,
+state the theorem, attribute it to Hajnal and Szemerédi in 1970 as a conjecture
+of Erdős, and prove it again. That paper shares an author, Szemerédi, with the
+1970 paper, so it is cited as a restatement and not as independent acceptance.
+No evidence that the 1970 proceedings volume was refereed is recorded, so
+`refereed` is not listed. The two later proofs have their own claim pages,
 [[problems/extremal_graph_theory/E0914/claims/2008_03_01_kierstead_kostochka|Kierstead and Kostochka]]
 and
 [[problems/extremal_graph_theory/E0914/claims/2010_03_01_kierstead_kostochka_mydlarz_szemeredi|Kierstead, Kostochka, Mydlarz and Szemerédi]].
-Read depth: the 1970 text was not read; the page name carries its year, and
-no source read gives the volume's day.
+Read depth: the 1970 text was not read. The page name carries its year, and no
+source read gives the volume's day.

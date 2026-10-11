@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0720
 title: Problem 720
 desc: |
-  Asks whether the size Ramsey number of the path grows faster than linearly
-  but slower than quadratically, and whether that of the cycle is
-  subquadratic; both are linear, so the first answer is no and the others yes.
+  Asks whether the size Ramsey number of the path $P_n$ grows faster than $n$
+  but slower than $n^2$, and whether that of the cycle $C_n$ is $o(n^2)$. Both
+  are linear, so the first answer is no and the other two are yes.
 tags:
 - Graph theory
 - Ramsey theory
@@ -60,36 +60,36 @@ papers of 1978--1982 pose (i) and (ii) as the site does, and [Er82e] adds the
 expectation $\hat r(C_n,C_n)/n^2\to0$, which is (iii). No source read poses
 (iii) as a question in [EFRS78b], which says nothing about cycles.
 
-**Status.** The site labels the problem PROVED, a label that attaches to the
+**Status.** The site labels the problem PROVED. The label attaches to the
 resolution of the problem: the answers are no to (i) and yes to (ii) and (iii),
-because both size Ramsey numbers are linear. Paths: Beck [Be83b] proved
-$\hat r(P_n)<900n$ for large $n$; the paper is not held, and the bound is quoted
-from the introduction of the refereed paper [JKOP19] (p. 2), from Beck's own
-1990 sequel [Be90] (p. 34) and from Erdős's report of 1982 [Er82e] (p. 70);
-[DrPe22] (p. 1) attests only that Beck's bound is linear, without the constant.
-Cycles: the first published proof of $\hat r(C_n)=O(n)$ in the sources read is
+because both size Ramsey numbers are linear. The frontmatter lists the three
+questions as the problem's parts. The frontmatter standing derives from the
+claim pages [[problems/ramsey_theory/E0720/claims/1983_03_01_beck|Beck 1983]]
+and
+[[problems/ramsey_theory/E0720/claims/1995_09_01_haxell_kohayakawa_luczak|Haxell, Kohayakawa and Łuczak 1995]],
+which record the results, their postings and their acceptance evidence. Beck's
+page covers the path bound, which answers (i) and (ii). The site also credits
+Beck's paper with the cycle bound, but the sources read do not attest it, so the
+page does not claim it. The page for Haxell, Kohayakawa and Łuczak covers the
+induced bound for cycles, with the induced paths it gives. Their accepted full
+claim answers all three questions, and Beck's accepted partial claim answers (i)
+and (ii), so the derived standing is solved. The derived claim is answered,
+because the answers are no to (i) and yes to (ii) and (iii). For paths, Beck
+[Be83b] proved $\hat r(P_n)<900n$ for large $n$. The paper is not held. The
+bound is quoted from the introduction of the refereed paper [JKOP19] (p. 2),
+from Beck's own 1990 sequel [Be90] (p. 34) and from Erdős's report of 1982
+[Er82e] (p. 70). [DrPe22] (p. 1) attests only that Beck's bound is linear,
+without the constant. For cycles, the first published proof of
+$\hat r(C_n)=O(n)$ in the sources read is
 [[../library/ramsey_theory/haxell_1995_induced_size_ramsey_number_cycles/corollary_11|Corollary 11]]
-of [HKL95] (Combin. Probab. Comput. 4 (1995), refereed), which gives the induced
-and multicolor bound $r_e^{\mathrm{ind}}(C^\ell,r)\le c_r\ell$; that paper's
+of [HKL95] (Combin. Probab. Comput. 4 (1995), refereed). It gives the induced
+and multicolor bound $r_e^{\mathrm{ind}}(C^\ell,r)\le c_r\ell$. That paper's
 preprint attributes the plain linear bound to Bollobás, Burr and an unnamed
-third person, named Reimer in the published abstract, as a personal
-communication of November 1992, while [Er82e] credits Beck with
+third person as a personal communication of November 1992. The published
+abstract names the third person as Reimer. Separately, [Er82e] credits Beck with
 $\hat r(C_n,C_n)<C_2n$ as an unpublished result in 1982, which is the site's
-attribution. The site's label PROVED belongs to this resolution and is recorded
-here; the first question's answer is no. The frontmatter standing derives from
-the claim pages
-[[problems/ramsey_theory/E0720/claims/1983_03_01_beck|Beck 1983]] (the path
-bound, covering (i) and (ii); the site also credits the paper with the cycle
-bound, which the sources read do not attest, so the page does not claim it) and
-[[problems/ramsey_theory/E0720/claims/1995_09_01_haxell_kohayakawa_luczak|Haxell, Kohayakawa and Łuczak 1995]]
-(the induced bound for cycles, with the induced paths it gives, answering all
-three questions), which record the results, their postings and their acceptance
-evidence. The frontmatter lists the three questions as the problem's parts.
-Haxell, Kohayakawa and Łuczak's accepted full claim answers all three, and
-Beck's accepted partial claim answers (i) and (ii), so the derived standing is
-solved. The derived claim is answered, because the answers are no to (i) and yes
-to (ii) and (iii). Erdős offered a prize for a proof or disproof of the pair
-(i)--(ii) in [Er81], p. 9 of the re-typeset copy, after offering separate prizes
+attribution. Erdős offered a prize for a proof or disproof of the pair (i)--(ii)
+in [Er81], p. 9 of the re-typeset copy. He had earlier offered separate prizes
 for each and for an asymptotic formula in [Er78], p. 33.
 
 **Source.** [erdosproblems.com/720](https://www.erdosproblems.com/720),

@@ -2,8 +2,9 @@
 name: problems/diophantine_problems/E1110
 title: Problem 1110
 desc: |
-  Concerns which integers are sums of numbers of the form a power of p times a
-  power of q, none dividing another, for coprime integers p greater than q.
+  Asks, for coprime $p>q\geq 2$ with $\{p,q\}\neq\{2,3\}$, about the density of
+  integers that are not sums of numbers $p^kq^l$, none dividing another, and
+  whether infinitely many coprime such integers exist; open.
 tags:
 - Number theory
 status: open
@@ -38,20 +39,19 @@ statement takes the pairwise reading. The page's standing targets the site's
 wording, and each claim page that bears on the second question says which
 reading it covers.
 
-**Status.** Open. The site's proof-claims tab carries three partial proof
-claims, each recorded on its own claim page and none adopted here: a claim
-of 2026-08-05 by the forum user Apiros3 that each of the three pairs Yu and
-Chen left open has an infinite pairwise-coprime sequence of non-representable
-numbers prime to $pq$
-([[problems/diophantine_problems/E1110/claims/2026_08_05_apiros3|claim page]]);
-a claim of 2026-08-24 by Ding, Li, Liu and Zhang that the representable
+**Status.** Open. The site labels the problem open (page last edited 1 April
+2026; proof-claims thread accessed 2026-10-06). The site's proof-claims tab
+carries three partial proof claims. Each is recorded on its own claim page, and
+none is adopted here. In a claim of 2026-08-05, the forum user Apiros3 claims
+that each of the three pairs Yu and Chen left open has an infinite
+pairwise-coprime sequence of non-representable numbers prime to $pq$
+([[problems/diophantine_problems/E1110/claims/2026_08_05_apiros3|claim page]]).
+In a claim of 2026-08-24, Ding, Li, Liu and Zhang claim that the representable
 integers for $(5,2)$ have positive lower density
-([[problems/diophantine_problems/E1110/claims/2026_08_24_ding_li_liu_zhang|claim page]]);
-and a claim of 2026-09-29 by Bécart of the same for $(7,2)$, with a
-repository draft of the same date for $(4,3)$
+([[problems/diophantine_problems/E1110/claims/2026_08_24_ding_li_liu_zhang|claim page]]).
+In a claim of 2026-09-29, Bécart claims the same for $(7,2)$, with a repository
+draft of the same date for $(4,3)$
 ([[problems/diophantine_problems/E1110/claims/2026_09_29_becart|claim page]]).
-The site labels the problem open (page last edited 1 April 2026;
-proof-claims thread accessed 2026-10-06).
 
 **Source.** [erdosproblems.com/1110](https://www.erdosproblems.com/1110),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1110,

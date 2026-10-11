@@ -2,8 +2,9 @@
 name: problems/diophantine_problems/E0930
 title: Problem 930
 desc: |
-  Asks whether, for every r, some k makes the product of all integers in any r
-  disjoint intervals of length at least k never a perfect power.
+  Asks whether, for every $r$, there is a $k$ such that the product of all
+  integers in any $r$ disjoint intervals of consecutive integers, each of length
+  at least $k$, is never a perfect power; open.
 tags:
 - Number theory
 status: open

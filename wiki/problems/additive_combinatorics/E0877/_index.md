@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0877
 title: Problem 877
 desc: |
-  Estimates the number of maximal sum-free subsets of the integers up to n
-  and whether it is o(2^(n/2)); yes, and the count is a residue-dependent
-  constant times two to the power of n over 4.
+  Estimates the number $f_m(n)$ of maximal sum-free subsets of $\{1,\ldots,n\}$
+  and asks whether $f_m(n)=o(2^{n/2})$. The answer is yes, and
+  $f_m(n)=(C_i+o(1))2^{n/4}$ with a constant $C_i$ that depends on $n$ modulo
+  $4$.
 tags:
 - Additive combinatorics
 status: solved
@@ -45,21 +46,23 @@ the conjecture $f(n)=O(2^{n/2})$; neither Cameron--Erdős paper is held, so
 the attribution is recorded, not settled. The second key, [Er98], is not
 held.
 
-**Status.** Proved. The displayed question has the answer yes:
-$f_m(n)=2^{(1/4+o(1))n}$ by Theorem 1.1 of Balogh, Liu, Sharifzadeh and
-Treglown (Proc. Amer. Math. Soc. 143 (2015), 4713--4721; refereed, cited
-from the arXiv version), which is $o(2^{n/2})$, and the estimate is settled
-by the same authors' Theorem 1.1 of 2018 (J. Eur. Math. Soc. 20 (2018),
-1885--1911; refereed, cited from the arXiv version): for each $1\le i\le4$
-there is a constant $C_i$ with $f_m(n)=(C_i+o(1))2^{n/4}$ for
-$n\equiv i\pmod4$, the $C_i$ computable to any additive error. The first
-resolution of the displayed question, $f_m(n)\le2^{n/2-2^{-28}n}$ for
-large $n$ by Łuczak and Schoen (Proc. Amer. Math. Soc. 129 (2001),
-2205--2207), is not held and is quoted second-hand from the introductions
-of [BLST15] and [BLST18], as is Wolfovitz's intermediate bound
-$f_m(n)\le2^{3n/8+o(n)}$ (European J. Combin. 30 (2009), 1718--1723).
-Label and sources agree. The four accepted claims are recorded on their
-claim pages:
+**Status.** Proved. Label and sources agree. The displayed question has the
+answer yes. Theorem 1.1 of Balogh, Liu, Sharifzadeh and Treglown (Proc. Amer.
+Math. Soc. 143 (2015), 4713--4721; refereed, cited from the arXiv version) gives
+$f_m(n)=2^{(1/4+o(1))n}$, which is $o(2^{n/2})$. The same authors settle the
+estimate in Theorem 1.1 of their 2018 paper (J. Eur. Math. Soc. 20 (2018),
+1885--1911; refereed, cited from the arXiv version). For each $1\le i\le4$ there
+is a constant $C_i$ with $f_m(n)=(C_i+o(1))2^{n/4}$ for $n\equiv i\pmod4$, and
+the $C_i$ are computable to any additive error.
+
+The first resolution of the displayed question was $f_m(n)\le2^{n/2-2^{-28}n}$
+for large $n$, by Łuczak and Schoen (Proc. Amer. Math. Soc. 129 (2001),
+2205--2207). That paper is not held and is quoted second-hand from the
+introductions of [BLST15] and [BLST18]. The same holds for Wolfovitz's
+intermediate bound $f_m(n)\le2^{3n/8+o(n)}$ (European J. Combin. 30 (2009),
+1718--1723).
+
+The four accepted claims are recorded on their claim pages:
 [[problems/additive_combinatorics/E0877/claims/2000_12_28_luczak_schoen|Łuczak and Schoen]],
 [[problems/additive_combinatorics/E0877/claims/2009_04_09_wolfovitz|Wolfovitz]],
 [[problems/additive_combinatorics/E0877/claims/2014_09_19_balogh_liu_sharifzadeh_treglown|the exponent one quarter]]

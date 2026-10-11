@@ -2,9 +2,10 @@
 name: problems/factorials_binomials/E0393/claims/1992_10_01_berend_osgood
 title: Berend and Osgood's density-zero theorem for P(x) = n!
 desc: |
-  Berend and Osgood prove that for every integer polynomial P of degree at
-  least 2 the n with P(x) = n! solvable have density zero, so for each fixed m
-  the n with f(n) = m are o(N) up to N; a refereed partial result.
+  Berend and Osgood prove, in a refereed paper, that for every integer
+  polynomial $P$ of degree at least $2$ the $n$ for which $P(x)=n!$ is solvable
+  have density zero. Hence for each fixed $m$ there are $o(N)$ values $n\le N$
+  with $f(n)=m$, a partial result.
 authors:
 - Daniel Berend
 - Charles F Osgood

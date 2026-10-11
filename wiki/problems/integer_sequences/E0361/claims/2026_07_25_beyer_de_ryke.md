@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0361/claims/2026_07_25_beyer_de_ryke
 title: Beyer de Ryke's arithmetic oscillations
 desc: |
-  A dated note of 25 July 2026 posted under Principia Math's claim: for
-  0 < c < 1 the normalized extremal size does not converge, with explicit limits
-  along arithmetic subsequences, and the exact formula for c at least 1.
+  Beyer de Ryke's note, dated 25 July 2026 and posted under Principia Math's
+  claim, claims that for $0<c<1$ the normalized extremal size does not converge,
+  with explicit limits along arithmetic subsequences. It also gives the exact
+  formula for $c\ge1$.
 authors:
 - Basile Beyer de Ryke
 status: claimed

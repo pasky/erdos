@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0416/claims/2026_09_14_kruer_kohlmeyer
 title: Conjectures.io Lean proof of the doubling law
 desc: |
-  A 64,775-line Lean proof, certified by the bounty site Conjectures.io in
-  September 2026, that the count of distinct totient values up to x satisfies
-  V(2x)/V(x) -> 2; accepted on the first question of Problem 416 only.
+  A 64,775-line Lean proof, with a write-up by Kruer and Kohlmeyer, shows that
+  the count $V(x)$ of distinct totient values up to $x$ satisfies
+  $V(2x)/V(x)\to2$. The bounty site Conjectures.io certified it in September
+  2026, and it is accepted on the first question of Problem 416 only.
 authors:
 - Liam Kruer
 - Jensen Kohlmeyer
@@ -83,26 +84,28 @@ asymptotic formula for $V(x)$; the second question is not touched.
 file alone.
 
 **Acceptance.** Reviewed: the bounty site Conjectures.io certified the record.
-Its Lean kernel accepted the file on 14 September 2026 (fourteen gates passed,
+Its Lean kernel accepted the file on 14 September 2026. Fourteen gates passed,
 among them "Statement unchanged" and "Only permitted axioms" with `propext`,
-`Quot.sound` and `Classical.choice`; the site's second kernel, Nanoda, was not
-run); its review approved the record on 15 September 2026 under its policy v3,
-on two language-model assessments of one model family and the production kernel
-check, with no fresh replay, no complete axiom export and no line-by-line audit
-claimed; the record was certified and its bounty paid on 16 September 2026. This
-is the site's certification, which this corpus counts as reviewed evidence, not
-a referee's report. Not formalized in the sense this corpus uses: the site's
-kernel checked the file, but this corpus has audited only the target statement,
-as the problem page records (the target theorem is the formal-conjectures
-statement `parts.i` by `exact`, the file's own `V` equals the catalog's count by
-`rfl`, and a text scan of the file found no `sorry`, no axiom declaration, no
-`native_decide` and no `unsafe`); the corpus has not built the file, and its
-audit does not cover the 2,776-declaration analytic body, so no `formalized`
-evidence is listed. Not refereed: no journal or arXiv version exists. The site
-erdosproblems.com lists the record as an unverified partial proof claim, posted
-by its maintainer on 2026-09-27 with an explicit non-endorsement, and labels the
-problem OPEN; the formal-conjectures statement `parts.i` is categorized
-`research open`, as it has been since the file was added in July 2025. A second,
-independent formal proof of the same limit, for every real scale $c>0$, is the
-OpenAI release's
+`Quot.sound` and `Classical.choice`. The site's second kernel, Nanoda, was not
+run. The site's review approved the record on 15 September 2026 under its policy
+v3. The approval rested on two language-model assessments of one model family
+and the production kernel check. It claimed no fresh replay, no complete axiom
+export and no line-by-line audit. The record was certified and its bounty paid
+on 16 September 2026. This is the site's certification, not a referee's report,
+and this corpus counts it as reviewed evidence.
+
+Not formalized in the sense this corpus uses. The site's kernel checked the
+file, but this corpus has audited only the target statement, as the problem page
+records. The target theorem is the formal-conjectures statement `parts.i` by
+`exact`, and the file's own `V` equals the catalog's count by `rfl`. A text scan
+of the file found no `sorry`, no axiom declaration, no `native_decide` and no
+`unsafe`. The corpus has not built the file, and its audit does not cover the
+2,776-declaration analytic body, so no `formalized` evidence is listed.
+
+Not refereed: no journal or arXiv version exists. The site erdosproblems.com
+lists the record as an unverified partial proof claim, posted by its maintainer
+on 2026-09-27 with an explicit non-endorsement, and labels the problem OPEN. The
+formal-conjectures statement `parts.i` is categorized `research open`, as it has
+been since the file was added in July 2025. A second, independent formal proof
+of the same limit, for every real scale $c>0$, is the OpenAI release's
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai|accepted partial claim]].

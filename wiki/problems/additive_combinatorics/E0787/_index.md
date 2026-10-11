@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0787
 title: Problem 787
 desc: |
-  The largest subset guaranteed inside any n real numbers with no two distinct
-  elements summing to a member of the set; the Erdős–Moser function, between
-  a power of log n above the first and exp(O(sqrt(log n))).
+  Asks how large a subset of any $n$ real numbers can be chosen with no two
+  distinct elements summing to one of the $n$ numbers (the Erdős–Moser function
+  $g(n)$). It is open, with $(\log n)^{1+c}\ll g(n)\ll\exp(O(\sqrt{\log n}))$
+  for some $c>0$.
 tags:
 - Additive combinatorics
 status: open
@@ -46,30 +47,27 @@ real-set function. The site's source keys are [Er65, p. 187], [Er73,
 p. 130] and [Va99, 1.22].
 
 **Status.** Open, the site's label. The bounds in hand are
-$(\log n)^{1+c}\ll g(n)\ll\exp(O(\sqrt{\log n}))$, each an accepted
-partial claim: the lower bound is Theorem 1.2 of Sanders (Canad. J. Math. 73
+$(\log n)^{1+c}\ll g(n)\ll\exp(O(\sqrt{\log n}))$, and each is an accepted
+partial claim. The lower bound is Theorem 1.2 of Sanders (Canad. J. Math. 73
 (2021), refereed;
-[[problems/additive_combinatorics/E0787/claims/2018_04_10_sanders|its claim page]]),
-with a second proof and the explicit range $c<1/68$ in Theorem 1.2 of
-Beker's 2025 preprint, accepted by Int. Math. Res. Not. (a pending partial
-claim on
-[[problems/additive_combinatorics/E0787/claims/2025_01_17_beker|its claim page]]);
-the upper bound is the Theorem of Ruzsa's 2005 paper (Ramanujan J.,
-refereed;
-[[problems/additive_combinatorics/E0787/claims/2005_03_01_ruzsa|its claim page]]),
-$l(n)\ll e^{c\sqrt{\log n}}$ for every $c>\sqrt{8\log2}$ over sets of
-positive integers, by a construction from dilated lattice balls that
-Sanders describes as Behrend's. Between them lie Klarner's $\gg\log n$
-(Erdős 1965, stated without proof), Choi's $\ll n^{2/5+o(1)}$ (1971, not
-held, attested by Erdős 1973 and the later papers;
-[[problems/additive_combinatorics/E0787/claims/1971_12_01_choi|its claim page]])
-and the refereed refinement $O(n^{2/5}(\log n)^{2/5})$ of Baltz, Schoen and
-Srivastav (2000), which has no claim page of its own because the site does
-not cite it and Ruzsa's bound supersedes it. No result determines the order
-of growth, and the search whose scope the Current
-assessment records found no proof claim, no citing paper improving either
-bound and no adoption of any such result by the site. This is a bounded
-negative finding, not a certificate of openness.
+[[problems/additive_combinatorics/E0787/claims/2018_04_10_sanders|its claim page]]).
+Theorem 1.2 of Beker's 2025 preprint, accepted by Int. Math. Res. Not., gives a
+second proof and the explicit range $c<1/68$. It is a pending partial claim on
+[[problems/additive_combinatorics/E0787/claims/2025_01_17_beker|its claim page]].
+The upper bound is the Theorem of Ruzsa's 2005 paper (Ramanujan J., refereed;
+[[problems/additive_combinatorics/E0787/claims/2005_03_01_ruzsa|its claim page]]):
+$l(n)\ll e^{c\sqrt{\log n}}$ for every $c>\sqrt{8\log2}$ over sets of positive
+integers. It comes from a construction from dilated lattice balls that Sanders
+describes as Behrend's. Three bounds lie between them. The first is Klarner's
+$\gg\log n$ (Erdős 1965, stated without proof). The second is Choi's
+$\ll n^{2/5+o(1)}$ (1971, not held, attested by Erdős 1973 and the later papers;
+[[problems/additive_combinatorics/E0787/claims/1971_12_01_choi|its claim page]]).
+The third is the refereed refinement $O(n^{2/5}(\log n)^{2/5})$ of Baltz, Schoen
+and Srivastav (2000). It has no claim page of its own, because the site does not
+cite it and Ruzsa's bound supersedes it. No result determines the order of
+growth. The search whose scope the Current assessment records found no proof
+claim, no citing paper improving either bound and no adoption of any such result
+by the site. This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/787](https://www.erdosproblems.com/787),
 accessed 2026-09-18: the problem page (OPEN, a label the site explains as

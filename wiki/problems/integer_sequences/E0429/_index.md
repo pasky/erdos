@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0429
 title: Problem 429
 desc: |
-  Asks whether a sufficiently sparse set missing a residue class modulo every
-  prime must have some shift all of whose members are prime; disproved by
-  Weisenberg's 2024 arbitrarily sparse admissible sets with no prime shift.
+  Asks whether every sufficiently sparse $A\subseteq\mathbb{N}$ that misses a
+  residue class modulo every prime has a shift $n+A$ made up only of primes;
+  disproved by Weisenberg (2024), who built arbitrarily sparse admissible sets
+  with no prime shift.
 tags:
 - Number theory
 status: solved
@@ -45,24 +46,24 @@ states the squarefree analog with $p^2$ in place of $p$; the site's
 statement follows the monograph, and the squarefree variant is recorded
 below as the site's.
 
-**Status.** Disproved. The status-defining source is Theorem 1 of D.
-Weisenberg, *Sparse admissible sets and a problem of Erdős and Graham*,
-Integers 24 (2024), Article A89 (received 24 June 2024, accepted 20
-September 2024, published 9 October 2024; a refereed journal): for every nondecreasing unbounded $f$ there is an
+**Status.** Disproved. The site records DISPROVED (LEAN). The suffix is a
+catalog label, explained under Formalization and the Lean label below. The two
+external Lean files have not been built or audited in this corpus. The
+status-defining source is Theorem 1 of D. Weisenberg, *Sparse admissible sets
+and a problem of Erdős and Graham*, Integers 24 (2024), Article A89 (received 24
+June 2024, accepted 20 September 2024, published 9 October 2024; a refereed
+journal). It shows that for every nondecreasing unbounded $f$ there is an
 admissible $A$ with $|A\cap\{1,\ldots,N\}|\le f(N)$ for all $N$ such that no
-integer $n$ makes $A+n$ a set of primes. So no sparsity threshold exists and
-the answer is no. The claim page
+integer $n$ makes $A+n$ a set of primes. So no sparsity threshold exists and the
+answer is no. The claim page
 [[problems/integer_sequences/E0429/claims/2024_05_20_weisenberg|Weisenberg 2024]]
-records the result as accepted on the refereed publication; the standing in
-the frontmatter is derived from it. The site's curator is not an independent
-reviewer of this result: the paper's acknowledgement records that he reviewed
-an earlier draft and advised the author, so his label is not acceptance
-evidence. The site
-records DISPROVED (LEAN); the suffix is a catalog label explained under
-Formalization and the Lean label below; the two external Lean files have not
-been built or audited in this corpus. The site's further sentence that a variant of the construction also
-answers Erdős's squarefree ($p^2$) question in the negative is the site's
-statement: the paper does not treat squarefree numbers.
+records the result as accepted on the refereed publication. The standing in the
+frontmatter is derived from it. The site's curator is not an independent
+reviewer of this result. The paper's acknowledgement records that he reviewed an
+earlier draft and advised the author, so his label is not acceptance evidence.
+The site adds that a variant of the construction also answers Erdős's squarefree
+($p^2$) question in the negative. That sentence is the site's statement: the
+paper does not treat squarefree numbers.
 
 **Source.** [erdosproblems.com/429](https://www.erdosproblems.com/429),
 accessed 2026-09-18: the problem page (DISPROVED

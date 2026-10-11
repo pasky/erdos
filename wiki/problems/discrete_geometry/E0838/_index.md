@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0838
 title: Problem 838
 desc: |
-  Estimates the least number of distinct convex subsets determined by n points
-  in the plane with no three collinear, in particular whether a certain limit
-  exists.
+  Asks to estimate the least number $f(n)$ of distinct convex subsets determined
+  by $n$ points in the plane with no three collinear, and in particular whether
+  $\log f(n)/(\log n)^2$ tends to a constant; open.
 tags:
 - Geometry
 - Convexity

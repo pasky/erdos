@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0297
 title: Problem 297
 desc: |
-  Counts the subsets of the integers one through N whose reciprocals sum to
-  one.
+  Asks how many subsets of $\{1,\ldots,N\}$ have reciprocals summing to $1$;
+  solved at the level of the exact exponential growth rate.
 tags:
 - Number theory
 - Unit fractions

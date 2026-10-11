@@ -2,8 +2,8 @@
 name: problems/additive_combinatorics/E0003
 title: Problem 3
 desc: |
-  Asks whether every set of natural numbers whose reciprocals sum to infinity
-  must contain arbitrarily long arithmetic progressions.
+  Asks whether every set $A\subseteq\mathbb{N}$ with $\sum_{n\in A}1/n=\infty$
+  must contain arbitrarily long arithmetic progressions; proved.
 tags:
 - Number theory
 - Additive combinatorics
@@ -26,21 +26,20 @@ updated: 2026-10-08T00:51:02Z
 then must $A$ contain arbitrarily long arithmetic progressions?
 
 **Status.** OPEN, the site's label (page last edited 4 April 2026, as accessed
-2026-09-04). The OpenAI mathematics release of 23 September 2026 answers the
-question yes. Its manuscript states
+2026-09-04). The problem stands solved and proved here. The OpenAI mathematics
+release of 23 September 2026 answers the question yes. Its manuscript states
 $r_k(N)\le C_kN\exp(-c_k(\log N)^{\varepsilon_k})$ for every fixed $k\ge3$
 (Theorem 1.1) and sums that bound over dyadic intervals (Corollary 1.2). The
 release's Lean proves the yes answer from a weaker bound,
 $r_k(N)\le CN\exp(-c(\log\log N)^{1+\eta})$. This corpus built that declaration,
-checked its axioms and found it identical to the release's comparator challenge,
-so the result is accepted on
-[[problems/additive_combinatorics/E0003/claims/2026_09_23_openai|its claim page]]
-and the problem stands solved and proved here. Theorem 1.1's bound is not
-formalized; it is a claimed partial result on
+checked its axioms and found it identical to the release's comparator challenge.
+So the result is accepted on
+[[problems/additive_combinatorics/E0003/claims/2026_09_23_openai|its claim page]].
+Theorem 1.1's bound is not formalized. It is a claimed partial result on
 [[problems/additive_combinatorics/E0142/claims/2026_09_23_openai|Problem 142's claim page]].
 The case $k=3$, proved by Bloom and Sisask, is a claimed partial result on
-[[problems/additive_combinatorics/E0003/claims/2020_07_07_bloom_sisask|its own claim page]],
-and the case $A$ the set of primes, proved by Green and Tao, is an accepted
+[[problems/additive_combinatorics/E0003/claims/2020_07_07_bloom_sisask|its own claim page]].
+The case where $A$ is the set of primes, proved by Green and Tao, is an accepted
 partial result on
 [[problems/additive_combinatorics/E0003/claims/2004_04_08_green_tao|its own claim page]].
 

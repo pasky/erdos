@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0550
 title: Problem 550
 desc: |
-  Asks for a proof bounding the Ramsey number of a large tree against a
-  complete multipartite graph by a formula in its chromatic number and
-  smallest class size.
+  Asks for a proof that, for large $n$, every tree $T$ on $n$ vertices and the
+  complete multipartite graph $G$ with class sizes $m_1\le\cdots\le m_k$ satisfy
+  $R(T,G)\le(\chi(G)-1)(R(T,K_{m_1,m_2})-1)+m_1$. A full proof is claimed in an
+  unreviewed 2026 preprint.
 tags:
 - Graph theory
 - Ramsey theory
@@ -44,35 +45,36 @@ inequality asks that the excess of $R(T,G)$ over $(k-1)(n-1)+m_1$ be at most
 $(k-1)(R(T,K_{m_1,m_2})-n)$, which is $k-1$ times the two-class excess
 $R(T,K_{m_1,m_2})-(n-1+m_1)$ plus $(k-1)(m_1-1)$.
 
-**Status.** OPEN (LEAN), the site's label (no last-edited date shown); the
+**Status.** OPEN (LEAN), the site's label (no last-edited date shown). The
 frontmatter standing derives from the pending claim page
 [[problems/ramsey_theory/E0550/claims/2026_06_22_li|Li 2026]]. A 2026 arXiv
-preprint (Li, arXiv:2606.23659; v1 22 June 2026, v2 2 August 2026) states
-the inequality as its Theorem 1.1 and claims a full proof; the author's
-proof claim on the site's proof-claim tab and the v2 listing report a Lean
-formalization. No refereed publication, independent review or acceptance by
-a named mathematician was found, and the site's discussion
-records reserved judgment. Before Li's claim the inequality was known in
-special cases: $k=2$, where it is trivial since $m_1\ge1$; Chvátal's case
-$m_1=\dots=m_k=1$ for every $n$; a smallest class of size 1 for large $n$
-(Erdős, Faudree, Rousseau and Schelp 1989, Theorem, p. 147); and trees of
-maximum degree at most $\Delta$ once $n$ is large in terms of $\Delta$ and
-the $m_i$ (their 1985 Theorem 1, p. 313, applied to both sides). The last
-three have partial claim pages:
+preprint (Li, arXiv:2606.23659; v1 22 June 2026, v2 2 August 2026) states the
+inequality as its Theorem 1.1 and claims a full proof. The author's proof claim
+on the site's proof-claim tab and the v2 listing report a Lean formalization. No
+refereed publication, independent review or acceptance by a named mathematician
+was found. The site's discussion records reserved judgment.
+
+Before Li's claim the inequality was known in special cases. The case $k=2$ is
+trivial, since $m_1\ge1$. Chvátal's case $m_1=\dots=m_k=1$ holds for every $n$.
+The inequality also holds when a smallest class has size 1 and $n$ is large
+(Erdős, Faudree, Rousseau and Schelp 1989, Theorem, p. 147). It holds for trees
+of maximum degree at most $\Delta$ once $n$ is large in terms of $\Delta$ and
+the $m_i$ (their 1985 Theorem 1, p. 313, applied to both sides). The last three
+have partial claim pages:
 [[problems/ramsey_theory/E0550/claims/1977_03_01_chvatal|Chvátal 1977]],
 [[problems/ramsey_theory/E0550/claims/1989_12_01_erdos_faudree_rousseau_schelp|Erdős, Faudree, Rousseau and Schelp 1989]]
 and
 [[problems/ramsey_theory/E0550/claims/1985_12_01_erdos_faudree_rousseau_schelp|Erdős, Faudree, Rousseau and Schelp 1985]].
-The community database set the formal status to Lean on 2026-09-18 (pull
-request 413, merged 17:28 UTC), pinning the author's repository at its head
-of 2 August 2026 with the note that the formalization was independently
-rebuilt from a clean clone (8,160 jobs; axioms `propext`,
-`Classical.choice` and `Quot.sound` only) and that the informal status
-stays open until a human reviews the paper; an archived snapshot of the
-site from the morning of 2026-09-18 still showed plain OPEN, so the label
-changed after that. The same day formal-conjectures tagged `erdos_550`
-`research solved` ("solved (Li 2026)") and linked a formal proof (pull
-request 6080).
+
+The community database set the formal status to Lean on 2026-09-18 (pull request
+413, merged 17:28 UTC). It pinned the author's repository at its head of 2
+August 2026. Its note says that the formalization was independently rebuilt from
+a clean clone (8,160 jobs; axioms `propext`, `Classical.choice` and `Quot.sound`
+only) and that the informal status stays open until a human reviews the paper.
+An archived snapshot of the site from the morning of 2026-09-18 still showed
+plain OPEN, so the label changed after that. The same day, formal-conjectures
+tagged `erdos_550` `research solved` ("solved (Li 2026)") and linked a formal
+proof (pull request 6080).
 
 **Source.** [erdosproblems.com/550](https://www.erdosproblems.com/550),
 accessed 2026-09-17: the problem page (OPEN, marked as not resolvable by a

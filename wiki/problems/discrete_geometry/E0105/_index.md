@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0105
 title: Problem 105
 desc: |
-  Asks whether disjoint plane sets of n and n minus 3 points, the first not
-  all collinear, admit a line meeting two points of the first and none of the
-  second.
+  Asks whether disjoint plane sets $A$ and $B$ of $n$ and $n-3$ points, with $A$
+  not all collinear, always admit a line through at least two points of $A$ and
+  none of $B$. Xichuan disproved it with counterexamples in 2025.
 tags:
 - Geometry
 status: solved
@@ -25,10 +25,11 @@ updated: 2026-10-08T02:16:54Z
 $n-3$ respectively, with not all of $A$ contained on a single line. Is there a
 line which contains at least two points from $A$ and no points from $B$?
 
-**Status.** DISPROVED (LEAN): the site credits three explicit counterexamples
-posted in its comments by Xichuan in October 2025, one of which (twelve points
-against nine) was later formalized in Lean in Boris Alexeev's repository; see
-the [[problems/discrete_geometry/E0105/claims/2025_10_24_xichuan|claim page]].
+**Status.** DISPROVED (LEAN). The site credits Xichuan with three explicit
+counterexamples, posted in its comments in October 2025. One of them, with
+twelve points against nine, was later formalized in Lean in Boris Alexeev's
+repository. See the
+[[problems/discrete_geometry/E0105/claims/2025_10_24_xichuan|claim page]].
 
 **Source.** [erdosproblems.com/105](https://www.erdosproblems.com/105), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #105,

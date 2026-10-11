@@ -2,9 +2,9 @@
 name: problems/divisors/E1054/claims/2026_10_03_chae_fraiture_hou_kovac_kudeba_shakov_vidal
 title: All three parts answered for the first divisor prefix sum
 desc: |
-  A seven-author manuscript proves f defined for every N other than 2 and 5,
-  that f(N) = o(N) fails in a strong sense, even for almost all N, and that
-  the limsup of f(N)/N is infinite; with Lean of 33 of its 37 results.
+  A seven-author manuscript claims that $f(N)$ is defined for every $N\ne2,5$,
+  that $f(N)=o(N)$ fails in a strong sense, even for almost all $N$, and that
+  $\limsup f(N)/N=\infty$. It comes with Lean proofs of 33 of its 37 results.
 authors:
 - Hyunsik Chae
 - Jimmy Fraiture

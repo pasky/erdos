@@ -2,9 +2,10 @@
 name: problems/analysis/E1040/claims/2024_02_03_krishnapur_lundberg_ramachandran
 title: Krishnapur, Lundberg and Ramachandran's capacity-above-one case
 desc: |
-  A compact set of capacity above one whose equilibrium measure obeys a
-  power bound on discs has minimal lemniscate area zero (Corollary 1.6 of the
-  journal version of Inradius of random lemniscates).
+  Krishnapur, Lundberg and Ramachandran prove that a compact set of capacity
+  above one whose equilibrium measure obeys a power bound on discs has minimal
+  lemniscate area zero. This is Corollary 1.6 in the journal version of their
+  paper Inradius of random lemniscates.
 authors:
 - Manjunath Krishnapur
 - Erik Lundberg

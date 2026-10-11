@@ -2,8 +2,9 @@
 name: problems/discrete_geometry/E0209
 title: Problem 209
 desc: |
-  Asks whether at least four non-parallel lines with no four meeting at a
-  point must form a triangle whose corners each lie on only two lines.
+  Asks whether $d\ge4$ non-parallel lines in the plane, no four through one
+  point, must form a Gallai triangle: three of the lines whose three
+  intersection points each lie on only two lines; disproved.
 tags:
 - Geometry
 status: solved
@@ -26,9 +27,9 @@ meet. Must there exist a 'Gallai triangle' (or 'ordinary triangle'): three lines
 from $A$ which intersect in three points, and each of these intersection points
 only intersects two lines from $A$?
 
-**Status.** DISPROVED (LEAN). The question as stated is refuted already by an
-elementary arrangement of four lines (Current assessment); the site credits
-Füredi and Palásti and Escudero, whose arrangements together cover every
+**Status.** DISPROVED (LEAN). An elementary arrangement of four lines already
+refutes the question as stated (see the Current assessment). The site credits
+Füredi and Palásti, and Escudero, whose arrangements together cover every
 $d\ge4$.
 
 **Source.** [erdosproblems.com/209](https://www.erdosproblems.com/209), accessed

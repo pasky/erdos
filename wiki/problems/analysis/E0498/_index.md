@@ -2,8 +2,9 @@
 name: problems/analysis/E0498
 title: Problem 498
 desc: |
-  Asks whether at most the middle binomial coefficient of the signed sums of n
-  complex numbers of modulus at least one can lie in one open unit disc.
+  Asks whether at most $\binom{n}{\lfloor n/2\rfloor}$ of the signed sums
+  $\sum\epsilon_iz_i$ of $n$ complex numbers with $\lvert z_i\rvert\geq 1$ can
+  lie in one open disc of radius $1$; proved.
 tags:
 - Combinatorics
 - Analysis
@@ -44,13 +45,13 @@ Kleitman's 1965 plane theorem and its
 give the open-disc formulation; the linked result also records the endpoint
 counterexample.
 
-**Status.** PROVED (LEAN), the site's label. The site's Lean label is
-qualified in the formalization section below. The accepted claims are
+**Status.** PROVED (LEAN), the site's label. The site's Lean label is qualified
+in the formalization section below. The accepted claims are
 [[problems/analysis/E0498/claims/1965_08_01_kleitman|Kleitman's Theorem I with its open-disc consequence]]
 and
 [[problems/analysis/E0498/claims/1970_08_01_kleitman|Kleitman's Hilbert-space theorem]],
-both refereed and credited by the site's curator, and
-[[problems/analysis/E0498/claims/1945_12_01_erdos|Erdős's real case]], an
+both refereed and credited by the site's curator.
+[[problems/analysis/E0498/claims/1945_12_01_erdos|Erdős's real case]] is an
 accepted partial claim.
 
 **Source.** T. F. Bloom, [Erdős Problem #498](https://www.erdosproblems.com/498),

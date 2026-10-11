@@ -2,9 +2,10 @@
 name: problems/divisors/E0859
 title: Problem 859
 desc: |
-  Asks whether the density of the integers n for which a given t is a sum of
-  distinct divisors of n is asymptotic to a constant over a power of log t;
-  false by a Lean disproof the bounty site Conjectures.io certified in 2026.
+  Asks whether the density $d_t$ of the integers $n$ for which $t$ is a sum of
+  distinct divisors of $n$ satisfies $d_t\sim c_1/(\log t)^{c_2}$ for some
+  constants $c_1,c_2>0$. A Lean disproof, certified by the bounty site
+  Conjectures.io in 2026, shows that it does not.
 tags:
 - Number theory
 - Divisors
@@ -34,19 +35,18 @@ $$
 
 as $t\to \infty$?
 
-**Status.** Open on the site (the problem page on 2026-10-07: OPEN, no
-comment, and one proof-claim entry, posted 2026-09-27 by the curator to make
-the Conjectures.io claim known without verifying it). The frontmatter standing
-derives from the accepted claim page
-[[problems/divisors/E0859/claims/2026_09_18_kruer_kohlmeyer|Kruer and
-Kohlmeyer's Lean disproof]], whose acceptance evidence is the certification by
-the bounty site Conjectures.io (Lean kernel verification 18 September 2026,
-review approval 21 September 2026, certification 23 September 2026). The
-subject is the literal site wording quoted above, and the answer is no: $d_t$
-exists for every $t$, and for no constants $c_1,c_2>0$ is
-$d_t\sim c_1/(\log t)^{c_2}$, because $-\log d_t/\log\log t$ has lower
-limit exactly $\delta=1-(1+\log\log 2)/\log 2=0.0860\ldots$ while
-$(\log t)^{\delta}d_t\to0$.
+**Status.** Open on the site. On 2026-10-07 the problem page showed OPEN, no
+comment, and one proof-claim entry. The curator posted that entry on 2026-09-27
+to make the Conjectures.io claim known, without verifying it. The frontmatter
+standing derives from the accepted claim page
+[[problems/divisors/E0859/claims/2026_09_18_kruer_kohlmeyer|Kruer and Kohlmeyer's Lean disproof]].
+Its acceptance evidence is the certification by the bounty site Conjectures.io:
+Lean kernel verification on 18 September 2026, review approval on 21 September
+2026 and certification on 23 September 2026. The subject is the literal site
+wording quoted above, and the answer is no. The density $d_t$ exists for every
+$t$, and for no constants $c_1,c_2>0$ is $d_t\sim c_1/(\log t)^{c_2}$. The
+reason is that $-\log d_t/\log\log t$ has lower limit exactly
+$\delta=1-(1+\log\log 2)/\log 2=0.0860\ldots$, while $(\log t)^{\delta}d_t\to0$.
 
 **Source.** [erdosproblems.com/859](https://www.erdosproblems.com/859), accessed
 2026-09-22 (the problem page: OPEN, marked as not resolvable by a finite

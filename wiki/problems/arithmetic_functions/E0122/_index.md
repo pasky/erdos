@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0122
 title: Problem 122
 desc: |
-  Characterizes which number theoretic functions f make the shifted values n
-  plus f of n cluster unboundedly in short intervals infinitely often.
+  Asks for which number theoretic functions $f$ the shifted values $n+f(n)$
+  cluster unboundedly in short intervals infinitely often; open.
 tags:
 - Number theory
 status: open
@@ -56,11 +56,10 @@ adds that [Er97] considers only $f$ growing more slowly than $(\log n)^{1-c}$
 for some $c>0$.
 
 **Status.** Open. The site labels the problem OPEN (page last edited
-2026-04-01) and its proof-claims tab carries no entry. The one claim page,
-[[problems/arithmetic_functions/E0122/claims/1997_01_01_erdos_pomerance_sarkozy|Erdős's
-report of a proof for the divisor and prime-divisor counting functions]],
-records a claimed partial answer with no published proof, so the derived
-standing is open.
+2026-04-01), and its proof-claims tab carries no entry. The one claim page,
+[[problems/arithmetic_functions/E0122/claims/1997_01_01_erdos_pomerance_sarkozy|Erdős's report of a proof for the divisor and prime-divisor counting functions]],
+records a claimed partial answer with no published proof. The derived standing
+is therefore open.
 
 **Source.** [erdosproblems.com/122](https://www.erdosproblems.com/122), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #122,

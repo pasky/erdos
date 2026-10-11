@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0547/claims/1967_01_01_gerencser_gyarfas
 title: Gerencsér and Gyárfás, the Ramsey number of the path
 desc: |
-  Theorem 1 of Gerencsér and Gyárfás (Ann. Univ. Sci. Budapest. 1967) gives
-  the path on n vertices the Ramsey number n - 1 + floor(n/2), at most
-  2n - 2: the corrected statement of Problem 547 for every path.
+  Theorem 1 of Gerencsér and Gyárfás (Ann. Univ. Sci. Budapest. 1967) gives the
+  path on $n$ vertices the Ramsey number $n-1+\lfloor n/2\rfloor$, which is at
+  most $2n-2$. This is the corrected statement of Problem 547 for every path.
 authors:
 - L. Gerencsér
 - A. Gyárfás
@@ -52,8 +52,7 @@ claim]].
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.
 
 **Acceptance.** Refereed: L. Gerencsér and A. Gyárfás, *On Ramsey-type
-problems*, Ann. Univ. Sci. Budapest. Eötvös Sect. Math. 10 (1967), 167--170,
-a journal of the Eötvös University; the volume is dated 1967, and this
-page's date is the first day of that year. No `reviewed` evidence is
-listed: the site's label DECIDABLE settles neither the problem nor any part
-of it.
+problems*, Ann. Univ. Sci. Budapest. Eötvös Sect. Math. 10 (1967), 167--170, a
+journal of the Eötvös University. The volume is dated 1967, and this page's date
+is the first day of that year. No `reviewed` evidence is listed, because the
+site's label DECIDABLE settles neither the problem nor any part of it.

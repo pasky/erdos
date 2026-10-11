@@ -2,8 +2,9 @@
 name: problems/unit_fractions/E0355
 title: Problem 355
 desc: |
-  Asks whether some sequence growing at least geometrically has finite sums of
-  reciprocals of its terms covering every rational in some open interval.
+  Asks whether some sequence of positive integers with $a_{n+1}/a_n\ge\lambda$
+  for a fixed $\lambda>1$ has finite sums of reciprocals covering every rational
+  in some open interval; proved.
 tags:
 - Number theory
 - Unit fractions
@@ -39,15 +40,15 @@ and the question is whether this set can contain every rational number of
 some non-empty open interval. Bleicher and Erdős conjectured that it cannot
 (Conjecture 4 of their 1976 paper, quoted below); the answer is yes.
 
-**Status.** Proved, with the answer yes. Van Doorn and Kovač's Theorem 1(a)
-(Acta Arith. 223 (2026), 275--295; refereed) constructs, for every
-$\lambda\in(1,2)$, a $\lambda$-lacunary sequence of positive integers whose
-finite reciprocal sums contain every rational in $[0,2]$; their Theorem
-1(c) shows no $2$-lacunary sequence, hence no sequence with $\lambda\ge2$,
-does this. The Bleicher--Erdős conjecture is refuted. The site's label is
-PROVED (LEAN); the suffix is a catalog label whose scope is qualified
-under Formalization and the Lean label below, and no local kernel credit
-is claimed. The claim page is
+**Status.** Proved, with the answer yes. The site's label is PROVED (LEAN). Van
+Doorn and Kovač's Theorem 1(a) (Acta Arith. 223 (2026), 275--295; refereed)
+constructs, for every $\lambda\in(1,2)$, a $\lambda$-lacunary sequence of
+positive integers whose finite reciprocal sums contain every rational in
+$[0,2]$. Their Theorem 1(c) shows that no $2$-lacunary sequence does this, and
+hence no sequence with $\lambda\ge2$ does. The Bleicher--Erdős conjecture is
+refuted. The label's suffix is a catalog label whose scope is qualified under
+Formalization and the Lean label below, and no local kernel credit is claimed.
+The claim page is
 [[problems/unit_fractions/E0355/claims/2025_09_29_van_doorn_kovac|van Doorn and Kovač's theorem]],
 from which the standing derives.
 

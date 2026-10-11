@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0356
 title: Problem 356
 desc: |
-  Asks whether some positive c gives, for all large n, integers up to n whose
-  sums over blocks of consecutive terms take at least c times n squared
-  values.
+  Asks whether there is $c>0$ such that, for all large $n$, some integers
+  $a_1<\cdots<a_k\leq n$ have at least $cn^2$ distinct sums of consecutive
+  terms; proved.
 tags:
 - Number theory
 status: solved
@@ -25,19 +25,19 @@ updated: 2026-10-08T03:43:48Z
 there exist integers $a_1<\cdots<a_k\leq n$ such that there are at least $cn^2$
 distinct integers of the form $\sum_{u\leq i\leq v}a_i$?
 
-**Status.** PROVED (LEAN). Beker's Theorem 1.2 ([Be23b], Bull. London
-Math. Soc. 56 (2024), refereed) gives an absolute $c>0$ and, for every $n$,
+**Status.** PROVED (LEAN). Beker's Theorem 1.2 ([Be23b], Bull. London Math. Soc.
+56 (2024), refereed) gives an absolute $c>0$ such that, for every $n$, there are
 integers $1\le a_1<\cdots<a_k\le n$ with at least $cn^2$ distinct sums of
-consecutive terms, so the answer is yes; the site records the solution as
+consecutive terms. So the answer is yes. The site records the solution as
 Beker's, and the
-[[problems/integer_sequences/E0356/claims/2023_11_16_beker|claim page]]
-carries the acceptance. Konieczny's theorem ([Ko15]) concerns the permutation
-variant ([[problems/number_theory/E0034/_index|Problem 34]]) and is not a
-claim on this question. The Lean suffix is the site's label for a 2026
-formalization of Beker's result in Boris Alexeev's public repository,
-registered by the community database; it declares Beker as its informal
-author, so it is a formalization link on his claim page, not built or audited
-by this corpus, and gives no `formalized` evidence.
+[[problems/integer_sequences/E0356/claims/2023_11_16_beker|claim page]] carries
+the acceptance. Konieczny's theorem ([Ko15]) concerns the permutation variant
+([[problems/number_theory/E0034/_index|Problem 34]]) and is not a claim on this
+question. The Lean suffix is the site's label for a 2026 formalization of
+Beker's result in Boris Alexeev's public repository, registered by the community
+database. It declares Beker as its informal author, so it is a formalization
+link on his claim page. This corpus has not built or audited it, and it gives no
+`formalized` evidence.
 
 **Source.** [erdosproblems.com/356](https://www.erdosproblems.com/356), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #356,

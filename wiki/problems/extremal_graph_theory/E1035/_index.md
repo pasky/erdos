@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E1035
 title: Problem 1035
 desc: |
-  Asks whether some positive c makes minimum degree above one minus c times
-  two to the n force an n-dimensional hypercube in a graph on two to the n
-  vertices.
+  Asks whether there is a constant $c>0$ such that every graph on $2^n$ vertices
+  with minimum degree greater than $(1-c)2^n$ contains the $n$-dimensional
+  hypercube $Q_n$; open.
 tags:
 - Graph theory
 status: open

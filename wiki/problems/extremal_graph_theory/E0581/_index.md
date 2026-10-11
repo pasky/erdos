@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0581
 title: Problem 581
 desc: |
-  Determines the largest number of edges of a bipartite subgraph that every
-  triangle-free graph with m edges must contain; known to the order
-  m/2 + Theta(m^{4/5}) by Alon, the exponent sharp and the exact value open.
+  Asks for $f(m)$, the largest number of edges of a bipartite subgraph that
+  every triangle-free graph with $m$ edges must contain. Alon determined its
+  order, $f(m)=m/2+\Theta(m^{4/5})$, with the exponent sharp; the exact value is
+  open.
 tags:
 - Graph theory
 status: solved
@@ -39,8 +40,11 @@ resolution by some means other than a proof or a disproof, records that the
 order of the surplus over $m/2$ is known, not that $f(m)$ is known exactly
 for every $m$.
 
-**Status.** Solved, in the site's estimate sense adopted by this corpus:
-Alon's Theorem 1.2 [Al96] (Combinatorica 16 (1996), 301--311, refereed;
+**Status.** Solved, in the site's estimate sense adopted by this corpus. The
+result and its acceptance evidence are recorded on the claim page
+[[problems/extremal_graph_theory/E0581/claims/1996_09_01_alon|Alon's order-of-magnitude determination of f(m)]],
+from which the frontmatter is derived with this reading. Alon's Theorem 1.2
+[Al96] (Combinatorica 16 (1996), 301--311, refereed;
 [[../library/extremal_graph_theory/alon_1996_bipartite_subgraphs/theorem_1_2|result page]])
 gives absolute constants $c',C'>0$ with
 
@@ -48,19 +52,16 @@ $$
 \frac m2+c'm^{4/5}\le f(m)\le\frac m2+C'm^{4/5}\qquad(m>1),
 $$
 
-the lower bound for every triangle-free graph with $m$ edges and the upper
-bound by explicit triangle-free graphs
-([[../library/extremal_graph_theory/alon_1996_bipartite_subgraphs/proposition_3_2|Proposition 3.2]]),
-so $f(m)=m/2+\Theta(m^{4/5})$ and the exponent $4/5$ cannot be improved. The
-exact value of $f(m)$ and the best constants are not known from any source
-on record; Alon writes that determining the minimum precisely "seems more
-difficult" (p. 8). Earlier bounds: Erdős and Lovász,
-$m/2+\Omega(m^{2/3}(\log m/\log\log m)^{1/3})$; Poljak and Tuza, a
-logarithmic factor better; Shearer, $m/2+\Omega(m^{3/4})$, and independently
-the exponent $4/5-\epsilon$ (all quoted from [Al96], pp. 2 and 8). The
-result and its acceptance evidence are recorded on the claim page
-[[problems/extremal_graph_theory/E0581/claims/1996_09_01_alon|Alon's order-of-magnitude determination of f(m)]],
-from which the frontmatter is derived with this reading.
+the lower bound for every triangle-free graph with $m$ edges and the upper bound
+by explicit triangle-free graphs
+([[../library/extremal_graph_theory/alon_1996_bipartite_subgraphs/proposition_3_2|Proposition 3.2]]).
+So $f(m)=m/2+\Theta(m^{4/5})$, and the exponent $4/5$ cannot be improved. No
+source on record gives the exact value of $f(m)$ or the best constants. Alon
+writes that determining the minimum precisely "seems more difficult" (p. 8). The
+earlier bounds are all quoted from [Al96], pp. 2 and 8. Erdős and Lovász gave
+$m/2+\Omega(m^{2/3}(\log m/\log\log m)^{1/3})$. Poljak and Tuza gave a bound a
+logarithmic factor better. Shearer gave $m/2+\Omega(m^{3/4})$ and,
+independently, the exponent $4/5-\epsilon$.
 
 **Source.** [erdosproblems.com/581](https://www.erdosproblems.com/581),
 accessed 2026-09-18: the problem page (SOLVED, the

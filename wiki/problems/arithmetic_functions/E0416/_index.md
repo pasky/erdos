@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0416
 title: Problem 416
 desc: |
-  Asks whether the count of totient values up to x doubles when x doubles, and
-  whether that count has an asymptotic formula; the doubling limit is proved
-  twice in Lean, and the release's asymptotic equivalent is a pending claim.
+  Asks whether $V(2x)/V(x)\to2$, where $V(x)$ counts the totient values up to
+  $x$, and whether $V(x)$ has an asymptotic formula. The doubling limit is
+  proved twice in Lean, and an asymptotic equivalent from the OpenAI release is
+  a pending claim.
 tags:
 - Number theory
 status: claimed
@@ -34,18 +35,19 @@ p. 82, where Erdős and Graham say such a formula may not exist). The pending
 full claim on the second question stands against this reading.
 
 **Status.** The site labels the problem OPEN (page last edited 30 September
-2025, fetched 2026-09-27; marked as not decidable by a finite computation); its
-proof-claims thread lists two partial claims: the Conjectures.io Lean record,
-posted by the site's maintainer on 2026-09-27 with the note that he has not
-verified it, and Zeraoulia's fixed-scale limit points. The claims recorded are
+2025, fetched 2026-09-27). It marks the problem as not decidable by a finite
+computation. The standing in the frontmatter is derived from the claims recorded
+here:
 [[problems/arithmetic_functions/E0416/claims/2026_09_14_kruer_kohlmeyer|Kruer and Kohlmeyer]]
 on the first question,
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai|the OpenAI release's fixed-scale limit]]
-on the first question, and
+also on the first question, and
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai_formula|the release's asymptotic equivalent]]
-on the second; the standing derived from them is the frontmatter. No refereed
-publication exists for any of them. Ford's order-of-magnitude theorem falls
-short of a formula.
+on the second. No refereed publication exists for any of them. The site's
+proof-claims thread lists two partial claims. One is the Conjectures.io Lean
+record, posted by the site's maintainer on 2026-09-27 with the note that he has
+not verified it. The other is Zeraoulia's fixed-scale limit points. Ford's
+order-of-magnitude theorem falls short of a formula.
 
 **Provenance of the proof file.**
 https://conjectures.io/results/51923647-3c0d-418e-b330-aa595f5cad42/solution/download,

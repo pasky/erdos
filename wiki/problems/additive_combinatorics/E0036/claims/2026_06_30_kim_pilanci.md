@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0036/claims/2026_06_30_kim_pilanci
 title: Kim and Pilanci's lower bound 0.37912 for the minimum overlap constant
 desc: |
-  The semidefinite strengthening of White's convex relaxation by Kim and
-  Pilanci (arXiv 2026), found with AI agents and human review, which reports
-  the lower bound 0.37912; a preprint without outside review, so claimed.
+  Kim and Pilanci (arXiv 2026) give a semidefinite strengthening of White's
+  convex relaxation, found with AI agents and human review, and report the lower
+  bound 0.37912. It is a preprint without outside review, so it is claimed.
 authors:
 - Sungyoon Kim
 - Mert Pilanci

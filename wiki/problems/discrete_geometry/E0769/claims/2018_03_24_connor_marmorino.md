@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0769/claims/2018_03_24_connor_marmorino
 title: Connor and Marmorino's bounds on the cube-dissection threshold
 desc: |
-  Connor and Marmorino (J. Geom. 109, 2018) prove c(n) >= 2^(n+1)-1 for n >= 3,
-  c(n) <= 1.8 n^(n+1) when n+1 is prime and c(n) <= e^2 n^n otherwise;
-  refereed; partial.
+  Connor and Marmorino (J. Geom. 109, 2018) prove $c(n)\ge2^{n+1}-1$ for
+  $n\ge3$, $c(n)\le1.8\,n^{n+1}$ when $n+1$ is prime, and $c(n)\le e^2n^n$
+  otherwise. The paper is refereed, and the result is partial.
 authors:
 - Peter Connor
 - Phillip Marmorino
@@ -43,6 +43,7 @@ n^n$; the upper bound $e^2n^n$ is of the order $n^n$ and does not decide it.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** `refereed`: Journal of Geometry 109 (2018), no. 1, Paper No.
-19. The site credits the bounds in its remarks on the problem, which it labels
-OPEN, so that remark is not acceptance and no `reviewed` is listed.
+**Acceptance.** `refereed`: Journal of Geometry 109 (2018), no. 1, Paper No. 19.
+The site credits the bounds in its remarks on the problem, but it labels the
+problem OPEN. That remark is therefore not acceptance, and no `reviewed` is
+listed.

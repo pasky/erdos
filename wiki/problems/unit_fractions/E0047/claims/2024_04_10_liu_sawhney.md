@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0047/claims/2024_04_10_liu_sawhney
 title: Liu and Sawhney's four-fifths threshold
 desc: |
-  Liu and Sawhney's theorem that a subset of the first N integers with
-  reciprocal sum at least (log N)^(4/5+epsilon) has a subset with reciprocal
-  sum one; the threshold is far below delta log N for large N.
+  Liu and Sawhney's theorem that a subset of the first $N$ integers with
+  reciprocal sum at least $(\log N)^{4/5+\varepsilon}$ has a subset with
+  reciprocal sum $1$. For large $N$ this threshold is far below $\delta\log N$.
 authors:
 - Yang P. Liu
 - Mehtaab Sawhney
@@ -62,20 +62,23 @@ compilation corrections rather than author errata, and the published text
 has not been compared with the retained version.
 
 **Acceptance.** Refereed: the paper appeared in International Mathematics
-Research Notices (received 28 October 2025, accepted 23 December 2025,
-published online 14 January 2026, per the publisher's record). Reviewed:
-the site's curator, Thomas Bloom, marks the problem proved and credits Liu
-and Sawhney's improved threshold in the commentary, an acceptance
-independent of the claimants. The corrected Theorem 1.1 chain of the
-rewritten proof has the corpus's graded independent review of 2026-09-18:
-a fresh-context blind
-[[../library/unit_fractions/liu_2024_further_questions_regarding_unit_fractions/evidence/verify/main_proof_review_fresh|review]]
-with the verdict refutation-failed and a distinct
+Research Notices. According to the publisher's record, it was received on 28
+October 2025, accepted on 23 December 2025 and published online on 14
+January 2026.
+
+Reviewed: the site's curator, Thomas Bloom, marks the problem proved and credits
+Liu and Sawhney's improved threshold in the commentary. This acceptance is
+independent of the claimants.
+
+The corrected Theorem 1.1 chain of the rewritten proof has the corpus's graded
+independent review of 2026-09-18. It consists of a fresh-context blind
+[[../library/unit_fractions/liu_2024_further_questions_regarding_unit_fractions/evidence/verify/main_proof_review_fresh|review]],
+with the verdict refutation-failed, and a distinct
 [[../library/unit_fractions/liu_2024_further_questions_regarding_unit_fractions/evidence/verify/main_proof_review_grade_fresh|grade]]
-recording PASS for the report contract and for independence, retained on
-the card's
+that records PASS for the report contract and for independence. Both are
+retained on the card's
 [[../library/unit_fractions/liu_2024_further_questions_regarding_unit_fractions/evidence/_index|evidence index]].
-This is the corpus's own review, so it is not `reviewed` evidence; the
+This is the corpus's own review, so it is not `reviewed` evidence. The
 `reviewed` entry above rests on the curator's credit alone.
 
 **Formalization.** None found for this threshold. The Lean files the site's

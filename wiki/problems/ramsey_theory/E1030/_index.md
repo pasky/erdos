@@ -2,8 +2,8 @@
 name: problems/ramsey_theory/E1030
 title: Problem 1030
 desc: |
-  Asks whether the off-diagonal Ramsey number R(k+1,k) exceeds the diagonal
-  number R(k,k) by a constant factor in the limit.
+  Asks whether the off-diagonal Ramsey number $R(k+1,k)$ exceeds the diagonal
+  number $R(k,k)$ by a constant factor in the limit. It is open.
 tags:
 - Graph theory
 - Ramsey theory
@@ -48,14 +48,14 @@ $n$. The two surveys thus attribute the conjecture differently, to Burr and
 Erdős in 1981 and to Erdős and Sós in 1993; the site follows the 1993 survey.
 
 **Status.** Open. The source results in hand are additive. Burr, Erdős, Faudree
-and Schelp's Theorem 1 with $m=k$, $n=k+1$ gives $R(k+1,k)\ge R(k,k)+2k-3$ for
-$k\ge2$ (the site's commentary quotes $2k-5$), and Erdős's 1981 survey states,
+and Schelp's Theorem 1 with $m=k$ and $n=k+1$ gives $R(k+1,k)\ge R(k,k)+2k-3$
+for $k\ge2$. The site's commentary quotes $2k-5$. Erdős's 1981 survey states,
 without giving the proof, that he, Faudree, Rousseau and Schelp had proved the
-superlinear gap $(R(k+1,k)-R(k,k))/k\to\infty$; neither says anything about the
-ratio, because $R(k,k)$ grows exponentially, and the 1989 authors themselves
-expect exponential gaps but prove none. No source bounding the ratio away from
-$1$, or showing it tends to $1$, was found in the search whose scope the
-Current assessment records. This is a bounded negative finding, not a
+superlinear gap $(R(k+1,k)-R(k,k))/k\to\infty$. Neither result says anything
+about the ratio, because $R(k,k)$ grows exponentially. The 1989 authors
+themselves expect exponential gaps but prove none. No source bounding the ratio
+away from $1$, or showing that it tends to $1$, was found in the search whose
+scope the Current assessment records. This is a bounded negative finding, not a
 certificate of openness.
 
 **Source.** [erdosproblems.com/1030](https://www.erdosproblems.com/1030),

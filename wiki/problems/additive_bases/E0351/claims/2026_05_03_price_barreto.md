@@ -3,8 +3,9 @@ name: problems/additive_bases/E0351/claims/2026_05_03_price_barreto
 title: Strong completeness from the Problem 283 argument
 desc: |
   The GPT 5.5 Pro argument for Problem 283, posted by Liam Price and edited by
-  Kevin Barreto, yields that p(n) + 1/n is strongly complete for every rational
-  polynomial with positive leading coefficient; reviewed, accepted by the site.
+  Kevin Barreto, yields that $\{p(n)+1/n\}$ is strongly complete for every
+  $p\in\mathbb{Q}[x]$ with positive leading coefficient. It was reviewed and
+  accepted by the site.
 authors:
 - GPT-5.5 Pro
 status: accepted
@@ -96,12 +97,12 @@ these files and audited no statement, so no `formalized` evidence is listed; the
 problem page's (Lean) suffix is the site's label.
 
 **Acceptance.** Reviewed: Nat Sothanaphan wrote in the Problem 283 thread on
-2026-05-06 that they had confirmed the argument, linking the ChatGPT
-conversation with which they checked it, and that it resolves both Problem 283
-and Problem 351, provided the manuscript's statements are the intended versions
-of the problems; the site's curator, T. F. Bloom, posted a summary of the proof
-there on 2026-05-10, labels Problem 351 PROVED (LEAN) at erdosproblems.com and
-credits the positive solution to Barreto's observation that it follows from
-Problem 283 (page last edited 10 May 2026), and the community database's commit
-of 2026-05-14 changed its status to proved (Lean), with a last-update date of
-2026-05-12. This project has checked none of it.
+2026-05-06 that they had confirmed the argument, and linked the ChatGPT
+conversation with which they checked it. They wrote that it resolves both
+Problem 283 and Problem 351, provided the manuscript's statements are the
+intended versions of the problems. The site's curator, T. F. Bloom, posted a
+summary of the proof there on 2026-05-10. The curator labels Problem 351 PROVED
+(LEAN) at erdosproblems.com and credits the positive solution to Barreto's
+observation that it follows from Problem 283 (page last edited 10 May 2026). The
+community database's commit of 2026-05-14 changed its status to proved (Lean),
+with a last-update date of 2026-05-12. This project has checked none of it.

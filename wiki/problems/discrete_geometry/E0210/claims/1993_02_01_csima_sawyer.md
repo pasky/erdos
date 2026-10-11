@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0210/claims/1993_02_01_csima_sawyer
 title: At least 6n/13 ordinary lines for n at least 8
 desc: |
-  Csima and Sawyer prove that n points in the plane, not all on a line,
-  determine at least 6n/13 ordinary lines once n is at least 8.
+  Csima and Sawyer prove that $n$ points in the plane, not all on a line,
+  determine at least $6n/13$ ordinary lines once $n\ge8$.
 authors:
 - J. Csima
 - E. T. Sawyer

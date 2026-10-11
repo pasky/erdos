@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0456
 title: Problem 456
 desc: |
-  Compares the least prime congruent to one modulo n with the least integer
-  whose Euler totient is divisible by n; a September 2026 forum claim answers
-  the three questions no, no and yes, pending review.
+  Asks three questions comparing the least prime $p_n\equiv1\pmod{n}$ with the
+  least $m_n$ such that $n\mid\phi(m_n)$. A September 2026 forum claim answers
+  them no, no and yes, pending review.
 tags:
 - Number theory
 status: claimed
@@ -28,18 +28,18 @@ Is it true that $m_n<p_n$ for almost all $n$? Does $p_n/m_n\to \infty$ for
 almost all $n$? Are there infinitely many primes $p$ such that $p-1$ is the only
 $n$ for which $m_n=p$?
 
-**Status.** Open. The site's proof-claims tab carries one full proof claim, by
-David Turturean (naming GPT-6-Astra Pro as the system used, with earlier work by
-ChatGPT-5.5-Pro and Claude), submitted 2026-09-23 with an Overleaf write-up and
-a Lean repository: it answers the three questions no, no and yes,
-unconditionally, through a positive lower density for the set of $n$ with
-$m_n=p_n$ and a lower bound of order $X/(\log X)^{55}$ for the uniqueness primes
-up to $X$; an earlier manuscript of the same author, posted on 4 May 2026,
-answered the third question only under Dickson's conjecture. The site labels the
-problem OPEN (page last edited 07 October 2025), no referee or outside reviewer
-has accepted the argument, and the claim is recorded as pending on
-[[problems/arithmetic_functions/E0456/claims/2026_09_23_turturean|its claim page]];
-the derived standing is `claimed`.
+**Status.** Open. The site labels the problem OPEN (page last edited 07 October
+2025). The derived standing is `claimed`. The site's proof-claims tab carries
+one full proof claim, by David Turturean, submitted 2026-09-23 with an Overleaf
+write-up and a Lean repository. The claim names GPT-6-Astra Pro as the system
+used, with earlier work by ChatGPT-5.5-Pro and Claude. It answers the three
+questions no, no and yes, unconditionally. The argument goes through a positive
+lower density for the set of $n$ with $m_n=p_n$ and a lower bound of order
+$X/(\log X)^{55}$ for the uniqueness primes up to $X$. An earlier manuscript by
+the same author, posted on 4 May 2026, answered the third question only under
+Dickson's conjecture. No referee or outside reviewer has accepted the argument,
+and the claim is recorded as pending on
+[[problems/arithmetic_functions/E0456/claims/2026_09_23_turturean|its claim page]].
 
 **Source.** [erdosproblems.com/456](https://www.erdosproblems.com/456), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #456,

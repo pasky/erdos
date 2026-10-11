@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0487
 title: Problem 487
 desc: |
-  Asks whether every set of integers of positive density contains three
-  distinct members one of which is the least common multiple of the other
-  two; true by Kleitman's union-free theorem, attested here second-hand.
+  Asks whether every set of integers of positive density contains three distinct
+  members $a,b,c$ with $c$ the least common multiple of $a$ and $b$; true by
+  Kleitman's union-free theorem, attested here second-hand.
 tags:
 - Number theory
 status: solved
@@ -39,36 +39,35 @@ infinitely many such triples; one triple in every set of positive density
 gives infinitely many by removing finitely many members, which does not
 change the density.
 
-**Status.** PROVED (LEAN), the site's label. The site's commentary
-attributes the result to Kleitman's solution of Problem 447, the union-free
-bound [Kl71]. The claim pages are
-[[problems/integer_sequences/E0487/claims/1971_01_01_kleitman|Kleitman]]
-(accepted on the curator's acceptance, with the theorem published in the
-AMS proceedings volume [Kl71] and the reduction attested by Erdős; the 2026
-Lean formalization of the result by Aristotle and Boris Alexeev is a link on
-that page, neither built nor audited here) and
-[[problems/integer_sequences/E0487/claims/1965_01_01_erdos|Erdős's 1965 claim]]
-(claimed: Erdős's published statement that the conjecture is proved, resting
-on the unpublished bound of Sárközy and Szemerédi that he reported). Kleitman's paper
-(Proc. Sympos. Pure Math. XIX, 1971, 153--155) is not held and no open route
-to it was found; his theorem,
-$|\mathcal F|<(1+o(1))\binom{n}{\lfloor n/2\rfloor}$ for union-free families
-of subsets of $[n]$, is taken here from the site's Problem 447 page. The
-reduction from lcm triples in a dense set to union-free families is Erdős's
-own: his 1965 survey states the conjecture,
-says it "would follow from" the bound $f(n)=o(2^n)$ for union-free
-families, reports that Sárközy and Szemerédi had proved that bound
-(unpublished) and concludes "Thus the above conjecture about triples is now
-proved" (printed pp. 228--229); the site's thread
-describes the implication as taking real work, and the Lean development
-carries it out through a reduction to odd integers of
-positive upper logarithmic density. The Davenport--Erdős chain theorem
-(1936) is context. The status therefore rests on the site's attribution,
-Erdős's 1965 attestation and a Lean development neither built nor audited
-here, not on the status-defining paper, which is not held; a copy of
-Kleitman 1971 is the reopening condition for this qualification. The "(LEAN)"
-suffix of the label is explained under Formalization and the Lean label
-below, and no local kernel credit is claimed.
+**Status.** The site's label is PROVED (LEAN). The site's commentary attributes
+the result to Kleitman's solution of Problem 447, the union-free bound [Kl71].
+The claim pages are
+[[problems/integer_sequences/E0487/claims/1971_01_01_kleitman|Kleitman]] and
+[[problems/integer_sequences/E0487/claims/1965_01_01_erdos|Erdős's 1965 claim]].
+Kleitman's claim is accepted on the curator's acceptance, with the theorem
+published in the AMS proceedings volume [Kl71] and the reduction attested by
+Erdős. The 2026 Lean formalization of the result by Aristotle and Boris Alexeev
+is a link on Kleitman's claim page, neither built nor audited here. Erdős's 1965
+claim is recorded as claimed. It is Erdős's published statement that the
+conjecture is proved, resting on the unpublished bound of Sárközy and Szemerédi
+that he reported. Kleitman's paper (Proc. Sympos. Pure Math. XIX, 1971,
+153--155) is not held, and no open route to it was found. The status therefore
+rests on the site's attribution, Erdős's 1965 attestation and a Lean development
+neither built nor audited here, not on the status-defining paper. A copy of
+Kleitman 1971 is the reopening condition for this qualification.
+
+Kleitman's theorem, $|\mathcal F|<(1+o(1))\binom{n}{\lfloor n/2\rfloor}$ for
+union-free families of subsets of $[n]$, is taken here from the site's Problem
+447 page. The reduction from lcm triples in a dense set to union-free families
+is Erdős's own. His 1965 survey states the conjecture and says it "would follow
+from" the bound $f(n)=o(2^n)$ for union-free families. It reports that Sárközy
+and Szemerédi had proved that bound (unpublished) and concludes "Thus the above
+conjecture about triples is now proved" (printed pp. 228--229). The site's
+thread describes the implication as taking real work. The Lean development
+carries it out through a reduction to odd integers of positive upper logarithmic
+density. The Davenport--Erdős chain theorem (1936) is context. The "(LEAN)"
+suffix of the label is explained under Formalization and the Lean label below,
+and no local kernel credit is claimed.
 
 **Source.** [erdosproblems.com/487](https://www.erdosproblems.com/487),
 accessed 2026-09-18: the problem page (PROVED

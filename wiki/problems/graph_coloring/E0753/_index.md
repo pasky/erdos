@@ -2,8 +2,8 @@
 name: problems/graph_coloring/E0753
 title: Problem 753
 desc: |
-  Asks whether some constant c > 0 makes the list chromatic numbers of every
-  n-vertex graph and its complement sum to more than n^(1/2 + c).
+  Asks whether some constant $c>0$ makes the list chromatic numbers of every
+  $n$-vertex graph and its complement sum to more than $n^{1/2+c}$; disproved.
 tags:
 - Graph theory
 - Chromatic number

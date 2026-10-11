@@ -2,8 +2,8 @@
 name: problems/set_systems/E0499
 title: Problem 499
 desc: |
-  Asks whether every n by n doubly stochastic matrix has a permutation along
-  which the product of entries is at least n to the power minus n.
+  Asks whether every $n\times n$ doubly stochastic matrix has a permutation
+  along which the product of the entries is at least $n^{-n}$. It is proved.
 tags:
 - Combinatorics
 status: solved
@@ -28,19 +28,18 @@ $$
 \prod_{1\leq i\leq n}a_{i\sigma(i)}\geq n^{-n}?
 $$
 
-**Status.** Proved on the site (label PROVED (LEAN)). The
-site credits the answer yes to Marcus and Minc [MaMi62]; the Lean qualifier
-refers to a third-party proof described under Formalization. The accepted
-claims are
-[[problems/set_systems/E0499/claims/1962_08_01_marcus_minc|the Marcus–Minc
-theorem]], on its refereed publication and the curator's credit, and the two
-proofs of van der Waerden's conjecture, which implies the statement:
+**Status.** Proved on the site (label PROVED (LEAN)). The site credits the
+answer yes to Marcus and Minc [MaMi62]. The accepted claims are
+[[problems/set_systems/E0499/claims/1962_08_01_marcus_minc|the Marcus–Minc theorem]],
+on its refereed publication and the curator's credit, and the two proofs of van
+der Waerden's conjecture, which implies the statement. These are
 [[problems/set_systems/E0499/claims/1980_01_01_egorychev|Egorychev]] and
-[[problems/set_systems/E0499/claims/1981_06_01_falikman|Falikman]], each on
-its refereed publication. The site also credits
-[[problems/set_systems/E0499/claims/1980_01_01_gyires|Gyires]] with a proof
-of the conjecture; his paper does not contain one, and that attribution is
-rejected on its claim page.
+[[problems/set_systems/E0499/claims/1981_06_01_falikman|Falikman]], each on its
+refereed publication. The site also credits
+[[problems/set_systems/E0499/claims/1980_01_01_gyires|Gyires]] with a proof of
+the conjecture. His paper does not contain one, and that attribution is rejected
+on its claim page. The Lean qualifier refers to a third-party proof described
+under Formalization.
 
 **Source.** [erdosproblems.com/499](https://www.erdosproblems.com/499), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #499,

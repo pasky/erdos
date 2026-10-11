@@ -2,9 +2,8 @@
 name: problems/additive_bases/E0351
 title: Problem 351
 desc: |
-  Asks whether the numbers p of n plus one over n, for a rational polynomial p
-  with positive leading coefficient, stay complete after any finite set is
-  removed.
+  Asks whether the numbers $p(n)+1/n$, for $p\in\mathbb{Q}[x]$ with positive
+  leading coefficient, stay complete after any finite set is removed; proved.
 tags:
 - Number theory
 - Complete sequences
@@ -38,20 +37,21 @@ $$
 contains all sufficiently large integers?
 
 **Status.** Proved, in the site's label "PROVED (LEAN)". The argument that GPT
-5.5 Pro produced for [[problems/unit_fractions/E0283/_index|Problem 283]],
-posted on 2026-05-03 by Liam Price and edited by Kevin Barreto, yields the
-statement for every $p$ with positive leading coefficient; Nat Sothanaphan
-confirmed it with ChatGPT, it is formalized in Lean, and the site accepted it
-(page last edited 10 May 2026). See the
+5.5 Pro produced for [[problems/unit_fractions/E0283/_index|Problem 283]] yields
+the statement for every $p$ with positive leading coefficient. Liam Price posted
+it on 2026-05-03, and Kevin Barreto edited it. Nat Sothanaphan confirmed it with
+ChatGPT, it is formalized in Lean, and the site accepted it (page last edited 10
+May 2026). See the
 [[problems/additive_bases/E0351/claims/2026_05_03_price_barreto|claim page]].
-Earlier partial results, each with its own claim page: Graham [Gr63] for
-$p(x)=x$
-([[problems/additive_bases/E0351/claims/1963_03_17_graham|accepted, refereed]])
-and van Doorn's note of 2025-09-15 deducing $p(x)=x^2$ from Graham's method
-and Alekseyev [Al19]
-([[problems/additive_bases/E0351/claims/2025_09_15_van_doorn|claimed]]). The
-(Lean) suffix of the site's label PROVED (LEAN) means nothing here: this
-corpus has not built or audited the Lean proof.
+The (Lean) suffix of the site's label PROVED (LEAN) means nothing here, because
+this corpus has not built or audited the Lean proof.
+
+Earlier partial results each have their own claim page. Graham [Gr63] proved the
+case $p(x)=x$
+([[problems/additive_bases/E0351/claims/1963_03_17_graham|accepted, refereed]]).
+In a note of 2025-09-15, van Doorn deduced $p(x)=x^2$ from Graham's method and
+Alekseyev [Al19]
+([[problems/additive_bases/E0351/claims/2025_09_15_van_doorn|claimed]]).
 
 **Source.** [erdosproblems.com/351](https://www.erdosproblems.com/351), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #351,

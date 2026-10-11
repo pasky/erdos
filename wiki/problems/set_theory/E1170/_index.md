@@ -2,8 +2,8 @@
 name: problems/set_theory/E1170
 title: Problem 1170
 desc: |
-  Asks whether it is consistent that the second uncountable ordinal has the
-  two-color partition property for pairs for every smaller ordinal.
+  Asks whether it is consistent that $\omega_2\to(\alpha)_2^2$ for every
+  $\alpha<\omega_2$; open.
 tags:
 - Set theory
 - Ramsey theory

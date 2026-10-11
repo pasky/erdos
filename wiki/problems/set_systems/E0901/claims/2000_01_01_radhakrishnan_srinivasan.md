@@ -2,9 +2,10 @@
 name: problems/set_systems/E0901/claims/2000_01_01_radhakrishnan_srinivasan
 title: Radhakrishnan and Srinivasan's bound 0.7 sqrt(n / ln n) 2^n
 desc: |
-  For all large n, every n-uniform hypergraph with at most 0.7 sqrt(n/ln n)
-  2^n edges is 2-colorable, so m(n) > 0.7 sqrt(n/ln n) 2^n: the best lower
-  bound for Problem 901, refereed.
+  Radhakrishnan and Srinivasan prove in a refereed paper that for all large $n$
+  every $n$-uniform hypergraph with at most $0.7\sqrt{n/\ln n}\,2^n$ edges is
+  2-colorable. Hence $m(n)>0.7\sqrt{n/\ln n}\,2^n$, the best lower bound for
+  Problem 901.
 authors:
 - Jaikumar Radhakrishnan
 - Aravind Srinivasan
@@ -57,11 +58,11 @@ pairwise intersections.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** J. Radhakrishnan and A. Srinivasan, *Improved bounds and
-algorithms for hypergraph 2-coloring*, Random Structures Algorithms 16
-(2000), no. 1, 4--32, a refereed journal (`refereed`); a preliminary version
-appeared in the Proceedings of the 39th Annual Symposium on Foundations of
-Computer Science (1998), 684--693, the second link. The issue is dated
-January 2000 without a day, so the page is dated to the first day of that
-month. The curator of erdosproblems.com, Thomas Bloom, credits the bound to
-this paper in the problem's commentary, but the site labels the problem
-OPEN, so that credit is not acceptance of this partial claim.
+algorithms for hypergraph 2-coloring*, Random Structures Algorithms 16 (2000),
+no. 1, 4--32, a refereed journal (`refereed`). A preliminary version, the second
+link, appeared in the Proceedings of the 39th Annual Symposium on Foundations of
+Computer Science (1998), 684--693. The issue is dated January 2000 without a
+day, so the page is dated to the first day of that month. The curator of
+erdosproblems.com, Thomas Bloom, credits the bound to this paper in the
+problem's commentary. The site labels the problem OPEN, so that credit is not
+acceptance of this partial claim.

@@ -2,9 +2,9 @@
 name: problems/divisors/E0858
 title: Problem 858
 desc: |
-  Estimates the largest reciprocal sum, over the logarithm of N, of a set of
-  integers up to N in which no member equals another member times a factor
-  whose prime factors all exceed the smaller member.
+  Asks for an estimate of the maximum of $(1/\log N)\sum_{n\in A}1/n$ over
+  $A\subseteq\{1,\ldots,N\}$ with no solution to $at=b$ in which $a,b\in A$ and
+  every prime factor of $t$ exceeds $a$; solved.
 tags:
 - Number theory
 - Primitive sets

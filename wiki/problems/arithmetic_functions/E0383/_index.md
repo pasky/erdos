@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0383
 title: Problem 383
 desc: |
-  Asks whether, for every k, infinitely many primes p are the largest prime
-  factor of the product of p squared through p squared plus k.
+  Asks whether, for every $k$, infinitely many primes $p$ are the largest prime
+  factor of $\prod_{0\le i\le k}(p^2+i)$; open.
 tags:
 - Number theory
 status: open
@@ -29,11 +29,11 @@ $$
 
 is $p$?
 
-**Status.** Open, the site's label (OPEN; the site marks the problem as not
-decidable by a finite computation). Its proof-claims tab carries one partial
-proof claim, submitted 2026-07-25 and without response which settles no case of
-the question and gets no claim page; the Current assessment records it with the
-reason.
+**Status.** Open, the site's label (OPEN). The site marks the problem as not
+decidable by a finite computation. Its proof-claims tab carries one partial
+proof claim, submitted 2026-07-25, which has had no response. That claim settles
+no case of the question and gets no claim page. The Current assessment records
+it with the reason.
 
 **Source.** [erdosproblems.com/383](https://www.erdosproblems.com/383), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #383,

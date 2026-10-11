@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0084/claims/2004_09_01_verstraete
 title: Verstraëte's o(2^(n - n^c)) bound on the number of cycle sets
 desc: |
-  Verstraëte proves that the number of cycle sets on {1,...,n}, the sets of
-  cycle lengths realized by graphs on n vertices, is o(2^(n - n^c)) for an
-  absolute c > 0, so f(n) = o(2^n), the problem's first assertion.
+  Verstraëte proves that the number of cycle sets on $\{1,\dots,n\}$, the sets
+  of cycle lengths of graphs on $n$ vertices, is $o(2^{n-n^c})$ for an absolute
+  $c>0$. So $f(n)=o(2^n)$, the problem's first assertion.
 authors:
 - J. Verstraëte
 status: accepted
@@ -48,11 +48,11 @@ sharper upper bound is recorded on
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** The paper is a refereed publication in Combinatorica, issued
-in September 2004 (the day of issue is not recorded, and this page's date is
-the first of that month), which is the `refereed` evidence. The site's remark
-credits the first problem to Verstraëte, and the site labels the problem
-OPEN, the second assertion being unsettled, so no `reviewed` evidence is
-listed. The corpus's card records the theorem at statement depth from the
-author's preprint, whose proof (pp. 3--15) this corpus has not checked; the
-acceptance recorded here rests on the publication.
+**Acceptance.** The paper is a refereed publication in Combinatorica, which is
+the `refereed` evidence. It was issued in September 2004. The day of issue is
+not recorded, and this page's date is the first of that month. The site's remark
+credits the first problem to Verstraëte. The site labels the problem OPEN
+because the second assertion is unsettled, so no `reviewed` evidence is listed.
+The corpus's card records the theorem at statement depth from the author's
+preprint. This corpus has not checked the proof in that preprint (pp. 3--15).
+The acceptance recorded here rests on the publication.

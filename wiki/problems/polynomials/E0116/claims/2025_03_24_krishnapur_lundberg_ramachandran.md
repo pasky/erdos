@@ -2,9 +2,10 @@
 name: problems/polynomials/E0116/claims/2025_03_24_krishnapur_lundberg_ramachandran
 title: Minimal lemniscate area is of order between 1/log n and 1/log log n
 desc: |
-  Krishnapur, Lundberg and Ramachandran prove that the least area where a monic
-  degree n polynomial with zeros in the closed unit disk has modulus below one
-  lies between c/log n and C/log log n; a 2025 preprint credited by the site.
+  Krishnapur, Lundberg and Ramachandran prove that the least area of the set
+  where a monic polynomial of degree $n$ with zeros in the closed unit disk has
+  modulus below one lies between $c/\log n$ and $C/\log\log n$. This 2025
+  preprint is credited by the site.
 authors:
 - Manjunath Krishnapur
 - Erik Lundberg
@@ -59,10 +60,10 @@ inradius bound of order $1/(n\sqrt{\log n})$, which bears on
 
 **Acceptance.** Reviewed: erdosproblems.com labels the problem proved and states
 the $(\log n)^{-1}$ lower bound and the $(\log\log n)^{-1}$ upper bound as
-proved by this paper, cited as [KLR25] (page last edited 2025-10-24), which the
-corpus counts as documented independent acceptance by the site's curator, T. F.
-Bloom (erdosproblems.com); the formal-conjectures file lists the logarithmic
+proved by this paper, cited as [KLR25] (page last edited 2025-10-24). The corpus
+counts this as documented independent acceptance by the site's curator, T. F.
+Bloom (erdosproblems.com). The formal-conjectures file lists the logarithmic
 form as solved without a formal proof, so the evidence lists no `formalized`
-kind. Not refereed: the preprint is at its first arXiv version and no journal
-version is recorded. Proof coverage: the card's digest only; the proof is
+kind. Not refereed: the preprint is at its first arXiv version, and no journal
+version is recorded. Proof coverage: the card's digest only. The proof is
 unverified by this corpus, and the standing rests on the site's acceptance.

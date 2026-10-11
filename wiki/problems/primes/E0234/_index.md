@@ -2,8 +2,8 @@
 name: problems/primes/E0234
 title: Problem 234
 desc: |
-  Asks whether the density of primes whose gap to the next prime is below c
-  times the logarithm exists for every c and varies continuously in c.
+  Asks whether, for every $c\ge0$, the density $f(c)$ of integers $n$ with
+  $p_{n+1}-p_n<c\log n$ exists and is a continuous function of $c$; open.
 tags:
 - Number theory
 - Primes

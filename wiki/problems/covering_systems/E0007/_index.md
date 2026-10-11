@@ -3,7 +3,7 @@ name: problems/covering_systems/E0007
 title: Problem 7
 desc: |
   Asks whether there is a covering system of congruences whose moduli are
-  distinct and all odd.
+  distinct and all odd; open.
 tags:
 - Number theory
 - Covering systems
@@ -33,24 +33,26 @@ The question asks whether one exists with every $n_i$ odd. The bound $n_i>1$
 matters, since the single class $0\pmod1$ covers every integer with an odd
 modulus.
 
-**Status.** Verifiable, the site's label for this open question. The exact
-unrestricted question is not settled by the finite exclusions below. Two
-full disproof claims from the site's discussion thread are recorded on claim
-pages, one
-[[problems/covering_systems/E0007/claims/2026_05_02_lee|rejected]] and one
-[[problems/covering_systems/E0007/claims/2026_01_11_gebyjaff|conditional on an unproved axiom]];
-four refereed exclusions of classes of odd coverings are accepted partial
-claims, by
+**Status.** Verifiable, the site's label for this open question. None of the
+claims below settles the exact unrestricted question, so the derived standing is
+open. Two full disproof claims from the site's discussion thread are recorded on
+claim pages. One is
+[[problems/covering_systems/E0007/claims/2026_05_02_lee|rejected]], and the
+other is
+[[problems/covering_systems/E0007/claims/2026_01_11_gebyjaff|conditional on an unproved axiom]].
+Four refereed exclusions of classes of odd coverings are accepted partial
+claims. They are by
 [[problems/covering_systems/E0007/claims/1987_01_01_berger_felzenbaum_fraenkel|Berger, Felzenbaum and Fraenkel]]
 for at most five primes, by
-[[problems/covering_systems/E0007/claims/2017_03_06_hough_nielsen|Hough and Nielsen]]
+[[problems/covering_systems/E0007/claims/2017_03_06_hough_nielsen|Hough and Nielsen]],
 and by Balister, Bollobás, Morris, Sahasrabudhe and Tiba for the
 [[problems/covering_systems/E0007/claims/2019_01_31_balister_bollobas_morris_sahasrabudhe_tiba|square-free case]]
 and the
 [[problems/covering_systems/E0007/claims/2018_11_08_balister_bollobas_morris_sahasrabudhe_tiba|period divisible by 9 or 15]].
-The [[problems/covering_systems/E0007/claims/2026_07_28_mian_siddique|Mian–Siddique]]
-exclusion of periods up to $10000$, with third-party Lean, is a pending
-partial claim. None settles the question, so the derived standing is open.
+The
+[[problems/covering_systems/E0007/claims/2026_07_28_mian_siddique|Mian–Siddique]]
+exclusion of periods up to $10000$, with third-party Lean, is a pending partial
+claim.
 
 **Source.** [erdosproblems.com/7](https://www.erdosproblems.com/7), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #7,

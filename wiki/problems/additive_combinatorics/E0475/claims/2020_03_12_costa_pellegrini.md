@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0475/claims/2020_03_12_costa_pellegrini
 title: Costa and Pellegrini's sizes up to twelve
 desc: |
-  Proposition 4.2 of Costa and Pellegrini (Arch. Math. 2020): every set of at
-  most twelve nonzero residues modulo any prime has an ordering with distinct
-  partial sums, by the Combinatorial Nullstellensatz; accepted, refereed.
+  Proposition 4.2 of Costa and Pellegrini (Arch. Math. 2020), accepted and
+  refereed, shows that every set of at most twelve nonzero residues modulo any
+  prime has an ordering with distinct partial sums. The proof uses the
+  Combinatorial Nullstellensatz.
 authors:
 - Simone Costa
 - Marco Antonio Pellegrini
@@ -57,9 +58,9 @@ $12$ is the paper's. Nothing about $13\le t\le p-4$ for a fixed prime.
 **Depends on.** Nothing in this wiki: the result is the paper's own, filed
 on its library result page.
 
-**Acceptance.** Refereed publication: Archiv der Mathematik (Basel) 115
-(2020), no. 5, 479--488, published online 29 August 2020 (Crossref record; the
-journal text is not held and was not compared with the arXiv version). The
-site's commentary credits the sizes $t\le12$ to this paper and its references,
-but the site's label DECIDABLE leaves the problem open and settles no part of
-it, so that credit is not `reviewed` evidence.
+**Acceptance.** Refereed publication: Archiv der Mathematik (Basel) 115 (2020),
+no. 5, 479--488, published online 29 August 2020 (Crossref record). The journal
+text is not held and was not compared with the arXiv version. The site's
+commentary credits the sizes $t\le12$ to this paper and its references. But the
+site's label DECIDABLE leaves the problem open and settles no part of it, so
+that credit is not `reviewed` evidence.

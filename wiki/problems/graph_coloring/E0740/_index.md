@@ -2,8 +2,9 @@
 name: problems/graph_coloring/E0740
 title: Problem 740
 desc: |
-  Asks whether a graph of infinite chromatic number m must contain a subgraph
-  of the same chromatic number with no odd cycle of length at most r.
+  Asks whether a graph of infinite chromatic number $\mathfrak{m}$ must contain
+  a subgraph of the same chromatic number with no odd cycle of length at most
+  $r$; a claimed disproof is pending.
 tags:
 - Graph theory
 - Chromatic number
@@ -37,16 +38,17 @@ result and keeps the label OPEN, so the site treats such a result as progress on
 an open problem, and this page does the same: the result is one side of an
 independence result and leaves the problem open.
 
-**Status.** Open on erdosproblems.com (label OPEN, accessed 2026-10-07). The
-site's notes call it a question of Erdős and Hajnal, record Rödl's theorem for
-$\mathfrak{m}=\aleph_0$ and $r=3$, and say that Erdős and Hajnal asked more
+**Status.** Open on erdosproblems.com, with the label OPEN (accessed
+2026-10-07). The label does not record the refereed consistency result of
+Komjáth and Shelah (1988). Under that result the statement, as a question about
+every infinite cardinal, is not a theorem of ZFC. That result is one side of an
+independence result and leaves the problem open, as the label does. A refutation
+in ZFC alone, Johan Land's 2026 claim, is pending. The site's notes call the
+problem a question of Erdős and Hajnal and record Rödl's theorem for
+$\mathfrak{m}=\aleph_0$ and $r=3$. They say that Erdős and Hajnal asked more
 generally for an $f_r(\mathfrak{m})$ such that chromatic number at least
 $f_r(\mathfrak{m})$ forces a subgraph of chromatic number $\mathfrak{m}$ with no
-odd cycle of length at most $r$. The label does not record the refereed
-consistency result of Komjáth and Shelah (1988), under which the statement, as a
-question about every infinite cardinal, is not a theorem of ZFC; that result is
-one side of an independence result and leaves the problem open, as the label
-does. A refutation in ZFC alone, Johan Land's 2026 claim, is pending.
+odd cycle of length at most $r$.
 
 **Source.** [erdosproblems.com/740](https://www.erdosproblems.com/740), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #740,

@@ -2,9 +2,8 @@
 name: problems/extremal_graph_theory/E0752
 title: Problem 752
 desc: |
-  Asks whether a graph with minimum degree k and no cycle of length at most
-  twice s must have at least a constant times k to the power s distinct cycle
-  lengths.
+  Asks whether a graph with minimum degree $k$ and girth greater than $2s$ must
+  have $\gg k^s$ distinct cycle lengths; proved.
 tags:
 - Graph theory
 - Cycles
@@ -26,10 +25,10 @@ updated: 2026-10-08T00:44:25Z
 $G$ contains no cycles of length $\leq 2s$). Must there be $\gg k^s$ many
 distinct cycle lengths in $G$?
 
-**Status.** Proved. The theorem of Sudakov and Verstraëte [SuVe08] that
-gives the answer yes is recorded on the claim page
+**Status.** Proved. The theorem of Sudakov and Verstraëte [SuVe08] gives the
+answer yes. It is recorded on the claim page
 [[problems/extremal_graph_theory/E0752/claims/2007_07_14_sudakov_verstraete|Sudakov and Verstraëte]],
-from which the frontmatter standing is derived; the earlier case $s=2$, by
+from which the frontmatter standing is derived. The earlier case $s=2$, by
 Erdős, Faudree, Rousseau and Schelp [EFRS99], has its own partial claim page
 [[problems/extremal_graph_theory/E0752/claims/1999_04_01_erdos_faudree_rousseau_schelp|Erdős, Faudree, Rousseau and Schelp]].
 

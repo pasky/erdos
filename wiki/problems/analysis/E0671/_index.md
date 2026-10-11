@@ -2,8 +2,10 @@
 name: problems/analysis/E0671
 title: Problem 671
 desc: |
-  Concerns sequences of Lagrange interpolation polynomials built on nodes in
-  the interval from minus one to one and how they behave as the degree grows.
+  Asks whether some nodes in $[-1,1]$ make the Lagrange interpolants of every
+  continuous $f$ converge to $f$ at some $x$ where the Lebesgue function is
+  unbounded, and whether this can happen when it is unbounded at every $x$.
+  Pending claims answer both yes; the site lists it as OPEN.
 tags:
 - Analysis
 status: claimed
@@ -59,14 +61,16 @@ $$
 $$
 
 **Status.** The site labels the problem OPEN (page last edited 23 January 2026).
-Two pending full claims on the site's proof-claims tab, both with declared AI
-assistance, answer both questions yes with one construction:
+The derived standing is claimed. Two pending full claims on the site's
+proof-claims tab, both with declared AI assistance, answer both questions yes
+with one construction. The first is
 [[problems/analysis/E0671/claims/2026_06_22_price|Price's claim]] of 22 June
-2026 (filed on the tab on 15 July), with a write-up and a Lean file, and
+2026 (filed on the tab on 15 July), with a write-up and a Lean file. The second
+is
 [[problems/analysis/E0671/claims/2026_07_24_quietmethod|QuietMethod's re-derivation]]
 of 24 July 2026, which declares itself a verification and refinement of the
-first. The site has accepted neither, this corpus has built neither Lean file,
-and the derived standing is claimed.
+first. The site has accepted neither, and this corpus has built neither Lean
+file.
 
 **Source.** [erdosproblems.com/671](https://www.erdosproblems.com/671), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #671,

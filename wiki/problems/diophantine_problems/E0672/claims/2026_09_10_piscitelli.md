@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0672/claims/2026_09_10_piscitelli
 title: A Lean proof of Euler's four-term case
 desc: |
-  D. Michael Piscitelli's Lean development, made with Claude Code, proving
-  that the product of four terms of a coprime positive arithmetic progression
-  is never a square, the case $(k,\ell)=(4,2)$; not built by this corpus.
+  D. Michael Piscitelli's Lean development, made with Claude Code, proves the
+  case $(k,\ell)=(4,2)$: the product of four terms of a coprime positive
+  arithmetic progression is never a square. This corpus has not built it.
 authors:
 - D. Michael Piscitelli
 status: claimed

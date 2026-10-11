@@ -2,9 +2,10 @@
 name: problems/analysis/E0517/claims/1927_01_01_biernacki
 title: Biernacki's theorem for exponents with convergent reciprocal sum
 desc: |
-  Biernacki proves that an entire gap series whose exponents have a
-  convergent reciprocal sum takes every value infinitely often, a subclass
-  of Problem 517 of any order; the venue's refereeing is not shown.
+  Biernacki proves that an entire gap series whose exponents satisfy
+  $\sum_k1/n_k<\infty$ takes every value infinitely often, which covers a
+  subclass of Problem 517 with functions of any order. The venue's refereeing is
+  not shown.
 authors: []
 status: claimed
 claim: proved

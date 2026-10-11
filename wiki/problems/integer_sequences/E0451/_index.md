@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0451
 title: Problem 451
 desc: |
-  Estimates the least integer above twice k for which the product of its k
-  preceding integers has no prime factor between k and twice k; claimed in a
-  2026 preprint to grow faster than any power of k, and at most exponential.
+  Asks for estimates of $n_k$, the least integer $>2k$ such that
+  $\prod_{1\le i\le k}(n_k-i)$ has no prime factor in $(k,2k)$; open. A 2026
+  preprint claims that $n_k$ grows faster than any power of $k$, and an
+  elementary bound makes it at most exponential in $k$.
 tags:
 - Number theory
 status: open
@@ -38,25 +39,24 @@ being $s+k$ and the 1979 $m_k$ being $s-1$, so $n_k=m_k+k+1$ (a substitution
 made here). The site's source keys are [Er79d, p. 78] and [ErGr80, p. 89];
 its commentary cites [vDTa26] and points to Problem 1095.
 
-**Status.** Open. The estimate is not settled: the best lower bound claimed is
-$n_k>\exp(\log^2k/(20\log\log k))$ for all sufficiently large $k$, Theorem 1.1
-of van Doorn and Tang (arXiv:2606.19863v1, 18 June 2026; a preprint, taken
-into the site's commentary on 21 June 2026), which would confirm Erdős's
-expectation that $n_k$ grows faster than every power of $k$ and is recorded
-as a claimed partial claim on
+**Status.** Open. The estimate is not settled. The best lower bound claimed is
+$n_k>\exp(\log^2k/(20\log\log k))$ for all sufficiently large $k$. It is Theorem
+1.1 of van Doorn and Tang (arXiv:2606.19863v1, 18 June 2026), a preprint taken
+into the site's commentary on 21 June 2026. It would confirm Erdős's expectation
+that $n_k$ grows faster than every power of $k$. It is recorded as a claimed
+partial claim on
 [[problems/integer_sequences/E0451/claims/2026_06_18_van_doorn_tang|the van Doorn--Tang claim page]],
-since the site's commentary on a problem it labels OPEN is no acceptance; the
-best upper bound is the elementary $n_k\le\prod_{k<p<2k}p=e^{(1+o(1))k}$; Erdős
-expected $n_k<e^{\epsilon k}$ for every $\epsilon>0$, and a heuristic in the
-thread and the paper puts the truth at $\exp(\Theta(k/\log k))$. Before 2026 the
-only lower bound was the monograph's unproved sentence "We can prove
-$n_k>k^{1+c}$". The preprint's declaration credits the idea of its argument to
-ChatGPT 5.5 Pro and its Lean formalization to Aristotle, Harmonic's automated
-prover; the provenance is recorded below without changing the standing of the
-bound, which is progress on an open question, not its resolution. No source
-narrowing the gap further was found in the search whose
-scope the Current assessment records; this is a bounded negative finding, not a
-certificate of openness.
+since the site's commentary on a problem it labels OPEN is no acceptance. The
+best upper bound is the elementary $n_k\le\prod_{k<p<2k}p=e^{(1+o(1))k}$. Erdős
+expected $n_k<e^{\epsilon k}$ for every $\epsilon>0$. A heuristic in the thread
+and the paper puts the truth at $\exp(\Theta(k/\log k))$. Before 2026 the only
+lower bound was the monograph's unproved sentence "We can prove $n_k>k^{1+c}$".
+The preprint's declaration credits the idea of its argument to ChatGPT 5.5 Pro
+and its Lean formalization to Aristotle, Harmonic's automated prover. This
+provenance is recorded below and does not change the standing of the bound,
+which is progress on an open question, not its resolution. No source narrowing
+the gap further was found in the search whose scope the Current assessment
+records. This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/451](https://www.erdosproblems.com/451),
 accessed 2026-09-18: the problem page (OPEN, with the

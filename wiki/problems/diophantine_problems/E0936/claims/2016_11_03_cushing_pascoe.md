@@ -47,6 +47,6 @@ claim gives no unconditional answer and settles no standing of the problem.
 **Depends on.** No other wiki page; the claim rests on the cited preprint and
 the hypothesis stated above.
 
-**Acceptance.** None. The paper is an arXiv preprint with no journal version
-found, and the site labels the problem OPEN, so the site's commentary crediting
-the paper is not acceptance.
+**Acceptance.** None. The paper is an arXiv preprint, and no journal version was
+found. The site labels the problem OPEN, so the site's commentary crediting the
+paper is not acceptance.

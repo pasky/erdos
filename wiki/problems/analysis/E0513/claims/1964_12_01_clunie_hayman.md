@@ -2,9 +2,9 @@
 name: problems/analysis/E0513/claims/1964_12_01_clunie_hayman
 title: "Clunie and Hayman: 4/7 < B <= 2/pi - c"
 desc: |
-  Clunie and Hayman prove that the maximum-term constant B lies strictly
-  above 4/7 and at most 2/pi minus an absolute positive constant; refereed in
-  J. Analyse Math., the best refereed bounds on B.
+  Clunie and Hayman prove that the maximum-term constant $B$ satisfies
+  $4/7<B\le2/\pi-c$ for an absolute constant $c>0$. Their paper in J. Analyse
+  Math. is refereed and gives the best refereed bounds on $B$.
 authors:
 - J. Clunie
 - W. K. Hayman
@@ -52,16 +52,15 @@ pages of the folder assert larger lower bounds.
 **Depends on.** Nothing in this wiki: the argument is the paper's own.
 
 **Acceptance.** Refereed: the paper appeared in the Journal d'Analyse
-Mathématique, a refereed journal. The site's commentary credits the two
-bounds to the paper, but the site labels the problem OPEN, so that credit
-is not acceptance of the problem and the page lists no `reviewed`
-evidence. Later lower bounds that supersede $4/7$ are
-[[problems/analysis/E0513/claims/2026_02_12_he_tang|He and Tang's certified
-lower bound]],
-[[problems/analysis/E0513/claims/2026_02_27_sothanaphan|Sothanaphan's
-certified parameter improvement]] and
-[[problems/analysis/E0513/claims/2026_08_02_lystad|Lystad's certified lower
-bound]], all pending; the upper bound stands.
+Mathématique, a refereed journal. The site's commentary credits the two bounds
+to the paper, but the site labels the problem OPEN, so that credit is not
+acceptance of the problem and the page lists no `reviewed` evidence. Three later
+lower bounds supersede $4/7$, all pending:
+[[problems/analysis/E0513/claims/2026_02_12_he_tang|He and Tang's certified lower bound]],
+[[problems/analysis/E0513/claims/2026_02_27_sothanaphan|Sothanaphan's certified parameter improvement]]
+and
+[[problems/analysis/E0513/claims/2026_08_02_lystad|Lystad's certified lower bound]].
+The upper bound stands.
 
 **Dating.** The page is dated by the issue month in the publisher's record
 (Crossref), December 1964; the day is a placeholder.

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0064/claims/2004_01_01_markstrom
 title: Markström's exhaustive search of small cubic graphs
 desc: |
-  Markström (Congressus Numerantium 2004) reports an exhaustive computer
-  search showing that every cubic graph on fewer than 30 vertices has a cycle
-  of length 4 or 8; a proceedings paper with an author-reported computation.
+  Markström (Congressus Numerantium 2004) reports an exhaustive computer search
+  showing that every cubic graph on fewer than 30 vertices has a cycle of length
+  4 or 8. It is a proceedings paper, and the computation is reported by the
+  author.
 authors:
 - Klas Markström
 status: claimed

@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0811/claims/1993_01_01_erdos_tuza
 title: Erdős and Tuza force rainbow triangles, four-cycles and forests
 desc: |
-  Erdős and Tuza (Ann. Discrete Math. 55 (1993)) bound d(n,F) for the
+  Erdős and Tuza (Ann. Discrete Math. 55 (1993)) bound $d(n,F)$ for the
   triangle, the four-cycle and every forest, which puts these graphs in the
-  answer set; a book chapter with no documented refereeing.
+  answer set. The work is a book chapter with no documented refereeing.
 authors:
 - Paul Erdős
 - Zsolt Tuza

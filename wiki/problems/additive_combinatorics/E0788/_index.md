@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0788
 title: Problem 788
 desc: |
-  The least total size of a set B in (2n, 4n) plus a largest C in (n, 2n) whose
-  distinct pairs never sum into B; Choi's interval function, between n^(1/2) and
-  n^(3/5+o(1)), with an unreviewed 2026 claim of the conjectured n^(1/2+o(1)).
+  Asks for the least value, over $B\subset(2n,4n)$, of $|B|$ plus the size of a
+  largest $C\subset(n,2n)$ whose sums of distinct pairs avoid $B$. Choi's
+  interval function lies between $n^{1/2}$ and $n^{3/5+o(1)}$, and an unreviewed
+  2026 claim asserts the conjectured $n^{1/2+o(1)}$.
 tags:
 - Additive combinatorics
 status: claimed
@@ -39,34 +40,36 @@ $[2n,4n)$ and $[n,2n)$ and Erdős and the site the open ones; the conventions
 differ by at most one element in each interval and the asymptotic
 statements are unaffected. The site's source key is [Er73].
 
-**Status.** Open, the site's label. The bounds in hand are $n^{1/2}\ll f(n)\le
-n^{3/5+o(1)}$. The lower bound is elementary: the greedy argument of Baltz,
-Schoen and Srivastav (p. 172, $f(n)\ge\sqrt n$; Colloq. Math. 86 (2000),
-refereed) and the interval construction the site credits to its discussion
-thread ($f(n)\ge2\sqrt n-2$). Choi's $f(n)\ll n^{3/4}$ and his conjecture
-$f(n)\le n^{1/2+o(1)}$ (1971, not held) are attested by Erdős 1973 and by the
-2000 paper, whose Theorem 2 gives the best refereed upper bound found,
-$f(n)=O((n\log n)^{2/3})$; both are accepted partial claims, on
+**Status.** Open, the site's label. The label was OPEN on 2026-09-18 and on
+2026-10-06. A full proof claim on the site's tab (19 July 2026) claims
+$c\sqrt{n\log n}\le f(n)\le n^{1/2+O((\log\log n/\log n)^{1/3})}$, hence
+$f(n)=n^{1/2+o(1)}$. The abstract of its manuscript ends "This proposed solution
+was found by GPT-5." The site's commentary does not adopt the claim. It is
+recorded as a pending full claim on
+[[problems/additive_combinatorics/E0788/claims/2026_07_19_wang|its claim page]],
+with the manuscript's own provenance and its Lean development, which the corpus
+has not built. The frontmatter standing derives from that pending claim.
+
+The bounds in hand are $n^{1/2}\ll f(n)\le n^{3/5+o(1)}$. The lower bound is
+elementary. It comes from the greedy argument of Baltz, Schoen and Srivastav (p.
+172, $f(n)\ge\sqrt n$; Colloq. Math. 86 (2000), refereed) and from the interval
+construction the site credits to its discussion thread ($f(n)\ge2\sqrt n-2$).
+Choi's $f(n)\ll n^{3/4}$ and his conjecture $f(n)\le n^{1/2+o(1)}$ (1971, not
+held) are attested by Erdős 1973 and by the 2000 paper. Theorem 2 of that paper
+gives the best refereed upper bound found, $f(n)=O((n\log n)^{2/3})$. Both are
+accepted partial claims, on
 [[problems/additive_combinatorics/E0788/claims/1971_12_01_choi|Choi's claim page]]
 and
 [[problems/additive_combinatorics/E0788/claims/2000_01_01_baltz_schoen_srivastav|the claim page of Baltz, Schoen and Srivastav]].
-The bound $n^{3/5+o(1)}$ is the site's own account: a reduction to the
-independence number of a random Cayley sum graph sketched in the thread,
-combined with Theorem 4 of Alon and Pham's 2025 preprint (independence number
-$\tilde O(p^{-3/2})$; arXiv:2509.02561v1), which the site's commentary adopts;
-the conjectured $\tilde O(p^{-1})$ would give $n^{1/2+o(1)}$. That route has no claim page: it is a
-reduction posted in the thread (20 January 2026), not a dated manuscript; its
-input is a preprint theorem that does not mention the problem; and the two
-Lean files linked from the thread take that theorem as an assumption. A full
-proof claim on the site's tab (19 July 2026) claims $c\sqrt{n\log n}\le
-f(n)\le n^{1/2+O((\log\log n/\log n)^{1/3})}$, hence $f(n)=n^{1/2+o(1)}$, in a
-manuscript whose abstract ends "This proposed solution was found by GPT-5.";
-the site's label was OPEN on 2026-09-18 and on 2026-10-06, and its commentary
-does not adopt the claim, which is recorded as a pending full claim on
-[[problems/additive_combinatorics/E0788/claims/2026_07_19_wang|its claim page]]
-with the manuscript's own provenance and its Lean development, which the
-corpus has not built. The frontmatter standing derives from that pending
-claim.
+The bound $n^{3/5+o(1)}$ is the site's own account. It combines a reduction to
+the independence number of a random Cayley sum graph, sketched in the thread,
+with Theorem 4 of Alon and Pham's 2025 preprint (independence number
+$\tilde O(p^{-3/2})$; arXiv:2509.02561v1), which the site's commentary adopts.
+The conjectured $\tilde O(p^{-1})$ would give $n^{1/2+o(1)}$. That route has no
+claim page, for three reasons. It is a reduction posted in the thread (20
+January 2026), not a dated manuscript. Its input is a preprint theorem that does
+not mention the problem. The two Lean files linked from the thread take that
+theorem as an assumption.
 
 **Source.** [erdosproblems.com/788](https://www.erdosproblems.com/788),
 accessed 2026-09-18: the problem page (OPEN, a label the site explains as not

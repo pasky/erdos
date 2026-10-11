@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0914
 title: Problem 914
 desc: |
-  Asks whether every graph on rm vertices with minimum degree at least m(r−1)
-  has m vertex-disjoint copies of K_r; Erdős's conjecture, proved by Hajnal
-  and Szemerédi in 1970 and reproved in refereed papers of 2008 and 2010.
+  Asks whether every graph on $rm$ vertices with minimum degree at least
+  $m(r-1)$ has $m$ vertex-disjoint copies of $K_r$. This is Erdős's conjecture,
+  proved by Hajnal and Szemerédi in 1970 and reproved in refereed papers of 2008
+  and 2010.
 tags:
 - Graph theory
 status: solved
@@ -37,36 +38,39 @@ Dirac's theorem gives through a Hamiltonian cycle. The site's label PROVED
 (LEAN) carries a catalog suffix explained under Formalization.
 
 **Status.** Proved. The statement is the Hajnal--Szemerédi theorem of 1970 in
-its clique form. The status-defining text is Theorem 1 of Kierstead, Kostochka,
-Mydlarz and Szemerédi, *A fast algorithm for equitable coloring*, Combinatorica
-30 (2010), 217--224 (refereed): "Every graph with maximum degree at most $r$
-has an equitable $(r+1)$-coloring", which the paper attributes to Hajnal and
-Szemerédi (1970) as a theorem "which had been conjectured by Erdős" and proves
-again in its Section 2. The one-line transfer to the site's statement is
-written below. The site's two proof sources are not held: the original proof
-[HaSz70] (a Bolyai Society volume of 1970, print only) and the short proof
-[KiKo08] (Combin. Probab. Comput. 17 (2008), 265--270), so their exact
-statements are known through the 2010 paper's attribution and the site; the
-cases $r=2$ (Dirac's theorem,
-[[problems/extremal_graph_theory/E0914/claims/1952_01_01_dirac|claim page]])
-and $r=3$ ([CoHa63], not held;
-[[problems/extremal_graph_theory/E0914/claims/1963_09_01_corradi_hajnal|claim page]])
-are second-hand, each an accepted partial claim on the site's credit and its
-journal publication. Acceptance evidence: the refereed 2010 paper, which states
-the theorem and proves it; the site's label; the community database. The site's
-"(LEAN)" attaches to an external Lean proof of the clique form, inspected
-statically and described under Formalization; it gives no `formalized`
-evidence. The claim pages are
-[[problems/extremal_graph_theory/E0914/claims/1970_01_01_hajnal_szemeredi|Hajnal and Szemerédi]]
-(accepted on the site's credit and Kierstead and Kostochka's independent
-refereed proof; the 2010 paper shares an author with it),
+its clique form. The claim pages are
+[[problems/extremal_graph_theory/E0914/claims/1970_01_01_hajnal_szemeredi|Hajnal and Szemerédi]],
 [[problems/extremal_graph_theory/E0914/claims/2008_03_01_kierstead_kostochka|Kierstead and Kostochka]]
 and
-[[problems/extremal_graph_theory/E0914/claims/2010_03_01_kierstead_kostochka_mydlarz_szemeredi|Kierstead, Kostochka, Mydlarz and Szemerédi]]
-(accepted, refereed), from which the frontmatter standing is derived; the
-external Lean proof behind the site's suffix declares itself a formalization of
-Kierstead and Kostochka's proof and is recorded as a formalization link on
-their page; this project has not built it.
+[[problems/extremal_graph_theory/E0914/claims/2010_03_01_kierstead_kostochka_mydlarz_szemeredi|Kierstead, Kostochka, Mydlarz and Szemerédi]],
+and the frontmatter standing is derived from them. The first is accepted on the
+site's credit and Kierstead and Kostochka's independent refereed proof. The 2010
+paper shares an author with it. The other two are accepted and refereed. The
+cases $r=2$ (Dirac's theorem,
+[[problems/extremal_graph_theory/E0914/claims/1952_01_01_dirac|claim page]]) and
+$r=3$ ([CoHa63], not held;
+[[problems/extremal_graph_theory/E0914/claims/1963_09_01_corradi_hajnal|claim page]])
+are second-hand. Each is an accepted partial claim on the site's credit and its
+journal publication.
+
+The status-defining text is Theorem 1 of Kierstead, Kostochka, Mydlarz and
+Szemerédi, *A fast algorithm for equitable coloring*, Combinatorica 30 (2010),
+217--224 (refereed): "Every graph with maximum degree at most $r$ has an
+equitable $(r+1)$-coloring". The paper attributes this to Hajnal and Szemerédi
+(1970), as a theorem "which had been conjectured by Erdős", and proves it again
+in its Section 2. The one-line transfer to the site's statement is written
+below. The site's two proof sources are not held. They are the original proof
+[HaSz70] (a Bolyai Society volume of 1970, print only) and the short proof
+[KiKo08] (Combin. Probab. Comput. 17 (2008), 265--270). Their exact statements
+are therefore known through the 2010 paper's attribution and the site. The
+acceptance evidence is the refereed 2010 paper, which states the theorem and
+proves it, the site's label and the community database.
+
+The site's "(LEAN)" attaches to an external Lean proof of the clique form,
+inspected statically and described under Formalization. It declares itself a
+formalization of Kierstead and Kostochka's proof and is recorded as a
+formalization link on their page. This project has not built it, and it gives no
+`formalized` evidence.
 
 **Source.** [erdosproblems.com/914](https://www.erdosproblems.com/914),
 accessed 2026-09-19: the problem page (PROVED (LEAN), the site's label for a

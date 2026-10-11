@@ -2,8 +2,9 @@
 name: problems/primes/E0218
 title: Problem 218
 desc: |
-  Asks whether consecutive prime gaps increase half the time and decrease half
-  the time, and whether two consecutive gaps are equal infinitely often.
+  Asks whether the $n$ with $d_{n+1}\ge d_n$ and those with $d_{n+1}\le d_n$
+  each have density $1/2$, where $d_n=p_{n+1}-p_n$, and whether $d_{n+1}=d_n$
+  for infinitely many $n$; open.
 tags:
 - Number theory
 - Primes

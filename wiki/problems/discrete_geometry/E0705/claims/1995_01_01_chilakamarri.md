@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0705/claims/1995_01_01_chilakamarri
 title: Chilakamarri's triangle-free 4-chromatic unit distance graphs
 desc: |
-  Chilakamarri (1995) gives an infinite family of 4-chromatic unit distance
-  graphs of girth 4, the smallest on 47 vertices, so no girth bound k at most
-  4 forces 3-colorability.
+  Chilakamarri (1995) gives an infinite family of $4$-chromatic unit distance
+  graphs of girth $4$, the smallest on $47$ vertices, so no girth bound $k\le4$
+  forces $3$-colorability.
 authors:
 - Kiran B. Chilakamarri
 status: claimed

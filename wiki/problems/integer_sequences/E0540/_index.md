@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0540
 title: Problem 540
 desc: |
-  Asks whether any subset of the integers modulo N of size at least a constant
-  times the square root of N has a non-empty subset summing to zero modulo N;
-  proved by Szemerédi in 1970 for all finite abelian groups.
+  Asks whether every $A\subseteq\mathbb{Z}/N\mathbb{Z}$ with $|A|\gg N^{1/2}$
+  has a non-empty subset summing to $0$ modulo $N$; proved by Szemerédi in 1970
+  for all finite abelian groups.
 tags:
 - Number theory
 status: solved
@@ -42,34 +42,37 @@ Selfridge's conjecture (1976; monograph p. 95; Balandraud's Theorem 9): the
 largest zero-sum free subset of $\mathbb Z/p\mathbb Z$ has $k$ elements where
 $k$ is the greatest integer with $k(k+1)/2<p$.
 
-**Status.** The site's label is PROVED (LEAN). Szemerédi's Theorem (Acta Arith.
-1970, refereed) gives $c>0$ and $n_0$ such that for every $n>n_0$, every abelian
-group of order $n$ and every subset $A$ with $|A|\ge c\sqrt n$, $0$ is a sum of
-a nonempty subset of $A$; for $n\le n_0$ any $c\ge\sqrt{n_0}$ makes
-$c\sqrt n\ge n$, so only $A=\mathbb Z/n\mathbb Z\ni0$ qualifies, and one
-constant serves every $N$ (a one-line remark on this page). The standing derives
-from the claim page
+**Status.** The site's label is PROVED (LEAN). The standing derives from the
+claim page
 [[problems/integer_sequences/E0540/claims/1969_05_15_szemeredi|Szemerédi's theorem]],
 accepted on the refereed publication and the site's acceptance, so the problem
-is solved, proved. Refinements, each with its claim page: Olson (1968, Theorem
-1) proved the prime case with the threshold $s>(4p-3)^{1/2}$, hence with the
-constant $2$
-([[problems/integer_sequences/E0540/claims/1968_07_01_olson|Olson (1968)]]);
+is solved, proved. Szemerédi's Theorem (Acta Arith. 1970, refereed) gives $c>0$
+and $n_0$ with the following property: for every $n>n_0$, every abelian group of
+order $n$ and every subset $A$ with $|A|\ge c\sqrt n$, $0$ is a sum of a
+nonempty subset of $A$. For $n\le n_0$, any $c\ge\sqrt{n_0}$ makes
+$c\sqrt n\ge n$, so only $A=\mathbb Z/n\mathbb Z\ni0$ qualifies. Hence one
+constant serves every $N$ (a one-line remark on this page). The site's (LEAN)
+suffix is a catalog label explained under Formalization and the Lean label
+below.
+
+Each refinement has its claim page. Olson (1968, Theorem 1) proved the prime
+case with the threshold $s>(4p-3)^{1/2}$, hence with the constant $2$
+([[problems/integer_sequences/E0540/claims/1968_07_01_olson|Olson (1968)]]).
 Hamidoune and Zémor (1996) proved $|S|\ge\sqrt{2p}+5\ln p$ for prime order and
-$|S|>\sqrt{2n}+O(n^{1/3}\ln n)$ for every finite abelian group of order $n$, a
-second full proof
-([[problems/integer_sequences/E0540/claims/1996_01_18_hamidoune_zemor|Hamidoune and Zémor (1996)]]);
+$|S|>\sqrt{2n}+O(n^{1/3}\ln n)$ for every finite abelian group of order $n$.
+This is a second full proof
+([[problems/integer_sequences/E0540/claims/1996_01_18_hamidoune_zemor|Hamidoune and Zémor (1996)]]).
 Balandraud (2012) proved Selfridge's exact value for primes, which makes the
 threshold $\sqrt{2p}+O(1)$ there
 ([[problems/integer_sequences/E0540/claims/2009_07_20_balandraud|Balandraud (2012)]]).
 The constant $\sqrt2$ for composite $N$ (beyond the $o(1)$ term) remains open.
-For non-abelian groups, Erdős (1973) recorded the case as unsettled; Hamidoune
+
+For non-abelian groups, Erdős (1973) recorded the case as unsettled. Hamidoune
 and Zémor's introduction (p. 143) credits Olson's 1975 paper with the constant
-$3$ "in the case of an arbitrary finite group", while their Theorem 2.5 states
-his result for abelian groups. Olson's 1975 paper is not carded, so this page
-leaves open whether it settles the non-abelian question, and the paper has no
-claim page. The site's (LEAN) suffix is a catalog label explained under
-Formalization and the Lean label below.
+$3$ "in the case of an arbitrary finite group". Their Theorem 2.5, however,
+states his result for abelian groups. Olson's 1975 paper is not carded, so this
+page leaves open whether it settles the non-abelian question. The paper has no
+claim page.
 
 **Source.** [erdosproblems.com/540](https://www.erdosproblems.com/540), accessed
 2026-09-18: the problem page (PROVED (LEAN), the site's label for a positive

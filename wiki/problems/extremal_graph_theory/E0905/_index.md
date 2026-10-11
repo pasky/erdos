@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0905
 title: Problem 905
 desc: |
-  Asks whether every graph on n vertices with more than n^2/4 edges has an
-  edge on at least n/6 triangles; proved by Khadzhiivanov and Nikiforov in
-  1979, by Edwards (unpublished) and by Bollobás and Nikiforov in 2005.
+  Asks whether every graph on $n$ vertices with more than $n^2/4$ edges has an
+  edge in at least $n/6$ triangles. Proved by Khadzhiivanov and Nikiforov in
+  1979, by Edwards (unpublished), and by Bollobás and Nikiforov in 2005.
 tags:
 - Graph theory
 status: solved
@@ -45,58 +45,66 @@ least $2m/n-n/3$, which is $7/6$, $17/15$ and $4/3$ there; it holds at $n=3$
 $13$ edges and every edge on at most two triangles. The site's label PROVED
 (LEAN) carries a catalog suffix explained under Formalization.
 
-**Status.** Proved. The status-defining source the site names, N. G.
+**Status.** Proved. The status-defining source the site names is N. G.
 Khadzhiivanov and V. Nikiforov, *Solution of a problem of P. Erdős about the
-maximum number of triangles with a common edge in a graph*, C. R. Acad.
-Bulgare Sci. 32 (1979), no. 10, 1315--1318 [KhNi79] (the site's reference text
-prints the second author as "S. V. Nikiforov"; the 1988 paper, Fox and Loh and
-Bollobás and Nikiforov give V. Nikiforov), is not held and has no online
-record located, and the site marks its second prover, Edwards, as
-unpublished. The label rests on five sources. First, the refereed paper of
-Bollobás and Nikiforov, *Books in
-graphs*, European J. Combin. 26 (2005) [BoNi05], cited from its arXiv version:
-its Corollary 3 states that every $G(n,\lfloor n^2/4\rfloor+1)$ has a book of
-size greater than $n/6$, and the proof of its Corollary 2 derives
-$6\,\mathrm{bk}(G)>n$ for every $m>n^2/4$ from a counting inequality (its
-Theorem 1) that uses arguments of the 1979 note; a complete proof of the
-statement in a refereed journal, whose introduction credits the first proofs
-to Edwards's unpublished manuscript and, independently, to [KhNi79]. Second,
-the 1988 paper of Khadzhiivanov
-([[../library/extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/_index|khadzhiivanov_1988_maximal_number_triangles_common_edge]],
-Annuaire Univ. Sofia 82 (1988), 37--49, in Russian; a university journal),
-which states the problem in the site's exact form, attributes its complete
-solution to the 1979 note with Nikiforov, and proves it again with a surplus
-as its
-[[../library/extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/corollary_3|Corollary 3]]:
-if $e>\lfloor n^2/4\rfloor$ then $\hat t>n/6$, from the inequality
-$(3t+\bar t)\hat t\ge nt$ (its Theorem 1, which the paper says, in
-translation, the 1979 note proves a little differently) and the bound
-$\sum_vd(v)^2>ne$ (its Lemma 4); its statements are checked clause by clause
-and its proofs only for structure. Third, a refereed attestation: Fox and Loh
-(Combinatorica 32 (2012); p. 2 of the preprint, recorded on
-[[../library/ramsey_theory/fox_2012_problem_erdos_rothschild_edges_triangles/theorem_1_1|the card for Problem 80]])
-state that Edwards and Khadzhiivanov and Nikiforov proved that every
-$n$-vertex graph with more than $n^2/4$ edges has an edge in at least $n/6$
-triangles. Fourth, the site's account and the community database. Fifth, the
-external Lean file named by the formal-conjectures statement, which has no
-recorded build (Formalization). The 1979 text itself is not held, so the exact
-statement it proves and its proof are known through the 1988 paper's own
-account and [BoNi05]'s attribution. Erdős's own 1982 report of the problem's
-history ([Er82e], p. 71) is quoted below with a contradiction it carries into
-Problem 1033. The claim pages are
+maximum number of triangles with a common edge in a graph*, C. R. Acad. Bulgare
+Sci. 32 (1979), no. 10, 1315--1318 [KhNi79]. It is not held, and no online
+record of it has been located. The site's reference text prints the second
+author as "S. V. Nikiforov"; the 1988 paper, Fox and Loh, and Bollobás and
+Nikiforov give V. Nikiforov. The site marks its second prover, Edwards, as
+unpublished.
+
+There are three claim pages, and the frontmatter standing is derived from the
+accepted pages.
 [[problems/extremal_graph_theory/E0905/claims/1979_10_01_khadzhiivanov_nikiforov|Khadzhiivanov and Nikiforov]]
-(accepted on the 1988 reproof, Fox and Loh's attestation and the site's
-credit; the frontmatter standing is derived from the accepted pages),
+is accepted on the 1988 reproof, Fox and Loh's attestation and the site's
+credit.
 [[problems/extremal_graph_theory/E0905/claims/2004_05_05_bollobas_nikiforov|Bollobás and Nikiforov]]
-(accepted on the refereed publication; its second author shares the 1979
+is accepted on the refereed publication. Its second author shares the 1979
 coauthor's name, so it is not counted as independent acceptance of the 1979
-note) and
-[[problems/extremal_graph_theory/E0905/claims/1977_01_01_edwards|Edwards]]
-(accepted on the site's curator's credit; the proof was never published, and
+note. [[problems/extremal_graph_theory/E0905/claims/1977_01_01_edwards|Edwards]]
+is accepted on the site's curator's credit. That proof was never published, and
 Khadzhiivanov's 1988 paper reads the 1978 announcement as not solving the
-conjecture); the external Lean proof behind the site's suffix declares itself
-a formalization of the 1979 note's result and is recorded as a formalization
-link on the first page, with no build of it recorded.
+conjecture. The external Lean proof behind the site's suffix declares itself a
+formalization of the 1979 note's result. It is recorded as a formalization link
+on the first page, and no build of it is recorded.
+
+The label rests on five sources. First, the refereed paper of Bollobás and
+Nikiforov, *Books in graphs*, European J. Combin. 26 (2005) [BoNi05], cited from
+its arXiv version. Its Corollary 3 states that every
+$G(n,\lfloor n^2/4\rfloor+1)$ has a book of size greater than $n/6$. The proof
+of its Corollary 2 derives $6\,\mathrm{bk}(G)>n$ for every $m>n^2/4$ from a
+counting inequality (its Theorem 1) that uses arguments of the 1979 note. This
+is a complete proof of the statement in a refereed journal. Its introduction
+credits the first proofs to Edwards's unpublished manuscript and, independently,
+to [KhNi79].
+
+Second, the 1988 paper of Khadzhiivanov
+([[../library/extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/_index|khadzhiivanov_1988_maximal_number_triangles_common_edge]],
+Annuaire Univ. Sofia 82 (1988), 37--49, in Russian; a university journal). It
+states the problem in the site's exact form and attributes its complete solution
+to the 1979 note with Nikiforov. It proves the result again, with a surplus, as
+its
+[[../library/extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/corollary_3|Corollary 3]]:
+if $e>\lfloor n^2/4\rfloor$ then $\hat t>n/6$. The proof uses the inequality
+$(3t+\bar t)\hat t\ge nt$ and the bound $\sum_vd(v)^2>ne$ (its Lemma 4). The
+inequality is its Theorem 1, which the paper says, in translation, the 1979 note
+proves a little differently. The paper's statements are checked clause by
+clause, and its proofs only for structure.
+
+Third, a refereed attestation. Fox and Loh (Combinatorica 32 (2012); p. 2 of the
+preprint, recorded on
+[[../library/ramsey_theory/fox_2012_problem_erdos_rothschild_edges_triangles/theorem_1_1|the card for Problem 80]])
+state that Edwards and Khadzhiivanov and Nikiforov proved that every $n$-vertex
+graph with more than $n^2/4$ edges has an edge in at least $n/6$ triangles.
+Fourth, the site's account and the community database. Fifth, the external Lean
+file named by the formal-conjectures statement, which has no recorded build
+(Formalization).
+
+The 1979 text itself is not held. So the exact statement it proves, and its
+proof, are known through the 1988 paper's own account and [BoNi05]'s
+attribution. Erdős's own 1982 report of the problem's history ([Er82e], p. 71)
+is quoted below, with a contradiction it carries into Problem 1033.
 
 **Source.** [erdosproblems.com/905](https://www.erdosproblems.com/905),
 accessed 2026-09-18: the problem page (PROVED (LEAN), the site's label for a

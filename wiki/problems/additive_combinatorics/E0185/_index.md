@@ -2,8 +2,8 @@
 name: problems/additive_combinatorics/E0185
 title: Problem 185
 desc: |
-  Asks whether the largest subset of the ternary cube of dimension n with no
-  three points on a line has size a vanishing fraction of three to the n.
+  Asks whether $f_3(n)=o(3^n)$, where $f_3(n)$ is the largest size of a subset
+  of $\{0,1,2\}^n$ with no three points on a line; proved.
 tags:
 - Additive combinatorics
 status: solved
@@ -23,21 +23,21 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Let $f_3(n)$ be the maximal size of a subset of $\{0,1,2\}^n$
 which contains no three points on a line. Is it true that $f_3(n)=o(3^n)$?
 
-**Status.** PROVED (LEAN): the site's label. The answer is yes, a
-corollary of the density Hales--Jewett theorem of Furstenberg and
-Katznelson, since the three points of a combinatorial line in $\{0,1,2\}^n$
-are collinear
-([[problems/additive_combinatorics/E0185/claims/1991_12_01_furstenberg_katznelson|claim page]]),
-accepted on the theorem's refereed publication and the site's adoption, and
-through the shorter proof of the theorem by Dodos, Kanellopoulos and Tyros
+**Status.** PROVED (LEAN), the site's label. The answer is yes, as a corollary
+of the density Hales--Jewett theorem of Furstenberg and Katznelson, since the
+three points of a combinatorial line in $\{0,1,2\}^n$ are collinear
+([[problems/additive_combinatorics/E0185/claims/1991_12_01_furstenberg_katznelson|claim page]]).
+That claim is accepted on the theorem's refereed publication and the site's
+adoption. The answer also follows through the shorter proof of the theorem by
+Dodos, Kanellopoulos and Tyros
 ([[problems/additive_combinatorics/E0185/claims/2012_09_22_dodos_kanellopoulos_tyros|claim page]]),
-accepted on its refereed publication alone; neither rests on any review by
-this project. The site's Lean marker traces to the community database's
-Lean record and to the Lean development in Boris Alexeev's lean-proofs
-repository that declares itself a formalization of the problem through the
-Dodos--Kanellopoulos--Tyros argument, linked on their claim page; this
-corpus has not built or audited it, so no claim lists `formalized` evidence
-(see Formalization).
+accepted on its refereed publication alone. Neither rests on any review by this
+project. The site's Lean marker traces to the community database's Lean record.
+It also traces to the Lean development in Boris Alexeev's lean-proofs repository
+that declares itself a formalization of the problem through the
+Dodos--Kanellopoulos--Tyros argument, which is linked on their claim page. This
+corpus has not built or audited it, so no claim lists `formalized` evidence (see
+Formalization).
 
 **Source.** [erdosproblems.com/185](https://www.erdosproblems.com/185), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #185,

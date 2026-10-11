@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0565
 title: Problem 565
 desc: |
-  Bounds the induced Ramsey number, the fewest vertices of a host graph in
-  which every two-coloring of the edges gives an induced monochromatic copy
-  of a graph.
+  Asks whether $R^*(G)\le2^{O(n)}$ for every graph $G$ on $n$ vertices, where
+  the induced Ramsey number $R^*(G)$ is the fewest vertices of a graph in which
+  every two-coloring of the edges gives an induced monochromatic copy of $G$;
+  proved.
 tags:
 - Graph theory
 - Ramsey theory
@@ -43,22 +44,21 @@ asks for an absolute constant $C$ with $R^*(G)\le2^{Cn}$ for every $n$-vertex
 $G$; since $R^*(K_n)=R(K_n)\ge2^{n/2}$, an exponential bound is best possible
 up to the constant.
 
-**Status.** The site labels the problem PROVED, and the frontmatter standing
-derives as solved from the claim page named below. The answer is yes:
-Theorem 1.1 of Aragão, Campos, Dahia, Filipe and Marciano gives a constant
-$C>0$ with $R^*(G)\le2^{Cn}$ for every graph $G$ on $n$ vertices, and their
+**Status.** The site labels the problem PROVED. The frontmatter standing derives
+as solved from the claim page
+[[problems/ramsey_theory/E0565/claims/2025_09_26_aragao_campos_dahia_filipe_marciano|Aragão, Campos, Dahia, Filipe and Marciano 2025]],
+which records the theorem, its postings and its acceptance evidence. The answer
+is yes. Theorem 1.1 of Aragão, Campos, Dahia, Filipe and Marciano gives a
+constant $C>0$ with $R^*(G)\le2^{Cn}$ for every graph $G$ on $n$ vertices. Their
 Theorem 1.2 gives $r^{Crn}$ for $r$ colors. The status-defining source is an
-arXiv paper (v2, 13 November 2025); the site's curator, T. F. Bloom, labels the problem PROVED and
-credits the paper, and Morris, whom the authors thank for reading the paper,
-reports the result as proved, with a proof outline, in the published text of
-his plenary lecture at the 2026 International Congress of Mathematicians. No
-independent review and no formal verification were found. The earlier bounds,
-$2^{O(n(\log n)^2)}$ (Kohayakawa, Prömel and Rödl; an explicit host by Fox and
-Sudakov) and $2^{O(n\log n)}$ (Conlon, Fox and Sudakov, refereed), are
-recorded below as history. The claim page
-[[problems/ramsey_theory/E0565/claims/2025_09_26_aragao_campos_dahia_filipe_marciano|Aragão, Campos, Dahia, Filipe and Marciano 2025]]
-records the theorem, its postings and its acceptance evidence, and the
-frontmatter standing derives from it.
+arXiv paper (v2, 13 November 2025). The site's curator, T. F. Bloom, labels the
+problem PROVED and credits the paper. Morris, whom the authors thank for reading
+the paper, reports the result as proved, with a proof outline, in the published
+text of his plenary lecture at the 2026 International Congress of
+Mathematicians. No independent review and no formal verification were found. The
+earlier bounds, $2^{O(n(\log n)^2)}$ (Kohayakawa, Prömel and Rödl; an explicit
+host by Fox and Sudakov) and $2^{O(n\log n)}$ (Conlon, Fox and Sudakov,
+refereed), are recorded below as history.
 
 **Source.** [erdosproblems.com/565](https://www.erdosproblems.com/565),
 accessed 2026-09-17: the problem page (PROVED, with the site's note that

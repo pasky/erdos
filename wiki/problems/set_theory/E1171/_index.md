@@ -2,9 +2,8 @@
 name: problems/set_theory/E1171
 title: Problem 1171
 desc: |
-  Asks whether the square of the first uncountable ordinal has a partition
-  property for pairs giving a large ordinal or a triangle, for each finite
-  color count.
+  Asks whether $\omega_1^2\to(\omega_1\omega,3,\ldots,3)_{k+1}^2$ holds for
+  every finite $k$; open.
 tags:
 - Set theory
 - Ramsey theory
@@ -28,15 +27,15 @@ $$
 \omega_1^2\to (\omega_1\omega, 3,\ldots,3)_{k+1}^2?
 $$
 
-**Status.** Open. The site labels the problem NOT DISPROVABLE, and its label
-note says the question is open in general and holds in some models of set
-theory. The accepted partial claim
+**Status.** Open. The site labels the problem NOT DISPROVABLE. Its label note
+says the question is open in general and holds in some models of set theory. The
+accepted partial claim
 [[problems/set_theory/E1171/claims/1989_01_01_baumgartner|Baumgartner's partition ordinal under Martin's axiom]]
-shows that ZFC does not refute the relation, one side of an independence result,
-while whether ZFC proves it is open for $k\ge3$. The ZFC cases $k\le2$ are on
-the claimed partial page
-[[problems/set_theory/E1171/claims/1987_01_01_baumgartner_hajnal|Baumgartner and Hajnal 1987]];
-the deposit that prompted the site's label has its own page,
+shows that ZFC does not refute the relation. This is one side of an independence
+result. Whether ZFC proves the relation is open for $k\ge3$. The ZFC cases
+$k\le2$ are on the claimed partial page
+[[problems/set_theory/E1171/claims/1987_01_01_baumgartner_hajnal|Baumgartner and Hajnal 1987]].
+The deposit that prompted the site's label has its own page,
 [[problems/set_theory/E1171/claims/2026_09_05_gao|Gao's conditional proof]],
 recorded as withdrawn.
 

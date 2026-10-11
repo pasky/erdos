@@ -3,8 +3,8 @@ name: problems/graph_coloring/E0918/claims/1984_03_01_baumgartner
 title: Baumgartner's generic graph of size and chromatic number aleph two
 desc: |
   Baumgartner (J. Symbolic Logic, 1984) proves it consistent with ZFC and GCH
-  that a graph on aleph two vertices has chromatic number aleph two while all
-  its subgraphs on at most aleph one vertices are countably chromatic.
+  that some graph on $\aleph_2$ vertices has chromatic number $\aleph_2$ while
+  all its subgraphs on at most $\aleph_1$ vertices are countably chromatic.
 authors:
 - James E. Baumgartner
 status: accepted

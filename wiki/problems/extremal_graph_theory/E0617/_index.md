@@ -2,8 +2,8 @@
 name: problems/extremal_graph_theory/E0617
 title: Problem 617
 desc: |
-  Asks whether r-coloring the edges of a complete graph on r squared plus one
-  vertices forces r plus one vertices whose induced edges miss a color.
+  Asks whether every $r$-coloring of the edges of $K_{r^2+1}$, for $r\ge3$, has
+  $r+1$ vertices whose induced $K_{r+1}$ misses a color; open.
 tags:
 - Graph theory
 status: open
@@ -24,20 +24,19 @@ updated: 2026-10-08T01:29:59Z
 there exist $r+1$ vertices with at least one colour missing on the edges of the
 induced $K_{r+1}$.
 
-**Status.** Falsifiable, the site's label: a counterexample would be a
-finite coloring for one value of $r$ and could be checked by a finite
-computation, while a proof for every $r\ge3$ could not. The problem is open:
-the cases $r=3,4$ are refereed (Erdős and Gyárfás 1999, the accepted partial
-claim page
+**Status.** Falsifiable, the site's label. A counterexample would be a finite
+coloring for one value of $r$ and could be checked by a finite computation,
+while a proof for every $r\ge3$ could not. The problem is open, and partial
+claims derive nothing for the standing. The cases $r=3,4$ are refereed. They are
+due to Erdős and Gyárfás 1999, on the accepted partial claim page
 [[problems/extremal_graph_theory/E0617/claims/1999_04_01_erdos_gyarfas|1999_04_01_erdos_gyarfas]],
-and, for $r=3$, earlier by Chung and Liu 1978
-([[problems/extremal_graph_theory/E0617/claims/1978_01_01_chung_liu|1978_01_01_chung_liu]]));
-the fixed cases $r=5,\ldots,11$ are claimed in 2026 preprints, write-ups and
-Lean developments recorded on the claim pages below, none refereed, and none
-with a review that counts as acceptance; and no proof for all $r\ge3$ and no
-counterexample is known (site accessed 2026-09-04; proof-claim thread with
-its comments and discussion thread accessed 2026-10-07). Partial claims
-derive nothing for the standing.
+and, for $r=3$, earlier to Chung and Liu 1978
+([[problems/extremal_graph_theory/E0617/claims/1978_01_01_chung_liu|1978_01_01_chung_liu]]).
+The fixed cases $r=5,\ldots,11$ are claimed in 2026 preprints, write-ups and
+Lean developments recorded on the claim pages below. None of these is refereed,
+and none has a review that counts as acceptance. No proof for all $r\ge3$ and no
+counterexample is known (site accessed 2026-09-04; proof-claim thread with its
+comments and discussion thread accessed 2026-10-07).
 
 **Source.** [erdosproblems.com/617](https://www.erdosproblems.com/617), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #617,

@@ -2,9 +2,9 @@
 name: problems/divisors/E1099
 title: Problem 1099
 desc: |
-  Asks whether the sum of the ratios of consecutive divisors of n minus one,
-  each raised to a power alpha above one, has bounded limit inferior over all
-  n.
+  Asks whether, for each $\alpha>1$, the sum $\sum_i(d_{i+1}/d_i-1)^\alpha$ over
+  consecutive divisors $d_i<d_{i+1}$ of $n$ has limit inferior bounded in terms
+  of $\alpha$ as $n\to\infty$; proved.
 tags:
 - Number theory
 - Divisors
@@ -35,10 +35,10 @@ $$
 \liminf_{n\to \infty}h_\alpha(n) \ll_\alpha 1?
 $$
 
-**Status.** Proved. The site credits Vose [Vo84]; the accepted claim is
-recorded on [[problems/divisors/E1099/claims/1984_10_01_vose|Vose's claim page]],
-and Tenenbaum's 1987 theorem, which settles the question along the factorials,
-the least common multiples and the primorials, on
+**Status.** Proved. The site credits Vose [Vo84]. The accepted claim is recorded
+on [[problems/divisors/E1099/claims/1984_10_01_vose|Vose's claim page]].
+Tenenbaum's 1987 theorem settles the question along the factorials, the least
+common multiples and the primorials. It is recorded on
 [[problems/divisors/E1099/claims/1987_01_01_tenenbaum|its own claim page]].
 
 **Source.** [erdosproblems.com/1099](https://www.erdosproblems.com/1099),

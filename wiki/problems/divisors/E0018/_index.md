@@ -2,9 +2,10 @@
 name: problems/divisors/E0018
 title: Problem 18
 desc: |
-  Asks how few distinct divisors of a practical number represent every smaller
-  integer, in particular for factorials; h(n!) < n^{o(1)} is proved
-  (Conjectures.io, 2026), the (log log m)^{O(1)} part claimed, the rest open.
+  Asks how small $h(m)$ can be, the number of distinct divisors of a practical
+  number $m$ that always suffice to write each smaller integer as a sum,
+  especially for $m=n!$. The bound $h(n!)<n^{o(1)}$ is proved (Conjectures.io,
+  2026), the $(\log\log m)^{O(1)}$ part is claimed, and the rest is open.
 tags:
 - Number theory
 - Divisors
@@ -37,15 +38,15 @@ Is it true that $h(n!)<n^{o(1)}$? Or perhaps even $h(n!)<(\log n)^{O(1)}$?
 
 **Status.** OPEN on the site (page last edited 11 April 2026), with the prize
 attached to the first question. The frontmatter standing `open` derives from the
-claim pages: the accepted partial claim
+claim pages. The accepted partial claim
 [[problems/divisors/E0018/claims/2026_09_16_jenw1n|JenW1N's Lean proof]] settles
-the second question, $h(n!)<n^{o(1)}$; the first question carries two pending
+the second question, $h(n!)<n^{o(1)}$. The first question carries two pending
 partial claims, [[problems/divisors/E0018/claims/2026_07_24_price|Price's]] and
-[[problems/divisors/E0018/claims/2026_09_16_van_doorn|van Doorn and GPT-6 Astra Pro's]];
-the third question, $h(n!)<(\log n)^{O(1)}$, has no claim. The claim pages and
+[[problems/divisors/E0018/claims/2026_09_16_van_doorn|van Doorn and GPT-6 Astra Pro's]].
+The third question, $h(n!)<(\log n)^{O(1)}$, has no claim. The claim pages and
 the assessment below carry the evidence for each part. The site's wording
 attaching the prize to the first question was settled on 11 April 2026 after
-wavering; the assessment gives the history.
+wavering. The assessment gives the history.
 
 **Source.** [erdosproblems.com/18](https://www.erdosproblems.com/18), accessed
 2026-09-27 (OPEN; last edited 11 April 2026; Comments (7); Proof claims (3): the

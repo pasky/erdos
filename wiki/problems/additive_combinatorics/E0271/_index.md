@@ -2,8 +2,9 @@
 name: problems/additive_combinatorics/E0271
 title: Problem 271
 desc: |
-  Determines explicitly, and bounds the growth of, the greedy sequence
-  starting at 0 and n that avoids any three-term arithmetic progression.
+  Asks for an explicit description and the growth rate of the greedy sequence
+  that starts with $0$ and $n$ and avoids three-term arithmetic progressions;
+  open in general.
 tags:
 - Additive combinatorics
 - Arithmetic progressions
@@ -34,17 +35,17 @@ $\{a_0,\ldots,a_{k+1}\}$ contains no three-term arithmetic progression, as
 [OdSt78] defines it. Read as the site words it, the rule can pick a repeated
 term or one below $a_k$: for $n=1$ it gives $a_2=1$.
 
-**Status.** Open, the site's label (OPEN; page last edited 20 January 2026).
-The site's commentary credits Odlyzko and Stanley [OdSt78] with explicit
-descriptions of $A(3^m)$ and $A(2\cdot3^m)$ for every $m\ge0$, which answer
-both questions for those $n$; the memorandum states them without proof, and
-they are recorded as a claimed partial claim on
+**Status.** Open, the site's label (OPEN; page last edited 20 January 2026). The
+site's commentary credits Odlyzko and Stanley [OdSt78] with explicit
+descriptions of $A(3^m)$ and $A(2\cdot3^m)$ for every $m\ge0$. These answer both
+questions for those $n$. The memorandum states them without proof, and they are
+recorded as a claimed partial claim on
 [[problems/additive_combinatorics/E0271/claims/1978_01_01_odlyzko_stanley|its claim page]].
 Rolnick proved them for $m\ge1$, with growth of order $k^{\log_23}$, in a
-refereed paper, recorded as an accepted partial claim on
+refereed paper. This is recorded as an accepted partial claim on
 [[problems/additive_combinatorics/E0271/claims/2014_08_08_rolnick|his claim page]].
-Moy's bound $a_k\le(1/2+\epsilon)k^2$ [Mo11] holds for every $n$ and fixes no
-sequence's growth, so it settles no instance and has no claim page. For every
+Moy's bound $a_k\le(1/2+\epsilon)k^2$ [Mo11] holds for every $n$ but fixes no
+sequence's growth. So it settles no instance and has no claim page. For every
 other $n$ both questions are open.
 
 **Source.** [erdosproblems.com/271](https://www.erdosproblems.com/271), accessed

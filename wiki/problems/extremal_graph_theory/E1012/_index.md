@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1012
 title: Problem 1012
 desc: |
-  Determines or estimates how large n must be, in terms of k, for a given edge
-  count to force a cycle through all but k of the n vertices; Woodall's 1972
-  Corollary 11.1 gives every n at least 2k + 3 and covers the smaller n too.
+  Asks to determine or estimate how large $n$ must be, in terms of $k$, for
+  $\binom{n-k-1}{2}+\binom{k+2}{2}+1$ edges to force a cycle on $n-k$ of the $n$
+  vertices. Settled by Woodall's 1972 Corollary 11.1, which covers every
+  $n\ge2k+3$ and the smaller $n$ too.
 tags:
 - Graph theory
 status: solved
@@ -48,46 +49,49 @@ SOLVED, its label for a resolution that is neither a proof nor a disproof:
 the question is a determination, answered by a theorem giving
 $f(k)\le2k+3$.
 
-**Status.** Solved. Woodall's Corollary 11.1 [Wo72] (Proc. London Math.
-Soc. (3) 24 (1972), 739--755; printed p. 749): a graph on $n\ge r+3$
-vertices with at least
-$\binom{n-r-1}2+\binom{r+2}2+1$ edges when $n\ge2r+3$, or at least
-$[\frac14n^2]+1$ edges when $n<2r+3$, contains a circuit of length $d$ for
-every $3\le d\le n-r$; with $r=k$ the first bound is this problem's count
-and $d=n-k$ is in range, so $f(k)=2k+3$ works for every $k\ge0$, and the
-paper states (p. 749) that the first bound is the least possible because
-its $G_4(n,r)$, the sharing-vertex graph, has no circuit of length $n-r$ or
-more. The paper introduces the corollary as the answer to Erdős's 1969
-question (pp. 741 and 749, citing Problem 4 of [Er71]). Theorem 8 of Li
-and Ning [LiNi23] (Electron. J. Combin. 30 (2023), P1.39; refereed, open
-access; p. 4) restates the $n\ge2k+3$ half with
-the same count and range, and records that the sharing-vertex graph shows
-the count is sharp, "which means that
-$\mathrm{ex}(n,C_{n-k})=\binom{n-k-1}2+\binom{k+2}2$ for $n\ge2k+3$". The
-status rests on the original's statement and the structure of its proof of
-Theorem 11, with the refereed restatement and the site's account (which
-records Woodall's theorem as settling the question completely) agreeing.
-The smallest admissible $f(k)$: the corollary's second bound covers
-$k+3\le n\le2k+2$, and this problem's count is at least $[\frac14n^2]+1$
-there (an elementary comparison recorded on the library's result page as a
-filing observation), so the implication holds for every $n\ge k+3$ and is
-vacuous for $n\le k+2$, where the count exceeds $\binom n2$; the thread's
-reading that no $n$ fails rests on the printed corollary plus that
-comparison, and nothing is independently reviewed. The claim page
+**Status.** Solved. Woodall's Corollary 11.1 [Wo72] (Proc. London Math. Soc. (3)
+24 (1972), 739--755; printed p. 749) concerns a graph on $n\ge r+3$ vertices. If
+it has at least $\binom{n-r-1}2+\binom{r+2}2+1$ edges when $n\ge2r+3$, or at
+least $[\frac14n^2]+1$ edges when $n<2r+3$, it contains a circuit of length $d$
+for every $3\le d\le n-r$. With $r=k$ the first bound is this problem's count
+and $d=n-k$ is in range, so $f(k)=2k+3$ works for every $k\ge0$. The paper
+states (p. 749) that the first bound is the least possible, because its
+$G_4(n,r)$, the sharing-vertex graph, has no circuit of length $n-r$ or more.
+The paper introduces the corollary as the answer to Erdős's 1969 question (pp.
+741 and 749, citing Problem 4 of [Er71]).
+
+Theorem 8 of Li and Ning [LiNi23] (Electron. J. Combin. 30 (2023), P1.39;
+refereed, open access; p. 4) restates the $n\ge2k+3$ half with the same count
+and range. It records that the sharing-vertex graph shows the count is sharp,
+"which means that $\mathrm{ex}(n,C_{n-k})=\binom{n-k-1}2+\binom{k+2}2$ for
+$n\ge2k+3$". The status rests on the original's statement and the structure of
+its proof of Theorem 11. The refereed restatement and the site's account agree
+with it. The site's account records Woodall's theorem as settling the question
+completely.
+
+On the smallest admissible $f(k)$: the corollary's second bound covers
+$k+3\le n\le2k+2$, and this problem's count is at least $[\frac14n^2]+1$ there.
+This elementary comparison is recorded on the library's result page as a filing
+observation. So the implication holds for every $n\ge k+3$. It is vacuous for
+$n\le k+2$, where the count exceeds $\binom n2$. The thread's reading that no
+$n$ fails rests on the printed corollary plus that comparison. Nothing is
+independently reviewed.
+
+The claim page
 [[problems/extremal_graph_theory/E1012/claims/1972_05_01_woodall|Woodall]]
-records the result, its acceptance evidence and its postings, and the
-standing derives from it. The site also credits Ore [Or61] with $f(0)=1$ (an
+records the result, its acceptance evidence and its postings, and the standing
+derives from it. The site also credits Ore [Or61] with $f(0)=1$. This is an
 accepted partial claim,
-[[problems/extremal_graph_theory/E1012/claims/1961_12_01_ore|Ore 1961]];
-Theorem 4.3, p. 320, states the threshold $\binom{n-1}2+2$ with its
-sharpness, and Erdős's 1962 note quotes it) and Bondy [Bo71b] with $f(1)=1$
-(an accepted partial claim,
-[[problems/extremal_graph_theory/E1012/claims/1971_09_01_bondy|Bondy 1971]];
-Theorem 2, p. 125, states that a graph of order $n$ and size at least
-$\frac12(n^2-5n+14)=\binom{n-2}2+4$ has a cycle of length $n-1$, printed
-without a range for $n$), and says the existence of $f(k)$ follows from
-Erdős's 1962 theorem [Er62e] by an argument given in the thread (recorded
-below with its provenance).
+[[problems/extremal_graph_theory/E1012/claims/1961_12_01_ore|Ore 1961]]. Ore's
+Theorem 4.3 (p. 320) states the threshold $\binom{n-1}2+2$ with its sharpness,
+and Erdős's 1962 note quotes it. The site credits Bondy [Bo71b] with $f(1)=1$.
+This is an accepted partial claim,
+[[problems/extremal_graph_theory/E1012/claims/1971_09_01_bondy|Bondy 1971]].
+Bondy's Theorem 2 (p. 125) states that a graph of order $n$ and size at least
+$\frac12(n^2-5n+14)=\binom{n-2}2+4$ has a cycle of length $n-1$, printed without
+a range for $n$. The site says the existence of $f(k)$ follows from Erdős's 1962
+theorem [Er62e] by an argument given in the thread, recorded below with its
+provenance.
 
 **Source.** [erdosproblems.com/1012](https://www.erdosproblems.com/1012),
 accessed 2026-09-18: the problem page (labeled SOLVED, the site's label for

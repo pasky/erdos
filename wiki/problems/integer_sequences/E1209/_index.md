@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E1209
 title: Problem 1209
 desc: |
-  Asks whether one shift n making every n plus a term of a fast-growing
-  sequence prime forces infinitely many, with squarefree and doubly
-  exponential variants; three questions answered no, three stay open.
+  Asks whether one $n$ making every $n+a_k$ prime, for a fast-growing integer
+  sequence $a_k$, forces infinitely many such $n$, with squarefree and
+  $n+2^{2^k}$ variants. Three of the questions are answered no and three remain
+  open.
 tags:
 - Number theory
 status: open
@@ -57,33 +58,36 @@ remain open, (iii.b), (iii.c) and (iii.d); the answers to (i), (ii) and
 (iii.a) are recorded below.
 
 **Status.** Open, for the three special questions (iii.b)--(iii.d), on which
-nothing was found. Three of the six questions are answered no: (i) and (ii) by
-the site's construction (a sequence of primes $a_k$ with
-$a_k+k\equiv0\pmod{q_k}$, or $\pmod{q_k^2}$, for primes $q_k\nmid k$, which
-grows as fast as desired and leaves $0$ as the only integer shift making every
-term prime, and at most $0$ and $1$ among the nonnegative shifts for squarefree;
-the construction has been on the page since its edit of 8 April 2026 and is the
-curator's own pending partial claim,
-[[problems/integer_sequences/E1209/claims/2026_04_08_bloom|the site's construction]];
-a forum note of 15 April 2026 gives a version with exactly one integer shift and
-a Lean formalization); and (iii.a) by an argument on the multiplicative order of
-$2$, which the site credits to the note's author and GPT (GPT Pro, in the
-author's own thread comment), which was already the official solution of Problem
-4 of the 2015 ELMO competition for every shift $n\ge2$
-([[problems/integer_sequences/E1209/claims/2015_06_27_gurev_korsky|its claim page]]),
-and which the same note proves for all $n$ (even $n$; $n=1$ by
-$641\mid2^{32}+1$; odd $n\ge3$ by the order argument), with a Lean file, cited
-by the formal-conjectures collection, that is not built here. So the label
-attaches to the remaining special questions while the two general questions and
-the always-prime question are answered; the three answers are recorded on the
-page, on the pending partial claim page
+nothing was found. The label attaches to these remaining special questions. The
+two general questions and the always-prime question are answered. The standing
+in the frontmatter, derived from full claims only, stays open.
+
+Three of the six questions are answered no. Questions (i) and (ii) are answered
+by the site's construction: a sequence of primes $a_k$ with
+$a_k+k\equiv0\pmod{q_k}$, or $\pmod{q_k^2}$, for primes $q_k\nmid k$. The
+sequence grows as fast as desired. It leaves $0$ as the only integer shift that
+makes every term prime, and at most $0$ and $1$ among the nonnegative shifts
+that make every term squarefree. The construction has been on the page since its
+edit of 8 April 2026. It is the curator's own pending partial claim,
+[[problems/integer_sequences/E1209/claims/2026_04_08_bloom|the site's construction]].
+A forum note of 15 April 2026 gives a version with exactly one integer shift,
+and a Lean formalization. Question (iii.a) is answered by an argument on the
+multiplicative order of $2$. The site credits it to the note's author and GPT
+(GPT Pro, in the author's own thread comment). The argument was already the
+official solution of Problem 4 of the 2015 ELMO competition for every shift
+$n\ge2$
+([[problems/integer_sequences/E1209/claims/2015_06_27_gurev_korsky|its claim page]]).
+The same note proves it for all $n$: even $n$, then $n=1$ by $641\mid2^{32}+1$,
+and odd $n\ge3$ by the order argument. The note has a Lean file, cited by the
+formal-conjectures collection, that is not built here.
+
+The three answers are recorded on the page, on the pending partial claim page
 [[problems/integer_sequences/E1209/claims/2026_04_15_barschkis|Barschkis's negative answers]]
-and on the curator's pending partial claim page, and the standing in the
-frontmatter, derived from full claims only, stays open. No refereed source
-exists for any of the answers; they rest on the site's commentary (by the site's
-revision history, the construction since the edit of 8 April 2026 and the order
-argument since the edit of 17 April 2026, made in response to the note), the
-forum note and the elementary checks recorded below.
+and on the curator's pending partial claim page. No refereed source exists for
+any of the answers. They rest on the site's commentary, the forum note and the
+elementary checks recorded below. By the site's revision history, the commentary
+has carried the construction since the edit of 8 April 2026 and the order
+argument since the edit of 17 April 2026, made in response to the note.
 
 **Source.** [erdosproblems.com/1209](https://www.erdosproblems.com/1209),
 accessed 2026-09-18 at 10:27 UTC: the problem page (labeled OPEN,

@@ -2,9 +2,9 @@
 name: problems/analysis/E0511
 title: Problem 511
 desc: |
-  Asks whether the set where a monic polynomial has modulus below one has
-  boundedly many components of diameter above a fixed constant, whatever the
-  degree.
+  Asks whether, for each $c>1$, the set where a monic polynomial has modulus
+  below $1$ has $O_c(1)$ connected components of diameter above $c$, whatever
+  the degree; disproved.
 tags:
 - Analysis
 status: solved
@@ -34,8 +34,9 @@ implied constant is in particular independent of $n$)?
 **Status.** Disproved, the site's label. The accepted claims are
 [[problems/analysis/E0511/claims/1961_01_01_pommerenke|Pommerenke's Theorem 1 of 1961]],
 refereed and credited by the site's curator, and
-[[problems/analysis/E0511/claims/2025_09_15_huang|Huang's independent 2025 construction]],
-an arXiv preprint the curator credits as an independent proof.
+[[problems/analysis/E0511/claims/2025_09_15_huang|Huang's independent 2025 construction]].
+Huang's construction is an arXiv preprint that the curator credits as an
+independent proof.
 
 **Source.** [erdosproblems.com/511](https://www.erdosproblems.com/511), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #511,

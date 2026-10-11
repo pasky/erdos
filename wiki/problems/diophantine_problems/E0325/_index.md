@@ -2,9 +2,8 @@
 name: problems/diophantine_problems/E0325
 title: Problem 325
 desc: |
-  Asks whether the number of integers up to x that are sums of three
-  nonnegative kth powers is at least a constant times x to the power three
-  over k.
+  Asks whether, for $k\ge3$, the number of integers up to $x$ that are sums of
+  three nonnegative $k$th powers is at least a constant times $x^{3/k}$; open.
 tags:
 - Number theory
 - Powers
@@ -31,11 +30,10 @@ $$
 
 or even $\gg_\epsilon x^{3/k-\epsilon}$?
 
-**Status.** Open: the site's label (OPEN). Comments on the site's discussion
-thread of 2026-03-09 cite Browning and Heath-Brown, whose corollary settles
-every $k\ge33$
-([[problems/diophantine_problems/E0325/claims/2004_03_17_browning_heath_brown|claim page]]);
-the paper does not cover $3\le k\le32$.
+**Status.** Open, the site's label (OPEN). Comments on the site's discussion
+thread of 2026-03-09 cite Browning and Heath-Brown
+([[problems/diophantine_problems/E0325/claims/2004_03_17_browning_heath_brown|claim page]]).
+Their corollary settles every $k\ge33$. The paper does not cover $3\le k\le32$.
 
 **Source.** [erdosproblems.com/325](https://www.erdosproblems.com/325), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #325,

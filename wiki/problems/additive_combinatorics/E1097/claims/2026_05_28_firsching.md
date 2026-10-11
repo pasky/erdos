@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E1097/claims/2026_05_28_firsching
 title: Base-three Lean disproof of the n^(3/2) bound for common differences
 desc: |
-  A self-contained Lean 4 proof in Moritz Firsching's fork of
-  formal-conjectures that no constant C bounds the number of common
-  differences by C n^(3/2), answering the second question no; claimed.
+  Moritz Firsching claims a self-contained Lean 4 proof, in his fork of
+  formal-conjectures, that no constant $C$ bounds the number of common
+  differences by $Cn^{3/2}$. The claim answers the second question no.
 authors:
 - Moritz Firsching
 status: claimed

@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0065/claims/2026_09_22_milojevic_montgomery_pokrovskiy_sudakov
 title: Milojević, Montgomery, Pokrovskiy and Sudakov's bipartite minimizer
 desc: |
-  Milojević, Montgomery, Pokrovskiy and Sudakov (arXiv 2026) prove that for
-  large k the graph K_{k,n-k} uniquely minimizes the harmonic sum of cycle
-  lengths among n-vertex graphs with at least k(n-k) edges.
+  A 2026 arXiv preprint by Milojević, Montgomery, Pokrovskiy and Sudakov proves
+  that for large $k$ the graph $K_{k,n-k}$ uniquely minimizes the harmonic sum
+  of cycle lengths among $n$-vertex graphs with at least $k(n-k)$ edges.
 authors:
 - Aleksa Milojević
 - Richard Montgomery

@@ -3,8 +3,8 @@ name: problems/extremal_graph_theory/E0533/claims/2021_03_18_liu_reiher_sharifza
 title: Liu, Reiher, Sharifzadeh and Staden, the exact threshold is 1/12
 desc: |
   Theorem 1.1 and Corollary 1.2 of Liu, Reiher, Sharifzadeh and Staden give
-  K_5-free graphs with sublinear triangle-free sets and (1/12 - o(1)) n^2
-  edges, so delta_3(5) = 1/12; refereed in J. Eur. Math. Soc. 28 (2025).
+  $K_5$-free graphs with sublinear triangle-free sets and $(1/12-o(1))n^2$
+  edges, so $\delta_3(5)=1/12$. It was refereed in J. Eur. Math. Soc. 28 (2025).
 authors:
 - Hong Liu
 - Christian Reiher
@@ -64,22 +64,26 @@ $\delta_3(5)=1/12$ also uses the upper bound on
 
 **Acceptance.** Refereed: Journal of the European Mathematical Society, vol. 28,
 no. 1, 79--112, doi:10.4171/jems/1712 (Crossref record of 2026-09-18, issued 20
-October 2025; the arXiv listing says "to appear in JEMS"). The text cited is the
-arXiv v2 of 18 August 2025; the journal text is not held and was not compared.
+October 2025). The arXiv listing says "to appear in JEMS". The text cited is the
+arXiv v2 of 18 August 2025. The journal text is not held and was not compared.
+
 Reviewed: the site's curator, Thomas F. Bloom, wrote in the problem's thread on
-27 January 2026 that this paper resolves the question completely, and the site's
+27 January 2026 that this paper resolves the question completely. The site's
 commentary (accessed 2026-09-18) gives $1/12$ as the exact value of
-$\delta_3(5)$ and attributes the matching lower bound to this construction; the
-proof-claim tab is empty. Not formalized: the Lean file linked above, in
-plby/lean-proofs, pinned at a repository commit of 15 September 2026 (the file
-was first committed in August 2026), declares itself a Lean formalization of a
-solution to Problem 533, names Balogh, Lenz, Liu, Reiher, Sharifzadeh and Staden
-as its informal authors and Codex and GPT-5.6 Sol as its formal authors, and
-builds the complex Bollobás--Erdős graph of Theorem 1.1 at $p=3$, $\ell=1$;
-formal-conjectures names it in the `formal_proof` attribute of `erdos_533` as of
-2026-10-07, while its `lrss_lower` variant ($\delta_3(5)\ge1/12$) keeps proof
-`sorry`. The corpus has not built or audited the file, so it is a link and not
-evidence. Proof coverage is statements only: Theorem 1.1, Corollary 1.2 and
-Theorem 1.4 were checked, and the constructions (Sections 3--4) were not read.
-The claim rests on the source card
+$\delta_3(5)$ and attributes the matching lower bound to this construction. The
+proof-claim tab is empty.
+
+Not formalized: the Lean file linked above is in plby/lean-proofs, pinned at a
+repository commit of 15 September 2026. The file was first committed in
+August 2026. It declares itself a Lean formalization of a solution to Problem 533. It
+names Balogh, Lenz, Liu, Reiher, Sharifzadeh and Staden as its informal authors
+and Codex and GPT-5.6 Sol as its formal authors. It builds the complex
+Bollobás--Erdős graph of Theorem 1.1 at $p=3$, $\ell=1$. As of 2026-10-07,
+formal-conjectures names it in the `formal_proof` attribute of `erdos_533`,
+while its `lrss_lower` variant ($\delta_3(5)\ge1/12$) keeps proof `sorry`. The
+corpus has not built or audited the file, so it is a link and not evidence.
+
+Proof coverage is statements only: Theorem 1.1, Corollary 1.2 and Theorem 1.4
+were checked, and the constructions (Sections 3--4) were not read. The claim
+rests on the source card
 [[../library/extremal_graph_theory/liu_2021_geometric_constructions_ramsey_turan_theory/_index|liu_2021_geometric_constructions_ramsey_turan_theory]].

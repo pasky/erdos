@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1008/claims/2025_09_13_zach_hunter
 title: Hunter's forum proof with c equal to one half
 desc: |
-  A forum thread post of 13 September 2025 proves that every graph with m
-  edges has a C_4-free subgraph with at least half of m^{2/3} edges, by the
-  deletion method with a sharper four-cycle count; accepted on review.
+  Zach Hunter's forum thread post of 13 September 2025 proves that every graph
+  with $m$ edges has a $C_4$-free subgraph with at least $\frac12m^{2/3}$ edges.
+  It uses the deletion method with a sharper count of four-cycles and was
+  accepted on review.
 authors:
 - Zach Hunter
 status: accepted
@@ -79,16 +80,15 @@ constant is the one the Lean development described below states.
 >
 > (The site has been updated to address this comment.)
 
-**Acceptance.** The site's curator, Thomas Bloom, replied in the thread on
-14 September 2025 approving the argument as clean and saying the page would
-be updated, and the site's commentary credits Hunter's post with a simple
-proof (page last edited 27 December 2025); a typo in the sampling
-probability was reported and corrected
-on 18 October 2025. That documented acceptance by the curator, who took no
-part in the proof, is the `reviewed` evidence; there is no publication. This
-project followed the argument as written, which is not an independent
-review. The problem's standing also rests on the refereed claim of Conlon,
-Fox and Sudakov
+**Acceptance.** The site's curator, Thomas Bloom, replied in the thread on 14
+September 2025. The reply approved the argument as clean and said the page would
+be updated. The site's commentary credits Hunter's post with a simple proof
+(page last edited 27 December 2025). A typo in the sampling probability was
+reported and corrected on 18 October 2025. The `reviewed` evidence is this
+documented acceptance by the curator, who took no part in the proof. There is no
+publication. This project followed the argument as written, which is not an
+independent review. The problem's standing also rests on the refereed claim of
+Conlon, Fox and Sudakov
 ([[problems/extremal_graph_theory/E1008/claims/2014_01_27_conlon_fox_sudakov|their claim page]]).
 
 **Formalization.** The file `src/v4.29.1/ErdosProblems/Erdos1008.lean` of

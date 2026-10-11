@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0750/claims/1982_01_01_erdos_hajnal_szemeredi
 title: Erdős, Hajnal and Szemerédi's almost bipartite graphs of large chromatic number
 desc: |
-  For every epsilon and every cardinal kappa, a graph of chromatic number
-  above kappa whose every finite n-vertex subgraph becomes bipartite after
-  deleting epsilon n vertices; this covers Problem 750 for f(m) = epsilon m.
+  Erdős, Hajnal and Szemerédi state that for every $\epsilon$ and every cardinal
+  $\kappa$ there is a graph of chromatic number above $\kappa$ whose finite
+  $n$-vertex subgraphs each become bipartite after deleting $\epsilon n$
+  vertices. This covers Problem 750 for $f(m)=\epsilon m$.
 authors:
 - P. Erdős
 - A. Hajnal

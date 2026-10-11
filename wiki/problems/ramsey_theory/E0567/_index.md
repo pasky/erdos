@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0567
 title: Problem 567
 desc: |
-  Asks whether the three-cube, the complete bipartite graph with three
-  vertices per side, or the complete graph on four vertices with one edge
-  subdivided is Ramsey size linear; open, with partial results.
+  Asks whether each of the cube $Q_3$, the graph $K_{3,3}$ and the graph $H_5$
+  ($K_4$ with one edge subdivided) is Ramsey size linear; open, with partial
+  results.
 tags:
 - Graph theory
 - Ramsey theory
@@ -53,35 +53,34 @@ each would be a minimal non-Ramsey-size-linear graph if it failed (see
 [[../library/ramsey_theory/erdos_1993_ramsey_size_linear_graphs/question_6|Question 6]]).
 The site cites [Er95, p. 177] for the $K_{3,3}$ case.
 
-**Status.** The site labels the problem OPEN, and no claim about it exists,
-so the frontmatter standing is open. No source cited here decides any of
-the three cases. The one
-accepted formal result, a Lean refutation accepted by the bounty site
-Conjectures.io on 7 August 2026 (record
-145e01a5-a004-4b17-a9fa-7503a28ff052), refutes a defective formalization of
-the $Q_3$ case in which the size Ramsey number $\hat r(Q_3,H)$ stood in for
-$R(Q_3,H)$; the site classifies it as a formalization-defect award that does
-not settle the problem, and it bears on none of the three cases (see
-Formalization). The partial results are
+**Status.** The site labels the problem OPEN, and no claim about it exists, so
+the frontmatter standing is open. No source cited here decides any of the three
+cases. The one accepted formal result is a Lean refutation accepted by the
+bounty site Conjectures.io on 7 August 2026 (record
+145e01a5-a004-4b17-a9fa-7503a28ff052). It refutes a defective formalization of
+the $Q_3$ case, in which the size Ramsey number $\hat r(Q_3,H)$ stood in for
+$R(Q_3,H)$. The site classifies it as a formalization-defect award that does not
+settle the problem. It bears on none of the three cases (see Formalization).
+This is a bounded negative finding from the searches, not a certificate of
+openness.
+
+The partial results are these.
 [[../library/ramsey_theory/bradac_2022_ramsey_size_linear_graphs_related_questions/theorem_3|Theorem 3]]
-of [BGS24], $R(K_4^*,F)=O(e(F))$ for every bipartite $F$ without isolated
-vertices, and its
-[[../library/ramsey_theory/bradac_2022_ramsey_size_linear_graphs_related_questions/theorem_4|Theorem 4]],
-Ramsey size linearity for each subdivision of $K_4$ having six or more
-vertices, which leaves out the five-vertex $K_4^*=H_5$; from [EFRS93],
+of [BGS24] gives $R(K_4^*,F)=O(e(F))$ for every bipartite $F$ without isolated
+vertices. Its
+[[../library/ramsey_theory/bradac_2022_ramsey_size_linear_graphs_related_questions/theorem_4|Theorem 4]]
+gives Ramsey size linearity for each subdivision of $K_4$ having six or more
+vertices, which leaves out the five-vertex $K_4^*=H_5$. From [EFRS93],
 [[../library/ramsey_theory/erdos_1993_ramsey_size_linear_graphs/theorem_5|Theorem 5]]
 covers the one-edge-deleted graphs $K_{3,3}-e$ and $Q_3-e$ (p. 395), and
 [[../library/ramsey_theory/erdos_1993_ramsey_size_linear_graphs/corollary_1|Corollary 1]]
 is why $K_4$ itself fails. For the complete-graph target,
 [[../library/ramsey_theory/bradac_2022_ramsey_size_linear_graphs_related_questions/theorem_2|Theorem 2]]
 of [BGS24] gives $R(G,K_n)=O(n^3)$ for each of the three graphs (each is
-connected with $e(G)-v(G)\le4$; for $H_5=K_4^*$ its Section 6 proves
-$O(n^{5/2})$), where Ramsey size-linearity would need
-$O(n^2)$, and Theorem 2 of [EFRS93] gives the lower bound
-$R(G,K_n)>C(n/\log n)^{(q-1)/(p-2)}$ with exponent $2$ for $K_{3,3}$ and
-$H_5$ and $11/6$ for $Q_3$ (specializations made here). This is a bounded
-negative finding from the searches, not a
-certificate of openness.
+connected with $e(G)-v(G)\le4$). For $H_5=K_4^*$ its Section 6 proves
+$O(n^{5/2})$. Ramsey size-linearity would need $O(n^2)$. Theorem 2 of [EFRS93]
+gives the lower bound $R(G,K_n)>C(n/\log n)^{(q-1)/(p-2)}$, with exponent $2$
+for $K_{3,3}$ and $H_5$ and $11/6$ for $Q_3$ (specializations made here).
 
 **Source.** [erdosproblems.com/567](https://www.erdosproblems.com/567),
 accessed 2026-09-18: the problem page (OPEN; last

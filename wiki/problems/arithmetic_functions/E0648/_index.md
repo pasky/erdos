@@ -2,8 +2,9 @@
 name: problems/arithmetic_functions/E0648
 title: Problem 648
 desc: |
-  Estimates the length of the longest chain of integers below n whose greatest
-  prime factors are strictly decreasing.
+  Asks to estimate the length of the longest chain of integers
+  $2\le a_1<\cdots<a_t<n$ whose greatest prime factors strictly decrease;
+  solved.
 tags:
 - Number theory
 status: solved
@@ -29,12 +30,12 @@ $$
 
 where $P(m)$ is the greatest prime factor of $m$. Estimate $g(n)$.
 
-**Status.** Solved; the site's label is SOLVED (LEAN). Cambie's 2025 paper
-gives the order of growth, and the site's Lean label follows the
-formalization of his proof announced in the site's thread on 2026-02-04, a
-Lean 4 development that this corpus has not built or audited, so it gives no
-formalized evidence; see
+**Status.** Solved. The site's label is SOLVED (LEAN). Cambie's 2025 paper gives
+the order of growth; see
 [[problems/arithmetic_functions/E0648/claims/2025_03_13_cambie|the claim page]].
+The site's Lean label follows the formalization of his proof announced in the
+site's thread on 2026-02-04. This corpus has not built or audited that Lean 4
+development, so it gives no formalized evidence.
 
 **Source.** [erdosproblems.com/648](https://www.erdosproblems.com/648), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #648,

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0150
 title: Problem 150
 desc: |
-  Asks whether the n-th root of the maximum number of minimal disconnecting
-  vertex sets of a graph on n vertices tends to a limit below two; proved, the
-  limit lying between 1.4457 and the golden ratio by refereed papers.
+  Asks whether $c(n)^{1/n}\to\alpha$ for some $\alpha<2$, where $c(n)$ is the
+  maximum number of minimal cuts (minimal disconnecting vertex sets) of a graph
+  on $n$ vertices. It is proved, and refereed papers place $\alpha$ between
+  $1.4457$ and the golden ratio.
 tags:
 - Graph theory
 status: solved
@@ -49,42 +50,46 @@ explained under Formalization.
 
 **Status.** PROVED (LEAN). The limit exists and satisfies
 $1.4457\le\alpha\le\frac{1+\sqrt5}2\approx1.618$ (the site's interval), so
-$\alpha<2$. Existence: Proposition 2 of Bradač's note (J. Graph Theory 108
-(2025), no. 4, 817--818, published online 8 December 2024, refereed; cited from
-the arXiv v2), by Fekete's lemma for the marked-pair separator count $g(n)$,
-transferred to $c(n)$ by the paper's displayed sandwich $g(n-2)\le
-c(n)\le\binom n2g(n-2)$, whose right inequality is immediate and whose left
-inequality the paper asserts as "Clearly" without argument (recorded as a
-proof-coverage gap, not a dispute). The bound: every minimal cut is a minimal
-separator, so $c(n)\le\mathsf{sep}(n)$, and $\mathsf{sep}(n)=O(1.6181^n)$ by
-Fomin and Villanger's Theorem 1 (Combinatorica 2012, refereed; cited from the
-arXiv v2), whose proof's estimate has the golden ratio as its base (p. 7),
-reproved as $O(\rho^n\cdot n)$ by Gaspers and Mackenzie's Theorem 1 (J. Graph
-Theory 2018, refereed); Bradač's Theorem 1 gives $c(n)\le2^{(1+o(1))H(1/3)n}$,
-$\alpha\le2^{H(1/3)}<1.8899$, directly for minimal cuts; and the first proof of
-$\alpha<2$ is $\mathsf{sep}(n)=O(1.7087^n)$ of Fomin, Kratsch, Todinca and
-Villanger (SIAM J. Comput. 2008, refereed), as the journal's abstract states it
-and as Bradač's note and Gaspers and Mackenzie attest. These three separator
-bounds are accepted partial claims on the bound half of the question, recorded
-on the claim pages of
+$\alpha<2$. The site's curator accepted the resolution with the label PROVED
+(LEAN) on 31 March 2026, crediting Bradač's note. The external Lean file behind
+the label declares itself a formalization of Bradač's argument. It works with
+the separator count, not the collection's minimal-cut count (Formalization).
+Bradač's note is the accepted full claim, recorded on
+[[problems/extremal_graph_theory/E0150/claims/2024_09_04_bradac|its claim page]],
+which carries the Lean file as a formalization link. The frontmatter standing is
+derived from it.
+
+Existence is Proposition 2 of Bradač's note (J. Graph Theory 108 (2025), no. 4,
+817--818, published online 8 December 2024, refereed; cited from the arXiv v2).
+It applies Fekete's lemma to the marked-pair separator count $g(n)$. The result
+transfers to $c(n)$ by the paper's displayed sandwich
+$g(n-2)\le c(n)\le\binom n2g(n-2)$. The right inequality is immediate. The paper
+asserts the left inequality as "Clearly" without argument, which is recorded as
+a proof-coverage gap, not a dispute.
+
+For the bound, every minimal cut is a minimal separator, so
+$c(n)\le\mathsf{sep}(n)$. Fomin and Villanger's Theorem 1 (Combinatorica 2012,
+refereed; cited from the arXiv v2) gives $\mathsf{sep}(n)=O(1.6181^n)$, and its
+proof's estimate has the golden ratio as its base (p. 7). Gaspers and
+Mackenzie's Theorem 1 (J. Graph Theory 2018, refereed) reproves this as
+$O(\rho^n\cdot n)$. Bradač's Theorem 1 gives $c(n)\le2^{(1+o(1))H(1/3)n}$, so
+$\alpha\le2^{H(1/3)}<1.8899$, directly for minimal cuts. The first proof of
+$\alpha<2$ is the bound $\mathsf{sep}(n)=O(1.7087^n)$ of Fomin, Kratsch, Todinca
+and Villanger (SIAM J. Comput. 2008, refereed), as the journal's abstract states
+it and as Bradač's note and Gaspers and Mackenzie attest. These three separator
+bounds are accepted partial claims on the bound half of the question. They are
+recorded on the claim pages of
 [[problems/extremal_graph_theory/E0150/claims/2008_07_02_fomin_kratsch_todinca_villanger|Fomin, Kratsch, Todinca and Villanger]],
 [[problems/extremal_graph_theory/E0150/claims/2008_03_09_fomin_villanger|Fomin and Villanger]]
 and
 [[problems/extremal_graph_theory/E0150/claims/2015_03_04_gaspers_mackenzie|Gaspers and Mackenzie]].
+
 The lower bound $3^{1/3}\approx1.4422$ is Seymour's construction in Erdős's
-paper, and $1.4457$ is the lower bound the site and Bradač attribute to Gaspers
-and Mackenzie's Theorem 2 for minimal separators, as the published J. Graph
-Theory version states it ($\omega(1.4457^n)$ in its abstract); that version is
-not held and its proof is unchecked, while the arXiv v2 prints
-$\omega(1.4521^n)$; the transfer to $\alpha$ is through the same sandwich. The
-site's curator accepted the resolution with the label PROVED (LEAN) on 31 March
-2026, crediting Bradač's note; the external Lean file behind the label declares
-itself a formalization of Bradač's argument and works with the separator count,
-not the collection's minimal-cut count (Formalization). Bradač's note is the
-accepted full claim, recorded on
-[[problems/extremal_graph_theory/E0150/claims/2024_09_04_bradac|its claim page]],
-which carries the Lean file as a formalization link, and the frontmatter
-standing is derived from it.
+paper. The value $1.4457$ is the lower bound that the site and Bradač attribute
+to Gaspers and Mackenzie's Theorem 2 for minimal separators, as the published J.
+Graph Theory version states it ($\omega(1.4457^n)$ in its abstract). That
+version is not held and its proof is unchecked, while the arXiv v2 prints
+$\omega(1.4521^n)$. The transfer to $\alpha$ goes through the same sandwich.
 
 **Source.** [erdosproblems.com/150](https://www.erdosproblems.com/150),
 accessed 2026-09-19 (06:45 UTC): the problem page (PROVED (LEAN),

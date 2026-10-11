@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E1036
 title: Problem 1036
 desc: |
-  Asks whether a graph on n vertices with no empty or complete subgraph of
-  logarithmic size has exponentially many pairwise non-isomorphic induced
-  subgraphs.
+  Asks whether a graph on $n$ vertices with no empty or complete subgraph on
+  more than $c\log n$ vertices has $2^{\Omega_c(n)}$ pairwise non-isomorphic
+  induced subgraphs. It is proved.
 tags:
 - Graph theory
 status: solved
@@ -26,24 +26,26 @@ trivial (empty or complete) graph on more than $c\log n$ vertices. Must $G$
 contain at least $2^{\Omega_c(n)}$ many induced subgraphs which are not pairwise
 isomorphic?
 
-**Status.** Proved. The site credits Shelah [Sh98], whose Theorem 1.3 proves
-the conjecture of Erdős and Rényi in the question's form: for every $c_1>0$
-there is $c_2>0$ such that, for $n$ large, a graph on $n$ vertices with
-no complete or edgeless subgraph on $c_1\log n$ vertices has at least $2^{c_2n}$
-induced subgraphs up to isomorphism (J. Combin. Theory Ser. A 82 (1998),
-179--185; refereed; arXiv:math/9707226). The claim page
+**Status.** Proved. The site credits Shelah [Sh98], whose Theorem 1.3 proves the
+conjecture of Erdős and Rényi in the question's form (J. Combin. Theory Ser. A
+82 (1998), 179--185; refereed; arXiv:math/9707226). For every $c_1>0$ there is
+$c_2>0$ such that, for $n$ large, a graph on $n$ vertices with no complete or
+edgeless subgraph on $c_1\log n$ vertices has at least $2^{c_2n}$ induced
+subgraphs up to isomorphism. The claim page
 [[problems/extremal_graph_theory/E1036/claims/1997_07_15_shelah|Shelah]] records
-it as accepted on the refereed venue and the site's acceptance after the forum
-comment of 13 September 2025; the site's Lean suffix is its catalog label for
-the external Lean development that declares itself a formalization of Shelah's
-theorem, carried as a `formalization` link on that claim page and described
-under Formalization below, not built or audited here. The proof-claim tab is
-empty, and nothing is independently reviewed here. The site also records Alon
-and Hajnal's bound $\exp(n(\log n)^{-O(\log\log n)})$ [AlHa91], which falls
-short of $2^{\Omega_c(n)}$ for every graph the question concerns and so settles
-no case of it, and the Erdős--Hajnal theorem [ErHa89b], which answers the
-question yes for the graphs in which neither $G$ nor its complement contains
-$K_{c\log n,c\log n}$, a special case recorded on its own partial claim page,
+it as accepted on the refereed venue and on the site's acceptance after the
+forum comment of 13 September 2025. The site's Lean suffix is its catalog label
+for the external Lean development that declares itself a formalization of
+Shelah's theorem. That development is carried as a `formalization` link on the
+claim page and described under Formalization below. It was not built or audited
+here. The proof-claim tab is empty, and nothing is independently reviewed here.
+
+The site also records two further results. Alon and Hajnal's bound
+$\exp(n(\log n)^{-O(\log\log n)})$ [AlHa91] falls short of $2^{\Omega_c(n)}$ for
+every graph the question concerns, so it settles no case of it. The
+Erdős--Hajnal theorem [ErHa89b] answers the question yes for the graphs in which
+neither $G$ nor its complement contains $K_{c\log n,c\log n}$. This special case
+is recorded on its own partial claim page,
 [[problems/extremal_graph_theory/E1036/claims/1989_05_01_erdos_hajnal|Erdős and Hajnal]].
 
 **Source.** [erdosproblems.com/1036](https://www.erdosproblems.com/1036),

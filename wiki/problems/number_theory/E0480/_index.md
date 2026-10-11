@@ -2,9 +2,9 @@
 name: problems/number_theory/E0480
 title: Problem 480
 desc: |
-  Asks whether every sequence in [0,1] has a gap n for which the lower limit of
-  n times the spacing of terms n apart is at most one over root five; proved by
-  Chung and Graham with the sharp constant 0.3944....
+  Asks whether every sequence $x_1,x_2,\ldots$ in $[0,1]$ satisfies
+  $\inf_n\liminf_{m\to\infty}n|x_{m+n}-x_m|\le5^{-1/2}$; proved by Chung and
+  Graham with the sharp constant $0.3944\ldots$.
 tags:
 - Number theory
 status: solved
@@ -43,23 +43,22 @@ Newman's conjecture in a different form, quoted below, and its added-in-proof
 note states the Chung--Graham theorem in a third; the relation between the forms
 is recorded under Origin.
 
-**Status.** PROVED (LEAN), the site's label (page last edited 28 December
-2025), credited to Chung and Graham [ChGr84]; the accepted claim page is
+**Status.** PROVED (LEAN), the site's label (page last edited 28 December 2025),
+credited to Chung and Graham [ChGr84]. The accepted claim page is
 [[problems/number_theory/E0480/claims/1981_07_01_chung_graham|Chung and Graham 1981]].
 Theorem 1 of the chapter (Finite and Infinite Sets, Colloq. Math. Soc. János
-Bolyai 37, North-Holland 1984; p. 182; no file held) gives, for every
-sequence $\bar x$ in $[0,1]$,
-$C(\bar x)\le(1+\sum_{k\ge1}F_{2k}^{-1})^{-1}=\alpha=0.39441967\ldots$, and
-$\alpha<5^{-1/2}=0.44721\ldots$, so the answer is yes with a smaller
-constant; their Theorem 2 shows $\alpha$ is best possible. The same theorems
-were announced without proof in [ChGr81] (Proc. Natl. Acad. Sci. USA 78
-(1981), 4001; no file held), the authors' own first publication. The claim
-is accepted on the refereed announcement, which carries no proof, and on the
-curator's credit; the chapter is a proceedings chapter not shown to be
-refereed, and the 1980 monograph's added-in-proof note reports the theorem
-too. The "(Lean)" suffix is a catalog label explained under Formalization
-below; the Lean file is a formalization link on the claim page and gives no
-evidence here.
+Bolyai 37, North-Holland 1984; p. 182; no file held) gives, for every sequence
+$\bar x$ in $[0,1]$,
+$C(\bar x)\le(1+\sum_{k\ge1}F_{2k}^{-1})^{-1}=\alpha=0.39441967\ldots$. Since
+$\alpha<5^{-1/2}=0.44721\ldots$, the answer is yes with a smaller constant.
+Their Theorem 2 shows that $\alpha$ is best possible. The same theorems were
+announced without proof in [ChGr81] (Proc. Natl. Acad. Sci. USA 78 (1981), 4001;
+no file held), the authors' own first publication. The claim is accepted on this
+refereed announcement, which carries no proof, and on the curator's credit. The
+chapter is a proceedings chapter not shown to be refereed. The 1980 monograph's
+added-in-proof note also reports the theorem. The "(Lean)" suffix is a catalog
+label explained under Formalization below. The Lean file is a formalization link
+on the claim page and gives no evidence here.
 
 **Source.** [erdosproblems.com/480](https://www.erdosproblems.com/480),
 accessed 2026-09-18: the problem page (PROVED (LEAN), with the site's note

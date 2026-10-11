@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0924
 title: Problem 924
 desc: |
-  Asks whether, for k at least 2 and l at least 3, some graph with no clique on
-  l plus 1 vertices forces a monochromatic l-clique in every k-edge-coloring;
-  true, by Folkman for two colors and by Nešetřil and Rödl for every k.
+  Asks whether, for $k\ge2$ and $l\ge3$, some $K_{l+1}$-free graph has a
+  monochromatic $K_l$ in every $k$-coloring of its edges. True, by Folkman for
+  two colors and by Nešetřil and Rödl for every $k$.
 tags:
 - Graph theory
 - Ramsey theory
@@ -40,23 +40,23 @@ colorings the question is settled for every $k$ by Folkman's Theorem 2). The
 site's Problem 582 is the case $l=3$, $k=2$; Problem 966 is the arithmetic
 analog.
 
-**Status.** The site labels the problem PROVED. For $k=2$ and every $l$ this is
-Folkman's Theorem 1 [Fo70] ($f(k_1,k_2)=\max(k_1,k_2)$; SIAM J. Appl. Math. 18
-(1970), no. 1, 19--24, refereed). For every $k$ it is the theorem of Nešetřil
-and Rödl [NeRo76] (J. Combin. Theory Ser. B 20 (1976), no. 3, 243--249,
-refereed) that for every finite graph $G$ and every number $c$ of colors there
-is a graph $H$ with $H\to(G)_c$ and clique number $\omega(H)=\omega(G)$; with
-$G=K_l$ and $c=k$ this is the statement. That paper is not held and its
-theorem is quoted second-hand from the introduction of Spencer's refereed 1975
-paper, from Erdős's 1975 report and from the site, which accepts it. Folkman's
-own paper states the case of more than two colors as a conjecture his methods do
-not seem to reach. The general case therefore rests on second-hand statements of
-the Nešetřil--Rödl theorem. The claim pages
+**Status.** The site labels the problem PROVED. The claim pages
 [[problems/ramsey_theory/E0924/claims/1970_01_01_folkman|Folkman 1970]] (the
 case $k=2$, partial) and
 [[problems/ramsey_theory/E0924/claims/1976_06_01_nesetril_rodl|Nešetřil and Rödl 1976]]
 (every $k$) record the two theorems with their postings and acceptance evidence,
-and the frontmatter standing derives from them.
+and the frontmatter standing derives from them. For $k=2$ and every $l$, the
+statement is Folkman's Theorem 1 [Fo70] ($f(k_1,k_2)=\max(k_1,k_2)$; SIAM J.
+Appl. Math. 18 (1970), no. 1, 19--24, refereed). For every $k$, it is the
+theorem of Nešetřil and Rödl [NeRo76] (J. Combin. Theory Ser. B 20 (1976), no.
+3, 243--249, refereed). That theorem says that for every finite graph $G$ and
+every number $c$ of colors there is a graph $H$ with $H\to(G)_c$ and clique
+number $\omega(H)=\omega(G)$. With $G=K_l$ and $c=k$, this is the statement.
+That paper is not held. Its theorem is quoted second-hand from the introduction
+of Spencer's refereed 1975 paper, from Erdős's 1975 report and from the site,
+which accepts it. Folkman's own paper states the case of more than two colors as
+a conjecture his methods do not seem to reach. The general case therefore rests
+on second-hand statements of the Nešetřil--Rödl theorem.
 
 **Source.** [erdosproblems.com/924](https://www.erdosproblems.com/924),
 accessed 2026-09-18: the problem page (PROVED, which the site glosses as

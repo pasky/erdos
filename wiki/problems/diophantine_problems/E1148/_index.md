@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E1148
 title: Problem 1148
 desc: |
-  Asks whether every large integer is a sum of two squares minus a square with
-  all three squares at most that integer.
+  Asks whether every large integer $n$ can be written as $x^2+y^2-z^2$ with
+  $\max(x^2,y^2,z^2)\leq n$; proved.
 tags:
 - Number theory
 status: solved
@@ -23,10 +23,10 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Can every large integer $n$ be written as $n=x^2+y^2-z^2$ with
 $\max(x^2,y^2,z^2)\leq n$?
 
-**Status.** PROVED (LEAN): the site credits Chojecki and GPT-5.4 Pro with a
-deduction from Duke's theorem in the form of [ELMV12]; the Lean development
-behind the label proves the theorem from that theorem taken as a hypothesis.
-The accepted claim page is
+**Status.** PROVED (LEAN). The site credits Chojecki and GPT-5.4 Pro with a
+deduction from Duke's theorem in the form of [ELMV12]. The Lean development
+behind the label proves the theorem with Duke's theorem, in that form, taken as
+a hypothesis. The accepted claim page is
 [[problems/diophantine_problems/E1148/claims/2026_03_16_chojecki|Chojecki 2026]].
 
 **Source.** [erdosproblems.com/1148](https://www.erdosproblems.com/1148),

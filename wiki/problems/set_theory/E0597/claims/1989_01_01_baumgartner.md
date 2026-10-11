@@ -3,8 +3,9 @@ name: problems/set_theory/E0597/claims/1989_01_01_baumgartner
 title: Baumgartner's theorem settles the finite question under Martin's axiom
 desc: |
   Baumgartner (Lecture Notes in Math. 1401, 1989) proved under Martin's axiom
-  for aleph_1 dense sets that omega_1 omega -> (omega_1 omega, n)^2 for all
-  finite n; so the finite question holds in a model of ZFC for every graph.
+  for $\aleph_1$ dense sets that $\omega_1\omega\to(\omega_1\omega,n)^2$ for all
+  finite $n$. So the finite question holds in a model of ZFC for every finite
+  graph.
 authors:
 - James E. Baumgartner
 status: claimed
@@ -71,14 +72,14 @@ introduction of Chen, Garti and Weinert, as the
 records, and the chapter's theorem numbering is unknown. The volume carries
 only the year, so this page is dated the first of January 1989.
 
-**Acceptance.** None, so the claim stays `claimed`. The site labels
-Problem 597 OPEN and its commentary does not mention the theorem; the
-chapter appeared in a Springer Lecture Notes in Mathematics proceedings
-volume, and there is no evidence that the volume's chapters were refereed,
-so `refereed` is not listed; and the same chapter is accepted on
-[[problems/set_theory/E1171/claims/1989_01_01_baumgartner|Problem 1171's page]]
-only through that problem's own NOT DISPROVABLE label, whose credit to
-Baumgartner covers the case $n=3$ alone and says nothing about Problem 597.
+**Acceptance.** None, so the claim stays `claimed`. The site labels Problem 597
+OPEN, and its commentary does not mention the theorem. The chapter appeared in a
+Springer Lecture Notes in Mathematics proceedings volume. There is no evidence
+that the volume's chapters were refereed, so `refereed` is not listed. The same
+chapter is accepted on
+[[problems/set_theory/E1171/claims/1989_01_01_baumgartner|Problem 1171's page]],
+but only through that problem's own NOT DISPROVABLE label. That label's credit
+to Baumgartner covers the case $n=3$ alone and says nothing about Problem 597.
 
 **Depends on.**
 [[../library/set_theory/baumgartner_1989_remarks_partition_ordinals/main_theorem|The main theorem page of the source card]],

@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0874
 title: Problem 874
 desc: |
-  Estimates the largest set of integers up to N whose sets of sums of r
-  distinct members are disjoint for distinct r, and whether it nears two root
-  N.
+  Estimates $k(N)$, the size of the largest subset of $\{1,\ldots,N\}$ whose
+  sets of sums of $r$ distinct members are disjoint for distinct $r$, and asks
+  whether $k(N)\sim2N^{1/2}$; proved.
 tags:
 - Number theory
 - Additive combinatorics
@@ -42,28 +42,33 @@ P. Erdős in 1962 ... and called admissibility by E.G. Straus in 1966"). The
 question has two parts, an estimate of $k(N)$ and the asymptotic
 $k(N)\sim2N^{1/2}$; both are answered below.
 
-**Status.** Proved. The asymptotic $k(N)\sim2N^{1/2}$ was first proved in
-1995: Theorem 1 of Deshouillers and Freiman (Israel J. Math. 92 (1995),
-33--43) gives $k(N)\le2N^{1/2}+CN^{5/12}$, which with Straus's block is
-$k(N)=2N^{1/2}+O(N^{5/12})$, the affirmative answer to the displayed
-question. The exact value for large $N$ followed in 1999: for all
-$N\ge N_0$ ($N_0$ effectively computable, not made explicit), Theorem 1 of
-Deshouillers and Freiman (Astérisque 258 (1999), 141--148, published by
-the Société mathématique de France, whose Crossref record types the
-article as a journal article in Astérisque) gives
-$k(N)\le2\sqrt{N+1/4}-1$, and Straus's block $\{N-k+1,\ldots,N\}$, admissible exactly when $k\le2\sqrt{N+1/4}-1$
-(as the same paper reports and as Erdős, Nicolas and Sárközy state in the
-form $k=2m-1$ for $m^2\le N<m^2+m$, $k=2m$ for $m^2+m\le N<(m+1)^2$),
-attains it; so $k(N)=\lfloor2\sqrt{N+1/4}-1\rfloor$ for $N\ge N_0$, hence
-$k(N)=2N^{1/2}+O(1)$ and $k(N)\sim2N^{1/2}$, the affirmative answer. The
-combination of the theorem with the block is a one-line deduction made
-here. The earlier bounds $\limsup k(N)N^{-1/2}\le4/\sqrt3$ (Straus,
-reproved in 1991) and $\le(143/27)^{1/2}$ (Erdős, Nicolas and Sárközy,
-Théorème 1) and Erdős's $CN^{5/6}$ (1962) are superseded and answer neither
-part of the question. Straus's paper and Erdős's 1998 paper, both site keys
-or sources, are not held; for small $N$ the equality $k(N)=$ block size is the numerical
-conjecture of Erdős, Nicolas and Sárközy, not a theorem. The two accepted
-claims are recorded on the claim pages of
+**Status.** Proved. The asymptotic $k(N)\sim2N^{1/2}$ was first proved in 1995.
+Theorem 1 of Deshouillers and Freiman (Israel J. Math. 92 (1995), 33--43) gives
+$k(N)\le2N^{1/2}+CN^{5/12}$. With Straus's block, this gives
+$k(N)=2N^{1/2}+O(N^{5/12})$, the affirmative answer to the displayed question.
+
+The exact value for large $N$ followed in 1999. For all $N\ge N_0$, with $N_0$
+effectively computable but not made explicit, Theorem 1 of Deshouillers and
+Freiman (Astérisque 258 (1999), 141--148) gives $k(N)\le2\sqrt{N+1/4}-1$.
+Astérisque is published by the Société mathématique de France, and the article's
+Crossref record types it as a journal article in Astérisque. Straus's block
+$\{N-k+1,\ldots,N\}$ is admissible exactly when $k\le2\sqrt{N+1/4}-1$. The same
+paper reports this admissibility condition, and Erdős, Nicolas and Sárközy state
+it in the form $k=2m-1$ for $m^2\le N<m^2+m$ and $k=2m$ for
+$m^2+m\le N<(m+1)^2$. So the block attains the bound, and
+$k(N)=\lfloor2\sqrt{N+1/4}-1\rfloor$ for $N\ge N_0$. Hence $k(N)=2N^{1/2}+O(1)$
+and $k(N)\sim2N^{1/2}$, the affirmative answer. The combination of the theorem
+with the block is a one-line deduction made here.
+
+The earlier bounds are superseded and answer neither part of the question. They
+are $\limsup k(N)N^{-1/2}\le4/\sqrt3$ (Straus, reproved in 1991),
+$\limsup k(N)N^{-1/2}\le(143/27)^{1/2}$ (Erdős, Nicolas and Sárközy, Théorème 1)
+and Erdős's $CN^{5/6}$ (1962). Straus's paper and Erdős's 1998 paper, both site
+keys or sources, are not held. For small $N$, the equality of $k(N)$ with the
+block size is the numerical conjecture of Erdős, Nicolas and Sárközy, not a
+theorem.
+
+The two accepted claims are recorded on the claim pages of
 [[problems/additive_combinatorics/E0874/claims/1995_02_01_deshouillers_freiman|the 1995 paper]]
 (refereed; the site credits the 1999 paper, not this one) and
 [[problems/additive_combinatorics/E0874/claims/1999_01_01_deshouillers_freiman|the 1999 paper]]

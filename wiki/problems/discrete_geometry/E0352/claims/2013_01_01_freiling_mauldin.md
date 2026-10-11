@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0352/claims/2013_01_01_freiling_mauldin
 title: "Freiling and Mauldin: unions of at most three convex interiors"
 desc: |
-  The result reported in Mauldin's 2013 survey that Erdős's constant
-  $4\pi/\sqrt{27}$ is the sharp threshold when the set is the union of the
-  interiors of at most three compact convex sets; the general case is open.
+  Mauldin's 2013 survey reports that Erdős's constant $4\pi/\sqrt{27}$ is the
+  sharp threshold when the set is the union of the interiors of at most three
+  compact convex sets. The general case is open.
 authors:
 - R. Daniel Mauldin
 status: claimed
@@ -57,5 +57,5 @@ no month, and the day in the page name is a placeholder.
 
 **Acceptance.** None listed. The chapter appeared in a Bolyai Society volume,
 not a journal, and no evidence that the volume was refereed is recorded. The
-site's curator credits the result in the problem's commentary while labeling
-the problem OPEN, which is not acceptance of a claim.
+site's curator credits the result in the problem's commentary but labels the
+problem OPEN, which is not acceptance of a claim.

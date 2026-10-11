@@ -2,9 +2,10 @@
 name: problems/analysis/E0974
 title: Problem 974
 desc: |
-  Asks whether complex numbers whose power sums vanish on infinitely many
-  blocks of n minus one consecutive indices are essentially the nth roots of
-  unity, read as Tijdeman's classification.
+  Asks whether complex numbers $z_1=1,z_2,\ldots,z_n$ whose power sums vanish on
+  infinitely many runs of $n-1$ consecutive indices must essentially be the
+  $n$th roots of unity, in the precise form of Tijdeman's classification;
+  proved.
 tags:
 - Analysis
 status: solved
@@ -81,12 +82,13 @@ $2\le i\le n$, which the site's wording omits; neither answer changes, since the
 conclusion forces $|z_i|=1$ and the construction lies on the unit circle.
 Unread: Turán's own statement of the conjecture, and its statement in [Ti66].
 
-**Status.** PROVED (LEAN). The site's label describes the precise Statement.
-The site credits Tijdeman [Ti66], who proved the stronger form with two runs
-of vanishing power sums, and it notes an independent proof in its thread. Its
-Lean marker refers to third-party formalizations that this corpus has not
-built. The standing derives from
+**Status.** PROVED (LEAN). The site's label describes the precise Statement. The
+standing derives from
 [[problems/analysis/E0974/claims/1966_01_01_tijdeman|Tijdeman's claim page]].
+The site credits Tijdeman [Ti66], who proved the stronger form with two runs of
+vanishing power sums. The site also notes an independent proof in its thread.
+Its Lean marker refers to third-party formalizations that this corpus has not
+built.
 
 **Source.** [erdosproblems.com/974](https://www.erdosproblems.com/974), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #974,

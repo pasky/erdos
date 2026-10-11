@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0100
 title: Problem 100
 desc: |
-  Asks whether n plane points whose pairwise distances are at least one and
-  whose distinct distances differ by at least one must have diameter of order
-  n.
+  Asks whether $n$ points in the plane whose pairwise distances are at least
+  $1$, and whose distinct distances differ by at least $1$, must have diameter
+  $\gg n$. It is open.
 tags:
 - Geometry
 - Distances

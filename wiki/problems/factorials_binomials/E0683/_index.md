@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E0683
 title: Problem 683
 desc: |
-  Asks whether the largest prime divisor of n choose k is always at least the
-  smaller of n minus k plus 1 and k to a power greater than one.
+  Asks whether, for some constant $c>0$, the largest prime divisor of
+  $\binom{n}{k}$ is at least $\min(n-k+1,k^{1+c})$ for all $1\le k\le n$; open.
 tags:
 - Number theory
 - Primes
@@ -43,16 +43,18 @@ the Sylvester-Schur theorem and $\binom nk=\binom n{n-k}$. The open content is
 therefore the range $k\le n/2$, which is the range of the formal-conjectures
 statement.
 
-**Status.** Open, the site's label. The site credits two classical results,
-each an accepted partial claim with refereed evidence: the Sylvester-Schur
-theorem in the binomial form of [Er34],
-[[problems/factorials_binomials/E0683/claims/1934_10_01_erdos|Erdős 1934]],
-which settles the range $n/2\le k\le n-1$ for every $c$, and Theorem 1 of
-[Er55d], [[problems/factorials_binomials/E0683/claims/1955_01_01_erdos|Erdős
-1955]], which gives $P(\binom nk)\gg\min(n-k+1,k\log k)$ for $k\le n/2$ and
-settles the instances with $n-k$ at most a constant multiple of $k\log k$.
-Neither gives a bound of the form $k^{1+c}$, so no claim settles or pends to
-settle the problem and the derived standing is `open` with claim `none`.
+**Status.** Open, the site's label. The derived standing is `open` with claim
+`none`, because no claim settles the problem or is pending to settle it. The
+site credits two classical results. Each is an accepted partial claim with
+refereed evidence. The first is the Sylvester-Schur theorem in the binomial form
+of [Er34],
+[[problems/factorials_binomials/E0683/claims/1934_10_01_erdos|Erdős 1934]]. It
+settles the range $n/2\le k\le n-1$ for every $c$. The second is Theorem 1 of
+[Er55d],
+[[problems/factorials_binomials/E0683/claims/1955_01_01_erdos|Erdős 1955]]. It
+gives $P(\binom nk)\gg\min(n-k+1,k\log k)$ for $k\le n/2$, and so settles the
+instances with $n-k$ at most a constant multiple of $k\log k$. Neither gives a
+bound of the form $k^{1+c}$.
 
 **Source.** [erdosproblems.com/683](https://www.erdosproblems.com/683), accessed
 2026-09-04 and 2026-10-07 (problem page last edited 31 December 2025; its

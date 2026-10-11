@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0609/claims/2024_12_10_girao_hunter
 title: Girão and Hunter's first o(2^n) upper bound
 desc: |
-  Girão and Hunter (arXiv preprint, 2024) prove that every n-coloring of
-  K_(2^n+1) has a monochromatic odd cycle of length at most
-  (2^n+1)/n^(1-epsilon) for fixed epsilon > 0 and large n; a preprint.
+  In an arXiv preprint (2024), Girão and Hunter prove that for fixed
+  $\varepsilon>0$ and large $n$, every $n$-coloring of $K_{2^n+1}$ has a
+  monochromatic odd cycle of length at most $(2^n+1)/n^{1-\varepsilon}$.
 authors:
 - António Girão
 - Zach Hunter

@@ -2,11 +2,10 @@
 name: problems/additive_combinatorics/E0328/claims/2026_06_18_axiommath
 title: AxiomMath's Lean disproof of the ordered-count statement
 desc: |
-  Answers the site's wording (ordered pairs, under which C = 2 fails
-  trivially), not the corrected Statement (sums of two distinct elements), so
-  it does not count toward the problem's standing. A Lean 4 development by
-  AxiomProver, published by AxiomMath, refutes that wording by the powers of
-  two at C = 2.
+  A Lean 4 development by AxiomProver, published by AxiomMath, refutes the
+  site's wording (ordered pairs, under which $C=2$ fails trivially) by the
+  powers of two at $C=2$. It does not answer the corrected Statement (sums of
+  two distinct elements), so it does not count toward the problem's standing.
 authors:
 - AxiomProver
 status: rejected

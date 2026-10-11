@@ -2,9 +2,10 @@
 name: problems/divisors/E0697
 title: Problem 697
 desc: |
-  Asks whether some threshold exponent splits the density of integers with a
-  divisor above 1 congruent to 1 modulo m into a limit of zero below and one
-  above.
+  Asks whether there is some $\beta\in(1,\infty)$ such that, as $m\to\infty$,
+  the density of integers with a divisor $d\equiv1\pmod m$ in
+  $(1,\exp(m^\alpha))$ tends to $0$ for $\alpha<\beta$ and to $1$ for
+  $\alpha>\beta$; proved.
 tags:
 - Number theory
 - Divisors
@@ -32,7 +33,7 @@ $$
 
 is $0$ if $\alpha<\beta$ and $1$ if $\alpha>\beta$?
 
-**Status.** Proved. The derived standing, solved and proved, rests on
+**Status.** Proved. The derived standing is solved and proved. It rests on
 [[problems/divisors/E0697/claims/1992_11_01_hall|Hall's accepted claim]]: the
 threshold exists and equals $1/\log2$.
 

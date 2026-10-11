@@ -2,9 +2,10 @@
 name: problems/analysis/E0512/claims/1981_05_01_mcgehee_pigno_smith
 title: "McGehee, Pigno and Smith: Hardy's inequality and the L1 norm"
 desc: |
-  Proves Littlewood's conjecture that the L1 norm of a sum of N distinct
-  exponentials is at least a constant times the logarithm of N, through a
-  Hardy-type inequality; refereed in the Annals, credited by the site.
+  McGehee, Pigno and Smith prove Littlewood's conjecture that the $L^1$ norm of
+  a sum of $N$ distinct exponentials is at least a constant times $\log N$,
+  through a Hardy-type inequality. Their refereed paper appeared in the Annals,
+  and the site credits it.
 authors:
 - O. Carruth McGehee
 - Louis Pigno
@@ -50,13 +51,12 @@ gives it; the method's name, a Hardy-type inequality and a dual
 construction, is taken from the titles and from the Lean file below.
 
 **Acceptance.** The Annals paper is a refereed journal publication, the
-`refereed` evidence; the publisher's record dates the issue to May 1981 and
-gives no day, and this page is dated to the first day of that month. The
-site's curator, Thomas Bloom, labels the problem proved and credits the
-proof of Littlewood's conjecture independently to this paper and to
-Konyagin, whose
+`refereed` evidence. The publisher's record dates the issue to May 1981 and
+gives no day, so this page is dated to the first day of that month. The site's
+curator, Thomas Bloom, labels the problem proved and credits the proof of
+Littlewood's conjecture independently to this paper and to Konyagin, whose
 [[problems/analysis/E0512/claims/1981_01_01_konyagin|claim page]] records
-Konyagin's proof; that curator credit is the `reviewed` evidence.
+Konyagin's proof. That curator credit is the `reviewed` evidence.
 
 **Formalization.** The linked Lean file in the `Jayyhk/erdos-lean`
 repository, pinned at the commit in the link, proves

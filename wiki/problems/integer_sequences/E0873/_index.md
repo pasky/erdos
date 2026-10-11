@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0873
 title: Problem 873
 desc: |
-  Asks whether, for every positive epsilon, some k makes the number of windows
-  of k consecutive members with least common multiple below X less than X to
-  epsilon.
+  Asks whether, for every $\epsilon>0$, there is a $k$ such that fewer than
+  $X^\epsilon$ blocks of $k$ consecutive terms of an increasing integer sequence
+  have least common multiple below $X$; open.
 tags:
 - Number theory
 status: open
@@ -35,27 +35,28 @@ $$
 F(A,X,k)<X^\epsilon?
 $$
 
-**Status.** Open. The site's label is OPEN. Three pending partial claims
-answer the question yes for a range of exponents: the bound
-$F(A,X,3)\ll X^{1/3}\log X$ that Erdős reports with Szemerédi in 1992
-([[problems/integer_sequences/E0873/claims/1992_01_01_erdos_szemeredi|claim page]]),
-Ritvik Nayak's note of April 2026 with exponents below $1/3$ for $k=6$ and
-$k=11$ ([[problems/integer_sequences/E0873/claims/2026_04_29_nayak|claim page]]),
-and two notes posted by old-bielefelder in April and August 2026, written by
-ChatGPT 5.5 Thinking and ChatGPT 5.6 Sol, covering every exponent above $1/4$
+**Status.** Open. The site's label is OPEN. The standing in the frontmatter is
+derived from the claim pages. Three pending partial claims answer the question
+yes for a range of exponents. The first is the bound $F(A,X,3)\ll X^{1/3}\log X$
+that Erdős reports with Szemerédi in 1992
+([[problems/integer_sequences/E0873/claims/1992_01_01_erdos_szemeredi|claim page]]).
+The second is Ritvik Nayak's note of April 2026, with exponents below $1/3$ for
+$k=6$ and $k=11$
+([[problems/integer_sequences/E0873/claims/2026_04_29_nayak|claim page]]). The
+third is a pair of notes posted by old-bielefelder in April and August 2026,
+written by ChatGPT 5.5 Thinking and ChatGPT 5.6 Sol, which cover every exponent
+above $1/4$
 ([[problems/integer_sequences/E0873/claims/2026_04_30_old_bielefelder|claim page]]).
-No claim covers exponents at most $1/4$, and the standing in the frontmatter
-is derived from the claim pages.
+No claim covers exponents at most $1/4$.
 
-Kenta Kitamura's Lean development (thread post of 11 September 2026;
-developed with ChatGPT and OpenAI Codex using GPT-6 (Astra), as the post
-discloses) proves that every increasing sequence has
-$\liminf_{X\to\infty}F(A,X,3)/X^{1/3}\le6$. This refutes Erdős's suggestion
-in [Er92c], p. 48, repeated in the site's commentary, that some sequence
-satisfies $F(A,X,3)\gg X^{1/3}\log X$ for every $X$. Formal-conjectures
-registers the development as the formal proof of its variant
-`erdos_873.variants.supplement_all_scale`. It settles no instance of the
-question asked, so it has no claim page; it was not built or audited here.
+Kenta Kitamura's Lean development (thread post of 11 September 2026) proves that
+every increasing sequence has $\liminf_{X\to\infty}F(A,X,3)/X^{1/3}\le6$. As the
+post discloses, it was developed with ChatGPT and OpenAI Codex using GPT-6
+(Astra). This refutes Erdős's suggestion in [Er92c], p. 48, repeated in the
+site's commentary, that some sequence satisfies $F(A,X,3)\gg X^{1/3}\log X$ for
+every $X$. Formal-conjectures registers the development as the formal proof of
+its variant `erdos_873.variants.supplement_all_scale`. It settles no instance of
+the question asked, so it has no claim page. It was not built or audited here.
 
 **Source.** [erdosproblems.com/873](https://www.erdosproblems.com/873), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #873,

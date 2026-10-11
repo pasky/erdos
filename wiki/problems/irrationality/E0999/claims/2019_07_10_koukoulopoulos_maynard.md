@@ -3,8 +3,9 @@ name: problems/irrationality/E0999/claims/2019_07_10_koukoulopoulos_maynard
 title: Proof of the Duffin-Schaeffer conjecture
 desc: |
   Koukoulopoulos and Maynard prove the Duffin-Schaeffer conjecture, the
-  divergence half of Problem 999, refereed in the Annals of Mathematics (2020)
-  and credited by the site's curator; the other half is Borel-Cantelli.
+  divergence half of Problem 999, in a refereed paper in the Annals of
+  Mathematics (2020) that the site's curator credits. The other half is the
+  Borel-Cantelli lemma.
 authors:
 - Dimitris Koukoulopoulos
 - James Maynard
@@ -54,13 +55,12 @@ coprimality condition, as a corollary. The
 digests the paper.
 
 **Acceptance.** Refereed: Annals of Mathematics, Second Series, volume 192,
-issue 1, July 2020. Reviewed: the site's curator, Thomas Bloom, labels
-Problem 999 PROVED and credits this paper with the proof of the full
-conjecture in the problem's remarks (erdosproblems.com page accessed
-2026-10-07; the forum thread has no comments or proof claims).
-The formal-conjectures statement file for the problem is tagged as solved
-research. This corpus has not reproved the theorem and awards no tier of its
-own.
+issue 1, July 2020. Reviewed: the site's curator, Thomas Bloom, labels Problem
+999 PROVED. In the problem's remarks he credits this paper with the proof of the
+full conjecture (erdosproblems.com page accessed 2026-10-07). The forum thread
+has no comments or proof claims. The formal-conjectures statement file for the
+problem is tagged as solved research. This corpus has not reproved the theorem
+and awards no tier of its own.
 
 **Formalization.** A third party formalized the site's statement: `erdos_999`
 in `src/latest/ErdosProblems/Erdos999.lean` of Boris Alexeev's repository

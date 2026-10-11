@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0440
 title: Problem 440
 desc: |
-  Whether the number of consecutive pairs of an infinite set with least common
-  multiple at most x is O(x^{1/2}), and how large the liminf of that count
-  over x^{1/2} can be; both answered by Erdős and Szemerédi in 1980.
+  Asks whether $A(x)\ll x^{1/2}$, where $A(x)$ counts the consecutive pairs of
+  an infinite $A\subseteq\mathbb{N}$ with $\mathrm{lcm}(a_i,a_{i+1})\le x$, and
+  how large $\liminf A(x)/x^{1/2}$ can be; both answered by Erdős and Szemerédi
+  in 1980.
 tags:
 - Number theory
 status: solved
@@ -50,23 +51,22 @@ unpublished 1980 paper. The site's label SOLVED, which the site defines as a res
 the two answers: yes to the first question, and the value $1$ for the
 second.
 
-**Status.** Solved. Both questions are answered in Erdős and Szemerédi's
-1980 paper (Mat. Lapok 28, 121--124, in Hungarian). Theorem I gives
-$\limsup A(x)/x^{1/2}\le c$ with
-$c=\sum_{k\ge1}(k^{1/2}-(k-1)^{1/2})/k=1.8600\ldots$, so
-$A(x)\le(c+o(1))x^{1/2}$ and the answer to the first question is yes;
-Theorem II gives $\liminf A(x)/x^{1/2}\le1$ for every $A$, and $A=\mathbb N$
-attains $1$, so the largest possible value of the liminf is exactly $1$.
-The printed proof of Theorem II ends with a false numerical assertion
-($\gamma<1$ for a series equal to $1.1840\ldots$) and does not close as
-printed; the theorem is true, by the authored averaging proof under Current
-assessment, which is a note of this corpus and not acceptance evidence.
-Mat. Lapok is the refereed journal of the Bolyai Society (the card records
-MR 82c:10066 and Zbl 476.10045). Claim page:
+**Status.** Solved. Both questions are answered in Erdős and Szemerédi's 1980
+paper (Mat. Lapok 28, 121--124, in Hungarian). Mat. Lapok is the refereed
+journal of the Bolyai Society (the card records MR 82c:10066 and Zbl 476.10045).
+Theorem I gives $\limsup A(x)/x^{1/2}\le c$ with
+$c=\sum_{k\ge1}(k^{1/2}-(k-1)^{1/2})/k=1.8600\ldots$. So
+$A(x)\le(c+o(1))x^{1/2}$, and the answer to the first question is yes. Theorem
+II gives $\liminf A(x)/x^{1/2}\le1$ for every $A$, and $A=\mathbb N$ attains
+$1$. So the largest possible value of the liminf is exactly $1$. The printed
+proof of Theorem II ends with a false numerical assertion ($\gamma<1$ for a
+series equal to $1.1840\ldots$) and does not close as printed. The theorem is
+true, by the authored averaging proof under Current assessment. That proof is a
+note of this corpus and not acceptance evidence. Claim page:
 [[problems/integer_sequences/E0440/claims/1980_01_01_erdos_szemeredi|Erdős and Szemerédi 1980]]
-(accepted; refereed, and credited by the site's curator), which also links
-the public Lean file of August 2026 that declares itself a formalization of
-their result (not built or audited in this corpus).
+(accepted; refereed, and credited by the site's curator). The claim page also
+links the public Lean file of August 2026 that declares itself a formalization
+of their result (not built or audited in this corpus).
 
 **Source.** [erdosproblems.com/440](https://www.erdosproblems.com/440),
 accessed 2026-09-18: the problem page (SOLVED; last

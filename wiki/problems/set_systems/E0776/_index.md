@@ -2,9 +2,9 @@
 name: problems/set_systems/E0776
 title: Problem 776
 desc: |
-  Asks how large n must be, in terms of r, for an antichain of subsets of one
-  to n in which every occurring size is used at least r times to reach n
-  minus 3 distinct sizes; three claims are pending, none accepted.
+  Asks how large $n$ must be, as a function of $r$, for some antichain of
+  subsets of $\{1,\ldots,n\}$ that uses each occurring size at least $r$ times
+  to have $n-3$ distinct sizes; three claims are pending, none accepted.
 tags:
 - Combinatorics
 status: claimed
@@ -39,13 +39,13 @@ that way. He and Tang's bounds, which give $n_0(r)=2r+o(r)$ together with the
 exact values at $r=2$ and $r=3$, answer it in that sense; the exact threshold
 for every $r$, which Thiim claims, is a sharper answer.
 
-**Status.** Open. The site labels the problem OPEN (page last edited 10
-April 2026). The derived standing is claimed, with the claim answered, from two
-pending full claims:
+**Status.** Open. The site labels the problem OPEN (page last edited 10 April
+2026). The derived standing is claimed, with the claim answered, from two
+pending full claims. The first is
 [[problems/set_systems/E0776/claims/2026_02_10_he_tang|He and Tang 2026]], whose
-bounds give $n_0(r)=2r+o(r)$ with the exact values at $r=2$ and $r=3$, and
-[[problems/set_systems/E0776/claims/2026_07_17_thiim|Thiim 2026]], which claims
-the exact threshold for every $r\ge4$; neither is accepted.
+bounds give $n_0(r)=2r+o(r)$, with the exact values at $r=2$ and $r=3$. The
+second is [[problems/set_systems/E0776/claims/2026_07_17_thiim|Thiim 2026]],
+which claims the exact threshold for every $r\ge4$. Neither claim is accepted.
 
 **Source.** [erdosproblems.com/776](https://www.erdosproblems.com/776), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #776,

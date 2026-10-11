@@ -2,9 +2,9 @@
 name: problems/covering_systems/E0947
 title: Problem 947
 desc: |
-  Asks whether an exact covering system exists, finitely many congruence
-  classes with distinct moduli such that every integer satisfies exactly one
-  of them.
+  Asks whether an exact covering system exists, that is, finitely many
+  congruence classes with distinct moduli such that every integer satisfies
+  exactly one of them. The answer is no.
 tags:
 - Number theory
 - Covering systems
@@ -34,11 +34,12 @@ standing concerns that reading: no finite family of at least two congruence
 classes with distinct moduli, equivalently with all moduli at least $2$,
 partitions the integers.
 
-**Status.** PROVED (LEAN), the site's label: the curator credits the theorem
-to Mirsky and Newman and, independently, to Davenport and Rado, and the Lean
-mark refers to a third-party Lean 4 proof described under Formalization.
-The standing derives from the accepted claim on
+**Status.** PROVED (LEAN), the site's label. The standing derives from the
+accepted claim on
 [[problems/covering_systems/E0947/claims/1952_01_01_mirsky_newman|its claim page]].
+The curator credits the theorem to Mirsky and Newman and, independently, to
+Davenport and Rado. The Lean mark refers to a third-party Lean 4 proof described
+under Formalization.
 
 **Source.** [erdosproblems.com/947](https://www.erdosproblems.com/947), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #947,

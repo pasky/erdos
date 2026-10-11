@@ -2,8 +2,8 @@
 name: problems/extremal_graph_theory/E0064
 title: Problem 64
 desc: |
-  Asks whether every finite graph with minimum degree at least three contains
-  a cycle whose length is a power of two with exponent at least two.
+  Asks whether every finite graph with minimum degree at least $3$ contains a
+  cycle of length $2^k$ for some $k\ge2$; open.
 tags:
 - Graph theory
 - Cycles
@@ -24,12 +24,12 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Does every finite graph with minimum degree at least 3 contain a
 cycle of length $2^k$ for some $k\geq 2$?
 
-**Status.** Falsifiable: the site labels the problem FALSIFIABLE (page last
-edited 10 April 2026), a note on an open problem (Current assessment), not a
-claim; the frontmatter standing is derived from the seventeen claim pages
-under `claims/`, one withdrawn full claim and sixteen partial claims, seven of
-them accepted on refereed publications and nine claimed, none of which settles
-the question.
+**Status.** Falsifiable. The site labels the problem FALSIFIABLE (page last
+edited 10 April 2026). This label is a note on an open problem (Current
+assessment), not a claim. The frontmatter standing is derived from the seventeen
+claim pages under `claims/`: one withdrawn full claim and sixteen partial
+claims. Seven of the partial claims are accepted on refereed publications and
+nine are claimed. None of the seventeen claims settles the question.
 
 **Source.** [erdosproblems.com/64](https://www.erdosproblems.com/64), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #64,

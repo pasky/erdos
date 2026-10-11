@@ -2,9 +2,10 @@
 name: problems/factorials_binomials/E0419/claims/1996_01_01_erdos_graham_ivic_pomerance
 title: Erdős, Graham, Ivić and Pomerance, the limit points are 1 and 1+1/m
 desc: |
-  The ratio of successive divisor counts of factorials is 1 plus the largest
-  prime factor of n over n, up to an error of order n to the minus one half,
-  so its limit points are exactly 1 and the numbers 1+1/m; credited by the site.
+  Erdős, Graham, Ivić and Pomerance, credited by the site, prove that
+  $\tau(n!)/\tau((n-1)!)=1+P(n)/n+O(n^{-1/2})$, with $P(n)$ the largest prime
+  factor of $n$. So the limit points of the ratio are exactly $1$ and the
+  numbers $1+1/m$.
 authors:
 - Paul Erdös
 - S. W. Graham
@@ -95,10 +96,10 @@ its formal proof. This corpus has not built or audited the file, so the page
 lists no `formalized` evidence.
 
 **Acceptance.** The site's curator, T. F. Bloom, marks the problem solved and
-credits this paper, which the page lists as `reviewed`. The paper is P. Erdős,
-S. W. Graham, A. Ivić and C. Pomerance, On the number of divisors of $n!$, in
+credits this paper. The page lists this as `reviewed`. The paper is P. Erdős, S.
+W. Graham, A. Ivić and C. Pomerance, On the number of divisors of $n!$, in
 Analytic Number Theory, Birkhäuser Boston (1996), 337--355. It appeared in an
 edited conference volume rather than a journal, so the page lists no `refereed`
-evidence. The page is dated by the publication year alone: the publisher's
+evidence. The page is dated by the publication year alone. The publisher's
 record gives 1996 without a month, so the first day of the year stands in for
 the issue date.

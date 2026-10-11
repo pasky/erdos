@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0146
 title: Problem 146
 desc: |
-  Asks whether a bipartite r-degenerate graph has extremal number at most n
-  to the power two minus one over r; disproved at r equal to two by Theorem
-  1.2 of Chapter 10 of OpenAI's 2026 report, credited by the site's curator.
+  Asks whether every bipartite $r$-degenerate graph $H$ has
+  $\mathrm{ex}(n;H)\ll n^{2-1/r}$; disproved at $r=2$ by Theorem 1.2 of Chapter
+  10 of OpenAI's 2026 report, which the site's curator credits.
 tags:
 - Graph theory
 - Turán numbers
@@ -45,35 +45,37 @@ not for graphs, and the two sources that prove things about the conjecture,
 paper, whose p. 120 states it for bipartite graphs as "Perhaps the following
 result holds" (quoted below).
 
-**Status.** DISPROVED (LEAN). The status-defining source is Theorem 1.2 of
-Chapter 10 of OpenAI's technical report *Ten Advances in Mathematics and
-Theoretical Computer Science* (August 6, 2026 version;
-[[../library/ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_10/theorem_1_2|result page]]):
-there exist a fixed connected bipartite $2$-degenerate graph $H$ and
-constants $c,\varepsilon>0$ with $\mathrm{ex}(n,H)\ge c\,n^{3/2+\varepsilon}$
-for all sufficiently large $n$, which fails the conjectured
-$O(n^{2-1/2})=O(n^{3/2})$ at $r=2$. Its author is OpenAI; the announcement
-attributes the arguments to an internal model and manuscript preparation to
-humans working with that model. The site labels the problem DISPROVED
-(LEAN) and credits the result (page last edited 31 August 2026; the
-community database lists the status as of its last update, dated 2 August
-2026, without recording when the state changed). This is a
-source-supported solution accepted by the site, distinct from a claim of
-journal refereeing: no refereed publication and no independent expert
-review of the argument was found. The accompanying Lean file,
-at a pinned commit, has not been built or audited by the corpus, and no
-kernel credit is claimed. The claim page
-[[problems/extremal_graph_theory/E0146/claims/2026_08_01_openai|OpenAI's
-Theorem 1.2]] records the result, its postings and the site's acceptance,
-the curator's credit being its only acceptance evidence (listed as
-`reviewed`), and the frontmatter standing is derived from it; a refereed
-version, an independent whole-argument review or a build of the formal
-proof checked against the problem's statement would add evidence, and none was
-found. The partial result in the other direction is [AKS03]:
+**Status.** DISPROVED (LEAN). The site labels the problem DISPROVED (LEAN) and
+credits the result (page last edited 31 August 2026). The community database
+lists the status as of its last update, dated 2 August 2026, without recording
+when the state changed. The status-defining source is Theorem 1.2 of Chapter 10
+of OpenAI's technical report *Ten Advances in Mathematics and Theoretical
+Computer Science* (August 6, 2026 version;
+[[../library/ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_10/theorem_1_2|result page]]).
+It states that there exist a fixed connected bipartite $2$-degenerate graph $H$
+and constants $c,\varepsilon>0$ with
+$\mathrm{ex}(n,H)\ge c\,n^{3/2+\varepsilon}$ for all sufficiently large $n$.
+This fails the conjectured $O(n^{2-1/2})=O(n^{3/2})$ at $r=2$. Its author is
+OpenAI. The announcement attributes the arguments to an internal model, and
+manuscript preparation to humans working with that model.
+
+The claim page
+[[problems/extremal_graph_theory/E0146/claims/2026_08_01_openai|OpenAI's Theorem 1.2]]
+records the result, its postings and the site's acceptance, and the frontmatter
+standing is derived from it. The curator's credit is its only acceptance
+evidence (listed as `reviewed`). This is a source-supported solution accepted by
+the site, distinct from a claim of journal refereeing. No refereed publication
+and no independent expert review of the argument was found. The accompanying
+Lean file, at a pinned commit, has not been built or audited by the corpus, and
+no kernel credit is claimed. A refereed version, an independent whole-argument
+review or a build of the formal proof checked against the problem's statement
+would add evidence, and none was found.
+
+The partial result in the other direction is [AKS03]. Its Theorem 3.5 gives
 $\mathrm{ex}(n;H)\le h^{1/2r}n^{2-1/4r}$ for every bipartite $r$-degenerate $H$
-of order $h$ (Theorem 3.5), and the conjectured exponent when one side of the
-bipartition has all degrees at most $r$ (Corollary 2.3), the case of the
-statement that holds, recorded as an accepted partial claim on
+of order $h$. Its Corollary 2.3 gives the conjectured exponent when one side of
+the bipartition has all degrees at most $r$, which is the case of the statement
+that holds. This is recorded as an accepted partial claim on
 [[problems/extremal_graph_theory/E0146/claims/2003_11_01_alon_krivelevich_sudakov|its claim page]].
 
 **Source.** [erdosproblems.com/146](https://www.erdosproblems.com/146),

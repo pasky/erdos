@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0821
 title: Problem 821
 desc: |
-  Asks whether, for every positive epsilon, infinitely many n have more than n
-  to the power one minus epsilon integers whose Euler totient equals n; a
-  proof is claimed by the OpenAI release of September 2026.
+  Asks whether, for every $\epsilon>0$, infinitely many $n$ have more than
+  $n^{1-\epsilon}$ integers $m$ with $\phi(m)=n$. A proof is claimed by the
+  OpenAI release of September 2026.
 tags:
 - Number theory
 status: claimed
@@ -29,20 +29,22 @@ g(n) > n^{1-\epsilon}?
 $$
 
 **Status.** Claimed: a pending full claim would settle it. The site labels the
-problem OPEN (page last edited 1 October 2025; accessed 2026-09-04). The OpenAI
-release of September 2026 claims a proof: for every $\epsilon>0$ infinitely
-many $n$ have $g(n)>n^{1-\epsilon}$, from a count of $x^{1-o(1)}$ primes $p$
-with $2x<p\le5x$ whose predecessor $p-1$ has no prime factor above
-$x^{\delta}$, for every fixed $\delta>0$. The release has no Lean for it and no
-outside review is known, so the claim is pending on
+problem OPEN (page last edited 1 October 2025; accessed 2026-09-04).
+
+The OpenAI release of September 2026 claims a proof that for every $\epsilon>0$
+infinitely many $n$ have $g(n)>n^{1-\epsilon}$. The proof uses a count of
+$x^{1-o(1)}$ primes $p$ with $2x<p\le5x$ whose predecessor $p-1$ has no prime
+factor above $x^{\delta}$, for every fixed $\delta>0$. The release has no Lean
+for it and no outside review is known, so the claim is pending on
 [[problems/arithmetic_functions/E0821/claims/2026_09_24_openai|OpenAI 2026]].
-The fixed exponents proved before it have partial claim pages: Baker and
-Harman's refereed $g(n)>n^{0.7039}$ for infinitely many $n$, which settles
-every $\epsilon\ge0.2961$, on
-[[problems/arithmetic_functions/E0821/claims/1998_01_01_baker_harman|Baker and Harman 1998]],
-and Lichtman's $g(n)\ge n^{0.7156}$ for infinitely many $n$, strict by his
-Theorem 1.1 and the site's best known bound, which settles every
-$\epsilon\ge0.2844$, on
+
+The fixed exponents proved before it have partial claim pages. Baker and
+Harman's refereed bound $g(n)>n^{0.7039}$ for infinitely many $n$ settles every
+$\epsilon\ge0.2961$. It is on
+[[problems/arithmetic_functions/E0821/claims/1998_01_01_baker_harman|Baker and Harman 1998]].
+Lichtman's bound $g(n)\ge n^{0.7156}$ for infinitely many $n$ settles every
+$\epsilon\ge0.2844$. It is strict by his Theorem 1.1, it is the site's best
+known bound, and it is on
 [[problems/arithmetic_functions/E0821/claims/2022_11_14_lichtman|Lichtman 2022]].
 
 **Source.** [erdosproblems.com/821](https://www.erdosproblems.com/821), accessed

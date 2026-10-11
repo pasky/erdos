@@ -2,8 +2,9 @@
 name: problems/set_systems/E1027
 title: Problem 1027
 desc: |
-  Concerns the union of a family of at most a constant times two to the n many
-  sets each of size n, for large n.
+  Asks whether, for a family $\mathcal{F}$ of at most $c2^n$ sets of size $n$
+  with union $X$ and $n$ large, there are $\gg_c 2^{\lvert X\rvert}$ sets
+  $B\subset X$ that meet every member of $\mathcal{F}$ but contain none; proved.
 tags:
 - Combinatorics
 status: solved
@@ -27,9 +28,9 @@ size $n$. Let $X=\cup_{A\in \mathcal{F}}A$.
 Must there exist $\gg_c 2^{\lvert X\rvert}$ many sets $B\subset X$ which
 intersect every set in $\mathcal{F}$, yet contain none of them?
 
-**Status.** Proved. The site marks the problem proved (page last edited
-1 October 2025) and credits a proof posted in its comment thread by Koishi
-Chan on 21 September 2025; the claim page
+**Status.** Proved. The site marks the problem proved (page last edited 1
+October 2025). It credits a proof that Koishi Chan posted in the problem's
+comment thread on 21 September 2025. The claim page
 [[problems/set_systems/E1027/claims/2025_09_21_koishichan|Koishi Chan 2025]]
 records the result, accepted on the curator's credit.
 

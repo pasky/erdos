@@ -2,8 +2,9 @@
 name: problems/set_theory/E0070
 title: Problem 70
 desc: |
-  Asks whether the order type of the real line arrows a countable ordinal and
-  a finite number for two-colorings of triples.
+  Asks whether the order type $\mathfrak{c}$ of the real line satisfies
+  $\mathfrak{c}\to(\beta,n)_2^3$ for every countable ordinal $\beta$ and every
+  finite $n\ge2$; open.
 tags:
 - Graph theory
 - Ramsey theory
@@ -42,7 +43,7 @@ continuum.
 
 **Status.** Open. The site's label is OPEN. One accepted partial claim,
 [[problems/set_theory/E0070/claims/1956_09_01_erdos_rado|Erdős and Rado 1956]],
-settles the instances with $\beta<\omega 2$ and $n\le4$; the question stays
+settles the instances with $\beta<\omega 2$ and $n\le4$. The question stays
 open.
 
 **Source.** [erdosproblems.com/70](https://www.erdosproblems.com/70), accessed

@@ -2,8 +2,9 @@
 name: problems/diophantine_problems/E0437
 title: Problem 437
 desc: |
-  Estimates how many of the partial products of an increasing sequence bounded
-  by x can be perfect squares, and whether nearly x of them can be.
+  Asks how many of the partial products $a_1,a_1a_2,\ldots,a_1\cdots a_k$ of
+  integers $1\le a_1<\cdots<a_k\le x$ can be squares, and whether more than
+  $x^{1-\epsilon}$ can be for every $\epsilon>0$; proved.
 tags:
 - Number theory
 status: solved
@@ -24,8 +25,8 @@ updated: 2026-10-08T17:47:46Z
 products $a_1,a_1a_2,\ldots,a_1\cdots a_k$ can be squares? Is it true that, for
 any $\epsilon>0$, there can be more than $x^{1-\epsilon}$ squares?
 
-**Status.** Proved: the site's label; its commentary credits Bui, Pratt and
-Zaharescu's theorem as Tao applied it; the claim page
+**Status.** Proved, the site's label. The site's commentary credits Bui, Pratt
+and Zaharescu's theorem, as Tao applied it. The claim page
 [[problems/diophantine_problems/E0437/claims/2022_11_22_bui_pratt_zaharescu|Bui, Pratt and Zaharescu]]
 records the result and its acceptance.
 

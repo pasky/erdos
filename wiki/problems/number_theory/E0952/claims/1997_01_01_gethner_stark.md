@@ -2,9 +2,9 @@
 name: problems/number_theory/E0952/claims/1997_01_01_gethner_stark
 title: Gethner and Stark's periodic moats for steps up to 2
 desc: |
-  Gethner and Stark prove, from any starting point, that no walk to infinity
-  on the Gaussian primes has steps of length at most 2, a negative answer for
-  every step bound up to 2.
+  Gethner and Stark prove that no walk to infinity on the Gaussian primes, from
+  any starting point, has all its steps of length at most 2. This gives a
+  negative answer for every step bound up to 2.
 authors:
 - Ellen Gethner
 - H. M. Stark

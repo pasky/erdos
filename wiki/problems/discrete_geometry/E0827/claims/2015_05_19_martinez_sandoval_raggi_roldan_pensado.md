@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0827/claims/2015_05_19_martinez_sandoval_raggi_roldan_pensado
 title: A sunflower anti-Ramsey bound n_k = O(k^5/log k)
 desc: |
-  Martínez-Sandoval, Raggi and Roldán-Pensado derive from a sunflower
-  anti-Ramsey theorem that n_k = O(k^5/log k) when no four points are
-  concyclic; an arXiv manuscript.
+  From a sunflower anti-Ramsey theorem, Martínez-Sandoval, Raggi and
+  Roldán-Pensado derive $n_k=O(k^5/\log k)$ when no four points are concyclic.
+  The source is an arXiv manuscript.
 authors:
 - Leonardo Martínez-Sandoval
 - Miguel Raggi

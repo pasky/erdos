@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0755
 title: Problem 755
 desc: |
-  Asks whether n points in six-dimensional space span at most about one
-  twenty-seventh of n cubed unit equilateral triangles.
+  Asks whether $n$ points in $\mathbb{R}^6$ span at most
+  $(\frac{1}{27}+o(1))n^3$ unit equilateral triangles; proved.
 tags:
 - Geometry
 status: solved
@@ -24,7 +24,7 @@ updated: 2026-10-08T02:16:54Z
 of $n$ points in $\mathbb{R}^6$ is at most $(\frac{1}{27}+o(1))n^3$.
 
 **Status.** PROVED (LEAN). The site credits the proof, in a strong form, to
-Clemen, Dumitrescu and Liu [CDL25b]; the claim page
+Clemen, Dumitrescu and Liu [CDL25b]. The claim page
 [[problems/discrete_geometry/E0755/claims/2025_07_26_clemen_dumitrescu_liu|Clemen, Dumitrescu and Liu]]
 records the result and its acceptance.
 

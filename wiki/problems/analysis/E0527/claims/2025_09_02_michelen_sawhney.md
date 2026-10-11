@@ -3,8 +3,9 @@ name: problems/analysis/E0527/claims/2025_09_02_michelen_sawhney
 title: Michelen and Sawhney's convergent point for random power series
 desc: |
   Michelen and Sawhney prove that a randomly signed power series with
-  coefficients of size o(1/sqrt n) almost surely converges at some point of
-  the unit circle, on a set of Hausdorff dimension one; credited by the site.
+  coefficients of size $o(1/\sqrt n)$ almost surely converges at some point of
+  the unit circle. The set of such points almost surely has Hausdorff dimension
+  one, and the site credits the result.
 authors:
 - Marcus Michelen
 - Mehtaab Sawhney
@@ -49,10 +50,11 @@ partial sums at each scale, replaces the random signs by Gaussian
 coefficients through a Lindeberg comparison and applies the Gaussian
 correlation inequality. The theorem statements follow the card's digest.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
-PROVED and credits this paper on erdosproblems.com/527, with the community
-database in agreement (proved since 8 September 2025). The paper is a preprint:
-its arXiv record lists no journal reference so `refereed` is not listed. No
-independent review is recorded in this repository and none is claimed.
+**Acceptance.** Reviewed: on erdosproblems.com/527, the site's curator, Thomas
+Bloom, labels the problem PROVED and credits this paper. The community database
+agrees and has recorded the problem as proved since 8 September 2025. The paper
+is a preprint. Its arXiv record lists no journal reference, so `refereed` is not
+listed. No independent review is recorded in this repository and none is
+claimed.
 
 **Depends on.** Nothing in this wiki: the argument is the paper's own.

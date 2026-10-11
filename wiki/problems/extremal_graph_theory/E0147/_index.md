@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0147
 title: Problem 147
 desc: |
-  Asks whether every bipartite graph of minimum degree r has extremal number
-  at least order n to the power two minus one over r minus one, plus a
-  positive gain.
+  Asks whether every bipartite graph $H$ of minimum degree $r$ has
+  $\mathrm{ex}(n;H)\gg n^{2-\frac{1}{r-1}+\epsilon}$ for some
+  $\epsilon=\epsilon(H)>0$; disproved.
 tags:
 - Graph theory
 - Turán numbers
@@ -29,15 +29,15 @@ $$
 \mathrm{ex}(n;H) \gg n^{2-\frac{1}{r-1}+\epsilon}.
 $$
 
-**Status.** DISPROVED (LEAN). The site's commentary (page
-last edited 18 January 2026) credits Janzer's rainbow Turán paper [Ja23]
-with the disproof for even $r\ge4$ and his later paper [Ja23b] with the case
-$r=3$; both are refereed, and each is recorded as an accepted claim on
+**Status.** DISPROVED (LEAN). The site's commentary (page last edited 18 January
+2026) credits Janzer's rainbow Turán paper [Ja23] with the disproof for even
+$r\ge4$, and his later paper [Ja23b] with the case $r=3$. Both are refereed.
+Each is recorded as an accepted claim, on
 [[problems/extremal_graph_theory/E0147/claims/2020_06_01_janzer|the blow-up page]]
 and
 [[problems/extremal_graph_theory/E0147/claims/2021_09_13_janzer|the 3-regular page]].
-The site's label is DISPROVED (LEAN); the external Lean proof it refers to
-is linked, unverified, under Formalization below.
+The external Lean proof that the site's label refers to is linked, unverified,
+under Formalization below.
 
 **Source.** [erdosproblems.com/147](https://www.erdosproblems.com/147), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #147,

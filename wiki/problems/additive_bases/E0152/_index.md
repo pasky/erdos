@@ -2,9 +2,8 @@
 name: problems/additive_bases/E0152
 title: Problem 152
 desc: |
-  Asks whether every sufficiently large finite Sidon set has arbitrarily many
-  pairwise sums whose neighbors one above and one below are not pairwise
-  sums.
+  Asks whether, for every $M$, each sufficiently large finite Sidon set $A$ has
+  at least $M$ sums $a\in A+A$ with $a-1,a+1\notin A+A$; proved.
 tags:
 - Sidon sets
 status: solved
@@ -25,10 +24,10 @@ updated: 2026-10-08T02:16:54Z
 large finite Sidon set then there are at least $M$ many $a\in A+A$ such that
 $a+1,a-1\not\in A+A$.
 
-**Status.** PROVED (LEAN): a Lean proof by the DeepMind prover agent, posted
+**Status.** PROVED (LEAN). A Lean proof by the DeepMind prover agent, posted
 2026-04-03 and accepted by the site's curator on 2026-05-16, gives
-$\gg\lvert A\rvert^2$ such sums; the acceptance and the Lean qualifications
-are on the claim page below.
+$\gg\lvert A\rvert^2$ such sums. The acceptance and the Lean qualifications are
+on the claim page below.
 
 **Source.** [erdosproblems.com/152](https://www.erdosproblems.com/152), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #152,

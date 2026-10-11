@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0781
 title: Problem 781
 desc: |
-  Estimates the least n such that every two-coloring of one to n has a
-  monochromatic k-term descending wave, and whether it is k squared minus k
-  plus one.
+  Asks for an estimate of the least $n$ such that every two-coloring of
+  $\{1,\ldots,n\}$ has a monochromatic $k$-term descending wave, and whether it
+  equals $k^2-k+1$ for all $k$; it does not.
 tags:
 - Additive combinatorics
 status: solved
@@ -31,13 +31,13 @@ $$
 
 Estimate $f(k)$. In particular is it true that $f(k)=k^2-k+1$ for all $k$?
 
-**Status.** Disproved. The status-defining source is Theorem 1.1 of Alon
-and Spencer [AlSp89] (J. Combin. Theory Ser. A 52 (1989), 275--287,
-refereed): $c_1k^3\le f(k)\le c_2k^3$ for constants $c_1,c_2>0$ and all
-$k$, so $f(k)=k^2-k+1$ fails for every large $k$ and $f(k)$ is known up to
-constant factors. Brown, Erdős and Freedman [BEF90] had shown
-$k^2-k+1\le f(k)\le(k^3-4k+9)/3$ and asked whether the lower bound is
-exact. The claim page is
+**Status.** Disproved. The status-defining source is Theorem 1.1 of Alon and
+Spencer [AlSp89] (J. Combin. Theory Ser. A 52 (1989), 275--287, refereed). It
+gives $c_1k^3\le f(k)\le c_2k^3$ for constants $c_1,c_2>0$ and all $k$. So
+$f(k)=k^2-k+1$ fails for every large $k$, and $f(k)$ is known up to constant
+factors. Brown, Erdős and Freedman [BEF90] had shown
+$k^2-k+1\le f(k)\le(k^3-4k+9)/3$ and asked whether the lower bound is exact. The
+claim page is
 [[problems/additive_combinatorics/E0781/claims/1989_11_01_alon_spencer|Alon and Spencer]]
 (accepted on the refereed publication and the site's credit).
 

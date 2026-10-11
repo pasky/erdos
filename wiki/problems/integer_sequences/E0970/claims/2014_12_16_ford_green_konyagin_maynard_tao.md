@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0970/claims/2014_12_16_ford_green_konyagin_maynard_tao
 title: The long-gaps covering bound and h(k) >> k (log k)^2 log_3 k / log_2 k
 desc: |
-  Display (1.2) of the 2018 long-gaps paper, through (1.3) at x = p_k, gives
-  h(k) >> k (log k)^2 log_3 k/log_2 k, a refereed lower bound stronger than
-  the site's display; the order of h(k) stays open.
+  Display (1.2) of the 2018 long-gaps paper of Ford, Green, Konyagin, Maynard
+  and Tao, applied through (1.3) at $x=p_k$, gives the refereed lower bound
+  $h(k)\gg k(\log k)^2\log_3k/\log_2k$, stronger than the site's display. The
+  order of $h(k)$ stays open.
 authors:
 - Kevin Ford
 - Ben Green

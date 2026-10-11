@@ -2,9 +2,10 @@
 name: problems/primes/E0234/claims/1976_06_01_gallagher
 title: "Gallagher: Poisson prime statistics under a uniform tuples hypothesis"
 desc: |
-  Theorem 1 of Gallagher's 1976 paper: a Hardy-Littlewood prime tuples
-  asymptotic, uniform over shifts of order log N, gives Poisson statistics for
-  primes in short intervals, so f(c) = 1 - e^{-c}; refereed, conditional.
+  Theorem 1 of Gallagher's refereed 1976 paper shows that a Hardy-Littlewood
+  prime tuples asymptotic, uniform over shifts of order $\log N$, gives Poisson
+  statistics for primes in short intervals. So $f(c)=1-e^{-c}$, conditional on
+  that asymptotic.
 authors:
 - P. X. Gallagher
 status: accepted
@@ -64,13 +65,12 @@ itself: unconditionally, neither the existence of $f(c)$ for any $c>0$ nor
 its continuity is known. A one-sided unconditional tail bound claimed in a
 2026 manuscript is recorded on the problem page.
 
-**Acceptance.** The result is refereed: P. X. Gallagher, On the distribution
-of primes in short intervals, Mathematika 23 (1976), no. 1, 4--9, the `paper`
-link, with a corrigendum in Mathematika 28 (1981), 86. The site labels the
-problem OPEN and its commentary does not mention the result, so no curator
-acceptance is listed. The page is dated by the issue's publication month,
-June 1976, as the publisher's record gives it; the day in the page name is a
-placeholder.
+**Acceptance.** The result is refereed: P. X. Gallagher, On the distribution of
+primes in short intervals, Mathematika 23 (1976), no. 1, 4--9, the `paper` link,
+with a corrigendum in Mathematika 28 (1981), 86. The site labels the problem
+OPEN and its commentary does not mention the result, so no curator acceptance is
+listed. The page is dated by the issue's publication month, June 1976, as the
+publisher's record gives it. The day in the page name is a placeholder.
 
 **Depends on.** Nothing on this wiki beyond the cited paper; its hypothesis
 is stated above.

@@ -2,8 +2,10 @@
 name: problems/set_systems/E0644
 title: Problem 644
 desc: |
-  Bounds the size of a set meeting all k-element sets of a family in which
-  every r of them share a piercing pair, asking if it is a constant times k.
+  Bounds the size of a set needed to meet every member of a family of
+  $k$-element sets in which any $r$ members are all met by one pair. The
+  question is whether this size is asymptotically a constant times $k$, and it
+  is open.
 tags:
 - Combinatorics
 status: open

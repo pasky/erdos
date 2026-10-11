@@ -2,9 +2,9 @@
 name: problems/analysis/E0990
 title: Problem 990
 desc: |
-  Asks whether a polynomial's root arguments are equidistributed with error at
-  most the square root of the number of nonzero coefficients times a log
-  factor.
+  Asks whether the arguments of a polynomial's roots are equidistributed with
+  error $\ll(n\log M)^{1/2}$, where $n$ is the number of nonzero coefficients
+  and $M$ is a ratio of coefficient sizes; disproved.
 tags:
 - Analysis
 status: solved
@@ -36,12 +36,11 @@ $$
 M=\frac{\lvert a_0\rvert+\cdots +\lvert a_d\rvert}{(\lvert a_0\rvert\lvert a_d\rvert)^{1/2}}.
 $$
 
-**Status.** DISPROVED (LEAN). The site credits the construction in
-[APSSV26b], whose authors attribute the proof to an internal OpenAI model; its
-Lean marker refers to third-party formalizations that this corpus has not
-built. The standing derives from
-[[problems/analysis/E0990/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant|the
-claim page]].
+**Status.** DISPROVED (LEAN). The standing derives from
+[[problems/analysis/E0990/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant|the claim page]].
+The site credits the construction in [APSSV26b]. Its authors attribute the proof
+to an internal OpenAI model. The site's Lean marker refers to third-party
+formalizations, which this corpus has not built.
 
 **Source.** [erdosproblems.com/990](https://www.erdosproblems.com/990), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #990,

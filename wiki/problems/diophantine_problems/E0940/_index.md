@@ -2,8 +2,9 @@
 name: problems/diophantine_problems/E0940
 title: Problem 940
 desc: |
-  Concerns r-powerful numbers for r at least 3, the integers divisible by the
-  r-th power of each of their prime factors.
+  Asks, for $r\geq 3$, whether infinitely many integers are not a sum of at most
+  $r$ numbers divisible by the $r$th power of each of their prime factors, and
+  whether the integers that are such sums have density $0$; open.
 tags:
 - Number theory
 - Powerful numbers
@@ -28,13 +29,14 @@ Are there infinitely many integers which are not the sum of at most $r$ many
 $r$-powerful numbers? Does the set of integers which are the sum of at most $r$
 $r$-powerful numbers have density $0$?
 
-**Status.** Open; the site's label is OPEN (page last edited 2025-11-03). The
-site's remarks record that the density-zero statement at $r=2$ was first
-proved by Baker and Brüdern [BaBr94], that at $r=3$ it is unknown even for
-sums of three cubes, and that Heath-Brown [He88] proves every large integer a
-sum of at most three $2$-powerful numbers
+**Status.** Open. The site's label is OPEN, and the page was last edited on
+2025-11-03. The site's remarks record that Baker and Brüdern [BaBr94] first
+proved the density-zero statement at $r=2$. They also record that at $r=3$ the
+statement is unknown even for sums of three cubes. Finally, they record that
+Heath-Brown [He88] proves every large integer is a sum of at most three
+$2$-powerful numbers
 ([[problems/diophantine_problems/E0941/_index|Problem 941]]). The site's
-proof-claims tab carried one partial claim, filed 2026-09-06,.
+proof-claims tab carried one partial claim, filed 2026-09-06.
 
 **Source.** [erdosproblems.com/940](https://www.erdosproblems.com/940), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #940,

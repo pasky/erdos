@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0547/claims/2026_09_03_adamczewski
 title: The bound 2n minus 2 for every nontrivial tree, from the 2026 proof of Problem 548
 desc: |
-  The sharp tree-free edge bound proved for Problem 548 (a GPT-6 Astra proof
-  in Adamczewski's repository) gives R(T) at most 2n minus 2 for every tree
-  on n at least 2 vertices; accepted on a third party's Lean proof built here.
+  The sharp tree-free edge bound proved for Problem 548 (a GPT-6 Astra proof in
+  Adamczewski's repository) gives $R(T)\le2n-2$ for every tree on $n\ge2$
+  vertices. The claim is accepted on a third party's Lean proof built here.
 authors:
 - Tom Adamczewski
 - Thomas F. Bloom
@@ -95,72 +95,83 @@ threshold $e(G)\ge(t-2)N/2+1$, which gives the bound $2n-2$ but not the odd-$n$
 bound $2n-3$.
 
 **Acceptance.** Formalized. This corpus's verification built the Lean 4
-repository zhangjun725/erdos557 at the pinned commit `828ad6fd` of 17
-September 2026 (Lean `v4.28.0`, Mathlib `v4.28.0`), which resolves the
-Problem 548 development tadamcz/erdos548 at its commit `82ffb751` of 6
-September 2026, whose Lean files are identical to those of the commit
-`3766491b` pinned above, the two differing only in the README, compiling
+repository zhangjun725/erdos557 at the pinned commit `828ad6fd` of 17 September
+2026 (Lean `v4.28.0`, Mathlib `v4.28.0`). That repository resolves the Problem
+548 development tadamcz/erdos548 at its commit `82ffb751` of 6 September 2026.
+The Lean files of that commit are identical to those of the commit `3766491b`
+pinned above, and the two commits differ only in the README. The build compiled
 that development's resolution module and the modules `Erdos557.Basic`,
-`Erdos557.Erdos547` and `Erdos557.Tight`, and checked the axioms of
+`Erdos557.Erdos547` and `Erdos557.Tight`. The verification checked the axioms of
 `Erdos557.erdos_547_explicit`, `Erdos557.erdos_547` and
-`Erdos557.erdos_557_tight_odd`; they are exactly `propext`,
-`Classical.choice` and `Quot.sound`. The repository has no comparator
-challenge, so no fingerprint comparison applies and the statements were
-audited directly, clause by clause against the problem's corrected
-Statement. `erdos_547_explicit` says that for every $n\ge2$, every tree $T$
-on `Fin n` (Mathlib's `IsTree`, connected and acyclic, so with a vertex) and
+`Erdos557.erdos_557_tight_odd`. They are exactly `propext`, `Classical.choice`
+and `Quot.sound`.
+
+The repository has no comparator challenge, so no fingerprint comparison
+applies. The statements were audited directly, clause by clause, against the
+problem's corrected Statement.
+
+`erdos_547_explicit` says that for every $n\ge2$, every tree $T$ on `Fin n` and
 every simple graph $C$ on `Fin (2n-2)`, $T$ is contained in $C$ or in its
-complement; the complement joins exactly the distinct non-adjacent pairs, so
-$C$ and its complement are the two color classes of a two-coloring of
-$K_{2n-2}$, and containment is an injective homomorphism, a copy that need
-not be induced, so the theorem says exactly that every two-coloring of
-$K_{2n-2}$ has a monochromatic copy of $T$, that is $R(T)\le2n-2$.
+complement. A tree here is Mathlib's `IsTree`, connected and acyclic, so it has
+a vertex. The complement joins exactly the distinct non-adjacent pairs, so $C$
+and its complement are the two color classes of a two-coloring of $K_{2n-2}$.
+Containment is an injective homomorphism, so a copy need not be induced. The
+theorem therefore says exactly that every two-coloring of $K_{2n-2}$ has a
+monochromatic copy of $T$, that is, $R(T)\le2n-2$.
+
 `erdos_547` restates it as `graphRamsey T T ≤ 2n-2`, the infimum form, by
-`Nat.sInf_le`; the infimum of an empty set is the junk value $0$, which the
-explicit theorem rules out, so the explicit theorem is the evidence and the
-infimum form its corollary, of the same shape as the formal-conjectures
-statement file (Formalization on the problem page). The hypothesis $n\ge2$
-is the corrected Statement's: it excludes only the one-vertex tree, where
-the site's wording fails, and natural-number subtraction does not truncate
-for $n\ge2$. The odd refinement is `erdos_557_tight_odd` at $k=2$: for even
-$k>0$, odd $n\ge2$ and every tree $T$ on $n$ vertices, every labeling of the
-edges of $K_{k(n-2)+1}$ by $k$ colors has a color class containing $T$; at
-$k=2$ that is $K_{2n-3}$, so $R(T)\le2n-3$ for odd $n\ge3$, in coloring form
-without the infimum. The $2n-2$ bound is deduced from `Erdos548.erdos_548`,
-whose statement in the imported resolution module is identical to the
-Problem 548 repository's comparator challenge; the odd refinement is deduced
-from that development's internal lemma `tree_free_edge_bound`, the sharp
-edge bound, which the Problem 548 comparator does not compare, so its
-soundness rests on the axiom check alone. The repository's four Lean files
-contain no `sorry`, `axiom`, `instance`, `notation`, `macro`, `attribute`,
-`set_option` or `variable` declaration, its README's displayed statements
-match the source, and the imported module adds nothing that changes how the
-statements elaborate. The README declares the repository a proof of Problem
-547 and says its statements and proofs were written with Claude (Anthropic)
-at the direction of Jun Zhang, who announced it in the problem's discussion
-on 17 September 2026 under the username zhangjun; it is a third party's
-formalization of this claim, not an independent proof, so it is a link on
-this page and not a page of its own, and it reports its own build and axiom
-check, so this corpus's build is the first independent check of it. Not
-reviewed: the site states the implication, its commentary on Problem 548
-(page last edited 3 September 2026) saying that the proof implies Problems
-547 and 557 and its commentary on Problem 547 that the bound follows
-directly from the Erdős--Sós conjecture, but it has not relabeled Problem
-547, whose label is DECIDABLE (page last edited 18 January 2026) and whose
-commentary still rests the bound on the large-order results; the curator
-submitted the site's proof-claim entry for Problem 548 and co-wrote the
-publication, so the site's statement of the implication is not a review
-independent of the claimant. Three arXiv papers by mathematicians
-independent of the claimant and the curator affirm the Problem 548 proof
-that the corollary consumes (Riordan and Scott, Wood, and Frederickson,
-recorded on the Problem 548 claim page), but none of them treats the Ramsey
-corollary, so they are not a review of this claim; this corpus's own
-derivation on the corollary page passed a fresh-context proof-chain review
-on 2026-09-18, the project's own review, which awards no acceptance under
-the schema. Not refereed: the five-page exposition linked above is a
-preliminary account that the site's proof-claim note of 3 September 2026
-(the date this page is named by) calls a placeholder pending a proper
-writeup and an assessment of the ideas' relation to earlier work, and the
-FrontierMath Erdős paper is a preprint. The same claim at $k$ colors,
-accepted on the same build, is recorded on
+`Nat.sInf_le`. The infimum of an empty set is the junk value $0$, which the
+explicit theorem rules out. So the explicit theorem is the evidence, and the
+infimum form is its corollary, of the same shape as the formal-conjectures
+statement file (Formalization on the problem page). The hypothesis $n\ge2$ is
+the corrected Statement's. It excludes only the one-vertex tree, where the
+site's wording fails, and natural-number subtraction does not truncate for
+$n\ge2$.
+
+The odd refinement is `erdos_557_tight_odd` at $k=2$. For even $k>0$, odd
+$n\ge2$ and every tree $T$ on $n$ vertices, every labeling of the edges of
+$K_{k(n-2)+1}$ by $k$ colors has a color class containing $T$. At $k=2$ that is
+$K_{2n-3}$, so $R(T)\le2n-3$ for odd $n\ge3$, in coloring form without the
+infimum.
+
+The $2n-2$ bound is deduced from `Erdos548.erdos_548`. Its statement in the
+imported resolution module is identical to the Problem 548 repository's
+comparator challenge. The odd refinement is deduced from that development's
+internal lemma `tree_free_edge_bound`, the sharp edge bound. The Problem 548
+comparator does not compare this lemma, so its soundness rests on the axiom
+check alone.
+
+The repository's four Lean files contain no `sorry`, `axiom`, `instance`,
+`notation`, `macro`, `attribute`, `set_option` or `variable` declaration. The
+statements displayed in its README match the source. The imported module adds
+nothing that changes how the statements elaborate. The README declares the
+repository a proof of Problem 547. It says its statements and proofs were
+written with Claude (Anthropic) at the direction of Jun Zhang, who announced it
+in the problem's discussion on 17 September 2026 under the username zhangjun.
+The repository is a third party's formalization of this claim, not an
+independent proof, so it is a link on this page and not a page of its own. It
+reports its own build and axiom check, so this corpus's build is the first
+independent check of it.
+
+Not reviewed: the site states the implication but has not relabeled Problem 547.
+Its commentary on Problem 548 (page last edited 3 September 2026) says that the
+proof implies Problems 547 and 557. Its commentary on Problem 547 says that the
+bound follows directly from the Erdős--Sós conjecture. The label of Problem 547
+is DECIDABLE (page last edited 18 January 2026), and its commentary still rests
+the bound on the large-order results. The curator submitted the site's
+proof-claim entry for Problem 548 and co-wrote the publication, so the site's
+statement of the implication is not a review independent of the claimant. Three
+arXiv papers by mathematicians independent of the claimant and the curator
+affirm the Problem 548 proof that the corollary consumes (Riordan and Scott,
+Wood, and Frederickson, recorded on the Problem 548 claim page). None of them
+treats the Ramsey corollary, so they are not a review of this claim. This
+corpus's own derivation on the corollary page passed a fresh-context proof-chain
+review on 2026-09-18. That is the project's own review, which awards no
+acceptance under the schema.
+
+Not refereed: the five-page exposition linked above is a preliminary account.
+The site's proof-claim note of 3 September 2026, the date this page is named by,
+calls it a placeholder pending a proper writeup and an assessment of the ideas'
+relation to earlier work. The FrontierMath Erdős paper is a preprint. The same
+claim at $k$ colors, accepted on the same build, is recorded on
 [[problems/ramsey_theory/E0557/_index|Problem 557]].

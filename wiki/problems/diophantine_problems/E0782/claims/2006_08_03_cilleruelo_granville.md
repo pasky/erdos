@@ -3,8 +3,8 @@ name: problems/diophantine_problems/E0782/claims/2006_08_03_cilleruelo_granville
 title: No large cubes of squares under Bombieri-Lang
 desc: |
   Cilleruelo and Granville show that the Bombieri-Lang conjecture bounds the
-  dimension of affine cubes of distinct squares, so the second question, and
-  with it the first, would have a negative answer.
+  dimension of affine cubes of distinct squares. Under that conjecture the
+  second question would have a negative answer, and so would the first.
 authors:
 - Javier Cilleruelo
 - Andrew Granville

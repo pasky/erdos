@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0151
 title: Problem 151
 desc: |
-  Asks whether every graph on n vertices has a clique transversal of at most
-  n minus the triangle-free independence bound H(n) vertices (Erdős–Gallai);
-  open; best bounds n − √(2n) + √2 (explicit) and n − c√(n log n) (asymptotic).
+  Asks whether every graph on $n$ vertices has a clique transversal of at most
+  $n-H(n)$ vertices (Erdős–Gallai), where $H(n)$ is the independence bound for
+  triangle-free graphs. It is open; the best bounds are $n-\sqrt{2n}+\sqrt2$
+  explicitly and $n-c\sqrt{n\log n}$ asymptotically.
 tags:
 - Graph theory
 status: open
@@ -55,29 +56,32 @@ but does not answer it, because $H(n)$ is itself only known to within constant
 factors.
 
 **Status.** Open. No proof, disproof or proof claim for the inequality was found
-in the search whose scope the Current assessment records. The best explicit
-upper bound valid for every $n$ is Theorem 3 of Erdős, Gallai and Tuza (Discrete
-Math. 108 (1992), refereed): $\tau(G)\le n-\sqrt{2n}+\sqrt2$ for every graph on
-$n$ vertices, from a linear-time algorithm; their Theorem 1 gives
-$n-\sqrt{2n}+\frac32$ by averaging two lemmas. The best asymptotic bound is
-$\tau(G)\le n-c\sqrt{n\log n}$ for some $c>0$ and all large $n$, Corollary 2 of
-Joret, Micek, Reed and Smid (2021) with the one-line transfer recorded on
-Problem 610. The conjectured value is $n-H(n)$ with $H(n)$ of order
-$\sqrt{n\log n}$: the 1992 paper records
+in the search whose scope the Current assessment records. This is a bounded
+negative finding, not a certificate of openness.
+
+The best explicit upper bound valid for every $n$ is Theorem 3 of Erdős, Gallai
+and Tuza (Discrete Math. 108 (1992), refereed): $\tau(G)\le n-\sqrt{2n}+\sqrt2$
+for every graph on $n$ vertices, from a linear-time algorithm. Their Theorem 1
+gives $n-\sqrt{2n}+\frac32$ by averaging two lemmas. The best asymptotic bound
+is $\tau(G)\le n-c\sqrt{n\log n}$ for some $c>0$ and all large $n$. It is
+Corollary 2 of Joret, Micek, Reed and Smid (2021), with the one-line transfer
+recorded on Problem 610. The conjectured value is $n-H(n)$, with $H(n)$ of order
+$\sqrt{n\log n}$. The 1992 paper records
 $c_1\sqrt{n\log n}\le H(n)\le c_2\sqrt n\log n$ from Ajtai, Komlós and Szemerédi
-(1980, refereed; their Theorem 3, $R(3,x)<100x^2/\ln x$, the bound on $H(n)$
-being its elementary rewriting) and Erdős (1961), and Kim's Theorem 1.1 (1995)
-gives $H(n)\le9\sqrt{n\log n}$ for large $n$. The 1992 authors write that "so
-far we could not construct examples worse than triangle-free ones" ([EGT92],
-p. 280), and Erdős that the conjecture "is perhaps completely wrongheaded". The
-asymptotic bound matches the order of $n-H(n)$ but not its constant, so it
-leaves this problem open. This is a bounded negative finding, not a certificate
-of openness. The inequality holds for every chordal graph, by Tuza's bound
-$\tau(G)\le n/2$ for chordal graphs (Discrete Math. 86 (1990), Theorem 2(a),
-refereed), an accepted partial claim recorded on
+(1980, refereed) and Erdős (1961). The bound on $H(n)$ is an elementary
+rewriting of Theorem 3 of Ajtai, Komlós and Szemerédi, $R(3,x)<100x^2/\ln x$.
+Kim's Theorem 1.1 (1995) gives $H(n)\le9\sqrt{n\log n}$ for large $n$. The 1992
+authors write that "so far we could not construct examples worse than
+triangle-free ones" ([EGT92], p. 280), and Erdős writes that the conjecture "is
+perhaps completely wrongheaded". The asymptotic bound matches the order of
+$n-H(n)$ but not its constant, so it leaves this problem open.
+
+The inequality holds for every chordal graph, by Tuza's bound $\tau(G)\le n/2$
+for chordal graphs (Discrete Math. 86 (1990), Theorem 2(a), refereed). This is
+an accepted partial claim, recorded on
 [[problems/extremal_graph_theory/E0151/claims/1990_12_01_tuza|its claim page]].
-A partial proof claim of 2026-09-28, the inequality for every graph on at most
-39 vertices, is on the site's proof-claim tab; it is recorded as claimed on
+A partial proof claim of 2026-09-28 on the site's proof-claim tab gives the
+inequality for every graph on at most 39 vertices. It is recorded as claimed on
 [[problems/extremal_graph_theory/E0151/claims/2026_09_28_veljjanoski|its claim page]]
 and derives nothing for the standing, which stays open.
 

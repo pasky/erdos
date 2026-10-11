@@ -2,8 +2,8 @@
 name: problems/analysis/E0909
 title: Problem 909
 desc: |
-  Asks whether, for each n at least two, there is a space of dimension n whose
-  square also has dimension n.
+  Asks whether, for each $n\geq 2$, there is a space $S$ of dimension $n$ whose
+  square $S^2$ also has dimension $n$; proved.
 tags:
 - Analysis
 - Topology
@@ -24,9 +24,9 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Let $n\geq 2$. Is there a space $S$ of dimension $n$ such that
 $S^2$ also has dimension $n$?
 
-**Status.** Proved, on the site's label, which credits Anderson and Keisler's
-1967 construction for the general case; see the
-[[problems/analysis/E0909/claims/1967_01_24_anderson_keisler|claim page]].
+**Status.** Proved, on the site's label. The site credits Anderson and Keisler's
+1967 construction for the general case (see the
+[[problems/analysis/E0909/claims/1967_01_24_anderson_keisler|claim page]]).
 
 **Source.** [erdosproblems.com/909](https://www.erdosproblems.com/909), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #909,

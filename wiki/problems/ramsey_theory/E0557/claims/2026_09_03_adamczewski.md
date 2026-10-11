@@ -4,8 +4,8 @@ title: The tree edge bound of Problem 548 gives R_k(T) at most k(n - 2) + 2
 desc: |
   The sharp tree-free edge bound proved for Problem 548 (found by GPT-6 Astra,
   published in Adamczewski's repository), applied to each color class, gives
-  R_k(T) at most k(n - 2) + 2 for every tree on n at least 2 vertices;
-  accepted on a third party's Lean derivation built and audited here.
+  $R_k(T)\le k(n-2)+2$ for every tree on $n\ge2$ vertices. It is accepted on a
+  third party's Lean derivation, built and audited here.
 authors:
 - Tom Adamczewski
 - Thomas F. Bloom
@@ -124,76 +124,83 @@ page record and which the pinned Problem 548 development proves as its lemma
 `tree_free_edge_bound`, stated there but not a target of its comparison.
 
 **Acceptance.** Formalized. This corpus's verification built the Lean 4
-repository zhangjun725/erdos557 at the pinned commit `828ad6fd` of 17
-September 2026 (Lean `v4.28.0`, Mathlib `v4.28.0`), whose six commits all
-date from that day and which resolves the Problem 548 development
-tadamcz/erdos548 at its commit `82ffb751` of 6 September 2026, whose Lean
-files are identical to those of the commit `3766491b` pinned above, the two
-differing only in the README, compiling that development's resolution
-module and the modules `Erdos557.Basic`, `Erdos557.Erdos547` and
-`Erdos557.Tight`, and checked the axioms of `Erdos557.erdos_557_explicit`,
+repository zhangjun725/erdos557 at the pinned commit `828ad6fd` of 17 September
+2026 (Lean `v4.28.0`, Mathlib `v4.28.0`). All six commits of the repository date
+from that day. The repository resolves the Problem 548 development
+tadamcz/erdos548 at its commit `82ffb751` of 6 September 2026. The Lean files of
+that commit are identical to those of the commit `3766491b` pinned above, and
+the two differ only in the README. The build compiled that development's
+resolution module and the modules `Erdos557.Basic`, `Erdos557.Erdos547` and
+`Erdos557.Tight`. It checked the axioms of `Erdos557.erdos_557_explicit`,
 `Erdos557.erdos_557`, `Erdos557.erdos_557_tight` and
-`Erdos557.erdos_557_tight_odd`; they are exactly `propext`,
-`Classical.choice` and `Quot.sound`. The repository has no comparator
-challenge, so no fingerprint comparison applies and the statements were
-audited directly, clause by clause against the problem's Statement.
-`multicolourRamsey k G` is the infimum of the $m$ such that every labeling
-of the edges of $K_m$ by $k$ colors (Mathlib's
-`TopEdgeLabeling (Fin m) (Fin k)`, every map from the edge set to $k$
-colors) has a color class containing $G$ (`IsContained`, an injective
-homomorphism, so a copy that need not be induced); that is $R_k(G)$, and on
-a tree the set is never empty, so the infimum takes no junk value.
-`erdos_557_explicit` says that for every $k$, every $n$ and every tree $T$
-on `Fin n`, every $k$-labeling of $K_{k(n-2)+3}$ has a color class
-containing $T$, so $R_k(T)\le k(n-2)+3\le kn+3$ with one absolute
-constant, which answers the question yes under either reading of the
-$O(1)$, uniform in $k$ or depending on it; `erdos_557` is the form
-$\exists c$ with $R_k(T)\le kn+c$ for all $k$, $n$ and $T$, its corollary
-through `Nat.sInf_le`, and the explicit form is the evidence because the
-infimum form alone would also hold on an empty set. At $n=1$
-natural-number subtraction truncates $n-2$ to $0$, so the explicit theorem
-gives only $R_k(K_1)\le3$, true and not this page's claim, whose bounds
-are stated for $n\ge2$, where nothing truncates. `erdos_557_tight` states
-the claim's bound: for every $k$, every $n\ge2$ and every tree $T$ on $n$
-vertices, every $k$-labeling of $K_{k(n-2)+2}$ has a color class
-containing $T$, vacuously at $k=0$, since $K_2$ has an edge and no
-labeling by zero colors, so the page's $k\ge1$ is its content;
-`erdos_557_tight_odd` states the parity bound: for even $k>0$, odd
-$n\ge2$ and every tree $T$ on $n$ vertices, every $k$-labeling of
-$K_{k(n-2)+1}$ has a color class containing $T$, where $k>0$ is needed,
-since $R_0(T)=2$. The bound $k(n-2)+2$ is the strict form $R_k(T)<k(n-2)+3$
-of Reed and Stein's Corollary 4, here for every $n\ge2$ rather than for
-large $n$. The explicit bound $k(n-2)+3$ is deduced from
-`Erdos548.erdos_548`, whose statement in the imported resolution module is
-identical to the Problem 548 repository's comparator challenge; the two
-sharp bounds are deduced from that development's internal lemma
-`tree_free_edge_bound`, $2e(G)\le(n-2)N$ for a $T$-free graph $G$ on $N>0$
-vertices, which the Problem 548 comparator does not compare, so its
-soundness rests on the axiom check alone. The repository's four Lean files
-contain no `sorry`, `axiom`, `instance`, `notation`, `macro`, `attribute`,
-`set_option` or `variable` declaration, its README's displayed statements
-match the source, and the imported module adds nothing that changes how
-the statements elaborate. The machine-checked derivation is Jun Zhang's,
-written with Claude (Anthropic) as its README says and announced in the
-problem's discussion on 17 September 2026; only its input theorem is the
-GPT-6 Astra proof published in Adamczewski's repository; the repository
-reports its own build and axiom check, so this corpus's build is the first
-independent check of it. Not reviewed: the site's label of 2 September
-2026, PROVED (FORMALIZED), rested on the proof of Problem 548, and the
-community database lists the problem as proved (Lean) with last update 3
-September 2026, but the curator's commentary of 7 September 2026 credits
-Reed and Stein's theorem instead and no longer mentions this proof, and
-the curator's earlier credit was in any case not independent: Bloom submitted
-the site's proof claim and is a co-author of the FrontierMath
-Erdős paper; this corpus's own six-page proof chain, corollary included,
-passed the fresh proof-chain review of 2026-09-18 whose records the source
-card lists, the project's own review, which awards no acceptance. Not
-refereed: the exposition is a preliminary account that the proof-claim
-note of 3 September 2026 calls a placeholder pending a proper write-up and
-an assessment of the ideas' relation to earlier work, and the FrontierMath
-Erdős paper is a preprint. At $k=2$ the claim is the statement of
-[[problems/ramsey_theory/E0547/_index|Problem 547]], accepted on the same
-build.
+`Erdos557.erdos_557_tight_odd`, and they are exactly `propext`,
+`Classical.choice` and `Quot.sound`. The repository has no comparator challenge,
+so no fingerprint comparison applies. The statements were instead audited
+directly, clause by clause, against the problem's Statement.
+
+`multicolourRamsey k G` is the infimum of the $m$ such that every labeling of
+the edges of $K_m$ by $k$ colors has a color class containing $G$. A labeling is
+Mathlib's `TopEdgeLabeling (Fin m) (Fin k)`, every map from the edge set to $k$
+colors. Containment is `IsContained`, an injective homomorphism, so the copy
+need not be induced. This is $R_k(G)$. On a tree the set is never empty, so the
+infimum takes no junk value.
+
+`erdos_557_explicit` says that for every $k$, every $n$ and every tree $T$ on
+`Fin n`, every $k$-labeling of $K_{k(n-2)+3}$ has a color class containing $T$.
+So $R_k(T)\le k(n-2)+3\le kn+3$ with one absolute constant. This answers the
+question yes under either reading of the $O(1)$, uniform in $k$ or depending on
+it. `erdos_557` is the form $\exists c$ with $R_k(T)\le kn+c$ for all $k$, $n$
+and $T$. It is the corollary of the explicit form through `Nat.sInf_le`. The
+explicit form is the evidence, because the infimum form alone would also hold on
+an empty set. At $n=1$ natural-number subtraction truncates $n-2$ to $0$, so the
+explicit theorem gives only $R_k(K_1)\le3$. That is true but is not this page's
+claim, whose bounds are stated for $n\ge2$, where nothing truncates.
+
+`erdos_557_tight` states the claim's bound. For every $k$, every $n\ge2$ and
+every tree $T$ on $n$ vertices, every $k$-labeling of $K_{k(n-2)+2}$ has a color
+class containing $T$. This holds vacuously at $k=0$, since $K_2$ has an edge and
+there is no labeling by zero colors, so the page's $k\ge1$ is its content.
+`erdos_557_tight_odd` states the parity bound. For even $k>0$, odd $n\ge2$ and
+every tree $T$ on $n$ vertices, every $k$-labeling of $K_{k(n-2)+1}$ has a color
+class containing $T$. Here $k>0$ is needed, since $R_0(T)=2$. The bound
+$k(n-2)+2$ is the strict form $R_k(T)<k(n-2)+3$ of Reed and Stein's Corollary 4,
+here for every $n\ge2$ rather than for large $n$.
+
+The explicit bound $k(n-2)+3$ is deduced from `Erdos548.erdos_548`. Its
+statement in the imported resolution module is identical to the Problem 548
+repository's comparator challenge. The two sharp bounds are deduced from that
+development's internal lemma `tree_free_edge_bound`, which gives
+$2e(G)\le(n-2)N$ for a $T$-free graph $G$ on $N>0$ vertices. The Problem 548
+comparator does not compare this lemma, so its soundness rests on the axiom
+check alone. The repository's four Lean files contain no `sorry`, `axiom`,
+`instance`, `notation`, `macro`, `attribute`, `set_option` or `variable`
+declaration. Its README's displayed statements match the source. The imported
+module adds nothing that changes how the statements elaborate.
+
+The machine-checked derivation is Jun Zhang's. It was written with Claude
+(Anthropic), as its README says, and announced in the problem's discussion on 17
+September 2026. Only its input theorem is the GPT-6 Astra proof published in
+Adamczewski's repository. The repository reports its own build and axiom check,
+so this corpus's build is the first independent check of it.
+
+Not reviewed: the site's label of 2 September 2026, PROVED (FORMALIZED), rested
+on the proof of Problem 548. The community database lists the problem as proved
+(Lean), with last update 3 September 2026. But the curator's commentary of 7
+September 2026 credits Reed and Stein's theorem instead and no longer mentions
+this proof. The curator's earlier credit was in any case not independent,
+because Bloom submitted the site's proof claim and is a co-author of the
+FrontierMath Erdős paper. This corpus's own six-page proof chain, corollary
+included, passed the fresh proof-chain review of 2026-09-18, whose records the
+source card lists. That is the project's own review, and it awards no
+acceptance.
+
+Not refereed: the exposition is a preliminary account. The proof-claim note of 3
+September 2026 calls it a placeholder pending a proper write-up and an
+assessment of the ideas' relation to earlier work. The FrontierMath Erdős paper
+is a preprint.
+
+At $k=2$ the claim is the statement of
+[[problems/ramsey_theory/E0547/_index|Problem 547]], accepted on the same build.
 
 **Read depth.** The five pages of the exposition were read and
 reconstructed on the card's proof pages; the deduction to this problem is

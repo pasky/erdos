@@ -2,8 +2,8 @@
 name: problems/extremal_graph_theory/E1010
 title: Problem 1010
 desc: |
-  Asks whether every graph on n vertices with the Turán number plus t edges,
-  t below half of n, has at least t times the floor of half of n triangles;
+  Asks whether every graph on $n$ vertices with $\lfloor n^2/4\rfloor+t$ edges,
+  $t<\lfloor n/2\rfloor$, has at least $t\lfloor n/2\rfloor$ triangles. This is
   the Erdős-Rademacher conjecture, proved in full by Lovász and Simonovits.
 tags:
 - Graph theory
@@ -40,42 +40,46 @@ and $k<n/2$ (abstract) and, in Theorem 4, with $k<[n/(p-1)]$ at $p=3$, which
 is the site's range. The question is a yes-or-no question for every $n$; the
 label PROVED is the site's label for an affirmative resolution.
 
-**Status.** Proved. The status-defining text read is Lovász and
-Simonovits's 1983 sequel [LoSi83], a chapter in the Turán memorial volume
-(Birkhäuser 1983; Crossref record), whose abstract states
-that its results "contain the proof of the longstanding conjecture of P.
-Erdős that a graph $G^n$ with $[n^2/4]+k$ edges contains at least $k[n/2]$
-triangles if $k<n/2$" and whose
+**Status.** Proved. The status-defining text read is Lovász and Simonovits's
+1983 sequel [LoSi83], a chapter in the Turán memorial volume (Birkhäuser 1983;
+Crossref record). Its abstract states that its results "contain the proof of the
+longstanding conjecture of P. Erdős that a graph $G^n$ with $[n^2/4]+k$ edges
+contains at least $k[n/2]$ triangles if $k<n/2$". Its
 [[../library/extremal_graph_theory/lovasz_1983_number_complete_subgraphs_graph_ii/theorem_4|Theorem 4]]
-(p. 463) gives, for $p=3$ and $k<[n/2]$, that "one possible
-graph with $n$ points and $E$ edges, containing the least number of $K_p$'s
-is obtained by adding $k$ edges to a largest class of $T^{n,d}$"; such a
-graph has exactly $k\lfloor n/2\rfloor$ triangles (a one-line count made
-on this page: each added edge lies in one triangle with each vertex of the other
-class, and the added edges form no triangle), which is the site's bound. Two
-qualifications are recorded: the chapter's standing convention (p. 461,
-"The numbers $p$ and $d$ will be considered fixed and $n$ large relative to
-them") and the step "if $n$ is sufficiently large" in the derivation of
-Theorem 4 on p. 463, so the printed theorem carries an unstated largeness
-assumption and no explicit threshold; and the chapter's own attribution
-(p. 460) of the $p=3$ case to the 1976 Aberdeen paper [LoSi76], the site's
-source, which is not held (the second author's page copy was unavailable on
-2026-09-18). The site's second source, Nikiforov and Khadzhiivanov's 1981
-note [NiKh81], is not held and no online record of it was found. Erdős's
-own paper [Er62d] proves the bound for $t<c_1n/2$ and records Rademacher's
-case $t=1$ for even $n$. Its theorem is an accepted partial claim,
+(p. 463) gives, for $p=3$ and $k<[n/2]$, that "one possible graph with $n$
+points and $E$ edges, containing the least number of $K_p$'s is obtained by
+adding $k$ edges to a largest class of $T^{n,d}$". Such a graph has exactly
+$k\lfloor n/2\rfloor$ triangles, which is the site's bound. This is a one-line
+count made on this page: each added edge lies in one triangle with each vertex
+of the other class, and the added edges form no triangle.
+
+Two qualifications are recorded. First, the chapter has a standing convention
+(p. 461, "The numbers $p$ and $d$ will be considered fixed and $n$ large
+relative to them"), and the derivation of Theorem 4 on p. 463 has the step "if
+$n$ is sufficiently large". So the printed theorem carries an unstated largeness
+assumption and no explicit threshold. Second, the chapter itself (p. 460)
+attributes the $p=3$ case to the 1976 Aberdeen paper [LoSi76], the site's
+source. That paper is not held (the second author's page copy was unavailable on
+2026-09-18).
+
+The site's second source, Nikiforov and Khadzhiivanov's 1981 note [NiKh81], is
+not held, and no online record of it was found. Erdős's own paper [Er62d] proves
+the bound for $t<c_1n/2$ and records Rademacher's case $t=1$ for even $n$. Its
+theorem is an accepted partial claim,
 [[problems/extremal_graph_theory/E1010/claims/1962_03_01_erdos|Erdős 1962]].
+
 The claim pages
 [[problems/extremal_graph_theory/E1010/claims/1976_01_01_lovasz_simonovits|Lovász and Simonovits]]
-(accepted on the curator's credit, the `reviewed` evidence; the 1983 text
-is read, no file held) and
+and
 [[problems/extremal_graph_theory/E1010/claims/1981_01_01_nikiforov_khadzhiivanov|Nikiforov and Khadzhiivanov]]
-(accepted on the curator's credit alone; the note unseen) record the two
-results, and the standing derives from them. A further page,
+record the two results, and the standing derives from them. The first is
+accepted on the curator's credit, the `reviewed` evidence; the 1983 text is
+read, but no file is held. The second is accepted on the curator's credit alone,
+and the note is unseen. A further page,
 [[problems/extremal_graph_theory/E1010/claims/2026_08_26_alexeev|an independent Lean proof of 2026]],
-records a pending claim: a Lean development in Boris Alexeev's repository
-that proves the statement for every $n$, with no largeness assumption,
-names no author, and has not been built or audited in this corpus.
+records a pending claim. It is a Lean development in Boris Alexeev's repository
+that proves the statement for every $n$, with no largeness assumption. It names
+no author and has not been built or audited in this corpus.
 
 **Source.** [erdosproblems.com/1010](https://www.erdosproblems.com/1010),
 accessed 2026-09-18: the problem page

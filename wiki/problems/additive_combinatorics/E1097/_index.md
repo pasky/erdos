@@ -2,8 +2,8 @@
 name: problems/additive_combinatorics/E1097
 title: Problem 1097
 desc: |
-  Determines how many values can arise as the common difference of a
-  three-term arithmetic progression inside a set of n integers.
+  Asks how many distinct values can occur as the common difference of a
+  three-term arithmetic progression inside a set of $n$ integers; open.
 tags:
 - Number theory
 - Additive combinatorics
@@ -26,25 +26,27 @@ as the common difference of a three-term arithmetic progression in $A$?
 
 In particular, are there always $O(n^{3/2})$ many such $d$?
 
-**Status.** Open, the site's label (OPEN, page last edited 1 April 2026). The
-site's commentary reports the second question, whether $O(n^{3/2})$ common
-differences always suffice, answered negatively, and the first, the order of
-magnitude, open: it records an observation from the discussion thread, credited
-to Koishi Chan, that the problem is equivalent to Bourgain's sums-differences
-question [Bo99], the largest exponent reachable here being the smallest exponent
-admissible there, so that the lower bound $1.77898\ldots$ of Lemm [Le15],
-slightly improved by AlphaEvolve [GGTW25], exceeds $3/2$. The resolution the
-curator credits is thus a thread observation applied to Lemm's refereed bound.
-Lemm's lower bound and Katz and Tao's upper bound $11/6$ [KaTa99], the refereed
-results the commentary credits, are accepted partial claims on
+**Status.** Open. This is the site's label (OPEN, page last edited 1 April
+2026). The site's commentary reports that the second question, whether
+$O(n^{3/2})$ common differences always suffice, is answered negatively, and that
+the first, the order of magnitude, is open. It records an observation from the
+discussion thread, credited to Koishi Chan, that the problem is equivalent to
+Bourgain's sums-differences question [Bo99]. The largest exponent reachable here
+is the smallest exponent admissible there. So the lower bound $1.77898\ldots$ of
+Lemm [Le15], slightly improved by AlphaEvolve [GGTW25], exceeds $3/2$. The
+resolution the curator credits is thus a thread observation applied to Lemm's
+refereed bound.
+
+Lemm's lower bound and Katz and Tao's upper bound $11/6$ [KaTa99] are the
+refereed results the commentary credits. They are accepted partial claims on
 [[problems/additive_combinatorics/E1097/claims/2014_04_14_lemm|Lemm's claim page]]
 and
 [[problems/additive_combinatorics/E1097/claims/1999_06_14_katz_tao|Katz and Tao's claim page]].
 Each reaches the problem through the embedding the Current assessment states.
 The thread's observation and its earlier direct constructions are thread posts
-and get no page. A self-contained Lean disproof of the $O(n^{3/2})$ bound, in
-Moritz Firsching's fork of formal-conjectures and pointed to by the catalog's
-entry described under Formalization, is recorded as claimed on
+and get no page. A self-contained Lean disproof of the $O(n^{3/2})$ bound is in
+Moritz Firsching's fork of formal-conjectures, and the catalog's entry described
+under Formalization points to it. It is recorded as claimed on
 [[problems/additive_combinatorics/E1097/claims/2026_05_28_firsching|its claim page]].
 
 **Source.** [erdosproblems.com/1097](https://www.erdosproblems.com/1097),

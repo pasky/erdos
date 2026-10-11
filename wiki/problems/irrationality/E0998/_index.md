@@ -2,9 +2,10 @@
 name: problems/irrationality/E0998
 title: Problem 998
 desc: |
-  Asks whether an interval with bounded discrepancy along the fractional
-  multiples of an irrational alpha must have length a fractional multiple of
-  alpha; the site's wording, asking that of both endpoints, is false.
+  Asks whether, for irrational $\alpha$, an interval $[u,v)$ with bounded
+  discrepancy along the fractional parts $\{\alpha m\}$ must have length
+  $v-u=\{\alpha j\}$ for some integer $j$; proved. The site's wording, which
+  asks this of both endpoints, is false.
 tags:
 - Analysis
 - Diophantine approximation
@@ -77,15 +78,15 @@ wording, that a bounded-discrepancy interval $[0,v)$ has $v=\{\alpha\ell\}$, is
 true and is the case of Kesten's necessity reconstructed on
 [[../library/discrepancy/kesten_1966_bounded_remainder/theorem_4|the theorem page]].
 
-**Status.** The site, accessed 2026-09-04 (page last edited 2025-10-05), labels
-the problem PROVED and credits Kesten [Ke66]. The corrected Statement is proved:
-necessity is Kesten's Theorem 4 and sufficiency the theorem of Hecke and
-Ostrowski, accepted on the
-[[problems/irrationality/E0998/claims/1966_01_01_kesten|Kesten page]].
-Alexeev's Lean disproof of the site's wording, on the
-[[problems/irrationality/E0998/claims/2026_08_17_alexeev|Alexeev page]], is a
-rejected claim page, since it answers the site's wording rather than the
-corrected Statement.
+**Status.** The site labels the problem PROVED and credits Kesten [Ke66]. The
+site was accessed 2026-09-04, and the page was last edited 2025-10-05. The
+corrected Statement is proved. Necessity is Kesten's Theorem 4 and sufficiency
+is the theorem of Hecke and Ostrowski, as accepted on the
+[[problems/irrationality/E0998/claims/1966_01_01_kesten|Kesten page]]. Alexeev's
+Lean disproof of the site's wording is a rejected claim page, on the
+[[problems/irrationality/E0998/claims/2026_08_17_alexeev|Alexeev page]]. It is
+rejected because it answers the site's wording rather than the corrected
+Statement.
 
 **Source.** [erdosproblems.com/998](https://www.erdosproblems.com/998), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #998,

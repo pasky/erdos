@@ -2,9 +2,8 @@
 name: problems/ramsey_theory/E0554
 title: Problem 554
 desc: |
-  Asks for a proof that the k-color Ramsey number of an odd cycle on two n
-  plus one vertices is negligible against that of the triangle, for n at least
-  two.
+  Asks for a proof that $R_k(C_{2n+1})/R_k(K_3)\to0$ as $k\to\infty$ for every
+  $n\ge2$, where $R_k$ is the $k$-color Ramsey number; open.
 tags:
 - Graph theory
 - Ramsey theory
@@ -44,25 +43,24 @@ good coloring, one less, which does not affect the ratio.
 
 **Status.** Open, in the site's label. No source proves the limit for every
 $n\ge2$. For $n\ge4$ the limit is $0$, by an elementary comparison of two
-accepted bounds: the refereed upper bound
-$R_k(C_{2n+1})\le(4n-2)^kk^{k/n}+1$ of Axenovich, Cames van Batenburg,
-Janzer, Michel and Rundström [ACJMR25] and the lower bound
-$R_k(K_3)\ge(ck^{1/3}/\log k)^k$ of the 2026 OpenAI report, which the claim
-page
-[[problems/ramsey_theory/E0183/claims/2026_08_01_openai|OpenAI 2026]] of
-Problem 183 records as accepted, reviewed by the site's curator and
-through Rob Morris's exposition hosted on the site, from an unrefereed
-report. The comparison is claimed, conditionally on those two bounds, by
-the research report of 1 August 2026 linked from the discussion thread,
+accepted bounds. The first is the refereed upper bound
+$R_k(C_{2n+1})\le(4n-2)^kk^{k/n}+1$ of Axenovich, Cames van Batenburg, Janzer,
+Michel and Rundström [ACJMR25]. The second is the lower bound
+$R_k(K_3)\ge(ck^{1/3}/\log k)^k$ of the 2026 OpenAI report. The claim page
+[[problems/ramsey_theory/E0183/claims/2026_08_01_openai|OpenAI 2026]] of Problem
+183 records this bound as accepted. It comes from an unrefereed report and was
+reviewed by the site's curator and through Rob Morris's exposition hosted on the
+site. The research report of 1 August 2026 linked from the discussion thread
+claims the comparison, conditionally on those two bounds. That report is
 recorded on the partial claim page
 [[problems/ramsey_theory/E0554/claims/2026_08_01_mysticflounder|mysticflounder 2026]],
-and this page's own comparison below reproduces it. For $n=2$ and $n=3$
-the same bounds are inconclusive, and the search,
-whose scope the Current assessment records, found no proof, disproof or
-proof claim for them; the site says the problem is open even for $n=2$.
-This is a bounded negative finding on the two remaining cases, not a
-certificate of openness. The OpenAI report itself has no claim page here,
-since its theorem asserts nothing about this problem's statement.
+and this page's own comparison below reproduces it. For $n=2$ and $n=3$ the same
+bounds are inconclusive. The search, whose scope the Current assessment records,
+found no proof, disproof or proof claim for these two cases. The site says the
+problem is open even for $n=2$. This is a bounded negative finding on the two
+remaining cases, not a certificate of openness. The OpenAI report itself has no
+claim page here, since its theorem asserts nothing about this problem's
+statement.
 
 **Source.** [erdosproblems.com/554](https://www.erdosproblems.com/554),
 accessed 2026-09-17: the problem page (OPEN, which the site qualifies as not

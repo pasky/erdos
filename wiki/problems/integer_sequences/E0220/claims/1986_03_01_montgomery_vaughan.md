@@ -3,8 +3,9 @@ name: problems/integer_sequences/E0220/claims/1986_03_01_montgomery_vaughan
 title: Montgomery and Vaughan's bound on powers of totative gaps
 desc: |
   Montgomery and Vaughan bound the power sums of the gaps between consecutive
-  integers below n and coprime to n, the squared case answering the question
-  yes; refereed in the Annals of Mathematics (1986) and credited by the site.
+  integers below $n$ and coprime to $n$, and the squared case answers the
+  question yes. It is refereed (Annals of Mathematics, 1986) and credited by the
+  site.
 authors:
 - H. L. Montgomery
 - R. C. Vaughan
@@ -45,15 +46,15 @@ not recorded, and the page name uses the first of the month.
 
 **Acceptance.** Refereed: the paper appeared in the Annals of Mathematics.
 Reviewed: Thomas Bloom, the site's curator, independent of the claimants, labels
-the problem PROVED (LEAN), last edited 8 December 2025, and the commentary
-attributes the positive answer to this paper and states the general $\gamma$
-form, read from the dated snapshot of 2026-09-05, when the thread held three
-comments and the proof-claim tab was empty. Guy's collection, Section B40,
-records Erdős's conjecture, Erdős's offer for it and that Montgomery and Vaughan
-won the prize
+the problem PROVED (LEAN), and the page was last edited 8 December 2025. The
+commentary attributes the positive answer to this paper and states the general
+$\gamma$ form. This was read from the dated snapshot of 2026-09-05, when the
+thread held three comments and the proof-claim tab was empty. Guy's collection,
+Section B40, records Erdős's conjecture and Erdős's offer for it. It also
+records that Montgomery and Vaughan won the prize
 ([[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|card]]).
-The paper is not held and was not read in this repository; this page rests on no
-review of its own.
+The paper is not held and was not read in this repository, and this page rests
+on no review of its own.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos220.lean` of
 Boris Alexeev's public repository `plby/lean-proofs` (added 2026-08-17; the

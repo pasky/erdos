@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0506/claims/2009_07_03_purdy_smith
 title: The corrected Elliott bound, sharp for n at least 394
 desc: |
-  Purdy and Smith correct Elliott's 1967 theorem: n points, not all on one
-  circle or line, determine at least 1 + C(n-1,2) - floor((n-1)/2) circles
-  once n > 393, and the bound is attained; only finitely many n remain.
+  Purdy and Smith correct Elliott's 1967 theorem. For $n>393$, $n$ points not
+  all on one circle or line determine at least
+  $1+\binom{n-1}{2}-\lfloor(n-1)/2\rfloor$ circles, and the bound is attained,
+  so only finitely many $n$ remain.
 authors:
 - George B. Purdy
 - Justin W. Smith
@@ -73,12 +74,11 @@ pending.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** The result is refereed: Discrete and Computational Geometry
-published the paper, whose Section 2.1 asserts the modification of Elliott's
-argument without printing it, so the refereed text vouches for the
-counterexample and for that assertion. The site's curator, Thomas Bloom,
-labels the problem DECIDABLE and credits Purdy and Smith with observing the
-error in Elliott's proof and the corrected bound, best possible for all
-$n>393$ (problem page last edited 1 February 2026); the label DECIDABLE does
-not settle the problem, so the curator's credit is context and not
-acceptance evidence.
+**Acceptance.** The result is refereed, since Discrete and Computational
+Geometry published the paper. Its Section 2.1 asserts the modification of
+Elliott's argument without printing it. The refereed text therefore vouches for
+the counterexample and for that assertion. Thomas Bloom, the site's curator,
+labels the problem DECIDABLE. He credits Purdy and Smith with observing the
+error in Elliott's proof and the corrected bound, best possible for all $n>393$
+(problem page last edited 1 February 2026). The label DECIDABLE does not settle
+the problem, so the curator's credit is context and not acceptance evidence.

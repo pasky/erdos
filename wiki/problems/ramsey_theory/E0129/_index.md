@@ -2,10 +2,10 @@
 name: problems/ramsey_theory/E0129
 title: Problem 129
 desc: |
-  Asks for a bound of the form C^(sqrt n) on the least N forcing, in any
-  r-coloring of K_N, n vertices missing some color's triangle; a random
-  coloring refutes the site's wording, and no source gives another intended
-  form.
+  Asks for a constant $C=C(r)>1$ with $R(n;3,r)<C^{\sqrt n}$, where $R(n;3,r)$
+  is the least $N$ such that every $r$-coloring of $K_N$ has $n$ vertices with
+  no triangle in some color. A random coloring refutes the site's wording, and
+  no source gives another intended form.
 tags:
 - Graph theory
 - Ramsey theory
@@ -49,30 +49,31 @@ named here states a variant that the site or a paper endorses as the intended
 question; [Er97b] itself states the question in the site's form and no other
 (below), and the bound $C^{\sqrt n}$ is Erdős's own print there.
 
-**Status.** Open on the site, which explains the label by the ambiguity of
-the original source: the OPEN describes the question Erdős intended, which
-the site cannot identify, not the question the site prints. The Statement
-asks for a constant $C(r)$ with $R(n;3,r)<C^{\sqrt n}$ and fails for every
-$r$, and the site says so: its commentary credits Girão with the observation
-that a random coloring gives $R(n;3,2)\ge C^n$ for some $C>1$. Take a
-uniformly random red-blue coloring of $K_N$ and a fixed set $S$ of $n$
-vertices: $S$ contains $t\gg n^2$ edge-disjoint triangles, each
-monochromatic red with probability $1/8$ independently, so the probability
-that $S$ has no red triangle is at most $(7/8)^t$, and the same for blue;
-summing over the $\binom Nn\le(eN/n)^n$ sets $S$ and the two colors, the
-expected number of $n$-sets missing a triangle in some color is at most
-$2(eN/n)^n(7/8)^t<1$ once $N\le C^n$ for a suitable absolute $C>1$, so some
+**Status.** Open on the site. The site explains the label by the ambiguity of
+the original source: the OPEN describes the question Erdős intended, which the
+site cannot identify, not the question the site prints. The frontmatter standing
+is claimed, through the full claim on the claim page
+[[problems/ramsey_theory/E0129/claims/2025_10_20_girao|Girão's observation]].
+That page records the disproof and its postings as a pending claim. The curator
+wrote its only posting and keeps the problem OPEN, so there is no independent
+review.
+
+The Statement asks for a constant $C(r)$ with $R(n;3,r)<C^{\sqrt n}$, and it
+fails for every $r$. The site says so: its commentary credits Girão with the
+observation that a random coloring gives $R(n;3,2)\ge C^n$ for some $C>1$. The
+argument runs as follows. Take a uniformly random red-blue coloring of $K_N$ and
+a fixed set $S$ of $n$ vertices. The set $S$ contains $t\gg n^2$ edge-disjoint
+triangles, each monochromatic red with probability $1/8$ independently. So the
+probability that $S$ has no red triangle is at most $(7/8)^t$, and the same
+holds for blue. Sum over the $\binom Nn\le(eN/n)^n$ sets $S$ and the two colors.
+The expected number of $n$-sets missing a triangle in some color is at most
+$2(eN/n)^n(7/8)^t<1$ once $N\le C^n$ for a suitable absolute $C>1$. So some
 coloring has every $n$-set containing both a red and a blue triangle, and
-$R(n;3,2)>N$. The thread's Steiner-triple-system version extends the
-argument to an exponential lower bound for every $r\ge3$, and no
-$C^{\sqrt n}$ exceeds an exponential in $n$ for large $n$. The failure holds
-for every $r$ and every large $n$, not only at boundary values, and the bound
-is Erdős's own print in [Er97b], so the Statement is judged as printed. The
-claim page
-[[problems/ramsey_theory/E0129/claims/2025_10_20_girao|Girão's observation]]
-records the disproof and its postings as a pending claim: the curator wrote
-its only posting and keeps the problem OPEN, so there is no independent
-review. The frontmatter standing is claimed, through that full claim.
+$R(n;3,2)>N$. The thread's Steiner-triple-system version extends the argument to
+an exponential lower bound for every $r\ge3$. For large $n$, no $C^{\sqrt n}$
+exceeds an exponential in $n$. The failure holds for every $r$ and every large
+$n$, not only at boundary values. The bound is also Erdős's own print in
+[Er97b]. For these reasons the Statement is judged as printed.
 
 **Source.** [erdosproblems.com/129](https://www.erdosproblems.com/129),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that the

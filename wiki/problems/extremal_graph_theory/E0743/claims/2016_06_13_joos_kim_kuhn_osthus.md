@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0743/claims/2016_06_13_joos_kim_kuhn_osthus
 title: Joos, Kim, Kühn and Osthus's bounded-degree tree packing
 desc: |
-  Joos, Kim, Kühn and Osthus prove the tree packing conjecture for all large n
-  whenever the trees beyond the first εn have bounded maximum degree; accepted
-  on the refereed publication in J. Eur. Math. Soc. 21 (2019).
+  Joos, Kim, Kühn and Osthus prove the tree packing conjecture for all large $n$
+  whenever the trees beyond the first $\varepsilon n$ have bounded maximum
+  degree. The claim is accepted on the refereed publication in J. Eur. Math.
+  Soc. 21 (2019).
 authors:
 - Felix Joos
 - Jaehoon Kim
@@ -57,9 +58,9 @@ covered, so the conjecture stays open.
 paper.
 
 **Acceptance.** Refereed: the Journal of the European Mathematical Society,
-volume 21, issue 12 (Crossref record read). As context and not
-as evidence, the site's curator, Thomas Bloom, credits the result in the
-problem's commentary; the site labels the problem FALSIFIABLE, an open
-problem, so the credit settles nothing and is no `reviewed` evidence. This
-corpus read Theorem 1.2 as printed in the arXiv version and none of the
-proof; it supplies no independent proof review.
+volume 21, issue 12 (Crossref record read). As context and not as evidence, the
+site's curator, Thomas Bloom, credits the result in the problem's commentary.
+The site labels the problem FALSIFIABLE, an open problem, so the credit settles
+nothing and is not `reviewed` evidence. This corpus read Theorem 1.2 as printed
+in the arXiv version and none of the proof. It supplies no independent proof
+review.

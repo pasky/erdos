@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0125
 title: Problem 125
 desc: |
-  Asks whether the sumset of integers using only digits zero and one in base
-  three and those using only those digits in base four has positive lower
-  density.
+  Asks whether $A+B$ has positive lower density, where $A$ and $B$ are the
+  integers whose only digits are $0$ and $1$ in base $3$ and in base $4$. The
+  answer is no.
 tags:
 - Number theory
 - Base representations
@@ -46,13 +46,14 @@ $\lvert(A+B)\cap[1,x]\rvert\geq cx$ for all large $x$.
 
 **Status.** DISPROVED (LEAN). The site labels the problem DISPROVED (LEAN). No
 manuscript or refereed publication of the disproof exists. Its written forms are
-Lean files, none built or audited in this corpus (the collection's pinned file,
-a community file and a generated file); the claimant's summary of the argument
-on the site's thread (post 5110); and the reconstructions by the site's curator
-(post 5114), who credits the result to DeepMind, and by Nat Sothanaphan (post
-5115, crediting GPT-5.4 Thinking). Terence Tao's reconstruction (post 4469)
-covers only the earlier positive-density result. See "Current assessment" and
-the claim pages.
+Lean files, a summary by the claimant and reconstructions by others. The Lean
+files are the collection's pinned file, a community file and a generated file.
+None of them was built or audited in this corpus. The claimant summarized the
+argument on the site's thread (post 5110). The site's curator reconstructed it
+in post 5114 and credits the result to DeepMind. Nat Sothanaphan reconstructed
+it in post 5115, crediting GPT-5.4 Thinking. Terence Tao's reconstruction (post
+4469) covers only the earlier positive-density result. See "Current assessment"
+and the claim pages.
 
 **Source.** [erdosproblems.com/125](https://www.erdosproblems.com/125), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #125,

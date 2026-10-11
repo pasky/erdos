@@ -2,9 +2,10 @@
 name: problems/set_systems/E1020/claims/2012_06_13_frankl_luczak_mieczkowska
 title: Frankl, Łuczak and Mieczkowska's range n > 2 r squared (k - 1) over log r
 desc: |
-  Frankl, Łuczak and Mieczkowska (2012) prove that an r-uniform hypergraph
-  whose largest matching has k - 1 edges has at most the covering family's
-  size once n > 2 r^2 (k - 1) / log r, the cover alone extremal; refereed.
+  Frankl, Łuczak and Mieczkowska (2012) prove that once $n>2r^2(k-1)/\log r$, an
+  $r$-uniform hypergraph whose largest matching has $k-1$ edges has at most as
+  many edges as the covering family. The cover alone is extremal, and the paper
+  is refereed.
 authors:
 - Peter Frankl
 - Tomasz Łuczak
@@ -54,8 +55,8 @@ by the logarithm and was superseded by the linear range of
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper appeared in the Electronic Journal of
-Combinatorics, volume 19, issue 2, Paper 42, published on 2012-06-13, the
-page's date. The site labels the problem FALSIFIABLE, an open label, so its
-commentary, which credits the range to the paper as [FLM12], is not
-acceptance and no `reviewed` is listed. Nothing here rests on this project's
-own review.
+Combinatorics, volume 19, issue 2, Paper 42, published on 2012-06-13, which is
+the page's date. The site's commentary credits the range to the paper as
+[FLM12]. The site labels the problem FALSIFIABLE, which is an open label, so
+this commentary is not acceptance and no `reviewed` is listed. Nothing here
+rests on this project's own review.

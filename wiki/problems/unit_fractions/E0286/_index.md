@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0286
 title: Problem 286
 desc: |
-  Asks whether k distinct unit fractions summing to one can always be found
-  with all denominators inside an interval of width about e minus one times k.
+  Asks whether $k$ distinct unit fractions summing to $1$ can always be chosen
+  with all denominators in an interval of width $(e-1+o(1))k$; proved.
 tags:
 - Number theory
 - Unit fractions
@@ -47,22 +47,21 @@ count and about $(e-1)N$ in units of the left endpoint. The site's
 question, with the larger constant, is weaker than Croot's form and is
 implied by it. This page assesses the site's wording as stated.
 
-**Status.** Proved, in the site's label, which credits Croot. Croot's
-Main Theorem (Acta Arith. 99 (2001), no. 2, 99--114; refereed) gives, for
-every $N>1$, integers $N<n_1<\cdots<n_k\le(e+o(1))N$ with $1=\sum1/n_i$,
-whose width is below $(e-1+o(1))k$ since $k>N$; the paper states the
-result "for infinitely many $k$". For every large $k$ the site's question
-is answered by Martin's Theorem 2 (Acta Arith. 95 (2000), no. 3, 231--260;
-refereed), the source of [[problems/unit_fractions/E0285/_index|Problem
-285]]: a $k$-term representation of $1$ with all denominators at most
-$(e/(e-1)+o(1))k$ lies in an interval of width below $(e-1)k$, because
-$e/(e-1)<e-1$. The standing in the frontmatter derives from the claim
-pages: the accepted full claim
-[[problems/unit_fractions/E0286/claims/1998_11_18_martin|Martin 1998]] and
-the accepted partial claim
-[[problems/unit_fractions/E0286/claims/1999_04_30_croot|Croot 1999]], which
-covers the infinitely many $k$ of Croot's construction with the sharper
-width.
+**Status.** Proved, in the site's label, which credits Croot. Croot's Main
+Theorem (Acta Arith. 99 (2001), no. 2, 99--114; refereed) gives, for every
+$N>1$, integers $N<n_1<\cdots<n_k\le(e+o(1))N$ with $1=\sum1/n_i$. Since $k>N$,
+their width is below $(e-1+o(1))k$. The paper states the result "for infinitely
+many $k$". For every large $k$, the site's question is answered by Martin's
+Theorem 2 (Acta Arith. 95 (2000), no. 3, 231--260; refereed), the source of
+[[problems/unit_fractions/E0285/_index|Problem 285]]. A $k$-term representation
+of $1$ with all denominators at most $(e/(e-1)+o(1))k$ lies in an interval of
+width below $(e-1)k$, because $e/(e-1)<e-1$. The standing in the frontmatter
+derives from the claim pages. These are the accepted full claim
+[[problems/unit_fractions/E0286/claims/1998_11_18_martin|Martin 1998]] and the
+accepted partial claim
+[[problems/unit_fractions/E0286/claims/1999_04_30_croot|Croot 1999]]. The
+partial claim covers the infinitely many $k$ of Croot's construction with the
+sharper width.
 
 **Source.** [erdosproblems.com/286](https://www.erdosproblems.com/286),
 accessed 2026-09-18: the problem page (PROVED, whose label tooltip reports

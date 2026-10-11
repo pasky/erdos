@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0407/claims/2023_08_09_bajpai_bennett
 title: Bajpai and Bennett's effective bounds for Newman's problem
 desc: |
-  Bajpai and Bennett prove, with explicit constants, that a positive integer
-  has at most nine representations as 2^a 3^b + 2^c + 3^d, at most four from
-  131082 on, once representations with the same three summands are identified.
+  Bajpai and Bennett prove, with explicit constants, that a positive integer has
+  at most nine representations as $2^a3^b+2^c+3^d$, and at most four from 131082
+  on, when representations with the same three summands are identified.
 authors:
 - Prajeet Bajpai
 - Michael A. Bennett
@@ -62,15 +62,15 @@ that reduces a five-term equation to the four-term case; the corpus's
 summarizes it. This page rests on the statement of Theorem 3 and the
 introduction of the paper; the proof was not checked.
 
-**Acceptance.** The paper is a refereed publication in Acta Arithmetica, the
-`refereed` evidence. The site's curator, T. F. Bloom, labels the problem
+**Acceptance.** The paper is a refereed publication in Acta Arithmetica, which
+is the `refereed` evidence. The site's curator, T. F. Bloom, labels the problem
 proved and credits this paper in the problem's commentary with the effective
-bounds, noting in the site's thread on 2025-09-08 that the details and
-references had been added; that documented acceptance is the `reviewed`
-evidence. The thread also carries a reader's computed values under the
-ordered convention, which the thread itself attributes to double counting of
-permuted summands; those posts are unverified comments and change nothing
-here. The Lean development recorded on the page of Evertse, Győry, Stewart and
-Tijdeman names this paper among its informal sources and proves, as a
+bounds. In the site's thread on 2025-09-08, he noted that the details and
+references had been added. That documented acceptance is the `reviewed`
+evidence. The thread also carries a reader's computed values under the ordered
+convention. The thread itself attributes those values to double counting of
+permuted summands. Those posts are unverified comments and change nothing here.
+The Lean development recorded on the page of Evertse, Győry, Stewart and
+Tijdeman names this paper among its informal sources. It proves, as a
 conditional theorem, that the ordered count is at most $27$ if the bound nine
-holds; the nine bound itself is a hypothesis there, not a formalized result.
+holds. The bound nine itself is a hypothesis there, not a formalized result.

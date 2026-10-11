@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E0061/claims/2023_07_12_nguyen_scott_seymou
 title: Nguyen, Scott and Seymour's infinite family of prime graphs
 desc: |
   Nguyen, Scott and Seymour prove the Erdős-Hajnal conjecture for every graph
-  whose prime induced subgraphs each have a vertex of degree one and one of
-  degree |H'|-2, a family with infinitely many prime members; refereed (TAMS).
+  whose prime induced subgraphs $H'$ each have a vertex of degree one and a
+  vertex of degree $|H'|-2$. This family has infinitely many prime members, and
+  the paper is refereed (TAMS).
 authors:
 - Tung Nguyen
 - Alex Scott

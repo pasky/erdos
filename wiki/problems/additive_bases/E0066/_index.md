@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0066
 title: Problem 66
 desc: |
-  Asks whether some set of naturals has its number of representations as a sum
-  of two elements, divided by the logarithm of n, tending to a nonzero limit.
+  Asks whether some $A\subseteq\mathbb{N}$ has its number of representations
+  $1_A\ast 1_A(n)$, divided by $\log n$, tending to a nonzero limit; open.
 tags:
 - Number theory
 - Additive bases

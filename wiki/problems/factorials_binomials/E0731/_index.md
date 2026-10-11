@@ -2,8 +2,9 @@
 name: problems/factorials_binomials/E0731
 title: Problem 731
 desc: |
-  Asks for a function describing, for almost all n, the least integer that
-  fails to divide the central binomial coefficient of n.
+  Asks for a reasonable $f(n)$ such that, for almost all $n$, the least $m$ with
+  $m\nmid\binom{2n}{n}$ satisfies $m\sim f(n)$; a negative answer under one
+  reading of "reasonable" is claimed but not accepted.
 tags:
 - Number theory
 - Binomial coefficients
@@ -41,15 +42,14 @@ class that contains the usual explicit formulas, and asserts that no such $f$
 exists.
 
 **Status.** OPEN: the site's label, on a page last edited 19 October 2025,
-before the one claim. Eric Li's full claim, posted as an arXiv preprint on
-2026-06-27 and submitted to the site's proof-claims tab on 2026-07-17, a
-resolution under Li's reading of "reasonable" as dyadic regularity, with a Lean
-development produced by Aristotle (Harmonic), is pending on the
+before the one claim. The derived standing is claimed and disproved. It departs
+from the label because a full claim by Eric Li is pending on the
 [[problems/factorials_binomials/E0731/claims/2026_06_27_li|Li claim page]]. The
-derived standing, claimed and disproved, departs from the label because that
-full claim is pending: it asserts that no dyadically regular $f$ has the least
-non-divisor asymptotic to $f(n)$ for almost all $n$, a negative answer under
-that reading.
+claim asserts that no dyadically regular $f$ has the least non-divisor
+asymptotic to $f(n)$ for almost all $n$. This is a negative answer under Li's
+reading of "reasonable" as dyadic regularity. Li posted the claim as an arXiv
+preprint on 2026-06-27 and submitted it to the site's proof-claims tab on
+2026-07-17. It comes with a Lean development produced by Aristotle (Harmonic).
 
 **Source.** [erdosproblems.com/731](https://www.erdosproblems.com/731), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #731,

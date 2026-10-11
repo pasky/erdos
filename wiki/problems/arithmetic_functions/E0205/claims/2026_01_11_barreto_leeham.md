@@ -3,8 +3,9 @@ name: problems/arithmetic_functions/E0205/claims/2026_01_11_barreto_leeham
 title: Barreto and Leeham negative answer
 desc: |
   A disproof posted to the site's discussion thread on 2026-01-11, found with
-  ChatGPT and formalized with Aristotle, gives infinitely many n for which no
-  n - 2^k has fewer than log log prime factors; curator-credited, not refereed.
+  ChatGPT and formalized with Aristotle, gives infinitely many $n$ for which no
+  $m=n-2^k$ has $\Omega(m)<\log\log m$. The site's curator credits it, and it is
+  not refereed.
 authors:
 - Liam Price
 status: accepted
@@ -70,17 +71,18 @@ proves the $\log\log$ form itself, from Mathlib alone.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labels the
-problem DISPROVED (LEAN) and credits the negative answer to Barreto and
-Leeham in the problem's commentary (last edited 2026-04-05), and Terence
-Tao, in the thread on 2026-01-11, described the construction, found it
-surprisingly simple and listed it as a full solution under Section 1,
-primary contributions, of the AI-contributions wiki of the community
-database Tao maintains. The same day Nat Sothanaphan posted a human-readable
-version of the quantified Lean proof and wrote that they had checked
-everything by hand; that write-up is linked from the Tao–Alexeev page. No
-refereed publication exists: the Overleaf write-up is ChatGPT's output and
-unrefereed, and no library card digests it. The Lean session linked above
-is a community file that this corpus has not built or audited, so no
-`formalized` evidence is listed and the evidence is `reviewed` alone. The
-Lean suffix of the site's label is a catalog label; what the linked formal
-files prove is recorded on the problem page and on the Tao–Alexeev page.
+problem DISPROVED (LEAN) and credits the negative answer to Barreto and Leeham
+in the problem's commentary (last edited 2026-04-05). Terence Tao, in the thread
+on 2026-01-11, described the construction and found it surprisingly simple. Tao
+also listed it as a full solution under Section 1, primary contributions, of the
+AI-contributions wiki of the community database he maintains. The same day Nat
+Sothanaphan posted a human-readable version of the quantified Lean proof and
+wrote that they had checked everything by hand. That write-up is linked from the
+Tao–Alexeev page.
+
+No refereed publication exists. The Overleaf write-up is ChatGPT's output and
+unrefereed, and no library card digests it. The Lean session linked above is a
+community file that this corpus has not built or audited. So no `formalized`
+evidence is listed, and the evidence is `reviewed` alone. The Lean suffix of the
+site's label is a catalog label. What the linked formal files prove is recorded
+on the problem page and on the Tao–Alexeev page.

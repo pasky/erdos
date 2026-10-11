@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0241
 title: Problem 241
 desc: |
-  Asks whether the largest subset of the first N integers whose three-element
-  sums are all distinct has size asymptotic to the cube root of N.
+  Asks whether the largest subset of $\{1,\ldots,N\}$ whose triple sums $a+b+c$
+  are all distinct has size asymptotic to $N^{1/3}$; open.
 tags:
 - Additive combinatorics
 - Sidon sets

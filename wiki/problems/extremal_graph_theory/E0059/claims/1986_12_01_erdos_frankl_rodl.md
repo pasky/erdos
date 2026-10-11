@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0059/claims/1986_12_01_erdos_frankl_rodl
 title: Erdős, Frankl and Rödl prove the bound for non-bipartite graphs
 desc: |
-  Theorem 1.6 of Erdős, Frankl and Rödl (Graphs Combin. 1986) counts the
-  G-free graphs on n vertices as 2^{(1+o(1)) ex(n;G)} whenever G has
-  chromatic number at least 3; accepted on the refereed publication.
+  Theorem 1.6 of Erdős, Frankl and Rödl (Graphs Combin. 1986) shows that the
+  number of $G$-free graphs on $n$ vertices is $2^{(1+o(1))\mathrm{ex}(n;G)}$
+  whenever $G$ has chromatic number at least 3. The claim is accepted on the
+  refereed publication.
 authors:
 - P. Erdös
 - P. Frankl
@@ -58,15 +59,15 @@ the $C_4$ case the site's commentary raises separately is not covered.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Refereed publication in Graphs and Combinatorics (the
-publisher's record: volume 2, issue 1, pp. 113--121, issued December 1986; the
-day is the issue's nominal first day, used for this page's date; the paper
-prints "Received: September 30, 1985" and "Revised: March 10, 1986"). The site's
-curator, Thomas Bloom, credits this theorem in the problem's commentary with the
-answer yes for non-bipartite $G$, but the site's label settles the problem by
-Morris and Saxton's disproof, so that commentary is not listed as `reviewed`
-evidence. The text cited is the scan in the Rényi Institute's Erdős archive,
-https://users.renyi.hu/~p_erdos/1986-17.pdf. Proof coverage: the statements of
-Theorems 1.4, 1.5 and 1.6 and the authors' remark on the bipartite case; no
-proof is compiled in this corpus. This claim is partial, so the problem's
-standing derives from Morris and Saxton's full claim.
+**Acceptance.** Refereed publication in Graphs and Combinatorics. The
+publisher's record gives volume 2, issue 1, pp. 113--121, issued December 1986.
+The day is the issue's nominal first day, used for this page's date. The paper
+prints "Received: September 30, 1985" and "Revised: March 10, 1986". In the
+problem's commentary, the site's curator, Thomas Bloom, credits this theorem
+with the answer yes for non-bipartite $G$. But the site's label settles the
+problem by Morris and Saxton's disproof, so that commentary is not listed as
+`reviewed` evidence. The text cited is the scan in the Rényi Institute's Erdős
+archive, https://users.renyi.hu/~p_erdos/1986-17.pdf. Proof coverage: the
+statements of Theorems 1.4, 1.5 and 1.6 and the authors' remark on the bipartite
+case. No proof is compiled in this corpus. This claim is partial, so the
+problem's standing derives from Morris and Saxton's full claim.

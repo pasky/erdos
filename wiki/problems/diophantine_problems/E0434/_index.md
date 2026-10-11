@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0434
 title: Problem 434
 desc: |
-  Determines which coprime k-element subset of the first n integers leaves the
-  most integers unrepresentable as sums of its members, and whether it is the
-  top k.
+  Asks which $k$-element set $A\subseteq\{1,\ldots,n\}$ with $\gcd(A)=1$ leaves
+  the most integers that are not sums of its elements, repetition allowed, and
+  whether it is $\{n,n-1,\ldots,n-k+1\}$; proved.
 tags:
 - Number theory
 status: solved
@@ -38,14 +38,14 @@ statement reads it the same way (hypothesis $2\le k$, with a note on $k=1$). The
 claim pages and the derived frontmatter standing address that question, on which
 the maximizer is in general not unique (Kiss's Theorem 2).
 
-**Status.** PROVED (LEAN): the site's label; its commentary credits Kiss with
-the proof, and the frontmatter standing is derived from the accepted claim page
+**Status.** PROVED (LEAN), the site's label. The site's commentary credits Kiss
+with the proof. The frontmatter standing is derived from the accepted claim page
 [[problems/diophantine_problems/E0434/claims/2003_02_13_kiss|Kiss's theorem]],
-accepted on the site's credit and the journal publication; the Lean part of
-the label refers to a separate AI-assisted Lean proof arguing from Dixmier's
-theorem, recorded as the claimed page
+accepted on the site's credit and the journal publication. The Lean part of the
+label refers to a separate AI-assisted Lean proof that argues from Dixmier's
+theorem. It is recorded as the claimed page
 [[problems/diophantine_problems/E0434/claims/2026_02_24_joshuab|Lean proof through Dixmier's interval theorem]],
-which this corpus has not built or audited.
+and this corpus has not built or audited it.
 
 **Source.** [erdosproblems.com/434](https://www.erdosproblems.com/434), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #434,

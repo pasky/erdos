@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0571/claims/2018_11_16_kang_kim_liu
 title: Kang, Kim and Liu, the exponents 2 minus a/b with b congruent to plus or minus 1 modulo a
 desc: |
-  Kang, Kim and Liu (J. Combin. Theory Ser. B 2021): 2 minus a/b is a Turán
-  exponent for all integers b > a at least 1 with b congruent to plus or minus
-  1 modulo a; infinitely many instances of Problem 571.
+  Kang, Kim and Liu (J. Combin. Theory Ser. B 2021) show that $2-a/b$ is a Turán
+  exponent for all integers $b>a\ge1$ with $b\equiv\pm1\pmod a$. This gives
+  infinitely many instances of Problem 571.
 authors:
 - Dong Yeap Kang
 - Jaehoon Kim
@@ -50,8 +50,8 @@ for every rational $\alpha\in[1,2)$ is settled by the accepted claim page
 exponents conjecture*, J. Combin. Theory Ser. B 148 (2021), 149--172,
 doi:10.1016/j.jctb.2020.12.003, a refereed journal. First posting:
 arXiv:1811.06916, v1 16 November 2018 (the date this page is named by). No
-`reviewed` evidence is listed: the site's commentary lists these exponents
-among the Turán exponents known before 2026 and credits the paper, but its
+`reviewed` evidence is listed. The site's commentary lists these exponents among
+the Turán exponents known before 2026 and credits the paper. But the site's
 label credits GPT-6 Astra with the full proof and is not an acceptance of this
 result.
 

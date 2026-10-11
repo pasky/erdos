@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0620/claims/2013_08_21_dudek_mubayi
 title: Dudek and Mubayi's lower bound from Shearer's independence bound
 desc: |
-  Dudek and Mubayi apply Shearer's independence bound beside a vertex
-  neighborhood and get f(n) >= c sqrt(n log n / log log n) for Problem 620;
-  refereed in J. Graph Theory 76 (2014).
+  Dudek and Mubayi prove $f(n)\ge c\sqrt{n\log n/\log\log n}$ for Problem 620 by
+  combining Shearer's independence bound with the neighborhood of a vertex, in a
+  refereed paper in J. Graph Theory 76 (2014).
 authors:
 - Andrzej Dudek
 - Dhruv Mubayi
@@ -52,7 +52,6 @@ covered: the upper bound and the order of $f(n)$.
 [[../library/extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_1|Shearer's Corollary 1]],
 the independence bound the argument applies.
 
-**Acceptance.** `refereed`: Journal of Graph Theory (published online 21
-August 2013); Shearer's input appeared in Random Structures Algorithms 7
-(1995). The site labels the problem OPEN, so its commentary is not
-acceptance.
+**Acceptance.** `refereed`: Journal of Graph Theory (published online 21 August
+2013). Shearer's input appeared in Random Structures Algorithms 7 (1995). The
+site labels the problem OPEN, so its commentary is not acceptance.

@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0452
 title: Problem 452
 desc: |
-  The longest interval inside x to twice x on which every integer has more
-  than log log n distinct prime factors.
+  Asks for the size of the largest interval $I\subseteq[x,2x]$ on which every
+  $n$ has more than $\log\log n$ distinct prime factors; open.
 tags:
 - Number theory
 status: open
@@ -27,7 +27,7 @@ $\omega(n)>\log\log n$ for all $n\in I$?
 **Status.** Open, the site's label (page last edited 28 October 2025). One
 pending partial claim,
 [[problems/arithmetic_functions/E0452/claims/2026_07_26_white|White's weighted-sieve upper bound]],
-bounds the longest run from above without determining its size, so the
+bounds the longest run from above but does not determine its size. So the
 derived standing is `open` with no full claim.
 
 **Source.** [erdosproblems.com/452](https://www.erdosproblems.com/452), accessed

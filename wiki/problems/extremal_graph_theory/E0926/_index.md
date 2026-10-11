@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0926
 title: Problem 926
 desc: |
-  Bounds by n to the power three halves the edges of an n-vertex graph
-  avoiding a fixed graph made of a vertex joined to k others whose pairs are
-  linked.
+  Asks whether an $n$-vertex graph avoiding $H_k$ has $\ll_k n^{3/2}$ edges,
+  where $H_k$ is a vertex joined to $k$ others and each pair of these $k$ has
+  its own further common neighbor; proved.
 tags:
 - Graph theory
 status: solved
@@ -59,19 +59,18 @@ with edges $xy_i$, $y_iz_{\{i,j\}}$ and $y_jz_{\{i,j\}}$ and no others. The
 formal-conjectures statement (see Formalization) uses the same graph.
 
 **Status.** The site labels the problem PROVED. The status-defining source is
-Theorem 1.4 of Füredi ([Fu91], Combinatorica 11 (1991), 75--79, refereed), which
+Theorem 1.4 of Füredi ([Fu91], Combinatorica 11 (1991), 75--79, refereed). It
 bounds $\mathrm{ex}(n;L^{k,s})$ by an explicit multiple of $n^{3/2}$ for every
-$k\ge2$ and $s\ge1$; at $s=1$ the graph is the problem's $H_k$ of the precise
-Statement. The claim pages are
-[[problems/extremal_graph_theory/E0926/claims/1991_03_01_furedi|Füredi]]
-(accepted on the refereed publication and the acceptance of the site's curator,
-Thomas Bloom; the site's label is its discussion link) and
+$k\ge2$ and $s\ge1$. At $s=1$ the graph is the problem's $H_k$ of the precise
+Statement. The frontmatter is derived from two claim pages.
+[[problems/extremal_graph_theory/E0926/claims/1991_03_01_furedi|Füredi]] is
+accepted on the refereed publication and the acceptance of the site's curator,
+Thomas Bloom. The site's label is its discussion link.
 [[problems/extremal_graph_theory/E0926/claims/2003_11_01_alon_krivelevich_sudakov|Alon, Krivelevich and Sudakov]]
-(Theorem 6.1 of [AKS03], Combin. Probab. Comput. 12 (2003), refereed: a second
-proof with the sharper bound $\mathrm{ex}(n;H_k)\ll kn^{3/2}$, accepted on the
-refereed publication alone, since the site's entry thanks Noga Alon and the
-curator's credit is therefore not listed as independent review). The frontmatter
-is derived from them.
+records Theorem 6.1 of [AKS03] (Combin. Probab. Comput. 12 (2003), refereed), a
+second proof with the sharper bound $\mathrm{ex}(n;H_k)\ll kn^{3/2}$. It is
+accepted on the refereed publication alone. The site's entry thanks Noga Alon,
+so the curator's credit is not listed as independent review.
 
 **Source.** [erdosproblems.com/926](https://www.erdosproblems.com/926), accessed
 2026-10-07. Cite as: T. F. Bloom, Erdős Problem #926,

@@ -4,7 +4,7 @@ title: "Sothanaphan: a certified parameter improvement in the He-Tang family"
 desc: |
   Sothanaphan's note, produced with GPT-5.2 Thinking, certifies by interval
   arithmetic that a new parameter choice in He and Tang's family gives
-  B >= 0.585078819653; credited by the site's commentary, unreviewed.
+  $B\ge0.585078819653$. The site's commentary credits it, but it is unreviewed.
 authors:
 - Nat Sothanaphan
 status: claimed

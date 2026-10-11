@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0088
 title: Problem 88
 desc: |
-  Asks whether a graph on n vertices with no clique or independent set of
-  logarithmic size has induced subgraphs of every edge count up to order n
-  squared.
+  Asks whether, for some $\delta=\delta(\epsilon)>0$, every $n$-vertex graph
+  with no clique or independent set of size $\epsilon\log n$ has an induced
+  subgraph with $m$ edges for every $m\le\delta n^2$; proved.
 tags:
 - Graph theory
 - Ramsey theory
@@ -47,19 +47,19 @@ $cn^2$ edges because, as its commentary says and as the source's footnote 2
 uses, Erdős and Szemerédi proved that a graph with no homogeneous set of
 logarithmic size has edge density bounded away from $0$ and $1$.
 
-**Status.** Proved. Kwan, Sah, Sauermann and Sawhney's Theorem 1.1 [KSSS22]
-gives, for fixed $C>0$ and $\eta>0$ and $n$ large in terms of them, an induced
-subgraph with exactly $x$ edges for every integer $0\le x\le(1-\eta)e(G)$ in
-every $C$-Ramsey graph $G$ on $n$ vertices, and the paper's footnote 2 derives
-the conjecture in its $\delta n^2$ form from the case $\eta=1/2$ through the
-Erdős--Szemerédi density bound; the deduction to the site's exact wording is
-written out in the Current assessment. The paper is published in Forum of
-Mathematics, Pi 11 (2023), e21 (refereed); the locators are those of the arXiv
-v2 of 30 May 2024, posted after the journal publication and not compared with
-it. The site labels the problem PROVED and its curator, T. F. Bloom, credits the
-solution to Kwan, Sah, Sauermann and Sawhney in the commentary. Read depth:
-claims checked for Theorem 1.1, footnote 2 and Theorem 1.2; the proof is not
-reviewed here. The claim page
+**Status.** Proved. The site labels the problem PROVED, and its curator, T. F.
+Bloom, credits the solution to Kwan, Sah, Sauermann and Sawhney in the
+commentary. Their Theorem 1.1 [KSSS22] fixes $C>0$ and $\eta>0$ and takes $n$
+large in terms of them. It then gives, in every $C$-Ramsey graph $G$ on $n$
+vertices, an induced subgraph with exactly $x$ edges for every integer
+$0\le x\le(1-\eta)e(G)$. The paper's footnote 2 derives the conjecture in its
+$\delta n^2$ form from the case $\eta=1/2$, through the Erdős--Szemerédi density
+bound. The deduction to the site's exact wording is written out in the Current
+assessment. The paper is published in Forum of Mathematics, Pi 11 (2023), e21
+(refereed). The locators are those of the arXiv v2 of 30 May 2024. That version
+was posted after the journal publication and has not been compared with it. Read
+depth: claims were checked for Theorem 1.1, footnote 2 and Theorem 1.2. The
+proof is not reviewed here. The claim page
 [[problems/ramsey_theory/E0088/claims/2022_08_04_kwan_sah_sauermann_sawhney|Kwan, Sah, Sauermann and Sawhney 2022]]
 records the result, its postings and the acceptance evidence.
 

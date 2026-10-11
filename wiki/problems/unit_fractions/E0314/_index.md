@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0314
 title: Problem 314
 desc: |
-  Asks how small the excess above one can be for reciprocals of consecutive
-  integers from n summed until reaching one, and if n squared times it nears
-  zero.
+  Asks how small the excess $\epsilon(n)$ over $1$ can be when
+  $1/n+1/(n+1)+\cdots$ is summed until it reaches $1$, and whether
+  $\liminf n^2\epsilon(n)=0$; proved.
 tags:
 - Number theory
 - Unit fractions
@@ -46,18 +46,18 @@ question the label answers; the first is answered only by the bounds
 below, and the belief recorded by the site and the monograph, that
 $n^{2+\delta}\epsilon(n)\to\infty$ for every $\delta>0$, is open.
 
-**Status.** Proved. Lim and Steinerberger's Theorem 1 (Mathematika 71
-(2025), no. 2, e70009; refereed) gives, for every $c>0$, infinitely many
-pairs $(m,n)$ with $1\le\sum_{\ell=n}^m1/\ell\le1+c/n^2$; for such a pair
-the minimal $m(n)$ is at most $m$, so $\epsilon(n)\le c/n^2$, and the pairs
-have distinct $n$ once $n$ is large (a two-line deduction made here). So
-$\liminf n^2\epsilon(n)=0$. Their Theorem 2 gives the refined bound
-$|\sum_{\ell=n}^m1/\ell-1|\le1/(n^2(\log n)^{5/4-\varepsilon})$ for
-infinitely many pairs; its transfer to $\epsilon(n)$ uses the paper's
-remark, stated without proof, that the sum can be forced above $1$. The
-site's label is PROVED (LEAN); its Lean qualifier is a catalog label whose
-scope is qualified under Formalization and the Lean label below, and no
-local kernel credit is claimed. The accepted claim is recorded on
+**Status.** Proved. The site's label is PROVED (LEAN). Lim and Steinerberger's
+Theorem 1 (Mathematika 71 (2025), no. 2, e70009; refereed) gives, for every
+$c>0$, infinitely many pairs $(m,n)$ with $1\le\sum_{\ell=n}^m1/\ell\le1+c/n^2$.
+For such a pair the minimal $m(n)$ is at most $m$, so $\epsilon(n)\le c/n^2$.
+The pairs have distinct $n$ once $n$ is large (a two-line deduction made here).
+So $\liminf n^2\epsilon(n)=0$. Their Theorem 2 gives the refined bound
+$|\sum_{\ell=n}^m1/\ell-1|\le1/(n^2(\log n)^{5/4-\varepsilon})$ for infinitely
+many pairs. Its transfer to $\epsilon(n)$ uses the paper's remark, stated
+without proof, that the sum can be forced above $1$. The label's Lean qualifier
+is a catalog label whose scope is qualified under Formalization and the Lean
+label below, and no local kernel credit is claimed. The accepted claim is
+recorded on
 [[problems/unit_fractions/E0314/claims/2024_05_18_lim_steinerberger|Lim and Steinerberger's claim page]].
 
 **Source.** [erdosproblems.com/314](https://www.erdosproblems.com/314),

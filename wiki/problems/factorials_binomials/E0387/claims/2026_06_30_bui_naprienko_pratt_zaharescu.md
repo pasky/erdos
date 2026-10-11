@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E0387/claims/2026_06_30_bui_naprienko_pratt_zaharescu
 title: No constant works for every binomial coefficient
 desc: |
-  Bui, Naprienko, Pratt and Zaharescu find infinitely many binomial
-  coefficients with no divisor in an interval (cn, n] whose c tends to zero,
+  Bui, Naprienko, Pratt and Zaharescu find infinitely many binomial coefficients
+  $\binom nk$ with no divisor in an interval $(cn,n]$ whose $c$ tends to zero,
   so no fixed constant works.
 authors:
 - Hung M. Bui

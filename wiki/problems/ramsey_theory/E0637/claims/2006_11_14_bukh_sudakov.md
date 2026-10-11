@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0637/claims/2006_11_14_bukh_sudakov
 title: Bukh and Sudakov, linear induced subgraphs with root n distinct degrees
 desc: |
-  Theorem 1.1 of Bukh and Sudakov (J. Combin. Theory Ser. B 2007): a graph
-  with no clique or independent set of C log n vertices has an induced
-  subgraph on αn vertices with β√n distinct degrees; Problem 637, refereed.
+  Theorem 1.1 of Bukh and Sudakov (J. Combin. Theory Ser. B 2007, refereed)
+  proves the statement of Problem 637: a graph on $n$ vertices with no clique or
+  independent set of $C\log n$ vertices has an induced subgraph on $\alpha n$
+  vertices with $\beta\sqrt n$ distinct degrees.
 authors:
 - Boris Bukh
 - Benny Sudakov
@@ -63,11 +64,11 @@ alone.
 
 **Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
 PROVED and credits Bukh and Sudakov with the proof in the problem's commentary
-(page accessed 2026-09-18); the thread and the proof-claim tab are empty, so the
+(page accessed 2026-09-18). The thread and the proof-claim tab are empty, so the
 commentary is the whole of the site's record. Refereed: J. Combin. Theory Ser. B
 97 (2007), no. 4, 612--619, DOI 10.1016/j.jctb.2006.09.006, received 21 June
 2006 and available online 14 November 2006 (the published article and its
-Crossref record); the acknowledgments thank both referees. Semantic Scholar's 21
+Crossref record). The acknowledgments thank both referees. Semantic Scholar's 21
 citing records, scanned by title on 2026-09-18, include no dispute or
 refutation.
 

@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E1134
 title: Problem 1134
 desc: |
-  Asks whether the smallest set containing one and closed under tripling plus
-  one, doubling plus one, and sextupling plus one has positive lower density.
+  Asks whether the smallest set containing $1$ and closed under $x\mapsto2x+1$,
+  $x\mapsto3x+1$ and $x\mapsto6x+1$ has positive lower density; disproved.
 tags:
 - Number theory
 status: solved
@@ -39,16 +39,16 @@ $$
 
 Does $A$ have positive lower density?
 
-**Status.** DISPROVED (LEAN). Crampin and Hilton answered the question in
-the negative in 1972 without publishing; Lagarias's Theorem 6 ([La16],
-refereed) is the published reconstruction, giving
-$|A\cap[1,T]|\le C(\epsilon)T^{\tau_1+\epsilon}$ with
-$\tau_1\approx0.900526<1$, so $A$ has density zero. The site's curator,
-Thomas Bloom, records this as the resolution. The claim page
+**Status.** DISPROVED (LEAN). Crampin and Hilton answered the question in the
+negative in 1972 without publishing. Lagarias's Theorem 6 ([La16], refereed) is
+the published reconstruction. It gives
+$|A\cap[1,T]|\le C(\epsilon)T^{\tau_1+\epsilon}$ with $\tau_1\approx0.900526<1$,
+so $A$ has density zero. The site's curator, Thomas Bloom, records this as the
+resolution. The claim page
 [[problems/integer_sequences/E1134/claims/2016_09_28_lagarias|Lagarias 2016]]
-records the acceptance. The site's (LEAN) suffix is its catalog label; the
+records the acceptance. The site's (LEAN) suffix is its catalog label. The
 outside Lean files it rests on are described under Formalization and on the
-claim pages, none of them built by this corpus.
+claim pages. This corpus has built none of them.
 
 **Source.** [erdosproblems.com/1134](https://www.erdosproblems.com/1134),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1134,

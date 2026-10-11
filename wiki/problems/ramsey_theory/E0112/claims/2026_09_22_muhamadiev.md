@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0112/claims/2026_09_22_muhamadiev
 title: Muhamadiev's computation of k(3,4) = 21
 desc: |
-  A forum claim of 22 September 2026, with a public repository, that k(3,4) =
-  21: a circulant witness on 20 vertices and a SAT-certified case split on 21
-  vertices resting on hand lemmas; partial and unreviewed.
+  A forum claim by Muhamadiev Faridun of 22 September 2026, with a public
+  repository, says that $k(3,4)=21$, by a circulant witness on 20 vertices and a
+  SAT-certified case split on 21 vertices that rests on hand lemmas. The claim
+  is partial and unreviewed.
 authors:
 - Muhamadiev Faridun
 status: claimed

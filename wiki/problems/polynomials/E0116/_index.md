@@ -2,9 +2,10 @@
 name: problems/polynomials/E0116
 title: Problem 116
 desc: |
-  Asks whether a monic polynomial with roots in the unit disc has modulus below
-  one on a set of area at least an inverse power of n; proved by Pommerenke
-  (1961), with a constant over log n by Krishnapur, Lundberg and Ramachandran.
+  Asks whether a monic polynomial $p$ of degree $n$ with all roots in the unit
+  disc has $|p(z)|<1$ on a set of area at least $n^{-O(1)}$; proved by
+  Pommerenke (1961), and with area $\gg1/\log n$ by Krishnapur, Lundberg and
+  Ramachandran.
 tags:
 - Polynomials
 - Analysis
@@ -31,18 +32,18 @@ $$
 
 (or perhaps even $>(\log n)^{-O(1)}$)?
 
-**Status.** The site labels the problem PROVED (LEAN); the Lean suffix
-refers to a formal proof by others, recorded on the Pommerenke claim page,
-that this corpus has not built or audited. The site credits the answer
-yes to Pommerenke [Po61], who proves that the set contains a disk of radius
-$(2e)^{-1}n^{-2}$, so its area is at least a constant times $n^{-4}$, in a
-paper refereed in the Michigan Mathematical Journal; the claim page is
-[[problems/polynomials/E0116/claims/1961_01_01_pommerenke|Pommerenke 1961]].
-The parenthetical stronger bound, an area of at least $(\log n)^{-O(1)}$, is
-proved with exponent $1$ by Krishnapur, Lundberg and Ramachandran [KLR25] in
-a preprint the site credits; the claim page is
-[[problems/polynomials/E0116/claims/2025_03_24_krishnapur_lundberg_ramachandran|Krishnapur,
-Lundberg and Ramachandran 2025]]. See Current assessment for the evidence.
+**Status.** The site labels the problem PROVED (LEAN). The Lean suffix refers to
+a formal proof by others, recorded on the Pommerenke claim page. This corpus has
+not built or audited that proof. The site credits the answer yes to Pommerenke
+[Po61]. He proves that the set contains a disk of radius $(2e)^{-1}n^{-2}$, so
+its area is at least a constant times $n^{-4}$. His paper is refereed in the
+Michigan Mathematical Journal, and its claim page is
+[[problems/polynomials/E0116/claims/1961_01_01_pommerenke|Pommerenke 1961]]. The
+parenthetical stronger bound asks for an area of at least $(\log n)^{-O(1)}$.
+Krishnapur, Lundberg and Ramachandran [KLR25] prove it with exponent $1$, in a
+preprint the site credits. Its claim page is
+[[problems/polynomials/E0116/claims/2025_03_24_krishnapur_lundberg_ramachandran|Krishnapur, Lundberg and Ramachandran 2025]].
+See Current assessment for the evidence.
 
 **Source.** [erdosproblems.com/116](https://www.erdosproblems.com/116), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #116,

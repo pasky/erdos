@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0548/claims/2026_09_03_adamczewski
 title: Proof of the Erdős–Sós tree edge bound in Adamczewski's repository
 desc: |
-  A Lean proof, found by GPT-6 Astra and published in Adamczewski's
-  repository, that every graph on n vertices with at least (k-1)n/2 + 1 edges
-  contains every tree on k+1 vertices; accepted on Lean built here.
+  A Lean proof, found by GPT-6 Astra and published in Adamczewski's repository,
+  shows that every graph on $n$ vertices with at least $(k-1)n/2+1$ edges
+  contains every tree on $k+1$ vertices. It is accepted on Lean built here.
 authors:
 - Tom Adamczewski
 status: accepted
@@ -98,47 +98,50 @@ acceptance evidence.
 **Depends on.** Nothing in this wiki; the library card linked above holds
 the reconstruction.
 
-**Acceptance.** Formalized. This corpus's verification built the repository
-at the pinned commit `3766491b` of 2026-09-03 (Lean `v4.28.0`, Mathlib
-`v4.28.0`), compiling the resolution module `Erdos548_192usd_21h`, which
-`Solution.lean` imports, and checked the axioms of `Erdos548.erdos_548` in
-the `Solution` environment; they are exactly `propext`, `Classical.choice`
-and `Quot.sound`. The repository's comparator challenge `Challenge.lean`
-pins that declaration, whose statement uses only Mathlib definitions, and
-the fingerprint of the proved declaration was found identical to the
-challenge. The compared statement is the site's form exactly, audited clause
-by clause against the Statement: for naturals $n\ge k+1$, every simple graph
-on `Fin n` with at least $\frac{k-1}2n+1$ edges, the threshold computed in
-$\mathbb Q$ without truncation, contains every tree on `Fin (k + 1)` as a
-not necessarily induced subgraph; the case $k=0$ is included and trivial,
-and $K_n$ meets the threshold for every $k\ge1$, so nothing is vacuous. When
-$(k-1)n$ is odd this threshold is one edge more than the classical
-$e(G)>(k-1)n/2$. The classical form is the lemma `tree_free_edge_bound` in
-the same module, $2e(G)\le(t-2)n$ for every tree $T$ on $t\ge2$ vertices and
-every $T$-free graph $G$ on $n\ge1$ vertices; the proof of `erdos_548` calls
-it, so the build and axiom check cover it, but the comparator does not
+**Acceptance.** Formalized. This corpus's verification built the repository at
+the pinned commit `3766491b` of 2026-09-03 (Lean `v4.28.0`, Mathlib `v4.28.0`).
+It compiled the resolution module `Erdos548_192usd_21h`, which `Solution.lean`
+imports. It checked the axioms of `Erdos548.erdos_548` in the `Solution`
+environment, and they are exactly `propext`, `Classical.choice` and
+`Quot.sound`. The repository's comparator challenge `Challenge.lean` pins that
+declaration, whose statement uses only Mathlib definitions. The fingerprint of
+the proved declaration was found identical to the challenge.
+
+The compared statement is exactly the site's form, and it was audited clause by
+clause against the Statement. For naturals $n\ge k+1$, every simple graph on
+`Fin n` with at least $\frac{k-1}2n+1$ edges contains every tree on `Fin (k +
+1)` as a not necessarily induced subgraph. The threshold is computed in
+$\mathbb Q$ without truncation. The case $k=0$ is included and trivial, and
+$K_n$ meets the threshold for every $k\ge1$, so nothing is vacuous. When
+$(k-1)n$ is odd, this threshold is one edge more than the classical
+$e(G)>(k-1)n/2$. The classical form is the lemma `tree_free_edge_bound` in the
+same module: $2e(G)\le(t-2)n$ for every tree $T$ on $t\ge2$ vertices and every
+$T$-free graph $G$ on $n\ge1$ vertices. The proof of `erdos_548` calls this
+lemma, so the build and the axiom check cover it. The comparator does not
 compare it, and its statement was read, not compared. The Formal Conjectures
-statement file for the problem states the same proposition with named
-binders. Reviewed: mathematicians independent of the claimant and the
-curator have published accounts that affirm the proof: O. Riordan and A.
-Scott, *A short proof of the Erdős--Sós Conjecture*, arXiv:2609.15893 (v1 14
-September 2026), a simplified version of the argument that also determines
-the extremal graphs; D. R. Wood, *The Erdős--Sós Theorem*, arXiv:2609.17877
-(v1 15 September 2026), an exposition; and B. Frederickson, *Erdős-Sós via
-random cyclic orderings*, arXiv:2609.21159 (v1 18 September 2026), a
-simplified proof. None is refereed. The site labels the problem proved and
-formalized and its curator credits the proof, but the curator submitted the
-site's proof claim themselves and is a co-author of the FrontierMath Erdős
-paper, so the curator's credit is not counted as an independent review. Not
-refereed: the exposition is a preliminary account that the proof-claim note of 3
-September 2026 calls a placeholder pending a proper write-up and an
-assessment of the ideas' relation to earlier work, and the FrontierMath
-Erdős paper is a preprint. This corpus's own written reconstruction of the
-six proof pages passed a fresh proof-chain review on 2026-09-18, recorded on
-the source card; that is the project's own review and not acceptance
-evidence. The announced proof of Ajtai, Komlós, Simonovits and Szemerédi was
-never published, and no priority claim for the ideas is made. The Ramsey
-corollaries of the edge bound are recorded on the claim pages of
+statement file for the problem states the same proposition with named binders.
+
+Reviewed: mathematicians independent of the claimant and the curator have
+published accounts that affirm the proof. O. Riordan and A. Scott, *A short
+proof of the Erdős--Sós Conjecture*, arXiv:2609.15893 (v1 14 September 2026),
+give a simplified version of the argument that also determines the extremal
+graphs. D. R. Wood, *The Erdős--Sós Theorem*, arXiv:2609.17877 (v1 15 September
+2026), is an exposition. B. Frederickson, *Erdős-Sós via random cyclic
+orderings*, arXiv:2609.21159 (v1 18 September 2026), gives a simplified proof.
+None of these is refereed. The site labels the problem proved and formalized,
+and its curator credits the proof. But the curator submitted the site's proof
+claim themselves and is a co-author of the FrontierMath Erdős paper, so the
+curator's credit is not counted as an independent review.
+
+Not refereed: the exposition is a preliminary account. The proof-claim note of 3
+September 2026 calls it a placeholder pending a proper write-up and an
+assessment of the ideas' relation to earlier work. The FrontierMath Erdős paper
+is a preprint. This corpus's own written reconstruction of the six proof pages
+passed a fresh proof-chain review on 2026-09-18, recorded on the source card.
+That is the project's own review and not acceptance evidence. The announced
+proof of Ajtai, Komlós, Simonovits and Szemerédi was never published, and no
+priority claim for the ideas is made. The Ramsey corollaries of the edge bound
+are recorded on the claim pages of
 [[problems/ramsey_theory/E0547/_index|Problem 547]] and
 [[problems/ramsey_theory/E0557/_index|Problem 557]].
 

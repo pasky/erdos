@@ -3,7 +3,8 @@ name: problems/factorials_binomials/E1108
 title: Problem 1108
 desc: |
   Asks whether the set of sums of distinct factorials contains only finitely
-  many k-th powers for k at least 2, and only finitely many powerful numbers.
+  many $k$th powers for each $k\ge 2$, and only finitely many powerful numbers;
+  open.
 tags:
 - Number theory
 - Factorials

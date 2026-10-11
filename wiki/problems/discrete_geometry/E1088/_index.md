@@ -2,8 +2,9 @@
 name: problems/discrete_geometry/E1088
 title: Problem 1088
 desc: |
-  Estimates how many points in d dimensions force n of them with all pairwise
-  distances distinct, and whether that count is subexponential in d.
+  Asks for estimates of the least $f_d(n)$ such that any $f_d(n)$ points in
+  $\mathbb{R}^d$ contain $n$ points with all pairwise distances distinct, and
+  whether $f_d(n)=2^{o(d)}$ for fixed $n\ge3$. It is open.
 tags:
 - Geometry
 status: open
@@ -29,11 +30,11 @@ $$
 f_d(n)=2^{o(d)}?
 $$
 
-**Status.** Open, in the site's label (OPEN; page last edited 8 April 2026).
-The site's remarks credit exact values and orders of growth for small cases,
-recorded as partial claims in `claims/`; the question whether
-$f_d(n)=2^{o(d)}$ is open for every $n\ge4$, so the standing in the
-frontmatter, derived from the claim pages, is open.
+**Status.** Open, in the site's label (OPEN; page last edited 8 April 2026). The
+question whether $f_d(n)=2^{o(d)}$ is open for every $n\ge4$, so the standing in
+the frontmatter, derived from the claim pages, is open. The site's remarks
+credit exact values and orders of growth for small cases. These are recorded as
+partial claims in `claims/`.
 
 **Source.** [erdosproblems.com/1088](https://www.erdosproblems.com/1088),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1088,

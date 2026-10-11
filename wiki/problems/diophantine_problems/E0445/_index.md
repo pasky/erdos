@@ -2,9 +2,8 @@
 name: problems/diophantine_problems/E0445
 title: Problem 445
 desc: |
-  Asks whether, for any exponent above one half and any large prime, every
-  interval of that length contains two numbers whose product is one modulo the
-  prime.
+  Asks whether, for every $c>1/2$ and every large enough prime $p$, each
+  interval $(n,n+p^c)$ contains $a,b$ with $ab\equiv1\pmod p$; open.
 tags:
 - Number theory
 status: open
@@ -25,14 +24,14 @@ updated: 2026-10-08T01:29:58Z
 prime then, for any $n\geq 0$, there exist $a,b\in(n,n+p^c)$ such that $ab\equiv
 1\pmod{p}$?
 
-**Status.** Open. The site's remark (page last edited 27 December 2025) credits
-Heilbronn, unpublished, with the case of $c$ sufficiently close to $1$ and
+**Status.** Open. The standing in the frontmatter derives from the claim pages.
+The site's remark (page last edited 27 December 2025) credits Heilbronn,
+unpublished, with the case of $c$ sufficiently close to $1$. It credits
 Heath-Brown with every $c>3/4$. The range $c>3/4$ is recorded as an accepted
 partial claim on the
-[[problems/diophantine_problems/E0445/claims/2012_04_28_browning_haynes|Browning and Haynes claim page]],
-whose refereed two-interval criterion states the bound that the site and
-Browning and Haynes credit to Heath-Brown. The standing in the frontmatter
-derives from the claim pages.
+[[problems/diophantine_problems/E0445/claims/2012_04_28_browning_haynes|Browning and Haynes claim page]].
+Browning and Haynes's refereed two-interval criterion states the bound that the
+site and Browning and Haynes credit to Heath-Brown.
 
 **Source.** [erdosproblems.com/445](https://www.erdosproblems.com/445), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #445,

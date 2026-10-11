@@ -2,9 +2,8 @@
 name: problems/arithmetic_functions/E1060
 title: Problem 1060
 desc: |
-  Bounds the number f(n) of integers k with k times the sum of divisors of k
-  equal to n, asking whether f(n) is at most n to a power o(1/log log n),
-  perhaps even a power of log n.
+  Asks whether the number $f(n)$ of solutions $k$ of $k\sigma(k)=n$ satisfies
+  $f(n)\le n^{o(1/\log\log n)}$, or perhaps even $f(n)\le(\log n)^{O(1)}$; open.
 tags:
 - Number theory
 status: open

@@ -2,8 +2,8 @@
 name: problems/irrationality/E0069
 title: Problem 69
 desc: |
-  Asks whether the sum over n of the number of distinct prime factors of n
-  divided by two to the power n is irrational.
+  Asks whether $\sum_{n\ge2}\omega(n)/2^n$ is irrational, where $\omega(n)$ is
+  the number of distinct prime factors of $n$; answered yes.
 tags:
 - Number theory
 - Irrationality
@@ -30,13 +30,12 @@ $$
 irrational? (Here $\omega(n)$ counts the number of distinct prime divisors of
 $n$.)
 
-**Status.** Proved. Tao and Teräväinen [TaTe25] prove unconditionally that
-the series, which equals $\sum_p 1/(2^p-1)$ and is thus the case of Problem
-257 with the primes as the infinite set, is irrational; Pratt [Pr24] had
-proved it under a uniform quantitative prime tuples conjecture. The accepted
-claim is
-[[problems/irrationality/E0069/claims/2025_12_01_tao_teravainen|Tao and Teräväinen]];
-the conditional result is
+**Status.** Proved. Tao and Teräväinen [TaTe25] prove unconditionally that the
+series is irrational. The series equals $\sum_p 1/(2^p-1)$, so it is the case of
+Problem 257 with the primes as the infinite set. Pratt [Pr24] had proved it
+under a uniform quantitative prime tuples conjecture. The accepted claim is
+[[problems/irrationality/E0069/claims/2025_12_01_tao_teravainen|Tao and Teräväinen]],
+and the conditional result is
 [[problems/irrationality/E0069/claims/2024_09_23_pratt|Pratt]].
 
 **Source.** [erdosproblems.com/69](https://www.erdosproblems.com/69), accessed

@@ -2,8 +2,9 @@
 name: problems/unit_fractions/E0320
 title: Problem 320
 desc: |
-  Estimates how many distinct values arise as sums of reciprocals of subsets
-  of the integers one through N.
+  Asks to estimate the number $S(N)$ of distinct sums $\sum_{n\in A}1/n$ over
+  $A\subseteq\{1,\ldots,N\}$; answered for the order of magnitude of
+  $\log S(N)$.
 tags:
 - Number theory
 - Unit fractions
@@ -41,37 +42,38 @@ writes its product to $k$ but names the index $t$ in the condition
 $\log_kN=O(1)$ that follows it; the two letters mean the same index, the
 depth at which the iterated logarithm becomes bounded.
 
-**Status.** Solved, in the site's label, which the site glosses as a
-resolution other than a proof or disproof, for the order of magnitude
+**Status.** Solved, in the site's label, which the site glosses as a resolution
+other than a proof or disproof, for the order of magnitude
 
 $$
 \log S(N)\ \asymp\ \frac{N}{\log N}\prod_{j=3}^{k}\log_jN,\qquad \log_kN=O(1).
 $$
 
-The lower bound of this order is refereed: Bettin, Grenié, Molteni and Sanna's
-Theorem 1 (Math. Comp., online 22 January 2026), on
+The standing derives from five claim pages: three for refereed bounds and two
+for forum claims, all linked below. The lower bound of this order is refereed.
+It is Bettin, Grenié, Molteni and Sanna's Theorem 1 (Math. Comp., online 22
+January 2026), on
 [[problems/unit_fractions/E0320/claims/2025_09_12_bettin_grenie_molteni_sanna|its claim page]].
 The earlier lower bounds of Bleicher and Erdős (Math. Comp. 1975; Illinois J.
-Math. 1976) hold only for $\log_kN\ge k$ and $\log_{2r}N\ge1$ respectively,
-and fall short of this order by an unbounded factor; the 1975 bound is on
+Math. 1976) hold only for $\log_kN\ge k$ and $\log_{2r}N\ge1$ respectively. They
+fall short of this order by an unbounded factor. The 1975 bound is on
 [[problems/unit_fractions/E0320/claims/1975_01_01_bleicher_erdos|its claim page]].
 The refereed upper bound (Bleicher and Erdős 1976, Theorem 3, on
 [[problems/unit_fractions/E0320/claims/1976_12_01_bleicher_erdos|its claim page]])
-is weaker by the factor $\log_rN$. The upper bound of the same order is a
-proof obtained with the AI system GPT 5.6 Sol Pro, submitted to the site's
-proof-claim tab on 15 July 2026 by Young, Zhu and Luo and accepted by the site
-as correct, with the site maintainer's exposition of 1 September 2026; its
-manuscript sits behind an Overleaf read link that served no document to a
-request on 2026-09-18, its Lean file covers finite combinatorial steps only,
-and no refereed publication or independent review of it was found on
-2026-09-18. A second claim (Kominers and Neu, 22 July 2026) asserts a full
-asymptotic with a non-constant phase and has not been accepted. The two forum
-claims have their pages,
+is weaker by the factor $\log_rN$.
+
+The upper bound of the same order is a proof obtained with the AI system GPT 5.6
+Sol Pro. Young, Zhu and Luo submitted it to the site's proof-claim tab on 15
+July 2026, and the site accepted it as correct. The site maintainer's exposition
+of it is dated 1 September 2026. Its manuscript sits behind an Overleaf read
+link that served no document to a request on 2026-09-18. Its Lean file covers
+finite combinatorial steps only. No refereed publication or independent review
+of it was found on 2026-09-18. A second claim (Kominers and Neu, 22 July 2026)
+asserts a full asymptotic with a non-constant phase and has not been accepted.
+The two forum claims have their own pages:
 [[problems/unit_fractions/E0320/claims/2026_07_15_young_zhu_luo|the accepted order of magnitude]]
 and
-[[problems/unit_fractions/E0320/claims/2026_07_22_kominers_neu|the pending asymptotic]];
-with the three refereed bounds linked above, the standing derives from the
-five pages.
+[[problems/unit_fractions/E0320/claims/2026_07_22_kominers_neu|the pending asymptotic]].
 
 **Source.** [erdosproblems.com/320](https://www.erdosproblems.com/320),
 accessed 2026-09-18: the problem page (SOLVED; source key [ErGr80, p.43]; an

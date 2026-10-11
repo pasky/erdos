@@ -2,8 +2,8 @@
 name: problems/distance_problems/E0089
 title: Problem 89
 desc: |
-  Asks whether n distinct points in the plane always determine at least about
-  n divided by the square root of the logarithm of n distinct distances.
+  Asks whether every set of $n$ distinct points in the plane determines
+  $\gg n/\sqrt{\log n}$ distinct distances. It is open.
 tags:
 - Geometry
 - Distances
@@ -23,7 +23,7 @@ updated: 2026-10-08T14:17:37Z
 $\gg n/\sqrt{\log n}$ many distinct distances?
 
 **Status.** Open. The site's export of 2026-09-04 labels the problem "OPEN"
-(page last edited 23 January 2026), and the site lists no proof claim for it.
+(page last edited 23 January 2026). The site lists no proof claim for it.
 
 **Source.** [erdosproblems.com/89](https://www.erdosproblems.com/89), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #89,

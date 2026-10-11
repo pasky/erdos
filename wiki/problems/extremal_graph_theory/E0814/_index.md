@@ -3,8 +3,8 @@ name: problems/extremal_graph_theory/E0814
 title: Problem 814
 desc: |
   Asks whether a graph with one edge more than the count forcing a subgraph of
-  minimum degree k has such an induced subgraph on a constant fraction fewer
-  vertices; proved by Sauermann for k at least 3, with k = 2 elementary.
+  minimum degree $k$ has such an induced subgraph on at most $(1-c_k)n$
+  vertices. Proved by Sauermann for $k\ge3$; the case $k=2$ is elementary.
 tags:
 - Graph theory
 status: solved
@@ -58,28 +58,28 @@ Faudree, Gyárfás and Schelp (the paper behind Problem 815), not [Er91]; [Sa19]
 $k=3$", its [2] being [EFRS90], and adds that Erdős listed the $k=3$ case
 among his favorite problems in [Er93].
 
-**Status.** Proved: the site labels the problem PROVED. The status-defining
-source is
+**Status.** Proved. The site labels the problem PROVED. The result and its
+acceptance evidence are recorded on the claim page
+[[problems/extremal_graph_theory/E0814/claims/2017_05_28_sauermann|Sauermann's proof]],
+from which the frontmatter is derived. The status-defining source is
 [[../library/extremal_graph_theory/sauermann_2019_rousseau_schelp_subgraphs_minimum_degree/theorem_1_3|Theorem 1.3 of Sauermann]]
-(J. Combin. Theory Ser. B 134 (2019), 36--75; refereed; cited from arXiv v2):
-for $k\ge2$ and every integer $1\le t\le\frac{(k-2)(k+1)}2-1$, every graph on
-$n\ge k-1$ vertices with at least $(k-1)n-t$ edges contains a subgraph on at
-most $\bigl(1-\frac1{\max(10^4k^2,100kt)}\bigr)n$ vertices with minimum degree
-at least $k$. With $t=\frac{(k-2)(k+1)}2-1$ the edge count is
-$(k-1)n-t=t_k(n)+1$, so the answer is yes with
+(J. Combin. Theory Ser. B 134 (2019), 36--75; refereed; cited from arXiv v2).
+For $k\ge2$ and every integer $1\le t\le\frac{(k-2)(k+1)}2-1$, it shows that
+every graph on $n\ge k-1$ vertices with at least $(k-1)n-t$ edges contains a
+subgraph on at most $\bigl(1-\frac1{\max(10^4k^2,100kt)}\bigr)n$ vertices with
+minimum degree at least $k$. With $t=\frac{(k-2)(k+1)}2-1$ the edge count is
+$(k-1)n-t=t_k(n)+1$. So the answer is yes with
 $c_k=\varepsilon_k=1/\max\bigl(10^4k^2,100k(\tfrac{(k-2)(k+1)}2-1)\bigr)>1/(10^4k^3)$,
 the bound the site records as $c_k\gg1/k^3$. The range of $t$ is empty for
-$k=2$, so the theorem as printed covers $k\ge3$; the case $k=2$ is elementary
-and is checked on this page with $c_2=1/5$. Earlier bounds: $n-\lfloor\sqrt
-n/\sqrt{6k^3}\rfloor$ vertices
+$k=2$, so the theorem as printed covers $k\ge3$. The case $k=2$ is elementary
+and is checked on this page with $c_2=1/5$. The earlier bounds were
+$n-\lfloor\sqrt n/\sqrt{6k^3}\rfloor$ vertices
 ([[../library/extremal_graph_theory/erdos_1990_subgraphs_minimal_degree_k/theorem_1|Theorem 1]]
 of [EFRS90], p. 53) and $n-n/(8(k+1)^5\log_2n)$
 ([[../library/extremal_graph_theory/mousset_2017_smaller_subgraphs_minimum_degree/theorem_1_3|Theorem 1.3]]
-of [MNS17], refereed: the journal version, Electron. J. Combin. 24 (2017),
-Paper 4.9, p. 2, after a revised proof; arXiv v1 prints $4$ for $8$). The
-result and its acceptance evidence are recorded on the claim page
-[[problems/extremal_graph_theory/E0814/claims/2017_05_28_sauermann|Sauermann's proof]],
-from which the frontmatter is derived.
+of [MNS17], refereed). The second is from the journal version, Electron. J.
+Combin. 24 (2017), Paper 4.9, p. 2, after a revised proof. arXiv v1 prints $4$
+for $8$.
 
 **Source.** [erdosproblems.com/814](https://www.erdosproblems.com/814),
 accessed 2026-09-18: the problem page (PROVED, with the site's note that it is

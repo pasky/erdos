@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E0373
 title: Problem 373
 desc: |
-  Asks whether a factorial can equal a product of two or more smaller
-  factorials, each at least two, only finitely often.
+  Asks whether $n!=a_1!a_2!\cdots a_k!$ with
+  $n-1>a_1\ge a_2\ge\cdots\ge a_k\ge2$ has only finitely many solutions; open.
 tags:
 - Number theory
 - Factorials
@@ -30,13 +30,13 @@ $$
 with $n-1>a_1\geq a_2\geq \cdots \geq a_k\geq 2$, has only finitely many
 solutions.
 
-**Status.** Open, the site's label (OPEN, which the site explains as open and
-not resolvable by a finite computation; page last edited 29 January 2026,
-accessed 2026-10-07). No claim settles the question. The one claim page,
-Luca's finiteness under the abc conjecture
-([[problems/factorials_binomials/E0373/claims/2007_11_01_luca|claim page]]),
-is conditional and settles no standing; the Current assessment records the
-other conditional reduction and the unconditional results.
+**Status.** Open. This is the site's label, OPEN, which the site explains as
+open and not resolvable by a finite computation (page last edited 29 January
+2026, accessed 2026-10-07). No claim settles the question. The one claim page
+records Luca's finiteness result under the abc conjecture
+([[problems/factorials_binomials/E0373/claims/2007_11_01_luca|claim page]]). It
+is conditional and settles no standing. The Current assessment records the other
+conditional reduction and the unconditional results.
 
 **Source.** [erdosproblems.com/373](https://www.erdosproblems.com/373), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #373,

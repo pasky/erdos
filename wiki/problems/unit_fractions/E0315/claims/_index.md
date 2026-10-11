@@ -4,24 +4,25 @@ desc: The 3 claim pages of Problem 315, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:47:56Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/unit_fractions/E0315/claims
 
 [[problems/unit_fractions/E0315/_index|..]]
 
-[[problems/unit_fractions/E0315/claims/2025_03_04_kamio|2025_03_04_kamio]]: Kamio's Theorem 8: for every unit fraction, any nondecreasing integer
-sequence other than the generalized Sylvester sequence with that reciprocal
-sum has a smaller doubly exponential growth constant; credited by the site.
+[[problems/unit_fractions/E0315/claims/2025_03_04_kamio|2025_03_04_kamio]]: Kamio's Theorem 8: for every unit fraction $1/n$, every nondecreasing integer
+sequence with reciprocal sum $1/n$, other than the generalized Sylvester
+sequence, has a smaller doubly exponential growth constant. It is credited by
+the site.
 
 [[problems/unit_fractions/E0315/claims/2025_03_15_li_tang|2025_03_15_li_tang]]: Li and Tang's Corollary 1.7: every strictly increasing integer sequence
-other than Sylvester's with reciprocal sum one has liminf of the nth term to
-the power one over two to the n below the Vardi constant; site-credited.
+$(a_n)$ other than Sylvester's with $\sum1/a_n=1$ has $\liminf a_n^{1/2^n}$
+below the Vardi constant. It is credited by the site.
 
-[[problems/unit_fractions/E0315/claims/2026_07_30_kovac_tang|2026_07_30_kovac_tang]]: Kovač and Tang's Corollary 3 and Theorem 4: for every positive rational the
-eventually greedy sequence of best underapproximations has the largest
-doubly exponential growth among series with denominators at least 2; at
-one this re-derives the statement.
+[[problems/unit_fractions/E0315/claims/2026_07_30_kovac_tang|2026_07_30_kovac_tang]]: Kovač and Tang's Corollary 3 and Theorem 4: for every rational $\lambda>0$,
+the eventually greedy sequence of best underapproximations has the largest
+doubly exponential growth among series with denominators at least $2$. The
+claim re-derives the statement at $\lambda=1$.
 
 ***

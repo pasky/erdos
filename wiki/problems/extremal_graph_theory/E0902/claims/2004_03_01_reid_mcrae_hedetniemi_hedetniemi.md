@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0902/claims/2004_03_01_reid_mcrae_hedetniemi_hedetniemi
 title: f(4) >= 48 and a proof of f(3) = 19 through domination numbers
 desc: |
-  Reid, McRae, Hedetniemi and Hedetniemi (Australas. J. Combin. 2004) show
-  that a tournament of domination number at least 5 has at least 48
-  vertices, so f(4) >= 48, and prove f(3) = 19; refereed.
+  Reid, McRae, Hedetniemi and Hedetniemi (Australas. J. Combin. 2004, refereed)
+  show that a tournament with domination number at least $5$ has at least $48$
+  vertices, so $f(4)\ge48$. They also prove $f(3)=19$.
 authors:
 - K. B. Reid
 - A. A. McRae
@@ -56,8 +56,8 @@ magnitude, which the problem asks to estimate.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed: published in the Australasian Journal of
-Combinatorics, cited with its venue above; the paper thanks its referees. The
-site does not cite the paper; the OEIS entry A362137, which the site links,
+Combinatorics, cited with its venue above. The paper thanks its referees. The
+site does not cite the paper, but the OEIS entry A362137, which the site links,
 does. No `reviewed` evidence exists.
 
 **Formalization.** The file `Erdos902Reid.lean` of the repository

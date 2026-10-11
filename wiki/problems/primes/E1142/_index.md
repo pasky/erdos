@@ -2,8 +2,8 @@
 name: problems/primes/E1142
 title: Problem 1142
 desc: |
-  Asks whether infinitely many n, or any n above one hundred and five, make n
-  minus every power of two greater than one and less than n prime.
+  Asks whether infinitely many $n$, or any $n>105$, have $n-2^k$ prime for every
+  $k$ with $1<2^k<n$; open.
 tags:
 - Number theory
 - Primes

@@ -2,9 +2,10 @@
 name: problems/set_theory/E0118/claims/1999_01_01_schipperus
 title: Schipperus's partition ordinal that fails for six
 desc: |
-  Schipperus (thesis 1999, Ann. Pure Appl. Logic 2010) proved that the
-  ordinal omega^(omega^2) satisfies the arrow relation for a triangle but not
-  for a complete graph on six vertices, answering the question no.
+  Schipperus (thesis 1999, Ann. Pure Appl. Logic 2010) proved
+  $\omega^{\omega^2}\to(\omega^{\omega^2},3)^2$ but
+  $\omega^{\omega^2}\not\to(\omega^{\omega^2},6)^2$, so the answer to the
+  question is no.
 authors:
 - Rene Schipperus
 status: accepted
@@ -85,8 +86,8 @@ credits as the result's first appearance; the thesis carries no day, so
 this page is dated by the first day of its year, and the labels used here
 are the journal version's.
 
-**Acceptance.** Refereed: the result is a journal paper in Annals of Pure
-and Applied Logic, communicated by T. Jech. Reviewed: the curator of
-erdosproblems.com, T. F. Bloom, marks Problem 118 disproved and credits
+**Acceptance.** Refereed: the result is a journal paper in Annals of Pure and
+Applied Logic, communicated by T. Jech. Reviewed: the curator of
+erdosproblems.com, T. F. Bloom, marks Problem 118 disproved. Bloom credits
 Schipperus's thesis and its published version, together with Darby, as the
 independent disproofs (problem page last edited 17 January 2026).

@@ -2,9 +2,8 @@
 name: problems/extremal_graph_theory/E0714
 title: Problem 714
 desc: |
-  Asks whether the largest graph on n vertices with no complete bipartite
-  subgraph with r vertices per side has roughly n to the power 2 minus one
-  over r edges.
+  Asks whether the maximum number of edges in a $K_{r,r}$-free graph on $n$
+  vertices is $\gg n^{2-1/r}$; open.
 tags:
 - Graph theory
 - Turán numbers
@@ -41,23 +40,24 @@ appears in Erdős's own words in [Er81] ("Is it true that
 $f(n;K(r,r))>cn^{2-1/r}$?", display (3)) and, in matrix form, already in
 [KST54] (inequality (6.1)).
 
-**Status.** Open. The site labels the problem OPEN. The answer is yes for
-$r=2$ (Kővári, Sós and Turán 1954; Erdős, Rényi and Sós 1966; Brown 1966)
-and for $r=3$ (Brown 1966), recorded as accepted partial claims on the pages
+**Status.** Open. The site labels the problem OPEN. No full claim is recorded,
+and the frontmatter standing derives from the partial claims. The answer is yes
+for $r=2$ (Kővári, Sós and Turán 1954; Erdős, Rényi and Sós 1966; Brown 1966)
+and for $r=3$ (Brown 1966). These results are recorded as accepted partial
+claims on the pages
 [[problems/extremal_graph_theory/E0714/claims/1954_01_01_kovari_sos_turan|Kővári, Sós and Turán]],
 [[problems/extremal_graph_theory/E0714/claims/1966_02_01_erdos_renyi_sos|Erdős, Rényi and Sós]]
-and [[problems/extremal_graph_theory/E0714/claims/1966_08_01_brown|Brown]].
-For every $r\ge4$ no proof or disproof was found in the search whose scope the Current assessment records: for the smallest
-open case $K_{4,4}$ the best lower bound located is $(\tfrac12-o(1))n^{5/3}$,
-which Brown's $K_{3,3}$-free graphs give by monotonicity; for $K_{5,5}$ it is
-Ball and Pepe's $n^{7/4}$ (2012), which monotonicity passes to every
-$K_{r,r}$ with $r\ge5$; the best lower bound valid uniformly in $r$ is the
-probabilistic $n^{2-2/(r+1)}$; and the exponent $2-1/r$ is known to be
-attained only for unbalanced $K_{r,s}$, with $s\ge(r-1)!+1$ (Kollár, Rónyai
-and Szabó 1996; Alon, Rónyai and Szabó 1999) and with $s\ge C^r$ for an
-absolute constant $C$ (Bukh 2024). This is a bounded negative finding, not a
-certificate of openness; no full claim is recorded, and the frontmatter
-standing derives from the partial claims.
+and [[problems/extremal_graph_theory/E0714/claims/1966_08_01_brown|Brown]]. For
+every $r\ge4$, no proof or disproof was found in the search whose scope the
+Current assessment records. This is a bounded negative finding, not a
+certificate of openness. For the smallest open case $K_{4,4}$, the best lower
+bound located is $(\tfrac12-o(1))n^{5/3}$, which Brown's $K_{3,3}$-free graphs
+give by monotonicity. For $K_{5,5}$ it is Ball and Pepe's $n^{7/4}$ (2012),
+which monotonicity passes to every $K_{r,r}$ with $r\ge5$. The best lower bound
+valid uniformly in $r$ is the probabilistic $n^{2-2/(r+1)}$. The exponent
+$2-1/r$ is known to be attained only for unbalanced $K_{r,s}$: with
+$s\ge(r-1)!+1$ (Kollár, Rónyai and Szabó 1996; Alon, Rónyai and Szabó 1999) and
+with $s\ge C^r$ for an absolute constant $C$ (Bukh 2024).
 
 **Source.** [erdosproblems.com/714](https://www.erdosproblems.com/714),
 accessed 2026-09-17: the problem page (OPEN;

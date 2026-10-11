@@ -3,8 +3,9 @@ name: problems/set_systems/E1178/claims/1986_12_01_erdos_frankl_rodl
 title: Erdős, Frankl and Rödl settle the three-edge case
 desc: |
   Theorem 1.7 of Erdős, Frankl and Rödl (Graphs Combin. 1986) proves
-  g_n(3r-3,3,r) = o(n^2) for every r >= 3, so with the Brown-Erdős-Sós lower
-  bound d_r(3) = 3r-3; accepted on the refereed publication.
+  $g_n(3r-3,3,r)=o(n^2)$ for every $r\ge3$. With the Brown–Erdős–Sós lower bound
+  this gives $d_r(3)=3r-3$, and the claim is accepted on the refereed
+  publication.
 authors:
 - P. Erdős
 - P. Frankl
@@ -55,11 +56,11 @@ theorem gives $d_r(3)=3r-3$, the conjectured value. Nothing for $e\ge4$.
 [[../library/extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_section_4|The Brown–Erdős–Sós lower bound]],
 which supplies the matching lower half $d_r(3)\ge3r-3$.
 
-**Acceptance.** Refereed publication in Graphs and Combinatorics (the
-publisher's record: volume 2, issue 1, pp. 113--121, issued December 1986
-with no day recorded; this page is dated the issue's first day). The site
+**Acceptance.** Refereed publication in Graphs and Combinatorics. The
+publisher's record gives volume 2, issue 1, pp. 113--121, issued December 1986
+with no day recorded, so this page is dated the issue's first day. The site
 labels the problem OPEN, so its commentary crediting the theorem with
-$d_r(3)=3r-3$ is not listed as `reviewed` evidence. The text cited is the
-scan in the Rényi Institute's Erdős archive,
+$d_r(3)=3r-3$ is not listed as `reviewed` evidence. The text cited is the scan
+in the Rényi Institute's Erdős archive,
 https://users.renyi.hu/~p_erdos/1986-17.pdf. This claim is partial, so the
 problem stays open.

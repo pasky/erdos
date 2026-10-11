@@ -65,18 +65,19 @@ records the read depth.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Refereed publication: J. Lond. Math. Soc. (2) 110 (2024),
-no. 5, Paper No. e12987, 24 pp., doi:10.1112/jlms.12987, published online
-2024-10-10 (Crossref record of 2026-10-07). The preprint arXiv:2311.08556
-was posted on 2023-11-14, the date of this page. Reviewed: the site's
-curator, Thomas Bloom, labels the problem disproved and credits the
-negative answer to Reiher, Rödl and Sales [RRS24] (page last edited
-2026-01-27; on 2026-10-07 the proof-claim tab is empty). The site's
-thread records how the label came about: a comment of 2026-01-19 reported
-a response of GPT 5.2 Pro identifying the paper as a negative solution, a
-second comment of the same day (Nat Sothanaphan) confirmed that Theorem 1.4
-with $k=3$ gives the counterexample, and a comment of 2026-02-16 noted the
-paper's range $\mu<\tfrac23$ and why no larger $\mu$ is possible.
+**Acceptance.** Refereed publication: J. Lond. Math. Soc. (2) 110 (2024), no. 5,
+Paper No. e12987, 24 pp., doi:10.1112/jlms.12987, published online 2024-10-10
+(Crossref record of 2026-10-07). The preprint arXiv:2311.08556 was posted on
+2023-11-14, the date of this page.
+
+Reviewed: the site's curator, Thomas Bloom, labels the problem disproved and
+credits the negative answer to Reiher, Rödl and Sales [RRS24] (page last edited
+2026-01-27; on 2026-10-07 the proof-claim tab is empty). The site's thread
+records how the label came about. A comment of 2026-01-19 reported a response of
+GPT 5.2 Pro that identified the paper as a negative solution. A second comment
+of the same day (Nat Sothanaphan) confirmed that Theorem 1.4 with $k=3$ gives
+the counterexample. A comment of 2026-02-16 noted the paper's range
+$\mu<\tfrac23$ and why no larger $\mu$ is possible.
 
 **Formalization.** Not counted as evidence: Boris Alexeev's lean-proofs
 repository added on 2026-08-16 a Lean 4 development for the problem (the file's

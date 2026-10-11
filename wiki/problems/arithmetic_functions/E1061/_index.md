@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E1061
 title: Problem 1061
 desc: |
-  Counts pairs with the sum of divisors of a plus that of b equal to that of a
-  plus b and a plus b at most x, and asks whether the count is proportional to
-  x; Li's June 2026 preprint claims it exceeds x times any log power, pending.
+  Asks whether the number of solutions of $\sigma(a)+\sigma(b)=\sigma(a+b)$ with
+  $a+b\le x$ is $\sim cx$ for some constant $c>0$. Li's preprint of June 2026
+  claims it exceeds $x(\log x)^R$ for every fixed $R>0$, and the claim is
+  pending.
 tags:
 - Number theory
 status: claimed
@@ -52,13 +53,12 @@ for every $R>0$ answers the precise Statement in the higher-order direction,
 and the answer to whether the count is $\sim cx$ is no. Such a bound does not
 determine the order of growth, which remains open.
 
-**Status.** Open. Li's preprint of June 2026 (arXiv:2606.25849, written with
-GPT-5.5 Pro) claims that the number of solutions with $a+b\le x$ exceeds
-$x(\log x)^{R}$ for every fixed $R>0$, so that no asymptotic $cx$ holds; the
-author posted it as a full proof claim on the site's proof-claims tab on
-2026-07-26. The site labels the problem OPEN; no outside review is known, and
-the claim is pending on
-[[problems/arithmetic_functions/E1061/claims/2026_06_24_li|Li 2026]]
+**Status.** Open. The site labels the problem OPEN. Li's preprint of June 2026
+(arXiv:2606.25849, written with GPT-5.5 Pro) claims that the number of solutions
+with $a+b\le x$ exceeds $x(\log x)^{R}$ for every fixed $R>0$, so that no
+asymptotic $cx$ holds. The author posted it as a full proof claim on the site's
+proof-claims tab on 2026-07-26. No outside review is known, and the claim is
+pending on [[problems/arithmetic_functions/E1061/claims/2026_06_24_li|Li 2026]]
 (proof-claims thread accessed 2026-10-06).
 
 **Source.** [erdosproblems.com/1061](https://www.erdosproblems.com/1061),

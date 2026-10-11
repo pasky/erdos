@@ -2,8 +2,8 @@
 name: problems/additive_combinatorics/E0197
 title: Problem 197
 desc: |
-  Asks whether the positive integers split into two sets, each of which can be
-  permuted to avoid monotone three-term arithmetic progressions.
+  Asks whether the positive integers can be split into two sets, each of which
+  can be permuted to avoid monotone three-term arithmetic progressions; open.
 tags:
 - Arithmetic progressions
 status: open

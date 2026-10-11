@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E1102
 title: Problem 1102
 desc: |
-  Asks how fast a sequence must increase if, for every n, only finitely many
-  members a make n+a squarefree (property P), or if for infinitely many n
-  every member a<n makes n+a squarefree (property Q).
+  Asks how fast a sequence $A$ must increase if, for every $n$, only finitely
+  many $a\in A$ make $n+a$ squarefree (property $P$), or if, for infinitely many
+  $n$, every $a\in A$ with $a<n$ makes $n+a$ squarefree (property $Q$); solved.
 tags:
 - Number theory
 status: solved
@@ -57,25 +57,27 @@ $Q$ as "$n+a$ squarefree for all $a\in A$ with $a<n$". The defect is the site's:
 Erdős's text carries the membership in the subscript of $a_i$. No result about
 the site's wording is recorded.
 
-**Status.** Labeled SOLVED (LEAN) on the site. The standing is `solved`,
-derived from the accepted full claim of van Doorn and Tao [vDTa25], published
-in Acta Arithmetica in 2026, on
+**Status.** Labeled SOLVED (LEAN) on the site. The standing is `solved`, derived
+from the accepted full claim of van Doorn and Tao [vDTa25], published in Acta
+Arithmetica in 2026, on
 [[problems/integer_sequences/E1102/claims/2025_11_30_van_doorn_tao|its claim page]].
-The paper answers the corrected Statement: a sequence with property $P$ must
-have natural density zero, and nothing more, since the density may tend to zero
-arbitrarily slowly; a sequence with property $Q$ has upper density at most
-$6/\pi^2$, and a squarefree sequence with property $Q$ and density exactly
-$6/\pi^2$ exists; an admissible sequence (one avoiding a residue class modulo
-$p^2$ for every prime $p$) with $a_j\ge\exp(Cj/\log j)$ for infinitely many $j$
-has property $Q$, so $2^n\pm1$ and $n!\pm1$ do, while fast growth alone does
-not suffice. The site's curator, Thomas Bloom, credits the paper with the
-result, the reviewed evidence recorded on the claim page. The site's (LEAN)
-qualifier refers to the first author's Lean files of 23 February 2026, produced
-by Aristotle, Harmonic's prover, two of which the formal-conjectures catalog
-registers; this corpus has not built them. Whether $2^n\pm1$ or $n!\pm1$ has
-property $P$, a side question of the site's commentary, remains unanswered. The
-commentary (last edited 2 December 2025) and the thread were accessed
-2026-10-07.
+The site's curator, Thomas Bloom, credits the paper with the result. This is the
+reviewed evidence recorded on the claim page.
+
+The paper answers the corrected Statement. A sequence with property $P$ must
+have natural density zero, and nothing stronger holds, since the density may
+tend to zero arbitrarily slowly. A sequence with property $Q$ has upper density
+at most $6/\pi^2$, and a squarefree sequence with property $Q$ and density
+exactly $6/\pi^2$ exists. An admissible sequence (one avoiding a residue class
+modulo $p^2$ for every prime $p$) with $a_j\ge\exp(Cj/\log j)$ for infinitely
+many $j$ has property $Q$. So $2^n\pm1$ and $n!\pm1$ have property $Q$, while
+fast growth alone does not suffice. Whether $2^n\pm1$ or $n!\pm1$ has property
+$P$, a side question of the site's commentary, remains unanswered.
+
+The site's (LEAN) qualifier refers to the first author's Lean files of 23
+February 2026, produced by Aristotle, Harmonic's prover. The formal-conjectures
+catalog registers two of them. This corpus has not built them. The commentary
+(last edited 2 December 2025) and the thread were accessed 2026-10-07.
 
 **Source.** [erdosproblems.com/1102](https://www.erdosproblems.com/1102),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1102,

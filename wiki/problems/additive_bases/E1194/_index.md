@@ -2,9 +2,9 @@
 name: problems/additive_bases/E1194
 title: Problem 1194
 desc: |
-  For a set in which every positive integer n is uniquely a difference
-  a_n - b_n of two members, asks how fast a_n/n must grow, where a_n is the
-  larger member of the representation of n.
+  Asks how fast $a_n/n$ must grow when $A\subset\mathbb{N}$ is a set in which
+  every integer $n\ge1$ is uniquely a difference $a_n-b_n$ of two elements of
+  $A$; open.
 tags:
 - Additive combinatorics
 - Additive bases

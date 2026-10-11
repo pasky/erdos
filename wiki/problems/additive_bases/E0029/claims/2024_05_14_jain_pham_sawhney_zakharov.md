@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0029/claims/2024_05_14_jain_pham_sawhney_zakharov
 title: An explicit economical additive basis
 desc: |
-  Jain, Pham, Sawhney and Zakharov give an explicit set A with A+A the natural
-  numbers and representation counts at most C n^{c/log log n}, answering the
-  question yes; refereed in Combin. Probab. Comput. (2025); third-party Lean.
+  Jain, Pham, Sawhney and Zakharov give an explicit set $A$ with
+  $A+A=\mathbb{N}$ and representation counts at most $Cn^{c/\log\log n}$,
+  answering the question yes. The paper is refereed in Combin. Probab. Comput.
+  (2025), and a third-party Lean formalization exists.
 authors:
 - Vishesh Jain
 - Huy Tuan Pham
@@ -61,9 +62,9 @@ polynomial-time membership, the sense the authors adopt.
 
 **Acceptance.** The `refereed` evidence is the journal publication cited above.
 The `reviewed` evidence is the documented acceptance by the catalog
-erdosproblems.com, whose page for the problem (last edited 28 December 2025,
-the `discussion` link) carries the label PROVED (LEAN) and its curator, Thomas Bloom,
-credits these authors with the explicit construction. The
+erdosproblems.com. Its page for the problem (last edited 28 December 2025, the
+`discussion` link) carries the label PROVED (LEAN), and its curator, Thomas
+Bloom, credits these authors with the explicit construction. The
 formal-conjectures catalog tags its statement `erdos_29` as `research solved`
 with `answer(True)` and links the Lean proof below.
 

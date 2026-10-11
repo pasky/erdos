@@ -2,9 +2,8 @@
 name: problems/additive_bases/E0035
 title: Problem 35
 desc: |
-  Asks whether adding an additive basis of order k to a set of Schnirelmann
-  density alpha raises the density by at least alpha times one minus alpha
-  over k.
+  Asks whether adding an additive basis of order $k$ to a set of Schnirelmann
+  density $\alpha$ raises the density by at least $\alpha(1-\alpha)/k$; proved.
 tags:
 - Number theory
 - Additive bases
@@ -37,11 +36,11 @@ $$
 
 is the Schnirelmann density?
 
-**Status.** Proved by Plünnecke's density bound below, recorded on
+**Status.** The site labels the problem PROVED (LEAN). It is proved by
+Plünnecke's density bound below, recorded on
 [[problems/additive_bases/E0035/claims/1970_07_01_plunnecke|its claim page]].
-The site labels the problem PROVED (LEAN); the Lean proof behind the label is
-linked from that claim page, carries no formal-verification credit in this
-corpus, and is qualified below.
+The Lean proof behind the label is linked from that claim page and is qualified
+below. It carries no formal-verification credit in this corpus.
 
 **Source.** [erdosproblems.com/35](https://www.erdosproblems.com/35), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #35,

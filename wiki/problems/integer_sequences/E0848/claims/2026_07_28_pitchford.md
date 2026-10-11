@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0848/claims/2026_07_28_pitchford
 title: Pitchford's certificate-backed determination of the maximum for every N
 desc: |
-  A candidate computer-assisted proof published on Zenodo on 28 July 2026 by
-  Ian Pitchford, with OpenAI Codex as its reported author: the maximum is
-  floor((N+18)/25) for every N, by certificates and envelopes up to 2.64e17.
+  Ian Pitchford published a candidate computer-assisted proof on Zenodo on 28
+  July 2026, with OpenAI Codex as its reported author. It claims the maximum is
+  $\lfloor(N+18)/25\rfloor$ for every $N$, using certificates and envelopes up
+  to $2.64\cdot10^{17}$.
 authors:
 - OpenAI Codex
 status: claimed
@@ -77,17 +78,17 @@ posting found. The result predates the release of
 of 30 July 2026, which reaches the same value by a different route.
 
 **Acceptance.** None on record. The result was not submitted to the site's
-proof-claim tab; it reached the site through a forum comment of 19 August
-2026 on Li's claim (linked above), whose writer reports recomputing the
-envelopes' constants exactly, replaying the per-interval checks with
-ablation controls, and finding the coverage of the ranges gapless, and
-concludes that two independent methods agree on the value. The site's label
-is DECIDABLE for Sawhney's result (page last edited 6 December 2025, before
-this result), and the curator has not acted on it; no referee or named
-expert has examined it, and nothing was downloaded, replayed or audited
-here. A forum comment is neither a named reviewer nor a referee, so no
-evidence is listed. The claim stays `claimed`, and the problem's standing
-is claimed, proved, through this page and Li's agreeing full claim.
+proof-claim tab. It reached the site through a forum comment of 19 August 2026
+on Li's claim (linked above). The comment's writer reports recomputing the
+envelopes' constants exactly, replaying the per-interval checks with ablation
+controls, and finding the coverage of the ranges gapless. The writer concludes
+that two independent methods agree on the value. The site's label is DECIDABLE
+for Sawhney's result (page last edited 6 December 2025, before this result), and
+the curator has not acted on it. No referee or named expert has examined it, and
+nothing was downloaded, replayed or audited here. A forum comment is neither a
+named reviewer nor a referee, so no evidence is listed. The claim stays
+`claimed`, and the problem's standing is claimed, proved, through this page and
+Li's agreeing full claim.
 
 **Depends on.**
 [[problems/integer_sequences/E0848/claims/2026_03_23_sothanaphan|Sothanaphan 2026]]

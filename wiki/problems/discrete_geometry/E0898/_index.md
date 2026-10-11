@@ -3,7 +3,8 @@ name: problems/discrete_geometry/E0898
 title: Problem 898
 desc: |
   Asks whether the sum of distances from an interior point to a triangle's
-  vertices is at least twice the sum of its distances to the three sides.
+  vertices is at least twice the sum of its distances to the three sides;
+  proved.
 tags:
 - Geometry
 status: solved
@@ -29,9 +30,9 @@ $$
 $$
 
 **Status.** PROVED (LEAN). The site credits the proof to Mordell, soon after
-Erdős conjectured the inequality; the claim page
-[[problems/discrete_geometry/E0898/claims/1935_01_01_mordell|Mordell]]
-records the proof, its publications and its acceptance.
+Erdős conjectured the inequality. The claim page
+[[problems/discrete_geometry/E0898/claims/1935_01_01_mordell|Mordell]] records
+the proof, its publications and its acceptance.
 
 **Source.** [erdosproblems.com/898](https://www.erdosproblems.com/898), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #898,

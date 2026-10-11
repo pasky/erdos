@@ -2,8 +2,10 @@
 name: problems/diophantine_problems/E0978
 title: Problem 978
 desc: |
-  Concerns the values of an irreducible integer polynomial with positive
-  leading coefficient whose degree exceeds two and is not a power of two.
+  Asks how often an irreducible $f\in\mathbb{Z}[x]$ with positive leading
+  coefficient and degree $k>2$, not a power of 2, takes $(k-1)$- or
+  $(k-2)$-power-free values, and whether $n^4+2$ is squarefree infinitely often;
+  proved, departing from the site's label OPEN.
 tags:
 - Number theory
 parts:
@@ -53,15 +55,15 @@ question's exponent $k-2$, squarefreeness at $k=4$. The claims recorded below
 for the second and third questions need neither the exclusion nor the sign
 condition on the leading coefficient, so they answer either reading.
 
-**Status.** Proved, departing from the site's label OPEN (page last edited 31
-March 2026; proof-claims tab empty on 2026-10-06). The frontmatter lists the
-three questions as the problem's parts; each is settled by an accepted partial
-claim page,
+**Status.** Proved, departing from the site's label OPEN. The frontmatter
+derives this standing from Hooley's and OpenAI's claim pages together, since
+between them they settle every part. The frontmatter lists the three questions
+as the problem's parts, and each is settled by an accepted partial claim page.
 [[problems/diophantine_problems/E0978/claims/1967_06_01_hooley|Hooley's asymptotic]]
-for the first and
+settles the first question.
 [[problems/diophantine_problems/E0978/claims/2026_09_24_openai|OpenAI's density theorem]]
-for the second and third, and the frontmatter standing is derived from Hooley's
-and OpenAI's pages together, since between them they settle every part.
+settles the second and third. The site's page was last edited on 31 March 2026,
+and its proof-claims tab was empty on 2026-10-06.
 
 **Source.** [erdosproblems.com/978](https://www.erdosproblems.com/978), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #978,

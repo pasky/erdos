@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0411/claims/2025_04_10_steinerberger
 title: Steinerberger's reduction and first-branch solutions for shift two
 desc: |
-  Steinerberger reduces the shift-two case to the equation phi(m) + phi(m +
-  phi(m)) = m, puts every solution into two branches by its odd part, and
-  finds the first branch's solutions, six doubling families; arXiv only.
+  In a preprint posted only on arXiv, Steinerberger reduces the shift-two case
+  to the equation $\phi(m)+\phi(m+\phi(m))=m$ and splits its solutions into two
+  branches by their odd part. He finds the first branch's solutions, which form
+  six doubling families.
 authors:
 - Stefan Steinerberger
 status: claimed

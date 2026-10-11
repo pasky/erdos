@@ -2,9 +2,10 @@
 name: problems/distance_problems/E1083/claims/2026_08_14_tidor_yu_zakharov
 title: Tidor, Yu and Zakharov's distinct-distances bound in three dimensions
 desc: |
-  N points in three-dimensional space determine at least N^(2/3-o(1)) distinct
-  distances, which with Erdős's grid bound gives f_3(n) = n^(2/3-o(1)) and
-  answers the particular question for d = 3; an arXiv preprint.
+  An arXiv preprint by Tidor, Yu and Zakharov claims that $N$ points in
+  three-dimensional space determine at least $N^{2/3-o(1)}$ distinct distances.
+  With Erdős's grid bound this gives $f_3(n)=n^{2/3-o(1)}$ and answers the
+  particular question for $d=3$.
 authors:
 - Jonathan Tidor
 - Hung-Hsun Hans Yu
@@ -50,8 +51,8 @@ $d\ge3$, which would supersede this result.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** None documented. The result is an arXiv preprint with no
-journal publication recorded; a poster reported it on the site's thread on
-17 August 2026 as solving the case $d=3$ of the problem, and the site's page,
-last edited 16 October 2025 and labeled OPEN, does not mention it, so there
-is no curator credit. The claim is claimed.
+**Acceptance.** None documented. The result is an arXiv preprint with no journal
+publication recorded. A poster reported it on the site's thread on 17 August
+2026 as solving the case $d=3$ of the problem. The site's page, last edited 16
+October 2025 and labeled OPEN, does not mention it, so there is no curator
+credit. The claim is claimed.

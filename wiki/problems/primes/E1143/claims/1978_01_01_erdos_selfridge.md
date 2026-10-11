@@ -2,9 +2,10 @@
 name: problems/primes/E1143/claims/1978_01_01_erdos_selfridge
 title: Erdős and Selfridge's exact bound for intervals shorter than three times the largest prime
 desc: |
-  For u = k^2 primes, every interval longer than 2p_u holds at least 2k
-  distinct multiples of them, and for every α < 3 some primes and an interval
-  of length αp_u hold exactly 2k; a proceedings paper, pending acceptance.
+  Erdős's 1978 proceedings paper states that for $u=k^2$ primes, every interval
+  longer than $2p_u$ holds at least $2k$ distinct multiples of them, and for
+  every $\alpha<3$ some primes and an interval of length $\alpha p_u$ hold
+  exactly $2k$. The claim is pending acceptance.
 authors:
 - Paul Erdős
 status: claimed
@@ -77,9 +78,9 @@ and the curator, Thomas Bloom, wrote on 2026-04-29 that the paper of Green
 and Ruzsa on the arithmetic Kakeya conjecture cites the earlier work of
 Erdős and Selfridge, which identifies what [Va99] refers to.
 
-**Acceptance.** None listed. The paper appeared in a proceedings volume with
-no evidence on record that it was refereed, and the site labels the problem
-OPEN, so the curator's commentary is not acceptance of a result on it. This
-corpus has not checked the proof.
+**Acceptance.** None listed. The paper appeared in a proceedings volume, and no
+evidence on record shows that it was refereed. The site labels the problem OPEN,
+so the curator's commentary is not acceptance of a result on it. This corpus has
+not checked the proof.
 
 **Depends on.** No page of this wiki; the result rests on the cited papers.

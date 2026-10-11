@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0569/claims/1994_02_01_goddard_kleitman
 title: Goddard and Kleitman, the triangle case c_1 = 3
 desc: |
-  Goddard and Kleitman's theorem in Discrete Math. 125 (1994) bounds R(K_3, H)
-  by 2m + 1 for every m-edge H without isolated vertices; with the one-edge
-  endpoint R(C_3, K_2) = 3 this determines c_1 = 3.
+  Goddard and Kleitman's theorem in Discrete Math. 125 (1994) bounds $R(K_3,H)$
+  by $2m+1$ for every $m$-edge $H$ without isolated vertices. With the one-edge
+  endpoint $R(C_3,K_2)=3$, this determines $c_1=3$.
 authors:
 - W. Goddard
 - D. J. Kleitman
@@ -55,11 +55,10 @@ $k=1$ to this paper and to Sidorenko.
 **Depends on.** Nothing in this wiki; the result rests on the cited paper,
 and the one-edge endpoint is elementary.
 
-**Acceptance.** Refereed: W. Goddard and D. J. Kleitman, An upper bound for
-the Ramsey numbers $r(K_3,G)$, Discrete Math. 125 (1994), no. 1--3,
-177--182, in the February 1994 issue, the month this page is dated by; the
-day is a placeholder. The site labels the problem OPEN, so its pages are not
-acceptance.
+**Acceptance.** Refereed: W. Goddard and D. J. Kleitman, An upper bound for the
+Ramsey numbers $r(K_3,G)$, Discrete Math. 125 (1994), no. 1--3, 177--182, in the
+February 1994 issue, the month this page is dated by. The day is a placeholder.
+The site labels the problem OPEN, so its pages are not acceptance.
 
 **Read depth.** The statement on p. 1 of the author manuscript described on
 the source card was checked against the problem's formula; the proof was not

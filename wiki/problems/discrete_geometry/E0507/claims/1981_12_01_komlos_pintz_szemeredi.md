@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0507/claims/1981_12_01_komlos_pintz_szemeredi
 title: The Komlós-Pintz-Szemerédi upper bound with exponent 8/7
 desc: |
-  Komlós, Pintz and Szemerédi prove that any n points in the unit square span
-  a triangle of area at most exp(c sqrt(log n)) n^(-8/7), the exponent 8/7
-  for the disk, since superseded by Cohen, Pohoata and Zakharov; refereed.
+  Komlós, Pintz and Szemerédi prove, in a refereed paper, that any $n$ points in
+  the unit square span a triangle of area at most
+  $\exp(c\sqrt{\log n})\,n^{-8/7}$. This gives the exponent $8/7$ for the disk,
+  since superseded by Cohen, Pohoata and Zakharov.
 authors:
 - János Komlós
 - János Pintz
@@ -53,6 +54,6 @@ it gives no lower bound and not the order of $\alpha(n)$.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the Journal of the London Mathematical Society
-published the paper. The site's commentary names the exponent $8/7$ as the
-one the later bounds improved, on a problem the site labels OPEN, so that
-mention is context and not `reviewed` evidence.
+published the paper. The site's commentary names the exponent $8/7$ as the one
+the later bounds improved. The site labels the problem OPEN, so that mention is
+context and not `reviewed` evidence.

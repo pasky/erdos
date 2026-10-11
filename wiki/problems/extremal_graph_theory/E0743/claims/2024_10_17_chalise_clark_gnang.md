@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0743/claims/2024_10_17_chalise_clark_gnang
 title: Chalise, Clark and Gnang's withdrawn tree packing proof
 desc: |
-  An arXiv preprint of October 2024 claimed the tree packing conjecture for
-  every n by a polynomial method; its authors withdrew it on 1 September
-  2026, citing an error in the proof of their Composition Lemma.
+  An arXiv preprint of October 2024 by Chalise, Clark and Gnang claimed the tree
+  packing conjecture for every $n$ by a polynomial method. The authors withdrew
+  it on 1 September 2026, citing an error in the proof of their Composition
+  Lemma.
 authors:
 - Parikshit Chalise
 - Antwan Clark

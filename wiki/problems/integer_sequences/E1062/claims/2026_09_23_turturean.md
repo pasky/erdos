@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E1062/claims/2026_09_23_turturean
 title: A claimed transcendence of the limit of f(n)/n
 desc: |
-  A thread post of 23 September 2026 announces an independent manuscript giving
-  an extremal formula for f(n) and the transcendence, hence irrationality, of
-  the limit of f(n)/n, with the argument credited to GPT-6-Astra Pro; unreviewed.
+  A thread post of 23 September 2026 by David Turturean announces an independent
+  manuscript that gives an extremal formula for $f(n)$ and the transcendence,
+  hence irrationality, of $\lim f(n)/n$. The post credits the argument to
+  GPT-6-Astra Pro, and the claim is unreviewed.
 authors:
 - David Turturean
 status: claimed

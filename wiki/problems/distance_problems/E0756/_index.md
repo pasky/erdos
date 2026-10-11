@@ -2,8 +2,8 @@
 name: problems/distance_problems/E0756
 title: Problem 756
 desc: |
-  Asks whether a set of n points in the plane can determine on the order of n
-  distinct distances each occurring for more than n pairs of points.
+  Asks whether a set of $n$ points in the plane can determine $\gg n$ distinct
+  distances, each occurring for more than $n$ pairs of points; proved.
 tags:
 - Geometry
 - Distances
@@ -25,9 +25,9 @@ updated: 2026-10-08T14:17:37Z
 $\gg n$ many distinct distances each of which occurs for more than $n$ many
 pairs from $A$?
 
-**Status.** PROVED (LEAN). The site marks the problem proved, crediting
-Bhowmick's construction, and flags a Lean formalization of his proof; see the
-[[problems/distance_problems/E0756/claims/2024_07_01_bhowmick|claim page]].
+**Status.** PROVED (LEAN). The site marks the problem proved and credits
+Bhowmick's construction. It also flags a Lean formalization of his proof. See
+the [[problems/distance_problems/E0756/claims/2024_07_01_bhowmick|claim page]].
 
 **Source.** [erdosproblems.com/756](https://www.erdosproblems.com/756), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #756,

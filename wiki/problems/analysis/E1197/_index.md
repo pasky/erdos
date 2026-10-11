@@ -2,8 +2,9 @@
 name: problems/analysis/E1197
 title: Problem 1197
 desc: |
-  Asks whether, for a set of positive measure and almost every positive x,
-  every large integer multiple of x lies in some integer dilate of the set.
+  Asks whether, for every $E\subset(0,\infty)$ of positive measure and almost
+  every $x>0$, each large enough integer $n$ has $nx\in r\cdot E$ for some
+  integer $r\ge1$; disproved.
 tags:
 - Analysis
 status: solved
@@ -24,14 +25,13 @@ updated: 2026-10-08T02:16:54Z
 true that, for almost all $x>0$, for all sufficiently large (depending on $x$)
 integers $n$ there exists an integer $r\geq 1$ such that $nx\in r\cdot E$?
 
-**Status.** DISPROVED (LEAN), the site's label. Enrique Barschkis, posting
-as ebarschkis, constructed a measurable set of positive measure and an
-interval of $x$ on which infinitely many $n$ put $nx$ outside every
-$r\cdot E$, by varying the Buczolich–Mauldin construction; the accepted claim
-is
-[[problems/analysis/E1197/claims/2026_04_13_barschkis|Barschkis's counterexample]],
-credited by the site's curator and not refereed. The Lean proofs behind the
-site's qualification are linked on the claim page; none was built here.
+**Status.** DISPROVED (LEAN), the site's label. Enrique Barschkis, posting as
+ebarschkis, varied the Buczolich–Mauldin construction. This gave a measurable
+set of positive measure and an interval of $x$ on which infinitely many $n$ put
+$nx$ outside every $r\cdot E$. The accepted claim is
+[[problems/analysis/E1197/claims/2026_04_13_barschkis|Barschkis's counterexample]].
+It is credited by the site's curator and not refereed. The Lean proofs behind
+the site's qualification are linked on the claim page. None was built here.
 
 **Source.** [erdosproblems.com/1197](https://www.erdosproblems.com/1197),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1197,

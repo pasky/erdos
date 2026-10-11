@@ -2,9 +2,10 @@
 name: problems/irrationality/E1049/claims/1994_01_01_bundschuh_vaananen
 title: Bundschuh and Väänänen's rational bases
 desc: |
-  Bundschuh and Väänänen's 1994 Theorem 2, at alpha=-1, makes F(a/b)
-  irrational, with an irrationality measure, for coprime a>b>=1 with
-  log b/log a<1/2-1/pi^2; this covers every integer base and, for example, 7/2.
+  Bundschuh and Väänänen's 1994 Theorem 2, at $\alpha=-1$, shows that $F(a/b)$
+  is irrational, with an irrationality measure, for coprime $a>b\ge1$ with
+  $\log b/\log a<1/2-1/\pi^2$. This covers every integer base and, for example,
+  $7/2$.
 authors:
 - Peter Bundschuh
 - Keijo Väänänen
@@ -62,9 +63,9 @@ $\log2/\log7=0.356\ldots$. It does not cover $3/2$, where
 $\log2/\log3=0.63\ldots$.
 
 **Acceptance.** Refereed: the paper is a journal publication in Compositio
-Mathematica, volume 91, no. 2 (1994), received 6 October 1992, the `refereed`
-evidence. The site's page does not cite it; the forum comment of 11 September
-2026 (the `discussion` link) points to its Theorem 2 for this region. The site
-labels the problem OPEN, so no `reviewed` evidence is listed.
+Mathematica, volume 91, no. 2 (1994), received 6 October 1992, and this is the
+`refereed` evidence. The site's page does not cite it. The forum comment of 11
+September 2026 (the `discussion` link) points to its Theorem 2 for this region.
+The site labels the problem OPEN, so no `reviewed` evidence is listed.
 
 **Depends on.** Nothing in this wiki.

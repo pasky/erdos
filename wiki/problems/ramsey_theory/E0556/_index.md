@@ -2,10 +2,10 @@
 name: problems/ramsey_theory/E0556
 title: Problem 556
 desc: |
-  Asks whether every 3-coloring of the edges of the complete graph on 4n - 3
-  vertices has a monochromatic cycle of length n, for every n > 3; the site's
-  wording also includes the triangle, where it fails, and the bound is known
-  for all large n.
+  Asks whether, for every $n>3$, every 3-coloring of the edges of $K_{4n-3}$ has
+  a monochromatic cycle of length $n$; the bound is known for all large $n$, and
+  the problem is open. The site's wording also includes the triangle, where it
+  fails.
 tags:
 - Graph theory
 - Ramsey theory
@@ -85,24 +85,24 @@ For odd $n$ the bound is sharp (the lower bound $R_3(C_n)\ge4n-3$ holds for
 every odd $n$ by two explicit colorings of $K_{4n-4}$, [KSS05] Claim 2); for
 even $n$ it is far from sharp, the value being $2n$ for all large even $n$.
 
-**Status.** Decidable, in the site's label (page last edited 8 February
-2026), which the site defines as resolved up to a finite check; the label
-describes the corrected Statement, which excludes $n=3$. The frontmatter
-standing, derived from the claim pages, judges the corrected Statement and is
-open: the partial claim pages
+**Status.** Decidable, in the site's label (page last edited 8 February 2026),
+which the site defines as resolved up to a finite check. The label describes the
+corrected Statement, which excludes $n=3$. The frontmatter standing, derived
+from the claim pages, judges the corrected Statement and is open. The partial
+claim pages
 [[problems/ramsey_theory/E0556/claims/2005_06_01_kohayakawa_simonovits_skokan|Kohayakawa, Simonovits and Skokan 2005]]
 and
 [[problems/ramsey_theory/E0556/claims/2016_08_19_jenssen_skokan|Jenssen and Skokan 2016]]
 cover all large odd $n$, and
 [[problems/ramsey_theory/E0556/claims/2008_09_21_benevides_skokan|Benevides and Skokan 2008]]
-all large even $n$, while the $n$ from $9$ up to the two unnamed thresholds
-remain open. The Benevides--Skokan and Jenssen--Skokan pages are accepted
-on their refereed journal publications; the Kohayakawa--Simonovits--Skokan
-page is claimed, since its full proof is an unrefereed research report and
-its proceedings abstract is not shown to have been refereed. The curator's
-credit to Kohayakawa, Simonovits and Skokan and to Benevides and Skokan is
-recorded on their pages and is not acceptance evidence, because the site's
-label DECIDABLE does not mark the problem settled.
+covers all large even $n$. The $n$ from $9$ up to the two unnamed thresholds
+remain open. The Benevides--Skokan and Jenssen--Skokan pages are accepted on
+their refereed journal publications. The Kohayakawa--Simonovits--Skokan page is
+claimed, since its full proof is an unrefereed research report and its
+proceedings abstract is not shown to have been refereed. The curator's credit to
+Kohayakawa, Simonovits and Skokan and to Benevides and Skokan is recorded on
+their pages. It is not acceptance evidence, because the site's label DECIDABLE
+does not mark the problem settled.
 
 **Source.** [erdosproblems.com/556](https://www.erdosproblems.com/556), accessed
 2026-09-17: the problem page (DECIDABLE, the site's label for a problem resolved

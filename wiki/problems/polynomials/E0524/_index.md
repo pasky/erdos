@@ -2,9 +2,10 @@
 name: problems/polynomials/E0524
 title: Problem 524
 desc: |
-  The order of magnitude, for almost every real number in the unit interval,
-  of the maximum on minus one to one of the polynomial built from its binary
-  digits.
+  Asks for the order of magnitude, for almost all $t\in(0,1)$, of
+  $M_n(t)=\max_{x\in[-1,1]}\lvert\sum_{k\le n}(-1)^{\epsilon_k(t)}x^k\rvert$,
+  where $\epsilon_k(t)$ are the binary digits of $t$; an answer is claimed but
+  not accepted.
 tags:
 - Analysis
 - Probability
@@ -45,15 +46,15 @@ $M_n(t)$, the upper envelope being Salem and Zygmund's.
 
 **Status.** OPEN (the site's label; page last edited 27 December 2025). The
 derived standing, claimed and answered, departs from the label because of a
-pending full claim:
+pending full claim.
 [[problems/polynomials/E0524/claims/2026_04_21_letwin_sawhney|Letwin–Sawhney 2026]],
 an arXiv preprint announced on the thread on 2026-04-24, determines the almost
-sure lower envelope, and with Salem and Zygmund's upper envelope that answers
-the question. A partial claim precedes it:
+sure lower envelope. Together with Salem and Zygmund's upper envelope, that
+answers the question. A partial claim precedes it.
 [[problems/polynomials/E0524/claims/2026_01_30_chojecki|Chojecki 2026]], a note
 posted on the thread on 2026-01-30, reproves the upper envelope and finds the
-lower-envelope scale along a sparse subsequence. Neither is refereed, registered
-on the site's proof-claims tab, or accepted by the site.
+lower-envelope scale along a sparse subsequence. Neither claim is refereed,
+registered on the site's proof-claims tab, or accepted by the site.
 
 **Source.** [erdosproblems.com/524](https://www.erdosproblems.com/524), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #524,

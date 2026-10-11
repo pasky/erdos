@@ -2,8 +2,8 @@
 name: problems/ramsey_theory/E0557
 title: Problem 557
 desc: |
-  Asks whether the k-color Ramsey number of any tree on n vertices is at most
-  k times n plus a bounded amount.
+  Asks whether $R_k(T)\le kn+O(1)$ for every tree $T$ on $n$ vertices, where
+  $R_k$ is the $k$-color Ramsey number; proved.
 tags:
 - Graph theory
 - Ramsey theory
@@ -51,30 +51,30 @@ both readings too. Reed and Stein's Corollary 4, whose threshold $n_0(k)$
 depends on $k$, gives reading (a) only. The single-vertex tree has
 $R_k(K_1)=1$ and is no exception under either reading.
 
-**Status.** PROVED (FORMALIZED), the site's label as printed on 2026-09-05;
-the community database (record of 2026-10-06) lists the status proved (Lean)
-as of its last update on 3 September 2026; the page, last edited 7 September
-2026, printed no label in its static text on 2026-10-07. Both readings of
-the Statement (Formulation) are proved, so the problem is settled. The
-consequence of the sharp tree-free bound in
-[[problems/extremal_graph_theory/E0548/_index|#548]], whose proof the site's
-proof-claim entry credits to GPT-6 Astra, gives the
-[[../library/extremal_graph_theory/adamczewski_2026_erdos548/tree_ramsey_corollary|explicit
-Ramsey corollary]] $R_k(T)\leq k(n-2)+2$ for $k\geq1$ and $n\geq2$ without a
-threshold, one constant for every $k$ and every tree, which proves both
-readings. That consequence is the accepted full claim recorded on the claim
-page
-[[problems/ramsey_theory/E0557/claims/2026_09_03_adamczewski|Adamczewski 2026]]
-on a third party's Lean derivation of it that this corpus built and audited
-(Formalization, below); the credit of the site's curator for it was not
-independent, since he submitted the proof claim himself and co-authored the
-paper recording the result, and nothing is refereed. The frontmatter
-standing, solved and proved, derives from it. Reed and Stein's dense case
-of the Erdős--Sós conjecture (arXiv:2609.05417, 4 September 2026) gives, for
-each $k$, an $n_0(k)$ with $R_k(T)<k(n-2)+3$ for every tree $T$ on
-$n\geq n_0(k)$ vertices, hence $R_k(T)\leq kn+O_k(1)$, which proves reading
-(a) only; the site's commentary of 7 September 2026 credits that theorem and
-the deduction, so the claim page
+**Status.** PROVED (FORMALIZED), the site's label as printed on 2026-09-05. The
+community database (record of 2026-10-06) lists the status proved (Lean) as of
+its last update on 3 September 2026. The page, last edited 7 September 2026,
+printed no label in its static text on 2026-10-07. Both readings of the
+Statement (Formulation) are proved, so the problem is settled. The site's
+proof-claim entry credits the proof of
+[[problems/extremal_graph_theory/E0548/_index|#548]] to GPT-6 Astra. A
+consequence of its sharp tree-free bound is the
+[[../library/extremal_graph_theory/adamczewski_2026_erdos548/tree_ramsey_corollary|explicit Ramsey corollary]]
+$R_k(T)\leq k(n-2)+2$ for $k\geq1$ and $n\geq2$. It has no threshold and one
+constant for every $k$ and every tree, so it proves both readings. That
+consequence is the accepted full claim recorded on the claim page
+[[problems/ramsey_theory/E0557/claims/2026_09_03_adamczewski|Adamczewski 2026]].
+The acceptance rests on a third party's Lean derivation of it, which this corpus
+built and audited (Formalization, below). The credit of the site's curator for
+it was not independent, since he submitted the proof claim himself and
+co-authored the paper recording the result. Nothing is refereed. The frontmatter
+standing, solved and proved, derives from this claim page.
+
+Reed and Stein's dense case of the Erdős--Sós conjecture (arXiv:2609.05417, 4
+September 2026) gives, for each $k$, an $n_0(k)$ with $R_k(T)<k(n-2)+3$ for
+every tree $T$ on $n\geq n_0(k)$ vertices. Hence $R_k(T)\leq kn+O_k(1)$, which
+proves reading (a) only. The site's commentary of 7 September 2026 credits that
+theorem and the deduction. So the claim page
 [[problems/ramsey_theory/E0557/claims/2026_09_04_reed_stein|Reed and Stein 2026]]
 is an accepted partial claim on the curator's credit.
 

@@ -2,8 +2,8 @@
 name: problems/set_systems/E0083
 title: Problem 83
 desc: |
-  Bounds how large a family of half-size subsets of a set of 4n elements can
-  be when every two members share at least two elements.
+  Bounds the size of a family of $2n$-element subsets of a $4n$-element set in
+  which every two members share at least two elements. The bound is proved.
 tags:
 - Combinatorics
 - Intersecting families
@@ -30,9 +30,9 @@ $$
 $$
 
 **Status.** The site labels the problem PROVED (LEAN), crediting Ahlswede and
-Khachatrian [AhKh97]; the Lean behind the qualifier is described below. The
-accepted claim is
+Khachatrian [AhKh97]. The accepted claim is
 [[problems/set_systems/E0083/claims/1997_02_01_ahlswede_khachatrian|the 4m-conjecture from the complete intersection theorem]].
+The Lean behind the qualifier is described below.
 
 **Source.** [erdosproblems.com/83](https://www.erdosproblems.com/83), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #83,

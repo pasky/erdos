@@ -3,8 +3,8 @@ name: problems/graph_coloring/E0628/claims/2024_06_21_longbrake_tariq
 title: Longbrake and Tariq prove the conjecture for some pairs with a clique
 desc: |
   Longbrake and Tariq (Discrete Math. 2026) prove the conjecture for pairs
-  (s,t) with t at most s+2 when G contains K_s, with t at most 4s-3 when G
-  contains K_s and is claw-free, and for (3,10) in claw-free graphs.
+  $(s,t)$ with $t\le s+2$ when $G$ contains $K_s$, with $t\le4s-3$ when $G$
+  contains $K_s$ and is claw-free, and for $(3,10)$ in claw-free graphs.
 authors:
 - Sean Longbrake
 - Juvaria Tariq
@@ -51,8 +51,8 @@ for claw-free graphs. Graphs without a $K_s$, and the other pairs, are not
 covered.
 
 **Acceptance.** Refereed: Discrete Math. 349 (2026), no. 3, Article 114770,
-doi:10.1016/j.disc.2025.114770, in the issue dated March 2026 and registered
-online on 10 September 2025. The preprint is arXiv:2406.15164, first posted
-21 June 2024, the date of this page. The site's curator does not credit the
-paper; a forum member linked it in the problem's discussion thread on
+doi:10.1016/j.disc.2025.114770. The paper is in the issue dated March 2026 and
+was registered online on 10 September 2025. The preprint is arXiv:2406.15164,
+first posted 21 June 2024, the date of this page. The site's curator does not
+credit the paper. A forum member linked it in the problem's discussion thread on
 25 October 2025 as progress not covered by Song's survey.

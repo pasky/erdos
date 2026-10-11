@@ -2,11 +2,10 @@
 name: problems/analysis/E1221
 title: Problem 1221
 desc: |
-  Asks whether, for a sequence on the circle, the de Bruijn–Erdős constants
-  for the largest and smallest sums of r consecutive gaps and for their ratio
-  deviate from their trivial values by more than any constant over r as r
-  grows; a 2026 preprint claims all three parts for distinct points,
-  unrefereed and unreviewed.
+  Asks whether $\Lambda_r-r$, $r-\lambda_r$ and $r(\mu_r-1)$ tend to infinity
+  for the de Bruijn–Erdős constants of the largest and smallest sums of $r$
+  consecutive gaps on the circle and their ratio; open, though an unrefereed,
+  unreviewed 2026 preprint claims all three for distinct points.
 tags:
 - Analysis
 status: open
@@ -158,13 +157,13 @@ constants over the two families agree is not settled in the sources.
 
 **Status.** The site's label is OPEN. A preprint [Ko26b] (arXiv:2609.07196v2, 9
 September 2026) claims all three parts of the corrected Statement for sequences
-of distinct points, and is registered on the site as a full proof claim
-(submitted 2026-09-08); it is recorded as the pending partial claim
+of distinct points. The site registers it as a full proof claim (submitted
+2026-09-08). Here it is recorded as the pending partial claim
 [[problems/analysis/E1221/claims/2026_09_08_korsky|Korsky 2026]], since its
 constants run over sequences of distinct points only, and the frontmatter
-standing is `open`. No acceptance evidence was found in a search: the preprint
-is unrefereed, the site shows OPEN, the community database keeps open
-(2026-09-18), and no independent review exists.
+standing is `open`. A search found no evidence of acceptance: the preprint is
+unrefereed, the site shows OPEN, the community database keeps open (2026-09-18),
+and no independent review exists.
 
 **Source.** [erdosproblems.com/1221](https://www.erdosproblems.com/1221),
 accessed 2026-09-27: the problem page (OPEN, with the site's note that no

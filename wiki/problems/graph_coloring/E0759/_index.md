@@ -3,8 +3,9 @@ name: problems/graph_coloring/E0759
 title: Problem 759
 desc: |
   Asks for the growth rate of the largest cochromatic number of a graph
-  embeddable on the orientable surface of genus n, the cochromatic number being
-  the fewest colors whose classes each induce a complete or an empty graph.
+  embeddable on the orientable surface of genus $n$; solved. The cochromatic
+  number is the fewest colors whose classes each induce a complete or an empty
+  graph.
 tags:
 - Graph theory
 - Chromatic number

@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0139/claims/2023_09_05_bloom_sisask
 title: Bloom and Sisask's sharpening of the Kelley–Meka exponent
 desc: |
-  Theorem 1 of Bloom and Sisask's 2023 note bounds a subset of the first N
-  integers with no three-term progression by exp(-c (log N)^(1/9)) N, the k = 3
-  instance of Problem 139 with a sharper rate; a preprint, so claimed.
+  Theorem 1 of Bloom and Sisask's 2023 note bounds the size of a subset of the
+  first $N$ integers with no three-term progression by
+  $\exp(-c(\log N)^{1/9})N$. This is the instance $k=3$ of Problem 139 with a
+  sharper rate, and as a preprint it is claimed.
 authors:
 - Thomas F. Bloom
 - Olof Sisask

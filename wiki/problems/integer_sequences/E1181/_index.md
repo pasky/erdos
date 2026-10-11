@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E1181
 title: Problem 1181
 desc: |
-  Asks whether the least prime not dividing the product of the next roughly
-  log n integers after n is below (1-c)(log n)^2 for some c>0 and all large
-  n; only the trivial bound (1+o(1))(log n)^2 is known.
+  Asks whether, for some $c>0$ and all large $n$, the least prime not dividing
+  $\prod_{1\le i\le\log n}(n+i)$ is below $(1-c)(\log n)^2$. It is open, and
+  only the trivial bound $(1+o(1))(\log n)^2$ is known.
 tags:
 - Number theory
 status: open
@@ -36,21 +36,22 @@ that $q(n,[\log n])<(1-\varepsilon)(\log n)^2$." The site created the page on 7
 March 2026 by splitting the upper-bound question off Problem 457, which concerns
 lower bounds for $q(n,\log n)$. The site's source key is [Er79d, p. 78].
 
-**Status.** Open. The only bound in hand is the trivial one, $q(n,\log
-n)\le(1+o(1))(\log n)^2$ for all $n$, Erdős's display (10) at $k=[\log n]$,
-which the site derives by comparing the primorial of $q(n,k)$ with the product:
-every prime below $q(n,k)$ divides $\prod_{1\le i\le k}(n+i)$, so their product
-is at most it. The construction accepted on Problem 457 gives $q(n,\log n)>A\log
-n$ for every fixed $A$ and infinitely many $n$. A sketch by Tao in that thread
-gives $q(n,\log n)>\frac{1-o(1)}2\frac{\log\log n}{\log\log\log n}\log n$ for
-infinitely many $n$; the site reports it as proved, but no accepted claim covers
-it, and the written version there, a claimed page, reaches only the $\gg$ form.
-Both are far below $(\log n)^2$, and a heuristic recorded by Tao in the thread
-of Problem 457 suggests $q(n,\log n)\ll\log n\log\log n/\log\log\log n$ for all
+**Status.** Open. The only bound in hand is the trivial one,
+$q(n,\log n)\le(1+o(1))(\log n)^2$ for all $n$. This is Erdős's display (10) at
+$k=[\log n]$. The site derives it by comparing the primorial of $q(n,k)$ with
+the product: every prime below $q(n,k)$ divides $\prod_{1\le i\le k}(n+i)$, so
+their product is at most it.
+
+The construction accepted on Problem 457 gives $q(n,\log n)>A\log n$ for every
+fixed $A$ and infinitely many $n$. A sketch by Tao in that thread gives
+$q(n,\log n)>\frac{1-o(1)}2\frac{\log\log n}{\log\log\log n}\log n$ for
+infinitely many $n$. The site reports it as proved, but no accepted claim covers
+it. The written version there, a claimed page, reaches only the $\gg$ form. Both
+bounds are far below $(\log n)^2$. A heuristic recorded by Tao in the thread of
+Problem 457 suggests $q(n,\log n)\ll\log n\log\log n/\log\log\log n$ for all
 $n$, which he regards as beyond current methods. No source improving the trivial
-bound was found in the search whose scope the Current
-assessment records; this is a bounded negative finding, not a certificate of
-openness.
+bound was found in the search whose scope the Current assessment records. This
+is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/1181](https://www.erdosproblems.com/1181),
 accessed 2026-09-18 at 10:27 UTC: the problem page (labeled OPEN,

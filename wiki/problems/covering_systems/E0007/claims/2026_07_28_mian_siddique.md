@@ -2,9 +2,10 @@
 name: problems/covering_systems/E0007/claims/2026_07_28_mian_siddique
 title: Mian and Siddique's exclusion of odd periods up to 10000
 desc: |
-  Mian and Siddique's theorem of July 2026, with a Lean 4 development, that
+  Mian and Siddique give a July 2026 proof, with a Lean 4 development, that
   every covering system with distinct odd moduli greater than one has least
-  common multiple above 10000; the bound is known and the Lean unbuilt here.
+  common multiple above 10000. The bound was already known, and the Lean
+  development has not been built here.
 authors:
 - Ibrahim Mian
 - Shayaan Siddique

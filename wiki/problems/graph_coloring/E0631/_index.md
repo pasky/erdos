@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0631
 title: Problem 631
 desc: |
-  Asks whether every planar graph has list chromatic number at most 5, the
-  least list size per vertex always allowing a proper coloring from the
-  lists, and whether 5 is best possible.
+  Asks whether every planar graph has list chromatic number at most $5$, and
+  whether $5$ is best possible; both answers are yes. The list chromatic number
+  is the least list size per vertex that always allows a proper coloring from
+  the lists.
 tags:
 - Graph theory
 - Chromatic number
@@ -34,21 +35,22 @@ distinct colours.
 
 Does every planar graph $G$ have $\chi_L(G)\leq 5$? Is this best possible?
 
-**Status.** Proved. The site answers both questions yes: it credits
-Thomassen [Th94] with the upper bound $\chi_L(G)\le 5$ for all planar $G$ and
+**Status.** Proved. The site answers both questions yes. It credits Thomassen
+[Th94] with the upper bound $\chi_L(G)\le 5$ for all planar $G$. It credits
 Voigt [Vo93] with a planar graph that is not $4$-choosable, so the bound is
-sharp, and credits Gutner [Gu96] with a simpler construction, a planar graph of
-$75$ vertices against Voigt's $238$. Each result is an accepted partial claim,
+sharp. It credits Gutner [Gu96] with a simpler construction, a planar graph of
+$75$ vertices against Voigt's $238$. Each result is an accepted partial claim:
 [[problems/graph_coloring/E0631/claims/1994_09_01_thomassen|Thomassen]] for the
-first question and [[problems/graph_coloring/E0631/claims/1993_09_01_voigt|Voigt]]
-and [[problems/graph_coloring/E0631/claims/1996_11_01_gutner|Gutner]] for the
-second, as is
+first question, and
+[[problems/graph_coloring/E0631/claims/1993_09_01_voigt|Voigt]] and
+[[problems/graph_coloring/E0631/claims/1996_11_01_gutner|Gutner]] for the
+second.
 [[problems/graph_coloring/E0631/claims/1996_01_01_mirzakhani|Mirzakhani's]]
-$63$-vertex witness, which the site does not credit but the discussion
-thread links. The problem page lists the two questions as its parts, the upper
-bound and its sharpness, and the accepted partial claims settle both, so the
-standing derived from the claim pages is solved with the claim proved. See
-also [[problems/graph_coloring/E0630/_index|Problem 630]].
+$63$-vertex witness is also an accepted partial claim. The site does not credit
+it, but the discussion thread links it. The problem page lists the two questions
+as its parts: the upper bound and its sharpness. The accepted partial claims
+settle both. So the standing derived from the claim pages is solved with the
+claim proved. See also [[problems/graph_coloring/E0630/_index|Problem 630]].
 
 **Source.** [erdosproblems.com/631](https://www.erdosproblems.com/631), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #631,

@@ -2,9 +2,11 @@
 name: problems/polynomials/E1133
 title: Problem 1133
 desc: |
-  Asks whether, for each positive constant, a small positive number exists
-  making a stated property hold for all large degrees of polynomial
-  interpolation.
+  Asks whether each $C>0$ has an $\epsilon>0$ such that, for large $n$ and any
+  $x_1,\ldots,x_n\in[-1,1]$, some $y_i\in[-1,1]$ give
+  $\max_{[-1,1]}\lvert P\rvert>C$ whenever $\deg P<(1+\epsilon)n$ and
+  $P(x_i)=y_i$ for at least $(1-\epsilon)n$ values of $i$; proofs are claimed
+  but none is accepted.
 tags:
 - Analysis
 - Polynomials
@@ -33,29 +35,32 @@ $$
 \max_{x\in [-1,1]}\lvert P(x)\rvert >C.
 $$
 
-**Status.** The site labels the problem OPEN (page last edited 31 December
-2025; proof-claims tab accessed 2026-10-06). Two manuscripts claim the
-assertion in full, neither reviewed nor refereed: a note posted in the
-site's thread by Przemek Chojecki on 29 April 2026, produced with GPT-5.5
-Pro as Chojecki wrote there and hosted at ulam.ai, which derives a finite
-obstruction from Beurling's interpolation-density theorem for the Bernstein
-space and plants it on short blocks of nodes
-([[problems/polynomials/E1133/claims/2026_04_29_chojecki|claim page]]), and
-the manuscript of Jia-Qi Yang submitted to the site's proof-claims tab on
-2026-09-13 (using GPT-6, as the tab writes it), which claims to prove the
-obstruction for sign data at any pointwise tolerance with $\epsilon$ of
-optimal exponential order in $C$, and the sharp coefficient $\pi/2$ on
+**Status.** The site labels the problem OPEN (page last edited 31 December 2025;
+proof-claims tab accessed 2026-10-06). This page records the claims below
+without adopting them, and the standing in the frontmatter follows from them.
+Two manuscripts claim the assertion in full, and neither is reviewed or
+refereed.
+
+The first is a note posted in the site's thread by Przemek Chojecki on 29
+April 2026. It was produced with GPT-5.5 Pro, as Chojecki wrote there, and is hosted
+at ulam.ai. It derives a finite obstruction from Beurling's
+interpolation-density theorem for the Bernstein space and plants it on short
+blocks of nodes
+([[problems/polynomials/E1133/claims/2026_04_29_chojecki|claim page]]). The
+second is the manuscript of Jia-Qi Yang, submitted to the site's proof-claims
+tab on 2026-09-13 (using GPT-6, as the tab writes it). It claims to prove the
+obstruction for sign data at any pointwise tolerance, with $\epsilon$ of optimal
+exponential order in $C$. It also claims the sharp coefficient $\pi/2$ on
 Chebyshev–Lobatto grids
-([[problems/polynomials/E1133/claims/2026_09_13_yang|claim page]]). The
-site's commentary credits Erdős with a weaker statement, which he gives as
-Theorem 4 of [Er67, p. 72] and says he had stated without proof in an
-earlier paper: for every $C>0$ there is $\epsilon>0$ such that, for large
-$n$ and any $m=\lfloor(1+\epsilon)n\rfloor$ nodes in $[-1,1]$, some
-polynomial $P$ of degree $n$ has $\lvert P(x_i)\rvert\le1$ at every node and
-$\max\lvert P\rvert>C$; the assertion of the problem would imply it, and
-Erdős remarks in [Er67] that he could not prove the assertion even for
-$m=n$. This page records the claims without adopting them; the standing in
-the frontmatter follows from them.
+([[problems/polynomials/E1133/claims/2026_09_13_yang|claim page]]).
+
+The site's commentary credits Erdős with a weaker statement. He gives it as
+Theorem 4 of [Er67, p. 72] and says he had stated it without proof in an earlier
+paper. It says that for every $C>0$ there is $\epsilon>0$ such that, for large
+$n$ and any $m=\lfloor(1+\epsilon)n\rfloor$ nodes in $[-1,1]$, some polynomial
+$P$ of degree $n$ has $\lvert P(x_i)\rvert\le1$ at every node and
+$\max\lvert P\rvert>C$. The assertion of the problem would imply it. Erdős
+remarks in [Er67] that he could not prove the assertion even for $m=n$.
 
 **Source.** [erdosproblems.com/1133](https://www.erdosproblems.com/1133),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1133,

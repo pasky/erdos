@@ -2,9 +2,10 @@
 name: problems/polynomials/E1150
 title: Problem 1150
 desc: |
-  Asks whether every plus or minus one polynomial of degree n has maximum
-  modulus on the unit circle above (1+c) times the square root of n for some
-  fixed c>0; answered no by the OpenAI release's construction of 2026-09-23.
+  Asks whether some constant $c>0$ makes every polynomial $P$ of large degree
+  $n$ with coefficients $\pm 1$ have
+  $\max_{\lvert z\rvert=1}\lvert P(z)\rvert>(1+c)\sqrt{n}$; answered no by the
+  OpenAI release's construction of 2026-09-23.
 tags:
 - Analysis
 - Polynomials
@@ -29,38 +30,41 @@ $$
 \max_{\lvert z\rvert=1}\lvert P(z)\rvert > (1+c)\sqrt{n}?
 $$
 
-**Status.** OPEN: the site's label (page last edited 23 January 2026; problem
-page accessed 2026-10-06, its proof-claims tab empty). The derived standing
-departs from the label, which predates the release: it is solved and disproved,
-because Theorem 1.1 of the OpenAI release's manuscript of 23 September 2026
-gives, for every $\eta>0$ and every large $N$, signs $\pm1$ whose polynomial of
-length $N$ has maximum modulus at most $(1+\eta)\sqrt N$ on the circle, so no
-$c>0$ works; this corpus's verification built its Lean declaration
+**Status.** OPEN, the site's label (page last edited 23 January 2026; problem
+page accessed 2026-10-06, its proof-claims tab empty). The derived standing is
+solved and disproved. It departs from the label, which predates the release. The
+reason is Theorem 1.1 of the OpenAI release's manuscript of 23 September 2026.
+It gives, for every $\eta>0$ and every large $N$, signs $\pm1$ whose polynomial
+of length $N$ has maximum modulus at most $(1+\eta)\sqrt N$ on the circle. So no
+$c>0$ works. This corpus's verification built its Lean declaration
 `OAI.AsymptoticallyMinimalLittlewood.main` with only the three standard axioms
-and audited its statement, and the corpus accepts it on
+and audited its statement. The corpus accepts it on
 [[problems/polynomials/E1150/claims/2026_09_23_openai|the claim page]]. No
-acknowledgment outside this repository is known. The site's commentary, written
-before the release, restates the question as whether ultraflat polynomials with
-coefficients $\pm1$ exist, notes that ultraflat polynomials do exist when the
-coefficients may be any points of the unit circle
-([[problems/polynomials/E0230/_index|Problem 230]]), so that the unimodular
-analogue of the Statement has the answer no, notes that
-$\max\lvert P\rvert\ge\sqrt n$ is Parseval's identity, and points to the weaker
-flatness question [[problems/polynomials/E0228/_index|Problem 228]]. The
-problem's discussion thread carries one earlier affirmative claim, el
-Abdalaoui's preprint of 2025 that $\pm1$ polynomials are never $L^\alpha$-flat
-for even $\alpha>2$, to which the curator and Tao objected and which the
-accepted theorem contradicts; it has the rejected claim page
+acknowledgment outside this repository is known.
+
+The site's commentary was written before the release. It restates the question
+as whether ultraflat polynomials with coefficients $\pm1$ exist. It notes that
+ultraflat polynomials do exist when the coefficients may be any points of the
+unit circle ([[problems/polynomials/E0230/_index|Problem 230]]), so the
+unimodular analogue of the Statement has the answer no. It notes that
+$\max\lvert P\rvert\ge\sqrt n$ is Parseval's identity. It also points to the
+weaker flatness question [[problems/polynomials/E0228/_index|Problem 228]].
+
+The problem's discussion thread carries one earlier affirmative claim. This is
+el Abdalaoui's preprint of 2025 that $\pm1$ polynomials are never
+$L^\alpha$-flat for even $\alpha>2$. The curator and Tao objected to it, and the
+accepted theorem contradicts it. It has the rejected claim page
 [[problems/polynomials/E1150/claims/2025_04_30_el_abdalaoui|el Abdalaoui 2025]].
 The same author claimed the affirmative answer earlier, in a 2016 preprint, and
-again in September 2025; both claims have rejected claim pages
+again in September 2025. Both claims have rejected claim pages
 ([[problems/polynomials/E1150/claims/2016_09_12_el_abdalaoui|2016]],
 [[problems/polynomials/E1150/claims/2025_09_04_el_abdalaoui|September 2025]]).
-Of the two release manuscripts of 5 October 2026, both without Lean, one claims
-the two-sided ultraflat form
-$(1-\varepsilon)\sqrt N\le\lvert P(z)\rvert\le(1+\varepsilon)\sqrt N$ and the
-other the lower bound $\sqrt N/16\le\lvert P(z)\rvert$ with the same upper
-bound; both are pending on Problem 228's claim page.
+
+Two release manuscripts of 5 October 2026, both without Lean, are pending on
+Problem 228's claim page. One claims the two-sided ultraflat form
+$(1-\varepsilon)\sqrt N\le\lvert P(z)\rvert\le(1+\varepsilon)\sqrt N$. The other
+claims the lower bound $\sqrt N/16\le\lvert P(z)\rvert$ with the same upper
+bound.
 
 **Source.** [erdosproblems.com/1150](https://www.erdosproblems.com/1150),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1150,

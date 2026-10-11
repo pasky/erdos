@@ -2,9 +2,10 @@
 name: problems/set_theory/E0591/claims/2010_05_13_schipperus
 title: Schipperus's theorem for omega to the omega squared
 desc: |
-  Schipperus proves ω^{ω^β} → (ω^{ω^β}, 3)^2 for every countable β that
-  is the sum of one or two indecomposable ordinals; the case β = 2 is the
-  statement of Problem 591, which Darby proved independently.
+  Schipperus proves $\omega^{\omega^\beta}\to(\omega^{\omega^\beta},3)^2$ for
+  every countable $\beta$ that is the sum of one or two indecomposable ordinals.
+  The case $\beta=2$ is the statement of Problem 591, which Darby proved
+  independently.
 authors:
 - Rene Schipperus
 status: accepted

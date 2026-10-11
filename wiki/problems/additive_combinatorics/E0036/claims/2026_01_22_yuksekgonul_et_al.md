@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0036/claims/2026_01_22_yuksekgonul_et_al
 title: The TTT-Discover upper bound 0.380876 for the minimum overlap constant
 desc: |
-  The 600-piece step function found by the TTT-Discover system of Yuksekgonul
-  and ten coauthors (arXiv 2026) that bounds the minimum overlap constant above
-  by 0.380876, the site's record; the certificate is not in the PDF, so claimed.
+  The TTT-Discover system of Yuksekgonul and ten coauthors (arXiv 2026) found a
+  600-piece step function that bounds the minimum overlap constant above by
+  0.380876, the site's record. The certificate is not in the PDF, so the bound
+  is claimed.
 authors:
 - M. Yuksekgonul
 - D. Koceja

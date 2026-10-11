@@ -2,8 +2,8 @@
 name: problems/distance_problems/E0953
 title: Problem 953
 desc: |
-  The largest possible measure of a set inside a disc of radius r containing
-  no two points at an integer distance apart.
+  Asks how large the measure of a set in a disc of radius $r$ can be if no two
+  of its points are at an integer distance; open.
 tags:
 - Geometry
 - Distances
@@ -35,11 +35,11 @@ $r^{o(1)}$ between the two bounds can be removed. The problem stays open until
 that question is settled.
 
 **Status.** Open. The site keeps the label OPEN, and its curator has not
-commented on Chojecki's upper bound. That bound, which with the lower bound the
-site credits settles the exponent $1/2$, is an accepted partial result recorded
-on its
-[[problems/distance_problems/E0953/claims/2026_04_27_chojecki|claim page]]; the
-constant-factor question is open.
+commented on Chojecki's upper bound. That bound is an accepted partial result,
+recorded on its
+[[problems/distance_problems/E0953/claims/2026_04_27_chojecki|claim page]].
+Together with the lower bound the site credits, it settles the exponent $1/2$.
+The constant-factor question is open.
 
 **Source.** [erdosproblems.com/953](https://www.erdosproblems.com/953), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #953,

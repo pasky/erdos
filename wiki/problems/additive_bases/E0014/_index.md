@@ -2,9 +2,11 @@
 name: problems/additive_bases/E0014
 title: Problem 14
 desc: |
-  Asks whether the integers up to N lacking a unique representation as a sum of
-  two elements of a set must number nearly the square root of N; yes, and never
-  little-o of it, by two Lean proofs the bounty site Conjectures.io accepted.
+  Asks whether, for every $A$, the integers up to $N$ lacking a unique
+  representation as a sum of two elements of $A$ number
+  $\gg_\epsilon N^{1/2-\epsilon}$, and whether they can number $o(N^{1/2})$. The
+  answers are yes and no, by two Lean proofs the bounty site Conjectures.io
+  accepted.
 tags:
 - Number theory
 - Sidon sets
@@ -63,70 +65,81 @@ that the term $2^{3/2}n^{1/2}$ cannot be replaced by $o(n^{1/2})$ in
 Proposition 2, but we cannot prove this even if we take a much larger set of
 $Cn^{1/2}$ elements in the interval $[1,n]$" (p. 204; see the References).
 
-**Status.** OPEN, the site's label (page last edited 14 September 2025): the
-erdosproblems.com page keeps the problem open, notes that no finite computation
-can settle it, and lists on its proof-claims tab two entries its curator posted
-without verifying them. The page's standing, solved and answered, departs from
-that label on the accepted claim below. For the site's wording displayed above,
-the first question is answered yes and the second no. The status-defining source
-is a pair of Lean proofs accepted by the bounty site Conjectures.io, one per
-question (record `dce3d778-6f52-4c27-8da0-c82d2f391b64`, attacked as Prove, for
-the first question; record `adb53fba-0b01-4398-abab-cb9b2176eebc`, attacked as
-Disprove, for the second). The first proves the formal-conjectures statement of
-the first question, as Conjectures.io's task printed it,
-`True ↔ ∀ (A : Set ℕ), ∀ ε > 0, Erdos14.almostSquareRoot ε =O[Filter.atTop] Erdos14.nonUniqueSumCount A`
-(`nonUniqueSumCount A N` the cardinality of $\{1,\ldots,N\}\setminus B$,
-`almostSquareRoot ε N` the real power $N^{1/2-\epsilon}$), through the uniform
-bound $\sqrt N<12000\,\lvert\{1,\ldots,N\}\setminus B\rvert$ for every $A$ and
-every $N\ge2\cdot10^{24}$; the second proves the exact negation of the
-formal-conjectures statement of the second question,
-`¬ (True ↔ ∃ A, Erdos14.nonUniqueSumCount A =o[Filter.atTop] Erdos14.squareRoot)`,
-that is, no $A$ has $\lvert\{1,\ldots,N\}\setminus B\rvert=o(N^{1/2})$. Both
-rest on one shared finite obstruction,
+**Status.** OPEN, the site's label (page last edited 14 September 2025). The
+erdosproblems.com page keeps the problem open and notes that no finite
+computation can settle it. Its proof-claims tab lists two entries that its
+curator posted without verifying them. The page's standing, solved and answered,
+departs from that label on the accepted claim below. For the site's wording
+displayed above, the first question is answered yes and the second no.
+
+The status-defining source is a pair of Lean proofs accepted by the bounty site
+Conjectures.io, one per question. Record `dce3d778-6f52-4c27-8da0-c82d2f391b64`,
+attacked as Prove, is for the first question. Record
+`adb53fba-0b01-4398-abab-cb9b2176eebc`, attacked as Disprove, is for the second.
+The first proves the formal-conjectures statement of the first question, as
+Conjectures.io's task printed it: `True ↔ ∀ (A : Set ℕ), ∀ ε > 0,
+Erdos14.almostSquareRoot ε =O[Filter.atTop] Erdos14.nonUniqueSumCount A`. Here
+`nonUniqueSumCount A N` is the cardinality of $\{1,\ldots,N\}\setminus B$ and
+`almostSquareRoot ε N` is the real power $N^{1/2-\epsilon}$. The proof goes
+through the uniform bound $\sqrt N<12000\,\lvert\{1,\ldots,N\}\setminus B\rvert$
+for every $A$ and every $N\ge2\cdot10^{24}$. The second proves the exact
+negation of the formal-conjectures statement of the second question, `¬ (True ↔
+∃ A, Erdos14.nonUniqueSumCount A =o[Filter.atTop] Erdos14.squareRoot)`. That is,
+no $A$ has $\lvert\{1,\ldots,N\}\setminus B\rvert=o(N^{1/2})$.
+
+Both proofs rest on one shared finite obstruction:
 $T^2<1000\,(\lvert\{0,\ldots,2T^4\}\setminus B\rvert)$ for every $A$ and every
-$T\ge10^6$, proved by pair counting, a triple-moment identity for uniquely
-represented sums and a generating-function bound at $z=1-4/T^4$. Neither answer
-implies the other, but the uniform bound this obstruction gives implies both, so
-the two records are one theorem read two ways. For each record Conjectures.io's
-Lean kernel verified the proof against the formal statement at the
-formal-conjectures commit the record pins, with the axiom closure inside
-`propext`, `Quot.sound` and `Classical.choice`; Conjectures.io's review approved
-the record under its policy v3 on 15 September 2026; Conjectures.io certified
-the record on 16 September 2026 and paid the bounty. That review is
-Conjectures.io's own, and its note describes how it was reached: two Codex
-assessments, run in separate contexts of one model family and claiming no
-consensus across distinct models, each recommended approval, one having examined
-the formal statements, the proof architecture and the verification commitments
-and the other prior solutions, chronology, correspondence and duplicate
-eligibility; the review relied on the recorded kernel verification and ran no
-fresh Lean or second-kernel replay; the decision carries no guarantee of
-originality; and Conjectures.io's second kernel was not run, so its verdict
-rests on a single kernel implementation. The accepting body is the bounty site
-alone: this is a source-supported solution accepted by that site, distinct from
-a claim of journal refereeing, and there is no refereed publication, no
-erdosproblems.com acceptance and no formal-conjectures agreement (the
-erdosproblems.com page keeps the label OPEN and shows no proof claim its curator
-has verified; the formal-conjectures default branch of 2026-09-18 keeps both
-parts `research open` with `answer(sorry)`; Conjectures.io's own note records
-that the Erdős Problem a Day report of 26 July 2026 left both asymptotic
-questions unresolved). The corpus has no build or kernel replay of the files, so
-they carry no formal-verification credit. Two further limits: the records pin a
-formal-conjectures commit that does not resolve on GitHub (2026-10-07), so the
-statement is compared on the formal-conjectures default branch, and
-Conjectures.io's printed canonical types and its own check that the source type
-hash matches are the evidence that the pinned statement agrees; and the
+$T\ge10^6$. It is proved by pair counting, a triple-moment identity for uniquely
+represented sums, and a generating-function bound at $z=1-4/T^4$. Neither answer
+implies the other. But the uniform bound this obstruction gives implies both, so
+the two records are one theorem read two ways.
+
+For each record, Conjectures.io's Lean kernel verified the proof against the
+formal statement at the formal-conjectures commit the record pins, with the
+axiom closure inside `propext`, `Quot.sound` and `Classical.choice`.
+Conjectures.io's review approved the record under its policy v3 on 15
+September 2026. Conjectures.io certified the record on 16 September 2026 and paid the
+bounty.
+
+That review is Conjectures.io's own, and its note describes how it was reached.
+Two Codex assessments each recommended approval. They ran in separate contexts
+of one model family and claimed no consensus across distinct models. One
+examined the formal statements, the proof architecture and the verification
+commitments. The other examined prior solutions, chronology, correspondence and
+duplicate eligibility. The review relied on the recorded kernel verification and
+ran no fresh Lean or second-kernel replay. The decision carries no guarantee of
+originality. Conjectures.io's second kernel was not run, so its verdict rests on
+a single kernel implementation.
+
+The accepting body is the bounty site alone. This is a source-supported solution
+accepted by that site, distinct from a claim of journal refereeing. There is no
+refereed publication, no erdosproblems.com acceptance and no formal-conjectures
+agreement. The erdosproblems.com page keeps the label OPEN and shows no proof
+claim its curator has verified. The formal-conjectures default branch of
+2026-09-18 keeps both parts `research open` with `answer(sorry)`.
+Conjectures.io's own note records that the Erdős Problem a Day report of 26 July
+2026 left both asymptotic questions unresolved.
+
+The corpus has no build or kernel replay of the files, so they carry no
+formal-verification credit. There are two further limits. First, the records pin
+a formal-conjectures commit that does not resolve on GitHub (2026-10-07). The
+statement is therefore compared on the formal-conjectures default branch. The
+evidence that the pinned statement agrees is Conjectures.io's printed canonical
+types and its own check that the source type hash matches. Second, the
 formal-conjectures definitions `allUniqueSums` and `≫` live in
 `FormalConjecturesUtil`, while each proof file restates them in its own
-namespace and closes its target by `exact`, so the local definitions equal the
-formal-conjectures ones on the strength of Conjectures.io's kernel acceptance.
-The claim value is `answered` with these qualifications, the word for a page
-whose questions have one answer each in opposite directions. The claim page
+namespace and closes its target by `exact`. The local definitions therefore
+equal the formal-conjectures ones on the strength of Conjectures.io's kernel
+acceptance.
+
+The claim value is `answered` with these qualifications. It is the word for a
+page whose questions have one answer each in opposite directions. The claim page
 [[problems/additive_bases/E0014/claims/2026_09_14_jenw1n|Lean proofs of both questions at Conjectures.io]]
 records the claimant (the Conjectures.io user JenW1N, submission 2026-09-14),
-the acceptance evidence and its limits; it also records that erdosproblems.com's
+the acceptance evidence and its limits. It also records that erdosproblems.com's
 curator, Thomas Bloom, entered both records on its proof-claims thread on
-2026-09-27, naming the claimant as the bounty site and the AI system as unknown,
-without verifying or endorsing them.
+2026-09-27. Bloom named the claimant as the bounty site and the AI system as
+unknown, and did not verify or endorse the records.
 
 **Source.** [erdosproblems.com/14](https://www.erdosproblems.com/14), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #14,

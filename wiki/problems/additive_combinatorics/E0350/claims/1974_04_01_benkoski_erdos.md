@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0350/claims/1974_04_01_benkoski_erdos
 title: Ryavec's proof of the reciprocal bound, published by Benkoski and Erdős
 desc: |
-  Theorem 1 of Benkoski and Erdős (Math. Comp. 1974), by an argument credited
-  to C. Ryavec, proves that a set of positive integers with distinct subset
-  sums has reciprocal sum below two, with the refinement 2 - 2^(1-n); accepted.
+  Theorem 1 of Benkoski and Erdős (Math. Comp. 1974) proves, by an argument
+  credited to C. Ryavec, that a set of positive integers with distinct subset
+  sums has reciprocal sum below $2$, with the refinement $2-2^{1-n}$. The claim
+  is accepted.
 authors:
 - S. J. Benkoski
 - P. Erdős
@@ -114,17 +115,15 @@ described. No `formalized` evidence is listed: that evidence means Lean
 this corpus built and audited, and no statement-fidelity review of either
 file exists.
 
-**Acceptance.** Refereed publication: Mathematics of Computation 28 (1974),
-no. 126, 617--623, received 28 June 1973 and issued April 1974 (the issue
-month printed on the paper's first page; the date of this page). Reviewed:
-the site's curator (T. F. Bloom) labels the problem proved and credits the
-proof to Ryavec as reproduced in [BeEr74] (; no
-last-edited date). Erdős's own records of the theorem as proved, in his
-surveys of 1975 (p. 302) and 1977 (p. 52) and, with Graham, in the 1980
-monograph (p. 60), are an author's restatements and are context, not
-independent review. The site's Lean mark
+**Acceptance.** Refereed publication: Mathematics of Computation 28 (1974), no.
+126, 617--623, received 28 June 1973 and issued April 1974. April 1974 is the
+issue month printed on the paper's first page and the date of this page.
+Reviewed: the site's curator (T. F. Bloom) labels the problem proved and credits
+the proof to Ryavec as reproduced in [BeEr74] (no last-edited date). Erdős also
+recorded the theorem as proved in his surveys of 1975 (p. 302) and 1977 (p. 52)
+and, with Graham, in the 1980 monograph (p. 60). These are an author's
+restatements. They are context, not independent review. The site's Lean mark
 dates from Alexeev's file of 25 November 2025, the first of the two external
-Lean developments above; the fork's proof entered the catalog in April
-2026. The stronger
-Dirichlet-series bound of Hanson, Steele and Stenger has
+Lean developments above. The fork's proof entered the catalog in April 2026. The
+stronger Dirichlet-series bound of Hanson, Steele and Stenger has
 [[problems/additive_combinatorics/E0350/claims/1977_09_01_hanson_steele_stenger|its own page]].

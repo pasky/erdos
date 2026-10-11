@@ -3,8 +3,8 @@ name: problems/set_systems/E0723/claims/1989_12_01_lam_thiel_swiercz
 title: Lam, Thiel and Swiercz's nonexistence of a plane of order 10
 desc: |
   Lam, Thiel and Swiercz (1989) report the computer search showing that no
-  finite projective plane of order 10 exists, the smallest order that is not
-  a prime power and passes the Bruck–Ryser test; a partial answer.
+  finite projective plane of order $10$ exists, a partial answer. Order $10$ is
+  the smallest order that is not a prime power and passes the Bruck–Ryser test.
 authors:
 - C. W. H. Lam
 - L. Thiel
@@ -55,11 +55,10 @@ $n=10$. Together with Bruck and Ryser's exclusion of $n=6$ the conjecture
 holds for every $n\le11$, and $n=12$ is the first order it leaves undecided.
 
 **Acceptance.** Refereed: C. W. H. Lam, L. Thiel and S. Swiercz, The
-non-existence of finite projective planes of order 10, Canad. J. Math.
-**41** (1989), no. 6, 1117–1123; the issue is dated December 1989, and the
-page is dated to the first day of that month. The site's curator records the
-exclusion under [La97], Lam's Monthly article of 1991, while labeling the
-problem FALSIFIABLE, which credits the partial result without settling the
-problem, so the page lists no `reviewed` evidence. The search was not
-repeated and the paper is not held in this corpus; the account above follows
-Lam's expository article [La97].
+non-existence of finite projective planes of order 10, Canad. J. Math. **41**
+(1989), no. 6, 1117–1123. The issue is dated December 1989, and the page is
+dated to the first day of that month. The site's curator records the exclusion
+under [La97], Lam's Monthly article of 1991, and labels the problem FALSIFIABLE.
+This credits the partial result without settling the problem, so the page lists
+no `reviewed` evidence. The search was not repeated, and the paper is not held
+in this corpus. The account above follows Lam's expository article [La97].

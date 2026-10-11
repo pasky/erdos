@@ -2,9 +2,10 @@
 name: problems/polynomials/E0116/claims/1961_01_01_pommerenke
 title: Lemniscate set contains a disk of radius about n to the minus 2
 desc: |
-  Pommerenke proves that a monic polynomial with zeros in the closed unit disk
-  has modulus at most one on a disk of radius 1/(2e n^2), so on a set of area
-  at least a constant over n^4; refereed and credited by the site.
+  Pommerenke proves that a monic polynomial of degree $n$ with zeros in the
+  closed unit disk has modulus at most one on a disk of radius $1/(2en^2)$, so
+  on a set of area at least a constant times $n^{-4}$. The result is refereed
+  and credited by the site.
 authors:
 - Ch. Pommerenke
 status: accepted
@@ -58,13 +59,13 @@ Lundberg and Ramachandran 2025]].
 paper.
 
 **Acceptance.** Refereed: the paper appeared in the Michigan Mathematical
-Journal in 1961 (volume 8, issue 2; the issue carries no month, so the page's
-date is the first day of the publication year). Reviewed: erdosproblems.com
+Journal in 1961 (volume 8, issue 2). The issue carries no month, so the page's
+date is the first day of the publication year. Reviewed: erdosproblems.com
 labels the problem proved and states that the lower bound $\gg n^{-4}$ follows
-from this paper, cited as [Po61] (page last edited 2025-10-24), which the corpus
-counts as documented independent acceptance by the site's curator, T. F. Bloom
-(erdosproblems.com); the community database lists the problem as proved with a
-Lean marker (entry last updated 2026-08-24).
+from this paper, cited as [Po61] (page last edited 2025-10-24). The corpus
+counts this as documented independent acceptance by the site's curator, T. F.
+Bloom (erdosproblems.com). The community database lists the problem as proved
+with a Lean marker (entry last updated 2026-08-24).
 
 **Formalization.** The site's Lean marker refers to a formal proof by others,
 with a different argument: the file linked above, in the `lean-proofs`

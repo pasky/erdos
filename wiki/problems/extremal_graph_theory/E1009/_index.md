@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E1009
 title: Problem 1009
 desc: |
-  Asks whether, for each positive c, a graph on n vertices with the Turán
-  number plus k edges, k below cn, has at least k minus f(c) edge-disjoint
-  triangles; proved by Győri (1988), a paper known only by attestation.
+  Asks whether, for each $c>0$, every graph on $n$ vertices with
+  $\lfloor n^2/4\rfloor+k$ edges, $k<cn$, has at least $k-f(c)$ edge-disjoint
+  triangles. Proved by Győri (1988), a paper known only through attestation.
 tags:
 - Graph theory
 status: solved
@@ -39,27 +39,30 @@ $\lfloor n^2/4\rfloor+2n-6$ edges and only $2n-7$ edge-disjoint triangles, so
 $f(2)\ge1$. The literature writes $t_2(n)=\lfloor n^2/4\rfloor$ for the
 Turán number and $\nu(G)$ for the largest number of edge-disjoint triangles.
 
-**Status.** Proved. The site credits Győri [Gy88] with the proof and adds, as
-its reading of the paper, that $f(c)\ll c^2$ and that no loss occurs ($f(c)=0$)
-when $n$ is odd and $c<2$, or when $n$ is even and $c<3/2$; the no-loss sentence
-is a statement for $n$ large in terms of $c$ (the Current assessment records the
-small cases that refute it as an all-$n$ statement). Győri's paper
-(Combinatorics (Eger, 1987), Colloq. Math. Soc. János Bolyai 52, North-Holland
-(1988), 267--276) is print-only and not held. Its theorem is attested in a
-refereed later paper, Blumenthal, Lidický, Pehova, Pfender, Pikhurko and Volec
-(Combin. Probab. Comput. 30 (2021), 271--287), whose p. 8 (arXiv version) quotes
-"the result of Győri [12, Theorem 1] that a graph with $n$ vertices and
-$t_2(n)+k$ edges, where $n\to\infty$ and $k=o(n^2)$, has at least $k-O(k^2/n^2)$
-edge-disjoint triangles" and whose Section 5 states the exact no-loss ranges for
-large $n$, and, for the same ranges, in the refereed paper of Balogh and Wigal
-(arXiv:2502.16683v2, p. 10). With $k<cn$ the loss $O(k^2/n^2)$ is $O(c^2)$ for
-all large $n$, which is the site's $f(c)\ll c^2$ (an authored conversion below).
+**Status.** Proved. The site credits Győri [Gy88] with the proof. As its reading
+of the paper, the site adds that $f(c)\ll c^2$, and that no loss occurs
+($f(c)=0$) when $n$ is odd and $c<2$, or when $n$ is even and $c<3/2$. The
+no-loss sentence is a statement for $n$ large in terms of $c$. The Current
+assessment records the small cases that refute it as an all-$n$ statement.
+
+Győri's paper (Combinatorics (Eger, 1987), Colloq. Math. Soc. János Bolyai 52,
+North-Holland (1988), 267--276) is print-only and not held. Its theorem is
+attested in a refereed later paper, Blumenthal, Lidický, Pehova, Pfender,
+Pikhurko and Volec (Combin. Probab. Comput. 30 (2021), 271--287). On p. 8 (arXiv
+version), the later paper quotes "the result of Győri [12, Theorem 1] that a
+graph with $n$ vertices and $t_2(n)+k$ edges, where $n\to\infty$ and $k=o(n^2)$,
+has at least $k-O(k^2/n^2)$ edge-disjoint triangles". Its Section 5 states the
+exact no-loss ranges for large $n$. For the same ranges, the theorem is also
+attested in the refereed paper of Balogh and Wigal (arXiv:2502.16683v2, p. 10).
+With $k<cn$ the loss $O(k^2/n^2)$ is $O(c^2)$ for all large $n$, which is the
+site's $f(c)\ll c^2$ (an authored conversion below).
+
 The label rests on Erdős's question, the site's acceptance and the refereed
-quotation; the text of the theorem, its constants and its range of $n$ are not
-available, which the Remaining gaps below record. The claim page
+quotation. The text of the theorem, its constants and its range of $n$ are not
+available, as the Remaining gaps below record. The claim page
 [[problems/extremal_graph_theory/E1009/claims/1988_01_01_gyori|Győri 1988]]
 records the result, its attestations, the acceptance evidence and the Lean
-development of 2026 that declares itself a formalization of the result; the
+development of 2026 that declares itself a formalization of the result. The
 standing in the frontmatter is derived from it.
 
 **Source.** [erdosproblems.com/1009](https://www.erdosproblems.com/1009),

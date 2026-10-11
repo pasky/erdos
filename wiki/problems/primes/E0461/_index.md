@@ -2,8 +2,10 @@
 name: problems/primes/E0461
 title: Problem 461
 desc: |
-  Asks whether the number of distinct smooth parts, using primes below t, of
-  the t consecutive integers after n is always at least a constant times t.
+  Asks whether, uniformly for all $t$ and $n$, the $t$-smooth parts of the $t$
+  integers in $[n+1,n+t]$ take $\gg t$ distinct values, where the $t$-smooth
+  part of $m$ is the product of its prime factors below $t$, counted with
+  multiplicity; open.
 tags:
 - Number theory
 - Primes

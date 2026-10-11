@@ -3,8 +3,9 @@ name: problems/covering_systems/E0002/claims/2005_07_18_filaseta_ford_konyagin_p
 title: Bounded reciprocal sum forces a bounded minimum modulus
 desc: |
   Theorem A of Filaseta, Ford, Konyagin, Pomerance and Yu (J. Amer. Math. Soc.
-  2007): large distinct moduli with a slowly growing reciprocal sum cannot
-  cover, so bounded reciprocal sum bounds the minimum modulus; refereed.
+  2007) shows that large distinct moduli with a slowly growing reciprocal sum
+  cannot cover the integers, so covering systems with bounded reciprocal sum
+  have bounded minimum modulus. The paper is refereed.
 authors:
 - Michael Filaseta
 - Kevin Ford
@@ -69,8 +70,8 @@ with the bound $616000$ on
 
 **Acceptance.** Refereed: Journal of the American Mathematical Society 20
 (2007), no. 2, 495--517, doi:10.1090/S0894-0347-06-00549-2, published online
-2006-09-19; the arXiv preprint math/0507374 of 2005-07-18 names this page.
-Not reviewed: the site's curator credits the answer to Hough and names this
-paper only as the groundwork of his proof. Not formalized: no Lean proof of
-Theorem A is recorded. The library card records the statement; the proof is
-not compiled in this corpus.
+2006-09-19. The arXiv preprint math/0507374 of 2005-07-18 names this page. Not
+reviewed: the site's curator credits the answer to Hough and names this paper
+only as the groundwork of his proof. Not formalized: no Lean proof of Theorem A
+is recorded. The library card records the statement, and the proof is not
+compiled in this corpus.

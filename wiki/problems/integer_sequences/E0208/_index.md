@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0208
 title: Problem 208
 desc: |
-  Bounds the gaps between consecutive squarefree numbers, asking whether they
-  are smaller than any fixed power, and whether a sharp logarithmic bound
-  holds.
+  Asks whether the gap after the squarefree number $s_n$ is
+  $\ll_\epsilon s_n^{\epsilon}$ for every $\epsilon>0$, and whether it is at
+  most $(1+o(1))\frac{\pi^2}{6}\frac{\log s_n}{\log\log s_n}$; open.
 tags:
 - Number theory
 status: open
@@ -34,14 +34,13 @@ $$
 s_{n+1}-s_n \leq (1+o(1))\frac{\pi^2}{6}\frac{\log s_n}{\log\log s_n}?
 $$
 
-**Status.** Open: the site labels the problem OPEN (page last edited 19
-October 2025). Neither question is answered. The first is proved for every
-$\epsilon>1/5$ by Filaseta and Trifonov (1992), claimed for every
-$\epsilon>1/5-\eta$, with some $\eta>0$, in Pandey's 2024 preprint (a pending
-partial claim), and proved for every $\epsilon>0$ under the abc conjecture by
-Granville (1998); the second is open, and Erdős's 1951 lower bound shows that
-its constant $\pi^2/6$ could not be lowered. The claim pages under claims/
-record these results.
+**Status.** Open: the site labels the problem OPEN (page last edited 19 October
+2025). Neither question is answered. Filaseta and Trifonov (1992) proved the
+first for every $\epsilon>1/5$. Pandey's 2024 preprint claims it for every
+$\epsilon>1/5-\eta$ with some $\eta>0$, as a pending partial claim. Granville
+(1998) proved it for every $\epsilon>0$ under the abc conjecture. The second
+question is open. Erdős's 1951 lower bound shows that its constant $\pi^2/6$
+could not be lowered. The claim pages under claims/ record these results.
 
 **Source.** [erdosproblems.com/208](https://www.erdosproblems.com/208), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #208,

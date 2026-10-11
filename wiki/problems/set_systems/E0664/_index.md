@@ -2,9 +2,10 @@
 name: problems/set_systems/E0664
 title: Problem 664
 desc: |
-  Concerns families of subsets of the first n integers, each of size above a
-  constant times the square root of n, with any two sharing at most one
-  element.
+  Concerns families of subsets of $\{1,\ldots,n\}$, each of size above
+  $c\sqrt n$ for a constant $c$, in which any two members share at most one
+  element. It asks whether some set meets every member in a nonempty, bounded
+  number of points, and the answer is no.
 tags:
 - Combinatorics
 status: solved
@@ -28,25 +29,25 @@ $\lvert A_i\cap A_j\rvert\leq 1$ for all $i\neq j$.
 Must there exist some set $B$ such that $B\cap A_i\neq \emptyset$ and $\lvert
 B\cap A_i\rvert \ll_c 1$ for all $i$?
 
-**Status.** Disproved on the site (label DISPROVED; page last edited 27
-January 2026). The site remarks that a positive answer would give every finite
-geometry a blocking set meeting each line in a bounded number of points, that
-Erdős's formulation in [Er81] asks instead about pairwise balanced block
-designs (every pair of points in exactly one $A_i$, with the size condition
-$|A_i|>c\sqrt n$ kept for every $c>0$ and no restriction $c<1$), and
-that Alon answered the question no: for a large prime power $q$ and
-$n=m=q^2+q+1$ there are sets with $|A_i|\ge\tfrac25\sqrt n$ and pairwise
-intersections of size at most $1$ such that every $B$ meeting all of them
-meets some $A_j$ in $\gg\log n$ points, each set a random half of a line of
-a projective plane of order $q$. The standing rests on
+**Status.** Disproved on the site (label DISPROVED; page last edited 27 January
+2026). The standing rests on
 [[problems/set_systems/E0664/claims/2024_08_03_alon|Alon's construction]],
-accepted on the curator's credit; the note was published in 2026 as Section
-4 of Alon's chapter *Problems and Results in Extremal Combinatorics–V*
+accepted on the curator's credit. The site reports that Alon answered the
+question no. For a large prime power $q$ and $n=m=q^2+q+1$, he takes each set to
+be a random half of a line of a projective plane of order $q$. This gives sets
+with $|A_i|\ge\tfrac25\sqrt n$ and pairwise intersections of size at most $1$
+such that every $B$ meeting all of them meets some $A_j$ in $\gg\log n$ points.
+The note was published in 2026 as Section 4 of Alon's chapter *Problems and
+Results in Extremal Combinatorics–V*
 ([[../library/extremal_graph_theory/alon_2026_problems_results_extremal_combinatorics_v/_index|card]]),
-in a proceedings volume. The block-design version of [Er81] remains open,
-with Alon conjecturing a negative answer there too, and
-[[problems/set_systems/E1159/_index|Problem 1159]] asks the
-projective-plane case.
+in a proceedings volume. The site also remarks that a positive answer would give
+every finite geometry a blocking set meeting each line in a bounded number of
+points. Erdős's formulation in [Er81] asks instead about pairwise balanced block
+designs. There every pair of points lies in exactly one $A_i$, and the size
+condition $|A_i|>c\sqrt n$ is kept for every $c>0$, with no restriction $c<1$.
+This block-design version of [Er81] remains open, and Alon conjectures a
+negative answer there too. [[problems/set_systems/E1159/_index|Problem 1159]]
+asks the projective-plane case.
 
 **Source.** [erdosproblems.com/664](https://www.erdosproblems.com/664), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #664,

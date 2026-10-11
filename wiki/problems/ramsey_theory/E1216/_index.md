@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E1216
 title: Problem 1216
 desc: |
-  Estimates the largest transitive subtournament every tournament on n
-  vertices must contain; floor(log_2 n) + 1 first fails at n = 14 and fails
-  for infinitely many n; f is known exactly for n <= 33 and 47 <= n <= 56.
+  Asks whether the largest transitive subtournament that every tournament on $n$
+  vertices must contain has $\lfloor\log_2 n\rfloor+1$ vertices. This first
+  fails at $n=14$ and fails for infinitely many $n$, and the exact value is
+  known for $n\le33$ and $47\le n\le56$.
 tags:
 - Graph theory
 - Ramsey theory
@@ -43,33 +44,32 @@ elementary remark). The question asks whether Stearns's lower bound
 $f(n)\ge\lfloor\log_2n\rfloor+1$ is exact for every $n$; one $n$ with a
 larger value refutes it.
 
-**Status.** Disproved. Reid and Parker proved in 1970 that every tournament
-on $14$ vertices contains a transitive subtournament on $5$ vertices (Theorem
-4, printed p. 235; with their $13$-vertex tournament free of $TT_5$, pp.
-235--236, this is $R(5)=14$), so $f(14)=5$ while
-$\lfloor\log_214\rfloor+1=4$, and more generally
+**Status.** Disproved. Reid and Parker (J. Combinatorial Theory 9 (1970),
+225--238, refereed) proved that every tournament on $14$ vertices contains a
+transitive subtournament on $5$ vertices (Theorem 4, printed p. 235). With their
+$13$-vertex tournament free of $TT_5$ (pp. 235--236), this gives $R(5)=14$. So
+$f(14)=5$, while $\lfloor\log_214\rfloor+1=4$. More generally,
 $f(n)\ge\lfloor\log_2(16n/7)\rfloor=\lfloor\log_2n+4-\log_27\rfloor$ for
-$n\ge14$ (Corollary 2, p. 235), which exceeds $\lfloor\log_2n\rfloor+1$ for
-$n$ in the range $[7\cdot2^j,2^{j+3})$ of each $j\ge1$. Their paper (J.
-Combinatorial Theory 9 (1970), 225--238, refereed) is in the publisher's open
-archive: library home
+$n\ge14$ (Corollary 2, p. 235). This exceeds $\lfloor\log_2n\rfloor+1$ for $n$
+in the range $[7\cdot2^j,2^{j+3})$ of each $j\ge1$. The paper states the
+conjecture in the equivalent form "for each positive integer $k$, there exists a
+$T_n$ with $n=2^{k-1}-1$ which contains no $TT_k$" (p. 226), and shows it "false
+for all $k\ge5$" (p. 235). The claim page
+[[problems/ramsey_theory/E1216/claims/1970_10_01_reid_parker|Reid and Parker 1970]]
+records the theorem, its postings and the acceptance evidence. The later
+refutations each have their own claim page, listed under Claims below. The
+frontmatter standing is derived from these pages. The standing rests on
+Theorem 4. Its proof was followed as a reduction to the paper's Theorems 2 and 3, and it
+is not independently checked. The paper is in the publisher's open archive. Its
+library home is
 [[../library/ramsey_theory/reid_parker_1970_disproof_conjecture_erdos_moser_tournaments/_index|reid_parker_1970_disproof_conjecture_erdos_moser_tournaments]],
-result pages
+with result pages
 [[../library/ramsey_theory/reid_parker_1970_disproof_conjecture_erdos_moser_tournaments/theorem_4|Theorem 4]]
 and
 [[../library/ramsey_theory/reid_parker_1970_disproof_conjecture_erdos_moser_tournaments/corollary_2|Corollary 2]].
-The claim page
-[[problems/ramsey_theory/E1216/claims/1970_10_01_reid_parker|Reid and Parker 1970]]
-records the theorem, its postings and the acceptance evidence; the later
-refutations each have their own claim page (listed under Claims below), and
-the frontmatter standing is derived from them. The paper states the
-conjecture in the equivalent form "for each positive integer $k$, there
-exists a $T_n$ with $n=2^{k-1}-1$ which contains no $TT_k$" (p. 226) and
-shows it "false for all $k\ge5$" (p. 235). The standing rests on Theorem 4;
-its proof was followed as a reduction to the paper's Theorems 2 and 3 and is
-not independently checked. The origin's own bounds,
-$\lfloor\log_2n\rfloor+1\le f(n)\le2\lfloor\log_2n\rfloor+1$, are cited from
-the origin itself.
+The origin's own bounds,
+$\lfloor\log_2n\rfloor+1\le f(n)\le2\lfloor\log_2n\rfloor+1$, are cited from the
+origin itself.
 
 **Source.** [erdosproblems.com/1216](https://www.erdosproblems.com/1216),
 accessed 2026-09-18 at 10:39 UTC: the problem page (DISPROVED,

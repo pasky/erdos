@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0564
 title: Problem 564
 desc: |
-  Estimates the Ramsey number for three-uniform hypergraphs, the fewest
-  vertices forcing a monochromatic complete three-uniform subhypergraph on n
-  vertices.
+  Asks whether $R_3(n)\ge2^{2^{cn}}$ for some $c>0$, where $R_3(n)$ is the
+  two-color Ramsey number of the complete $3$-uniform hypergraph on $n$
+  vertices; open.
 tags:
 - Graph theory
 - Ramsey theory
@@ -45,12 +45,11 @@ bounds for $2\le r\le b$), which agrees with the eventual reading up to the
 value of $c$; for $n=1,2$ the inequality fails for every $c>0$, since $R_3(1)=1$
 and $R_3(2)=2$.
 
-**Status.** Open. No proof, disproof, preprint or proof claim for the exact
-statement was found in the search whose scope the
-Current assessment records. The bounds in hand are
-$2^{cn^2}\le R_3(n)\le2^{2^{4n-10}}$, both stated in [EHR65] with the proofs
-omitted; the double-exponential lower bound is known with four colors, and
-a 2025 paper published in 2026 calls closing the two-color gap "a major open
+**Status.** Open. The search whose scope the Current assessment records found no
+proof, disproof, preprint or proof claim for the exact statement. The bounds in
+hand are $2^{cn^2}\le R_3(n)\le2^{2^{4n-10}}$, both stated in [EHR65] with the
+proofs omitted. The double-exponential lower bound is known with four colors. A
+2025 paper published in 2026 calls closing the two-color gap "a major open
 problem". This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/564](https://www.erdosproblems.com/564), accessed

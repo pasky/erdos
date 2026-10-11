@@ -2,9 +2,10 @@
 name: problems/discrepancy/E0992/claims/1994_12_01_berkes_philipp
 title: Berkes and Philipp's counterexample sequence
 desc: |
-  Berkes and Philipp built an increasing integer sequence whose discrepancy of
-  multiples of alpha exceeds a constant times the square root of N log N
-  infinitely often for almost every alpha; refereed in J. London Math. Soc.
+  Berkes and Philipp built an increasing integer sequence $(n_k)$ such that, for
+  almost every $\alpha$, the discrepancy of the multiples $n_k\alpha$ exceeds a
+  constant times $\sqrt{N\log N}$ infinitely often. The paper is refereed, in J.
+  London Math. Soc.
 authors:
 - István Berkes
 - Walter Philipp
@@ -70,13 +71,16 @@ alone.
 trigonometric and Walsh series and uniform distribution mod 1, J. London Math.
 Soc. (2) 50 (1994), no. 3, 454–464. Reviewed: the site's curator, T. F. Bloom,
 records the problem as disproved by this paper (site page last edited
-2026-01-29). The site page thanks the Superhuman Reasoning team at Google
-DeepMind, and Feng and others (2026), on the
+2026-01-29).
+
+The site page thanks the Superhuman Reasoning team at Google DeepMind. Feng and
+others (2026), on the
 [[../library/distance_problems/feng_2026_semi_autonomous_mathematics_discovery_gemini_case/_index|Feng et al. card]],
-list Problem 992 among the problems for which their Gemini-based research
-agent, Aletheia, pointed to existing literature, namely this paper; that is a
-literature identification and not a new result. The paper's print date is
-known to the month (December 1994), so this page is dated to the first day of
-that month. The paper is not held in the library; the statement above is
-recorded from the site's remark and the citation, and the Lean development
-states the same inequality.
+list Problem 992 among the problems for which their Gemini-based research agent,
+Aletheia, pointed to existing literature. For this problem the literature was
+this paper. That is a literature identification, not a new result.
+
+The paper's print date is known only to the month (December 1994), so this page
+is dated to the first day of that month. The paper is not held in the library.
+The statement above is recorded from the site's remark and the citation, and the
+Lean development states the same inequality.

@@ -2,9 +2,9 @@
 name: problems/additive_bases/E0330
 title: Problem 330
 desc: |
-  Asks whether a minimal basis of positive density exists in which, for each
-  of its elements, the integers needing that element have positive upper
-  density.
+  Asks whether some minimal basis of positive density has, for each element $n$,
+  a positive upper density of integers that cannot be represented without $n$;
+  proved.
 tags:
 - Number theory
 - Additive bases
@@ -36,11 +36,12 @@ $A$ is a stronger question, which the accepted construction does not address.
 **Status.** PROVED (LEAN), the site's label. The standing rests on one accepted
 claim page,
 [[problems/additive_bases/E0330/claims/2026_04_24_turturean|the AI-generated construction of 2026]],
-accepted on the site's relabeling of 2026-05-11; the checks posted on the thread
+accepted on the site's relabeling of 2026-05-11. The checks posted on the thread
 were ChatGPT runs, and there is no refereed publication. The label's Lean
 qualification dates from 2026-05-11, after the first outside formalization was
-announced (2026-05-05); a single-file vendoring of it followed; neither is built
-or audited in this corpus, and both are linked from the claim page.
+announced on 2026-05-05. A single-file vendoring of that formalization followed.
+Neither is built or audited in this corpus, and both are linked from the claim
+page.
 
 **Source.** [erdosproblems.com/330](https://www.erdosproblems.com/330), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #330,

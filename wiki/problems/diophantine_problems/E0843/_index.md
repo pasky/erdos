@@ -2,8 +2,9 @@
 name: problems/diophantine_problems/E0843
 title: Problem 843
 desc: |
-  Asks whether the squares are Ramsey 2-complete, so that any 2-coloring of
-  them leaves all large integers as sums of distinct same-colored squares.
+  Asks whether the squares are Ramsey $2$-complete, meaning that in every
+  $2$-coloring of the squares each large enough integer is a sum of distinct
+  squares of one color; proved.
 tags:
 - Number theory
 status: solved

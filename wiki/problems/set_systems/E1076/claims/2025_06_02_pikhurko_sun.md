@@ -2,10 +2,10 @@
 name: problems/set_systems/E1076/claims/2025_06_02_pikhurko_sun
 title: The (10,8) limit is at least 3/16, refuting the site's wording at k = 10
 desc: |
-  Correct, but answers the site's wording (the single family F_10), not the
-  corrected Statement (the cumulative family), so it does not count toward the
-  problem's standing. The (10,8) limit is at least 3/16, above 1/6, refereed
-  in European J. Combin.
+  The $(10,8)$ limit is at least $3/16$, above $1/6$, refereed in European J.
+  Combin. It is correct but answers the site's wording (the single family
+  $F_{10}$), not the corrected Statement (the cumulative family), so it does not
+  count toward the problem's standing.
 authors:
 - Oleg Pikhurko
 - Shumin Sun
@@ -67,8 +67,7 @@ nothing against it, and the page does not count toward the problem's standing.
 The problem page's Notes credit the result.
 
 **Acceptance.** Refereed: O. Pikhurko and S. Sun, On the quadratic 8-edge case
-of the Brown–Erdős–Sós problem, European J. Combin. 135 (2026), 104364, dated
-4 March 2026 in the publisher's record, after the arXiv posting of
-2 June 2025. The site does not cite the paper on this problem and its curator
-makes no statement about it; the proof is unreviewed, and no formalization is
-known.
+of the Brown–Erdős–Sós problem, European J. Combin. 135 (2026), 104364. The
+publisher's record dates it 4 March 2026, after the arXiv posting of 2
+June 2025. The site does not cite the paper on this problem, and its curator makes no
+statement about it. The proof is unreviewed, and no formalization is known.

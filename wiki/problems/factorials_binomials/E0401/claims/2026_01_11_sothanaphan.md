@@ -3,8 +3,8 @@ name: problems/factorials_binomials/E0401/claims/2026_01_11_sothanaphan
 title: Sothanaphan's deduction from the Problem 728 argument
 desc: |
   The valuation argument behind the Lean proof of Problem 728, generalized to a
-  density-one theorem, yields the examples Problem 401 asks for; stated with a
-  sketched proof in the appendix of Sothanaphan's arXiv write-up.
+  density-one theorem, yields the examples Problem 401 asks for. Sothanaphan's
+  arXiv write-up states this in its appendix, with a sketched proof.
 authors:
 - Nat Sothanaphan
 status: claimed

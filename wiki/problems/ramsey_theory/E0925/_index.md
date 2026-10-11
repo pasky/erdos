@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0925
 title: Problem 925
 desc: |
-  Asks whether every n-vertex graph whose edges can be 2-colored with no
-  monochromatic triangle has an independent set above the cube root of n by a
-  power; disproved through the Alon–Rödl bound on R(3,3,m).
+  Asks whether every $n$-vertex graph whose edges can be 2-colored with no
+  monochromatic triangle has an independent set of size $\gg n^{1/3+\delta}$ for
+  some fixed $\delta>0$. Disproved through the Alon–Rödl bound on $R(3,3,m)$.
 tags:
 - Graph theory
 - Ramsey theory
@@ -39,24 +39,24 @@ for $K_3$ whose independent sets are the cliques of the third color. The easy
 bound $\gg n^{1/3}$ is the one Erdős calls "very easy" in the origin and the
 site's commentary calls easy.
 
-**Status.** Disproved. The status-defining source is Theorem 3.2 of Alon and
-Rödl, Combinatorica 25 (2005), 125--141 (refereed; the page numbers used
-here are the authors' final manuscript's), in the form of the explicit
-lower-bound construction inside its proof (p. 7): for infinitely many $N$, a
-$3$-coloring of $K_N$ with no monochromatic triangle in the first two colors
-and a third color whose clique number is below $c\,N^{1/3}(\log N)^2$, so
-the graph of the first two colors is $2$-colorable without a monochromatic
-triangle and has independence number below $c\,N^{1/3}(\log N)^2$, which is
-$o(N^{1/3+\delta})$ for every $\delta>0$; the answer is no. The conversion
-is written in the Current assessment and named there as authored; the paper
-never states the problem. The site's commentary credits Alon and Rödl
-[AlRo05] with the disproof, with the bounds
-$m^3/(\log m)^{4+o(1)}\ll R(3,3,m)\ll m^3\log\log m/(\log m)^2$ and
-Sudakov's removal of the $\log\log m$, and so records the same resolution
-through the reformulation. The claim page
+**Status.** Disproved. The claim page
 [[problems/ramsey_theory/E0925/claims/2005_03_01_alon_rodl|Alon and Rödl 2005]]
 records the theorem, its construction, the conversion and its acceptance
-evidence, and the frontmatter standing derives from it.
+evidence, and the frontmatter standing derives from it. The status-defining
+source is Theorem 3.2 of Alon and Rödl, Combinatorica 25 (2005), 125--141
+(refereed; the page numbers used here are the authors' final manuscript's). It
+is used in the form of the explicit lower-bound construction inside its proof
+(p. 7). For infinitely many $N$, that construction gives a $3$-coloring of $K_N$
+with no monochromatic triangle in the first two colors and a third color whose
+clique number is below $c\,N^{1/3}(\log N)^2$. So the graph of the first two
+colors is $2$-colorable without a monochromatic triangle and has independence
+number below $c\,N^{1/3}(\log N)^2$, which is $o(N^{1/3+\delta})$ for every
+$\delta>0$. The answer is no. The conversion is written in the Current
+assessment and named there as authored. The paper never states the problem. The
+site's commentary credits Alon and Rödl [AlRo05] with the disproof, with the
+bounds $m^3/(\log m)^{4+o(1)}\ll R(3,3,m)\ll m^3\log\log m/(\log m)^2$ and
+Sudakov's removal of the $\log\log m$. The commentary thus records the same
+resolution through the reformulation.
 
 **Source.** [erdosproblems.com/925](https://www.erdosproblems.com/925),
 accessed 2026-09-18: the problem page (DISPROVED, which the site glosses as

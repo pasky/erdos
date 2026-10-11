@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0493
 title: Problem 493
 desc: |
-  Asks whether there is a fixed k such that every large enough integer is the
-  product of k integers at least two minus their sum.
+  Asks whether some $k$ makes every large enough integer of the form
+  $\prod_{i=1}^k a_i-\sum_{i=1}^k a_i$ with all $a_i\ge2$; proved.
 tags:
 - Number theory
 status: solved
@@ -29,13 +29,12 @@ $$
 
 for some integers $a_i\geq 2$?
 
-**Status.** PROVED (LEAN): the site's label, crediting Seamans's two-term
+**Status.** PROVED (LEAN), the site's label. The site credits Seamans's two-term
 identity. The claim page
 [[problems/diophantine_problems/E0493/claims/2024_07_21_seamans|Seamans]]
-records the result and its acceptance, and
+records the result and its acceptance.
 [[problems/diophantine_problems/E0493/claims/2025_12_27_alexeev|Alexeev's AI-generated Lean proof]]
-of the same identity, which this repository has not built, is a pending
-claim.
+of the same identity is a pending claim, and this repository has not built it.
 
 **Source.** [erdosproblems.com/493](https://www.erdosproblems.com/493), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #493,

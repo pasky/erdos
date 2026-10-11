@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0407/claims/1988_03_01_tijdeman_wang
 title: Tijdeman and Wang's bound of four representations
 desc: |
-  Tijdeman and Wang prove that every rational number beyond some constant has
-  at most four representations as 2^a 3^b + 2^c + 3^d once representations
-  with the same three summands are identified, four being best possible.
+  Tijdeman and Wang prove that every rational number beyond some constant has at
+  most four representations as $2^a3^b+2^c+3^d$, when representations with the
+  same three summands are identified. Four is best possible.
 authors:
 - Robert Tijdeman
 - Lian Xiang Wang
@@ -74,9 +74,9 @@ statement of Theorem 4 and the introduction of the paper
 the proof was not checked.
 
 **Acceptance.** The paper is a refereed publication in the Pacific Journal of
-Mathematics, the `refereed` evidence. The site's curator, T. F. Bloom, labels
-the problem proved and credits this paper in the problem's commentary with
-the quantitative bound; that documented acceptance is the `reviewed`
+Mathematics, which is the `refereed` evidence. The site's curator, T. F. Bloom,
+labels the problem proved and credits this paper in the problem's commentary
+with the quantitative bound. That documented acceptance is the `reviewed`
 evidence. Bajpai and Bennett's introduction restates the theorem as their
-Theorem 2 and builds on it; their effective version has its own
+Theorem 2 and builds on it. Their effective version has its own
 [[problems/diophantine_problems/E0407/claims/2023_08_09_bajpai_bennett|page]].

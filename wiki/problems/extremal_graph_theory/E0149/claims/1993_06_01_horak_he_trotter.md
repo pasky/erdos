@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0149/claims/1993_06_01_horak_he_trotter
 title: Horák, He and Trotter's bound of ten for maximum degree three
 desc: |
-  The Theorem of Horák, He and Trotter (J. Graph Theory 1993): a graph of
-  maximum degree at most three has strong chromatic index at most ten, best
-  possible; the statement holds for maximum degree at most three; refereed.
+  The Theorem of Horák, He and Trotter (J. Graph Theory 1993) states that a
+  graph of maximum degree at most three has strong chromatic index at most ten,
+  which is best possible. So the statement holds for maximum degree at most
+  three, and the result is refereed.
 authors:
 - Peter Horák
 - He Qing
@@ -57,11 +58,11 @@ instance.
 
 **Depends on.** Nothing in this wiki; the proof is the paper's own.
 
-**Acceptance.** Refereed: Journal of Graph Theory (the Crossref record gives
-volume 17, issue 2, pp. 151--160, issue dated June 1993; the day is the
-issue's nominal first day, used for this page's date). The site's curator
-credits the result in the problem's commentary, but the site labels the
-problem OPEN, so the commentary is not listed as review. Read depth: the
-Theorem, the abstract and the paragraph after the Theorem are checked clause
-by clause in the author's copy on Trotter's publication page; the proof (pp.
-152--160) is not, so nothing is independently reviewed in this repository.
+**Acceptance.** Refereed: Journal of Graph Theory. The Crossref record gives
+volume 17, issue 2, pp. 151--160, with the issue dated June 1993. This page's
+date uses the issue's nominal first day. The site's curator credits the result
+in the problem's commentary. The site labels the problem OPEN, so the commentary
+is not listed as review. Read depth: the Theorem, the abstract and the paragraph
+after the Theorem were checked clause by clause, in the author's copy on
+Trotter's publication page. The proof (pp. 152--160) was not checked, so nothing
+is independently reviewed in this repository.

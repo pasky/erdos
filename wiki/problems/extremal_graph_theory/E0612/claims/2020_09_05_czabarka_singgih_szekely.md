@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0612/claims/2020_09_05_czabarka_singgih_szekely
 title: Counterexamples to part (i) for every r at least 2
 desc: |
-  Czabarka, Singgih and Székely construct connected K_{2r}-free graphs whose
-  diameter exceeds the conjectured bound for every r at least 2 and every
-  large admissible minimum degree, refuting part (i); refereed.
+  Czabarka, Singgih and Székely construct connected $K_{2r}$-free graphs whose
+  diameter exceeds the conjectured bound for every $r\ge2$ and every large
+  admissible minimum degree. This refutes part (i), and the result is refereed.
 authors:
 - Éva Czabarka
 - Inne Singgih
@@ -54,12 +54,12 @@ untouched by this construction and stays open on the problem page.
 **Acceptance.** The counterexample paper is refereed: J. Combin. Theory Ser. B
 151 (2021), 38--45, issued November 2021. Czabarka, Smith and Székely restate
 the counterexample and its open window on p. 2 of their refereed paper in J.
-Graph Theory 102 (2023), 262--270, and the site's own commentary records this
-paper as a disproof for the case of $K_{2r}$-free graphs, that is of part (i),
-while the site's label stays OPEN, which the problem page reads as leaving
-part (ii) open. The theorem is stated from the preprint; the
-published article is not held, so its theorem numbering is unchecked, and the
-proof is not independently checked in this corpus. The source card is
-[[../library/extremal_graph_theory/czabarka_2021_counterexamples_conjecture_erdos_pach_pollack_tuza/_index|czabarka_2021_counterexamples_conjecture_erdos_pach_pollack_tuza]],
-which records the preprint and the Electron. J. Combin. article that took the
-preprint's $k$-colorable results and holds neither file.
+Graph Theory 102 (2023), 262--270. The site's own commentary records this paper
+as a disproof for the case of $K_{2r}$-free graphs, that is, of part (i). The
+site's label stays OPEN, which the problem page reads as leaving part (ii) open.
+The theorem is stated from the preprint. The published article is not held, so
+its theorem numbering is unchecked. The proof is not independently checked in
+this corpus. The source card is
+[[../library/extremal_graph_theory/czabarka_2021_counterexamples_conjecture_erdos_pach_pollack_tuza/_index|czabarka_2021_counterexamples_conjecture_erdos_pach_pollack_tuza]].
+It records the preprint and the Electron. J. Combin. article that took the
+preprint's $k$-colorable results, and it holds neither file.

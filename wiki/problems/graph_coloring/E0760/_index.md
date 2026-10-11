@@ -2,8 +2,10 @@
 name: problems/graph_coloring/E0760
 title: Problem 760
 desc: |
-  Bounds the cochromatic number of a graph, the fewest colors needed so that
-  every color class induces either a complete graph or an independent set.
+  Asks whether every graph with chromatic number $m$ contains a subgraph $H$
+  with cochromatic number $\zeta(H)\gg m/\log m$; proved. The cochromatic number
+  is the fewest colors such that every color class induces a complete graph or
+  an independent set.
 tags:
 - Graph theory
 - Chromatic number

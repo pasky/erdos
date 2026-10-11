@@ -2,8 +2,9 @@
 name: problems/set_systems/E0903
 title: Problem 903
 desc: |
-  Concerns block designs on p squared plus p plus one points, for a prime
-  power p, in which every pair of points lies in exactly one block.
+  Asks whether a block design on $n=p^2+p+1$ points, with $p$ a prime power and
+  every pair of points in exactly one block, must have at least $n+p$ blocks if
+  it has more than $n$; proved.
 tags:
 - Combinatorics
 status: solved

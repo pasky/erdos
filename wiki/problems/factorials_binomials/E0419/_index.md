@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E0419
 title: Problem 419
 desc: |
-  The set of limit points of the ratio of the number of divisors of n plus one
-  factorial to the number of divisors of n factorial.
+  Asks for the set of limit points of $\tau((n+1)!)/\tau(n!)$, where $\tau$
+  counts divisors; solved.
 tags:
 - Number theory
 - Factorials
@@ -28,12 +28,12 @@ $$
 \frac{\tau((n+1)!)}{\tau(n!)}?
 $$
 
-**Status.** The site labels the problem SOLVED (LEAN). The standing derived
-from the claim page is `solved`, `answered`: the limit points are exactly $1$
-and the numbers $1+1/m$ for $m\geq 1$, by
+**Status.** The site labels the problem SOLVED (LEAN). The standing derived from
+the claim page is `solved`, `answered`. By
 [[problems/factorials_binomials/E0419/claims/1996_01_01_erdos_graham_ivic_pomerance|Erdős, Graham, Ivić and Pomerance 1996]],
-credited by the site's curator. The Lean proof the site's label refers to is
-third-party work not built here.
+credited by the site's curator, the limit points are exactly $1$ and the numbers
+$1+1/m$ for $m\geq 1$. The Lean proof the site's label refers to is third-party
+work not built here.
 
 **Source.** [erdosproblems.com/419](https://www.erdosproblems.com/419), accessed
 2026-09-04 and 2026-10-07; the problem page was last edited 14 October 2025.

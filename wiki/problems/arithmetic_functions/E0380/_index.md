@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0380
 title: Problem 380
 desc: |
-  Asks whether the integers up to x lying in an interval whose product has a
-  repeated largest prime factor are asymptotically as many as the n up to x
-  divisible by the square of their own largest prime factor.
+  Asks whether the number of $n\le x$ lying in some interval whose product has a
+  repeated largest prime factor is asymptotic to the number of $n\le x$
+  divisible by the square of their largest prime factor; proved.
 tags:
 - Number theory
 status: solved
@@ -32,13 +32,11 @@ $$
 
 where $P(n)$ is the largest prime factor of $n$?
 
-**Status.** Proved, the site's label (PROVED, page last edited 10 April 2026):
+**Status.** Proved, the site's label (PROVED, page last edited 10 April 2026).
 Tao's 2026 preprint proves the asymptotic with a relative error of a power of
-the logarithm, and the site's curator records it as the proof. The accepted
-claim is
-[[problems/arithmetic_functions/E0380/claims/2026_03_30_tao|Tao 2026]]; a
-Lean development that proves the asymptotic by its own route is the pending
-claim
+the logarithm. The site's curator records it as the proof. The accepted claim is
+[[problems/arithmetic_functions/E0380/claims/2026_03_30_tao|Tao 2026]]. A Lean
+development that proves the asymptotic by its own route is the pending claim
 [[problems/arithmetic_functions/E0380/claims/2026_08_26_alexeev|Alexeev 2026]].
 
 **Source.** [erdosproblems.com/380](https://www.erdosproblems.com/380), accessed

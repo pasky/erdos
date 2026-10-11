@@ -2,9 +2,9 @@
 name: problems/set_theory/E1220/claims/1965_03_01_erdos_hajnal_rado
 title: Erdős, Hajnal and Rado's positive relation under GCH
 desc: |
-  Theorem I(iv) of Erdős, Hajnal and Rado (Acta Math. Acad. Sci. Hungar.,
-  1965) gives the relation of Problem 1220 for every qualifying singular
-  cardinal under GCH, so ZFC, if consistent, does not refute it.
+  Theorem I(iv) of Erdős, Hajnal and Rado (Acta Math. Acad. Sci. Hungar., 1965)
+  gives, under GCH, the relation of Problem 1220 for every qualifying singular
+  cardinal. So ZFC, if consistent, does not refute it.
 authors:
 - P. Erdős
 - A. Hajnal
@@ -68,12 +68,12 @@ open. The not-provable side is on
 [[problems/set_theory/E1220/claims/1987_01_01_shelah_stanley|Shelah and Stanley's page]],
 and the two pages together settle the problem as independent of ZFC.
 
-**Acceptance.** Refereed: the result is a journal paper in the Acta
-Mathematica Academiae Scientiarum Hungaricae, volume 16, issue 1--2. The issue
-is dated March 1965 and carries no day, so this page's date is the first of
-that month. The site labels the problem OPEN, so no curator acceptance is
-listed. This page states Theorem I and the steps of the proof of its part (iv)
-as the published paper prints them; the proofs of Lemma 4, Corollary 1 and
-Theorem 5 are not reviewed in this corpus.
+**Acceptance.** Refereed: the result is a journal paper in the Acta Mathematica
+Academiae Scientiarum Hungaricae, volume 16, issue 1--2. The issue is dated
+March 1965 and carries no day, so this page's date is the first of that month.
+The site labels the problem OPEN, so no curator acceptance is listed. This page
+states Theorem I and the steps of the proof of its part (iv) as the published
+paper prints them. The proofs of Lemma 4, Corollary 1 and Theorem 5 are not
+reviewed in this corpus.
 
 **Depends on.** No other wiki page; the claim rests on the paper above.

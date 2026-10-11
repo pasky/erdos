@@ -2,9 +2,10 @@
 name: problems/factorials_binomials/E0401/claims/2026_01_11_barreto_price
 title: Barreto and Price's factorial divisibility beyond the logarithmic barrier
 desc: |
-  For every r, infinitely many n admit a_1 + a_2 exceeding n by a multiple of
-  log n that grows with r while a_1! a_2! divides n! times the n-th power of
-  the product of the first r primes; proved with GPT-5.2 Pro, Lean by Aristotle.
+  Kevin Barreto and Liam Price, with GPT-5.2 Pro, prove that for every $r$
+  infinitely many $n$ admit $a_1,a_2$ with $a_1+a_2>n+\omega(r)\log n$ and
+  $a_1!\,a_2!\mid n!\,P_r^{\,n}$, where $\omega(r)\to\infty$ and $P_r$ is the
+  product of the first $r$ primes. The Lean proof is by Aristotle.
 authors:
 - Kevin Barreto
 status: accepted
@@ -92,10 +93,10 @@ either file, so neither is listed as evidence.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Thomas Bloom, the site's curator, marks the problem proved,
-credits Barreto and Leeham on the problem page (last edited 12 January 2026)
-and records the formalization in the site's label; the community database
-records the problem as proved with a Lean proof (last updated 11 January
-2026). There is no refereed write-up; the acceptance rests on the curator's documented
+credits Barreto and Leeham on the problem page (last edited 12 January 2026) and
+records the formalization in the site's label. The community database records
+the problem as proved with a Lean proof (last updated 11 January 2026). There is
+no refereed write-up, and the acceptance rests on the curator's documented
 review. Sothanaphan's later deduction of the same answer from their write-up of
 Problem 728 has
 [[problems/factorials_binomials/E0401/claims/2026_01_11_sothanaphan|its own page]].

@@ -3,8 +3,8 @@ name: problems/ramsey_theory/E0549/claims/1982_01_01_erdos_faudree_rousseau_sche
 title: Erdős, Faudree, Rousseau and Schelp, the equality for the brooms with classes k and 2k
 desc: |
   Theorem 2.2 of the 1982 brooms paper (Congr. Numer. 35) gives the broom
-  B_{k,2k}, a star with k leaves on the end of a path on 2k vertices, Ramsey
-  number 4k-1; a proceedings paper, claimed.
+  $B_{k,2k}$, a star with $k$ leaves on the end of a path on $2k$ vertices,
+  Ramsey number $4k-1$. It is a proceedings paper and is recorded as claimed.
 authors:
 - P. Erdős
 - R. J. Faudree

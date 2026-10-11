@@ -2,8 +2,9 @@
 name: problems/analysis/E1165
 title: Problem 1165
 desc: |
-  Asks the infinitely-often probability of exactly r sites tied for maximum
-  local time in planar simple random walk, for each integer r at least three.
+  Asks, for each integer $r\ge3$, for the probability that a planar simple
+  random walk has exactly $r$ sites tied for the maximum local time infinitely
+  often; solved.
 tags:
 - Probability
 status: solved
@@ -79,16 +80,15 @@ Révész raised the question (1984, 1987 and 1991, cited by both papers). No
 result about any other law is recorded. The standing judges this precise
 Statement.
 
-**Status.** Solved, on the site's label, which credits the value $0$ for
-$r\ge4$ to Tóth [To01] and the value $1$ for $r=3$ to Hao, Li, Okada and
-Zheng [HLOZ24]: the probability is $1$ for $r=3$ and $0$ for every integer
-$r\ge4$.
+**Status.** Solved on the site's label, which credits the value $0$ for $r\ge4$
+to Tóth [To01] and the value $1$ for $r=3$ to Hao, Li, Okada and Zheng [HLOZ24].
+The probability is $1$ for $r=3$ and $0$ for every integer $r\ge4$.
 [[../library/analysis/hao_2024_favorite_sites_simple_random_walk_two/theorem_1_1|Hao–Li–Okada–Zheng, Theorem 1.1]]
-proves almost surely $\limsup_n|F(n)|=3$, which gives both values; it is
+proves that almost surely $\limsup_n|F(n)|=3$, which gives both values. It is
 recorded as an
 [[problems/analysis/E1165/claims/2024_09_02_hao_li_okada_zheng|accepted claim]].
-Tóth's paper concerns the walk on $\mathbb Z$, as the assessment below
-explains, and has no claim page.
+Tóth's paper concerns the walk on $\mathbb Z$, as the assessment below explains,
+and has no claim page.
 
 **Source.** [erdosproblems.com/1165](https://www.erdosproblems.com/1165),
 accessed 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #1165,

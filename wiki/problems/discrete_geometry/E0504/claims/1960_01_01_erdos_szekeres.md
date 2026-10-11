@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0504/claims/1960_01_01_erdos_szekeres
 title: Erdős and Szekeres's largest forced angle at powers of two
 desc: |
-  Every configuration of $2^n$ points in the plane, $n\ge3$, contains an angle
-  greater than $\pi(1-1/n)$, so with Szekeres's construction
-  $\alpha_{2^n}=\pi(1-1/n)$; also gives the values of $\alpha_N$ for $N\le8$.
+  Erdős and Szekeres prove that every configuration of $2^n$ points in the
+  plane, $n\ge3$, contains an angle greater than $\pi(1-1/n)$, so with
+  Szekeres's construction $\alpha_{2^n}=\pi(1-1/n)$. The paper also gives the
+  values of $\alpha_N$ for $N\le8$.
 authors:
 - P. Erdős
 - G. Szekeres
@@ -58,10 +59,9 @@ convex polygon
 problem, [[problems/discrete_geometry/E0107/_index|Problem 107]].
 
 **Acceptance.** The paper is refereed: P. Erdős and G. Szekeres, On some
-extremum problems in elementary geometry, Ann. Univ. Sci. Budapest. Eötvös
-Sect. Math. 3–4 (1960/61), 53–62. The curator of erdosproblems.com, Thomas
-Bloom, records the result on the problem page with this paper as its source;
-the site's label SOLVED credits Sendov's determination of every value, so the
-curator's mention is context for this partial claim and not acceptance
-evidence. The page is dated to the publication year, the record giving no
-day.
+extremum problems in elementary geometry, Ann. Univ. Sci. Budapest. Eötvös Sect.
+Math. 3–4 (1960/61), 53–62. Thomas Bloom, the curator of erdosproblems.com,
+records the result on the problem page with this paper as its source. The site's
+label SOLVED credits Sendov's determination of every value. The curator's
+mention is therefore context for this partial claim and not acceptance evidence.
+The page is dated to the publication year because the record gives no day.

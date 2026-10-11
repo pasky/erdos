@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E1021
 title: Problem 1021
 desc: |
-  Asks whether, for every k at least three, the extremal number of the
-  bipartite graph joining each pair among k vertices to its own vertex beats n
-  to the 1.5.
+  Asks whether, for every $k\ge3$, $\mathrm{ex}(n,G_k)\ll n^{3/2-c_k}$ for some
+  $c_k>0$, where $G_k$ is the bipartite graph joining each pair among $k$
+  vertices to its own vertex. It is proved.
 tags:
 - Graph theory
 status: solved
@@ -32,15 +32,15 @@ where $G_k$ is the bipartite graph between $\{y_1,\ldots,y_k\}$ and
 $\{z_1,\ldots,z_{\binom{k}{2}}\}$, with each $z_j$ joined to a unique pair of
 $y_i$?
 
-**Status.** Proved. The site credits Conlon and Lee [CoLe21], with
-$c_k=6^{-k}$, and the improvement to $c_k=1/(4k-6)$ by Janzer [Ja19]; both
-are refereed publications, Conlon--Lee cited from the arXiv v2 manuscript and
-Janzer from the published six-page paper, and each has a claim page,
+**Status.** Proved. The site credits Conlon and Lee [CoLe21] with $c_k=6^{-k}$,
+and Janzer [Ja19] with the improvement to $c_k=1/(4k-6)$. Both are refereed
+publications. Conlon--Lee is cited from the arXiv v2 manuscript, and Janzer from
+the published six-page paper. Each has a claim page,
 [[problems/extremal_graph_theory/E1021/claims/2018_07_13_conlon_lee|Conlon and Lee]]
 and [[problems/extremal_graph_theory/E1021/claims/2018_09_03_janzer|Janzer]],
-accepted on the refereed venues and the site's credit. The site also credits
-the case $k=3$ to Erdős [Er64c] and to Bondy and Simonovits [BoSi74]; that
-case has its accepted partial claim page,
+accepted on the refereed venues and the site's credit. The site also credits the
+case $k=3$ to Erdős [Er64c] and to Bondy and Simonovits [BoSi74]. That case has
+its accepted partial claim page,
 [[problems/extremal_graph_theory/E1021/claims/1974_04_01_bondy_simonovits|Bondy and Simonovits]].
 The proof-claim tab is empty and nothing is independently reviewed here.
 

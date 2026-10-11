@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0528
 title: Problem 528
 desc: |
-  The value of the limiting growth rate per step of the number of
-  self-avoiding walks of n steps from the origin in the k-dimensional integer
-  lattice.
+  Asks for the limiting growth rate per step,
+  $C_k=\lim_{n\to\infty}f(n,k)^{1/n}$, of the number $f(n,k)$ of self-avoiding
+  walks of $n$ steps from the origin in $\mathbb{Z}^k$; open.
 tags:
 - Geometry
 status: open
@@ -31,14 +31,13 @@ $$
 
 **Status.** Open, in the site's label. The accepted partial claims
 [[problems/discrete_geometry/E0528/claims/1964_08_01_kesten|Kesten 1964]] and
-[[problems/discrete_geometry/E0528/claims/2007_08_21_clisby_liang_slade|Clisby,
-Liang and Slade 2007]] give the asymptotics of $C_k$ in powers of $1/k$.
-[[problems/discrete_geometry/E0528/claims/1993_08_07_conway_guttmann|Conway and
-Guttmann 1993]] and
-[[problems/discrete_geometry/E0528/claims/1993_06_01_alm|Alm 1993]] bound
+[[problems/discrete_geometry/E0528/claims/2007_08_21_clisby_liang_slade|Clisby, Liang and Slade 2007]]
+give the asymptotics of $C_k$ in powers of $1/k$.
+[[problems/discrete_geometry/E0528/claims/1993_08_07_conway_guttmann|Conway and Guttmann 1993]]
+and [[problems/discrete_geometry/E0528/claims/1993_06_01_alm|Alm 1993]] bound
 $2.62\le C_2\le2.696$. None determines $C_k$ for any $k\ge2$. Hammersley and
-Morton [HM54] prove only that the limit exists, and the value of $C_2$ in
-[JSG16] is a numerical estimate, not a proof, so neither has a claim page.
+Morton [HM54] prove only that the limit exists. The value of $C_2$ in [JSG16] is
+a numerical estimate, not a proof. So neither of these has a claim page.
 
 **Source.** [erdosproblems.com/528](https://www.erdosproblems.com/528), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #528,

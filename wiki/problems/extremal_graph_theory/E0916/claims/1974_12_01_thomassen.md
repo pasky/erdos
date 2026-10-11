@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0916/claims/1974_12_01_thomassen
 title: Thomassen's theorem on the special K_4-subdivision
 desc: |
-  Thomassen (Arch. Math. 1974) proves that a graph with n at least 3 vertices
-  and 2n−2 edges has a cycle and a vertex off it joined to three of its
-  vertices, which settles the corrected statement; refereed and site-credited.
+  Thomassen (Arch. Math. 1974) proves that a graph with $n\ge3$ vertices and
+  $2n-2$ edges has a cycle and a vertex off it joined to three of its vertices.
+  This settles the corrected statement, and the result is refereed and credited
+  by the site.
 authors:
 - Carsten Thomassen
 status: accepted
@@ -50,20 +51,21 @@ strengthens.
 
 **Depends on.** Nothing in this wiki; the argument is self-contained.
 
-**Acceptance.** Refereed: Archiv der Mathematik (Crossref record accessed: volume 25, issue 1, pp. 210--215, issued December 1974; the day
-is the issue's nominal first day, used for this page's date). Reviewed: the
-site's curator (T. F. Bloom), independent of the author, labels the problem
-proved and names this paper as the proof,
-and Carmesin restates the theorem, without a range for $n$, in a refereed
-and open-access paper (J. Combin. Theory Ser. B 161 (2023), p. 22, paged at
+**Acceptance.** Refereed: Archiv der Mathematik. The Crossref record, as
+accessed, gives volume 25, issue 1, pp. 210--215, issued December 1974, and this
+page's date is the issue's nominal first day. Reviewed: the site's curator, T.
+F. Bloom, independent of the author, labels the problem proved and names this
+paper as the proof. Carmesin restates the theorem, without a range for $n$, in a
+refereed, open-access paper (J. Combin. Theory Ser. B 161 (2023), p. 22, paged
+at
 [[../library/extremal_graph_theory/carmesin_2023_characterising_graphs_no_subdivision_wheel_bounded_diameter/related_results_p22|related_results_p22]]).
 The source has a library
 [[../library/extremal_graph_theory/thomassen_1974_minimal_condition_implying_special_k4_subdivision_graph/_index|source card]].
 Read depth: the Introduction, the definition of property $p$, Lemma 2, the
-Theorem and the Corollary; the proof (pp. 212--215, an induction on $n$)
+Theorem and the Corollary. The proof (pp. 212--215, an induction on $n$) was
 read for structure only, with no step checked. The acceptance recorded here
-rests on the publication, the
-restatement and the site's acceptance, not on a local review.
+rests on the publication, the restatement and the site's acceptance, not on a
+local review.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos916.lean` of
 Alexeev's repository `plby/lean-proofs`, linked above at the repository's

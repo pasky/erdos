@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0009
 title: Problem 9
 desc: |
-  Asks whether the odd integers that are not the sum of a prime and two powers
-  of 2 have positive upper density.
+  Asks whether the odd integers not of the form $p+2^k+2^l$, with $p$ prime and
+  $k,l\geq 0$, have positive upper density; open.
 tags:
 - Number theory
 - Additive bases

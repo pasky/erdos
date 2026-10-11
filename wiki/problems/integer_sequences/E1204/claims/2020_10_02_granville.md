@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E1204/claims/2020_10_02_granville
 title: "Granville: Siegel zeros would make A(k) ~ k log k fail"
 desc: |
-  Granville (Acta Arith. 2022) proves that infinitely many Siegel zeros give
-  admissible sets of about 2y/log y elements in [0,y] for arbitrarily large
-  y, so that A(k) ~ k log k would fail; conditional, refereed.
+  Granville (Acta Arith. 2022, refereed) proves that infinitely many Siegel
+  zeros would give admissible sets of $\sim2y/\log y$ elements in $[0,y]$ for
+  arbitrarily large $y$. In that case $A(k)\sim k\log k$ would fail. The result
+  is conditional.
 authors:
 - A. Granville
 status: accepted

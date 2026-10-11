@@ -2,9 +2,7 @@
 name: problems/ramsey_theory/E0159
 title: Problem 159
 desc: |
-  Asks whether the Ramsey number for a four-cycle versus a complete graph on n
-  vertices is at most order n to the power two minus a fixed positive
-  constant.
+  Asks whether $R(C_4,K_n)\ll n^{2-c}$ for some constant $c>0$; open.
 tags:
 - Graph theory
 - Ramsey theory
@@ -35,23 +33,24 @@ is whether the exponent $2$ can be lowered by a fixed amount; savings by powers
 of $\log n$ do not answer it. The trivial bounds are quadratic: [EFRS78] Theorem
 1 with $m=4$ gives $R(C_4,K_n)\le(2n+5)(n-1)$.
 
-**Status.** Open, the site's label. No proof, disproof, preprint or proof claim
-for the exact statement was found in the search whose
-scope the Current assessment records. The known bounds are
+**Status.** Open, the site's label. The search whose scope the Current
+assessment records found no proof, disproof, preprint or proof claim for the
+exact statement. This is a bounded negative finding, not a certificate of
+openness. The known bounds are
 
 $$
 c_1\Bigl(\frac{n}{\log n}\Bigr)^{3/2}<R(C_4,K_n)\le(1+o(1))\Bigl(\frac{n}{\log n}\Bigr)^2,
 $$
 
-the lower bound being Spencer's Theorem 3.1 ([Sp77], printed p. 75), and the
-upper bound [CLRZ00] Corollary 3 (i) at $m=2$ (p. 53), the order $n^2/(\log
-n)^2$ the site displays; [Er84d] (display (33), p. 67) attributes that order to
-an observation of Szemerédi from the Ajtai--Komlós--Szemerédi independence lemma
-without a printed proof, and [CLRZ00] (pp. 51--52) confirms the attribution,
-says the original proof "was never published, and its details were subsequently
-forgotten", and prints one. [EFRS78] Theorem 2 is the earlier $c_2(n\log\log
-n/\log n)^2$. Neither side saves a fixed power of $n$. This is a bounded
-negative finding, not a certificate of openness.
+where the lower bound is Spencer's Theorem 3.1 ([Sp77], printed p. 75). The
+upper bound is [CLRZ00] Corollary 3 (i) at $m=2$ (p. 53), which gives the order
+$n^2/(\log n)^2$ that the site displays. [Er84d] (display (33), p. 67)
+attributes that order to an observation of Szemerédi from the
+Ajtai--Komlós--Szemerédi independence lemma, without a printed proof. [CLRZ00]
+(pp. 51--52) confirms the attribution and says the original proof "was never
+published, and its details were subsequently forgotten". It then prints one.
+[EFRS78] Theorem 2 is the earlier $c_2(n\log\log n/\log n)^2$. Neither side
+saves a fixed power of $n$.
 
 **Source.** [erdosproblems.com/159](https://www.erdosproblems.com/159), accessed
 2026-09-17: the problem page (labeled OPEN, with the site's note that no finite

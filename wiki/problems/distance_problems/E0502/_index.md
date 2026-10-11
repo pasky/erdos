@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0502
 title: Problem 502
 desc: |
-  Estimates the largest size of a set of points in n-dimensional space
-  realizing only two distinct pairwise distances; settled to leading order:
-  n^2/2 + O(n).
+  Asks for estimates of the largest size $M_2(n)$ of a set in $\mathbb{R}^n$
+  with only two distinct pairwise distances. It is settled to leading order:
+  $M_2(n)=n^2/2+O(n)$.
 tags:
 - Geometry
 - Distances
@@ -103,19 +103,21 @@ $\mathbb{R}^{23}$ with distances $2$ and $\sqrt6$, transcribed in full in
 Theorem 1 page]]; it improves the generic lower bound at $n=23$ from
 $\binom{24}{2}=276$ to $277$, but does not close the general gap.
 
-**Status.** The site labels the problem SOLVED (LEAN), its qualifier resting on
-the community proof of the upper bound; the label describes the corrected
-Statement. The bounds $\binom{n+1}{2}\leq M_2(n)\leq\binom{n+2}{2}$ for $n\geq3$
-give $M_2(n)=n^2/2+O(n)$ (Bannai--Bannai--Stanton 1983 upper bound, with
-Petrov--Pohoata's 2021 proof; simplex-edge-midpoint lower construction, credited
-by the site to Alweiss). The problem lists two parts, the upper bound and the
-lower bound: the two accepted upper-bound claims in `claims/` settle the first
-and the accepted claim for the lower construction settles the second, so the
-problem's standing is solved. Its claim value is `proved` where SOLVED (LEAN)
-reads as `answered`, because each part of the corrected Statement is a bound and
-every settling claim proves its bound. The exact maximum, the question of the
-site's wording, is not known in general and is a variant under Formulation;
-Lisoněk's determination for $n\leq8$ is a rejected claim.
+**Status.** The site labels the problem SOLVED (LEAN), and the label describes
+the corrected Statement. Its qualifier rests on the community proof of the upper
+bound. The problem lists two parts, the upper bound and the lower bound. The two
+accepted upper-bound claims in `claims/` settle the first, and the accepted
+claim for the lower construction settles the second, so the problem's standing
+is solved. Its claim value is `proved`, although SOLVED (LEAN) reads as
+`answered`. This is because each part of the corrected Statement is a bound, and
+every settling claim proves its bound. The bounds
+$\binom{n+1}{2}\leq M_2(n)\leq\binom{n+2}{2}$ for $n\geq3$ give
+$M_2(n)=n^2/2+O(n)$. The upper bound is the Bannai--Bannai--Stanton bound of
+1983, with Petrov--Pohoata's 2021 proof. The lower bound is the
+simplex-edge-midpoint construction, which the site credits to Alweiss. The exact
+maximum, which is the question in the site's wording, is not known in general
+and is a variant under Formulation. Lisoněk's determination for $n\leq8$ is a
+rejected claim.
 
 **Source.** [erdosproblems.com/502](https://www.erdosproblems.com/502), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #502,

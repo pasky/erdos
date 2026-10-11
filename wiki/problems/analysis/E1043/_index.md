@@ -2,9 +2,9 @@
 name: problems/analysis/E1043
 title: Problem 1043
 desc: |
-  Asks whether every monic non-constant complex polynomial has a line onto
-  which the set where its absolute value is at most one projects to measure at
-  most two.
+  Asks whether every monic non-constant polynomial $f\in\mathbb{C}[x]$ has a
+  line onto which $\{z:|f(z)|\le1\}$ projects to a set of measure at most $2$;
+  disproved.
 tags:
 - Analysis
 status: solved
@@ -30,16 +30,17 @@ $$
 
 onto $\ell$ has measure at most $2$?
 
-**Status.** DISPROVED (LEAN) on the site. Pommerenke's 1961 example, a monic
-polynomial whose set $\{|f|\le1\}$ projects onto every line to measure above
-$2.386$, is the accepted disproof
-([[problems/analysis/E1043/claims/1961_01_01_pommerenke|Pommerenke's claim page]]);
-the Lean qualifier of the site's label refers to Alexeev's Lean disproof by the
-different polynomial $z^{16}-1$, found by Aristotle, a later revision of which
-this corpus built and audited, so it is a second accepted disproof
+**Status.** DISPROVED (LEAN) on the site. Pommerenke's 1961 example is the
+accepted disproof
+([[problems/analysis/E1043/claims/1961_01_01_pommerenke|Pommerenke's claim page]]).
+It is a monic polynomial whose set $\{|f|\le1\}$ has a projection of measure
+above $2.386$ onto every line. The Lean qualifier of the site's label refers to
+Alexeev's Lean disproof by the different polynomial $z^{16}-1$, found by
+Aristotle. This corpus built and audited a later revision of it, so it is a
+second accepted disproof
 ([[problems/analysis/E1043/claims/2025_12_28_alexeev|Alexeev's claim page]]).
-Pommerenke also proved that some line always receives a projection of
-measure below $3.30$.
+Pommerenke also proved that some line always receives a projection of measure
+below $3.30$.
 
 **Source.** [erdosproblems.com/1043](https://www.erdosproblems.com/1043),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1043,

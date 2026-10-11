@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0954
 title: Problem 954
 desc: |
-  Concerns the growth of the sequence starting 0 and 1 in which each new term
-  is the least n for which the number of pairwise sums at most n is less than
-  n.
+  For the sequence with $a_0=0$, $a_1=1$ and each next term the least $n$ for
+  which $a_i+a_j\le n$ has fewer than $n$ solutions, asks whether the number of
+  solutions of $a_i+a_j\le x$ is $x+O(x^{1/4+o(1)})$; open.
 tags:
 - Number theory
 status: open

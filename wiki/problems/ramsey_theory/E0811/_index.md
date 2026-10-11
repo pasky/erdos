@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0811
 title: Problem 811
 desc: |
-  Asks which graphs are forced as rainbow copies in every balanced coloring
-  of a large complete graph with as many colors as the graph has edges, where
-  each vertex sees equally many edges of every color.
+  Asks for which graphs $G$ every balanced coloring of a large $K_n$ with $e(G)$
+  colors, in which each vertex sees equally many edges of every color, contains
+  a rainbow copy of $G$; open.
 tags:
 - Graph theory
 - Ramsey theory
@@ -50,42 +50,42 @@ Erdős--Tuza variant with one more color than $G$ has edges (their Problem 5,
 p. 82) is a different question and is kept apart below.
 
 **Status.** Open: the site labels the problem OPEN (last edited 14 October
-2025), and the classification is not known. Excluded from the answer set by
-refereed sources:
+2025), and the classification is not known. Refereed sources exclude several
+graphs from the answer set.
 [[problems/ramsey_theory/E0811/claims/2022_09_28_axenovich_clemen|Axenovich and Clemen 2022]]
 (J. Graph Theory 106 (2024)) exclude every clique $K_q$ with $q\ge10$ and
-$q\equiv2,3\pmod4$ (their Theorem 1.4), every graph with an odd number $\ell$
-of edges containing a clique on $\lfloor\sqrt\ell+7/2\rfloor$ vertices (their
-Theorem 3.3) and all but $(1+o(1))N/\log N$ of the clique sizes $q\le N$
-(their Theorem 1.2, through their Lemma 4.1: no perfect difference set of
-size $q$ in $\mathbb Z_{q^2-q+1}$ excludes $K_q$), and
+$q\equiv2,3\pmod4$ (their Theorem 1.4). They also exclude every graph with an
+odd number $\ell$ of edges containing a clique on $\lfloor\sqrt\ell+7/2\rfloor$
+vertices (their Theorem 3.3). They further exclude all but $(1+o(1))N/\log N$ of
+the clique sizes $q\le N$ (their Theorem 1.2, through their Lemma 4.1: no
+perfect difference set of size $q$ in $\mathbb Z_{q^2-q+1}$ excludes $K_q$).
 [[problems/ramsey_theory/E0811/claims/2023_03_26_clemen_wagner|Clemen and Wagner 2023]]
 (Electron. J. Combin. 30 (2023), Theorem 1.2) exclude $K_4$. Two further
-exclusions are inferences taken on this page: $K_7$, since a perfect
-difference set of size $7$ would be a projective plane of order $6$, which
-does not exist (Lemma 4.1 with the Bruck--Ryser theorem), and every $K_q$
-with $q\le2\cdot10^9$ and $q-1$ not a prime power (Lemma 4.1 with the
-computational verification of the prime power conjecture that the paper cites
-and this corpus has not read). The case $K_6$ is announced without proof, so
-of the cliques on at most twelve vertices $K_5$, $K_6$, $K_8$, $K_9$ and
-$K_{12}$ are not excluded in the sources found, and Conjecture 1.3 of
-Axenovich and Clemen predicts every $K_q$ with $q\ge4$. On the other side
+exclusions are inferences taken on this page. The first is $K_7$, since a
+perfect difference set of size $7$ would be a projective plane of order $6$,
+which does not exist (Lemma 4.1 with the Bruck--Ryser theorem). The second is
+every $K_q$ with $q\le2\cdot10^9$ and $q-1$ not a prime power (Lemma 4.1 with
+the computational verification of the prime power conjecture that the paper
+cites and this corpus has not read). The case $K_6$ is announced without proof.
+So, of the cliques on at most twelve vertices, $K_5$, $K_6$, $K_8$, $K_9$ and
+$K_{12}$ are not excluded in the sources found. Conjecture 1.3 of Axenovich and
+Clemen predicts every $K_q$ with $q\ge4$. On the other side,
 [[problems/ramsey_theory/E0811/claims/1993_01_01_erdos_tuza|Erdős and Tuza 1993]]
-place the forests, $K_3$ and $C_4$ in the answer set: their Theorem 2 (p. 82)
-gives $d(n,K_3)=2\lfloor(n-2)/8\rfloor+1$ exactly, their Theorem 3 (p. 83)
-gives $\lfloor n/6\rfloor\le d(n,C_4)\le(1/4-c)n$ for the quantitative
-version, and their Proposition 1 (p. 83) gives $d(n,F)\le2e-2$ for a forest
-with $e$ edges ($e-1$ for a tree), below $(n-1)/e$ for large $n$; the paper's
-own summary (p. 81) names only the trees, $K_3$ and $C_4$, "the only graphs
-for which we can prove that they satisfy the requirements of Problems 1 and
-2". The cycle $C_6$ that Erdős singled out is open in the sources found. A
-forum comment of 15 September 2026 claims a Lean-verified proof of Conjecture
-1.3, recorded as the unreviewed partial claim
-[[problems/ramsey_theory/E0811/claims/2026_09_15_kitamura|Kitamura 2026]],
-which would exclude every clique on at least four vertices and leave the
-classification open. The search, whose scope the Current
-assessment records, found nothing else. This is a bounded negative finding,
-not a certificate of openness.
+place the forests, $K_3$ and $C_4$ in the answer set. Their Theorem 2 (p. 82)
+gives $d(n,K_3)=2\lfloor(n-2)/8\rfloor+1$ exactly. Their Theorem 3 (p. 83) gives
+$\lfloor n/6\rfloor\le d(n,C_4)\le(1/4-c)n$ for the quantitative version. Their
+Proposition 1 (p. 83) gives $d(n,F)\le2e-2$ for a forest with $e$ edges ($e-1$
+for a tree), below $(n-1)/e$ for large $n$. The paper's own summary (p. 81)
+names only the trees, $K_3$ and $C_4$ as "the only graphs for which we can prove
+that they satisfy the requirements of Problems 1 and 2". The cycle $C_6$ that
+Erdős singled out is open in the sources found. A forum comment of 15 September
+2026 claims a Lean-verified proof of Conjecture 1.3. It is recorded as the
+unreviewed partial claim
+[[problems/ramsey_theory/E0811/claims/2026_09_15_kitamura|Kitamura 2026]]. That
+claim would exclude every clique on at least four vertices and leave the
+classification open. The search, whose scope the Current assessment records,
+found nothing else. This is a bounded negative finding, not a certificate of
+openness.
 
 **Source.** [erdosproblems.com/811](https://www.erdosproblems.com/811),
 accessed 2026-09-18: the problem page (OPEN, marked by the site as not

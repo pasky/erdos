@@ -2,9 +2,9 @@
 name: problems/irrationality/E0069/claims/2025_12_01_tao_teravainen
 title: Tao and Teräväinen prove the prime-factor series irrational
 desc: |
-  Tao and Teräväinen (arXiv, December 2025) prove unconditionally that the
-  sum over n of omega(n)/2^n, which equals the sum over primes p of
-  1/(2^p - 1), is irrational, answering the question yes.
+  Tao and Teräväinen (arXiv, December 2025) prove unconditionally that
+  $\sum_n\omega(n)/2^n$, which equals $\sum_p1/(2^p-1)$, is irrational. This
+  answers the question yes.
 authors:
 - Terence Tao
 - Joni Teräväinen
@@ -70,16 +70,15 @@ its own page,
 unconditional proof does not use it.
 
 **Acceptance.** The `reviewed` evidence is the documented acceptance by the
-catalog erdosproblems.com: its curator, Thomas Bloom, credits the
-unconditional proof of irrationality to Tao and Teräväinen in the problem's
-remarks, and the page carries the label PROVED (last edited 2026-04-15); the
-problem has no forum comments and no proof claim. Crossref and the arXiv
-record list no journal publication so the claim carries no
-`refereed` evidence. The formal-conjectures statement file (the `record` link,
-pinned at its commit of 2026-10-06) tags, as of that commit, `erdos_69`
-textbook and its specialization of Problem 257 research solved, both left as
-`sorry`, and records no formal proof. This corpus has not reproved the theorem
-and awards no tier of its own.
+catalog erdosproblems.com. Its curator, Thomas Bloom, credits the unconditional
+proof of irrationality to Tao and Teräväinen in the problem's remarks, and the
+page carries the label PROVED (last edited 2026-04-15). The problem has no forum
+comments and no proof claim. Crossref and the arXiv record list no journal
+publication, so the claim carries no `refereed` evidence. The formal-conjectures
+statement file (the `record` link, pinned at its commit of 2026-10-06) records
+no formal proof. As of that commit, it tags `erdos_69` textbook and its
+specialization of Problem 257 research solved, and it leaves both as `sorry`.
+This corpus has not reproved the theorem and awards no tier of its own.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited preprint
 alone.

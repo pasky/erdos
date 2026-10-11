@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0305/claims/1976_05_01_bleicher_erdos
 title: Bleicher and Erdős's first bounds on D(N)
 desc: |
-  Bleicher and Erdős (J. Number Theory 1976) prove D(P) >= P ceil(log_2 P) for
-  primes P and D(N) <= K N (ln N)^3, the prime lower bound showing that the
-  exponent 1 of log b in Problem 305 cannot be lowered; refereed.
+  Bleicher and Erdős (J. Number Theory 1976) prove
+  $D(P)\ge P\lceil\log_2P\rceil$ for primes $P$ and $D(N)\le KN(\ln N)^3$. The
+  paper is refereed, and its prime lower bound shows that the exponent $1$ of
+  $\log b$ in Problem 305 cannot be lowered.
 authors:
 - M. N. Bleicher
 - P. Erdős
@@ -61,9 +62,9 @@ bound is Theorem 1 of the sequel in the Illinois Journal of Mathematics,
 and this paper prints exponent $3$. The problem page records the
 collision.
 
-**Acceptance.** Refereed: M. N. Bleicher and P. Erdős, Denominators of
-Egyptian fractions, J. Number Theory 8 (1976), no. 2, 157--168. The
-publisher's record dates the issue May 1976 and gives no day; this page is
-dated the first of that month. The site's PROVED label credits Yokota's
-paper, not this one, so no `reviewed` evidence is listed. This claim is
-partial: it settles the lower half of the estimate, not the question.
+**Acceptance.** Refereed: M. N. Bleicher and P. Erdős, Denominators of Egyptian
+fractions, J. Number Theory 8 (1976), no. 2, 157--168. The publisher's record
+dates the issue May 1976 and gives no day, so this page is dated the first of
+that month. The site's PROVED label credits Yokota's paper, not this one, so no
+`reviewed` evidence is listed. This claim is partial: it settles the lower half
+of the estimate, not the question.

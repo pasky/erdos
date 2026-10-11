@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0608/claims/2016_05_29_grzesik_hu_volec
 title: The Füredi–Maleki construction as described by Grzesik, Hu and Volec
 desc: |
-  Graphs above the Mantel threshold with only ((2+sqrt 2)/16) n^2 + O(n) edges
-  on pentagons: the Füredi–Maleki construction, Construction 2 of Grzesik, Hu
-  and Volec (JCTB 2019); refereed, credited by the site's curator Thomas Bloom.
+  The Füredi–Maleki construction, Construction 2 of Grzesik, Hu and Volec (JCTB
+  2019), gives graphs above the Mantel threshold with only
+  $\frac{2+\sqrt2}{16}n^2+O(n)$ edges on pentagons, which disproves the
+  statement. It is refereed, and the site's curator Thomas Bloom credits it.
 authors:
 - Andrzej Grzesik
 - Ping Hu
@@ -79,16 +80,16 @@ flag-algebra certificates were not checked or replayed, and nothing is
 independently reviewed here.
 
 **Acceptance.** `refereed`: the Journal of Combinatorial Theory, Series B is a
-refereed journal; the Crossref record of the DOI gives the issue as July 2019.
-`reviewed`: the site's curator, Thomas Bloom, adopted the negative answer,
-crediting Füredi and Maleki as described by this paper and recording the sharp
-constant in the problem's commentary (page last edited 25 October 2025, as of
-2026-10-07), after a thread comment of 25 October 2025 reported the
-construction; the thread records that the site was updated in response. The
-community database lists the problem as disproved (last
-update 25 October 2025) and its status as "disproved (Lean)" (last update 29
-July 2026), the latter on the strength of the Lean development described
-below, which is not `formalized` evidence here.
+refereed journal. The Crossref record of the DOI gives the issue as July 2019.
+`reviewed`: a thread comment of 25 October 2025 reported the construction. The
+site's curator, Thomas Bloom, then adopted the negative answer in the problem's
+commentary, crediting Füredi and Maleki as described by this paper and recording
+the sharp constant (page last edited 25 October 2025, as of 2026-10-07). The
+thread records that the site was updated in response. The community database
+lists the problem as disproved (last update 25 October 2025). It also lists its
+status as "disproved (Lean)" (last update 29 July 2026), on the strength of the
+Lean development described below. That development is not `formalized` evidence
+here.
 
 **Depends on.** Nothing in this wiki.
 

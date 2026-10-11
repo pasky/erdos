@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0331
 title: Problem 331
 desc: |
-  Asks whether two sets of integers, each with counting function at least a
-  constant times the square root of N, must share infinitely many equal
-  nonzero differences.
+  Asks whether two sets of integers whose counting functions are both
+  $\gg N^{1/2}$ must share infinitely many equal nonzero differences; the answer
+  is no.
 tags:
 - Number theory
 - Additive combinatorics
@@ -37,17 +37,17 @@ $$
 Is it true that there are infinitely many solutions to $a_1-a_2=b_1-b_2\neq 0$
 with $a_1,a_2\in A$ and $b_1,b_2\in B$?
 
-**Status.** DISPROVED (LEAN), the site's label: the answer is no, by the
-binary-digit counterexample that the site credits to Ruzsa, recorded on
+**Status.** DISPROVED (LEAN), the site's label. The answer is no, by a
+binary-digit counterexample. The site credits it to Ruzsa, and it is recorded on
 [[problems/additive_combinatorics/E0331/claims/2024_06_19_ruzsa|its claim page]]
-with the site's acceptance as its evidence, and that Erdős and Freud had
-published in 1984 (J. Number Theory 18, 99--109, refereed) without
-crediting Ruzsa, recorded on
-[[problems/additive_combinatorics/E0331/claims/1984_02_01_erdos_freud|its own claim page]];
-the label's Lean mark refers to van Doorn's Lean formalization of the
-counterexample, posted in the site's discussion thread in January 2026 and
-linked by the catalog, listed on the Ruzsa page as a formalization link
-(third-party Lean, so no `formalized` evidence).
+with the site's acceptance as its evidence. Erdős and Freud had published the
+same counterexample in 1984 (J. Number Theory 18, 99--109, refereed) without
+crediting Ruzsa. Their publication is recorded on
+[[problems/additive_combinatorics/E0331/claims/1984_02_01_erdos_freud|its own claim page]].
+The label's Lean mark refers to van Doorn's Lean formalization of the
+counterexample. It was posted in the site's discussion thread in January 2026
+and is linked by the catalog. The Ruzsa page lists it as a formalization link.
+It is third-party Lean, so it gives no `formalized` evidence.
 
 **Source.** [erdosproblems.com/331](https://www.erdosproblems.com/331), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #331,

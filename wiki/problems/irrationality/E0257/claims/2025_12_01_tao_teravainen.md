@@ -2,9 +2,8 @@
 name: problems/irrationality/E0257/claims/2025_12_01_tao_teravainen
 title: Tao and Teräväinen's theorem for the primes
 desc: |
-  Tao and Teräväinen's theorem that the sum over primes p of 1/(2^p - 1) is
-  irrational settles the problem for the support consisting of the primes,
-  the case that is Problem 69.
+  Tao and Teräväinen's theorem that $\sum_p1/(2^p-1)$ is irrational settles the
+  problem for the support consisting of the primes. This case is Problem 69.
 authors:
 - Terence Tao
 - Joni Teräväinen
@@ -55,15 +54,15 @@ arguments; this outline is a reading aid, not proof coverage.
 **Covers.** The support $A$ equal to the set of primes. Not covered: the prime
 powers, which the paper only sketches, and every other infinite support.
 
-**Acceptance.** Reviewed: Thomas Bloom, the site's curator, labels Problem 69,
-whose statement is exactly this instance, PROVED (page last edited
-2026-04-15) and credits the unconditional proof to Tao and Teräväinen in its
-remarks; the remarks of Problem 257, which the site labels OPEN, record the
-same credit for the primes case. No journal publication of the preprint is
-recorded (the arXiv record lists no journal reference), so the claim carries
-no `refereed` evidence. The formal-conjectures file for Problem 69 (the
-`record` link, pinned to its commit of 2026-10-06) tags its specialization of
-Problem 257 to the primes research solved and records no formal proof. This
-corpus has not reproved the theorem and awards no tier of its own.
+**Acceptance.** Reviewed: Thomas Bloom, the site's curator, labels Problem 69
+PROVED (page last edited 2026-04-15). The statement of Problem 69 is exactly
+this instance. In its remarks he credits the unconditional proof to Tao and
+Teräväinen. The site labels Problem 257 OPEN, and its remarks record the same
+credit for the primes case. No journal publication of the preprint is recorded,
+and the arXiv record lists no journal reference, so the claim carries no
+`refereed` evidence. The formal-conjectures file for Problem 69 is the `record`
+link, pinned to its commit of 2026-10-06. It tags its specialization of Problem
+257 to the primes research solved and records no formal proof. This corpus has
+not reproved the theorem and awards no tier of its own.
 
 **Depends on.** Nothing in this wiki.

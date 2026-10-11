@@ -3,8 +3,9 @@ name: problems/ramsey_theory/E0965/claims/2015_05_11_hindman_leader_strauss
 title: Hindman, Leader and Strauss, no set of size continuum with monochromatic pair sums
 desc: |
   Theorem 3.2 of Hindman, Leader and Strauss (Abh. Math. Semin. Univ. Hambg.
-  2017): a two-coloring of the reals under which no set of size continuum has
-  monochromatic k-fold sums; under CH the case k = 2 answers the problem no.
+  2017) gives a two-coloring of the reals under which no set of size continuum
+  has monochromatic $k$-fold sums. Under CH the case $k=2$ answers the problem
+  no.
 authors:
 - Neil Hindman
 - Imre Leader
@@ -64,13 +65,13 @@ this claim remains conditional on it.
 
 **Acceptance.** Refereed: N. Hindman, I. Leader and D. Strauss, Pairwise sums in
 colourings of the reals, Abh. Math. Semin. Univ. Hambg. 87 (2017), no. 2,
-275--287, published online 21 December 2016 (the publisher's record), following
-the preprint arXiv:1505.02500 of 11 May 2015, the date this page is named by.
-Reviewed: the site's curator, Thomas Bloom, credits the paper as the published
-proof of the disproof under the continuum hypothesis, in the stronger $k$-fold
-form, in the problem's commentary (page last edited 16 January 2026, accessed
-2026-09-18). Semantic Scholar's four citing records, include by title no
-dispute.
+275--287, published online 21 December 2016 (the publisher's record). It
+followed the preprint arXiv:1505.02500 of 11 May 2015, the date this page is
+named by. Reviewed: the site's curator, Thomas Bloom, credits the paper in the
+problem's commentary as the published proof of the disproof under the continuum
+hypothesis, in the stronger $k$-fold form (page last edited 16 January 2026,
+accessed 2026-09-18). Semantic Scholar's four citing records include, by title,
+no dispute.
 
 **Read depth.** The basis is arXiv v1, the only arXiv version; the journal
 text was not compared. Theorem 3.2 (p. 9), the remark and Question 3.3

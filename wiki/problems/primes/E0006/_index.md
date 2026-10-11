@@ -2,8 +2,9 @@
 name: problems/primes/E0006
 title: Problem 6
 desc: |
-  Asks whether there are infinitely many n for which three consecutive prime
-  gaps are strictly increasing.
+  Asks whether there are infinitely many $n$ for which three consecutive prime
+  gaps are strictly increasing, that is, $d_n<d_{n+1}<d_{n+2}$ with
+  $d_n=p_{n+1}-p_n$; the answer is yes.
 tags:
 - Number theory
 - Primes
@@ -24,12 +25,11 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Let $d_n=p_{n+1}-p_n$. Are there infinitely many $n$ such that
 $d_n<d_{n+1}<d_{n+2}$?
 
-**Status.** PROVED (LEAN), the site's label. The accepted
-claim is
+**Status.** PROVED (LEAN), the site's label. The accepted claim is
 [[problems/primes/E0006/claims/2013_11_27_banks_freiberg_turnage_butterbaugh|the 2013 theorem of Banks, Freiberg and Turnage-Butterbaugh]],
-refereed and credited by the site's curator. The site links no Lean proof;
-the one found, a third-party formalization, is recorded on the claim page
-and in the Formalization paragraph below, and this corpus has built none.
+refereed and credited by the site's curator. The site links no Lean proof. The
+one found is a third-party formalization, recorded on the claim page and in the
+Formalization paragraph below. This corpus has built none.
 
 **Source.** [erdosproblems.com/6](https://www.erdosproblems.com/6), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #6,

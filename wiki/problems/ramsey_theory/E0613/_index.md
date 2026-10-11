@@ -3,8 +3,8 @@ name: problems/ramsey_theory/E0613
 title: Problem 613
 desc: |
   Asks whether every graph with one edge fewer than a conjectured size Ramsey
-  number splits into a bipartite graph and a graph of maximum degree below n;
-  disproved for every n at least five by Pikhurko's constructions.
+  number is the union of a bipartite graph and a graph of maximum degree below
+  $n$. Disproved for every $n\ge5$ by Pikhurko's constructions.
 tags:
 - Graph theory
 - Ramsey theory
@@ -42,27 +42,25 @@ degree below $n$ exactly when its edges can be colored with no red odd cycle
 and no blue $K_{1,n}$. The site's label DISPROVED (LEAN) carries a catalog
 suffix explained under Formalization.
 
-**Status.** The site labels the problem DISPROVED (LEAN). Theorem 1 of [Pi01],
-Combinatorica 21 (2001), 403--412 (refereed), gives
-$\hat r(K_{1,n},K_3)<n^2+\sqrt2\,n^{3/2}+n$ for $n\ge1$ by an explicit
-construction, and the paper notes (p. 405) that this beats
-$\binom{2n+1}2-\binom n2$ for all $n\ge6$, while for $n=5$ its construction
-with the representation $5=2+3$ has $44$ edges against the conjectured $45$.
-Since a graph arrowing $(K_{1,n},K_3)$ arrows
-$(K_{1,n},\mathcal C_{\mathrm{odd}})$, the statement fails for every $n\ge5$,
-and the site's commentary likewise records the failure at $n=5$. The cases
-$n=3$ and $n=4$ (conjectured values $18$ and $30$) are not covered by the
-disproof and are not decided by any source cited here; the universal statement
-is false regardless. Theorem 1(2) of the same paper,
+**Status.** The site labels the problem DISPROVED (LEAN). The frontmatter
+standing derives from the claim page
+[[problems/ramsey_theory/E0613/claims/2001_07_01_pikhurko|Pikhurko 2001]], which
+records the refereed disproof (accepted) with its postings and its acceptance
+evidence. As a formalization link, that page also carries the third-party Lean
+proof of the $n=5$ instance. Theorem 1 of [Pi01], Combinatorica 21 (2001),
+403--412 (refereed), gives $\hat r(K_{1,n},K_3)<n^2+\sqrt2\,n^{3/2}+n$ for
+$n\ge1$ by an explicit construction. The paper notes (p. 405) that this beats
+$\binom{2n+1}2-\binom n2$ for all $n\ge6$. For $n=5$, its construction with the
+representation $5=2+3$ has $44$ edges against the conjectured $45$. A graph
+arrowing $(K_{1,n},K_3)$ also arrows $(K_{1,n},\mathcal C_{\mathrm{odd}})$, so
+the statement fails for every $n\ge5$. The site's commentary likewise records
+the failure at $n=5$. The cases $n=3$ and $n=4$ (conjectured values $18$ and
+$30$) are not covered by the disproof, and no source cited here decides them.
+The universal statement is false regardless. Theorem 1(2) of the same paper,
 $\hat r(K_{1,n},\mathcal C_{\mathrm{odd}})>n^2+0.577\,n^{3/2}$ for large $n$,
 shows that the splitting does hold for graphs with at most that many edges.
-Faudree's special case, graphs on $2n+1$ vertices, is a pending partial claim
-on [[problems/ramsey_theory/E0613/claims/1981_01_01_faudree|its claim page]].
-The claim page
-[[problems/ramsey_theory/E0613/claims/2001_07_01_pikhurko|Pikhurko 2001]] (the
-refereed disproof, accepted) records the result with its postings, its
-acceptance evidence and, as a formalization link, the third-party Lean proof
-of the $n=5$ instance; the frontmatter standing derives from that page.
+Faudree's special case, graphs on $2n+1$ vertices, is a pending partial claim on
+[[problems/ramsey_theory/E0613/claims/1981_01_01_faudree|its claim page]].
 
 **Source.** [erdosproblems.com/613](https://www.erdosproblems.com/613),
 accessed 2026-09-18: the problem page (DISPROVED

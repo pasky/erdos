@@ -2,9 +2,9 @@
 name: problems/polynomials/E1131
 title: Problem 1131
 desc: |
-  Asks for the least value, over n nodes in the interval from minus one to one,
-  of the integral of the sum of squares of the Lagrange basis polynomials, and
-  whether that least value is 2 minus (1+o(1))/n.
+  Asks for the minimum over $x_1,\ldots,x_n\in[-1,1]$ of
+  $I=\int_{-1}^1\sum_k\lvert l_k(x)\rvert^2\,dx$, where the $l_k$ are the
+  Lagrange basis polynomials, and whether $\min I=2-(1+o(1))/n$; open.
 tags:
 - Analysis
 - Polynomials
@@ -43,13 +43,13 @@ $$
 $$
 
 **Status.** Open. The site labels the problem OPEN (page last edited
-2026-01-23). Its discussion thread carries one pending partial claim,
-recorded and not adopted:
+2026-01-23). Its discussion thread carries one pending partial claim, recorded
+and not adopted:
 [[problems/polynomials/E1131/claims/2026_04_26_price|Price 2026]], posted on
-2026-04-26, which credits GPT-5.5 Pro with a disproof of the displayed
-asymptotic $\min I=2-(1+o(1))/n$; the minimal value of $I$ is not
-determined by it. The thread's other postings are recorded under Current
-assessment with the reasons they are not claims.
+2026-04-26. It credits GPT-5.5 Pro with a disproof of the displayed asymptotic
+$\min I=2-(1+o(1))/n$. It does not determine the minimal value of $I$. The
+thread's other postings are recorded under Current assessment, with the reasons
+they are not claims.
 
 **Source.** [erdosproblems.com/1131](https://www.erdosproblems.com/1131),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1131,

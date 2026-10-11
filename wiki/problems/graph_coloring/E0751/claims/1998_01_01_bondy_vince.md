@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0751/claims/1998_01_01_bondy_vince
 title: Bondy and Vince's two close cycle lengths
 desc: |
-  Every graph with at most two vertices of degree below three, other than K1
-  and K2, has two cycles whose lengths differ by one or two; so a 4-chromatic
-  graph has consecutive cycle lengths at most two apart, whatever its girth.
+  Bondy and Vince prove that every graph other than $K_1$ and $K_2$ with at most
+  two vertices of degree below three has two cycles whose lengths differ by one
+  or two. So a $4$-chromatic graph, whatever its girth, has consecutive cycle
+  lengths at most two apart.
 authors:
 - J. A. Bondy
 - A. Vince
@@ -59,28 +60,33 @@ issue, January 1998; the day is not recorded.
 **Acceptance.** Refereed: Bondy, J. A. and Vince, A., Cycles in a graph whose
 lengths differ by one or two, J. Graph Theory 27 (1998), no. 1, 11–15. Reviewed:
 the site's curator, Thomas Bloom, labels the problem DISPROVED (LEAN) and
-credits the result to Bondy and Vince, independently of its authors. A Lean 4
-development by the SpringSense Innovation Institute, posted on the site's
-discussion thread on 2026-01-27 and linked above at its commit, describes itself
-as following Bondy and Vince's approach and proves `erdos_751_strong`: every
-finite simple graph with chromatic number at least four has two cycles whose
-lengths differ by exactly one or two; its vertex type is finite, so the infinite
-case, which the de Bruijn–Erdős theorem reduces to the finite one, is not
-covered by the Lean. The post says that ChatGPT 5.2 Thinking was used for
-dialogue and GPT-5.2 Codex to complete the Lean implementation, the AI helping
-to understand the paper and choose the formalization route, while the poster
-implemented the basic definitions in Lean and fine-tuned the code. That
-development is third-party Lean, not among the corpus's audited builds, so the
-page lists no `formalized` evidence. The same development is also posted in
-Boris Alexeev's lean-proofs collection, whose header names Bondy, Vince and
-ChatGPT 5.2 Thinking as informal authors and links the SpringSense posting, and
-as a single-file copy in the erdos-lean catalog, which adds `erdos_751`, the
-negative answer to the first question for finite graphs. The corpus built
-neither. The [statement file of
+credits the result to Bondy and Vince, independently of its authors.
+
+A Lean 4 development by the SpringSense Innovation Institute was posted on the
+site's discussion thread on 2026-01-27 and is linked above at its commit. It
+describes itself as following Bondy and Vince's approach. It proves
+`erdos_751_strong`: every finite simple graph with chromatic number at least
+four has two cycles whose lengths differ by exactly one or two. Its vertex type
+is finite, so the Lean does not cover the infinite case, which the de
+Bruijn–Erdős theorem reduces to the finite one. The post says that ChatGPT 5.2
+Thinking was used for dialogue and GPT-5.2 Codex to complete the Lean
+implementation. According to the post, the AI helped to understand the paper and
+choose the formalization route, while the poster implemented the basic
+definitions in Lean and fine-tuned the code. That development is third-party
+Lean, not among the corpus's audited builds, so the page lists no `formalized`
+evidence.
+
+The same development is also posted in Boris Alexeev's lean-proofs collection.
+Its header there names Bondy, Vince and ChatGPT 5.2 Thinking as informal authors
+and links the SpringSense posting. A single-file copy is in the erdos-lean
+catalog, which adds `erdos_751`, the negative answer to the first question for
+finite graphs. The corpus built neither.
+
+The [statement file of
 formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/751.lean)
-states both parts with the answer false and leaves their proofs as `sorry`; its
+states both parts with the answer false and leaves their proofs as `sorry`. Its
 finite variant also ends in `sorry` and carries a `formal_proof` attribute
-pointing at `Main.lean`, lines 40–69, of that development at the linked commit,
-and its variant `erdos_751.variants.bondy_vince`, the theorem for a finite graph
-of minimum degree at least three alone, ends in `sorry` with no `formal_proof`,
-so the Lean does not settle that form.
+pointing at `Main.lean`, lines 40–69, of that development at the linked commit.
+Its variant `erdos_751.variants.bondy_vince`, the theorem for a finite graph of
+minimum degree at least three alone, ends in `sorry` with no `formal_proof`, so
+the Lean does not settle that form.

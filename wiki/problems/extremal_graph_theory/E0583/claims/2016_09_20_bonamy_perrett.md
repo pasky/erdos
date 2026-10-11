@@ -2,8 +2,8 @@
 name: problems/extremal_graph_theory/E0583/claims/2016_09_20_bonamy_perrett
 title: Bonamy and Perrett's graphs of maximum degree at most five
 desc: |
-  Bonamy and Perrett prove Gallai's conjecture for connected graphs of
-  maximum degree at most 5; refereed in Discrete Mathematics.
+  Bonamy and Perrett prove Gallai's conjecture for connected graphs of maximum
+  degree at most $5$, in a refereed paper in Discrete Mathematics.
 authors:
 - Marthe Bonamy
 - Thomas J. Perrett

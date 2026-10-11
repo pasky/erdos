@@ -3,8 +3,8 @@ name: problems/divisors/E0696/claims/2026_04_26_turturean
 title: Turturean's asymptotics for h(n) and H(n)
 desc: |
   David Turturean claims, with a GPT-5.5 Pro argument and a Lean 4
-  formalization, that h(n) = (1/2 + o(1)) log* n and H(n) = (1 + o(1)) log* n
-  for almost all n, so H(n)/h(n) tends to 2.
+  formalization, that $h(n)=(\tfrac12+o(1))\log_* n$ and $H(n)=(1+o(1))\log_* n$
+  for almost all $n$, so that $H(n)/h(n)\to2$.
 authors:
 - David Turturean
 status: claimed

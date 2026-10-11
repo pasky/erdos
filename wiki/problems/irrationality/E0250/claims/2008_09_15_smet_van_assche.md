@@ -2,9 +2,9 @@
 name: problems/irrationality/E0250/claims/2008_09_15_smet_van_assche
 title: "Smet and Van Assche: a sharper irrationality measure for zeta_q(2)"
 desc: |
-  Smet and Van Assche (Acta Arith. 138 (2009)) prove zeta_q(2) irrational at
-  q = 1/p with measure at most 10 pi^2/(5 pi^2 - 24); at q = 1/2 this is the
-  sum of sigma(n) over 2^n; refereed.
+  Smet and Van Assche (Acta Arith. 138 (2009), refereed) prove that $\zeta_q(2)$
+  is irrational at $q=1/p$, with irrationality measure at most
+  $10\pi^2/(5\pi^2-24)$. At $q=1/2$ this number is $\sum_n\sigma(n)/2^n$.
 authors:
 - C. Smet
 - W. Van Assche

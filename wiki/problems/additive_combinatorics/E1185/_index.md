@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E1185
 title: Problem 1185
 desc: |
-  Asks whether a dense set of integers has a k-term arithmetic progression
-  whose common difference is a difference of two members of any large enough
-  set.
+  Asks whether every dense subset of $\{1,\ldots,N\}$ has a $k$-term arithmetic
+  progression whose common difference lies in $B-B$, for every large enough set
+  $B$; disproved.
 tags:
 - Additive combinatorics
 - Arithmetic progressions
@@ -41,19 +41,20 @@ Furstenberg's example. Neither [Er80] nor the site's commentary addresses the
 threshold.
 
 **Status.** Solved. The label is the site's (SOLVED, page last edited 5 April
-2026); its commentary states that the statement fails already at $k=3$. The
-answer is no: the commentary credits Furstenberg [Fu81] with an infinite set $B$
-whose difference set $B-B$ is not $2$-intersective, which gives, for some fixed
+2026), and its commentary states that the statement fails already at $k=3$. The
+answer is no. The standing is derived from the claim page. The accepted claim is
+Furstenberg's example and the site's deduction from it, on
+[[problems/additive_combinatorics/E1185/claims/1981_01_01_furstenberg|its claim page]],
+accepted on the curator's credit.
+
+The commentary credits Furstenberg [Fu81] with an infinite set $B$ whose
+difference set $B-B$ is not $2$-intersective. This gives, for some fixed
 $\delta>0$ and every $m$, infinitely many $N$ with a set
 $A\subseteq\{1,\ldots,N\}$ of at least $\delta N$ elements and an $m$-element
-$B$ such that no $3$-term progression in $A$ has its difference in $B-B$. The
-standing is derived from the claim page: the accepted claim is Furstenberg's
-example and the site's deduction from it, on
-[[problems/additive_combinatorics/E1185/claims/1981_01_01_furstenberg|its claim page]],
-accepted on the curator's credit; a $k$-term progression contains a $3$-term one
-with the same difference, so the statement fails, at that $\delta$, for every
-$k\ge3$. Erdős attributes the question to himself and Mauldin, motivated by a
-problem in measure theory.
+$B$ such that no $3$-term progression in $A$ has its difference in $B-B$. A
+$k$-term progression contains a $3$-term one with the same difference, so the
+statement fails, at that $\delta$, for every $k\ge3$. Erdős attributes the
+question to himself and Mauldin, motivated by a problem in measure theory.
 
 **Source.** [erdosproblems.com/1185](https://www.erdosproblems.com/1185),
 accessed 2026-09-04 and 2026-10-07 (page last edited 5 April 2026;

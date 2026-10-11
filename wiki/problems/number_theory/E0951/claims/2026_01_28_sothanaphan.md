@@ -2,9 +2,10 @@
 name: problems/number_theory/E0951/claims/2026_01_28_sothanaphan
 title: Sothanaphan's generators below the primes for small x
 desc: |
-  Notes of 28 January and 1 February 2026, written with ChatGPT, give three
-  rational generators below 5 and then n generators below the n-th prime for
-  3 <= n <= 7, so the inequality fails just below 5, 7, 11, 13 and 17.
+  Sothanaphan's notes of 28 January and 1 February 2026, written with ChatGPT,
+  give three rational generators below 5 and then $n$ generators below the
+  $n$-th prime for $3\le n\le7$. So the inequality fails just below 5, 7, 11, 13
+  and 17.
 authors:
 - Nat Sothanaphan
 status: claimed

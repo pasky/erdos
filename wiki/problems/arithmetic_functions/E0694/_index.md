@@ -2,8 +2,9 @@
 name: problems/arithmetic_functions/E0694
 title: Problem 694
 desc: |
-  Estimates how large the ratio of the largest to the smallest integer with a
-  given value of Euler's totient function can be for values up to x.
+  Asks for an estimate of $\max_{n\le x}f_{\max}(n)/f_{\min}(n)$, the largest
+  ratio of the largest to the smallest $m$ with $\phi(m)=n$ over totient values
+  $n\le x$; solved.
 tags:
 - Number theory
 status: solved
@@ -31,18 +32,18 @@ $$
 (where the maximum is restricted to those $n$ of the form $n=\phi(m)$ for some
 $m$.)
 
-**Status.** Solved; the site's label is SOLVED (LEAN). The status-defining
-source is a five-page note whose title page credits "GPT-5.5 PRO", giving
-the asymptotic $(e^\gamma+o(1))\log\log x$; its
-[[problems/arithmetic_functions/E0694/claims/2026_05_01_price|claim page]]
-is accepted on the site's documented acceptance: the curator restated the
-proof in the site's thread on 2026-05-02 and the site records the result as
-the problem's resolution. Of the two external Lean developments, one proves
-that asymptotic, for its own definition of the ratio, from Mertens' product
-theorem and Linnik's theorem declared as axioms, and the other claims an
-unconditional proof through a module the corpus has not examined; this
-corpus has built neither, so they give no formalized evidence, and no
-refereed publication exists. See "Current assessment".
+**Status.** Solved. The site's label is SOLVED (LEAN). The status-defining
+source is a five-page note whose title page credits "GPT-5.5 PRO". The note
+gives the asymptotic $(e^\gamma+o(1))\log\log x$. Its
+[[problems/arithmetic_functions/E0694/claims/2026_05_01_price|claim page]] is
+accepted on the site's documented acceptance. The curator restated the proof in
+the site's thread on 2026-05-02, and the site records the result as the
+problem's resolution. No refereed publication exists. There are two external
+Lean developments. One proves that asymptotic, for its own definition of the
+ratio, from Mertens' product theorem and Linnik's theorem declared as axioms.
+The other claims an unconditional proof through a module the corpus has not
+examined. This corpus has built neither, so they give no formalized evidence.
+See "Current assessment".
 
 **Source.** [erdosproblems.com/694](https://www.erdosproblems.com/694), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #694,

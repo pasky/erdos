@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E1063
 title: Problem 1063
 desc: |
-  Estimates the least n at least two k for which n minus i divides n choose k
-  for all but one i below k.
+  Asks for an estimate of the least $n\ge2k$ such that $n-i$ divides
+  $\binom{n}{k}$ for all but one $0\le i<k$; open.
 tags:
 - Number theory
 status: open
@@ -24,27 +24,29 @@ updated: 2026-10-08T01:29:59Z
 $n$ such that $n-i$ divides $\binom{n}{k}$ for all but one $0\leq i<k$. Estimate
 $n_k$.
 
-**Status.** Open. The site's proof-claims tab carries two partial proof
-claims by Ricky Cipollini, both attributing the proof to the model GPT-5.6
-Sol and both pointing to one write-up on a collaborative editing service:
-an upper bound, submitted 2026-07-27, of the shape $\log n_k\le
-(1+o(1))\,k\log\log k/\log k$ with explicit second-order terms, recorded on
-[[problems/integer_sequences/E1063/claims/2026_07_27_cipollini|its claim page]],
-and a lower bound, submitted 2026-08-04, of the shape
-$\log n_k\ge c(\log k)^2$, recorded on
+**Status.** Open. The site's label is OPEN (page last edited 01 February 2026).
+
+The site's proof-claims tab (proof-claims thread accessed 2026-10-07) carries
+two partial proof claims by Ricky Cipollini. Both attribute the proof to the
+model GPT-5.6 Sol, and both point to one write-up on a collaborative editing
+service. The first, submitted 2026-07-27, is an upper bound of the shape
+$\log n_k\le (1+o(1))\,k\log\log k/\log k$ with explicit second-order terms. It
+is recorded on
+[[problems/integer_sequences/E1063/claims/2026_07_27_cipollini|its claim page]].
+The second, submitted 2026-08-04, is a lower bound of the shape
+$\log n_k\ge c(\log k)^2$. It is recorded on
 [[problems/integer_sequences/E1063/claims/2026_08_04_cipollini|its claim page]].
-Neither of Cipollini's claims settles the problem, and neither has
-acceptance evidence; the site's label is unchanged (OPEN; page last edited 01
-February 2026), and the claims are recorded without being adopted
-(proof-claims thread accessed 2026-10-07). Two further upper bounds lie outside
-the tab. Patrick White's repository of 25 July 2026 claims
-$n_k\le\exp(Ck\log\log k/\log k)$ for large $k$; it is recorded on
-[[problems/integer_sequences/E1063/claims/2026_07_25_white|its claim page]]. A
-Lean 4 proof of 1 October 2026 by the LEAP prover agent, linked by the
+Neither of Cipollini's claims settles the problem, and neither has acceptance
+evidence. The site's label is unchanged, and these claims are recorded without
+being adopted.
+
+Two further upper bounds lie outside the tab. Patrick White's repository of 25
+July 2026 claims $n_k\le\exp(Ck\log\log k/\log k)$ for large $k$. It is recorded
+on [[problems/integer_sequences/E1063/claims/2026_07_25_white|its claim page]].
+A Lean 4 proof of 1 October 2026 by the LEAP prover agent, linked by the
 formal-conjectures catalog, gives the stronger bound
-$n_k=O(\exp(\frac{k}{\log k}(\log\log k+\log\log\log k+\log2)))$; it is
-recorded on
-[[problems/integer_sequences/E1063/claims/2026_10_01_leap|its claim page]].
+$n_k=O(\exp(\frac{k}{\log k}(\log\log k+\log\log\log k+\log2)))$. It is recorded
+on [[problems/integer_sequences/E1063/claims/2026_10_01_leap|its claim page]].
 Monier's published bound $n_k\le k!$ for $k\ge3$ (Amer. Math. Monthly 1985),
 which the site's commentary credits, is an accepted partial claim on
 [[problems/integer_sequences/E1063/claims/1985_06_01_monier|its claim page]].

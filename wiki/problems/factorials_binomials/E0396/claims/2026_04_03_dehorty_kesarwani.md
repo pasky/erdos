@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0396/claims/2026_04_03_dehorty_kesarwani
 title: The joint witness for k = 14
 desc: |
-  The term a(14) = 359503904702190 of the OEIS entry A375077, credited to Justin
-  Dehorty and Sharvil Kesarwani, is the least n with n(n-1)...(n-14) dividing
-  the central binomial coefficient, so k = 14 has the answer yes.
+  The term $a(14)=359503904702190$ of the OEIS entry A375077, credited to Justin
+  Dehorty and Sharvil Kesarwani, is the least $n$ with
+  $n(n-1)\cdots(n-14)\mid\binom{2n}{n}$. So $k=14$ has the answer yes.
 authors:
 - Justin Dehorty
 - Sharvil Kesarwani

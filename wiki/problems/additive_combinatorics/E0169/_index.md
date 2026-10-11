@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0169
 title: Problem 169
 desc: |
-  Estimates the largest possible sum of reciprocals of a set of integers with
-  no arithmetic progression of k terms, and compares it to van der Waerden
-  numbers.
+  Asks for estimates of $f(k)$, the supremum of $\sum_{n\in A}1/n$ over sets $A$
+  of positive integers with no $k$-term arithmetic progression, and whether
+  $f(k)/\log W(k)\to\infty$, where $W(k)$ is the van der Waerden number; open.
 tags:
 - Additive combinatorics
 - Arithmetic progressions
@@ -34,48 +34,51 @@ $$
 
 where $W(k)$ is the van der Waerden number?
 
-**Status.** Open. The site's label is OPEN (page last edited 4 April 2026).
-Six partial claims are recorded, none bearing on the displayed limit question.
-The refereed lower bounds the site credits are accepted partial claims:
+**Status.** Open. The site's label is OPEN (page last edited 4 April 2026). Six
+partial claims are recorded, and none bears on the displayed limit question.
+
+The refereed lower bounds the site credits are accepted partial claims.
 [[problems/additive_combinatorics/E0169/claims/1968_08_01_berlekamp|Berlekamp]]
 gives $f(k)\ge(\frac{\log2}{2}-o(1))k$ through his two-coloring bound
-$W(p+1)>p\,2^p$ for prime $p$, and
-[[problems/additive_combinatorics/E0169/claims/1977_02_01_gerver|Gerver]]
-gives $f(k)\ge(1-o(1))k\log k$. Among the numerical records,
+$W(p+1)>p\,2^p$ for prime $p$.
+[[problems/additive_combinatorics/E0169/claims/1977_02_01_gerver|Gerver]] gives
+$f(k)\ge(1-o(1))k\log k$. Among the numerical records,
 [[problems/additive_combinatorics/E0169/claims/1984_07_01_wroblewski|Wróblewski's set]]
-gives $f(3)\ge3.00849$, accepted on its journal record, and
+gives $f(3)\ge3.00849$ and is accepted on its journal record.
 [[problems/additive_combinatorics/E0169/claims/2022_03_11_walker|Walker's Kempner sets]]
-give $f(4)\ge4.43975$ and $f(10)\ge14.056$, an arXiv preprint that stays
-claimed. Corollary 11.2 of the OpenAI release
-manuscript *Quasipolynomial bounds for arithmetic progressions*
-(23 September 2026;
+give $f(4)\ge4.43975$ and $f(10)\ge14.056$. They appear in an arXiv preprint and
+stay claimed.
+
+Corollary 11.2 of the OpenAI release manuscript *Quasipolynomial bounds for
+arithmetic progressions* (23 September 2026;
 [[problems/additive_combinatorics/E0169/claims/2026_09_23_openai|claim page]])
-claims that $f(k)$ is finite for every $k\ge3$, with the bound
+claims that $f(k)$ is finite for every $k\ge3$. It gives the bound
 $f(k)\le\sum_{m\ge0}2^{-m}r_k(2^m)$ and no numerical value. The finiteness
-itself follows, by Gerver's equivalence recorded in the site's commentary,
-from the reciprocal-sum theorem of
-[[problems/additive_combinatorics/E0003/_index|Problem 3]], which this corpus
-accepts on
-[[problems/additive_combinatorics/E0003/claims/2026_09_23_openai|that problem's claim page]];
-the explicit bound stays claimed. Neither gives an estimate of $f(k)$ or
+itself follows from the reciprocal-sum theorem of
+[[problems/additive_combinatorics/E0003/_index|Problem 3]], by Gerver's
+equivalence recorded in the site's commentary. This corpus accepts that theorem
+on
+[[problems/additive_combinatorics/E0003/claims/2026_09_23_openai|that problem's claim page]].
+The explicit bound stays claimed. Neither gives an estimate of $f(k)$ or
 anything on the displayed limit question.
-[[problems/additive_combinatorics/E0169/claims/2026_09_26_kiichi|Kiichi's explicit sets]],
-posted on the problem's thread on 26 September 2026 with a manuscript of
-3 October 2026, give $f(3)\ge3.0085385$ and $f(4)\ge4.4397534742$, beyond the
-records of Wróblewski and Walker;
-the claimants state each set as a Lean theorem of their own, which this
-corpus has not built, and claim nothing on the growth of $f(k)$. The release's
-companion manuscript *Quantitative superexponential bounds for van der Waerden
-numbers* (23 September 2026; intake card
+
+[[problems/additive_combinatorics/E0169/claims/2026_09_26_kiichi|Kiichi's explicit sets]]
+were posted on the problem's thread on 26 September 2026, with a manuscript of 3
+October 2026. They give $f(3)\ge3.0085385$ and $f(4)\ge4.4397534742$, beyond the
+records of Wróblewski and Walker. The claimants state each set as a Lean theorem
+of their own, which this corpus has not built. They claim nothing on the growth
+of $f(k)$.
+
+The release's companion manuscript *Quantitative superexponential bounds for van
+der Waerden numbers* (23 September 2026; intake card
 [[../library/additive_combinatorics/openai_2026_quantitative_superexponential_bounds_van_der_waerden_numbers/_index|openai_2026_quantitative_superexponential_bounds_van_der_waerden_numbers]])
-proves $W(k)>k^{ck}$ with $c=10^{-5}$ for all large $k$, accepted with
-formalized evidence on
-[[problems/additive_combinatorics/E0138/claims/2026_09_23_openai|Problem 138's claim page]],
-hence $\log W(k)\ge ck\log k$; it makes no claim about $f(k)$ or the ratio
-$f(k)/\log W(k)$ and does not name this problem, so it is recorded here as an
-input to the limit question and gets no claim page. Gerver's lower bound and the
-trivial $f(k)/\log W(k)\ge1/2$ recorded by the site are unchanged by these
-results, so the problem stays open.
+proves $W(k)>k^{ck}$ with $c=10^{-5}$ for all large $k$, hence
+$\log W(k)\ge ck\log k$. The result is accepted with formalized evidence on
+[[problems/additive_combinatorics/E0138/claims/2026_09_23_openai|Problem 138's claim page]].
+It makes no claim about $f(k)$ or the ratio $f(k)/\log W(k)$, and it does not
+name this problem. So it is recorded here as an input to the limit question and
+gets no claim page. Gerver's lower bound and the trivial $f(k)/\log W(k)\ge1/2$
+recorded by the site are unchanged by these results, so the problem stays open.
 
 **Source.** [erdosproblems.com/169](https://www.erdosproblems.com/169), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #169,

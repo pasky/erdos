@@ -2,9 +2,10 @@
 name: problems/set_systems/E1020/claims/2018_06_22_frankl_kupavskii
 title: Frankl and Kupavskii's range n at least 5/3 (k - 1) r - 2/3 (k - 1)
 desc: |
-  Frankl and Kupavskii (2022) prove the matching conjecture for large
-  matching number s = k - 1 whenever n is at least (5/3) s r - (2/3) s, by
-  concentration inequalities; refereed in J. Combin. Theory Ser. B.
+  Frankl and Kupavskii (2022) use concentration inequalities to prove the
+  matching conjecture for large matching number $s=k-1$ whenever
+  $n\ge\tfrac53sr-\tfrac23s$. The paper is refereed and appeared in J. Combin.
+  Theory Ser. B.
 authors:
 - Peter Frankl
 - Andrey Kupavskii
@@ -52,7 +53,7 @@ crossover, $n\ge(r+1)(k-1)$ for $k-1\ge s_0(r)$, is the pending claim on
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Combinatorial
-Theory, Series B, 157 (2022), 366–400, after its first posting as
-arXiv:1806.08855 on 2018-06-22. The site's commentary does not cite the
-paper and labels the problem FALSIFIABLE, an open label, so no `reviewed` is
-listed. Nothing here rests on this project's own review.
+Theory, Series B, 157 (2022), 366–400. It was first posted as arXiv:1806.08855
+on 2018-06-22. The site's commentary does not cite the paper. The site labels
+the problem FALSIFIABLE, which is an open label, so no `reviewed` is listed.
+Nothing here rests on this project's own review.

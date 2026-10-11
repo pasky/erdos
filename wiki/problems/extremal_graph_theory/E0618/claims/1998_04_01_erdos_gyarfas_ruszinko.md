@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0618/claims/1998_04_01_erdos_gyarfas_ruszinko
 title: The bounded-degree case, O(n log n) added edges
 desc: |
-  Theorem 2.3 of Erdős, Gyárfás and Ruszinkó (Combinatorica 1998): a
-  triangle-free graph of fixed maximum degree d needs at most c(d) n log n
-  added edges to reach diameter two; refereed, an accepted partial claim.
+  Theorem 2.3 of Erdős, Gyárfás and Ruszinkó (Combinatorica 1998) shows that a
+  triangle-free graph of fixed maximum degree $d$ needs at most $c(d)\,n\log n$
+  added edges to reach diameter two. The result is refereed and accepted as a
+  partial claim.
 authors:
 - Paul Erdős
 - András Gyárfás
@@ -54,10 +55,10 @@ $o(n^{1/2})$, is the accepted full claim
 **Depends on.** Nothing in this wiki; the proof is the paper's own, rewritten
 on the result page linked above.
 
-**Acceptance.** Refereed: Combinatorica 18 (1998), no. 4, 493--501. The
-site's commentary credits the authors with the bounded-degree bound, but its
-PROVED (LEAN) label credits Alon's solution, so the curator's credit is not
-an acceptance of this result and `reviewed` is not listed.
+**Acceptance.** Refereed: Combinatorica 18 (1998), no. 4, 493--501. The site's
+commentary credits the authors with the bounded-degree bound. But the site's
+PROVED (LEAN) label credits Alon's solution, so the curator's credit is not an
+acceptance of this result, and `reviewed` is not listed.
 
 **Dating.** The page is dated by the issue date Crossref records for the
 paper, 1 April 1998; the day is the issue's nominal first day.

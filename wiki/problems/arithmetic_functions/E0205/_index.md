@@ -2,8 +2,9 @@
 name: problems/arithmetic_functions/E0205
 title: Problem 205
 desc: |
-  Asks whether every large integer is a power of two plus a number whose count
-  of prime factors with multiplicity is below the iterated logarithm.
+  Asks whether every large integer $n$ can be written as $2^k+m$ with
+  $\Omega(m)<\log\log m$, where $\Omega(m)$ counts prime factors with
+  multiplicity; disproved.
 tags:
 - Number theory
 status: solved
@@ -25,17 +26,17 @@ $2^k+m$ for some $k\geq 0$, where $\Omega(m)<\log\log m$? (Here $\Omega(m)$ is
 the number of prime divisors of $m$ counted with multiplicity.) What about
 $<\epsilon \log\log m$? Or some more slowly growing function?
 
-**Status.** The site labels the problem DISPROVED (LEAN): the answer to the
-first question is no, credited by the site to Barreto and Leeham, with the
-quantified form credited to Tao and Alexeev, and the site leaves open
-whether arbitrarily large odd counterexamples exist. The label's Lean
-suffix refers to community Lean files that this corpus has not built, and
-the two informal write-ups are unrefereed. The claim pages are
-[[problems/arithmetic_functions/E0205/claims/2026_01_11_barreto_leeham|Barreto–Leeham 2026]]
-(the negative answer the site credits) and
-[[problems/arithmetic_functions/E0205/claims/2026_01_11_tao_alexeev|Tao–Alexeev 2026]]
-(the quantified bound the linked Lean files prove); see "Current
-assessment" for the evidence.
+**Status.** The site labels the problem DISPROVED (LEAN). The answer to the
+first question is no. The site credits this answer to Barreto and Leeham, and
+credits the quantified form to Tao and Alexeev. The site leaves open whether
+arbitrarily large odd counterexamples exist. The label's Lean suffix refers to
+community Lean files that this corpus has not built. The two informal write-ups
+are unrefereed. The claim pages are
+[[problems/arithmetic_functions/E0205/claims/2026_01_11_barreto_leeham|Barreto–Leeham 2026]],
+the negative answer the site credits, and
+[[problems/arithmetic_functions/E0205/claims/2026_01_11_tao_alexeev|Tao–Alexeev 2026]],
+the quantified bound the linked Lean files prove. See "Current assessment" for
+the evidence.
 
 **Source.** [erdosproblems.com/205](https://www.erdosproblems.com/205), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #205,

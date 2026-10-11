@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E1072
 title: Problem 1072
 desc: |
-  Studies the least n for which a given prime divides n factorial plus one, as
-  a function of that prime.
+  Asks, for $f(p)$ the least $n$ with $p\mid n!+1$, whether $f(p)=p-1$ for
+  infinitely many primes $p$ and whether $f(p)/p\to 0$ for almost all $p$; open.
 tags:
 - Number theory
 status: open

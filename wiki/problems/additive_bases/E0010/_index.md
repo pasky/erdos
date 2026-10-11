@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0010
 title: Problem 10
 desc: |
-  Asks whether some fixed k makes every large integer the sum of a prime and
-  at most k powers of 2; open, with three powers shown insufficient for
-  infinitely many even integers.
+  Asks whether some fixed $k$ makes every large integer the sum of a prime and
+  at most $k$ powers of 2. It is open, but three powers are known not to
+  suffice: infinitely many even integers are not a prime plus at most three
+  powers of 2.
 tags:
 - Number theory
 - Additive bases
@@ -27,29 +28,31 @@ updated: 2026-10-08T14:17:37Z
 prime and at most $k$ powers of 2?
 
 **Status.** Open, the site's label (page last edited 11 April 2026). No source
-resolves whether some $k$ exists. What is settled is that $k=3$ does not
-suffice: infinitely many even integers cannot be written as a prime plus at
-most three powers of $2$, by Crocker's 1971 construction [Cr71] and a parity
-argument, Lean-verified as the catalog variant
-`Erdos10.erdos_10.variants.grechuk` and accepted by the bounty site
-Conjectures.io on 6 August 2026 (see Current assessment); hence any such $k$
-is at least $4$. This settles only the site's parenthetical remark, not the
-question. The variant has two claim pages, both partial: the site's certified
-record, an accepted partial claim,
-[[problems/additive_bases/E0010/claims/2026_08_06_5gegry_uluscv|the certified Conjectures.io proof]],
-and a second Lean proof of the same statement, listed on the forum,
-[[problems/additive_bases/E0010/claims/2026_08_06_daryxx|Daryxx 2026]]; no
-claim page settles the question itself, so the standing stays open. Search
-scope, dated 2026-09-28 UTC (the community database as of 2026-09-27):
-erdosproblems.com (the page, last edited 11 April 2026 and marked OPEN; the
-discuss and proof-claims forum threads, the latter holding one partial claim
-of 2026-08-07; the edit history), the community database (open, last update
-2025-08-31), conjectures.io (the results listing, records
-`244ff2d0-399d-4e37-a307-4ff6f3cb3493` and
+resolves whether some $k$ exists, and no claim page settles the question, so the
+standing stays open.
+
+What is settled is that $k=3$ does not suffice. Infinitely many even integers
+cannot be written as a prime plus at most three powers of $2$. This follows from
+Crocker's 1971 construction [Cr71] and a parity argument. It is Lean-verified as
+the catalog variant `Erdos10.erdos_10.variants.grechuk`, and the bounty site
+Conjectures.io accepted it on 6 August 2026 (see Current assessment). Hence any
+such $k$ is at least $4$. This settles only the site's parenthetical remark, not
+the question. The variant has two claim pages, both partial. One is the site's
+certified record, an accepted partial claim:
+[[problems/additive_bases/E0010/claims/2026_08_06_5gegry_uluscv|the certified Conjectures.io proof]].
+The other is a second Lean proof of the same statement, listed on the forum:
+[[problems/additive_bases/E0010/claims/2026_08_06_daryxx|Daryxx 2026]].
+
+The search is dated 2026-09-28 UTC, with the community database as of
+2026-09-27. It covered erdosproblems.com (the page, last edited 11 April 2026
+and marked OPEN, the discuss and proof-claims forum threads, and the edit
+history). The proof-claims thread holds one partial claim of 2026-08-07. It also
+covered the community database (open, last update 2025-08-31), conjectures.io
+(the results listing, records `244ff2d0-399d-4e37-a307-4ff6f3cb3493` and
 `ce95887b-8b61-4a89-9069-9131a58906e0`, and the withdrawn problem page), the
 formal-conjectures commit history of `FormalConjectures/ErdosProblems/10.lean`,
-OEIS A387053 and arXiv:2605.17825; not searched: X, MathOverflow, Google
-Scholar and journal sites beyond the DOI check.
+OEIS A387053 and arXiv:2605.17825. It did not cover X, MathOverflow, Google
+Scholar, or journal sites beyond the DOI check.
 
 **Source.** [erdosproblems.com/10](https://www.erdosproblems.com/10), accessed
 2026-09-28. Cite as: T. F. Bloom, Erdős Problem #10,

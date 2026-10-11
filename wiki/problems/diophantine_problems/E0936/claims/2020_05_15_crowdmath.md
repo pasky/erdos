@@ -2,9 +2,10 @@
 name: problems/diophantine_problems/E0936/claims/2020_05_15_crowdmath
 title: Powerful values of k^n + r under the abc conjecture
 desc: |
-  CrowdMath shows that, assuming the abc conjecture, k^n + r is powerful only
-  finitely often for fixed coprime positive k and r, which covers 2^n + 1 and,
-  through (n!)^r + k, also n! + 1; the paper does not treat 2^n - 1.
+  Assuming the abc conjecture, CrowdMath shows that $k^n+r$ is powerful only
+  finitely often for fixed coprime positive $k$ and $r$, which covers $2^n+1$.
+  Through $(n!)^r+k$ it also covers $n!+1$, but the paper does not treat
+  $2^n-1$.
 authors:
 - P.A. CrowdMath
 status: claimed
@@ -46,6 +47,6 @@ claim gives no unconditional answer and settles no standing of the problem.
 **Depends on.** No other wiki page; the claim rests on the cited preprint and
 the hypothesis stated above.
 
-**Acceptance.** None. The paper is an arXiv preprint with no journal version
-found, and the site labels the problem OPEN, so the site's commentary crediting
-the paper is not acceptance.
+**Acceptance.** None. The paper is an arXiv preprint, and no journal version was
+found. The site labels the problem OPEN, so the site's commentary crediting the
+paper is not acceptance.

@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0261/claims/1990_01_01_borwein_loring
 title: "Borwein and Loring: infinitely many n with n over 2^n a sum of k over 2^k"
 desc: |
-  Borwein and Loring's 1990 identity writes n over two to the n as a sum of m
-  consecutive terms k over two to the k for n = 2^(m+1) - m - 2, so infinitely
-  many n have the property; refereed, it answers the first question yes.
+  Borwein and Loring's refereed 1990 identity writes $n/2^n$ as a sum of $m$
+  consecutive terms $k/2^k$ for $n=2^{m+1}-m-2$. So infinitely many $n$ have the
+  property, and the answer to the first question is yes.
 authors:
 - P. B. Borwein
 - T. A. Loring
@@ -66,11 +66,11 @@ settling it, as the problem page records.
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper.
 
 **Acceptance.** Refereed: Mathematics of Computation 54 (1990), no. 189,
-377--394, received 8 December 1988 (`refereed`). The site's curator gives
-the identity in the problem's remarks, but the site labels the problem OPEN,
-so the remark is not acceptance of the problem and the page lists no
-`reviewed` evidence. The library holds no file of the paper; the statement
-is recorded from its card, and the corpus records no check of the proof.
+377--394, received 8 December 1988 (`refereed`). The site's curator gives the
+identity in the problem's remarks. The site labels the problem OPEN, however, so
+the remark is not acceptance of the problem, and the page lists no `reviewed`
+evidence. The library holds no file of the paper. The statement is recorded from
+its card, and the corpus records no check of the proof.
 
 **Dating.** The page is dated by the issue month in the publisher's record,
 January 1990; the day is a placeholder.

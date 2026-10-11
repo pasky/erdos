@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E1003
 title: Problem 1003
 desc: |
-  Asks whether Euler's totient function takes the same value at n and at n
-  plus one for infinitely many n.
+  Asks whether $\phi(n)=\phi(n+1)$ for infinitely many $n$, where $\phi$ is
+  Euler's totient function; open.
 tags:
 - Number theory
 status: open

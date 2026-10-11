@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0557/claims/2026_09_04_reed_stein
 title: Reed and Stein, R_k(T) < k(n - 2) + 3 for all large trees from the dense Erdős–Sós theorem
 desc: |
-  Corollary 4 of Reed and Stein (arXiv September 2026): for each k an n_0 with
-  R_k(T) < k(n - 2) + 3 for every tree on n >= n_0 vertices, so the Statement
-  holds when its constant may depend on k; the uniform reading is not covered.
+  Corollary 4 of Reed and Stein (arXiv September 2026) gives, for each $k$, an
+  $n_0$ with $R_k(T)<k(n-2)+3$ for every tree on $n\ge n_0$ vertices. So the
+  Statement holds when its constant may depend on $k$, but the uniform reading
+  is not covered.
 authors:
 - Bruce Reed
 - Maya Stein
@@ -88,20 +89,21 @@ which writes $T_n$ for a tree on $n$ edges; the paper restates the
 question for $k$-vertex trees, as the site does.
 
 **Acceptance.** Reviewed: the site's curator, T. F. Bloom, credits Reed and
-Stein in the problem's commentary (page last edited 7 September 2026) with
-establishing the Erdős--Sós conjecture for dense graphs and deducing that
-$R_k(T)\le k(n-2)+3$ once $n$ is large enough depending on $k$, and states
-that the problem follows from that theorem, which it does under reading (a);
-the problem is marked proved: the site printed PROVED (FORMALIZED) on
-2026-09-05, and the community database (teorth/erdosproblems, as of
-2026-10-06) lists its status as proved (Lean) with last update 3 September
-2026, while the static text of the problem page printed no label on
-2026-10-07. The curator is independent of the claimants. Nothing is
-refereed: the paper is an arXiv preprint. Nothing is formalized for this
-page: the Lean development announced in the problem's discussion on 17
-September 2026 formalizes the deduction from the Problem 548 result, not
-this paper's theorem, and is the evidence of the Adamczewski page, where
-this corpus's build and audit of it are recorded.
+Stein in the problem's commentary (page last edited 7 September 2026). The
+credit is for establishing the Erdős--Sós conjecture for dense graphs and
+deducing that $R_k(T)\le k(n-2)+3$ once $n$ is large enough depending on $k$.
+The curator states that the problem follows from that theorem, which it does
+under reading (a). The curator is independent of the claimants. The problem is
+marked proved. The site printed PROVED (FORMALIZED) on 2026-09-05. The community
+database (teorth/erdosproblems, as of 2026-10-06) lists its status as proved
+(Lean), with last update 3 September 2026. The static text of the problem page
+printed no label on 2026-10-07.
+
+Nothing is refereed: the paper is an arXiv preprint. Nothing is formalized for
+this page. The Lean development announced in the problem's discussion on 17
+September 2026 formalizes the deduction from the Problem 548 result, not this
+paper's theorem. It is the evidence of the Adamczewski page, where this corpus's
+build and audit of it are recorded.
 
 **Read depth.** The abstract, Theorem 2, Corollary 4 and the paragraph
 deducing it, Section 1.1 and the references were read in the text layer of

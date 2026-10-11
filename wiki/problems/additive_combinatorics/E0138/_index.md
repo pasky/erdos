@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0138
 title: Problem 138
 desc: |
-  Improves bounds on the van der Waerden number, the least N forcing a
-  monochromatic k-term progression in any two-coloring, and whether its k-th
-  root grows.
+  Asks for better bounds on the van der Waerden number $W(k)$, the least $N$
+  such that every two-coloring of $\{1,\ldots,N\}$ has a monochromatic $k$-term
+  arithmetic progression, for example a proof that $W(k)^{1/k}\to\infty$; open.
 tags:
 - Additive combinatorics
 status: open

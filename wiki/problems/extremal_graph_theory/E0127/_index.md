@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0127
 title: Problem 127
 desc: |
-  Asks whether the excess over a known bound in the number of edges of a
-  largest bipartite subgraph of a graph with m edges is unbounded along some
-  sequence of m.
+  Asks whether, for graphs with $m$ edges, the guaranteed excess $f(m)$ of a
+  largest bipartite subgraph over $m/2+(\sqrt{8m+1}-1)/8$ edges is unbounded
+  along some sequence of $m$; proved.
 tags:
 - Graph theory
 status: solved
@@ -41,13 +41,13 @@ $-1$ terms, tends to infinity along some sequence. These readings differ by
 bounded amounts, so the unboundedness question, and its answer yes, is the
 same under each.
 
-**Status.** PROVED (LEAN). The frontmatter standing is derived from the
-claim pages under `claims/`: Alon's refereed theorem is accepted on its
-publication and the site's acceptance
-([[problems/extremal_graph_theory/E0127/claims/1996_09_01_alon|claim page]]);
-the label's Lean suffix is the site's formal status, reflecting the outside
-Lean formalization of Alon's theorem that is linked on Alon's claim page and
-that this corpus has not built.
+**Status.** PROVED (LEAN). The frontmatter standing is derived from the claim
+pages under `claims/`. Alon's refereed theorem is accepted on its publication
+and the site's acceptance
+([[problems/extremal_graph_theory/E0127/claims/1996_09_01_alon|claim page]]).
+The label's Lean suffix is the site's formal status. It reflects the outside
+Lean formalization of Alon's theorem, which is linked on Alon's claim page and
+which this corpus has not built.
 
 **Source.** [erdosproblems.com/127](https://www.erdosproblems.com/127), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #127,

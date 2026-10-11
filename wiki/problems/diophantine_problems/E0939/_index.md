@@ -2,9 +2,10 @@
 name: problems/diophantine_problems/E0939
 title: Problem 939
 desc: |
-  Concerns sums of coprime r-powerful numbers; the 3-powerful triple question
-  is answered yes (Nitaj 1995), infinitely many solutions exist for every r at
-  least 6, and r = 4 is open.
+  Asks whether, for $r\geq 4$, a sum of $r-2$ coprime $r$-powerful numbers can
+  be $r$-powerful and if so only finitely often, and whether $a+b=c$ has
+  infinitely many coprime 3-powerful solutions. The last is answered yes (Nitaj
+  1995), every $r\geq 6$ has infinitely many solutions, and $r=4$ is open.
 tags:
 - Number theory
 - Powerful numbers
@@ -45,14 +46,15 @@ not pairwise coprime, and formal-conjectures uses joint coprimality
 examples and the $r\geq6$ construction would not count. Under a "for some $r$"
 reading, the first question would already be answered yes at $r=5$.
 
-**Status.** Open; the site's label is OPEN (page last edited 2026-05-28;
-proof-claims thread empty as of 2026-09-27). The site's remarks answer the
-third question yes through Nitaj [Ni95], with further constructions by Cohn
-[Co98] and Walsh [Wa24]; record solutions of the first question at $r=5$
-(Cambie; Kitamura) and at $r=7$ and $r=8$ (Cambie); and record a construction
-(GPT-5.5 Pro, prompted by Price, 24 May 2026) giving infinitely many solutions
-for every $r\geq 6$, so that the second question's answer is no there. Neither
-of the first two questions is answered at $r=4$.
+**Status.** Open. The site's label is OPEN. The page was last edited on
+2026-05-28, and its proof-claims thread was empty as of 2026-09-27. The site's
+remarks answer the third question yes through Nitaj [Ni95], with further
+constructions by Cohn [Co98] and Walsh [Wa24]. They record solutions of the
+first question at $r=5$ (Cambie; Kitamura) and at $r=7$ and $r=8$ (Cambie). They
+also record a construction (GPT-5.5 Pro, prompted by Price, 24 May 2026) that
+gives infinitely many solutions for every $r\geq 6$, so the answer to the second
+question is no for those $r$. Neither of the first two questions is answered at
+$r=4$.
 
 **Source.** [erdosproblems.com/939](https://www.erdosproblems.com/939), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #939,

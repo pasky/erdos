@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0439/claims/2006_01_03_khalfalah_szemeredi
 title: Khalfalah and Szemerédi, monochromatic x + y = f(z) for every non-constant polynomial with an even value
 desc: |
-  Khalfalah and Szemerédi's refereed 2006 theorem: for every non-constant
-  integer polynomial f with an even value, every finite coloring of the
-  integers has two distinct integers of one color summing to a value of f.
+  Khalfalah and Szemerédi's refereed 2006 theorem states that if $f$ is a
+  non-constant integer polynomial with an even value, every finite coloring of
+  the integers has two distinct integers of one color whose sum is a value of
+  $f$.
 authors:
 - Ayman Khalfalah
 - Endre Szemerédi
@@ -53,18 +54,20 @@ alone.
 
 **Acceptance.** Refereed: A. Khalfalah and E. Szemerédi, On the number of
 monochromatic solutions of $x+y=z^2$, Combin. Probab. Comput. 15 (2006), no.
-1--2, 213--227, published online 3 January 2006 (Crossref record), the date this page is named by. Later refereed papers cite it:
-Sanders (Acta Math. Hungar. 161 (2020)) as the answer to a question of Roth,
-Erdős, Sárközy and Sós, and Green and Lindqvist (Canad. J. Math. 71 (2019)) in a
-remark (p. 580) that states it without the condition $x\ne y$, filed as
+1--2, 213--227. It was published online 3 January 2006 (Crossref record), and
+this page is named by that date. Later refereed papers cite it. Sanders (Acta
+Math. Hungar. 161 (2020)) cites it as the answer to a question of Roth, Erdős,
+Sárközy and Sós. Green and Lindqvist (Canad. J. Math. 71 (2019)) cite it in a
+remark (p. 580) that states it without the condition $x\ne y$. These papers are
+filed as
 [[../library/ramsey_theory/sanders_2020_monochromatic_solutions_x_minus_y_z_squared/_index|Sanders 2020]]
 and
 [[../library/ramsey_theory/green_2019_monochromatic_solutions_x_plus_y_z_squared/_index|Green and Lindqvist 2019]].
 Reviewed: the site's curator, T. F. Bloom, labels the problem PROVED and credits
-the theorem, in the problem's commentary, in the general form with a
-non-constant $f$ (page last edited 7 April 2026); the thread and proof-claim tab
-are empty. None of the 23 citing papers that Semantic Scholar listed on
-2026-09-18 disputes the theorem.
+the theorem in the problem's commentary, in the general form with a non-constant
+$f$ (page last edited 7 April 2026). The thread and proof-claim tab are empty.
+None of the 23 citing papers that Semantic Scholar listed on 2026-09-18 disputes
+the theorem.
 
 **Sources of the statement.** The paper is closed access and not held, so
 its theorem is cited here through the publisher's abstract, the introduction

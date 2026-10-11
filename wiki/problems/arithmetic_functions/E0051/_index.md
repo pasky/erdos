@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0051
 title: Problem 51
 desc: |
-  Asks whether some infinite set of totient values has the smallest integer
-  attaining each value growing faster than any fixed multiple of the value.
+  Asks whether some infinite set $A$ of totient values has $n_a/a\to\infty$,
+  where $n_a$ is the least $n$ with $\phi(n)=a$; open.
 tags:
 - Number theory
 status: open

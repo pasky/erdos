@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E0072
 title: Problem 72
 desc: |
-  Asks whether some set of integers of density zero meets the cycle lengths of
-  every large graph whose average degree is at least a fixed constant.
+  Asks whether there are a set $A\subset\mathbb{N}$ of density $0$ and a
+  constant $c>0$ such that every large graph of average degree at least $c$ has
+  a cycle whose length lies in $A$; proved.
 tags:
 - Graph theory
 - Cycles

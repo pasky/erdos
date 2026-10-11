@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0808
 title: Problem 808
 desc: |
-  Asks whether, for a graph on a set of n integers with many edges, the sums
-  or the products along its edges must number nearly as many as the edge
-  count.
+  Asks whether, for any graph with many edges on a set of $n$ integers, the sums
+  or the products along its edges must number nearly as many as the edges;
+  disproved.
 tags:
 - Additive combinatorics
 - Graph theory
@@ -38,21 +38,21 @@ $$
 
 and similarly for $A\cdot_GA$.
 
-**Status.** Disproved. The status-defining source is Theorem 4 of Alon,
-Ruzsa and Solymosi [ARS20] (Publ. Mat. 64 (2020), 143--155, refereed): for
-every $0<c<1$ there is $\delta>0$ such that for infinitely many $n$ some
-set of $n$ integers carries a graph with at least $n^{1+c}/\log^{O(1)}n$
-edges along which sums and products together number at most
-$n^{1+c-\delta}\log^{O(1)}n$ (the paper's $\Omega_l$ and $O_l$, loose up to
-powers of the logarithm, which the strict inequality in $\delta$ absorbs);
-their Theorem 3 is
-the explicit case with $\gg n^{5/3-o(1)}$ edges and
-$\max(\lvert A+_GA\rvert,\lvert A\cdot_GA\rvert)\ll n^{4/3+o(1)}$. The
-paper's positive result, that a graph with $m$ edges on $n$ integers has
-$\max(\lvert A+_GA\rvert,\lvert A\cdot_GA\rvert)\gg m^{3/2}n^{-7/4}$,
-bounds how far the failure can go. The claim page is
-[[problems/additive_combinatorics/E0808/claims/2018_02_18_alon_ruzsa_solymosi|Alon, Ruzsa and Solymosi]]
-(accepted on the refereed publication and the site's credit).
+**Status.** Disproved. The status-defining source is Theorem 4 of Alon, Ruzsa
+and Solymosi [ARS20] (Publ. Mat. 64 (2020), 143--155, refereed). For every
+$0<c<1$ there is $\delta>0$ such that, for infinitely many $n$, some set of $n$
+integers carries a graph with at least $n^{1+c}/\log^{O(1)}n$ edges along which
+sums and products together number at most $n^{1+c-\delta}\log^{O(1)}n$. The
+paper states this with $\Omega_l$ and $O_l$, which are loose up to powers of the
+logarithm, and the strict inequality in $\delta$ absorbs that loss. Their
+Theorem 3 is the explicit case, with $\gg n^{5/3-o(1)}$ edges and
+$\max(\lvert A+_GA\rvert,\lvert A\cdot_GA\rvert)\ll n^{4/3+o(1)}$. The paper's
+positive result bounds how far the failure can go: a graph with $m$ edges on $n$
+integers has
+$\max(\lvert A+_GA\rvert,\lvert A\cdot_GA\rvert)\gg m^{3/2}n^{-7/4}$. The claim
+page is
+[[problems/additive_combinatorics/E0808/claims/2018_02_18_alon_ruzsa_solymosi|Alon, Ruzsa and Solymosi]],
+accepted on the refereed publication and the site's credit.
 
 **Source.** [erdosproblems.com/808](https://www.erdosproblems.com/808), accessed
 2026-09-04 and 2026-10-07 (label DISPROVED; no last-edited date; empty

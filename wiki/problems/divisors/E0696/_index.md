@@ -2,8 +2,9 @@
 name: problems/divisors/E0696
 title: Problem 696
 desc: |
-  The longest chain of primes dividing n, and the longest chain of divisors of
-  n, in which each term is congruent to 1 modulo the previous term.
+  Asks for estimates of $h(n)$ and $H(n)$, the lengths of the longest chains of
+  prime divisors and of divisors of $n$ in which each term is $1$ modulo the
+  previous one, and whether $H(n)/h(n)\to\infty$ for almost all $n$; solved.
 tags:
 - Number theory
 - Divisors
@@ -29,15 +30,16 @@ $d_1<\cdots < d_u$ all dividing $n$ with $d_{i+1}\equiv 1\pmod{d_i}$.
 Estimate $h(n)$ and $H(n)$. Is it true that $H(n)/h(n)\to \infty$ for almost all
 $n$?
 
-**Status.** SOLVED (LEAN). The site records the two-sided bound
-$\log_* n\ll h(n)\le H(n)\ll\log_* n$ for almost all $n$, attributing the
-proofs to GPT 5.5; the bound implies a negative answer to the ratio question.
-The derived standing, solved and answered, rests on
+**Status.** SOLVED (LEAN). The derived standing is solved and answered. It rests
+on
 [[problems/divisors/E0696/claims/2026_04_25_treasure42|Treasure42's accepted claim]],
-whose argument the site's curator summarized and accepted;
+whose argument the site's curator summarized and accepted. The site records the
+two-sided bound $\log_* n\ll h(n)\le H(n)\ll\log_* n$ for almost all $n$ and
+attributes the proofs to GPT 5.5. This bound implies a negative answer to the
+ratio question.
 [[problems/divisors/E0696/claims/2026_04_26_turturean|Turturean's sharper asymptotics]],
-with the Lean developments the site's qualification refers to, stay a pending
-claim.
+with the Lean developments that the site's qualification refers to, remain a
+pending claim.
 
 **Source.** [erdosproblems.com/696](https://www.erdosproblems.com/696), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #696,

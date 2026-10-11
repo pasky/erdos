@@ -2,9 +2,8 @@
 name: problems/additive_bases/E0757
 title: Problem 757
 desc: |
-  Determines the best constant c such that n reals whose every four-element
-  subset has at least eleven differences contain a Sidon set of size c times
-  n.
+  Asks for the best constant $c$ such that $n$ reals whose every four-element
+  subset $B$ has $\lvert B-B\rvert\ge11$ contain a Sidon set of size $cn$; open.
 tags:
 - Geometry
 - Distances

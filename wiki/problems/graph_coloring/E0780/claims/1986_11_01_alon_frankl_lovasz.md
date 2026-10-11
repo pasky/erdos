@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0780/claims/1986_11_01_alon_frankl_lovasz
 title: Alon, Frankl and Lovász's theorem
 desc: |
-  A t-coloring of the r-subsets of an n-set with n at least kr + (t-1)(k-1)
-  has k pairwise disjoint sets of one color: the chromatic number of the
-  Kneser hypergraph, proved topologically for every k.
+  Alon, Frankl and Lovász prove topologically, for every $k$, that a
+  $t$-coloring of the $r$-subsets of an $n$-set with $n\ge kr+(t-1)(k-1)$ has
+  $k$ pairwise disjoint sets of one color. This gives the chromatic number of
+  the Kneser hypergraph.
 authors:
 - N. Alon
 - P. Frankl
@@ -59,8 +60,8 @@ Kneser conjecture]]: the case $k=2$, which the paper takes from Lovász and
 which Proposition 2.3 composes with the odd-prime cases to reach every $k$.
 
 **Acceptance.** Published in Transactions of the American Mathematical Society
-298 (1986), no. 1, 359–370 (`refereed`); the paper prints its receipt date,
-1985-10-18; the issue is dated November 1986, and the page carries the first of
+298 (1986), no. 1, 359–370 (`refereed`). The paper prints its receipt date,
+1985-10-18. The issue is dated November 1986, and the page carries the first of
 that month. The site's curator, Thomas Bloom, lists Problem 780 as proved and
 credits the general case to Alon, Frankl and Lovász [AFL86] and the case $k=2$
 to Lovász [Lo78] (`reviewed`). The source card is

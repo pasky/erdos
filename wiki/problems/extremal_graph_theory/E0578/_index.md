@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0578
 title: Problem 578
 desc: |
-  Asks whether a random graph on two to the d vertices with each edge included
-  with probability one half almost surely contains a d-dimensional hypercube;
-  proved by Riordan for every fixed edge probability above one quarter.
+  Asks whether a random graph on $2^d$ vertices, with each edge included with
+  probability $1/2$, almost surely contains the $d$-dimensional hypercube $Q_d$.
+  Riordan proved it for every fixed edge probability above $1/4$.
 tags:
 - Graph theory
 status: solved
@@ -37,28 +37,25 @@ report). Riordan's theorem, as the publisher's abstract states it, is for
 every fixed edge probability $p>1/4$; the statement is the case $p=1/2$.
 
 **Status.** Proved, on the site's account and the publisher's abstract of
-Riordan's paper: the site labels the problem PROVED, its label for a
-question answered in the affirmative, and credits the solution to Riordan
-[Ri00], noting that he proved it for every edge probability above $1/4$ and
-that the count of $d$-cubes is asymptotically normal; the
-abstract of Combin. Probab. Comput. 9 (2000), no. 2, 125--148 (refereed),
-as deposited in the publisher's Crossref record, states
-that for a random graph $G_p$ on $2^d$ vertices with edges selected
-independently with
-a fixed probability $p>1/4$, "as $d\to\infty$, $G_p$ almost surely has a
-spanning subgraph isomorphic to" the $d$-dimensional hypercube $Q_d$,
-answering a question of Bollobás. The
-article's text is not held (routes below): the theorem's number and page, its
-exact quantifiers and its proof were not read, and this page rests on an
-abstract identified as such and on the site's acceptance. No source read
-here attests Riordan's theorem itself; Chung's survey, written before it,
-attests
-the conjecture and the earlier partial result of Alon and Füredi (edge
-density above $1/2$). The community database records the problem as proved.
-The label is kept on that evidence, named for what it is. The claim page
+Riordan's paper. The site labels the problem PROVED, its label for a question
+answered in the affirmative. It credits the solution to Riordan [Ri00], noting
+that he proved it for every edge probability above $1/4$ and that the count of
+$d$-cubes is asymptotically normal. The community database records the problem
+as proved. The claim page
 [[problems/extremal_graph_theory/E0578/claims/2000_03_01_riordan|Riordan 2000]]
-records the result as accepted on the refereed venue and the site's
-acceptance, and the frontmatter standing is derived from it.
+records the result as accepted on the refereed venue and the site's acceptance,
+and the frontmatter standing is derived from it. The paper is Combin. Probab.
+Comput. 9 (2000), no. 2, 125--148 (refereed). Its abstract, as deposited in the
+publisher's Crossref record, states that for a random graph $G_p$ on $2^d$
+vertices with edges selected independently with a fixed probability $p>1/4$, "as
+$d\to\infty$, $G_p$ almost surely has a spanning subgraph isomorphic to" the
+$d$-dimensional hypercube $Q_d$, answering a question of Bollobás. The article's
+text is not held (routes below). The theorem's number and page, its exact
+quantifiers and its proof were not read. This page rests on an abstract
+identified as such and on the site's acceptance. No source read here attests
+Riordan's theorem itself. Chung's survey, written before it, attests the
+conjecture and the earlier partial result of Alon and Füredi (edge density above
+$1/2$). The label is kept on that evidence, named for what it is.
 
 **Source.** [erdosproblems.com/578](https://www.erdosproblems.com/578),
 accessed 2026-09-18: the problem page (PROVED; no last-edited date), its

@@ -2,9 +2,9 @@
 name: problems/additive_bases/E0870
 title: Problem 870
 desc: |
-  Asks whether representation counts growing like a constant times the
-  logarithm force an additive basis of order k to contain a minimal one, for k
-  at least 3.
+  Asks whether, for $k\ge3$, representation counts $r(n)\ge c\log n$ with a
+  suitable constant $c$ force an additive basis of order $k$ to contain a
+  minimal one; a pending claim disproves it.
 tags:
 - Number theory
 - Additive bases
@@ -42,9 +42,9 @@ at-most-$k$ wording and does not address the source's version.
 **Status.** OPEN, the site's label. The derived standing departs from it because
 a pending full claim,
 [[problems/additive_bases/E0870/claims/2026_04_24_turturean|Turturean]], answers
-the site's wording no for every $k\ge3$, which makes the problem claimed as
-disproved. The claim is not accepted: its Lean development is not built or
-audited here, one outside validation of it is reported on the problem's thread,
+the site's wording no for every $k\ge3$. This makes the problem claimed as
+disproved. The claim is not accepted. Its Lean development is not built or
+audited here. One outside validation of it is reported on the problem's thread,
 and there is no refereed publication.
 
 **Source.** [erdosproblems.com/870](https://www.erdosproblems.com/870), accessed

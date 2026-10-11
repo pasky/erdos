@@ -2,9 +2,10 @@
 name: problems/analysis/E0395
 title: Problem 395
 desc: |
-  Asks whether random signs on n unit complex numbers give a sum of absolute
-  value at most the square root of two with probability at least about one
-  over n; Erdős asked it with radius one, which fails for every even n.
+  Asks whether, for unit complex numbers $z_1,\ldots,z_n$ and random signs
+  $\epsilon_i$, the sum $\sum\epsilon_iz_i$ has modulus at most $\sqrt{2}$ with
+  probability $\gg 1/n$; proved. Erdős asked it with radius $1$, which fails for
+  every even $n$.
 tags:
 - Analysis
 status: solved
@@ -45,10 +46,10 @@ radius-$1$ form as the variant `erdos_395.variants.one`, with the answer no.
 The Current assessment records what is known for odd $n$ at radius $1$.
 
 **Status.** Proved. The site shows PROVED (LEAN), a catalog label explained
-under Formalization. Two accepted full claims answer the question:
+under Formalization. Two accepted full claims answer the question. The first is
 [[problems/analysis/E0395/claims/1983_03_01_beck|Beck's 1983 theorem]], a
-refereed journal paper recorded as [HJNS24] and [HPS25] quote it, whose
-planar case is the question; and
+refereed journal paper. It is recorded as [HJNS24] and [HPS25] quote it, and its
+planar case is the question. The second is
 [[problems/analysis/E0395/claims/2024_08_20_he_juskevicius_narayanan_spiro|Theorem 1.1 of He, Juškevičius, Narayanan and Spiro]]
 [HJNS24], an arXiv preprint credited by the site's curator.
 

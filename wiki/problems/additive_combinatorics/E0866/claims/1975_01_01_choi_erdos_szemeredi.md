@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0866/claims/1975_01_01_choi_erdos_szemeredi
 title: Choi, Erdős and Szemerédi's orders of magnitude for g_4 and g_6
 desc: |
-  Theorems 1--6 of the 1975 Acta Arithmetica paper: g_4 is bounded, g_6 is of
-  order N^{1/2}, and g_k lies between N^{1-ε} for large k and 2^{k-1}
-  N^{1-2^{1-k}}; refereed, settling the order of g_k for k = 4 and 6.
+  Theorems 1--6 of Choi, Erdős and Szemerédi's 1975 Acta Arithmetica paper:
+  $g_4$ is bounded, $g_6$ is of order $N^{1/2}$, and $g_k$ lies between
+  $N^{1-\varepsilon}$ for large $k$ and $2^{k-1}N^{1-2^{1-k}}$. The paper is
+  refereed and settles the order of $g_k$ for $k=4$ and $k=6$.
 authors:
 - S. L. G. Choi
 - P. Erdős
@@ -89,13 +90,13 @@ $k=5$ are covered for the positive variant $h_k$ only.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Refereed: Acta Arithmetica 27 (1975), 37--50, DOI
-10.4064/aa-27-1-37-50, the volume in memory of Ju. V. Linnik; the page is
-named by the year of publication, filled to its first day. Not reviewed:
-the site's curator credits the paper with $g_3(N)=2$, $g_4(N)\ll1$,
-$g_5(N)\asymp\log N$, $g_6(N)\asymp N^{1/2}$ and the general bounds in the
-commentary of a problem the site labels OPEN (page last edited 1 December
-2025), which is commentary and not acceptance; the two credited values for
-$k=3$ and $k=5$ hold for the positive variant only (above). The problem
-stays open because the question asks for the order of $g_k$ for every
-$k\ge3$ and this result fixes it for $k=4$ and $k=6$ only.
+**Acceptance.** Refereed: the paper appeared in Acta Arithmetica 27 (1975),
+37--50, DOI 10.4064/aa-27-1-37-50, in the volume in memory of Ju. V. Linnik. The
+page is named by the year of publication, filled to its first day. Not reviewed:
+the site labels the problem OPEN (page last edited 1 December 2025). In the
+problem's commentary, the site's curator credits the paper with $g_3(N)=2$,
+$g_4(N)\ll1$, $g_5(N)\asymp\log N$, $g_6(N)\asymp N^{1/2}$ and the general
+bounds. This is commentary, not acceptance. The two credited values for $k=3$
+and $k=5$ hold for the positive variant only (see above). The problem stays open
+because the question asks for the order of $g_k$ for every $k\ge3$, and this
+result fixes it only for $k=4$ and $k=6$.

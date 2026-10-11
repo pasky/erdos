@@ -2,9 +2,9 @@
 name: problems/additive_bases/E1147/claims/2015_04_09_konieczny
 title: Konieczny's quadratic recurrence sets that are not bases of order two
 desc: |
-  Konieczny (2016) proves that for almost every positive alpha, and explicitly
-  for alpha the square root of two, the set of n with alpha n squared within
-  1/log n of an integer is not an additive basis of order two: the answer is no.
+  Konieczny (2016) proves that for almost every $\alpha>0$, and explicitly for
+  $\alpha=\sqrt2$, the set of $n$ for which $\alpha n^2$ lies within $1/\log n$
+  of an integer is not an additive basis of order two. So the answer is no.
 authors:
 - Jakub Konieczny
 status: accepted
@@ -93,19 +93,21 @@ proves (A2) and (A3) only under that proviso and does not relate the rate to
 $1/\log n$, so neither is asserted here for $A_\alpha$ itself. The proof is not
 compiled or reviewed here.
 
-**Acceptance.** The `refereed` evidence is the journal publication cited above
-(Acta Arithmetica; the publisher gives the online date 2016-07-12, which is the
-paper link's date). The `reviewed` evidence is the documented acceptance by the
-catalog erdosproblems.com: its curator, Thomas Bloom, credits the disproof to
-this paper in the problem's remarks, for almost every $\alpha$ and for
-$\alpha=\sqrt2$, and the page carries the label DISPROVED (last edited
-2026-01-27). The formal-conjectures statement file (the `record` link, pinned to
-the commit it names) tags `erdos_1147` research solved with the answer False and
-records a formal proof at the Lean file below, for the full statement and for
-its $\sqrt2$ variant; the statements themselves are left as `sorry` there, so
-the record is a catalog entry and not a formalization. A thread post of
-2026-01-26 (the dated `discussion` link) located the paper and credits
-ChatGPT-5.2 Thinking with finding it; the problem lists no proof claim.
+**Acceptance.** The `refereed` evidence is the journal publication cited above,
+in Acta Arithmetica. The publisher gives the online date 2016-07-12, which is
+the paper link's date. The `reviewed` evidence is the documented acceptance by
+the catalog erdosproblems.com. Its curator, Thomas Bloom, credits the disproof
+to this paper in the problem's remarks, for almost every $\alpha$ and for
+$\alpha=\sqrt2$. The page carries the label DISPROVED (last edited 2026-01-27).
+
+The formal-conjectures statement file (the `record` link, pinned to the commit
+it names) tags `erdos_1147` research solved with the answer False. It records a
+formal proof at the Lean file below, for the full statement and for its $\sqrt2$
+variant. The statements themselves are left as `sorry` there, so the record is a
+catalog entry and not a formalization.
+
+A thread post of 2026-01-26 (the dated `discussion` link) located the paper and
+credits ChatGPT-5.2 Thinking with finding it. The problem lists no proof claim.
 
 **Formalization.** The $\sqrt2$ case of the claimant's result was formalized by
 a third party: the file `src/latest/ErdosProblems/Erdos1147.lean` of Boris

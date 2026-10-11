@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0151/claims/2026_09_28_veljjanoski
 title: Veljjanoski's proof of the inequality for at most 39 vertices
 desc: |
-  A write-up of 28 September 2026 claims the Erdős–Gallai clique-transversal
-  inequality for every graph on at most 39 vertices, by a minimum-counterexample
-  reduction and a new Euler-circuit argument; unreviewed, so claimed.
+  A write-up of 28 September 2026 by Daniel Veljjanoski claims the Erdős–Gallai
+  clique-transversal inequality for every graph on at most 39 vertices, by a
+  minimum-counterexample reduction and a new Euler-circuit argument. It is
+  unreviewed, so it remains a claim.
 authors:
 - Daniel Veljjanoski
 status: claimed

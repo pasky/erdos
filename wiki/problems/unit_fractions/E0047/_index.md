@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0047
 title: Problem 47
 desc: |
-  Asks whether a subset of the first N integers whose reciprocal sum exceeds a
-  fixed multiple of the logarithm of N has a subset of reciprocals summing to
-  one.
+  Asks whether, for fixed $\delta>0$ and large $N$, every
+  $A\subseteq\{1,\ldots,N\}$ with $\sum_{a\in A}1/a>\delta\log N$ has a subset
+  whose reciprocals sum to $1$; proved.
 tags:
 - Number theory
 - Unit fractions
@@ -33,17 +33,16 @@ $N\ge N_0(\delta)$ and every $A\subseteq\{1,\ldots,N\}$ whose reciprocal sum
 exceeds $\delta\log N$; $S$ is a subset of $A$, hence a set of distinct
 integers. Write $R(A)=\sum_{a\in A}1/a$ for the reciprocal sum.
 
-**Status.** Proved. Bloom's Theorem 3 (J. Eur. Math. Soc. 27 (2025)) gives
-a unit subsum from a reciprocal sum of order
-$\log N\log\log\log N/\log\log N$, which is below $\delta\log N$ for large
-$N$; Liu and Sawhney (Int. Math. Res. Not. 2026) lowered the threshold to
-$(\log N)^{4/5+o(1)}$. The site records "PROVED (LEAN)"; the Lean suffix
-is a catalog label qualified under Existing formalization below, and no
-local kernel credit is claimed. The claim pages
+**Status.** Proved. The site records "PROVED (LEAN)". The Lean suffix is a
+catalog label, qualified under Existing formalization below, and no local kernel
+credit is claimed. Bloom's Theorem 3 (J. Eur. Math. Soc. 27 (2025)) gives a unit
+subsum from a reciprocal sum of order $\log N\log\log\log N/\log\log N$. This is
+below $\delta\log N$ for large $N$. Liu and Sawhney (Int. Math. Res. Not. 2026)
+lowered the threshold to $(\log N)^{4/5+o(1)}$. The claim pages
 [[problems/unit_fractions/E0047/claims/2021_12_07_bloom|Bloom 2021]] and
 [[problems/unit_fractions/E0047/claims/2024_04_10_liu_sawhney|Liu and Sawhney 2024]]
-record the two results, their postings and the acceptance evidence from
-which the standing above derives.
+record the two results, their postings and the acceptance evidence from which
+this standing derives.
 
 
 **Source.** [erdosproblems.com/47](https://www.erdosproblems.com/47), accessed

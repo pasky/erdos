@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0777/claims/2014_11_15_alon_das_glebov_sudakov
 title: Alon, Das, Glebov and Sudakov's stability theorem
 desc: |
-  Alon, Das, Glebov and Sudakov's stability theorem for comparable pairs, from
-  which the site derives the first question's affirmative answer; refereed in
-  JCTB 115 (2015), and credited by the site with that answer.
+  Alon, Das, Glebov and Sudakov prove a stability theorem for comparable pairs,
+  from which the site derives a yes answer to the first question. The paper
+  appeared, refereed, in JCTB 115 (2015), and the site credits it with that
+  answer.
 authors:
 - Noga Alon
 - Shagnik Das
@@ -94,9 +95,9 @@ theorem `erdos_777` states and proves all three answers, yes, no and yes; the
 repository's note `ErdosProblems/Erdos777.md` is the `record` link. The
 corpus has not built or audited the file, so `formalized` is not listed.
 
-**Acceptance.** Refereed: Journal of Combinatorial Theory, Series B, volume
-115 (2015), 164--185 (issued November 2015 in the Crossref record).
-Reviewed: the site's curator, T. F. Bloom, records the problem as solved and
-credits this paper with the first question's answer in the problem's
-commentary (erdosproblems.com/777, accessed 2026-10-07; label SOLVED; no
-comment and no proof claim on the site).
+**Acceptance.** Refereed: Journal of Combinatorial Theory, Series B, volume 115
+(2015), 164--185 (issued November 2015 in the Crossref record). Reviewed: the
+site's curator, T. F. Bloom, records the problem as solved and credits this
+paper with the answer to the first question in the problem's commentary
+(erdosproblems.com/777, accessed 2026-10-07). The site's label is SOLVED, and
+the site has no comment and no proof claim.

@@ -3,8 +3,9 @@ name: problems/diophantine_problems/E0845/claims/2025_11_06_van_doorn_everts
 title: Every integer is a short sum of 3-smooth numbers
 desc: |
   Van Doorn and Everts prove that every positive integer is a sum of distinct
-  numbers 2^k 3^l with largest term below six times the smallest, so for C = 6
-  the set has density one; credited by the site's curator; Lean proofs exist.
+  numbers $2^k3^l$ whose largest term is below six times the smallest, so for
+  $C=6$ the set has density one. The site's curator credits the result, and Lean
+  proofs exist.
 authors:
 - Wouter van Doorn
 - Anneroos R. F. Everts
@@ -68,12 +69,12 @@ Problem 21 (p. 239), expected that almost all integers fail to be such a sum
 for any constant; the site reads the question as that conjecture and labels
 it disproved, which is the standing recorded here.
 
-**Acceptance.** Van Doorn announced in the site's thread on 2025-10-23 that
-van Doorn and Everts could resolve the problem in the negative, and posted the
+**Acceptance.** Van Doorn announced in the site's thread on 2025-10-23 that van
+Doorn and Everts could resolve the problem in the negative. Van Doorn posted the
 arXiv paper there on 2025-11-07. The site's curator, Thomas Bloom, credits the
 disproof to van Doorn and Everts with $C=6$ and labels the problem DISPROVED
-(LEAN), which is the `reviewed` evidence; the community database records the
-problem as disproved (Lean). The paper is an arXiv preprint: its arXiv record
+(LEAN). This is the `reviewed` evidence. The community database records the
+problem as disproved (Lean). The paper is an arXiv preprint. Its arXiv record
 lists no journal reference and no published version is known, so there is no
 `refereed` evidence.
 

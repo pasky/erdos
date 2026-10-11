@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0064/claims/2011_09_25_nowbandegani_esfandiari_haghighi_bibak
 title: The claw-free results of Salehi Nowbandegani, Esfandiari, Shirdareh Haghighi and Bibak
 desc: |
-  A cubic claw-free counterexample has at least 114 vertices, a claw-free graph
-  of minimum degree at least 3 has a cycle of length a power of two or three
-  times one; accepted on the refereed paper in Discuss. Math. Graph Theory.
+  Salehi Nowbandegani and three coauthors prove that a cubic claw-free
+  counterexample has at least 114 vertices, and that a claw-free graph of
+  minimum degree at least 3 has a cycle of length $2^k$ or $3\cdot2^k$. The
+  claim is accepted on the refereed paper in Discuss. Math. Graph Theory.
 authors:
 - Pouria Salehi Nowbandegani
 - Hossein Esfandiari
@@ -67,6 +68,6 @@ two.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper is a publication in Discussiones
-Mathematicae Graph Theory. The site's curator cites the family list that
-names the paper while labeling the problem FALSIFIABLE, which is commentary
-on an open problem and not reviewed evidence.
+Mathematicae Graph Theory. The site's curator cites the family list that names
+the paper while labeling the problem FALSIFIABLE. That citation is commentary on
+an open problem and not reviewed evidence.

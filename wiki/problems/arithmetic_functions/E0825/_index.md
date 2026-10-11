@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0825
 title: Problem 825
 desc: |
-  Asks whether there is a constant C such that every integer whose sum of
-  divisors exceeds C times it is a sum of distinct proper divisors of itself.
+  Asks whether there is a constant $C$ such that every integer $n$ with
+  $\sigma(n)>Cn$ is a sum of distinct proper divisors of $n$; proved.
 tags:
 - Number theory
 - Divisors

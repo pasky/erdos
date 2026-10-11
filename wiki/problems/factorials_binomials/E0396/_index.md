@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E0396
 title: Problem 396
 desc: |
-  Asks whether, for every k, some n makes the product of the k plus one
-  integers from n minus k to n divide the central binomial coefficient of n.
+  Asks whether, for every $k$, there is an $n$ with
+  $n(n-1)\cdots(n-k)\mid\binom{2n}{n}$; open.
 tags:
 - Number theory
 - Binomial coefficients
@@ -27,13 +27,14 @@ $$
 \prod_{0\leq i\leq k}(n-i) \mid \binom{2n}{n}?
 $$
 
-**Status.** Open. The site labels the problem OPEN and its commentary points
-to the OEIS entry A375077 for the least $n$ of each $k$; the entry's sixteen
-terms settle the instances $1\le k\le16$ with the answer yes and are pending
-partial claims on the pages of their contributors,
+**Status.** Open. The site labels the problem OPEN. The standing in the
+frontmatter derives from the claim pages. The site's commentary points to the
+OEIS entry A375077 for the least $n$ of each $k$. The entry's sixteen terms
+settle the instances $1\le k\le16$ with the answer yes. They are pending partial
+claims on the pages of their contributors:
 [[problems/factorials_binomials/E0396/claims/2024_07_29_stephan|Stephan 2024]]
-($k\le4$),
-[[problems/factorials_binomials/E0396/claims/2024_08_01_wu|Wu 2024]] ($k=5$),
+($k\le4$), [[problems/factorials_binomials/E0396/claims/2024_08_01_wu|Wu 2024]]
+($k=5$),
 [[problems/factorials_binomials/E0396/claims/2025_02_25_alekseyev|Alekseyev 2025]]
 ($k=6,7$),
 [[problems/factorials_binomials/E0396/claims/2026_03_18_kesarwani|Kesarwani 2026]]
@@ -41,7 +42,7 @@ partial claims on the pages of their contributors,
 [[problems/factorials_binomials/E0396/claims/2026_03_23_dehorty|Dehorty 2026]]
 ($k=12,13,16$) and
 [[problems/factorials_binomials/E0396/claims/2026_04_03_dehorty_kesarwani|Dehorty and Kesarwani 2026]]
-($k=14$). The standing in the frontmatter derives from the claim pages.
+($k=14$).
 
 **Source.** [erdosproblems.com/396](https://www.erdosproblems.com/396), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #396,

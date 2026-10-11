@@ -2,9 +2,9 @@
 name: problems/irrationality/E1001
 title: Problem 1001
 desc: |
-  Asks whether the measure of reals well approximated by fractions with
-  denominator between N and cN tends to a limit, and what that limit is
-  explicitly.
+  Asks whether the measure of the set of $\alpha\in(0,1)$ with
+  $|\alpha-x/y|<A/y^2$ for some reduced $x/y$ with $N\le y\le cN$ tends to a
+  limit as $N\to\infty$, and what that limit is explicitly; solved.
 tags:
 - Number theory
 - Diophantine approximation
@@ -37,13 +37,12 @@ $$
 
 exist? What is its explicit form?
 
-**Status.** Solved. The site, labels the problem SOLVED,
-crediting the value $12A\log c/\pi^2$ for $0<A<c/(1+c^2)$ to Erdős, Szüsz
-and Turán [EST58], the existence of the limit to Kesten and Sós [KeSo66], and
-alternative, more explicit proofs of its existence to Xiong and Zaharescu
-[XiZa06] and to Boca [Bo08]; the SOLVED label is read as resting on those two
-proofs for the explicit form. The claim pages are cited in the Current
-assessment.
+**Status.** Solved. The site labels the problem SOLVED. It credits the value
+$12A\log c/\pi^2$ for $0<A<c/(1+c^2)$ to Erdős, Szüsz and Turán [EST58], and the
+existence of the limit to Kesten and Sós [KeSo66]. It credits alternative, more
+explicit proofs of the existence of the limit to Xiong and Zaharescu [XiZa06]
+and to Boca [Bo08]. The SOLVED label is read as resting on those two proofs for
+the explicit form. The claim pages are cited in the Current assessment.
 
 **Source.** [erdosproblems.com/1001](https://www.erdosproblems.com/1001),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1001,

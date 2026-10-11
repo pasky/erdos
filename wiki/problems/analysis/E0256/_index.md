@@ -2,9 +2,9 @@
 name: problems/analysis/E0256
 title: Problem 256
 desc: |
-  Estimates the largest lower bound for the maximum modulus on the unit circle
-  of a product of terms one minus z to the a-i, over all choices of n
-  exponents.
+  Asks for estimates of the largest $f(n)$ such that
+  $\max_{\lvert z\rvert=1}\lvert\prod_i(1-z^{a_i})\rvert\geq f(n)$ for every
+  choice of $n$ integers $1\leq a_1\leq\cdots\leq a_n$; open.
 tags:
 - Analysis
 status: open
@@ -35,9 +35,9 @@ $$
 \log f(n) \gg n^c?
 $$
 
-**Status.** Open, the site's label (OPEN; page last edited 20 January 2026).
-The site's commentary answers the specific question no: Belov and Konyagin
-proved $\log f(n)\ll(\log n)^4$
+**Status.** Open, the site's label (OPEN; page last edited 20 January 2026). The
+site's commentary answers the specific question no. Belov and Konyagin proved
+$\log f(n)\ll(\log n)^4$
 ([[problems/analysis/E0256/claims/1996_12_01_belov_konyagin|their 1996 paper]],
 an accepted partial claim on its refereed publication). Estimating $f(n)$
 remains open.

@@ -2,9 +2,10 @@
 name: problems/primes/E0004/claims/2014_12_16_ford_green_konyagin_maynard_tao
 title: "Ford, Green, Konyagin, Maynard and Tao: a further log log log X over Rankin's bound"
 desc: |
-  Proves that the largest prime gap below X is at least a constant times
-  log X log log X log log log log X over log log log X, a factor log log log X
-  beyond the question's bound; refereed in JAMS and credited by the curator.
+  Ford, Green, Konyagin, Maynard and Tao prove that the largest prime gap below
+  $X$ is $\gg\log X\log\log X\log\log\log\log X/\log\log\log X$, a factor
+  $\log\log\log X$ beyond the question's bound. The refereed paper appeared in
+  JAMS and is credited by the curator.
 authors:
 - Kevin Ford
 - Ben Green

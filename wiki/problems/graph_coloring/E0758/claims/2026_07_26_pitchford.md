@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0758/claims/2026_07_26_pitchford
 title: Candidate proof that z(20) = 6
 desc: |
-  An unrefereed candidate proof released on 2026-07-26 and deposited on Zenodo
-  on 2026-07-28 claims z(20) = 6 from SAT unsatisfiability certificates replayed
-  on one machine; the mathematics is attributed to AI systems.
+  An unrefereed candidate proof, released on 2026-07-26 and deposited on Zenodo
+  on 2026-07-28, claims $z(20)=6$ from SAT unsatisfiability certificates
+  replayed on one machine. The mathematics is attributed to AI systems.
 authors:
 - GPT 5.6 Sol
 - Claude Opus 4.8 / 5

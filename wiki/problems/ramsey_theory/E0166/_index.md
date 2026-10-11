@@ -2,9 +2,8 @@
 name: problems/ramsey_theory/E0166
 title: Problem 166
 desc: |
-  Asks whether the Ramsey number of a complete graph on four vertices versus
-  one on k vertices is at least k cubed divided by a power of the logarithm of
-  k; proved by Mattheus and Verstraete with the fourth power.
+  Asks to prove that $R(4,k)\gg k^3/(\log k)^{O(1)}$; proved by Mattheus and
+  Verstraete, with the fourth power of the logarithm.
 tags:
 - Graph theory
 - Ramsey theory
@@ -39,28 +38,31 @@ form (not a site key for this problem) is (6')
 $r(k,n)>c_1n^{k-1}/(\log n)^{c_2}$, "All our attempts to prove (6) and
 (6') - even for $k=4$ - failed completely".
 
-**Status.** Proved, the site's label (PROVED). Mattheus and Verstraete's
-Theorem 1 (Annals of Mathematics (2) 199 (2024), 919--941; refereed, received
-June 2023, accepted October 2023) states $r(4,t)=\Omega(t^3/\log^4t)$ as
-$t\to\infty$, so the statement holds with the fourth power of the logarithm.
-The page numbers cited are those of the arXiv version marked as the updated
-journal version; the printed text has not been compared with it. The upper
-bound $R(4,k)\ll k^3/(\log k)^2$ is Theorem 6 of Ajtai, Komlós and Szemerédi
-(1980, refereed: $R(k,x)\le(5000)^kx^{k-1}/(\ln x)^{k-2}$ for every fixed $k$
-and large $x$, at $k=4$); its constant $1+o(1)$ is Li, Rousseau and Zang's
-2001 concluding remark (for any fixed $k$,
-$r(k,n)\le(1+o(1))n^{k-1}/(\log n)^{k-2}$ as $n\to\infty$, the case $l=1$ of
-their Theorem 2, at $k=4$). The earlier lower bound of exponent $5/2$ is
-Spencer's Theorem 2.2 (1977, refereed: $R(k,t)\ge c(t/\ln t)^\beta[1-o(1)]$
-for fixed $k\ge3$ with $\beta=[\binom k2-1]/(k-2)$, which is $5/2$ at $k=4$),
-improved to $\Omega(t^{5/2}/\log^2t)$ by the $K_4$-free process, quoted
-second-hand from [MaVe23], which credits Bohman and Keevash 2010; their paper
-itself (arXiv v1, pp. 2 and 33) credits that bound to Bohman's 2009 paper The
-triangle-free process (Adv. Math. 221) and states its own Theorem 1.2 only
-for $s\ge5$. The claim page
+**Status.** Proved, the site's label (PROVED). Mattheus and Verstraete's Theorem
+1 states $r(4,t)=\Omega(t^3/\log^4t)$ as $t\to\infty$, so the statement holds
+with the fourth power of the logarithm. The paper appeared in Annals of
+Mathematics (2) 199 (2024), 919--941 (refereed, received June 2023, accepted
+October 2023). The page numbers cited are those of the arXiv version marked as
+the updated journal version. The printed text has not been compared with it. The
+claim page
 [[problems/ramsey_theory/E0166/claims/2023_06_06_mattheus_verstraete|Mattheus and Verstraete 2023]]
 records the theorem, its postings and its acceptance evidence, and the
 frontmatter standing derives from it.
+
+The upper bound $R(4,k)\ll k^3/(\log k)^2$ is Theorem 6 of Ajtai, Komlós and
+Szemerédi (1980, refereed) at $k=4$. That theorem gives
+$R(k,x)\le(5000)^kx^{k-1}/(\ln x)^{k-2}$ for every fixed $k$ and large $x$. The
+constant $1+o(1)$ in this bound is Li, Rousseau and Zang's 2001 concluding
+remark, at $k=4$. The remark states that for any fixed $k$,
+$r(k,n)\le(1+o(1))n^{k-1}/(\log n)^{k-2}$ as $n\to\infty$, the case $l=1$ of
+their Theorem 2. The earlier lower bound of exponent $5/2$ is Spencer's Theorem
+2.2 (1977, refereed). It gives $R(k,t)\ge c(t/\ln t)^\beta[1-o(1)]$ for fixed
+$k\ge3$ with $\beta=[\binom k2-1]/(k-2)$, which is $5/2$ at $k=4$. The
+$K_4$-free process improved it to $\Omega(t^{5/2}/\log^2t)$. That improvement is
+quoted second-hand from [MaVe23], which credits Bohman and Keevash 2010. Their
+paper itself (arXiv v1, pp. 2 and 33) credits that bound to Bohman's 2009 paper
+The triangle-free process (Adv. Math. 221), and states its own Theorem 1.2 only
+for $s\ge5$.
 
 **Source.** [erdosproblems.com/166](https://www.erdosproblems.com/166), accessed
 2026-09-18: the problem page (PROVED, with the site's note that it has been

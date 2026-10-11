@@ -4,15 +4,16 @@ desc: The 1 claim page of Problem 596, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T19:24:40Z
-updated: 2026-10-07T19:24:40Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/set_theory/E0596/claims
 
 [[problems/set_theory/E0596/_index|..]]
 
-[[problems/set_theory/E0596/claims/1987_09_01_nesetril_rodl|1987_09_01_nesetril_rodl]]: For every n, Nešetřil and Rödl (1987) give a C_4-free graph whose n-colored
-edges always carry a monochromatic C_6, while by Erdős and Hajnal (1967)
-every C_4-free graph is a countable union of trees, so (C_4, C_6) qualifies.
+[[problems/set_theory/E0596/claims/1987_09_01_nesetril_rodl|1987_09_01_nesetril_rodl]]: For every $n$, Nešetřil and Rödl (1987) give a $C_4$-free graph in which every
+$n$-coloring of the edges has a monochromatic $C_6$. Since Erdős and Hajnal
+(1967) proved that every $C_4$-free graph is a countable union of trees, the
+pair $(C_4,C_6)$ qualifies.
 
 ***

@@ -2,9 +2,8 @@
 name: problems/integer_sequences/E0357
 title: Problem 357
 desc: |
-  The growth rate of the largest number of integers up to n whose sums over
-  blocks of consecutive terms are all distinct, and whether it is smaller than
-  n.
+  Asks how fast the largest number $f(n)$ of integers up to $n$ with all sums of
+  consecutive terms distinct grows, and whether $f(n)=o(n)$; open.
 tags:
 - Number theory
 status: open
@@ -27,23 +26,24 @@ such $k$.
 
 How does $f(n)$ grow? Is $f(n)=o(n)$?
 
-**Status.** Open. Two accepted partial claims give refereed upper bounds:
+**Status.** Open. The site's label was OPEN on 2026-10-07 (page last edited 12
+January 2026). Two accepted partial claims give refereed upper bounds. One is
 Hegyvári's $f(n)\le(2/3+o(1))n$ (Acta Math. Hungar. 48 (1986);
-[[problems/integer_sequences/E0357/claims/1984_10_02_hegyvari|claim page]]) and
-Coppersmith and Phillips's $f(n)\le(2/3-1/512)n+O(\log n)$ (SIAM J. Discrete
-Math. 9 (1996);
+[[problems/integer_sequences/E0357/claims/1984_10_02_hegyvari|claim page]]). The
+other is Coppersmith and Phillips's $f(n)\le(2/3-1/512)n+O(\log n)$ (SIAM J.
+Discrete Math. 9 (1996);
 [[problems/integer_sequences/E0357/claims/1996_05_01_coppersmith_phillips|claim page]]).
-Two partial claims are pending, neither reviewed: a claim of 27 July 2026 by
-Lenthall-Cleary (using GPT-5.6 Sol, as the proof-claims tab names it), the upper
-bound $f(n)\le n/2+O(n^{2/3})$ with its finite inequality in Lean 4
-([[problems/integer_sequences/E0357/claims/2026_07_27_lenthall_cleary|claim page]]);
-and Pickhardt's manuscript, written with the Paratelligent Research Agent and
-linked in the discussion thread on 31 August 2026, the lower bound
-$f(n)\ge(4/\sqrt3-o(1))\sqrt n$ and an upper bound of the same shape with a
-smaller second-order constant
+Two partial claims are pending, and neither has been reviewed. The first is a
+claim of 27 July 2026 by Lenthall-Cleary (using GPT-5.6 Sol, as the proof-claims
+tab names it). It gives the upper bound $f(n)\le n/2+O(n^{2/3})$, with its
+finite inequality in Lean 4
+([[problems/integer_sequences/E0357/claims/2026_07_27_lenthall_cleary|claim page]]).
+The second is Pickhardt's manuscript, written with the Paratelligent Research
+Agent and linked in the discussion thread on 31 August 2026. It gives the lower
+bound $f(n)\ge(4/\sqrt3-o(1))\sqrt n$ and an upper bound of the same shape with
+a smaller second-order constant
 ([[problems/integer_sequences/E0357/claims/2026_08_31_pickhardt|claim page]]).
-None of the four touches the question $f(n)=o(n)$. The site's label was OPEN on
-2026-10-07 (page last edited 12 January 2026).
+None of the four touches the question $f(n)=o(n)$.
 
 **Source.** [erdosproblems.com/357](https://www.erdosproblems.com/357), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #357,

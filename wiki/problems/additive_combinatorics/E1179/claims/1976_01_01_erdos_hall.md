@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E1179/claims/1976_01_01_erdos_hall
 title: Erdős and Hall equidistribute the subset sums of log N random elements
 desc: |
-  The Theorem of Erdős and Hall (Houston J. Math. 1976) equidistributes the
-  subset sums of almost all choices of (1+o(1)) log_2 N elements of an abelian
-  group of order N, so g_eps(N) = (1+o(1)) log_2 N; refereed, site credit.
+  The Theorem of Erdős and Hall (Houston J. Math. 1976, refereed)
+  equidistributes the subset sums of almost all choices of $(1+o(1))\log_2N$
+  elements of an abelian group of order $N$, so $g_\epsilon(N)=(1+o(1))\log_2N$.
+  The site credits this result.
 authors:
 - P. Erdős
 - R. R. Hall
@@ -94,9 +95,9 @@ listed.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed publication: Houston J. Math. 2 (1976), no. 2,
-173--180, received 1 December 1975 as the paper prints; the paper
-has no DOI, the issue month is not printed, and the year is filled to its
-first day for this page's name. Reviewed: the site's curator, Thomas Bloom,
-labels the problem proved and records the Erdős–Hall bound [ErHa76] as the
-answer beside the trivial lower bound in the problem page's commentary; he is
-independent of the authors. The proof is not compiled in this corpus.
+173--180, received 1 December 1975 as the paper prints. The paper has no DOI,
+and the issue month is not printed. The page's name uses the year, filled to its
+first day. Reviewed: the site's curator, Thomas Bloom, labels the problem
+proved. In the problem page's commentary he records the Erdős–Hall bound
+[ErHa76] as the answer, beside the trivial lower bound. He is independent of the
+authors. The proof is not compiled in this corpus.

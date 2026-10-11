@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0541/claims/1974_02_14_erdos_szemeredi
 title: Erdős and Szemerédi's proof of Graham's conjecture for large primes
 desc: |
-  Erdős and Szemerédi (Publ. Math. Debrecen, 1976) prove Graham's conjecture
-  for p nonzero residues modulo every sufficiently large prime p; refereed,
-  credited by the site, and partial: small primes and the residue 0 are left.
+  Erdős and Szemerédi (Publ. Math. Debrecen, 1976) prove Graham's conjecture for
+  $p$ nonzero residues modulo every sufficiently large prime $p$, a refereed
+  result credited by the site. It is partial: it leaves out small primes and the
+  residue $0$.
 authors:
 - P. Erdős
 - E. Szemerédi
@@ -60,15 +61,14 @@ the paper's statement excludes. Both are covered by the accepted full claim
 and for every finite abelian group by
 [[problems/integer_sequences/E0541/claims/2009_03_18_grynkiewicz|Grynkiewicz 2009]].
 
-**Acceptance.** Refereed: the journal publication cited above. Reviewed:
-the site's curator, Thomas Bloom, who is independent of the authors,
-credits the large-prime case to this paper in the problem's commentary
-(page last edited 8 April 2026); Erdős's 1980 survey (p. 112) and the
-Erdős--Graham monograph of 1980 (p. 95) record the theorem as proved, the
-monograph calling the proof unexpectedly complicated; Gao, Hamidoune and
-Wang (2010) and Grynkiewicz (2011) each restate it as Graham's conjecture
-for large primes before extending it. Nothing here is independently
-reviewed by this project.
+**Acceptance.** Refereed: the journal publication cited above. Reviewed: the
+site's curator, Thomas Bloom, who is independent of the authors, credits the
+large-prime case to this paper in the problem's commentary (page last edited 8
+April 2026). Erdős's 1980 survey (p. 112) and the Erdős--Graham monograph of
+1980 (p. 95) record the theorem as proved. The monograph calls the proof
+unexpectedly complicated. Gao, Hamidoune and Wang (2010) and Grynkiewicz (2011)
+each restate it as Graham's conjecture for large primes before extending it.
+Nothing here is independently reviewed by this project.
 
 **Date.** The paper prints "Received February 14, 1974" on its last page
 (p. 127); the page name uses that received date, the paper's first dated

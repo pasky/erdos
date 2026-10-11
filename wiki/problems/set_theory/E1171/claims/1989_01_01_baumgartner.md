@@ -2,9 +2,9 @@
 name: problems/set_theory/E1171/claims/1989_01_01_baumgartner
 title: Baumgartner's partition ordinal under Martin's axiom
 desc: |
-  Baumgartner (Lecture Notes in Math. 1401, 1989) proved that Martin's axiom
-  for aleph_1 dense sets makes omega_1 omega a partition ordinal; the catalog
-  relation follows for every finite k, so it holds in a model of ZFC.
+  Baumgartner (Lecture Notes in Math. 1401, 1989) proved that Martin's axiom for
+  $\aleph_1$ dense sets makes $\omega_1\omega$ a partition ordinal. The catalog
+  relation follows for every finite $k$, so it holds in a model of ZFC.
 authors:
 - James E. Baumgartner
 status: accepted
@@ -85,19 +85,19 @@ records; the chapter's theorem numbering is unknown and its proof was not
 read. The volume carries only the year, so this page is dated the first of
 January 1989.
 
-**Acceptance.** Reviewed: the curator of erdosproblems.com, T. F. Bloom,
-labels the problem not disprovable, and the page's one remark credits
-Baumgartner's chapter with $\omega_1\omega\to(\omega_1\omega,3)^2$ under a
-form of Martin's axiom (problem page last edited 26 January 2026; the label
-and the community database changed to not disprovable on 5 September 2026
-after a comment in the discussion thread asked for it on the strength of the
-deposit since removed). The curator's credit to Baumgartner covers only the
-two-color relation, and the site writes no step from it to the catalog
-relation; that step is author-recorded here, so `reviewed` rests on the label
-and credit alone and carries the acceptance by itself. The chapter appeared in
-a Springer Lecture Notes in Mathematics proceedings volume, reviewed in zbMATH
-and Mathematical Reviews; no evidence that the volume's chapters were refereed
-was found, so `refereed` is not listed. Nothing on this page is independently
+**Acceptance.** Reviewed: the curator of erdosproblems.com, T. F. Bloom, labels
+the problem not disprovable. The page's one remark credits Baumgartner's chapter
+with $\omega_1\omega\to(\omega_1\omega,3)^2$ under a form of Martin's axiom
+(problem page last edited 26 January 2026). The label and the community database
+changed to not disprovable on 5 September 2026. The change followed a comment in
+the discussion thread that asked for it on the strength of the deposit, which
+has since been removed. The curator's credit to Baumgartner covers only the
+two-color relation. The site writes no step from it to the catalog relation, and
+that step is author-recorded here. So `reviewed` rests on the label and credit
+alone, and it carries the acceptance by itself. The chapter appeared in a
+Springer Lecture Notes in Mathematics proceedings volume, reviewed in zbMATH and
+Mathematical Reviews. No evidence that the volume's chapters were refereed was
+found, so `refereed` is not listed. Nothing on this page is independently
 reviewed by this project.
 
 **Depends on.**

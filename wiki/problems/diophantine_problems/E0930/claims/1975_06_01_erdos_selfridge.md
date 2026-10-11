@@ -3,8 +3,8 @@ name: problems/diophantine_problems/E0930/claims/1975_06_01_erdos_selfridge
 title: Erdős and Selfridge's theorem that a product of consecutive integers is never a power
 desc: |
   Erdős and Selfridge (Illinois J. Math. 19, 1975) proved that a product of two
-  or more consecutive positive integers is never a perfect power, which settles
-  the case of one interval, with k = 2.
+  or more consecutive positive integers is never a perfect power. This settles
+  the case of one interval, with $k=2$.
 authors:
 - P. Erdős
 - J. L. Selfridge

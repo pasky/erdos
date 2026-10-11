@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0559/claims/1995_09_01_haxell_kohayakawa_luczak
 title: Haxell, Kohayakawa and Łuczak, the size Ramsey number of cycles is linear
 desc: |
-  Corollary 11 of Haxell, Kohayakawa and Łuczak (1995): the induced size
-  Ramsey number of the cycle is linear in its length for every fixed number of
-  colors, so cycles have linear size Ramsey number; refereed.
+  Corollary 11 of Haxell, Kohayakawa and Łuczak (1995), a refereed result, shows
+  that the induced size Ramsey number of the cycle is linear in its length for
+  every fixed number of colors. So cycles have linear size Ramsey number.
 authors:
 - P. E. Haxell
 - Y. Kohayakawa
@@ -55,12 +55,11 @@ Not covered: other graphs. Explicit constants came later, on the page
 (Combin. Probab. Comput. 4 (1995), no. 3, September 1995, per the Crossref
 record); the day in the page name is a placeholder.
 
-**Acceptance.** Refereed: The induced size-Ramsey number of cycles,
-Combin. Probab. Comput. 4 (1995), no. 3, 217--239. The site's curator,
-T. F. Bloom, credits the cycle case to this paper in the problem's
-commentary, but the DISPROVED label settles the problem in the negative
-and credits no positive sub-claim, so the credit is not `reviewed`
-evidence.
+**Acceptance.** Refereed: The induced size-Ramsey number of cycles, Combin.
+Probab. Comput. 4 (1995), no. 3, 217--239. The site's curator, T. F. Bloom,
+credits the cycle case to this paper in the problem's commentary. But the
+DISPROVED label settles the problem in the negative and credits no positive
+sub-claim, so the credit is not `reviewed` evidence.
 
 **Read depth.** Claims checked: Theorem 10 and Corollary 11 (preprint
 p. 11); no proof is covered, and nothing is independently reviewed in this

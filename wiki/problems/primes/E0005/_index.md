@@ -2,8 +2,8 @@
 name: problems/primes/E0005
 title: Problem 5
 desc: |
-  Asks whether, for every constant C at least 0, the gap after the nth prime
-  divided by log n tends to exactly C along some sequence of indices n.
+  Asks whether, for every $C\ge 0$, some sequence of indices $n_i$ has
+  $(p_{n_i+1}-p_{n_i})/\log n_i\to C$, where $p_n$ is the $n$th prime; open.
 tags:
 - Number theory
 - Primes
@@ -29,9 +29,9 @@ $$
 
 **Status.** Open, the site's label. The case $C=0$, proved by Goldston, Pintz
 and Yıldırım, is an accepted partial result on
-[[problems/primes/E0005/claims/2005_08_10_goldston_pintz_yildirim|its claim page]],
-and Pintz's interval $[0,c]$ of limit points, for an ineffective $c>0$, is a
-claimed partial result on
+[[problems/primes/E0005/claims/2005_08_10_goldston_pintz_yildirim|its claim page]].
+Pintz's interval $[0,c]$ of limit points, for an ineffective $c>0$, is a claimed
+partial result on
 [[problems/primes/E0005/claims/2013_05_27_pintz|its claim page]].
 
 **Source.** [erdosproblems.com/5](https://www.erdosproblems.com/5), accessed

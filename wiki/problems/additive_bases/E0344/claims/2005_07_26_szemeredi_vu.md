@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0344/claims/2005_07_26_szemeredi_vu
 title: Szemerédi and Vu prove subcompleteness above a constant multiple of √N
 desc: |
-  Szemerédi and Vu (Ann. of Math. 2006; J. Amer. Math. Soc. 2006) prove that
-  for an absolute constant c every increasing sequence with at least c√n terms
-  up to n is subcomplete; refereed, site-accepted.
+  Szemerédi and Vu (Ann. of Math. 2006 and J. Amer. Math. Soc. 2006) prove that
+  for an absolute constant $c$, every increasing sequence with at least
+  $c\sqrt n$ terms up to $n$ is subcomplete. The result is refereed and accepted
+  by the site.
 authors:
 - E. Szemeredi
 - V. Vu
@@ -83,7 +84,7 @@ not built or audited by this corpus, so no `formalized` evidence is listed.
 American Mathematical Society. Reviewed: the site's curator, T. F. Bloom, labels
 Problem 344 proved at erdosproblems.com and credits the resolution to the JAMS
 paper of Szemerédi and Vu (page last edited 28 December 2025, accessed
-2026-10-07), and the community database lists the problem as proved. The thread
-carries no comments and no dispute. The library has no card for either paper;
-the citations above are the journals' records. Nothing here was checked by this
-project.
+2026-10-07). The community database lists the problem as proved. The thread
+carries no comments and no dispute. The library has no card for either paper,
+and the citations above are the journals' records. Nothing here was checked by
+this project.

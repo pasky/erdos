@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0369/claims/1976_08_01_eggleton_selfridge
 title: Eggleton and Selfridge's runs of five smooth integers
 desc: |
-  Eggleton and Selfridge give, for every epsilon, infinitely many runs of five
-  consecutive integers n to n plus 4 each n to the epsilon smooth, which
-  settles the question and the site's first reading for k at most 5.
+  Eggleton and Selfridge give, for every $\epsilon>0$, infinitely many runs
+  $n,\dots,n+4$ of five consecutive integers that are all $n^\epsilon$-smooth.
+  This settles the question and the site's first reading for $k\le5$.
 authors:
 - R. B. Eggleton
 - J. L. Selfridge
@@ -54,12 +54,12 @@ settles every $k$ of the wording and of the first reading.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper.
 
-**Acceptance.** Refereed: published in J. Austral. Math. Soc. Ser. A, a
-refereed journal (`refereed`). The site's curator credits the paper, in the
-problem's commentary, with the runs of five, and notes that this sits oddly
-with Erdős and Graham's remark that the problem was open even for $k=2$; the
-curator's PROVED (LEAN) label rests on the later results, not on this one, so
-no `reviewed` evidence is listed.
+**Acceptance.** Refereed: published in J. Austral. Math. Soc. Ser. A, a refereed
+journal (`refereed`). In the problem's commentary, the site's curator credits
+the paper with the runs of five. The curator notes that this sits oddly with
+Erdős and Graham's remark that the problem was open even for $k=2$. The
+curator's PROVED (LEAN) label rests on the later results, not on this one, so no
+`reviewed` evidence is listed.
 
 **Dating.** The page is dated by the issue month in the publisher's record,
 August 1976; the day is a placeholder.

@@ -2,9 +2,9 @@
 name: problems/set_systems/E1178/claims/2004_12_01_sarkozy_selkow
 title: Sárközy and Selkow's logarithmic upper bound
 desc: |
-  Sárközy and Selkow (Combinatorica 2005) prove d_r(e) <= (r-2)e + 2 +
-  floor(log_2 e) for all r, e >= 3, which meets the conjectured value at e = 3;
-  accepted on the refereed publication.
+  Sárközy and Selkow (Combinatorica 2005) prove
+  $d_r(e)\le(r-2)e+2+\lfloor\log_2 e\rfloor$ for all $r,e\ge3$, which meets the
+  conjectured value at $e=3$. The claim is accepted on the refereed publication.
 authors:
 - Gábor N. Sárközy
 - Stanley Selkow
@@ -55,8 +55,8 @@ For $e\ge4$ the bound exceeds the conjectured value and settles nothing.
 [[../library/extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_section_4|The Brown–Erdős–Sós lower bound]],
 which supplies the matching lower half $d_r(3)\ge3r-3$.
 
-**Acceptance.** Refereed publication in Combinatorica (the publisher's
-record: volume 25, issue 1, pp. 77--84, issued December 2004 with no day
-recorded; this page is dated the issue's first day). The site labels the
-problem OPEN, so its commentary crediting the bound is not listed as
-`reviewed` evidence. This claim is partial, so the problem stays open.
+**Acceptance.** Refereed publication in Combinatorica. The publisher's record
+gives volume 25, issue 1, pp. 77--84, issued December 2004 with no day recorded,
+so this page is dated the issue's first day. The site labels the problem OPEN,
+so its commentary crediting the bound is not listed as `reviewed` evidence. This
+claim is partial, so the problem stays open.

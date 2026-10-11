@@ -2,9 +2,10 @@
 name: problems/divisors/E0444/claims/1982_08_01_erdos_sarkozy
 title: "Erdős and Sárközy: max d_A(n) beats every power of the reciprocal sum"
 desc: |
-  The Erdős–Sárközy theorem that, whenever the reciprocal sum f_A(x) of an
-  infinite set A is unbounded, max d_A(n) over n up to x exceeds
-  exp(c (log f_A(x))^2) infinitely often, which answers the question yes.
+  The Erdős–Sárközy theorem states that when the reciprocal sum $f_A(x)$ of an
+  infinite set $A$ is unbounded, $\max_{n\le x}d_A(n)$ exceeds
+  $\exp\bigl(c(\log f_A(x))^2\bigr)$ infinitely often. This answers the question
+  yes.
 authors:
 - P. Erdös
 - A. Sárközy
@@ -60,10 +61,10 @@ no. 1, 115–136, the second link. Erdős and Graham posed the question in their
 Sárközy and the general $k$ as something they believed but could not prove
 ([[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|card]]).
 
-**Acceptance.** Refereed: Studia Sci. Math. Hungar. 15 (1980), 467–479, and
-J. Number Theory 15 (1982), no. 1, 115–136. Reviewed: the site's curator,
-T. F. Bloom, marks Problem 444 proved and credits Part IV. Part IV appears in
-the volume dated 1980 but was received on 25 September 1981 and cites Part II
-as J. Number Theory 15 (1982); the page is dated by Part II's issue, August
-1982, where the theorem was first published. No formalization is recorded,
-and this repository has not checked the proof independently.
+**Acceptance.** Refereed: Studia Sci. Math. Hungar. 15 (1980), 467–479, and J.
+Number Theory 15 (1982), no. 1, 115–136. Reviewed: the site's curator, T. F.
+Bloom, marks Problem 444 proved and credits Part IV. Part IV appears in the
+volume dated 1980, but it was received on 25 September 1981 and cites Part II as
+J. Number Theory 15 (1982). The page is dated by Part II's issue, August 1982,
+where the theorem was first published. No formalization is recorded, and this
+repository has not checked the proof independently.

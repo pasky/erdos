@@ -2,8 +2,9 @@
 name: problems/analysis/E0907
 title: Problem 907
 desc: |
-  Asks whether a real function whose every fixed-shift difference is
-  continuous must be the sum of a continuous function and an additive one.
+  Asks whether a real function $f$ with every difference $f(x+h)-f(x)$
+  continuous must be the sum of a continuous function and an additive one;
+  proved.
 tags:
 - Analysis
 status: solved
@@ -29,10 +30,10 @@ $$
 
 for some continuous $g$ and additive $h$ (i.e. $h(x+y)=h(x)+h(y)$)?
 
-**Status.** The site labels the problem PROVED (LEAN), and its commentary
-credits de Bruijn's 1951 theorem for the affirmative answer; the
-formal-conjectures statement file's `formal_proof` attribute points to a Lean
-proof of the statement in Alexeev's repository. Both are on the
+**Status.** The site labels the problem PROVED (LEAN). Its commentary credits de
+Bruijn's 1951 theorem for the affirmative answer. The formal-conjectures
+statement file's `formal_proof` attribute points to a Lean proof of the
+statement in Alexeev's repository. Both are on the
 [[problems/analysis/E0907/claims/1951_01_01_debruijn|claim page]]. The Lean
 proof is not built here.
 

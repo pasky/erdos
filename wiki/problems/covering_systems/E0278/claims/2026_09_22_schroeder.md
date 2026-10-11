@@ -2,9 +2,10 @@
 name: problems/covering_systems/E0278/claims/2026_09_22_schroeder
 title: Schroeder's coprime-disjoint formula and complexity of covered density
 desc: |
-  Michael Schroeder's 2026 Zenodo manuscript on the first question: an exact
-  formula when noncoprime classes can be made disjoint, #P- and NP-hardness
-  results, and fixed-parameter tractability in treewidth; no review recorded.
+  Michael Schroeder's 2026 Zenodo manuscript on the first question gives an
+  exact formula when noncoprime classes can be made disjoint, #P- and
+  NP-hardness results, and fixed-parameter tractability in treewidth. No review
+  is recorded.
 authors:
 - Michael Schroeder
 status: claimed

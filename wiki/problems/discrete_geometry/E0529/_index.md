@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0529
 title: Problem 529
 desc: |
-  Asks whether the expected end-to-end distance of an n-step self-avoiding walk
-  is of larger order than the square root of n in the plane, and at most of
-  that order in every dimension at least three.
+  Asks whether the expected end-to-end distance $d_k(n)$ of an $n$-step
+  self-avoiding walk in $\mathbb{Z}^k$ satisfies $d_2(n)/n^{1/2}\to\infty$, and
+  $d_k(n)\ll n^{1/2}$ for every $k\ge3$; open.
 tags:
 - Geometry
 - Probability

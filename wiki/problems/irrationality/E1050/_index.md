@@ -2,8 +2,7 @@
 name: problems/irrationality/E1050
 title: Problem 1050
 desc: |
-  Asks whether the sum over all n of one over two to the power n minus three
-  is irrational.
+  Asks whether $\sum_{n\ge1}1/(2^n-3)$ is irrational; proved.
 tags:
 - Irrationality
 status: solved
@@ -28,11 +27,12 @@ $$
 
 irrational?
 
-**Status.** The site, accessed 2026-09-04 (page last edited 2025-09-29), labels
-the problem PROVED and credits Borwein [Bo91]; as of 2026-10-06 the community
-database behind the site records the status as proved with a Lean qualifier,
-resting on the third-party lean-gallery development linked on the claim page, of
-which no build or audit is recorded in this repository.
+**Status.** The site labels the problem PROVED and credits Borwein [Bo91]. The
+site was accessed 2026-09-04, and the page was last edited 2025-09-29. As of
+2026-10-06, the community database behind the site records the status as proved
+with a Lean qualifier. That qualifier rests on the third-party lean-gallery
+development linked on the claim page. No build or audit of that development is
+recorded in this repository.
 
 **Source.** [erdosproblems.com/1050](https://www.erdosproblems.com/1050),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1050,

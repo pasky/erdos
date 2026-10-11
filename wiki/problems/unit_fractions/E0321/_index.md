@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0321
 title: Problem 321
 desc: |
-  The largest subset of the first N integers all of whose subsets have
-  distinct sums of reciprocals.
+  Asks for the size of the largest $A\subseteq\{1,\ldots,N\}$ whose subsets all
+  have distinct sums of reciprocals; answered up to order of magnitude.
 tags:
 - Number theory
 - Unit fractions
@@ -41,30 +41,31 @@ $N\le54$; the first sixteen were recomputed here by exhaustive search. The
 site's displayed asymptotic contains a slip, $\prod_{j=3}^k\log_kN$ for
 $\prod_{j=3}^k\log_jN$.
 
-**Status.** Solved, in the site's label, which the site glosses as a
-resolution other than a proof or disproof, for the order of magnitude
+**Status.** Solved, in the site's label, which the site glosses as a resolution
+other than a proof or disproof, for the order of magnitude
 
 $$
 R(N)\ \asymp\ \log S(N)\ \asymp\ \frac{N}{\log N}\prod_{j=3}^{k}\log_jN,\qquad \log_kN=O(1).
 $$
 
-The lower bound is refereed and is written out below: Bleicher and Erdős's set
-of products of rapidly growing primes (1975) has distinct subset reciprocal
-sums and gives the site's displayed lower bound, and the set $\mathcal U(N)$
-in Bettin, Grenié, Molteni and Sanna's proof (Math. Comp., online 22 January
-2026) has the same property and gives
+The standing derives from four claim pages. One is
+[[problems/unit_fractions/E0321/claims/2026_07_15_young_zhu_luo|the order of magnitude of R(N)]],
+the accepted claim on which the matching of the two bounds behind the label
+rests. The other three are the partial claim pages of the three refereed bounds,
+linked under Progress and known results.
+
+The lower bound is refereed and is written out below. Bleicher and Erdős's set
+of products of rapidly growing primes (1975) has distinct subset reciprocal sums
+and gives the site's displayed lower bound. The set $\mathcal U(N)$ in Bettin,
+Grenié, Molteni and Sanna's proof (Math. Comp., online 22 January 2026) has the
+same property. It gives
 $R(N)\ge2(1-\frac{3/2}{\log_kN})\frac{N}{\log N}\prod_{j=3}^k\log_jN$, a bound
 the paper does not state and the site calls implicit in it. The refereed upper
-bound, $R(N)\le\log S(N)/\log2$ with Bleicher and Erdős's 1976 Theorem 3,
-carries the extra factor $\log_rN$; the upper bound of the same order as the
+bound is $R(N)\le\log S(N)/\log2$ with Bleicher and Erdős's 1976 Theorem 3, and
+it carries the extra factor $\log_rN$. The upper bound of the same order as the
 lower is the bound for $\log S(N)$ obtained with the AI system GPT 5.6 Sol Pro
-and accepted by the site on Problem 320 (claim of 15 July 2026, unrefereed),
-restated for this problem in the accepted claim on this page's tab. So the
-matching of the two bounds behind the label rests on that accepted claim,
-whose page for this problem is
-[[problems/unit_fractions/E0321/claims/2026_07_15_young_zhu_luo|the order of magnitude of R(N)]].
-The three refereed bounds have their own partial claim pages, linked under
-Progress and known results, and the standing derives from the four pages.
+and accepted by the site on Problem 320 (claim of 15 July 2026, unrefereed). The
+accepted claim on this page's tab restates it for this problem.
 
 **Source.** [erdosproblems.com/321](https://www.erdosproblems.com/321),
 accessed 2026-09-18: the problem page (SOLVED; source key [ErGr80, p.43]; last

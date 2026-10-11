@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E1149/claims/2016_11_24_bergelson_richter
 title: Bergelson and Richter's coprimality density
 desc: |
-  Theorem 1 of Bergelson and Richter (arXiv 2016, Springer 2017): for a
-  Hardy-field f above log t log_4 t and strictly between consecutive powers
-  of t, n and the integer part of f(n) are coprime with density 6/pi^2.
+  Theorem 1 of Bergelson and Richter (arXiv 2016, Springer 2017) concerns
+  Hardy-field functions $f$ growing faster than $\log t\,\log_4 t$ and strictly
+  between consecutive powers of $t$. For such $f$, the $n$ with
+  $\gcd(n,\lfloor f(n)\rfloor)=1$ have density $6/\pi^2$.
 authors:
 - Vitaly Bergelson
 - Florian Karl Richter
@@ -59,12 +60,11 @@ over divisors. The
 digests the paper.
 
 **Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
-PROVED, last edited 23 January 2026, and the commentary states that the
-assertion is true and attributes the proof to Bergelson and Richter. Refereed:
-the publication is a chapter of an edited Springer volume (its Crossref record
-types it a book chapter), and its acknowledgements thank the anonymous
-referees and the editor who handled the submission. This page rests on no
-review of its own.
+PROVED, last edited 23 January 2026. The commentary states that the assertion is
+true and attributes the proof to Bergelson and Richter. Refereed: the
+publication is a chapter of an edited Springer volume, and its Crossref record
+types it a book chapter. Its acknowledgements thank the anonymous referees and
+the editor who handled the submission. This page rests on no review of its own.
 
 **Formalization.** None: the site records no formalized statement, and
 formal-conjectures had no `1149.lean` on 2026-09-05.

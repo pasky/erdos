@@ -2,9 +2,10 @@
 name: problems/covering_systems/E1190/claims/2013_01_01_de_la_breteche_ford_vandehey
 title: De la Bretèche, Ford and Vandehey's bounds, with epsilon_m tending to 0
 desc: |
-  The 2013 counting bounds for disjoint progressions with distinct moduli give
-  L(m)^(-1+o(1)) <= epsilon_m <= L(m)^(-sqrt(3)/2+o(1)), so epsilon_m tends to
-  0; refereed, and superseded by Ho's sharp estimate.
+  The 2013 counting bounds of de la Bretèche, Ford and Vandehey for disjoint
+  progressions with distinct moduli give
+  $L(m)^{-1+o(1)}\le\epsilon_m\le L(m)^{-\sqrt3/2+o(1)}$, so $\epsilon_m\to0$.
+  The paper is refereed, and Ho's sharp estimate supersedes these bounds.
 authors:
 - Régis de la Bretèche
 - Kevin Ford
@@ -61,8 +62,8 @@ determines and which supersedes these bounds.
 **Depends on.** Nothing in this wiki; the result rests on the published paper
 linked above.
 
-**Acceptance.** Refereed: the paper appeared in Acta Arithmetica 157
-(2013), no. 4, 381–392, received 24 March 2012 and revised 3 October 2012.
-The site's commentary credits the paper with these bounds; its label
-SOLVED (LEAN) credits the resolution through Ho's manuscript, so the
-curator's credit is not listed as review of this page.
+**Acceptance.** Refereed: the paper appeared in Acta Arithmetica 157 (2013), no.
+4, 381–392. It was received 24 March 2012 and revised 3 October 2012. The site's
+commentary credits the paper with these bounds. But the site's label, SOLVED
+(LEAN), credits the resolution through Ho's manuscript, so the curator's credit
+is not listed as review of this page.

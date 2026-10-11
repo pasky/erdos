@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E1062
 title: Problem 1062
 desc: |
-  The largest subset of one to n in which no element divides two other distinct
-  elements, and whether its density tends to an irrational limit; an exact
-  formula and an irrational limit near 0.67297, by a Lean proof Conjectures.io certified.
+  Asks for the size $f(n)$ of the largest subset of $\{1,\ldots,n\}$ in which no
+  element divides two other distinct elements, and whether $\lim f(n)/n$ is
+  irrational. A Lean proof certified by Conjectures.io gives an exact formula
+  and an irrational limit near 0.67297.
 tags:
 - Number theory
 status: solved
@@ -26,30 +27,35 @@ updated: 2026-10-08T01:29:59Z
 that $a\mid b$ and $a\mid c$. How large can $f(n)$ be? Is $\lim f(n)/n$
 irrational?
 
-**Status.** Open on the site: the problem is labeled OPEN, with the site's note
-that it cannot be settled by a finite computation, and its commentary (last
-edited 6 January 2026) records only the trivial bound and Lebensold's bracket.
-The site's one proof-claim entry, registered on 27 September 2026 by the
-curator, Thomas Bloom, attributes to conjectures.io a proof, by an AI system
-the entry gives as unknown, that the limit exists and is irrational; the entry
-says that he has not verified it and that the program does not disclose who
-runs the AI or which system, so it is not an acceptance. The derived standing
-rests on the claim pages. A Lean proof submitted to the bounty site
-Conjectures.io under the username JenW1N, verified by the site's Lean kernel, approved in review on 22 September 2026 and certified on
-23 September 2026 with its bounty paid
-([[problems/integer_sequences/E1062/claims/2026_09_21_jenw1n|claim page]], accepted),
-proves that $\lim f(n)/n$ exists and is irrational, which answers the second
-question yes and the first in asymptotic form, $f(n)=(l+o(1))\,n$ with $l$
-irrational. Davis's paper of April 2026 gives $f(n)=c_2n+o(n)$ with $c_2$
-effectively computable and leaves irrationality open
+**Status.** Open on the site. The problem is labeled OPEN, with the site's note
+that it cannot be settled by a finite computation. Its commentary (last edited 6
+January 2026) records only the trivial bound and Lebensold's bracket.
+
+The standing derived here rests on the claim pages. A Lean proof submitted to
+the bounty site Conjectures.io under the username JenW1N proves that
+$\lim f(n)/n$ exists and is irrational
+([[problems/integer_sequences/E1062/claims/2026_09_21_jenw1n|claim page]],
+accepted). The site's Lean kernel verified it. It was approved in review on 22
+September 2026 and certified on 23 September 2026, and its bounty was paid. This
+answers the second question yes. It answers the first in asymptotic form:
+$f(n)=(l+o(1))\,n$ with $l$ irrational.
+
+The site's one proof-claim entry was registered on 27 September 2026 by the
+curator, Thomas Bloom. It attributes to conjectures.io a proof that the limit
+exists and is irrational, by an AI system the entry gives as unknown. The entry
+says that he has not verified it, and that the program does not disclose who
+runs the AI or which system. So the entry is not an acceptance.
+
+Davis's paper of April 2026 gives $f(n)=c_2n+o(n)$ with $c_2$ effectively
+computable, and leaves irrationality open
 ([[problems/integer_sequences/E1062/claims/2026_04_19_davis|claim page]],
-partial); a note generated with GPT-5.4 Pro and posted by Przemek Chojecki on
-20 April 2026 proves the same with an explicit error term
+partial). A note generated with GPT-5.4 Pro and posted by Przemek Chojecki on 20
+April 2026 proves the same with an explicit error term
 ([[problems/integer_sequences/E1062/claims/2026_04_20_chojecki|claim page]],
-partial). Lebensold's refereed bracket $0.6725n\le f(n)\le0.6736n$ for large
-$n$ (1977) is an accepted partial claim
-([[problems/integer_sequences/E1062/claims/1977_06_01_lebensold|claim page]]).
-A manuscript announced in the thread on 23 September 2026 asserts an extremal
+partial). Lebensold's refereed bracket $0.6725n\le f(n)\le0.6736n$ for large $n$
+(1977) is an accepted partial claim
+([[problems/integer_sequences/E1062/claims/1977_06_01_lebensold|claim page]]). A
+manuscript announced in the thread on 23 September 2026 asserts an extremal
 formula for $f(n)$ and that the limit is transcendental
 ([[problems/integer_sequences/E1062/claims/2026_09_23_turturean|claim page]],
 full, unreviewed).

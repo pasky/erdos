@@ -2,8 +2,8 @@
 name: problems/primes/E0233
 title: Problem 233
 desc: |
-  Asks whether the sum of the squares of the first N prime gaps is at most a
-  constant times N times the square of the logarithm of N.
+  Asks whether $\sum_{n\le N}d_n^2\ll N(\log N)^2$, where $d_n=p_{n+1}-p_n$ is
+  the gap after the $n$th prime; open.
 tags:
 - Number theory
 - Primes

@@ -2,8 +2,10 @@
 name: problems/discrepancy/E0161
 title: Problem 161
 desc: |
-  Asks whether the smallest size forcing balanced two-colorings of a complete
-  uniform hypergraph varies continuously with the density parameter or jumps.
+  Asks whether the least $m$ such that some 2-coloring of the complete
+  $t$-uniform hypergraph on $n$ vertices gives every set of $m$ or more vertices
+  at least an $\alpha$ fraction of edges in each color varies continuously as
+  $\alpha$ goes from 0 to 1/2, or jumps; open.
 tags:
 - Combinatorics
 - Hypergraphs
@@ -49,11 +51,11 @@ and the fixed-$n$ reading is degenerate.
 
 **Status.** Open, the site's label (page last edited 16 January 2026). The one
 claim is Conlon, Fox and Sudakov's accepted partial claim [CFS11]
-([[problems/discrepancy/E0161/claims/2009_01_25_conlon_fox_sudakov|claim
-page]]): for $t=3$ the order of growth of $F^{(3)}(n,\alpha)$ is
-$\sqrt{\log n}$ for every fixed $\alpha\in(0,1/2)$, so no jump occurs inside
-$(0,1/2)$. Whether a jump occurs at $0$ for $t=3$, and the whole question for
-$t\ge4$, are open, so the problem stays open.
+([[problems/discrepancy/E0161/claims/2009_01_25_conlon_fox_sudakov|claim page]]).
+Its result is that for $t=3$ the order of growth of $F^{(3)}(n,\alpha)$ is
+$\sqrt{\log n}$ for every fixed $\alpha\in(0,1/2)$. So no jump occurs inside
+$(0,1/2)$. Whether a jump occurs at $0$ for $t=3$ is open, and so is the whole
+question for $t\ge4$. So the problem stays open.
 
 **Source.** [erdosproblems.com/161](https://www.erdosproblems.com/161), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #161,

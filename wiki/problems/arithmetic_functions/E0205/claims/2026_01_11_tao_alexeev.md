@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0205/claims/2026_01_11_tao_alexeev
 title: Tao and Alexeev quantified counterexamples
 desc: |
-  Infinitely many n such that every n - 2^k with 2^k <= n has at least a
-  constant times sqrt(log n / log log n) prime factors; the quantified
-  disproof the site credits to Tao and Alexeev, proved in community Lean.
+  For infinitely many $n$, every $n-2^k$ with $2^k\le n$ has at least a constant
+  times $\sqrt{\log n/\log\log n}$ prime factors. This is the quantified
+  disproof that the site credits to Tao and Alexeev, and community Lean files
+  prove it.
 authors:
 - ChatGPT
 - Aristotle
@@ -77,34 +78,36 @@ open.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labels the
-problem DISPROVED (LEAN) and credits the quantified form of the negative
-answer to Tao and Alexeev in the problem's commentary (last edited
-2026-04-05), stating the square-root bound there as the result; Nat
-Sothanaphan, in the site's discussion thread on 2026-01-11, posted a
-human-readable version of Alexeev's Lean proof of the bound (the `record`
-link above) and wrote that they had checked everything by hand. Tao's own
-acceptance of the construction in the thread is not counted for this page,
-since Tao is one of its claimants. No refereed publication exists, and the
-only informal account is Sothanaphan's de-formalization, which no library
-card digests, so the evidence is `reviewed` alone.
+problem DISPROVED (LEAN). In the problem's commentary (last edited 2026-04-05),
+Bloom credits the quantified form of the negative answer to Tao and Alexeev and
+states the square-root bound there as the result. Nat Sothanaphan, in the site's
+discussion thread on 2026-01-11, posted a human-readable version of Alexeev's
+Lean proof of the bound (the `record` link above) and wrote that they had
+checked everything by hand. Tao's own acceptance of the construction in the
+thread is not counted for this page, since Tao is one of its claimants. No
+refereed publication exists. The only informal account is Sothanaphan's
+de-formalization, which no library card digests. So the evidence is `reviewed`
+alone.
 
-The written forms of the proof are Lean files, none built or audited by
-this corpus: the `plby/lean-proofs` copy `src/latest` at the pinned
-commit linked above (theorem `not_erdos_205`, no `sorry`, no `axiom`, whose
-own `#print axioms` comment lists `propext`, `Classical.choice`,
-`Quot.sound`, and which imports the `PrimeNumberTheoremAnd` project for the
-prime asymptotic); its `src/v4.29.1` copy, which the formal-conjectures
-statement file names in a `formal_proof` attribute and whose header still
-says "Conditional on: nth_prime_asymp" although its imports and axiom
-comment match the `src/latest` copy; the earlier `Jayyhk/erdos-lean`
-file linked above, which admits `nth_prime_asymp` as an axiom; and the same
-repository's later file, which vendors a proof of it. The
-problem page records the statements, congruences and axiom comments, and
-the boundary difference (`2 ^ k ≤ n` in this claim against `2 ^ k < n` in the
-collection's variant, which matters only at powers of two, excluded by
-$n_E\equiv0\pmod3$). No file was built, kernel-checked or audited by this
-corpus, and no statement-fidelity review exists, so no `formalized`
+The written forms of the proof are Lean files, none of them built or audited by
+this corpus. The first is the `plby/lean-proofs` copy `src/latest` at the pinned
+commit linked above. It contains the theorem `not_erdos_205`, with no `sorry`
+and no `axiom`. Its own `#print axioms` comment lists `propext`,
+`Classical.choice`, `Quot.sound`, and it imports the `PrimeNumberTheoremAnd`
+project for the prime asymptotic. The second is its `src/v4.29.1` copy, which
+the formal-conjectures statement file names in a `formal_proof` attribute. The
+header of that copy still says "Conditional on: nth_prime_asymp", although its
+imports and axiom comment match the `src/latest` copy. The third is the earlier
+`Jayyhk/erdos-lean` file linked above, which admits `nth_prime_asymp` as an
+axiom. The fourth is a later file in the same repository, which vendors a proof
+of it.
+
+The problem page records the statements, congruences and axiom comments. It also
+records the boundary difference: `2 ^ k ≤ n` in this claim against `2 ^ k < n`
+in the collection's variant. This matters only at powers of two, which
+$n_E\equiv0\pmod3$ excludes. No file was built, kernel-checked or audited by
+this corpus, and no statement-fidelity review exists, so no `formalized`
 evidence is listed. The formal files name ChatGPT, Aristotle and Alexeev as
-formal authors and van Doorn, Tao, Alexeev and ChatGPT as informal authors;
-they declare themselves formalizations of the thread's solution and are
-recorded as links on this page, not as a claim of their own.
+formal authors and van Doorn, Tao, Alexeev and ChatGPT as informal authors. They
+declare themselves formalizations of the thread's solution. They are recorded as
+links on this page, not as a claim of their own.

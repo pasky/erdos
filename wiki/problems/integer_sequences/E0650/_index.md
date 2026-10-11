@@ -2,9 +2,11 @@
 name: problems/integer_sequences/E0650
 title: Problem 650
 desc: |
-  Asks for the least number of distinct multiples of distinct members of an
-  m-set in the first N integers that every interval of length 2N holds; it is
-  min(m, ceiling of 2 root m), by van Doorn, Li and Tang (2026); not root m.
+  Asks for the least number $f(m)$ of distinct multiples of distinct elements of
+  an $m$-element set $A\subseteq\{1,\ldots,N\}$ that every interval of length
+  $2N$ contains. By van Doorn, Li and Tang (2026),
+  $f(m)=\min(m,\lceil2\sqrt m\rceil)$, so the answer to whether $f(m)\le\sqrt m$
+  is no.
 tags:
 - Number theory
 status: solved
@@ -42,29 +44,30 @@ question $f(m)\le\sqrt m$, which has a negative answer (below). The site's
 header key is [Er95c, p. 5], with [ErSu59], [Er78], [Er86c] and [VLT26]
 cited in the commentary.
 
-**Status.** Solved, in the site's label, which attaches to the estimate:
+**Status.** The site's label is Solved, and it attaches to the estimate
 $f(m)=\min(m,\lceil2\sqrt m\rceil)$ for every $m\ge1$, and
-$f(m)=\lceil2\sqrt m\rceil$ for $m\ge4$ (van Doorn, Li and Tang, Theorem 2.1
-and Remark 2.2, arXiv:2603.28636v1, 30 March 2026). Consequently the
-displayed question is answered no: $f(m)>\sqrt m$ for every $m\ge2$
-($f(m)=m$ for $m\le4$ and $\lceil2\sqrt m\rceil>\sqrt m$ after), with
-equality only at $m=1$; the negative answer is recorded here. The
-status-defining source is an arXiv preprint with no journal record found in
-the search; the site accepted it (SOLVED (LEAN), 2 April
-2026), and an external Lean formalization accompanies it. The paper declares
-that its proof strategy was proposed by ChatGPT (GPT-5.4 Pro) and that
-Aristotle, Harmonic's automated theorem-proving system, completed and
-formally verified the argument, with the exposition human-written; the
-site's commentary credits the upper bound to GPT 5.4 Pro, prompted by He, Li
-and Tang, and the lower bound to GPT 5.4 Pro and Aristotle, before citing
-the paper. The classical bounds are Erdős and Surányi's $f(m)\ge\sqrt m$
-(1959) and Erdős and Selfridge's $f(k^2)\le2k$, hence
-$f(m)\le2\lceil\sqrt m\rceil$ (1978 and 1986). The site's label carries the
-suffix (Lean), a catalog label explained under Formalization and the Lean
-label, and no local kernel credit is claimed. The claim page
+$f(m)=\lceil2\sqrt m\rceil$ for $m\ge4$ (van Doorn, Li and Tang, Theorem 2.1 and
+Remark 2.2, arXiv:2603.28636v1, 30 March 2026). Consequently the displayed
+question is answered no: $f(m)>\sqrt m$ for every $m\ge2$, with equality only at
+$m=1$. This holds because $f(m)=m$ for $m\le4$ and
+$\lceil2\sqrt m\rceil>\sqrt m$ after. The negative answer is recorded here. The
+claim page
 [[problems/integer_sequences/E0650/claims/2026_03_07_van_doorn_li_tang|van Doorn, Li and Tang 2026]]
 records the acceptance with its preprint qualification, and the frontmatter
 standing derives from it.
+
+The status-defining source is an arXiv preprint with no journal record found in
+the search. The site accepted it (SOLVED (LEAN), 2 April 2026), and an external
+Lean formalization accompanies it. The paper declares that its proof strategy
+was proposed by ChatGPT (GPT-5.4 Pro) and that Aristotle, Harmonic's automated
+theorem-proving system, completed and formally verified the argument, with the
+exposition human-written. The site's commentary credits the upper bound to GPT
+5.4 Pro, prompted by He, Li and Tang, and the lower bound to GPT 5.4 Pro and
+Aristotle, before citing the paper. The classical bounds are Erdős and Surányi's
+$f(m)\ge\sqrt m$ (1959) and Erdős and Selfridge's $f(k^2)\le2k$, hence
+$f(m)\le2\lceil\sqrt m\rceil$ (1978 and 1986). The site's label carries the
+suffix (Lean), a catalog label explained under Formalization and the Lean label,
+and no local kernel credit is claimed.
 
 **Source.** [erdosproblems.com/650](https://www.erdosproblems.com/650),
 accessed 2026-09-18: the problem page (SOLVED

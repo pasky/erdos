@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0076
 title: Problem 76
 desc: |
-  Asks whether every two-coloring of the edges of the complete graph on n
-  vertices yields about n squared over twelve edge-disjoint monochromatic
-  triangles; yes, by a 2020 theorem of Gruslys and Letzter the site accepted.
+  Asks whether every $2$-coloring of the edges of $K_n$ has at least
+  $(1+o(1))n^2/12$ edge-disjoint monochromatic triangles; yes, by a 2020 theorem
+  of Gruslys and Letzter that the site accepted.
 tags:
 - Graph theory
 - Ramsey theory
@@ -59,19 +59,18 @@ monochromatic triangles all of one color (the site expects at least $cn^2$ for
 some constant $c>1/24$), is a separate question recorded below and is not the
 statement.
 
-**Status.** Proved. Theorem 1.2 of Gruslys and Letzter,
-arXiv:2008.05311v2 (14 August 2020), states exactly the question's
-conclusion: "Every $2$-coloured $K_n$ contains a collection of
-$n^2/12+o(n^2)$ pairwise edge-disjoint monochromatic triangles." The
-status-defining source is an arXiv paper; the site's curator accepted it,
-recording in the commentary
-that the answer is yes by Gruslys and Letzter [GrLe20], and that acceptance
-is the label's evidence; on it the claim page records the result as
-accepted, with no refereed version, and the frontmatter standing is derived
-from it. The proof's two ingredients external to the paper, Theorem 2.11
-(proved in a companion preprint) and the computer-search certificates
-behind Lemma 2.8, are not held. Read depth: claims checked for Theorem 1.2
-and the statements around it; the proof is not reviewed here.
+**Status.** Proved. Theorem 1.2 of Gruslys and Letzter, arXiv:2008.05311v2 (14
+August 2020), states exactly the question's conclusion: "Every $2$-coloured
+$K_n$ contains a collection of $n^2/12+o(n^2)$ pairwise edge-disjoint
+monochromatic triangles." The status-defining source is this arXiv paper. The
+site's curator accepted it, recording in the commentary that the answer is yes
+by Gruslys and Letzter [GrLe20]. That acceptance is the label's evidence. On it,
+the claim page records the result as accepted, with no refereed version, and the
+frontmatter standing is derived from it. Two ingredients of the proof lie
+outside the paper and are not held: Theorem 2.11, proved in a companion
+preprint, and the computer-search certificates behind Lemma 2.8. Read depth:
+claims were checked for Theorem 1.2 and the statements around it. The proof is
+not reviewed here.
 
 **Source.** [erdosproblems.com/76](https://www.erdosproblems.com/76),
 accessed 2026-09-18: the problem page (PROVED, the

@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0261
 title: Problem 261
 desc: |
-  Asks for which n the value n over two to the n is a sum of distinct terms k
-  over two to the k, and whether some rational has uncountably many such sums.
+  Asks for which $n$ the number $n/2^n$ is a sum of distinct terms $k/2^k$, and
+  whether some rational has uncountably many such sums; open.
 tags:
 - Number theory
 status: open
@@ -39,21 +39,20 @@ $$
 
 has at least $2^{\aleph_0}$ solutions?
 
-**Status.** Open. The site labels the problem OPEN (page last edited
-1 December 2025; accessed 2026-10-07). Its remarks credit Borwein and Loring
-[BoLo90] with an identity giving infinitely many $n$, which answers the
-first question yes, and Tengely, Ulas and Zygadło [TUZ20] with a check of
-the second question for every $n\le10000$; both are refereed results with
-accepted partial claim pages,
+**Status.** Open. The site labels the problem OPEN (page last edited 1 December
+2025; accessed 2026-10-07). The three questions are the parts `infinitely_many`,
+`all_n` and `continuum` of the frontmatter. No claim settles or pends on the
+second or the third question, so the derived standing is open, claim none. The
+site's remarks credit Borwein and Loring [BoLo90] with an identity giving
+infinitely many $n$, which answers the first question yes. They credit Tengely,
+Ulas and Zygadło [TUZ20] with a check of the second question for every
+$n\le10000$. Both are refereed results with accepted partial claim pages,
 [[problems/diophantine_problems/E0261/claims/1990_01_01_borwein_loring|Borwein and Loring 1990]]
 and
-[[problems/diophantine_problems/E0261/claims/2020_08_04_tengely_ulas_zygadlo|Tengely, Ulas and Zygadło 2020]],
-and Borwein and Loring's reduction of the second question to a termination
-conjecture is
+[[problems/diophantine_problems/E0261/claims/2020_08_04_tengely_ulas_zygadlo|Tengely, Ulas and Zygadło 2020]].
+Borwein and Loring's reduction of the second question to a termination
+conjecture is on
 [[problems/diophantine_problems/E0261/claims/1990_01_01_borwein_loring_conditional|a conditional claim page]].
-No claim settles or pends on the second or the third question, so the
-derived standing is open, claim none. The three questions are the parts
-`infinitely_many`, `all_n` and `continuum` of the frontmatter.
 
 **Source.** [erdosproblems.com/261](https://www.erdosproblems.com/261), accessed
 2026-09-04 and 2026-10-07. Cite as: T. F. Bloom, Erdős Problem #261,

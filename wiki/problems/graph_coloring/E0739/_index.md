@@ -2,8 +2,9 @@
 name: problems/graph_coloring/E0739
 title: Problem 739
 desc: |
-  Asks whether a graph of infinite chromatic number m must have a subgraph of
-  chromatic number n for every infinite cardinal n below m.
+  Asks whether a graph of infinite chromatic number $\mathfrak{m}$ must have a
+  subgraph of chromatic number $\mathfrak{n}$ for every infinite cardinal
+  $\mathfrak{n}<\mathfrak{m}$; open.
 tags:
 - Graph theory
 - Chromatic number
@@ -27,12 +28,12 @@ cardinal $\mathfrak{n}< \mathfrak{m}$, there exists a subgraph of $G$ with
 chromatic number $\mathfrak{n}$?
 
 **Status.** Open. The site labels the problem NOT PROVABLE, on the strength of
-Komjáth's consistency result: in a model of ZFC there is a graph of chromatic
+Komjáth's consistency result. In a model of ZFC there is a graph of chromatic
 number $\aleph_2$ with no subgraph of chromatic number $\aleph_1$, so ZFC does
-not prove the statement. That settles one side only. Whether the statement is
-also not disprovable, for instance whether it follows from the Generalized
-Continuum Hypothesis, is open, and the page departs from the site's label
-because one side alone leaves the question open.
+not prove the statement. That settles one side only. It is open whether the
+statement is also not disprovable, for instance whether it follows from the
+Generalized Continuum Hypothesis. The page departs from the site's label because
+one side alone leaves the question open.
 
 **Source.** [erdosproblems.com/739](https://www.erdosproblems.com/739), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #739,

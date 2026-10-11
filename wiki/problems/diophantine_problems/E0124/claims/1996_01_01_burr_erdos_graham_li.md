@@ -2,9 +2,10 @@
 name: problems/diophantine_problems/E0124/claims/1996_01_01_burr_erdos_graham_li
 title: Burr, Erdős, Graham and Li's four complete tuples at exponent one
 desc: |
-  Section 3 of the 1996 Acta Arithmetica paper gives the largest integer not a
-  sum of distinct positive-exponent powers from {3,4,7}, {3,5,7,13},
-  {3,6,7,13,21} and {3,4,5}, settling the second question at k = 1; refereed.
+  Section 3 of the refereed 1996 Acta Arithmetica paper of Burr, Erdős, Graham
+  and Li gives the largest integer that is not a sum of distinct
+  positive-exponent powers from $\{3,4,7\}$, $\{3,5,7,13\}$, $\{3,6,7,13,21\}$
+  or $\{3,4,5\}$. This settles the second question at $k=1$ for these four sets.
 authors:
 - S. A. Burr
 - P. Erdős
@@ -56,8 +57,8 @@ proved the conjecture for $\{3,4,7\}$; the result covers only $k=1$.
 
 **Acceptance.** Refereed: Acta Arithmetica 77 (1996), no. 2, 133--138. The
 site's commentary (page last edited 1 December 2025) credits the $\{3,4,7\}$
-case to this paper but labels the problem OPEN, so no `reviewed` evidence is
-listed. The formal-conjectures statement file for the problem states the
-$\{3,4,7\}$ case at $k=1$ as `erdos124.ne_zero_three_four_seven`, marked
-`research solved` and credited to this paper, with no formal proof. The
-computations were not reconstructed in this corpus.
+case to this paper. The site labels the problem OPEN, however, so no `reviewed`
+evidence is listed. The formal-conjectures statement file for the problem states
+the $\{3,4,7\}$ case at $k=1$ as `erdos124.ne_zero_three_four_seven`. It marks
+that statement `research solved` and credits it to this paper, but gives no
+formal proof. The computations were not reconstructed in this corpus.

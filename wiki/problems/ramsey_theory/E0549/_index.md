@@ -2,8 +2,8 @@
 name: problems/ramsey_theory/E0549
 title: Problem 549
 desc: |
-  Asks whether a tree that is bipartite with k vertices in one class and two k
-  in the other has Ramsey number exactly four k minus one.
+  Asks whether every tree $T$ with $k$ vertices in one class and $2k$ in the
+  other has $R(T)=4k-1$; disproved.
 tags:
 - Graph theory
 - Ramsey theory
@@ -55,30 +55,28 @@ $Q_{k,\ell}$ here. Dubó and Stein's $S(2m,m)$ has classes $2m+1$ and $m+1$
 and is not of the exact $1:2$ ratio; their Theorem 2 covers $S(2k-1,k-1)$
 directly (below).
 
-**Status.** Disproved, the site's label (page last edited 28 December
-2025), credited by the site's curator, T. F. Bloom, to Norin, Sun and Zhao.
-For $T=S(2k-1,k-1)$, Norin, Sun and Zhao's Theorem 1.3
-gives $R(T)\ge4.2k-o(k)$, so $R(T)>4k-1$ for all large $k$; the paper says
-this answers the 1982 question in the negative. The status-defining source is
-an arXiv preprint (1605.03612v1, 2016); its lower bound is restated and relied on in refereed papers
-(Dubó and Stein, Discrete Math. 348 (2025)) and the site accepted it.
-Independently, the refereed Theorem 2.1 of [GHK79] (1979) gives
-$R(S(2k-1,k-1))\ge4k$ for every $k\ge4$ by an explicit coloring of
-$K_{4k-1}$, so the equality fails at every $k\ge4$
-([[problems/ramsey_theory/E0549/claims/1979_01_01_grossman_harary_klawe|claim page]]).
-The equality does hold for two families with classes $k$ and $2k$ (the
-brooms $B_{k,2k}$ and Burr and Erdős's trees made of a path on four
-vertices with stars on $2k-1$ and $k-1$ vertices at its ends) and, by
-Montgomery, Pavez-Signé and Yan (preprint, 2025), for every such tree of
-maximum degree at most $3ck$ for a small absolute $c>0$; each has a partial
+**Status.** Disproved, the site's label (page last edited 28 December 2025). The
+site's curator, T. F. Bloom, credits the result to Norin, Sun and Zhao. The
 claim page
+[[problems/ramsey_theory/E0549/claims/2016_05_11_norin_sun_zhao|Norin, Sun and Zhao 2016]]
+records the disproof, its posting and the acceptance evidence. The frontmatter
+standing is derived from the claim pages. For $T=S(2k-1,k-1)$, Norin, Sun and
+Zhao's Theorem 1.3 gives $R(T)\ge4.2k-o(k)$, so $R(T)>4k-1$ for all large $k$.
+The paper says this answers the 1982 question in the negative. The
+status-defining source is an arXiv preprint (1605.03612v1, 2016). Its lower
+bound is restated and relied on in refereed papers (Dubó and Stein, Discrete
+Math. 348 (2025)), and the site accepted it. Independently, the refereed Theorem
+2.1 of [GHK79] (1979) gives $R(S(2k-1,k-1))\ge4k$ for every $k\ge4$ by an
+explicit coloring of $K_{4k-1}$. So the equality fails at every $k\ge4$
+([[problems/ramsey_theory/E0549/claims/1979_01_01_grossman_harary_klawe|claim page]]).
+The equality does hold for two families with classes $k$ and $2k$. These are the
+brooms $B_{k,2k}$ and Burr and Erdős's trees made of a path on four vertices
+with stars on $2k-1$ and $k-1$ vertices at its ends. By Montgomery, Pavez-Signé
+and Yan (preprint, 2025), it also holds for every such tree of maximum degree at
+most $3ck$ for a small absolute $c>0$. Each of these has a partial claim page
 ([[problems/ramsey_theory/E0549/claims/1982_01_01_erdos_faudree_rousseau_schelp|brooms]],
 [[problems/ramsey_theory/E0549/claims/1976_01_01_burr_erdos|Burr and Erdős 1976]],
 [[problems/ramsey_theory/E0549/claims/2025_09_09_montgomery_pavez_signe_yan|Montgomery, Pavez-Signé and Yan 2025]]).
-The claim page
-[[problems/ramsey_theory/E0549/claims/2016_05_11_norin_sun_zhao|Norin, Sun and Zhao 2016]]
-records the disproof, its posting and the acceptance evidence; the
-frontmatter standing is derived from the claim pages.
 
 **Source.** [erdosproblems.com/549](https://www.erdosproblems.com/549),
 accessed 2026-09-17: the problem page (DISPROVED,

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1011/claims/2024_04_11_ren_wang_wang_yang
 title: Ren, Wang, Wang and Yang's determination of f_4(n) for large n
 desc: |
-  A preprint of April 2024 (v2 October 2025) proving that f_4(n) =
-  floor((n-3)^2/4) + 6 for every n at least 90, attained by blow-ups of the
-  Grötzsch graph; a preprint with no journal record, so claimed.
+  Ren, Wang, Wang and Yang's preprint of April 2024 (v2 October 2025) proves
+  that $f_4(n)=\lfloor(n-3)^2/4\rfloor+6$ for every $n\ge90$, attained by
+  blow-ups of the Grötzsch graph. The preprint has no journal record, so its
+  status is claimed.
 authors:
 - Sijie Ren
 - Jian Wang

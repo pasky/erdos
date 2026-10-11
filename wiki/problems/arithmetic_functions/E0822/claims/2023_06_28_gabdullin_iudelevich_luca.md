@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0822/claims/2023_06_28_gabdullin_iudelevich_luca
 title: Positive density of the values n plus phi(n)
 desc: |
-  A positive proportion of the integers up to x are of the form n plus the
-  Euler totient of n, with an upper bound below x; the refereed theorem by
-  which the site marked the problem proved.
+  Gabdullin, Iudelevich and Luca prove that a positive proportion of the
+  integers up to $x$ are of the form $n+\varphi(n)$, with an upper bound on
+  their count below $x$. The site marked the problem proved on the basis of this
+  refereed theorem.
 authors:
 - Mikhail R. Gabdullin
 - Vitalii V. Iudelevich
@@ -67,10 +68,10 @@ project.
 
 **Acceptance.** Refereed: *Journal of Number Theory* 262 (2024), 58--85, the
 published version of arXiv:2306.16035 (v1, 28 June 2023). Reviewed: a thread
-post of 2025-10-13 located the reference, the site's curator, Thomas Bloom,
-adopted it, the remarks record the result as proved by the three authors with
-the $\tau$ and $\omega$ analogues, and the site labels the problem PROVED
-(page last edited 14 October 2025); Bloom is independent of the authors.
+post of 2025-10-13 located the reference, and the site's curator, Thomas Bloom,
+adopted it. The remarks record the result as proved by the three authors, with
+the $\tau$ and $\omega$ analogues. The site labels the problem PROVED (page last
+edited 14 October 2025). Bloom is independent of the authors.
 
 **Lean.** Not `formalized` evidence: this repository has not built,
 kernel-checked or audited the Lean development linked above. The file

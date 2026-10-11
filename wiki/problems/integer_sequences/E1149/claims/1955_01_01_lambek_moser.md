@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E1149/claims/1955_01_01_lambek_moser
 title: Lambek and Moser's coprimality density for n and [n^{1/k}]
 desc: |
-  Lambek and Moser (Canad. J. Math. 1955): a density criterion for n coprime
-  to f(n), giving density 6/pi^2 for f(n) the integer part of n^{1/k} with
-  k >= 2 an integer; refereed.
+  Lambek and Moser (Canad. J. Math. 1955, refereed) give a density criterion for
+  the $n$ coprime to $f(n)$. It yields density $6/\pi^2$ for
+  $f(n)=\lfloor n^{1/k}\rfloor$ with $k\ge2$ an integer.
 authors:
 - J. Lambek
 - L. Moser

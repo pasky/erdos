@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0518
 title: Problem 518
 desc: |
-  Asks whether every two-coloring of the complete graph on n vertices admits
-  root n monochromatic paths of one color covering all vertices; proved for n
-  above 20 to the 40th, the remaining n claimed in an unrefereed 2026 preprint.
+  Asks whether every two-coloring of the edges of $K_n$ has $\sqrt{n}$
+  monochromatic paths, all of one color, that cover all vertices. It is proved
+  for $n>20^{40}$, and the remaining $n$ are claimed in an unrefereed 2026
+  preprint.
 tags:
 - Graph theory
 - Ramsey theory
@@ -41,26 +42,27 @@ monochromatic paths of possibly different colors always cover the vertex set
 (Gerencsér and Gyárfás, 1967), which is why the same-color requirement is the
 point of the problem.
 
-**Status.** The site labels the problem PROVED and its curator credits
-Pokrovskiy, Versteegen and Williams with the affirmative answer. The credited
-result is Theorem 1.3 of their paper (J. Combin. Theory Ser. B 176 (2026),
-551--560, refereed; the statement here follows arXiv v2 of 7 October 2025),
-which states the conclusion for all $n>20^{40}$. For $n\le20^{40}$ the paper
-proves only its Proposition 3.4 (p. 7), that fewer than $\sqrt n+20^4$
-monochromatic paths of one color always suffice (its remark that $\sqrt n+10$
+**Status.** The site labels the problem PROVED, and its curator credits
+Pokrovskiy, Versteegen and Williams with the affirmative answer. Here the
+problem stands as claimed, through the pending full claim of Chen and Chen
+described below. The site's label rests on the large-$n$ theorem, which is read
+here as settling the question for large $n$ only. The credited result is Theorem
+1.3 of the paper of Pokrovskiy, Versteegen and Williams (J. Combin. Theory Ser.
+B 176 (2026), 551--560, refereed; the statement here follows arXiv v2 of 7
+October 2025). It states the conclusion for all $n>20^{40}$. For $n\le20^{40}$
+the paper proves only its Proposition 3.4 (p. 7): fewer than $\sqrt n+20^4$
+monochromatic paths of one color always suffice. Its remark that $\sqrt n+10$
 paths suffice for every $n$ is announced "with some additional technical
-effort", not proved), and the statement for every $n\ge1$ is claimed in an
-unrefereed 2026 preprint of Chen and Chen, the one entry of the site's
-proof-claims tab, which the site has not adopted. The claim pages
+effort", not proved. The statement for every $n\ge1$ is claimed in an unrefereed
+2026 preprint of Chen and Chen. This preprint is the one entry of the site's
+proof-claims tab, and the site has not adopted it. Two claim pages record the
+results, their postings and their acceptance evidence, and the frontmatter
+standing derives from them.
 [[problems/ramsey_theory/E0518/claims/2024_09_05_pokrovskiy_versteegen_williams|Pokrovskiy, Versteegen and Williams 2024]]
-(accepted on the site's credit and the refereed publication, partial: every
-$n>20^{40}$) and
+is accepted on the site's credit and the refereed publication, as a partial
+claim for every $n>20^{40}$.
 [[problems/ramsey_theory/E0518/claims/2026_07_24_chen_chen|Chen and Chen 2026]]
-(claimed, the statement for every $n$) record the results, their postings and
-their acceptance evidence, and the frontmatter standing derives from them: the
-problem stands as claimed through the pending full claim, while the site's
-label rests on the large-$n$ theorem, read here as settling the question for
-large $n$ only. No review of the proof is recorded.
+is claimed, for the statement for every $n$. No review of the proof is recorded.
 
 **Source.** [erdosproblems.com/518](https://www.erdosproblems.com/518),
 accessed 2026-09-18: the problem page (labeled PROVED, with the site's

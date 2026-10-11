@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0866
 title: Problem 866
 desc: |
-  Estimates, for k at least three, how far above N a subset of the integers up
-  to 2N must be to force k integers whose pairwise sums all lie in the set;
-  open, with the thresholds 1 and 3 for k = 3 and 4 and bounded for k = 5.
+  Estimates, for $k\ge3$, how far above $N$ the size of a subset of
+  $\{1,\ldots,2N\}$ must be to force $k$ integers whose pairwise sums all lie in
+  the set. It is open; the threshold is $1$ for $k=3$, $3$ for $k=4$, and
+  bounded for $k=5$.
 tags:
 - Number theory
 - Additive combinatorics
@@ -52,31 +53,33 @@ thresholds as $k>\tfrac n2+\cdots$ for sets in $[1,n]$; the site's
 normalization is the 1975 paper's. The site's source keys are [CES75]
 and [Er92c, p. 41].
 
-**Status.** Open. The site's label is OPEN (page last edited 1 December
-2025; so labeled on 2026-09-18 and 2026-10-06). The question asks for the
-order of $g_k(N)$, and no source determines it beyond the following:
-$g_3(N)=1$ for $N\ge3$ and $g_4(N)=3$ for $N\ge2$ (van Doorn 2026, Theorems
-1 and 3, an arXiv preprint);
-$4\le g_5(N)<1.2\cdot10^8$ for $N\ge3$ (van Doorn 2026, Theorems 5 and 8),
-where the 1975 statement $g_5(N)\asymp\log N$ holds for the positive-integer
-variant $h_5$ only; $g_6(N)\asymp N^{1/2}$ (Choi, Erdős and Szemerédi 1975,
-Theorem 4, both bounds valid for the site's $g_6$);
-$g_k(N)\le2^{k-1}N^{1-2^{1-k}}$ for large $N$ (1975, Theorem 5) and
-$g_k(N)<4N^{1-2^{2-k}}$ for large $N$ (van Doorn 2026, Theorem 9, stated
-with a sketch); and $g_k(N)>N^{1-\epsilon}$ for all $k\ge k_0(\epsilon)$ and
-large $N$ (1975, Theorem 6). Open: the value of $g_5$ (bounded, between $4$
-and $1.2\cdot10^8$), the constants for $k=6$, the order of $g_k$ for every
-$k\ge7$, and the exponent for large $k$. The results that settle instances
-of the question are recorded on the claim pages of
+**Status.** Open. The site's label is OPEN (page last edited 1 December 2025; so
+labeled on 2026-09-18 and 2026-10-06). The results that settle instances of the
+question are recorded on three claim pages:
 [[problems/additive_combinatorics/E0866/claims/1975_01_01_choi_erdos_szemeredi|Choi, Erdős and Szemerédi]]
 (accepted, partial: the order of $g_4$ and $g_6$ and the general bounds),
 [[problems/additive_combinatorics/E0866/claims/2026_04_28_van_doorn|van Doorn]]
 (claimed, partial: $g_3$ and $g_4$ exactly, $g_5$ bounded) and
 [[problems/additive_combinatorics/E0866/claims/2026_07_08_erlbacher|Erlbacher's release]]
-(claimed, partial: $g_5(N)\le3{,}519{,}219$, an AI-produced manuscript of 8
-July 2026 with a Lean development, announced in the thread); none is a full
-claim, so the standing derived from them is open. No proof claim exists on
-the site. This is a bounded negative finding, not a certificate of openness.
+(claimed, partial: $g_5(N)\le3{,}519{,}219$, an AI-produced manuscript of 8 July
+2026 with a Lean development, announced in the thread). None is a full claim, so
+the standing derived from them is open. No proof claim exists on the site.
+
+The question asks for the order of $g_k(N)$, and no source determines it beyond
+the following. Van Doorn (2026, Theorems 1 and 3, an arXiv preprint) gives
+$g_3(N)=1$ for $N\ge3$ and $g_4(N)=3$ for $N\ge2$. Van Doorn (2026, Theorems 5
+and 8) also gives $4\le g_5(N)<1.2\cdot10^8$ for $N\ge3$. The 1975 statement
+$g_5(N)\asymp\log N$ holds only for the positive-integer variant $h_5$. Choi,
+Erdős and Szemerédi (1975, Theorem 4) give $g_6(N)\asymp N^{1/2}$, with both
+bounds valid for the site's $g_6$. For general $k$,
+$g_k(N)\le2^{k-1}N^{1-2^{1-k}}$ for large $N$ (1975, Theorem 5), and
+$g_k(N)<4N^{1-2^{2-k}}$ for large $N$ (van Doorn 2026, Theorem 9, stated with a
+sketch). Finally, $g_k(N)>N^{1-\epsilon}$ for all $k\ge k_0(\epsilon)$ and large
+$N$ (1975, Theorem 6).
+
+Still open are the value of $g_5$ (bounded, between $4$ and $1.2\cdot10^8$), the
+constants for $k=6$, the order of $g_k$ for every $k\ge7$, and the exponent for
+large $k$. This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/866](https://www.erdosproblems.com/866),
 accessed 2026-09-18: the problem page (labeled

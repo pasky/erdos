@@ -2,8 +2,8 @@
 name: problems/distance_problems/E0605
 title: Problem 605
 desc: |
-  Asks whether n points can be placed on a sphere so that the number of pairs
-  at one repeated distance exceeds any fixed multiple of n as n grows.
+  Asks whether $n$ points on a sphere can have at least $f(n)n$ pairs at the
+  same distance, for some $f(n)\to\infty$; proved.
 tags:
 - Geometry
 - Distances

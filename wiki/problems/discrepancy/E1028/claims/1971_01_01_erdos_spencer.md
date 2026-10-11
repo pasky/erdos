@@ -2,9 +2,10 @@
 name: problems/discrepancy/E1028/claims/1971_01_01_erdos_spencer
 title: Erdős and Spencer determine the order of the edge imbalance
 desc: |
-  Erdős and Spencer's Theorem (5) (Networks, 1972) gives the unordered-edge
-  minimax H(n) the order n^(3/2) for all large n, the refereed resolution of
-  the question as the historical papers and the site intend it.
+  Theorem (5) of Erdős and Spencer (Networks, 1972) shows that the
+  unordered-edge minimax $H(n)$ has order $n^{3/2}$ for all large $n$. It is the
+  refereed resolution of the question as the historical papers and the site
+  intend it.
 authors:
 - P. Erdös
 - J. Spencer
@@ -70,22 +71,24 @@ qualification. The claim settles the question as the historical papers and
 the site's label intend it and asserts no exact finite-$n$ value or
 leading constant.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the
-problem solved and in its commentary credits the lower bound
-$H(n)\gg n^{3/2}$ to Erdős and Spencer [ErSp71] and the upper bound to
-Erdős [Er63d]; the site's label on 2026-09-04 was SOLVED (LEAN); the
-curator is independent of the authors.
-Refereed: the paper appeared in the journal *Networks*, volume 1, issue 4,
-pp. 379--385, under DOI 10.1002/net.3230010407; its imprint gives the year
-1972, which this page cites, while Crossref's record gives 1971 and
-bibliographies 1971/72. The result's first posting is the note added in
-proof to item 24 of Erdős's 1971 problem collection, which reports the
-lower bound obtained with Spencer; the page is dated by that note. This
-corpus has compiled the statement and selected proof pointers of Theorem
-(5) and has not reviewed the general proof; the result page diagnoses the
-printed upper-bound sketch (the variance and the boundary choice in
-equation (7)) as needing a careful rewrite, while the upper bound is also
-Erdős's 1963 Theorem II. Nothing here is the project's own acceptance.
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+solved. In the site's commentary he credits the lower bound $H(n)\gg n^{3/2}$ to
+Erdős and Spencer [ErSp71] and the upper bound to Erdős [Er63d]. The site's
+label on 2026-09-04 was SOLVED (LEAN). The curator is independent of the
+authors.
+
+Refereed: the paper appeared in the journal *Networks*, volume 1, issue 4, pp.
+379--385, under DOI 10.1002/net.3230010407. Its imprint gives the year 1972,
+which this page cites. Crossref's record gives 1971, and bibliographies give
+1971/72. The result was first posted in the note added in proof to item 24 of
+Erdős's 1971 problem collection. That note reports the lower bound obtained with
+Spencer, and the page is dated by it.
+
+This corpus has compiled the statement and selected proof pointers of Theorem
+(5). It has not reviewed the general proof. The result page diagnoses the
+printed upper-bound sketch (the variance and the boundary choice in equation
+(7)) as needing a careful rewrite. The upper bound is also Erdős's 1963 Theorem
+II. Nothing here is the project's own acceptance.
 
 **Formalization.** In the problem's forum thread (post 3451, 19 January
 2026) Boris Alexeev reported that a solution had been formalized in Lean,
