@@ -3,7 +3,7 @@ name: problems/irrationality/E0247
 title: Problem 247
 desc: |
   Asks whether $\sum_n 2^{-a_n}$ is transcendental for every increasing integer
-  sequence $a_n$ with $\limsup a_n/n=\infty$; open.
+  sequence $a_n$ with $\limsup a_n/n=\infty$.
 tags:
 - Number theory
 - Irrationality

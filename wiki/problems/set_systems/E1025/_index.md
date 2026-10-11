@@ -4,7 +4,7 @@ title: Problem 1025
 desc: |
   Asks to estimate how large an independent set must exist for every map $f$
   sending each pair $x,y$ from $\{1,\ldots,n\}$ to a third element, where $X$ is
-  independent if $f(x,y)\notin X$ for all $x,y\in X$; solved.
+  independent if $f(x,y)\notin X$ for all $x,y\in X$.
 tags:
 - Combinatorics
 status: solved

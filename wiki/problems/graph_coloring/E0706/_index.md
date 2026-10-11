@@ -4,7 +4,7 @@ title: Problem 706
 desc: |
   Asks for an estimate of $L(r)$, the largest chromatic number of a graph on
   finitely many points in $\mathbb{R}^2$ whose edges join pairs at one of $r$
-  prescribed distances, and whether $L(r)\le r^{O(1)}$; open.
+  prescribed distances, and whether $L(r)\le r^{O(1)}$.
 tags:
 - Graph theory
 - Chromatic number

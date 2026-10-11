@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E0582
 title: Problem 582
 desc: |
   Asks whether some $K_4$-free graph has a monochromatic triangle in every
-  2-coloring of its edges; proved.
+  2-coloring of its edges.
 tags:
 - Graph theory
 - Ramsey theory

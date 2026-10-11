@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0413
 title: Problem 413
 desc: |
   Asks whether infinitely many $n$ satisfy $m+\omega(m)\le n$ for every $m<n$,
-  where $\omega(m)$ is the number of distinct prime factors of $m$; open.
+  where $\omega(m)$ is the number of distinct prime factors of $m$.
 tags:
 - Number theory
 - Iterated functions

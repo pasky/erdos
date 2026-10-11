@@ -4,7 +4,7 @@ title: Problem 208
 desc: |
   Asks whether the gap after the squarefree number $s_n$ is
   $\ll_\epsilon s_n^{\epsilon}$ for every $\epsilon>0$, and whether it is at
-  most $(1+o(1))\frac{\pi^2}{6}\frac{\log s_n}{\log\log s_n}$; open.
+  most $(1+o(1))\frac{\pi^2}{6}\frac{\log s_n}{\log\log s_n}$.
 tags:
 - Number theory
 status: open

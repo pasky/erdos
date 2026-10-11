@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0220
 title: Problem 220
 desc: |
   Asks whether the sum of the squared gaps between consecutive integers below
-  $n$ that are coprime to $n$ is $\ll n^2/\phi(n)$; proved.
+  $n$ that are coprime to $n$ is $\ll n^2/\phi(n)$.
 tags:
 - Number theory
 status: solved

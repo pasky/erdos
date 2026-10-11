@@ -4,7 +4,7 @@ title: Problem 584
 desc: |
   Asks whether every graph on $n$ vertices with $\delta n^2$ edges, where
   $\delta$ may shrink as a power of $n$, contains dense subgraphs in which any
-  two edges lie together on a short cycle; open.
+  two edges lie together on a short cycle.
 tags:
 - Graph theory
 - Cycles

@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0649
 title: Problem 649
 desc: |
   Asks whether, for any two primes $p$ and $q$, some integer $n$ has greatest
-  prime factor $p$ while $n+1$ has greatest prime factor $q$; disproved.
+  prime factor $p$ while $n+1$ has greatest prime factor $q$.
 tags:
 - Number theory
 status: solved

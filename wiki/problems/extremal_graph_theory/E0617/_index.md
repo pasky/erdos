@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0617
 title: Problem 617
 desc: |
   Asks whether every $r$-coloring of the edges of $K_{r^2+1}$, for $r\ge3$, has
-  $r+1$ vertices whose induced $K_{r+1}$ misses a color; open.
+  $r+1$ vertices whose induced $K_{r+1}$ misses a color.
 tags:
 - Graph theory
 status: open

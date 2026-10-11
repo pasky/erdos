@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0199
 title: Problem 199
 desc: |
   Asks whether the complement of a set of reals with no three-term arithmetic
-  progression must contain an infinite arithmetic progression; the answer is no.
+  progression must contain an infinite arithmetic progression.
 tags:
 - Arithmetic progressions
 status: solved

@@ -4,7 +4,7 @@ title: Problem 99
 desc: |
   Asks whether, for all large $n$, an $n$-point set in the plane with minimum
   distance $1$ and the smallest possible diameter must contain three points
-  forming an equilateral triangle of side $1$. It is open.
+  forming an equilateral triangle of side $1$.
 tags:
 - Geometry
 - Distances

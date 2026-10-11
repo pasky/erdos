@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0325
 title: Problem 325
 desc: |
   Asks whether, for $k\ge3$, the number of integers up to $x$ that are sums of
-  three nonnegative $k$th powers is at least a constant times $x^{3/k}$; open.
+  three nonnegative $k$th powers is at least a constant times $x^{3/k}$.
 tags:
 - Number theory
 - Powers

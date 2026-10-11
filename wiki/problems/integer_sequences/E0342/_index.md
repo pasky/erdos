@@ -4,7 +4,7 @@ title: Problem 342
 desc: |
   Asks what can be said about the sequence starting $1,2$ in which each later
   term is the least larger integer that is uniquely a sum of two earlier terms,
-  in particular about its density and its gaps; open.
+  in particular about its density and its gaps.
 tags:
 - Number theory
 status: open

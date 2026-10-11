@@ -3,8 +3,7 @@ name: problems/distance_problems/E0095
 title: Problem 95
 desc: |
   States that if $f(u)$ pairs among $n$ points in the plane are at distance $u$,
-  then $\sum_u f(u)^2\ll_\epsilon n^{3+\epsilon}$ for every $\epsilon>0$. This
-  has been proved.
+  then $\sum_u f(u)^2\ll_\epsilon n^{3+\epsilon}$ for every $\epsilon>0$.
 tags:
 - Geometry
 - Convexity

@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0608
 title: Problem 608
 desc: |
   Asks whether every graph on $n$ vertices with more than $n^2/4$ edges has at
-  least $2n^2/9$ edges that lie in a $C_5$; disproved.
+  least $2n^2/9$ edges that lie in a $C_5$.
 tags:
 - Graph theory
 status: solved

@@ -3,8 +3,7 @@ name: problems/additive_bases/E0333
 title: Problem 333
 desc: |
   Asks whether every set $A\subseteq\mathbb{N}$ of density zero lies in $B+B$
-  for some set $B$ with $\lvert B\cap\{1,\ldots,N\}\rvert=o(N^{1/2})$;
-  disproved.
+  for some set $B$ with $\lvert B\cap\{1,\ldots,N\}\rvert=o(N^{1/2})$.
 tags:
 - Number theory
 - Additive bases

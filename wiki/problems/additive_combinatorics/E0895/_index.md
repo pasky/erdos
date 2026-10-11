@@ -3,8 +3,7 @@ name: problems/additive_combinatorics/E0895
 title: Problem 895
 desc: |
   Asks whether, for all large $n$, every triangle-free graph on $\{1,\ldots,n\}$
-  has three pairwise nonadjacent vertices of the form $a$, $b$ and $a+b$;
-  proved.
+  has three pairwise nonadjacent vertices of the form $a$, $b$ and $a+b$.
 tags:
 - Additive combinatorics
 - Graph theory

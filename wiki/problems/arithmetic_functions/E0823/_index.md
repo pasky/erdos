@@ -4,7 +4,7 @@ title: Problem 823
 desc: |
   Asks whether, for every real $\alpha\ge1$, there are pairs $n_k,m_k$ with
   $\sigma(n_k)=\sigma(m_k)$ and $n_k/m_k\to\alpha$, where $\sigma$ is the sum of
-  divisors; proved.
+  divisors.
 tags:
 - Number theory
 status: solved

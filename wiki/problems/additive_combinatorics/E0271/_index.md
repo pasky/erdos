@@ -3,8 +3,7 @@ name: problems/additive_combinatorics/E0271
 title: Problem 271
 desc: |
   Asks for an explicit description and the growth rate of the greedy sequence
-  that starts with $0$ and $n$ and avoids three-term arithmetic progressions;
-  open in general.
+  that starts with $0$ and $n$ and avoids three-term arithmetic progressions.
 tags:
 - Additive combinatorics
 - Arithmetic progressions

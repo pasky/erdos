@@ -4,7 +4,7 @@ title: Problem 472
 desc: |
   Asks whether some finite starting sequence of primes $q_1<\cdots<q_m$ makes
   infinite the sequence in which each next term $q_{n+1}$ is the least prime of
-  the form $q_n+q_i-1$; open.
+  the form $q_n+q_i-1$.
 tags:
 - Number theory
 status: open

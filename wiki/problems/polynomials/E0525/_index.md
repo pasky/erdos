@@ -4,8 +4,7 @@ title: Problem 525
 desc: |
   Asks whether all but $o(2^n)$ of the degree-$n$ polynomials $f$ with $\pm 1$
   coefficients have $\lvert f(z)\rvert<1$ somewhere on $\lvert z\rvert=1$, and
-  how $\min_{\lvert z\rvert=1}\lvert f(z)\rvert$ behaves; both questions are
-  answered.
+  how $\min_{\lvert z\rvert=1}\lvert f(z)\rvert$ behaves.
 tags:
 - Analysis
 - Probability

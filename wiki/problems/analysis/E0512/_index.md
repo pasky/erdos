@@ -4,8 +4,7 @@ title: Problem 512
 desc: |
   Asks whether the exponential sum over any set $A$ of $N$ integers has mean
   absolute value
-  $\int_0^1\lvert\sum_{n\in A}e(n\theta)\rvert\,\mathrm{d}\theta\gg\log N$;
-  proved.
+  $\int_0^1\lvert\sum_{n\in A}e(n\theta)\rvert\,\mathrm{d}\theta\gg\log N$.
 tags:
 - Analysis
 status: solved

@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E0646
 title: Problem 646
 desc: |
   Asks whether, for any distinct primes $p_1,\ldots,p_k$, there are infinitely
-  many $n$ such that $n!$ is divisible by an even power of each $p_i$; proved.
+  many $n$ such that $n!$ is divisible by an even power of each $p_i$.
 tags:
 - Number theory
 - Factorials

@@ -3,7 +3,7 @@ name: problems/additive_bases/E0351
 title: Problem 351
 desc: |
   Asks whether the numbers $p(n)+1/n$, for $p\in\mathbb{Q}[x]$ with positive
-  leading coefficient, stay complete after any finite set is removed; proved.
+  leading coefficient, stay complete after any finite set is removed.
 tags:
 - Number theory
 - Complete sequences

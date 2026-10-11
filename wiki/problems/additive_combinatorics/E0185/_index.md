@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0185
 title: Problem 185
 desc: |
   Asks whether $f_3(n)=o(3^n)$, where $f_3(n)$ is the largest size of a subset
-  of $\{0,1,2\}^n$ with no three points on a line; proved.
+  of $\{0,1,2\}^n$ with no three points on a line.
 tags:
 - Additive combinatorics
 status: solved

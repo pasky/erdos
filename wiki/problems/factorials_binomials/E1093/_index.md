@@ -3,9 +3,9 @@ name: problems/factorials_binomials/E1093
 title: Problem 1093
 desc: |
   Asks whether infinitely many $\binom{n}{k}$ with $n\ge 2k$ have deficiency
-  $1$, and whether only finitely many have deficiency $>1$; open. The
-  deficiency, defined when no prime $p\le k$ divides $\binom{n}{k}$, counts
-  those of $n,\ldots,n-k+1$ whose prime factors are all at most $k$.
+  $1$, and whether only finitely many have deficiency $>1$. The deficiency,
+  defined when no prime $p\le k$ divides $\binom{n}{k}$, counts those of
+  $n,\ldots,n-k+1$ whose prime factors are all at most $k$.
 tags:
 - Number theory
 - Binomial coefficients

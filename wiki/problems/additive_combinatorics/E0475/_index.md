@@ -4,8 +4,7 @@ title: Problem 475
 desc: |
   Asks whether every finite set of nonzero residues modulo a prime can be
   ordered with all partial sums distinct (Graham's rearrangement conjecture);
-  open, though four range results prove it for all large primes with no explicit
-  threshold.
+  four range results prove it for all large primes with no explicit threshold.
 tags:
 - Number theory
 - Additive combinatorics

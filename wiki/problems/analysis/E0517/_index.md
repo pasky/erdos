@@ -3,7 +3,7 @@ name: problems/analysis/E0517
 title: Problem 517
 desc: |
   Asks whether an entire power series $\sum a_kz^{n_k}$ with $n_k/k\to\infty$
-  must take every complex value infinitely often; open.
+  must take every complex value infinitely often.
 tags:
 - Analysis
 status: open

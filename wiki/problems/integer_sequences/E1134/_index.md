@@ -3,7 +3,7 @@ name: problems/integer_sequences/E1134
 title: Problem 1134
 desc: |
   Asks whether the smallest set containing $1$ and closed under $x\mapsto2x+1$,
-  $x\mapsto3x+1$ and $x\mapsto6x+1$ has positive lower density; disproved.
+  $x\mapsto3x+1$ and $x\mapsto6x+1$ has positive lower density.
 tags:
 - Number theory
 status: solved

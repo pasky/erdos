@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0370
 title: Problem 370
 desc: |
   Asks whether infinitely many $n$ have the largest prime factor of $n$ below
-  $\sqrt{n}$ and that of $n+1$ below $\sqrt{n+1}$; proved.
+  $\sqrt{n}$ and that of $n+1$ below $\sqrt{n+1}$.
 tags:
 - Number theory
 status: solved

@@ -4,7 +4,7 @@ title: Problem 180
 desc: |
   Asks whether every finite family $\mathcal{F}$ of forbidden graphs has a
   member $G$ whose extremal number is comparable to the family's,
-  $\mathrm{ex}(n;G)\ll_{\mathcal{F}}\mathrm{ex}(n;\mathcal{F})$; disproved.
+  $\mathrm{ex}(n;G)\ll_{\mathcal{F}}\mathrm{ex}(n;\mathcal{F})$.
 tags:
 - Graph theory
 - Turán numbers

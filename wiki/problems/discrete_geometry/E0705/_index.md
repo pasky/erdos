@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0705
 title: Problem 705
 desc: |
   Asks whether some girth bound forces every finite unit distance graph in the
-  plane to be 3-colorable; disproved.
+  plane to be 3-colorable.
 tags:
 - Graph theory
 - Chromatic number

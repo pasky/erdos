@@ -3,8 +3,7 @@ name: problems/primes/E1139
 title: Problem 1139
 desc: |
   Asks whether the sequence $u_1<u_2<\cdots$ of integers with at most two prime
-  factors has $\limsup (u_{k+1}-u_k)/\log k=\infty$; open on the site, with a
-  proof claim pending.
+  factors has $\limsup (u_{k+1}-u_k)/\log k=\infty$.
 tags:
 - Number theory
 - Primes

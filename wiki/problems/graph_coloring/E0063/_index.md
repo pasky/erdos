@@ -3,7 +3,7 @@ name: problems/graph_coloring/E0063
 title: Problem 63
 desc: |
   Asks whether every graph with infinite chromatic number contains a cycle of
-  length $2^n$ for infinitely many $n$; proved.
+  length $2^n$ for infinitely many $n$.
 tags:
 - Graph theory
 - Chromatic number

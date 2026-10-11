@@ -4,7 +4,7 @@ title: Problem 279
 desc: |
   Asks whether for every $k\ge3$ one can choose a class $a_p\pmod{p}$ for each
   prime $p$ so that every large integer is $a_p+tp$ for some prime $p$ and
-  integer $t\ge k$. A yes answer is claimed and pending.
+  integer $t\ge k$.
 tags:
 - Number theory
 - Covering systems

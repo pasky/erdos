@@ -4,8 +4,7 @@ title: Problem 1215
 desc: |
   Asks whether some constant $C$ ensures that every nonconstant polynomial $P$
   with $P(0)=1$ and all roots on the unit circle has a path of length at most
-  $C$ from $0$ to the unit circle lying in $\{z:|P(z)|<1\}$ except at $0$;
-  disproved.
+  $C$ from $0$ to the unit circle lying in $\{z:|P(z)|<1\}$ except at $0$.
 tags:
 - Analysis
 status: solved

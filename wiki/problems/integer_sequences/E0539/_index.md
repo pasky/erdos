@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0539
 title: Problem 539
 desc: |
   Asks for estimates of $h(n)$, the least size of $\{a/\gcd(a,b):a,b\in A\}$
-  over all sets $A\subseteq\mathbb{N}$ of size $n$; open.
+  over all sets $A\subseteq\mathbb{N}$ of size $n$.
 tags:
 - Additive combinatorics
 - Number theory

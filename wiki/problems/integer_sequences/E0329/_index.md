@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0329
 title: Problem 329
 desc: |
   Asks how large $\limsup_{N\to\infty}|A\cap\{1,\ldots,N\}|/N^{1/2}$ can be for
-  an infinite Sidon set $A\subseteq\mathbb{N}$; open.
+  an infinite Sidon set $A\subseteq\mathbb{N}$.
 tags:
 - Number theory
 - Sidon sets

@@ -3,8 +3,7 @@ name: problems/graph_coloring/E0058
 title: Problem 58
 desc: |
   Asks whether a graph whose odd cycles have at most $k$ distinct lengths has
-  chromatic number at most $2k+2$, with equality only if it contains $K_{2k+2}$;
-  proved.
+  chromatic number at most $2k+2$, with equality only if it contains $K_{2k+2}$.
 tags:
 - Graph theory
 - Chromatic number

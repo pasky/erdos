@@ -3,8 +3,7 @@ name: problems/primes/E1059
 title: Problem 1059
 desc: |
   Asks whether infinitely many primes $p$ have $p-k!$ composite for every $k$
-  with $1\le k!<p$. The site lists it as OPEN, and a pending claim offers a
-  proof.
+  with $1\le k!<p$.
 tags:
 - Number theory
 - Primes

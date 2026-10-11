@@ -4,7 +4,7 @@ title: Problem 263
 desc: |
   Asks whether $a_n=2^{2^n}$ makes $\sum 1/b_n$ irrational for every sequence of
   positive integers $b_n$ with $b_n/a_n\to1$, and whether every $a_n$ with this
-  property must satisfy $a_n^{1/n}\to\infty$; open.
+  property must satisfy $a_n^{1/n}\to\infty$.
 tags:
 - Irrationality
 status: open

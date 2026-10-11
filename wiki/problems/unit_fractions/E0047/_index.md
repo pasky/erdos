@@ -4,7 +4,7 @@ title: Problem 47
 desc: |
   Asks whether, for fixed $\delta>0$ and large $N$, every
   $A\subseteq\{1,\ldots,N\}$ with $\sum_{a\in A}1/a>\delta\log N$ has a subset
-  whose reciprocals sum to $1$; proved.
+  whose reciprocals sum to $1$.
 tags:
 - Number theory
 - Unit fractions

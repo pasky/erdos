@@ -4,7 +4,7 @@ title: Problem 921
 desc: |
   Asks whether, for every $k\geq4$, the largest $m$ such that some $k$-chromatic
   graph on $n$ vertices has every odd cycle longer than $m$ is of order
-  $n^{1/(k-2)}$; proved.
+  $n^{1/(k-2)}$.
 tags:
 - Graph theory
 - Chromatic number

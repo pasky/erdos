@@ -5,7 +5,7 @@ desc: |
   Asks whether the chromatic number of a random graph on $n$ vertices, each edge
   present independently with probability $1/2$, is almost surely concentrated on
   boundedly many values, and whether it is within a slowly growing $\omega(n)$
-  of any given $f(n)$ with probability below $1/2$; open.
+  of any given $f(n)$ with probability below $1/2$.
 tags:
 - Graph theory
 - Chromatic number

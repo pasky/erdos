@@ -4,7 +4,7 @@ title: Problem 1120
 desc: |
   Asks for the shortest length of a path from $0$ to $|z|=1$ inside
   $\{z:|f(z)|\le1\}$, where $f$ is a monic polynomial of degree $n$ with all
-  roots in $|z|\le1$; open.
+  roots in $|z|\le1$.
 tags:
 - Analysis
 status: open

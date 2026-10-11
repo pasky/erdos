@@ -3,8 +3,7 @@ name: problems/distance_problems/E0213
 title: Problem 213
 desc: |
   Asks whether, for every $n\ge4$, there are $n$ points in the plane, no three
-  on a line and no four on a circle, with all pairwise distances integers. It is
-  open.
+  on a line and no four on a circle, with all pairwise distances integers.
 tags:
 - Geometry
 - Distances

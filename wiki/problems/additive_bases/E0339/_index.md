@@ -3,7 +3,7 @@ name: problems/additive_bases/E0339
 title: Problem 339
 desc: |
   Asks whether the integers that are sums of exactly $r$ distinct elements of a
-  basis of order $r$ must have positive lower density; proved.
+  basis of order $r$ must have positive lower density.
 tags:
 - Number theory
 - Additive bases

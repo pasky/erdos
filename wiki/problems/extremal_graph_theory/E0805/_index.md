@@ -4,7 +4,7 @@ title: Problem 805
 desc: |
   Asks for which functions $g(n)$ there is a graph on $n$ vertices in which
   every induced subgraph on $g(n)$ vertices has a clique and an independent set
-  of size $\log n$; open.
+  of size $\log n$.
 tags:
 - Graph theory
 status: open

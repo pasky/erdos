@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0309
 title: Problem 309
 desc: |
   Asks how many integers are sums of distinct unit fractions with denominators
-  at most $N$, and whether there are only $o(\log N)$ of them; disproved.
+  at most $N$, and whether there are only $o(\log N)$ of them.
 tags:
 - Number theory
 - Unit fractions

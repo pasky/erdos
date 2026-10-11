@@ -5,7 +5,7 @@ desc: |
   Asks whether some graph with $\aleph_1$ vertices and chromatic number
   $\aleph_1$ has, for every $\epsilon>0$ and all large $n$, an independent set
   of size $>n^{1-\epsilon}$ in each $n$-vertex subgraph, and asks the same for
-  size $\gg n$; open.
+  size $\gg n$.
 tags:
 - Graph theory
 - Chromatic number

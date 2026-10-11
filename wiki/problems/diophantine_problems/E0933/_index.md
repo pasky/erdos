@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0933
 title: Problem 933
 desc: |
   Asks whether the largest divisor of $n(n+1)$ built only from the primes 2 and
-  3 exceeds every fixed multiple of $n\log n$ for suitable $n$; open.
+  3 exceeds every fixed multiple of $n\log n$ for suitable $n$.
 tags:
 - Number theory
 status: open

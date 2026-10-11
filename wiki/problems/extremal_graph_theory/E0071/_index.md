@@ -4,7 +4,7 @@ title: Problem 71
 desc: |
   Asks whether, for every infinite arithmetic progression $P$ containing even
   numbers, there is a constant $c(P)$ such that every graph of average degree at
-  least $c(P)$ has a cycle whose length lies in $P$; proved.
+  least $c(P)$ has a cycle whose length lies in $P$.
 tags:
 - Graph theory
 - Cycles

@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0426
 title: Problem 426
 desc: |
   Asks whether some graph on $n$ vertices has $\gg 2^{\binom{n}{2}}/n!$ distinct
-  unique subgraphs, that is, subgraphs that occur in exactly one way; disproved.
+  unique subgraphs, that is, subgraphs that occur in exactly one way.
 tags:
 - Graph theory
 status: solved

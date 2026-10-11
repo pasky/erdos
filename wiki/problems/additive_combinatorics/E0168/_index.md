@@ -4,7 +4,7 @@ title: Problem 168
 desc: |
   Asks for $\lim_{N\to\infty}F(N)/N$, where $F(N)$ is the size of the largest
   subset of $\{1,\ldots,N\}$ containing no set $\{n,2n,3n\}$, and whether this
-  limit is irrational; open.
+  limit is irrational.
 tags:
 - Additive combinatorics
 status: open

@@ -4,7 +4,7 @@ title: Problem 519
 desc: |
   Asks whether complex numbers $z_1,\ldots,z_n$ with $z_1=1$ always satisfy
   $\max_{1\leq k\leq n}\lvert\sum_iz_i^k\rvert>c$ for an absolute constant
-  $c>0$; proved.
+  $c>0$.
 tags:
 - Analysis
 status: solved

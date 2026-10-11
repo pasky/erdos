@@ -4,7 +4,7 @@ title: Problem 523
 desc: |
   Asks whether some $C>0$ makes the maximum on $\lvert z\rvert=1$ of a random
   degree-$n$ polynomial with independent uniform $\pm 1$ coefficients equal
-  $(C+o(1))\sqrt{n\log n}$ almost surely; the answer is yes.
+  $(C+o(1))\sqrt{n\log n}$ almost surely.
 tags:
 - Analysis
 - Probability

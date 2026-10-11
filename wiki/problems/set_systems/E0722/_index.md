@@ -4,7 +4,7 @@ title: Problem 722
 desc: |
   Asks whether a Steiner system on $n$ points with blocks of size $k$, covering
   every $r$-set exactly once, exists for all large $n$ that satisfy the
-  divisibility conditions. It is proved.
+  divisibility conditions.
 tags:
 - Combinatorics
 status: solved

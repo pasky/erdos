@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0409
 title: Problem 409
 desc: |
   Asks how many iterations of $n\mapsto\phi(n)+1$ are needed to reach a prime,
-  and how often a given prime is reached; open.
+  and how often a given prime is reached.
 tags:
 - Number theory
 - Iterated functions

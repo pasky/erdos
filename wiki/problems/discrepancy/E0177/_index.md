@@ -4,7 +4,7 @@ title: Problem 177
 desc: |
   Asks for the smallest $h(d)$ such that one function $f:\mathbb{N}\to\{-1,1\}$
   has $\lvert\sum_{n\in P}f(n)\rvert\le h(d)$ for every $d\ge1$ and every finite
-  arithmetic progression $P$ with common difference $d$; open.
+  arithmetic progression $P$ with common difference $d$.
 tags:
 - Discrepancy
 - Arithmetic progressions

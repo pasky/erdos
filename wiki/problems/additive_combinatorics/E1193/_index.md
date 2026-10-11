@@ -4,8 +4,7 @@ title: Problem 1193
 desc: |
   Asks whether, for $A\subset\mathbb{N}$ and a positive non-decreasing $g$, the
   set of $n$ with exactly $g(n)$ representations as a sum of two elements of $A$
-  always has lower density $0$ and upper density below some $c<1$; disproved as
-  stated.
+  always has lower density $0$ and upper density below some $c<1$.
 tags:
 - Additive combinatorics
 status: solved

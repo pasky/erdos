@@ -3,7 +3,7 @@ name: problems/distance_problems/E0091
 title: Problem 91
 desc: |
   Asks whether, for large $n$, there are at least two non-similar $n$-point sets
-  in the plane that minimize the number of distinct distances. It is open.
+  in the plane that minimize the number of distinct distances.
 tags:
 - Geometry
 - Distances

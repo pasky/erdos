@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0504
 title: Problem 504
 desc: |
   Asks for the largest angle $\alpha_n$ such that every set of $n$ points in the
-  plane has three points determining an angle of at least $\alpha_n$; solved.
+  plane has three points determining an angle of at least $\alpha_n$.
 tags:
 - Geometry
 status: solved

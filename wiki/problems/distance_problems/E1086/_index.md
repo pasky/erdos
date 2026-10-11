@@ -3,7 +3,7 @@ name: problems/distance_problems/E1086
 title: Problem 1086
 desc: |
   Asks to estimate the largest number of triangles of equal area whose vertices
-  come from a set of $n$ points in the plane; open.
+  come from a set of $n$ points in the plane.
 tags:
 - Geometry
 - Distances

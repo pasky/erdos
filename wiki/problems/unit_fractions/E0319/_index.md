@@ -4,7 +4,7 @@ title: Problem 319
 desc: |
   Asks for the size of the largest $A\subseteq\{1,\ldots,N\}$ with signs
   $\delta_n=\pm1$ such that $\sum_{n\in A}\delta_n/n=0$ but no proper non-empty
-  subset of $A$ gives zero; open.
+  subset of $A$ gives zero.
 tags:
 - Number theory
 - Unit fractions

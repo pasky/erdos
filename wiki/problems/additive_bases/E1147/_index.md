@@ -3,8 +3,7 @@ name: problems/additive_bases/E1147
 title: Problem 1147
 desc: |
   Asks whether, for irrational $\alpha>0$, the set of $n$ such that $\alpha n^2$
-  lies within $1/\log n$ of an integer is an additive basis of order $2$;
-  disproved.
+  lies within $1/\log n$ of an integer is an additive basis of order $2$.
 tags:
 - Additive bases
 - Diophantine approximation

@@ -4,7 +4,7 @@ title: Problem 666
 desc: |
   Asks whether, for every $\epsilon>0$ and all large $n$, every subgraph of the
   hypercube $Q_n$ with at least an $\epsilon$ fraction of its edges contains a
-  $C_6$; disproved.
+  $C_6$.
 tags:
 - Graph theory
 status: solved

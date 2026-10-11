@@ -5,7 +5,7 @@ desc: |
   Asks for a proof that $F(n,\alpha)\sim c_\alpha\log n$ for each
   $0\le\alpha<1/2$, where $F(n,\alpha)$ is the least $m$ such that some
   two-coloring of $K_n$ gives every set $X$ of at least $m$ vertices more than
-  $\alpha\binom{|X|}{2}$ edges of each color; open.
+  $\alpha\binom{|X|}{2}$ edges of each color.
 tags:
 - Graph theory
 - Ramsey theory

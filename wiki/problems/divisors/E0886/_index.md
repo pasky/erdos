@@ -3,7 +3,7 @@ name: problems/divisors/E0886
 title: Problem 886
 desc: |
   Asks whether, for each fixed $\epsilon>0$, every large $n$ has only boundedly
-  many divisors in $(n^{1/2},n^{1/2}+n^{1/2-\epsilon})$; open.
+  many divisors in $(n^{1/2},n^{1/2}+n^{1/2-\epsilon})$.
 tags:
 - Number theory
 - Divisors

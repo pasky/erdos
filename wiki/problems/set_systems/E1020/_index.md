@@ -4,7 +4,7 @@ title: Problem 1020
 desc: |
   Asks whether, for $r\ge3$ and $n\ge rk$, the most edges in an $r$-uniform
   hypergraph on $n$ vertices with no $k$ pairwise disjoint edges is the larger
-  of the clique count and the star count; open.
+  of the clique count and the star count.
 tags:
 - Graph theory
 - Hypergraphs

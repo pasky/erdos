@@ -4,7 +4,7 @@ title: Problem 1045
 desc: |
   Asks for the maximum of $\prod_{i\neq j}|z_i-z_j|$ over
   $z_1,\ldots,z_n\in\mathbb{C}$ with all $|z_i-z_j|\le2$, and whether a regular
-  polygon attains it; open.
+  polygon attains it.
 tags:
 - Analysis
 status: open

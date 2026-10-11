@@ -4,7 +4,7 @@ title: Problem 147
 desc: |
   Asks whether every bipartite graph $H$ of minimum degree $r$ has
   $\mathrm{ex}(n;H)\gg n^{2-\frac{1}{r-1}+\epsilon}$ for some
-  $\epsilon=\epsilon(H)>0$; disproved.
+  $\epsilon=\epsilon(H)>0$.
 tags:
 - Graph theory
 - Turán numbers

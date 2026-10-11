@@ -3,7 +3,7 @@ name: problems/additive_bases/E0347
 title: Problem 347
 desc: |
   Asks whether some integer sequence with $a_{n+1}/a_n\to2$ has subset sums of
-  density $1$ even after any finite set of terms is removed; proved.
+  density $1$ even after any finite set of terms is removed.
 tags:
 - Number theory
 - Complete sequences

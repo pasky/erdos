@@ -4,7 +4,7 @@ title: Problem 529
 desc: |
   Asks whether the expected end-to-end distance $d_k(n)$ of an $n$-step
   self-avoiding walk in $\mathbb{Z}^k$ satisfies $d_2(n)/n^{1/2}\to\infty$, and
-  $d_k(n)\ll n^{1/2}$ for every $k\ge3$; open.
+  $d_k(n)\ll n^{1/2}$ for every $k\ge3$.
 tags:
 - Geometry
 - Probability

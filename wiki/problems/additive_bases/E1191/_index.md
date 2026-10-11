@@ -5,7 +5,7 @@ desc: |
   Asks whether every infinite Sidon set $A$ has
   $\lvert A\cap[1,x]\rvert=o\bigl((x/\log x)^{1/2}\bigr)$ along a subsequence,
   and whether some infinite Sidon set has
-  $\lvert A\cap[1,x]\rvert\gg x^{1/2}/(\log x)^c$ for some $c>0$; open.
+  $\lvert A\cap[1,x]\rvert\gg x^{1/2}/(\log x)^c$ for some $c>0$.
 tags:
 - Additive combinatorics
 - Sidon sets

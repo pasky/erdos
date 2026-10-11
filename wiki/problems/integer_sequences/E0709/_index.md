@@ -4,8 +4,8 @@ title: Problem 709
 desc: |
   Asks for good bounds on, or an asymptotic formula for, the least $f(n)$ such
   that any $f(n)\max(A)$ consecutive integers hold distinct multiples of the $n$
-  elements of $A$, for every $n$-element set $A$. It is open, with
-  $\log n/\log\log n\ll f(n)\ll\sqrt n$ known.
+  elements of $A$, for every $n$-element set $A$. Known bounds are
+  $\log n/\log\log n\ll f(n)\ll\sqrt n$.
 tags:
 - Number theory
 status: open

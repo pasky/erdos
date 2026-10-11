@@ -3,7 +3,7 @@ name: problems/set_systems/E0497
 title: Problem 497
 desc: |
   Asks for the number of antichains of subsets of an $n$-element set, that is,
-  families in which no member contains another. It is solved.
+  families in which no member contains another.
 tags:
 - Combinatorics
 status: solved

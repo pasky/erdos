@@ -3,7 +3,7 @@ name: problems/integer_sequences/E1101
 title: Problem 1101
 desc: |
   Asks whether a good sequence of pairwise coprime integers with convergent
-  reciprocal sum can have $u_n<n^{O(1)}$, or at least $u_n\le e^{o(n)}$; open.
+  reciprocal sum can have $u_n<n^{O(1)}$, or at least $u_n\le e^{o(n)}$.
 tags:
 - Number theory
 status: open

@@ -3,7 +3,7 @@ name: problems/set_theory/E1067
 title: Problem 1067
 desc: |
   Asks whether every graph of chromatic number $\aleph_1$ contains an infinitely
-  connected subgraph of chromatic number $\aleph_1$; disproved.
+  connected subgraph of chromatic number $\aleph_1$.
 tags:
 - Graph theory
 - Set theory

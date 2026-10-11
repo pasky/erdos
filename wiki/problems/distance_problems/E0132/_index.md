@@ -4,7 +4,7 @@ title: Problem 132
 desc: |
   Asks whether any $n\ge5$ points in the plane determine two distances that each
   occur between at most $n$ pairs, and whether the number of such distances
-  tends to infinity with $n$. It is open.
+  tends to infinity with $n$.
 tags:
 - Distances
 status: open

@@ -4,8 +4,7 @@ title: Problem 1201
 desc: |
   Asks whether, for all $\epsilon,\eta>0$, some $k$ makes the largest prime
   factor of $n(n+1)\cdots(n+k)$ exceed $n^{1-\epsilon}$ on a set of $n$ of lower
-  density at least $1-\eta$, as the site's curator reads the density; open on
-  the site, with a proof claim pending.
+  density at least $1-\eta$, as the site's curator reads the density.
 tags:
 - Number theory
 - Primes

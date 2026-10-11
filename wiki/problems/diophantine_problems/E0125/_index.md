@@ -3,8 +3,7 @@ name: problems/diophantine_problems/E0125
 title: Problem 125
 desc: |
   Asks whether $A+B$ has positive lower density, where $A$ and $B$ are the
-  integers whose only digits are $0$ and $1$ in base $3$ and in base $4$. The
-  answer is no.
+  integers whose only digits are $0$ and $1$ in base $3$ and in base $4$.
 tags:
 - Number theory
 - Base representations

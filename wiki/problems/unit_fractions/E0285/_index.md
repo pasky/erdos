@@ -3,8 +3,7 @@ name: problems/unit_fractions/E0285
 title: Problem 285
 desc: |
   Asks whether $f(k)$, the least possible largest denominator among $k$ distinct
-  unit fractions summing to $1$, satisfies $f(k)=(1+o(1))\frac{e}{e-1}k$;
-  proved.
+  unit fractions summing to $1$, satisfies $f(k)=(1+o(1))\frac{e}{e-1}k$.
 tags:
 - Number theory
 - Unit fractions

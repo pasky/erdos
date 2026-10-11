@@ -4,7 +4,7 @@ title: Problem 264
 desc: |
   Asks whether $a_n=2^n$ or $a_n=n!$ makes $\sum 1/(a_n+b_n)$ irrational for
   every bounded sequence of nonzero integers $b_n$ with $a_n+b_n\ne0$. The case
-  $a_n=2^n$ is answered no, and the factorial case is open.
+  $a_n=2^n$ is answered no.
 tags:
 - Irrationality
 status: open

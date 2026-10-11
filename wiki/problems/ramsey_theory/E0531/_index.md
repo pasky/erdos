@@ -4,7 +4,7 @@ title: Problem 531
 desc: |
   Asks for an estimate of the least $N=F(k)$ such that every two-coloring of
   $\{1,\ldots,N\}$ has a $k$-element set whose non-empty subset sums all have
-  the same color; open.
+  the same color.
 tags:
 - Number theory
 - Ramsey theory

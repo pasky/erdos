@@ -4,7 +4,7 @@ title: Problem 110
 desc: |
   Asks whether one function $F(n)$ bounds, for all large $n$, the order of a
   smallest subgraph of chromatic number $n$ in every graph of chromatic number
-  $\aleph_1$; disproved.
+  $\aleph_1$.
 tags:
 - Graph theory
 - Chromatic number

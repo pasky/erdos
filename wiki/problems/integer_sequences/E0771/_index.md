@@ -4,7 +4,7 @@ title: Problem 771
 desc: |
   Asks whether $f(n)=(\tfrac12+o(1))n/\log n$, where $f(n)$ is the largest size
   such that, for every $m$, some subset of $\{1,\ldots,n\}$ of that size has no
-  subset summing to $m$; proved.
+  subset summing to $m$.
 tags:
 - Number theory
 status: solved

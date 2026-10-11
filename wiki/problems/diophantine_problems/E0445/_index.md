@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0445
 title: Problem 445
 desc: |
   Asks whether, for every $c>1/2$ and every large enough prime $p$, each
-  interval $(n,n+p^c)$ contains $a,b$ with $ab\equiv1\pmod p$; open.
+  interval $(n,n+p^c)$ contains $a,b$ with $ab\equiv1\pmod p$.
 tags:
 - Number theory
 status: open

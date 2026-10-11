@@ -4,7 +4,7 @@ title: Problem 318
 desc: |
   Asks whether every non-constant $f:A\to\{-1,1\}$ on an infinite arithmetic
   progression $A$ has a finite non-empty $S\subseteq A$ with
-  $\sum_{n\in S}f(n)/n=0$; answered yes.
+  $\sum_{n\in S}f(n)/n=0$.
 tags:
 - Number theory
 - Unit fractions

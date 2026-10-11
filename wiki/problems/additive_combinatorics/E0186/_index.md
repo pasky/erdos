@@ -4,7 +4,7 @@ title: Problem 186
 desc: |
   Asks for the order of growth of $F(N)$, the largest size of a subset of
   $\{1,\ldots,N\}$ in which no element is the average of two or more other
-  elements; solved, with $F(N)=N^{1/4+o(1)}$.
+  elements.
 tags:
 - Additive combinatorics
 status: solved

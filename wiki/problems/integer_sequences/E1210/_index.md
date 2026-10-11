@@ -3,7 +3,7 @@ name: problems/integer_sequences/E1210
 title: Problem 1210
 desc: |
   Asks whether every set $A$ of pairwise coprime integers in $[1,n)$ satisfies
-  $\sum_{a\in A}\frac{1}{n-a}\le\sum_{p<n}\frac{1}{p}+O(1)$; open.
+  $\sum_{a\in A}\frac{1}{n-a}\le\sum_{p<n}\frac{1}{p}+O(1)$.
 tags:
 - Number theory
 status: open

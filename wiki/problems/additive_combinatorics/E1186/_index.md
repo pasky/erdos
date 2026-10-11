@@ -3,8 +3,7 @@ name: problems/additive_combinatorics/E1186
 title: Problem 1186
 desc: |
   Estimates $\delta_k$, where every $2$-coloring of $\{1,\ldots,n\}$ has at
-  least $(\delta_k+o(1))n^2$ monochromatic $k$-term arithmetic progressions;
-  open.
+  least $(\delta_k+o(1))n^2$ monochromatic $k$-term arithmetic progressions.
 tags:
 - Additive combinatorics
 - Arithmetic progressions

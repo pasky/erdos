@@ -4,7 +4,7 @@ title: Problem 1202
 desc: |
   Asks whether some $k$ ensures that, for any $k$ primes $p_i<n^{1-\epsilon}$,
   removing $(p_i-1)/2$ residue classes modulo each $p_i$ leaves at most
-  $\epsilon n$ integers $m\le n$; disproved.
+  $\epsilon n$ integers $m\le n$.
 tags:
 - Number theory
 - Primes

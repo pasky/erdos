@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0411
 title: Problem 411
 desc: |
   Asks for which $n$ and $r$ the iterates $g_k$ of $g(n)=n+\phi(n)$ satisfy
-  $g_{k+r}(n)=2g_k(n)$ for all large $k$; open.
+  $g_{k+r}(n)=2g_k(n)$ for all large $k$.
 tags:
 - Number theory
 - Iterated functions

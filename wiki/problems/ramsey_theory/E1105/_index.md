@@ -4,7 +4,7 @@ title: Problem 1105
 desc: |
   Asks for the anti-Ramsey numbers of cycles and paths, the most colors on the
   edges of $K_n$ without a rainbow copy. It proposes an asymptotic formula for
-  cycles and an exact formula for paths, and both are proved.
+  cycles and an exact formula for paths.
 tags:
 - Graph theory
 - Ramsey theory

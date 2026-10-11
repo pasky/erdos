@@ -3,8 +3,8 @@ name: problems/integer_sequences/E1181
 title: Problem 1181
 desc: |
   Asks whether, for some $c>0$ and all large $n$, the least prime not dividing
-  $\prod_{1\le i\le\log n}(n+i)$ is below $(1-c)(\log n)^2$. It is open, and
-  only the trivial bound $(1+o(1))(\log n)^2$ is known.
+  $\prod_{1\le i\le\log n}(n+i)$ is below $(1-c)(\log n)^2$. Only the trivial
+  bound $(1+o(1))(\log n)^2$ is known.
 tags:
 - Number theory
 status: open

@@ -3,7 +3,7 @@ name: problems/set_theory/E0590
 title: Problem 590
 desc: |
   Asks whether every red/blue coloring of the edges of $K_{\omega^\omega}$
-  contains a red $K_{\omega^\omega}$ or a blue $K_3$; proved.
+  contains a red $K_{\omega^\omega}$ or a blue $K_3$.
 tags:
 - Set theory
 - Ramsey theory

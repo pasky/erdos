@@ -3,8 +3,7 @@ name: problems/discrepancy/E0991
 title: Problem 991
 desc: |
   Asks whether the $n$-point sets on the unit sphere that maximize the product
-  of all pairwise distances have spherical cap discrepancy $o(n)$. It is proved
-  by the bounds of Brauchart (2008) and of Marzo and Mas (2021).
+  of all pairwise distances have spherical cap discrepancy $o(n)$.
 tags:
 - Discrepancy
 status: solved

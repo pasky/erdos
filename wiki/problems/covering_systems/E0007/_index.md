@@ -3,7 +3,7 @@ name: problems/covering_systems/E0007
 title: Problem 7
 desc: |
   Asks whether there is a covering system of congruences whose moduli are
-  distinct and all odd; open.
+  distinct and all odd.
 tags:
 - Number theory
 - Covering systems

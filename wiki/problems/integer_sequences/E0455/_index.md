@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0455
 title: Problem 455
 desc: |
   Asks whether every sequence of primes $q_1<q_2<\cdots$ with non-decreasing
-  gaps must satisfy $q_n/n^2\to\infty$; open.
+  gaps must satisfy $q_n/n^2\to\infty$.
 tags:
 - Number theory
 status: open

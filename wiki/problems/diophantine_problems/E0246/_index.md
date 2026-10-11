@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0246
 title: Problem 246
 desc: |
   Asks whether, for coprime $a,b\ge2$, every large integer is a sum of distinct
-  numbers $a^kb^l$ with $k,l\ge0$. The answer is yes.
+  numbers $a^kb^l$ with $k,l\ge0$.
 tags:
 - Number theory
 status: solved

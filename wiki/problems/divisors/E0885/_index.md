@@ -4,7 +4,7 @@ title: Problem 885
 desc: |
   Asks whether, for every $k\ge1$, there are integers $N_1<\cdots<N_k$ whose
   factor difference sets $D(N)=\{\lvert a-b\rvert : N=ab\}$ share at least $k$
-  common values; open.
+  common values.
 tags:
 - Number theory
 - Divisors

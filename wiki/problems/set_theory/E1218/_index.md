@@ -5,7 +5,7 @@ desc: |
   Asks whether, under GCH, the partition relation for triples
   $\aleph_{\beta+1}\to(\aleph_\beta,4,\ldots,4)^3$ fails for
   $\beta=\omega_{\omega+1}$, with countably infinitely many targets equal to
-  $4$; open.
+  $4$.
 tags:
 - Set theory
 - Ramsey theory

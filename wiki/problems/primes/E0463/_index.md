@@ -4,7 +4,7 @@ title: Problem 463
 desc: |
   Asks whether there is a function $f$ with $f(n)\to\infty$ such that, for all
   large $n$, some composite $m$ satisfies $n+f(n)<m<n+p(m)$, where $p(m)$ is the
-  least prime factor of $m$; open.
+  least prime factor of $m$.
 tags:
 - Number theory
 - Primes

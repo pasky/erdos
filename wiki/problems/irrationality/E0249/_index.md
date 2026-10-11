@@ -3,7 +3,7 @@ name: problems/irrationality/E0249
 title: Problem 249
 desc: |
   Asks whether $\sum_n \phi(n)/2^n$ is irrational, where $\phi$ is Euler's
-  totient function; open.
+  totient function.
 tags:
 - Number theory
 - Irrationality

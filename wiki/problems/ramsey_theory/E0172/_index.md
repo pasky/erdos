@@ -4,7 +4,7 @@ title: Problem 172
 desc: |
   Asks whether every finite coloring of $\mathbb{N}$ has arbitrarily large
   finite sets $A$ whose sums and products of distinct elements all have one
-  color; open on the site, with a proof claim pending.
+  color.
 tags:
 - Additive combinatorics
 - Ramsey theory

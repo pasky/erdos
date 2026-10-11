@@ -4,7 +4,7 @@ title: Problem 355
 desc: |
   Asks whether some sequence of positive integers with $a_{n+1}/a_n\ge\lambda$
   for a fixed $\lambda>1$ has finite sums of reciprocals covering every rational
-  in some open interval; proved.
+  in some open interval.
 tags:
 - Number theory
 - Unit fractions

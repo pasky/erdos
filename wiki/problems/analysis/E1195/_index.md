@@ -4,7 +4,7 @@ title: Problem 1195
 desc: |
   Asks how fast $|S\cap(0,x)|$ can tend to infinity for a set
   $S\subset\mathbb{R}$ of infinite measure in which $a/b$ is never an integer
-  for distinct $a,b\in S$; solved.
+  for distinct $a,b\in S$.
 tags:
 - Analysis
 - Number theory

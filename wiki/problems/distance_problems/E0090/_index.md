@@ -3,7 +3,7 @@ name: problems/distance_problems/E0090
 title: Problem 90
 desc: |
   Asks whether every set of $n$ distinct points in the plane has at most
-  $n^{1+O(1/\log\log n)}$ pairs at distance $1$. It has been disproved.
+  $n^{1+O(1/\log\log n)}$ pairs at distance $1$.
 tags:
 - Geometry
 - Distances

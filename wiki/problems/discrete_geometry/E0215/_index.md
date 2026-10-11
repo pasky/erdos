@@ -4,7 +4,7 @@ title: Problem 215
 desc: |
   Asks whether some set $S\subseteq\mathbb{R}^2$ has the property that every
   translated and rotated copy of it contains exactly one point of
-  $\mathbb{Z}^2$; proved.
+  $\mathbb{Z}^2$.
 tags:
 - Geometry
 status: solved

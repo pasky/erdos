@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0383
 title: Problem 383
 desc: |
   Asks whether, for every $k$, infinitely many primes $p$ are the largest prime
-  factor of $\prod_{0\le i\le k}(p^2+i)$; open.
+  factor of $\prod_{0\le i\le k}(p^2+i)$.
 tags:
 - Number theory
 status: open

@@ -3,8 +3,7 @@ name: problems/additive_combinatorics/E0331
 title: Problem 331
 desc: |
   Asks whether two sets of integers whose counting functions are both
-  $\gg N^{1/2}$ must share infinitely many equal nonzero differences; the answer
-  is no.
+  $\gg N^{1/2}$ must share infinitely many equal nonzero differences.
 tags:
 - Number theory
 - Additive combinatorics

@@ -3,7 +3,7 @@ name: problems/irrationality/E0265
 title: Problem 265
 desc: |
   Asks how fast an increasing integer sequence $a_n$ can grow if $\sum 1/a_n$
-  and $\sum 1/(a_n-1)$ are both rational; open.
+  and $\sum 1/(a_n-1)$ are both rational.
 tags:
 - Irrationality
 status: open

@@ -3,7 +3,7 @@ name: problems/distance_problems/E1084
 title: Problem 1084
 desc: |
   Asks to estimate the largest number of pairs at distance exactly $1$ among $n$
-  points in $\mathbb{R}^d$ that are pairwise at distance at least $1$; open.
+  points in $\mathbb{R}^d$ that are pairwise at distance at least $1$.
 tags:
 - Geometry
 - Distances

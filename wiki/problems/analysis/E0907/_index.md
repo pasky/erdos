@@ -3,8 +3,7 @@ name: problems/analysis/E0907
 title: Problem 907
 desc: |
   Asks whether a real function $f$ with every difference $f(x+h)-f(x)$
-  continuous must be the sum of a continuous function and an additive one;
-  proved.
+  continuous must be the sum of a continuous function and an additive one.
 tags:
 - Analysis
 status: solved

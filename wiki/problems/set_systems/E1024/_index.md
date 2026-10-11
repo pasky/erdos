@@ -3,7 +3,7 @@ name: problems/set_systems/E1024
 title: Problem 1024
 desc: |
   Asks to estimate how large an independent set every $3$-uniform hypergraph on
-  $n$ vertices must have when any two edges share at most one vertex; solved.
+  $n$ vertices must have when any two edges share at most one vertex.
 tags:
 - Graph theory
 - Hypergraphs

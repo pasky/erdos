@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0704
 title: Problem 704
 desc: |
   Asks to estimate the chromatic number of the unit distance graph in
-  $\mathbb{R}^n$, whose edges join points at distance exactly $1$; open.
+  $\mathbb{R}^n$, whose edges join points at distance exactly $1$.
 tags:
 - Graph theory
 - Geometry

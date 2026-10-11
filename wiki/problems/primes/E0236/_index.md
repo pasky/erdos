@@ -3,7 +3,7 @@ name: problems/primes/E0236
 title: Problem 236
 desc: |
   Asks whether the number $f(n)$ of solutions of $n=p+2^k$, with $p$ prime and
-  $k\ge0$, satisfies $f(n)=o(\log n)$; open.
+  $k\ge0$, satisfies $f(n)=o(\log n)$.
 tags:
 - Number theory
 - Primes

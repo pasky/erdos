@@ -4,7 +4,7 @@ title: Problem 1031
 desc: |
   Asks whether a graph on $n$ vertices with no empty or complete subgraph on
   $10\log n$ vertices has an induced regular subgraph on $\gg\log n$ vertices
-  that is neither empty nor complete. It is proved.
+  that is neither empty nor complete.
 tags:
 - Graph theory
 status: solved

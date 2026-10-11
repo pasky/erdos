@@ -2,7 +2,7 @@
 name: problems/irrationality/E0068
 title: Problem 68
 desc: |
-  Asks whether $\sum_{n\ge2}\frac{1}{n!-1}$ is irrational; open.
+  Asks whether $\sum_{n\ge2}\frac{1}{n!-1}$ is irrational.
 tags:
 - Number theory
 - Irrationality

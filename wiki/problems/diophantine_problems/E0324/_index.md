@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0324
 title: Problem 324
 desc: |
   Asks whether some polynomial $f\in\mathbb{Z}[x]$ makes all the sums
-  $f(a)+f(b)$, with $a<b$ nonnegative integers, distinct; open.
+  $f(a)+f(b)$, with $a<b$ nonnegative integers, distinct.
 tags:
 - Number theory
 - Powers

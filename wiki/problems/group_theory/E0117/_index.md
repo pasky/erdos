@@ -4,8 +4,7 @@ title: Problem 117
 desc: |
   Asks for an estimate of $h(n)$, the least number of Abelian subgroups that
   suffices to cover every group in which any set of more than $n$ elements
-  contains two distinct commuting elements. It is open on the site, with one
-  pending proof claim.
+  contains two distinct commuting elements.
 tags:
 - Group theory
 status: claimed

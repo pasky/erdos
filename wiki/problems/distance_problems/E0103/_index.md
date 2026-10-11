@@ -3,8 +3,7 @@ name: problems/distance_problems/E0103
 title: Problem 103
 desc: |
   Asks whether the number of incongruent $n$-point sets in the plane with
-  minimum distance $1$ and the least possible diameter tends to infinity. It is
-  open.
+  minimum distance $1$ and the least possible diameter tends to infinity.
 tags:
 - Geometry
 - Distances

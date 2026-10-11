@@ -4,7 +4,7 @@ title: Problem 990
 desc: |
   Asks whether the arguments of a polynomial's roots are equidistributed with
   error $\ll(n\log M)^{1/2}$, where $n$ is the number of nonzero coefficients
-  and $M$ is a ratio of coefficient sizes; disproved.
+  and $M$ is a ratio of coefficient sizes.
 tags:
 - Analysis
 status: solved

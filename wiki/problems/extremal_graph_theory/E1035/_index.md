@@ -4,7 +4,7 @@ title: Problem 1035
 desc: |
   Asks whether there is a constant $c>0$ such that every graph on $2^n$ vertices
   with minimum degree greater than $(1-c)2^n$ contains the $n$-dimensional
-  hypercube $Q_n$; open.
+  hypercube $Q_n$.
 tags:
 - Graph theory
 status: open

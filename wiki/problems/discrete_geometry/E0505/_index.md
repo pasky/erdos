@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0505
 title: Problem 505
 desc: |
   Asks whether every set of diameter $1$ in $\mathbb{R}^n$ is the union of at
-  most $n+1$ sets of smaller diameter; disproved.
+  most $n+1$ sets of smaller diameter.
 tags:
 - Geometry
 status: solved

@@ -3,7 +3,7 @@ name: problems/primes/E0855
 title: Problem 855
 desc: |
   Asks whether the prime-counting function satisfies $\pi(x+y)\le\pi(x)+\pi(y)$
-  for all large $x$ and $y$; open.
+  for all large $x$ and $y$.
 tags:
 - Number theory
 - Primes

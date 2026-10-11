@@ -3,8 +3,7 @@ name: problems/arithmetic_functions/E0648
 title: Problem 648
 desc: |
   Asks to estimate the length of the longest chain of integers
-  $2\le a_1<\cdots<a_t<n$ whose greatest prime factors strictly decrease;
-  solved.
+  $2\le a_1<\cdots<a_t<n$ whose greatest prime factors strictly decrease.
 tags:
 - Number theory
 status: solved

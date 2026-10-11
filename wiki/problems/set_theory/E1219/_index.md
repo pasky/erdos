@@ -3,8 +3,7 @@ name: problems/set_theory/E1219
 title: Problem 1219
 desc: |
   Asks whether $\sum_k 2^{\aleph_{n_k}}\to(\aleph_\omega)^2$ when the cardinals
-  $2^{\aleph_{n_k}}$ strictly increase and the first exceeds $\aleph_\omega$;
-  proved.
+  $2^{\aleph_{n_k}}$ strictly increase and the first exceeds $\aleph_\omega$.
 tags:
 - Set theory
 - Ramsey theory

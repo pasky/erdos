@@ -4,7 +4,7 @@ title: Problem 305
 desc: |
   Asks to estimate $D(b)$, the smallest possible largest denominator needed to
   write any fraction with denominator $b$ as a sum of distinct unit fractions,
-  and whether $D(b)\ll b(\log b)^{1+o(1)}$; proved.
+  and whether $D(b)\ll b(\log b)^{1+o(1)}$.
 tags:
 - Number theory
 - Unit fractions

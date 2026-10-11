@@ -3,7 +3,7 @@ name: problems/group_theory/E1163
 title: Problem 1163
 desc: |
   Asks for a statistical description of the arithmetic structure of the orders
-  of subgroups of the symmetric group $S_n$; open.
+  of subgroups of the symmetric group $S_n$.
 tags:
 - Group theory
 status: open

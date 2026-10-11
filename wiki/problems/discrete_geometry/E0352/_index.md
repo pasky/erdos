@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0352
 title: Problem 352
 desc: |
   Asks whether some $c>0$ makes every measurable set $A\subseteq\mathbb{R}^2$ of
-  measure at least $c$ contain the vertices of a triangle of area $1$; open.
+  measure at least $c$ contain the vertices of a triangle of area $1$.
 tags:
 - Geometry
 status: open

@@ -4,7 +4,7 @@ title: Problem 602
 desc: |
   Asks whether every family of countably infinite sets, any two meeting in a
   finite set of size other than $1$, has a $2$-coloring of its union with no set
-  monochromatic; open.
+  monochromatic.
 tags:
 - Combinatorics
 - Set theory

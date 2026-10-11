@@ -5,7 +5,7 @@ desc: |
   Asks for upper bounds on $F_k(N,\ell)$, the least number of $k$-term
   arithmetic progressions that forces a set of $N$ integers to contain an
   $\ell$-term one, for $k<\ell$. Also asks whether $F_3(N,4)=o(N^2)$ and
-  $\log F_3(N,\ell)/\log N\to2$ for every $\ell>3$; both are answered yes.
+  $\log F_3(N,\ell)/\log N\to2$ for every $\ell>3$.
 tags:
 - Additive combinatorics
 - Arithmetic progressions

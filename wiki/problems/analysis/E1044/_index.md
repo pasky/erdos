@@ -4,7 +4,7 @@ title: Problem 1044
 desc: |
   Asks for the infimum of $\Lambda(f)$, the largest boundary length of a
   connected component of $\{z:|f(z)|<1\}$, over polynomials
-  $f(z)=\prod_{i=1}^n(z-z_i)$ with every $|z_i|\le1$; solved.
+  $f(z)=\prod_{i=1}^n(z-z_i)$ with every $|z_i|\le1$.
 tags:
 - Analysis
 status: solved

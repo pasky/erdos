@@ -5,7 +5,7 @@ desc: |
   Asks for which graphs $G_1,G_2$ every finite number of colors forces a
   monochromatic $G_2$ in some $G_1$-free graph, while countably many colors
   never do. Erdős and Hajnal first guessed that no pair exists, which $C_4$ and
-  $C_6$ refute; open.
+  $C_6$ refute.
 tags:
 - Graph theory
 - Ramsey theory

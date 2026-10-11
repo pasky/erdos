@@ -4,7 +4,7 @@ title: Problem 422
 desc: |
   Asks how the sequence given by $f(1)=f(2)=1$ and
   $f(n)=f(n-f(n-1))+f(n-f(n-2))$ behaves, and whether it misses infinitely many
-  integers; open.
+  integers.
 tags:
 - Number theory
 status: open

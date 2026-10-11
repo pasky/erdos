@@ -3,8 +3,7 @@ name: problems/distance_problems/E0135
 title: Problem 135
 desc: |
   Asks whether $n$ points in the plane, any four of which determine at least
-  five distinct distances, must determine $\gg n^2$ distinct distances. It has
-  been disproved.
+  five distinct distances, must determine $\gg n^2$ distinct distances.
 tags:
 - Distances
 - Geometry

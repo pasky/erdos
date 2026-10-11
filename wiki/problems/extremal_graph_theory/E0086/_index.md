@@ -4,7 +4,7 @@ title: Problem 86
 desc: |
   Asks whether every subgraph of the $n$-dimensional hypercube with at least
   $(1/2+o(1))n2^{n-1}$ edges, slightly more than half of all its edges, must
-  contain a $C_4$; open.
+  contain a $C_4$.
 tags:
 - Graph theory
 status: open

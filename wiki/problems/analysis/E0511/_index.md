@@ -4,7 +4,7 @@ title: Problem 511
 desc: |
   Asks whether, for each $c>1$, the set where a monic polynomial has modulus
   below $1$ has $O_c(1)$ connected components of diameter above $c$, whatever
-  the degree; disproved.
+  the degree.
 tags:
 - Analysis
 status: solved

@@ -3,8 +3,7 @@ name: problems/discrete_geometry/E0106
 title: Problem 106
 desc: |
   Asks whether $f(k^2+1)=k$, where $f(n)$ is the largest total side length of
-  $n$ interior-disjoint squares in the unit square. It was disproved in 2026 by
-  a packing of 17 squares that gives $f(17)>4$.
+  $n$ interior-disjoint squares in the unit square.
 tags:
 - Geometry
 status: solved

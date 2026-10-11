@@ -4,7 +4,7 @@ title: Problem 52
 desc: |
   Asks whether every finite set $A$ of integers has
   $\max(\lvert A+A\rvert,\lvert AA\rvert)\gg_\epsilon\lvert A\rvert^{2-\epsilon}$
-  for every $\epsilon>0$; open.
+  for every $\epsilon>0$.
 tags:
 - Number theory
 - Additive combinatorics

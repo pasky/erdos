@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0672
 title: Problem 672
 desc: |
   Asks whether the product $n(n+d)\cdots(n+(k-1)d)$ of $k\ge4$ positive terms of
-  an arithmetic progression with $(n,d)=1$ can be a perfect power; open.
+  an arithmetic progression with $(n,d)=1$ can be a perfect power.
 tags:
 - Number theory
 status: open

@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0317
 title: Problem 317
 desc: |
   Asks whether, for some $c>0$ and every $n$, signs $\delta_k\in\{-1,0,1\}$ can
-  be chosen with $0<|\sum_{k\le n}\delta_k/k|<c/2^n$; open.
+  be chosen with $0<|\sum_{k\le n}\delta_k/k|<c/2^n$.
 tags:
 - Number theory
 - Unit fractions

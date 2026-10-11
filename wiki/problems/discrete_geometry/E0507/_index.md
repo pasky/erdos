@@ -4,7 +4,7 @@ title: Problem 507
 desc: |
   Asks to estimate the smallest area $\alpha(n)$ such that every set of $n$
   points in the unit disk contains three points forming a triangle of area at
-  most $\alpha(n)$; open.
+  most $\alpha(n)$.
 tags:
 - Geometry
 status: open

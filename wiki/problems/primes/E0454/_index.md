@@ -3,8 +3,7 @@ name: problems/primes/E0454
 title: Problem 454
 desc: |
   Asks whether $f(n)=\min_{i<n}(p_{n+i}+p_{n-i})$, the least sum of two primes
-  placed symmetrically around $p_n$, satisfies $\limsup_n(f(n)-2p_n)=\infty$;
-  open.
+  placed symmetrically around $p_n$, satisfies $\limsup_n(f(n)-2p_n)=\infty$.
 tags:
 - Number theory
 - Primes

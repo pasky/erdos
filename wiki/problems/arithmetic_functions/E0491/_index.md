@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0491
 title: Problem 491
 desc: |
   Asks whether an additive function whose consecutive differences stay bounded
-  must equal $c'\log n+O(1)$ for some constant $c'$; proved.
+  must equal $c'\log n+O(1)$ for some constant $c'$.
 tags:
 - Number theory
 status: solved

@@ -4,7 +4,7 @@ title: Problem 201
 desc: |
   Asks how large a subset free of $k$-term arithmetic progressions can be
   guaranteed in any set of $N$ integers, and how that size compares with the
-  case of $\{1,\ldots,N\}$; open.
+  case of $\{1,\ldots,N\}$.
 tags:
 - Additive combinatorics
 - Arithmetic progressions

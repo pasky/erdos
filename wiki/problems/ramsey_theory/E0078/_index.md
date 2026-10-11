@@ -4,7 +4,7 @@ title: Problem 78
 desc: |
   Asks for a constructive proof that $R(k)>C^k$ for some constant $C>1$, or
   equivalently for an explicit graph on $n$ vertices with clique and
-  independence numbers $O(\log n)$; open.
+  independence numbers $O(\log n)$.
 tags:
 - Graph theory
 - Ramsey theory

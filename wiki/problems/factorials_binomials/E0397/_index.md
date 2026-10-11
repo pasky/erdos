@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E0397
 title: Problem 397
 desc: |
   Asks whether $\prod_i\binom{2m_i}{m_i}=\prod_j\binom{2n_j}{n_j}$ has only
-  finitely many solutions with the $m_i,n_j$ distinct; disproved.
+  finitely many solutions with the $m_i,n_j$ distinct.
 tags:
 - Number theory
 - Binomial coefficients

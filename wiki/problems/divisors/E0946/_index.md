@@ -3,7 +3,7 @@ name: problems/divisors/E0946
 title: Problem 946
 desc: |
   Asks whether there are infinitely many $n$ such that $n$ and $n+1$ have the
-  same number of divisors; proved.
+  same number of divisors.
 tags:
 - Number theory
 - Divisors

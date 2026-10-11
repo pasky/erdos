@@ -4,7 +4,7 @@ title: Problem 599
 desc: |
   Asks whether, for disjoint independent sets $A$ and $B$ in a graph, there are
   disjoint paths between them and a set that has exactly one vertex on each of
-  these paths and meets every path from $A$ to $B$; proved.
+  these paths and meets every path from $A$ to $B$.
 tags:
 - Graph theory
 - Set theory

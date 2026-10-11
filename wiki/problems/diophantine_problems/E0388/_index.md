@@ -4,7 +4,7 @@ title: Problem 388
 desc: |
   Asks whether two disjoint blocks of more than three consecutive integers can
   have equal products only finitely often, and whether all such cases can be
-  classified; open.
+  classified.
 tags:
 - Number theory
 status: open

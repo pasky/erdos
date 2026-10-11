@@ -4,7 +4,7 @@ title: Problem 789
 desc: |
   Estimates $h(n)$, the size of the largest subset guaranteed inside any $n$
   integers in which equal sums of elements can occur only between equally many
-  terms. It is open on the site, with a pending full claim from 2026.
+  terms.
 tags:
 - Additive combinatorics
 status: claimed

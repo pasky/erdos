@@ -3,7 +3,7 @@ name: problems/analysis/E1125
 title: Problem 1125
 desc: |
   Asks whether every $f:\mathbb{R}\to\mathbb{R}$ with $2f(x)\le f(x+h)+f(x+2h)$
-  for all $x\in\mathbb{R}$ and $h>0$ must be monotonic; proved.
+  for all $x\in\mathbb{R}$ and $h>0$ must be monotonic.
 tags:
 - Analysis
 status: solved

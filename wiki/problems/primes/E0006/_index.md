@@ -4,7 +4,7 @@ title: Problem 6
 desc: |
   Asks whether there are infinitely many $n$ for which three consecutive prime
   gaps are strictly increasing, that is, $d_n<d_{n+1}<d_{n+2}$ with
-  $d_n=p_{n+1}-p_n$; the answer is yes.
+  $d_n=p_{n+1}-p_n$.
 tags:
 - Number theory
 - Primes

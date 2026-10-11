@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0714
 title: Problem 714
 desc: |
   Asks whether the maximum number of edges in a $K_{r,r}$-free graph on $n$
-  vertices is $\gg n^{2-1/r}$; open.
+  vertices is $\gg n^{2-1/r}$.
 tags:
 - Graph theory
 - Turán numbers

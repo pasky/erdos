@@ -5,7 +5,7 @@ desc: |
   Asks whether $\sum_{0<a_i<n}1/a_i\to\infty$ for the greedy sequence with
   $a_0=0$, $a_1=1$ and each $a_k$ the least integer above $a_{k-1}$ with $n-a_k$
   coprime to every earlier $n-a_i$, and the same for two complementary parts of
-  the sum; open.
+  the sum.
 tags:
 - Number theory
 status: open

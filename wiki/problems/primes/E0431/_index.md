@@ -3,8 +3,7 @@ name: problems/primes/E0431
 title: Problem 431
 desc: |
   Asks whether there are two infinite sets $A$ and $B$ such that $A+B$ agrees
-  with the set of primes up to finitely many exceptions. It is disproved here,
-  while the site's label is OPEN.
+  with the set of primes up to finitely many exceptions.
 tags:
 - Number theory
 - Primes

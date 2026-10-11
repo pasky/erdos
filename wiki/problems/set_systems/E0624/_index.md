@@ -4,7 +4,7 @@ title: Problem 624
 desc: |
   Asks to prove that $H(n)-\log_2 n\to\infty$, where $H(n)$ is the least size
   such that some map from the subsets of an $n$-element set $X$ to $X$ sends the
-  subsets of every set that large onto $X$. It is open.
+  subsets of every set that large onto $X$.
 tags:
 - Combinatorics
 status: open

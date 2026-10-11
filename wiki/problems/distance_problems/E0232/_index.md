@@ -3,8 +3,7 @@ name: problems/distance_problems/E0232
 title: Problem 232
 desc: |
   Asks for estimates of the largest upper density $m_1$ of a measurable set in
-  the plane with no two points at distance $1$, and whether $m_1\le1/4$. The
-  answer to the second question is yes.
+  the plane with no two points at distance $1$, and whether $m_1\le1/4$.
 tags:
 - Geometry
 - Distances

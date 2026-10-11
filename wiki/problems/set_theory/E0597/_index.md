@@ -3,8 +3,8 @@ name: problems/set_theory/E0597
 title: Problem 597
 desc: |
   Asks whether $\omega_1^2\to(\omega_1\omega,G)^2$ holds for every graph $G$ on
-  at most $\aleph_1$ vertices with no $K_4$ and no $K_{\aleph_0,\aleph_0}$;
-  open. Erdős first asked it for every $K_4$-free graph, which a relation of
+  at most $\aleph_1$ vertices with no $K_4$ and no $K_{\aleph_0,\aleph_0}$.
+  Erdős first asked it for every $K_4$-free graph, which a relation of
   Baumgartner refutes.
 tags:
 - Graph theory

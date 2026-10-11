@@ -3,7 +3,7 @@ name: problems/set_theory/E0595
 title: Problem 595
 desc: |
   Asks whether there is an infinite $K_4$-free graph that is not a union of
-  countably many triangle-free graphs; open.
+  countably many triangle-free graphs.
 tags:
 - Graph theory
 - Set theory

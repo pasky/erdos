@@ -3,7 +3,7 @@ name: problems/distance_problems/E0503
 title: Problem 503
 desc: |
   Asks for the largest size of a set $A\subseteq\mathbb{R}^d$ in which every
-  three points form an isosceles triangle; open.
+  three points form an isosceles triangle.
 tags:
 - Geometry
 - Distances

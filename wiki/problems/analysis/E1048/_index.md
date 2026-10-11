@@ -4,7 +4,7 @@ title: Problem 1048
 desc: |
   Asks whether, for a monic polynomial $f$ with all roots in $|z|\le r$ for some
   $r<2$, the set $\{z:|f(z)|<1\}$ must have a connected component of diameter
-  $>2-r$; disproved.
+  $>2-r$.
 tags:
 - Analysis
 status: solved

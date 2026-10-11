@@ -4,7 +4,7 @@ title: Problem 562
 desc: |
   Asks for a proof that $\log_{r-1}R_r(n)\asymp_r n$ for $r\ge3$, where $R_r(n)$
   is the two-color Ramsey number of the complete $r$-uniform hypergraph on $n$
-  vertices and $\log_{r-1}$ is the $(r-1)$-fold iterated logarithm; open.
+  vertices and $\log_{r-1}$ is the $(r-1)$-fold iterated logarithm.
 tags:
 - Graph theory
 - Ramsey theory

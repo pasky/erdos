@@ -3,7 +3,7 @@ name: problems/distance_problems/E0089
 title: Problem 89
 desc: |
   Asks whether every set of $n$ distinct points in the plane determines
-  $\gg n/\sqrt{\log n}$ distinct distances. It is open.
+  $\gg n/\sqrt{\log n}$ distinct distances.
 tags:
 - Geometry
 - Distances

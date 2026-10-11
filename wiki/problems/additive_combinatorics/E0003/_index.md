@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0003
 title: Problem 3
 desc: |
   Asks whether every set $A\subseteq\mathbb{N}$ with $\sum_{n\in A}1/n=\infty$
-  must contain arbitrarily long arithmetic progressions; proved.
+  must contain arbitrarily long arithmetic progressions.
 tags:
 - Number theory
 - Additive combinatorics

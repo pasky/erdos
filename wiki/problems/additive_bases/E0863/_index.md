@@ -5,7 +5,7 @@ desc: |
   Asks whether, for $r\ge2$, the largest sets in $\{1,\ldots,N\}$ with at most
   $r$ representations of each sum, and of each positive difference, have sizes
   $\sim c_rN^{1/2}$ and $\sim c_r'N^{1/2}$ with $c_r\ne c_r'$, and whether
-  $c_r'<c_r$; proved.
+  $c_r'<c_r$.
 tags:
 - Number theory
 - Sidon sets

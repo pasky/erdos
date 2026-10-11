@@ -3,9 +3,8 @@ name: problems/graph_coloring/E0758
 title: Problem 758
 desc: |
   Asks for small values of $z(n)$, the largest cochromatic number of an
-  $n$-vertex graph, and in particular whether $z(12)=4$; solved. The cochromatic
-  number is the fewest colors whose classes each induce a complete or an empty
-  graph.
+  $n$-vertex graph, and in particular whether $z(12)=4$. The cochromatic number
+  is the fewest colors whose classes each induce a complete or an empty graph.
 tags:
 - Graph theory
 - Chromatic number

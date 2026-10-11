@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0048
 title: Problem 48
 desc: |
   Asks whether $\phi(n)=\sigma(m)$ for infinitely many pairs of integers $n,m$,
-  where $\phi$ is Euler's totient and $\sigma$ is the sum of divisors; proved.
+  where $\phi$ is Euler's totient and $\sigma$ is the sum of divisors.
 tags:
 - Number theory
 status: solved

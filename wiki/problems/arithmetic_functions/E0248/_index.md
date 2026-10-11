@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0248
 title: Problem 248
 desc: |
   Asks whether there are infinitely many $n$ with $\omega(n+k)\ll k$ for all
-  $k\ge1$, where $\omega$ counts distinct prime factors; proved.
+  $k\ge1$, where $\omega$ counts distinct prime factors.
 tags:
 - Number theory
 status: solved

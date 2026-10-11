@@ -4,7 +4,7 @@ title: Problem 528
 desc: |
   Asks for the limiting growth rate per step,
   $C_k=\lim_{n\to\infty}f(n,k)^{1/n}$, of the number $f(n,k)$ of self-avoiding
-  walks of $n$ steps from the origin in $\mathbb{Z}^k$; open.
+  walks of $n$ steps from the origin in $\mathbb{Z}^k$.
 tags:
 - Geometry
 status: open

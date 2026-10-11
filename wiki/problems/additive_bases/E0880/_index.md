@@ -3,7 +3,7 @@ name: problems/additive_bases/E0880
 title: Problem 880
 desc: |
   Asks whether the integers that are sums of $k$ or fewer distinct elements of
-  an additive basis of order $k$ have bounded gaps; disproved for every $k\ge3$.
+  an additive basis of order $k$ have bounded gaps.
 tags:
 - Number theory
 - Additive bases

@@ -4,7 +4,7 @@ title: Problem 589
 desc: |
   Asks to estimate $g(n)$, the size of the largest subset with no three points
   on a line that can always be found among $n$ points in the plane with no four
-  on a line; open.
+  on a line.
 tags:
 - Geometry
 status: open

@@ -4,7 +4,7 @@ title: Problem 801
 desc: |
   Asks whether every graph on $n$ vertices with no independent set of more than
   $\sqrt n$ vertices has a set of at most $\sqrt n$ vertices spanning
-  $\gg\sqrt n\log n$ edges; proved.
+  $\gg\sqrt n\log n$ edges.
 tags:
 - Graph theory
 - Ramsey theory

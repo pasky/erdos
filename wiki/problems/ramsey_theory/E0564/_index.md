@@ -4,7 +4,7 @@ title: Problem 564
 desc: |
   Asks whether $R_3(n)\ge2^{2^{cn}}$ for some $c>0$, where $R_3(n)$ is the
   two-color Ramsey number of the complete $3$-uniform hypergraph on $n$
-  vertices; open.
+  vertices.
 tags:
 - Graph theory
 - Ramsey theory

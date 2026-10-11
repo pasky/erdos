@@ -4,7 +4,7 @@ title: Problem 1074
 desc: |
   Asks whether the set of $m$ such that $m!+1$ has a prime factor
   $p\not\equiv1\pmod m$, and the set of primes arising this way (Pillai primes,
-  as a proportion of all primes), have densities, and what they are; open.
+  as a proportion of all primes), have densities, and what they are.
 tags:
 - Number theory
 status: open

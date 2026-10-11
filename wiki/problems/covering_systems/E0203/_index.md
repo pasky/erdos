@@ -3,7 +3,7 @@ name: problems/covering_systems/E0203
 title: Problem 203
 desc: |
   Asks whether some integer $m\ge1$ coprime to $6$ makes $2^k3^\ell m+1$
-  composite for all $k,\ell\ge0$; open.
+  composite for all $k,\ell\ge0$.
 tags:
 - Primes
 - Covering systems

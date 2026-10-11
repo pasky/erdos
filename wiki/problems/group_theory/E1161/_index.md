@@ -3,7 +3,7 @@ name: problems/group_theory/E1161
 title: Problem 1161
 desc: |
   Asks for which $k$ the number of permutations in $S_n$ of order exactly $k$ is
-  largest; solved.
+  largest.
 tags:
 - Group theory
 status: solved

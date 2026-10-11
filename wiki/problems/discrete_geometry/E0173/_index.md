@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0173
 title: Problem 173
 desc: |
   Asks whether every two-coloring of the plane contains a monochromatic
-  congruent copy of every triangle, with at most one exception; open.
+  congruent copy of every triangle, with at most one exception.
 tags:
 - Geometry
 - Ramsey theory

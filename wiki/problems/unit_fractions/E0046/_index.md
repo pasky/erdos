@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0046
 title: Problem 46
 desc: |
   Asks whether every finite coloring of the integers has a monochromatic set of
-  distinct integers $n_i\ge2$ with $\sum 1/n_i=1$; proved.
+  distinct integers $n_i\ge2$ with $\sum 1/n_i=1$.
 tags:
 - Number theory
 - Unit fractions

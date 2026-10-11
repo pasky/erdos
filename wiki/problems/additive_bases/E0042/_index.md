@@ -4,7 +4,7 @@ title: Problem 42
 desc: |
   Asks whether, for $N$ large in terms of $M$, every Sidon set
   $A\subset\{1,\ldots,N\}$ has a Sidon set $B\subset\{1,\ldots,N\}$ of size $M$
-  with $(A-A)\cap(B-B)=\{0\}$; answered yes for non-empty $A$.
+  with $(A-A)\cap(B-B)=\{0\}$.
 tags:
 - Number theory
 - Sidon sets

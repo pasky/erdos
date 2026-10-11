@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E1003
 title: Problem 1003
 desc: |
   Asks whether $\phi(n)=\phi(n+1)$ for infinitely many $n$, where $\phi$ is
-  Euler's totient function; open.
+  Euler's totient function.
 tags:
 - Number theory
 status: open

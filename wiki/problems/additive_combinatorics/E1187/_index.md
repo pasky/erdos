@@ -4,8 +4,7 @@ title: Problem 1187
 desc: |
   Asks whether every finite coloring of the integers has, for each $k\ge3$, a
   monochromatic $k$-term progression of primes, and one whose common difference
-  is prime. The first is answered yes; a negative answer to the second is
-  claimed but still pending.
+  is prime.
 tags:
 - Number theory
 - Additive combinatorics

@@ -4,7 +4,7 @@ title: Problem 603
 desc: |
   Asks for the least number of colors that always suffices to color the union of
   countably infinite sets, any two meeting in other than $2$ points, with no set
-  monochromatic. Solved: no number of colors suffices.
+  monochromatic.
 tags:
 - Combinatorics
 - Set theory

@@ -4,8 +4,8 @@ title: Problem 308
 desc: |
   Asks for the least integer that is not a sum of distinct unit fractions with
   denominators at most $N$, and whether the representable integers form an
-  initial segment. A corrected version, now proved, asks for large $N$ whether
-  that integer is $\lfloor\sum_{n\le N}1/n\rfloor$ or one more.
+  initial segment. A corrected version asks for large $N$ whether that integer
+  is $\lfloor\sum_{n\le N}1/n\rfloor$ or one more.
 tags:
 - Number theory
 - Unit fractions

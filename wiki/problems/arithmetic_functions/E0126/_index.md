@@ -4,7 +4,7 @@ title: Problem 126
 desc: |
   Asks whether $f(n)/\log n\to\infty$, where $f(n)$ is the least number of
   distinct prime factors of $\prod_{a\neq b\in A}(a+b)$ over sets
-  $A\subseteq\mathbb{N}$ of size $n$; proved.
+  $A\subseteq\mathbb{N}$ of size $n$.
 tags:
 - Number theory
 status: solved

@@ -4,7 +4,7 @@ title: Problem 570
 desc: |
   Asks whether, for each $k\ge3$ and all sufficiently large $m$, every graph $H$
   with $m$ edges and no isolated vertices has
-  $R(C_k,H)\le 2m+\lfloor(k-1)/2\rfloor$; proved.
+  $R(C_k,H)\le 2m+\lfloor(k-1)/2\rfloor$.
 tags:
 - Graph theory
 - Ramsey theory

@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0307
 title: Problem 307
 desc: |
   Asks whether there are two finite sets of primes whose sums of reciprocals
-  have product $1$; open.
+  have product $1$.
 tags:
 - Number theory
 - Unit fractions

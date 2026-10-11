@@ -3,7 +3,7 @@ name: problems/graph_coloring/E1104
 title: Problem 1104
 desc: |
   Asks for an estimate of the largest chromatic number of a triangle-free graph
-  on $n$ vertices; open.
+  on $n$ vertices.
 tags:
 - Graph theory
 - Chromatic number

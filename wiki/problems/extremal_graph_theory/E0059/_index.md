@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0059
 title: Problem 59
 desc: |
   Asks whether the number of graphs on $n$ vertices containing no copy of a
-  fixed graph $G$ is at most $2^{(1+o(1))\mathrm{ex}(n;G)}$; disproved.
+  fixed graph $G$ is at most $2^{(1+o(1))\mathrm{ex}(n;G)}$.
 tags:
 - Graph theory
 - Turán numbers

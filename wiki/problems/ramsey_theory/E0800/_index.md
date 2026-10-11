@@ -3,8 +3,7 @@ name: problems/ramsey_theory/E0800
 title: Problem 800
 desc: |
   Asks whether every graph $G$ on $n$ vertices with no two adjacent vertices
-  both of degree at least 3 has $R(G)$ at most an absolute constant times $n$;
-  proved.
+  both of degree at least 3 has $R(G)$ at most an absolute constant times $n$.
 tags:
 - Graph theory
 - Ramsey theory

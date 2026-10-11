@@ -4,7 +4,7 @@ title: Problem 404
 desc: |
   Asks for which $a\ge1$ and primes $p$ the exponents $k$ with
   $p^k\mid a_1!+\cdots+a_n!$ for some $a=a_1<\cdots<a_n$ are bounded, and how
-  the largest such $k$ behaves; open.
+  the largest such $k$ behaves.
 tags:
 - Number theory
 - Factorials

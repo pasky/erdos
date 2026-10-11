@@ -4,8 +4,7 @@ title: Problem 1106
 desc: |
   Asks whether the number $F(n)$ of distinct prime factors of
   $p(1)p(2)\cdots p(n)$, with $p$ the partition function, tends to infinity, and
-  whether $F(n)>n$ for all large $n$. The answer to the first question is yes,
-  and the second is open.
+  whether $F(n)>n$ for all large $n$.
 tags:
 - Number theory
 status: open

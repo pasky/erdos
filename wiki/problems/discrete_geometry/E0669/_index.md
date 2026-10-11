@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0669
 title: Problem 669
 desc: |
   Asks for bounds on how many lines can pass through at least $k$, or through
-  exactly $k$, of $n$ points in the plane; open.
+  exactly $k$, of $n$ points in the plane.
 tags:
 - Geometry
 status: open

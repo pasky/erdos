@@ -4,7 +4,7 @@ title: Problem 543
 desc: |
   Asks whether $f(N)\leq\log_2 N+o(\log\log N)$, where $f(N)$ is the least $k$
   such that a random $k$-subset of an abelian group of order $N$ has subset sums
-  covering the group with probability at least $1/2$; disproved.
+  covering the group with probability at least $1/2$.
 tags:
 - Number theory
 - Group theory

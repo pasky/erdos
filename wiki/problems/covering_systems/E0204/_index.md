@@ -4,7 +4,6 @@ title: Problem 204
 desc: |
   Asks whether some $n$ has a covering system whose moduli are the divisors of
   $n$ above $1$, with two classes meeting only when their moduli are coprime.
-  The answer is no.
 tags:
 - Covering systems
 - Divisors

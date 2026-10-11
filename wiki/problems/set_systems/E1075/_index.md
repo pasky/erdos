@@ -5,7 +5,7 @@ desc: |
   Asks whether each $r\ge3$ has some $c_r>r^{-r}$ such that, for every
   $\epsilon>0$ and large $n$, every $r$-uniform hypergraph on $n$ vertices with
   at least $(1+\epsilon)(n/r)^r$ edges has subgraphs on $m\to\infty$ vertices
-  with at least $c_rm^r$ edges; open, with a claimed disproof pending.
+  with at least $c_rm^r$ edges.
 tags:
 - Hypergraphs
 status: claimed

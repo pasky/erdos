@@ -3,8 +3,7 @@ name: problems/additive_bases/E0153
 title: Problem 153
 desc: |
   Asks whether, for a finite Sidon set $A$, the mean squared gap between
-  consecutive elements of $A+A$ tends to infinity as $\lvert A\rvert\to\infty$;
-  open.
+  consecutive elements of $A+A$ tends to infinity as $\lvert A\rvert\to\infty$.
 tags:
 - Sidon sets
 status: open

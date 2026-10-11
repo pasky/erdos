@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E1148
 title: Problem 1148
 desc: |
   Asks whether every large integer $n$ can be written as $x^2+y^2-z^2$ with
-  $\max(x^2,y^2,z^2)\leq n$; proved.
+  $\max(x^2,y^2,z^2)\leq n$.
 tags:
 - Number theory
 status: solved

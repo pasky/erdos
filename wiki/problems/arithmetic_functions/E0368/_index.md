@@ -2,7 +2,7 @@
 name: problems/arithmetic_functions/E0368
 title: Problem 368
 desc: |
-  Asks how large the largest prime factor of $n(n+1)$ is; open.
+  Asks how large the largest prime factor of $n(n+1)$ is.
 tags:
 - Number theory
 status: open

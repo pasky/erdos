@@ -5,7 +5,7 @@ desc: |
   Asks whether, under the generalized continuum hypothesis, every set mapping on
   $\omega_{\omega+1}$ whose values have size at most $\aleph_\omega$ and
   pairwise intersections of size below $\aleph_\omega$ has a free set of size
-  $\aleph_{\omega+1}$; open.
+  $\aleph_{\omega+1}$.
 tags:
 - Set theory
 - Combinatorics

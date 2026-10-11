@@ -4,7 +4,7 @@ title: Problem 856
 desc: |
   Asks, for $k\ge3$, for an estimate of the largest $\sum_{n\in A}1/n$ over sets
   $A\subseteq\{1,\ldots,N\}$ with no $k$ members sharing the same pairwise least
-  common multiple; open.
+  common multiple.
 tags:
 - Number theory
 status: open

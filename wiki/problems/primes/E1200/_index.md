@@ -4,7 +4,7 @@ title: Problem 1200
 desc: |
   Asks for a constant $C$ such that, for every large $x$, there are primes
   $p_1<\cdots<p_k<x$ with $\sum 1/p_i<C$ and congruences $a_i\pmod{p_i}$ that
-  cover every integer $n<x$; open.
+  cover every integer $n<x$.
 tags:
 - Number theory
 - Primes

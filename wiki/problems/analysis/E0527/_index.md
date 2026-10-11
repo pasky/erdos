@@ -5,7 +5,7 @@ desc: |
   Asks whether, for real $a_n$ with $\sum\lvert a_n\rvert^2=\infty$ and
   $\lvert a_n\rvert=o(1/\sqrt{n})$, almost every choice of signs
   $\epsilon_n=\pm1$ makes $\sum\epsilon_na_nz^n$ converge at some $z$ on the
-  unit circle; proved.
+  unit circle.
 tags:
 - Analysis
 - Probability

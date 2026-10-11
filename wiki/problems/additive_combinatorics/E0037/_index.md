@@ -4,7 +4,7 @@ title: Problem 37
 desc: |
   Asks whether a lacunary set $A$ can be an essential component, meaning that
   $d_s(A+B)>d_s(B)$ for every $B$ with $0<d_s(B)<1$, where $d_s$ is Schnirelmann
-  density; disproved.
+  density.
 tags:
 - Number theory
 - Additive combinatorics

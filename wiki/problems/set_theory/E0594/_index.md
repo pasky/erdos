@@ -3,7 +3,7 @@ name: problems/set_theory/E0594
 title: Problem 594
 desc: |
   Asks whether every graph with chromatic number at least $\aleph_1$ contains
-  all sufficiently large odd cycles; proved.
+  all sufficiently large odd cycles.
 tags:
 - Graph theory
 - Set theory

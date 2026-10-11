@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0372
 title: Problem 372
 desc: |
   Asks whether infinitely many integers $n$ have the largest prime factors of
-  $n$, $n+1$ and $n+2$ in strictly decreasing order; proved.
+  $n$, $n+1$ and $n+2$ in strictly decreasing order.
 tags:
 - Number theory
 status: solved

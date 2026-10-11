@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0663
 title: Problem 663
 desc: |
   Asks whether, for fixed $k$ and large $n$, the least prime not dividing
-  $(n+1)\cdots(n+k)$ is less than $(1+o(1))\log n$; open.
+  $(n+1)\cdots(n+k)$ is less than $(1+o(1))\log n$.
 tags:
 - Number theory
 status: open

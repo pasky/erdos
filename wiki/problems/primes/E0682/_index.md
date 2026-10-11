@@ -3,7 +3,7 @@ name: problems/primes/E0682
 title: Problem 682
 desc: |
   Asks whether, for almost all $n$, some integer $m\in(p_n,p_{n+1})$ has least
-  prime factor $p(m)\ge p_{n+1}-p_n$; proved.
+  prime factor $p(m)\ge p_{n+1}-p_n$.
 tags:
 - Number theory
 - Primes

@@ -3,7 +3,7 @@ name: problems/distance_problems/E0959
 title: Problem 959
 desc: |
   Asks to estimate the largest possible gap between the two highest distance
-  multiplicities determined by a set of $n$ points in the plane; open.
+  multiplicities determined by a set of $n$ points in the plane.
 tags:
 - Geometry
 - Distances

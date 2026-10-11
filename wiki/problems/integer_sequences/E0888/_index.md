@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0888
 title: Problem 888
 desc: |
   Asks for the size of the largest $A\subseteq\{1,\ldots,n\}$ in which any
-  $a\le b\le c\le d$ in $A$ with $abcd$ a square satisfy $ad=bc$; solved.
+  $a\le b\le c\le d$ in $A$ with $abcd$ a square satisfy $ad=bc$.
 tags:
 - Number theory
 - Squares

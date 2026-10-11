@@ -4,7 +4,7 @@ title: Problem 92
 desc: |
   Asks for the largest $f(n)$ such that some $n$-point set in the plane has, for
   each of its points $x$, at least $f(n)$ points of the set equidistant from
-  $x$, and whether $f(n)\le n^{o(1)}$. It has been disproved.
+  $x$, and whether $f(n)\le n^{o(1)}$.
 tags:
 - Geometry
 - Distances

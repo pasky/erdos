@@ -4,7 +4,7 @@ title: Problem 74
 desc: |
   Asks whether, for every $f(n)\to\infty$, some graph of infinite chromatic
   number has every $n$-vertex subgraph made bipartite by deleting at most $f(n)$
-  edges; disproved.
+  edges.
 tags:
 - Graph theory
 - Chromatic number

@@ -3,7 +3,7 @@ name: problems/analysis/E0967
 title: Problem 967
 desc: |
   Asks whether $1+\sum_ka_k^{-(1+it)}\neq 0$ for every real $t$ whenever
-  $1<a_1<a_2<\cdots$ are integers with $\sum 1/a_k<\infty$; disproved.
+  $1<a_1<a_2<\cdots$ are integers with $\sum 1/a_k<\infty$.
 tags:
 - Number theory
 - Analysis

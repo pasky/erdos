@@ -4,7 +4,7 @@ title: Problem 903
 desc: |
   Asks whether a block design on $n=p^2+p+1$ points, with $p$ a prime power and
   every pair of points in exactly one block, must have at least $n+p$ blocks if
-  it has more than $n$; proved.
+  it has more than $n$.
 tags:
 - Combinatorics
 status: solved

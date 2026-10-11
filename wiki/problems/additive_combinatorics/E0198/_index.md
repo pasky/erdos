@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0198
 title: Problem 198
 desc: |
   Asks whether the complement of a set of integers with all pairwise sums
-  distinct must contain an infinite arithmetic progression; the answer is no.
+  distinct must contain an infinite arithmetic progression.
 tags:
 - Additive combinatorics
 - Sidon sets

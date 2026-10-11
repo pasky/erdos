@@ -4,7 +4,7 @@ title: Problem 462
 desc: |
   Asks whether there is a constant $C>0$ with
   $\sum_{x\le n\le x+Cx^{1/2}(\log x)^2}p(n)/n\gg1$ for all large $x$, where
-  $p(n)$ is the least prime factor of $n$; open.
+  $p(n)$ is the least prime factor of $n$.
 tags:
 - Number theory
 - Primes

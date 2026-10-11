@@ -3,7 +3,7 @@ name: problems/primes/E0234
 title: Problem 234
 desc: |
   Asks whether, for every $c\ge0$, the density $f(c)$ of integers $n$ with
-  $p_{n+1}-p_n<c\log n$ exists and is a continuous function of $c$; open.
+  $p_{n+1}-p_n<c\log n$ exists and is a continuous function of $c$.
 tags:
 - Number theory
 - Primes

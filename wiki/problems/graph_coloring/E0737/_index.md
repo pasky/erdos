@@ -3,7 +3,7 @@ name: problems/graph_coloring/E0737
 title: Problem 737
 desc: |
   Asks whether every graph of chromatic number $\aleph_1$ has an edge that lies
-  on a cycle of every sufficiently large length; proved.
+  on a cycle of every sufficiently large length.
 tags:
 - Graph theory
 - Chromatic number

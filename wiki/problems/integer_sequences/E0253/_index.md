@@ -4,7 +4,7 @@ title: Problem 253
 desc: |
   Asks whether a sequence with $a_{i+1}/a_i\to1$, whose sums of distinct terms
   meet every arithmetic progression infinitely often, must represent every large
-  integer as such a sum; disproved.
+  integer as such a sum.
 tags:
 - Number theory
 status: solved

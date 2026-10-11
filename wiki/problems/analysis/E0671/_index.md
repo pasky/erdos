@@ -5,7 +5,6 @@ desc: |
   Asks whether some nodes in $[-1,1]$ make the Lagrange interpolants of every
   continuous $f$ converge to $f$ at some $x$ where the Lebesgue function is
   unbounded, and whether this can happen when it is unbounded at every $x$.
-  Pending claims answer both yes; the site lists it as OPEN.
 tags:
 - Analysis
 status: claimed

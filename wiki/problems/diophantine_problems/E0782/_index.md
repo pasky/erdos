@@ -4,7 +4,7 @@ title: Problem 782
 desc: |
   Asks whether the squares contain arbitrarily long quasi-progressions, with all
   gaps between $d$ and $d+C$ for a fixed $C$, and arbitrarily large cubes
-  $a+\{\sum_i\epsilon_ib_i:\epsilon_i\in\{0,1\}\}$; open.
+  $a+\{\sum_i\epsilon_ib_i:\epsilon_i\in\{0,1\}\}$.
 tags:
 - Number theory
 status: open

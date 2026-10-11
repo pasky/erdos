@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E0812
 title: Problem 812
 desc: |
   Asks whether consecutive diagonal Ramsey numbers satisfy $R(n+1)/R(n)\ge1+c$
-  for a constant $c>0$, and whether $R(n+1)-R(n)\gg n^2$; open.
+  for a constant $c>0$, and whether $R(n+1)-R(n)\gg n^2$.
 tags:
 - Graph theory
 - Ramsey theory

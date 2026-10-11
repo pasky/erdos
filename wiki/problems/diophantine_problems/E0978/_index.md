@@ -4,8 +4,7 @@ title: Problem 978
 desc: |
   Asks how often an irreducible $f\in\mathbb{Z}[x]$ with positive leading
   coefficient and degree $k>2$, not a power of 2, takes $(k-1)$- or
-  $(k-2)$-power-free values, and whether $n^4+2$ is squarefree infinitely often;
-  proved, departing from the site's label OPEN.
+  $(k-2)$-power-free values, and whether $n^4+2$ is squarefree infinitely often.
 tags:
 - Number theory
 parts:

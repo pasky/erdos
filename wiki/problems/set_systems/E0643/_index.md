@@ -4,7 +4,7 @@ title: Problem 643
 desc: |
   Asks to estimate how many edges force a $t$-uniform hypergraph on $n$ vertices
   to have four edges $A,B,C,D$ with $A\cup B=C\cup D$ and
-  $A\cap B=C\cap D=\emptyset$. It is open.
+  $A\cap B=C\cap D=\emptyset$.
 tags:
 - Graph theory
 - Hypergraphs

@@ -4,7 +4,7 @@ title: Problem 857
 desc: |
   Asks for an estimate of the least $m$ such that any $m$ subsets of
   $\{1,\ldots,n\}$ contain a sunflower of size $k$, meaning $k$ of the sets with
-  equal pairwise intersections; open.
+  equal pairwise intersections.
 tags:
 - Combinatorics
 status: open

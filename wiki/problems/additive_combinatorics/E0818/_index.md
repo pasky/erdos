@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0818
 title: Problem 818
 desc: |
   Asks whether a finite set $A$ of integers with $|A+A|\ll|A|$ must satisfy
-  $|AA|\gg|A|^2/(\log|A|)^C$ for some constant $C>0$; proved.
+  $|AA|\gg|A|^2/(\log|A|)^C$ for some constant $C>0$.
 tags:
 - Additive combinatorics
 status: solved

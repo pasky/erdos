@@ -5,7 +5,7 @@ desc: |
   Asks whether the points
   $\bigl(\sum_{n\in A}1/n,\sum_{n\in A}1/(n+1),\sum_{n\in A}1/(n+2)\bigr)$, over
   infinite $A\subseteq\mathbb{N}$ with $\sum_{n\in A}1/n<\infty$, contain an
-  open set; proved.
+  open set.
 tags:
 - Number theory
 status: solved

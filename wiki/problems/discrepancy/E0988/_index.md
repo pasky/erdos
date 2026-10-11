@@ -3,8 +3,7 @@ name: problems/discrepancy/E0988
 title: Problem 988
 desc: |
   Asks whether the least spherical cap discrepancy of an $n$-point set on the
-  unit sphere $S^2$ tends to infinity with $n$. Schmidt's 1969 theorem answers
-  yes.
+  unit sphere $S^2$ tends to infinity with $n$.
 tags:
 - Discrepancy
 status: solved

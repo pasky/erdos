@@ -4,7 +4,7 @@ title: Problem 238
 desc: |
   Asks whether, for any $c_1,c_2>0$ and all large $x$, there are more than
   $c_1\log x$ consecutive primes $\le x$ whose pairwise differences all exceed
-  $c_2$; open.
+  $c_2$.
 tags:
 - Number theory
 - Primes

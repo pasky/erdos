@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E0549
 title: Problem 549
 desc: |
   Asks whether every tree $T$ with $k$ vertices in one class and $2k$ in the
-  other has $R(T)=4k-1$; disproved.
+  other has $R(T)=4k-1$.
 tags:
 - Graph theory
 - Ramsey theory

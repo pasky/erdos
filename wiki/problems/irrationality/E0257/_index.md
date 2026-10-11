@@ -3,7 +3,7 @@ name: problems/irrationality/E0257
 title: Problem 257
 desc: |
   Asks whether $\sum_{n\in A}\frac{1}{2^n-1}$ is irrational for every infinite
-  set $A\subseteq\mathbb{N}$; open.
+  set $A\subseteq\mathbb{N}$.
 tags:
 - Irrationality
 status: open

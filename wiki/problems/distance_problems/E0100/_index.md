@@ -4,7 +4,7 @@ title: Problem 100
 desc: |
   Asks whether $n$ points in the plane whose pairwise distances are at least
   $1$, and whose distinct distances differ by at least $1$, must have diameter
-  $\gg n$. It is open.
+  $\gg n$.
 tags:
 - Geometry
 - Distances

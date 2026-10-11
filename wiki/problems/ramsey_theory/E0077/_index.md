@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E0077
 title: Problem 77
 desc: |
   Asks for the value of $\lim_{k\to\infty}R(k)^{1/k}$, where $R(k)$ is the
-  Ramsey number of $K_k$; open, and the limit is not known to exist.
+  Ramsey number of $K_k$; the limit is not known to exist.
 tags:
 - Graph theory
 - Ramsey theory

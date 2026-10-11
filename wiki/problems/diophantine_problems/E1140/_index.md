@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E1140
 title: Problem 1140
 desc: |
   Asks whether infinitely many $n$ make $n-2x^2$ prime for every $x$ with
-  $2x^2<n$; disproved.
+  $2x^2<n$.
 tags:
 - Number theory
 status: solved

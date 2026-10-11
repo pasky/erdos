@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E0551
 title: Problem 551
 desc: |
   Asks for a proof that $R(C_k,K_n)=(k-1)(n-1)+1$ for $k\ge n\ge3$, except when
-  $n=k=3$; proved.
+  $n=k=3$.
 tags:
 - Graph theory
 - Ramsey theory

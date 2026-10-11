@@ -2,8 +2,7 @@
 name: problems/irrationality/E1049
 title: Problem 1049
 desc: |
-  Asks whether $\sum_{n\ge1}1/(t^n-1)$ is irrational for every rational $t>1$;
-  open.
+  Asks whether $\sum_{n\ge1}1/(t^n-1)$ is irrational for every rational $t>1$.
 tags:
 - Irrationality
 status: open

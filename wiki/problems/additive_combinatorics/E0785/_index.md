@@ -3,8 +3,7 @@ name: problems/additive_combinatorics/E0785
 title: Problem 785
 desc: |
   Asks whether infinite sets $A,B$ of naturals with $A+B$ containing all large
-  integers and $A(x)B(x)\sim x$ must have $A(x)B(x)-x\to\infty$; the answer is
-  yes.
+  integers and $A(x)B(x)\sim x$ must have $A(x)B(x)-x\to\infty$.
 tags:
 - Additive combinatorics
 status: solved

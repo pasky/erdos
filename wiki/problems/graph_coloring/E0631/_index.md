@@ -3,9 +3,8 @@ name: problems/graph_coloring/E0631
 title: Problem 631
 desc: |
   Asks whether every planar graph has list chromatic number at most $5$, and
-  whether $5$ is best possible; both answers are yes. The list chromatic number
-  is the least list size per vertex that always allows a proper coloring from
-  the lists.
+  whether $5$ is best possible. The list chromatic number is the least list size
+  per vertex that always allows a proper coloring from the lists.
 tags:
 - Graph theory
 - Chromatic number

@@ -4,7 +4,7 @@ title: Problem 598
 desc: |
   Asks whether the countable subsets of an infinite cardinal $m$ can be colored
   with $\kappa=(2^{\aleph_0})^+$ colors so that every subset of $m$ of size
-  $\kappa$ contains sets of every color; open.
+  $\kappa$ contains sets of every color.
 tags:
 - Set theory
 - Ramsey theory

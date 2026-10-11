@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0211
 title: Problem 211
 desc: |
   Asks whether $n$ points in the plane, at most $n-k$ on any line, always
-  determine $\gg kn$ lines through at least two of them; proved.
+  determine $\gg kn$ lines through at least two of them.
 tags:
 - Geometry
 status: solved

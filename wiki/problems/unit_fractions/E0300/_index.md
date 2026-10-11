@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0300
 title: Problem 300
 desc: |
   Asks for estimates of $A(N)$, the size of the largest subset of
-  $\{1,\ldots,N\}$ with no subset whose reciprocals sum to $1$; solved.
+  $\{1,\ldots,N\}$ with no subset whose reciprocals sum to $1$.
 tags:
 - Number theory
 - Unit fractions

@@ -4,7 +4,7 @@ title: Problem 494
 desc: |
   Asks whether, for $k>2$, the multiset of sums of $k$ distinct elements of a
   finite set $A\subset\mathbb{C}$, together with $|A|$, determines $A$ when
-  $|A|$ is large enough in terms of $k$; the answer is yes.
+  $|A|$ is large enough in terms of $k$.
 tags:
 - Analysis
 - Additive combinatorics

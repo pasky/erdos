@@ -4,8 +4,7 @@ title: Problem 848
 desc: |
   Asks whether the maximum size of a set $A\subseteq\{1,\ldots,N\}$ with $ab+1$
   never squarefree for $a,b\in A$ is attained by the integers
-  $n\equiv7\pmod{25}$; proved for large $N$, and claimed for every $N$ in
-  unreviewed work.
+  $n\equiv7\pmod{25}$.
 tags:
 - Number theory
 status: claimed

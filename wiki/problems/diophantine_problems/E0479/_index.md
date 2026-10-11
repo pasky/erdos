@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0479
 title: Problem 479
 desc: |
   Asks whether, for every $k\neq1$, there are infinitely many $n$ with
-  $2^n\equiv k\pmod n$; open.
+  $2^n\equiv k\pmod n$.
 tags:
 - Number theory
 status: open

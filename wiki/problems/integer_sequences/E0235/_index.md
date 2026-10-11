@@ -4,7 +4,7 @@ title: Problem 235
 desc: |
   Asks whether the distribution of normalized gaps between the integers coprime
   to the product of the first $k$ primes tends to a continuous limiting
-  function; proved.
+  function.
 tags:
 - Number theory
 status: solved

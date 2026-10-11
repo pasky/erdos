@@ -4,7 +4,7 @@ title: Problem 1066
 desc: |
   Asks to estimate $g(n)$, the largest $g$ such that every graph on $n$ points
   in the plane at pairwise distance at least $1$, with edges joining the pairs
-  at distance exactly $1$, has an independent set of size $g$; open.
+  at distance exactly $1$, has an independent set of size $g$.
 tags:
 - Graph theory
 - Planar graphs

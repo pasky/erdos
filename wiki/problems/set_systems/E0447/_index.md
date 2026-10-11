@@ -3,8 +3,7 @@ name: problems/set_systems/E0447
 title: Problem 447
 desc: |
   Asks how large a family of subsets of $\{1,\ldots,n\}$ can be when no member
-  is the union of two other distinct members. The proposed bound
-  $(1+o(1))\binom{n}{\lfloor n/2\rfloor}$ is proved.
+  is the union of two other distinct members.
 tags:
 - Combinatorics
 status: solved

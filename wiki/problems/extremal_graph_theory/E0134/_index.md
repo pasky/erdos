@@ -4,7 +4,7 @@ title: Problem 134
 desc: |
   Asks whether a triangle-free graph on $n$ vertices with maximum degree below
   $n^{1/2-\epsilon}$ can be made into a triangle-free graph of diameter $2$ by
-  adding at most $\delta n^2$ edges; proved.
+  adding at most $\delta n^2$ edges.
 tags:
 - Graph theory
 status: solved

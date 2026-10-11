@@ -4,7 +4,7 @@ title: Problem 111
 desc: |
   Asks how many edge deletions make every $n$-vertex subgraph of a graph $G$
   bipartite, and whether this number grows faster than $n$ when $G$ has
-  chromatic number $\aleph_1$; open.
+  chromatic number $\aleph_1$.
 tags:
 - Graph theory
 - Chromatic number

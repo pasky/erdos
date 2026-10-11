@@ -3,8 +3,7 @@ name: problems/unit_fractions/E0295
 title: Problem 295
 desc: |
   Asks whether $k(N)-(e-1)N\to\infty$, where $k(N)$ is the least number of
-  distinct unit fractions, all with denominators at least $N$, that sum to $1$;
-  open.
+  distinct unit fractions, all with denominators at least $N$, that sum to $1$.
 tags:
 - Number theory
 - Unit fractions

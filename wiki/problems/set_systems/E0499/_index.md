@@ -3,7 +3,7 @@ name: problems/set_systems/E0499
 title: Problem 499
 desc: |
   Asks whether every $n\times n$ doubly stochastic matrix has a permutation
-  along which the product of the entries is at least $n^{-n}$. It is proved.
+  along which the product of the entries is at least $n^{-n}$.
 tags:
 - Combinatorics
 status: solved

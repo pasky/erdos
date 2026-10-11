@@ -4,7 +4,7 @@ title: Problem 897
 desc: |
   Asks whether an additive function $f$ with $\limsup f(p^k)/\log p^k=\infty$
   must have $\limsup(f(n+1)-f(n))/\log n=\infty$, or even
-  $\limsup f(n+1)/f(n)=\infty$; disproved.
+  $\limsup f(n+1)/f(n)=\infty$.
 tags:
 - Number theory
 status: solved

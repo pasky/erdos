@@ -4,7 +4,7 @@ title: Problem 1116
 desc: |
   Asks whether some meromorphic (or entire) $f$ has
   $\limsup_{r\to\infty}n(r,a)/n(r,b)=\infty$ for every $a\neq b$, where $n(r,a)$
-  counts the roots of $f(z)=a$ in $|z|<r$; proved.
+  counts the roots of $f(z)=a$ in $|z|<r$.
 tags:
 - Analysis
 status: solved

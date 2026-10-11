@@ -4,7 +4,7 @@ title: Problem 763
 desc: |
   Asks whether, for some set $A$ of naturals and some $c>0$, the number of
   representations of $n$ as a sum of two elements of $A$, summed over $n\le N$,
-  equals $cN+O(1)$; the answer is no.
+  equals $cN+O(1)$.
 tags:
 - Number theory
 - Additive combinatorics

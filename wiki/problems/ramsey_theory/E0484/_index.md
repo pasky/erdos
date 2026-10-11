@@ -4,8 +4,7 @@ title: Problem 484
 desc: |
   Asks whether there is an absolute constant $c>0$ such that, for $N$ large in
   terms of $k$, every $k$-coloring of $\{1,\ldots,N\}$ leaves at least $cN$ of
-  these integers expressible as a sum of two distinct integers of one color;
-  proved.
+  these integers expressible as a sum of two distinct integers of one color.
 tags:
 - Number theory
 - Additive combinatorics

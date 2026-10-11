@@ -4,7 +4,7 @@ title: Problem 530
 desc: |
   Asks for the order of $\ell(N)$, the size of the largest Sidon subset, one
   with no non-trivial equal pairwise sums, guaranteed inside every set of $N$
-  reals. The order is $N^{1/2}$, and whether $\ell(N)\sim N^{1/2}$ is open.
+  reals.
 tags:
 - Number theory
 - Sidon sets

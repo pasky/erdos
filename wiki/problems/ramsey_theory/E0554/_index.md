@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E0554
 title: Problem 554
 desc: |
   Asks for a proof that $R_k(C_{2n+1})/R_k(K_3)\to0$ as $k\to\infty$ for every
-  $n\ge2$, where $R_k$ is the $k$-color Ramsey number; open.
+  $n\ge2$, where $R_k$ is the $k$-color Ramsey number.
 tags:
 - Graph theory
 - Ramsey theory

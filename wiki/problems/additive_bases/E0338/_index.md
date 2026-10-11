@@ -3,7 +3,7 @@ name: problems/additive_bases/E0338
 title: Problem 338
 desc: |
   Asks when a basis has a restricted order, defined with distinct summands only,
-  and whether that order is bounded in terms of the ordinary order; open.
+  and whether that order is bounded in terms of the ordinary order.
 tags:
 - Number theory
 - Additive bases

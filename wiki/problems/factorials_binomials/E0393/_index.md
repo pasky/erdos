@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E0393
 title: Problem 393
 desc: |
   Asks how $f(n)$ behaves, where $f(n)$ is the least $m\ge1$ such that
-  $n!=a_1\cdots a_t$ with $a_1<\cdots<a_t=a_1+m$; open.
+  $n!=a_1\cdots a_t$ with $a_1<\cdots<a_t=a_1+m$.
 tags:
 - Number theory
 - Factorials

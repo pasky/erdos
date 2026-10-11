@@ -3,8 +3,7 @@ name: problems/discrepancy/E0255
 title: Problem 255
 desc: |
   Asks whether every infinite sequence in $[0,1]$ has a subinterval $I$ whose
-  discrepancy $D_N(I)$ is unbounded as $N\to\infty$. Schmidt's 1968 theorem
-  answers yes.
+  discrepancy $D_N(I)$ is unbounded as $N\to\infty$.
 tags:
 - Discrepancy
 status: solved

@@ -3,7 +3,7 @@ name: problems/primes/E0427
 title: Problem 427
 desc: |
   Asks whether, for every $n$ and $d$, some sum $p_{n+1}+\cdots+p_{n+k}$ of
-  consecutive primes is divisible by $d$; proved.
+  consecutive primes is divisible by $d$.
 tags:
 - Number theory
 - Primes

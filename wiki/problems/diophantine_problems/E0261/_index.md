@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0261
 title: Problem 261
 desc: |
   Asks for which $n$ the number $n/2^n$ is a sum of distinct terms $k/2^k$, and
-  whether some rational has uncountably many such sums; open.
+  whether some rational has uncountably many such sums.
 tags:
 - Number theory
 status: open

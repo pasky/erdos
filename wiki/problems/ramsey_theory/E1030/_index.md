@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E1030
 title: Problem 1030
 desc: |
   Asks whether the off-diagonal Ramsey number $R(k+1,k)$ exceeds the diagonal
-  number $R(k,k)$ by a constant factor in the limit. It is open.
+  number $R(k,k)$ by a constant factor in the limit.
 tags:
 - Graph theory
 - Ramsey theory

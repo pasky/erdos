@@ -4,7 +4,7 @@ title: Problem 1174
 desc: |
   Asks whether some $K_4$-free graph forces a monochromatic triangle, and
   whether some $K_{\aleph_1}$-free graph forces a monochromatic $K_{\aleph_0}$,
-  in every edge coloring with countably many colors; open.
+  in every edge coloring with countably many colors.
 tags:
 - Set theory
 - Ramsey theory

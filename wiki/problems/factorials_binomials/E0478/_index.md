@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E0478
 title: Problem 478
 desc: |
   Asks whether, for a prime $p$, the set $A_p$ of residues $k!\bmod p$ with
-  $1\le k<p$ has $|A_p|\sim(1-1/e)p$; open.
+  $1\le k<p$ has $|A_p|\sim(1-1/e)p$.
 tags:
 - Number theory
 - Factorials

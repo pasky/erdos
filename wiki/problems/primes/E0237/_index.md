@@ -5,7 +5,7 @@ desc: |
   Asks whether every set $A\subseteq\mathbb{N}$ with
   $\lvert A\cap\{1,\ldots,N\}\rvert\gg\log N$ for all large $N$ gives
   $\limsup f(n)=\infty$, where $f(n)$ counts the solutions of $n=p+a$ with $p$
-  prime and $a\in A$; proved.
+  prime and $a\in A$.
 tags:
 - Number theory
 - Primes

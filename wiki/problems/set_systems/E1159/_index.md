@@ -3,8 +3,7 @@ name: problems/set_systems/E1159
 title: Problem 1159
 desc: |
   Asks whether there is a constant $C>1$ such that every finite projective plane
-  has a set of points meeting each line in at least $1$ and at most $C$ points;
-  open.
+  has a set of points meeting each line in at least $1$ and at most $C$ points.
 tags:
 - Combinatorics
 status: open

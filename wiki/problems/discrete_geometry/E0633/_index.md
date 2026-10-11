@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0633
 title: Problem 633
 desc: |
   Asks which triangles can only be cut into a square number of congruent
-  triangles; solved.
+  triangles.
 tags:
 - Geometry
 status: solved

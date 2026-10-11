@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0332
 title: Problem 332
 desc: |
   Asks which conditions on a set of integers ensure that the differences
-  occurring infinitely often in it have bounded gaps; open.
+  occurring infinitely often in it have bounded gaps.
 tags:
 - Number theory
 status: open

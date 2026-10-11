@@ -4,7 +4,7 @@ title: Problem 1047
 desc: |
   Asks whether, for a monic polynomial $f$ with $m$ distinct roots and $c>0$
   small enough that $\{z:|f(z)|\le c\}$ has $m$ connected components, all these
-  components must be convex; disproved.
+  components must be convex.
 tags:
 - Analysis
 status: solved

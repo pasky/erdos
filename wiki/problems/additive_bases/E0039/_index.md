@@ -3,7 +3,7 @@ name: problems/additive_bases/E0039
 title: Problem 39
 desc: |
   Asks whether some infinite Sidon set has $\gg_\epsilon N^{1/2-\epsilon}$
-  elements up to $N$ for every $\epsilon>0$; open.
+  elements up to $N$ for every $\epsilon>0$.
 tags:
 - Number theory
 - Sidon sets

@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E1004
 title: Problem 1004
 desc: |
   Asks whether, for every fixed $c>0$ and all large $x$, some $n\le x$ has the
-  values $\phi(n+k)$ distinct for $1\le k\le(\log x)^c$; open.
+  values $\phi(n+k)$ distinct for $1\le k\le(\log x)^c$.
 tags:
 - Number theory
 status: open

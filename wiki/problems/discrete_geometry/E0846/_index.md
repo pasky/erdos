@@ -4,7 +4,7 @@ title: Problem 846
 desc: |
   Asks whether an infinite plane set in which, for some fixed $\epsilon>0$,
   every $n$ of its points include at least $\epsilon n$ with no three collinear
-  must be a finite union of sets with no three collinear; disproved.
+  must be a finite union of sets with no three collinear.
 tags:
 - Geometry
 status: solved

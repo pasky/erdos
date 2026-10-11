@@ -4,8 +4,8 @@ title: Problem 761
 desc: |
   Asks whether large chromatic number forces large dichromatic number, and
   whether large cochromatic number forces a subgraph of large dichromatic
-  number; open. Cochromatic classes induce complete or empty graphs, and
-  dichromatic colorings avoid monochromatic oriented cycles.
+  number. Cochromatic classes induce complete or empty graphs, and dichromatic
+  colorings avoid monochromatic oriented cycles.
 tags:
 - Graph theory
 - Chromatic number

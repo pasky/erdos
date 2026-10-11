@@ -3,8 +3,7 @@ name: problems/arithmetic_functions/E0690
 title: Problem 690
 desc: |
   Concerns the density $d_k(p)$ of the integers whose $k$th smallest prime
-  factor is $p$, and asks whether it is unimodal in $p$ for each fixed $k$;
-  solved in the negative.
+  factor is $p$, and asks whether it is unimodal in $p$ for each fixed $k$.
 tags:
 - Number theory
 status: solved

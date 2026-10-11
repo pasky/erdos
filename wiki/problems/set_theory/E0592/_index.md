@@ -4,7 +4,7 @@ title: Problem 592
 desc: |
   Asks which countable ordinals $\beta$ make every red-blue coloring of the
   pairs from $\omega^\beta$ give a red complete subgraph of order type
-  $\omega^\beta$ or a blue triangle; open.
+  $\omega^\beta$ or a blue triangle.
 tags:
 - Set theory
 - Ramsey theory

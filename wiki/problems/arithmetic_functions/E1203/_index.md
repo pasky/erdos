@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E1203
 title: Problem 1203
 desc: |
   Asks whether $F(n)=\max_k\omega(n+k)\log\log k/\log k$ tends to infinity as
-  $n\to\infty$, where $\omega$ counts distinct prime factors; open.
+  $n\to\infty$, where $\omega$ counts distinct prime factors.
 tags:
 - Number theory
 status: open

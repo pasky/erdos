@@ -3,7 +3,7 @@ name: problems/additive_bases/E0152
 title: Problem 152
 desc: |
   Asks whether, for every $M$, each sufficiently large finite Sidon set $A$ has
-  at least $M$ sums $a\in A+A$ with $a-1,a+1\notin A+A$; proved.
+  at least $M$ sums $a\in A+A$ with $a-1,a+1\notin A+A$.
 tags:
 - Sidon sets
 status: solved

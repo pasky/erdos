@@ -4,7 +4,7 @@ title: Problem 521
 desc: |
   Asks whether the number $R_n$ of real roots of a random degree-$n$ polynomial
   with independent uniform $\pm 1$ coefficients satisfies $R_n/\log n\to 2/\pi$
-  almost surely; the answer is no.
+  almost surely.
 tags:
 - Analysis
 - Polynomials

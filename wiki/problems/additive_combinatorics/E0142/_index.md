@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0142
 title: Problem 142
 desc: |
   Asks for an asymptotic formula for $r_k(N)$, the size of the largest subset of
-  $\{1,\ldots,N\}$ with no non-trivial $k$-term arithmetic progression; open.
+  $\{1,\ldots,N\}$ with no non-trivial $k$-term arithmetic progression.
 tags:
 - Additive combinatorics
 - Arithmetic progressions

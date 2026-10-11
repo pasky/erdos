@@ -4,7 +4,7 @@ title: Problem 55
 desc: |
   Asks for non-trivial bounds on how sparse a set $A$ of integers can be if, for
   a given $r>2$, all large integers are monochromatic sums of elements of $A$
-  under every $r$-coloring of $A$; solved.
+  under every $r$-coloring of $A$.
 tags:
 - Number theory
 - Ramsey theory

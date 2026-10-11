@@ -4,7 +4,7 @@ title: Problem 88
 desc: |
   Asks whether, for some $\delta=\delta(\epsilon)>0$, every $n$-vertex graph
   with no clique or independent set of size $\epsilon\log n$ has an induced
-  subgraph with $m$ edges for every $m\le\delta n^2$; proved.
+  subgraph with $m$ edges for every $m\le\delta n^2$.
 tags:
 - Graph theory
 - Ramsey theory

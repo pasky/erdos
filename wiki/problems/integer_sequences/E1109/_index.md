@@ -4,7 +4,7 @@ title: Problem 1109
 desc: |
   Asks for an estimate of the size $f(N)$ of the largest subset of
   $\{1,\ldots,N\}$ whose pairwise sums are all squarefree, and whether
-  $f(N)\le N^{o(1)}$; open.
+  $f(N)\le N^{o(1)}$.
 tags:
 - Number theory
 status: open

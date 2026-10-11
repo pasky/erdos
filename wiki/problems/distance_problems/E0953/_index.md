@@ -3,7 +3,7 @@ name: problems/distance_problems/E0953
 title: Problem 953
 desc: |
   Asks how large the measure of a set in a disc of radius $r$ can be if no two
-  of its points are at an integer distance; open.
+  of its points are at an integer distance.
 tags:
 - Geometry
 - Distances

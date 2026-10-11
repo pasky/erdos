@@ -5,7 +5,7 @@ desc: |
   Asks whether every non-polynomial entire function $f$ has a locally
   rectifiable path $C$ to infinity with
   $\int_C\lvert f(z)\rvert^{-\lambda}\,\mathrm{d}z$ finite for every
-  $\lambda>0$; proved.
+  $\lambda>0$.
 tags:
 - Analysis
 status: solved

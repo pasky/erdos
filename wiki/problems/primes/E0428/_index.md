@@ -4,7 +4,7 @@ title: Problem 428
 desc: |
   Asks whether there is a set $A\subseteq\mathbb{N}$ with
   $\liminf\lvert A\cap[1,x]\rvert/\pi(x)>0$ such that, for infinitely many $n$,
-  $n-a$ is prime for every $a\in A$ with $0<a<n$; open.
+  $n-a$ is prime for every $a\in A$ with $0<a<n$.
 tags:
 - Number theory
 - Primes

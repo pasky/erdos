@@ -3,8 +3,7 @@ name: problems/irrationality/E0266
 title: Problem 266
 desc: |
   Asks whether every sequence of positive integers $a_n$ with $\sum 1/a_n$
-  convergent has an integer $t\ge1$ making $\sum 1/(a_n+t)$ irrational; answered
-  no.
+  convergent has an integer $t\ge1$ making $\sum 1/(a_n+t)$ irrational.
 tags:
 - Irrationality
 status: solved

@@ -5,7 +5,7 @@ desc: |
   Asks whether the number $\tau_\perp(n)$ of coprime consecutive divisor pairs
   of $n$ satisfies $\tau_\perp(n)/\omega(n)\to\infty$ for almost all $n$ and
   $\tau_\perp(n)<\exp((\log n)^{o(1)})$ for all $n$, and how its maximum over
-  squarefree $n$ with $\omega(n)=k$ grows; open.
+  squarefree $n$ with $\omega(n)=k$ grows.
 tags:
 - Number theory
 - Divisors

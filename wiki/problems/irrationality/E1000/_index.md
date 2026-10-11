@@ -5,7 +5,7 @@ desc: |
   Asks whether some infinite integer sequence $n_1<n_2<\cdots$ has
   $\frac{1}{N}\sum_{k\le N}\phi_A(k)/n_k\to0$, where $\phi_A(k)$ counts the
   fractions $m/n_k$ with $1\le m\le n_k$ whose denominator in lowest terms
-  differs from every earlier $n_j$; proved.
+  differs from every earlier $n_j$.
 tags:
 - Number theory
 - Diophantine approximation

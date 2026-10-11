@@ -3,8 +3,7 @@ name: problems/irrationality/E0260
 title: Problem 260
 desc: |
   Asks whether $\sum_n a_n/2^{a_n}$ is irrational for every increasing sequence
-  $a_n$ with $a_n/n\to\infty$; open, with a pending claim that the answer is
-  yes.
+  $a_n$ with $a_n/n\to\infty$.
 tags:
 - Irrationality
 status: claimed

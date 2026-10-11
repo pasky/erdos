@@ -2,8 +2,7 @@
 name: problems/integer_sequences/E0438
 title: Problem 438
 desc: |
-  Asks how large $A\subseteq\{1,\ldots,N\}$ can be if $A+A$ contains no square;
-  solved.
+  Asks how large $A\subseteq\{1,\ldots,N\}$ can be if $A+A$ contains no square.
 tags:
 - Number theory
 status: solved

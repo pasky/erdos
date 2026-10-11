@@ -4,8 +4,7 @@ title: Problem 565
 desc: |
   Asks whether $R^*(G)\le2^{O(n)}$ for every graph $G$ on $n$ vertices, where
   the induced Ramsey number $R^*(G)$ is the fewest vertices of a graph in which
-  every two-coloring of the edges gives an induced monochromatic copy of $G$;
-  proved.
+  every two-coloring of the edges gives an induced monochromatic copy of $G$.
 tags:
 - Graph theory
 - Ramsey theory

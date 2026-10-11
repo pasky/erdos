@@ -5,7 +5,7 @@ desc: |
   Asks, for the integers $a_1<a_2<\cdots$ coprime to the $k$th primorial $n_k$
   (the product of the first $k$ primes), for an estimate of the smallest even
   number not of the form $a_{i+1}-a_i$, and whether $\gg\max_i(a_{i+1}-a_i)$
-  even numbers have that form; open.
+  even numbers have that form.
 tags:
 - Number theory
 status: open

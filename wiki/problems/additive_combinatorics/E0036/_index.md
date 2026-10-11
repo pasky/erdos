@@ -4,7 +4,7 @@ title: Problem 36
 desc: |
   Asks for the largest constant $c$ such that, for large $N$, every partition of
   $\{1,\ldots,2N\}$ into sets $A$ and $B$ of size $N$ has some $x$ with at least
-  $cN$ solutions to $a-b=x$ with $a\in A$ and $b\in B$; open.
+  $cN$ solutions to $a-b=x$ with $a\in A$ and $b\in B$.
 tags:
 - Number theory
 - Additive combinatorics

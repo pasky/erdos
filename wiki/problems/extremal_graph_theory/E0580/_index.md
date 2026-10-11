@@ -3,8 +3,8 @@ name: problems/extremal_graph_theory/E0580
 title: Problem 580
 desc: |
   Asks whether every graph on $n$ vertices in which at least $n/2$ vertices have
-  degree at least $n/2$ contains every tree on at most $n/2$ vertices. It is
-  open: Zhao proved it for large $n$, and finitely many orders remain unchecked.
+  degree at least $n/2$ contains every tree on at most $n/2$ vertices. Zhao
+  proved it for large $n$, and finitely many orders remain unchecked.
 tags:
 - Graph theory
 status: open

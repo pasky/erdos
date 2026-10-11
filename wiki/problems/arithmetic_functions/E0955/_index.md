@@ -3,9 +3,9 @@ name: problems/arithmetic_functions/E0955
 title: Problem 955
 desc: |
   Asks whether every set $A$ of density zero has a preimage $s^{-1}(A)$ of
-  density zero, where $s(n)=\sigma(n)-n$ is the sum of proper divisors; open.
-  Known results cover the primes, sums of two squares, integers with unusually
-  many prime factors, palindromes, and sparse and missing-digit sets.
+  density zero, where $s(n)=\sigma(n)-n$ is the sum of proper divisors. Known
+  results cover the primes, sums of two squares, integers with unusually many
+  prime factors, palindromes, and sparse and missing-digit sets.
 tags:
 - Number theory
 status: open

@@ -4,7 +4,7 @@ title: Problem 169
 desc: |
   Asks for estimates of $f(k)$, the supremum of $\sum_{n\in A}1/n$ over sets $A$
   of positive integers with no $k$-term arithmetic progression, and whether
-  $f(k)/\log W(k)\to\infty$, where $W(k)$ is the van der Waerden number; open.
+  $f(k)/\log W(k)\to\infty$, where $W(k)$ is the van der Waerden number.
 tags:
 - Additive combinatorics
 - Arithmetic progressions

@@ -3,7 +3,7 @@ name: problems/irrationality/E0250
 title: Problem 250
 desc: |
   Asks whether $\sum_n \sigma(n)/2^n$ is irrational, where $\sigma$ is the
-  sum-of-divisors function; answered yes.
+  sum-of-divisors function.
 tags:
 - Number theory
 - Irrationality

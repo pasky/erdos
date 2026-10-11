@@ -4,7 +4,7 @@ title: Problem 1185
 desc: |
   Asks whether every dense subset of $\{1,\ldots,N\}$ has a $k$-term arithmetic
   progression whose common difference lies in $B-B$, for every large enough set
-  $B$; disproved.
+  $B$.
 tags:
 - Additive combinatorics
 - Arithmetic progressions

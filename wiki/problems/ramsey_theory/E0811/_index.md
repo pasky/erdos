@@ -4,7 +4,7 @@ title: Problem 811
 desc: |
   Asks for which graphs $G$ every balanced coloring of a large $K_n$ with $e(G)$
   colors, in which each vertex sees equally many edges of every color, contains
-  a rainbow copy of $G$; open.
+  a rainbow copy of $G$.
 tags:
 - Graph theory
 - Ramsey theory

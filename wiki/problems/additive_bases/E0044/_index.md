@@ -4,7 +4,7 @@ title: Problem 44
 desc: |
   Asks whether, for any $\epsilon>0$, every Sidon set $A\subset\{1,\ldots,N\}$
   extends by elements above $N$ to a Sidon set of size at least
-  $(1-\epsilon)M^{1/2}$ in some $\{1,\ldots,M\}$; open.
+  $(1-\epsilon)M^{1/2}$ in some $\{1,\ldots,M\}$.
 tags:
 - Number theory
 - Sidon sets

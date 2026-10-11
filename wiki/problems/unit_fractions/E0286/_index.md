@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0286
 title: Problem 286
 desc: |
   Asks whether $k$ distinct unit fractions summing to $1$ can always be chosen
-  with all denominators in an interval of width $(e-1+o(1))k$; proved.
+  with all denominators in an interval of width $(e-1+o(1))k$.
 tags:
 - Number theory
 - Unit fractions

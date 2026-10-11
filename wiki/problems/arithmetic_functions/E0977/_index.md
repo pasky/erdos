@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0977
 title: Problem 977
 desc: |
   Asks whether $P(2^n-1)/n\to\infty$, where $P(m)$ is the greatest prime factor
-  of $m$; proved.
+  of $m$.
 tags:
 - Number theory
 status: solved

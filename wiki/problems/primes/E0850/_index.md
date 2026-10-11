@@ -3,7 +3,7 @@ name: problems/primes/E0850
 title: Problem 850
 desc: |
   Asks whether there are distinct integers $x$ and $y$ such that $x$ and $y$,
-  $x+1$ and $y+1$, and $x+2$ and $y+2$ each have the same prime factors; open.
+  $x+1$ and $y+1$, and $x+2$ and $y+2$ each have the same prime factors.
 tags:
 - Number theory
 - Primes

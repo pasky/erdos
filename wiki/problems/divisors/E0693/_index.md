@@ -4,7 +4,7 @@ title: Problem 693
 desc: |
   Asks for an estimate of the largest gap between consecutive integers in
   $[n,n^k]$, for fixed $k\ge2$, that have a divisor in $(n,2n)$, and whether it
-  is at most $(\log n)^{O(1)}$; open.
+  is at most $(\log n)^{O(1)}$.
 tags:
 - Number theory
 - Divisors

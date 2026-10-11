@@ -4,7 +4,7 @@ title: Problem 568
 desc: |
   Asks whether every graph $G$ with $R(G,T_n)\ll n$ for all trees $T_n$ on $n$
   vertices and $R(G,K_n)\ll n^2$ satisfies $R(G,H)\ll m$ for every graph $H$
-  with $m$ edges and no isolated vertices; open.
+  with $m$ edges and no isolated vertices.
 tags:
 - Graph theory
 - Ramsey theory

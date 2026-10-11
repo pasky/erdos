@@ -4,7 +4,7 @@ title: Problem 113
 desc: |
   Asks whether a bipartite graph $G$ has Turán number
   $\mathrm{ex}(n;G)=O(n^{3/2})$ exactly when it is $2$-degenerate, that is, has
-  no induced subgraph of minimum degree at least $3$; disproved.
+  no induced subgraph of minimum degree at least $3$.
 tags:
 - Graph theory
 - Turán numbers

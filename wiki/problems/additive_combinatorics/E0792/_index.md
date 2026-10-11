@@ -4,7 +4,7 @@ title: Problem 792
 desc: |
   Estimates $f(n)$, the size of the largest sum-free subset (no solution to
   $a+b=c$) guaranteed inside any set of $n$ integers. The main term $n/3$ is
-  settled, and the open second-order term lies between $c\log\log n$ and $o(n)$.
+  settled, and the second-order term lies between $c\log\log n$ and $o(n)$.
 tags:
 - Additive combinatorics
 status: open

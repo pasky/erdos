@@ -4,7 +4,7 @@ title: Problem 772
 desc: |
   Asks whether $H_k(n)/n^{1/2}\to\infty$, where $H_k(n)$ is the size of the
   largest Sidon set guaranteed inside any $n$ integers in which no number has
-  more than $k$ representations as a sum of two elements; proved.
+  more than $k$ representations as a sum of two elements.
 tags:
 - Number theory
 - Sidon sets

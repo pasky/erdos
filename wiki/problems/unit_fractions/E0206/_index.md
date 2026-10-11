@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0206
 title: Problem 206
 desc: |
   Asks whether, for almost every $x>0$, the best underapproximations of $x$ by
-  sums of $n$ distinct unit fractions are eventually built greedily; disproved.
+  sums of $n$ distinct unit fractions are eventually built greedily.
 tags:
 - Number theory
 - Unit fractions

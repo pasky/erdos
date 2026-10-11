@@ -3,7 +3,7 @@ name: problems/primes/E0458
 title: Problem 458
 desc: |
   Asks whether $[1,\ldots,p_{k+1}-1]<p_k[1,\ldots,p_k]$ for all $k\ge1$, where
-  $[1,\ldots,n]$ is the least common multiple of $1,\ldots,n$; open.
+  $[1,\ldots,n]$ is the least common multiple of $1,\ldots,n$.
 tags:
 - Number theory
 - Primes

@@ -4,7 +4,7 @@ title: Problem 844
 desc: |
   Asks whether the even numbers together with the odd non-squarefree numbers
   form a largest $A\subseteq\{1,\ldots,N\}$ in which no product $ab$ with
-  $a,b\in A$ is squarefree; proved.
+  $a,b\in A$ is squarefree.
 tags:
 - Number theory
 - Intersecting families

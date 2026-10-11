@@ -3,8 +3,7 @@ name: problems/set_systems/E0021
 title: Problem 21
 desc: |
   Asks whether the smallest intersecting family of $n$-element sets in which
-  every set of size at most $n-1$ misses some member has size linear in $n$. It
-  is proved.
+  every set of size at most $n-1$ misses some member has size linear in $n$.
 tags:
 - Combinatorics
 - Intersecting families

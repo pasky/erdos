@@ -4,7 +4,7 @@ title: Problem 969
 desc: |
   Asks for the order of magnitude of the error term $E(x)$ in
   $Q(x)=\frac{6}{\pi^2}x+E(x)$, where $Q(x)$ counts the squarefree integers up
-  to $x$; open.
+  to $x$.
 tags:
 - Number theory
 status: open

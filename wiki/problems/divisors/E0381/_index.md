@@ -3,7 +3,7 @@ name: problems/divisors/E0381
 title: Problem 381
 desc: |
   Asks whether the number $Q(x)$ of highly composite numbers up to $x$ grows
-  faster than every fixed power of $\log x$; disproved.
+  faster than every fixed power of $\log x$.
 tags:
 - Number theory
 - Divisors

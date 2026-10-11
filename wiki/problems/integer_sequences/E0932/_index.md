@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0932
 title: Problem 932
 desc: |
   Asks whether infinitely many prime gaps $(p_r,p_{r+1})$ contain at least two
-  integers whose prime factors are all smaller than $p_{r+1}-p_r$; open.
+  integers whose prime factors are all smaller than $p_{r+1}-p_r$.
 tags:
 - Number theory
 status: open

@@ -4,7 +4,7 @@ title: Problem 430
 desc: |
   Asks whether, for all large $n$, the decreasing sequence with $a_1=n-1$ and
   each $a_k$ the greatest integer in $[2,a_{k-1})$ whose prime factors all
-  exceed $n-a_k$ must contain a composite term; open.
+  exceed $n-a_k$ must contain a composite term.
 tags:
 - Number theory
 status: open

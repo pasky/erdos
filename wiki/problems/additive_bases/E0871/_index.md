@@ -3,7 +3,7 @@ name: problems/additive_bases/E0871
 title: Problem 871
 desc: |
   Asks whether an additive basis $A$ of order $2$ with $1_A\ast 1_A(n)\to\infty$
-  can be split into two disjoint additive bases of order $2$; disproved.
+  can be split into two disjoint additive bases of order $2$.
 tags:
 - Number theory
 - Additive bases

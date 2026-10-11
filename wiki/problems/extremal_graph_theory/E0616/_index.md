@@ -4,7 +4,7 @@ title: Problem 616
 desc: |
   Asks for the best bound $t$ on the covering number of an $r$-uniform
   hypergraph, $r\ge3$, in which every subhypergraph on at most $3r-3$ vertices
-  has covering number at most $1$; open.
+  has covering number at most $1$.
 tags:
 - Graph theory
 status: open

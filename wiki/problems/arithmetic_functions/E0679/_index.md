@@ -4,7 +4,7 @@ title: Problem 679
 desc: |
   Asks whether, for fixed $\epsilon>0$, infinitely many $n$ have
   $\omega(n-k)<(1+\epsilon)\log k/\log\log k$ for all large $k<n$, where
-  $\omega$ counts distinct prime factors; open.
+  $\omega$ counts distinct prime factors.
 tags:
 - Number theory
 status: open

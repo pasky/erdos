@@ -4,7 +4,7 @@ title: Problem 380
 desc: |
   Asks whether the number of $n\le x$ lying in some interval whose product has a
   repeated largest prime factor is asymptotic to the number of $n\le x$
-  divisible by the square of their largest prime factor; proved.
+  divisible by the square of their largest prime factor.
 tags:
 - Number theory
 status: solved

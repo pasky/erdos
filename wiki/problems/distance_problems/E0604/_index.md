@@ -3,7 +3,7 @@ name: problems/distance_problems/E0604
 title: Problem 604
 desc: |
   Asks whether any $n$ distinct points in the plane must include a point with
-  $\gg n^{1-o(1)}$ distinct distances to the others; open.
+  $\gg n^{1-o(1)}$ distinct distances to the others.
 tags:
 - Geometry
 - Distances

@@ -4,7 +4,7 @@ title: Problem 414
 desc: |
   Asks whether, under the map $n\mapsto n+\tau(n)$ with $\tau(n)$ the number of
   divisors, the iterates of any two starting integers eventually reach a common
-  value; open.
+  value.
 tags:
 - Number theory
 - Iterated functions

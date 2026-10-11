@@ -4,7 +4,7 @@ title: Problem 526
 desc: |
   Asks for a necessary and sufficient condition on arc lengths $a_n\to0$ with
   $\sum a_n=\infty$ under which independent random arcs of these lengths cover
-  the unit circle with probability $1$; solved.
+  the unit circle with probability $1$.
 tags:
 - Probability
 - Geometry

@@ -4,8 +4,7 @@ title: Problem 644
 desc: |
   Bounds the size of a set needed to meet every member of a family of
   $k$-element sets in which any $r$ members are all met by one pair. The
-  question is whether this size is asymptotically a constant times $k$, and it
-  is open.
+  question is whether this size is asymptotically a constant times $k$.
 tags:
 - Combinatorics
 status: open

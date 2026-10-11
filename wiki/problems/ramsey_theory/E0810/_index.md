@@ -4,7 +4,7 @@ title: Problem 810
 desc: |
   Asks whether there is an $\epsilon>0$ such that, for all large $n$, some graph
   on $n$ vertices with at least $\epsilon n^2$ edges can be edge-colored with
-  $n$ colors so that every $C_4$ gets four distinct colors; open.
+  $n$ colors so that every $C_4$ gets four distinct colors.
 tags:
 - Graph theory
 - Ramsey theory

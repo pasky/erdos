@@ -3,7 +3,7 @@ name: problems/set_systems/E0083
 title: Problem 83
 desc: |
   Bounds the size of a family of $2n$-element subsets of a $4n$-element set in
-  which every two members share at least two elements. The bound is proved.
+  which every two members share at least two elements.
 tags:
 - Combinatorics
 - Intersecting families

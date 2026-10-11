@@ -4,7 +4,7 @@ title: Problem 178
 desc: |
   Asks whether one function $f:\mathbb{N}\to\{-1,1\}$ can keep the initial
   partial sums along each of infinitely many prescribed integer sequences
-  bounded. Beck answered yes in 1981.
+  bounded.
 tags:
 - Discrepancy
 status: solved

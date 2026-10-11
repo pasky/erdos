@@ -3,7 +3,7 @@ name: problems/set_theory/E0601
 title: Problem 601
 desc: |
   Asks for which limit ordinals $\alpha$ every graph on vertex set $\alpha$ has
-  an infinite path or an independent set of order type $\alpha$; open.
+  an infinite path or an independent set of order type $\alpha$.
 tags:
 - Graph theory
 - Set theory

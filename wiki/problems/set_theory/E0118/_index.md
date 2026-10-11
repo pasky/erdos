@@ -4,7 +4,7 @@ title: Problem 118
 desc: |
   Asks whether, for an order type $\alpha$ such that every two-coloring of
   $K_\alpha$ has a red $K_\alpha$ or a blue $K_3$, every such coloring also has
-  a red $K_\alpha$ or a blue $K_n$ for each $n\ge3$; disproved.
+  a red $K_\alpha$ or a blue $K_n$ for each $n\ge3$.
 tags:
 - Set theory
 - Ramsey theory

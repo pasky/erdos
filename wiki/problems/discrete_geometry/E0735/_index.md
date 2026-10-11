@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0735
 title: Problem 735
 desc: |
   Asks when $n$ points in the plane can be given positive weights so that every
-  line through at least two of them has the same total weight; solved.
+  line through at least two of them has the same total weight.
 tags:
 - Geometry
 status: solved

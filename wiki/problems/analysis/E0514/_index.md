@@ -5,7 +5,7 @@ desc: |
   Asks whether every transcendental entire function $f$ has a path to infinity
   on which $\lvert f(z)/z^n\rvert\to\infty$ for all $n$, how long it must be,
   and whether $\lvert f\rvert$ can outgrow a fixed function of its maximum
-  modulus. The first part is proved, and pending claims answer the rest.
+  modulus.
 tags:
 - Analysis
 parts: [path, length, growth]

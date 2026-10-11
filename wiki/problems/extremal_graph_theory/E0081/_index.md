@@ -3,8 +3,7 @@ name: problems/extremal_graph_theory/E0081
 title: Problem 81
 desc: |
   Asks whether the edges of every chordal graph on $n$ vertices can be
-  partitioned into $n^2/6+O(n)$ cliques; open on the site, with pending claimed
-  proofs.
+  partitioned into $n^2/6+O(n)$ cliques.
 tags:
 - Graph theory
 status: claimed

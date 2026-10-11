@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0587
 title: Problem 587
 desc: |
   Asks for the size of the largest subset of $\{1,\ldots,N\}$ in which no
-  non-empty subset has a square sum; solved.
+  non-empty subset has a square sum.
 tags:
 - Number theory
 status: solved

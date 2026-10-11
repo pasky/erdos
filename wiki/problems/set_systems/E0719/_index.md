@@ -4,7 +4,7 @@ title: Problem 719
 desc: |
   Asks whether every $r$-uniform hypergraph on $n$ vertices is a union of at
   most $\mathrm{ex}_r(n;K_{r+1}^r)$ edges and $(r+1)$-cliques, no two sharing an
-  edge. It is the Erdős–Sauer conjecture, known for $r=2$ and otherwise open.
+  edge. It is the Erdős–Sauer conjecture, known for $r=2$.
 tags:
 - Graph theory
 - Hypergraphs

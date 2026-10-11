@@ -4,7 +4,7 @@ title: Problem 73
 desc: |
   Asks whether a graph in which every subgraph on $n$ vertices has an
   independent set of size at least $(n-k)/2$ becomes bipartite after deleting
-  $O_k(1)$ vertices; proved.
+  $O_k(1)$ vertices.
 tags:
 - Graph theory
 status: solved

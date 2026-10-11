@@ -3,8 +3,7 @@ name: problems/divisors/E0887
 title: Problem 887
 desc: |
   Asks whether there is an absolute constant $K$ such that, for every $C>0$,
-  every large $n$ has at most $K$ divisors in $(n^{1/2},n^{1/2}+Cn^{1/4})$;
-  open.
+  every large $n$ has at most $K$ divisors in $(n^{1/2},n^{1/2}+Cn^{1/4})$.
 tags:
 - Number theory
 - Divisors

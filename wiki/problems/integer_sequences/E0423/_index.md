@@ -4,7 +4,7 @@ title: Problem 423
 desc: |
   Asks for the asymptotic behaviour of the sequence with $a_1=1$, $a_2=2$ in
   which each later term is the least integer above the previous one that is a
-  sum of at least two consecutive earlier terms; open.
+  sum of at least two consecutive earlier terms.
 tags:
 - Number theory
 status: open

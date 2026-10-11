@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E0698
 title: Problem 698
 desc: |
   Asks whether there is $h(n)\to\infty$ with
-  $\gcd(\binom{n}{i},\binom{n}{j})\ge h(n)$ for all $2\le i<j\le n/2$; proved.
+  $\gcd(\binom{n}{i},\binom{n}{j})\ge h(n)$ for all $2\le i<j\le n/2$.
 tags:
 - Number theory
 - Binomial coefficients

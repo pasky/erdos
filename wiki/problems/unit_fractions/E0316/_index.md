@@ -3,8 +3,7 @@ name: problems/unit_fractions/E0316
 title: Problem 316
 desc: |
   Asks whether every finite set of integers above $1$ with reciprocal sum less
-  than $2$ can be split into two parts, each with reciprocal sum below $1$;
-  disproved.
+  than $2$ can be split into two parts, each with reciprocal sum below $1$.
 tags:
 - Number theory
 - Unit fractions

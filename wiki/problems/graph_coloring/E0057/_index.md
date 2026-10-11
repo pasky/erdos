@@ -3,7 +3,7 @@ name: problems/graph_coloring/E0057
 title: Problem 57
 desc: |
   Asks whether the reciprocals of the odd cycle lengths of a graph with infinite
-  chromatic number must sum to infinity; proved.
+  chromatic number must sum to infinity.
 tags:
 - Graph theory
 - Chromatic number

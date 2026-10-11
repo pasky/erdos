@@ -4,7 +4,7 @@ title: Problem 243
 desc: |
   Asks whether every increasing integer sequence with $a_n/a_{n-1}^2\to1$ and
   $\sum 1/a_n$ rational must satisfy $a_n=a_{n-1}^2-a_{n-1}+1$ for all large
-  $n$; open.
+  $n$.
 tags:
 - Number theory
 - Irrationality

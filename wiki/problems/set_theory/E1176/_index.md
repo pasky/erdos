@@ -4,7 +4,7 @@ title: Problem 1176
 desc: |
   Asks whether every graph of chromatic number $\aleph_1$ has an edge coloring
   with $\aleph_1$ colors such that every countable coloring of its vertices has
-  a color class containing edges of all colors; open.
+  a color class containing edges of all colors.
 tags:
 - Set theory
 - Ramsey theory

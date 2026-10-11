@@ -3,7 +3,7 @@ name: problems/divisors/E0893
 title: Problem 893
 desc: |
   Asks whether $f(2n)/f(n)$ tends to a limit, where
-  $f(n)=\sum_{k\le n}\tau(2^k-1)$ sums the divisor counts of $2^k-1$; open.
+  $f(n)=\sum_{k\le n}\tau(2^k-1)$ sums the divisor counts of $2^k-1$.
 tags:
 - Number theory
 - Divisors

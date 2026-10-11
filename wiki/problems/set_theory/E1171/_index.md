@@ -3,7 +3,7 @@ name: problems/set_theory/E1171
 title: Problem 1171
 desc: |
   Asks whether $\omega_1^2\to(\omega_1\omega,3,\ldots,3)_{k+1}^2$ holds for
-  every finite $k$; open.
+  every finite $k$.
 tags:
 - Set theory
 - Ramsey theory

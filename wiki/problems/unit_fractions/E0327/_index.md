@@ -3,8 +3,7 @@ name: problems/unit_fractions/E0327
 title: Problem 327
 desc: |
   Asks how large $A\subseteq\{1,\ldots,N\}$ can be if $a+b\nmid ab$ for all
-  distinct $a,b\in A$, or if instead $a+b\nmid 2ab$; open on the site, with a
-  pending claimed answer.
+  distinct $a,b\in A$, or if instead $a+b\nmid 2ab$.
 tags:
 - Number theory
 - Unit fractions

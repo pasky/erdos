@@ -3,8 +3,7 @@ name: problems/divisors/E1196
 title: Problem 1196
 desc: |
   Asks whether every primitive set $A\subset[x,\infty)$, in which no element
-  divides another, has $\sum_{a\in A}1/(a\log a)<1+o(1)$ as $x\to\infty$;
-  proved.
+  divides another, has $\sum_{a\in A}1/(a\log a)<1+o(1)$ as $x\to\infty$.
 tags:
 - Number theory
 - Primitive sets

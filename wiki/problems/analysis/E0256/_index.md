@@ -4,7 +4,7 @@ title: Problem 256
 desc: |
   Asks for estimates of the largest $f(n)$ such that
   $\max_{\lvert z\rvert=1}\lvert\prod_i(1-z^{a_i})\rvert\geq f(n)$ for every
-  choice of $n$ integers $1\leq a_1\leq\cdots\leq a_n$; open.
+  choice of $n$ integers $1\leq a_1\leq\cdots\leq a_n$.
 tags:
 - Analysis
 status: open

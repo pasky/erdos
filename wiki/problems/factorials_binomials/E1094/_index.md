@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E1094
 title: Problem 1094
 desc: |
   Asks whether, for all $n\ge 2k$ with only finitely many exceptions, the least
-  prime factor of $\binom{n}{k}$ is at most $\max(n/k,k)$; open.
+  prime factor of $\binom{n}{k}$ is at most $\max(n/k,k)$.
 tags:
 - Number theory
 - Binomial coefficients

@@ -3,7 +3,7 @@ name: problems/set_theory/E1169
 title: Problem 1169
 desc: |
   Asks whether the negative partition relation
-  $\omega_1^2\not\to(\omega_1^2,3)^2$ holds; open.
+  $\omega_1^2\not\to(\omega_1^2,3)^2$ holds.
 tags:
 - Set theory
 - Ramsey theory

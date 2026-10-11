@@ -4,7 +4,7 @@ title: Problem 323
 desc: |
   Asks whether $f_{k,k}(x)\gg_\epsilon x^{1-\epsilon}$ and, for $m<k$, whether
   $f_{k,m}(x)\gg x^{m/k}$, where $f_{k,m}(x)$ counts the integers up to $x$ that
-  are sums of $m$ nonnegative $k$th powers; open.
+  are sums of $m$ nonnegative $k$th powers.
 tags:
 - Number theory
 - Powers

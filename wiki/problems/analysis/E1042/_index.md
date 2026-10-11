@@ -5,7 +5,7 @@ desc: |
   Asks whether $\{z:\lvert f(z)\rvert<1\}$ can have $n$ components for monic $f$
   of degree $n$ with roots in a closed $F\subset\mathbb{C}$ of transfinite
   diameter $1$ in no closed disc of radius $1$, and whether it has at most
-  $(1-c)n$, with $c=c(F)>0$, when the diameter is below $1$; proved.
+  $(1-c)n$, with $c=c(F)>0$, when the diameter is below $1$.
 tags:
 - Analysis
 status: solved

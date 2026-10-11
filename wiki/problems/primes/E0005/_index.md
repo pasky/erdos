@@ -3,7 +3,7 @@ name: problems/primes/E0005
 title: Problem 5
 desc: |
   Asks whether, for every $C\ge 0$, some sequence of indices $n_i$ has
-  $(p_{n_i+1}-p_{n_i})/\log n_i\to C$, where $p_n$ is the $n$th prime; open.
+  $(p_{n_i+1}-p_{n_i})/\log n_i\to C$, where $p_n$ is the $n$th prime.
 tags:
 - Number theory
 - Primes

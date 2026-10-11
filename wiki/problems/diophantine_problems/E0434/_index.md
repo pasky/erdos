@@ -4,7 +4,7 @@ title: Problem 434
 desc: |
   Asks which $k$-element set $A\subseteq\{1,\ldots,n\}$ with $\gcd(A)=1$ leaves
   the most integers that are not sums of its elements, repetition allowed, and
-  whether it is $\{n,n-1,\ldots,n-k+1\}$; proved.
+  whether it is $\{n,n-1,\ldots,n-k+1\}$.
 tags:
 - Number theory
 status: solved

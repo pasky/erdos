@@ -4,7 +4,7 @@ title: Problem 787
 desc: |
   Asks how large a subset of any $n$ real numbers can be chosen with no two
   distinct elements summing to one of the $n$ numbers (the Erdős–Moser function
-  $g(n)$). It is open, with $(\log n)^{1+c}\ll g(n)\ll\exp(O(\sqrt{\log n}))$
+  $g(n)$). Known bounds are $(\log n)^{1+c}\ll g(n)\ll\exp(O(\sqrt{\log n}))$
   for some $c>0$.
 tags:
 - Additive combinatorics

@@ -3,7 +3,7 @@ name: problems/analysis/E0226
 title: Problem 226
 desc: |
   Asks whether some non-linear entire function $f$ has $f(x)$ rational exactly
-  when the real number $x$ is rational; proved.
+  when the real number $x$ is rational.
 tags:
 - Analysis
 status: solved

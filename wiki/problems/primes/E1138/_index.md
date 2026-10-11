@@ -3,7 +3,7 @@ name: problems/primes/E1138
 title: Problem 1138
 desc: |
   Asks whether $\pi(y+Cd)-\pi(y)\sim Cd/\log y$ for $x/2<y<x$ and $C>1$, where
-  $d=\max_{p_n<x}(p_{n+1}-p_n)$ is the largest prime gap below $x$; disproved.
+  $d=\max_{p_n<x}(p_{n+1}-p_n)$ is the largest prime gap below $x$.
 tags:
 - Number theory
 - Primes

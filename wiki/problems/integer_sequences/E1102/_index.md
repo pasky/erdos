@@ -4,7 +4,7 @@ title: Problem 1102
 desc: |
   Asks how fast a sequence $A$ must increase if, for every $n$, only finitely
   many $a\in A$ make $n+a$ squarefree (property $P$), or if, for infinitely many
-  $n$, every $a\in A$ with $a<n$ makes $n+a$ squarefree (property $Q$); solved.
+  $n$, every $a\in A$ with $a<n$ makes $n+a$ squarefree (property $Q$).
 tags:
 - Number theory
 status: solved

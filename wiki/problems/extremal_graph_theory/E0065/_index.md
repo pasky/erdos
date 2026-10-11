@@ -4,7 +4,7 @@ title: Problem 65
 desc: |
   Asks whether the reciprocals of the distinct cycle lengths of a graph with $n$
   vertices and $kn$ edges sum to $\gg\log k$, and whether a complete bipartite
-  graph minimizes that sum; open.
+  graph minimizes that sum.
 tags:
 - Graph theory
 - Cycles

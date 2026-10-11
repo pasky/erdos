@@ -3,7 +3,7 @@ name: problems/distance_problems/E0605
 title: Problem 605
 desc: |
   Asks whether $n$ points on a sphere can have at least $f(n)n$ pairs at the
-  same distance, for some $f(n)\to\infty$; proved.
+  same distance, for some $f(n)\to\infty$.
 tags:
 - Geometry
 - Distances

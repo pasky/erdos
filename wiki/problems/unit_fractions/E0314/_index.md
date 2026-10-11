@@ -4,7 +4,7 @@ title: Problem 314
 desc: |
   Asks how small the excess $\epsilon(n)$ over $1$ can be when
   $1/n+1/(n+1)+\cdots$ is summed until it reaches $1$, and whether
-  $\liminf n^2\epsilon(n)=0$; proved.
+  $\liminf n^2\epsilon(n)=0$.
 tags:
 - Number theory
 - Unit fractions

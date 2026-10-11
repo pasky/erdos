@@ -3,7 +3,7 @@ name: problems/primes/E0459
 title: Problem 459
 desc: |
   Asks to estimate $f(u)$, the largest $v$ such that no integer strictly between
-  $u$ and $v$ is composed only of primes dividing $uv$; solved.
+  $u$ and $v$ is composed only of primes dividing $uv$.
 tags:
 - Number theory
 - Primes

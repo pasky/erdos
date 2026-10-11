@@ -3,7 +3,7 @@ name: problems/additive_bases/E0221
 title: Problem 221
 desc: |
   Asks whether some set $A$ with $\ll N/\log N$ elements up to $N$ makes every
-  large integer of the form $2^k+a$ with $a\in A$; proved.
+  large integer of the form $2^k+a$ with $a\in A$.
 tags:
 - Number theory
 - Additive bases

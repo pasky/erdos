@@ -4,7 +4,7 @@ title: Problem 1194
 desc: |
   Asks how fast $a_n/n$ must grow when $A\subset\mathbb{N}$ is a set in which
   every integer $n\ge1$ is uniquely a difference $a_n-b_n$ of two elements of
-  $A$; open.
+  $A$.
 tags:
 - Additive combinatorics
 - Additive bases

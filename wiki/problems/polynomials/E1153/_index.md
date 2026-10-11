@@ -5,7 +5,7 @@ desc: |
   Asks whether, for fixed $-1\le a<b\le 1$, the sum
   $\lambda(x)=\sum_k\lvert l_k(x)\rvert$ of the fundamental Lagrange polynomials
   for $n$ nodes in $[-1,1]$ satisfies
-  $\max_{x\in[a,b]}\lambda(x)>(\frac{2}{\pi}-o(1))\log n$; the answer is yes.
+  $\max_{x\in[a,b]}\lambda(x)>(\frac{2}{\pi}-o(1))\log n$.
 tags:
 - Analysis
 - Polynomials

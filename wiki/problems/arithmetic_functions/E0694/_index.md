@@ -4,7 +4,7 @@ title: Problem 694
 desc: |
   Asks for an estimate of $\max_{n\le x}f_{\max}(n)/f_{\min}(n)$, the largest
   ratio of the largest to the smallest $m$ with $\phi(m)=n$ over totient values
-  $n\le x$; solved.
+  $n\le x$.
 tags:
 - Number theory
 status: solved

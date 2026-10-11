@@ -4,8 +4,7 @@ title: Problem 1154
 desc: |
   Asks whether, for every $\alpha\in[0,1]$, some ring or field in $\mathbb{R}$
   has Hausdorff dimension $\alpha$. Mauldin's theorem gives yes under the
-  continuum hypothesis, so ZFC cannot refute the existence, but whether ZFC
-  proves it is open.
+  continuum hypothesis, so ZFC cannot refute the existence.
 tags:
 - Analysis
 status: open

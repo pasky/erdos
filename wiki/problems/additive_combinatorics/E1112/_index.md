@@ -4,8 +4,7 @@ title: Problem 1112
 desc: |
   Asks whether, for gap bounds $d_1<d_2$ and $k\ge3$, every sufficiently
   lacunary sequence misses the $k$-fold sumset of some sequence with gaps
-  between $d_1$ and $d_2$. It is solved by an accepted 2026 claim with a Lean
-  proof, though the site's label is OPEN (LEAN).
+  between $d_1$ and $d_2$.
 tags:
 - Additive combinatorics
 status: solved

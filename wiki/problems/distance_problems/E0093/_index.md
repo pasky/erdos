@@ -3,7 +3,7 @@ name: problems/distance_problems/E0093
 title: Problem 93
 desc: |
   States that $n$ points in the plane forming a convex polygon determine at
-  least $\lfloor n/2\rfloor$ distinct distances. This has been proved.
+  least $\lfloor n/2\rfloor$ distinct distances.
 tags:
 - Geometry
 - Convexity

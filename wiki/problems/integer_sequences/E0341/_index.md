@@ -4,7 +4,7 @@ title: Problem 341
 desc: |
   Asks whether the sequence that extends a finite set by repeatedly adding the
   least larger integer that is not a sum of two earlier terms has eventually
-  periodic differences; disproved.
+  periodic differences.
 tags:
 - Number theory
 status: solved

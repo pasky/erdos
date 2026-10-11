@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0614
 title: Problem 614
 desc: |
   Asks for the fewest edges in a graph on $n$ vertices in which every set of
-  $k+2$ vertices induces a subgraph of maximum degree at least $k$; open.
+  $k+2$ vertices induces a subgraph of maximum degree at least $k$.
 tags:
 - Graph theory
 status: open

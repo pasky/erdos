@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0979
 title: Problem 979
 desc: |
   Asks whether, for each $k\geq 2$, the number of ways to write
-  $n=p_1^k+\cdots+p_k^k$ with all $p_i$ prime is unbounded; open.
+  $n=p_1^k+\cdots+p_k^k$ with all $p_i$ prime is unbounded.
 tags:
 - Number theory
 status: open

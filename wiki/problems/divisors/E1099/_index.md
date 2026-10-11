@@ -4,7 +4,7 @@ title: Problem 1099
 desc: |
   Asks whether, for each $\alpha>1$, the sum $\sum_i(d_{i+1}/d_i-1)^\alpha$ over
   consecutive divisors $d_i<d_{i+1}$ of $n$ has limit inferior bounded in terms
-  of $\alpha$ as $n\to\infty$; proved.
+  of $\alpha$ as $n\to\infty$.
 tags:
 - Number theory
 - Divisors

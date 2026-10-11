@@ -4,7 +4,7 @@ title: Problem 696
 desc: |
   Asks for estimates of $h(n)$ and $H(n)$, the lengths of the longest chains of
   prime divisors and of divisors of $n$ in which each term is $1$ modulo the
-  previous one, and whether $H(n)/h(n)\to\infty$ for almost all $n$; solved.
+  previous one, and whether $H(n)/h(n)\to\infty$ for almost all $n$.
 tags:
 - Number theory
 - Divisors

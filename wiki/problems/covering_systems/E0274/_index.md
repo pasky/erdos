@@ -3,7 +3,7 @@ name: problems/covering_systems/E0274
 title: Problem 274
 desc: |
   Asks whether a group can be covered by more than one coset, the cosets having
-  different sizes, so that each element lies in exactly one of them; open.
+  different sizes, so that each element lies in exactly one of them.
 tags:
 - Group theory
 - Covering systems

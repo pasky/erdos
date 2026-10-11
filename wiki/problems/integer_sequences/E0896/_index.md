@@ -4,7 +4,7 @@ title: Problem 896
 desc: |
   Asks for an estimate of the largest number of integers $m$ with exactly one
   representation $m=ab$, $a\in A$, $b\in B$, over $A,B\subseteq\{1,\ldots,N\}$;
-  solved, with order of magnitude $N^2/((\log N)^{\delta}(\log\log N)^{3/2})$.
+  the order of magnitude is $N^2/((\log N)^{\delta}(\log\log N)^{3/2})$.
 tags:
 - Number theory
 status: solved

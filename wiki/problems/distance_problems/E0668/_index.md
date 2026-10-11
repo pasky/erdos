@@ -4,7 +4,7 @@ title: Problem 668
 desc: |
   Asks whether the number of incongruent $n$-point planar sets maximizing the
   number of unit distances tends to infinity, and whether it exceeds $1$ for
-  every $n>3$; open.
+  every $n>3$.
 tags:
 - Geometry
 - Distances

@@ -3,7 +3,7 @@ name: problems/divisors/E0882
 title: Problem 882
 desc: |
   Asks for the size of the largest $A\subseteq\{1,\ldots,n\}$ whose nonempty
-  subset sums form a set in which no element divides another; solved.
+  subset sums form a set in which no element divides another.
 tags:
 - Number theory
 - Primitive sets

@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0313
 title: Problem 313
 desc: |
   Asks whether infinitely many sums of reciprocals of distinct primes equal
-  $1-1/m$ for an integer $m\ge2$; open.
+  $1-1/m$ for an integer $m\ge2$.
 tags:
 - Number theory
 - Unit fractions

@@ -5,7 +5,6 @@ desc: |
   Asks for the largest family of subsets of $\{1,\ldots,n\}$ in which no two
   members meet in exactly $r$ elements, and whether for each $\epsilon>0$ it is
   below $(2-\delta)^n$ for some $\delta>0$ when $\epsilon n<r<(1/2-\epsilon)n$.
-  That bound is proved.
 tags:
 - Combinatorics
 status: solved

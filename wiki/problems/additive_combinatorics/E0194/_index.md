@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0194
 title: Problem 194
 desc: |
   Asks whether, for $k\ge 3$, every ordering of the real numbers contains an
-  increasing or decreasing $k$-term arithmetic progression; the answer is no.
+  increasing or decreasing $k$-term arithmetic progression.
 tags:
 - Arithmetic progressions
 status: solved

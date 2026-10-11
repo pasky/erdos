@@ -4,7 +4,7 @@ title: Problem 621
 desc: |
   Asks whether, in every graph on $n$ vertices, the largest edge set containing
   at most one edge of each triangle and the smallest edge set meeting every
-  triangle have sizes summing to at most $n^2/4$; proved.
+  triangle have sizes summing to at most $n^2/4$.
 tags:
 - Graph theory
 status: solved

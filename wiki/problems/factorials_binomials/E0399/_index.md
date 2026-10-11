@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E0399
 title: Problem 399
 desc: |
   Asks whether $n!=x^k\pm y^k$ has no solutions in positive integers with $xy>1$
-  and $k>2$; disproved.
+  and $k>2$.
 tags:
 - Number theory
 - Factorials

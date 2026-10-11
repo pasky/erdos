@@ -4,7 +4,7 @@ title: Problem 322
 desc: |
   Asks for the order of growth of the number of ways to write $n$ as a sum of
   $k$ many $k$th powers, and whether it exceeds $n^c$ for some fixed $c>0$ and
-  infinitely many $n$; open.
+  infinitely many $n$.
 tags:
 - Number theory
 - Powers

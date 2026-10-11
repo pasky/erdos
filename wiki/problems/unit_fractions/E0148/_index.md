@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0148
 title: Problem 148
 desc: |
   Asks for good estimates of $F(k)$, the number of ways to write $1$ as a sum of
-  reciprocals of $k$ distinct positive integers; open.
+  reciprocals of $k$ distinct positive integers.
 tags:
 - Number theory
 - Unit fractions

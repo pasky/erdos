@@ -5,7 +5,7 @@ desc: |
   Asks whether there is some $\beta\in(1,\infty)$ such that, as $m\to\infty$,
   the density of integers with a divisor $d\equiv1\pmod m$ in
   $(1,\exp(m^\alpha))$ tends to $0$ for $\alpha<\beta$ and to $1$ for
-  $\alpha>\beta$; proved.
+  $\alpha>\beta$.
 tags:
 - Number theory
 - Divisors

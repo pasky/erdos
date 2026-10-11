@@ -4,7 +4,7 @@ title: Problem 102
 desc: |
   Asks how many collinear points are forced when $n$ points in the plane
   determine at least $cn^2$ lines with more than three points each, and whether
-  this number $h_c(n)$ tends to infinity for fixed $c>0$; open.
+  this number $h_c(n)$ tends to infinity for fixed $c>0$.
 tags:
 - Geometry
 status: open

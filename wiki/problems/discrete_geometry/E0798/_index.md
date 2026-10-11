@@ -4,7 +4,7 @@ title: Problem 798
 desc: |
   Asks to estimate $t(n)$, the fewest points in the grid $\{1,\ldots,n\}^2$
   whose pairwise connecting lines cover every point of the grid, and in
-  particular whether $t(n)=o(n)$; proved.
+  particular whether $t(n)=o(n)$.
 tags:
 - Geometry
 status: solved

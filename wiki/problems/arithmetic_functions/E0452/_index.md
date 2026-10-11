@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0452
 title: Problem 452
 desc: |
   Asks for the size of the largest interval $I\subseteq[x,2x]$ on which every
-  $n$ has more than $\log\log n$ distinct prime factors; open.
+  $n$ has more than $\log\log n$ distinct prime factors.
 tags:
 - Number theory
 status: open

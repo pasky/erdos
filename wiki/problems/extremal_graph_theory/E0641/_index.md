@@ -4,7 +4,7 @@ title: Problem 641
 desc: |
   Asks whether there is a function $f$ such that every finite graph with
   chromatic number at least $f(k)$ has $k$ edge-disjoint cycles on the same
-  vertex set, for every $k$; disproved.
+  vertex set, for every $k$.
 tags:
 - Graph theory
 status: solved

@@ -3,7 +3,7 @@ name: problems/set_theory/E1170
 title: Problem 1170
 desc: |
   Asks whether it is consistent that $\omega_2\to(\alpha)_2^2$ for every
-  $\alpha<\omega_2$; open.
+  $\alpha<\omega_2$.
 tags:
 - Set theory
 - Ramsey theory

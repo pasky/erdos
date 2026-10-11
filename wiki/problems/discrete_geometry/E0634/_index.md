@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0634
 title: Problem 634
 desc: |
   Asks for all $n$ such that some triangle can be cut into $n$ congruent
-  triangles; open.
+  triangles.
 tags:
 - Geometry
 status: open

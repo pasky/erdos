@@ -3,7 +3,7 @@ name: problems/covering_systems/E0275
 title: Problem 275
 desc: |
   Asks whether a system of $r$ congruences that covers $2^r$ consecutive
-  integers must cover every integer. The answer is yes.
+  integers must cover every integer.
 tags:
 - Number theory
 - Covering systems

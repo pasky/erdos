@@ -4,7 +4,7 @@ title: Problem 1114
 desc: |
   Asserts that if the roots $a_0<\cdots<a_n$ of a real polynomial $f$ form an
   arithmetic progression, then the gaps between consecutive zeros of $f'$
-  increase from the midpoint of $(a_0,a_n)$ toward the endpoints; proved.
+  increase from the midpoint of $(a_0,a_n)$ toward the endpoints.
 tags:
 - Polynomials
 - Analysis

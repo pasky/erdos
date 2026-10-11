@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0508
 title: Problem 508
 desc: |
   Asks for the fewest colors needed to color the plane so that no two points at
-  distance $1$ share a color; open.
+  distance $1$ share a color.
 tags:
 - Geometry
 - Ramsey theory

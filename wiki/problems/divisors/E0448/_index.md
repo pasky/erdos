@@ -4,7 +4,7 @@ title: Problem 448
 desc: |
   Asks whether, for every $\epsilon>0$, almost all $n$ have fewer than
   $\epsilon\tau(n)$ dyadic intervals $[2^k,2^{k+1})$ containing a divisor of
-  $n$, where $\tau(n)$ is the number of divisors; disproved.
+  $n$, where $\tau(n)$ is the number of divisors.
 tags:
 - Number theory
 - Divisors

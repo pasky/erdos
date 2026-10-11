@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0107
 title: Problem 107
 desc: |
   Asks whether $2^{n-2}+1$ points in the plane, no three on a line, always
-  contain the vertices of a convex $n$-gon; open.
+  contain the vertices of a convex $n$-gon.
 tags:
 - Geometry
 - Convexity

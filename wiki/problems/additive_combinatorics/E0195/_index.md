@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0195
 title: Problem 195
 desc: |
   Asks for the largest $k$ such that every permutation of the integers contains
-  a monotone $k$-term arithmetic progression; open.
+  a monotone $k$-term arithmetic progression.
 tags:
 - Arithmetic progressions
 status: open

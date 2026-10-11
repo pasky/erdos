@@ -3,7 +3,7 @@ name: problems/additive_bases/E0157
 title: Problem 157
 desc: |
   Asks whether some infinite Sidon set is an asymptotic basis of order $3$, so
-  that every large integer is a sum of three of its elements; proved.
+  that every large integer is a sum of three of its elements.
 tags:
 - Sidon sets
 status: solved

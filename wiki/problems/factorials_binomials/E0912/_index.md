@@ -3,8 +3,7 @@ name: problems/factorials_binomials/E0912
 title: Problem 912
 desc: |
   Asks for a proof that the number $h(n)$ of distinct exponents in the prime
-  factorization of $n!$ satisfies $h(n)\sim c(n/\log n)^{1/2}$ for some $c>0$;
-  open.
+  factorization of $n!$ satisfies $h(n)\sim c(n/\log n)^{1/2}$ for some $c>0$.
 tags:
 - Number theory
 - Factorials

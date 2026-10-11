@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0288
 title: Problem 288
 desc: |
   Asks whether only finitely many pairs of integer intervals $I_1,I_2$ satisfy
-  $\sum_{n\in I_1}\frac{1}{n}+\sum_{n\in I_2}\frac{1}{n}\in\mathbb{N}$; open.
+  $\sum_{n\in I_1}\frac{1}{n}+\sum_{n\in I_2}\frac{1}{n}\in\mathbb{N}$.
 tags:
 - Number theory
 - Unit fractions

@@ -4,7 +4,7 @@ title: Problem 774
 desc: |
   Asks whether every infinite set of natural numbers whose finite subsets each
   contain a dissociated subset (one with distinct subset sums) of proportional
-  size is a finite union of dissociated sets; open.
+  size is a finite union of dissociated sets.
 tags:
 - Number theory
 status: open

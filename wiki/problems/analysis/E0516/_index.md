@@ -4,7 +4,7 @@ title: Problem 516
 desc: |
   Asks whether every entire function $\sum a_kz^{n_k}$ of finite order with
   $n_k/k\to\infty$ has $\limsup\log m(r)/\log M(r)=1$, where $m(r)$ and $M(r)$
-  are its minimum and maximum modulus on $\lvert z\rvert=r$; proved.
+  are its minimum and maximum modulus on $\lvert z\rvert=r$.
 tags:
 - Analysis
 status: solved

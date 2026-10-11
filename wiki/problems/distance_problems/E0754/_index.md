@@ -4,7 +4,7 @@ title: Problem 754
 desc: |
   Asks whether $f(n)\le n/2+O(1)$, where $f(n)$ is the largest number such that
   some $n$ points in $\mathbb{R}^4$ have every point equidistant from at least
-  $f(n)$ of the others; proved.
+  $f(n)$ of the others.
 tags:
 - Geometry
 - Distances

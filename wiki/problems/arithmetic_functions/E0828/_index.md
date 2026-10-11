@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0828
 title: Problem 828
 desc: |
   Asks whether, for every integer $a$, there are infinitely many $n$ with
-  $\phi(n)\mid n+a$; open.
+  $\phi(n)\mid n+a$.
 tags:
 - Number theory
 status: open

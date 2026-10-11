@@ -3,7 +3,7 @@ name: problems/set_theory/E1068
 title: Problem 1068
 desc: |
   Asks whether every graph of chromatic number $\aleph_1$ contains a countable
-  subgraph that is infinitely vertex-connected; open.
+  subgraph that is infinitely vertex-connected.
 tags:
 - Graph theory
 - Set theory

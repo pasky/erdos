@@ -4,7 +4,7 @@ title: Problem 302
 desc: |
   Asks for estimates of $f(N)$, the size of the largest
   $A\subseteq\{1,\ldots,N\}$ with no distinct $a,b,c\in A$ satisfying
-  $1/a=1/b+1/c$, and whether $f(N)=(\frac{1}{2}+o(1))N$; open.
+  $1/a=1/b+1/c$, and whether $f(N)=(\frac{1}{2}+o(1))N$.
 tags:
 - Number theory
 - Unit fractions

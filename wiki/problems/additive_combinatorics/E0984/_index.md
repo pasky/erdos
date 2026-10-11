@@ -4,7 +4,7 @@ title: Problem 984
 desc: |
   Asks whether $\mathbb{N}$ can be $2$-colored so that every monochromatic
   $k$-term arithmetic progression starting at $a$ has $k\ll_\epsilon a^\epsilon$
-  for all $\epsilon>0$; proved.
+  for all $\epsilon>0$.
 tags:
 - Arithmetic progressions
 - Additive combinatorics

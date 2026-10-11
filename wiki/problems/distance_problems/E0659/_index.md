@@ -4,7 +4,7 @@ title: Problem 659
 desc: |
   Asks whether $n$ planar points can have every four of them determine at least
   three distances while the number of distinct distances is
-  $\ll n/\sqrt{\log n}$; proved.
+  $\ll n/\sqrt{\log n}$.
 tags:
 - Geometry
 - Distances

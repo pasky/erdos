@@ -4,7 +4,7 @@ title: Problem 382
 desc: |
   Asks whether an interval $[u,v]$ in which the largest prime dividing the
   product appears at least twice must have $v-u=v^{o(1)}$, and whether $v-u$ can
-  be arbitrarily large; open.
+  be arbitrarily large.
 tags:
 - Number theory
 status: open

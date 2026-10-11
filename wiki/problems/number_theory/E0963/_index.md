@@ -4,7 +4,7 @@ title: Problem 963
 desc: |
   Asks to estimate $f(n)$, the size of the largest dissociated subset guaranteed
   in any set of $n$ reals, and in particular whether
-  $f(n)\ge\lfloor\log_2 n\rfloor$; open.
+  $f(n)\ge\lfloor\log_2 n\rfloor$.
 tags:
 - Number theory
 status: open

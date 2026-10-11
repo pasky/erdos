@@ -4,7 +4,7 @@ title: Problem 477
 desc: |
   Asks whether there are a polynomial $f:\mathbb{Z}\to\mathbb{Z}$ of degree at
   least $2$ and a set $A\subset\mathbb{Z}$ such that every integer is $a+b$ in
-  exactly one way, with $a\in A$ and $b$ a value of $f$; proved.
+  exactly one way, with $a\in A$ and $b$ a value of $f$.
 tags:
 - Number theory
 - Sidon sets

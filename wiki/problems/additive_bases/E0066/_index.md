@@ -3,7 +3,7 @@ name: problems/additive_bases/E0066
 title: Problem 66
 desc: |
   Asks whether some $A\subseteq\mathbb{N}$ has its number of representations
-  $1_A\ast 1_A(n)$, divided by $\log n$, tending to a nonzero limit; open.
+  $1_A\ast 1_A(n)$, divided by $\log n$, tending to a nonzero limit.
 tags:
 - Number theory
 - Additive bases

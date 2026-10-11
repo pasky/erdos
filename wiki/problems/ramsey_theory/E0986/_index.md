@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E0986
 title: Problem 986
 desc: |
   Asks whether, for each fixed $s\ge3$, $R(s,k)\gg k^{s-1}/(\log k)^c$ for some
-  constant $c=c(s)>0$; proved.
+  constant $c=c(s)>0$.
 tags:
 - Graph theory
 - Ramsey theory

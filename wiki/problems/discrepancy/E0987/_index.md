@@ -4,8 +4,7 @@ title: Problem 987
 desc: |
   For a sequence $x_j\in(0,1)$, asks whether
   $A_k=\limsup_n\lvert\sum_{j\le n}e(kx_j)\rvert$ must be unbounded in $k$, and
-  whether $A_k=o(k)$ is possible. Both are answered: the first by Erdős (1965),
-  the second by a 2026 construction.
+  whether $A_k=o(k)$ is possible.
 tags:
 - Analysis
 - Discrepancy

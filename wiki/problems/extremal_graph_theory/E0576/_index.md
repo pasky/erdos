@@ -3,9 +3,8 @@ name: problems/extremal_graph_theory/E0576
 title: Problem 576
 desc: |
   Asks for the behaviour of $\mathrm{ex}(n;Q_k)$, the most edges of a graph on
-  $n$ vertices with no $k$-dimensional hypercube $Q_k$. It is open; for the cube
-  the order lies between $n^{3/2}$ and $n^{8/5}$, which refutes Erdős's first
-  guess.
+  $n$ vertices with no $k$-dimensional hypercube $Q_k$. For the cube the order
+  lies between $n^{3/2}$ and $n^{8/5}$, which refutes Erdős's first guess.
 tags:
 - Graph theory
 - Turán numbers

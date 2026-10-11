@@ -3,7 +3,7 @@ name: problems/analysis/E0909
 title: Problem 909
 desc: |
   Asks whether, for each $n\geq 2$, there is a space $S$ of dimension $n$ whose
-  square $S^2$ also has dimension $n$; proved.
+  square $S^2$ also has dimension $n$.
 tags:
 - Analysis
 - Topology

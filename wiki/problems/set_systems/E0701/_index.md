@@ -4,8 +4,7 @@ title: Problem 701
 desc: |
   Asks whether a family of sets closed under taking subsets always has an
   element contained in as many members as its largest intersecting subfamily has
-  sets. The site lists it as open, and three proofs were claimed in
-  September 2026.
+  sets.
 tags:
 - Combinatorics
 - Intersecting families

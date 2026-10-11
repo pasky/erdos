@@ -5,7 +5,7 @@ desc: |
   Asks whether every $A\subseteq\mathbb{N}$ with $A+A$ of positive upper density
   splits into two parts whose sumsets both have positive upper density, and
   whether some basis of order $2$ has no split in which both self-sumsets have
-  bounded gaps; both answers are yes.
+  bounded gaps.
 tags:
 - Additive combinatorics
 status: solved

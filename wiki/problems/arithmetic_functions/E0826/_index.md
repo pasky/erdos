@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0826
 title: Problem 826
 desc: |
   Asks whether infinitely many $n$ have $\tau(n+k)\ll k$ for every $k\ge1$,
-  where $\tau$ is the number of divisors; open.
+  where $\tau$ is the number of divisors.
 tags:
 - Number theory
 status: open

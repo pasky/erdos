@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0023
 title: Problem 23
 desc: |
   Asks whether every triangle-free graph on $5n$ vertices can be made bipartite
-  by deleting at most $n^2$ edges; open.
+  by deleting at most $n^2$ edges.
 tags:
 - Graph theory
 status: open

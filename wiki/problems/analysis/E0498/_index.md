@@ -4,7 +4,7 @@ title: Problem 498
 desc: |
   Asks whether at most $\binom{n}{\lfloor n/2\rfloor}$ of the signed sums
   $\sum\epsilon_iz_i$ of $n$ complex numbers with $\lvert z_i\rvert\geq 1$ can
-  lie in one open disc of radius $1$; proved.
+  lie in one open disc of radius $1$.
 tags:
 - Combinatorics
 - Analysis

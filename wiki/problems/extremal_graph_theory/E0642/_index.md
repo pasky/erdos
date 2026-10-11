@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0642
 title: Problem 642
 desc: |
   Asks whether a graph on $n$ vertices in which every cycle has more vertices
-  than chords must have at most a constant times $n$ edges; open.
+  than chords must have at most a constant times $n$ edges.
 tags:
 - Graph theory
 - Cycles

@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0420
 title: Problem 420
 desc: |
   Asks whether $\tau((n+\lfloor(\log n)^C\rfloor)!)/\tau(n!)$ tends to infinity
-  for large $C$, where $\tau$ counts divisors; open.
+  for large $C$, where $\tau$ counts divisors.
 tags:
 - Number theory
 status: open

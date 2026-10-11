@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E0558
 title: Problem 558
 desc: |
   Asks for the $k$-color Ramsey number $R_k(K_{s,t})$ of the complete bipartite
-  graph with $s$ vertices in one class and $t$ in the other; open.
+  graph with $s$ vertices in one class and $t$ in the other.
 tags:
 - Graph theory
 - Ramsey theory

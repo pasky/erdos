@@ -2,8 +2,7 @@
 name: problems/arithmetic_functions/E1053
 title: Problem 1053
 desc: |
-  Asks whether every $k$ with $\sigma(n)=kn$ must satisfy $k=o(\log\log n)$;
-  open.
+  Asks whether every $k$ with $\sigma(n)=kn$ must satisfy $k=o(\log\log n)$.
 tags:
 - Number theory
 status: open

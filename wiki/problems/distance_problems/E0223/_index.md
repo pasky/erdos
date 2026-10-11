@@ -3,7 +3,7 @@ name: problems/distance_problems/E0223
 title: Problem 223
 desc: |
   Asks for estimates of the largest number $f_d(n)$ of pairs at distance $1$
-  among $n$ points of diameter $1$ in $\mathbb{R}^d$. It has been solved.
+  among $n$ points of diameter $1$ in $\mathbb{R}^d$.
 tags:
 - Geometry
 - Distances

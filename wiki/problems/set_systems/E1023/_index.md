@@ -4,7 +4,7 @@ title: Problem 1023
 desc: |
   Asks whether the largest family of subsets of $\{1,\ldots,n\}$ in which no
   member is a union of others has size $\sim c\,2^n/n^{1/2}$ for some constant
-  $c>0$; proved.
+  $c>0$.
 tags:
 - Combinatorics
 status: solved

@@ -4,7 +4,7 @@ title: Problem 124
 desc: |
   Asks whether, for integers $3\le d_1<\cdots<d_r$ with $\sum_i 1/(d_i-1)\ge1$,
   every large integer is a sum of one number from each $P(d_i,0)$, the set of
-  sums of distinct powers of $d_i$; open.
+  sums of distinct powers of $d_i$.
 tags:
 - Number theory
 - Base representations

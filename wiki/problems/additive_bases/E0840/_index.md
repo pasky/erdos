@@ -3,8 +3,7 @@ name: problems/additive_bases/E0840
 title: Problem 840
 desc: |
   Asks how fast the largest quasi-Sidon subset of $\{1,\ldots,N\}$ grows, where
-  $A$ is quasi-Sidon if $\lvert A+A\rvert=(1+o(1))\binom{\lvert A\rvert}{2}$;
-  open.
+  $A$ is quasi-Sidon if $\lvert A+A\rvert=(1+o(1))\binom{\lvert A\rvert}{2}$.
 tags:
 - Additive combinatorics
 - Sidon sets

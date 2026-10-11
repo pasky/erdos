@@ -3,7 +3,7 @@ name: problems/additive_bases/E0869
 title: Problem 869
 desc: |
   Asks whether the union of two disjoint additive bases of order $2$ must
-  contain a minimal additive basis of order $2$; disproved.
+  contain a minimal additive basis of order $2$.
 tags:
 - Number theory
 - Additive bases

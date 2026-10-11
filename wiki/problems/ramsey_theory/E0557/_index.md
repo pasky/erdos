@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E0557
 title: Problem 557
 desc: |
   Asks whether $R_k(T)\le kn+O(1)$ for every tree $T$ on $n$ vertices, where
-  $R_k$ is the $k$-color Ramsey number; proved.
+  $R_k$ is the $k$-color Ramsey number.
 tags:
 - Graph theory
 - Ramsey theory

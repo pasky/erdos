@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E0373
 title: Problem 373
 desc: |
   Asks whether $n!=a_1!a_2!\cdots a_k!$ with
-  $n-1>a_1\ge a_2\ge\cdots\ge a_k\ge2$ has only finitely many solutions; open.
+  $n-1>a_1\ge a_2\ge\cdots\ge a_k\ge2$ has only finitely many solutions.
 tags:
 - Number theory
 - Factorials

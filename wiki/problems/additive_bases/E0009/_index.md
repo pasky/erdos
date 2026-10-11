@@ -3,7 +3,7 @@ name: problems/additive_bases/E0009
 title: Problem 9
 desc: |
   Asks whether the odd integers not of the form $p+2^k+2^l$, with $p$ prime and
-  $k,l\geq 0$, have positive upper density; open.
+  $k,l\geq 0$, have positive upper density.
 tags:
 - Number theory
 - Additive bases

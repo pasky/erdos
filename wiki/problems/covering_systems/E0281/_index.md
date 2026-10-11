@@ -4,7 +4,7 @@ title: Problem 281
 desc: |
   Asks whether moduli $n_1<n_2<\cdots$ whose congruences always leave an
   uncovered set of density $0$ must have, for each $\epsilon>0$, an initial
-  segment that always leaves density below $\epsilon$. The answer is yes.
+  segment that always leaves density below $\epsilon$.
 tags:
 - Number theory
 - Covering systems

@@ -4,7 +4,7 @@ title: Problem 625
 desc: |
   Asks whether $\chi(G)-\zeta(G)\to\infty$ almost surely for the random graph
   $G(n,1/2)$, where the cochromatic number $\zeta(G)$ is the fewest colors whose
-  classes each induce a complete or empty graph; proved.
+  classes each induce a complete or empty graph.
 tags:
 - Graph theory
 - Chromatic number

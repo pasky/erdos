@@ -2,8 +2,7 @@
 name: problems/factorials_binomials/E0727
 title: Problem 727
 desc: |
-  Asks whether, for each $k\ge2$, $(n+k)!^2\mid(2n)!$ for infinitely many $n$;
-  open.
+  Asks whether, for each $k\ge2$, $(n+k)!^2\mid(2n)!$ for infinitely many $n$.
 tags:
 - Number theory
 - Factorials

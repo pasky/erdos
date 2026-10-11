@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0726
 title: Problem 726
 desc: |
   Asks whether $\sum1/p$ over the primes $p\le n$ for which $n\bmod p$ lies in
-  $(p/2,p)$ is asymptotic to $\tfrac12\log\log n$; open.
+  $(p/2,p)$ is asymptotic to $\tfrac12\log\log n$.
 tags:
 - Number theory
 status: open

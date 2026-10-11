@@ -3,7 +3,7 @@ name: problems/primes/E0244
 title: Problem 244
 desc: |
   Asks whether, for $C>1$, the integers of the form $p+\lfloor C^k\rfloor$, with
-  $p$ prime and $k\ge0$, have positive density; open.
+  $p$ prime and $k\ge0$, have positive density.
 tags:
 - Number theory
 - Primes

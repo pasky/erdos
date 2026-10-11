@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0137
 title: Problem 137
 desc: |
   Asks whether the product of $k\ge3$ consecutive positive integers can ever be
-  powerful, meaning that $p^2$ divides it whenever a prime $p$ does; open.
+  powerful, meaning that $p^2$ divides it whenever a prime $p$ does.
 tags:
 - Number theory
 - Powerful numbers

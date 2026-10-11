@@ -3,8 +3,7 @@ name: problems/distance_problems/E0214
 title: Problem 214
 desc: |
   Asks whether the complement of any set in the plane with no two points at
-  distance $1$ must contain the four corners of a unit square. The answer is
-  yes.
+  distance $1$ must contain the four corners of a unit square.
 tags:
 - Geometry
 - Distances

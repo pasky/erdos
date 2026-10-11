@@ -4,7 +4,7 @@ title: Problem 1168
 desc: |
   Asks for a proof of
   $\aleph_{\omega+1}\not\to(\aleph_{\omega+1},3,\ldots,3)_{\aleph_0}^2$ without
-  the generalized continuum hypothesis; open.
+  the generalized continuum hypothesis.
 tags:
 - Set theory
 - Ramsey theory

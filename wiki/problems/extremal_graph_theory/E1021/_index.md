@@ -4,7 +4,7 @@ title: Problem 1021
 desc: |
   Asks whether, for every $k\ge3$, $\mathrm{ex}(n,G_k)\ll n^{3/2-c_k}$ for some
   $c_k>0$, where $G_k$ is the bipartite graph joining each pair among $k$
-  vertices to its own vertex. It is proved.
+  vertices to its own vertex.
 tags:
 - Graph theory
 status: solved

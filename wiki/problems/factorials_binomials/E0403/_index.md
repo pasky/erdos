@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E0403
 title: Problem 403
 desc: |
   Asks whether $2^m=a_1!+\cdots+a_k!$ with $a_1<\cdots<a_k$ has only finitely
-  many solutions; proved.
+  many solutions.
 tags:
 - Number theory
 - Factorials

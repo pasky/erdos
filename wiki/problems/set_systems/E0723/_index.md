@@ -3,7 +3,6 @@ name: problems/set_systems/E0723
 title: Problem 723
 desc: |
   Asks whether the order of every finite projective plane must be a prime power.
-  It is open, and the site labels it FALSIFIABLE.
 tags:
 - Combinatorics
 status: open

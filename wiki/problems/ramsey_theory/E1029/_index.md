@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E1029
 title: Problem 1029
 desc: |
   Asks whether $R(k)/(k2^{k/2})\to\infty$, where $R(k)$ is the Ramsey number of
-  the complete graph $K_k$. It is open.
+  the complete graph $K_k$.
 tags:
 - Graph theory
 - Ramsey theory

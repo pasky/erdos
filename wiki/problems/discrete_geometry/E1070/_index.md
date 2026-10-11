@@ -4,7 +4,6 @@ title: Problem 1070
 desc: |
   Asks for estimates of the largest $f(n)$ such that any $n$ points in the plane
   include $f(n)$ points with no two at distance $1$, and whether $f(n)\ge n/4$.
-  It is open.
 tags:
 - Geometry
 status: open

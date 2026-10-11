@@ -4,7 +4,7 @@ title: Problem 535
 desc: |
   Asks for estimates of $f_r(N)$, the size of the largest subset of
   $\{1,\ldots,N\}$ with no $r$ elements whose pairwise greatest common divisors
-  are all equal, for $r\ge3$; open.
+  are all equal, for $r\ge3$.
 tags:
 - Number theory
 status: open

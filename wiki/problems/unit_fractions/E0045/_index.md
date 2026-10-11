@@ -4,7 +4,7 @@ title: Problem 45
 desc: |
   Asks whether, for each $k\ge2$, some integer $n_k$ is such that every
   $k$-coloring of its divisors strictly between $1$ and $n_k$ has a
-  monochromatic subset whose reciprocals sum to $1$; proved.
+  monochromatic subset whose reciprocals sum to $1$.
 tags:
 - Number theory
 - Unit fractions

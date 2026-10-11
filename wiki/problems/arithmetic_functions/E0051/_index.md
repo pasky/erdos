@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0051
 title: Problem 51
 desc: |
   Asks whether some infinite set $A$ of totient values has $n_a/a\to\infty$,
-  where $n_a$ is the least $n$ with $\phi(n)=a$; open.
+  where $n_a$ is the least $n$ with $\phi(n)=a$.
 tags:
 - Number theory
 status: open

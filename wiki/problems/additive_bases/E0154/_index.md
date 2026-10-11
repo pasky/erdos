@@ -4,7 +4,7 @@ title: Problem 154
 desc: |
   Asks whether, for a Sidon set $A\subset\{1,\ldots,N\}$ with
   $\lvert A\rvert\sim N^{1/2}$, the sumset $A+A$ is evenly spread over small
-  moduli, for instance half even and half odd; proved.
+  moduli, for instance half even and half odd.
 tags:
 - Sidon sets
 status: solved

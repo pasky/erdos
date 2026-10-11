@@ -3,8 +3,7 @@ name: problems/discrepancy/E0997
 title: Problem 997
 desc: |
   Asks whether, for every $\alpha$, the sequence $\{\alpha p_n\}$ over the
-  primes $p_n$ fails to be well distributed. Alexeev, Putterman, Sawhney, Sellke
-  and Valiant proved it in 2026.
+  primes $p_n$ fails to be well distributed.
 tags:
 - Analysis
 - Discrepancy

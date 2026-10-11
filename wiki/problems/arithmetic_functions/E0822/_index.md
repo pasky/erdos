@@ -2,8 +2,7 @@
 name: problems/arithmetic_functions/E0822
 title: Problem 822
 desc: |
-  Asks whether the integers of the form $n+\phi(n)$ have positive lower density;
-  proved.
+  Asks whether the integers of the form $n+\phi(n)$ have positive lower density.
 tags:
 - Number theory
 status: solved

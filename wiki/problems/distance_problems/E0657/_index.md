@@ -3,7 +3,7 @@ name: problems/distance_problems/E0657
 title: Problem 657
 desc: |
   Asks whether $n$ planar points with no isosceles triangle must determine at
-  least $f(n)n$ distinct distances, for some $f(n)\to\infty$; open.
+  least $f(n)n$ distinct distances, for some $f(n)\to\infty$.
 tags:
 - Geometry
 - Distances

@@ -3,7 +3,7 @@ name: problems/distance_problems/E0756
 title: Problem 756
 desc: |
   Asks whether a set of $n$ points in the plane can determine $\gg n$ distinct
-  distances, each occurring for more than $n$ pairs of points; proved.
+  distances, each occurring for more than $n$ pairs of points.
 tags:
 - Geometry
 - Distances

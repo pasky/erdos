@@ -3,7 +3,7 @@ name: problems/primes/E1142
 title: Problem 1142
 desc: |
   Asks whether infinitely many $n$, or any $n>105$, have $n-2^k$ prime for every
-  $k$ with $1<2^k<n$; open.
+  $k$ with $1<2^k<n$.
 tags:
 - Number theory
 - Primes

@@ -4,7 +4,7 @@ title: Problem 171
 desc: |
   Asks whether, for every $\epsilon>0$ and integer $t\ge1$, every subset of
   $[t]^N$ of size at least $\epsilon t^N$ contains a combinatorial line once $N$
-  is large enough; proved.
+  is large enough.
 tags:
 - Additive combinatorics
 - Combinatorics

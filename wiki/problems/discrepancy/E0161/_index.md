@@ -5,7 +5,7 @@ desc: |
   Asks whether the least $m$ such that some 2-coloring of the complete
   $t$-uniform hypergraph on $n$ vertices gives every set of $m$ or more vertices
   at least an $\alpha$ fraction of edges in each color varies continuously as
-  $\alpha$ goes from 0 to 1/2, or jumps; open.
+  $\alpha$ goes from 0 to 1/2, or jumps.
 tags:
 - Combinatorics
 - Hypergraphs

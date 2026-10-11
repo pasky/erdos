@@ -4,7 +4,7 @@ title: Problem 358
 desc: |
   Asks whether some infinite sequence of integers writes every large $n$ as a
   sum of consecutive terms at least twice, or in a number of ways
-  $f(n)\to\infty$; proved.
+  $f(n)\to\infty$.
 tags:
 - Number theory
 - Additive bases

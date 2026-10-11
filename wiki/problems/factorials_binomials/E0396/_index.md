@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E0396
 title: Problem 396
 desc: |
   Asks whether, for every $k$, there is an $n$ with
-  $n(n-1)\cdots(n-k)\mid\binom{2n}{n}$; open.
+  $n(n-1)\cdots(n-k)\mid\binom{2n}{n}$.
 tags:
 - Number theory
 - Binomial coefficients

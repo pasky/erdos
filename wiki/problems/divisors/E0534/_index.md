@@ -3,7 +3,7 @@ name: problems/divisors/E0534
 title: Problem 534
 desc: |
   Asks for the largest $A\subseteq\{1,\ldots,N\}$ that contains $N$ and has
-  $\gcd(a,b)>1$ for all distinct $a,b\in A$; solved.
+  $\gcd(a,b)>1$ for all distinct $a,b\in A$.
 tags:
 - Number theory
 - Intersecting families

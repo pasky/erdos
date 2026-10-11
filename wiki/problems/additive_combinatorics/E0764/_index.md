@@ -4,7 +4,7 @@ title: Problem 764
 desc: |
   Asks whether, for some set $A$ of naturals and some $c>0$, the number of
   representations of $n$ as a sum of three elements of $A$, summed over
-  $n\le N$, equals $cN+O(1)$; the answer is no.
+  $n\le N$, equals $cN+O(1)$.
 tags:
 - Number theory
 - Additive combinatorics

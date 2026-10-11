@@ -4,7 +4,7 @@ title: Problem 804
 desc: |
   Estimates the largest independent set forced in an $n$-vertex graph in which
   every induced subgraph on $m$ vertices has an independent set of size
-  $\log n$; disproved, since both proposed bounds fail.
+  $\log n$.
 tags:
 - Graph theory
 status: solved

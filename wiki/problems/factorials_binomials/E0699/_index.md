@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E0699
 title: Problem 699
 desc: |
   Asks whether, for every $1\le i<j\le n/2$, some prime $p\ge i$ divides both
-  $\binom{n}{i}$ and $\binom{n}{j}$; open.
+  $\binom{n}{i}$ and $\binom{n}{j}$.
 tags:
 - Number theory
 - Binomial coefficients

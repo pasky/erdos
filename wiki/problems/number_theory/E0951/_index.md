@@ -4,9 +4,8 @@ title: Problem 951
 desc: |
   Asks whether every real sequence $1<a_1<a_2<\cdots$ whose products
   $\prod_i a_i^{k_i}$ for different exponent tuples differ by at least $1$
-  satisfies $\#\{a_i\le x\}\le\pi(x)$; open. The quantifier over $x$ is
-  implicit, and the readings for every $x$ and for all large $x$ are separate
-  parts.
+  satisfies $\#\{a_i\le x\}\le\pi(x)$. The quantifier over $x$ is implicit, and
+  the readings for every $x$ and for all large $x$ are separate parts.
 tags:
 - Number theory
 status: open

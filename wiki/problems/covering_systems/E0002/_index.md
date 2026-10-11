@@ -3,8 +3,7 @@ name: problems/covering_systems/E0002
 title: Problem 2
 desc: |
   Asks whether a finite covering system with distinct moduli can have
-  arbitrarily large minimum modulus. Hough proved an absolute bound, so the
-  answer is no.
+  arbitrarily large minimum modulus. Hough proved an absolute bound.
 tags:
 - Number theory
 - Covering systems

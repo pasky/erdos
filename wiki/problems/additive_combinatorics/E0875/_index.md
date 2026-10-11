@@ -4,7 +4,7 @@ title: Problem 875
 desc: |
   Asks how slowly an infinite set of naturals can grow while its sets of sums of
   $r$ distinct members stay disjoint for different $r$, and for which $c$ its
-  gaps can be at most $n^c$; open.
+  gaps can be at most $n^c$.
 tags:
 - Additive combinatorics
 status: open

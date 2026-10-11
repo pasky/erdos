@@ -4,7 +4,7 @@ title: Problem 1110
 desc: |
   Asks, for coprime $p>q\geq 2$ with $\{p,q\}\neq\{2,3\}$, about the density of
   integers that are not sums of numbers $p^kq^l$, none dividing another, and
-  whether infinitely many coprime such integers exist; open.
+  whether infinitely many coprime such integers exist.
 tags:
 - Number theory
 status: open

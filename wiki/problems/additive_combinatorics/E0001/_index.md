@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0001
 title: Problem 1
 desc: |
   Asks whether a set of $n$ integers in $\{1,\ldots,N\}$ whose subset sums are
-  all distinct forces $N\gg2^n$; disproved.
+  all distinct forces $N\gg2^n$.
 tags:
 - Number theory
 - Additive combinatorics

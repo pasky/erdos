@@ -5,8 +5,7 @@ desc: |
   Asks whether, for some absolute $C>0$ and every lacunary $n_k$, each
   $f\in L^2([0,1])$ whose Fourier partial sums satisfy
   $\|f-f_n\|_2\ll(\log\log\log n)^{-C}$ has averages of $f(\{\alpha n_k\})$
-  tending to $\int_0^1f$ for almost all $\alpha$. Pending claims answer no; the
-  site lists it as OPEN.
+  tending to $\int_0^1f$ for almost all $\alpha$.
 tags:
 - Analysis
 status: claimed

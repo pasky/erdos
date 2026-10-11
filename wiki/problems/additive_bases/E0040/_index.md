@@ -4,7 +4,7 @@ title: Problem 40
 desc: |
   Asks for which functions $g(N)\to\infty$ a set with $\gg N^{1/2}/g(N)$
   elements up to $N$ must have integers with arbitrarily many representations as
-  a sum of two elements; open.
+  a sum of two elements.
 tags:
 - Number theory
 - Additive bases

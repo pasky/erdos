@@ -4,7 +4,7 @@ title: Problem 1089
 desc: |
   Asks to estimate $g_d(n)$, the least number such that any $g_d(n)$ points in
   $\mathbb{R}^d$ determine at least $n$ distinct distances, and whether
-  $\lim_{d\to\infty}g_d(n)/d^{n-1}$ exists; the limit is proved to exist.
+  $\lim_{d\to\infty}g_d(n)/d^{n-1}$ exists.
 tags:
 - Geometry
 - Distances

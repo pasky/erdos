@@ -3,7 +3,7 @@ name: problems/distance_problems/E0957
 title: Problem 957
 desc: |
   Asks whether the multiplicities of the smallest and largest distances among
-  $n$ points in the plane have product at most $(9/8+o(1))n^2$; proved.
+  $n$ points in the plane have product at most $(9/8+o(1))n^2$.
 tags:
 - Geometry
 - Distances

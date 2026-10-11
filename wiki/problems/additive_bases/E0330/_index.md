@@ -3,8 +3,7 @@ name: problems/additive_bases/E0330
 title: Problem 330
 desc: |
   Asks whether some minimal basis of positive density has, for each element $n$,
-  a positive upper density of integers that cannot be represented without $n$;
-  proved.
+  a positive upper density of integers that cannot be represented without $n$.
 tags:
 - Number theory
 - Additive bases

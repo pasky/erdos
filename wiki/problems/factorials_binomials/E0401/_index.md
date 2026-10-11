@@ -4,7 +4,7 @@ title: Problem 401
 desc: |
   Asks whether there is $f(r)\to\infty$ such that, for infinitely many $n$, some
   $a_1,a_2$ with $a_1!a_2!\mid n!\,2^n3^n\cdots p_r^n$ have
-  $a_1+a_2>n+f(r)\log n$; proved.
+  $a_1+a_2>n+f(r)\log n$.
 tags:
 - Number theory
 - Factorials

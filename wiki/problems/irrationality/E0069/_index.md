@@ -3,7 +3,7 @@ name: problems/irrationality/E0069
 title: Problem 69
 desc: |
   Asks whether $\sum_{n\ge2}\omega(n)/2^n$ is irrational, where $\omega(n)$ is
-  the number of distinct prime factors of $n$; answered yes.
+  the number of distinct prime factors of $n$.
 tags:
 - Number theory
 - Irrationality

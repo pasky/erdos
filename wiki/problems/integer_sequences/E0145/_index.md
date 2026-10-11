@@ -3,8 +3,7 @@ name: problems/integer_sequences/E0145
 title: Problem 145
 desc: |
   Asks whether the average of the $\alpha$-th powers of the gaps between
-  consecutive squarefree numbers up to $x$ has a limit for every $\alpha\geq0$;
-  open.
+  consecutive squarefree numbers up to $x$ has a limit for every $\alpha\geq0$.
 tags:
 - Number theory
 status: open

@@ -4,7 +4,7 @@ title: Problem 750
 desc: |
   Asks whether, for every $f(m)\to\infty$, some graph of infinite chromatic
   number has an independent set of size at least $m/2-f(m)$ in every $m$-vertex
-  subgraph; proved.
+  subgraph.
 tags:
 - Graph theory
 - Chromatic number

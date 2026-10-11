@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E0683
 title: Problem 683
 desc: |
   Asks whether, for some constant $c>0$, the largest prime divisor of
-  $\binom{n}{k}$ is at least $\min(n-k+1,k^{1+c})$ for all $1\le k\le n$; open.
+  $\binom{n}{k}$ is at least $\min(n-k+1,k^{1+c})$ for all $1\le k\le n$.
 tags:
 - Number theory
 - Primes

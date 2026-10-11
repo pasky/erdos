@@ -4,7 +4,7 @@ title: Problem 1165
 desc: |
   Asks, for each integer $r\ge3$, for the probability that a planar simple
   random walk has exactly $r$ sites tied for the maximum local time infinitely
-  often; solved.
+  often.
 tags:
 - Probability
 status: solved

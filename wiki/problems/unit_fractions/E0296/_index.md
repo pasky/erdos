@@ -4,7 +4,7 @@ title: Problem 296
 desc: |
   Asks for estimates of $k(N)$, the largest number of disjoint subsets of
   $\{1,\ldots,N\}$ whose reciprocals each sum to $1$, and whether
-  $k(N)=o(\log N)$; solved.
+  $k(N)=o(\log N)$.
 tags:
 - Number theory
 - Unit fractions

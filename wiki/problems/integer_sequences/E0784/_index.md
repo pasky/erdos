@@ -4,7 +4,7 @@ title: Problem 784
 desc: |
   Asks whether a set of integers in $[2,x]$ with reciprocal sum at most $C$ must
   leave $\gg x/(\log x)^c$ integers up to $x$ divisible by none of them, for
-  some $c>0$; disproved, as this fails for $C>1$.
+  some $c>0$.
 tags:
 - Number theory
 status: solved

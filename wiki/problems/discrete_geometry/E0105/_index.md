@@ -4,7 +4,7 @@ title: Problem 105
 desc: |
   Asks whether disjoint plane sets $A$ and $B$ of $n$ and $n-3$ points, with $A$
   not all collinear, always admit a line through at least two points of $A$ and
-  none of $B$. Xichuan disproved it with counterexamples in 2025.
+  none of $B$.
 tags:
 - Geometry
 status: solved

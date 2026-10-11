@@ -4,7 +4,7 @@ title: Problem 1121
 desc: |
   Asks whether circles in the plane can always be covered by one circle whose
   radius is the sum of their radii, provided no line missing all of them splits
-  them into two nonempty groups. The answer is yes.
+  them into two nonempty groups.
 tags:
 - Geometry
 status: solved

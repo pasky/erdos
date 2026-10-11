@@ -4,7 +4,7 @@ title: Problem 143
 desc: |
   Asks whether a countably infinite set $A\subset(1,\infty)$ with
   $\lvert kx-y\rvert\ge1$ for all distinct $x,y\in A$ and all integers $k\ge1$
-  must be sparse; open on the site, which lists one full claim.
+  must be sparse.
 tags:
 - Primitive sets
 status: claimed

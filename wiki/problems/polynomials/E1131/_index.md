@@ -4,7 +4,7 @@ title: Problem 1131
 desc: |
   Asks for the minimum over $x_1,\ldots,x_n\in[-1,1]$ of
   $I=\int_{-1}^1\sum_k\lvert l_k(x)\rvert^2\,dx$, where the $l_k$ are the
-  Lagrange basis polynomials, and whether $\min I=2-(1+o(1))/n$; open.
+  Lagrange basis polynomials, and whether $\min I=2-(1+o(1))/n$.
 tags:
 - Analysis
 - Polynomials

@@ -3,7 +3,7 @@ name: problems/polynomials/E0114
 title: Problem 114
 desc: |
   Asks whether, among monic complex polynomials $p$ of degree $n$, the length of
-  the curve $\{z:|p(z)|=1\}$ is maximized by $z^n-1$; open.
+  the curve $\{z:|p(z)|=1\}$ is maximized by $z^n-1$.
 tags:
 - Polynomials
 - Analysis

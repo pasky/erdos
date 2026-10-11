@@ -4,7 +4,7 @@ title: Problem 282
 desc: |
   Asks whether the greedy algorithm for unit fractions, which always takes the
   least allowed denominator, terminates for every rational in $(0,1)$ with odd
-  denominator when only odd denominators are allowed; open.
+  denominator when only odd denominators are allowed.
 tags:
 - Number theory
 - Unit fractions

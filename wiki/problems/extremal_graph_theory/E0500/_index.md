@@ -4,7 +4,7 @@ title: Problem 500
 desc: |
   Asks for $\mathrm{ex}_3(n,K_4^3)$, the largest number of triples on $n$
   vertices with no four vertices carrying all four of their triples (Turán's
-  tetrahedron problem). It is open, with the density between Turán's $5/9$ and a
+  tetrahedron problem). The density lies between Turán's $5/9$ and a
   flag-algebra bound of $0.5615$.
 tags:
 - Graph theory

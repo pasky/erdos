@@ -3,7 +3,7 @@ name: problems/integer_sequences/E1136
 title: Problem 1136
 desc: |
   Asks whether some $A\subset\mathbb{N}$ with lower density above $1/3$ has no
-  two members, possibly equal, whose sum is a power of two; answered yes.
+  two members, possibly equal, whose sum is a power of two.
 tags:
 - Number theory
 status: solved

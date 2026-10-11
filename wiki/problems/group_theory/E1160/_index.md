@@ -3,7 +3,7 @@ name: problems/group_theory/E1160
 title: Problem 1160
 desc: |
   Asks whether the number $g(n)$ of groups of order $n$ satisfies
-  $g(n)\leq g(2^m)$ whenever $n\leq 2^m$; open.
+  $g(n)\leq g(2^m)$ whenever $n\leq 2^m$.
 tags:
 - Group theory
 status: open

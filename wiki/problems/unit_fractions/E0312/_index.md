@@ -4,7 +4,7 @@ title: Problem 312
 desc: |
   Asks whether, for some $c>0$, every large enough finite multiset of positive
   integers with reciprocal sum above $K$ has a subset whose reciprocal sum lies
-  in $(1-e^{-cK},1]$; open.
+  in $(1-e^{-cK},1]$.
 tags:
 - Number theory
 - Unit fractions

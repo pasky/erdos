@@ -4,7 +4,7 @@ title: Problem 684
 desc: |
   Writes $\binom{n}{k}=uv$, where the prime factors of $u$ are at most $k$ and
   those of $v$ lie in $(k,n]$, and asks for bounds on the least $k$ with
-  $u>n^2$; open.
+  $u>n^2$.
 tags:
 - Number theory
 - Primes

@@ -4,8 +4,7 @@ title: Problem 1002
 desc: |
   Asks whether
   $f(\alpha,n)=\frac{1}{\log n}\sum_{k\le n}(\frac{1}{2}-\{\alpha k\})$ has an
-  asymptotic distribution function over $\alpha\in(0,1)$ as $n\to\infty$;
-  proved.
+  asymptotic distribution function over $\alpha\in(0,1)$ as $n\to\infty$.
 tags:
 - Analysis
 - Diophantine approximation

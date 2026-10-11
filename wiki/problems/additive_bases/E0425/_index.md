@@ -4,7 +4,7 @@ title: Problem 425
 desc: |
   Asks for an estimate of the largest subset of $\{1,\ldots,n\}$ with distinct
   pairwise products, and a bound for sets whose products of $r$ increasing
-  members are distinct; open.
+  members are distinct.
 tags:
 - Number theory
 - Sidon sets

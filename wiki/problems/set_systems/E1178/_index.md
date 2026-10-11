@@ -4,7 +4,7 @@ title: Problem 1178
 desc: |
   Asks to prove that $d_r(e)=(r-2)e+3$ for all $r,e\ge3$, where $d_r(e)$ is the
   least $d$ such that forbidding all $r$-uniform hypergraphs with $d$ vertices
-  and $e$ edges forces $o(n^2)$ edges; open.
+  and $e$ edges forces $o(n^2)$ edges.
 tags:
 - Graph theory
 - Hypergraphs

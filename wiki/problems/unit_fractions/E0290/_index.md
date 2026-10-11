@@ -4,7 +4,7 @@ title: Problem 290
 desc: |
   Asks whether, for each $a\ge1$, some $b>a$ makes the reduced denominator of
   $\sum_{a\le n\le b}1/n$ drop when $1/(b+1)$ is added, and how such $b(a)$
-  grows with $a$; solved.
+  grows with $a$.
 tags:
 - Number theory
 - Unit fractions

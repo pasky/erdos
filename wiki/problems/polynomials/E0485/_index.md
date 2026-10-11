@@ -3,8 +3,7 @@ name: problems/polynomials/E0485
 title: Problem 485
 desc: |
   Asks whether the least number of terms in $P(x)^2$, over $P\in\mathbb{Q}[x]$
-  with exactly $k$ nonzero terms, tends to infinity as $k\to\infty$; the answer
-  is yes.
+  with exactly $k$ nonzero terms, tends to infinity as $k\to\infty$.
 tags:
 - Analysis
 - Polynomials

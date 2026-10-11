@@ -4,7 +4,7 @@ title: Problem 873
 desc: |
   Asks whether, for every $\epsilon>0$, there is a $k$ such that fewer than
   $X^\epsilon$ blocks of $k$ consecutive terms of an increasing integer sequence
-  have least common multiple below $X$; open.
+  have least common multiple below $X$.
 tags:
 - Number theory
 status: open

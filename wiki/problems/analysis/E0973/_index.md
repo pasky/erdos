@@ -4,8 +4,7 @@ title: Problem 973
 desc: |
   Asks whether there is $C>1$ such that, for every $n\geq 2$, some complex
   $z_1=1,z_2,\ldots,z_n$ with $\lvert z_i\rvert\geq 1$ satisfy
-  $\lvert\sum_iz_i^k\rvert<C^{-n}$ for all $2\leq k\leq n+1$. Pending claims
-  answer no; the site lists it as OPEN.
+  $\lvert\sum_iz_i^k\rvert<C^{-n}$ for all $2\leq k\leq n+1$.
 tags:
 - Analysis
 status: claimed

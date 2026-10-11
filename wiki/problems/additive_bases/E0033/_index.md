@@ -3,7 +3,7 @@ name: problems/additive_bases/E0033
 title: Problem 33
 desc: |
   Asks how sparse a set $A$ can be if every large integer is a square plus an
-  element of $A$, measured against $N^{1/2}$; open.
+  element of $A$, measured against $N^{1/2}$.
 tags:
 - Number theory
 - Additive bases

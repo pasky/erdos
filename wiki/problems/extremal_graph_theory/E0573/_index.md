@@ -4,7 +4,7 @@ title: Problem 573
 desc: |
   Asks whether $\mathrm{ex}(n;\{C_3,C_4\})$, the most edges of a graph on $n$
   vertices with no triangle and no four-cycle, is asymptotic to $(n/2)^{3/2}$.
-  It is open, and the ratio is known only to lie between $1$ and $\sqrt2$.
+  The ratio is known only to lie between $1$ and $\sqrt2$.
 tags:
 - Graph theory
 - Turán numbers

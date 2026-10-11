@@ -4,7 +4,7 @@ title: Problem 1175
 desc: |
   Asks whether, for each uncountable cardinal $\kappa$, there is a cardinal
   $\lambda$ such that every graph of chromatic number $\lambda$ contains a
-  triangle-free subgraph of chromatic number $\kappa$; open.
+  triangle-free subgraph of chromatic number $\kappa$.
 tags:
 - Set theory
 - Chromatic number

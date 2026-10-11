@@ -5,7 +5,7 @@ desc: |
   Asks whether, for some constant $C$ and all large $n$, there is a pairwise
   balanced design on $\{1,\ldots,n\}$ (a family of sets in which every pair of
   distinct elements lies in exactly one set) whose sets all have more than
-  $n^{1/2}-C$ elements. It is open.
+  $n^{1/2}-C$ elements.
 tags:
 - Combinatorics
 status: open

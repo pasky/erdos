@@ -4,7 +4,7 @@ title: Problem 940
 desc: |
   Asks, for $r\geq 3$, whether infinitely many integers are not a sum of at most
   $r$ numbers divisible by the $r$th power of each of their prime factors, and
-  whether the integers that are such sums have density $0$; open.
+  whether the integers that are such sums have density $0$.
 tags:
 - Number theory
 - Powerful numbers

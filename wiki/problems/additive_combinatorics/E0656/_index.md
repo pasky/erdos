@@ -4,7 +4,7 @@ title: Problem 656
 desc: |
   Asks whether every set $A\subseteq\mathbb{N}$ of positive upper density
   contains, after some shift, all sums of two distinct members of an infinite
-  subset of $A$; the answer is yes.
+  subset of $A$.
 tags:
 - Number theory
 - Additive combinatorics

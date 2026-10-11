@@ -3,8 +3,7 @@ name: problems/ramsey_theory/E0636
 title: Problem 636
 desc: |
   Asks whether a graph on $n$ vertices with no large clique or independent set
-  has many induced subgraphs that pairwise differ in vertex count or edge count;
-  proved.
+  has many induced subgraphs that pairwise differ in vertex count or edge count.
 tags:
 - Graph theory
 - Ramsey theory

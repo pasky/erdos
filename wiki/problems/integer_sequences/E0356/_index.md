@@ -4,7 +4,7 @@ title: Problem 356
 desc: |
   Asks whether there is $c>0$ such that, for all large $n$, some integers
   $a_1<\cdots<a_k\leq n$ have at least $cn^2$ distinct sums of consecutive
-  terms; proved.
+  terms.
 tags:
 - Number theory
 status: solved

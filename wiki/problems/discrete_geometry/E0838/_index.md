@@ -4,7 +4,7 @@ title: Problem 838
 desc: |
   Asks to estimate the least number $f(n)$ of distinct convex subsets determined
   by $n$ points in the plane with no three collinear, and in particular whether
-  $\log f(n)/(\log n)^2$ tends to a constant; open.
+  $\log f(n)/(\log n)^2$ tends to a constant.
 tags:
 - Geometry
 - Convexity

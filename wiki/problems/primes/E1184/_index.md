@@ -4,7 +4,7 @@ title: Problem 1184
 desc: |
   Asks whether, for $n=k^{\alpha+o(1)}$ with $\alpha>1$, the number of integers
   among $n+1,\ldots,n+k$ whose largest prime factor exceeds $k$ is
-  $(1-\rho(\alpha)+o(1))k$, with $\rho$ the Dickman function; open.
+  $(1-\rho(\alpha)+o(1))k$, with $\rho$ the Dickman function.
 tags:
 - Number theory
 - Primes

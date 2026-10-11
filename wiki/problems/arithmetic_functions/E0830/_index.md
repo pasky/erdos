@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0830
 title: Problem 830
 desc: |
   Asks whether there are infinitely many amicable pairs, and whether the number
-  $A(x)$ of them up to $x$ satisfies $A(x)>x^{1-o(1)}$; open.
+  $A(x)$ of them up to $x$ satisfies $A(x)>x^{1-o(1)}$.
 tags:
 - Number theory
 status: open

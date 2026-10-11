@@ -4,7 +4,7 @@ title: Problem 658
 desc: |
   Asks whether every subset of the $N\times N$ grid with at least $\delta N^2$
   points contains the four vertices of a square once $N$ is large in terms of
-  $\delta$; the answer is yes.
+  $\delta$.
 tags:
 - Additive combinatorics
 status: solved

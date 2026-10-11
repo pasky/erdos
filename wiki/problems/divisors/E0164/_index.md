@@ -3,7 +3,7 @@ name: problems/divisors/E0164
 title: Problem 164
 desc: |
   Asks whether the sum of $1/(n\log n)$ over a primitive set $A$, one in which
-  no member divides another, is largest when $A$ is the set of primes; proved.
+  no member divides another, is largest when $A$ is the set of primes.
 tags:
 - Number theory
 - Primitive sets

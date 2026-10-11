@@ -3,7 +3,7 @@ name: problems/distance_problems/E1085
 title: Problem 1085
 desc: |
   Asks to estimate the largest number of pairs at distance exactly $1$ among $n$
-  points in $\mathbb{R}^d$; open.
+  points in $\mathbb{R}^d$.
 tags:
 - Geometry
 - Distances

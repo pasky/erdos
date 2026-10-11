@@ -5,7 +5,7 @@ desc: |
   Concerns families of subsets of $\{1,\ldots,n\}$, each of size above
   $c\sqrt n$ for a constant $c$, in which any two members share at most one
   element. It asks whether some set meets every member in a nonempty, bounded
-  number of points, and the answer is no.
+  number of points.
 tags:
 - Combinatorics
 status: solved

@@ -3,8 +3,7 @@ name: problems/analysis/E0225
 title: Problem 225
 desc: |
   Asks whether a trigonometric polynomial $f$ with all roots real and maximum
-  modulus $1$ satisfies $\int_0^{2\pi}|f(\theta)|\,\mathrm{d}\theta\le4$;
-  proved.
+  modulus $1$ satisfies $\int_0^{2\pi}|f(\theta)|\,\mathrm{d}\theta\le4$.
 tags:
 - Analysis
 status: solved

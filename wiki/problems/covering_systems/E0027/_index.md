@@ -4,7 +4,7 @@ title: Problem 27
 desc: |
   Asks whether there is a constant $C>1$ such that for every $\epsilon>0$ and
   $N\ge1$ some $\epsilon$-almost covering system has distinct moduli all in
-  $[N,CN]$. The answer is no.
+  $[N,CN]$.
 tags:
 - Number theory
 - Covering systems

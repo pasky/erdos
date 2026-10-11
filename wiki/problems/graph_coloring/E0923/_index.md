@@ -3,8 +3,7 @@ name: problems/graph_coloring/E0923
 title: Problem 923
 desc: |
   Asks whether every graph whose chromatic number is large enough in terms of
-  $k$ contains a triangle-free subgraph with chromatic number at least $k$;
-  proved.
+  $k$ contains a triangle-free subgraph with chromatic number at least $k$.
 tags:
 - Graph theory
 - Chromatic number

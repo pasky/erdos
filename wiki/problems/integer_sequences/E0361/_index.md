@@ -4,7 +4,7 @@ title: Problem 361
 desc: |
   Asks for the size of the largest $A\subseteq\{1,\ldots,\lfloor cn\rfloor\}$
   with no subset summing to $n$, and whether this size depends on $n$ in an
-  irregular way; open.
+  irregular way.
 tags:
 - Number theory
 status: open

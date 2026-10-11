@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0418
 title: Problem 418
 desc: |
   Asks whether infinitely many positive integers are not of the form
-  $n-\phi(n)$; proved.
+  $n-\phi(n)$.
 tags:
 - Number theory
 status: solved

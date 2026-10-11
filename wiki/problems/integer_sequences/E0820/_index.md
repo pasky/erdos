@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0820
 title: Problem 820
 desc: |
   Asks whether $\gcd(2^n-1,3^n-1)=1$ for infinitely many $n$, and how fast the
-  least bases $k<l$ with $\gcd(k^n-1,l^n-1)=1$ grow; open.
+  least bases $k<l$ with $\gcd(k^n-1,l^n-1)=1$ grow.
 tags:
 - Number theory
 status: open

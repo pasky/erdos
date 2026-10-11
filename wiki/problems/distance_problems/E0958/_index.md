@@ -3,7 +3,7 @@ name: problems/distance_problems/E0958
 title: Problem 958
 desc: |
   Asks whether $n$ planar points with $n-1$ distances of multiplicities
-  $n-1,\ldots,1$ must be equally spaced on a line or a circle; disproved.
+  $n-1,\ldots,1$ must be equally spaced on a line or a circle.
 tags:
 - Distances
 - Geometry

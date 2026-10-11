@@ -4,7 +4,7 @@ title: Problem 889
 desc: |
   Asks whether $\max_{k\ge0}v(n,k)\to\infty$, where $v(n,k)$ counts the prime
   factors of $n+k$ that exceed $k$, that is, those dividing none of
-  $n,n+1,\ldots,n+k-1$; open.
+  $n,n+1,\ldots,n+k-1$.
 tags:
 - Number theory
 status: open

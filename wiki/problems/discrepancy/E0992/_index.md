@@ -4,7 +4,7 @@ title: Problem 992
 desc: |
   Asks whether, for every increasing integer sequence $x_n$ and almost every
   $\alpha$, the discrepancy of $\{\alpha x_n\}$ satisfies
-  $D(N)\ll N^{1/2}(\log N)^{o(1)}$. Berkes and Philipp disproved it in 1994.
+  $D(N)\ll N^{1/2}(\log N)^{o(1)}$.
 tags:
 - Discrepancy
 status: solved

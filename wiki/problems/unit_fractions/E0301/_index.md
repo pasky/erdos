@@ -4,7 +4,7 @@ title: Problem 301
 desc: |
   Asks for estimates of $f(N)$, the size of the largest
   $A\subseteq\{1,\ldots,N\}$ in which no $1/a$ is a sum of reciprocals of other
-  distinct members, and whether $f(N)=(\frac{1}{2}+o(1))N$; open.
+  distinct members, and whether $f(N)=(\frac{1}{2}+o(1))N$.
 tags:
 - Number theory
 - Unit fractions

@@ -4,7 +4,7 @@ title: Problem 433
 desc: |
   Asks whether the largest integer that some $k$-element set
   $A\subseteq\{1,\ldots,n\}$ with $\gcd(A)=1$ cannot write as a sum of its
-  elements, repetition allowed, is asymptotically $n^2/(k-1)$; proved.
+  elements, repetition allowed, is asymptotically $n^2/(k-1)$.
 tags:
 - Number theory
 status: solved

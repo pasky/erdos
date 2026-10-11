@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0676
 title: Problem 676
 desc: |
   Asks whether every sufficiently large integer has the form $ap^2+b$ with $p$
-  prime, $a\ge1$ and $0\le b<p$; open.
+  prime, $a\ge1$ and $0\le b<p$.
 tags:
 - Number theory
 status: open

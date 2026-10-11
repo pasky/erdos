@@ -3,8 +3,7 @@ name: problems/discrete_geometry/E0193
 title: Problem 193
 desc: |
   Asks whether every infinite walk in $\mathbb{Z}^3$ with steps from a finite
-  set must contain three collinear points. Cambie and Kalviainen, assisted by
-  AI, disproved it in 2026.
+  set must contain three collinear points.
 tags:
 - Geometry
 status: solved

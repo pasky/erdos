@@ -4,8 +4,7 @@ title: Problem 278
 desc: |
   Asks for the maximum density of integers covered by choosing one congruence
   class for each modulus in a finite set, and whether equal classes minimize the
-  density. The second question is settled, and a claimed answer to the first is
-  pending.
+  density.
 tags:
 - Number theory
 - Covering systems

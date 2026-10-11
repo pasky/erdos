@@ -4,7 +4,7 @@ title: Problem 851
 desc: |
   Asks whether, for each $\epsilon>0$, some $r\ll_\epsilon1$ makes the integers
   $2^k+n$, with $n$ having at most $r$ prime divisors, have density at least
-  $1-\epsilon$; proved.
+  $1-\epsilon$.
 tags:
 - Number theory
 status: solved

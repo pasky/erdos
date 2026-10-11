@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0224
 title: Problem 224
 desc: |
   Asks whether any $2^d+1$ points in $\mathbb{R}^d$ must include three that
-  determine an obtuse angle. Danzer and Grünbaum proved it in 1962.
+  determine an obtuse angle.
 tags:
 - Geometry
 status: solved

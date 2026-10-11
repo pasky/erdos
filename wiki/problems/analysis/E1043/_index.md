@@ -3,8 +3,7 @@ name: problems/analysis/E1043
 title: Problem 1043
 desc: |
   Asks whether every monic non-constant polynomial $f\in\mathbb{C}[x]$ has a
-  line onto which $\{z:|f(z)|\le1\}$ projects to a set of measure at most $2$;
-  disproved.
+  line onto which $\{z:|f(z)|\le1\}$ projects to a set of measure at most $2$.
 tags:
 - Analysis
 status: solved

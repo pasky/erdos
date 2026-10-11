@@ -5,7 +5,7 @@ desc: |
   Asks whether $\Lambda(k,2)$ is finite for all $k$ and $\Lambda(k,3)$ for all
   odd $k$, and how large they are, where $\Lambda(k,m)$ is the limsup over
   primes $p$ of the least start of $m$ consecutive $k$th power residues modulo
-  $p$; open, though Hildebrand (1991) proved $\Lambda(k,2)$ finite.
+  $p$.
 tags:
 - Number theory
 status: open

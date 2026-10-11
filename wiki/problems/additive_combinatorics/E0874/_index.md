@@ -4,7 +4,7 @@ title: Problem 874
 desc: |
   Estimates $k(N)$, the size of the largest subset of $\{1,\ldots,N\}$ whose
   sets of sums of $r$ distinct members are disjoint for distinct $r$, and asks
-  whether $k(N)\sim2N^{1/2}$; proved.
+  whether $k(N)\sim2N^{1/2}$.
 tags:
 - Number theory
 - Additive combinatorics

@@ -3,8 +3,7 @@ name: problems/ramsey_theory/E0183
 title: Problem 183
 desc: |
   Asks for $\lim_{k\to\infty}R(3;k)^{1/k}$, where $R(3;k)$ is the least $n$ such
-  that every $k$-coloring of the edges of $K_n$ has a monochromatic triangle;
-  solved.
+  that every $k$-coloring of the edges of $K_n$ has a monochromatic triangle.
 tags:
 - Graph theory
 - Ramsey theory

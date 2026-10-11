@@ -4,7 +4,7 @@ title: Problem 686
 desc: |
   Asks whether every integer $N\ge2$ is a ratio
   $\prod_{i=1}^k(m+i)/\prod_{i=1}^k(n+i)$ of products of $k$ consecutive
-  integers, for some $k\ge2$ and $m\ge n+k$; open.
+  integers, for some $k\ge2$ and $m\ge n+k$.
 tags:
 - Number theory
 status: open

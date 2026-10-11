@@ -4,7 +4,7 @@ title: Problem 205
 desc: |
   Asks whether every large integer $n$ can be written as $2^k+m$ with
   $\Omega(m)<\log\log m$, where $\Omega(m)$ counts prime factors with
-  multiplicity; disproved.
+  multiplicity.
 tags:
 - Number theory
 status: solved

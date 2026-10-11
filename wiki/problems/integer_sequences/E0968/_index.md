@@ -2,8 +2,7 @@
 name: problems/integer_sequences/E0968
 title: Problem 968
 desc: |
-  Asks whether the set of $n$ with $p_n/n<p_{n+1}/(n+1)$ has positive density;
-  proved with density read as lower density.
+  Asks whether the set of $n$ with $p_n/n<p_{n+1}/(n+1)$ has positive density.
 tags:
 - Number theory
 status: solved

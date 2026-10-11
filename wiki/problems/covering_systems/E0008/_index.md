@@ -3,7 +3,7 @@ name: problems/covering_systems/E0008
 title: Problem 8
 desc: |
   Asks whether every finite coloring of the integers admits a covering system
-  whose moduli all receive the same color. The answer is no.
+  whose moduli all receive the same color.
 tags:
 - Number theory
 - Covering systems

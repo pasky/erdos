@@ -4,7 +4,7 @@ title: Problem 240
 desc: |
   Asks whether there is an infinite set $P$ of primes such that the gaps
   $a_{i+1}-a_i$ between consecutive integers divisible only by primes in $P$
-  tend to infinity; proved.
+  tend to infinity.
 tags:
 - Number theory
 - Primes

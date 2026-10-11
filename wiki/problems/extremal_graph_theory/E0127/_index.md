@@ -4,7 +4,7 @@ title: Problem 127
 desc: |
   Asks whether, for graphs with $m$ edges, the guaranteed excess $f(m)$ of a
   largest bipartite subgraph over $m/2+(\sqrt{8m+1}-1)/8$ edges is unbounded
-  along some sequence of $m$; proved.
+  along some sequence of $m$.
 tags:
 - Graph theory
 status: solved

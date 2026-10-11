@@ -4,7 +4,7 @@ title: Problem 552
 desc: |
   Asks for the Ramsey number $R(C_4,S_n)$ of a four-cycle against the star with
   $n$ edges, and whether, for every $c>0$, infinitely many $n$ have
-  $R(C_4,S_n)\le n+\sqrt{n}-c$; open.
+  $R(C_4,S_n)\le n+\sqrt{n}-c$.
 tags:
 - Graph theory
 - Ramsey theory

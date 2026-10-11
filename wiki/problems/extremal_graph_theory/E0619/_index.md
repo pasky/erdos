@@ -4,7 +4,7 @@ title: Problem 619
 desc: |
   Asks whether there is a constant $c>0$ such that every connected triangle-free
   graph on $n$ vertices can be given diameter at most $4$, still triangle-free,
-  by adding fewer than $(1-c)n$ edges; disproved.
+  by adding fewer than $(1-c)n$ edges.
 tags:
 - Graph theory
 status: solved

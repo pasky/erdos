@@ -4,7 +4,7 @@ title: Problem 353
 desc: |
   Asks whether a measurable set of infinite measure in the plane must contain
   the vertices of an isosceles trapezoid of area $1$, or of other prescribed
-  shapes; all parts are answered.
+  shapes.
 tags:
 - Geometry
 parts:

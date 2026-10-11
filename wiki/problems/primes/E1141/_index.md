@@ -3,7 +3,7 @@ name: problems/primes/E1141
 title: Problem 1141
 desc: |
   Asks whether infinitely many $n$ have $n-k^2$ prime for every $k$ coprime to
-  $n$ with $k^2<n$; disproved.
+  $n$ with $k^2<n$.
 tags:
 - Number theory
 - Primes

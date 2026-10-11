@@ -4,7 +4,7 @@ title: Problem 4
 desc: |
   Asks whether, for every $C>0$, infinitely many $n$ have
   $p_{n+1}-p_n>C\frac{\log\log n\,\log\log\log\log n}{(\log\log\log n)^2}\log n$,
-  where $p_n$ is the $n$th prime; the answer is yes.
+  where $p_n$ is the $n$th prime.
 tags:
 - Number theory
 - Primes

@@ -3,7 +3,7 @@ name: problems/covering_systems/E0277
 title: Problem 277
 desc: |
   Asks whether for every $c$ some $n$ with $\sigma(n)>cn$ admits no covering
-  system whose moduli are distinct divisors of $n$ above $1$. The answer is yes.
+  system whose moduli are distinct divisors of $n$ above $1$.
 tags:
 - Number theory
 - Covering systems

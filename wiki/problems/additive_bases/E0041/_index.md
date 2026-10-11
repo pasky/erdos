@@ -3,7 +3,7 @@ name: problems/additive_bases/E0041
 title: Problem 41
 desc: |
   Asks whether an infinite set $A$ whose triple sums $a+b+c$ are all distinct
-  must have $\liminf \lvert A\cap\{1,\ldots,N\}\rvert/N^{1/3}=0$; open.
+  must have $\liminf \lvert A\cap\{1,\ldots,N\}\rvert/N^{1/3}=0$.
 tags:
 - Number theory
 - Sidon sets

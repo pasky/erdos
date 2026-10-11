@@ -4,7 +4,7 @@ title: Problem 344
 desc: |
   Asks whether, for a sufficiently large constant $c$, every set of integers
   with at least $cN^{1/2}$ elements up to $N$, for every $N$, has subset sums
-  containing an infinite arithmetic progression; proved.
+  containing an infinite arithmetic progression.
 tags:
 - Number theory
 - Complete sequences

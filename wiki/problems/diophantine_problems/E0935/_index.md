@@ -5,7 +5,7 @@ desc: |
   Asks whether the powerful part of $n(n+1)\cdots(n+\ell)$ is below
   $n^{2+\epsilon}$ for every $\epsilon>0$ once $n$ is large and, for
   $\ell\geq 2$, whether its ratio to $n^2$ is unbounded and whether its ratio to
-  $n^{\ell+1}$ tends to zero; open.
+  $n^{\ell+1}$ tends to zero.
 tags:
 - Number theory
 - Powerful numbers

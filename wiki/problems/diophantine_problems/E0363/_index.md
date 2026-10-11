@@ -4,7 +4,7 @@ title: Problem 363
 desc: |
   Asks whether only finitely many collections of disjoint integer intervals,
   each containing at least four integers, have the product of all their members
-  equal to a square; disproved.
+  equal to a square.
 tags:
 - Number theory
 status: solved

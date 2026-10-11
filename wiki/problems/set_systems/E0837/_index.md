@@ -5,7 +5,7 @@ desc: |
   Asks for the set $A_3$ of $\alpha$ such that $3$-uniform hypergraphs of
   limiting density above $\alpha$ must contain growing subgraphs of density
   above some fixed $\beta>\alpha$, while limiting density at least $\alpha$ need
-  not; open.
+  not.
 tags:
 - Graph theory
 - Hypergraphs

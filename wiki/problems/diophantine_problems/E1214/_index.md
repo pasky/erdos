@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E1214
 title: Problem 1214
 desc: |
   Asks whether integers $x,y\geq 1$ must be equal when, for every $n\geq 1$, the
-  primes dividing $x^n-1$ are the same as those dividing $y^n-1$; proved.
+  primes dividing $x^n-1$ are the same as those dividing $y^n-1$.
 tags:
 - Number theory
 status: solved

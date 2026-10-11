@@ -4,7 +4,7 @@ title: Problem 627
 desc: |
   Asks whether $f(n)/(n/(\log_2 n)^2)$ tends to a limit, where $f(n)$ is the
   largest ratio $\chi(G)/\omega(G)$ of chromatic number to clique number over
-  graphs $G$ on $n$ vertices; open.
+  graphs $G$ on $n$ vertices.
 tags:
 - Graph theory
 - Chromatic number

@@ -4,8 +4,7 @@ title: Problem 983
 desc: |
   Asks for estimates of the least $r=f(k,n)$ such that every $k$-element subset
   of $\{1,\ldots,n\}$ has more than $r$ members divisible only by primes from
-  some set of $r$ primes, and whether $2\pi(n^{1/2})-f(\pi(n)+1,n)\to\infty$;
-  open.
+  some set of $r$ primes, and whether $2\pi(n^{1/2})-f(\pi(n)+1,n)\to\infty$.
 tags:
 - Number theory
 status: open

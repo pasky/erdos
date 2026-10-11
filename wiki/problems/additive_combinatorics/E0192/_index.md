@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0192
 title: Problem 192
 desc: |
   Asks in which dimensions $d$ an infinite walk in $\mathbb{R}^d$ with positive
-  unit-vector steps must contain a three-term arithmetic progression; solved.
+  unit-vector steps must contain a three-term arithmetic progression.
 tags:
 - Arithmetic progressions
 - Combinatorics

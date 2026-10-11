@@ -4,7 +4,7 @@ title: Problem 449
 desc: |
   Asks whether, for every $\epsilon>0$, almost all $n$ have fewer than
   $\epsilon\tau(n)$ pairs of divisors $d_1<d_2<2d_1$, where $\tau(n)$ is the
-  number of divisors; disproved.
+  number of divisors.
 tags:
 - Number theory
 - Divisors

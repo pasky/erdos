@@ -4,7 +4,7 @@ title: Problem 53
 desc: |
   Asks whether, for every $k$, every large enough finite set $A$ of integers has
   at least $\lvert A\rvert^k$ integers that are sums or products of distinct
-  elements of $A$; proved.
+  elements of $A$.
 tags:
 - Number theory
 - Additive combinatorics

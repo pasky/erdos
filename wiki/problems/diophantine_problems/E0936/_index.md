@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0936
 title: Problem 936
 desc: |
   Asks whether $2^n\pm 1$ and $n!\pm 1$ are powerful numbers for only finitely
-  many $n$; open.
+  many $n$.
 tags:
 - Number theory
 - Powerful numbers

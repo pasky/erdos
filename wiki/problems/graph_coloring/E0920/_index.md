@@ -4,7 +4,7 @@ title: Problem 920
 desc: |
   Asks whether, for every $k\geq4$, the largest chromatic number $f_k(n)$ of a
   $K_k$-free graph on $n$ vertices satisfies
-  $f_k(n)\gg n^{1-1/(k-1)}/(\log n)^{c_k}$ for some constant $c_k>0$; proved.
+  $f_k(n)\gg n^{1-1/(k-1)}/(\log n)^{c_k}$ for some constant $c_k>0$.
 tags:
 - Graph theory
 - Chromatic number

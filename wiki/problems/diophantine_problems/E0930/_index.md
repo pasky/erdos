@@ -4,7 +4,7 @@ title: Problem 930
 desc: |
   Asks whether, for every $r$, there is a $k$ such that the product of all
   integers in any $r$ disjoint intervals of consecutive integers, each of length
-  at least $k$, is never a perfect power; open.
+  at least $k$, is never a perfect power.
 tags:
 - Number theory
 status: open

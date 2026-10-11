@@ -3,7 +3,7 @@ name: problems/additive_bases/E0241
 title: Problem 241
 desc: |
   Asks whether the largest subset of $\{1,\ldots,N\}$ whose triple sums $a+b+c$
-  are all distinct has size asymptotic to $N^{1/3}$; open.
+  are all distinct has size asymptotic to $N^{1/3}$.
 tags:
 - Additive combinatorics
 - Sidon sets

@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0310
 title: Problem 310
 desc: |
   Asks whether every $A\subseteq\{1,\ldots,N\}$ with $|A|\ge\alpha N$ has a
-  subset whose reciprocals sum to some $a/b$ with $a\le b=O_\alpha(1)$; proved.
+  subset whose reciprocals sum to some $a/b$ with $a\le b=O_\alpha(1)$.
 tags:
 - Number theory
 - Unit fractions

@@ -3,8 +3,7 @@ name: problems/additive_bases/E0337
 title: Problem 337
 desc: |
   Asks whether every additive basis $A$ of density zero has
-  $\lvert (A+A)\cap\{1,\ldots,N\}\rvert/\lvert A\cap\{1,\ldots,N\}\rvert\to\infty$;
-  disproved.
+  $\lvert (A+A)\cap\{1,\ldots,N\}\rvert/\lvert A\cap\{1,\ldots,N\}\rvert\to\infty$.
 tags:
 - Number theory
 - Additive combinatorics

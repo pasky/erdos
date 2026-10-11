@@ -4,8 +4,7 @@ title: Problem 786
 desc: |
   Asks whether, for every $\epsilon>0$, some $A\subset\mathbb{N}$ of density
   above $1-\epsilon$ has equal products of distinct elements only with equally
-  many factors. The site labels it OPEN, and a pending 2026 claim asserts a
-  negative answer.
+  many factors.
 tags:
 - Number theory
 status: claimed

@@ -4,7 +4,7 @@ title: Problem 470
 desc: |
   Asks whether there are odd weird numbers and infinitely many primitive ones,
   where $n$ is weird if $\sigma(n)\ge2n$ but $n$ is not a sum of distinct proper
-  divisors of $n$, and primitive if no proper divisor of $n$ is weird; open.
+  divisors of $n$, and primitive if no proper divisor of $n$ is weird.
 tags:
 - Number theory
 - Divisors

@@ -3,8 +3,7 @@ name: problems/extremal_graph_theory/E0182
 title: Problem 182
 desc: |
   Asks, for each $k\ge3$, for the maximum number of edges of a graph on $n$
-  vertices with no $k$-regular subgraph, and whether it is $\ll n^{1+o(1)}$;
-  proved.
+  vertices with no $k$-regular subgraph, and whether it is $\ll n^{1+o(1)}$.
 tags:
 - Graph theory
 status: solved

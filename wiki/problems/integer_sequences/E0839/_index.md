@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0839
 title: Problem 839
 desc: |
   Asks whether an increasing sequence of positive integers in which no term is a
-  sum of consecutive earlier terms must satisfy $\limsup a_n/n=\infty$; open.
+  sum of consecutive earlier terms must satisfy $\limsup a_n/n=\infty$.
 tags:
 - Number theory
 status: open

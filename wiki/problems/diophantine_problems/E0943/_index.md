@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0943
 title: Problem 943
 desc: |
   Asks whether the number of ways to write $n$ as a sum of two powerful numbers
-  is $n^{o(1)}$; open.
+  is $n^{o(1)}$.
 tags:
 - Number theory
 - Powerful numbers

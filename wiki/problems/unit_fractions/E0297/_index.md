@@ -2,8 +2,7 @@
 name: problems/unit_fractions/E0297
 title: Problem 297
 desc: |
-  Asks how many subsets of $\{1,\ldots,N\}$ have reciprocals summing to $1$;
-  solved at the level of the exact exponential growth rate.
+  Asks how many subsets of $\{1,\ldots,N\}$ have reciprocals summing to $1$.
 tags:
 - Number theory
 - Unit fractions

@@ -5,7 +5,7 @@ desc: |
   Asks whether $f_r(n)\gg_r n$, in particular for $r=2$, where $f_r$ is the
   largest function such that a graph whose every $m$-vertex subgraph is an
   $r$-colorable graph plus at most $f_r(m)$ edges has chromatic number at most
-  $r+1$; disproved.
+  $r+1$.
 tags:
 - Graph theory
 - Chromatic number

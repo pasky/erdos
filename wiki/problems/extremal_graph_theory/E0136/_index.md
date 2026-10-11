@@ -3,8 +3,7 @@ name: problems/extremal_graph_theory/E0136
 title: Problem 136
 desc: |
   Asks for the least number $f(n)$ of colors for the edges of $K_n$ such that
-  every $K_4$ contains at least $5$ colors; solved asymptotically, with
-  $f(n)=\frac56n+o(n)$.
+  every $K_4$ contains at least $5$ colors.
 tags:
 - Graph theory
 status: solved

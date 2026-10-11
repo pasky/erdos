@@ -3,7 +3,7 @@ name: problems/additive_bases/E0868
 title: Problem 868
 desc: |
   Asks whether an additive basis of order $2$ whose representation counts tend
-  to infinity must contain a minimal such basis; disproved.
+  to infinity must contain a minimal such basis.
 tags:
 - Number theory
 - Additive bases

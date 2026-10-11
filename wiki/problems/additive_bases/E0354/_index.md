@@ -5,7 +5,7 @@ desc: |
   Asks whether $\lfloor 2^k\alpha\rfloor$ and $\lfloor 2^k\beta\rfloor$, for
   $\alpha,\beta>0$ with $\alpha/\beta$ irrational, together form a complete
   sequence, and the same for a base $\gamma\in(1,2)$. The first question is
-  answered yes and the second has two readings; open overall.
+  answered yes and the second has two readings.
 tags:
 - Number theory
 - Complete sequences

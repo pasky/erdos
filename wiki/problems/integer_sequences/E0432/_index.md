@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0432
 title: Problem 432
 desc: |
   Asks how dense $A+B$ can be for infinite sets $A,B\subseteq\mathbb{N}$ when
-  the elements of $A+B$ are pairwise coprime; open.
+  the elements of $A+B$ are pairwise coprime.
 tags:
 - Number theory
 status: open

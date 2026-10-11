@@ -3,7 +3,7 @@ name: problems/integer_sequences/E1103
 title: Problem 1103
 desc: |
   Asks how fast an infinite set of integers must grow if every sum of two of its
-  members is squarefree; open.
+  members is squarefree.
 tags:
 - Number theory
 status: open

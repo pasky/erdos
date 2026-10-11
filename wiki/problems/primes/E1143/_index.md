@@ -4,7 +4,7 @@ title: Problem 1143
 desc: |
   Asks to estimate, for given primes $p_1<\cdots<p_u$, how many integers
   divisible by some $p_i$ every interval of $k$ consecutive positive integers
-  must contain; open.
+  must contain.
 tags:
 - Number theory
 - Primes

@@ -5,7 +5,7 @@ desc: |
   Primes are sorted into classes by the prime factors of $p+1$, with class $1$
   holding the primes $p$ for which $p+1$ has no prime factor other than $2$ and
   $3$. The problem asks whether every class is infinite and how $p_r^{1/r}$
-  behaves, where $p_r$ is the least prime in class $r$; open.
+  behaves, where $p_r$ is the least prime in class $r$.
 tags:
 - Number theory
 - Primes

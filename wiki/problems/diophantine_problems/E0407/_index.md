@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0407
 title: Problem 407
 desc: |
   Asks whether the number of solutions of $n=2^a+3^b+2^c3^d$ in nonnegative
-  integers $a,b,c,d$ is bounded by an absolute constant; proved.
+  integers $a,b,c,d$ is bounded by an absolute constant.
 tags:
 - Number theory
 status: solved

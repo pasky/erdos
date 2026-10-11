@@ -4,7 +4,7 @@ title: Problem 1128
 desc: |
   Asks whether every $2$-coloring of $A\times B\times C$, for sets $A,B,C$ of
   size $\aleph_1$, has a monochromatic product of three countably infinite
-  subsets; disproved.
+  subsets.
 tags:
 - Set theory
 - Ramsey theory

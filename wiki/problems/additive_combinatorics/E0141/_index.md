@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0141
 title: Problem 141
 desc: |
   Asks whether, for every $k\ge3$, there are $k$ consecutive primes in
-  arithmetic progression; open.
+  arithmetic progression.
 tags:
 - Additive combinatorics
 - Primes

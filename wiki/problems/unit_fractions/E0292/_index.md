@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0292
 title: Problem 292
 desc: |
   Asks whether the integers that occur as the largest denominator in some
-  representation of $1$ by distinct unit fractions have density $1$; proved.
+  representation of $1$ by distinct unit fractions have density $1$.
 tags:
 - Number theory
 - Unit fractions

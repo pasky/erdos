@@ -3,7 +3,7 @@ name: problems/set_systems/E0901
 title: Problem 901
 desc: |
   Asks for an estimate of the least number of edges in an $n$-uniform hypergraph
-  that cannot be colored with two colors but can with three; open.
+  that cannot be colored with two colors but can with three.
 tags:
 - Combinatorics
 - Hypergraphs

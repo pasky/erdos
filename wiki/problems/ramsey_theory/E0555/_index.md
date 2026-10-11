@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E0555
 title: Problem 555
 desc: |
   Asks for the $k$-color Ramsey number $R_k(C_{2n})$ of the even cycle on $2n$
-  vertices; open.
+  vertices.
 tags:
 - Graph theory
 - Ramsey theory

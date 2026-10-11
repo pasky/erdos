@@ -4,7 +4,7 @@ title: Problem 1088
 desc: |
   Asks for estimates of the least $f_d(n)$ such that any $f_d(n)$ points in
   $\mathbb{R}^d$ contain $n$ points with all pairwise distances distinct, and
-  whether $f_d(n)=2^{o(d)}$ for fixed $n\ge3$. It is open.
+  whether $f_d(n)=2^{o(d)}$ for fixed $n\ge3$.
 tags:
 - Geometry
 status: open

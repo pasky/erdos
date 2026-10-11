@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0755
 title: Problem 755
 desc: |
   Asks whether $n$ points in $\mathbb{R}^6$ span at most
-  $(\frac{1}{27}+o(1))n^3$ unit equilateral triangles; proved.
+  $(\frac{1}{27}+o(1))n^3$ unit equilateral triangles.
 tags:
 - Geometry
 status: solved

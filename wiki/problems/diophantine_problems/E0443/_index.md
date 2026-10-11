@@ -4,7 +4,7 @@ title: Problem 443
 desc: |
   Asks for the size of $\{k(m-k):1\le k\le m/2\}\cap\{l(n-l):1\le l\le n/2\}$
   when $m\neq n$, whether it can be arbitrarily large, and whether it is at most
-  $(mn)^{o(1)}$ for large $m,n$; proved.
+  $(mn)^{o(1)}$ for large $m,n$.
 tags:
 - Number theory
 status: solved

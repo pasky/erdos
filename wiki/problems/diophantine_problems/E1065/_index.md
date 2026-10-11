@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E1065
 title: Problem 1065
 desc: |
   Asks whether infinitely many primes have the form $2^kq+1$ with $q$ prime, or
-  the form $2^k3^lq+1$; open.
+  the form $2^k3^lq+1$.
 tags:
 - Number theory
 status: open

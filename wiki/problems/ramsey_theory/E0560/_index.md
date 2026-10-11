@@ -3,8 +3,8 @@ name: problems/ramsey_theory/E0560
 title: Problem 560
 desc: |
   Asks for the size Ramsey number of $K_{n,n}$, the complete bipartite graph
-  with $n$ vertices on each side; open, with its order known to lie between
-  $n^22^n$ and $n^32^n$.
+  with $n$ vertices on each side; its order is known to lie between $n^22^n$ and
+  $n^32^n$.
 tags:
 - Graph theory
 - Ramsey theory

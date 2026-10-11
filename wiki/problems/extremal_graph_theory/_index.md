@@ -6,7 +6,7 @@ desc: |
   and edge counts, cycles and girth, degree and subgraph-counting conditions,
   planarity, and structural questions such as the Erdos-Hajnal conjecture.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-11T23:17:00Z
 ---
 
 # Extremal and Structural Graph Theory
@@ -15,99 +15,94 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/extremal_graph_theory/E0022/_index|E0022/]]: Asks whether, for each
 $\epsilon>0$ and large $n$, some $K_4$-free graph on $n$ vertices with at least
-$n^2/8$ edges has independence number at most $\epsilon n$; proved.
+$n^2/8$ edges has independence number at most $\epsilon n$.
 
 [[problems/extremal_graph_theory/E0023/_index|E0023/]]: Asks whether every
 triangle-free graph on $5n$ vertices can be made bipartite by deleting at most
-$n^2$ edges; open.
+$n^2$ edges.
 
 [[problems/extremal_graph_theory/E0024/_index|E0024/]]: Asks whether every
-triangle-free graph on $5n$ vertices contains at most $n^5$ copies of $C_5$;
-proved.
+triangle-free graph on $5n$ vertices contains at most $n^5$ copies of $C_5$.
 
 [[problems/extremal_graph_theory/E0059/_index|E0059/]]: Asks whether the number
 of graphs on $n$ vertices containing no copy of a fixed graph $G$ is at most
-$2^{(1+o(1))\mathrm{ex}(n;G)}$; disproved.
+$2^{(1+o(1))\mathrm{ex}(n;G)}$.
 
 [[problems/extremal_graph_theory/E0060/_index|E0060/]]: Asks whether every graph
 on $n$ vertices with more than $\mathrm{ex}(n;C_4)$ edges contains $\gg n^{1/2}$
-copies of $C_4$; open.
+copies of $C_4$.
 
 [[problems/extremal_graph_theory/E0061/_index|E0061/]]: Asks whether, for each
 graph $H$, there is $c=c(H)>0$ such that every graph on $n$ vertices with no
-induced copy of $H$ has a clique or an independent set of size at least $n^c$;
-open.
+induced copy of $H$ has a clique or an independent set of size at least $n^c$.
 
 [[problems/extremal_graph_theory/E0062/_index|E0062/]]: Asks whether any two
 graphs of chromatic number $\aleph_1$ must share a common subgraph of chromatic
-number $4$, or even $\aleph_0$; open.
+number $4$, or even $\aleph_0$.
 
 [[problems/extremal_graph_theory/E0064/_index|E0064/]]: Asks whether every
 finite graph with minimum degree at least $3$ contains a cycle of length $2^k$
-for some $k\ge2$; open.
+for some $k\ge2$.
 
 [[problems/extremal_graph_theory/E0065/_index|E0065/]]: Asks whether the
 reciprocals of the distinct cycle lengths of a graph with $n$ vertices and $kn$
 edges sum to $\gg\log k$, and whether a complete bipartite graph minimizes that
-sum; open.
+sum.
 
 [[problems/extremal_graph_theory/E0071/_index|E0071/]]: Asks whether, for every
 infinite arithmetic progression $P$ containing even numbers, there is a constant
 $c(P)$ such that every graph of average degree at least $c(P)$ has a cycle whose
-length lies in $P$; proved.
+length lies in $P$.
 
 [[problems/extremal_graph_theory/E0072/_index|E0072/]]: Asks whether there are a
 set $A\subset\mathbb{N}$ of density $0$ and a constant $c>0$ such that every
-large graph of average degree at least $c$ has a cycle whose length lies in $A$;
-proved.
+large graph of average degree at least $c$ has a cycle whose length lies in $A$.
 
 [[problems/extremal_graph_theory/E0073/_index|E0073/]]: Asks whether a graph in
 which every subgraph on $n$ vertices has an independent set of size at least
-$(n-k)/2$ becomes bipartite after deleting $O_k(1)$ vertices; proved.
+$(n-k)/2$ becomes bipartite after deleting $O_k(1)$ vertices.
 
 [[problems/extremal_graph_theory/E0081/_index|E0081/]]: Asks whether the edges
 of every chordal graph on $n$ vertices can be partitioned into $n^2/6+O(n)$
-cliques; open on the site, with pending claimed proofs.
+cliques.
 
 [[problems/extremal_graph_theory/E0082/_index|E0082/]]: Asks whether $F(n)/\log
 n\to\infty$, where $F(n)$ is the size of the largest regular induced subgraph
-guaranteed in every graph on $n$ vertices; open.
+guaranteed in every graph on $n$ vertices.
 
 [[problems/extremal_graph_theory/E0084/_index|E0084/]]: Asks whether the number
 $f(n)$ of cycle sets of graphs on $n$ vertices is $o(2^n)$, and whether
-$f(n)/2^{n/2}\to\infty$; open.
+$f(n)/2^{n/2}\to\infty$.
 
 [[problems/extremal_graph_theory/E0086/_index|E0086/]]: Asks whether every
 subgraph of the $n$-dimensional hypercube with at least $(1/2+o(1))n2^{n-1}$
-edges, slightly more than half of all its edges, must contain a $C_4$; open.
+edges, slightly more than half of all its edges, must contain a $C_4$.
 
 [[problems/extremal_graph_theory/E0113/_index|E0113/]]: Asks whether a bipartite
 graph $G$ has Turán number $\mathrm{ex}(n;G)=O(n^{3/2})$ exactly when it is
-$2$-degenerate, that is, has no induced subgraph of minimum degree at least $3$;
-disproved.
+$2$-degenerate, that is, has no induced subgraph of minimum degree at least $3$.
 
 [[problems/extremal_graph_theory/E0127/_index|E0127/]]: Asks whether, for graphs
 with $m$ edges, the guaranteed excess $f(m)$ of a largest bipartite subgraph
-over $m/2+(\sqrt{8m+1}-1)/8$ edges is unbounded along some sequence of $m$;
-proved.
+over $m/2+(\sqrt{8m+1}-1)/8$ edges is unbounded along some sequence of $m$.
 
 [[problems/extremal_graph_theory/E0128/_index|E0128/]]: Asks whether a graph on
 $n$ vertices must contain a triangle if every induced subgraph on at least
-$\lfloor n/2\rfloor$ vertices has more than $n^2/50$ edges; open.
+$\lfloor n/2\rfloor$ vertices has more than $n^2/50$ edges.
 
 [[problems/extremal_graph_theory/E0133/_index|E0133/]]: Asks for the order of
 growth of the largest $f(n)$ such that every triangle-free graph on $n$ vertices
 with diameter $2$ has a vertex of degree at least $f(n)$, and whether
-$f(n)/\sqrt{n}\to\infty$; disproved, as $f(n)$ has order $\sqrt{n}$.
+$f(n)/\sqrt{n}\to\infty$.
 
 [[problems/extremal_graph_theory/E0134/_index|E0134/]]: Asks whether a
 triangle-free graph on $n$ vertices with maximum degree below $n^{1/2-\epsilon}$
 can be made into a triangle-free graph of diameter $2$ by adding at most $\delta
-n^2$ edges; proved.
+n^2$ edges.
 
 [[problems/extremal_graph_theory/E0136/_index|E0136/]]: Asks for the least
 number $f(n)$ of colors for the edges of $K_n$ such that every $K_4$ contains at
-least $5$ colors; solved asymptotically, with $f(n)=\frac56n+o(n)$.
+least $5$ colors.
 
 [[problems/extremal_graph_theory/E0146/_index|E0146/]]: Asks whether every
 bipartite $r$-degenerate graph $H$ has $\mathrm{ex}(n;H)\ll n^{2-1/r}$;
@@ -116,7 +111,7 @@ the site's curator credits.
 
 [[problems/extremal_graph_theory/E0147/_index|E0147/]]: Asks whether every
 bipartite graph $H$ of minimum degree $r$ has $\mathrm{ex}(n;H)\gg
-n^{2-\frac{1}{r-1}+\epsilon}$ for some $\epsilon=\epsilon(H)>0$; disproved.
+n^{2-\frac{1}{r-1}+\epsilon}$ for some $\epsilon=\epsilon(H)>0$.
 
 [[problems/extremal_graph_theory/E0149/_index|E0149/]]: Asks whether the strong
 chromatic index of every graph, the least number of induced matchings that
@@ -144,11 +139,11 @@ falsifiable, and Haxell's $66/23$ is the best refereed constant.
 [[problems/extremal_graph_theory/E0180/_index|E0180/]]: Asks whether every
 finite family $\mathcal{F}$ of forbidden graphs has a member $G$ whose extremal
 number is comparable to the family's,
-$\mathrm{ex}(n;G)\ll_{\mathcal{F}}\mathrm{ex}(n;\mathcal{F})$; disproved.
+$\mathrm{ex}(n;G)\ll_{\mathcal{F}}\mathrm{ex}(n;\mathcal{F})$.
 
 [[problems/extremal_graph_theory/E0182/_index|E0182/]]: Asks, for each $k\ge3$,
 for the maximum number of edges of a graph on $n$ vertices with no $k$-regular
-subgraph, and whether it is $\ll n^{1+o(1)}$; proved.
+subgraph, and whether it is $\ll n^{1+o(1)}$.
 
 [[problems/extremal_graph_theory/E0184/_index|E0184/]]: Asks whether every graph
 on $n$ vertices decomposes into $O(n)$ edge-disjoint cycles and single edges
@@ -157,18 +152,16 @@ OpenAI release's 2026 theorem.
 
 [[problems/extremal_graph_theory/E0426/_index|E0426/]]: Asks whether some graph
 on $n$ vertices has $\gg 2^{\binom{n}{2}}/n!$ distinct unique subgraphs, that
-is, subgraphs that occur in exactly one way; disproved.
+is, subgraphs that occur in exactly one way.
 
 [[problems/extremal_graph_theory/E0500/_index|E0500/]]: Asks for
 $\mathrm{ex}_3(n,K_4^3)$, the largest number of triples on $n$ vertices with no
 four vertices carrying all four of their triples (Turán's tetrahedron problem).
-It is open, with the density between Turán's $5/9$ and a flag-algebra bound of
-$0.5615$.
+The density lies between Turán's $5/9$ and a flag-algebra bound of $0.5615$.
 
 [[problems/extremal_graph_theory/E0533/_index|E0533/]]: Asks whether, for fixed
 $\delta>0$ and large $n$, every $K_5$-free graph on $n$ vertices with at least
-$\delta n^2$ edges has a set of $\gg_\delta n$ vertices spanning no triangle;
-disproved.
+$\delta n^2$ edges has a set of $\gg_\delta n$ vertices spanning no triangle.
 
 [[problems/extremal_graph_theory/E0548/_index|E0548/]]: Asks whether every graph
 on $n\ge k+1$ vertices with at least $\frac{k-1}{2}n+1$ edges contains every
@@ -188,8 +181,8 @@ and $k=5$ and open for every other $k$.
 
 [[problems/extremal_graph_theory/E0573/_index|E0573/]]: Asks whether
 $\mathrm{ex}(n;\{C_3,C_4\})$, the most edges of a graph on $n$ vertices with no
-triangle and no four-cycle, is asymptotic to $(n/2)^{3/2}$. It is open, and the
-ratio is known only to lie between $1$ and $\sqrt2$.
+triangle and no four-cycle, is asymptotic to $(n/2)^{3/2}$. The ratio is known
+only to lie between $1$ and $\sqrt2$.
 
 [[problems/extremal_graph_theory/E0574/_index|E0574/]]: Asks whether, for every
 $k\ge2$, the most edges of a graph on $n$ vertices with no cycle of length
@@ -203,8 +196,8 @@ cycles by OpenAI's 2026 report.
 
 [[problems/extremal_graph_theory/E0576/_index|E0576/]]: Asks for the behaviour
 of $\mathrm{ex}(n;Q_k)$, the most edges of a graph on $n$ vertices with no
-$k$-dimensional hypercube $Q_k$. It is open; for the cube the order lies between
-$n^{3/2}$ and $n^{8/5}$, which refutes Erdős's first guess.
+$k$-dimensional hypercube $Q_k$. For the cube the order lies between $n^{3/2}$
+and $n^{8/5}$, which refutes Erdős's first guess.
 
 [[problems/extremal_graph_theory/E0577/_index|E0577/]]: Asks whether every graph
 on $4k$ vertices with minimum degree at least $2k$ contains $k$ vertex-disjoint
@@ -223,8 +216,8 @@ false at $\delta=3/2048$ by a Lean construction that Conjectures.io certified.
 
 [[problems/extremal_graph_theory/E0580/_index|E0580/]]: Asks whether every graph
 on $n$ vertices in which at least $n/2$ vertices have degree at least $n/2$
-contains every tree on at most $n/2$ vertices. It is open: Zhao proved it for
-large $n$, and finitely many orders remain unchecked.
+contains every tree on at most $n/2$ vertices. Zhao proved it for large $n$, and
+finitely many orders remain unchecked.
 
 [[problems/extremal_graph_theory/E0581/_index|E0581/]]: Asks for $f(m)$, the
 largest number of edges of a bipartite subgraph that every triangle-free graph
@@ -239,7 +232,7 @@ proved for several classes and open in general.
 [[problems/extremal_graph_theory/E0584/_index|E0584/]]: Asks whether every graph
 on $n$ vertices with $\delta n^2$ edges, where $\delta$ may shrink as a power of
 $n$, contains dense subgraphs in which any two edges lie together on a short
-cycle; open.
+cycle.
 
 [[problems/extremal_graph_theory/E0585/_index|E0585/]]: Asks for the maximum
 number of edges in a graph on $n$ vertices with no two edge-disjoint cycles on
@@ -249,11 +242,11 @@ $O(n(\log n)^t)$ for some constant $t$.
 [[problems/extremal_graph_theory/E0600/_index|E0600/]]: Let $e(n,r)$ be the
 least number of edges that forces an edge in at least $r$ triangles in an
 $n$-vertex graph where every edge lies in a triangle. Asks whether
-$e(n,r+1)-e(n,r)\to\infty$ and $e(n,r+1)/e(n,r)\to1$; open.
+$e(n,r+1)-e(n,r)\to\infty$ and $e(n,r+1)/e(n,r)\to1$.
 
 [[problems/extremal_graph_theory/E0608/_index|E0608/]]: Asks whether every graph
 on $n$ vertices with more than $n^2/4$ edges has at least $2n^2/9$ edges that
-lie in a $C_5$; disproved.
+lie in a $C_5$.
 
 [[problems/extremal_graph_theory/E0610/_index|E0610/]]: Asks for estimates of
 the clique transversal number of an $n$-vertex graph. Proved under the site's
@@ -275,15 +268,15 @@ some larger $r$.
 
 [[problems/extremal_graph_theory/E0614/_index|E0614/]]: Asks for the fewest
 edges in a graph on $n$ vertices in which every set of $k+2$ vertices induces a
-subgraph of maximum degree at least $k$; open.
+subgraph of maximum degree at least $k$.
 
 [[problems/extremal_graph_theory/E0616/_index|E0616/]]: Asks for the best bound
 $t$ on the covering number of an $r$-uniform hypergraph, $r\ge3$, in which every
-subhypergraph on at most $3r-3$ vertices has covering number at most $1$; open.
+subhypergraph on at most $3r-3$ vertices has covering number at most $1$.
 
 [[problems/extremal_graph_theory/E0617/_index|E0617/]]: Asks whether every
 $r$-coloring of the edges of $K_{r^2+1}$, for $r\ge3$, has $r+1$ vertices whose
-induced $K_{r+1}$ misses a color; open.
+induced $K_{r+1}$ misses a color.
 
 [[problems/extremal_graph_theory/E0618/_index|E0618/]]: Asks whether every
 triangle-free graph with maximum degree $o(n^{1/2})$ can be given diameter $2$,
@@ -294,7 +287,7 @@ bounded-degree results.
 [[problems/extremal_graph_theory/E0619/_index|E0619/]]: Asks whether there is a
 constant $c>0$ such that every connected triangle-free graph on $n$ vertices can
 be given diameter at most $4$, still triangle-free, by adding fewer than
-$(1-c)n$ edges; disproved.
+$(1-c)n$ edges.
 
 [[problems/extremal_graph_theory/E0620/_index|E0620/]]: Asks how large a
 triangle-free induced subgraph every $K_4$-free graph on $n$ vertices must
@@ -304,7 +297,7 @@ logarithmic factor, and a 2026 preprint claims it is of order $\sqrt{n\log n}$.
 [[problems/extremal_graph_theory/E0621/_index|E0621/]]: Asks whether, in every
 graph on $n$ vertices, the largest edge set containing at most one edge of each
 triangle and the smallest edge set meeting every triangle have sizes summing to
-at most $n^2/4$; proved.
+at most $n^2/4$.
 
 [[problems/extremal_graph_theory/E0622/_index|E0622/]]: Asks whether every
 regular graph of degree $n+1$ on $2n$ vertices has $\gg 2^{2n}$ vertex subsets
@@ -312,15 +305,15 @@ spanned by a cycle; proved, and the limiting constant is $1/2$.
 
 [[problems/extremal_graph_theory/E0641/_index|E0641/]]: Asks whether there is a
 function $f$ such that every finite graph with chromatic number at least $f(k)$
-has $k$ edge-disjoint cycles on the same vertex set, for every $k$; disproved.
+has $k$ edge-disjoint cycles on the same vertex set, for every $k$.
 
 [[problems/extremal_graph_theory/E0642/_index|E0642/]]: Asks whether a graph on
 $n$ vertices in which every cycle has more vertices than chords must have at
-most a constant times $n$ edges; open.
+most a constant times $n$ edges.
 
 [[problems/extremal_graph_theory/E0666/_index|E0666/]]: Asks whether, for every
 $\epsilon>0$ and all large $n$, every subgraph of the hypercube $Q_n$ with at
-least an $\epsilon$ fraction of its edges contains a $C_6$; disproved.
+least an $\epsilon$ fraction of its edges contains a $C_6$.
 
 [[problems/extremal_graph_theory/E0712/_index|E0712/]]: Asks for the Turán
 density of the complete $r$-uniform hypergraph on $k$ vertices, for any $k>r>2$;
@@ -333,8 +326,7 @@ for some $c>0$ and $\alpha\in[1,2)$, and whether $\alpha$ must be rational;
 open. The exponent forms Erdős proposed in 1967 were disproved in 1970.
 
 [[problems/extremal_graph_theory/E0714/_index|E0714/]]: Asks whether the maximum
-number of edges in a $K_{r,r}$-free graph on $n$ vertices is $\gg n^{2-1/r}$;
-open.
+number of edges in a $K_{r,r}$-free graph on $n$ vertices is $\gg n^{2-1/r}$.
 
 [[problems/extremal_graph_theory/E0715/_index|E0715/]]: Asks whether every
 $4$-regular graph contains a $3$-regular subgraph, and whether some $r$ forces
@@ -373,11 +365,11 @@ and by Komlós and Szemerédi.
 
 [[problems/extremal_graph_theory/E0752/_index|E0752/]]: Asks whether a graph
 with minimum degree $k$ and girth greater than $2s$ must have $\gg k^s$ distinct
-cycle lengths; proved.
+cycle lengths.
 
 [[problems/extremal_graph_theory/E0765/_index|E0765/]]: Asks for an asymptotic
 formula for $\mathrm{ex}(n;C_4)$, the largest number of edges in a graph on $n$
-vertices with no $C_4$; solved.
+vertices with no $C_4$.
 
 [[problems/extremal_graph_theory/E0766/_index|E0766/]]: Asks for estimates of
 $f(n;k,l)$, the least Turán number over graphs with $k$ vertices and $l$ edges,
@@ -397,7 +389,7 @@ Das, Glebov and Sudakov, the other two by Alon and Frankl.
 [[problems/extremal_graph_theory/E0778/_index|E0778/]]: Two players alternately
 color the edges of a complete graph, and the first wins if her largest
 monochromatic clique beats her opponent's. Asks whether the first player can
-win; open.
+win.
 
 [[problems/extremal_graph_theory/E0794/_index|E0794/]]: Asks whether every
 $3$-uniform hypergraph on $3n$ vertices with more than $n^3$ edges has four
@@ -416,12 +408,11 @@ construction; Janzer and Sudakov's bound is the best positive one.
 
 [[problems/extremal_graph_theory/E0804/_index|E0804/]]: Estimates the largest
 independent set forced in an $n$-vertex graph in which every induced subgraph on
-$m$ vertices has an independent set of size $\log n$; disproved, since both
-proposed bounds fail.
+$m$ vertices has an independent set of size $\log n$.
 
 [[problems/extremal_graph_theory/E0805/_index|E0805/]]: Asks for which functions
 $g(n)$ there is a graph on $n$ vertices in which every induced subgraph on
-$g(n)$ vertices has a clique and an independent set of size $\log n$; open.
+$g(n)$ vertices has a clique and an independent set of size $\log n$.
 
 [[problems/extremal_graph_theory/E0807/_index|E0807/]]: Asks whether the random
 graph $G(n,1/2)$ almost surely needs exactly $n-\alpha(G)$ complete bipartite
@@ -493,7 +484,7 @@ site's wording, with no range, fails at $n=1$.
 [[problems/extremal_graph_theory/E0926/_index|E0926/]]: Asks whether an
 $n$-vertex graph avoiding $H_k$ has $\ll_k n^{3/2}$ edges, where $H_k$ is a
 vertex joined to $k$ others and each pair of these $k$ has its own further
-common neighbor; proved.
+common neighbor.
 
 [[problems/extremal_graph_theory/E0927/_index|E0927/]]: Asks whether the largest
 number of distinct clique sizes in a graph on $n$ vertices is
@@ -570,13 +561,12 @@ Simonovits in his thesis, as attested by Erdős and the site.
 
 [[problems/extremal_graph_theory/E1021/_index|E1021/]]: Asks whether, for every
 $k\ge3$, $\mathrm{ex}(n,G_k)\ll n^{3/2-c_k}$ for some $c_k>0$, where $G_k$ is
-the bipartite graph joining each pair among $k$ vertices to its own vertex. It
-is proved.
+the bipartite graph joining each pair among $k$ vertices to its own vertex.
 
 [[problems/extremal_graph_theory/E1031/_index|E1031/]]: Asks whether a graph on
 $n$ vertices with no empty or complete subgraph on $10\log n$ vertices has an
 induced regular subgraph on $\gg\log n$ vertices that is neither empty nor
-complete. It is proved.
+complete.
 
 [[problems/extremal_graph_theory/E1033/_index|E1033/]]: Asks to estimate $h(n)$,
 the largest degree sum forced on some triangle in a graph on $n$ vertices with
@@ -592,21 +582,21 @@ constant $2-\sqrt{5/2}$.
 
 [[problems/extremal_graph_theory/E1035/_index|E1035/]]: Asks whether there is a
 constant $c>0$ such that every graph on $2^n$ vertices with minimum degree
-greater than $(1-c)2^n$ contains the $n$-dimensional hypercube $Q_n$; open.
+greater than $(1-c)2^n$ contains the $n$-dimensional hypercube $Q_n$.
 
 [[problems/extremal_graph_theory/E1036/_index|E1036/]]: Asks whether a graph on
 $n$ vertices with no empty or complete subgraph on more than $c\log n$ vertices
-has $2^{\Omega_c(n)}$ pairwise non-isomorphic induced subgraphs. It is proved.
+has $2^{\Omega_c(n)}$ pairwise non-isomorphic induced subgraphs.
 
 [[problems/extremal_graph_theory/E1037/_index|E1037/]]: Asks whether a graph on
 $n$ vertices with each degree occurring at most twice and more than
 $(\frac12+\epsilon)n$ distinct degrees has an empty or complete subgraph much
-larger than $\log n$. It is disproved.
+larger than $\log n$.
 
 [[problems/extremal_graph_theory/E1066/_index|E1066/]]: Asks to estimate $g(n)$,
 the largest $g$ such that every graph on $n$ points in the plane at pairwise
 distance at least $1$, with edges joining the pairs at distance exactly $1$, has
-an independent set of size $g$; open.
+an independent set of size $g$.
 
 [[problems/extremal_graph_theory/E1077/_index|E1077/]]: Asks whether every graph
 on $n$ vertices with $n^{1+\alpha}$ edges has an almost-regular subgraph on

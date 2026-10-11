@@ -3,7 +3,7 @@ name: problems/divisors/E0964
 title: Problem 964
 desc: |
   Asks whether the ratios $\tau(n+1)/\tau(n)$ of consecutive divisor counts are
-  dense in $(0,\infty)$; proved.
+  dense in $(0,\infty)$.
 tags:
 - Number theory
 - Divisors

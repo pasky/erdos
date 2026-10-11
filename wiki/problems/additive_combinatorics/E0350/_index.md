@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0350
 title: Problem 350
 desc: |
   Asks whether a finite set of integers with all subset sums distinct must have
-  reciprocals summing to less than $2$; the answer is yes.
+  reciprocals summing to less than $2$.
 tags:
 - Number theory
 - Additive combinatorics

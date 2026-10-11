@@ -3,7 +3,7 @@ name: problems/irrationality/E1051
 title: Problem 1051
 desc: |
   Asks whether $\sum_{n\ge1}1/(a_na_{n+1})$ is irrational for every increasing
-  integer sequence $1\le a_1<a_2<\cdots$ with $\liminf a_n^{1/2^n}>1$; proved.
+  integer sequence $1\le a_1<a_2<\cdots$ with $\liminf a_n^{1/2^n}>1$.
 tags:
 - Irrationality
 status: solved

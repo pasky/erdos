@@ -4,7 +4,7 @@ title: Problem 744
 desc: |
   Asks whether $f_k(n)\to\infty$, where $f_k(n)$ is the fewest edges whose
   deletion makes bipartite some $n$-vertex graph of chromatic number $k$ whose
-  proper subgraphs all have smaller chromatic number; disproved.
+  proper subgraphs all have smaller chromatic number.
 tags:
 - Graph theory
 - Chromatic number

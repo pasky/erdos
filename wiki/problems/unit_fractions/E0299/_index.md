@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0299
 title: Problem 299
 desc: |
   Asks whether some infinite increasing sequence of integers with bounded gaps
-  has no finite subset whose reciprocals sum to $1$; disproved.
+  has no finite subset whose reciprocals sum to $1$.
 tags:
 - Number theory
 - Unit fractions

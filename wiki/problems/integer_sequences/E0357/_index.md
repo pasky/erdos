@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0357
 title: Problem 357
 desc: |
   Asks how fast the largest number $f(n)$ of integers up to $n$ with all sums of
-  consecutive terms distinct grows, and whether $f(n)=o(n)$; open.
+  consecutive terms distinct grows, and whether $f(n)=o(n)$.
 tags:
 - Number theory
 status: open

@@ -3,8 +3,7 @@ name: problems/graph_coloring/E0922
 title: Problem 922
 desc: |
   Asks whether a graph in which every subgraph on $n$ vertices has an
-  independent set of size at least $(n-k)/2$ has chromatic number at most $k+2$;
-  proved.
+  independent set of size at least $(n-k)/2$ has chromatic number at most $k+2$.
 tags:
 - Graph theory
 - Chromatic number

@@ -3,8 +3,7 @@ name: problems/additive_combinatorics/E0808
 title: Problem 808
 desc: |
   Asks whether, for any graph with many edges on a set of $n$ integers, the sums
-  or the products along its edges must number nearly as many as the edges;
-  disproved.
+  or the products along its edges must number nearly as many as the edges.
 tags:
 - Additive combinatorics
 - Graph theory

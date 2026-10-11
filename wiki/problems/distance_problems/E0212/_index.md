@@ -3,7 +3,7 @@ name: problems/distance_problems/E0212
 title: Problem 212
 desc: |
   Asks whether the plane contains a dense set of points all of whose pairwise
-  distances are rational. It is open.
+  distances are rational.
 tags:
 - Geometry
 - Distances

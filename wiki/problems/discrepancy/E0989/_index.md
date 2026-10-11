@@ -4,8 +4,7 @@ title: Problem 989
 desc: |
   Asks whether the discrepancy $f(r)$ of an infinite plane sequence, measured
   against circles of radius $r$ and their area, is always unbounded, and how
-  fast it grows. Beck (1987) proved it unbounded and found the least possible
-  growth of its running maximum up to a factor $(\log r)^{1/2}$.
+  fast it grows.
 tags:
 - Discrepancy
 status: solved

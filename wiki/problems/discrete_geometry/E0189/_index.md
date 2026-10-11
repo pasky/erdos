@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0189
 title: Problem 189
 desc: |
   Asks whether every finite coloring of the plane has a color class containing
-  the vertices of a rectangle of every area. Kovač disproved it in 2023.
+  the vertices of a rectangle of every area.
 tags:
 - Geometry
 - Ramsey theory

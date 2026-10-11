@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E0377
 title: Problem 377
 desc: |
   Asks whether the sum of $1/p$ over the primes $p\le n$ that do not divide
-  $\binom{2n}{n}$ is bounded by an absolute constant; open.
+  $\binom{2n}{n}$ is bounded by an absolute constant.
 tags:
 - Number theory
 - Binomial coefficients

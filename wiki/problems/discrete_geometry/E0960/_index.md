@@ -4,7 +4,7 @@ title: Problem 960
 desc: |
   Asks how many ordinary lines $n$ points in the plane with no $k$ on a line
   must have to force $r$ of the points to span only ordinary lines, and whether
-  $o(n^2)$ suffice; disproved.
+  $o(n^2)$ suffice.
 tags:
 - Geometry
 status: solved

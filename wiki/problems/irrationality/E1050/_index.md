@@ -2,7 +2,7 @@
 name: problems/irrationality/E1050
 title: Problem 1050
 desc: |
-  Asks whether $\sum_{n\ge1}1/(2^n-3)$ is irrational; proved.
+  Asks whether $\sum_{n\ge1}1/(2^n-3)$ is irrational.
 tags:
 - Irrationality
 status: solved

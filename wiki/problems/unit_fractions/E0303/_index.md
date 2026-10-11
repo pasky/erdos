@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0303
 title: Problem 303
 desc: |
   Asks whether every finite coloring of the integers has distinct $a,b,c$ of the
-  same color with $1/a=1/b+1/c$; proved.
+  same color with $1/a=1/b+1/c$.
 tags:
 - Number theory
 - Unit fractions

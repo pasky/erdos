@@ -3,8 +3,7 @@ name: problems/unit_fractions/E0320
 title: Problem 320
 desc: |
   Asks to estimate the number $S(N)$ of distinct sums $\sum_{n\in A}1/n$ over
-  $A\subseteq\{1,\ldots,N\}$; answered for the order of magnitude of
-  $\log S(N)$.
+  $A\subseteq\{1,\ldots,N\}$.
 tags:
 - Number theory
 - Unit fractions

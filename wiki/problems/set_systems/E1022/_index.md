@@ -4,7 +4,7 @@ title: Problem 1022
 desc: |
   Asks whether a family of sets of size at least $t$, with few members inside
   any given set relative to its size, can always be two-colored with no
-  monochromatic member; disproved.
+  monochromatic member.
 tags:
 - Combinatorics
 - Hypergraphs

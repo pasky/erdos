@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E0685
 title: Problem 685
 desc: |
   Asks whether, for $n^\epsilon<k\le n^{1-\epsilon}$, the number of distinct
-  prime divisors of $\binom{n}{k}$ is $(1+o(1))k\sum_{k<p<n}1/p$; open.
+  prime divisors of $\binom{n}{k}$ is $(1+o(1))k\sum_{k<p<n}1/p$.
 tags:
 - Number theory
 - Primes

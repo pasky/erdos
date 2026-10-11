@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0315
 title: Problem 315
 desc: |
   Asks whether every increasing sequence $a_1<a_2<\cdots$ with $\sum 1/a_k=1$,
-  other than Sylvester's, has $\liminf a_n^{1/2^n}<c_0=1.264085\cdots$; proved.
+  other than Sylvester's, has $\liminf a_n^{1/2^n}<c_0=1.264085\cdots$.
 tags:
 - Number theory
 - Unit fractions

@@ -4,7 +4,7 @@ title: Problem 138
 desc: |
   Asks for better bounds on the van der Waerden number $W(k)$, the least $N$
   such that every two-coloring of $\{1,\ldots,N\}$ has a monochromatic $k$-term
-  arithmetic progression, for example a proof that $W(k)^{1/k}\to\infty$; open.
+  arithmetic progression, for example a proof that $W(k)^{1/k}\to\infty$.
 tags:
 - Additive combinatorics
 status: open

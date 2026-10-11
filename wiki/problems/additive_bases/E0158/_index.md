@@ -4,7 +4,7 @@ title: Problem 158
 desc: |
   Asks whether every infinite $A\subset\mathbb{N}$ in which each $n$ has at most
   two representations $a+b=n$ with $a\leq b$ must have
-  $\liminf \lvert A\cap\{1,\ldots,N\}\rvert/N^{1/2}=0$; open.
+  $\liminf \lvert A\cap\{1,\ldots,N\}\rvert/N^{1/2}=0$.
 tags:
 - Sidon sets
 status: open

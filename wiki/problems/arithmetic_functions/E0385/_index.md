@@ -4,7 +4,7 @@ title: Problem 385
 desc: |
   Asks whether the maximum of $m+p(m)$ over composite $m<n$, where $p(m)$ is the
   least prime factor of $m$, exceeds $n$ for all large $n$, and whether the
-  excess grows without bound; open.
+  excess grows without bound.
 tags:
 - Number theory
 status: open

@@ -4,7 +4,7 @@ title: Problem 1087
 desc: |
   Asks to estimate the largest number of four-point subsets with two pairs at
   equal distance among $n$ points in the plane, and whether it is at most
-  $n^{3+o(1)}$; open.
+  $n^{3+o(1)}$.
 tags:
 - Geometry
 - Distances

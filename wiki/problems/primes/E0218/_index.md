@@ -4,7 +4,7 @@ title: Problem 218
 desc: |
   Asks whether the $n$ with $d_{n+1}\ge d_n$ and those with $d_{n+1}\le d_n$
   each have density $1/2$, where $d_n=p_{n+1}-p_n$, and whether $d_{n+1}=d_n$
-  for infinitely many $n$; open.
+  for infinitely many $n$.
 tags:
 - Number theory
 - Primes

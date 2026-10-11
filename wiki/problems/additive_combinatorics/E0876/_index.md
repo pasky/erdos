@@ -3,8 +3,7 @@ name: problems/additive_combinatorics/E0876
 title: Problem 876
 desc: |
   Asks how small the gaps of an infinite sum-free set of naturals can be, and
-  whether the $n$th gap can stay below $n$. It is open on the site, with a
-  pending full claim from 2026.
+  whether the $n$th gap can stay below $n$.
 tags:
 - Additive combinatorics
 status: claimed

@@ -4,7 +4,7 @@ title: Problem 1179
 desc: |
   Estimates the least size $g_\epsilon(N)$ of a random subset of an abelian
   group of order $N$ whose subset sums hit every element nearly equally often,
-  and asks whether $g_\epsilon(N)=(1+o_\epsilon(1))\log_2N$; proved.
+  and asks whether $g_\epsilon(N)=(1+o_\epsilon(1))\log_2N$.
 tags:
 - Additive combinatorics
 - Probability

@@ -4,7 +4,6 @@ title: Problem 994
 desc: |
   Asks whether, for almost every $\alpha$, the fractional parts $\{k\alpha\}$
   visit every measurable set $E\subseteq(0,1)$ with frequency $\lambda(E)$.
-  Marstrand disproved it in 1970, in either order of the quantifiers.
 tags:
 - Analysis
 - Discrepancy

@@ -4,7 +4,7 @@ title: Problem 284
 desc: |
   Asks whether $f(k)$, the largest possible smallest denominator among $k$
   distinct unit fractions summing to $1$, satisfies
-  $f(k)=(1+o(1))\frac{k}{e-1}$; proved.
+  $f(k)=(1+o(1))\frac{k}{e-1}$.
 tags:
 - Number theory
 - Unit fractions

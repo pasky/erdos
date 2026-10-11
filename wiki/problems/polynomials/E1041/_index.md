@@ -4,7 +4,7 @@ title: Problem 1041
 desc: |
   Asks whether every monic polynomial $f$ with all roots in the open unit disc
   has a path of length less than $2$ inside $\{z:\lvert f(z)\rvert<1\}$ joining
-  two of its roots; a counterexample is claimed but not accepted.
+  two of its roots.
 tags:
 - Analysis
 - Polynomials

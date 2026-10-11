@@ -4,8 +4,7 @@ title: Problem 230
 desc: |
   Asks whether some $c>0$ gives
   $\max_{\lvert z\rvert=1}\lvert P(z)\rvert\ge(1+c)\sqrt{n}$ for every $n\ge 2$
-  and every $P(z)=\sum_{k=1}^n a_kz^k$ with all $\lvert a_k\rvert=1$; the answer
-  is no.
+  and every $P(z)=\sum_{k=1}^n a_kz^k$ with all $\lvert a_k\rvert=1$.
 tags:
 - Analysis
 - Polynomials

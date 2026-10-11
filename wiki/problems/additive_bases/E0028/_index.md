@@ -4,7 +4,7 @@ title: Problem 28
 desc: |
   Asks whether, when $A+A$ contains all but finitely many integers, some
   integers must have arbitrarily many representations as a sum of two elements
-  of $A$; open.
+  of $A$.
 tags:
 - Number theory
 - Additive bases

@@ -4,7 +4,7 @@ title: Problem 20
 desc: |
   Asks whether the number of $n$-element sets needed to force a $k$-sunflower is
   at most exponential in $n$, that is, below $c_k^n$ for a constant $c_k$
-  depending on $k$. It is open.
+  depending on $k$.
 tags:
 - Combinatorics
 status: open

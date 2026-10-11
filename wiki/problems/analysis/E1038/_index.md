@@ -4,8 +4,7 @@ title: Problem 1038
 desc: |
   Asks for the infimum and supremum of the measure of
   $\{x\in\mathbb{R}:\lvert f(x)\rvert<1\}$ over non-constant monic real
-  polynomials $f$ with all roots in $[-1,1]$. The supremum is settled, and
-  pending claims give the infimum.
+  polynomials $f$ with all roots in $[-1,1]$.
 tags:
 - Analysis
 parts:

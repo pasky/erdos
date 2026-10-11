@@ -4,8 +4,7 @@ title: Problem 1054
 desc: |
   Asks whether $f(n)=o(n)$, or whether this holds only for almost all $n$ and
   $\limsup f(n)/n=\infty$, where $f(n)$ is the least $m$ such that $n$ is the
-  sum of the $k$ smallest divisors of $m$ for some $k$; open on the site, with
-  pending claimed answers.
+  sum of the $k$ smallest divisors of $m$ for some $k$.
 tags:
 - Number theory
 - Divisors

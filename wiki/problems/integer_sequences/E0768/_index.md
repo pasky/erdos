@@ -4,8 +4,7 @@ title: Problem 768
 desc: |
   Asks whether the proportion of $n\le N$ such that every prime $p\mid n$ has a
   divisor $d>1$ of $n$ with $d\equiv1\pmod p$ is
-  $\exp(-(c+o(1))\sqrt{\log N}\log\log N)$. The site labels it OPEN, and a full
-  proof claim is pending.
+  $\exp(-(c+o(1))\sqrt{\log N}\log\log N)$.
 tags:
 - Number theory
 status: claimed

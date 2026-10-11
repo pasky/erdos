@@ -4,7 +4,7 @@ title: Problem 739
 desc: |
   Asks whether a graph of infinite chromatic number $\mathfrak{m}$ must have a
   subgraph of chromatic number $\mathfrak{n}$ for every infinite cardinal
-  $\mathfrak{n}<\mathfrak{m}$; open.
+  $\mathfrak{n}<\mathfrak{m}$.
 tags:
 - Graph theory
 - Chromatic number

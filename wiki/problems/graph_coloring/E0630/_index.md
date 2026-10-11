@@ -3,8 +3,8 @@ name: problems/graph_coloring/E0630
 title: Problem 630
 desc: |
   Asks whether every planar bipartite graph has list chromatic number at most
-  $3$; proved. The list chromatic number is the least list size per vertex that
-  always permits a proper coloring from the lists.
+  $3$. The list chromatic number is the least list size per vertex that always
+  permits a proper coloring from the lists.
 tags:
 - Graph theory
 - Chromatic number

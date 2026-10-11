@@ -4,7 +4,7 @@ title: Problem 995
 desc: |
   Asks for the growth, for almost every $\alpha$, of
   $\sum_{k\le N}f(\{\alpha n_k\})$, where $f\in L^2([0,1])$ and $n_k$ is a
-  lacunary integer sequence; open.
+  lacunary integer sequence.
 tags:
 - Analysis
 - Discrepancy

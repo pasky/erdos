@@ -4,7 +4,7 @@ title: Problem 778
 desc: |
   Two players alternately color the edges of a complete graph, and the first
   wins if her largest monochromatic clique beats her opponent's. Asks whether
-  the first player can win; open.
+  the first player can win.
 tags:
 - Graph theory
 status: open

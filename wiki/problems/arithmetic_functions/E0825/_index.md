@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0825
 title: Problem 825
 desc: |
   Asks whether there is a constant $C$ such that every integer $n$ with
-  $\sigma(n)>Cn$ is a sum of distinct proper divisors of $n$; proved.
+  $\sigma(n)>Cn$ is a sum of distinct proper divisors of $n$.
 tags:
 - Number theory
 - Divisors

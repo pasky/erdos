@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0371
 title: Problem 371
 desc: |
   Asks whether the integers $n$ whose largest prime factor is smaller than that
-  of $n+1$ have density $1/2$; proved.
+  of $n+1$ have density $1/2$.
 tags:
 - Number theory
 status: solved

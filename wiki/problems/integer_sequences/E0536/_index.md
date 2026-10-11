@@ -5,7 +5,7 @@ desc: |
   Asks for estimates of $f(N)$, the size of the largest
   $A\subseteq\{1,\ldots,N\}$ with no distinct $a,b,c$ such that
   $\mathrm{lcm}(a,b)=\mathrm{lcm}(b,c)=\mathrm{lcm}(a,c)$, and in particular
-  whether $f(N)=o(N)$; open.
+  whether $f(N)=o(N)$.
 tags:
 - Number theory
 status: open

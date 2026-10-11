@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0064
 title: Problem 64
 desc: |
   Asks whether every finite graph with minimum degree at least $3$ contains a
-  cycle of length $2^k$ for some $k\ge2$; open.
+  cycle of length $2^k$ for some $k\ge2$.
 tags:
 - Graph theory
 - Cycles

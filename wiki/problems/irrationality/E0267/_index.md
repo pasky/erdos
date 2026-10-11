@@ -3,8 +3,7 @@ name: problems/irrationality/E0267
 title: Problem 267
 desc: |
   Asks whether $\sum_k 1/F_{n_k}$ must be irrational whenever
-  $n_{k+1}/n_k\ge c>1$, where $F_n$ are the Fibonacci numbers; a pending claim
-  answers yes.
+  $n_{k+1}/n_k\ge c>1$, where $F_n$ are the Fibonacci numbers.
 tags:
 - Irrationality
 status: claimed

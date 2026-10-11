@@ -4,7 +4,7 @@ title: Problem 1190
 desc: |
   Asks for an estimate of $\epsilon_m$, the supremum of $\sum 1/n_i$ over finite
   families of pairwise disjoint congruence classes with distinct moduli $n_i>m$.
-  It is solved at the sharp logarithmic scale.
+  The supremum is known to logarithmic scale.
 tags:
 - Number theory
 - Covering systems

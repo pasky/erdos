@@ -3,8 +3,7 @@ name: problems/additive_combinatorics/E0139
 title: Problem 139
 desc: |
   Asks whether $r_k(N)=o(N)$, where $r_k(N)$ is the size of the largest subset
-  of $\{1,\ldots,N\}$ with no non-trivial $k$-term arithmetic progression;
-  proved.
+  of $\{1,\ldots,N\}$ with no non-trivial $k$-term arithmetic progression.
 tags:
 - Additive combinatorics
 - Arithmetic progressions

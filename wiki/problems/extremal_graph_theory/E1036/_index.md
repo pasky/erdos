@@ -4,7 +4,7 @@ title: Problem 1036
 desc: |
   Asks whether a graph on $n$ vertices with no empty or complete subgraph on
   more than $c\log n$ vertices has $2^{\Omega_c(n)}$ pairwise non-isomorphic
-  induced subgraphs. It is proved.
+  induced subgraphs.
 tags:
 - Graph theory
 status: solved

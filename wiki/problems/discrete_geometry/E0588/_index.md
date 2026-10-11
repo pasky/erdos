@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0588
 title: Problem 588
 desc: |
   Asks whether, for $k\ge4$, $n$ points in the plane with no $k+1$ on a line
-  determine only $o(n^2)$ lines through $k$ points; open.
+  determine only $o(n^2)$ lines through $k$ points.
 tags:
 - Geometry
 status: open

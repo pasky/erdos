@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0435
 title: Problem 435
 desc: |
   Asks for the largest integer that is not a nonnegative integer combination of
-  $\binom{n}{1},\ldots,\binom{n}{n-1}$, for $n$ not a prime power; solved.
+  $\binom{n}{1},\ldots,\binom{n}{n-1}$, for $n$ not a prime power.
 tags:
 - Number theory
 status: solved

@@ -4,7 +4,7 @@ title: Problem 386
 desc: |
   Asks whether $\binom{n}{k}$ with $2\le k\le n-2$ can be a product of
   consecutive primes infinitely often, as $\binom{21}{2}=2\cdot3\cdot5\cdot7$
-  is; open.
+  is.
 tags:
 - Number theory
 - Binomial coefficients

@@ -4,8 +4,7 @@ title: Problem 790
 desc: |
   Estimates $l(n)$, the size of the largest subset guaranteed inside any $n$
   integers in which no element equals the sum of two or more other distinct
-  elements. Known bounds are $(n\log n/\log\log n)^{1/2}\ll l(n)\ll n/\log n$;
-  open on the site, with a pending 2026 claim.
+  elements. Known bounds are $(n\log n/\log\log n)^{1/2}\ll l(n)\ll n/\log n$.
 tags:
 - Additive combinatorics
 status: claimed

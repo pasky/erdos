@@ -4,7 +4,7 @@ title: Problem 280
 desc: |
   Asks whether, for moduli $n_1<n_2<\cdots$ with $n_k>(1+\epsilon)k\log k$ for
   some $\epsilon>0$ and all $k$, the number of $m<n_k$ missed by the first $k$
-  congruences $a_i\pmod{n_i}$ is not $o(k)$. The answer is no.
+  congruences $a_i\pmod{n_i}$ is not $o(k)$.
 tags:
 - Number theory
 - Covering systems

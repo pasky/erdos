@@ -3,7 +3,7 @@ name: problems/additive_bases/E0032
 title: Problem 32
 desc: |
   Asks how sparse a set $A$ can be if every large integer is a prime plus an
-  element of $A$, measured against $(\log N)^2$; open.
+  element of $A$, measured against $(\log N)^2$.
 tags:
 - Number theory
 - Additive bases

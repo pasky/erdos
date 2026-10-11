@@ -4,7 +4,7 @@ title: Problem 72
 desc: |
   Asks whether there are a set $A\subset\mathbb{N}$ of density $0$ and a
   constant $c>0$ such that every large graph of average degree at least $c$ has
-  a cycle whose length lies in $A$; proved.
+  a cycle whose length lies in $A$.
 tags:
 - Graph theory
 - Cycles

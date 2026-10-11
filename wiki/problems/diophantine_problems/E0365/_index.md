@@ -3,8 +3,7 @@ name: problems/diophantine_problems/E0365
 title: Problem 365
 desc: |
   Asks whether one of $n$ and $n+1$ must be a square when both are powerful, and
-  whether the number of such $n\le x$ is at most $(\log x)^{O(1)}$. The first
-  answer is no, and the second question is open.
+  whether the number of such $n\le x$ is at most $(\log x)^{O(1)}$.
 tags:
 - Number theory
 - Powerful numbers

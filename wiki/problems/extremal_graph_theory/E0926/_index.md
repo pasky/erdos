@@ -4,7 +4,7 @@ title: Problem 926
 desc: |
   Asks whether an $n$-vertex graph avoiding $H_k$ has $\ll_k n^{3/2}$ edges,
   where $H_k$ is a vertex joined to $k$ others and each pair of these $k$ has
-  its own further common neighbor; proved.
+  its own further common neighbor.
 tags:
 - Graph theory
 status: solved

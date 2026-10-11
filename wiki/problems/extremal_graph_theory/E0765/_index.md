@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0765
 title: Problem 765
 desc: |
   Asks for an asymptotic formula for $\mathrm{ex}(n;C_4)$, the largest number of
-  edges in a graph on $n$ vertices with no $C_4$; solved.
+  edges in a graph on $n$ vertices with no $C_4$.
 tags:
 - Graph theory
 - Turán numbers

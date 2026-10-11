@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E1095
 title: Problem 1095
 desc: |
   Asks for an estimate of $g(k)$, the smallest $n>k+1$ for which every prime
-  factor of $\binom{n}{k}$ exceeds $k$; open.
+  factor of $\binom{n}{k}$ exceeds $k$.
 tags:
 - Number theory
 - Binomial coefficients

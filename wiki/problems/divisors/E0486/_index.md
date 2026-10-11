@@ -5,7 +5,7 @@ desc: |
   Asks whether, for any $A\subseteq\mathbb{N}$ and sets
   $X_n\subseteq\mathbb{Z}/n\mathbb{Z}$, the integers $m$ with
   $m\notin X_n\pmod n$ for all $n\in A$ with $m>n$ must have a logarithmic
-  density; open on the site, but a disproof is claimed.
+  density.
 tags:
 - Number theory
 - Primitive sets

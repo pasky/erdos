@@ -4,7 +4,7 @@ title: Problem 860
 desc: |
   Asks to estimate the least $h(n)$ such that every interval $(m,m+h(n))$
   contains distinct integers $a_1,\ldots,a_{\pi(n)}$, with $a_i$ divisible by
-  the $i$th prime $p_i$; open.
+  the $i$th prime $p_i$.
 tags:
 - Number theory
 - Primes

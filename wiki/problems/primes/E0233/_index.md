@@ -3,7 +3,7 @@ name: problems/primes/E0233
 title: Problem 233
 desc: |
   Asks whether $\sum_{n\le N}d_n^2\ll N(\log N)^2$, where $d_n=p_{n+1}-p_n$ is
-  the gap after the $n$th prime; open.
+  the gap after the $n$th prime.
 tags:
 - Number theory
 - Primes

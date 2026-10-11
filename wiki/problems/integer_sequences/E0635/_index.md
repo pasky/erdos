@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0635
 title: Problem 635
 desc: |
   Asks how large a set $A\subseteq\{1,\ldots,N\}$ can be if $b-a\nmid b$ for all
-  $a,b\in A$ with $b-a\ge t$; open.
+  $a,b\in A$ with $b-a\ge t$.
 tags:
 - Number theory
 parts:

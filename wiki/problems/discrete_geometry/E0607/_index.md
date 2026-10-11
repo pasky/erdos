@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0607
 title: Problem 607
 desc: |
   Asks whether the number of distinct sets of line sizes determined by $n$
-  points in the plane is at most $\exp(O(\sqrt{n}))$; proved.
+  points in the plane is at most $\exp(O(\sqrt{n}))$.
 tags:
 - Geometry
 status: solved

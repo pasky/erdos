@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0219
 title: Problem 219
 desc: |
   Asks whether the primes contain arithmetic progressions of every finite
-  length; the answer is yes.
+  length.
 tags:
 - Number theory
 - Additive combinatorics

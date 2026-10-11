@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0335
 title: Problem 335
 desc: |
   Asks for a characterization of the pairs of sets $A,B$ of integers with
-  positive density such that $d(A+B)=d(A)+d(B)$; open.
+  positive density such that $d(A+B)=d(A)+d(B)$.
 tags:
 - Number theory
 - Additive combinatorics

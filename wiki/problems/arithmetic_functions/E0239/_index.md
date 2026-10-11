@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0239
 title: Problem 239
 desc: |
   Asks whether every multiplicative function $f:\mathbb{N}\to\{-1,1\}$ has a
-  mean value; proved.
+  mean value.
 tags:
 - Number theory
 status: solved

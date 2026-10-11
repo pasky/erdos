@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E0419
 title: Problem 419
 desc: |
   Asks for the set of limit points of $\tau((n+1)!)/\tau(n!)$, where $\tau$
-  counts divisors; solved.
+  counts divisors.
 tags:
 - Number theory
 - Factorials

@@ -3,8 +3,7 @@ name: problems/discrete_geometry/E1071
 title: Problem 1071
 desc: |
   Asks whether a finite family of pairwise disjoint unit segments in the unit
-  square can be maximal, so that no further unit segment can be added. The
-  answer is yes.
+  square can be maximal, so that no further unit segment can be added.
 tags:
 - Geometry
 parts:

@@ -3,8 +3,8 @@ name: problems/group_theory/E1098
 title: Problem 1098
 desc: |
   Asks whether, if the non-commuting graph of a group has no infinite complete
-  subgraph, its complete subgraphs have bounded size; proved. The graph has the
-  group elements as vertices and joins pairs that do not commute.
+  subgraph, its complete subgraphs have bounded size. The graph has the group
+  elements as vertices and joins pairs that do not commute.
 tags:
 - Group theory
 status: solved

@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0367
 title: Problem 367
 desc: |
   Asks whether, for every fixed $k$, the product of the powerful parts of $k$
-  consecutive integers near $n$ is at most about $n^2$; open.
+  consecutive integers near $n$ is at most about $n^2$.
 tags:
 - Number theory
 - Powerful numbers

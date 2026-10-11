@@ -4,7 +4,7 @@ title: Problem 98
 desc: |
   Asks whether the least number $h(n)$ of distinct distances among $n$ points in
   the plane, with no three on a line and no four on a circle, satisfies
-  $h(n)/n\to\infty$. It is open.
+  $h(n)/n\to\infty$.
 tags:
 - Geometry
 - Distances

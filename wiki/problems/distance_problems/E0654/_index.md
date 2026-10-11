@@ -3,7 +3,7 @@ name: problems/distance_problems/E0654
 title: Problem 654
 desc: |
   Asks to estimate how many distinct distances to the others some point must
-  have, among any $n$ points in the plane with no four on a circle; open.
+  have, among any $n$ points in the plane with no four on a circle.
 tags:
 - Geometry
 - Distances

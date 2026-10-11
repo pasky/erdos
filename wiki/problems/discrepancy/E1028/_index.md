@@ -4,7 +4,7 @@ title: Problem 1028
 desc: |
   Asks for an estimate of $H(n)$, the least possible maximum over
   $X\subseteq\{1,\ldots,n\}$ of $\lvert\sum_{x\neq y\in X}f(x,y)\rvert$ for a
-  function $f$ with values $\pm1$; solved.
+  function $f$ with values $\pm1$.
 tags:
 - Graph theory
 - Discrepancy

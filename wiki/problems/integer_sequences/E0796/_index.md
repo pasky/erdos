@@ -5,7 +5,7 @@ desc: |
   Asks whether $g_3(n)=n\log\log n/\log n+(c+o(1))n/\log n$ for some constant
   $c$, where $g_k(n)$ is the size of the largest $A\subseteq\{1,\ldots,n\}$ in
   which every number has fewer than $k$ representations $a_1a_2$ with $a_1<a_2$
-  in $A$. The site labels it OPEN, with two proof claims pending.
+  in $A$.
 tags:
 - Number theory
 status: claimed

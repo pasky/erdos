@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0752
 title: Problem 752
 desc: |
   Asks whether a graph with minimum degree $k$ and girth greater than $2s$ must
-  have $\gg k^s$ distinct cycle lengths; proved.
+  have $\gg k^s$ distinct cycle lengths.
 tags:
 - Graph theory
 - Cycles

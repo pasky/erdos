@@ -4,7 +4,7 @@ title: Problem 128
 desc: |
   Asks whether a graph on $n$ vertices must contain a triangle if every induced
   subgraph on at least $\lfloor n/2\rfloor$ vertices has more than $n^2/50$
-  edges; open.
+  edges.
 tags:
 - Graph theory
 status: open

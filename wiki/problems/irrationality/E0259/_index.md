@@ -2,8 +2,7 @@
 name: problems/irrationality/E0259
 title: Problem 259
 desc: |
-  Asks whether the sum of $n/2^n$ over all squarefree $n$ is irrational;
-  answered yes.
+  Asks whether the sum of $n/2^n$ over all squarefree $n$ is irrational.
 tags:
 - Irrationality
 status: solved

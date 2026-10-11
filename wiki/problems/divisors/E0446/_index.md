@@ -4,7 +4,7 @@ title: Problem 446
 desc: |
   Asks for the growth rate of the density $\delta(n)$ of integers with a divisor
   in $(n,2n)$, and whether those with exactly one such divisor have density
-  $o(\delta(n))$; solved.
+  $o(\delta(n))$.
 tags:
 - Number theory
 - Divisors

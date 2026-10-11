@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E0104
 title: Problem 104
 desc: |
   Asks whether $n$ points in the plane lie on only $o(n^2)$ distinct unit
-  circles that each contain at least three of them; open.
+  circles that each contain at least three of them.
 tags:
 - Geometry
 status: open

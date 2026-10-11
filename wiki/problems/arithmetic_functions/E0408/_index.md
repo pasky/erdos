@@ -3,8 +3,7 @@ name: problems/arithmetic_functions/E0408
 title: Problem 408
 desc: |
   Asks whether the number of iterations of Euler's totient needed to reach 1,
-  divided by $\log n$, has a distribution function or is almost always constant;
-  open.
+  divided by $\log n$, has a distribution function or is almost always constant.
 tags:
 - Number theory
 - Iterated functions

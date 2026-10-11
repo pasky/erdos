@@ -4,7 +4,7 @@ title: Problem 294
 desc: |
   Asks for estimates of $t(N)$, the least $t$ such that $1$ is not a sum of
   distinct unit fractions with smallest denominator $t$ and all denominators at
-  most $N$; solved.
+  most $N$.
 tags:
 - Number theory
 - Unit fractions

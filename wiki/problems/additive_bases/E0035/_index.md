@@ -3,7 +3,7 @@ name: problems/additive_bases/E0035
 title: Problem 35
 desc: |
   Asks whether adding an additive basis of order $k$ to a set of Schnirelmann
-  density $\alpha$ raises the density by at least $\alpha(1-\alpha)/k$; proved.
+  density $\alpha$ raises the density by at least $\alpha(1-\alpha)/k$.
 tags:
 - Number theory
 - Additive bases

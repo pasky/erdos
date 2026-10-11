@@ -4,7 +4,7 @@ title: Problem 130
 desc: |
   Asks how large the chromatic and clique numbers can be for the graph joining
   points at integer distance in an infinite plane set with no three points on a
-  line and no four on a circle. It is open.
+  line and no four on a circle.
 tags:
 - Graph theory
 - Chromatic number

@@ -3,7 +3,7 @@ name: problems/integer_sequences/E1149
 title: Problem 1149
 desc: |
   States that for every non-integer real $\alpha>0$ the integers $n\ge1$ with
-  $(n,\lfloor n^\alpha\rfloor)=1$ have density $6/\pi^2$; proved.
+  $(n,\lfloor n^\alpha\rfloor)=1$ have density $6/\pi^2$.
 tags:
 - Number theory
 status: solved

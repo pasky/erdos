@@ -3,9 +3,7 @@ name: problems/graph_coloring/E0918
 title: Problem 918
 desc: |
   Asks whether some graph with $\aleph_2$ vertices and chromatic number
-  $\aleph_2$ has every subgraph on $\aleph_1$ vertices countably colorable. This
-  is independent of ZFC + GCH relative to a huge cardinal, and a second
-  question, at $\aleph_{\omega+1}$, is open.
+  $\aleph_2$ has every subgraph on $\aleph_1$ vertices countably colorable.
 tags:
 - Graph theory
 - Chromatic number

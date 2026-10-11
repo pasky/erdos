@@ -5,7 +5,7 @@ desc: |
   Asks how long a game can be guaranteed to last in which two players
   alternately add integers from $\{2,\ldots,n\}$ to a shared set with no member
   dividing another, and whether it lasts at least $\epsilon n$ or
-  $(1-\epsilon)n/2$ moves; open.
+  $(1-\epsilon)n/2$ moves.
 tags:
 - Number theory
 - Primitive sets

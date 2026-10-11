@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0200
 title: Problem 200
 desc: |
   Asks whether the longest arithmetic progression of primes in $\{1,\ldots,N\}$
-  has length $o(\log N)$; open.
+  has length $o(\log N)$.
 tags:
 - Primes
 - Arithmetic progressions

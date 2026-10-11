@@ -3,7 +3,7 @@ name: problems/covering_systems/E1113
 title: Problem 1113
 desc: |
   Asks whether some Sierpinski number, an odd $m$ with $2^km+1$ never prime, has
-  no finite set of primes containing a divisor of every $2^km+1$; open.
+  no finite set of primes containing a divisor of every $2^km+1$.
 tags:
 - Number theory
 - Covering systems

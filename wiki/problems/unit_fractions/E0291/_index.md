@@ -3,8 +3,7 @@ name: problems/unit_fractions/E0291
 title: Problem 291
 desc: |
   Asks whether $(a_n,L_n)=1$ and $(a_n,L_n)>1$ each hold for infinitely many
-  $n$, where $L_n=\mathrm{lcm}(1,\ldots,n)$ and $\sum_{k\le n}1/k=a_n/L_n$;
-  open.
+  $n$, where $L_n=\mathrm{lcm}(1,\ldots,n)$ and $\sum_{k\le n}1/k=a_n/L_n$.
 tags:
 - Number theory
 - Unit fractions

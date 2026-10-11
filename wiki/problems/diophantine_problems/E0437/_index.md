@@ -4,7 +4,7 @@ title: Problem 437
 desc: |
   Asks how many of the partial products $a_1,a_1a_2,\ldots,a_1\cdots a_k$ of
   integers $1\le a_1<\cdots<a_k\le x$ can be squares, and whether more than
-  $x^{1-\epsilon}$ can be for every $\epsilon>0$; proved.
+  $x^{1-\epsilon}$ can be for every $\epsilon>0$.
 tags:
 - Number theory
 status: solved

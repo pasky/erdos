@@ -3,7 +3,7 @@ name: problems/covering_systems/E0586
 title: Problem 586
 desc: |
   Asks whether there is a system of congruences covering all integers in which
-  no modulus divides another. The answer is no.
+  no modulus divides another.
 tags:
 - Number theory
 - Covering systems

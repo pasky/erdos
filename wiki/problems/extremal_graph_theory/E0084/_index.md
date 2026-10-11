@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0084
 title: Problem 84
 desc: |
   Asks whether the number $f(n)$ of cycle sets of graphs on $n$ vertices is
-  $o(2^n)$, and whether $f(n)/2^{n/2}\to\infty$; open.
+  $o(2^n)$, and whether $f(n)/2^{n/2}\to\infty$.
 tags:
 - Graph theory
 - Cycles

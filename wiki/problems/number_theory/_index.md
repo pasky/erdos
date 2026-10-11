@@ -7,7 +7,7 @@ desc: |
   irrational rotations and floor sequences, quadratic residues and character
   sums, and other one-off constructions.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-11T23:17:00Z
 ---
 
 # Other Number Theory
@@ -23,7 +23,7 @@ $0.446n^2$.
 [[problems/number_theory/E0268/_index|E0268/]]: Asks whether the points
 $\bigl(\sum_{n\in A}1/n,\sum_{n\in A}1/(n+1),\sum_{n\in A}1/(n+2)\bigr)$, over
 infinite $A\subseteq\mathbb{N}$ with $\sum_{n\in A}1/n<\infty$, contain an open
-set; proved.
+set.
 
 [[problems/number_theory/E0362/_index|E0362/]]: Asks whether $\ll2^N/N^{3/2}$
 subsets of a set of $N$ naturals have sum $t$, and $\ll2^N/N^2$ if their size is
@@ -67,7 +67,7 @@ the Davenport–Erdős theorem gives yes.
 
 [[problems/number_theory/E0951/_index|E0951/]]: Asks whether every real sequence
 $1<a_1<a_2<\cdots$ whose products $\prod_i a_i^{k_i}$ for different exponent
-tuples differ by at least $1$ satisfies $\#\{a_i\le x\}\le\pi(x)$; open. The
+tuples differ by at least $1$ satisfies $\#\{a_i\le x\}\le\pi(x)$. The
 quantifier over $x$ is implicit, and the readings for every $x$ and for all
 large $x$ are separate parts.
 
@@ -78,7 +78,7 @@ accepted 2026 claim with a Lean proof.
 
 [[problems/number_theory/E0963/_index|E0963/]]: Asks to estimate $f(n)$, the
 size of the largest dissociated subset guaranteed in any set of $n$ reals, and
-in particular whether $f(n)\ge\lfloor\log_2 n\rfloor$; open.
+in particular whether $f(n)\ge\lfloor\log_2 n\rfloor$.
 
 [[problems/number_theory/E0972/_index|E0972/]]: Asks whether, for irrational
 $\alpha>1$, infinitely many primes $p$ have $\lfloor p\alpha\rfloor$ prime;

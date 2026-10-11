@@ -4,7 +4,7 @@ title: Problem 537
 desc: |
   Asks whether, for each $\epsilon>0$ and all large $N$, every
   $A\subseteq\{1,\ldots,N\}$ with $|A|\ge\epsilon N$ contains $a_1,a_2,a_3$ with
-  $a_1p_1=a_2p_2=a_3p_3$ for some distinct primes $p_1,p_2,p_3$; disproved.
+  $a_1p_1=a_2p_2=a_3p_3$ for some distinct primes $p_1,p_2,p_3$.
 tags:
 - Number theory
 status: solved

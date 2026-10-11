@@ -3,7 +3,7 @@ name: problems/covering_systems/E0273
 title: Problem 273
 desc: |
   Asks whether there is a covering system of congruences whose moduli are all of
-  the form $p-1$ for primes $p\ge5$; open.
+  the form $p-1$ for primes $p\ge5$.
 tags:
 - Number theory
 - Covering systems

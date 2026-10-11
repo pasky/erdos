@@ -3,8 +3,7 @@ name: problems/analysis/E1046
 title: Problem 1046
 desc: |
   Asks whether, for a monic polynomial $f\in\mathbb{C}[x]$, the set
-  $\{z:|f(z)|<1\}$ lies in a disc of radius $2$ whenever it is connected;
-  proved.
+  $\{z:|f(z)|<1\}$ lies in a disc of radius $2$ whenever it is connected.
 tags:
 - Analysis
 status: solved

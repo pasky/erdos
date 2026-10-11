@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0321
 title: Problem 321
 desc: |
   Asks for the size of the largest $A\subseteq\{1,\ldots,N\}$ whose subsets all
-  have distinct sums of reciprocals; answered up to order of magnitude.
+  have distinct sums of reciprocals.
 tags:
 - Number theory
 - Unit fractions

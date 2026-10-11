@@ -4,7 +4,7 @@ title: Problem 262
 desc: |
   Asks how slowly an increasing integer sequence $a_n$ can grow if
   $\sum_n 1/(t_na_n)$ is irrational for every sequence of positive integers
-  $t_n$; solved.
+  $t_n$.
 tags:
 - Irrationality
 status: solved

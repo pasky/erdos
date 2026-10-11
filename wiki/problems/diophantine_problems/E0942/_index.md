@@ -5,7 +5,7 @@ desc: |
   Asks for estimates of the number $h(n)$ of powerful integers in
   $[n^2,(n+1)^2)$, in particular whether some $c>0$ gives
   $h(n)<(\log n)^{c+o(1)}$ for all $n$ and $h(n)>(\log n)^{c-o(1)}$ for
-  infinitely many $n$; open.
+  infinitely many $n$.
 tags:
 - Number theory
 - Powerful numbers

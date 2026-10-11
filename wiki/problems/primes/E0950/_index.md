@@ -3,8 +3,7 @@ name: problems/primes/E0950
 title: Problem 950
 desc: |
   Asks whether $f(n)=\sum_{p<n}1/(n-p)$, summed over primes $p<n$, has
-  $\liminf f(n)=1$ and $\limsup f(n)=\infty$, and whether $f(n)=o(\log\log n)$;
-  open.
+  $\liminf f(n)=1$ and $\limsup f(n)=\infty$, and whether $f(n)=o(\log\log n)$.
 tags:
 - Number theory
 - Primes

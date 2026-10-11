@@ -4,7 +4,7 @@ title: Problem 769
 desc: |
   Asks for bounds on the least $c(n)$ such that the $n$-dimensional unit cube
   splits into $k$ homothetic cubes for every $k\ge c(n)$, and in particular
-  whether $c(n)\gg n^n$; open.
+  whether $c(n)\gg n^n$.
 tags:
 - Number theory
 - Geometry

@@ -4,8 +4,7 @@ title: Problem 424
 desc: |
   Asks whether the integers that eventually appear, starting from $2,3$ and
   repeatedly appending every $a_ia_j-1$ with $i\neq j$, have positive density,
-  read as positive lower density following the site's curator; proved by
-  Korsky's Lean-formalized 2026 claim, which the site has not accepted.
+  read as positive lower density following the site's curator.
 tags:
 - Number theory
 status: solved

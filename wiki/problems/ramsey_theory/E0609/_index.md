@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E0609
 title: Problem 609
 desc: |
   Asks for estimates of the least $m$ such that every $n$-coloring of the edges
-  of $K_{2^n+1}$ has a monochromatic odd cycle of length at most $m$; open.
+  of $K_{2^n+1}$ has a monochromatic odd cycle of length at most $m$.
 tags:
 - Graph theory
 - Ramsey theory

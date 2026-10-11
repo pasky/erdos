@@ -4,8 +4,7 @@ title: Problem 881
 desc: |
   Asks whether every minimal additive basis $A$ of order $k$, one that stops
   being a basis of order $k$ when any infinite subset is removed, has an
-  infinite $B\subset A$ with $A\setminus B$ a basis of order $k+1$; a pending
-  claim answers no.
+  infinite $B\subset A$ with $A\setminus B$ a basis of order $k+1$.
 tags:
 - Number theory
 - Additive bases

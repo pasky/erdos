@@ -4,7 +4,7 @@ title: Problem 879
 desc: |
   Asks for an estimate of the largest sum of a set of pairwise coprime integers
   up to $n$, and whether, for each $k\ge2$ and large $n$, the best such set
-  contains a number with at least $k$ prime factors; open.
+  contains a number with at least $k$ prime factors.
 tags:
 - Number theory
 status: open

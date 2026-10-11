@@ -4,7 +4,7 @@ title: Problem 736
 desc: |
   Asks whether, for every graph $G$ of chromatic number $\aleph_1$ and every
   cardinal $m$, there is a graph of chromatic number $m$ all of whose finite
-  subgraphs occur in $G$; open.
+  subgraphs occur in $G$.
 tags:
 - Graph theory
 - Chromatic number

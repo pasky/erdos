@@ -3,8 +3,7 @@ name: problems/analysis/E0910
 title: Problem 910
 desc: |
   Asks whether every connected set in $\mathbb{R}^n$ has a connected subset that
-  is neither a point nor homeomorphic to the whole set. This page treats it as
-  open, though the site labels it DISPROVED.
+  is neither a point nor homeomorphic to the whole set.
 tags:
 - Topology
 status: open

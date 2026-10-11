@@ -3,7 +3,7 @@ name: problems/analysis/E0120
 title: Problem 120
 desc: |
   Asks whether, for every infinite set $A$ of reals, some set of positive
-  measure contains no affine copy $aA+b$ with $a\neq0$; open.
+  measure contains no affine copy $aA+b$ with $a\neq0$.
 tags:
 - Combinatorics
 status: open

@@ -3,7 +3,7 @@ name: problems/additive_bases/E0773
 title: Problem 773
 desc: |
   Asks for the size of the largest Sidon subset of the squares
-  $\{1,2^2,\ldots,N^2\}$, and whether it is $N^{1-o(1)}$; open.
+  $\{1,2^2,\ldots,N^2\}$, and whether it is $N^{1-o(1)}$.
 tags:
 - Number theory
 - Sidon sets

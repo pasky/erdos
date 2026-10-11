@@ -4,7 +4,7 @@ title: Problem 673
 desc: |
   Asks whether the sum $G(n)$ of the ratios $d_i/d_{i+1}$ of consecutive
   divisors of $n$ tends to infinity for almost all $n$, and seeks an asymptotic
-  formula for its average; solved.
+  formula for its average.
 tags:
 - Number theory
 - Divisors

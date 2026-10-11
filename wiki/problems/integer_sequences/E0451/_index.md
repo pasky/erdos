@@ -3,9 +3,9 @@ name: problems/integer_sequences/E0451
 title: Problem 451
 desc: |
   Asks for estimates of $n_k$, the least integer $>2k$ such that
-  $\prod_{1\le i\le k}(n_k-i)$ has no prime factor in $(k,2k)$; open. A 2026
-  preprint claims that $n_k$ grows faster than any power of $k$, and an
-  elementary bound makes it at most exponential in $k$.
+  $\prod_{1\le i\le k}(n_k-i)$ has no prime factor in $(k,2k)$. A 2026 preprint
+  claims that $n_k$ grows faster than any power of $k$, and an elementary bound
+  makes it at most exponential in $k$.
 tags:
 - Number theory
 status: open

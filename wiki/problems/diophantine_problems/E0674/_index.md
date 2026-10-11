@@ -2,7 +2,7 @@
 name: problems/diophantine_problems/E0674
 title: Problem 674
 desc: |
-  Asks whether $x^xy^y=z^z$ has integer solutions with $x,y,z>1$; proved.
+  Asks whether $x^xy^y=z^z$ has integer solutions with $x,y,z>1$.
 tags:
 - Number theory
 status: solved

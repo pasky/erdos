@@ -4,7 +4,7 @@ title: Problem 732
 desc: |
   Asks whether, for some $c>0$, at least $\exp(cn^{1/2}\log n)$ non-decreasing
   sequences of block sizes arise from designs on $n$ points in which every pair
-  of points lies in exactly one block; proved.
+  of points lies in exactly one block.
 tags:
 - Combinatorics
 status: solved

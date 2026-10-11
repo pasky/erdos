@@ -4,7 +4,7 @@ title: Problem 391
 desc: |
   Asks for bounds on $t(n)/n$, where $t(n)$ is the largest possible $a_1$ in
   $n!=a_1\cdots a_n$ with $a_1\le\cdots\le a_n$, and in particular whether
-  $t(n)/n\to1/e$; solved.
+  $t(n)/n\to1/e$.
 tags:
 - Number theory
 - Factorials

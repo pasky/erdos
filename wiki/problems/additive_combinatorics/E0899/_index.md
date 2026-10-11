@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0899
 title: Problem 899
 desc: |
   Asks whether every infinite set $A$ of naturals with density zero has
-  $|(A-A)\cap[1,N]|/|A\cap[1,N]|$ unbounded as $N\to\infty$; proved.
+  $|(A-A)\cap[1,N]|/|A\cap[1,N]|$ unbounded as $N\to\infty$.
 tags:
 - Additive combinatorics
 status: solved

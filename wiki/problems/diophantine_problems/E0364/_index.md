@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0364
 title: Problem 364
 desc: |
   Asks whether three consecutive positive integers can all be powerful, meaning
-  that every prime dividing such a number divides it at least twice; open.
+  that every prime dividing such a number divides it at least twice.
 tags:
 - Number theory
 - Powerful numbers

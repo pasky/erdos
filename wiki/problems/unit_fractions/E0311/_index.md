@@ -4,7 +4,7 @@ title: Problem 311
 desc: |
   Asks whether the least non-zero distance $\delta(N)$ from $1$ to a sum
   $\sum_{n\in A}1/n$ with $A\subseteq\{1,\ldots,N\}$ equals $e^{-(c+o(1))N}$ for
-  some constant $c\in(0,1)$; open.
+  some constant $c\in(0,1)$.
 tags:
 - Number theory
 - Unit fractions

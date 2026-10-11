@@ -4,8 +4,7 @@ title: Problem 1082
 desc: |
   Asks whether $n$ points in the plane with no three collinear always determine
   at least $\lfloor n/2\rfloor$ distinct distances, even as seen from a single
-  point. The single-point form has a negative answer, and the first question is
-  open.
+  point.
 tags:
 - Geometry
 - Distances

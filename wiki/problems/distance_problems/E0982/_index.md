@@ -4,7 +4,7 @@ title: Problem 982
 desc: |
   Asks whether $n$ points in convex position in the plane always include a
   vertex with at least $\lfloor n/2\rfloor$ distinct distances to the other
-  vertices; open.
+  vertices.
 tags:
 - Geometry
 - Convexity

@@ -4,7 +4,7 @@ title: Problem 751
 desc: |
   Asks whether the smallest gap between consecutive cycle lengths in a graph of
   chromatic number $4$ can be arbitrarily large, and whether this can happen
-  with large girth; both answers are no.
+  with large girth.
 tags:
 - Graph theory
 - Chromatic number

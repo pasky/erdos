@@ -3,7 +3,7 @@ name: problems/primes/E0779
 title: Problem 779
 desc: |
   Asks whether, for the product $P=p_1\cdots p_n$ of the first $n>1$ primes,
-  there is always a prime $p$ with $p_n<p<P$ such that $P+p$ is prime; open.
+  there is always a prime $p$ with $p_n<p<P$ such that $P+p$ is prime.
 tags:
 - Number theory
 - Primes

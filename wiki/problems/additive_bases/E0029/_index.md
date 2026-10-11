@@ -3,8 +3,7 @@ name: problems/additive_bases/E0029
 title: Problem 29
 desc: |
   Asks whether there is an explicit set $A$ with $A+A=\mathbb{N}$ whose number
-  of representations $1_A\ast 1_A(n)$ is $o(n^\epsilon)$ for every $\epsilon>0$;
-  answered yes.
+  of representations $1_A\ast 1_A(n)$ is $o(n^\epsilon)$ for every $\epsilon>0$.
 tags:
 - Number theory
 - Additive bases

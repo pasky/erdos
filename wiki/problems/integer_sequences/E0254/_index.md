@@ -5,7 +5,7 @@ desc: |
   Asks whether a set $A$ with $|A\cap(x,2x]|\to\infty$ and
   $\sum_{n\in A}\{\theta n\}=\infty$ for every $\theta\in(0,1)$, where
   $\{\cdot\}$ is the distance to the nearest integer, represents every large
-  integer as a sum of distinct elements; proved.
+  integer as a sum of distinct elements.
 tags:
 - Number theory
 status: solved

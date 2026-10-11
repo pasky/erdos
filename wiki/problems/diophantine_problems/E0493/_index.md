@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0493
 title: Problem 493
 desc: |
   Asks whether some $k$ makes every large enough integer of the form
-  $\prod_{i=1}^k a_i-\sum_{i=1}^k a_i$ with all $a_i\ge2$; proved.
+  $\prod_{i=1}^k a_i-\sum_{i=1}^k a_i$ with all $a_i\ge2$.
 tags:
 - Number theory
 status: solved

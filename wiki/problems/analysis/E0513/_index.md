@@ -4,7 +4,7 @@ title: Problem 513
 desc: |
   Asks for the greatest possible value of
   $\liminf_{r\to\infty}\max_n\lvert a_nr^n\rvert/\max_{\lvert z\rvert=r}\lvert f(z)\rvert$
-  over transcendental entire functions $f=\sum a_nz^n$; open.
+  over transcendental entire functions $f=\sum a_nz^n$.
 tags:
 - Analysis
 status: open

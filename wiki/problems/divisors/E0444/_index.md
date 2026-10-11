@@ -4,7 +4,7 @@ title: Problem 444
 desc: |
   Asks whether, for every infinite $A\subseteq\mathbb{N}$ and every $k$, the
   ratio of $\max_{n<x}d_A(n)$ to $\bigl(\sum_{a\in A,\,a<x}1/a\bigr)^k$ is
-  unbounded, where $d_A(n)$ counts the elements of $A$ dividing $n$; proved.
+  unbounded, where $d_A(n)$ counts the elements of $A$ dividing $n$.
 tags:
 - Number theory
 - Divisors

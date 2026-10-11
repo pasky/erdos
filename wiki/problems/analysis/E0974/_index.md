@@ -4,8 +4,7 @@ title: Problem 974
 desc: |
   Asks whether complex numbers $z_1=1,z_2,\ldots,z_n$ whose power sums vanish on
   infinitely many runs of $n-1$ consecutive indices must essentially be the
-  $n$th roots of unity, in the precise form of Tijdeman's classification;
-  proved.
+  $n$th roots of unity, in the precise form of Tijdeman's classification.
 tags:
 - Analysis
 status: solved

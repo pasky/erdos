@@ -4,7 +4,7 @@ title: Problem 140
 desc: |
   Asks whether $r_3(N)\ll N/(\log N)^C$ for every $C>0$, where $r_3(N)$ is the
   size of the largest subset of $\{1,\ldots,N\}$ with no non-trivial $3$-term
-  arithmetic progression; proved.
+  arithmetic progression.
 tags:
 - Additive combinatorics
 - Arithmetic progressions

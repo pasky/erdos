@@ -3,7 +3,7 @@ name: problems/additive_bases/E0156
 title: Problem 156
 desc: |
   Asks whether $\{1,\ldots,N\}$ contains a maximal Sidon set of size
-  $O(N^{1/3})$; open.
+  $O(N^{1/3})$.
 tags:
 - Sidon sets
 status: open

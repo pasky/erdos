@@ -4,7 +4,7 @@ title: Problem 1129
 desc: |
   Asks which nodes $x_1,\ldots,x_n\in[-1,1]$ minimize
   $\max_{x\in[-1,1]}\sum_k\lvert l_k(x)\rvert$, where the $l_k$ are the
-  fundamental Lagrange interpolation polynomials; answered.
+  fundamental Lagrange interpolation polynomials.
 tags:
 - Analysis
 - Polynomials

@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E1058
 title: Problem 1058
 desc: |
   Asks whether only finitely many $n$ with $p_{k-1}\leq n<p_k$ have the next two
-  primes $p_k$ and $p_{k+1}$ as the only prime factors of $n!+1$; proved.
+  primes $p_k$ and $p_{k+1}$ as the only prime factors of $n!+1$.
 tags:
 - Number theory
 status: solved

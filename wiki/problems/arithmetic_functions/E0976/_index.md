@@ -4,7 +4,7 @@ title: Problem 976
 desc: |
   Asks for estimates of the greatest prime factor $F_f(n)$ of
   $\prod_{m\le n}f(m)$ for an irreducible polynomial $f$, in particular whether
-  $F_f(n)\gg n^{1+c}$ for some $c>0$; open.
+  $F_f(n)\gg n^{1+c}$ for some $c>0$.
 tags:
 - Number theory
 status: open

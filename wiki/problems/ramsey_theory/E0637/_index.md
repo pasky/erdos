@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E0637
 title: Problem 637
 desc: |
   Asks whether a graph on $n$ vertices with no large clique or independent set
-  has an induced subgraph on many vertices with many distinct degrees; proved.
+  has an induced subgraph on many vertices with many distinct degrees.
 tags:
 - Graph theory
 - Ramsey theory

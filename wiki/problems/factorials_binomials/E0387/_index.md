@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E0387
 title: Problem 387
 desc: |
   Asks whether there is an absolute constant $c>0$ such that every
-  $\binom{n}{k}$ with $1\le k<n$ has a divisor in $(cn,n]$; disproved.
+  $\binom{n}{k}$ with $1\le k<n$ has a divisor in $(cn,n]$.
 tags:
 - Number theory
 - Binomial coefficients

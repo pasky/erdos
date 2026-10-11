@@ -3,7 +3,7 @@ name: problems/divisors/E0144
 title: Problem 144
 desc: |
   Asks whether the density of integers with two divisors $d_1<d_2<2d_1$ exists
-  and equals $1$, so that almost every integer has such a pair; proved.
+  and equals $1$, so that almost every integer has such a pair.
 tags:
 - Number theory
 - Divisors

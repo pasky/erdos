@@ -5,7 +5,7 @@ desc: |
   For nodes $x_1,\ldots,x_n\in[-1,1]$, let $\Upsilon$ be the least, over the
   intervals between consecutive points of $-1,x_1,\ldots,x_n,1$, of the maximum
   of $\sum_k\lvert l_k(x)\rvert$ on the interval. Asks whether
-  $\Upsilon\ll\log n$ and which nodes maximize $\Upsilon$; both are answered.
+  $\Upsilon\ll\log n$ and which nodes maximize $\Upsilon$.
 tags:
 - Analysis
 - Polynomials

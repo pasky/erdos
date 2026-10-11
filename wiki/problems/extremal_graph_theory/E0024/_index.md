@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0024
 title: Problem 24
 desc: |
   Asks whether every triangle-free graph on $5n$ vertices contains at most $n^5$
-  copies of $C_5$; proved.
+  copies of $C_5$.
 tags:
 - Graph theory
 status: solved

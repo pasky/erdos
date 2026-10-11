@@ -4,7 +4,7 @@ title: Problem 67
 desc: |
   Asks whether every $f:\mathbb{N}\to\{-1,+1\}$ has unbounded discrepancy, that
   is, whether for every $C>0$ some $d,m\geq 1$ give
-  $\lvert\sum_{1\leq k\leq m}f(kd)\rvert>C$; proved.
+  $\lvert\sum_{1\leq k\leq m}f(kd)\rvert>C$.
 tags:
 - Discrepancy
 status: solved

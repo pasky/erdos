@@ -4,7 +4,7 @@ title: Problem 22
 desc: |
   Asks whether, for each $\epsilon>0$ and large $n$, some $K_4$-free graph on
   $n$ vertices with at least $n^2/8$ edges has independence number at most
-  $\epsilon n$; proved.
+  $\epsilon n$.
 tags:
 - Graph theory
 status: solved

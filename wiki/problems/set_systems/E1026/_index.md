@@ -3,8 +3,7 @@ name: problems/set_systems/E1026
 title: Problem 1026
 desc: |
   Asks how large, relative to $n^{-1/2}\sum x_i$, the largest sum of a monotonic
-  subsequence of a sequence $x_1,\ldots,x_n$ of distinct real numbers must be;
-  solved.
+  subsequence of a sequence $x_1,\ldots,x_n$ of distinct real numbers must be.
 tags:
 - Combinatorics
 status: solved

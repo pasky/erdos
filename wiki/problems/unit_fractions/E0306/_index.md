@@ -4,7 +4,7 @@ title: Problem 306
 desc: |
   Asks whether every positive rational with squarefree denominator is a sum of
   distinct unit fractions whose denominators are each a product of two distinct
-  primes; open on the site, with pending proof claims.
+  primes.
 tags:
 - Number theory
 - Unit fractions

@@ -4,7 +4,7 @@ title: Problem 61
 desc: |
   Asks whether, for each graph $H$, there is $c=c(H)>0$ such that every graph on
   $n$ vertices with no induced copy of $H$ has a clique or an independent set of
-  size at least $n^c$; open.
+  size at least $n^c$.
 tags:
 - Graph theory
 status: open

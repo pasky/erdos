@@ -4,7 +4,7 @@ title: Problem 884
 desc: |
   Asks whether the sum of $1/(d_j-d_i)$ over all pairs of divisors $d_i<d_j$ of
   $n$ is at most an absolute constant times $1+\sum_i 1/(d_{i+1}-d_i)$, the sum
-  over consecutive divisors; disproved.
+  over consecutive divisors.
 tags:
 - Number theory
 - Divisors

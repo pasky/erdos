@@ -4,7 +4,7 @@ title: Problem 1027
 desc: |
   Asks whether, for a family $\mathcal{F}$ of at most $c2^n$ sets of size $n$
   with union $X$ and $n$ large, there are $\gg_c 2^{\lvert X\rvert}$ sets
-  $B\subset X$ that meet every member of $\mathcal{F}$ but contain none; proved.
+  $B\subset X$ that meet every member of $\mathcal{F}$ but contain none.
 tags:
 - Combinatorics
 status: solved

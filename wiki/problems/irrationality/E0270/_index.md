@@ -3,7 +3,7 @@ name: problems/irrationality/E0270
 title: Problem 270
 desc: |
   Asks whether $\sum_{n\ge1}\frac{1}{(n+1)\cdots(n+f(n))}$ is irrational
-  whenever $f(n)\to\infty$; answered no.
+  whenever $f(n)\to\infty$.
 tags:
 - Irrationality
 status: solved

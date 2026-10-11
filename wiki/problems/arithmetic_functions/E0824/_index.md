@@ -3,8 +3,8 @@ name: problems/arithmetic_functions/E0824
 title: Problem 824
 desc: |
   Asks whether the number $h(x)$ of coprime pairs $a<b<x$ with
-  $\sigma(a)=\sigma(b)$ satisfies $h(x)>x^{2-o(1)}$; open. An AI-assisted
-  write-up of August 2026 claims $h(x)>x^{\gamma}$ for every $\gamma<13/8$.
+  $\sigma(a)=\sigma(b)$ satisfies $h(x)>x^{2-o(1)}$. An AI-assisted write-up of
+  August 2026 claims $h(x)>x^{\gamma}$ for every $\gamma<13/8$.
 tags:
 - Number theory
 status: open

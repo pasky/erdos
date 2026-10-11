@@ -3,7 +3,7 @@ name: problems/discrete_geometry/E1124
 title: Problem 1124
 desc: |
   Asks whether a square and a circle of the same area can be cut into finitely
-  many congruent pieces. The answer is yes.
+  many congruent pieces.
 tags:
 - Geometry
 status: solved

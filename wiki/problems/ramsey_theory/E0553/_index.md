@@ -4,7 +4,7 @@ title: Problem 553
 desc: |
   Asks for a proof that $R(3,3,n)/R(3,n)\to\infty$, where $R(3,3,n)$ is the
   three-color Ramsey number for two triangles and $K_n$ and $R(3,n)$ is the
-  two-color one; proved.
+  two-color one.
 tags:
 - Graph theory
 - Ramsey theory

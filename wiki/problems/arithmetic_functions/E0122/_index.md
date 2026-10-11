@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0122
 title: Problem 122
 desc: |
   Asks for which number theoretic functions $f$ the shifted values $n+f(n)$
-  cluster unboundedly in short intervals infinitely often; open.
+  cluster unboundedly in short intervals infinitely often.
 tags:
 - Number theory
 status: open

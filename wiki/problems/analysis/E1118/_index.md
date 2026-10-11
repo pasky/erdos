@@ -4,7 +4,7 @@ title: Problem 1118
 desc: |
   Asks for the minimum growth rate of a non-constant entire $f$ for which
   $E(c)=\{z:|f(z)|>c\}$ has finite measure, and whether some $c'<c$ must then
-  also give finite measure; solved.
+  also give finite measure.
 tags:
 - Analysis
 status: solved

@@ -5,7 +5,7 @@ desc: |
   Asks for good upper bounds on $N(k,\ell)$, the least $N$ such that every
   $f:\{1,\ldots,N\}\to\{-1,1\}$ has a $k$-term arithmetic progression $P$ with
   $\lvert\sum_{n\in P}f(n)\rvert\geq\ell$, in particular whether every $c>0$ has
-  some $C>1$ with $N(k,ck)\leq C^k$; open.
+  some $C>1$ with $N(k,ck)\leq C^k$.
 tags:
 - Additive combinatorics
 - Arithmetic progressions

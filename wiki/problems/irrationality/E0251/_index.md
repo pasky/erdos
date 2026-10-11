@@ -2,8 +2,7 @@
 name: problems/irrationality/E0251
 title: Problem 251
 desc: |
-  Asks whether $\sum_n p_n/2^n$ is irrational, where $p_n$ is the $n$th prime;
-  open.
+  Asks whether $\sum_n p_n/2^n$ is irrational, where $p_n$ is the $n$th prime.
 tags:
 - Number theory
 - Irrationality

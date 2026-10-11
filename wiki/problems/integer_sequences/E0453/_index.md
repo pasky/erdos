@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0453
 title: Problem 453
 desc: |
   Asks whether, for all large $n$, some $i<n$ satisfies $p_n^2<p_{n+i}p_{n-i}$,
-  where $p_k$ is the $k$th prime; disproved.
+  where $p_k$ is the $k$th prime.
 tags:
 - Number theory
 status: solved

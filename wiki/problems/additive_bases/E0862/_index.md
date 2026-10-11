@@ -3,7 +3,7 @@ name: problems/additive_bases/E0862
 title: Problem 862
 desc: |
   Asks whether the number of maximal Sidon subsets of $\{1,\ldots,N\}$ is below
-  $2^{o(N^{1/2})}$, and whether it exceeds $2^{N^c}$ for some $c>0$; solved.
+  $2^{o(N^{1/2})}$, and whether it exceeds $2^{N^c}$ for some $c>0$.
 tags:
 - Number theory
 - Sidon sets

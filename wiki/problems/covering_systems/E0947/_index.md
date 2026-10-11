@@ -4,7 +4,7 @@ title: Problem 947
 desc: |
   Asks whether an exact covering system exists, that is, finitely many
   congruence classes with distinct moduli such that every integer satisfies
-  exactly one of them. The answer is no.
+  exactly one of them.
 tags:
 - Number theory
 - Covering systems

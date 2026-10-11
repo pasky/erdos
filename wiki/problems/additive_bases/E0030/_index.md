@@ -3,7 +3,7 @@ name: problems/additive_bases/E0030
 title: Problem 30
 desc: |
   Asks whether the largest Sidon set in $\{1,\ldots,N\}$ has size
-  $N^{1/2}+O_\epsilon(N^\epsilon)$ for every $\epsilon>0$; open.
+  $N^{1/2}+O_\epsilon(N^\epsilon)$ for every $\epsilon>0$.
 tags:
 - Number theory
 - Sidon sets

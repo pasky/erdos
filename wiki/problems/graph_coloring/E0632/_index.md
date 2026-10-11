@@ -3,9 +3,9 @@ name: problems/graph_coloring/E0632
 title: Problem 632
 desc: |
   Asks whether every $(a,b)$-choosable graph is $(am,bm)$-choosable for every
-  integer $m\ge 1$; disproved. A graph is $(a,b)$-choosable if, from any lists
-  of $a$ colors, one can choose $b$ colors per vertex so that adjacent vertices
-  get disjoint sets.
+  integer $m\ge 1$. A graph is $(a,b)$-choosable if, from any lists of $a$
+  colors, one can choose $b$ colors per vertex so that adjacent vertices get
+  disjoint sets.
 tags:
 - Graph theory
 - Chromatic number

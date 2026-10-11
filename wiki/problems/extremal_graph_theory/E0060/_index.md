@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0060
 title: Problem 60
 desc: |
   Asks whether every graph on $n$ vertices with more than $\mathrm{ex}(n;C_4)$
-  edges contains $\gg n^{1/2}$ copies of $C_4$; open.
+  edges contains $\gg n^{1/2}$ copies of $C_4$.
 tags:
 - Graph theory
 - Cycles

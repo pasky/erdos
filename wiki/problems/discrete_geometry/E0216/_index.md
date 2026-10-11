@@ -3,9 +3,7 @@ name: problems/discrete_geometry/E0216
 title: Problem 216
 desc: |
   Asks whether, for each $k$, enough points in general position in the plane
-  always contain an empty convex $k$-gon, and how many are needed. Horton
-  disproved it in 1983 with arbitrarily large sets that have no empty convex
-  heptagon.
+  always contain an empty convex $k$-gon, and how many are needed.
 tags:
 - Geometry
 - Convexity

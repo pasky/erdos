@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E0109
 title: Problem 109
 desc: |
   Asks whether every $A\subseteq\mathbb{N}$ of positive upper density contains a
-  sumset $B+C$ with $B$ and $C$ both infinite; proved.
+  sumset $B+C$ with $B$ and $C$ both infinite.
 tags:
 - Additive combinatorics
 status: solved

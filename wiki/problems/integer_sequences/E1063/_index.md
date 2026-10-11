@@ -3,7 +3,7 @@ name: problems/integer_sequences/E1063
 title: Problem 1063
 desc: |
   Asks for an estimate of the least $n\ge2k$ such that $n-i$ divides
-  $\binom{n}{k}$ for all but one $0\le i<k$; open.
+  $\binom{n}{k}$ for all but one $0\le i<k$.
 tags:
 - Number theory
 status: open

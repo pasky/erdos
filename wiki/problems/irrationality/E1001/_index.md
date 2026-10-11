@@ -4,7 +4,7 @@ title: Problem 1001
 desc: |
   Asks whether the measure of the set of $\alpha\in(0,1)$ with
   $|\alpha-x/y|<A/y^2$ for some reduced $x/y$ with $N\le y\le cN$ tends to a
-  limit as $N\to\infty$, and what that limit is explicitly; solved.
+  limit as $N\to\infty$, and what that limit is explicitly.
 tags:
 - Number theory
 - Diophantine approximation

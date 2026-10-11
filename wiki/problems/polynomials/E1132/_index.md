@@ -5,7 +5,7 @@ desc: |
   For a sequence of nodes in $[-1,1]$, let
   $L_n(x)=\sum_{k\le n}\lvert l_k(x)\rvert$. Asks whether some $x\in(-1,1)$ has
   $L_n(x)>\frac{2}{\pi}\log n-O(1)$ for infinitely many $n$, and whether
-  $\limsup_n L_n(x)/\log n\ge 2/\pi$ for almost all $x$; open.
+  $\limsup_n L_n(x)/\log n\ge 2/\pi$ for almost all $x$.
 tags:
 - Analysis
 - Polynomials

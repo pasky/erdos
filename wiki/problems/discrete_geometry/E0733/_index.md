@@ -4,7 +4,7 @@ title: Problem 733
 desc: |
   Asks to prove that at most $\exp(O(n^{1/2}))$ nondecreasing sequences can be
   the point counts of lines, each through at least two of $n$ points in the
-  plane; proved.
+  plane.
 tags:
 - Combinatorics
 - Geometry

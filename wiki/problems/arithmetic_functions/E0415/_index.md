@@ -4,8 +4,7 @@ title: Problem 415
 desc: |
   Asks whether the largest $k$ such that every ordering pattern of $k$
   consecutive values of $\phi$ occurs below $n$ is $(c+o(1))\log\log\log n$, and
-  whether the decreasing pattern always fails first; a pending claim answers
-  both no.
+  whether the decreasing pattern always fails first.
 tags:
 - Number theory
 status: claimed

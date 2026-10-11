@@ -2,7 +2,7 @@
 name: problems/ramsey_theory/E0159
 title: Problem 159
 desc: |
-  Asks whether $R(C_4,K_n)\ll n^{2-c}$ for some constant $c>0$; open.
+  Asks whether $R(C_4,K_n)\ll n^{2-c}$ for some constant $c>0$.
 tags:
 - Graph theory
 - Ramsey theory

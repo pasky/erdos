@@ -3,7 +3,7 @@ name: problems/graph_coloring/E0626
 title: Problem 626
 desc: |
   Asks whether, for $k\ge 4$, the largest girth of an $n$-vertex graph with
-  chromatic number $k$, divided by $\log n$, tends to a limit; open.
+  chromatic number $k$, divided by $\log n$, tends to a limit.
 tags:
 - Graph theory
 - Chromatic number

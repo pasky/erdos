@@ -4,7 +4,7 @@ title: Problem 229
 desc: |
   Asks whether, for any sets $S_1,S_2,\ldots$ of complex numbers with no finite
   limit point, some transcendental entire function $f$ has, for each $n$, a
-  derivative $f^{(k_n)}$ vanishing on all of $S_n$; proved.
+  derivative $f^{(k_n)}$ vanishing on all of $S_n$.
 tags:
 - Analysis
 - Iterated functions

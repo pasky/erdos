@@ -4,7 +4,7 @@ title: Problem 469
 desc: |
   Asks whether $\sum 1/n$ converges over the integers $n$ that are sums of
   distinct proper divisors of themselves while no proper divisor of $n$ has that
-  property; proved.
+  property.
 tags:
 - Number theory
 - Divisors

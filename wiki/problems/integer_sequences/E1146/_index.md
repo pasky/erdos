@@ -4,7 +4,7 @@ title: Problem 1146
 desc: |
   Asks whether $\{2^m3^n : m,n\ge0\}$ is an essential component, that is, a set
   $A$ with $d_s(A+B)>d_s(B)$ whenever the Schnirelmann density $d_s(B)$ lies
-  strictly between $0$ and $1$; open.
+  strictly between $0$ and $1$.
 tags:
 - Number theory
 status: open

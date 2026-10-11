@@ -4,8 +4,7 @@ title: Problem 245
 desc: |
   Asks whether every infinite set $A$ of naturals with
   $|A\cap\{1,\ldots,N\}|=o(N)$ satisfies
-  $\limsup_{N\to\infty}|(A+A)\cap\{1,\ldots,N\}|/|A\cap\{1,\ldots,N\}|\ge 3$;
-  the answer is yes.
+  $\limsup_{N\to\infty}|(A+A)\cap\{1,\ldots,N\}|/|A\cap\{1,\ldots,N\}|\ge 3$.
 tags:
 - Additive combinatorics
 status: solved

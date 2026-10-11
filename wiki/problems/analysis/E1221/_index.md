@@ -4,8 +4,8 @@ title: Problem 1221
 desc: |
   Asks whether $\Lambda_r-r$, $r-\lambda_r$ and $r(\mu_r-1)$ tend to infinity
   for the de Bruijn–Erdős constants of the largest and smallest sums of $r$
-  consecutive gaps on the circle and their ratio; open, though an unrefereed,
-  unreviewed 2026 preprint claims all three for distinct points.
+  consecutive gaps on the circle and their ratio; an unrefereed, unreviewed 2026
+  preprint claims all three for distinct points.
 tags:
 - Analysis
 status: open

@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0298
 title: Problem 298
 desc: |
   Asks whether every set of positive integers of positive density contains a
-  finite subset whose reciprocals sum to $1$; proved.
+  finite subset whose reciprocals sum to $1$.
 tags:
 - Number theory
 - Unit fractions

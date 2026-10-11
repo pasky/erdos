@@ -4,7 +4,7 @@ title: Problem 999
 desc: |
   Asks whether, for every $f:\mathbb{N}\to\mathbb{N}$, almost every $\alpha$
   satisfies $|\alpha-p/q|<f(q)/q$ for infinitely many coprime $p,q$ if and only
-  if $\sum_{q\ge1}\phi(q)f(q)/q=\infty$; proved.
+  if $\sum_{q\ge1}\phi(q)f(q)/q=\infty$.
 tags:
 - Number theory
 - Diophantine approximation

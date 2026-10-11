@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0375
 title: Problem 375
 desc: |
   Asks whether any $k$ consecutive composite integers $n+1,\ldots,n+k$ can be
-  assigned distinct primes $p_1,\ldots,p_k$ with $p_i\mid n+i$; open.
+  assigned distinct primes $p_1,\ldots,p_k$ with $p_i\mid n+i$.
 tags:
 - Number theory
 - Primes

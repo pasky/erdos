@@ -2,8 +2,7 @@
 name: problems/set_systems/E0725
 title: Problem 725
 desc: |
-  Asks for an asymptotic formula for the number of $k\times n$ Latin rectangles;
-  open.
+  Asks for an asymptotic formula for the number of $k\times n$ Latin rectangles.
 tags:
 - Combinatorics
 status: open

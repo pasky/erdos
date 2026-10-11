@@ -6,7 +6,7 @@ desc: |
   color-critical graphs, and the interaction of coloring with girth and
   cycles; colorings of the plane and of R^n are filed with discrete geometry.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-11T23:17:00Z
 ---
 
 # Graph Coloring
@@ -14,29 +14,28 @@ updated: 2026-10-11T22:24:14Z
 [[problems/_index|..]]
 
 [[problems/graph_coloring/E0019/_index|E0019/]]: Asks whether every
-edge-disjoint union of $n$ copies of $K_n$ has chromatic number exactly $n$;
-proved for all sufficiently large $n$, with finitely many $n$ still open.
+edge-disjoint union of $n$ copies of $K_n$ has chromatic number exactly $n$.
 
 [[problems/graph_coloring/E0057/_index|E0057/]]: Asks whether the reciprocals of
 the odd cycle lengths of a graph with infinite chromatic number must sum to
-infinity; proved.
+infinity.
 
 [[problems/graph_coloring/E0058/_index|E0058/]]: Asks whether a graph whose odd
 cycles have at most $k$ distinct lengths has chromatic number at most $2k+2$,
-with equality only if it contains $K_{2k+2}$; proved.
+with equality only if it contains $K_{2k+2}$.
 
 [[problems/graph_coloring/E0063/_index|E0063/]]: Asks whether every graph with
 infinite chromatic number contains a cycle of length $2^n$ for infinitely many
-$n$; proved.
+$n$.
 
 [[problems/graph_coloring/E0074/_index|E0074/]]: Asks whether, for every
 $f(n)\to\infty$, some graph of infinite chromatic number has every $n$-vertex
-subgraph made bipartite by deleting at most $f(n)$ edges; disproved.
+subgraph made bipartite by deleting at most $f(n)$ edges.
 
 [[problems/graph_coloring/E0075/_index|E0075/]]: Asks whether some graph with
 $\aleph_1$ vertices and chromatic number $\aleph_1$ has, for every $\epsilon>0$
 and all large $n$, an independent set of size $>n^{1-\epsilon}$ in each
-$n$-vertex subgraph, and asks the same for size $\gg n$; open.
+$n$-vertex subgraph, and asks the same for size $\gg n$.
 
 [[problems/graph_coloring/E0108/_index|E0108/]]: Asks whether, for every $r\ge
 4$ and $k\ge 2$, large enough chromatic number forces a subgraph of girth $\ge
@@ -45,69 +44,68 @@ counterexample family.
 
 [[problems/graph_coloring/E0110/_index|E0110/]]: Asks whether one function
 $F(n)$ bounds, for all large $n$, the order of a smallest subgraph of chromatic
-number $n$ in every graph of chromatic number $\aleph_1$; disproved.
+number $n$ in every graph of chromatic number $\aleph_1$.
 
 [[problems/graph_coloring/E0625/_index|E0625/]]: Asks whether
 $\chi(G)-\zeta(G)\to\infty$ almost surely for the random graph $G(n,1/2)$, where
 the cochromatic number $\zeta(G)$ is the fewest colors whose classes each induce
-a complete or empty graph; proved.
+a complete or empty graph.
 
 [[problems/graph_coloring/E0626/_index|E0626/]]: Asks whether, for $k\ge 4$, the
 largest girth of an $n$-vertex graph with chromatic number $k$, divided by $\log
-n$, tends to a limit; open.
+n$, tends to a limit.
 
 [[problems/graph_coloring/E0627/_index|E0627/]]: Asks whether $f(n)/(n/(\log_2
 n)^2)$ tends to a limit, where $f(n)$ is the largest ratio $\chi(G)/\omega(G)$
-of chromatic number to clique number over graphs $G$ on $n$ vertices; open.
+of chromatic number to clique number over graphs $G$ on $n$ vertices.
 
 [[problems/graph_coloring/E0628/_index|E0628/]]: Asks whether a graph with
 chromatic number $k$ and no $K_k$ must have two disjoint subgraphs of chromatic
-numbers $\ge a$ and $\ge b$ whenever $a,b\ge 2$ and $a+b=k+1$; open.
+numbers $\ge a$ and $\ge b$ whenever $a,b\ge 2$ and $a+b=k+1$.
 
 [[problems/graph_coloring/E0629/_index|E0629/]]: Asks for the least number of
 vertices $n(k)$ of a bipartite graph whose list chromatic number exceeds $k$;
 open, with $n(2)=6$ and $n(3)=14$ known.
 
 [[problems/graph_coloring/E0630/_index|E0630/]]: Asks whether every planar
-bipartite graph has list chromatic number at most $3$; proved. The list
-chromatic number is the least list size per vertex that always permits a proper
-coloring from the lists.
+bipartite graph has list chromatic number at most $3$. The list chromatic number
+is the least list size per vertex that always permits a proper coloring from the
+lists.
 
 [[problems/graph_coloring/E0631/_index|E0631/]]: Asks whether every planar graph
-has list chromatic number at most $5$, and whether $5$ is best possible; both
-answers are yes. The list chromatic number is the least list size per vertex
-that always allows a proper coloring from the lists.
+has list chromatic number at most $5$, and whether $5$ is best possible. The
+list chromatic number is the least list size per vertex that always allows a
+proper coloring from the lists.
 
 [[problems/graph_coloring/E0632/_index|E0632/]]: Asks whether every
-$(a,b)$-choosable graph is $(am,bm)$-choosable for every integer $m\ge 1$;
-disproved. A graph is $(a,b)$-choosable if, from any lists of $a$ colors, one
-can choose $b$ colors per vertex so that adjacent vertices get disjoint sets.
+$(a,b)$-choosable graph is $(am,bm)$-choosable for every integer $m\ge 1$. A
+graph is $(a,b)$-choosable if, from any lists of $a$ colors, one can choose $b$
+colors per vertex so that adjacent vertices get disjoint sets.
 
 [[problems/graph_coloring/E0640/_index|E0640/]]: Asks whether, for each $k\ge
 3$, large enough chromatic number forces an odd cycle whose vertices span a
-subgraph of chromatic number at least $k$; open.
+subgraph of chromatic number at least $k$.
 
 [[problems/graph_coloring/E0706/_index|E0706/]]: Asks for an estimate of $L(r)$,
 the largest chromatic number of a graph on finitely many points in
 $\mathbb{R}^2$ whose edges join pairs at one of $r$ prescribed distances, and
-whether $L(r)\le r^{O(1)}$; open.
+whether $L(r)\le r^{O(1)}$.
 
 [[problems/graph_coloring/E0736/_index|E0736/]]: Asks whether, for every graph
 $G$ of chromatic number $\aleph_1$ and every cardinal $m$, there is a graph of
-chromatic number $m$ all of whose finite subgraphs occur in $G$; open.
+chromatic number $m$ all of whose finite subgraphs occur in $G$.
 
 [[problems/graph_coloring/E0737/_index|E0737/]]: Asks whether every graph of
 chromatic number $\aleph_1$ has an edge that lies on a cycle of every
-sufficiently large length; proved.
+sufficiently large length.
 
 [[problems/graph_coloring/E0738/_index|E0738/]]: Asks whether every
 triangle-free graph of infinite chromatic number contains every tree as an
-induced subgraph; open.
+induced subgraph.
 
 [[problems/graph_coloring/E0739/_index|E0739/]]: Asks whether a graph of
 infinite chromatic number $\mathfrak{m}$ must have a subgraph of chromatic
-number $\mathfrak{n}$ for every infinite cardinal $\mathfrak{n}<\mathfrak{m}$;
-open.
+number $\mathfrak{n}$ for every infinite cardinal $\mathfrak{n}<\mathfrak{m}$.
 
 [[problems/graph_coloring/E0740/_index|E0740/]]: Asks whether a graph of
 infinite chromatic number $\mathfrak{m}$ must contain a subgraph of the same
@@ -117,39 +115,38 @@ pending.
 [[problems/graph_coloring/E0744/_index|E0744/]]: Asks whether $f_k(n)\to\infty$,
 where $f_k(n)$ is the fewest edges whose deletion makes bipartite some
 $n$-vertex graph of chromatic number $k$ whose proper subgraphs all have smaller
-chromatic number; disproved.
+chromatic number.
 
 [[problems/graph_coloring/E0750/_index|E0750/]]: Asks whether, for every
 $f(m)\to\infty$, some graph of infinite chromatic number has an independent set
-of size at least $m/2-f(m)$ in every $m$-vertex subgraph; proved.
+of size at least $m/2-f(m)$ in every $m$-vertex subgraph.
 
 [[problems/graph_coloring/E0751/_index|E0751/]]: Asks whether the smallest gap
 between consecutive cycle lengths in a graph of chromatic number $4$ can be
-arbitrarily large, and whether this can happen with large girth; both answers
-are no.
+arbitrarily large, and whether this can happen with large girth.
 
 [[problems/graph_coloring/E0753/_index|E0753/]]: Asks whether some constant
 $c>0$ makes the list chromatic numbers of every $n$-vertex graph and its
-complement sum to more than $n^{1/2+c}$; disproved.
+complement sum to more than $n^{1/2+c}$.
 
 [[problems/graph_coloring/E0758/_index|E0758/]]: Asks for small values of
 $z(n)$, the largest cochromatic number of an $n$-vertex graph, and in particular
-whether $z(12)=4$; solved. The cochromatic number is the fewest colors whose
-classes each induce a complete or an empty graph.
+whether $z(12)=4$. The cochromatic number is the fewest colors whose classes
+each induce a complete or an empty graph.
 
 [[problems/graph_coloring/E0759/_index|E0759/]]: Asks for the growth rate of the
 largest cochromatic number of a graph embeddable on the orientable surface of
-genus $n$; solved. The cochromatic number is the fewest colors whose classes
-each induce a complete or an empty graph.
+genus $n$. The cochromatic number is the fewest colors whose classes each induce
+a complete or an empty graph.
 
 [[problems/graph_coloring/E0760/_index|E0760/]]: Asks whether every graph with
 chromatic number $m$ contains a subgraph $H$ with cochromatic number
-$\zeta(H)\gg m/\log m$; proved. The cochromatic number is the fewest colors such
-that every color class induces a complete graph or an independent set.
+$\zeta(H)\gg m/\log m$. The cochromatic number is the fewest colors such that
+every color class induces a complete graph or an independent set.
 
 [[problems/graph_coloring/E0761/_index|E0761/]]: Asks whether large chromatic
 number forces large dichromatic number, and whether large cochromatic number
-forces a subgraph of large dichromatic number; open. Cochromatic classes induce
+forces a subgraph of large dichromatic number. Cochromatic classes induce
 complete or empty graphs, and dichromatic colorings avoid monochromatic oriented
 cycles.
 
@@ -203,31 +200,29 @@ is not a multiple of $3$.
 
 [[problems/graph_coloring/E0918/_index|E0918/]]: Asks whether some graph with
 $\aleph_2$ vertices and chromatic number $\aleph_2$ has every subgraph on
-$\aleph_1$ vertices countably colorable. This is independent of ZFC + GCH
-relative to a huge cardinal, and a second question, at $\aleph_{\omega+1}$, is
-open.
+$\aleph_1$ vertices countably colorable.
 
 [[problems/graph_coloring/E0919/_index|E0919/]]: Asks whether some graph on the
 ordinal $\omega_2^2$ has chromatic number $\aleph_2$ while every subgraph of
 smaller type is countably colorable, and asks the same with chromatic number
-$\aleph_1$; open.
+$\aleph_1$.
 
 [[problems/graph_coloring/E0920/_index|E0920/]]: Asks whether, for every
 $k\geq4$, the largest chromatic number $f_k(n)$ of a $K_k$-free graph on $n$
 vertices satisfies $f_k(n)\gg n^{1-1/(k-1)}/(\log n)^{c_k}$ for some constant
-$c_k>0$; proved.
+$c_k>0$.
 
 [[problems/graph_coloring/E0921/_index|E0921/]]: Asks whether, for every
 $k\geq4$, the largest $m$ such that some $k$-chromatic graph on $n$ vertices has
-every odd cycle longer than $m$ is of order $n^{1/(k-2)}$; proved.
+every odd cycle longer than $m$ is of order $n^{1/(k-2)}$.
 
 [[problems/graph_coloring/E0922/_index|E0922/]]: Asks whether a graph in which
 every subgraph on $n$ vertices has an independent set of size at least $(n-k)/2$
-has chromatic number at most $k+2$; proved.
+has chromatic number at most $k+2$.
 
 [[problems/graph_coloring/E0923/_index|E0923/]]: Asks whether every graph whose
 chromatic number is large enough in terms of $k$ contains a triangle-free
-subgraph with chromatic number at least $k$; proved.
+subgraph with chromatic number at least $k$.
 
 [[problems/graph_coloring/E0944/_index|E0944/]]: Asks whether, for every
 $k\geq4$ and $r\geq1$, some $k$-chromatic graph has every vertex critical but no
@@ -236,12 +231,12 @@ Conjectures.io in September 2026 settles it.
 
 [[problems/graph_coloring/E1013/_index|E1013/]]: Asks for an asymptotic formula
 for $h_3(k)$, the fewest vertices of a triangle-free graph with chromatic number
-$k$, and for a proof that $h_3(k+1)/h_3(k)\to1$; open.
+$k$, and for a proof that $h_3(k+1)/h_3(k)\to1$.
 
 [[problems/graph_coloring/E1032/_index|E1032/]]: Asks whether, for arbitrarily
 large $n$, some $4$-chromatic critical graph on $n$ vertices has minimum degree
-$\gg n$; open. Such a graph has chromatic number $4$, and deleting any edge
-drops it to $3$.
+$\gg n$. Such a graph has chromatic number $4$, and deleting any edge drops it
+to $3$.
 
 [[problems/graph_coloring/E1091/_index|E1091/]]: Asks whether every $K_4$-free
 graph with chromatic number $4$ contains an odd cycle with at least two
@@ -250,16 +245,16 @@ diagonals; solved. Erdős first asked for one diagonal, which Larson proved in 1
 [[problems/graph_coloring/E1092/_index|E1092/]]: Asks whether $f_r(n)\gg_r n$,
 in particular for $r=2$, where $f_r$ is the largest function such that a graph
 whose every $m$-vertex subgraph is an $r$-colorable graph plus at most $f_r(m)$
-edges has chromatic number at most $r+1$; disproved.
+edges has chromatic number at most $r+1$.
 
 [[problems/graph_coloring/E1104/_index|E1104/]]: Asks for an estimate of the
-largest chromatic number of a triangle-free graph on $n$ vertices; open.
+largest chromatic number of a triangle-free graph on $n$ vertices.
 
 [[problems/graph_coloring/E1156/_index|E1156/]]: Asks whether the chromatic
 number of a random graph on $n$ vertices, each edge present independently with
 probability $1/2$, is almost surely concentrated on boundedly many values, and
 whether it is within a slowly growing $\omega(n)$ of any given $f(n)$ with
-probability below $1/2$; open.
+probability below $1/2$.
 
 ***
 

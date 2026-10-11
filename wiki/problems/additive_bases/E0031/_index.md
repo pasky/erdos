@@ -3,7 +3,7 @@ name: problems/additive_bases/E0031
 title: Problem 31
 desc: |
   Asks whether every infinite set $A\subset\mathbb{N}$ has a set $B$ of density
-  $0$ such that $A+B$ contains all but finitely many integers; proved.
+  $0$ such that $A+B$ contains all but finitely many integers.
 tags:
 - Number theory
 - Additive bases

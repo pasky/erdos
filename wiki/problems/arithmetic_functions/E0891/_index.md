@@ -4,7 +4,7 @@ title: Problem 891
 desc: |
   Asks whether, for each $k\ge2$ and every large enough $n$, the interval
   $[n,n+p_1\cdots p_k)$ contains an integer with more than $k$ distinct prime
-  factors, where $p_i$ is the $i$th prime; open.
+  factors, where $p_i$ is the $i$th prime.
 tags:
 - Number theory
 status: open

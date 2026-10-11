@@ -4,7 +4,7 @@ title: Problem 269
 desc: |
   Asks whether $\sum_n 1/\operatorname{lcm}(a_1,\ldots,a_n)$ is irrational,
   where $a_1<a_2<\cdots$ are the integers whose prime factors lie in a fixed
-  finite set of at least two primes; open.
+  finite set of at least two primes.
 tags:
 - Irrationality
 status: open

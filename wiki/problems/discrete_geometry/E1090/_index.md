@@ -4,7 +4,7 @@ title: Problem 1090
 desc: |
   Asks whether, for each $k\ge3$, some finite set in the plane has the property
   that every $2$-coloring of it gives a line meeting it in at least $k$ points,
-  all of the same color. The answer is yes.
+  all of the same color.
 tags:
 - Geometry
 - Ramsey theory

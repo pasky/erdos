@@ -3,8 +3,7 @@ name: problems/arithmetic_functions/E1052
 title: Problem 1052
 desc: |
   Asks whether there are only finitely many unitary perfect numbers, the
-  integers $n$ equal to the sum of their proper divisors $d$ with $(d,n/d)=1$;
-  open.
+  integers $n$ equal to the sum of their proper divisors $d$ with $(d,n/d)=1$.
 tags:
 - Number theory
 status: open

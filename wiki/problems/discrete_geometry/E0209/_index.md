@@ -4,7 +4,7 @@ title: Problem 209
 desc: |
   Asks whether $d\ge4$ non-parallel lines in the plane, no four through one
   point, must form a Gallai triangle: three of the lines whose three
-  intersection points each lie on only two lines; disproved.
+  intersection points each lie on only two lines.
 tags:
 - Geometry
 status: solved

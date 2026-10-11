@@ -3,8 +3,7 @@ name: problems/discrete_geometry/E0898
 title: Problem 898
 desc: |
   Asks whether the sum of distances from an interior point to a triangle's
-  vertices is at least twice the sum of its distances to the three sides;
-  proved.
+  vertices is at least twice the sum of its distances to the three sides.
 tags:
 - Geometry
 status: solved

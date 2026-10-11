@@ -4,7 +4,7 @@ title: Problem 591
 desc: |
   Asks whether every red-blue coloring of the pairs from the ordinal
   $\omega^{\omega^2}$ gives a red complete subgraph of that order type or a blue
-  triangle; proved.
+  triangle.
 tags:
 - Set theory
 - Ramsey theory

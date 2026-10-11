@@ -4,7 +4,7 @@ title: Problem 360
 desc: |
   Asks how fast $f(n)$ grows, the least number of classes into which
   $\{1,\ldots,n-1\}$ can be partitioned so that $n$ is never a sum of distinct
-  members of one class; solved.
+  members of one class.
 tags:
 - Number theory
 status: solved

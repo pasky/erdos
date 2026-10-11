@@ -4,7 +4,7 @@ title: Problem 919
 desc: |
   Asks whether some graph on the ordinal $\omega_2^2$ has chromatic number
   $\aleph_2$ while every subgraph of smaller type is countably colorable, and
-  asks the same with chromatic number $\aleph_1$; open.
+  asks the same with chromatic number $\aleph_1$.
 tags:
 - Graph theory
 - Chromatic number

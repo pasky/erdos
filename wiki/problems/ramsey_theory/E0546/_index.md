@@ -3,7 +3,7 @@ name: problems/ramsey_theory/E0546
 title: Problem 546
 desc: |
   Asks whether $R(G)\le2^{O(\sqrt{m})}$ for every graph $G$ with $m$ edges and
-  no isolated vertices; proved.
+  no isolated vertices.
 tags:
 - Graph theory
 - Ramsey theory

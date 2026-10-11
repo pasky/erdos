@@ -3,8 +3,7 @@ name: problems/distance_problems/E0094
 title: Problem 94
 desc: |
   States that if $n$ points in the plane form a convex polygon and $f(u)$ pairs
-  of them are at distance $u$, then $\sum_u f(u)^2\ll n^3$. This has been
-  proved.
+  of them are at distance $u$, then $\sum_u f(u)^2\ll n^3$.
 tags:
 - Geometry
 - Convexity

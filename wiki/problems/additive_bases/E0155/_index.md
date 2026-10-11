@@ -3,8 +3,7 @@ name: problems/additive_bases/E0155
 title: Problem 155
 desc: |
   Asks whether the largest size $F(N)$ of a Sidon subset of $\{1,\ldots,N\}$
-  satisfies $F(N+k)\leq F(N)+1$ for every fixed $k\geq 1$ and all large $N$;
-  open.
+  satisfies $F(N+k)\leq F(N)+1$ for every fixed $k\geq 1$ and all large $N$.
 tags:
 - Additive combinatorics
 - Sidon sets

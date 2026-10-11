@@ -4,7 +4,7 @@ title: Problem 1037
 desc: |
   Asks whether a graph on $n$ vertices with each degree occurring at most twice
   and more than $(\frac12+\epsilon)n$ distinct degrees has an empty or complete
-  subgraph much larger than $\log n$. It is disproved.
+  subgraph much larger than $\log n$.
 tags:
 - Graph theory
 status: solved

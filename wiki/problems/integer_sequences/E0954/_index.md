@@ -4,7 +4,7 @@ title: Problem 954
 desc: |
   For the sequence with $a_0=0$, $a_1=1$ and each next term the least $n$ for
   which $a_i+a_j\le n$ has fewer than $n$ solutions, asks whether the number of
-  solutions of $a_i+a_j\le x$ is $x+O(x^{1/4+o(1)})$; open.
+  solutions of $a_i+a_j\le x$ is $x+O(x^{1/4+o(1)})$.
 tags:
 - Number theory
 status: open

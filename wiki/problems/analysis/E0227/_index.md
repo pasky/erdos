@@ -5,7 +5,7 @@ desc: |
   Asks whether, for a non-polynomial entire function $f=\sum a_nz^n$, the limit
   as $r\to\infty$ of
   $\max_n\lvert a_nr^n\rvert/\max_{\lvert z\rvert=r}\lvert f(z)\rvert$, when it
-  exists, must be $0$; disproved.
+  exists, must be $0$.
 tags:
 - Analysis
 status: solved

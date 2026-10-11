@@ -4,7 +4,7 @@ title: Problem 835
 desc: |
   Asks whether, for some $k>2$, the $k$-element subsets of $\{1,\ldots,2k\}$ can
   be colored with $k+1$ colors so that the $k$-subsets of every $(k+1)$-set show
-  all $k+1$ colors; open.
+  all $k+1$ colors.
 tags:
 - Graph theory
 - Hypergraphs

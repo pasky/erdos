@@ -4,7 +4,7 @@ title: Problem 938
 desc: |
   Asks whether only finitely many runs of three consecutive powerful numbers
   (integers divisible by the square of each of their prime factors) are equally
-  spaced; open.
+  spaced.
 tags:
 - Number theory
 - Powerful numbers

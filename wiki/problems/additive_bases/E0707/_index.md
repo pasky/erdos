@@ -3,7 +3,7 @@ name: problems/additive_bases/E0707
 title: Problem 707
 desc: |
   Asks whether every finite Sidon set of integers can be extended to a perfect
-  difference set modulo $p^2+p+1$ for some prime $p$; disproved.
+  difference set modulo $p^2+p+1$ for some prime $p$.
 tags:
 - Additive combinatorics
 - Sidon sets

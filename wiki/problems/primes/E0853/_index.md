@@ -4,7 +4,7 @@ title: Problem 853
 desc: |
   Asks whether $r(x)$, the least even number that is not a prime gap
   $p_{n+1}-p_n$ with $n\le x$, tends to infinity, and whether even
-  $r(x)/\log x\to\infty$; open.
+  $r(x)/\log x\to\infty$.
 tags:
 - Number theory
 - Primes

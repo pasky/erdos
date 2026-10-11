@@ -4,8 +4,8 @@ title: Problem 908
 desc: |
   Asks whether a real function $f$ with every difference $f(x+h)-f(x)$
   measurable is the sum of a measurable function, an additive function and a
-  function $r$ with $r(x+h)=r(x)$ for each $h$ and almost all $x$; proved. The
-  site's wording asks for a continuous first term.
+  function $r$ with $r(x+h)=r(x)$ for each $h$ and almost all $x$. The site's
+  wording asks for a continuous first term.
 tags:
 - Analysis
 status: solved

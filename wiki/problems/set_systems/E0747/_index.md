@@ -3,7 +3,7 @@ name: problems/set_systems/E0747
 title: Problem 747
 desc: |
   Asks how many edges a random $3$-uniform hypergraph on $3n$ vertices needs so
-  that it almost surely has $n$ vertex-disjoint edges; solved.
+  that it almost surely has $n$ vertex-disjoint edges.
 tags:
 - Combinatorics
 - Hypergraphs

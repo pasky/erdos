@@ -4,7 +4,7 @@ title: Problem 359
 desc: |
   Asks what can be said about the density of the sequence starting at $n$ in
   which each later term is the least integer that is not a sum of consecutive
-  earlier terms; open.
+  earlier terms.
 tags:
 - Number theory
 status: open

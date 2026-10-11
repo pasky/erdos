@@ -4,7 +4,7 @@ title: Problem 170
 desc: |
   Asks for the value of $\lim_{N\to\infty}F(N)/N^{1/2}$, where $F(N)$ is the
   smallest size of a set $A\subseteq\{0,1,\ldots,N\}$ with
-  $\{0,1,\ldots,N\}\subseteq A-A$; open.
+  $\{0,1,\ldots,N\}\subseteq A-A$.
 tags:
 - Additive combinatorics
 status: open

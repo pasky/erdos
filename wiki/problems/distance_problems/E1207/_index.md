@@ -4,8 +4,7 @@ title: Problem 1207
 desc: |
   Asks to estimate $P_d(n)$, the size of the largest subset with no isosceles
   triangle that any $n$ points in $\mathbb{R}^d$ must contain, in particular
-  whether $P_2(n)<n^{1-c}$ for some $c>0$. The planar question is answered, and
-  the general estimate is open.
+  whether $P_2(n)<n^{1-c}$ for some $c>0$.
 tags:
 - Geometry
 - Distances

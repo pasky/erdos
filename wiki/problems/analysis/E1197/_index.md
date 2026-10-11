@@ -4,7 +4,7 @@ title: Problem 1197
 desc: |
   Asks whether, for every $E\subset(0,\infty)$ of positive measure and almost
   every $x>0$, each large enough integer $n$ has $nx\in r\cdot E$ for some
-  integer $r\ge1$; disproved.
+  integer $r\ge1$.
 tags:
 - Analysis
 status: solved

@@ -5,7 +5,7 @@ desc: |
   Extremal and approximation problems for polynomials, including coefficient
   and norm bounds, zero distribution, and random polynomials.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-11T23:17:00Z
 ---
 
 # Polynomials
@@ -14,7 +14,7 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/polynomials/E0114/_index|E0114/]]: Asks whether, among monic complex
 polynomials $p$ of degree $n$, the length of the curve $\{z:|p(z)|=1\}$ is
-maximized by $z^n-1$; open.
+maximized by $z^n-1$.
 
 [[problems/polynomials/E0115/_index|E0115/]]: Asks whether a monic polynomial
 $p$ of degree $n$ with $\{z:|p(z)|\le1\}$ connected has
@@ -39,20 +39,19 @@ and $n$; yes for every $n\ge 2$, by Balister et al. (2020).
 
 [[problems/polynomials/E0230/_index|E0230/]]: Asks whether some $c>0$ gives
 $\max_{\lvert z\rvert=1}\lvert P(z)\rvert\ge(1+c)\sqrt{n}$ for every $n\ge 2$
-and every $P(z)=\sum_{k=1}^n a_kz^k$ with all $\lvert a_k\rvert=1$; the answer
-is no.
+and every $P(z)=\sum_{k=1}^n a_kz^k$ with all $\lvert a_k\rvert=1$.
 
 [[problems/polynomials/E0485/_index|E0485/]]: Asks whether the least number of
 terms in $P(x)^2$, over $P\in\mathbb{Q}[x]$ with exactly $k$ nonzero terms,
-tends to infinity as $k\to\infty$; the answer is yes.
+tends to infinity as $k\to\infty$.
 
 [[problems/polynomials/E0509/_index|E0509/]]: Asks whether, for every monic
 nonconstant $f\in\mathbb{C}[z]$, the set $\{z:\lvert f(z)\rvert\le 1\}$ can be
-covered by circles whose radii sum to at most $2$; open.
+covered by circles whose radii sum to at most $2$.
 
 [[problems/polynomials/E0521/_index|E0521/]]: Asks whether the number $R_n$ of
 real roots of a random degree-$n$ polynomial with independent uniform $\pm 1$
-coefficients satisfies $R_n/\log n\to 2/\pi$ almost surely; the answer is no.
+coefficients satisfies $R_n/\log n\to 2/\pi$ almost surely.
 
 [[problems/polynomials/E0522/_index|E0522/]]: Asks whether the number $R_n$ of
 roots in the closed unit disc of a random degree-$n$ polynomial with independent
@@ -61,8 +60,7 @@ are claimed but none is accepted.
 
 [[problems/polynomials/E0523/_index|E0523/]]: Asks whether some $C>0$ makes the
 maximum on $\lvert z\rvert=1$ of a random degree-$n$ polynomial with independent
-uniform $\pm 1$ coefficients equal $(C+o(1))\sqrt{n\log n}$ almost surely; the
-answer is yes.
+uniform $\pm 1$ coefficients equal $(C+o(1))\sqrt{n\log n}$ almost surely.
 
 [[problems/polynomials/E0524/_index|E0524/]]: Asks for the order of magnitude,
 for almost all $t\in(0,1)$, of $M_n(t)=\max_{x\in[-1,1]}\lvert\sum_{k\le
@@ -72,11 +70,11 @@ $t$; an answer is claimed but not accepted.
 [[problems/polynomials/E0525/_index|E0525/]]: Asks whether all but $o(2^n)$ of
 the degree-$n$ polynomials $f$ with $\pm 1$ coefficients have $\lvert
 f(z)\rvert<1$ somewhere on $\lvert z\rvert=1$, and how $\min_{\lvert
-z\rvert=1}\lvert f(z)\rvert$ behaves; both questions are answered.
+z\rvert=1}\lvert f(z)\rvert$ behaves.
 
 [[problems/polynomials/E0975/_index|E0975/]]: Asks whether, for an irreducible
 nonconstant $f\in\mathbb{Z}[x]$ with $f(n)\ge 1$ for large $n$, there is a
-constant $c=c(f)>0$ with $\sum_{n\le X}\tau(f(n))\sim cX\log X$; open.
+constant $c=c(f)>0$ with $\sum_{n\le X}\tau(f(n))\sim cX\log X$.
 
 [[problems/polynomials/E1039/_index|E1039/]]: Asks how $\rho(f)$, the radius of
 the largest disc inside $\{z:\lvert f(z)\rvert<1\}$, behaves for monic $f$ of
@@ -85,34 +83,32 @@ always holds; an answer is claimed but not accepted.
 
 [[problems/polynomials/E1041/_index|E1041/]]: Asks whether every monic
 polynomial $f$ with all roots in the open unit disc has a path of length less
-than $2$ inside $\{z:\lvert f(z)\rvert<1\}$ joining two of its roots; a
-counterexample is claimed but not accepted.
+than $2$ inside $\{z:\lvert f(z)\rvert<1\}$ joining two of its roots.
 
 [[problems/polynomials/E1114/_index|E1114/]]: Asserts that if the roots
 $a_0<\cdots<a_n$ of a real polynomial $f$ form an arithmetic progression, then
 the gaps between consecutive zeros of $f'$ increase from the midpoint of
-$(a_0,a_n)$ toward the endpoints; proved.
+$(a_0,a_n)$ toward the endpoints.
 
 [[problems/polynomials/E1129/_index|E1129/]]: Asks which nodes
 $x_1,\ldots,x_n\in[-1,1]$ minimize $\max_{x\in[-1,1]}\sum_k\lvert l_k(x)\rvert$,
-where the $l_k$ are the fundamental Lagrange interpolation polynomials;
-answered.
+where the $l_k$ are the fundamental Lagrange interpolation polynomials.
 
 [[problems/polynomials/E1130/_index|E1130/]]: For nodes
 $x_1,\ldots,x_n\in[-1,1]$, let $\Upsilon$ be the least, over the intervals
 between consecutive points of $-1,x_1,\ldots,x_n,1$, of the maximum of
 $\sum_k\lvert l_k(x)\rvert$ on the interval. Asks whether $\Upsilon\ll\log n$
-and which nodes maximize $\Upsilon$; both are answered.
+and which nodes maximize $\Upsilon$.
 
 [[problems/polynomials/E1131/_index|E1131/]]: Asks for the minimum over
 $x_1,\ldots,x_n\in[-1,1]$ of $I=\int_{-1}^1\sum_k\lvert l_k(x)\rvert^2\,dx$,
 where the $l_k$ are the Lagrange basis polynomials, and whether $\min
-I=2-(1+o(1))/n$; open.
+I=2-(1+o(1))/n$.
 
 [[problems/polynomials/E1132/_index|E1132/]]: For a sequence of nodes in
 $[-1,1]$, let $L_n(x)=\sum_{k\le n}\lvert l_k(x)\rvert$. Asks whether some
 $x\in(-1,1)$ has $L_n(x)>\frac{2}{\pi}\log n-O(1)$ for infinitely many $n$, and
-whether $\limsup_n L_n(x)/\log n\ge 2/\pi$ for almost all $x$; open.
+whether $\limsup_n L_n(x)/\log n\ge 2/\pi$ for almost all $x$.
 
 [[problems/polynomials/E1133/_index|E1133/]]: Asks whether each $C>0$ has an
 $\epsilon>0$ such that, for large $n$ and any $x_1,\ldots,x_n\in[-1,1]$, some
@@ -140,7 +136,7 @@ accepted.
 [[problems/polynomials/E1153/_index|E1153/]]: Asks whether, for fixed $-1\le
 a<b\le 1$, the sum $\lambda(x)=\sum_k\lvert l_k(x)\rvert$ of the fundamental
 Lagrange polynomials for $n$ nodes in $[-1,1]$ satisfies
-$\max_{x\in[a,b]}\lambda(x)>(\frac{2}{\pi}-o(1))\log n$; the answer is yes.
+$\max_{x\in[a,b]}\lambda(x)>(\frac{2}{\pi}-o(1))\log n$.
 
 ***
 

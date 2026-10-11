@@ -3,7 +3,7 @@ name: problems/divisors/E0450
 title: Problem 450
 desc: |
   Asks how large $y=y(\epsilon,n)$ must be for at most $\epsilon y$ of the
-  integers in $(x,x+y)$ to have a divisor in $(n,2n)$; open.
+  integers in $(x,x+y)$ to have a divisor in $(n,2n)$.
 tags:
 - Number theory
 - Divisors

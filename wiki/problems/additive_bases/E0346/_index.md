@@ -4,7 +4,7 @@ title: Problem 346
 desc: |
   Asks whether a sequence that stays complete after any finite deletion but
   never after an infinite one, with $a_{n+1}/a_n\ge1+\epsilon$ for some
-  $\epsilon>0$, must have $a_{n+1}/a_n\to(1+\sqrt5)/2$; disproved.
+  $\epsilon>0$, must have $a_{n+1}/a_n\to(1+\sqrt5)/2$.
 tags:
 - Number theory
 - Complete sequences

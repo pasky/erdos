@@ -4,8 +4,7 @@ title: Problem 906
 desc: |
   Asks whether there is a transcendental entire function $f$ such that, for
   every infinite sequence $n_1<n_2<\cdots$, the zeros of the derivatives
-  $f^{(n_k)}$ together are dense in the plane. Pending claims construct one; the
-  site lists it as OPEN.
+  $f^{(n_k)}$ together are dense in the plane.
 tags:
 - Analysis
 - Iterated functions

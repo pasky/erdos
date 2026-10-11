@@ -3,7 +3,7 @@ name: problems/primes/E0680
 title: Problem 680
 desc: |
   Asks whether every sufficiently large $n$ has some $k$ with $p(n+k)>k^2+1$,
-  where $p(m)$ is the least prime factor of $m$; open.
+  where $p(m)$ is the least prime factor of $m$.
 tags:
 - Number theory
 - Primes

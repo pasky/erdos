@@ -4,7 +4,7 @@ title: Problem 716
 desc: |
   Asks whether the largest 3-uniform hypergraph on $n$ vertices with no three
   edges spanning six vertices has $o(n^2)$ edges, that is, fewer than any fixed
-  fraction of $n^2$ for large $n$. It is proved.
+  fraction of $n^2$ for large $n$.
 tags:
 - Graph theory
 - Hypergraphs

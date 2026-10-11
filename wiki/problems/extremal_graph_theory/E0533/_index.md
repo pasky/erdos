@@ -4,7 +4,7 @@ title: Problem 533
 desc: |
   Asks whether, for fixed $\delta>0$ and large $n$, every $K_5$-free graph on
   $n$ vertices with at least $\delta n^2$ edges has a set of $\gg_\delta n$
-  vertices spanning no triangle; disproved.
+  vertices spanning no triangle.
 tags:
 - Graph theory
 status: solved

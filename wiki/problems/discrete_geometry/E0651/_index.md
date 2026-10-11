@@ -4,7 +4,7 @@ title: Problem 651
 desc: |
   Asks whether the number $f_k(n)$ of points in general position in
   $\mathbb{R}^k$ needed to guarantee $n$ in convex position grows exponentially
-  in $n$; disproved.
+  in $n$.
 tags:
 - Geometry
 - Convexity

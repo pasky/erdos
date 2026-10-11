@@ -4,7 +4,7 @@ title: Problem 843
 desc: |
   Asks whether the squares are Ramsey $2$-complete, meaning that in every
   $2$-coloring of the squares each large enough integer is a sum of distinct
-  squares of one color; proved.
+  squares of one color.
 tags:
 - Number theory
 status: solved

@@ -3,7 +3,7 @@ name: problems/additive_combinatorics/E1097
 title: Problem 1097
 desc: |
   Asks how many distinct values can occur as the common difference of a
-  three-term arithmetic progression inside a set of $n$ integers; open.
+  three-term arithmetic progression inside a set of $n$ integers.
 tags:
 - Number theory
 - Additive combinatorics

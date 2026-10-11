@@ -3,8 +3,7 @@ name: problems/covering_systems/E0202
 title: Problem 202
 desc: |
   Asks how many congruence classes with distinct moduli at most $N$ can be
-  chosen so that no integer lies in two of them; solved at the sharp logarithmic
-  scale.
+  chosen so that no integer lies in two of them.
 tags:
 - Covering systems
 status: solved

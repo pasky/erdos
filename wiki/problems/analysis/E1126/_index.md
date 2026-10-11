@@ -4,7 +4,7 @@ title: Problem 1126
 desc: |
   Asks whether a function $f$ with $f(x+y)=f(x)+f(y)$ for almost all
   $x,y\in\mathbb{R}$ must agree almost everywhere with some $g$ satisfying
-  $g(x+y)=g(x)+g(y)$ for all $x,y$; proved.
+  $g(x+y)=g(x)+g(y)$ for all $x,y$.
 tags:
 - Analysis
 status: solved

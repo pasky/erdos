@@ -4,7 +4,7 @@ title: Problem 509
 desc: |
   Asks whether, for every monic nonconstant $f\in\mathbb{C}[z]$, the set
   $\{z:\lvert f(z)\rvert\le 1\}$ can be covered by circles whose radii sum to at
-  most $2$; open.
+  most $2$.
 tags:
 - Analysis
 - Polynomials

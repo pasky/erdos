@@ -4,8 +4,7 @@ title: Problem 43
 desc: |
   Asks whether two Sidon sets in $\{1,\ldots,N\}$ whose difference sets meet
   only at $0$ together have at most as many pairs as a largest Sidon set plus a
-  constant, and a constant fraction fewer when they have equal size; both
-  answers are no.
+  constant, and a constant fraction fewer when they have equal size.
 tags:
 - Number theory
 - Sidon sets

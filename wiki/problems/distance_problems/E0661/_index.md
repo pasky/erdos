@@ -3,7 +3,7 @@ name: problems/distance_problems/E0661
 title: Problem 661
 desc: |
   Asks whether, for all large $n$, two sets of $n$ planar points can have only
-  $o(n/\sqrt{\log n})$ distinct distances between the two sets; open.
+  $o(n/\sqrt{\log n})$ distinct distances between the two sets.
 tags:
 - Geometry
 - Distances

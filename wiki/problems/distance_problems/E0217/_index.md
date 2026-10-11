@@ -4,7 +4,7 @@ title: Problem 217
 desc: |
   Asks for which $n$ there are $n$ points in the plane, no three on a line and
   no four on a circle, that determine $n-1$ distinct distances, the $i$th of
-  which occurs $i$ times. It is open.
+  which occurs $i$ times.
 tags:
 - Geometry
 - Distances

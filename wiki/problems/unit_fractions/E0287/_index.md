@@ -3,8 +3,7 @@ name: problems/unit_fractions/E0287
 title: Problem 287
 desc: |
   Asks whether every representation $1=1/n_1+\cdots+1/n_k$ with
-  $1<n_1<\cdots<n_k$ has two consecutive denominators differing by at least $3$;
-  open.
+  $1<n_1<\cdots<n_k$ has two consecutive denominators differing by at least $3$.
 tags:
 - Number theory
 - Unit fractions

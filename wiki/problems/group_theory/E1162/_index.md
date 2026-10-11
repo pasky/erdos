@@ -3,7 +3,7 @@ name: problems/group_theory/E1162
 title: Problem 1162
 desc: |
   Asks for an asymptotic formula for the number of subgroups of the symmetric
-  group $S_n$, and for statistical results on their orders; open.
+  group $S_n$, and for statistical results on their orders.
 tags:
 - Group theory
 status: open

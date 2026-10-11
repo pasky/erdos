@@ -4,8 +4,7 @@ title: Problem 133
 desc: |
   Asks for the order of growth of the largest $f(n)$ such that every
   triangle-free graph on $n$ vertices with diameter $2$ has a vertex of degree
-  at least $f(n)$, and whether $f(n)/\sqrt{n}\to\infty$; disproved, as $f(n)$
-  has order $\sqrt{n}$.
+  at least $f(n)$, and whether $f(n)/\sqrt{n}\to\infty$.
 tags:
 - Graph theory
 status: solved

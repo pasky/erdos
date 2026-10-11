@@ -3,7 +3,7 @@ name: problems/additive_bases/E0861
 title: Problem 861
 desc: |
   Asks how the number of Sidon subsets of $\{1,\ldots,N\}$ compares with
-  $2^{f(N)}$, where $f(N)$ is the size of the largest Sidon subset; solved.
+  $2^{f(N)}$, where $f(N)$ is the size of the largest Sidon subset.
 tags:
 - Number theory
 - Sidon sets

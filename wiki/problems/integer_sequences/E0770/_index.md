@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0770
 title: Problem 770
 desc: |
   Asks about the densities and growth of $h(n)$, the least $h$ with
-  $\gcd(2^n-1,3^n-1,\ldots,h^n-1)=1$; open.
+  $\gcd(2^n-1,3^n-1,\ldots,h^n-1)=1$.
 tags:
 - Number theory
 status: open

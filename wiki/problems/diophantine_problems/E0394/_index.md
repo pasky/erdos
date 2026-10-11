@@ -4,8 +4,7 @@ title: Problem 394
 desc: |
   With $t_k(n)$ the least $m$ such that $n\mid m(m+1)\cdots(m+k-1)$, asks
   whether $\sum_{n\le x}t_2(n)\ll x^2/(\log x)^c$ for some $c>0$, and whether
-  $\sum_{n\le x}t_{k+1}(n)=o\bigl(\sum_{n\le x}t_k(n)\bigr)$ for $k\ge2$. A
-  pending claim answers yes to both.
+  $\sum_{n\le x}t_{k+1}(n)=o\bigl(\sum_{n\le x}t_k(n)\bigr)$ for $k\ge2$.
 tags:
 - Number theory
 status: claimed

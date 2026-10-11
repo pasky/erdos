@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0402
 title: Problem 402
 desc: |
   Asks for a proof that every finite set $A$ of integers has two members $a,b$
-  with $\gcd(a,b)\leq a/|A|$; proved.
+  with $\gcd(a,b)\leq a/|A|$.
 tags:
 - Number theory
 status: solved

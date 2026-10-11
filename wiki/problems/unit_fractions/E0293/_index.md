@@ -4,7 +4,7 @@ title: Problem 293
 desc: |
   Asks for the growth of $v(k)$, the least integer greater than $1$ that is not
   a denominator in any representation of $1$ as a sum of $k$ distinct unit
-  fractions; open.
+  fractions.
 tags:
 - Number theory
 - Unit fractions

@@ -3,7 +3,7 @@ name: problems/factorials_binomials/E0405
 title: Problem 405
 desc: |
   Asks whether, for each odd prime $p$, the equation $(p-1)!+a^{p-1}=p^k$ has
-  only finitely many solutions; proved.
+  only finitely many solutions.
 tags:
 - Number theory
 - Factorials

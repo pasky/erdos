@@ -4,7 +4,7 @@ title: Problem 70
 desc: |
   Asks whether the order type $\mathfrak{c}$ of the real line satisfies
   $\mathfrak{c}\to(\beta,n)_2^3$ for every countable ordinal $\beta$ and every
-  finite $n\ge2$; open.
+  finite $n\ge2$.
 tags:
 - Graph theory
 - Ramsey theory

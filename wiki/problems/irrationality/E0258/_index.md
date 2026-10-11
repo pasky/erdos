@@ -4,7 +4,7 @@ title: Problem 258
 desc: |
   Asks whether $\sum_n \tau(n)/(a_1\cdots a_n)$ is irrational for every sequence
   of positive integers $a_n\to\infty$, where $\tau(n)$ is the number of divisors
-  of $n$; answered yes.
+  of $n$.
 tags:
 - Irrationality
 status: solved

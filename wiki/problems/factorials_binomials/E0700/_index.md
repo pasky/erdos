@@ -5,7 +5,7 @@ desc: |
   Asks, for composite $n$ and $f(n)=\min_{1<k\le n/2}\gcd(n,\binom{n}{k})$,
   which $n$ have $f(n)=n/P(n)$, where $P(n)$ is the largest prime factor of $n$,
   whether $f(n)>n^{1/2}$ infinitely often, and whether $f(n)\ll_A n/(\log n)^A$
-  for every $A>0$; open.
+  for every $A>0$.
 tags:
 - Number theory
 - Binomial coefficients

@@ -3,8 +3,7 @@ name: problems/graph_coloring/E0019
 title: Problem 19
 desc: |
   Asks whether every edge-disjoint union of $n$ copies of $K_n$ has chromatic
-  number exactly $n$; proved for all sufficiently large $n$, with finitely many
-  $n$ still open.
+  number exactly $n$.
 tags:
 - Graph theory
 - Chromatic number

@@ -5,7 +5,7 @@ desc: |
   Asks whether, for every integer polynomial $p$ with positive leading
   coefficient and no $d\ge2$ dividing every $p(n)$, every large $m$ equals
   $p(n_1)+\cdots+p(n_k)$ for some integers $1\le n_1<\cdots<n_k$ with
-  $\sum 1/n_i=1$; proved.
+  $\sum 1/n_i=1$.
 tags:
 - Number theory
 - Unit fractions

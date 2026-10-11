@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0748
 title: Problem 748
 desc: |
   Asks whether the number of sum-free subsets of $\{1,\ldots,n\}$ is
-  $2^{(1+o(1))n/2}$; proved.
+  $2^{(1+o(1))n/2}$.
 tags:
 - Number theory
 status: solved

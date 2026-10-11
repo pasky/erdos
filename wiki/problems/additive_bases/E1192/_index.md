@@ -4,7 +4,7 @@ title: Problem 1192
 desc: |
   Asks whether, for every $r\ge2$, some basis $A$ of order $r$ has
   $\sum_{n\le x}f_r(n)^2\ll x$, where $f_r(n)$ counts the representations of $n$
-  as a sum of $r$ elements of $A$; open.
+  as a sum of $r$ elements of $A$.
 tags:
 - Additive combinatorics
 - Additive bases

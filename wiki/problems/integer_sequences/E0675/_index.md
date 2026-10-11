@@ -4,7 +4,7 @@ title: Problem 675
 desc: |
   Asks which sets of integers, such as the sums of two squares, have the
   translation property: for every $n$, some shift $t_n\ge1$ leaves membership of
-  each $a\le n$ unchanged; open.
+  each $a\le n$ unchanged.
 tags:
 - Number theory
 status: open
