@@ -2,16 +2,20 @@
 name: problems/diophantine_problems/E0374/claims/2026_09_29_hartley_olson
 title: Hartley and Olson's orders of growth of the factorial classes
 desc: |
-  Hartley and Olson claim the order of growth of $D_k$ for every $k$ from 3 to
-  6, namely $D_3(X)\asymp\sqrt X$ and $D_k(X)\asymp X$ for $k=4,5,6$. This
-  includes the Erdős–Graham conjecture that $D_6$ has positive lower density,
-  and the claim comes with a Lean development.
+  Hartley and Olson show that $D_3(X)\asymp\sqrt X$ and $D_k(X)\asymp X$ for
+  $k=4,5,6$, the order of growth of $D_k$ for every $k$ from 3 to 6, including
+  the Erdős–Graham conjecture that $D_6$ has positive lower density. It is
+  accepted on Jacob Parish's review and on the corpus's build and audit of its
+  Lean.
 authors:
 - Jonathan S. Hartley
 - Matthew A. Olson
-status: claimed
+status: accepted
 claim: answered
 scope: full
+evidence:
+- reviewed
+- formalized
 submitted: 2026-10-02
 links:
 - url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7537279
@@ -125,19 +129,57 @@ estimate for both block lengths against the valuation-one prime-mass lemma
 (Corollary 6.2), a different arithmetic set of endpoints, and Tao's uniform
 Pell bound against an elementary count for $D_3$.
 
-**Standing.** The claim is pending. The site's proof-claims tab lists it as a
-partial proof claim, matching that submission; the revised paper and the
-claimant's comment of 2026-10-05 on the claim, which calls the repository a
-full Lean verification of the problem, assert the whole determination. The
-site's label is unchanged and the curator has not credited the result, so
-there is no acceptance evidence. The paper's acknowledgment says it was
-prepared with AI assistance in derivation, internal checking, source
-verification, exposition and formalization, naming ChatGPT Astra, Google's
-Gemini 3.1 Pro and Gemini 3.8 Flash, Anthropic's Claude Opus 5.5 and Claude
-Fable 5.1, and xAI's Grok 4.7, the systems the claim's tools field also names.
-The repository's README (Lean v4.35.0-rc2 on a pinned Mathlib) says the
-development proves Theorem 1.1 and the growth theorems for $D_3$ through $D_6$
-with no `sorry` and only the axioms `propext`, `Classical.choice` and
-`Quot.sound`, with the axiom audit run as part of its build. The corpus has
-not built or audited the development, so the page lists no `formalized`
-evidence.
+**Acceptance.** Reviewed and formalized. Reviewed: Jacob Parish checked the
+claim and accepted it; the acceptance was recorded on 2026-10-12.
+
+Formalized: this corpus's verification built the repository at the pinned commit
+`24533265` of 2026-10-06 (Lean `v4.35.0-rc2`, with the Mathlib commit its
+manifest pins) on 2026-10-12. The default build stops with one error: the
+library `E374` is declared as the module `E374` with its submodules, and the
+repository has no root file `src/E374.lean`. Every other module built, among
+them `Erdos374CompleteWork` and all 27 modules under `src/E374/`, and a second
+build naming the integration modules `E374.IntegrationD34` and
+`E374.IntegrationD5` and the authors' audit modules `E374.AuditIntegration` and
+`E374.AuditD34` succeeded. The verification checked the axioms of
+`Erdos374CompleteWork.conclusions` and
+`Erdos374CompleteWork.positive_lower_density`, of
+`LiteratureReduction.minimumSix_eq_D6`, and of
+`Erdos374.D35.Integration.growth_summary`, its parts `D3_order_closed`,
+`D4_order_closed`, `D5_order_closed` and `D6_order_closed`, and
+`D3_asymptotic_closed`. Each depends on exactly `propext`, `Classical.choice`
+and `Quot.sound`, and the build's own axiom reports, for 803 declarations, name
+no other axiom.
+
+The repository has no comparator challenge, so the statements were audited
+clause by clause against the Statement. A representation of $m$ of length
+$k\ge2$ is a strictly increasing list of positive integers ending at $m$ whose
+factorials multiply to the square of a natural number. Each $D_k$ is the set of
+$m>1$ with a representation of length $k$ and none shorter. Should the
+Statement's indices include $0$, nothing changes for $k\ge3$: since $0!=1$, a
+shortest representation of an $m>1$ never uses $0$, and only $m=1$, then in
+$D_2$, is left out. `prefixCount` counts $D_k\cap\{1,\ldots,X\}$, and positive
+lower density means that $D_k(X)/X$ has a positive lower limit. The final
+theorems take no hypotheses. `growth_summary` gives
+$\sqrt X/2\le D_3(X)\le C\sqrt X$ for all large $X$, and positive lower density
+for $D_4$, $D_5$ and $D_6$ with each count at most $X$. `D3_asymptotic_closed`
+gives $\lvert D_3(X)-\kappa_3\sqrt X\rvert\le C_\varepsilon X^{2/5+\varepsilon}$
+for every $\varepsilon>0$ and all large $X$, where $\kappa_3$ sums $q^{-1/2}$
+over the distinct values $q=q_a\ne1$ with $a\ge1$.
+`Erdos374CompleteWork.conclusions` states Theorem 1.1 as the claim above gives
+it, together with the positive lower density of `MinimumSix`, which
+`minimumSix_eq_D6` identifies with $D_6$. So the formalization proves the order
+of growth of $D_k$ for every $k$ from 3 to 6, including $D_6(X)\gg X$. It
+certifies these statements only: the paper's bound $\log2/40000$ on the lower
+density of $D_5$ and the value $2.70975\ldots$ of $\kappa_3$ are not in the
+formal statements.
+
+Not refereed: the paper is a preprint, first on SSRN and now in the repository.
+The site's proof-claims tab lists the claim as a partial proof claim, matching
+that submission; the revised paper and the claimant's comment of 2026-10-05,
+which calls the repository a full Lean verification of the problem, assert the
+whole determination. The site's label is unchanged and the curator has not
+credited the result. The paper's acknowledgment says it was prepared with AI
+assistance in derivation, internal checking, source verification, exposition and
+formalization, naming ChatGPT Astra, Google's Gemini 3.1 Pro and Gemini 3.8
+Flash, Anthropic's Claude Opus 5.5 and Claude Fable 5.1, and xAI's Grok 4.7, the
+systems the claim's tools field also names.
