@@ -101,8 +101,7 @@ not among them. The release's catalog `lean/formalization.yaml` names
 neither this manuscript nor this comparator at this revision, so its
 `status.main_results` lists no entry for them; the catalog's own `review`
 field reads `status: unchecked`. Nothing was built, replayed or audited for
-fidelity in this repository; no Lean file here is a proof of any Erdős
-problem.
+fidelity in this repository. No Lean file here is a proof of any Erdős problem.
 
 **Companions.** The release's manuscript map lists this manuscript as the
 only member of its family, "Patterson's first moment for cubic Gauss sums", and

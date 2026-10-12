@@ -46,7 +46,7 @@ revision on 2026-10-12.
 ```
 
 The held PDF has 47 pages with a text layer; its title page is dated October
-5, 2026 and its metadata records a creation date of 5 October 2026. The TeX
+5, 2026 and its metadata records a creation date of 6 October 2026. The TeX
 source is `build/manuscript/main.tex` (75 lines), which inputs seven section
 files under `sections/` (`introduction.tex`, `local.tex`, `tuples.tex`,
 `lifts.tex`, `kernel.tex`, `transfer.tex` and `induction.tex`), the third of
@@ -133,9 +133,10 @@ one sequence); the title page, abstract and table of contents occupy
 pp. 1--2.
 
 - Section 1, Introduction (pp. 2--5). Calls $h\in\mathbb Z[x]$ intersective
-  when $h$ has a root modulo every integer $q\ge1$, the necessary local
-  condition (if $h$ has no root modulo $q$, the multiples of $q$ have no
-  difference in $h(\mathbb N_+)$), which needs no rational root. States
+  when it has a root modulo every integer $q\ge1$. The condition is
+  necessary, since without a root modulo $q$ the multiples of $q$ form a set
+  of positive density whose differences all miss $h(\mathbb N_+)$, and it
+  does not require a rational root. States
   [[additive_combinatorics/openai_2026_power_saving_intersective_polynomial_differences/theorem_1_1|Theorem 1.1]]
   (p. 2) and remarks that its constants may depend on every coefficient of
   $h$ while the exponent depends only on the degree. The history cites
@@ -219,9 +220,10 @@ pp. 1--2.
   $\beta=\nu/100$, $\tau=\beta\gamma/(1000k(d+1))$ and $\sigma=\gamma\tau/4$,
   the cutoff $Q=N^\beta$ and the density quantity $Y_l(N,A)$, the
   multilinear form of the lift of $1_A$; Corollary 4.6 (p. 29) gives
-  $(|A|/N)^d\le Y_l(N,A)\le C_\epsilon N^\epsilon$. The section adapts
-  Proposition 4.1, Lemmas 4.2--4.3 and Lemmas 5.1--5.2 of the square
-  manuscript.
+  $(|A|/N)^d\le Y_l(N,A)\le C_\epsilon N^\epsilon$. The section adapts the
+  square manuscript's Proposition 4.1 and Lemmas 4.2--4.3 and its two lift
+  lemmas, which this manuscript cites as Lemmas 5.1--5.2; in the released
+  square manuscript they are Lemmas 5.2--5.3.
 - Section 5, a signed kernel for polynomial differences (pp. 30--37). The
   pair multiplier $\Gamma$ of a cycle edge satisfies
   $|\Gamma(\xi)|\le q(\xi)^{-\gamma}$. Proposition 5.1 (p. 30): for
@@ -251,8 +253,10 @@ pp. 1--2.
   proportion at least $\rho_*=M_0^{1-L}$. Proposition 6.4 (p. 40): for these
   and $l\le N^\zeta$, the integral against the nonexceptional laws is
   $\ll N^{-\sigma}$, by locating an ordered cycle edge and applying
-  Proposition 5.1. It adapts Sections 7--8 (Propositions 7.2 and 8.1) of the
-  square manuscript.
+  Proposition 5.1. The section adapts Sections 7--8 of the square
+  manuscript, whose comparison and contraction results this manuscript cites
+  as Propositions 7.2 and 8.1; in the released square manuscript they are
+  Propositions 7.2 and 8.2.
 - Section 7, exceptional terms and the power-saving induction (pp. 42--46).
   Proposition 7.1 (p. 42) is a recurrence bounding $\mathcal Y_l(N)$, for
   $l\le N^\zeta$, by $C_1N^{-\sigma}$ plus $1+u_N$ times a sum, with weights
@@ -261,8 +265,10 @@ pp. 1--2.
   sum to at most $1/4$. Proposition 7.2 (p. 44) gives
   $\mathcal Y_l(N)\le C_0l^{b_0}N^{-a_0}$ for all positive $l,N$, with $a_0$,
   $b_0$ explicit in $k,\zeta,\sigma,M_0,\rho_*$ and depending only on $k$
-  under (U). The proof of Theorem 1.1 (pp. 45--46) sets $c_k=a_0/d$. It
-  adapts Proposition 9.2 and Theorem 9.3 of the square manuscript.
+  under (U). The proof of Theorem 1.1 (pp. 45--46) sets $c_k=a_0/d$. The
+  section adapts the square manuscript's recurrence and decay results, which
+  this manuscript cites as Proposition 9.2 and Theorem 9.3; in the released
+  square manuscript they are Proposition 9.1 and Theorem 9.2.
 - References (p. 47): fourteen entries, eleven with DOIs and three as arXiv
   versions or a release citation (Green--Sawhney, Adajar et al., the square
   manuscript).

@@ -14,32 +14,35 @@ updated: 2026-10-12T23:13:55Z
 
 ## Statement
 
-With the usual effective coding, let $\mathrm{H10}(\mathbb Q)$ be the set of
-integral polynomials, in any number of variables (the number being part of
-the input), that have a rational zero.
+Write $\mathrm{H10}(\mathbb Q)$ for the set of integral polynomials that
+vanish at some rational point. Polynomials are coded effectively in the
+standard way, and the number of variables is part of each input rather than
+fixed in advance.
 
-**Corollary 7.1.** $\mathrm{H10}(\mathbb Q)$ has Turing degree $0'$, the
-degree of the halting problem. So does each of the following restricted
-problems:
+**Corollary 7.1.** $\mathrm{H10}(\mathbb Q)$ is Turing equivalent to the
+halting problem; that is, its Turing degree is $0'$. The degree is still $0'$
+when the inputs are restricted in either of two ways:
 
-- (i) rational solvability for integral polynomials of total degree at most
-  four;
-- (ii) given a nonempty finite list
-  $q_1,\ldots,q_s\in\mathbb Z[X_1,\ldots,X_N]$, each of total degree at
-  most two, whether $\sum_{i=1}^sq_i^2$ has a zero in $\mathbb Q^N$.
+- (i) to integral polynomials of total degree at most four, with the same
+  question of a rational zero;
+- (ii) to sums of squares of quadratics: the input is a nonempty finite list
+  of polynomials $q_1,\ldots,q_s\in\mathbb Z[X_1,\ldots,X_N]$, none of total
+  degree above two, and the question is whether $\sum_{i=1}^sq_i^2$ vanishes
+  at some point of $\mathbb Q^N$.
 
-No bound is placed on the number of variables, on the number $s$ of
-summands in (ii), or on the heights of the coefficients. In particular
-neither restricted problem is decidable.
+Neither restriction caps the number of variables, the number $s$ of summands
+in (ii) or the heights of the coefficients. In particular neither restricted
+problem is decidable.
 
-The proof notes its limits (p. 57): the many-one reductions run from
-$\mathrm{H10}(\mathbb Q)$ to the two restricted problems, while the reduction
-from integer solvability $\mathrm{H10}(\mathbb Z)$ to
-$\mathrm{H10}(\mathbb Q)$ remains a Turing reduction, and the argument "does
-not establish many-one completeness" of $\mathrm{H10}(\mathbb Q)$; the list
-in (ii) is part of the input; and the construction bounds neither the number
-of variables nor the coefficient heights and "gives no single existential
-definition of $\mathbb Z$ in $\mathbb Q$".
+The proof states its limits (p. 57). The reductions from
+$\mathrm{H10}(\mathbb Q)$ to the two restricted problems are many-one, but
+the reduction of integer solvability $\mathrm{H10}(\mathbb Z)$ to
+$\mathrm{H10}(\mathbb Q)$ is only a Turing reduction, and the argument "does
+not establish many-one completeness" of $\mathrm{H10}(\mathbb Q)$. In (ii)
+the list of quadratics is given as the input, so no sum-of-squares
+presentation has to be recognized. The construction gives no bound on the
+number of variables or on the coefficient heights, and it "gives no single
+existential definition of $\mathbb Z$ in $\mathbb Q$".
 
 **Source.** OpenAI, *Hilbert's tenth problem over the rational numbers*,
 release folder
@@ -58,11 +61,12 @@ here is independently reviewed.
 
 ## Proof pointer
 
-The decision procedure in the proof of Theorem 1.1 can be run with an oracle
-for $\mathrm{H10}(\mathbb Q)$ in place of a hypothetical algorithm. Its finite
-tests are uniformly computable from $f$ once the fixed arithmetic data are
-hardcoded, and each test makes finitely many oracle queries, so one oracle
-machine gives $\mathrm{H10}(\mathbb Z)\le_{\mathrm T}\mathrm{H10}(\mathbb Q)$.
+Theorem 1.1's parallel search becomes an oracle computation when every
+rational-solvability query goes to an oracle for $\mathrm{H10}(\mathbb Q)$.
+Once the fixed arithmetic data are hardcoded, the finite tests are computed
+uniformly from $f$ and each makes finitely many queries, so a single oracle
+machine witnesses
+$\mathrm{H10}(\mathbb Z)\le_{\mathrm T}\mathrm{H10}(\mathbb Q)$.
 Those data are shown to exist, not computed; the text says their existence
 suffices (p. 12), so the proof shows that such a machine exists without
 exhibiting it.

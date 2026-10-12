@@ -3,7 +3,7 @@ name: diophantine_problems
 title: "Diophantine Problems and Powers"
 desc: "Sources filed under Diophantine Problems and Powers, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-12T23:44:47Z
 ---
 
 # Diophantine Problems and Powers
@@ -257,11 +257,11 @@ odd prime; the rank, finiteness and 2-primary parts are imported from two
 companion manuscripts, and it names no Erdős problem.
 
 [[diophantine_problems/openai_2026_hilberts_tenth_problem_rational_numbers/_index|openai_2026_hilberts_tenth_problem_rational_numbers/]]: A 62-page release manuscript claiming a negative answer to Hilbert's tenth
-problem over Q: no algorithm decides whether an integer polynomial in any
-number of variables has a rational zero, with Turing degree 0' even in
-degree at most four. It reduces integer solvability to finite rational tests
-through a rank-one elliptic curve and a five-point height bound, and names
-no Erdős problem.
+problem over Q: no algorithm decides whether an integer polynomial has a
+rational zero, with the number of variables part of the input, and the
+problem has Turing degree 0' even in degree at most four. It reduces integer
+solvability to finite rational tests through a rank-one elliptic curve and
+a five-point height bound, and names no Erdős problem.
 
 [[diophantine_problems/openai_2026_selmer_converse_elliptic_curves_at_prime/_index|openai_2026_selmer_converse_elliptic_curves_at_prime/]]: Claims the Selmer converse in coranks zero and one for every elliptic curve
 over Q at every prime, with finite Tate-Shafarevich group, by tame

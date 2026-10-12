@@ -14,10 +14,13 @@ updated: 2026-10-12T23:13:55Z
 
 ## Statement
 
-Let $\mathbb D=\{z\in\mathbb C:|z|\le1\}$. A function $f:\mathbb N\to\mathbb D$
-is multiplicative when $f(mn)=f(m)f(n)$ for coprime positive integers $m,n$;
-complete multiplicativity is not assumed. For a Dirichlet character $\chi$, a
-real $t$ and $X\ge2$ the manuscript sets, with $p$ running over primes,
+Write $\mathbb D=\{z\in\mathbb C:|z|\le1\}$ for the closed unit disk. The
+manuscript's functions (p. 4) map the positive integers into $\mathbb D$ and
+are multiplicative only in the weak sense: $f(mn)=f(m)f(n)$ is required just
+for coprime $m,n$. Its measure of how closely $f$ imitates a twisted character
+$\chi(n)n^{it}$, for a Dirichlet character $\chi$ and real $t$, using the
+primes up to $X\ge2$, is the pretentious distance $D(f,\chi n^{it};X)\ge0$,
+whose square is
 
 $$
 D(f,\chi n^{it};X)^2=\sum_{p\le X}
@@ -25,38 +28,53 @@ D(f,\chi n^{it};X)^2=\sum_{p\le X}
 \qquad\text{(1.1)},
 $$
 
-and calls $f$ uniformly nonpretentious if for every fixed Dirichlet character
-$\chi$
+the sum running over primes. Uniform nonpretentiousness asks that this
+distance grow without bound even after minimizing over heights $|t|\le N$,
+with the primes cut off at the same $N$: $f$ is uniformly nonpretentious
+when, for each fixed Dirichlet character $\chi$,
 
 $$
 \inf_{|t|\le N}D(f,\chi n^{it};N)\to\infty\qquad(N\to\infty)
-\qquad\text{(1.2)},
+\qquad\text{(1.2)}.
 $$
 
-the prime cutoff and the bound on $|t|$ being the same $N$ (p. 4).
-
-**Theorem 1.2.** Let $f_1,f_2:\mathbb N\to\mathbb D$ be multiplicative, at least
-one of them uniformly nonpretentious. For every fixed pair of distinct
-nonnegative integers $h_1,h_2$,
+**Theorem 1.2.** Suppose $f_1,f_2:\mathbb N\to\mathbb D$ are multiplicative
+and $f_1$ or $f_2$ is uniformly nonpretentious. Then for any two fixed
+distinct shifts $h_1\ne h_2$, both nonnegative integers, the ordinary average
+of the shifted product vanishes in the limit:
 
 $$
 \frac1N\sum_{n=1}^Nf_1(n+h_1)f_2(n+h_2)\to0
+\qquad(N\to\infty,\ N\in\mathbb N).
 $$
 
-as $N\to\infty$ through the integers.
-
-The text adds (p. 4) that the functions may be complex, need not have modulus
-one and need not be completely multiplicative; that the product carries no
-conjugation, the conjugated form following because (1.2) is preserved by
-conjugation; and that no rate is claimed for this class. It says the
-condition (1.2) is equivalent to the corrected condition of Matomäki,
-Radziwiłł and Tao (their Section 1.1 and Appendix B), and calls the theorem the
-binary corrected Elliott conjecture for ordinary averages. Lemma 18.5 (p. 85)
-verifies (1.2) for $\lambda$, in the form
+On p. 4 the manuscript stresses the generality: complex values are allowed,
+$|f_i|$ may fall below $1$, and only multiplicativity on coprime arguments is
+used. The product is taken without complex conjugation; the conjugated
+product follows from the theorem itself, because conjugating $f$ leaves (1.2)
+intact. No rate of decay is claimed for this class. The manuscript identifies
+(1.2) with the corrected condition of Matomäki, Radziwiłł and Tao (their
+Section 1.1 and Appendix B) and presents the theorem as the binary corrected
+Elliott conjecture for ordinary averages. For $\lambda$, Lemma 18.5 (p. 85)
+gives (1.2) in quantitative form,
 $\inf_{|t|\le X}D(\lambda,\chi n^{it};X)\ge\frac14\sqrt{\log\log X}-O_\chi(1)$
-for $X\ge100$, and the closing paragraph of Section 18 (p. 86) notes that $\mu$
-has the same distances, so the theorem covers every pair drawn from
-$\{\lambda,\mu\}$.
+for $X\ge100$, and the closing paragraph of Section 18 (p. 86) observes that
+$\mu$ has the same distances as $\lambda$, so any pair drawn from
+$\{\lambda,\mu\}$ qualifies.
+
+**Formalization.** The release's Lean page for the family describes a
+formalization of this statement, in two comparator theorems, each named
+`binary_corrected_elliott`. In words, each says: if complex functions
+$f_1,f_2$ on the natural numbers are multiplicative on coprime positive
+arguments and bounded by one, and one of them is uniformly nonpretentious,
+then $N^{-1}\sum_{n=1}^Nf_1(n+h_1)f_2(n+h_2)\to0$ for all natural numbers
+$h_1\ne h_2$. The one in `OrdinaryTwoPointCorrelations.lean` bounds the
+functions at positive arguments and writes (1.2) as: for each modulus
+$q\ge1$, character $\chi$ modulo $q$ and real $K$, once $N$ is large the
+squared distance up to $N$ is at least $K$ for every $|t|\le N$. The one in
+`OrdinaryElliott.lean` bounds them at every argument and writes (1.2) as the
+infimum above. Both were read statically and not built or audited here, and
+the catalog lists no entry for either at this revision (see the card).
 
 **Source.** OpenAI, *Ordinary two-point correlations of multiplicative
 functions*, release folder

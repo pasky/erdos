@@ -48,14 +48,13 @@ revision on 2026-10-12.
 ```
 
 The held PDF has 29 pages with a text layer; its title page is dated October
-5, 2026 and its metadata records a creation date of 5 October 2026 (at offset
-UTC−7). The TeX source is `build/main.tex` (25 lines) with `build/preamble.tex`
-(34 lines), six section files under `build/sections/` (`introduction.tex` 188
-lines, `history.tex` 98, `adjustment.tex` 506, `triangles.tex` 524,
-`rounds.tex` 562, `completion.tex` 68), the figure file
-`build/figures/vertex-splitting.tex` (40 lines) and `build/references.tex`
-(173 lines), 2,218 lines in all; `history.tex` is read in through
-`introduction.tex`.
+5, 2026 and its metadata records a creation date of 6 October 2026. The TeX
+source is `build/main.tex` (25 lines) with `build/preamble.tex` (34 lines),
+six section files under `build/sections/` (`introduction.tex` 188 lines,
+`history.tex` 98, `adjustment.tex` 506, `triangles.tex` 524, `rounds.tex` 562,
+`completion.tex` 68), the figure file `build/figures/vertex-splitting.tex` (40
+lines) and `build/references.tex` (173 lines), 2,218 lines in all;
+`history.tex` is read in through `introduction.tex`.
 
 **Attestation.** The release README states that the repository's manuscripts
 were "produced by an internal OpenAI model", that the collection "includes
@@ -97,14 +96,14 @@ independence bound for clique-free graphs* (September 25, 2026), filed at
 [[extremal_graph_theory/openai_2026_logarithmic_independence_bound_clique_free_graphs/_index|the independence card]],
 which claims the Ajtai--Erdős--Komlós--Szemerédi bound $\alpha\ge c_rn\log d/d$
 for $K_r$-free graphs of average degree $d\ge2$, $r\ge4$, and whose Theorem 1.1
-is recorded as accepted, with formalized evidence, on the claim page of
-[[../wiki/problems/extremal_graph_theory/E0802/_index|Problem 802]]. This
-manuscript cites the companion's Sections 2--5 as the source of the weighted
-multipliers, neighborhood walks and vertex splitting that it adapts, and says it
-proves every ingredient it needs itself, with the extra bound on how many
-entries of one list an operation touches. The release holds no earlier dated
-version of this manuscript at this revision. The companion's arguments were not
-read for this card.
+is recorded as accepted, with formalized evidence, on
+[[../wiki/problems/extremal_graph_theory/E0802/claims/2026_09_25_openai|its claim page under Problem 802]].
+This manuscript cites the companion's Sections 2--5 as the source of the
+weighted multipliers, neighborhood walks and vertex splitting that it adapts,
+and says it proves every ingredient it needs itself, with the extra bound on
+how many entries of one list an operation touches. The release holds no
+earlier dated version of this manuscript at this revision. The companion's
+arguments were not read for this card.
 
 Read status: claims checked for Theorem 1.1 and Corollary 1.2, read clause by
 clause in the release's TeX source (`build/sections/introduction.tex`, labels
@@ -158,15 +157,15 @@ and displays are numbered within sections. Logarithms are natural.
   Dhawan for bipartite and almost bipartite $F$, and Dhawan, Janzer and
   Methuku (Theorems 1.4--1.5) for $K_{t,t,t}$-free graphs, ordinary coloring
   only. It then places the structural part next to the
-  Ajtai--Erdős--Komlós--Szemerédi independence problem, Shearer (1983,
-  1995) and the companion manuscript. Section 1.2 outlines the proof: a
-  graph $H$ on the list entries whose edges are the forbidden pairs (each
-  entry has at most one neighbor in each list, and $H$ is $K_r$-free), a
-  potential combining entropy, lost weight and incident edge mass $D_v$,
-  local weight adjustments that offset the triangle term $t_i$ up to a
-  constant multiple of the incident edge mass, and concentration by bounded
-  participation. Section 1.3 fixes conventions,
-  among them homomorphisms injective on directed edges.
+  Ajtai--Erdős--Komlós--Szemerédi independence problem, Shearer's papers of
+  1983 and 1995 and the companion manuscript. Section 1.2 outlines the
+  proof: a graph $H$ on the list entries whose edges are the forbidden pairs
+  (each entry has at most one neighbor in each list, and $H$ is
+  $K_r$-free), a potential combining entropy, lost weight and incident edge
+  mass $D_v$, local weight adjustments that offset the triangle term $t_i$
+  up to a constant multiple of the incident edge mass, and concentration by
+  bounded participation. Section 1.3 fixes conventions, among them
+  homomorphisms injective on directed edges.
 - Section 2, Local weight adjustment with bounded participation
   (`adjustment.tex`, pp. 6--12). For a $K_r$-free graph $H$ with a vertex
   partition in which each vertex has at most one neighbor per part, and
@@ -199,11 +198,12 @@ and displays are numbered within sections. Logarithms are natural.
   neighborhoods and proves Lemma 3.2 (p. 14), a bound $O_r(\log\ell)$ on
   their weighted row entropy after $\lceil\ell\rceil$ lazy steps, using
   local sets whose admission threshold also bounds their size in each part.
-  Section 3.3 proves Lemma 3.1 by an entropy-increment step, a shared rejection-sampling
-  coupling (cited to Angel and Spinka, Theorem 2, and proved in the text)
-  and a qualification rule on reverse transitions; Figure 1 (p. 18) shows
-  the local splitting. Section 3.4 iterates $\ell\mapsto\sqrt\ell$ to prove
-  Proposition 2.5 (pp. 18--19) and completes Lemma 2.1 (p. 19).
+  Section 3.3 proves Lemma 3.1 by an entropy-increment step, a shared
+  rejection-sampling coupling (cited to Angel and Spinka, Theorem 2, and
+  proved in the text) and a qualification rule on reverse transitions;
+  Figure 1 (p. 18) shows the local splitting. Section 3.4 iterates
+  $\ell\mapsto\sqrt\ell$ to prove Proposition 2.5 (pp. 18--19) and completes
+  Lemma 2.1 (p. 19).
 - Section 4, Coloring rounds with dependent entry weights (`rounds.tex`,
   pp. 19--26). Fixes $K=16(B+2)$, $\gamma=0.003$, $C=100K/\gamma$, lists cut
   to $k=\lceil C\Delta/\log\Delta\rceil$ entries, weights kept in
@@ -255,7 +255,8 @@ the page's status rests on its own acceptance evidence.
   printing, Dudek and Mubayi's $c\sqrt{n\log n/\log\log n}$, comes from the
   neighborhood argument written out on
   [[extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_1|Shearer's Corollary 1 page]]
-  (the same argument, with Brooks' theorem as its coloring step, proves
+  (a variant of it, with Brooks' theorem as its coloring step and the union
+  of the two largest color classes in place of one independent set, proves
   [[extremal_graph_theory/bollobas_hind_1991_graphs_without_large_triangle_free_subgraphs/theorem_1|Bollobás and Hind's Theorem 1]]):
   a vertex of degree at least $D$ has a triangle-free neighborhood, and
   otherwise a $K_4$-free graph of maximum degree below $D$ has a large

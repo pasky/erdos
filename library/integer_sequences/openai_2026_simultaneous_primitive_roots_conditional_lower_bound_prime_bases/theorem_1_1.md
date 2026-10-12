@@ -14,145 +14,127 @@ updated: 2026-10-12T23:13:55Z
 
 ## Statement
 
-For a prime $p$ and an integer $q$ with $p\nmid q$, $\operatorname{ord}_p(q)$
-is the multiplicative order of $q$ in $\mathbb F_p^\times$, and $q$ is a
-primitive root modulo $p$ when $\operatorname{ord}_p(q)=p-1$ (p. 1). The
-theorem assumes four statements that the manuscript calls Inputs, takes from
-its companion *Primitive roots for every admissible integer base*, and does
-not prove. They are stated here exactly, in the corpus's words, after the
-setup two of them use.
+For a prime $p$ and an integer $q$ prime to $p$, $\operatorname{ord}_p(q)$ is
+the multiplicative order of $q$ modulo $p$, and $q$ is a primitive root
+modulo $p$ when this order is $p-1$ (p. 1). The theorem assumes four
+Inputs, which the manuscript takes without proof from its companion, the
+manuscript *Primitive roots for every admissible integer base*. They are
+stated once here, condensed, for this page and the page of Proposition 2.1.
 
-**The marked setup** (`sections/04-marked-family.tex` lines 10--71 and
-88--89, pp. 6--7). Throughout, $x$ is real and tends to infinity, $L=\log x$,
-$W=\exp(L^{0.24})$ and $V(y)=\prod_{p\le y}(1-1/p)$ for $y\ge1$, with
-products over primes. $P^-(h)$ is the least prime factor of $h>1$,
-$P^-(1)=\infty$, and $h$ is $W$-rough when $P^-(h)>W$. Every parameter not
-displayed as depending on $x$ is fixed before $x$ grows. For an integer
-$K\ge1$ and fixed exponents $0.1<a_1<\cdots<a_K<0.2$, the prime groups are
-$\mathcal P_i=\{p\ \text{prime}:\exp(L^{a_i})\le p\le\exp(2L^{a_i})\}$, with
-$V_i=\sum_{p\in\mathcal P_i}1/p$; their members are the group primes. For
-$h\ge1$, $\omega_i(h)$ is the number of primes of $\mathcal P_i$ dividing
-$h$, and the marks (the companion's, with mark parameter $1/2$) are
-
-$$
-\mathcal W(h)=2^{K-\sum_i\omega_i(h)}\prod_{i=1}^K\frac{\omega_i(h)}{V_i}.
-$$
-
-For $w>\gamma>0$ the rough-factor density is
+**Setup for Inputs 4.1 and 5.2** (`sections/04-marked-family.tex` lines
+10--71 and 88--89, pp. 6--7). The real variable $x$ tends to infinity, and
+each parameter not shown to depend on $x$ is fixed before $x$ grows. Put
+$L=\log x$, $W=\exp(L^{0.24})$ and $V(y)=\prod_{p\le y}(1-1/p)$ for $y\ge1$,
+with products over primes. Let $P^-(h)$ be the least prime factor of $h$, with
+$P^-(1)=\infty$; $h$ is $W$-rough when $P^-(h)>W$. The marks depend on an
+integer $K\ge1$ and fixed exponents $0.1<a_1<\cdots<a_K<0.2$. The group
+$\mathcal P_i$ consists of the primes in $[\exp(L^{a_i}),\exp(2L^{a_i})]$,
+and the group primes are the members of $\mathcal P_1,\dots,\mathcal P_K$.
+With $V_i$ the sum of $1/p$ over $\mathcal P_i$ and $\omega_i(h)$ the number
+of primes of $\mathcal P_i$ dividing $h$, the mark of $h\ge1$ is
+$\mathcal W(h)=2^{K-\sum_i\omega_i(h)}\prod_{i=1}^K\omega_i(h)/V_i$, the
+companion's marks with parameter $1/2$. For $w>\gamma>0$ the rough-factor
+density is
 
 $$
-D_\gamma(w)=\frac1w+\sum_{j\ge2}\frac1{j!}
-\int\limits_{\substack{t_i\ge\gamma\ (1\le i<j)\\ \sum_{i<j}t_i\le w-\gamma}}
-\frac{1}{w-\sum_{i<j}t_i}\prod_{i<j}\frac{dt_i}{t_i}.
+D_\gamma(w)=\frac1w+\sum_{j\ge2}\frac1{j!}\int_{R_j}
+\frac{1}{w-t_1-\cdots-t_{j-1}}\,\frac{dt_1\cdots dt_{j-1}}{t_1\cdots t_{j-1}},
 $$
 
-Dirichlet characters, principal ones included, are extended by zero on
-nonunits, and frequencies are real.
+where $R_j$ is the region where every $t_i\ge\gamma$ and
+$t_1+\cdots+t_{j-1}\le w-\gamma$.
 
 **Input 3.1** (uniform Hecke zero-free assertion;
-`sections/03-splitting.tex` lines 8--15, p. 3). For every cyclotomic number
-field $F$ containing the group $\mu_{12}$ of twelfth roots of unity and every
-finite-order Hecke character $\chi$ of $F$ (a continuous character of
-$F^\times\backslash\mathbb A_F^\times$ with finite image), the meromorphic
-continuation of $L_F(s,\chi)$ has no zero in $\operatorname{Re}s>1-10^{-6}$.
-The text adds that the principal character's pole at $s=1$ is permitted.
+`sections/03-splitting.tex` lines 8--15, p. 3). Over every cyclotomic field
+$F$ containing the twelfth roots of unity $\mu_{12}$, no finite-order Hecke
+$L$-function $L_F(s,\chi)$, continued meromorphically, vanishes in the
+half-plane $\operatorname{Re}s>1-10^{-6}$. Here $\chi$ is a continuous
+character of $F^\times\backslash\mathbb A_F^\times$ with finite image, and
+the principal character's pole at $s=1$ is allowed.
 
 **Input 4.1** (marked Type II estimate; `sections/04-marked-family.tex`
-lines 99--151, pp. 7--8). Part (i), the coefficient criterion. Fix
-$\delta,C,D_*>0$. Let $H_m,H_n\ge x^\delta$ with $X=H_mH_n\asymp x$, the
-comparison constants fixed. Let $F:\mathbb Z_{>0}\to\mathbb C$ satisfy
-$|F(h)|\le1$ and $F(ph)=F(h)$ for every group prime $p$ and every $h\ge1$.
-Let $(\alpha_m)$ and $(\beta_n)$ be complex sequences supported on $W$-rough
-integers of $[H_m,2H_m]$ and $[H_n,2H_n]$ respectively, with $\alpha$
-supported on some interval $I\subseteq[H_m,2H_m]$ and
-$|\alpha_m|,|\beta_n|\le L^C$. Suppose that for all fixed $A_0,B,A>0$, every
-Dirichlet character $\chi$ of modulus $k\le L^{A_0}$ and every real
-$|t|\le2XL^B$,
+lines 99--151, pp. 7--8). Dirichlet characters here, principal ones
+included, vanish on nonunits, and the frequencies $t$ and $v$ are real.
+Part (i) is a criterion on the coefficients. Fix $\delta,C,D_*>0$ and scales
+$H_m,H_n\ge x^\delta$ with $X=H_mH_n\asymp x$, the comparison constants
+fixed. Let $F$ be any function on the positive integers with $|F|\le1$ that
+is unchanged when its argument is multiplied by a group prime. Let the
+complex coefficients $\alpha_m$ and $\beta_n$ have size at most $L^C$ and be
+supported on $W$-rough integers of $[H_m,2H_m]$ and $[H_n,2H_n]$, with
+$\alpha$ supported on some interval $I\subseteq[H_m,2H_m]$. Assume that, for
+all fixed $A_0,B,A>0$, the averages $H_m^{-1}\sum_m\alpha_m\chi(m)m^{it}$
+have size $\ll_AL^{-A}$ for every Dirichlet character $\chi$ of modulus at
+most $L^{A_0}$ and every $|t|\le2XL^B$, uniformly in $I$, $\chi$ and $t$;
+the constant and threshold may depend on $A_0$, $B$, $A$, the setup and the
+fixed parameters behind the coefficients. Then, once $K$ exceeds a bound
+that depends on the fixed data but not on the $a_i$,
 
 $$
-\Bigl|\frac1{H_m}\sum_m\alpha_m\chi(m)m^{it}\Bigr|\ll_A L^{-A},
+\Bigl|\sum_{m,n}\alpha_m\beta_nF(mn-1)\mathcal W(mn-1)\Bigr|\ll XL^{-D_*}.
 $$
 
-uniformly in the interval, the character and the frequency, the constant and
-threshold being allowed to depend on $A_0,B,A$, the fixed setup and the fixed
-parameters defining the coefficients. Then
+Its constant and threshold may depend on all the fixed data, the $a_i$ and
+the assumption's constants and thresholds among them; beyond that the bound
+is uniform in $F$, the scales, $I$ and the coefficients. Part (ii) supplies
+the assumed cancellation for one coefficient. Keep the conditions of part
+(i) on $F$, $\beta$ and the scales, fix $0<\gamma<w_-<w_+<1$, and suppose
+that $\log H_m/L$ and $\log(2H_m)/L$ lie in $[w_-,w_+]$. Then for every
+interval $I\subseteq[H_m,2H_m]$ and every $|v|\le L^C$, the coefficient
+equal to
 
 $$
-\Bigl|\sum_{m,n}\alpha_m\beta_nF(mn-1)\mathcal W(mn-1)\Bigr|\ll XL^{-D_*}
-$$
-
-once $K$ is large enough in terms of the fixed data, how large not depending
-on the particular $a_i$. The implied constant and threshold may depend on all
-fixed data, the $a_i$ and the constants and thresholds of the hypothesis
-included; with those fixed, the bound is uniform over the admissible $F$,
-dyads, intervals and coefficients. Part (ii), rough coefficient
-cancellation. Keep the marked data and the conditions on $F$, $\beta$,
-$H_m$ and $H_n$, with no $\alpha$ chosen in advance. Fix
-$0<\gamma<w_-<w_+<1$ and suppose
-$[\log H_m/L,\log(2H_m)/L]\subseteq[w_-,w_+]$. Then for every interval
-$I\subseteq[H_m,2H_m]$ and every real $|v|\le L^C$ the coefficient
-
-$$
-\alpha^{(0)}_m=m^{iv}\Bigl(\mathbf 1_{P^-(m)>x^\gamma}-
+m^{iv}\Bigl(\mathbf 1_{P^-(m)>x^\gamma}-
 \frac{D_\gamma(\log m/L)}{LV(W)}\mathbf 1_{P^-(m)>W}\Bigr)
-\qquad(m\in I),
 $$
 
-set to zero outside $I$, satisfies the cancellation hypothesis of part (i)
-for all fixed $A_0,B,A>0$, uniformly in the dyads, the interval, the
-character, $t$ and $v$; its constant and threshold may depend on the fixed
-parameters, $\gamma$, $w_-$ and $w_+$ among them.
+for $m\in I$, and to $0$ elsewhere, meets the assumption of part (i) for all
+fixed $A_0,B,A>0$. It does so uniformly in the scales, $I$, $\chi$, $t$ and
+$v$, with constant and threshold depending on the fixed parameters, $\gamma$
+and $w_\pm$ among them.
 
 **Input 5.1** (block sieve; `sections/05-prime-reservoir.tex` lines 11--63,
-pp. 12--13). Let $z>1$, let $\mathcal A$ be a finite set with weights
-$\lambda_\nu\ge0$, let $\mathcal D$ be a set of primes at most $z$, and for
-each $p\in\mathcal D$ let $\mathcal A_p\subseteq\mathcal A$ (its bad
-condition). For a squarefree product $\ell$ of primes of $\mathcal D$ put
-$\mathcal A_\ell=\bigcap_{p\mid\ell}\mathcal A_p$, with
-$\mathcal A_1=\mathcal A$. Suppose that for every such $\ell$, $\ell=1$
-included, $\sum_{\nu\in\mathcal A_\ell}\lambda_\nu=Yg(\ell)+R(\ell)$ with
-$Y\ge0$, where $g$ is multiplicative on these products, $g(1)=1$, and
-$g(p)=0$ for primes $p\notin\mathcal D$; and that for fixed $\eta_0>0$ and
-$C_0<\infty$, $0\le g(p)\le1-\eta_0$ for every $p$ and
-$\sum_{u<p\le u^2}g(p)\le C_0$ for every $u>1$. Let $S$ be the total weight
-of $\mathcal A\setminus\bigcup_{p\in\mathcal D}\mathcal A_p$. Then for every
-sufficiently large even integer $H$,
+pp. 12--13). Take a finite set $\mathcal A$ with weights $\lambda_\nu\ge0$,
+a real $z>1$, a set $\mathcal D$ of primes at most $z$ and, for each
+$p\in\mathcal D$, a subset $\mathcal A_p\subseteq\mathcal A$ to be sifted
+out. Below, $\ell$ ranges over the squarefree products of primes of
+$\mathcal D$, $\ell=1$ included, and $\mathcal A_\ell$ is the intersection
+of the $\mathcal A_p$ with $p\mid\ell$, with $\mathcal A_1=\mathcal A$.
+Assume that the weight of each $\mathcal A_\ell$ is $Yg(\ell)+R(\ell)$,
+where $Y\ge0$ and $g$ is multiplicative on these $\ell$ with $g(1)=1$, and
+set $g(p)=0$ for primes outside $\mathcal D$. Assume also, for fixed
+$\eta_0>0$ and $C_0<\infty$, that $0\le g(p)\le1-\eta_0$ for every prime $p$
+and $\sum_{u<p\le u^2}g(p)\le C_0$ for every $u>1$. Let $S$ be the weight of
+the elements of $\mathcal A$ that lie in no $\mathcal A_p$. Then for each
+even $H$ beyond a threshold
 
 $$
 S=Y\prod_{p\le z}(1-g(p))\bigl(1+O(e^{-H})\bigr)+
 O\Bigl(\sum_{\ell\le z^{4H+2}}|R(\ell)|\Bigr),
 $$
 
-the sum over squarefree $\ell$ composed of primes of $\mathcal D$ ($\ell=1$
-included), where the threshold for $H$ and the implied constants depend only
-on $\eta_0$ and $C_0$; and for $H=2$,
-$S\ll_{\eta_0,C_0}Y\prod_{p\le z}(1-g(p))+\sum_{\ell\le z^{10}}|R(\ell)|$,
-over the same kind of $\ell$.
+and for $H=2$ there is the upper bound
+$S\ll Y\prod_{p\le z}(1-g(p))+\sum_{\ell\le z^{10}}|R(\ell)|$. The threshold
+for $H$ and all the implied constants depend only on $\eta_0$ and $C_0$.
 
-**Input 5.2** (rough-number density; `sections/05-prime-reservoir.tex` lines
-65--78, p. 13). There are absolute constants $b_d,c_d,C_d>0$ such that, for
-every fixed $0<b<\min(b_d,1/2)$,
+**Input 5.2** (rough-number density; `sections/05-prime-reservoir.tex`
+lines 65--78, p. 13). For some absolute constants $b_d,c_d,C_d>0$ and every
+fixed $b$ with $0<b<\min(b_d,1/2)$, the density obeys the identity
+$\int_b^{1/2}D_t(1-t)\,dt/t=D_b(1)-1$, whatever value the integrand is
+given at $t=1/2$, and the bound
+$D_b(1)\le e^{-\gamma_E}b^{-1}(1+C_de^{-c_d/b})$, where $\gamma_E$ is
+Euler's constant.
 
-$$
-\int_b^{1/2}D_t(1-t)\,\frac{dt}{t}=D_b(1)-1,
-\qquad
-D_b(1)\le\frac{e^{-\gamma_E}}{b}\bigl(1+C_de^{-c_d/b}\bigr),
-$$
-
-with $\gamma_E$ Euler's constant; the integrand's value at $t=1/2$ does not
-matter.
-
-**Theorem 1.1.** Assume Inputs 3.1, 4.1, 5.1 and 5.2. Let $k\ge1$ and let
-$q_1,\dots,q_k$ be distinct positive primes. Then there are constants
-$c_{\mathbf q}>0$ and $x_{\mathbf q}>1$, depending on the set, such that for
-every real $x\ge x_{\mathbf q}$ at least
+**Theorem 1.1.** Suppose Inputs 3.1, 4.1, 5.1 and 5.2 hold, and fix $k\ge1$
+distinct positive primes $q_1,\dots,q_k$. Then there are $c_{\mathbf q}>0$
+and $x_{\mathbf q}>1$, depending on these primes, such that for each real
+$x\ge x_{\mathbf q}$ the interval $(x,2x)$ contains at least
 
 $$
 c_{\mathbf q}\,\frac{x}{(\log x)^2}
 $$
 
-primes $p\in(x,2x)$ satisfy $p\nmid q_1\cdots q_k$ and
-$\operatorname{ord}_p(q_i)=p-1$ for every $1\le i\le k$.
+primes $p\nmid q_1\cdots q_k$ modulo which every $q_i$ is a primitive root,
+that is, with $\operatorname{ord}_p(q_i)=p-1$ for $i=1,\dots,k$.
 
 The manuscript calls the theorem "an implication from four statements taken
 from the companion manuscript" and says that the Inputs' proofs there "and

@@ -1492,7 +1492,6 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/extremal_graph_theory/E0072/_index|E0072]]
 - [[graph_coloring/openai_2026_correspondence_coloring_graphs_forbidden_clique/_index|openai_2026_correspondence_coloring_graphs_forbidden_clique]]
   - [[../wiki/problems/extremal_graph_theory/E0620/_index|E0620]]
-  - [[../wiki/problems/extremal_graph_theory/E0802/_index|E0802]]
 - [[integer_sequences/erdos_1938_sequences_integers_no_one_which_divides/_index|erdos_1938_sequences_integers_no_one_which_divides]]
   - [[../wiki/problems/extremal_graph_theory/E0572/_index|E0572]]
   - [[../wiki/problems/extremal_graph_theory/E0714/_index|E0714]]

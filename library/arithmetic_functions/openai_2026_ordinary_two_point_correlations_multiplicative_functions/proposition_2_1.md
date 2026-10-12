@@ -16,22 +16,23 @@ updated: 2026-10-12T23:13:55Z
 
 Let $\lambda(n)=(-1)^{\Omega(n)}$ be Liouville's function.
 
-**Proposition 2.1.** There is one absolute constant $c>0$ such that for all
-fixed integers $h,l\ge1$ and every integer $b$ the average
+**Proposition 2.1.** One absolute exponent $c>0$ serves every shift and
+every residue class. Fix integers $h,l\ge1$ and any integer $b$, with
+$\gcd(b,l)$ unrestricted, and normalize by $X$ the sum of
+$\lambda(n)\lambda(n+h)$ over the $n\le X$ congruent to $b$ modulo $l$:
 
 $$
 F(X)=\frac1X\sum_{1\le n\le X}\mathbf 1_{n\equiv b\ (\mathrm{mod}\ l)}\,
-\lambda(n)\lambda(n+h)
+\lambda(n)\lambda(n+h).
 $$
 
-satisfies $|F(X)|\ll_{h,l}(\log X)^{-c}$ for every real $X\ge3$. No condition
-is placed on $\gcd(b,l)$.
+Then $|F(X)|\ll_{h,l}(\log X)^{-c}$ at every real cutoff $X\ge3$.
 
-The text notes (p. 7) that there are only $l$ classes, so the implied constant
-can be taken independent of $b$. The proof gives $c=\delta/(6WA)$ with
-$\delta=1/200$, where $A\ge1000$ is fixed by the finite-law comparison of
-Lemma 3.1 and $W\ge10$ by the absolute trace constant (Section 8.4); neither is
-computed.
+Since $b$ matters only modulo $l$, the manuscript observes (p. 7), the
+implied constant may be chosen uniformly in $b$. The proof gives
+$c=\delta/(6WA)$ with $\delta=1/200$, where $A\ge1000$ is fixed by the
+finite-law comparison of Lemma 3.1 and $W\ge10$ by the absolute trace
+constant (Section 8.4); neither is computed.
 
 **Source.** OpenAI, *Ordinary two-point correlations of multiplicative
 functions*, release folder

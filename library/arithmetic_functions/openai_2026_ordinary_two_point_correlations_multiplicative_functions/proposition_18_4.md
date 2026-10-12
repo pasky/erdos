@@ -18,9 +18,11 @@ Multiplicative functions $f:\mathbb N\to\mathbb D$ and uniform
 nonpretentiousness are as on the page for
 [[arithmetic_functions/openai_2026_ordinary_two_point_correlations_multiplicative_functions/theorem_1_2|Theorem 1.2]].
 
-**Proposition 18.4.** Let $f_1,f_2:\mathbb N\to\mathbb D$ be multiplicative, at
-least one of them uniformly nonpretentious. For fixed distinct nonnegative
-integers $h_1,h_2$, an integer $l\ge1$ and any integer $b$,
+**Proposition 18.4.** Under the hypotheses of Theorem 1.2 (multiplicative
+$f_1,f_2:\mathbb N\to\mathbb D$, at least one uniformly nonpretentious, and
+fixed distinct shifts $h_1\ne h_2$, both nonnegative integers), the
+cancellation persists on every fixed arithmetic progression. For each modulus
+$l\ge1$ and each integer $b$, whether or not $b$ is a unit modulo $l$,
 
 $$
 \frac1X\sum_{1\le n\le X}f_1(n+h_1)f_2(n+h_2)\,
@@ -28,8 +30,7 @@ $$
 \qquad(X\to\infty),
 $$
 
-the limit taken through all real $X$; residue classes that are not units are
-included.
+where $X$ runs through all real numbers, not only integers.
 
 The introduction refers to this statement (p. 4) as the precise form of the
 progression restriction permitted in Theorem 1.2. With

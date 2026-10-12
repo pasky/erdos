@@ -34,6 +34,15 @@ hyperbolic 3-orbifold defined over $\mathbb Q(i)$ has volume a positive
 rational multiple of $G$, hence irrational, for example
 $\operatorname{vol}(\mathrm{PSL}_2(\mathbb Z[i])\backslash\mathbb H^3)=G/3$.
 
+**Formalization.** The release's Lean page for the family describes a
+formalization of this statement, with the comparator theorem
+`OAI.InternalCatalan.catalan_irrational`. In words, it says that the real
+number given by Mathlib's unconditional sum over all natural numbers $j$ of
+$(-1)^j/(2j+1)^2$ is irrational; the terms are absolutely summable, so that
+sum is $G$. The hyperbolic-volume consequences are not part of it. It was
+read statically and not built or audited here, and the catalog lists no
+entry for it at this revision (see the card).
+
 **Source.** OpenAI, *Catalan's constant is irrational*, release folder
 `preprints/Catalans-constant-is-irrational-September-24-2026`; TeX file
 `build/sections/introduction.tex`, label `thm:main` (lines 16--18), PDF p. 1;

@@ -15,30 +15,31 @@ updated: 2026-10-12T23:13:55Z
 
 ## Statement
 
-Write $\mathbb N_+=\{1,2,\ldots\}$, $[N]=\{1,\ldots,N\}$ and
-$A-A=\{a-b:a,b\in A\}$. The manuscript calls $h\in\mathbb Z[x]$ intersective
-when for every integer $q\ge1$ some integer $t$ has $h(t)\equiv0\pmod q$; the
-roots modulo different $q$ may come from different factors of $h$, and no
-rational root is required (p. 2).
+Let $\mathbb N_+=\{1,2,\ldots\}$ and $[N]=\{1,\ldots,N\}$, and let $A-A$ be
+the set of all differences $a-b$ with $a,b\in A$. In the manuscript's sense a
+polynomial $h\in\mathbb Z[x]$ is intersective if it has a root modulo every
+positive integer $q$, that is, $q$ divides $h(t)$ for some integer $t$
+depending on $q$. Different moduli may take their roots from different
+factors of $h$, so $h$ need not have a rational root (p. 2).
 
-**Theorem 1.1.** For every integer $k\ge2$ there is a constant
-$c_k\in(0,1)$ such that the following holds for every intersective
-$h\in\mathbb Z[x]$ of degree $k$ with positive leading coefficient. There are
-a constant $C_h\ge1$ and an integer $N_h\ge1$ such that whenever $N\ge N_h$
-and $A\subseteq[N]$ satisfies $(A-A)\cap h(\mathbb N_+)\subseteq\{0\}$, one has
-$|A|\le C_hN^{1-c_k}$.
+**Theorem 1.1.** Fix an integer $k\ge2$. There is an exponent
+$c_k\in(0,1)$, determined by $k$ alone, with the following property. Let
+$h\in\mathbb Z[x]$ be intersective of degree $k$ with positive leading
+coefficient. Then for some constant $C_h\ge1$ and some integer $N_h\ge1$,
+every set $A\subseteq[N]$ with $N\ge N_h$ and
+$(A-A)\cap h(\mathbb N_+)\subseteq\{0\}$ has at most $C_hN^{1-c_k}$ elements.
 
-The quantifiers are in this order: $c_k$ is chosen from $k$ alone, before
-$h$; $C_h$ and $N_h$ may depend on every coefficient of $h$, which stays fixed
-as $N$ grows. The hypothesis says that no two elements of $A$ differ by a
-nonzero value $h(n)$ with $n\ge1$; as $A-A$ is symmetric, neither $h(n)$ nor
-$-h(n)$ is a difference, and values $h(n)=0$ impose nothing (p. 2). The proof
-takes $N_h=M$ and $C_h=2^{1-c_k}M^{c_k}C_0^{1/d}$, where $M$ comes from the
-normalization of Lemma 2.1 and $C_0$ from Proposition 7.2, and sets
-$c_k=a_0/d$ with $a_0$ and $d$ fixed by explicit formulas in $k$ and the two
-prime thresholds $P_1$ and $P$, which are chosen only as large enough in
-terms of $k$; no numerical value of $c_k$ is given, and $C_0$ is not made
-explicit.
+The order of choice matters: $c_k$ is fixed by $k$ before $h$ is chosen,
+while $C_h$ and $N_h$ are allowed to depend on all the coefficients of $h$,
+and $h$ is held fixed as $N\to\infty$. The hypothesis says that no two
+elements of $A$ differ by a nonzero value $h(n)$ with $n\ge1$; as $A-A$ is
+symmetric, neither $h(n)$ nor $-h(n)$ is a difference, and values $h(n)=0$
+impose nothing (p. 2). The proof takes $N_h=M$ and
+$C_h=2^{1-c_k}M^{c_k}C_0^{1/d}$, where $M$ comes from the normalization of
+Lemma 2.1 and $C_0$ from Proposition 7.2, and sets $c_k=a_0/d$ with $a_0$ and
+$d$ fixed by explicit formulas in $k$ and the two prime thresholds $P_1$ and
+$P$, which are chosen only as large enough in terms of $k$; no numerical
+value of $c_k$ is given, and $C_0$ is not made explicit.
 
 The manuscript sets this beside the bound
 $N\exp(-c_{h,\mu}(\log N)^\mu)$, for every fixed $0<\mu<1/2$, that it
@@ -131,16 +132,18 @@ auxiliary-polynomial construction (Section 8 of his Acta Arithmetica paper),
 including the fact cited from it that the construction preserves the
 valuation of the first nonzero coefficient; the manuscript writes out the
 construction and its inheritance rule and proves that valuation fact itself
-in Lemma 2.2. The release's square-difference
-manuscript, whose tuple laws, signed functional, lift moments, kernel,
-comparison and induction (its Lemmas 2.1--2.2, Section 3, Proposition 4.1,
-Lemmas 4.2--4.3 and 5.1--5.2, Section 6, Propositions 7.2, 8.1 and 9.2 and
-Theorem 9.3) are adapted, the manuscript saying that every estimate it needs
-from that method is proved in the text. The chessboard method of Fröhlich,
-Israel, Lieb and Simon (their Theorem 4.1), followed for the signed Hölder
-inequality, with Hatami and Conlon--Lee cited for related reflection
-arguments. Rice's revised version (Sections 2.4--2.5 and 4) is cited for
-similar restrictions on derivatives and lifting.
+in Lemma 2.2. The release's square-difference manuscript, whose tuple laws,
+signed functional, lift moments, kernel, comparison, contraction and
+induction are adapted: in the released text, its Lemmas 2.1--2.2,
+Section 3, Proposition 4.1, Lemmas 4.2--4.3 and 5.2--5.3, Section 6,
+Propositions 7.2, 8.2 and 9.1 and Theorem 9.2. This manuscript cites the lift
+lemmas as Lemmas 5.1--5.2, the contraction result as Proposition 8.1 and the
+recurrence and decay results as Proposition 9.2 and Theorem 9.3, and it says
+that every estimate it needs from that method is proved in the text. The
+chessboard method of Fröhlich, Israel, Lieb and Simon (their Theorem 4.1),
+followed for the signed Hölder inequality, with Hatami and Conlon--Lee cited
+for related reflection arguments. Rice's revised version (Sections 2.4--2.5
+and 4) is cited for similar restrictions on derivatives and lifting.
 
 ## Bears on
 

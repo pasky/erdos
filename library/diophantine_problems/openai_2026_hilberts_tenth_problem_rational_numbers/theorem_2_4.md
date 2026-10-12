@@ -14,32 +14,34 @@ updated: 2026-10-12T23:13:55Z
 
 ## Statement
 
-Write $h$ for the absolute logarithmic Weil height on
-$\mathbf P^1(\mathbb Q)$ and $v_q$ for the $q$-adic valuation, with
-$v_q(q)=1$ and $v_q(0)=+\infty$.
+Here $h$ is the absolute logarithmic Weil height on
+$\mathbf P^1(\mathbb Q)$, and $v_q$ is the $q$-adic valuation, normalized by
+$v_q(q)=1$, with $v_q(0)=+\infty$.
 
-**Theorem 2.4** (five-point height estimate). There exist five distinct
-points $\mathcal C\subset\mathbf P^1(\mathbb Q)$, one of them $\infty$, a
-finite set $S$ of primes and constants $H,c>0$ with the following property.
-For each $b\in\mathcal C$ choose a primitive integral linear form
-$L_b(U,V)$ vanishing at $b$, with $L_\infty(U,V)=V$. For
-$s=(u:v)\in\mathbf P^1(\mathbb Q)\setminus\mathcal C$, the contact order of
-$s$ with $b$ at a prime $q$ is
-$v_q(L_b(u,v))-\min\{v_q(u),v_q(v)\}$, and $M_S(s)$ is the product, each
-prime taken once, of the primes $q\notin S$ at which at least one of the
-five contact orders is odd. Then
+**Theorem 2.4** (five-point height estimate). One can fix a set
+$\mathcal C$ of five rational points of $\mathbf P^1$, one of which is
+$\infty$, a finite set $S$ of primes and positive constants $H$ and $c$ so
+that the bound below holds at every rational point $s$ of $\mathbf P^1$
+outside $\mathcal C$. To each $b\in\mathcal C$ attach a primitive integral
+linear form $L_b(U,V)$ whose zero is $b$, taking $L_\infty(U,V)=V$. Writing
+$s=(u:v)$, call $v_q(L_b(u,v))-\min\{v_q(u),v_q(v)\}$ the contact order of
+$s$ with $b$ at the prime $q$, and let $M_S(s)$ be the product of the
+distinct primes $q\notin S$ at which the contact order of $s$ with some point
+of $\mathcal C$ is odd. Then
 $$
 h(s)\le H\,M_S(s)^c .
 $$
 
-The contact orders do not depend on the homogeneous coordinates chosen for
-$s$, they are nonnegative, and $M_S(s)$ is a finite product (p. 10). The
-choice of each $L_b$ is fixed up to sign. For a positive integer $K$ and a
-nonzero integer $e$ with $M_S(s)^K\mid e$, the theorem gives
-$h(s)\le H|e|^{c/K}$ (p. 10), the form in which the reduction uses it.
-**Corollary 2.5** (p. 10): for any fixed finite $S'\supset S$,
-$h(s)\le H\bigl(\prod_{q\in S'\setminus S}q\bigr)^cM_{S'}(s)^c$, so
-enlarging the exceptional set changes the constant and not the exponent.
+Rescaling the homogeneous coordinates of $s$ leaves every contact order
+unchanged; the orders are never negative, and only finitely many primes enter
+$M_S(s)$ (p. 10). Each $L_b$ is determined up to sign, so $M_S(s)$ does not
+depend on that choice. If $M_S(s)^K$ divides a nonzero integer $e$ for some
+integer $K\ge1$, then $M_S(s)\le|e|^{1/K}$ and the theorem gives
+$h(s)\le H|e|^{c/K}$ (p. 10); the reduction applies the estimate in this
+form. **Corollary 2.5** (p. 10) handles a larger exceptional set: for any
+fixed finite set of primes $S'\supset S$, every $s\notin\mathcal C$ satisfies
+$h(s)\le H\bigl(\prod_{q\in S'\setminus S}q\bigr)^cM_{S'}(s)^c$, so only the
+constant grows and the exponent stays $c$.
 
 The theorem asserts existence. Section 4 constructs $\mathcal C$ as the five
 branch values of the Atkin--Lehner quotient of the Shimura curve attached to
@@ -76,7 +78,7 @@ The construction (Section 4.1) takes the maximal-level Shimura curve $X$ of
 the discriminant-$210$ quaternion algebra, a proper curve of genus $5$ with
 no elliptic points, and its quotient by the Atkin--Lehner group
 $\mathcal W\cong(\mathbb Z/2)^4$. Riemann--Hurwitz bounds the number of branch
-values by five, five fixed points labelled by $m=30,42,70,105,210$ (from
+values by five, five fixed points labeled by $m=30,42,70,105,210$ (from
 embeddings of $\mathbb Q(\sqrt{-m})$) give at least five, and so the quotient
 is a genus-zero curve over $\mathbb Q$ with five individually rational branch
 values, hence $\mathbf P^1$; the text says this agrees with the tables of

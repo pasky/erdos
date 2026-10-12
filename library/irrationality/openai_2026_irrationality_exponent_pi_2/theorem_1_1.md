@@ -36,6 +36,17 @@ claim. The proof concludes with the strict inequality for large $q$, derives
 the irrationality of $\pi$ rather than assuming it, and states that no
 earlier irrationality bound for $\pi$ is used (pp. 4, 19).
 
+**Formalization.** The release's Lean page for the family describes a
+formalization of this statement, with the comparator theorem
+`OAI.PiExponent.main`. In words, it says two things: for every real $\nu>2$
+there is an integer $Q\ge2$ with $|\pi-p/q|\ge q^{-\nu}$ for all integers
+$p$ and all integers $q\ge Q$; and the supremum of the set of $\nu>0$ for
+which infinitely many rationals $r$ with reduced denominator at least $2$
+satisfy $0<|\pi-r|<\operatorname{den}(r)^{-\nu}$ equals $2$. The Lean page
+places the Flint–Hills consequence outside the formalized statement. It was
+read statically and not built or audited here, and the catalog lists no
+entry for it at this revision (see the card).
+
 **Source.** OpenAI, *The irrationality exponent of $\pi$ is $2$*, release
 folder `preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026`;
 TeX file `build/main.tex`, label `thm:main` (lines 64--71), PDF p. 1, with

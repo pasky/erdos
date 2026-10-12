@@ -54,9 +54,9 @@ that revision on 2026-10-12.
 ```
 
 The held PDF has 45 pages with a text layer; its title page is dated September
-17, 2026 and its metadata records a creation date of 17 September 2026 (00:00
-UTC). The TeX source is `build/main.tex` (141 lines: preamble, abstract,
-Theorem 1.1 and the introduction), which inputs seven section files
+17, 2026 and its metadata records a creation date of 17 September 2026. The
+TeX source is `build/main.tex` (141 lines: preamble, abstract, Theorem 1.1 and
+the introduction), which inputs seven section files
 `build/sections/01-preliminaries.tex` to `07-extraction.tex` (3,263 lines
 together; they print as Sections 2--8) and `build/references.tex` (39 lines),
 3,443 lines in all.
@@ -104,37 +104,21 @@ is the third member; neither manuscript cites the other. That manuscript states
 the long prime polynomial and logarithmic-phase estimates, in the same ranges as
 Lemmas 3.1 and 3.3 here, as its Lemmas 2.3 and 2.4, and proves them in its own
 Appendix A. The release holds no other dated version of this manuscript, and its
-history file records no change to it. The companions' arguments were not read
-for this card; only the statements of the Poisson--Dirichlet Lemmas 2.3 and 2.4
-were compared with Lemmas 3.1 and 3.3, and the opening paragraph of its Appendix
-A was read.
-
-**Use in the release.** The release's Artin-conjecture manuscript, *Primitive
-roots for every admissible integer base* (October 4, 2026), filed at
+history file records no change to it. Outside the family, the release's
+Artin-conjecture manuscript, *Primitive roots for every admissible integer
+base* (October 4, 2026), filed at
 [[integer_sequences/openai_2026_primitive_roots_admissible_integer_base/_index|the Artin card]],
-lists this manuscript as its reference [22] with the note "Section 3, especially
-Lemmas 3.1 and 3.3" (its `references.tex` lines 148--153, PDF p. 92). All three
-citations sit in the proof of its Proposition 10.3, a rough-factor Type II
-estimate (`sections/08-type-ii.tex`, statement lines 321--341, proof lines
-343--536, PDF pp. 67--70). For the low-frequency count it takes the
-Siegel--Walfisz estimate on a prime dyad from Proposition 2.1 here (line 401, p.
-68), a classical estimate that Proposition 2.1 records and does not prove. For
-the high frequencies $L^{B_0}\le|u|\le x^2$, $L=\log x$, of the prime-product
-sequence it applies
-[[arithmetic_functions/openai_2026_prime_predecessors_even_number_prime_factors/lemma_3_1|Lemma 3.1]]
-in one prime slot of each box (line 456, p. 69). For the comparison weight it
-quotes a high-frequency bound obtained from the proof of Lemma 5.2 of the
-Poisson--Dirichlet manuscript, and says that the bound's range $\exp(L/(\log
-L)^2)\le|u|<x^2$ uses
-[[arithmetic_functions/openai_2026_prime_predecessors_even_number_prime_factors/lemma_3_3|Lemma 3.3]]
-(line 501, p. 69). The proof of Proposition 10.3 is then used in the Artin
-manuscript's Lemma 12.1 (p. 75), a step of Section 12's proof of its Proposition
-2.1, which is one of the two inputs to its Theorem 1.1; its zero-free strip
-(Theorem 1.2) does not use this manuscript. So, beyond the classical
-Siegel--Walfisz estimate that Proposition 2.1 records, the Artin manuscript
-rests on Lemmas 3.1 and 3.3, which Section 3 here proves without input from S
-beyond the classical estimates of Section 2, and on nothing from Sections 4--8
-or from Theorem 1.1.
+lists this manuscript as its reference [22] with the note "Section 3,
+especially Lemmas 3.1 and 3.3". Its three citations all sit in the proof of
+its Proposition 10.3, a rough-factor Type II estimate on which its Theorem 1.1
+rests. They take Lemma 3.1, Lemma 3.3 (for the range of a bound quoted from
+the Poisson--Dirichlet manuscript) and the classical Siegel--Walfisz estimate
+that Proposition 2.1 here records without proof, and nothing from Sections
+4--8 or from Theorem 1.1; the lemma pages give the citing passages. The
+companions' arguments were not read for this card; only the statements of the
+Poisson--Dirichlet Lemmas 2.3 and 2.4 were compared with Lemmas 3.1 and 3.3,
+and the opening paragraph of its Appendix A was read. Of the Artin manuscript
+only the citing passages were read.
 
 Read status: claims checked for Theorem 1.1, Lemma 3.1, Lemma 3.3 and
 Proposition 2.1, read clause by clause in the release's TeX source on

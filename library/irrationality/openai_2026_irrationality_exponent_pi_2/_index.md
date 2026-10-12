@@ -53,9 +53,9 @@ revision on 2026-10-12.
 ```
 
 The held PDF has 23 pages with a text layer; its title page is dated
-September 24, 2026 and its metadata records a creation date of 20 September
-2026 (18:00 MDT), four days earlier. The TeX source is `build/main.tex` (264
-lines), which inputs four section files under `build/sections/`:
+September 24, 2026 and its metadata records a creation date of
+21 September 2026, three days earlier. The TeX source is `build/main.tex`
+(264 lines), which inputs four section files under `build/sections/`:
 `interpolation.tex` (584 lines), `determinant.tex` (432), `conclusion.tex`
 (156) and `series.tex` (155), 1,591 lines in all, with the bibliography
 `build/references.bib` (269 lines, 25 entries).

@@ -43,7 +43,7 @@ file at that revision on 2026-10-12.
 ```
 
 The held PDF has 72 pages with a text layer; its title page is dated 6 October
-2026 and its metadata records a creation date of 6 October 2026. The TeX
+2026 and its metadata records a creation date of 7 October 2026. The TeX
 source is `build/main.tex` (91 lines), which inputs eight section files under
 `build/sections/` (`introduction.tex`, `preliminaries.tex`, `deformation.tex`,
 `completed_forms.tex`, `patching.tex`, `fields.tex`, `connectedness.tex` and
@@ -70,8 +70,7 @@ on this card is independently reviewed.
 
 **Formalization.** The release lists no formalization of this manuscript: its
 Lean catalog `lean/formalization.yaml` has no entry for it or its family at
-revision fd4aeeb2e, and there is no page `lean/docs/010.md`; nothing here is a
-formal proof of any statement.
+revision fd4aeeb2e, and there is no page `lean/docs/010.md`.
 
 **Companions.** The release groups this manuscript in its family, "Unrestricted
 pro-modularity at the prime two", with two others; neither has a card in this
@@ -95,13 +94,13 @@ to the release's Hilbert's tenth problem manuscript (the earlier version links
 that manuscript's September 24 version, this one its October 6 version), so the
 statements and labels cited on this card are the same in both. Outside the
 family, *Hilbert's tenth problem over the rational numbers* (October 6, 2026),
-carded at
+filed at
 [[diophantine_problems/openai_2026_hilberts_tenth_problem_rational_numbers/_index|the Hilbert's tenth problem card]],
-cites Theorem 1.1 as the modularity input of its height argument (its Section
-4), for a two-dimensional $2$-adic representation built from the Tate module of
-an abelian surface with quaternionic multiplication, and reads weight two off
-the normalization of Section 2.1 here. The companions' arguments were not read
-for this card.
+cites Theorem 1.1 as the modularity input of its height argument (its
+Section 4), for a two-dimensional $2$-adic representation built from the Tate
+module of an abelian surface with quaternionic multiplication, and reads weight
+two off the normalization of Section 2.1 here. The companions' arguments were
+not read for this card.
 
 Read status: claims checked for Theorem 1.1, together with the statements of
 Lemma 2.2 (the virtually solvable case), Theorem 5.1 (localized propagation),
@@ -169,12 +168,12 @@ and remarks share one counter within each section.
   odd finite places, two-dimensional determinants in Chenevier's sense, the
   pseudodeformation ring $R_F^{\mathrm{ps},\chi}$, the quaternion algebra $D_F$
   ramified exactly at the real places, and characteristic-two curves.
-- Section 3, Deformations and local geometry (pp. 10--24). Proposition 3.1 (p.
-  10) on representation spaces under Mazur's condition $\Phi_2$, with recorded
-  invariant lines; Lemma 3.2 bounds the dimension lost in passing to traces by
-  three plus the undistinguished lines; Lemma 3.3 gives dense curves and
-  coefficient points; Lemma 3.4 (p. 13) identifies deformations at a curve with
-  residue field $k((t))$ through an enhanced coefficient ring, following
+- Section 3, Deformations and local geometry (pp. 10--24). Proposition 3.1
+  (p. 10) on representation spaces under Mazur's condition $\Phi_2$, with
+  recorded invariant lines; Lemma 3.2 bounds the dimension lost in passing to
+  traces by three plus the undistinguished lines; Lemma 3.3 gives dense curves
+  and coefficient points; Lemma 3.4 (p. 13) identifies deformations at a curve
+  with residue field $k((t))$ through an enhanced coefficient ring, following
   Böckle--Iyengar--Paškūnas, and Lemma 3.5 computes curve-field cohomology.
   Proposition 3.6 (p. 15) bounds generators minus relations over the local
   framed base below by $3-6m-h^0(D^\vee(1))$; Corollary 3.7 gives a local line
@@ -265,8 +264,9 @@ README; there is no `verification/` folder.
 ## Bears on
 
 The manuscript names no Erdős problem, and no problem page is identified as
-using it. No problem page records an argument that passes through the
-modularity of a Galois representation; the elliptic curves in the recorded
-arguments for Problems 364, 937 and 939 are curves over $\mathbb Q$, already
-known to be modular by Breuil, Conrad, Diamond and Taylor, so Theorem 1.1 adds
-no step there.
+using it. Where a problem page or one of its claim pages records an argument
+through elliptic curves or modularity, as for Problems 364, 368, 937, 939 and
+960, the curves are over $\mathbb Q$; for Problem 368 the argument is the
+modular approach through Shimura curves that its Pasten claim page records.
+Elliptic curves over $\mathbb Q$ are already known to be modular by Breuil,
+Conrad, Diamond and Taylor, so Theorem 1.1 adds no step there.

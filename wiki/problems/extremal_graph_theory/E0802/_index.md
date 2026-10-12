@@ -426,7 +426,6 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/extremal_graph_theory/openai_2026_logarithmic_independence_bound_clique_free_graphs/theorem_1_1|openai_2026_logarithmic_independence_bound_clique_free_graphs / theorem_1_1]]
 - [[../library/extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/_index|shearer_1995_independence_number_sparse_graphs]]
 - [[../library/extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_2|shearer_1995_independence_number_sparse_graphs / corollary_2]]
-- [[../library/graph_coloring/openai_2026_correspondence_coloring_graphs_forbidden_clique/_index|openai_2026_correspondence_coloring_graphs_forbidden_clique]]
 - [[../library/ramsey_theory/ajtai_1980_note_ramsey_numbers/_index|ajtai_1980_note_ramsey_numbers]]
 - [[../library/ramsey_theory/ajtai_1980_note_ramsey_numbers/theorem_2|ajtai_1980_note_ramsey_numbers / theorem_2]]
 - [[../library/ramsey_theory/mattheus_2023_asymptotics_r_4_t/_index|mattheus_2023_asymptotics_r_4_t]]

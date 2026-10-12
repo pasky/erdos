@@ -131,8 +131,9 @@ the Möbius specializations have no comparator statement. The release's catalog
 `lean/formalization.yaml` at this revision lists neither comparator, and no
 entry for this manuscript, under its `status.main_results`, and its `review`
 field reads `status: unchecked`. All of this is read statically from the
-release's Lean page and comparator files; nothing was built, replayed or audited
-for fidelity in this repository.
+release's Lean page and comparator files; nothing was built, replayed or
+audited for fidelity in this repository. No Lean file here is a proof of any
+Erdős problem.
 
 **Companions.** The release groups this manuscript alone in its family; it has
 no companion manuscript and no earlier dated version in the release. In a

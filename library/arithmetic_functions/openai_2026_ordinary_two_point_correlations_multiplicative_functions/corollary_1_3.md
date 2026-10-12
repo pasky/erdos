@@ -22,21 +22,35 @@ $\inf_{|t|\le N}D(f,\chi n^{it};N)\to\infty$, where $D(f,\chi n^{it};X)^2$
 is the sum over primes $p\le X$ of
 $(1-\operatorname{Re}(f(p)\overline{\chi(p)p^{it}}))/p$.
 
-**Corollary 1.3.** Let $f_1,f_2:\mathbb N\to\mathbb D$ be multiplicative, at
-least one of them uniformly nonpretentious. For all fixed integers
-$a_1,a_2\ge1$ and $b_1,b_2\ge0$ with $a_1b_2-a_2b_1\ne0$,
+**Corollary 1.3.** Take multiplicative $f_1,f_2:\mathbb N\to\mathbb D$, at
+least one uniformly nonpretentious, and two fixed nonproportional affine forms
+$a_1n+b_1$ and $a_2n+b_2$, meaning integers $a_1,a_2\ge1$ and $b_1,b_2\ge0$
+with $a_1b_2\ne a_2b_1$. The ordinary average of the product of $f_1$ and
+$f_2$ along these forms tends to zero:
 
 $$
 \frac1N\sum_{n=1}^Nf_1(a_1n+b_1)f_2(a_2n+b_2)\to0
 \qquad(N\to\infty).
 $$
 
-The proof remarks (p. 84) that zero intercepts and coefficients with common
-factors are included. By Lemma 18.5 and the closing paragraph of Section 18
+The proof notes (p. 84) that it covers forms with a zero intercept and
+coefficients sharing a factor. By Lemma 18.5 and the closing paragraph of Section 18
 (pp. 85--86) the corollary applies to every pair $f_1,f_2\in\{\lambda,\mu\}$.
 For $f_1=f_2=\lambda$ it recovers, without a rate, the conclusion of
 [[arithmetic_functions/openai_2026_ordinary_two_point_correlations_multiplicative_functions/theorem_1_1|Theorem 1.1]];
 the text says that with a Möbius factor it gives convergence without a rate.
+
+**Formalization.** The release's Lean page for the family describes a
+formalization of this statement, with the comparator theorem
+`OAI.OrdinaryTwoPointCorrelations.affine_corrected_elliott`. In words, it
+takes complex functions $f_1,f_2$ on the natural numbers, multiplicative on
+coprime positive arguments, bounded by one at positive arguments and one of
+them uniformly nonpretentious (in the file's form of (1.2), which the
+Theorem 1.2 page describes), and says that for natural numbers $a_1,a_2\ge1$
+and $b_1,b_2$ with $a_1b_2\ne a_2b_1$ the average
+$N^{-1}\sum_{n=1}^Nf_1(a_1n+b_1)f_2(a_2n+b_2)$ tends to $0$. It was read
+statically and not built or audited here, and the catalog lists no entry for
+it at this revision (see the card).
 
 **Source.** OpenAI, *Ordinary two-point correlations of multiplicative
 functions*, release folder

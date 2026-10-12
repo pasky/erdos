@@ -15,28 +15,30 @@ updated: 2026-10-12T23:13:55Z
 
 The correspondence chromatic number $\chi_{\mathrm{DP}}$ is defined on
 [[graph_coloring/openai_2026_correspondence_coloring_graphs_forbidden_clique/theorem_1_1|the Theorem 1.1 page]];
-it bounds the list and ordinary chromatic numbers from above. For a fixed
-finite graph $F$, a graph $G$ is $F$-free if it has no subgraph isomorphic to
-$F$; the subgraph need not be induced (p. 2).
+it bounds the list and ordinary chromatic numbers from above. Fix a finite
+graph $F$. A graph $G$ is $F$-free when no subgraph of $G$, induced or not, is
+isomorphic to $F$ (p. 2). Logarithms are natural.
 
-**Corollary 1.2.** For every finite graph $F$ there are constants $C_F>0$
-and $\Delta_F\ge3$ such that every $F$-free graph $G$ of maximum degree
-$\Delta\ge\Delta_F$ satisfies
+**Corollary 1.2.** Each finite graph $F$ comes with a constant $C_F>0$ and a
+degree threshold $\Delta_F\ge3$ for which
 
 $$
-\chi_{\mathrm{DP}}(G)\le\Bigl\lceil C_F\frac{\Delta}{\log\Delta}\Bigr\rceil,
+\chi_{\mathrm{DP}}(G)\le\Bigl\lceil C_F\frac{\Delta}{\log\Delta}\Bigr\rceil
 $$
 
-with the natural logarithm. The constants are those of Theorem 1.1 at
-$r=\max\{4,|V(F)|\}$ and are not made explicit.
+holds for every $F$-free graph $G$ whose maximum degree $\Delta$ is at least
+$\Delta_F$. The constants are those of Theorem 1.1 at $r=\max\{4,|V(F)|\}$,
+and the manuscript does not make them explicit.
 
 The manuscript identifies the ordinary-coloring version with Conjecture 3.1
 of Alon, Krivelevich and Sudakov (J. Combin. Theory Ser. B 77 (1999)) and
 says the corollary proves that conjecture "in the stronger
-correspondence-coloring form" (p. 2). It adds that when $F$ contains a cycle
-the order $\Delta/\log\Delta$ cannot be improved in general, since graphs of
-girth greater than $|V(F)|$ and maximum degree at most $\Delta$ can have
-chromatic number of that order, citing Bollobás (1978) and the proof of
+correspondence-coloring form" (p. 2). It also marks a limit: when $F$
+contains a cycle, no bound of smaller order than $\Delta/\log\Delta$ holds
+for all $F$-free graphs, because some graphs whose girth exceeds $|V(F)|$
+have maximum degree at most $\Delta$ and chromatic number of order
+$\Delta/\log\Delta$; such graphs are $F$-free, since a cycle of $F$ has at
+most $|V(F)|$ vertices. For this it cites Bollobás (1978) and the proof of
 Proposition 1.2 of Alon, Krivelevich and Sudakov.
 
 **Source.** OpenAI, *Correspondence coloring graphs with a forbidden clique*,
@@ -60,6 +62,14 @@ Put $r=\max\{4,|V(F)|\}$. Since $F$ has at most $r$ vertices, $K_r$ contains
 $F$ as a subgraph, so an $F$-free graph is $K_r$-free, and
 [[graph_coloring/openai_2026_correspondence_coloring_graphs_forbidden_clique/theorem_1_1|Theorem 1.1]]
 at this $r$ gives the bound with $C_F=C_r$ and $\Delta_F=\Delta_r$.
+
+## Dependencies
+
+The proof uses no external input: it rests on Theorem 1.1 of the same
+manuscript, whose page lists that theorem's external inputs. The remarks
+after the corollary cite, at statement level, Conjecture 3.1 and the proof of
+Proposition 1.2 of Alon, Krivelevich and Sudakov (1999) and Bollobás (1978);
+none was checked here.
 
 ## Bears on
 

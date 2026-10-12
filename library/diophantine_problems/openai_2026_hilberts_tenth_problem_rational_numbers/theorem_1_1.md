@@ -13,14 +13,13 @@ updated: 2026-10-12T23:13:55Z
 
 ## Statement
 
-A polynomial $f\in\mathbb Z[X_1,\ldots,X_n]$ has a rational zero when
-$f(\mathbf x)=0$ for some $\mathbf x\in\mathbb Q^n$. The input to the
-decision problem is the polynomial together with its number of variables $n$,
-which is not bounded in advance.
+The decision problem takes as input a number of variables $n$, which is not
+bounded in advance, and a polynomial $f\in\mathbb Z[X_1,\ldots,X_n]$. It
+asks whether $f(\mathbf x)=0$ for some $\mathbf x\in\mathbb Q^n$, that is,
+whether $f$ has a rational zero.
 
-**Theorem 1.1.** No algorithm, given $n$ and a polynomial
-$f\in\mathbb Z[X_1,\ldots,X_n]$, decides whether $f$ has a zero in
-$\mathbb Q^n$.
+**Theorem 1.1.** This problem is undecidable: no algorithm gives the correct
+answer on every input $(n,f)$.
 
 The proof shows more: an algorithm for rational solvability would yield one
 for integer solvability, which the Davis--Putnam--Robinson--Matiyasevich

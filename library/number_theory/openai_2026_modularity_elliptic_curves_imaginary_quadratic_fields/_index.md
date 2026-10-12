@@ -232,12 +232,12 @@ section; the numbers below are the PDF's.
   twist of Steinberg, hence ordinary, in the totally toric case), from Varma
   and Caraiani--Newton's Lemma 6.1.3(4) with Geraghty's Lemma 5.6.
   Proposition 9.3 (p. 26): $B_t$ is modular over $F$, by the seed Theorem 6.3
-  and three applications of Theorem 6.2. Lemma 9.4 (p. 27): descent along a cyclic
-  prime-degree extension of CM fields (strong multiplicity one, cyclic base
-  change of Langlands and Arthur--Clozel, a character twist). The section
-  then descends from $F$ to $K$, untwists from $B_t$ to $E$, matches the
-  local parameters, and treats CM curves through Hecke characters and
-  the theory of complex multiplication of Shimura and Taniyama (pp. 27--28).
+  and three applications of Theorem 6.2. Lemma 9.4 (p. 27): descent along a
+  cyclic prime-degree extension of CM fields (strong multiplicity one, cyclic
+  base change of Langlands and Arthur--Clozel, a character twist). The section
+  then descends from $F$ to $K$, untwists from $B_t$ to $E$, matches the local
+  parameters, and treats CM curves through Hecke characters and the theory of
+  complex multiplication of Shimura and Taniyama (pp. 27--28).
 - References (pp. 28--30): 41 items; the one unpublished item is
   Caraiani--Newton's preprint, arXiv:2301.10509v3 (27 March 2025), whose
   third version's numbering the manuscript uses. No release manuscript is
@@ -253,11 +253,16 @@ README; there is no `verification/` folder.
 
 The manuscript names no Erdős problem, and no problem page is identified as
 using it. Where a problem page, one of its claim pages or a library card it
-links records an elliptic-curve argument (Problems 364, 672, 937, 939 and
-960; for Problem 672 the Frey-curve arguments are on the linked
-Bennett--Bruin--Győry--Hajdu and Bennett--Siksek cards), the curves are
-defined over $\mathbb Q$, where modularity is already known by
-Breuil--Conrad--Diamond--Taylor and is not the open point; Problems 937 and
-960 are solved. No page records a route through elliptic curves over an
+links records an elliptic-curve argument, for example for Problems 157, 158,
+364, 368, 672, 829, 937, 939, 960 and 976, the curves are defined over
+$\mathbb Q$, or over a finite field for Problems 157 and 158. For Problems 157
+and 158 the curve is the one in Hasse's bound on the linked Cilleruelo card;
+for Problem 368 the claim page records Pasten's modular approach through
+Shimura curves; for Problem 672 the Frey-curve arguments are on the linked
+Bennett--Bruin--Győry--Hajdu and Bennett--Siksek cards; and for Problems 829
+and 976 the curves are on the linked Stewart and Cuevas Barrientos--Pasten
+cards. Over $\mathbb Q$ modularity is already known by
+Breuil--Conrad--Diamond--Taylor and is not the open point; Problems 157, 937
+and 960 are solved. No page records a route through elliptic curves over an
 imaginary quadratic field; Problem 1214's claim page notes an elliptic-curve
 analogue over number fields only as not needed for that solved question.

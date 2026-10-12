@@ -14,32 +14,33 @@ updated: 2026-10-12T23:13:55Z
 
 ## Statement
 
-All graphs are finite, simple and undirected; logarithms are natural. A
-correspondence assignment on a graph $G$ gives each vertex $v$ a finite list
-$L(v)$, the lists pairwise disjoint, and each edge $uv$ a matching
-$M_{uv}\subseteq L(u)\times L(v)$, the forbidden pairs; the matchings need not
-agree around cycles. A coloring of the assignment picks $c(v)\in L(v)$ for
-every $v$ with $(c(u),c(v))\notin M_{uv}$ for every edge $uv$. The
-correspondence chromatic number $\chi_{\mathrm{DP}}(G)$ (also called the
-DP-chromatic number) is the least integer $k$ such that every correspondence
-assignment with all $|L(v)|\ge k$ has a coloring. List coloring and ordinary
-coloring are special cases, so
+Here a graph is finite, simple and undirected, and $\log$ is the natural
+logarithm. To set up a correspondence assignment on $G$, attach to every
+vertex $v$ a finite list $L(v)$, with different vertices receiving disjoint
+lists, and to every edge $uv$ a matching $M_{uv}\subseteq L(u)\times L(v)$
+whose pairs are declared forbidden; nothing ties the matchings of different
+edges together around a cycle. The assignment is colorable when one entry
+$c(v)\in L(v)$ can be chosen at each vertex so that no edge $uv$ has
+$(c(u),c(v))\in M_{uv}$. Then $\chi_{\mathrm{DP}}(G)$, the correspondence or
+DP-chromatic number, is the smallest integer $k$ for which every
+correspondence assignment with lists of at least $k$ entries is colorable.
+Ordinary and list coloring arise as special cases, and greedy coloring needs
+at most $\Delta(G)+1$ entries per list, so
 $\chi(G)\le\chi_{\mathrm{list}}(G)\le\chi_{\mathrm{DP}}(G)\le\Delta(G)+1$
-(p. 2). A graph is $K_r$-free if no $r$ of its vertices are pairwise
-adjacent.
+(p. 2). A graph is $K_r$-free when it has no $r$ pairwise adjacent vertices.
 
-**Theorem 1.1.** For every integer $r\ge4$ there are constants $C_r>0$ and
-$\Delta_r\ge3$, depending only on $r$, such that every $K_r$-free graph $G$
-of maximum degree $\Delta\ge\Delta_r$ satisfies
+**Theorem 1.1.** Fix an integer $r\ge4$. A constant $C_r>0$ and a degree
+threshold $\Delta_r\ge3$, both determined by $r$ alone, exist such that each
+$K_r$-free graph $G$ whose maximum degree $\Delta$ is at least $\Delta_r$ has
 
 $$
 \chi_{\mathrm{DP}}(G)\le\Bigl\lceil C_r\frac{\Delta}{\log\Delta}\Bigr\rceil.
 $$
 
-The text adds that the estimate is uniform in the number of vertices, the
-list sizes and the matchings, and that neither the constant nor the degree
-threshold is optimized (p. 2). By the chain above the same bound holds for
-$\chi_{\mathrm{list}}(G)$ and $\chi(G)$. The proof sets
+The bound therefore does not depend on the order of $G$, on the lengths of
+the lists or on the choice of matchings, and the manuscript makes no attempt
+to optimize $C_r$ or $\Delta_r$ (p. 2). By the chain above the same bound
+holds for $\chi_{\mathrm{list}}(G)$ and $\chi(G)$. The proof sets
 $C_r=100K/\gamma$ with $K=16(B+2)$, $\gamma=0.003$ and $B=B(r)$ the constant
 of Lemma 2.1; no explicit value of $B$, $C_r$ or $\Delta_r$ is given. The case
 $r=3$ is not part of the statement; the manuscript attributes the
@@ -114,6 +115,28 @@ $\ell\mapsto\sqrt\ell$ leaves bounded neighborhood weights, where triangles
 are directly bounded by edges, proving Proposition 2.5. The manuscript says
 these structural steps adapt the companion independence manuscript's
 Sections 2--5, with the added bound on entries per list.
+
+## Dependencies
+
+External inputs, taken at statement level; none was checked here. The
+manuscript says it proves every ingredient it needs, and cites the following
+as precedents for arguments it writes out. The companion manuscript *A
+logarithmic independence bound for clique-free graphs*, filed at
+[[extremal_graph_theory/openai_2026_logarithmic_independence_bound_clique_free_graphs/_index|the independence card]]:
+its Sections 2--5 for the multipliers, walks and splitting, its
+Lemmas 2.2--2.3 for the mean-one multipliers and the cross estimate, and its
+Sections 3--5 for the triangle estimate. The clique-free neighborhood
+recursion of Ajtai, Erdős, Komlós and Szemerédi (Section 3 of their 1981
+paper); the entropy increments controlling walk distributions of Benjamini,
+Duminil-Copin, Kozma and Yadin (their Section 2, Theorem 8); the coupling
+disagreement bound of Angel and Spinka (their Theorem 2), with a finite-state
+proof in the text. The read-$k$ concentration setting of Gavinsky, Lovett,
+Saks and Srinivasan, from which Lemma 4.3 is derived in the text through
+Finner's generalized Hölder inequality and Hoeffding's exponential-moment
+bound; the Lovász local lemma of Erdős and Lovász (1975), whose symmetric
+form is proved in the text. Johansson's method as presented by Bansal, Gupta
+and Guruganesh (Sections 2 and 6--8 of their extended version) is cited for
+the entropy, edge-energy and compensated-weight features of the rounds.
 
 ## Bears on
 

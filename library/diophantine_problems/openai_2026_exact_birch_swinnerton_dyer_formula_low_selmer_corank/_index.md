@@ -42,12 +42,12 @@ file at that revision on 2026-10-12.
 ```
 
 The held PDF has 94 pages with a text layer; its title page is dated October
-7, 2026 and its metadata records a creation date of 6 October 2026 (21:50
-at UTC offset −07:00). The printed page numbers equal the PDF page numbers.
-The TeX source is `build/main.tex` (82 lines), which inputs ten section files
-`build/sections/01-introduction.tex` to `10-center.tex` (7,190 lines
-together) and the bibliography `build/references.tex` (230 lines, 34
-entries): 7,502 lines in 12 files.
+7, 2026 and its metadata records a creation date of 7 October 2026. The
+printed page numbers equal the PDF page numbers. The TeX source is
+`build/main.tex` (82 lines), which inputs ten section files
+`build/sections/01-introduction.tex` to `10-center.tex` (7,190 lines together)
+and the bibliography `build/references.tex` (230 lines, 34 entries): 7,502
+lines in 12 files.
 
 **Attestation.** The release README states that the repository's manuscripts
 were "produced by an internal OpenAI model", that "Some outputs build upon
