@@ -93,8 +93,10 @@ unverified here, and each page's status rests on its own acceptance evidence.
   $P(n)=2$ and the third question is vacuous, and the $\epsilon=1/2$ barrier
   comes from the coprime-pair criterion $C(M)>n$, so this corollary
   strengthens nothing in the recorded theorem and answers none of the three
-  questions. Any route to the third question below $\epsilon=1/2$ would be
-  a separate character-sum argument the manuscript does not make.
+  questions. The page records such a route, Plasma AI's observation,
+  which uses Theorem 1.1 itself rather than this corollary: a quadratic
+  nonresidue lies outside the subgroup that argument meets only when the
+  subgroup lies inside the squares.
 - [[../wiki/problems/discrete_geometry/E0769/_index|Problem 769]]: the second of
   the two unaccepted partial claims the page records (Korsky's, submitted
   2026-08-05) has the Burgess least-nonresidue exponent $1/(4\sqrt e)$ in
