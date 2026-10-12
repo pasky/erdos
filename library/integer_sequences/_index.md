@@ -3,7 +3,7 @@ name: integer_sequences
 title: "Sequences and Densities of Integers"
 desc: "Sources filed under Sequences and Densities of Integers, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T18:25:18Z
+updated: 2026-10-12T23:13:55Z
 ---
 
 # Sequences and Densities of Integers
@@ -428,6 +428,12 @@ most k distinct prime factors, by a lower-bound sieve at the critical
 parameter 2 with an inverse estimate and stopped tree; the displayed
 question of Problem 970, touching Problems 687 and 929 through
 Y(x) = j(P(x)) - 1.
+
+[[integer_sequences/openai_2026_simultaneous_primitive_roots_conditional_lower_bound_prime_bases/_index|openai_2026_simultaneous_primitive_roots_conditional_lower_bound_prime_bases/]]: A 21-page release manuscript claiming, conditionally on four analytic and
+sieve inputs it states and attributes to the companion Artin manuscript,
+that for every fixed finite set of distinct primes at least c x/(log x)^2
+primes in (x,2x), for all large x, have every member as a primitive root;
+it names no Erdős problem and touches Problem 985 as background.
 
 [[integer_sequences/polymath_2014_variants_selberg_sieve_bounded_intervals_containing/_index|polymath_2014_variants_selberg_sieve_bounded_intervals_containing/]]: Generalizes Maynard's multidimensional Selberg sieve to prove H_1 <= 246
 unconditionally and H_1 <= 6 under the generalized Elliott-Halberstam

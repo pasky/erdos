@@ -93,9 +93,10 @@ on the claim page of
 this card.
 
 Companions. The release groups this manuscript with
-*Correspondence coloring graphs with a forbidden clique* (October 5, 2026),
+*Correspondence coloring graphs with a forbidden clique* (October 5, 2026;
+[[graph_coloring/openai_2026_correspondence_coloring_graphs_forbidden_clique/_index|its card]]),
 a companion on the Alon--Krivelevich--Sudakov coloring conjecture for graphs
-with a forbidden subgraph; that manuscript has no card in this library. The
+with a forbidden subgraph. The
 present manuscript also cites two release manuscripts on off-diagonal Ramsey
 numbers, *The sharp logarithmic exponent of $r(5,t)$*
 ([[ramsey_theory/openai_2026_sharp_logarithmic_exponent_r_5_t/_index|card]])

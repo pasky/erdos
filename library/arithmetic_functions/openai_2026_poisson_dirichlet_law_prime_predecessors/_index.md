@@ -69,8 +69,9 @@ dilation-graph operator theorems imported in Section 6; S is the family
 member that addresses totient fibers, and this manuscript says S's Theorem
 1.2 (a count of $x^{1-o(1)}$ primes with smooth predecessors) does not imply
 the positive limiting proportion claimed here. The third family member, *Prime
-predecessors with an even number of prime factors*, is not cited by this
-manuscript and has no card in this library as of the read date.
+predecessors with an even number of prime factors*
+([[arithmetic_functions/openai_2026_prime_predecessors_even_number_prime_factors/_index|its card]]),
+is not cited by this manuscript.
 
 Read status: claims checked for Theorem 1.1, for the fixed-$u$ consequence
 (1.3) the introduction draws from it, and for the statements of Theorems 3.1,

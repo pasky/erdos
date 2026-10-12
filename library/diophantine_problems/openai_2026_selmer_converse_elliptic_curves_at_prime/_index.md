@@ -60,12 +60,14 @@ formalization for this manuscript, and its family has no page under
 
 Companions. The release groups this manuscript in the family "The full BSD
 formula from low Selmer corank", with *Exact Birch--Swinnerton-Dyer Formula
-from Low Selmer Corank* (October 3, 2026), which the family description says
-proves the full leading-term formula under the same corank hypothesis, and
-*The two-primary Birch--Swinnerton-Dyer formula in Selmer corank at most one*
-(September 24, 2026), its $2$-primary version; this manuscript supplies the
-rank-equality and finiteness statement those formulas build on. Neither
-companion is held in this library, so neither is linked. The proof also
+from Low Selmer Corank* (October 3, 2026; its October 7 version has
+[[diophantine_problems/openai_2026_exact_birch_swinnerton_dyer_formula_low_selmer_corank/_index|a card]]),
+which the family description says proves the full leading-term formula under
+the same corank hypothesis, and *The two-primary Birch--Swinnerton-Dyer formula
+in Selmer corank at most one* (September 24, 2026), its $2$-primary version;
+this manuscript supplies the rank-equality and finiteness statement those
+formulas build on. The two-primary companion is not held in this library, so it
+is not linked. The proof also
 imports two theorems from a third release manuscript, *Goldfeld's analytic
 density conjecture and the $2$-converse for elliptic curves* (September 23,
 2026), which is not held in this library either.

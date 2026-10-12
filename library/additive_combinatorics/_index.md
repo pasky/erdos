@@ -3,7 +3,7 @@ name: additive_combinatorics
 title: "Sumsets and Arithmetic Progressions"
 desc: "Sources filed under Sumsets and Arithmetic Progressions, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T18:03:01Z
+updated: 2026-10-12T23:13:55Z
 ---
 
 # Sumsets and Arithmetic Progressions
@@ -518,6 +518,26 @@ irregular k.
 sets, through edge-directions, Graver bases and n-fold integer programming,
 with result pages for its main theorems and for the Graver-basis lemma that
 the E0774 digest uses.
+
+[[additive_combinatorics/openai_2026_power_saving_intersective_polynomial_differences/_index|openai_2026_power_saving_intersective_polynomial_differences/]]: A 47-page manuscript of the OpenAI mathematics release claiming that, for
+each degree k >= 2, every subset of {1, ..., N} with no difference equal to
+a nonzero value h(n), n >= 1, of an intersective integer polynomial h of
+degree k with positive leading coefficient has O_h(N^(1-c_k)) elements,
+with c_k > 0 depending only on k; it names no Erdős problem.
+
+[[additive_combinatorics/openai_2026_power_saving_polynomial_differences_prime_arguments/_index|openai_2026_power_saving_polynomial_differences_prime_arguments/]]: A 42-page manuscript claiming that, for a fixed integer polynomial h of
+degree at least 2 with positive leading coefficient and a unit root modulo
+every positive integer, a subset of {1,...,N} with no difference equal to a
+nonzero h(p), p prime, has at most C_h N^(1-c_h) elements; the proof takes
+the release's claimed zero-free half-plane Re s > 7/8 for Dirichlet
+L-functions as input. It names no Erdős problem.
+
+[[additive_combinatorics/openai_2026_power_saving_square_difference_free_sets/_index|openai_2026_power_saving_square_difference_free_sets/]]: A 48-page release manuscript claiming absolute constants $c>0$ and $C$ with
+$|A|\le CN^{1-c}$ for every $A\subseteq\{1,\ldots,N\}$ with no difference
+equal to a positive square, the fixed power saving in the
+Furstenberg–Sárközy theorem asked for by Green and Sawhney, by a
+reflection-positive multilinear functional of Fourier lifts and an
+induction on scales; it names no Erdős problem.
 
 [[additive_combinatorics/openai_2026_quantitative_superexponential_bounds_van_der_waerden_numbers/_index|openai_2026_quantitative_superexponential_bounds_van_der_waerden_numbers/]]: A release manuscript claiming W_r(k) > k^(c k floor(log_2 r)) with
 c = 10^(-5) for every r >= 2 and every k above one absolute threshold, by a

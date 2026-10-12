@@ -70,8 +70,9 @@ predecessors*
 which the introduction (p. 2) says takes the graph and ideal-kernel estimates
 of Sections 3--4 here as inputs to its own determinant-graph estimate and its
 own extraction of primes; and *Prime predecessors with an even number of
-prime factors* (September 17, 2026), a third member of the same release family
-that is not held in this library and that the manuscript does not cite.
+prime factors* (September 17, 2026;
+[[arithmetic_functions/openai_2026_prime_predecessors_even_number_prime_factors/_index|its card]]),
+a third member of the same release family, which the manuscript does not cite.
 
 Read status: claims checked for Theorem 1.1, Theorem 1.2 and Lemma 8.1, read
 clause by clause in the TeX source (`sections/00-introduction.tex`, lines

@@ -3,7 +3,7 @@ name: irrationality
 title: "Irrationality and Diophantine Approximation"
 desc: "Sources filed under Irrationality and Diophantine Approximation, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T17:21:06Z
+updated: 2026-10-12T23:13:55Z
 ---
 
 # Irrationality and Diophantine Approximation
@@ -188,6 +188,18 @@ values at algebraic q, among them 1 - 24 times the sum of sigma(n) over
 
 [[irrationality/nguyen_2022_transcendental_series_reciprocals_fibonacci_lucas_numbers/_index|nguyen_2022_transcendental_series_reciprocals_fibonacci_lucas_numbers/]]: Proves transcendence of Fibonacci and Lucas reciprocal subseries when the
 ratio of successive indices is at least a fixed constant greater than two.
+
+[[irrationality/openai_2026_catalans_constant_irrational/_index|openai_2026_catalans_constant_irrational/]]: A 44-page manuscript of the OpenAI mathematics release claiming that
+Catalan's constant G, the sum of (-1)^j/(2j+1)^2 over j >= 0, is irrational,
+by comparing a finite-place lower bound with a certified real-place upper
+bound for growing determinants of mixed moments; it names no Erdős problem.
+
+[[irrationality/openai_2026_irrationality_exponent_pi_2/_index|openai_2026_irrationality_exponent_pi_2/]]: A 23-page release manuscript claiming that the irrationality exponent of pi
+is 2, by an interpolation-determinant argument on logarithmic curves built
+from hypothetical good rational approximations to pi, and deducing that the
+Flint-Hills series sum 1/(n^3 sin^2 n) converges and that
+sum 1/(n^a |sin n|^b) converges exactly when a > max(1, b); it names no
+Erdős problem.
 
 [[irrationality/openai_2026_weak_inhomogeneous_duffin_schaeffer_conjecture/_index|openai_2026_weak_inhomogeneous_duffin_schaeffer_conjecture/]]: An 87-page manuscript of the OpenAI mathematics release claiming the weak
 inhomogeneous Duffin–Schaeffer conjecture for every fixed real shift, by a
