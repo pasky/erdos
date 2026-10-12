@@ -29,20 +29,22 @@ $\lvert D_6\cap \{1,\ldots,n\}\rvert \gg n$?
 
 **Status.** OPEN, the site's label (problem page, discussion thread and
 proof-claims tab read 2026-10-07). The derived standing, solved and answered,
-departs from the label. It rests on Hartley and Olson's claim, accepted on
-[[problems/diophantine_problems/E0374/claims/2026_09_29_hartley_olson|its claim page]]:
-Jacob Parish at Plasma AI checked and accepted it, and this corpus built its
-Lean development and audited the statements it proves. The site's curator has
-credited neither full claim. The site's proof-claims tab carries three proof
-claims. Hartley and Olson and Yudin
-([[problems/diophantine_problems/E0374/claims/2026_10_01_yudin|claim page]])
-each claim the full determination. Hartley and Olson's forum submission covered
-the positive lower density of $D_6$. Their revised paper adds the orders of
-growth of $D_3$ through $D_5$. Yudin's claim reaches the same conclusions by a
-different argument and stays pending. Zeraoulia's partial claim of 2026-07-27 is
-the bound $D_6(x)=\omega(x/\log x)$ with certified computations. It determines
-no order of growth and does not reach $D_6(x)\gg x$. So it settles no instance
-and has no claim page.
+departs from the label. It rests on two accepted claims that reach the same
+conclusions, Hartley and Olson's
+([[problems/diophantine_problems/E0374/claims/2026_09_29_hartley_olson|claim page]])
+and Yudin's
+([[problems/diophantine_problems/E0374/claims/2026_10_01_yudin|claim page]]).
+Jacob Parish at Plasma AI checked and accepted both, and this corpus built
+Hartley and Olson's Lean development and audited the statements it proves, which
+are also the statements with which Yudin's claim answers the question. The
+site's curator has credited neither claim. The site's proof-claims tab carries
+three proof claims. Hartley and Olson and Yudin each claim the full
+determination. Hartley and Olson's forum submission covered the positive lower
+density of $D_6$, and their revised paper adds the orders of growth of $D_3$
+through $D_5$. Zeraoulia's partial claim of 2026-07-27 is the bound
+$D_6(x)=\omega(x/\log x)$ with certified computations. It determines no order of
+growth and does not reach $D_6(x)\gg x$. So it settles no instance and has no
+claim page.
 
 **Source.** [erdosproblems.com/374](https://www.erdosproblems.com/374), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #374,
@@ -88,28 +90,34 @@ to the case $k=3$
 ([[../library/diophantine_problems/tao_2026_products_consecutive_integers_unusual_anatomy/_index|card]]).
 The elementary identity $n!(n-1)!u!(u-1)!=\square$ for $n=v^2u$ puts every
 nonsquarefree nonsquare $n$ in $D_3\cup D_4$, so $D_4$ has positive lower
-density. Three claims have been made, two have claim pages, and one of those is
-accepted. Zeraoulia's preprint of 2026-07-27 derives $D_6(x)=\omega(x/\log x)$
-from the fixed-cofactor theorem of Erdős and Graham and reports certified
-computations; it settles no instance of the question, so it has no claim page.
-Two independent preprints then assert the full determination: Hartley and Olson,
-posted on SSRN on 2026-09-29 with the positive lower density of $D_6$ and
-revised, in their repository, to the orders of growth of $D_3$ through $D_6$,
-with a Lean development they report as sorry-free on the standard axioms
+density. Three claims have been made, two have claim pages, and both of those
+are accepted. Zeraoulia's preprint of 2026-07-27 derives
+$D_6(x)=\omega(x/\log x)$ from the fixed-cofactor theorem of Erdős and Graham
+and reports certified computations; it settles no instance of the question, so
+it has no claim page.
+Two preprints then assert the full determination: Hartley and Olson, posted on
+SSRN on 2026-09-29 with the positive lower density of $D_6$ and revised, in
+their repository, to the orders of growth of $D_3$ through $D_6$, with a Lean
+development they report as sorry-free on the standard axioms
 ([[problems/diophantine_problems/E0374/claims/2026_09_29_hartley_olson|claim page]]),
 and Yudin, posted on arXiv on 2026-10-01, with
 $D_3(X)=\kappa_3\sqrt X+O_\varepsilon(X^{2/5+\varepsilon})$,
 $\kappa_3=2.709751\ldots$, and $D_5(X)\asymp D_6(X)\asymp X$
 ([[problems/diophantine_problems/E0374/claims/2026_10_01_yudin|claim page]]).
 Neither has been refereed or credited by the curator, and the two agree in their
-conclusions. Hartley and Olson's claim is accepted: Jacob Parish at Plasma AI
-checked and accepted it, and on 2026-10-12 this corpus built their Lean
-development, checked its axioms and audited its statements against the question.
-Yudin's claim is unreviewed and stays pending. Search scope: the site's problem
-page, discussion thread and proof-claims tab with its comments, read 2026-10-07,
-the arXiv record, the Zenodo record and the GitHub repository named on the
-Hartley–Olson claim page; the SSRN posting is outside that scope. This corpus
-holds no independent verification record of either proof.
+conclusions. Both claims are accepted: Jacob Parish at Plasma AI checked and
+accepted each, and on 2026-10-12 this corpus built Hartley and Olson's Lean
+development, checked its axioms and audited its statements against the question;
+they are also the statements with which Yudin's claim answers it. Hartley and
+coauthors were first with $D_6$ (SSRN, 2026-09-29) and Yudin with the full
+determination (arXiv, 2026-10-01). Whether Hartley and Olson's arguments for
+$D_3$ and $D_5$, first public on 2026-10-04 and citing Yudin's preprint until
+2026-10-05, were found independently is not settled by the record, as both claim
+pages record. Search scope: the site's problem page, discussion thread and
+proof-claims tab with its comments, read 2026-10-07, the arXiv record, the
+Zenodo record and the GitHub repository named on the Hartley–Olson claim page;
+the SSRN posting is outside that scope. This corpus holds no independent
+verification record of either proof.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

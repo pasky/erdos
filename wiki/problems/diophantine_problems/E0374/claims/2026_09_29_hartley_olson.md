@@ -114,20 +114,35 @@ used:
 > identity then gives \(F(m)=6\) for a positive proportion of integers. Posted
 > to SSRN on 29 Sep 2026.
 
-**Authorship and the parallel proof.** The forum claim of 2026-10-02 names
-three claimants, Dhillon, Hartley and Olson; the paper at the pinned commit
-lists Hartley and Olson, after a commit of 2026-10-06 that updated the author
-list, and this page follows the paper. The title footnote records that
-[[problems/diophantine_problems/E0374/claims/2026_10_01_yudin|Yudin]]
+**Authorship and the parallel proof.** The forum claim of 2026-10-02 names three
+claimants, Dhillon, Hartley and Olson; the paper at the pinned commit lists
+Hartley and Olson, after a commit of 2026-10-06 that updated the author list,
+and this page follows the paper. Hartley and coauthors were first with $D_6$:
+the SSRN posting of 2026-09-29 contains Theorem 1.1, and the forum claim of
+2026-10-02 covers $D_6$ only.
+[[problems/diophantine_problems/E0374/claims/2026_10_01_yudin|Yudin's]]
+preprint, with the asymptotic for $D_3$ and the orders of $D_5$ and $D_6$,
+appeared on arXiv on 2026-10-01. The repository's first commit, of 2026-10-04,
+already holds the expanded paper and the Lean development for all four cases,
+and the repository has no earlier history. Until a commit of 2026-10-05 the
+paper said, after its growth theorem, "For (i) and (iii), see also [8]", [8]
+being Yudin's preprint, so citing Yudin for $D_3$ and $D_5$. That commit
+replaced the sentence with the title footnote, which says that Yudin
 independently proved the positive lower density of $D_6$, the bound
-$D_5(X)\asymp X$ and the asymptotic for $D_3$, Yudin's preprint appearing on
-arXiv on 2026-10-01, two days after the SSRN posting, and lists the differences
-between the arguments: Huxley's short-interval theorem against Harman's
-almost-all theorem for the primes, a direct use of the equidistribution
-estimate for both block lengths against the valuation-one prime-mass lemma
-(Lemma 4.1) combined with the short-gap corollary drawn from Harman's theorem
-(Corollary 6.2), a different arithmetic set of endpoints, and Tao's uniform
-Pell bound against an elementary count for $D_3$.
+$D_5(X)\asymp X$ and the asymptotic for $D_3$, and lists the differences between
+the arguments: Huxley's short-interval theorem against Harman's almost-all
+theorem for the primes, a direct use of the equidistribution estimate for both
+block lengths against the valuation-one prime-mass lemma (Lemma 4.1) combined
+with the short-gap corollary drawn from Harman's theorem (Corollary 6.2), a
+different arithmetic set of endpoints, and Tao's uniform Pell bound against an
+elementary count for $D_3$. The record does not settle whether the $D_3$ and
+$D_5$ arguments here were found independently of Yudin's preprint. The two $D_3$
+arguments share their structure: the consecutive representations give the main
+term, and the rest, once the block length is shown small, split at a threshold
+on the squarefree part of the smallest factorial into a case counted through
+Pell equations and a case bounded by Gallagher's larger sieve with the Weil
+bound, the two balanced to give the exponent $2/5$. They differ in the Pell
+count and in how the block length is bounded.
 
 **Acceptance.** Reviewed and formalized. Reviewed: Jacob Parish at Plasma AI
 checked the claim and accepted it; the acceptance was recorded on 2026-10-12.
