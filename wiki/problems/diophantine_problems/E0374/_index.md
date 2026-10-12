@@ -31,10 +31,10 @@ $\lvert D_6\cap \{1,\ldots,n\}\rvert \gg n$?
 proof-claims tab read 2026-10-07). The derived standing, solved and answered,
 departs from the label. It rests on Hartley and Olson's claim, accepted on
 [[problems/diophantine_problems/E0374/claims/2026_09_29_hartley_olson|its claim page]]:
-Jacob Parish checked and accepted it, and this corpus built its Lean development
-and audited the statements it proves. The site's curator has credited neither
-full claim. The site's proof-claims tab carries three proof claims. Hartley and
-Olson and Yudin
+Jacob Parish at Plasma AI checked and accepted it, and this corpus built its
+Lean development and audited the statements it proves. The site's curator has
+credited neither full claim. The site's proof-claims tab carries three proof
+claims. Hartley and Olson and Yudin
 ([[problems/diophantine_problems/E0374/claims/2026_10_01_yudin|claim page]])
 each claim the full determination. Hartley and Olson's forum submission covered
 the positive lower density of $D_6$. Their revised paper adds the orders of
@@ -102,14 +102,14 @@ $D_3(X)=\kappa_3\sqrt X+O_\varepsilon(X^{2/5+\varepsilon})$,
 $\kappa_3=2.709751\ldots$, and $D_5(X)\asymp D_6(X)\asymp X$
 ([[problems/diophantine_problems/E0374/claims/2026_10_01_yudin|claim page]]).
 Neither has been refereed or credited by the curator, and the two agree in their
-conclusions. Hartley and Olson's claim is accepted: Jacob Parish checked and
-accepted it, and on 2026-10-12 this corpus built their Lean development, checked
-its axioms and audited its statements against the question. Yudin's claim is
-unreviewed and stays pending. Search scope: the site's problem page, discussion
-thread and proof-claims tab with its comments, read 2026-10-07, the arXiv
-record, the Zenodo record and the GitHub repository named on the Hartley–Olson
-claim page; the SSRN posting is outside that scope. This corpus holds no
-independent verification record of either proof.
+conclusions. Hartley and Olson's claim is accepted: Jacob Parish at Plasma AI
+checked and accepted it, and on 2026-10-12 this corpus built their Lean
+development, checked its axioms and audited its statements against the question.
+Yudin's claim is unreviewed and stays pending. Search scope: the site's problem
+page, discussion thread and proof-claims tab with its comments, read 2026-10-07,
+the arXiv record, the Zenodo record and the GitHub repository named on the
+Hartley–Olson claim page; the SSRN posting is outside that scope. This corpus
+holds no independent verification record of either proof.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

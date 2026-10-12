@@ -5,8 +5,8 @@ desc: |
   Hartley and Olson show that $D_3(X)\asymp\sqrt X$ and $D_k(X)\asymp X$ for
   $k=4,5,6$, the order of growth of $D_k$ for every $k$ from 3 to 6, including
   the Erdős–Graham conjecture that $D_6$ has positive lower density. It is
-  accepted on Jacob Parish's review and on the corpus's build and audit of its
-  Lean.
+  accepted on the review of Jacob Parish at Plasma AI and on the corpus's build
+  and audit of its Lean.
 authors:
 - Jonathan S. Hartley
 - Matthew A. Olson
@@ -129,8 +129,8 @@ estimate for both block lengths against the valuation-one prime-mass lemma
 (Corollary 6.2), a different arithmetic set of endpoints, and Tao's uniform
 Pell bound against an elementary count for $D_3$.
 
-**Acceptance.** Reviewed and formalized. Reviewed: Jacob Parish checked the
-claim and accepted it; the acceptance was recorded on 2026-10-12.
+**Acceptance.** Reviewed and formalized. Reviewed: Jacob Parish at Plasma AI
+checked the claim and accepted it; the acceptance was recorded on 2026-10-12.
 
 Formalized: this corpus's verification built the repository at the pinned commit
 `24533265` of 2026-10-06 (Lean `v4.35.0-rc2`, with the Mathlib commit its
