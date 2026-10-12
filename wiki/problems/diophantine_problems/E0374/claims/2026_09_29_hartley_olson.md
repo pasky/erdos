@@ -145,10 +145,10 @@ build naming the integration modules `E374.IntegrationD34` and
 `Erdos374CompleteWork.positive_lower_density`, of
 `LiteratureReduction.minimumSix_eq_D6`, and of
 `Erdos374.D35.Integration.growth_summary`, its parts `D3_order_closed`,
-`D4_order_closed`, `D5_order_closed` and `D6_order_closed`, and
-`D3_asymptotic_closed`. Each depends on exactly `propext`, `Classical.choice`
-and `Quot.sound`, and the build's own axiom reports, for 803 declarations, name
-no other axiom.
+`D4_order_closed`, `D5_order_closed` and `D6_order_closed`,
+`D3_asymptotic_closed` and `D4_lowerDensity_closed`. Each depends on exactly
+`propext`, `Classical.choice` and `Quot.sound`, and the build's own axiom
+reports, for 803 declarations, name no other axiom.
 
 The repository has no comparator challenge, so the statements were audited
 clause by clause against the Statement. A representation of $m$ of length
@@ -164,7 +164,8 @@ $\sqrt X/2\le D_3(X)\le C\sqrt X$ for all large $X$, and positive lower density
 for $D_4$, $D_5$ and $D_6$ with each count at most $X$. `D3_asymptotic_closed`
 gives $\lvert D_3(X)-\kappa_3\sqrt X\rvert\le C_\varepsilon X^{2/5+\varepsilon}$
 for every $\varepsilon>0$ and all large $X$, where $\kappa_3$ sums $q^{-1/2}$
-over the distinct values $q=q_a\ne1$ with $a\ge1$.
+over the distinct values $q=q_a\ne1$ with $a\ge1$. `D4_lowerDensity_closed`
+gives the paper's lower density of at least $1/4$ for $D_4$.
 `Erdos374CompleteWork.conclusions` states Theorem 1.1 as the claim above gives
 it, together with the positive lower density of `MinimumSix`, which
 `minimumSix_eq_D6` identifies with $D_6$. So the formalization proves the order

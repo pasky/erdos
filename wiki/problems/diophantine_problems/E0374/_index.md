@@ -108,8 +108,8 @@ its axioms and audited its statements against the question. Yudin's claim is
 unreviewed and stays pending. Search scope: the site's problem page, discussion
 thread and proof-claims tab with its comments, read 2026-10-07, the arXiv
 record, the Zenodo record and the GitHub repository named on the Hartley–Olson
-claim page; the SSRN posting is outside that scope. Neither proof is
-independently reviewed by this project.
+claim page; the SSRN posting is outside that scope. This corpus holds no
+independent verification record of either proof.
 <!-- BEGIN problem library links -->
 
 ## Linked library material
