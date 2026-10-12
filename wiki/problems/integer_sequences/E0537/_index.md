@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0537
 title: Problem 537
 desc: |
-  Asks whether every subset of the integers up to N of positive density
-  contains three elements which become equal after multiplying each by a
-  distinct prime.
+  Asks whether, for each $\epsilon>0$ and all large $N$, every
+  $A\subseteq\{1,\ldots,N\}$ with $|A|\ge\epsilon N$ contains $a_1,a_2,a_3$ with
+  $a_1p_1=a_2p_2=a_3p_3$ for some distinct primes $p_1,p_2,p_3$.
 tags:
 - Number theory
 status: solved
@@ -42,23 +42,21 @@ $a_i\in A$; he notes that a positive answer would give three $a$'s with
 pairwise the same least common multiple, the question of Problem 536. The
 site cites [Er73] as its only source.
 
-**Status.** The site's label is DISPROVED (LEAN). The status-defining
-source is Erdős's 1973 survey, printed p. 124, which reports a construction
-of I. Ruzsa: the squarefree integers
-$q_1\cdots q_r$ whose prime factors satisfy $q_{i+1}>2q_i$ have positive
-density, and for their intersection with $(n/2,n)$ the equation $pa_i=m$
-has at most two solutions for every $m$. The site's commentary reproduces
-the two-line argument, checked here. The standing derives from the claim
-page
+**Status.** The site's label is DISPROVED (LEAN). The standing derives from the
+claim page
 [[problems/integer_sequences/E0537/claims/1973_01_01_ruzsa|Ruzsa's construction]],
-accepted on the site's acceptance of the construction (the 1973 chapter is
-a contribution to an edited proceedings volume whose refereeing no record
-found documents, so it is the source and not acceptance evidence), so the
-problem is solved, disproved; the external Lean formalization inspected
-statically at a pinned revision (below) is recorded on the claim page and
-is not acceptance evidence. No dispute was found. The (LEAN)
-suffix is a catalog label; nothing was built or kernel-checked
-here.
+accepted on the site's acceptance of the construction, so the problem is solved,
+disproved. The status-defining source is Erdős's 1973 survey, printed p. 124,
+which reports a construction of I. Ruzsa. The squarefree integers
+$q_1\cdots q_r$ whose prime factors satisfy $q_{i+1}>2q_i$ have positive
+density. For their intersection with $(n/2,n)$, the equation $pa_i=m$ has at
+most two solutions for every $m$. The site's commentary reproduces the two-line
+argument, checked here. The 1973 chapter is a contribution to an edited
+proceedings volume, and no record found documents its refereeing. So the chapter
+is the source, not acceptance evidence. The external Lean formalization,
+inspected statically at a pinned revision (below), is recorded on the claim page
+and is not acceptance evidence. No dispute was found. The (LEAN) suffix is a
+catalog label. Nothing was built or kernel-checked here.
 
 **Source.** [erdosproblems.com/537](https://www.erdosproblems.com/537),
 accessed 2026-09-18: the problem page (DISPROVED (LEAN), the site's label

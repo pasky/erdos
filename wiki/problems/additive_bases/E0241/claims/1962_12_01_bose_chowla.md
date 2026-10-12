@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0241/claims/1962_12_01_bose_chowla
 title: Bose and Chowla's lower bound for three-fold sums
 desc: |
-  Bose and Chowla (Comment. Math. Helv. 1962) construct sets in {1,...,N} of
-  size (1+o(1)) times the cube root of N whose three-element sums are
-  distinct, the lower half of the asymptotic; accepted on the publication.
+  Bose and Chowla (Comment. Math. Helv. 1962) construct sets in $\{1,\ldots,N\}$
+  of size $(1+o(1))N^{1/3}$ whose three-element sums are distinct. This gives
+  the lower half of the asymptotic, and the claim is accepted on the
+  publication.
 authors:
 - R. C. Bose
 - S. Chowla
@@ -45,8 +46,8 @@ $f(N)\le((7/2)^{1/3}+o(1))N^{1/3}$ [Gr01], which settles neither half.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: R. C. Bose and S. Chowla, Theorems in the additive
-theory of numbers, Comment. Math. Helv. 37 (1962), no. 1, 141--147. The
-Crossref record gives the issue as December 1962 and no day, so the page is
-dated to the first day of that month. The site's commentary credits Bose and
-Chowla with one half of the asymptotic, but on a problem the site labels
-OPEN that commentary is not review.
+theory of numbers, Comment. Math. Helv. 37 (1962), no. 1, 141--147. The Crossref
+record gives the issue as December 1962 and no day, so the page is dated to the
+first day of that month. The site's commentary credits Bose and Chowla with one
+half of the asymptotic. But the site labels the problem OPEN, so that commentary
+is not review.

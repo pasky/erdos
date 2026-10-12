@@ -2,8 +2,10 @@
 name: problems/extremal_graph_theory/E0548
 title: Problem 548
 desc: |
-  Records the proved Erdős–Sós tree edge bound and the precise relation
-  between its sharp threshold and the site's statement.
+  Asks whether every graph on $n\ge k+1$ vertices with at least
+  $\frac{k-1}{2}n+1$ edges contains every tree on $k+1$ vertices. The Erdős–Sós
+  tree edge bound is proved, and the page records the precise relation between
+  its sharp threshold and the site's statement.
 tags:
 - Graph theory
 status: solved
@@ -23,24 +25,23 @@ updated: 2026-10-08T01:29:59Z
 **Statement.** Let $n\geq k+1$. Every graph on $n$ vertices with at least
 $\frac{k-1}{2}n+1$ edges contains every tree on $k+1$ vertices.
 
-**Status.** Proved. The site labels the problem proved and formalized,
-crediting GPT-6 Astra with the full proof, and the corpus accepts that result
-on the
+**Status.** Proved. The site labels the problem proved and formalized, crediting
+GPT-6 Astra with the full proof. The corpus accepts that result on the
 [[problems/extremal_graph_theory/E0548/claims/2026_09_03_adamczewski|claim page]]
-on reviewed and formalized evidence: the pinned Lean development was built
-here, its axioms found to be the three standard ones, its compared
-declaration matched to the comparator challenge and its statement audited
-against the Statement above, and three arXiv papers by mathematicians
-independent of the claimant and the curator affirm the proof (Riordan and
-Scott, Wood, and Frederickson; Current assessment, below), so the problem
-stands solved and proved. The site's own acceptance is not an independent
-review, since its curator submitted the proof-claim entry and co-wrote the
-publication, and nothing is refereed. The
-[[../library/extremal_graph_theory/adamczewski_2026_erdos548/theorem_1|sharp tree-free
-edge bound]] also establishes the classical strict threshold
-$e(G)>(k-1)n/2$. The formal verification and the preliminary state of the
-human-readable exposition are distinguished below. Three further proofs of
-stronger theorems are paged as claimed full claims:
+on reviewed and formalized evidence, so the problem stands solved and proved.
+The pinned Lean development was built here, and its axioms were found to be the
+three standard ones. Its compared declaration was matched to the comparator
+challenge, and its statement was audited against the Statement above. Three
+arXiv papers by mathematicians independent of the claimant and the curator
+affirm the proof (Riordan and Scott, Wood, and Frederickson; Current assessment,
+below). The site's own acceptance is not an independent review, since its
+curator submitted the proof-claim entry and co-wrote the publication. Nothing is
+refereed. The
+[[../library/extremal_graph_theory/adamczewski_2026_erdos548/theorem_1|sharp tree-free edge bound]]
+also establishes the classical strict threshold $e(G)>(k-1)n/2$. The formal
+verification and the preliminary state of the human-readable exposition are
+distinguished below. Three further proofs of stronger theorems are paged as
+claimed full claims:
 [[problems/extremal_graph_theory/E0548/claims/2026_09_07_debiasio|DeBiasio 2026]]
 (two strengthenings proved with GPT-6 Astra, with Lean),
 [[problems/extremal_graph_theory/E0548/claims/2026_09_14_riordan_scott|Riordan--Scott 2026]]

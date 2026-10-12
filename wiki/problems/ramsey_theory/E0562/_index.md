@@ -2,8 +2,9 @@
 name: problems/ramsey_theory/E0562
 title: Problem 562
 desc: |
-  Estimates the Ramsey number for r-uniform hypergraphs, the fewest vertices
-  forcing a monochromatic complete r-uniform subhypergraph on n vertices.
+  Asks for a proof that $\log_{r-1}R_r(n)\asymp_r n$ for $r\ge3$, where $R_r(n)$
+  is the two-color Ramsey number of the complete $r$-uniform hypergraph on $n$
+  vertices and $\log_{r-1}$ is the $(r-1)$-fold iterated logarithm.
 tags:
 - Graph theory
 - Ramsey theory
@@ -57,21 +58,20 @@ exponentiations above the top term, as the site's picture does; [EHR65] counts
 $\mathrm{twr}_i$ with $\mathrm{twr}_1(x)=x$, so that the problem asks for
 $R_r(n)\ge\mathrm{twr}_r(c_rn)$.
 
-**Status.** Open. No proof, disproof, preprint or proof claim for the exact
-statement was found in the search whose scope the
-Current assessment records. For every $r\ge3$ the bounds in hand are
-$\log_{r-1}R_r(n)\le k_rn$ (Erdős and Rado, stated as 16.3 of [EHR65]) and
-$\log_{r-1}R_r(n)\ge\log_2(c'n^2)$ (the stepping-up lower bound
-$R_r(n)\ge\mathrm{twr}_{r-1}(c'n^2)$, a tower one exponentiation short,
-restated second-hand in 2025--2026 sources; [EHR65] states $2^{cb^2}$ for
-$r=3$ and, proofs omitted, $\mathrm{twr}_{r-1}(\tfrac12c^{r-3}b)$ for
-general $r$), so the lower side is known only at order $\log n$ against the
-conjectured order $n$; with four colors the matching lower bound is known
-([BHS25] p. 1, crediting the Erdős--Hajnal stepping-up construction via
-Graham, Rothschild and Spencer; the site's Problem 564 commentary credits
-the 3-uniform case to Erdős, Hajnal, Máté and Rado 1984, not held), and a
-2025 paper published in 2026 calls closing the two-color gap "a major open
-problem". This is a bounded negative finding, not a
+**Status.** Open. The search whose scope the Current assessment records found no
+proof, disproof, preprint or proof claim for the exact statement. For every
+$r\ge3$ the bounds in hand are $\log_{r-1}R_r(n)\le k_rn$ (Erdős and Rado,
+stated as 16.3 of [EHR65]) and $\log_{r-1}R_r(n)\ge\log_2(c'n^2)$. The lower
+bound comes from the stepping-up lower bound
+$R_r(n)\ge\mathrm{twr}_{r-1}(c'n^2)$, a tower one exponentiation short, which
+2025--2026 sources restate second-hand. [EHR65] states $2^{cb^2}$ for $r=3$ and,
+with proofs omitted, $\mathrm{twr}_{r-1}(\tfrac12c^{r-3}b)$ for general $r$. So
+the lower side is known only at order $\log n$, against the conjectured order
+$n$. With four colors the matching lower bound is known ([BHS25] p. 1, crediting
+the Erdős--Hajnal stepping-up construction via Graham, Rothschild and Spencer).
+The site's Problem 564 commentary credits the 3-uniform case to Erdős, Hajnal,
+Máté and Rado 1984 (not held). A 2025 paper published in 2026 calls closing the
+two-color gap "a major open problem". This is a bounded negative finding, not a
 certificate of openness.
 
 **Source.** [erdosproblems.com/562](https://www.erdosproblems.com/562),

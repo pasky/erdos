@@ -2,8 +2,8 @@
 name: problems/covering_systems/E0202
 title: Problem 202
 desc: |
-  The largest number of congruence classes with distinct moduli at most N that
-  can be chosen so that no integer lies in two of them.
+  Asks how many congruence classes with distinct moduli at most $N$ can be
+  chosen so that no integer lies in two of them.
 tags:
 - Covering systems
 status: solved

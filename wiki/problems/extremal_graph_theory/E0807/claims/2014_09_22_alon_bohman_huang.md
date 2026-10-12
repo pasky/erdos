@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0807/claims/2014_09_22_alon_bohman_huang
 title: Alon, Bohman and Huang's constant-factor strengthening
 desc: |
-  Alon, Bohman and Huang (J. Graph Theory 2017): the bipartition number of the
-  random graph with edge probability one half is at most n minus (1+c) times
-  its independence number with high probability, for every n; refereed.
+  Alon, Bohman and Huang (J. Graph Theory 2017, refereed) show that for every
+  $n$, with high probability, the random graph $G=G(n,1/2)$ has bipartition
+  number $\tau(G)\le n-(1+c)\alpha(G)$, where $\alpha(G)$ is its independence
+  number.
 authors:
 - N. Alon
 - T. Bohman
@@ -66,18 +67,17 @@ asked by the problem and remains open.
 [[../library/extremal_graph_theory/alon_2017_more_bipartite_decomposition_random_graphs/theorem_1_1|Theorem 1.1 of the paper]],
 the library's result page; the result is otherwise self-contained.
 
-**Acceptance.** `refereed`: the Journal of Graph Theory is a refereed journal,
-and the Crossref record of the DOI gives volume 84 (2017), no. 1, pages
-45--52, published online 22 February 2016, the paper link's date.
-`reviewed`: the curator of erdosproblems.com, T. F. Bloom, labels the problem
-DISPROVED and records in its commentary that this paper proves
-$\tau(G)\le n-(1+c)\alpha(G)$ almost surely for an absolute constant $c>0$
-(the site's page as of 2026-09-18, with an empty thread and an empty
-proof-claim tab); the site's label is the `discussion` link. The arXiv
-version, the only one, is cited, on its
-[[../library/extremal_graph_theory/alon_2017_more_bipartite_decomposition_random_graphs/_index|source card]];
-Theorem 1.1 and inequality (1) are checked statements (p. 2), the proof
-(Section 3, pp. 3--6) is not checked, and the journal text is not held.
+**Acceptance.** `refereed`: the Journal of Graph Theory is a refereed journal.
+The Crossref record of the DOI gives volume 84 (2017), no. 1, pages 45--52,
+published online 22 February 2016, which is the paper link's date. `reviewed`:
+the curator of erdosproblems.com, T. F. Bloom, labels the problem DISPROVED. In
+its commentary he records that this paper proves $\tau(G)\le n-(1+c)\alpha(G)$
+almost surely for an absolute constant $c>0$ (the site's page as of 2026-09-18,
+with an empty thread and an empty proof-claim tab). The site's label is the
+`discussion` link. The cited version is the arXiv version, the only one, on its
+[[../library/extremal_graph_theory/alon_2017_more_bipartite_decomposition_random_graphs/_index|source card]].
+Theorem 1.1 and inequality (1) are checked statements (p. 2). The proof (Section
+3, pp. 3--6) is not checked, and the journal text is not held.
 
 **Formalization.** Boris Alexeev's repository plby/lean-proofs holds, at its
 commit of 15 September 2026, the file src/latest/ErdosProblems/Erdos807.lean

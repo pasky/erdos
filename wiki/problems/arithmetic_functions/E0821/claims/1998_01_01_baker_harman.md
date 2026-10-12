@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0821/claims/1998_01_01_baker_harman
 title: Baker and Harman's totient fibers larger than n to the 0.7039
 desc: |
-  Corollary 1 of Baker and Harman's 1998 paper gives infinitely many n with
-  more than n to the power 0.7039 preimages under Euler's totient, which
-  settles the question for every epsilon at least 0.2961; refereed.
+  Corollary 1 of Baker and Harman's refereed 1998 paper gives infinitely many
+  $n$ with more than $n^{0.7039}$ preimages under Euler's totient. This settles
+  the question for every $\epsilon\ge0.2961$.
 authors:
 - R. Baker
 - G. Harman
@@ -60,7 +60,7 @@ so the problem as posed, is not addressed.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed: Acta Arith. 83 (1998), no. 4, 331--361, a refereed
-journal. The site's commentary names Baker and Harman only as the exponent
-that Lichtman improved and labels the problem OPEN (page last edited 1 October
-2025), so no `reviewed` evidence is listed. The journal volume gives the year
-1998 and no month or day; the page's date carries the first day of that year.
+journal. The site's commentary names Baker and Harman only for the exponent that
+Lichtman improved, and it labels the problem OPEN (page last edited 1 October
+2025). So no `reviewed` evidence is listed. The journal volume gives the year
+1998 and no month or day, so the page's date carries the first day of that year.

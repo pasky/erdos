@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0248
 title: Problem 248
 desc: |
-  Asks whether there are infinitely many n for which the number of distinct
-  prime factors of n plus k stays of order k for every positive k.
+  Asks whether there are infinitely many $n$ with $\omega(n+k)\ll k$ for all
+  $k\ge1$, where $\omega$ counts distinct prime factors.
 tags:
 - Number theory
 status: solved
@@ -28,13 +28,12 @@ $$
 
 (Here $\omega(n)$ is the number of distinct prime divisors of $n$.)
 
-**Status.** PROVED (LEAN), the site's label (page last edited 2026-04-17).
-The site's curator records the problem as resolved by Tao and Teräväinen
-[TaTe25] and credits Lau [La26] with improving the bound to
-$\omega(n+k)\ll\log k$ for $k\ge2$, a bound that after the shift
-$n\mapsto n+1$ answers the question as posed by itself; the
-formal-conjectures project links a Lean proof of the full statement. The two
-accepted claims are
+**Status.** PROVED (LEAN), the site's label (page last edited 2026-04-17). The
+site's curator records the problem as resolved by Tao and Teräväinen [TaTe25].
+The curator also credits Lau [La26] with improving the bound to
+$\omega(n+k)\ll\log k$ for $k\ge2$. After the shift $n\mapsto n+1$, that bound
+alone answers the question as posed. The formal-conjectures project links a Lean
+proof of the full statement. The two accepted claims are
 [[problems/arithmetic_functions/E0248/claims/2025_12_01_tao_teravainen|Tao and Teräväinen 2025]]
 and [[problems/arithmetic_functions/E0248/claims/2026_04_16_lau|Lau 2026]].
 

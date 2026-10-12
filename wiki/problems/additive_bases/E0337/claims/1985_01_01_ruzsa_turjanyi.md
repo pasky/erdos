@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0337/claims/1985_01_01_ruzsa_turjanyi
 title: Ruzsa and Turjányi's density-zero bases of every order, in Lean
 desc: |
-  Theorem 1 of Ruzsa and Turjányi (1985) gives, for every h at least 3, a
-  basis of order h with counting function o(N) whose (h-1)-fold sumset stays
-  within a constant factor of it along a subsequence; h = 3 answers no, in Lean.
+  Theorem 1 of Ruzsa and Turjányi (1985) gives, for every $h\ge3$, a basis of
+  order $h$ with counting function $o(N)$ whose $(h-1)$-fold sumset stays within
+  a constant factor of it along a subsequence. The case $h=3$ answers the
+  question no, and it is formalized in Lean.
 authors:
 - I. Z. Ruzsa
 - S. Turjányi
@@ -54,15 +55,15 @@ $A_2(2x)/A(x)$, which the Plünnecke--Ruzsa inequality gives, as the
 [formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/337.lean)
 records; neither is part of this claim.
 
-**Acceptance.** Refereed: the paper is a journal article (Publ. Math.
-Debrecen). Reviewed: the site's curator, T. F. Bloom, credits the negative
-answer to Turjányi's 1984 note, recorded at
-[[problems/additive_bases/E0337/claims/1984_01_01_turjanyi|Turjányi 1984]],
-and to this paper the generalization in which the $k$-fold sumset replaces
-$A+A$, for every $k\ge2$ (Theorem 1 with $h=k+1$), and labels the problem
-disproved with a Lean qualifier at erdosproblems.com (label), which is the site's acceptance. The source card records the
-statements of Theorems 1--3 and Conjectures 1--2; none of the proofs is
-checked here.
+**Acceptance.** Refereed: the paper is a journal article (Publ. Math. Debrecen).
+Reviewed: the site's curator, T. F. Bloom, credits the negative answer to
+Turjányi's 1984 note, recorded at
+[[problems/additive_bases/E0337/claims/1984_01_01_turjanyi|Turjányi 1984]]. The
+curator credits to this paper the generalization in which the $k$-fold sumset
+replaces $A+A$, for every $k\ge2$ (Theorem 1 with $h=k+1$). The curator labels
+the problem disproved with a Lean qualifier at erdosproblems.com (label). This
+is the site's acceptance. The source card records the statements of Theorems
+1--3 and Conjectures 1--2. None of the proofs is checked here.
 
 **The Lean proof.** A comment in the problem's forum thread on 2025-12-10
 reports that the Ruzsa--Turjányi solution has been formalized in Lean, the

@@ -2,9 +2,10 @@
 name: problems/discrepancy/E0177/claims/1966_01_01_cantor_erdos_schreiber_straus
 title: The antisymmetric construction with bounded sums on each progression
 desc: |
-  Erdős's 1966 report that Cantor, Schreiber, Straus and he built a sign
-  function with bounded partial sums along every single arithmetic
-  progression, the bound L(d) < c^d d!; a journal publication, Mat. Lapok 17.
+  In 1966 Erdős reported that Cantor, Schreiber, Straus and he built a sign
+  function with bounded partial sums along every single arithmetic progression,
+  with the bound $L(d)<c^d d!$. The report is a journal publication, in Mat.
+  Lapok 17.
 authors:
 - Erdős Pál
 status: accepted
@@ -49,9 +50,9 @@ polynomial bounds, on their own claim pages, supersede it.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper is a journal publication in Matematikai
-Lapok, volume 17 (1966), the `refereed` evidence; the volume carries no month
-or day, so this page is dated to the first day of that year. The site's
-curator credits the bound to [Er66] in the problem's commentary, but the site
+Lapok, volume 17 (1966), which is the `refereed` evidence. The volume carries no
+month or day, so this page is dated to the first day of that year. The site's
+curator credits the bound to [Er66] in the problem's commentary. But the site
 labels the problem OPEN, so that credit is not `reviewed` evidence. The
-statement is as printed on p. 137; the paper gives no proof of the bound to
+statement is as printed on p. 137. The paper gives no proof of the bound to
 check, and nothing is independently reviewed by this project.

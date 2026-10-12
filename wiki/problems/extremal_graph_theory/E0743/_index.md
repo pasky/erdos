@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0743
 title: Problem 743
 desc: |
-  Asks whether the complete graph on n vertices can always be split into
-  edge-disjoint copies of given trees with 2, 3, up to n vertices; the tree
-  packing conjecture of Gyárfás, open, with one arXiv proof claim withdrawn.
+  Asks whether $K_n$ can always be written as the edge-disjoint union of given
+  trees $T_2,\ldots,T_n$, where $T_k$ has $k$ vertices. This tree packing
+  conjecture of Gyárfás is open, and one arXiv proof claim was withdrawn.
 tags:
 - Graph theory
 status: open
@@ -36,45 +36,45 @@ site's; the site's page defines it as an open problem that a finite
 counterexample could refute. Erdős's words are quoted under the Current
 assessment.
 
-**Status.** Falsifiable is the site's label; the conjecture is open, and
-that a single $n$ with a family of trees that does not pack would refute it
-is a note of the Current assessment, not a claim. No proof, disproof or
-accepted proof claim was found in the search whose scope
-the Current assessment records: the one arXiv proof claim (Chalise, Clark
-and Gnang, arXiv:2410.13840, 2024) was withdrawn by its authors on 1
-September 2026, citing an error in the proof of their Composition Lemma 3.10
+**Status.** Falsifiable is the site's label. The conjecture is open. That a
+single $n$ with a family of trees that does not pack would refute it is a note
+of the Current assessment, not a claim. The results that settle instances of the
+conjecture are recorded as partial claim pages, accepted or pending as their
+evidence allows. With the withdrawn page described below, they are the pages
+from which the frontmatter standing, open, is derived. No full claim is pending.
+
+No proof, disproof or accepted proof claim was found in the search whose scope
+the Current assessment records. This is a bounded negative finding, not a
+certificate of openness. The one arXiv proof claim (Chalise, Clark and Gnang,
+arXiv:2410.13840, 2024) was withdrawn by its authors on 1 September 2026. They
+cited an error in the proof of their Composition Lemma 3.10
 ([[problems/extremal_graph_theory/E0743/claims/2024_10_17_chalise_clark_gnang|claim page]],
-withdrawn). The results that settle instances of the conjecture are recorded
-as partial claim pages, accepted or pending as their evidence allows, and
-with the withdrawn page they are the pages from which the frontmatter
-standing, open, is derived; no full claim is pending. What is proved: the
-conjecture for
-all large $n$ when the trees beyond the first $\varepsilon n$ have bounded
-maximum degree
+withdrawn).
+
+The following is proved. The conjecture holds for all large $n$ when the trees
+beyond the first $\varepsilon n$ have bounded maximum degree
 ([[../library/extremal_graph_theory/joos_2019_optimal_packings_bounded_degree_trees/theorem_1_2|Joos, Kim, Kühn and Osthus, Theorem 1.2]],
 J. Eur. Math. Soc. 21 (2019), refereed; the accepted partial claim
-[[problems/extremal_graph_theory/E0743/claims/2016_06_13_joos_kim_kuhn_osthus|Joos, Kim, Kühn and Osthus 2016/2019]]),
-for all large $n$ when every tree has maximum degree at most $cn/\log n$
+[[problems/extremal_graph_theory/E0743/claims/2016_06_13_joos_kim_kuhn_osthus|Joos, Kim, Kühn and Osthus 2016/2019]]).
+It holds for all large $n$ when every tree has maximum degree at most
+$cn/\log n$
 ([[../library/extremal_graph_theory/allen_2021_tree_packing_conjecture_trees_almost_linear/theorem_6|Allen, Böttcher, Clemens, Hladký, Piguet and Taraz, Theorem 6]],
-arXiv 2021--2026, a preprint with no journal record; the pending partial
-claim
-[[problems/extremal_graph_theory/E0743/claims/2021_06_22_allen_bottcher_clemens_hladky_piguet_taraz|Allen, Böttcher, Clemens, Hladký, Piguet and Taraz 2021]]),
-for the largest
-$\varepsilon n$ trees of any degrees for every $n$
+arXiv 2021--2026, a preprint with no journal record; the pending partial claim
+[[problems/extremal_graph_theory/E0743/claims/2021_06_22_allen_bottcher_clemens_hladky_piguet_taraz|Allen, Böttcher, Clemens, Hladký, Piguet and Taraz 2021]]).
+It holds for the largest $\varepsilon n$ trees of any degrees for every $n$
 ([[../library/extremal_graph_theory/janzer_2024_packing_largest_trees_tree_packing_conjecture/theorem_1_2|Janzer and Montgomery, Theorem 1.2]],
-arXiv v2 of April 2026, "accepted for publication" per its arXiv record),
-for the star and path families of Gyárfás and Lehel (a 1978 proceedings
+arXiv v2 of April 2026, "accepted for publication" per its arXiv record). It
+holds for the star and path families of Gyárfás and Lehel (a 1978 proceedings
 paper, not held; the pending partial claim
-[[problems/extremal_graph_theory/E0743/claims/1978_01_01_gyarfas_lehel|Gyárfás and Lehel 1978]]),
-and by computer for every $n\le11$
+[[problems/extremal_graph_theory/E0743/claims/1978_01_01_gyarfas_lehel|Gyárfás and Lehel 1978]]).
+It holds by computer for every $n\le11$
 ([[../library/extremal_graph_theory/guichard_1990_note_packing_complete_graphs_trees/verification_p124|Guichard and Massman 1990]],
 J. Combin. Math. Combin. Comput., the accepted partial claim
 [[problems/extremal_graph_theory/E0743/claims/1990_01_01_guichard_massman|Guichard and Massman 1990]];
-Fishburn's $n\le9$ before it, J. Graph Theory 7 (1983), refereed, not held,
-the accepted partial claim
+Fishburn's $n\le9$ before it, J. Graph Theory 7 (1983), refereed, not held, the
+accepted partial claim
 [[problems/extremal_graph_theory/E0743/claims/1983_09_01_fishburn|Fishburn 1983]]).
-A forum computation of 8 September 2026 reports $n=12$; it is a lead. This is
-a bounded negative finding, not a certificate of openness.
+A forum computation of 8 September 2026 reports $n=12$, which is a lead.
 
 **Source.** [erdosproblems.com/743](https://www.erdosproblems.com/743),
 accessed 2026-09-19: the problem page (FALSIFIABLE,

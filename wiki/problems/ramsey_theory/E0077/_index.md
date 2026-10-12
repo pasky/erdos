@@ -2,8 +2,8 @@
 name: problems/ramsey_theory/E0077
 title: Problem 77
 desc: |
-  Asks for the limit of the k-th root of the Ramsey number of the complete
-  graph on k vertices as k grows, a limit not known to exist.
+  Asks for the value of $\lim_{k\to\infty}R(k)^{1/k}$, where $R(k)$ is the
+  Ramsey number of $K_k$; the limit is not known to exist.
 tags:
 - Graph theory
 - Ramsey theory
@@ -39,21 +39,21 @@ limit to Problem 627 and refers to Problem 1029, which asks whether
 $R(k)/(k2^{k/2})\to\infty$, for lower bounds.
 
 **Status.** Open. Neither the existence nor the value of the limit is known. The
-lower end $\sqrt2$ is Erdős's 1947 bound $R(k)>2^{k/2}$ (as restated in
+lower end $\sqrt2$ is Erdős's 1947 bound $R(k)>2^{k/2}$, as restated in
 Spencer's 1975 paper and in the introductions of [CGMS23], [BBCGHMST24] and
-[Mo26]); the upper end is the diagonal case of Theorem 1 of Gupta, Ndiaye, Norin
-and Wei, $R(k,k)\le(3.7992\ldots)^{k+o(k)}$, an arXiv preprint (v2 of 29
-August 2026) whose derivation declares AI assistance, while the refereed bounds
-are $R(k)\le(4-\varepsilon)^k$ with $\varepsilon=2^{-7}$ (Campos, Griffiths,
-Morris and Sahasrabudhe; Annals of Mathematics 2026) and the shorter proof of a
+[Mo26]. The upper end is the diagonal case of Theorem 1 of Gupta, Ndiaye, Norin
+and Wei, $R(k,k)\le(3.7992\ldots)^{k+o(k)}$. This is an arXiv preprint (v2 of 29
+August 2026) whose derivation declares AI assistance. The refereed bounds are
+$R(k)\le(4-\varepsilon)^k$ with $\varepsilon=2^{-7}$ (Campos, Griffiths, Morris
+and Sahasrabudhe; Annals of Mathematics 2026) and the shorter proof of a
 $(4-c)^k$ bound by Balister, Bollobás, Campos, Griffiths, Hurley, Morris,
 Sahasrabudhe and Tiba (J. Amer. Math. Soc. 2026). Erdős guessed "perhaps $c=2$?"
-(1988) with "no real evidence" (1993, p. 338). No source proving the existence
-of the limit, determining its value, or moving the lower end was found in the
-search whose scope the Current assessment records; a September 2026 preprint
-claiming a smaller upper base is recorded below as an unreviewed lead. This is a
-bounded negative finding, not a certificate of openness. The site lists a prize,
-Erdős's offer for the value of the limit.
+(1988) with "no real evidence" (1993, p. 338). The search whose scope the
+Current assessment records found no source proving the existence of the limit,
+determining its value, or moving the lower end. This is a bounded negative
+finding, not a certificate of openness. A September 2026 preprint claiming a
+smaller upper base is recorded below as an unreviewed lead. The site lists a
+prize, Erdős's offer for the value of the limit.
 
 **Source.** [erdosproblems.com/77](https://www.erdosproblems.com/77), accessed
 2026-09-18: the problem page (OPEN, with the site's note that the problem cannot

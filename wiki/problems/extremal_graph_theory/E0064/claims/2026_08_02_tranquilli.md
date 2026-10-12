@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0064/claims/2026_08_02_tranquilli
 title: Tranquilli's cubic bipartite graphs on at most 58 vertices
 desc: |
-  Tranquilli reports a certified exhaustive computation showing that every
-  cubic bipartite graph on at most 58 vertices has a cycle of length 4, 8 or
-  16, so a cubic bipartite counterexample has at least 60 vertices; arXiv.
+  Tranquilli reports a certified exhaustive computation, posted on arXiv,
+  showing that every cubic bipartite graph on at most 58 vertices has a cycle of
+  length 4, 8 or 16. So a cubic bipartite counterexample has at least 60
+  vertices.
 authors:
 - Julius Tranquilli
 status: claimed

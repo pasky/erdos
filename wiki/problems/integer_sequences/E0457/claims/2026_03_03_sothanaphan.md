@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0457/claims/2026_03_03_sothanaphan
 title: GPT write-up of the Dirichlet-approximation construction
 desc: |
-  A write-up produced by GPT-5.2 Thinking and posted to the site's thread on 3
-  March 2026 proves infinitely many n with q(n, log n) at least (1/2 + o(1))
-  log n log log n over log log log n, answering the question for every constant.
+  Nat Sothanaphan's write-up, produced by GPT-5.2 Thinking and posted to the
+  site's thread on 3 March 2026, claims that infinitely many $n$ have
+  $q(n,\log n)\ge(\frac12+o(1))\log n\log\log n/\log\log\log n$, which answers
+  the question for every constant.
 authors:
 - Nat Sothanaphan
 status: claimed

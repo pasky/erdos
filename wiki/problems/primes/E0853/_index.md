@@ -2,8 +2,9 @@
 name: problems/primes/E0853
 title: Problem 853
 desc: |
-  Asks whether the smallest even number missing from the first x prime gaps
-  tends to infinity, and whether it grows faster than log x.
+  Asks whether $r(x)$, the least even number that is not a prime gap
+  $p_{n+1}-p_n$ with $n\le x$, tends to infinity, and whether even
+  $r(x)/\log x\to\infty$.
 tags:
 - Number theory
 - Primes

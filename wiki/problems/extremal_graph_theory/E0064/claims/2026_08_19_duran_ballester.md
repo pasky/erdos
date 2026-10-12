@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0064/claims/2026_08_19_duran_ballester
 title: Duran Ballester's withdrawn structural exhaustion proof of the conjecture
 desc: |
-  A case analysis of a minimal counterexample, deposited on Zenodo as a proof
-  of the Erdős–Gyárfás conjecture and retitled by the author, in his
-  manuscript of 1 October 2026, a reduction leaving six outcomes open.
+  Duran Ballester deposited on Zenodo a case analysis of a minimal
+  counterexample as a proof of the Erdős–Gyárfás conjecture. In his manuscript
+  of 1 October 2026 he retitled it as a reduction that leaves six outcomes open.
 authors:
 - Guillem Duran-Ballester
 status: withdrawn

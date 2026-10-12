@@ -2,9 +2,10 @@
 name: problems/discrepancy/E0997/claims/2024_06_27_champagne_le_liu_wooley
 title: One alpha with alpha times the primes not well-distributed
 desc: |
-  Champagne, Lê, Liu and Wooley constructed a transcendental alpha for which
-  the fractional parts of alpha times the primes are not well-distributed, the
-  existence statement Erdős had claimed and retracted; refereed in Proc. AMS.
+  Champagne, Lê, Liu and Wooley constructed a transcendental $\alpha$ for which
+  the fractional parts of $\alpha$ times the primes are not well-distributed,
+  the existence statement Erdős had claimed and retracted. The paper is
+  refereed, in Proc. AMS.
 authors:
 - J. Champagne
 - T. H. Lê
@@ -51,14 +52,16 @@ asked, which concerns every $\alpha$; that full question is settled by
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** The result is refereed: J. Champagne, T. H. Lê, Y.-R. Liu and
-T. D. Wooley, Well-distribution modulo one and the primes, Proc. Amer. Math.
-Soc. 153 (2025), no. 12, 5069–5074, published electronically 2025-10-23. The
-site's commentary mentions the paper as the one that established the existence
-of such an $\alpha$, but its label PROVED (LEAN) settles the problem through
-the later full result, so the curator's remark is commentary on this partial
-result and not listed as `reviewed`. The formal-conjectures statement file
+**Acceptance.** The result is refereed: J. Champagne, T. H. Lê, Y.-R. Liu and T.
+D. Wooley, Well-distribution modulo one and the primes, Proc. Amer. Math. Soc.
+153 (2025), no. 12, 5069–5074, published electronically 2025-10-23. The site's
+commentary mentions the paper as the one that established the existence of such
+an $\alpha$. The site's label PROVED (LEAN), however, settles the problem
+through the later full result. The curator's remark is therefore commentary on
+this partial result, and it is not listed as `reviewed`.
+
+The formal-conjectures statement file
 [`ErdosProblems/997.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/997.lean)
-(the revision of 2026-09-18, pinned in the link) states this existence
-statement as the variant `erdos_997.variants.irrational`, marked research
-solved with a `sorry` body; a statement file is not acceptance evidence.
+(the revision of 2026-09-18, pinned in the link) states this existence statement
+as the variant `erdos_997.variants.irrational`. It marks the variant research
+solved and gives it a `sorry` body. A statement file is not acceptance evidence.

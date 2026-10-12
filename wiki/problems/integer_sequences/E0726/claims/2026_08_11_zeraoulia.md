@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0726/claims/2026_08_11_zeraoulia
 title: Zeraoulia's conditional asymptotic under an equidistribution hypothesis
 desc: |
-  Zeraoulia's AI-assisted Zenodo preprint of 11 August 2026, on the site's
-  tab the same day, claiming S(n) = (1/2) log log n + O(log log log n) under
-  an unproved equidistribution hypothesis; conditional and unreviewed.
+  Zeraoulia's AI-assisted Zenodo preprint of 11 August 2026, posted on the
+  site's tab the same day, claims $S(n)=\frac12\log\log n+O(\log\log\log n)$
+  under an unproved equidistribution hypothesis. The claim is conditional and
+  unreviewed.
 authors:
 - Rafik Zeraoulia
 status: claimed

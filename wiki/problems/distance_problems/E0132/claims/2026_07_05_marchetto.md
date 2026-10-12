@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0132/claims/2026_07_05_marchetto
 title: Marchetto's cases 7 ≤ n ≤ 13 of the first question
 desc: |
-  Every planar set of n points, 7 ≤ n ≤ 13, has two distinct distances each
-  occurring at most n times, unconditionally except for n = 11 and 12, which
-  rest on Wei's 11-point 5-distance list; a note with checking code, claimed.
+  Marchetto's note, with checking code, claims that every planar set of $n$
+  points with $7\le n\le13$ has two distinct distances each occurring at most
+  $n$ times. The cases $n=11$ and $12$ rest on Wei's 11-point 5-distance list,
+  and the rest are unconditional.
 authors:
 - Juan Patricio Marchetto
 status: claimed
@@ -90,5 +91,5 @@ was found independently and assigns priority for them to this note and, for
 $n=7$, to Zeraoulia; that is a dated uptake, not a review.
 
 **Acceptance.** None documented. The note is not on arXiv and has no journal
-record, the site labels the problem OPEN and its page does not credit the result,
-and no outside review is known. The claim is therefore claimed.
+record. The site labels the problem OPEN, and its page does not credit the
+result. No outside review is known. The claim is therefore claimed.

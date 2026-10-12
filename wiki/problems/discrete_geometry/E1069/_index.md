@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E1069
 title: Problem 1069
 desc: |
-  Bounds the lines containing at least k of n plane points by n squared over k
-  cubed for k up to root n; fails as worded at k = 1, and Szemerédi and Trotter
-  proved it for k from 2 to root n.
+  Bounds the number of lines containing at least $k$ of $n$ points in the plane
+  by $n^2/k^3$ for $k\le n^{1/2}$. The bound fails as worded at $k=1$, and
+  Szemerédi and Trotter proved it for $2\le k\le n^{1/2}$.
 tags:
 - Geometry
 status: solved
@@ -67,11 +67,11 @@ $k=n^{1/2}$ the bound says that fewer than $cn^{1/2}$ lines contain at least
 $n^{1/2}$ of the points, which Erdős contrasts with a finite geometry, where
 $n=p^2+p+1$ points lie on $n$ lines of $p+1>\sqrt n$ points each.
 
-**Status.** The site labels the problem SOLVED and credits Szemerédi and
-Trotter (1983); the label and the commentary describe the corrected Statement.
+**Status.** The site labels the problem SOLVED and credits Szemerédi and Trotter
+(1983). The label and the commentary describe the corrected Statement.
 **Proved**: Theorem 2 of Szemerédi and Trotter (Combinatorica 3 (1983),
-381--392, refereed) gives fewer than $c\,n^2/k^3$ lines with at least $k$ of
-the points for every $2\le k\le n^{1/2}$; see the
+381--392, refereed) gives fewer than $c\,n^2/k^3$ lines with at least $k$ of the
+points for every $2\le k\le n^{1/2}$. See the
 [[problems/discrete_geometry/E1069/claims/1983_09_01_szemeredi_trotter|claim page]].
 
 **Source.** [erdosproblems.com/1069](https://www.erdosproblems.com/1069),

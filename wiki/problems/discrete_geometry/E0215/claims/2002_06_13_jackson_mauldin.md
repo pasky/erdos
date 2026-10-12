@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0215/claims/2002_06_13_jackson_mauldin
 title: A planar set meeting every congruent copy of the lattice once
 desc: |
-  Jackson and Mauldin prove in ZFC that there is a planar set meeting every
-  translated and rotated copy of the integer lattice in exactly one point,
-  answering Steinhaus's question affirmatively.
+  Jackson and Mauldin prove in ZFC that some planar set meets every translated
+  and rotated copy of the integer lattice in exactly one point. This answers
+  Steinhaus's question affirmatively.
 authors:
 - Steve Jackson
 - R. Daniel Mauldin

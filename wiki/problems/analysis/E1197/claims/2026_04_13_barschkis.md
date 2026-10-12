@@ -2,9 +2,10 @@
 name: problems/analysis/E1197/claims/2026_04_13_barschkis
 title: Barschkis's counterexample to the eventual covering question
 desc: |
-  A measurable set of positive measure and an interval of x on which
-  infinitely many n put nx outside every integer dilate of the set, so the
-  almost-everywhere statement fails; explored with GPT Pro, Lean outside here.
+  Enrique Barschkis constructs a measurable set of positive measure and an
+  interval of $x$ on which infinitely many $n$ put $nx$ outside every integer
+  dilate of the set, so the almost-everywhere statement fails. The work was
+  explored with GPT Pro, and Lean formalizations exist outside this corpus.
 authors:
 - Enrique Barschkis
 status: accepted
@@ -98,9 +99,10 @@ statement file is not a formalization link.
 
 **Acceptance.** The site's curator, Thomas F. Bloom, marks Problem 1197
 disproved, with the Lean qualification, and credits the counterexample to
-ebarschkis, the `reviewed` evidence. The manuscript is not refereed. Thread
-comments report checks made with AI systems; they are not review. The page
-is dated by the forum post and the repository's upload of the same day.
+ebarschkis. This is the `reviewed` evidence. The manuscript is not refereed.
+Thread comments report checks made with AI systems, and these checks are not
+review. The page is dated by the forum post and by the repository's upload on
+the same day.
 
 **Depends on.** Nothing beyond the cited manuscript and the Buczolich–Mauldin
 paper whose construction it varies.

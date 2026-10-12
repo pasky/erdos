@@ -2,9 +2,9 @@
 name: problems/analysis/E1046/claims/1959_01_01_pommerenke
 title: Pommerenke's disc of radius 2 about the centroid of the zeros
 desc: |
-  Pommerenke's 1959 Theorem 3: when the set where a monic polynomial has
-  modulus below 1 is connected, it lies in the open disc of radius 2 about
-  the centroid of the zeros, the affirmative answer; refereed.
+  Pommerenke's 1959 Theorem 3 gives the affirmative answer: if the set where a
+  monic polynomial has modulus below $1$ is connected, it lies in the open disc
+  of radius $2$ about the centroid of the zeros. The paper is refereed.
 authors:
 - Chr. Pommerenke
 status: accepted
@@ -54,15 +54,16 @@ year 1959 alone, and the page is named by the record's date.
 **Acceptance.** Refereed: the note appeared in the Michigan Mathematical
 Journal. The site's commentary, by its curator T. F. Bloom, records the answer
 to the stated question as yes, with the center of the disc at the centroid of
-the roots, and credits this paper. The site labels the problem DISPROVED, which
-contradicts that answer and names no result, so the curator's credit is not
-counted as review, and the page departs from the site's label for that reason.
-The only refutation the commentary reports is of a different conjecture from
-the same 1958 passage, Problem 15 of the 1958 paper, that the width of a
-connected $E$ is at most $2$: the Remarks of Pommerenke's paper (pp. 224--225)
-compute the width $\sqrt3\,2^{1/3}$ exactly for a three-segment set and
-deduce $\sup b\ge\sqrt3\,2^{1/3}>2.18$ for the width $b$ over the class with
-$E$ connected, recorded on the problem page's reference entry and on the card's
+the roots, and credits this paper. The site labels the problem DISPROVED. That
+label contradicts the answer and names no result. For that reason the curator's
+credit is not counted as review, and the page departs from the site's label. The
+only refutation the commentary reports is of a different conjecture from the
+same 1958 passage: Problem 15 of the 1958 paper, that the width of a connected
+$E$ is at most $2$. In its Remarks (pp. 224--225), Pommerenke's paper computes
+the width $\sqrt3\,2^{1/3}$ exactly for a three-segment set. It deduces
+$\sup b\ge\sqrt3\,2^{1/3}>2.18$ for the width $b$ over the class with $E$
+connected. This is recorded on the problem page's reference entry and on the
+card's
 [[../library/analysis/pommerenke_1959_some_problems_erdos_herzog_piranian/theorem_4|theorem_4]]
 page. The claim value here states the mathematical outcome for the stated
 question. Nothing here is independently reviewed by this project.

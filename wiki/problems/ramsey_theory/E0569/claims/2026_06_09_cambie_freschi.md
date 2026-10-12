@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0569/claims/2026_06_09_cambie_freschi
 title: Cambie and Freschi, R(C_ℓ, H) at most (ℓ − 1)m + 1 for every ℓ and m
 desc: |
-  Cambie and Freschi's Theorem 3 (preprint of 9 June 2026) bounds R(C_ℓ, H)
-  by (ℓ − 1)m + 1 for every ℓ ≥ 3 and every m-edge H without isolated
-  vertices, giving c_k = 2k + 1 for every k; a disputed, unaccepted full claim.
+  Theorem 3 of Cambie and Freschi's preprint of 9 June 2026 bounds $R(C_\ell,H)$
+  by $(\ell-1)m+1$ for every $\ell\ge3$ and every $m$-edge $H$ without isolated
+  vertices, which gives $c_k=2k+1$ for every $k$. It is a disputed full claim
+  and is not accepted.
 authors:
 - Stijn Cambie
 - Andrea Freschi

@@ -2,8 +2,8 @@
 name: problems/analysis/E0226
 title: Problem 226
 desc: |
-  Asks whether some entire non-linear function sends exactly the rational real
-  numbers to rational values.
+  Asks whether some non-linear entire function $f$ has $f(x)$ rational exactly
+  when the real number $x$ is rational.
 tags:
 - Analysis
 status: solved
@@ -23,13 +23,13 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Is there an entire non-linear function $f$ such that, for all
 $x\in\mathbb{R}$, $x$ is rational if and only if $f(x)$ is?
 
-**Status.** PROVED (LEAN). The site credits Barth and Schneider [BaSc70],
-whose theorem for arbitrary countable dense subsets of the reals gives the
-function at $A=B=\mathbb Q$; the claim page
-[[problems/analysis/E0226/claims/1970_10_01_barth_schneider|Barth and
-Schneider 1970]] records it, accepted on its refereed publication and the
-site's credit. The site's Lean qualification refers to Boris Alexeev's
-formalization of that solution, linked from the claim page and not built by
+**Status.** PROVED (LEAN). The site credits Barth and Schneider [BaSc70]. Their
+theorem for arbitrary countable dense subsets of the reals gives the function at
+$A=B=\mathbb Q$. The claim page
+[[problems/analysis/E0226/claims/1970_10_01_barth_schneider|Barth and Schneider
+1970]] records it, accepted on its refereed publication and the site's credit.
+The site's Lean qualification refers to Boris Alexeev's formalization of that
+solution. The formalization is linked from the claim page and is not built by
 this corpus.
 
 **Source.** [erdosproblems.com/226](https://www.erdosproblems.com/226), accessed

@@ -3,8 +3,9 @@ name: problems/integer_sequences/E0436/claims/1991_01_01_hildebrand
 title: Hildebrand's bounded first pair of consecutive kth power residues
 desc: |
   Theorem 1 of Hildebrand (Michigan Math. J. 38 (1991)) proves that for every
-  k the least pair of consecutive kth power residues modulo p is bounded in
-  p, so Lambda(k,2) is finite and the first question of Problem 436 is yes.
+  $k$ the least pair of consecutive $k$th power residues modulo $p$ is bounded
+  in $p$. So $\Lambda(k,2)$ is finite, and the first question of Problem 436 has
+  answer yes.
 authors:
 - Adolf Hildebrand
 status: accepted

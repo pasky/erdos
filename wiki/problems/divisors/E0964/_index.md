@@ -2,8 +2,8 @@
 name: problems/divisors/E0964
 title: Problem 964
 desc: |
-  Asks whether the ratios of the number of divisors of n plus one to the
-  number of divisors of n are dense in the positive reals.
+  Asks whether the ratios $\tau(n+1)/\tau(n)$ of consecutive divisor counts are
+  dense in $(0,\infty)$.
 tags:
 - Number theory
 - Divisors
@@ -31,12 +31,13 @@ $$
 everywhere dense in $(0,\infty)$?
 
 **Status.** Proved. The site labels the problem `PROVED (LEAN)` and credits
-Eberhard's proof, which answers the question affirmatively; his stronger
-theorem says every positive rational occurs infinitely often. The community
-Lean file posted in the forum thread contains a complete formal proof
-conditional on a formalized GGPY proposition, which that file does not prove.
-The accepted claim is recorded on
+Eberhard's proof, which answers the question affirmatively. The accepted claim
+is recorded on
 [[problems/divisors/E0964/claims/2025_04_27_eberhard|Eberhard's claim page]].
+The community Lean file posted in the forum thread contains a complete formal
+proof, but the proof is conditional on a formalized GGPY proposition that the
+file does not prove. Eberhard's stronger theorem says every positive rational
+occurs infinitely often.
 
 **Source.** [erdosproblems.com/964](https://www.erdosproblems.com/964), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #964,

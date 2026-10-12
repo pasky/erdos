@@ -2,10 +2,10 @@
 name: problems/ramsey_theory/E1015
 title: Problem 1015
 desc: |
-  The most vertices a two-colored complete graph can force to be left over
-  when it is covered by disjoint monochromatic copies of K_t; Burr, Erdős and
-  Spencer determine it for fixed t and large n in terms of R(t,t−1), so it
-  grows exponentially.
+  Asks for the largest number of vertices that a two-colored complete graph can
+  force to be left over when it is covered by disjoint monochromatic copies of
+  $K_t$. Burr, Erdős and Spencer determined it for fixed $t$ and large $n$ in
+  terms of $R(t,t-1)$, so it grows exponentially.
 tags:
 - Graph theory
 - Ramsey theory
@@ -55,29 +55,27 @@ observation made here). The site's remark that Erdős derived $f(t)\ll4^t$ from
 the Ramsey number is his remark that Ramsey's theorem implies $f(l)<4^l$.
 
 **Status.** Solved, in the site's label (SOLVED, the site's label for a
-resolution that is neither a proof nor a disproof), which attaches to the
-estimate: for fixed $k$ and all sufficiently large $n$, Theorem 6 of Burr,
-Erdős and Spencer (Trans. Amer. Math. Soc. 209 (1975), refereed) gives the
-exact value
+resolution that is neither a proof nor a disproof). The label attaches to the
+estimate. For fixed $k$ and all sufficiently large $n$, Theorem 6 of Burr, Erdős
+and Spencer (Trans. Amer. Math. Soc. 209 (1975), refereed) gives the exact value
 
 $$
 f(n,k)=r(k,k-1)-1+\mathrm{rem}(n-r(k,k-1)+1,\,k),
 $$
 
-where $r(k,k-1)$ is the off-diagonal Ramsey number and $\mathrm{rem}(a,b)$
-the remainder of $a$ on division by $b$; so the eventual maximum over $n$
-is $r(k,k-1)+k-2$ and the eventual minimum $r(k,k-1)-1$. The claim page
+where $r(k,k-1)$ is the off-diagonal Ramsey number and $\mathrm{rem}(a,b)$ is
+the remainder of $a$ on division by $b$. So the eventual maximum over $n$ is
+$r(k,k-1)+k-2$, and the eventual minimum is $r(k,k-1)-1$. The claim page
 [[problems/ramsey_theory/E1015/claims/1975_01_01_burr_erdos_spencer|Burr, Erdős and Spencer 1975]]
-records Theorem 6 as the accepted resolution, on the curator's credit and
-the refereed publication, and the frontmatter standing derives from it.
-Moon's theorem, the case $t=3$ with the site's value $f(3)=4$, is an
-accepted partial claim,
-[[problems/ramsey_theory/E1015/claims/1966_11_01_moon|Moon 1966]]. The two
-closing questions are not stated in [BES75]; an elementary deduction from
-Theorem 6 and Erdős's 1947 bound, written out under Current assessment and
-named as this page's own, is not acceptance evidence and does not enter the
-standing. The site's formula differs from the paper's by the term $-1$
-(recorded below, not repaired).
+records Theorem 6 as the accepted resolution, on the curator's credit and the
+refereed publication. The frontmatter standing derives from it. Moon's theorem,
+the case $t=3$ with the site's value $f(3)=4$, is an accepted partial claim,
+[[problems/ramsey_theory/E1015/claims/1966_11_01_moon|Moon 1966]]. The site's
+formula differs from the paper's by the term $-1$, which is recorded below and
+not repaired. The two closing questions are not stated in [BES75]. The Current
+assessment writes out an elementary deduction from Theorem 6 and Erdős's 1947
+bound, and names it as this page's own. That deduction is not acceptance
+evidence and does not enter the standing.
 
 **Source.** [erdosproblems.com/1015](https://www.erdosproblems.com/1015),
 accessed 2026-09-18: the problem page (SOLVED; no

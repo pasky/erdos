@@ -2,8 +2,8 @@
 name: problems/irrationality/E0249
 title: Problem 249
 desc: |
-  Asks whether the sum over n of Euler's totient function of n divided by two
-  to the n is irrational.
+  Asks whether $\sum_n \phi(n)/2^n$ is irrational, where $\phi$ is Euler's
+  totient function.
 tags:
 - Number theory
 - Irrationality
@@ -36,11 +36,10 @@ proof or disproof for $t=2$ alone answers the site's question. The question
 is yes or no, so an exact rational value would also resolve it; Erdős
 expected irrationality.
 
-**Status.** Open. No proof, disproof, preprint or proof claim for the exact
-statement was found in the search whose scope the
-Current assessment records, and nothing found bears on the full series
-beyond elementary reformulations and results on variants. This is a bounded
-negative finding, not a certificate of openness.
+**Status.** Open. The search whose scope the Current assessment records found no
+proof, disproof, preprint or proof claim for the exact statement. Nothing found
+bears on the full series beyond elementary reformulations and results on
+variants. This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/249](https://www.erdosproblems.com/249),
 accessed 2026-09-17: the problem page (OPEN; last edited 28 September 2025),

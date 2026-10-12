@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0783/claims/1987_01_01_hildebrand
 title: Hildebrand's sharp lower bound for sifting by primes
 desc: |
-  Hildebrand's Corollary 1 (Acta Arith. 1987): among sets of primes with
-  reciprocal sum at most K, the least proportion of integers up to x divisible
-  by none is rho(e^K) up to a power of log x; the problem's prime case.
+  Hildebrand's Corollary 1 (Acta Arith. 1987) shows that, among sets of primes
+  with reciprocal sum at most $K$, the least proportion of integers up to $x$
+  divisible by none of them is $\rho(e^K)$, with relative error a negative power
+  of $\log x$. This is the problem's prime case.
 authors:
 - Adolf Hildebrand
 status: accepted
@@ -74,13 +75,13 @@ deduces the extension from this corollary with a written proof. The exact
 minimizer for a given $N$, the site's wording, is determined by none of
 them.
 
-**Acceptance.** Refereed: Acta Arithmetica, volume 48, issue 3, pages
-209--260, DOI 10.4064/aa-48-3-209-260, published under the journal's Creative
-Commons Attribution license. Reviewed: the site's curator, Thomas Bloom, who
-is independent of the author, writes in the commentary (page last edited 28
-May 2026, accessed 2026-09-05) that Hildebrand proved the weak form of the
+**Acceptance.** Refereed: Acta Arithmetica, volume 48, issue 3, pages 209--260,
+DOI 10.4064/aa-48-3-209-260, published under the journal's Creative Commons
+Attribution license. Reviewed: the site's curator, Thomas Bloom, who is
+independent of the author, writes in the commentary (page last edited 28 May
+2026, accessed 2026-09-05) that Hildebrand proved the weak form of the
 conjecture when $A$ is a set of primes, answering the question of Erdős and
-Ruzsa; a thread comment of 4 February 2026 first pointed the thread to the
+Ruzsa. A thread comment of 4 February 2026 first pointed the thread to the
 corollary.
 
 **Date.** The paper appeared in 1987; the issue month is not recorded here,

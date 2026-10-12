@@ -2,8 +2,9 @@
 name: problems/discrepancy/E0989
 title: Problem 989
 desc: |
-  Concerns how slowly the discrepancy of an infinite plane sequence, measured
-  against circles of radius r and their area, can grow.
+  Asks whether the discrepancy $f(r)$ of an infinite plane sequence, measured
+  against circles of radius $r$ and their area, is always unbounded, and how
+  fast it grows.
 tags:
 - Discrepancy
 status: solved
@@ -42,14 +43,14 @@ possible $F(r)$ lies between constant multiples of $r^{1/2}$ and
 $(r\log r)^{1/2}$. The growth of $f$ at each fixed radius for one set is not
 determined.
 
-**Status.** Solved, the site's label: Beck [Be87] proved that for every infinite
-$A$ and every $r\ge1$ some disc of radius in $[cr,r]$ has discrepancy
-$\gg r^{1/2}$, so the running maximum $F(r)=\max_{R\le r}f(R)$ satisfies
-$F(r)\gg r^{1/2}$ and $f(r)$ is unbounded for every $A$, and that for each $r$
-a periodic set keeps every disc of radius at most $r$ within
-$O((r\log r)^{1/2})$; the bounds concern $F(r)$ and an $r$-dependent
-construction, not $f$ at a fixed radius for one set, and the extremal growth of
-$F$ is known up to a factor $(\log r)^{1/2}$. The accepted claim is
+**Status.** Solved, the site's label. Beck [Be87] proved two results. First, for
+every infinite $A$ and every $r\ge1$, some disc of radius in $[cr,r]$ has
+discrepancy $\gg r^{1/2}$. So the running maximum $F(r)=\max_{R\le r}f(R)$
+satisfies $F(r)\gg r^{1/2}$, and $f(r)$ is unbounded for every $A$. Second, for
+each $r$ a periodic set keeps every disc of radius at most $r$ within
+$O((r\log r)^{1/2})$. These bounds concern $F(r)$ and an $r$-dependent
+construction, not $f$ at a fixed radius for one set. The extremal growth of $F$
+is known up to a factor $(\log r)^{1/2}$. The accepted claim is
 [[problems/discrepancy/E0989/claims/1987_08_25_beck|Beck 1987]].
 
 **Source.** [erdosproblems.com/989](https://www.erdosproblems.com/989), accessed

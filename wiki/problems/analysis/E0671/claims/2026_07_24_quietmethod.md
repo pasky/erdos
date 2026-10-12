@@ -2,9 +2,9 @@
 name: problems/analysis/E0671/claims/2026_07_24_quietmethod
 title: "QuietMethod: a re-derivation with k^2+1 samples per stage"
 desc: |
-  An AI-assisted write-up and Lean file by the forum user QuietMethod
-  re-deriving the coalescing-node construction of Price's claim, answering
-  both questions yes with k^2+1 cluster values per stage instead of k^3+1.
+  An AI-assisted write-up and Lean file by the forum user QuietMethod re-derive
+  the coalescing-node construction of Price's claim. They claim both answers
+  yes, with $k^2+1$ cluster values per stage instead of $k^3+1$.
 authors: []
 status: claimed
 claim: proved

@@ -2,9 +2,10 @@
 name: problems/polynomials/E0228
 title: Problem 228
 desc: |
-  Asks whether every large n admits a degree n polynomial with plus or minus
-  one coefficients whose modulus stays within fixed multiples of the root of n
-  on the unit circle; yes for every n at least 2 by Balister et al. (2020).
+  Asks whether, for all large $n$, some degree-$n$ polynomial $P$ with
+  coefficients $\pm 1$ has $\sqrt{n}\ll\lvert P(z)\rvert\ll\sqrt{n}$ on
+  $\lvert z\rvert=1$, with constants independent of $z$ and $n$; yes for every
+  $n\ge 2$, by Balister et al. (2020).
 tags:
 - Analysis
 - Polynomials
@@ -32,21 +33,20 @@ $$
 for all $\lvert z\rvert =1$, with the implied constants independent of $z$ and
 $n$?
 
-**Status.** PROVED (LEAN), the site's label (page last edited 2026-01-23).
-The Lean marker reflects the file `Erdos228.lean` of Boris Alexeev's
-lean-proofs repository, which declares itself a formalization of the theorem
-of Balister, Bollobás, Morris, Sahasrabudhe and Tiba with Codex and GPT-5.6
-Sol as formal authors; it is a formalization link on their claim page, and
-nothing was built or audited here. The formal-conjectures file under
-Formalization states the theorem and carries no proof. The answer
-is yes for every $n\ge2$: Balister, Bollobás, Morris, Sahasrabudhe and Tiba
-[BBMST20] construct the polynomial with absolute constants, refereed in the
-Annals of Mathematics and credited by the site, which the corpus accepts on
-the claim page
-[[problems/polynomials/E0228/claims/2019_07_22_balister_bollobas_morris_sahasrabudhe_tiba|Balister
-et al. 2020]]. A stronger form, with the ratio of $\lvert P(z)\rvert$ to
-$\sqrt n$ forced to $1$ uniformly on the circle, is claimed by the OpenAI
-release of October 2026 and stays pending on
+**Status.** PROVED (LEAN), the site's label (page last edited 2026-01-23). The
+answer is yes for every $n\ge2$. Balister, Bollobás, Morris, Sahasrabudhe and
+Tiba [BBMST20] construct the polynomial with absolute constants. Their paper is
+refereed in the Annals of Mathematics and credited by the site, and the corpus
+accepts it on the claim page
+[[problems/polynomials/E0228/claims/2019_07_22_balister_bollobas_morris_sahasrabudhe_tiba|Balister et al. 2020]].
+The Lean marker reflects the file `Erdos228.lean` of Boris Alexeev's lean-proofs
+repository. The file declares itself a formalization of the theorem of Balister,
+Bollobás, Morris, Sahasrabudhe and Tiba, with Codex and GPT-5.6 Sol as formal
+authors. It is a formalization link on their claim page, and nothing was built
+or audited here. The formal-conjectures file under Formalization states the
+theorem and carries no proof. The OpenAI release of October 2026 claims a
+stronger form, with the ratio of $\lvert P(z)\rvert$ to $\sqrt n$ forced to $1$
+uniformly on the circle. That claim stays pending on
 [[problems/polynomials/E0228/claims/2026_10_05_openai|OpenAI 2026]].
 
 **Source.** [erdosproblems.com/228](https://www.erdosproblems.com/228), accessed

@@ -2,8 +2,8 @@
 name: problems/extremal_graph_theory/E0993
 title: Problem 993
 desc: |
-  Asks whether the sequence counting the independent sets of each size in a
-  tree or forest is unimodal.
+  Asks whether the sequence counting the independent sets of each size in a tree
+  or forest is unimodal.
 tags:
 - Graph theory
 status: claimed
@@ -27,20 +27,20 @@ size $k$ in a graph $G$, and $T$ is any tree or forest, then for some $m\geq 0$
 $$i_{0}(T)\leq i_{1}(T)\leq\cdots\leq i_{m}(T)\geq i_{m+1}(T)\geq
 i_{m+2}(T)\geq\cdots.$$
 
-**Status.** Falsifiable. The label is the site's (FALSIFIABLE on
-2026-10-06; page last edited 1 February 2026), and it is a body note, not a
-standing: a counterexample would be
-one forest whose sequence is not unimodal, a finite check. Two claims are
-recorded, neither accepted: Zhang and Li's manuscript, on
+**Status.** Falsifiable. The label is the site's (FALSIFIABLE on 2026-10-06;
+page last edited 1 February 2026). It is a body note, not a standing: a
+counterexample would be one forest whose sequence is not unimodal, which is a
+finite check. The frontmatter standing is derived from the claim pages. There is
+a pending full claim, so the standing is `claimed`. Two claims are recorded, and
+neither is accepted. Zhang and Li's manuscript, on
 [[problems/extremal_graph_theory/E0993/claims/2026_09_27_zhang_li|its claim page]],
-claims the conjecture for every finite forest, revised on 6 October 2026 with
-Vallier and a Lean development, its first arXiv submission withdrawn before
-announcement and the revision posted on arXiv on 6 October 2026; Fang, Lu,
-Nevo, Yao and Zheng's arXiv preprint, on
+claims the conjecture for every finite forest. It was revised on 6 October 2026
+with Vallier and a Lean development. Its first arXiv submission was withdrawn
+before announcement, and the revision was posted on arXiv on 6 October 2026.
+Fang, Lu, Nevo, Yao and Zheng's arXiv preprint, on
 [[problems/extremal_graph_theory/E0993/claims/2026_09_17_fang_lu_nevo_yao_zheng|its claim page]],
-claims to prove it for all forests on at least $N_0$ vertices, for an
-uncomputed $N_0$, with a Lean development. The frontmatter standing is derived from the claim
-pages: a pending full claim, so `claimed`.
+claims to prove it for all forests on at least $N_0$ vertices, for an uncomputed
+$N_0$, with a Lean development.
 
 **Source.** [erdosproblems.com/993](https://www.erdosproblems.com/993), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #993,

@@ -2,8 +2,8 @@
 name: problems/set_theory/E0602
 title: Problem 602
 desc: |
-  Asks whether a family of countably infinite sets meeting pairwise in a
-  finite set of size other than one can always be two-colored with no set
+  Asks whether every family of countably infinite sets, any two meeting in a
+  finite set of size other than $1$, has a $2$-coloring of its union with no set
   monochromatic.
 tags:
 - Combinatorics
@@ -25,10 +25,10 @@ for all $i$, such that for any $i\neq j$ we have $\lvert A_i\cap A_j\rvert$
 finite and $\neq 1$. Is there a $2$-colouring of $\cup A_i$ such that no $A_i$
 is monochromatic?
 
-**Status.** Open. The site's proof-claims tab carries one partial proof
-claim, filed 2026-10-01, a finite criterion for Property B that its author
-says does not resolve the problem; the site shows no verdict and labels the
-problem OPEN. The filing is recorded below and gets no claim page, since it
+**Status.** Open. The site labels the problem OPEN and shows no verdict. Its
+proof-claims tab carries one partial proof claim, filed 2026-10-01. The claim
+gives a finite criterion for Property B, and its author says it does not resolve
+the problem. The filing is recorded below. It gets no claim page, since it
 settles no instance of the question.
 
 **Source.** [erdosproblems.com/602](https://www.erdosproblems.com/602), accessed

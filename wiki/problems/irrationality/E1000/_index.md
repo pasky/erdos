@@ -2,9 +2,10 @@
 name: problems/irrationality/E1000
 title: Problem 1000
 desc: |
-  Concerns how many fractions with denominator the kth term of an integer
-  sequence reduce to a denominator not equal to an earlier term of the
-  sequence.
+  Asks whether some infinite integer sequence $n_1<n_2<\cdots$ has
+  $\frac{1}{N}\sum_{k\le N}\phi_A(k)/n_k\to0$, where $\phi_A(k)$ counts the
+  fractions $m/n_k$ with $1\le m\le n_k$ whose denominator in lowest terms
+  differs from every earlier $n_j$.
 tags:
 - Number theory
 - Diophantine approximation
@@ -52,11 +53,12 @@ a sequence answering it also answers the source's question. The page's
 standing concerns the site's wording; the results of Cassels and Erdős below
 are stated in the source's count.
 
-**Status.** Proved. The site, accessed 2026-09-04 (page last edited
-2025-12-05), labels the problem PROVED (LEAN) and credits Haight's thesis [Ha];
-the Lean qualifier refers to a third-party formalization linked on the
-[[problems/irrationality/E1000/claims/1971_02_01_haight|Haight claim page]]
-and not built or audited here.
+**Status.** Proved. The site labels the problem PROVED (LEAN) and credits
+Haight's thesis [Ha]. The site was accessed 2026-09-04, and the page was last
+edited 2025-12-05. The Lean qualifier refers to a third-party formalization
+linked on the
+[[problems/irrationality/E1000/claims/1971_02_01_haight|Haight claim page]].
+That formalization was not built or audited here.
 
 **Source.** [erdosproblems.com/1000](https://www.erdosproblems.com/1000),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1000,

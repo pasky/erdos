@@ -2,8 +2,9 @@
 name: problems/additive_bases/E0772
 title: Problem 772
 desc: |
-  The largest Sidon set guaranteed inside any n integers in which no number
-  has more than k representations as a sum of two elements.
+  Asks whether $H_k(n)/n^{1/2}\to\infty$, where $H_k(n)$ is the size of the
+  largest Sidon set guaranteed inside any $n$ integers in which no number has
+  more than $k$ representations as a sum of two elements.
 tags:
 - Number theory
 - Sidon sets
@@ -29,9 +30,9 @@ then $A$ contains a Sidon set of size at least $r$.
 Is it true that $H_k(n)/n^{1/2}\to \infty$? Or even $H_k(n) > n^{1/2+c}$ for
 some constant $c>0$?
 
-**Status.** Proved: Alon and Erdős (1985) showed $H_k(n)\gg_k n^{2/3}$
-([[problems/additive_bases/E0772/claims/1985_09_01_alon_erdos|claim page]]),
-answering both questions yes.
+**Status.** Proved. Alon and Erdős (1985) showed $H_k(n)\gg_k n^{2/3}$, which
+answers both questions yes
+([[problems/additive_bases/E0772/claims/1985_09_01_alon_erdos|claim page]]).
 
 **Source.** [erdosproblems.com/772](https://www.erdosproblems.com/772), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #772,

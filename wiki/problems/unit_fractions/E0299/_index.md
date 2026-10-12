@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0299
 title: Problem 299
 desc: |
-  Asks whether some infinite increasing sequence of integers with bounded
-  gaps has no finite subset of reciprocals summing to one.
+  Asks whether some infinite increasing sequence of integers with bounded gaps
+  has no finite subset whose reciprocals sum to $1$.
 tags:
 - Number theory
 - Unit fractions
@@ -38,10 +38,10 @@ fixed, every prefix of such a finite sequence is again one, and each term has
 at most $k$ possible successors; so if $a_t$ were unbounded, König's lemma
 would give an infinite such sequence.
 
-**Status.** Disproved, in the site's label. Every such bounded-gap sequence
-has a finite reciprocal sum equal to one, by Bloom's positive-upper-density
-theorem. The site's label is DISPROVED (LEAN); the linked formalization
-evidence is specified below.
+**Status.** Disproved. The site's label is DISPROVED (LEAN). By Bloom's
+positive-upper-density theorem, every such bounded-gap sequence has a finite
+reciprocal sum equal to one. The linked formalization evidence is specified
+below.
 
 **Source.** T. F. Bloom, Erdős Problem #299,
 https://www.erdosproblems.com/299, accessed 2026-09-05. The original

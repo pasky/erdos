@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0866/claims/2026_07_08_erlbacher
 title: Erlbacher's release bounding g_5 by 3,519,219
 desc: |
-  An AI-produced release of 8 July 2026 (Draft v5 and a Lean development)
-  claims g_5(N) <= 3,519,219 for all N, with h_4(n) = 4 for n >= 331,777 for
-  the positive variant; unrefereed, its Lean not built here; pending.
+  An AI-produced release of 8 July 2026 (Draft v5 and a Lean development),
+  directed by John Erlbacher, claims $g_5(N)\le3{,}519{,}219$ for all $N$ and,
+  for the positive variant, $h_4(n)=4$ for $n\ge331{,}777$. It is unrefereed and
+  pending, and its Lean has not been built here.
 authors:
 - John Erlbacher
 status: claimed

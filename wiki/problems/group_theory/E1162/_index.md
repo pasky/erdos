@@ -3,7 +3,7 @@ name: problems/group_theory/E1162
 title: Problem 1162
 desc: |
   Asks for an asymptotic formula for the number of subgroups of the symmetric
-  group on n letters, and for statistical results on their orders.
+  group $S_n$, and for statistical results on their orders.
 tags:
 - Group theory
 status: open
@@ -38,11 +38,11 @@ Theorem 6 (below), an unrefereed preprint result that would make the question
 claimed.
 
 **Status.** Open, the site's label (page last edited 2026-01-23). The site's
-proof-claims tab carries one proof claim, submitted 2026-10-01 by Amir Sarid as
-a full proof and pending on
-[[problems/group_theory/E1162/claims/2026_10_01_sarid|its claim page]]: a
-formula for the number of subgroups of $S_n$ whose relative error decays
-exponentially in $n$. It answers the first question and not the question on
+proof-claims tab carries one proof claim. Amir Sarid submitted it on 2026-10-01
+as a full proof, and it is pending on
+[[problems/group_theory/E1162/claims/2026_10_01_sarid|its claim page]]. It gives
+a formula for the number of subgroups of $S_n$ whose relative error decays
+exponentially in $n$. It answers the first question but not the question on
 orders.
 
 **Source.** [erdosproblems.com/1162](https://www.erdosproblems.com/1162),

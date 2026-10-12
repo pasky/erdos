@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0335/claims/2026_04_14_ackelsberg_richter
 title: Ackelsberg and Richter's inverse theorem when one set meets every residue class
 desc: |
-  Theorem 1.4 of Ackelsberg and Richter (arXiv 2026) characterizes the pairs
-  with d(A) > 0, d(A)+d(B) < 1 and B meeting every residue class for which
-  d(A+B) = d(A)+d(B): lifts of parallel Bohr intervals, or a degenerate case.
+  Theorem 1.4 of Ackelsberg and Richter (arXiv 2026) states a characterization
+  of the pairs with $d(A+B)=d(A)+d(B)$, among those with $d(A)>0$, $d(A)+d(B)<1$
+  and $B$ meeting every residue class: lifts of parallel Bohr intervals, or a
+  degenerate case.
 authors:
 - Ethan Ackelsberg
 - Florian K. Richter

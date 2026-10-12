@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E1211
 title: Problem 1211
 desc: |
-  Asks how large the larger upper logarithmic density of the two subset-sum
-  sets must be when the natural numbers are split into two classes; Conlon,
-  Fox and Pham determined the minimum as (2 + sqrt 3)/4.
+  Asks how large the larger upper logarithmic density of the two subset-sum sets
+  must be when $\mathbb{N}$ is split into two classes. Conlon, Fox and Pham
+  showed that the minimum is $(2+\sqrt3)/4$.
 tags:
 - Number theory
 - Ramsey theory
@@ -69,22 +69,20 @@ $\lfloor\log_b\log n\rfloor$ coloring, and the value $14/15$ is its
 computation for that block structure.
 
 **Status.** Solved, in the site's label for a determination question. The
-status-defining source is Theorem 1 of Conlon, Fox and Pham: for every
-partition of $\mathbb N$ into two classes the larger upper logarithmic
-density of the subset sums is at least $(2+\sqrt3)/4\approx0.93301$, and
-the coloring by the parity of $\lfloor\log_{2+\sqrt3}\log n\rfloor$ attains
-it, so the minimum is $c_2=(2+\sqrt3)/4$. The paper appeared in Mathematika
-68 (2022), no. 4, 1292--1301 (published online 10 October 2022, per the
-Crossref record), a refereed journal; the text cited here is
-the arXiv version v3 of 22 September 2022, and the journal text was not
-compared. The site accepted the result (SOLVED, last edited 8 April 2026),
-its curator crediting the paper with the value in the commentary. The
-claim page
+status-defining source is Theorem 1 of Conlon, Fox and Pham. For every partition
+of $\mathbb N$ into two classes, the larger upper logarithmic density of the
+subset sums is at least $(2+\sqrt3)/4\approx0.93301$. The coloring by the parity
+of $\lfloor\log_{2+\sqrt3}\log n\rfloor$ attains this, so the minimum is
+$c_2=(2+\sqrt3)/4$. The paper appeared in Mathematika 68 (2022), no. 4,
+1292--1301, a refereed journal. It was published online on 10 October 2022, per
+the Crossref record. The text cited here is the arXiv version v3 of 22 September
+2022, and the journal text was not compared. The site accepted the result
+(SOLVED, last edited 8 April 2026), and its curator credits the paper with the
+value in the commentary. The claim page
 [[problems/ramsey_theory/E1211/claims/2021_05_31_conlon_fox_pham|Conlon, Fox and Pham 2021]]
-records the theorem, its postings and the acceptance evidence; the
-frontmatter standing is derived from it. Erdős's expectation $c>1/2$
-holds, and his claim that the value cannot exceed $3/4$ was wrong, his
-example giving $14/15$.
+records the theorem, its postings and the acceptance evidence, and the
+frontmatter standing is derived from it. Erdős's expectation $c>1/2$ holds. His
+claim that the value cannot exceed $3/4$ was wrong: his example gives $14/15$.
 
 **Source.** [erdosproblems.com/1211](https://www.erdosproblems.com/1211),
 accessed 2026-09-18 at 05:24 UTC: the problem page (SOLVED, with

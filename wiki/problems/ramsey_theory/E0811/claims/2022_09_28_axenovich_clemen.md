@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0811/claims/2022_09_28_axenovich_clemen
 title: Axenovich and Clemen exclude most cliques
 desc: |
-  Axenovich and Clemen (J. Graph Theory 106 (2024)) exclude from the answer
-  set the cliques K_q with q at least 10 and q = 2, 3 mod 4, further graphs
-  with an odd number of edges, and almost all clique sizes; refereed.
+  In a refereed paper (J. Graph Theory 106 (2024)), Axenovich and Clemen exclude
+  from the answer set the cliques $K_q$ with $q\ge10$ and $q\equiv2,3\pmod4$,
+  further graphs with an odd number of edges, and almost all clique sizes.
 authors:
 - Maria Axenovich
 - Felix Christian Clemen

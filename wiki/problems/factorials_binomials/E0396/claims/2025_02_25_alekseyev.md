@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0396/claims/2025_02_25_alekseyev
 title: Alekseyev's witnesses for k = 6 and 7
 desc: |
-  Max Alekseyev's terms a(6) = 7979090 and a(7) = 101130029 of the OEIS entry
-  A375077 are the least n with n(n-1)...(n-k) dividing the central binomial
-  coefficient for k = 6 and 7, so those two instances have the answer yes.
+  Max Alekseyev's terms $a(6)=7979090$ and $a(7)=101130029$ of the OEIS entry
+  A375077 are the least $n$ with $n(n-1)\cdots(n-k)\mid\binom{2n}{n}$ for $k=6$
+  and $k=7$. So those two instances have the answer yes.
 authors:
 - Max Alekseyev
 status: claimed

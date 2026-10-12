@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0570
 title: Problem 570
 desc: |
-  Asks whether, for each k at least three and sufficiently large m, the
-  Ramsey number of a k-cycle against any m-edge graph without isolated
-  vertices is at most two m plus the floor of half of (k minus one).
+  Asks whether, for each $k\ge3$ and all sufficiently large $m$, every graph $H$
+  with $m$ edges and no isolated vertices has
+  $R(C_k,H)\le 2m+\lfloor(k-1)/2\rfloor$.
 tags:
 - Graph theory
 - Ramsey theory
@@ -34,23 +34,20 @@ $m_0(k)$ such that every graph $H$ with $m\geq m_0(k)$ edges and no isolated
 vertices satisfies the displayed bound? The pages below use this reading.
 
 **Status.** The site labels the problem PROVED (page last edited 16 January
-2026, accessed 2026-09-08), and CFMPP26 states the eventual bound for every
-$k$.
-The direct primary-source coverage is incomplete only at $k=5$, as explained
-below. The claim pages record the results behind the label with their postings and
-acceptance evidence:
-[[problems/ramsey_theory/E0570/claims/1993_07_01_sidorenko|Sidorenko 1993]]
-and
+2026, accessed 2026-09-08). CFMPP26 states the eventual bound for every $k$.
+Direct primary-source coverage is incomplete only at $k=5$, as explained below.
+The claim pages record the results behind the label, with their postings and
+acceptance evidence, and the frontmatter standing derives from these pages.
+[[problems/ramsey_theory/E0570/claims/1993_07_01_sidorenko|Sidorenko 1993]] and
 [[problems/ramsey_theory/E0570/claims/1994_02_01_goddard_kleitman|Goddard and Kleitman 1994]]
-for $k=3$,
+cover $k=3$.
 [[problems/ramsey_theory/E0570/claims/1993_12_01_erdos_faudree_rousseau_schelp|Erdős, Faudree, Rousseau and Schelp 1993]]
-for even $k$,
+covers even $k$.
 [[problems/ramsey_theory/E0570/claims/1999_01_01_jayawardene|Jayawardene 1999]]
-for $k=5$ (second-hand, the thesis unread), and
+covers $k=5$, second-hand, since the thesis is unread.
 [[problems/ramsey_theory/E0570/claims/2026_01_15_cambie_freschi_morawski_petrova_pokrovskiy|Cambie, Freschi, Morawski, Petrova and Pokrovskiy 2026]]
-for odd $k\ge7$ and the whole statement, accepted on the site curator's
-record since the preprint is not refereed; the frontmatter standing derives
-from these pages.
+covers odd $k\ge7$ and the whole statement. It is accepted on the site curator's
+record, since the preprint is not refereed.
 
 **Source.** [erdosproblems.com/570](https://www.erdosproblems.com/570), accessed
 2026-09-08. Cite as: T. F. Bloom, Erdős Problem #570,

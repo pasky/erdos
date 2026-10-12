@@ -2,9 +2,9 @@
 name: problems/set_theory/E0118
 title: Problem 118
 desc: |
-  Asks whether an order type whose two-colorings always give a red copy of
-  itself or a blue triangle must likewise force a blue complete graph on n
-  vertices.
+  Asks whether, for an order type $\alpha$ such that every two-coloring of
+  $K_\alpha$ has a red $K_\alpha$ or a blue $K_3$, every such coloring also has
+  a red $K_\alpha$ or a blue $K_n$ for each $n\ge3$.
 tags:
 - Set theory
 - Ramsey theory

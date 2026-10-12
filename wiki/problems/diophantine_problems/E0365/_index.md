@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0365
 title: Problem 365
 desc: |
-  Asks whether one of any two consecutive powerful numbers must be a square,
-  and whether such pairs up to x number at most a power of the logarithm of x.
+  Asks whether one of $n$ and $n+1$ must be a square when both are powerful, and
+  whether the number of such $n\le x$ is at most $(\log x)^{O(1)}$.
 tags:
 - Number theory
 - Powerful numbers
@@ -35,16 +35,15 @@ $d^3X^2-b^3Y^2=1$. Guy's B16 [Gu04] asks instead whether infinitely many pairs
 do not come from Pell equations $x^2-dy^2=\pm1$, and Walker's family answers
 that too. The page lists the two questions as the parts `pell` and `count`.
 
-**Status.** Open, in the site's label (OPEN; page last edited 31 October
-2025), which attaches to the pair of questions. The site's commentary answers
-the first question no, crediting Golomb's counterexample [Go70] and Walker's
-infinite family [Wa76]; the corpus accepts both on their refereed publication
-as partial claims settling the part `pell`, on the claim pages
-[[problems/diophantine_problems/E0365/claims/1970_10_01_golomb|Golomb 1970]]
-and
+**Status.** Open, the site's label (OPEN; page last edited 31 October 2025). The
+label applies to the pair of questions together. The second question, the
+$(\log x)^{O(1)}$ bound on the count, is unsettled, so the problem stays open.
+The site's commentary answers the first question no. It credits Golomb's
+counterexample [Go70] and Walker's infinite family [Wa76]. The corpus accepts
+both, on their refereed publication, as partial claims settling the part `pell`.
+They are recorded on the claim pages
+[[problems/diophantine_problems/E0365/claims/1970_10_01_golomb|Golomb 1970]] and
 [[problems/diophantine_problems/E0365/claims/1976_04_01_walker|Walker 1976]].
-The second question, the $(\log x)^{O(1)}$ bound on the count, is unsettled,
-so the problem stays open.
 
 **Source.** [erdosproblems.com/365](https://www.erdosproblems.com/365), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #365,

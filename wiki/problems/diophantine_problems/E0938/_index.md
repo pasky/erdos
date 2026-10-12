@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0938
 title: Problem 938
 desc: |
-  Concerns the increasing sequence of powerful numbers, those integers
-  divisible by the square of every prime dividing them, and the gaps between
-  them.
+  Asks whether only finitely many runs of three consecutive powerful numbers
+  (integers divisible by the square of each of their prime factors) are equally
+  spaced.
 tags:
 - Number theory
 - Powerful numbers

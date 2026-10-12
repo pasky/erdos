@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0300/claims/2024_04_10_liu_sawhney
 title: The largest unit-subsum-free subset has size (1 - 1/e + o(1))N
 desc: |
-  Liu and Sawhney prove that every subset of one through N of size at least
-  (1 - 1/e + epsilon)N has a subset with reciprocal sum one, which with the
-  trivial top-segment example gives A(N) = (1 - 1/e + o(1))N.
+  Liu and Sawhney prove that every subset of $\{1,\ldots,N\}$ of size at least
+  $(1-1/e+\varepsilon)N$ has a subset with reciprocal sum one. With the trivial
+  top-segment example, this gives $A(N)=(1-1/e+o(1))N$.
 authors:
 - Yang P. Liu
 - Mehtaab Sawhney
@@ -52,19 +52,19 @@ which answers the problem's request for an estimate of $A(N)$. Nothing
 finer than the $o(N)$ term is claimed.
 
 **Acceptance.** The paper is refereed: *On further questions regarding unit
-fractions*, International Mathematics Research Notices 2026, no. 2,
-rnaf382, received 28 October 2025, accepted 23 December 2025 and published
-online 14 January 2026. The site's curator, Thomas Bloom, marks the problem
-solved and credits this theorem, independently of the authors. The
-library's locators are those of arXiv v1 of 10 April 2024, the only arXiv
-version listed and the published text has not been
-compared. The library's coverage of
+fractions*, International Mathematics Research Notices 2026, no. 2, rnaf382. It
+was received on 28 October 2025, accepted on 23 December 2025 and published
+online on 14 January 2026. The site's curator, Thomas Bloom, marks the problem
+solved and credits this theorem, independently of the authors.
+
+The library's locators are those of arXiv v1 of 10 April 2024, the only arXiv
+version listed. The published text has not been compared with it. The library
+covers
 [[../library/unit_fractions/liu_2024_further_questions_regarding_unit_fractions/theorem_1_3|the theorem]]
-is its statement and a proof sketch; it records two parameter conditions
-of the paper's Proposition 5.2 that the printed proof does not visibly
-meet, and the published version has not been compared on them. The
-acceptance here rests on the refereed publication and the curator's credit,
-not on a compiled proof.
+with its statement and a proof sketch. It records two parameter conditions of
+the paper's Proposition 5.2 that the printed proof does not visibly meet, and
+the published version has not been compared on them. The acceptance here rests
+on the refereed publication and the curator's credit, not on a compiled proof.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos300.lean` of
 Boris Alexeev's `lean-proofs` collection, linked at its pinned commit,

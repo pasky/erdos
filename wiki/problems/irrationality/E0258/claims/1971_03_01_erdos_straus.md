@@ -3,8 +3,9 @@ name: problems/irrationality/E0258/claims/1971_03_01_erdos_straus
 title: Erdős and Straus's monotone and fast-growing cases
 desc: |
   Erdős and Straus's 1971 paper proves the series irrational for every
-  nondecreasing integer sequence with a_1 at least 2 (Theorem 2.23) and for
-  every sequence with |a_n| above a constant times (log n)^(3/4) (Lemma 2.14).
+  nondecreasing integer sequence with $a_1\ge2$ (Theorem 2.23). It also proves
+  this for every sequence with $|a_n|>c(\log n)^{3/4}$ for a constant $c>0$
+  (Lemma 2.14).
 authors:
 - P. Erdős
 - E. G. Straus
@@ -66,11 +67,11 @@ some $c>0$ (Lemma 2.14), with no monotonicity. Not covered: sequences tending
 to infinity that are neither monotone nor bounded below by such a power of
 $\log n$, which is the gap the problem's question concerns.
 
-**Acceptance.** Refereed: the Pacific Journal of Mathematics, volume 36,
-issue 3 (March 1971), pp. 635--646; the Crossref record of the DOI gives
-these data. The site labels the problem PROVED (LEAN) and credits Chojecki
-with the full answer; its remark that Erdős and Straus proved the monotone
-case credits this paper with a part only, so no `reviewed` evidence is
-listed. The proofs are not checked here.
+**Acceptance.** Refereed: the Pacific Journal of Mathematics, volume 36, issue 3
+(March 1971), pp. 635--646. These data come from the Crossref record of the DOI.
+The site labels the problem PROVED (LEAN) and credits Chojecki with the full
+answer. Its remark that Erdős and Straus proved the monotone case credits this
+paper with a part only, so no `reviewed` evidence is listed. The proofs are not
+checked here.
 
 **Depends on.** Nothing in this wiki.

@@ -2,10 +2,10 @@
 name: problems/integer_sequences/E0783
 title: Problem 783
 desc: |
-  Asks which set of pairwise coprime integers between two and N, with
-  reciprocal sum at most a fixed constant, leaves the fewest integers up to N
-  divisible by none of its elements; read, with the site, up to o(N), where the
-  largest primes up to N are optimal.
+  Asks which set of pairwise coprime integers in $\{2,\ldots,N\}$ with
+  reciprocal sum at most a fixed $C$ leaves the fewest integers up to $N$
+  divisible by none of its elements. Following the site, it is read up to an
+  error of $o(N)$, and then the largest primes up to $N$ are optimal.
 tags:
 - Number theory
 status: solved
@@ -84,12 +84,13 @@ corrected Statement; the exact-minimizer question is recorded here and on the
 claim pages, not as a standing.
 
 **Status.** The site labels the problem SOLVED. The corrected Statement is
-settled: Tao [Ta26] proved that every admissible $A$ leaves at least
-$(\rho(e^C)+o(1))N$ integers up to $N$ unsifted, and the prime tail attains
-that, so it minimizes up to $o(N)$. Claim pages:
-[[problems/integer_sequences/E0783/claims/2026_02_20_tao|Tao 2026]] (accepted,
-full, on the site's documented acceptance; not refereed: the author wrote on 23
-February 2026 that there was no plan to publish),
+settled. Tao [Ta26] proved that every admissible $A$ leaves at least
+$(\rho(e^C)+o(1))N$ integers up to $N$ unsifted. The prime tail attains that
+count, so it minimizes up to $o(N)$. The exact minimizer for a given $N$, the
+site's wording, is not determined by any result on record; see Notes. Claim
+pages: [[problems/integer_sequences/E0783/claims/2026_02_20_tao|Tao 2026]]
+(accepted, full, on the site's documented acceptance; not refereed: the author
+wrote on 23 February 2026 that there was no plan to publish),
 [[problems/integer_sequences/E0783/claims/1987_01_01_hildebrand|Hildebrand 1987]]
 (accepted, partial: the prime case, refereed),
 [[problems/integer_sequences/E0783/claims/1980_08_01_erdos_ruzsa|Erdős and Ruzsa 1980, reduction to primes]]
@@ -97,8 +98,7 @@ February 2026 that there was no plan to publish),
 [[problems/integer_sequences/E0783/claims/2026_01_23_chojecki|Chojecki 2026, C at most log 2]]
 (accepted, partial) and
 [[problems/integer_sequences/E0783/claims/2026_02_23_chojecki|Chojecki 2026, rigidity]]
-(claimed, partial). The exact minimizer for a given $N$, the site's wording, is
-not determined by any result on record; see Notes.
+(claimed, partial).
 
 **Source.** [erdosproblems.com/783](https://www.erdosproblems.com/783), accessed
 2026-09-04: SOLVED, header key [Er73, p.135], page last edited 28 May 2026, a

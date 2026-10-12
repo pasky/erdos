@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1031/claims/1999_11_01_promel_rodl
 title: Prömel and Rödl's universality of non-Ramsey graphs
 desc: |
-  Prömel and Rödl (J. Combin. Theory Ser. A 88 (1999)) prove that a graph on n
-  vertices with no clique or independent set on c_1 log n vertices contains
-  every graph on c_2 log n vertices induced, which answers Problem 1031.
+  Prömel and Rödl (J. Combin. Theory Ser. A 88 (1999)) prove that a graph on $n$
+  vertices with no clique or independent set on $c_1\log n$ vertices contains
+  every graph on $c_2\log n$ vertices as an induced subgraph. This answers
+  Problem 1031.
 authors:
 - Hans Jürgen Prömel
 - Vojtěch Rödl
@@ -85,16 +86,19 @@ $c\log n$ vertices. This corpus has not built the development or printed
 its axioms. The development is therefore a link on this page, and
 `evidence` stays `reviewed` and `refereed`.
 
-**Acceptance.** Refereed publication in the Journal of Combinatorial Theory,
-Series A, cited with its venue above, the `refereed` evidence. The
-`reviewed` evidence is the site's documented acceptance: the site's curator,
-Thomas Bloom, labels the problem PROVED and credits Prömel and Rödl [PrRo99]
-with the proof in the commentary, revised after the forum comment of 13
-September 2025 pointed to the paper, which Bloom acknowledged the same day
-(Bloom took no part in the paper); the proof-claim tab is empty, and the
-community database records the problem proved. The signed zbMATH review
-(Zbl 0934.05090, by R. J. Faudree), which restates the theorem as proved, is
-a second pointer carried as the `record` link and does not carry the
-evidence on its own. Read depth: the paper is not held and no open copy is
-known, so the theorem's wording is the review's, and nothing is
-independently reviewed by this project.
+**Acceptance.** The `refereed` evidence is the publication in the Journal of
+Combinatorial Theory, Series A, cited with its venue above.
+
+The `reviewed` evidence is the site's documented acceptance. The site's curator,
+Thomas Bloom, who took no part in the paper, labels the problem PROVED and
+credits Prömel and Rödl [PrRo99] with the proof in the commentary. The
+commentary was revised after the forum comment of 13 September 2025 pointed to
+the paper, which Bloom acknowledged the same day. The proof-claim tab is empty,
+and the community database records the problem proved.
+
+The signed zbMATH review (Zbl 0934.05090, by R. J. Faudree) restates the theorem
+as proved. It is a second pointer, carried as the `record` link, and does not
+carry the evidence on its own.
+
+Read depth: the paper is not held and no open copy is known, so the theorem's
+wording is the review's. Nothing is independently reviewed by this project.

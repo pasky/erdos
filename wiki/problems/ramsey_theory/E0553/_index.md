@@ -2,8 +2,9 @@
 name: problems/ramsey_theory/E0553
 title: Problem 553
 desc: |
-  Asks for a proof that the three-color Ramsey number for two triangles and a
-  complete graph on n vertices grows much faster than the two-color version.
+  Asks for a proof that $R(3,3,n)/R(3,n)\to\infty$, where $R(3,3,n)$ is the
+  three-color Ramsey number for two triangles and $K_n$ and $R(3,n)$ is the
+  two-color one.
 tags:
 - Graph theory
 - Ramsey theory
@@ -40,19 +41,19 @@ with the site's $n$ the paper's $m$. Both numbers are finite by Ramsey's
 theorem, and the question asks only that the ratio be unbounded, not for its
 rate.
 
-**Status.** Proved. The status-defining source is Theorem 3.2 of Alon and
-Rödl, Combinatorica 25 (2005), 125--141 (refereed):
-$r_k(K_3;K_m)=\tilde\Theta(m^{k+1})$ for every fixed $k\ge1$, that is,
-$m^{k+1}$ up to polylogarithmic factors. Its case $k=2$ against its case $k=1$
-(which is the Ajtai--Komlós--Szemerédi and Kim value
-$r(K_3,K_m)=\Theta(m^2/\log m)$, cited in the proof) gives
+**Status.** Proved. The status-defining source is Theorem 3.2 of Alon and Rödl,
+Combinatorica 25 (2005), 125--141 (refereed). It gives
+$r_k(K_3;K_m)=\tilde\Theta(m^{k+1})$ for every fixed $k\ge1$, that is, $m^{k+1}$
+up to polylogarithmic factors. Its case $k=1$ is the Ajtai--Komlós--Szemerédi
+and Kim value $r(K_3,K_m)=\Theta(m^2/\log m)$, cited in the proof. Its case
+$k=2$ against its case $k=1$ gives
 $R(3,3,n)/R(3,n)\ge\Omega(n/(\log n)^{3+\delta})$ for every $\delta>0$, so the
-ratio tends to infinity; the paper states Conjecture 1.1 in the problem's
-words and says it is solved "in a strong form". The site's commentary records
-the same resolution. The claim page
+ratio tends to infinity. The paper states Conjecture 1.1 in the problem's words
+and says it is solved "in a strong form". The site's commentary records the same
+resolution. The claim page
 [[problems/ramsey_theory/E0553/claims/2005_03_01_alon_rodl|Alon and Rödl 2005]]
-records the theorem, its publication and the acceptance evidence (the
-curator's credit and the refereed venue); the frontmatter standing is derived
+records the theorem, its publication and the acceptance evidence, which is the
+curator's credit and the refereed venue. The frontmatter standing is derived
 from it.
 
 **Source.** [erdosproblems.com/553](https://www.erdosproblems.com/553),

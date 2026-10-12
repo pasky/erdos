@@ -2,9 +2,10 @@
 name: problems/set_systems/E1027/claims/2025_09_21_koishichan
 title: Koishi Chan's proof by adaptive partial coloring
 desc: |
-  A family of at most c 2^n sets of size n has, for large n, a positive
-  proportion of subsets of its union meeting every member and containing none;
-  proved in the site's comment thread and credited by the site's curator.
+  For large $n$, a family of at most $c2^n$ sets of size $n$ has a positive
+  proportion of subsets of its union that meet every member and contain none.
+  The proof was given in the site's comment thread, and the site's curator
+  credits it.
 authors: []
 status: accepted
 claim: proved
@@ -71,10 +72,10 @@ and replied that it was corrected: the renormalized weight $2^{-f-1}$ restores
 the exact martingale, and the thresholds $2c$ and $w(2c)/2$ stand.
 
 **Acceptance.** Reviewed: the site's curator, Thomas Bloom, marks Problem 1027
-proved and credits the proof to Koishi Chan's comment of 21 September 2025 in
-the site's discussion thread (problem page last edited 1 October 2025).
-The comments were posted by the forum account KoishiChan. The
-result is a forum comment, not a manuscript, and is not refereed.
+proved. Bloom credits the proof to Koishi Chan's comment of 21 September 2025 in
+the site's discussion thread (problem page last edited 1 October 2025). The
+comments were posted by the forum account KoishiChan. The result is a forum
+comment, not a manuscript, and is not refereed.
 
 **Formalizations.** The file in Boris Alexeev's lean-proofs collection, linked
 above, declares itself a formalization of a solution to the problem, names

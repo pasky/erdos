@@ -2,9 +2,9 @@
 name: problems/additive_bases/E0043
 title: Problem 43
 desc: |
-  Asks whether two Sidon sets in the first N integers whose difference sets
-  meet only at zero together have at most as many pairs as a largest Sidon
-  set plus a constant, and a constant fraction fewer when equal in size.
+  Asks whether two Sidon sets in $\{1,\ldots,N\}$ whose difference sets meet
+  only at $0$ together have at most as many pairs as a largest Sidon set plus a
+  constant, and a constant fraction fewer when they have equal size.
 tags:
 - Number theory
 - Sidon sets
@@ -42,10 +42,10 @@ $$
 
 for some constant $c>0$?
 
-**Status.** DISPROVED (LEAN): both questions are answered no, the second by
-Barreto's construction of 2025-12-19, formalized 2025-12-21, and the first
-through the solution of Problem 42; the acceptance and the Lean
-qualifications are on the claim pages below.
+**Status.** DISPROVED (LEAN). Both questions are answered no. The second is
+answered by Barreto's construction of 2025-12-19, formalized 2025-12-21. The
+first is answered through the solution of Problem 42. The acceptance and the
+Lean qualifications are on the claim pages below.
 
 **Source.** [erdosproblems.com/43](https://www.erdosproblems.com/43), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #43,

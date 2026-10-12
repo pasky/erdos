@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0418/claims/1994_04_11_browkin_schinzel
 title: Browkin and Schinzel's infinite family of noncototients
 desc: |
-  Proves that no number 2^k times 509203 with k at least 1 is of the form n
-  minus Euler's totient of n, so infinitely many positive integers are not of
-  that form; refereed in Colloquium Mathematicum and recorded by Guy.
+  Browkin and Schinzel prove that no number $2^k\cdot509203$ with $k\ge1$ is of
+  the form $n-\phi(n)$, so infinitely many positive integers are not of that
+  form. The refereed paper appeared in Colloquium Mathematicum, and Guy records
+  the result.
 authors:
 - J. Browkin
 - A. Schinzel
@@ -46,19 +47,21 @@ integers not of the form have positive lower density, which stays open.
 received by the editors on 1994-04-11, the date this page carries. Reviewed:
 Guy's Unsolved Problems in Number Theory, third edition (2004), section B36,
 reports the theorem as the proof that infinitely many such integers exist
-([[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|card]]),
-and the site's curator, Thomas F. Bloom, records the problem as proved by it
-(problem page last edited 2025-12-08). Formalization: a Lean 4 proof in the
-lean-proofs repository, linked above at its pinned commit, states
-`erdos_418 : { (n - n.totient : ℕ) | n }ᶜ.Infinite` and derives it from a
-theorem `browkin_schinzel` for the family $2^k\cdot509203$. Its header names
-Browkin and Schinzel as the authors of the proof, says that an explanation of it
-written by ChatGPT 5.1 Pro was auto-formalized into Lean by Aristotle, and
-records Lean v4.24.0 and Mathlib v4.24.0; the formal-conjectures statement file
-`ErdosProblems/418.lean`, which credits the formalization to Alexeev using
-Aristotle, records it as the problem's formal proof, and the site's Lean label
-corresponds to that recorded proof. This corpus has neither built that proof nor
-audited its statement, so it is not listed as evidence.
+([[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|card]]).
+The site's curator, Thomas F. Bloom, records the problem as proved by it
+(problem page last edited 2025-12-08).
+
+Formalization: a Lean 4 proof in the lean-proofs repository, linked above at its
+pinned commit, states `erdos_418 : { (n - n.totient : ℕ) | n }ᶜ.Infinite`. It
+derives this from a theorem `browkin_schinzel` for the family $2^k\cdot509203$.
+Its header names Browkin and Schinzel as the authors of the proof. The header
+says that an explanation of it written by ChatGPT 5.1 Pro was auto-formalized
+into Lean by Aristotle, and it records Lean v4.24.0 and Mathlib v4.24.0. The
+formal-conjectures statement file `ErdosProblems/418.lean` credits the
+formalization to Alexeev using Aristotle and records it as the problem's formal
+proof. The site's Lean label corresponds to that recorded proof. This corpus has
+neither built that proof nor audited its statement, so it is not listed as
+evidence.
 
 **Depends on.** No page of this wiki: the result rests on the cited paper
 alone.

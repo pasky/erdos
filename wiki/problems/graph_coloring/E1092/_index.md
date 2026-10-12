@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E1092
 title: Problem 1092
 desc: |
-  Determines the largest f so that a graph whose every m-vertex subgraph is an
-  r-colorable graph plus at most f edges has chromatic number at most r plus
-  one.
+  Asks whether $f_r(n)\gg_r n$, in particular for $r=2$, where $f_r$ is the
+  largest function such that a graph whose every $m$-vertex subgraph is an
+  $r$-colorable graph plus at most $f_r(m)$ edges has chromatic number at most
+  $r+1$.
 tags:
 - Graph theory
 - Chromatic number
@@ -47,11 +48,11 @@ Both questions again have the answer no.
 
 **Status.** The site labels the problem DISPROVED (LEAN), crediting Rödl's
 construction of nearly bipartite graphs of large chromatic number [Ro82] as
-noted in the thread; the Lean behind the qualifier is described under
+noted in the thread. The Lean behind the qualifier is described under
 Formalization. The accepted claim is
-[[problems/graph_coloring/E1092/claims/1982_12_01_rodl|Rödl's nearly bipartite graphs]],
-which answers both questions in the negative with the subgraph condition
-read, as the statement writes it, as chromatic number $\leq r$.
+[[problems/graph_coloring/E1092/claims/1982_12_01_rodl|Rödl's nearly bipartite graphs]].
+It answers both questions in the negative. Here the subgraph condition is read
+as chromatic number $\leq r$, as the statement writes it.
 
 **Source.** [erdosproblems.com/1092](https://www.erdosproblems.com/1092),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1092,

@@ -2,8 +2,8 @@
 name: problems/ramsey_theory/E0183
 title: Problem 183
 desc: |
-  Determines the limit of the k-th root of the least order forcing a
-  monochromatic triangle in every k-coloring of a complete graph.
+  Asks for $\lim_{k\to\infty}R(3;k)^{1/k}$, where $R(3;k)$ is the least $n$ such
+  that every $k$-coloring of the edges of $K_n$ has a monochromatic triangle.
 tags:
 - Graph theory
 - Ramsey theory
@@ -29,22 +29,21 @@ $$
 \lim_{k\to \infty}R(3;k)^{1/k}.
 $$
 
-**Status.** Solved: the limit is $+\infty$. The site labels the problem
-SOLVED (LEAN), with commentary crediting the proof to an internal model at
-OpenAI in the form $R(3;k)\ge k^{(1/3-o(1))k}$ for all $k\ge2$ (page last
-edited 1 September 2026), and hosts Rob Morris's
+**Status.** Solved: the limit is $+\infty$. The site labels the problem SOLVED
+(LEAN), and its page was last edited 1 September 2026. Its commentary credits
+the proof to an internal model at OpenAI, in the form
+$R(3;k)\ge k^{(1/3-o(1))k}$ for all $k\ge2$. The site also hosts Rob Morris's
 seven-page exposition of the construction under its proof expositions. The
 source is OpenAI's August 6, 2026 version of
 [[../library/ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_9/theorem_1_1|Chapter 9, Theorem 1.1]].
-The accompanying upstream Lean file is linked at a pinned revision; it was
-not built or independently audited in this repository. The claim page
-[[problems/ramsey_theory/E0183/claims/2026_08_01_openai|OpenAI 2026]]
-records the theorem and its postings as an accepted claim: the acceptance
-evidence is the credit of the site's curator, T. F. Bloom, and Morris's
-signed exposition; the report is not refereed, and this project's review of
-its own reconstruction
-(under Current assessment) is not counted as acceptance. The frontmatter
-standing derives from that page.
+The accompanying upstream Lean file is linked at a pinned revision. It was not
+built or independently audited in this repository. The claim page
+[[problems/ramsey_theory/E0183/claims/2026_08_01_openai|OpenAI 2026]] records
+the theorem and its postings as an accepted claim, and the frontmatter standing
+derives from that page. The acceptance evidence is the credit of the site's
+curator, T. F. Bloom, and Morris's signed exposition. The report is not
+refereed. This project's review of its own reconstruction (under Current
+assessment) is not counted as acceptance.
 
 **Source.** [erdosproblems.com/183](https://www.erdosproblems.com/183), accessed
 2026-09-04 and 2026-10-07: the problem page, its discussion thread (six

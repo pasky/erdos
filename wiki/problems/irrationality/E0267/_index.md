@@ -2,8 +2,8 @@
 name: problems/irrationality/E0267
 title: Problem 267
 desc: |
-  Asks whether the sum of reciprocals of Fibonacci numbers along any
-  geometrically growing index sequence must be irrational.
+  Asks whether $\sum_k 1/F_{n_k}$ must be irrational whenever
+  $n_{k+1}/n_k\ge c>1$, where $F_n$ are the Fibonacci numbers.
 tags:
 - Irrationality
 status: claimed
@@ -31,14 +31,12 @@ $$
 be irrational?
 
 **Status.** Claimed. The site labels the problem OPEN (page last edited 18
-January 2026). The case $c\ge2$ is settled by Badea's 1993 corollary, the
-accepted partial claim on
-[[problems/irrationality/E0267/claims/1993_01_01_badea|the Badea claim page]],
-and the site's commentary records the case $1<c<2$ as open. One pending full
-claim,
+January 2026). The frontmatter standing follows from one pending full claim,
 [[problems/irrationality/E0267/claims/2026_07_15_snyder|a Lean 4 proof of 2026]],
-asserts the answer yes for every $c>1$; the frontmatter standing follows from
-it.
+which asserts the answer yes for every $c>1$. The case $c\ge2$ is settled by
+Badea's 1993 corollary, the accepted partial claim on
+[[problems/irrationality/E0267/claims/1993_01_01_badea|the Badea claim page]].
+The site's commentary records the case $1<c<2$ as open.
 
 **Source.** [erdosproblems.com/267](https://www.erdosproblems.com/267), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #267,

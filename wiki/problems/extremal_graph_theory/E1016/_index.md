@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1016
 title: Problem 1016
 desc: |
-  Estimates the fewest edges beyond n for an n-vertex graph to have cycles of
-  every length from three to n; the excess is at least log_2(n-1) - 1, Bondy
-  claimed log_2 n plus an iterated logarithm, and a 2026 proof claim is pending.
+  Asks to estimate $h(n)$, the fewest edges beyond $n$ that an $n$-vertex graph
+  needs to have cycles of every length from $3$ to $n$. It is known that
+  $h(n)\ge\log_2(n-1)-1$, Bondy claimed an upper bound of $\log_2n$ plus an
+  iterated logarithm, and a 2026 proof claim is pending.
 tags:
 - Graph theory
 - Cycles
@@ -50,35 +51,40 @@ lower bound can be raised from $\log_2n+O(1)$ to $\log_2n+\log_*n-O(1)$; the
 site's commentary quotes Erdős's weaker unproved statement
 $h(n)-\log_2n\to\infty$.
 
-**Status.** The site labels the problem OPEN. What is proved:
-$\log_2(n-1)-1\le h(n)$, with the proof in Griffin's preprint [Gr13] (from Shi's
-bound $2^{k+1}-1$ on the number of cycles of a Hamiltonian graph with $k$
-chords). Claimed without a proof in the sources found:
-$h(n)\le\log_2n+\log_*n+O(1)$, stated by Bondy in 1971 on p. 84 of [Bo71] as
-$n-1+\log_2(n-1)\le p(n)\le n+\log_2(n)+H(n)+O(1)$ for $n\ge3$, with "we can
-prove that" and no proof or indication of one in the paper; the site names
-Chapter 4 of George, Khodkar and Wallis [GKW16] as the earliest proof in print,
-whose general upper bounds are Theorem 18, $h(n)<\log_2n+2$ for
-$53\le n\le2^{22}+20$ as printed (its construction is argued for $5\le j\le20$,
-up to $2^{21}+20$; at $j=21$ it gives a 21-cycle only at $n=2^{21}+23$ and
-$2^{21}+40$), and Theorem 19, $h(n)\le2^h+2h$ on windows of $n$ where this reads
-$\log_2n+\log_2\log_2n+O(1)$, with no bound in the $\log_*n$ form printed (a
-filing observation, not a review verdict), so the upper bound in the site's form
-has no proof in any source found. The lower half of the same printed claim is
-the bound Griffin proves. Erdős's 1971 item 10 reports Bondy's then unpublished
-bounds as $\log n/\log2<h(n)<\log n/\log2+L(n)$. The site's yes-or-no question
-is the gap between these two bounds, and no source found closes it or proves
-even $h(n)-\log_2n\to\infty$; the exact values $h(n)$ for $n\le37$ are known
-(Griffin's Table 1; [GKW16], pp. 37--42). One full proof claim is pending: a
-proof-claim tab entry of 2026-09-24 asserting $h(n)=\log_2n+\log_*n+O(1)$ with a
-write-up and a Lean development, recorded on
+**Status.** The site labels the problem OPEN. The derived standing, claimed,
+proved, departs from the site's OPEN only by counting one pending full proof
+claim, which no outside review has accepted. The standing becomes solved, proved
+if the claim is accepted. The claim is a proof-claim tab entry of 2026-09-24
+asserting $h(n)=\log_2n+\log_*n+O(1)$, with a write-up and a Lean development.
+It is recorded on
 [[problems/extremal_graph_theory/E1016/claims/2026_09_24_knt|its claim page]] as
-claimed, unreviewed and not built in this corpus. The derived standing, claimed,
-proved, departs from the site's OPEN only by counting this pending claim, which
-no outside review has accepted; it becomes solved, proved if the claim is
-accepted. No proof, disproof or preprint was found in the search whose scope the
-Current assessment records, which predates the claim; this is a bounded negative
-finding, not a certificate of openness.
+claimed, unreviewed and not built in this corpus.
+
+What is proved: $\log_2(n-1)-1\le h(n)$. The proof is in Griffin's preprint
+[Gr13], from Shi's bound $2^{k+1}-1$ on the number of cycles of a Hamiltonian
+graph with $k$ chords.
+
+Claimed without a proof in the sources found: $h(n)\le\log_2n+\log_*n+O(1)$.
+Bondy stated it in 1971 on p. 84 of [Bo71] as
+$n-1+\log_2(n-1)\le p(n)\le n+\log_2(n)+H(n)+O(1)$ for $n\ge3$, with "we can
+prove that" and no proof or indication of one in the paper. The lower half of
+this printed claim is the bound Griffin proves. The site names Chapter 4 of
+George, Khodkar and Wallis [GKW16] as the earliest proof in print. Its general
+upper bounds are Theorems 18 and 19. Theorem 18 gives $h(n)<\log_2n+2$ for
+$53\le n\le2^{22}+20$ as printed. Its construction is argued for $5\le j\le20$,
+up to $2^{21}+20$. At $j=21$ it gives a 21-cycle only at $n=2^{21}+23$ and
+$2^{21}+40$. Theorem 19 gives $h(n)\le2^h+2h$ on windows of $n$ where this reads
+$\log_2n+\log_2\log_2n+O(1)$. No bound in the $\log_*n$ form is printed there (a
+filing observation, not a review verdict). So the upper bound in the site's form
+has no proof in any source found. Erdős's 1971 item 10 reports Bondy's then
+unpublished bounds as $\log n/\log2<h(n)<\log n/\log2+L(n)$.
+
+The site's yes-or-no question is the gap between these two bounds. No source
+found closes it or proves even $h(n)-\log_2n\to\infty$. The exact values $h(n)$
+for $n\le37$ are known (Griffin's Table 1; [GKW16], pp. 37--42). No proof,
+disproof or preprint was found in the search whose scope the Current assessment
+records, and that search predates the claim. This is a bounded negative finding,
+not a certificate of openness.
 
 **Source.** [erdosproblems.com/1016](https://www.erdosproblems.com/1016),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that no

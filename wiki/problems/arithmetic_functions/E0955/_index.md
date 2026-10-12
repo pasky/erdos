@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0955
 title: Problem 955
 desc: |
-  Asks whether every density-zero set has a density-zero preimage under the
-  sum of proper divisors; known results cover the primes, sums of two squares,
-  prime-factor-count tails, palindromes, sparse and missing-digit targets.
+  Asks whether every set $A$ of density zero has a preimage $s^{-1}(A)$ of
+  density zero, where $s(n)=\sigma(n)-n$ is the sum of proper divisors. Known
+  results cover the primes, sums of two squares, integers with unusually many
+  prime factors, palindromes, and sparse and missing-digit sets.
 tags:
 - Number theory
 status: open
@@ -33,10 +34,10 @@ If $A\subset \mathbb{N}$ has density $0$ then $s^{-1}(A)$ must also have density
 $0$.
 
 **Status.** Open. The site labels the problem OPEN (page last edited 30
-September 2025). Its commentary credits proofs for $A$ the primes, the
-integers with unusually many prime factors, the sums of two squares and the
-sets of size $x^{1/2+o(1)}$, each an accepted partial claim; the general
-conjecture is open.
+September 2025). Its commentary credits proofs for the following choices of $A$:
+the primes, the integers with unusually many prime factors, the sums of two
+squares, and the sets of size $x^{1/2+o(1)}$. Each is an accepted partial claim.
+The general conjecture is open.
 
 **Source.** [erdosproblems.com/955](https://www.erdosproblems.com/955), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #955,

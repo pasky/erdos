@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0638/claims/2026_04_26_saturnino
 title: Saturnino's hereditary counterexample, a forum-posted note
 desc: |
-  Main Theorem 1 of a note posted to the site's thread on 26 April 2026: a
-  hereditary class of finite graphs forcing monochromatic triangles under
-  every finite number of colors but under no infinite cardinal; AI-assisted.
+  Main Theorem 1 of Saturnino's AI-assisted note, posted to the site's thread on
+  26 April 2026, states that some hereditary class of finite graphs forces
+  monochromatic triangles for every finite number of colors but for no infinite
+  cardinal.
 authors:
 - Brian Saturnino
 status: claimed

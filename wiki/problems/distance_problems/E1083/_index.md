@@ -2,8 +2,8 @@
 name: problems/distance_problems/E1083
 title: Problem 1083
 desc: |
-  Estimates the least number of distinct distances determined by n points in
-  d-dimensional space, asking whether it is nearly n to the power two over d.
+  Asks to estimate the least number $f_d(n)$ of distinct distances determined by
+  $n$ points in $\mathbb{R}^d$ for $d\ge3$, and whether $f_d(n)=n^{2/d-o(1)}$.
 tags:
 - Geometry
 - Distances
@@ -40,17 +40,18 @@ whose `minimalDistinctDistances` is the least distance count over $n$-point
 sets, and both claim pages use this reading, and the standing is recorded for
 it.
 
-**Status.** Open, in the site's label (OPEN; page last edited 16 October
-2025, proof-claims tab empty on 2026-10-06). Tidor, Yu and Zakharov's
-preprint of 14 August 2026 proves $f_3(n)=n^{2/3-o(1)}$, a yes to the
-particular question for $d=3$, recorded as a pending partial claim on
-[[problems/distance_problems/E1083/claims/2026_08_14_tidor_yu_zakharov|its
-claim page]]. OpenAI's release preprint of 23 September 2026 claims
-$f_d(n)\gg_d n^{2/d}$ for every fixed $d\ge3$, which would answer the
-question in the affirmative for every $d$; the
+**Status.** Open, in the site's label (OPEN; page last edited 16 October 2025,
+proof-claims tab empty on 2026-10-06). The standing in the frontmatter, derived
+from the claim pages, is claimed. The reason is OpenAI's release preprint of 23
+September 2026, which claims $f_d(n)\gg_d n^{2/d}$ for every fixed $d\ge3$. That
+would answer the question in the affirmative for every $d$. The
 [[problems/distance_problems/E1083/claims/2026_09_23_openai|OpenAI claim page]]
-records it as a pending full claim without acceptance evidence, so the
-standing in the frontmatter, derived from the claim pages, is claimed.
+records it as a pending full claim without acceptance evidence. Tidor, Yu and
+Zakharov's preprint of 14 August 2026 proves $f_3(n)=n^{2/3-o(1)}$. This is a
+yes to the particular question for $d=3$. It is recorded as a pending partial
+claim on
+[[problems/distance_problems/E1083/claims/2026_08_14_tidor_yu_zakharov|its claim
+page]].
 
 **Source.** [erdosproblems.com/1083](https://www.erdosproblems.com/1083),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1083,

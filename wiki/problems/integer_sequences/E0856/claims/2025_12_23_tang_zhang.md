@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0856/claims/2025_12_23_tang_zhang
 title: Polylogarithmic bounds tied to the sunflower-free capacity
 desc: |
-  Tang and Zhang's 2025 preprint bounds f_k(N) between powers of log N, the
-  exponents given by an explicit constant and by the sunflower-free capacity,
-  and proves f_k(N) = (log N)^{1-o(1)} exactly when that capacity is 2.
+  Tang and Zhang's 2025 preprint bounds $f_k(N)$ between powers of $\log N$,
+  with exponents given by an explicit constant and by the sunflower-free
+  capacity. It also proves that $f_k(N)=(\log N)^{1-o(1)}$ exactly when that
+  capacity is $2$.
 authors:
 - Quanyu Tang
 - Shengtong Zhang

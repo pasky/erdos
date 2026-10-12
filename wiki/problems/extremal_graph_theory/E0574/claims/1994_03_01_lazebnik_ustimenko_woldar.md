@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0574/claims/1994_03_01_lazebnik_ustimenko_woldar
 title: "Lazebnik, Ustimenko and Woldar 1994: bipartite 2k-cycle-free graphs above the proposed constant at k = 3 and k = 5"
 desc: |
-  The site's first disproof: bipartite 2k-cycle-free graphs with constant
-  2/3^(4/3) at k = 3 and 4/5^(6/5) at k = 5, above the proposed 2^(-1-1/k);
-  refereed in J. Combin. Theory Ser. B and credited by the site.
+  The site's first disproof, by Lazebnik, Ustimenko and Woldar, gives bipartite
+  $C_{2k}$-free graphs with constant $2/3^{4/3}$ at $k=3$ and $4/5^{6/5}$ at
+  $k=5$, above the proposed $2^{-1-1/k}$. It was refereed in J. Combin. Theory
+  Ser. B and is credited by the site.
 authors:
 - F. Lazebnik
 - V. A. Ustimenko
@@ -65,14 +66,14 @@ paper says nothing about $k=2$ or about any $k\ge4$ other than $5$.
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Combinatorial
 Theory, Series B, a refereed journal. Reviewed: the site's curator, Thomas
-Bloom, labels the problem DISPROVED and, in the commentary of
-erdosproblems.com/574 (page last edited 1 April 2026), names this paper as
-apparently the first disproof, for $k=3$ and $5$, citing its bipartite
-$C_{2k}$-free graphs with constant $(k-1)/k^{1+1/k}$ against the problem's
-$2^{-1-1/k}$; Bloom took no part in the paper. The Theorem and the Corollary are
-checked clause by clause here and the Theorem's one-page proof is followed in
-full; no independent review of the paper is recorded in this repository and none
-is claimed.
+Bloom, labels the problem DISPROVED. In the commentary of erdosproblems.com/574
+(page last edited 1 April 2026), Bloom names this paper as apparently the first
+disproof, for $k=3$ and $5$. The commentary cites the paper's bipartite
+$C_{2k}$-free graphs with constant $(k-1)/k^{1+1/k}$, against the problem's
+$2^{-1-1/k}$. Bloom took no part in the paper. Here the Theorem and the
+Corollary are checked clause by clause, and the Theorem's one-page proof is
+followed in full. No independent review of the paper is recorded in this
+repository, and none is claimed.
 
 **Depends on.**
 [[../library/extremal_graph_theory/lazebnik_ustimenko_woldar_1994_properties_certain_families_2k_cycle_free_graphs/corollary_p297|corollary_p297]],

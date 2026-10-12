@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E1122
 title: Problem 1122
 desc: |
-  Asks whether an additive function that decreases from n to n plus one only
-  for a density-zero set of n must be a constant multiple of the logarithm.
+  Asks whether an additive function $f$ with $f(n+1)<f(n)$ only for a
+  density-zero set of $n$ must be $c\log n$ for some real $c$.
 tags:
 - Number theory
 status: claimed
@@ -30,21 +30,21 @@ $$
 If $\lvert A\cap [1,X]\rvert =o(X)$ then must $f(n)=c\log n$ for some $c\in
 \mathbb{R}$?
 
-**Status.** Claimed, proved: no claim settling the problem is accepted. The
-site labels the problem OPEN (page last edited 2026-04-01). One pending full
-claim is on its proof-claims tab, recorded and not adopted:
-[[problems/arithmetic_functions/E1122/claims/2026_09_08_gu|Gu 2026]], a
-manuscript posted on Zenodo on 2026-09-08 (the record states publication
-date 2026-09-07) and registered on the site the same day, which asserts the
-answer yes with a nonnegative constant $c$ and credits GPT-6 Astra for the
-argument. It comes with a Lean development that derives the statement from
-four cited theorems taken as hypotheses; no review or
-acceptance of the claim is recorded. Two refereed partial results that the
-site's commentary credits are accepted:
+**Status.** Claimed, proved. No claim settling the problem is accepted. The site
+labels the problem OPEN (page last edited 2026-04-01). One pending full claim is
+on the site's proof-claims tab, and it is recorded and not adopted:
+[[problems/arithmetic_functions/E1122/claims/2026_09_08_gu|Gu 2026]]. This is a
+manuscript posted on Zenodo on 2026-09-08 (the record states publication date
+2026-09-07) and registered on the site the same day. It asserts the answer yes
+with a nonnegative constant $c$, and it credits GPT-6 Astra for the argument. It
+comes with a Lean development that derives the statement from four cited
+theorems taken as hypotheses. No review or acceptance of the claim is recorded.
+
+Two refereed partial results that the site's commentary credits are accepted.
 [[problems/arithmetic_functions/E1122/claims/1946_01_01_erdos|Erdős 1946]]
-[Er46], the answer yes when $A$ is empty or when $f(n+1)-f(n)\to0$, and
+[Er46] gives the answer yes when $A$ is empty or when $f(n+1)-f(n)\to0$.
 [[problems/arithmetic_functions/E1122/claims/2021_08_27_mangerel|Mangerel 2021]]
-[Ma22], the answer yes for completely additive $f$ with no outsized prime
+[Ma22] gives the answer yes for completely additive $f$ with no outsized prime
 values whose decreases number $\ll X/(\log X)^{2+\delta}$.
 
 **Source.** [erdosproblems.com/1122](https://www.erdosproblems.com/1122),

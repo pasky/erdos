@@ -2,9 +2,10 @@
 name: problems/set_systems/E1020/claims/2026_02_22_frankl_lu_ma_wu
 title: Frankl, Lu, Ma and Wu's 4-uniform range n at least 5(k - 1)
 desc: |
-  Frankl, Lu, Ma and Wu (2026) claim the matching conjecture for 4-uniform
-  hypergraphs whenever n is at least five times the matching number k - 1 and
-  n is large, through a stability theorem; an arXiv preprint, not refereed.
+  Frankl, Lu, Ma and Wu (2026) claim a proof of the matching conjecture for
+  $4$-uniform hypergraphs when $n\ge5(k-1)$, five times the matching number, and
+  $n$ is large, using a stability theorem. The claim is in an arXiv preprint and
+  is not refereed.
 authors:
 - Peter Frankl
 - Hongliang Lu

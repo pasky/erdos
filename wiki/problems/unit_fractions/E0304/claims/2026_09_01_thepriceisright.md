@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0304/claims/2026_09_01_thepriceisright
 title: "Aristotle's Lean proof that log log b is at most 6 N(b)"
 desc: |
-  A Lean proof, produced by Harmonic's Aristotle prover and published by the
-  GitHub account thepriceisright, of the formal-conjectures variant
-  lower_1950 of Problem 304: log log b <= 6 N(b) for b >= 3; claimed.
+  A Lean proof of the formal-conjectures variant lower_1950 of Problem 304, that
+  $\log\log b\le6N(b)$ for $b\ge3$, produced by Harmonic's Aristotle prover and
+  published by the GitHub account thepriceisright. The claim is pending.
 authors:
 - Keith Vertrees
 status: claimed

@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0206
 title: Problem 206
 desc: |
-  Asks whether, for almost every positive real number, the best sums of n
-  distinct unit fractions below it are eventually built greedily.
+  Asks whether, for almost every $x>0$, the best underapproximations of $x$ by
+  sums of $n$ distinct unit fractions are eventually built greedily.
 tags:
 - Number theory
 - Unit fractions
@@ -53,15 +53,15 @@ or no, and the answer is no.
 The companion questions for every rational $x$ and for every algebraic $x$
 are variants, not the problem; they are recorded separately below.
 
-**Status.** Disproved. Kovač's Theorem 1 (J. Number Theory 268 (2025),
-39--48) shows that the set of $x>0$ whose best Egyptian underapproximations
-are eventually greedy has Lebesgue measure zero, so the assertion fails for
-almost every $x$ instead of holding for almost every $x$. The site's label
-is DISPROVED (LEAN); the suffix is a catalog label explained under
-Formalization. The claim page
-[[problems/unit_fractions/E0206/claims/2024_06_11_kovac|Kovač 2024]] records
-the result, its postings and the acceptance evidence (refereed publication
-and the curator's credit) from which the standing above derives.
+**Status.** Disproved. The site's label is DISPROVED (LEAN), and the suffix is a
+catalog label explained under Formalization. Kovač's Theorem 1 (J. Number Theory
+268 (2025), 39--48) shows that the set of $x>0$ whose best Egyptian
+underapproximations are eventually greedy has Lebesgue measure zero. So the
+assertion fails for almost every $x$, instead of holding for almost every $x$.
+The claim page
+[[problems/unit_fractions/E0206/claims/2024_06_11_kovac|Kovač 2024]] records the
+result, its postings and the acceptance evidence from which the standing above
+derives. That evidence is refereed publication and the curator's credit.
 
 **Source.** [erdosproblems.com/206](https://www.erdosproblems.com/206),
 accessed 2026-09-17: the problem page

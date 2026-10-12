@@ -2,8 +2,8 @@
 name: problems/discrepancy/E0988
 title: Problem 988
 desc: |
-  Concerns how small the spherical cap discrepancy of a finite set of points
-  on the unit sphere can be made.
+  Asks whether the least spherical cap discrepancy of an $n$-point set on the
+  unit sphere $S^2$ tends to infinity with $n$.
 tags:
 - Discrepancy
 status: solved
@@ -38,12 +38,12 @@ $$
 
 as $n\to \infty$?
 
-**Status.** SOLVED, the site's label: Schmidt's 1969 theorem, refereed in
+**Status.** SOLVED, the site's label. Schmidt's 1969 theorem, refereed in
 Inventiones Mathematicae, answers the question yes in every dimension. The
-derived standing, solved and proved, is more specific than the site's label,
-which names no polarity: the accepted claim on
+derived standing is solved and proved, because the accepted claim on
 [[problems/discrepancy/E0988/claims/1969_03_01_schmidt|the claim page]] proves
-the statement.
+the statement. This standing is more specific than the site's label, which names
+no polarity.
 
 **Source.** [erdosproblems.com/988](https://www.erdosproblems.com/988), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #988,

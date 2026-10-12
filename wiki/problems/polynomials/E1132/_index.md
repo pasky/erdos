@@ -2,8 +2,10 @@
 name: problems/polynomials/E1132
 title: Problem 1132
 desc: |
-  Asks for the best possible bounds on the fundamental Lagrange interpolation
-  polynomials for nodes in the interval from minus one to one.
+  For a sequence of nodes in $[-1,1]$, let
+  $L_n(x)=\sum_{k\le n}\lvert l_k(x)\rvert$. Asks whether some $x\in(-1,1)$ has
+  $L_n(x)>\frac{2}{\pi}\log n-O(1)$ for infinitely many $n$, and whether
+  $\limsup_n L_n(x)/\log n\ge 2/\pi$ for almost all $x$.
 tags:
 - Analysis
 - Polynomials
@@ -65,24 +67,23 @@ question for an arbitrary triangular array, of which the Statement's single
 sequence is a special case; for non-nested arrays Gu's companion note claims
 the answer no.
 
-**Status.** The site labels the problem OPEN (page last edited 01 April
-2026; proof-claims tab accessed 2026-10-07). The tab carries one proof
-claim, submitted as full, by Qiyuan Gu (using GPT-6 Astra, GPT-5.6 Sol,
-Claude Opus 5, as the tab writes it), posted 2026-09-05 with a Zenodo
-write-up: it claims the almost-everywhere $\limsup$ bound as asked, and the
-first question with a constant that may depend on the point $x$, while a
-companion note by the same claimant states that for a non-nested triangular
-array no constant uniform in the array can serve; for a single sequence, as
-the Statement is posed, the uniform reading is not settled. A comment on the
-claim objects that only the weaker, point-dependent variant is answered, and
-the Statement does not fix the dependence of the $O(1)$ term, a point Tao
-[Ta26b] had already raised. In the reading of the Formulation the claim would
-settle only the second question. It is recorded, unadopted, as a partial claim
-on [[problems/polynomials/E1132/claims/2026_09_05_gu|its claim page]], and the
-derived standing in the frontmatter is open. Tao [Ta26b] proves, for every
-$\omega(n)\to\infty$, a dense set of $x$ with
-$L_n(x)\ge\frac2\pi\log n-\omega(n)$ for infinitely many $n$, short of the
-constant the question asks for.
+**Status.** The site labels the problem OPEN (page last edited 01 April 2026;
+proof-claims tab accessed 2026-10-07). The derived standing in the frontmatter
+is open. The tab carries one proof claim, submitted as full, by Qiyuan Gu (using
+GPT-6 Astra, GPT-5.6 Sol, Claude Opus 5, as the tab writes it). It was posted
+2026-09-05 with a Zenodo write-up. It claims the almost-everywhere $\limsup$
+bound as asked. It also claims the first question with a constant that may
+depend on the point $x$. A companion note by the same claimant states that for a
+non-nested triangular array no constant uniform in the array can serve. For a
+single sequence, as the Statement is posed, the uniform reading is not settled.
+A comment on the claim objects that only the weaker, point-dependent variant is
+answered. The Statement does not fix the dependence of the $O(1)$ term, a point
+Tao [Ta26b] had already raised. In the reading of the Formulation the claim
+would settle only the second question. It is recorded, unadopted, as a partial
+claim on [[problems/polynomials/E1132/claims/2026_09_05_gu|its claim page]]. Tao
+[Ta26b] proves, for every $\omega(n)\to\infty$, a dense set of $x$ with
+$L_n(x)\ge\frac2\pi\log n-\omega(n)$ for infinitely many $n$. This falls short
+of the constant the question asks for.
 
 **Source.** [erdosproblems.com/1132](https://www.erdosproblems.com/1132),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1132,

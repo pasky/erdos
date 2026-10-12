@@ -2,11 +2,10 @@
 name: problems/ramsey_theory/E0809
 title: Problem 809
 desc: |
-  Asks whether the fewest colors making every odd cycle of length 2k+1 rainbow
-  on some n-vertex graph one edge past the Turán number is asymptotically n
-  squared over eight for all k at least 3; proved by two Lean developments
-  built and audited here, Asad Shahab's, filed first, and the project's claim
-  L17.
+  Asks whether, for every $k\ge3$, the fewest colors that make every $C_{2k+1}$
+  rainbow in some $n$-vertex graph with $\lfloor n^2/4\rfloor+1$ edges is
+  asymptotically $n^2/8$. Proved by two Lean developments built and audited
+  here: Asad Shahab's, filed first, and the project's claim L17.
 tags:
 - Graph theory
 - Ramsey theory
@@ -50,36 +49,37 @@ question.
 
 **Status.** Open on the site (last edited 1 April 2026), whose commentary
 credits Bucić, Chen and Ma [BCM26] with the affirmative answer for every $k\ge4$
-and records nothing for $k=3$. Their Theorem 1.2 (arXiv:2603.18952v1, 19 March
-2026, a preprint) gives
-$\chi_S(n,e,C_{2k+1})=e/2+(n/2)\sqrt{e-n^2/4}+o(n^2)$ over the whole range
-$\lfloor n^2/4\rfloor+1\le e\le\binom n2$, and at $e=\lfloor n^2/4\rfloor+1$
-this is $n^2/8+o(n^2)$. The case $k=3$ ($C_7$) is outside that theorem; for it
-the 1989 paper gives only the lower bound
-$\chi_S(n,\lfloor n^2/4\rfloor+1,C_7)\ge cn^2$ and the two-clique coloring that
-its authors say would make $c=1/8$ best possible, and no refereed source found
-determines the $C_7$ constant; Shahab's preprint arXiv:2609.38286 (29 September
-2026), unrefereed and not read here, states it (see "Outside claims and
-priority"). The frontmatter standing is derived from the claim pages: two
-accepted full claims, each a Lean proof of the full statement for every $k\ge3$
-that this corpus built and audited, settle the problem on `formalized` evidence.
-Asad Shahab's claim, filed on the site first (the site's proof claim 358, before
-the project's 367, both on 27 September 2026), is a seven-cycle proof with a
-Lean development for every $k\ge3$, built here at its pinned commit and audited
-clause by clause against the Statement (see the Formalization paragraph)
+and records nothing for $k=3$. The frontmatter standing is derived from the
+claim pages. Two accepted full claims settle the problem on `formalized`
+evidence. Each is a Lean proof of the full statement for every $k\ge3$ that this
+corpus built and audited. No outside review of either proof is known. The first
+is Asad Shahab's claim, filed on the site first (the site's proof claim 358,
+before the project's 367, both on 27 September 2026). It is a seven-cycle proof
+with a Lean development for every $k\ge3$. That development was built here at
+its pinned commit and audited clause by clause against the Statement (see the
+Formalization paragraph)
 ([[problems/ramsey_theory/E0809/claims/2026_09_27_shahab|claim page]]). The
-project's claim
+other is the project's claim
 [[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_index|L17]], a
-kernel-checked Lean proof of the full statement for every $k\ge3$ whose
-statement the project's fidelity review and grade of 2026-10-02 audited (see the
-Formalization paragraph), is the other
-([[problems/ramsey_theory/E0809/claims/2026_09_27_plasma_ai|claim page]]); its
-tier-2 standing is the project's own verification, not community acceptance. No
-outside review of either proof is known. Bucić, Chen and Ma's theorem is an
-accepted partial claim covering $k\ge4$ on `formalized` evidence, the $k\ge4$
-branches of both developments (the site's commentary credits the theorem, but on
-a problem the site labels OPEN that credit is not acceptance)
+kernel-checked Lean proof of the full statement for every $k\ge3$. Its statement
+was audited by the project's fidelity review and grade of 2026-10-02 (see the
+Formalization paragraph)
+([[problems/ramsey_theory/E0809/claims/2026_09_27_plasma_ai|claim page]]). Its
+tier-2 standing is the project's own verification, not community acceptance.
+Bucić, Chen and Ma's theorem is an accepted partial claim covering $k\ge4$ on
+`formalized` evidence, namely the $k\ge4$ branches of both developments
 ([[problems/ramsey_theory/E0809/claims/2026_03_19_bucic_chen_ma|claim page]]).
+The site's commentary credits the theorem, but on a problem the site labels OPEN
+that credit is not acceptance. Bucić, Chen and Ma's Theorem 1.2
+(arXiv:2603.18952v1, 19 March 2026, a preprint) gives
+$\chi_S(n,e,C_{2k+1})=e/2+(n/2)\sqrt{e-n^2/4}+o(n^2)$ over the whole range
+$\lfloor n^2/4\rfloor+1\le e\le\binom n2$. At $e=\lfloor n^2/4\rfloor+1$ this is
+$n^2/8+o(n^2)$. The case $k=3$ ($C_7$) is outside that theorem. For it, the 1989
+paper gives only the lower bound $\chi_S(n,\lfloor n^2/4\rfloor+1,C_7)\ge cn^2$
+and the two-clique coloring that its authors say would make $c=1/8$ best
+possible. No refereed source found determines the $C_7$ constant. Shahab's
+preprint arXiv:2609.38286 (29 September 2026), unrefereed and not read here,
+states it (see "Outside claims and priority").
 
 **Source.** [erdosproblems.com/809](https://www.erdosproblems.com/809),
 accessed 2026-09-18: the problem page (OPEN, marked by the site as not

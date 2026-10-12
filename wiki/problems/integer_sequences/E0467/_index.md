@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0467
 title: Problem 467
 desc: |
-  Asks whether, for large x, residues can be chosen for the primes up to x and
-  those primes split in two so every integer below x is covered by both parts;
-  open, with one sentence of the 1980 monograph as its only source.
+  Asks whether, for all large $x$, one can choose a residue class for each prime
+  $p\le x$ and split these primes into two non-empty sets so that every $n<x$
+  lies in the chosen class of some prime in each set; open, with one sentence of
+  the 1980 monograph as its only source.
 tags:
 - Number theory
 status: open
@@ -52,11 +53,11 @@ prime it contains, so the question asks for two disjoint systems of that
 kind inside the primes up to $x$; Problem 687 asks how few primes one such
 system needs.
 
-**Status.** Open. The only source in hand is the 1980 sentence; no proof,
-disproof, partial result or proof claim for the site's statement was found
-in the search whose scope the Current assessment records, and nothing found
-bears on it beyond its relation to Problems 687 and 689. This is a bounded
-negative finding, not a certificate of openness.
+**Status.** Open. The only source in hand is the 1980 sentence. The search whose
+scope the Current assessment records found no proof, disproof, partial result or
+proof claim for the site's statement. Nothing found bears on it beyond its
+relation to Problems 687 and 689. This is a bounded negative finding, not a
+certificate of openness.
 
 **Source.** [erdosproblems.com/467](https://www.erdosproblems.com/467),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that no

@@ -2,9 +2,8 @@
 name: problems/graph_coloring/E0626
 title: Problem 626
 desc: |
-  Asks whether the largest girth of a graph on n vertices with chromatic
-  number k, divided by the logarithm of n, tends to a limit, for k at least
-  four.
+  Asks whether, for $k\ge 4$, the largest girth of an $n$-vertex graph with
+  chromatic number $k$, divided by $\log n$, tends to a limit.
 tags:
 - Graph theory
 - Chromatic number

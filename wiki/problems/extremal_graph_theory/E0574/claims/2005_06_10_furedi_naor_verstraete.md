@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0574/claims/2005_06_10_furedi_naor_verstraete
 title: "Füredi, Naor and Verstraëte 2006: hexagon-free bipartite graphs with part sizes m, 2m refute the k = 3 case"
 desc: |
-  An alternative disproof at k = 3: C_6-free bipartite graphs with parts
-  m, 2m and 2m^(4/3) + O(m) edges, constant at least 2/3^(4/3) > 2^(-4/3)
-  along a sequence of orders; refereed in Adv. Math., credited by the site.
+  Füredi, Naor and Verstraëte give an alternative disproof at $k=3$: $C_6$-free
+  bipartite graphs with parts of sizes $m$ and $2m$ and with $2m^{4/3}+O(m)$
+  edges, with constant at least $2/3^{4/3}>2^{-4/3}$ along a sequence of orders.
+  It was refereed in Adv. Math. and is credited by the site.
 authors:
 - Zoltán Füredi
 - Assaf Naor
@@ -61,15 +62,15 @@ $k=3$, $t=2$ graphs of
 [[problems/extremal_graph_theory/E0574/claims/1994_03_01_lazebnik_ustimenko_woldar|Lazebnik, Ustimenko and Woldar 1994]].
 
 **Acceptance.** Refereed: the paper appeared in Advances in Mathematics, a
-refereed journal (the Princeton publication record and the author's publication
-list identify the published article). Reviewed: the site's curator, Thomas
-Bloom, labels the problem DISPROVED and, in the commentary of
-erdosproblems.com/574 (page last edited 1 April 2026), names this paper as an
-alternative disproof for $k=3$, citing its $m\times2m$ hexagon-free bipartite
-graphs with $(2/3^{4/3}+o(1))n^{4/3}$ edges for $n=3m$; Bloom took no part in
+refereed journal. The Princeton publication record and the author's publication
+list identify the published article. Reviewed: the site's curator, Thomas Bloom,
+labels the problem DISPROVED. In the commentary of erdosproblems.com/574 (page
+last edited 1 April 2026), Bloom names this paper as an alternative disproof for
+$k=3$. The commentary cites the paper's $m\times2m$ hexagon-free bipartite
+graphs with $(2/3^{4/3}+o(1))n^{4/3}$ edges for $n=3m$. Bloom took no part in
 the paper. The statements and the construction are taken from pp. 1--5, 12--13
-and 17--18 of the manuscript; the proofs are not checked, no independent review
-is recorded in this repository and none is claimed.
+and 17--18 of the manuscript. The proofs are not checked. No independent review
+is recorded in this repository, and none is claimed.
 
 **Depends on.**
 [[../library/extremal_graph_theory/furedi_2006_turan_number_hexagon/theorem_1_2|theorem_1_2]],

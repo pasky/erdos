@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0189
 title: Problem 189
 desc: |
-  Asks whether every finite coloring of the plane has a color class
-  containing the vertices of a rectangle of every possible area.
+  Asks whether every finite coloring of the plane has a color class containing
+  the vertices of a rectangle of every area.
 tags:
 - Geometry
 - Ramsey theory
@@ -24,8 +24,8 @@ updated: 2026-10-08T17:47:46Z
 **Statement.** If $\mathbb{R}^2$ is finitely coloured then must there exist some
 colour class which contains the vertices of a rectangle of every area?
 
-**Status.** DISPROVED (LEAN): the site credits Kovač's coloring of the plane
-in $25$ colors with no monochromatic rectangle of area $1$ [Ko23]; see the
+**Status.** DISPROVED (LEAN). The site credits Kovač's coloring of the plane in
+$25$ colors with no monochromatic rectangle of area $1$ [Ko23]. See the
 [[problems/discrete_geometry/E0189/claims/2023_09_18_kovac|claim page]].
 
 **Source.** [erdosproblems.com/189](https://www.erdosproblems.com/189), accessed

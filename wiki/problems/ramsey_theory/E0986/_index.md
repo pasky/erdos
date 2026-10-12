@@ -2,8 +2,8 @@
 name: problems/ramsey_theory/E0986
 title: Problem 986
 desc: |
-  Asks whether, for fixed s at least three, the Ramsey number of s against k
-  is at least k to the s minus one over a power of log k.
+  Asks whether, for each fixed $s\ge3$, $R(s,k)\gg k^{s-1}/(\log k)^c$ for some
+  constant $c=c(s)>0$.
 tags:
 - Graph theory
 - Ramsey theory
@@ -39,25 +39,27 @@ proof determines $R(s,k)$ for fixed $s$ up to a polylogarithmic factor.
 
 **Status.** PROVED, the site's label (page last edited 21 June 2026). Bradač's
 Theorem 1.1 (arXiv:2605.28793v3, 16 June 2026) states that for any $s\ge3$ there
-is $c_s>0$ with $r(s,k)\ge c_sk^{s-1}/(\log k)^{2s-4}$ for all $k\ge2$, so
-$c(s)=2s-4$ works. The status-defining source is an arXiv preprint, accepted by
-the site's curator, Thomas Bloom, who labels the problem PROVED and credits the
-lower bound to this paper as the resolution; no journal acceptance, other expert
-review or checked formalization of it was found, and the paper credits the step
-that raised the exponent from $s-2$ to $s-1$ to an internal model at OpenAI. The
-cases $s=3$
+is $c_s>0$ with $r(s,k)\ge c_sk^{s-1}/(\log k)^{2s-4}$ for all $k\ge2$. So
+$c(s)=2s-4$ works. The status-defining source is this arXiv preprint. The site's
+curator, Thomas Bloom, accepted it: he labels the problem PROVED and credits the
+lower bound to this paper as the resolution. No journal acceptance, other expert
+review or checked formalization of the paper was found. The paper credits the
+step that raised the exponent from $s-2$ to $s-1$ to an internal model at
+OpenAI.
+
+The frontmatter standing is derived from the claim pages. Bradač's result is an
+accepted full claim
+([[problems/ramsey_theory/E0986/claims/2026_06_16_bradac|claim page]]), with the
+curator's review as its evidence. The two manuscripts of the OpenAI release of
+24 September 2026 claim the sharp logarithmic exponent $s-2+o(1)$ for every
+fixed $s\ge5$. They are an accepted partial claim
+([[problems/ramsey_theory/E0986/claims/2026_09_24_openai|claim page]]), with the
+corpus's build and audit of the release's two Lean declarations as its evidence.
+The cases $s=3$
 ([[problems/ramsey_theory/E0986/claims/1977_01_01_spencer|Spencer 1977]]; the
 paper credits the bound to Erdős) and $s=4$
 ([[problems/ramsey_theory/E0986/claims/2023_06_06_mattheus_verstraete|Mattheus and Verstraete]],
 Annals of Mathematics 2024) are refereed results and accepted partial claims.
-The frontmatter standing is derived from the claim pages: Bradač's result is an
-accepted full claim
-([[problems/ramsey_theory/E0986/claims/2026_06_16_bradac|claim page]]), its
-evidence the curator's review, and the two manuscripts of the OpenAI release of
-24 September 2026, which claim the sharp logarithmic exponent $s-2+o(1)$ for
-every fixed $s\ge5$, are an accepted partial claim
-([[problems/ramsey_theory/E0986/claims/2026_09_24_openai|claim page]]), its
-evidence the corpus's build and audit of the release's two Lean declarations.
 
 **Source.** [erdosproblems.com/986](https://www.erdosproblems.com/986), accessed
 2026-09-17: the problem page (PROVED; last edited 21 June 2026; source key

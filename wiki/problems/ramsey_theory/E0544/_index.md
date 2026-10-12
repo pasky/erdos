@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0544
 title: Problem 544
 desc: |
-  Asks whether the gap between consecutive Ramsey numbers of a triangle
-  against a complete graph tends to infinity, and whether it is smaller than
-  order k; open, with the gap known only to lie between 3 and k+1.
+  Asks whether the gap $R(3,k+1)-R(3,k)$ between consecutive Ramsey numbers of a
+  triangle against a complete graph tends to infinity, and whether it is $o(k)$.
+  Both are open, and the gap is known only to lie between $3$ and $k+1$.
 tags:
 - Graph theory
 - Ramsey theory
@@ -46,15 +46,16 @@ the recurrence $R(3,k+1)\le R(2,k+1)+R(3,k)$ with $R(2,k+1)=k+1$, at most
 $k+1$, so the second question asks whether the trivial upper bound is far
 from the truth.
 
-**Status.** The site labels the problem OPEN. No source proves or disproves
-either statement, and no proof claim exists, in the search whose scope the Current assessment records. What is proved:
-$3\le R(3,k+1)-R(3,k)\le k+1$ for $k\ge2$ (the lower bound Graver and
+**Status.** The site labels the problem OPEN. The search whose scope the Current
+assessment records found no source that proves or disproves either statement,
+and no proof claim. What is proved is the following. First,
+$3\le R(3,k+1)-R(3,k)\le k+1$ for $k\ge2$. The lower bound is Graver and
 Yackel's Corollary 4 and the case $m=3$ of Burr, Erdős, Faudree and Schelp's
-Theorem 1; the upper bound the recurrence above), and the site's consequence
-of the ratio manuscript accepted for Problem 1014,
-$R(3,k+1)-R(3,k)\le k^{-c}R(3,k)=O(k^{2-c}/\log k)$ for an unspecified $c>0$,
-which bounds the increment above and decides neither question. This is a
-bounded negative finding, not a certificate of openness.
+Theorem 1. The upper bound is the recurrence above. Second, the site's
+consequence of the ratio manuscript accepted for Problem 1014 is
+$R(3,k+1)-R(3,k)\le k^{-c}R(3,k)=O(k^{2-c}/\log k)$ for an unspecified $c>0$.
+This bounds the increment above and decides neither question. This is a bounded
+negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/544](https://www.erdosproblems.com/544),
 accessed 2026-09-18: the problem page (labeled OPEN,

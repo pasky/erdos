@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E1156/claims/2021_03_25_heckel_riordan
 title: Heckel and Riordan's square-root non-concentration of the chromatic number
 desc: |
-  Heckel and Riordan (J. London Math. Soc. 2023): for fixed p and c < 1/2,
-  intervals containing the chromatic number of G(n,p) with high probability
-  are longer than n^c for infinitely many n; refereed.
+  Heckel and Riordan (J. London Math. Soc. 2023, refereed) prove that for fixed
+  $p$ and $c<1/2$, intervals that contain the chromatic number of $G(n,p)$ with
+  high probability are longer than $n^c$ for infinitely many $n$.
 authors:
 - Annika Heckel
 - Oliver Riordan

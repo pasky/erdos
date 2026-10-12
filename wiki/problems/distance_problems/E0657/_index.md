@@ -2,8 +2,8 @@
 name: problems/distance_problems/E0657
 title: Problem 657
 desc: |
-  Asks whether n planar points forming no isosceles triangle must determine a
-  number of distinct distances that grows faster than a constant times n.
+  Asks whether $n$ planar points with no isosceles triangle must determine at
+  least $f(n)n$ distinct distances, for some $f(n)\to\infty$.
 tags:
 - Geometry
 - Distances
@@ -26,16 +26,14 @@ such that every subset of $3$ points determines $3$ distinct distances (i.e. $A$
 has no isosceles triangles) then $A$ must determine at least $f(n)n$ distinct
 distances, for some $f(n)\to \infty$?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 15
-October 2025). The assertion is proved for collinear sets, which are the
-progression-free sets of reals:
+**Status.** Open. The site labels the problem OPEN (page last edited 15 October
+2025). The standing derived from the claim pages is open, because no superlinear
+lower bound is known for planar sets in general. The assertion is proved for
+collinear sets, which are the progression-free sets of reals. On that class,
 [[problems/distance_problems/E0657/claims/2008_12_01_dumitrescu|Dumitrescu's
-accepted partial claim]] gives $(\log n)^c\le f(n)\le2^{O(\sqrt{\log n})}$
-on that class, and
+accepted partial claim]] gives $(\log n)^c\le f(n)\le2^{O(\sqrt{\log n})}$.
 [[problems/distance_problems/E0657/claims/2025_08_19_hunter|Hunter's pending
-partial claim]] raises the lower bound to $2^{c(\log n)^{1/9}}$. No
-superlinear lower bound is known for planar sets in general, so the standing
-derived from the claim pages is open.
+partial claim]] raises the lower bound to $2^{c(\log n)^{1/9}}$.
 
 **Source.** [erdosproblems.com/657](https://www.erdosproblems.com/657), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #657,

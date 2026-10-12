@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0913
 title: Problem 913
 desc: |
-  Asks whether infinitely many n have all exponents distinct in the prime
-  factorization of n times n plus one.
+  Asks whether there are infinitely many $n$ such that the prime factorization
+  of $n(n+1)$ has all exponents distinct.
 tags:
 - Number theory
 status: open

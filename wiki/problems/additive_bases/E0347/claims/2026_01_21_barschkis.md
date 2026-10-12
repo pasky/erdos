@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0347/claims/2026_01_21_barschkis
 title: Barschkis's block construction with ratios tending to two
 desc: |
-  An explicit sequence with consecutive ratios tending to 2 whose subset sums
-  have density one after any finite deletion, from an idea of Tao and van
-  Doorn, with a Lean proof; checked by a named reader and accepted by the site.
+  Enrique Barschkis gives an explicit sequence with consecutive ratios tending
+  to $2$ whose subset sums have density one after any finite deletion, with a
+  Lean proof, from an idea of Tao and van Doorn. A named reader checked it, and
+  the site accepted it.
 authors:
 - Enrique Barschkis
 status: accepted
@@ -73,15 +74,14 @@ here and the fidelity of the Lean statement to the problem's wording was not
 audited, so no `formalized` evidence is listed; the problem page's "(LEAN)"
 suffix is the site's label.
 
-**Acceptance.** Reviewed: Nat Sothanaphan reported in the thread on
-2026-01-22, from an assessment made with ChatGPT as their post states, that the
-Lean proof compiles and proves the right statement, that it corresponds to the
-informal note, and that the note is correct apart from omitted details they
-list; Tao wrote on 2026-01-21 that the handling of the slowly growing block
-length looks plausible; the site's curator, T. F. Bloom, labels Problem 347
-PROVED (LEAN) at erdosproblems.com and credits the result to Barschkis (page
-last edited 22 January 2026, accessed 2026-10-07), and the community database
-lists the problem as proved (Lean), its entry last updated on 2026-01-21. A
-later thread comment (2026-02-04) describes a parametric generalization of the
-construction in Lean; it is not part of this claim. Nothing here was checked
-by this project.
+**Acceptance.** Reviewed: Nat Sothanaphan reported in the thread on 2026-01-22
+that the Lean proof compiles and proves the right statement, that it corresponds
+to the informal note, and that the note is correct apart from omitted details
+they list. Their post states that this assessment was made with ChatGPT. Tao
+wrote on 2026-01-21 that the handling of the slowly growing block length looks
+plausible. The site's curator, T. F. Bloom, labels Problem 347 PROVED (LEAN) at
+erdosproblems.com and credits the result to Barschkis (page last edited 22
+January 2026, accessed 2026-10-07). The community database lists the problem as
+proved (Lean), and its entry was last updated on 2026-01-21. A later thread
+comment (2026-02-04) describes a parametric generalization of the construction
+in Lean. It is not part of this claim. Nothing here was checked by this project.

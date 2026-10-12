@@ -2,9 +2,10 @@
 name: problems/number_theory/E1096
 title: Problem 1096
 desc: |
-  Asks whether the gaps between consecutive finite sums of distinct powers of
-  q tend to zero for every q slightly above one; proved by Erdős and Komornik
-  (1998), Akiyama and Komornik (2013) and Feng (2016), each for a range of q.
+  Asks whether, for every $q$ slightly above $1$, the gaps between consecutive
+  finite sums of distinct powers of $q$ tend to $0$; proved by Erdős and
+  Komornik (1998), Akiyama and Komornik (2013) and Feng (2016), each for a range
+  of $q$.
 tags:
 - Number theory
 status: solved
@@ -46,45 +47,48 @@ $x_{k+1}-x_k\to0$ when $\epsilon$ is small and guesses that every $q<q_0$,
 $q_0^3=q_0+1$, has this property. The site's label PROVED (LEAN) carries a
 catalog suffix explained under Formalization.
 
-**Status.** The site's label is PROVED (LEAN), whose catalog suffix is
-explained under Formalization. The first resolution is Theorem IV of Erdős
-and Komornik's 1998 paper (Acta Math. Hungar. 79 (1998), 57--83, refereed),
-an accepted full claim on
-[[problems/number_theory/E1096/claims/1998_04_01_erdos_komornik|its page]]:
-"If $1<q\le2^{1/4}$ and if $q$ is different from
-the square root of the second Pisot number, then $y_{k+1}-y_k\to0$ for every
-$m\ge1$", where $(y_k)$ is the ordered sequence of the sums with digits
-$0,\ldots,m$ and $m=1$ gives the problem's sequence; its introduction
-(p. 57) names the question as [EJK90]'s Problem 4 and says "One of the
-purposes of this paper is to give an affirmative answer to this question".
-With $2^{1/4}\approx1.1892$ and $\sqrt{q_1}\approx1.1749$ ($q_1\approx1.38$,
-the second Pisot number, the paper's $p_2$), every $q$ in $(1,\sqrt{q_1})$
-is covered, so the answer is yes, with $\epsilon=\sqrt{q_1}-1\approx0.175$,
-and so is every $q$ in $(\sqrt{q_1},2^{1/4}]$. Theorem 1.4 (i) of Akiyama
-and Komornik (J. Number Theory 133 (2013), 375--390, refereed; quoted from
-the arXiv text), the second accepted full claim, on
-[[problems/number_theory/E1096/claims/2011_03_23_akiyama_komornik|their page]],
-gives $L_1(q)=0$ for every $1<q\le2^{1/3}\approx1.2599$, a range that
-contains the excluded point $\sqrt{q_1}$ and so closes it. A third
-first-hand source, the third accepted full claim, on
-[[problems/number_theory/E1096/claims/2011_11_10_feng|Feng's page]], is
-Theorem 1.4 of Feng's paper (J. Eur. Math. Soc. 18 (2016), 181--193,
-refereed; quoted from arXiv v3): for $1<q<\sqrt2$ with
-$q^2$ not a Pisot number, $\lim(x_{n+1}-x_n)=0$. Since $q_0\approx1.3247$,
-the real root of $x^3=x+1$, is the smallest Pisot number (Siegel's classical
-theorem, which the site's commentary also states), every $q$ in
-$(1,\sqrt{q_0})$ has $q^2\in(1,q_0)$ not Pisot and $q<\sqrt2$, so the gaps
-tend to $0$ for every $1<q<\sqrt{q_0}\approx1.1510$, with
-$\epsilon=\sqrt{q_0}-1\approx0.151$ (an authored deduction, one line, from
-Feng's theorem and Siegel's theorem). The site reports the 1998 range as
-$1<q<\sqrt{q_1}$ and Feng's introduction as $1<q\le2^{1/4}$ "with the
-possible exception of the square root of the second Pisot number"; the
-printed theorem is Feng's version, and the site's range is its part below
-the excluded point. The frontmatter standing is derived from the three
-accepted pages; a fourth, pending claim, the thread's two-page note on
+**Status.** The site's label is PROVED (LEAN), whose catalog suffix is explained
+under Formalization. The frontmatter standing is derived from the three accepted
+pages described below.
+
+The first resolution is Theorem IV of Erdős and Komornik's 1998 paper (Acta
+Math. Hungar. 79 (1998), 57--83, refereed), an accepted full claim on
+[[problems/number_theory/E1096/claims/1998_04_01_erdos_komornik|its page]]: "If
+$1<q\le2^{1/4}$ and if $q$ is different from the square root of the second Pisot
+number, then $y_{k+1}-y_k\to0$ for every $m\ge1$". Here $(y_k)$ is the ordered
+sequence of the sums with digits $0,\ldots,m$, and $m=1$ gives the problem's
+sequence. The paper's introduction (p. 57) names the question as [EJK90]'s
+Problem 4 and says "One of the purposes of this paper is to give an affirmative
+answer to this question". Since $2^{1/4}\approx1.1892$ and
+$\sqrt{q_1}\approx1.1749$, where $q_1\approx1.38$ is the second Pisot number
+(the paper's $p_2$), every $q$ in $(1,\sqrt{q_1})$ is covered. So the answer is
+yes, with $\epsilon=\sqrt{q_1}-1\approx0.175$. Every $q$ in
+$(\sqrt{q_1},2^{1/4}]$ is covered as well.
+
+Theorem 1.4 (i) of Akiyama and Komornik (J. Number Theory 133 (2013), 375--390,
+refereed; quoted from the arXiv text) is the second accepted full claim, on
+[[problems/number_theory/E1096/claims/2011_03_23_akiyama_komornik|their page]].
+It gives $L_1(q)=0$ for every $1<q\le2^{1/3}\approx1.2599$. This range contains
+the excluded point $\sqrt{q_1}$ and so closes it.
+
+A third first-hand source, the third accepted full claim, on
+[[problems/number_theory/E1096/claims/2011_11_10_feng|Feng's page]], is Theorem
+1.4 of Feng's paper (J. Eur. Math. Soc. 18 (2016), 181--193, refereed; quoted
+from arXiv v3). It gives $\lim(x_{n+1}-x_n)=0$ for $1<q<\sqrt2$ with $q^2$ not a
+Pisot number. The smallest Pisot number is $q_0\approx1.3247$, the real root of
+$x^3=x+1$ (Siegel's classical theorem, which the site's commentary also states).
+So every $q$ in $(1,\sqrt{q_0})$ has $q^2\in(1,q_0)$ not Pisot and $q<\sqrt2$.
+Hence the gaps tend to $0$ for every $1<q<\sqrt{q_0}\approx1.1510$, with
+$\epsilon=\sqrt{q_0}-1\approx0.151$. This is an authored deduction, one line,
+from Feng's theorem and Siegel's theorem.
+
+The site reports the 1998 range as $1<q<\sqrt{q_1}$. Feng's introduction reports
+it as $1<q\le2^{1/4}$ "with the possible exception of the square root of the
+second Pisot number". The printed theorem is Feng's version, and the site's
+range is its part below the excluded point. A fourth, pending claim, the
+thread's two-page note on
 [[problems/number_theory/E1096/claims/2026_04_16_acosta_de_leon|Acosta De León's page]],
-repeats the deduction from Feng's theorem and adds nothing to the
-standing.
+repeats the deduction from Feng's theorem and adds nothing to the standing.
 
 **Source.** [erdosproblems.com/1096](https://www.erdosproblems.com/1096),
 accessed 2026-09-18: the problem page (PROVED (LEAN),

@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0677
 title: Problem 677
 desc: |
-  Asks whether two disjoint blocks of k consecutive integers can have the
-  same least common multiple; Erdős's 1979 conjecture that they cannot is
-  open, with a few solutions known only when the block lengths differ.
+  Asks whether two disjoint blocks of $k$ consecutive integers can have the same
+  least common multiple. Erdős's 1979 conjecture that they cannot is open, and
+  the few known solutions all use blocks of different lengths.
 tags:
 - Number theory
 status: open
@@ -43,21 +43,21 @@ $A(n;k)=\prod_{i\le k}(n+i)$; the passage is quoted under Current
 assessment. The site's source keys are
 [Er79], [Er79d] and [ErGr80], with [Gu04] cited in the commentary.
 
-**Status.** Open, the site's label. No proof or disproof of the same-$k$
-conjecture was found in the search whose scope the
-Current assessment records. What is on record: the remark, printed in the
-1980 monograph (p. 76) and repeated by the site, that the Thue–Siegel theorem
-gives, for each fixed $k$, only finitely many pairs $m\ge n+k$ with
-$M(n,k)=M(m,k)$ (stated there without proof or reference); Erdős's two
-solutions of the general equation $M(n,k)=M(m,l)$ with $l\ne k$,
-$M(4,3)=M(13,2)=210$ and $M(3,4)=M(19,2)=420$, and further solutions posted
-in the thread in 2026, $M(8,4)=M(43,2)=1980$, $M(153,3)=M(1363,2)=1861860$
-and the padded forms $M(n,7-n)=M(19,2)$ for $n\le2$ (all recomputed here);
-Erdős's stronger question of 1979 ([Er79d]), whether two disjoint blocks of
-$k>2$ consecutive integers can have products with the same set of prime
-factors more than finitely often; and a forum repository of prover-generated
-Lean lemmas, a lead. This is a bounded negative finding, not a certificate of
-openness.
+**Status.** The site's label is Open. No proof or disproof of the same-$k$
+conjecture was found in the search whose scope the Current assessment records.
+This is a bounded negative finding, not a certificate of openness.
+
+The record holds the following. The 1980 monograph (p. 76) remarks, and the site
+repeats, that the Thue–Siegel theorem gives only finitely many pairs $m\ge n+k$
+with $M(n,k)=M(m,k)$ for each fixed $k$. The monograph states this without proof
+or reference. Erdős gave two solutions of the general equation $M(n,k)=M(m,l)$
+with $l\ne k$: $M(4,3)=M(13,2)=210$ and $M(3,4)=M(19,2)=420$. Further solutions
+were posted in the thread in 2026: $M(8,4)=M(43,2)=1980$,
+$M(153,3)=M(1363,2)=1861860$ and the padded forms $M(n,7-n)=M(19,2)$ for $n\le2$
+(all recomputed here). In 1979 ([Er79d]) Erdős asked a stronger question:
+whether two disjoint blocks of $k>2$ consecutive integers can have products with
+the same set of prime factors more than finitely often. A forum repository of
+prover-generated Lean lemmas is a lead.
 
 **Source.** [erdosproblems.com/677](https://www.erdosproblems.com/677),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that no

@@ -2,9 +2,10 @@
 name: problems/irrationality/E0257/claims/2019_08_14_duverney_tachiya
 title: Duverney and Tachiya's Lambert series over products of coprime generators
 desc: |
-  Duverney and Tachiya's 2019 paper proves the sum of 1/(q^n - 1) over the
-  products of powers below s of a pairwise coprime, polynomially bounded
-  sequence, the squarefree integers among them, irrational.
+  Duverney and Tachiya's 2019 paper proves that $\sum_{n\in A}1/(q^n-1)$ is
+  irrational when $A$ is the set of products of powers below $s$ of a pairwise
+  coprime, polynomially bounded sequence. These sets include the squarefree
+  integers.
 authors:
 - Daniel Duverney
 - Yohei Tachiya
@@ -69,8 +70,8 @@ $1<|q|\le s$. Not covered: supports without this multiplicative structure, for
 which the divisibility hypothesis $(H_1)$ is not available.
 
 **Acceptance.** Refereed: Forum Mathematicum, volume 31, issue 6 (2019), pp.
-1557--1566, published online 14 August 2019 by the record of its DOI. The site
-does not cite the paper, so no `reviewed` evidence is listed. The proof is
-not checked here.
+1557--1566, published online 14 August 2019 according to the record of its DOI.
+The site does not cite the paper, so no `reviewed` evidence is listed. The proof
+is not checked here.
 
 **Depends on.** Nothing in this wiki.

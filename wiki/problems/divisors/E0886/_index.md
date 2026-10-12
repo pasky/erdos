@@ -2,8 +2,8 @@
 name: problems/divisors/E0886
 title: Problem 886
 desc: |
-  Asks whether, for each fixed positive epsilon, every large n has only
-  boundedly many divisors just above the square root of n.
+  Asks whether, for each fixed $\epsilon>0$, every large $n$ has only boundedly
+  many divisors in $(n^{1/2},n^{1/2}+n^{1/2-\epsilon})$.
 tags:
 - Number theory
 - Divisors
@@ -25,9 +25,9 @@ updated: 2026-10-07T20:00:46Z
 of divisors of $n$ in $(n^{1/2},n^{1/2}+n^{1/2-\epsilon})$ is $O_\epsilon(1)$?
 
 **Status.** The site labels the problem OPEN. The answer is yes for every
-$\epsilon\ge1/4$ by
-[[problems/divisors/E0886/claims/1997_01_01_erdos_rosenfeld|Erdős and Rosenfeld's bound]];
-the range $0<\epsilon<1/4$ is open.
+$\epsilon\ge1/4$, by
+[[problems/divisors/E0886/claims/1997_01_01_erdos_rosenfeld|Erdős and Rosenfeld's bound]].
+The range $0<\epsilon<1/4$ is open.
 
 **Source.** [erdosproblems.com/886](https://www.erdosproblems.com/886), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #886,

@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0039
 title: Problem 39
 desc: |
-  Asks whether an infinite Sidon set can contain nearly the square root of N
-  elements up to N, for every positive tolerance.
+  Asks whether some infinite Sidon set has $\gg_\epsilon N^{1/2-\epsilon}$
+  elements up to $N$ for every $\epsilon>0$.
 tags:
 - Number theory
 - Sidon sets

@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0217/claims/1983_01_01_pomerance
 title: Pomerance's five points with distance multiplicities 4, 3, 2, 1
 desc: |
-  A five-point configuration credited to Pomerance in Erdős's 1983 lecture:
-  a unit equilateral triangle, its circumcenter and a point on the unit
-  circle about one vertex, with distances of multiplicities 4, 3, 2 and 1.
+  Erdős's 1983 lecture credits to Pomerance a five-point configuration: a unit
+  equilateral triangle, its circumcenter and a point on the unit circle about
+  one vertex. Its distances have multiplicities 4, 3, 2 and 1.
 authors:
 - Paul Erdös
 status: claimed

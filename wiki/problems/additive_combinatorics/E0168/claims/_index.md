@@ -4,15 +4,15 @@ desc: The 1 claim page of Problem 168, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T20:32:50Z
-updated: 2026-10-07T20:32:50Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/additive_combinatorics/E0168/claims
 
 [[problems/additive_combinatorics/E0168/_index|..]]
 
-[[problems/additive_combinatorics/E0168/claims/1977_01_01_graham_witsenhausen_spencer|1977_01_01_graham_witsenhausen_spencer]]: Graham, Witsenhausen and Spencer proved that the limiting density of sets
-with no triple n, 2n, 3n exists and equals one third of a series over the
-3-smooth numbers; the collected volume is not shown to be refereed.
+[[problems/additive_combinatorics/E0168/claims/1977_01_01_graham_witsenhausen_spencer|1977_01_01_graham_witsenhausen_spencer]]: Graham, Witsenhausen and Spencer proved that the limiting density of sets with
+no triple $n,2n,3n$ exists and equals one third of a series over the
+$3$-smooth numbers. The collected volume is not shown to be refereed.
 
 ***

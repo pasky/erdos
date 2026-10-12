@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0600
 title: Problem 600
 desc: |
-  Asks whether the least edge count forcing an edge in r triangles, when every
-  edge lies in a triangle, has differences going to infinity and ratios going
-  to one.
+  Let $e(n,r)$ be the least number of edges that forces an edge in at least $r$
+  triangles in an $n$-vertex graph where every edge lies in a triangle. Asks
+  whether $e(n,r+1)-e(n,r)\to\infty$ and $e(n,r+1)/e(n,r)\to1$.
 tags:
 - Graph theory
 status: open

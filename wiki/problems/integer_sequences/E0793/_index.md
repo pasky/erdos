@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0793
 title: Problem 793
 desc: |
-  Asks whether the largest subset of one to n in which no element divides the
-  product of two others has an asymptotic led by a prime-counting term; proved
-  with the constant 27/2 in Chojecki's 2026 manuscript, accepted by the site.
+  Asks whether the largest $A\subseteq\{1,\ldots,n\}$ in which no element
+  divides the product of two others has size
+  $\pi(n)+(C+o(1))n^{2/3}(\log n)^{-2}$. Chojecki's 2026 manuscript, accepted by
+  the site, proves this with $C=27/2$.
 tags:
 - Number theory
 status: solved
@@ -46,37 +47,38 @@ not been able to prove (2)" (printed p. 78), and again in 1970 as display
 could not prove (2)" (printed p. 136). The site's source keys are [Er69]
 and [Er70b].
 
-**Status.** The site's label is PROVED (LEAN) (page last edited 14 July 2026),
-and the standing derives from the claim page
+**Status.** The site's label is PROVED (LEAN) (page last edited 14 July 2026).
+The standing derives from the claim page
 [[problems/integer_sequences/E0793/claims/2026_07_13_chojecki|Chojecki 2026]],
-an accepted full claim whose evidence is `reviewed`: the site's curator,
-Thomas Bloom, credits the result to the manuscript. The status-defining source
-is Theorem 1.1 of a five-page manuscript, *The second term for strongly
-2-primitive sets*, by Przemek Chojecki, hosted at ulam.ai (retrieved; its PDF metadata is dated 13 July 2026) and posted as
-arXiv:2607.15306v1 on 14 July 2026, which proves
-$F(n)=\pi(n)+(\tfrac{27}{2}+o(1))n^{2/3}/(\log n)^2$: the upper bound tracks
-the constants in the four classes of Erdős's 1938 factorization argument, and
-the lower bound packs a linear 3-uniform hypergraph of prime triples built
-from proper edge-colorings between logarithmic bins of primes near $n^{1/3}$.
-The manuscript's byline footnote declares that "AI assistance was used in
-exploring the argument and in writing this text", and the site's commentary
-attributes the proof to GPT 5.6 Sol prompted by the author. The acceptance is
-the curator's and is distinct from refereeing: no refereed publication and no
-independent expert review of the manuscript was found, and an arXiv posting
-is not refereeing. Two external Lean
-developments of the theorem exist at pinned revisions: van Doorn's file, which
-declares the prime number theorem as its one axiom, and the port in Boris
-Alexeev's repository that the formal-conjectures statement file of 19
-September 2026 names as its formal proof, which draws the prime number theorem
-from an external Lean project instead; neither was built or audited here, so
-the claim page links both and counts neither as `formalized`. A third Lean
-file, van Doorn's general development of 5 August 2026, proves that the
-constant exists for every $k\ge2$, $k=2$ included, without evaluating it; it
-is a pending full claim on
+an accepted full claim whose evidence is `reviewed`: the site's curator, Thomas
+Bloom, credits the result to the manuscript. The acceptance is the curator's and
+is distinct from refereeing. No refereed publication and no independent expert
+review of the manuscript was found, and an arXiv posting is not refereeing.
+
+The status-defining source is Theorem 1.1 of a five-page manuscript by Przemek
+Chojecki, *The second term for strongly 2-primitive sets*. It is hosted at
+ulam.ai (retrieved; its PDF metadata is dated 13 July 2026) and was posted as
+arXiv:2607.15306v1 on 14 July 2026. It proves
+$F(n)=\pi(n)+(\tfrac{27}{2}+o(1))n^{2/3}/(\log n)^2$. The upper bound tracks the
+constants in the four classes of Erdős's 1938 factorization argument. The lower
+bound packs a linear 3-uniform hypergraph of prime triples, built from proper
+edge-colorings between logarithmic bins of primes near $n^{1/3}$. The
+manuscript's byline footnote declares that "AI assistance was used in exploring
+the argument and in writing this text". The site's commentary attributes the
+proof to GPT 5.6 Sol prompted by the author. The classical two-sided bound
+$\pi(n)+c_1n^{2/3}/(\log n)^2\le F(n)\le\pi(n)+c_2n^{2/3}/(\log n)^2$ is Erdős's
+1938 theorem.
+
+Two external Lean developments of the theorem exist at pinned revisions. One is
+van Doorn's file, which declares the prime number theorem as its one axiom. The
+other is the port in Boris Alexeev's repository, which draws the prime number
+theorem from an external Lean project instead. The formal-conjectures statement
+file of 19 September 2026 names this port as its formal proof. Neither was built
+or audited here, so the claim page links both and counts neither as
+`formalized`. A third Lean file, van Doorn's general development of 5 August
+2026, proves that the constant exists for every $k\ge2$, $k=2$ included, without
+evaluating it. It is a pending full claim on
 [[problems/integer_sequences/E0793/claims/2026_08_05_van_doorn|its claim page]].
-The classical two-sided bound
-$\pi(n)+c_1n^{2/3}/(\log n)^2\le F(n)\le\pi(n)+c_2n^{2/3}/(\log n)^2$ is
-Erdős's 1938 theorem.
 
 **Source.** [erdosproblems.com/793](https://www.erdosproblems.com/793),
 accessed 2026-09-18T05:33Z: the problem page (labeled PROVED (LEAN), the

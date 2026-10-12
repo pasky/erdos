@@ -2,8 +2,9 @@
 name: problems/divisors/E0945
 title: Problem 945
 desc: |
-  Estimates the longest run of consecutive integers below x with all divisor
-  counts distinct, and whether short intervals must repeat a divisor count.
+  Asks for an estimate of the longest run of consecutive integers up to $x$ with
+  all divisor counts distinct, and whether, for some constant $C>0$, every
+  interval $[x,x+(\log x)^C]$ with $x$ large repeats a divisor count.
 tags:
 - Number theory
 - Divisors

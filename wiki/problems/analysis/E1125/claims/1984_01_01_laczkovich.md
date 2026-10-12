@@ -2,9 +2,10 @@
 name: problems/analysis/E1125/claims/1984_01_01_laczkovich
 title: Laczkovich's monotonicity theorem for Kemperman's inequality
 desc: |
-  Proves that every real function with twice its value at a point at most the
-  sum of its values at the next two equally spaced points is nondecreasing, with
-  no regularity assumed; refereed, credited by the site, Lean by others.
+  Laczkovich proves that every $f:\mathbb R\to\mathbb R$ with
+  $2f(x)\le f(x+h)+f(x+2h)$ for all $x$ and all $h>0$ is nondecreasing, with no
+  regularity assumed. The paper is refereed and credited by the site, and others
+  have formalized the result in Lean.
 authors:
 - M. Laczkovich
 status: accepted
@@ -53,10 +54,10 @@ result pages reconstruct the chain, with two repairs to the printed argument,
 a convergent-recurrence subscript and an enlarged auxiliary constant, that
 leave the theorem's statement unchanged.
 
-**Acceptance.** Refereed: the paper appeared in Colloquium Mathematicum,
-received by the journal on 22 July 1980. Reviewed: Thomas Bloom, the curator
-of erdosproblems.com, labels the problem proved and credits Laczkovich's paper
-for the solution. The page is dated by the year of publication; the fascicle
+**Acceptance.** Refereed: the paper appeared in Colloquium Mathematicum. The
+journal received it on 22 July 1980. Reviewed: Thomas Bloom, the curator of
+erdosproblems.com, labels the problem proved and credits Laczkovich's paper for
+the solution. The page is dated by the year of publication because the fascicle
 prints no fuller date.
 
 **Formalization.** The Lean 4 file `Erdos1125.lean` in Boris Alexeev's

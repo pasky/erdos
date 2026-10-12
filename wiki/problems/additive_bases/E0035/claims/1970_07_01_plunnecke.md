@@ -2,9 +2,9 @@
 name: problems/additive_bases/E0035/claims/1970_07_01_plunnecke
 title: Plünnecke's density bound
 desc: |
-  Plünnecke's 1970 theorem bounds the Schnirelmann density of the sumset with
-  a basis of order k below by alpha to the power one minus one over k, which
-  implies the asked increment; refereed in Crelle and recorded by the site.
+  Plünnecke's 1970 theorem gives $d_s(A+B)\ge\alpha^{1-1/k}$ for a basis $B$ of
+  order $k$ and a set $A$ of Schnirelmann density $\alpha$, which implies the
+  asked increment. It was refereed in Crelle, and the site records it.
 authors: []
 status: accepted
 claim: proved
@@ -44,12 +44,12 @@ yes.
 **Acceptance.** Refereed: H. Plünnecke, Eine zahlentheoretische Anwendung der
 Graphentheorie, Journal für die reine und angewandte Mathematik 243 (1970),
 171–183. Reviewed: Thomas Bloom, the site's curator, records in the problem's
-remarks that the asked bound follows from Plünnecke's theorem and labels the
-problem proved (page accessed). A later proof of the same bound by a
-different method is Jin's Theorem 2 of 2014, whose rewritten proof this
-repository holds on
-[[../library/additive_bases/jin_2014_density_versions_plunnecke_inequality/theorem_2|Jin's
-result page]]; the original 1970 proof is cited, not compiled.
+remarks that the asked bound follows from Plünnecke's theorem, and labels the
+problem proved (page accessed). Jin's Theorem 2 of 2014 gives a later proof of
+the same bound by a different method. This repository holds a rewritten proof of
+it on
+[[../library/additive_bases/jin_2014_density_versions_plunnecke_inequality/theorem_2|Jin's result page]].
+The original 1970 proof is cited, not compiled.
 
 **Formalization.** A public Lean 4 development in Boris Alexeev's lean-proofs
 repository declares itself a formalization of a solution to the problem, names

@@ -2,9 +2,9 @@
 name: problems/analysis/E0908/claims/1980_03_01_laczkovich
 title: Laczkovich's weak difference property for measurable functions
 desc: |
-  Proves that a real function whose every fixed-shift difference is measurable
-  is a measurable function plus an additive one plus a remainder whose every
-  fixed-shift difference vanishes almost everywhere.
+  Laczkovich proves that a real function whose every fixed-shift difference is
+  measurable is a measurable function plus an additive one plus a remainder
+  whose every fixed-shift difference vanishes almost everywhere.
 authors:
 - M. Laczkovich
 status: accepted
@@ -42,10 +42,10 @@ supplies the negative shifts. Its proof is not reconstructed in this corpus.
 
 **Acceptance.** The result is refereed: M. Laczkovich, *Functions with
 measurable differences*, Acta Mathematica Academiae Scientiarum Hungaricae 35
-(1980), 217–235, received by the journal on August 10, 1978. It is reviewed
-in the sense of a documented independent acceptance: Thomas Bloom, the
-curator of erdosproblems.com, marks Problem 908 proved and credits this paper
-for the affirmative answer. No Lean proof is recorded.
+(1980), 217–235. The journal received it on August 10, 1978. It is reviewed in
+the sense of a documented independent acceptance: Thomas Bloom, the curator of
+erdosproblems.com, marks Problem 908 proved and credits this paper for the
+affirmative answer. No Lean proof is recorded.
 
-The page is dated by the first day of the issue month: the publisher's record
+The page is dated by the first day of the issue month. The publisher's record
 for the article gives volume 35, issue 1-2, March 1980.

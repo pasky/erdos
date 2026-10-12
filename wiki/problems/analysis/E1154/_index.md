@@ -2,9 +2,9 @@
 name: problems/analysis/E1154
 title: Problem 1154
 desc: |
-  Asks whether, for every number between zero and one, some ring or field of
-  real numbers has exactly that Hausdorff dimension; yes under the continuum
-  hypothesis by Mauldin's theorem, so the existence cannot be refuted in ZFC.
+  Asks whether, for every $\alpha\in[0,1]$, some ring or field in $\mathbb{R}$
+  has Hausdorff dimension $\alpha$. Mauldin's theorem gives yes under the
+  continuum hypothesis, so ZFC cannot refute the existence.
 tags:
 - Analysis
 status: open
@@ -24,16 +24,16 @@ updated: 2026-10-08T17:47:46Z
 **Statement.** Does there exist, for every $\alpha \in [0,1]$, a ring or field
 in $\mathbb{R}$ with Hausdorff dimension $\alpha$?
 
-**Status.** Open. The site labels the problem NOT DISPROVABLE, crediting the
+**Status.** Open. The site labels the problem NOT DISPROVABLE. It credits the
 label to Mauldin's theorem that, assuming the continuum hypothesis, every
-$\alpha \in [0,1]$ is the Hausdorff dimension of a subfield of $\mathbb{R}$, so
-that ZFC cannot refute the existence asked about unless ZFC is inconsistent.
-The claim page
+$\alpha \in [0,1]$ is the Hausdorff dimension of a subfield of $\mathbb{R}$. So
+ZFC cannot refute the existence asked about unless ZFC is inconsistent. The
+claim page
 [[problems/analysis/E1154/claims/2016_03_31_mauldin|Mauldin's subfields of every dimension under CH]]
-records that consistency result as accepted. It settles one side only: whether
-ZFC alone proves the existence is not settled. This page departs from the
-site's label because one side alone leaves the question open; a matching result
-that ZFC does not prove the existence would settle the problem as independent.
+records that consistency result as accepted. It settles one side only. Whether
+ZFC alone proves the existence is not settled. This page departs from the site's
+label because one side alone leaves the question open. A matching result that
+ZFC does not prove the existence would settle the problem as independent.
 
 **Source.** [erdosproblems.com/1154](https://www.erdosproblems.com/1154),
 accessed 2026-09-04 and 2026-10-07 (problem page, discussion thread

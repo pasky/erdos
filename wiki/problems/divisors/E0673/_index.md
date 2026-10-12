@@ -2,8 +2,9 @@
 name: problems/divisors/E0673
 title: Problem 673
 desc: |
-  Asks whether the sum of the ratios of consecutive divisors of n tends to
-  infinity for almost all n, and seeks an asymptotic formula for its average.
+  Asks whether the sum $G(n)$ of the ratios $d_i/d_{i+1}$ of consecutive
+  divisors of $n$ tends to infinity for almost all $n$, and seeks an asymptotic
+  formula for its average.
 tags:
 - Number theory
 - Divisors
@@ -31,17 +32,17 @@ $$
 Is it true that $G(n)\to \infty$ for almost all $n$? Can one prove an asymptotic
 formula for $\sum_{n\leq X}G(n)$?
 
-**Status.** The site labels the problem PROVED; its remarks record Tao's
-bounds $\tau(n/m)/m\le G(n)\le\tau(n)$, displayed for any divisor $m$ of $n$
-and true for $m>1$, answering the first question yes, and Erdős's 1982 remark
-that the divergence is trivial. The standing in the frontmatter derives from
-the claim pages under the parts `divergence` and `asymptotic`: the accepted
-full claim on
+**Status.** The site labels the problem PROVED. The standing in the frontmatter
+derives from the claim pages under the parts `divergence` and `asymptotic`, and
+the problem is `solved` with the value `proved`. The accepted full claim on
 [[problems/divisors/E0673/claims/1983_01_01_erdos_tenenbaum|Erdős and Tenenbaum's 1983 paper]]
-settles both questions, its Théorème 2 giving
-$\sum_{n\le x}G(n)=x\log x\,(1+o(1))$, and the accepted partial claim on
-[[problems/divisors/E0673/claims/1982_01_01_erdos|Erdős's remark]] settles
-the first; the problem is `solved` with the value `proved`.
+settles both questions. Its Théorème 2 gives
+$\sum_{n\le x}G(n)=x\log x\,(1+o(1))$. The accepted partial claim on
+[[problems/divisors/E0673/claims/1982_01_01_erdos|Erdős's remark]] settles the
+first question. The site's remarks record Tao's bounds
+$\tau(n/m)/m\le G(n)\le\tau(n)$, displayed for any divisor $m$ of $n$ and true
+for $m>1$. These bounds answer the first question yes. The remarks also record
+Erdős's 1982 remark that the divergence is trivial.
 
 **Source.** [erdosproblems.com/673](https://www.erdosproblems.com/673), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #673,

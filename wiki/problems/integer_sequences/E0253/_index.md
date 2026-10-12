@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0253
 title: Problem 253
 desc: |
-  Asks whether a sequence with ratios tending to one whose distinct subset
-  sums meet every arithmetic progression infinitely often represents all large
-  integers.
+  Asks whether a sequence with $a_{i+1}/a_i\to1$, whose sums of distinct terms
+  meet every arithmetic progression infinitely often, must represent every large
+  integer as such a sum.
 tags:
 - Number theory
 status: solved
@@ -26,16 +26,16 @@ such that $a_{i+1}/a_i\to 1$. If every infinite arithmetic progression contains
 infinitely many integers which are the sum of distinct $a_i$ then every
 sufficiently large integer is the sum of distinct $a_i$.
 
-**Status.** DISPROVED (LEAN). Cassels's Theorem II ([Ca60], refereed)
-constructs a sequence with $(c_{n+1}-c_n)/c_n^{1/2+\varepsilon}\to0$,
-infinitely many elements in every arithmetic progression, and sums of
-distinct elements of upper density at most $\varepsilon$, so the implication
-fails; the site records the disproof as Cassels's, and the
+**Status.** DISPROVED (LEAN). Cassels's Theorem II ([Ca60], refereed) constructs
+a sequence with three properties: $(c_{n+1}-c_n)/c_n^{1/2+\varepsilon}\to0$,
+infinitely many elements in every arithmetic progression, and sums of distinct
+elements of upper density at most $\varepsilon$. So the implication fails. The
+site records the disproof as Cassels's, and the
 [[problems/integer_sequences/E0253/claims/1959_09_03_cassels|claim page]]
 carries the acceptance. The Lean suffix is the site's label for a 2026
-formalization of Cassels's disproof in a public repository, registered by
-formal-conjectures and the community database, linked on the same claim page,
-neither built nor audited here.
+formalization of Cassels's disproof in a public repository. It is registered by
+formal-conjectures and the community database and linked on the same claim page.
+It has been neither built nor audited here.
 
 **Source.** [erdosproblems.com/253](https://www.erdosproblems.com/253), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #253,

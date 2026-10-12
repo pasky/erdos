@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E1006/claims/1978_11_01_nesetril_rodl
 title: Nešetřil and Rödl's large-girth graphs with a monotone cycle
 desc: |
   Corollary 3 of Nešetřil and Rödl (Proc. Amer. Math. Soc. 1978) gives, for
-  every s, a graph of girth s in which every vertex ordering has a monotone
-  s-path closed into an s-cycle by the edge joining its ends; accepted.
+  every $s$, a graph of girth $s$ in which every vertex ordering has a monotone
+  $s$-path closed into an $s$-cycle by the edge joining its ends. The claim is
+  accepted.
 authors:
 - Jaroslav Nešetřil
 - Vojtěch Rödl
@@ -63,14 +64,14 @@ orientation form. Every $s\ge5$ gives such a graph of girth $s$, the form in
 which the site's commentary states the result.
 
 **Acceptance.** Refereed publication in the Proceedings of the American
-Mathematical Society (received 20 May 1977, revised 6 January 1978; the
-Crossref record (2026-10-07) places the paper in volume 72, number 2, issued
-November 1978, whose nominal first day is this page's date). The site's
-curator, Thomas Bloom, labels the problem disproved and credits Nešetřil and
-Rödl [NeRo78b] with the disproof (the `reviewed` evidence; Bloom took no
-part in the paper), after the forum comment of 28 September 2025 pointed to
-Corollary 4 by a link to the paper on the publisher's site; the proof-claim
-tab is empty. Read depth: claims checked for Corollaries 3 and 4 and Theorem
-2; the probabilistic proof of Theorem 2 and its Lemma were read for
-structure only, and nothing is independently reviewed by this project. The
-acceptance rests on the publication and the curator's credit.
+Mathematical Society. The paper was received 20 May 1977 and revised 6
+January 1978. The Crossref record (2026-10-07) places it in volume 72, number 2,
+issued November 1978, and this page's date is that issue's nominal first day.
+The site's curator, Thomas Bloom, labels the problem disproved and credits
+Nešetřil and Rödl [NeRo78b] with the disproof. This is the `reviewed` evidence,
+and Bloom took no part in the paper. The credit came after the forum comment of
+28 September 2025, which pointed to Corollary 4 by a link to the paper on the
+publisher's site. The proof-claim tab is empty. Read depth: claims checked for
+Corollaries 3 and 4 and Theorem 2. The probabilistic proof of Theorem 2 and its
+Lemma were read for structure only. Nothing is independently reviewed by this
+project. The acceptance rests on the publication and the curator's credit.

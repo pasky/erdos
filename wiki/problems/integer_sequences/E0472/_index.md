@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0472
 title: Problem 472
 desc: |
-  Asks whether some starting list of primes makes infinite the sequence whose
-  next term is the least prime of the form previous plus an earlier term minus
-  one.
+  Asks whether some finite starting sequence of primes $q_1<\cdots<q_m$ makes
+  infinite the sequence in which each next term $q_{n+1}$ is the least prime of
+  the form $q_n+q_i-1$.
 tags:
 - Number theory
 status: open

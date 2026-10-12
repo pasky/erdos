@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0291/claims/2024_11_07_steinerberger
 title: "Steinerberger: three divides the gcd when n starts with 2 in base 3"
 desc: |
-  Steinerberger's observation, recorded in the site's commentary, that 3 divides
-  (a_n, L_n) whenever the leading digit of n in base 3 is 2; it answers the
-  second question of Problem 291, that (a_n, L_n) > 1 infinitely often, yes.
+  Steinerberger's observation, recorded in the site's commentary, that $3$
+  divides $(a_n,L_n)$ whenever the leading digit of $n$ in base $3$ is $2$. It
+  answers yes to the second question of Problem 291, whether $(a_n,L_n)>1$
+  infinitely often.
 authors:
 - Stefan Steinerberger
 status: claimed

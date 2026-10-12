@@ -4,20 +4,20 @@ desc: The 8 claim pages of Problem 672, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T21:33:46Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/diophantine_problems/E0672/claims
 
 [[problems/diophantine_problems/E0672/_index|..]]
 
-[[problems/diophantine_problems/E0672/claims/1950_01_01_oblath|1950_01_01_oblath]]: Obláth's refereed result (Publ. Math. Debrecen 1950) that the product of
-five consecutive terms of a coprime positive arithmetic progression is never
-a perfect square: the case $(k,\ell)=(5,2)$, answered in the negative.
+[[problems/diophantine_problems/E0672/claims/1950_01_01_oblath|1950_01_01_oblath]]: Obláth's refereed result (Publ. Math. Debrecen 1950) that the product of five
+consecutive terms of a coprime positive arithmetic progression is never a
+perfect square. This is the case $(k,\ell)=(5,2)$, answered in the negative.
 
 [[problems/diophantine_problems/E0672/claims/1975_06_01_erdos_selfridge|1975_06_01_erdos_selfridge]]: Erdős and Selfridge's refereed theorem (Illinois J. Math. 1975) that no
-product of two or more consecutive positive integers is a perfect power,
-which settles the case $d=1$ of the question in the negative.
+product of two or more consecutive positive integers is a perfect power. It
+settles the case $d=1$ of the question in the negative.
 
 [[problems/diophantine_problems/E0672/claims/1985_09_01_marszalek|1985_09_01_marszalek]]: Marszałek's refereed theorem (Monatsh. Math. 1985) that for a fixed common
 difference $d$ the product of $k$ terms is never a perfect power once $k$
@@ -39,8 +39,8 @@ progression is never a perfect power for $3<k<35$.
 length $k\ge k_0$ no coprime positive progression of $k$ terms has a product
 equal to an $\ell$th power with $\ell$ prime and $\ell>\exp(10^k)$.
 
-[[problems/diophantine_problems/E0672/claims/2026_09_10_piscitelli|2026_09_10_piscitelli]]: D. Michael Piscitelli's Lean development, made with Claude Code, proving
-that the product of four terms of a coprime positive arithmetic progression
-is never a square, the case $(k,\ell)=(4,2)$; not built by this corpus.
+[[problems/diophantine_problems/E0672/claims/2026_09_10_piscitelli|2026_09_10_piscitelli]]: D. Michael Piscitelli's Lean development, made with Claude Code, proves the
+case $(k,\ell)=(4,2)$: the product of four terms of a coprime positive
+arithmetic progression is never a square. This corpus has not built it.
 
 ***

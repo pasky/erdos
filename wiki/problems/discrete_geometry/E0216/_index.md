@@ -2,9 +2,8 @@
 name: problems/discrete_geometry/E0216
 title: Problem 216
 desc: |
-  Asks whether enough points in general position in the plane always contain
-  the vertices of an empty convex k-gon, and asks for an estimate of how many
-  are needed.
+  Asks whether, for each $k$, enough points in general position in the plane
+  always contain an empty convex $k$-gon, and how many are needed.
 tags:
 - Geometry
 - Convexity
@@ -36,17 +35,17 @@ Nicolás, Gerken, Heule and Scheucher), which is the reading of every claim page
 The negative answer is the same under both readings; the values $g(4)=5$,
 $g(5)=10$ and $g(6)=30$ hold only under this one.
 
-**Status.** Disproved: the site labels the problem disproved on Horton's
-construction of arbitrarily large point sets with no empty convex heptagon,
-recorded on the
+**Status.** Disproved. The site labels the problem disproved on the strength of
+Horton's construction of arbitrarily large point sets with no empty convex
+heptagon, recorded on the
 [[problems/discrete_geometry/E0216/claims/1983_12_01_horton|Horton claim page]].
-The site's remarks credit the instances that exist: $g(4)=5$ (Erdős, no source
-given, so it stays in prose), $g(5)=10$ on the
-[[problems/discrete_geometry/E0216/claims/1978_01_01_harborth|Harborth claim page]],
-the existence of $g(6)$ on the
+The site's remarks credit the instances that exist. The value $g(4)=5$ is due to
+Erdős, with no source given, so it stays in prose. The value $g(5)=10$ is on the
+[[problems/discrete_geometry/E0216/claims/1978_01_01_harborth|Harborth claim page]].
+The existence of $g(6)$ is on the
 [[problems/discrete_geometry/E0216/claims/2007_09_01_nicolas|Nicolás]] and
 [[problems/discrete_geometry/E0216/claims/2007_09_11_gerken|Gerken]] claim
-pages, and $g(6)=30$ on the
+pages. The value $g(6)=30$ is on the
 [[problems/discrete_geometry/E0216/claims/2024_03_01_heule_scheucher|Heule–Scheucher claim page]].
 
 **Source.** [erdosproblems.com/216](https://www.erdosproblems.com/216), accessed

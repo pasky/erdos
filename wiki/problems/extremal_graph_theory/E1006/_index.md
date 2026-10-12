@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E1006
 title: Problem 1006
 desc: |
   Asks whether every graph of girth at least five has an acyclic orientation
-  that stays acyclic after any one edge is reversed; false, by Nešetřil and
-  Rödl's large-girth graphs with a monotone cycle under every vertex ordering.
+  that stays acyclic when any one edge is reversed. False, by Nešetřil and
+  Rödl's graphs of large girth with a monotone cycle under every ordering of the
+  vertices.
 tags:
 - Graph theory
 - Cycles
@@ -46,24 +47,23 @@ the order the orientation generates. So $G$ has an orientation of the
 required kind exactly when it is a cover graph, and a graph of girth at
 least five that is not a cover graph answers the question in the negative.
 
-**Status.** Disproved. Corollary 3 of Nešetřil and Rödl [NeRo78b] (Proc.
-Amer. Math. Soc. 72 (1978), 417--421; refereed) gives, for every $s$, a
-graph with no cycle of length less than $s$ which under every ordering of
-its vertices contains a monotone path $v_1v_2\cdots v_s$, $v_1<\dots<v_s$,
-closed into an $s$-cycle by the edge $v_1v_s$. With $s=5$ this is a graph of
-girth five with no orientation of the required kind; the deduction is
-written out below and is this page's own. Corollary 4 of the same paper
-states the Hasse-diagram form. The paper describes its result as "the full
-solution of an Erdös-Ore problem" and cites Erdős's 1971 list for the
-question. The claim page
+**Status.** Disproved. Corollary 3 of Nešetřil and Rödl [NeRo78b] (Proc. Amer.
+Math. Soc. 72 (1978), 417--421; refereed) gives, for every $s$, a graph with no
+cycle of length less than $s$ with the following property: under every ordering
+of its vertices it contains a monotone path $v_1v_2\cdots v_s$, $v_1<\dots<v_s$,
+which the edge $v_1v_s$ closes into an $s$-cycle. With $s=5$ this is a graph of
+girth five with no orientation of the required kind. The deduction is written
+out below and is this page's own. Corollary 4 of the same paper states the
+Hasse-diagram form. The paper describes its result as "the full solution of an
+Erdös-Ore problem" and cites Erdős's 1971 list for the question. The claim page
 [[problems/extremal_graph_theory/E1006/claims/1978_11_01_nesetril_rodl|Nešetřil
-and Rödl 1978]] records the result, its postings and the acceptance
-evidence. O. Pretzel, "A non-covering graph of girth six" (Discrete Math. 63
-(1987), 241--244; stated from its zbMATH summary and pending), constructs a
-graph of girth six that is not a cover graph, an explicit negative answer
-through the equivalence in the Formulation, recorded on
-[[problems/extremal_graph_theory/E1006/claims/1987_01_01_pretzel|Pretzel
-1987]]. The standing in the frontmatter is derived from the claim pages.
+and Rödl 1978]] records the result, its postings and the acceptance evidence. O.
+Pretzel, "A non-covering graph of girth six" (Discrete Math. 63 (1987),
+241--244), constructs a graph of girth six that is not a cover graph. Through
+the equivalence in the Formulation, this is an explicit negative answer. It is
+stated from its zbMATH summary, is pending, and is recorded on
+[[problems/extremal_graph_theory/E1006/claims/1987_01_01_pretzel|Pretzel 1987]].
+The standing in the frontmatter is derived from the claim pages.
 
 **Source.** [erdosproblems.com/1006](https://www.erdosproblems.com/1006),
 accessed 2026-09-18: the problem page

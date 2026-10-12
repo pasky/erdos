@@ -3,8 +3,8 @@ name: problems/graph_coloring/E0740/claims/1988_09_01_komjath_shelah
 title: Komjáth and Shelah's consistent counterexample at aleph one
 desc: |
   Komjáth and Shelah (J. Symbolic Logic 1988) prove it consistent with ZFC that
-  an aleph_1-chromatic graph has only countably chromatic triangle-free
-  subgraphs, so the statement for every cardinal is not a theorem of ZFC.
+  some $\aleph_1$-chromatic graph has only countably chromatic triangle-free
+  subgraphs. So the statement for every cardinal is not a theorem of ZFC.
 authors:
 - Péter Komjáth
 - Saharon Shelah
@@ -70,17 +70,18 @@ subgraph.
 
 **Acceptance.** Refereed: P. Komjáth and S. Shelah, Forcing constructions for
 uncountably chromatic graphs, J. Symbolic Logic 53 (1988), no. 3, 696–707,
-doi:10.2307/2274566; the Crossref record dates the issue to September 1988
-without a day, so the page carries the first of that month. The site labels
-the problem OPEN and its notes do not record the result, so the page lists no
-`reviewed` evidence. Later restatements: the site's discussion thread carries
-a comment of 28 May 2026 that draws the same conclusion through Problem 1175;
-section 4 of the write-up behind the
-[[problems/graph_coloring/E0740/claims/2026_08_16_dottedcalculator|DottedCalculator
-partial claim]] cites Theorem 2 and concludes that the all-cardinals statement
-is not provable in ZFC; and Komjáth's 2025 survey of the Erdős–Hajnal problem
-list
+doi:10.2307/2274566. The Crossref record dates the issue to September 1988
+without a day, so the page carries the first of that month. The site labels the
+problem OPEN and its notes do not record the result, so the page lists no
+`reviewed` evidence.
+
+The result is restated in later sources. The site's discussion thread carries a
+comment of 28 May 2026 that draws the same conclusion through Problem 1175.
+Section 4 of the write-up behind the
+[[problems/graph_coloring/E0740/claims/2026_08_16_dottedcalculator|DottedCalculator partial claim]]
+cites Theorem 2 and concludes that the all-cardinals statement is not provable
+in ZFC. Komjáth's 2025 survey of the Erdős–Hajnal problem list
 ([[../library/set_theory/komjath_2025_erdos_hajnal_problem_list/_index|card]])
 records the conjecture as its Problem 45(A), consistently false at $\aleph_1$.
-[[problems/graph_coloring/E0740/claims/2026_09_06_land|Johan Land's pending
-claim]] asserts such a graph outright in ZFC.
+[[problems/graph_coloring/E0740/claims/2026_09_06_land|Johan Land's pending claim]]
+asserts such a graph outright in ZFC.

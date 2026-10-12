@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0550/claims/1985_12_01_erdos_faudree_rousseau_schelp
 title: Erdős, Faudree, Rousseau and Schelp, multipartite graphs against large trees of bounded degree
 desc: |
-  Theorem 1 of the 1985 Combinatorica paper gives R(T,K(m_1,...,m_k)) =
-  (k-1)(n-1)+m_1 for every large tree of bounded maximum degree, which yields
-  the inequality of Problem 550 for those trees; refereed.
+  Theorem 1 of the refereed 1985 Combinatorica paper gives
+  $R(T,K(m_1,\ldots,m_k))=(k-1)(n-1)+m_1$ for every large tree of bounded
+  maximum degree. This yields the inequality of Problem 550 for those trees.
 authors:
 - P. Erdős
 - R. J. Faudree
@@ -58,10 +58,9 @@ $n$ are outside it.
 **Depends on.** Nothing in this wiki; the theorem and its proof are the
 paper's own.
 
-**Acceptance.** Refereed: the paper is a journal publication in
-Combinatorica, volume 5, number 4 (December 1985), received 4 March 1983,
-the `refereed` evidence; the issue carries no day, so this page is dated to
-the first day of that month. It is the site's source key for the problem,
-but the site's label OPEN (LEAN) settles neither the problem nor a declared
-part of it, so `reviewed` is not listed. The proof is cited at statement
-depth.
+**Acceptance.** Refereed: the paper is a journal publication in Combinatorica,
+volume 5, number 4 (December 1985), received 4 March 1983. This is the
+`refereed` evidence. The issue carries no day, so this page is dated to the
+first day of that month. The paper is the site's source key for the problem. But
+the site's label OPEN (LEAN) settles neither the problem nor a declared part of
+it, so `reviewed` is not listed. The proof is cited at statement depth.

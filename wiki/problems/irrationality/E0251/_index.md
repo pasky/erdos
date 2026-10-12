@@ -2,8 +2,7 @@
 name: problems/irrationality/E0251
 title: Problem 251
 desc: |
-  Asks whether the sum over n of the nth prime divided by two to the n is
-  irrational.
+  Asks whether $\sum_n p_n/2^n$ is irrational, where $p_n$ is the $n$th prime.
 tags:
 - Number theory
 - Irrationality
@@ -29,13 +28,13 @@ $$
 
 irrational? (Here $p_n$ is the $n$th prime.)
 
-**Status.** Open, as the site's label (OPEN) also has it. No unconditional
-proof or disproof is known. Two claimed conditional proofs, both under
-Kuperberg's uniform Hardy–Littlewood prime-tuples conjecture, have claim
-pages, [[problems/irrationality/E0251/claims/2026_09_06_land|Land]] and
-[[problems/irrationality/E0251/claims/2026_09_07_ringer|Ringer]]; neither is
-refereed or independently reviewed, and both would leave the problem open
-even if accepted.
+**Status.** Open, as the site's label (OPEN) also has it. No unconditional proof
+or disproof is known. Two claimed conditional proofs have claim pages,
+[[problems/irrationality/E0251/claims/2026_09_06_land|Land]] and
+[[problems/irrationality/E0251/claims/2026_09_07_ringer|Ringer]]. Both assume
+Kuperberg's uniform Hardy–Littlewood prime-tuples conjecture. Neither is
+refereed or independently reviewed. Both would leave the problem open even if
+accepted.
 
 **Source.** [erdosproblems.com/251](https://www.erdosproblems.com/251), accessed
 2026-09-17 (page last edited 28 September 2025). Cite as: T. F. Bloom, Erdős

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0612/claims/2025_02_12_cambie_jooken
 title: A second counterexample at minimum degree 16
 desc: |
-  Cambie and Jooken exhibit 3-colorable graphs of minimum degree 16 whose
-  diameter exceeds the bound of part (i) at r = 2, inside the degree window the
-  first counterexamples left open; a preprint backed by a computer search.
+  Cambie and Jooken exhibit $3$-colorable graphs of minimum degree $16$ whose
+  diameter exceeds the bound of part (i) at $r=2$, inside the degree window that
+  the first counterexamples left open. The source is a preprint backed by a
+  computer search.
 authors:
 - Stijn Cambie
 - Jorik Jooken

@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E1057
 title: Problem 1057
 desc: |
-  Asks whether the number of Carmichael numbers up to x is x to the power one
-  minus a quantity tending to zero.
+  Asks whether the number $C(x)$ of Carmichael numbers up to $x$ satisfies
+  $C(x)=x^{1-o(1)}$.
 tags:
 - Number theory
 status: open

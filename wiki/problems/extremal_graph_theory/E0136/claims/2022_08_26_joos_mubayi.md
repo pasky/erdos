@@ -2,8 +2,8 @@
 name: problems/extremal_graph_theory/E0136/claims/2022_08_26_joos_mubayi
 title: Joos and Mubayi's short proof of the asymptotic five sixths n
 desc: |
-  Equation (2) of Joos and Mubayi proves r(K_n, K_4, 5) = 5n/6 + o(n), a
-  second proof of the asymptotic of f(n) by a conflict-free hypergraph
+  Equation (2) of Joos and Mubayi proves $r(K_n,K_4,5)=5n/6+o(n)$. This is a
+  second proof of the asymptotic of $f(n)$, by a conflict-free hypergraph
   matching rather than a random process.
 authors:
 - Felix Joos
@@ -64,9 +64,9 @@ matching theorem is cited, not reproved.
 
 **Acceptance.** Refereed publication in the Proceedings of the American
 Mathematical Society, cited with its venue above. The site's curator, Thomas
-Bloom, marks the problem SOLVED and credits this paper, under the reference
-[JoMu22], with a shorter proof of the asymptotic in the commentary; that
-credit is the `reviewed` evidence, and Bloom took no part in the paper. The
-two independent proofs of one asymptotic corroborate each other. No
-independent review of the argument was made here, and no proof step was
-checked beyond the statement and the method's description.
+Bloom, marks the problem SOLVED. In the commentary he credits this paper, under
+the reference [JoMu22], with a shorter proof of the asymptotic. That credit is
+the `reviewed` evidence, and Bloom took no part in the paper. The two
+independent proofs of the same asymptotic corroborate each other. No independent
+review of the argument was made here. No proof step was checked beyond the
+statement and the description of the method.

@@ -3,8 +3,9 @@ name: problems/additive_combinatorics/E0476/claims/1994_03_01_dias_da_silva_hami
 title: Dias da Silva and Hamidoune prove the Erdős–Heilbronn conjecture
 desc: |
   Theorem 4.1 of Dias da Silva and Hamidoune (Bull. London Math. Soc. 1994)
-  bounds the sums of m distinct elements of A in characteristic p below by
-  min(p, m|A| - m^2 + 1); m = 2 is the problem's bound. Accepted, refereed.
+  shows that in characteristic $p$ there are at least $\min(p,m|A|-m^2+1)$ sums
+  of $m$ distinct elements of $A$, and $m=2$ is the problem's bound. The claim
+  is accepted and refereed.
 authors:
 - J. A. Dias da Silva
 - Y. O. Hamidoune
@@ -64,18 +65,18 @@ the statement is the case $|A|\ge2$.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed publication: Bulletin of the London Mathematical
-Society 26 (1994), no. 2, 140--146, issued March 1994 (Crossref record; the
-date of this page). Reviewed: the site's curator (T. F. Bloom) labels the
-problem proved and credits Dias da Silva and Hamidoune with the affirmative
-answer, citing [dSHa94] (page last edited 30 September 2025); the theorem is
-standard in the literature on restricted sumsets, restated with credit by
-Alon, Nathanson and Ruzsa in 1995 and 1996
-([[problems/additive_combinatorics/E0476/claims/1995_03_01_alon_nathanson_ruzsa|their page]])
-and reported by Guy in section C15 of his 2004 collection. The paper's printed
-Corollary 3.3 omits a $\min$ with $p$ that Theorem 3.2 carries and the proof
-of Theorem 4.1 uses, a filing observation recorded on the source card. The
+Society 26 (1994), no. 2, 140--146, issued March 1994, the date of this page
+(Crossref record). Reviewed: the site's curator (T. F. Bloom) labels the problem
+proved and credits Dias da Silva and Hamidoune with the affirmative answer,
+citing [dSHa94] (page last edited 30 September 2025). The theorem is standard in
+the literature on restricted sumsets. Alon, Nathanson and Ruzsa restated it with
+credit in 1995 and 1996
+([[problems/additive_combinatorics/E0476/claims/1995_03_01_alon_nathanson_ruzsa|their page]]),
+and Guy reported it in section C15 of his 2004 collection. The paper's printed
+Corollary 3.3 omits a $\min$ with $p$ that Theorem 3.2 carries and the proof of
+Theorem 4.1 uses. This is a filing observation recorded on the source card. The
 site's Lean mark refers to an external Lean proof that follows the polynomial
-method and is recorded as a formalization link on
-[[problems/additive_combinatorics/E0476/claims/1995_03_01_alon_nathanson_ruzsa|the Alon--Nathanson--Ruzsa page]];
-it does not formalize this paper's argument and is third-party Lean, so no
+method. It is recorded as a formalization link on
+[[problems/additive_combinatorics/E0476/claims/1995_03_01_alon_nathanson_ruzsa|the Alon--Nathanson--Ruzsa page]].
+It does not formalize this paper's argument and is third-party Lean, so no
 `formalized` evidence is listed.

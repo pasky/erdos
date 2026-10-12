@@ -4,15 +4,16 @@ desc: The 1 claim page of Problem 646, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T07:37:55Z
-updated: 2026-10-07T19:40:10Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/factorials_binomials/E0646/claims
 
 [[problems/factorials_binomials/E0646/_index|..]]
 
-[[problems/factorials_binomials/E0646/claims/1997_05_01_berend|1997_05_01_berend]]: Berend proves that for every k infinitely many n have each of the first k
-primes to an even exponent in n factorial, with bounded gaps between them;
-refereed, credited by the site's curator, with a third-party Lean proof.
+[[problems/factorials_binomials/E0646/claims/1997_05_01_berend|1997_05_01_berend]]: In a refereed paper credited by the site's curator, Berend proves that for
+every $k$ infinitely many $n$ have each of the first $k$ primes to an even
+exponent in $n!$, with bounded gaps between them. The result has a third-party
+Lean proof.
 
 ***

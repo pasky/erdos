@@ -2,9 +2,10 @@
 name: problems/number_theory/E1180/claims/2002_06_01_shparlinski
 title: Shparlinski's answer with order epsilon to the minus 3
 desc: |
-  Shparlinski's Theorem 3 of 2002: for every epsilon, every large prime p and
-  every residue c, about 4 epsilon^(-3) distinct integers up to p^epsilon
-  have inverses summing to c; the first answer, refereed, credited by the site.
+  Shparlinski's Theorem 3 of 2002: for every $\varepsilon$, every large prime
+  $p$ and every residue $c$, about $4\varepsilon^{-3}$ distinct integers up to
+  $p^\varepsilon$ have inverses summing to $c$. It is the first answer, refereed
+  and credited by the site.
 authors:
 - Igor E. Shparlinski
 status: accepted
@@ -60,14 +61,14 @@ rests on Theorem 2 of Friedlander and Iwaniec, which is not held, so no step is
 checked against its inputs.
 
 **Acceptance.** Refereed: Igor E. Shparlinski, *On a question of Erdős and
-Graham*, Arch. Math. (Basel) 78 (2002), no. 6, 445--448, received 30 August
-2000; the publisher's record dates the issue 1 June 2002, the date this
+Graham*, Arch. Math. (Basel) 78 (2002), no. 6, 445--448, received 30
+August 2000. The publisher's record dates the issue 1 June 2002, the date this
 page is named by. Reviewed: the site's curator, Thomas F. Bloom, labels the
-problem proved and credits Shparlinski, in the problem's commentary, with
-answering the original question in the affirmative with
-$C_\epsilon\ll\epsilon^{-3}$; the curator neither wrote nor submitted the
-result. Croot's 2004 paper and Glibichuk's 2006 paper cite the theorem as
-the first answer. Nothing here is independently reviewed by this project.
+problem proved. In the problem's commentary, the curator credits Shparlinski
+with answering the original question in the affirmative with
+$C_\epsilon\ll\epsilon^{-3}$. The curator neither wrote nor submitted the
+result. Croot's 2004 paper and Glibichuk's 2006 paper cite the theorem as the
+first answer. Nothing here is independently reviewed by this project.
 
 **Depends on.** Nothing on the wiki; the completion to the finitely many
 small primes is the one line above.

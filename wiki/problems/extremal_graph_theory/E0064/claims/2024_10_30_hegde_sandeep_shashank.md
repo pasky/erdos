@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0064/claims/2024_10_30_hegde_sandeep_shashank
 title: Hegde, Sandeep and Shashank's P_13-free graphs
 desc: |
-  Hegde, Sandeep and Shashank prove, with a computer search, that every
-  P_13-free graph of minimum degree at least three has a cycle of length a
-  power of two, extending Hu and Shen's P_10-free case; an arXiv preprint.
+  Hegde, Sandeep and Shashank prove, with the aid of a computer search, that
+  every $P_{13}$-free graph of minimum degree at least three has a cycle whose
+  length is a power of two. This extends Hu and Shen's $P_{10}$-free case and
+  appears in an arXiv preprint.
 authors:
 - Anand Shripad Hegde
 - R. B. Sandeep

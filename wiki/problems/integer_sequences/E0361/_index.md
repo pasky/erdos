@@ -2,8 +2,9 @@
 name: problems/integer_sequences/E0361
 title: Problem 361
 desc: |
-  The largest subset of the integers up to c times n that has no subset
-  summing to n, and whether its size varies irregularly with n.
+  Asks for the size of the largest $A\subseteq\{1,\ldots,\lfloor cn\rfloor\}$
+  with no subset summing to $n$, and whether this size depends on $n$ in an
+  irregular way.
 tags:
 - Number theory
 status: open
@@ -33,27 +34,28 @@ This page and its claims read the second question as asking whether
 $f_c(n)/n$ fails to converge, the reading Beyer de Ryke's note states as its
 interpretation.
 
-**Status.** Open. Writing $f_c(n)$ for the largest size, Alon's refereed
-Corollary 2.6 of 1987 gives $f_{1/2}(n)=(1/6+o(1))n$ along even $n$
-([[problems/integer_sequences/E0361/claims/1986_09_08_alon|claim page]]), and
-three partial claims of 2026 are pending: a proof claim filed as full by
-Principia Math (using GPT 5.6 and Opus 4.8, as the proof-claims tab names them)
-on 23 July 2026, whose theorem says that $f_c(n)/n$ does not converge for
-$0<c<1$ and that $f_c(n)=\lfloor cn\rfloor-\lceil n/2\rceil$ for $c\ge1$, and
-which its thread records, with the claimant's agreement, as answering the second
-question and not the first
+**Status.** Open. The site's label is OPEN (page last edited 17 October 2025;
+thread and proof-claims tab accessed 2026-10-07). Write $f_c(n)$ for the largest
+size. Alon's refereed Corollary 2.6 of 1987 gives $f_{1/2}(n)=(1/6+o(1))n$ along
+even $n$ ([[problems/integer_sequences/E0361/claims/1986_09_08_alon|claim
+page]]). Three partial claims of 2026 are pending. The first is a proof claim
+filed as full by Principia Math on 23 July 2026, using GPT 5.6 and Opus 4.8, as
+the proof-claims tab names them. Its theorem says that $f_c(n)/n$ does not
+converge for $0<c<1$ and that $f_c(n)=\lfloor cn\rfloor-\lceil n/2\rceil$ for
+$c\ge1$. Its thread records, with the claimant's agreement, that it answers the
+second question and not the first
 ([[problems/integer_sequences/E0361/claims/2026_07_23_principia_math|claim
-page]]); Beyer de Ryke's note of 25 July 2026 in the same thread, proving the
-same non-convergence with explicit limits along arithmetic subsequences
+page]]). The second is Beyer de Ryke's note of 25 July 2026 in the same thread.
+It proves the same non-convergence with explicit limits along arithmetic
+subsequences
 ([[problems/integer_sequences/E0361/claims/2026_07_25_beyer_de_ryke|claim
-page]]); and Principia Math's second result, announced in the thread on 8 August
-2026, an inverse zero-sum theorem giving
+page]]). The third is Principia Math's second result, announced in the thread on
+8 August 2026. It is an inverse zero-sum theorem. For $0<c\le1/s$, it gives
 $f_c(n)=(c/\operatorname{snd}(s)+o(1))n$ along the multiples $n$ of $s$ not
-divisible by the least non-divisor $\operatorname{snd}(s)$ of $s$, for
-$0<c\le1/s$, with its representation theorem for $s=2$ and $1/3<c<1/2$ stated in
-Lean ([[problems/integer_sequences/E0361/claims/2026_08_08_principia_math|claim
-page]]). The site's label is OPEN (page last edited 17 October 2025; thread and
-proof-claims tab accessed 2026-10-07).
+divisible by the least non-divisor $\operatorname{snd}(s)$ of $s$. Its
+representation theorem for $s=2$ and $1/3<c<1/2$ is stated in Lean
+([[problems/integer_sequences/E0361/claims/2026_08_08_principia_math|claim
+page]]).
 
 **Source.** [erdosproblems.com/361](https://www.erdosproblems.com/361), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #361,

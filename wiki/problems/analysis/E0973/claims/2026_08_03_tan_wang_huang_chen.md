@@ -2,9 +2,10 @@
 name: problems/analysis/E0973/claims/2026_08_03_tan_wang_huang_chen
 title: Tan, Wang, Huang and Chen's residual bound for exterior power sums
 desc: |
-  A lower bound exp(-(1 + o(1)) sqrt(n) log n) for the largest power sum of
-  index 2 to n + 1 of n complex numbers of modulus at least one, from a residual
-  bound for polynomials with zeros in the closed unit disk; unreviewed.
+  Tan, Wang, Huang and Chen claim, from a residual bound for polynomials with
+  zeros in the closed unit disk, a lower bound $\exp(-(1+o(1))\sqrt n\log n)$
+  for the largest power sum of index $2$ to $n+1$ of $n$ complex numbers of
+  modulus at least one. The claim is unreviewed.
 authors:
 - Xiaojun Tan
 - Qihang Wang

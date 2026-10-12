@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0803
 title: Problem 803
 desc: |
-  Asks whether every graph with n log n edges has an almost-regular subgraph on
-  m vertices with much more than m log m edges; false by Alon's 2008 random
-  bipartite construction, with Janzer and Sudakov's bound the best positive one.
+  Asks whether every graph on $n$ vertices with $n\log n$ edges has an
+  almost-regular subgraph on $m$ vertices with $\gg m\log m$ edges. False by
+  Alon's 2008 random bipartite construction; Janzer and Sudakov's bound is the
+  best positive one.
 tags:
 - Graph theory
 status: solved
@@ -50,38 +51,39 @@ a subgraph with exactly that many on the same vertex set (a remark made
 here). Alon's construction refutes both readings (below), so the choice does
 not affect the status; a Formulation note, no tension in the field.
 
-**Status.** Disproved. The site's label was DISPROVED on 2026-09-18; on
-2026-10-07 the page printed no label to an anonymous reader, and the community
+**Status.** Disproved. The site's label was DISPROVED on 2026-09-18. On
+2026-10-07 the page printed no label to an anonymous reader. The community
 database lists the problem as disproved (Lean), a status its file has carried
-since 26 September 2026. Alon's
+since 26 September 2026. The frontmatter standing is derived from the accepted
+claim page
+[[problems/extremal_graph_theory/E0803/claims/2007_09_17_alon|Alon's disproof]].
+Its acceptance evidence is the refereed journal, the refereed quotation by
+Janzer and Sudakov and the site's own commentary.
+
+The disproof is Alon's
 [[../library/extremal_graph_theory/alon_2008_problems_results_extremal_combinatorics/proposition_2_1|Proposition 2.1]]
 ([Al08], Discrete Math. 308 (2008), no. 19, 4460--4472; refereed; author's
-preprint, p. 2): "For every
-$D>1$ and every $n>10^5$, there is a graph $G$ with at most $2n$ vertices and
-at least $2n\log(2n)$ edges such that the following holds. For any $m$ and
-$d$, if there is a subgraph $H$ of $G$ with $m$ vertices, average degree at
-least $d$, and maximum degree at most $Dd$, then
-$d<36(4\sqrt{\log m}+\log(64D)+18)$", introduced by "In this section we show
-that this is not true." A $D$-balanced subgraph with $m$ vertices and
-average degree $d$ has maximum degree at most $Dd$, so it has
-$e(H)=md/2<72m\sqrt{\log m}+18m\log(64D)+324m$ edges (a deduction made
-here), which is $o(m\log m)$ for fixed $D$: no absolute $\epsilon$ works,
-whether $m$ is fixed and large or tends to infinity. The near-matching
-positive bound is Janzer and Sudakov's
+preprint, p. 2). The paper introduces it with "In this section we show that this
+is not true." The proposition reads: "For every $D>1$ and every $n>10^5$, there
+is a graph $G$ with at most $2n$ vertices and at least $2n\log(2n)$ edges such
+that the following holds. For any $m$ and $d$, if there is a subgraph $H$ of $G$
+with $m$ vertices, average degree at least $d$, and maximum degree at most $Dd$,
+then $d<36(4\sqrt{\log m}+\log(64D)+18)$". A $D$-balanced subgraph with $m$
+vertices and average degree $d$ has maximum degree at most $Dd$. So it has
+$e(H)=md/2<72m\sqrt{\log m}+18m\log(64D)+324m$ edges (a deduction made here).
+This is $o(m\log m)$ for fixed $D$, so no absolute $\epsilon$ works, whether $m$
+is fixed and large or tends to infinity.
+
+The near-matching positive bound is Janzer and Sudakov's
 [[../library/extremal_graph_theory/janzer_2023_resolution_erdos_sauer_problem_regular_subgraphs/theorem_6_3|Theorem 6.3]]
-(Forum Math. Pi 11 (2023), e19; refereed): given a positive integer $m_0$,
-there are $n_0=n_0(m_0)$ and $\varepsilon=\varepsilon(m_0)>0$ for which each
-graph on $n\ge n_0$ vertices with $n\log n$ or more edges contains a
-$64$-almost-regular subgraph whose vertex count $m$ is at least $m_0$ and
-whose edge count is at least
-$\varepsilon m\sqrt{\log m}/(\log\log m)^{3/2}$, so Alon's bound is tight up
-to $\log\log$ factors. The frontmatter standing is derived from the accepted
-claim page
-[[problems/extremal_graph_theory/E0803/claims/2007_09_17_alon|Alon's disproof]],
-whose acceptance evidence is the refereed journal, the refereed quotation by
-Janzer and Sudakov and the site's own commentary; Theorem 6.3 proves a
-weaker statement and settles nothing of the question, so it has no claim
-page.
+(Forum Math. Pi 11 (2023), e19; refereed). Given a positive integer $m_0$, there
+are $n_0=n_0(m_0)$ and $\varepsilon=\varepsilon(m_0)>0$ with the following
+property. Each graph on $n\ge n_0$ vertices with $n\log n$ or more edges
+contains a $64$-almost-regular subgraph whose vertex count $m$ is at least $m_0$
+and whose edge count is at least
+$\varepsilon m\sqrt{\log m}/(\log\log m)^{3/2}$. So Alon's bound is tight up to
+$\log\log$ factors. Theorem 6.3 proves a weaker statement and settles nothing of
+the question, so it has no claim page.
 
 **Source.** [erdosproblems.com/803](https://www.erdosproblems.com/803),
 accessed 2026-09-18: the problem page (DISPROVED, with

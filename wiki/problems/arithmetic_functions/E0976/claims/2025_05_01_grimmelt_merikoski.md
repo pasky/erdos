@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0976/claims/2025_05_01_grimmelt_merikoski
 title: Grimmelt and Merikoski's exponent 1.312 for at^2+h
 desc: |
-  An arXiv preprint gives, for fixed coprime a and squarefree h, an m in
-  [X, 2X] with a prime factor of am^2+h above X^1.312 for all large X, so
-  the answer would be yes for these quadratics.
+  Grimmelt and Merikoski's arXiv preprint gives, for fixed coprime $a$ and
+  squarefree $h$ and all large $X$, an $m\in[X,2X]$ for which $am^2+h$ has a
+  prime factor above $X^{1.312}$. So the answer to the first question would be
+  yes for these quadratics.
 authors:
 - Lasse Grimmelt
 - Jori Merikoski

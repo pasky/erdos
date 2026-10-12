@@ -2,8 +2,9 @@
 name: problems/integer_sequences/E0360
 title: Problem 360
 desc: |
-  The growth rate of the fewest classes needed to partition the numbers below
-  n so that n is never a sum of distinct members of one class.
+  Asks how fast $f(n)$ grows, the least number of classes into which
+  $\{1,\ldots,n-1\}$ can be partitioned so that $n$ is never a sum of distinct
+  members of one class.
 tags:
 - Number theory
 status: solved
@@ -25,24 +26,25 @@ partitioned into $f(n)$ classes so that $n$ cannot be expressed as a sum of
 distinct elements from the same class. How fast does $f(n)$ grow?
 
 **Status.** Solved. Alon and Erdős ([AlEr96], refereed) proved
-$f(n)=n^{1/3+o(1)}$, with $n^{1/3}/(\log n)^{4/3}\ll f(n)\ll n^{1/3}(\log\log
-n)^{1/3}/(\log n)^{1/3}$; Vu ([Vu07], refereed) raised the lower bound to
-$f(n)\gg n^{1/3}/\log n$; and Conlon, Fox and Pham ([CFP21], Theorem 1.5, to
-appear in J. Eur. Math. Soc.) determined the order of growth, $f(n)\asymp
-n^{1/3}(n/\phi(n))/((\log n)^{1/3}(\log\log n)^{2/3})$. The site's commentary
-records the first two bounds as proved and credits the order of growth to
-Conlon, Fox and Pham, on a page labeled SOLVED. The first two are accepted
-partial claims
+$f(n)=n^{1/3+o(1)}$, with
+$n^{1/3}/(\log n)^{4/3}\ll f(n)\ll n^{1/3}(\log\log n)^{1/3}/(\log n)^{1/3}$. Vu
+([Vu07], refereed) raised the lower bound to $f(n)\gg n^{1/3}/\log n$. Conlon,
+Fox and Pham ([CFP21], Theorem 1.5, to appear in J. Eur. Math. Soc.) determined
+the order of growth,
+$f(n)\asymp n^{1/3}(n/\phi(n))/((\log n)^{1/3}(\log\log n)^{2/3})$. The site's
+page is labeled SOLVED. Its commentary records the first two bounds as proved
+and credits the order of growth to Conlon, Fox and Pham. The first two are
+accepted partial claims
 ([[problems/integer_sequences/E0360/claims/1995_05_15_alon_erdos|Alon and
-Erdős]], [[problems/integer_sequences/E0360/claims/2006_11_16_vu|Vu]]), and the
+Erdős]], [[problems/integer_sequences/E0360/claims/2006_11_16_vu|Vu]]). The
 third is the accepted full claim
 ([[problems/integer_sequences/E0360/claims/2021_04_30_conlon_fox_pham|claim
-page]]), whose acceptance evidence is the site's documented acceptance, the
-journal version having no record yet. A 2026 Lean formalization
-of the Conlon–Fox–Pham order in Boris Alexeev's public repository, registered by
-no outside record, attributes its mathematics to the three authors, so it is a
-formalization link on their claim page, neither built nor audited here, and
-gives no `formalized` evidence.
+page]]). Its acceptance evidence is the site's documented acceptance, and the
+journal version has no record yet. A 2026 Lean formalization of the
+Conlon–Fox–Pham order in Boris Alexeev's public repository attributes its
+mathematics to the three authors, so it is a formalization link on their claim
+page. No outside record registers it. It has been neither built nor audited
+here, and it gives no `formalized` evidence.
 
 **Source.** [erdosproblems.com/360](https://www.erdosproblems.com/360), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #360,

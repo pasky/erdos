@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0877/claims/2014_09_19_balogh_liu_sharifzadeh_treglown
 title: The exponent one quarter for maximal sum-free sets
 desc: |
-  The number of maximal sum-free subsets of the first n integers is
-  2^((1/4 + o(1)) n), matching the Cameron--Erdős lower bound in the exponent;
-  Theorem 1.1 of Balogh, Liu, Sharifzadeh and Treglown, refereed (Proc. AMS).
+  Theorem 1.1 of Balogh, Liu, Sharifzadeh and Treglown, refereed (Proc. AMS):
+  the number of maximal sum-free subsets of the first $n$ integers is
+  $2^{(1/4+o(1))n}$, which matches the Cameron--Erdős lower bound in the
+  exponent.
 authors:
 - József Balogh
 - Hong Liu
@@ -87,10 +88,10 @@ audited, so no `formalized` evidence is listed.
 **Depends on.** No wiki page; the claim rests on the cited paper.
 
 **Acceptance.** Refereed: the paper is a research article in the Proceedings of
-the American Mathematical Society (Crossref record read: volume 143, issue 11,
-published online 2 April 2015); the text cited is arXiv:1409.5661v1 of 19
-September 2014, the posting that names this page, whose comment says the paper
-is to appear there, and the journal text was not compared. Reviewed: the site's
-curator, Thomas Bloom, marks the problem proved on erdosproblems.com and credits
-the four authors with this asymptotic. Read status: the statement checked, the
-proof unread; no further evidence is listed.
+the American Mathematical Society. Its Crossref record (read) gives volume 143,
+issue 11, published online 2 April 2015. The text cited is arXiv:1409.5661v1 of
+19 September 2014, the posting that names this page. Its comment says the paper
+is to appear in that journal. The journal text was not compared. Reviewed: the
+site's curator, Thomas Bloom, marks the problem proved on erdosproblems.com and
+credits the four authors with this asymptotic. Read status: the statement was
+checked and the proof is unread. No further evidence is listed.

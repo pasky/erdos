@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0620/claims/2026_07_17_morris_sahasrabudhe_verstraete
 title: Morris, Sahasrabudhe and Verstraëte's determination of the order
 desc: |
-  An arXiv preprint of 17 July 2026 claims that the Erdős–Rogers function
-  f_{s,s+1}(n) has order sqrt(n log n) for every s at least 2, which at s = 3
-  determines the order of f(n) up to constants; unrefereed, so claimed.
+  Morris, Sahasrabudhe and Verstraëte's arXiv preprint of 17 July 2026 claims
+  that the Erdős–Rogers function $f_{s,s+1}(n)$ has order $\sqrt{n\log n}$ for
+  every $s\ge2$, which at $s=3$ would determine the order of $f(n)$ up to
+  constants. It is unrefereed, so it remains a claim.
 authors:
 - Robert Morris
 - Julian Sahasrabudhe

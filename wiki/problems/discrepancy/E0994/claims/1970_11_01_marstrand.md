@@ -3,8 +3,9 @@ name: problems/discrepancy/E0994/claims/1970_11_01_marstrand
 title: Marstrand's refutation of Khintchine's conjecture
 desc: |
   Marstrand showed that Khintchine's strong uniform distribution conjecture
-  fails, so the visiting frequency of a measurable set under the multiples of
-  alpha can miss its measure; refereed in Proc. London Math. Soc.
+  fails, so the frequency with which the multiples of $\alpha$ visit a
+  measurable set can differ from its measure. The paper is refereed, in Proc.
+  London Math. Soc.
 authors:
 - J. M. Marstrand
 status: accepted
@@ -97,8 +98,8 @@ simultaneous reading, by the same orbit argument.
 **Acceptance.** The result is refereed: J. M. Marstrand, On Khinchin's
 conjecture about strong uniform distribution, Proc. London Math. Soc. (3) 21
 (1970), no. 3, 540–556. Reviewed: the site's curator, T. F. Bloom, records the
-problem as disproved by this paper; the community database lists the label
-disproved (Lean) as of its last update on 2026-09-16, the Lean being Ren's
-package above. The paper's print date is known to the month (November 1970), so
-this page is dated to the first day of that month. Its theorem is recorded above
-only in the weakest form a disproof implies.
+problem as disproved by this paper. The community database lists the label
+disproved (Lean) as of its last update on 2026-09-16. The Lean there is Ren's
+package above. The paper's print date is known only to the month (November
+1970), so this page is dated to the first day of that month. Its theorem is
+recorded above only in the weakest form a disproof implies.

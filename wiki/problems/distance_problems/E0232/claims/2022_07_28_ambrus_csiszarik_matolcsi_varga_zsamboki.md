@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0232/claims/2022_07_28_ambrus_csiszarik_matolcsi_varga_zsamboki
 title: The density bound 0.247 for planar sets avoiding unit distances
 desc: |
-  Every measurable planar set with no two points at distance one has upper
-  density at most $0.247$, so $m_1\le0.247<1/4$, which answers the site's
-  question and proves Erdős's conjecture $m_1<1/4$.
+  Ambrus, Csiszárik, Matolcsi, Varga and Zsámboki prove that every measurable
+  planar set with no two points at distance one has upper density at most
+  $0.247$. So $m_1\le0.247<1/4$, which answers the site's question and proves
+  Erdős's conjecture $m_1<1/4$.
 authors:
 - Gergely Ambrus
 - Adrián Csiszárik
@@ -62,9 +63,9 @@ Sci. 440 (1985), 1–11) as saying that $m_1(\mathbb R^2)$ is very likely less
 than $1/4$, and its abstract states the result as proving that conjecture.
 The site's question asks for $m_1\le1/4$, which the bound also gives.
 
-**Acceptance.** The paper is refereed: G. Ambrus, A. Csiszárik, M.
-Matolcsi, D. Varga and P. Zsámboki, The density of planar sets avoiding
-unit distances, Mathematical Programming 207 (2024), no. 1–2, 303–327,
-published online 2023-10-06; the preprint is arXiv:2207.14179, posted
-2022-07-28. The curator of erdosproblems.com, Thomas Bloom, marks the
-problem proved and credits the result to this paper.
+**Acceptance.** The paper is refereed: G. Ambrus, A. Csiszárik, M. Matolcsi, D.
+Varga and P. Zsámboki, The density of planar sets avoiding unit distances,
+Mathematical Programming 207 (2024), no. 1–2, 303–327, published online
+2023-10-06. The preprint is arXiv:2207.14179, posted 2022-07-28. The curator of
+erdosproblems.com, Thomas Bloom, marks the problem proved and credits the result
+to this paper.

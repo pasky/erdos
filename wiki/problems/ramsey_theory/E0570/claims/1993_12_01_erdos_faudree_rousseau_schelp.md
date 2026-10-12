@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0570/claims/1993_12_01_erdos_faudree_rousseau_schelp
 title: Erdős, Faudree, Rousseau and Schelp, the even cycles
 desc: |
-  Corollary 4 of the 1993 paper in Combin. Probab. Comput. that posed the
-  question: for every even cycle length 2j at least four, the Ramsey number
-  of an m-edge graph with no isolated vertices is at most 2m+j-1 for large m.
+  Corollary 4 of the 1993 paper of Erdős, Faudree, Rousseau and Schelp in
+  Combin. Probab. Comput. that posed the question shows that for every even
+  cycle length $2j\ge4$, every $m$-edge graph $H$ with no isolated vertices has
+  $R(C_{2j},H)\le2m+j-1$ once $m$ is large.
 authors:
 - Paul Erdős
 - R. J. Faudree
@@ -56,13 +57,13 @@ alone.
 
 **Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
 proved and credits the even case to this paper (its key [EFRS93]; page last
-edited 16 January 2026, accessed 2026-09-08 for the problem page), and the 2026
+edited 16 January 2026, accessed 2026-09-08 for the problem page). The 2026
 preprint of Cambie, Freschi, Morawski, Petrova and Pokrovskiy records on p. 2
 that the paper verified the question for even $k$. Refereed: P. Erdős, R. J.
 Faudree, C. C. Rousseau and R. H. Schelp, Ramsey size linear graphs, Combin.
-Probab. Comput. 2 (1993), no. 4, 389--399, received 12 March 1993 and printed in
-the December 1993 issue (Crossref), the month this page is dated by; the day is
-a placeholder.
+Probab. Comput. 2 (1993), no. 4, 389--399. It was received on 12 March 1993 and
+printed in the December 1993 issue (Crossref), the month this page is dated by.
+The day is a placeholder.
 
 **Read depth.** The statement, the range $j\ge2$, the formula and the
 sharpness construction were checked (printed p. 396);

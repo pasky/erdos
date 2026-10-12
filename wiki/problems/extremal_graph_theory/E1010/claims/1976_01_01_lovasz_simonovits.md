@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1010/claims/1976_01_01_lovasz_simonovits
 title: Lovász and Simonovits's proof of the Erdős–Rademacher conjecture
 desc: |
-  Lovász and Simonovits prove that a graph on n vertices with the Turán
-  number plus k edges, k below half of n, has at least k times the floor of
-  half of n triangles; the 1976 paper and the 1983 chapter carry the proof.
+  Lovász and Simonovits prove that a graph on $n$ vertices with
+  $\lfloor n^2/4\rfloor+k$ edges, where $k<n/2$, has at least
+  $k\lfloor n/2\rfloor$ triangles. The proof is in the 1976 paper and in the
+  1983 chapter.
 authors:
 - L. Lovász
 - M. Simonovits
@@ -70,23 +71,22 @@ restates Erdős's theorem.
 **Depends on.** Nothing in this wiki; the chapter's own statements and the
 one-line triangle count are the whole argument.
 
-**Acceptance.** The `reviewed` evidence is documented acceptance by the
-site's curator, Thomas Bloom, who labels the problem PROVED and names the
-1976 paper as one of its two independent proofs, with the community
-database in agreement (it lists the problem as proved as of its last
-update, 10 September 2025), and the publication of the general theorem in
-an edited memorial volume by Birkhäuser in 1983 (Crossref record). No
-referee record is visible for a volume chapter and the proceedings paper is
-not held, so `refereed` is not listed. The one comment in the site's thread
-(8 March 2026) holds that the problem was settled in the 1983 chapter
-rather than in the 1976 paper; the chapter's own attribution says
-otherwise, and without the 1976 text the point stays open. Read depth: the
-abstract, Theorem A, Problem 3 and Theorems 1 to 4 were read at their
-statements; the derivation of Theorem 4 from Theorem 3 was read for
-structure; the proof of Theorem 3 (Section 5, pp. 471--495) was not read,
-and nothing is independently reviewed. The site also credits an independent
-proof by
-[[problems/extremal_graph_theory/E1010/claims/1981_01_01_nikiforov_khadzhiivanov|Nikiforov and Khadzhiivanov]],
-whose text has not been seen. An independent Lean proof of the statement
-for every $n$, with no largeness assumption, is a pending claim of its own
+**Acceptance.** The `reviewed` evidence is documented acceptance by the site's
+curator, Thomas Bloom, who labels the problem PROVED and names the 1976 paper as
+one of its two independent proofs. The community database agrees: it lists the
+problem as proved as of its last update, 10 September 2025. The general theorem
+was also published in an edited memorial volume by Birkhäuser in 1983 (Crossref
+record). No referee record is visible for a volume chapter, and the proceedings
+paper is not held, so `refereed` is not listed. The one comment in the site's
+thread (8 March 2026) holds that the problem was settled in the 1983 chapter
+rather than in the 1976 paper. The chapter's own attribution says otherwise, and
+without the 1976 text the point stays open. Read depth: the abstract, Theorem A,
+Problem 3 and Theorems 1 to 4 were read at their statements. The derivation of
+Theorem 4 from Theorem 3 was read for structure. The proof of Theorem 3 (Section
+5, pp. 471--495) was not read, and nothing is independently reviewed. The site
+also credits an independent proof by
+[[problems/extremal_graph_theory/E1010/claims/1981_01_01_nikiforov_khadzhiivanov|Nikiforov
+and Khadzhiivanov]], whose text has not been seen. An independent Lean proof of
+the statement for every $n$, with no largeness assumption, is a pending claim of
+its own
 ([[problems/extremal_graph_theory/E1010/claims/2026_08_26_alexeev|2026_08_26_alexeev]]).

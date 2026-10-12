@@ -2,9 +2,8 @@
 name: problems/extremal_graph_theory/E0426
 title: Problem 426
 desc: |
-  Asks whether some graph on n vertices has as many as two to the number of
-  vertex pairs divided by n factorial distinct subgraphs occurring in exactly
-  one way.
+  Asks whether some graph on $n$ vertices has $\gg 2^{\binom{n}{2}}/n!$ distinct
+  unique subgraphs, that is, subgraphs that occur in exactly one way.
 tags:
 - Graph theory
 status: solved
@@ -40,15 +39,15 @@ arbitrarily large $n$, and the negation of that reading is exactly $f(n)\to0$.
 Theorem 1.2, $f(n)\to0$, refutes both readings.
 
 **Status.** DISPROVED (LEAN), the site's label (site export of 2026-09-04):
-solved in the negative with a Lean-verified proof; on 2026-10-07 the public
+solved in the negative with a Lean-verified proof. On 2026-10-07 the public
 page's markup showed no label text. The community database
 (teorth/erdosproblems, `data/problems.yaml` as of 2026-09-28) corroborates the
-label, recording status "disproved (Lean)", which its commit of 20 April 2026
-set, with `formal_status` Lean. The site's commentary credits Bradač and
-Christoph [BrCh24], whose Theorem 1.2 gives $f(n)=o(2^{\binom n2}/n!)$ for the
-maximum number $f(n)$ of unique subgraphs of a graph on $n$ vertices. The
+label. It records status "disproved (Lean)", set by its commit of 20 April 2026,
+with `formal_status` Lean. The site's commentary credits Bradač and Christoph
+[BrCh24]. Their Theorem 1.2 gives $f(n)=o(2^{\binom n2}/n!)$, where $f(n)$ is
+the maximum number of unique subgraphs of a graph on $n$ vertices. The
 [[problems/extremal_graph_theory/E0426/claims/2024_10_21_bradac_christoph|claim page]]
-records the result, the site's acceptance and the public Lean formalization; the
+records the result, the site's acceptance and the public Lean formalization. The
 paper appeared in Proc. Amer. Math. Soc. 153 (2025), 4585-4593,
 doi:10.1090/proc/17303.
 

@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0792
 title: Problem 792
 desc: |
-  Estimates the largest sum-free subset, having no solution to a plus b equals
-  c, guaranteed inside any set of n integers; the main term n/3 is settled and
-  the second-order term lies between c log log n and o(n).
+  Estimates $f(n)$, the size of the largest sum-free subset (no solution to
+  $a+b=c$) guaranteed inside any set of $n$ integers. The main term $n/3$ is
+  settled, and the second-order term lies between $c\log\log n$ and $o(n)$.
 tags:
 - Additive combinatorics
 status: open
@@ -51,35 +51,40 @@ below hold in either formulation, while the exact bounds $(n+1)/3$ and
 $(n+2)/3$ are stated in their sources for integers. The site's source keys are
 [Er65], [Er73], [Er92c] and [Va99, 1.22].
 
-**Status.** Open. The main term is determined: $f(n)\ge n/3$ by Erdős's
-Theorem 2 of 1965 ($n-1$ in place of $n$ when $0\in A$; a proceedings volume
-with no refereeing evidence, so a pending partial claim on
-[[problems/additive_combinatorics/E0792/claims/1965_01_01_erdos|its claim page]]),
-the bound $(n+2)/3$ for sets of $n\ge3$ positive integers by Proposition 1.3
-of Bourgain (Israel J. Math. 97 (1997), refereed; not held; stated for any set
-of positive integers and proved for $n\ge3$; an accepted partial claim on
-[[problems/additive_combinatorics/E0792/claims/1997_12_01_bourgain|its claim page]])
-and $f(n)\le n/3+o(n)$ by Theorem 1.1 of Eberhard, Green and Manners (Ann. of
-Math. (2) 180 (2014), refereed; an accepted partial claim on
-[[problems/additive_combinatorics/E0792/claims/2013_01_19_eberhard_green_manners|its claim page]]).
-The second-order term is open: the best lower bound is
+**Status.** Open. The site's label was OPEN on 2026-09-18, and none of the claim
+pages is a full claim. "Estimate $f(n)$" is a request with no truth value. Read
+on this page, the label concerns an estimate whose main term is settled and
+whose second-order term is the open question. This is the reading the site's own
+commentary takes.
+
+The main term is determined. Erdős's Theorem 2 of 1965 gives $f(n)\ge n/3$
+($n-1$ in place of $n$ when $0\in A$). It appeared in a proceedings volume with
+no refereeing evidence, so it is a pending partial claim on
+[[problems/additive_combinatorics/E0792/claims/1965_01_01_erdos|its claim page]].
+Proposition 1.3 of Bourgain (Israel J. Math. 97 (1997), refereed; not held)
+gives the bound $(n+2)/3$ for sets of $n\ge3$ positive integers. It is stated
+for any set of positive integers and proved for $n\ge3$. It is an accepted
+partial claim on
+[[problems/additive_combinatorics/E0792/claims/1997_12_01_bourgain|its claim page]].
+Theorem 1.1 of Eberhard, Green and Manners (Ann. of Math. (2) 180 (2014),
+refereed) gives $f(n)\le n/3+o(n)$. It is an accepted partial claim on
+[[problems/additive_combinatorics/E0792/claims/2013_01_19_eberhard_green_manners|its claim page]].
+
+The second-order term is open. The best lower bound is
 $f(n)\ge n/3+c\log\log n$, Theorem 1.2 of Bedert's 2025 preprint
-(arXiv:2502.08624v1; the site's commentary adopts it; a pending partial claim on
-[[problems/additive_combinatorics/E0792/claims/2025_02_12_bedert|its claim page]]),
-after Bourgain's $(n+2)/3$ on sets of positive integers and the $(n+1)/3$ of
-Alon and Kleitman on sets of nonzero integers (1990; a chapter in a tribute
-volume with no refereeing evidence, so a pending partial claim on
-[[problems/additive_combinatorics/E0792/claims/1990_01_01_alon_kleitman|its claim page]]),
-and no upper bound sharper than $o(n)$ is in hand. A proof claim on the site's
-tab (9 September 2026), to which the site gives no kind, by Bedert, worked out
-with GPT 6 Astra as the tab names it, asserts $n/3+(\log n)^{1/3-o(1)}$ and is
-recorded as a pending partial claim on
+(arXiv:2502.08624v1). The site's commentary adopts it, and it is a pending
+partial claim on
+[[problems/additive_combinatorics/E0792/claims/2025_02_12_bedert|its claim page]].
+It came after Bourgain's $(n+2)/3$ on sets of positive integers and the
+$(n+1)/3$ of Alon and Kleitman on sets of nonzero integers. Alon and Kleitman's
+result appeared in 1990 as a chapter in a tribute volume with no refereeing
+evidence, so it is a pending partial claim on
+[[problems/additive_combinatorics/E0792/claims/1990_01_01_alon_kleitman|its claim page]].
+No upper bound sharper than $o(n)$ is in hand. A proof claim on the site's tab
+(9 September 2026), to which the site gives no kind, is by Bedert, worked out
+with GPT 6 Astra as the tab names it. It asserts $n/3+(\log n)^{1/3-o(1)}$ and
+is recorded as a pending partial claim on
 [[problems/additive_combinatorics/E0792/claims/2026_09_09_bedert|its claim page]].
-The site's label was OPEN on 2026-09-18, and none of the claim pages is a full
-claim. "Estimate $f(n)$" is a request with no truth value; read on this page,
-the label concerns an estimate whose main term is settled and whose
-second-order term is the open question, the reading the site's own commentary
-takes.
 
 **Source.** [erdosproblems.com/792](https://www.erdosproblems.com/792),
 accessed 2026-09-18T15:09Z: the problem page (OPEN, with the site's note that

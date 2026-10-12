@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0216/claims/2024_03_01_heule_scheucher
 title: Heule and Scheucher's empty hexagon in every 30 points
 desc: |
-  A satisfiability proof that every set of 30 points in general position in
-  the plane contains an empty convex hexagon; with Overmars's 29-point set
-  this gives $g(6)=30$, the last value of $g(k)$ that exists.
+  Heule and Scheucher give a satisfiability proof that every set of $30$ points
+  in general position in the plane contains an empty convex hexagon. With
+  Overmars's $29$-point set this gives $g(6)=30$, the last value of $g(k)$ that
+  exists.
 authors:
 - Marijn J. H. Heule
 - Manfred Scheucher
@@ -71,13 +72,12 @@ development, so it gives no `formalized` evidence. The
 summarizes the encoding and the two theorems.
 
 **Acceptance.** The paper is refereed: M. J. H. Heule and M. Scheucher, Happy
-Ending: An Empty Hexagon in Every Set of 30 Points, Tools and Algorithms for
-the Construction and Analysis of Systems (TACAS 2024), Lecture Notes in
-Computer Science, Springer (2024), 61–80. The venue is a conference
-proceedings; the publisher's Crossref record of the chapter carries the
-conference organizers' peer-review information, a double-blind review of 159
-submissions with 53 full papers accepted, which is the evidence that the volume
-was refereed. The curator of erdosproblems.com, Thomas Bloom, records
-$g(6)=30$ on the problem page with this paper as its source; the site's label,
-disproved, rests on Horton's result, so that remark is not acceptance of this
-partial claim.
+Ending: An Empty Hexagon in Every Set of 30 Points, Tools and Algorithms for the
+Construction and Analysis of Systems (TACAS 2024), Lecture Notes in Computer
+Science, Springer (2024), 61–80. The venue is a conference proceedings. The
+publisher's Crossref record of the chapter carries the conference organizers'
+peer-review information: a double-blind review of 159 submissions, with 53 full
+papers accepted. This is the evidence that the volume was refereed. The curator
+of erdosproblems.com, Thomas Bloom, records $g(6)=30$ on the problem page with
+this paper as its source. The site's label, disproved, rests on Horton's result,
+however, so that remark is not acceptance of this partial claim.

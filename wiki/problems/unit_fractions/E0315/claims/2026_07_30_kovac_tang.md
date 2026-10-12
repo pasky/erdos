@@ -2,10 +2,10 @@
 name: problems/unit_fractions/E0315/claims/2026_07_30_kovac_tang
 title: Kovač and Tang's rational generalization
 desc: |
-  Kovač and Tang's Corollary 3 and Theorem 4: for every positive rational the
-  eventually greedy sequence of best underapproximations has the largest
-  doubly exponential growth among series with denominators at least 2; at
-  one this re-derives the statement.
+  Kovač and Tang's Corollary 3 and Theorem 4: for every rational $\lambda>0$,
+  the eventually greedy sequence of best underapproximations has the largest
+  doubly exponential growth among series with denominators at least $2$. The
+  claim re-derives the statement at $\lambda=1$.
 authors:
 - V. Kovač
 - Q. Tang

@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0582/claims/2008_01_01_dudek_rodl
 title: Dudek and Rödl, a K_4-free arrowing graph on 941 vertices
 desc: |
-  Dudek and Rödl (Experiment. Math. 17, 2008) show that the circulant graph
-  G(941,5) is K_4-free and forces a monochromatic triangle in every
-  two-coloring, through a MAX-CUT criterion, so f(2,3,4) <= 941; refereed.
+  In a refereed paper (Experiment. Math. 17, 2008), Dudek and Rödl use a MAX-CUT
+  criterion to show that the circulant graph $G(941,5)$ is $K_4$-free and has a
+  monochromatic triangle in every 2-coloring of its edges, so $f(2,3,4)\le941$.
 authors:
 - Andrzej Dudek
 - Vojtěch Rödl
@@ -43,7 +43,7 @@ The eigenvalue computation is not reproduced in this corpus.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed: A. Dudek and V. Rödl, *On the Folkman number
-$f(2,3,4)$*, Experimental Mathematics 17 (2008), no. 1, 63--67 (January 2008 by
-its Crossref record; the day is a placeholder). The site's label rests
-on Folkman's existence proof, so the site's commentary crediting Dudek and
-Rödl is not listed as evidence.
+$f(2,3,4)$*, Experimental Mathematics 17 (2008), no. 1, 63--67. Its Crossref
+record dates it January 2008, and the day in this page's date is a placeholder.
+The site's label rests on Folkman's existence proof, so the site's commentary
+crediting Dudek and Rödl is not listed as evidence.

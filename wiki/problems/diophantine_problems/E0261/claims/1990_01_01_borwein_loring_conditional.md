@@ -2,9 +2,10 @@
 name: problems/diophantine_problems/E0261/claims/1990_01_01_borwein_loring_conditional
 title: "Borwein and Loring: every n has the property if their iteration always terminates"
 desc: |
-  Borwein and Loring's Corollary 1 shows that if the iteration a to 2(a mod n)
-  always reaches zero (their Conjecture 1), then every n has the property of
-  the second question; refereed and conditional, so it settles no standing.
+  Borwein and Loring's Corollary 1 shows that if the iteration
+  $a\mapsto2(a\bmod n)$ always reaches zero (their Conjecture 1), then every $n$
+  has the property of the second question. The result is refereed and
+  conditional, so it settles no standing.
 authors:
 - P. B. Borwein
 - T. A. Loring
@@ -68,8 +69,8 @@ and is otherwise open; the first question is answered on
 
 **Acceptance.** Refereed: Mathematics of Computation 54 (1990), no. 189,
 377--394 (`refereed`). The site labels the problem OPEN, so no curator
-acceptance is listed. The library holds no file of the paper; the statement
-is recorded from its card, and the corpus records no check of the proof.
+acceptance is listed. The library holds no file of the paper. The statement is
+recorded from its card, and the corpus records no check of the proof.
 
 **Dating.** The page is dated by the issue month in the publisher's record,
 January 1990; the day is a placeholder.

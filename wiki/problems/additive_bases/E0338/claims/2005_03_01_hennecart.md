@@ -2,9 +2,9 @@
 name: problems/additive_bases/E0338/claims/2005_03_01_hennecart
 title: Hennecart's restricted order of asymptotic bases of order two
 desc: |
-  Hennecart (2005) proves that every asymptotic basis of order 2 has a
-  restricted order at most 4, and that 4 is attained, settling the order-2
-  case of the existence and boundedness questions; refereed.
+  Hennecart's refereed 2005 paper proves that every asymptotic basis of order
+  $2$ has a restricted order at most $4$, and that $4$ is attained. This settles
+  the order-$2$ case of the existence and boundedness questions.
 authors:
 - François Hennecart
 status: accepted

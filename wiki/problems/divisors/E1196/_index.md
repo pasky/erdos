@@ -2,8 +2,8 @@
 name: problems/divisors/E1196
 title: Problem 1196
 desc: |
-  Asks whether the sum of one over a times log a over a primitive set of
-  integers all at least x is at most one plus a quantity tending to zero.
+  Asks whether every primitive set $A\subset[x,\infty)$, in which no element
+  divides another, has $\sum_{a\in A}1/(a\log a)<1+o(1)$ as $x\to\infty$.
 tags:
 - Number theory
 - Primitive sets
@@ -31,13 +31,13 @@ $$
 
 where the $o(1)$ term $\to 0$ as $x\to \infty$?
 
-**Status.** PROVED (LEAN): the site credits a proof found by GPT-5.4 Pro at
-Liam Price's prompting, with the account by Alexeev, Barreto, Li, Lichtman,
-Price, Shah, Tang and Tao [ABLLPSTT26]; the Lean formalization by Math Inc. is
-reported in the thread and cited by the paper. The accepted claim is recorded
-on the [[problems/divisors/E1196/claims/2026_04_13_price|claim page]]; Nat
-Sothanaphan's dated notes in the thread, which sharpen the constant and give a
-resummation proof, are the pending claim on
+**Status.** PROVED (LEAN). The site credits a proof found by GPT-5.4 Pro at Liam
+Price's prompting, with the account by Alexeev, Barreto, Li, Lichtman, Price,
+Shah, Tang and Tao [ABLLPSTT26]. The Lean formalization by Math Inc. is reported
+in the thread and cited by the paper. The accepted claim is recorded on the
+[[problems/divisors/E1196/claims/2026_04_13_price|claim page]]. Nat
+Sothanaphan's dated notes in the thread sharpen the constant and give a
+resummation proof. They are the pending claim on
 [[problems/divisors/E1196/claims/2026_04_16_sothanaphan|his page]].
 
 **Source.** [erdosproblems.com/1196](https://www.erdosproblems.com/1196),

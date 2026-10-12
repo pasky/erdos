@@ -2,8 +2,9 @@
 name: problems/distance_problems/E0956/claims/1990_09_01_erdos_pach
 title: Erdős and Pach's upper bound for disjoint convex translates
 desc: |
-  Among n pairwise disjoint translates of one compact convex planar set, at
-  most O(n^(4/3)) pairs are at distance exactly one.
+  Erdős and Pach prove that among $n$ pairwise disjoint translates of one
+  compact convex planar set, at most $O(n^{4/3})$ pairs are at distance
+  exactly 1.
 authors:
 - P. Erdős
 - J. Pach

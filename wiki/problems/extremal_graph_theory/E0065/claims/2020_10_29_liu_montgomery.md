@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0065/claims/2020_10_29_liu_montgomery
 title: Liu and Montgomery's sharp constant in the harmonic bound
 desc: |
-  Liu and Montgomery's Corollary 1.2 gives every graph of average degree d a
-  harmonic sum of distinct cycle lengths at least (1/2 - o(1)) log d, the
-  sharp constant for the first question; accepted on the refereed JAMS paper.
+  Liu and Montgomery's Corollary 1.2 shows that in every graph of average degree
+  $d$, the reciprocals of the distinct cycle lengths sum to at least
+  $(\tfrac12-o(1))\log d$. The constant is sharp for the first question, and the
+  claim is accepted on the refereed JAMS paper.
 authors:
 - Hong Liu
 - Richard Montgomery
@@ -69,14 +70,14 @@ recorded on its library digest.
 
 **Acceptance.** Refereed: the paper is a publication in the Journal of the
 American Mathematical Society (published online 2023-03-31). The site's
-commentary credits the paper with the asymptotically sharp bound while
-labeling the problem OPEN, so the commentary is not listed as reviewed
-evidence. The corpus's
+commentary credits the paper with the asymptotically sharp bound while labeling
+the problem OPEN. So the commentary is not listed as reviewed evidence. The
+corpus's
 [[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/_index|source card]]
-reconstructs the proof from the arXiv v2 manuscript; that reconstruction is
+reconstructs the proof from the arXiv v2 manuscript. That reconstruction is
 incomplete at
 [[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/lemma_3_13|Lemma 3.13's final reservoir compatibility]],
-where the selected path is not shown to avoid earlier selected reservoirs,
-and it is author-recorded, not independently reviewed. This concerns the
-compilation and not the published result; the acceptance recorded here rests
-on the publication.
+where the selected path is not shown to avoid earlier selected reservoirs. It is
+also author-recorded, not independently reviewed. This concerns the compilation
+and not the published result. The acceptance recorded here rests on the
+publication.

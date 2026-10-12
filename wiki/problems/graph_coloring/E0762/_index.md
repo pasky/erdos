@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0762
 title: Problem 762
 desc: |
-  Asks whether a graph with no K_5 and cochromatic number at least 4 has
-  chromatic number at most the cochromatic number plus 2; answered no by
-  Steiner's 2024 graphs with clique number 4, cochromatic 4 and chromatic 7.
+  Asks whether a $K_5$-free graph $G$ with cochromatic number $\zeta(G)\geq4$
+  has chromatic number $\chi(G)\leq\zeta(G)+2$. Steiner answered no in 2024 with
+  graphs of clique number $4$, cochromatic number $4$ and chromatic number $7$.
 tags:
 - Graph theory
 - Chromatic number
@@ -29,9 +29,9 @@ colour class induces either a complete graph or empty graph.
 Is it true that if $G$ has no $K_5$ and $\zeta(G)\geq 4$ then $\chi(G) \leq
 \zeta(G)+2$?
 
-**Status.** DISPROVED (LEAN). The site prints the label DISPROVED (LEAN); the
-Lean proofs the label refers to are third-party files, linked from the claim
-page below, which this corpus has not built.
+**Status.** DISPROVED (LEAN). This is the label the site prints. The Lean proofs
+the label refers to are third-party files, linked from the claim page below.
+This corpus has not built them.
 
 **Source.** [erdosproblems.com/762](https://www.erdosproblems.com/762), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #762,

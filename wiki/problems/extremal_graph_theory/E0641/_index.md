@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E0641
 title: Problem 641
 desc: |
-  Asks whether a high enough chromatic number forces a graph to contain k
-  edge-disjoint cycles on the same vertex set, for every k.
+  Asks whether there is a function $f$ such that every finite graph with
+  chromatic number at least $f(k)$ has $k$ edge-disjoint cycles on the same
+  vertex set, for every $k$.
 tags:
 - Graph theory
 status: solved
@@ -26,10 +27,10 @@ cycles on the same set of vertices?
 
 **Status.** Disproved. The site labels the problem DISPROVED and credits the
 resolution to Janzer, Steiner and Sudakov [JSS24], noting that the statement
-fails already at $k=2$; the result is recorded as an accepted claim, on the
-refereed venue and the site's acceptance, on
+fails already at $k=2$. The result is recorded as an accepted claim on
 [[problems/extremal_graph_theory/E0641/claims/2024_10_03_janzer_steiner_sudakov|its claim page]],
-from which the frontmatter standing is derived.
+on the basis of the refereed venue and the site's acceptance. The frontmatter
+standing is derived from that page.
 
 **Source.** [erdosproblems.com/641](https://www.erdosproblems.com/641), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #641,

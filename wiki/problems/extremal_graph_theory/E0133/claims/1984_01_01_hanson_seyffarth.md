@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0133/claims/1984_01_01_hanson_seyffarth
 title: Hanson and Seyffarth's Cayley graphs of degree order root n
 desc: |
-  Cayley graphs of cyclic groups on symmetric complete sum-free sets give
-  triangle-free graphs of diameter two whose degree is of order root n along
-  an infinite sequence of n, so f(n) over root n does not tend to infinity.
+  Cayley graphs of cyclic groups on symmetric complete sum-free sets are
+  triangle-free graphs of diameter two with degree of order $\sqrt n$ along an
+  infinite sequence of $n$. So $f(n)/\sqrt n$ does not tend to infinity.
 authors: []
 status: accepted
 claim: disproved
@@ -84,13 +84,13 @@ problem points to this declaration as its formal proof (see the problem
 page). The corpus has not built, kernel-checked or audited the file, so the
 evidence stays `reviewed` only.
 
-**Acceptance.** The site's curator, Thomas Bloom, marks the problem DISPROVED
-and credits the bound to Hanson and Seyffarth under the reference [HaSe84] in
-the commentary; that credit is the `reviewed` evidence, and Bloom took no part
-in the paper. The conjecture $f(n)/\sqrt n\to\infty$ that the bound refutes is
-Erdős and Pach's as [Er97b] words it. Two refereed papers restate the result as
-established: Füredi and Seress (J. Graph Theory 18 (1994), Section 6) write that
-Hanson and Seyffarth determined the true order of magnitude, and Haviv and Levy
+**Acceptance.** The site's curator, Thomas Bloom, marks the problem DISPROVED.
+In the commentary he credits the bound to Hanson and Seyffarth under the
+reference [HaSe84]. That credit is the `reviewed` evidence, and Bloom took no
+part in the paper. The bound refutes the conjecture $f(n)/\sqrt n\to\infty$ of
+Erdős and Pach, as [Er97b] words it. Two refereed papers restate the result as
+established. Füredi and Seress (J. Graph Theory 18 (1994), Section 6) write that
+Hanson and Seyffarth determined the true order of magnitude. Haviv and Levy
 (Israel J. Math. 227 (2018), Section 1) extend it to every $n$. These are
-documented acceptances by named experts; whether Congressus Numerantium refereed
-the paper is not documented here, so `refereed` is not listed.
+documented acceptances by named experts. It is not documented here whether
+Congressus Numerantium refereed the paper, so `refereed` is not listed.

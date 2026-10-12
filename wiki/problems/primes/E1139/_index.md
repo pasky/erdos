@@ -2,8 +2,8 @@
 name: problems/primes/E1139
 title: Problem 1139
 desc: |
-  Asks whether the gaps in the sequence of integers with at most two prime
-  factors are infinitely often much larger than the logarithm of the index.
+  Asks whether the sequence $u_1<u_2<\cdots$ of integers with at most two prime
+  factors has $\limsup (u_{k+1}-u_k)/\log k=\infty$.
 tags:
 - Number theory
 - Primes
@@ -35,14 +35,14 @@ or not. This is how the OEIS sequence A037143 that the site links and the
 ($\Omega(n)\le2$) read the wording, and the claimed construction uses it,
 counting a forced square factor $p^2$ as two prime factors.
 
-**Status.** The site labels the problem OPEN (page last edited 23 January
-2026), with the explanation that the question cannot be settled by a finite
-computation. The site's proof-claims tab carries one entry, a full claim by
-Liam Price made with GPT Pro, as the tab gives it, first posted in the
-site's thread on 2026-06-19 and filed on the tab on 2026-07-15, not accepted
-by the site and recorded as pending on
-[[problems/primes/E1139/claims/2026_06_19_price|Price's claim page]]; it
-gives the derived standing `claimed`.
+**Status.** The site labels the problem OPEN (page last edited 23 January 2026),
+with the explanation that the question cannot be settled by a finite
+computation. The derived standing is `claimed`. It comes from the one entry on
+the site's proof-claims tab: a full claim by Liam Price, made with GPT Pro, as
+the tab gives it. The claim was first posted in the site's thread on 2026-06-19
+and filed on the tab on 2026-07-15. The site has not accepted it, and it is
+recorded as pending on
+[[problems/primes/E1139/claims/2026_06_19_price|Price's claim page]].
 
 **Source.** [erdosproblems.com/1139](https://www.erdosproblems.com/1139),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1139,

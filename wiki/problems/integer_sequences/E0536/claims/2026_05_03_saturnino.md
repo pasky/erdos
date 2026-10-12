@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0536/claims/2026_05_03_saturnino
 title: Saturnino's packing bound f(N) at most (43/48 + o(1))N
 desc: |
-  Brian Saturnino's note of May 2026 bounds the largest lcm-triangle-free set
-  up to N by (43/48 + o(1))N through disjoint forbidden triples; posted to the
-  site's thread, unreviewed.
+  Brian Saturnino's note of May 2026 bounds the largest lcm-triangle-free set up
+  to $N$ by $(43/48+o(1))N$, using disjoint forbidden triples. It was posted to
+  the site's thread and is unreviewed.
 authors:
 - Brian Saturnino
 status: claimed

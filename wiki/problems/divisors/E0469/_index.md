@@ -2,8 +2,8 @@
 name: problems/divisors/E0469
 title: Problem 469
 desc: |
-  Asks whether the reciprocal sum converges over integers that are sums of
-  distinct proper divisors of themselves while no proper divisor has that
+  Asks whether $\sum 1/n$ converges over the integers $n$ that are sums of
+  distinct proper divisors of themselves while no proper divisor of $n$ has that
   property.
 tags:
 - Number theory
@@ -32,12 +32,12 @@ $$
 
 converge?
 
-**Status.** PROVED (LEAN) on the site: the curator credits the convergence
-to Zachary J. Lewis, working with GPT 5.6 and Claude Fable 5, whose manuscript
-of July 2026 comes with a kernel-checked Lean development that Boris Alexeev
-verified and added to his repository; see the
-[[problems/divisors/E0469/claims/2026_07_13_lewis|claim page]]. The standing
-in the frontmatter derives from the claim pages.
+**Status.** PROVED (LEAN) on the site. The curator credits the convergence to
+Zachary J. Lewis, working with GPT 5.6 and Claude Fable 5. Lewis's manuscript of
+July 2026 comes with a kernel-checked Lean development, which Boris Alexeev
+verified and added to his repository. See the
+[[problems/divisors/E0469/claims/2026_07_13_lewis|claim page]]. The standing in
+the frontmatter derives from the claim pages.
 
 **Source.** [erdosproblems.com/469](https://www.erdosproblems.com/469), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #469,

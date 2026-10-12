@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0318/claims/1975_01_01_erdos_straus
 title: The positive integers have property P1
 desc: |
-  Erdős and Straus's 1975 solution to Problem 387 of Nieuw Archief: every
-  non-constant sign sequence on the positive integers has a finite zero-sum
-  of signed reciprocals, the case A = N of the first question.
+  Erdős and Straus's 1975 solution to Problem 387 of Nieuw Archief: for every
+  non-constant sign sequence on the positive integers, some finite set of the
+  signed reciprocals sums to zero. This is the case $A=\mathbb N$ of the first
+  question.
 authors:
 - P. Erdős
 - E. G. Straus

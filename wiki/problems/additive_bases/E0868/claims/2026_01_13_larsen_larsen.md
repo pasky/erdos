@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0868/claims/2026_01_13_larsen_larsen
 title: Larsen and Larsen build a basis without a minimal subbasis
 desc: |
-  There are a constant epsilon > 0 and an additive basis of order two whose
-  representation counts exceed epsilon log n for all large n and which
-  contains no minimal additive basis of order two; both questions answered no.
+  Daniel Larsen and Michael Larsen construct, for some constant $\epsilon>0$, an
+  additive basis of order two whose representation counts exceed
+  $\epsilon\log n$ for all large $n$ and which contains no minimal additive
+  basis of order two. Both questions are answered no.
 authors:
 - Daniel Larsen
 - Michael Larsen
@@ -76,19 +77,19 @@ logarithmically. The
 source card is
 [[../library/additive_bases/larsen_2026_robust_additive_bases_without_minimal_subbases/_index|larsen_2026_robust_additive_bases_without_minimal_subbases]].
 
-**Acceptance.** The note was posted to the problem's forum on 2026-01-13
-(the linked GitHub upload; a revised upload followed on 2026-01-22) and to
-arXiv on 2026-01-26 (arXiv:2601.18507, 9 pages, not refereed). The site's
-curator, T. F. Bloom, records the answer in the problem's remarks and labels
-the problem solved (page last edited 2026-04-03); that is the reviewed
-evidence. The community database lists the problem as solved, provisionally
-marked after the forum post, as of its last update, dated 2026-01-13, and
-records a Lean proof. The site's Lean qualifier refers to a
-Lean 4 formalization of the note (Lean v4.33.0), produced with Codex and
-GPT-5.6 Sol and posted in lean-proofs on 2026-08-16, which states the
-negations of both questions (`not_erdos_868` and `not_erdos_868_part_ii`)
-with no axiom declarations; this corpus has not audited its statement, so it
-is a link here and not formalized evidence.
+**Acceptance.** The note was posted to the problem's forum on 2026-01-13 as the
+linked GitHub upload, and a revised upload followed on 2026-01-22. It was posted
+to arXiv on 2026-01-26 (arXiv:2601.18507, 9 pages, not refereed). The site's
+curator, T. F. Bloom, records the answer in the problem's remarks and labels the
+problem solved (page last edited 2026-04-03). That is the reviewed evidence. As
+of its last update, dated 2026-01-13, the community database lists the problem
+as solved, provisionally marked after the forum post, and records a Lean proof.
+
+The site's Lean qualifier refers to a Lean 4 formalization of the note (Lean
+v4.33.0), produced with Codex and GPT-5.6 Sol and posted in lean-proofs on
+2026-08-16. It states the negations of both questions (`not_erdos_868` and
+`not_erdos_868_part_ii`) with no axiom declarations. This corpus has not audited
+its statement, so it is a link here and not formalized evidence.
 
 **Depends on.** Nothing in this wiki; the construction is self-contained
 apart from standard probabilistic estimates.

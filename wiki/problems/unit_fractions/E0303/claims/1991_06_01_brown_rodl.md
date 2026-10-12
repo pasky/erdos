@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0303/claims/1991_06_01_brown_rodl
 title: Brown and Rödl's monochromatic unit-fraction triples
 desc: |
-  Brown and Rödl's 1991 theorem that every finite coloring of the positive
-  integers has pairwise distinct same-colored a, b, c with 1/a = 1/b + 1/c,
-  answering Problem 303 in the affirmative; refereed and credited by the site.
+  Brown and Rödl's 1991 theorem states that every finite coloring of the
+  positive integers has pairwise distinct $a,b,c$ of one color with
+  $1/a=1/b+1/c$. It answers Problem 303 in the affirmative, is refereed, and is
+  credited by the site.
 authors:
 - Tom C. Brown
 - Voijtech Rödl
@@ -59,17 +60,18 @@ requirement (Theorem 2.1a); that version does not by itself give the
 pairwise-distinct conclusion the problem asks for.
 
 **Acceptance.** Refereed: Brown, Tom C. and Rödl, Vojtěch, Monochromatic
-solutions to equations with unit fractions, Bull. Austral. Math. Soc. 43
-(1991), no. 3, 387--392. The publisher's record dates the issue June 1991
-and gives no day; the day in this page's name is the first of that month.
-Reviewed: the site's curator, Thomas Bloom, marks Problem 303 proved and
-credits the coloring statement to Brown and Rödl in the problem's
-commentary. The library holds the journal PDF and the author's copy on the
-[[../library/unit_fractions/brown_1991_monochromatic_solutions_equations_unit_fractions/_index|source card]],
-whose result pages record the statements, a rewritten proof of the
-corollary and the structure of the transfer argument; no independent
-review of the proof is recorded in this corpus. A second,
-independent proof is
+solutions to equations with unit fractions, Bull. Austral. Math. Soc. 43 (1991),
+no. 3, 387--392. The publisher's record dates the issue June 1991 and gives no
+day. The day in this page's name is the first of that month.
+
+Reviewed: the site's curator, Thomas Bloom, marks Problem 303 proved and credits
+the coloring statement to Brown and Rödl in the problem's commentary.
+
+The library holds the journal PDF and the author's copy on the
+[[../library/unit_fractions/brown_1991_monochromatic_solutions_equations_unit_fractions/_index|source card]].
+Its result pages record the statements, a rewritten proof of the corollary and
+the structure of the transfer argument. This corpus records no independent
+review of the proof. A second, independent proof is
 [[problems/unit_fractions/E0303/claims/2025_12_21_yuan|Yuan's Seed-Prover Lean proof]].
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos303.lean` in

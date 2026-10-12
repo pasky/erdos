@@ -2,9 +2,9 @@
 name: problems/discrepancy/E0177
 title: Problem 177
 desc: |
-  The smallest bound, as a function of the common difference, on the largest
-  partial sum along arithmetic progressions of a single plus-minus-one sign
-  function.
+  Asks for the smallest $h(d)$ such that one function $f:\mathbb{N}\to\{-1,1\}$
+  has $\lvert\sum_{n\in P}f(n)\rvert\le h(d)$ for every $d\ge1$ and every finite
+  arithmetic progression $P$ with common difference $d$.
 tags:
 - Discrepancy
 - Arithmetic progressions
@@ -32,24 +32,30 @@ $$
 where $P_d$ ranges over all finite arithmetic progressions with common
 difference $d$.
 
-**Status.** Open, the site's label as accessed on 2026-09-04 and unchanged, when the problem's proof-claim tab was empty. The site's
-commentary records $h(d)\ll d!$ from Cantor, Erdős, Schreiber and Straus,
-$h(d)\to\infty$ from van der Waerden's theorem, Beck's $h(d)\le d^{8+\epsilon}$
-for every $\epsilon>0$ [Be17] and Roth's $h(d)\gg d^{1/2}$ [Ro64]. Erdős's
-1966 report of the construction (printed p. 137) states its bound as
-$L(d)<c^dd!$, which is weaker than the site's $d!$ by the factor $c^d$. The
-bounds are recorded as partial claims: the construction on
+**Status.** Open. This is the site's label as accessed on 2026-09-04, and it is
+unchanged. On that date the problem's proof-claim tab was empty. No full claim
+exists, and the standing derives from the claim pages.
+
+The site's commentary records $h(d)\ll d!$ from Cantor, Erdős, Schreiber and
+Straus, and $h(d)\to\infty$ from van der Waerden's theorem. It also records
+Beck's $h(d)\le d^{8+\epsilon}$ for every $\epsilon>0$ [Be17] and Roth's
+$h(d)\gg d^{1/2}$ [Ro64]. Erdős's 1966 report of the construction (printed p.
+137) states its bound as $L(d)<c^dd!$. This is weaker than the site's $d!$ by
+the factor $c^d$.
+
+The bounds are recorded as partial claims. The construction is on
 [[problems/discrepancy/E0177/claims/1966_01_01_cantor_erdos_schreiber_straus|Cantor, Erdős, Schreiber and Straus 1966]]
-(accepted on the journal publication alone), Beck's bound on
+(accepted on the journal publication alone). Beck's bound is on
 [[problems/discrepancy/E0177/claims/2017_05_30_beck|Beck 2017]] (claimed, an
-edited-volume chapter) and Roth's bound on
-[[problems/discrepancy/E0177/claims/1964_01_01_roth|Roth 1964]] (accepted on
-the refereed publication alone). A claim of 19 September 2026,
-[[problems/discrepancy/E0177/claims/2026_09_19_korsky|Korsky 2026]],
-submitted on the site's proof-claim tab of Problem 178 and recorded here as
-a partial claim, would improve Beck's exponent to $5/2+2\sqrt2$; it is
-unreviewed. No full claim exists, and the standing derives from the claim
-pages.
+edited-volume chapter). Roth's bound is on
+[[problems/discrepancy/E0177/claims/1964_01_01_roth|Roth 1964]] (accepted on the
+refereed publication alone).
+
+A claim of 19 September 2026,
+[[problems/discrepancy/E0177/claims/2026_09_19_korsky|Korsky 2026]], would
+improve Beck's exponent to $5/2+2\sqrt2$. It was submitted on the site's
+proof-claim tab of Problem 178 and is recorded here as a partial claim. It is
+unreviewed.
 
 **Source.** [erdosproblems.com/177](https://www.erdosproblems.com/177), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #177,

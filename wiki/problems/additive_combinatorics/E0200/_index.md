@@ -2,8 +2,8 @@
 name: problems/additive_combinatorics/E0200
 title: Problem 200
 desc: |
-  Asks whether the longest arithmetic progression of primes below N has length
-  a vanishing fraction of the logarithm of N.
+  Asks whether the longest arithmetic progression of primes in $\{1,\ldots,N\}$
+  has length $o(\log N)$.
 tags:
 - Primes
 - Arithmetic progressions

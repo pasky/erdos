@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0494/claims/1962_03_01_gordon_fraenkel_straus
 title: Gordon, Fraenkel and Straus determine every large set from its k-fold sums
 desc: |
-  Section 4 of Gordon, Fraenkel and Straus (Pacific J. Math. 1962) proves, for
-  every k > 2, that all but finitely many sizes |A| are determined by the k-fold
-  sums, which settles the corrected statement; accepted, refereed.
+  Section 4 of Gordon, Fraenkel and Straus (Pacific J. Math. 1962) proves that
+  for every $k>2$, all but finitely many sizes $|A|$ are determined by the
+  $k$-fold sums. This settles the corrected statement, and the claim is accepted
+  and refereed.
 authors:
 - Basil Gordon
 - Aviezri Siegmund Fraenkel
@@ -88,17 +89,21 @@ share $A_k$, namely $F_s(n)>1$ forces $f(n,k)=0$ for some $k\le n$, which
 Section 3 of this paper rewrites as the Diophantine equation above and
 Section 4 bounds.
 
-**Acceptance.** Refereed publication: Pacific Journal of Mathematics 12
-(1962), no. 1, 187--196, received 29 March 1961, issued March 1962 (the
-Crossref record's date, the date of this page; the article's cover prints
-January 1962). Reviewed: the site's curator (T. F. Bloom) labels the problem
-PROVED and credits Gordon, Fraenkel and Straus with the uniqueness for all $k$
-once $|A|$ is sufficiently large (erdosproblems.com/494, page last edited 14
-October 2025), which is the corrected Statement, and Guy's 2004 collection
-reports the problem in its section C5. The site's label carries no Lean suffix
-and no formalization of this theorem is known (the 2026 Lean package on the
-Selfridge--Straus cases notes that Ridout's theorem is not in Mathlib), so no
-`formalized` evidence is listed. The development `Erdos494.lean` in Boris
-Alexeev's repository, whose header names Gordon, Fraenkel and Straus as
-informal authors, does not prove this page's theorem; it has
+**Acceptance.** Refereed publication: Pacific Journal of Mathematics 12 (1962),
+no. 1, 187--196. The paper was received 29 March 1961 and issued March 1962.
+March 1962 is the Crossref record's date and the date of this page; the
+article's cover prints January 1962.
+
+Reviewed: the site's curator (T. F. Bloom) labels the problem PROVED and credits
+Gordon, Fraenkel and Straus with the uniqueness for all $k$ once $|A|$ is
+sufficiently large (erdosproblems.com/494, page last edited 14 October 2025).
+This uniqueness result is the corrected Statement. Guy's 2004 collection reports
+the problem in its section C5.
+
+No `formalized` evidence is listed. The site's label carries no Lean suffix, and
+no formalization of this theorem is known. The 2026 Lean package on the
+Selfridge--Straus cases notes that Ridout's theorem is not in Mathlib. The
+development `Erdos494.lean` in Boris Alexeev's repository names Gordon, Fraenkel
+and Straus as informal authors in its header, but it does not prove this page's
+theorem. It has
 [[problems/additive_combinatorics/E0494/claims/2026_08_16_alexeev|its own claim page]].

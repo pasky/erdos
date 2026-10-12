@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0064/claims/2020_10_29_liu_montgomery
 title: Liu and Montgomery's power-of-two cycles at large average degree
 desc: |
-  Liu and Montgomery's unavoidable-sequence corollary gives every graph of
-  average degree, hence of minimum degree, above an absolute constant a cycle
-  of length a power of two; accepted on the refereed JAMS paper.
+  Liu and Montgomery's unavoidable-sequence corollary shows that every graph
+  with average degree above an absolute constant, and so every graph with
+  minimum degree above it, has a cycle whose length is a power of two. The claim
+  is accepted on the refereed JAMS paper.
 authors:
 - Hong Liu
 - Richard Montgomery
@@ -62,15 +63,15 @@ for every $r$ some graph of minimum degree $r$ avoids all such cycles.
 recorded on its library result page.
 
 **Acceptance.** Refereed: the paper is a publication in the Journal of the
-American Mathematical Society (published online 2023-03-31). The site's
-curator credits the paper with the case of large minimum degree while
-labeling the problem FALSIFIABLE, so the curator's remark is commentary on an
-open problem and is not listed as reviewed evidence. The corpus's
+American Mathematical Society (published online 2023-03-31). The site's curator
+credits the paper with the case of large minimum degree while labeling the
+problem FALSIFIABLE. So the curator's remark is commentary on an open problem
+and is not listed as reviewed evidence. The corpus's
 [[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/_index|source card]]
-reconstructs the proof from the arXiv v2 manuscript; that reconstruction is
+reconstructs the proof from the arXiv v2 manuscript. That reconstruction is
 incomplete at
 [[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/lemma_3_13|Lemma 3.13's final reservoir compatibility]],
-where the selected path is not shown to avoid earlier selected reservoirs,
-and it is author-recorded, not independently reviewed. This concerns the
-compilation and not the published result; the acceptance recorded here rests
-on the publication.
+where the selected path is not shown to avoid earlier selected reservoirs. It is
+also author-recorded, not independently reviewed. This concerns the compilation
+and not the published result. The acceptance recorded here rests on the
+publication.

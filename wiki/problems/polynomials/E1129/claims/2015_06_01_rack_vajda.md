@@ -3,8 +3,9 @@ name: problems/polynomials/E1129/claims/2015_06_01_rack_vajda
 title: Rack and Vajda describe every optimal four-node system
 desc: |
   Rack and Vajda describe explicitly every four-node system minimizing the
-  Lebesgue constant on [-1,1] and prove free-node minimizers non-unique for
-  every n >= 3; refereed in Studia UBB Mathematica, credited by the curator.
+  Lebesgue constant on $[-1,1]$ and prove that free-node minimizers are not
+  unique for every $n\ge3$. The refereed paper appeared in Studia UBB
+  Mathematica and is credited by the curator.
 authors:
 - Heinz-Joachim Rack
 - Robert Vajda

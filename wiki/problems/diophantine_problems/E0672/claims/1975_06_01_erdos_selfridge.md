@@ -3,8 +3,8 @@ name: problems/diophantine_problems/E0672/claims/1975_06_01_erdos_selfridge
 title: Erdős and Selfridge settle the consecutive-integer case
 desc: |
   Erdős and Selfridge's refereed theorem (Illinois J. Math. 1975) that no
-  product of two or more consecutive positive integers is a perfect power,
-  which settles the case $d=1$ of the question in the negative.
+  product of two or more consecutive positive integers is a perfect power. It
+  settles the case $d=1$ of the question in the negative.
 authors:
 - P. Erdős
 - J. L. Selfridge

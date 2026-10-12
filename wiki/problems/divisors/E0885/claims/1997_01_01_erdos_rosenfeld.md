@@ -3,7 +3,8 @@ name: problems/divisors/E0885/claims/1997_01_01_erdos_rosenfeld
 title: Erdős and Rosenfeld's cases k = 2 and k = 3
 desc: |
   Erdős and Rosenfeld prove that any number of integers can share two factor
-  differences and print two triples sharing four, which settles k = 2 and k = 3.
+  differences, and they print two triples sharing four. This settles $k=2$ and
+  $k=3$.
 authors:
 - Paul Erdős
 - Moshe Rosenfeld

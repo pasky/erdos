@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0128/claims/1995_03_01_krivelevich
 title: Krivelevich's sparse half for regular graphs of degree at least 2n/5
 desc: |
-  Krivelevich's Theorem 3 (J. Combin. Theory Ser. B 1995): every regular
-  triangle-free graph of degree at least 2n/5 has n/2 vertices spanning at most
-  n²/50 edges, the blown-up C_5 alone meeting the bound; refereed.
+  Krivelevich's Theorem 3 (J. Combin. Theory Ser. B 1995) shows that every
+  regular triangle-free graph of degree at least $2n/5$ has $n/2$ vertices
+  spanning at most $n^2/50$ edges. Only the blown-up $C_5$ meets the bound, and
+  the result is refereed.
 authors:
 - M. Krivelevich
 status: accepted
@@ -52,9 +53,9 @@ and regular graphs of smaller degree; the question as posed stays open.
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Combinatorial
 Theory, Series B. The site's commentary credits Krivelevich with the constant
-$1/36$ and with a misstated form of Theorem 4, not with Theorem 3, and labels
-the problem FALSIFIABLE, which settles nothing, so no `reviewed` evidence is
-listed.
+$1/36$ and with a misstated form of Theorem 4, but not with Theorem 3. The site
+labels the problem FALSIFIABLE, which settles nothing, so no `reviewed` evidence
+is listed.
 
 **Dating.** The publisher's record dates the issue March 1995 and gives no
 day, so the day is a placeholder.

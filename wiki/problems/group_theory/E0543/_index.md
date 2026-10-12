@@ -2,8 +2,9 @@
 name: problems/group_theory/E0543
 title: Problem 543
 desc: |
-  Asks whether the number of random elements of an abelian group of order N
-  whose subset sums cover it is at most log base two of N plus a small error.
+  Asks whether $f(N)\leq\log_2 N+o(\log\log N)$, where $f(N)$ is the least $k$
+  such that a random $k$-subset of an abelian group of order $N$ has subset sums
+  covering the group with probability at least $1/2$.
 tags:
 - Number theory
 - Group theory
@@ -30,13 +31,13 @@ $$
 f(N) \leq \log_2 N+o(\log\log N)?
 $$
 
-**Status.** Disproved: the site credits ChatGPT and Tang with the negative
-answer, which shows that along the primes $p$ a uniformly chosen $k$-subset
-of $\mathbb{F}_p$ with $k=\log_2p+o(\log\log p)$ leaves some residue
-unreachable as a subset sum with probability tending to one, as Erdős had
-expected; the accepted claim page is
-[[problems/group_theory/E0543/claims/2026_01_21_tang|Tang 2026]], and Ma
-and Tang's quantitative sharpening is the pending claim
+**Status.** Disproved. The site credits ChatGPT and Tang with the negative
+answer that Erdős had expected. The answer shows that along the primes $p$, a
+uniformly chosen $k$-subset of $\mathbb{F}_p$ with $k=\log_2p+o(\log\log p)$
+leaves some residue unreachable as a subset sum with probability tending to one.
+The accepted claim page is
+[[problems/group_theory/E0543/claims/2026_01_21_tang|Tang 2026]]. Ma and Tang's
+quantitative sharpening is the pending claim
 [[problems/group_theory/E0543/claims/2026_02_05_ma_tang|Ma and Tang 2026]].
 
 **Source.** [erdosproblems.com/543](https://www.erdosproblems.com/543), accessed

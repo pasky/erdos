@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E1140
 title: Problem 1140
 desc: |
-  Asks whether infinitely many n make n - 2x^2 prime for every x with
-  2x^2 < n.
+  Asks whether infinitely many $n$ make $n-2x^2$ prime for every $x$ with
+  $2x^2<n$.
 tags:
 - Number theory
 status: solved
@@ -23,9 +23,9 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Do there exist infinitely many $n$ such that $n-2x^2$ is prime
 for all $x$ with $2x^2<n$?
 
-**Status.** Disproved: the site credits Epure and Gica's Theorem 4.1 and
-their remark with a result of Mollin and Williams, which together leave at
-most nine such $n$; the accepted claim page is
+**Status.** Disproved. The site credits Epure and Gica's Theorem 4.1 and their
+remark with a result of Mollin and Williams. Together these leave at most nine
+such $n$. The accepted claim page is
 [[problems/diophantine_problems/E1140/claims/2010_01_01_epure_gica|Epure and Gica 2010]].
 
 **Source.** [erdosproblems.com/1140](https://www.erdosproblems.com/1140),

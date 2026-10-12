@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0547
 title: Problem 547
 desc: |
-  Asks whether every tree on n at least 2 vertices has Ramsey number at most
-  2n minus 2; proved, since 2026 on a third party's Lean proof built here,
-  while the site's wording fails for the one-vertex tree.
+  Asks whether every tree $T$ on $n\ge2$ vertices has $R(T)\le2n-2$; proved in
+  2026, on the evidence of a third party's Lean proof that was built here. The
+  site's wording also covers the one-vertex tree, where it fails.
 tags:
 - Graph theory
 - Ramsey theory
@@ -81,48 +81,52 @@ conjecture has the same answer for $n\geq2$: the parity refinement
 $R(T)\leq2n-3$ for odd $n$ (Progress, below) and the star construction prove
 it.
 
-**Status.** DECIDABLE, the site's label (page last edited 18 January 2026),
-which describes the large-$n$ bound: $R(T)\leq2n-2$ for every tree on $n$
-vertices once $n$ is large, with the threshold not explicit. The site
-attributes that bound both to the implication from the Erdős--Sós conjecture
-under the announced, unpublished Ajtai--Komlós--Simonovits--Szemerédi proof of
-[[problems/extremal_graph_theory/E0548/_index|#548]] and to Zhao's alternative
-proof; Zhao's is the refereed one, recorded on the accepted partial claim page
-[[problems/ramsey_theory/E0547/claims/2011_02_04_zhao|Zhao 2011]]. The label
-and the commentary predate the proof of #548, which the site itself marks
-PROVED (FORMALIZED) on 3 September 2026, and two comments in the problem's
-discussion, of 6 and 17 September 2026, asked for the label PROVED; no curator
-reply follows them. The corrected Statement, the bound for every $n\geq2$,
-follows from the new proof of
+**Status.** DECIDABLE, the site's label (page last edited 18 January 2026). The
+label describes the large-$n$ bound: $R(T)\leq2n-2$ for every tree on $n$
+vertices once $n$ is large, with the threshold not explicit. The frontmatter
+standing, solved and proved, derives from the claim page
+[[problems/ramsey_theory/E0547/claims/2026_09_03_adamczewski|from the 2026 proof of #548]].
+That page records an accepted full claim: the corrected Statement, the bound for
+every $n\geq2$, follows from the new proof of
 [[problems/extremal_graph_theory/E0548/_index|#548]] through the
-[[../library/extremal_graph_theory/adamczewski_2026_erdos548/tree_ramsey_corollary|Ramsey
-corollary]]; that consequence is an accepted full claim, recorded on the claim
-page [[problems/ramsey_theory/E0547/claims/2026_09_03_adamczewski|from the
-2026 proof of #548]] on a third party's Lean derivation of it, announced in
-the problem's discussion on 17 September 2026, which this corpus built and
-audited (Formalization, below); the frontmatter standing, solved and proved,
-derives from it. The corrected Statement's exclusion of $n=1$ is the corpus's
-own correction; the site has not addressed $n=1$ (Notes, above). The site
-states the implication on its pages for #548 and #547 but has not relabeled
-#547; the curator posted the #548 proof claim, so the site's statement of the
-implication is not an independent review; the corollary has no refereed
-writeup; and this corpus's own review of the corollary awards no acceptance.
-Four more partial claims are paged: the path case of
-[[problems/ramsey_theory/E0547/claims/1967_01_01_gerencser_gyarfas|Gerencsér
-and Gyárfás 1967]] and the double-star bound of
-[[problems/ramsey_theory/E0547/claims/1979_01_01_grossman_harary_klawe|Grossman,
-Harary and Klawe 1979]] (both accepted, refereed), Burr's formula for trees of
-small maximum degree by
-[[problems/ramsey_theory/E0547/claims/2025_09_09_montgomery_pavez_signe_yan|Montgomery,
-Pavez-Signé and Yan 2025]] (claimed, a preprint), and the independent Lean
-proof for large $n$ in
-[[problems/ramsey_theory/E0547/claims/2026_08_26_alexeev|Alexeev's
-repository]] (claimed). The same repository's two refutations at $n=1$ are
-recorded on [[problems/ramsey_theory/E0547/claims/2026_08_26_alexeev_literal|a
-rejected claim page]]. The star formula the site credits to Harary [Ha72] has
-no page: it appears in a proceedings volume the corpus has not examined, and
-every star on $N\geq3$ vertices is the double star $S(N-2,0)$, an instance the
-Grossman--Harary--Klawe page already covers.
+[[../library/extremal_graph_theory/adamczewski_2026_erdos548/tree_ramsey_corollary|Ramsey corollary]].
+The acceptance rests on a third party's Lean derivation of that consequence,
+announced in the problem's discussion on 17 September 2026, which this corpus
+built and audited (Formalization, below). The corrected Statement's exclusion of
+$n=1$ is the corpus's own correction. The site has not addressed $n=1$ (Notes,
+above).
+
+The site attributes the large-$n$ bound to two sources. One is the implication
+from the Erdős--Sós conjecture under the announced, unpublished
+Ajtai--Komlós--Simonovits--Szemerédi proof of
+[[problems/extremal_graph_theory/E0548/_index|#548]]. The other is Zhao's
+alternative proof. Zhao's is the refereed one, recorded on the accepted partial
+claim page [[problems/ramsey_theory/E0547/claims/2011_02_04_zhao|Zhao 2011]].
+The label and the commentary predate the proof of #548, which the site itself
+marks PROVED (FORMALIZED) on 3 September 2026. Two comments in the problem's
+discussion, of 6 and 17 September 2026, asked for the label PROVED. No curator
+reply follows them. The site states the implication on its pages for #548 and
+#547 but has not relabeled #547. The curator posted the #548 proof claim, so the
+site's statement of the implication is not an independent review. The corollary
+has no refereed writeup, and this corpus's own review of the corollary awards no
+acceptance.
+
+Four more partial claims have pages. The path case of
+[[problems/ramsey_theory/E0547/claims/1967_01_01_gerencser_gyarfas|Gerencsér and Gyárfás 1967]]
+and the double-star bound of
+[[problems/ramsey_theory/E0547/claims/1979_01_01_grossman_harary_klawe|Grossman, Harary and Klawe 1979]]
+are both accepted and refereed. Burr's formula for trees of small maximum
+degree, by
+[[problems/ramsey_theory/E0547/claims/2025_09_09_montgomery_pavez_signe_yan|Montgomery, Pavez-Signé and Yan 2025]],
+is claimed and comes from a preprint. The independent Lean proof for large $n$
+in
+[[problems/ramsey_theory/E0547/claims/2026_08_26_alexeev|Alexeev's repository]]
+is claimed. The same repository's two refutations at $n=1$ are recorded on
+[[problems/ramsey_theory/E0547/claims/2026_08_26_alexeev_literal|a rejected claim page]].
+The star formula the site credits to Harary [Ha72] has no page. It appears in a
+proceedings volume the corpus has not examined. Also, every star on $N\geq3$
+vertices is the double star $S(N-2,0)$, an instance the Grossman--Harary--Klawe
+page already covers.
 
 **Source.** [erdosproblems.com/547](https://www.erdosproblems.com/547), accessed
 2026-10-07: the problem page (DECIDABLE; last edited 18 January 2026), its

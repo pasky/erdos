@@ -2,9 +2,8 @@
 name: problems/diophantine_problems/E1107
 title: Problem 1107
 desc: |
-  Asks whether every large integer is the sum of at most r plus one numbers
-  divisible by the r-th power of each of their prime factors, for r at least
-  2.
+  Asks whether, for $r\geq 2$, every large integer is the sum of at most $r+1$
+  numbers divisible by the $r$th power of each of their prime factors.
 tags:
 - Number theory
 - Powerful numbers

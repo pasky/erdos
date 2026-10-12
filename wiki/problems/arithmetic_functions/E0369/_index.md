@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0369
 title: Problem 369
 desc: |
-  Asks whether every large n has k consecutive n^epsilon-smooth integers up to
-  n; trivially true as worded, it is proved in both nontrivial readings, each
-  member smooth to its own power or the run inside [n/2, n].
+  Asks whether every large $n$ has $k$ consecutive $n^\epsilon$-smooth integers
+  up to $n$. As worded it is trivially true, and it is proved in both nontrivial
+  readings: each member $m$ is $m^\epsilon$-smooth, or the run lies in
+  $[n/2,n]$.
 tags:
 - Number theory
 status: solved
@@ -45,20 +46,20 @@ $n^\epsilon$-smooth integers in $[n-n^c,n]$ for some $c<1$, which also gives
 both. The formal-conjectures statement `erdos_369` encodes the second reading
 (see Formalization).
 
-**Status.** Proved, in the wording and in both readings described under
-Formulation. The site shows PROVED (LEAN) (page last edited 2026-04-28); its
-(LEAN) suffix rests on a Lean proof of Yang's construction, which
-formal-conjectures links as the proof of its statement of the second reading.
-Two accepted full claims settle every reading:
+**Status.** Proved. The site shows PROVED (LEAN) (page last edited 2026-04-28).
+The problem is proved in the wording and in both readings described under
+Formulation. The site's (LEAN) suffix rests on a Lean proof of Yang's
+construction, which formal-conjectures links as the proof of its statement of
+the second reading. Two accepted full claims settle every reading. One is
 [[problems/arithmetic_functions/E0369/claims/2026_03_26_yang|Yang 2026]],
-accepted on the forum by the site's curator, and
+accepted on the forum by the site's curator. The other is
 [[problems/arithmetic_functions/E0369/claims/2017_10_05_bober_fretwell_martin_wooley|Bober, Fretwell, Martin and Wooley 2020]],
 refereed and credited in the site's commentary. The accepted partial claims
 [[problems/arithmetic_functions/E0369/claims/1998_04_01_balog_wooley|Balog and Wooley 1998]]
 and
 [[problems/arithmetic_functions/E0369/claims/1976_08_01_eggleton_selfridge|Eggleton and Selfridge 1976]]
-settle the wording and the first reading (Eggleton and Selfridge only for
-$k\le5$), and the second reading only for infinitely many $n$.
+settle the wording and the first reading, Eggleton and Selfridge only for
+$k\le5$. They settle the second reading only for infinitely many $n$.
 
 **Source.** [erdosproblems.com/369](https://www.erdosproblems.com/369), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #369,

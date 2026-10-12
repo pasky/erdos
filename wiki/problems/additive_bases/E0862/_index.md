@@ -2,9 +2,8 @@
 name: problems/additive_bases/E0862
 title: Problem 862
 desc: |
-  Asks whether the number of maximal Sidon subsets of the integers up to N is
-  below two to the power o(square root of N), and whether it exceeds two to
-  the power N^c for some c > 0.
+  Asks whether the number of maximal Sidon subsets of $\{1,\ldots,N\}$ is below
+  $2^{o(N^{1/2})}$, and whether it exceeds $2^{N^c}$ for some $c>0$.
 tags:
 - Number theory
 - Sidon sets
@@ -37,12 +36,12 @@ $$
 
 for some constant $c>0$?
 
-**Status.** Solved. The site labels the problem SOLVED (LEAN) and records both
-questions as answered by Saxton and Thomason's count of Sidon sets, the first
-no and the second yes, and its label carries a Lean qualifier for an
-automatically produced Lean proof whose first posting assumed a prime-gap axiom
-that a later revision removes; the accepted claim is
+**Status.** Solved. The site labels the problem SOLVED (LEAN). It records both
+questions as answered by Saxton and Thomason's count of Sidon sets, the first no
+and the second yes. The accepted claim is
 [[problems/additive_bases/E0862/claims/2012_04_30_saxton_thomason|Saxton and Thomason]].
+The label's Lean qualifier refers to an automatically produced Lean proof. Its
+first posting assumed a prime-gap axiom, which a later revision removes.
 
 **Source.** [erdosproblems.com/862](https://www.erdosproblems.com/862), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #862,

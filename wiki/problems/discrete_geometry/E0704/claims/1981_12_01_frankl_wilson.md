@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0704/claims/1981_12_01_frankl_wilson
 title: Frankl and Wilson's exponential lower bound
 desc: |
-  Frankl and Wilson's 1981 intersection theorem gives an exponential lower
-  bound on the chromatic number of the unit distance graph of n-dimensional
-  space, answering the exponential-growth question yes; refereed.
+  Frankl and Wilson's refereed 1981 intersection theorem gives an exponential
+  lower bound on the chromatic number of the unit distance graph of
+  $n$-dimensional space. This answers the exponential-growth question yes.
 authors:
 - P. Frankl
 - R. M. Wilson
@@ -64,8 +64,7 @@ open.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** The paper is refereed: it appeared in Combinatorica, volume 1
-(1981). The site labels the problem OPEN, and its remark (page last edited 10
-April 2026) credits Frankl and Wilson with the exponential growth; that
-remark on an open problem is not an acceptance, so no `reviewed` evidence is
-listed.
+**Acceptance.** The paper is refereed. It appeared in Combinatorica, volume 1
+(1981). The site labels the problem OPEN. Its remark (page last edited 10 April
+2026) credits Frankl and Wilson with the exponential growth. A remark on an open
+problem is not an acceptance, so no `reviewed` evidence is listed.

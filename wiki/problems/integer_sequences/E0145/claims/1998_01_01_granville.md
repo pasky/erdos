@@ -4,7 +4,8 @@ title: Granville's moment asymptotic for every exponent under abc
 desc: |
   Granville's 1998 paper derives from the abc conjecture the asymptotic,
   predicted by Erdős, for every moment of the gaps between consecutive
-  squarefree numbers; the hypothesis is unproven, so the page derives nothing.
+  squarefree numbers. The abc conjecture is unproven, so the page derives
+  nothing for the problem's standing.
 authors:
 - Andrew Granville
 status: accepted
@@ -45,13 +46,13 @@ controls the tail of the moment sum for every $\alpha$; without it the
 unconditional range stops at
 [[problems/integer_sequences/E0145/claims/2023_10_12_chan|Chan's $\alpha<3.75$]].
 
-**Acceptance.** Refereed: International Mathematics Research Notices,
-volume 1998, issue 19, pp. 991--1009; the Crossref record of the DOI gives
-these data. The site labels the problem OPEN (page last edited 19 October
-2025), so its curator's remark that the statement follows from abc by this
-paper is commentary on an open problem and not acceptance, and no `reviewed`
-evidence is listed. The corpus holds no card for the paper, has not checked
-the proof and awards no tier of its own.
+**Acceptance.** Refereed: International Mathematics Research Notices, volume
+1998, issue 19, pp. 991--1009, as given by the Crossref record of the DOI. The
+site labels the problem OPEN (page last edited 19 October 2025). Its curator's
+remark that the statement follows from abc by this paper is therefore commentary
+on an open problem, not acceptance, and no `reviewed` evidence is listed. The
+corpus holds no card for the paper, has not checked the proof and awards no tier
+of its own.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper
 and on the abc conjecture.

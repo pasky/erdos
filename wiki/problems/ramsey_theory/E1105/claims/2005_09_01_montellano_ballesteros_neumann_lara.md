@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E1105/claims/2005_09_01_montellano_ballesteros_neumann_lara
 title: Montellano-Ballesteros and Neumann-Lara, the exact anti-Ramsey number of cycles
 desc: |
-  Theorem 5 of the 2005 Graphs and Combinatorics paper: for all n ≥ p ≥ 3
-  the least number of colors forcing a rainbow p-cycle in K_n is the value
-  E(n,p) conjectured in 1975, so AR(n,C_k) = E(n,k) − 1: the cycle half.
+  Theorem 5 of Montellano-Ballesteros and Neumann-Lara (Graphs Combin. 2005):
+  for all $n\ge p\ge3$ the least number of colors forcing a rainbow $p$-cycle in
+  $K_n$ is the value $\mathbf E(n,p)$ conjectured in 1975. So
+  $\mathrm{AR}(n,C_k)=\mathbf E(n,k)-1$, which settles the cycle half.
 authors:
 - J.J. Montellano-Ballesteros
 - V. Neumann-Lara
@@ -69,16 +70,16 @@ formula for $\mathrm{AR}(n,P_k)$ for $n\ge k\ge5$, is the subject of
 and the 1975 lower bound it takes over.
 
 **Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
-PROVED and in the commentary credits the paper with the exact formula for
-$\mathrm{AR}(n,C_k)$ and the asymptotic it implies; the curator is independent
-of the authors. Refereed: Graphs and Combinatorics 21 (2005), no. 3, 343--354,
-received April 2003, final version 26 March 2005 (per its Crossref record, the
-issue is dated September 2005 without a day, so the page's day is a
-placeholder). Its citation record (98 citing works per OpenAlex, and 27 Semantic
-Scholar records scanned by title on 2026-09-18) records no dispute. The printed
-Corollary 1 carries a minus sign between $\frac{p-2}2$ and $\frac1{p-1}$ where
-the abstract, the introduction and the formula have the plus sign; the misprint
-is recorded on the result page.
+PROVED. In the commentary, the curator credits the paper with the exact formula
+for $\mathrm{AR}(n,C_k)$ and the asymptotic it implies. The curator is
+independent of the authors. Refereed: Graphs and Combinatorics 21 (2005), no. 3,
+343--354, received April 2003, final version 26 March 2005. Its Crossref record
+dates the issue September 2005 without a day, so the page's day is a
+placeholder. The paper's citation record shows no dispute: 98 citing works per
+OpenAlex, and 27 Semantic Scholar records scanned by title on 2026-09-18. The
+printed Corollary 1 has a minus sign between $\frac{p-2}2$ and $\frac1{p-1}$,
+where the abstract, the introduction and the formula have the plus sign. The
+result page records this misprint.
 
 **Read depth.** The definitions, Theorem 5 and Corollary 1 are checked
 clause by clause; the proof (pp. 351--353 with the lemmas of Sections 2--3)

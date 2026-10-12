@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0336
 title: Problem 336
 desc: |
-  Determines the limit of h of r divided by r squared, where h of r is the
-  largest finite exact order of an additive basis of order r.
+  Asks for $\lim_r h(r)/r^2$, where $h(r)$ is the largest finite exact order of
+  an additive basis of order $r$.
 tags:
 - Number theory
 - Additive bases
@@ -41,15 +41,15 @@ is exactly $r$; their own lower-bound construction for $g(r)$ is shown only to
 have order at most $r$ (their (19)). Since $g(r)\le h(r)$, a value of
 $\lim_r h(r)/r^2$ bounds only $\limsup_r g(r)/r^2$ for that variant.
 
-**Status.** Claimed; the site's label is OPEN (page last edited
-2025-10-28). One pending full claim is recorded:
+**Status.** Claimed. The site's label is OPEN (page last edited 2025-10-28). One
+pending full claim is recorded,
 [[problems/additive_bases/E0336/claims/2026_07_15_snyder|Snyder's Lean proof
-that the limit is one third]], a Lean 4 development posted on 2026-07-15 and
-entered the same day on the site's proof-claims thread, stating that the maximal
-exact order over bases of order at most $r$ is attained and that
-$h(r)/r^2\to1/3$; the author reports the three standard axioms, the thread
-showed no comments on it as of 2026-10-06, and the development is not built or
-audited in this corpus. The published bounds are $1/3\le\liminf h(r)/r^2$
+that the limit is one third]]. It is a Lean 4 development, posted on 2026-07-15
+and entered the same day on the site's proof-claims thread. It states that the
+maximal exact order over bases of order at most $r$ is attained and that
+$h(r)/r^2\to1/3$. The author reports that it uses the three standard axioms. As
+of 2026-10-06 the thread showed no comments on it. The development is not built
+or audited in this corpus. The published bounds are $1/3\le\liminf h(r)/r^2$
 (Grekos [Gr88]) and $\limsup h(r)/r^2\le1/2$ (Nash [Na93]).
 
 **Source.** [erdosproblems.com/336](https://www.erdosproblems.com/336), accessed

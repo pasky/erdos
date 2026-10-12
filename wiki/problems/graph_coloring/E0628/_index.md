@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0628
 title: Problem 628
 desc: |
-  Asks whether a graph of chromatic number k with no k-vertex clique has
-  disjoint subgraphs of chromatic number at least a and at least b when a plus
-  b is k+1.
+  Asks whether a graph with chromatic number $k$ and no $K_k$ must have two
+  disjoint subgraphs of chromatic numbers $\ge a$ and $\ge b$ whenever
+  $a,b\ge 2$ and $a+b=k+1$.
 tags:
 - Graph theory
 - Chromatic number
@@ -26,19 +26,16 @@ updated: 2026-10-08T01:29:59Z
 If $a,b\geq 2$ and $a+b=k+1$ then must there exist two disjoint subgraphs of $G$
 with chromatic numbers $\geq a$ and $\geq b$ respectively?
 
-**Status.** Falsifiable on the site (label FALSIFIABLE; page last edited 6
-December 2025). No result settles or claims to settle the question, so the
-problem is open; four published partial results are accepted partial claims,
-each on its refereed publication,
-[[problems/graph_coloring/E0628/claims/1969_03_01_brown_jung|Brown and Jung's
-case $a=b=3$]],
-[[problems/graph_coloring/E0628/claims/2008_12_28_balogh_kostochka_prince_stiebitz|Balogh,
-Kostochka, Prince and Stiebitz's quasi-line and independence-number-2
-cases]], [[problems/graph_coloring/E0628/claims/2018_05_27_song|Song's
-graphs with no short hole]] and
-[[problems/graph_coloring/E0628/claims/2024_06_21_longbrake_tariq|Longbrake
-and Tariq's pairs with a clique]], and Song's even-hole-free case is a
-claimed partial claim,
+**Status.** Falsifiable on the site, with the label FALSIFIABLE. The page was
+last edited 6 December 2025. No result settles or claims to settle the question,
+so the problem is open. Four published partial results are accepted partial
+claims, each on its refereed publication:
+[[problems/graph_coloring/E0628/claims/1969_03_01_brown_jung|Brown and Jung's case $a=b=3$]],
+[[problems/graph_coloring/E0628/claims/2008_12_28_balogh_kostochka_prince_stiebitz|Balogh, Kostochka, Prince and Stiebitz's quasi-line and independence-number-2 cases]],
+[[problems/graph_coloring/E0628/claims/2018_05_27_song|Song's graphs with no short hole]]
+and
+[[problems/graph_coloring/E0628/claims/2024_06_21_longbrake_tariq|Longbrake and Tariq's pairs with a clique]].
+Song's even-hole-free case is a claimed partial claim,
 [[problems/graph_coloring/E0628/claims/2026_07_22_song|Song 2026]].
 
 **Source.** [erdosproblems.com/628](https://www.erdosproblems.com/628), accessed

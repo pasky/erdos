@@ -2,9 +2,9 @@
 name: problems/additive_bases/E0425
 title: Problem 425
 desc: |
-  Estimates the largest subset of the first n integers with distinct pairwise
-  products, and bounds sets whose products of r increasing members are
-  distinct.
+  Asks for an estimate of the largest subset of $\{1,\ldots,n\}$ with distinct
+  pairwise products, and a bound for sets whose products of $r$ increasing
+  members are distinct.
 tags:
 - Number theory
 - Sidon sets

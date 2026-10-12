@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E1121/claims/2016_05_13_akopyan_balitskiy_grigorev
 title: Covering nonseparable homothets through the asymmetry parameter
 desc: |
-  A nonseparable family of positive homothets of a convex body K is covered by
-  a translate of (sigma+1)/2 times the sum of the ratios times K, with sigma
-  the asymmetry of K; sigma = 1 for the disk gives the circle covering theorem.
+  Akopyan, Balitskiy and Grigorev prove that a nonseparable family of positive
+  homothets of a convex body $K$ with ratios $\tau_i$ is covered by a translate
+  of $\frac{\sigma+1}{2}(\sum_i\tau_i)K$, with $\sigma$ the asymmetry of $K$.
+  The disk has $\sigma=1$, giving the circle covering theorem.
 authors:
 - Arseniy Akopyan
 - Alexey Balitskiy

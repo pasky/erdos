@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0877/claims/2015_02_26_balogh_liu_sharifzadeh_treglown
 title: The sharp asymptotic for maximal sum-free sets
 desc: |
-  For each residue i of n modulo 4 there is a constant C_i with the number of
-  maximal sum-free subsets of the first n integers equal to (C_i + o(1))
-  2^(n/4); Theorem 1.1 of Balogh, Liu, Sharifzadeh and Treglown, in the JEMS.
+  Theorem 1.1 of Balogh, Liu, Sharifzadeh and Treglown, in the JEMS: for each
+  residue $i$ of $n$ modulo $4$ there is a constant $C_i$ such that the number
+  of maximal sum-free subsets of the first $n$ integers is $(C_i+o(1))2^{n/4}$.
 authors:
 - József Balogh
 - Hong Liu
@@ -60,11 +60,12 @@ sharpens the same authors' exponent $1/4$ on
 **Depends on.** No wiki page; the claim rests on the cited paper.
 
 **Acceptance.** Refereed: the paper is a research article in the Journal of the
-European Mathematical Society (Crossref record read: volume 20, issue 8,
-published 4 June 2018); the text cited is arXiv:1502.07605v2 of 11 May 2018,
-whose comment says the paper is to appear there, and the journal text was not
-compared; the page is named by the first arXiv version, submitted 26 February
-2015 (arXiv listing read). Reviewed: the site's curator, Thomas Bloom, marks the
-problem proved on erdosproblems.com and credits the four authors with this
-asymptotic, its constant determined by the residue of $n$ modulo $4$. Read
-status: the statement checked, the proof unread; no further evidence is listed.
+European Mathematical Society. Its Crossref record (read) gives volume 20, issue
+8, published 4 June 2018. The text cited is arXiv:1502.07605v2 of 11 May 2018.
+Its comment says the paper is to appear in that journal. The journal text was
+not compared. The page is named by the first arXiv version, submitted 26
+February 2015 (arXiv listing read). Reviewed: the site's curator, Thomas Bloom,
+marks the problem proved on erdosproblems.com and credits the four authors with
+this asymptotic, whose constant is determined by the residue of $n$ modulo $4$.
+Read status: the statement was checked and the proof is unread. No further
+evidence is listed.

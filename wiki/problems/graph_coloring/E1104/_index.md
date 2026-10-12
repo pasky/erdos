@@ -2,8 +2,8 @@
 name: problems/graph_coloring/E1104
 title: Problem 1104
 desc: |
-  Estimates the largest chromatic number possible for a triangle-free graph on
-  n vertices.
+  Asks for an estimate of the largest chromatic number of a triangle-free graph
+  on $n$ vertices.
 tags:
 - Graph theory
 - Chromatic number

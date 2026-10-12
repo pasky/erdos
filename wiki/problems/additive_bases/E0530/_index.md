@@ -2,8 +2,9 @@
 name: problems/additive_bases/E0530
 title: Problem 530
 desc: |
-  The order of the largest Sidon subset, one with no non-trivial equal
-  pairwise sums, guaranteed inside every set of N real numbers.
+  Asks for the order of $\ell(N)$, the size of the largest Sidon subset, one
+  with no non-trivial equal pairwise sums, guaranteed inside every set of $N$
+  reals.
 tags:
 - Number theory
 - Sidon sets
@@ -42,15 +43,14 @@ to a set of integers, and such an isomorphism carries Sidon subsets to
 Sidon subsets, so the integer bounds apply to the real sets of the
 statement with the same constants.
 
-**Status.** Open, the site's label (OPEN). The order of $\ell(N)$ is
-$N^{1/2}$: the lower bound $\ell(N)\gg N^{1/2}$ is the accepted partial
-claim
+**Status.** Open, the site's label (OPEN). The order of $\ell(N)$ is $N^{1/2}$.
+The lower bound $\ell(N)\gg N^{1/2}$ is the accepted partial claim
 [[problems/additive_bases/E0530/claims/1975_01_01_komlos_sulyok_szemeredi|Komlós, Sulyok and Szemerédi 1975]],
-refereed, and the upper bound $\ell(N)\le(1+o(1))N^{1/2}$ is the case
-$A=\{1,\ldots,N\}$ with the Erdős--Turán bound for Sidon sets in an
-interval. Whether $\ell(N)\sim N^{1/2}$ is open: the best lower constant
-is Bailleul and Riblet's $1/(3\sqrt3)+o(1)$ [BaRi26], improving Abbott's
-$2/25$ [Ab90], and no source reaches $1-o(1)$.
+which is refereed. The upper bound $\ell(N)\le(1+o(1))N^{1/2}$ comes from the
+case $A=\{1,\ldots,N\}$ with the Erdős--Turán bound for Sidon sets in an
+interval. Whether $\ell(N)\sim N^{1/2}$ is open. The best lower constant is
+Bailleul and Riblet's $1/(3\sqrt3)+o(1)$ [BaRi26], which improves Abbott's
+$2/25$ [Ab90]. No source reaches $1-o(1)$.
 
 **Source.** [erdosproblems.com/530](https://www.erdosproblems.com/530), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #530,

@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0879
 title: Problem 879
 desc: |
-  Estimates the largest sum of a set of pairwise coprime integers up to n, and
-  asks whether the best such set must contain a number with at least k prime
-  factors.
+  Asks for an estimate of the largest sum of a set of pairwise coprime integers
+  up to $n$, and whether, for each $k\ge2$ and large $n$, the best such set
+  contains a number with at least $k$ prime factors.
 tags:
 - Number theory
 status: open
@@ -49,15 +49,15 @@ factors, as in Erdős's source [Er84e], p. 120, where the case of more than one
 prime factor is called easy and is phrased as not every element being a prime
 power.
 
-**Status.** Open. The site's label is OPEN. Two pending partial claims bear on
-the second question: Erdős's statement of 1984, which the site credits to
-Erdős and van Lint, that it holds at $k=2$
-([[problems/integer_sequences/E0879/claims/1984_01_01_erdos_van_lint|claim page]]),
-and Kenta Kitamura's Lean development of September 2026, made with OpenAI
-Codex and ChatGPT Astra, which answers it no at $k=3$
+**Status.** Open. The site's label is OPEN. The standing in the frontmatter is
+derived from the claim pages. The first question is open, and the results
+bearing on it are under Progress. Two pending partial claims bear on the second
+question. One is Erdős's statement of 1984, which the site credits to Erdős and
+van Lint, that it holds at $k=2$
+([[problems/integer_sequences/E0879/claims/1984_01_01_erdos_van_lint|claim page]]).
+The other is Kenta Kitamura's Lean development of September 2026, made with
+OpenAI Codex and ChatGPT Astra, which answers it no at $k=3$
 ([[problems/integer_sequences/E0879/claims/2026_09_06_kitamura|claim page]]).
-The first question is open; the results bearing on it are under Progress. The
-standing in the frontmatter is derived from the claim pages.
 
 **Source.** [erdosproblems.com/879](https://www.erdosproblems.com/879), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #879,

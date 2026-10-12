@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0533
 title: Problem 533
 desc: |
-  Asks whether a graph on n vertices with no complete subgraph on five
-  vertices and a positive edge density has a triangle-free set of linearly
-  many vertices.
+  Asks whether, for fixed $\delta>0$ and large $n$, every $K_5$-free graph on
+  $n$ vertices with at least $\delta n^2$ edges has a set of $\gg_\delta n$
+  vertices spanning no triangle.
 tags:
 - Graph theory
 status: solved
@@ -55,28 +55,28 @@ explained under Formalization.
 
 **Status.** DISPROVED (LEAN), the site's label on 2026-09-18 (page last edited
 27 January 2026). The status-defining source is Theorem 3 of Balogh and Lenz
-(Israel J. Math. 194 (2013), no. 1, 45--68, refereed; cited from the arXiv v2):
-for $t\ge2$ and $2\le\ell\le t$, with $u=\lceil t/2\rceil$,
-$\theta_t(K_{t+\ell})\ge\frac12(1-\frac1\ell)2^{-u^2}$; at $t=3$, $\ell=2$ this
+(Israel J. Math. 194 (2013), no. 1, 45--68, refereed; cited from the arXiv v2).
+For $t\ge2$ and $2\le\ell\le t$, with $u=\lceil t/2\rceil$, it gives
+$\theta_t(K_{t+\ell})\ge\frac12(1-\frac1\ell)2^{-u^2}$. At $t=3$, $\ell=2$ this
 is $\theta_3(K_5)\ge1/64$, the value the paper displays after its Problem 5. So
-$\delta_3(5)\ge1/64>0$: for every $\epsilon>0$ and all large $n$ there are
+$\delta_3(5)\ge1/64>0$. For every $\epsilon>0$ and all large $n$ there are
 $K_5$-free graphs on $n$ vertices with $\alpha_3\le\epsilon n$ and at least
 $(1/64-o(1))n^2$ edges, and the statement fails for $\delta=1/128$ (the
-deduction is written out below). The exact threshold is $\delta_3(5)=1/12$: the
-upper bound $\delta_3(5)\le1/12$ is the origin paper's (not held; stated
-first-hand by four of its authors in 1983 and attested by [BaLe13] and [LRSS21];
-an accepted partial claim on
-[[problems/extremal_graph_theory/E0533/claims/1994_09_01_erdos_hajnal_simonovits_sos_szemeredi|the Erdős–Hajnal–Simonovits–Sós–Szemerédi claim page]]),
-and the matching construction is Theorem 1.1 of Liu, Reiher, Sharifzadeh and
-Staden (Corollary 1.2 and Theorem 1.4: $\varrho_3(5)=1/6$; J. Eur. Math. Soc.,
-Crossref record of 20 October 2025; cited from the arXiv v2 of 18 August 2025).
-The two disproofs are recorded as accepted full claims, refereed and credited by
-the site, on
+deduction is written out below). The exact threshold is $\delta_3(5)=1/12$. The
+upper bound $\delta_3(5)\le1/12$ is the origin paper's, which is not held. Four
+of its authors stated it first-hand in 1983, and [BaLe13] and [LRSS21] attest
+it. It is an accepted partial claim on
+[[problems/extremal_graph_theory/E0533/claims/1994_09_01_erdos_hajnal_simonovits_sos_szemeredi|the Erdős–Hajnal–Simonovits–Sós–Szemerédi claim page]].
+The matching construction is Theorem 1.1 of Liu, Reiher, Sharifzadeh and Staden
+(Corollary 1.2 and Theorem 1.4: $\varrho_3(5)=1/6$; J. Eur. Math. Soc., Crossref
+record of 20 October 2025; cited from the arXiv v2 of 18 August 2025). The two
+disproofs are recorded as accepted full claims, refereed and credited by the
+site, on
 [[problems/extremal_graph_theory/E0533/claims/2011_09_20_balogh_lenz|the Balogh–Lenz claim page]]
 and
-[[problems/extremal_graph_theory/E0533/claims/2021_03_18_liu_reiher_sharifzadeh_staden|the Liu–Reiher–Sharifzadeh–Staden claim page]];
-the public Lean proof of the disproof, recorded under Formalization, is linked
-from the second and is not counted as formalized evidence, since the corpus has
+[[problems/extremal_graph_theory/E0533/claims/2021_03_18_liu_reiher_sharifzadeh_staden|the Liu–Reiher–Sharifzadeh–Staden claim page]].
+The public Lean proof of the disproof, recorded under Formalization, is linked
+from the second. It is not counted as formalized evidence, since the corpus has
 not built it.
 
 **Source.** [erdosproblems.com/533](https://www.erdosproblems.com/533),

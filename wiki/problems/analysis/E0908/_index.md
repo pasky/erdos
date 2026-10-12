@@ -2,9 +2,10 @@
 name: problems/analysis/E0908
 title: Problem 908
 desc: |
-  Asks whether a real function whose every fixed-shift difference is
-  measurable splits into measurable, additive and
-  almost-everywhere-shift-invariant parts; the site prints continuous.
+  Asks whether a real function $f$ with every difference $f(x+h)-f(x)$
+  measurable is the sum of a measurable function, an additive function and a
+  function $r$ with $r(x+h)=r(x)$ for each $h$ and almost all $x$. The site's
+  wording asks for a continuous first term.
 tags:
 - Analysis
 status: solved
@@ -55,11 +56,11 @@ the corrected Statement. The site also cites [Er81b], Erdős's 'Problems' in
 The Scottish Book (1981), whose statement of the problem is not recorded here;
 the correction rests on [dB51], [Er82e] and [La80].
 
-**Status.** PROVED, the site's label (page last edited 30 December 2025),
-which describes the corrected Statement: the site's commentary calls the
-problem a conjecture of de Bruijn and Erdős and credits Laczkovich [La80] with
-the affirmative answer. Laczkovich's Theorem 3 proves the corrected Statement
-and is recorded as an
+**Status.** PROVED, the site's label (page last edited 30 December 2025), which
+describes the corrected Statement. The site's commentary calls the problem a
+conjecture of de Bruijn and Erdős and credits Laczkovich [La80] with the
+affirmative answer. Laczkovich's Theorem 3 proves the corrected Statement and is
+recorded as an
 [[problems/analysis/E0908/claims/1980_03_01_laczkovich|accepted full claim]].
 
 **Source.** [erdosproblems.com/908](https://www.erdosproblems.com/908), accessed

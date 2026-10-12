@@ -3,8 +3,9 @@ name: problems/additive_combinatorics/E0138/claims/2026_04_10_sothanaphan
 title: Sothanaphan's refinement of the van der Waerden difference bound
 desc: |
   A five-page note by Nat Sothanaphan, written with GPT-5.4 Thinking and linked
-  from the site's thread, proves W_r(k+1) - W_r(k) >= k + min(k, F(r)) + 1 for
-  r colors, so W(k+1) - W(k) >= k + 1 for the problem's two colors; claimed.
+  from the site's thread, proves $W_r(k+1)-W_r(k)\ge k+\min\{k,F(r)\}+1$ for $r$
+  colors. For the problem's two colors this gives $W(k+1)-W(k)\ge k+1$, and the
+  result is claimed.
 authors:
 - Nat Sothanaphan
 status: claimed

@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0132/claims/2026_07_25_ienjoymath
 title: ienjoymath's independent cases n = 7, 8, 9, 10, 13 and the 9/7 bound
 desc: |
-  An independent proof, checked by the claimant's script, of the first question
-  for n = 7, 8, 9, 10 and 13, and a 9n/7 lower bound for the extremal problem
-  of Clemen, Dumitrescu and Liu; an anonymous thread-posted note, claimed.
+  An anonymous note posted in the thread claims an independent proof, checked by
+  the claimant's script, of the first question for $n=7$, $8$, $9$, $10$ and
+  $13$. It also claims a $9n/7$ lower bound for the extremal problem of Clemen,
+  Dumitrescu and Liu.
 authors: []
 status: claimed
 claim: proved
@@ -81,5 +82,5 @@ cites this $9/7$ bound as the lower bound against which its $4/3$ upper bound
 stands.
 
 **Acceptance.** None documented. The note is not on arXiv and has no journal
-record, the site labels the problem OPEN and its page does not credit the result,
-and no outside review is known. The claim is therefore claimed.
+record. The site labels the problem OPEN, and its page does not credit the
+result. No outside review is known. The claim is therefore claimed.

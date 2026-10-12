@@ -2,8 +2,9 @@
 name: problems/additive_combinatorics/E0037
 title: Problem 37
 desc: |
-  Asks whether a lacunary set can be an essential component, that is, can
-  strictly raise the Schnirelmann density of every set it is added to.
+  Asks whether a lacunary set $A$ can be an essential component, meaning that
+  $d_s(A+B)>d_s(B)$ for every $B$ with $0<d_s(B)<1$, where $d_s$ is Schnirelmann
+  density.
 tags:
 - Number theory
 - Additive combinatorics
@@ -27,18 +28,17 @@ is the Schnirelmann density.
 
 Can a lacunary set $A\subset\mathbb{N}$ be an essential component?
 
-**Status.** DISPROVED (LEAN), the site's label; its suffix is a catalog
-label explained under Formalization. The status-defining source is Ruzsa's
-theorem (Proc. London Math. Soc. (3) 54 (1987), 38--56, refereed): an
-essential component $A$ satisfies
-$\lvert A\cap\{1,\ldots,N\}\rvert\ge(\log N)^{1+c}$ for some $c>0$ and
-all large $N$, while a lacunary set has only $O(\log N)$ elements up to $N$,
-so the answer is no. The claim page is
+**Status.** DISPROVED (LEAN), the site's label. Its suffix is a catalog label
+explained under Formalization. The status-defining source is Ruzsa's theorem
+(Proc. London Math. Soc. (3) 54 (1987), 38--56, refereed). An essential
+component $A$ satisfies $\lvert A\cap\{1,\ldots,N\}\rvert\ge(\log N)^{1+c}$ for
+some $c>0$ and all large $N$. A lacunary set has only $O(\log N)$ elements up to
+$N$, so the answer is no. The claim page is
 [[problems/additive_combinatorics/E0037/claims/1987_01_01_ruzsa|Ruzsa]],
-accepted on the site curator's credit and the refereed publication; the
-2026 Lean development that declares itself a formalization of his theorem
-is linked there and gives no `formalized` evidence, since this corpus has
-not built or audited it.
+accepted on the site curator's credit and the refereed publication. The 2026
+Lean development that declares itself a formalization of his theorem is linked
+there. It gives no `formalized` evidence, since this corpus has not built or
+audited it.
 
 **Source.** [erdosproblems.com/37](https://www.erdosproblems.com/37), accessed
 2026-09-04 and 2026-10-07 (page last edited 23 January 2026; empty

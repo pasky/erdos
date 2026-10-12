@@ -2,9 +2,9 @@
 name: problems/set_systems/E0716/claims/1978_01_01_ruzsa_szemeredi
 title: The Ruzsa and Szemerédi six-three theorem
 desc: |
-  Ruzsa and Szemerédi's 1978 theorem that a 3-uniform hypergraph on n vertices
-  in which no six vertices span three edges has o(n^2) edges, answering the
-  Brown, Erdős and Sós question yes; the bound is nearly sharp.
+  Ruzsa and Szemerédi (1978) prove that a $3$-uniform hypergraph on $n$ vertices
+  in which no six vertices span three edges has $o(n^2)$ edges. This answers the
+  Brown, Erdős and Sós question yes, and the bound is nearly sharp.
 authors: []
 status: accepted
 claim: proved
@@ -59,28 +59,32 @@ them. The page is dated by the year of the proceedings volume; the month and
 day are not recorded.
 
 **Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
-proved and credits the answer to Ruzsa and Szemerédi [RuSz78], independently of
-its authors; the refereed papers carded here cite the theorem as established and
-build on it. Published as Ruzsa, I. Z. and Szemerédi, E., Triple systems with no
-six points carrying three triangles, Combinatorics (Proc. Fifth Hungarian
-Colloq., Keszthely, 1976), Vol. II, Colloq. Math. Soc. János Bolyai 18,
-North-Holland, Amsterdam and New York (1978), 939–945: a conference proceedings
-volume rather than a journal, so the page lists no `refereed` evidence. The
-site's label carries a Lean qualification: a post on the site's discussion
+proved and credits the answer to Ruzsa and Szemerédi [RuSz78]. The curator is
+independent of the authors. The refereed papers carded here cite the theorem as
+established and build on it. The paper was published as Ruzsa, I. Z. and
+Szemerédi, E., Triple systems with no six points carrying three triangles,
+Combinatorics (Proc. Fifth Hungarian Colloq., Keszthely, 1976), Vol. II, Colloq.
+Math. Soc. János Bolyai 18, North-Holland, Amsterdam and New York (1978),
+939–945. This is a conference proceedings volume rather than a journal, so the
+page lists no `refereed` evidence.
+
+The site's label carries a Lean qualification. A post on the site's discussion
 thread, dated 2026-06-20, presents a Lean 4 proof of the statement in the Lean
-web editor against Mathlib, attributes it to Aristotle, Harmonic's AI prover,
-and says that Mathlib already holds the Ruzsa–Szemerédi machinery; the file
-titles itself a proof of the Ruzsa–Szemerédi $(6,3)$-theorem, so the thread post
-is listed as the first formalization link. The community database records the
-formal status as Lean from 2026-06-21. The posted proof is also held in Boris
-Alexeev's lean-proofs collection, added on 2026-08-26 and linked above at a
-later commit: the file's header names Ruzsa and Szemerédi as the informal
-authors and Aristotle and JoshuaB as the formal authors, cites the thread post,
-and ports the posted file to a later Mathlib, using Mathlib's triangle-removal
-machinery; its theorem `erdos_716` states that
-$\mathrm{ex}_3(n,\mathcal F)=o(n^2)$ with the posted file's definition of the
-forbidden configuration, and the file records the axioms `propext`,
-`Classical.choice` and `Quot.sound`. This corpus has not built or audited either
-copy, so the page lists no `formalized` evidence. The formal-conjectures
-repository holds a statement file for the problem, added on 2026-10-07 and
-marked research solved there with no formal proof named.
+web editor against Mathlib. The post attributes the proof to Aristotle,
+Harmonic's AI prover, and says that Mathlib already holds the Ruzsa–Szemerédi
+machinery. The file titles itself a proof of the Ruzsa–Szemerédi
+$(6,3)$-theorem, so the thread post is listed as the first formalization link.
+The community database records the formal status as Lean from 2026-06-21.
+
+The posted proof is also held in Boris Alexeev's lean-proofs collection. It was
+added there on 2026-08-26 and is linked above at a later commit. The file's
+header names Ruzsa and Szemerédi as the informal authors and Aristotle and
+JoshuaB as the formal authors, and it cites the thread post. The file ports the
+posted file to a later Mathlib, using Mathlib's triangle-removal machinery. Its
+theorem `erdos_716` states that $\mathrm{ex}_3(n,\mathcal F)=o(n^2)$, with the
+posted file's definition of the forbidden configuration. The file records the
+axioms `propext`, `Classical.choice` and `Quot.sound`. This corpus has not built
+or audited either copy, so the page lists no `formalized` evidence. The
+formal-conjectures repository holds a statement file for the problem, added on
+2026-10-07. The file is marked research solved there, with no formal proof
+named.

@@ -2,9 +2,9 @@
 name: problems/set_theory/E0592/claims/1975_01_01_galvin_larson
 title: Galvin and Larson rule out every decomposable beta from 3 on
 desc: |
-  Galvin and Larson (Fund. Math. 82, 1974/75) show that a countable partition
-  ordinal is 0, 1, omega^2 or omega^(omega^gamma), so omega^beta fails the
-  relation for every decomposable beta >= 3; refereed.
+  Galvin and Larson (Fund. Math. 82, 1974/75, refereed) show that a countable
+  partition ordinal is $0$, $1$, $\omega^2$ or $\omega^{\omega^\gamma}$. So
+  $\omega^\beta$ fails the relation for every decomposable $\beta\ge3$.
 authors:
 - Fred Galvin
 - Jean Larson
@@ -62,6 +62,6 @@ $\omega^3\not\to(\omega^3,3)^2$ and the transfer of partition relations along
 pinning maps, which the paper's proof of Theorem 9 cites.
 
 **Acceptance.** Refereed: the paper appeared in Fundamenta Mathematicae,
-volume 82. The site labels the problem OPEN, and its commentary crediting
-Galvin and Larson on an open problem is not an acceptance, so no `reviewed`
+volume 82. The site labels the problem OPEN. Its commentary credits Galvin and
+Larson, but credit on an open problem is not an acceptance, so no `reviewed`
 evidence is listed.

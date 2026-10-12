@@ -2,10 +2,10 @@
 name: problems/set_systems/E1076/claims/2024_03_07_glock_kim_lichev_pikhurko_sun
 title: The (7,5), (8,6) and (9,7) limits refute the site's wording at k = 7, 8, 9
 desc: |
-  Correct, but answers the site's wording (the single families F_7, F_8 and
-  F_9), not the corrected Statement (the cumulative family), so it does not
-  count toward the problem's standing. The (7,5), (8,6) and (9,7) limits are
-  1/5, 61/330 and 1/5, not 1/6, refereed in Canad. J. Math.
+  Correct, but answers the site's wording (the single families $F_7$, $F_8$ and
+  $F_9$), not the corrected Statement (the cumulative family), so it does not
+  count toward the problem's standing. The $(7,5)$, $(8,6)$ and $(9,7)$ limits
+  are $1/5$, $61/330$ and $1/5$, not $1/6$, refereed in Canad. J. Math.
 authors:
 - Stefan Glock
 - Jaehoon Kim
@@ -71,12 +71,13 @@ against it at any of these $k$, and the page does not count toward the
 problem's standing. The problem page's Notes credit the results.
 
 **Acceptance.** Refereed: S. Glock, J. Kim, L. Lichev, O. Pikhurko and S. Sun,
-On the $(k+2,k)$-problem of Brown, Erdős, and Sós for $k=5,6,7$, Canad. J.
-Math. 78 (2026), no. 5, 1566–1608, published online 6 January 2025 after the
-arXiv posting of 7 March 2024. The abstract presents the results as the cases
-$k=5,6,7$ of Brown, Erdős and Sós's conjecture that the limit of
-$f^{(3)}(n;k+2,k)/n^2$ exists, after the cases $k=2$ (Brown, Erdős and Sós),
-$k=3$ (Glock) and $k=4$ (Glock, Joos, Kim, Kühn, Lichev and Pikhurko), the
-existence of the limit for every $k$ having been proved by Delcourt and
-Postle. The site does not cite the paper on this problem and its curator makes
-no statement about it; the proof is unreviewed, and no formalization is known.
+On the $(k+2,k)$-problem of Brown, Erdős, and Sós for $k=5,6,7$, Canad. J. Math.
+78 (2026), no. 5, 1566–1608. It was published online on 6 January 2025, after
+the arXiv posting of 7 March 2024. The abstract presents the results as the
+cases $k=5,6,7$ of Brown, Erdős and Sós's conjecture that the limit of
+$f^{(3)}(n;k+2,k)/n^2$ exists. The cases $k=2$ (Brown, Erdős and Sós), $k=3$
+(Glock) and $k=4$ (Glock, Joos, Kim, Kühn, Lichev and Pikhurko) came before
+them. Delcourt and Postle had already proved the existence of the limit for
+every $k$. The site does not cite the paper on this problem, and its curator
+makes no statement about it. The proof is unreviewed, and no formalization is
+known.

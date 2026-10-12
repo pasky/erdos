@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0547/claims/2025_09_09_montgomery_pavez_signe_yan
 title: Montgomery, Pavez-Signé and Yan, Burr's formula for trees of small maximum degree
 desc: |
-  A 2025 preprint proving R(T) = max(2t_1, t_1 + 2t_2) - 1 for every tree T
-  with maximum degree at most cn, at most 2n - 2: the corrected statement
-  of Problem 547 for those trees; a preprint credited in the site's remarks.
+  A 2025 preprint credited in the site's remarks gives
+  $R(T)=\max\{2t_1,t_1+2t_2\}-1\le2n-2$ for every tree $T$ on $n$ vertices with
+  maximum degree at most $cn$. This is the corrected statement of Problem 547
+  for those trees.
 authors:
 - Richard Montgomery
 - Matías Pavez-Signé

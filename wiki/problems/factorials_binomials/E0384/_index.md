@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0384
 title: Problem 384
 desc: |
-  Asks whether, for 1 < k < n - 1, every binomial coefficient n choose k has a
-  prime divisor at most n/2, except 7 choose 3; proved by Ecklund in 1969,
-  while the site's strict bound p < n/2 fails at 4 choose 2.
+  Asks whether, for $1<k<n-1$, every $\binom{n}{k}$ other than $\binom{7}{3}$
+  has a prime divisor $p\le n/2$. Proved by Ecklund in 1969, while the site's
+  strict bound $p<n/2$ fails at $\binom{4}{2}$.
 tags:
 - Number theory
 - Binomial coefficients
@@ -65,23 +65,23 @@ $\binom42=6$ and whose claim page,
 is rejected; and this page's own witness $\binom62=15$.
 
 **Status.** The site labels the problem PROVED (LEAN), crediting Ecklund's
-theorem, whose bound is $p\leq n/2$; the label describes the corrected
+theorem, whose bound is $p\leq n/2$. The label describes the corrected
 Statement. The standing judges the corrected Statement and is derived from the
-claim pages: `solved`, `proved`, through
+claim pages: `solved`, `proved`. It rests on
 [[problems/factorials_binomials/E0384/claims/1969_05_01_ecklund|Ecklund 1969]],
-whose theorem with the symmetry transfer under Known Results proves it,
 refereed in the Pacific Journal of Mathematics and credited by the site's
-curator. The living verification record on the theorem page gives the exact
-accepted scope, source version, external premises, repair, and limitations.
-The site's label says that the proof was verified in Lean but links no file;
-it mirrors the community database's status proved (Lean), recorded from 24
-August 2026, four weeks before the formal-conjectures statement file was added
-on 22 September 2026. The Lean development matching that date is Alexeev's
-file, last changed on 24 August 2026, which refutes the strict wording and
-gives no evidence for the corrected Statement; no Lean proof of Ecklund's
-theorem is on record. The formal-conjectures file, which the site links as the
-formalized statement, leaves Ecklund's theorem unproved and names that
-refutation as the formal proof of its strict variant.
+curator. Ecklund's theorem, with the symmetry transfer under Known Results,
+proves the corrected Statement. The living verification record on the theorem
+page gives the exact accepted scope, source version, external premises, repair,
+and limitations. The site's label says that the proof was verified in Lean, but
+it links no file. It mirrors the community database's status proved (Lean),
+recorded from 24 August 2026. That is four weeks before the formal-conjectures
+statement file was added on 22 September 2026. The Lean development matching
+that date is Alexeev's file, last changed on 24 August 2026. That file refutes
+the strict wording and gives no evidence for the corrected Statement. No Lean
+proof of Ecklund's theorem is on record. The formal-conjectures file, which the
+site links as the formalized statement, leaves Ecklund's theorem unproved. It
+names that refutation as the formal proof of its strict variant.
 
 **Source.** [erdosproblems.com/384](https://www.erdosproblems.com/384), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #384,

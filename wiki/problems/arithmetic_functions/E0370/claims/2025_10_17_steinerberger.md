@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0370/claims/2025_10_17_steinerberger
 title: Steinerberger's construction n equals m squared minus one
 desc: |
-  Taking n to be m squared minus one with m and m plus one composite gives
-  infinitely many n whose largest prime factor, and that of n plus one, lie
-  below the respective square roots; the site records this trivial solution.
+  Taking $n=m^2-1$ with $m$ and $m+1$ composite gives infinitely many $n$ whose
+  largest prime factors satisfy $P(n)<\sqrt n$ and $P(n+1)<\sqrt{n+1}$. The site
+  records this trivial solution and attributes it to Steinerberger.
 authors:
 - Stefan Steinerberger
 status: accepted
@@ -47,26 +47,27 @@ gives the strict inequalities. The earliest dated record of the remark is a
 forum comment of 2025-10-17 that already refers to it, which dates this page;
 the site's revision history begins on 2025-10-20 with the remark present.
 
-**Acceptance.** The site's curator, Thomas F. Bloom, records the construction
-in the problem's commentary as a trivial solution, labels the problem proved,
-and lists Steinerberger among those thanked on the page; Terence Tao's forum
-comment of 2025-10-17 accepts an argument of Steinerberger's type as valid and
-concludes that the problem was badly worded (`reviewed`). Two Lean 4 proofs
-of the formal-conjectures statement `erdos_370` exist, and that project links
-both as formal proofs, which is the Lean that the site's label refers to. One
-was posted by Boris Alexeev on 2025-11-24 in the lean-proofs repository; its
-header declares it a formalization of a solution to the problem, names
-Steinerberger as the finder of the original proof, and says that a proof, not
-necessarily the original one, was explained by ChatGPT 5.1 Pro,
-auto-formalized by the Aristotle system and stated as in formal-conjectures;
-Alexeev wrote in the forum post of 2025-11-24 that they had checked the file and
-especially its final theorem statement. The other, by the GitHub user XC0R on
-2026-04-13 in a fork of formal-conjectures, credits the trivial solution to
-Steinerberger in its docstring. Both therefore formalize this claim and are
-links on this page, not claims of their own; both take $m=j!+3$, so that
-$m-1$, $m$ and $m+1$ are composite for $j\ge3$. The statement file is linked
-above as a record. This corpus has not built either file or audited its
-statement, so `formalized` is not listed, and no refereed publication exists.
+**Acceptance.** The site's curator, Thomas F. Bloom, records the construction in
+the problem's commentary as a trivial solution and labels the problem proved.
+Bloom also lists Steinerberger among those thanked on the page. Terence Tao's
+forum comment of 2025-10-17 accepts an argument of Steinerberger's type as valid
+and concludes that the problem was badly worded (`reviewed`).
+
+Two Lean 4 proofs of the formal-conjectures statement `erdos_370` exist. That
+project links both as formal proofs, and they are the Lean that the site's label
+refers to. Boris Alexeev posted one on 2025-11-24 in the lean-proofs repository.
+Its header declares it a formalization of a solution to the problem and names
+Steinerberger as the finder of the original proof. The header also says that a
+proof, not necessarily the original one, was explained by ChatGPT 5.1 Pro,
+auto-formalized by the Aristotle system and stated as in formal-conjectures. In
+the forum post of 2025-11-24, Alexeev wrote that they had checked the file and
+especially its final theorem statement. The GitHub user XC0R posted the other on
+2026-04-13 in a fork of formal-conjectures. Its docstring credits the trivial
+solution to Steinerberger. Both files therefore formalize this claim and are
+links on this page, not claims of their own. Both take $m=j!+3$, so that $m-1$,
+$m$ and $m+1$ are composite for $j\ge3$. The statement file is linked above as a
+record. This corpus has not built either file or audited its statement, so
+`formalized` is not listed. No refereed publication exists.
 
 **What the problem meant.** The site's curator finds it strange that Erdős
 and Graham, who report Pomerance's observation on the problem, overlooked so

@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E1105/claims/1984_03_01_simonovits_sos
 title: Simonovits and Sós, the anti-Ramsey number of long paths for large n
 desc: |
-  Theorem B of the 1984 Combinatorica paper: for t at least 5 and n > ct²,
-  the largest number of colors on K_n without a rainbow path on 2t+3+ε₀
-  vertices is tn − C(t+1,2) + 1 + ε₀, the large-n regime of the path half.
+  Theorem B of the 1984 Combinatorica paper of Simonovits and Sós: for $t\ge5$
+  and $n>ct^2$, the largest number of colors on $K_n$ with no rainbow path on
+  $2t+3+\epsilon_0$ vertices is $tn-\binom{t+1}{2}+1+\epsilon_0$. This is the
+  large-$n$ regime of the path half.
 authors:
 - Miklós Simonovits
 - Vera T. Sós
@@ -56,12 +57,12 @@ the full path formula for $n\ge k\ge5$ is
 **Depends on.** Nothing in this wiki; the result is the paper's own
 theorem.
 
-**Acceptance.** The site's commentary credits the paper with a published
-proof of the path formula for $n\ge ck^2$, but its PROVED label rests on the
-claims that settle the two parts, so that credit is not listed as review of
-this partial claim. Refereed: Combinatorica 4 (1984), no. 1, 101--110 (per
-its Crossref record, the issue is dated March 1984 without a day, so the
-page's day is a placeholder).
+**Acceptance.** The site's commentary credits the paper with a published proof
+of the path formula for $n\ge ck^2$. But the site's PROVED label rests on the
+claims that settle the two parts, so that credit is not listed as review of this
+partial claim. Refereed: Combinatorica 4 (1984), no. 1, 101--110. Its Crossref
+record dates the issue March 1984 without a day, so the page's day is a
+placeholder.
 
 **Read depth.** Theorem B and Remark 1 are checked clause by clause; the
 proof is not checked. Nothing here is independent review.

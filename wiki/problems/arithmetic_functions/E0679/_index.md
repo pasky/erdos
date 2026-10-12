@@ -2,8 +2,9 @@
 name: problems/arithmetic_functions/E0679
 title: Problem 679
 desc: |
-  Asks whether infinitely many n have every n minus k with fewer distinct
-  prime factors than about the logarithm of k over its own logarithm.
+  Asks whether, for fixed $\epsilon>0$, infinitely many $n$ have
+  $\omega(n-k)<(1+\epsilon)\log k/\log\log k$ for all large $k<n$, where
+  $\omega$ counts distinct prime factors.
 tags:
 - Number theory
 status: open
@@ -39,15 +40,15 @@ $$
 is false?
 
 **Status.** Open, the site's label (page last edited 17 April 2026). The
-site's remarks credit the forum user DottedCalculator with disproving the
-stronger version, the second question, and record Lau's unconditional bound;
-the standing in the frontmatter derives from the claim pages under the parts
-`epsilon_version` and `stronger_version`: the second question has the pending
+standing in the frontmatter derives from the claim pages under the parts
+`epsilon_version` and `stronger_version`. The second question has the pending
 partial claim on
-[[problems/arithmetic_functions/E0679/claims/2026_01_11_dottedcalculator|DottedCalculator's page]],
-and the first has only the conditional result on
-[[problems/arithmetic_functions/E0679/claims/2026_04_16_lau|Lau's page]], so
-the problem stays open.
+[[problems/arithmetic_functions/E0679/claims/2026_01_11_dottedcalculator|DottedCalculator's page]].
+The first has only the conditional result on
+[[problems/arithmetic_functions/E0679/claims/2026_04_16_lau|Lau's page]]. So the
+problem stays open. The site's remarks credit the forum user DottedCalculator
+with disproving the stronger version, which is the second question. They also
+record Lau's unconditional bound.
 
 **Source.** [erdosproblems.com/679](https://www.erdosproblems.com/679), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #679,

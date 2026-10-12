@@ -2,8 +2,8 @@
 name: problems/extremal_graph_theory/E0023
 title: Problem 23
 desc: |
-  Asks whether every triangle-free graph on 5n vertices can be made bipartite
-  by deleting at most n squared edges.
+  Asks whether every triangle-free graph on $5n$ vertices can be made bipartite
+  by deleting at most $n^2$ edges.
 tags:
 - Graph theory
 status: open
@@ -23,11 +23,11 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Can every triangle-free graph on $5n$ vertices be made bipartite
 by deleting at most $n^2$ edges?
 
-**Status.** Falsifiable. The site's label is a note on an open problem
-(Current assessment), not a claim; the frontmatter standing is derived from
-the one claim page under `claims/`, Ferudun's finite-range claim
-([[problems/extremal_graph_theory/E0023/claims/2026_06_26_ferudun|claim page]]),
-which is partial and settles nothing for all $n$.
+**Status.** Falsifiable. The site's label is a note on an open problem (Current
+assessment), not a claim. The frontmatter standing derives from the one claim
+page under `claims/`, Ferudun's finite-range claim
+([[problems/extremal_graph_theory/E0023/claims/2026_06_26_ferudun|claim page]]).
+That claim is partial and settles nothing for all $n$.
 
 **Source.** [erdosproblems.com/23](https://www.erdosproblems.com/23), accessed
 2026-09-04 and 2026-10-06 (label FALSIFIABLE; page last edited 18 January

@@ -2,9 +2,9 @@
 name: problems/number_theory/E0952/claims/2024_01_16_stumpenhusen
 title: Stumpenhusen's withdrawn negative answer to the Gaussian moat problem
 desc: |
-  A three-page arXiv preprint of January 2024 claimed that no bounded-step
-  walk on the Gaussian primes reaches infinity; its author withdrew it the
-  next day, saying that the width of the moat was not correctly computed.
+  Stumpenhusen's three-page arXiv preprint of January 2024 claimed that no
+  bounded-step walk on the Gaussian primes reaches infinity. The author withdrew
+  it the next day, saying that the width of the moat was not correctly computed.
 authors:
 - Johann Christian Stumpenhusen
 status: withdrawn

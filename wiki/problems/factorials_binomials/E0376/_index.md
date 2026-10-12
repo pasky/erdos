@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E0376
 title: Problem 376
 desc: |
-  Asks whether infinitely many central binomial coefficients are coprime to
-  one hundred and five.
+  Asks whether there are infinitely many $n$ such that $\binom{2n}{n}$ is
+  coprime to $105$.
 tags:
 - Number theory
 - Binomial coefficients

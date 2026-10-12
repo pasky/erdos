@@ -3,8 +3,8 @@ name: problems/unit_fractions/E0297/claims/2024_04_24_conlon_fox_he_mubayi_pham_
 title: Exact exponential rate of the unit-sum count
 desc: |
   Conlon, Fox, He, Mubayi, Pham, Suk and Verstraëte prove that the number of
-  subsets of one through N with reciprocal sum one is 2 to the power
-  cN plus o(N), for an explicit constant c near 0.91117.
+  subsets of $\{1,\ldots,N\}$ with reciprocal sum one is $2^{cN+o(N)}$, for an
+  explicit constant $c\approx0.91117$.
 authors:
 - David Conlon
 - Jacob Fox
@@ -56,18 +56,20 @@ $F(N)/2^{c_1N}\to1$ or a polynomial prefactor.
 **Acceptance.** The paper is refereed: *A question of Erdős and Graham on
 Egyptian fractions*, Discrete Analysis 2025:28, received 25 April 2024 and
 published 19 December 2025. Its printed DOI, 10.19086/da.154329, resolved on
-2026-10-07 to a different article, so the `paper` link is the journal's own
-page for the article. The site's curator, Thomas Bloom, marks the problem
-solved and credits this theorem, independently of the authors, as one of
-two proofs of the rate. The differences between the published article and
-the eight-page arXiv v1 of 24 April 2024 are recorded on the
-[[../library/unit_fractions/conlon_2024_question_erdos_graham_egyptian_fractions/source_versions|version record]];
-the proof is compiled, with its repairs disclosed, from
+2026-10-07 to a different article, so the `paper` link is the journal's own page
+for the article. The site's curator, Thomas Bloom, marks the problem solved and
+credits this theorem, independently of the authors, as one of two proofs of the
+rate.
+
+The
+[[../library/unit_fractions/conlon_2024_question_erdos_graham_egyptian_fractions/source_versions|version record]]
+lists the differences between the published article and the eight-page arXiv v1
+of 24 April 2024. The proof is compiled from
 [[../library/unit_fractions/conlon_2024_question_erdos_graham_egyptian_fractions/theorem_1|Theorem 1]]
-down to the explicit external inputs. No Lean formalization of this entropy
-proof is known to the corpus; the statement is formalized in Lean 4 in a
-file that declares itself a formalization of Liu and Sawhney's proof, linked
-on
+down to the explicit external inputs, and its repairs are disclosed. The corpus
+knows of no Lean formalization of this entropy proof. The statement is
+formalized in Lean 4 in a file that declares itself a formalization of Liu and
+Sawhney's proof. That file is linked on
 [[problems/unit_fractions/E0297/claims/2024_04_10_liu_sawhney|their page]].
 
 **Independent proofs.** Liu and Sawhney proved the same rate, in natural

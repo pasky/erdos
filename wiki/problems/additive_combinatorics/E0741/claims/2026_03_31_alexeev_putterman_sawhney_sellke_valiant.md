@@ -3,8 +3,9 @@ name: problems/additive_combinatorics/E0741/claims/2026_03_31_alexeev_putterman_
 title: An explicit basis of order 2 with no split into two syndetic self-sumsets
 desc: |
   Theorem 3.1 of Alexeev, Putterman, Sawhney, Sellke and Valiant (arXiv 2026)
-  gives an explicit basis of order 2 that no bipartition splits into two
-  self-sumsets with bounded gaps, answering the second question yes; accepted.
+  gives an explicit basis of order $2$ that no bipartition splits into two
+  self-sumsets with bounded gaps. This answers the second question yes and is
+  accepted.
 authors:
 - Boris Alexeev
 - Moe Putterman
@@ -68,11 +69,12 @@ density and for an existing limit, which are on the
 **Depends on.** Nothing in this wiki: the construction and its proof are
 self-contained.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the
-problem SOLVED (LEAN), which settles both parts, and credits this paper, as
-[APSSV26], and DeepMind with independently constructed bases answering the
-second question (the basis part) yes, in the problem page's commentary
-(page last edited 2 May 2026; empty proof-claim tab). Not refereed:
-arXiv:2603.29961, v1 of 2026-03-31 and v2 of 2026-04-02, and no journal
-publication. The library card's reading of the proof is this corpus's own
-and is not an independent review.
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
+SOLVED (LEAN), which settles both parts. The problem page's commentary (page
+last edited 2 May 2026; empty proof-claim tab) credits this paper, as [APSSV26],
+and DeepMind with independently constructed bases that answer the second
+question (the basis part) yes.
+
+Not refereed: the paper is arXiv:2603.29961, with v1 of 2026-03-31 and v2 of
+2026-04-02, and it has no journal publication. The library card's reading of the
+proof is this corpus's own and is not an independent review.

@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0242/claims/2025_11_07_dyachenko
 title: "Dyachenko: a representation of 4/P for every prime P that is 1 modulo 4"
 desc: |
-  An arXiv preprint of November 2025 claims an explicit representation
-  4/P = 1/A + 1/(bP) + 1/(cP) for every prime P congruent to 1 modulo 4,
-  which with the classical cases amounts to the whole conjecture; unrefereed.
+  An unrefereed arXiv preprint of November 2025 by E. Dyachenko claims an
+  explicit representation $4/P=1/A+1/(bP)+1/(cP)$ for every prime
+  $P\equiv1\pmod4$. Together with the classical cases, this amounts to the whole
+  conjecture.
 authors:
 - E. Dyachenko
 status: claimed

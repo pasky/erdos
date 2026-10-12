@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0059/claims/2013_09_11_morris_saxton
 title: Morris and Saxton refute the bound for the six-cycle
 desc: |
-  Proposition 1.4 of Morris and Saxton (Adv. Math. 2016) gives a constant
-  c > 0 and infinitely many n with at least 2^{(1+c) ex(n;C_6)} C_6-free
-  graphs on n vertices, so the question fails for G = C_6; accepted.
+  Proposition 1.4 of Morris and Saxton (Adv. Math. 2016) gives a constant $c>0$
+  such that for infinitely many $n$ there are at least
+  $2^{(1+c)\mathrm{ex}(n;C_6)}$ graphs on $n$ vertices with no $C_6$. So the
+  question fails for $G=C_6$, and the claim is accepted.
 authors:
 - Robert Morris
 - David Saxton
@@ -70,10 +71,10 @@ digests the paper.
 **Acceptance.** Refereed publication: Adv. Math. 298 (2016), 534--580,
 doi:10.1016/j.aim.2016.05.001. The site's curator, Thomas Bloom, labels the
 problem disproved and credits Morris and Saxton [MoSa16] with exactly this
-statement; the thread and the proof-claim tab were empty on 2026-10-07 (page
+statement. The thread and the proof-claim tab were empty on 2026-10-07 (page
 last edited 2026-01-23). The text cited is arXiv:1309.2927v3 (11 November 2015;
 v1 posted 11 September 2013, the date of this page). Proof coverage: the
-statement of Proposition 1.4 and the opening of its proof; the proofs of
+statement of Proposition 1.4 and the opening of its proof. The proofs of
 Proposition 1.4 and Theorem 1.1 are not compiled in this corpus.
 
 **Formalization.** The module `src/latest/ErdosProblems/Erdos59.lean` of

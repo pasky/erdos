@@ -2,8 +2,8 @@
 name: problems/distance_problems/E0660
 title: Problem 660
 desc: |
-  Asks whether the n vertices of a convex polyhedron in space always determine
-  nearly half of n distinct distances.
+  Asks whether the $n$ vertices of a convex polyhedron in $\mathbb{R}^3$ always
+  determine at least $(1-o(1))n/2$ distinct distances.
 tags:
 - Geometry
 - Distances

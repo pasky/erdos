@@ -2,9 +2,8 @@
 name: problems/discrete_geometry/E0211
 title: Problem 211
 desc: |
-  Asks whether n points in the plane with at most n minus k on any line always
-  determine at least a constant times k times n lines through two or more
-  points.
+  Asks whether $n$ points in the plane, at most $n-k$ on any line, always
+  determine $\gg kn$ lines through at least two of them.
 tags:
 - Geometry
 status: solved

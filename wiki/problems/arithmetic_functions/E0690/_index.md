@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0690
 title: Problem 690
 desc: |
-  The density of the integers whose kth smallest prime factor is a given prime
-  p, and how that density behaves as k and p vary.
+  Concerns the density $d_k(p)$ of the integers whose $k$th smallest prime
+  factor is $p$, and asks whether it is unimodal in $p$ for each fixed $k$.
 tags:
 - Number theory
 status: solved
@@ -38,12 +38,12 @@ rests on the pending
 [[problems/arithmetic_functions/E0690/claims/2026_05_08_wang_crapis|Wang–Crapis claim]],
 which covers every $k\ge4$.
 
-**Status.** Solved; the site's label is SOLVED, decided in the thread on
+**Status.** Solved. The site's label is SOLVED, decided in the thread on
 2026-05-07 for
-[[problems/arithmetic_functions/E0690/claims/2025_01_17_cambie|Cambie's refereed theorem]]:
-unimodal for $k=1,2,3$, not unimodal for $4\le k\le20$, so the sequence is
-not unimodal for every fixed $k$. The classification for every $k\ge4$ is
-the pending
+[[problems/arithmetic_functions/E0690/claims/2025_01_17_cambie|Cambie's refereed theorem]].
+By that theorem the sequence is unimodal for $k=1,2,3$ and not unimodal for
+$4\le k\le20$, so it is not unimodal for every fixed $k$. The classification for
+every $k\ge4$ is the pending
 [[problems/arithmetic_functions/E0690/claims/2026_05_08_wang_crapis|Wang–Crapis claim]].
 
 **Source.** [erdosproblems.com/690](https://www.erdosproblems.com/690), accessed

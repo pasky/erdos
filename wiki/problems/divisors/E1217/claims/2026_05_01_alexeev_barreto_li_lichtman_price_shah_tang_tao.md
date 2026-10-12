@@ -2,9 +2,10 @@
 name: problems/divisors/E1217/claims/2026_05_01_alexeev_barreto_li_lichtman_price_shah_tang_tao
 title: Divisibility chains as dense as the weighted sum
 desc: |
-  Every set of integers whose sum of 1/(a log a) has a positive upper growth
-  rate against log log x contains an infinite divisibility chain whose count has
-  at least that upper growth rate; proved in the authors' preprint of May 2026.
+  In their preprint of May 2026, Alexeev and seven coauthors prove that if
+  $\sum_{a\in A,\,a\le x}1/(a\log a)$ has a positive upper growth rate relative
+  to $\log\log x$, then $A$ contains an infinite divisibility chain whose count
+  has at least that upper growth rate.
 authors:
 - Boris Alexeev
 - Kevin Barreto
@@ -87,9 +88,8 @@ concern its Theorems 1.1 and 1.2.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Thomas Bloom, the site's curator, labels the problem proved
-and credits the paper on the problem page (last edited 12 May 2026), and the
-community database records the problem as proved (last updated 21 April
-2026). The preprint has no journal record known here, so the acceptance
-rests on the curator's documented review. Nothing in this repository has
-verified the proof.
+**Acceptance.** Thomas Bloom, the site's curator, labels the problem proved and
+credits the paper on the problem page (last edited 12 May 2026). The community
+database also records the problem as proved (last updated 21 April 2026). The
+preprint has no journal record known here, so the acceptance rests on the
+curator's documented review. Nothing in this repository has verified the proof.

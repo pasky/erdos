@@ -2,8 +2,7 @@
 name: problems/irrationality/E1049
 title: Problem 1049
 desc: |
-  Asks whether the sum over all n of one over t to the power n minus one is
-  irrational for every rational t greater than one.
+  Asks whether $\sum_{n\ge1}1/(t^n-1)$ is irrational for every rational $t>1$.
 tags:
 - Irrationality
 status: open
@@ -28,8 +27,8 @@ $$
 
 irrational, where $\tau(n)$ counts the divisors of $n$?
 
-**Status.** Open, the site's label (OPEN). The site credits the integer case
-to Erdős [Er48]; the claim pages are cited in the Current assessment.
+**Status.** Open, the site's label (OPEN). The site credits the integer case to
+Erdős [Er48]. The claim pages are cited in the Current assessment.
 
 **Source.** [erdosproblems.com/1049](https://www.erdosproblems.com/1049),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1049,

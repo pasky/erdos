@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0944/claims/2002_12_01_lattanzio
 title: Lattanzio's circulants for k with k - 1 not prime
 desc: |
-  Lattanzio's 2002 circulant families of vertex k-critical graphs with no
-  critical edge whenever k - 1 is not prime, the case r = 1 for those k;
-  refereed in Discrete Math.
+  Lattanzio's refereed 2002 paper in Discrete Math. builds circulant families of
+  vertex $k$-critical graphs with no critical edge whenever $k-1$ is not prime.
+  This gives the case $r=1$ for those $k$.
 authors:
 - John J. Lattanzio
 status: accepted

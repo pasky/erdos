@@ -2,9 +2,10 @@
 name: problems/covering_systems/E0274/claims/2024_04_25_akman_sissokho
 title: Akman and Sissokho's bound of eight cells
 desc: |
-  Akman and Sissokho's Beitr. Algebra Geom. paper (2025): a coset partition of
-  any group into cosets of two to seven distinct subgroups repeats an index,
-  so a counterexample needs eight cells; accepted on the refereed paper.
+  Akman and Sissokho's 2025 paper in Beitr. Algebra Geom. shows that a coset
+  partition of any group into cosets of two to seven distinct subgroups repeats
+  an index, so a counterexample needs eight cells. It is accepted on the
+  refereed paper.
 authors:
 - F. Akman
 - P. A. Sissokho

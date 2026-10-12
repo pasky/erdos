@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0438/claims/2000_12_01_khalfalah_lodha_szemeredi
 title: The largest square-sum-free subset has (11/32 + o(1))N elements
 desc: |
-  Khalfalah, Lodha and Szemerédi prove that a subset of the first N integers
-  with no square among its pairwise sums has at most (11/32 + o(1))N elements,
-  matching Massias's set; DIMACS report 2000, refereed in Discrete Math. 2002.
+  Khalfalah, Lodha and Szemerédi prove that a subset of the first $N$ integers
+  with no square among its pairwise sums has at most $(11/32+o(1))N$ elements,
+  matching Massias's set. The result was a DIMACS report in 2000 and was
+  refereed in Discrete Math. 2002.
 authors:
 - A. Khalfalah
 - S. Lodha
@@ -80,26 +81,30 @@ residue (checked on the library card). The exact maximum for each $N$ is not
 determined by the paper; the problem asks how large $A$ can be, and the
 asymptotic answer $(11/32+o(1))N$ is what the site records as the resolution.
 
-**Acceptance.** Reviewed: Thomas Bloom, the site's curator and independent
-of the authors, labels the problem SOLVED and credits the paper in the
+**Acceptance.** Reviewed: Thomas Bloom, the site's curator, is independent of
+the authors. He labels the problem SOLVED and credits the paper in the
 commentary (page last edited 7 April 2026; read from the cached snapshot of
-2026-09-05), with the Lagarias--Odlyzko--Shearer bounds and Massias's
-construction as the earlier steps; the discussion thread and the proof-claim
-tab are empty. Refereed: Discrete Mathematics is a refereed journal. Not
-counted as `formalized`: the linked Lean file, `Erdos438.lean` in Boris
-Alexeev's lean-proofs repository, declares itself a formalization of a
-solution to the problem, names Khalfalah, Lodha and Szemerédi as its informal
-authors and Codex and GPT-5.6 Sol as its formal authors, and proves as
-`erdos_438` that the ratio of the extremal size to $N$ tends to $11/32$, with
-square-sum-freeness quantified over all pairs, the doubles included, from a
-development of its own; its top-level file carries no `sorry` and was read as
-text only, not built or audited here. The statement collection's
+2026-09-05). The commentary names the Lagarias--Odlyzko--Shearer bounds and
+Massias's construction as the earlier steps. The discussion thread and the
+proof-claim tab are empty.
+
+Refereed: Discrete Mathematics is a refereed journal.
+
+Not counted as `formalized`: the linked Lean file is `Erdos438.lean` in Boris
+Alexeev's lean-proofs repository. It declares itself a formalization of a
+solution to the problem. It names Khalfalah, Lodha and Szemerédi as its informal
+authors and Codex and GPT-5.6 Sol as its formal authors. As `erdos_438`, it
+proves from a development of its own that the ratio of the extremal size to $N$
+tends to $11/32$. In that statement, square-sum-freeness is quantified over all
+pairs, the doubles included. Its top-level file carries no `sorry`. The file was
+read as text only, not built or audited here. The statement collection's
 `ErdosProblems/438.lean` states the same limit with a `sorry` body under
-`research solved` and points at that file through a `formal_proof` attribute;
-a statement file is not a formalization and is not linked here. Nothing is
-independently reviewed by this project: the library card records Theorem 3 as
-checked clause by clause in the report's text layer, and the proof (sections
-2--6) was not read in this corpus.
+`research solved`. It points at that file through a `formal_proof` attribute. A
+statement file is not a formalization and is not linked here.
+
+Nothing is independently reviewed by this project. The library card records
+Theorem 3 as checked clause by clause in the report's text layer. The proof
+(sections 2--6) was not read in this corpus.
 
 **Depends on.** No page of this wiki. The proof is self-contained in the
 paper.

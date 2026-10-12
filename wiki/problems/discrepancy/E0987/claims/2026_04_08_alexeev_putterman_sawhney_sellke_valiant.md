@@ -3,8 +3,9 @@ name: problems/discrepancy/E0987/claims/2026_04_08_alexeev_putterman_sawhney_sel
 title: "A sequence with A_k at most a constant times sqrt(k log k): the second question"
 desc: |
   Alexeev, Putterman, Sawhney, Sellke and Valiant's 2026 theorem, due to an
-  internal OpenAI model, that some sequence has $A_k\ll\sqrt{k\log 2k}=o(k)$
-  for all $k$, answering the second question; accepted by the site's curator.
+  internal OpenAI model, says that some sequence has
+  $A_k\ll\sqrt{k\log 2k}=o(k)$ for all $k$. It answers the second question and
+  is accepted by the site's curator.
 authors:
 - Boris Alexeev
 - Moe Putterman
@@ -102,10 +103,10 @@ Tao's formalization. It is not built or audited here, so it adds no evidence
 kind.
 
 **Acceptance.** Reviewed: a thread comment of 2026-04-09 noted that the site
-still listed the second question as open, the site's curator, Thomas Bloom,
-changed the problem's status to proved the same day (the community database
-lists its informal status as proved) and credits the result in the commentary to
-an internal OpenAI model through this preprint, and Tao posted a detailed
-exposition of the construction in the thread that day. Not refereed: the
-preprint has one arXiv version and no journal publication is recorded. Not
+still listed the second question as open. The site's curator, Thomas Bloom,
+changed the problem's status to proved the same day. In the commentary he
+credits the result to an internal OpenAI model through this preprint. The
+community database lists the problem's informal status as proved. Tao posted a
+detailed exposition of the construction in the thread that day. Not refereed:
+the preprint has one arXiv version, and no journal publication is recorded. Not
 formalized: no Lean checked in this corpus proves the theorem.

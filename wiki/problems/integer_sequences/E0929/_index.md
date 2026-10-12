@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0929
 title: Problem 929
 desc: |
-  Asks for the least prime cutoff x such that a positive density of blocks of
-  k consecutive integers have every member divisible by a prime up to x; the
-  inverse of Problem 687's covering function, open above the square root of k.
+  Asks for the least $x$ such that a positive density of $n$ have each of
+  $n+1,\ldots,n+k$ divisible by a prime $\le x$, and whether it is at least
+  $k^{1-o(1)}$. It is the inverse of the covering function of Problem 687 and is
+  open, with lower bounds only of order $\sqrt{k}$.
 tags:
 - Number theory
 status: open
@@ -55,25 +56,28 @@ Two questions: the estimate, to which the label OPEN attaches, and the
 displayed question, also open.
 
 **Status.** The site labels the problem OPEN. No source approaching
-$S(k)\ge k^{1-o(1)}$ was found in the search whose scope
-the Current assessment records, and the site's proof-claim tab was empty on
-2026-10-07. One partial claim is recorded: the refereed upper bound of
-[FGKMT18], inverted below. Lower bounds: the site's Rosser bound
-$S(k)>k^{1/2-o(1)}$ is Erdős's report in [Er76d] p. 26 ("Rosser proved [13] that
-$\ell>k^{1/2-\varepsilon}$", cited to the Halberstam--Richert book); the
-stronger $S(k)\gg k^{1/2}$ is Iwaniec's $Y(x)\ll x^2$ read through the
-equivalence, which is how [Er79d] p. 79 states it ("Iwaniec's result
-$B(n)>c\sqrt n$ is the best lower bound known"); the bound is the Corollary of
-[Iw78], p. 226, $C(r)\ll r^2\log^2r$ for the longest run of consecutive integers
-each divisible by one of $r$ arbitrary primes, taken at $r=\pi(x)$. Upper
-bounds: the trivial $S(k)\le k+1$; [Er76d]'s Rankin-type bound as printed; the
-site's $S(k)\ll k\log_3k/(\log_2k\log_4k)$, deduced by the site from [FGKMT18]
-and recorded here as the site's; and the direct inversion of [FGKMT18]'s display
-(1.2), $S(k)\ll k\log_2k/(\log k\log_3k)$, an authored one-line derivation
+$S(k)\ge k^{1-o(1)}$ was found in the search whose scope the Current assessment
+records. The site's proof-claim tab was empty on 2026-10-07. One partial claim
+is recorded: the refereed upper bound of [FGKMT18], inverted below. This is a
+bounded negative finding, not a certificate of openness.
+
+Lower bounds. The site's Rosser bound $S(k)>k^{1/2-o(1)}$ is Erdős's report in
+[Er76d] p. 26 ("Rosser proved [13] that $\ell>k^{1/2-\varepsilon}$", cited to
+the Halberstam--Richert book). The stronger $S(k)\gg k^{1/2}$ is Iwaniec's
+$Y(x)\ll x^2$ read through the equivalence. This is how [Er79d] p. 79 states it
+("Iwaniec's result $B(n)>c\sqrt n$ is the best lower bound known"). The bound is
+the Corollary of [Iw78], p. 226, which gives $C(r)\ll r^2\log^2r$ for the
+longest run of consecutive integers each divisible by one of $r$ arbitrary
+primes, taken at $r=\pi(x)$.
+
+Upper bounds. There is the trivial $S(k)\le k+1$, and [Er76d]'s Rankin-type
+bound as printed. The site gives $S(k)\ll k\log_3k/(\log_2k\log_4k)$, which it
+deduced from [FGKMT18], and this bound is recorded here as the site's. The
+direct inversion of [FGKMT18]'s display (1.2) gives
+$S(k)\ll k\log_2k/(\log k\log_3k)$. This is an authored one-line derivation,
 recorded below and on
-[[problems/integer_sequences/E0929/claims/2014_12_16_ford_green_konyagin_maynard_tao|its claim page]],
-which is smaller than the site's display and implies it. This is a bounded
-negative finding, not a certificate of openness.
+[[problems/integer_sequences/E0929/claims/2014_12_16_ford_green_konyagin_maynard_tao|its claim page]].
+It is smaller than the site's display and implies it.
 
 **Source.** [erdosproblems.com/929](https://www.erdosproblems.com/929),
 accessed 2026-09-18: the problem page (OPEN, with

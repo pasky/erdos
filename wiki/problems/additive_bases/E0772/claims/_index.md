@@ -4,15 +4,16 @@ desc: The 1 claim page of Problem 772, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T08:51:25Z
-updated: 2026-10-07T11:30:27Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/additive_bases/E0772/claims
 
 [[problems/additive_bases/E0772/_index|..]]
 
-[[problems/additive_bases/E0772/claims/1985_09_01_alon_erdos|1985_09_01_alon_erdos]]: Every set of n integers in which no integer has more than k representations
-as a sum of two distinct elements contains a Sidon subset of size at least
-c(k) n^{2/3}, answering both questions yes; the exponent is sharp for k >= 2.
+[[problems/additive_bases/E0772/claims/1985_09_01_alon_erdos|1985_09_01_alon_erdos]]: Alon and Erdős prove that every set of $n$ integers in which no integer has
+more than $k$ representations as a sum of two distinct elements contains a
+Sidon subset of size at least $c(k)n^{2/3}$, answering both questions yes. The
+exponent is sharp for $k\ge2$.
 
 ***

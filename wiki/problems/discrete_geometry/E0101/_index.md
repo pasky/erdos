@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0101
 title: Problem 101
 desc: |
-  Asks whether n plane points with no five on a line determine only a
-  negligible fraction of n squared lines containing exactly four points.
+  Asks whether $n$ points in the plane, no five on a line, determine only
+  $o(n^2)$ lines containing exactly four of them.
 tags:
 - Geometry
 status: open

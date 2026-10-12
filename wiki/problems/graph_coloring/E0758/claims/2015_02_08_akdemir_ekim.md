@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0758/claims/2015_02_08_akdemir_ekim
 title: Akdemir and Ekim's computer-assisted proof of z(12) = 4
 desc: |
-  A refereed computer-assisted proof that every graph on 12 vertices has
-  cochromatic number at most 4 and some graph on 13 vertices does not, so
-  z(12) = 4 and z(13) = 5.
+  Akdemir and Ekim give a refereed computer-assisted proof that every graph on
+  12 vertices has cochromatic number at most 4 and some graph on 13 vertices
+  does not. So $z(12)=4$ and $z(13)=5$.
 authors:
 - Ahu Akdemir
 - Tınaz Ekim
@@ -43,15 +43,15 @@ version $c_k(m)$ and also establishes $c_1(3)=12$ and $c_2(2)=10$.
 
 **Acceptance.** Refereed:
 [[../library/graph_coloring/akdemir_2015_advances_defective_parameters_graphs/_index|A. Akdemir and T. Ekim, Advances on defective parameters in graphs]],
-Discrete Optimization 16 (2015), 62–69, published online on 2015-02-08, the
-date this page carries, and in the issue of May 2015. The site's curator does
-not cite the paper; the problem page credits
+Discrete Optimization 16 (2015), 62–69. It was published online on 2015-02-08,
+the date this page carries, and appeared in the issue of May 2015. The site's
+curator does not cite the paper. The problem page credits
 [[problems/graph_coloring/E0758/claims/2024_09_15_mehta|Mehta's later computation]]
 of the same value by a different route, whose first archived record is dated
 2024-09-15. Demirci, Ekim and Yıldız (arXiv:2107.12031, 2021) cite the three
 values as established in this paper by computer-assisted proofs. The Lean file
-for the problem in Boris Alexeev's lean-proofs collection, linked above with
-its module of small values, lists the paper among its informal sources and
-proves $z(12)=4$ and $z(13)=5$ by its own route; its build and audit are
-recorded on Mehta's page, and the acceptance of this page rests on the
-refereed paper alone.
+for the problem in Boris Alexeev's lean-proofs collection is linked above with
+its module of small values. It lists the paper among its informal sources and
+proves $z(12)=4$ and $z(13)=5$ by its own route. Its build and audit are
+recorded on Mehta's page. The acceptance of this page rests on the refereed
+paper alone.

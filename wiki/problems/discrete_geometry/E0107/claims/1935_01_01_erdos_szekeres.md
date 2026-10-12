@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0107/claims/1935_01_01_erdos_szekeres
 title: Klein's convex quadrilateral among five points
 desc: |
-  Erdős and Szekeres (Compositio Math. 1935) publish Esther Klein's proof that
-  any five points in the plane, no three collinear, contain four in convex
-  position, so f(4) = 5, the instance n = 4 of the conjecture; refereed.
+  In a refereed paper, Erdős and Szekeres (Compositio Math. 1935) publish Esther
+  Klein's proof that any five points in the plane, no three collinear, contain
+  four in convex position. So $f(4)=5$, the instance $n=4$ of the conjecture.
 authors:
 - P. Erdős
 - G. Szekeres
@@ -58,10 +58,11 @@ and the lower bound for every $n$ is the
 **Depends on.** Nothing in this wiki; the proof is self-contained.
 
 **Acceptance.** Refereed: the paper appeared in Compositio Mathematica, a
-journal. The site's commentary records $f(4)=5$ and credits it to Klein, but
-the site labels the problem FALSIFIABLE, which settles nothing, so that record
-is not listed as `reviewed`. The claimants are the authors who published the
-result; Klein's authorship of the proposition is the paper's own attribution.
+journal. The site's commentary records $f(4)=5$ and credits it to Klein. The
+site labels the problem FALSIFIABLE, however, which settles nothing, so that
+record is not listed as `reviewed`. The claimants are the authors who published
+the result. Klein's authorship of the proposition is the paper's own
+attribution.
 
 **Dating.** The journal volume carries the year 1935 and no month; the day
 and month are placeholders.

@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0761
 title: Problem 761
 desc: |
-  Asks how the least number of colors whose classes induce complete or empty
-  graphs compares with the least number avoiding monochromatic oriented
-  cycles.
+  Asks whether large chromatic number forces large dichromatic number, and
+  whether large cochromatic number forces a subgraph of large dichromatic
+  number. Cochromatic classes induce complete or empty graphs, and dichromatic
+  colorings avoid monochromatic oriented cycles.
 tags:
 - Graph theory
 - Chromatic number

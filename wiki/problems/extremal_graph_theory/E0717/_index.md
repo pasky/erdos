@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0717
 title: Problem 717
 desc: |
-  Asks whether the chromatic number of an n-vertex graph is at most a constant
-  times n^{1/2}/log n times the order of its largest clique subdivision; the
-  Erdős–Fajtlowicz conjecture, proved by Fox, Lee and Sudakov in 2013.
+  Asks whether every $n$-vertex graph $G$ has
+  $\chi(G)\ll n^{1/2}\sigma(G)/\log n$, where $\sigma(G)$ is the order of the
+  largest clique subdivision in $G$. This Erdős–Fajtlowicz conjecture was proved
+  by Fox, Lee and Sudakov in 2013.
 tags:
 - Graph theory
 status: solved
@@ -41,24 +42,23 @@ showed in 1981 that $H(n)\gg n^{1/2}/\log n$, so the question is whether their
 counterexamples are of the largest possible order. Erdős's own words are quoted
 under the Current assessment.
 
-**Status.** Proved. The answer is yes:
+**Status.** Proved. The answer is yes.
 [[../library/extremal_graph_theory/fox_2013_chromatic_number_clique_subdivisions_conjectures_hajos/theorem_1_1|Theorem 1.1]]
 of Fox, Lee and Sudakov [FLS13] (Combinatorica 33 (2013), 181--197, refereed;
 paged from arXiv v3 of 14 February 2012) gives an absolute constant $C$ with
-$H(n)\le Cn^{1/2}/\log n$ for $n\ge2$, and the paper says $C=10^{120}$
-suffices, without optimizing it. The order is exact:
+$H(n)\le Cn^{1/2}/\log n$ for $n\ge2$. The paper says $C=10^{120}$ suffices,
+without optimizing it. The order is exact.
 [[../library/extremal_graph_theory/erdos_1981_conjecture_hajos/theorem_3|Theorem 3]]
 of Erdős and Fajtlowicz [ErFa81] (Combinatorica 1 (1981), 141--143, refereed)
-gives $H(G)>C\sqrt n/\log n$ for almost all graphs on $n$ vertices, and
-[FLS13] (p. 2) records the sharper
-$H(n)\ge(\frac1{e\sqrt2}-o(1))n^{1/2}/\log n$ from the random graph at
-$p=1-e^{-2}$. Acceptance evidence: publication in Combinatorica (per its
-Crossref record), the credit of the site's curator, Thomas Bloom, and the
-citing literature found by the search, which contains no
-dispute. The claim page
+gives $H(G)>C\sqrt n/\log n$ for almost all graphs on $n$ vertices. [FLS13] (p.
+2) records the sharper $H(n)\ge(\frac1{e\sqrt2}-o(1))n^{1/2}/\log n$ from the
+random graph at $p=1-e^{-2}$. The claim page
 [[problems/extremal_graph_theory/E0717/claims/2011_07_11_fox_lee_sudakov|Fox, Lee and Sudakov 2011]]
-records the result, its scope and its acceptance evidence, from which the
-frontmatter standing is derived.
+records the result, its scope and its acceptance evidence, and the frontmatter
+standing is derived from it. The acceptance evidence is publication in
+Combinatorica (per its Crossref record), the credit of the site's curator,
+Thomas Bloom, and the citing literature found by the search, which contains no
+dispute.
 
 **Source.** [erdosproblems.com/717](https://www.erdosproblems.com/717),
 accessed 2026-09-19: the problem page (PROVED, with

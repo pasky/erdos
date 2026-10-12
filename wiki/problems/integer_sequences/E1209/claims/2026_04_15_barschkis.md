@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E1209/claims/2026_04_15_barschkis
 title: Barschkis's negative answers to three questions
 desc: |
-  Barschkis's forum note of 15 April 2026, with a Lean file, answering the
-  two general questions and the always-prime question no; the site's
-  commentary carries the construction and credits the order argument.
+  Barschkis's forum note of 15 April 2026, with a Lean file, answers no to the
+  two general questions and to the always-prime question. The site's commentary
+  contains the construction and credits the order argument.
 authors:
 - Enrique Barschkis
 status: claimed

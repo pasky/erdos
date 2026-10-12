@@ -2,8 +2,9 @@
 name: problems/polynomials/E1114
 title: Problem 1114
 desc: |
-  Concerns real polynomials of degree n whose roots are all real and form an
-  arithmetic progression.
+  Asserts that if the roots $a_0<\cdots<a_n$ of a real polynomial $f$ form an
+  arithmetic progression, then the gaps between consecutive zeros of $f'$
+  increase from the midpoint of $(a_0,a_n)$ toward the endpoints.
 tags:
 - Polynomials
 - Analysis
@@ -56,11 +57,11 @@ text of Erdős's on the question is known, and the site's commentary records
 that Bálint gives none; the degree slip is the site's, and the stray index
 follows Bálint's English summary. No result concerns the site's wording.
 
-**Status.** Proved, the site's label PROVED. Bálint proved the corrected
-Statement in 1960 (published in Matematikai Lapok; the accepted claim page is
-[[problems/polynomials/E1114/claims/1960_01_01_balint|Bálint 1960]]), and
-Lorch gave generalizations in 1976. No Lean proof that the corpus built and
-audited checks the statement.
+**Status.** Proved. The site's label is PROVED. Bálint proved the corrected
+Statement in 1960, in Matematikai Lapok, and the accepted claim page is
+[[problems/polynomials/E1114/claims/1960_01_01_balint|Bálint 1960]]. Lorch gave
+generalizations in 1976. No Lean proof that the corpus built and audited checks
+the statement.
 
 **Source.** [erdosproblems.com/1114](https://www.erdosproblems.com/1114),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1114,

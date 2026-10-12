@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0548/claims/1959_09_01_erdos_gallai
 title: Erdős and Gallai, the path case of the tree edge bound
 desc: |
-  Theorem (2.6) of Erdős and Gallai (Acta Math. Acad. Sci. Hungar. 1959): a
-  graph on n vertices with more than (k-1)n/2 edges contains a path with k
-  edges, the statement of Problem 548 for every path on k+1 vertices.
+  Theorem (2.6) of Erdős and Gallai (Acta Math. Acad. Sci. Hungar. 1959) shows
+  that a graph on $n$ vertices with more than $(k-1)n/2$ edges contains a path
+  with $k$ edges. This is the statement of Problem 548 for every path on $k+1$
+  vertices.
 authors:
 - P. Erdős
 - T. Gallai
@@ -46,13 +47,13 @@ settled by the accepted claim page
 
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.
 
-**Acceptance.** Refereed: P. Erdős and T. Gallai, *On maximal paths and
-circuits of graphs*, Acta Math. Acad. Sci. Hungar. 10 (1959), no. 3--4,
-337--356, doi:10.1007/BF02024498, a refereed journal; the publisher's record
-gives the issue month, September 1959, and this page's date is the first day
-of that month. No `reviewed` evidence is listed: the site's label credits
-GPT-6 Astra with the full proof, and its commentary names Erdős and Gallai
-for the path case without a label of its own.
+**Acceptance.** Refereed: P. Erdős and T. Gallai, *On maximal paths and circuits
+of graphs*, Acta Math. Acad. Sci. Hungar. 10 (1959), no. 3--4, 337--356,
+doi:10.1007/BF02024498, a refereed journal. The publisher's record gives the
+issue month, September 1959, and this page's date is the first day of that
+month. No `reviewed` evidence is listed. The site's label credits GPT-6 Astra
+with the full proof, and its commentary names Erdős and Gallai for the path case
+without a label of its own.
 
 **Read depth.** Theorem (2.6) and the definitions of Section 2 were read in
 the text layer (Introduction and Section 2); the proof was not read, and

@@ -3,8 +3,9 @@ name: problems/set_theory/E0474/claims/1965_03_01_erdos_hajnal_rado
 title: The three-coloring exists under the continuum hypothesis
 desc: |
   Theorem 17 of Erdős, Hajnal and Rado (Acta Math. Acad. Sci. Hungar., 1965)
-  gives Problem 474's three-coloring of pairs of reals under CH, which Gödel
-  showed consistent with ZFC, so ZFC does not refute that the coloring exists.
+  gives, under CH, the three-coloring of pairs of reals that Problem 474 asks
+  for. Gödel showed CH consistent with ZFC, so ZFC does not refute that the
+  coloring exists.
 authors:
 - P. Erdős
 - A. Hajnal
@@ -73,9 +74,9 @@ answer under $\mathfrak{c}=\aleph_1$ after posing the question in 1954. No
 publication of that proof earlier than this paper is recorded here.
 
 **Acceptance.** Refereed: Acta Mathematica Academiae Scientiarum Hungaricae,
-volume 16, issue 1--2. The site labels Problem 474 NOT PROVABLE on Shelah's
-consistency result, so its remark crediting Erdős with the CH case is
-commentary, not acceptance of this claim, and no `reviewed` evidence is
-listed. The proof is not checked here.
+volume 16, issue 1--2. The site labels Problem 474 NOT PROVABLE on the basis of
+Shelah's consistency result. Its remark crediting Erdős with the CH case is
+therefore commentary, not acceptance of this claim, and no `reviewed` evidence
+is listed. The proof is not checked here.
 
 **Depends on.** Nothing in this wiki.

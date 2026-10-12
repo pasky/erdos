@@ -3,8 +3,9 @@ name: problems/additive_combinatorics/E0817/claims/1992_01_01_erdos_sarkozy
 title: Erdős and Sárközy's lower bound of order 3^n over n
 desc: |
   Theorem 4 of Erdős and Sárközy (Discrete Math. 1992) bounds the threshold
-  K(N) for a three-term progression among subset sums, which in the problem's
-  notation gives g_3(n) ≫ 3^n/n; refereed and credited by the site.
+  $K(N)$ for a three-term progression among subset sums, which gives
+  $g_3(n)\gg3^n/n$ in the problem's notation. The paper is refereed and the site
+  credits it.
 authors:
 - P. Erdős
 - A. Sárközy
@@ -74,12 +75,11 @@ $(\sqrt3/(2\sqrt\pi)+o(1))3^n/\sqrt n$ is the pending
 ternary expansion and counting.
 
 **Acceptance.** Refereed: the paper is the publisher's version of record in
-Discrete Mathematics (Crossref record, as the problem page records; the
-record gives the issue month, May 1992, and no day, so this page is named by
-the first day of its year). The site's curator, Thomas F. Bloom, credits the
-bound to Erdős and Sárközy in the problem page's commentary, with the label
-OPEN; the problem is not marked settled there, so the credit is recorded
-here and is not listed as `reviewed`. The theorem and the remark that
-follows it are checked clause by clause and the proof of Theorem 4 followed
-step by step, with the slip in the count of p. 261 noted above; this is not
-an independent review.
+Discrete Mathematics (Crossref record, as the problem page records). The record
+gives the issue month, May 1992, and no day, so this page is named by the first
+day of its year. The site's curator, Thomas F. Bloom, credits the bound to Erdős
+and Sárközy in the problem page's commentary, with the label OPEN. The problem
+is not marked settled there, so the credit is recorded here and is not listed as
+`reviewed`. The theorem and the remark that follows it are checked clause by
+clause. The proof of Theorem 4 was followed step by step, with the slip in the
+count of p. 261 noted above. This is not an independent review.

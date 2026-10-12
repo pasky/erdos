@@ -2,9 +2,8 @@
 name: problems/additive_bases/E0349
 title: Problem 349
 desc: |
-  Determines for which positive t and alpha the integer parts of t times alpha
-  to the n form a complete sequence, distinct terms summing to all large
-  integers.
+  Asks for which $t,\alpha>0$ the sequence $\lfloor t\alpha^n\rfloor$ is
+  complete, meaning that sums of distinct terms give all large integers.
 tags:
 - Number theory
 - Complete sequences
@@ -102,29 +101,31 @@ the Statement's $(1/2^{k+1},2)$. The claim pages of Graham, van Doorn and
 Sothanaphan use the Statement's sums and index.
 
 **Status.** Open, the site's label (OPEN as of 2026-10-06). Six partial claims
-are recorded and none settles the question. Accepted on refereed evidence:
+are recorded, and none settles the question. Outside the regions and the base
+$\sqrt\varphi$ proved complete, no claim classifies the pairs with
+$1<\alpha<(1+\sqrt5)/2$ and $t\ge\min(2/\alpha,3/\alpha^2)$. So the derived
+standing is `open`/`none`.
+
+One claim is accepted on refereed evidence:
 [[problems/additive_bases/E0349/claims/1964_01_01_graham|Graham's 1964
-determination of the complete pairs with $0<t<1$, $1<\alpha<2$]]. Pending:
-[[problems/additive_bases/E0349/claims/2025_09_08_van_doorn|van Doorn's 2026
-preprint]], which with Graham's results decides every $\alpha\ge(1+\sqrt5)/2$,
-classifies entire completeness for $1<\alpha\le5^{1/3}$ and proves completeness
-regions below the golden ratio;
+determination of the complete pairs with $0<t<1$, $1<\alpha<2$]]. The other five
+are pending. [[problems/additive_bases/E0349/claims/2025_09_08_van_doorn|van
+Doorn's 2026 preprint]], together with Graham's results, decides every
+$\alpha\ge(1+\sqrt5)/2$. It also classifies entire completeness for
+$1<\alpha\le5^{1/3}$ and proves completeness regions below the golden ratio.
 [[problems/additive_bases/E0349/claims/2026_03_09_sothanaphan|Sothanaphan's note
-with GPT-5.2 Thinking]], sharpening van Doorn's infinite-area region;
+with GPT-5.2 Thinking]] sharpens van Doorn's infinite-area region. Of
 [[problems/additive_bases/E0349/claims/2026_06_10_cepadugato|the catalog's Lean
-proofs of the elementary regions of the site's wording]], of which the
-completeness of the pairs $(1/2^k,2)$, $k\ge1$, carries over to the Statement;
-[[problems/additive_bases/E0349/claims/2026_09_05_kitamura|Kitamura's
-Lean theorem at the square root of the golden ratio]], which makes the sequence
-complete for every $t>0$ at that one base; and
+proofs of the elementary regions of the site's wording]], the completeness of
+the pairs $(1/2^k,2)$, $k\ge1$, carries over to the Statement.
+[[problems/additive_bases/E0349/claims/2026_09_05_kitamura|Kitamura's Lean
+theorem at the square root of the golden ratio]] makes the sequence complete for
+every $t>0$ at that one base.
 [[problems/additive_bases/E0349/claims/2026_09_06_geneson|Geneson's Salem-base
-counterexample]], a 2026 preprint stating that at one Salem number below the
-golden ratio there are arbitrarily large $t$ with every $\lfloor
-t\gamma^n\rfloor$ even, which refutes the completeness the site's remarks
-conjecture for every $t>0$ and $1<\alpha<(1+\sqrt5)/2$. The pairs with
-$1<\alpha<(1+\sqrt5)/2$ and $t\ge\min(2/\alpha,3/\alpha^2)$ are classified by no
-claim outside the regions and the base $\sqrt\varphi$ proved complete, so the
-derived standing is `open`/`none`.
+counterexample]] is a 2026 preprint. It states that at one Salem number below
+the golden ratio there are arbitrarily large $t$ with every
+$\lfloor t\gamma^n\rfloor$ even. This refutes the completeness that the site's
+remarks conjecture for every $t>0$ and $1<\alpha<(1+\sqrt5)/2$.
 
 **Source.** [erdosproblems.com/349](https://www.erdosproblems.com/349), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #349,

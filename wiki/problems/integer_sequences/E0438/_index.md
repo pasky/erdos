@@ -2,8 +2,7 @@
 name: problems/integer_sequences/E0438
 title: Problem 438
 desc: |
-  The largest subset of the first N integers whose pairwise sums include no
-  perfect square.
+  Asks how large $A\subseteq\{1,\ldots,N\}$ can be if $A+A$ contains no square.
 tags:
 - Number theory
 status: solved
@@ -23,13 +22,13 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** How large can $A\subseteq \{1,\ldots,N\}$ be if $A+A$ contains no
 square numbers?
 
-**Status.** Solved: the largest such $A$ has $(11/32+o(1))N$ elements. The
-upper bound is Theorem 3 of Khalfalah, Lodha and Szemerédi (DIMACS report of
-December 2000; Discrete Math. 256 (2002), a refereed journal), and the lower
-bound is Massias's construction of density $11/32$, after Lagarias, Odlyzko
-and Shearer had proved $11/32$ sharp for unions of residue classes and the
-general bound $0.475N$. The site labels the problem SOLVED and credits the
-paper (page last edited 7 April 2026). Claim page:
+**Status.** Solved: the largest such $A$ has $(11/32+o(1))N$ elements. The site
+labels the problem SOLVED and credits the paper (page last edited 7 April 2026).
+The upper bound is Theorem 3 of Khalfalah, Lodha and Szemerédi (DIMACS report of
+December 2000; Discrete Math. 256 (2002), a refereed journal). The lower bound
+is Massias's construction of density $11/32$. These results came after Lagarias,
+Odlyzko and Shearer had proved $11/32$ sharp for unions of residue classes and
+had proved the general bound $0.475N$. Claim page:
 [[problems/integer_sequences/E0438/claims/2000_12_01_khalfalah_lodha_szemeredi|Khalfalah, Lodha and Szemerédi 2000]]
 (accepted).
 

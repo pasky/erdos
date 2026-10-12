@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0606
 title: Problem 606
 desc: |
-  Asks which values can occur as the number of distinct lines determined by n
-  distinct points in the plane; determined for all sufficiently large n; the
-  small cases are open.
+  Asks which values can occur as the number of distinct lines determined by $n$
+  distinct points in the plane. The values are determined for all sufficiently
+  large $n$, while the small cases are open.
 tags:
 - Geometry
 status: solved
@@ -55,12 +55,12 @@ the number of lines can take, and reports without proof that every value above
 $cn^{3/2}$ occurs except $\binom n2-1$ and $\binom n2-3$ (pp. 2-3,
 [[../library/distance_problems/erdos_1985_problems_results_combinatorial_geometry/theorem_p2_line_counts|source page]]).
 
-**Status.** Solved, in the site's label, which its commentary qualifies as
-holding for all sufficiently large $n$, so the label describes the corrected
-Statement. The accepted full claim
+**Status.** Solved, in the site's label. The site's commentary qualifies the
+label as holding for all sufficiently large $n$, so the label describes the
+corrected Statement. The accepted full claim
 [[problems/discrete_geometry/E0606/claims/1988_06_01_salamon_erdos|Salamon–Erdős 1988]]
-determines the possible values for every $n\ge n^*$, which answers the
-corrected Statement. The accepted partial claim
+determines the possible values for every $n\ge n^*$. This answers the corrected
+Statement. The accepted partial claim
 [[problems/discrete_geometry/E0606/claims/1972_03_01_erdos|Erdős 1972]]
 determines the values above $c_1n^{3/2}$.
 

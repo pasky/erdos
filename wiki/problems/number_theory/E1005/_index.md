@@ -2,9 +2,10 @@
 name: problems/number_theory/E1005
 title: Problem 1005
 desc: |
-  Estimates f(n), the largest d such that Farey fractions of order n at most d
-  places apart are similarly ordered; asks if f(n) = (c + o(1))n. Marked solved
-  on Cipollini's 2026 preprint (c = 1/4, matching van Doorn's upper bound).
+  Asks to estimate $f(n)$, the largest $d$ such that Farey fractions of order
+  $n$ at most $d$ places apart are similarly ordered, and whether
+  $f(n)=(c+o(1))n$. Marked solved on Cipollini's 2026 preprint, which gives
+  $c=1/4$, matching van Doorn's upper bound.
 tags:
 - Number theory
 status: solved
@@ -55,29 +56,32 @@ $a_x/b_x$ and $a_{x+k}/b_{x+k}$ "similarly ordered" when $n>ck$; the
 question of the best $c$ is his (p. 84).
 
 **Status.** Solved, in the site's label, which marks a resolution other than a
-proof or disproof, here an estimate: the answer to the question is yes, with
-$c=1/4$. The upper half, $f(n)\le\lfloor n/4\rfloor+d$ with $d\in\{1,2,2,4\}$ by
+proof or disproof, here an estimate. The answer to the question is yes, with
+$c=1/4$. The site accepted the Cipollini preprint as the resolution. The site's
+page was last edited 1 September 2026, and its commentary states
+$f(n)=(\frac14+o(1))n$. This is a source-supported solution accepted by the
+site, distinct from a claim of journal refereeing.
+
+The upper half, $f(n)\le\lfloor n/4\rfloor+d$ with $d\in\{1,2,2,4\}$ by
 $n\bmod4$, is van Doorn's Theorem 1 (arXiv:2509.00121v1, 28 August 2025; a
-preprint with no journal record found), an accepted partial claim on
-[[problems/number_theory/E1005/claims/2025_08_28_van_doorn|its page]]; the lower
+preprint with no journal record found). It is an accepted partial claim on
+[[problems/number_theory/E1005/claims/2025_08_28_van_doorn|its page]]. The lower
 half, $f(n)\ge(\frac14-o(1))n$, is Theorem 1 of the Cipollini preprint
-(arXiv:2607.23302v1, 25 July 2026), the accepted full claim, on
-[[problems/number_theory/E1005/claims/2026_07_04_cipollini|its page]], whose
-author declares that the manuscript was written by GPT-5.5 Pro, that its
-findings and strategy are due to the author together with GPT-5.5 Thinking, and
-that Aristotle, an automated proof system, and van Doorn produced a Lean 4
-formalization. The site accepted the preprint as the resolution (its page was
-last edited 1 September 2026 and its commentary states $f(n)=(\frac14+o(1))n$).
-This is a source-supported solution accepted by the site, distinct from a claim
-of journal refereeing. Three
-external Lean developments proving the theorem for the papers' convention are
-recorded at pinned commits; they were not built or independently audited here,
-and no local kernel credit is claimed. Before Cipollini's preprint the truth was
-known to lie between $(\frac1{12}-o(1))n$ and $\frac n4+O(1)$; Erdős's 1943
-bound was $f(n)\ge n/400-1$, with $c=400$ read from his printed thresholds for
-$k\ge3$. The frontmatter standing is
-derived from the claim pages; the exact-formula claim of Wang, Xie and Zhao,
-filed on the site's tab on 28 July 2026, stays a pending full claim on
+(arXiv:2607.23302v1, 25 July 2026). It is the accepted full claim, on
+[[problems/number_theory/E1005/claims/2026_07_04_cipollini|its page]]. Its
+author declares that the manuscript was written by GPT-5.5 Pro and that its
+findings and strategy are due to the author together with GPT-5.5 Thinking. The
+author also declares that Aristotle, an automated proof system, and van Doorn
+produced a Lean 4 formalization. Three external Lean developments proving the
+theorem for the papers' convention are recorded at pinned commits. They were not
+built or independently audited here, and no local kernel credit is claimed.
+
+Before Cipollini's preprint, the truth was known to lie between
+$(\frac1{12}-o(1))n$ and $\frac n4+O(1)$. Erdős's 1943 bound was
+$f(n)\ge n/400-1$, with $c=400$ read from his printed thresholds for $k\ge3$.
+The frontmatter standing is derived from the claim pages. The exact-formula
+claim of Wang, Xie and Zhao, filed on the site's tab on 28 July 2026, stays a
+pending full claim on
 [[problems/number_theory/E1005/claims/2026_07_28_wang_xie_zhao|its page]].
 
 **Source.** [erdosproblems.com/1005](https://www.erdosproblems.com/1005),

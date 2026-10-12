@@ -2,9 +2,10 @@
 name: problems/diophantine_problems/E0445/claims/2012_04_28_browning_haynes
 title: Browning and Haynes's two-interval criterion for exponents above 3/4
 desc: |
-  Browning and Haynes's Theorem 1 with J = 1 finds an inverse pair in any two
-  intervals whose lengths multiply past C p^{3/2} log^2 p, which gives the
-  pair in every interval of length p^c for every fixed c > 3/4; refereed.
+  Theorem 1 of Browning and Haynes's refereed paper, taken with $J=1$, finds an
+  inverse pair in any two intervals whose lengths have product above
+  $Cp^{3/2}(\log p)^2$. This gives such a pair in every interval of length $p^c$
+  for every fixed $c>3/4$.
 authors:
 - T. D. Browning
 - A. Haynes

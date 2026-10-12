@@ -2,10 +2,9 @@
 name: problems/primes/E1201
 title: Problem 1201
 desc: |
-  Asks whether, for every epsilon and eta, some k makes the largest prime
-  factor of n(n+1)...(n+k) exceed n to the one minus epsilon for a set of n of
-  density at least 1 - eta, the density read as lower density following the
-  site's curator.
+  Asks whether, for all $\epsilon,\eta>0$, some $k$ makes the largest prime
+  factor of $n(n+1)\cdots(n+k)$ exceed $n^{1-\epsilon}$ on a set of $n$ of lower
+  density at least $1-\eta$, as the site's curator reads the density.
 tags:
 - Number theory
 - Primes
@@ -113,22 +112,23 @@ one, is contained in Erdős's set for $k+1$ and $\epsilon$, since
 $n^{1-\epsilon/2}>(n-1)^{1-\epsilon}$; a smaller $\eta$ absorbs the boundary
 value $1-\eta$. Under the natural-density variant both forms are open.
 
-**Status.** OPEN: the site's label, with the explanation that the question
-cannot be settled by a finite computation; the site's commentary records that
-Erdős wrote of having a proof of the case $\epsilon=1/2$. The problem has no
-entry on the proof-claims tab, but the site's thread carries Przemek Chojecki's
-note of 2026-04-30, posted as written by GPT-5.5 Pro, which deduces the precise
-Statement from the Matomäki--Radziwiłł theorem and is recorded as a pending full
-claim on
-[[problems/primes/E1201/claims/2026_04_30_chojecki|Chojecki's claim page]], and
-Chojecki's conditional natural-density note of 2026-05-01, also posted as
-written by GPT-5.5 Pro, recorded as a rejected claim on
-[[problems/primes/E1201/claims/2026_05_01_chojecki|the conditional page]], since
-it reaches the natural-density variant, and through it the precise Statement,
-only under an unproven hypothesis and only for $\epsilon<1/2$. The site has
-accepted neither. The 30 April note is a pending full claim on the precise
-Statement, not accepted by the site, so the derived standing departs from the
-label: it is claimed, with the value proved.
+**Status.** OPEN. This is the site's label, with the explanation that the
+question cannot be settled by a finite computation. The site's commentary
+records that Erdős wrote of having a proof of the case $\epsilon=1/2$. The
+derived standing departs from the label: it is claimed, with the value proved.
+The reason is that Chojecki's note of 30 April is a pending full claim on the
+precise Statement, and the site has not accepted it.
+
+The problem has no entry on the proof-claims tab. The site's thread carries two
+notes by Przemek Chojecki, both posted as written by GPT-5.5 Pro. The note of
+2026-04-30 deduces the precise Statement from the Matomäki--Radziwiłł theorem.
+It is recorded as a pending full claim on
+[[problems/primes/E1201/claims/2026_04_30_chojecki|Chojecki's claim page]]. The
+conditional natural-density note of 2026-05-01 is recorded as a rejected claim
+on [[problems/primes/E1201/claims/2026_05_01_chojecki|the conditional page]]. It
+is rejected because it reaches the natural-density variant, and through it the
+precise Statement, only under an unproven hypothesis and only for
+$\epsilon<1/2$. The site has accepted neither note.
 
 **Source.** [erdosproblems.com/1201](https://www.erdosproblems.com/1201),
 accessed 2026-09-04; its discussion thread accessed 2026-10-07. Cite as:

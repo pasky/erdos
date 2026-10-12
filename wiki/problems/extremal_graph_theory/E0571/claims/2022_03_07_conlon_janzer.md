@@ -2,8 +2,8 @@
 name: problems/extremal_graph_theory/E0571/claims/2022_03_07_conlon_janzer
 title: Conlon and Janzer, the exponents 2 minus a/b with b at least the larger of a and (a-1) squared
 desc: |
-  Conlon and Janzer (Adv. Comb. 2022): every rational 2 minus a/b with b at
-  least the larger of a and (a-1) squared is a Turán exponent, by the
+  Conlon and Janzer (Adv. Comb. 2022) show that every rational $2-a/b$ with
+  $b\ge\max(a,(a-1)^2)$ is a Turán exponent. The proof goes through the
   Bukh–Conlon upper bound for the rooted trees of Jiang, Jiang and Ma.
 authors:
 - David Conlon
@@ -48,11 +48,11 @@ $\alpha\in[1,2)$ is settled by the accepted claim page
 
 **Acceptance.** Refereed: D. Conlon and O. Janzer, *Rational exponents near
 two*, Adv. Comb. (2022), Paper No. 9, 10 pp., doi:10.19086/aic.2022.9, a
-refereed journal. First posting: arXiv:2203.03375, v1 7 March 2022 (the date
-this page is named by), v2 13 December 2022. No `reviewed` evidence is listed:
-the site's commentary lists these exponents among the Turán exponents known
-before 2026 and credits the paper, but its label credits GPT-6 Astra with the
-full proof and is not an acceptance of this result.
+refereed journal. First posting: arXiv:2203.03375, with v1 on 7 March 2022 (the
+date this page is named by) and v2 on 13 December 2022. No `reviewed` evidence
+is listed. The site's commentary lists these exponents among the Turán exponents
+known before 2026 and credits the paper. But the site's label credits GPT-6
+Astra with the full proof, and it is not an acceptance of this result.
 
 **Read depth.** The statements are taken from the paper's abstract and the
 result list on the library card; no proof was read, and nothing is

@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0150/claims/2008_03_09_fomin_villanger
 title: Fomin and Villanger's golden-ratio separator bound
 desc: |
-  Theorem 1 of Fomin and Villanger proves that an n-vertex graph has
-  O(1.6181^n) minimal separators, so the limit is at most the golden ratio;
-  accepted on the refereed paper in Combinatorica 32 (2012).
+  Theorem 1 of Fomin and Villanger proves that an $n$-vertex graph has
+  $O(1.6181^n)$ minimal separators, so the limit is at most the golden ratio.
+  The claim is accepted on the refereed paper in Combinatorica 32 (2012).
 authors:
 - Fedor V. Fomin
 - Yngve Villanger
@@ -55,6 +55,6 @@ $2$; the existence of the limit is not addressed.
 the source's result page.
 
 **Acceptance.** Refereed: the paper is a publication in Combinatorica. The
-site's curator credits the paper in the problem's commentary, but the site
-lists no parts and its label credits Bradač's note for the whole problem, so
-the credit is not listed as reviewed evidence.
+site's curator credits the paper in the problem's commentary. The site lists no
+parts, and its label credits Bradač's note for the whole problem, so the credit
+is not listed as reviewed evidence.

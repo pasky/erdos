@@ -3,8 +3,8 @@ name: problems/graph_coloring/E0063/claims/2020_10_29_liu_montgomery
 title: Powers of two from the even-cycle interval theorem
 desc: |
   Liu and Montgomery's even-cycle interval theorem, with compactness, gives
-  every graph of infinite chromatic number cycles of length a power of two for
-  infinitely many exponents; the deduction is credited to Zach Hunter.
+  every graph of infinite chromatic number cycles of length $2^m$ for infinitely
+  many $m$. The deduction is credited to Zach Hunter.
 authors:
 - Hong Liu
 - Richard Montgomery
@@ -78,9 +78,9 @@ relations*. No claim page of this wiki is a dependency.
 
 **Acceptance.** Reviewed: Thomas Bloom, the site's curator, marks the problem
 proved and credits Zach Hunter with the deduction from Liu and Montgomery's
-Theorem 1.1. The theorem the deduction rests on is refereed
-(J. Amer. Math. Soc. **36** (2023), 1191–1234), but the problem's statement is
-not itself a theorem of that paper, so the page lists no `refereed` evidence.
-The library's compilation of the proof chain, incomplete at
-[[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/lemma_3_13|Lemma 3.13]],
-is reading coverage and not acceptance evidence.
+Theorem 1.1. The theorem the deduction rests on is refereed (J. Amer. Math. Soc.
+**36** (2023), 1191–1234). But the problem's statement is not itself a theorem
+of that paper, so the page lists no `refereed` evidence. The library's
+compilation of the proof chain is incomplete at
+[[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/lemma_3_13|Lemma 3.13]].
+That compilation is reading coverage and not acceptance evidence.

@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0965
 title: Problem 965
 desc: |
-  Asks whether every two-coloring of the reals admits a set of size aleph one
-  whose sums of two distinct elements share one color; false in ZFC by Komjáth
-  and by Soukup and Weiss, after a CH proof by Hindman, Leader and Strauss.
+  Asks whether every 2-coloring of $\mathbb R$ admits a set of size $\aleph_1$
+  whose sums of two distinct elements all have one color. False in ZFC, by
+  Komjáth and by Soukup and Weiss, after Hindman, Leader and Strauss showed it
+  false under CH.
 tags:
 - Ramsey theory
 status: solved
@@ -38,30 +39,34 @@ $\aleph_1=\mathfrak c$; without CH a set of size $\aleph_1$ may be smaller
 than the continuum, and the two strands of the disproof below differ exactly
 there.
 
-**Status.** Disproved. In ZFC there is a $2$-coloring of $\mathbb R$ under
-which no uncountable set has the sums of its distinct pairs monochromatic:
-Komjáth's theorem [Ko16] (Real Anal. Exchange 41 (2016), no. 1, 227--231;
-refereed; not held, quoted second-hand from the site, the Soukup--Weiss
-manuscript and the formal-conjectures file) and, independently, Corollary 3.2
-of the Soukup--Weiss manuscript [SoWe] (unpublished as far as was found on
-2026-09-18), whose coloring makes the sums of $N$ distinct elements take both
-colors for every uncountable set and every $N\ge2$. Under CH the same follows
-from Theorem 3.2 of Hindman, Leader and Strauss [HLS17] (refereed), a ZFC
-theorem about sets of size $\mathfrak c$ whose $\aleph_1$ case needs
-$\mathfrak c=\aleph_1$; the authors state that, when $\mathfrak c>\omega_1$,
-their coloring admits a set of size $\omega_1$ whose sums of $k$ distinct
-elements are monochromatic for every $k\ge2$, and ask (Question 3.3) for a ZFC
-proof, which is what the ZFC strand supplies. Erdős himself reported in 1975
-that he could prove a negative statement under CH. The site's (Lean) suffix is
-a catalog label explained under Formalization; the external Lean file, which
-declares itself a formalization of Komjáth's argument and is linked from his
-claim page, was not built here. The claim pages
+**Status.** Disproved. In ZFC there is a $2$-coloring of $\mathbb R$ under which
+no uncountable set has the sums of its distinct pairs monochromatic. Two
+independent sources prove this. The first is Komjáth's theorem [Ko16] (Real
+Anal. Exchange 41 (2016), no. 1, 227--231; refereed). It is not held here and is
+quoted second-hand from the site, the Soukup--Weiss manuscript and the
+formal-conjectures file. The second is Corollary 3.2 of the Soukup--Weiss
+manuscript [SoWe], which was unpublished as far as was found on 2026-09-18. Its
+coloring makes the sums of $N$ distinct elements take both colors, for every
+uncountable set and every $N\ge2$.
+
+Under CH the same follows from Theorem 3.2 of Hindman, Leader and Strauss
+[HLS17] (refereed). That theorem is a ZFC theorem about sets of size
+$\mathfrak c$, and its $\aleph_1$ case needs $\mathfrak c=\aleph_1$. The authors
+state that, when $\mathfrak c>\omega_1$, their coloring admits a set of size
+$\omega_1$ whose sums of $k$ distinct elements are monochromatic for every
+$k\ge2$. They ask for a ZFC proof (Question 3.3), and the ZFC results above
+supply one. Erdős himself reported in 1975 that he could prove a negative
+statement under CH.
+
+The claim pages
 [[problems/ramsey_theory/E0965/claims/2016_01_01_komjath|Komjáth 2016]] and
 [[problems/ramsey_theory/E0965/claims/2015_09_01_soukup_weiss|Soukup and Weiss 2015]]
-record the two ZFC disproofs and
+record the two ZFC disproofs. The claim page
 [[problems/ramsey_theory/E0965/claims/2015_05_11_hindman_leader_strauss|Hindman, Leader and Strauss 2015]]
-the disproof under CH as a conditional claim; the frontmatter standing derives
-from these pages.
+records the disproof under CH as a conditional claim. The frontmatter standing
+derives from these pages. The site's (Lean) suffix is a catalog label, explained
+under Formalization. The external Lean file declares itself a formalization of
+Komjáth's argument and is linked from his claim page. It was not built here.
 
 **Source.** [erdosproblems.com/965](https://www.erdosproblems.com/965),
 accessed 2026-09-18: the problem page (DISPROVED (LEAN), the site's label

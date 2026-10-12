@@ -2,9 +2,10 @@
 name: problems/set_systems/E1020/claims/1961_01_01_erdos_ko_rado
 title: The Erdős–Ko–Rado theorem, the case k = 2
 desc: |
-  Erdős, Ko and Rado (1961) prove that an intersecting family of r-subsets of
-  an n-set with n at least 2r has at most binomial(n-1, r-1) members, which
-  is the matching conjecture for k = 2 and every uniformity; refereed.
+  Erdős, Ko and Rado (1961) prove in a refereed paper that for $n\ge2r$ an
+  intersecting family of $r$-subsets of an $n$-set has at most
+  $\binom{n-1}{r-1}$ members. This is the case $k=2$ of the matching conjecture,
+  for every uniformity.
 authors:
 - P. Erdős
 - Chao Ko
@@ -60,7 +61,7 @@ the corrected Statement at $k=2$. It says nothing about $k\ge3$.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper appeared in the Quarterly Journal of
-Mathematics, Oxford Second Series, in 1961 (volume 12, issue 1); the record
-gives only the year, so the page is dated to its first day. The site labels
-the problem FALSIFIABLE, an open label, so its commentary is not acceptance
-and no `reviewed` is listed. Nothing here rests on this project's own review.
+Mathematics, Oxford Second Series, in 1961 (volume 12, issue 1). The record
+gives only the year, so the page is dated to its first day. The site labels the
+problem FALSIFIABLE, an open label, so its commentary is not acceptance and no
+`reviewed` is listed. Nothing here rests on this project's own review.

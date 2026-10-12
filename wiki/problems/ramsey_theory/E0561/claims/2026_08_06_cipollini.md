@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0561/claims/2026_08_06_cipollini
 title: Cipollini, the star-forest formula as a lower bound up to one edge per diagonal
 desc: |
-  A three-page AI-assisted argument of August 2026: the size Ramsey number of
-  two star forests is at least the conjectured sum of diagonal maxima minus
-  at most one edge per diagonal; unreviewed, with no journal or review record.
+  Cipollini's three-page AI-assisted argument of August 2026 claims that the
+  size Ramsey number of two star forests is at least the conjectured sum of
+  diagonal maxima, minus at most one edge per diagonal. It is unreviewed, with
+  no journal or review record.
 authors:
 - Ricky Cipollini
 status: claimed

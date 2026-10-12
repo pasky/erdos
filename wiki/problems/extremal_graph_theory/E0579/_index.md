@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0579
 title: Problem 579
 desc: |
-  Asks whether a large dense graph on n vertices with no complete tripartite
-  subgraph having two vertices per class must have a linear independent set;
-  false at edge density 3/2048 by a Lean construction Conjectures.io certified.
+  Asks whether, for fixed $\delta>0$ and large $n$, every $K_{2,2,2}$-free graph
+  on $n$ vertices with at least $\delta n^2$ edges has an independent set of
+  size $\gg_\delta n$. It is false at $\delta=3/2048$ by a Lean construction
+  that Conjectures.io certified.
 tags:
 - Graph theory
 - Turán numbers
@@ -48,75 +49,77 @@ says the same with $\epsilon$ for $c$). The related
 [[problems/extremal_graph_theory/E0533/_index|Problem 533]] forbids $K_5$ and asks
 for a large triangle-free set instead of an independent set.
 
-**Status.** OPEN is the site's label, its label for a question that is open
-and that no finite computation can settle; the site's page shows no proof
-claim and its commentary records only the $\delta>1/8$ case. On the claim
-recorded here the Statement is **disproved**; the result and its acceptance
-are recorded on the claim page
+**Status.** OPEN is the site's label, its label for a question that is open and
+that no finite computation can settle. The site's page shows no proof claim, and
+its commentary records only the $\delta>1/8$ case. On the claim recorded here
+the Statement is **disproved**. The result and its acceptance are recorded on
+the claim page
 [[problems/extremal_graph_theory/E0579/claims/2026_10_03_jordan|Lean disproof certified by Conjectures.io]],
 from which the frontmatter is derived. The statement is false at
-$\delta=3/2048$: for every $c>0$ and every size threshold there is a
+$\delta=3/2048$. For every $c>0$ and every size threshold there is a
 $K_{2,2,2}$-free graph on at least that many vertices, $n$ say, with at least
-$(3/2048)n^2$ edges and independence number below $cn$, so no $c(\delta)$
-exists for $\delta\le3/2048$; in the sources' language,
-$\mathrm{RT}(n;K_{2,2,2};o(n))$ is not $o(n^2)$, so the question of Balogh and
-Lenz whether $\theta(K_{2,2,2})=0$ and Problem C of Liu, Reiher, Sharifzadeh
-and Staden are answered in the negative. The status-defining source is a Lean
-proof accepted by the bounty site Conjectures.io (record
-`e4934265-aa96-4bf5-a3c0-d01153dfcfaa`, task type disprove): the site's Lean
-kernel verified the proof, its review approved the record,
-and it certified the record on 6 October 2026 under its policy v3. The formal
-statement the site attacked is the formal-conjectures statement
-`Erdos579.erdos_579` quoted under Formalization below with its open answer
-fixed to true, which the Formulation paragraph above reads as the Statement
-clause for clause (`octahedron` is $K_{2,2,2}$, `edgeFinset.card` counts
-unordered edges, `indepNum` is the independence number). The accepted file
-proves the exact negation of that statement
-(`theorem target : ¬ (fcTypeOfName% "Erdos579.erdos_579")`) from
-`Er579.not_positiveDensityClaim`, where `PositiveDensityClaim` restates the
-universal assertion verbatim; its construction, described by the file's own
-comments as "a fully constructive refutation in finite graph theory",
-assembles from Boolean-cube stages, masked compatibility graphs and random
-perfect-matching realizations, for every $c>0$ and every threshold $N$, an
-octahedron-free graph on $n\ge N$ vertices with at least $(3/2048)n^2$ edges
-("strict counterexamples of every required order, at the fixed unordered edge
-density 3/2048") and independence number below $cn$. The record credits the
-proof to the solver Jordan; the file's copyright headers credit one author
-writing with OpenAI Codex, and its preamble says that selected portions are
-modified from the TCSlib and FABL Lean libraries and copied as source. The
-site's review is the site's own; its decision note says that the submission
-refutes the problem by constructing, for every $c>0$ and every lower bound
-$N$, a finite $K_{2,2,2}$-free graph on $n\ge N$ vertices with at least
-$(3/2048)n^2$ edges and independence number below $cn$, that the Lean kernel
-accepted the proof, and that the permitted axioms were `propext`, `Quot.sound`
-and `Classical.choice`; the site's second-kernel replay was not required for
-this task. The accepting body is the bounty site alone: this is a
+$(3/2048)n^2$ edges and independence number below $cn$. So no $c(\delta)$ exists
+for $\delta\le3/2048$. In the sources' language, $\mathrm{RT}(n;K_{2,2,2};o(n))$
+is not $o(n^2)$. This answers in the negative the question of Balogh and Lenz
+whether $\theta(K_{2,2,2})=0$, and also Problem C of Liu, Reiher, Sharifzadeh
+and Staden.
+
+The status-defining source is a Lean proof accepted by the bounty site
+Conjectures.io (record `e4934265-aa96-4bf5-a3c0-d01153dfcfaa`, task type
+disprove). The site's Lean kernel verified the proof, its review approved the
+record, and it certified the record on 6 October 2026 under its policy v3. The
+formal statement the site attacked is the formal-conjectures statement
+`Erdos579.erdos_579`, quoted under Formalization below, with its open answer
+fixed to true. The Formulation paragraph above reads that statement as the
+Statement clause for clause (`octahedron` is $K_{2,2,2}$, `edgeFinset.card`
+counts unordered edges, `indepNum` is the independence number). The accepted
+file proves the exact negation of that statement (`theorem target : ¬
+(fcTypeOfName% "Erdos579.erdos_579")`) from `Er579.not_positiveDensityClaim`,
+where `PositiveDensityClaim` restates the universal assertion verbatim. The
+file's own comments describe its construction as "a fully constructive
+refutation in finite graph theory". For every $c>0$ and every threshold $N$, the
+construction assembles an octahedron-free graph on $n\ge N$ vertices with at
+least $(3/2048)n^2$ edges ("strict counterexamples of every required order, at
+the fixed unordered edge density 3/2048") and independence number below $cn$. It
+builds this graph from Boolean-cube stages, masked compatibility graphs and
+random perfect-matching realizations. The record credits the proof to the solver
+Jordan. The file's copyright headers credit one author writing with OpenAI
+Codex. Its preamble says that selected portions are modified from the TCSlib and
+FABL Lean libraries and copied as source.
+
+The site's review is the site's own. Its decision note says that the submission
+refutes the problem by constructing, for every $c>0$ and every lower bound $N$,
+a finite $K_{2,2,2}$-free graph on $n\ge N$ vertices with at least $(3/2048)n^2$
+edges and independence number below $cn$. The note also says that the Lean
+kernel accepted the proof and that the permitted axioms were `propext`,
+`Quot.sound` and `Classical.choice`. The site's second-kernel replay was not
+required for this task. The accepting body is the bounty site alone. This is a
 source-supported solution accepted by that site, distinct from a claim of
-journal refereeing, and no refereed publication, no erdosproblems.com
-acceptance and no formal-conjectures catalog agreement was found: on
-2026-10-06 erdosproblems.com labeled the problem OPEN with no proof claim and
-the commentary summarized under Source, and the catalog's default branch left
-the answer open (Formalization below). The proof file (810,011 bytes, 18,336
-lines, its dependencies bundled as source) has a target, a pinned-statement
-definition and final theorems consistent with the site's statement, and
-contains no `sorry`, `axiom`, `native_decide`, `unsafe` or `set_option`. This
-corpus has not built the file, claims no kernel credit of its own, has not
-recomputed the construction and made no fidelity audit beyond the
-clause-for-clause reading above. The frontmatter takes the standing with these
-qualifications. What the refereed literature establishes is unchanged: Theorem
-1 of Erdős, Hajnal, Sós and Szemerédi (Combinatorica 3 (1983), 69--81,
-refereed) gives $\mathrm{RT}(n;G;o(n))\le a_ln^2(1+o(1))$ for every graph $G$
-in their class $\mathrm{Arb}(l)$, and $K_{2,2,2}\in\mathrm{Arb}(4)$ with
-$a_4=1/8$, so the statement holds for $\delta>1/8$, recorded as an accepted
-partial claim on
-[[problems/extremal_graph_theory/E0579/claims/1983_03_01_erdos_hajnal_sos_szemeredi|its claim page]];
-the paper states on p. 72 that "by Theorem 1, we know that $c(G_1)\le\frac18$
-but we have no other information" about $G_1=K_{2,2,2}$, and its (1.14) shows
-that no graph has a critical number strictly between $1/8$ and $1/4$. With the
-certified construction the Ramsey--Turán density $\theta(K_{2,2,2})$ lies in
-$[3/2048,1/8]$; the search, whose scope the Current
-assessment records, had found no source either way, and the site-certified
-record is the first.
+journal refereeing. No refereed publication, no erdosproblems.com acceptance and
+no formal-conjectures catalog agreement was found. On 2026-10-06
+erdosproblems.com labeled the problem OPEN with no proof claim and the
+commentary summarized under Source, and the catalog's default branch left the
+answer open (Formalization below). The proof file (810,011 bytes, 18,336 lines,
+its dependencies bundled as source) has a target, a pinned-statement definition
+and final theorems consistent with the site's statement. It contains no `sorry`,
+`axiom`, `native_decide`, `unsafe` or `set_option`. This corpus has not built
+the file and claims no kernel credit of its own. It has not recomputed the
+construction and has made no fidelity audit beyond the clause-for-clause reading
+above. The frontmatter takes the standing with these qualifications.
+
+What the refereed literature establishes is unchanged. Theorem 1 of Erdős,
+Hajnal, Sós and Szemerédi (Combinatorica 3 (1983), 69--81, refereed) gives
+$\mathrm{RT}(n;G;o(n))\le a_ln^2(1+o(1))$ for every graph $G$ in their class
+$\mathrm{Arb}(l)$. Since $K_{2,2,2}\in\mathrm{Arb}(4)$ with $a_4=1/8$, the
+statement holds for $\delta>1/8$. This is recorded as an accepted partial claim
+on
+[[problems/extremal_graph_theory/E0579/claims/1983_03_01_erdos_hajnal_sos_szemeredi|its claim page]].
+The paper states on p. 72 that "by Theorem 1, we know that $c(G_1)\le\frac18$
+but we have no other information" about $G_1=K_{2,2,2}$. Its (1.14) shows that
+no graph has a critical number strictly between $1/8$ and $1/4$. With the
+certified construction, the Ramsey--Turán density $\theta(K_{2,2,2})$ lies in
+$[3/2048,1/8]$. The search whose scope the Current assessment records had found
+no source either way, and the site-certified record is the first.
 
 **Provenance of the proof file.**
 https://conjectures.io/results/e4934265-aa96-4bf5-a3c0-d01153dfcfaa/solution

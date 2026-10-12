@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0355/claims/2025_09_29_van_doorn_kovac
 title: Lacunary sequences filling an interval of rationals
 desc: |
-  Van Doorn and Kovač's theorem that for every λ in (1, 2) some λ-lacunary
-  sequence has finite reciprocal sums containing every rational in [0, 2],
-  while no 2-lacunary sequence fills an open interval; the answer yes.
+  Van Doorn and Kovač's theorem that for every $\lambda\in(1,2)$ some
+  $\lambda$-lacunary sequence has finite reciprocal sums containing every
+  rational in $[0,2]$, while no $2$-lacunary sequence fills an open interval.
+  The answer is yes.
 authors:
 - Wouter van Doorn
 - Vjekoslav Kovač
@@ -73,12 +74,12 @@ filling the rationals of $[0,1)$, van Doorn's variants with lacunarity
 arbitrarily close to $2$, and the announcement of the paper on 14 September
 2025.
 
-**Acceptance.** The paper is published in Acta Arithmetica, a refereed
-journal, and its acknowledgments thank an anonymous referee; that is the
-`refereed` evidence. The site's curator, Thomas Bloom, credits the result
-to van Doorn and Kovač in the commentary of the problem page, which carries
-the label PROVED (LEAN) and was last edited 18 November 2025; the curator is
-independent of the authors, and that credit is the `reviewed` evidence.
+**Acceptance.** The paper is published in Acta Arithmetica, a refereed journal,
+and its acknowledgments thank an anonymous referee. That is the `refereed`
+evidence. The site's curator, Thomas Bloom, credits the result to van Doorn and
+Kovač in the commentary of the problem page. The problem page carries the label
+PROVED (LEAN) and was last edited 18 November 2025. The curator is independent
+of the authors, and that credit is the `reviewed` evidence.
 
 **Formalization link.** The linked Lean file, in van Doorn's repository at the
 commit of 1 June 2026 that last changed it, describes itself as a

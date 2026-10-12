@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0786
 title: Problem 786
 desc: |
-  Asks whether, for every small epsilon, some set of natural numbers of
-  density above one minus epsilon has equal products only between equally many
-  factors.
+  Asks whether, for every $\epsilon>0$, some $A\subset\mathbb{N}$ of density
+  above $1-\epsilon$ has equal products of distinct elements only with equally
+  many factors.
 tags:
 - Number theory
 status: claimed
@@ -86,26 +86,26 @@ keeps the problem OPEN until the distinct-factor reading is settled
 2 February 2026).
 
 **Status.** The site labels the problem OPEN (page last edited 11 April 2026;
-proof-claim tab accessed 2026-10-06), a label that describes the
-distinct-factor reading as unsettled. The standing derives from the claim
-pages and judges the Statement (precise). The full claim
-[[problems/integer_sequences/E0786/claims/2026_09_28_li|Li 2026]], submitted
-to the site's proof-claim tab on 28 September 2026 and declared as produced
-with GPT-6 Astra and GPT-5.6 Sol (OpenAI) and Claude (Anthropic), asserts
-negative answers to both questions under the distinct-factor reading; the
+proof-claim tab accessed 2026-10-06). That label describes the distinct-factor
+reading as unsettled. The standing derives from the claim pages and judges the
+Statement (precise). The full claim
+[[problems/integer_sequences/E0786/claims/2026_09_28_li|Li 2026]] was submitted
+to the site's proof-claim tab on 28 September 2026. It is declared as produced
+with GPT-6 Astra and GPT-5.6 Sol (OpenAI) and Claude (Anthropic). It asserts
+negative answers to both questions under the distinct-factor reading. The
 partial claim
-[[problems/integer_sequences/E0786/claims/2026_09_06_gessel|Gessel 2026]]
-of 6 September 2026 asserts the density bound $7/8$ for the first question
-under the same reading. The site has not acted on either, neither has a
-referee or named reviewer, and no Lean development of either has been built
-or audited in this corpus, so the full claim is `claimed` and the problem's
-standing is claimed, disproved. Ruzsa's negative answers to both questions
-under the distinct-factor reading, which [Er80] reports without a proof or a
-proof citation and which the site's commentary suspects came from a confusion
-of the two conventions, are a report of an unpublished result rather than a
-posted claim, so they have no claim page; Progress below records the report.
-The negative answers under the repetitions-allowed reading concern the
-reading not adopted and are recorded under Formulation.
+[[problems/integer_sequences/E0786/claims/2026_09_06_gessel|Gessel 2026]] of 6
+September 2026 asserts the density bound $7/8$ for the first question under the
+same reading. The site has not acted on either claim, and neither has a referee
+or named reviewer. No Lean development of either has been built or audited in
+this corpus. So the full claim is `claimed`, and the problem's standing is
+claimed, disproved. Ruzsa's negative answers to both questions under the
+distinct-factor reading are reported in [Er80] without a proof or a proof
+citation. The site's commentary suspects that they came from a confusion of the
+two conventions. They are a report of an unpublished result rather than a posted
+claim, so they have no claim page. Progress below records the report. The
+negative answers under the repetitions-allowed reading concern the reading not
+adopted and are recorded under Formulation.
 
 **Source.** [erdosproblems.com/786](https://www.erdosproblems.com/786), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #786,

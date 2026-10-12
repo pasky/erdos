@@ -3,8 +3,9 @@ name: problems/ramsey_theory/E0561/claims/1978_01_01_burr_erdos_faudree_rousseau
 title: Burr, Erdős, Faudree, Rousseau and Schelp, the formula for uniform star forests
 desc: |
   Theorem 1 of Burr, Erdős, Faudree, Rousseau and Schelp (Indag. Math. 1978)
-  gives the size Ramsey number of m copies of one star against n copies of
-  another, the conjectured formula when all stars of each forest are equal.
+  gives the size Ramsey number of $m$ copies of one star against $n$ copies of
+  another. This is the conjectured formula when all stars of each forest are
+  equal.
 authors:
 - S. A. Burr
 - P. Erdős
@@ -60,13 +61,13 @@ not claimed.
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Refereed: S. A. Burr, P. Erdős, R. J. Faudree, C. C.
-Rousseau and R. H. Schelp, Ramsey-minimal graphs for multiple copies,
-Nederl. Akad. Wetensch. Proc. Ser. A 81 = Indag. Math. 40 (1978), 187--195
-(communicated 17 December 1977). The Crossref record dates the paper by the
-year only, so the month and day in the page name are placeholders. The
-site's commentary credits the uniform case to this paper, but the site
-labels the problem OPEN, so its pages are not acceptance.
+**Acceptance.** Refereed: S. A. Burr, P. Erdős, R. J. Faudree, C. C. Rousseau
+and R. H. Schelp, Ramsey-minimal graphs for multiple copies, Nederl. Akad.
+Wetensch. Proc. Ser. A 81 = Indag. Math. 40 (1978), 187--195 (communicated 17
+December 1977). The Crossref record dates the paper by the year only, so the
+month and day in the page name are placeholders. The site's commentary credits
+the uniform case to this paper. But the site labels the problem OPEN, so its
+pages are not acceptance.
 
 **Read depth.** The statement and the upper-bound constructions on p. 188
 and the conjecture on p. 194 were read; the proof (pp. 188--192) was not

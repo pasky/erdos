@@ -2,8 +2,8 @@
 name: problems/distance_problems/E0090
 title: Problem 90
 desc: |
-  Asks whether n distinct points in the plane can have only about n pairs at
-  distance one, up to a factor n to the power one over the log log of n.
+  Asks whether every set of $n$ distinct points in the plane has at most
+  $n^{1+O(1/\log\log n)}$ pairs at distance $1$.
 tags:
 - Geometry
 - Distances
@@ -25,9 +25,9 @@ updated: 2026-10-08T01:29:58Z
 at most $n^{1+O(1/\log\log n)}$ many pairs which are distance 1 apart?
 
 **Status.** Disproved. The site's export of 2026-09-04 labels the problem
-"DISPROVED (LEAN)" (page last edited 20 May 2026); the corpus has built none
-of the Lean developments behind the Lean marker (see "Formalization and the
-Lean label" below).
+"DISPROVED (LEAN)" (page last edited 20 May 2026). The corpus has built none of
+the Lean developments behind the Lean marker (see "Formalization and the Lean
+label" below).
 
 **Source.** [erdosproblems.com/90](https://www.erdosproblems.com/90), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #90,

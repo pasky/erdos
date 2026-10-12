@@ -2,10 +2,9 @@
 name: problems/analysis/E0510
 title: Problem 510
 desc: |
-  Asks whether every set of N positive integers admits an angle where the sum
-  of the cosines of its members times that angle is below a negative constant
-  times root N; the site's wording over all integers fails at sets containing
-  zero.
+  Asks whether every set $A$ of $N$ positive integers has some $\theta$ with
+  $\sum_{n\in A}\cos(n\theta)<-cN^{1/2}$, for an absolute constant $c>0$. The
+  site's wording, over all integers, fails for sets containing $0$.
 tags:
 - Analysis
 status: open

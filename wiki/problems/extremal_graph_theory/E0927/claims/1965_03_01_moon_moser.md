@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0927/claims/1965_03_01_moon_moser
 title: Moon and Moser's bounds on the number of clique sizes
 desc: |
-  Moon and Moser (Israel J. Math. 1965) bound g(n) below by
-  n − [log n] − 2[log log n] − 4 and above by n − [log n], logarithms base 2;
-  the upper half of the estimate g(n) = n − log_2 n + O(1); refereed.
+  Moon and Moser (Israel J. Math. 1965) bound $g(n)$ below by
+  $n-[\log n]-2[\log\log n]-4$ and above by $n-[\log n]$, with logarithms to
+  base 2. The paper is refereed, and its upper bound is the upper half of the
+  estimate $g(n)=n-\log_2n+O(1)$.
 authors:
 - J. W. Moon
 - L. Moser
@@ -52,11 +53,11 @@ Not covered: the iterated-logarithm question, which Spencer's bound refutes.
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Refereed: Israel Journal of Mathematics, volume 3, issue 1,
-pp. 23--28, issued March 1965 (the day is the issue's nominal first day,
-used for this page's date). The site's commentary attributes both bounds to
-the paper, but the curator's label credits Spencer's disproof, so no
-`reviewed` evidence is listed. The source has a library
+**Acceptance.** Refereed: Israel Journal of Mathematics, volume 3, issue 1, pp.
+23--28, issued March 1965. This page's date is the issue's nominal first day.
+The site's commentary attributes both bounds to the paper, but the curator's
+label credits Spencer's disproof, so no `reviewed` evidence is listed. The
+source has a library
 [[../library/extremal_graph_theory/moon_moser_1965_cliques_graphs/_index|source card]].
 
 **Read depth.** The page rests on the definitions (p. 23), the statements of

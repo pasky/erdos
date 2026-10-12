@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0140/claims/2023_02_10_kelley_meka
 title: Kelley and Meka's quasipolynomial bound for three-term progressions
 desc: |
-  Theorem 1.1 of Kelley and Meka (FOCS 2023) bounds a progression-free subset
-  of the first N integers by N over any fixed power of log N; accepted on the
-  site's credit and Bloom and Sisask's refereed exposition.
+  Theorem 1.1 of Kelley and Meka (FOCS 2023) bounds the size of a
+  progression-free subset of the first $N$ integers by $N/(\log N)^C$ for every
+  fixed $C$. It is accepted on the site's credit and on Bloom and Sisask's
+  refereed exposition.
 authors:
 - Zander Kelley
 - Raghu Meka
@@ -53,20 +54,21 @@ absolute $c>0$, gave a single power above one and not every power.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Reviewed: the site's curator (T. F. Bloom) labels the
-problem proved and credits the proof to Kelley and Meka, citing [KeMe23]
-(page last edited 20 December 2025; its discussion thread and proof-claim tab
-were empty on 2026-10-07), and Bloom and Sisask, two named experts on the
+**Acceptance.** Reviewed: the site's curator (T. F. Bloom) labels the problem
+proved and credits the proof to Kelley and Meka, citing [KeMe23] (page last
+edited 20 December 2025). The page's discussion thread and proof-claim tab were
+empty on 2026-10-07. In addition, Bloom and Sisask, two named experts on the
 problem, re-derived the full argument in their refereed exposition *The
 Kelley--Meka bounds for sets free of three-term arithmetic progressions*,
-Essential Number Theory 2 (2023), 15--44, doi:10.2140/ent.2023.2.15, and
-then sharpened the exponent to $1/9$ in arXiv:2309.02353
+Essential Number Theory 2 (2023), 15--44, doi:10.2140/ent.2023.2.15. They then
+sharpened the exponent to $1/9$ in arXiv:2309.02353
 ([[../library/additive_combinatorics/bloom_2023_improvement_kelley_meka_bounds_three_term/theorem_1|Theorem 1 there]]).
-Not refereed: the paper appeared in the proceedings of the 2023 IEEE 64th
-Annual Symposium on Foundations of Computer Science (FOCS 2023), pp.
-933--973, doi:10.1109/FOCS57990.2023.00059, a conference proceedings and not
-a journal, and no journal version is recorded (Crossref, 2026-09-18), so
-`refereed` is not listed. This corpus has not reviewed the proof.
+
+Not refereed: the paper appeared in the proceedings of the 2023 IEEE 64th Annual
+Symposium on Foundations of Computer Science (FOCS 2023), pp. 933--973,
+doi:10.1109/FOCS57990.2023.00059. These are conference proceedings and not a
+journal. No journal version is recorded (Crossref, 2026-09-18), so `refereed` is
+not listed. This corpus has not reviewed the proof.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos140.lean` of
 Boris Alexeev's lean-proofs repository (Lean and Mathlib v4.33.0; added

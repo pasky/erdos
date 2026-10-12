@@ -2,8 +2,8 @@
 name: problems/primes/E0681
 title: Problem 681
 desc: |
-  Asks whether every large n has some k for which n plus k is composite and
-  the least prime factor of n plus k exceeds k squared.
+  Asks whether every large $n$ has some $k$ such that $n+k$ is composite and
+  $p(n+k)>k^2$, where $p(m)$ is the least prime factor of $m$.
 tags:
 - Number theory
 - Primes

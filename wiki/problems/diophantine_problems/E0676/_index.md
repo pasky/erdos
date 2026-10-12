@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0676
 title: Problem 676
 desc: |
-  Asks whether every sufficiently large integer has the form a times a prime
-  squared plus b, with a at least one and b less than that prime.
+  Asks whether every sufficiently large integer has the form $ap^2+b$ with $p$
+  prime, $a\ge1$ and $0\le b<p$.
 tags:
 - Number theory
 status: open
@@ -30,10 +30,10 @@ for some prime $p$ and integer $a\geq 1$ and $0\leq b<p$?
 
 **Status.** Open. The site's label is OPEN (page last edited 2026-04-07,
 proof-claims tab accessed 2026-10-06). The tab carries one full proof claim,
-submitted 2026-07-25 by Rafik Zeraoulia with a write-up on Zenodo; its own
-summary describes the work as partial progress and not a proof, so it is
+submitted 2026-07-25 by Rafik Zeraoulia with a write-up on Zenodo. The claim's
+own summary describes the work as partial progress and not a proof. So it is
 recorded as withdrawn below a proof on
-[[problems/diophantine_problems/E0676/claims/2026_07_25_zeraoulia|its claim page]]
+[[problems/diophantine_problems/E0676/claims/2026_07_25_zeraoulia|its claim page]],
 and the standing takes nothing from it.
 
 **Source.** [erdosproblems.com/676](https://www.erdosproblems.com/676), accessed

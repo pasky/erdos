@@ -2,8 +2,9 @@
 name: problems/discrete_geometry/E0798
 title: Problem 798
 desc: |
-  The fewest points in the n by n grid of integers whose pairwise connecting
-  lines cover every point of that grid.
+  Asks to estimate $t(n)$, the fewest points in the grid $\{1,\ldots,n\}^2$
+  whose pairwise connecting lines cover every point of the grid, and in
+  particular whether $t(n)=o(n)$.
 tags:
 - Geometry
 status: solved
@@ -26,7 +27,7 @@ in $\{1,\ldots,n\}^2$.
 
 Estimate $t(n)$. In particular, is it true that $t(n)=o(n)$?
 
-**Status.** PROVED (LEAN). The site credits the resolution to Alon [Al91]; the
+**Status.** PROVED (LEAN). The site credits the resolution to Alon [Al91]. The
 claim page [[problems/discrete_geometry/E0798/claims/1991_09_01_alon|Alon]]
 records the result and its acceptance.
 

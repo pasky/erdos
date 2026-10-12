@@ -2,11 +2,11 @@
 name: problems/set_theory/E1167/claims/2026_01_31_zeraoulia
 title: Zeraoulia's counterexample to the site's wording
 desc: |
-  Answers the site's wording (no condition on gamma or on the kappa_alpha),
-  not the corrected Statement (gamma at least 2 and every kappa_alpha above
-  r), so it does not count toward the problem's standing. With one color and
-  target lambda^+, the premise of the stepping-up implication holds and its
-  conclusion fails; a self-published note.
+  Answers the site's wording (no condition on $\gamma$ or on the
+  $\kappa_\alpha$), not the corrected Statement ($\gamma\ge2$ and every
+  $\kappa_\alpha>r$), so it does not count toward the problem's standing. With
+  one color and target $\lambda^+$, the premise of the stepping-up implication
+  holds and its conclusion fails. The source is a self-published note.
 authors:
 - Rafik Zeraoulia
 status: rejected
@@ -60,9 +60,8 @@ $\kappa_0=\aleph_1$, $\lambda=\aleph_0$) as its test lemma
 formalization of this note, and the corpus has not built it, so it gives no
 `formalized` evidence.
 
-**Acceptance.** None documented. The note has no journal record. The site
-labels the problem OPEN, and its curator's reply in the discussion thread
-points to the conditions of Komjáth's Problem 2 rather than accepting a
-disproof, so the reply is not acceptance. The claim is rejected, and
-acceptance would not change that, since the rejection concerns what the
-result answers.
+**Acceptance.** None documented. The note has no journal record. The site labels
+the problem OPEN. In the discussion thread, the curator's reply points to the
+conditions of Komjáth's Problem 2 rather than accepting a disproof, so the reply
+is not acceptance. The claim is rejected. Acceptance would not change that,
+since the rejection concerns what the result answers.

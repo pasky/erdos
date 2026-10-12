@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0130
 title: Problem 130
 desc: |
-  Asks how large the chromatic and clique numbers can be for the
-  integer-distance graph on an infinite plane set with no three collinear and
-  no four concyclic.
+  Asks how large the chromatic and clique numbers can be for the graph joining
+  points at integer distance in an infinite plane set with no three points on a
+  line and no four on a circle.
 tags:
 - Graph theory
 - Chromatic number
@@ -30,15 +30,15 @@ if they are an integer distance apart.
 How large can the chromatic number and clique number of this graph be? In
 particular, can the chromatic number be infinite?
 
-**Status.** Open. Two pending partial claims answer the particular question yes:
-Lloyd.H's proof claim of 17 July 2026 on the site's proof-claims tab, recorded
-on
-[[problems/distance_problems/E0130/claims/2026_07_17_lloyd_h|its claim page]],
-and Star Fleet Math's Lean development, posted on its site by 15 July 2026, two
-days before Lloyd.H's claim, recorded on
-[[problems/distance_problems/E0130/claims/2026_07_15_snyder|its claim page]] and
-linked by the formal-conjectures catalog as the statement's formal proof. The
-site's label is OPEN and its page credits neither.
+**Status.** Open. The site's label is OPEN, and its page credits neither of the
+two claims below. Two pending partial claims answer the particular question yes.
+The first is Lloyd.H's proof claim of 17 July 2026 on the site's proof-claims
+tab, recorded on
+[[problems/distance_problems/E0130/claims/2026_07_17_lloyd_h|its claim page]].
+The second is Star Fleet Math's Lean development, posted on its site by 15 July
+2026, two days before Lloyd.H's claim. It is recorded on
+[[problems/distance_problems/E0130/claims/2026_07_15_snyder|its claim page]],
+and the formal-conjectures catalog links it as the statement's formal proof.
 
 **Source.** [erdosproblems.com/130](https://www.erdosproblems.com/130), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #130,

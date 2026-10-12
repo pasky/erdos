@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0339
 title: Problem 339
 desc: |
-  Asks whether the integers that are sums of exactly r distinct elements of a
-  basis of order r must have positive lower density.
+  Asks whether the integers that are sums of exactly $r$ distinct elements of a
+  basis of order $r$ must have positive lower density.
 tags:
 - Number theory
 - Additive bases
@@ -25,10 +25,10 @@ updated: 2026-10-08T01:29:58Z
 of integers representable as the sum of exactly $r$ distinct elements from $A$
 have positive lower density?
 
-**Status.** The site labels the problem proved (page last edited
-2025-10-14): Hegyvári, Hennecart and Plagne [HHP03] answered it, and the
-companion upper-density question of Erdős and Graham, in the affirmative.
-The accepted claim is
+**Status.** The site labels the problem proved (page last edited 2025-10-14).
+Hegyvári, Hennecart and Plagne [HHP03] answered it in the affirmative, together
+with the companion upper-density question of Erdős and Graham. The accepted
+claim is
 [[problems/additive_bases/E0339/claims/2003_01_07_hegyvari_hennecart_plagne|Hegyvári, Hennecart and Plagne 2003]].
 
 **Source.** [erdosproblems.com/339](https://www.erdosproblems.com/339), accessed

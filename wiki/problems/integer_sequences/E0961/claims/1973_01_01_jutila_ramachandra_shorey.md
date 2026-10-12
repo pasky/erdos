@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0961/claims/1973_01_01_jutila_ramachandra_shorey
 title: The Jutila-Ramachandra-Shorey iterated-logarithm bound on f(k)
 desc: |
-  Jutila, Ramachandra and Shorey bound f(k) by a constant times k log log log
-  k over log k log log k, the record upper bound, as Erdős's 1976 survey
-  attests it.
+  Jutila, Ramachandra and Shorey bound $f(k)$ by
+  $c_1k\log\log\log k/(\log k\log\log k)$ for a constant $c_1$. This is the
+  record upper bound, as Erdős's 1976 survey attests.
 authors:
 - M. Jutila
 - K. Ramachandra
@@ -56,7 +56,6 @@ the year of the earliest of the three papers.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed, through the journal publications in the Journal
-of the Indian Mathematical Society and Acta Arithmetica, as Erdős's survey
-attests them. The site labels the problem OPEN, so its commentary gives no
-`reviewed` evidence.
+**Acceptance.** Refereed: the results appeared in the Journal of the Indian
+Mathematical Society and in Acta Arithmetica, as Erdős's survey attests. The
+site labels the problem OPEN, so its commentary gives no `reviewed` evidence.

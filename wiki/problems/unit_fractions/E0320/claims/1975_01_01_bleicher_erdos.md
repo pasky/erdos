@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0320/claims/1975_01_01_bleicher_erdos
 title: Bleicher and Erdős's 1975 lower bound for log S(N)
 desc: |
-  Bleicher and Erdős's Corollary 3: log S(N) is at least N log 2 / log N
-  times the iterated-logarithm product up to depth k, when log_k N >= k;
-  below the order of magnitude by an unbounded factor.
+  Bleicher and Erdős's Corollary 3:
+  $\log S(N)\ge\frac{N\log2}{\log N}\prod_{j=3}^{k}\log_jN$ when $\log_kN\ge k$.
+  This falls below the order of magnitude by an unbounded factor.
 authors:
 - M. N. Bleicher
 - P. Erdős

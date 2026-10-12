@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0182/claims/2022_04_26_janzer_sudakov
 title: Janzer and Sudakov's log log bound
 desc: |
-  Theorem 1.2 gives, for every k, a constant C(k) such that average degree
-  C(k) log log n forces a k-regular subgraph, so the maximum is at most a
-  constant times n log log n and the answer is yes; Forum Math. Pi 11 (2023).
+  Janzer and Sudakov, Forum Math. Pi 11 (2023), prove in Theorem 1.2 that for
+  every $k$ there is a constant $C(k)$ such that average degree $C(k)\log\log n$
+  forces a $k$-regular subgraph. So the maximum is at most a constant times
+  $n\log\log n$, and the answer is yes.
 authors:
 - O. Janzer
 - B. Sudakov
@@ -58,12 +59,11 @@ and the dependence on $k$ is settled by the accepted claim of
 [[problems/extremal_graph_theory/E0182/claims/1995_01_01_pyber_rodl_szemeredi|Pyber, Rödl and Szemerédi]],
 whose lower bound fixes the order $n\log\log n$.
 
-**Acceptance.** Refereed: Forum of Mathematics, Pi, received 2 November
-2022, accepted 29 June 2023, published online 24 July 2023 (the journal
-text prints the received and accepted dates; the online date is from the
-Crossref record). Reviewed: the site's curator, Thomas
-Bloom, labeled the problem PROVED and wrote in its commentary that Janzer
-and Sudakov resolved it with this theorem (erdosproblems.com/182, last edited
-7 March 2026); Bloom is independent of the authors. No formalization exists:
-the site shows the statement as not formalized and formal-conjectures has no
-file for the problem.
+**Acceptance.** Refereed: Forum of Mathematics, Pi, received 2 November 2022,
+accepted 29 June 2023, published online 24 July 2023. The journal text prints
+the received and accepted dates, and the online date is from the Crossref
+record. Reviewed: the site's curator, Thomas Bloom, labeled the problem PROVED
+and wrote in its commentary that Janzer and Sudakov resolved it with this
+theorem (erdosproblems.com/182, last edited 7 March 2026). Bloom is independent
+of the authors. No formalization exists: the site shows the statement as not
+formalized, and formal-conjectures has no file for the problem.

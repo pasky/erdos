@@ -2,11 +2,11 @@
 name: problems/extremal_graph_theory/E0180/claims/2022_07_25_wigderson
 title: The two-forest counterexample
 desc: |
-  Answers the site's wording (every finite family), not the corrected
-  Statement (every family other than a star with a matching), so it does not
-  count toward the problem's standing. The two-edge star and the two-edge
-  matching have joint extremal number 1 while each alone has linear extremal
-  number; Wigderson's note records the folklore example.
+  Answers the site's wording (every finite family), not the corrected Statement
+  (every family other than a star with a matching), so it does not count toward
+  the problem's standing. Wigderson's note records the folklore example: the
+  two-edge star and the two-edge matching have joint extremal number 1, while
+  each alone has a linear extremal number.
 authors:
 - Yuval Wigderson
 status: rejected
@@ -61,18 +61,16 @@ the problem page's Notes give the evidence. This family is one of those
 excluded, so the counterexample settles no instance of the corrected
 Statement. The problem page's Notes credit the result.
 
-**Acceptance.** No outside acceptance of this note is documented. The
-site's curator records the family in the problem's commentary as the
-folklore counterexample provided by Hunter, with
-$\mathrm{ex}(n;\mathcal F)\ll1$ and $\mathrm{ex}(n;H_i)\asymp n$ for both
-members (erdosproblems.com/180, commentary last edited 31 August 2026), but
-credits the thread post rather than this note,
-writes that the conjecture may still hold for every other family, and
-attaches the
-DISPROVED (LEAN) label to the accepted
+**Acceptance.** No outside acceptance of this note is documented. The site's
+curator records the family in the problem's commentary as the folklore
+counterexample provided by Hunter, with $\mathrm{ex}(n;\mathcal F)\ll1$ and
+$\mathrm{ex}(n;H_i)\asymp n$ for both members (erdosproblems.com/180, commentary
+last edited 31 August 2026). But the curator credits the thread post rather than
+this note. The curator also writes that the conjecture may still hold for every
+other family, and attaches the DISPROVED (LEAN) label to the accepted
 [[problems/extremal_graph_theory/E0180/claims/2026_08_01_openai|OpenAI disproof]]
-of the form that excludes forests; that credit does not treat the family as
-settling the problem, so `reviewed` is not listed. The note is unpublished,
-so `refereed` is not listed; the elementary check on the problem page is
-this project's and warrants nothing. The no-forest variant is not this
-claim's subject.
+of the form that excludes forests. That credit does not treat the family as
+settling the problem, so `reviewed` is not listed. The note is unpublished, so
+`refereed` is not listed. The elementary check on the problem page is this
+project's own and warrants nothing. The no-forest variant is not the subject of
+this claim.

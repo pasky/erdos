@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0167
 title: Problem 167
 desc: |
-  Asks whether a graph with at most k edge-disjoint triangles can be made
-  triangle-free by deleting at most 2k edges (Tuza's conjecture); open, the
-  site's label falsifiable, with Haxell's 66/23 the best refereed constant.
+  Asks whether a graph with at most $k$ edge-disjoint triangles can be made
+  triangle-free by deleting at most $2k$ edges (Tuza's conjecture). It is open,
+  the site's label is falsifiable, and Haxell's $66/23$ is the best refereed
+  constant.
 tags:
 - Graph theory
 status: open
@@ -37,27 +38,27 @@ $\nu=2$, $\tau=4$ (recomputed on the origin's result page). A single graph with
 $\tau>2\nu$ would answer no, which is what the site's label FALSIFIABLE records:
 the problem is open, and one finite counterexample would settle it.
 
-**Status.** Falsifiable, the site's label (FALSIFIABLE): the problem is open
-and a single finite counterexample would disprove it. The label is a note on
-an open problem, not a claim; no proof claim on the statement for every
-graph is recorded on the site or found elsewhere. No proof, disproof or
-proof claim for the statement was found in the search
-whose scope the Current assessment records. The best refereed general bound
-is Haxell's $\tau(G)\le\frac{66}{23}\nu(G)$ (Discrete Math. 1999, Theorem 5,
-its four-lemma proof followed); two preprints of August and September 2026
-claim $\frac{63}{22}$ and $\frac{165}{59}\approx2.797$, unreviewed, and as
-constants above $2$ they settle no instance, so they have no claim pages.
-The conjecture holds for the binomial random graph at every density with
-high probability (Kahn and Park, Theorem 1.2, refereed) and for several
-classes attested second-hand (planar graphs, $K_4$-free planar graphs with
-constant $\frac32$, small treewidth, threshold graphs, dense graphs). The
-refereed results of
+**Status.** Falsifiable. The site labels the problem FALSIFIABLE: it is open,
+and a single finite counterexample would disprove it. The label is a note on an
+open problem, not a claim. No proof claim on the statement for every graph is
+recorded on the site or found elsewhere. No proof, disproof or proof claim for
+the statement was found in the search whose scope the Current assessment
+records. The refereed results of
 [[problems/extremal_graph_theory/E0167/claims/2024_05_18_chahua_gutierrez|Chahua and Gutiérrez]]
-are an accepted partial claim on its claim page; they do not decide the
-question for every graph, so the standing stays open. The classes attested
-second-hand have no claim pages until each statement is checked in its paper
-or a review. This is a bounded negative finding, not a certificate of
-openness.
+are an accepted partial claim on its claim page. They do not decide the question
+for every graph, so the standing stays open. This is a bounded negative finding,
+not a certificate of openness.
+
+The best refereed general bound is Haxell's $\tau(G)\le\frac{66}{23}\nu(G)$
+(Discrete Math. 1999, Theorem 5, its four-lemma proof followed). Two preprints
+of August and September 2026 claim $\frac{63}{22}$ and
+$\frac{165}{59}\approx2.797$, and they are unreviewed. As constants above $2$
+they settle no instance, so they have no claim pages. The conjecture holds for
+the binomial random graph at every density with high probability (Kahn and Park,
+Theorem 1.2, refereed). It also holds for several classes attested second-hand
+(planar graphs, $K_4$-free planar graphs with constant $\frac32$, small
+treewidth, threshold graphs, dense graphs). These classes have no claim pages
+until each statement is checked in its paper or a review.
 
 **Source.** [erdosproblems.com/167](https://www.erdosproblems.com/167),
 accessed 2026-09-19: the problem page (FALSIFIABLE, with the site's note

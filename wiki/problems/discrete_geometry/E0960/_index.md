@@ -2,8 +2,9 @@
 name: problems/discrete_geometry/E0960
 title: Problem 960
 desc: |
-  Determines how many ordinary lines a set of n planar points with no k on a
-  line must have to force r of the points to span only ordinary lines.
+  Asks how many ordinary lines $n$ points in the plane with no $k$ on a line
+  must have to force $r$ of the points to span only ordinary lines, and whether
+  $o(n^2)$ suffice.
 tags:
 - Geometry
 status: solved
@@ -28,10 +29,10 @@ such that all $\binom{r}{2}$ many lines determined by $A'$ are ordinary.
 
 Is it true that $f_{r,k}(n)=o(n^2)$, or perhaps even $\ll n$?
 
-**Status.** Disproved: the site credits a construction of Alexeev, Putterman,
-Sawhney, Sellke and Valiant (April 2026), whose proof the authors attribute to
-an internal model at OpenAI, giving $f_{r,k}(n)\geq n^2/12-O(n)$ for every
-$r\geq3$ and $k\geq4$; see the
+**Status.** Disproved. The site credits a construction of Alexeev, Putterman,
+Sawhney, Sellke and Valiant (April 2026) that gives $f_{r,k}(n)\geq n^2/12-O(n)$
+for every $r\geq3$ and $k\geq4$. The authors attribute its proof to an internal
+model at OpenAI. See the
 [[problems/discrete_geometry/E0960/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant|claim page]].
 
 **Source.** [erdosproblems.com/960](https://www.erdosproblems.com/960), accessed

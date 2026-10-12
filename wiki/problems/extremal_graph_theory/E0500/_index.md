@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0500
 title: Problem 500
 desc: |
-  Asks for the largest number of triples on n vertices with no four vertices
-  carrying all four of their triples, Turán's tetrahedron problem; the
-  density lies between Turán's 5/9 and a flag-algebra bound of 0.5615.
+  Asks for $\mathrm{ex}_3(n,K_4^3)$, the largest number of triples on $n$
+  vertices with no four vertices carrying all four of their triples (Turán's
+  tetrahedron problem). The density lies between Turán's $5/9$ and a
+  flag-algebra bound of $0.5615$.
 tags:
 - Graph theory
 - Hypergraphs
@@ -36,27 +37,27 @@ the site's $\mathrm{ex}_3(n,K_4^3)$ is one less than Turán's $g(n;3,4)$ of
 [Er71], the smallest number of triples forcing a $K_4^3$, and one less than
 the $f(n)$ of [Er61], item 8.
 
-**Status.** Open. Turán's construction (three almost equal parts $X_1,X_2,X_3$;
-the triples with one vertex in each part and the triples with two vertices in
-$X_i$ and one in $X_{i+1}$) gives
-$\mathrm{ex}_3(n,K_4^3)\ge(\tfrac59+o(1))\binom n3$, and Turán conjectured
-that this is the truth. The best rigorous upper bound on record is
-$\pi(K_4^3)\le0.5615$, from Section 5.1 of Baber's 2012 preprint [Ba12]
-([[../library/extremal_graph_theory/baber_2012_turan_densities_hypercubes/bound_p14|result page]];
-a flag-algebra certificate whose data are on arXiv; no refereed version
-found, so the preprint qualification applies). Razborov's refereed Theorem 1
+**Status.** Open. Turán's construction gives
+$\mathrm{ex}_3(n,K_4^3)\ge(\tfrac59+o(1))\binom n3$, and Turán conjectured that
+this is the truth. The construction splits the vertices into three almost equal
+parts $X_1,X_2,X_3$. Its triples are those with one vertex in each part and
+those with two vertices in $X_i$ and one in $X_{i+1}$. The best rigorous upper
+bound on record is $\pi(K_4^3)\le0.5615$, from Section 5.1 of Baber's 2012
+preprint [Ba12]
+([[../library/extremal_graph_theory/baber_2012_turan_densities_hypercubes/bound_p14|result page]]).
+It is a flag-algebra certificate whose data are on arXiv. No refereed version
+was found, so the preprint qualification applies. Razborov's refereed Theorem 1
 [Ra10]
 ([[../library/extremal_graph_theory/razborov_2010_3_hypergraphs_forbidden_4_vertex_configurations/theorem_1|result page]])
 settles the density at $5/9$ only under the additional exclusion of four
-vertices spanning exactly one edge, and the 2008 preprint records the
-unrestricted figure $0.561666$ as a floating-point computation that Razborov
-did not convert into a rigorous proof; before it the rigorous record was
-Chung and Lu's $\pi(K_4^3)\le(3+\sqrt{17})/12\approx0.5936$, as Razborov
-quotes it. The site's figure $0.5611666$ matches neither [Ra10] nor [Ba12]
-and is recorded below as a discrepancy. No proof of $5/9$, no better
-construction and no new rigorous upper bound was found in the search whose
-scope the Current assessment records. This is a bounded negative finding,
-not a certificate of openness.
+vertices spanning exactly one edge. The 2008 preprint records the unrestricted
+figure $0.561666$ as a floating-point computation that Razborov did not convert
+into a rigorous proof. Before it, the rigorous record was Chung and Lu's
+$\pi(K_4^3)\le(3+\sqrt{17})/12\approx0.5936$, as Razborov quotes it. The site's
+figure $0.5611666$ matches neither [Ra10] nor [Ba12] and is recorded below as a
+discrepancy. The search whose scope the Current assessment records found no
+proof of $5/9$, no better construction and no new rigorous upper bound. This is
+a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/500](https://www.erdosproblems.com/500),
 accessed 2026-09-18: the problem page (OPEN, with the

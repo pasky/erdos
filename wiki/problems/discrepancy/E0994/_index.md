@@ -2,9 +2,8 @@
 name: problems/discrepancy/E0994
 title: Problem 994
 desc: |
-  Asks whether, for almost every alpha, the fractional parts of its integer
-  multiples visit every measurable set in the unit interval with frequency its
-  measure.
+  Asks whether, for almost every $\alpha$, the fractional parts $\{k\alpha\}$
+  visit every measurable set $E\subseteq(0,1)$ with frequency $\lambda(E)$.
 tags:
 - Analysis
 - Discrepancy
@@ -68,15 +67,15 @@ in Boris Alexeev's lean-proofs collection (in the repository since 2026-08-17;
 formal authors Codex and GPT-5.6 Sol, as the file names them), both proving the
 orbit argument in Lean.
 
-**Status.** DISPROVED (LEAN), the label the community database that the site
-displays lists as of its last update on 2026-09-16 (the site's label on
-2026-09-04 was DISPROVED): Khintchine's question of 1923 [Kh23], which Erdős's
-1964 problem paper [Er64b] calls a conjecture, was refuted by Marstrand [Ma70],
-so the precise Statement is false, and the site's wording is false in either
+**Status.** DISPROVED (LEAN). This is the label listed by the community database
+that the site displays, as of its last update on 2026-09-16. The site's label on
+2026-09-04 was DISPROVED. Khintchine's question of 1923 [Kh23], which Erdős's
+1964 problem paper [Er64b] calls a conjecture, was refuted by Marstrand [Ma70].
+So the precise Statement is false. The site's wording is also false in either
 order of its two quantifiers, as the accepted claim
 [[problems/discrepancy/E0994/claims/1970_11_01_marstrand|Marstrand 1970]]
 explains. The Lean behind the qualifier is a third-party formalization of
-Marstrand's disproof in the fixed-set order, not built or audited in this
+Marstrand's disproof in the fixed-set order. It is not built or audited in this
 corpus.
 
 **Source.** [erdosproblems.com/994](https://www.erdosproblems.com/994), accessed

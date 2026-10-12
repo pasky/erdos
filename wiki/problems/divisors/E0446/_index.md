@@ -2,8 +2,9 @@
 name: problems/divisors/E0446
 title: Problem 446
 desc: |
-  The growth rate of the density of integers having a divisor strictly between
-  n and twice n.
+  Asks for the growth rate of the density $\delta(n)$ of integers with a divisor
+  in $(n,2n)$, and whether those with exactly one such divisor have density
+  $o(\delta(n))$.
 tags:
 - Number theory
 - Divisors
@@ -27,7 +28,7 @@ divisible by some integer in $(n,2n)$. What is the growth rate of $\delta(n)$?
 If $\delta_1(n)$ is the density of integers which have exactly one divisor in
 $(n,2n)$ then is it true that $\delta_1(n)=o(\delta(n))$?
 
-**Status.** Solved. The site's label; Ford determined the order of
+**Status.** Solved. This is the site's label. Ford determined the order of
 $\delta(n)$ and answered the second question no, as the claim page below
 records.
 

@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E1079/claims/1981_08_01_bollobas_thomason
 title: Bollobás and Thomason's dense-neighborhood theorem
 desc: |
   Bollobás and Thomason (J. Combin. Theory Ser. B 1981) prove that a graph with
-  at least the Turán number of edges is the Turán graph or has a linear-degree
-  vertex with a dense neighborhood; refereed, named by the site, cited by Bondy.
+  at least the Turán number of edges either is the Turán graph or has a vertex
+  of linear degree with a dense neighborhood. The paper is refereed, named by
+  the site and cited by Bondy.
 authors:
 - Béla Bollobás
 - Andrew Thomason
@@ -82,21 +83,24 @@ built or audited it, so it gives no `formalized` evidence.
 **Depends on.** Nothing in this wiki; the argument is self-contained.
 
 **Acceptance.** Refereed: Journal of Combinatorial Theory, Series B (the
-Crossref record: volume 31, issue 1, pp. 111--114, issued August 1981; the day
-is the issue's nominal first day, used for this page's date). Reviewed: the
-site's curator, T. F. Bloom, labels the problem solved and names this paper as
-the proof, and Bondy restates the theorem as a known result in his refereed note
-of 1983
-([[../library/extremal_graph_theory/bondy_1983_large_dense_neighbourhoods_turan_s_theorem/theorem_1|Theorem 1]]),
-crediting it also to an independent proof by Erdős and Sós in a preprint, which
-is not a source of this page. The
+Crossref record: volume 31, issue 1, pp. 111--114, issued August 1981). The day
+in this page's date is the issue's nominal first day.
+
+Reviewed: the site's curator, T. F. Bloom, labels the problem solved and names
+this paper as the proof. Bondy restates the theorem as a known result in his
+refereed note of 1983
+([[../library/extremal_graph_theory/bondy_1983_large_dense_neighbourhoods_turan_s_theorem/theorem_1|Theorem 1]]).
+He also credits it to an independent proof by Erdős and Sós in a preprint, which
+is not a source of this page.
+
+The
 [[../library/extremal_graph_theory/bollobas_thomason_1981_dense_neighbourhoods_turan_s_theorem/_index|source card]]
-cites the publication, describes the publisher's open-archive version and
-holds no file; it records four observations on the printed proof. Nothing
-is independently reviewed. The
-acceptance recorded here rests on the publication, the restatement and the
-site's acceptance, not on a local review. The site labels the problem
-SOLVED; since the result is an affirmative proof, the claim value here is
-proved, and the problem page's Status sentence keeps the site's label.
-Bondy's own strengthening has the page
+cites the publication and describes the publisher's open-archive version. It
+holds no file, and it records four observations on the printed proof. Nothing is
+independently reviewed. The acceptance recorded here rests on the publication,
+the restatement and the site's acceptance, not on a local review.
+
+The site labels the problem SOLVED. Since the result is an affirmative proof,
+the claim value here is proved, and the problem page's Status sentence keeps the
+site's label. Bondy's own strengthening has the page
 [[problems/extremal_graph_theory/E1079/claims/1983_02_01_bondy|Bondy]].

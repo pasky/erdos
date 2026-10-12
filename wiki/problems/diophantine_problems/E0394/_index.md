@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0394
 title: Problem 394
 desc: |
-  Bounds the average least starting point m for which n divides a product of k
-  consecutive integers from m, and asks whether these averages shrink as k
-  grows.
+  With $t_k(n)$ the least $m$ such that $n\mid m(m+1)\cdots(m+k-1)$, asks
+  whether $\sum_{n\le x}t_2(n)\ll x^2/(\log x)^c$ for some $c>0$, and whether
+  $\sum_{n\le x}t_{k+1}(n)=o\bigl(\sum_{n\le x}t_k(n)\bigr)$ for $k\ge2$.
 tags:
 - Number theory
 status: claimed
@@ -41,14 +41,15 @@ $$
 \sum_{n\leq x}t_{k+1}(n) =o\left(\sum_{n\leq x}t_k(n)\right)?
 $$
 
-**Status.** OPEN: the site's label (page last edited 28 October 2025). The
-site's proof-claims tab carries two proof claims: Snyder's full claim that both
-answers are yes, with $c=1/2048$ and a Lean development
-([[problems/diophantine_problems/E0394/claims/2026_07_15_snyder|claim page]]),
-and Pickhardt's partial lower bound
+**Status.** OPEN, the site's label (page last edited 28 October 2025). The
+derived standing is claimed and proved. It departs from the label only because
+Snyder's full claim is pending. Nothing is accepted. The site's proof-claims tab
+carries two proof claims. Snyder's full claim is that both answers are yes, with
+$c=1/2048$ and a Lean development
+([[problems/diophantine_problems/E0394/claims/2026_07_15_snyder|claim page]]).
+Pickhardt's partial claim is the lower bound
 $\sum_{n\le x}t_2(n)\gg x^2/((\log x)^{1/2}\log\log x)$, which the Current
-assessment discusses. The derived standing, claimed and proved, departs from the
-label only because Snyder's full claim is pending; nothing is accepted.
+assessment discusses.
 
 **Source.** [erdosproblems.com/394](https://www.erdosproblems.com/394), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #394,

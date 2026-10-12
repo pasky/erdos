@@ -2,8 +2,8 @@
 name: problems/distance_problems/E0103
 title: Problem 103
 desc: |
-  Asks whether the number of incongruent n-point plane sets of minimum
-  distance one and least possible diameter grows without bound.
+  Asks whether the number of incongruent $n$-point sets in the plane with
+  minimum distance $1$ and the least possible diameter tends to infinity.
 tags:
 - Geometry
 - Distances

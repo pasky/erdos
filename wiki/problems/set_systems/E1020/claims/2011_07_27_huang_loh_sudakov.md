@@ -2,9 +2,9 @@
 name: problems/set_systems/E1020/claims/2011_07_27_huang_loh_sudakov
 title: Huang, Loh and Sudakov's range n > 3 r squared k
 desc: |
-  Huang, Loh and Sudakov (2012) prove the matching conjecture whenever
-  n > 3 r^2 k, by shifting and through an asymptotic rainbow-matching
-  strengthening; refereed in Combin. Probab. Comput.
+  Huang, Loh and Sudakov (2012) prove the matching conjecture for $n>3r^2k$,
+  using shifting and an asymptotic form of a rainbow-matching strengthening. The
+  paper is refereed and appeared in Combin. Probab. Comput.
 authors:
 - Hao Huang
 - Po-Shen Loh
@@ -57,9 +57,9 @@ and to order $rk$ on
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: the paper appeared in Combinatorics, Probability
-and Computing 21 (2012), no. 3, 442–450, after its first posting as
-arXiv:1107.5544 on 2011-07-27. The site labels the problem FALSIFIABLE, an
-open label, so its commentary, which credits the range to the paper as
-[HLS12], is not acceptance and no `reviewed` is listed. Nothing here rests on
-this project's own review.
+**Acceptance.** Refereed: the paper appeared in Combinatorics, Probability and
+Computing 21 (2012), no. 3, 442–450, after its first posting as arXiv:1107.5544
+on 2011-07-27. The site's commentary credits the range to the paper as [HLS12].
+The site labels the problem FALSIFIABLE, an open label, so this commentary is
+not acceptance and no `reviewed` is listed. Nothing here rests on this project's
+own review.

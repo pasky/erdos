@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0559/claims/2022_10_11_tikhomirov
 title: Tikhomirov, bounded-degree graphs with size Ramsey number n exp(c sqrt(log n))
 desc: |
-  Theorem 1.1 of Tikhomirov (Combinatorica 2024; arXiv October 2022): for
-  every n there is an n-vertex graph of maximum degree at most three with size
-  Ramsey number at least c n exp(c sqrt(log n)), a second disproof at d = 3.
+  Theorem 1.1 of Tikhomirov (Combinatorica 2024; arXiv October 2022) gives, for
+  every $n$, an $n$-vertex graph of maximum degree at most three with size
+  Ramsey number at least $cn\exp(c\sqrt{\log n})$. This is a second disproof at
+  $d=3$.
 authors:
 - Konstantin Tikhomirov
 status: accepted
@@ -53,14 +54,15 @@ this page is named by. The original disproof is the page
 [[problems/ramsey_theory/E0559/claims/2000_02_01_rodl_szemeredi|Rödl and Szemerédi 2000]].
 
 **Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
-DISPROVED and credits Tikhomirov with raising the lower bound for cubic graphs
-to $n\exp(c\sqrt{\log n})$ in the problem's commentary (page last edited 18
-January 2026, accessed 2026-09-17); the curator is independent of the author.
-Refereed: On bounded degree graphs with large size-Ramsey numbers, Combinatorica
-44 (2024), no. 1, 9--14, published online 21 August 2023 and in the February
-2024 issue (the Crossref record). The journal text is not held and was not
-compared with arXiv v2, so locators are preprint pages. Draganić and Petrova's
-2025 paper quotes the result as the best lower bound for maximum degree three.
+DISPROVED. In the problem's commentary the curator credits Tikhomirov with
+raising the lower bound for cubic graphs to $n\exp(c\sqrt{\log n})$ (page last
+edited 18 January 2026, accessed 2026-09-17). The curator is independent of the
+author. Refereed: On bounded degree graphs with large size-Ramsey numbers,
+Combinatorica 44 (2024), no. 1, 9--14, published online 21 August 2023 and in
+the February 2024 issue (the Crossref record). The journal text is not held and
+was not compared with arXiv v2, so locators are preprint pages. Draganić and
+Petrova's 2025 paper quotes the result as the best lower bound for maximum
+degree three.
 
 **Read depth.** Claims checked: Theorem 1.1 (p. 1) was checked clause by clause,
 and Lemma 2.3 and Corollary 2.4 as statements; the proof (pp. 2--4) was not

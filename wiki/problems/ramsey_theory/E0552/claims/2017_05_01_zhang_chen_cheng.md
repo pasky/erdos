@@ -3,8 +3,8 @@ name: problems/ramsey_theory/E0552/claims/2017_05_01_zhang_chen_cheng
 title: Zhang, Chen and Cheng, R(C_4,S_n) on two families near q(q-1)
 desc: |
   Theorems 6 and 7 of Zhang, Chen and Cheng (Finite Fields Appl. 2017) give
-  R(C_4,K_{1,n}) at n = (q-1)^2+t for even prime powers q and at n =
-  q(q-1)-t for odd prime powers q; refereed.
+  $R(C_4,K_{1,n})$ at $n=(q-1)^2+t$ for even prime powers $q$ and at
+  $n=q(q-1)-t$ for odd prime powers $q$. The results are refereed.
 authors:
 - Xuemei Zhang
 - Yaojun Chen
@@ -61,11 +61,10 @@ question in the negative.
 whose Theorem 2 the proof of Theorem 7 uses at $q=5$ together with a cited
 computer value; otherwise the paper's own constructions and lemmas.
 
-**Acceptance.** Refereed: the paper is a journal publication in Finite
-Fields and Their Applications, volume 45 (May 2017), the `refereed`
-evidence; the issue carries no day, so this page is dated to the first day
-of that month. The site's curator refers to this paper in the commentary
-on exact values, but the site's label OPEN settles neither the problem nor
-a declared part of it, so `reviewed` is not listed. The statements are
-checked against the publisher's text; the proofs are read for structure
-only.
+**Acceptance.** Refereed: the paper is a journal publication in Finite Fields
+and Their Applications, volume 45 (May 2017). This is the `refereed` evidence.
+The issue carries no day, so this page is dated to the first day of that month.
+The site's curator refers to this paper in the commentary on exact values. But
+the site's label OPEN settles neither the problem nor a declared part of it, so
+`reviewed` is not listed. The statements are checked against the publisher's
+text, and the proofs are read for structure only.

@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0505/claims/2026_05_27_grinsztajn
 title: Grinsztajn's dimension-63 counterexample
 desc: |
-  A public unpublished note claiming 321 points in 63-dimensional space whose
-  smaller-diameter subsets have at most five points, so at least 65 parts are
-  needed where Borsuk's assertion allows 64.
+  Grinsztajn's public, unpublished note claims there are $321$ points in
+  $\mathbb R^{63}$ whose subsets of smaller diameter have at most five points,
+  so that at least $65$ parts are needed where Borsuk's assertion allows $64$.
 authors:
 - Max Grinsztajn
 status: claimed

@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0568
 title: Problem 568
 desc: |
-  Asks whether a graph with linear Ramsey numbers against trees and quadratic
-  against complete graphs has Ramsey number linear in the edge count of every
-  graph without isolated vertices.
+  Asks whether every graph $G$ with $R(G,T_n)\ll n$ for all trees $T_n$ on $n$
+  vertices and $R(G,K_n)\ll n^2$ satisfies $R(G,H)\ll m$ for every graph $H$
+  with $m$ edges and no isolated vertices.
 tags:
 - Graph theory
 - Ramsey theory

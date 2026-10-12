@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E1063/claims/2026_08_04_cipollini
 title: A lower bound of order (log k)^2 for log n_k
 desc: |
-  A proof claim posted to the site's proof-claim tab on 4 August 2026 asserts
-  that log n_k is at least c (log k)^2, a superpolynomial lower bound on n_k;
-  the write-up requires a sign-in, and the claim is unreviewed.
+  Ricky Cipollini's proof claim, posted to the site's proof-claim tab on 4
+  August 2026, asserts that $\log n_k\ge c(\log k)^2$, a superpolynomial lower
+  bound on $n_k$. The write-up requires a sign-in, and the claim is unreviewed.
 authors:
 - Ricky Cipollini
 status: claimed

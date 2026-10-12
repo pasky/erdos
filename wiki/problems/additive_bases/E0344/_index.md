@@ -2,9 +2,9 @@
 name: problems/additive_bases/E0344
 title: Problem 344
 desc: |
-  Asks whether every set of integers with at least a sufficiently large
-  constant times the square root of N elements up to N, for every N, has
-  subset sums containing an infinite arithmetic progression.
+  Asks whether, for a sufficiently large constant $c$, every set of integers
+  with at least $cN^{1/2}$ elements up to $N$, for every $N$, has subset sums
+  containing an infinite arithmetic progression.
 tags:
 - Number theory
 - Complete sequences
@@ -49,21 +49,22 @@ question whether $\lvert A\cap\{1,\ldots,N\}\rvert\ge(2N)^{1/2}$ suffices,
 which [Er61b] shows would be best possible, is a separate question that the
 site's commentary records as open.
 
-**Status.** Proved, the site's label (PROVED; page last edited 28 December
-2025, accessed 2026-10-07). Szemerédi and Vu [SzVu06] proved that there is an
-absolute constant $c$ such that every increasing sequence $A$ with
-$\lvert A\cap\{1,\ldots,N\}\rvert\ge c\,N^{1/2}$ for all $N$ is subcomplete,
-which answers the question yes in the reading the Formulation records; their
-first proof is in the Annals of Mathematics (2006), and the cited paper gives
-a second, shorter proof. The refereed papers and the site's acceptance are
+**Status.** Proved, the site's label (PROVED; page last edited 28 December 2025,
+accessed 2026-10-07). Szemerédi and Vu [SzVu06] proved that there is an absolute
+constant $c$ such that every increasing sequence $A$ with
+$\lvert A\cap\{1,\ldots,N\}\rvert\ge c\,N^{1/2}$ for all $N$ is subcomplete.
+This answers the question yes in the reading the Formulation records. Their
+first proof is in the Annals of Mathematics (2006), and the cited paper gives a
+second, shorter proof. The refereed papers and the site's acceptance are
 recorded on the
 [[problems/additive_bases/E0344/claims/2005_07_26_szemeredi_vu|claim page]].
-Y.-G. Chen proved the same theorem in Acta Arithmetica (2003) by a different
-method; it is recorded on
-[[problems/additive_bases/E0344/claims/2003_01_01_chen|his claim page]] and is
-not credited by the site. Folkman [Fo66] had proved the statement under the
-stronger hypothesis $\gg N^{1/2+\epsilon}$, a refereed partial result recorded
-on [[problems/additive_bases/E0344/claims/1966_01_01_folkman|his claim page]].
+Y.-G. Chen proved the same theorem by a different method in Acta Arithmetica
+(2003). His proof is recorded on
+[[problems/additive_bases/E0344/claims/2003_01_01_chen|his claim page]], and the
+site does not credit it. Folkman [Fo66] had proved the statement under the
+stronger hypothesis $\gg N^{1/2+\epsilon}$. This refereed partial result is
+recorded on
+[[problems/additive_bases/E0344/claims/1966_01_01_folkman|his claim page]].
 
 **Source.** [erdosproblems.com/344](https://www.erdosproblems.com/344), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #344,

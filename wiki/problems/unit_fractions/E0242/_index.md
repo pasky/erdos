@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0242
 title: Problem 242
 desc: |
-  Asks whether every integer greater than 2 has four over it written as a sum
-  of three reciprocals of distinct positive integers.
+  Asks whether $4/n=1/x+1/y+1/z$ has a solution in distinct positive integers
+  $x<y<z$ for every $n>2$.
 tags:
 - Number theory
 - Unit fractions
@@ -49,32 +49,33 @@ together with Straus he conjectures that $4/b$ is a sum of at most three
 distinct unit fractions for every $b>4$, and Straus had verified this for
 $4<b<5000$.
 
-**Status.** Falsifiable on the site: the label is FALSIFIABLE (page last
-edited 7 May 2026), which the site explains as open but
-refutable by one finite counterexample. The standing derived from the claim
-pages is claimed, claim proved: three dated manuscripts claim the whole
-conjecture, Alomari's preprint of February 2023
+**Status.** Falsifiable on the site: the label is FALSIFIABLE (page last edited
+7 May 2026). The site explains this label as open but refutable by one finite
+counterexample. The standing derived from the claim pages is claimed, claim
+proved. Three dated manuscripts claim the whole conjecture: Alomari's preprint
+of February 2023
 ([[problems/unit_fractions/E0242/claims/2023_02_06_alomari|Alomari 2023]]),
 Dyachenko's arXiv preprint of 7 November 2025
 ([[problems/unit_fractions/E0242/claims/2025_11_07_dyachenko|Dyachenko 2025]])
 and Bradford's arXiv preprint of 12 February 2026
-([[problems/unit_fractions/E0242/claims/2026_02_12_bradford|Bradford 2026]]),
-none refereed, accepted by anyone or submitted to the site's proof-claim
-tab, and all pending. The one claim on the tab, Brian Akaka's AI-assisted
-lower bound of September 2026 on the number of solutions for almost all
-primes, settles the conjecture for no $n$ and has no claim page (see Forum
-and AI-assisted items). No proof and no counterexample was found in the
-search whose scope the Current assessment records. Two
-refereed partial results settle infinitely many $n$ and are accepted partial
-claims: Obláth's case where $n+1$ has a prime factor $\equiv3\pmod4$
-([[problems/unit_fractions/E0242/claims/1950_01_01_oblath|Obláth 1950]])
-and Terzi's primes outside $198$ classes modulo $120120$
+([[problems/unit_fractions/E0242/claims/2026_02_12_bradford|Bradford 2026]]).
+None of them is refereed, accepted by anyone or submitted to the site's
+proof-claim tab, and all are pending. The one claim on the tab is Brian Akaka's
+AI-assisted lower bound of September 2026 on the number of solutions for almost
+all primes. It settles the conjecture for no $n$ and has no claim page (see
+Forum and AI-assisted items).
+
+Two refereed partial results settle infinitely many $n$ and are accepted partial
+claims. They are Obláth's case where $n+1$ has a prime factor $\equiv3\pmod4$
+([[problems/unit_fractions/E0242/claims/1950_01_01_oblath|Obláth 1950]]) and
+Terzi's primes outside $198$ classes modulo $120120$
 ([[problems/unit_fractions/E0242/claims/1970_09_23_terzi|Terzi 1971]]). The
-verification of all $n\le10^{18}$ is an unrefereed computation report, a
+verification of all $n\le10^{18}$ is an unrefereed computation report and a
 pending partial claim
 ([[problems/unit_fractions/E0242/claims/2025_08_29_mihnea_dumitru|Mihnea and Dumitru 2025]]).
 Vaughan's bound on the exceptional set and the counting, equivalence and
-obstruction results settle no $n$.
+obstruction results settle no $n$. No proof and no counterexample was found in
+the search whose scope the Current assessment records.
 
 **Source.** [erdosproblems.com/242](https://www.erdosproblems.com/242),
 accessed 2026-09-18: the problem page (FALSIFIABLE, explained by the site as

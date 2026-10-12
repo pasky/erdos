@@ -2,8 +2,8 @@
 name: problems/additive_combinatorics/E0350
 title: Problem 350
 desc: |
-  Asks whether a finite set of integers with all subset sums distinct must
-  have its reciprocals summing to less than two.
+  Asks whether a finite set of integers with all subset sums distinct must have
+  reciprocals summing to less than $2$.
 tags:
 - Number theory
 - Additive combinatorics
@@ -45,27 +45,29 @@ as $\sum1/a_i\le2-2^{1-n}$ with equality only for $a_i=2^{i-1}$,
 $i=1,\ldots,n$: the extremal set is the powers of two
 $\{1,2,4,\ldots,2^{n-1}\}$, which the site's notation abbreviates.
 
-**Status.** Proved. The statement is Theorem 1 of Benkoski and Erdős
-(Math. Comp. 28 (1974), 617--623, refereed), whose proof the paper
-credits to C. Ryavec and reproduces in full; the refinement
-$\sum1/a_i\le2-2^{1-n}$ with the equality case is printed after the proof
-(p. 619), and Erdős's 1975 and 1977 surveys restate the theorem as
-Ryavec's proof of his February 1973 conjecture. The stronger bound
-$\sum_{n\in A}n^{-s}<1/(1-2^{-s})$ of Hanson, Steele and Stenger (Proc.
-Amer. Math. Soc. 66 (1977), 179--180, refereed) is not held, and its
-statement is quoted from the site and from the 1980 monograph. The
-site's label is PROVED (LEAN); its Lean mark dates from Alexeev's Lean file
-of 25 November 2025, and the formal-conjectures statement carries
-`formal_proof` attributes pointing to two external Lean files, Alexeev's,
-whose header credits the original proof to Ryavec, and a fork's proof added
-in April 2026 under the catalog's docstring; both are described below,
-and neither is Lean this corpus built. The claim pages are
+**Status.** Proved. The site's label is PROVED (LEAN). The statement is Theorem
+1 of Benkoski and Erdős (Math. Comp. 28 (1974), 617--623, refereed). The paper
+credits the proof to C. Ryavec and reproduces it in full. The refinement
+$\sum1/a_i\le2-2^{1-n}$, with the equality case, is printed after the proof (p.
+619). Erdős's 1975 and 1977 surveys restate the theorem as Ryavec's proof of his
+February 1973 conjecture. The stronger bound $\sum_{n\in A}n^{-s}<1/(1-2^{-s})$
+of Hanson, Steele and Stenger (Proc. Amer. Math. Soc. 66 (1977), 179--180,
+refereed) is not held. Its statement is quoted from the site and from the 1980
+monograph.
+
+The label's Lean mark dates from Alexeev's Lean file of 25 November 2025. The
+formal-conjectures statement carries `formal_proof` attributes pointing to two
+external Lean files. One is Alexeev's, whose header credits the original proof
+to Ryavec. The other is a fork's proof, added in April 2026 under the catalog's
+docstring. Both are described below, and neither is Lean this corpus built. The
+claim pages are
 [[problems/additive_combinatorics/E0350/claims/1974_04_01_benkoski_erdos|Benkoski and Erdős]]
-(Ryavec's proof; accepted on the refereed publication and the site's
-credit; the two Lean developments are its formalization links) and
-[[problems/additive_combinatorics/E0350/claims/1977_09_01_hanson_steele_stenger|Hanson, Steele and Stenger]]
-(the stronger bound; accepted on the refereed publication, the note not
-held).
+and
+[[problems/additive_combinatorics/E0350/claims/1977_09_01_hanson_steele_stenger|Hanson, Steele and Stenger]].
+The first covers Ryavec's proof. It is accepted on the refereed publication and
+the site's credit, and the two Lean developments are its formalization links.
+The second covers the stronger bound. It is accepted on the refereed
+publication, and the note is not held.
 
 **Source.** [erdosproblems.com/350](https://www.erdosproblems.com/350),
 accessed 2026-09-18: the problem page (labeled

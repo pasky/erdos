@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0891
 title: Problem 891
 desc: |
-  Asks whether, for each k at least 2 and every large enough n, the interval of
-  length p_1...p_k starting at n contains an integer with more than k distinct
-  prime factors.
+  Asks whether, for each $k\ge2$ and every large enough $n$, the interval
+  $[n,n+p_1\cdots p_k)$ contains an integer with more than $k$ distinct prime
+  factors, where $p_i$ is the $i$th prime.
 tags:
 - Number theory
 status: open

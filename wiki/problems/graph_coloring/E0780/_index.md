@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0780
 title: Problem 780
 desc: |
-  Asks whether t-coloring the edges of the complete r-uniform hypergraph on
-  enough vertices forces some color class to contain k pairwise disjoint
-  edges; proved by Alon, Frankl and Lovász in 1986 (Lovász 1978 for k = 2).
+  Asks whether every $t$-coloring of the edges of the complete $r$-uniform
+  hypergraph on $n\geq kr+(t-1)(k-1)$ vertices has a color class with $k$
+  pairwise disjoint edges. Alon, Frankl and Lovász proved it in 1986, and Lovász
+  had proved the case $k=2$ in 1978.
 tags:
 - Combinatorics
 - Hypergraphs

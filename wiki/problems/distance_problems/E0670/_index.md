@@ -2,8 +2,8 @@
 name: problems/distance_problems/E0670
 title: Problem 670
 desc: |
-  Asks whether n points in d-dimensional space whose pairwise distances all
-  differ by at least one must have diameter at least (1 + o(1)) n squared.
+  Asks whether $n$ points in $\mathbb{R}^d$ whose pairwise distances all differ
+  by at least $1$ must have diameter at least $(1+o(1))n^2$.
 tags:
 - Geometry
 - Distances

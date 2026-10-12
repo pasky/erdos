@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0136/claims/2022_07_06_bennett_cushman_dudek_pralat
 title: Bennett, Cushman, Dudek and Prałat's asymptotic five sixths n
 desc: |
-  Theorem 1 of Bennett, Cushman, Dudek and Prałat proves f(n) = (5/6)n + o(n)
-  for the least number of colors under which every K_4 of K_n spans at least
-  five colors, by a randomized triangle-removal coloring process.
+  Theorem 1 of Bennett, Cushman, Dudek and Prałat proves $f(n)=\frac56n+o(n)$,
+  where $f(n)$ is the least number of colors in an edge-coloring of $K_n$ in
+  which every $K_4$ spans at least five colors. The proof uses a randomized
+  triangle-removal coloring process.
 authors:
 - Patrick Bennett
 - Ryan Cushman
@@ -88,11 +89,10 @@ so the evidence stays `reviewed` and `refereed`.
 
 **Acceptance.** Refereed publication in the Journal of Combinatorial Theory,
 Series B, cited with its venue above. The site's curator, Thomas Bloom, marks
-the problem SOLVED and credits the asymptotic to this paper under the
-reference [BCDP22] in the commentary; that credit is the `reviewed` evidence,
-and Bloom took no part in the paper. Joos and Mubayi (Proc. Amer. Math. Soc.
-152 (2024)), who reprove the asymptotic by a different method and present
-their argument as a new proof of this result, are a second documented
-acceptance by named experts. No independent review of the argument was made
-here, and no proof step was checked beyond the statement and the proof
-overview.
+the problem SOLVED. In the commentary he credits the asymptotic to this paper
+under the reference [BCDP22]. That credit is the `reviewed` evidence, and Bloom
+took no part in the paper. Joos and Mubayi (Proc. Amer. Math. Soc. 152 (2024))
+reprove the asymptotic by a different method and present their argument as a new
+proof of this result. They are a second documented acceptance by named experts.
+No independent review of the argument was made here. No proof step was checked
+beyond the statement and the proof overview.

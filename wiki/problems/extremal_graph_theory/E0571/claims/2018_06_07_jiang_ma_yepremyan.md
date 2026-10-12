@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0571/claims/2018_06_07_jiang_ma_yepremyan
 title: Jiang, Ma and Yepremyan, the exponents 2 minus 2/(2s+1) and 7/5
 desc: |
-  Jiang, Ma and Yepremyan (Combin. Probab. Comput. 2022): for every s at
-  least 2 the rational 2 minus 2/(2s+1), and also 7/5, is the Turán exponent
-  of a single bipartite graph; infinitely many instances of Problem 571.
+  Jiang, Ma and Yepremyan (Combin. Probab. Comput. 2022) show that for every
+  $s\ge2$ the rational $2-\frac2{2s+1}$, and also $\frac75$, is the Turán
+  exponent of a single bipartite graph. This gives infinitely many instances of
+  Problem 571.
 authors:
 - Tao Jiang
 - Jie Ma
@@ -50,11 +51,10 @@ every rational $\alpha\in[1,2)$ is settled by the accepted claim page
 **Acceptance.** Refereed: T. Jiang, J. Ma and L. Yepremyan, *On Turán exponents
 of bipartite graphs*, Combin. Probab. Comput. 31 (2022), no. 2, 333--344,
 doi:10.1017/S0963548321000341, a refereed journal. First posting:
-arXiv:1806.02838, v1 7 June 2018 (the date this page is named by). No
-`reviewed` evidence is listed: the site's commentary lists these exponents
-among the Turán exponents known before 2026 and credits the paper, but its
-label credits GPT-6 Astra with the full proof and is not an acceptance of this
-result.
+arXiv:1806.02838, v1 7 June 2018 (the date this page is named by). No `reviewed`
+evidence is listed. The site's commentary lists these exponents among the Turán
+exponents known before 2026 and credits the paper. But the site's label credits
+GPT-6 Astra with the full proof and is not an acceptance of this result.
 
 **Read depth.** The statements are taken from the paper's abstract and the
 result list on the library card; no proof was read, and nothing is

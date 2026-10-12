@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0045
 title: Problem 45
 desc: |
-  Asks whether for each k some integer has its nontrivial divisors so arranged
-  that any k-coloring leaves a monochromatic set of reciprocals summing to
-  one.
+  Asks whether, for each $k\ge2$, some integer $n_k$ is such that every
+  $k$-coloring of its divisors strictly between $1$ and $n_k$ has a
+  monochromatic subset whose reciprocals sum to $1$.
 tags:
 - Number theory
 - Unit fractions
@@ -32,16 +32,15 @@ the set of nontrivial proper divisors of $n_k$, so its elements are distinct and
 $D'$ is finite. The question asks for one integer $n_k$ for each $k$; how small
 $n_k$ can be is a separate quantitative question recorded below.
 
-**Status.** Proved. Croot's coloring theorem (Annals of Mathematics 157
-(2003)) gives an interval $[2,b^k]$ every $k$-coloring of which contains a
-monochromatic set with reciprocal sum one, and $n_k$ can be taken to be the
-least common multiple of the integers up to $b^k$. The site records "PROVED
-(LEAN)"; the Lean suffix is a catalog label whose scope is qualified under
-Existing formalization below, and no local kernel credit is claimed. The
-claim page
-[[problems/unit_fractions/E0045/claims/2003_03_01_croot|Croot 2003]] records
-the result, its postings and the acceptance evidence (refereed publication
-and the curator's credit) from which the standing above derives.
+**Status.** Proved. The site records "PROVED (LEAN)". The Lean suffix is a
+catalog label whose scope is qualified under Existing formalization below, and
+no local kernel credit is claimed. Croot's coloring theorem (Annals of
+Mathematics 157 (2003)) gives an interval $[2,b^k]$ such that every $k$-coloring
+of it contains a monochromatic set with reciprocal sum one. One can take $n_k$
+to be the least common multiple of the integers up to $b^k$. The claim page
+[[problems/unit_fractions/E0045/claims/2003_03_01_croot|Croot 2003]] records the
+result, its postings and the acceptance evidence (refereed publication and the
+curator's credit) from which the standing above derives.
 
 **Source.** [erdosproblems.com/45](https://www.erdosproblems.com/45),
 accessed 2026-09-17: the problem page (PROVED (LEAN); last edited 28

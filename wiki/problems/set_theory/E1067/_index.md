@@ -2,8 +2,8 @@
 name: problems/set_theory/E1067
 title: Problem 1067
 desc: |
-  Asks whether every graph of chromatic number aleph one contains an
-  infinitely connected subgraph of chromatic number aleph one.
+  Asks whether every graph of chromatic number $\aleph_1$ contains an infinitely
+  connected subgraph of chromatic number $\aleph_1$.
 tags:
 - Graph theory
 - Set theory
@@ -24,17 +24,17 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Does every graph with chromatic number $\aleph_1$ contain an
 infinitely connected subgraph with chromatic number $\aleph_1$?
 
-**Status.** DISPROVED (LEAN). The Lean suffix is the site's catalog label.
-The site's commentary credits the counterexamples to Soukup and, in a
-simpler form, to Bowler and Pitz, and the frontmatter standing is derived
-from the accepted claim pages
+**Status.** DISPROVED (LEAN). The Lean suffix is the site's catalog label. The
+site's commentary credits the counterexamples to Soukup and, in a simpler form,
+to Bowler and Pitz. The frontmatter standing is derived from the accepted claim
+pages
 [[problems/set_theory/E1067/claims/2014_09_09_soukup|Soukup's ZFC counterexample]]
 and
-[[problems/set_theory/E1067/claims/2024_02_08_bowler_pitz|Bowler and Pitz's elementary counterexample]],
-each accepted on its refereed publication and the site's credit; the Lean
+[[problems/set_theory/E1067/claims/2024_02_08_bowler_pitz|Bowler and Pitz's elementary counterexample]].
+Each is accepted on its refereed publication and the site's credit. The Lean
 development the suffix refers to is recorded on the second page as a
-formalization link, not as `formalized` evidence. Komjáth's earlier
-consistency result has its own partial claim page,
+formalization link, not as `formalized` evidence. Komjáth's earlier consistency
+result has its own partial claim page,
 [[problems/set_theory/E1067/claims/2013_01_03_komjath|Komjáth's forced counterexample]].
 
 **Source.** [erdosproblems.com/1067](https://www.erdosproblems.com/1067),

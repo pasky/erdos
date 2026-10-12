@@ -2,8 +2,9 @@
 name: problems/arithmetic_functions/E0976/claims/2001_05_01_heath_brown
 title: Heath-Brown's power gain for X^3+2
 desc: |
-  Heath-Brown proves that a positive proportion of n in (X, 2X] have n^3+2
-  with a prime factor above X^(1+10^-303), so the answer is yes for t^3+2.
+  Heath-Brown proves that $n^3+2$ has a prime factor above $X^{1+10^{-303}}$ for
+  a positive proportion of $n\in(X,2X]$. So the answer to the first question is
+  yes for $t^3+2$.
 authors:
 - D. R. Heath-Brown
 status: accepted
@@ -38,5 +39,5 @@ $F_f(n)\gg n^3$.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: Proceedings of the London Mathematical Society 82
-(2001), no. 3, whose issue the publisher's record dates May 2001; the page
+(2001), no. 3. The publisher's record dates the issue May 2001, and the page
 name uses the first day of that month. The site labels the problem OPEN.

@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E0405
 title: Problem 405
 desc: |
-  Asks whether, for each odd prime p, the equation with p minus one factorial
-  plus a power of a equal to a power of p has only finitely many solutions.
+  Asks whether, for each odd prime $p$, the equation $(p-1)!+a^{p-1}=p^k$ has
+  only finitely many solutions.
 tags:
 - Number theory
 - Factorials
@@ -29,15 +29,15 @@ $$
 
 has only finitely many solutions?
 
-**Status.** The site labels the problem PROVED (LEAN). The standing derived
-from the claim pages is `solved`, `proved`: Brindza and Erdős bounded every
-solution by an effective absolute constant
-([[problems/factorials_binomials/E0405/claims/1991_08_01_brindza_erdos|Brindza and Erdős 1991]]),
-and the three solutions were determined in two refereed papers of 1996, by Yu
-and Liu
+**Status.** The site labels the problem PROVED (LEAN). The standing derived from
+the claim pages is `solved`, `proved`. Brindza and Erdős bounded every solution
+by an effective absolute constant
+([[problems/factorials_binomials/E0405/claims/1991_08_01_brindza_erdos|Brindza and Erdős 1991]]).
+The three solutions were determined in two refereed papers of 1996, by Yu and
+Liu
 ([[problems/factorials_binomials/E0405/claims/1996_09_01_yu_liu|Yu and Liu 1996]])
 and by Le
-([[problems/factorials_binomials/E0405/claims/1996_01_01_le|Le 1996]]); the
+([[problems/factorials_binomials/E0405/claims/1996_01_01_le|Le 1996]]). The
 site's curator credits Brindza and Erdős and Yu and Liu. The Lean proof the
 site's label refers to is third-party work not built here.
 

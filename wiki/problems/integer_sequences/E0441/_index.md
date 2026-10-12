@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0441
 title: Problem 441
 desc: |
-  The largest subset of one through N with all pairwise least common multiples
-  at most N, asymptotically the square root of 9N/8 by Chen, and whether
-  Erdős's construction attains it, which Chen and Dai refute infinitely often.
+  Asks for the size of the largest $A\subseteq\{1,\ldots,N\}$ with
+  $\mathrm{lcm}(a,b)\le N$ for all $a,b\in A$, and whether Erdős's construction
+  attains it. Chen showed the size is $\sim(9N/8)^{1/2}$, and Chen and Dai
+  showed the construction is not optimal for infinitely many $N$.
 tags:
 - Number theory
 status: solved
@@ -61,35 +62,39 @@ printing slip. The monograph [ErGr80, p. 87] states the conjecture as the site
 does.
 
 **Status.** DISPROVED, the site's label, which attaches to the second question.
-The problem lists two parts, the size of the largest set (the first question)
-and the optimality of the construction (the second), and its standing derives
-from the accepted partial claims that settle them. The construction part: Chen
-and Dai's Theorem 1(ii) (Acta Arith. 128 (2007)) gives
-$g(N)\ge|B_N|+\mathrm{loc}\,N-2$ for infinitely many $N$, where
+The problem lists two parts: the size of the largest set (the first question)
+and the optimality of the construction (the second). Its standing derives from
+the accepted partial claims that settle them. The two accepted claims settle one
+part each, with different values. So the derived standing is solved, answered,
+rather than the label's disproved, which covers only the second question.
+
+The construction part. Chen and Dai's Theorem 1(ii) (Acta Arith. 128 (2007))
+gives $g(N)\ge|B_N|+\mathrm{loc}\,N-2$ for infinitely many $N$. Here
 $\mathrm{loc}\,N$ is the number of iterated logarithms needed to bring $N$ below
-$1$, so the construction is not a largest set for infinitely many $N$ and its
+$1$. So the construction is not a largest set for infinitely many $N$, and its
 excess over $|B_N|$ is unbounded. The Statement asks the question for each
-$N\ge1$, so the explicit $N=336$ (below; the OEIS entry's comment of 2012 and
-AxiomProver's file) already answers it no, trivially, and the theorem answers no
-as well the variant asking about all large $N$. The size part: Chen's Theorem
-(Acta Arith. 84 (1998)), $g(N)\sim(9N/8)^{1/2}$, determines the size
-asymptotically, the form in which Erdős conjectured it ([Er73], quoted under
-Formulation), and Dai and Chen's Theorem (Acta Arith. 124 (2006)) sharpens it to
-$-2\le g(N)-(9N/8)^{1/2}\le45(N/\log N)^{1/2}\log\log N$ for large $N$; the
-exact value of $g(N)$ is not known in general, and Dai and Chen conjecture that
-the remainder tends to infinity. The three papers are refereed articles of Acta
-Arithmetica. The claim pages:
+$N\ge1$. So the explicit $N=336$ (below; the OEIS entry's comment of 2012 and
+AxiomProver's file) already answers it no, trivially. The theorem also answers
+no to the variant asking about all large $N$.
+
+The size part. Chen's Theorem (Acta Arith. 84 (1998)), $g(N)\sim(9N/8)^{1/2}$,
+determines the size asymptotically. This is the form in which Erdős conjectured
+it ([Er73], quoted under Formulation). Dai and Chen's Theorem (Acta Arith. 124
+(2006)) sharpens it to $-2\le g(N)-(9N/8)^{1/2}\le45(N/\log N)^{1/2}\log\log N$
+for large $N$. The exact value of $g(N)$ is not known in general. Dai and Chen
+conjecture that the remainder tends to infinity. The three papers are refereed
+articles of Acta Arithmetica.
+
+The claim pages are
 [[problems/integer_sequences/E0441/claims/1998_01_01_chen|Chen's asymptotic]]
 (accepted, partial: the size part, settled as a determination; refereed),
 [[problems/integer_sequences/E0441/claims/2007_01_01_chen_dai|Chen and Dai's theorem]]
 (accepted, partial: the construction part, refuted; refereed, and credited by
 the site's curator for its label) and
 [[problems/integer_sequences/E0441/claims/2026_06_19_axiommath|AxiomProver's Lean disproof at $N=336$]]
-(claimed, partial: the construction part; not built or audited here). The two
-accepted claims settle one part each with different values, so the derived
-standing is solved, answered, rather than the label's disproved, which covers
-only the second question. Dai and Chen's 2006 theorem has no claim page of its
-own: it sharpens the answer recorded on Chen's page and settles nothing further.
+(claimed, partial: the construction part; not built or audited here). Dai and
+Chen's 2006 theorem has no claim page of its own. It sharpens the answer
+recorded on Chen's page and settles nothing further.
 
 **Source.** [erdosproblems.com/441](https://www.erdosproblems.com/441),
 accessed 2026-09-18: the problem page (DISPROVED,

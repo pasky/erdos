@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E0455
 title: Problem 455
 desc: |
-  Asks whether a sequence of primes with non-decreasing gaps must have its nth
-  term grow faster than n squared.
+  Asks whether every sequence of primes $q_1<q_2<\cdots$ with non-decreasing
+  gaps must satisfy $q_n/n^2\to\infty$.
 tags:
 - Number theory
 status: open
@@ -34,34 +34,37 @@ $$
 
 **Status.** Open, the site's label (page last edited 7 October 2025;
 proof-claims thread accessed 2026-10-06). The site records Richter's bound
-$\liminf q_n/n^2>0.352$ [Ri76], a refereed result recorded as an accepted
+$\liminf q_n/n^2>0.352$ [Ri76]. This refereed result is recorded as an accepted
 partial claim on
 [[problems/integer_sequences/E0455/claims/1976_01_01_richter|Richter's claim
-page]], and Erdős and Graham pose the question in [ErGr80, p. 91], citing
-Richter's result only as $\liminf q_n/n^2>0$. Two later partial results raise
-the bound and leave the limit question open; neither is adopted here. Yongxi
-Lin claims $\liminf q_n/n^2>0.864289$ in a Lean 4 development published on 27
-September 2026 and not built here. Its metadata says that the mathematics of
-the underlying draft (prepared with Claude) and the Lean development (Claude
-Opus 5.5 through Claude Code) were produced by AI under Lin's direction; it is
-recorded on [[problems/integer_sequences/E0455/claims/2026_09_27_lin|Lin's
-claim page]]. A partial proof claim posted to the site's proof-claims tab on 6
-October 2026 by the user satorunet, produced with Claude Opus 5.5 and Claude
-Fable 5.1 (Anthropic) and GPT-6-Astra via Codex (OpenAI), as the tab names
-them, extends Lin's method by one prime to $0.9200$ by a computer-certified
-residue argument and adds constraints on a counterexample; it is recorded on
-[[problems/integer_sequences/E0455/claims/2026_10_06_satorunet|its claim
-page]]. The same user's claim of 5 October 2026 on the tab, whose headline
-bound was Lin's $0.8642$, was withdrawn and replaced by the claim of 6 October
-once Lin's prior work was found, as the write-up of 6 October records; it has
-no page of its own, since the replacing page discloses it. Two earlier working
-notes credited by that write-up, a report of 28 July 2026 at
+page]]. Erdős and Graham pose the question in [ErGr80, p. 91] and cite Richter's
+result only as $\liminf q_n/n^2>0$.
+
+Two later partial results raise the bound and leave the limit question open.
+Neither is adopted here. Yongxi Lin claims $\liminf q_n/n^2>0.864289$ in a Lean
+4 development published on 27 September 2026, which was not built here. Its
+metadata says that the mathematics of the underlying draft (prepared with
+Claude) and the Lean development (Claude Opus 5.5 through Claude Code) were
+produced by AI under Lin's direction. It is recorded on
+[[problems/integer_sequences/E0455/claims/2026_09_27_lin|Lin's claim page]]. On
+6 October 2026 the user satorunet posted a partial proof claim to the site's
+proof-claims tab. It was produced with Claude Opus 5.5 and Claude Fable 5.1
+(Anthropic) and GPT-6-Astra via Codex (OpenAI), as the tab names them. It
+extends Lin's method by one prime to $0.9200$ by a computer-certified residue
+argument, and it adds constraints on a counterexample. It is recorded on
+[[problems/integer_sequences/E0455/claims/2026_10_06_satorunet|its claim page]].
+
+The same user posted a claim on the tab on 5 October 2026 whose headline bound
+was Lin's $0.8642$. Once Lin's prior work was found, that claim was withdrawn
+and replaced by the claim of 6 October, as the write-up of 6 October records. It
+has no page of its own, since the replacing page discloses it. That write-up
+also credits two earlier working notes: a report of 28 July 2026 at
 erdosproblemaday.com (Patrick White with Claude, Anthropic) and an issue of 24
 September 2026 in the GitHub repository the-omega-institute/trureturing
-(produced with Codex CLI), each claim the constant $0.5434$ by sharpening
-Richter's argument, and the issue excludes periodic second-difference words of
-period at most $n^{1/4-\delta}$; they were not submitted to the site, their
-constant is below Lin's claimed bound, and they are recorded here without
+(produced with Codex CLI). Each claims the constant $0.5434$ by sharpening
+Richter's argument. The issue also excludes periodic second-difference words of
+period at most $n^{1/4-\delta}$. The notes were not submitted to the site, and
+their constant is below Lin's claimed bound. They are recorded here without
 pages of their own.
 
 **Source.** [erdosproblems.com/455](https://www.erdosproblems.com/455), accessed

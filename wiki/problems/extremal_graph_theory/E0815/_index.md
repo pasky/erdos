@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0815
 title: Problem 815
 desc: |
-  Asks whether a graph with n vertices, 2n - 2 edges and no proper induced
-  subgraph of minimum degree 3 has a cycle of each fixed length k for large n;
-  false at k = 23 (Narins, Pokrovskiy, Szabó), true for k up to 6, even k open.
+  Asks whether, for large $n$, a graph with $n$ vertices, $2n-2$ edges and no
+  proper induced subgraph of minimum degree $3$ contains $C_k$ for each fixed
+  $k$. False at $k=23$ (Narins, Pokrovskiy and Szabó), true for $k\le6$, open
+  for even $k$.
 tags:
 - Graph theory
 status: solved
@@ -43,20 +44,20 @@ its members are wheels and one modified wheel family and are pancyclic
 (Theorem 1.4 of [NPS17]). The status below concerns the induced class the site
 names.
 
-**Status.** Disproved. Theorem 1.2 of [NPS17] (Combinatorica 37 (2017),
-495--519; refereed; cited from arXiv v1) gives an infinite sequence
-of degree $3$-critical graphs with no cycle of length $23$, so for $k=23$
-there is no $n_0$ beyond which every graph of the class contains $C_k$; the
-same construction works for every odd $k\ge23$ (Section 6). The answer is yes
-for $k=3,4,5$ (Theorem 2 of [EFGS88], recorded as the pending partial claim
-[[problems/extremal_graph_theory/E0815/claims/1988_01_01_erdos_faudree_gyarfas_schelp|Erdős, Faudree, Gyárfás and Schelp's Theorem 2]])
-and $k=6$ (Proposition 5.1 of [NPS17]); for $7\le k\le22$ it is not known, and
-for every even $k\ge8$ it is open (Problem 6.1 of [NPS17], restated as open in
-a 2026 Combinatorica paper). The site's remark that the question restricted
-to even $k$ is still open agrees with the sources. The disproof and its
-acceptance evidence are recorded on the claim page
+**Status.** Disproved. The disproof and its acceptance evidence are recorded on
+the claim page
 [[problems/extremal_graph_theory/E0815/claims/2014_08_22_narins_pokrovskiy_szabo|Narins, Pokrovskiy and Szabó's Theorem 1.2]],
-from which the frontmatter is derived.
+from which the frontmatter is derived. Theorem 1.2 of [NPS17] (Combinatorica 37
+(2017), 495--519; refereed; cited from arXiv v1) gives an infinite sequence of
+degree $3$-critical graphs with no cycle of length $23$. So for $k=23$ there is
+no $n_0$ beyond which every graph of the class contains $C_k$. The same
+construction works for every odd $k\ge23$ (Section 6). The answer is yes for
+$k=3,4,5$, by Theorem 2 of [EFGS88], recorded as the pending partial claim
+[[problems/extremal_graph_theory/E0815/claims/1988_01_01_erdos_faudree_gyarfas_schelp|Erdős, Faudree, Gyárfás and Schelp's Theorem 2]].
+It is also yes for $k=6$ (Proposition 5.1 of [NPS17]). For $7\le k\le22$ the
+answer is not known. For every even $k\ge8$ it is open (Problem 6.1 of [NPS17],
+restated as open in a 2026 Combinatorica paper). The site's remark that the
+question restricted to even $k$ is still open agrees with the sources.
 
 **Source.** [erdosproblems.com/815](https://www.erdosproblems.com/815),
 accessed 2026-09-18: the problem page (DISPROVED,

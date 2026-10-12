@@ -2,9 +2,10 @@
 name: problems/set_theory/E1173
 title: Problem 1173
 desc: |
-  Asks whether, under the generalized continuum hypothesis, a set mapping on
-  omega_{omega+1} with values of size at most aleph_omega and pairwise
-  intersections below aleph_omega must have a free set of size aleph_{omega+1}.
+  Asks whether, under the generalized continuum hypothesis, every set mapping on
+  $\omega_{\omega+1}$ whose values have size at most $\aleph_\omega$ and
+  pairwise intersections of size below $\aleph_\omega$ has a free set of size
+  $\aleph_{\omega+1}$.
 tags:
 - Set theory
 - Combinatorics

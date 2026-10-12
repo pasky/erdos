@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0769/claims/1974_01_01_burgess_erdos
 title: Burgess and Erdős's upper bound for the cube-dissection threshold
 desc: |
-  Erdős (Math. Balkanica 4, 1974) proves with Burgess that
-  c(n) <= (2^n-2)((n+1)^n-2)-1 and says a theorem of Brauer gives
-  c(n) < alpha n^(n+1); a congress volume; partial, claimed.
+  Erdős (Math. Balkanica 4, 1974, a congress volume) proves with Burgess that
+  $c(n)\le(2^n-2)((n+1)^n-2)-1$ and says a theorem of Brauer gives
+  $c(n)<\alpha n^{n+1}$. The result is partial, and its status is claimed.
 authors:
 - P. Erdős
 status: claimed
@@ -52,5 +52,5 @@ source card's
 [[../library/number_theory/erdos_1974_remarks_problems_number_theory/lemma_p199|lemma page]].
 
 **Acceptance.** None on record. The volume collects the papers of a congress,
-with no evidence that it was refereed, and the site, which credits the bound
-$c(n)\ll n^{n+1}$ to Burgess and Erdős, labels the problem OPEN.
+and there is no evidence that it was refereed. The site credits the bound
+$c(n)\ll n^{n+1}$ to Burgess and Erdős, but it labels the problem OPEN.

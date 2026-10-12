@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0759/claims/1997_11_01_gimbel_thomassen
 title: Gimbel and Thomassen's growth rate of z(S_n)
 desc: |
-  The largest cochromatic number of a graph embeddable on the orientable
-  surface of genus n is of order n^{1/2} / log n; refereed in Trans. Amer.
-  Math. Soc. and credited by the site's curator.
+  Gimbel and Thomassen show that the largest cochromatic number of a graph
+  embeddable on the orientable surface of genus $n$ is of order
+  $n^{1/2}/\log n$. It was refereed in Trans. Amer. Math. Soc. and is credited
+  by the site's curator.
 authors:
 - John Gimbel
 - Carsten Thomassen
@@ -59,12 +60,12 @@ $\zeta(H)\le c_2\sqrt n/\log n$.
 [[problems/graph_coloring/E0759/claims/1986_01_01_gimbel|Gimbel 1986]] for the
 lower bound, whose construction the proof of Theorem 3.4 cites.
 
-**Acceptance.** Refereed: J. Gimbel and C. Thomassen, Coloring graphs with
-fixed genus and girth, Trans. Amer. Math. Soc. 349 (1997), no. 11, 4555–4564;
-the issue is dated November 1997, and this page carries the first of that
-month because the day is not recorded. Reviewed: the site's curator, Thomas
-Bloom, marks Problem 759 solved on the problem page and credits Gimbel and
-Thomassen [GiTh97].
+**Acceptance.** Refereed: J. Gimbel and C. Thomassen, Coloring graphs with fixed
+genus and girth, Trans. Amer. Math. Soc. 349 (1997), no. 11, 4555–4564. The
+issue is dated November 1997, and this page carries the first of that month
+because the day is not recorded. Reviewed: the site's curator, Thomas Bloom,
+marks Problem 759 solved on the problem page and credits Gimbel and Thomassen
+[GiTh97].
 
 **Formalizations.** Two Lean 4 developments declare themselves
 formalizations of this result and are linked above. The file in Boris

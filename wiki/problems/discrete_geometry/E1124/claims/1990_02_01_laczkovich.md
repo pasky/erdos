@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E1124/claims/1990_02_01_laczkovich
 title: Laczkovich's circle squaring by translations
 desc: |
-  A disk and a square of the same area are equidecomposable into finitely
-  many congruent pieces, and the pieces can even be matched by translations
-  alone; Tarski's circle-squaring problem answered yes in Crelle's journal.
+  Laczkovich proves that a disk and a square of the same area are
+  equidecomposable into finitely many congruent pieces, which can even be
+  matched by translations alone. His paper in Crelle's journal answers Tarski's
+  circle-squaring problem yes.
 authors: []
 status: accepted
 claim: proved
@@ -48,13 +49,14 @@ theorem.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** The result is refereed: it appeared in the Journal für die
-reine und angewandte Mathematik. The site's curator, Thomas Bloom, marks the
-problem proved and credits Laczkovich, recording that the decomposition uses
-translations only (the site's page, prints no
-last-edited date). Two later theorems strengthen the result for the
-same class of sets without changing the answer: Grabowski, Máthé and Pikhurko
-(Ann. of Math. (2) 185 (2017), no. 2, 671--710; arXiv:1501.06122) make the
-pieces Lebesgue and Baire measurable, and Marks and Unger make them Borel,
-answering a question of Wagon; the site's thread records Laczkovich's general
-theorem in a comment, citing Marks and Unger, and neither is paged.
+**Acceptance.** The result is refereed. It appeared in the Journal für die reine
+und angewandte Mathematik. The site's curator, Thomas Bloom, marks the problem
+proved and credits Laczkovich, recording that the decomposition uses
+translations only. The site's page prints no last-edited date.
+
+Two later theorems strengthen the result for the same class of sets without
+changing the answer. Grabowski, Máthé and Pikhurko (Ann. of Math. (2) 185
+(2017), no. 2, 671--710; arXiv:1501.06122) make the pieces Lebesgue and Baire
+measurable. Marks and Unger make them Borel, answering a question of Wagon. The
+site's thread records Laczkovich's general theorem in a comment, citing Marks
+and Unger. Neither later theorem has a page here.

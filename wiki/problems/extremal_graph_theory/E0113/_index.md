@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E0113
 title: Problem 113
 desc: |
-  Asks whether a bipartite graph has Turan number O(n^(3/2)) exactly when
-  it has no induced subgraph of minimum degree at least three.
+  Asks whether a bipartite graph $G$ has Turán number
+  $\mathrm{ex}(n;G)=O(n^{3/2})$ exactly when it is $2$-degenerate, that is, has
+  no induced subgraph of minimum degree at least $3$.
 tags:
 - Graph theory
 - Turán numbers
@@ -25,17 +26,17 @@ updated: 2026-10-08T02:16:54Z
 only $G$ is $2$-degenerate, that is, $G$ contains no induced subgraph with
 minimal degree at least 3.
 
-**Status.** DISPROVED (LEAN). The frontmatter standing is derived from the
-claim pages under `claims/`: Janzer's refereed disproof of the equivalence is
-accepted on its publication and the site's acceptance
-([[problems/extremal_graph_theory/E0113/claims/2021_09_13_janzer|claim page]]);
-OpenAI's refutation of the other direction of the equivalence, which also
-disproves the equivalence, is accepted on the site's acceptance of the same
-theorem for Problem 146
-([[problems/extremal_graph_theory/E0113/claims/2026_08_01_openai|claim page]]);
-the label's Lean suffix is the site's formal status, reflecting the outside
-Lean formalization of Janzer's result that is linked on his claim page and
-that this corpus has not built.
+**Status.** DISPROVED (LEAN). The frontmatter standing is derived from the claim
+pages under `claims/`. Janzer's refereed disproof of the equivalence is accepted
+on its publication and the site's acceptance
+([[problems/extremal_graph_theory/E0113/claims/2021_09_13_janzer|claim page]]).
+OpenAI's refutation of the other direction of the equivalence also disproves the
+equivalence. It is accepted on the site's acceptance of the same theorem for
+Problem 146
+([[problems/extremal_graph_theory/E0113/claims/2026_08_01_openai|claim page]]).
+The label's Lean suffix is the site's formal status. It reflects the outside
+Lean formalization of Janzer's result, which is linked on his claim page and
+which this corpus has not built.
 
 **Source.** [erdosproblems.com/113](https://www.erdosproblems.com/113), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #113,

@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0079
 title: Problem 79
 desc: |
-  Asks whether there are infinitely many graphs that are not Ramsey size
-  linear even though all of their proper subgraphs are; proved by Wigderson
-  in 2024 non-constructively, with no explicit example beyond K_4 known.
+  Asks whether infinitely many graphs fail to be Ramsey size linear while all
+  their proper subgraphs are Ramsey size linear. Wigderson proved this in 2024
+  by a non-constructive argument, and no explicit example beyond $K_4$ is known.
 tags:
 - Graph theory
 - Ramsey theory
@@ -75,15 +75,15 @@ also cites [Er95], which restates the question.
 
 **Status.** Proved. The status-defining source is
 [[../library/ramsey_theory/wigderson_2024_infinitely_many_minimally_non_ramsey_size/theorem_1|Theorem 1]]
-of [Wi24]: infinitely many graphs fail to be Ramsey size-linear while each
-of their proper subgraphs has the property, which answers the corrected
-Statement yes. The version cited is arXiv:2409.05931v2 (5 May 2025); the
-paper appeared in European J. Combin. 128 (2025), 104175 (version of record
-dated August 2025 under an open license from 8 May 2025), so the result is
-refereed; the site's curator, T. F. Bloom, credits the paper under the label
-PROVED. The proof is non-constructive: it exhibits no graph beyond $K_4$,
-and the paper's Open problem 5 asks for one, which the site's commentary
-also records as unknown. The claim page
+of [Wi24]. It shows that infinitely many graphs fail to be Ramsey size-linear
+while each of their proper subgraphs has the property. This answers the
+corrected Statement yes. The version cited is arXiv:2409.05931v2 (5 May 2025).
+The paper appeared in European J. Combin. 128 (2025), 104175, so the result is
+refereed. The version of record is dated August 2025, under an open license from
+8 May 2025. The site's curator, T. F. Bloom, credits the paper under the label
+PROVED. The proof is non-constructive: it exhibits no graph beyond $K_4$. The
+paper's Open problem 5 asks for one, and the site's commentary also records this
+as unknown. The claim page
 [[problems/ramsey_theory/E0079/claims/2024_09_09_wigderson|Wigderson 2024]]
 records the result, its postings and the acceptance evidence.
 

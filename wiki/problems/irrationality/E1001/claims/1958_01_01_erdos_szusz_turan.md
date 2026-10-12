@@ -2,9 +2,10 @@
 name: problems/irrationality/E1001/claims/1958_01_01_erdos_szusz_turan
 title: Erdős, Szüsz and Turán's value in the sparse range
 desc: |
-  Theorem III of the 1958 paper that posed the problem proves that the limit
-  of S(N,A,c) exists and equals 12A log c/pi^2 whenever 0<A<c/(1+c^2), the
-  range in which the approximation intervals do not overlap.
+  Theorem III of Erdős, Szüsz and Turán's 1958 paper, which posed the problem,
+  proves that $\lim_{N\to\infty}S(N,A,c)$ exists and equals $12A\log c/\pi^2$
+  whenever $0<A<c/(1+c^2)$. In this range the approximation intervals do not
+  overlap.
 authors:
 - P. Erdös
 - P. Szüsz
@@ -63,11 +64,10 @@ and [[problems/irrationality/E1001/claims/2008_08_01_boca|Boca]].
 
 **Acceptance.** The `refereed` evidence is the journal publication cited above.
 The `reviewed` evidence is the documented acceptance by the catalog
-erdosproblems.com, whose page for the problem (the `discussion` link) carries
-the label SOLVED and whose curator, Thomas Bloom, credits Erdős, Szüsz and Turán
-with the value $12A\log c/\pi^2$ in this range; he is not an author of the
-paper. No independent check of the proof is recorded. The claim value is
-`proved` because the part it settles is proved in the affirmative, with the
-value found.
+erdosproblems.com. Its page for the problem (the `discussion` link) carries the
+label SOLVED. Its curator, Thomas Bloom, credits Erdős, Szüsz and Turán with the
+value $12A\log c/\pi^2$ in this range. He is not an author of the paper. No
+independent check of the proof is recorded. The claim value is `proved` because
+the part it settles is proved in the affirmative, with the value found.
 
 **Depends on.** Nothing in this wiki.

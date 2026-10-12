@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0799/claims/1999_10_01_alon_krivelevich_sudakov
 title: Alon, Krivelevich and Sudakov's order of the choice number
 desc: |
-  The list chromatic number of the random graph G(n,p) is of order
-  np / log(np) almost surely for 2 < np <= n/2; at p = 1/2 almost every graph
-  has list chromatic number of order n / log n.
+  Alon, Krivelevich and Sudakov prove that the list chromatic number of the
+  random graph $G(n,p)$ is almost surely of order $np/\log(np)$ for
+  $2<np\le n/2$. At $p=1/2$, almost every graph has list chromatic number of
+  order $n/\log n$.
 authors:
 - Noga Alon
 - Michael Krivelevich

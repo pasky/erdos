@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0792/claims/1990_01_01_alon_kleitman
 title: Alon and Kleitman's lower bound (n + 1)/3
 desc: |
-  Alon and Kleitman's Proposition 1.1 (1990): any n nonzero integers contain a
-  sum-free subset of more than n/3 elements, so f(n) >= n/3 for n >= 2 in
-  Problem 792; a chapter in a tribute volume, no refereeing evidence.
+  Alon and Kleitman's Proposition 1.1 (1990): any $n$ nonzero integers contain a
+  sum-free subset of more than $n/3$ elements, so $f(n)\ge n/3$ for $n\ge2$ in
+  Problem 792. It is a chapter in a tribute volume, with no evidence of
+  refereeing.
 authors:
 - N. Alon
 - D. J. Kleitman

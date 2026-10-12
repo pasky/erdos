@@ -3,8 +3,8 @@ name: problems/integer_sequences/E0441/claims/2026_06_19_axiommath
 title: Lean disproof of the second question at N = 336
 desc: |
   AxiomProver's Lean 4 file, posted to the site's thread in June 2026, exhibits
-  N = 336 and a 21-element admissible set beating Erdős's 18-element
-  construction; not built or audited here.
+  $N=336$ and a 21-element admissible set that beats Erdős's 18-element
+  construction. The file has not been built or audited here.
 authors:
 - Axiom Math
 status: claimed

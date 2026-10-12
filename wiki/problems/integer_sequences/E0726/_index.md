@@ -2,9 +2,8 @@
 name: problems/integer_sequences/E0726
 title: Problem 726
 desc: |
-  Asks whether the sum of one over p, over primes p at most n whose remainder
-  of n lies in the upper half of the interval up to p, is about half of log
-  log n.
+  Asks whether $\sum1/p$ over the primes $p\le n$ for which $n\bmod p$ lies in
+  $(p/2,p)$ is asymptotic to $\tfrac12\log\log n$.
 tags:
 - Number theory
 status: open
@@ -27,21 +26,21 @@ $$
 \sum_{p\leq n}1_{n\in (p/2,p)\pmod{p}}\frac{1}{p}\sim \frac{\log\log n}{2}.
 $$
 
-**Status.** Open, the site's label, with the site's remark that no finite
-computation can settle the problem; the community database lists the problem
-as open as of its last update (2025-08-31), with the statement formalized on
-2026-06-25 and no formal proof. No unconditional result, refereed publication
-or accepted proof exists (search scope in Current
-assessment). Two outstanding items have claim pages and neither is acceptance
-evidence: a Conjectures.io record of 13 August 2026 that refutes a defective
-formal statement and, by Conjectures.io's review, "does not refute the
+**Status.** Open, the site's label. The site remarks that no finite computation
+can settle the problem. The standing derives from the claim pages: a rejected
+claim and a conditional one leave the problem open. The community database lists
+the problem as open as of its last update (2025-08-31). It records the statement
+as formalized on 2026-06-25, with no formal proof. No unconditional result,
+refereed publication or accepted proof exists (search scope in Current
+assessment). Two outstanding items have claim pages, and neither is acceptance
+evidence. The first is a Conjectures.io record of 13 August 2026 that refutes a
+defective formal statement. By Conjectures.io's review, it "does not refute the
 intended integer-residue asymptotic"
 ([[problems/integer_sequences/E0726/claims/2026_08_13_conjectures_io|rejected claim]];
-see Formalization), and a Zenodo preprint of 11 August 2026 that claims the
-asymptotic only under an unproved equidistribution hypothesis
+see Formalization). The second is a Zenodo preprint of 11 August 2026 that
+claims the asymptotic only under an unproved equidistribution hypothesis
 ([[problems/integer_sequences/E0726/claims/2026_08_11_zeraoulia|conditional claim]];
-see Known Results). The standing derives from the claim pages: a rejected
-claim and a conditional one leave the problem open.
+see Known Results).
 
 **Source.** [erdosproblems.com/726](https://www.erdosproblems.com/726), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #726,

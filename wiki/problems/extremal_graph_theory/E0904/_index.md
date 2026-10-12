@@ -2,10 +2,10 @@
 name: problems/extremal_graph_theory/E0904
 title: Problem 904
 desc: |
-  Asks whether, for n at least r, a graph with n vertices and at least the
-  Turán number of edges for r plus one has an r-clique of degree sum at least
-  2rm/n; proved by Bollobás and Nikiforov in 2005, while the site's wording,
-  with no range, fails below r vertices.
+  Asks whether, for $n\ge r$, every graph with $n$ vertices and $m\ge t_r(n)$
+  edges, $t_r(n)$ the Turán number for $K_{r+1}$, has an $r$-clique with degree
+  sum at least $2rm/n$. Proved by Bollobás and Nikiforov in 2005; the site's
+  wording, with no range, fails below $r$ vertices.
 tags:
 - Graph theory
 status: solved
@@ -82,22 +82,22 @@ difference; $t_3(n)=\lfloor n^2/3\rfloor$, so the two hypotheses differ by at
 most one edge). The site's label PROVED (LEAN) carries a catalog suffix
 explained under Formalization.
 
-**Status.** The site shows PROVED (LEAN), which describes the corrected
-Statement, the form the sources prove; its Lean qualification is a catalog
-suffix explained under Formalization. The corrected Statement holds by Theorem
-2 of [BoNi05] with its display (13), for every $r\ge2$ and $n\ge r$, recorded
-as the accepted full claim
-[[problems/extremal_graph_theory/E0904/claims/2004_10_08_bollobas_nikiforov|Bollobás--Nikiforov]]
-(accepted on the refereed publication and the site's credit), from which the
-frontmatter standing derives. The earlier ranges are accepted partial claims:
+**Status.** The site shows PROVED (LEAN). The label describes the corrected
+Statement, the form the sources prove. Its Lean qualification is a catalog
+suffix explained under Formalization. The corrected Statement holds by Theorem 2
+of [BoNi05] with its display (13), for every $r\ge2$ and $n\ge r$. This is
+recorded as the accepted full claim
+[[problems/extremal_graph_theory/E0904/claims/2004_10_08_bollobas_nikiforov|Bollobás--Nikiforov]],
+accepted on the refereed publication and the site's credit, and the frontmatter
+standing derives from it. The earlier ranges are accepted partial claims.
 [[problems/extremal_graph_theory/E0904/claims/1978_01_01_edwards|Edwards]]
-($2\le r\le8$ and $n\ge r^2$, and every $r$ under $m>(r-1)n^2/2r$) and
+covers $2\le r\le8$ and $n\ge r^2$, and every $r$ under $m>(r-1)n^2/2r$.
 [[problems/extremal_graph_theory/E0904/claims/1992_09_01_faudree|Faudree]]
-(every $r\ge2$ and $n>r^2(r-1)/4$). The Lean proof behind the site's suffix
-declares itself a formalization of the Bollobás--Nikiforov paper, by Parcly
-Taxel with the AI system Aristotle, and is a formalization link on that claim
-page; no build or audit of it is recorded, so it gives no `formalized`
-evidence.
+covers every $r\ge2$ and $n>r^2(r-1)/4$. The Lean proof behind the site's suffix
+declares itself a formalization of the Bollobás--Nikiforov paper. It is by
+Parcly Taxel with the AI system Aristotle, and it is a formalization link on
+that claim page. No build or audit of it is recorded, so it gives no
+`formalized` evidence.
 
 **Source.** [erdosproblems.com/904](https://www.erdosproblems.com/904),
 accessed 2026-09-18: the problem page (PROVED (LEAN), recording an affirmative

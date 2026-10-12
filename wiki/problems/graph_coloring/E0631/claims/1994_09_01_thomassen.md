@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0631/claims/1994_09_01_thomassen
 title: Thomassen proves every planar graph is 5-choosable
 desc: |
-  Thomassen (J. Combin. Theory Ser. B 1994) proves that every planar graph
-  has list chromatic number at most 5, answering the first question yes;
-  accepted on the refereed publication and the site's credit.
+  Thomassen (J. Combin. Theory Ser. B 1994) proves that every planar graph has
+  list chromatic number at most $5$, answering the first question yes. The claim
+  is accepted on the refereed publication and the site's credit.
 authors:
 - C. Thomassen
 status: accepted
@@ -44,14 +44,14 @@ settled separately by
 [[problems/graph_coloring/E0631/claims/1993_09_01_voigt|Voigt]] and by
 [[problems/graph_coloring/E0631/claims/1996_11_01_gutner|Gutner]].
 
-**Acceptance.** Refereed publication: J. Combin. Theory Ser. B 62 (1994),
-no. 1, 180--181, doi:10.1006/jctb.1994.1062. The Crossref record dates the
-issue to September 1994 without a day, so the page takes the first of that
-month as its date. The site's curator, T. F. Bloom, labels the problem proved
-and credits [Th94] for the bound, which the page lists as `reviewed`. The
-question was raised by Erdős, Rubin and Taylor in
+**Acceptance.** Refereed publication: J. Combin. Theory Ser. B 62 (1994), no. 1,
+180--181, doi:10.1006/jctb.1994.1062. The Crossref record dates the issue to
+September 1994 without a day, so the page takes the first of that month as its
+date. The site's curator, T. F. Bloom, labels the problem proved and credits
+[Th94] for the bound. The page lists this credit as `reviewed`. The question was
+raised by Erdős, Rubin and Taylor in
 [[../library/graph_coloring/erdos_1980_choosability_graphs/_index|Choosability in graphs]]
-(1980), who conjectured both the bound and its sharpness.
+(1980). They conjectured both the bound and its sharpness.
 
 **Formalization.** The file in Boris Alexeev's lean-proofs collection, linked
 above, declares itself a formalization of a solution to the problem and names

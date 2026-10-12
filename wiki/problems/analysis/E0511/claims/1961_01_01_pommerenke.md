@@ -2,9 +2,9 @@
 name: problems/analysis/E0511/claims/1961_01_01_pommerenke
 title: "Pommerenke: unboundedly many large components"
 desc: |
-  Constructs, for every l below 4 and every k, a monic polynomial whose
-  sublevel set has at least k components of diameter at least l, so the
-  count of components above a fixed diameter is not bounded; refereed.
+  Pommerenke's refereed paper constructs, for every $l<4$ and every $k$, a monic
+  polynomial whose sublevel set has at least $k$ components of diameter at least
+  $l$. So the number of components above a fixed diameter is not bounded.
 authors:
 - Ch. Pommerenke
 status: accepted
@@ -44,16 +44,15 @@ exists. The answer to the question as posed is therefore no. The range
 $l<4$ cannot be enlarged, since by Pólya's theorem no component has diameter
 above $4$.
 
-**Acceptance.** The paper is a refereed journal publication, received 26
-November 1960, the `refereed` evidence; the publisher's record gives the
-year 1961 and no month or day, and this page is dated to the first day of
-that year. The site's curator, Thomas Bloom, labels the problem disproved
-and credits the negative answer to this paper, the `reviewed` evidence; the
-site also records Huang's 2025 independent rediscovery, which has
+**Acceptance.** The paper is a refereed journal publication, the `refereed`
+evidence. It was received 26 November 1960. The publisher's record gives the
+year 1961 and no month or day, so this page is dated to the first day of that
+year. The site's curator, Thomas Bloom, labels the problem disproved and credits
+the negative answer to this paper, the `reviewed` evidence. The site also
+records Huang's 2025 independent rediscovery, which has
 [[problems/analysis/E0511/claims/2025_09_15_huang|its own claim page]]. The
-result page notes that the proof quotes the approximation theorem at
-capacity one and applies it to a set of smaller capacity without the
-rescaling spelled out; the note is not a review verdict and awards nothing
-by this corpus.
+result page notes that the proof quotes the approximation theorem at capacity
+one and applies it to a set of smaller capacity without spelling out the
+rescaling. The note is not a review verdict and awards nothing by this corpus.
 
 **Depends on.** Nothing beyond the cited paper.

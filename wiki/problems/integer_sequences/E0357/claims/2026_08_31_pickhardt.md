@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0357/claims/2026_08_31_pickhardt
 title: Residue-class construction and layer-packing bound
 desc: |
-  Pickhardt's manuscript, written with the Paratelligent Research Agent: f(n) at
-  least (4/sqrt 3 - o(1)) sqrt n by a sequence omitting one residue class mod 3,
-  and at most n/2 + ((3/2) 2^{-2/3} + o(1)) n^{2/3} by layer packing.
+  Pickhardt's manuscript, written with the Paratelligent Research Agent, claims
+  $f(n)\ge(4/\sqrt3-o(1))\sqrt n$ by a sequence omitting one residue class
+  mod 3. It also claims $f(n)\le n/2+((3/2)2^{-2/3}+o(1))n^{2/3}$ by layer
+  packing.
 authors:
 - Paratelligent Research Agent
 - Jeff Pickhardt

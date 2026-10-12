@@ -2,10 +2,10 @@
 name: problems/extremal_graph_theory/E0816
 title: Problem 816
 desc: |
-  Asks whether a graph with 2n + 1 vertices and n^2 + n + 1 edges has two
-  equal-degree vertices joined by a path of length 3; corrected to n at least
-  2, since n = 1 (the triangle) fails; proved for n at least 600 by Chen and
-  Ma and claimed for every n at least 2 by Liu and Zeng.
+  Asks whether a graph with $2n+1$ vertices and $n^2+n+1$ edges has two vertices
+  of equal degree joined by a path of length $3$, corrected to $n\ge2$ since
+  $n=1$ (the triangle) fails. Proved for $n\ge600$ by Chen and Ma; claimed for
+  every $n\ge2$ by Liu and Zeng.
 tags:
 - Graph theory
 status: claimed
@@ -79,22 +79,23 @@ reading contradicts the site's remark that $K_{n,n+1}$ shows $n^2+n$ edges do
 not suffice, since two same-side vertices of $K_{n,n+1}$ are joined by a
 two-edge path; so it is not the site's.
 
-**Status.** PROVED, the site's label, resting on the commentary's credit to
-[ChMa25], whose theorem needs $n\ge600$. The corrected Statement is proved for
-$n\ge600$ by Theorem 2 of [ChMa25] (J. Combin. Theory Ser. B 179 (2026), 1--18;
-refereed; cited from arXiv v1), in the stronger form that $K_{n,n+1}$ is the
-only graph with $2n+1$ vertices and at least $n^2+n$ edges without such a pair;
-it is recorded as an accepted partial claim on
+**Status.** PROVED. This is the site's label, and it rests on the commentary's
+credit to [ChMa25], whose theorem needs $n\ge600$. The derived standing is
+claimed, proved, because the range $3\le n\le599$ rests on [LiZe25] alone. The
+corrected Statement is proved for $n\ge600$ by Theorem 2 of [ChMa25] (J. Combin.
+Theory Ser. B 179 (2026), 1--18; refereed; cited from arXiv v1). The theorem
+proves it in a stronger form: $K_{n,n+1}$ is the only graph with $2n+1$ vertices
+and at least $n^2+n$ edges without such a pair. It is recorded as an accepted
+partial claim on
 [[problems/extremal_graph_theory/E0816/claims/2025_03_25_chen_ma|Chen and Ma's claim page]].
 The preprint [LiZe25] (arXiv:2505.00523v2, August 2025) states the same theorem
-for every $n\ge2$ (its Theorem 1.3), which is the whole corrected Statement, and
-presents it as resolving the question completely; no journal record and no
-independent review of it was found on 2026-09-18, its proof (pp. 2--14) is
-unread, and it is recorded as the pending full claim on
+for every $n\ge2$ (its Theorem 1.3). That is the whole corrected Statement, and
+the preprint presents it as resolving the question completely. No journal record
+and no independent review of it was found on 2026-09-18, and its proof (pp.
+2--14) is unread. It is recorded as the pending full claim on
 [[problems/extremal_graph_theory/E0816/claims/2025_05_01_liu_zeng|Liu and Zeng's claim page]].
-The derived standing is therefore claimed, proved: the range $3\le n\le599$
-rests on [LiZe25] alone, and the case $n=2$ is also checked by hand below. The
-site's wording, which also admits $n=1$, fails there (see Notes).
+The case $n=2$ is also checked by hand below. The site's wording, which also
+admits $n=1$, fails there (see Notes).
 
 **Source.** [erdosproblems.com/816](https://www.erdosproblems.com/816),
 accessed 2026-09-18: the problem page (PROVED, with the

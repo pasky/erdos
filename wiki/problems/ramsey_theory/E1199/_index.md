@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E1199
 title: Problem 1199
 desc: |
-  Asks whether every two-coloring of the natural numbers admits an infinite
-  set whose pairwise sums, doubles included, share one color (Owings's
-  question); open on the site, false for three colors, claimed for two.
+  Asks whether every two-coloring of $\mathbb{N}$ admits an infinite set whose
+  pairwise sums, doubles included, share one color (Owings's question). The site
+  lists it as open, the analogue for three colors is false, and a proof for two
+  colors is claimed.
 tags:
 - Additive combinatorics
 - Ramsey theory
@@ -46,34 +47,38 @@ question is $r=2$, and the answer is no for every $r\ge3$ ([Hi79], p. 19: "It is
 shown in section 2 that the answer is 'no' if $r\ge3$"). The site's source key
 is [Er80, p. 104].
 
-**Status.** Open. For three or more colors the answer is no: Hindman [Hi79] (J.
-Combin. Theory Ser. A 27 (1979), 19--32, refereed) constructed a three-cell
-partition with no infinite $A$ having $A+A$ monochromatic
+**Status.** Open. For two colors in general, a preprint of Huang, Lian, Shao,
+Xiao, Xu and Zhang ([HLSXXZ26], arXiv:2607.17333, v3 of 29 July 2026) claims an
+affirmative answer (its Theorem 1.1). No refereed version, independent review or
+citing paper of that claim was found. The site had not adopted it: its label was
+OPEN on 2026-09-18, seven weeks after a thread comment of 1 August 2026 reported
+it. The claim is recorded as a pending full claim on its
+[[problems/ramsey_theory/E1199/claims/2026_07_19_huang_lian_shao_xiao_xu_zhang|claim page]],
+and the frontmatter standing `claimed`, `proved` is derived from it. For the
+two-color statement, the absence of acceptance evidence is a bounded negative
+finding of the search, not a certificate of openness.
+
+For three or more colors the answer is no. Hindman [Hi79] (J. Combin. Theory
+Ser. A 27 (1979), 19--32, refereed) constructed a three-cell partition with no
+infinite $A$ having $A+A$ monochromatic
 ([[../library/ramsey_theory/hindman_1979_partitions_sums_integers_repetition/theorem_2_4|Theorem 2.4]],
-p. 21, with its proof on pp. 21--23, followed below); the result rests on the
+p. 21, with its proof on pp. 21--23, followed below). The result rests on the
 paper, to which the site, [LeWi24], [HLSXXZ26] and Erdős's 1977 and 1980 surveys
-all attribute it; a different explicit three-coloring recorded in an external
-Lean file behind the formal-conjectures variant is checked below by an
-elementary argument. For two colors the paper itself settles only the admissible
-partitions, those with a class containing, for a fixed difference $d$,
+all attribute it. An external Lean file behind the formal-conjectures variant
+records a different explicit three-coloring, which is checked below by an
+elementary argument. The three-color Theorem 2.4, which the site credits,
+answers a variant and settles no instance of the two-color question, so it has
+no claim page.
+
+For two colors, the paper itself settles only the admissible partitions. These
+are the partitions with a class containing, for a fixed difference $d$,
 arbitrarily long arithmetic progressions $\{x+kd:0\le k\le n\}$ that start at an
 even integer $x$
 ([[../library/ramsey_theory/hindman_1979_partitions_sums_integers_repetition/corollary_2_10|Corollary 2.10]],
-p. 27), recorded as an accepted partial claim on
-[[problems/ramsey_theory/E1199/claims/1979_07_01_hindman|its claim page]], and
-closes its § 2 with the conjecture that the restriction can be removed (p. 28).
-The three-color Theorem 2.4, which the site credits, answers a variant and
-settles no instance of the two-color question, so it has no claim page. For two
-colors in general, a preprint of Huang, Lian, Shao, Xiao, Xu and Zhang
-([HLSXXZ26], arXiv:2607.17333, v3 of 29 July 2026) claims an affirmative answer
-(its Theorem 1.1). No refereed version, independent review or citing paper of
-that claim was found, and the site had not adopted it (its label was OPEN on
-2026-09-18, seven weeks after a thread comment of 1 August 2026 reported it);
-the claim is recorded as a pending full claim on its
-[[problems/ramsey_theory/E1199/claims/2026_07_19_huang_lian_shao_xiao_xu_zhang|claim page]],
-from which the frontmatter standing `claimed`, `proved` is derived. For the
-two-color statement the absence of acceptance evidence is a bounded negative
-finding of the search, not a certificate of openness.
+p. 27). This result is recorded as an accepted partial claim on
+[[problems/ramsey_theory/E1199/claims/1979_07_01_hindman|its claim page]]. The
+paper closes its § 2 with the conjecture that the restriction can be removed (p.
+28).
 
 **Source.** [erdosproblems.com/1199](https://www.erdosproblems.com/1199),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that no finite

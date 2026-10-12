@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0541
 title: Problem 541
 desc: |
-  Asks whether p residues modulo p, whose zero-sum non-empty subsets all have
-  the same size, must take at most two distinct values; Graham's conjecture,
-  proved for large primes in 1976 and for every modulus in 2010.
+  Asks whether $p$ residues modulo $p$ whose non-empty zero-sum subsets all have
+  the same size must take at most two distinct values. This is Graham's
+  conjecture, proved for large primes in 1976 and for every modulus in 2010.
 tags:
 - Number theory
 status: solved
@@ -49,24 +49,25 @@ covered in full. Two distinct values do occur with a unique zero-sum length:
 $1^{p-1}x$ for any $x$, and $1^{p-2}(q+1)^2$ for $p=2q+1$
 (Gao--Hamidoune--Wang, p. 2).
 
-**Status.** The site's label is PROVED (LEAN). Gao, Hamidoune and Wang's
-Theorem 1.1 (J. Number Theory 2010, refereed): a sequence of $n$ integers
-in $[0,n-1]$ taking at least three distinct values has two nonempty
-zero-sum subsequences modulo $n$ of distinct lengths. Read contrapositively
-with $n=p$ (an authored one-line deduction, below), it gives the site's
-statement for every prime, and indeed for every modulus. Erdős and
-Szemerédi proved the conjecture for all sufficiently large primes in 1976,
-for nonzero residues, by a longer argument. The site's (LEAN) suffix refers
-to the Lean proof described under Formalization and the Lean label below.
-The claim pages
+**Status.** The site's label is PROVED (LEAN). The frontmatter standing derives
+from the claim pages. The pages
 [[problems/integer_sequences/E0541/claims/2009_02_27_gao_hamidoune_wang|Gao, Hamidoune and Wang 2009]]
-and [[problems/integer_sequences/E0541/claims/2009_03_18_grynkiewicz|Grynkiewicz 2009]]
-record the accepted proofs,
+and
+[[problems/integer_sequences/E0541/claims/2009_03_18_grynkiewicz|Grynkiewicz 2009]]
+record the accepted proofs. The page
 [[problems/integer_sequences/E0541/claims/1974_02_14_erdos_szemeredi|Erdős and Szemerédi 1976]]
-the accepted partial claim for large primes, and
+records the accepted partial claim for large primes. The page
 [[problems/integer_sequences/E0541/claims/2025_12_31_alexeev|Alexeev's Lean proof of 2025]]
-the accepted formal proof for every prime, built and audited by this
-corpus; the frontmatter standing derives from them.
+records the accepted formal proof for every prime, built and audited by this
+corpus. Gao, Hamidoune and Wang's Theorem 1.1 (J. Number Theory 2010, refereed)
+states that a sequence of $n$ integers in $[0,n-1]$ taking at least three
+distinct values has two nonempty zero-sum subsequences modulo $n$ of distinct
+lengths. Read contrapositively with $n=p$ (an authored one-line deduction,
+below), it gives the site's statement for every prime, and indeed for every
+modulus. Erdős and Szemerédi proved the conjecture for all sufficiently large
+primes in 1976, for nonzero residues, by a longer argument. The site's (LEAN)
+suffix refers to the Lean proof described under Formalization and the Lean label
+below.
 
 **Source.** [erdosproblems.com/541](https://www.erdosproblems.com/541),
 accessed 2026-09-18: the problem page (PROVED (LEAN), the site's label for

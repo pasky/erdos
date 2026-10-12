@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0154/claims/1998_04_01_lindstrom
 title: Lindström's equidistribution of dense Sidon sets
 desc: |
-  Lindström proved that a Sidon set of size about the square root of N inside
-  the first N integers is asymptotically equidistributed among the residue
-  classes of a fixed modulus, which answers Problem 154 yes for the sumset.
+  Lindström proved that a Sidon set $A\subset\{1,\ldots,N\}$ with
+  $\lvert A\rvert\sim N^{1/2}$ is asymptotically equidistributed among the
+  residue classes of a fixed modulus. This answers Problem 154 yes for the
+  sumset.
 authors:
 - Bernt Lindström
 status: accepted
@@ -54,16 +55,18 @@ remark records the same deduction in its own words.
 **Depends on.** No page of this wiki; the result is the paper's.
 
 **Acceptance.** Refereed: B. Lindström, Well distribution of Sidon sets in
-residue classes, J. Number Theory 69 (1998), no. 2, 197–200; the issue is dated
+residue classes, J. Number Theory 69 (1998), no. 2, 197–200. The issue is dated
 April 1998, and the page name uses the first day of that month. Reviewed: the
 site's curator, T. F. Bloom, labels Problem 154 proved at erdosproblems.com on
-this result and Kolountzakis's strengthening, which is the site's acceptance.
-Two outside Lean files formalize the argument: the first, posted by Wouter van
-Doorn to the site's thread on 2026-02-06 and pinned at its commit of 2026-03-02,
-proves the statement for $A$ (`sidon_density_limit`) and formalizes, by
-Harmonic's Aristotle, a write-up of Lindström's proof produced with ChatGPT; the
-second, first posted on 2026-06-27 and pinned at its commit of 2026-08-22,
-derives the sumset statement (`erdos_154_sumset`) from it, and
-formal-conjectures links both. Neither file has been built or audited in this
-corpus, so `formalized` is not listed and the Lean qualification of the site's
-label is the site's.
+the basis of this result and Kolountzakis's strengthening. This is the site's
+acceptance.
+
+Two outside Lean files formalize the argument. The first was posted by Wouter
+van Doorn to the site's thread on 2026-02-06 and is pinned at its commit of
+2026-03-02. It proves the statement for $A$ (`sidon_density_limit`). It is a
+formalization, by Harmonic's Aristotle, of a write-up of Lindström's proof
+produced with ChatGPT. The second was first posted on 2026-06-27 and is pinned
+at its commit of 2026-08-22. It derives the sumset statement
+(`erdos_154_sumset`) from the first. formal-conjectures links both. Neither file
+has been built or audited in this corpus. So `formalized` is not listed, and the
+Lean qualification of the site's label is the site's.

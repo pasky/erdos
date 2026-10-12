@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E0180
 title: Problem 180
 desc: |
-  Asks whether every finite family of forbidden graphs contains one member
-  whose own extremal edge count is comparable to that of the whole family.
+  Asks whether every finite family $\mathcal{F}$ of forbidden graphs has a
+  member $G$ whose extremal number is comparable to the family's,
+  $\mathrm{ex}(n;G)\ll_{\mathcal{F}}\mathrm{ex}(n;\mathcal{F})$.
 tags:
 - Graph theory
 - Turán numbers
@@ -95,24 +96,24 @@ that no member of the forbidden family is a forest. Disconnected forests are
 included: this is not a restriction merely excluding trees. That variant is not
 substituted into the statement; the accepted disproof below refutes it as well.
 
-**Status.** DISPROVED (LEAN), the site's label, which records the disproof of
-the corrected Statement. The answer is no. The accepted claim is Theorem 1.1 of
-Chapter 10 of OpenAI's 2026 report, a finite family of connected bipartite
-graphs, each containing a cycle, whose joint extremal number is
-$O(n^{4/3-1/48})$ while every member's is $\Omega(n^{4/3})$, on
-[[problems/extremal_graph_theory/E0180/claims/2026_08_01_openai|its claim page]]:
-the site's curator, Thomas Bloom, attached the label and credited the disproof
-to an internal model at OpenAI (commentary last edited 31 August 2026), which is
-the documented acceptance; the report has no refereed version, and the Lean file
-the site links was not built or audited in this repository, so it gives no
-`formalized` evidence. Wigderson's two-forest family answers the printed wording
-in the negative but is a family the corrected Statement excludes, so it is
-recorded as rejected on
-[[problems/extremal_graph_theory/E0180/claims/2022_07_25_wigderson|its claim page]]:
-the curator's commentary credits a thread post with it as a folklore
+**Status.** DISPROVED (LEAN), the site's label. It records the disproof of the
+corrected Statement, and the answer is no. The accepted claim is Theorem 1.1 of
+Chapter 10 of OpenAI's 2026 report, on
+[[problems/extremal_graph_theory/E0180/claims/2026_08_01_openai|its claim page]].
+It gives a finite family of connected bipartite graphs, each containing a cycle,
+whose joint extremal number is $O(n^{4/3-1/48})$ while every member's is
+$\Omega(n^{4/3})$. The site's curator, Thomas Bloom, attached the label and
+credited the disproof to an internal model at OpenAI (commentary last edited 31
+August 2026). This is the documented acceptance. The report has no refereed
+version. The Lean file the site links was not built or audited in this
+repository, so it gives no `formalized` evidence. Wigderson's two-forest family
+answers the printed wording in the negative, but it is a family the corrected
+Statement excludes. So it is recorded as rejected on
+[[problems/extremal_graph_theory/E0180/claims/2022_07_25_wigderson|its claim page]].
+The curator's commentary credits a thread post with it as a folklore
 counterexample and does not treat it as settling the problem. The forum's
-dichotomy for families of forests, which answers the question for each such
-family, is a claimed partial claim on
+dichotomy for families of forests answers the question for each such family. It
+is a claimed partial claim on
 [[problems/extremal_graph_theory/E0180/claims/2026_04_28_kj_c|its claim page]].
 The formalization paragraph below states what the two Lean files say.
 

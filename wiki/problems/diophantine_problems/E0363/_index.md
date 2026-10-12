@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0363
 title: Problem 363
 desc: |
-  Asks whether only finitely many families of disjoint integer intervals, each
-  of length at least four, have the product of all their members equal to a
-  square.
+  Asks whether only finitely many collections of disjoint integer intervals,
+  each containing at least four integers, have the product of all their members
+  equal to a square.
 tags:
 - Number theory
 status: solved
@@ -46,10 +46,9 @@ for $n=4$ and $n\geq 6$, Bauer and Bennett's for $n=3$ and $n=5$, and Bennett
 and Van Luijk's blocks of five for $n\geq 5$ each give infinitely many
 collections for one fixed choice.
 
-**Status.** DISPROVED (LEAN). The "(LEAN)" suffix is the site's catalog
-label; the disproofs, their acceptance and the Lean formalization are
-recorded on the claim pages, and the corpus has built no Lean for this
-problem.
+**Status.** DISPROVED (LEAN). The "(LEAN)" suffix comes from the site's catalog
+label. The claim pages record the disproofs, their acceptance and the Lean
+formalization. The corpus has built no Lean for this problem.
 
 **Source.** [erdosproblems.com/363](https://www.erdosproblems.com/363), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #363,

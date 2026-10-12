@@ -2,9 +2,10 @@
 name: problems/covering_systems/E0002/claims/2022_11_15_cummings_filaseta_trifonov
 title: Minimum modulus at most 118 for squarefree moduli
 desc: |
-  Theorem 1.1 of Cummings, Filaseta and Trifonov (Acta Math. Hungar. 2025):
-  a covering system with distinct squarefree moduli has smallest modulus at
-  most 118, a sharper bound for that restricted class; refereed.
+  Theorem 1.1 of Cummings, Filaseta and Trifonov (Acta Math. Hungar. 2025) shows
+  that a covering system with distinct squarefree moduli has smallest modulus at
+  most 118. This is a sharper bound for that restricted class, and the paper is
+  refereed.
 authors:
 - Maria Cummings
 - Michael Filaseta
@@ -54,7 +55,7 @@ attainable squarefree minimum modulus is not identified.
 **Depends on.** Nothing in this wiki; the theorem is the paper's own.
 
 **Acceptance.** Refereed: Acta Mathematica Hungarica 175 (2025), 1--25,
-doi:10.1007/s10474-024-01496-x; the arXiv v1 of 2022-11-15 names this page.
-Not reviewed: the site's page for the problem does not cite the paper. Not
-formalized: no Lean proof of the theorem is recorded. The proof is not
-checked in this corpus, and the library has no card for the paper.
+doi:10.1007/s10474-024-01496-x. The arXiv v1 of 2022-11-15 names this page. Not
+reviewed: the site's page for the problem does not cite the paper. Not
+formalized: no Lean proof of the theorem is recorded. The proof is not checked
+in this corpus, and the library has no card for the paper.

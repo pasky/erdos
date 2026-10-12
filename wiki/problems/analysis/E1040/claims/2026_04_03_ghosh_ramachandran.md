@@ -2,9 +2,10 @@
 name: problems/analysis/E1040/claims/2026_04_03_ghosh_ramachandran
 title: Ghosh and Ramachandran's capacity-above-one case
 desc: |
-  Compact sets of equal capacity in (0, 1) with different minimal areas, so
-  the minimal area is not determined by the capacity; also, for compact K of
-  capacity t > 1, the degree-n minimal area of {|p| < 1} decays like t^(-2n).
+  Ghosh and Ramachandran give compact sets of equal capacity in $(0,1)$ with
+  different minimal areas, so the minimal area is not determined by the
+  capacity. They also show that for compact $K$ of capacity $t>1$, the
+  degree-$n$ minimal area of $\{|p|<1\}$ decays like $t^{-2n}$.
 authors:
 - Subhajit Ghosh
 - Koushik Ramachandran

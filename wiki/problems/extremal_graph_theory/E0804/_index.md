@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E0804
 title: Problem 804
 desc: |
-  Estimates the largest independent set forced in a graph on n vertices where
-  every induced subgraph on m vertices has an independent set of size log n.
+  Estimates the largest independent set forced in an $n$-vertex graph in which
+  every induced subgraph on $m$ vertices has an independent set of size
+  $\log n$.
 tags:
 - Graph theory
 status: solved
@@ -38,14 +39,12 @@ Separately, the source results refute the two displayed lower-bound proposals
 under the two-variable reading; they do not resolve the general estimation
 problem.
 
-**Status.** Disproved. The site labels the problem DISPROVED, and its
-commentary credits Alon and Sudakov with the two bounds that refute the
-displayed proposals; the frontmatter standing is derived from the accepted
-claim page
+**Status.** Disproved. The site labels the problem DISPROVED. Its commentary
+credits Alon and Sudakov with the two bounds that refute the displayed
+proposals. The frontmatter standing is derived from the accepted claim page
 [[problems/extremal_graph_theory/E0804/claims/2007_06_27_alon_sudakov|Alon and Sudakov's bounds]],
-whose acceptance evidence is the refereed journal and the site's own
-commentary, and it targets the two-variable reading stated in the
-Formulation.
+whose acceptance evidence is the refereed journal and the site's own commentary.
+The standing targets the two-variable reading stated in the Formulation.
 
 **Source.** [erdosproblems.com/804](https://www.erdosproblems.com/804), accessed
 2026-09-10. Cite as: T. F. Bloom, Erdős Problem #804,

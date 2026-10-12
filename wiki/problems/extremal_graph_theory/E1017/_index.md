@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1017
 title: Problem 1017
 desc: |
-  Estimates the number of edge-disjoint complete graphs needed to partition
-  the edges of a graph on n vertices with more than n squared over 4 edges;
-  open; Győri and Keszegh settle the K_4-free case up to about n squared / 16.
+  Asks to estimate the number of edge-disjoint complete graphs needed to
+  partition the edges of a graph on $n$ vertices with more than $n^2/4$ edges.
+  It is open, though Győri and Keszegh settle the $K_4$-free case up to about
+  $n^2/16$ edges beyond $n^2/4$.
 tags:
 - Graph theory
 status: open
@@ -42,38 +43,39 @@ theorem could be sharpened" ([Er71], p. 101) and "What then is the new
 minimum as a function of $k$?" ([EGP66], p. 109); the site calls the 1971
 question vague.
 
-**Status.** Open. What is known: the universal bound $f(n,k)\le[n^2/4]$ with
-edges and triangles only
+**Status.** Open. What is known has three parts. The first is the universal
+bound $f(n,k)\le[n^2/4]$ with edges and triangles only
 ([[../library/extremal_graph_theory/erdos_1966_representation_graph_set_intersections/theorem_4|Theorem 4]]
-of [EGP66], Canad. J. Math. 1966, refereed); the origin passages of 1966
-and 1971 with Lovász's covering bound quoted by Erdős (Lovász's paper [Lo68]
-is not held); and the $K_4$-free case, in which a partition uses only edges
-and triangles and minimizing pieces is the same as packing edge-disjoint
-triangles:
+of [EGP66], Canad. J. Math. 1966, refereed). The second is the origin passages
+of 1966 and 1971, with Lovász's covering bound quoted by Erdős (Lovász's paper
+[Lo68] is not held). The third is the $K_4$-free case. There a partition uses
+only edges and triangles, and minimizing pieces is the same as packing
+edge-disjoint triangles.
 [[../library/extremal_graph_theory/gyori_2017_number_edge_disjoint_triangles_k_4_free_graphs/theorem_1|Theorem 1]]
-of [GyKe17] (Combinatorica 2017, refereed; cited from arXiv v1)
-gives at least $\lceil k\rceil$ edge-disjoint triangles in every $K_4$-free
-graph with $n^2/4+k$ edges, sharp for $k$ up to about $n^2/16$ (equality
-for a Turán graph with a triangle-free graph inside one side), so such a
-graph is partitioned into at most $n^2/4-k$ pieces (a one-line conversion
-made below), the exact $K_4$-free minimum in that range; between about
-$n^2/16$ and the $K_4$-free maximum $n^2/12$ only this upper bound is
-known, and the authors conjecture a stronger one. The same conversion holds
-for every graph: $\tau$ edge-disjoint triangles leave a partition into
-$e-2\tau$ triangles and edges, so packing theorems for general graphs sharpen
-$[n^2/4]$. Write $[n^2/4]+m$ for the number of edges. Győri's exact result as
-[BaWi25] restates it on p. 10 ($m$ edge-disjoint triangles when $m\le2n-10$
-for odd $n$ or $m\le1.5n-5$ for even $n$; Erdős stated the case $m<cn$ in
-item 3 of [Er71], naming the method but printing no proof) gives
-$f=[n^2/4]-m$ in that range. Equality is attained by the Győri--Keszegh
-equality graphs: a Turán graph with a triangle-free graph of $m$ edges inside
-one side, in which every triangle uses one of those $m$ edges. Győri's
-Theorem 1.6 as [BaWi25] restates it gives $f=[n^2/4]-m+O(m^2/n^2)$ for
+of [GyKe17] (Combinatorica 2017, refereed; cited from arXiv v1) gives at least
+$\lceil k\rceil$ edge-disjoint triangles in every $K_4$-free graph with
+$n^2/4+k$ edges. This is sharp for $k$ up to about $n^2/16$, with equality for a
+Turán graph with a triangle-free graph inside one side. So such a graph is
+partitioned into at most $n^2/4-k$ pieces (a one-line conversion made below),
+which is the exact $K_4$-free minimum in that range. Between about $n^2/16$ and
+the $K_4$-free maximum $n^2/12$ only this upper bound is known, and the authors
+conjecture a stronger one.
+
+The same conversion holds for every graph: $\tau$ edge-disjoint triangles leave
+a partition into $e-2\tau$ triangles and edges. So packing theorems for general
+graphs sharpen $[n^2/4]$. Write $[n^2/4]+m$ for the number of edges. Győri's
+exact result, as [BaWi25] restates it on p. 10, gives $m$ edge-disjoint
+triangles when $m\le2n-10$ for odd $n$ or $m\le1.5n-5$ for even $n$. Erdős
+stated the case $m<cn$ in item 3 of [Er71], naming the method but printing no
+proof. Győri's result gives $f=[n^2/4]-m$ in that range. Equality is attained by
+the Győri--Keszegh equality graphs: a Turán graph with a triangle-free graph of
+$m$ edges inside one side, in which every triangle uses one of those $m$ edges.
+Győri's Theorem 1.6, as [BaWi25] restates it, gives $f=[n^2/4]-m+O(m^2/n^2)$ for
 $m=o(n^2)$. Conjecture 1.4, which [BaWi25] proves from its Theorem 1.8, gives
-$f\le[n^2/4]-(1/3-o(1))m$ for every $m$. These are authored conversions. For
-$m$ of order $n^2$ no estimate beyond these bounds was found in the search
-whose scope the Current assessment records; this is a bounded negative
-finding, not a certificate of openness.
+$f\le[n^2/4]-(1/3-o(1))m$ for every $m$. These are authored conversions. For $m$
+of order $n^2$ no estimate beyond these bounds was found in the search whose
+scope the Current assessment records. This is a bounded negative finding, not a
+certificate of openness.
 
 **Source.** [erdosproblems.com/1017](https://www.erdosproblems.com/1017),
 accessed 2026-09-18: the problem page

@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0505/claims/2014_11_06_jenrich_brouwer
 title: Jenrich and Brouwer's counterexample in dimension 64
 desc: |
-  A two-distance set of 352 points in 64-dimensional space whose
-  smaller-diameter subsets have at most five points, so at least 71 parts are
-  needed where Borsuk's assertion allows 65.
+  Jenrich and Brouwer give a two-distance set of $352$ points in
+  $\mathbb R^{64}$ whose subsets of smaller diameter have at most five points.
+  So at least $71$ parts are needed where Borsuk's assertion allows $65$.
 authors:
 - Thomas Jenrich
 - Andries E. Brouwer
@@ -56,15 +56,15 @@ published on 6 November 2014. The page is named by the publication the site
 credits, its date and its authors; the earlier solo posting is disclosed
 here.
 
-**Acceptance.** The result is refereed: the Electronic Journal of
-Combinatorics published it. The site's curator, Thomas Bloom, marks the
-problem disproved and names Brouwer and Jenrich's dimension 64 as the
-smallest dimension in which the conjecture is known to fail (problem page
-last edited 30 December 2025). The question was already answered no by
-[[problems/discrete_geometry/E0505/claims/1993_07_01_kahn_kalai|Kahn and Kalai]];
-this result settles it again in a much smaller dimension. The corpus has not
-reviewed the complete proof or its graph-theoretic inputs, and no such review
-is needed for the standing recorded here.
+**Acceptance.** The result is refereed, since the Electronic Journal of
+Combinatorics published it. Thomas Bloom, the site's curator, marks the problem
+disproved. He names Brouwer and Jenrich's dimension 64 as the smallest dimension
+in which the conjecture is known to fail (problem page last edited 30 December
+2025).
+[[problems/discrete_geometry/E0505/claims/1993_07_01_kahn_kalai|Kahn and Kalai]]
+had already answered the question no, and this result settles it again in a much
+smaller dimension. The corpus has not reviewed the complete proof or its
+graph-theoretic inputs. No such review is needed for the standing recorded here.
 
 **Formalization.** The formal-conjectures file
 [BorsukConjecture.lean](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/Wikipedia/BorsukConjecture.lean),

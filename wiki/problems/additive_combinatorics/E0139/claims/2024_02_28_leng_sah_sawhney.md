@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0139/claims/2024_02_28_leng_sah_sawhney
 title: Leng, Sah and Sawhney's bound for r_k(N) at every k at least 5
 desc: |
-  Theorem 1.1 of Leng, Sah and Sawhney (2024) bounds a subset of the first N
-  integers with no k-term progression by N exp(-(log log N)^(c_k)) for every
-  k at least 5, those instances of Problem 139 with a rate; a preprint, claimed.
+  Theorem 1.1 of Leng, Sah and Sawhney (2024) bounds the size of a subset of the
+  first $N$ integers with no $k$-term progression by
+  $N\exp(-(\log\log N)^{c_k})$ for every $k\ge5$, which gives those instances of
+  Problem 139 with a rate. It is a preprint, so it is claimed.
 authors:
 - James Leng
 - Ashwin Sah

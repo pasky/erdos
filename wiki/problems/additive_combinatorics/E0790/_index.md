@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0790
 title: Problem 790
 desc: |
-  The largest subset guaranteed inside any n integers in which no element
-  equals the sum of two or more other distinct elements of the subset; known
-  to lie between the square root of n log n over log log n and n over log n.
+  Estimates $l(n)$, the size of the largest subset guaranteed inside any $n$
+  integers in which no element equals the sum of two or more other distinct
+  elements. Known bounds are $(n\log n/\log\log n)^{1/2}\ll l(n)\ll n/\log n$.
 tags:
 - Additive combinatorics
 status: claimed
@@ -62,33 +62,34 @@ bound $l(n)\ll n(\log\log n)^{-1/2}$ had already answered in the negative, and
 the 1975 upper bound answers again. The site's source keys are [Er65, p. 188],
 [Er73, p. 130] and [Va99, 1.22].
 
-**Status.** Open, the site's label. The bounds in hand are the Theorem of Choi,
-Komlós and Szemerédi (Trans. Amer. Math. Soc. 212 (1975), refereed; an accepted
-partial claim on
-[[problems/additive_combinatorics/E0790/claims/1975_01_01_choi_komlos_szemeredi|its claim page]]),
-$(n\log n/\log\log n)^{1/2}\ll l(n)\ll n/\log n$, which answer the first
-displayed question affirmatively and leave the second open; the paper's closing
+**Status.** Open, the site's label. The label was OPEN on 2026-09-18 and on
+2026-10-06. A full proof claim on the site's tab (13 September 2026), declaring
+the use of GPT Astra, claims $l(n)\gg n/(\log n)^2$. It is recorded as a pending
+claim on
+[[problems/additive_combinatorics/E0790/claims/2026_09_13_korsky|its claim page]].
+The site's commentary does not mention the claim.
+
+The bounds in hand come from the Theorem of Choi, Komlós and Szemerédi (Trans.
+Amer. Math. Soc. 212 (1975), refereed), an accepted partial claim on
+[[problems/additive_combinatorics/E0790/claims/1975_01_01_choi_komlos_szemeredi|its claim page]]:
+$(n\log n/\log\log n)^{1/2}\ll l(n)\ll n/\log n$. These answer the first
+displayed question affirmatively and leave the second open. The paper's closing
 remark that it is "conceivable that $f(n)>n^{1-\epsilon}$ for every $\epsilon$"
 (p. 313) is the conjecture $l(n)\ge n^{1-o(1)}$ that the site attributes to the
-authors. Erdős's $l(n)\ge(n/2)^{1/2}$ (1965, inequality (30)) and Choi's
-improvement (Proc. Amer. Math. Soc. 39 (1973), refereed, not held; an accepted
-partial claim on
-[[problems/additive_combinatorics/E0790/claims/1973_06_01_choi|its claim page]])
-are the earlier lower bounds; the site, following Erdős 1973, writes Choi's
-bound as $(1+c)n^{1/2}$, while the zbMATH review of the paper gives
-$\frac{35}{36}n^{1/2}$. Erdős's 1965 claim that $l(n)=o(n)$ was withdrawn in
-1973, the year Choi proved $l(n)\ll n(\log\log n)^{-1/2}$ (Proc. Amer. Math.
-Soc. 41 (1973), 415--418). Inequality (30) and the second 1973 paper have no
-claim pages: (30) appeared in a proceedings volume with only a sketch of its
-proof and is superseded by Choi's refereed bound, and the site does not credit
-the second paper, whose bound the 1975 Theorem supersedes. A full proof claim on
-the site's tab (13 September 2026), declaring the use of GPT Astra, claims
-$l(n)\gg n/(\log n)^2$ and is recorded as a pending claim on
-[[problems/additive_combinatorics/E0790/claims/2026_09_13_korsky|its claim page]];
-the site's label was OPEN on 2026-09-18 and on 2026-10-06, and its commentary
-does not mention the claim. The search whose scope the Current assessment
-records found no refereed improvement of either bound. This is a bounded
-negative finding, not a certificate of openness.
+authors. The earlier lower bounds are Erdős's $l(n)\ge(n/2)^{1/2}$ (1965,
+inequality (30)) and Choi's improvement (Proc. Amer. Math. Soc. 39 (1973),
+refereed, not held). Choi's improvement is an accepted partial claim on
+[[problems/additive_combinatorics/E0790/claims/1973_06_01_choi|its claim page]].
+Following Erdős 1973, the site writes Choi's bound as $(1+c)n^{1/2}$, while the
+zbMATH review of the paper gives $\frac{35}{36}n^{1/2}$. Erdős's 1965 claim that
+$l(n)=o(n)$ was withdrawn in 1973. In that year Choi proved
+$l(n)\ll n(\log\log n)^{-1/2}$ (Proc. Amer. Math. Soc. 41 (1973), 415--418).
+Inequality (30) and this second 1973 paper have no claim pages. Inequality (30)
+appeared in a proceedings volume with only a sketch of its proof and is
+superseded by Choi's refereed bound. The site does not credit the second paper,
+whose bound the 1975 Theorem supersedes. The search whose scope the Current
+assessment records found no refereed improvement of either bound. This is a
+bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/790](https://www.erdosproblems.com/790),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that no

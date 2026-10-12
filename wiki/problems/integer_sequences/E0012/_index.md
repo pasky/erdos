@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0012
 title: Problem 12
 desc: |
-  Asks how large an infinite set with no element dividing the sum of two
-  larger elements can be, in counting, density and reciprocal-sum terms; the
-  first two questions have 2026 claimed answers, the reciprocal sum is open.
+  Asks how large an infinite set with no element dividing the sum of two larger
+  elements can be, in terms of its counting function, its density and its
+  reciprocal sum. The first two questions have claimed answers from 2026, and
+  the reciprocal-sum question is open.
 tags:
 - Number theory
 status: open
@@ -60,42 +61,48 @@ function of order at least $N^{1/2}$ along every $N$; the second asks whether
 every such set is thinner than $N^{1-c}$ infinitely often, for one absolute $c$;
 the third whether the reciprocal sum always converges.
 
-**Status.** Open; the site's label is OPEN. The problem's three parts derive its
-standing: the first two, the liminf and density questions, are answered by
-pending claims, and the third, the reciprocal sum, has no standing claim. There
-are sets with property P and
-$|A\cap\{1,\ldots,N\}|\ge N/(\log N)^{O(\log\log\log N)}$ for all large $N$,
-which answers the first question yes and the second no. The construction is
-credited to DeepMind's automated prover, was simplified and sharpened in the
-thread (7--9 April 2026) and is recorded in the commentary rewritten by the
-site's curator, Thomas Bloom, on 8 April 2026, while the problem's label is
-OPEN; formal proofs of the first two parts sit in a fork of the
-formal-conjectures collection at pinned commits (not built by this corpus). It
-is recorded as a pending partial claim on
-[[problems/integer_sequences/E0012/claims/2026_04_03_deepmind|the DeepMind claim page]]:
-the commentary credits the result but the label settles neither question, and
-the named-author preprint of May 2026 (revised June 2026) that reports the
-formal proofs, [TKS26], is unrefereed. Nat Sothanaphan's note of 8 April 2026, linked in the
-thread on 7 April and produced with GPT-5.4 Thinking, gives its own construction
-answering the same two questions and is recorded as a pending partial claim on
+**Status.** Open; the site's label is OPEN. The standing derives from the
+problem's three parts. The first two, the liminf and density questions, are
+answered by pending claims. The third, the reciprocal sum, has no standing
+claim.
+
+There are sets with property P and
+$|A\cap\{1,\ldots,N\}|\ge N/(\log N)^{O(\log\log\log N)}$ for all large $N$.
+This answers the first question yes and the second no. The construction is
+credited to DeepMind's automated prover. It was simplified and sharpened in the
+thread (7--9 April 2026). It is recorded in the commentary that the site's
+curator, Thomas Bloom, rewrote on 8 April 2026, while the problem's label is
+OPEN. Formal proofs of the first two parts sit in a fork of the
+formal-conjectures collection at pinned commits (not built by this corpus). The
+result is recorded as a pending partial claim on
+[[problems/integer_sequences/E0012/claims/2026_04_03_deepmind|the DeepMind claim page]].
+It is recorded this way because the commentary credits the result but the label
+settles neither question, and because the named-author preprint that reports the
+formal proofs, [TKS26], of May 2026 and revised June 2026, is unrefereed.
+
+Nat Sothanaphan's note of 8 April 2026 gives its own construction answering the
+same two questions. The note was produced with GPT-5.4 Thinking and linked in
+the thread on 7 April. It is recorded as a pending partial claim on
 [[problems/integer_sequences/E0012/claims/2026_04_07_sothanaphan|his claim page]].
+
 Before 2026 the results in hand were the density-zero theorem of Erdős and
 Sárközy (1970), their $p^2$ example with counting function $\gg N^{1/2}/\log N$,
 the Elsholtz--Planitzer construction with
 $\gg N^{1/2}/((\log N)^{1/2}(\log\log N)^2(\log\log\log N)^2)$ (2017), and, for
 pairwise coprime sets only, Schoen's $\ll N^{2/3}$ and Baier's
-$\ll N^{2/3}/\log N$ infinitely often, refereed results recorded as accepted
-partial claims on
+$\ll N^{2/3}/\log N$ infinitely often. Schoen's and Baier's bounds are refereed
+results. They are recorded as accepted partial claims on
 [[problems/integer_sequences/E0012/claims/2001_04_01_schoen|Schoen's claim page]]
 and
 [[problems/integer_sequences/E0012/claims/2004_10_08_baier|Baier's claim page]],
-which answer the second question for that subclass only. For the third question
-nothing is proved either way: every known construction has convergent reciprocal
-sum, and a comment in the thread explains why congruence constructions cannot
-reach divergence; the one proof claim on it, of 30 July 2026, is recorded as a
-rejected partial claim on
-[[problems/integer_sequences/E0012/claims/2026_07_30_ndikum_ndikum|the Ndikums' claim page]]
-and does not change the standing.
+and they answer the second question for that subclass only.
+
+For the third question nothing is proved either way. Every known construction
+has convergent reciprocal sum, and a comment in the thread explains why
+congruence constructions cannot reach divergence. The one proof claim on it, of
+30 July 2026, is recorded as a rejected partial claim on
+[[problems/integer_sequences/E0012/claims/2026_07_30_ndikum_ndikum|the Ndikums' claim page]].
+It does not change the standing.
 
 **Source.** [erdosproblems.com/12](https://www.erdosproblems.com/12), accessed
 2026-09-18: the problem page (OPEN, a label the site glosses as open and not

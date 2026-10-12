@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E0985
 title: Problem 985
 desc: |
-  Asks whether every prime p > 2 has a primitive root modulo p that is itself a
-  prime smaller than p; the site's wording also includes p = 2, where it fails.
+  Asks whether every prime $p>2$ has a primitive root modulo $p$ that is a prime
+  $q<p$. The site's wording also includes $p=2$, where it fails.
 tags:
 - Number theory
 status: open

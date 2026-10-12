@@ -2,9 +2,10 @@
 name: problems/discrepancy/E0162
 title: Problem 162
 desc: |
-  Asks whether the size threshold beyond which some two-coloring of K_n
-  balances every large induced subgraph grows like c log n; corrected to
-  "smallest", it is the question of Problem 563, which is open.
+  Asks whether the size threshold beyond which some 2-coloring of $K_n$ balances
+  every large induced subgraph grows like $c_\alpha\log n$. With the threshold
+  corrected to the smallest such size, this is the question of Problem 563,
+  which is open.
 tags:
 - Combinatorics
 - Ramsey theory

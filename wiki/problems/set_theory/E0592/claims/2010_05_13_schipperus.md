@@ -2,9 +2,9 @@
 name: problems/set_theory/E0592/claims/2010_05_13_schipperus
 title: Schipperus decides beta = omega^gamma by the summands of gamma
 desc: |
-  Schipperus (Ann. Pure Appl. Logic 161, 2010) proves the relation for
-  beta = omega^gamma with gamma the sum of one or two indecomposables and
-  refutes it for four or more; three summands stay open; refereed.
+  Schipperus (Ann. Pure Appl. Logic 161, 2010, refereed) proves the relation for
+  $\beta=\omega^\gamma$ with $\gamma$ the sum of one or two indecomposables, and
+  refutes it for four or more. The case of three summands stays open.
 authors:
 - Rene Schipperus
 status: accepted
@@ -60,10 +60,10 @@ and the relation with $3$ is undecided.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: the paper appeared in the Annals of Pure and
-Applied Logic, volume 161. The site labels the problem OPEN, and its
-commentary crediting Schipperus on an open problem is not an acceptance, so
-no `reviewed` evidence is listed.
+**Acceptance.** Refereed: the paper appeared in the Annals of Pure and Applied
+Logic, volume 161. The site labels the problem OPEN. Its commentary credits
+Schipperus, but credit on an open problem is not an acceptance, so no `reviewed`
+evidence is listed.
 
 **Read depth.** The statements of Theorems 28 and 29 and the one-paragraph
 proof of Theorem 28 are checked; the sections that the proof of Theorem 28

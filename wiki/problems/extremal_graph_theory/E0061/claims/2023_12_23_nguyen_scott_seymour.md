@@ -3,8 +3,8 @@ name: problems/extremal_graph_theory/E0061/claims/2023_12_23_nguyen_scott_seymou
 title: Nguyen, Scott and Seymour's five-vertex path
 desc: |
   Nguyen, Scott and Seymour prove the Erdős-Hajnal conjecture for the
-  five-vertex path, which with the earlier cases completes every five-vertex
-  graph; accepted on the refereed Proc. Lond. Math. Soc. paper.
+  five-vertex path. With the earlier cases this completes every five-vertex
+  graph, and the claim is accepted on the refereed Proc. Lond. Math. Soc. paper.
 authors:
 - Tung Nguyen
 - Alex Scott
@@ -63,8 +63,8 @@ and
 [[problems/extremal_graph_theory/E0061/claims/2021_02_09_chudnovsky_scott_seymour_spirkl|Chudnovsky, Scott, Seymour and Spirkl's five-cycle case]].
 The $P_5$ theorem itself rests on no page of this wiki.
 
-**Acceptance.** The paper is a refereed publication in the Proceedings of
-the London Mathematical Society, published online 2026-03-23, which is the
+**Acceptance.** The paper is a refereed publication in the Proceedings of the
+London Mathematical Society, published online 2026-03-23, which is the
 `refereed` evidence. The site's commentary credits the case to the paper and
-draws the same five-vertex conclusion, but the site labels the problem OPEN,
-so no `reviewed` evidence is listed. This corpus has not checked the proof.
+draws the same five-vertex conclusion. But the site labels the problem OPEN, so
+no `reviewed` evidence is listed. This corpus has not checked the proof.

@@ -2,8 +2,8 @@
 name: problems/primes/E0236
 title: Problem 236
 desc: |
-  Asks whether the number of ways to write n as a prime plus a power of two is
-  always small compared with the logarithm of n.
+  Asks whether the number $f(n)$ of solutions of $n=p+2^k$, with $p$ prime and
+  $k\ge0$, satisfies $f(n)=o(\log n)$.
 tags:
 - Number theory
 - Primes

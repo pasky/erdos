@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0075
 title: Problem 75
 desc: |
-  Asks whether some graph of chromatic number aleph-one on aleph-one vertices
-  has every large n-vertex subgraph containing an independent set of size
-  above n^(1-epsilon) for each epsilon > 0, and asks the same for linear size.
+  Asks whether some graph with $\aleph_1$ vertices and chromatic number
+  $\aleph_1$ has, for every $\epsilon>0$ and all large $n$, an independent set
+  of size $>n^{1-\epsilon}$ in each $n$-vertex subgraph, and asks the same for
+  size $\gg n$.
 tags:
 - Graph theory
 - Chromatic number

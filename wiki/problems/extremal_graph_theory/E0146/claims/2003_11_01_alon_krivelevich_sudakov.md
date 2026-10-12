@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0146/claims/2003_11_01_alon_krivelevich_sudakov
 title: Alon, Krivelevich and Sudakov's one-sided case of the degeneracy bound
 desc: |
-  Corollary 2.3 of Alon, Krivelevich and Sudakov (Combin. Probab. Comput.
-  2003): ex(n,H) = O(n^(2-1/r)) when every vertex on one side of the
-  bipartite H has degree at most r; refereed; the case of the problem that holds.
+  Corollary 2.3 of Alon, Krivelevich and Sudakov (Combin. Probab. Comput. 2003)
+  proves $\mathrm{ex}(n,H)=O(n^{2-1/r})$ when every vertex on one side of the
+  bipartite graph $H$ has degree at most $r$. This refereed result is the case
+  of the problem that holds.
 authors:
 - N. Alon
 - M. Krivelevich
@@ -65,12 +66,12 @@ instance of the statement and is recorded on the problem page only.
 **Depends on.** Nothing in this wiki; the corollary follows from the paper's
 Theorem 2.2 and Lemma 2.1 (pp. 479--480).
 
-**Acceptance.** Refereed: Combinatorics, Probability and Computing
-(Crossref record: volume 12, issue 5--6, pp. 477--494, issue dated November
-2003, published online 3 December 2003; the day is the issue's nominal first
-day, used for this page's date). The site's curator names the result in the
-problem's commentary but labels the problem DISPROVED (LEAN) for OpenAI's
+**Acceptance.** Refereed: Combinatorics, Probability and Computing. The Crossref
+record gives volume 12, issue 5--6, pp. 477--494, with the issue dated November
+2003 and online publication on 3 December 2003. This page's date uses the
+issue's nominal first day. The site's curator names the result in the problem's
+commentary. The site labels the problem DISPROVED (LEAN) for OpenAI's
 counterexample, so the commentary is not listed as review of this case. The
-corollary and the remark after it (p. 480) are checked clause by clause and
-Theorem 2.2 as a statement only; no proof was checked, so nothing is
+corollary and the remark after it (p. 480) were checked clause by clause, and
+Theorem 2.2 was checked as a statement only. No proof was checked, so nothing is
 independently reviewed in this repository.

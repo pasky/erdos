@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0019/claims/2016_05_11_araujo_pardo_vazquez_avila
 title: Arithmetic decompositions with different central vertices
 desc: |
-  Araujo-Pardo and Vázquez-Ávila prove the conjecture for the arithmetic
-  decompositions of K_n with different central vertices, an infinite class
-  of n-quasiclusters (Ars Combin. 2016).
+  Araujo-Pardo and Vázquez-Ávila (Ars Combin. 2016) prove the conjecture for the
+  arithmetic decompositions of $K_n$ with different central vertices, an
+  infinite class of $n$-quasiclusters.
 authors:
 - Gabriela Araujo-Pardo
 - Adrián Vázquez-Ávila
@@ -57,10 +57,10 @@ $\chi(G)\ge n$.
 whose cliques, with the vertices lying in a single clique set aside, admit
 such a labeling.
 
-**Acceptance.** Refereed: Ars Combin. **129** (2016), 287–298 (Zbl
-1413.05098), after its first posting as arXiv:1605.03374 on 2016-05-11; the
-paper's acknowledgment thanks its anonymous referees. The site's label
-decidable does not settle the problem, so the curator's mention is context and
-not `reviewed` evidence.
+**Acceptance.** Refereed: Ars Combin. **129** (2016), 287–298 (Zbl 1413.05098),
+after its first posting as arXiv:1605.03374 on 2016-05-11. The paper's
+acknowledgment thanks its anonymous referees. The site's label decidable does
+not settle the problem, so the curator's mention is context and not `reviewed`
+evidence.
 
 **Depends on.** Nothing in this wiki.

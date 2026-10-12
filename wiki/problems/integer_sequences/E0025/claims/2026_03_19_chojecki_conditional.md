@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0025/claims/2026_03_19_chojecki_conditional
 title: Chojecki's conditional reduction to a quotient-sieve estimate
 desc: |
-  A note deducing that the logarithmic density of the sifted set of Problem
-  25 exists, and equals the limit of the truncation densities, from an
-  unproved uniform harmonic estimate for its first-kill quotient sieves.
+  Chojecki's note deduces that the logarithmic density of the sifted set of
+  Problem 25 exists and equals the limit of the truncation densities. The
+  deduction rests on an unproved uniform harmonic estimate for the set's
+  first-kill quotient sieves.
 authors:
 - Przemyslaw Chojecki
 status: claimed

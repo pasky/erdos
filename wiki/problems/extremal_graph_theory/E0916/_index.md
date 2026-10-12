@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0916
 title: Problem 916
 desc: |
-  Asks whether, for n at least 4, every graph with n vertices and 2n−2 edges
-  has a cycle and a further vertex adjacent to three of its vertices; proved by
-  Thomassen in 1974, while the site's wording, with no range, fails at n = 1.
+  Asks whether, for $n\ge4$, every graph with $n$ vertices and $2n-2$ edges has
+  a cycle and another vertex adjacent to three of its vertices. Proved by
+  Thomassen in 1974; the site's wording, with no range, fails at $n=1$.
 tags:
 - Graph theory
 - Cycles
@@ -61,21 +61,20 @@ his $2N-3$ edge examples, so the corrected Statement asks whether the least
 number $h_3(n)$ of edges forcing the configuration equals $2n-2$, the value
 the 1962 paper says is not excluded.
 
-**Status.** PROVED, the site's label, which describes the corrected
-Statement: the commentary credits the proof to Thomassen [Th74]. The result
-is recorded as an
-[[problems/extremal_graph_theory/E0916/claims/1974_12_01_thomassen|accepted full claim]]:
-Thomassen's Theorem ([Th74], Arch. Math. (Basel) 25 (1974), 210--215,
-refereed; p. 212) gives every graph with $n\ge3$ vertices and at least
-$2n-2$ edges a cycle and a vertex off it joined to at least three of its
-vertices, which covers the corrected Statement's $n\ge4$, and Carmesin's
-refereed paper of 2023 restates it. The value $2n-2$ is exact: Dirac's
+**Status.** PROVED. This is the site's label, and it describes the corrected
+Statement. The commentary credits the proof to Thomassen [Th74]. The result is
+recorded as an
+[[problems/extremal_graph_theory/E0916/claims/1974_12_01_thomassen|accepted full claim]].
+Thomassen's Theorem ([Th74], Arch. Math. (Basel) 25 (1974), 210--215, refereed;
+p. 212) gives every graph with $n\ge3$ vertices and at least $2n-2$ edges a
+cycle and a vertex off it joined to at least three of its vertices. This covers
+the corrected Statement's $n\ge4$. Carmesin's refereed paper of 2023 restates
+it. The value $2n-2$ is exact. Dirac's
 [[../library/extremal_graph_theory/dirac_1960_in_abstrakten_graphen_vorhandene_vollstandige_4_graphen_und_ihre_unterteilungen/satz_6|Satz 6]]
-(p. 68) is best possible by the graphs of his Figures 3--5, which have
-$2n-3$ edges and no subdivision of $K_4$ at all, and by Thomassen's Lemma 2
-(p. 211) every $(K_3,K_{3,3})$-cockade has $2n-3$ edges and lacks the
-configuration. The proof (pp. 212--215) is read for its structure only; no
-step is checked.
+(p. 68) is best possible by the graphs of his Figures 3--5, which have $2n-3$
+edges and no subdivision of $K_4$ at all. Also, by Thomassen's Lemma 2 (p. 211),
+every $(K_3,K_{3,3})$-cockade has $2n-3$ edges and lacks the configuration. The
+proof (pp. 212--215) is read for its structure only, and no step is checked.
 
 **Source.** [erdosproblems.com/916](https://www.erdosproblems.com/916),
 accessed 2026-09-19: the problem page (PROVED, the site's label for a

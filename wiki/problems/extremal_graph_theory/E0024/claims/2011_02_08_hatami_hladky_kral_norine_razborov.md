@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0024/claims/2011_02_08_hatami_hladky_kral_norine_razborov
 title: Hatami, Hladký, Král', Norine and Razborov's pentagon bound
 desc: |
-  Corollary 3.3 of Hatami, Hladký, Král', Norine and Razborov (J. Combin.
-  Theory Ser. A 2013) bounds the pentagons of a triangle-free graph on n
-  vertices by (n/5)^5, with equality only for the balanced blow-up of C_5.
+  Corollary 3.3 of Hatami, Hladký, Král', Norine and Razborov (J. Combin. Theory
+  Ser. A 2013) bounds the number of pentagons in a triangle-free graph on $n$
+  vertices by $(n/5)^5$, with equality only for the balanced blow-up of $C_5$.
 authors:
 - Hamed Hatami
 - Jan Hladký
@@ -50,11 +50,11 @@ maximum for orders not divisible by $5$ (Theorem 4.2) is proved only for
 large $m$, as the problem page records; it is outside the catalog's
 question.
 
-**Acceptance.** Refereed publication: J. Combin. Theory Ser. A 120 (2013),
-no. 3, 722--732, doi:10.1016/j.jcta.2012.12.008. The site's curator, Thomas
-Bloom, labels the problem proved and credits the answer to Hatami, Hladký,
-Král', Norine and Razborov [HHKNR13] and, independently, to Grzesik [Gr12].
-The text cited is arXiv:1102.1634v4 (5 December 2012; v1 posted 8 February
-2011, the date of this page); the journal text is not held. The flag-algebra
-computation and the stability argument are not independently reviewed; the
-acceptance rests on the refereed publication and the curator's credit.
+**Acceptance.** Refereed publication: J. Combin. Theory Ser. A 120 (2013), no.
+3, 722--732, doi:10.1016/j.jcta.2012.12.008. The site's curator, Thomas Bloom,
+labels the problem proved. He credits the answer to Hatami, Hladký, Král',
+Norine and Razborov [HHKNR13] and, independently, to Grzesik [Gr12]. The text
+cited is arXiv:1102.1634v4 (5 December 2012; v1 posted 8 February 2011, the date
+of this page). The journal text is not held. The flag-algebra computation and
+the stability argument are not independently reviewed. The acceptance rests on
+the refereed publication and the curator's credit.

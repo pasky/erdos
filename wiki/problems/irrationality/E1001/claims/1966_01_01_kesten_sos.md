@@ -2,9 +2,9 @@
 name: problems/irrationality/E1001/claims/1966_01_01_kesten_sos
 title: Kesten and Sós prove the limit exists
 desc: |
-  Kesten and Sós show in 1966 that the measure S(N,A,c) converges as N grows,
-  for every A>0 and c>=1, without finding the value of the limit; this is the
-  existence half of the question.
+  Kesten and Sós show in 1966 that the measure $S(N,A,c)$ converges as
+  $N\to\infty$, for every $A>0$ and $c\ge1$, without finding the value of the
+  limit. This is the existence half of the question.
 authors:
 - H. Kesten
 - V. T. Sós
@@ -78,15 +78,14 @@ and Kesten had closed forms for $c/(1+c^2)\le A\le1/c$ (Theorem 2 of
 Trans. Amer. Math. Soc. 103 (1962), claim page
 [[problems/irrationality/E1001/claims/1962_05_01_kesten|Kesten]]).
 
-**Acceptance.** The `refereed` evidence is the journal publication cited
-above. The `reviewed` evidence is the documented acceptance by the catalog
-erdosproblems.com, whose page for the problem (the `discussion` link)
-carries the label SOLVED and whose curator, Thomas Bloom, credits Kesten and
-Sós with the proof that the limit exists, noting that their argument gives
-no way to compute it (accessed; the page shows no last-edited
-date). No independent check of the proof is recorded. The claim value is
-`proved` because the part it settles, whether the limit exists, is a yes-or-no
-question answered yes.
+**Acceptance.** The `refereed` evidence is the journal publication cited above.
+The `reviewed` evidence is the documented acceptance by the catalog
+erdosproblems.com. Its page for the problem (the `discussion` link) carries the
+label SOLVED. Its curator, Thomas Bloom, credits Kesten and Sós with the proof
+that the limit exists, and notes that their argument gives no way to compute it.
+The page was accessed and shows no last-edited date. No independent check of the
+proof is recorded. The claim value is `proved` because the part it settles,
+whether the limit exists, is a yes-or-no question answered yes.
 
 **Formalization.** A third party formalized the result: `erdos_1001` in
 `src/latest/ErdosProblems/Erdos1001.lean` of Boris Alexeev's repository

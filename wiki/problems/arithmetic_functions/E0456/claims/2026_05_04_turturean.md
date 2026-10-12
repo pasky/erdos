@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0456/claims/2026_05_04_turturean
 title: Turturean's positive-density equality set
 desc: |
-  A manuscript posted to the thread proves that the least prime 1 mod n equals
-  the least m with n | phi(m) on a set of positive lower density, answering
-  the first two questions no; pending.
+  A manuscript by Turturean, posted to the thread, proves that the least prime
+  $\equiv1\pmod n$ equals the least $m$ with $n\mid\varphi(m)$ on a set of
+  positive lower density. This answers the first two questions no, and the claim
+  is pending.
 authors:
 - David Turturean
 status: claimed

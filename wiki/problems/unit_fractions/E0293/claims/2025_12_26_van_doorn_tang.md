@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0293/claims/2025_12_26_van_doorn_tang
 title: "van Doorn and Tang: v(k) at least exp(c k^2)"
 desc: |
-  Van Doorn and Tang's Theorem 1.1 (Math. Proc. Cambridge Philos. Soc. 2026),
-  that v(k) >= exp(c k^2) for an absolute c and every k >= 1, with the upper
-  bound v(k) <= c_0^((2/5 + o(1)) 2^k) from the Elsholtz-Planitzer count.
+  Van Doorn and Tang's Theorem 1.1 (Math. Proc. Cambridge Philos. Soc. 2026)
+  gives $v(k)\ge e^{ck^2}$ for an absolute constant $c$ and every $k\ge1$. The
+  upper bound $v(k)\le c_0^{(2/5+o(1))2^k}$ comes from the Elsholtz-Planitzer
+  count.
 authors:
 - Wouter van Doorn
 - Quanyu Tang
@@ -78,11 +79,13 @@ $v(k)\ge e^{e^{ck}}$.
 
 **Acceptance.** The paper is published in Mathematical Proceedings of the
 Cambridge Philosophical Society (online 8 July 2026, pp. 1--9, DOI
-10.1017/S0305004126102102; the arXiv record's journal reference and the Crossref
-record agree), which is the `refereed` evidence; arXiv v2 (24 May 2026; v1 26
-December 2025, the date of this page) records acceptance with minor revisions in
-its comments line, and the published text has not been compared with it. The
-site's commentary credits van Doorn and Tang with the lower bound, but the site
-labels the problem OPEN, so that commentary is not acceptance and `reviewed` is
-not listed. The second author announced the result in the problem's discussion
-thread on 29 December 2025.
+10.1017/S0305004126102102). The arXiv record's journal reference and the
+Crossref record agree on this. This is the `refereed` evidence. Version v2 on
+arXiv (24 May 2026) records acceptance with minor revisions in its comments
+line. The published text has not been compared with it. Version v1 is dated 26
+December 2025, the date of this page.
+
+The site's commentary credits van Doorn and Tang with the lower bound, but the
+site labels the problem OPEN. So that commentary is not acceptance, and
+`reviewed` is not listed. The second author announced the result in the
+problem's discussion thread on 29 December 2025.

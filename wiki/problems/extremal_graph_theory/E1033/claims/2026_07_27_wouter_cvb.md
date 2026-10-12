@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1033/claims/2026_07_27_wouter_cvb
 title: Wouter CvB's optimized butterfly blow-up
 desc: |
-  A three-page web write-up of 27 July 2026 sketches blow-ups of the
-  butterfly graph with every triangle's degree sum at most 1.463878 n, so
-  that the conjectured lower bound (2(√3 − 1) − o(1)) n fails; unreviewed.
+  Wouter CvB's three-page web write-up of 27 July 2026 sketches blow-ups of the
+  butterfly graph in which every triangle has degree sum at most $1.463878\,n$.
+  It claims that the conjectured lower bound $(2(\sqrt3-1)-o(1))n$ therefore
+  fails, and it is unreviewed.
 authors:
 - Wouter CvB
 status: claimed

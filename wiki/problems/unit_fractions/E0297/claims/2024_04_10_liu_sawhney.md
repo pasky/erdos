@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0297/claims/2024_04_10_liu_sawhney
 title: Exponential rate of the unit-sum count by Fourier analysis
 desc: |
-  Liu and Sawhney prove that the number of subsets of one through N with
-  reciprocal sum one is exp of gamma N plus o(N), with gamma near 0.631573
+  Liu and Sawhney prove that the number of subsets of $\{1,\ldots,N\}$ with
+  reciprocal sum one is $\exp(\gamma N+o(N))$, where $\gamma\approx0.631573$ is
   defined by an integral equation.
 authors:
 - Yang P. Liu
@@ -45,18 +45,19 @@ growth rate asked for and nothing finer: no multiplicative asymptotic and
 no finite-$N$ formula.
 
 **Acceptance.** The paper is refereed: *On further questions regarding unit
-fractions*, International Mathematics Research Notices 2026, no. 2,
-rnaf382, received 28 October 2025, accepted 23 December 2025 and published
-online 14 January 2026. The site's curator, Thomas Bloom, marks the problem
-solved and credits this theorem, independently of the authors, as one of
-two proofs of the rate. The arXiv record lists one version, v1 of 10 April
-2024,; the published text has not been compared with it,
-and the library's locators are v1 locators. The counting theorem has a
-complete rewritten proof on
+fractions*, International Mathematics Research Notices 2026, no. 2, rnaf382. It
+was received on 28 October 2025, accepted on 23 December 2025 and published
+online on 14 January 2026. The site's curator, Thomas Bloom, marks the problem
+solved and credits this theorem, independently of the authors, as one of two
+proofs of the rate. The arXiv record lists one version, v1 of 10 April 2024. The
+published text has not been compared with it, and the library's locators are v1
+locators.
+
+The counting theorem has a complete rewritten proof on
 [[../library/unit_fractions/liu_2024_further_questions_regarding_unit_fractions/theorem_1_2|the theorem page]],
-through the restricted form of the paper's Proposition 3.2; the library
-records a two-adic counterexample to the printed unrestricted period
-statement and shows that the target one is unaffected.
+through the restricted form of the paper's Proposition 3.2. The library records
+a two-adic counterexample to the printed unrestricted period statement and shows
+that the target statement is unaffected.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos297.lean` of
 Boris Alexeev's `lean-proofs` collection, linked at its pinned commit,

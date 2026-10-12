@@ -2,9 +2,10 @@
 name: problems/polynomials/E1129/claims/1978_12_01_deboor_pinkus
 title: De Boor and Pinkus characterize the optimal nodes
 desc: |
-  De Boor and Pinkus prove that among node systems containing both endpoints
-  exactly one equioscillates and it alone minimizes the Lebesgue constant;
-  refereed in J. Approx. Theory and credited by the site's curator.
+  De Boor and Pinkus prove that among node systems containing both endpoints,
+  exactly one equioscillates, and it alone minimizes the Lebesgue constant. The
+  refereed paper appeared in J. Approx. Theory and is credited by the site's
+  curator.
 authors:
 - Carl de Boor
 - Allan Pinkus
@@ -102,20 +103,23 @@ the four-node system is Rack's (1984 and 2013), as Rack and Vajda [RaVa15,
 Section 3] recall it.
 
 **Acceptance.** Refereed: Journal of Approximation Theory 24 (1978), no. 4,
-289–303, received 1977-04-01, in the issue dated December 1978 in the
-publisher's record, which dates this page. Reviewed: the site's curator,
-Thomas F. Bloom, labels the problem proved and records in its commentary
-that de Boor and Pinkus proved the existence of a unique minimizing choice,
-after the results of Kilgore and Cheney and of Kilgore
+289–303, received 1977-04-01. The publisher's record places it in the issue
+dated December 1978, which dates this page.
+
+Reviewed: the site's curator, Thomas F. Bloom, labels the problem proved. The
+commentary records that de Boor and Pinkus proved the existence of a unique
+minimizing choice, after the results of Kilgore and Cheney and of Kilgore
 (erdosproblems.com/1129, last edited 2026-01-23, accessed 2026-09-04). The
 paper's note added in proof records that Kilgore also proved Bernstein's
-conjecture, by a different argument, in a paper published in the same
-issue; that independent proof has its own accepted page,
-[[problems/polynomials/E1129/claims/1978_12_01_kilgore|Kilgore 1978]]. The
-theorem statements are taken from the paper itself, whose proofs are known
-here in outline only; the proofs are not compiled in this wiki.
-Formalization: the two Lean 4 developments linked above are neither built
-nor audited in this repository, so no `formalized` evidence is listed.
+conjecture, by a different argument, in a paper published in the same issue.
+That independent proof has its own accepted page,
+[[problems/polynomials/E1129/claims/1978_12_01_kilgore|Kilgore 1978]].
+
+The theorem statements are taken from the paper itself. Its proofs are known
+here in outline only and are not compiled in this wiki.
+
+Formalization: the two Lean 4 developments linked above are neither built nor
+audited in this repository, so no `formalized` evidence is listed.
 
 **Depends on.** Nothing in this wiki; the result rests on the refereed paper
 linked above.

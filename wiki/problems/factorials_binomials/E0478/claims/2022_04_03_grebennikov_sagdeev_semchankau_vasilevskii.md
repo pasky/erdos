@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0478/claims/2022_04_03_grebennikov_sagdeev_semchankau_vasilevskii
 title: A square-root lower bound with constant root two for factorial residues
 desc: |
-  Grebennikov, Sagdeev, Semchankau and Vasilevskii (Rev. Mat. Iberoam. 2024)
-  prove that the factorials modulo p take at least (sqrt 2 + o(1)) sqrt p
-  distinct values; refereed.
+  In a refereed paper (Rev. Mat. Iberoam. 2024), Grebennikov, Sagdeev,
+  Semchankau and Vasilevskii prove that the factorials modulo $p$ take at least
+  $(\sqrt2+o(1))\sqrt p$ distinct values.
 authors:
 - Alexandr Grebennikov
 - Arsenii Sagdeev
@@ -58,6 +58,6 @@ open.
 **Depends on.** Nothing in this wiki; the claim is the cited paper's
 theorem.
 
-**Acceptance.** Refereed: Revista Matemática Iberoamericana 40 (2024). The
-site labels the problem OPEN, and its remarks credit this paper with the
-best known lower bound; that credit is not acceptance.
+**Acceptance.** Refereed: Revista Matemática Iberoamericana 40 (2024). The site
+labels the problem OPEN. Its remarks credit this paper with the best known lower
+bound, but that credit is not acceptance.

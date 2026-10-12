@@ -2,8 +2,8 @@
 name: problems/extremal_graph_theory/E0064/claims/2021_01_01_ghasemi_varmazyar
 title: Ghasemi and Varmazyar's Cayley graphs of order 2p^2 and 4p
 desc: |
-  Ghasemi and Varmazyar prove the conjecture for Cayley graphs of order twice
-  a prime square and of order four times a prime; accepted on the refereed
+  Ghasemi and Varmazyar prove the conjecture for Cayley graphs of order $2p^2$
+  and of order $4p$, where $p$ is a prime. The claim is accepted on the refereed
   paper in Matematički Vesnik.
 authors:
 - Mohsen Ghasemi
@@ -44,7 +44,7 @@ of order $4p$.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: the paper is a publication in Matematički Vesnik,
-the journal of the Mathematical Society of Serbia. The site's curator cites
-the family list that names the paper while labeling the problem FALSIFIABLE,
-which is commentary on an open problem and not reviewed evidence.
+**Acceptance.** Refereed: the paper is a publication in Matematički Vesnik, the
+journal of the Mathematical Society of Serbia. The site's curator cites the
+family list that names the paper while labeling the problem FALSIFIABLE. That
+citation is commentary on an open problem and not reviewed evidence.

@@ -2,9 +2,9 @@
 name: problems/covering_systems/E0202/claims/1968_01_01_erdos_szemeredi
 title: Erdős and Szemerédi's proof that f(N)=o(N)
 desc: |
-  Erdős and Szemerédi's 1968 theorem in Acta Arithmetica that the largest
-  number of disjoint residue classes with distinct moduli at most N is o(N),
-  proving the Erdős–Stein conjecture; accepted on the refereed paper.
+  Erdős and Szemerédi proved in Acta Arithmetica (1968) that the largest number
+  of disjoint residue classes with distinct moduli at most $N$ is $o(N)$. This
+  proves the Erdős–Stein conjecture and is accepted on the refereed paper.
 authors:
 - P. Erdös
 - E. Szemerédi
@@ -46,4 +46,4 @@ not determine $f(N)$; that is
 **Acceptance.** Refereed: Acta Arithmetica 15 (1968), no. 1, 85–90,
 doi:10.4064/aa-15-1-85-90. Not reviewed: the site labels the problem SOLVED
 (LEAN) and credits the answer to Ho's result, not to this paper. The page is
-named by the publication year; the journal record gives no day.
+named by the publication year, because the journal record gives no day.

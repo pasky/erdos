@@ -2,8 +2,8 @@
 name: problems/irrationality/E0250
 title: Problem 250
 desc: |
-  Asks whether the sum over n of the sum-of-divisors function of n divided by
-  two to the n is irrational.
+  Asks whether $\sum_n \sigma(n)/2^n$ is irrational, where $\sigma$ is the
+  sum-of-divisors function.
 tags:
 - Number theory
 - Irrationality
@@ -30,11 +30,11 @@ $$
 irrational? (Here $\sigma(n)$ is the sum of divisors function.)
 
 **Status.** Proved. The sum is irrational for every integer base $q$ with
-$|q|\ge2$ (Duverney 1995, Théorème, p. 1287, proof p. 1289) and
-transcendental (Nesterenko 1996, Theorem 1 with Corollary 2 at $q=1/2$,
-pp. 66--67 of the Russian original). Both proofs are refereed publications.
-The site's "(LEAN)" badge is explained under Formal status below and adds
-nothing to this standing.
+$|q|\ge2$ (Duverney 1995, Théorème, p. 1287, proof p. 1289). It is also
+transcendental (Nesterenko 1996, Theorem 1 with Corollary 2 at $q=1/2$, pp.
+66--67 of the Russian original). Both proofs are refereed publications. The
+site's "(LEAN)" badge is explained under Formal status below and adds nothing to
+this standing.
 
 **Source.** [erdosproblems.com/250](https://www.erdosproblems.com/250), accessed
 2026-09-17 (site label "PROVED (LEAN)"; page last edited 28 September 2025;

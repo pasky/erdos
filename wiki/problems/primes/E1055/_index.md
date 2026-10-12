@@ -2,8 +2,10 @@
 name: problems/primes/E1055
 title: Problem 1055
 desc: |
-  Concerns the classification of primes into classes by repeatedly factoring p
-  plus one, starting from primes whose only such factors are two and three.
+  Primes are sorted into classes by the prime factors of $p+1$, with class $1$
+  holding the primes $p$ for which $p+1$ has no prime factor other than $2$ and
+  $3$. The problem asks whether every class is infinite and how $p_r^{1/r}$
+  behaves, where $p_r$ is the least prime in class $r$.
 tags:
 - Number theory
 - Primes
@@ -57,7 +59,7 @@ definition, excluding the lower classes since its revision of 2026-08-16. Class
 $1$ is the same set in both forms, and no result about the site's wording is
 recorded.
 
-**Status.** Open; the site labels the problem OPEN.
+**Status.** Open. The site labels the problem OPEN.
 
 **Source.** [erdosproblems.com/1055](https://www.erdosproblems.com/1055),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1055,

@@ -2,9 +2,9 @@
 name: problems/irrationality/E0250/claims/2025_10_21_romanlelan
 title: "RomanLeLan: transcendence of the sigma series at algebraic q"
 desc: |
-  A note linked in the site's thread claims the sum of sigma(n) q^n
-  transcendental for every algebraic q with 0 < |q| < 1; the curator showed
-  the same day that the argument does not reach the series itself.
+  A note linked in the site's thread claims that $\sum_n\sigma(n)q^n$ is
+  transcendental for every algebraic $q$ with $0<|q|<1$. The curator showed the
+  same day that the argument does not reach the series itself.
 authors: []
 status: rejected
 claim: proved

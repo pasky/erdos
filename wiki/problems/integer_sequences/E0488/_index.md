@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0488
 title: Problem 488
 desc: |
-  Asks whether the density of the multiples of a finite set up to m is under
-  twice its density up to a smaller n at least the largest element; a
-  counterexample claim of September 2026 is pending and unreviewed.
+  Asks whether, for a finite set $A$ with set of multiples $B$,
+  $|B\cap[1,m]|/m<2|B\cap[1,n]|/n$ for all $m>n\ge\max(A)$; a counterexample
+  claim of September 2026 is pending and unreviewed.
 tags:
 - Number theory
 status: claimed
@@ -73,38 +73,39 @@ same doubling question in the two divisibility readings, both answered no,
 and the forum items recorded under the Current assessment are partial
 positive results for restricted classes of $A$, not a restated question.
 
-**Status.** The site's label is FALSIFIABLE, which the site explains as an
-open problem that a finite counterexample could settle; it is recorded here as
-the site's label, not as the standing. The standing derives from the claim
-pages. The full claim of 5 September 2026 on the site's proof-claim tab,
+**Status.** The site's label is FALSIFIABLE, which the site explains as an open
+problem that a finite counterexample could settle. It is recorded here as the
+site's label, not as the standing. The standing derives from the claim pages.
+The full claim of 5 September 2026 on the site's proof-claim tab,
 [[problems/integer_sequences/E0488/claims/2026_09_05_gessel|Gessel's
-counterexample]], asserts a disproof: the statement is a universal statement
-over $A$, $n$ and $m$, and the claim exhibits a counterexample built on the
-$257$-smooth integers in $(T,256T]$ at a scale $T=256^k$ with $k<4096$ that
-its pigeonhole argument guarantees but does not name. The site has not reviewed
-or acted on that claim (its label and the commentary of 8 April 2026 were
-unchanged on 2026-09-18), its Lean file is neither built nor audited here, and
-no referee or named expert has examined it, so the claim is `claimed` and the
-problem's standing is claimed, disproved. The four partial claims, of 20 March
-2026, [[problems/integer_sequences/E0488/claims/2026_03_20_chojecki|Chojecki's
-note]] for sets with at most three primitive elements, excess at most five or
-at most nine covered integers up to $n$; of 30 April 2026,
-[[problems/integer_sequences/E0488/claims/2026_04_30_malekz|MalekZ's note]]
-for the three-element family $\{2u,3v,uv\}$; of 27 August 2026 (submitted to
-the tab on 28 August),
+counterexample]], asserts a disproof. The statement is a universal statement
+over $A$, $n$ and $m$. The claim exhibits a counterexample built on the
+$257$-smooth integers in $(T,256T]$ at a scale $T=256^k$ with $k<4096$, a scale
+that its pigeonhole argument guarantees but does not name. The site has not
+reviewed or acted on that claim: its label and the commentary of 8 April 2026
+were unchanged on 2026-09-18. The claim's Lean file is neither built nor audited
+here, and no referee or named expert has examined it. So the claim is `claimed`,
+and the problem's standing is claimed, disproved.
+
+There are four partial claims. The first, of 20 March 2026, is
+[[problems/integer_sequences/E0488/claims/2026_03_20_chojecki|Chojecki's note]]
+for sets with at most three primitive elements, excess at most five or at most
+nine covered integers up to $n$. The second, of 30 April 2026, is
+[[problems/integer_sequences/E0488/claims/2026_04_30_malekz|MalekZ's note]] for
+the three-element family $\{2u,3v,uv\}$. The third, of 27 August 2026 (submitted
+to the tab on 28 August), is
 [[problems/integer_sequences/E0488/claims/2026_08_27_ewing|Ewing's candidate
-proof]] for sets with at most seven primitive elements; and of 5 September
-2026 (submitted to the tab on 29 September),
+proof]] for sets with at most seven primitive elements. The fourth, of 5
+September 2026 (submitted to the tab on 29 September), is
 [[problems/integer_sequences/E0488/claims/2026_09_05_shoal_rat|the shoal-rat
-project's proof]] for primitive sets whose covered integers up to $n$ exceed
-the members by at most $15$, are positive results for restricted classes
-consistent with the counterexample and derive nothing. No refereed source
-proving or disproving the statement was found in the search whose scope
-the Current assessment records; the positive results in hand
-are forum items for restricted classes of $A$ (two-element sets, primitive
-sets containing $2$, sets of primes in the limit $m\to\infty$ with an
-unspecified constant), consistent with the counterexample, whose set is
-neither of those.
+project's proof]] for primitive sets whose covered integers up to $n$ exceed the
+members by at most $15$. These are positive results for restricted classes. They
+are consistent with the counterexample and derive nothing. No refereed source
+proving or disproving the statement was found in the search whose scope the
+Current assessment records. The positive results in hand are forum items for
+restricted classes of $A$: two-element sets, primitive sets containing $2$, and
+sets of primes in the limit $m\to\infty$ with an unspecified constant. They are
+consistent with the counterexample, whose set is none of those.
 
 **Source.** [erdosproblems.com/488](https://www.erdosproblems.com/488),
 accessed 2026-09-18: the problem page (FALSIFIABLE;

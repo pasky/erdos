@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0777/claims/1985_12_01_alon_frankl
 title: Alon and Frankl's answers to the second and third questions
 desc: |
-  Alon and Frankl's Theorem 1.4 bounds the comparable pairs of a family of
-  2^((1/(k+1)+δ)n) subsets, answering the third question yes, and their Example
-  6.1 answers the second question no; refereed in Graphs Combin. 1 (1985).
+  Theorem 1.4 of Alon and Frankl's refereed paper in Graphs Combin. 1 (1985)
+  bounds the comparable pairs in a family of $2^{(1/(k+1)+\delta)n}$ subsets,
+  which answers the third question yes. Their Example 6.1 answers the second
+  question no.
 authors:
 - N. Alon
 - P. Frankl
@@ -84,11 +85,10 @@ it covers this page's two questions as well as the first; the repository's
 note `ErdosProblems/Erdos777.md` is the `record` link. The corpus has not
 built or audited the file, so `formalized` is not listed.
 
-**Acceptance.** Refereed: Graphs and Combinatorics, volume 1 (1985),
-13--21 (issue dated December 1985 in the Crossref record; the page name uses
-the first day of that month). Reviewed: the site's curator, T. F. Bloom,
-credits the paper with the negative answer to the second question and the
-affirmative answer to the third in the problem's commentary
-(erdosproblems.com/777, accessed 2026-10-07), and Alon, Das, Glebov and
-Sudakov restate Theorem 1.4 as their Theorem 1.1 and the construction in
-their Section 2.
+**Acceptance.** Refereed: Graphs and Combinatorics, volume 1 (1985), 13--21. The
+Crossref record dates the issue December 1985, and the page name uses the first
+day of that month. Reviewed: the site's curator, T. F. Bloom, credits the paper
+in the problem's commentary with the negative answer to the second question and
+the affirmative answer to the third (erdosproblems.com/777, accessed
+2026-10-07). Alon, Das, Glebov and Sudakov restate Theorem 1.4 as their Theorem
+1.1, and the construction in their Section 2.

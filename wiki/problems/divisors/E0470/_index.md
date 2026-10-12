@@ -2,8 +2,9 @@
 name: problems/divisors/E0470
 title: Problem 470
 desc: |
-  Studies weird numbers, those whose divisor sum is at least twice the number
-  yet which are not the sum of any set of their own divisors.
+  Asks whether there are odd weird numbers and infinitely many primitive ones,
+  where $n$ is weird if $\sigma(n)\ge2n$ but $n$ is not a sum of distinct proper
+  divisors of $n$, and primitive if no proper divisor of $n$ is weird.
 tags:
 - Number theory
 - Divisors
@@ -49,10 +50,10 @@ statement also uses proper divisors.
 **Formulation.** The formal-conjectures statement uses strict abundance. Since
 perfect numbers are pseudoperfect, $\ge$ and $>$ give the same weird numbers.
 
-**Status.** Open. Under an unproved prime-gap hypothesis,
-Melfi proves that there are infinitely many primitive weird numbers
-([[problems/divisors/E0470/claims/2014_09_16_melfi|claim page]],
-conditional); the first question, on odd weird numbers, stays open.
+**Status.** Open. Under an unproved prime-gap hypothesis, Melfi proves that
+there are infinitely many primitive weird numbers
+([[problems/divisors/E0470/claims/2014_09_16_melfi|claim page]], conditional).
+The first question, on odd weird numbers, stays open.
 
 **Source.** [erdosproblems.com/470](https://www.erdosproblems.com/470), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #470,

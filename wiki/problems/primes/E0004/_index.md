@@ -2,8 +2,9 @@
 name: problems/primes/E0004
 title: Problem 4
 desc: |
-  Asks whether prime gaps exceed any given constant times log n times a slowly
-  growing factor built from repeated logarithms infinitely often.
+  Asks whether, for every $C>0$, infinitely many $n$ have
+  $p_{n+1}-p_n>C\frac{\log\log n\,\log\log\log\log n}{(\log\log\log n)^2}\log n$,
+  where $p_n$ is the $n$th prime.
 tags:
 - Number theory
 - Primes
@@ -28,15 +29,16 @@ $$
 p_{n+1}-p_n> C\frac{\log\log n\log\log\log\log n}{(\log\log \log n)^2}\log n?
 $$
 
-**Status.** Proved, the site's label. The accepted claims are
+**Status.** Proved, the site's label. There are four accepted claims. The first
+two are
 [[problems/primes/E0004/claims/2014_08_20_ford_green_konyagin_tao|the 2014 theorem of Ford, Green, Konyagin and Tao]]
 and
-[[problems/primes/E0004/claims/2014_08_21_maynard|Maynard's independent 2014 theorem]],
-both refereed in the Annals and credited by the site's curator with the
-solution; the stronger 2018 bound of
+[[problems/primes/E0004/claims/2014_08_21_maynard|Maynard's independent 2014 theorem]].
+Both were refereed in the Annals, and the site's curator credits them with the
+solution. The third is the stronger 2018 bound of
 [[problems/primes/E0004/claims/2014_12_16_ford_green_konyagin_maynard_tao|Ford, Green, Konyagin, Maynard and Tao]],
-refereed in the Journal of the American Mathematical Society and named by the
-curator as the best bound before 2026; and the stronger 2026 bound of
+refereed in the Journal of the American Mathematical Society. The curator names
+it as the best bound before 2026. The fourth is the stronger 2026 bound of
 [[problems/primes/E0004/claims/2026_08_26_dottedcalculator|the AI-written manuscript posted by DottedCalculator]],
 which the curator credits in the commentary and expounds on the site.
 [[problems/primes/E0004/claims/1938_10_01_rankin|Rankin's 1938 bound]], refereed

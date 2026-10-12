@@ -2,9 +2,8 @@
 name: problems/arithmetic_functions/E0663
 title: Problem 663
 desc: |
-  Asks whether the least prime not dividing the product of k consecutive
-  integers above n is at most about the logarithm of n, for fixed k and large
-  n.
+  Asks whether, for fixed $k$ and large $n$, the least prime not dividing
+  $(n+1)\cdots(n+k)$ is less than $(1+o(1))\log n$.
 tags:
 - Number theory
 status: open

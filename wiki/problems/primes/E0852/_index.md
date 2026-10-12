@@ -2,9 +2,10 @@
 name: problems/primes/E0852
 title: Problem 852
 desc: |
-  Estimates the longest run of pairwise distinct consecutive prime gaps
-  starting at an index below x, asking whether it exceeds a power of log x
-  and whether it is o(log x).
+  Asks to estimate $h(x)$, the length of the longest run of pairwise distinct
+  consecutive prime gaps $d_n,d_{n+1},\ldots$ starting at some $n<x$. In
+  particular, it asks whether $h(x)>(\log x)^c$ for some $c>0$ and whether
+  $h(x)=o(\log x)$.
 tags:
 - Number theory
 - Primes
@@ -37,17 +38,16 @@ $$
 h(x)=o(\log x)?
 $$
 
-**Status.** Open. The site's label is OPEN, and its commentary records only
-that Brun's sieve gives $h(x)\to\infty$. Two partial claims posted on the
-problem's discussion thread on 24 April 2026,
+**Status.** Open. The site's label is OPEN, and its commentary records only that
+Brun's sieve gives $h(x)\to\infty$. Two partial claims were posted on the
+problem's discussion thread on 24 April 2026:
 [[problems/primes/E0852/claims/2026_04_24_chojecki|Chojecki's bound $h(x)\gg(\log x)^{1/3}$]]
 (credited to GPT-5.5 Pro) and
 [[problems/primes/E0852/claims/2026_04_24_turturean|Turturean's four-prime count]]
-(made with a scaffold on ChatGPT-5.5-Pro), each claim the lower bound
-$h(x)\gg(\log x)^{1/3}$, which answers the first particular question with
-yes for every fixed $c<1/3$. Both are claimed and unreviewed, and neither
-estimates $h(x)$ or decides whether $h(x)=o(\log x)$, so the problem stays
-open.
+(made with a scaffold on ChatGPT-5.5-Pro). Each claims the lower bound
+$h(x)\gg(\log x)^{1/3}$. This answers the first particular question with yes for
+every fixed $c<1/3$. Both are claimed and unreviewed. Neither estimates $h(x)$
+or decides whether $h(x)=o(\log x)$, so the problem stays open.
 
 **Source.** [erdosproblems.com/852](https://www.erdosproblems.com/852), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #852,

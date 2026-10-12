@@ -2,9 +2,8 @@
 name: problems/unit_fractions/E0316
 title: Problem 316
 desc: |
-  Asks whether a finite set of integers above one whose reciprocals sum to
-  less than two can always be split into two parts each with reciprocal sum
-  below one.
+  Asks whether every finite set of integers above $1$ with reciprocal sum less
+  than $2$ can be split into two parts, each with reciprocal sum below $1$.
 tags:
 - Number theory
 - Unit fractions
@@ -45,18 +44,18 @@ wording does not exclude $a_1=1$, but with $1\in A$ no admissible split
 exists, so the site's $A\subset\mathbb N\setminus\{1\}$ makes the exclusion
 explicit.
 
-**Status.** Disproved. The answer is no: the divisors of $120$ other than
-$1$ and $120$, the set the site attributes to Sándor's 1997 paper, have
-reciprocal sum $239/120<2$ and no admissible split, and the eleven-element
-set $\{2,3,4,5,6,7,10,11,13,14,15\}$ of the site's commentary (sum
-$120047/60060$) has none either; both are finite computations rechecked
-here with exact arithmetic. Sándor's paper (J. Number Theory 63 (1997),
-refereed) is not held, so his statements are recorded second-hand from the
-site. The site's label is DISPROVED (LEAN); its Lean qualifier is a catalog
-label whose referent is the formal-conjectures file, which proves the disproof by
-a `decide +kernel` step on the eleven-element set; nothing was built
-here, and no local kernel credit is claimed (see Formalization). The
-accepted claim is recorded on
+**Status.** Disproved. The site's label is DISPROVED (LEAN), and the answer is
+no. The divisors of $120$ other than $1$ and $120$ have reciprocal sum
+$239/120<2$ and no admissible split. The site attributes this set to Sándor's
+1997 paper. The eleven-element set $\{2,3,4,5,6,7,10,11,13,14,15\}$ of the
+site's commentary (sum $120047/60060$) has no admissible split either. Both are
+finite computations, rechecked here with exact arithmetic. Sándor's paper (J.
+Number Theory 63 (1997), refereed) is not held, so his statements are recorded
+second-hand from the site. The label's Lean qualifier is a catalog label whose
+referent is the formal-conjectures file. That file proves the disproof by a
+`decide +kernel` step on the eleven-element set. Nothing was built here, and no
+local kernel credit is claimed (see Formalization). The accepted claim is
+recorded on
 [[problems/unit_fractions/E0316/claims/1997_04_01_sandor|Sándor's claim page]].
 
 **Source.** [erdosproblems.com/316](https://www.erdosproblems.com/316),

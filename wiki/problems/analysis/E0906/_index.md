@@ -2,9 +2,9 @@
 name: problems/analysis/E0906
 title: Problem 906
 desc: |
-  Asks whether there is a transcendental entire function whose derivatives,
-  along any infinite subsequence of orders, have zero sets that together are
-  dense in the plane.
+  Asks whether there is a transcendental entire function $f$ such that, for
+  every infinite sequence $n_1<n_2<\cdots$, the zeros of the derivatives
+  $f^{(n_k)}$ together are dense in the plane.
 tags:
 - Analysis
 - Iterated functions
@@ -64,21 +64,21 @@ nothing; no claim page records it, since no one presented it as settling the
 problem. The page's standing judges the corrected Statement.
 
 **Status.** The site labels the problem OPEN (page last edited 1 October 2025),
-a label that describes the corrected Statement. Four pending full claims, each
-with declared AI assistance, construct such a transcendental function:
+a label that describes the corrected Statement. The derived standing is claimed.
+Four pending full claims, each with declared AI assistance, construct such a
+transcendental function. Two were posted on the site's discussion thread on 25
+April 2026:
 [[problems/analysis/E0906/claims/2026_04_25_almeida|Almeida's planar Gaussian series]]
 and
-[[problems/analysis/E0906/claims/2026_04_25_chojecki|Chojecki's Gaussian series]],
-both posted on the site's discussion thread on 25 April 2026, and, on the site's
-proof-claims tab,
+[[problems/analysis/E0906/claims/2026_04_25_chojecki|Chojecki's Gaussian series]].
+Two are on the site's proof-claims tab:
 [[problems/analysis/E0906/claims/2026_07_21_hou|Hou's random Fock series]] of 21
 July 2026 and
 [[problems/analysis/E0906/claims/2026_09_17_he|He's sparse Fock series]] of 17
-September 2026, the last of which does not claim to be the first solution. A
-1973 theorem of Boas and Reddy, as printed, excludes three of the four
-constructions, and the conflict is unresolved. The site has accepted none of
-them, this corpus has built neither of the two Lean developments, and the
-derived standing is claimed.
+September 2026. He's claim does not claim to be the first solution. A 1973
+theorem of Boas and Reddy, as printed, excludes three of the four constructions,
+and the conflict is unresolved. The site has accepted none of them, and this
+corpus has built neither of the two Lean developments.
 
 **Source.** [erdosproblems.com/906](https://www.erdosproblems.com/906), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #906,

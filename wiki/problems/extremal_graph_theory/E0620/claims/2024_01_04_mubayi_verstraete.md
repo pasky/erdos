@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0620/claims/2024_01_04_mubayi_verstraete
 title: Mubayi and Verstraete's upper bound O(sqrt(n) log n)
 desc: |
-  Theorem 1 of Mubayi and Verstraete, f_s(n) = O(sqrt(n) log n) for each fixed
-  s at least 3, bounds f(n) of Problem 620 from above; refereed in Bull. Lond.
-  Math. Soc. 57 (2025).
+  Theorem 1 of Mubayi and Verstraete gives $f_s(n)=O(\sqrt n\log n)$ for each
+  fixed $s\ge3$, which bounds $f(n)$ of Problem 620 from above. The paper is
+  refereed and appeared in Bull. Lond. Math. Soc. 57 (2025).
 authors:
 - Dhruv Mubayi
 - Jacques Verstraete

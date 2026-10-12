@@ -2,9 +2,10 @@
 name: problems/set_systems/E0665/claims/1985_12_01_shrikhande_singhi
 title: Shrikhande and Singhi's embedding theorem, a conditional no
 desc: |
-  Shrikhande and Singhi (Combinatorica 1985) embed every large pairwise
-  balanced design with blocks of size at least root n minus c in a projective
-  plane; if every plane has prime power order the answer is no. Refereed.
+  Shrikhande and Singhi (Combinatorica 1985, refereed) embed every large
+  pairwise balanced design with blocks of size at least $\sqrt n-c$ in a
+  projective plane. So if every projective plane has prime power order, the
+  answer is no.
 authors:
 - S. S. Shrikhande
 - N. M. Singhi
@@ -73,7 +74,7 @@ that a design as the problem asks forces a projective plane of an order
 within $C+2$ of $n^{1/2}$, and the problem stays open.
 
 **Acceptance.** Refereed: S. S. Shrikhande and N. M. Singhi, On a problem of
-Erdős and Larson, Combinatorica 5 (1985), no. 4, 351–358, received 21 June
-1983 and issued December 1985, the date this page is named by; the day is a
-placeholder for the issue month. The site's credit on a problem it labels
-OPEN is not `reviewed` evidence.
+Erdős and Larson, Combinatorica 5 (1985), no. 4, 351–358, received 21 June 1983.
+It was issued in December 1985, the date this page is named by. The day is a
+placeholder for the issue month. The site labels the problem OPEN, so its credit
+is not `reviewed` evidence.

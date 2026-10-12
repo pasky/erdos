@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 63, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T08:36:08Z
-updated: 2026-10-07T19:40:10Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/graph_coloring/E0063/claims
@@ -12,11 +12,11 @@ updated: 2026-10-07T19:40:10Z
 [[problems/graph_coloring/E0063/_index|..]]
 
 [[problems/graph_coloring/E0063/claims/1966_03_01_erdos_hajnal|1966_03_01_erdos_hajnal]]: Erdős and Hajnal's theorem that a graph of uncountable chromatic number
-contains K_{i,aleph_1} for every finite i gives it a cycle of every length
-2^m with m at least 2; the site credits David Penman with the observation.
+contains $K_{i,\aleph_1}$ for every finite $i$ gives it a cycle of length
+$2^m$ for every $m\ge2$. The site credits David Penman with this observation.
 
 [[problems/graph_coloring/E0063/claims/2020_10_29_liu_montgomery|2020_10_29_liu_montgomery]]: Liu and Montgomery's even-cycle interval theorem, with compactness, gives
-every graph of infinite chromatic number cycles of length a power of two for
-infinitely many exponents; the deduction is credited to Zach Hunter.
+every graph of infinite chromatic number cycles of length $2^m$ for infinitely
+many $m$. The deduction is credited to Zach Hunter.
 
 ***

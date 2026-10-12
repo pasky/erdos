@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0709
 title: Problem 709
 desc: |
-  The least multiplier f(n) such that any f(n) max(A) consecutive integers
-  hold distinct multiples of the n members of A, for every n-set A; known to
-  lie between log n over log log n and root n, with a formula asked for.
+  Asks for good bounds on, or an asymptotic formula for, the least $f(n)$ such
+  that any $f(n)\max(A)$ consecutive integers hold distinct multiples of the $n$
+  elements of $A$, for every $n$-element set $A$. Known bounds are
+  $\log n/\log\log n\ll f(n)\ll\sqrt n$.
 tags:
 - Number theory
 status: open
@@ -37,19 +38,18 @@ equal to $1$ imposes no condition. The 1959 paper notes $2\le f(n)\le n$.
 The site's source keys are [ErSu59] and [Er92c], with [vD26] cited in the
 commentary.
 
-**Status.** Open. No asymptotic formula, and no bounds beyond those below,
-were found in the search whose scope the Current
-assessment records. What is known: $c(\log n)^\alpha<f(n)<c'\sqrt n$ (Erdős
-and Surányi 1959, Sections 10--12; the site writes
-$(\log n)^c\ll f(n)\ll n^{1/2}$), and the bound
-$f(n)\gg\log n/\log\log n$, which the site's commentary derives from van
-Doorn's 2026 theorem on Problem 711 and the thread's summary of 15 March
-2026 obtains by restricting to the set $\{2,\ldots,n+1\}$. A forum comment
-of 14 September 2026 reports a further lower bound
-$f(n)\ge\exp((\tfrac{\log2}2-o(1))\log n/\log\log n)$ from a July 2026
-preprint, and an unreviewed claim, attributed by the commenter to GPT
-Astra, of an upper bound $n^{1/3+o(1)}$; both are leads. This is a bounded
-negative finding, not a certificate of openness.
+**Status.** Open. No asymptotic formula, and no bounds beyond those below, were
+found in the search whose scope the Current assessment records. This is a
+bounded negative finding, not a certificate of openness. Erdős and Surányi
+(1959, Sections 10--12) give $c(\log n)^\alpha<f(n)<c'\sqrt n$, which the site
+writes as $(\log n)^c\ll f(n)\ll n^{1/2}$. A further known bound is
+$f(n)\gg\log n/\log\log n$. The site's commentary derives it from van Doorn's
+2026 theorem on Problem 711, and the thread's summary of 15 March 2026 obtains
+it by restricting to the set $\{2,\ldots,n+1\}$. A forum comment of 14 September
+2026 reports two more items, and both are leads. One is a further lower bound
+$f(n)\ge\exp((\tfrac{\log2}2-o(1))\log n/\log\log n)$ from a July 2026 preprint.
+The other is an unreviewed claim of an upper bound $n^{1/3+o(1)}$, attributed by
+the commenter to GPT Astra.
 
 **Source.** [erdosproblems.com/709](https://www.erdosproblems.com/709),
 accessed 2026-09-18: the problem page (labeled OPEN,

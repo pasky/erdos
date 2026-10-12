@@ -2,11 +2,10 @@
 name: problems/number_theory/E0492
 title: Problem 492
 desc: |
-  Asks whether, for a real sequence tending to infinity whose consecutive
-  ratios tend to one, the positions of the multiples of almost every real
-  within the sequence's gaps are uniformly distributed; LeVeque's question,
-  disproved by Schmidt. The site's wording restricts to integer sequences,
-  for which the Davenport–Erdős theorem gives yes.
+  Asks whether, for real $a_i\to\infty$ with $a_{i+1}/a_i\to1$, the positions of
+  $\alpha n$ in the gaps $[a_i,a_{i+1})$ are uniformly distributed for almost
+  every $\alpha$; LeVeque's question, disproved by Schmidt. The site's wording
+  takes integer $a_i$, where the Davenport–Erdős theorem gives yes.
 tags:
 - Number theory
 status: solved
@@ -114,33 +113,32 @@ $x_0=0<x_1<\cdots$. Schmidt's subdivision starts at $x_0=0$ and its intervals
 are $[x_n,x_n+\lambda(x_{n+1}-x_n))$, the site's $[a_i,a_{i+1})$ with the same
 half-open convention.
 
-**Status.** Disproved, in the site's label, which credits Schmidt's 1969
-theorem with showing that the general conjecture is false; the label
-describes the corrected Statement. Theorem 1 of Schmidt [Sc69] (Studia Sci.
-Math. Hungar. 4 (1969), refereed; p. 137) constructs a strictly increasing
-real sequence $x_0=0<x_1<\cdots$ with $x_n\to\infty$ and
-$x_{n+1}/x_n\to1$ such that the test function $f$, equal to $1$ on the lower
-halves of its intervals and $-1$ elsewhere, satisfies
-$\limsup_N|N^{-1}\sum_{n\le N}f(\alpha n)|=1$ for almost every $\alpha>0$,
-whereas uniform distribution of the positions would force these averages to
-tend to $0$ (an authored translation, below); with $a_i=x_i$ for $i\ge1$ it
-answers the corrected Statement no. It is an accepted full claim on
-[[problems/number_theory/E0492/claims/1969_01_01_schmidt|Schmidt's page]],
-refereed and credited by the site's curator, so the standing derived in the
-frontmatter is `solved`, `disproved`. The sparse case of Davenport and
-Erdős [DaEr63] (Magyar Tud. Akad. Mat. Kutató Int. Közl. 8 (1963),
-refereed; the Theorem and the deduction (9), p. 4) is an accepted partial
-claim on
+**Status.** Disproved, in the site's label, which credits Schmidt's 1969 theorem
+with showing that the general conjecture is false. The label describes the
+corrected Statement. Theorem 1 of Schmidt [Sc69] (Studia Sci. Math. Hungar. 4
+(1969), refereed; p. 137) constructs a strictly increasing real sequence
+$x_0=0<x_1<\cdots$ with $x_n\to\infty$ and $x_{n+1}/x_n\to1$. For it, the test
+function $f$, equal to $1$ on the lower halves of its intervals and $-1$
+elsewhere, satisfies $\limsup_N|N^{-1}\sum_{n\le N}f(\alpha n)|=1$ for almost
+every $\alpha>0$. Uniform distribution of the positions would instead force
+these averages to tend to $0$ (an authored translation, below). With $a_i=x_i$
+for $i\ge1$, the theorem answers the corrected Statement no. It is an accepted
+full claim on [[problems/number_theory/E0492/claims/1969_01_01_schmidt|Schmidt's
+page]], refereed and credited by the site's curator. So the standing derived in
+the frontmatter is `solved`, `disproved`.
+
+The sparse case of Davenport and Erdős [DaEr63] (Magyar Tud. Akad. Mat. Kutató
+Int. Közl. 8 (1963), refereed; the Theorem and the deduction (9), p. 4) is an
+accepted partial claim on
 [[problems/number_theory/E0492/claims/1963_01_01_davenport_erdos|the
-Davenport--Erdős page]]: for a real sequence $z_1<z_2<\cdots$ with
-$z_{j+1}/z_j\to1$, the multiples of almost every $\alpha>0$ are uniformly
-distributed relative to $\{z_j\}$ provided the number of $z_j<N$ is
-$\ll N^{2-\delta}$ for some fixed $\delta>0$. Other positive cases, for real
-sequences: uniform distribution for every $\alpha>0$ when the gaps increase
-to infinity with $a_{i+1}\sim a_i$ (LeVeque [LV53]), and for almost all
-$\alpha$ when the gaps decrease (Davenport and LeVeque [DaLe63]). The
-community database, in its update of 31 August 2025, lists the problem as
-disproved.
+Davenport--Erdős page]]. Take a real sequence $z_1<z_2<\cdots$ with
+$z_{j+1}/z_j\to1$. If the number of $z_j<N$ is $\ll N^{2-\delta}$ for some fixed
+$\delta>0$, then the multiples of almost every $\alpha>0$ are uniformly
+distributed relative to $\{z_j\}$. Other positive cases are known for real
+sequences. LeVeque [LV53] gives uniform distribution for every $\alpha>0$ when
+the gaps increase to infinity with $a_{i+1}\sim a_i$. Davenport and LeVeque
+[DaLe63] give it for almost all $\alpha$ when the gaps decrease. The community
+database, in its update of 31 August 2025, lists the problem as disproved.
 
 **Source.** [erdosproblems.com/492](https://www.erdosproblems.com/492), accessed
 2026-09-18: the problem page (DISPROVED, with the site's note that the problem

@@ -2,9 +2,8 @@
 name: problems/extremal_graph_theory/E0060
 title: Problem 60
 desc: |
-  Asks whether every graph on n vertices with more edges than the extremal
-  number for four-cycles contains at least about the square root of n
-  four-cycles.
+  Asks whether every graph on $n$ vertices with more than $\mathrm{ex}(n;C_4)$
+  edges contains $\gg n^{1/2}$ copies of $C_4$.
 tags:
 - Graph theory
 - Cycles

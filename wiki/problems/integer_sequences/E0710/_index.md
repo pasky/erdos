@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0710
 title: Problem 710
 desc: |
-  Asks for an asymptotic formula for the shortest interval just above n with
-  distinct integers, the kth divisible by k, for k up to n; known between n
-  root log n over log log n and 1.74 n root log n, with a 2026 claim pending.
+  Asks for an asymptotic formula for the least $f(n)$ such that $(n,n+f(n))$
+  holds distinct $a_1,\ldots,a_n$ with $k\mid a_k$ for each $k$. It is known to
+  lie between $n\sqrt{\log n/\log\log n}$ and $1.74\,n\sqrt{\log n}$, with a
+  2026 claim pending.
 tags:
 - Number theory
 status: claimed
@@ -38,21 +39,22 @@ shifts do not affect the asymptotic bounds below. The site's source keys
 are [ErPo80] and [Er92c].
 
 **Status.** Labeled OPEN on the site at the access of 2026-10-06. The standing
-is `claimed`, derived from the pending full claim of 23 September 2026 on
+is `claimed`. It derives from the pending full claim of 23 September 2026 on
 [[problems/integer_sequences/E0710/claims/2026_09_23_turturean|its claim page]],
-which asserts $f(n)\sim(\sqrt2/e)\,n\sqrt{\log n}$, elicited from the AI system
-GPT-6-Astra Pro, with a manuscript not read, no curator action and no outside
-check. No asymptotic formula was found in the search whose scope the Current
-assessment records. What is known is the Erdős–Pomerance pair of bounds,
+which asserts $f(n)\sim(\sqrt2/e)\,n\sqrt{\log n}$. That claim was elicited from
+the AI system GPT-6-Astra Pro. Its manuscript was not read, and it has no
+curator action and no outside check. No asymptotic formula was found in the
+search whose scope the Current assessment records. What is known is the
+Erdős–Pomerance pair of bounds
 $(2/\sqrt e+o(1))\,n\sqrt{\log n/\log\log n}\le f(n)\le(2+o(1))\,n\sqrt{\log n}$
-(Theorems 2 and 3, 1980), with the sketched improvement of the upper constant to
-$c=\sqrt r/(1-r)=1.7398\ldots$, $e^{-r}=r$ (display (11), p. 154), which is the
-constant the site prints; the two sides differ by a factor of order
-$\sqrt{\log\log n}$. A forum attempt of February 2026, made with the AI system
-Opus 4.6 and heavy computation, conjectures that the lower bound is the truth
-and reports a computation to $n\le10^6$; it is a lead, not status. This is a
-bounded negative finding, not a certificate of openness. The site lists a prize
-for Erdős's offer of 1992 for an asymptotic formula (below).
+(Theorems 2 and 3, 1980). There is also a sketched improvement of the upper
+constant to $c=\sqrt r/(1-r)=1.7398\ldots$, where $e^{-r}=r$ (display (11), p.
+154). This is the constant the site prints. The two sides differ by a factor of
+order $\sqrt{\log\log n}$. A forum attempt of February 2026, made with the AI
+system Opus 4.6 and heavy computation, conjectures that the lower bound is the
+truth and reports a computation to $n\le10^6$. It is a lead, not status. This is
+a bounded negative finding, not a certificate of openness. The site lists a
+prize for Erdős's offer of 1992 for an asymptotic formula (below).
 
 **Source.** [erdosproblems.com/710](https://www.erdosproblems.com/710), accessed
 2026-09-18: the problem page (labeled OPEN, with the site's note that no finite

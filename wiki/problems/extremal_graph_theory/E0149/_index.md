@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0149
 title: Problem 149
 desc: |
-  Asks whether the strong chromatic index of any graph, the least number of
-  induced matchings partitioning its edges, is at most five quarters of the
-  squared maximum degree; open, with the refereed record at 1.772 times it.
+  Asks whether the strong chromatic index of every graph, the least number of
+  induced matchings that partition its edges, is at most $\frac54\Delta^2$,
+  where $\Delta$ is the maximum degree. It is open, and the best refereed bound
+  is $1.772\Delta^2$ for large $\Delta$.
 tags:
 - Graph theory
 status: open
@@ -51,32 +52,33 @@ $\omega(L(G)^2)\le\frac54\Delta^2$, the bipartite conjecture
 $\mathrm{sq}(G)\le\Delta^2$, and the easier problem that more than
 $\frac54\Delta^2$ edges force two strongly independent edges, which is proved.
 
-**Status.** Open. No proof, disproof or proof claim for the statement was
-found in the search whose scope the Current assessment records. The best
-refereed upper bound is $\mathrm{sq}(G)\le1.772\Delta^2$ for every graph
-with $\Delta$ at least some $\Delta_0$ (Hurley, de Joannis de Verclos and
-Kang, Theorem 1.6, Advances in Combinatorics 2022), after Molloy and
-Reed's $1.998\Delta^2$, Bruhn and Joos's $1.93\Delta^2$ and Bonamy, Perrett
-and Postle's $1.835\Delta^2$, all for large $\Delta$;
-a preprint of July 2026 (Davey, Hurley, de Joannis de Verclos, Kang and
-Volec, Theorem 1.1) claims $1.73\Delta^2$ for large $\Delta$, unrefereed.
-The statement is proved for $\Delta\le3$
-($\mathrm{sq}(G)\le10$, Horák, He and Trotter 1993 and, independently,
-Andersen 1992; see
+**Status.** Open. No proof, disproof or proof claim for the statement was found
+in the search whose scope the Current assessment records. This is a bounded
+negative finding, not a certificate of openness.
+
+The best refereed upper bound is $\mathrm{sq}(G)\le1.772\Delta^2$ for every
+graph with $\Delta$ at least some $\Delta_0$ (Hurley, de Joannis de Verclos and
+Kang, Theorem 1.6, Advances in Combinatorics 2022). Earlier bounds, all for
+large $\Delta$, were Molloy and Reed's $1.998\Delta^2$, Bruhn and Joos's
+$1.93\Delta^2$ and Bonamy, Perrett and Postle's $1.835\Delta^2$. A preprint of
+July 2026 (Davey, Hurley, de Joannis de Verclos, Kang and Volec, Theorem 1.1)
+claims $1.73\Delta^2$ for large $\Delta$. It is unrefereed.
+
+The statement is proved for $\Delta\le3$, where $\mathrm{sq}(G)\le10$ (Horák, He
+and Trotter 1993 and, independently, Andersen 1992; see
 [[problems/extremal_graph_theory/E0149/claims/1993_06_01_horak_he_trotter|their]]
-[[problems/extremal_graph_theory/E0149/claims/1992_10_01_andersen|claim pages]]),
-for $C_4$-free graphs of large $\Delta$ by Mahdian's bound
+[[problems/extremal_graph_theory/E0149/claims/1992_10_01_andersen|claim pages]]).
+It is proved for $C_4$-free graphs of large $\Delta$ by Mahdian's bound
 $(2+o(1))\Delta^2/\log\Delta$
-([[problems/extremal_graph_theory/E0149/claims/2000_10_01_mahdian|claim page]]),
-for graphs of large $\Delta$ without a fixed bipartite subgraph $H$ by Vu's
-extension of that bound
-([[problems/extremal_graph_theory/E0149/claims/2002_01_01_vu|claim page]]),
-and for $\Delta=4$ the site records $21$ against the conjectured $20$ (Huang,
-Santana and Yu 2018). The clique form stands at
-$\omega(L(G)^2)\le\frac43\Delta^2$ (Faron and Postle, refereed), with a 2026
-preprint at $\frac{2607}{1987}\Delta^2$, and reaches $\frac54\Delta^2$ for
-triangle-free graphs. This is a bounded negative finding, not a certificate
-of openness.
+([[problems/extremal_graph_theory/E0149/claims/2000_10_01_mahdian|claim page]]).
+It is proved for graphs of large $\Delta$ without a fixed bipartite subgraph $H$
+by Vu's extension of that bound
+([[problems/extremal_graph_theory/E0149/claims/2002_01_01_vu|claim page]]). For
+$\Delta=4$ the site records $21$ against the conjectured $20$ (Huang, Santana
+and Yu 2018). The clique form stands at $\omega(L(G)^2)\le\frac43\Delta^2$
+(Faron and Postle, refereed), with a 2026 preprint at
+$\frac{2607}{1987}\Delta^2$. For triangle-free graphs the clique form reaches
+$\frac54\Delta^2$.
 
 **Source.** [erdosproblems.com/149](https://www.erdosproblems.com/149),
 accessed 2026-09-19 (06:45 UTC): the problem page (OPEN, with

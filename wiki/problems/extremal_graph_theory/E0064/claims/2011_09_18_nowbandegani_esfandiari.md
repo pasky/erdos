@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0064/claims/2011_09_18_nowbandegani_esfandiari
 title: Salehi Nowbandegani and Esfandiari's bipartite graphs on fewer than 32 vertices
 desc: |
-  A 2011 workshop result, cited in the claw-free paper of the same authors,
-  that a bipartite counterexample has at least 32 vertices, so the conjecture
-  holds for bipartite graphs on at most 31 vertices; a computation.
+  A 2011 workshop result of Salehi Nowbandegani and Esfandiari, obtained by
+  computation, says that a bipartite counterexample has at least 32 vertices, so
+  the conjecture holds for bipartite graphs on at most 31 vertices. The same
+  authors' claw-free paper cites it.
 authors:
 - P. Salehi Nowbandegani
 - H. Esfandiari

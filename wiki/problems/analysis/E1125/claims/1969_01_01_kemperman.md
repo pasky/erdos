@@ -2,9 +2,9 @@
 name: problems/analysis/E1125/claims/1969_01_01_kemperman
 title: Kemperman's monotonicity theorem for measurable functions
 desc: |
-  Kemperman proves that every Lebesgue measurable real function with twice its
-  value at a point at most the sum of its values at the next two equally spaced
-  points is nondecreasing; refereed, the measurable case of the question.
+  Kemperman proves that every Lebesgue measurable $f:\mathbb R\to\mathbb R$ with
+  $2f(x)\le f(x+h)+f(x+2h)$ for all $x$ and all $h>0$ is nondecreasing. This is
+  the measurable case of the question, and the paper is refereed.
 authors:
 - J. H. B. Kemperman
 status: accepted
@@ -54,11 +54,11 @@ settles without any regularity assumption.
 
 **Depends on.** No page of this wiki: the proof is the paper's own.
 
-**Acceptance.** Refereed: the paper appeared in the Transactions of the
-American Mathematical Society, volume 135 (1969); the page is dated by the
-year of publication, the volume's nominal first day. The site's commentary
-credits the measurable case to Kemperman as [Ke69], but its label credits
-Laczkovich with the solution of the whole problem, so no `reviewed` evidence
-is listed for this partial claim. No Lean checks this statement separately,
-so no `formalized` evidence is listed. The proof is not compiled in this
-wiki.
+**Acceptance.** Refereed: the paper appeared in the Transactions of the American
+Mathematical Society, volume 135 (1969). The page is dated by the year of
+publication, using the volume's nominal first day. The site's commentary credits
+the measurable case to Kemperman as [Ke69]. Its label, however, credits
+Laczkovich with the solution of the whole problem, so no `reviewed` evidence is
+listed for this partial claim. No Lean formalization checks this statement
+separately, so no `formalized` evidence is listed. The proof is not compiled in
+this wiki.

@@ -3,8 +3,9 @@ name: problems/graph_coloring/E0921/claims/1984_06_01_kierstead_szemeredi_trotte
 title: Kierstead, Szemerédi and Trotter on the longest avoidable odd cycle
 desc: |
   Kierstead, Szemerédi and Trotter (Combinatorica, 1984) prove that every
-  k-chromatic graph on n vertices has an odd cycle of length O(n^(1/(k-2)));
-  with Schrijver's graphs this answers the question for every k at least 4.
+  $k$-chromatic graph on $n$ vertices has an odd cycle of length
+  $O(n^{1/(k-2)})$. Together with Schrijver's graphs, this answers the question
+  for every $k\ge4$.
 authors:
 - H. A. Kierstead
 - E. Szemerédi
@@ -59,13 +60,13 @@ $k=4$ was known before: Gallai's $4$-critical graphs
 upper bound $f_4(n)\ll n^{1/2}$ is an unpublished argument of Erdős, as the site
 records.
 
-**Acceptance.** Refereed: H. A. Kierstead, E. Szemerédi and W. T. Trotter,
-Jr., On coloring graphs with locally small chromatic number, Combinatorica 4
-(1984), no. 2--3, 183--185, DOI 10.1007/BF02579219; the Crossref record gives
-the publication month June 1984 and no day, so the page is dated to the first
-of that month. Reviewed: the site's curator, Thomas Bloom, labels the problem
-proved and credits [KST84] with the proof for every $k\ge4$. Its proof is
-not reviewed in this corpus.
+**Acceptance.** Refereed: H. A. Kierstead, E. Szemerédi and W. T. Trotter, Jr.,
+On coloring graphs with locally small chromatic number, Combinatorica 4 (1984),
+no. 2--3, 183--185, DOI 10.1007/BF02579219. The Crossref record gives the
+publication month June 1984 and no day, so the page is dated to the first of
+that month. Reviewed: the site's curator, Thomas Bloom, labels the problem
+proved and credits [KST84] with the proof for every $k\ge4$. Its proof is not
+reviewed in this corpus.
 
 **Formalization.** The file `Erdos921.lean` in Boris Alexeev's `lean-proofs`
 repository, added on 18 August 2026 and linked above at a commit of 15 September

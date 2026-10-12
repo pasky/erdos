@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0354
 title: Problem 354
 desc: |
-  Asks whether the rounded-down doubling multiples of two reals with
-  irrational ratio form a complete sequence, and the same for a base between
-  one and two; the first question is answered yes, the second has two readings.
+  Asks whether $\lfloor 2^k\alpha\rfloor$ and $\lfloor 2^k\beta\rfloor$, for
+  $\alpha,\beta>0$ with $\alpha/\beta$ irrational, together form a complete
+  sequence, and the same for a base $\gamma\in(1,2)$. The first question is
+  answered yes and the second has two readings.
 tags:
 - Number theory
 - Complete sequences
@@ -53,25 +54,29 @@ restatement (p. 58, the site's key) reads "What if 2 is replaced by $\gamma$
 where $1<\gamma<2$?"; the two readings have different answers below. The
 site's source key is [ErGr80, p.58].
 
-**Status.** Open, the site's label OPEN, which
-attaches to the pair of questions. The first question (base $2$) has two
-accepted partial claims:
+**Status.** Open, the site's label OPEN, which attaches to the pair of
+questions. No claim settles the pair of questions, so the derived standing is
+open.
+
+The first question (base $2$) has two accepted partial claims. One is
 [[problems/additive_bases/E0354/claims/2026_09_11_jenw1n|the bounty site Conjectures.io's certified Lean proof]],
-answering it yes for all $\alpha,\beta>0$ with $\alpha/\beta$ irrational, and
+which answers it yes for all $\alpha,\beta>0$ with $\alpha/\beta$ irrational.
+The other is
 [[problems/additive_bases/E0354/claims/1989_03_01_hegyvari|Hegyvári's 1989 theorem]]
-(Acta Math. Hungar.; refereed), answering it yes when one coefficient is a
-dyadic rational and the other is not. It also has one pending partial claim,
+(Acta Math. Hungar.; refereed), which answers it yes when one coefficient is a
+dyadic rational and the other is not. The first question also has one pending
+partial claim,
 [[problems/additive_bases/E0354/claims/2026_09_13_yu_chen|the Yu–Chen manuscript]],
-claiming the stronger strong completeness. The second question has a pending
-partial claim under each of its two readings:
+which claims the stronger strong completeness. The full answer to the first
+question rests on a bounty site's acceptance alone, with no refereed publication
+and no erdosproblems.com acceptance. The Current assessment records its
+provenance and limits.
+
+The second question has a pending partial claim under each of its two readings.
 [[problems/additive_bases/E0354/claims/2026_09_05_kitamura|Kitamura's Lean proof at one base]]
-answers yes under the reading "for some $\gamma\in(1,2)$", and
+answers yes under the reading "for some $\gamma\in(1,2)$".
 [[problems/additive_bases/E0354/claims/2026_09_20_geneson|Geneson's Salem-base counterexample]]
-answers no under the reading "for every $\gamma\in(1,2)$". No claim settles
-the pair of questions, so the derived standing is open; the full answer to
-the first question rests on a bounty site's acceptance alone, with no refereed
-publication and no erdosproblems.com acceptance, and the Current assessment
-records its provenance and limits.
+answers no under the reading "for every $\gamma\in(1,2)$".
 
 **Source.** [erdosproblems.com/354](https://www.erdosproblems.com/354),
 accessed 2026-09-28: the problem page (OPEN, with the site's note that no

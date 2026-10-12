@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E0583/claims/2021_08_24_blanche_bonamy_boni
 title: Blanché, Bonamy and Bonichon's planar graphs
 desc: |
   Blanché, Bonamy and Bonichon claim that every connected planar graph other
-  than K_3 and K_5 minus an edge decomposes into floor(n/2) paths; an extended
-  abstract and a 95-page preprint, with no journal version.
+  than $K_3$ and $K_5$ minus an edge decomposes into $\lfloor n/2\rfloor$ paths.
+  The claim rests on an extended abstract and a 95-page preprint, with no
+  journal version.
 authors:
 - Alexandre Blanché
 - Marthe Bonamy

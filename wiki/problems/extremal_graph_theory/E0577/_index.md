@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0577
 title: Problem 577
 desc: |
-  Asks whether every graph on four k vertices with minimum degree at least
-  two k contains k vertex-disjoint four-cycles; the Erdős-Faudree conjecture,
-  proved by Wang in 2010 as Theorem B of a refereed paper.
+  Asks whether every graph on $4k$ vertices with minimum degree at least $2k$
+  contains $k$ vertex-disjoint $4$-cycles (the Erdős–Faudree conjecture). Wang
+  proved it in 2010 as Theorem B of a refereed paper.
 tags:
 - Graph theory
 status: solved
@@ -41,31 +41,32 @@ Bielefeld report: a graph on $4n$ vertices with minimum degree at least $2n$
 has $n$ vertex-disjoint $C_4$'s. The report itself is not held, so its
 wording is attested only through the site, [Ch97] and [Wa10].
 
-**Status.** Proved, on the text of the proof paper and the site's
-acceptance: the site labels the problem PROVED, its label for a question
-answered yes, and credits the proof to Wang's paper [Wa10], and the
-community database records it as proved. The status-defining source is Hong
-Wang, *Proof of the
-Erdős--Faudree conjecture on quadrilaterals*, Graphs and Combinatorics 26
-(2010), no. 6, 833--877 (Springer; a refereed journal; received 12 September
-2006, revised 16 April 2010, published online 19 May 2010), carded at
+**Status.** Proved, on the text of the proof paper and the site's acceptance.
+The site labels the problem PROVED, its label for a question answered yes, and
+credits the proof to Wang's paper [Wa10]. The community database records it as
+proved. The claim page
+[[problems/extremal_graph_theory/E0577/claims/2010_05_19_wang|Wang 2010]]
+records the result as accepted on the refereed venue and the site's acceptance,
+and the frontmatter standing is derived from it. The status-defining source is
+Hong Wang, *Proof of the Erdős--Faudree conjecture on quadrilaterals*, Graphs
+and Combinatorics 26 (2010), no. 6, 833--877 (Springer; a refereed journal;
+received 12 September 2006, revised 16 April 2010, published online 19 May
+2010). It is carded at
 [[../library/extremal_graph_theory/wang_2010_proof_erdos_faudree_conjecture_quadrilaterals/_index|its library home]].
-Its Theorem B (p. 834), "If $G$ is a graph of order $4k$ and the minimum
-degree of $G$ is at least $2k$ then $G$ contains $k$ disjoint cycles of
-length 4", is the statement above in other words ("order $4k$" for "$4k$
-vertices", "disjoint cycles of length 4" for "vertex-disjoint $4$-cycles"),
-with "disjoint" defined on p. 833 as having no common vertex and with no
-lower bound on $k$ or other hypothesis beyond the abstract's. The proof
-occupies pp. 835--877: a two-page sketch derives Theorem B from seven claims
-about an extremal chain of a triangle and $k-1$ disjoint four-cycles, and
-the remaining 42 pages prove the claims through 22 lemmas. The statement,
-the sketch and the derivation of Theorem B from Claims 2.5--2.7 were read;
-the proofs of the claims were read for structure only, and no case analysis
-was checked. The label rests on a refereed paper whose theorem was read as
-printed; the proof is not independently verified in this corpus. The claim
-page [[problems/extremal_graph_theory/E0577/claims/2010_05_19_wang|Wang 2010]]
-records the result as accepted on the refereed venue and the site's
-acceptance, and the frontmatter standing is derived from it.
+Its Theorem B (p. 834) reads: "If $G$ is a graph of order $4k$ and the minimum
+degree of $G$ is at least $2k$ then $G$ contains $k$ disjoint cycles of length
+4". This is the statement above in other words, with "order $4k$" for "$4k$
+vertices" and "disjoint cycles of length 4" for "vertex-disjoint $4$-cycles".
+The paper defines "disjoint" on p. 833 as having no common vertex. The theorem
+has no lower bound on $k$ and no other hypothesis beyond the abstract's.
+
+The proof occupies pp. 835--877. A two-page sketch derives Theorem B from seven
+claims about an extremal chain of a triangle and $k-1$ disjoint four-cycles. The
+remaining 42 pages prove the claims through 22 lemmas. The statement, the sketch
+and the derivation of Theorem B from Claims 2.5--2.7 were read. The proofs of
+the claims were read for structure only, and no case analysis was checked. The
+label rests on a refereed paper whose theorem was read as printed. The proof is
+not independently verified in this corpus.
 
 **Source.** [erdosproblems.com/577](https://www.erdosproblems.com/577),
 accessed 2026-09-18: the problem page (PROVED, the site's label for a

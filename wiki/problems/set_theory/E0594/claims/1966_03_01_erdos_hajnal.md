@@ -3,8 +3,9 @@ name: problems/set_theory/E0594/claims/1966_03_01_erdos_hajnal
 title: Large odd circuits announced for chromatic number above omega_2
 desc: |
   Erdős and Hajnal (Acta Math. Acad. Sci. Hungar. 17, 1966) state, without
-  proof, that a graph of chromatic number above omega_2 contains all
-  sufficiently long odd circuits, the question of Problem 594 in a special case.
+  proof, that a graph of chromatic number above $\omega_2$ contains all
+  sufficiently long odd circuits. This is a special case of the question of
+  Problem 594.
 authors:
 - P. Erdős
 - A. Hajnal

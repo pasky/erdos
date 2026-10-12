@@ -2,8 +2,9 @@
 name: problems/additive_combinatorics/E1179
 title: Problem 1179
 desc: |
-  Estimates the least size of a random subset of an abelian group of order N
-  whose subset sums hit every group element nearly equally often.
+  Estimates the least size $g_\epsilon(N)$ of a random subset of an abelian
+  group of order $N$ whose subset sums hit every element nearly equally often,
+  and asks whether $g_\epsilon(N)=(1+o_\epsilon(1))\log_2N$.
 tags:
 - Additive combinatorics
 - Probability
@@ -43,17 +44,17 @@ $$
 g_\epsilon(N)=(1+o_\epsilon(1))\log_2N?
 $$
 
-**Status.** Proved, the site's label (PROVED). The site's commentary gives the
-trivial lower bound $g_\epsilon(N)\ge\log_2N$, the
-[[problems/additive_combinatorics/E1179/claims/1965_12_01_erdos_renyi|Erdős–Rényi bound]]
-$(2+o(1))\log_2N+O_\epsilon(1)$ and the Erdős–Hall bound
-$(1+O_\epsilon(\log\log\log N/\log\log N))\log_2N$. The standing is derived
-from the claim pages: the accepted full claim is the Theorem of Erdős and Hall
+**Status.** Proved. This is the site's label (PROVED). The standing is derived
+from the claim pages. The accepted full claim is the Theorem of Erdős and Hall
 [ErHa76], on
 [[problems/additive_combinatorics/E1179/claims/1976_01_01_erdos_hall|its claim page]],
-accepted on the refereed publication and the site's label; the paper samples
-the $k$ elements with repetition where the problem takes a random $k$-subset, a
-difference the claim page bridges.
+accepted on the refereed publication and the site's label. The paper samples the
+$k$ elements with repetition, while the problem takes a random $k$-subset. The
+claim page bridges this difference. The site's commentary gives the trivial
+lower bound $g_\epsilon(N)\ge\log_2N$, the
+[[problems/additive_combinatorics/E1179/claims/1965_12_01_erdos_renyi|Erdős–Rényi bound]]
+$(2+o(1))\log_2N+O_\epsilon(1)$ and the Erdős–Hall bound
+$(1+O_\epsilon(\log\log\log N/\log\log N))\log_2N$.
 
 **Source.** [erdosproblems.com/1179](https://www.erdosproblems.com/1179),
 accessed 2026-09-04 and 2026-10-07 (page last edited 26 January 2026;

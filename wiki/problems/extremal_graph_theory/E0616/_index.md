@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0616
 title: Problem 616
 desc: |
-  Asks for the best bound t on the covering number of an r-uniform hypergraph,
-  r at least three, in which every subhypergraph on at most 3r - 3 vertices has
-  covering number at most one.
+  Asks for the best bound $t$ on the covering number of an $r$-uniform
+  hypergraph, $r\ge3$, in which every subhypergraph on at most $3r-3$ vertices
+  has covering number at most $1$.
 tags:
 - Graph theory
 status: open
@@ -31,8 +31,8 @@ we have $\tau(G)\leq t$.
 
 **Status.** Open, the site's label. The accepted partial claim
 [[problems/extremal_graph_theory/E0616/claims/1991_09_01_erdos_hajnal_tuza|Erdős–Hajnal–Tuza 1991]]
-determines the best $t$ for thirty-eight values of $r$ between $3$ and $70$;
-for every other $r$ it is open.
+determines the best $t$ for thirty-eight values of $r$ between $3$ and $70$. For
+every other $r$ the problem is open.
 
 **Source.** [erdosproblems.com/616](https://www.erdosproblems.com/616), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #616,

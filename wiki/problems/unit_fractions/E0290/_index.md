@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0290
 title: Problem 290
 desc: |
-  Asks whether extending a block of consecutive reciprocals starting at a by
-  one more term can lower its denominator in lowest terms, and how far one
-  must go.
+  Asks whether, for each $a\ge1$, some $b>a$ makes the reduced denominator of
+  $\sum_{a\le n\le b}1/n$ drop when $1/(b+1)$ is added, and how such $b(a)$
+  grows with $a$.
 tags:
 - Number theory
 - Unit fractions
@@ -41,30 +41,32 @@ and the asymptotic statements below do not depend on the shift; where an
 exact inequality is quoted, its convention is named. The formal-conjectures
 statement uses the site's convention.
 
-**Status.** The site's label is PROVED (LEAN). For every $a\ge1$ such a $b$
-exists and $b(a)$ grows linearly: van Doorn's Corollary 1 gives
-$b(a)\le6(a-1)$ for $a>1$ and his Theorem 2 gives $b(a)\le4.374(a-1)$ for
-$a\ge6$, both in his convention; Corollary 1 comes from the $3$-adic
-valuation of the block ending at $2\cdot3^{k+1}$, and Theorem 2 from a
-computer-checked table of endpoints for $a\le3^{10}$ and $3$-adic valuations
-at endpoints chosen on six subintervals of $(3^k,3^{k+1}]$ beyond. This is
-the accepted claim
-[[problems/unit_fractions/E0290/claims/2024_11_05_van_doorn|van Doorn 2024]],
-an arXiv paper without a journal version, credited by the site's curator,
-with an external Lean proof of the existence statement of which no build is
-recorded; its value is solved because the problem pairs a yes-or-no question
-with a growth question and the paper answers both, the first with a proof
-and the second with a two-sided estimate. The finer growth of $b(a)-a$ is
-of order $\log a$ at its smallest, $a+0.54\log a<b(a)$ for all large $a$
-and $b(a)<a+0.61\log a$ for infinitely many $a$ (Theorem 8), and is the
-subject of two pending partial claims by the same author: the exact value
+**Status.** The site's label is PROVED (LEAN), and the Lean suffix is a catalog
+label explained under Formalization. For every $a\ge1$ such a $b$ exists, and
+$b(a)$ grows linearly. van Doorn's Corollary 1 gives $b(a)\le6(a-1)$ for $a>1$,
+and his Theorem 2 gives $b(a)\le4.374(a-1)$ for $a\ge6$, both in his convention.
+Corollary 1 comes from the $3$-adic valuation of the block ending at
+$2\cdot3^{k+1}$. Theorem 2 comes from a computer-checked table of endpoints for
+$a\le3^{10}$, and beyond that from $3$-adic valuations at endpoints chosen on
+six subintervals of $(3^k,3^{k+1}]$. This is the accepted claim
+[[problems/unit_fractions/E0290/claims/2024_11_05_van_doorn|van Doorn 2024]]. It
+is an arXiv paper without a journal version, credited by the site's curator. It
+has an external Lean proof of the existence statement, of which no build is
+recorded. Its value is solved because the problem pairs a yes-or-no question
+with a growth question, and the paper answers both: the first with a proof and
+the second with a two-sided estimate.
+
+The finer growth of $b(a)-a$ is of order $\log a$ at its smallest:
+$a+0.54\log a<b(a)$ for all large $a$, and $b(a)<a+0.61\log a$ for infinitely
+many $a$ (Theorem 8). It is the subject of two pending partial claims by the
+same author. One gives the exact value
 $\liminf_{a\to\infty}(b(a)-a)/\log a=1/(1+c)\approx0.546$
-([[problems/unit_fractions/E0290/claims/2026_08_31_van_doorn|2026 preprint]])
-and the almost-all lower bound $b(a)>a+\exp(\tfrac12\sqrt{\log a\log\log a})$
-([[problems/unit_fractions/E0290/claims/2026_09_24_van_doorn|2026 note]]).
-No upper bound below linear appears in a manuscript; a thread comment of 24
+([[problems/unit_fractions/E0290/claims/2026_08_31_van_doorn|2026 preprint]]).
+The other gives the almost-all lower bound
+$b(a)>a+\exp(\tfrac12\sqrt{\log a\log\log a})$
+([[problems/unit_fractions/E0290/claims/2026_09_24_van_doorn|2026 note]]). No
+upper bound below linear appears in a manuscript. A thread comment of 24
 September 2026 sketches $b(a)-a\ll a^{61/80}$ (see the forum items below).
-The site's Lean suffix is a catalog label explained under Formalization.
 
 **Source.** [erdosproblems.com/290](https://www.erdosproblems.com/290),
 accessed 2026-09-17: the problem page (PROVED (LEAN); last edited 28

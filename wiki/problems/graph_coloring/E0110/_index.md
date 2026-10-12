@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0110
 title: Problem 110
 desc: |
-  Asks whether one function F(n) bounds, for all large n, the order of a
-  smallest subgraph of chromatic number n in every graph of chromatic number
-  aleph-one.
+  Asks whether one function $F(n)$ bounds, for all large $n$, the order of a
+  smallest subgraph of chromatic number $n$ in every graph of chromatic number
+  $\aleph_1$.
 tags:
 - Graph theory
 - Chromatic number
@@ -27,23 +27,25 @@ updated: 2026-10-08T14:17:37Z
 $\aleph_1$ has, for all large $n$, a subgraph with chromatic number $n$ on at
 most $F(n)$ vertices?
 
-**Status.** Disproved on the site (label DISPROVED; page last edited 1 October
-2025). The site attributes the conjecture to Erdős, Hajnal and Szemerédi
-[EHS82], notes that it fails for graphs of chromatic number $\aleph_0$, recalls
-that de Bruijn and Erdős [dBEr51] guarantee a finite subgraph of every finite
-chromatic number inside any graph of infinite chromatic number, records Erdős's
-view in [Er95d] that the answer should be yes with an $F$ growing faster than
-every iterated exponential, and credits Shelah [KoSh05] (a paper joint with
-Komjáth) with the consistency of a negative answer and Lambie-Hanson [La20]
-with a counterexample in ZFC. The standing rests on
+**Status.** Disproved on the site, with the label DISPROVED. The page was last
+edited 1 October 2025. The standing rests on
 [[problems/graph_coloring/E0110/claims/2019_02_21_lambie_hanson|Lambie-Hanson's
-theorem]], accepted on its refereed publication and the curator's credit: for
-every function $f$ there is a graph of chromatic number $\aleph_1$ in which,
-for every $k\ge3$, every subgraph of chromatic number at least $k$ has at least
-$f(k)$ vertices, so no $F$ works. The
+theorem]], accepted on its refereed publication and the curator's credit. For
+every function $f$ there is a graph of chromatic number $\aleph_1$ in which, for
+every $k\ge3$, every subgraph of chromatic number at least $k$ has at least
+$f(k)$ vertices. So no $F$ works. The
 [[problems/graph_coloring/E0110/claims/2002_12_04_komjath_shelah|Komjáth–Shelah
-forcing result]] is an accepted partial claim: it showed the positive answer
+forcing result]] is an accepted partial claim. It showed the positive answer
 unprovable in ZFC without deciding the question.
+
+The site attributes the conjecture to Erdős, Hajnal and Szemerédi [EHS82] and
+notes that it fails for graphs of chromatic number $\aleph_0$. It recalls that
+de Bruijn and Erdős [dBEr51] guarantee a finite subgraph of every finite
+chromatic number inside any graph of infinite chromatic number. It records
+Erdős's view in [Er95d] that the answer should be yes, with an $F$ growing
+faster than every iterated exponential. It credits Shelah [KoSh05] (a paper
+joint with Komjáth) with the consistency of a negative answer, and Lambie-Hanson
+[La20] with a counterexample in ZFC.
 
 **Source.** [erdosproblems.com/110](https://www.erdosproblems.com/110), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #110,

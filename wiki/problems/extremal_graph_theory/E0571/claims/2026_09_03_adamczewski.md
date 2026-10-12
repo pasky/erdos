@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0571/claims/2026_09_03_adamczewski
 title: Proof of the rational Turán exponents conjecture in Adamczewski's repository
 desc: |
-  A Lean proof, found by GPT-6 Astra and published in Adamczewski's
-  repository, that every rational alpha in [1,2) is the Turán exponent of a
-  finite bipartite graph; accepted on Lean built here.
+  A Lean proof, found by GPT-6 Astra and published in Adamczewski's repository,
+  shows that every rational $\alpha\in[1,2)$ is the Turán exponent of a finite
+  bipartite graph. It is accepted on Lean built here.
 authors:
 - Tom Adamczewski
 status: accepted
@@ -112,35 +112,41 @@ of the library card, the reconstruction the informal claim rests on; nothing
 in this wiki. The acceptance rests on the Lean build.
 
 **Acceptance.** Formalized. This corpus's verification built the repository at
-the pinned commit of 2026-09-03 (Lean `v4.28.0`, Mathlib `v4.28.0`), compiling
+the pinned commit of 2026-09-03 (Lean `v4.28.0`, Mathlib `v4.28.0`). It compiled
 the resolution module `Erdos571_325usd_42h`, which `Solution.lean` imports, and
-checked the axioms of `Erdos571.erdos_571` in the `Solution` environment; they
+checked the axioms of `Erdos571.erdos_571` in the `Solution` environment. They
 are exactly `propext`, `Classical.choice` and `Quot.sound`. The repository's
 comparator challenge `Challenge.lean` pins that declaration, whose statement
-uses only Mathlib definitions, and the fingerprint of the proved declaration was
-found identical to the challenge. The compared statement is the Statement
-exactly, audited clause by clause: for every rational $\alpha$ with
-$1\le\alpha<2$ there are $q\in\mathbb N$ and a bipartite simple graph $G$ on
-`Fin q` whose Mathlib `extremalNumber`, the largest edge count of a graph on
-`Fin n` containing no copy of $G$, copies not necessarily induced, is
-`IsTheta atTop` to the real power $n^\alpha$, which is two positive constants
-$c,C$ and a threshold beyond which $cn^\alpha\le\mathrm{ex}(n;G)\le Cn^\alpha$,
-the graph and constants depending on $\alpha$. The endpoint $\alpha=1$ is a
-genuine instance on both sides, and no degenerate witness, an empty, edgeless or
-single-edge $G$, satisfies the two-sided bound, since its extremal number is
-eventually $0$, so nothing is vacuous. The Formal Conjectures statement file for
-the problem, at the commit linked on the problem page, states the same
-proposition. Not reviewed: the site labels the problem proved and formalized and
-its curator credits the proof, but the curator submitted proof claim 243,
-calling the curator's own informal exposition lacking and both expositions
-placeholders until a proper write-up is prepared, and is a co-author of the
-FrontierMath Erdős paper, so that credit is not an independent review, and no
-outside reviewer has published an examination. Not refereed: the exposition is
-preliminary, the FrontierMath Erdős paper is a preprint, and that paper's
-Appendix B.5 (September 2026) says the result's relation to earlier work needs
-expert study. A bounded search (arXiv version records, the public repository,
-the July 2026 Jiang--Longbrake--Yepremyan preprint) found no replacement proof
-or correction; it establishes neither priority nor publication acceptance.
+uses only Mathlib definitions. The fingerprint of the proved declaration was
+found identical to the challenge.
+
+The compared statement is exactly the Statement, audited clause by clause. For
+every rational $\alpha$ with $1\le\alpha<2$ there are $q\in\mathbb N$ and a
+bipartite simple graph $G$ on `Fin q` whose Mathlib `extremalNumber` is `IsTheta
+atTop` to the real power $n^\alpha$. Here `extremalNumber` is the largest edge
+count of a graph on `Fin n` containing no copy of $G$, with copies not
+necessarily induced. The `IsTheta atTop` condition means that there are two
+positive constants $c,C$ and a threshold beyond which
+$cn^\alpha\le\mathrm{ex}(n;G)\le Cn^\alpha$. The graph and the constants depend
+on $\alpha$. The endpoint $\alpha=1$ is a genuine instance on both sides. No
+degenerate witness (an empty, edgeless or single-edge $G$) satisfies the
+two-sided bound, since its extremal number is eventually $0$. So nothing is
+vacuous. The Formal Conjectures statement file for the problem, at the commit
+linked on the problem page, states the same proposition.
+
+Not reviewed: the site labels the problem proved and formalized, and its curator
+credits the proof. But the curator submitted proof claim 243, calling the
+curator's own informal exposition lacking and both expositions placeholders
+until a proper write-up is prepared. The curator is also a co-author of the
+FrontierMath Erdős paper. So that credit is not an independent review, and no
+outside reviewer has published an examination.
+
+Not refereed: the exposition is preliminary, and the FrontierMath Erdős paper is
+a preprint. That paper's Appendix B.5 (September 2026) says the result's
+relation to earlier work needs expert study. A bounded search (arXiv version
+records, the public repository, the July 2026 Jiang--Longbrake--Yepremyan
+preprint) found no replacement proof or correction. The search establishes
+neither priority nor publication acceptance.
 
 **Read depth.** The seven pages of the exposition were read and
 reconstructed on the card's proof pages; the Lean source was read at its

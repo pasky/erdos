@@ -2,9 +2,9 @@
 name: problems/set_theory/E1176
 title: Problem 1176
 desc: |
-  Asks whether every graph of chromatic number aleph_1 has an edge coloring with
-  aleph_1 colors such that every countable vertex coloring has a class
-  containing edges of all colors.
+  Asks whether every graph of chromatic number $\aleph_1$ has an edge coloring
+  with $\aleph_1$ colors such that every countable coloring of its vertices has
+  a color class containing edges of all colors.
 tags:
 - Set theory
 - Ramsey theory
@@ -30,9 +30,9 @@ containing all edge colours?
 **Status.** Open. The site labels the problem NOT DISPROVABLE, and its remark
 credits Hajnal and Komjáth with the consistency. The accepted partial claim
 [[problems/set_theory/E1176/claims/2003_01_01_hajnal_komjath|Hajnal and Komjáth's consistency result]]
-shows that the statement holds in a model of ZFC, so ZFC does not refute it,
-one side of an independence result; whether ZFC proves the statement is open.
-The page departs from the site's label because one side alone leaves the
+shows that the statement holds in a model of ZFC, so ZFC does not refute it.
+This is one side of an independence result. Whether ZFC proves the statement is
+open. The page departs from the site's label because one side alone leaves the
 question open.
 
 **Source.** [erdosproblems.com/1176](https://www.erdosproblems.com/1176),

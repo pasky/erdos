@@ -2,8 +2,9 @@
 name: problems/additive_combinatorics/E0658
 title: Problem 658
 desc: |
-  Asks whether every subset of the N by N grid of positive density contains
-  the four vertices of a square, once N is large enough.
+  Asks whether every subset of the $N\times N$ grid with at least $\delta N^2$
+  points contains the four vertices of a square once $N$ is large in terms of
+  $\delta$.
 tags:
 - Additive combinatorics
 status: solved
@@ -24,21 +25,20 @@ updated: 2026-10-08T01:29:58Z
 $\delta$. Is it true that if $A\subseteq \{1,\ldots,N\}^2$ has $\lvert A\rvert
 \geq \delta N^2$ then $A$ must contain the vertices of a square?
 
-**Status.** Proved, in the site's label (PROVED (LEAN)); the suffix is a
-catalog label explained under Formalization. The question is answered
-yes: without a bound, the answer is a consequence of Furstenberg and
-Katznelson's density Hales–Jewett theorem (J. Analyse Math. 57 (1991),
-64--119, refereed), and Solymosi (Combin. Probab. Comput. 13 (2004),
-263--267, refereed) gives a quantitative proof whose bound on the
-threshold $N_0(\delta)$ is, because of the regularity lemma, at best of
-tower type; both prove Graham's axis-parallel form, which
-implies the form allowing any square. The claim pages are
+**Status.** Proved, the site's label (PROVED (LEAN)). The suffix is a catalog
+label explained under Formalization. The answer is yes. Without a bound, it
+follows from Furstenberg and Katznelson's density Hales–Jewett theorem (J.
+Analyse Math. 57 (1991), 64--119, refereed). Solymosi (Combin. Probab. Comput.
+13 (2004), 263--267, refereed) gives a quantitative proof. Because of the
+regularity lemma, his bound on the threshold $N_0(\delta)$ is at best of tower
+type. Both prove Graham's axis-parallel form, which implies the form allowing
+any square. The claim pages are
 [[problems/additive_combinatorics/E0658/claims/1991_12_01_furstenberg_katznelson|Furstenberg–Katznelson]]
 and
 [[problems/additive_combinatorics/E0658/claims/2004_03_01_solymosi|Solymosi]],
-both accepted on the refereed publications and the site's credit; the
-2026 Lean formalization of Solymosi's paper is linked on his page (not
-built by this corpus, so it gives no `formalized` evidence).
+both accepted on the refereed publications and the site's credit. The 2026 Lean
+formalization of Solymosi's paper is linked on his page. This corpus has not
+built it, so it gives no `formalized` evidence.
 
 **Source.** [erdosproblems.com/658](https://www.erdosproblems.com/658), accessed
 2026-10-07 (no last-edited date shown; empty

@@ -2,9 +2,10 @@
 name: problems/factorials_binomials/E0393/claims/2026_05_03_turturean
 title: Turturean's abc-conditional bounds for f(n)
 desc: |
-  A write-up claiming that, under the abc conjecture, n - O(log n) <= f(n) <=
-  n - 2 for all large n, built from Tao's thread sketches by an audit-and-revise
-  scaffold querying ChatGPT-5.5-Pro; conditional and unreviewed.
+  David Turturean's write-up claims that, under the abc conjecture,
+  $n-O(\log n)\le f(n)\le n-2$ for all large $n$. It was built from Tao's thread
+  sketches by an audit-and-revise scaffold querying ChatGPT-5.5-Pro, and it is
+  conditional and unreviewed.
 authors:
 - David Turturean
 status: claimed

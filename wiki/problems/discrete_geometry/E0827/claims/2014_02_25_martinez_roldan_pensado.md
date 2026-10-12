@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0827/claims/2014_02_25_martinez_roldan_pensado
 title: n_k exists and is O(k^9)
 desc: |
-  Martínez and Roldán-Pensado repair Erdős's 1978 argument and prove that n_k
-  exists with n_k = O(k^9), and that n_4 is at most 9 and n_5 at most 37;
+  Martínez and Roldán-Pensado repair Erdős's 1978 argument and prove that $n_k$
+  exists with $n_k=O(k^9)$, and that $n_4\le9$ and $n_5\le37$. The paper is
   refereed.
 authors:
 - Leonardo Martínez
@@ -49,7 +49,7 @@ hold for the problem's $n_k$ too. The paper does not determine $n_k$ for any
 $k$.
 
 **Acceptance.** The paper appeared in Acta Math. Hungar. 145 (2015), no. 1,
-136–141, which is the `refereed` evidence. The site's commentary credits the
-corrected argument and the $k^9$ bound to the paper, but the site labels the
+136–141. This is the `refereed` evidence. The site's commentary credits the
+corrected argument and the $k^9$ bound to the paper. But the site labels the
 problem OPEN, so that credit is not acceptance. The library card is
 [[../library/discrete_geometry/martinez_2015_points_defining_triangles_distinct_circumradii/_index|Martínez and Roldán-Pensado 2015]].

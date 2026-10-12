@@ -2,9 +2,8 @@
 name: problems/arithmetic_functions/E1004
 title: Problem 1004
 desc: |
-  Asks whether, for every fixed positive c and all large x, some n up to x has
-  all totient values on an interval of length a power of the logarithm of x
-  distinct.
+  Asks whether, for every fixed $c>0$ and all large $x$, some $n\le x$ has the
+  values $\phi(n+k)$ distinct for $1\le k\le(\log x)^c$.
 tags:
 - Number theory
 status: open
@@ -25,11 +24,11 @@ updated: 2026-10-08T02:16:54Z
 $n\leq x$ such that the values of $\phi(n+k)$ are all distinct for $1\leq k\leq
 (\log x)^c$, where $\phi$ is the Euler totient function?
 
-**Status.** Open. The one claim recorded,
+**Status.** Open. The site labels the problem OPEN (page last edited 12 April
+2026). The one recorded claim,
 [[problems/arithmetic_functions/E1004/claims/2026_04_29_aditya|the anonymous note]]
-posted on 2026-04-29, is partial: it asserts the block statement for every
-fixed $c<2$ in the almost-all form and says nothing about $c\ge2$. The site
-labels the problem OPEN (page last edited 12 April 2026).
+posted on 2026-04-29, is partial. It asserts the block statement for every fixed
+$c<2$ in the almost-all form, and it says nothing about $c\ge2$.
 
 **Source.** [erdosproblems.com/1004](https://www.erdosproblems.com/1004),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1004,

@@ -2,9 +2,10 @@
 name: problems/analysis/E0996
 title: Problem 996
 desc: |
-  Asks how fast a square integrable function's Fourier partial sums must
-  converge for its averages along alpha times a lacunary sequence to equal its
-  integral.
+  Asks whether, for some absolute $C>0$ and every lacunary $n_k$, each
+  $f\in L^2([0,1])$ whose Fourier partial sums satisfy
+  $\|f-f_n\|_2\ll(\log\log\log n)^{-C}$ has averages of $f(\{\alpha n_k\})$
+  tending to $\int_0^1f$ for almost all $\alpha$.
 tags:
 - Analysis
 status: claimed
@@ -37,12 +38,13 @@ $$
 
 for almost every $\alpha$?
 
-**Status.** Open. The site's proof-claims tab carries one full proof claim,
-filed 26 September 2026 by Ethan Yang, using GPT-6 Astra and GPT-5.6 Sol as the
-tab names them, and a thread comment of 27 April 2026 points to Boon Suan Ho's
-earlier preprint; the site's label is unchanged (OPEN). The pending claims, both
-negative answers, are [[problems/analysis/E0996/claims/2026_04_20_ho|Ho's page]]
-and [[problems/analysis/E0996/claims/2026_09_26_yang|Yang's page]].
+**Status.** Open. The site's label is unchanged (OPEN). The pending claims, both
+negative answers, are on
+[[problems/analysis/E0996/claims/2026_04_20_ho|Ho's page]] and
+[[problems/analysis/E0996/claims/2026_09_26_yang|Yang's page]]. The site's
+proof-claims tab carries one full proof claim, filed 26 September 2026 by Ethan
+Yang using GPT-6 Astra and GPT-5.6 Sol, as the tab names them. A thread comment
+of 27 April 2026 points to Boon Suan Ho's earlier preprint.
 
 **Source.** [erdosproblems.com/996](https://www.erdosproblems.com/996), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #996,

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0081/claims/2026_09_08_morluto_luo_huang_lee
 title: Morluto, Luo, Huang and Lee's linear-error partitions of chordal graphs
 desc: |
-  A manuscript and Lean 4 development in the N0zoM1z0/erdos-81 repository
-  assert that for all large n the maximum clique partition number of a chordal
-  graph is floor(n(n+1)/6), so n²/6 + O(n); the Lean assumes three theorems.
+  A manuscript and Lean 4 development in the N0zoM1z0/erdos-81 repository assert
+  that for all large $n$ the largest clique partition number of an $n$-vertex
+  chordal graph is $\lfloor n(n+1)/6\rfloor$, so $n^2/6+O(n)$. The Lean
+  development assumes three theorems.
 authors:
 - Yang Luo
 - Yinzhen Huang

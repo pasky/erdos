@@ -2,8 +2,9 @@
 name: problems/analysis/E1118
 title: Problem 1118
 desc: |
-  Concerns non-constant entire functions for which the set where the modulus
-  exceeds some constant has finite measure.
+  Asks for the minimum growth rate of a non-constant entire $f$ for which
+  $E(c)=\{z:|f(z)|>c\}$ has finite measure, and whether some $c'<c$ must then
+  also give finite measure.
 tags:
 - Analysis
 status: solved
@@ -28,20 +29,20 @@ What is the minimum growth rate of $f(z)$?
 If $E(c)$ has finite measure then must there exist $c'<c$ such that $E(c')$ has
 finite measure?
 
-**Status.** Solved on the site. Gol'dberg's 1979 paper answers both
-questions: the minimal growth is Hayman's conjectured bound,
-$\int^\infty r\,dr/\log\log M(r)<\infty$, proved and shown best possible,
-and the second question has the answer no
-([[problems/analysis/E1118/claims/1979_01_01_goldberg|Gol'dberg's claim page]]);
-Camera's 1977 thesis is credited with an independent proof of Hayman's
-conjecture, the bound and its sharpness
-([[problems/analysis/E1118/claims/1977_01_01_camera|Camera's claim page]]),
-and Hayman and Lingham's survey of Hayman's problems
+**Status.** Solved on the site. The standing is solved, answered. Gol'dberg's
+1979 paper answers both questions
+([[problems/analysis/E1118/claims/1979_01_01_goldberg|Gol'dberg's claim page]]).
+The minimal growth is Hayman's conjectured bound,
+$\int^\infty r\,dr/\log\log M(r)<\infty$, which the paper proves and shows best
+possible. The second question has the answer no. Camera's 1977 thesis is
+credited with an independent proof of Hayman's conjecture, the bound and its
+sharpness
+([[problems/analysis/E1118/claims/1977_01_01_camera|Camera's claim page]]).
+Hayman and Lingham's survey of Hayman's problems
 ([[../library/polynomials/hayman_lingham_2018_research_problems_function_theory/_index|library card]],
-Update 2.40) credits Hansen's 1977 paper with another, which the site does
+Update 2.40) credits Hansen's 1977 paper with another proof, which the site does
 not mention
 ([[problems/analysis/E1118/claims/1977_12_01_hansen|Hansen's claim page]]).
-The standing is solved, answered.
 
 **Source.** [erdosproblems.com/1118](https://www.erdosproblems.com/1118),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1118,

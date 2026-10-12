@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0620
 title: Problem 620
 desc: |
-  Asks how large a triangle-free induced subgraph every K_4-free graph on n
-  vertices must contain; the Erdős–Rogers problem, known to within a logarithmic
-  factor in the refereed record and claimed to be sqrt(n log n) by a 2026 preprint.
+  Asks how large a triangle-free induced subgraph every $K_4$-free graph on $n$
+  vertices must contain (the Erdős–Rogers problem). The refereed record gives
+  the answer up to a logarithmic factor, and a 2026 preprint claims it is of
+  order $\sqrt{n\log n}$.
 tags:
 - Graph theory
 status: claimed
@@ -58,38 +59,40 @@ computation can settle the question. The derived standing departs from the
 label: it is claimed, with the value answered, because a pending full claim
 answers the question. A preprint of 17 July 2026 by Morris, Sahasrabudhe and
 Verstraëte claims $f(n)=\Theta(\sqrt{n\log n})$, which would determine the order
-asked for up to constants; it is unrefereed and not held in the library, and is
-recorded as claimed on
+asked for up to constants. It is unrefereed and not held in the library, and it
+is recorded as claimed on
 [[problems/extremal_graph_theory/E0620/claims/2026_07_17_morris_sahasrabudhe_verstraete|its claim page]].
 The bounds that refereed papers print for $f(n)$ leave a factor of order
 $(\log n\log\log n)^{1/2}$:
+
 $$
 c\,\sqrt{\frac{n\log n}{\log\log n}}\ \le\ f(n)\ \le\ 2^{300}\sqrt n\,\log n
 $$
-for all large $n$. The upper bound is Theorem 1 of Mubayi and Verstraete
-($f_s(n)=O(\sqrt n\log n)$ for each fixed $s\ge3$, with the explicit constant
-$2^{100s}$ given after the theorem; Bull. Lond. Math. Soc. 57 (2025),
-582--598, refereed; the library holds the arXiv v2), recorded as an accepted
-partial claim on
+
+for all large $n$. The upper bound is Theorem 1 of Mubayi and Verstraete,
+recorded as an accepted partial claim on
 [[problems/extremal_graph_theory/E0620/claims/2024_01_04_mubayi_verstraete|its claim page]].
-The lower bound rests on Shearer's (1995) Corollary 1 applied to a vertex
-neighborhood, the deduction that equation (1) of Mubayi and Verstraete's
-paper records in the form $c\sqrt{n\log n}/\log\log n$, which the site
-prints; with the degree threshold balanced the same argument gives the
-larger $c\sqrt{n\log n/\log\log n}$, first printed with this argument by
-Dudek and Mubayi [DM14], whom Mubayi and Verstraete and Gishboliner, Janzer
-and Sudakov credit. It is recorded as an accepted partial claim on
+That theorem gives $f_s(n)=O(\sqrt n\log n)$ for each fixed $s\ge3$, with the
+explicit constant $2^{100s}$ given after the theorem (Bull. Lond. Math. Soc. 57
+(2025), 582--598, refereed; the library holds the arXiv v2). The lower bound
+rests on Shearer's (1995) Corollary 1 applied to a vertex neighborhood. Equation
+(1) of Mubayi and Verstraete's paper records this deduction in the form
+$c\sqrt{n\log n}/\log\log n$, which the site prints. With the degree threshold
+balanced, the same argument gives the larger $c\sqrt{n\log n/\log\log n}$. This
+bound was first printed with this argument by Dudek and Mubayi [DM14], whom
+Mubayi and Verstraete and Gishboliner, Janzer and Sudakov credit. It is recorded
+as an accepted partial claim on
 [[problems/extremal_graph_theory/E0620/claims/2013_08_21_dudek_mubayi|its claim page]],
-and the deduction is written out on the corollary's result page. No
-refereed source determining the order was found in the search whose scope
-the Current assessment records; the July 2026 preprint found by it is the
-claim above, which the site has not adopted.
-This is a bounded negative finding about the refereed record, not a
-certificate of openness. Refereed results give more than they print:
-Corollary 2 of [JMRS21] yields $f(n)\ge c\sqrt{n\log n}$ in one line, as the
-Current assessment records, so the gap they leave is of order
-$(\log n)^{1/2}$, subject to the unexamined claim of a gap in that paper's
-Theorem 1 recorded on
+and the deduction is written out on the corollary's result page.
+
+No refereed source determining the order was found in the search whose scope the
+Current assessment records. The July 2026 preprint that the search found is the
+claim above, which the site has not adopted. This is a bounded negative finding
+about the refereed record, not a certificate of openness. Refereed results give
+more than they print. Corollary 2 of [JMRS21] yields $f(n)\ge c\sqrt{n\log n}$
+in one line, as the Current assessment records, so the gap they leave is of
+order $(\log n)^{1/2}$. This is subject to the unexamined claim of a gap in that
+paper's Theorem 1, recorded on
 [[problems/extremal_graph_theory/E0610/_index|Problem 610]].
 
 **Source.** [erdosproblems.com/620](https://www.erdosproblems.com/620),

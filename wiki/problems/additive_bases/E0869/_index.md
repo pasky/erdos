@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0869
 title: Problem 869
 desc: |
-  Asks whether the union of two disjoint additive bases of order two must
-  contain a minimal additive basis of order two.
+  Asks whether the union of two disjoint additive bases of order $2$ must
+  contain a minimal additive basis of order $2$.
 tags:
 - Number theory
 - Additive bases
@@ -26,14 +26,14 @@ $A_i+A_i$ contains all large integers) then must $A=A_1\cup A_2$ contain a
 minimal additive basis of order $2$ (one such that deleting any element creates
 infinitely many $n\not\in A+A$)?
 
-**Status.** Disproved. The site records Larsen's construction of a union of
-two disjoint bases of order $2$ containing no minimal basis, one of eight
-cases showing that divergent representation counts, splitting into two
-bases, and containing a minimal basis are independent; the accepted claim is
-[[problems/additive_bases/E0869/claims/2026_01_25_larsen|Larsen]]. A
-write-up posted to the problem's forum by Przemek Chojecki on 2026-04-25, in
-which GPT-5.5 Pro streamlines Larsen's construction, restates that result and
-is disclosed on the claim page rather than given its own.
+**Status.** Disproved. The site records Larsen's construction of a union of two
+disjoint bases of order $2$ containing no minimal basis. It is one of eight
+cases showing that three properties are independent: divergent representation
+counts, splitting into two bases, and containing a minimal basis. The accepted
+claim is [[problems/additive_bases/E0869/claims/2026_01_25_larsen|Larsen]].
+Przemek Chojecki posted a write-up to the problem's forum on 2026-04-25, in
+which GPT-5.5 Pro streamlines Larsen's construction. The write-up restates that
+result and is disclosed on the claim page rather than given its own.
 
 **Source.** [erdosproblems.com/869](https://www.erdosproblems.com/869), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #869,

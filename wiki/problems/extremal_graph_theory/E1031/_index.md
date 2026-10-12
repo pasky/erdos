@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E1031
 title: Problem 1031
 desc: |
-  Asks whether a graph on n vertices with no empty or complete subgraph of
-  size ten times the logarithm of n has an induced non-trivial (neither
-  empty nor complete) regular subgraph of logarithmic size.
+  Asks whether a graph on $n$ vertices with no empty or complete subgraph on
+  $10\log n$ vertices has an induced regular subgraph on $\gg\log n$ vertices
+  that is neither empty nor complete.
 tags:
 - Graph theory
 status: solved
@@ -39,18 +39,18 @@ all large $n$ and the question holds vacuously. The answer is yes on both
 readings, on the induced one by [PrRo99] as the claim page records, so the
 standing does not change.
 
-**Status.** Proved. The site credits Prömel and Rödl [PrRo99], whose
-theorem is stronger than the question: for every $c>0$, a graph on $n$
-vertices with no trivial subgraph on $c\log n$ vertices contains every graph
-on $O_c(\log n)$ vertices as an induced subgraph, among them a cycle, which
-is regular and non-trivial. The paper (J. Combin. Theory Ser. A 88 (1999),
-379--384; refereed) is not held; its statement is known through its signed
-zbMATH review and the site, and the claim page
+**Status.** Proved. The site credits Prömel and Rödl [PrRo99], whose theorem is
+stronger than the question. For every $c>0$, a graph on $n$ vertices with no
+trivial subgraph on $c\log n$ vertices contains every graph on $O_c(\log n)$
+vertices as an induced subgraph. Among these is a cycle, which is regular and
+non-trivial. The paper (J. Combin. Theory Ser. A 88 (1999), 379--384; refereed)
+is not held. Its statement is known through its signed zbMATH review and the
+site. The claim page
 [[problems/extremal_graph_theory/E1031/claims/1999_11_01_promel_rodl|Prömel and Rödl]]
-records it as accepted on the refereed venue and the curator's acceptance
-after the forum comment of 13 September 2025, with the zbMATH review as the
-source of the statement's wording; the proof-claim tab is empty and nothing
-is independently reviewed here.
+records it as accepted on the refereed venue and on the curator's acceptance
+after the forum comment of 13 September 2025. The zbMATH review is the source of
+the statement's wording. The proof-claim tab is empty and nothing is
+independently reviewed here.
 
 **Source.** [erdosproblems.com/1031](https://www.erdosproblems.com/1031),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1031,

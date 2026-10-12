@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0186/claims/2024_10_18_pham_zakharov
 title: Pham and Zakharov's sharp bound N to the one quarter plus o(1)
 desc: |
-  Pham and Zakharov's theorem that every non-averaging subset of the first
-  N integers has at most N^{1/4+o(1)} elements, which with Bosznay's bound
-  gives F(N)=N^{1/4+o(1)}; in Geom. Funct. Anal. 2025, adopted by the site.
+  Pham and Zakharov proved that every non-averaging subset of $\{1,\ldots,N\}$
+  has at most $N^{1/4+o(1)}$ elements, which with Bosznay's bound gives
+  $F(N)=N^{1/4+o(1)}$. The paper appeared in Geom. Funct. Anal. in 2025, and the
+  site adopts it.
 authors:
 - Huy Tuan Pham
 - Dmitrii Zakharov
@@ -65,11 +66,11 @@ upper bound itself rests on the literature the paper cites, not on a page
 of this wiki.
 
 **Acceptance.** Refereed: the paper appeared in Geometric and Functional
-Analysis, published online 3 December 2025 (per its Crossref record, as the
-problem page records). Reviewed: the site's curator, Thomas Bloom, credits
-the upper bound to Pham and Zakharov in the problem page's commentary and
-labels the problem SOLVED (page last edited 8 April 2026); that is
-documented acceptance outside this project.
+Analysis, published online 3 December 2025 according to its Crossref record, as
+the problem page records. Reviewed: the site's curator, Thomas Bloom, credits
+the upper bound to Pham and Zakharov in the problem page's commentary and labels
+the problem SOLVED (page last edited 8 April 2026). This is documented
+acceptance outside this project.
 
 **Read depth.** The library card checks the definition and Theorem 1; the
 proof (Sections 2--4) was not read. Nothing here rests on a review by this

@@ -2,9 +2,10 @@
 name: problems/analysis/E1038/claims/2026_07_15_darvas_peng_tao
 title: Darvas, Peng and Tao's duality proof of the infimum
 desc: |
-  Claims that the infimum of the measure of {|f| < 1}, over monic polynomials
-  with roots in [-1, 1] and over probability measures on [-1, 1] alike, is D =
-  1.834430475762661711..., by a dual measure completing Terence Tao's reduction.
+  Darvas, Peng and Tao claim that the infimum of the measure of $\{|f|<1\}$,
+  over monic polynomials with roots in $[-1,1]$ and over probability measures on
+  $[-1,1]$ alike, is $D=1.834430475762661711\ldots$. The proof completes Terence
+  Tao's reduction with a dual measure.
 authors:
 - Tamás Darvas
 - Binghui Peng

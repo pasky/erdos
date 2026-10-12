@@ -2,9 +2,9 @@
 name: problems/irrationality/E0243
 title: Problem 243
 desc: |
-  Asks whether a sequence whose terms are asymptotically the square of the
-  previous one, with rational reciprocal sum, must eventually satisfy a fixed
-  recurrence.
+  Asks whether every increasing integer sequence with $a_n/a_{n-1}^2\to1$ and
+  $\sum 1/a_n$ rational must satisfy $a_n=a_{n-1}^2-a_{n-1}+1$ for all large
+  $n$.
 tags:
 - Number theory
 - Irrationality

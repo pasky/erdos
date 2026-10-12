@@ -2,9 +2,8 @@
 name: problems/distance_problems/E0232
 title: Problem 232
 desc: |
-  Estimates the largest possible upper density of a measurable planar set
-  containing no two points at distance one, and asks whether it is at most one
-  quarter.
+  Asks for estimates of the largest upper density $m_1$ of a measurable set in
+  the plane with no two points at distance $1$, and whether $m_1\le1/4$.
 tags:
 - Geometry
 - Distances
@@ -39,15 +38,15 @@ $$
 where $A$ ranges over all measurable subsets of $\mathbb{R}^2$ without two
 points distance $1$ apart. In particular, is $m_1\leq 1/4$?
 
-**Status.** Proved. The site's label answers the particular question:
-Ambrus, Csiszárik, Matolcsi, Varga and Zsámboki proved $m_1\le0.247<1/4$,
-which answers the site's question and proves Erdős's conjecture $m_1<1/4$
-[Er85], read with the circle's area as the normalization. The
+**Status.** Proved. The site's label answers the particular question. Ambrus,
+Csiszárik, Matolcsi, Varga and Zsámboki proved $m_1\le0.247<1/4$. This answers
+the site's question. It also proves Erdős's conjecture $m_1<1/4$ [Er85], read
+with the circle's area as the normalization. The result is recorded in `claims/`
+as an accepted claim. The
 [[../library/distance_problems/erdos_1985_problems_results_combinatorial_geometry/conjecture_p4|conjecture as printed]]
-(p. 4) divides the measure by $R^2$ rather than by the area $\pi R^2$, and
-in that form it is false. The estimate of $m_1$ itself remains
-between Croft's lower bound $0.22936$ and this upper bound. The result is
-recorded in `claims/` as an accepted claim.
+(p. 4) divides the measure by $R^2$ rather than by the area $\pi R^2$, and in
+that form it is false. The estimate of $m_1$ itself remains between Croft's
+lower bound $0.22936$ and this upper bound.
 
 **Source.** [erdosproblems.com/232](https://www.erdosproblems.com/232), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #232,

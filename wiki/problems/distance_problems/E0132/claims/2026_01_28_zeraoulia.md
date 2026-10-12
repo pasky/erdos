@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0132/claims/2026_01_28_zeraoulia
 title: Zeraoulia's case n = 7 and the (1, 9, 9, 9) reduction for n = 8
 desc: |
-  Every seven-point planar set has two distinct distances each occurring between
-  at most seven pairs, and an eight-point counterexample would have multiplicities
-  (1, 9, 9, 9) with a unique diametral pair; a self-published note, claimed.
+  Zeraoulia's self-published note claims that every seven-point planar set has
+  two distinct distances each occurring between at most seven pairs, and that an
+  eight-point counterexample would have multiplicities $(1,9,9,9)$ with a unique
+  diametral pair.
 authors:
 - Rafik Zeraoulia
 status: claimed
@@ -61,5 +62,5 @@ checked Zeraoulia's proof of $n=7$ step by step; Beller's manuscript of August
 Those are dated uptakes by other claimants, not reviews.
 
 **Acceptance.** None documented. The note is not on arXiv and has no journal
-record, the site labels the problem OPEN and its page does not credit the result,
-and no outside review is known. The claim is therefore claimed.
+record. The site labels the problem OPEN, and its page does not credit the
+result. No outside review is known. The claim is therefore claimed.

@@ -2,9 +2,10 @@
 name: problems/set_systems/E0701/claims/2026_09_16_chang_liu_liu
 title: Chvátal's conjecture from a sharp correlation inequality
 desc: |
-  Chang, Liu and Liu's September 2026 preprint proves Chvátal's conjecture
-  for subsets of a finite set through a sharp correlation inequality for
-  increasing Boolean functions; not refereed, third-party Lean not built.
+  Chang, Liu and Liu's September 2026 preprint claims a proof of Chvátal's
+  conjecture for subsets of a finite set, through a sharp correlation inequality
+  for increasing Boolean functions. It is not refereed, and its third-party Lean
+  development has not been built.
 authors:
 - Fan Chang
 - Hong Liu
@@ -103,9 +104,8 @@ linked; the same entry names the two later proofs, the
 pages, both of which credit this preprint with the first proof and build on
 its ideas.
 
-**Acceptance.** None recorded: the preprint is not refereed, the forum entry
-has no comments, and the site labels the problem OPEN (2026-10-07). That two
-later preprints by
-other authors state the conjecture as proved by this one is scholarly
-acknowledgment, not a review record, and the claim stays `claimed` until an
-independent acceptance or a refereed publication is recorded.
+**Acceptance.** None recorded. The preprint is not refereed, the forum entry has
+no comments, and the site labels the problem OPEN (2026-10-07). Two later
+preprints by other authors state the conjecture as proved by this one. That is
+scholarly acknowledgment, not a review record. The claim stays `claimed` until
+an independent acceptance or a refereed publication is recorded.

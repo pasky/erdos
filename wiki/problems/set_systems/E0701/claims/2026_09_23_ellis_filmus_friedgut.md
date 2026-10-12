@@ -2,9 +2,10 @@
 name: problems/set_systems/E0701/claims/2026_09_23_ellis_filmus_friedgut
 title: Short spectral proof of Chvátal's conjecture
 desc: |
-  Ellis, Filmus and Friedgut's September 2026 note gives a two-page spectral
-  proof of Chvátal's conjecture, a spectral proof of Kleitman's conjecture and
-  a projection-packing strengthening; found with ChatGPT-6 Astra, unrefereed.
+  Ellis, Filmus and Friedgut's September 2026 note claims a two-page spectral
+  proof of Chvátal's conjecture, a spectral proof of Kleitman's conjecture and a
+  projection-packing strengthening. It was found with ChatGPT-6 Astra and is not
+  refereed.
 authors:
 - David Ellis
 - Yuval Filmus

@@ -3,8 +3,8 @@ name: problems/extremal_graph_theory/E0061/claims/2001_04_01_alon_pach_solymosi
 title: Alon, Pach and Solymosi's substitution closure
 desc: |
   Alon, Pach and Solymosi prove that the graphs with the Erdős-Hajnal property
-  are closed under vertex substitution, which with the four-vertex cases
-  settles every graph built from them; accepted on the refereed paper.
+  are closed under vertex substitution, which with the four-vertex cases settles
+  every graph built from them. The claim is accepted on the refereed paper.
 authors:
 - Noga Alon
 - János Pach
@@ -56,8 +56,8 @@ is recorded on
 [[problems/extremal_graph_theory/E0061/claims/1989_10_01_erdos_hajnal|Erdős and Hajnal's cases on at most four vertices]],
 for the base cases of the closure.
 
-**Acceptance.** The paper is a refereed publication in Combinatorica, in the
-issue of April 2001 (the day is not recorded, and this page's date is the
-first of that month), which is the `refereed` evidence. The site's commentary
+**Acceptance.** The paper is a refereed publication in Combinatorica, which is
+the `refereed` evidence. It appeared in the issue of April 2001. The day is not
+recorded, and this page's date is the first of that month. The site's commentary
 credits the closure to the paper, but the site labels the problem OPEN, so no
 `reviewed` evidence is listed. This corpus has not checked the proof.

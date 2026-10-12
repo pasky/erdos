@@ -2,9 +2,8 @@
 name: problems/arithmetic_functions/E0411
 title: Problem 411
 desc: |
-  Determines for which n and r the iterates of the map sending n to n plus
-  Euler's totient of n satisfy that shifting by r steps eventually doubles the
-  value.
+  Asks for which $n$ and $r$ the iterates $g_k$ of $g(n)=n+\phi(n)$ satisfy
+  $g_{k+r}(n)=2g_k(n)$ for all large $k$.
 tags:
 - Number theory
 - Iterated functions
@@ -25,14 +24,14 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Let $g_1=g(n)=n+\phi(n)$ and $g_k(n)=g(g_{k-1}(n))$. For which
 $n$ and $r$ is it true that $g_{k+r}(n)=2g_k(n)$ for all large $k$?
 
-**Status.** Open, the site's label (OPEN, page last edited 28 October 2025).
-The one claim recorded,
+**Status.** Open, the site's label (OPEN, page last edited 28 October 2025). The
+one claim recorded,
 [[problems/arithmetic_functions/E0411/claims/2025_04_10_steinerberger|Steinerberger 2025]],
-is partial: it reduces shift two to the equation
-$\phi(m)+\phi(m+\phi(m))=m$, puts every solution into two branches by its
-odd part, and claims to settle the first branch, whose solutions are six
-doubling families with odd part in $\{1,3,5,7,35,47\}$; the second branch,
-the question of which $n$ reach a solution, and every other shift stay open.
+is partial. It reduces shift two to the equation $\phi(m)+\phi(m+\phi(m))=m$ and
+puts every solution into two branches by its odd part. It claims to settle the
+first branch, whose solutions are six doubling families with odd part in
+$\{1,3,5,7,35,47\}$. The second branch stays open, as do the question of which
+$n$ reach a solution and every other shift.
 
 **Source.** [erdosproblems.com/411](https://www.erdosproblems.com/411), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #411,

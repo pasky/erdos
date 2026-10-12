@@ -4,19 +4,21 @@ desc: The 2 claim pages of Problem 380, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T10:44:32Z
-updated: 2026-10-07T12:03:40Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/arithmetic_functions/E0380/claims
 
 [[problems/arithmetic_functions/E0380/_index|..]]
 
-[[problems/arithmetic_functions/E0380/claims/2026_03_30_tao|2026_03_30_tao]]: Proves the asymptotic Erdős and Graham asked for, with a relative error of
-a power of the logarithm, and shows that the integers in very bad intervals
-are asymptotically the powerful numbers; recorded by the site's curator.
+[[problems/arithmetic_functions/E0380/claims/2026_03_30_tao|2026_03_30_tao]]: Tao proves the asymptotic that Erdős and Graham asked for, with a relative
+error that is a power of the logarithm, and shows that the integers in very
+bad intervals are asymptotically the powerful numbers. The site's curator
+records the result.
 
-[[problems/arithmetic_functions/E0380/claims/2026_08_26_alexeev|2026_08_26_alexeev]]: A Lean 4 development in the lean-proofs repository proves that the count of
-integers in bad intervals is asymptotic to the count of n with P(n) squared
-dividing n, without an error term and by a route of its own; unreviewed.
+[[problems/arithmetic_functions/E0380/claims/2026_08_26_alexeev|2026_08_26_alexeev]]: A Lean 4 development by Boris Alexeev in the lean-proofs repository proves
+that the count of integers in bad intervals is asymptotic to the count of $n$
+with $P(n)^2\mid n$. It gives no error term, follows a route of its own, and
+is unreviewed.
 
 ***

@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0347
 title: Problem 347
 desc: |
-  Asks whether some integer sequence with successive ratios tending to two has
-  subset sums of density one even after any finite set of terms is removed.
+  Asks whether some integer sequence with $a_{n+1}/a_n\to2$ has subset sums of
+  density $1$ even after any finite set of terms is removed.
 tags:
 - Number theory
 - Complete sequences
@@ -36,13 +36,13 @@ $$
 
 has density $1$ for every cofinite subsequence $A'$ of $A$?
 
-**Status.** Proved, in the site's label "PROVED (LEAN)". Enrique Barschkis
-posted on 2026-01-21 an explicit block construction, from an idea of Tao and
-van Doorn, with a Lean proof; a named reader, working with ChatGPT, checked
-both, and the site accepted the result (page last edited 22 January 2026,
-accessed 2026-10-07). See the
+**Status.** Proved, in the site's label "PROVED (LEAN)". On 2026-01-21 Enrique
+Barschkis posted an explicit block construction, from an idea of Tao and van
+Doorn, with a Lean proof. A named reader, working with ChatGPT, checked both,
+and the site accepted the result (page last edited 22 January 2026, accessed
+2026-10-07). See the
 [[problems/additive_bases/E0347/claims/2026_01_21_barschkis|claim page]]. The
-"(LEAN)" suffix is the site's label: nothing was built or audited here.
+"(LEAN)" suffix is part of the site's label. Nothing was built or audited here.
 
 **Source.** [erdosproblems.com/347](https://www.erdosproblems.com/347), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #347,

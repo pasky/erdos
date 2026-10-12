@@ -2,8 +2,8 @@
 name: problems/covering_systems/E0277
 title: Problem 277
 desc: |
-  Asks whether, for every c, some n has sum of divisors above c times n yet
-  admits no covering system whose moduli are distinct divisors of n above one.
+  Asks whether for every $c$ some $n$ with $\sigma(n)>cn$ admits no covering
+  system whose moduli are distinct divisors of $n$ above $1$.
 tags:
 - Number theory
 - Covering systems
@@ -26,13 +26,13 @@ $\sigma(n)>cn$ but there is no covering system whose moduli all distinct
 divisors of $n$ (which are $>1$)?
 
 **Status.** PROVED (LEAN), the site's label. The status-defining source is
-Haight's theorem (Mathematika 26 (1979), 53--61, refereed): for every $c$ some
-$n$ has $\sigma(n)>cn$ while its divisors above $1$ cannot be the moduli of a
-covering system, so the answer is yes; the claim page is
-[[problems/covering_systems/E0277/claims/1979_06_01_haight|Haight]] (accepted
-on the refereed publication and the site's credit). A second, quantitative
-proof by Filaseta, Ford, Konyagin, Pomerance and Yu (J. Amer. Math. Soc.
-2007, refereed) is recorded on
+Haight's theorem (Mathematika 26 (1979), 53--61, refereed). It shows that for
+every $c$ some $n$ has $\sigma(n)>cn$ while its divisors above $1$ cannot be the
+moduli of a covering system, so the answer is yes. The claim page is
+[[problems/covering_systems/E0277/claims/1979_06_01_haight|Haight]], accepted on
+the refereed publication and the site's credit. A second, quantitative proof by
+Filaseta, Ford, Konyagin, Pomerance and Yu (J. Amer. Math. Soc. 2007, refereed)
+is recorded on
 [[problems/covering_systems/E0277/claims/2005_07_18_filaseta_ford_konyagin_pomerance_yu|their claim page]].
 The site's Lean qualification refers to the Lean proof recorded under
 Formalization.

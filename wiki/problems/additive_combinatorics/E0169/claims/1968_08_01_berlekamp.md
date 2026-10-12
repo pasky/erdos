@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0169/claims/1968_08_01_berlekamp
 title: Berlekamp's linear lower bound through van der Waerden numbers
 desc: |
-  Berlekamp's Galois-field two-coloring shows W(p+1) exceeds p times 2 to the
-  p for prime p, which with the trivial comparison to log W(k) gives f(k) at
-  least (log 2 over 2 minus o(1)) times k, the bound the site credits to him.
+  Berlekamp's Galois-field two-coloring shows $W(p+1)>p\,2^p$ for prime $p$.
+  With the trivial comparison to $\log W(k)$, this gives
+  $f(k)\ge\bigl(\tfrac{\log2}{2}-o(1)\bigr)k$, the bound the site credits to
+  him.
 authors:
 - E. R. Berlekamp
 status: accepted
@@ -59,9 +60,9 @@ comparison with $\log W(k)$ is the elementary one stated above.
 
 **Acceptance.** Refereed: E. R. Berlekamp, A construction for partitions which
 avoid long arithmetic progressions, Canad. Math. Bull. 11 (1968), no. 3,
-409–414. The site's curator credits the bound in the problem's commentary, but
-the site labels the problem OPEN, so that commentary is not acceptance of the
-problem and the page lists no `reviewed` evidence.
+409–414. The site's curator credits the bound in the problem's commentary. The
+site labels the problem OPEN, so that commentary is not acceptance of the
+problem, and the page lists no `reviewed` evidence.
 
 **Dating.** The page is dated by the issue month in the publisher's record,
 August 1968; the day is a placeholder.

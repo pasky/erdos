@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0815/claims/1988_01_01_erdos_faudree_gyarfas_schelp
 title: Erdős, Faudree, Gyárfás and Schelp's cycles of length 3, 4 and 5
 desc: |
-  Theorem 2 of Erdős, Faudree, Gyárfás and Schelp (Ars Combin. 25B, 1988)
-  gives a triangle and a 5-cycle in every graph of the class on at least 5
-  vertices and a 4-cycle on at least 6; the cases k = 3, 4, 5 of the problem.
+  Theorem 2 of Erdős, Faudree, Gyárfás and Schelp (Ars Combin. 25B, 1988) gives
+  a triangle and a 5-cycle in every graph of the class on at least 5 vertices,
+  and a 4-cycle on at least 6. These are the cases $k=3,4,5$ of the problem.
 authors:
 - P. Erdős
 - R. Faudree

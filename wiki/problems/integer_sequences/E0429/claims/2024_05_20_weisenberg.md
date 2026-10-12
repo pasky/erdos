@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0429/claims/2024_05_20_weisenberg
 title: Weisenberg's arbitrarily sparse admissible sets with no prime translate
 desc: |
-  Disproves the Erdős–Graham sparsity question: below every nondecreasing
-  unbounded threshold there is an admissible set that no integer shift carries
-  into the primes; refereed in Integers 24 (2024).
+  Weisenberg answers the Erdős–Graham sparsity question no: below every
+  nondecreasing unbounded threshold there is an admissible set that no integer
+  shift carries into the primes. The result appeared, refereed, in Integers 24
+  (2024).
 authors:
 - Desmond Weisenberg
 status: accepted
@@ -67,21 +68,24 @@ many primes, which the paper cites to Gupta and Ram Murty (Invent. Math. 78
 the second construction avoids that input, so the disproof does not rest on
 it.
 
-**Acceptance.** Refereed: the paper appeared in Integers, a refereed journal
-(received 24 June 2024, accepted 20 September 2024, published 9 October 2024,
-per the article's header; the journal's volume 24 contents page lists Article
-A89). Not reviewed: the site's curator, Thomas Bloom, labels the problem
-DISPROVED (LEAN) and credits this paper in the commentary (page last edited 8
-April 2026), and the paper reports on p. 2 that the site marked the problem
-solved when the first construction appeared as a preprint, but its
-acknowledgement (p. 4) thanks Bloom for reviewing an earlier draft of the paper
-and for advising the author in the Oxford mathematics master's program, so Bloom
-is not independent of the claimant and the credit is not `reviewed` evidence;
-the community database lists the Lean suffix with a last update of 29 January
-2026 on its status entry. No dispute of the construction, second resolution or
-citing paper was found in the search recorded on the problem page. This
-project's own reading of the one-paragraph proof, recorded on the source card,
-is not acceptance evidence.
+**Acceptance.** Refereed: the paper appeared in Integers, a refereed journal.
+Per the article's header, it was received 24 June 2024, accepted 20 September
+2024 and published 9 October 2024. The contents page of the journal's volume 24
+lists it as Article A89.
+
+Not reviewed: the site's curator, Thomas Bloom, labels the problem DISPROVED
+(LEAN) and credits this paper in the commentary (page last edited 8 April 2026).
+The paper reports on p. 2 that the site marked the problem solved when the first
+construction appeared as a preprint. But the paper's acknowledgement (p. 4)
+thanks Bloom for reviewing an earlier draft and for advising the author in the
+Oxford mathematics master's program. Bloom is therefore not independent of the
+claimant, and his credit is not `reviewed` evidence. The community database
+lists the Lean suffix on its status entry, with a last update of 29
+January 2026.
+
+The search recorded on the problem page found no dispute of the construction, no
+second resolution and no citing paper. This project's own reading of the
+one-paragraph proof, recorded on the source card, is not acceptance evidence.
 
 **Formalization.** The site's "(Lean)" suffix followed the file posted in
 the site's discussion thread on 29 January 2026 by the account Woett, whose

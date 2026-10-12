@@ -2,9 +2,10 @@
 name: problems/set_systems/E1020/claims/2012_02_19_luczak_mieczkowska
 title: Łuczak and Mieczkowska's triple systems on many vertices
 desc: |
-  Łuczak and Mieczkowska (2014) prove the matching conjecture for 3-uniform
-  hypergraphs on n vertices for every matching number once n is large, with
-  the cover and the clique the only extremal hypergraphs; refereed.
+  Łuczak and Mieczkowska (2014) prove the matching conjecture for $3$-uniform
+  hypergraphs on $n$ vertices, for every matching number, once $n$ is large. The
+  cover and the clique are the only extremal hypergraphs, and the paper is
+  refereed.
 authors:
 - Tomasz Luczak
 - Katarzyna Mieczkowska
@@ -57,7 +58,7 @@ settled on [[problems/set_systems/E1020/claims/2012_05_30_frankl|Frankl
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Combinatorial
 Theory, Series A, 124 (2014), 178–194, after its first posting as
-arXiv:1202.4196 on 2012-02-19. The site labels the problem FALSIFIABLE, an
-open label, so its commentary, which credits the case to the paper as
-[LuMi14], is not acceptance and no `reviewed` is listed. Nothing here rests
-on this project's own review.
+arXiv:1202.4196 on 2012-02-19. The site's commentary credits the case to the
+paper as [LuMi14]. The site labels the problem FALSIFIABLE, an open label, so
+this commentary is not acceptance and no `reviewed` is listed. Nothing here
+rests on this project's own review.

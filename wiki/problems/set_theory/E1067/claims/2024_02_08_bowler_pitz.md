@@ -2,9 +2,10 @@
 name: problems/set_theory/E1067/claims/2024_02_08_bowler_pitz
 title: Bowler and Pitz's elementary counterexample
 desc: |
-  Gives a short construction of a graph of chromatic number aleph one in
-  which every uncountable set of vertices has two vertices joined by only
-  finitely many independent paths; refereed in 2025, formalized by others.
+  Bowler and Pitz give a short construction of a graph of chromatic number
+  $\aleph_1$ in which every uncountable set of vertices has two vertices joined
+  by only finitely many independent paths. The paper was refereed in 2025, and
+  others have formalized it.
 authors:
 - Nathan Bowler
 - Max Pitz
@@ -69,11 +70,11 @@ Soukup's result,
 on which it does not depend. The proof was not reconstructed here.
 
 **Acceptance.** The result appeared in a refereed journal, the *Electronic
-Journal of Combinatorics*, in 2025, the `refereed` evidence; the arXiv
-preprint is the text cited here, not compared with the published version.
-The site's curator, Thomas Bloom, marks the problem DISPROVED (LEAN) and
-records in the commentary that Bowler and Pitz gave a simpler elementary
-example: that curator credit is the `reviewed` evidence.
+Journal of Combinatorics*, in 2025. This is the `refereed` evidence. The text
+cited here is the arXiv preprint, which was not compared with the published
+version. The site's curator, Thomas Bloom, marks the problem DISPROVED (LEAN).
+The commentary records that Bowler and Pitz gave a simpler elementary example.
+That curator credit is the `reviewed` evidence.
 
 **Formalization.** The site's Lean suffix refers to a Lean 4 development
 in Boris Alexeev's repository, announced on the site's thread on 2026-01-28

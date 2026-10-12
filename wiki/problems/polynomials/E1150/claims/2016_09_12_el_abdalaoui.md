@@ -2,9 +2,9 @@
 name: problems/polynomials/E1150/claims/2016_09_12_el_abdalaoui
 title: el Abdalaoui's square-flatness claim for plus-minus-one polynomials
 desc: |
-  A 2016 preprint claims that no sequence of plus or minus one polynomials is
-  square L^2-flat, that is L^4-flat, so Erdős's ultraflat conjecture holds;
-  rejected after the accepted disproof.
+  A 2016 preprint claims that no sequence of $\pm1$ polynomials is
+  square-$L^2$-flat, that is, $L^4$-flat, so Erdős's ultraflat conjecture holds.
+  The claim was rejected after the accepted disproof.
 authors:
 - el Houcein el Abdalaoui
 status: rejected

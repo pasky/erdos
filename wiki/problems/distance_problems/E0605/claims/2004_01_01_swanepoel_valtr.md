@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0605/claims/2004_01_01_swanepoel_valtr
 title: Swanepoel and Valtr's root-log lower bound on spheres
 desc: |
-  On every sphere in three-space of diameter above one, n points can span more
-  than a constant times n root log n unit distances: a second proof of the
-  answer yes with a stronger bound, credited by the site's curator.
+  Swanepoel and Valtr show that on every sphere in $\mathbb R^3$ of diameter
+  above 1, $n$ points can span more than a constant times $n\sqrt{\log n}$ unit
+  distances. This is a second proof of the answer yes, with a stronger bound,
+  and the site's curator credits it.
 authors:
 - Konrad J. Swanepoel
 - Pavel Valtr
@@ -52,15 +53,14 @@ points and no parallelogram, is not part of this problem. The source card is
 [[../library/distance_problems/swanepoel_2004_unit_distance_problem_spheres/_index|swanepoel_2004_unit_distance_problem_spheres]].
 
 **Acceptance.** The site's curator, Thomas Bloom, records the theorem as the
-current lower bound for the problem's quantity, $u_D(n)\gg n\sqrt{\log n}$,
-beside the solution he credits to Erdős, Hickerson and Pach (problem page
-accessed); that record is the `reviewed` evidence. The venue is
-the one the publisher's record gives, DOI 10.1090/conm/342/06148 (Contemporary
-Mathematics 342, *Towards a Theory of Geometric Graphs*, 273–279, 2004),
+current lower bound for the problem's quantity, $u_D(n)\gg n\sqrt{\log n}$
+(problem page accessed). He records it beside the solution he credits to Erdős,
+Hickerson and Pach. That record is the `reviewed` evidence. The venue is the one
+the publisher's record gives, DOI 10.1090/conm/342/06148 (Contemporary
+Mathematics 342, *Towards a Theory of Geometric Graphs*, 273–279, 2004). It is
 linked above with the first author's publication list. The volume is a
-proceedings volume rather than a journal, and no evidence that it was
-refereed is recorded, so no `refereed` evidence is listed. The proof is
-unreviewed; acceptance rests on the curator's credit. The site also records
-the upper
-bound $u_D(n)\ll n^{4/3}$ for general $D$, so the exact growth of the
-problem's quantity remains unknown while the question itself is answered.
+proceedings volume, not a journal, and no evidence that it was refereed is
+recorded, so no `refereed` evidence is listed. The proof is unreviewed, and
+acceptance rests on the curator's credit. The site also records the upper bound
+$u_D(n)\ll n^{4/3}$ for general $D$. So the exact growth of the problem's
+quantity remains unknown, although the question itself is answered.

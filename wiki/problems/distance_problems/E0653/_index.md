@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0653
 title: Problem 653
 desc: |
-  Asks whether n points in the plane can take almost n different values among
-  the counts of distinct distances from each point to the others; yes by a Lean
-  proof certified by Conjectures.io, unrefereed, kernel-checked by that site.
+  Asks whether the counts of distinct distances from each of $n$ planar points
+  to the others can take $(1-o(1))n$ different values; yes, by an unrefereed
+  Lean proof that Conjectures.io kernel-checked and certified.
 tags:
 - Geometry
 - Distances
@@ -32,15 +32,15 @@ $$
 Let $g(n)$ be the maximum number of distinct values the $R(x_i)$ can take. Is it
 true that $g(n) \geq (1-o(1))n$?
 
-**Status.** Proved, against the site's label OPEN: the answer yes rests on a
+**Status.** Proved, against the site's label OPEN. The answer yes rests on a
 Lean proof certified by the bounty site Conjectures.io after its kernel check
-and review, which is the accepted claim on
-[[problems/distance_problems/E0653/claims/2026_09_15_gus|gus's claim page]]; the
+and review. That proof is the accepted claim on
+[[problems/distance_problems/E0653/claims/2026_09_15_gus|gus's claim page]]. The
 site has not credited it. The erdosproblems.com page labels the problem open
-(2026-10-07) and records the literature bounds $g(n)>\tfrac{7}{10}n$ and
-$g(n)<n-cn^{2/3}$, while its proof-claims tab carries a full claim through a
-Lean proof certified by the bounty site Conjectures.io and a partial-result
-entry through a Zenodo preprint.
+(2026-10-07). It records the literature bounds $g(n)>\tfrac{7}{10}n$ and
+$g(n)<n-cn^{2/3}$. Its proof-claims tab carries two entries: a full claim
+through a Lean proof certified by Conjectures.io, and a partial-result entry
+through a Zenodo preprint.
 
 **Source.** [erdosproblems.com/653](https://www.erdosproblems.com/653), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #653,

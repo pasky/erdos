@@ -2,8 +2,9 @@
 name: problems/set_systems/E0020
 title: Problem 20
 desc: |
-  Asks whether the number of n-element sets needed to force a k-sunflower
-  grows only exponentially in n, with a base depending on k.
+  Asks whether the number of $n$-element sets needed to force a $k$-sunflower is
+  at most exponential in $n$, that is, below $c_k^n$ for a constant $c_k$
+  depending on $k$.
 tags:
 - Combinatorics
 status: open

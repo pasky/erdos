@@ -2,9 +2,9 @@
 name: problems/set_systems/E1020/claims/2022_06_03_kolupaev_kupavskii
 title: Kolupaev and Kupavskii's almost-perfect range for r at least 5
 desc: |
-  Kolupaev and Kupavskii (2023) prove the matching conjecture for r >= 5 and
-  k - 1 > 101 r^3 whenever rk <= n < k(r + 1/(100 r)), widening Frankl's
-  window above n = rk; refereed in Discrete Mathematics.
+  Kolupaev and Kupavskii (2023) prove the matching conjecture for $r\ge5$ and
+  $k-1>101r^3$ whenever $rk\le n<k(r+1/(100r))$, which widens Frankl's window
+  above $n=rk$. The paper is refereed and appeared in Discrete Mathematics.
 authors:
 - Dmitriy Kolupaev
 - Andrey Kupavskii
@@ -56,9 +56,9 @@ cost of the lower bound on $k$.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: the paper appeared in Discrete Mathematics 346
-(2023), no. 4, Paper No. 113304, after its first posting as arXiv:2206.01526
-on 2022-06-03. The site labels the problem FALSIFIABLE, an open label, so its
-commentary, which credits the range to the paper as [KoKu23], is not
-acceptance and no `reviewed` is listed. Nothing here rests on this project's
+**Acceptance.** Refereed: the paper appeared in Discrete Mathematics 346 (2023),
+no. 4, Paper No. 113304. It was first posted as arXiv:2206.01526 on 2022-06-03.
+The site's commentary credits the range to the paper as [KoKu23]. The site
+labels the problem FALSIFIABLE, which is an open label, so this commentary is
+not acceptance and no `reviewed` is listed. Nothing here rests on this project's
 own review.

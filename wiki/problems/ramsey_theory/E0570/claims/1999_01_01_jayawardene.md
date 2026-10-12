@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0570/claims/1999_01_01_jayawardene
 title: Jayawardene, the five-cycle
 desc: |
-  Jayawardene's 1999 University of Memphis thesis, credited by the site and
-  by Cambie, Freschi, Morawski, Petrova and Pokrovskiy with the case k = 5
-  of the question; the thesis is not held and is recorded second-hand.
+  Jayawardene's 1999 University of Memphis thesis is credited by the site and by
+  Cambie, Freschi, Morawski, Petrova and Pokrovskiy with the case $k=5$ of the
+  question. The thesis is not held and is recorded second-hand.
 authors: []
 status: accepted
 claim: proved
@@ -60,14 +60,13 @@ is checked against the thesis.
 **Depends on.** Nothing in this wiki; the result rests on the cited thesis
 alone.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, records the
-case $k=5$ as proved by Jayawardene in the problem's commentary (its key
-[Ja99]; page last edited 16 January 2026, accessed 2026-09-08 for the
-problem page), and the five authors of the 2026 preprint, who prove the
-remaining odd cases, accept the thesis result as settling $k=5$ and build
-their account of the question on it. A thesis is examined, not refereed in
-a journal, and no journal publication of the result is known, so no
-`refereed` evidence is listed.
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, records the case
+$k=5$ as proved by Jayawardene in the problem's commentary (its key [Ja99]; page
+last edited 16 January 2026, accessed 2026-09-08 for the problem page). The five
+authors of the 2026 preprint prove the remaining odd cases. They accept the
+thesis result as settling $k=5$ and build their account of the question on it. A
+thesis is examined, not refereed in a journal. No journal publication of the
+result is known, so no `refereed` evidence is listed.
 
 **Dating and read depth.** The thesis is not held: the searches of
 2026-09-08 (title, author, catalog and web queries, including ProQuest and

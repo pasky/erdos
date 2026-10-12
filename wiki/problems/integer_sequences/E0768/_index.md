@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0768
 title: Problem 768
 desc: |
-  Asks whether the proportion of n up to N such that every prime factor p of n
-  has a divisor of n above one congruent to one mod p decays like
-  exp(-(c+o(1)) sqrt(log N) log log N).
+  Asks whether the proportion of $n\le N$ such that every prime $p\mid n$ has a
+  divisor $d>1$ of $n$ with $d\equiv1\pmod p$ is
+  $\exp(-(c+o(1))\sqrt{\log N}\log\log N)$.
 tags:
 - Number theory
 status: claimed

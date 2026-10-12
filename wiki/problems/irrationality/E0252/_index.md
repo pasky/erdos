@@ -2,9 +2,9 @@
 name: problems/irrationality/E0252
 title: Problem 252
 desc: |
-  Asks whether, for every positive k, the sum over n of the sum of kth powers
-  of the divisors of n divided by n factorial is irrational; answered yes by a
-  2026 kernel-checked Lean proof rebuilt, replayed and statement-audited here.
+  Asks whether $\sum_n \sigma_k(n)/n!$ is irrational for every $k\ge1$, where
+  $\sigma_k(n)=\sum_{d\mid n}d^k$. A 2026 kernel-checked Lean proof, rebuilt,
+  replayed and statement-audited here, answers yes.
 tags:
 - Number theory
 - Irrationality
@@ -30,30 +30,33 @@ $$
 
 irrational?
 
-**Status.** Open on the site: the site labels the problem OPEN (page last
-edited 2026-01-22), the community database and
-formal-conjectures list it open, and nobody outside this repository had
-examined or acknowledged a proof by that date. The frontmatter standing
-`solved`, `proved` derives from the
-[[problems/irrationality/E0252/claims/2026_09_08_tokengrinder|claim page]] of
-a kernel-checked Lean 4 proof published anonymously in September 2026, which
-answers yes for every $k\ge1$ (and covers $k=0$); its only acceptance evidence
-is `formalized`: the proof was rebuilt and kernel-replayed here and its whole
-statement was found faithful by a graded fresh-context review, the third-round
-[[../library/irrationality/tokengrinder_2026_erdos_252_irrationality_factorial_divisor_sum/evidence/verify/fidelity_review_r3|fidelity
-review]] of 2026-09-18 and its
-[[../library/irrationality/tokengrinder_2026_erdos_252_irrationality_factorial_divisor_sum/evidence/verify/fidelity_grade_r3|distinct
-grade]], which `docs/anatomy.md` counts as documented independent acceptance
-of the external result; the Current assessment states what the two earlier
-review rounds found and why their grades warrant nothing. There is no
-refereed write-up, and the mechanical facts trust Lean's kernel and the
-consistency of Mathlib v4.33.1. Refereed work settles $1\le k\le4$
-unconditionally (Erdős,
-[[problems/irrationality/E0252/claims/1971_03_01_erdos_straus|Erdős–Straus]]
-and Erdős–Kac for $k=1,2$; Schlage-Puchta 2006 and Friedlander–Luca–Stoiciu
-2007 for $k=3$; Pratt, Acta Arith. 211 (2023) for $k=4$) and every $k$ under
-Schinzel's Hypothesis H or Dickson's conjecture; each of these results has an
-accepted partial or conditional claim page, listed under Known Results.
+**Status.** Open on the site. The site labels the problem OPEN (page last edited
+2026-01-22), and the community database and formal-conjectures list it open.
+Nobody outside this repository had examined or acknowledged a proof by that
+date.
+
+The frontmatter standing `solved`, `proved` derives from the
+[[problems/irrationality/E0252/claims/2026_09_08_tokengrinder|claim page]] of a
+kernel-checked Lean 4 proof published anonymously in September 2026. The proof
+answers yes for every $k\ge1$ and also covers $k=0$. Its only acceptance
+evidence is `formalized`: the proof was rebuilt and kernel-replayed here, and a
+graded fresh-context review found its whole statement faithful. That review is
+the third-round
+[[../library/irrationality/tokengrinder_2026_erdos_252_irrationality_factorial_divisor_sum/evidence/verify/fidelity_review_r3|fidelity review]]
+of 2026-09-18 and its
+[[../library/irrationality/tokengrinder_2026_erdos_252_irrationality_factorial_divisor_sum/evidence/verify/fidelity_grade_r3|distinct grade]].
+`docs/anatomy.md` counts it as documented independent acceptance of the external
+result. The Current assessment states what the two earlier review rounds found
+and why their grades warrant nothing. There is no refereed write-up. The
+mechanical facts trust Lean's kernel and the consistency of Mathlib v4.33.1.
+
+Refereed work settles $1\le k\le4$ unconditionally. Erdős,
+[[problems/irrationality/E0252/claims/1971_03_01_erdos_straus|Erdős–Straus]] and
+Erdős–Kac settle $k=1,2$. Schlage-Puchta 2006 and Friedlander–Luca–Stoiciu 2007
+settle $k=3$. Pratt, Acta Arith. 211 (2023), settles $k=4$. Refereed work also
+settles every $k$ under Schinzel's Hypothesis H or Dickson's conjecture. Each of
+these results has an accepted partial or conditional claim page, listed under
+Known Results.
 
 **Source.** [erdosproblems.com/252](https://www.erdosproblems.com/252),
 accessed 2026-09-17 (problem page, discussion thread and proof-claims page,

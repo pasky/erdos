@@ -2,8 +2,9 @@
 name: problems/graph_coloring/E0706
 title: Problem 706
 desc: |
-  Bounds the largest chromatic number of a graph on finitely many plane points
-  whose edges join pairs at one of r prescribed distances.
+  Asks for an estimate of $L(r)$, the largest chromatic number of a graph on
+  finitely many points in $\mathbb{R}^2$ whose edges join pairs at one of $r$
+  prescribed distances, and whether $L(r)\le r^{O(1)}$.
 tags:
 - Graph theory
 - Chromatic number

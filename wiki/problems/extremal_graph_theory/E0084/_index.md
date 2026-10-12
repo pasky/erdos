@@ -2,8 +2,8 @@
 name: problems/extremal_graph_theory/E0084
 title: Problem 84
 desc: |
-  Asks whether the number f(n) of cycle sets of graphs on n vertices is
-  o(2^n), and whether f(n)/2^(n/2) tends to infinity.
+  Asks whether the number $f(n)$ of cycle sets of graphs on $n$ vertices is
+  $o(2^n)$, and whether $f(n)/2^{n/2}\to\infty$.
 tags:
 - Graph theory
 - Cycles
@@ -32,25 +32,26 @@ Prove that $f(n)=o(2^n)$.
 
 Prove that $f(n)/2^{n/2}\to \infty$.
 
-**Status.** Open: the site labels the problem OPEN (proof-claims tab and
-thread as of 2026-10-07), and the frontmatter standing is derived from the
-two claim pages under `claims/`, the problem's two assertions being its parts.
-The first, $f(n)=o(2^n)$, is Verstraëte's refereed theorem [Ve04] in the
+**Status.** Open. The site labels the problem OPEN (proof-claims tab and thread
+as of 2026-10-07). The frontmatter standing is derived from the two claim pages
+under `claims/`, and the problem's two assertions are its parts. The first
+assertion, $f(n)=o(2^n)$, is Verstraëte's refereed theorem [Ve04] in the
 stronger form $o(2^{n-n^c})$
 ([[problems/extremal_graph_theory/E0084/claims/2004_09_01_verstraete|claim page]],
-accepted, partial), sharpened by Nenadov [Ne25] to $2^{n-n^{1/2-o(1)}}$
+accepted, partial). Nenadov [Ne25] sharpened it to $2^{n-n^{1/2-o(1)}}$
 ([[problems/extremal_graph_theory/E0084/claims/2025_01_17_nenadov|claim page]],
-accepted, partial); the second, $f(n)/2^{n/2}\to\infty$, is open, so the
-standing is open. One partial proof claim is registered on the tab:
-Botsford's Zenodo preprint (claim 351 on the tab, registered 25 September
-2026, made using GPT-6 Astra and Opus 5.5, as the tab names them) asserts
-the explicit lower bound $f(n)>19.61\cdot2^{n/2}$ for all $n\ge1024$ by
-three computer-assisted constructions. It gets no claim page because it
-settles no instance of either assertion: a constant factor over $2^{n/2}$ is
-not the divergence asked, and $f(n)=o(2^n)$ is not addressed. The site's
-remark credits the first problem to Verstraëte with Nenadov's improvement,
-and the site labels the problem OPEN. The site states that a listing on the
-tab is no guarantee of correctness.
+accepted, partial). The second assertion, $f(n)/2^{n/2}\to\infty$, is open, so
+the standing is open. The site's remark credits the first problem to Verstraëte
+with Nenadov's improvement.
+
+One partial proof claim is registered on the tab. Botsford's Zenodo preprint
+(claim 351 on the tab, registered 25 September 2026, made using GPT-6 Astra and
+Opus 5.5, as the tab names them) asserts the explicit lower bound
+$f(n)>19.61\cdot2^{n/2}$ for all $n\ge1024$, by three computer-assisted
+constructions. It gets no claim page because it settles no instance of either
+assertion. A constant factor over $2^{n/2}$ is not the divergence asked, and
+$f(n)=o(2^n)$ is not addressed. The site states that a listing on the tab is no
+guarantee of correctness.
 
 **Source.** [erdosproblems.com/84](https://www.erdosproblems.com/84), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #84,

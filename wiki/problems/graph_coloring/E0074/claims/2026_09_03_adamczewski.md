@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0074/claims/2026_09_03_adamczewski
 title: A slow edge-deletion budget forces three colors
 desc: |
-  GPT-6 Astra's disproof, published in Tom Adamczewski's Lean repository: for
-  some divergent f, every graph whose n-vertex subgraphs become bipartite after
-  f(n) edge deletions is 3-colorable; its Lean disproof was built here.
+  GPT-6 Astra's disproof, published in Tom Adamczewski's Lean repository, shows
+  that for some divergent $f$, every graph whose $n$-vertex subgraphs become
+  bipartite after $f(n)$ edge deletions is $3$-colorable. The Lean disproof was
+  built here.
 authors:
 - Tom Adamczewski
 status: accepted
@@ -93,33 +94,39 @@ $f(n)=\sqrt n$ untouched; Rödl's positive result for $f(n)=\epsilon n$
 and Rödl's hypergraph analogue stand beside it.
 
 **Acceptance.** Formalized. This corpus's verification built the repository at
-its pinned commit (Lean `v4.28.0`, Mathlib `v4.28.0`; its default targets are
-the primary module, the five alternates, the challenge and the solution) and
-checked the axioms of `Erdos74.erdos_74.disproof` in the solution's module
-`Erdos74_118usd_22h` and in each alternate, which are exactly `propext`,
-`Classical.choice` and `Quot.sound`. The comparator challenge `Challenge.lean`
-pins that declaration together with the four `Erdos74.SimpleGraph` definitions
-its type reaches (the edge sets whose deletion leaves a subgraph bipartite, the
-least size of one, the set of those minima over the finite $n$-vertex subgraphs,
-and its supremum), and the fingerprint of the compared declaration was found
-identical to the challenge for the solution and for all five alternates. The
-statement was audited clause by clause against the problem's Statement: it is
-the exact negation of the original Formal Conjectures statement, for a
-natural-number-valued divergent $f$ (no loss, since deletion counts are
-integers), a simple graph on a vertex type in any universe, chromatic number
-$\top$ in $\mathbb N_\infty$, and the supremum over all finite $n$-vertex
-subgraphs, which equals the supremum over induced ones; the infimum and supremum
-it takes hit no junk value, and the bound applies at every $n$, as the Statement
-says. The formal evidence certifies the disproof (finite chromatic number), not
-the three-color strengthening: the compared primary proof reaches four colors;
-three colors for all graphs is proved only in modules the comparator does not
-check (`Erdos74_46usd_6h`, `Erdos74_99usd_17h`, `Erdos74_146usd_19h`), not
-audited; `Erdos74_25usd_5h` gives three colors for finite graphs only. Not
-reviewed: the site labels the problem DISPROVED (LEAN) and its curator accepts
-the headline formal resolution, but the curator submitted the site's proof claim
-themself and is a co-author of the FrontierMath Erdős paper that announces the
-result, so the curator's acceptance is not a review independent of the claimant.
-Not refereed: the site's proof-claim note calls the prose exposition
-preliminary, and the FrontierMath Erdős paper, which says that expert
-understanding of the proofs and of their relation to prior work is incomplete,
-is a preprint.
+its pinned commit, with Lean `v4.28.0` and Mathlib `v4.28.0`. The repository's
+default targets are the primary module, the five alternates, the challenge and
+the solution. The verification checked the axioms of `Erdos74.erdos_74.disproof`
+in the solution's module `Erdos74_118usd_22h` and in each alternate. They are
+exactly `propext`, `Classical.choice` and `Quot.sound`. The comparator challenge
+`Challenge.lean` pins that declaration together with the four
+`Erdos74.SimpleGraph` definitions its type reaches. These are the edge sets
+whose deletion leaves a subgraph bipartite, the least size of one, the set of
+those minima over the finite $n$-vertex subgraphs, and its supremum. The
+fingerprint of the compared declaration was found identical to the challenge for
+the solution and for all five alternates.
+
+The statement was audited clause by clause against the problem's Statement. It
+is the exact negation of the original Formal Conjectures statement. It uses a
+natural-number-valued divergent $f$, which loses nothing, since deletion counts
+are integers. It takes a simple graph on a vertex type in any universe,
+chromatic number $\top$ in $\mathbb N_\infty$, and the supremum over all finite
+$n$-vertex subgraphs, which equals the supremum over induced ones. The infimum
+and supremum it takes hit no junk value, and the bound applies at every $n$, as
+the Statement says.
+
+The formal evidence certifies the disproof (finite chromatic number), not the
+three-color strengthening. The compared primary proof reaches four colors. Three
+colors for all graphs is proved only in modules the comparator does not check
+(`Erdos74_46usd_6h`, `Erdos74_99usd_17h`, `Erdos74_146usd_19h`), and these were
+not audited. The module `Erdos74_25usd_5h` gives three colors for finite graphs
+only.
+
+Not reviewed: the site labels the problem DISPROVED (LEAN), and its curator
+accepts the headline formal resolution. But the curator submitted the site's
+proof claim themself and is a co-author of the FrontierMath Erdős paper that
+announces the result. So the curator's acceptance is not a review independent of
+the claimant. Not refereed: the site's proof-claim note calls the prose
+exposition preliminary. The FrontierMath Erdős paper is a preprint, and it says
+that expert understanding of the proofs and of their relation to prior work is
+incomplete.

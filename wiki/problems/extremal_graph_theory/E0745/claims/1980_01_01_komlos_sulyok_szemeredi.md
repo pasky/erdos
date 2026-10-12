@@ -2,10 +2,10 @@
 name: problems/extremal_graph_theory/E0745/claims/1980_01_01_komlos_sulyok_szemeredi
 title: Komlós, Sulyok and Szemerédi's logarithmic second component
 desc: |
-  Correct, but answers the supercritical case the site's label credits (edge
-  probability lambda/n with lambda > 1), not the Statement (edge probability
-  1/n), so it does not count toward the problem's standing. Komlós, Sulyok and
-  Szemerédi bound the second largest component by O(log n) there.
+  Komlós, Sulyok and Szemerédi bound the second largest component by $O(\log n)$
+  at edge probability $\lambda/n$ with $\lambda>1$, the supercritical case the
+  site's label credits. The result is correct, but the Statement has edge
+  probability $1/n$, so it does not count toward the problem's standing.
 authors: []
 status: rejected
 claim: proved

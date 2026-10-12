@@ -2,9 +2,10 @@
 name: problems/number_theory/E0981
 title: Problem 981
 desc: |
-  Asks whether the sum over primes below x of the eventual-time threshold of
-  the Legendre-symbol partial sums is roughly x over log x; proved by Elliott
-  (1969) for the two-sided threshold, the one-sided form left to his remark.
+  Asks whether $\sum_{p<x}f_\epsilon(p)\sim c_\epsilon x/\log x$, where
+  $f_\epsilon(p)$ is the least $m$ with $\sum_{n\le N}(\frac{n}{p})<\epsilon N$
+  for all $N\ge m$. Elliott (1969) proved it for the two-sided threshold, with
+  the one-sided form covered only by his remark.
 tags:
 - Number theory
 status: solved
@@ -58,31 +59,31 @@ sum over all primes; Tang and Zhang restrict to odd primes, where the
 Legendre symbol is defined; one term does not affect the asymptotic.
 
 **Status.** PROVED, the site's label (page last edited 27 December 2025),
-credited to Elliott's 1969 paper [El69]; the accepted claim page is
-[[problems/number_theory/E0981/claims/1969_01_25_elliott|Elliott 1969]],
-refereed in Indag. Math. and credited as the proof by the site's curator
-and by the introduction of a 2025 preprint (Tang and Zhang,
+credited to Elliott's 1969 paper [El69]. The accepted claim page is
+[[problems/number_theory/E0981/claims/1969_01_25_elliott|Elliott 1969]]. The
+paper was refereed in Indag. Math. It is credited as the proof by the site's
+curator and by the introduction of a 2025 preprint (Tang and Zhang,
 arXiv:2512.24631v2, p. 2: "This conjecture was proved by Elliott [4]", the
 conjecture being Erdős's display (80) restated as their Conjecture 1.1).
-The paper's theorem (printed p. 165) is the two-sided form: for each
-$\epsilon$ with
-$0<\epsilon\le1$ there is a constant $c(\epsilon)$ with
-$\pi(x)^{-1}\sum_{p\le x}g(\epsilon,p)\to c(\epsilon)$, where
-$g(\epsilon,p)$ is the least $t$ with $|S_m(p)|<\epsilon m$ for every
-$m\ge t$ (p. 164); with $\pi(x)\sim x/\log x$ this is the displayed
-asymptotic for $g$ in place of $f_\epsilon$, and $c(\epsilon)\ge1$ since
-every $g(\epsilon,p)\ge1$. The paper restates (80) as its display (1) with
-Erdős's one-sided $f(\epsilon,p)$, then replaces $f$ by $g$ and says of the
-one-sided form only that "Simple changes in the present argument yield a
-proof of a similar result for the earlier definition of $f(\epsilon,p)$"
-(p. 164); no adaptation is printed. The standing therefore rests on the
-printed theorem for the two-sided threshold, on the author's remark for the
-one-sided threshold of the page's wording, and on the readings of the site
-and of Tang and Zhang, who report having read the paper. The literal
-wording is not shown false and is not degenerate: every threshold is
-finite, the instances $\epsilon\ge1$ are established (Formulation
-above), and for $0<\epsilon<1$ the attested proof stands
-undisputed. Reopening condition: a reading that shows the announced
+
+The paper's theorem (printed p. 165) is the two-sided form. For each $\epsilon$
+with $0<\epsilon\le1$ there is a constant $c(\epsilon)$ with
+$\pi(x)^{-1}\sum_{p\le x}g(\epsilon,p)\to c(\epsilon)$. Here $g(\epsilon,p)$ is
+the least $t$ with $|S_m(p)|<\epsilon m$ for every $m\ge t$ (p. 164). With
+$\pi(x)\sim x/\log x$ this is the displayed asymptotic for $g$ in place of
+$f_\epsilon$, and $c(\epsilon)\ge1$ since every $g(\epsilon,p)\ge1$. The paper
+restates (80) as its display (1) with Erdős's one-sided $f(\epsilon,p)$, then
+replaces $f$ by $g$. Of the one-sided form it says only that "Simple changes in
+the present argument yield a proof of a similar result for the earlier
+definition of $f(\epsilon,p)$" (p. 164). No adaptation is printed.
+
+The standing therefore rests on three things. These are the printed theorem for
+the two-sided threshold, the author's remark for the one-sided threshold of the
+page's wording, and the readings of the site and of Tang and Zhang, who report
+having read the paper. The literal wording is not shown false and is not
+degenerate. Every threshold is finite, the instances $\epsilon\ge1$ are
+established (Formulation above), and for $0<\epsilon<1$ the attested proof
+stands undisputed. Reopening condition: a reading that shows the announced
 adaptation to the one-sided threshold fails, or a dispute of the theorem.
 
 **Source.** [erdosproblems.com/981](https://www.erdosproblems.com/981),

@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0961
 title: Problem 961
 desc: |
-  Estimates the least n such that every set of n consecutive integers above k
-  contains one divisible by a prime greater than k; open between a Rankin-type
-  prime-gap bound and k over log k times iterated logarithms.
+  Asks for an estimate of the least $n$ such that every run of $n$ consecutive
+  integers above $k$ contains one divisible by a prime greater than $k$; open,
+  between a Rankin-type prime-gap lower bound and $k/\log k$ times iterated
+  logarithms.
 tags:
 - Number theory
 status: open
@@ -41,25 +42,28 @@ prime factor of a binomial coefficient; the equivalence is the site's
 remark and is not made precise here.
 
 **Status.** Open. The site labels the problem OPEN (page last edited 3 April
-2026). No source determines the order of $f(k)$; what is in hand is a two-sided
-bound with a large gap. Upper bounds: $f(k)\le k$ (Sylvester--Schur, reproved by
+2026). No source determines the order of $f(k)$. What is in hand is a two-sided
+bound with a large gap.
+
+There are three upper bounds, and each is an accepted partial claim on its
+journal publication. The first is $f(k)\le k$ (Sylvester--Schur, reproved by
 Erdős in 1934;
-[[problems/integer_sequences/E0961/claims/1934_10_01_erdos|claim page]]),
-$f(k)\le c_1k/\log k$ (Erdős 1955, Theorem 1; Erdős's 1976 survey restates it as
-$f(k)<3k/\log k$;
-[[problems/integer_sequences/E0961/claims/1955_01_01_erdos|claim page]]), and
-$f(k)<c_1k\log\log\log k/(\log k\log\log k)$, the bound the site credits to
-Jutila [Ju74] and Ramachandra and Shorey [RaSh73], whose papers are not held
-here: it is quoted from Erdős's 1976 survey, which attributes it jointly to
-Jutila, Ramachandra and Shorey, and from the site
+[[problems/integer_sequences/E0961/claims/1934_10_01_erdos|claim page]]). The
+second is $f(k)\le c_1k/\log k$ (Erdős 1955, Theorem 1), which Erdős's 1976
+survey restates as $f(k)<3k/\log k$
+([[problems/integer_sequences/E0961/claims/1955_01_01_erdos|claim page]]). The
+third is $f(k)<c_1k\log\log\log k/(\log k\log\log k)$, which the site credits to
+Jutila [Ju74] and to Ramachandra and Shorey [RaSh73]. Their papers are not held
+here. The bound is quoted from the site and from Erdős's 1976 survey, which
+attributes it jointly to Jutila, Ramachandra and Shorey
 ([[problems/integer_sequences/E0961/claims/1973_01_01_jutila_ramachandra_shorey|claim page]]).
-Each bound is an accepted partial claim on its journal publication. Lower bound:
-from Rankin's prime-gap theorem, Erdős's 1955 display (3),
-$f(k)>c_3\log k\log\log k\log\log\log\log k/(\log\log\log k)^2$. Erdős expected
-$f(k)=o(k^\epsilon)$ and probably at most a power of $\log k$ (1976), and
-guessed $f(k)=(1+o(1))(\log k)^2$ on Cramér's conjecture (1955). No later source
-improving either bound was found in the search whose scope
-the Current assessment records; this is a bounded negative finding, not a
+
+The lower bound comes from Rankin's prime-gap theorem. It is Erdős's 1955
+display (3), $f(k)>c_3\log k\log\log k\log\log\log\log k/(\log\log\log k)^2$.
+Erdős expected $f(k)=o(k^\epsilon)$, and probably at most a power of $\log k$
+(1976). On Cramér's conjecture he guessed $f(k)=(1+o(1))(\log k)^2$ (1955). No
+later source improving either bound was found in the search whose scope the
+Current assessment records. This is a bounded negative finding, not a
 certificate of openness.
 
 **Source.** [erdosproblems.com/961](https://www.erdosproblems.com/961),

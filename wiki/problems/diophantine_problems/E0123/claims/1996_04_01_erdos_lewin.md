@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0123/claims/1996_04_01_erdos_lewin
 title: Erdős and Lewin's six d-complete triples
 desc: |
-  Erdős and Lewin's refereed proof (Math. Comp. 1996) that the products of
-  powers of 2, 5 and p are d-complete for each prime p from 7 to 19, and those
-  of 3, 5 and 7 as well: the problem's first settled cases.
+  Erdős and Lewin prove in a refereed paper (Math. Comp. 1996) that the products
+  of powers of 2, 5 and $p$ are $d$-complete for each prime $p$ from 7 to 19, as
+  are those of 3, 5 and 7. These are the problem's first settled cases.
 authors:
 - P. Erdős
 - M. Lewin

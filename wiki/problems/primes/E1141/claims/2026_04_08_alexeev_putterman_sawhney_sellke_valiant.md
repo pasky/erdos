@@ -2,9 +2,9 @@
 name: problems/primes/E1141/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant
 title: Only finitely many n with every n minus a k squared prime
 desc: |
-  Theorem 6.1 of Alexeev, Putterman, Sawhney, Sellke and Valiant: for each
-  fixed a at least 1 only finitely many n have n minus a k squared prime for
-  every k coprime to n with a k squared below n; a = 1 answers Problem 1141.
+  Theorem 6.1 of Alexeev, Putterman, Sawhney, Sellke and Valiant states that,
+  for each fixed $a\ge1$, only finitely many $n$ have $n-ak^2$ prime for every
+  $k$ coprime to $n$ with $ak^2<n$. The case $a=1$ answers Problem 1141.
 authors:
 - Boris Alexeev
 - Moe Putterman

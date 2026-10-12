@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0714/claims/1954_01_01_kovari_sos_turan
 title: Kővári, Sós and Turán's Zarankiewicz asymptotic, the case r = 2
 desc: |
-  Kővári, Sós and Turán prove that the least number of ones in an n by n 0-1
-  matrix forcing a 2 by 2 minor of ones is asymptotic to n^{3/2}, which gives
-  ex(n;K_{2,2}) >> n^{3/2}, the case r = 2; refereed in Colloq. Math. 3 (1954).
+  In a refereed paper in Colloq. Math. 3 (1954), Kővári, Sós and Turán prove
+  that the least number of ones in an $n\times n$ 0-1 matrix that forces a
+  $2\times2$ minor of ones is asymptotic to $n^{3/2}$. This gives
+  $\mathrm{ex}(n;K_{2,2})\gg n^{3/2}$, the case $r=2$.
 authors:
 - T. Kővári
 - V. T. Sós
@@ -63,5 +64,5 @@ are the paper's, and the matrix-to-graph step is elementary.
 **Acceptance.** Refereed: Colloquium Mathematicum, a refereed journal. No
 `reviewed` evidence is listed: the site labels the problem OPEN, and its
 commentary names the paper for the upper bound only. This corpus supplies no
-independent proof review: the statements (1.3), (1.5), (3.1) and (6.1) are
-checked against the print, and the Section 5 construction's proof is not.
+independent proof review. The statements (1.3), (1.5), (3.1) and (6.1) are
+checked against the print, but the proof of the Section 5 construction is not.

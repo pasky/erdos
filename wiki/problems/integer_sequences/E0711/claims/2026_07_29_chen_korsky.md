@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0711/claims/2026_07_29_chen_korsky
 title: Chen and Korsky's bounds on the longest interval
 desc: |
-  Chen and Korsky's preprint (v1 by Chen, 29 July 2026) bounds F(n) = max_m
-  f(n,m) between n exp((log 2/2 - o(1)) log n/log log n) and n^(4/3+o(1)),
-  which with Erdős–Pomerance gives Problem 711's comparison; unreviewed.
+  Chen and Korsky's unreviewed preprint (v1 by Chen, 29 July 2026) bounds
+  $F(n)=\max_mf(n,m)$ between
+  $n\exp((\frac{\log2}2-o(1))\frac{\log n}{\log\log n})$ and $n^{4/3+o(1)}$.
+  With Erdős–Pomerance, this gives Problem 711's comparison.
 authors:
 - Kaizhe Chen
 - Samuel Korsky

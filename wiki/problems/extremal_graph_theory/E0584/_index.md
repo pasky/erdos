@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0584
 title: Problem 584
 desc: |
-  Asks whether every graph on n vertices with edge density delta, allowed to
-  shrink as a power of n, contains dense subgraphs in which any two edges lie
-  together on a short cycle.
+  Asks whether every graph on $n$ vertices with $\delta n^2$ edges, where
+  $\delta$ may shrink as a power of $n$, contains dense subgraphs in which any
+  two edges lie together on a short cycle.
 tags:
 - Graph theory
 - Cycles
@@ -50,27 +50,29 @@ of $c$ bounded away from $0$ settles nothing, and the page records such
 results without claim pages. The fixed-$\delta$ reading is recorded beside it.
 
 **Status.** Open, the site's label (OPEN), for a statement that no finite
-computation can settle; page last edited 22 January 2026. Under the reading the
-Formulation adopts, the first clause with $\delta^3$ is proved for no $c>0$, and
-only with $\delta^5$ in place of $\delta^3$ for every $0<c<1/2$ (Duke, Erdős and
-Rödl 1984, Theorem 3), while the second clause is proved for every $c<1/5$
+computation can settle. The page was last edited 22 January 2026. Under the
+reading the Formulation adopts, the first clause with $\delta^3$ is proved for
+no $c>0$. It is proved only with $\delta^5$ in place of $\delta^3$, for every
+$0<c<1/2$ (Duke, Erdős and Rödl 1984, Theorem 3). The $\delta^3$ version of the
+first clause has been open since 1984. The second clause is proved for every
+$c<1/5$
 ([[problems/extremal_graph_theory/E0584/claims/2007_06_13_fox_sudakov|Fox--Sudakov 2008]],
-refereed) and claimed for every $c\le1/3$ by a 2026 preprint announced on the
-thread [Li26]
-([[problems/extremal_graph_theory/E0584/claims/2026_06_02_li|Li 2026]]); the
-$\delta^3$ version of the first clause has been open since 1984. Under the
-fixed-$\delta$ reading both clauses are answered: the first by Duke and Erdős's
-Corollary 1 (1982), with the cubic dependence only as a remark of 1984, and the
-second by a result Duke, Erdős and Rödl state without proof in their 1992 paper
-[DER92], whose proof Fox and Sudakov attribute to a 1991 proceedings paper
-[DER91] that is not held. Three results concern ranges of $c$ bounded away from
-$0$ and settle no instance of the adopted question: Fox and Sudakov's remark
-that the second clause fails for $\beta$ close to $1$, the girth-10
-counterexamples of a note of 21 April 2026 posted on the thread [Ch26], which
-fail it for every $4/5<\beta<1$, and the obstruction of [Li26] to the first
-clause for $\delta=n^{-\beta}$, $1/3\le\beta<1/2$. They are recorded in the
-Current assessment and have no claim pages; no result settles the first clause,
-so the standing derives as open.
+refereed). A 2026 preprint announced on the thread [Li26] claims it for every
+$c\le1/3$
+([[problems/extremal_graph_theory/E0584/claims/2026_06_02_li|Li 2026]]). Under
+the fixed-$\delta$ reading, both clauses are answered. The first is answered by
+Duke and Erdős's Corollary 1 (1982), with the cubic dependence only as a remark
+of 1984. The second is answered by a result Duke, Erdős and Rödl state without
+proof in their 1992 paper [DER92]. Fox and Sudakov attribute its proof to a 1991
+proceedings paper [DER91], which is not held. Three results concern ranges of
+$c$ bounded away from $0$ and settle no instance of the adopted question. The
+first is Fox and Sudakov's remark that the second clause fails for $\beta$ close
+to $1$. The second is the girth-10 counterexamples of a note of 21 April 2026
+posted on the thread [Ch26], which fail it for every $4/5<\beta<1$. The third is
+the obstruction of [Li26] to the first clause for $\delta=n^{-\beta}$,
+$1/3\le\beta<1/2$. These three are recorded in the Current assessment and have
+no claim pages. No result settles the first clause, so the standing derives as
+open.
 
 **Source.** [erdosproblems.com/584](https://www.erdosproblems.com/584),
 accessed 2026-09-17: the problem page (OPEN;

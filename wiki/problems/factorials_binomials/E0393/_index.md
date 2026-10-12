@@ -2,9 +2,8 @@
 name: problems/factorials_binomials/E0393
 title: Problem 393
 desc: |
-  Determines the behavior of the smallest spread between largest and smallest
-  factor when a factorial is written as a product of distinct increasing
-  integers.
+  Asks how $f(n)$ behaves, where $f(n)$ is the least $m\ge1$ such that
+  $n!=a_1\cdots a_t$ with $a_1<\cdots<a_t=a_1+m$.
 tags:
 - Number theory
 - Factorials
@@ -30,21 +29,21 @@ $$
 
 with $a_1<\cdots <a_t=a_1+m$. What is the behaviour of $f(n)$?
 
-**Status.** Open. The site labels the problem OPEN and credits no solution; its
+**Status.** Open. The site labels the problem OPEN and credits no solution. Its
 remarks credit Berend and Osgood, and Bui, Pratt and Zaharescu, with density and
-counting bounds for the $n$ with $f(n)=m$, and Luca, under the abc conjecture,
-with $f(n)\to\infty$. The standing derives from the claim pages: the accepted
-partial claims
+counting bounds for the $n$ with $f(n)=m$. They also credit Luca, under the abc
+conjecture, with $f(n)\to\infty$. The standing derives from the claim pages: the
+problem is `open`, with no settling or pending full claim. The accepted partial
+claims
 [[problems/factorials_binomials/E0393/claims/1992_10_01_berend_osgood|Berend and Osgood 1992]]
 and
 [[problems/factorials_binomials/E0393/claims/2022_04_18_bui_pratt_zaharescu|Bui, Pratt and Zaharescu 2023]]
-are refereed bounds on how often $f(n)$ takes a given value; the accepted
+are refereed bounds on how often $f(n)$ takes a given value. The accepted
 conditional claim
 [[problems/factorials_binomials/E0393/claims/2002_01_01_luca|Luca 2002]] and the
 pending conditional claim
 [[problems/factorials_binomials/E0393/claims/2026_05_03_turturean|Turturean 2026]]
-rest on the unproved abc conjecture and derive nothing; so the problem is `open`
-with no settling or pending full claim.
+rest on the unproved abc conjecture and derive nothing.
 
 **Source.** [erdosproblems.com/393](https://www.erdosproblems.com/393), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #393,

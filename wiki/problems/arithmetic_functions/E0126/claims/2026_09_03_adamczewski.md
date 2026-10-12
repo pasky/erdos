@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0126/claims/2026_09_03_adamczewski
 title: GPT-6 Astra square-root bound
 desc: |
-  A Lean proof by a pre-release GPT-6 Astra, in Tom Adamczewski's repository:
-  pairwise sums of n distinct naturals have at least about sqrt(n/3) distinct
-  prime factors, so f(n)/log n tends to infinity; accepted on Lean built here.
+  A pre-release GPT-6 Astra gives a Lean proof, in Tom Adamczewski's repository,
+  that the pairwise sums of $n$ distinct naturals have at least about
+  $\sqrt{n/3}$ distinct prime factors, so $f(n)/\log n\to\infty$. It is accepted
+  because the Lean proof was built here.
 authors:
 - GPT-6 Astra
 status: accepted
@@ -102,57 +103,61 @@ no priority between the two is determined.
 **Depends on.** Nothing in this wiki; the result rests on the sources linked
 above.
 
-**Acceptance.** Formalized. This corpus's verification built the repository
-at the pinned commit of 2026-09-06 (Lean `v4.28.0`, Mathlib
-`v4.28.0`; the default targets `Erdos126`, `Erdos126Alternates`, `Challenge`
-and `Solution`, every resolution compiled) and checked the axioms of
+**Acceptance.** Formalized. This corpus's verification built the repository at
+the pinned commit of 2026-09-06 (Lean `v4.28.0`, Mathlib `v4.28.0`). The default
+targets are `Erdos126`, `Erdos126Alternates`, `Challenge` and `Solution`, and
+every resolution compiled. The verification checked the axioms of
 `Erdos126.erdos_126` in the `Solution` environment, which the primary module
 `Erdos126_132usd_25h` supplies, and in each of the alternate modules
-`Erdos126_81usd_13h`, `Erdos126_104usd_15h` and `Erdos126_133usd_17h`; they
-are exactly `propext`, `Classical.choice` and `Quot.sound`. The repository's
-comparator challenge `Challenge.lean` pins that declaration with its
-predicate `Erdos126.IsMaximalAddFactorsCard`, and the fingerprint of both
-was found identical to the challenge for the solution and for all three
-alternates, which the repository's own comparator does not compare. The
-compared statement was audited clause by clause against the problem's
-Statement and is exact: for every `f : ℕ → ℕ` such that each `f n` is the
-greatest `m` with `m ≤ |S(A)|` for every `A : Finset ℕ` of cardinality `n`,
-where $S(A)$ is the set of prime factors of the product of $a+b$ over the
-ordered pairs of distinct elements of $A$, the real sequence
-`f n / Real.log n` tends to infinity. The predicate `IsGreatest` is
-satisfied by exactly one $f$, since the set it bounds is nonempty and
-bounded at every $n$ (the primary module proves this itself, with
-$f(0)=f(1)=0$), so the hypothesis is neither vacuous nor junk-valued; the
-product over ordered pairs lists each unordered sum twice and changes no
-prime; distinct natural numbers have a positive sum, so the product is at
-least $1$ and the junk value of `Nat.primeFactors 0` never occurs; Lean's
-`ℕ` admits $0\in A$, which can only lower $f$, by at most the shift
-$f_+(n-1)\le f(n)\le f_+(n)$ against the extremal function $f_+$ for
-positive integers, so the two limit statements are equivalent; and the junk
-values of `Real.log` and of division at $n=0$ and $n=1$ cannot affect a
-limit at infinity. The theorem asserts the answer yes outright, the
-statement Formal Conjectures gives with its `answer(True)` wrapper removed;
-the Formal Conjectures statement file (the pinned `record` link, commit of
-2026-09-18) tags it solved and names line 3053 of the primary module at the
-pinned commit, exactly the theorem line, as the formal proof. The compared
-declaration certifies the limit: the primary module's own bound,
+`Erdos126_81usd_13h`, `Erdos126_104usd_15h` and `Erdos126_133usd_17h`. They are
+exactly `propext`, `Classical.choice` and `Quot.sound`. The repository's
+comparator challenge `Challenge.lean` pins that declaration with its predicate
+`Erdos126.IsMaximalAddFactorsCard`. The fingerprint of both was found identical
+to the challenge for the solution and for all three alternates, which the
+repository's own comparator does not compare.
+
+The compared statement was audited clause by clause against the problem's
+Statement and is exact. It says: for every `f : ℕ → ℕ` such that each `f n` is
+the greatest `m` with `m ≤ |S(A)|` for every `A : Finset ℕ` of cardinality `n`,
+the real sequence `f n / Real.log n` tends to infinity. Here $S(A)$ is the set
+of prime factors of the product of $a+b$ over the ordered pairs of distinct
+elements of $A$. The predicate `IsGreatest` is satisfied by exactly one $f$,
+since the set it bounds is nonempty and bounded at every $n$. The primary module
+proves this itself, with $f(0)=f(1)=0$. So the hypothesis is neither vacuous nor
+junk-valued. The product over ordered pairs lists each unordered sum twice,
+which changes no prime. Distinct natural numbers have a positive sum, so the
+product is at least $1$ and the junk value of `Nat.primeFactors 0` never occurs.
+Lean's `ℕ` admits $0\in A$. This can only lower $f$, by at most the shift
+$f_+(n-1)\le f(n)\le f_+(n)$ against the extremal function $f_+$ for positive
+integers, so the two limit statements are equivalent. The junk values of
+`Real.log` and of division at $n=0$ and $n=1$ cannot affect a limit at infinity.
+
+The theorem asserts the answer yes outright. This is the statement Formal
+Conjectures gives, with its `answer(True)` wrapper removed. The Formal
+Conjectures statement file (the pinned `record` link, commit of 2026-09-18) tags
+it solved. It names line 3053 of the primary module at the pinned commit as the
+formal proof, and that is exactly the theorem line.
+
+The compared declaration certifies the limit. The primary module's own bound,
 $|A|\le1024(|S(A)|+1)^8$ for positive $A$, gives only $f(n)\gg n^{1/8}$. The
 square-root bound this page states, $|A|\le3|S(A)|^2+2$ for every finite
-$A\subseteq\mathbb N_0$, is the theorem `Erdos126Arithmetic.quadraticBound`
-of the alternate module `Erdos126_104usd_15h`, whose proof of `erdos_126`
-applies it and passed the axiom check; its statement was read and judged
-faithful, but no challenge compares it, so the square-root bound is
+$A\subseteq\mathbb N_0$, is the theorem `Erdos126Arithmetic.quadraticBound` of
+the alternate module `Erdos126_104usd_15h`. That module's proof of `erdos_126`
+applies it and passed the axiom check. The statement of the bound was read and
+judged faithful, but no challenge compares it. So the square-root bound is
 formally checked in that module without a challenge. The repository's public CI
 run on the pinned commit (the first `record` link), dated 2026-09-06, reported a
 successful build and comparison of the primary module against the limit
-statement. Not reviewed: the site labels the problem PROVED (LEAN) (its export
-of 2026-09-04 printed PROVED (FORMALIZED)) and its commentary, last edited
-2026-09-03, credits the proof to GPT-6 Astra, but the curator submitted the
-site's proof claim directly and is a co-author of the FrontierMath Erdős paper
-that announces the result, so that credit is not a review independent of the
-claimant; the site's proof-claims tab states that appearing on it is no
-guarantee of correctness and does not mean that anyone associated with the site
-has examined the proof, and no outside reviewer has published an examination.
-Not refereed: there is no journal publication; the exposition is a placeholder
-that GPT generated from the Lean proof at the curator's request, and the
-FrontierMath Erdős paper is a preprint.
+statement.
+
+Not reviewed: the site labels the problem PROVED (LEAN), and its export of
+2026-09-04 printed PROVED (FORMALIZED). Its commentary, last edited 2026-09-03,
+credits the proof to GPT-6 Astra. But the curator submitted the site's proof
+claim directly and is a co-author of the FrontierMath Erdős paper that announces
+the result. So that credit is not a review independent of the claimant. The
+site's proof-claims tab states that appearing on it is no guarantee of
+correctness and does not mean that anyone associated with the site has examined
+the proof. No outside reviewer has published an examination. Not refereed: there
+is no journal publication. The exposition is a placeholder that GPT generated
+from the Lean proof at the curator's request, and the FrontierMath Erdős paper
+is a preprint.

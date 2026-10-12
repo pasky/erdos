@@ -2,9 +2,9 @@
 name: problems/analysis/E0256/claims/1996_12_01_belov_konyagin
 title: Belov and Konyagin's polylogarithmic upper bound
 desc: |
-  The 1996 Izvestiya paper of Belov and Konyagin proving log f(n) << (log n)^4
-  for the least maximum modulus of an Erdős–Szekeres product, which answers no
-  to the question whether log f(n) >> n^c for some c > 0.
+  The 1996 Izvestiya paper of Belov and Konyagin proves $\log f(n)\ll(\log n)^4$
+  for the least maximum modulus of an Erdős–Szekeres product. This answers no to
+  the question whether $\log f(n)\gg n^c$ for some $c>0$.
 authors:
 - A. S. Belov
 - S. V. Konyagin
@@ -53,10 +53,10 @@ settled: the bounds in force are $2\sqrt n\le f(n)\le\exp(C(\log n)^4)$.
 **Depends on.** Nothing in this wiki: the bound is the paper's own.
 
 **Acceptance.** Refereed: a journal publication, Izvestiya: Mathematics 60
-(1996), no. 6, the DOIs linked above (the translation's record dates the issue
-to 31 December 1996, and the page is named by the issue month, December 1996,
-filled to the first of the month; the Russian original's record gives only the
-year and issue). Reviewed is not listed: the site credits the bound in its
+(1996), no. 6, at the DOIs linked above. The translation's record dates the
+issue to 31 December 1996, and the Russian original's record gives only the year
+and issue. The page is named by the issue month, December 1996, filled to the
+first of the month. Reviewed is not listed: the site credits the bound in its
 commentary on a problem it labels OPEN, which is commentary and not acceptance
-of a solution. Formalized is not listed: no Lean statement or proof of the
-bound is recorded.
+of a solution. Formalized is not listed: no Lean statement or proof of the bound
+is recorded.

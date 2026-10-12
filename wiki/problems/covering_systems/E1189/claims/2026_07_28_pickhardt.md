@@ -2,9 +2,10 @@
 name: problems/covering_systems/E1189/claims/2026_07_28_pickhardt
 title: Pickhardt claims the count, extreme moduli and reciprocal sum
 desc: |
-  Jeff Pickhardt's 2026 manuscript with the Omniscience agent, since renamed
-  Paratelligent, claiming the count, the least and greatest largest modulus
-  and the reciprocal sum, with Sun's divisor family; no review.
+  Jeff Pickhardt's 2026 manuscript, written with the Omniscience agent (since
+  renamed Paratelligent), claims the count of irreducible covering sets of size
+  $k$, the least and greatest largest modulus, and the largest reciprocal sum.
+  It also restates Sun's divisor family and has had no review.
 authors:
 - Paratelligent Research Agent
 - Jeff Pickhardt

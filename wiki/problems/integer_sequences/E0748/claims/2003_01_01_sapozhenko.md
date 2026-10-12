@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0748/claims/2003_01_01_sapozhenko
 title: Sapozhenko's independent proof of the Cameron-Erdős conjecture
 desc: |
-  Sapozhenko proves, independently of Green, that the number of sum-free
-  subsets of the first n integers is of order 2 to the n/2, with the same
-  two-valued asymptotic; a Doklady note of 2003, in full in Discrete Math. 2008.
+  Sapozhenko proves, independently of Green, that the number of sum-free subsets
+  of $\{1,\ldots,n\}$ is of order $2^{n/2}$, with the same two-valued
+  asymptotic. The result appeared as a Doklady note in 2003 and in full in
+  Discrete Math. in 2008.
 authors:
 - Alexander A. Sapozhenko
 status: accepted
@@ -44,18 +45,20 @@ commentary attributes both the bound and the asymptotic to both papers.
 
 **Acceptance.** Refereed: the full version appeared in Discrete Mathematics, a
 refereed journal, volume 308, issue 19, pages 4361--4369, in the issue of
-October 2008 (per the Crossref record of DOI 10.1016/j.disc.2007.08.103,
-created 31 October 2007); the Doklady note of 2003, which the site cites by
-volume and pages, announced the result in Doklady Akademii Nauk, also a
-refereed journal. Reviewed: the site's curator, Thomas Bloom, who is
-independent of the author, labels the problem PROVED, and his commentary (as
-accessed 2026-09-05 and 2026-10-07, the discussion thread and the proof-claim
-tab empty at both) credits the result to Green and Sapozhenko independently.
-Neither paper is held in this repository and neither was read; the statement
-on this page is taken from the site's commentary and from bibliographic
-records (the Crossref record of the 2008 paper, zbMATH and the problem's
-encyclopedia entry, which give the note's issue number). This page rests on no
-review of its own.
+October 2008 (per the Crossref record of DOI 10.1016/j.disc.2007.08.103, created
+31 October 2007). The Doklady note of 2003, which the site cites by volume and
+pages, announced the result in Doklady Akademii Nauk, also a refereed journal.
+
+Reviewed: the site's curator, Thomas Bloom, who is independent of the author,
+labels the problem PROVED. His commentary credits the result to Green and
+Sapozhenko independently. The commentary was accessed 2026-09-05 and 2026-10-07,
+and the discussion thread and the proof-claim tab were empty both times.
+
+Neither paper is held in this repository, and neither was read. The statement on
+this page is taken from the site's commentary and from bibliographic records:
+the Crossref record of the 2008 paper, zbMATH, and the problem's encyclopedia
+entry, which give the note's issue number. This page rests on no review of its
+own.
 
 **Formalization.** Boris Alexeev's lean-proofs repository holds
 [Erdos748.lean](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos748.lean#L1228),

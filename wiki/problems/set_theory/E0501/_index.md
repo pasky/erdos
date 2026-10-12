@@ -2,9 +2,10 @@
 name: problems/set_theory/E0501
 title: Problem 501
 desc: |
-  Asks whether bounded sets of outer measure below one assigned to the reals
-  leave an infinite set no member of which lies in another's set (independent
-  of ZFC), and whether closed sets of measure below one leave three (proved).
+  Asks whether, if each real $x$ is assigned a bounded set $A_x$ of outer
+  measure $<1$, some infinite $X$ has $x\notin A_y$ for all distinct $x,y\in X$
+  (independent of ZFC), and whether closed $A_x$ of measure $<1$ give such an
+  $X$ of size $3$ (proved).
 tags:
 - Combinatorics
 - Set theory
@@ -34,44 +35,52 @@ Must there exist an infinite independent set, that is, some infinite $X\subseteq
 If the sets $A_x$ are closed and have measure $<1$, then must there exist an
 independent set of size $3$?
 
-**Status.** The site labels the problem NOT DISPROVABLE, a label which composes
-the two questions' outcomes by the catalog's rule (the strongest status holding
-of every part). The two questions have different outcomes. Second question:
-proved, by Newelski–Pawlikowski–Seredyński 1987, Corollary (1): closed sets of
-measure $<1$ admit an infinite independent set, hence one of size $3$
-(refereed). First question: independent of ZFC relative to
-$\mathrm{Con}(\mathrm{ZFC})$. The negative answer holds under CH, by the
-countable, null, bounded construction the site attributes to Hechler [He72],
-written out in both 2026 notes, and CH holds in Gödel's constructible universe,
-so ZFC does not prove the positive answer if ZFC is consistent (the not-provable
-side). The positive answer holds after adding $\omega_2$ random reals to any
-model of CH (E. Glazer, draft rev10 of 2026-08-16, self-published, Theorem 1.1
-and Corollary 1.2 [Gla26]), so ZFC does not refute it if ZFC is consistent (the
-not-disprovable side); earlier, S. Lee proved the positive answer from a full
-extension of Lebesgue measure [Lee26], which gives independence relative to a
-measurable cardinal. The reviewed evidence supporting Glazer's accepted claim is
-the erdosproblems.com editorial adoption of 2026-09-03, which credits Glazer
-with the independence; the community database change merged 2026-09-18
-(teorth/erdosproblems pull request #400, with the maintainers' recorded
-reasoning) is its context. Neither 2026 result is refereed. The author's public
-Lean 4 development (github.com/elliotglazer/erdos501) is an unaudited
-formalization, a link on the claim pages and not acceptance evidence. Taken as
-the status of the conjunction, the exact statement would be independent (the
-conjunction is ZFC-equivalent to the first question). The frontmatter lists the
-two questions as the problem's parts, and each is settled by an accepted claim
-page recording the result and its acceptance evidence:
+**Status.** The site labels the problem NOT DISPROVABLE. This label composes the
+outcomes of the two questions by the catalog's rule (the strongest status
+holding of every part). The two questions have different outcomes.
+
+The frontmatter lists the two questions as the problem's parts. Each is settled
+by an accepted claim page that records the result and its acceptance evidence.
 [[problems/set_theory/E0501/claims/2026_08_16_glazer|Glazer's claim]] settles
-the first question (independent) and
+the first question (independent), and
 [[problems/set_theory/E0501/claims/1987_06_01_newelski_pawlikowski_seredynski|the Newelski–Pawlikowski–Seredyński claim]]
-the second (proved);
+settles the second (proved).
 [[problems/set_theory/E0501/claims/1972_01_01_hechler|Hechler's claim]] settles
-the first question's not-provable side, which Glazer's claim also carries, and
+the not-provable side of the first question. Glazer's claim also carries that
+side.
 [[problems/set_theory/E0501/claims/2026_05_29_lee|Lee's conditional claim]]
 settles neither question alone. The standing in the frontmatter derives from
-them: `solved`, with the claim value `answered`, the schema's value when the
-accepted parts have different outcomes. It departs from NOT DISPROVABLE because
-the corpus records each question's settled outcome as a part, where the site's
-label composes the two outcomes into the strongest status that holds of both.
+these pages: `solved`, with the claim value `answered`, which is the schema's
+value when the accepted parts have different outcomes. It departs from NOT
+DISPROVABLE because the corpus records each question's settled outcome as a
+part, while the site's label composes the two outcomes into the strongest status
+that holds of both. Taken as the status of the conjunction, the exact statement
+would be independent, since the conjunction is ZFC-equivalent to the first
+question.
+
+First question: independent of ZFC relative to $\mathrm{Con}(\mathrm{ZFC})$. The
+negative answer holds under CH, by the countable, null, bounded construction
+that the site attributes to Hechler [He72]. Both 2026 notes write this
+construction out. CH holds in Gödel's constructible universe, so if ZFC is
+consistent, ZFC does not prove the positive answer (the not-provable side). The
+positive answer holds after adding $\omega_2$ random reals to any model of CH
+(E. Glazer, draft rev10 of 2026-08-16, self-published, Theorem 1.1 and Corollary
+1.2 [Gla26]). So if ZFC is consistent, ZFC does not refute it (the
+not-disprovable side). Earlier, S. Lee proved the positive answer from a full
+extension of Lebesgue measure [Lee26], which gives independence relative to a
+measurable cardinal. Neither 2026 result is refereed.
+
+Second question: proved, by Newelski–Pawlikowski–Seredyński 1987, Corollary (1).
+Closed sets of measure $<1$ admit an infinite independent set, hence one of size
+$3$. This result is refereed.
+
+The reviewed evidence supporting Glazer's accepted claim is the
+erdosproblems.com editorial adoption of 2026-09-03, which credits Glazer with
+the independence. Its context is the community database change merged 2026-09-18
+(teorth/erdosproblems pull request #400, with the maintainers' recorded
+reasoning). The author's public Lean 4 development
+(github.com/elliotglazer/erdos501) is an unaudited formalization. It is a link
+on the claim pages, not acceptance evidence.
 
 **Source.** [erdosproblems.com/501](https://www.erdosproblems.com/501),
 accessed 2026-09-27 (label NOT DISPROVABLE, the site's label for a

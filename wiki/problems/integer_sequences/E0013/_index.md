@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0013
 title: Problem 13
 desc: |
-  Asks whether a subset of the first N integers with no element dividing the
-  sum of two larger elements has size at most N over 3 plus a constant;
-  proved by Bedert in 2023, with the ceiling of N over 3 exact for large N.
+  Asks whether a subset of $\{1,\ldots,N\}$ with no element dividing the sum of
+  two larger elements has size at most $N/3+O(1)$. Bedert proved it in 2023 and
+  showed that $\lceil N/3\rceil$ is the exact bound for large $N$.
 tags:
 - Number theory
 status: solved
@@ -55,19 +55,18 @@ the example $x(1-1/r)\le a_i\le x$, a form that is inconsistent for $r=2$ (see
 the 1992 card), so the site's $N/(r+1)$ is taken as the intended reading.
 
 **Status.** PROVED (LEAN). Bedert's Theorem 1 (2023) gives an absolute constant
-$C$ with $|A|\le N/3+C$ for every $N$ and every $A\subseteq\{1,\ldots,N\}$
-with property P, and his Theorem 2 gives $|A|\le\lceil N/3\rceil$ for all
-sufficiently large $N$, sharp for the set $\{\lfloor2N/3\rfloor+1,\ldots,N\}$.
-The status-defining source is an arXiv preprint (v1, 17 January 2023);
-Thomas Bloom, the site's curator, accepted it as the resolution, naming
-Bedert's paper in the commentary as the proof that the answer is yes, the
-formal-conjectures collection marks the statement `research solved`, and an
-outside Lean proof of the $N/3+C$ statement, not built here, is linked from
-the claim page. The claim page
+$C$ with $|A|\le N/3+C$ for every $N$ and every $A\subseteq\{1,\ldots,N\}$ with
+property P. His Theorem 2 gives $|A|\le\lceil N/3\rceil$ for all sufficiently
+large $N$, which is sharp for the set $\{\lfloor2N/3\rfloor+1,\ldots,N\}$. The
+status-defining source is an arXiv preprint (v1, 17 January 2023). Thomas Bloom,
+the site's curator, accepted it as the resolution. He named Bedert's paper in
+the commentary as the proof that the answer is yes. The formal-conjectures
+collection marks the statement `research solved`. An outside Lean proof of the
+$N/3+C$ statement, not built here, is linked from the claim page. The claim page
 [[problems/integer_sequences/E0013/claims/2023_01_17_bedert|Bedert 2023]]
-records the acceptance with this preprint qualification. The site's
-(LEAN) suffix is a catalog label explained under Formalization and the
-Lean label below.
+records the acceptance with this preprint qualification. The site's (LEAN)
+suffix is a catalog label, explained under Formalization and the Lean label
+below.
 
 **Source.** [erdosproblems.com/13](https://www.erdosproblems.com/13), accessed
 2026-09-18: the problem page (labeled PROVED (LEAN), with the site's standard

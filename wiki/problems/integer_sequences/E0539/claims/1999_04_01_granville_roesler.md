@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0539/claims/1999_04_01_granville_roesler
 title: "Granville and Roesler: the bounds of order one half and two thirds"
 desc: |
-  Theorem 2 of the 1999 Monthly paper: m^{1/2} <= h(m) and h(m) is at most
-  about (3/2)(2m)^{2/3}, the lower bound by a pairing argument credited to
-  Erdős and Szemerédi, the upper by the Freiman–Lev sets; refereed.
+  Theorem 2 of Granville and Roesler's refereed 1999 Monthly paper shows that
+  $m^{1/2}\le h(m)$ and that $h(m)$ is at most about $(3/2)(2m)^{2/3}$. The
+  lower bound, by a pairing argument, is credited to Erdős and Szemerédi, and
+  the upper bound uses the Freiman–Lev sets.
 authors:
 - A. Granville
 - F. Roesler
@@ -72,13 +73,12 @@ class of sets and settles no instance of the question.
 **Depends on.** No page of this wiki: the pairing argument is complete as
 printed, and the count for the Freiman--Lev sets is the paper's own.
 
-**Acceptance.** Refereed: the paper is a journal publication in the
-American Mathematical Monthly, volume 106, issue 4 (April 1999), the
-`refereed` evidence; the issue carries no day, so this page is dated to
-the first day of that month. The site's curator, Thomas Bloom, credits the
-two bounds to Erdős and Szemerédi and to Freiman and Lev and points to
-this paper for their proofs, but the site labels the problem OPEN, so that
-credit is not `reviewed` evidence. The paper's statements are checked
-against the text; the proof of Theorem 1 (p. 4) and the Freiman--Lev count
-are not checked by this corpus, and nothing is independently reviewed by
-this project.
+**Acceptance.** Refereed: the paper is a journal publication in the American
+Mathematical Monthly, volume 106, issue 4 (April 1999). This is the `refereed`
+evidence. The issue carries no day, so this page is dated to the first day of
+that month. The site's curator, Thomas Bloom, credits the two bounds to Erdős
+and Szemerédi and to Freiman and Lev, and points to this paper for their proofs.
+But the site labels the problem OPEN, so that credit is not `reviewed` evidence.
+The paper's statements are checked against the text. This corpus has not checked
+the proof of Theorem 1 (p. 4) or the Freiman--Lev count, and nothing is
+independently reviewed by this project.

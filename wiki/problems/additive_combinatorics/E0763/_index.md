@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0763
 title: Problem 763
 desc: |
-  Asks whether a set of naturals can have its count of representations as a
-  sum of two elements, summed up to N, equal to cN plus O(1) for a constant
-  c > 0.
+  Asks whether, for some set $A$ of naturals and some $c>0$, the number of
+  representations of $n$ as a sum of two elements of $A$, summed over $n\le N$,
+  equals $cN+O(1)$.
 tags:
 - Number theory
 - Additive combinatorics
@@ -30,21 +30,22 @@ $$
 $$
 
 **Status.** The site labels the problem DISPROVED. The status-defining source is
-Theorem 1 of Erdős and Fuchs (J. London Math. Soc. 31 (1956), 67--73, refereed):
-for no sequence and no $c>0$ does the number of pairs with $a_i+a_j\le n$ equal
-$cn+o(n^{1/4}(\log n)^{-1/2})$, so a bounded error term is impossible and the
-answer is no (the 1954 technical-report printing of the paper, the copy read,
-states the theorem with the weaker exponent $-1/2-\varepsilon$; see References).
-Montgomery and Vaughan [MoVa90], after unpublished work of Jurkat, extended the
-impossibility to an error term $o(N^{1/4})$, which answers the question on its
-own. The claim pages are
+Theorem 1 of Erdős and Fuchs (J. London Math. Soc. 31 (1956), 67--73, refereed).
+It shows that for no sequence and no $c>0$ does the number of pairs with
+$a_i+a_j\le n$ equal $cn+o(n^{1/4}(\log n)^{-1/2})$. So a bounded error term is
+impossible, and the answer is no. The copy read is the 1954 technical-report
+printing of the paper, which states the theorem with the weaker exponent
+$-1/2-\varepsilon$ (see References). Montgomery and Vaughan [MoVa90], after
+unpublished work of Jurkat, extended the impossibility to an error term
+$o(N^{1/4})$. That result answers the question on its own. The claim pages are
 [[problems/additive_combinatorics/E0763/claims/1956_01_01_erdos_fuchs|Erdős–Fuchs]]
-(accepted on the refereed publication and the site's credit), which also pins
-the 2026 Lean formalization of the bounded-error case in the lean-proofs
-repository, a development the corpus has not built, and
-[[problems/additive_combinatorics/E0763/claims/1990_01_01_montgomery_vaughan|Montgomery–Vaughan]]
-(accepted on the site's credit; the paper appeared in an edited tribute volume
-whose refereeing is not documented).
+and
+[[problems/additive_combinatorics/E0763/claims/1990_01_01_montgomery_vaughan|Montgomery–Vaughan]].
+The Erdős–Fuchs page is accepted on the refereed publication and the site's
+credit. It also pins the 2026 Lean formalization of the bounded-error case in
+the lean-proofs repository, a development the corpus has not built. The
+Montgomery–Vaughan page is accepted on the site's credit. That paper appeared in
+an edited tribute volume whose refereeing is not documented.
 
 **Source.** [erdosproblems.com/763](https://www.erdosproblems.com/763), accessed
 2026-10-07 (empty proof-claim tab; no thread posts). Cite as: T. F. Bloom,

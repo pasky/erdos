@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0134/claims/1998_01_01_erdos_gyarfas_ruszinko
 title: Erdős, Gyárfás and Ruszinkó's bound for maximum degree o(n^{1/4}/log n)
 desc: |
-  A triangle-free graph of maximum degree o(n^{1/4}/log n) reaches diameter two
-  with o(n squared) added edges, which answers the problem yes for every
-  epsilon above one quarter.
+  Erdős, Gyárfás and Ruszinkó show that a triangle-free graph of maximum degree
+  $o(n^{1/4}/\log n)$ reaches diameter two with $o(n^2)$ added edges. This
+  answers the problem yes for every $\epsilon>1/4$.
 authors:
 - Paul Erdős
 - András Gyárfás
@@ -58,9 +58,9 @@ settles.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed: the paper is published in Combinatorica. The paper
-says that its topic grew from problems Erdős and Gyárfás studied in 1995,
-special cases of which Erdős's 1997 problem paper [Er97b] mentions on p. 229
-with misprints. The site credits Erdős and Gyárfás with the narrower case of
-maximum degree $\ll\log n/\log\log n$, which [Er97b] item 7 reports without
-proof; the site's label credits Alon, so its commentary is not listed as
+says that its topic grew from problems Erdős and Gyárfás studied in 1995.
+Erdős's 1997 problem paper [Er97b] mentions special cases of these problems on
+p. 229, with misprints. The site credits Erdős and Gyárfás with the narrower
+case of maximum degree $\ll\log n/\log\log n$, which [Er97b] item 7 reports
+without proof. The site's label credits Alon, so its commentary is not listed as
 review of this result.

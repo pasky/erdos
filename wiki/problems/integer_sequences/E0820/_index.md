@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E0820
 title: Problem 820
 desc: |
-  Infinitely-often coprimality of two and three power differences, and the
-  growth of the least bases admitting a coprime pair.
+  Asks whether $\gcd(2^n-1,3^n-1)=1$ for infinitely many $n$, and how fast the
+  least bases $k<l$ with $\gcd(k^n-1,l^n-1)=1$ grow.
 tags:
 - Number theory
 status: open
@@ -118,17 +118,17 @@ $H(n)>\exp(n^{(c-\epsilon)/\log\log n})$ for infinitely many $n$ and
 $H(n)<\exp(n^{(c+\epsilon)/\log\log n})$ for all sufficiently large $n$; and
 does a similar eventual upper bound hold for $K(n)$?
 
-**Status.** Open: the site labels the problem OPEN (commentary last edited
-2 December 2025), and the corrected Statement is open. The infinitely-often
+**Status.** Open. The site labels the problem OPEN (commentary last edited 2
+December 2025), and the corrected Statement is open. The infinitely-often
 coprimality question is unresolved in the sources searched. The quantitative
 **existence** question would have an affirmative answer if the pending upper
-bound below holds, by the limit-superior argument below, which does not
-evaluate the growth constant.
-The upper bound is a partial proof claim of 16 July 2026 by Liam Price, a
-manuscript whose proof is credited to GPT 5.6 Sol Pro
-([[problems/integer_sequences/E0820/claims/2026_07_16_price|claim page]]);
-nobody has reviewed or published it, and its Lean formalization was not built
-here. It is the only proof claim on the site's thread as of 2026-10-07.
+bound below holds. This follows by the limit-superior argument below, which does
+not evaluate the growth constant. The upper bound is a partial proof claim of 16
+July 2026 by Liam Price
+([[problems/integer_sequences/E0820/claims/2026_07_16_price|claim page]]). It is
+a manuscript whose proof is credited to GPT 5.6 Sol Pro. Nobody has reviewed or
+published it, and its Lean formalization was not built here. It is the only
+proof claim on the site's thread as of 2026-10-07.
 
 **Source.** [T. F. Bloom, Erdős Problem #820](https://www.erdosproblems.com/820),
 accessed 5 September 2026, and

@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E0478
 title: Problem 478
 desc: |
-  Asks whether the number of distinct factorial residues modulo a prime is
-  asymptotically one minus one over e times the prime.
+  Asks whether, for a prime $p$, the set $A_p$ of residues $k!\bmod p$ with
+  $1\le k<p$ has $|A_p|\sim(1-1/e)p$.
 tags:
 - Number theory
 - Factorials
@@ -34,15 +34,15 @@ $$
 $$
 
 **Status.** Open. The site labels the problem OPEN (page last edited 12 April
-2026) and credits no solution; its remarks credit [GSSV24] with the best
-known lower bound $|A_p|\ge(\sqrt2-o(1))p^{1/2}$. The standing derives from
-the claim pages: the accepted partial claim
+2026) and credits no solution. Its remarks credit [GSSV24] with the best known
+lower bound $|A_p|\ge(\sqrt2-o(1))p^{1/2}$. The standing derives from the claim
+pages, which hold two partial claims. The accepted partial claim
 [[problems/factorials_binomials/E0478/claims/2022_04_03_grebennikov_sagdeev_semchankau_vasilevskii|Grebennikov, Sagdeev, Semchankau and Vasilevskii]]
-proves that bound in a refereed paper, and the pending partial claim
+proves that bound in a refereed paper. The pending partial claim
 [[problems/factorials_binomials/E0478/claims/2026_07_23_hu|Hu 2026]] is a
 manuscript with a partial Lean formalization proving $|A_p|\gg p^{8/15}$.
-Neither reaches positive density nor the asymptotic asked for, so the
-problem is `open` with no settling or pending full claim.
+Neither reaches positive density or the asymptotic asked for. So the problem is
+`open`, with no settling or pending full claim.
 
 **Source.** [erdosproblems.com/478](https://www.erdosproblems.com/478), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #478,

@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0012/claims/2026_07_30_ndikum_ndikum
 title: The Ndikums' convergence claim for the reciprocal sum
 desc: |
-  A partial proof claim of 30 July 2026 by Philip Ndikum and Serge Ndikum,
-  made with Libertas Superintelligence: every good set has a convergent
-  reciprocal sum; its Lean development rests on a declared axiom that is false.
+  A partial proof claim of 30 July 2026 by Philip Ndikum and Serge Ndikum, made
+  with Libertas Superintelligence, asserts that every good set has a convergent
+  reciprocal sum. Its Lean development rests on a declared axiom that is false.
 authors:
 - Philip Ndikum
 - Serge Ndikum

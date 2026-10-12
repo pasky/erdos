@@ -2,9 +2,10 @@
 name: problems/analysis/E0515
 title: Problem 515
 desc: |
-  Asks whether every entire nonpolynomial function has a rectifiable path to
-  infinity along which the integral of any negative power of its modulus is
-  finite.
+  Asks whether every non-polynomial entire function $f$ has a locally
+  rectifiable path $C$ to infinity with
+  $\int_C\lvert f(z)\rvert^{-\lambda}\,\mathrm{d}z$ finite for every
+  $\lambda>0$.
 tags:
 - Analysis
 status: solved
@@ -31,17 +32,16 @@ $$
 
 is finite?
 
-**Status.** Proved. The site labels the problem PROVED (page last edited
-19 October 2025) and credits Lewis, Rossi and Weitsman [LRW84] with the
-general case, after Zhang [Zh77] had settled the entire functions of
-finite order and Huber [Hu57] had found, for each fixed $\lambda$, a path
-on which that one integral is finite. The accepted claim page
+**Status.** Proved. The site labels the problem PROVED (page last edited 19
+October 2025) and credits Lewis, Rossi and Weitsman [LRW84] with the general
+case. Before them, Zhang [Zh77] had settled the entire functions of finite
+order. Huber [Hu57] had found, for each fixed $\lambda$, a path on which that
+one integral is finite. The accepted claim page
 [[problems/analysis/E0515/claims/1984_12_01_lewis_rossi_weitsman|Lewis, Rossi and Weitsman 1984]]
-records the result, on the refereed venue and the site's acceptance; the
-frontmatter standing derives from it. Zhang's finite-order case is the
-accepted partial claim
-[[problems/analysis/E0515/claims/1977_01_01_zhang|Zhang 1977]], on its
-journal publication.
+records the result, on the refereed venue and the site's acceptance. The
+frontmatter standing derives from it. Zhang's finite-order case is the accepted
+partial claim [[problems/analysis/E0515/claims/1977_01_01_zhang|Zhang 1977]], on
+its journal publication.
 
 **Source.** [erdosproblems.com/515](https://www.erdosproblems.com/515), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #515,

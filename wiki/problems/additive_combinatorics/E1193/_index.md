@@ -2,10 +2,9 @@
 name: problems/additive_combinatorics/E1193
 title: Problem 1193
 desc: |
-  Asks whether, for a set A of natural numbers and a positive non-decreasing g,
-  the set of n at which the number of representations of n as a sum of two
-  elements of A equals g(n) always has lower density 0, and upper density
-  below some c < 1.
+  Asks whether, for $A\subset\mathbb{N}$ and a positive non-decreasing $g$, the
+  set of $n$ with exactly $g(n)$ representations as a sum of two elements of $A$
+  always has lower density $0$ and upper density below some $c<1$.
 tags:
 - Additive combinatorics
 status: solved
@@ -34,18 +33,19 @@ $$
 always $0$? Is the upper density always $<c$ for some constant $c<1$?
 
 **Status.** SOLVED (LEAN). The answer to both questions is no as the statement
-stands, since $A=\mathbb N$ and $g(n)=n+1$ make the set in question all of
+stands. Take $A=\mathbb N$ and $g(n)=n+1$. Then the set in question is all of
 $\mathbb N$, of density $1$, so neither conjectured bound holds. The derived
 standing therefore records a disproof rather than the plain answer the site's
-label carries: both questions ask whether a bound always holds, and the
+label carries. Both questions ask whether a bound always holds, and the
 counterexample refutes each. The counterexample was posted on the site's thread
-on 2026-04-13 with a Lean file and adopted in the site's commentary, which
-presumes that Erdős intended restrictions on $g$ or $A$ not recorded in [Er80];
-it is recorded on
+on 2026-04-13 with a Lean file. The site's commentary adopted it, presuming that
+Erdős intended restrictions on $g$ or $A$ not recorded in [Er80]. It is recorded
+on
 [[problems/additive_combinatorics/E1193/claims/2026_04_13_monticone|its claim page]]
 and accepted on the site's documented adoption, not on any review by this
 project. The label's Lean mark refers to that file and its copy in the
 lean-proofs repository, listed on the claim page and not built here.
+
 **Source.** [erdosproblems.com/1193](https://www.erdosproblems.com/1193),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1193,
 https://www.erdosproblems.com/1193.

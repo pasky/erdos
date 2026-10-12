@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0617/claims/2026_07_21_silverstein
 title: Silverstein's computer-assisted proof of the five-color case
 desc: |
-  A write-up of 21 July 2026 claims the fixed case r = 5 of Problem 617 by a
-  one-color count: each color class needs 66 edges, five need 330 of the 325
-  edges of K_26; twelve DRAT-certified formulas; unrefereed, so claimed.
+  An unrefereed write-up by Conner Silverstein of 21 July 2026 claims the fixed
+  case $r=5$ of Problem 617 by a one-color count, with twelve DRAT-certified
+  formulas. Each color class needs $66$ edges, so five need $330$, more than the
+  $325$ edges of $K_{26}$.
 authors:
 - Conner Silverstein
 status: claimed

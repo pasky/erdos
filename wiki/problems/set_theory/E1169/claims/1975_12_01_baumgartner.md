@@ -2,9 +2,10 @@
 name: problems/set_theory/E1169/claims/1975_12_01_baumgartner
 title: Baumgartner's negative relation from a Suslin tree
 desc: |
-  Baumgartner (Israel J. Math., 1975) proves that kappa^2 -> (kappa^2, 3)^2 for
-  regular kappa implies the kappa-Souslin hypothesis, so a Suslin tree gives
-  omega_1^2 -/-> (omega_1^2, 3)^2 and ZFC does not refute the relation.
+  Baumgartner (Israel J. Math., 1975) proves that $\kappa^2\to(\kappa^2,3)^2$
+  for regular $\kappa$ implies the $\kappa$-Souslin hypothesis. So a Suslin tree
+  gives $\omega_1^2\not\to(\omega_1^2,3)^2$, and ZFC does not refute the
+  relation.
 authors:
 - James E. Baumgartner
 status: accepted

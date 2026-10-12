@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0810
 title: Problem 810
 desc: |
-  Asks whether some graph on n vertices with a positive fraction of all
-  possible edges can be edge-colored with n colors so that every four-cycle
-  gets four distinct colors.
+  Asks whether there is an $\epsilon>0$ such that, for all large $n$, some graph
+  on $n$ vertices with at least $\epsilon n^2$ edges can be edge-colored with
+  $n$ colors so that every $C_4$ gets four distinct colors.
 tags:
 - Graph theory
 - Ramsey theory
@@ -35,22 +35,22 @@ paper calls $\chi_S$ nondecreasing in $e$ on its p. 281). The 1989 authors
 expected the answer to be no. The site's source key is printed "[BEGS8,p.273]",
 a misprint of BEGS89 that the commentary's "[BEGS89]" corrects.
 
-**Status.** Open: the site labels the problem OPEN (last edited 1 April
-2026), and no source found in the search proves or refutes the statement. The
-1989 paper states without proof that $n$ colors suffice for $C_4$ at
-$e=c\,g(n;7,4)$ edges, which reaches $\epsilon n^2$ only if $g(n;7,4)$ has order
-$n^2$, itself an open question (the site's Problem 1178); its second bound, $n$
-colors at $e=c\,r_4(n)$ edges, is trivially true as printed, since $r_4(n)=o(n)$
-by Szemerédi's theorem and a graph with at most $n$ edges can give every edge
-its own color, and is probably a misprint for $e=c\,n\,r_4(n)$, on the model of
-the paper's $P_4$ bound (6.3), a bound that is unproved and still $o(n^2)$;
-Sárközy and Selkow proved in 2006 that for every connected bipartite $L$ that is
-not complete bipartite and every $\alpha,c>0$, $\chi_S(n,e,L)>cn$ once $e>\alpha
-n^2$ and $n$ is large in terms of $\alpha$, $c$ and $L$, and wrote that the
-question "still remains open for complete bipartite graphs that are not stars,
-for instance for $C_4$". The search, whose scope the Current assessment records,
-found nothing later on $C_4$. This is a bounded negative finding, not a
-certificate of openness.
+**Status.** Open: the site labels the problem OPEN (last edited 1 April 2026),
+and no source found in the search proves or refutes the statement. The 1989
+paper states without proof that $n$ colors suffice for $C_4$ at $e=c\,g(n;7,4)$
+edges. This reaches $\epsilon n^2$ only if $g(n;7,4)$ has order $n^2$, which is
+itself an open question (the site's Problem 1178). The paper's second bound, $n$
+colors at $e=c\,r_4(n)$ edges, is trivially true as printed. This is because
+$r_4(n)=o(n)$ by Szemerédi's theorem, and a graph with at most $n$ edges can
+give every edge its own color. It is probably a misprint for $e=c\,n\,r_4(n)$,
+on the model of the paper's $P_4$ bound (6.3), a bound that is unproved and
+still $o(n^2)$. Sárközy and Selkow proved in 2006 that for every connected
+bipartite $L$ that is not complete bipartite and every $\alpha,c>0$,
+$\chi_S(n,e,L)>cn$ once $e>\alpha n^2$ and $n$ is large in terms of $\alpha$,
+$c$ and $L$. They wrote that the question "still remains open for complete
+bipartite graphs that are not stars, for instance for $C_4$". The search, whose
+scope the Current assessment records, found nothing later on $C_4$. This is a
+bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/810](https://www.erdosproblems.com/810),
 accessed 2026-09-18: the problem page (OPEN, marked by the site as not

@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0584/claims/2007_06_13_fox_sudakov
 title: Fox and Sudakov's strongly C8-connected subgraphs for beta below 1/5
 desc: |
-  Fox and Sudakov prove the second clause for density n to the minus beta,
-  0 < beta < 1/5, with n^{2-2beta}/64 edges; refereed in J. Combin. Theory
-  Ser. B; the first clause is untouched.
+  Fox and Sudakov prove the second clause at density $n^{-\beta}$ for
+  $0<\beta<1/5$, with $n^{2-2\beta}/64$ edges, in a refereed paper in J. Combin.
+  Theory Ser. B. The first clause is untouched.
 authors:
 - Jacob Fox
 - Benny Sudakov

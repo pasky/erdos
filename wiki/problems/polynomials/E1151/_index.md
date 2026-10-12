@@ -2,9 +2,10 @@
 name: problems/polynomials/E1151
 title: Problem 1151
 desc: |
-  Asks a question about the Lagrange interpolation polynomial of degree n
-  minus one matching a function at n given nodes in the interval from minus
-  one to one.
+  Asks for a proof that, with Chebyshev nodes, every closed $A\subseteq[-1,1]$
+  is the set of limit points of $\mathcal{L}^nf(x)$ for some continuous $f$,
+  where $\mathcal{L}^nf$ is the Lagrange interpolation polynomial of degree
+  $n-1$.
 tags:
 - Analysis
 - Polynomials

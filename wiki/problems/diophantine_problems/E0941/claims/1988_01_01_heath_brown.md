@@ -3,8 +3,9 @@ name: problems/diophantine_problems/E0941/claims/1988_01_01_heath_brown
 title: Every large integer is a sum of at most three powerful numbers
 desc: |
   Heath-Brown proves that every sufficiently large integer is a sum of at most
-  three powerful numbers, answering Problem 941 affirmatively; the site credits
-  the result and the paper appeared in the Paris number theory seminar volume.
+  three powerful numbers, which answers Problem 941 affirmatively. The paper
+  appeared in the Paris number theory seminar volume, and the site credits the
+  result.
 authors: []
 status: accepted
 claim: proved
@@ -38,16 +39,17 @@ of the paper's argument is recorded.
 **Acceptance.** The site's curator, Thomas Bloom, marks Problem 941 proved and
 credits this paper for the proof. The volume is an edited seminar proceedings
 rather than a journal, so no `refereed` evidence is listed. No formal proof is
-on record; formal-conjectures states the result without proof, tagged research
-solved, as `erdos_940.variants.three_powerful` in
+on record. In formal-conjectures, the result is stated without proof and tagged
+research solved, as `erdos_940.variants.three_powerful` in
 [940.lean](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/940.lean)
-and `erdos_1107.variants.two` in
+and as `erdos_1107.variants.two` in
 [1107.lean](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1107.lean).
+
 The generalization to $r$-powerful numbers with $r\ge3$ is
-[[problems/diophantine_problems/E1107/_index|Problem 1107]];
+[[problems/diophantine_problems/E1107/_index|Problem 1107]].
 [[problems/diophantine_problems/E0940/_index|Problem 940]] asks the analogous
-questions for sums of at most $r$ $r$-powerful numbers with $r\ge3$, and
-[[problems/diophantine_problems/E1081/_index|Problem 1081]] concerns sums of
-two powerful numbers.
+questions for sums of at most $r$ $r$-powerful numbers with $r\ge3$.
+[[problems/diophantine_problems/E1081/_index|Problem 1081]] concerns sums of two
+powerful numbers.
 
 **Depends on.** No other wiki page; the claim rests on the cited paper.

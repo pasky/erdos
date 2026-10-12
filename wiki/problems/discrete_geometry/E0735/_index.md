@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0735
 title: Problem 735
 desc: |
-  Determines when n points in the plane can be given positive weights so that
-  every line through at least two of them has the same total weight.
+  Asks when $n$ points in the plane can be given positive weights so that every
+  line through at least two of them has the same total weight.
 tags:
 - Geometry
 status: solved
@@ -25,7 +25,7 @@ weights to the points such that the sum of the weights of the points along every
 line containing at least two points is the same?
 
 **Status.** Solved. The site credits Ackerman, Buchin, Knauer, Pinchasi and
-Rote, whose Theorem 1 proves Murty's conjectured list of configurations; the
+Rote, whose Theorem 1 proves Murty's conjectured list of configurations. The
 accepted claim is
 [[problems/discrete_geometry/E0735/claims/2007_06_06_ackerman_buchin_knauer_pinchasi_rote|their classification]].
 

@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0076/claims/2020_08_12_gruslys_letzter
 title: Gruslys and Letzter prove the n²/12 triangle packing conjecture
 desc: |
-  Theorem 1.2 of the 2020 arXiv paper: every two-coloring of the edges of
-  K_n contains n²/12 + o(n²) pairwise edge-disjoint monochromatic triangles,
-  the question's conclusion; an unrefereed preprint the site's curator credits.
+  Theorem 1.2 of Gruslys and Letzter's 2020 arXiv paper shows that every
+  two-coloring of the edges of $K_n$ contains $n^2/12+o(n^2)$ pairwise
+  edge-disjoint monochromatic triangles, the question's conclusion. The paper is
+  an unrefereed preprint that the site's curator credits.
 authors:
 - Vytautas Gruslys
 - Shoham Letzter
@@ -48,18 +49,21 @@ Theorem 2.11 (p. 7), proved in the companion preprint arXiv:2008.05313,
 and the computer-search certificates behind Lemma 2.8 (p. 6); neither is
 held here.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the
-problem PROVED and credits the proof to this paper in the problem's
-commentary, which records that the answer is yes (page last edited 23
-January 2026, accessed 2026-09-18); the discussion thread holds one comment
-correcting a misprinted name, nothing mathematical, and the proof-claim tab
-is empty. The curator is independent of the authors. Not refereed: on
-2026-09-18 the arXiv record carried no journal reference, a Crossref
-bibliographic query for the title found no record, and the three citing
-works in the Semantic Scholar list were the companion paper and two papers
-on tournament inversions, so no refereed version is known. This page rests
-on the statements of Conjecture 1.1, Theorems 1.2, 1.3 and 2.3, Lemma 2.8
-and Theorem 2.11, not on the proofs; nothing here is independent review.
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+PROVED and credits the proof to this paper in the problem's commentary, which
+records that the answer is yes (page last edited 23 January 2026, accessed
+2026-09-18). The discussion thread holds one comment, which corrects a
+misprinted name and is not mathematical. The proof-claim tab is empty. The
+curator is independent of the authors.
+
+Not refereed: no refereed version is known. On 2026-09-18 the arXiv record
+carried no journal reference, a Crossref bibliographic query for the title found
+no record, and the three citing works in the Semantic Scholar list were the
+companion paper and two papers on tournament inversions.
+
+This page rests on the statements of Conjecture 1.1, Theorems 1.2, 1.3 and 2.3,
+Lemma 2.8 and Theorem 2.11, not on the proofs. Nothing here is independent
+review.
 
 **Depends on.** Nothing in this wiki; the result is the paper's own
 theorem, with the companion preprint and the computer certificates it

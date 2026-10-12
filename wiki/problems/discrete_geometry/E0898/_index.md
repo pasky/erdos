@@ -29,9 +29,9 @@ $$
 $$
 
 **Status.** PROVED (LEAN). The site credits the proof to Mordell, soon after
-Erdős conjectured the inequality; the claim page
-[[problems/discrete_geometry/E0898/claims/1935_01_01_mordell|Mordell]]
-records the proof, its publications and its acceptance.
+Erdős conjectured the inequality. The claim page
+[[problems/discrete_geometry/E0898/claims/1935_01_01_mordell|Mordell]] records
+the proof, its publications and its acceptance.
 
 **Source.** [erdosproblems.com/898](https://www.erdosproblems.com/898), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #898,

@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0841/claims/2001_01_15_granville_selfridge
 title: The exact large-prime case and a square-root bound
 desc: |
-  Granville and Selfridge prove that t_n equals the largest prime factor P(n)
-  whenever P(n) exceeds sqrt(2n)+1, and that t_n is at most 3 sqrt(n/2)+1
-  otherwise; refereed.
+  In a refereed paper, Granville and Selfridge prove that $t_n$ equals the
+  largest prime factor $P(n)$ whenever $P(n)>\sqrt{2n}+1$, and that
+  $t_n\le3\sqrt{n/2}+1$ otherwise.
 authors:
 - Andrew Granville
 - J. L. Selfridge

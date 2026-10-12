@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0566/claims/2022_02_21_bradac_gishboliner_sudakov
 title: Bradač, Gishboliner and Sudakov, subdivisions of K_4
 desc: |
-  Every subdivision of K_4 on at least six vertices is Ramsey size linear
-  (SIAM J. Discrete Math. 2024, Theorem 4); each such graph meets the
-  corrected hypothesis, so the corrected question has answer yes for them.
+  Bradač, Gishboliner and Sudakov prove that every subdivision of $K_4$ on at
+  least six vertices is Ramsey size linear (SIAM J. Discrete Math. 2024, Theorem
+  4). Each such graph meets the corrected hypothesis, so the corrected question
+  has answer yes for them.
 authors:
 - Domagoj Bradač
 - Lior Gishboliner
@@ -52,11 +53,11 @@ which also meets the hypothesis, is outside the theorem and undecided (Problem
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Refereed: SIAM J. Discrete Math. 38 (2024), no. 1, 225--242,
-received 1 March 2022, accepted in revised form 10 August 2023 and published
-electronically 9 January 2024. The page is dated by the first arXiv posting, 21
-February 2022. The site labels the problem OPEN, and its commentary on Problem
-566 does not mention the paper.
+**Acceptance.** Refereed: SIAM J. Discrete Math. 38 (2024), no. 1, 225--242. The
+paper was received on 1 March 2022, accepted in revised form on 10 August 2023
+and published electronically on 9 January 2024. The page is dated by the first
+arXiv posting, 21 February 2022. The site labels the problem OPEN, and its
+commentary on Problem 566 does not mention the paper.
 
 **Read depth.** The statement of Theorem 4 and the paper's definition of Ramsey
 size-linearity were checked in both editions; the proof (Section 4) was not

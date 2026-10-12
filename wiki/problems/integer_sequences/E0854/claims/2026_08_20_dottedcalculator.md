@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0854/claims/2026_08_20_dottedcalculator
 title: Every even gap up to a constant times p_k among primorial totatives
 desc: |
-  DottedCalculator's partial claim, a write-up signed by GPT 5.6 Sol: for
-  large k every even number up to a constant times p_k is a gap between
-  consecutive totatives of the primorial; the least even non-gap is >> p_k.
+  DottedCalculator's partial claim, a write-up signed by GPT 5.6 Sol, asserts
+  that for large $k$ every even number up to a constant times $p_k$ is a gap
+  between consecutive totatives of the $k$th primorial. So the least even
+  non-gap is $\gg p_k$.
 authors:
 - GPT 5.6 Sol
 status: claimed

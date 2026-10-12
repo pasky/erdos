@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0507/claims/2024_09_11_cohen_pohoata_zakharov
 title: The Cohen-Pohoata-Zakharov upper bound n^(-7/6+o(1))
 desc: |
-  Cohen, Pohoata and Zakharov prove that any n points in the unit square span
-  a triangle of area at most n^(-7/6+o(1)), which gives the upper bound
-  alpha(n) << n^(-7/6+o(1)) for the disk; refereed in Inventiones.
+  Cohen, Pohoata and Zakharov prove, in a refereed Inventiones paper, that any
+  $n$ points in the unit square span a triangle of area at most $n^{-7/6+o(1)}$.
+  This gives the upper bound $\alpha(n)\ll n^{-7/6+o(1)}$ for the disk.
 authors:
 - Alex Cohen
 - Cosmin Pohoata

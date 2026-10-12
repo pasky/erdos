@@ -2,9 +2,10 @@
 name: problems/set_systems/E1024/claims/1986_01_01_phelps_rodl
 title: Phelps and Rödl's order of the independence number
 desc: |
-  Phelps and Rödl (1986) determine the order of the largest independent set
-  guaranteed in every 3-uniform linear hypergraph on n vertices as the square
-  root of n log n; refereed in Ars Combinatoria and credited by the curator.
+  Phelps and Rödl (1986) prove that the largest independent set guaranteed in
+  every $3$-uniform linear hypergraph on $n$ vertices has order
+  $\sqrt{n\log n}$. The curator credits the paper, which is refereed and
+  appeared in Ars Combinatoria.
 authors:
 - K. T. Phelps
 - V. Rödl
@@ -48,11 +49,11 @@ true order of magnitude of $f(n)$, solving the problem of Erdős and Hajnal.
 The upper bound, Steiner triple systems whose independence number is
 $O((n\log n)^{1/2})$, is the construction the paper's title names.
 
-**Acceptance.** Refereed: K. T. Phelps and V. Rödl, Steiner triple systems
-with minimum independence number, Ars Combin. 21 (1986), 167–172, a journal
-article, cited as the site's record gives it with the volume from Füredi's
-reference list; the record gives the year and no finer date, so the page is
-dated to the first day of that year. Reviewed: Thomas Bloom, the site's
-curator, labels the problem solved and credits the estimate to Phelps and
-Rödl. The site's page listed no comment, proof claim or
-formalization. Nothing here rests on this project's own review.
+**Acceptance.** Refereed: K. T. Phelps and V. Rödl, Steiner triple systems with
+minimum independence number, Ars Combin. 21 (1986), 167–172, a journal article.
+The citation follows the site's record, with the volume taken from Füredi's
+reference list. The record gives the year and no finer date, so the page is
+dated to the first day of that year. Reviewed: Thomas Bloom, the site's curator,
+labels the problem solved and credits the estimate to Phelps and Rödl. The
+site's page listed no comment, proof claim or formalization. Nothing here rests
+on this project's own review.

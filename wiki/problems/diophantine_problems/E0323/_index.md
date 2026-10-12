@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0323
 title: Problem 323
 desc: |
-  Asks whether the integers up to x that are sums of k kth powers number at
-  least x to the power 1 minus epsilon, and whether sums of m such powers, m
-  below k, number at least a constant times x to the m over k.
+  Asks whether $f_{k,k}(x)\gg_\epsilon x^{1-\epsilon}$ and, for $m<k$, whether
+  $f_{k,m}(x)\gg x^{m/k}$, where $f_{k,m}(x)$ counts the integers up to $x$ that
+  are sums of $m$ nonnegative $k$th powers.
 tags:
 - Number theory
 - Powers
@@ -40,10 +40,10 @@ for sufficiently large $x$?
 
 **Status.** Open. The site labels the problem OPEN. Its commentary credits
 Landau with resolving the case $k=2$, through his asymptotic
-$f_{2,2}(x)\sim cx/\sqrt{\log x}$, recorded as an accepted partial claim on
-[[problems/diophantine_problems/E0323/claims/1908_01_01_landau|Landau's claim page]];
-for $k>2$ the site records that it is not even known whether
-$f_{k,k}(x)=o(x)$.
+$f_{2,2}(x)\sim cx/\sqrt{\log x}$. This is recorded as an accepted partial claim
+on
+[[problems/diophantine_problems/E0323/claims/1908_01_01_landau|Landau's claim page]].
+For $k>2$, the site records that it is not even known whether $f_{k,k}(x)=o(x)$.
 
 **Source.** [erdosproblems.com/323](https://www.erdosproblems.com/323), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #323,

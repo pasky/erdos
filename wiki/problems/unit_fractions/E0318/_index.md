@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0318
 title: Problem 318
 desc: |
-  Asks whether every non-constant assignment of plus and minus one on an
-  arithmetic progression has a finite subset whose signed reciprocals sum to
-  zero.
+  Asks whether every non-constant $f:A\to\{-1,1\}$ on an infinite arithmetic
+  progression $A$ has a finite non-empty $S\subseteq A$ with
+  $\sum_{n\in S}f(n)/n=0$.
 tags:
 - Number theory
 - Unit fractions
@@ -53,28 +53,31 @@ questions have mixed answers (yes, no, yes), which is why the site labels the
 problem SOLVED rather than PROVED or DISPROVED.
 
 **Status.** Solved, in the site's label, which the site glosses as a resolution
-other than a proof or disproof, with the three questions standing as
-follows. Arithmetic progressions: yes, by Sattler's paper on property $P_1$
-for the arithmetical sequence (Indag. Math. (Proc.) 85 (1982), 347--352,
-refereed), which is not held here and is attested by the site and by the
-thread's reading of it. Positive density: no; any infinite set with exactly
-one even number fails, by a two-line argument written out below that the
-site records and that Sattler's companion paper credits to Erdős. Squares
-other than $1$: yes, by Theorem 6 of Larsen's manuscript "Sufficiently
-abundant numbers are pseudoperfect" (GitHub, 1 February 2026; nine pages;
-unrefereed; its closing line acknowledges the AI systems Claude Opus 4.5 and
-ChatGPT 5.2 Pro for proofreading), which the site accepts and for which no
-journal record or independent review was found. Lean proofs of
-all three parts exist outside this corpus (recorded under Formalization
-below); none has been built or audited here, so they give no `formalized`
-evidence. The three answers are the claim pages
+other than a proof or disproof. The standing derives part by part from three
+claim pages, one for each question:
 [[problems/unit_fractions/E0318/claims/1982_01_01_sattler|Sattler's theorem on arithmetic progressions]],
 [[problems/unit_fractions/E0318/claims/1982_01_01_erdos|the one-even-number observation]]
-and [[problems/unit_fractions/E0318/claims/2026_02_01_larsen|Larsen's Theorem 6]],
-from which the standing derives part by part; the second-hand standing of
-the arithmetic-progression source and the preprint standing of the squares
-source are recorded below. The 1975 cases $A=\mathbb N$ and the odd numbers
-from $3$ have partial pages of their own, and a further page,
+and
+[[problems/unit_fractions/E0318/claims/2026_02_01_larsen|Larsen's Theorem 6]].
+The second-hand standing of the arithmetic-progression source and the preprint
+standing of the squares source are recorded below.
+
+Arithmetic progressions: yes. This follows from Sattler's paper on property
+$P_1$ for the arithmetical sequence (Indag. Math. (Proc.) 85 (1982), 347--352,
+refereed). The paper is not held here, and it is attested by the site and by the
+thread's reading of it. Positive density: no. Any infinite set with exactly one
+even number fails, by a two-line argument written out below. The site records
+this argument, and Sattler's companion paper credits it to Erdős. Squares other
+than $1$: yes, by Theorem 6 of Larsen's manuscript "Sufficiently abundant
+numbers are pseudoperfect" (GitHub, 1 February 2026; nine pages; unrefereed).
+Its closing line acknowledges the AI systems Claude Opus 4.5 and ChatGPT 5.2 Pro
+for proofreading. The site accepts it, and no journal record or independent
+review of it was found.
+
+Lean proofs of all three parts exist outside this corpus (recorded under
+Formalization below). None has been built or audited here, so they give no
+`formalized` evidence. The 1975 cases $A=\mathbb N$ and the odd numbers from $3$
+have partial pages of their own. A further page,
 [[problems/unit_fractions/E0318/claims/2026_08_16_alexeev|the Lean proof of the progression question]],
 records a pending independent machine proof of the first question.
 

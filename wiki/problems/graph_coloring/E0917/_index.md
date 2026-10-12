@@ -2,8 +2,10 @@
 name: problems/graph_coloring/E0917
 title: Problem 917
 desc: |
-  Separates the proved quadratic lower bound, open k=6 case, and disproved
-  nonmultiples-of-three part of the proposed general asymptotic.
+  Asks whether the largest number $f_k(n)$ of edges in a $k$-critical graph on
+  $n$ vertices satisfies $f_k(n)\gg_k n^2$, whether $f_6(n)\sim n^2/4$, and
+  whether a proposed asymptotic holds for $k\geq6$. The first is proved, the
+  second is open, and the third fails when $k$ is not a multiple of $3$.
 tags:
 - Graph theory
 - Chromatic number
@@ -61,18 +63,19 @@ $$
 Luo–Ma–Yang's exact-size upper bounds must be maximized over $m\leq n$ rather
 than copied with the page's $n$ unchanged.
 
-**Status.** Open. The site's label is OPEN. The three
-questions stand differently, and the frontmatter's standing is derived from the
-claim pages. Toft's constructions answer the first question yes and refute the
-third question's universal formula for $k\not\equiv0\pmod3$, an accepted partial
-claim ([[problems/graph_coloring/E0917/claims/1970_01_01_toft|claim page]]); the
-site credits the constructions for $k\ge6$ to Stiebitz, while Luo, Ma and Yang
-credit them to Toft, a conflict that page records. Qiyuan Gu's preprint of
-September 2026, whose proofs the proof-claim entry says GPT 6 Astra generated,
-claims a refutation at $k=12$, a multiple of $3$, and is a pending partial claim
+**Status.** Open. The site's label is OPEN. The three questions stand
+differently, and the frontmatter's standing is derived from the claim pages.
+Toft's constructions answer the first question yes. They also refute the third
+question's universal formula for $k\not\equiv0\pmod3$. This is an accepted
+partial claim
+([[problems/graph_coloring/E0917/claims/1970_01_01_toft|claim page]]). The site
+credits the constructions for $k\ge6$ to Stiebitz, while Luo, Ma and Yang credit
+them to Toft. That claim page records the conflict. Qiyuan Gu's preprint of
+September 2026 claims a refutation at $k=12$, a multiple of $3$. The proof-claim
+entry says GPT 6 Astra generated its proofs. It is a pending partial claim
 ([[problems/graph_coloring/E0917/claims/2026_09_05_gu|claim page]]). The second
-question, $f_6(n)\sim n^2/4$, and the formula's restriction to the other
-multiples of $3$ are open, so the problem has no full claim.
+question, $f_6(n)\sim n^2/4$, is open, and so is the formula's restriction to
+the other multiples of $3$. So the problem has no full claim.
 
 **Source.** [erdosproblems.com/917](https://www.erdosproblems.com/917), snapshot
 accessed 2026-09-07. Cite as: T. F. Bloom, Erdős Problem #917,

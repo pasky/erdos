@@ -2,9 +2,10 @@
 name: problems/analysis/E0990/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant
 title: Sparse Erdős–Turán discrepancy bound fails
 desc: |
-  For every n at least 3 there is a polynomial with n nonzero coefficients,
-  coefficient parameter M below 3 and a positive real root of multiplicity n
-  minus 1, so no absolute constant in the bound of order sqrt(n log M) works.
+  Alexeev, Putterman, Sawhney, Sellke and Valiant give, for every $n\ge3$, a
+  polynomial with $n$ nonzero coefficients, coefficient parameter $M<3$ and a
+  positive real root of multiplicity $n-1$. So no absolute constant works in the
+  bound of order $\sqrt{n\log M}$.
 authors:
 - Boris Alexeev
 - Moe Putterman

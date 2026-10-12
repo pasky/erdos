@@ -2,8 +2,9 @@
 name: problems/unit_fractions/E0294
 title: Problem 294
 desc: |
-  Estimates the least starting value t for which one cannot be written as a
-  sum of distinct unit fractions with denominators from t up to N.
+  Asks for estimates of $t(N)$, the least $t$ such that $1$ is not a sum of
+  distinct unit fractions with smallest denominator $t$ and all denominators at
+  most $N$.
 tags:
 - Number theory
 - Unit fractions
@@ -37,16 +38,16 @@ one-term representation, $t(N)\ge2$; for $N\ge2$ no representation starts
 at $t=N$, so $t(N)\le N$. In the Erdős–Graham monograph the same quantity is
 written $k_1(n)$.
 
-**Status.** PROVED, the site's label, which attaches to the estimate: Liu and
-Sawhney (Int. Math. Res. Not. 2026) determine $t(N)$ up to a factor
-$(\log\log N)^3(\log\log\log N)^{O(1)}$, namely
-$N/((\log N)(\log\log N)^3(\log\log\log N)^{O(1)})\ll t(N)\ll N/\log N$, the
-upper bound being the one Erdős and Graham had stated. This is the accepted
-claim
+**Status.** The site's label is PROVED, and it attaches to the estimate. The
+derived standing is solved, answered rather than proved, because the question
+asks for an estimate rather than a yes or no. Liu and Sawhney (Int. Math. Res.
+Not. 2026) determine $t(N)$ up to a factor
+$(\log\log N)^3(\log\log\log N)^{O(1)}$. Namely,
+$N/((\log N)(\log\log N)^3(\log\log\log N)^{O(1)})\ll t(N)\ll N/\log N$. The
+upper bound is the one Erdős and Graham had stated. This is the accepted claim
 [[problems/unit_fractions/E0294/claims/2024_04_10_liu_sawhney|Liu and Sawhney 2024]],
-refereed and credited by the site's curator. The derived standing is solved,
-answered rather than proved, because the question asks for an estimate rather
-than a yes or no. The exact order of $t(N)$ inside that window is not known.
+refereed and credited by the site's curator. The exact order of $t(N)$ inside
+that window is not known.
 
 **Source.** [erdosproblems.com/294](https://www.erdosproblems.com/294),
 accessed 2026-09-17: the problem page (PROVED; last edited 18 November

@@ -3,8 +3,8 @@ name: problems/ramsey_theory/E0556/claims/2008_09_21_benevides_skokan
 title: Benevides and Skokan, R_3(C_n) = 2n for all large even n
 desc: |
   Theorem 1 of Benevides and Skokan (J. Combin. Theory Ser. B 2009) gives a
-  threshold beyond which R(C_n, C_n, C_n) = 2n for even n, so the bound
-  4n - 3 holds with room to spare for every sufficiently large even n.
+  threshold beyond which $R(C_n,C_n,C_n)=2n$ for even $n$. So the bound $4n-3$
+  holds with room to spare for every sufficiently large even $n$.
 authors:
 - Fabricio Siqueira Benevides
 - Jozef Skokan
@@ -57,12 +57,12 @@ Theory Ser. B 99 (2009), no. 4, 690--708, in the July 2009 issue (the Crossref
 record). The CDAM Research Report LSE-CDAM-2008-17, linked above, was not
 compared with the journal text, so locators are the report's. The site's
 curator, T. F. Bloom, credits Benevides and Skokan in the problem's commentary
-with the value $R_3(C_n)=2n$ for all sufficiently large even $n$, on a page
-labeled DECIDABLE (last edited 8 February 2026, accessed 2026-09-17), the site's
-state for a problem resolved up to a finite check, which rests on exactly this
-theorem and the odd-cycle theorem of Kohayakawa, Simonovits and Skokan; that
-label does not mark the problem settled, so the credit is recorded here and is
-not `reviewed` evidence.
+with the value $R_3(C_n)=2n$ for all sufficiently large even $n$. The page is
+labeled DECIDABLE (last edited 8 February 2026, accessed 2026-09-17). That is
+the site's state for a problem resolved up to a finite check, and here it rests
+on exactly this theorem and the odd-cycle theorem of Kohayakawa, Simonovits and
+Skokan. The label does not mark the problem settled, so the credit is recorded
+here and is not `reviewed` evidence.
 
 **Read depth.** Claims checked: Theorem 1 and Lemma 2 (report pp. 2--3);
 the proof was not read, and nothing is independently reviewed in this

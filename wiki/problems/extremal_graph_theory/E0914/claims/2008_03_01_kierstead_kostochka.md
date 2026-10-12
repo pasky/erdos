@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E0914/claims/2008_03_01_kierstead_kostochka
 title: Kierstead and Kostochka's short proof of the Hajnal–Szemerédi theorem
 desc: |
   Kierstead and Kostochka (Combin. Probab. Comput. 2008) give a short proof of
-  the Hajnal–Szemerédi theorem, whose clique form is Problem 914; refereed,
-  credited by the site, and formalized in an unbuilt external Lean file.
+  the Hajnal–Szemerédi theorem, whose clique form is Problem 914. The proof is
+  refereed, credited by the site, and formalized in an unbuilt external Lean
+  file.
 authors:
 - H. A. Kierstead
 - A. V. Kostochka
@@ -55,13 +56,13 @@ whose result it does not consume.
 and the elementary transfer to the clique form is written on the problem
 page.
 
-**Acceptance.** Refereed publication in Combinatorics, Probability and
-Computing, cited with its venue above, the `refereed` evidence. The
-`reviewed` evidence is the documented acceptance of the site's curator
-(T. F. Bloom), independent of the authors: the commentary names the paper as
-a shorter proof of the theorem, and the forum comment of 13 March 2026
-pointing to it is marked by the site as addressed. The text is not held, so
-no proof step is checked.
+**Acceptance.** The `refereed` evidence is the paper's refereed publication in
+Combinatorics, Probability and Computing, cited with its venue above. The
+`reviewed` evidence is the documented acceptance of the site's curator, T. F.
+Bloom, who is independent of the authors. The commentary names the paper as a
+shorter proof of the theorem, and the site marks as addressed the forum comment
+of 13 March 2026 that points to it. The text is not held, so no proof step is
+checked.
 
 **Formalization.** The file `src/v4.29.1/ErdosProblems/Erdos914.lean` of
 Alexeev's repository `plby/lean-proofs`, linked above at the repository's head

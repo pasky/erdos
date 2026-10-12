@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0065
 title: Problem 65
 desc: |
-  Asks whether the reciprocals of the distinct cycle lengths of a graph with n
-  vertices and kn edges sum to at least a constant times log k, and whether a
-  complete bipartite graph minimizes that sum.
+  Asks whether the reciprocals of the distinct cycle lengths of a graph with $n$
+  vertices and $kn$ edges sum to $\gg\log k$, and whether a complete bipartite
+  graph minimizes that sum.
 tags:
 - Graph theory
 - Cycles
@@ -45,23 +45,22 @@ $1\le a\le n/2$. The formal-conjectures statement `erdos_65.parts.ii` keeps the
 site's wording, and the standing answers it; the claim page for the 2026
 preprint says how its edge-threshold theorem covers it.
 
-**Status.** Open: the site labels the problem OPEN (page last edited 8
-February 2026), and the frontmatter standing is derived from the three claim
-pages under `claims/`, all partial, the two questions being its parts. The
-first question is settled: Gyárfás, Komlós and Szemerédi's refereed theorem
-gives $\sum1/a_i\gg\log k$
+**Status.** Open. The site labels the problem OPEN (page last edited 8 February
+2026). The frontmatter standing is derived from the three claim pages under
+`claims/`, all partial, and the problem's two questions are its parts. The first
+question is settled. Gyárfás, Komlós and Szemerédi's refereed theorem gives
+$\sum1/a_i\gg\log k$
 ([[problems/extremal_graph_theory/E0065/claims/1984_12_01_gyarfas_komlos_szemeredi|claim page]],
-accepted, settling the part `harmonic_bound`), and Liu and Montgomery's
-refereed Corollary 1.2 gives the asymptotically sharp constant $1/2$ for
-large $k$
+accepted, settling the part `harmonic_bound`). Liu and Montgomery's refereed
+Corollary 1.2 gives the asymptotically sharp constant $1/2$ for large $k$
 ([[problems/extremal_graph_theory/E0065/claims/2020_10_29_liu_montgomery|claim page]],
-accepted). The second question is open: Milojević, Montgomery, Pokrovskiy
-and Sudakov's arXiv preprint of 22 September 2026 claims the complete
-bipartite minimizer for every sufficiently large $k$
+accepted). The second question is open. Milojević, Montgomery, Pokrovskiy and
+Sudakov's arXiv preprint of 22 September 2026 claims the complete bipartite
+minimizer for every sufficiently large $k$
 ([[problems/extremal_graph_theory/E0065/claims/2026_09_22_milojevic_montgomery_pokrovskiy_sudakov|claim page]],
-claimed), and nothing covers small $k$, so the standing is open. The site's
+claimed). Nothing covers small $k$, so the standing is open. The site's
 commentary credits the first question to [GKS84] and the sharp constant to
-[LiMo20], and mentions the forthcoming work through Montgomery's survey.
+[LiMo20]. It mentions the forthcoming work through Montgomery's survey.
 
 **Source.** [erdosproblems.com/65](https://www.erdosproblems.com/65), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #65,

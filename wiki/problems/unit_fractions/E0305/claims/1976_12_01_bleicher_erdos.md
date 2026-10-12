@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0305/claims/1976_12_01_bleicher_erdos
 title: Bleicher and Erdős's exponent-2 bound on D(N)
 desc: |
-  Bleicher and Erdős (Illinois J. Math. 1976) prove D(N) <= lambda^3(N) N
-  (ln N)^2 with lambda(N) -> 1 and sharpen their prime lower bound; the
-  exponent 2 does not reach the 1 + o(1) of Problem 305; refereed.
+  Bleicher and Erdős (Illinois J. Math. 1976) prove
+  $D(N)\le\lambda^3(N)N(\ln N)^2$ with $\lambda(N)\to1$ and sharpen their prime
+  lower bound. The paper is refereed, and its exponent $2$ does not reach the
+  $1+o(1)$ of Problem 305.
 authors:
 - M. N. Bleicher
 - P. Erdős

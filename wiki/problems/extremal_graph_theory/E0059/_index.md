@@ -2,8 +2,8 @@
 name: problems/extremal_graph_theory/E0059
 title: Problem 59
 desc: |
-  Asks whether the number of graphs on n vertices containing no copy of a
-  fixed graph is at most two raised to nearly the extremal number of edges.
+  Asks whether the number of graphs on $n$ vertices containing no copy of a
+  fixed graph $G$ is at most $2^{(1+o(1))\mathrm{ex}(n;G)}$.
 tags:
 - Graph theory
 - Turán numbers
@@ -38,26 +38,27 @@ quantifies over every $G$; the cycle-restricted statement is also answered
 no, by Morris and Saxton's $C_6$ construction, so the two have the same
 answer.
 
-**Status.** Disproved. The site's label reads "DISPROVED (LEAN)"; its
-suffix is a catalog label explained under Formalization. The Statement
-quantifies over every graph $G$, and its answer is no. It fails trivially
-for forests: for $G=P_3$, the path with two edges, the $G$-free graphs are
-the matchings, $\mathrm{ex}(n;P_3)=\lfloor n/2\rfloor$, and there are
-$2^{(1/2+o(1))n\log_2 n}$ labeled matchings on $n$ vertices; for the stars
-$K_{1,k}$ with $k\ge4$ the bound fails even for unlabeled graphs. It also
-fails for a graph containing a cycle, by the status-defining source,
-Proposition 1.4 of Morris and Saxton (Adv. Math. 298 (2016), 534--580,
-refereed): there is a constant $c>0$ such that for infinitely many $n$ at
-least $2^{(1+c)\mathrm{ex}(n;C_6)}$ graphs on $n$ vertices contain no $C_6$.
-For non-bipartite $G$ the bound holds (Erdős, Frankl and Rödl 1986, Theorem
-1.6). The claim pages are
+**Status.** Disproved. The site's label reads "DISPROVED (LEAN)", and its suffix
+is a catalog label explained under Formalization. The Statement quantifies over
+every graph $G$, and its answer is no. It fails trivially for forests. For
+$G=P_3$, the path with two edges, the $G$-free graphs are the matchings. Then
+$\mathrm{ex}(n;P_3)=\lfloor n/2\rfloor$, while there are
+$2^{(1/2+o(1))n\log_2 n}$ labeled matchings on $n$ vertices. For the stars
+$K_{1,k}$ with $k\ge4$, the bound fails even for unlabeled graphs. It also fails
+for a graph containing a cycle, by the status-defining source, Proposition 1.4
+of Morris and Saxton (Adv. Math. 298 (2016), 534--580, refereed). There is a
+constant $c>0$ such that, for infinitely many $n$, at least
+$2^{(1+c)\mathrm{ex}(n;C_6)}$ graphs on $n$ vertices contain no $C_6$. For
+non-bipartite $G$ the bound holds (Erdős, Frankl and Rödl 1986, Theorem 1.6).
+
+The claim pages are
 [[problems/extremal_graph_theory/E0059/claims/2013_09_11_morris_saxton|Morris and Saxton]]
 (full, accepted on the refereed publication and the curator's credit) and
 [[problems/extremal_graph_theory/E0059/claims/1986_12_01_erdos_frankl_rodl|Erdős, Frankl and Rödl]]
-(partial, the non-bipartite case, accepted on the refereed publication);
-the 2026 Lean disproof in the lean-proofs repository declares itself a
-formalization of Morris and Saxton's proposition and is recorded on their
-page as a formalization link, which gives no `formalized` evidence.
+(partial, the non-bipartite case, accepted on the refereed publication). The
+2026 Lean disproof in the lean-proofs repository declares itself a formalization
+of Morris and Saxton's proposition. It is recorded on their page as a
+formalization link, which gives no `formalized` evidence.
 
 **Source.** [erdosproblems.com/59](https://www.erdosproblems.com/59), accessed
 2026-09-04 and 2026-10-07 (page last edited 23 January 2026; empty

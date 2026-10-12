@@ -2,8 +2,8 @@
 name: problems/primes/E1137
 title: Problem 1137
 desc: |
-  Asks whether the largest product of two consecutive prime gaps below x is
-  negligible compared with the square of the largest prime gap below x.
+  Asks whether, with $d_n=p_{n+1}-p_n$, the ratio
+  $\max_{n<x}d_nd_{n-1}/(\max_{n<x}d_n)^2$ tends to $0$ as $x\to\infty$.
 tags:
 - Number theory
 - Primes

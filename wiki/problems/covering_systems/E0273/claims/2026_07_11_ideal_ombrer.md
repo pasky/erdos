@@ -2,9 +2,9 @@
 name: problems/covering_systems/E0273/claims/2026_07_11_ideal_ombrer
 title: A range constraint on coverings with moduli p minus one
 desc: |
-  A pseudonymous research note of July 2026 claiming a proof that every covering
-  system with distinct moduli p - 1, p at least 5 prime, uses a modulus with p
-  above 877, with a reciprocal-sum bound; posted on the site's thread.
+  A pseudonymous research note of July 2026, posted on the site's thread, claims
+  a proof that every covering system with distinct moduli $p-1$, $p\ge5$ prime,
+  uses a modulus with $p>877$. It also claims a bound on the reciprocal sum.
 authors: []
 status: claimed
 claim: disproved

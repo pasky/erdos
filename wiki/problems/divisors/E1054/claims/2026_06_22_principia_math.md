@@ -2,9 +2,9 @@
 name: problems/divisors/E1054/claims/2026_06_22_principia_math
 title: Large ratios f(N)/N on sets of positive lower density
 desc: |
-  Principia Math's write-up proves that for every A at least 1 the
-  represented N with f(N) > AN have positive lower density, so the limsup of
-  f(N)/N is infinite; with a Lean formalization.
+  Principia Math's write-up, posted with a Lean formalization, claims that for
+  every $A\ge1$ the represented $N$ with $f(N)>AN$ have positive lower density,
+  so that $\limsup f(N)/N=\infty$.
 authors:
 - Anton Shakov
 status: claimed

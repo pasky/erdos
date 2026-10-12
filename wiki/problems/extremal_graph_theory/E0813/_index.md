@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0813
 title: Problem 813
 desc: |
-  Estimates the largest clique forced in an n-vertex graph where every seven
-  vertices span a triangle: the exponent lies between 5/12 (Bucić and Sudakov)
-  and 1/2 (Erdős and Hajnal), and whether either end can be moved is open.
+  Estimates the largest clique forced in an $n$-vertex graph in which every
+  seven vertices span a triangle. The exponent lies between $5/12$ (Bucić and
+  Sudakov) and $1/2$ (Erdős and Hajnal), and whether either bound can be
+  improved is open.
 tags:
 - Graph theory
 status: open
@@ -80,18 +81,19 @@ question on local and global independence numbers; the case $r=\log n$ with
 $m=(\log n)^2$ or $m=(\log n)^3$ is
 [[problems/extremal_graph_theory/E0804/_index|Problem 804]].
 
-**Status.** Open, for the corrected Statement; the site labels the problem OPEN.
-The first inequality is proved: Theorem 1.3 of [BuSu23] (Combinatorica 43
+**Status.** Open, for the corrected Statement. The site labels the problem OPEN.
+The first inequality is proved. Theorem 1.3 of [BuSu23] (Combinatorica 43
 (2023), refereed) gives $\alpha(H)\ge n^{5/12-o(1)}$ for every $n$-vertex graph
-with $\alpha_7(H)\ge3$, so $h(n)\ge n^{5/12-o(1)}$ and any $c_1<1/12$ works;
-this is the accepted partial claim on
+with $\alpha_7(H)\ge3$. So $h(n)\ge n^{5/12-o(1)}$, and any $c_1<1/12$ works.
+This is the accepted partial claim on
 [[problems/extremal_graph_theory/E0813/claims/2020_07_07_bucic_sudakov|its claim page]],
 whose acceptance evidence is the refereed journal. The second inequality is
-open: the best upper bound is Erdős and Hajnal's $h(n)\ll n^{1/2}$, attested
-second-hand through [BuSu23] and the site, and Bucić and Sudakov ask whether
-$n^{1/2-o(1)}$ is the truth (their Question 4.2). No proof, disproof, preprint
-or proof claim for the second inequality was found in the search whose scope the Current assessment records; this is a bounded
-negative finding, not a certificate of openness.
+open. The best upper bound is Erdős and Hajnal's $h(n)\ll n^{1/2}$, attested
+second-hand through [BuSu23] and the site. Bucić and Sudakov ask whether
+$n^{1/2-o(1)}$ is the truth (their Question 4.2). The search whose scope the
+Current assessment records found no proof, disproof, preprint or proof claim for
+the second inequality. This is a bounded negative finding, not a certificate of
+openness.
 
 **Source.** [erdosproblems.com/813](https://www.erdosproblems.com/813),
 accessed 2026-09-18: the problem page (labeled OPEN,

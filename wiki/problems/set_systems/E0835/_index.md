@@ -2,9 +2,9 @@
 name: problems/set_systems/E0835
 title: Problem 835
 desc: |
-  Asks whether some k above two lets the k-element subsets of the integers up
-  to two k get k plus one colors so every k plus one of them sees all
-  colors.
+  Asks whether, for some $k>2$, the $k$-element subsets of $\{1,\ldots,2k\}$ can
+  be colored with $k+1$ colors so that the $k$-subsets of every $(k+1)$-set show
+  all $k+1$ colors.
 tags:
 - Graph theory
 - Hypergraphs
@@ -27,13 +27,13 @@ $\{1,\ldots,2k\}$ can be coloured with $k+1$ colours such that for every
 $A\subset \{1,\ldots,2k\}$ with $\lvert A\rvert=k+1$ all $k+1$ colours appear
 among the $k$-sized subsets of $A$?
 
-**Status.** Verifiable, the site's label for an open question whose positive
-answer a single finite coloring would witness; the label does not mean that
-such a coloring has been found. The site's page (last edited 22 January 2026)
-carries no proof claim. Two partial claim pages,
+**Status.** Verifiable. This is the site's label for an open question whose
+positive answer a single finite coloring would witness. The label does not mean
+that such a coloring has been found. The site's page (last edited 22 January
+2026) carries no proof claim. Two partial claim pages,
 [[problems/set_systems/E0835/claims/2025_12_31_ma_tang|Ma and Tang 2025]] and
 [[problems/set_systems/E0835/claims/2026_01_23_deepmind|AlphaProof 2026]],
-record exclusions of particular $k$; neither settles the question, so the
+record exclusions of particular $k$. Neither settles the question, so the
 derived standing is open.
 
 **Source.** [erdosproblems.com/835](https://www.erdosproblems.com/835), accessed

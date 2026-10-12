@@ -2,9 +2,10 @@
 name: problems/set_systems/E0701/claims/2022_01_11_frankl_kupavskii
 title: Chvátal's conjecture for covering number at most two
 desc: |
-  Frankl and Kupavskii (Discrete Math. 2023) prove Chvátal's conjecture for
-  intersecting subfamilies of covering number at most 2, through a
-  disjointness matching between two down-sets; refereed; partial.
+  Frankl and Kupavskii (Discrete Math. 2023, refereed) prove Chvátal's
+  conjecture for intersecting subfamilies of covering number at most $2$, a
+  partial result. The proof uses a matching between disjoint members of two
+  down-sets.
 authors:
 - Peter Frankl
 - Andrey Kupavskii

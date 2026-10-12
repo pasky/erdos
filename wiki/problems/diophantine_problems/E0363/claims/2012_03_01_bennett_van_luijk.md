@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0363/claims/2012_03_01_bennett_van_luijk
 title: Bennett and Van Luijk's infinite families of blocks of five
 desc: |
-  Disproves the finiteness question with infinitely many collections of r
-  disjoint blocks of five consecutive integers with square product for every
-  r at least five; refereed in 2012.
+  Bennett and Van Luijk, in a paper refereed in 2012, disprove the finiteness
+  question with infinitely many collections of $r$ disjoint blocks of five
+  consecutive integers with square product, for every $r\ge5$.
 authors:
 - Michael A. Bennett
 - Ronald Van Luijk
@@ -53,10 +53,10 @@ $g(t)=Ds^2$ for suitable squarefree $D$, attach fixed blocks whose product is
 $D$ times a square, and induct on $r$. The authors note that their techniques
 appear unlikely to work for blocks of length six or more.
 
-**Acceptance.** The result appeared in a refereed journal in 2012, the
-`refereed` evidence. The site's curator, Thomas Bloom, credits Bennett
-and Van Luijk in the problem's commentary with the blocks-of-five families
-for every $n\geq 5$: that curator credit is the
-`reviewed` evidence. The disproofs with blocks of four are
+**Acceptance.** The result appeared in a refereed journal in 2012, which is the
+`refereed` evidence. The site's curator, Thomas Bloom, credits Bennett and Van
+Luijk in the problem's commentary with the blocks-of-five families for every
+$n\geq 5$. That curator credit is the `reviewed` evidence. The disproofs with
+blocks of four are
 [[problems/diophantine_problems/E0363/claims/2005_01_01_ulas|Ulas's]] and
 [[problems/diophantine_problems/E0363/claims/2007_01_01_bauer_bennett|Bauer and Bennett's]].

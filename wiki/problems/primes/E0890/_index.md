@@ -2,9 +2,10 @@
 name: problems/primes/E0890
 title: Problem 890
 desc: |
-  Asks whether the summed count of large distinct prime factors over k
-  consecutive integers is infinitely often at most k, and about its extreme
-  growth rate.
+  Asks whether $\liminf_n\sum_{0\le i<k}\omega_k(n+i)\le k$ for every $k\ge1$,
+  where $\omega_k$ counts the distinct prime factors above $k$, and whether
+  $\limsup_n\bigl(\sum_{0\le i<k}\omega(n+i)\bigr)\log\log n/\log n=1$, where
+  $\omega$ counts all distinct prime factors.
 tags:
 - Number theory
 - Primes

@@ -2,9 +2,10 @@
 name: problems/analysis/E1047/claims/1961_01_01_pommerenke
 title: Pommerenke's z^p (z - a) with a nonconvex component
 desc: |
-  Pommerenke's 1961 Theorem 14: for large p and a slightly above
-  (1 + 1/p) p^{1/(p+1)}, the set where |z^p (z - a)| <= 1 has two components,
-  one of them not convex, the negative answer to Grunsky's question; refereed.
+  Pommerenke's 1961 Theorem 14 gives the negative answer to Grunsky's question:
+  for large $p$ and $a$ slightly above $(1+1/p)p^{1/(p+1)}$, the set where
+  $|z^p(z-a)|\le1$ has two components, one of them not convex. The paper is
+  refereed.
 authors:
 - Ch. Pommerenke
 status: accepted

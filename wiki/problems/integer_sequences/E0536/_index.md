@@ -2,8 +2,10 @@
 name: problems/integer_sequences/E0536
 title: Problem 536
 desc: |
-  The largest subset of the integers up to N containing no three distinct
-  elements whose three pairwise least common multiples are all equal.
+  Asks for estimates of $f(N)$, the size of the largest
+  $A\subseteq\{1,\ldots,N\}$ with no distinct $a,b,c$ such that
+  $\mathrm{lcm}(a,b)=\mathrm{lcm}(b,c)=\mathrm{lcm}(a,c)$, and in particular
+  whether $f(N)=o(N)$.
 tags:
 - Number theory
 status: open
@@ -45,30 +47,33 @@ the largest number of integers up to $x$ no $k$ of which have pairwise the
 same least common multiple. The formal-conjectures file encodes the density
 form only.
 
-**Status.** Open, the site's label (page last edited 29 April 2026; proof-claims
-tab as of 2026-10-06). No proof or disproof of $f(N)=o(N)$ accepted by the site
-or by a refereed venue was found in the search whose scope
-the Current assessment records. In hand: the lower bound
-$f(N)>(1-\varepsilon)N\log\log N/\log N$ of Abbott and Gardner
-([[problems/integer_sequences/E0536/claims/1966_11_17_abbott_gardner|Abbott and Gardner (1967)]]);
-Erdős's theorem that the four-element analog fails, $F(4,x)>cx$ (1970); a forum
-lower bound $(\log\log N)^{\omega(N)}N/\log N$ with $\omega(N)\to\infty$ and a
-forum upper bound $(221/225+o(1))N$, both accepted into the site's commentary; a
-chain of later forum upper bounds down to $(0.7845+o(1))N$ (September 2026),
-among them Saturnino's $(43/48+o(1))N$
-([[problems/integer_sequences/E0536/claims/2026_05_03_saturnino|its claim page]]),
-two with Lean developments their posters describe
-([[problems/integer_sequences/E0536/claims/2026_06_22_kitamura|Kitamura]],
-[[problems/integer_sequences/E0536/claims/2026_08_17_logsdon|Logsdon]]) and the
-last with a Lean formalization of its reduction only; and Wang's manuscript of
-July 2026, hosted on GitHub and submitted to the site's proof-claim tab, which
-claims $f(N)=o(N)$ and which the site's curator relabeled a partial claim
-because it does not estimate $f(N)$. That claim is recorded on
+**Status.** The site's label is Open (page last edited 29 April 2026,
+proof-claims tab as of 2026-10-06). No proof or disproof of $f(N)=o(N)$ accepted
+by the site or by a refereed venue was found in the search whose scope the
+Current assessment records. This is a bounded negative finding, not a
+certificate of openness. Wang's manuscript of July 2026, hosted on GitHub and
+submitted to the site's proof-claim tab, claims $f(N)=o(N)$. The site's curator
+relabeled it a partial claim because it does not estimate $f(N)$. That claim is
+recorded on
 [[problems/integer_sequences/E0536/claims/2026_07_14_wang|its claim page]],
-pending and unreviewed; the forum bounds with claim pages are pending too, and
-Abbott and Gardner's accepted bound is partial; a partial claim of a problem
-that lists no parts derives no standing, so the frontmatter stays open. This is
-a bounded negative finding, not a certificate of openness.
+pending and unreviewed. A partial claim of a problem that lists no parts derives
+no standing, so the frontmatter stays open.
+
+The other results in hand are as follows. Abbott and Gardner proved the lower
+bound $f(N)>(1-\varepsilon)N\log\log N/\log N$
+([[problems/integer_sequences/E0536/claims/1966_11_17_abbott_gardner|Abbott and Gardner (1967)]]).
+Their accepted bound is partial. Erdős proved in 1970 that the four-element
+analog fails, $F(4,x)>cx$. A forum lower bound
+$(\log\log N)^{\omega(N)}N/\log N$ with $\omega(N)\to\infty$ and a forum upper
+bound $(221/225+o(1))N$ were both accepted into the site's commentary. A chain
+of later forum upper bounds goes down to $(0.7845+o(1))N$ (September 2026).
+Among them is Saturnino's $(43/48+o(1))N$
+([[problems/integer_sequences/E0536/claims/2026_05_03_saturnino|its claim page]]).
+Two others come with Lean developments that their posters describe
+([[problems/integer_sequences/E0536/claims/2026_06_22_kitamura|Kitamura]],
+[[problems/integer_sequences/E0536/claims/2026_08_17_logsdon|Logsdon]]). The
+last bound in the chain has a Lean formalization of its reduction only. The
+forum bounds with claim pages are pending.
 
 **Source.** [erdosproblems.com/536](https://www.erdosproblems.com/536),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that no

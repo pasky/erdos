@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0348
 title: Problem 348
 desc: |
-  Determines for which m less than n a complete sequence can stay complete
-  after removing any m elements yet fail after removing any n elements.
+  Asks for which $0\le m<n$ a complete sequence can stay complete after removing
+  any $m$ elements yet fail to be complete after removing any $n$ elements.
 tags:
 - Number theory
 - Complete sequences
@@ -36,13 +36,12 @@ likely meant the eventual sense. The page reads the problem in the eventual
 sense with repeated values, the reading of Geneson's claim; van Doorn's
 strong-sense result settles no instance of it and has no claim page.
 
-**Status.** Claimed, against the site's label OPEN. One
-pending full claim is recorded:
-[[problems/additive_bases/E0348/claims/2026_09_09_geneson|Geneson's
-classification of deletion thresholds]], a 2026 preprint stating that the pairs
-asked for are exactly those with $m\in\{0,1\}$; the frontmatter standing,
-`claimed`/`answered`, follows from it, and the site's remarks record the case
-$m=2$, $n=3$ as unknown.
+**Status.** Claimed, against the site's label OPEN. One pending full claim is
+recorded, [[problems/additive_bases/E0348/claims/2026_09_09_geneson|Geneson's
+classification of deletion thresholds]], and the frontmatter standing,
+`claimed`/`answered`, follows from it. The claim is a 2026 preprint stating that
+the pairs asked for are exactly those with $m\in\{0,1\}$. The site's remarks
+record the case $m=2$, $n=3$ as unknown.
 
 **Source.** [erdosproblems.com/348](https://www.erdosproblems.com/348), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #348,

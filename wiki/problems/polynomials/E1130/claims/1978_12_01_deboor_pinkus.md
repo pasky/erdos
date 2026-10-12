@@ -4,7 +4,8 @@ title: De Boor and Pinkus bound the least gap maximum
 desc: |
   De Boor and Pinkus prove Erdős's conjecture that the least gap maximum of a
   node system containing both endpoints never exceeds the optimal Lebesgue
-  constant, so it is at most (2/pi) log n + O(1); refereed and credited.
+  constant, so it is at most $(2/\pi)\log n+O(1)$. The paper is refereed and
+  credited.
 authors:
 - Carl de Boor
 - Allan Pinkus
@@ -100,17 +101,20 @@ maximizers. This step, like the bound above, is recorded on this page, not
 taken from the paper, and not independently reviewed.
 
 **Acceptance.** Refereed: Journal of Approximation Theory 24 (1978), no. 4,
-289–303, received 1977-04-01, in the issue dated December 1978 in the
-publisher's record, which dates this page. Reviewed: the site's curator,
-Thomas F. Bloom, labels the problem proved and records in its commentary
-that de Boor and Pinkus proved the characterization Erdős conjectured, and
-that the bound $(2/\pi)\log n+O(1)$ for $\Upsilon$ then follows from the
-estimates recorded on Problem 1129 (erdosproblems.com/1130, last edited
-2026-01-17, accessed 2026-09-04). The theorem statements are taken from
-the paper itself, whose proofs are known here in outline only; the proofs
-are not compiled in this wiki. Formalization: the Lean 4 file linked above
-is neither built nor audited in this repository, so no `formalized` evidence
-is listed.
+289–303, received 1977-04-01. The publisher's record places it in the issue
+dated December 1978, which dates this page.
+
+Reviewed: the site's curator, Thomas F. Bloom, labels the problem proved. The
+commentary records that de Boor and Pinkus proved the characterization Erdős
+conjectured. It also records that the bound $(2/\pi)\log n+O(1)$ for $\Upsilon$
+then follows from the estimates recorded on Problem 1129
+(erdosproblems.com/1130, last edited 2026-01-17, accessed 2026-09-04).
+
+The theorem statements are taken from the paper itself. Its proofs are known
+here in outline only and are not compiled in this wiki.
+
+Formalization: the Lean 4 file linked above is neither built nor audited in this
+repository, so no `formalized` evidence is listed.
 
 **Depends on.** Nothing in this wiki; the result rests on the refereed paper
 linked above, and the comparison with Problem 1129 is context.

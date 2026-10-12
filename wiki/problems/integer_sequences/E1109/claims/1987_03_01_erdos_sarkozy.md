@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E1109/claims/1987_03_01_erdos_sarkozy
 title: Erdős and Sárközy's first bounds for squarefree pairwise sums
 desc: |
-  Erdős and Sárközy (Acta Math. Hungar. 1987): the largest subset of
-  {1,...,N} with all pairwise sums squarefree has size between (log N)/248
-  and 3N^{3/4} log N for large N; refereed.
+  Erdős and Sárközy (Acta Math. Hungar. 1987) prove that the largest subset of
+  $\{1,\ldots,N\}$ with all pairwise sums squarefree has size between
+  $(\log N)/248$ and $3N^{3/4}\log N$ for large $N$. The result is refereed.
 authors:
 - P. Erdős
 - A. Sárközy

@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0221
 title: Problem 221
 desc: |
-  Asks whether some set of integers with at most about N over log N elements
-  up to N lets every large integer be a power of two plus one of its elements.
+  Asks whether some set $A$ with $\ll N/\log N$ elements up to $N$ makes every
+  large integer of the form $2^k+a$ with $a\in A$.
 tags:
 - Number theory
 - Additive bases
@@ -30,16 +30,16 @@ $$
 and such that every large integer can be written as $2^k+a$ for some $k\geq 0$
 and $a\in A$?
 
-**Status.** PROVED (LEAN), the site's label. The standing rests on two
-accepted claim pages:
+**Status.** PROVED (LEAN), the site's label. The standing rests on two accepted
+claim pages. The first is
 [[problems/additive_bases/E0221/claims/1972_06_01_ruzsa|Ruzsa 1972]], the
-refereed construction with $\ll N/\log N$ elements up to $N$ built from the
-powers of $5$, and
+refereed construction with $\ll N/\log N$ elements up to $N$, built from the
+powers of $5$. The second is
 [[problems/additive_bases/E0221/claims/2001_04_01_ruzsa|Ruzsa 2001]], the
-refereed exact complement with $\sim N/\log_2 N$ elements, the best possible
-count. The label's Lean qualification refers to an outside formalization of
-the 1972 construction linked from its page, which is not part of this
-repository's audited Lean.
+refereed exact complement with $\sim N/\log_2 N$ elements, which is the best
+possible count. The label's Lean qualification refers to an outside
+formalization of the 1972 construction, linked from its page. That formalization
+is not part of this repository's audited Lean.
 
 **Source.** [erdosproblems.com/221](https://www.erdosproblems.com/221), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #221,

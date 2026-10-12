@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E1216/claims/1970_10_01_reid_parker
 title: Reid and Parker, transitive 5-subtournaments in 14-vertex tournaments
 desc: |
-  Reid and Parker's Theorem 4 (J. Combinatorial Theory 1970): every
-  tournament on 14 vertices contains a transitive subtournament on 5
-  vertices, so f(14) = 5 while floor(log_2 14) + 1 = 4; the answer is no.
+  Reid and Parker's Theorem 4 (J. Combinatorial Theory 1970): every tournament
+  on $14$ vertices contains a transitive subtournament on $5$ vertices. So
+  $f(14)=5$ while $\lfloor\log_2 14\rfloor+1=4$, and the answer is no.
 authors:
 - K. B. Reid
 - E. T. Parker
@@ -57,24 +57,24 @@ the day in the page name is a placeholder. The paper was received in August
 1968 (p. 225).
 
 **Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
-DISPROVED and credits Reid and Parker in the problem's commentary with the
-negative answer for every $n\ge14$ (page last edited 12 April 2026); the
+DISPROVED. In the problem's commentary, the curator credits Reid and Parker with
+the negative answer for every $n\ge14$ (page last edited 12 April 2026). The
 curator neither submitted nor co-wrote the result and is independent of the
-authors, and the community database records the problem disproved (last
-updated 21 April 2026). The site's "for every $n\ge14$" overstates the
-result: the formula $\lfloor\log_2n\rfloor+1$ holds again for $16\le n\le27$
-(the paper's own values, p. 236) and for $n=32,33$, and fails for infinitely
-many $n$, as the problem page records. Refereed: J. Combinatorial Theory 9
-(1970), no. 3, 225--238, communicated by Leo Moser. The theorem is attested
-by two later refereed sources: the survey paragraph of Ihringer,
-Rajendraprasad and Weinert (Discrete Math. 2021, p. 2) and Table 1 of
-McCarthy and Monico (Electron. J. Combin. 2025, p. 7) both cite $R(5)=14$ to
-the paper. Nagy's introduction (in the author-hosted copy; no journal record
-found in Crossref) names the paper as the disproof of the conjecture, and
-Neumann-Lara's shorter proof of Corollary 1 (Graphs Combin. 10 (1994),
-363--366) has
-[[problems/ramsey_theory/E1216/claims/1994_06_01_neumann_lara|its own claim page]];
-these attestations are beside the evidence listed above.
+authors. The community database records the problem as disproved (last updated
+21 April 2026). The site's "for every $n\ge14$" overstates the result. The
+formula $\lfloor\log_2n\rfloor+1$ holds again for $16\le n\le27$ (the paper's
+own values, p. 236) and for $n=32,33$. It fails for infinitely many $n$, as the
+problem page records.
+
+Refereed: J. Combinatorial Theory 9 (1970), no. 3, 225--238, communicated by Leo
+Moser. Two later refereed sources attest the theorem. The survey paragraph of
+Ihringer, Rajendraprasad and Weinert (Discrete Math. 2021, p. 2) and Table 1 of
+McCarthy and Monico (Electron. J. Combin. 2025, p. 7) both cite $R(5)=14$ to the
+paper. Nagy's introduction names the paper as the disproof of the conjecture (in
+the author-hosted copy; no journal record found in Crossref). Neumann-Lara's
+shorter proof of Corollary 1 (Graphs Combin. 10 (1994), 363--366) has
+[[problems/ramsey_theory/E1216/claims/1994_06_01_neumann_lara|its own claim page]].
+These attestations are separate from the evidence listed above.
 
 **Read depth.** Claims checked: Theorem 4 and Corollaries 1--2 on p. 235, and
 the $13$-vertex witness on pp. 235--236, whose automorphisms reduce the check

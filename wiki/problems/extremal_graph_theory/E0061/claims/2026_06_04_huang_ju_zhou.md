@@ -3,8 +3,8 @@ name: problems/extremal_graph_theory/E0061/claims/2026_06_04_huang_ju_zhou
 title: Huang, Ju and Zhou's six-vertex cases
 desc: |
   Huang, Ju and Zhou (arXiv 2026) claim the Erdős-Hajnal conjecture for two
-  six-vertex graphs, the E-graph and the Bird graph, the first six-vertex
-  cases that do not follow from known operations.
+  six-vertex graphs, the E-graph and the Bird graph. These are the first
+  six-vertex cases that do not follow from known operations.
 authors:
 - Shenwei Huang
 - Yiao Ju

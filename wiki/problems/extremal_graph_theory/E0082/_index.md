@@ -2,8 +2,8 @@
 name: problems/extremal_graph_theory/E0082
 title: Problem 82
 desc: |
-  Asks whether the largest regular induced subgraph guaranteed in every graph
-  on n vertices has size growing faster than the logarithm of n.
+  Asks whether $F(n)/\log n\to\infty$, where $F(n)$ is the size of the largest
+  regular induced subgraph guaranteed in every graph on $n$ vertices.
 tags:
 - Graph theory
 status: open

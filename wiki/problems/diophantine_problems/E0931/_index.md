@@ -2,8 +2,9 @@
 name: problems/diophantine_problems/E0931
 title: Problem 931
 desc: |
-  Asks whether only finitely many disjoint blocks of consecutive integers, of
-  lengths k1 and k2 at least 3, have products with the same prime factors.
+  Asks whether, for $k_1\geq k_2\geq 3$, only finitely many disjoint blocks of
+  $k_1$ and $k_2$ consecutive integers have products with the same prime
+  factors.
 tags:
 - Number theory
 status: open

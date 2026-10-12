@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0433
 title: Problem 433
 desc: |
-  Asks whether the largest non-representable integer for the worst coprime
-  k-element subset of the first n integers is asymptotically n squared over k
-  minus one.
+  Asks whether the largest integer that some $k$-element set
+  $A\subseteq\{1,\ldots,n\}$ with $\gcd(A)=1$ cannot write as a sum of its
+  elements, repetition allowed, is asymptotically $n^2/(k-1)$.
 tags:
 - Number theory
 status: solved
@@ -47,12 +47,14 @@ $n^2/(n-2)\sim n$; more generally, when $k/n\to\alpha$ with $1/\alpha$ not an
 integer, Dixmier's upper bound is $(\lceil1/\alpha\rceil-1+o(1))\,n$, which is
 below $n/\alpha$.
 
-**Status.** PROVED (LEAN): the site's label; its commentary credits Dixmier
-with the proof. The frontmatter standing is derived from the accepted claim page
+**Status.** PROVED (LEAN), the site's label. The site's commentary credits
+Dixmier with the proof. The frontmatter standing is derived from the accepted
+claim page
 [[problems/diophantine_problems/E0433/claims/1990_02_01_dixmier|Dixmier's bounds]],
-accepted on the site's credit and the refereed publication; the Lean part of
-the label refers to a forum-posted formalization of Dixmier's theorems,
-recorded on that page, which this corpus has not built or audited.
+accepted on the site's credit and the refereed publication. The Lean part of the
+label refers to a forum-posted formalization of Dixmier's theorems. That
+formalization is recorded on the claim page, and this corpus has not built or
+audited it.
 
 **Source.** [erdosproblems.com/433](https://www.erdosproblems.com/433), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #433,

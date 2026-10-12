@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0713
 title: Problem 713
 desc: |
-  Asks whether every bipartite graph with at least two edges has extremal
-  number asymptotic to a constant times a power of n in [1, 2), and whether
-  that power is rational; Erdős's 1967 exponent shapes were disproved in 1970.
+  Asks whether every bipartite graph $G$ with at least two edges has
+  $\mathrm{ex}(n;G)\sim cn^\alpha$ for some $c>0$ and $\alpha\in[1,2)$, and
+  whether $\alpha$ must be rational. The exponent forms Erdős proposed in 1967
+  were disproved in 1970.
 tags:
 - Graph theory
 - Turán numbers
@@ -90,7 +91,7 @@ or disproof of that variant for every bipartite graph is compiled on this
 page.
 
 **Status.** Open. The site labels the problem OPEN, with a prize (snapshot
-accessed 2026-09-04), a label that describes the corrected Statement. Neither
+accessed 2026-09-04). This label describes the corrected Statement. Neither
 question of the corrected Statement has a claim page, so the frontmatter
 standing derived from the claim pages is open with no claim. The site's wording
 fails at graphs with at most one edge, as the Notes record.

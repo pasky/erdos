@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0388
 title: Problem 388
 desc: |
   Asks whether two disjoint blocks of more than three consecutive integers can
-  have equal products only finitely often, and whether such cases can be
+  have equal products only finitely often, and whether all such cases can be
   classified.
 tags:
 - Number theory

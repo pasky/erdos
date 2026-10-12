@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0638
 title: Problem 638
 desc: |
-  Asks whether a hereditary family of finite graphs forcing monochromatic
-  triangles under every finite number of colors holds the finite subgraphs of
-  a graph forcing them under any infinite cardinal; a disproof is claimed.
+  Asks whether a family of finite graphs closed under subgraphs, with members
+  forcing a monochromatic triangle under each finite number of colors, must
+  contain all finite subgraphs of some graph forcing one under $\aleph$ colors,
+  for every infinite cardinal $\aleph$. A disproof is claimed.
 tags:
 - Graph theory
 - Ramsey theory
@@ -85,24 +86,23 @@ subgraphs. An analog with induced subgraphs in place of subgraphs, with $S$
 closed under induced subgraphs, is a variant; the note [Sa26] claims the same
 negative answer for it (Main Theorem 1, p. 2; Proposition 18, p. 10).
 
-**Status.** The site shows OPEN, a label that fits the corrected Statement
-and not the site's wording. A negative answer to the corrected Statement is
-claimed in an unreviewed note. Main Theorem 1 of an eleven-page note dated
-26 April 2026 [Sa26], hosted on a file-sharing site and posted to the site's
-discussion thread, constructs a class of finite graphs closed under
-isomorphism and finite subgraphs that contains, for every $n$, a graph
-forcing a monochromatic triangle under $n$ colors, while no graph whose
-finite subgraphs all lie in the class forces one under any infinite number
-of colors. The note is a forum-posted claim prepared with the help of
-Aristotle AI, an automated proof system, with no refereed publication, arXiv
-record or independent review found on 2026-09-18, and its accompanying Lean
-project leaves the two combinatorial inputs unproved; it is recorded at claimed
-on
+**Status.** The site shows OPEN, a label that fits the corrected Statement and
+not the site's wording. A negative answer to the corrected Statement is claimed
+in an unreviewed note. It is recorded at claimed on
 [[problems/ramsey_theory/E0638/claims/2026_04_26_saturnino|Saturnino's claim page]],
-and the frontmatter standing derives from the claim pages. No other source on
-the hereditary question was found in the search whose scope the Current
-assessment records. This is a bounded negative finding, not a certificate of
-openness.
+and the frontmatter standing derives from the claim pages. The note [Sa26] runs
+to eleven pages and is dated 26 April 2026. It is hosted on a file-sharing site
+and was posted to the site's discussion thread. Its Main Theorem 1 constructs a
+class of finite graphs, closed under isomorphism and finite subgraphs, that
+contains for every $n$ a graph forcing a monochromatic triangle under $n$
+colors. The theorem also states that no graph whose finite subgraphs all lie in
+the class forces one under any infinite number of colors. The note is a
+forum-posted claim prepared with the help of Aristotle AI, an automated proof
+system. No refereed publication, arXiv record or independent review was found on
+2026-09-18. Its accompanying Lean project leaves the two combinatorial inputs
+unproved. No other source on the hereditary question was found in the search
+whose scope the Current assessment records. This is a bounded negative finding,
+not a certificate of openness.
 
 **Source.** [erdosproblems.com/638](https://www.erdosproblems.com/638), accessed
 2026-09-18: the problem page (OPEN, with the site's note that no finite

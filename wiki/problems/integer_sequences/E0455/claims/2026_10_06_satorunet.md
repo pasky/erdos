@@ -3,8 +3,8 @@ name: problems/integer_sequences/E0455/claims/2026_10_06_satorunet
 title: Lower bound 0.92 for the normalized convex prime sequence
 desc: |
   A write-up posted to the site's proof-claims tab on 6 October 2026 claims
-  liminf q_n/n^2 at least 0.9200 by a computer-certified residue argument, with
-  constraints on a counterexample; the limit question itself is left open.
+  $\liminf q_n/n^2\ge0.9200$ by a computer-certified residue argument, with
+  constraints on a counterexample. It leaves the limit question itself open.
 authors: []
 status: claimed
 claim: proved

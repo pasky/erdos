@@ -2,9 +2,9 @@
 name: problems/analysis/E1044
 title: Problem 1044
 desc: |
-  Determines the infimum of the largest component boundary length of the
-  region where a polynomial with all roots in the closed unit disc is below
-  one.
+  Asks for the infimum of $\Lambda(f)$, the largest boundary length of a
+  connected component of $\{z:|f(z)|<1\}$, over polynomials
+  $f(z)=\prod_{i=1}^n(z-z_i)$ with every $|z_i|\le1$.
 tags:
 - Analysis
 status: solved
@@ -31,14 +31,14 @@ $$
 
 then determine the infimum of $\Lambda(f)$.
 
-**Status.** SOLVED (LEAN) on the site. Tang's note of 2026-01-05 proves that
-the infimum of $\Lambda(f)$ is $2$; the site's curator credits it and Tao
-read the argument, and it is the accepted claim
-([[problems/analysis/E1044/claims/2026_01_05_tang|Tang's claim page]]). The
-Lean qualifier of the site's label is Luccioli's formalization of Tang's
-note with Aristotle, third-party Lean not built here. The fixed-degree
-question Tang raises, whether $z^n-1$ minimizes $\Lambda$ in each degree
-$n$, is settled only for $n\le2$ and is not part of the problem.
+**Status.** SOLVED (LEAN) on the site. Tang's note of 2026-01-05 proves that the
+infimum of $\Lambda(f)$ is $2$. The site's curator credits it, Tao read the
+argument, and it is the accepted claim
+([[problems/analysis/E1044/claims/2026_01_05_tang|Tang's claim page]]). The Lean
+qualifier of the site's label is Luccioli's formalization of Tang's note with
+Aristotle. It is third-party Lean, not built here. Tang also raises a
+fixed-degree question: whether $z^n-1$ minimizes $\Lambda$ in each degree $n$.
+That question is settled only for $n\le2$ and is not part of the problem.
 
 **Source.** [erdosproblems.com/1044](https://www.erdosproblems.com/1044),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1044,

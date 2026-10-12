@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0508
 title: Problem 508
 desc: |
-  Determines the fewest colors needed to color the plane so that no two
-  points at distance one share a color.
+  Asks for the fewest colors needed to color the plane so that no two points at
+  distance $1$ share a color.
 tags:
 - Geometry
 - Ramsey theory
@@ -25,10 +25,10 @@ updated: 2026-10-07T20:00:46Z
 smallest number of colours required to colour $\mathbb{R}^2$ such that no two
 points of the same colour are distance $1$ apart?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 22
-January 2026) and records the bounds $5\le\chi\le7$ in its remarks; the
-claim pages record de Grey's refereed lower bound, a later result on the
-lower bound, and a rejected announcement of the value.
+**Status.** Open. The site labels the problem OPEN (page last edited 22 January
+2026) and records the bounds $5\le\chi\le7$ in its remarks. The claim pages
+record de Grey's refereed lower bound, a later result on the lower bound, and a
+rejected announcement of the value.
 
 **Source.** [erdosproblems.com/508](https://www.erdosproblems.com/508), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #508,

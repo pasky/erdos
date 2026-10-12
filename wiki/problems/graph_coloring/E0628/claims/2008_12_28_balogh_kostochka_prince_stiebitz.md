@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0628/claims/2008_12_28_balogh_kostochka_prince_stiebitz
 title: The conjecture for quasi-line graphs and independence number 2
 desc: |
-  Balogh, Kostochka, Prince and Stiebitz (2009) prove the Erdős–Lovász
-  Tihany conjecture for quasi-line graphs and for graphs with independence
-  number 2, for every k and every admissible pair; refereed in Discrete Math.
+  Balogh, Kostochka, Prince and Stiebitz (2009) prove the Erdős–Lovász Tihany
+  conjecture for quasi-line graphs and for graphs with independence number $2$,
+  for every $k$ and every admissible pair. It was refereed in Discrete Math.
 authors:
 - József Balogh
 - Alexandr V. Kostochka
@@ -43,10 +43,10 @@ Lean. The statements are recorded on this page as the site credits them.
 every $k$ and every admissible pair $(a,b)$. It says nothing about any graph
 outside these two classes.
 
-**Acceptance.** Refereed: Discrete Math. 309 (2009), no. 12, 3985–3991; the
-issue is dated 28 June 2009; the article was posted online when its DOI was
-registered on 28 December 2008 (the Crossref record's creation date; OpenAlex
-gives the same day), the date of this page; no arXiv preprint exists. The
-site's curator credits the results in the commentary of a problem the site
-labels FALSIFIABLE, a label that settles nothing, so the credit is not listed
-as `reviewed`.
+**Acceptance.** Refereed: Discrete Math. 309 (2009), no. 12, 3985–3991, in the
+issue dated 28 June 2009. The article was posted online when its DOI was
+registered on 28 December 2008, the date of this page. That is the Crossref
+record's creation date, and OpenAlex gives the same day. No arXiv preprint
+exists. The site's curator credits the results in the commentary of a problem
+the site labels FALSIFIABLE. That label settles nothing, so the credit is not
+listed as `reviewed`.

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0611
 title: Problem 611
 desc: |
-  Asks whether cliques of linear size force a sublinear clique transversal
-  and which clique size k_c(n) forces a transversal below (1 − c)n; open, with
-  k_c(n) ≥ n^{c'/log log n} (infinitely many n) and τ ≤ n − √(kn) from 1992.
+  Asks whether cliques of at least $cn$ vertices force a sublinear clique
+  transversal $\tau$, and which clique size $k_c(n)$ forces $\tau<(1-c)n$. Open;
+  by 1992, $k_c(n)\ge n^{c'/\log\log n}$ for infinitely many $n$, and
+  $\tau\le n-\sqrt{kn}$ with small exceptions if cliques exceed $k$ vertices.
 tags:
 - Graph theory
 status: open
@@ -49,36 +50,36 @@ question in the same words with Erdős's 1994 collection as its source. The
 page-level status describes both questions; neither is answered.
 
 **Status.** Open, the site's label. No source answering either question for
-arbitrary graphs was found in the search whose scope the
-Current assessment records. What Erdős, Gallai and Tuza give (Discrete Math.
-108 (1992), refereed): for the second question,
-$k_c(n)\ge n^{c'/\log\log n}$ for some $c'>0$ and infinitely many $n$ (their
-Theorem 5: an infinite sequence of graphs whose cliques all have at least
-$n^{c/\log\log n}$ vertices with $\tau(G)\ge n-o(n)$) and, from their Theorem 2
-($\tau(G)\le n-\sqrt{kn}$ when every clique has more than $k$ vertices,
-$n\ge k+2$, the $5$-cycle excepted), the elementary consequence
-$k_c(n)\le\lfloor c^2n\rfloor+2$ for large $n$, written out below; so $k_c(n)$
-lies between a slowly growing power of $n$, along an infinite sequence of $n$,
-and a linear function, and the paper itself says (p. 280) that "no upper
-bounds on $k(n)$ are known as sufficient conditions insuring a small
-clique-transversal number". For the first question the same theorem gives only
-a linear saving, $\tau(G)\le(1-\sqrt c+o(1))n$ when every clique has at least
-$cn$ vertices, and nothing found gives $o(n)$ for arbitrary graphs. Four
-further sources answer the first question, or give a constant-fraction
-bound, inside restricted graph classes only, as the Current assessment
-records: Tuza (1990) for strongly chordal graphs, where $\tau(G)\le n/r(G)$
-with $r(G)$ the least order of a maximal clique, so cliques of at least $cn$
-vertices give $\tau(G)\le1/c$; Bacsó, Gravier, Gyárfás, Preissmann and Sebő
-(2004) through clique colorings; Bacsó and Tuza (2009) for subcubic and
-claw-free graphs of maximum degree at most four; and Cooper, Grzesik and Král'
-(2018) for chordal graphs. None of them bears on arbitrary graphs.
-The site's third statement, that $\tau(G)=1$ once every clique has at least
-$n+3-2\sqrt n$ vertices, which the site and the paper call best possible, is
-attested by the paper's Note added in proof (p. 288: proved "with B. Bollobás
-in Oberwolfach, 1990", the threshold printed as $n+3-\lceil2\sqrt n\rceil$)
-with no published proof located; small graphs written out below witness its
-sharpness for $4\le n\le7$. This is a bounded negative finding, not a
-certificate of openness.
+arbitrary graphs was found in the search whose scope the Current assessment
+records. This is a bounded negative finding, not a certificate of openness.
+Erdős, Gallai and Tuza (Discrete Math. 108 (1992), refereed) give the following.
+For the second question, $k_c(n)\ge n^{c'/\log\log n}$ for some $c'>0$ and
+infinitely many $n$. This is their Theorem 5, an infinite sequence of graphs
+whose cliques all have at least $n^{c/\log\log n}$ vertices with
+$\tau(G)\ge n-o(n)$. Their Theorem 2 gives $\tau(G)\le n-\sqrt{kn}$ when every
+clique has more than $k$ vertices and $n\ge k+2$, the $5$-cycle excepted. Its
+elementary consequence $k_c(n)\le\lfloor c^2n\rfloor+2$ for large $n$ is written
+out below. So $k_c(n)$ lies between a slowly growing power of $n$, along an
+infinite sequence of $n$, and a linear function. The paper itself says (p. 280)
+that "no upper bounds on $k(n)$ are known as sufficient conditions insuring a
+small clique-transversal number". For the first question, the same theorem gives
+only a linear saving, $\tau(G)\le(1-\sqrt c+o(1))n$ when every clique has at
+least $cn$ vertices. Nothing found gives $o(n)$ for arbitrary graphs.
+
+Four further sources answer the first question, or give a constant-fraction
+bound, inside restricted graph classes only, as the Current assessment records.
+Tuza (1990) treats strongly chordal graphs, where $\tau(G)\le n/r(G)$ with
+$r(G)$ the least order of a maximal clique, so cliques of at least $cn$ vertices
+give $\tau(G)\le1/c$. Bacsó, Gravier, Gyárfás, Preissmann and Sebő (2004) work
+through clique colorings. Bacsó and Tuza (2009) treat subcubic and claw-free
+graphs of maximum degree at most four. Cooper, Grzesik and Král' (2018) treat
+chordal graphs. None of them bears on arbitrary graphs. The site's third
+statement is that $\tau(G)=1$ once every clique has at least $n+3-2\sqrt n$
+vertices, which the site and the paper call best possible. It is attested by the
+paper's Note added in proof (p. 288: proved "with B. Bollobás in Oberwolfach,
+1990", the threshold printed as $n+3-\lceil2\sqrt n\rceil$), and no published
+proof was located. Small graphs written out below witness its sharpness for
+$4\le n\le7$.
 
 **Source.** [erdosproblems.com/611](https://www.erdosproblems.com/611),
 accessed 2026-09-19: the problem page (OPEN,

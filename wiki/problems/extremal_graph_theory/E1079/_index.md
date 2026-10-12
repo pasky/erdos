@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1079
 title: Problem 1079
 desc: |
-  Asks whether a graph with the Turán number of edges has a linear-degree
-  vertex whose neighborhood has the Turán number of edges for r − 1; proved
-  by Bollobás and Thomason in 1981, strengthened by Bondy in 1983.
+  Asks whether, for $r\ge4$, a graph on $n$ vertices with at least
+  $\mathrm{ex}(n;K_r)$ edges has a vertex of degree $d\gg_r n$ whose
+  neighborhood has at least $\mathrm{ex}(d;K_{r-1})$ edges. Proved by Bollobás
+  and Thomason in 1981 and strengthened by Bondy in 1983.
 tags:
 - Graph theory
 - Turán numbers
@@ -70,72 +71,75 @@ take $S=N(x)$ for the vertex $x$ of the Bollobás--Thomason theorem, with
 $|S|=d>c_rn$ and at least $\mathrm{ex}(d;K_{r-1})+1$ edges; for the Turán
 graph any neighborhood $N(x)$ has exactly $\mathrm{ex}(d;K_{r-1})$ edges.
 
-**Status.** Solved, the site's label; the answer is yes, and the standing
-here is solved and proved, derived from the claim pages below. The site
-credits the affirmative answer, with the Turán graph as the one exception,
-to Bollobás and Thomason [BoTh81], credits Bondy [Bo83b] with the
-strengthening that for more than $\mathrm{ex}(n;K_r)$ edges the vertex can
-be taken of maximum degree, and the community database records the problem
-as solved. The two status-defining sources are B. Bollobás and A. Thomason,
-"Dense neighbourhoods and Turán's theorem", J. Combin. Theory Ser. B 31
-(1981), no. 1, 111--114, and J. A. Bondy, "Large dense neighbourhoods and
-Turán's theorem", J. Combin. Theory Ser. B 34 (1983), no. 1, 109--111 (both
-refereed, per their Crossref records). Neither source card holds a file.
+**Status.** Solved, the site's label. The answer is yes. The standing here is
+solved and proved, derived from the claim pages below. The site credits the
+affirmative answer, with the Turán graph as the one exception, to Bollobás and
+Thomason [BoTh81]. It credits Bondy [Bo83b] with the strengthening that for more
+than $\mathrm{ex}(n;K_r)$ edges the vertex can be taken of maximum degree. The
+community database records the problem as solved.
+
+The two status-defining sources are B. Bollobás and A. Thomason, "Dense
+neighbourhoods and Turán's theorem", J. Combin. Theory Ser. B 31 (1981), no. 1,
+111--114, and J. A. Bondy, "Large dense neighbourhoods and Turán's theorem", J.
+Combin. Theory Ser. B 34 (1983), no. 1, 109--111. Both are refereed, per their
+Crossref records. Neither source card holds a file.
+
 [BoTh81] (library home
 [[../library/extremal_graph_theory/bollobas_thomason_1981_dense_neighbourhoods_turan_s_theorem/_index|bollobas_thomason_1981_dense_neighbourhoods_turan_s_theorem]],
-the publisher's open-archive version) carries the affirmative
-answer in its theorem (printed p. 111), paged at
-[[../library/extremal_graph_theory/bollobas_thomason_1981_dense_neighbourhoods_turan_s_theorem/theorem_p111|theorem_p111]],
-in the paper's indexing with $T_r(n)$ the $r$-partite Turán graph and
-$t_r(n)$ its number of edges: "Let $G$ be a graph of order $n$ with
-$m\ge t_r(n)$ edges. Then either $G=T_r(n)$ or else there is a vertex $x$
-such that $G[\Gamma(x)]$, the subgraph spanned by the neighbours of $x$,
-contains at least $t_{r-1}(d)+1$ edges, where $d=d(x)$. Furthermore
-$d(x)>n(1-1/r-1/(1+\sqrt r))$." With $t_{r-1}(n)=\mathrm{ex}(n;K_r)$ this
-is the site's statement in the paper's letters, with the "$+1$" of Erdős's
-question in the conclusion, the Turán graph the only exception, and an
-explicit constant, $c_r=1-\frac1{r-1}-\frac1{1+\sqrt{r-1}}$ in the site's
-indexing ($c_4\approx0.30$). The paper attributes the conjecture to [Er75],
-its [2], in the form "if $e(G^n)>t_r(n)$" (p. 111). Its proof
-(pp. 112--114) is followed on the card, which records four observations
-(three misprints and a final inequality that needs $n\ge r(1+\sqrt r)^2/2$ in
-the paper's $r$). [Bo83b] (library home
+the publisher's open-archive version) carries the affirmative answer in its
+theorem (printed p. 111), paged at
+[[../library/extremal_graph_theory/bollobas_thomason_1981_dense_neighbourhoods_turan_s_theorem/theorem_p111|theorem_p111]].
+In the paper's indexing, $T_r(n)$ is the $r$-partite Turán graph and $t_r(n)$
+its number of edges. The theorem reads: "Let $G$ be a graph of order $n$ with
+$m\ge t_r(n)$ edges. Then either $G=T_r(n)$ or else there is a vertex $x$ such
+that $G[\Gamma(x)]$, the subgraph spanned by the neighbours of $x$, contains at
+least $t_{r-1}(d)+1$ edges, where $d=d(x)$. Furthermore
+$d(x)>n(1-1/r-1/(1+\sqrt r))$." With $t_{r-1}(n)=\mathrm{ex}(n;K_r)$ this is the
+site's statement in the paper's letters. It has the "$+1$" of Erdős's question
+in the conclusion, the Turán graph as the only exception, and an explicit
+constant, $c_r=1-\frac1{r-1}-\frac1{1+\sqrt{r-1}}$ in the site's indexing
+($c_4\approx0.30$). The paper attributes the conjecture to [Er75], its [2], in
+the form "if $e(G^n)>t_r(n)$" (p. 111). Its proof (pp. 112--114) is followed on
+the card. The card records four observations: three misprints, and a final
+inequality that needs $n\ge r(1+\sqrt r)^2/2$ in the paper's $r$.
+
+[Bo83b] (library home
 [[../library/extremal_graph_theory/bondy_1983_large_dense_neighbourhoods_turan_s_theorem/_index|bondy_1983_large_dense_neighbourhoods_turan_s_theorem]],
-the publisher's version with its erratum) carries Bondy's own
-strengthening as its
-Theorem 2 (p. 110), paged at
+the publisher's version with its erratum) carries Bondy's own strengthening as
+its Theorem 2 (p. 110), paged at
 [[../library/extremal_graph_theory/bondy_1983_large_dense_neighbourhoods_turan_s_theorem/theorem_2|theorem_2]],
-in the same indexing: "Let $G$ be a simple graph on $n$ vertices and more
-than $t_r(n)$ edges, where $r\ge2$, and let $v$ be a vertex in $G$ of
-degree $m=\Delta(G)$. Then the subgraph induced by the neighbours of $v$
-has more than $t_{r-1}(m)$ edges"; its proof is twelve lines. In the problem's
-letters: more than $\mathrm{ex}(n;K_r)$ edges, Erdős's
-$f_r(n)$, force every vertex of maximum degree $m$ to have a neighborhood
-with more than $\mathrm{ex}(m;K_{r-1})$ edges, Erdős's "at least
-$f_{r-1}(m)$"; the maximum degree is at least the average degree, which is
-more than $2\,\mathrm{ex}(n;K_r)/n\ge(1-\frac1{r-1})n-\frac{r-1}{4n}$, so
-the degree is linear (this page's own observation; the note states no degree
-bound for its own theorem). The note also states the theorem of [BoTh81] as
-its Theorem 1 (p. 109), paged at
-[[../library/extremal_graph_theory/bondy_1983_large_dense_neighbourhoods_turan_s_theorem/theorem_1|theorem_1]],
-with the attribution "proved independently by Bollobás and Thomason [1] and
-Erdős and Sós [4]" and the degree bound
-$d(v)>(1-\frac1r-\frac1{1+\sqrt r})n$ as its (1); the restatement agrees
-with the 1981 theorem, its "more than $t_{r-1}(m)$ edges" being that paper's
-"at least $t_{r-1}(d)+1$ edges", and it names a second proof, an Erdős--Sós
-preprint, which is not among this page's sources. Bondy's examples
-(p. 111), graphs with exactly $t_r(n)$ edges that are not Turán graphs and
-whose maximum-degree vertices do not have the strict conclusion, show that
-the "$>$" of the site's account of [Bo83b] cannot be weakened for that
-conclusion; for the site's non-strict conclusion a maximum-degree vertex
-always works, as the Bondy claim page records. Nothing here is
-independently reviewed. The site's label SOLVED attaches to an affirmative
-answer proved in two refereed notes; the claim pages
-([[problems/extremal_graph_theory/E1079/claims/1981_08_01_bollobas_thomason|Bollobás and Thomason]],
-full, and
-[[problems/extremal_graph_theory/E1079/claims/1983_02_01_bondy|Bondy]],
-partial, for graphs with more than $\mathrm{ex}(n;K_r)$ edges) record the
-result as proved.
+in the same indexing: "Let $G$ be a simple graph on $n$ vertices and more than
+$t_r(n)$ edges, where $r\ge2$, and let $v$ be a vertex in $G$ of degree
+$m=\Delta(G)$. Then the subgraph induced by the neighbours of $v$ has more than
+$t_{r-1}(m)$ edges". Its proof is twelve lines. In the problem's letters, more
+than $\mathrm{ex}(n;K_r)$ edges, Erdős's $f_r(n)$, force every vertex of maximum
+degree $m$ to have a neighborhood with more than $\mathrm{ex}(m;K_{r-1})$ edges,
+Erdős's "at least $f_{r-1}(m)$". The maximum degree is at least the average
+degree, which is more than
+$2\,\mathrm{ex}(n;K_r)/n\ge(1-\frac1{r-1})n-\frac{r-1}{4n}$, so the degree is
+linear. This is this page's own observation; the note states no degree bound for
+its own theorem.
+
+The note also states the theorem of [BoTh81] as its Theorem 1 (p. 109), paged at
+[[../library/extremal_graph_theory/bondy_1983_large_dense_neighbourhoods_turan_s_theorem/theorem_1|theorem_1]].
+It gives the attribution "proved independently by Bollobás and Thomason [1] and
+Erdős and Sós [4]" and the degree bound $d(v)>(1-\frac1r-\frac1{1+\sqrt r})n$ as
+its (1). The restatement agrees with the 1981 theorem: its "more than
+$t_{r-1}(m)$ edges" is that paper's "at least $t_{r-1}(d)+1$ edges". It names a
+second proof, an Erdős--Sós preprint, which is not among this page's sources.
+Bondy's examples (p. 111) are graphs with exactly $t_r(n)$ edges that are not
+Turán graphs and whose maximum-degree vertices do not have the strict
+conclusion. They show that the "$>$" of the site's account of [Bo83b] cannot be
+weakened for that conclusion. For the site's non-strict conclusion a
+maximum-degree vertex always works, as the Bondy claim page records.
+
+Nothing here is independently reviewed. The site's label SOLVED attaches to an
+affirmative answer proved in two refereed notes. The claim pages record the
+result as proved:
+[[problems/extremal_graph_theory/E1079/claims/1981_08_01_bollobas_thomason|Bollobás and Thomason]]
+(full) and
+[[problems/extremal_graph_theory/E1079/claims/1983_02_01_bondy|Bondy]] (partial,
+for graphs with more than $\mathrm{ex}(n;K_r)$ edges).
 
 **Source.** [erdosproblems.com/1079](https://www.erdosproblems.com/1079),
 accessed 2026-09-18: the problem page

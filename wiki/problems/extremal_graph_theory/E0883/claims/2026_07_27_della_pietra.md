@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E0883/claims/2026_07_27_della_pietra
 title: The odd-cycle threshold for large n, with a Lean development
 desc: |
   Della Pietra's manuscript and Lean development claim the first question of
-  Problem 883 for all sufficiently large n, every odd cycle of length at most
-  n/3+1 above the triangle threshold, with 1/6 sharp; unreviewed.
+  Problem 883 for all sufficiently large $n$: a set above the triangle threshold
+  has every odd cycle of length at most $n/3+1$ in its coprime graph, and $1/6$
+  is sharp. The claim is unreviewed.
 authors:
 - Donald Della Pietra
 status: claimed

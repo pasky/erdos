@@ -3,8 +3,9 @@ name: problems/integer_sequences/E0421/claims/2026_07_21_sneiderman
 title: A reconstruction of the gap-greedy proof with a sharper exponent
 desc: |
   Sneiderman's note of 21 July 2026 reproves Chojecki's density-one
-  construction with short rejected gaps bounded by X^{43/50+o(1)}; posted as a
-  site proof claim, made with GPT 5.6 Sol Ultra, followed by Pratt's digest.
+  construction, with short rejected gaps bounded by $X^{43/50+o(1)}$. It was
+  made with GPT 5.6 Sol Ultra, posted as a site proof claim and followed by
+  Pratt's digest.
 authors:
 - Rob Sneiderman
 status: accepted
@@ -70,23 +71,25 @@ in almost all short intervals. Only $o(X)$ integers are discarded, so the set
 has density one. The entry's own note says the proof is posted for independent
 checking.
 
-**Acceptance.** Reviewed: Pratt's digested proof of 1 September 2026, the
-site's proof exposition, states that its presentation follows the proofs of
-Chojecki and Sneiderman with minor modifications and credits Sneiderman with
-improving quantitative aspects of Chojecki's proof; the site's curator,
-Thomas Bloom, who has no part in the note, records the answer as yes and
-labels the problem SOLVED (page last edited 1 September 2026). The
-proof-claim tab carries the site's standing notice that a listing is no
-guarantee of correctness and does not mean anyone associated with the site
-examined the proof. Not refereed. A Lean development by OpenAI Codex in Boris
-Alexeev's repository `plby/lean-proofs` formalizes the problem from this
-note, which its header names as the selected source, with Chojecki's
-construction. Its theorem `Erdos421.erdos_421` states the existence the
-formal-conjectures statement asserts, its axiom report lists only propext,
-Classical.choice and Quot.sound, and formal-conjectures has linked it as that
-statement's formal proof since 18 September 2026. This corpus has not built
-or audited it, so it gives no `formalized` evidence. The note is not held in
-this corpus; this page draws on its proof-claim entry and Pratt's
-description of it.
+**Acceptance.** Reviewed: Pratt's digested proof of 1 September 2026 is the
+site's proof exposition. It states that its presentation follows the proofs of
+Chojecki and Sneiderman with minor modifications. It credits Sneiderman with
+improving quantitative aspects of Chojecki's proof. The site's curator, Thomas
+Bloom, has no part in the note. He records the answer as yes and labels the
+problem SOLVED (page last edited 1 September 2026). The proof-claim tab carries
+the site's standing notice that a listing is no guarantee of correctness and
+does not mean anyone associated with the site examined the proof. Not refereed.
+
+A Lean development by OpenAI Codex in Boris Alexeev's repository
+`plby/lean-proofs` formalizes the problem from this note, with Chojecki's
+construction. Its header names the note as the selected source. Its theorem
+`Erdos421.erdos_421` states the existence that the formal-conjectures statement
+asserts. Its axiom report lists only propext, Classical.choice and Quot.sound.
+Since 18 September 2026, formal-conjectures has linked it as that statement's
+formal proof. This corpus has not built or audited it, so it gives no
+`formalized` evidence.
+
+The note is not held in this corpus. This page draws on its proof-claim entry
+and on Pratt's description of it.
 
 **Depends on.** No page of this wiki.

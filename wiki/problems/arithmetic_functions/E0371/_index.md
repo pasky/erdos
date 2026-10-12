@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0371
 title: Problem 371
 desc: |
-  Asks whether the integers n whose largest prime factor is smaller than that
-  of n plus one have density one half.
+  Asks whether the integers $n$ whose largest prime factor is smaller than that
+  of $n+1$ have density $1/2$.
 tags:
 - Number theory
 status: solved
@@ -23,18 +23,18 @@ updated: 2026-10-08T13:36:26Z
 **Statement.** Let $P(n)$ denote the largest prime factor of $n$. Show that the
 set of $n$ with $P(n)<P(n+1)$ has density $1/2$.
 
-**Status.** Proved here; the site's label is OPEN (page last edited 23
-January 2026). The OpenAI release's manuscript *The joint Dickman law for
-consecutive integers* (2026-09-24) claims that the normalized largest prime
-factors of $n$ and $n+1$ have independent Dickman limit laws in natural density
-and deduces from that the density $1/2$ this problem asks for. Its Lean proof of
-that corollary was built by this corpus with only the three standard axioms, its
-fingerprint identical to the release's comparator challenge, and the statement
-audit found it exact, so the claim is accepted on
-[[problems/arithmetic_functions/E0371/claims/2026_09_24_openai|the release's joint Dickman law]]
-and the problem stands solved; the manuscript has no outside review. Wang [Wa21]
-proved the density under the Elliott–Halberstam conjecture for friable integers,
-an accepted conditional claim,
+**Status.** The site's label is OPEN (page last edited 23 January 2026), but the
+problem is proved here. The OpenAI release's manuscript *The joint Dickman law
+for consecutive integers* (2026-09-24) claims that the normalized largest prime
+factors of $n$ and $n+1$ have independent Dickman limit laws in natural density.
+From this it deduces the density $1/2$ that this problem asks for. This corpus
+built the manuscript's Lean proof of that corollary with only the three standard
+axioms, and its fingerprint is identical to the release's comparator challenge.
+The statement audit found it exact. The claim is therefore accepted on
+[[problems/arithmetic_functions/E0371/claims/2026_09_24_openai|the release's joint Dickman law]],
+and the problem stands solved. The manuscript has no outside review. Wang [Wa21]
+proved the density under the Elliott–Halberstam conjecture for friable integers.
+This is an accepted conditional claim,
 [[problems/arithmetic_functions/E0371/claims/2021_01_20_wang|Wang 2021]], which
 settles no standing.
 

@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0194/claims/2011_12_01_ardal_brown_jungic
 title: Ardal, Brown and Jungić order the reals without a monotone progression
 desc: |
-  A linear ordering of the reals with no monotone three-term arithmetic
-  progression, built from a chaotic ordering of the integers through the
-  rationals and a Hamel basis, answers no for every k at least 3; refereed.
+  Ardal, Brown and Jungić give a linear ordering of the reals with no monotone
+  three-term arithmetic progression, which answers no for every $k\ge3$. It is
+  built from a chaotic ordering of the integers, carried through the rationals
+  and a Hamel basis, and the paper is refereed.
 authors:
 - Hayri Ardal
 - Tom Brown
@@ -59,18 +60,19 @@ progressions. The
 [[../library/additive_combinatorics/ardal_2011_chaotic_orderings_rationals_reals/_index|library card]]
 records the paper.
 
-**Acceptance.** Refereed: Ardal, H., Brown, T. and Jungić, V., Chaotic
-orderings of the rationals and reals, Amer. Math. Monthly 118 (2011), no. 10,
-921–925 (the December 2011 issue, the date of this page). Reviewed: the site's
-curator, Thomas Bloom, labels the problem disproved, states the negative answer
-for every $k\ge 3$ and credits it to [ABJ11]. The site's label DISPROVED (LEAN)
-and the catalog statement `Erdos194.erdos_194`, marked solved with a
-`formal_proof` link, point at a Lean file written with Aristotle and posted by
-a forum user in the site's discussion thread on 2026-04-15, a formalization of
-this result linked above; it follows the paper's construction and states its
-own `erdos_194`, the existence of a linear ordering of $\mathbb{R}$ with no
-strictly increasing or decreasing $k$-term progression for every $k\ge 3$, in
-its own vocabulary rather than the catalog's. The file was not built or audited
-by this corpus, so `formalized` is not listed.
+**Acceptance.** Refereed: Ardal, H., Brown, T. and Jungić, V., Chaotic orderings
+of the rationals and reals, Amer. Math. Monthly 118 (2011), no. 10, 921–925.
+This is the December 2011 issue, which gives the date of this page. Reviewed:
+the site's curator, Thomas Bloom, labels the problem disproved, states the
+negative answer for every $k\ge 3$ and credits it to [ABJ11]. The catalog
+statement `Erdos194.erdos_194` is marked solved with a `formal_proof` link. That
+link and the site's label DISPROVED (LEAN) point at a Lean file written with
+Aristotle and posted by a forum user in the site's discussion thread on
+2026-04-15. The file is a formalization of this result and is linked above. It
+follows the paper's construction. Its own statement `erdos_194` is written in
+its own vocabulary rather than the catalog's. It asserts the existence of a
+linear ordering of $\mathbb{R}$ with no strictly increasing or decreasing
+$k$-term progression for every $k\ge 3$. The file was not built or audited by
+this corpus, so `formalized` is not listed.
 
 **Depends on.** No wiki page; the claim rests on the cited paper.

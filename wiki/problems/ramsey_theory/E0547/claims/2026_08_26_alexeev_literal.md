@@ -2,10 +2,10 @@
 name: problems/ramsey_theory/E0547/claims/2026_08_26_alexeev_literal
 title: Lean disproofs of the site's wording at the one-vertex tree
 desc: |
-  Answers the site's wording (every n, the one-vertex tree included), not the
-  corrected Statement (trees on n at least 2 vertices), so it does not count
-  toward the problem's standing. Two Lean theorems in Alexeev's repository
-  prove the site's wording false for the one-vertex tree.
+  Answers the site's wording (every $n$, the one-vertex tree included), not the
+  corrected Statement (trees on $n\ge2$ vertices), so it does not count toward
+  the problem's standing. Two Lean theorems in Alexeev's repository prove the
+  site's wording false for the one-vertex tree.
 authors:
 - Boris Alexeev
 status: rejected

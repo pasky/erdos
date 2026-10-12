@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1037/claims/2025_09_22_cambie_chan_hunter
 title: The Cambie–Chan–Hunter construction disproving Problem 1037
 desc: |
-  A construction posted to the site's forum in September 2025: four joined
-  copies of one random graph with (3/4 − o(1))n distinct degrees and trivial
-  subgraphs of O(log n) vertices; the site records it as the disproof.
+  Cambie, Chan and Hunter's construction, posted to the site's forum in
+  September 2025, joins four copies of one random graph into a graph with
+  $(3/4-o(1))n$ distinct degrees whose trivial subgraphs have $O(\log n)$
+  vertices. The site records it as the disproof.
 authors:
 - Stijn Cambie
 - Koishi Chan
@@ -105,15 +106,18 @@ The file closes with `#print axioms not_erdos_1037` and a comment reporting
 build, replay or axiom audit of the file and no review of the fidelity of its
 statements to the site's question, so the page lists no `formalized` evidence.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
-DISPROVED (LEAN), credits the construction to the three authors in the
-commentary (Bloom took no part in it), and in the thread (19 January 2026) fixed
-the quantifier reading of the question that the construction refutes: for every
-$\epsilon>0$ and every $C>0$, every large graph with at least
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, who took no part in
+the construction, labels the problem DISPROVED (LEAN) and credits the
+construction to the three authors in the commentary. In the thread (19 January
+2026) he fixed the quantifier reading of the question that the construction
+refutes: for every $\epsilon>0$ and every $C>0$, every large graph with at least
 $(\tfrac12+\epsilon)n$ distinct degrees has a trivial subgraph on more than
-$C\log n$ vertices (the problem page's Formulation records this reading with the
-at-most-twice hypothesis restored). The community database records the problem
-as disproved. Not refereed: the construction exists only as forum comments, and
-no paper or preprint of it is known. The gap in the comment's count noted above
-is this page's own observation; the acceptance rests on the site's acceptance,
-not on a local review.
+$C\log n$ vertices. The problem page's Formulation records this reading with the
+at-most-twice hypothesis restored. The community database records the problem as
+disproved.
+
+Not refereed: the construction exists only as forum comments, and no paper or
+preprint of it is known.
+
+The gap in the comment's count noted above is this page's own observation. The
+acceptance rests on the site's acceptance, not on a local review.

@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0769
 title: Problem 769
 desc: |
-  Bounds the least k beyond which the n-dimensional unit cube splits into k
-  homothetic cubes, in particular whether it grows at least like n to the
-  power n.
+  Asks for bounds on the least $c(n)$ such that the $n$-dimensional unit cube
+  splits into $k$ homothetic cubes for every $k\ge c(n)$, and in particular
+  whether $c(n)\gg n^n$.
 tags:
 - Number theory
 - Geometry
@@ -27,15 +27,15 @@ $n$-dimensional unit cube can be decomposed into $k$ homothetic $n$-dimensional
 cubes. Give good bounds for $c(n)$ - in particular, is it true that $c(n) \gg
 n^n$?
 
-**Status.** Open on the site: the erdosproblems.com page labels the problem
-OPEN (page last edited 1 October 2025), and its proof-claims tab carries two
-partial proof claims, Jeffrey Zeng's listing of 24 July 2026 and Samuel
-Korsky's manuscript of 5 August 2026; a third partial claim, the Lean disproof
-of the $n^n$ bound that Star Fleet Math lists with a report dated 14 July 2026
-and the formal-conjectures catalog links, is not on the tab. Each is recorded
-on its own page under
-[[problems/discrete_geometry/E0769/claims/_index|claims]] without being
-adopted; the standing in the frontmatter is derived from the claim pages.
+**Status.** Open on the site. The erdosproblems.com page labels the problem OPEN
+(page last edited 1 October 2025). Its proof-claims tab carries two partial
+proof claims: Jeffrey Zeng's listing of 24 July 2026 and Samuel Korsky's
+manuscript of 5 August 2026. A third partial claim is not on the tab. It is the
+Lean disproof of the $n^n$ bound, which Star Fleet Math lists with a report
+dated 14 July 2026 and which the formal-conjectures catalog links. Each of the
+three is recorded on its own page under
+[[problems/discrete_geometry/E0769/claims/_index|claims]] without being adopted.
+The standing in the frontmatter is derived from the claim pages.
 
 **Source.** [erdosproblems.com/769](https://www.erdosproblems.com/769), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #769,

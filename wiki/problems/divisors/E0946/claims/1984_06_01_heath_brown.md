@@ -2,9 +2,9 @@
 name: problems/divisors/E0946/claims/1984_06_01_heath_brown
 title: Heath-Brown's infinitely many equal divisor counts at n and n plus 1
 desc: |
-  Heath-Brown proves that tau(n) equals tau(n plus 1) for infinitely many n,
-  at least a constant times x over the seventh power of log x of them up to
-  x, answering the question of Erdős and Mirsky affirmatively.
+  Heath-Brown proves that $\tau(n)=\tau(n+1)$ for infinitely many $n$, indeed
+  for at least $cx/(\log x)^7$ integers $n\le x$, where $c$ is a constant. This
+  answers the question of Erdős and Mirsky affirmatively.
 authors:
 - D. R. Heath-Brown
 status: accepted
@@ -65,10 +65,9 @@ formal-conjectures statement file of the problem points at it through a
 `formal_proof` attribute since 18 September 2026. This corpus has not built
 or audited it, so no `formalized` evidence is listed.
 
-**Acceptance.** Thomas Bloom, the site's curator, labels the problem proved
-and credits Heath-Brown's paper for the proof on the problem page, last
-edited 2 February 2026; that credit is the `reviewed` evidence. The paper is
-a refereed article in Mathematika, the `refereed` evidence. The paper is not
-held in the library and its proof has not been reproduced here; the count is
-recorded as the problem page and the Erdős, Pomerance and Sárközy card state
-it.
+**Acceptance.** Thomas Bloom, the site's curator, labels the problem proved and
+credits Heath-Brown's paper for the proof on the problem page, last edited 2
+February 2026. That credit is the `reviewed` evidence. The paper is a refereed
+article in Mathematika, which is the `refereed` evidence. The paper is not held
+in the library, and its proof has not been reproduced here. The count is
+recorded as the problem page and the Erdős, Pomerance and Sárközy card state it.

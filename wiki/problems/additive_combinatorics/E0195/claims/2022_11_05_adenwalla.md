@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0195/claims/2022_11_05_adenwalla
 title: Adenwalla's permutation of the integers without a monotone 5-term progression
 desc: |
-  Adenwalla's permutation of the integers with no monotone five-term
-  arithmetic progression, so the largest forced length is at most 4; refereed
-  in Discrete Math. 2024.
+  Adenwalla's permutation of the integers with no monotone five-term arithmetic
+  progression shows that the largest forced length is at most $4$. The refereed
+  paper appeared in Discrete Math. in 2024.
 authors:
 - Sarosh Adenwalla
 status: accepted

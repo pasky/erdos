@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E0612/claims/1989_08_01_erdos_pach_pollack_
 title: The triangle-free case of part (ii)
 desc: |
   Theorem 2 of Erdős, Pach, Pollack and Tuza (JCTB 1989) bounds the diameter of
-  a connected triangle-free graph by 2n/δ + O(1), the r = 1 instance of part
-  (ii) of the site's wording; refereed, so accepted as a partial claim.
+  a connected triangle-free graph by $2n/\delta+O(1)$. This is the instance
+  $r=1$ of part (ii) in the site's wording, and it is refereed, so it is
+  accepted as a partial claim.
 authors:
 - Paul Erdős
 - János Pach
@@ -53,13 +54,12 @@ and part (ii) for every $r\ge2$, the subquestion the problem page describes.
 
 **Depends on.** Nothing in this wiki; the proof is the paper's own.
 
-**Acceptance.** Refereed: J. Combin. Theory Ser. B 47 (1989), no. 1, 73--79
-(the issue is headed "Vol. 47, No. 1, August 1989"; the day is the issue's
-nominal first day, used for this page's date). The site's commentary
-credits the authors with the case $2r+1=3$ while labeling the problem OPEN,
-which is commentary and not acceptance, so `reviewed` is not listed. The
-offprint is paged on the
-[[../library/extremal_graph_theory/erdos_1989_radius/_index|source card]],
-where the statement is paged at claims-checked depth; the proof
-(pp. 76--77) is read for structure only, and the acceptance recorded here
-rests on the publication, not on a local review.
+**Acceptance.** Refereed: J. Combin. Theory Ser. B 47 (1989), no. 1, 73--79. The
+issue is headed "Vol. 47, No. 1, August 1989", and this page's date uses the
+issue's nominal first day. The site's commentary credits the authors with the
+case $2r+1=3$, but the site labels the problem OPEN. That is commentary, not
+acceptance, so `reviewed` is not listed. The offprint is paged on the
+[[../library/extremal_graph_theory/erdos_1989_radius/_index|source card]], where
+the statement is paged at claims-checked depth. The proof (pp. 76--77) is read
+for structure only. The acceptance recorded here rests on the publication, not
+on a local review.

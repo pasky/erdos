@@ -2,9 +2,9 @@
 name: problems/number_theory/E1180
 title: Problem 1180
 desc: |
-  Asks whether, for each positive epsilon, boundedly many inverses of integers
-  up to p^epsilon represent every residue modulo any prime p; proved by
-  Shparlinski, Croot and Glibichuk, whose bound has order epsilon^(-2).
+  Asks whether, for each $\epsilon>0$, every residue modulo every prime $p$ is a
+  sum of boundedly many inverses of integers up to $p^\epsilon$; proved by
+  Shparlinski, Croot and Glibichuk, whose bound has order $\epsilon^{-2}$.
 tags:
 - Number theory
 status: solved
@@ -48,31 +48,39 @@ with repetition allowed, but with exactly $N$ summands as printed, which fails
 for the primes with $p^\epsilon<2$, so his statement too needs the at-most
 reading for the small primes (see his page).
 
-**Status.** Proved, in the site's label. Shparlinski's Theorem 3 (Arch. Math. 78
-(2002), 445--448, refereed), an accepted full claim on
-[[problems/number_theory/E1180/claims/2002_06_01_shparlinski|its page]], gave
-the first affirmative answer: for every $\epsilon>0$, every sufficiently large
-prime $p$ and every integer $c$, $k=4\epsilon^{-3}+O(\epsilon^{-2})$ pairwise
-distinct $x_i\le p^\epsilon$ with $\sum x_i^{-1}\equiv c\pmod p$, the site's
-$C_\epsilon\ll\epsilon^{-3}$ for $p\ge p_0(\epsilon)$, which the authored
-small-prime remark below extends to every prime with repetition allowed. Also
-first-hand: Croot's Theorem 2 with $k=1$ (Integers 4 (2004), Paper A20,
-refereed; the journal's text agrees with arXiv v2), on
-[[problems/number_theory/E1180/claims/2004_03_22_croot|its page]], for every
-$0<\epsilon\le1$ an $N(\epsilon,1)$ such that every residue modulo every prime
-$p\ge2$ is a sum of $N$ inverses of integers in $[1,p^\epsilon]$, read with at
-most $N$ summands, as the question asks and the proof's small-prime step gives
-(as printed, with exactly $N$, the primes with $p^\epsilon<2$ fail), which
-extends to all $\epsilon$ by the monotonicity remark; and Glibichuk's Theorem 3
-(Mat. Zametki 79 (2006), 384--395, refereed; in Russian), on
-[[problems/number_theory/E1180/claims/2006_03_01_glibichuk|its page]],
+**Status.** Proved, in the site's label. The three claim pages below are
+accepted full claims, and the frontmatter standing is derived from them.
+
+Shparlinski's Theorem 3 (Arch. Math. 78 (2002), 445--448, refereed) gave the
+first affirmative answer, on
+[[problems/number_theory/E1180/claims/2002_06_01_shparlinski|its page]]. For
+every $\epsilon>0$, every sufficiently large prime $p$ and every integer $c$, it
+gives $k=4\epsilon^{-3}+O(\epsilon^{-2})$ pairwise distinct $x_i\le p^\epsilon$
+with $\sum x_i^{-1}\equiv c\pmod p$. This is the site's
+$C_\epsilon\ll\epsilon^{-3}$ for $p\ge p_0(\epsilon)$. The authored small-prime
+remark below extends it to every prime, with repetition allowed.
+
+Croot's Theorem 2 with $k=1$ (Integers 4 (2004), Paper A20, refereed; the
+journal's text agrees with arXiv v2) is also first-hand, on
+[[problems/number_theory/E1180/claims/2004_03_22_croot|its page]]. For every
+$0<\epsilon\le1$ it gives an $N(\epsilon,1)$ such that every residue modulo
+every prime $p\ge2$ is a sum of $N$ inverses of integers in $[1,p^\epsilon]$. It
+is read with at most $N$ summands, as the question asks and as the proof's
+small-prime step gives. As printed, with exactly $N$ summands, it fails for the
+primes with $p^\epsilon<2$. The monotonicity remark extends it to all
+$\epsilon$.
+
+Glibichuk's Theorem 3 (Mat. Zametki 79 (2006), 384--395, refereed; in Russian)
+is also first-hand, on
+[[problems/number_theory/E1180/claims/2006_03_01_glibichuk|its page]]. It gives
 $N=8([1/\epsilon+1/2]+1)^2$ pairwise distinct summands for all sufficiently
-large $p$, the site's $C_\epsilon\ll\epsilon^{-2}$, which an authored one-line
-remark below extends to the remaining finitely many primes with repetition
-allowed. The three pages are accepted full claims, and the frontmatter standing
-is derived from them. The trivial lower bound $C_\epsilon\gg\epsilon^{-1}$ (the
-site's remark) follows from counting; the true order of $C_\epsilon$ between
-$\epsilon^{-1}$ and $\epsilon^{-2}$ is open.
+large $p$. This is the site's $C_\epsilon\ll\epsilon^{-2}$. An authored one-line
+remark below extends it to the remaining finitely many primes, with repetition
+allowed.
+
+The trivial lower bound $C_\epsilon\gg\epsilon^{-1}$ (the site's remark) follows
+from counting. The true order of $C_\epsilon$, between $\epsilon^{-1}$ and
+$\epsilon^{-2}$, is open.
 
 **Source.** [erdosproblems.com/1180](https://www.erdosproblems.com/1180),
 accessed 2026-09-18: the problem page (PROVED, with

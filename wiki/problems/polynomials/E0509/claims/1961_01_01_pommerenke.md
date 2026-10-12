@@ -2,9 +2,10 @@
 name: problems/polynomials/E0509/claims/1961_01_01_pommerenke
 title: Pommerenke's disc of radius 2 for a connected lemniscate set
 desc: |
-  Pommerenke's 1961 paper: when the set where a monic polynomial has modulus
-  at most one is connected, it lies in the closed disc of radius two about
-  the centroid of the zeros, answering yes for those polynomials; refereed.
+  Pommerenke's 1961 paper shows that if $f$ is monic and
+  $\{\lvert f\rvert\le1\}$ is connected, then this set lies in the closed disc
+  of radius $2$ about the centroid of the zeros. This answers the question yes
+  for those polynomials and is refereed.
 authors:
 - Ch. Pommerenke
 status: accepted
@@ -50,7 +51,7 @@ general question, every monic $f$, is untouched.
 bound for functions univalent outside the unit disc, which the paper cites
 and which is not held.
 
-**Acceptance.** Refereed: Michigan Math. J. 8 (1961), no. 2, 97--115. The
-site's remarks credit Pommerenke with the connected case, but the site
-labels the problem OPEN, so the curator's label settles neither the problem
-nor a part of it, and no `reviewed` evidence is listed.
+**Acceptance.** Refereed: Michigan Math. J. 8 (1961), no. 2, 97--115. The site's
+remarks credit Pommerenke with the connected case, but the site labels the
+problem OPEN. So the curator's label settles neither the problem nor a part of
+it, and no `reviewed` evidence is listed.

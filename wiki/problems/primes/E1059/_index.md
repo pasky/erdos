@@ -2,8 +2,8 @@
 name: problems/primes/E1059
 title: Problem 1059
 desc: |
-  Asks whether infinitely many primes p have p minus k factorial composite for
-  every k with k factorial less than p.
+  Asks whether infinitely many primes $p$ have $p-k!$ composite for every $k$
+  with $1\le k!<p$.
 tags:
 - Number theory
 - Primes
@@ -25,17 +25,18 @@ updated: 2026-10-08T02:16:54Z
 composite for each $k$ such that $1\leq k!<p$?
 
 **Status.** The site labels the problem OPEN, with the explanation that the
-question cannot be settled by a finite computation. The site's proof-claims tab
-carries two entries, neither accepted by the site. Johan Land's full claim,
-filed 2026-09-05 with AI assistance and followed by a Lean development in a
-comment of 6 September 2026, is recorded as pending on
-[[problems/primes/E1059/claims/2026_09_05_land|Land's claim page]]. The derived
-standing, claimed, proved, departs from the site's OPEN only by counting that
-pending claim, which neither the site nor an outside review has accepted; it
-becomes solved, proved if the claim is accepted. Aakash Gurung's partial claim,
-filed 2026-08-05, concerns only Erdős's easier auxiliary question on integers;
-it settles no instance of the prime question, so it has no claim page, and the
-Current assessment describes it.
+question cannot be settled by a finite computation. The derived standing is
+claimed, proved. It departs from the site's OPEN only by counting Johan Land's
+pending full claim, which neither the site nor an outside review has accepted.
+It becomes solved, proved if the claim is accepted.
+
+The site's proof-claims tab carries two entries, and the site has accepted
+neither. Land's full claim was filed on 2026-09-05 with AI assistance. A Lean
+development followed in a comment of 6 September 2026. The claim is recorded as
+pending on [[problems/primes/E1059/claims/2026_09_05_land|Land's claim page]].
+Aakash Gurung's partial claim was filed on 2026-08-05. It concerns only Erdős's
+easier auxiliary question on integers and settles no instance of the prime
+question. So it has no claim page, and the Current assessment describes it.
 
 **Source.** [erdosproblems.com/1059](https://www.erdosproblems.com/1059),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1059,

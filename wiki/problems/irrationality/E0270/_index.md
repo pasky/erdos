@@ -2,9 +2,8 @@
 name: problems/irrationality/E0270
 title: Problem 270
 desc: |
-  Asks whether the sum over n of one over the product of the f of n
-  consecutive integers starting at n plus one is irrational whenever f tends
-  to infinity.
+  Asks whether $\sum_{n\ge1}\frac{1}{(n+1)\cdots(n+f(n))}$ is irrational
+  whenever $f(n)\to\infty$.
 tags:
 - Irrationality
 status: solved
@@ -29,21 +28,21 @@ $$
 
 is irrational?
 
-**Status.** Disproved: Crmarić and Kovač's 2025 theorem that every positive
-real number is the value of such a series for some $f(n)\to\infty$ is recorded
-on
+**Status.** Disproved. The site (page last edited 2025-09-28) labels the problem
+DISPROVED (LEAN) and credits Crmarić and Kovač with the negative answer. Their
+2025 theorem, that every positive real number is the value of such a series for
+some $f(n)\to\infty$, is recorded on
 [[problems/irrationality/E0270/claims/2025_04_25_crmaric_kovac|its claim page]].
-The site (page last edited 2025-09-28) labels the problem DISPROVED (LEAN) and
-credits them with the negative answer; the Lean proof behind the label is a
-public formalization of their argument linked from the claim page, not built
-or audited in this corpus. The variant with nondecreasing $f$, which the
-statement does not impose, remains open. The case $f(n)=n$ is answered yes:
-Kovač posted on the site's discussion thread (2026-07-12) that
-$\sum_n n!/(2n)!$ equals $\sum_n 1/(a_1\cdots a_n)$ with $a_k=4k-2$, a Cantor
-series with increasing integer terms, hence irrational. A manuscript of August
-2026 extends the argument to $f(n)=an+b$ with $0\le b\le a$ and claims
-transcendence, hence irrationality, for every $a\ge1$ and $b\ge1-a$; it is a
-pending partial claim at
+The Lean proof behind the label is a public formalization of their argument,
+linked from the claim page. It has not been built or audited in this corpus.
+
+The variant with nondecreasing $f$, which the statement does not impose, remains
+open. The case $f(n)=n$ is answered yes. Kovač posted on the site's discussion
+thread (2026-07-12) that $\sum_n n!/(2n)!$ equals $\sum_n 1/(a_1\cdots a_n)$
+with $a_k=4k-2$. This is a Cantor series with increasing integer terms, hence
+irrational. A manuscript of August 2026 extends the argument to $f(n)=an+b$ with
+$0\le b\le a$. It claims transcendence, and so irrationality, for every $a\ge1$
+and $b\ge1-a$. It is a pending partial claim at
 [[problems/irrationality/E0270/claims/2026_08_22_lambrinoudis|Lambrinoudis 2026]].
 
 **Source.** [erdosproblems.com/270](https://www.erdosproblems.com/270), accessed

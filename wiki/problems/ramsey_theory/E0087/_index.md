@@ -2,10 +2,9 @@
 name: problems/ramsey_theory/E0087
 title: Problem 87
 desc: |
-  Asks whether every graph with chromatic number k has Ramsey number at least
-  a constant fraction, or at least an exponentially small fraction, of the
-  Ramsey number of the complete graph on k vertices; Erdős's original
-  conjecture, at least that Ramsey number itself, fails at k = 4.
+  Asks whether, for each $0<\epsilon<1$ and all large $k$, every graph $G$ with
+  $\chi(G)=k$ has $R(G)>(1-\epsilon)^kR(k)$, or even $R(G)>cR(k)$ for a fixed
+  $c>0$. Erdős's original conjecture, $R(G)\ge R(k)$, fails at $k=4$.
 tags:
 - Graph theory
 - Ramsey theory
@@ -94,19 +93,19 @@ because a graph with $\chi(G)\ge k$ has an induced subgraph $H$ with
 $\chi(H)=k$ and $R(G)\ge R(H)$ (an observation made here). The unweakened
 conjecture is not the page's question; the two weakened questions are.
 
-**Status.** Open, the site's label (OPEN). Both questions of the corrected
-Statement have no source in either direction. Erdős proposed them in 1995
-after the unweakened conjecture had been refuted at $k=4$ by Faudree and
-McKay's computer-search value $r(W_6)=17<18=r(K_4)$ (J. Combin. Math. Combin.
-Comput. 13 (1993); Erdős's 1995 paper confirms the refutation), and Erdős wrote
-that "Both conjectures may be unattackable at present". The lower bounds in hand
-for $R(G)$ with $\chi(G)=k$ are exponential in $k$ but far below the known upper
-bounds for $R(k)$: Chvátal and Harary's $r(G,G)>(1+c)^k$ as quoted by Erdős in
-1981, and the site's remark, attributed to Wigderson, that $R(G)\gg2^{k/2}$ by a
-random coloring, which is within a factor of order $k$ of the best known lower
-bound for $R(k)$. No source proving or refuting either weakening was found in
-the search whose scope the Current assessment records. This is a bounded
-negative finding, not a certificate of openness.
+**Status.** Open, the site's label (OPEN). Neither question of the corrected
+Statement has a source in either direction. Erdős proposed them in 1995, after
+the unweakened conjecture had been refuted at $k=4$. The refutation is Faudree
+and McKay's computer-search value $r(W_6)=17<18=r(K_4)$ (J. Combin. Math.
+Combin. Comput. 13 (1993)), and Erdős's 1995 paper confirms it. Erdős wrote that
+"Both conjectures may be unattackable at present". The lower bounds in hand for
+$R(G)$ with $\chi(G)=k$ are exponential in $k$, but far below the known upper
+bounds for $R(k)$. One is Chvátal and Harary's $r(G,G)>(1+c)^k$, as quoted by
+Erdős in 1981. The other is the site's remark, attributed to Wigderson, that
+$R(G)\gg2^{k/2}$ by a random coloring. This bound is within a factor of order
+$k$ of the best known lower bound for $R(k)$. The search whose scope the Current
+assessment records found no source proving or refuting either weakening. This is
+a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/87](https://www.erdosproblems.com/87), accessed
 2026-09-18: the problem page (labeled OPEN, with the site's note that no finite

@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0538
 title: Problem 538
 desc: |
-  The best upper bound for the reciprocal sum of a set of integers up to N in
-  which every number has at most r representations as a prime times a set
-  element.
+  Asks for the best possible upper bound on $\sum_{n\in A}1/n$ for
+  $A\subseteq\{1,\ldots,N\}$ in which each $m$ has at most $r$ representations
+  $m=pa$ with $p$ prime and $a\in A$.
 tags:
 - Number theory
 status: claimed
@@ -49,24 +49,26 @@ one Ruzsa's construction satisfies on Problem 537. The site cites [Er73] as
 its only source.
 
 **Status.** The site labels the problem OPEN (the page shows no last-edited
-date). The bound in hand is Erdős's display (4.5) of 1973:
-$\sum_{a_i\le n}1/a_i<c_1r\log n/\log\log n$, from a double count of the
-products $pa_i\le n^2$ and Mertens's estimate for $\sum_{p\le n}1/p$. No
-published improvement, and no published lower construction of the same order,
-was found in the search whose scope the Current assessment records. A full proof
-claim of 15 July 2026 on the site's tab, by Colin Snyder with the AI system
-GPT 5.6, asserts that the order $\log N/\log\log N$ is sharp for every fixed
-$r$, with a matching construction and a Lean development; the formal-conjectures
-file records the same matching-order statement as a solved variant pointing at
-that development, and its docstring says that this fixes the order but not the
-best possible upper bound the site asks for. The claim is recorded on
+date). The derived standing is claimed, answered. It departs from the site's
+OPEN only by counting a pending full claim, following the claimant's own scope
+label on the tab. It is not a judgment on the argument, which no outside review
+has accepted, and it becomes solved only if the claim is accepted. The full
+proof claim, of 15 July 2026 on the site's tab, is by Colin Snyder with the AI
+system GPT 5.6. It asserts that the order $\log N/\log\log N$ is sharp for every
+fixed $r$, with a matching construction and a Lean development. The claim is
+recorded on
 [[problems/integer_sequences/E0538/claims/2026_07_15_snyder|its claim page]],
-pending and not accepted by the site. The derived standing, claimed, answered,
-departs from the site's OPEN only by counting that pending full claim, following
-the claimant's own scope label on the tab; it is not a judgment on the argument,
-which no outside review has accepted, and it becomes solved only if the claim is
-accepted. The search is a bounded negative finding, not a certificate of
-openness.
+pending and not accepted by the site. The formal-conjectures file records the
+same matching-order statement as a solved variant pointing at that development.
+Its docstring says that this fixes the order but not the best possible upper
+bound the site asks for.
+
+The bound in hand is Erdős's display (4.5) of 1973:
+$\sum_{a_i\le n}1/a_i<c_1r\log n/\log\log n$. It comes from a double count of
+the products $pa_i\le n^2$ and Mertens's estimate for $\sum_{p\le n}1/p$. No
+published improvement, and no published lower construction of the same order,
+was found in the search whose scope the Current assessment records. The search
+is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/538](https://www.erdosproblems.com/538),
 accessed 2026-09-18: the problem page (OPEN, with

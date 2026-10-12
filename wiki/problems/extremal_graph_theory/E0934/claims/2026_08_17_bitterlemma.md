@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E0934/claims/2026_08_17_bitterlemma
 title: BitterLemma's machine-checked value h_3(4) = 71
 desc: |
   A thread post and Zenodo manuscript of 17 August 2026 by the Bitter Lemma
-  project claim the exact value h_3(4) = 71, Kumar, Mohar and Pragada's lower
-  bound and a certified finite search in Lean 4, produced with Claude; unreviewed.
+  project claim the exact value $h_3(4)=71$. The proof combines Kumar, Mohar and
+  Pragada's lower bound with a certified finite search in Lean 4, was produced
+  with Claude, and is unreviewed.
 authors:
 - The Bitter Lemma Project
 status: claimed

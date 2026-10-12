@@ -2,8 +2,8 @@
 name: problems/divisors/E0882
 title: Problem 882
 desc: |
-  The size of the largest subset of one to n whose nonempty subset sums form a
-  set in which no element divides another.
+  Asks for the size of the largest $A\subseteq\{1,\ldots,n\}$ whose nonempty
+  subset sums form a set in which no element divides another.
 tags:
 - Number theory
 - Primitive sets
@@ -36,15 +36,15 @@ label reads it: it asks for the size of the largest such $A$ to leading order.
 The exact value of that size, $R(n)$, is a stronger question that remains
 open; Korsky's pending claim bears on it.
 
-**Status.** Solved on the site (the remarks credit the lower bound to
-Erdős, Lev, Rauzy, Sándor and Sárközy and the upper bound to the
-distinct-subset-sums bound of Problem 1). The frontmatter standing derives
-from the accepted claim page
+**Status.** Solved on the site. The site's remarks credit the lower bound to
+Erdős, Lev, Rauzy, Sándor and Sárközy, and the upper bound to the
+distinct-subset-sums bound of Problem 1. The frontmatter standing derives from
+the accepted claim page
 [[problems/divisors/E0882/claims/1999_04_01_erdos_lev_rauzy_sandor_sarkozy|the
 two-sided bound of 1999]], which fixes the size to its leading term
-$\log_2 n+O(\log\log n)$; a pending partial claim,
-[[problems/divisors/E0882/claims/2026_07_27_korsky|Korsky's near-exact
-bounds]], narrows it to two consecutive values.
+$\log_2 n+O(\log\log n)$. A pending partial claim,
+[[problems/divisors/E0882/claims/2026_07_27_korsky|Korsky's near-exact bounds]],
+narrows it to two consecutive values.
 
 **Source.** [erdosproblems.com/882](https://www.erdosproblems.com/882), accessed
 2026-09-04 and 2026-10-07 (the problem page: SOLVED; source keys [ELRSS99],

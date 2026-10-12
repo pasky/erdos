@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E1216/claims/1994_06_01_neumann_lara
 title: Neumann-Lara's short proof of the Reid-Parker bound
 desc: |
-  Neumann-Lara (Graphs Combin. 1994) reproves that for k >= 5 every
-  tournament of order at least 7 * 2^(k-4) contains a transitive
-  k-subtournament; at k = 5, f(14) >= 5 > 4, so the formula fails.
+  Neumann-Lara (Graphs Combin. 1994) reproves that for $k\ge5$ every tournament
+  of order at least $7\cdot2^{k-4}$ contains a transitive $k$-subtournament. At
+  $k=5$ this gives $f(14)\ge5>4$, so the formula fails.
 authors:
 - V. Neumann-Lara
 status: accepted

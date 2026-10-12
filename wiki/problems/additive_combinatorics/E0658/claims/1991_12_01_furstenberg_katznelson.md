@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0658/claims/1991_12_01_furstenberg_katznelson
 title: Density Hales–Jewett gives the square, after Furstenberg and Katznelson
 desc: |
-  The density Hales–Jewett theorem of Furstenberg and Katznelson (1991) puts
-  an axis-parallel square in every dense enough subset of a large grid,
-  answering the question yes without a bound; accepted, refereed and credited.
+  The density Hales–Jewett theorem of Furstenberg and Katznelson (1991) puts an
+  axis-parallel square in every dense enough subset of a large grid. It answers
+  the question yes without a bound, and it is accepted, refereed and credited.
 authors:
 - H. Furstenberg
 - Y. Katznelson
@@ -46,10 +46,12 @@ and as the site's commentary credits it.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed publication: J. Analyse Math. 57 (1991), 64--119,
-doi:10.1007/BF03041066; the Crossref record dates the volume to December 1991,
-filled to the first of the month for this page's name. Reviewed: the site's
-curator, Thomas Bloom, labels the problem proved and credits the answer without
-a bound to Furstenberg and Katznelson's density Hales–Jewett theorem in the
-problem page's commentary; the proof-claim tab is empty. Solymosi's later
+doi:10.1007/BF03041066. The Crossref record dates the volume to December 1991,
+and this page's name fills that to the first of the month.
+
+Reviewed: the site's curator, Thomas Bloom, labels the problem proved. The
+problem page's commentary credits the answer without a bound to Furstenberg and
+Katznelson's density Hales–Jewett theorem. The proof-claim tab is empty.
+Solymosi's later
 [[problems/additive_combinatorics/E0658/claims/2004_03_01_solymosi|quantitative proof]]
 gives the same conclusion with a bound that is at best of tower type.

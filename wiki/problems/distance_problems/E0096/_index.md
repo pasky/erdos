@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0096
 title: Problem 96
 desc: |
-  Asks whether n points in the plane forming a convex polygon have only order n
-  pairs at distance one; false by Kruer and Kohlmeyer's Lean construction of
-  convex point sets with unboundedly many unit distances per point.
+  Asks whether $n$ points in the plane forming a convex polygon have only $O(n)$
+  pairs at distance $1$. The answer is no, by Kruer and Kohlmeyer's Lean
+  construction of convex point sets with unboundedly many unit distances per
+  point.
 tags:
 - Geometry
 - Distances
@@ -26,25 +27,27 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** If $n$ points in $\mathbb{R}^2$ form a convex polygon then there
 are $O(n)$ many pairs which are distance $1$ apart.
 
-**Status.** Open on the site: its export of 2026-09-04 records the label "OPEN",
-and its page, last edited 23 January 2026, carries no proof claim and no proof
-exposition. The standing in the frontmatter derives from the claim pages: the
-disproof of Kruer and Kohlmeyer, a Lean proof that the bounty site
-Conjectures.io verified on 10 September 2026 and certified,
-is accepted on that certification alone, with no refereed publication and no
-acceptance by erdosproblems.com, on
-[[problems/distance_problems/E0096/claims/2026_09_10_kruer_kohlmeyer|its claim page]];
-the stronger disproof of Kruer, Kohlmeyer and Price, a manuscript with a Lean
-file of 13 September 2026 giving $\Omega(n\log\log n)$ unit distances and posted
-as a proof claim under [[problems/distance_problems/E0097/_index|Problem 97]],
-is pending on
-[[problems/distance_problems/E0096/claims/2026_09_13_kruer_kohlmeyer_price|its claim page]];
-Khopkar's 2016 preprint claiming the linear bound is rejected on
+**Status.** Open on the site. Its export of 2026-09-04 records the label "OPEN".
+Its page, last edited 23 January 2026, carries no proof claim and no proof
+exposition.
+
+The standing in the frontmatter derives from the claim pages. The disproof of
+Kruer and Kohlmeyer is a Lean proof that the bounty site Conjectures.io verified
+on 10 September 2026 and certified. It is accepted on that certification alone,
+with no refereed publication and no acceptance by erdosproblems.com, on
+[[problems/distance_problems/E0096/claims/2026_09_10_kruer_kohlmeyer|its claim page]].
+A stronger disproof by Kruer, Kohlmeyer and Price is pending on
+[[problems/distance_problems/E0096/claims/2026_09_13_kruer_kohlmeyer_price|its claim page]].
+It is a manuscript with a Lean file of 13 September 2026 that gives
+$\Omega(n\log\log n)$ unit distances, and it was posted as a proof claim under
+[[problems/distance_problems/E0097/_index|Problem 97]]. Khopkar's 2016 preprint
+claiming the linear bound is rejected on
 [[problems/distance_problems/E0096/claims/2016_05_24_khopkar|its claim page]].
+
 The disproof answers the Statement: the maximum number of unit-distance pairs
 among $n$ points in strictly convex position is not $O(n)$. The site's remarks
 record that a positive answer here would follow from a positive answer to
-Problem 97; in the other direction, Kruer and Kohlmeyer's construction yields a
+Problem 97. In the other direction, Kruer and Kohlmeyer's construction yields a
 counterexample to Problem 97 by deleting points of low unit degree, as their
 claim page records.
 

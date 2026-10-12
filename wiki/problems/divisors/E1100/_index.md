@@ -2,7 +2,10 @@
 name: problems/divisors/E1100
 title: Problem 1100
 desc: |
-  Concerns the number of consecutive pairs of divisors of n that are coprime.
+  Asks whether the number $\tau_\perp(n)$ of coprime consecutive divisor pairs
+  of $n$ satisfies $\tau_\perp(n)/\omega(n)\to\infty$ for almost all $n$ and
+  $\tau_\perp(n)<\exp((\log n)^{o(1)})$ for all $n$, and how its maximum over
+  squarefree $n$ with $\omega(n)=k$ grows.
 tags:
 - Number theory
 - Divisors
@@ -41,17 +44,15 @@ $$
 where $\omega(n)$ counts the number of distinct prime divisors of $n$, and $n$
 is restricted to squarefree integers. Determine the growth of $g(k)$.
 
-**Status.** Open on the site (OPEN; page last edited 19 October 2025;
-accessed 2026-10-07, with two proof claims listed as partial on its
-proof-claims thread). The frontmatter standing `open` derives from the claim
-pages: the accepted partial claim
+**Status.** Open on the site. The page shows OPEN, was last edited 19 October
+2025 and was accessed 2026-10-07. Its proof-claims thread lists two proof claims
+as partial. The frontmatter standing `open` derives from the claim pages, and no
+full claim is recorded there. The accepted partial claim
 [[problems/divisors/E1100/claims/1989_03_01_erdos_tenenbaum|Erdős and
-Tenenbaum's bounds]] settles the first two questions (yes and no), and the
-pending partial claims
-[[problems/divisors/E1100/claims/2026_07_31_korsky|Korsky's maximal order]]
-and [[problems/divisors/E1100/claims/2026_08_04_ross|Ross's golden-ratio
-bound]] bear on the maximal order and on the growth of $g(k)$; no full claim
-is recorded.
+Tenenbaum's bounds]] settles the first two questions (yes and no). The pending
+partial claims [[problems/divisors/E1100/claims/2026_07_31_korsky|Korsky's
+maximal order]] and [[problems/divisors/E1100/claims/2026_08_04_ross|Ross's
+golden-ratio bound]] bear on the maximal order and on the growth of $g(k)$.
 
 **Source.** [erdosproblems.com/1100](https://www.erdosproblems.com/1100),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1100,

@@ -2,9 +2,10 @@
 name: problems/factorials_binomials/E0379/claims/2025_08_28_cambie_kovac_tao
 title: Rows whose every entry has a high prime-power divisor
 desc: |
-  For n a suitable power of two, every binomial coefficient in row n is
-  divisible by the r-th power of 2 or of a chosen prime, so S(n) is unbounded;
-  worked out in the site's discussion thread and formalized in Lean by Tao.
+  For a suitable power of two $n$, every binomial coefficient in row $n$ is
+  divisible by the $r$-th power of $2$ or of a chosen prime, so $S(n)$ is
+  unbounded. Cambie, Kovač and Tao worked this out in the site's discussion
+  thread, and Tao formalized it in Lean.
 authors:
 - Terence Tao
 - Stijn Cambie
@@ -76,9 +77,9 @@ evidence.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Thomas Bloom, the site's curator, marks the problem proved,
-credits Cambie, Kovač and Tao on the problem page (last edited 12 January
-2026) and records the Lean formalization in the site's label; the community
-database lists the problem's status as proved (Lean) as of its last update,
-dated 31 August 2025. There is no refereed write-up and the result exists
-only as the thread posts and the Lean file; the acceptance rests on the
-curator's documented review.
+credits Cambie, Kovač and Tao on the problem page (last edited 12 January 2026)
+and records the Lean formalization in the site's label. The community database
+lists the problem's status as proved (Lean) as of its last update, dated 31
+August 2025. There is no refereed write-up, and the result exists only as the
+thread posts and the Lean file. The acceptance rests on the curator's documented
+review.

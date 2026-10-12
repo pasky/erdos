@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0173/claims/1975_01_01_erdos_graham_montgomery_rothschild_spencer_straus
 title: The triangle families of Euclidean Ramsey Theorems III
 desc: |
-  Theorem 1 of the 1975 colloquium paper reduces a triangle to its three
-  equilateral side lengths, and its ladder, roulette and five-point methods
-  prove several triangle families Ramsey in the two-colored plane; claimed.
+  Theorem 1 of the 1975 colloquium paper reduces a triangle to the three
+  equilateral triangles with the same side lengths. Its ladder, roulette and
+  five-point methods prove several families of triangles Ramsey in the
+  two-colored plane, which the site lists as claimed.
 authors:
 - P. Erdős
 - R.L. Graham

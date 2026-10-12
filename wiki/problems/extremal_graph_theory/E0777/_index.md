@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0777
 title: Problem 777
 desc: |
-  Asks how many comparable pairs a family of m subsets of one to n can have for
-  m near 2^(n/2); three questions answered yes, no, yes by Alon and Frankl and
-  by Alon, Das, Glebov and Sudakov.
+  Asks how many comparable pairs a family of $m$ subsets of $\{1,\ldots,n\}$ can
+  have for $m$ near $2^{n/2}$. The three questions are answered yes, no and yes:
+  the first by Alon, Das, Glebov and Sudakov, the other two by Alon and Frankl.
 tags:
 - Graph theory
 - Combinatorics
@@ -39,20 +39,20 @@ Is it true that if $G_{\mathcal{F}}$ has $\geq cm^2$ edges then $m\ll_c
 Is it true that, for any $\epsilon>0$, there exists some $\delta>0$ such that if
 there are $>m^{2-\delta}$ edges then $m<(2+\epsilon)^{n/2}$?
 
-**Status.** Solved. The site's label is SOLVED, crediting Alon and Frankl
-with the answers to the second question (no) and the third (yes), and Alon,
-Das, Glebov and Sudakov with the first (yes). The parts `q1`, `q2` and `q3`
-are the three questions in order; the frontmatter standing is derived from
-the accepted partial claim pages
+**Status.** Solved. The site's label is SOLVED. It credits Alon, Das, Glebov and
+Sudakov with the answer to the first question (yes), and Alon and Frankl with
+the answers to the second (no) and the third (yes). The parts `q1`, `q2` and
+`q3` are the three questions in order. The frontmatter standing is derived from
+two accepted partial claim pages:
 [[problems/extremal_graph_theory/E0777/claims/2014_11_15_alon_das_glebov_sudakov|Alon, Das, Glebov and Sudakov]]
 (settles `q1`) and
 [[problems/extremal_graph_theory/E0777/claims/1985_12_01_alon_frankl|Alon and Frankl]]
-(settles `q2` and `q3`), whose acceptance evidence is the refereed journals
-and the site's own commentary. A third-party Lean file proving all three
-answers is linked on both pages and recorded under Formalization. The site's
-commentary also records Daykin and Frankl's theorem that $(1+o(1))\binom m2$
-comparable pairs force $m^{1/n}\to1$; it settles none of the three
-questions, so it has no claim page.
+(settles `q2` and `q3`). Their acceptance evidence is the refereed journals and
+the site's own commentary. A third-party Lean file proving all three answers is
+linked on both pages and recorded under Formalization. The site's commentary
+also records Daykin and Frankl's theorem that $(1+o(1))\binom m2$ comparable
+pairs force $m^{1/n}\to1$. That theorem settles none of the three questions, so
+it has no claim page.
 
 **Source.** [erdosproblems.com/777](https://www.erdosproblems.com/777), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #777,

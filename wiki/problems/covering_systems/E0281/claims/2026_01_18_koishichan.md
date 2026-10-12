@@ -2,9 +2,9 @@
 name: problems/covering_systems/E0281/claims/2026_01_18_koishichan
 title: An elementary proof from Davenport-Erdős and Rogers
 desc: |
-  KoishiChan's observation on the site that the Davenport-Erdős theorem on
-  sets of multiples and Rogers' theorem on zero residues together answer the
-  question yes in a few lines; accepted on the curator's credit.
+  KoishiChan observed on the site that the Davenport-Erdős theorem on sets of
+  multiples and Rogers' theorem on zero residues together answer the question
+  yes in a few lines. It is accepted on the curator's credit.
 authors: []
 status: accepted
 claim: proved
@@ -65,14 +65,13 @@ Davenport-Erdős theorem to nonzero residues, which Erdős asked about, is
 [[problems/covering_systems/E0281/claims/2026_01_17_somani|Somani's argument]],
 which settles the problem by a different route.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, wrote this
-argument into the problem's commentary as an alternative elementary proof and
-credits KoishiChan in the page's acknowledgments (page last edited 18 January
-2026). On the thread, Terence Tao confirmed on 2026-01-18
-that the result follows from the Davenport-Erdős theorem once Rogers' theorem
-is applied, and reported, quoting with permission, that Gérald Tenenbaum
-confirmed by email that the solution is immediate given the two classical
-results. Not refereed: the two ingredients are published theorems, and their
-combination is a forum observation. No formalization of this route is known
-to this corpus; the Lean development recorded on Somani's page formalizes the
-other argument.
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, wrote this argument
+into the problem's commentary as an alternative elementary proof and credits
+KoishiChan in the page's acknowledgments (page last edited 18 January 2026). On
+the thread, Terence Tao confirmed on 2026-01-18 that the result follows from the
+Davenport-Erdős theorem once Rogers' theorem is applied. Tao also reported,
+quoting with permission, that Gérald Tenenbaum confirmed by email that the
+solution is immediate given the two classical results. Not refereed: the two
+ingredients are published theorems, and their combination is a forum
+observation. No formalization of this route is known to this corpus. The Lean
+development recorded on Somani's page formalizes the other argument.

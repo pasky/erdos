@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0704/claims/2000_04_30_raigorodskii
 title: Raigorodskii's exponential lower bound with base 1.239
 desc: |
-  Raigorodskii's 2000 note proves that the chromatic number of the unit
-  distance graph of n-dimensional space is at least (1.239...+o(1))^n,
-  raising Frankl and Wilson's base and answering exponential growth yes; refereed.
+  Raigorodskii's refereed 2000 note proves that the chromatic number of the unit
+  distance graph of $n$-dimensional space is at least $(1.239\ldots+o(1))^n$.
+  This raises Frankl and Wilson's base and answers the exponential-growth
+  question yes.
 authors:
 - А. М. Райгородский
 status: accepted
@@ -64,9 +65,8 @@ which remains open.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** The note is refereed: it appeared in the journal Uspekhi
-Matematicheskikh Nauk, volume 55 (2000), with an English translation in
-Russian Mathematical Surveys. The site labels the problem OPEN, and its
-remark (page last edited 10 April 2026) credits Raigorodskii [Ra00] with the
-larger base; that remark on an open problem is not an acceptance, so no
-`reviewed` evidence is listed.
+**Acceptance.** The note is refereed. It appeared in the journal Uspekhi
+Matematicheskikh Nauk, volume 55 (2000), with an English translation in Russian
+Mathematical Surveys. The site labels the problem OPEN. Its remark (page last
+edited 10 April 2026) credits Raigorodskii [Ra00] with the larger base. A remark
+on an open problem is not an acceptance, so no `reviewed` evidence is listed.

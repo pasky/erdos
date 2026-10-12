@@ -2,9 +2,9 @@
 name: problems/additive_bases/E0326
 title: Problem 326
 desc: |
-  Asks whether a minimal basis of order two exists whose kth smallest element
-  divided by k squared tends to a nonzero constant; Erdős first asked it for
-  any basis of order two, which Cassels answered yes.
+  Asks whether some minimal basis of order $2$, with elements $a_1<a_2<\cdots$,
+  has $a_k/k^2$ tending to a nonzero constant; a 2026 proof claim is pending.
+  Erdős first asked this for any basis of order $2$, which Cassels answered yes.
 tags:
 - Number theory
 - Additive bases
@@ -52,11 +52,11 @@ all $0$ or $1$, and in it every sub-basis has $b_k/k^2\to0$. The site then
 rewrote the problem as the present question, which the note does not
 address, so the note gets no claim page.
 
-**Status.** Claimed: the site's label is OPEN (page last edited 2026-04-17),
-and the standing derives from one pending full claim:
-[[problems/additive_bases/E0326/claims/2026_05_20_bhalla|Bhalla's minimal basis with $a_k\sim ck^2$]],
-a manuscript of 2026-05-20 with a Lean formalization posted on 2026-06-14, not
-built or audited in this corpus.
+**Status.** Claimed. The site's label is OPEN (page last edited 2026-04-17). The
+standing derives from one pending full claim,
+[[problems/additive_bases/E0326/claims/2026_05_20_bhalla|Bhalla's minimal basis with $a_k\sim ck^2$]].
+It is a manuscript of 2026-05-20, with a Lean formalization posted on
+2026-06-14. The formalization is not built or audited in this corpus.
 
 **Source.** [erdosproblems.com/326](https://www.erdosproblems.com/326), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #326,

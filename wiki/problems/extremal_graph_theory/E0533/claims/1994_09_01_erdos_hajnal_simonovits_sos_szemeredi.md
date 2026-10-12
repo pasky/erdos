@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E0533/claims/1994_09_01_erdos_hajnal_simonovits_sos_szemeredi
 title: Erdős, Hajnal, Simonovits, Sós and Szemerédi, delta_3(5) at most 1/12
 desc: |
-  The upper bound delta_3(5) at most 1/12 proves the statement for every delta
-  above 1/12; refereed in Combin. Probab. Comput. 3 (1994).
+  The upper bound $\delta_3(5)\le1/12$ of Erdős, Hajnal, Simonovits, Sós and
+  Szemerédi proves the statement for every $\delta>1/12$. It was refereed in
+  Combin. Probab. Comput. 3 (1994).
 authors:
 - P. Erdős
 - A. Hajnal
@@ -71,10 +72,10 @@ the instance $\delta=1/12$ is not settled by these limit bounds.
 **Depends on.** Nothing in this wiki; the result rests on the refereed paper
 linked above.
 
-**Acceptance.** Refereed: Combinatorics, Probability and Computing 3 (1994),
-no. 3, 297–325, doi:10.1017/S0963548300001218, an issue Crossref dates to
-September 1994; a reprint appeared in *Combinatorics, Geometry and
-Probability*, Cambridge Univ. Press (1997), 253–282. The site's commentary
-lists the bound among the authors' results, but the site's label credits the
-disproof, not this bound, so no `reviewed` evidence is listed. No formal proof
-of this bound is built or audited in this repository.
+**Acceptance.** Refereed: Combinatorics, Probability and Computing 3 (1994), no.
+3, 297–325, doi:10.1017/S0963548300001218, an issue Crossref dates to
+September 1994. A reprint appeared in *Combinatorics, Geometry and Probability*,
+Cambridge Univ. Press (1997), 253–282. The site's commentary lists the bound
+among the authors' results. The site's label credits the disproof, not this
+bound, so no `reviewed` evidence is listed. No formal proof of this bound is
+built or audited in this repository.

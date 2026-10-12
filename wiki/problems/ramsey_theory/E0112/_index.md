@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0112
 title: Problem 112
 desc: |
-  Determines the fewest vertices forcing every directed graph to contain an
-  independent set of size n or a transitive tournament of size m; open, known
-  exactly when n = 1, m <= 2, n = 2 and m <= 6, or m = 3 and n <= 5.
+  Asks to determine $k(n,m)$, the fewest vertices forcing every directed graph
+  to contain an independent set of size $n$ or a transitive tournament of size
+  $m$. It is open, with exact values known when $n=1$ or $m\le2$, when $n=2$ and
+  $m\le6$, and when $m=3$ and $n\le5$.
 tags:
 - Graph theory
 - Ramsey theory
@@ -55,20 +56,20 @@ digraph avoiding both, one less than the threshold: $n-1$ disjoint
 transitive tournaments on $m-1$ vertices avoid both, and the Gallai--Roy
 theorem gives the matching upper bound) and is not this problem.
 
-**Status.** Open. No formula for $k(n,m)$, and no determination beyond the
-values listed in the Current assessment ($k(n,1)=k(1,m)=1$ and $k(n,2)=n$; the
-tournament column $k(2,m)$ for $m\le6$; $k(3,3)=9$, $k(4,3)=15$, $k(5,3)=23$),
-was found in the search whose scope the Current assessment
-records. A pending partial claim,
+**Status.** Open. The search whose scope the Current assessment records found no
+formula for $k(n,m)$. It also found no determination beyond the values listed in
+the Current assessment: $k(n,1)=k(1,m)=1$ and $k(n,2)=n$, the tournament column
+$k(2,m)$ for $m\le6$, and $k(3,3)=9$, $k(4,3)=15$, $k(5,3)=23$. This is a
+bounded negative finding, not a certificate of openness. A pending partial
+claim,
 [[problems/ramsey_theory/E0112/claims/2026_09_22_muhamadiev|Muhamadiev's $k(3,4)=21$]],
 was posted on 22 September 2026. The bounds verified here from the sources read
-are Erdős and Rado's $k(n,m)\le(2^{m-1}(n-1)^m+n-2)/(2n-3)$ (1967), Larson and
-Mitchell's $k(n,3)\le n^2$ and their polynomial bound of degree $m-1$ in $n$
-with leading coefficient $2^{m-2}/(m-1)!$ (1997), and, for the oriented
-threshold, $k(n,3)\le n^2-n+3$, $k(n,3)=\Theta(n^2/\log n)$ and
-$k(n,m)\le2^{17m}n^{m-1}/(\log_2n)^{m-2}$ (Ihringer, Rajendraprasad and Weinert,
-Discrete Math. 2021). This is a bounded negative finding, not a certificate of
-openness.
+are the following. Erdős and Rado give $k(n,m)\le(2^{m-1}(n-1)^m+n-2)/(2n-3)$
+(1967). Larson and Mitchell give $k(n,3)\le n^2$ and a polynomial bound of
+degree $m-1$ in $n$ with leading coefficient $2^{m-2}/(m-1)!$ (1997). For the
+oriented threshold, Ihringer, Rajendraprasad and Weinert (Discrete Math. 2021)
+give $k(n,3)\le n^2-n+3$, $k(n,3)=\Theta(n^2/\log n)$ and
+$k(n,m)\le2^{17m}n^{m-1}/(\log_2n)^{m-2}$.
 
 **Source.** [erdosproblems.com/112](https://www.erdosproblems.com/112),
 accessed 2026-09-18: the problem page (labeled OPEN,

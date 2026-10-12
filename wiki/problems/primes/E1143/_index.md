@@ -2,8 +2,9 @@
 name: problems/primes/E1143
 title: Problem 1143
 desc: |
-  Estimates how many multiples of at least one of finitely many given primes
-  every interval of k consecutive positive integers must contain.
+  Asks to estimate, for given primes $p_1<\cdots<p_u$, how many integers
+  divisible by some $p_i$ every interval of $k$ consecutive positive integers
+  must contain.
 tags:
 - Number theory
 - Primes
@@ -29,12 +30,12 @@ Estimate $F_k(p_1,\ldots,p_u)$, particularly in the range $k=\alpha p_u$ for
 constant $\alpha>2$.
 
 **Status.** Open. The site labels the problem OPEN and notes that no finite
-computation can resolve it; its commentary reports from [Va99] that Erdős
-and Selfridge found the exact bound for $2<\alpha<3$ and that very little is
-known for $\alpha>3$, and gives no reference for the first. The reference is
+computation can resolve it. Its commentary reports from [Va99] that Erdős and
+Selfridge found the exact bound for $2<\alpha<3$ and that very little is known
+for $\alpha>3$. It gives no reference for the first of these. The reference is
 Theorem 1 of Section 6 of [Er78], recorded as the partial claim
-[[problems/primes/E1143/claims/1978_01_01_erdos_selfridge|Erdős and Selfridge 1978]];
-nothing is claimed for $\alpha\ge3$.
+[[problems/primes/E1143/claims/1978_01_01_erdos_selfridge|Erdős and Selfridge 1978]].
+Nothing is claimed for $\alpha\ge3$.
 
 **Source.** [erdosproblems.com/1143](https://www.erdosproblems.com/1143),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1143,

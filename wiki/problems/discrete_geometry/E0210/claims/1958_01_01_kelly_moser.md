@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0210/claims/1958_01_01_kelly_moser
 title: At least 3n/7 ordinary lines for every n
 desc: |
-  Kelly and Moser prove that n points in the plane, not all on a line,
-  determine at least 3n/7 ordinary lines, a bound attained at n equal to 7.
+  Kelly and Moser prove that $n$ points in the plane, not all on a line,
+  determine at least $3n/7$ ordinary lines, a bound attained at $n=7$.
 authors:
 - L. M. Kelly
 - W. O. J. Moser

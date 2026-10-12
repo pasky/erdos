@@ -2,8 +2,9 @@
 name: problems/integer_sequences/E0784
 title: Problem 784
 desc: |
-  Asks whether a bounded reciprocal sum for a set of divisors forces at least
-  x over a power of log x integers up to x divisible by none of them.
+  Asks whether a set of integers in $[2,x]$ with reciprocal sum at most $C$ must
+  leave $\gg x/(\log x)^c$ integers up to $x$ divisible by none of them, for
+  some $c>0$.
 tags:
 - Number theory
 status: solved
@@ -70,24 +71,24 @@ over $A\subseteq\{2,\ldots,\lfloor x\rfloor\}$ with reciprocal sum at most
 $C$, the notation used below. For $0<C<1$ the element $1$ cannot lie in $A$
 anyway, and the union bound leaves at least $(1-C)x$ integers unsifted.
 
-**Status.** The site labels the problem SOLVED and credits Ruzsa and
-Weingartner (page last edited 8 April 2026, accessed 2026-09-05 and
-2026-10-07; two thread comments, no proof claim). For the corrected Statement
-the answer is yes for $0<C\le1$ and no for $C>1$, so the bound fails when it
-is asked for every $C>0$, as Erdős expected it to hold. For $0<C<1$ the union
-bound leaves at least $(1-C)x$ integers unsifted. Ruzsa (J. Number Theory 14
-(1982), a refereed journal) proves $c_1x/\log x<H_1(x)<x/(\log x)^{c_2}$, the
-lower bound answering yes at $C=1$, and $\log H_C(x)/\log x\to e^{1-C}$ for
-$C\ge1$, so for fixed $C>1$ the unsifted count can be $x^{e^{1-C}+o(1)}$,
-below every $x/(\log x)^c$; Erdős's 1980 survey acknowledges that Ruzsa's
+**Status.** The site labels the problem SOLVED and credits Ruzsa and Weingartner
+(page last edited 8 April 2026, accessed 2026-09-05 and 2026-10-07; two thread
+comments, no proof claim). For the corrected Statement the answer is yes for
+$0<C\le1$ and no for $C>1$. So the bound fails when it is asked for every $C>0$,
+which is how Erdős expected it to hold. For $0<C<1$ the union bound leaves at
+least $(1-C)x$ integers unsifted. Ruzsa (J. Number Theory 14 (1982), a refereed
+journal) proves $c_1x/\log x<H_1(x)<x/(\log x)^{c_2}$, and the lower bound
+answers yes at $C=1$. He also proves $\log H_C(x)/\log x\to e^{1-C}$ for
+$C\ge1$. So for fixed $C>1$ the unsifted count can be $x^{e^{1-C}+o(1)}$, which
+is below every $x/(\log x)^c$. Erdős's 1980 survey acknowledges that Ruzsa's
 construction overturned his expectation. Weingartner (Res. Number Theory 11
-(2025), refereed) sharpens this to $H_C(x)\asymp x^{e^{1-C}}/\log x$
-uniformly for $1\le C\le Z$, and Saias (1998) gives the matching upper bound
+(2025), refereed) sharpens this to $H_C(x)\asymp x^{e^{1-C}}/\log x$ uniformly
+for $1\le C\le Z$. Saias (1998) gives the matching upper bound
 $H_1(x)\ll x/\log x$. Claim pages:
 [[problems/integer_sequences/E0784/claims/1982_04_01_ruzsa|Ruzsa 1982]] and
 [[problems/integer_sequences/E0784/claims/2023_10_19_weingartner|Weingartner 2025]]
-(both accepted). When $A$ consists of primes, Erdős and Ruzsa (1980) show a
-positive proportion of the integers up to $x$ is always left unsifted, a
+(both accepted). When $A$ consists of primes, Erdős and Ruzsa (1980) show that a
+positive proportion of the integers up to $x$ is always left unsifted. This is a
 restricted variant.
 
 **Source.** [erdosproblems.com/784](https://www.erdosproblems.com/784), accessed

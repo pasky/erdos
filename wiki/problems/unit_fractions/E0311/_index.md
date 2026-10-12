@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0311
 title: Problem 311
 desc: |
-  Asks whether the least non-zero distance from one to a subset sum of
-  reciprocals of one through N decays like e to the power of minus a constant
-  times N.
+  Asks whether the least non-zero distance $\delta(N)$ from $1$ to a sum
+  $\sum_{n\in A}1/n$ with $A\subseteq\{1,\ldots,N\}$ equals $e^{-(c+o(1))N}$ for
+  some constant $c\in(0,1)$.
 tags:
 - Number theory
 - Unit fractions
@@ -42,19 +42,18 @@ the question is whether $\delta(N)$ is exponentially small with a rate
 strictly between the trivial rate $1$ and $0$; the site writes the
 conjectured constant as $c\in(0,1)$.
 
-**Status.** Open. The known bounds are the trivial
-$\delta(N)\ge e^{-(1+o(1))N}$ and Tang's
-$\delta(N)\le\exp(-c_0N/((\log N)^3(\log\log N)^3))$ for large $N$ (an
-unrefereed author note of January 2026, adopted by the site's commentary),
-which leave the conjectured exponential rate open in both directions; the
-discussion thread carries heuristics for the value of $c$, a heuristic
-guess that the answer is no, and unverified arguments that
-$\delta(N)>e^{-cN}$ infinitely often for every $c>5/6$ and that $c\le0.69$
-if the asymptotic holds. Tang's bound settles no instance of the question,
-so it has no claim page. No refereed source proves any
-nontrivial bound, and no proof, disproof or proof claim for the exact
-statement was found in the search whose scope the
-Current assessment records; this is a bounded negative finding.
+**Status.** Open. The known bounds are the trivial $\delta(N)\ge e^{-(1+o(1))N}$
+and Tang's $\delta(N)\le\exp(-c_0N/((\log N)^3(\log\log N)^3))$ for large $N$.
+Tang's bound comes from an unrefereed author note of January 2026, which the
+site's commentary adopts. These bounds leave the conjectured exponential rate
+open in both directions. Tang's bound settles no instance of the question, so it
+has no claim page. No refereed source proves any nontrivial bound. The
+discussion thread carries heuristics for the value of $c$ and a heuristic guess
+that the answer is no. It also carries unverified arguments that
+$\delta(N)>e^{-cN}$ infinitely often for every $c>5/6$, and that $c\le0.69$ if
+the asymptotic holds. No proof, disproof or proof claim for the exact statement
+was found in the search whose scope the Current assessment records. This is a
+bounded negative finding.
 
 **Source.** [erdosproblems.com/311](https://www.erdosproblems.com/311),
 accessed 2026-09-18: the problem page (labeled OPEN, with the site's

@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 1128, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:33:50Z
-updated: 2026-10-07T07:33:50Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/set_theory/E1128/claims
@@ -12,7 +12,8 @@ updated: 2026-10-07T07:33:50Z
 [[problems/set_theory/E1128/_index|..]]
 
 [[problems/set_theory/E1128/claims/1978_01_01_prikry_mills|1978_01_01_prikry_mills]]: Prikry and Mills (1978, unpublished) two-color the cube of a set of size
-aleph one so that no product of three countably infinite subsets is
-monochromatic, answering the question no; reported by Todorčević and Komjáth.
+$\aleph_1$ so that no product of three countably infinite subsets is
+monochromatic, which answers the question no. Todorčević and Komjáth report
+the result.
 
 ***

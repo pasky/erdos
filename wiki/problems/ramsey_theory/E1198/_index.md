@@ -2,8 +2,8 @@
 name: problems/ramsey_theory/E1198
 title: Problem 1198
 desc: |
-  Asks whether every two-coloring of the natural numbers admits an infinite
-  set all of whose sums of products of distinct members share one color; no,
+  Asks whether every two-coloring of $\mathbb{N}$ admits an infinite set all of
+  whose sums of products of distinct members share one color. The answer is no,
   by a 1995 theorem of Smith, as the site's thread deduced in 2026.
 tags:
 - Additive combinatorics
@@ -47,23 +47,23 @@ Hindman's theorem (Theorem 3.1 of [Hi74], p. 9;
 the finite question for sums and products of distinct elements is
 [[problems/ramsey_theory/E0172/_index|Problem 172]].
 
-**Status.** Disproved. The status-defining source is a refereed theorem of
-Smith [Sm95] (J. Combin. Theory Ser. A 72 (1995), no. 1, 77--94), not held
-here, from which two comments of the site's thread (16 April 2026) deduce a
-$2$-coloring of $\mathbb{N}$ under which no infinite $A$ has all its
-multilinear expressions in one class; the deduction is rewritten below as an
-authored derivation from Smith's statements as the thread quotes them, and it
-is elementary given those statements. The site adopted the disproof, crediting
-the counterexample to Smith [Sm95] in its commentary (page last edited 17
-April 2026), and the community database records it (24 April 2026). The claim
-page [[problems/ramsey_theory/E1198/claims/1995_10_01_smith|Smith 1995]]
-records the theorem, the thread's deduction and the acceptance evidence; the
-frontmatter standing is derived from it. Smith's paper is not held, although
-the Crossref record carries the publisher's open-archive license, and the
-statements used from Smith are the thread's restatements, second-hand and
-marked as such below. The thread's first comment judged Hindman's 1980
-theorem [Hi80] not to settle the problem. Erdős's own guess was "no", "but no
-counterexample is in sight" ([Er80], p. 104).
+**Status.** Disproved. The status-defining source is a refereed theorem of Smith
+[Sm95] (J. Combin. Theory Ser. A 72 (1995), no. 1, 77--94), not held here. From
+it, two comments of the site's thread (16 April 2026) deduce a $2$-coloring of
+$\mathbb{N}$ under which no infinite $A$ has all its multilinear expressions in
+one class. The deduction is elementary given Smith's statements. It is rewritten
+below as an authored derivation from those statements as the thread quotes them.
+The site adopted the disproof, crediting the counterexample to Smith [Sm95] in
+its commentary (page last edited 17 April 2026). The community database records
+it (24 April 2026). The claim page
+[[problems/ramsey_theory/E1198/claims/1995_10_01_smith|Smith 1995]] records the
+theorem, the thread's deduction and the acceptance evidence, and the frontmatter
+standing is derived from it. Smith's paper is not held, although the Crossref
+record carries the publisher's open-archive license. The statements used from
+Smith are the thread's restatements, second-hand and marked as such below. The
+thread's first comment judged that Hindman's 1980 theorem [Hi80] does not settle
+the problem. Erdős's own guess was "no", "but no counterexample is in sight"
+([Er80], p. 104).
 
 **Source.** [erdosproblems.com/1198](https://www.erdosproblems.com/1198),
 accessed 2026-09-18: the problem page (DISPROVED, with the site's note that it

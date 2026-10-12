@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0064/claims/2013_04_09_heckman_krakovski
 title: Heckman and Krakovski's 3-connected cubic planar graphs
 desc: |
-  Heckman and Krakovski prove the conjecture for 3-connected cubic planar
-  graphs by a partly computer-based discharging argument; accepted on the
-  refereed paper in the Electronic Journal of Combinatorics.
+  Heckman and Krakovski prove the conjecture for 3-connected cubic planar graphs
+  by a discharging argument that is partly computer-based. The claim is accepted
+  on the refereed paper in the Electronic Journal of Combinatorics.
 authors:
 - Christopher Carl Heckman
 - Roi Krakovski
@@ -43,7 +43,7 @@ graphs.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: the paper is a publication in the Electronic
-Journal of Combinatorics. The site's curator cites the family list that names
-the paper while labeling the problem FALSIFIABLE, which is commentary on an
-open problem and not reviewed evidence.
+**Acceptance.** Refereed: the paper is a publication in the Electronic Journal
+of Combinatorics. The site's curator cites the family list that names the paper
+while labeling the problem FALSIFIABLE. That citation is commentary on an open
+problem and not reviewed evidence.

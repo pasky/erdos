@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1033
 title: Problem 1033
 desc: |
-  Estimates the largest degree sum forced on a triangle in a graph on n
-  vertices with more than n²/4 edges, and asks whether it is at least about
-  1.464 n; open, between Fan's 21n/16 and a construction's 2(√3 − 1)n + O(1).
+  Asks to estimate $h(n)$, the largest degree sum forced on some triangle in a
+  graph on $n$ vertices with more than $n^2/4$ edges, and whether
+  $h(n)\ge(2(\sqrt3-1)-o(1))n$, about $1.464n$. It is open, between Fan's
+  $21n/16$ and a construction's $2(\sqrt3-1)n+O(1)$.
 tags:
 - Graph theory
 status: open
@@ -46,31 +47,33 @@ claim page as a pending partial claim).
 
 **Status.** Open. The bounds in hand are
 $\frac{21}{16}n<h(n)\le2(\sqrt3-1)n+O(1)$, with $21/16=1.3125$ and
-$2(\sqrt3-1)\approx1.4641$. The lower bound is Fan's Theorem 1 with its
-Corollary 1.1 (J. Graph Theory 12 (1988), refereed): every graph with $n$
-vertices and $e>n^2/4$ edges has a triangle with degree sum $>21e/4n$, so
-$f(n,\lfloor n^2/4\rfloor+1)>21n/16$ as printed on p. 251
-([[../library/extremal_graph_theory/fan_1988_degree_sum_triangle_graph/theorem_1|theorem_1]]);
-the earlier lower bound $h(n)\ge(1+\eta)n$ for a fixed $\eta>0$ and large
-$n$ is Theorem 2 of the
-Erdős--Laskar note
+$2(\sqrt3-1)\approx1.4641$.
+
+The lower bound is Fan's Theorem 1 with its Corollary 1.1 (J. Graph Theory 12
+(1988), refereed). Every graph with $n$ vertices and $e>n^2/4$ edges has a
+triangle with degree sum $>21e/4n$, so $f(n,\lfloor n^2/4\rfloor+1)>21n/16$, as
+printed on p. 251
+([[../library/extremal_graph_theory/fan_1988_degree_sum_triangle_graph/theorem_1|theorem_1]]).
+The earlier lower bound $h(n)\ge(1+\eta)n$, for a fixed $\eta>0$ and large $n$,
+is Theorem 2 of the Erdős--Laskar note
 ([[../library/extremal_graph_theory/erdos_1985_note_size_chordal_subgraph/theorem_2|theorem_2]]).
+
 The upper bound is the site's construction, recomputed below as an authored
-check; the site attributes it to Erdős and Laskar and says the bound is not
-explicit in their 1985 note, whose six pages indeed contain no such
-construction, while Fan's § 2 (pp. 251--252) prints the construction in
-full with the bound $f(n,e)<4\sqrt{3e}-2n+5$ for $n^2/4<e<n^2/3$
-([[../library/extremal_graph_theory/fan_1988_degree_sum_triangle_graph/upper_bound_p251|upper_bound_p251]])
-and credits it to "the construction described in [4]", his reference [4]
-being that same 1985 note. The value of $h(n)/n$ is not known; no source
-settling the "in particular" question was found in the search whose scope
-the Current assessment records, and the thread's
+check. The site attributes it to Erdős and Laskar and says the bound is not
+explicit in their 1985 note. The note's six pages indeed contain no such
+construction. Fan's § 2 (pp. 251--252) prints the construction in full, with the
+bound $f(n,e)<4\sqrt{3e}-2n+5$ for $n^2/4<e<n^2/3$
+([[../library/extremal_graph_theory/fan_1988_degree_sum_triangle_graph/upper_bound_p251|upper_bound_p251]]).
+Fan credits it to "the construction described in [4]", his reference [4] being
+that same 1985 note.
+
+The value of $h(n)/n$ is not known. No source settling the "in particular"
+question was found in the search whose scope the Current assessment records.
+This is a bounded negative finding, not a certificate of openness. The thread's
 June--July 2026 claims that the conjectured lower bound fails are a pending
-partial claim, unreviewed and recorded below. This is a bounded negative
-finding, not a certificate of
-openness. Erdős's 1982 report that the inequality $3n/2$ was proved by
-Edwards is recorded beside these bounds, with which it is inconsistent, and
-is not resolved here.
+partial claim, unreviewed and recorded below. Erdős's 1982 report that the
+inequality $3n/2$ was proved by Edwards is recorded beside these bounds. The
+report is inconsistent with them and is not resolved here.
 
 **Source.** [erdosproblems.com/1033](https://www.erdosproblems.com/1033),
 accessed 2026-09-18T15:02Z: the problem page

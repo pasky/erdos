@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0301/claims/2026_07_30_della_pietra_upper
 title: "Della Pietra: an upper bound of 15437/19344 from the divisors of 5040"
 desc: |
-  An upper bound f(N) <= (15437/19344 + o(1))N for Problem 301, announced on
-  30 July 2026 in Donald Della Pietra's repository with an exact certificate
-  over the divisors of 5040; AI-assisted, unrefereed, formalized only at M = 60.
+  Donald Della Pietra's repository announced on 30 July 2026 the upper bound
+  $f(N)\le(15437/19344+o(1))N$ for Problem 301, with an exact certificate over
+  the divisors of $5040$. The work is AI-assisted and unrefereed, and is
+  formalized only at $M=60$.
 authors:
 - Donald Della Pietra
 status: claimed

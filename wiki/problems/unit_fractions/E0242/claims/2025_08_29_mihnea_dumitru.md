@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0242/claims/2025_08_29_mihnea_dumitru
 title: "Mihnea and Dumitru: a verification of every n up to 10^18"
 desc: |
-  An arXiv computation report of August 2025 states that the conjecture holds
-  for every prime up to 10^18, hence for every n up to 10^18; unrefereed and
-  not rerun.
+  An arXiv computation report of August 2025 by Mihnea and Dumitru states that
+  the conjecture holds for every prime up to $10^{18}$, hence for every $n$ up
+  to $10^{18}$. It is unrefereed, and the computation has not been rerun.
 authors:
 - Spiridon Mihnea
 - Bogdan C. Dumitru

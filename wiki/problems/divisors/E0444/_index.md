@@ -2,9 +2,9 @@
 name: problems/divisors/E0444
 title: Problem 444
 desc: |
-  Asks whether, for every k, an infinite set of integers has some integer
-  below x with more divisors from the set than any power of the set's
-  reciprocal sum.
+  Asks whether, for every infinite $A\subseteq\mathbb{N}$ and every $k$, the
+  ratio of $\max_{n<x}d_A(n)$ to $\bigl(\sum_{a\in A,\,a<x}1/a\bigr)^k$ is
+  unbounded, where $d_A(n)$ counts the elements of $A$ dividing $n$.
 tags:
 - Number theory
 - Divisors
@@ -29,11 +29,10 @@ $$
 \limsup_{x\to \infty} \frac{\max_{n<x}d_A(n)}{\left(\sum_{n\in A\cap[1,x)}\frac{1}{n}\right)^k}=\infty?
 $$
 
-**Status.** Proved. The site labels the problem PROVED; the Erdős–Sárközy
-theorem that $\max_{n\le x}d_A(n)$ exceeds $\exp(c(\log f_A(x))^2)$
-infinitely often, with
-$f_A(x)$ the reciprocal sum, answers the question yes for every $k$, as the
-claim page below records.
+**Status.** Proved. The site labels the problem PROVED. By the Erdős–Sárközy
+theorem, $\max_{n\le x}d_A(n)$ exceeds $\exp(c(\log f_A(x))^2)$ infinitely
+often, where $f_A(x)$ is the reciprocal sum. This answers the question yes for
+every $k$, as the claim page below records.
 
 **Source.** [erdosproblems.com/444](https://www.erdosproblems.com/444), accessed
 2026-09-04. The site cites the problem from Erdős and Graham's 1980 problem

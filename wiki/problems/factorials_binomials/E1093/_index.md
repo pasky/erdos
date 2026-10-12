@@ -2,9 +2,10 @@
 name: problems/factorials_binomials/E1093
 title: Problem 1093
 desc: |
-  Studies the deficiency of n choose k, the number of the k integers from n
-  downwards whose prime factors are all at most k, when no prime up to k
-  divides it.
+  Asks whether infinitely many $\binom{n}{k}$ with $n\ge 2k$ have deficiency
+  $1$, and whether only finitely many have deficiency $>1$. The deficiency,
+  defined when no prime $p\le k$ divides $\binom{n}{k}$, counts those of
+  $n,\ldots,n-k+1$ whose prime factors are all at most $k$.
 tags:
 - Number theory
 - Binomial coefficients
@@ -38,8 +39,8 @@ $(\log\max(|X|,|Y|,|Z|))^{\kappa_0-\epsilon}$. The second is a lower bound
 $\log n\ge ck^{\alpha}$, with $\alpha>1/\kappa_0$ and all large $k$, on the
 least $n\ge2k$ at which $\binom nk$ has deficiency at least $2$, when such an
 $n$ exists. From these the post proves that only finitely many $\binom nk$ with
-$n\ge2k$ have deficiency at least $2$. A conditional thread post, it has no
-claim page.
+$n\ge2k$ have deficiency at least $2$. The post is conditional and has no claim
+page.
 
 **Source.** [erdosproblems.com/1093](https://www.erdosproblems.com/1093),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1093,

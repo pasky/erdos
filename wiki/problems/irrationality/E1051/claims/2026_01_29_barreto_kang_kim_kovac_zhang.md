@@ -3,8 +3,8 @@ name: problems/irrationality/E1051/claims/2026_01_29_barreto_kang_kim_kovac_zhan
 title: Irrationality past the golden-ratio growth rate
 desc: |
   Barreto, Kang, Kim, Kovač and Zhang prove that growth at the golden-ratio
-  rate, limsup a_n^{1/phi^n} = infinity, already forces the sum of
-  1/(a_n a_{n+1}) to be irrational, and that no slower rate does.
+  rate, $\limsup a_n^{1/\phi^n}=\infty$, already forces $\sum1/(a_na_{n+1})$ to
+  be irrational. They also show that no slower rate does.
 authors:
 - Kevin Barreto
 - Jiwon Kang
@@ -76,20 +76,21 @@ human-AI interaction. The agent's own argument for the question is written
 up separately at
 [[problems/irrationality/E1051/claims/2026_01_29_feng_et_al|Feng and coauthors 2026]].
 
-**Acceptance.** Refereed: the paper is published as Bull. London Math. Soc.
-58 (2026), no. 8, article e70457 (the `paper` link, online 2026-07-29), with
-the same title and authors; the theorem labels used on this page follow the
-third arXiv version, whose comment of 2026-07-08 announces the journal
-acceptance. Reviewed: Thomas Bloom, the site's curator, labels the problem
-PROVED (LEAN) and credits this paper in the remarks with extending the
-solution and settling the growth threshold up to the limit rate, restating
-the golden-ratio theorem and its converse (page last edited 2026-02-01); Bloom
-is an author of neither paper. Barreto posted the preprint in the problem's
-forum thread on 2026-01-30; the paper credits the heuristic for the
-golden-ratio threshold to Terence Tao, citing the site's problem page, and
-Tao's sketch is Tao's reply of 2026-01-30 in that thread. The Lean
-formalization posted in the same thread covers the question's original
-hypothesis, not this theorem, and is recorded on the companion claim page.
-No independent check of the proof by this project is recorded.
+**Acceptance.** Refereed: the paper is published as Bull. London Math. Soc. 58
+(2026), no. 8, article e70457 (the `paper` link, online 2026-07-29), with the
+same title and authors. The theorem labels used on this page follow the third
+arXiv version, whose comment of 2026-07-08 announces the journal acceptance.
+
+Reviewed: Thomas Bloom, the site's curator, labels the problem PROVED (LEAN). In
+the remarks he credits this paper with extending the solution and settling the
+growth threshold up to the limit rate, and restates the golden-ratio theorem and
+its converse (page last edited 2026-02-01). Bloom is an author of neither paper.
+
+Barreto posted the preprint in the problem's forum thread on 2026-01-30. The
+paper credits the heuristic for the golden-ratio threshold to Terence Tao,
+citing the site's problem page. Tao's sketch is his reply of 2026-01-30 in that
+thread. The Lean formalization posted in the same thread covers the question's
+original hypothesis, not this theorem, and is recorded on the companion claim
+page. No independent check of the proof by this project is recorded.
 
 **Depends on.** No page of this wiki.

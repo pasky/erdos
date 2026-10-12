@@ -2,9 +2,9 @@
 name: problems/additive_bases/E0154
 title: Problem 154
 desc: |
-  Asks whether the sumset of a near-maximal Sidon set inside the first N
-  integers is evenly spread over small moduli, for instance half even and half
-  odd.
+  Asks whether, for a Sidon set $A\subset\{1,\ldots,N\}$ with
+  $\lvert A\rvert\sim N^{1/2}$, the sumset $A+A$ is evenly spread over small
+  moduli, for instance half even and half odd.
 tags:
 - Sidon sets
 status: solved
@@ -37,15 +37,15 @@ that depend on $N^{1/2}-\lvert A\rvert$, as his claim page states; for a set
 known only to satisfy $\lvert A\rvert\sim N^{1/2}$ they give no range of moduli
 up to a fixed power of $N$.
 
-**Status.** PROVED (LEAN), the site's label. The standing rests on two
-accepted claim pages:
+**Status.** PROVED (LEAN), the site's label. The standing rests on two accepted
+claim pages. The first is
 [[problems/additive_bases/E0154/claims/1998_04_01_lindstrom|Lindström 1998]],
-the refereed equidistribution of $A$ itself in residue classes, from which the
-statement for $A+A$ follows by the Sidon property, and its refereed
-quantitative strengthening
+the refereed equidistribution of $A$ itself in residue classes. The statement
+for $A+A$ follows from it by the Sidon property. The second is its refereed
+quantitative strengthening,
 [[problems/additive_bases/E0154/claims/1998_08_14_kolountzakis|Kolountzakis 1999]].
 The label's Lean qualification dates from Wouter van Doorn's formalization of
-the statement for $A$, posted to the site's thread on 2026-02-06; a formal
+the statement for $A$, posted to the site's thread on 2026-02-06. A formal
 derivation of the sumset statement from it followed on 2026-06-27. Both are
 linked from Lindström's page, and neither has been built or audited in this
 corpus.

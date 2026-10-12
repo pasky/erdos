@@ -2,8 +2,9 @@
 name: problems/covering_systems/E1189
 title: Problem 1189
 desc: |
-  Concerns sets of distinct moduli that can cover the integers by some choice
-  of residues but have no proper subset that can.
+  Asks about sets of distinct moduli that cover the integers for some choice of
+  residues while no proper subset can, including how many have size $k$, the
+  extreme values of their largest modulus, and their largest reciprocal sum.
 tags:
 - Number theory
 - Covering systems
@@ -52,33 +53,41 @@ be $\Theta(\log x)$, a consequence that stands or falls with that pending
 claim. The standing concerns the site's formulation.
 
 **Status.** Open. The site labels the problem OPEN (page last edited 8 April
-2026). Its commentary records the last question as settled by Sun, whose theorem
+2026). The standing is claimed through two pending full claims, recorded without
+adoption and described below. No outside review is recorded for either.
+
+The site's commentary records the last question as settled by Sun. His theorem
 that the divisors of $2^{p-1}p$ above one form an irreducible covering set for
 every odd prime $p$ is the accepted partial claim on
-[[problems/covering_systems/E1189/claims/2006_01_01_sun|Sun's claim page]]; it
-also records Simpson's bound $n_k\le2^{k-1}$, the accepted partial claim on
-[[problems/covering_systems/E1189/claims/1985_01_01_simpson|Simpson's claim page]],
-and the upper bound of Balister, Bollobás, Morris, Sahasrabudhe and Tiba on the
-number of irreducible covering sets of size $k$, the accepted partial claim on
+[[problems/covering_systems/E1189/claims/2006_01_01_sun|Sun's claim page]]. The
+commentary also records Simpson's bound $n_k\le2^{k-1}$, the accepted partial
+claim on
+[[problems/covering_systems/E1189/claims/1985_01_01_simpson|Simpson's claim page]].
+It also records the upper bound of Balister, Bollobás, Morris, Sahasrabudhe and
+Tiba on the number of irreducible covering sets of size $k$, the accepted
+partial claim on
 [[problems/covering_systems/E1189/claims/2019_04_09_balister_bollobas_morris_sahasrabudhe_tiba|their claim page]].
-Two full claims are recorded without adoption. The proof-claims tab carries one,
-on
-[[problems/covering_systems/E1189/claims/2026_07_28_pickhardt|Pickhardt's claim page]]:
-the count of irreducible covering sets of size $k$ with the sharp constant
-$4\sqrt\tau/3$ in its exponent, the largest modulus exactly $3\cdot2^{k-3}$, the
-smallest $k^{1+o(1)}$ and the maximum reciprocal sum of order $\log k$
-(manuscript of 2026-07-22 co-authored with the Omniscience Research Agent,
-submitted 2026-07-28 by Jeff Pickhardt). The other, on
+
+The proof-claims tab carries one of the full claims, on
+[[problems/covering_systems/E1189/claims/2026_07_28_pickhardt|Pickhardt's claim page]].
+It gives the count of irreducible covering sets of size $k$ with the sharp
+constant $4\sqrt\tau/3$ in its exponent. It also gives the largest modulus as
+exactly $3\cdot2^{k-3}$, the smallest as $k^{1+o(1)}$ and the maximum reciprocal
+sum as of order $\log k$. The claim rests on a manuscript of 2026-07-22
+co-authored with the Omniscience Research Agent, submitted on 2026-07-28 by Jeff
+Pickhardt.
+
+The other full claim, on
 [[problems/covering_systems/E1189/claims/2026_07_13_snyder|Snyder's claim page]],
-is a Lean 4 development released on Star Fleet Math on 2026-07-13 by Colin
-Snyder and produced by that system's GPT-5.6 harness: the same extremal answers
-and Sun's family, and, for the count, a Lean reduction to two hypotheses, a
-distinct-moduli frame datum and an upper count of displayed minimal systems,
-from which the asymptotic with its constant follows by hand from Theorem 1.1 of
-Balister, Bollobás, Morris, Sahasrabudhe and Tiba, a distinct-moduli bridging
-step the release's referee checked by hand, and elementary estimates; it is not
-on the proof-claims tab, whose one claim refers to it. The standing is claimed
-through those pending full claims; no outside review is recorded for either.
+is a Lean 4 development. Colin Snyder released it on Star Fleet Math on
+2026-07-13, and that system's GPT-5.6 harness produced it. It covers the same
+extremal answers and Sun's family. For the count, it gives a Lean reduction to
+two hypotheses: a distinct-moduli frame datum and an upper count of displayed
+minimal systems. From these, the asymptotic with its constant follows by hand
+from three ingredients: Theorem 1.1 of Balister, Bollobás, Morris, Sahasrabudhe
+and Tiba, a distinct-moduli bridging step that the release's referee checked by
+hand, and elementary estimates. The development is not on the proof-claims tab.
+The tab's one claim refers to it.
 
 **Source.** [erdosproblems.com/1189](https://www.erdosproblems.com/1189)
 with its discussion thread (as of 2026-10-06: seven comments in the

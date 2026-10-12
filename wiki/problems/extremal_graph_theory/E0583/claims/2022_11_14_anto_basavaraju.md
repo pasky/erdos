@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E0583/claims/2022_11_14_anto_basavaraju
 title: Anto and Basavaraju's 2-degenerate graphs
 desc: |
-  Anto and Basavaraju prove that every connected 2-degenerate graph other than
-  the triangle decomposes into at most floor(n/2) paths; refereed in DMTCS.
+  Anto and Basavaraju prove that every connected $2$-degenerate graph other than
+  the triangle decomposes into at most $\lfloor n/2\rfloor$ paths, in a refereed
+  paper in DMTCS.
 authors:
 - Nevil Anto
 - Manu Basavaraju

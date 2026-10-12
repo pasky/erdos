@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0210
 title: Problem 210
 desc: |
-  Asks whether the least number of lines through exactly two of n points, not
-  all collinear, grows without bound, and how fast.
+  Asks whether the least number $f(n)$ of lines through exactly two of $n$
+  points in the plane, not all collinear, tends to infinity, and how fast.
 tags:
 - Geometry
 status: solved

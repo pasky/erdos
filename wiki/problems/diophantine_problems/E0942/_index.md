@@ -2,9 +2,10 @@
 name: problems/diophantine_problems/E0942
 title: Problem 942
 desc: |
-  Estimates how many powerful integers lie between consecutive squares, in
-  particular whether some fixed power of log n bounds that count for every n
-  and is nearly reached for infinitely many n.
+  Asks for estimates of the number $h(n)$ of powerful integers in
+  $[n^2,(n+1)^2)$, in particular whether some $c>0$ gives
+  $h(n)<(\log n)^{c+o(1)}$ for all $n$ and $h(n)>(\log n)^{c-o(1)}$ for
+  infinitely many $n$.
 tags:
 - Number theory
 - Powerful numbers

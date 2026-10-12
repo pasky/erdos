@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0415
 title: Problem 415
 desc: |
-  Estimates the largest k such that every ordering pattern of k consecutive
-  values of Euler's totient function occurs below n, and which pattern fails
-  first.
+  Asks whether the largest $k$ such that every ordering pattern of $k$
+  consecutive values of $\phi$ occurs below $n$ is $(c+o(1))\log\log\log n$, and
+  whether the decreasing pattern always fails first.
 tags:
 - Number theory
 status: claimed
@@ -53,16 +53,17 @@ with weak orderings, and "most likely" is read as the largest asymptotic
 density, following the remark on the same page of [ErGr80] that every
 permutation has a density.
 
-**Status.** The site labels the problem OPEN (page last edited 28 May 2026).
-Its commentary records that the asymptotic of Pollack, Pomerance and Treviño
-[PPT13] for monotone runs answers the first question in the negative, the
-accepted partial claim on
-[[problems/arithmetic_functions/E0415/claims/2012_09_19_pollack_pomerance_trevino|the Pollack–Pomerance–Treviño page]],
-and that Chojecki and GPT-5.4 sketched the same asymptotic for an arbitrary
-strict pattern. Chojecki's manuscripts of April and July 2026, the July one
-answering all three questions no, are the pending full claim on
-[[problems/arithmetic_functions/E0415/claims/2026_04_19_chojecki|the Chojecki page]];
-the frontmatter standing follows from it.
+**Status.** The site labels the problem OPEN (page last edited 28 May 2026). The
+frontmatter standing follows from the pending full claim on
+[[problems/arithmetic_functions/E0415/claims/2026_04_19_chojecki|the Chojecki page]].
+That claim consists of Chojecki's manuscripts of April and July 2026, and the
+July manuscript answers all three questions no. The site's commentary records
+that the asymptotic of Pollack, Pomerance and Treviño [PPT13] for monotone runs
+answers the first question in the negative. This result is the accepted partial
+claim on
+[[problems/arithmetic_functions/E0415/claims/2012_09_19_pollack_pomerance_trevino|the Pollack–Pomerance–Treviño page]].
+The commentary also records that Chojecki and GPT-5.4 sketched the same
+asymptotic for an arbitrary strict pattern.
 
 **Source.** [erdosproblems.com/415](https://www.erdosproblems.com/415), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #415,

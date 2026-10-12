@@ -2,8 +2,9 @@
 name: problems/primes/E0428
 title: Problem 428
 desc: |
-  Asks for a set with positive relative density among the primes such that,
-  for infinitely many n, subtracting each member from n always gives a prime.
+  Asks whether there is a set $A\subseteq\mathbb{N}$ with
+  $\liminf\lvert A\cap[1,x]\rvert/\pi(x)>0$ such that, for infinitely many $n$,
+  $n-a$ is prime for every $a\in A$ with $0<a<n$.
 tags:
 - Number theory
 - Primes

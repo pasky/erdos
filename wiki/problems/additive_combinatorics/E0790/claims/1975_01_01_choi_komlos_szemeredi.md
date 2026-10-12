@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0790/claims/1975_01_01_choi_komlos_szemeredi
 title: Choi, Komlós and Szemerédi's bounds on sum-free subsequences
 desc: |
-  The 1975 theorem that l(n) lies between (n log n / log log n)^{1/2} and
-  n / log n up to constants, which answers the first displayed question of
-  Problem 790 affirmatively; refereed and credited by the site.
+  Choi, Komlós and Szemerédi's 1975 theorem that
+  $(n\log n/\log\log n)^{1/2}\ll l(n)\ll n/\log n$, which answers the first
+  displayed question of Problem 790 yes. The paper is refereed and the site
+  credits it.
 authors:
 - S. L. G. Choi
 - J. Komlós
@@ -70,12 +71,12 @@ monotone consecutive differences (the paper's reference [5], Theorem 4; Canad.
 Math. Bull. 14 (1971), 151--157).
 
 **Acceptance.** Refereed: the paper is the publisher's version of record in
-Transactions of the American Mathematical Society (as its Crossref record
-gives it; the volume carries no publication day, so this page is named by
-the first day of its year). The site's
-curator, Thomas F. Bloom, credits both bounds to Choi, Komlós and Szemerédi
-in the problem page's commentary (label OPEN, page last edited 23 January
-2026), after a thread comment of 30 October 2025 pointed to the paper; the
-problem is not marked settled there, so the credit is recorded here and is
-not listed as `reviewed`. The Theorem and the closing remark are stated
-from the printed pages; the proofs are not reviewed in this corpus.
+Transactions of the American Mathematical Society, as its Crossref record gives
+it. The volume carries no publication day, so this page is named by the first
+day of its year. The site's curator, Thomas F. Bloom, credits both bounds to
+Choi, Komlós and Szemerédi in the problem page's commentary (label OPEN, page
+last edited 23 January 2026). The credit came after a thread comment of 30
+October 2025 pointed to the paper. The problem is not marked settled there, so
+the credit is recorded here and is not listed as `reviewed`. The Theorem and the
+closing remark are stated from the printed pages. The proofs are not reviewed in
+this corpus.

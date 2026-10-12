@@ -2,8 +2,8 @@
 name: problems/primes/E0244
 title: Problem 244
 desc: |
-  Asks whether, for a constant greater than 1, the integers formed as a prime
-  plus the integer part of a power of that constant have positive density.
+  Asks whether, for $C>1$, the integers of the form $p+\lfloor C^k\rfloor$, with
+  $p$ prime and $k\ge0$, have positive density.
 tags:
 - Number theory
 - Primes
@@ -34,14 +34,14 @@ theorems are lower-density statements, and none of them shows that the
 natural density exists. Whether $k$ starts at $0$ or at $1$ does not matter,
 since the integers $p+1$ have density zero.
 
-**Status.** Open, the site's label (OPEN; page last edited 28 October 2025).
-Romanoff's theorem [Ro34] gives positive lower density for every integer
-$C\ge2$, recorded as the accepted partial claim on
-[[problems/primes/E0244/claims/1934_12_01_romanoff|Romanoff's claim page]];
-Ding's theorems [Di25], positive lower density for almost every real $C>1$
-and for the golden ratio, are the pending partial claim on
-[[problems/primes/E0244/claims/2025_03_17_ding|Ding's claim page]]. No claim
-covers every $C>1$, so the problem stays open.
+**Status.** Open, the site's label (OPEN; page last edited 28 October 2025). No
+claim covers every $C>1$, so the problem stays open. Romanoff's theorem [Ro34]
+gives positive lower density for every integer $C\ge2$. It is recorded as the
+accepted partial claim on
+[[problems/primes/E0244/claims/1934_12_01_romanoff|Romanoff's claim page]].
+Ding's theorems [Di25] give positive lower density for almost every real $C>1$
+and for the golden ratio. They are the pending partial claim on
+[[problems/primes/E0244/claims/2025_03_17_ding|Ding's claim page]].
 
 **Source.** [erdosproblems.com/244](https://www.erdosproblems.com/244), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #244,

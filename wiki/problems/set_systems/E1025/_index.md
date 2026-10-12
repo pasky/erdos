@@ -2,9 +2,9 @@
 name: problems/set_systems/E1025
 title: Problem 1025
 desc: |
-  Independent sets for a function assigning to each pair from the first n
-  integers a third value, meaning sets closed away from the values of their
-  own pairs.
+  Asks to estimate how large an independent set must exist for every map $f$
+  sending each pair $x,y$ from $\{1,\ldots,n\}$ to a third element, where $X$ is
+  independent if $f(x,y)\notin X$ for all $x,y\in X$.
 tags:
 - Combinatorics
 status: solved
@@ -29,9 +29,9 @@ X$ we have $f(x,y)\not\in X$.
 Let $g(n)$ be such that, in every function $f$, there is an independent set of
 size at least $g(n)$. Estimate $g(n)$.
 
-**Status.** The site labels the problem SOLVED (LEAN), the Lean qualification
-recorded in the community database since 2026-09-15, crediting Spencer [Sp72]
-with $g(n)\gg n^{1/2}$ and Conlon, Fox and Sudakov [CFS16] with
+**Status.** The site labels the problem SOLVED (LEAN). The community database
+has recorded the Lean qualification since 2026-09-15. The site credits Spencer
+[Sp72] with $g(n)\gg n^{1/2}$ and Conlon, Fox and Sudakov [CFS16] with
 $g(n)\ll n^{1/2}$, so $g(n)\asymp n^{1/2}$.
 
 **Source.** [erdosproblems.com/1025](https://www.erdosproblems.com/1025),

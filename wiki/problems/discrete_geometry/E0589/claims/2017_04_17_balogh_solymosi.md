@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0589/claims/2017_04_17_balogh_solymosi
 title: Balogh and Solymosi's upper bound g(n) <= n^{5/6+o(1)}
 desc: |
-  Balogh and Solymosi's Theorem 2.1 constructs n-point planar sets with no four
-  collinear in which every subset of n^{5/6+o(1)} points has a collinear
-  triple, so g(n) <= n^{5/6+o(1)}; refereed in Discrete Analysis.
+  Balogh and Solymosi's Theorem 2.1, refereed in Discrete Analysis, constructs
+  $n$-point planar sets with no four points collinear in which every subset of
+  $n^{5/6+o(1)}$ points has a collinear triple. So $g(n)\le n^{5/6+o(1)}$.
 authors:
 - Jozsef Balogh
 - Jozsef Solymosi

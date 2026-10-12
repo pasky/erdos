@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1080
 title: Problem 1080
 desc: |
-  Asks whether a bipartite graph on n vertices with a part of size about
-  n^(2/3) and at least cn edges must contain a six-cycle; disproved by the
-  superlinear 6-cycle-free constructions credited by the site, papers not held.
+  Asks whether some $c>0$ makes every bipartite graph on $n$ vertices with a
+  part of $\lfloor n^{2/3}\rfloor$ vertices and at least $cn$ edges contain a
+  $C_6$. Disproved by the superlinear $C_6$-free constructions the site credits,
+  whose papers are not held.
 tags:
 - Graph theory
 status: solved
@@ -55,36 +56,36 @@ the exponents recorded below do not depend on the choice of wording. The site's
 label DISPROVED (LEAN) carries a catalog suffix explained under Formalization.
 
 **Status.** Disproved. The site's label is DISPROVED (LEAN), whose catalog
-suffix is explained under Formalization; the original texts are not held. The
-site's commentary credits the negative answer to de Caen and Székely [DeSz92];
-their bounds are $n^{10/9}\gg f(n,\lfloor n^{2/3}\rfloor)\gg n^{58/57+o(1)}$
-for $m\sim n^{2/3}$ and $f(n,m)\ll(nm)^{2/3}$ for $n^{1/2}\le m\le n$ (the
-general bound the site also attributes to Faudree and Simonovits), and the
-commentary records that Lazebnik, Ustimenko and Woldar [LUW94] later raised
-the lower bound to $f(n,\lfloor n^{2/3}\rfloor)\gg n^{16/15+o(1)}$. A $C_4$- and $C_6$-free
+suffix is explained under Formalization. The original texts are not held. The
+site's commentary credits the negative answer to de Caen and Székely [DeSz92].
+Their bounds are $n^{10/9}\gg f(n,\lfloor n^{2/3}\rfloor)\gg n^{58/57+o(1)}$ for
+$m\sim n^{2/3}$, and $f(n,m)\ll(nm)^{2/3}$ for $n^{1/2}\le m\le n$. The site
+also attributes this general bound to Faudree and Simonovits. The commentary
+records that Lazebnik, Ustimenko and Woldar [LUW94] later raised the lower bound
+to $f(n,\lfloor n^{2/3}\rfloor)\gg n^{16/15+o(1)}$. A $C_4$- and $C_6$-free
 bipartite graph with parts of sizes about $n^{2/3}$ and $n$ and
 $n^{1+\varepsilon}$ edges, $\varepsilon>0$ fixed, has more than $cn$ edges for
-every $c$ once $n$ is large, so no constant $c$ exists and the answer is no.
-Two claim pages record these results as accepted, on the site's acceptance
-and, for [LUW94], its refereed publication:
+every $c$ once $n$ is large. So no constant $c$ exists, and the answer is no.
+
+Two claim pages record these results as accepted:
 [[problems/extremal_graph_theory/E1080/claims/1992_01_01_de_caen_szekely|de Caen and Székely]]
 and
 [[problems/extremal_graph_theory/E1080/claims/1994_05_01_lazebnik_ustimenko_woldar|Lazebnik, Ustimenko and Woldar]].
-Every exponent is second-hand: [DeSz92], a chapter of a 1992 Bolyai Society
-volume, and [LUW94], a journal paper whose Crossref record lists the
-publisher's open-archive license, are not held (the routes tried are
-recorded below). The external Lean file behind the site's
-suffix, which declares itself a formalization of de Caen and Székely's
-solution and is linked from
-[[problems/extremal_graph_theory/E1080/claims/1992_01_01_de_caen_szekely|their claim page]],
-proves, in its own statement, that for every $c>0$ some bipartite graph on $n$
+The acceptance rests on the site's acceptance and, for [LUW94], on its refereed
+publication. The standing derives from these two accepted pages, on the
+curator's credit for [DeSz92] and on the journal publication of [LUW94]. Every
+exponent is second-hand. [DeSz92], a chapter of a 1992 Bolyai Society volume, is
+not held. Neither is [LUW94], a journal paper whose Crossref record lists the
+publisher's open-archive license. The routes tried are recorded below. The
+exponents stay second-hand until [DeSz92] or [LUW94] is read at its theorem.
+
+The external Lean file behind the site's suffix declares itself a formalization
+of de Caen and Székely's solution and is linked from
+[[problems/extremal_graph_theory/E1080/claims/1992_01_01_de_caen_szekely|their claim page]].
+In its own statement, it proves that for every $c>0$ some bipartite graph on $n$
 vertices with a part of exactly $\lfloor n^{2/3}\rfloor$ vertices and at least
-$cn$ edges has no $6$-cycle, by the Lazebnik--Ustimenko--Woldar construction;
-it has not been built here. The standing derives from the two accepted
-claim pages, on the curator's credit for [DeSz92] and on the journal
-publication of [LUW94]; the Lean file is a formalization link, not evidence;
-and the exponents stay second-hand until [DeSz92] or [LUW94] is read at its
-theorem.
+$cn$ edges has no $6$-cycle, by the Lazebnik--Ustimenko--Woldar construction. It
+has not been built here. The Lean file is a formalization link, not evidence.
 
 **Source.** [erdosproblems.com/1080](https://www.erdosproblems.com/1080),
 accessed 2026-09-18: the problem page (DISPROVED (LEAN), with the site's

@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E0748
 title: Problem 748
 desc: |
-  Asks whether the number of sum-free subsets of 1 up to n is two to the power
-  of half of n times one plus a vanishing term.
+  Asks whether the number of sum-free subsets of $\{1,\ldots,n\}$ is
+  $2^{(1+o(1))n/2}$.
 tags:
 - Number theory
 status: solved
@@ -39,23 +39,23 @@ Proposition 12). The bound $O(2^{n/2})$ and the two-valued
 asymptotic below are the later results of Green and Sapozhenko.
 
 **Status.** The site labels the problem PROVED and credits Green [Gr04] and
-Sapozhenko [Sa03], who independently proved the stronger bound
-$f(n)\ll2^{n/2}$ of the Cameron–Erdős conjecture, and in fact the asymptotic
-$f(n)\sim c_n2^{n/2}$ with $c_n$ taking one of two values according to the
-parity of $n$. The displayed statement itself dates from Calkin [Ca90] and
-Alon [Al91]: with the trivial lower bound $f(n)\ge2^{\lceil n/2\rceil}$ from
-the subsets of $(n/2,n]$, each of their upper bounds $2^{n/2+o(n)}$ gives
-$f(n)=2^{(1+o(1))n/2}$. Problem 877 is the maximal case. Claim pages:
-[[problems/integer_sequences/E0748/claims/1990_03_01_calkin|Calkin 1990]]
-(accepted, refereed in Bull. London Math. Soc.),
-[[problems/integer_sequences/E0748/claims/1991_06_01_alon|Alon 1991]]
-(accepted, refereed in Israel J. Math.), and, as the later and stronger
-results, [[problems/integer_sequences/E0748/claims/2003_04_04_green|Green
-2003]] (accepted, refereed in Bull. London Math. Soc. 2004) and
+Sapozhenko [Sa03]. They independently proved the stronger bound $f(n)\ll2^{n/2}$
+of the Cameron–Erdős conjecture. In fact they proved the asymptotic
+$f(n)\sim c_n2^{n/2}$, with $c_n$ taking one of two values according to the
+parity of $n$. The displayed statement itself dates from Calkin [Ca90] and Alon
+[Al91]. The subsets of $(n/2,n]$ give the trivial lower bound
+$f(n)\ge2^{\lceil n/2\rceil}$. With it, each of Calkin's and Alon's upper bounds
+$2^{n/2+o(n)}$ gives $f(n)=2^{(1+o(1))n/2}$. Problem 877 is the maximal case.
+Claim pages: [[problems/integer_sequences/E0748/claims/1990_03_01_calkin|Calkin
+1990]] (accepted, refereed in Bull. London Math. Soc.),
+[[problems/integer_sequences/E0748/claims/1991_06_01_alon|Alon 1991]] (accepted,
+refereed in Israel J. Math.), and, as the later and stronger results,
+[[problems/integer_sequences/E0748/claims/2003_04_04_green|Green 2003]]
+(accepted, refereed in Bull. London Math. Soc. 2004) and
 [[problems/integer_sequences/E0748/claims/2003_01_01_sapozhenko|Sapozhenko
-2003]] (accepted, refereed in Discrete Math. 2008 after a Doklady note of
-2003; neither held here). The unpublished proof of Erdős and Granville has no
-posting and so no claim page.
+2003]] (accepted, refereed in Discrete Math. 2008 after a Doklady note of 2003;
+neither held here). The unpublished proof of Erdős and Granville has no posting
+and so no claim page.
 
 **Source.** [erdosproblems.com/748](https://www.erdosproblems.com/748), accessed
 2026-09-04 and 2026-09-05: PROVED, header keys [CaEr90], [Er94b], [Er98], no

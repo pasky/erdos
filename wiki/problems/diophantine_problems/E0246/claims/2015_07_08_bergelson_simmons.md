@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0246/claims/2015_07_08_bergelson_simmons
 title: "Bergelson and Simmons: the bound K(a,b) at most 4a-5"
 desc: |
-  Bergelson and Simmons (Acta Arith. 177 (2017)) prove that the numbers
-  a^n b^k with at most 4a-4 distinct exponents k, including 0, form a
-  complete set, so K(a,b) is at most 4a-5; refereed.
+  Bergelson and Simmons (Acta Arith. 177 (2017)) prove in a refereed paper that
+  the numbers $a^nb^k$ with at most $4a-4$ distinct exponents $k$, including 0,
+  form a complete set. Hence $K(a,b)\le4a-5$.
 authors:
 - Vitaly Bergelson
 - David Simmons

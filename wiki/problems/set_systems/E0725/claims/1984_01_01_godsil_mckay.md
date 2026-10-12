@@ -2,9 +2,10 @@
 name: problems/set_systems/E0725/claims/1984_01_01_godsil_mckay
 title: Godsil and McKay's asymptotic for k = o(n^(6/7))
 desc: |
-  Godsil and McKay (announced 1984, published 1990) prove an asymptotic
-  formula for the number of k by n Latin rectangles for every k = o(n^(6/7)),
-  later claimed for all sublinear k; a partial answer to the problem.
+  Godsil and McKay (announced 1984, published 1990) prove an asymptotic formula
+  for the number of $k\times n$ Latin rectangles for every $k=o(n^{6/7})$, a
+  partial answer to the problem. The same formula was later claimed for all
+  sublinear $k$.
 authors:
 - C. D. Godsil
 - B. D. McKay
@@ -59,10 +60,10 @@ which asks for an asymptotic formula without restricting $k$, is not settled
 by it; [[problems/set_systems/E0725/claims/2026_08_03_li|Li's manuscript]]
 claims the same formula for every $k=o(n)$.
 
-**Acceptance.** Refereed: C. D. Godsil and B. D. McKay, Asymptotic
-enumeration of Latin rectangles, J. Combin. Theory Ser. B **48** (1990),
-no. 1, 19–44; the page is dated by the result's first posting, the
-announcement in the January 1984 issue of Bull. Amer. Math. Soc. (N.S.). The
-site's curator does not credit the result, and the site labels the problem
-OPEN, so the page lists no `reviewed` evidence. The proof has not been
-reconstructed or independently reviewed in this corpus.
+**Acceptance.** Refereed: C. D. Godsil and B. D. McKay, Asymptotic enumeration
+of Latin rectangles, J. Combin. Theory Ser. B **48** (1990), no. 1, 19–44. The
+page is dated by the result's first posting, the announcement in the January
+1984 issue of Bull. Amer. Math. Soc. (N.S.). The site's curator does not credit
+the result, and the site labels the problem OPEN, so the page lists no
+`reviewed` evidence. The proof has not been reconstructed or independently
+reviewed in this corpus.

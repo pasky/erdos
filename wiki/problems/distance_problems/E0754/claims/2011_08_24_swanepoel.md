@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0754/claims/2011_08_24_swanepoel
 title: Swanepoel's linear error term for favorite distances in four dimensions
 desc: |
-  Swanepoel proves that n points in four-dimensional space, each with a chosen
-  distance, have at most n^2/2 + O(n) pairs at the chosen distances, so a set
-  in which every point has f(n) equidistant points has f(n) <= n/2 + O(1).
+  Swanepoel proves that $n$ points in $\mathbb R^4$, each with a chosen
+  distance, have at most $n^2/2+O(n)$ pairs at the chosen distances. So if every
+  point of a set has $f(n)$ equidistant points, then $f(n)\le n/2+O(1)$.
 authors:
 - Konrad J. Swanepoel
 status: accepted
@@ -69,10 +69,10 @@ and the
 record the two results.
 
 **Acceptance.** The site's curator, Thomas Bloom, marks the problem proved and
-credits Swanepoel's theorem for it: the site's export of 2026-09-04 labels the
-problem PROVED, and the community database, which follows the site's label,
-records the status proved (Lean) and links Ren's assembly, described below. The
-paper appeared as a chapter of an edited Springer volume; no evidence that the
+credits Swanepoel's theorem for it. The site's export of 2026-09-04 labels the
+problem PROVED. The community database, which follows the site's label, records
+the status proved (Lean) and links Ren's assembly, described below. The paper
+appeared as a chapter of an edited Springer volume. No evidence that the
 volume's chapters were refereed is recorded, so no `refereed` evidence is
 listed.
 

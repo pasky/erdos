@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0471/claims/2024_12_09_mrazovic_kovac
 title: Mrazović and Kovač's deduction from Vinogradov's theorem
 desc: |
-  Starting from all primes up to a Vinogradov threshold generates every
-  prime, since each larger prime is a sum of three distinct smaller primes;
-  an observation sent to the site and accepted into its commentary.
+  Starting from all primes up to a Vinogradov threshold generates every prime,
+  since each larger prime is a sum of three distinct smaller primes. This
+  observation of Mrazović and Kovač was sent to the site and accepted into its
+  commentary.
 authors:
 - Codex
 - GPT-5.6 Sol
@@ -53,14 +54,13 @@ August 2025, the date its history begins. In a thread comment of 1 January
 2026 Kovač restates the argument and the distinctness modification. There is
 no paper.
 
-**Acceptance.** The site's curator, Thomas Bloom, wrote the argument into
-the commentary of Problem 471, labeled the problem PROVED and thanks Alon,
-Mrazović and Kovač on the page; that documented acceptance by a curator who
-had no part in the result is the reviewed evidence.
-Alon's independent observation of the same argument is the sibling page
-[[problems/integer_sequences/E0471/claims/2024_12_09_alon|Alon]]. Nothing
-was reviewed here; the argument is an elementary deduction from a classical
-theorem.
+**Acceptance.** The site's curator, Thomas Bloom, wrote the argument into the
+commentary of Problem 471, labeled the problem PROVED and thanks Alon, Mrazović
+and Kovač on the page. Bloom had no part in the result, and this documented
+acceptance is the reviewed evidence. Alon's independent observation of the same
+argument is on the sibling page
+[[problems/integer_sequences/E0471/claims/2024_12_09_alon|Alon]]. Nothing was
+reviewed here. The argument is an elementary deduction from a classical theorem.
 
 **Formalization.** The file `Erdos471.lean` in Boris Alexeev's repository
 `lean-proofs`, linked above at a pinned commit and added on 21 August 2026,

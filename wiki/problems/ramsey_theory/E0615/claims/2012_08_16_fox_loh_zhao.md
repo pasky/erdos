@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0615/claims/2012_08_16_fox_loh_zhao
 title: Fox, Loh and Zhao, the quantitative Bollobás–Erdős graph
 desc: |
-  Theorem 1.10 of Fox, Loh and Zhao (Combinatorica 2015): RT(n, K_4, m) is at
-  least (1/8 − o(1)) n² when m = n e^{−f(n)}, f(n) = o((log n/log log n)^{1/2}),
-  a range containing n/log n, so the answer to Problem 615 is no; refereed.
+  Theorem 1.10 of Fox, Loh and Zhao (Combinatorica 2015, refereed) gives
+  $\mathbf{RT}(n,K_4,m)\ge(1/8-o(1))n^2$ when $m=ne^{-f(n)}$ with
+  $f(n)=o((\log n/\log\log n)^{1/2})$. This range contains $n/\log n$, so the
+  answer to Problem 615 is no.
 authors:
 - Jacob Fox
 - Po-Shen Loh
@@ -71,15 +72,15 @@ constant factor, which the theorem's range absorbs.
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the
-problem DISPROVED (LEAN) and credits Fox, Loh and Zhao in the problem's
-commentary with the negative answer and with the quantitative lower bound
-behind it (page accessed 2026-09-18); the thread and the proof-claim tab are
-empty, so the commentary is the whole of the site's record. Refereed:
-Combinatorica 35 (2015), no. 4, 435--476, DOI 10.1007/s00493-014-3025-3,
-published online 22 October 2014 (the Crossref record and the arXiv
-listing's journal reference). The edition cited is
-the arXiv v3; the journal text is not held and was not compared.
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
+DISPROVED (LEAN). The problem's commentary credits Fox, Loh and Zhao with the
+negative answer and with the quantitative lower bound behind it (page accessed
+2026-09-18). The thread and the proof-claim tab are empty, so the commentary is
+the whole of the site's record. Refereed: Combinatorica 35 (2015), no. 4,
+435--476, DOI 10.1007/s00493-014-3025-3, published online 22 October 2014,
+according to the Crossref record and the arXiv listing's journal reference. The
+edition cited is the arXiv v3. The journal text is not held and was not
+compared.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos615.lean` of
 Boris Alexeev's repository `plby/lean-proofs`, linked above at the commit of

@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0052
 title: Problem 52
 desc: |
-  Asks whether the larger of the sumset and product set of a finite set of
-  integers always has size at least the set's size squared, up to a small
-  power loss.
+  Asks whether every finite set $A$ of integers has
+  $\max(\lvert A+A\rvert,\lvert AA\rvert)\gg_\epsilon\lvert A\rvert^{2-\epsilon}$
+  for every $\epsilon>0$.
 tags:
 - Number theory
 - Additive combinatorics

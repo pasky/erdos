@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E1149/claims/2002_09_01_delmer_deshouillers
 title: Delmer and Deshouillers's coprimality density for n and [n^c]
 desc: |
-  Delmer and Deshouillers (Period. Math. Hungar. 2002): for every positive
-  non-integer c, the integers n coprime to the integer part of n^c have
-  density 6/pi^2; refereed.
+  Delmer and Deshouillers (Period. Math. Hungar. 2002, refereed) show that for
+  every positive non-integer $c$, the integers $n$ coprime to
+  $\lfloor n^c\rfloor$ have density $6/\pi^2$.
 authors:
 - F. Delmer
 - J.-M. Deshouillers

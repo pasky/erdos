@@ -2,9 +2,8 @@
 name: problems/polynomials/E0485
 title: Problem 485
 desc: |
-  Asks whether the least possible number of nonzero terms in the square of a
-  rational polynomial with exactly k nonzero terms tends to infinity as k
-  grows.
+  Asks whether the least number of terms in $P(x)^2$, over $P\in\mathbb{Q}[x]$
+  with exactly $k$ nonzero terms, tends to infinity as $k\to\infty$.
 tags:
 - Analysis
 - Polynomials
@@ -26,12 +25,12 @@ updated: 2026-10-08T00:44:25Z
 $P\in \mathbb{Q}[x]$ ranges over all polynomials with exactly $k$ non-zero
 terms. Is it true that $f(k)\to\infty$ as $k\to \infty$?
 
-**Status.** Proved. The site labels the problem PROVED. The answer is yes:
-Schinzel proved in 1987 that $f(k)>\log\log k/\log2$, and Schinzel and
-Zannier sharpened this in 2009 to $f(k)\gg\log k$ (both refereed; the
+**Status.** Proved. The site labels the problem PROVED. The answer is yes.
+Schinzel proved in 1987 that $f(k)>\log\log k/\log2$. Schinzel and Zannier
+sharpened this in 2009 to $f(k)\gg\log k$. Both results are refereed, and the
 accepted claim pages are
 [[problems/polynomials/E0485/claims/1987_01_01_schinzel|Schinzel 1987]] and
-[[problems/polynomials/E0485/claims/2009_03_31_schinzel_zannier|Schinzel and Zannier 2009]]).
+[[problems/polynomials/E0485/claims/2009_03_31_schinzel_zannier|Schinzel and Zannier 2009]].
 
 **Source.** [erdosproblems.com/485](https://www.erdosproblems.com/485), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #485,

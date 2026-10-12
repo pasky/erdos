@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0321/claims/2026_07_15_young_zhu_luo
 title: The order of magnitude of R(N)
 desc: |
-  Young, Zhu and Luo's AI-assisted claim that the largest subset of the first
-  N integers with distinct reciprocal subset sums has the order of N / log N
-  times the iterated-logarithm product, via their log S(N) bound; accepted.
+  Young, Zhu and Luo's AI-assisted claim that the largest subset of
+  $\{1,\ldots,N\}$ with distinct reciprocal subset sums has size of order
+  $N/\log N$ times the iterated-logarithm product, via their bound for
+  $\log S(N)$. It is accepted.
 authors:
 - Keheng Zhu
 - Yanping Luo
@@ -96,15 +97,15 @@ and that $2^{|\mathcal U(N)|}$ is at most the number of subset sums
 about the order of $R(N)$, and it has not been built by this corpus, so it is
 a link and no `formalized` evidence.
 
-**Acceptance.** The site's curator, Thomas Bloom, marked the claim on the tab
-as accepted by the site as correct and marked the problem resolved on 16 July
-2026 with a thread comment saying that the order of magnitude of $R(N)$ is now
-known and that finer questions such as an asymptotic remain open; the problem
-page's commentary attributes the upper bound to the AI system prompted by the
-claimants and points to Problem 320. The curator is independent of the
+**Acceptance.** The site's curator, Thomas Bloom, marked the claim on the tab as
+accepted by the site as correct. On 16 July 2026 the curator marked the problem
+resolved, with a thread comment saying that the order of magnitude of $R(N)$ is
+now known and that finer questions such as an asymptotic remain open. The
+problem page's commentary attributes the upper bound to the AI system prompted
+by the claimants and points to Problem 320. The curator is independent of the
 claimants, and that acceptance is the `reviewed` evidence. No refereed
-publication and no independent review were found on 2026-09-18. The one
-comment under the claim (2026-10-07) is the curator's, of 16 July 2026: it
-says that the proof is correct, that the lower bound is from the earlier work
-the claim cites, and that the upper bound follows at once from the resolution
-of Problem 320.
+publication and no independent review were found on 2026-09-18. On 2026-10-07
+the claim had one comment, the curator's comment of 16 July 2026. It says that
+the proof is correct, that the lower bound is from the earlier work the claim
+cites, and that the upper bound follows at once from the resolution of
+Problem 320.

@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0806/claims/2007_11_10_alon_bukh_sudakov
 title: Alon, Bukh and Sudakov's small bases of order sqrt(n) log log n / log n
 desc: |
-  Theorem 1.4 of Alon, Bukh and Sudakov (Israel J. Math. 2009): every set of
-  at most sqrt(n) integers up to n has a basis of o(sqrt(n)) elements, of
-  order sqrt(n) log log n / log n; accepted on the refereed publication.
+  Theorem 1.4 of Alon, Bukh and Sudakov (Israel J. Math. 2009): every set of at
+  most $\sqrt n$ integers up to $n$ has a basis of $o(\sqrt n)$ elements, of
+  order $\sqrt n\log\log n/\log n$. It is accepted on the refereed publication.
 authors:
 - Noga Alon
 - Boris Bukh
@@ -70,16 +70,17 @@ through Lemma 3.3 for solvable groups (p. 9); the Feit--Thompson theorem
 enters only the odd-order clause of Corollary 1.5 and is not needed here.
 
 **Acceptance.** Refereed: Israel J. Math. 174 (2009), no. 1, 285--301,
-doi:10.1007/s11856-009-0115-9; the Crossref record dates the issue to
-November 2009 without a day. The arXiv preprint 0711.1604 was
-submitted 10 November 2007, which names this page. Reviewed: the site's
-curator, Thomas Bloom, credits the resolution to Alon, Bukh and Sudakov in
-the problem page's commentary and labels the problem PROVED (label as of
-2026-10-07; no last-edited date); its discussion thread and proof-claim tab
-were empty, and the community database lists the problem proved as of its
-entry's last update of 31 August 2025, which does not date any change of
-state. The acceptance rests on the publication and the curator's credit,
-not on any review of this project's own.
+doi:10.1007/s11856-009-0115-9. The Crossref record dates the issue to November
+2009 without a day. The arXiv preprint 0711.1604 was submitted 10 November 2007,
+which names this page.
+
+Reviewed: the site's curator, Thomas Bloom, credits the resolution to Alon, Bukh
+and Sudakov in the problem page's commentary and labels the problem PROVED
+(label as of 2026-10-07; no last-edited date). The problem's discussion thread
+and proof-claim tab were empty. The community database lists the problem as
+proved as of its entry's last update of 31 August 2025; that update does not
+date any change of state. The acceptance rests on the publication and the
+curator's credit, not on any review of this project's own.
 
 **Formalization.** Not counted as evidence: the file `Erdos806.lean` in
 Boris Alexeev's lean-proofs repository, linked above at its commit of 15

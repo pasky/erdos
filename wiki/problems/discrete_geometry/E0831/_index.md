@@ -2,8 +2,9 @@
 name: problems/discrete_geometry/E0831
 title: Problem 831
 desc: |
-  Estimates the least number of distinct radii among circles through three of
-  n points in the plane, with no three collinear and no four concyclic.
+  Asks to estimate the least number of distinct radii among circles through
+  three of $n$ points in the plane, with no three collinear and no four
+  concyclic.
 tags:
 - Geometry
 status: open

@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0556/claims/2016_08_19_jenssen_skokan
 title: Jenssen and Skokan, R_k(C_n) = 2^(k-1)(n-1) + 1 for fixed k and large odd n
 desc: |
-  Theorem 1.2 of Jenssen and Skokan (Adv. Math. 2021) gives the exact k-color
-  Ramsey number of long odd cycles for every fixed k; its case k = 3 is
-  R_3(C_n) = 4n - 3 for all large odd n, the problem's bound with equality.
+  Theorem 1.2 of Jenssen and Skokan (Adv. Math. 2021) gives the exact $k$-color
+  Ramsey number of long odd cycles for every fixed $k$. Its case $k=3$ is
+  $R_3(C_n)=4n-3$ for all large odd $n$, the problem's bound with equality.
 authors:
 - Matthew Jenssen
 - Jozef Skokan
@@ -57,7 +57,7 @@ and the odd $n$ below the unnamed threshold.
 **Acceptance.** Refereed: Exact Ramsey numbers of odd cycles via nonlinear
 optimisation, Adv. Math. 376 (2021), Paper No. 107444 (the Crossref record). The
 preprint is arXiv:1608.05705v1 of 19 August 2016, the date this page is named
-by, and the only version the arXiv listing shows; the journal text was not
+by. It is the only version the arXiv listing shows. The journal text was not
 compared with it, so locators are the preprint's. The site's commentary on this
 problem does not cite the paper, so no curator credit is listed.
 

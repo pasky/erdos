@@ -2,8 +2,9 @@
 name: problems/set_systems/E0857
 title: Problem 857
 desc: |
-  Estimates the least number of subsets of the integers up to n that forces a
-  sunflower of size k, meaning k of them with equal pairwise intersections.
+  Asks for an estimate of the least $m$ such that any $m$ subsets of
+  $\{1,\ldots,n\}$ contain a sunflower of size $k$, meaning $k$ of the sets with
+  equal pairwise intersections.
 tags:
 - Combinatorics
 status: open

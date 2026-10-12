@@ -2,8 +2,8 @@
 name: problems/irrationality/E0270/claims/2025_04_25_crmaric_kovac
 title: Every positive value is attained
 desc: |
-  Crmarić and Kovač show that for every positive real alpha some f tending
-  to infinity makes the series equal alpha, so the sum need not be
+  Crmarić and Kovač show that for every real $\alpha>0$ some $f$ with
+  $f(n)\to\infty$ makes the series equal $\alpha$, so the sum need not be
   irrational.
 authors:
 - Tonći Crmarić
@@ -58,18 +58,18 @@ paper's method gives no rational value there. The
 cites the paper (no file is held); its digest is written from the arXiv v1 PDF
 (25 April 2025).
 
-**Acceptance.** Refereed: Colloq. Math. 179 (2025), 55–68, doi:10.4064/cm9628-5-2025.
-Reviewed: the erdosproblems.com page for Problem 270 (last edited 2025-09-28)
-is labeled disproved by the site's curator, Thomas Bloom, who credits Crmarić
-and Kovač with the negative answer and states the every-value theorem; the
-site lists no proof claim or proof exposition for the problem. The
-formal-conjectures statement file for the problem, at the linked commit, tags
-the negation and the every-value variant research solved and the nondecreasing
-and $f(n)=n$ variants research open; the $f(n)=n$ case was answered yes on the
-site's discussion thread by Kovač (2026-07-12), who writes
-$\sum_n n!/(2n)!=\sum_n 1/(a_1\cdots a_n)$ with $a_k=4k-2$, a Cantor series
-with increasing integer terms, hence irrational. This corpus has not reproved
-the theorem and awards no tier of its own.
+**Acceptance.** Refereed: Colloq. Math. 179 (2025), 55–68,
+doi:10.4064/cm9628-5-2025. Reviewed: the erdosproblems.com page for Problem 270
+(last edited 2025-09-28) is labeled disproved by the site's curator, Thomas
+Bloom. He credits Crmarić and Kovač with the negative answer and states the
+every-value theorem. The site lists no proof claim or proof exposition for the
+problem. The formal-conjectures statement file for the problem, at the linked
+commit, tags the negation and the every-value variant research solved. It tags
+the nondecreasing and $f(n)=n$ variants research open. Kovač answered the
+$f(n)=n$ case yes on the site's discussion thread (2026-07-12). He writes
+$\sum_n n!/(2n)!=\sum_n 1/(a_1\cdots a_n)$ with $a_k=4k-2$, a Cantor series with
+increasing integer terms, hence irrational. This corpus has not reproved the
+theorem and awards no tier of its own.
 
 **Formalization.** A public Lean 4 development in Boris Alexeev's lean-proofs
 repository declares itself a formalization of Crmarić and Kovač's solution,

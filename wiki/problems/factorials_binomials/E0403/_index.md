@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E0403
 title: Problem 403
 desc: |
-  Asks whether a power of two can equal a sum of distinct factorials in only
-  finitely many ways.
+  Asks whether $2^m=a_1!+\cdots+a_k!$ with $a_1<\cdots<a_k$ has only finitely
+  many solutions.
 tags:
 - Number theory
 - Factorials
@@ -29,17 +29,16 @@ $$
 
 with $a_1<a_2<\cdots <a_k$ have only finitely many solutions?
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page
-last edited 28 October 2025) and credits Frankl and Lin, independently, with
-the finiteness, the largest solution being $2^7=2!+3!+5!$; Lin's memorandum
-is recorded on
+**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
+edited 28 October 2025). The standing in the frontmatter derives from the claim
+pages. The site credits Frankl and Lin, independently, with the finiteness. The
+largest solution is $2^7=2!+3!+5!$. Lin's memorandum is recorded on
 [[problems/factorials_binomials/E0403/claims/1976_01_01_lin|its claim page]].
-The Lean qualifier refers to a classification of all solutions produced by
-the AxiomProver system in June 2026, which names no informal source and is a
-pending claim on
-[[problems/factorials_binomials/E0403/claims/2026_06_18_axiommath|its own page]];
-this corpus has not built it. There is no refereed write-up. The standing in
-the frontmatter derives from the claim pages.
+The Lean qualifier refers to a classification of all solutions produced by the
+AxiomProver system in June 2026. That classification names no informal source
+and is a pending claim on
+[[problems/factorials_binomials/E0403/claims/2026_06_18_axiommath|its own page]].
+This corpus has not built it. There is no refereed write-up.
 
 **Source.** [erdosproblems.com/403](https://www.erdosproblems.com/403), accessed
 2026-09-04 and, with its one-comment discussion thread, its empty

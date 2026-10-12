@@ -2,8 +2,10 @@
 name: problems/graph_coloring/E0832
 title: Problem 832
 desc: |
-  Records Alon's counterexamples to the complete-hypergraph edge benchmark,
-  while separating the defective equality wording and the open r=3 case.
+  Asks whether, for $r\geq3$ and large $k$, every $r$-uniform hypergraph with
+  chromatic number $k$ has at least $\binom{(r-1)(k-1)+1}{r}$ edges, with a
+  defectively worded equality clause. Alon's counterexamples disprove it, but
+  the case $r=3$ is open.
 tags:
 - Graph theory
 - Hypergraphs
@@ -42,10 +44,10 @@ Under either reading the answer is no, because Alon's counterexamples refute the
 lower bound itself; the equality clause of the corrected reading is not refuted
 separately.
 
-**Status.** Disproved. The site labels the problem DISPROVED, credits the
-disproof to Alon [Al85] and says that the case $r=3$ is open; the claim page
-[[problems/graph_coloring/E0832/claims/1985_12_01_alon|Alon 1985]] records
-the result and its acceptance evidence.
+**Status.** Disproved. The site labels the problem DISPROVED and credits the
+disproof to Alon [Al85]. It says that the case $r=3$ is open. The claim page
+[[problems/graph_coloring/E0832/claims/1985_12_01_alon|Alon 1985]] records the
+result and its acceptance evidence.
 
 **Source.** [erdosproblems.com/832](https://www.erdosproblems.com/832), accessed
 2026-09-07. Cite as: T. F. Bloom, Erdős Problem #832,

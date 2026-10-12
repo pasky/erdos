@@ -2,8 +2,9 @@
 name: problems/graph_coloring/E1032
 title: Problem 1032
 desc: |
-  Concerns graphs of chromatic number four in which deleting any edge drops
-  the chromatic number to three.
+  Asks whether, for arbitrarily large $n$, some $4$-chromatic critical graph on
+  $n$ vertices has minimum degree $\gg n$. Such a graph has chromatic number
+  $4$, and deleting any edge drops it to $3$.
 tags:
 - Graph theory
 - Chromatic number

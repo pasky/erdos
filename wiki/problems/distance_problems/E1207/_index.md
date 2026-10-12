@@ -2,9 +2,9 @@
 name: problems/distance_problems/E1207
 title: Problem 1207
 desc: |
-  Estimates the largest subset with no isosceles triangle guaranteed in any n
-  points in d dimensions, in particular whether in the plane it is below a
-  power of n.
+  Asks to estimate $P_d(n)$, the size of the largest subset with no isosceles
+  triangle that any $n$ points in $\mathbb{R}^d$ must contain, in particular
+  whether $P_2(n)<n^{1-c}$ for some $c>0$.
 tags:
 - Geometry
 - Distances
@@ -32,9 +32,9 @@ $$
 
 for some constant $c>0$?
 
-**Status.** Open. The site's label is OPEN (page last edited 7 September
-2026). Its remark of that date credits [LPZ26] with answering the particular
-question and keeps the problem open for the general estimate of $P_d(n)$.
+**Status.** Open. The site's label is OPEN (page last edited 7 September 2026).
+Its remark of that date credits [LPZ26] with answering the particular question.
+The remark keeps the problem open for the general estimate of $P_d(n)$.
 
 **Source.** [erdosproblems.com/1207](https://www.erdosproblems.com/1207),
 accessed 2026-09-04 and 2026-10-07. Cite as: T. F. Bloom, Erdős Problem #1207,

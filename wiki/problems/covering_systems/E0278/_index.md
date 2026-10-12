@@ -2,8 +2,8 @@
 name: problems/covering_systems/E0278
 title: Problem 278
 desc: |
-  The maximum density of integers covered by choosing one congruence class for
-  each modulus in a finite set, and whether equal classes minimize the
+  Asks for the maximum density of integers covered by choosing one congruence
+  class for each modulus in a finite set, and whether equal classes minimize the
   density.
 tags:
 - Number theory
@@ -29,56 +29,60 @@ congruences $a_i\pmod{n_i}$?
 
 Is the minimum density achieved when all the $a_i$ are equal?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 20
-January 2026). The site's commentary records the second question as settled:
-Simpson's inclusion-exclusion lower bound for the covered density is attained
-when all the residues agree, so equal residues cover least; this is the
-accepted partial claim on
-[[problems/covering_systems/E0278/claims/1986_04_01_simpson|Simpson's claim page]],
-and the same theorem, credited to Rogers, had appeared in Halberstam and
-Roth's *Sequences* in 1966, recorded as a claimed partial result on
+**Status.** Open. The site labels the problem OPEN (page last edited 20 January
+2026). The page lists the two questions as parts, the maximum covered density
+and equal residues. Simpson's accepted claim settles the second. Onishi's
+pending claim asserts a complete answer to the first: an exact characterization
+of the maximum for every finite set of moduli. The problem's standing is
+therefore claimed through that claim, without adopting it.
+
+The site's commentary records the second question as settled. Simpson's
+inclusion-exclusion lower bound for the covered density is attained when all the
+residues agree, so equal residues cover least. This is the accepted partial
+claim on
+[[problems/covering_systems/E0278/claims/1986_04_01_simpson|Simpson's claim page]].
+The same theorem, credited to Rogers, had appeared in Halberstam and Roth's
+*Sequences* in 1966. It is recorded as a claimed partial result on
 [[problems/covering_systems/E0278/claims/1966_01_01_rogers|Rogers' claim page]].
-The first question is open on the site, and three claims about it are
-recorded without adoption, two from the proof-claims tab and one from the
-discussion thread:
-[[problems/covering_systems/E0278/claims/2025_08_25_cambie|Cambie]] argues
-that no efficient general formula should be expected, by exact
-balanced-partition formulas for structured moduli, a hard knapsack order
-for distinct moduli and NP-hardness of deciding zero uncovered density for
-lists with repeated moduli (arXiv note, submitted as a proof claim on
-2026-08-17; the note credits its NP-hardness observation to GPT Pro Sol 5.6,
-the system the site's claim names GPT pro 5.6 Sol);
-[[problems/covering_systems/E0278/claims/2026_09_10_onishi|Onishi]] claims
-an exact characterization of the maximum covered density as the largest
-clique inclusion-exclusion value over the realizable compatibility graphs,
-with a dynamic program enumerating them and a Lean companion (manuscript
-and proof claim of 2026-09-10, written with GPT-5.6 Sol and GPT-6 Astra;
-two comments on the claim, in which Cambie calls it a complementary
-attempt reaching an essentially opposite answer and leaves the thread's
-closure to the curator, and Onishi replies that he sees no mathematical
-contradiction);
-[[problems/covering_systems/E0278/claims/2026_09_22_schroeder|Schroeder]]
-claims an inclusion-exclusion formula for the maximum covered density when
-classes with noncoprime moduli can be made disjoint, an exact finite
-optimization formula for every finite set of moduli, #P-hardness of exact
+
+The first question is open on the site. Three claims about it are recorded
+without adoption, two from the proof-claims tab and one from the discussion
+thread. The curator has ruled on none of the three.
+
+[[problems/covering_systems/E0278/claims/2025_08_25_cambie|Cambie]] argues that
+no efficient general formula should be expected. His argument rests on exact
+balanced-partition formulas for structured moduli, a hard knapsack order for
+distinct moduli, and NP-hardness of deciding zero uncovered density for lists
+with repeated moduli. It is an arXiv note, submitted as a proof claim on
+2026-08-17. The note credits its NP-hardness observation to GPT Pro Sol 5.6, the
+system that the site's claim names GPT pro 5.6 Sol.
+
+[[problems/covering_systems/E0278/claims/2026_09_10_onishi|Onishi]] claims an
+exact characterization of the maximum covered density as the largest clique
+inclusion-exclusion value over the realizable compatibility graphs. The claim
+includes a dynamic program enumerating these graphs and a Lean companion. The
+manuscript and proof claim date from 2026-09-10 and were written with GPT-5.6
+Sol and GPT-6 Astra. The claim has two comments. Cambie calls it a complementary
+attempt reaching an essentially opposite answer to his own, and leaves the
+thread's closure to the curator. He also notes that for moduli up to
+$2^{\varepsilon r}$ its running-time bound is no smaller than enumerating all
+residue choices. Onishi replies that he sees no mathematical contradiction.
+
+[[problems/covering_systems/E0278/claims/2026_09_22_schroeder|Schroeder]] claims
+several results. They are an inclusion-exclusion formula for the maximum covered
+density when classes with noncoprime moduli can be made disjoint, an exact
+finite optimization formula for every finite set of moduli, #P-hardness of exact
 evaluation, NP-hardness of the covering and threshold decisions, and
-fixed-parameter tractability in the treewidth of the noncoprime graph
-(Zenodo manuscript of 2026-09-22 with a Lean companion in its archive,
-announced on the discussion thread on 2026-09-23; its acknowledgments
-disclose research assistance by AI systems developed by OpenAI and
-Anthropic). The page lists the two questions as parts, the maximum covered
-density and equal residues. Simpson's accepted claim settles the second.
-Onishi's pending claim asserts a complete answer to the first, an exact
-characterization of the maximum for every finite set of moduli, so the
-problem's standing is claimed through it, without adopting it. Cambie's
-comment on that claim calls it an attempt reaching an essentially opposite
-answer to his own, and notes that for moduli up to $2^{\varepsilon r}$ its
-running-time bound is no smaller than enumerating all residue choices.
+fixed-parameter tractability in the treewidth of the noncoprime graph. They
+appear in a Zenodo manuscript of 2026-09-22, with a Lean companion in its
+archive. The manuscript was announced on the discussion thread on 2026-09-23.
+Its acknowledgments disclose research assistance by AI systems developed by
+OpenAI and Anthropic.
+
 Cambie's partition formulas and Schroeder's closed formula settle only
 structured families. Schroeder's exact formula for general sets is a finite
-optimization of the same kind as Onishi's, which he offers as one part of a
-combined answer rather than as a resolution. The curator has ruled on none
-of the three.
+optimization of the same kind as Onishi's. He offers it as one part of a
+combined answer rather than as a resolution.
 
 **Source.** [erdosproblems.com/278](https://www.erdosproblems.com/278), accessed
 2026-09-04 and 2026-10-06 (five comments in the discussion thread, two proof

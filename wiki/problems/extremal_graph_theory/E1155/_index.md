@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1155
 title: Problem 1155
 desc: |
-  Asks for the typical structure of the graph left by repeated uniform random
-  triangle removal from K_n and whether its edge count has order n^{3/2}; the
-  sharp constant is formally verified, and the typical structure is open.
+  Asks for the typical structure of the graph left by removing uniformly random
+  triangles from $K_n$ until none remain, and whether its edge count has order
+  $n^{3/2}$. The sharp constant is formally verified, but the typical structure
+  is open.
 tags:
 - Graph theory
 status: open
@@ -52,17 +53,19 @@ in it, so the two come from the site's other key, [Bo98], which is not held.
 
 **Status.** Open. What is proved: $f(n)=n^{3/2+o(1)}$ with high probability,
 that is $\mathbb P(n^{3/2-\epsilon}<f(n)<n^{3/2+\epsilon})\to1$ for every
-$\epsilon>0$, by Bohman, Frieze and Lubetzky [BFL15], Theorem 1 (refereed; the
-theorem and the introduction are recorded on its library card), which settles
-the exponent conjectured by Bollobás and Erdős but neither of the displayed
-questions as asked, since both concern the order $n^{3/2}$ itself. One partial
-claim is accepted: a preprint of the OpenAI mathematics release of 2026-09-25
-proves $f(n)/n^{3/2}\to1/(2\sqrt2)$ in $L^2$, hence in probability and in mean,
-which answers both displayed questions with the sharp constant; it is recorded
-on
+$\epsilon>0$. This is Theorem 1 of Bohman, Frieze and Lubetzky [BFL15]
+(refereed; the theorem and the introduction are recorded on its library card).
+It settles the exponent conjectured by Bollobás and Erdős. It does not settle
+either displayed question as asked, since both concern the order $n^{3/2}$
+itself.
+
+One partial claim is accepted. A preprint of the OpenAI mathematics release of
+2026-09-25 proves $f(n)/n^{3/2}\to1/(2\sqrt2)$ in $L^2$, hence in probability
+and in mean. This answers both displayed questions with the sharp constant. It
+is recorded on
 [[problems/extremal_graph_theory/E1155/claims/2026_09_25_openai|its claim page]]
 as `accepted` on its Lean declaration, which the corpus's verification built and
-audited, though the manuscript has no independent review. It does not address
+audited. The manuscript has no independent review. The claim does not address
 the request for the typical structure, for which no claim is recorded, so the
 problem stays open. No literature search beyond the sources named on this page
 was made, so this page certifies no openness.

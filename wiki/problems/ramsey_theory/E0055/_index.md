@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0055
 title: Problem 55
 desc: |
-  Bounds the growth of the sparsest sets of integers for which every large
-  integer is a monochromatic sum under any coloring with more than two
-  colors.
+  Asks for non-trivial bounds on how sparse a set $A$ of integers can be if, for
+  a given $r>2$, all large integers are monochromatic sums of elements of $A$
+  under every $r$-coloring of $A$.
 tags:
 - Number theory
 - Ramsey theory
@@ -37,16 +37,15 @@ inverse to each other. The two-color case is
 [[problems/ramsey_theory/E0054/_index|Problem 54]]; this problem asks about
 $r\ge3$ classes, for which the 1985 paper had no result.
 
-**Status.** Solved. Conlon, Fox and Pham's Theorem 1.1 determines the
-sparsest possible growth for every $r\ge2$ up to an absolute constant factor:
-there is an $r$-Ramsey complete $A$ with $|A\cap[n]|\le Cr\log^2n$ for all
-$n$, and no $A$ with $|A\cap[n]|\le cr\log^2n$ for all large $n$ is $r$-Ramsey
-complete. The status-defining source is an arXiv preprint of 2021; the site's
-curator accepted it and
-names it as the solution. The problem asks for bounds rather than for a
-proposition, so the catalog label is SOLVED and not PROVED. On the
-curator's acceptance the claim page records the result as accepted, with no
-refereed version, and the frontmatter standing is derived from it.
+**Status.** Solved. Conlon, Fox and Pham's Theorem 1.1 determines the sparsest
+possible growth for every $r\ge2$, up to an absolute constant factor. There is
+an $r$-Ramsey complete $A$ with $|A\cap[n]|\le Cr\log^2n$ for all $n$. No $A$
+with $|A\cap[n]|\le cr\log^2n$ for all large $n$ is $r$-Ramsey complete. The
+problem asks for bounds rather than for a proposition, so the catalog label is
+SOLVED and not PROVED. The status-defining source is an arXiv preprint of 2021.
+The site's curator accepted it and names it as the solution. On the curator's
+acceptance, the claim page records the result as accepted, with no refereed
+version, and the frontmatter standing is derived from it.
 
 **Source.** [erdosproblems.com/55](https://www.erdosproblems.com/55), accessed
 2026-09-17: the problem page (SOLVED, the site's label for a resolution other

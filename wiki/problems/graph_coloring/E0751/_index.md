@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0751
 title: Problem 751
 desc: |
-  Asks whether a graph of chromatic number four can have arbitrarily large
-  gaps between consecutive cycle lengths, and whether this is possible with
-  large girth.
+  Asks whether the smallest gap between consecutive cycle lengths in a graph of
+  chromatic number $4$ can be arbitrarily large, and whether this can happen
+  with large girth.
 tags:
 - Graph theory
 - Chromatic number
@@ -27,9 +27,9 @@ $m_1<m_2<\cdots$ are the lengths of the cycles in $G$ then can
 $\min(m_{i+1}-m_i)$ be arbitrarily large? Can this happen if the girth of $G$ is
 large?
 
-**Status.** DISPROVED (LEAN): both questions are answered no by Bondy and
-Vince's theorem; the Lean qualification refers to a third-party
-formalization, not among the corpus's audited builds.
+**Status.** DISPROVED (LEAN). Bondy and Vince's theorem answers both questions
+no. The Lean qualification refers to a third-party formalization, which is not
+among the corpus's audited builds.
 
 **Source.** [erdosproblems.com/751](https://www.erdosproblems.com/751), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #751,

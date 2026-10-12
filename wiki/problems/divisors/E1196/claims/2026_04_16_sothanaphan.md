@@ -2,9 +2,10 @@
 name: problems/divisors/E1196/claims/2026_04_16_sothanaphan
 title: Sothanaphan's sharpened constant and resummation proof
 desc: |
-  Three notes, with GPT-5.4 Thinking, sharpening the bound for primitive sets
-  above x to one plus gamma over log x plus O(1/log^2 x) and recasting the
-  argument as a pure resummation; credited in the paper's Remark 4.1, pending.
+  Three notes by Sothanaphan, written with GPT-5.4 Thinking, sharpen the bound
+  for primitive sets above $x$ to $1+\gamma/\log x+O(1/\log^2x)$ and recast the
+  argument as a pure resummation. The paper's Remark 4.1 credits them, and the
+  claim is pending.
 authors:
 - Nat Sothanaphan
 status: claimed

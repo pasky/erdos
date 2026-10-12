@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0805
 title: Problem 805
 desc: |
-  Characterizes the functions g for which some graph on n vertices has every
-  induced subgraph on g of n vertices with a clique and independent set of
-  size log n.
+  Asks for which functions $g(n)$ there is a graph on $n$ vertices in which
+  every induced subgraph on $g(n)$ vertices has a clique and an independent set
+  of size $\log n$.
 tags:
 - Graph theory
 status: open
@@ -28,13 +28,13 @@ contains a clique of size $\geq \log n$ and an independent set of size $\geq
 
 In particular, is there such a graph for $g(n)=(\log n)^3$?
 
-**Status.** Open; the site labels the problem OPEN. Two refereed partial
-results have claim pages.
+**Status.** Open. The site labels the problem OPEN. Two refereed partial results
+have claim pages.
 [[problems/extremal_graph_theory/E0805/claims/2007_06_27_alon_sudakov|Alon and Sudakov]]
 show that no such graph exists for $g(n)\le c(\log n)^3/\log\log n$, and
 [[problems/extremal_graph_theory/E0805/claims/2020_04_09_alon_bucic_sudakov|Alon, Bucić and Sudakov]]
-build one for $g(n)=2^{2^{(\log\log n)^{1/2+o(1)}}}$. The case
-$g(n)=(\log n)^3$ is open.
+build one for $g(n)=2^{2^{(\log\log n)^{1/2+o(1)}}}$. The case $g(n)=(\log n)^3$
+is open.
 
 **Source.** [erdosproblems.com/805](https://www.erdosproblems.com/805), accessed
 2026-09-10. Cite as: T. F. Bloom, Erdős Problem #805,

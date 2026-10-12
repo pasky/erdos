@@ -2,8 +2,8 @@
 name: problems/ramsey_theory/E0800
 title: Problem 800
 desc: |
-  Asks whether every graph on n vertices with no two adjacent vertices both of
-  degree at least three has Ramsey number at most a constant times n.
+  Asks whether every graph $G$ on $n$ vertices with no two adjacent vertices
+  both of degree at least 3 has $R(G)$ at most an absolute constant times $n$.
 tags:
 - Graph theory
 - Ramsey theory
@@ -34,18 +34,19 @@ where the implied constant is absolute.
 least $N$ such that every red-blue coloring of the edges of $K_N$ contains a
 monochromatic, not necessarily induced, copy of $G$.
 
-**Status.** The site labels the problem PROVED and its curator credits
-Alon [Al94]; the proof is Alon's
+**Status.** The site labels the problem PROVED, and its curator credits Alon
+[Al94]. The proof is Alon's
 [[../library/ramsey_theory/alon_1994_subdivided_graphs_have_linear_ramsey_numbers/proposition_1_3|Proposition 1.3]],
 which gives the absolute bound $R(G)\leq12n$ for this exact class. This is a
 published-source assessment, distinct from independent acceptance of a local
-proof reconstruction. The frontmatter standing is derived from the claim
-pages: Alon's theorem is an accepted full claim on the site curator's
-acceptance and its refereed publication
-([[problems/ramsey_theory/E0800/claims/1994_07_01_alon|claim page]]); the
-later $6n$ bound of Li, Rousseau and Šoltés, claims checked against the
-abstract only, is a second accepted full claim on its refereed publication
+proof reconstruction. The frontmatter standing is derived from the claim pages.
+Alon's theorem is an accepted full claim on the site curator's acceptance and
+its refereed publication
+([[problems/ramsey_theory/E0800/claims/1994_07_01_alon|claim page]]). The later
+$6n$ bound of Li, Rousseau and Šoltés is a second accepted full claim on its
+refereed publication
 ([[problems/ramsey_theory/E0800/claims/1997_06_01_li_rousseau_soltes|claim page]]).
+The claims of Li, Rousseau and Šoltés were checked against the abstract only.
 
 **Source.** [erdosproblems.com/800](https://www.erdosproblems.com/800), accessed
 2026-09-09: the problem page (PROVED), its empty discussion thread and its empty

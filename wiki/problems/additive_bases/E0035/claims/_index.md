@@ -4,15 +4,15 @@ desc: The 1 claim page of Problem 35, one per claimant's result; the problem's s
 tags: []
 sources: []
 created: 2026-10-07T08:51:25Z
-updated: 2026-10-07T11:30:27Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/additive_bases/E0035/claims
 
 [[problems/additive_bases/E0035/_index|..]]
 
-[[problems/additive_bases/E0035/claims/1970_07_01_plunnecke|1970_07_01_plunnecke]]: Plünnecke's 1970 theorem bounds the Schnirelmann density of the sumset with
-a basis of order k below by alpha to the power one minus one over k, which
-implies the asked increment; refereed in Crelle and recorded by the site.
+[[problems/additive_bases/E0035/claims/1970_07_01_plunnecke|1970_07_01_plunnecke]]: Plünnecke's 1970 theorem gives $d_s(A+B)\ge\alpha^{1-1/k}$ for a basis $B$ of
+order $k$ and a set $A$ of Schnirelmann density $\alpha$, which implies the
+asked increment. It was refereed in Crelle, and the site records it.
 
 ***

@@ -2,9 +2,10 @@
 name: problems/polynomials/E0524/claims/2026_04_21_letwin_sawhney
 title: The almost sure lower envelope of M_n(t)
 desc: |
-  Letwin and Sawhney prove that almost surely the lower envelope of the
-  maximum of a random Littlewood polynomial on [-1,1] is sqrt(n) times
-  exp(-(3 pi^2/4)^{1/3} (log log n)^{1/3}) to first order in the exponent.
+  Letwin and Sawhney prove that almost surely the lower envelope of the maximum
+  of a random Littlewood polynomial on $[-1,1]$ is
+  $\sqrt n\exp\bigl(-(3\pi^2/4)^{1/3}(\log\log n)^{1/3}\bigr)$, to first order
+  in the exponent.
 authors:
 - Brayden Letwin
 - Mehtaab Sawhney

@@ -2,9 +2,9 @@
 name: problems/analysis/E1045
 title: Problem 1045
 desc: |
-  The maximum product of all pairwise distances among complex numbers that are
-  pairwise at most distance two apart, and whether a regular polygon is
-  optimal.
+  Asks for the maximum of $\prod_{i\neq j}|z_i-z_j|$ over
+  $z_1,\ldots,z_n\in\mathbb{C}$ with all $|z_i-z_j|\le2$, and whether a regular
+  polygon attains it.
 tags:
 - Analysis
 status: open
@@ -31,13 +31,13 @@ $$
 What is the maximum possible value of $\Delta$? Is it maximised by taking the
 $z_i$ to be the vertices of a regular polygon?
 
-**Status.** Open, the site's label (page last edited 02 April 2026). Danzer
-and Pommerenke's accepted partial claim determines the maximum for $n\le4$
-and answers the regular-polygon question negatively for every even $n\ge4$.
-Pending partial claims determine the maximum for $n=5$ and $n=6$ and, in
-[[problems/analysis/E1045/claims/2026_09_22_hu|Boyang Hu]]'s manuscript, the
-maximizer for every odd $n\ge2^{10^8}$ and every even $n\ge2^{10^{120}}$.
-None covers every $n$, so the standing stays open.
+**Status.** Open, the site's label (page last edited 02 April 2026). Danzer and
+Pommerenke's accepted partial claim determines the maximum for $n\le4$. It also
+answers the regular-polygon question negatively for every even $n\ge4$. Pending
+partial claims determine the maximum for $n=5$ and $n=6$. They also include
+[[problems/analysis/E1045/claims/2026_09_22_hu|Boyang Hu]]'s manuscript, which
+determines the maximizer for every odd $n\ge2^{10^8}$ and every even
+$n\ge2^{10^{120}}$. None covers every $n$, so the standing stays open.
 
 **Source.** [erdosproblems.com/1045](https://www.erdosproblems.com/1045),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1045,

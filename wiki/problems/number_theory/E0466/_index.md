@@ -2,10 +2,10 @@
 name: problems/number_theory/E0466
 title: Problem 466
 desc: |
-  Asks whether for some fixed delta the largest set of points in a disc of
-  radius X whose pairwise distances all stay at least delta from the integers
-  grows without bound as X grows; the corrected statement takes the limit in
-  X, which the site misprints, and Sárközy's power lower bound proves it.
+  Asks whether, for some $\delta>0$, the largest number $N(X,\delta)$ of points
+  in a disc of radius $X$ with all pairwise distances at least $\delta$ from the
+  integers tends to infinity with $X$. The site misprints the limit variable;
+  Sárközy's power lower bound proves the corrected statement.
 tags:
 - Number theory
 status: solved
@@ -84,23 +84,23 @@ survey writes the radius as a lowercase $x$ throughout and Sárközy as a capita
 $X$; both state the question with the limit in the radius, and the corrected
 Statement keeps the site's capital $X$.
 
-**Status.** PROVED, the site's label (page last edited 16 September 2025),
-which describes the corrected Statement: the commentary credits Graham's
-construction and Sárközy's power lower bound. The result is recorded as an
-[[problems/number_theory/E0466/claims/1976_01_01_sarkozy|accepted full claim]]:
+**Status.** PROVED, the site's label (page last edited 16 September 2025). The
+label describes the corrected Statement. The commentary credits Graham's
+construction and Sárközy's power lower bound. The derived standing is solved,
+proved. The result is recorded as an
+[[problems/number_theory/E0466/claims/1976_01_01_sarkozy|accepted full claim]].
 Sárközy's Theorem 1 of [Sa76] Part II (Studia Sci. Math. Hungar. 11 (1976),
 refereed; p. 106) gives $N(X,\delta)>X^{1/2-\delta^{1/7}}$ for
-$0<\delta\le1/(6\cdot8^4)$ and $X$ large depending on $\delta$, so
-$N(X,\delta)\to\infty$ as $X\to\infty$ for every such $\delta$ and in
-particular for $\delta=1/(6\cdot8^4)$; the same paper (pp. 105--106)
-reports Graham's construction, the points $(x_i,x_i^2)$ with $x_1=10$,
-$x_n=2x_{n-1}$, which gives $N(X,1/10)>\frac1{10}\log X$ for large $X$, the
-result the site's commentary credits to Graham. Graham's argument is
-reported by Sárközy with a sketch, while Erdős (1980, 1982) reports
-Graham's bound without a construction, and no separate paper of Graham's
-was located, so the claim page rests first-hand on Sárközy's Theorem 1 and
-reports Graham's construction second-hand, as Sárközy gives it, without
-depending on it. The derived standing is solved, proved.
+$0<\delta\le1/(6\cdot8^4)$ and $X$ large depending on $\delta$. So
+$N(X,\delta)\to\infty$ as $X\to\infty$ for every such $\delta$, and in
+particular for $\delta=1/(6\cdot8^4)$. The same paper (pp. 105--106) reports
+Graham's construction, the points $(x_i,x_i^2)$ with $x_1=10$, $x_n=2x_{n-1}$.
+It gives $N(X,1/10)>\frac1{10}\log X$ for large $X$, the result the site's
+commentary credits to Graham. Sárközy reports Graham's argument with a sketch.
+Erdős (1980, 1982) reports Graham's bound without a construction, and no
+separate paper of Graham's was located. So the claim page rests first-hand on
+Sárközy's Theorem 1. It reports Graham's construction second-hand, as Sárközy
+gives it, without depending on it.
 
 **Source.** [erdosproblems.com/466](https://www.erdosproblems.com/466), accessed
 2026-09-18: the problem page (PROVED, with the site's note that the answer is

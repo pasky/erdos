@@ -2,9 +2,9 @@
 name: problems/set_theory/E1174
 title: Problem 1174
 desc: |
-  Asks whether some K_4-free graph forces a monochromatic triangle, and whether
-  some K_{aleph_1}-free graph forces a monochromatic K_{aleph_0}, in every edge
-  coloring with countably many colors.
+  Asks whether some $K_4$-free graph forces a monochromatic triangle, and
+  whether some $K_{\aleph_1}$-free graph forces a monochromatic $K_{\aleph_0}$,
+  in every edge coloring with countably many colors.
 tags:
 - Set theory
 - Ramsey theory
@@ -33,16 +33,17 @@ colouring of $G$ with countably many colours contains a monochromatic
 $K_{\aleph_0}$?
 
 **Status.** Open. The site labels the problem NOT DISPROVABLE, crediting Shelah
-with the consistency of a graph with either property. Each of the problem's two
-parts, which the frontmatter lists, has an accepted consistency result:
-[[problems/set_theory/E1174/claims/1989_01_01_shelah|Shelah's K_4-free graph]]
-for the first and
-[[problems/set_theory/E1174/claims/1993_03_01_komjath_shelah|Komjáth and Shelah's edge partition theorem]]
-for the second. Each settles one side of its part only: relative to the
-hypotheses it assumes, ZFC does not refute the existence of the graph the part
-asks for, but neither result shows that ZFC cannot prove its existence. The page departs from
-the site's label because one side alone leaves a question open, so both parts,
-and the problem, are open.
+with the consistency of a graph with either property. The problem has two parts,
+which the frontmatter lists, and each has an accepted consistency result. The
+first part has
+[[problems/set_theory/E1174/claims/1989_01_01_shelah|Shelah's K_4-free graph]],
+and the second has
+[[problems/set_theory/E1174/claims/1993_03_01_komjath_shelah|Komjáth and Shelah's edge partition theorem]].
+Each result settles only one side of its part. Relative to the hypotheses it
+assumes, it shows that ZFC does not refute the existence of the graph the part
+asks for. Neither result shows that ZFC cannot prove the graph's existence. The
+page departs from the site's label because one side alone leaves a question
+open. So both parts, and the problem, are open.
 
 **Source.** [erdosproblems.com/1174](https://www.erdosproblems.com/1174),
 accessed 2026-09-04 and 2026-10-07: the problem page (NOT

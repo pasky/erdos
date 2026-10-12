@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0201
 title: Problem 201
 desc: |
-  Determines how large a subset free of k-term arithmetic progressions can be
-  guaranteed inside any N integers, and how that compares with the case of one
-  to N.
+  Asks how large a subset free of $k$-term arithmetic progressions can be
+  guaranteed in any set of $N$ integers, and how that size compares with the
+  case of $\{1,\ldots,N\}$.
 tags:
 - Additive combinatorics
 - Arithmetic progressions
@@ -30,19 +30,17 @@ $$
 \lim_{N\to \infty}\frac{R_3(N)}{G_3(N)}=1?
 $$
 
-**Status.** Open. The site's label is OPEN (page last edited 8 April 2026;
-site export of 2026-10-06); its commentary records the trivial
-$G_k(N)\le R_k(N)$, that the inequality can be strict ($G_3(5)=3$ against
-$R_3(5)=4$), and the theorem of Komlós, Sulyok and Szemerédi [KSS75] that
+**Status.** Open. The site's label is OPEN (page last edited 8 April 2026; site
+export of 2026-10-06). Its commentary records the trivial $G_k(N)\le R_k(N)$ and
+notes that the inequality can be strict ($G_3(5)=3$ against $R_3(5)=4$). It also
+records the theorem of Komlós, Sulyok and Szemerédi [KSS75] that
 $R_k(N)\ll_kG_k(N)$. No claim page is recorded. Theorem 1.1 of the OpenAI
-release manuscript *Quasipolynomial bounds for arithmetic progressions*
-(23 September 2026) claims
-$R_k(N)\le C_kN\exp(-c_k(\log N)^{\varepsilon_k})$ for every fixed $k\ge3$;
-it bounds $G_k(N)$ from above only through the trivial inequality
-$G_k(N)\le R_k(N)$ and settles none of the problem's three questions, the
-size of $G_k(N)$, its comparison with $R_k(N)$ and the limit of
-$R_3(N)/G_3(N)$, so it has no claim page, and the problem is open with no
-claim.
+release manuscript *Quasipolynomial bounds for arithmetic progressions* (23
+September 2026) claims $R_k(N)\le C_kN\exp(-c_k(\log N)^{\varepsilon_k})$ for
+every fixed $k\ge3$. It bounds $G_k(N)$ from above only through the trivial
+inequality $G_k(N)\le R_k(N)$. It settles none of the problem's three questions:
+the size of $G_k(N)$, its comparison with $R_k(N)$ and the limit of
+$R_3(N)/G_3(N)$. So it has no claim page, and the problem is open with no claim.
 
 **Source.** [erdosproblems.com/201](https://www.erdosproblems.com/201), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #201,

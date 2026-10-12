@@ -3,8 +3,9 @@ name: problems/discrete_geometry/E0607/claims/1983_09_01_szemeredi_trotter
 title: Szemerédi and Trotter's bound on line-size patterns
 desc: |
   Szemerédi and Trotter bound the number of distinct sequences of line sizes
-  realizable by n points in the plane by exp of order root n, which gives the
-  bound Erdős asked for; refereed, and credited by the site as the proof.
+  realizable by $n$ points in the plane by $\exp(O(\sqrt n))$, which gives the
+  bound Erdős asked for. The paper is refereed, and the site credits it as the
+  proof.
 authors:
 - Endre Szemerédi
 - William T. Trotter, Jr.
@@ -44,11 +45,11 @@ not a statement of the paper; the site credits the paper with the proof
 directly. The site's commentary also reports Erdős's view that the bound
 is best possible, which is not part of this claim.
 
-**Acceptance.** The site's curator, T. F. Bloom, labels the problem PROVED and
-credits Szemerédi and Trotter [SzTr83] (problem page accessed), which is the
+**Acceptance.** T. F. Bloom, the site's curator, labels the problem PROVED and
+credits Szemerédi and Trotter [SzTr83] (problem page accessed). This is the
 `reviewed` evidence. The paper is refereed: E. Szemerédi and W. T. Trotter, Jr.,
 Extremal problems in discrete geometry, Combinatorica 3 (1983), no. 3–4,
-381–392, DOI 10.1007/BF02579194, received 1982-08-19 and revised 1983-03-14; the
+381–392, DOI 10.1007/BF02579194, received 1982-08-19 and revised 1983-03-14. The
 page is dated by the issue month, September 1983, on the first of the month. The
 source card digests the paper and records the statement of Theorem 4. No
 independent proof review and no formalization are recorded.

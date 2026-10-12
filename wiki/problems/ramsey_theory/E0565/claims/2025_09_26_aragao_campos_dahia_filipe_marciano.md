@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0565/claims/2025_09_26_aragao_campos_dahia_filipe_marciano
 title: Aragão, Campos, Dahia, Filipe and Marciano, induced Ramsey numbers are at most exponential
 desc: |
-  Theorem 1.1 of the 2025 preprint gives an absolute constant C with R*(G)
-  at most 2^(Cn) for every graph G on n vertices, so the answer is yes;
-  unrefereed, accepted by the site and attested in Morris's ICM 2026 text.
+  Theorem 1.1 of the 2025 preprint of Aragão, Campos, Dahia, Filipe and Marciano
+  gives an absolute constant $C$ with $R^*(G)\le2^{Cn}$ for every graph $G$ on
+  $n$ vertices, so the answer is yes. It is unrefereed, accepted by the site and
+  attested in Morris's ICM 2026 text.
 authors:
 - L. Aragão
 - M. Campos
@@ -57,30 +58,31 @@ $2^{O(k(\log k)^2)}$ (Kohayakawa, Prömel and Rödl 1998; an explicit Paley
 host by Fox and Sudakov 2008) and $2^{O(k\log k)}$ (Conlon, Fox and
 Sudakov 2012) are history recorded on the problem page, not claims on it.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the
-problem PROVED and credits the proof to this paper in the problem's
-commentary (page last edited 18 January 2026, accessed 2026-09-17); the
-discussion thread and proof-claim tab are empty. As context, not
-acceptance: Morris's plenary lecture text, Some recent results in Ramsey
-theory, Proceedings of the International Congress of Mathematicians 2026,
-Vol. 2, 210--239 (published 13 July 2026; arXiv:2601.05221v1, 8 January
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+PROVED and credits the proof to this paper in the problem's commentary (page
+last edited 18 January 2026, accessed 2026-09-17). The discussion thread and
+proof-claim tab are empty.
+
+As context, not acceptance: Morris's plenary lecture text, Some recent results
+in Ramsey theory, Proceedings of the International Congress of Mathematicians
+2026, Vol. 2, 210--239 (published 13 July 2026; arXiv:2601.05221v1, 8 January
 2026), states the bound as its
-[[../library/ramsey_theory/morris_2026_recent_results_ramsey_theory/theorem_1_5|Theorem 1.5]],
-reports the 1975 conjecture as recently proved by the five authors, and
+[[../library/ramsey_theory/morris_2026_recent_results_ramsey_theory/theorem_1_5|Theorem 1.5]].
+It reports the 1975 conjecture as recently proved by the five authors and
 outlines the proof in its Section 10. Morris is not independent of the
-claimants: the acknowledgments of arXiv v2 read "We would like
-to greatly thank Rob Morris for carefully reading the paper, and for the
-many improvements and corrections he suggested", so Morris's report is not
-counted as acceptance.
-Six works of 2025--2026 cite the paper (Semantic Scholar, 2026-09-17),
-one of them transferring its weighted random-host method to sparse random
-graphs. Not listed: `refereed`, because the paper is a preprint (the v2
-comment says the presentation was simplified for journal submission, and
-the arXiv listing and a Crossref bibliographic query of 2026-09-17 show no
-journal version) and no referee's report is documented; and `formalized`,
-because no formal proof exists. No independent review of the 59-page proof
-was found, so the acceptance rests on the curator's credit, and a refereed
-version would strengthen it.
+claimants. The acknowledgments of arXiv v2 read "We would like to greatly thank
+Rob Morris for carefully reading the paper, and for the many improvements and
+corrections he suggested". So Morris's report is not counted as acceptance. Six
+works of 2025--2026 cite the paper (Semantic Scholar, 2026-09-17). One of them
+transfers its weighted random-host method to sparse random graphs.
+
+Not listed: `refereed`, because the paper is a preprint and no referee's report
+is documented. The v2 comment says the presentation was simplified for journal
+submission, and the arXiv listing and a Crossref bibliographic query of
+2026-09-17 show no journal version. Also not listed: `formalized`, because no
+formal proof exists. No independent review of the 59-page proof was found. The
+acceptance therefore rests on the curator's credit, and a refereed version would
+strengthen it.
 
 **Read depth.** Claims checked: Theorems 1.1 and 1.2 and the random-host
 remark (pp. 2--3 of arXiv v2) were read, as was Morris's statement on p. 4

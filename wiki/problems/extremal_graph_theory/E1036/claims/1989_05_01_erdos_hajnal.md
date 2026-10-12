@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1036/claims/1989_05_01_erdos_hajnal
 title: Erdős and Hajnal's theorem for graphs without large homogeneous bicliques
 desc: |
-  Theorem 2 of Erdős and Hajnal (Discrete Math. 75 (1989)): a graph on n
-  vertices with no K_{c log n, c log n} in it or its complement has at least
-  2^{n/4k} non-isomorphic induced subgraphs for k > 2c log 2 and n large.
+  Theorem 2 of Erdős and Hajnal (Discrete Math. 75 (1989)) states that a graph
+  on $n$ vertices with no $K_{c\log n,c\log n}$ in it or its complement has at
+  least $2^{n/4k}$ non-isomorphic induced subgraphs, for $k>2c\log 2$ and $n$
+  large.
 authors:
 - P. Erdős
 - A. Hajnal
@@ -49,11 +50,10 @@ page]].
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** The venue is the Discrete Mathematics issue that carries the
-papers of the Cambridge 1988 conference, a proceedings volume, and no evidence
-that its papers were refereed is on record, so no `refereed` evidence is
-listed. The site's label settles the problem on Shelah's proof, so its
-commentary crediting this theorem is not `reviewed` evidence. Erdős's 1993
-survey
+papers of the Cambridge 1988 conference, a proceedings volume. No evidence that
+its papers were refereed is on record, so no `refereed` evidence is listed. The
+site's label settles the problem on Shelah's proof, so its commentary crediting
+this theorem is not `reviewed` evidence. Erdős's 1993 survey
 ([[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|card]],
 Chapter V, problem 14) also credits the result to Erdős and Hajnal. The proof is
 not checked here.

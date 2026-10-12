@@ -2,8 +2,9 @@
 name: problems/covering_systems/E0281
 title: Problem 281
 desc: |
-  Asks whether moduli whose congruences always leave a density-zero set must
-  have a finite initial segment leaving density below any given epsilon.
+  Asks whether moduli $n_1<n_2<\cdots$ whose congruences always leave an
+  uncovered set of density $0$ must have, for each $\epsilon>0$, an initial
+  segment that always leaves density below $\epsilon$.
 tags:
 - Number theory
 - Covering systems
@@ -30,17 +31,17 @@ every choice of congruence classes $a_i$, the density of integers not satisfying
 any of the congruences $a_i\pmod{n_i}$ for $1\leq i\leq k$ is less than
 $\epsilon$?
 
-**Status.** PROVED (LEAN). Two independent arguments posted on the site's
-thread in January 2026 answer the question yes and are credited in the site's
-commentary: Neel Somani's proof, produced with GPT-5.2 Pro, through Haar
-measure on the profinite integers and Dini's theorem
-([[problems/covering_systems/E0281/claims/2026_01_17_somani|claim page]]),
-and KoishiChan's elementary proof from the Davenport-Erdős theorem on sets of
+**Status.** PROVED (LEAN). Two independent arguments posted on the site's thread
+in January 2026 answer the question yes, and the site's commentary credits both.
+Neel Somani's proof, produced with GPT-5.2 Pro, uses Haar measure on the
+profinite integers and Dini's theorem
+([[problems/covering_systems/E0281/claims/2026_01_17_somani|claim page]]).
+KoishiChan's elementary proof uses the Davenport-Erdős theorem on sets of
 multiples and Rogers' theorem on zero residues
-([[problems/covering_systems/E0281/claims/2026_01_18_koishichan|claim page]]);
-both are accepted on the curator's credit, and neither is refereed. The
-site's Lean qualification refers to the Lean formalization of Somani's
-argument recorded under Formalization.
+([[problems/covering_systems/E0281/claims/2026_01_18_koishichan|claim page]]).
+Both are accepted on the curator's credit, and neither is refereed. The site's
+Lean qualification refers to the Lean formalization of Somani's argument
+recorded under Formalization.
 
 **Source.** [erdosproblems.com/281](https://www.erdosproblems.com/281), accessed
 2026-09-04 and 2026-10-07 (page last edited 18 January 2026; 28

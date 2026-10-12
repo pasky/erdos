@@ -2,9 +2,10 @@
 name: problems/set_systems/E0857/claims/2016_06_30_naslund_sawin
 title: Naslund and Sawin's bound for three-sunflower-free families
 desc: |
-  Naslund and Sawin (2017) prove by the polynomial method that a family of
-  subsets of [n] with no three sets of pairwise equal intersection has at most
-  3(n+1) sum_{i<=n/3} C(n,i) members, so m(n,3) <= (3/2^{2/3})^{(1+o(1))n}.
+  Naslund and Sawin (2017) use the polynomial method to show that a family of
+  subsets of $[n]$ with no three sets of pairwise equal intersections has at
+  most $3(n+1)\sum_{i\le n/3}\binom{n}{i}$ members. Hence
+  $m(n,3)\le(3/2^{2/3})^{(1+o(1))n}$.
 authors:
 - Eric Naslund
 - William F. Sawin
@@ -56,12 +57,12 @@ not improve the bound on $m(n,3)$.
 **Depends on.** Nothing in this wiki: the proof is self-contained apart from
 the slice-rank method it cites.
 
-**Acceptance.** Refereed: Forum Math. Sigma **5** (2017), e15, 10 pages,
-received 16 July 2016, accepted 3 November 2016 and published 27 June 2017
-under the Creative Commons Attribution 4.0 license, after its first posting
-as arXiv:1606.09575 on 2016-06-30. The site's commentary credits Naslund and
-Sawin with the bound but labels the problem OPEN, so the curator's mention
-settles nothing and the page lists no `reviewed` evidence. The
+**Acceptance.** Refereed: Forum Math. Sigma **5** (2017), e15, 10 pages. The
+paper was first posted as arXiv:1606.09575 on 2016-06-30. It was received 16
+July 2016, accepted 3 November 2016 and published 27 June 2017 under the
+Creative Commons Attribution 4.0 license. The site's commentary credits Naslund
+and Sawin with the bound but labels the problem OPEN. The curator's mention
+therefore settles nothing, and the page lists no `reviewed` evidence. The
 formal-conjectures catalog states the problem with its answer left as `sorry`
 and names no formal proof, so the page lists no `formalized` evidence. The
 library card summarizes the paper and is not acceptance evidence.

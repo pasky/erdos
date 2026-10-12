@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0715/claims/1982_02_04_tashkinov
 title: Tashkinov's 3-regular subgraphs of regular graphs
 desc: |
-  Tashkinov proves that every 4-regular graph has a 3-regular subgraph, the
-  Berge--Sauer conjecture, and that every r-regular graph with r at least 3
-  has one, which answers both questions of Problem 715 affirmatively.
+  Tashkinov proves the Berge–Sauer conjecture, that every $4$-regular graph has
+  a $3$-regular subgraph, and also that every $r$-regular graph with $r\ge3$ has
+  one. This answers both questions of Problem 715 affirmatively.
 authors:
 - В.А. Ташкинов
 status: accepted
@@ -45,23 +45,25 @@ was presented to the Academy on 4 February 1982 and received on 19 February
 1982; this page is dated by the presentation, the earliest dated posting of
 the result, since the issue carries no day of publication.
 
-**Acceptance.** The note is a publication in the Academy's Doklady,
-communicated by an academician, with reviews in Mathematical Reviews and
-zbMATH (MR 0671639, Zbl 0512.05056 per the Math-Net.Ru record) and an English
-translation in Soviet Mathematics Doklady, and the site's curator, Thomas
-Bloom, marks the problem proved and credits the note. An independent
-attestation by named experts is in print: the refereed note of Alon,
-Friedland and Kalai, *Every 4-regular graph plus an edge contains a 3-regular
-subgraph*, J. Combin. Theory Ser. B **37** (1984), 92--93, which the corpus
-reads and pages at its
-[[../library/extremal_graph_theory/alon_1984_every_regular_graph_plus_edge_contains/_index|source card]],
-says of the Berge--Sauer conjecture that it "has recently been proved" and
-cites Tashkinov for the proof. The basis of this page is the statements of
-Theorems 1 and 2 in the Russian text, in the corpus's own translation, and
-the structure of the proof route: a Doklady note prints sketches, and none is
-checked. The English translation is not compared. The acceptance recorded
-here rests on the publication, the printed attestation and the curator's
-credit, not on a local review.
+**Acceptance.** The note is a publication in the Academy's Doklady, communicated
+by an academician. It has reviews in Mathematical Reviews and zbMATH (MR
+0671639, Zbl 0512.05056 per the Math-Net.Ru record) and an English translation
+in Soviet Mathematics Doklady. The site's curator, Thomas Bloom, marks the
+problem proved and credits the note.
+
+An independent attestation by named experts is in print. It is the refereed note
+of Alon, Friedland and Kalai, *Every 4-regular graph plus an edge contains a
+3-regular subgraph*, J. Combin. Theory Ser. B **37** (1984), 92--93, which the
+corpus reads and pages at its
+[[../library/extremal_graph_theory/alon_1984_every_regular_graph_plus_edge_contains/_index|source card]].
+That note says of the Berge--Sauer conjecture that it "has recently been proved"
+and cites Tashkinov for the proof.
+
+This page is based on the statements of Theorems 1 and 2 in the Russian text, in
+the corpus's own translation, and on the structure of the proof route. A Doklady
+note prints sketches, and none is checked. The English translation is not
+compared. The acceptance recorded here rests on the publication, the printed
+attestation and the curator's credit, not on a local review.
 
 **Related result.** The Alon--Friedland--Kalai note's own theorem, paged at
 [[../library/extremal_graph_theory/alon_1984_every_regular_graph_plus_edge_contains/theorem_p92|its theorem]],

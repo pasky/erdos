@@ -25,9 +25,9 @@ updated: 2026-10-08T13:37:29Z
 
 **Statement.** Are there arbitrarily long arithmetic progressions of primes?
 
-**Status.** PROVED (LEAN). The label is the site's (PROVED (LEAN), page last
-edited 4 April 2026; site export of 2026-10-06), with the commentary crediting
-Green and Tao [GrTa08].
+**Status.** PROVED (LEAN). This is the site's label (page last edited 4 April
+2026; site export of 2026-10-06). The site's commentary credits Green and Tao
+[GrTa08].
 
 **Source.** [erdosproblems.com/219](https://www.erdosproblems.com/219), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #219,

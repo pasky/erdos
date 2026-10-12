@@ -3,8 +3,9 @@ name: problems/set_theory/E1128/claims/1978_01_01_prikry_mills
 title: The Prikry–Mills coloring with no monochromatic countable box
 desc: |
   Prikry and Mills (1978, unpublished) two-color the cube of a set of size
-  aleph one so that no product of three countably infinite subsets is
-  monochromatic, answering the question no; reported by Todorčević and Komjáth.
+  $\aleph_1$ so that no product of three countably infinite subsets is
+  monochromatic, which answers the question no. Todorčević and Komjáth report
+  the result.
 authors:
 - C. Mills
 - K. Prikry
@@ -73,14 +74,14 @@ Scottish Book account [Er81b] poses the question.
 No proof text of the result is held by this corpus, and nothing on this
 page is independently reviewed by this project.
 
-**Acceptance.** Reviewed: the curator of erdosproblems.com, T. F. Bloom,
-labels Problem 1128 disproved and credits Prikry and Mills, naming the
-reports of Todorčević and Komjáth (problem page last edited 30 December
-2025, accessed 2026-10-07); Komjáth's refereed survey independently records
-the result as theirs. The curator and Komjáth are independent of the
-authors. There is no refereed publication of the result by its authors, so
-`refereed` is not listed: the two reports are refereed publications that
-record the result, not publications of its proof.
+**Acceptance.** Reviewed: the curator of erdosproblems.com, T. F. Bloom, labels
+Problem 1128 disproved and credits Prikry and Mills, naming the reports of
+Todorčević and Komjáth (problem page last edited 30 December 2025, accessed
+2026-10-07). Komjáth's refereed survey independently records the result as
+theirs. The curator and Komjáth are independent of the authors. There is no
+refereed publication of the result by its authors, so `refereed` is not listed.
+The two reports are refereed publications that record the result, not
+publications of its proof.
 
 **Formalization.** A Lean proof of the result is the `formalization`
 link: the file `src/latest/ErdosProblems/Erdos1128.lean` in Boris Alexeev's

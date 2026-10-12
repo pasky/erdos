@@ -3,8 +3,9 @@ name: problems/covering_systems/E0277/claims/2005_07_18_filaseta_ford_konyagin_p
 title: A quantitative second proof that abundant integers need not cover
 desc: |
   Theorem 1 of Filaseta, Ford, Konyagin, Pomerance and Yu (J. Amer. Math. Soc.
-  2007) gives infinitely many H with sigma(H)/H about sqrt(log log H) whose
-  divisors above one support no covering system; accepted as refereed.
+  2007) gives infinitely many $H$ with $\sigma(H)/H$ about $\sqrt{\log\log H}$
+  whose divisors above one support no covering system. It is accepted as
+  refereed.
 authors:
 - Michael Filaseta
 - Kevin Ford
@@ -66,23 +67,24 @@ commentary credits to the paper.
 Haight's claim page records the result it strengthens, not an input.
 
 **Acceptance.** Refereed: Journal of the American Mathematical Society 20
-(2007), no. 2, 495--517, the DOI linked above, published online 2006-09-19;
-the page is named by the arXiv preprint's first version, posted 2005-07-18.
-Reviewed is not listed: the site's curator credits Haight with the
-affirmative answer and this paper with the bound on $f(x)$, so the
-commentary's credit for the solution is Haight's. Not counted as
-`formalized`: the Lean file linked above, in Boris Alexeev's lean-proofs
-repository (first added 2026-08-15; Lean and Mathlib `v4.33.0`), declares
-itself a formalization of a solution to the problem, names Haight and
-Filaseta, Ford, Konyagin, Pomerance and Yu as informal authors and Codex and
-GPT-5.6 Sol as formal authors, and says in its header that its proof uses this
-paper's finite residual-density estimate; it proves `erdos_277`, that for
-every real $c$ some $n$ has $\sigma(n)>cn$ and every strict covering system
-has a modulus not dividing $n$, and the formal-conjectures catalog points its
-`formal_proof` attribute for the problem at it. Because it formalizes this
-paper's argument under Haight's name, it is linked on both claim pages. This
-corpus has not built or audited the development, so it gives no formalized
-evidence.
+(2007), no. 2, 495--517, at the DOI linked above, published online 2006-09-19.
+The page is named by the arXiv preprint's first version, posted 2005-07-18.
+
+Reviewed is not listed: the site's curator credits Haight with the affirmative
+answer and this paper with the bound on $f(x)$. The commentary's credit for the
+solution is therefore Haight's.
+
+Not counted as `formalized`: the Lean file linked above is in Boris Alexeev's
+lean-proofs repository (first added 2026-08-15; Lean and Mathlib `v4.33.0`). It
+declares itself a formalization of a solution to the problem. It names Haight
+and Filaseta, Ford, Konyagin, Pomerance and Yu as informal authors and Codex and
+GPT-5.6 Sol as formal authors. Its header says that its proof uses this paper's
+finite residual-density estimate. It proves `erdos_277`: for every real $c$ some
+$n$ has $\sigma(n)>cn$ and every strict covering system has a modulus not
+dividing $n$. The formal-conjectures catalog points its `formal_proof` attribute
+for the problem at this file. Because the file formalizes this paper's argument
+under Haight's name, it is linked on both claim pages. This corpus has not built
+or audited the development, so it gives no formalized evidence.
 
 **Not covered.** Nothing of the question remains. The follow-up question,
 whether $f(x)=o(\log\log x)$, is discussed on Haight's claim page.

@@ -2,9 +2,8 @@
 name: problems/discrete_geometry/E0211/claims/1983_09_01_szemeredi_trotter
 title: Order kn lines from the Szemerédi-Trotter incidence bounds
 desc: |
-  Szemerédi and Trotter's incidence theorems imply that n points in the plane
-  with at most n minus k on any line determine at least a constant times kn
-  lines.
+  Szemerédi and Trotter's incidence theorems imply that $n$ points in the plane
+  with at most $n-k$ on any line determine at least a constant times $kn$ lines.
 authors:
 - Endre Szemerédi
 - William T. Trotter, Jr.

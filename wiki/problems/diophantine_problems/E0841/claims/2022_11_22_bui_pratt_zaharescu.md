@@ -2,9 +2,10 @@
 name: problems/diophantine_problems/E0841/claims/2022_11_22_bui_pratt_zaharescu
 title: The distribution of t_n follows the largest prime factor
 desc: |
-  Bui, Pratt and Zaharescu show that t_n is at most n^c on the same proportion
-  of integers as the largest prime factor is, with upper and lower bounds on
-  t_n; refereed, and the site's curator labels the problem solved.
+  Bui, Pratt and Zaharescu show that $t_n\le n^c$ holds for the same proportion
+  of integers as the bound $P(n)\le n^c$ on the largest prime factor, and they
+  give upper and lower bounds on $t_n$. The paper is refereed, and the site's
+  curator labels the problem solved.
 authors:
 - Hung M. Bui
 - Kyle Pratt
@@ -72,10 +73,10 @@ commentary records that Erdős first asked whether the integers with
 $t_n\ge n^{1-o(1)}$ have density zero. These are the background to the claim,
 not part of it.
 
-**Acceptance.** The site's curator, Thomas Bloom, labels the problem solved
-and credits the result to Bui, Pratt and Zaharescu in the page's commentary,
-which is the `reviewed` evidence. The paper appeared in Math. Proc. Cambridge
-Philos. Soc. 176 (2024), no. 2, 309–323, which is the `refereed` evidence.
+**Acceptance.** The site's curator, Thomas Bloom, labels the problem solved and
+credits the result to Bui, Pratt and Zaharescu in the page's commentary. This is
+the `reviewed` evidence. The paper appeared in Math. Proc. Cambridge Philos.
+Soc. 176 (2024), no. 2, 309–323, which is the `refereed` evidence.
 
 **Formalization.** Boris Alexeev's `lean-proofs` repository holds, at the
 pinned commit linked above, a Lean development of the paper's results whose

@@ -2,9 +2,10 @@
 name: problems/additive_bases/E1191
 title: Problem 1191
 desc: |
-  Asks whether every infinite Sidon set has counting function
-  o((x/log x)^(1/2)) along a subsequence, and whether some infinite Sidon set
-  keeps it at least x^(1/2)/(log x)^c for some c > 0.
+  Asks whether every infinite Sidon set $A$ has
+  $\lvert A\cap[1,x]\rvert=o\bigl((x/\log x)^{1/2}\bigr)$ along a subsequence,
+  and whether some infinite Sidon set has
+  $\lvert A\cap[1,x]\rvert\gg x^{1/2}/(\log x)^c$ for some $c>0$.
 tags:
 - Additive combinatorics
 - Sidon sets

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0717/claims/2011_07_11_fox_lee_sudakov
 title: Fox, Lee and Sudakov's proof of the Erdős–Fajtlowicz conjecture
 desc: |
-  Fox, Lee and Sudakov prove that the chromatic number of every n-vertex graph
-  is at most an absolute constant times n^{1/2}/log n times the order of its
-  largest clique subdivision, which answers Problem 717 affirmatively.
+  Fox, Lee and Sudakov prove that every graph $G$ on $n$ vertices has
+  $\chi(G)\le Cn^{1/2}\sigma(G)/\log n$, where $C$ is an absolute constant and
+  $\sigma(G)$ is the order of the largest clique subdivision in $G$. This
+  answers Problem 717 affirmatively.
 authors:
 - Jacob Fox
 - Choongbum Lee
@@ -70,15 +71,15 @@ independent proof of
 [[problems/extremal_graph_theory/E0718/claims/1996_03_01_komlos_szemeredi|Komlós and Szemerédi]]
 gives the same order.
 
-**Acceptance.** The paper is a refereed publication in Combinatorica (volume
-33, issue 2, April 2013, online 14 June 2013, per the Crossref record), and
-the site's curator, Thomas Bloom, marks the problem proved and credits the
-paper. The citing literature found by the search (twelve
-records) contains no dispute. Read depth: the statements of Theorems 1.1, 1.2
-and 3.1 in arXiv v3 and, for structure, the one-page deduction of Theorem 1.1
-from Theorem 1.2; the proof of Theorem 1.2 (pp. 4--12) was not read, and the
-journal text was not compared with the preprint. The acceptance recorded here
-rests on the publication and the curator's credit, not on a local review.
+**Acceptance.** The paper is a refereed publication in Combinatorica (volume 33,
+issue 2, April 2013, online 14 June 2013, per the Crossref record). The site's
+curator, Thomas Bloom, marks the problem proved and credits the paper. The
+search found twelve records of citing literature, and none of them disputes the
+result. The reading covered the statements of Theorems 1.1, 1.2 and 3.1 in arXiv
+v3, and the one-page deduction of Theorem 1.1 from Theorem 1.2 for its
+structure. The proof of Theorem 1.2 (pp. 4--12) was not read, and the journal
+text was not compared with the preprint. The acceptance recorded here rests on
+the publication and the curator's credit, not on a local review.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos717.lean` of Boris
 Alexeev's repository plby/lean-proofs (pinned at its commit of 15 September

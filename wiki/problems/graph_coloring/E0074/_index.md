@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0074
 title: Problem 74
 desc: |
-  Asks whether, for every function growing to infinity, some graph of infinite
-  chromatic number has each n-vertex subgraph made bipartite by that many
-  deletions.
+  Asks whether, for every $f(n)\to\infty$, some graph of infinite chromatic
+  number has every $n$-vertex subgraph made bipartite by deleting at most $f(n)$
+  edges.
 tags:
 - Graph theory
 - Chromatic number
@@ -27,14 +27,14 @@ updated: 2026-10-08T14:17:37Z
 infinite chromatic number such that every finite subgraph on $n$ vertices can be
 made bipartite by deleting at most $f(n)$ edges?
 
-**Status.** DISPROVED (LEAN), the site's label, crediting a negative answer
-found by GPT-6 Astra: a divergent edge-deletion budget forces
+**Status.** DISPROVED (LEAN), the site's label. The site credits a negative
+answer found by GPT-6 Astra: a divergent edge-deletion budget forces
 three-colorability. The corpus accepts the claim,
 [[problems/graph_coloring/E0074/claims/2026_09_03_adamczewski|a slow edge-deletion budget forces three colors]],
-on formalized evidence: the pinned Lean development was built here and its
-compared statement audited against the Statement above, so the problem stands
-solved and disproved. That evidence certifies the disproof and not the
-three-color strengthening; the site's acceptance, the preliminary expositions,
+on formalized evidence. The pinned Lean development was built here, and its
+compared statement was audited against the Statement above. So the problem
+stands solved and disproved. That evidence certifies the disproof and not the
+three-color strengthening. The site's acceptance, the preliminary expositions,
 and the scope of the reconstructed proof are distinguished below. Rödl's
 positive answer for the budgets $f(n)=\epsilon n$ is a partial claim,
 [[problems/graph_coloring/E0074/claims/1982_12_01_rodl|nearly bipartite graphs of infinite chromatic number]].

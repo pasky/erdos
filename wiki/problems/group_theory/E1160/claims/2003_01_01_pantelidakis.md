@@ -2,9 +2,9 @@
 name: problems/group_theory/E1160/claims/2003_01_01_pantelidakis
 title: Pantelidakis's thesis bound for odd orders
 desc: |
-  Pantelidakis's Oxford DPhil thesis, as the site credits it: for odd n and
-  m >= 3619 with n <= 2^m, there are at most as many groups of order n as of
-  order 2^m.
+  The site credits Pantelidakis's Oxford DPhil thesis with the result that for
+  odd $n$ and $m\ge3619$ with $n\le2^m$, there are at most as many groups of
+  order $n$ as of order $2^m$.
 authors:
 - I. Pantelidakis
 status: claimed

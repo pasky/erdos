@@ -2,9 +2,9 @@
 name: problems/set_theory/E1172
 title: Problem 1172
 desc: |
-  Asks whether several partition relations for pairs of small uncountable
-  ordinals hold, or are consistent, under the generalized continuum
-  hypothesis.
+  Asks whether several partition relations for pairs on the ordinals $\omega_2$
+  and $\omega_3$ hold under the generalized continuum hypothesis, or are
+  consistent with it.
 tags:
 - Set theory
 - Ramsey theory

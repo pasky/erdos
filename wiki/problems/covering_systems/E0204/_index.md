@@ -2,8 +2,8 @@
 name: problems/covering_systems/E0204
 title: Problem 204
 desc: |
-  Asks whether some integer has a covering system using its divisors above one
-  whose classes overlap only for coprime pairs of moduli.
+  Asks whether some $n$ has a covering system whose moduli are the divisors of
+  $n$ above $1$, with two classes meeting only when their moduli are coprime.
 tags:
 - Covering systems
 - Divisors
@@ -34,10 +34,10 @@ $$
 
 then $(d,d')=1$.
 
-**Status.** DISPROVED (LEAN). The label is the site's (DISPROVED (LEAN),
-page last edited 28 December 2025). Adenwalla proved that no such $n$
-exists, in a paper refereed and published in INTEGERS 26 (2026), #A52; the
-acceptance evidence and the Lean qualification are on
+**Status.** DISPROVED (LEAN). This is the site's label (page last edited 28
+December 2025). Adenwalla proved that no such $n$ exists. His paper was refereed
+and published in INTEGERS 26 (2026), #A52. The acceptance evidence and the Lean
+qualification are on
 [[problems/covering_systems/E0204/claims/2025_01_25_adenwalla|his claim page]].
 
 **Source.** [erdosproblems.com/204](https://www.erdosproblems.com/204), accessed

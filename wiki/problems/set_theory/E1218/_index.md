@@ -2,9 +2,10 @@
 name: problems/set_theory/E1218
 title: Problem 1218
 desc: |
-  Asks whether, under GCH, the successor of aleph_{omega_{omega+1}} fails the
-  partition relation for triples whose first target is that cardinal and
-  whose other countably many targets are 4.
+  Asks whether, under GCH, the partition relation for triples
+  $\aleph_{\beta+1}\to(\aleph_\beta,4,\ldots,4)^3$ fails for
+  $\beta=\omega_{\omega+1}$, with countably infinitely many targets equal to
+  $4$.
 tags:
 - Set theory
 - Ramsey theory
@@ -57,7 +58,7 @@ is the subject of the one claim below.
 
 **Status.** Open. The site's label is OPEN (page last edited 7 September 2026,
 as of 2026-10-07). The one result claimed against the problem addresses the
-site's earlier wording and is rejected on its claim page; the standing in the
+site's earlier wording, and its claim page rejects it. The standing in the
 frontmatter is derived from the claim pages.
 
 **Source.** [erdosproblems.com/1218](https://www.erdosproblems.com/1218),

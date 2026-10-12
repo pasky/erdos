@@ -2,9 +2,10 @@
 name: problems/set_systems/E1025/claims/2015_07_02_conlon_fox_sudakov
 title: Conlon, Fox and Sudakov's matching upper bound
 desc: |
-  A pair mapping on a square-grid ground set with no independent set larger
-  than a constant times the square root of n, which with Spencer's lower bound
-  gives g(n) of order root n; refereed in J. Combin. Theory Ser. B.
+  Conlon, Fox and Sudakov, in a refereed paper in J. Combin. Theory Ser. B,
+  construct a pair mapping on a square-grid ground set with no independent set
+  larger than a constant times $\sqrt n$. With Spencer's lower bound, this shows
+  that $g(n)$ has order $\sqrt n$.
 authors:
 - David Conlon
 - Jacob Fox
@@ -71,7 +72,7 @@ supplies $g(n)\gg n^{1/2}$, the lower half of the estimate, which the paper
 cites and does not reprove.
 
 **Acceptance.** Refereed: the paper appeared in J. Combin. Theory Ser. B 121
-(2016), 173–196, after its first posting as arXiv:1507.00547 on 2015-07-02.
+(2016), 173–196. It was first posted as arXiv:1507.00547 on 2015-07-02.
 Reviewed: Thomas Bloom, the site's curator, labels the problem solved and
 credits Conlon, Fox and Sudakov with the upper bound $g(n)\ll n^{1/2}$ beside
 Spencer's lower bound.

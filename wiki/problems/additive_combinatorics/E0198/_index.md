@@ -25,28 +25,29 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** If $A\subset \mathbb{N}$ is a Sidon set then must the complement
 of $A$ contain an infinite arithmetic progression?
 
-**Status.** DISPROVED (LEAN), the site's label. Three constructions, each on
-its own claim page, give a Sidon set meeting every infinite arithmetic
-progression: the successive selection the site writes out and credits to
+**Status.** DISPROVED (LEAN), the site's label. Three constructions, each on its
+own claim page, give a Sidon set meeting every infinite arithmetic progression.
+The first is the successive selection that the site writes out and credits to
 Baumgartner
-([[problems/additive_combinatorics/E0198/claims/1975_03_01_baumgartner|claim page]]),
-the factorial set that Google DeepMind's AlphaProof found
+([[problems/additive_combinatorics/E0198/claims/1975_03_01_baumgartner|claim page]]).
+The second is the factorial set that Google DeepMind's AlphaProof found
 ([[problems/additive_combinatorics/E0198/claims/2025_05_15_deepmind|claim page]]),
-formalized in Lean in November 2025 and linked by the catalog, and Dutta's
-power sequences
+formalized in Lean in November 2025 and linked by the catalog. The third is
+Dutta's power sequences
 ([[problems/additive_combinatorics/E0198/claims/2025_09_02_dutta|claim page]]).
-The factorial and power-sequence claims are accepted on the site's curator's
-documented credit, and the successive selection stays claimed, since the
-curator wrote it out himself; the natural-language proofs on the linked
-library pages are author-recorded, and the Lean files behind the label's Lean
-mark, linked on Google DeepMind's claim page, were not built by this corpus.
-The site's answer changed between November 2024 and mid-May 2025 while its
-label stayed SOLVED: it had answered yes, crediting Baumgartner [Ba75], and it
-switched to no, wrote out the successive selection as implicit in [Ba75] and
-credited the factorial construction to AlphaProof after Google DeepMind
-reported the counterexample to the curator, as the Baumgartner and Google
-DeepMind claim pages record with their evidence. Web archive captures first
-show the label DISPROVED on 2025-09-17 and DISPROVED (LEAN) on 2025-12-06.
+The factorial and power-sequence claims are accepted on the documented credit of
+the site's curator. The successive selection stays claimed, since the curator
+wrote it out himself. The natural-language proofs on the linked library pages
+are author-recorded. The Lean files behind the label's Lean mark are linked on
+Google DeepMind's claim page and were not built by this corpus.
+
+The site's answer changed between November 2024 and mid-May 2025, while its
+label stayed SOLVED. It had answered yes, crediting Baumgartner [Ba75]. It then
+switched to no, wrote out the successive selection as implicit in [Ba75], and
+credited the factorial construction to AlphaProof after Google DeepMind reported
+the counterexample to the curator. The Baumgartner and Google DeepMind claim
+pages record this with their evidence. Web archive captures first show the label
+DISPROVED on 2025-09-17 and DISPROVED (LEAN) on 2025-12-06.
 
 **Source.** [erdosproblems.com/198](https://www.erdosproblems.com/198), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #198,

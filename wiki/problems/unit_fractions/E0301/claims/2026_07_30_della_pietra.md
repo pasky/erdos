@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0301/claims/2026_07_30_della_pietra
 title: "Della Pietra: unit-fraction-free sets of density above one half"
 desc: |
-  A partial proof claim of 30 July 2026 by Donald Della Pietra, AI-assisted,
-  that f(N) >= (1/2 + epsilon)N for an absolute epsilon and all large N, which
-  would answer the particular question of Problem 301 in the negative.
+  An AI-assisted partial proof claim of 30 July 2026 by Donald Della Pietra that
+  $f(N)\ge(1/2+\varepsilon)N$ for an absolute $\varepsilon>0$ and all large $N$.
+  This would answer the particular question of Problem 301 in the negative.
 authors:
 - Donald Della Pietra
 status: claimed

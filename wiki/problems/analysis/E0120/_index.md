@@ -2,8 +2,8 @@
 name: problems/analysis/E0120
 title: Problem 120
 desc: |
-  Asks whether, for every infinite set of reals, some set of positive measure
-  contains no affine copy of it.
+  Asks whether, for every infinite set $A$ of reals, some set of positive
+  measure contains no affine copy $aA+b$ with $a\neq0$.
 tags:
 - Combinatorics
 status: open
@@ -24,22 +24,24 @@ updated: 2026-10-08T13:36:53Z
 set $E\subset \mathbb{R}$ of positive measure which does not contain any set of
 the shape $aA+b$ for some $a,b\in\mathbb{R}$ and $a\neq 0$?
 
-**Status.** Open: the site labels the problem OPEN (page last edited 23
-January 2026), and its commentary names the dyadic sequence
-$\{1,1/2,1/4,\ldots\}$ as an open special case. That case is settled by an
-accepted partial claim of the OpenAI mathematics release,
-[[problems/analysis/E0120/claims/2026_09_25_openai|the dyadic case]], whose Lean
-declaration this corpus's verification built and audited. Three pending partial
-claims claim further special cases: the release's
+**Status.** Open. The site labels the problem OPEN (page last edited 23 January
+2026). The derived standing is open. None of the claims below touches the
+general question, and the one claim of the full conjecture, by
+[[problems/analysis/E0120/claims/2020_01_08_cruz_lai_pramanik|Cruz, Lai and Pramanik in 2020]],
+was withdrawn by its authors.
+
+The site's commentary names the dyadic sequence $\{1,1/2,1/4,\ldots\}$ as an
+open special case. That case is settled by an accepted partial claim of the
+OpenAI mathematics release,
+[[problems/analysis/E0120/claims/2026_09_25_openai|the dyadic case]]. This
+corpus's verification built and audited its Lean declaration. Three pending
+partial claims assert further special cases. One is the release's
 [[problems/analysis/E0120/claims/2026_10_05_openai|geometric-progression case for each fixed ratio]],
-of which only the ratio $1/2$ is formally verified; and two arXiv preprints of
-2026 by Iosevich and coauthors, on
+of which only the ratio $1/2$ is formally verified. The other two are arXiv
+preprints of 2026 by Iosevich and coauthors, on
 [[problems/analysis/E0120/claims/2026_07_03_mora_cuellar_iosevich_kulkarni_rojas_aravena_yavicoli|sums and differences of a geometric sequence and an infinite set]]
 and on
 [[problems/analysis/E0120/claims/2026_09_03_iosevich_kulkarni_mora_cuellar_rojas_aravena_yavicoli|sets supporting a Rajchman measure]].
-None touches the general question, and the one claim of the full conjecture, by
-[[problems/analysis/E0120/claims/2020_01_08_cruz_lai_pramanik|Cruz, Lai and Pramanik in 2020]],
-was withdrawn by its authors, so the derived standing is open.
 
 **Source.** [erdosproblems.com/120](https://www.erdosproblems.com/120), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #120,

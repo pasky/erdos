@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0807
 title: Problem 807
 desc: |
-  Asks whether the random graph with edge probability one half almost surely
-  needs exactly n minus its independence number complete bipartite graphs to
-  partition its edges; disproved by Alon, then by Alon, Bohman and Huang.
+  Asks whether the random graph $G(n,1/2)$ almost surely needs exactly
+  $n-\alpha(G)$ complete bipartite graphs to partition its edges. Disproved by
+  Alon, then by Alon, Bohman and Huang.
 tags:
 - Graph theory
 status: solved
@@ -53,32 +53,33 @@ graphs" (no reference is given there); [Al15] (p. 1) writes "Erdős conjectured
 random graph $G(n,0.5)$, $\tau(G)=n-\alpha(G)$ with high probability", [8] being
 [KRW88].
 
-**Status.** Disproved; the site labels the problem DISPROVED. Theorem 1.1
-of [Al15] (J. Combin. Theory Ser. B 113 (2015), 220--235; refereed; cited
-from the arXiv version): with $k_0$
-the largest $k$ such that the expected number $f(k)=\binom nk2^{-\binom k2}$ of
-independent $k$-sets in $G(n,1/2)$ is at least $1$, and $\beta(G)$ the largest
-number of vertices of an induced complete bipartite subgraph, (i) if
-$1=o(f(k_0))$ and $f(k_0+1)=o(1)$ then whp $\alpha(G)=k_0$ and
-$\beta(G)=k_0+2$, so $\tau(G)\le n-\alpha(G)-1$ whp; (ii) if $f(k_0)=\Theta(1)$,
-whp one of the four combinations of $\alpha(G)\in\{k_0-1,k_0\}$ and
-$\beta(G)\in\{k_0+1,k_0+2\}$ holds, each with probability bounded away from
-$0$ and $1$; (iii) if $f(k_0+1)=\Theta(1)$, the same with $k_0+1$ in place of
-$k_0$. In each of (ii) and (iii) three of the four combinations give
-$\tau(G)<n-\alpha(G)$ through $\tau(G)\le n-\beta(G)+1$. So the equality fails
-with high probability for most $n$ and with probability bounded away from
-zero for every large $n$, and the statement is false. Theorem 1.1 of [ABH17]
-(J. Graph Theory 84 (2017), 45--52; refereed; cited from the arXiv
-version) strengthens this to
-$\tau(G)\le n-(2+2c)\log_2n\le n-(1+c)\alpha(G)$ whp for an absolute constant
-$c>0$, for every $n$. The typical value of $\tau(G(n,1/2))$ remains open
-between Chung and Peng's $n-o((\log n)^{3+\varepsilon})$ (second-hand) and
-this bound. Both results and their acceptance evidence are recorded on the
-claim pages
+**Status.** Disproved. The site labels the problem DISPROVED. The two results
+below and their acceptance evidence are recorded on the claim pages
 [[problems/extremal_graph_theory/E0807/claims/2014_02_26_alon|Alon's Theorem 1.1]]
 and
 [[problems/extremal_graph_theory/E0807/claims/2014_09_22_alon_bohman_huang|Alon, Bohman and Huang's Theorem 1.1]],
 from which the frontmatter is derived.
+
+Theorem 1.1 of [Al15] (J. Combin. Theory Ser. B 113 (2015), 220--235; refereed;
+cited from the arXiv version) works with two quantities. Let $k_0$ be the
+largest $k$ such that the expected number $f(k)=\binom nk2^{-\binom k2}$ of
+independent $k$-sets in $G(n,1/2)$ is at least $1$. Let $\beta(G)$ be the
+largest number of vertices of an induced complete bipartite subgraph. (i) If
+$1=o(f(k_0))$ and $f(k_0+1)=o(1)$, then whp $\alpha(G)=k_0$ and
+$\beta(G)=k_0+2$, so $\tau(G)\le n-\alpha(G)-1$ whp. (ii) If $f(k_0)=\Theta(1)$,
+whp one of the four combinations of $\alpha(G)\in\{k_0-1,k_0\}$ and
+$\beta(G)\in\{k_0+1,k_0+2\}$ holds, each with probability bounded away from $0$
+and $1$. (iii) If $f(k_0+1)=\Theta(1)$, the same holds with $k_0+1$ in place of
+$k_0$. In each of (ii) and (iii), three of the four combinations give
+$\tau(G)<n-\alpha(G)$ through $\tau(G)\le n-\beta(G)+1$. So the equality fails
+with high probability for most $n$, and with probability bounded away from zero
+for every large $n$. The statement is therefore false.
+
+Theorem 1.1 of [ABH17] (J. Graph Theory 84 (2017), 45--52; refereed; cited from
+the arXiv version) strengthens this to
+$\tau(G)\le n-(2+2c)\log_2n\le n-(1+c)\alpha(G)$ whp for an absolute constant
+$c>0$, for every $n$. The typical value of $\tau(G(n,1/2))$ remains open between
+this bound and Chung and Peng's $n-o((\log n)^{3+\varepsilon})$ (second-hand).
 
 **Source.** [erdosproblems.com/807](https://www.erdosproblems.com/807),
 accessed 2026-09-18T15:02Z: the problem page

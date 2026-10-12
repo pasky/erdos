@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0399/claims/1937_01_01_erdos_oblath
 title: "Erdős and Obláth: no coprime solutions for exponents other than four"
 desc: |
-  Erdős and Obláth (Acta Szeged 8 (1937)) prove that n! = x^k ± y^k has no
-  solution with x, y coprime and xy > 1 when k > 2 is not 4, and none with
-  k = 4 for sufficiently large n; refereed.
+  In a refereed paper (Acta Szeged 8 (1937)), Erdős and Obláth prove that
+  $n!=x^k\pm y^k$ has no solution with $x,y$ coprime and $xy>1$ when $k>2$ and
+  $k\ne4$, and none with $k=4$ for sufficiently large $n$.
 authors:
 - Paul Erdős
 - Richard Obláth

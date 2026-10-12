@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0934/claims/2021_03_22_cambie_cames_van_batenburg_de_joannis_de_verclos_kang
 title: Cambie, Cames van Batenburg, de Joannis de Verclos and Kang's bounds and h_3(3) = 23
 desc: |
-  The 2022 SIAM J. Discrete Math. paper: h_3(3) = 23, h_t(d) at most 3d^t/2 + 1
-  for every t, at most d^t + 1 for graphs without a (2t+1)-cycle, and at least
-  0.629^t d^t for large t and infinitely many d; refereed.
+  Cambie, Cames van Batenburg, de Joannis de Verclos and Kang (SIAM J. Discrete
+  Math. 2022, refereed) prove $h_3(3)=23$ and $h_t(d)\le\frac32d^t+1$ for every
+  $t$. They also prove $h_t(d)\le d^t+1$ for graphs with no $(2t+1)$-cycle, and
+  $h_t(d)\ge0.629^td^t$ for large $t$ and infinitely many $d$.
 authors:
 - Stijn Cambie
 - Wouter Cames van Batenburg
@@ -75,13 +76,13 @@ Proposition 5 resting on the Canale--Gómez constructions, which are not in
 the library.
 
 **Acceptance.** Refereed: SIAM Journal on Discrete Mathematics, volume 36, issue
-2, published online 11 April 2022 (the Crossref record); the page is named by
-the claim's first posting, arXiv:2103.11898v1 of 22 March 2021, whose abstract
-announces the same results, with arXiv:2103.11898v2 of 10 December 2021 the
-accepted version held in the library. The site's curator, Thomas F. Bloom,
-records $h_3(3)=23$, the $0.629^td^t$ lower bound and the $\frac32d^t+1$ upper
-bound in the problem page's commentary, where the label is OPEN (page last
-edited 28 October 2025) and the page thanks a coauthor of the paper; commentary
+2, published online 11 April 2022 according to the Crossref record. The page is
+named by the claim's first posting, arXiv:2103.11898v1 of 22 March 2021, whose
+abstract announces the same results. The accepted version, arXiv:2103.11898v2 of
+10 December 2021, is the one held in the library. The site's curator, Thomas F.
+Bloom, records $h_3(3)=23$, the $0.629^td^t$ lower bound and the $\frac32d^t+1$
+upper bound in the problem page's commentary. The label there is OPEN (page last
+edited 28 October 2025), and the page thanks a coauthor of the paper. Commentary
 on an open problem is not acceptance of the problem, so the credit is recorded
-and not listed as `reviewed`. No independent review of the four results is
+but not listed as `reviewed`. No independent review of the four results is
 recorded.

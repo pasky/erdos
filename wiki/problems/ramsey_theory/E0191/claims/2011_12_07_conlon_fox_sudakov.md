@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0191/claims/2011_12_07_conlon_fox_sudakov
 title: Conlon, Fox and Sudakov, a monochromatic clique of weight at least 2^{-8} log log log n
 desc: |
-  Theorem 1.1 of Conlon, Fox and Sudakov (Duke Math. J. 2013): for large n,
-  every two-coloring of the pairs of {2, ..., n} has a monochromatic clique
-  of weight at least 2^(-8) log log log n, so the answer is yes.
+  Theorem 1.1 of Conlon, Fox and Sudakov (Duke Math. J. 2013) shows that for
+  large $n$, every two-coloring of the pairs of $\{2,\ldots,n\}$ has a
+  monochromatic clique of weight at least $2^{-8}\log\log\log n$. So the answer
+  is yes.
 authors:
 - David Conlon
 - Jacob Fox
@@ -58,11 +59,11 @@ alone, and Rödl's coloring supplies only the upper half of the order, which
 is not the claim.
 
 **Acceptance.** Refereed: Duke Math. J. 162 (2013), no. 15, 2903--2927 (the
-arXiv record's journal reference and the Crossref record); the journal text was
+arXiv record's journal reference and the Crossref record). The journal text was
 not compared with the preprint read, so locators are preprint pages. Reviewed:
-the site's curator, T. F. Bloom, labels the problem PROVED (LEAN) and credits
-the paper, in the problem's commentary, with the theorem above and with showing
-Rödl's order best possible (page last edited 8 February 2026).
+the site's curator, T. F. Bloom, labels the problem PROVED (LEAN). In the
+problem's commentary the curator credits the paper with the theorem above and
+with showing Rödl's order best possible (page last edited 8 February 2026).
 
 **Read depth.** Claims checked: Theorem 1.1, the definitions and the
 attributions of pp. 2--3 and Conjecture 5.1 with the remarks of p. 15 were read;

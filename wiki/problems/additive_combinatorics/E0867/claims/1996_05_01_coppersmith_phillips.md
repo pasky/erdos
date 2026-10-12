@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0867/claims/1996_05_01_coppersmith_phillips
 title: Coppersmith and Phillips reach density 13/24
 desc: |
-  Theorem 2.1 of Coppersmith and Phillips (SIAM J. Discrete Math. 1996) gives
-  a set of 13N/24 - O(1) integers up to N with no consecutive-sum member, a
-  second disproof, beside the upper bound of Theorem 3.7; accepted as refereed.
+  Theorem 2.1 of Coppersmith and Phillips (SIAM J. Discrete Math. 1996) gives a
+  set of $13N/24-O(1)$ integers up to $N$ in which no member is a sum of
+  consecutive members, a second disproof. The paper also proves the upper bound
+  of its Theorem 3.7 and is accepted as refereed.
 authors:
 - Don Coppersmith
 - Steven Phillips
@@ -64,13 +65,13 @@ checked.
 its own terms as its starting point, and Table 1 and its verification are
 the paper's own.
 
-**Acceptance.** Refereed publication: SIAM J. Discrete Math. 9 (1996),
-no. 2, 173--177, doi:10.1137/S0895480193244139, received February 1993 and
-accepted in revised form April 1995, in the May 1996 issue (Crossref record,
-2026-10-07; the day is filled to the first of the month). Reviewed: the
-site's curator, Thomas Bloom, credits [CoPh96] with the best known bounds
-on the maximal size of such a set, and the thread comment of 2025-09-02 that led to the
-disproved label cited the paper, by its DOI, for the better lower bound
-$\tfrac{13}{24}$ and the upper bound $\tfrac23-\tfrac1{512}$. The site's
-label and its Lean qualifier rest on Freud's construction, recorded on its
-own claim page.
+**Acceptance.** Refereed publication: SIAM J. Discrete Math. 9 (1996), no. 2,
+173--177, doi:10.1137/S0895480193244139. The paper was received in February
+1993, accepted in revised form in April 1995, and appeared in the May 1996 issue
+(Crossref record, 2026-10-07). The page's day is filled to the first of the
+month. Reviewed: the site's curator, Thomas Bloom, credits [CoPh96] with the
+best known bounds on the maximal size of such a set. The thread comment of
+2025-09-02 that led to the disproved label cited the paper, by its DOI, for the
+better lower bound $\tfrac{13}{24}$ and the upper bound $\tfrac23-\tfrac1{512}$.
+The site's label and its Lean qualifier rest on Freud's construction, which is
+recorded on its own claim page.

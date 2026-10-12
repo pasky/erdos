@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E0432
 title: Problem 432
 desc: |
-  Determines how dense the sumset of two infinite sets of natural numbers can
-  be when all its elements are pairwise coprime.
+  Asks how dense $A+B$ can be for infinite sets $A,B\subseteq\mathbb{N}$ when
+  the elements of $A+B$ are pairwise coprime.
 tags:
 - Number theory
 status: open

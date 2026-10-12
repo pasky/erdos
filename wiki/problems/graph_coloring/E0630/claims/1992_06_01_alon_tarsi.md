@@ -2,8 +2,8 @@
 name: problems/graph_coloring/E0630/claims/1992_06_01_alon_tarsi
 title: Planar bipartite graphs are 3-choosable
 desc: |
-  Alon and Tarsi's 1992 theorem that every planar bipartite graph has list
-  chromatic number at most 3, deduced from their algebraic criterion on
+  Alon and Tarsi (1992) prove that every planar bipartite graph has list
+  chromatic number at most $3$. They deduce it from their algebraic criterion on
   orientations with unequal counts of even and odd Eulerian subgraphs.
 authors:
 - N. Alon
@@ -48,14 +48,13 @@ therefore always admit a proper coloring. The bound is sharp: $K_{2,4}$ is
 planar and bipartite and, by Erdős, Rubin and Taylor's characterization of
 the $2$-choosable graphs ([ERT80] on the problem page), not $2$-choosable.
 
-**Acceptance.** The paper is refereed: Combinatorica 12 (1992), no. 2,
-125–134, issued June 1992; the page is dated by the first day of the issue
-month, the publication record giving no finer date. The site's curator,
-Thomas Bloom, marks the problem PROVED and credits
-Alon and Tarsi [AlTa92] with the answer, so the curator's independent credit
-is listed as `reviewed`. The community database (teorth/erdosproblems) lists
-the problem as proved with a Lean proof from 2026-09-16, the date of Ren's
-formalization below.
+**Acceptance.** The paper is refereed. It appeared in Combinatorica 12 (1992),
+no. 2, 125–134, in the issue of June 1992. The publication record gives no finer
+date, so the page is dated by the first day of the issue month. The site's
+curator, Thomas Bloom, marks the problem PROVED and credits Alon and Tarsi
+[AlTa92] with the answer. This independent credit is listed as `reviewed`. The
+community database (teorth/erdosproblems) lists the problem as proved with a
+Lean proof from 2026-09-16, the date of Ren's formalization below.
 
 **Formalizations.** Two Lean 4 developments declare themselves formalizations of
 this theorem and are linked above at pinned commits; the corpus built neither,

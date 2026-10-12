@@ -2,8 +2,9 @@
 name: problems/graph_coloring/E0920
 title: Problem 920
 desc: |
-  The largest possible chromatic number of a graph on n vertices containing no
-  complete graph on k vertices.
+  Asks whether, for every $k\geq4$, the largest chromatic number $f_k(n)$ of a
+  $K_k$-free graph on $n$ vertices satisfies
+  $f_k(n)\gg n^{1-1/(k-1)}/(\log n)^{c_k}$ for some constant $c_k>0$.
 tags:
 - Graph theory
 - Chromatic number
@@ -35,16 +36,16 @@ $$
 
 for some constant $c_k>0$?
 
-**Status.** SOLVED, the site's label (page last edited 25 July 2026); the site
-credits the case $k=4$ to Mattheus and Verstraete's bound on $r(4,t)$ and the
-cases $k\ge5$ to Bradač's off-diagonal Ramsey bound, and the claim pages
+**Status.** SOLVED is the site's label (page last edited 25 July 2026). That
+label records only that the problem is answered. The derived standing is proved,
+because the question asks whether the bound holds and both accepted claims below
+prove that it does. The answer is yes for every $k\ge4$. The site credits the
+case $k=4$ to Mattheus and Verstraete's bound on $r(4,t)$, and the cases $k\ge5$
+to Bradač's off-diagonal Ramsey bound. The claim pages
 [[problems/graph_coloring/E0920/claims/2023_06_06_mattheus_verstraete|Mattheus–Verstraete 2023]]
 and [[problems/graph_coloring/E0920/claims/2026_06_16_bradac|Bradač 2026]]
 record the two results, each accepted for its range. The two parts of the
-question, $k=4$ and $k\ge5$, are each settled by an accepted partial claim. The
-derived standing is proved, where the site's label records only that the problem
-is answered, because the question asks whether the bound holds and both claims
-prove that it does: the answer is yes for every $k\ge4$.
+question, $k=4$ and $k\ge5$, are each settled by an accepted partial claim.
 
 **Source.** [erdosproblems.com/920](https://www.erdosproblems.com/920), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #920,

@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0976/claims/2022_12_07_dartyge_maynard
 title: Dartyge and Maynard's power gain for cyclic and dihedral quartics
 desc: |
-  For a monic irreducible quartic with Galois group C4 or D4, a positive
-  proportion of m in (x, 2x] have f(m) with a prime factor at least
-  x^(1+c), so the answer is yes for these quartics.
+  Dartyge and Maynard prove that if $f$ is a monic irreducible quartic with
+  Galois group $C_4$ or $D_4$, then $f(m)$ has a prime factor at least $x^{1+c}$
+  for a positive proportion of $m\in(x,2x]$. So the answer to the first question
+  is yes for these quartics.
 authors:
 - Cécile Dartyge
 - James Maynard

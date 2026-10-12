@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0494/claims/1958_12_01_selfridge_straus
 title: Selfridge and Straus determine the set outside explicit exceptional sizes
 desc: |
-  Selfridge and Straus (Pacific J. Math. 1958) determine a set from its sums of
-  s distinct elements unless its size is a root of an explicit equation: k = 3
-  for n > 6 other than 27 and 486, k = 4 for n > 12; an accepted partial claim.
+  Selfridge and Straus (Pacific J. Math. 1958), in an accepted partial claim,
+  show that a set is determined by its sums of $s$ distinct elements unless its
+  size is a root of an explicit equation. This covers $k=3$ for $n>6$ other than
+  $27$ and $486$, and $k=4$ for $n>12$.
 authors:
 - John L. Selfridge
 - Ernst Gabor Straus
@@ -88,30 +89,35 @@ corrected Statement replaces.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed publication: Pacific Journal of Mathematics 8 (1958),
-no. 4, 847--856, received 16 May 1958, issued December 1958 (the Crossref
-record's date, the date of this page; the article's cover prints June 1958). No
-`reviewed` evidence is listed: the site's curator (T. F. Bloom) mentions
+no. 4, 847--856. The paper was received 16 May 1958 and issued December 1958.
+December 1958 is the Crossref record's date and the date of this page; the
+article's cover prints June 1958.
+
+No `reviewed` evidence is listed. The site's curator (T. F. Bloom) mentions
 Selfridge and Straus's cases in the problem page's commentary, without the $27$
-and $486$ caveat (erdosproblems.com/494, page last edited 14 October 2025), but
+and $486$ caveat (erdosproblems.com/494, page last edited 14 October 2025). But
 the site's PROVED label settles the problem by crediting Gordon, Fraenkel and
-Straus, whose 1962 paper builds on this one and shares an author with it; the
-formal-conjectures statement file states the cases as solved variants with the
-caveat, with `sorry` bodies. Two Lean developments formalize parts of the result
-and are linked above; neither was built by this corpus, so no `formalized`
-evidence is listed. Collin Yuanjie Ren's package JSP-000399 (2026-09-16), whose
-README says it was prepared with Claude Code (Anthropic) assistance and credits
-the mathematics to Selfridge and Straus, proves the corollary to Theorem 4
-(uniqueness when a prime greater than $k$ divides $|A|$) and Theorem 1 ($k=2$,
-$|A|$ not a power of two) in the statement file's own terms, and says that the
+Straus, whose 1962 paper builds on this one and shares an author with it. The
+formal-conjectures statement file states the cases as solved variants, with the
+caveat and with `sorry` bodies.
+
+Two Lean developments formalize parts of the result and are linked above.
+Neither was built by this corpus, so no `formalized` evidence is listed. Collin
+Yuanjie Ren's package JSP-000399 (2026-09-16) has a README that says it was
+prepared with Claude Code (Anthropic) assistance and credits the mathematics to
+Selfridge and Straus. The package proves the corollary to Theorem 4 (uniqueness
+when a prime greater than $k$ divides $|A|$) and Theorem 1 ($k=2$, $|A|$ not a
+power of two), in the statement file's own terms. It says that the
 Gordon--Fraenkel--Straus theorem is not formalized because Ridout's theorem is
-not in Mathlib; the community database (teorth/erdosproblems) notes the package
-under the problem. The fork of formal-conjectures that the statement file names
-as the formal proof of its variant `k_eq_2_card_pow_two` proves Theorem 2
+not in Mathlib. The community database (teorth/erdosproblems) notes the package
+under the problem. The statement file names a fork of formal-conjectures as the
+formal proof of its variant `k_eq_2_card_pow_two`. That fork proves Theorem 2
 ($k=2$, $|A|$ a power of two) and the counterexample variants at $|A|=k$ and
-$|A|=2k$ (Theorem 3), the last also recorded on the problem page. The
-development `Erdos494.lean` in Boris Alexeev's repository (added 2026-08-16;
-Codex and GPT-5.6 Sol as formal authors;
-[file at a pinned commit](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos494.lean))
-also proves the $|A|=2k$ case of Theorem 3, as the formal-conjectures variant
-`card_eq_2k`; it concerns the site's wording only and is credited on the problem
+$|A|=2k$ (Theorem 3); the last of these is also recorded on the problem page.
+
+The development `Erdos494.lean` in Boris Alexeev's repository was added
+2026-08-16, with Codex and GPT-5.6 Sol as formal authors ([file at a pinned
+commit](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos494.lean)).
+It also proves the $|A|=2k$ case of Theorem 3, as the formal-conjectures variant
+`card_eq_2k`. It concerns the site's wording only and is credited on the problem
 page.

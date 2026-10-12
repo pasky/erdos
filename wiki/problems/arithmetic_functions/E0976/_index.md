@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0976
 title: Problem 976
 desc: |
-  Estimates the greatest prime factor of the product of an irreducible
-  polynomial's values up to n, in particular whether it exceeds n to a power
-  above one.
+  Asks for estimates of the greatest prime factor $F_f(n)$ of
+  $\prod_{m\le n}f(m)$ for an irreducible polynomial $f$, in particular whether
+  $F_f(n)\gg n^{1+c}$ for some $c>0$.
 tags:
 - Number theory
 status: open
@@ -45,28 +45,29 @@ factors on absolute values, with $P^+(1)=1$ for any small unit products.
 Irreducibility and $d\geq2$ exclude zero factors, and the products have
 absolute value greater than one eventually.
 
-**Status.** Open. The site labels the problem OPEN (page last edited
-1 February 2026). Neither the general fixed-$f$ power-gain question nor the
-stronger degree-scale question is resolved for every irreducible polynomial:
-the general subpower theorem and the special-family power bounds below fall
-short of both.
+**Status.** Open. The site labels the problem OPEN (page last edited 1 February
+2026). Neither the general fixed-$f$ power-gain question nor the stronger
+degree-scale question is resolved for every irreducible polynomial. The general
+subpower theorem and the special-family power bounds below fall short of both.
 [[problems/arithmetic_functions/E0976/claims/2026_04_16_bhalla|Bhalla's conditional note]]
-of 2026-04-16 gives the degree-scale bound only under an unproved
-prime-values hypothesis. The special-family claims answer the first question
-for particular polynomials: accepted for $t^3+2$
+of 2026-04-16 gives the degree-scale bound only under an unproved prime-values
+hypothesis.
+
+The special-family claims answer the first question for particular polynomials.
+Accepted claims cover $t^3+2$
 ([[problems/arithmetic_functions/E0976/claims/2001_05_01_heath_brown|Heath-Brown]],
-[[problems/arithmetic_functions/E0976/claims/2014_11_28_irving|Irving]]),
-for even Klein-group quartics
+[[problems/arithmetic_functions/E0976/claims/2014_11_28_irving|Irving]]), even
+Klein-group quartics
 ([[problems/arithmetic_functions/E0976/claims/2015_06_22_de_la_breteche|de la Bretèche]]),
-for cyclic and dihedral quartics
+cyclic and dihedral quartics
 ([[problems/arithmetic_functions/E0976/claims/2022_12_07_dartyge_maynard|Dartyge--Maynard]])
-and for $t^2+1$
-([[problems/arithmetic_functions/E0976/claims/2024_04_05_pascadi|Pascadi]]);
-pending for monic cubics
+and $t^2+1$
+([[problems/arithmetic_functions/E0976/claims/2024_04_05_pascadi|Pascadi]]).
+Pending claims cover monic cubics
 ([[problems/arithmetic_functions/E0976/claims/2026_02_03_ermoshin|Ermoshin]]),
-for $at^2+h$
+$at^2+h$
 ([[problems/arithmetic_functions/E0976/claims/2025_05_01_grimmelt_merikoski|Grimmelt--Merikoski]])
-and for $t^2+1$
+and $t^2+1$
 ([[problems/arithmetic_functions/E0976/claims/2023_08_19_carella|Carella]]).
 None covers every irreducible polynomial, so both questions stay open.
 

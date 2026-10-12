@@ -2,8 +2,9 @@
 name: problems/analysis/E1195
 title: Problem 1195
 desc: |
-  Concerns sets of real numbers of infinite measure in which no ratio of two
-  distinct elements is an integer.
+  Asks how fast $|S\cap(0,x)|$ can tend to infinity for a set
+  $S\subset\mathbb{R}$ of infinite measure in which $a/b$ is never an integer
+  for distinct $a,b\in S$.
 tags:
 - Analysis
 - Number theory
@@ -26,14 +27,14 @@ $x/y$ is never an integer for all distinct $x,y\in S$.
 
 How fast can $\lvert S\cap (0,x)\rvert$ tend to infinity?
 
-**Status.** Solved, the site's label. Boon Suan Ho, working with GPT-5.4
-Pro, characterized the attainable growth: for non-decreasing $F\to\infty$,
-some admissible $S$ has measure at least $F(x)$ in $(0,x)$ for all large $x$
-exactly when $\int_1^\infty F(x)x^{-2}\,dx<\infty$. The accepted claim is
-[[problems/analysis/E1195/claims/2026_04_19_ho|Ho's sharp growth criterion]],
-credited by the site's curator and not refereed; a Lean formalization in
-Boris Alexeev's repository is linked on the claim page, and this corpus has
-not built or audited it.
+**Status.** Solved, the site's label. Boon Suan Ho, working with GPT-5.4 Pro,
+characterized the attainable growth. For non-decreasing $F\to\infty$, some
+admissible $S$ has measure at least $F(x)$ in $(0,x)$ for all large $x$ exactly
+when $\int_1^\infty F(x)x^{-2}\,dx<\infty$. The accepted claim is
+[[problems/analysis/E1195/claims/2026_04_19_ho|Ho's sharp growth criterion]]. It
+is credited by the site's curator and not refereed. A Lean formalization in
+Boris Alexeev's repository is linked on the claim page. This corpus has not
+built or audited it.
 
 **Source.** [erdosproblems.com/1195](https://www.erdosproblems.com/1195),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1195,

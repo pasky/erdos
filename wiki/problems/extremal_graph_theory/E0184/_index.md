@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0184
 title: Problem 184
 desc: |
-  Asks whether every graph on n vertices decomposes into at most a constant
-  times n edge-disjoint cycles and single edges, the Erdős-Gallai cycle
-  decomposition conjecture; answered yes by the OpenAI release's 2026 theorem.
+  Asks whether every graph on $n$ vertices decomposes into $O(n)$ edge-disjoint
+  cycles and single edges (the Erdős–Gallai cycle decomposition conjecture). The
+  answer is yes, by the OpenAI release's 2026 theorem.
 tags:
 - Graph theory
 - Cycles
@@ -41,38 +41,38 @@ cannot be replaced by $n$, and the conjectured sharp constant is not fixed by
 the statement.
 
 **Status.** OPEN, the site's label (page last edited 1 April 2026; proof-claim
-tab read 2026-10-07); the derived standing of this page is solved, proved. The
-two differ because the standing rests on a theorem the label does not reflect:
-the site's page was last edited before either 2026 claim, and the release's
+tab read 2026-10-07). The derived standing of this page is solved, proved. The
+two differ because the standing rests on a theorem the label does not reflect.
+The site's page was last edited before either 2026 claim, and the release's
 theorem below is not on the site's proof-claim tab. Theorem 1.1 of the OpenAI
 mathematics release's preprint of 24 September 2026 gives an absolute $C$ with
-$f(n)\le Cn$ for every $n$. It is recorded on
-[[problems/extremal_graph_theory/E0184/claims/2026_09_24_openai|its claim page]]
-as accepted, with evidence formalized only: the corpus's verification of
-2026-10-07 built the release's Lean declarations `OAI.ErdosGallai.erdos_gallai`,
-`MainStatement`, `EdgeDecomposition` and `CycleOrSingleEdge` at the pinned
-revision, found exactly the axioms `propext`, `Classical.choice` and
-`Quot.sound`, and audited the formal statement for fidelity to the question, an
-audit that belongs to that evidence and is not an outside review; no outside
-reviewer is recorded, the informal manuscript is unrefereed and its proof was
-read for structure only. A second full claim, Ryan Coffey's Lean-formalized
-proof of the formal-conjectures statement (1 October 2026), is recorded as
-claimed on
+$f(n)\le Cn$ for every $n$. It is recorded as accepted on
+[[problems/extremal_graph_theory/E0184/claims/2026_09_24_openai|its claim page]],
+with evidence formalized only. The corpus's verification of 2026-10-07 built the
+release's Lean declarations `OAI.ErdosGallai.erdos_gallai`, `MainStatement`,
+`EdgeDecomposition` and `CycleOrSingleEdge` at the pinned revision. It found
+exactly the axioms `propext`, `Classical.choice` and `Quot.sound`. It also
+audited the formal statement for fidelity to the question. That audit belongs to
+that evidence and is not an outside review. No outside reviewer is recorded. The
+informal manuscript is unrefereed, and its proof was read for structure only. A
+second full claim, Ryan Coffey's Lean-formalized proof of the formal-conjectures
+statement (1 October 2026), is recorded as claimed on
 [[problems/extremal_graph_theory/E0184/claims/2026_10_01_coffey|its claim page]].
-Before these, the best upper bound in the refereed record was
+
+Before these claims, the best upper bound in the refereed record was
 [[../library/extremal_graph_theory/bucic_2022_towards_erdos_gallai_cycle_decomposition_conjecture/theorem_2|Bucić and Montgomery's Theorem 2]],
-$f(n)=O(n\log^\star n)$ with $\log^\star$ the iterated logarithm (Adv. Math. 437
-(2024), refereed; cited from the arXiv v2), after Conlon, Fox and Sudakov's
-$O(n\log\log n)$ (Random Structures Algorithms 45 (2014), refereed) and the
-classical $O(n\log n)$ that the 1966 paper asserts; it remains the best refereed
-bound. The lower bounds are $\liminf f(n)/n\ge\tfrac43$ from Gallai's graph
-$K_{3,n-3}$ (1966) and $(\tfrac32-o(1))n$ from the complete bipartite graphs
-$K_{2k+1,n-2k-1}$, the construction Bucić and Montgomery give for Erdős's 1983
-remark, so the constant $C$ is at least $\tfrac32$ and is not determined. The
-conjecture was known for the random graph $G(n,p)$ and for graphs of linear
-minimum degree (Conlon, Fox and Sudakov, Theorems 1.3 and 1.4). The search whose
-scope the Current assessment records predates both claims and found neither a
-proof nor a disproof.
+$f(n)=O(n\log^\star n)$, where $\log^\star$ is the iterated logarithm (Adv.
+Math. 437 (2024), refereed; cited from the arXiv v2). It remains the best
+refereed bound. It came after Conlon, Fox and Sudakov's $O(n\log\log n)$ (Random
+Structures Algorithms 45 (2014), refereed) and the classical $O(n\log n)$ that
+the 1966 paper asserts. The lower bounds are $\liminf f(n)/n\ge\tfrac43$ from
+Gallai's graph $K_{3,n-3}$ (1966) and $(\tfrac32-o(1))n$ from the complete
+bipartite graphs $K_{2k+1,n-2k-1}$. The second is the construction Bucić and
+Montgomery give for Erdős's 1983 remark. So the constant $C$ is at least
+$\tfrac32$ and is not determined. The conjecture was known for the random graph
+$G(n,p)$ and for graphs of linear minimum degree (Conlon, Fox and Sudakov,
+Theorems 1.3 and 1.4). The search whose scope the Current assessment records
+predates both claims and found neither a proof nor a disproof.
 
 **Source.** [erdosproblems.com/184](https://www.erdosproblems.com/184),
 accessed 2026-09-18: the problem page (OPEN,

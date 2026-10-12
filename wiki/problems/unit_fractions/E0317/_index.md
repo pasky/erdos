@@ -2,9 +2,8 @@
 name: problems/unit_fractions/E0317
 title: Problem 317
 desc: |
-  Asks whether signs of minus one, zero or one can always make the signed sum
-  of reciprocals up to n non-zero yet smaller than a constant over two to the
-  n.
+  Asks whether, for some $c>0$ and every $n$, signs $\delta_k\in\{-1,0,1\}$ can
+  be chosen with $0<|\sum_{k\le n}\delta_k/k|<c/2^n$.
 tags:
 - Number theory
 - Unit fractions
@@ -50,17 +49,17 @@ $\mathrm{lcm}(1,\ldots,n)\sum\delta_k/k$ is a nonzero integer, and equality
 occurs for small $n$ ($n=4$: $\frac12-\frac13-\frac14=-\frac1{12}$). The
 two questions are separate; the status attaches to both.
 
-**Status.** Open. First question: only a weak version is known, a nonzero
-signed sum of absolute value at most $2^{-n(\log\log\log n)^{1+o(1)}/\log n}$
-(site commentary crediting Kovač and van Doorn; comment arguments resting
-on the refereed count of distinct reciprocal subset sums of Problem 320),
-far from $c/2^n$, and a heuristic in the thread suggests the weak bound
-may be the truth. Second question: the strict inequality fails at $n=4$
-(the monograph's example); no proof for all large $n$ exists, and even its
-special case for sums of the form $1-\sum_{n\in A}1/n$ is described as
-nontrivial in the thread of Problem 311. No source beyond the monograph and the site's commentary was found in
-the search whose scope the Current assessment
-records; this is a bounded negative finding.
+**Status.** Open. For the first question, only a weak version is known: a
+nonzero signed sum of absolute value at most
+$2^{-n(\log\log\log n)^{1+o(1)}/\log n}$. The site's commentary credits it to
+Kovač and van Doorn, and the arguments in the comments rest on the refereed
+count of distinct reciprocal subset sums of Problem 320. This is far from
+$c/2^n$, and a heuristic in the thread suggests the weak bound may be the truth.
+For the second question, the strict inequality fails at $n=4$ (the monograph's
+example). No proof for all large $n$ exists. The thread of Problem 311 describes
+even its special case for sums of the form $1-\sum_{n\in A}1/n$ as nontrivial.
+No source beyond the monograph and the site's commentary was found in the search
+whose scope the Current assessment records. This is a bounded negative finding.
 
 **Source.** [erdosproblems.com/317](https://www.erdosproblems.com/317),
 accessed 2026-09-18: the problem page (labeled OPEN, with the site's

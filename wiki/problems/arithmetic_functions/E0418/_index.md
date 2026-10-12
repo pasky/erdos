@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0418
 title: Problem 418
 desc: |
-  Asks whether infinitely many positive integers are not of the form n minus
-  Euler's totient of n.
+  Asks whether infinitely many positive integers are not of the form
+  $n-\phi(n)$.
 tags:
 - Number theory
 status: solved
@@ -23,11 +23,12 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Are there infinitely many positive integers not of the form
 $n-\phi(n)$?
 
-**Status.** Proved. The site labels the problem PROVED (LEAN): Browkin and
-Schinzel's 1995 theorem answers yes, and the Lean qualification corresponds
-to the formal proof that formal-conjectures' `418.lean` records, a Lean 4
-development held outside this corpus and not audited here; see
+**Status.** Proved. The site labels the problem PROVED (LEAN). Browkin and
+Schinzel's 1995 theorem answers yes; see
 [[problems/arithmetic_functions/E0418/claims/1994_04_11_browkin_schinzel|the claim page]].
+The Lean qualification corresponds to the formal proof that formal-conjectures'
+`418.lean` records. That proof is a Lean 4 development held outside this corpus
+and not audited here.
 
 **Source.** [erdosproblems.com/418](https://www.erdosproblems.com/418), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #418,

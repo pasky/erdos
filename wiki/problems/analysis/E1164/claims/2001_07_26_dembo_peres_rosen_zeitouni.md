@@ -2,9 +2,10 @@
 name: problems/analysis/E1164/claims/2001_07_26_dembo_peres_rosen_zeitouni
 title: Dembo, Peres, Rosen and Zeitouni's limit law for the covered disc
 desc: |
-  Proves the Kesten–Révész conjecture that the planar disc cover time has an
-  exponential limit of rate 4 on the log-squared scale, which inverts to the
-  limit law of the largest origin-centered disc covered by time n; refereed.
+  In a refereed paper, Dembo, Peres, Rosen and Zeitouni prove the Kesten–Révész
+  conjecture that the cover time $T_r$ of the planar disc of radius $r$
+  satisfies $\mathbb P(\log T_r\le t(\log r)^2)\to e^{-4/t}$. This inverts to
+  the limit law of the largest origin-centered disc covered by time $n$.
 authors:
 - Amir Dembo
 - Yuval Peres

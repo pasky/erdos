@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0081/claims/2026_09_15_okechukwu
 title: Okechukwu's clique partitions with bounded simplicial defect
 desc: |
-  An arXiv preprint determines the eventual maximum clique partition number of
-  graphs with rooted simplicial defect s; the case s = 0 is the chordal graphs,
-  giving cp(G) at most n²/6 + n/6 + O(1); announced on the thread; unreviewed.
+  Okechukwu's arXiv preprint, announced on the thread and unreviewed, determines
+  the eventual maximum clique partition number of graphs with rooted simplicial
+  defect $s$. The case $s=0$, the chordal graphs, gives
+  $\mathrm{cp}(G)\le n^2/6+n/6+O(1)$.
 authors:
 - Obinna Okechukwu
 status: claimed

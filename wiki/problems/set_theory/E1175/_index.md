@@ -2,9 +2,9 @@
 name: problems/set_theory/E1175
 title: Problem 1175
 desc: |
-  Asks whether, for each uncountable cardinal kappa, some cardinal lambda makes
-  every graph of chromatic number lambda contain a triangle-free subgraph of
-  chromatic number kappa.
+  Asks whether, for each uncountable cardinal $\kappa$, there is a cardinal
+  $\lambda$ such that every graph of chromatic number $\lambda$ contains a
+  triangle-free subgraph of chromatic number $\kappa$.
 tags:
 - Set theory
 - Chromatic number

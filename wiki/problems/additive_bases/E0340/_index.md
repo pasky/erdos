@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0340
 title: Problem 340
 desc: |
-  The growth rate of the greedy Sidon sequence, and whether its counting
-  function is at least N to the power one half minus any epsilon.
+  Asks for the growth rate of the greedy Sidon sequence, and whether its
+  counting function is $\gg N^{1/2-\epsilon}$ for every $\epsilon>0$.
 tags:
 - Number theory
 - Additive combinatorics

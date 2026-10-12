@@ -2,8 +2,8 @@
 name: problems/ramsey_theory/E0546
 title: Problem 546
 desc: |
-  Asks whether the Ramsey number of any graph with m edges and no isolated
-  vertices is at most exponential in the square root of m.
+  Asks whether $R(G)\le2^{O(\sqrt{m})}$ for every graph $G$ with $m$ edges and
+  no isolated vertices.
 tags:
 - Graph theory
 - Ramsey theory
@@ -36,18 +36,18 @@ $m=\binom n2$ edges has $r(K_n)>2^{n/2}>2^{\sqrt{m/2}}$, so the exponent
 $\sqrt m$ cannot be lowered. The $k$-color analog for $k\ge3$ is a separate
 question that the site's commentary calls open.
 
-**Status.** Proved, the site's label (page last edited 18 November 2025),
-credited by the site's curator, T. F. Bloom, to Sudakov. Sudakov's Theorem 1.1
-gives $r(G)\le2^{250\sqrt m}$ for every graph $G$ with $m$ edges and no isolated
-vertices (Adv. Math. 227 (2011), 601--609, refereed; arXiv:1002.0095v1). Alon,
-Krivelevich and Sudakov had proved the bipartite case with $2^{16\sqrt m+1}$
-([[problems/ramsey_theory/E0546/claims/2003_11_01_alon_krivelevich_sudakov|Alon, Krivelevich and Sudakov 2003]],
-a partial claim page) and the general bound $2^{7\sqrt m\log_2m}$ for all
-sufficiently large $m$ (Combin. Probab. Comput. 12 (2003), refereed). The claim
-page [[problems/ramsey_theory/E0546/claims/2010_01_30_sudakov|Sudakov 2010]]
-records the theorem, its postings and the acceptance evidence, the curator's
-credit and the refereed publication; the frontmatter standing is derived from
-it.
+**Status.** Proved, the site's label (page last edited 18 November 2025). The
+site's curator, T. F. Bloom, credits the result to Sudakov. The claim page
+[[problems/ramsey_theory/E0546/claims/2010_01_30_sudakov|Sudakov 2010]] records
+the theorem, its postings and the acceptance evidence, which is the curator's
+credit and the refereed publication. The frontmatter standing is derived from
+it. Sudakov's Theorem 1.1 gives $r(G)\le2^{250\sqrt m}$ for every graph $G$ with
+$m$ edges and no isolated vertices (Adv. Math. 227 (2011), 601--609, refereed;
+arXiv:1002.0095v1). Alon, Krivelevich and Sudakov had proved the bipartite case
+with $2^{16\sqrt m+1}$ and the general bound $2^{7\sqrt m\log_2m}$ for all
+sufficiently large $m$ (Combin. Probab. Comput. 12 (2003), refereed). Their
+bipartite result has a partial claim page,
+[[problems/ramsey_theory/E0546/claims/2003_11_01_alon_krivelevich_sudakov|Alon, Krivelevich and Sudakov 2003]].
 
 **Source.** [erdosproblems.com/546](https://www.erdosproblems.com/546),
 accessed 2026-09-17: the problem page (PROVED, the

@@ -4,19 +4,21 @@ desc: The 2 claim pages of Problem 872, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:37:55Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/divisors/E0872/claims
 
 [[problems/divisors/E0872/_index|..]]
 
-[[problems/divisors/E0872/claims/2026_02_14_price|2026_02_14_price]]: With Prolonger moving first, Shortener can end the game within (23/48+o(1))n
-moves, so it cannot be guaranteed to last (1-ε)n/2 moves; a strategy found by
-GPT-5.2 Pro at Price's prompting and noted in the site's remarks.
+[[problems/divisors/E0872/claims/2026_02_14_price|2026_02_14_price]]: Price claims a Shortener strategy that, with Prolonger moving first, ends the
+game within $(\tfrac{23}{48}+o(1))n$ moves, so the game cannot be guaranteed
+to last $(1-\epsilon)n/2$ moves. GPT-5.2 Pro found the strategy at Price's
+prompting, and the site's remarks note it.
 
-[[problems/divisors/E0872/claims/2026_07_24_buddhdev|2026_07_24_buddhdev]]: With Prolonger moving first, the guaranteed length L(n) of the game is o(n),
-so neither displayed question has a positive answer; a manuscript produced
-with an AI research system and a Lean project, posted as a forum proof claim.
+[[problems/divisors/E0872/claims/2026_07_24_buddhdev|2026_07_24_buddhdev]]: Buddhdev's manuscript claims that, with Prolonger moving first, the guaranteed
+length $L(n)$ of the game is $o(n)$, so neither displayed question has a
+positive answer. It was produced with an AI research system and a Lean
+project, and posted as a forum proof claim.
 
 ***

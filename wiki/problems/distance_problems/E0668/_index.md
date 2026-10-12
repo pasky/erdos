@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0668
 title: Problem 668
 desc: |
-  Asks whether the number of incongruent n-point planar sets maximizing the
-  number of unit distances tends to infinity, and exceeds one for every n
-  above three.
+  Asks whether the number of incongruent $n$-point planar sets maximizing the
+  number of unit distances tends to infinity, and whether it exceeds $1$ for
+  every $n>3$.
 tags:
 - Geometry
 - Distances

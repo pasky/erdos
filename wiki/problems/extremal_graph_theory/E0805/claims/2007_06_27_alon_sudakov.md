@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0805/claims/2007_06_27_alon_sudakov
 title: Alon and Sudakov's nonexistence at c(log n)^3/log log n
 desc: |
-  Alon and Sudakov (J. Graph Theory 56, 2007): for a small absolute c > 0 no
-  n-vertex graph has a clique and an independent set of size log n in every
-  induced subgraph on c(log n)^3/log log n vertices; refereed; partial.
+  Alon and Sudakov (J. Graph Theory 56, 2007) show that, for a small absolute
+  $c>0$, no $n$-vertex graph has a clique and an independent set of size
+  $\log n$ in every induced subgraph on $c(\log n)^3/\log\log n$ vertices. This
+  is a refereed partial result.
 authors:
 - Noga Alon
 - Benny Sudakov

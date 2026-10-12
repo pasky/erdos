@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0728
 title: Problem 728
 desc: |
-  Asks whether infinitely many triples a, b, n with a plus b above n plus C
-  log n have a! b! dividing n! (a+b-n)!; answered yes in 2026 by an
-  AI-generated proof credited to Barreto and, separately, by Pomerance.
+  Asks whether there are infinitely many $a,b,n$ with $a,b\ge\epsilon n$,
+  $a+b>n+C\log n$ and $a!\,b!\mid n!\,(a+b-n)!$. It was answered yes in 2026 by
+  an AI-generated proof credited to Barreto, and separately by Pomerance.
 tags:
 - Number theory
 - Factorials
@@ -32,25 +32,29 @@ $$
 
 and $a+b>n+C\log n$?
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page
-last edited 6 January 2026) and credits Barreto and ChatGPT-5.2 for a proof
-that, for any $0<C_1<C_2$, gives infinitely many triples with $b=n/2$,
-$a=n/2+O(\log n)$, $C_1\log n<a+b-n<C_2\log n$ and
-$a!\,b!\mid n!\,(a+b-n)!$; the result is recorded on the claim page
+**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
+edited 6 January 2026). The standing in the frontmatter derives from the claim
+pages. The site's commentary notes that the statement as printed is ambiguous
+(see the assessment below).
+
+The site credits Barreto and ChatGPT-5.2 for a proof that, for any $0<C_1<C_2$,
+gives infinitely many triples with $b=n/2$, $a=n/2+O(\log n)$,
+$C_1\log n<a+b-n<C_2\log n$ and $a!\,b!\mid n!\,(a+b-n)!$. The result is
+recorded on the claim page
 [[problems/factorials_binomials/E0728/claims/2026_01_06_barreto|Barreto 2026]].
-A separate proof by Carl Pomerance, extending his 2015 method and written
-after the thread asked him about the AI-generated proof, gives a far larger
-gap for almost all $n$; published in Integers in 2026, it is on the claim page
-[[problems/factorials_binomials/E0728/claims/2026_01_14_pomerance|Pomerance 2026]];
-two later AI-generated proofs posted to the site's thread are on the pending
+The Lean qualifier refers to Aristotle's formalization of the ChatGPT-5.2
+argument. Barreto posted it, and Boris Alexeev shortened it in his repository of
+formalized Erdős problems. This corpus has not built it. Nothing about the
+AI-generated proof is refereed.
+
+Carl Pomerance gave a separate proof, which gives a far larger gap for almost
+all $n$. It extends his 2015 method and was written after the thread asked him
+about the AI-generated proof. It was published in Integers in 2026 and is on the
+claim page
+[[problems/factorials_binomials/E0728/claims/2026_01_14_pomerance|Pomerance 2026]].
+Two later AI-generated proofs posted to the site's thread are on the pending
 page
 [[problems/factorials_binomials/E0728/claims/2026_07_13_pickhardt|Pickhardt 2026]].
-The Lean qualifier refers to Aristotle's formalization of the ChatGPT-5.2
-argument, posted by Barreto and shortened by Boris Alexeev in his repository
-of formalized Erdős problems, which this corpus has not built; nothing about
-the AI-generated proof is refereed, and the site's commentary notes that the
-statement as printed is ambiguous (see the assessment below). The standing in
-the frontmatter derives from the claim pages.
 
 **Source.** [erdosproblems.com/728](https://www.erdosproblems.com/728), accessed
 2026-09-04 and, with its discussion thread and the community database,

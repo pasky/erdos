@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0569/claims/1993_07_01_sidorenko
 title: Sidorenko, the triangle case c_1 = 3
 desc: |
-  Sidorenko's 1993 theorem in J. Combin. Theory Ser. B bounds R(K_3, H) by
-  2m + 1 for every m-edge H without isolated vertices; with the one-edge
-  endpoint R(C_3, K_2) = 3 this determines c_1 = 3.
+  Sidorenko's 1993 theorem in J. Combin. Theory Ser. B bounds $R(K_3,H)$ by
+  $2m+1$ for every $m$-edge $H$ without isolated vertices. With the one-edge
+  endpoint $R(C_3,K_2)=3$, this determines $c_1=3$.
 authors:
 - A. F. Sidorenko
 status: accepted
@@ -51,10 +51,10 @@ paper and to Goddard and Kleitman.
 and the one-edge endpoint is elementary.
 
 **Acceptance.** Refereed: A. F. Sidorenko, The Ramsey number of an $n$-edge
-graph versus triangle is at most $2n+1$, J. Combin. Theory Ser. B 58 (1993),
-no. 2, 185--196, in the July 1993 issue, the month this page is dated by;
-the day is a placeholder. The site labels the problem OPEN, so its pages are
-not acceptance.
+graph versus triangle is at most $2n+1$, J. Combin. Theory Ser. B 58 (1993), no.
+2, 185--196, in the July 1993 issue, the month this page is dated by. The day is
+a placeholder. The site labels the problem OPEN, so its pages are not
+acceptance.
 
 **Read depth.** The paper is not held. The statement, with its hypotheses
 ($n$ edges, no isolated vertices), is read in the zbMATH Open review of the

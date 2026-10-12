@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0504
 title: Problem 504
 desc: |
-  Determines the largest angle that is guaranteed to appear among some three
-  points of every set of n points in the plane.
+  Asks for the largest angle $\alpha_n$ such that every set of $n$ points in the
+  plane has three points determining an angle of at least $\alpha_n$.
 tags:
 - Geometry
 status: solved
@@ -25,11 +25,11 @@ that in every set $A\subset \mathbb{R}^2$ of size $n$ there exist three distinct
 points $x,y,z\in A$ such that the angle determined by $xyz$ is at least
 $\alpha$. Determine $\alpha_n$.
 
-**Status.** Solved: the site labels the problem SOLVED, crediting Sendov's
-1993 determination of $\alpha_N$ for every $N\ge4$ ($\alpha_3=\pi/3$ is
-the equilateral triangle), recorded on the
-[[problems/discrete_geometry/E0504/claims/1993_01_01_sendov|Sendov claim page]];
-the earlier values at powers of two are on the
+**Status.** Solved. The site labels the problem SOLVED, crediting Sendov's 1993
+determination of $\alpha_N$ for every $N\ge4$, recorded on the
+[[problems/discrete_geometry/E0504/claims/1993_01_01_sendov|Sendov claim page]].
+The case $\alpha_3=\pi/3$ is the equilateral triangle. The earlier values at
+powers of two are on the
 [[problems/discrete_geometry/E0504/claims/1960_01_01_erdos_szekeres|Erdős–Szekeres claim page]].
 
 **Source.** [erdosproblems.com/504](https://www.erdosproblems.com/504), accessed

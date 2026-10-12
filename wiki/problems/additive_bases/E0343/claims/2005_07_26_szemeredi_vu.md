@@ -2,10 +2,10 @@
 name: problems/additive_bases/E0343/claims/2005_07_26_szemeredi_vu
 title: Szemerédi and Vu's progressions in subset sums
 desc: |
-  Theorem 6.3 of Szemerédi and Vu (2006): there is an absolute constant C such
-  that a nondecreasing sequence of positive integers with at least CN terms up
-  to N for all large N is subcomplete, the corrected Statement of Problem 343 in
-  full.
+  Theorem 6.3 of Szemerédi and Vu (2006) proves the corrected Statement of
+  Problem 343 in full. There is an absolute constant $C$ such that every
+  nondecreasing sequence of positive integers with at least $CN$ terms up to
+  $N$, for all large $N$, is subcomplete.
 authors:
 - E. Szemerédi
 - V. Vu
@@ -54,11 +54,11 @@ site's hypothesis $\lvert A\cap\{1,\ldots,N\}\rvert\gg N$ for all $N$ and the
 answer under each.
 
 **Acceptance.** Refereed: the paper is a journal article (J. Amer. Math. Soc.;
-published online 2005-09-13). Reviewed: the site's curator, T. F. Bloom,
-credits the affirmative answer to it and labels the problem PROVED at
-erdosproblems.com (page last edited 2025-12-02), which is the site's
-acceptance. The page's date is the arXiv posting, the first posting of the
-result. The proof is not compiled or reviewed here.
+published online 2005-09-13). Reviewed: the site's curator, T. F. Bloom, credits
+the affirmative answer to it and labels the problem PROVED at erdosproblems.com
+(page last edited 2025-12-02). This is the site's acceptance. The page's date is
+that of the arXiv posting, the first posting of the result. The proof is not
+compiled or reviewed here.
 
 **Lean developments.** Two Lean 4 files bear on the problem; this project has
 built neither, so no `formalized` evidence is listed. Boris Alexeev's

@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0572
 title: Problem 572
 desc: |
-  Asks whether, for every k at least three, some graph on n vertices with no
-  cycle of length two k has at least a constant times n to the power one plus
-  one over k edges; known for k equal to 3 and 5, open for every other k.
+  Asks whether $\mathrm{ex}(n;C_{2k})\gg n^{1+1/k}$ for every $k\ge3$, that is,
+  whether some $C_{2k}$-free graph on $n$ vertices has that many edges. It is
+  known for $k=3$ and $k=5$ and open for every other $k$.
 tags:
 - Graph theory
 - Turán numbers
@@ -42,25 +42,25 @@ wording excludes $k=2$, the $C_4$ case of
 [[problems/extremal_graph_theory/E0765/_index|Problem 765]], where the exponent
 $3/2$ is attained.
 
-**Status.** Open. The answer is yes for $k=3$ and $k=5$: Benson's incidence
+**Status.** Open. The answer is yes for $k=3$ and $k=5$. Benson's incidence
 graphs of girth eight and twelve (1966) give $\mathrm{ex}(n;C_6)\gg n^{4/3}$ and
-$\mathrm{ex}(n;C_{10})\gg n^{6/5}$, and Bondy and Simonovits (1974) record the
-matching constructions as known for $k=2,3,5$; Benson's result is the accepted
+$\mathrm{ex}(n;C_{10})\gg n^{6/5}$. Bondy and Simonovits (1974) record the
+matching constructions as known for $k=2,3,5$. Benson's result is the accepted
 partial claim
 [[problems/extremal_graph_theory/E0572/claims/1966_01_01_benson|Benson 1966]],
-refereed in Canad. J. Math., which settles the instances $k=3$ and $k=5$, and
-the instance $k=3$ is also the accepted partial claim
-[[problems/extremal_graph_theory/E0572/claims/1995_01_01_lazebnik_ustimenko_woldar|Lazebnik, Ustimenko and Woldar 1995]];
-neither settles the problem. For $k=4$ and every $k\ge6$ no construction
-reaching the exponent $1+1/k$ is known: the best general lower bound the site
-cites is $\mathrm{ex}(n;C_{2k})\gg n^{1+2/(3k-3+\nu)}$ ($\nu=0$ for odd $k$,
-$\nu=1$ for even $k$), of a smaller order than $n^{1+1/k}$ for every $k\ge4$,
-from Lazebnik, Ustimenko and Woldar's 1995 paper (the site cites their 1999
-paper for history), which at $k=3$ gives the instance itself; the parity term is
-the paper's own (Corollary 3.3), and Chung's 1997 survey quotes the bound
-without it. No proof or disproof for any $k$ outside $\{3,5\}$ was found in the
-search whose scope the Current assessment records. This is
-a bounded negative finding, not a certificate of openness.
+refereed in Canad. J. Math., which settles the instances $k=3$ and $k=5$. The
+instance $k=3$ is also the accepted partial claim
+[[problems/extremal_graph_theory/E0572/claims/1995_01_01_lazebnik_ustimenko_woldar|Lazebnik, Ustimenko and Woldar 1995]].
+Neither settles the problem. For $k=4$ and every $k\ge6$, no construction
+reaching the exponent $1+1/k$ is known. The best general lower bound the site
+cites is $\mathrm{ex}(n;C_{2k})\gg n^{1+2/(3k-3+\nu)}$, with $\nu=0$ for odd $k$
+and $\nu=1$ for even $k$. It comes from Lazebnik, Ustimenko and Woldar's 1995
+paper (the site cites their 1999 paper for history). It is of a smaller order
+than $n^{1+1/k}$ for every $k\ge4$, and at $k=3$ it gives the instance itself.
+The parity term is the paper's own (Corollary 3.3), and Chung's 1997 survey
+quotes the bound without it. The search whose scope the Current assessment
+records found no proof or disproof for any $k$ outside $\{3,5\}$. This is a
+bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/572](https://www.erdosproblems.com/572),
 accessed 2026-09-18: the problem page (labeled OPEN; last edited 18 January 2026), its three-comment discussion thread and

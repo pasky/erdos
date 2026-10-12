@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0783/claims/1980_08_01_erdos_ruzsa
 title: Erdős and Ruzsa's reduction of coprime sifting sets to primes
 desc: |
-  Erdős and Ruzsa (J. Number Theory, 1980) state without proof that sets any m
-  of whose elements are coprime leave at least the prime-set minimum minus
-  o(x) integers unsifted, reducing the asymptotic question to the prime case.
+  Erdős and Ruzsa (J. Number Theory, 1980) state without proof that a set any
+  $m$ of whose elements are coprime leaves unsifted at least the prime-set
+  minimum minus $o(x)$ integers. This reduces the asymptotic question to the
+  prime case.
 authors:
 - P. Erdős
 - I. Z. Ruzsa

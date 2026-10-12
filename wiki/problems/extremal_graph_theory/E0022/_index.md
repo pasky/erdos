@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E0022
 title: Problem 22
 desc: |
-  Asks whether some graph on n vertices has at least n squared over 8 edges,
-  no complete subgraph on 4 vertices, and no large independent set.
+  Asks whether, for each $\epsilon>0$ and large $n$, some $K_4$-free graph on
+  $n$ vertices with at least $n^2/8$ edges has independence number at most
+  $\epsilon n$.
 tags:
 - Graph theory
 status: solved
@@ -43,27 +44,28 @@ $n^2/8$ is exact: Szemerédi's theorem (1972) says that $(1/8+\epsilon)n^2$
 edges force a $K_4$ or an independent set of size $\delta(\epsilon)n$, so the
 question asks what happens at the threshold itself.
 
-**Status.** Proved. The site's label reads "PROVED (LEAN)"; its suffix is
-a catalog label explained under Formalization. The status-defining source is
-Theorem 1.9 of Fox, Loh and Zhao (Combinatorica 35 (2015), no. 4, 435--476,
-refereed): there is an absolute constant $c'>0$ such that for
-each positive integer $n$ there is an $n$-vertex $K_4$-free graph with at
-least $n^2/8$ edges and independence number at most
-$c'n\,(\log\log n)^{3/2}/(\log n)^{1/2}$. Since the factor
-$(\log\log n)^{3/2}/(\log n)^{1/2}$ tends to $0$, the independence number is
-at most $\epsilon n$ once $n$ is large in terms of $\epsilon$, which answers
-the question with yes for every $\epsilon>0$. Bollobás and Erdős's own
-Theorem (1976) gives $f(n,4,l)=(1+o(1))n^2/8$ for $l=o(n)$, that is, graphs
-with $(1/8-o(1))n^2$ edges, which is why they left the threshold case as a
-question. The companion Theorem 1.8 of the same paper shows the independence
-number cannot be pushed below $cn\log\log n/\log n$ at $n^2/8$ edges, so the
-construction is within a factor of order
-$(\log\log n)^{1/2}(\log n)^{1/2}$ of best possible. The claim page is
-[[problems/extremal_graph_theory/E0022/claims/2012_08_16_fox_loh_zhao|Fox, Loh and Zhao]]
-(accepted on the refereed publication and the curator's credit); the 2026
-Lean proof in the lean-proofs repository declares itself a formalization of
-their theorem and is recorded on that page as a formalization link; it
-gives no `formalized` evidence.
+**Status.** Proved. The site's label reads "PROVED (LEAN)". Its suffix is a
+catalog label, explained under Formalization. The claim page is
+[[problems/extremal_graph_theory/E0022/claims/2012_08_16_fox_loh_zhao|Fox, Loh and Zhao]],
+accepted on the refereed publication and the curator's credit. The 2026 Lean
+proof in the lean-proofs repository declares itself a formalization of their
+theorem. It is recorded on that page as a formalization link and gives no
+`formalized` evidence.
+
+The status-defining source is Theorem 1.9 of Fox, Loh and Zhao (Combinatorica 35
+(2015), no. 4, 435--476, refereed). It states that there is an absolute constant
+$c'>0$ such that for each positive integer $n$ there is an $n$-vertex $K_4$-free
+graph with at least $n^2/8$ edges and independence number at most
+$c'n\,(\log\log n)^{3/2}/(\log n)^{1/2}$. The factor
+$(\log\log n)^{3/2}/(\log n)^{1/2}$ tends to $0$. So the independence number is
+at most $\epsilon n$ once $n$ is large in terms of $\epsilon$, and this answers
+the question with yes for every $\epsilon>0$. Bollobás and Erdős's own Theorem
+(1976) gives $f(n,4,l)=(1+o(1))n^2/8$ for $l=o(n)$, that is, graphs with
+$(1/8-o(1))n^2$ edges. This is why they left the threshold case as a question.
+The companion Theorem 1.8 of the same paper shows that the independence number
+cannot be pushed below $cn\log\log n/\log n$ at $n^2/8$ edges. So the
+construction is within a factor of order $(\log\log n)^{1/2}(\log n)^{1/2}$ of
+best possible.
 
 **Source.** [erdosproblems.com/22](https://www.erdosproblems.com/22),
 accessed 2026-09-18: the problem page (label

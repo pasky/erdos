@@ -3,8 +3,9 @@ name: problems/set_theory/E0601/claims/1990_04_01_baumgartner_larson
 title: Baumgartner and Larson's diamond example with no infinite path
 desc: |
   Baumgartner and Larson (Ann. Pure Appl. Logic, 1990) proved that Jensen's
-  diamond gives, on every ordinal below omega_2, a graph with no infinite path
-  and no independent set of type omega_1^(omega+2); every such limit fails.
+  $\diamondsuit$ gives, on every ordinal below $\omega_2$, a graph with no
+  infinite path and no independent set of type $\omega_1^{\omega+2}$. So every
+  limit $\alpha\in[\omega_1^{\omega+2},\omega_2)$ fails the property.
 authors:
 - James E. Baumgartner
 - Jean A. Larson
@@ -60,5 +61,5 @@ taken from the zbMATH review. Nothing on this page is independently
 reviewed by this project.
 
 **Acceptance.** Refereed: a journal paper in the Annals of Pure and Applied
-Logic. The site's commentary does not mention the paper and labels the
+Logic. The site's commentary does not mention the paper, and the site labels the
 problem OPEN, so `reviewed` is not listed.

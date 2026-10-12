@@ -2,8 +2,8 @@
 name: problems/set_theory/E1169
 title: Problem 1169
 desc: |
-  Asks whether the square of the first uncountable ordinal fails a partition
-  relation for pairs into itself and a triangle.
+  Asks whether the negative partition relation
+  $\omega_1^2\not\to(\omega_1^2,3)^2$ holds.
 tags:
 - Set theory
 - Ramsey theory
@@ -28,13 +28,13 @@ $$
 $$
 
 **Status.** Open. The site labels the problem NOT DISPROVABLE and credits
-Hajnal's proof of the negative relation under the continuum hypothesis. That
-consistency result, with the later ones from a Suslin tree, from the stick
-principle, from $\mathfrak d=\aleph_1$ and in a model of a fragment of
-Martin's axiom, shows that ZFC does not refute the relation, one side of an
-independence result. Whether ZFC proves it, that is, whether
-$\omega_1^2\to(\omega_1^2,3)^2$ is consistent, is open. This page departs from
-the site's label because one side alone leaves the question open.
+Hajnal's proof of the negative relation under the continuum hypothesis. There
+are later consistency results from a Suslin tree, from the stick principle, from
+$\mathfrak d=\aleph_1$ and in a model of a fragment of Martin's axiom. Together
+with Hajnal's result, they show that ZFC does not refute the relation. This is
+one side of an independence result. Whether ZFC proves the relation, that is,
+whether $\omega_1^2\to(\omega_1^2,3)^2$ is consistent, is open. This page
+departs from the site's label because one side alone leaves the question open.
 
 **Source.** [erdosproblems.com/1169](https://www.erdosproblems.com/1169),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1169,

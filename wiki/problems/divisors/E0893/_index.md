@@ -2,8 +2,8 @@
 name: problems/divisors/E0893
 title: Problem 893
 desc: |
-  Asks whether the ratio of the summed divisor counts of two to the power k
-  minus one, over k up to twice n and up to n, tends to a limit.
+  Asks whether $f(2n)/f(n)$ tends to a limit, where
+  $f(n)=\sum_{k\le n}\tau(2^k-1)$ sums the divisor counts of $2^k-1$.
 tags:
 - Number theory
 - Divisors
@@ -39,10 +39,10 @@ as last changed on 18 September 2026, likewise asks whether the ratio tends to
 infinity. Read as asking for a finite limit, the question is answered no by
 their Theorem 1.
 
-**Status.** The site labels the problem OPEN. Every finite limit is ruled out
-by
-[[problems/divisors/E0893/claims/2025_06_05_kovac_luca|Kovač and Luca's unboundedness theorem]];
-divergence to infinity is proved only under unproven conjectures, on
+**Status.** The site labels the problem OPEN.
+[[problems/divisors/E0893/claims/2025_06_05_kovac_luca|Kovač and Luca's unboundedness theorem]]
+rules out every finite limit. Divergence to infinity is proved only under
+unproven conjectures. That result is on
 [[problems/divisors/E0893/claims/2025_06_05_kovac_luca_conditional|their conditional page]].
 
 **Source.** [erdosproblems.com/893](https://www.erdosproblems.com/893), accessed

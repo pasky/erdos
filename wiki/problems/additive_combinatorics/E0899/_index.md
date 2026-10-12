@@ -2,8 +2,8 @@
 name: problems/additive_combinatorics/E0899
 title: Problem 899
 desc: |
-  Asks whether every infinite set of density zero has difference set counts
-  that are infinitely often arbitrarily larger than its own counting function.
+  Asks whether every infinite set $A$ of naturals with density zero has
+  $|(A-A)\cap[1,N]|/|A\cap[1,N]|$ unbounded as $N\to\infty$.
 tags:
 - Additive combinatorics
 status: solved
@@ -28,14 +28,14 @@ $$
 $$
 
 **Status.** The site labels the problem PROVED (LEAN): the answer is yes. The
-accepted claim is Ruzsa's 1978 theorem, which the site credits with the proof,
-recorded on
+accepted claim is Ruzsa's 1978 theorem, which the site credits with the proof.
+It is recorded on
 [[problems/additive_combinatorics/E0899/claims/1978_01_01_ruzsa|its claim page]]
-with the curator's acceptance as its evidence; the label's Lean mark refers to a
-Lean development of 2026 in Boris Alexeev's lean-proofs repository that declares
-itself a formalization of Ruzsa's proof, linked on the claim page; that file is
-not among the Lean the corpus has built and audited, so no `formalized` evidence
-is listed. The sumset analogue is
+with the curator's acceptance as its evidence. The label's Lean mark refers to a
+Lean development of 2026 in Boris Alexeev's lean-proofs repository, linked on
+the claim page. That development declares itself a formalization of Ruzsa's
+proof. The file is not among the Lean the corpus has built and audited, so no
+`formalized` evidence is listed. The sumset analogue is
 [[problems/additive_combinatorics/E0245/_index|Problem 245]].
 
 **Source.** [erdosproblems.com/899](https://www.erdosproblems.com/899), accessed

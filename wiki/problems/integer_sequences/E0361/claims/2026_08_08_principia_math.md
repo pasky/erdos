@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0361/claims/2026_08_08_principia_math
 title: Inverse zero-sum theorem for the size along arithmetic subsequences
 desc: |
-  Principia Math's second result: a dense subset of [1, xT] has a subset summing
-  to sT, so for c = x/s the extremal size is (c/snd(s) + o(1)) n along multiples
-  n of s not divisible by snd(s); Lean states the s = 2 bound for 1/3 < c < 1/2.
+  Principia Math's second claim is that a dense subset of $[1,xT]$ has a subset
+  summing to $sT$, so for $c=x/s$ the extremal size is
+  $(c/\operatorname{snd}(s)+o(1))n$ along multiples $n$ of $s$ not divisible by
+  $\operatorname{snd}(s)$. The Lean files state the $s=2$ bound for $1/3<c<1/2$.
 authors:
 - Principia Math
 status: claimed

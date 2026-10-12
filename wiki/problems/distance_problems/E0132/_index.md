@@ -2,8 +2,9 @@
 name: problems/distance_problems/E0132
 title: Problem 132
 desc: |
-  Asks whether any n points in the plane give two distances each occurring
-  between at most n pairs, and whether the number of such distances grows.
+  Asks whether any $n\ge5$ points in the plane determine two distances that each
+  occur between at most $n$ pairs, and whether the number of such distances
+  tends to infinity with $n$.
 tags:
 - Distances
 status: open
@@ -70,8 +71,8 @@ counterexample at $n=4$ is recorded by the curator, by [CDL25] and in [ErFi95]
 itself; it settles no instance of the corrected Statement and counts for
 nothing. The problem's standing judges the corrected Statement.
 
-**Status.** Open. The site labels the problem OPEN, and its commentary
-states the first question for $n\geq5$, as the corrected Statement does.
+**Status.** Open. The site labels the problem OPEN. Its commentary states the
+first question for $n\geq5$, as the corrected Statement does.
 
 **Source.** [erdosproblems.com/132](https://www.erdosproblems.com/132), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #132,

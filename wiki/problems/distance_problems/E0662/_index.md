@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0662
 title: Problem 662
 desc: |
-  Asks whether n points at mutual distance at least one have at most f(t)
-  distances at most t, f(t) the triangular lattice's count; garbled as worded,
-  it fails under every counting reading, and a disproof is claimed.
+  Asks whether $n$ points at mutual distance at least $1$ have at most $f(t)$
+  distances at most $t$, where $f(t)$ is the triangular lattice's count. As
+  worded the question is garbled and fails under every counting reading, and a
+  disproof is claimed.
 tags:
 - Geometry
 - Distances
@@ -95,20 +96,19 @@ than $12$ neighbors below $\sqrt3-\epsilon$, which the write-up proves. If the
 curator adopts a form, or [Er97e] is read and prints one that differs from the
 site's wording, the page takes the steps again on that form.
 
-**Status.** The site labels the problem OPEN and credits no result; its
-commentary says the wording does not make sense as written and fixes no
-intended form, so the label describes a question the site does not state. The
-wording fails under each counting reading (Formulation). Its proof-claims tab
-carries one claim, submitted 2026-07-15, which the
+**Status.** The site labels the problem OPEN and credits no result. This page
+departs from that label. Its frontmatter standing derives from two pending full
+claims that refute the wording. The Formulation explains the departure:
+following the label would state as open a wording refuted under every counting
+reading. The site's commentary says the wording does not make sense as written
+and fixes no intended form. So the label describes a question the site does not
+state. The site's proof-claims tab carries one claim, submitted 2026-07-15,
+which the
 [[problems/distance_problems/E0662/claims/2026_07_15_snyder|Snyder claim page]]
-records, and its discussion thread carries Przemek Chojecki's note of
+records. The site's discussion thread carries Przemek Chojecki's note of
 2026-04-23, which the
 [[problems/distance_problems/E0662/claims/2026_04_23_chojecki|Chojecki claim page]]
-records; each refutes the wording, the site adopts neither, and the
-frontmatter standing derives from those pending full claims. The page
-therefore departs from the site's OPEN label, a departure the Formulation
-explains: following the label would state as open a wording refuted under
-every counting reading.
+records. Each refutes the wording, and the site adopts neither.
 
 **Source.** [erdosproblems.com/662](https://www.erdosproblems.com/662), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #662,

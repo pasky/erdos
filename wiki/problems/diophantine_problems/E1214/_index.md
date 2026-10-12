@@ -2,9 +2,8 @@
 name: problems/diophantine_problems/E1214
 title: Problem 1214
 desc: |
-  Asks whether two positive integers x and y must be equal when the primes
-  dividing x to the n minus one match those dividing y to the n minus one for
-  every n.
+  Asks whether integers $x,y\geq 1$ must be equal when, for every $n\geq 1$, the
+  primes dividing $x^n-1$ are the same as those dividing $y^n-1$.
 tags:
 - Number theory
 status: solved
@@ -25,8 +24,8 @@ updated: 2026-10-08T01:29:58Z
 of primes dividing $x^{n}-1$ is equal to set of primes dividing $y^n-1$. Must
 $x=y$?
 
-**Status.** Proved: the site credits Corrales-Rodrigáñez and Schoof [CoSc97]
-with the positive answer; the accepted claim page is
+**Status.** Proved. The site credits Corrales-Rodrigáñez and Schoof [CoSc97]
+with the positive answer. The accepted claim page is
 [[problems/diophantine_problems/E1214/claims/1997_06_01_corralesrodriganez_schoof|Corrales-Rodrigáñez and Schoof 1997]].
 
 **Source.** [erdosproblems.com/1214](https://www.erdosproblems.com/1214),

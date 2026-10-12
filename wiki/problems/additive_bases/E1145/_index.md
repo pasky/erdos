@@ -2,8 +2,9 @@
 name: problems/additive_bases/E1145
 title: Problem 1145
 desc: |
-  Asks a question about two increasing sets of positive integers whose nth
-  elements have ratio tending to one.
+  Asks whether $\limsup 1_A\ast 1_B(n)=\infty$ whenever $A=\{a_1<a_2<\cdots\}$
+  and $B=\{b_1<b_2<\cdots\}$ are sets of positive integers with $a_n/b_n\to1$
+  and $A+B$ contains all large integers.
 tags:
 - Additive combinatorics
 - Additive bases

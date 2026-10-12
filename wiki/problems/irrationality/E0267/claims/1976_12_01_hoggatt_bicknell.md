@@ -2,9 +2,9 @@
 name: problems/irrationality/E0267/claims/1976_12_01_hoggatt_bicknell
 title: Hoggatt and Bicknell's evaluation over the indices 2^n k
 desc: |
-  Hoggatt and Bicknell evaluate the reciprocal Fibonacci sum over the indices
-  2^n k for every fixed k in closed form with the coefficient -1/2 on sqrt 5,
-  so every instance n_j = 2^j k of the question has answer yes.
+  Hoggatt and Bicknell evaluate $\sum_{n\ge0}1/F_{2^nk}$ in closed form for
+  every fixed $k$, with coefficient $-1/2$ on $\sqrt5$. So every instance
+  $n_j=2^jk$ of the question has answer yes.
 authors:
 - V. E. Hoggatt, Jr.
 - Marjorie Bicknell
@@ -60,9 +60,9 @@ answer is yes. Not covered: every other index sequence. All these instances lie
 inside Badea's 1993 condition
 ([[problems/irrationality/E0267/claims/1993_01_01_badea|the Badea page]]).
 
-**Acceptance.** Refereed: The Fibonacci Quarterly, volume 14, number 5
-(December 1976). The site's commentary credits Bicknell and Hoggatt, with Good,
-with the irrationality of the sum over the indices $2^n$ but labels the problem
+**Acceptance.** Refereed: The Fibonacci Quarterly, volume 14, number 5 (December
+1976). The site's commentary credits Bicknell and Hoggatt, with Good, with the
+irrationality of the sum over the indices $2^n$. The site labels the problem
 OPEN, so that commentary is not listed as `reviewed` evidence. The corpus has
 not reproved the closed form and awards no tier of its own.
 

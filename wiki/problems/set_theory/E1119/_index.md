@@ -2,9 +2,9 @@
 name: problems/set_theory/E1119
 title: Problem 1119
 desc: |
-  Asks whether a family of entire functions taking at most m distinct values
-  at each point has cardinality at most m, for m between countable and
-  continuum.
+  Asks whether a family of entire functions taking at most $\mathfrak m$
+  distinct values at each point has cardinality at most $\mathfrak m$, for
+  $\aleph_0<\mathfrak m<2^{\aleph_0}$.
 tags:
 - Analysis
 - Set theory
@@ -37,16 +37,16 @@ to fail. The standing answers the site's wording; it and the case
 $\mathfrak m^+=\mathfrak c$ are both independent of ZFC.
 
 **Status.** Independent. The site's commentary records that the question is
-undecidable when $\mathfrak m^+=\mathfrak c$, crediting Kumar and Shelah with a
-model where the answer is yes and Schilhan and Weinert with a model where it is
-no, and that the answer is yes whenever $\mathfrak m^+<\mathfrak c$. The
-frontmatter standing is derived from the accepted claim page
-[[problems/set_theory/E1119/claims/2023_10_30_schilhan_weinert|Schilhan and Weinert's result]],
-which, together with any model of CH, where the statement holds vacuously, gives
-the independence of the statement in the site's wording, and, together with
+undecidable when $\mathfrak m^+=\mathfrak c$. It credits Kumar and Shelah with a
+model where the answer is yes, and Schilhan and Weinert with a model where it is
+no. It also records that the answer is yes whenever $\mathfrak m^+<\mathfrak c$.
+The frontmatter standing is derived from the accepted claim page
+[[problems/set_theory/E1119/claims/2023_10_30_schilhan_weinert|Schilhan and Weinert's result]].
+Together with any model of CH, where the statement holds vacuously, this result
+gives the independence of the statement in the site's wording. Together with
 [[problems/set_theory/E1119/claims/2017_01_05_kumar_shelah|Kumar and Shelah's result]],
-the independence of the case $\mathfrak m^+=\mathfrak c$; both are accepted on
-their refereed publication and the site's credit. The case
+it gives the independence of the case $\mathfrak m^+=\mathfrak c$. Both results
+are accepted on their refereed publication and the site's credit. The case
 $\mathfrak m^+<\mathfrak c$ is
 [[problems/set_theory/E1119/claims/1964_03_01_erdos|Erdős's 1964 result]], an
 accepted partial claim.

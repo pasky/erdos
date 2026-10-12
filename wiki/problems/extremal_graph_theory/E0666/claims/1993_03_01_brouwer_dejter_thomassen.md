@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0666/claims/1993_03_01_brouwer_dejter_thomassen
 title: Brouwer, Dejter and Thomassen's four-coloring of the hypercube without monochromatic quadrangles or hexagons
 desc: |
-  An explicit four-coloring of the n-cube's edges with no monochromatic four-
-  or six-cycle, so a color class with a quarter of the edges avoids C_6 and
-  the statement fails for every epsilon at most 1/4; refereed and credited.
+  Brouwer, Dejter and Thomassen give an explicit four-coloring of the $n$-cube's
+  edges with no monochromatic four- or six-cycle, so a color class with at least
+  a quarter of the edges avoids $C_6$ and the statement fails for every
+  $\epsilon\le1/4$. The paper is refereed and credited by the site.
 authors:
 - A.E. Brouwer
 - I.J. Dejter
@@ -65,13 +66,13 @@ its
 the paper gives the coloring without a written proof of the hexagon
 property.
 
-**Acceptance.** Refereed: the Journal of Algebraic Combinatorics is a
-refereed journal, and the paper is its version of record. Reviewed:
-T. F. Bloom, the site's curator, who took no part in the paper, labels the
-problem DISPROVED (LEAN), answers the question with no, and credits this
-paper, with Chung's paper recorded on
-[[problems/extremal_graph_theory/E0666/claims/1992_07_01_chung|its own claim page]],
-with the four-part partition (snapshot of 2026-09-05).
+**Acceptance.** Refereed: the Journal of Algebraic Combinatorics is a refereed
+journal, and the paper is its version of record. Reviewed: T. F. Bloom, the
+site's curator, labels the problem DISPROVED (LEAN) and answers the question
+with no (snapshot of 2026-09-05). Bloom credits this paper with the four-part
+partition, together with Chung's paper, which is recorded on
+[[problems/extremal_graph_theory/E0666/claims/1992_07_01_chung|its own claim page]].
+Bloom took no part in the paper.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos666.lean` of
 Boris Alexeev's `lean-proofs` repository, linked above at a pinned commit,

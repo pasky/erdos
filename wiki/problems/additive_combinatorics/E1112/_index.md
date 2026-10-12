@@ -2,8 +2,9 @@
 name: problems/additive_combinatorics/E1112
 title: Problem 1112
 desc: |
-  Asks whether, for given gap bounds and k at least 3, every sufficiently
-  lacunary sequence misses the k-fold sumset of some sequence with those gaps.
+  Asks whether, for gap bounds $d_1<d_2$ and $k\ge3$, every sufficiently
+  lacunary sequence misses the $k$-fold sumset of some sequence with gaps
+  between $d_1$ and $d_2$.
 tags:
 - Additive combinatorics
 status: solved
@@ -62,29 +63,32 @@ a correct formalization and compiles without `sorry`, and wrote of not yet
 having tried to understand the proof; the acceptance here rests instead on the
 port of Land's development that this corpus built and audited.
 
-**Status.** OPEN (LEAN), the site's label (page last edited 28 December 2025).
-The site's proof-claims tab carries a full proof claim by Johan Land (announced
-on the discussion thread on 2026-07-06, submitted as a proof claim on
-2026-07-17, with the AI systems used named on the claim page) that a ratio
-exists exactly when $d_2\ge k+1$, with a write-up and a Lean 4 development, the
-development the Formalization field links as the solution; the site's curator
-confirmed on the thread on 2026-07-13 that the main Lean theorem of the original
-development formalizes the question and compiles without `sorry`, a development
-replaced on 2026-09-13 by the shortened argument described on the claim page.
-The claim is accepted on
+**Status.** OPEN (LEAN). This is the site's label (page last edited 28 December
+2025). The site's curator has verified only the formalization, not the proof, so
+this page's solved standing departs from the site's label.
+
+The site's proof-claims tab carries a full proof claim by Johan Land that a
+ratio exists exactly when $d_2\ge k+1$. It was announced on the discussion
+thread on 2026-07-06 and submitted as a proof claim on 2026-07-17, and the claim
+page names the AI systems used. The claim comes with a write-up and a Lean 4
+development. The Formalization field links that development as the solution. On
+2026-07-13 the curator confirmed on the thread that the main Lean theorem of the
+original development formalizes the question and compiles without `sorry`. That
+development was replaced on 2026-09-13 by the shortened argument described on
+the claim page. The claim is accepted on
 [[problems/additive_combinatorics/E1112/claims/2026_07_06_land|its claim page]]
 on a port of the original development that this corpus built and audited (see
-Formalization). The curator has verified only the formalization, not the proof,
-so this page's solved standing departs from the site's label. Bollobás, Hegyvári
-and Jin [BHJ97] settled one instance, proving that for $k=3$ and gaps in $[2,3]$
-no ratio exists, in the stronger varying-ratio form, an accepted partial claim
-on
+Formalization).
+
+Bollobás, Hegyvári and Jin [BHJ97] settled one instance. They proved that for
+$k=3$ and gaps in $[2,3]$ no ratio exists, in the stronger varying-ratio form.
+This is an accepted partial claim on
 [[problems/additive_combinatorics/E1112/claims/1997_10_01_bollobas_hegyvari_jin|its claim page]].
-Tang and Yang [TaYa21], credited by the commentary with further technical
-nonexistence results, have no claim page: the paper is not held and its journal
-copy is behind a subscription, and its zbMATH review (Zbl 1499.11038) says only
-that the authors give growth conditions on $B$ under which $B$ has a subsequence
-inside $kA$, without naming the instances they settle, so the paper may settle
+Tang and Yang [TaYa21], whom the commentary credits with further technical
+nonexistence results, have no claim page. The paper is not held, and its journal
+copy is behind a subscription. Its zbMATH review (Zbl 1499.11038) says only that
+the authors give growth conditions on $B$ under which $B$ has a subsequence
+inside $kA$, without naming the instances they settle. So the paper may settle
 further instances.
 
 **Source.** [erdosproblems.com/1112](https://www.erdosproblems.com/1112),

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0902
 title: Problem 902
 desc: |
-  Estimates the least order of a tournament in which every n vertices have a
-  common dominator; open, with Erdős's 1963 upper bound and the Szekeres and
-  Szekeres lower bound of 1965 a factor of order n apart, exact only to n = 3.
+  Estimates the least order of a tournament in which every $n$ vertices have a
+  common dominator. Open: Erdős's 1963 upper bound and the 1965 lower bound of
+  Szekeres and Szekeres differ by a factor of order $n$, and exact values are
+  known only up to $n=3$.
 tags:
 - Graph theory
 status: open
@@ -39,32 +40,31 @@ apart. The OEIS entry the site links, A362137, lists the smallest Paley
 tournaments with the property, which are known to equal $f(n)$ only for
 $n\le3$ (the entry's own comment).
 
-**Status.** Open. No source determining $f(n)$, its order of magnitude, or
-any value beyond $n=3$ was found in the search whose
-scope the Current assessment records. The best known bounds are
+**Status.** Open. The search whose scope the Current assessment records found no
+source determining $f(n)$, its order of magnitude, or any value beyond $n=3$.
+This is a bounded negative finding, not a certificate of openness. The claim
+pages are
+[[problems/extremal_graph_theory/E0902/claims/1963_10_01_erdos|Erdős 1963]],
+[[problems/extremal_graph_theory/E0902/claims/1965_10_01_szekeres_szekeres|Szekeres and Szekeres 1965]]
+and
+[[problems/extremal_graph_theory/E0902/claims/2004_03_01_reid_mcrae_hedetniemi_hedetniemi|Reid, McRae, Hedetniemi and Hedetniemi 2004]],
+each an accepted partial claim on refereed evidence. None settles the order of
+magnitude, so the standing stays open. The best known bounds are
 
 $$
 (n+2)2^{n-1}-1\le f(n)\le2^nn^2\log(2+\varepsilon)\quad(n>K_\varepsilon),
 $$
 
-the upper bound from Erdős's 1963 paper [Er63c], the lower bound from
-Szekeres and Szekeres [SzSz65] (not held; stated in J. W. Moon's zbMATH review,
-Zbl 0134.43502, and attested in the refereed paper of Graham and Spencer
-[GrSp71], in Erdős's 1982 collection [Er82e] and in the 2026 preprint of
-Jeffries [Je26]), and the 2026 preprint says the two
-"remain the best known bounds for $f(k)$" (a preprint's attestation, not a
-refereed one). The exact values are $f(1)=3$, $f(2)=7$ ([Er63c]) and
-$f(3)=19$ ([SzSz65], second-hand), and $48\le f(4)\le67$ (the lower bound is
-Corollary 7 of [RMHH04], the upper bound [GrSp71]'s $T_{67}$); Theorem 5 of
-[RMHH04] with $QRT_{19}$ also proves $f(3)=19$ in a refereed paper. This is
-a bounded negative finding, not a certificate of openness. The claim pages
-are
-[[problems/extremal_graph_theory/E0902/claims/1963_10_01_erdos|Erdős 1963]],
-[[problems/extremal_graph_theory/E0902/claims/1965_10_01_szekeres_szekeres|Szekeres and Szekeres 1965]]
-and
-[[problems/extremal_graph_theory/E0902/claims/2004_03_01_reid_mcrae_hedetniemi_hedetniemi|Reid, McRae, Hedetniemi and Hedetniemi 2004]],
-each an accepted partial claim on refereed evidence; none settles the order
-of magnitude, so the standing stays open.
+with the upper bound from Erdős's 1963 paper [Er63c] and the lower bound from
+Szekeres and Szekeres [SzSz65]. That paper is not held. Its bound is stated in
+J. W. Moon's zbMATH review, Zbl 0134.43502, and attested in the refereed paper
+of Graham and Spencer [GrSp71], in Erdős's 1982 collection [Er82e] and in the
+2026 preprint of Jeffries [Je26]. The 2026 preprint says the two "remain the
+best known bounds for $f(k)$", which is a preprint's attestation, not a refereed
+one. The exact values are $f(1)=3$, $f(2)=7$ ([Er63c]) and $f(3)=19$ ([SzSz65],
+second-hand). Theorem 5 of [RMHH04] with $QRT_{19}$ also proves $f(3)=19$ in a
+refereed paper. Also $48\le f(4)\le67$. The lower bound is Corollary 7 of
+[RMHH04], and the upper bound is [GrSp71]'s $T_{67}$.
 
 **Source.** [erdosproblems.com/902](https://www.erdosproblems.com/902),
 accessed 2026-09-19: the problem page (labeled OPEN, with the site's note

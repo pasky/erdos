@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0631/claims/1996_01_01_mirzakhani
 title: Mirzakhani constructs a 63-vertex planar graph that is not 4-choosable
 desc: |
-  Mirzakhani (Bull. Inst. Combin. Appl. 1996) gives a 3-colorable planar
-  graph on 63 vertices that is not 4-choosable, a smaller witness than
-  Voigt's and Gutner's that 5 is best possible; accepted on the refereed
+  Mirzakhani (Bull. Inst. Combin. Appl. 1996) gives a $3$-colorable planar graph
+  on $63$ vertices that is not $4$-choosable, a smaller witness than Voigt's and
+  Gutner's that $5$ is best possible. The claim is accepted on the refereed
   publication.
 authors:
 - Maryam Mirzakhani
@@ -54,8 +54,8 @@ Bull. Inst. Combin. Appl. 17 (1996), 15--18, gives no month or day, and the
 day in the page name is a placeholder.
 
 **Acceptance.** Refereed publication: Bull. Inst. Combin. Appl. 17 (1996),
-15--18, a journal article without a DOI; the paper link is a copy hosted on a
-university page. The site's curator does not credit the result: the problem's
-commentary names Voigt's and Gutner's constructions only, so the page lists no
-`reviewed` evidence. A forum member linked the paper in the problem's
-discussion thread on 4 December 2025 as the smallest known example.
+15--18. This is a journal article without a DOI, and the paper link is a copy
+hosted on a university page. The site's curator does not credit the result. The
+problem's commentary names only Voigt's and Gutner's constructions, so the page
+lists no `reviewed` evidence. On 4 December 2025 a forum member linked the paper
+in the problem's discussion thread as the smallest known example.

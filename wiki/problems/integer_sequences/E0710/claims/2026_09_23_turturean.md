@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0710/claims/2026_09_23_turturean
 title: Turturean's asymptotic formula root 2 over e times n root log n
 desc: |
-  A full proof claim of 23 September 2026 on the site's proof-claim tab that
-  f(n) is asymptotic to (root 2 / e) n root log n, by weighted Hall-type
-  matchings, elicited from GPT-6-Astra Pro; the manuscript was not read.
+  David Turturean's full proof claim of 23 September 2026 on the site's
+  proof-claim tab, elicited from GPT-6-Astra Pro, is that
+  $f(n)\sim(\sqrt2/e)\,n\sqrt{\log n}$, argued through weighted Hall-type
+  matchings. The manuscript was not read.
 authors:
 - David Turturean
 status: claimed

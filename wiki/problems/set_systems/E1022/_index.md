@@ -2,9 +2,9 @@
 name: problems/set_systems/E1022
 title: Problem 1022
 desc: |
-  Asks whether sets of size at least t, few of which lie inside any given set
-  relative to its size, can always be two-colored with no monochromatic
-  member.
+  Asks whether a family of sets of size at least $t$, with few members inside
+  any given set relative to its size, can always be two-colored with no
+  monochromatic member.
 tags:
 - Combinatorics
 - Hypergraphs
@@ -59,13 +59,13 @@ label PROVED (LEAN) has the polarity of a positive answer; it contradicts the
 site's own commentary and the Lean proof of the negation, and the page follows
 the commentary (Status).
 
-**Status.** PROVED (LEAN) on erdosproblems.com (page last edited 25
-January 2026); the site's own commentary says the statement is false, names
-Wood's construction [Wo13b] as the counterexample with $c_t<2$ for every $t$,
-and credits KoishiChan with an independent counterexample in the comments; the
+**Status.** PROVED (LEAN) on erdosproblems.com (page last edited 25 January
+2026). This record departs from the site's label: the corrected Statement is
+disproved. The site's own commentary says the statement is false. It names
+Wood's construction [Wo13b] as the counterexample, with $c_t<2$ for every $t$,
+and credits KoishiChan with an independent counterexample in the comments. The
 label's Lean mark refers to the Lean proof listed under Formalization, which
-proves the negation of the corrected Statement. The page therefore departs from
-the site's label: the corrected Statement is disproved.
+proves the negation of the corrected Statement.
 
 **Source.** [erdosproblems.com/1022](https://www.erdosproblems.com/1022),
 accessed 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #1022,

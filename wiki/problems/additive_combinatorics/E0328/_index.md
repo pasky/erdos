@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0328
 title: Problem 328
 desc: |
-  Asks whether a set in which each n is a sum of two distinct elements at most
-  C times splits into boundedly many parts with fewer than C each; the site's
-  count of ordered pairs makes C = 2 trivial. Nešetřil and Rödl answer no.
+  Asks whether a set in which each $n$ is a sum of two distinct elements at most
+  $C$ times splits into boundedly many parts in which each $n$ is such a sum
+  fewer than $C$ times. Nešetřil and Rödl answer no, and the site's count of
+  ordered pairs makes $C=2$ trivial.
 tags:
 - Number theory
 - Additive combinatorics
@@ -91,18 +92,19 @@ answer is trivially no for $C=1$, since every part with two elements has a
 representation; for non-integer $C$ the hypothesis already gives fewer than
 $C$ representations of every $n$, and one part suffices.
 
-**Status.** The site shows DISPROVED (LEAN), a label that describes the
-corrected Statement, and credits Nešetřil and Rödl with the negative answer for
-all $C$. The corrected Statement is **disproved**: the answer is no for every
-integer $C \geq 2$, even when $t$ may depend on $A$, by Nešetřil and Rödl
+**Status.** The site shows DISPROVED (LEAN) and credits Nešetřil and Rödl with
+the negative answer for all $C$. The label describes the corrected Statement.
+The corrected Statement is **disproved**: the answer is no for every integer
+$C \geq 2$, even when $t$ may depend on $A$. This is due to Nešetřil and Rödl
 [NeRo85], recorded on
 [[problems/additive_combinatorics/E0328/claims/1985_01_01_nesetril_rodl|its claim page]]
 with its refereed and site evidence. Erdős [Er80e] had earlier answered no for
-$C = 2$, $3$, every $2^s$ and every $\tfrac12\binom{2s}{s}$, recorded on
+$C = 2$, $3$, every $2^s$ and every $\tfrac12\binom{2s}{s}$. That result is
+recorded on
 [[problems/additive_combinatorics/E0328/claims/1980_03_01_erdos|its own claim page]].
 The label's Lean mark rests on AxiomMath's Lean refutation of the site's
-ordered-count wording, which the formal-conjectures statement shares; it gives
-no evidence for the corrected Statement, and its
+ordered-count wording, which the formal-conjectures statement shares. That
+refutation gives no evidence for the corrected Statement, and its
 [[problems/additive_combinatorics/E0328/claims/2026_06_18_axiommath|claim page]]
 is rejected.
 

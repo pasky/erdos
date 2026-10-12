@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0309
 title: Problem 309
 desc: |
-  Counts how many integers are sums of distinct unit fractions with
-  denominators up to N, and asks whether there are only o(log N) of them.
+  Asks how many integers are sums of distinct unit fractions with denominators
+  at most $N$, and whether there are only $o(\log N)$ of them.
 tags:
 - Number theory
 - Unit fractions
@@ -41,39 +41,9 @@ the correct asymptotic to the question of how many integers are
 representable. The question asks for the asymptotic size of $F(N)$, which
 Yokota's 1997 theorem gives and the later results sharpen.
 
-**Status.** Disproved, in the site's label, DISPROVED (LEAN) (page last
-edited 20 December 2025). The first disproof is the count bound of
-Yokota's 1990 paper (Canad. Math. Bull. 33 (1990), 235--241; refereed; not
-held), $F(N)\ge(\tfrac12-\varepsilon(N))\log N$ with $\varepsilon(N)\to0$,
-as his 1997 paper reports on printed p. 162 and as the publisher's abstract
-says; it fixes $F(N)$ only up to a factor between $\tfrac12$ and $1$, and
-the site does not cite it. The site credits Theorem 1 of Yokota's 1997
-paper (J. Number Theory 67 (1997), 162--169; refereed; printed p. 162),
-$(1-5\log\log N/\log N)\le F(N)/\log N<(1+1/\log N)$ for large $N$, that is
-$F(N)\ge\log N-5\log\log N$, the site's $\log N-O(\log\log N)$; its 1998
-Corrigendum is not held. Separately, the Main Theorem of Croot (Mathematika
-46 (1999); refereed), whose proof takes the integers below a fixed bound
-from "the main result in [5] (and [6])", Yokota's 1997 paper with its 1998
-Corrigendum (typescript p. 12), gives $F(N)\ge\log N+\gamma-1-o(1)$ by the
-one-line deduction below, so that $F(N)=\log N+O(1)$ and the answer to the
-second question is no. The best lower bound the site records is Corollary 1
-of Yokota's 2002 paper (J. Number Theory 96; refereed; printed p. 353),
-
-$$
-F(N)\ge\Bigl\lfloor H_N-\Bigl(\frac{\pi^2}{3}+o(1)\Bigr)\frac{(\log\log N)^2}{\log N}\Bigr\rfloor
-$$
-
-(the paper prints it without the integer part, which holds only when the
-empty sum's $0$ is counted), proved in its Theorem 1 for the
-representations whose denominators lie in a prescribed divisor set; for
-the integer $F(N)\le\lfloor H_N\rfloor$ the integer-part form is the
-deduction on the library's corollary page, and read literally the printed
-form fails whenever the fractional part of $H_N$ exceeds
-$(\frac{\pi^2}3+o(1))(\log\log N)^2/\log N$. The site's commentary credits
-[Yo97] with $\log n-O(\log\log n)$ and records Croot's representability
-bound and Yokota's 2002 bound after it, naming none of the three as the
-disproof. Three accepted full claims carry the standing, each on its own
-page:
+**Status.** Disproved, in the site's label, DISPROVED (LEAN) (page last edited
+20 December 2025). Three accepted full claims carry the standing, each on its
+own page:
 [[problems/unit_fractions/E0309/claims/1997_12_01_yokota|Yokota's 1997 theorem]]
 (the bound the site credits),
 [[problems/unit_fractions/E0309/claims/1999_12_01_croot|Croot's Main Theorem]]
@@ -81,17 +51,51 @@ and
 [[problems/unit_fractions/E0309/claims/2002_10_01_yokota|Yokota's 2002 Corollary 1]].
 [[problems/unit_fractions/E0309/claims/1990_06_01_yokota|Yokota's 1990 theorem]],
 the first disproof, is an accepted partial claim that settles the second
-question. The first question, read as the Formulation records, is answered
-by $F(N)\sim\log N$, which the later results sharpen to
-$F(N)=\log N+O(1)$. Yokota's 1999 paper on the largest representable
-integer [Yo99] has no claim page, for the reason given under Status
-support. The site's discussion carries no further proof claim. The label's
-Lean suffix refers to a Lean development in Boris Alexeev's collection,
-authored by OpenAI Codex and naming Yokota and Croot among its informal
-authors, at which the formal-conjectures statement file added on 19
-September 2026 points; it is linked as a formalization from Yokota's 1997
-and Croot's claim pages, as recorded under Formalization and the Lean label
-below, and no local kernel credit is claimed.
+question. The first question, read as the Formulation records, is answered by
+$F(N)\sim\log N$. The later results sharpen this to $F(N)=\log N+O(1)$.
+
+The first disproof is the count bound of Yokota's 1990 paper (Canad. Math. Bull.
+33 (1990), 235--241; refereed; not held):
+$F(N)\ge(\tfrac12-\varepsilon(N))\log N$ with $\varepsilon(N)\to0$. His 1997
+paper reports this bound on printed p. 162, and the publisher's abstract states
+it too. It fixes $F(N)$ only up to a factor between $\tfrac12$ and $1$, and the
+site does not cite it. The site credits Theorem 1 of Yokota's 1997 paper (J.
+Number Theory 67 (1997), 162--169; refereed; printed p. 162). It gives
+$(1-5\log\log N/\log N)\le F(N)/\log N<(1+1/\log N)$ for large $N$, that is,
+$F(N)\ge\log N-5\log\log N$, the site's $\log N-O(\log\log N)$. Its 1998
+Corrigendum is not held.
+
+Separately, the Main Theorem of Croot (Mathematika 46 (1999); refereed) gives
+$F(N)\ge\log N+\gamma-1-o(1)$ by the one-line deduction below. So
+$F(N)=\log N+O(1)$, and the answer to the second question is no. Croot's proof
+takes the integers below a fixed bound from "the main result in [5] (and [6])",
+which is Yokota's 1997 paper with its 1998 Corrigendum (typescript p. 12). The
+best lower bound the site records is Corollary 1 of Yokota's 2002 paper (J.
+Number Theory 96; refereed; printed p. 353),
+
+$$
+F(N)\ge\Bigl\lfloor H_N-\Bigl(\frac{\pi^2}{3}+o(1)\Bigr)\frac{(\log\log N)^2}{\log N}\Bigr\rfloor
+$$
+
+The paper prints this bound without the integer part, which holds only when the
+empty sum's $0$ is counted. The paper proves it in its Theorem 1 for the
+representations whose denominators lie in a prescribed divisor set. For the
+integer $F(N)\le\lfloor H_N\rfloor$, the integer-part form is the deduction on
+the library's corollary page. Read literally, the printed form fails whenever
+the fractional part of $H_N$ exceeds
+$(\frac{\pi^2}3+o(1))(\log\log N)^2/\log N$.
+
+The site's commentary credits [Yo97] with $\log n-O(\log\log n)$. It records
+Croot's representability bound and Yokota's 2002 bound after it, and it names
+none of the three as the disproof. Yokota's 1999 paper on the largest
+representable integer [Yo99] has no claim page, for the reason given under
+Status support. The site's discussion carries no further proof claim. The
+label's Lean suffix refers to a Lean development in Boris Alexeev's collection.
+That development was authored by OpenAI Codex and names Yokota and Croot among
+its informal authors. The formal-conjectures statement file added on 19
+September 2026 points at it. The development is linked as a formalization from
+Yokota's 1997 and Croot's claim pages, as recorded under Formalization and the
+Lean label below. No local kernel credit is claimed.
 
 **Source.** [erdosproblems.com/309](https://www.erdosproblems.com/309),
 accessed 2026-09-18: the problem page (DISPROVED (LEAN), with the site's

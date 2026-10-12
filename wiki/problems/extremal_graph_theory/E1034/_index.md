@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1034
 title: Problem 1034
 desc: |
-  Asks whether a graph on n vertices with more than n²/4 edges has a triangle
-  to which nearly half of all vertices are joined twice; the Erdős–Faudree
-  conjecture, disproved by Ma and Tang's construction with constant 2 − √(5/2).
+  Asks whether every graph on $n$ vertices with more than $n^2/4$ edges has a
+  triangle with more than $(\frac12-o(1))n$ vertices each joined to at least two
+  of its vertices. This is the Erdős–Faudree conjecture, disproved by Ma and
+  Tang's construction with constant $2-\sqrt{5/2}$.
 tags:
 - Graph theory
 status: solved
@@ -47,31 +48,34 @@ not) changes the count by at most three and is absorbed by the $o(1)$. The
 site's label DISPROVED (LEAN) carries a catalog suffix explained under
 Formalization.
 
-**Status.** Disproved. The status-defining source is Theorem 2.1 of a
-three-page note by Jie Ma and Quanyu Tang, *On Erdős problem #1034* (the file
-the site links on the first author's page; no arXiv identifier or journal; PDF
-metadata 21 October 2025): for every $\varepsilon>0$ and all sufficiently large
-$n$ there is a graph on $n$ vertices with more than $n^2/4$ edges in which no
-triangle has more than $(2-\sqrt{5/2}+\varepsilon)n$ vertices with two or more
-neighbors on it, where $2-\sqrt{5/2}=0.418861\ldots<\frac12$. The construction
-is explicit (a complete bipartite graph between a side $B$ of
+**Status.** Disproved. The status-defining source is Theorem 2.1 of a three-page
+note by Jie Ma and Quanyu Tang, *On Erdős problem #1034*. This is the file the
+site links on the first author's page. It has no arXiv identifier or journal,
+and its PDF metadata gives 21 October 2025. The theorem states that for every
+$\varepsilon>0$ and all sufficiently large $n$ there is a graph on $n$ vertices
+with more than $n^2/4$ edges in which no triangle has more than
+$(2-\sqrt{5/2}+\varepsilon)n$ vertices with two or more neighbors on it. Here
+$2-\sqrt{5/2}=0.418861\ldots<\frac12$. The construction is explicit: a complete
+bipartite graph between an independent side and a side $B$ of
 $\lfloor\alpha n\rfloor$ vertices partitioned into cliques of about
-$c_1(\alpha)n$ vertices and an independent side, optimized at
-$\alpha^*=1-1/\sqrt{10}$) and the proof is a two-page computation, followed
-here. The claim page
+$c_1(\alpha)n$ vertices, optimized at $\alpha^*=1-1/\sqrt{10}$. The proof is a
+two-page computation, followed here.
+
+The claim page
 [[problems/extremal_graph_theory/E1034/claims/2025_10_20_ma_tang|Ma and Tang]]
-records the disproof as accepted on the site's documented acceptance (its label
-DISPROVED (LEAN), the page last edited 28 October 2025; the community database
-lists "disproved (Lean)" as of its last update of 4 December 2025) and carries,
-as a `formalization` link, the external Lean file that declares itself a
-formalization of the note's solution and proves the negation of the formalized
-statement, not built here. This is a source-supported solution accepted by
-the site, distinct from a claim of journal refereeing; the site's Lean suffix
-is its catalog label for that external proof, which this corpus has not built
-or audited. Erdős's general question, the largest $h(n)$
-for which every such graph has a triangle and $h(n)$ other vertices joined to
-two of its vertices, stays open between $(\frac16-o(1))n$ and
-$(2-\sqrt{5/2}+o(1))n$.
+records the disproof as accepted on the site's documented acceptance. The site's
+label is DISPROVED (LEAN), and its page was last edited 28 October 2025. The
+community database lists "disproved (Lean)" as of its last update of 4
+December 2025. The claim page carries, as a `formalization` link, the external
+Lean file that declares itself a formalization of the note's solution and proves
+the negation of the formalized statement. That file was not built here. This is
+a source-supported solution accepted by the site, distinct from a claim of
+journal refereeing. The site's Lean suffix is its catalog label for that
+external proof, which this corpus has not built or audited.
+
+Erdős's general question stays open between $(\frac16-o(1))n$ and
+$(2-\sqrt{5/2}+o(1))n$. It asks for the largest $h(n)$ for which every such
+graph has a triangle and $h(n)$ other vertices joined to two of its vertices.
 
 **Source.** [erdosproblems.com/1034](https://www.erdosproblems.com/1034),
 accessed 2026-09-19T06:45Z: the problem page

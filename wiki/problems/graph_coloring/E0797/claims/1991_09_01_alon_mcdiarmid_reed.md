@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0797/claims/1991_09_01_alon_mcdiarmid_reed
 title: Alon, McDiarmid and Reed's bounds on the acyclic chromatic number
 desc: |
-  The largest acyclic chromatic number of a graph of maximum degree d lies
-  between d^{4/3} / (log d)^{1/3} and d^{4/3}, up to constants; in particular
-  it is o(d^2).
+  Alon, McDiarmid and Reed show that the largest acyclic chromatic number of a
+  graph of maximum degree $d$ lies between $d^{4/3}/(\log d)^{1/3}$ and
+  $d^{4/3}$, up to constants. In particular it is $o(d^2)$.
 authors:
 - Noga Alon
 - Colin McDiarmid
@@ -59,10 +59,10 @@ $\epsilon>0$ and all sufficiently large $d$, a result the paper takes from
 Albertson and Berman's 1976 paper on the acyclic chromatic number.
 
 **Acceptance.** Published in Random Structures & Algorithms 2 (1991), no. 3,
-277–288 (`refereed`); the record dates the issue to September 1991 without a
-day, so the page is dated to the first day of that month; the paper prints its
-receipt date, 1990-04-04. The site's curator, Thomas Bloom, lists Problem 797
-as proved and credits the resolution to Alon, McDiarmid and Reed [AMR91]
+277–288 (`refereed`). The paper prints its receipt date, 1990-04-04. The record
+dates the issue to September 1991 without a day, so the page is dated to the
+first day of that month. The site's curator, Thomas Bloom, lists Problem 797 as
+proved and credits the resolution to Alon, McDiarmid and Reed [AMR91]
 (`reviewed`). The source card is
 [[../library/graph_coloring/alon_1991_acyclic_coloring_graphs/_index|Alon, McDiarmid and Reed 1991]].
 

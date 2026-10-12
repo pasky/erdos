@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E0332
 title: Problem 332
 desc: |
-  Determines which conditions on a set of integers force the differences that
-  occur infinitely often to have bounded gaps.
+  Asks which conditions on a set of integers ensure that the differences
+  occurring infinitely often in it have bounded gaps.
 tags:
 - Number theory
 status: open
@@ -24,15 +24,15 @@ updated: 2026-10-08T03:43:48Z
 numbers which occur infinitely often as $a_1-a_2$ with $a_1,a_2\in A$. What
 conditions on $A$ are sufficient to ensure $D(A)$ has bounded gaps?
 
-**Status.** Open. The site credits Prikry, Tijdeman, Stewart and others with
-the sufficient condition that $A$ has positive density. Theorem 2 of Stewart
-and Tijdeman (Canad. J. Math. 1979, refereed) proves that positive upper
-density suffices, the accepted partial claim on
-[[problems/integer_sequences/E0332/claims/1979_10_01_stewart_tijdeman|its claim page]];
-Prikry's independent proof, which they cite as a private communication, was
-not published and has no page. A note linked from the thread on 4 May 2026,
-posted as an observation by GPT 5.5 pro, claims positive upper Banach
-density, a pending partial claim on
+**Status.** Open. The site credits Prikry, Tijdeman, Stewart and others with the
+sufficient condition that $A$ has positive density. Theorem 2 of Stewart and
+Tijdeman (Canad. J. Math. 1979, refereed) proves that positive upper density
+suffices. This is the accepted partial claim on
+[[problems/integer_sequences/E0332/claims/1979_10_01_stewart_tijdeman|its claim page]].
+Prikry's independent proof, which they cite as a private communication, was not
+published and has no page. A note linked from the thread on 4 May 2026, posted
+as an observation by GPT 5.5 pro, claims positive upper Banach density. It is a
+pending partial claim on
 [[problems/integer_sequences/E0332/claims/2026_05_04_aditya|its claim page]].
 
 **Source.** [erdosproblems.com/332](https://www.erdosproblems.com/332), accessed

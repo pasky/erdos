@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0033
 title: Problem 33
 desc: |
-  Asks how sparse a set can be if every large integer is a square plus one of
-  its members, measured against the square root of N.
+  Asks how sparse a set $A$ can be if every large integer is a square plus an
+  element of $A$, measured against $N^{1/2}$.
 tags:
 - Number theory
 - Additive bases
@@ -36,23 +36,27 @@ $$
 \liminf \frac{\lvert A\cap\{1,\ldots,N\}\rvert}{N^{1/2}}>1?
 $$
 
-**Status.** Open, in the site's label (OPEN; page last edited 2025-12-27),
-which attaches to the pair of questions. No source in the search of 2026-09-05,
-and nothing in the site's thread as of 2026-10-07, determines the smallest
-limsup. The liminf question is answered yes: Moser [Mo65] first proved
-$\liminf\lvert A\cap\{1,\ldots,N\}\rvert/N^{1/2}>1.06$ for every such $A$,
-and Cilleruelo [Ci93] and Habsieger [Ha95] independently raised the bound to
+**Status.** Open, the site's label (OPEN; page last edited 2025-12-27), which
+attaches to the pair of questions. The liminf question is answered yes, but the
+limsup part is unsettled, so the problem stays open.
+
+No source in the search of 2026-09-05, and nothing in the site's thread as of
+2026-10-07, determines the smallest limsup. The construction of van Doorn and
+the thread's write-up of 2026-09-07 bound the infimum from above without
+determining it, and neither is a claim.
+
+For the liminf question, Moser [Mo65] first proved
+$\liminf\lvert A\cap\{1,\ldots,N\}\rvert/N^{1/2}>1.06$ for every such $A$.
+Cilleruelo [Ci93] and Habsieger [Ha95] independently raised the bound to
 $4/\pi$. The claim pages of
 [[problems/additive_bases/E0033/claims/1965_01_01_moser|Moser]],
 [[problems/additive_bases/E0033/claims/1993_07_01_cilleruelo|Cilleruelo]] and
 [[problems/additive_bases/E0033/claims/1995_03_01_habsieger|Habsieger]] record
-these as partial claims settling the liminf part; the two journal papers are
+these as partial claims settling the liminf part. The two journal papers are
 accepted on their refereed publication, and Moser's proceedings paper stays
 claimed. Balasubramanian and Ramana [BaRa01] improve $4/\pi$ only under a
-localization hypothesis on minimal complements, so their theorem decides
-nothing new and has no claim page. The limsup part is unsettled, so the problem
-stays open: van Doorn's construction and the thread's write-up of 2026-09-07
-bound the infimum from above without determining it, and neither is a claim.
+localization hypothesis on minimal complements. So their theorem decides nothing
+new and has no claim page.
 
 **Source.** [erdosproblems.com/33](https://www.erdosproblems.com/33), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #33,

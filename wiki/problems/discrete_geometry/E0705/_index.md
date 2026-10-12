@@ -30,11 +30,10 @@ cycles of length $<k$) then $\chi(G)\leq 3$?
 
 **Status.** Disproved. The site credits O'Donnell's 1999 dissertation, which
 gives a finite unit distance graph of girth $k$ and chromatic number $4$ for
-every $k\ge3$; the accepted claim is
+every $k\ge3$. The accepted claim is
 [[problems/discrete_geometry/E0705/claims/1999_10_01_odonnell|his Theorem 28]].
 O'Donnell's unit distance graphs allow unit distances between non-adjacent
-vertices, and the claim page records how the problem's faithful graph is
-reached.
+vertices. The claim page records how the problem's faithful graph is reached.
 
 **Source.** [erdosproblems.com/705](https://www.erdosproblems.com/705), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #705,

@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E1094
 title: Problem 1094
 desc: |
-  Asks whether the least prime factor of n choose k is at most the larger of n
-  over k and k for all n at least 2k, with only finitely many exceptions.
+  Asks whether, for all $n\ge 2k$ with only finitely many exceptions, the least
+  prime factor of $\binom{n}{k}$ is at most $\max(n/k,k)$.
 tags:
 - Number theory
 - Binomial coefficients

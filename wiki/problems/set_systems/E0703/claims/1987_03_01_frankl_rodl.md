@@ -2,9 +2,9 @@
 name: problems/set_systems/E0703/claims/1987_03_01_frankl_rodl
 title: Frankl and Rödl's exponential forbidden-intersection bound
 desc: |
-  Frankl and Rödl (1987), Theorem 1.1: a family of subsets of an n-set with
-  no two members meeting in exactly r points, for r between epsilon n and
-  (1/2 minus epsilon) n, has fewer than (2 minus delta)^n members.
+  Frankl and Rödl (1987, Theorem 1.1) prove that a family of subsets of an
+  $n$-set with no two members meeting in exactly $r$ points, where
+  $\epsilon n<r<(1/2-\epsilon)n$, has fewer than $(2-\delta)^n$ members.
 authors:
 - Peter Frankl
 - Vojtěch Rödl
@@ -52,11 +52,11 @@ which Frankl and Wilson [FrWi81] had proved by other means.
 [[../library/set_systems/frankl_1987_forbidden_intersections/theorem_1_1|Frankl and Rödl (1987), Theorem 1.1]].
 
 **Acceptance.** Refereed: Trans. Amer. Math. Soc. **300** (1987), no. 1,
-259–286, received 24 October 1985; the issue is dated March 1987, and the
-page is dated to the first day of that month. Reviewed: Thomas Bloom, the
-site's curator, marks the problem proved and credits the yes answer to
-Frankl and Rödl [FrRo87]. The library's compilation of the theorem's proof
-chain is reading coverage and not acceptance evidence.
+259–286, received 24 October 1985. The issue is dated March 1987, and the page
+is dated to the first day of that month. Reviewed: Thomas Bloom, the site's
+curator, marks the problem proved and credits the yes answer to Frankl and Rödl
+[FrRo87]. The library's compilation of the theorem's proof chain is reading
+coverage, not acceptance evidence.
 
 **Formalization.** Boris Alexeev's repository holds a Lean 4 development,
 added on 2026-08-17, whose header calls it a formalization of a solution to

@@ -2,8 +2,7 @@
 name: problems/arithmetic_functions/E1053
 title: Problem 1053
 desc: |
-  Asks whether every k with the sum of divisors of n equal to k times n must
-  be of order smaller than log log n.
+  Asks whether every $k$ with $\sigma(n)=kn$ must satisfy $k=o(\log\log n)$.
 tags:
 - Number theory
 status: open

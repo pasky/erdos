@@ -2,9 +2,8 @@
 name: problems/arithmetic_functions/E0050
 title: Problem 50
 desc: |
-  Asks whether the density of integers whose totient is below a given fraction
-  of the integer, as a function of that fraction, ever has a positive
-  derivative.
+  Asks whether the density $f(c)$ of the integers $n$ with $\phi(n)<cn$, as a
+  function of $c$, ever has a positive derivative.
 tags:
 - Number theory
 status: open

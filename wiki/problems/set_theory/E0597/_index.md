@@ -2,9 +2,10 @@
 name: problems/set_theory/E0597
 title: Problem 597
 desc: |
-  Asks whether a partition relation holds for graphs on at most aleph_1 vertices
-  with no K_4 and no K_{aleph_0,aleph_0}; Erdős first asked it for every
-  K_4-free graph, which a relation of Baumgartner refutes.
+  Asks whether $\omega_1^2\to(\omega_1\omega,G)^2$ holds for every graph $G$ on
+  at most $\aleph_1$ vertices with no $K_4$ and no $K_{\aleph_0,\aleph_0}$.
+  Erdős first asked it for every $K_4$-free graph, which a relation of
+  Baumgartner refutes.
 tags:
 - Graph theory
 - Ramsey theory
@@ -51,10 +52,10 @@ takes it as a hypothesis. For finite $G$ the two forms coincide, since no
 finite graph contains $K_{\aleph_0,\aleph_0}$. The site states the problem
 with both excluded subgraphs, and that question sets the standing.
 
-**Status.** Open. The site's proof-claims tab lists one proof claim, filed
-there as a full claim; its text answers only the first question, granted
-Baumgartner's unproved relation, and it is recorded as a conditional claim on
-its claim page. The site shows no verdict and labels the problem OPEN.
+**Status.** Open. The site labels the problem OPEN and shows no verdict on its
+one proof claim. The site's proof-claims tab files that claim as a full claim.
+Its text answers only the first question, granted Baumgartner's unproved
+relation. Its claim page records it as a conditional claim.
 
 **Source.** [erdosproblems.com/597](https://www.erdosproblems.com/597), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #597,

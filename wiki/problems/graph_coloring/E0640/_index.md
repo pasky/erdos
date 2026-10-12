@@ -2,9 +2,8 @@
 name: problems/graph_coloring/E0640
 title: Problem 640
 desc: |
-  Asks whether large enough chromatic number forces an odd cycle whose
-  vertices span a subgraph of chromatic number at least k, for k at least
-  three.
+  Asks whether, for each $k\ge 3$, large enough chromatic number forces an odd
+  cycle whose vertices span a subgraph of chromatic number at least $k$.
 tags:
 - Graph theory
 - Chromatic number

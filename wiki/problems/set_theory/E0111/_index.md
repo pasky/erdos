@@ -2,9 +2,9 @@
 name: problems/set_theory/E0111
 title: Problem 111
 desc: |
-  Asks how many edge deletions make an n-vertex subgraph bipartite, and
-  whether that number grows faster than n for graphs of uncountable chromatic
-  number.
+  Asks how many edge deletions make every $n$-vertex subgraph of a graph $G$
+  bipartite, and whether this number grows faster than $n$ when $G$ has
+  chromatic number $\aleph_1$.
 tags:
 - Graph theory
 - Chromatic number

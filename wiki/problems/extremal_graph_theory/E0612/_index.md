@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0612
 title: Problem 612
 desc: |
-  Records the two-part Erdős–Pach–Pollack–Tuza diameter bound for connected
-  graphs with no K_{2r} or K_{2r+1}: part (i) refuted in a refereed paper;
-  part (ii) proved at r = 1, with pending claims that refute it.
+  Asks whether the two Erdős–Pach–Pollack–Tuza diameter bounds hold for
+  connected graphs with no $K_{2r}$ (part (i)) or no $K_{2r+1}$ (part (ii)).
+  Part (i) is refuted in a refereed paper; part (ii) is proved at $r=1$, and
+  pending claims refute it for some larger $r$.
 tags:
 - Graph theory
 status: claimed
@@ -81,34 +82,37 @@ conditions are part of the statement, and the $O(1)$ may depend on $r$ and
 $\delta$.
 
 **Status.** The site labels the problem OPEN. Read as the two questions of the
-Statement (precise), part (i) is disproved and part (ii) is open. Part (i) is
-false: for every $r\ge2$ and every $\delta>2(r-1)(3r+2)(2r-3)$ with
-$(r-1)(3r+2)\mid\delta$ by Theorem 6 of the arXiv preprint of Czabarka, Singgih
-and Székely (its Section 3, published as J. Combin. Theory Ser. B 151 (2021),
-38--45, refereed; the published numbering is unchecked), the accepted claim page
-of
-[[problems/extremal_graph_theory/E0612/claims/2020_09_05_czabarka_singgih_szekely|Czabarka, Singgih and Székely]],
-and at $r=2$, $\delta=16$ by the claimed page of
+Statement (precise), part (i) is disproved and part (ii) is open. The
+frontmatter standing, claimed, disproved, is derived from the claim pages: part
+(i) is settled by an accepted refutation, and part (ii) only by the pending
+refutations recorded below. This standing departs from the site's OPEN only by
+counting those pending refutations, which no outside review has accepted. It
+agrees with the label that no accepted claim settles part (ii). It becomes
+solved, disproved if either refutation of part (ii) is accepted.
+
+Part (i) is false for every $r\ge2$ and every $\delta>2(r-1)(3r+2)(2r-3)$ with
+$(r-1)(3r+2)\mid\delta$. This is Theorem 6 of the arXiv preprint of Czabarka,
+Singgih and Székely (its Section 3), published as J. Combin. Theory Ser. B 151
+(2021), 38--45, refereed. The published numbering is unchecked. The result is
+recorded on the accepted claim page of
+[[problems/extremal_graph_theory/E0612/claims/2020_09_05_czabarka_singgih_szekely|Czabarka, Singgih and Székely]].
+Part (i) is also refuted at $r=2$, $\delta=16$ by the claimed page of
 [[problems/extremal_graph_theory/E0612/claims/2025_02_12_cambie_jooken|Cambie and Jooken]]
-(2025 preprint). Part (ii) is proved for $r=1$ by Theorem 2 of Erdős, Pach,
-Pollack and Tuza (the accepted partial claim page
-[[problems/extremal_graph_theory/E0612/claims/1989_08_01_erdos_pach_pollack_tuza|Erdős, Pach, Pollack and Tuza]],
-refereed) and undecided for $r\ge2$ in the refereed sources cited here;
-September 2026 forum posts report a preprint refuting it for every $r\ge4$ and
-Lean-checked, AI-assisted arguments that it holds for $r=2$ and fails for $r=3$,
-recorded on the claimed pages of
+(2025 preprint).
+
+Part (ii) is proved for $r=1$ by Theorem 2 of Erdős, Pach, Pollack and Tuza
+(refereed), recorded on the accepted partial claim page
+[[problems/extremal_graph_theory/E0612/claims/1989_08_01_erdos_pach_pollack_tuza|Erdős, Pach, Pollack and Tuza]].
+For $r\ge2$ it is undecided in the refereed sources cited here. September 2026
+forum posts report a preprint refuting it for every $r\ge4$, and Lean-checked,
+AI-assisted arguments that it holds for $r=2$ and fails for $r=3$. These are
+recorded on two claimed pages. The page of
 [[problems/extremal_graph_theory/E0612/claims/2026_09_03_chen_chen|Chen and Chen]]
-(part (ii) for every $r\ge4$ and every large $\delta$ divisible by $3r-1$,
-preprint) and
+covers part (ii) for every $r\ge4$ and every large $\delta$ divisible by $3r-1$
+(preprint). The page of
 [[problems/extremal_graph_theory/E0612/claims/2026_09_08_kitamura|Kitamura]]
-(part (ii) refuted at $r=3$, $\delta=800$, for every additive constant, and
-proved at $r=2$; Lean files). The frontmatter standing is derived from the claim
-pages: part (i) is settled by the accepted refutation, and part (ii) only by
-these pending refutations, so the problem is claimed, disproved. This standing
-departs from the site's OPEN only by counting those pending refutations, which
-no outside review has accepted; it agrees with the label that no accepted claim
-settles part (ii), and it becomes solved, disproved if either refutation of part
-(ii) is accepted.
+records part (ii) as refuted at $r=3$, $\delta=800$, for every additive
+constant, and as proved at $r=2$ (Lean files).
 
 **Source.** [erdosproblems.com/612](https://www.erdosproblems.com/612), accessed
 2026-09-17: the problem page (OPEN; no last-edited date shown), its six-comment

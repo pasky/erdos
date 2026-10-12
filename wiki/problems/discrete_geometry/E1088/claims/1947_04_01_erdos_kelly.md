@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E1088/claims/1947_04_01_erdos_kelly
 title: Seven planar points always contain a non-isosceles triangle
 desc: |
-  No seven points of the plane have every triple isosceles, while a regular
-  pentagon with its center does, so f_2(3) = 7; the solution of Monthly problem
-  E735.
+  The solution of Monthly problem E735, posed by Erdős and solved by Kelly,
+  shows that no seven points of the plane have every triple isosceles, while a
+  regular pentagon with its center does, so $f_2(3)=7$.
 authors:
 - P. Erdős
 - L. M. Kelly
@@ -46,8 +46,8 @@ page]].
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: P. Erdős and L. M. Kelly, E735, Amer. Math. Monthly
-54 (1947), no. 4, 227–229, in the journal's problems section, Erdős as
-proposer and Kelly as solver. The site's remarks say that Erdős could prove
-$f_2(3)=7$, but the site labels the problem OPEN, so the remark is not
+**Acceptance.** Refereed: P. Erdős and L. M. Kelly, E735, Amer. Math. Monthly 54
+(1947), no. 4, 227–229. It appeared in the journal's problems section, with
+Erdős as proposer and Kelly as solver. The site's remarks say that Erdős could
+prove $f_2(3)=7$. But the site labels the problem OPEN, so the remark is not
 `reviewed` evidence. The page is dated to the issue, April 1947.

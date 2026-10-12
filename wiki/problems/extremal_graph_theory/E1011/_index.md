@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E1011
 title: Problem 1011
 desc: |
-  Determines the least number of edges forcing a triangle in a graph on n
-  vertices whose chromatic number is at least r; known exactly for r up to
-  three, for r equal to four and n large, and open in general.
+  Asks for $f_r(n)$, the least number of edges that forces a triangle in a graph
+  on $n$ vertices with chromatic number at least $r$. It is known exactly for
+  $r\le3$ and for $r=4$ with $n$ large, and open in general.
 tags:
 - Graph theory
 status: open
@@ -52,40 +52,41 @@ chromatic number at least $r$ needs at least $m$ vertex deletions to become
 bipartite (the minimum, over such graphs, of the fewest deletions that make
 the graph bipartite), says the same.
 
-**Status.** Open. The exact values known are $f_2(n)=\lfloor n^2/4\rfloor+1$
-(Turán's theorem, as the site says and as [Er62d] p. 122 records),
-$f_3(n)=\lfloor(n-1)^2/4\rfloor+2$ for $n\ge5$ (the upper bound is Lemma 1
-of [Er62d], the Erdős--Gallai and Andrásfai theorem, and the matching
-triangle-free non-bipartite graph with one edge fewer is on p. 124 of the
-same paper and is the graph $H_0$ of [RWWY24]), and
-$f_4(n)=\lfloor(n-3)^2/4\rfloor+6$ for $n\ge90$ (Theorem 1.4 of [RWWY24],
-arXiv v2 of 19 October 2025, a preprint; the blow-ups of the Grötzsch graph
-give the matching lower bound). The site prints the range $n\ge150$ for the
-last value; v2 prints
-$n\ge90$, a site-versus-source discrepancy recorded below. For general $r$,
-Theorem 2.7 of [Si74] (p. 358; Simonovits attributes it to his thesis and
-prints no proof) gives
-$f_r(n)=\tfrac{n^2}4-\tfrac{g(r)}2n+O(1)$ with $g(r)=\hat g_3(r)$, and
-Remark 2.8(a) of the same paper (p. 359) asserts without proof that
-$\tfrac{\log r}{\log\log r}r^2\ll g(r)\ll(\log r)^2r^2$; the site reports
-both, and, from its discussion thread, that $g(r)\asymp r^2\log r$; the
+**Status.** Open. Three exact values are known. The first is
+$f_2(n)=\lfloor n^2/4\rfloor+1$, which is Turán's theorem, as the site says and
+as [Er62d] p. 122 records. The second is $f_3(n)=\lfloor(n-1)^2/4\rfloor+2$ for
+$n\ge5$. Its upper bound is Lemma 1 of [Er62d], the Erdős--Gallai and Andrásfai
+theorem. The matching triangle-free non-bipartite graph with one edge fewer is
+on p. 124 of the same paper, and it is the graph $H_0$ of [RWWY24]. The third is
+$f_4(n)=\lfloor(n-3)^2/4\rfloor+6$ for $n\ge90$, which is Theorem 1.4 of
+[RWWY24] (arXiv v2 of 19 October 2025, a preprint). The blow-ups of the Grötzsch
+graph give the matching lower bound. The site prints the range $n\ge150$ for
+this last value, while v2 prints $n\ge90$. This site-versus-source discrepancy
+is recorded below.
+
+For general $r$, Theorem 2.7 of [Si74] (p. 358) gives
+$f_r(n)=\tfrac{n^2}4-\tfrac{g(r)}2n+O(1)$ with $g(r)=\hat g_3(r)$. Simonovits
+attributes it to his thesis and prints no proof. Remark 2.8(a) of the same paper
+(p. 359) asserts without proof that
+$\tfrac{\log r}{\log\log r}r^2\ll g(r)\ll(\log r)^2r^2$. The site reports both.
+It also reports, from its discussion thread, that $g(r)\asymp r^2\log r$. The
 inputs to the thread's derivation, Theorem 1 of [DaIl22] and Theorem 1.3 of
-[HHKP25], are checked on this page, but the derivation itself is a forum
-argument recorded with provenance and unverified. The three literature
-determinations have claim pages:
+[HHKP25], are checked on this page. The derivation itself is a forum argument,
+recorded with provenance and unverified.
+
+The three literature determinations have claim pages. They are
 [[problems/extremal_graph_theory/E1011/claims/1941_01_01_turan|Turán]] for
 $f_2(n)$ (accepted, a refereed partial claim),
 [[problems/extremal_graph_theory/E1011/claims/1962_03_01_erdos|Erdős and Gallai]]
 for $f_3(n)$ (accepted, a refereed partial claim) and
 [[problems/extremal_graph_theory/E1011/claims/2024_04_11_ren_wang_wang_yang|Ren, Wang, Wang and Yang]]
-for $f_4(n)$ with $n\ge90$ (a pending partial claim; the paper is a
-preprint). No source found determines $f_r(n)$ for any $r\ge5$, or $f_4(n)$
-for $n<90$, beyond forum claims of September 2026 for $r=4$ and for $r=5$
-with $n\ge80$, recorded on two further pending partial claim pages below.
-No proof or disproof of
-a general formula was found in the search whose scope
-the Current assessment records; this is a bounded negative finding, not a
-certificate of openness.
+for $f_4(n)$ with $n\ge90$ (a pending partial claim, since the paper is a
+preprint). Beyond forum claims of September 2026 for $r=4$ and for $r=5$ with
+$n\ge80$, no source found determines $f_r(n)$ for any $r\ge5$, or $f_4(n)$ for
+$n<90$. Those forum claims are recorded on two further pending partial claim
+pages below. No proof or disproof of a general formula was found in the search
+whose scope the Current assessment records. This is a bounded negative finding,
+not a certificate of openness.
 
 **Source.** [erdosproblems.com/1011](https://www.erdosproblems.com/1011),
 accessed 2026-09-18: the problem page (labeled OPEN, the site's label for a

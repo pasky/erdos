@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0361/claims/2026_07_23_principia_math
 title: Irregularity for c below one and the exact formula above
 desc: |
-  Principia Math's 2026 manuscript and Lean: for 0 < c < 1 the normalized
-  extremal size does not converge, and for c at least 1 it equals floor(cn)
-  minus ceil(n/2); filed as full: the second question, and the first for c >= 1.
+  Principia Math's 2026 manuscript and Lean development claim that for $0<c<1$
+  the normalized extremal size does not converge, and that for $c\ge1$ the size
+  equals $\lfloor cn\rfloor-\lceil n/2\rceil$. Filed as full, it covers the
+  second question and the first for $c\ge1$.
 authors:
 - Principia Math
 status: claimed

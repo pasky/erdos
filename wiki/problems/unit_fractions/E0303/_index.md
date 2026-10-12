@@ -2,9 +2,8 @@
 name: problems/unit_fractions/E0303
 title: Problem 303
 desc: |
-  Asks whether every finite coloring of the integers has distinct
-  same-colored a, b, c with the reciprocal of a equal to the reciprocal of b
-  plus that of c.
+  Asks whether every finite coloring of the integers has distinct $a,b,c$ of the
+  same color with $1/a=1/b+1/c$.
 tags:
 - Number theory
 - Unit fractions
@@ -31,16 +30,16 @@ $$
 
 with distinct $a,b,c$?
 
-**Status.** Proved, in the site's label, PROVED (LEAN) (page last edited 28
-December 2025). Two accepted full claims carry the standing:
+**Status.** Proved. The site's label is PROVED (LEAN) (page last edited 28
+December 2025). Two accepted full claims carry the standing. The first is
 [[problems/unit_fractions/E0303/claims/1991_06_01_brown_rodl|Brown and Rödl's 1991 theorem]],
-refereed and credited by the site, which proves the stronger
-positive-integer statement, and
+refereed and credited by the site, which proves the stronger positive-integer
+statement. The second is
 [[problems/unit_fractions/E0303/claims/2025_12_21_yuan|Yuan's Seed-Prover Lean proof]]
-of December 2025, formalized through this corpus's build of a re-proof of
-its lemmas. The site relabeled the problem PROVED (LEAN) after Alexeev's
-comment, and its commentary credits Brown and Rödl. The site's discussion
-carries no further proof claim.
+of December 2025, formalized through this corpus's build of a re-proof of its
+lemmas. The site relabeled the problem PROVED (LEAN) after Alexeev's comment,
+and its commentary credits Brown and Rödl. The site's discussion carries no
+further proof claim.
 
 **Source.** [erdosproblems.com/303](https://www.erdosproblems.com/303), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #303,

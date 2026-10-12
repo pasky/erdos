@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0944/claims/2026_09_11_kruer_kohlmeyer
 title: Kruer and Kohlmeyer's Lean proof for every k and r
 desc: |
-  Lean 4 proof certified by Conjectures.io in September 2026 that for every k
-  at least 4 and r at least 1 some k-chromatic graph has every vertex critical
-  and no critical set of at most r edges; the k = 4 case for r at least 2 is new.
+  Kruer and Kohlmeyer's Lean 4 proof, certified by Conjectures.io in September
+  2026, shows that for every $k\ge4$ and $r\ge1$ some $k$-chromatic graph has
+  every vertex critical and no critical set of at most $r$ edges. The case $k=4$
+  with $r\ge2$ is new.
 authors:
 - Liam Kruer
 - Jensen Kohlmeyer
@@ -89,39 +90,43 @@ journal publication; it states that the submission does not claim Erdős's
 quantitative form, that suitable graphs exist at every sufficiently large
 order with $r$ tending to infinity.
 
-**Acceptance.** Reviewed: the bounty site Conjectures.io, record
-`e7afff2c-bb07-4fa8-92b6-67a530aaad70`, attacked as Prove, records the proof
-as Lean-verified, its review as approved on 15 September
-2026 under the site's manual-review policy v3, and the record as certified on
-16 September 2026, with the outcome shown as Proved and the bounty paid. The
-site's verification report states that its Lean kernel accepted the file
-with propext, Quot.sound and Classical.choice as the only axioms, that a
-static scan found no imports, no axiom declarations, no `sorry`, no
-`native_decide` and no unsafe options, and that the second, independent
-kernel was not run, so the verdict rests on one kernel implementation. The
-site's review note describes the approval as an eligibility decision that
-does not guarantee originality, says the review used the recorded Lean
-verification with no fresh build or independent-kernel replay, records that it
-was reached on two separately conducted reviews by Codex agents of one model
-family, and compares the target with two earlier public formalizations of
-the $k=4$, $r=1$ case, by Alex Chan
+**Acceptance.** Reviewed: the bounty site Conjectures.io holds the record
+`e7afff2c-bb07-4fa8-92b6-67a530aaad70`, attacked as Prove. It records the proof
+as Lean-verified. It records the review as approved on 15 September 2026 under
+the site's manual-review policy v3, and the record as certified on 16
+September 2026. The outcome is shown as Proved and the bounty as paid.
+
+The site's verification report states that its Lean kernel accepted the file
+with propext, Quot.sound and Classical.choice as the only axioms. It also states
+that a static scan found no imports, no axiom declarations, no `sorry`, no
+`native_decide` and no unsafe options. It says the second, independent kernel
+was not run, so the verdict rests on one kernel implementation.
+
+The site's review note describes the approval as an eligibility decision that
+does not guarantee originality. It says the review used the recorded Lean
+verification, with no fresh build or independent-kernel replay. It records that
+the approval was reached on two separately conducted reviews by Codex agents of
+one model family. It compares the target with two earlier public formalizations
+of the $k=4$, $r=1$ case, by Alex Chan
 ([[problems/graph_coloring/E0944/claims/2026_09_09_chan|claim page]]) and by
 Kenta Kitamura
-([[problems/graph_coloring/E0944/claims/2026_09_10_kitamura|claim page]]),
-which it finds narrower; the site's exposition says that those authors retain
-credit for that case. The record names no individual reviewer: the two reviews
-were conducted by Codex agents of one model family, and the proof file's
-header credits Codex with assistance in its development, so the certifying
-site, not a named person, is the independent party. No `formalized` evidence
-is listed, because this corpus has not built the file; no `refereed` evidence
-exists. As of 2026-09-18 the erdosproblems.com page (fetched
-2026-09-18T16:22Z) labels the problem OPEN, says the $k=4$ case remains open
-even for $r=1$ and lists Chan's proof claim; as of that date the
-formal-conjectures catalog file on its default branch agreed with the
-statement the site prints and tagged the theorem research open, and by its
-commit of 21 September 2026 it tags the $k=4$ case of Dirac's conjecture
-research solved and keeps `erdos_944` itself tagged research open. The
-catalog commit that the site's task pins is not public.
+([[problems/graph_coloring/E0944/claims/2026_09_10_kitamura|claim page]]), and
+finds them narrower. The site's exposition says that those authors retain credit
+for that case.
+
+The record names no individual reviewer. Both reviews were by Codex agents, and
+the proof file's header credits Codex with assistance in its development. The
+certifying site, not a named person, is therefore the independent party. No
+`formalized` evidence is listed, because this corpus has not built the file. No
+`refereed` evidence exists.
+
+As of 2026-09-18, the erdosproblems.com page (fetched 2026-09-18T16:22Z) labels
+the problem OPEN, says the $k=4$ case remains open even for $r=1$, and lists
+Chan's proof claim. On that date, the formal-conjectures catalog file on its
+default branch agreed with the statement the site prints and tagged the theorem
+research open. By its commit of 21 September 2026, the catalog tags the $k=4$
+case of Dirac's conjecture research solved and keeps `erdos_944` itself tagged
+research open. The catalog commit that the site's task pins is not public.
 
 **Verification record.** This corpus has not built the proof file,
 <https://conjectures.io/results/e7afff2c-bb07-4fa8-92b6-67a530aaad70/solution>

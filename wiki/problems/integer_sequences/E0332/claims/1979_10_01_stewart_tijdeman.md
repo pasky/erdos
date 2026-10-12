@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0332/claims/1979_10_01_stewart_tijdeman
 title: Stewart and Tijdeman's bounded gaps under positive upper density
 desc: |
-  Stewart and Tijdeman's 1979 Theorem 2: for a set of positive upper density,
-  finitely many translates of its set of differences occurring infinitely
-  often cover the non-negative integers, so that set has bounded gaps; refereed.
+  Stewart and Tijdeman's refereed 1979 Theorem 2 shows that for a set of
+  positive upper density, finitely many translates of its set of differences
+  occurring infinitely often cover the non-negative integers. Hence that set of
+  differences has bounded gaps.
 authors:
 - C. L. Stewart
 - R. Tijdeman

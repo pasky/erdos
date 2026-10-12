@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0442
 title: Problem 442
 desc: |
-  Whether a set whose reciprocal sum grows faster than log log x forces the
-  normalized sum of reciprocals of pairwise least common multiples to blow up;
-  disproved by Tao, whose construction also gives the optimal growth threshold.
+  Asks whether, when $\sum_{n\in A\cap[1,x)}1/n$ grows faster than $\log\log x$,
+  the sum of $1/\mathrm{lcm}(a,b)$ over pairs $a<b$ in $A$, divided by the
+  square of that sum, must tend to infinity; disproved by Tao, whose
+  construction also gives the optimal growth threshold.
 tags:
 - Number theory
 status: solved
@@ -46,19 +47,20 @@ suggests (p. 2), and the question asks whether every set much denser than the
 primes, in this logarithmic sense, has large pairwise greatest common divisors
 on average.
 
-**Status.** Disproved. Tao's Theorem 1 (Integers 24 (2024), paper A100;
-arXiv:2407.04226, v5) constructs, for every $C_0>0$, a set $A$
-with $\sum_{n\in A,\,n\le x}1/n=\exp((C_0/2+o(1))(\log\log x)^{1/2}\log\log\log x)$
-and $\sum_{n,m\in A;\,n,m\le x}1/\mathrm{lcm}(n,m)\ll_{C_0}(\sum_{n\in A,\,n\le x}1/n)^2$;
-the first quantity grows faster than $\log\log x$, so the hypothesis holds
-and the conclusion fails. The paper's introduction (p. 4) also records the
-elementary counterexample of the squarefree numbers with exactly $k\ge2$
-prime factors, implicit in earlier work of Bergelson and Richter. Theorem
-1's growth rate is optimal up to $C_0$, which the site's commentary records
-as the best possible result. The paper is published in a refereed journal;
-arXiv v5 postdates the journal version and was not compared with it. The
-site's label is DISPROVED (LEAN); the suffix is a catalog label explained
-under Formalization, and no local kernel credit is claimed. The claim page is
+**Status.** Disproved. The site's label is DISPROVED (LEAN). The suffix is a
+catalog label explained under Formalization, and no local kernel credit is
+claimed. Tao's Theorem 1 (Integers 24 (2024), paper A100; arXiv:2407.04226, v5)
+constructs, for every $C_0>0$, a set $A$ with
+$\sum_{n\in A,\,n\le x}1/n=\exp((C_0/2+o(1))(\log\log x)^{1/2}\log\log\log x)$
+and
+$\sum_{n,m\in A;\,n,m\le x}1/\mathrm{lcm}(n,m)\ll_{C_0}(\sum_{n\in A,\,n\le x}1/n)^2$.
+The first quantity grows faster than $\log\log x$, so the hypothesis holds and
+the conclusion fails. Theorem 1's growth rate is optimal up to $C_0$, which the
+site's commentary records as the best possible result. The paper's introduction
+(p. 4) also records an elementary counterexample: the squarefree numbers with
+exactly $k\ge2$ prime factors, implicit in earlier work of Bergelson and
+Richter. The paper is published in a refereed journal. arXiv v5 postdates the
+journal version and was not compared with it. The claim page is
 [[problems/integer_sequences/E0442/claims/2024_07_05_tao|Tao's theorem]]
 (accepted; refereed, and credited by the site's curator for its label).
 

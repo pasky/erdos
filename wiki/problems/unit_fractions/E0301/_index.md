@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0301
 title: Problem 301
 desc: |
-  Estimates the largest subset of one through N in which no reciprocal is a
-  sum of reciprocals of other distinct members, and asks whether it is about
-  half of N.
+  Asks for estimates of $f(N)$, the size of the largest
+  $A\subseteq\{1,\ldots,N\}$ in which no $1/a$ is a sum of reciprocals of other
+  distinct members, and whether $f(N)=(\frac{1}{2}+o(1))N$.
 tags:
 - Number theory
 - Unit fractions
@@ -45,26 +45,25 @@ an equality, and the site was updated to say so. $f(N)$ is OEIS A390394
 ($1,2,3,4,5,5,6,\ldots$, to $N=60$). The statement asks for an estimate of
 $f(N)$ and whether $f(N)=(1/2+o(1))N$.
 
-**Status.** Open: the site's label is OPEN (page last edited 16 January
-2026; as of 2026-10-07), and the site marks the problem as not resolvable by
-a finite computation. The standing derived from the claim pages is open,
-claim none: the four claim pages,
+**Status.** Open: the site's label is OPEN (page last edited 16 January 2026; as
+of 2026-10-07), and the site marks the problem as not resolvable by a finite
+computation. The standing derived from the claim pages is open, claim none. The
+four claim pages are all pending partial claims:
 [[problems/unit_fractions/E0301/claims/2025_09_16_van_doorn|van Doorn's upper bound 25/28]]
 (recorded from the site's commentary),
 [[problems/unit_fractions/E0301/claims/2026_05_27_wang|Wang's upper bound 667/806]],
 [[problems/unit_fractions/E0301/claims/2026_07_30_della_pietra|Della Pietra's lower bound above one half]]
 and
-[[problems/unit_fractions/E0301/claims/2026_07_30_della_pietra_upper|Della Pietra's upper bound 15437/19344]],
-are pending partial claims, none of which would settle the estimation
-question; the lower bound, an AI-assisted proof claim of July 2026 without
-acceptance evidence, would answer the particular question in the negative
-if correct. No proof, disproof or accepted resolution was found in the
-search whose scope the Current assessment records. The
-bounds supported by sources read here are $N/2\le f(N)\le(25/28+o(1))N$:
-the lower bound from the interval $(N/2,N]$ (elementary, checked here) and
-the upper bound from van Doorn's argument in the site's commentary
-(elementary; its two counting facts checked here). This is a bounded
-negative finding, not a certificate of openness.
+[[problems/unit_fractions/E0301/claims/2026_07_30_della_pietra_upper|Della Pietra's upper bound 15437/19344]].
+None of them would settle the estimation question. The lower bound is an
+AI-assisted proof claim of July 2026 without acceptance evidence. If correct, it
+would answer the particular question in the negative. No proof, disproof or
+accepted resolution was found in the search whose scope the Current assessment
+records. The bounds supported by sources read here are
+$N/2\le f(N)\le(25/28+o(1))N$. The lower bound comes from the interval $(N/2,N]$
+(elementary, checked here). The upper bound comes from van Doorn's argument in
+the site's commentary (elementary; its two counting facts checked here). This is
+a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/301](https://www.erdosproblems.com/301),
 accessed 2026-09-17: the problem page (OPEN, with the site's note that no

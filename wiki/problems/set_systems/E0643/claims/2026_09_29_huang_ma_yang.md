@@ -2,9 +2,10 @@
 name: problems/set_systems/E0643/claims/2026_09_29_huang_ma_yang
 title: Huang, Ma and Yang's proof of Füredi's conjecture for t at least 4
 desc: |
-  Huang, Ma and Yang's 2026 preprint claims Füredi's conjecture: for fixed t
-  at least 4 and large n the extremal number is binom(n-1,t-1) plus
-  floor((n-1)/t), which gives the asymptotic for every t at least 4.
+  Huang, Ma and Yang's 2026 preprint claims a proof of Füredi's conjecture: for
+  fixed $t\ge4$ and large $n$ the extremal number is
+  $\binom{n-1}{t-1}+\lfloor(n-1)/t\rfloor$. This gives the asymptotic for every
+  $t\ge4$.
 authors:
 - Hao Huang
 - Jie Ma

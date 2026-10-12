@@ -2,9 +2,9 @@
 name: problems/polynomials/E0230
 title: Problem 230
 desc: |
-  Asks whether a polynomial with unimodular coefficients has maximum modulus
-  on the unit circle exceeding the square root of its degree by a constant
-  factor.
+  Asks whether some $c>0$ gives
+  $\max_{\lvert z\rvert=1}\lvert P(z)\rvert\ge(1+c)\sqrt{n}$ for every $n\ge 2$
+  and every $P(z)=\sum_{k=1}^n a_kz^k$ with all $\lvert a_k\rvert=1$.
 tags:
 - Analysis
 - Polynomials
@@ -32,18 +32,17 @@ $$
 
 **Status.** DISPROVED (LEAN), the site's label (page last edited 23 January
 2026, as of 2026-10-07). The site's curator answers no, against Erdős's own
-expectation, and credits Kahane [Ka80], whose ultraflat polynomials have
-$\lvert P(z)\rvert=(1+o(1))\sqrt n$ uniformly on the circle for coefficients
-of modulus one; the curator names Bombieri and Bourgain [BoBo09] as sharpening
-the error to $O(n^{7/18}(\log n)^{O(1)})$. The lower bound $\sqrt n$ is
-Parseval's identity; the site credits Körner [Ko80] with flatness between two
-constant multiples of $\sqrt n$, but Bombieri and Bourgain (footnote 1, p.
-627) record that the proofs of Körner's Theorems 6 and 7 rest on an incorrect
-theorem of Byrnes; such flatness follows from Kahane's theorem in any case,
-and two-sided constant-factor flatness for real signs is
-[[problems/polynomials/E0228/_index|Problem 228]]. The question is Problem
-4.31 of Hayman's list [Ha74], which attributes the conjecture to Erdős and
-Newman.
+expectation. The curator credits Kahane [Ka80], whose ultraflat polynomials have
+$\lvert P(z)\rvert=(1+o(1))\sqrt n$ uniformly on the circle for coefficients of
+modulus one. The curator names Bombieri and Bourgain [BoBo09] as sharpening the
+error to $O(n^{7/18}(\log n)^{O(1)})$. The lower bound $\sqrt n$ is Parseval's
+identity. The site credits Körner [Ko80] with flatness between two constant
+multiples of $\sqrt n$. However, Bombieri and Bourgain (footnote 1, p. 627)
+record that the proofs of Körner's Theorems 6 and 7 rest on an incorrect theorem
+of Byrnes. Such flatness follows from Kahane's theorem in any case. Two-sided
+constant-factor flatness for real signs is
+[[problems/polynomials/E0228/_index|Problem 228]]. The question is Problem 4.31
+of Hayman's list [Ha74], which attributes the conjecture to Erdős and Newman.
 
 **Source.** [erdosproblems.com/230](https://www.erdosproblems.com/230), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #230,

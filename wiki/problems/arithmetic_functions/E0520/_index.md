@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0520
 title: Problem 520
 desc: |
-  Asks whether Rademacher random multiplicative sums over sqrt(N log log N)
-  almost surely have a positive constant limit superior; a Lean proof built
-  and audited here makes the ratio tend to 0, so the answer is no.
+  Asks whether, for a Rademacher random multiplicative function $f$, the limit
+  superior of $\sum_{m\le N}f(m)/\sqrt{N\log\log N}$ is almost surely a positive
+  constant. A Lean proof built and audited here shows the ratio tends to 0, so
+  the answer is no.
 tags:
 - Number theory
 - Probability
@@ -33,23 +34,26 @@ $$
 \limsup_{N\to \infty}\frac{\sum_{m\leq N}f(m)}{\sqrt{N\log\log N}}=c?
 $$
 
-**Status.** The site labels the problem OPEN. The derived
-standing is `solved` with the claim `disproved`, through the self-contained Lean
-development submitted by Sigurd Høystad on 2026-08-04
-([[problems/arithmetic_functions/E0520/claims/2026_08_04_hoystad|claim page]]):
-this corpus built the port of that development in `plby/lean-proofs` at its
-commit of 2026-09-15, written for Lean `v4.33.0`, and audited the port's two
-compared theorems, that almost surely $\sum_{m\le N}f(m)/\sqrt{N\log\log N}\to0$
-and that no constant $c>0$ is almost surely the limit superior in the question.
-Two further full claims assert the same sharpening of Caich's almost sure bound
-to $\sum_{m\le N}f(m)\ll\sqrt N(\log\log N)^{1/4+\varepsilon}$ and are pending:
-a forum claim of 2026-07-29 produced by GPT 5.6-Pro and submitted by Samuel
+**Status.** The site labels the problem OPEN. The derived standing is `solved`
+with the claim `disproved`. It rests on the self-contained Lean development
+submitted by Sigurd Høystad on 2026-08-04
+([[problems/arithmetic_functions/E0520/claims/2026_08_04_hoystad|claim page]]).
+This corpus built the port of that development in `plby/lean-proofs` at its
+commit of 2026-09-15, written for Lean `v4.33.0`. It audited the port's two
+compared theorems: that almost surely
+$\sum_{m\le N}f(m)/\sqrt{N\log\log N}\to0$, and that no constant $c>0$ is almost
+surely the limit superior in the question.
+
+Two further full claims are pending. Both assert the same sharpening of Caich's
+almost sure bound to
+$\sum_{m\le N}f(m)\ll\sqrt N(\log\log N)^{1/4+\varepsilon}$. The first is a
+forum claim of 2026-07-29, produced by GPT 5.6-Pro and submitted by Samuel
 Korsky, with a partial Lean formalization
-([[problems/arithmetic_functions/E0520/claims/2026_07_29_korsky|claim page]]),
-and the arXiv preprint of Durkan and Pearce-Crump of 2026-07-31, which its
-abstract states settles Harper's conjecture for both the Steinhaus and the
-Rademacher model
+([[problems/arithmetic_functions/E0520/claims/2026_07_29_korsky|claim page]]).
+The second is the arXiv preprint of Durkan and Pearce-Crump of 2026-07-31
 ([[problems/arithmetic_functions/E0520/claims/2026_07_31_durkan_pearce_crump|claim page]]).
+Its abstract states that it settles Harper's conjecture for both the Steinhaus
+and the Rademacher model.
 
 **Source.** [erdosproblems.com/520](https://www.erdosproblems.com/520), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #520,

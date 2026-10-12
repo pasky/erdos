@@ -2,8 +2,9 @@
 name: problems/diophantine_problems/E0477
 title: Problem 477
 desc: |
-  Asks whether the image of an integer polynomial of degree at least two
-  admits a unique additive complement in the integers.
+  Asks whether there are a polynomial $f:\mathbb{Z}\to\mathbb{Z}$ of degree at
+  least $2$ and a set $A\subset\mathbb{Z}$ such that every integer is $a+b$ in
+  exactly one way, with $a\in A$ and $b$ a value of $f$.
 tags:
 - Number theory
 - Sidon sets
@@ -30,21 +31,21 @@ $n=a+b$?
 uniqueness of the pair $(a,b)$, not uniqueness of a polynomial input when
 different inputs have the same value.
 
-**Status.** The site labels the problem SOLVED on its problem page as accessed
-2026-09-09, the page last edited 5 September 2026 (OPEN in the site's export of
-2026-09-04). Its commentary credits GPT, prompted independently by Price and by
-pipeline-math, with proving that such an $A$ exists for $f(n)=n^d$ and every
-even $d\ge6$; that is the range in which Price's construction tiles the full
-image, while the pipeline-math manuscript treats $f(X)=X^{13}$ only. The claim
-pages
+**Status.** The site labels the problem SOLVED on its problem page, accessed
+2026-09-09 and last edited 5 September 2026. The site's export of 2026-09-04
+showed OPEN. The derived claim value is `proved`, where the site's SOLVED reads
+as `answered`. The reason is that the question asks whether such an $f$ and $A$
+exist, and the accepted claims prove that they do. The site's commentary credits
+GPT, prompted independently by Price and by pipeline-math, with proving that
+such an $A$ exists for $f(n)=n^d$ and every even $d\ge6$. That is the range in
+which Price's construction tiles the full image. The pipeline-math manuscript
+treats only $f(X)=X^{13}$. The claim pages
 [[problems/diophantine_problems/E0477/claims/2026_06_28_pipeline_math|pipeline-math]]
 and [[problems/diophantine_problems/E0477/claims/2026_07_27_price|Price]] record
-the results and their acceptance;
+the results and their acceptance.
 [[problems/diophantine_problems/E0477/claims/1959_01_01_sekanina|Sekanina's]]
-records the refereed negative answer for $f(X)=X^2$, and a fourth claim is
-pending. The derived claim value is `proved` where the site's SOLVED reads as
-`answered`, because the question asks whether such an $f$ and $A$ exist and the
-accepted claims prove that they do.
+claim page records the refereed negative answer for $f(X)=X^2$. A fourth claim
+is pending.
 
 **Source.** [erdosproblems.com/477](https://www.erdosproblems.com/477), accessed
 2026-09-09; the statement above is unchanged from the 2026-09-04 import.

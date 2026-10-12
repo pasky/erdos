@@ -2,9 +2,10 @@
 name: problems/covering_systems/E0275/claims/1970_03_01_crittenden_vanden_eynden
 title: Crittenden and Vanden Eynden's interval covering theorem
 desc: |
-  The 1970 theorem of Crittenden and Vanden Eynden in Proc. Amer. Math. Soc.
-  that r congruences covering 2^r consecutive integers cover every integer, a
-  conjecture of Erdős also proved by Selfridge; accepted as a refereed paper.
+  Crittenden and Vanden Eynden proved in Proc. Amer. Math. Soc. (1970) that $r$
+  congruences covering $2^r$ consecutive integers cover every integer, a
+  conjecture of Erdős that Selfridge also proved. It is accepted as a refereed
+  paper.
 authors:
 - R. B. Crittenden
 - C. L. Vanden Eynden
@@ -49,20 +50,21 @@ cutoff-$1$ case is the theorem.
 **Depends on.** Nothing in this wiki: the theorem is the paper's own.
 
 **Acceptance.** Refereed: Proceedings of the American Mathematical Society 24
-(1970), no. 3, 475–481, the DOI linked above, issued in March 1970; the page
-name carries the issue month, and the publication record gives no day.
-Reviewed: the site's curator, Thomas F. Bloom, records the problem as proved
-independently by Selfridge and by Crittenden and Vanden Eynden in the
-problem's commentary (page last edited 2026-01-23), and the theorem is a
-standard input in the
-later literature, as the sources above show. The site's label carries a Lean
-qualification: formal-conjectures marks the problem solved and points to a
-Lean proof in Boris Alexeev's lean-proofs repository, which follows the short
-proof of Balister,
-Bollobás, Morris, Sahasrabudhe and Tiba and is therefore recorded on
-[[problems/covering_systems/E0275/claims/2019_09_05_balister_bollobas_morris_sahasrabudhe_tiba|their claim page]];
-this corpus has audited no formal proof of the statement, so `formalized` is
-not listed here.
+(1970), no. 3, 475–481, at the DOI linked above, issued in March 1970. The page
+name carries the issue month, because the publication record gives no day.
+
+Reviewed: the site's curator, Thomas F. Bloom, records in the problem's
+commentary that the problem was proved independently by Selfridge and by
+Crittenden and Vanden Eynden (page last edited 2026-01-23). The theorem is a
+standard input in the later literature, as the sources above show.
+
+The site's label carries a Lean qualification. Formal-conjectures marks the
+problem solved and points to a Lean proof in Boris Alexeev's lean-proofs
+repository. That proof follows the short proof of Balister, Bollobás, Morris,
+Sahasrabudhe and Tiba, so it is recorded on
+[[problems/covering_systems/E0275/claims/2019_09_05_balister_bollobas_morris_sahasrabudhe_tiba|their claim page]].
+This corpus has audited no formal proof of the statement, so `formalized` is not
+listed here.
 
 **Not covered.** The authors' conjecture for progressions with all moduli at
 least $k$, studied by Simpson, and the variants with distinct moduli are

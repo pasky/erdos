@@ -4,7 +4,8 @@ title: Just and Krawczyk's isomorphism under the continuum hypothesis
 desc: |
   Just and Krawczyk (Trans. Amer. Math. Soc., 1984) prove under the continuum
   hypothesis that the algebras of sets of integers modulo density zero and
-  modulo logarithmic density zero are isomorphic, so ZFC cannot prove otherwise.
+  modulo logarithmic density zero are isomorphic. So ZFC cannot prove that they
+  are not isomorphic.
 authors:
 - Winfried Just
 - Adam Krawczyk

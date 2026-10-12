@@ -3,8 +3,9 @@ name: problems/arithmetic_functions/E0897/claims/2025_12_26_archivara
 title: Archivara's explicit additive counterexample
 desc: |
   Archivara's 2025 manuscript, written by its research agent, constructs an
-  explicit additive function answering both questions no; read on the site's
-  thread as a rediscovery of Wirsing's construction, later formalized in Lean.
+  explicit additive function that answers both questions no. The site's thread
+  reads it as a rediscovery of Wirsing's construction, and it was later
+  formalized in Lean.
 authors: []
 status: accepted
 claim: disproved
@@ -62,23 +63,24 @@ closing `#print axioms` lines record the closure `propext`, `Classical.choice`,
 `native_decide`; the file is not among the Lean the corpus has built and
 audited, so `formalized` is not listed as evidence.
 
-**Acceptance.** Reviewed: on the discussion thread, Nat Sothanaphan, who is
-independent of Archivara, wrote on 2025-12-26 that they had read the writeup and
-found the proof correct, with one caveat, that the proof of the manuscript's
-Corollary 2 shows only $\limsup_n f(n+1)/f(n)\le1$ rather than equality; the
-inequality is all the second question needs, so the caveat does not affect the
-answer. On the same day Tao wrote that the argument looked good to them and
-noted that any nonnegative counterexample to the first question becomes one
-to the second after adding $\log n$; on 2025-12-27 Tao classified the
-manuscript as an independent rediscovery of a counterexample already in
-the literature, the one Wirsing published in 1981 and recorded on
+**Acceptance.** Reviewed: Nat Sothanaphan, who is independent of Archivara,
+wrote on the discussion thread on 2025-12-26 that they had read the writeup and
+found the proof correct, with one caveat. The proof of the manuscript's
+Corollary 2 shows only $\limsup_n f(n+1)/f(n)\le1$, not equality. The inequality
+is all the second question needs, so the caveat does not affect the answer. On
+the same day Tao wrote that the argument looked good to them. Tao also noted
+that any nonnegative counterexample to the first question becomes one to the
+second after adding $\log n$. On 2025-12-27 Tao classified the manuscript as an
+independent rediscovery of a counterexample already in the literature. That
+counterexample is the one Wirsing published in 1981, recorded on
 [[problems/arithmetic_functions/E0897/claims/1981_01_01_wirsing|Wirsing 1981]].
+
 The site's curator, Thomas F. Bloom, credits the construction to Wirsing and
-does not name the manuscript, so Bloom's credit is recorded on Wirsing's page
-and not as evidence here. After the formalization was posted on the thread on
-2025-12-27, the site labels the problem DISPROVED (LEAN) (page last edited 1
-April 2026), the community database records the formal status Lean, and the
-formal-conjectures statement file, at the commit linked above, marks both parts
-research solved with their formal-proof attribute pointing at this Lean file on
-its repository's main branch. The problem page is
+does not name the manuscript. So Bloom's credit is recorded on Wirsing's page
+and not as evidence here. The formalization was posted on the thread on
+2025-12-27. After that, the site labels the problem DISPROVED (LEAN) (page last
+edited 1 April 2026), and the community database records the formal status Lean.
+The formal-conjectures statement file, at the commit linked above, marks both
+parts research solved, with their formal-proof attribute pointing at this Lean
+file on its repository's main branch. The problem page is
 [[problems/arithmetic_functions/E0897/_index|Problem 897]].

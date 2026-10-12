@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0535
 title: Problem 535
 desc: |
-  Estimates the largest subset of the integers up to N containing no r
-  elements whose pairwise greatest common divisors are all equal, for r at
-  least three.
+  Asks for estimates of $f_r(N)$, the size of the largest subset of
+  $\{1,\ldots,N\}$ with no $r$ elements whose pairwise greatest common divisors
+  are all equal, for $r\ge3$.
 tags:
 - Number theory
 status: open
@@ -39,20 +39,20 @@ pairwise the same greatest common divisor, one more than the largest
 admissible size, so every bound below transfers with a change of at most
 one. Abbott and Gardner write $f(n,k)$ for the largest size.
 
-**Status.** Open, the site's label. The bounds in hand are Erdős's 1964 theorem,
-$N^{c_r/\log\log N}<f_r(N)<N^{3/4+\varepsilon}$ for every fixed $r\ge3$ and
-$\varepsilon>0$
-([[problems/integer_sequences/E0535/claims/1964_03_20_erdos|Erdős (1964)]]), the
-improvement of the upper exponent to $1/2+\varepsilon$ by Abbott and Hanson
-([[problems/integer_sequences/E0535/claims/1970_11_01_abbott_hanson|Abbott and Hanson (1970)]];
-not held, attested by Erdős's 1973 survey and by the site), and the site's
-derivation of $f_r(N)\le N^{C_r\log\log\log N/\log\log N}$, hence
-$f_r(N)\le N^{o(1)}$, from the Alweiss–Lovett–Wu–Zhang sunflower bound inserted
-into Erdős's 1964 argument (the site's derivation, which the corpus has not
-checked). Erdős conjectured that the lower bound gives the right order. No
-source determining the order of $f_r(N)$, and no proof claim, was found in the
-search whose scope the Current assessment records. This is
-a bounded negative finding, not a certificate of openness.
+**Status.** The site's label is Open. Three bounds are in hand. Erdős's 1964
+theorem gives $N^{c_r/\log\log N}<f_r(N)<N^{3/4+\varepsilon}$ for every fixed
+$r\ge3$ and $\varepsilon>0$
+([[problems/integer_sequences/E0535/claims/1964_03_20_erdos|Erdős (1964)]]).
+Abbott and Hanson improved the upper exponent to $1/2+\varepsilon$
+([[problems/integer_sequences/E0535/claims/1970_11_01_abbott_hanson|Abbott and Hanson (1970)]]).
+Their paper is not held, and the result is attested by Erdős's 1973 survey and
+by the site. The site derives $f_r(N)\le N^{C_r\log\log\log N/\log\log N}$,
+hence $f_r(N)\le N^{o(1)}$, by inserting the Alweiss–Lovett–Wu–Zhang sunflower
+bound into Erdős's 1964 argument. The corpus has not checked that derivation.
+Erdős conjectured that the lower bound gives the right order. No source
+determining the order of $f_r(N)$, and no proof claim, was found in the search
+whose scope the Current assessment records. This is a bounded negative finding,
+not a certificate of openness.
 
 **Source.** [erdosproblems.com/535](https://www.erdosproblems.com/535),
 accessed 2026-09-18: the problem page (OPEN, with the label text saying the

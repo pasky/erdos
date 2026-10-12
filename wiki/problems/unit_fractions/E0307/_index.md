@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0307
 title: Problem 307
 desc: |
-  Asks whether two finite sets of primes exist whose sums of reciprocals
-  multiply together to give one.
+  Asks whether there are two finite sets of primes whose sums of reciprocals
+  have product $1$.
 tags:
 - Number theory
 - Unit fractions
@@ -50,28 +50,27 @@ by reciprocals of distinct semiprimes, which is the case $a/b=1$ of
 [[problems/unit_fractions/E0306/_index|Problem 306]] in a very special shape;
 that problem's representations do not conversely factor.
 
-**Status.** Verifiable, the site's label for this open question: the
-site's explanation is that the problem is open but a finite example could
-prove it, since a positive answer would be witnessed by one pair $(P,Q)$
-and checked by exact arithmetic. The label does not mean that such a pair
-has been found. The standing derived from the claim pages is open, claim
-none: the two claim pages are partial claims giving necessary conditions on
-a solution,
+**Status.** Verifiable, the site's label for this open question. The site
+explains that the problem is open but a finite example could prove it, since one
+pair $(P,Q)$ would witness a positive answer and exact arithmetic could check
+it. The label does not mean that such a pair has been found. The standing
+derived from the claim pages is open, claim none. Both claim pages are partial
+claims giving necessary conditions on a solution:
 [[problems/unit_fractions/E0307/claims/2012_03_25_kovic|Kovič's conditions on two-cycles]]
 (accepted, refereed) and
 [[problems/unit_fractions/E0307/claims/2026_06_13_bonfioli|Bonfioli's barrier of sixty primes]]
-(pending), and nothing settles or pends on the existence question. No
-example, no proof that none exists and no accepted claim on the existence
-question was found in the search whose scope the
-Current assessment records. The known bounds are three: the elementary
-ones recorded below (the sets are disjoint, as Robert Israel observed on
-[MO19] in 2019, and any solution uses at least $59$ primes, as Julian
-Rosen observed there); Kovič's refereed 2012 conditions [Ko12] (no
-solution with $|P|=|Q|=2$, both products at least $10^4$, and at least
-nine primes in an odd smaller product); and the manuscript [Bo26]'s finite
-verification pushing the count to $60$ with a large lower bound on the
-products. This is a bounded negative finding, not a certificate of
-openness.
+(pending). No claim settles the existence question or is pending on it.
+
+Three kinds of bound are known. The first are the elementary ones recorded
+below: the sets are disjoint, as Robert Israel observed on [MO19] in 2019, and
+any solution uses at least $59$ primes, as Julian Rosen observed there. The
+second are Kovič's refereed 2012 conditions [Ko12]: no solution with
+$|P|=|Q|=2$, both products at least $10^4$, and at least nine primes in an odd
+smaller product. The third is the finite verification in the manuscript [Bo26],
+which pushes the count to $60$ with a large lower bound on the products. The
+search whose scope the Current assessment records found no example, no proof
+that none exists and no accepted claim on the existence question. This is a
+bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/307](https://www.erdosproblems.com/307), accessed
 2026-09-18: the problem page (VERIFIABLE, explained by

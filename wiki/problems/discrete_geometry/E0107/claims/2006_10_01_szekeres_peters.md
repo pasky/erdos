@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0107/claims/2006_10_01_szekeres_peters
 title: Szekeres and Peters's computer proof that 17 points force a hexagon
 desc: |
-  Szekeres and Peters (ANZIAM J. 2006) prove by computer that every 17 points
-  in the plane with no three collinear contain six in convex position; with
-  the 16-point construction this gives f(6) = 17, the instance n = 6.
+  Szekeres and Peters (ANZIAM J. 2006) prove by computer that every 17 points in
+  the plane with no three collinear contain six in convex position. With the
+  16-point construction this gives $f(6)=17$, the instance $n=6$.
 authors:
 - George Szekeres
 - Lindsay Peters

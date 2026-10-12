@@ -3,8 +3,8 @@ name: problems/covering_systems/E1189/claims/2019_04_09_balister_bollobas_morris
 title: The count of minimal covering systems bounds the count
 desc: |
   The asymptotic of Balister, Bollobás, Morris, Sahasrabudhe and Tiba for the
-  number of minimal covering systems with k classes bounds the number of
-  irreducible covering sets of size k from above; accepted on the paper.
+  number of minimal covering systems with $k$ classes bounds the number of
+  irreducible covering sets of size $k$ from above. It is accepted on the paper.
 authors:
 - Paul Balister
 - Béla Bollobás
@@ -61,7 +61,7 @@ of moduli.
 **Depends on.** No page of this wiki; the counting theorem is the paper's.
 
 **Acceptance.** Refereed: Journal of the European Mathematical Society 26
-(2024), no. 1, 75–109, the DOI linked above; the page is named by the arXiv
-posting of 2019-04-09. The site's commentary credits the bound to these
-authors, but the site labels the problem OPEN, so that remark is context and
-not acceptance.
+(2024), no. 1, 75–109, at the DOI linked above. The page is named by the arXiv
+posting of 2019-04-09. The site's commentary credits the bound to these authors,
+but the site labels the problem OPEN, so that remark is context and not
+acceptance.

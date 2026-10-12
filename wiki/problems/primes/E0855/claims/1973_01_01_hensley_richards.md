@@ -2,9 +2,10 @@
 name: problems/primes/E0855/claims/1973_01_01_hensley_richards
 title: Hensley and Richards's conditional failure of the inequality
 desc: |
-  Hensley and Richards (Acta Arith. 25) prove that the prime k-tuples
-  conjecture implies pi(x+y) > pi(x)+pi(y) for infinitely many y at every
-  large x; refereed, conditional, so it settles no standing.
+  Hensley and Richards (Acta Arith. 25) prove that the prime $k$-tuples
+  conjecture implies $\pi(x+y)>\pi(x)+\pi(y)$ for infinitely many $y$ at every
+  large $x$. The paper is refereed, and the result is conditional, so it settles
+  no standing.
 authors:
 - Douglas Hensley
 - Ian Richards
@@ -61,9 +62,9 @@ $b_1<\cdots<b_k$ has infinitely many $n$ with all of $n+b_1,\ldots,n+b_k$
 prime. It is unproved, so the claim gives no unconditional answer; the
 unconditional content is only that (A) and (B) cannot both hold.
 
-**Acceptance.** The result is refereed in Acta Arithmetica 25. The
-symposium volume is not counted as refereed, and the site's commentary on a
-problem it labels open is not acceptance. The page is dated by the year of
-the site's key, the symposium paper of 1973.
+**Acceptance.** The result is refereed in Acta Arithmetica 25. The symposium
+volume is not counted as refereed. The site's commentary on a problem it labels
+open is not acceptance. The page is dated by the year of the site's key, the
+symposium paper of 1973.
 
 **Depends on.** Nothing on this wiki; the argument is the paper's own.

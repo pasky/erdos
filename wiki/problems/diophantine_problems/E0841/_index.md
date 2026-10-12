@@ -2,10 +2,10 @@
 name: problems/diophantine_problems/E0841
 title: Problem 841
 desc: |
-  Estimates the least length of a run of integers just above n that contains a
-  subset whose product with n is a perfect square; Erdős's original question,
-  whether the n with t_n at least n^{1-o(1)} have density zero, has the answer
-  yes.
+  Asks for estimates of the least $t_n$ such that $\{n+1,\ldots,n+t_n\}$
+  contains a subset whose product with $n$ is a square. Erdős's original
+  question, whether the $n$ with $t_n\ge n^{1-o(1)}$ have density zero, has the
+  answer yes.
 tags:
 - Number theory
 status: solved
@@ -48,8 +48,8 @@ $t_n\gg(\log\log n)^{6/5}(\log\log\log n)^{-1/5}$ for sufficiently large
 non-square $n$. The page's standing reads the question as answered by these
 results; they do not determine the order of $t_n$ for an individual $n$.
 
-**Status.** SOLVED, in the site's label (page last edited 14 October 2025),
-which describes the Statement above.
+**Status.** SOLVED, in the site's label, which describes the Statement above.
+The site's page was last edited on 14 October 2025.
 
 **Source.** [erdosproblems.com/841](https://www.erdosproblems.com/841), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #841,

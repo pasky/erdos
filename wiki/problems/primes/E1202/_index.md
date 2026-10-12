@@ -2,9 +2,9 @@
 name: problems/primes/E1202
 title: Problem 1202
 desc: |
-  Asks whether some k exists so that sieving half the residue classes modulo
-  each of k primes below n to the one minus epsilon leaves few integers up to
-  n.
+  Asks whether some $k$ ensures that, for any $k$ primes $p_i<n^{1-\epsilon}$,
+  removing $(p_i-1)/2$ residue classes modulo each $p_i$ leaves at most
+  $\epsilon n$ integers $m\le n$.
 tags:
 - Number theory
 - Primes
@@ -36,15 +36,15 @@ site, $\eta$ enters only through $k$, and the site's non-strict bound in place
 of the strict one changes no answer on this page. The standing answers the
 site's wording, with the bound $\epsilon n$.
 
-**Status.** Disproved. The site labels the problem SOLVED, and its curator
-credits Price and GPT-5.4 Pro with a negative answer, and that credit is the
-acceptance evidence on
-[[problems/primes/E1202/claims/2026_04_07_price|the claim page]], from which
-the standing derives. The status-defining argument is not held: the
-manuscript behind the label is inaccessible to the corpus (an online-editor
-read link exposing no document), and the only fixed written form of the
-argument known to the corpus is an external Lean file that proves the
-negation of the statement, not built here. See "Current assessment".
+**Status.** Disproved. The site labels the problem SOLVED. Its curator credits
+Price and GPT-5.4 Pro with a negative answer. That credit is the acceptance
+evidence on [[problems/primes/E1202/claims/2026_04_07_price|the claim page]],
+and the standing derives from that page. The corpus does not hold the
+status-defining argument. The manuscript behind the label is inaccessible to the
+corpus, because its online-editor read link exposes no document. The only fixed
+written form of the argument known to the corpus is an external Lean file that
+proves the negation of the statement. That file is not built here. See "Current
+assessment".
 
 **Source.** [erdosproblems.com/1202](https://www.erdosproblems.com/1202),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1202,

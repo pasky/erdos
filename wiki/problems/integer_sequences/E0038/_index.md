@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0038
 title: Problem 38
 desc: |
-  Asks whether a set that is not an additive basis can still always supply a
-  shift raising the count of any set of Schnirelmann density strictly between
-  0 and 1 by a positive fraction depending on the density; proved in 2026.
+  Asks whether a set that is not an additive basis can, for every set $A$ of
+  Schnirelmann density $\alpha\in(0,1)$ and every $N$, supply a shift $b$ such
+  that $A\cup(A+b)$ has at least $(\alpha+f(\alpha))N$ elements up to $N$, with
+  $f(\alpha)>0$; proved in 2026.
 tags:
 - Number theory
 status: solved
@@ -37,16 +38,16 @@ $$
 d_s(A) = \inf_{N\geq 1}\frac{\lvert A\cap\{1,\ldots,N\}\rvert}{N}.
 $$
 
-**Status.** The site labels the problem **PROVED (LEAN)**. A six-page
-anonymous manuscript posted on 25 April 2026, credited by the site to GPT 5.5
-Pro prompted by a forum user, constructs a set that is not an additive basis
-and has the shift property with an explicit $f(\alpha)>0$; Thomas Bloom, the
-site's curator, accepted it, Nat Sothanaphan's check of the write-up found no
-issues, and there is no refereed version. The site's (LEAN) suffix is a
-catalog label: the linked Lean files are a statement with a placeholder and
-an unbuilt community proof, described under Formalization. The claim page
+**Status.** The site labels the problem **PROVED (LEAN)**. A six-page anonymous
+manuscript posted on 25 April 2026 constructs a set that is not an additive
+basis and has the shift property with an explicit $f(\alpha)>0$. The site
+credits the manuscript to GPT 5.5 Pro, prompted by a forum user. Thomas Bloom,
+the site's curator, accepted it. Nat Sothanaphan checked the write-up and found
+no issues. There is no refereed version. The claim page
 [[problems/integer_sequences/E0038/claims/2026_04_25_gebyjaff|the 2026
-construction]] records the acceptance.
+construction]] records the acceptance. The site's (LEAN) suffix is a catalog
+label. The linked Lean files are a statement with a placeholder and an unbuilt
+community proof, described under Formalization.
 
 **Source.** [erdosproblems.com/38](https://www.erdosproblems.com/38), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #38,

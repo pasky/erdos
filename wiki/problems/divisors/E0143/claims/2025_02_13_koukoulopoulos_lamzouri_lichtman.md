@@ -2,9 +2,10 @@
 name: problems/divisors/E0143/claims/2025_02_13_koukoulopoulos_lamzouri_lichtman
 title: The Koukoulopoulos, Lamzouri and Lichtman logarithmic-density theorem
 desc: |
-  A set of reals above one whose elements keep distance at least one from
-  every integer multiple of the others has reciprocal sum o(log n) up to n,
-  the second of the problem's two displayed assertions.
+  By a theorem of Koukoulopoulos, Lamzouri and Lichtman, a set $A$ of reals
+  above $1$ whose elements keep distance at least $1$ from every integer
+  multiple of the others has $\sum_{x\in A,\,x<n}1/x=o(\log n)$. This is the
+  second of the problem's two displayed assertions.
 authors:
 - Dimitris Koukoulopoulos
 - Youness Lamzouri

@@ -2,8 +2,9 @@
 name: problems/ramsey_theory/E0801
 title: Problem 801
 desc: |
-  Asks whether a graph on n vertices with no independent set larger than the
-  square root of n has a set of that many vertices spanning many more edges.
+  Asks whether every graph on $n$ vertices with no independent set of more than
+  $\sqrt n$ vertices has a set of at most $\sqrt n$ vertices spanning
+  $\gg\sqrt n\log n$ edges.
 tags:
 - Graph theory
 - Ramsey theory
@@ -51,20 +52,21 @@ outright, the twin blow-up extends it to the Statement, and the site's curator
 credits it as the proof of the site's statement. Erdős's own wording (1979, the
 typescript page headed 15) is quoted in the Current assessment.
 
-**Status.** The site labels the problem PROVED and its curator credits Alon
-[Al96b]. Alon's Theorem 1.2: if $\alpha(G)<\lfloor\sqrt n\rfloor$ for a graph
-$G$ on $n$ vertices, some set of $\lfloor\sqrt n\rfloor$ vertices spans
-$\Omega(\sqrt n\log n)$ edges; "This is tight and settles a problem of Erdös
-[4]", the tightness being Proposition 3.1 (for every $1<m\le n$ a graph with
-$\alpha(G)<m$ in which every $m$-set spans at most $cm\ln(en/m)$ edges).
-Published in Random Structures Algorithms 9 (1996), 271--278 (refereed); the
-pages cited are the author's preprint's, which lacks the journal pagination and
-was not compared with the journal text. Read depth: claims checked for
-Theorem 1.2 and Proposition 3.1; the proof of Theorem 1.2 was read for its
-structure and not reviewed. The frontmatter standing is derived from the claim
-pages: Alon's theorem is an accepted full claim on the site curator's acceptance
-and its refereed publication
-([[problems/ramsey_theory/E0801/claims/1996_10_01_alon|claim page]]).
+**Status.** The site labels the problem PROVED, and its curator credits Alon
+[Al96b]. The frontmatter standing is derived from the claim pages. Alon's
+theorem is an accepted full claim on the site curator's acceptance and its
+refereed publication
+([[problems/ramsey_theory/E0801/claims/1996_10_01_alon|claim page]]). Alon's
+Theorem 1.2 states that if $\alpha(G)<\lfloor\sqrt n\rfloor$ for a graph $G$ on
+$n$ vertices, some set of $\lfloor\sqrt n\rfloor$ vertices spans
+$\Omega(\sqrt n\log n)$ edges. It is followed by the remark "This is tight and
+settles a problem of Erdös [4]". The tightness is Proposition 3.1: for every
+$1<m\le n$ there is a graph with $\alpha(G)<m$ in which every $m$-set spans at
+most $cm\ln(en/m)$ edges. The paper was published in Random Structures
+Algorithms 9 (1996), 271--278 (refereed). The pages cited are those of the
+author's preprint, which lacks the journal pagination and was not compared with
+the journal text. Read depth: claims checked for Theorem 1.2 and Proposition
+3.1; the proof of Theorem 1.2 was read for its structure and not reviewed.
 
 **Source.** [erdosproblems.com/801](https://www.erdosproblems.com/801),
 accessed 2026-09-18T01:43Z: the problem page (labeled PROVED,

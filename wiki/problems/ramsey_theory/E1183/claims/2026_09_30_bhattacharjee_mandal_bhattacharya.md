@@ -3,8 +3,9 @@ name: problems/ramsey_theory/E1183/claims/2026_09_30_bhattacharjee_mandal_bhatta
 title: Bhattacharjee, Mandal and Bhattacharya, both Erdős–Ulam conjectures on F(n), with a Lean formalization
 desc: |
   Bhattacharjee, Mandal and Bhattacharya (Zenodo 30 September 2026, arXiv 2
-  October): F(n) ≥ n^{ω(n)} with ω(n) → ∞ and F(n) < (1 + o(1))^n for any
-  number of colors, with a Lean 4 development of their own; unreviewed here.
+  October) claim $F(n)\ge n^{\omega(n)}$ with $\omega(n)\to\infty$ and
+  $F(n)<(1+o(1))^n$ for any number of colors, with a Lean 4 development of their
+  own. The claim is unreviewed here.
 authors:
 - Deep Bhattacharjee
 - Priyabrata Mandal

@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0639
 title: Problem 639
 desc: |
-  Asks whether any two-coloring of the edges of K_n leaves at most n²/4 edges
-  on no monochromatic triangle for large n, as Erdős stated it; proved by Keevash
-  and Sudakov's exact theorem, while the site's wording fails for n from 3 to 6.
+  Asks whether, for large $n$, every 2-coloring of the edges of $K_n$ leaves at
+  most $n^2/4$ edges in no monochromatic triangle, as Erdős stated it. Proved by
+  Keevash and Sudakov's exact theorem, though the site's wording fails for
+  $3\le n\le6$.
 tags:
 - Graph theory
 - Ramsey theory
@@ -69,26 +70,26 @@ Keevash and Sudakov (p. 42) cite the item as "Problem 10" and read that
 sentence as Erdős suggesting "that generalizations of this result should be
 possible" for other fixed graphs $H$, the paper's Theorems 1.2--1.5.
 
-**Status.** The site shows PROVED (LEAN), a label that describes the
-corrected Statement; the suffix is a catalog label explained under
-Formalization, with no local kernel credit claimed. The corrected Statement
-is **proved**: Theorem 1.1 of Keevash and Sudakov (J. Combin. Theory Ser. B
-90 (2004), 41--53, refereed) determines $f(n,\triangle)$ for every $n$, and
-in particular $f(n,\triangle)=\lfloor n^2/4\rfloor\le n^2/4$ for all
-$n\ge7$. The site credits the large-$n$ case earlier to Erdős, Rousseau and
-Schelp (unpublished; stated as proved, without proof, in item 10 of
-[Er97d]) and to Alon's deduction from Pyber's clique-covering theorem,
-[Py86] Theorem 1 (p. 393; paged at
-[[../library/ramsey_theory/pyber_1986_clique_covering_graphs/theorem_1|Theorem 1]]),
-the deduction itself being reported by [KeSu04] and not printed in [Py86].
-The claim page
+**Status.** The site shows PROVED (LEAN), a label that describes the corrected
+Statement. The suffix is a catalog label explained under Formalization, and no
+local kernel credit is claimed. The corrected Statement is **proved**. The claim
+page
 [[problems/ramsey_theory/E0639/claims/2003_07_16_keevash_sudakov|Keevash and Sudakov 2003]]
-records the theorem, its postings and its acceptance evidence, and carries
-the Lean file behind the site's suffix as a formalization link; the
-frontmatter standing derives from it. The site's wording, which drops "for
-large $n$", is false at $n=3,4,5,6$ by the same theorem, as the Notes
-record. Read depth: claims checked for Theorem 1.1 and Proposition 2.1; the
-proof is checked for structure only.
+records the theorem, its postings and its acceptance evidence, and the
+frontmatter standing derives from it. The page also carries the Lean file behind
+the site's suffix as a formalization link. Theorem 1.1 of Keevash and Sudakov
+(J. Combin. Theory Ser. B 90 (2004), 41--53, refereed) determines
+$f(n,\triangle)$ for every $n$. In particular,
+$f(n,\triangle)=\lfloor n^2/4\rfloor\le n^2/4$ for all $n\ge7$. The site credits
+the large-$n$ case earlier to Erdős, Rousseau and Schelp (unpublished; stated as
+proved, without proof, in item 10 of [Er97d]). It also credits it to Alon's
+deduction from Pyber's clique-covering theorem, [Py86] Theorem 1 (p. 393; paged
+at
+[[../library/ramsey_theory/pyber_1986_clique_covering_graphs/theorem_1|Theorem 1]]).
+The deduction itself is reported by [KeSu04] and is not printed in [Py86]. The
+site's wording, which drops "for large $n$", is false at $n=3,4,5,6$ by the same
+theorem, as the Notes record. Read depth: claims checked for Theorem 1.1 and
+Proposition 2.1; the proof is checked for structure only.
 
 **Source.** [erdosproblems.com/639](https://www.erdosproblems.com/639),
 accessed 2026-09-18: the problem page (PROVED (LEAN), a label the site

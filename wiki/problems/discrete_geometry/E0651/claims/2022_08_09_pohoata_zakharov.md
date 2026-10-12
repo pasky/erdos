@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0651/claims/2022_08_09_pohoata_zakharov
 title: Pohoata and Zakharov's subexponential bound in dimension three
 desc: |
-  Pohoata and Zakharov prove that f_3(n) is at most 2 to the o(n), so no
-  constant c_k > 0 gives f_k(n) > (1 + c_k)^n in any dimension k at least
-  three; refereed in Duke Math. J. (2025) and credited by the site's curator.
+  Pohoata and Zakharov prove that $f_3(n)\le2^{o(n)}$, so no constant $c_k>0$
+  gives $f_k(n)>(1+c_k)^n$ in any dimension $k\ge3$. The refereed paper appeared
+  in Duke Math. J. (2025), and the site's curator credits it.
 authors:
 - Cosmin Pohoata
 - Dmitrii Zakharov
@@ -67,14 +67,14 @@ the prediction of Morris and Soltan that $f_k(n)$ grows like $2^{2n/k}$, and
 its Theorems 1.2 and 1.3 give positive-fraction versions in dimension three and
 above; neither is needed for this problem.
 
-**Acceptance.** The paper is refereed: it appeared in Duke Mathematical
-Journal, volume 174 (2025), issue 3, pages 449–471. The site's curator, Thomas
-Bloom, labels the problem DISPROVED (site export of 2026-09-04) and credits
-the result to Pohoata and Zakharov. The site's thread records a short exchange
-of December 2025 in which a reader asked why a subexponential bound rules out
-every positive $c_k$ and received the argument given above. This corpus has
-checked the statement of Theorem 1.1 against the question as recorded on the
-source card; it has not reviewed the proof.
+**Acceptance.** The paper is refereed. It appeared in Duke Mathematical Journal,
+volume 174 (2025), issue 3, pages 449–471. The site's curator, Thomas Bloom,
+labels the problem DISPROVED (site export of 2026-09-04) and credits the result
+to Pohoata and Zakharov. The site's thread records a short exchange of
+December 2025. In it, a reader asked why a subexponential bound rules out every
+positive $c_k$ and received the argument given above. This corpus has checked
+the statement of Theorem 1.1 against the question as recorded on the source
+card. It has not reviewed the proof.
 
 **Formalizations.** Two third-party Lean developments formalize the result, both
 linked above and neither built or audited by this corpus, so neither gives

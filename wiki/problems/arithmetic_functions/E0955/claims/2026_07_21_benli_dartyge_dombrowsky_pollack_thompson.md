@@ -3,8 +3,8 @@ name: problems/arithmetic_functions/E0955/claims/2026_07_21_benli_dartyge_dombro
 title: Missing-digit preimages of the sum of proper divisors in every base
 desc: |
   Benli, Dartyge, Dombrowsky, Pollack and Thompson extend the missing-digit
-  preimage bound to every base g at least 2, supplying the binary case in an
-  appendix.
+  preimage bound to every base $g\ge2$. They supply the binary case, $g=2$, in
+  an appendix.
 authors:
 - Kübra Benli
 - Cécile Dartyge

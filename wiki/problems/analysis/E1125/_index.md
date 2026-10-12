@@ -2,8 +2,8 @@
 name: problems/analysis/E1125
 title: Problem 1125
 desc: |
-  Asks whether a real function with twice its value at a point at most the sum
-  of its values at two later equally spaced points must be monotonic.
+  Asks whether every $f:\mathbb{R}\to\mathbb{R}$ with $2f(x)\le f(x+h)+f(x+2h)$
+  for all $x\in\mathbb{R}$ and $h>0$ must be monotonic.
 tags:
 - Analysis
 status: solved
@@ -28,16 +28,15 @@ $$
 
 for every $x\in \mathbb{R}$ and $h>0$. Must $f$ be monotonic?
 
-**Status.** PROVED (LEAN), on the site's label, which credits Laczkovich
-[La84] for the solution: every such function is **nondecreasing**, without any
-regularity assumption, by Laczkovich's published Theorem 1, recorded as an
-[[problems/analysis/E1125/claims/1984_01_01_laczkovich|accepted claim]];
-Kemperman's earlier proof of the measurable case [Ke69] is the accepted
-partial claim
-[[problems/analysis/E1125/claims/1969_01_01_kemperman|Kemperman 1969]]. The
-Lean part of the label refers to a public formalization of that proof, linked
-from the claim page and qualified under Public formal evidence below; this
-corpus has not built it.
+**Status.** PROVED (LEAN) on the site's label, which credits Laczkovich [La84]
+for the solution. By Laczkovich's published Theorem 1, every such function is
+**nondecreasing**, without any regularity assumption. This result is recorded as
+an [[problems/analysis/E1125/claims/1984_01_01_laczkovich|accepted claim]].
+Kemperman's earlier proof of the measurable case [Ke69] is the accepted partial
+claim [[problems/analysis/E1125/claims/1969_01_01_kemperman|Kemperman 1969]].
+The Lean part of the label refers to a public formalization of Laczkovich's
+proof. It is linked from the claim page and qualified under Public formal
+evidence below. This corpus has not built it.
 
 **Source.** [erdosproblems.com/1125](https://www.erdosproblems.com/1125),
 accessed 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #1125,

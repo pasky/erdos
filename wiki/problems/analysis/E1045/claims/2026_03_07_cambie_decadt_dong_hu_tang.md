@@ -2,9 +2,9 @@
 name: problems/analysis/E1045/claims/2026_03_07_cambie_decadt_dong_hu_tang
 title: The exact maxima for at most five points
 desc: |
-  An arXiv preprint of Cambie, Decadt, Dong, Hu and Tang determines the
-  maximum for every n at most 5, with the kite the unique maximizer at n = 4
-  and the regular pentagon at n = 5.
+  An arXiv preprint of Cambie, Decadt, Dong, Hu and Tang determines the maximum
+  for every $n\le5$. The kite is the unique maximizer at $n=4$, and the regular
+  pentagon is the unique maximizer at $n=5$.
 authors:
 - Stijn Cambie
 - Arne Decadt

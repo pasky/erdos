@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0324/claims/2021_10_03_dubickas_novikas
 title: Dubickas and Novikas exclude cubic polynomials
 desc: |
-  Dubickas and Novikas (Math. Nachr. 2021) prove that no cubic polynomial with
-  integer coefficients has all sums of two values at distinct arguments
-  distinct; refereed.
+  Dubickas and Novikas (Math. Nachr. 2021) prove in a refereed paper that no
+  cubic polynomial with integer coefficients has all sums of two values at
+  distinct arguments distinct.
 authors:
 - Artūras Dubickas
 - Aivaras Novikas
@@ -48,9 +48,9 @@ other quartics or about higher degrees.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: Mathematische Nachrichten 294 (2021), no. 10,
-1859--1865 (received 7 July 2020, accepted 30 November 2020); the page is
-dated to the Crossref online publication of 3 October 2021. The site's
-commentary credits the cubic case to Dubickas and Novikas, but on a problem
-the site labels OPEN that commentary is not review. The paper's
+1859--1865 (received 7 July 2020, accepted 30 November 2020). The page is dated
+to the Crossref online publication of 3 October 2021. The site's commentary
+credits the cubic case to Dubickas and Novikas. The site labels the problem
+OPEN, however, so that commentary is not review. The paper's
 [[../library/diophantine_problems/dubickas_2021_no_cubic_integer_polynomial_generates_sidon/_index|library card]]
 records the theorem.

@@ -3,8 +3,9 @@ name: problems/set_systems/E0747/claims/2008_03_24_johansson_kahn_vu
 title: Johansson, Kahn and Vu's threshold of order n log n
 desc: |
   Johansson, Kahn and Vu prove that the threshold for a perfect matching in a
-  random 3-uniform hypergraph on 3n vertices is of order n log n, settling
-  Shamir's problem up to the constant; refereed in 2008 and credited.
+  random $3$-uniform hypergraph on $3n$ vertices is of order $n\log n$, settling
+  Shamir's problem up to the constant. The result was refereed in 2008 and is
+  credited.
 authors:
 - A. Johansson
 - J. Kahn
@@ -54,9 +55,9 @@ was later supplied by
 $\ell(n)=\Theta(n\log n)$; the constant is left open and is fixed by
 [[problems/set_systems/E0747/claims/2019_09_15_kahn|Kahn's asymptotic for Shamir's problem]].
 
-**Acceptance.** Refereed: Johansson, A., Kahn, J. and Vu, V., Factors in
-random graphs, Random Structures Algorithms 33 (2008), no. 1, 1–28, published
-online 2008-05-20; the preprint is arXiv:0803.3406, posted 2008-03-24, the
-date of this page. Reviewed: the site's curator, Thomas Bloom, labels the
-problem solved and credits [JKV08] with the threshold $\ell(n)\asymp n\log n$,
-independently of its authors. No formalization is recorded.
+**Acceptance.** Refereed: Johansson, A., Kahn, J. and Vu, V., Factors in random
+graphs, Random Structures Algorithms 33 (2008), no. 1, 1–28, published online
+2008-05-20. The preprint is arXiv:0803.3406, posted 2008-03-24, the date of this
+page. Reviewed: the site's curator, Thomas Bloom, labels the problem solved and
+credits [JKV08] with the threshold $\ell(n)\asymp n\log n$. This credit is
+independent of the authors. No formalization is recorded.

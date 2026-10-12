@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E1070
 title: Problem 1070
 desc: |
-  Estimates the largest guaranteed number of points, among any n points in the
-  plane, with no two at distance one, and whether it is at least n over four.
+  Asks for estimates of the largest $f(n)$ such that any $n$ points in the plane
+  include $f(n)$ points with no two at distance $1$, and whether $f(n)\ge n/4$.
 tags:
 - Geometry
 status: open
@@ -24,13 +24,13 @@ updated: 2026-10-08T18:28:40Z
 $\mathbb{R}^2$, there exist $f(n)$ points such that no two are distance $1$
 apart. Estimate $f(n)$. In particular, is it true that $f(n)\geq n/4$?
 
-**Status.** Open: the site labels the problem OPEN (page last edited 22
-January 2026), and its proof-claims tab carries one partial proof claim, Ákos
-Dúcz and Dániel Varga's preprint of 26 June 2026 answering the particular
-question in the negative, recorded on
+**Status.** Open. The site labels the problem OPEN (page last edited 22 January
+2026). Its proof-claims tab carries one partial proof claim: Ákos Dúcz and
+Dániel Varga's preprint of 26 June 2026, which answers the particular question
+in the negative. The claim is recorded on
 [[problems/discrete_geometry/E1070/claims/2026_06_26_ducz_varga|its claim page]]
-without being adopted; the standing in the frontmatter is derived from the
-claim pages.
+without being adopted. The standing in the frontmatter is derived from the claim
+pages.
 
 **Source.** [erdosproblems.com/1070](https://www.erdosproblems.com/1070),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1070,

@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E1109
 title: Problem 1109
 desc: |
-  Estimates the largest subset of the numbers up to N all of whose pairwise
-  sums are squarefree, and whether its size stays below every fixed power of
-  N.
+  Asks for an estimate of the size $f(N)$ of the largest subset of
+  $\{1,\ldots,N\}$ whose pairwise sums are all squarefree, and whether
+  $f(N)\le N^{o(1)}$.
 tags:
 - Number theory
 status: open
@@ -26,18 +26,18 @@ updated: 2026-10-07T19:40:10Z
 particular, is it true that $f(N)\leq N^{o(1)}$, or even $f(N) \leq (\log
 N)^{O(1)}$?
 
-**Status.** Open. The site labels the problem OPEN (page last edited 3
-December 2025). Its commentary credits three sets of bounds, each recorded on
-a claim page: Erdős and Sárközy's $\log N\ll f(N)\ll N^{3/4}\log N$,
+**Status.** Open. The site labels the problem OPEN (page last edited 3 December
+2025). Its commentary credits three sets of bounds, each recorded on a claim
+page: Erdős and Sárközy's $\log N\ll f(N)\ll N^{3/4}\log N$,
 [[problems/integer_sequences/E1109/claims/1987_03_01_erdos_sarkozy|Erdős and Sárközy 1987]];
 Gyarmati's second proof of $f(N)\gg\log N$,
 [[problems/integer_sequences/E1109/claims/2002_08_01_gyarmati|Gyarmati 2001]];
 and Konyagin's $\log^2N\log\log N\ll f(N)\ll N^{11/15+o(1)}$, the best known,
 [[problems/integer_sequences/E1109/claims/2004_06_30_konyagin|Konyagin 2004]].
-None answers either question. G. N. Sárközy [Sa92c] extends the problem to
-sums $A+B$ and to $k$-power-free sums and, as Konyagin records (p. 494),
-improves the upper bound to $f(N)\ll N^{3/4}$; that bound is superseded by
-Konyagin's and the site does not credit it, so it has no claim page.
+None answers either question. G. N. Sárközy [Sa92c] extends the problem to sums
+$A+B$ and to $k$-power-free sums. As Konyagin records (p. 494), he also improves
+the upper bound to $f(N)\ll N^{3/4}$. That bound is superseded by Konyagin's,
+and the site does not credit it, so it has no claim page.
 
 **Source.** [erdosproblems.com/1109](https://www.erdosproblems.com/1109),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1109,

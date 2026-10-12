@@ -2,9 +2,10 @@
 name: problems/divisors/E0486/claims/1936_01_01_davenport_erdos
 title: Davenport and Erdős's logarithmic density of sets of multiples
 desc: |
-  The set of multiples of any sequence has a logarithmic density, so the
-  survivor set has one whenever every residue set is the zero class; proved
-  in 1936 by Dirichlet series and again in 1951 elementarily; refereed.
+  Davenport and Erdős prove that the set of multiples of any sequence has a
+  logarithmic density, so the survivor set has one whenever every residue set is
+  the zero class. Their refereed proofs use Dirichlet series (1936) and
+  elementary methods (1951).
 authors:
 - H Davenport
 - P Erdös
@@ -64,10 +65,10 @@ problem asks for logarithmic density.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** The `refereed` evidence is the 1936 journal publication in
-Acta Arithmetica, with the 1951 elementary proof in the Journal of the Indian
-Mathematical Society. The site labels the problem OPEN and its remark (page
-last edited 8 April 2026) credits both papers with the case $X_n=\{0\}$; a
+**Acceptance.** The `refereed` evidence is the 1936 journal publication in Acta
+Arithmetica, together with the 1951 elementary proof in the Journal of the
+Indian Mathematical Society. The site labels the problem OPEN. Its remark (page
+last edited 8 April 2026) credits both papers with the case $X_n=\{0\}$. A
 remark on an open problem is not an acceptance, so no `reviewed` evidence is
-listed. The records give the publication years and no finer dates, so the
-page carries the first day of 1936.
+listed. The records give the publication years and no finer dates, so the page
+carries the first day of 1936.

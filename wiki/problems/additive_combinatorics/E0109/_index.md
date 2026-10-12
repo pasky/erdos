@@ -2,8 +2,8 @@
 name: problems/additive_combinatorics/E0109
 title: Problem 109
 desc: |
-  Shows that any set of natural numbers with positive upper density contains
-  the sumset of two infinite sets.
+  Asks whether every $A\subseteq\mathbb{N}$ of positive upper density contains a
+  sumset $B+C$ with $B$ and $C$ both infinite.
 tags:
 - Additive combinatorics
 status: solved
@@ -23,17 +23,17 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Any $A\subseteq \mathbb{N}$ of positive upper density contains a
 sumset $B+C$ where both $B$ and $C$ are infinite.
 
-**Status.** PROVED (LEAN), the site's label; its suffix is a catalog label
-explained under Formalization. The status-defining source is
-Theorem 1.2 of Moreira, Richter and Robertson (Ann. of Math. (2) 189 (2019),
-605--652, refereed), which proves the statement for positive upper density
-along any Følner sequence; the site's statement is the case of the intervals
-$\{1,\ldots,N\}$. The claim page is
+**Status.** PROVED (LEAN), the site's label. Its suffix is a catalog label
+explained under Formalization. The status-defining source is Theorem 1.2 of
+Moreira, Richter and Robertson (Ann. of Math. (2) 189 (2019), 605--652,
+refereed). It proves the statement for positive upper density along any Følner
+sequence. The site's statement is the case of the intervals $\{1,\ldots,N\}$.
+The claim page is
 [[problems/additive_combinatorics/E0109/claims/2018_03_01_moreira_richter_robertson|Moreira, Richter and Robertson]],
-accepted on the site curator's credit and the refereed publication; the 2026
-Lean development that declares itself a formalization of their theorem is
-linked there and gives no `formalized` evidence, since this corpus has not
-built or audited it.
+accepted on the site curator's credit and the refereed publication. A 2026 Lean
+development that declares itself a formalization of their theorem is linked
+there. It gives no `formalized` evidence, since this corpus has not built or
+audited it.
 
 **Source.** [erdosproblems.com/109](https://www.erdosproblems.com/109), accessed
 2026-10-07 (page last edited 27 September 2025; empty proof-claim tab). Cite

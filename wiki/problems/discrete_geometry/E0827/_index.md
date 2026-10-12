@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0827
 title: Problem 827
 desc: |
-  Estimates how many points in general position in the plane force k of them
-  whose triples all determine circles of distinct radii.
+  Asks how many points in general position in the plane force $k$ of them whose
+  triples all determine circles of distinct radii.
 tags:
 - Geometry
 status: open

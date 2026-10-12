@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0357/claims/1996_05_01_coppersmith_phillips
 title: Coppersmith and Phillips's bound below two thirds
 desc: |
-  Coppersmith and Phillips (SIAM J. Discrete Math., 1996) bound sets in which
-  no sum of 2 to 4 adjacent elements is an element, which gives f(n) at most
-  (2/3 - 1/512)n + O(log n); refereed.
+  In a refereed paper (SIAM J. Discrete Math., 1996), Coppersmith and Phillips
+  bound the size of sets in which no sum of 2 to 4 adjacent elements is an
+  element. This gives $f(n)\le(2/3-1/512)n+O(\log n)$.
 authors:
 - Don Coppersmith
 - Steven Phillips
@@ -48,12 +48,12 @@ claims the bound only for $f(n)$.
 **Covers.** The upper bound $f(n)\le(2/3-1/512)n+O(\log n)$. The result
 does not answer whether $f(n)=o(n)$, the problem's question.
 
-**Acceptance.** The `refereed` evidence is the journal publication cited
-above, in the SIAM Journal on Discrete Mathematics. The site labels the
-problem OPEN, so its commentary credits the paper without settling the
-problem and no `reviewed` evidence is listed. The publication record dates
-the issue to May 1996 and gives no finer date, so the page is dated to the
-first day of that month.
+**Acceptance.** The `refereed` evidence is the journal publication cited above,
+in the SIAM Journal on Discrete Mathematics. The site labels the problem OPEN,
+so its commentary credits the paper without settling the problem, and no
+`reviewed` evidence is listed. The publication record dates the issue to May
+1996 and gives no finer date, so the page is dated to the first day of that
+month.
 
 **Depends on.** The result page
 [[../library/additive_combinatorics/coppersmith_phillips_1996_question_erdos_subsequence_sums/theorem_3_7|Coppersmith and Phillips's Theorem 3.7]].

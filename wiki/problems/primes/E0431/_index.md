@@ -2,8 +2,8 @@
 name: problems/primes/E0431
 title: Problem 431
 desc: |
-  Asks whether two infinite sets have a sumset that agrees with the set of
-  primes apart from finitely many exceptions.
+  Asks whether there are two infinite sets $A$ and $B$ such that $A+B$ agrees
+  with the set of primes up to finitely many exceptions.
 tags:
 - Number theory
 - Primes
@@ -24,21 +24,22 @@ updated: 2026-10-08T17:47:46Z
 **Statement.** Are there two infinite sets $A$ and $B$ such that $A+B$ agrees
 with the set of prime numbers up to finitely many exceptions?
 
-**Status.** Disproved here; the site's label is OPEN (page last edited 8 April
-2026, no proof claim recorded there as of 2026-10-06); its commentary expects
-the answer no and records the Elsholtz--Harper square-root bounds on a
+**Status.** The site's label is OPEN (page last edited 8 April 2026, no proof
+claim recorded there as of 2026-10-06). Here the problem is disproved, and the
+frontmatter standing is that of the accepted claim below. The site's commentary
+expects the answer no. It records the Elsholtz--Harper square-root bounds on a
 hypothetical decomposition as the best result in that direction. One accepted
 full claim is recorded on
-[[problems/primes/E0431/claims/2026_09_24_openai|the OpenAI release's claim page]]:
-a manuscript of 24 September 2026 proves Ostmann's inverse Goldbach conjecture,
-that no sumset $A+B$ with $|A|,|B|\ge2$ differs from the primes in finitely many
-elements, which answers the question in the negative. Its Lean proofs, of that
-conjecture and of the case of two infinite summands that the question asks
-about, were built by this corpus with only the three standard axioms, their
-fingerprints identical to the release's comparator challenges, and the statement
-audit found the latter exactly the question with the answer no over the
-nonnegative integers. The claim has no outside review or refereed publication;
-the frontmatter standing is the accepted claim's.
+[[problems/primes/E0431/claims/2026_09_24_openai|the OpenAI release's claim page]].
+A manuscript of 24 September 2026 proves Ostmann's inverse Goldbach conjecture:
+no sumset $A+B$ with $|A|,|B|\ge2$ differs from the primes in finitely many
+elements. This answers the question in the negative. The release's Lean proofs
+cover that conjecture and the case of two infinite summands that the question
+asks about. This corpus built them with only the three standard axioms, and
+their fingerprints are identical to the release's comparator challenges. The
+statement audit found the Lean statement for two infinite summands to be exactly
+the question, with the answer no over the nonnegative integers. The claim has no
+outside review or refereed publication.
 
 **Source.** [erdosproblems.com/431](https://www.erdosproblems.com/431), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #431,

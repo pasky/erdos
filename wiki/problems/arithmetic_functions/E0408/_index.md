@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0408
 title: Problem 408
 desc: |
-  Asks whether the number of totient iterations needed to reach one, divided
-  by the logarithm of n, has a distribution or is almost always constant.
+  Asks whether the number of iterations of Euler's totient needed to reach 1,
+  divided by $\log n$, has a distribution function or is almost always constant.
 tags:
 - Number theory
 - Iterated functions
@@ -44,11 +44,11 @@ one such $n$.
 
 **Status.** Open. The site labels the problem OPEN (page last edited 30
 September 2025). Its commentary credits [EGPS90] with a yes to the first two
-questions under a form of the Elliott--Halberstam conjecture; that
-conditional theorem is the claim on
-[[problems/arithmetic_functions/E0408/claims/1990_01_01_erdos_granville_pomerance_spiro|the Erdős–Granville–Pomerance–Spiro page]],
-scope conditional, and derives nothing for the standing. No claim addresses
-the third question.
+questions under a form of the Elliott--Halberstam conjecture. That conditional
+theorem is the claim on
+[[problems/arithmetic_functions/E0408/claims/1990_01_01_erdos_granville_pomerance_spiro|the Erdős–Granville–Pomerance–Spiro page]].
+Its scope is conditional, and it derives nothing for the standing. No claim
+addresses the third question.
 
 **Source.** [erdosproblems.com/408](https://www.erdosproblems.com/408), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #408,

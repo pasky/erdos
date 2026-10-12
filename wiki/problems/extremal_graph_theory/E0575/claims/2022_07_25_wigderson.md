@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0575/claims/2022_07_25_wigderson
 title: "Wigderson 2022: the two forests K_{1,2} and 2K_2 refute the statement"
 desc: |
-  The two-edge star and two-edge matching, both bipartite, have joint
-  extremal number 1 while each alone has linear extremal number; an
-  unpublished elementary note with no outside acceptance documented.
+  Wigderson's unpublished elementary note observes that the two-edge star and
+  the two-edge matching, both bipartite, have joint extremal number 1, while
+  each alone has linear extremal number. No outside acceptance is documented.
 authors:
 - Yuval Wigderson
 status: claimed

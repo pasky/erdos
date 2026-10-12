@@ -3,8 +3,8 @@ name: problems/diophantine_problems/E0978/claims/2006_01_01_heath_brown
 title: Heath-Brown's (d-2)-power-free density in every degree d at least 10
 desc: |
   Theorem 16 of Heath-Brown's 2006 lecture notes proves the Euler-product
-  asymptotic for the r-free values of an irreducible integer polynomial of
-  degree d whenever r is at least (3d+2)/4, reaching r = d-2 for d at least 10.
+  asymptotic for the $r$-free values of an irreducible integer polynomial of
+  degree $d$ whenever $r\ge(3d+2)/4$. This range reaches $r=d-2$ for $d\ge10$.
 authors:
 - D. R. Heath-Brown
 status: claimed

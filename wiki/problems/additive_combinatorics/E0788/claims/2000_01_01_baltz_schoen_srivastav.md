@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0788/claims/2000_01_01_baltz_schoen_srivastav
 title: Baltz, Schoen and Srivastav's bounds for Choi's interval function
 desc: |
-  Theorem 2 of Baltz, Schoen and Srivastav (Colloq. Math. 2000): f(n) is
-  O(n^{2/3} (log n)^{2/3}), the best refereed upper bound for Problem 788,
-  with the greedy lower bound f(n) >= sqrt(n) of p. 172; refereed.
+  Theorem 2 of Baltz, Schoen and Srivastav (Colloq. Math. 2000, refereed) proves
+  $f(n)=O(n^{2/3}(\log n)^{2/3})$, the best refereed upper bound for
+  Problem 788. The paper also proves the greedy lower bound $f(n)\ge\sqrt n$ on
+  p. 172.
 authors:
 - Andreas Baltz
 - Tomasz Schoen
@@ -69,12 +70,11 @@ Komlós, Sulyok and Szemerédi (Acta Math. Acad. Sci. Hungar. 26 (1975),
 113--121).
 
 **Acceptance.** Refereed: the paper is the publisher's version of record in
-Colloquium Mathematicum (received 4 May 1999, revised 1 December 1999;
-the Crossref record gives the year 2000 only, so this page is named by its
-first day). The site's curator, Thomas F. Bloom, credits the bound
-$f(n)\ll(n\log n)^{2/3}$ to Baltz, Schoen and Srivastav in the problem
-page's commentary (label OPEN, page last edited 26 January 2026); the
-problem is not marked settled there, so the credit is recorded here and is
-not listed as `reviewed`. The definitions, the greedy argument and
-Theorem 2 are stated from the printed pages; the proof of Theorem 2 is not
-reviewed in this corpus.
+Colloquium Mathematicum. It was received 4 May 1999 and revised 1 December 1999.
+The Crossref record gives the year 2000 only, so this page is named by its first
+day. The site's curator, Thomas F. Bloom, credits the bound
+$f(n)\ll(n\log n)^{2/3}$ to Baltz, Schoen and Srivastav in the problem page's
+commentary (label OPEN, page last edited 26 January 2026). The problem is not
+marked settled there, so the credit is recorded here and is not listed as
+`reviewed`. The definitions, the greedy argument and Theorem 2 are stated from
+the printed pages. The proof of Theorem 2 is not reviewed in this corpus.

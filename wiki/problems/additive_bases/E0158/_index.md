@@ -2,9 +2,9 @@
 name: problems/additive_bases/E0158
 title: Problem 158
 desc: |
-  Asks whether every infinite integer set with at most two representations of
-  each number as a sum of two elements has counting function whose ratio to
-  root N has lower limit zero.
+  Asks whether every infinite $A\subset\mathbb{N}$ in which each $n$ has at most
+  two representations $a+b=n$ with $a\leq b$ must have
+  $\liminf \lvert A\cap\{1,\ldots,N\}\rvert/N^{1/2}=0$.
 tags:
 - Sidon sets
 status: open
@@ -31,8 +31,8 @@ $$
 
 **Status.** Open, in the site's label. The accepted partial claim
 [[problems/additive_bases/E0158/claims/1955_01_01_erdos|Erdős's theorem for Sidon sets]]
-answers the question yes for sets with at most one representation of each
-integer, as the site's remark records; no claim covers sets in which some
+answers the question yes for sets in which each integer has at most one
+representation, as the site's remark records. No claim covers sets in which some
 integer has two. No proof claim on the site, no release item and no other
 claimed resolution names the problem.
 

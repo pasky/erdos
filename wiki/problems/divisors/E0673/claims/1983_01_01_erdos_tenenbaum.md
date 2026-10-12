@@ -2,9 +2,9 @@
 name: problems/divisors/E0673/claims/1983_01_01_erdos_tenenbaum
 title: Erdős and Tenenbaum's mean value of G(n)
 desc: |
-  Erdős and Tenenbaum prove that the sum of G(n) for n up to x is (1 + o(1))
-  x log x and that G(n) is at least tau(n)/(2P(n)) for the least prime factor
-  P(n) of n, which gives G(n) tending to infinity for almost all n.
+  Erdős and Tenenbaum prove that $\sum_{n\le x}G(n)=(1+o(1))x\log x$. They also
+  show that $G(n)\ge\tau(n)/(2P(n))$, where $P(n)$ is the least prime factor of
+  $n$, which gives $G(n)\to\infty$ for almost all $n$.
 authors:
 - P. Erdős
 - G. Tenenbaum
@@ -53,33 +53,42 @@ note to Erdős's 1982 survey.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed and formalized. Refereed: the paper appeared in the
-*Bulletin de la Société Mathématique de France*. Formalized: this corpus's
-verification built Boris Alexeev's repository of formalized Erdős problems at
-its pinned commit of 2026-09-15, linked above, in its `src/latest` folder (Lean
-`v4.33.0`, Mathlib `v4.33.0`), whose module `ErdosProblems/Erdos673.lean`, with
-its companion `ErdosProblems/Erdos673/Mean.lean`, is the development added on
-2026-08-17, unchanged since except for a header added on 2026-08-23, and checked
-the axioms of `Erdos673.erdos_673`, which are exactly `propext`,
-`Classical.choice` and `Quot.sound`. The repository's comparator challenge
-`ComparatorChallenges/ErdosProblems/Erdos673.lean` pins that declaration
-together with the definitions its type reaches (the increasing enumeration of
-the divisors, $G$, its summatory function, natural density, and tending to
-infinity on a set of density $1$), and the fingerprint of the compared
-declaration was found identical to the challenge. The statement was audited
-clause by clause: its second conjunct, that $\sum_{1\le n\le X}G(n)\sim X\log X$
-as $X\to\infty$, states the paper's mean value exactly to its leading term, with
-no error term; $G$ sums $d_i/d_{i+1}$ over the increasing divisor enumeration,
-its only junk value $G(0)=0$ is harmless, and a natural $X$ loses nothing. Its
-third conjunct is the corollary that the average of $G$ over $n\le X$ tends to
-infinity, and its first conjunct proves that for every real $C$ the integers
-with $G(n)>C$ have natural density $1$, the divergence for almost all $n$. The
-solution's definitions and theorem match the challenge verbatim, and its local
-import closure contains no `sorry` and no axiom. The build certifies these
-statements, not the paper's argument: the development proves them by its own
-route, described below, and gives no error term, so Théorèmes 1 and 3 and the
-error term of Théorème 2 rest on the refereed paper alone. Not reviewed: the
-site's page does not cite the paper, so no curator review is listed. Tenenbaum's
-2013 survey
+*Bulletin de la Société Mathématique de France*.
+
+Formalized: this corpus's verification built Boris Alexeev's repository of
+formalized Erdős problems at its pinned commit of 2026-09-15, linked above, in
+its `src/latest` folder (Lean `v4.33.0`, Mathlib `v4.33.0`). The module
+`ErdosProblems/Erdos673.lean`, with its companion
+`ErdosProblems/Erdos673/Mean.lean`, is the development added on 2026-08-17. It
+is unchanged since then except for a header added on 2026-08-23. The
+verification checked the axioms of `Erdos673.erdos_673`, which are exactly
+`propext`, `Classical.choice` and `Quot.sound`. The repository's comparator
+challenge `ComparatorChallenges/ErdosProblems/Erdos673.lean` pins that
+declaration together with the definitions its type reaches: the increasing
+enumeration of the divisors, $G$, its summatory function, natural density, and
+tending to infinity on a set of density $1$. The fingerprint of the compared
+declaration was found identical to the challenge.
+
+The statement was audited clause by clause. Its second conjunct, that
+$\sum_{1\le n\le X}G(n)\sim X\log X$ as $X\to\infty$, states the paper's mean
+value exactly to its leading term, with no error term. The function $G$ sums
+$d_i/d_{i+1}$ over the increasing divisor enumeration. Its only junk value,
+$G(0)=0$, is harmless, and a natural $X$ loses nothing. The third conjunct is
+the corollary that the average of $G$ over $n\le X$ tends to infinity. The first
+conjunct proves that for every real $C$ the integers with $G(n)>C$ have natural
+density $1$, which is the divergence for almost all $n$. The solution's
+definitions and theorem match the challenge verbatim, and its local import
+closure contains no `sorry` and no axiom.
+
+The build certifies these statements, not the paper's argument. The development
+proves them by its own route, described below, and gives no error term. So
+Théorèmes 1 and 3 and the error term of Théorème 2 rest on the refereed paper
+alone.
+
+Not reviewed: the site's page does not cite the paper, so no curator review is
+listed.
+
+Tenenbaum's 2013 survey
 ([[../library/divisors/tenenbaum_2013_erdos_unconventional_problems_number_theory/_index|source card]])
 restates the mean value. Combining Théorème 3 with Ford's estimate for
 $H(x,y,2y)$, it sharpens the result to

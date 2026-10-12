@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E0699
 title: Problem 699
 desc: |
-  Asks whether for all i less than j up to half of n some prime at least i
-  divides both n choose i and n choose j.
+  Asks whether, for every $1\le i<j\le n/2$, some prime $p\ge i$ divides both
+  $\binom{n}{i}$ and $\binom{n}{j}$.
 tags:
 - Number theory
 - Binomial coefficients
@@ -28,14 +28,15 @@ $$
 p\mid \textrm{gcd}\left(\binom{n}{i}, \binom{n}{j}\right)?
 $$
 
-**Status.** Falsifiable: the site's label, which says the question is open and
-a single triple would refute it. The site credits GPT 5.6, prompted by Price,
-with the cases $j\le 3i/2$ and $n=2j$ (page edited 19 July 2026); see the
+**Status.** Falsifiable: the site's label, which says the question is open and a
+single triple would refute it. The standing in the frontmatter derives from the
+claim pages. The site credits GPT 5.6, prompted by Price, with the cases
+$j\le 3i/2$ and $n=2j$ (page edited 19 July 2026); see the
 [[problems/factorials_binomials/E0699/claims/2026_07_18_price|Price claim page]].
-Van Doorn and Rocca's manuscripts, on their
-[[problems/factorials_binomials/E0699/claims/2026_07_25_van_doorn_rocca|claim page]],
-reduce the problem to $i=3$ and a finite set and are not credited on the
-site. The standing in the frontmatter derives from the claim pages.
+Van Doorn and Rocca's manuscripts reduce the problem to $i=3$ and a finite set.
+They are on their
+[[problems/factorials_binomials/E0699/claims/2026_07_25_van_doorn_rocca|claim page]]
+and are not credited on the site.
 
 **Source.** [erdosproblems.com/699](https://www.erdosproblems.com/699), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #699,

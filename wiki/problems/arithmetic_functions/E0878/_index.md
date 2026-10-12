@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0878
 title: Problem 878
 desc: |
-  Compares f(n), the sum over the primes p dividing n of the largest power of p
-  not exceeding n, with F(n), the largest sum of distinct pairwise coprime
-  integers from 2 to n built from those primes.
+  Compares $f(n)$, the sum over the primes $p\mid n$ of the largest power of $p$
+  not exceeding $n$, with $F(n)$, the largest sum of distinct pairwise coprime
+  integers from $2$ to $n$ built from those primes.
 tags:
 - Number theory
 status: open

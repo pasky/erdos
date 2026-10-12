@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0224
 title: Problem 224
 desc: |
-  Asks whether any two to the d plus one points in d-dimensional space must
-  include three that form an obtuse angle.
+  Asks whether any $2^d+1$ points in $\mathbb{R}^d$ must include three that
+  determine an obtuse angle.
 tags:
 - Geometry
 status: solved
@@ -34,11 +34,11 @@ at $d=1$ (three collinear points) and at $d=2$ (a square and its center). The
 formal-conjectures statement and the linked Lean file use the inclusive
 reading, as the claim page explains.
 
-**Status.** PROVED (LEAN): the site labels the problem proved with a Lean
+**Status.** PROVED (LEAN). The site labels the problem proved with a Lean
 qualification. The theorem is Danzer and Grünbaum's, recorded on the
-[[problems/discrete_geometry/E0224/claims/1962_12_01_danzer_grunbaum|Danzer–Grünbaum claim page]];
-the Lean proof the label refers to is a third-party development, linked from
-that page and under Formalization, which this corpus has not built.
+[[problems/discrete_geometry/E0224/claims/1962_12_01_danzer_grunbaum|Danzer–Grünbaum claim page]].
+The Lean proof the label refers to is a third-party development, linked from
+that page and under Formalization. This corpus has not built it.
 
 **Source.** [erdosproblems.com/224](https://www.erdosproblems.com/224), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #224,

@@ -2,8 +2,9 @@
 name: problems/arithmetic_functions/E1144
 title: Problem 1144
 desc: |
-  Asks whether a random completely multiplicative sign function almost surely
-  has partial sums up to N exceeding any multiple of the square root of N.
+  Asks whether a random completely multiplicative function $f$ with values
+  $\pm1$ almost surely has
+  $\limsup_{N\to\infty}\sum_{m\le N}f(m)/\sqrt{N}=\infty$.
 tags:
 - Number theory
 - Probability
@@ -31,13 +32,13 @@ $$
 
 with probability $1$?
 
-**Status.** Claimed: one pending full claim, not accepted. The site labels the
-problem OPEN (page last edited 2026-01-26); the claim, filed on its proof-claims
-tab, is recorded here and not adopted:
-[[problems/arithmetic_functions/E1144/claims/2026_09_06_hoystad|Høystad 2026]],
-registered on 2026-09-06 with a write-up and a Lean 4 repository, which asserts
-the answer yes and credits GPT 6 Astra, GPT 5.6 Sol Pro and Fable 5. The
-repository reports its own axiom audit; this corpus has not built or audited the
+**Status.** Claimed. There is one pending full claim, and it is not accepted.
+The site labels the problem OPEN (page last edited 2026-01-26). The claim was
+filed on the site's proof-claims tab and is recorded here, not adopted:
+[[problems/arithmetic_functions/E1144/claims/2026_09_06_hoystad|Høystad 2026]].
+It was registered on 2026-09-06 with a write-up and a Lean 4 repository. It
+asserts the answer yes and credits GPT 6 Astra, GPT 5.6 Sol Pro and Fable 5. The
+repository reports its own axiom audit. This corpus has not built or audited the
 development, and no review or acceptance of the claim is recorded.
 
 **Source.** [erdosproblems.com/1144](https://www.erdosproblems.com/1144),

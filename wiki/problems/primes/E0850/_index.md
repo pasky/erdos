@@ -2,8 +2,8 @@
 name: problems/primes/E0850
 title: Problem 850
 desc: |
-  Asks whether two distinct integers can agree in prime factors, with their
-  successors also agreeing and the next integers after those agreeing too.
+  Asks whether there are distinct integers $x$ and $y$ such that $x$ and $y$,
+  $x+1$ and $y+1$, and $x+2$ and $y+2$ each have the same prime factors.
 tags:
 - Number theory
 - Primes

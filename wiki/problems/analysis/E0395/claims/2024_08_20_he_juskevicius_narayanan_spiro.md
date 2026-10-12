@@ -2,9 +2,10 @@
 name: problems/analysis/E0395/claims/2024_08_20_he_juskevicius_narayanan_spiro
 title: "He, Juškevičius, Narayanan and Spiro: the radius root two bound"
 desc: |
-  Proves that a random signed sum of n planar unit vectors has norm at most
-  the square root of two with probability at least c over n, the exact
-  question; an arXiv preprint credited by the site's curator, not refereed.
+  He, Juškevičius, Narayanan and Spiro prove that a random signed sum of $n$
+  planar unit vectors has norm at most $\sqrt2$ with probability at least $c/n$,
+  the exact question. The result is an arXiv preprint, credited by the site's
+  curator and not refereed.
 authors:
 - Xiaoyu He
 - Tomas Juškevičius
@@ -51,16 +52,16 @@ resting on a pairing argument and planar geometry; the paper notes (p. 2)
 that the statement is also the planar case of a 1983 theorem of Beck, which
 has [[problems/analysis/E0395/claims/1983_03_01_beck|its own claim page]].
 
-**Acceptance.** The site's curator, Thomas Bloom, labels the problem proved
-and credits the affirmative solution to this paper; that curator credit is the
+**Acceptance.** The site's curator, Thomas Bloom, labels the problem proved and
+credits the affirmative solution to this paper. That curator credit is the
 `reviewed` evidence. The two later papers on the problem page, Hollom, Portier
 and Souza (2025) and Hollom and Sorkin (2025), treat the radius-$\sqrt2$
 question as settled and build on it. The paper has not been identified in a
-journal: an author build of 20 August 2026 carries the same text under the
-listing label "Submitted", so no `refereed` evidence is listed. The corpus's
-own clause-by-clause reading of the printed proof, with its seven source
-corrections and the replacement proof of Claim 3.12 that affects only odd $n$,
-is recorded on the result page; it is author-recorded, not independently
+journal. An author build of 20 August 2026 carries the same text under the
+listing label "Submitted", so no `refereed` evidence is listed. The corpus's own
+clause-by-clause reading of the printed proof is recorded on the result page. It
+includes seven source corrections and the replacement proof of Claim 3.12, which
+affects only odd $n$. This reading is author-recorded, not independently
 reviewed, and awards no evidence here.
 
 **Formalization.** The linked Lean file in the `plby/lean-proofs`

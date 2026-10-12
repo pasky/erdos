@@ -2,10 +2,10 @@
 name: problems/additive_bases/E0343
 title: Problem 343
 desc: |
-  Asks, after Folkman, whether a multiset of integers with linear counting
-  function must have subset sums containing an infinite arithmetic
-  progression, in the form Szemerédi and Vu prove, with one absolute constant;
-  Folkman's question for every constant is open.
+  Asks, after Folkman, whether there is an absolute constant $C$ such that every
+  multiset of integers with counting function at least $CN$ has subset sums
+  containing an infinite arithmetic progression. Szemerédi and Vu proved this,
+  and Folkman's question for every constant is open.
 tags:
 - Number theory
 - Complete sequences
@@ -89,11 +89,11 @@ $F=200000\cdot200^{49}$; this corpus has not built it, so it gives no
 `formalized` evidence. Unread: Section 6 of [ErGr80] beyond p. 54.
 
 **Status.** The site labels the problem PROVED (LEAN) (page last edited
-2025-12-02), and the community database has listed it as proved (Lean) since
-its commit of 2026-09-26; the label describes the corrected Statement.
-Szemerédi and Vu [SzVu06] answered it in the affirmative, after Folkman [Fo66]
-had proved the case of counting function $\gg N^{1+\epsilon}$ and shown that
-$\gg N^{1-\epsilon}$ does not suffice. The accepted full claim is
+2025-12-02), and the label describes the corrected Statement. The community
+database has listed it as proved (Lean) since its commit of 2026-09-26. Folkman
+[Fo66] proved the case of counting function $\gg N^{1+\epsilon}$ and showed that
+$\gg N^{1-\epsilon}$ does not suffice. Szemerédi and Vu [SzVu06] later answered
+the problem in the affirmative. The accepted full claim is
 [[problems/additive_bases/E0343/claims/2005_07_26_szemeredi_vu|Szemerédi and Vu 2005]],
 and the accepted partial claim is
 [[problems/additive_bases/E0343/claims/1966_01_01_folkman|Folkman 1966]]. The

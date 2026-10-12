@@ -2,8 +2,8 @@
 name: problems/analysis/E1045/claims/1967_04_01_danzer_pommerenke
 title: Danzer and Pommerenke's small cases and even-order improvements
 desc: |
-  Danzer and Pommerenke determine the maximum for n = 2, 3, 4 and prove that
-  the regular polygon is beaten for every even n at least 4.
+  Danzer and Pommerenke determine the maximum for $n=2,3,4$ and prove that the
+  regular polygon is beaten for every even $n\ge4$.
 authors:
 - L. Danzer
 - Ch. Pommerenke
@@ -51,6 +51,6 @@ the regular-polygon question for odd $n\ge5$.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: Monatshefte für Mathematik 71 (1967), 100--113,
-whose issue the publisher's record dates April 1967; the page name uses the
-first day of that month. The site labels the problem OPEN.
+**Acceptance.** Refereed: Monatshefte für Mathematik 71 (1967), 100--113. The
+publisher's record dates the issue April 1967, and the page name uses the first
+day of that month. The site labels the problem OPEN.

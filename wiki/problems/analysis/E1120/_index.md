@@ -2,9 +2,9 @@
 name: problems/analysis/E1120
 title: Problem 1120
 desc: |
-  Asks for the shortest path from zero to the unit circle inside the set
-  where a monic polynomial with all roots in the unit disc has modulus at most
-  one.
+  Asks for the shortest length of a path from $0$ to $|z|=1$ inside
+  $\{z:|f(z)|\le1\}$, where $f$ is a monic polynomial of degree $n$ with all
+  roots in $|z|\le1$.
 tags:
 - Analysis
 status: open

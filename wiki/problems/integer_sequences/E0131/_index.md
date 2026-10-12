@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0131
 title: Problem 131
 desc: |
-  Estimates the largest subset of the first N integers in which no element
-  divides the sum of any distinct others; the displayed root-N question is
-  answered no, and the order carries one unreviewed claim of exponent 1/5.
+  Asks for an estimate of the largest subset of $\{1,\ldots,N\}$ in which no
+  element divides the sum of any distinct others. The question whether it
+  exceeds $N^{1/2-o(1)}$ is answered no, and one unreviewed claim asserts the
+  order $N^{1/5+o(1)}$.
 tags:
 - Number theory
 status: claimed
@@ -42,28 +43,29 @@ Problem 13 is the two-summand relative with the summands larger than the
 divisor; here the summands may be smaller than $a$ and any number of them
 is allowed.
 
-**Status.** Open on the site, for the estimate; the label OPEN attaches to
-it. The displayed question is answered no: every non-dividing set is
-non-averaging (if $a$ were the average of a nonempty
-$B\subseteq A\setminus\{a\}$ then $a$ would divide the sum of $B$), so Pham
-and Zakharov's Theorem 1, the largest non-averaging subset of
-$\{1,\ldots,N\}$ has $N^{1/4+o(1)}$ elements (Geom. Funct. Anal. 2025,
-refereed), gives $F(N)\le N^{1/4+o(1)}$, and $F(N)>N^{1/2-o(1)}$ fails for
-large $N$; this is recorded as an accepted partial claim on
+**Status.** Open on the site, for the estimate: the label OPEN attaches to the
+estimate. The estimate carries one pending full claim, $F(N)=N^{1/5+o(1)}$. It
+was submitted to the site's proof-claim tab on 24 July 2026 and is recorded on
+[[problems/integer_sequences/E0131/claims/2026_07_24_xeff|the Xeff claim page]].
+The site has not examined it, and it is unreviewed. The frontmatter standing
+`claimed` derives from this claim and certifies nothing.
+
+The displayed question is answered no. Every non-dividing set is non-averaging:
+if $a$ were the average of a nonempty $B\subseteq A\setminus\{a\}$, then $a$
+would divide the sum of $B$. Pham and Zakharov's Theorem 1 (Geom. Funct. Anal.
+2025, refereed) shows that the largest non-averaging subset of $\{1,\ldots,N\}$
+has $N^{1/4+o(1)}$ elements. So $F(N)\le N^{1/4+o(1)}$, and $F(N)>N^{1/2-o(1)}$
+fails for large $N$. This is recorded as an accepted partial claim on
 [[problems/integer_sequences/E0131/claims/2024_10_18_pham_zakharov|the Pham--Zakharov claim page]].
-The estimate carries one pending full claim, $F(N)=N^{1/5+o(1)}$, submitted
-to the site's proof-claim tab on 24 July 2026 and recorded on
-[[problems/integer_sequences/E0131/claims/2026_07_24_xeff|the Xeff claim page]],
-unexamined by the site and unreviewed; the frontmatter standing `claimed`
-derives from it and certifies nothing. In the literature the order of $F(N)$
-is open between the constructions and that bound: Straus's
-$F(N)>\exp((1+o(1))\sqrt{2\log N/\log2})$ (1975, p. 309), the bound
-$F(N)\gg N^{1/5}$, which the 1999 paper deduces (p. 128) from Straus's
-transfer theorem and Bosznay's non-averaging sets and which [Er97b]
-(pp. 230--231) credits to a Budapest student without printing a
-construction, and $F(N)\le N^{1/4+o(1)}$; the 1999 paper's explicit
-$F(N)<3N^{1/2}+1$ (Corollary 2, p. 128) is superseded. The two 1999 bounds
-are recorded as an accepted partial claim on
+
+In the literature the order of $F(N)$ is open between the constructions and that
+bound. The known results are Straus's $F(N)>\exp((1+o(1))\sqrt{2\log N/\log2})$
+(1975, p. 309), the bound $F(N)\gg N^{1/5}$, and $F(N)\le N^{1/4+o(1)}$. The
+1999 paper deduces $F(N)\gg N^{1/5}$ (p. 128) from Straus's transfer theorem and
+Bosznay's non-averaging sets. In [Er97b] (pp. 230--231) this bound is credited
+to a Budapest student, with no construction printed. The 1999 paper's explicit
+$F(N)<3N^{1/2}+1$ (Corollary 2, p. 128) is superseded. The two 1999 bounds are
+recorded as an accepted partial claim on
 [[problems/integer_sequences/E0131/claims/1999_04_01_erdos_lev_rauzy_sandor_sarkozy|the 1999 claim page]].
 
 **Source.** [erdosproblems.com/131](https://www.erdosproblems.com/131),

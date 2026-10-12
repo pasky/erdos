@@ -3,8 +3,9 @@ name: problems/discrepancy/E0997/claims/2026_03_31_alexeev_putterman_sawhney_sel
 title: Alpha times the primes is never well-distributed
 desc: |
   Alexeev, Putterman, Sawhney, Sellke and Valiant proved that for every real
-  alpha the fractional parts of alpha times the primes are not well-distributed;
-  the site labels the problem proved, and the preprint is not refereed.
+  $\alpha$ the fractional parts of $\alpha$ times the primes are not
+  well-distributed. The site labels the problem proved, and the preprint is not
+  refereed.
 authors:
 - Boris Alexeev
 - Moe Putterman
@@ -60,19 +61,22 @@ the partial claim
 and the published theorem of Banks, Freiberg and Turnage-Butterbaugh.
 
 **Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
-proved on the strength of this paper, with the page last edited 2026-04-01, and
-the discussion thread
-of 2026-04-01 carries a comment by Terence Tao stating that the problem is now
-solved and describing the argument, noting that a 2013 paper of Benatar
-(arXiv:1305.0348), by the same sieve machinery, essentially gives the case of
-Diophantine $\alpha$, one standard additional sieve estimate away, and that the
-present proof avoids a Diophantine condition by approximating $\alpha$ by a
-rational and using a congruence class. The formal-conjectures statement file
+proved on the strength of this paper (page last edited 2026-04-01). The
+discussion thread of 2026-04-01 carries a comment by Terence Tao stating that
+the problem is now solved and describing the argument. Tao notes that a 2013
+paper of Benatar (arXiv:1305.0348) essentially gives the case of Diophantine
+$\alpha$ by the same sieve machinery, one standard additional sieve estimate
+away. He also notes that the present proof avoids a Diophantine condition by
+approximating $\alpha$ by a rational and using a congruence class.
+
+The formal-conjectures statement file
 [`ErdosProblems/997.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/997.lean)
-(a `sorry` body at the pinned revision, the catalog's statement rather than a
-posting of the result) marks the problem `research solved` and points at the
-Lean proof below. The preprint (arXiv v1 2026-03-31, v2 2026-04-02) had no
-journal version found on 2026-10-07, so `refereed` is not listed.
+marks the problem `research solved` and points at the Lean proof below. At the
+pinned revision the file has a `sorry` body. It is the catalog's statement, not
+a posting of the result.
+
+The preprint has arXiv versions v1 (2026-03-31) and v2 (2026-04-02). No journal
+version was found on 2026-10-07, so `refereed` is not listed.
 
 **Formalization.** Pietro Monticone posted to the thread on 2026-04-01 a
 Lean 4 file (pinned above by its gist revision), writing that

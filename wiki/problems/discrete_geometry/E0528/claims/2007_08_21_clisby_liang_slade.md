@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0528/claims/2007_08_21_clisby_liang_slade
 title: Clisby, Liang and Slade's 1/(2k) expansion of the connective constant
 desc: |
-  Clisby, Liang and Slade's 2007 paper extends the expansion of C_k in powers
-  of 1/(2k) through order (2k)^{-11} with a remainder O((2k)^{-12}), an error
-  estimate the paper calls rigorous; its numerical estimates are not claimed.
+  Clisby, Liang and Slade's 2007 paper extends the expansion of $C_k$ in powers
+  of $1/(2k)$ through order $(2k)^{-11}$ with a remainder $O((2k)^{-12})$, an
+  error estimate the paper calls rigorous. Its numerical estimates are not
+  claimed.
 authors:
 - Nathan Clisby
 - Richard Liang

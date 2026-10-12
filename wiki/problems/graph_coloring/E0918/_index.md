@@ -2,8 +2,8 @@
 name: problems/graph_coloring/E0918
 title: Problem 918
 desc: |
-  Asks whether some graph has aleph two vertices and chromatic number aleph
-  two while every subgraph on aleph one vertices is countably colorable.
+  Asks whether some graph with $\aleph_2$ vertices and chromatic number
+  $\aleph_2$ has every subgraph on $\aleph_1$ vertices countably colorable.
 tags:
 - Graph theory
 - Chromatic number
@@ -32,11 +32,11 @@ Is there a graph with $\aleph_{\omega+1}$ vertices and chromatic number
 $\aleph_1$ such that every subgraph on $\aleph_\omega$ vertices has chromatic
 number $\leq\aleph_0$?
 
-**Status.** Open. The first question (the part `q1`) is independent of ZFC +
-GCH, relative to a huge cardinal: Baumgartner 1984 settles its not disprovable
-side and Foreman and Laver 1988 its not provable side. The second question (the
-part `q2`) is open: Rinot 2015 settles its not disprovable side, and one side
-alone leaves the question open. The site labels the problem OPEN.
+**Status.** Open. The site labels the problem OPEN. The first question (the part
+`q1`) is independent of ZFC + GCH, relative to a huge cardinal. Baumgartner 1984
+settles its not disprovable side, and Foreman and Laver 1988 settle its not
+provable side. The second question (the part `q2`) is open. Rinot 2015 settles
+its not disprovable side, and one side alone leaves the question open.
 
 **Source.** [erdosproblems.com/918](https://www.erdosproblems.com/918), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #918,

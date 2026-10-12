@@ -2,8 +2,9 @@
 name: problems/analysis/E1215
 title: Problem 1215
 desc: |
-  Asks whether a constant bounds the length of a path from zero to the unit
-  circle inside the region where such a polynomial has modulus below one.
+  Asks whether some constant $C$ ensures that every nonconstant polynomial $P$
+  with $P(0)=1$ and all roots on the unit circle has a path of length at most
+  $C$ from $0$ to the unit circle lying in $\{z:|P(z)|<1\}$ except at $0$.
 tags:
 - Analysis
 status: solved
@@ -73,10 +74,10 @@ counts for nothing. Mac Lane's theorem answers the corrected Statement no, and
 the problem's label and standing judge the corrected Statement.
 
 **Status.** Disproved, the site's label, which describes the corrected
-Statement. Mac Lane proved that for every compact set inside a simply
-connected subdomain of the open disc avoiding $0$, all large degrees admit
-such a polynomial with modulus above $2$ on the set, and a spiral forces
-arbitrarily long paths; the accepted claim is
+Statement. Mac Lane proved that for every compact set inside a simply connected
+subdomain of the open disc avoiding $0$, all large degrees admit such a
+polynomial with modulus above $2$ on the set. A spiral forces arbitrarily long
+paths. The accepted claim is
 [[problems/analysis/E1215/claims/1954_10_16_maclane|Mac Lane's unbounded path length]],
 refereed and credited by the site's curator.
 

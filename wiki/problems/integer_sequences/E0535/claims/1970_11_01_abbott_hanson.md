@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0535/claims/1970_11_01_abbott_hanson
 title: Abbott and Hanson's upper exponent 1/2 for the equal-gcd function
 desc: |
-  Abbott and Hanson (Bull. London Math. Soc. 1970) improve Erdős's upper
-  bound for the largest set of integers up to N with no r of equal pairwise
-  gcd to N^{1/2+eps}, as Erdős's 1973 survey reports it; refereed.
+  Abbott and Hanson (Bull. London Math. Soc. 1970) improve Erdős's upper bound
+  for the largest set of integers up to $N$ with no $r$ of equal pairwise gcd to
+  $N^{1/2+\varepsilon}$, as Erdős's 1973 survey reports it. The paper is
+  refereed.
 authors:
 - H. L. Abbott
 - D. Hanson
@@ -41,8 +42,9 @@ day of the month standing in for the unknown day.
 **Covers.** The upper exponent $1/2$ only; the order of $f_r(N)$ is not
 determined.
 
-**Acceptance.** Refereed: the journal publication. The site's commentary
-credits the result on a problem it labels OPEN, which is not acceptance.
+**Acceptance.** Refereed: the journal publication. The site's commentary credits
+the result, but the site labels the problem OPEN, so the credit is not
+acceptance.
 
 **Depends on.** Nothing in this wiki: the result is the cited paper's, as the
 linked survey reports it.

@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0460
 title: Problem 460
 desc: |
-  Asks whether the reciprocal sum of the terms below n of the greedy sequence
-  making n minus each term pairwise coprime tends to infinity, and likewise
-  for two subsequences.
+  Asks whether $\sum_{0<a_i<n}1/a_i\to\infty$ for the greedy sequence with
+  $a_0=0$, $a_1=1$ and each $a_k$ the least integer above $a_{k-1}$ with $n-a_k$
+  coprime to every earlier $n-a_i$, and the same for two complementary parts of
+  the sum.
 tags:
 - Number theory
 status: open
@@ -53,13 +54,12 @@ ambiguous. The page shows only the site's Statement, so the standing answers the
 site's wording.
 
 **Status.** Open, the site's label (OPEN; page last edited 14 January 2026).
-Przemyslaw Chojecki's notes of 13 and 14 January 2026 claimed the divergence
-of the truncated sum in both formulations; after the site's curator replied
-that they do not establish $f(n)\to\infty$ for every $n$, the author called
-the result a reduction, and the claim is recorded as withdrawn. The part the
-notes prove, the lower bound $S_{<n}(n)\ge f(n)$ with
-$\limsup_{n\to\infty}S_{<n}(n)=\infty$, is a pending partial claim. Claim
-pages:
+Przemyslaw Chojecki's notes of 13 and 14 January 2026 claimed the divergence of
+the truncated sum in both formulations. The site's curator replied that they do
+not establish $f(n)\to\infty$ for every $n$. The author then called the result a
+reduction, and the claim is recorded as withdrawn. The part the notes prove is a
+pending partial claim: the lower bound $S_{<n}(n)\ge f(n)$ with
+$\limsup_{n\to\infty}S_{<n}(n)=\infty$. Claim pages:
 [[problems/integer_sequences/E0460/claims/2026_01_13_chojecki|Chojecki, 13 January 2026]]
 (withdrawn) and
 [[problems/integer_sequences/E0460/claims/2026_01_14_chojecki|Chojecki, 14 January 2026]]

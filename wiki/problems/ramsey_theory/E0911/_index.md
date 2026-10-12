@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0911
 title: Problem 911
 desc: |
-  Asks whether the size Ramsey number of every graph with n vertices and at
-  least Cn edges exceeds the edge count by a factor growing faster than
-  linearly in C; open, with no result found beyond Erdős's 1982 statement.
+  Asks whether the size Ramsey number of every graph with $n$ vertices and
+  $e\ge Cn$ edges exceeds $f(C)e$ for some $f$ growing faster than linearly.
+  Open, with no result found beyond Erdős's 1982 statement.
 tags:
 - Graph theory
 - Ramsey theory

@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0690/claims/2026_05_08_wang_crapis
 title: Wang–Crapis non-unimodality for every k at least 4
 desc: |
-  Claims that the density of integers whose kth smallest prime factor is p
-  is not unimodal for every k at least 4, completing Cambie's classification;
-  a preprint with a forum endorsement and no refereed publication.
+  Wang and Crapis claim that the density of integers whose $k$th smallest prime
+  factor is $p$ fails to be unimodal for every $k\ge4$, completing Cambie's
+  classification. The claim is a preprint with a forum endorsement and no
+  refereed publication.
 authors:
 - Shouqiao Wang
 - Davide Crapis

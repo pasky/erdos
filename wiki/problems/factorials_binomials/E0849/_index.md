@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E0849
 title: Problem 849
 desc: |
-  Asks whether, for every t at least one, some value is taken by exactly t
-  binomial coefficients with the lower index between one and half the upper.
+  Asks whether, for every $t\ge1$, some integer $a$ has exactly $t$ solutions of
+  $\binom{n}{k}=a$ with $1\le k\le n/2$.
 tags:
 - Number theory
 - Binomial coefficients

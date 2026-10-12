@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E0128
 title: Problem 128
 desc: |
-  Asks whether a graph on n vertices whose every induced subgraph on at least
-  half the vertices has more than n squared over fifty edges has a triangle.
+  Asks whether a graph on $n$ vertices must contain a triangle if every induced
+  subgraph on at least $\lfloor n/2\rfloor$ vertices has more than $n^2/50$
+  edges.
 tags:
 - Graph theory
 status: open
@@ -24,17 +25,16 @@ updated: 2026-10-08T00:44:25Z
 subgraph on $\geq \lfloor n/2\rfloor$ vertices has more than $n^2/50$ edges.
 Must $G$ contain a triangle?
 
-**Status.** Falsifiable. The site's label is a note on an
-open problem (Current assessment), not a claim; the site printed FALSIFIABLE
-with the page last edited 31 October 2025. The frontmatter standing is derived
-from the claim pages under `claims/`: four accepted partial claims prove the
-statement on classes of graphs (Krivelevich; Keevash and Sudakov; Norin and
-Yepremyan; Razborov; see Progress), and no claim addresses the general
-question, so the problem stays open. Sarid's proof claim on the site's
-proof-claims tab, the statement with $n^2/50$ replaced by
-$131n^2/5000=0.0262\,n^2$, settles no instance of the question as posed and
-is recorded in the Current assessment, not as a claim; the site states that a
-listing on the tab is no guarantee of correctness.
+**Status.** Falsifiable. The site printed FALSIFIABLE, with the page last edited
+31 October 2025. This label is a note on an open problem (Current assessment),
+not a claim. The frontmatter standing is derived from the claim pages under
+`claims/`. Four accepted partial claims prove the statement on classes of graphs
+(Krivelevich; Keevash and Sudakov; Norin and Yepremyan; Razborov; see Progress).
+No claim addresses the general question, so the problem stays open. Sarid's
+proof claim on the site's proof-claims tab is the statement with $n^2/50$
+replaced by $131n^2/5000=0.0262\,n^2$. It settles no instance of the question as
+posed, and it is recorded in the Current assessment, not as a claim. The site
+states that a listing on the tab is no guarantee of correctness.
 
 **Source.** [erdosproblems.com/128](https://www.erdosproblems.com/128), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #128,

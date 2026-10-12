@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E0587
 title: Problem 587
 desc: |
-  Determines the largest set of integers up to N in which no non-empty subset
-  has a square sum.
+  Asks for the size of the largest subset of $\{1,\ldots,N\}$ in which no
+  non-empty subset has a square sum.
 tags:
 - Number theory
 status: solved
@@ -34,20 +34,20 @@ dates the question to 1985, when Erdős asked it of the young Terence Tao, whose
 recollection and a letter of Erdős describing the problem the site acknowledges;
 Nguyen and Vu date it to 1986.
 
-**Status.** Solved. Nguyen and Vu (2010) prove that a square-sum-free subset of
-$\{1,\ldots,N\}$ has at most $N^{1/3}(\log N)^C$ elements for an absolute
-constant $C$, matching Erdős's construction of order $N^{1/3}$ (the first $k$
-multiples of a prime $p\approx N^{2/3}$ with $1+\cdots+k<p$) up to the
-logarithmic factor, so the largest such set has size $N^{1/3+o(1)}$; the site's
-curator, Thomas Bloom, labels the problem SOLVED and credits them, describing
-the problem as solved in essence; the Formulation above records the reading
-under which the label attaches to the order of magnitude. A public Lean
-development reports a gap in the proof of the paper's Lemma 4.2 and proves the
-bound by a corrected route; see the claim page. The claim page
+**Status.** Solved. The site's curator, Thomas Bloom, labels the problem SOLVED
+and credits Nguyen and Vu, describing the problem as solved in essence. The
+Formulation above records the reading under which the label attaches to the
+order of magnitude. The claim page
 [[problems/integer_sequences/E0587/claims/2008_11_09_nguyen_vu|of Nguyen and
-Vu]] records the acceptance, and the frontmatter standing derives from it. The
-site points to [[problems/integer_sequences/E0438/_index|Problem 438]] as
-related.
+Vu]] records the acceptance, and the frontmatter standing derives from it.
+Nguyen and Vu (2010) prove that a square-sum-free subset of $\{1,\ldots,N\}$ has
+at most $N^{1/3}(\log N)^C$ elements for an absolute constant $C$. This matches
+Erdős's construction of order $N^{1/3}$ up to the logarithmic factor. That
+construction takes the first $k$ multiples of a prime $p\approx N^{2/3}$ with
+$1+\cdots+k<p$. So the largest such set has size $N^{1/3+o(1)}$. A public Lean
+development reports a gap in the proof of the paper's Lemma 4.2 and proves the
+bound by a corrected route (see the claim page). The site points to
+[[problems/integer_sequences/E0438/_index|Problem 438]] as related.
 
 **Source.** [erdosproblems.com/587](https://www.erdosproblems.com/587), accessed
 2026-09-04 and 2026-10-07 (label SOLVED; last edited 27 October 2025; source

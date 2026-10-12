@@ -2,9 +2,9 @@
 name: problems/number_theory/E0952
 title: Problem 952
 desc: |
-  Asks whether there is an infinite sequence of distinct Gaussian primes in
-  which consecutive terms are always a bounded distance apart; the Gaussian
-  moat problem, answered negatively by an accepted 2026 claim with a Lean proof.
+  Asks whether there is an infinite sequence of distinct Gaussian primes with
+  consecutive terms a bounded distance apart. This is the Gaussian moat problem,
+  answered negatively by an accepted 2026 claim with a Lean proof.
 tags:
 - Number theory
 status: solved
@@ -46,22 +46,22 @@ concern walks that start there.
 
 **Status.** Disproved. The site labels the problem OPEN (page last edited 08
 April 2026; accessed 2026-09-18). The accepted claim is
-[[problems/number_theory/E0952/claims/2026_09_26_openai|the 2026 OpenAI manuscript]],
-which answers the question negatively for every step bound and every starting
-point, and whose Lean proof of exactly this statement the corpus's
-verification built and checked for axioms; the problem's standing is therefore
-solved with a negative answer, ahead of the site's label. The search whose
-scope the Current assessment records had found no proof, disproof or proof
-claim; two arXiv preprints claiming a negative answer, by [[problems/number_theory/E0952/claims/2019_08_27_das|Das (2019)]]
-and
+[[problems/number_theory/E0952/claims/2026_09_26_openai|the 2026 OpenAI manuscript]].
+It answers the question negatively for every step bound and every starting
+point. Its Lean proof of exactly this statement was built and checked for axioms
+by the corpus's verification. The problem's standing is therefore solved with a
+negative answer, ahead of the site's label. The search whose scope the Current
+assessment records had found no proof, disproof or proof claim. Two arXiv
+preprints claiming a negative answer, by
+[[problems/number_theory/E0952/claims/2019_08_27_das|Das (2019)]] and
 [[problems/number_theory/E0952/claims/2024_01_16_stumpenhusen|Stumpenhusen (2024)]],
 had been withdrawn by their authors, as their arXiv records state. Gethner and
 Stark's refereed theorem [GeSt97] settles the question negatively for step
 bounds up to $2$
 ([[problems/number_theory/E0952/claims/1997_01_01_gethner_stark|its claim page]]).
 Erdős's own expectation (1980) was that "the answer is almost certainly
-negative", and the random model of Vardi (1998; its library home is under
-Problem 1212) predicts the same.
+negative". The random model of Vardi (1998; its library home is under Problem
+1212) predicts the same.
 
 **Source.** [erdosproblems.com/952](https://www.erdosproblems.com/952),
 accessed 2026-09-18: the problem page (OPEN, with the

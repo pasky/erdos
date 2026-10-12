@@ -3,8 +3,8 @@ name: problems/distance_problems/E0097
 title: Problem 97
 desc: |
   Asks whether every convex polygon has a vertex with no four other vertices
-  at the same distance from it; Erdős first asked it with three, which Danzer's
-  convex nonagon refutes.
+  equidistant from it. Erdős first asked it with three in place of four, and
+  Danzer's convex nonagon refutes that version.
 tags:
 - Geometry
 - Distances
@@ -39,14 +39,13 @@ The site states the problem with four, and that question sets the standing. The
 general form, in which some fixed $k$ replaces four, is discussed with the
 claims under Current assessment.
 
-**Status.** Falsifiable on the site: its export of 2026-09-04 records the
-label "FALSIFIABLE", and its page was last edited 27 October 2025; its
-proof-claims tab carries one full proof claim, the
-manuscript of Liam Kruer, Jensen Kohlmeyer and Liam Price of 13 September
-2026, recorded on
+**Status.** Falsifiable on the site. Its export of 2026-09-04 records the label
+"FALSIFIABLE", and its page was last edited 27 October 2025. The standing in the
+frontmatter is derived from the claim pages. The site's proof-claims tab carries
+one full proof claim: the manuscript of Liam Kruer, Jensen Kohlmeyer and Liam
+Price of 13 September 2026. It is recorded on
 [[problems/distance_problems/E0097/claims/2026_09_13_kruer_kohlmeyer_price|its claim page]]
-without being adopted; the standing in the frontmatter is derived from the
-claim pages.
+without being adopted.
 
 **Source.** [erdosproblems.com/97](https://www.erdosproblems.com/97), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #97,

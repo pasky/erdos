@@ -2,9 +2,9 @@
 name: problems/polynomials/E0115
 title: Problem 115
 desc: |
-  Asks whether a monic degree n polynomial whose set of modulus at most one is
-  connected has derivative at most (1/2+o(1))n^2 there; Eremenko and Lempert
-  proved it, and Erdős's exact bound n^2/2 fails for every n.
+  Asks whether a monic polynomial $p$ of degree $n$ with $\{z:|p(z)|\le1\}$
+  connected has $|p'(z)|\le(\frac{1}{2}+o(1))n^2$ on that set. Eremenko and
+  Lempert proved it, and Erdős's exact bound $n^2/2$ fails for every $n$.
 tags:
 - Polynomials
 - Analysis
@@ -69,13 +69,13 @@ the bound must be replaced by $\tfrac12\{1+o(1)\}n^2$, and Hayman's Update
 Chebyshev's polynomials. The site states the problem with the $o(1)$ term,
 and that question, made monic, sets the standing.
 
-**Status.** Proved. The site's label is PROVED (LEAN), a label that describes
-the corrected Statement; its Lean marker refers to a formal proof by others,
-linked from the claim page, unbuilt and unaudited in this corpus. The corrected
-Statement is proved: Eremenko and Lempert [ErLe94] prove the sharp bound
-$2^{1/n-1}n^2$, attained by a shifted Chebyshev polynomial, refereed in the
-Proceedings of the AMS and credited by the site, which the corpus accepts on
-the claim page
+**Status.** Proved. The site's label is PROVED (LEAN), and it describes the
+corrected Statement. Its Lean marker refers to a formal proof by others, linked
+from the claim page. That proof is unbuilt and unaudited in this corpus. The
+corrected Statement is proved. Eremenko and Lempert [ErLe94] prove the sharp
+bound $2^{1/n-1}n^2$, which a shifted Chebyshev polynomial attains. Their paper
+is refereed in the Proceedings of the AMS and credited by the site. The corpus
+accepts it on the claim page
 [[problems/polynomials/E0115/claims/1994_09_01_eremenko_lempert|Eremenko and Lempert 1994]].
 
 **Source.** [erdosproblems.com/115](https://www.erdosproblems.com/115), accessed

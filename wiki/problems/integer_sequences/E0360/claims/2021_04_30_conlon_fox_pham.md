@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0360/claims/2021_04_30_conlon_fox_pham
 title: Conlon, Fox and Pham's order of growth
 desc: |
-  Theorem 1.5 of the 2021 preprint of Conlon, Fox and Pham, determining f(n)
-  up to a constant factor as n^{1/3}(n/phi(n))/((log n)^{1/3}(log log n)^{2/3});
-  accepted by the site as the solution; to appear in J. Eur. Math. Soc.
+  Theorem 1.5 of the 2021 preprint of Conlon, Fox and Pham determines $f(n)$ up
+  to a constant factor as
+  $n^{1/3}(n/\phi(n))/((\log n)^{1/3}(\log\log n)^{2/3})$. The site accepts it
+  as the solution, and it is to appear in J. Eur. Math. Soc.
 authors:
 - David Conlon
 - Jacob Fox

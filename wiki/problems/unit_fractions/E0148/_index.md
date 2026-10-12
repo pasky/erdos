@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0148
 title: Problem 148
 desc: |
-  Estimates the number of ways to write one as a sum of reciprocals of k
-  distinct increasing positive integers.
+  Asks for good estimates of $F(k)$, the number of ways to write $1$ as a sum of
+  reciprocals of $k$ distinct positive integers.
 tags:
 - Number theory
 - Unit fractions
@@ -39,15 +39,15 @@ $1$, a count with a denominator cutoff and no length restriction, is
 [[problems/unit_fractions/E0297/_index|Problem 297]] and is not $F(k)$.
 
 **Status.** Open on the site: the label is OPEN (page last edited 27 September
-2025; no proof claim on its tab). The order of the double logarithm is fixed:
-$ck\le\log\log F(k)\le Ck$ for all large $k$, by Corollary 1.2 of the OpenAI
-mathematics release's manuscript of 25 September 2026
-([[problems/unit_fractions/E0148/claims/2026_09_25_openai|its claim page]]); the
-lower half is new and replaces the published $\exp(\exp(ck/\log k))$, the upper
-half was known from explicit bounds of the form $c^{2^k}$, the best of them due
-to Browning and Elsholtz and to Elsholtz and Planitzer (see Upper bound below).
-No asymptotic formula, no estimate up to constant factors and no value of the
-constant in $\log\log F(k)$ is known.
+2025), with no proof claim on its tab. The order of the double logarithm is
+fixed: $ck\le\log\log F(k)\le Ck$ for all large $k$. This is Corollary 1.2 of
+the OpenAI mathematics release's manuscript of 25 September 2026
+([[problems/unit_fractions/E0148/claims/2026_09_25_openai|its claim page]]). The
+lower half is new and replaces the published bound $\exp(\exp(ck/\log k))$. The
+upper half was known from explicit bounds of the form $c^{2^k}$. The best of
+these are due to Browning and Elsholtz and to Elsholtz and Planitzer (see Upper
+bound below). No asymptotic formula, no estimate up to constant factors and no
+value of the constant in $\log\log F(k)$ is known.
 
 **Source.** [erdosproblems.com/148](https://www.erdosproblems.com/148), accessed
 2026-09-17: the problem page (OPEN; last edited 27 September 2025; source keys

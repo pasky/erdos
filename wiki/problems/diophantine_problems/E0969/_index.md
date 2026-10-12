@@ -2,8 +2,9 @@
 name: problems/diophantine_problems/E0969
 title: Problem 969
 desc: |
-  Determines the order of magnitude of the error term when the count of
-  squarefree integers up to x is compared with six over pi squared times x.
+  Asks for the order of magnitude of the error term $E(x)$ in
+  $Q(x)=\frac{6}{\pi^2}x+E(x)$, where $Q(x)$ counts the squarefree integers up
+  to $x$.
 tags:
 - Number theory
 status: open
@@ -25,9 +26,9 @@ $$
 Q(x)=\frac{6}{\pi^2}x+E(x).
 $$
 
-**Status.** Open. The site's label is OPEN (the page was last edited on
-2025-10-19, and its proof-claims tab was empty on 2026-10-06), and no claim
-page is recorded.
+**Status.** Open. The site's label is OPEN. The page was last edited on
+2025-10-19, and its proof-claims tab was empty on 2026-10-06. No claim page is
+recorded.
 
 **Source.** [erdosproblems.com/969](https://www.erdosproblems.com/969), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #969,

@@ -2,9 +2,9 @@
 name: problems/divisors/E0449
 title: Problem 449
 desc: |
-  Asks whether, for almost all n, the number of pairs of divisors within a
-  factor of two of each other is an arbitrarily small fraction of the divisor
-  count.
+  Asks whether, for every $\epsilon>0$, almost all $n$ have fewer than
+  $\epsilon\tau(n)$ pairs of divisors $d_1<d_2<2d_1$, where $\tau(n)$ is the
+  number of divisors.
 tags:
 - Number theory
 - Divisors
@@ -31,15 +31,15 @@ $$
 
 for almost all $n$, where $\tau(n)$ is the number of divisors of $n$?
 
-**Status.** Disproved on the site: the curator credits Kevin Ford's
-observation that $r(n)>K\tau(n)$ holds on a set of positive density for every
-$K$, deduced by a Cauchy-Schwarz bound from the dyadic divisor count of
-Problem 448, and cites Hall and Tenenbaum's book for the argument on an
-essentially identical problem; see the
-[[problems/divisors/E0449/claims/2024_07_13_ford|claim page]]. A
-December 2025 report in the discussion thread that ByteDance Seed's
-Seed-Prover 1.5 had solved this problem was judged by the curator a likely
-misnumbering and is not a claim. The standing in the frontmatter derives from the claim pages.
+**Status.** Disproved on the site. The curator credits Kevin Ford's observation
+that $r(n)>K\tau(n)$ holds on a set of positive density for every $K$. The
+observation is deduced by a Cauchy-Schwarz bound from the dyadic divisor count
+of Problem 448. The curator also cites Hall and Tenenbaum's book for the
+argument on an essentially identical problem. See the
+[[problems/divisors/E0449/claims/2024_07_13_ford|claim page]]. The standing in
+the frontmatter derives from the claim pages. A December 2025 report in the
+discussion thread said that ByteDance Seed's Seed-Prover 1.5 had solved this
+problem. The curator judged it a likely misnumbering, and it is not a claim.
 
 **Source.** [erdosproblems.com/449](https://www.erdosproblems.com/449), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #449,

@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0720/claims/1995_09_01_haxell_kohayakawa_luczak
 title: Haxell, Kohayakawa and Łuczak, the induced size Ramsey number of cycles is linear
 desc: |
-  Haxell, Kohayakawa and Łuczak (1995), Theorem 10 and Corollary 11: linearly
-  many edges force induced monochromatic cycles of every length in a linear
-  range, so the size Ramsey numbers of cycles and paths are linear; refereed.
+  Theorem 10 and Corollary 11 of Haxell, Kohayakawa and Łuczak (1995, refereed)
+  show that linearly many edges force induced monochromatic cycles of every
+  length in a linear range. So the size Ramsey numbers of cycles and paths are
+  linear.
 authors:
 - P. E. Haxell
 - Y. Kohayakawa
@@ -72,9 +73,9 @@ theorem.
 record); the day in the page name is a placeholder.
 
 **Acceptance.** Refereed: Combin. Probab. Comput. 4 (1995), no. 3, 217--239.
-Semantic Scholar's roughly 95 citing records (titles, 2026-09-18) include no
-dispute. The site's commentary does not cite the paper; it credits the cycle
-bound to Beck.
+Semantic Scholar's roughly 95 citing records, checked by title on 2026-09-18,
+include no dispute. The site's commentary does not cite the paper. It credits
+the cycle bound to Beck.
 
 **Read depth.** Claims checked: the basis is Theorem 10 and Corollary 11
 (preprint p. 11) and the attribution (p. 3 and reference [6], p. 21); no

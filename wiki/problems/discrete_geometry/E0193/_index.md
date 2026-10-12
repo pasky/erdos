@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0193
 title: Problem 193
 desc: |
-  Asks whether an infinite walk in the integer lattice of dimension three with
-  steps from a finite set must contain three collinear points.
+  Asks whether every infinite walk in $\mathbb{Z}^3$ with steps from a finite
+  set must contain three collinear points.
 tags:
 - Geometry
 status: solved
@@ -25,16 +25,16 @@ $A=\{a_1,a_2,\ldots,\}\subset \mathbb{Z}^3$ be an infinite $S$-walk, so that
 $a_{i+1}-a_i\in S$ for all $i$. Must $A$ contain three collinear points?
 
 **Status.** The site labels the problem DISPROVED (LEAN) on its problem page as
-accessed 2026-09-08 (OPEN in the site's export of 2026-09-04, the day the
-curator confirmed the update) and credits Cambie and Kalviainen, assisted by AI,
-with an infinite bounded-step walk in $\mathbb{Z}^3$ containing no three
-collinear points [CaKa26],
+accessed 2026-09-08. The site's export of 2026-09-04 gave the label OPEN. That
+was the day the curator confirmed the update. The site credits Cambie and
+Kalviainen, assisted by AI, with an infinite bounded-step walk in $\mathbb{Z}^3$
+containing no three collinear points [CaKa26]. This is
 [[../library/discrete_geometry/cambie_kalviainen_2026_small_step_walk/theorem_1|Theorem 1]]
 of arXiv:2609.01766v1 (submitted 2026-09-01). The derived standing agrees with
-the label: it rests on the accepted
+the label. It rests on the accepted
 [[problems/discrete_geometry/E0193/claims/2026_09_01_cambie_kalviainen|claim page]]
-of that proof, and the Lean suffix refers to the authors' formalization, which
-this corpus has not built or audited.
+of that proof. The Lean suffix refers to the authors' formalization, which this
+corpus has not built or audited.
 
 **Source.** [erdosproblems.com/193](https://www.erdosproblems.com/193), accessed
 2026-09-08. Cite as: T. F. Bloom, Erdős Problem #193,

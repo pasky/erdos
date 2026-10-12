@@ -2,9 +2,10 @@
 name: problems/factorials_binomials/E0378/claims/1996_06_01_granville_ramare
 title: Granville and Ramaré's distribution of squarefree entries
 desc: |
-  The rows of Pascal's triangle with exactly a given number of squarefree
-  entries have a positive asymptotic density (Mathematika, 1996), which gives
-  the density Erdős and Graham asked for and shows it is positive.
+  Granville and Ramaré (Mathematika, 1996) prove that the rows of Pascal's
+  triangle with exactly a given number of squarefree entries have a positive
+  asymptotic density. This gives the density Erdős and Graham asked for and
+  shows that it is positive.
 authors:
 - Andrew Granville
 - Olivier Ramaré

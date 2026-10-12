@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0484/claims/1989_01_01_erdos_sarkozy_sos
 title: Erdős, Sárközy and Sós prove Roth's conjecture on monochromatic sums
 desc: |
-  Theorem 1(i) of the 1989 chapter: for every k-partition of the positive
-  integers, more than M/2 - 3M^(1 - 2^(-k-1)) even integers up to M are sums
-  of two distinct integers of one class once M is large; credited by the site.
+  Theorem 1(i) of Erdős, Sárközy and Sós's 1989 chapter shows that for every
+  $k$-partition of the positive integers, more than $M/2-3M^{1-2^{-k-1}}$ even
+  integers up to $M$ are sums of two distinct integers of one class once $M$ is
+  large. The site credits it.
 authors:
 - P. Erdős
 - A. Sárközy
@@ -52,16 +53,15 @@ logarithmic error term is of the right order. Their Theorem 2, recorded on
 the problem page, shows that the $M/2-o(M)$ shape cannot become $M/2-O(1)$
 for every $k$.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the
-problem PROVED (LEAN) and credits the solution to this paper in the
-problem's commentary (page last edited 8 April 2026, accessed 2026-09-17); the
-proof-claim tab is empty. Published: P. Erdős, A. Sárközy and V. T. Sós, On
-a conjecture of Roth and some related problems. I, in Irregularities of
-Partitions, Algorithms and Combinatorics 8, Springer (1989), 47--59
-(Crossref record of the DOI accessed). The chapter is part of a
-conference volume, and neither the record nor the library card documents
-refereeing, so `refereed` is not listed. The volume gives no day of
-publication, so the day in the page name is a placeholder for 1989.
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+PROVED (LEAN) and credits the solution to this paper in the problem's commentary
+(page last edited 8 April 2026, accessed 2026-09-17). The proof-claim tab is
+empty. Published: P. Erdős, A. Sárközy and V. T. Sós, On a conjecture of Roth
+and some related problems. I, in Irregularities of Partitions, Algorithms and
+Combinatorics 8, Springer (1989), 47--59 (Crossref record of the DOI accessed).
+The chapter is part of a conference volume. Neither the record nor the library
+card documents refereeing, so `refereed` is not listed. The volume gives no day
+of publication, so the day in the page name is a placeholder for 1989.
 
 **Formalization.** The thread's one comment, of 15 April 2026 (linked
 above), reports that Aristotle, an automated prover, formalized a solution

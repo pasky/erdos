@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0126
 title: Problem 126
 desc: |
-  Asks whether the least number of distinct prime factors of the product of
-  the sums of two distinct elements of a set of n natural numbers grows faster
-  than the logarithm of n.
+  Asks whether $f(n)/\log n\to\infty$, where $f(n)$ is the least number of
+  distinct prime factors of $\prod_{a\neq b\in A}(a+b)$ over sets
+  $A\subseteq\mathbb{N}$ of size $n$.
 tags:
 - Number theory
 status: solved
@@ -25,15 +25,15 @@ updated: 2026-10-08T18:27:16Z
 $\lvert A\rvert=n$ then $\prod_{a\neq b\in A}(a+b)$ has at least $f(n)$ distinct
 prime factors. Is it true that $f(n)/\log n\to\infty$?
 
-**Status.** PROVED (LEAN), the site's label, crediting GPT-6 Astra; the compared
-Lean proves $f(n)/\log n\to\infty$, and an alternate module of the same
-repository gives $f(n)\gg n^{1/2}$. The claim pages, both of that square-root
-bound, are
-[[problems/arithmetic_functions/E0126/claims/2026_09_03_adamczewski|Adamczewski 2026]]
-(the Lean proof found by a pre-release GPT-6 Astra in Epoch AI's benchmark run,
-published in Tom Adamczewski's repository) and
-[[problems/arithmetic_functions/E0126/claims/2026_09_04_johnvictor36|JohnVictor36 2026]]
-(a Lean repository with a draft write-up). See Current assessment for the
+**Status.** PROVED (LEAN), the site's label, which credits GPT-6 Astra. The
+compared Lean proves $f(n)/\log n\to\infty$. An alternate module of the same
+repository gives $f(n)\gg n^{1/2}$. Both claim pages are for that square-root
+bound. The first is
+[[problems/arithmetic_functions/E0126/claims/2026_09_03_adamczewski|Adamczewski 2026]],
+the Lean proof found by a pre-release GPT-6 Astra in Epoch AI's benchmark run
+and published in Tom Adamczewski's repository. The second is
+[[problems/arithmetic_functions/E0126/claims/2026_09_04_johnvictor36|JohnVictor36 2026]],
+a Lean repository with a draft write-up. See Current assessment for the
 evidence.
 
 **Source.** [erdosproblems.com/126](https://www.erdosproblems.com/126), accessed

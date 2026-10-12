@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0934/claims/2026_07_02_kumar_mohar_pragada
 title: Kumar, Mohar and Pragada's lower bounds at t = 3
 desc: |
-  The July 2026 preprint of Kumar, Mohar and Pragada shows h_3(4) at least 71 and
-  h_3(15) at least 3796, refuting the 2022 formula for h_3(d), and liminf
-  h_3(d)/d^3 at least 253/225, refuting the upper asymptotic at t = 3; unrefereed.
+  The unrefereed July 2026 preprint of Kumar, Mohar and Pragada shows
+  $h_3(4)\ge71$ and $h_3(15)\ge3796$, refuting the 2022 formula for $h_3(d)$. It
+  also shows $\liminf h_3(d)/d^3\ge\frac{253}{225}$, refuting the upper
+  asymptotic at $t=3$.
 authors:
 - Hitesh Kumar
 - Bojan Mohar

@@ -2,9 +2,9 @@
 name: problems/distance_problems/E1207/claims/2026_07_06_lee_pohoata_zhu
 title: Lee, Pohoata and Zhu's Minkowski grid construction
 desc: |
-  Claims a planar set of n points in which every subset of at least
-  n^{1-delta} points contains an isosceles triangle, so that P_2(n)<n^{1-c}
-  for some c>0; an arXiv preprint.
+  An arXiv preprint by Lee, Pohoata and Zhu claims a construction of $n$ points
+  in the plane in which every subset of at least $n^{1-\delta}$ points contains
+  an isosceles triangle, so that $P_2(n)<n^{1-c}$ for some $c>0$.
 authors:
 - Sungchul Lee
 - Cosmin Pohoata

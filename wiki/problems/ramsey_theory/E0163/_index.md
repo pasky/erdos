@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0163
 title: Problem 163
 desc: |
-  Asks whether graphs in which every subgraph has a vertex of degree at most a
-  fixed bound have Ramsey number linear in the number of vertices; proved by
-  Lee (2015 preprint, Ann. of Math. 2017), with the constant still open.
+  Asks whether every graph $H$ on $n$ vertices in which each subgraph has a
+  vertex of degree at most $d$ satisfies $R(H)\ll_d n$. Lee proved it (2015
+  preprint, Ann. of Math. 2017), and the constant is still open.
 tags:
 - Graph theory
 - Ramsey theory
@@ -38,20 +38,19 @@ density $\rho(G)$ and $2\rho(G)$, so the site's three forms (a union of $c$
 forests, average degree at most $d$ in every subgraph, and degeneracy at most
 $d$) are one conjecture up to the constant.
 
-**Status.** Proved. The status-defining source is Theorem 1.1 of Lee,
-*Ramsey numbers of degenerate graphs*, Ann. of Math. (2) 185 (2017),
-791--829 (refereed; cited from the arXiv v2 of 1 December 2016):
-there is an absolute constant $c$ such that for all $d$, $r$ and
+**Status.** Proved. The status-defining source is Theorem 1.1 of Lee, *Ramsey
+numbers of degenerate graphs*, Ann. of Math. (2) 185 (2017), 791--829 (refereed;
+cited from the arXiv v2 of 1 December 2016). It states that there is an absolute
+constant $c$ with the following property. For all $d$, $r$ and
 $n\ge2^{d^22^{cr}}$, in every two-coloring of a complete graph on at least
-$2^{d2^{cr}}n$ vertices one color contains every $d$-degenerate
-$r$-colorable graph on at most $n$ vertices, so every $d$-degenerate $H$ of
-chromatic number $r$ with $|V(H)|\ge2^{d^22^{cr}}$ has
-$R(H)\le2^{d2^{cr}}|V(H)|$. The paper's remark after the theorem settles
-the conjecture "since all $d$-degenerate graphs have chromatic number at
-most $d+1$" (p. 3); the one-line bridge to the site's wording is written in
-the Current assessment and named there as authored. The site credits Lee with
-the solution; the constant is not settled (the site
-records the conjecture $R(H)\le2^{O(d)}n$). The claim page
+$2^{d2^{cr}}n$ vertices, one color contains every $d$-degenerate $r$-colorable
+graph on at most $n$ vertices. So every $d$-degenerate $H$ of chromatic number
+$r$ with $|V(H)|\ge2^{d^22^{cr}}$ has $R(H)\le2^{d2^{cr}}|V(H)|$. The paper's
+remark after the theorem settles the conjecture "since all $d$-degenerate graphs
+have chromatic number at most $d+1$" (p. 3). The one-line bridge to the site's
+wording is written in the Current assessment and named there as authored. The
+site credits Lee with the solution. The constant is not settled: the site
+records the conjecture $R(H)\le2^{O(d)}n$. The claim page
 [[problems/ramsey_theory/E0163/claims/2015_05_18_lee|Lee 2015]] records the
 result, its postings and the acceptance evidence.
 

@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0287
 title: Problem 287
 desc: |
-  Asks whether distinct denominators above one whose unit fractions sum to one
-  must always include two consecutive ones differing by at least three.
+  Asks whether every representation $1=1/n_1+\cdots+1/n_k$ with
+  $1<n_1<\cdots<n_k$ has two consecutive denominators differing by at least $3$.
 tags:
 - Number theory
 - Unit fractions
@@ -42,18 +42,18 @@ statement asserts that none exists. The representation
 $1=\tfrac12+\tfrac13+\tfrac16$ has gaps $1$ and $3$, so the bound $3$
 cannot be raised.
 
-**Status.** Falsifiable on the site: the label is FALSIFIABLE (page last
-edited 23 January 2026), which the site explains as open but refutable by one
-finite counterexample. The standing in the frontmatter derives from the claim
-pages, both pending partial claims: the Lean developments
+**Status.** Falsifiable on the site: the label is FALSIFIABLE (page last edited
+23 January 2026). The site explains this label as open but refutable by one
+finite counterexample. The site's proof-claim tab is empty. The standing in the
+frontmatter derives from the claim pages, which are both pending partial claims.
+They are the Lean developments
 [[problems/unit_fractions/E0287/claims/2026_08_26_pr_huang|Pr_Huang 2026]]
 (largest denominator up to $4\times10^9$, then about $3.74\times10^{60}$) and
 [[problems/unit_fractions/E0287/claims/2026_09_02_ramji|Ramji 2026]] (up to
-about $8.59\times10^{23}$, then a 959-digit limit) claim the statement for
-every representation whose largest denominator is below their limits, which
-would settle every $k$ up to about a third of the limit, and nothing claims
-the statement for all $k$ or a counterexample. The site's proof-claim tab is
-empty.
+about $8.59\times10^{23}$, then a 959-digit limit). They claim the statement for
+every representation whose largest denominator is below their limits. This would
+settle every $k$ up to about a third of the limit. Nothing claims the statement
+for all $k$, and nothing claims a counterexample.
 
 **Source.** [erdosproblems.com/287](https://www.erdosproblems.com/287),
 accessed 2026-09-17: the problem page (FALSIFIABLE;

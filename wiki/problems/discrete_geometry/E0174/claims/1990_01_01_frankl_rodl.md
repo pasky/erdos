@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0174/claims/1990_01_01_frankl_rodl
 title: Frankl and Rödl's theorem that every simplex is Ramsey
 desc: |
-  Theorem 5.1 of the 1990 paper: every finite affinely independent set is
-  super-Ramsey, with exponentially dense finite witnesses, so every
-  nondegenerate simplex is Ramsey; refereed, J. Amer. Math. Soc. 3 (1990).
+  Theorem 5.1 of Frankl and Rödl's 1990 paper shows that every finite affinely
+  independent set is super-Ramsey, with exponentially dense finite witnesses, so
+  every nondegenerate simplex is Ramsey. It is refereed, in J. Amer. Math. Soc.
+  3 (1990).
 authors:
 - P. Frankl
 - V. Rödl
@@ -55,10 +56,10 @@ not decide affinely dependent sets; the full classification is
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper is a journal publication in the Journal of
-the American Mathematical Society, volume 3, issue 1 (January 1990), the
-`refereed` evidence; the issue carries no day, so this page is dated to the
-first day of that month. The site's curator credits non-degenerate simplices
-to [FrRo90] in the problem's commentary, but the site labels the problem
-OPEN, so that credit is not `reviewed` evidence. The library's complete
-reconstruction of the same-paper chain is the corpus's own reading and is not
-an independent review.
+the American Mathematical Society, volume 3, issue 1 (January 1990). This is the
+`refereed` evidence. The issue carries no day, so this page is dated to the
+first day of that month. In the problem's commentary the site's curator credits
+non-degenerate simplices to [FrRo90]. The site labels the problem OPEN, however,
+so that credit is not `reviewed` evidence. The library's complete reconstruction
+of the same-paper chain is the corpus's own reading. It is not an independent
+review.

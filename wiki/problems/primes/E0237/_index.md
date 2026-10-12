@@ -2,9 +2,10 @@
 name: problems/primes/E0237
 title: Problem 237
 desc: |
-  Asks whether any set of integers with at least logarithmically many elements
-  up to N gives some integers unboundedly many representations as prime plus
-  member.
+  Asks whether every set $A\subseteq\mathbb{N}$ with
+  $\lvert A\cap\{1,\ldots,N\}\rvert\gg\log N$ for all large $N$ gives
+  $\limsup f(n)=\infty$, where $f(n)$ counts the solutions of $n=p+a$ with $p$
+  prime and $a\in A$.
 tags:
 - Number theory
 - Primes
@@ -29,13 +30,13 @@ f(n)=\infty$?
 
 **Status.** PROVED (LEAN), the site's label. The accepted claim is
 [[problems/primes/E0237/claims/2022_01_26_chen_ding|Chen and Ding's 2022 theorem]],
-refereed and credited by the site's curator, which also shows that any
-infinite $A$ suffices. Erdős's 1950 theorem for $A=\{2^k:k\ge0\}$, credited
-in the site's commentary, is the accepted partial claim
+refereed and credited by the site's curator. The theorem also shows that any
+infinite $A$ suffices. Erdős's 1950 theorem for $A=\{2^k:k\ge0\}$, credited in
+the site's commentary, is the accepted partial claim
 [[problems/primes/E0237/claims/1950_11_01_erdos|a prime plus a power of two]].
-The site's page links no Lean proof; the two Lean files recorded on Chen and
-Ding's page, one conditional and one that declares itself unconditional, were
-built by neither the site nor this corpus.
+The site's page links no Lean proof. Chen and Ding's page records two Lean
+files, one conditional and one that declares itself unconditional. Neither the
+site nor this corpus built them.
 
 **Source.** [erdosproblems.com/237](https://www.erdosproblems.com/237), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #237,

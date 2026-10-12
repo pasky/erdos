@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0046
 title: Problem 46
 desc: |
-  Asks whether every finite coloring of the integers admits a monochromatic
-  set of distinct integers above one whose reciprocals sum to one.
+  Asks whether every finite coloring of the integers has a monochromatic set of
+  distinct integers $n_i\ge2$ with $\sum 1/n_i=1$.
 tags:
 - Number theory
 - Unit fractions
@@ -31,17 +31,17 @@ distinct integers $n_1<\cdots<n_k$, all at least $2$, of one color, with the
 number of terms $k\ge1$ free. Integers below $2$ never occur in a solution, so
 their colors play no role.
 
-**Status.** Proved. Croot's coloring theorem (Annals of Mathematics 157
-(2003)) gives an interval $[2,b^r]$ every $r$-coloring of which has a
-monochromatic set with reciprocal sum one, and restricting a coloring of the
-integers to that interval answers the question; Bloom's theorem on sets of
-positive upper density gives a second route. The site records "PROVED
-(LEAN)"; the Lean suffix is a catalog label qualified under Existing
-formalization below, and no local kernel credit is claimed. The claim
-pages [[problems/unit_fractions/E0046/claims/2003_03_01_croot|Croot 2003]]
-and [[problems/unit_fractions/E0046/claims/2021_12_07_bloom|Bloom 2021]]
-record the two results, their postings and the acceptance evidence from
-which the standing above derives.
+**Status.** Proved. The site records "PROVED (LEAN)". The Lean suffix is a
+catalog label qualified under Existing formalization below, and no local kernel
+credit is claimed. Croot's coloring theorem (Annals of Mathematics 157 (2003))
+gives an interval $[2,b^r]$ such that every $r$-coloring of it has a
+monochromatic set with reciprocal sum one. Restricting a coloring of the
+integers to that interval answers the question. Bloom's theorem on sets of
+positive upper density gives a second route. The claim pages
+[[problems/unit_fractions/E0046/claims/2003_03_01_croot|Croot 2003]] and
+[[problems/unit_fractions/E0046/claims/2021_12_07_bloom|Bloom 2021]] record the
+two results, their postings and the acceptance evidence from which the standing
+above derives.
 
 **Source.** [erdosproblems.com/46](https://www.erdosproblems.com/46),
 accessed 2026-09-17: the problem page (PROVED (LEAN); last edited 7 April

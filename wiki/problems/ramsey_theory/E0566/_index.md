@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0566
 title: Problem 566
 desc: |
-  Asks whether a graph whose subgraphs on k at least 2 vertices have at most
-  2k-3 edges is Ramsey size linear; corrected from the site's wording, which
-  no graph meets since one vertex exceeds the bound; open.
+  Asks whether every graph whose subgraphs on $k\ge2$ vertices have at most
+  $2k-3$ edges is Ramsey size linear; open. This corrects the site's wording,
+  which no graph meets, since a one-vertex subgraph exceeds the bound.
 tags:
 - Graph theory
 - Ramsey theory
@@ -73,23 +73,24 @@ credits [EFRS93] with Ramsey size linearity for every graph on $n$ vertices
 having at most $n+1$ edges; [EFRS93] Theorem 4 states this for connected $G$.
 
 **Status.** The site labels the problem OPEN, and the corrected Statement is
-open: no proof or disproof was found in the search whose
-scope the Current assessment records. Partial results are known, from two
-refereed papers recorded as accepted partial claims: [EFRS93] for connected graphs with at most one more edge than vertices
-(Theorem 4), the graphs $K_1+T_{p-1}$ with exactly $2p-3$ edges (Corollary 2)
-and the graphs with Turán number $O(n^{3/2})$ (Theorem 5), on
-[[problems/ramsey_theory/E0566/claims/1993_12_01_erdos_faudree_rousseau_schelp|its claim page]];
-and [BGS24] for the subdivisions of $K_4$ on at least six vertices (Theorem 4),
-on
+open. No full claim exists, so the problem is open with no claim. The search
+whose scope the Current assessment records found no proof or disproof. Partial
+results are known from two refereed papers, both recorded as accepted partial
+claims. The first, [EFRS93], covers connected graphs with at most one more edge
+than vertices (Theorem 4), the graphs $K_1+T_{p-1}$ with exactly $2p-3$ edges
+(Corollary 2) and the graphs with Turán number $O(n^{3/2})$ (Theorem 5). It is
+recorded on
+[[problems/ramsey_theory/E0566/claims/1993_12_01_erdos_faudree_rousseau_schelp|its claim page]].
+The second, [BGS24], covers the subdivisions of $K_4$ on at least six vertices
+(Theorem 4). It is recorded on
 [[problems/ramsey_theory/E0566/claims/2022_02_21_bradac_gishboliner_sudakov|its claim page]].
 A September 2026 preprint claims every graph without a $K_4$ minor, including
-all $2$-trees, which meet the hypothesis with equality; it is a partial claim
-recorded, unreviewed, on
-[[problems/ramsey_theory/E0566/claims/2026_09_28_barria|its claim page]].
-The minimal undecided instances named in 1993, $K_{3,3}$,
-$K_5-(K_{1,2}\cup K_2)$ and $Q_3$ (Question 2, the site's Problem 567), remain
-undecided in the sources found. No full claim exists, so the problem is open
-with no claim. This is a bounded negative finding, not a certificate of
+all $2$-trees, which meet the hypothesis with equality. It is a partial claim,
+recorded unreviewed on
+[[problems/ramsey_theory/E0566/claims/2026_09_28_barria|its claim page]]. The
+minimal undecided instances named in 1993 are $K_{3,3}$, $K_5-(K_{1,2}\cup K_2)$
+and $Q_3$ (Question 2, the site's Problem 567). They remain undecided in the
+sources found. This is a bounded negative finding, not a certificate of
 openness.
 
 **Source.** [erdosproblems.com/566](https://www.erdosproblems.com/566), accessed

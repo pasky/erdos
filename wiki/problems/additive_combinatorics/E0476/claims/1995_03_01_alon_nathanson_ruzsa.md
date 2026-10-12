@@ -3,8 +3,9 @@ name: problems/additive_combinatorics/E0476/claims/1995_03_01_alon_nathanson_ruz
 title: Alon, Nathanson and Ruzsa's polynomial-method proof
 desc: |
   Theorem 2 of Alon, Nathanson and Ruzsa (Amer. Math. Monthly 1995) derives the
-  restricted-sumset bound min(p, 2k - 3) by the polynomial method; their 1996
-  paper reproves the general m-fold theorem. A second accepted proof, refereed.
+  restricted-sumset bound $\min(p,2k-3)$ by the polynomial method, and their
+  1996 paper reproves the general $m$-fold theorem. This is a second accepted
+  and refereed proof.
 authors:
 - Noga Alon
 - Melvyn B. Nathanson

@@ -2,8 +2,9 @@
 name: problems/integer_sequences/E0771
 title: Problem 771
 desc: |
-  The largest size such that, for every m, some subset of one to n of that
-  size has no sub-collection of its elements summing to m.
+  Asks whether $f(n)=(\tfrac12+o(1))n/\log n$, where $f(n)$ is the largest size
+  such that, for every $m$, some subset of $\{1,\ldots,n\}$ of that size has no
+  subset summing to $m$.
 tags:
 - Number theory
 status: solved
@@ -30,15 +31,15 @@ $$
 f(n) = \left(\frac{1}{2}+o(1)\right)\frac{n}{\log n}?
 $$
 
-**Status.** Proved: a conjecture of Erdős and Graham. They observed the
-lower bound $f(n)\ge(\frac12+o(1))\frac n{\log n}$ (for every $m$, which
-one may take below $\binom{n+1}2$, the multiples of the least prime not
-dividing $m$, a prime below $(2+o(1))\log n$, avoid $m$ as a subset sum),
-and Alon and Freiman [AlFr88] proved the matching upper bound by exhibiting
-an $m$, the least common multiple of the integers below $s$ with $s$
-largest such that $m\le n^2/(20\log^2n)$, whose avoiding sets have at most
-$(\frac12+o(1))\frac n{\log n}$ elements. The site labels the problem
-PROVED and credits the paper. Claim page:
+**Status.** Proved. This was a conjecture of Erdős and Graham. The site labels
+the problem PROVED and credits the paper of Alon and Freiman [AlFr88]. Erdős and
+Graham observed the lower bound $f(n)\ge(\frac12+o(1))\frac n{\log n}$. For
+every $m$, which one may take below $\binom{n+1}2$, the multiples of the least
+prime not dividing $m$ avoid $m$ as a subset sum, and that prime is below
+$(2+o(1))\log n$. Alon and Freiman proved the matching upper bound. They exhibit
+an $m$ whose avoiding sets have at most $(\frac12+o(1))\frac n{\log n}$
+elements: the least common multiple of the integers below $s$, with $s$ largest
+such that $m\le n^2/(20\log^2n)$. Claim page:
 [[problems/integer_sequences/E0771/claims/1988_12_01_alon_freiman|Alon and Freiman 1988]]
 (accepted, refereed in Combinatorica).
 

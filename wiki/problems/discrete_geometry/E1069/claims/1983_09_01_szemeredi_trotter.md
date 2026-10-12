@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E1069/claims/1983_09_01_szemeredi_trotter
 title: Szemerédi and Trotter's bound on k-rich lines
 desc: |
-  Theorem 2 of Szemerédi and Trotter: n points in the plane lie on fewer than
-  c n^2/k^3 lines containing at least k of them, for k between 2 and root n;
-  refereed in Combinatorica and credited by the site's curator.
+  Theorem 2 of Szemerédi and Trotter shows that for $2\le k\le\sqrt n$, any $n$
+  points in the plane determine fewer than $cn^2/k^3$ lines containing at least
+  $k$ of them. It was refereed in Combinatorica and is credited by the site's
+  curator.
 authors:
 - Endre Szemerédi
 - William T. Trotter, Jr.
@@ -51,10 +52,10 @@ and Erdős and records this proof.
 
 **Acceptance.** The paper is refereed: E. Szemerédi and W. T. Trotter, Jr.,
 Extremal problems in discrete geometry, Combinatorica 3 (1983), no. 3-4,
-381–392; the page is dated to the issue month, September 1983, which the
+381–392. The page is dated to the issue month, September 1983, which the
 publisher's record gives. Thomas Bloom, the site's curator, marks the problem
 solved and credits this paper on the problem's page at erdosproblems.com (page
-last edited 2025-10-02); that credit is the `reviewed` evidence. No Lean proof
+last edited 2025-10-02). That credit is the `reviewed` evidence. No Lean proof
 is recorded.
 
 **What remains.** The best constant is unknown. At $k=n^{1/2}$ the lattice

@@ -4,19 +4,20 @@ desc: The 2 claim pages of Problem 512, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-07T07:58:35Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/analysis/E0512/claims
 
 [[problems/analysis/E0512/_index|..]]
 
-[[problems/analysis/E0512/claims/1981_01_01_konyagin|1981_01_01_konyagin]]: Proves that the L1 norm of a sum of N distinct exponentials is at least
-an absolute constant times the logarithm of N, Littlewood's conjecture,
-through dyadic averaging projections; refereed, credited by the site.
+[[problems/analysis/E0512/claims/1981_01_01_konyagin|1981_01_01_konyagin]]: Konyagin proves Littlewood's conjecture that the $L^1$ norm of a sum of $N$
+distinct exponentials is at least an absolute constant times $\log N$, using
+dyadic averaging projections. The paper is refereed and credited by the site.
 
-[[problems/analysis/E0512/claims/1981_05_01_mcgehee_pigno_smith|1981_05_01_mcgehee_pigno_smith]]: Proves Littlewood's conjecture that the L1 norm of a sum of N distinct
-exponentials is at least a constant times the logarithm of N, through a
-Hardy-type inequality; refereed in the Annals, credited by the site.
+[[problems/analysis/E0512/claims/1981_05_01_mcgehee_pigno_smith|1981_05_01_mcgehee_pigno_smith]]: McGehee, Pigno and Smith prove Littlewood's conjecture that the $L^1$ norm of
+a sum of $N$ distinct exponentials is at least a constant times $\log N$,
+through a Hardy-type inequality. Their refereed paper appeared in the Annals,
+and the site credits it.
 
 ***

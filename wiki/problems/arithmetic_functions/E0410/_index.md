@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0410
 title: Problem 410
 desc: |
-  Asks whether the k-th iterate of the sum-of-divisors function, taken to the
-  power one over k, tends to infinity for every integer n at least two.
+  Asks whether $\sigma_k(n)^{1/k}\to\infty$ as $k\to\infty$ for every $n\ge2$,
+  where $\sigma_k$ is the $k$-th iterate of the sum-of-divisors function.
 tags:
 - Number theory
 - Iterated functions

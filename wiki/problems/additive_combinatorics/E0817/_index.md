@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0817
 title: Problem 817
 desc: |
-  Estimates the least N for which some n-element set of integers up to N has
-  all subset sums free of k-term progressions, and asks whether the k = 3 case
-  grows like 3^n; open, with a 2026 preprint claiming a negative answer.
+  Estimates $g_k(n)$, the least $N$ for which some $n$-element subset of
+  $\{1,\ldots,N\}$ has a set of subset sums with no $k$-term progression, and
+  asks whether $g_3(n)\gg3^n$. It is open, and a 2026 preprint claims a negative
+  answer to the $k=3$ question.
 tags:
 - Additive combinatorics
 status: open
@@ -61,39 +62,43 @@ $K(N)=\log N/\log3+O(1)$, with the authors' tentative "perhaps, we have
 $K(N)=[\log N/\log3]+2$".
 
 **Status.** Open. The site's label was OPEN on 2026-09-18, 2026-10-06 and
-2026-10-07. Source-supported bounds: for $k=3$,
+2026-10-07. The sources support the following bounds. For $k=3$,
 
 $$
 \Bigl(\frac{\sqrt3}{2\sqrt\pi}+o(1)\Bigr)\frac{3^n}{\sqrt n}\ \le\ g_3(n)\ \le\ 3^{n-1},
 $$
 
-the lower bound
+where the lower bound is
 [[../library/additive_combinatorics/korsky_2026_arithmetic_progression_free_subset_sum_sets/theorem_1_1|Theorem 1.1]]
-of Korsky [Ko26] (arXiv:2606.24139v1, June 2026, a preprint), recorded as the claimed partial claim
-[[problems/additive_combinatorics/E0817/claims/2026_06_23_korsky|Korsky's bounds]],
-sharpening Erdős and Sárközy's $g_3(n)\gg3^n/n^{O(1)}$ (the site's wording;
-the paper's Theorem 4, p. 251, on $K(N)$, whose p. 261 argument gives
-$g_3(n)\gg3^n/n$), recorded as the accepted partial claim
-[[problems/additive_combinatorics/E0817/claims/1992_01_01_erdos_sarkozy|Erdős and Sárközy's lower bound]]
-on the refereed paper; for fixed $k\ge4$,
+of Korsky [Ko26] (arXiv:2606.24139v1, June 2026, a preprint), recorded as the
+claimed partial claim
+[[problems/additive_combinatorics/E0817/claims/2026_06_23_korsky|Korsky's bounds]].
+It sharpens Erdős and Sárközy's $g_3(n)\gg3^n/n^{O(1)}$. That form of the bound
+is the site's wording. The paper's Theorem 4 (p. 251) is about $K(N)$, and its
+argument on p. 261 gives $g_3(n)\gg3^n/n$. Erdős and Sárközy's bound is recorded
+as the accepted partial claim
+[[problems/additive_combinatorics/E0817/claims/1992_01_01_erdos_sarkozy|Erdős and Sárközy's lower bound]],
+on the refereed paper. For fixed $k\ge4$, Theorems 1.2 and 1.3 of [Ko26] give
 $\liminf g_k(n)^{1/n}\ge(k-1)/(k-2)$ and
-$\limsup g_k(n)^{1/n}\le\min_pp^{2/(\min\{p,k\}-1)}$ (Theorems 1.2 and 1.3
-of [Ko26], on Korsky's claim page). The displayed question $g_3(n)\gg3^n$
-has a claimed negative answer: a four-page preprint of September 2026 [Co26]
-(Zenodo, 5 September 2026; arXiv:2609.06303v1, 5 September 2026) proves, if
-correct, $\liminf_{n\to\infty}g_3(n)/3^n=0$, from Korsky's Corollary 4.2
-and a consequence of the construction, credited by the site to GPT-6 Astra
-run by Epoch AI, that disproved
-[[problems/additive_combinatorics/E0001/_index|Problem 1]]; its acknowledgments
+$\limsup g_k(n)^{1/n}\le\min_pp^{2/(\min\{p,k\}-1)}$. These are on Korsky's
+claim page.
+
+The displayed question, whether $g_3(n)\gg3^n$, has a claimed negative answer. A
+four-page preprint of September 2026 [Co26] (Zenodo, 5 September 2026;
+arXiv:2609.06303v1, 5 September 2026) proves, if correct, that
+$\liminf_{n\to\infty}g_3(n)/3^n=0$. It uses Korsky's Corollary 4.2 and a
+consequence of the construction that disproved
+[[problems/additive_combinatorics/E0001/_index|Problem 1]]. The site credits
+that construction to GPT-6 Astra run by Epoch AI. The preprint's acknowledgments
 declare the use of ChatGPT (OpenAI, GPT-5.6 Sol) in finding, checking and
-revising the argument. The claim is on the site's proof-claim tab (submitted
-2026-09-05 01:48:23, labeled full on 2026-09-05 and partial from
-2026-09-06, when the site's moderator relabeled it and called its scope
-debatable); the site's label was OPEN on 2026-10-07 and its commentary does
-not adopt the claim; no refereed version, independent review or citing
-paper beyond the thread was found. The claim has its own page,
+revising the argument. The claim is on the site's proof-claim tab. It was
+submitted 2026-09-05 01:48:23 and labeled full on 2026-09-05. It was labeled
+partial from 2026-09-06, when the site's moderator relabeled it and called its
+scope debatable. The site's commentary does not adopt the claim. No refereed
+version, independent review or citing paper beyond the thread was found. The
+claim has its own page,
 [[problems/additive_combinatorics/E0817/claims/2026_09_05_costa|Costa's negative answer]],
-a partial claim with status claimed: if correct it settles the displayed
+a partial claim with status claimed. If correct, it settles the displayed
 question and leaves the estimate open. For the estimate, this is a bounded
 negative finding, not a certificate of openness.
 

@@ -4,14 +4,14 @@ desc: The 1 claim page of Problem 670, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T20:00:46Z
-updated: 2026-10-07T20:00:46Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/distance_problems/E0670/claims
 
 [[problems/distance_problems/E0670/_index|..]]
 
-[[problems/distance_problems/E0670/claims/1997_05_22_erdos|1997_05_22_erdos]]: Erdős proves that n points on the line whose pairwise distances differ by
-at least 1 have diameter at least (1 + o(1)) n squared.
+[[problems/distance_problems/E0670/claims/1997_05_22_erdos|1997_05_22_erdos]]: Erdős gives a proof that $n$ points on the line whose pairwise distances
+differ by at least 1 have diameter at least $(1+o(1))n^2$.
 
 ***

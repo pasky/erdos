@@ -3,8 +3,9 @@ name: problems/set_theory/E0501/claims/1987_06_01_newelski_pawlikowski_seredynsk
 title: Closed sets of measure below one admit an infinite free set
 desc: |
   Newelski, Pawlikowski and Seredyński prove that a set mapping on the reals
-  with closed values of measure below one has an infinite free set, answering
-  the second question of Problem 501 with a free set of size three.
+  whose values are closed sets of measure below one has an infinite free set. In
+  particular it has a free set of size three, which answers the second question
+  of Problem 501.
 authors:
 - Ludomir Newelski
 - Janusz Pawlikowski
@@ -60,12 +61,12 @@ Corollaries (1)–(4) are recorded clause by clause on
 the proofs followed and not verified. This page is dated by the issue month,
 June 1987; the issue prints no day.
 
-**Acceptance.** Refereed: the Proceedings of the American Mathematical
-Society. Reviewed: the curator of erdosproblems.com (T. F. Bloom) credits
-[NPS87] in the problem's commentary with an infinite independent set under
-the second question's hypotheses, and so with the answer to that question;
-the page's label NOT DISPROVABLE composes this part with the independence of
-the first question. The curator is independent of the authors.
+**Acceptance.** Refereed: the Proceedings of the American Mathematical Society.
+Reviewed: the curator of erdosproblems.com (T. F. Bloom) credits [NPS87] in the
+problem's commentary with an infinite independent set under the second
+question's hypotheses. The curator thereby credits the paper with the answer to
+that question. The page's label NOT DISPROVABLE composes this part with the
+independence of the first question. The curator is independent of the authors.
 
 **Formalization.** The conclusion is proved in Lean, from Mathlib, as
 `erdos501_closed_infinite`, and the question as asked (an independent set of

@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E1078
 title: Problem 1078
 desc: |
-  Asks whether an r-partite graph with n vertices per part and minimum degree
-  about (r − 3/2)n must contain a complete graph on r vertices; proved by
-  Haxell, with the exact threshold from Haxell and Szabó by complementation.
+  Asks whether an $r$-partite graph with $n$ vertices in each part and minimum
+  degree at least $(r-\frac32-o(1))n$ must contain a $K_r$. Proved by Haxell,
+  with the exact threshold following from Haxell and Szabó by complementation.
 tags:
 - Graph theory
 status: solved
@@ -52,18 +52,18 @@ paper. The first key is recorded here as a slip on the site's side; that Ramsey
 paper is not cited on this page.
 
 **Status.** Proved, the site's label. The site's status-defining source is
-Haxell [Ha01] (Combin. Probab. Comput. 10 (2001), 345--347; refereed), not held:
-its abstract, on the publisher's article page, states a
-list-coloring theorem (lists of size $2k$, each color on the lists of at most
-$k$ neighbors of any vertex, a proper coloring from the lists exists, "a weak
-version of a conjecture of Reed"), and the paper of Haxell and Szabó attests its
+Haxell [Ha01] (Combin. Probab. Comput. 10 (2001), 345--347; refereed), which is
+not held. Its abstract, on the publisher's article page, states a list-coloring
+theorem: with lists of size $2k$ and each color on the lists of at most $k$
+neighbors of any vertex, a proper coloring from the lists exists, "a weak
+version of a conjecture of Reed". The paper of Haxell and Szabó attests its
 bearing on this problem: "This was improved to $\Delta_r\ge1/2$ in [9], which
 settled the conjecture of [7] and established $\mu=1/2$" ([HaSz06], p. 2; [9] is
 [Ha01] and [7] is [BES75b]). The stronger result is
 [[../library/extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_1_1|Theorem 1.1]]
 of [HaSz06] (Combin. Probab. Comput. 15 (2006), 193--211; refereed; paged by the
-authors' preprint): for every integer $n\ge1$ and odd $r\ge2$,
-$\Delta(r,n)=\Delta(r-1,n)=\lceil\frac{(r-1)n}{2(r-2)}\rceil$, where
+authors' preprint). It states that for every integer $n\ge1$ and odd $r\ge2$,
+$\Delta(r,n)=\Delta(r-1,n)=\lceil\frac{(r-1)n}{2(r-2)}\rceil$. Here
 $\Delta(r,n)$ is the largest integer such that every $r$-partite graph with
 parts of size $n$ and maximum degree less than $\Delta(r,n)$ has an independent
 transversal. By complementation, an authored deduction written out in the
@@ -73,17 +73,17 @@ $$
 f_r(n)=(r-1)n-\Bigl\lceil\frac{sn}{2s-1}\Bigr\rceil,\qquad s=\lfloor r/2\rfloor,
 $$
 
-for every $r\ge3$ and $n\ge1$: every $G_r(n)$ with minimum degree above this
+for every $r\ge3$ and $n\ge1$. Every $G_r(n)$ with minimum degree above this
 value contains a $K_r$, and some $G_r(n)$ with exactly this minimum degree does
-not, which is the sharp threshold the site prints. Since $f_r(n)<(r-\frac32)n$
-for every $r\ge3$, minimum degree at least $(r-\frac32)n$ forces a $K_r$, and
+not. This is the sharp threshold the site prints. Since $f_r(n)<(r-\frac32)n$
+for every $r\ge3$, minimum degree at least $(r-\frac32)n$ forces a $K_r$. Also
 $c_r=r-\frac32-\frac1{2(r-2)}$ for odd $r$ and $r-\frac32-\frac1{2(r-1)}$ for
-even $r$, so that $\lim_{r\to\infty}(c_r-r+2)=\frac12$, the 1975 conjecture.
+even $r$, so $\lim_{r\to\infty}(c_r-r+2)=\frac12$, which is the 1975 conjecture.
 The claim pages record Haxell's note
 ([[problems/extremal_graph_theory/E1078/claims/2001_07_01_haxell|Haxell 2001]])
 and the Haxell--Szabó theorem
-([[problems/extremal_graph_theory/E1078/claims/2006_01_01_haxell_szabo|Haxell and Szabó 2006]]),
-both refereed and both named by the site.
+([[problems/extremal_graph_theory/E1078/claims/2006_01_01_haxell_szabo|Haxell and Szabó 2006]]).
+Both are refereed and both are named by the site.
 
 **Source.** [erdosproblems.com/1078](https://www.erdosproblems.com/1078),
 accessed 2026-09-18: the problem page (PROVED, glossed by the site as an

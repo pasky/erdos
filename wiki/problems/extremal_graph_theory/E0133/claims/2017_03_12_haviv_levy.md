@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0133/claims/2017_03_12_haviv_levy
 title: Haviv and Levy's sum-free sets of size order root n for every n
 desc: |
-  Theorem 1.5 of Haviv and Levy gives a symmetric complete sum-free subset of
-  every large cyclic group of size O(root n), whose Cayley graph is a
-  triangle-free graph of diameter two of degree O(root n); f(n) has order root n.
+  Theorem 1.5 of Haviv and Levy gives every large cyclic group $\mathbb Z_n$ a
+  symmetric complete sum-free subset of size $O(\sqrt n)$. Its Cayley graph is
+  triangle-free of diameter two with degree $O(\sqrt n)$, so $f(n)$ has order
+  $\sqrt n$.
 authors:
 - Ishay Haviv
 - Dan Levy
@@ -63,8 +64,8 @@ this claim uses neither.
 
 **Acceptance.** Refereed publication in the Israel Journal of Mathematics, cited
 with its venue above. The site's curator, Thomas Bloom, marks the problem
-DISPROVED and credits the paper, under the reference [HaLe18], with an
-alternative construction of the complete sum-free sets behind the bound; that
-credit is the `reviewed` evidence, and Bloom took no part in the paper. No
-independent review of the argument was made here; the theorem and the deduction
-to $f(n)$ were read, and no proof step of Theorem 1.5 was checked.
+DISPROVED. In the commentary he credits the paper, under the reference [HaLe18],
+with an alternative construction of the complete sum-free sets behind the bound.
+That credit is the `reviewed` evidence, and Bloom took no part in the paper. No
+independent review of the argument was made here. The theorem and the deduction
+to $f(n)$ were read, but no proof step of Theorem 1.5 was checked.

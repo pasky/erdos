@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0430
 title: Problem 430
 desc: |
-  Concerns the greedy decreasing sequence in which each term is the largest
-  smaller integer above 1 whose prime factors all exceed n minus that term, and
-  asks whether some term is composite for every large n.
+  Asks whether, for all large $n$, the decreasing sequence with $a_1=n-1$ and
+  each $a_k$ the greatest integer in $[2,a_{k-1})$ whose prime factors all
+  exceed $n-a_k$ must contain a composite term.
 tags:
 - Number theory
 status: open

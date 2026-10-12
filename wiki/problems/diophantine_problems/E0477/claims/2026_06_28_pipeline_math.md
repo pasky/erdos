@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0477/claims/2026_06_28_pipeline_math
 title: A tiling complement for the thirteenth powers
 desc: |
-  The pipeline-math manuscript constructs a set A such that every integer is
-  uniquely a member of A plus an integer thirteenth power, answering the
-  existence question with f(X) = X^13.
+  The pipeline-math manuscript constructs a set $A$ such that every integer is
+  uniquely a member of $A$ plus an integer thirteenth power. This answers the
+  existence question with $f(X)=X^{13}$.
 authors:
 - Binghui Peng
 status: accepted
@@ -95,20 +95,19 @@ separate claim. This repository has not built or audited it, and it is not
 `formalized` evidence; the formal-conjectures file for the problem states
 the question and is not a proof.
 
-**Acceptance.** The site's curator, Thomas Bloom, marked the problem solved
-on 5 September 2026; Bloom's commentary credits GPT, prompted independently by
-Price and by pipeline-math, with proving that such an $A$ exists for
-$f(n)=n^d$ and every even $d\ge6$, and Bloom's signed exposition names the
-pipeline-math construction as independently found beside Price's,
-expounding a proof for positive inputs and every exponent $d\ge5$ rather
-than reviewing this manuscript line by line. The credit is of the existence
-conclusion and of the independence of this construction; it is stated for
-the even exponents $d\ge6$, a range that does not contain $13$, and no
-curator text mentions thirteenth powers. It is the `reviewed` evidence here
-because the curator's label settles the problem and names pipeline-math
-among those who proved it; it is not a review of the thirteenth-power
-theorem itself, which rests on the manuscript. No journal publication or
-arXiv posting is known. The repository's own
+**Acceptance.** The site's curator, Thomas Bloom, marked the problem solved on 5
+September 2026. Bloom's commentary credits GPT, prompted independently by Price
+and by pipeline-math, with proving that such an $A$ exists for $f(n)=n^d$ and
+every even $d\ge6$. Bloom's signed exposition names the pipeline-math
+construction as found independently, alongside Price's. The exposition gives a
+proof for positive inputs and every exponent $d\ge5$. It does not review this
+manuscript line by line. The credit covers the existence conclusion and the
+independence of this construction. It is stated for the even exponents $d\ge6$,
+a range that does not contain $13$, and no curator text mentions thirteenth
+powers. The credit is the `reviewed` evidence here because the curator's label
+settles the problem and names pipeline-math among those who proved it. It is not
+a review of the thirteenth-power theorem itself, which rests on the manuscript.
+No journal publication or arXiv posting is known. The repository's own
 [[../library/diophantine_problems/pipeline_math_2026_tiling_complement/evidence/verify/compilation_review|compilation review]]
-of the reconstructed proof, relative to the two external premises, is
-recorded on the card and awards no standing here.
+of the reconstructed proof, relative to the two external premises, is recorded
+on the card. It awards no standing here.

@@ -2,9 +2,10 @@
 name: problems/primes/E1138/claims/2026_04_25_sunder_kumrawat_cheri
 title: "Sunder, Kumrawat and Cheri: the record-gap obstruction"
 desc: |
-  Disproves the asymptotic for the primes in an interval of length C times
-  the maximal prime gap below x: two constants C less than 1/2 apart cannot
-  both satisfy it, so it fails for some C > 1; Lean-proved outside here.
+  Sunder, Kumrawat and Cheri disprove the asymptotic for the primes in an
+  interval of length $C$ times the maximal prime gap below $x$: two constants
+  $C$ less than $1/2$ apart cannot both satisfy it, so it fails for some $C>1$.
+  The result is proved in Lean outside this corpus.
 authors:
 - Hrishi Sunder
 - Sourish Kumrawat
@@ -79,16 +80,15 @@ which tends to infinity); the behavior when $C$ grows slowly with $x$ is
 also open. Neither is part of this claim.
 
 **Acceptance.** The site's curator, Thomas F. Bloom, marks Problem 1138
-disproved and credits the result to Sunder, Kumrawat and Cheri together
-with GPT 5.5, the `reviewed` evidence. The paper is H. Sunder, S. Kumrawat
-and K. Cheri, *An elementary obstruction to a uniform prime-gap asymptotic*,
-dated April 2026 and posted on the second author's page; it was announced in
-the site's discussion on 25 April 2026, the date of this page. In that
-announcement the authors state that GPT-5.5 Pro and GPT-5.5 Thinking were
-used in developing and checking the argument; the paper itself names no AI
-system. The three human authors are the claimants here, with the system
-named as they name it. No journal publication is recorded, so no
-`refereed` evidence is listed.
+disproved and credits the result to Sunder, Kumrawat and Cheri together with GPT
+5.5. This is the `reviewed` evidence. The paper is H. Sunder, S. Kumrawat and K.
+Cheri, *An elementary obstruction to a uniform prime-gap asymptotic*, dated
+April 2026 and posted on the second author's page. It was announced in the
+site's discussion on 25 April 2026, the date of this page. In that announcement
+the authors state that GPT-5.5 Pro and GPT-5.5 Thinking were used in developing
+and checking the argument. The paper itself names no AI system. The three human
+authors are the claimants here, and the system is named as they name it. No
+journal publication is recorded, so no `refereed` evidence is listed.
 
 **Formalization.** Three Lean developments formalize the disproof, each
 following the paper, so they are links on this page and not claims of their

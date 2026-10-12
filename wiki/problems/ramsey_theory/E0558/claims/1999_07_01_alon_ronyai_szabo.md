@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0558/claims/1999_07_01_alon_ronyai_szabo
 title: Alon, Rónyai and Szabó, R_k(K_{3,3}) = (1 + o(1))k^3
 desc: |
-  Theorem 3 of Alon, Rónyai and Szabó (J. Combin. Theory Ser. B 1999): the
-  k-color Ramsey number of K_{3,3} is (1 + o(1))k^3, which determines the
-  instance s = t = 3 asymptotically; refereed.
+  Theorem 3 of Alon, Rónyai and Szabó (J. Combin. Theory Ser. B 1999), a
+  refereed result, shows that the $k$-color Ramsey number of $K_{3,3}$ is
+  $(1+o(1))k^3$. This determines the instance $s=t=3$ asymptotically.
 authors:
 - Noga Alon
 - Lajos Rónyai
@@ -56,12 +56,12 @@ for fixed $t\ge2$ and $s\ge(t-1)!+1$, without constants.
 (J. Combin. Theory Ser. B 76 (1999), no. 2, July 1999, per the Crossref
 record); the day in the page name is a placeholder.
 
-**Acceptance.** Refereed: Norm-graphs: variations and applications,
-J. Combin. Theory Ser. B 76 (1999), no. 2, 280--290. The site's curator,
-T. F. Bloom, credits the asymptotic to this paper in the problem's
-commentary, on a page labeled OPEN (last edited 8 February 2026, accessed
-2026-09-17); that label does not mark the problem or this part settled, so
-the credit is recorded here and is not `reviewed` evidence.
+**Acceptance.** Refereed: Norm-graphs: variations and applications, J. Combin.
+Theory Ser. B 76 (1999), no. 2, 280--290. The site's curator, T. F. Bloom,
+credits the asymptotic to this paper in the problem's commentary. The page is
+labeled OPEN (last edited 8 February 2026, accessed 2026-09-17). That label does
+not mark the problem or this part settled, so the credit is recorded here and is
+not `reviewed` evidence.
 
 **Read depth.** Claims checked: Theorem 3, the Section 3 definition and
 inequality (7) were read in the author manuscript; the proof was read for

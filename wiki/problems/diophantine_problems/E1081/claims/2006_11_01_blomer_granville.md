@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E1081/claims/2006_11_01_blomer_granville
 title: Blomer and Granville pin the order of sums of two powerful numbers
 desc: |
-  Blomer and Granville (Duke Math. J., 2006) bound the count of sums of two
-  powerful numbers up to x within powers of log log x of x over log x to the
-  power 1 - 2^(-1/3), so the square-root-of-log asymptotic fails; refereed.
+  In a refereed paper (Duke Math. J., 2006), Blomer and Granville bound the
+  number of sums of two powerful numbers up to $x$ within powers of $\log\log x$
+  of $x/(\log x)^{1-2^{-1/3}}$. So the asymptotic $c\,x/\sqrt{\log x}$ fails.
 authors:
 - Valentin Blomer
 - Andrew Granville
@@ -46,8 +46,8 @@ $\log\log x$.
 
 **Depends on.** No other wiki page; the claim rests on the cited paper.
 
-**Acceptance.** Refereed: the paper appeared in the Duke Mathematical
-Journal, volume 135 (2006), published online on 1 November 2006 according to
-its Crossref record. Not reviewed: the site's curator credits Odoni with the
-disproof and cites this paper for the sharpest estimate of $A(x)$, which is
-not a credit for the disproof.
+**Acceptance.** Refereed: the paper appeared in the Duke Mathematical Journal,
+volume 135 (2006). Its Crossref record gives the online publication date as 1
+November 2006. Not reviewed: the site's curator credits Odoni with the disproof
+and cites this paper for the sharpest estimate of $A(x)$. That is not a credit
+for the disproof.

@@ -2,8 +2,10 @@
 name: problems/graph_coloring/E1156
 title: Problem 1156
 desc: |
-  Asks a question about the chromatic number of a random graph on n vertices
-  in which each edge appears independently with probability one half.
+  Asks whether the chromatic number of a random graph on $n$ vertices, each edge
+  present independently with probability $1/2$, is almost surely concentrated on
+  boundedly many values, and whether it is within a slowly growing $\omega(n)$
+  of any given $f(n)$ with probability below $1/2$.
 tags:
 - Graph theory
 - Chromatic number

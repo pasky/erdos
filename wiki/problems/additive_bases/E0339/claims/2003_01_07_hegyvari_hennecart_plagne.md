@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0339/claims/2003_01_07_hegyvari_hennecart_plagne
 title: Hegyvári, Hennecart and Plagne on restricted sums of bases
 desc: |
-  Hegyvári, Hennecart and Plagne (2003) prove that if A is a basis of order r
-  then the sums of exactly r distinct elements of A have positive lower
-  density, with the companion upper-density statement, an affirmative answer.
+  Hegyvári, Hennecart and Plagne (2003) prove that if $A$ is a basis of order
+  $r$, then the sums of exactly $r$ distinct elements of $A$ have positive lower
+  density. This answers the question yes, and they also prove the companion
+  upper-density statement.
 authors:
 - N. Hegyvári
 - F. Hennecart
@@ -44,12 +45,12 @@ elements of $A$; the site's commentary records both answers. The paper is
 not held here, and its theorem numbering is not recorded; the statements are
 cited through the site's commentary and the journal record.
 
-**Acceptance.** Refereed: the paper is a journal article (Crelle's Journal;
-Crossref gives the issue date 2003-01-07, which is the page's date).
-Reviewed: the site's curator, T. F. Bloom, credits the affirmative answer to
-it and labels the problem proved at erdosproblems.com (page last edited
-2025-10-14, read 2026-10-07), which is the site's acceptance. The proof is
-not compiled or reviewed here.
+**Acceptance.** Refereed: the paper is a journal article (Crelle's Journal).
+Crossref gives the issue date 2003-01-07, which is the page's date. Reviewed:
+the site's curator, T. F. Bloom, credits the affirmative answer to it and labels
+the problem proved at erdosproblems.com (page last edited 2025-10-14, read
+2026-10-07). This is the site's acceptance. The proof is not compiled or
+reviewed here.
 
 **The Lean file.** Boris Alexeev's `lean-proofs` repository has held
 `Erdos339.lean` since 2026-08-17. The file at the pinned commit calls itself

@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E0375
 title: Problem 375
 desc: |
-  Asks whether any k consecutive composite integers can always be assigned
-  distinct primes, one dividing each of them.
+  Asks whether any $k$ consecutive composite integers $n+1,\ldots,n+k$ can be
+  assigned distinct primes $p_1,\ldots,p_k$ with $p_i\mid n+i$.
 tags:
 - Number theory
 - Primes
@@ -26,9 +26,8 @@ composite then there are distinct primes $p_1,\ldots,p_k$ such that $p_i\mid
 n+i$ for $1\leq i\leq k$?
 
 **Status.** Falsifiable: the site's label (page last edited 24 January 2026,
-accessed 2026-10-07); the question is open, with no proof and no counterexample
-recorded, and the label is explained as a body note under Current
-assessment.
+accessed 2026-10-07). The question is open, with no proof and no counterexample
+recorded. The label is explained in a body note under Current assessment.
 
 **Source.** [erdosproblems.com/375](https://www.erdosproblems.com/375), accessed
 2026-09-04 and 2026-10-07. Cite as: T. F. Bloom, Erdős Problem #375,

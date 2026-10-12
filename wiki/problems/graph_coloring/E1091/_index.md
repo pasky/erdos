@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E1091
 title: Problem 1091
 desc: |
-  Asks whether every graph with chromatic number four and no complete graph on
-  four vertices contains an odd cycle with at least two diagonals; Erdős first
-  asked for one diagonal, which Larson proved in 1979.
+  Asks whether every $K_4$-free graph with chromatic number $4$ contains an odd
+  cycle with at least two diagonals. Erdős first asked for one diagonal, which
+  Larson proved in 1979.
 tags:
 - Graph theory
 - Chromatic number
@@ -45,16 +45,16 @@ diagonals, together with the more general question about $f(r)$ diagonals, and
 that Statement sets the standing; the pentagonal wheel shows that three
 diagonals are not forced.
 
-**Status.** The site labels the problem solved, with the two questions
-answered in opposite directions. The first question, whether a $K_4$-free
-graph of chromatic number $4$ has an odd cycle with at least two diagonals,
-is answered yes by the accepted partial claim
-[[problems/graph_coloring/E1091/claims/1982_06_01_voss|Voss's two-chord theorem]];
-the second, whether some $f(r)\to\infty$ diagonals are forced by local
-$3$-colorability, is answered no by the accepted partial claim
-[[problems/graph_coloring/E1091/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant|the ten-chord construction of Alexeev, Putterman, Sawhney, Sellke and Valiant]].
-The two claims together settle both parts of the problem, one yes and one
-no, so the problem is solved with the mixed value answered.
+**Status.** The site labels the problem solved, with the two questions answered
+in opposite directions. The first question asks whether a $K_4$-free graph of
+chromatic number $4$ has an odd cycle with at least two diagonals. The accepted
+partial claim
+[[problems/graph_coloring/E1091/claims/1982_06_01_voss|Voss's two-chord theorem]]
+answers it yes. The second asks whether local $3$-colorability forces some
+$f(r)\to\infty$ diagonals. The accepted partial claim
+[[problems/graph_coloring/E1091/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant|the ten-chord construction of Alexeev, Putterman, Sawhney, Sellke and Valiant]]
+answers it no. Together the two claims settle both parts of the problem, one yes
+and one no. So the problem is solved with the mixed value answered.
 
 **Source.** [erdosproblems.com/1091](https://www.erdosproblems.com/1091),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1091,

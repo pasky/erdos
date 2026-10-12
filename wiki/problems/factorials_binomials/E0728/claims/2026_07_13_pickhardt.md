@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0728/claims/2026_07_13_pickhardt
 title: Two deterministic AI-generated proofs
 desc: |
-  Two manuscripts by the Paratelligent Research Agent and Jeff Pickhardt,
-  posted to the site's thread after the problem was settled, each claiming a
-  deterministic proof of the affirmative answer with any constant times log n.
+  Two manuscripts by the Paratelligent Research Agent and Jeff Pickhardt, posted
+  to the site's thread after the problem was settled, each claim a deterministic
+  proof of the affirmative answer with any constant times $\log n$.
 authors:
 - Paratelligent Research Agent
 - Jeff Pickhardt

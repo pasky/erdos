@@ -2,8 +2,8 @@
 name: problems/distance_problems/E1082
 title: Problem 1082
 desc: |
-  Asks whether n points in the plane with no three collinear always determine
-  at least the floor of n/2 distinct distances, even as seen from a single
+  Asks whether $n$ points in the plane with no three collinear always determine
+  at least $\lfloor n/2\rfloor$ distinct distances, even as seen from a single
   point.
 tags:
 - Geometry
@@ -31,21 +31,21 @@ In fact, must there exist a single point from which there are at least $\lfloor
 n/2\rfloor$ distinct distances?
 
 **Status.** Falsifiable, in the site's label (FALSIFIABLE, page last edited 11
-April 2026). The two questions are the problem's parts, listed in the
-frontmatter as `distinct_distances` and `single_point`. The second question
-has a negative answer, published by Erdős and Fishburn [ErFi97b] with credit
-to Harborth and recorded as an accepted partial claim on
+April 2026). The standing in the frontmatter, derived from the claim pages, is
+open. The two questions are the problem's parts, listed in the frontmatter as
+`distinct_distances` and `single_point`. The second question has a negative
+answer. Erdős and Fishburn [ErFi97b] published it with credit to Harborth, and
+it is recorded as an accepted partial claim on
 [[problems/distance_problems/E1082/claims/1997_10_01_erdos_fishburn|its claim
-page]]; a Lean proof of the same negative answer, found independently by a
-DeepMind prover agent, is a pending partial claim on
+page]]. A DeepMind prover agent independently found a Lean proof of the same
+negative answer. That proof is a pending partial claim on
 [[problems/distance_problems/E1082/claims/2026_02_25_deepmind|its own page]].
-The first question is open. Two partial claims settle cases of it: Altman's
-theorem on convex polygons covers every set in convex position and is an
+The first question is open. Two partial claims settle cases of it. Altman's
+theorem on convex polygons covers every set in convex position. It is an
 accepted partial claim on
-[[problems/distance_problems/E1082/claims/1963_02_01_altman|its claim page]],
-and a dated note settling every $n\le15$ is a pending partial claim on
+[[problems/distance_problems/E1082/claims/1963_02_01_altman|its claim page]]. A
+dated note settling every $n\le15$ is a pending partial claim on
 [[problems/distance_problems/E1082/claims/2026_08_31_sallerk|its claim page]].
-The standing in the frontmatter, derived from the claim pages, is open.
 
 **Source.** [erdosproblems.com/1082](https://www.erdosproblems.com/1082),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1082,

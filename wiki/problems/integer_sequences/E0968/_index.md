@@ -2,8 +2,7 @@
 name: problems/integer_sequences/E0968
 title: Problem 968
 desc: |
-  Asks whether the set of n for which the nth prime divided by n is less than
-  the next such ratio has positive density.
+  Asks whether the set of $n$ with $p_n/n<p_{n+1}/(n+1)$ has positive density.
 tags:
 - Number theory
 status: solved
@@ -58,23 +57,25 @@ short argument for the companion case, the $k$ with
 $p_k/k>p_{k+1}/(k+1)$, which [Er65b] calls easy.
 
 **Status.** OPEN, the site's label (page last edited 31 March 2026; proof-claims
-tab empty when accessed 2026-10-07); the site's commentary reads the question as
-asking for positive lower density. The OpenAI release's preprint of 25 September
-2026 proves that for every fixed $C>0$ a positive proportion of the consecutive
-prime gaps $p_{n+1}-p_n$ exceed $C\log p_n$, uniformly over all large initial
-segments, and deduces that the $n$ with $u_n<u_{n+1}$ have positive lower
-asymptotic density, the question the precise Statement asks. The release's Lean
-declaration states both results; this corpus built it, checked its axioms and
-found it identical to the release's comparator challenge, so the result is
-accepted on
-[[problems/integer_sequences/E0968/claims/2026_09_25_openai|its claim page]] and
-the problem stands solved and proved here, with "density" read as the lower
-density Erdős and Prachar asked for. Whether the set has an asymptotic density,
-the stronger reading under Formulation, remains open. The discussion thread (as
-of 2026-10-07) holds one conditional result: the comment of 10 September 2025
-(Tao) gives a positive answer assuming the Riemann hypothesis and a weak form of
-the pair correlation conjecture; a conditional thread post, it has no claim
-page.
+tab empty when accessed 2026-10-07). The site's commentary reads the question as
+asking for positive lower density. Here the problem stands solved and proved,
+with "density" read as the lower density Erdős and Prachar asked for, because of
+the accepted result below.
+
+The OpenAI release's preprint of 25 September 2026 proves that for every fixed
+$C>0$ a positive proportion of the consecutive prime gaps $p_{n+1}-p_n$ exceed
+$C\log p_n$, uniformly over all large initial segments. It deduces that the $n$
+with $u_n<u_{n+1}$ have positive lower asymptotic density. This is the question
+the precise Statement asks. The release's Lean declaration states both results.
+This corpus built it, checked its axioms and found it identical to the release's
+comparator challenge. So the result is accepted on
+[[problems/integer_sequences/E0968/claims/2026_09_25_openai|its claim page]].
+
+Whether the set has an asymptotic density, the stronger reading under
+Formulation, remains open. The discussion thread (as of 2026-10-07) holds one
+conditional result. The comment of 10 September 2025 (Tao) gives a positive
+answer assuming the Riemann hypothesis and a weak form of the pair correlation
+conjecture. As a conditional thread post, it has no claim page.
 
 **Source.** [erdosproblems.com/968](https://www.erdosproblems.com/968), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #968,

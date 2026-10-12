@@ -3,8 +3,9 @@ name: problems/ramsey_theory/E0561/claims/2021_11_03_davoodi_javadi_kamranian_ra
 title: Davoodi, Javadi, Kamranian and Raeisi, the formula for one star, two equal stars and odd sizes
 desc: |
   Theorems 2.3 to 2.6 of Davoodi, Javadi, Kamranian and Raeisi (Ars Math.
-  Contemp. 2025) prove the star-forest formula for one star, two equal stars,
-  all sizes odd, and equal odd stars against a forest with odd largest star.
+  Contemp. 2025) prove the star-forest formula in four cases: one star, two
+  equal stars, all star sizes odd, and equal odd stars against a forest whose
+  largest star is odd.
 authors:
 - A. Davoodi
 - R. Javadi
@@ -73,14 +74,13 @@ claimed.
 whose Lemma 2.1 uses Vizing's theorem and Petersen's $2$-factorization
 theorem.
 
-**Acceptance.** Refereed: A. Davoodi, R. Javadi, A. Kamranian and G.
-Raeisi, On a conjecture of Erdős on size Ramsey number of star forests,
-Ars Math. Contemp. 25 (2025), no. 2, #P2.09, 10 pp. (received 4 May 2023,
-accepted 10 May 2024, published online 1 April 2025). The page is dated by
-the first posting, arXiv:2111.02065 (3 November 2021), by the same four
-authors under the same title. The site's commentary credits the further
-special cases to this paper, but the site labels the problem OPEN, so its
-pages are not acceptance.
+**Acceptance.** Refereed: A. Davoodi, R. Javadi, A. Kamranian and G. Raeisi, On
+a conjecture of Erdős on size Ramsey number of star forests, Ars Math. Contemp.
+25 (2025), no. 2, #P2.09, 10 pp. (received 4 May 2023, accepted 10 May 2024,
+published online 1 April 2025). The page is dated by the first posting,
+arXiv:2111.02065 (3 November 2021), by the same four authors under the same
+title. The site's commentary credits the further special cases to this paper.
+But the site labels the problem OPEN, so its pages are not acceptance.
 
 **Read depth.** The statements of Theorems 2.2--2.6 and Lemma 2.1 were read
 in the journal version; the proofs were read for structure only, and the

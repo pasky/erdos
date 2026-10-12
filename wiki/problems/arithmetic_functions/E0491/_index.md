@@ -3,7 +3,7 @@ name: problems/arithmetic_functions/E0491
 title: Problem 491
 desc: |
   Asks whether an additive function whose consecutive differences stay bounded
-  must equal a constant multiple of the logarithm plus a bounded error.
+  must equal $c'\log n+O(1)$ for some constant $c'$.
 tags:
 - Number theory
 status: solved
@@ -30,8 +30,8 @@ f(n)=c'\log n+O(1)?
 $$
 
 **Status.** Proved. The site labels the problem PROVED (page last edited
-2026-04-01) and credits Wirsing [Wi70], whose theorem answers the question
-yes; the accepted full claim is on
+2026-04-01) and credits Wirsing [Wi70], whose theorem answers the question yes.
+The accepted full claim is on
 [[problems/arithmetic_functions/E0491/claims/1970_01_01_wirsing|the claim page]].
 
 **Source.** [erdosproblems.com/491](https://www.erdosproblems.com/491), accessed

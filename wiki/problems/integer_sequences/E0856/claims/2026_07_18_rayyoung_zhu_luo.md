@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0856/claims/2026_07_18_rayyoung_zhu_luo
 title: RayYoung, Zhu and Luo's exact exponent by a finite-block extremal formula
 desc: |
-  A 2026 manuscript on the site's proof-claim tab, written with GPT 5.6 Sol Pro,
-  claims f_k(N) = (log N)^{gamma_k + o(1)} with gamma_k a supremum over uniform
-  families with no k sets of equal pairwise union; the exponent's value is open.
+  A 2026 manuscript by RayYoung, Zhu and Luo on the site's proof-claim tab,
+  written with GPT 5.6 Sol Pro, claims $f_k(N)=(\log N)^{\gamma_k+o(1)}$, with
+  $\gamma_k$ a supremum over uniform families with no $k$ sets of equal pairwise
+  union. The exponent's value is open.
 authors:
 - Keheng Zhu
 - Yanping Luo

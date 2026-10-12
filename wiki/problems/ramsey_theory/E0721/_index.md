@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0721
 title: Problem 721
 desc: |
-  Bounds the least n such that every red-blue coloring of 1 up to n has a red
-  three-term progression or a blue k-term one; Green, Hunter and Schoen meet
-  the two explicit challenges while the order of magnitude stays open.
+  Asks for bounds on $W(3,k)$, the least $n$ such that every red/blue coloring
+  of $\{1,\ldots,n\}$ has a red 3-term progression or a blue $k$-term one.
+  Green, Hunter and Schoen meet the two explicit challenges, but the order of
+  magnitude remains open.
 tags:
 - Number theory
 - Additive combinatorics

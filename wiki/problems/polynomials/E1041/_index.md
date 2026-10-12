@@ -2,8 +2,9 @@
 name: problems/polynomials/E1041
 title: Problem 1041
 desc: |
-  Examines a polynomial whose roots all lie strictly inside the unit disc and
-  the shape of the region where its absolute value is below one.
+  Asks whether every monic polynomial $f$ with all roots in the open unit disc
+  has a path of length less than $2$ inside $\{z:\lvert f(z)\rvert<1\}$ joining
+  two of its roots.
 tags:
 - Analysis
 - Polynomials
@@ -32,30 +33,29 @@ $$
 
 which connects two of the roots of $f$?
 
-**Status.** Falsifiable (the site's label; page last edited 06 December
-2025): open, but a single polynomial with no short path would disprove it.
-The site's proof-claims tab carries one partial proof claim, the cubic case,
-and records no acceptance. The derived standing is `claimed`/`disproved`: the
-pending full claim on
-[[problems/polynomials/E1041/claims/2026_09_07_ani|ani 2026
-(counterexample)]], posted on the thread on 2026-09-07, offers a degree-seven
-polynomial in which, it argues, no path of length less than $2$ inside the
-lemniscate joins two roots; two readers reported checks, Cook formalized one
-member of the family in Lean, and the formal-conjectures catalog marked the
-problem solved with answer false on 2026-09-23, while the site labels the
-problem FALSIFIABLE, the community database records the problem falsifiable
-(status dated 2025-09-15, as of 2026-10-06), and no human review is
-documented. Partial claims argue the affirmative for
-degree three
+**Status.** Falsifiable (the site's label; page last edited 06 December 2025):
+open, but a single polynomial with no short path would disprove it. The derived
+standing is `claimed`/`disproved`. It rests on the pending full claim on
+[[problems/polynomials/E1041/claims/2026_09_07_ani|ani 2026 (counterexample)]],
+posted on the thread on 2026-09-07. That claim offers a degree-seven polynomial
+in which, it argues, no path of length less than $2$ inside the lemniscate joins
+two roots. Two readers reported checks, and Cook formalized one member of the
+family in Lean. The formal-conjectures catalog marked the problem solved with
+answer false on 2026-09-23. Meanwhile the site labels the problem FALSIFIABLE,
+and the community database records it as falsifiable (status dated 2025-09-15,
+as of 2026-10-06). No human review is documented.
+
+The site's proof-claims tab carries one partial proof claim, the cubic case, and
+records no acceptance. Partial claims argue the affirmative for degree three
 ([[problems/polynomials/E1041/claims/2026_09_18_borisov|Borisov 2026]], the
 claim on the tab), degree four
 ([[problems/polynomials/E1041/claims/2026_06_23_pendyala|Pendyala 2026]]) and
-trinomials ([[problems/polynomials/E1041/claims/2026_09_11_cook|Cook 2026]]);
-two general proofs posted earlier on the thread,
+trinomials ([[problems/polynomials/E1041/claims/2026_09_11_cook|Cook 2026]]).
+Two general proofs posted earlier on the thread,
 [[problems/polynomials/E1041/claims/2026_03_17_ani|ani 2026]] and
 [[problems/polynomials/E1041/claims/2026_04_22_kasko37|kasko37 2026]], were
-rejected after readers found gaps. Nothing is refereed or accepted by the
-site, and nothing has been built or audited in this wiki.
+rejected after readers found gaps. Nothing is refereed or accepted by the site,
+and nothing has been built or audited in this wiki.
 
 **Source.** [erdosproblems.com/1041](https://www.erdosproblems.com/1041),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1041,

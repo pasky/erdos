@@ -2,9 +2,10 @@
 name: problems/polynomials/E0525/claims/1999_08_27_konyagin_schlag
 title: Konyagin and Schlag's lower bound for the minimum modulus
 desc: |
-  Proves that a random plus-minus one polynomial of degree n has minimum
-  modulus below epsilon over root n with limiting probability at most a
-  constant times epsilon, so the exponent minus one half is optimal.
+  Konyagin and Schlag prove that a random polynomial of degree $n$ with
+  coefficients $\pm1$ has minimum modulus below $\varepsilon/\sqrt n$ with
+  limiting probability at most $C\varepsilon$, so the exponent $-1/2$ is
+  optimal.
 authors:
 - S. V. Konyagin
 - W. Schlag
@@ -60,9 +61,9 @@ bound proved.
 linked above.
 
 **Acceptance.** Refereed: the paper appeared in Transactions of the American
-Mathematical Society 351 (1999), no. 12, 4963–4980. Reviewed: the site's
-curator, Thomas F. Bloom, records the bound as showing Konyagin's upper bound
-essentially best possible in the problem's commentary, and Cook and Nguyen's
+Mathematical Society 351 (1999), no. 12, 4963–4980. Reviewed: in the problem's
+commentary, the site's curator, Thomas F. Bloom, records that the bound shows
+Konyagin's upper bound to be essentially best possible. Cook and Nguyen's
 refereed paper of 2021 records the bound in its introduction. No formal proof of
 this bound on its own is held or audited in this repository, so no `formalized`
 evidence is listed.

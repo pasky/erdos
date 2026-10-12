@@ -2,9 +2,9 @@
 name: problems/discrepancy/E1028
 title: Problem 1028
 desc: |
-  Estimates the least possible maximum, over subsets of the first n integers,
-  of the sum of a plus or minus one valued function over the pairs inside that
-  subset.
+  Asks for an estimate of $H(n)$, the least possible maximum over
+  $X\subseteq\{1,\ldots,n\}$ of $\lvert\sum_{x\neq y\in X}f(x,y)\rvert$ for a
+  function $f$ with values $\pm1$.
 tags:
 - Graph theory
 - Discrepancy
@@ -30,17 +30,16 @@ $$
 
 where $f$ ranges over all functions $f:X^2\to \{-1,1\}$. Estimate $H(n)$.
 
-**Status.** SOLVED (LEAN) on erdosproblems.com, the label as it stood on
-2026-09-04, its Lean marker referring to the formalization reported in the
-forum and recorded below; with a formulation qualification. The site's
-statement above is preserved verbatim as it stood on 2026-09-04. Its
-annotation $f:X^2\to\{-1,1\}$ reuses the subset $X$ over which the maximum
-is taken, so it does not fix a single domain for $f$. If the domain is read
-as $[n]^2$, with arbitrary signs on ordered pairs, the resulting minimax is
-identically zero. The classical unordered-edge question has order $n^{3/2}$
-for sufficiently large $n$. The site's label, solved, does not identify
-these two quantities or assert an exact finite-$n$ formula or leading
-constant for the latter.
+**Status.** SOLVED (LEAN) on erdosproblems.com, with a formulation
+qualification. This is the label as it stood on 2026-09-04. Its Lean marker
+refers to the formalization reported in the forum and recorded below. The site's
+statement above is preserved verbatim as it stood on 2026-09-04. Its annotation
+$f:X^2\to\{-1,1\}$ reuses the subset $X$ over which the maximum is taken, so it
+does not fix a single domain for $f$. If the domain is read as $[n]^2$, with
+arbitrary signs on ordered pairs, the resulting minimax is identically zero. The
+classical unordered-edge question has order $n^{3/2}$ for sufficiently large
+$n$. The site's label, solved, does not identify these two quantities or assert
+an exact finite-$n$ formula or leading constant for the latter.
 
 **Source.** T. F. Bloom, [Erdős Problem #1028](https://www.erdosproblems.com/1028),
 accessed 2026-09-06 (problem page, discussion thread and proof-claims tab).

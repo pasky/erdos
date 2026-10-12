@@ -2,9 +2,10 @@
 name: problems/set_theory/E1220/claims/1987_01_01_shelah_stanley
 title: Shelah and Stanley's consistent negative relation at aleph_(c+)
 desc: |
-  Shelah and Stanley (Ann. Pure Appl. Logic, 1987) force a counterexample to
-  the relation of Problem 1220 at aleph_(c+), which meets both hypotheses in
-  ZFC, so ZFC, if consistent, does not prove the universal statement.
+  Shelah and Stanley (Ann. Pure Appl. Logic, 1987) force a counterexample to the
+  relation of Problem 1220 at $\aleph_{\mathfrak c^+}$, which meets both
+  hypotheses in ZFC. So ZFC, if consistent, does not prove the universal
+  statement.
 authors:
 - Saharon Shelah
 - Lee Stanley
@@ -60,11 +61,11 @@ asserts the same not-provable side.
 
 **Acceptance.** Refereed: the result is a journal paper in the Annals of Pure
 and Applied Logic, volume 36 (1987), received 3 March 1986 and communicated by
-A. Nerode. The DOI record gives only the year, so this page's date is the
-first day of 1987. The site labels the problem OPEN, so no curator acceptance
-is listed. This page states Theorem 3 and the remarks of p. 125 as the Shelah
-archive's copy of the published version (Sh:258) prints them; the proof in §3
-is not reviewed in this corpus.
+A. Nerode. The DOI record gives only the year, so this page's date is the first
+day of 1987. The site labels the problem OPEN, so no curator acceptance is
+listed. This page states Theorem 3 and the remarks of p. 125 as the Shelah
+archive's copy of the published version (Sh:258) prints them. The proof in §3 is
+not reviewed in this corpus.
 
 **Depends on.** No other wiki page; the claim rests on the paper above and the
 1980 bound it records.

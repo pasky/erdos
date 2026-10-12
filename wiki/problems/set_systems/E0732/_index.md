@@ -2,9 +2,9 @@
 name: problems/set_systems/E0732
 title: Problem 732
 desc: |
-  Asks whether at least exp(c n^(1/2) log n) increasing sequences of block
-  sizes arise from a design on n points in which every pair of points lies in
-  exactly one block.
+  Asks whether, for some $c>0$, at least $\exp(cn^{1/2}\log n)$ non-decreasing
+  sequences of block sizes arise from designs on $n$ points in which every pair
+  of points lies in exactly one block.
 tags:
 - Combinatorics
 status: solved
@@ -111,11 +111,11 @@ $n^{-3}\exp(cn^{2/3})$, far more than Erdős's upper bound
 $\exp(O(n^{1/2}\log n))$ on the block-compatible ones; the comment is credited
 and not relied on.
 
-**Status.** Proved: the site's label PROVED describes the precise Statement.
-The site credits Alon's lower bound of $2^{(1/2+o(1))n^{1/2}\log n}$
-block-compatible sequences, which answers it yes, and records Erdős's upper
-bound of $\exp(O(n^{1/2}\log n))$ and Erdős's remark that
-$\sum_i\binom{X_i}2=\binom n2$ is necessary while a reasonable
+**Status.** Proved. The site's label PROVED describes the precise Statement. The
+site credits Alon with a lower bound of $2^{(1/2+o(1))n^{1/2}\log n}$
+block-compatible sequences, which answers the question yes. It also records
+Erdős's upper bound of $\exp(O(n^{1/2}\log n))$. It records Erdős's remark that
+$\sum_i\binom{X_i}2=\binom n2$ is necessary but that a reasonable
 characterization seemed doubtful. See also
 [[problems/discrete_geometry/E0733/_index|Problem 733]] for the line version.
 

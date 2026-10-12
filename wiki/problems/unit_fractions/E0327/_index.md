@@ -2,8 +2,8 @@
 name: problems/unit_fractions/E0327
 title: Problem 327
 desc: |
-  Asks how large a subset of the first N integers can be if the sum of any two
-  distinct members never divides their product, or never divides twice it.
+  Asks how large $A\subseteq\{1,\ldots,N\}$ can be if $a+b\nmid ab$ for all
+  distinct $a,b\in A$, or if instead $a+b\nmid 2ab$.
 tags:
 - Number theory
 - Unit fractions
@@ -42,21 +42,21 @@ two-term relations of [[problems/unit_fractions/E0302/_index|Problem 302]],
 since here the third denominator $ab/(a+b)$ need not lie in $A$. $f_1(N)$ is
 OEIS A384927 ($1,2,3,4,5,5,6,\ldots$, to $N=5000$).
 
-**Status.** Open on the site: the label is OPEN (the page shows no
-last-edited date) and the site marks the problem as not resolvable by a
-finite computation. The standing derived from the claim pages is claimed,
-claim answered: one full claim, Della Pietra's AI-assisted manuscript of 29
-July 2026
-([[problems/unit_fractions/E0327/claims/2026_07_29_della_pietra|its page]]),
-asserting a positive answer to the first question and an independent
-negative answer to the second, is pending and accepted by nobody. Second
-question: Sawin's Theorem 1 (arXiv:2607.15419v1, 16 July 2026) constructs
-sets of positive density with $a+b\nmid2ab$ for all distinct pairs, a
-negative answer, filed as a partial claim
-([[problems/unit_fractions/E0327/claims/2026_07_16_sawin|its page]]); the
-source is an arXiv preprint with no journal acceptance, independent review
-or citing work found on 2026-09-17, so the claim is pending and derives
-nothing. No refereed source answers either question.
+**Status.** Open on the site. The label is OPEN (the page shows no last-edited
+date), and the site marks the problem as not resolvable by a finite computation.
+The standing derived from the claim pages is claimed, claim answered. It rests
+on one full claim, Della Pietra's AI-assisted manuscript of 29 July 2026
+([[problems/unit_fractions/E0327/claims/2026_07_29_della_pietra|its page]]). The
+manuscript asserts a positive answer to the first question and an independent
+negative answer to the second. The claim is pending and accepted by nobody.
+
+For the second question, Sawin's Theorem 1 (arXiv:2607.15419v1, 16 July 2026)
+constructs sets of positive density with $a+b\nmid2ab$ for all distinct pairs.
+This is a negative answer, filed as a partial claim
+([[problems/unit_fractions/E0327/claims/2026_07_16_sawin|its page]]). The source
+is an arXiv preprint. No journal acceptance, independent review or citing work
+was found on 2026-09-17, so the claim is pending and derives nothing. No
+refereed source answers either question.
 
 **Source.** [erdosproblems.com/327](https://www.erdosproblems.com/327),
 accessed 2026-09-17: the problem page (OPEN, marked as not resolvable by a

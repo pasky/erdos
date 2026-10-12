@@ -4,23 +4,26 @@ desc: The 3 claim pages of Problem 481, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-07T11:01:32Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/integer_sequences/E0481/claims
 
 [[problems/integer_sequences/E0481/_index|..]]
 
-[[problems/integer_sequences/E0481/claims/1982_01_01_klarner|1982_01_01_klarner]]: A 1982 theorem that affine maps x to a_i x + b_i with positive integer a_i
-generate a non-free semigroup when the reciprocals of the a_i sum to more
-than one; two distinct words of equal length agree, so some A_k repeats.
+[[problems/integer_sequences/E0481/claims/1982_01_01_klarner|1982_01_01_klarner]]: Klarner's 1982 theorem shows that affine maps $x\mapsto a_ix+b_i$ with
+positive integer $a_i$ generate a non-free semigroup when $\sum_i 1/a_i>1$.
+Two distinct words of equal length then agree, so some $A_k$ has a repeated
+entry.
 
-[[problems/integer_sequences/E0481/claims/2021_05_19_kolpakov_talambutsa|2021_05_19_kolpakov_talambutsa]]: Theorem 3 of a 2022 paper: affine maps with positive integer multipliers and
-rational shifts generate a non-free semigroup when the reciprocals of the
-multipliers sum to more than one; the problem is a special case.
+[[problems/integer_sequences/E0481/claims/2021_05_19_kolpakov_talambutsa|2021_05_19_kolpakov_talambutsa]]: Theorem 3 of Kolpakov and Talambutsa's 2022 paper shows that affine maps with
+positive integer multipliers and rational shifts generate a non-free semigroup
+when the reciprocals of the multipliers sum to more than one. The problem is a
+special case.
 
-[[problems/integer_sequences/E0481/claims/2025_12_01_barreto|2025_12_01_barreto]]: An elementary proof posted in the site's thread: the reciprocal sum over
-A_k grows geometrically when the entries are distinct but is bounded by a
-harmonic number of order k; accepted by the site as Klarner's proof refound.
+[[problems/integer_sequences/E0481/claims/2025_12_01_barreto|2025_12_01_barreto]]: An elementary proof by Kevin Barreto and Claude Opus 4.5, posted in the site's
+thread, shows that distinct entries would make the reciprocal sum over $A_k$
+grow geometrically, although it is bounded by a harmonic number of order $k$.
+The site accepted it as Klarner's proof refound.
 
 ***

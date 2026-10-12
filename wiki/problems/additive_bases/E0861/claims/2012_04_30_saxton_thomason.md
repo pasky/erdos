@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0861/claims/2012_04_30_saxton_thomason
 title: Saxton and Thomason's count of Sidon sets
 desc: |
-  There are between 2^{(1.16+o(1)) sqrt N} and 2^{(55+o(1)) sqrt N} Sidon
-  subsets of {1,...,N}; since f(N) ~ sqrt N, the lower bound answers the first
-  question yes and the second no.
+  Saxton and Thomason show that $\{1,\ldots,N\}$ has between
+  $2^{(1.16+o(1))\sqrt N}$ and $2^{(55+o(1))\sqrt N}$ Sidon subsets. Since
+  $f(N)\sim\sqrt N$, the lower bound answers the first question yes and the
+  second no.
 authors:
 - David Saxton
 - Andrew Thomason
@@ -72,9 +73,9 @@ $c>\log_2(33e)=6.487\ldots$. The site's remarks (last edited 2025-10-15) give
 $6.442$ as the best upper bound. That paper restates the lower bound proved
 here. The limit of $\log_2 A(N)/f(N)$, if it exists, is not determined.
 
-**Acceptance.** The paper is refereed (Invent. Math.). The site's curator,
-T. F. Bloom, records both questions as settled on the problem page (last edited
-2025-10-15), the first positively and the second negatively, with the lower
-bound credited to this paper; that is the `reviewed` evidence named here.
+**Acceptance.** The paper is refereed (Invent. Math.). The site's curator, T. F.
+Bloom, records both questions as settled on the problem page (last edited
+2025-10-15). The first is settled positively and the second negatively, with the
+lower bound credited to this paper. This is the `reviewed` evidence named here.
 
 **Depends on.** Nothing beyond the cited paper.

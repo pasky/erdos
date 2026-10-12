@@ -2,9 +2,10 @@
 name: problems/set_systems/E1020/claims/2026_08_19_cao_liu_zhang
 title: Cao, Liu and Zhang's range n at least (r + 1)(k - 1) for large k
 desc: |
-  Cao, Liu and Zhang (2026) claim the matching conjecture for every fixed
-  uniformity r once the matching number k - 1 is large and n is at least
-  (r + 1)(k - 1), the conjecture's crossover; an arXiv preprint, not refereed.
+  Cao, Liu and Zhang (2026) claim a proof of the matching conjecture for every
+  fixed uniformity $r$ once the matching number $k-1$ is large and
+  $n\ge(r+1)(k-1)$, the conjecture's crossover. The claim is in an arXiv
+  preprint and is not refereed.
 authors:
 - Mengyu Cao
 - Hong Liu

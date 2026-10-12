@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0583
 title: Problem 583
 desc: |
-  Asks whether every connected graph on n vertices can be split into at most
-  n over two rounded up edge-disjoint paths; Gallai's path decomposition
-  conjecture, proved for several classes and open in general.
+  Asks whether every connected graph on $n$ vertices can be partitioned into at
+  most $\lceil n/2\rceil$ edge-disjoint paths (Gallai's path decomposition
+  conjecture). It is proved for several classes and open in general.
 tags:
 - Graph theory
 status: open
@@ -45,50 +45,54 @@ unless the graph is an odd semi-clique
 ([[../library/extremal_graph_theory/bonamy_2019_gallai_s_path_decomposition_conjecture_graphs/question_1_1|Question 1.1]]).
 
 **Status.** Falsifiable, the site's label for an open statement that a finite
-counterexample would refute; the standing here is open. A counterexample would
+counterexample would refute. The standing here is open. A counterexample would
 be a connected graph on $n$ vertices whose every path decomposition has more
-than $\lceil n/2\rceil$ paths, a property that finite enumeration decides for
-any given graph. No proof for all connected graphs and no counterexample is
-known. The conjecture is proved for connected graphs of maximum degree at most
-$5$
+than $\lceil n/2\rceil$ paths. Finite enumeration decides this property for any
+given graph. No proof for all connected graphs and no counterexample is known.
+
+The conjecture is proved for connected graphs of maximum degree at most $5$
 ([[../library/extremal_graph_theory/bonamy_2019_gallai_s_path_decomposition_conjecture_graphs/theorem_1_3|Bonamy and Perrett, Theorem 1.3]];
 Discrete Math. 2019, refereed;
-[[problems/extremal_graph_theory/E0583/claims/2016_09_20_bonamy_perrett|claim page]]),
-for connected planar graphs
+[[problems/extremal_graph_theory/E0583/claims/2016_09_20_bonamy_perrett|claim page]]).
+It is proved for connected planar graphs
 ([[../library/extremal_graph_theory/blanche_2021_gallai_s_path_decomposition_planar_graphs/theorem_1_1|Blanché, Bonamy and Bonichon, Theorem 1.1]];
 an extended abstract of 2021 and a 2022 preprint whose full proof has no journal
 version found;
-[[problems/extremal_graph_theory/E0583/claims/2021_08_24_blanche_bonamy_bonichon|claim page]])
-and for connected $2$-degenerate graphs
+[[problems/extremal_graph_theory/E0583/claims/2021_08_24_blanche_bonamy_bonichon|claim page]]).
+It is proved for connected $2$-degenerate graphs
 ([[../library/extremal_graph_theory/anto_2023_gallai_s_path_decomposition_2_degenerate/theorem_1|Anto and Basavaraju, Theorem 1]];
 DMTCS 2023, refereed;
-[[problems/extremal_graph_theory/E0583/claims/2022_11_14_anto_basavaraju|claim page]]),
-and, with $\lfloor n/2\rfloor$ paths, for graphs in which every cycle contains a
-vertex of odd degree, that is, whose even-degree vertices induce a forest
+[[problems/extremal_graph_theory/E0583/claims/2022_11_14_anto_basavaraju|claim page]]).
+With $\lfloor n/2\rfloor$ paths, it is proved for graphs in which every cycle
+contains a vertex of odd degree, that is, whose even-degree vertices induce a
+forest
 ([[../library/extremal_graph_theory/pyber_1996_covering_edges_connected_graph_paths/theorem_0|Pyber, Theorem 0]];
 J. Combin. Theory Ser. B 1996, refereed;
-[[problems/extremal_graph_theory/E0583/claims/1996_01_01_pyber|claim page]]),
-and, with $\lfloor n/2\rfloor$ paths, for graphs each block of whose even-degree
-subgraph is a triangle-free graph of maximum degree at most $3$
+[[problems/extremal_graph_theory/E0583/claims/1996_01_01_pyber|claim page]]).
+Also with $\lfloor n/2\rfloor$ paths, it is proved for graphs each block of
+whose even-degree subgraph is a triangle-free graph of maximum degree at most
+$3$
 ([[../library/extremal_graph_theory/fan_2005_path_decompositions_gallai_s_conjecture/corollary|Fan, Corollary]];
-J. Combin. Theory Ser. B 2005, refereed), and more generally for graphs whose
-even-degree subgraph is an $\alpha$-graph
+J. Combin. Theory Ser. B 2005, refereed). More generally, it is proved for
+graphs whose even-degree subgraph is an $\alpha$-graph
 ([[../library/extremal_graph_theory/fan_2005_path_decompositions_gallai_s_conjecture/main_theorem|Fan, Main theorem]];
-[[problems/extremal_graph_theory/E0583/claims/2004_11_11_fan|claim page]]), and,
-with $\lfloor n/2\rfloor+1$ paths, hence $\lceil n/2\rceil$ when $n$ is odd, for
-graphs whose even-degree vertices induce a complete graph $K_m$ with $m\le15$
+[[problems/extremal_graph_theory/E0583/claims/2004_11_11_fan|claim page]]). With
+$\lfloor n/2\rfloor+1$ paths, hence $\lceil n/2\rceil$ when $n$ is odd, it is
+proved for graphs whose even-degree vertices induce a complete graph $K_m$ with
+$m\le15$
 ([[../library/extremal_graph_theory/chu_2026_gallai_s_conjecture_path_number_odd_semi_cliques/theorem_1_3|Chu, Fan and Zhou, Theorem 1.3]];
 Discrete Math. 2026, refereed;
-[[problems/extremal_graph_theory/E0583/claims/2025_08_18_chu_fan_zhou|claim page]]),
-and, second-hand through the cited papers' introductions and the site, for
-Lovász's class (at most one vertex of even degree; a proceedings paper;
-[[problems/extremal_graph_theory/E0583/claims/1968_01_01_lovasz|claim page]]),
-among others. An exhaustive computer check for $n\le11$ is reported in the
-site's discussion thread
-([[problems/extremal_graph_theory/E0583/claims/2026_08_31_sallerk|claim page]])
-and reproduced there with an independent decider
-([[problems/extremal_graph_theory/E0583/claims/2026_09_17_herong|claim page]]);
-both are claimed partial results, not sources of status.
+[[problems/extremal_graph_theory/E0583/claims/2025_08_18_chu_fan_zhou|claim page]]).
+It is also proved for Lovász's class, the graphs with at most one vertex of even
+degree (a proceedings paper;
+[[problems/extremal_graph_theory/E0583/claims/1968_01_01_lovasz|claim page]]).
+This case is known here second-hand, through the cited papers' introductions and
+the site. Other cases are also known. An exhaustive computer check for $n\le11$
+is reported in the site's discussion thread
+([[problems/extremal_graph_theory/E0583/claims/2026_08_31_sallerk|claim page]]).
+It is reproduced there with an independent decider
+([[problems/extremal_graph_theory/E0583/claims/2026_09_17_herong|claim page]]).
+Both are claimed partial results, not sources of status.
 
 **Source.** [erdosproblems.com/583](https://www.erdosproblems.com/583),
 accessed 2026-09-18: the problem page

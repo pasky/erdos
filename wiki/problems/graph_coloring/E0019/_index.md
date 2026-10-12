@@ -2,8 +2,8 @@
 name: problems/graph_coloring/E0019
 title: Problem 19
 desc: |
-  Asks whether a graph made of n edge-disjoint copies of the complete graph on
-  n vertices has chromatic number exactly n.
+  Asks whether every edge-disjoint union of $n$ copies of $K_n$ has chromatic
+  number exactly $n$.
 tags:
 - Graph theory
 - Chromatic number
@@ -25,12 +25,11 @@ updated: 2026-10-08T02:16:54Z
 $\chi(G)=n$?
 
 **Status.** Decidable. The site credits Kang, Kelly, Kühn, Methuku and Osthus
-[KKKMO21] with the answer yes for all sufficiently large $n$, an accepted
-partial claim
-([[problems/graph_coloring/E0019/claims/2021_01_12_kang_kelly_kuhn_methuku_osthus|claim
-page]]) that leaves finitely many $n$ unsettled; Hindman [Hi81] settles every
-$n\le 10$ ([[problems/graph_coloring/E0019/claims/1981_06_01_hindman|claim
-page]]).
+[KKKMO21] with the answer yes for all sufficiently large $n$. This is an
+accepted partial claim
+([[problems/graph_coloring/E0019/claims/2021_01_12_kang_kelly_kuhn_methuku_osthus|claim page]])
+that leaves finitely many $n$ unsettled. Hindman [Hi81] settles every $n\le 10$
+([[problems/graph_coloring/E0019/claims/1981_06_01_hindman|claim page]]).
 
 **Source.** [erdosproblems.com/19](https://www.erdosproblems.com/19), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #19,

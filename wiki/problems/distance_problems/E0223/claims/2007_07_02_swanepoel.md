@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0223/claims/2007_07_02_swanepoel
 title: Swanepoel's exact diameter count in dimension four and above
 desc: |
-  For $d\ge4$ and all $n$ large in terms of $d$, the $n$-point sets of
-  diameter one with the most pairs at distance one are Lenz configurations,
-  which gives the exact value of $f_d(n)$.
+  Swanepoel proves that for $d\ge4$ and all $n$ large in terms of $d$, the
+  $n$-point sets of diameter one with the most pairs at distance one are Lenz
+  configurations. This gives the exact value of $f_d(n)$.
 authors:
 - Konrad J Swanepoel
 status: accepted
@@ -55,8 +55,8 @@ for the paper]] states the two structure theorems and the corollary on exact
 values.
 
 **Acceptance.** The paper is refereed: K. J. Swanepoel, Unit distances and
-diameters in Euclidean spaces, Discrete & Computational Geometry 41 (2009),
-no. 1, 1–27, published online 2008-05-08; the preprint is arXiv:0707.0213,
-posted 2007-07-02. The curator of erdosproblems.com, Thomas Bloom, marks
-the problem solved and credits this paper with the exact description of
-$f_d(n)$ for $d\ge4$ and large $n$.
+diameters in Euclidean spaces, Discrete & Computational Geometry 41 (2009), no.
+1, 1–27, published online 2008-05-08. The preprint is arXiv:0707.0213, posted
+2007-07-02. The curator of erdosproblems.com, Thomas Bloom, marks the problem
+solved and credits this paper with the exact description of $f_d(n)$ for $d\ge4$
+and large $n$.

@@ -2,8 +2,9 @@
 name: problems/additive_bases/E0042
 title: Problem 42
 desc: |
-  Asks whether every Sidon set in the first N integers can be paired with a
-  Sidon set of any fixed size whose difference set meets its own only at zero.
+  Asks whether, for $N$ large in terms of $M$, every Sidon set
+  $A\subset\{1,\ldots,N\}$ has a Sidon set $B\subset\{1,\ldots,N\}$ of size $M$
+  with $(A-A)\cap(B-B)=\{0\}$.
 tags:
 - Number theory
 - Sidon sets
@@ -37,11 +38,10 @@ maximal Sidon sets. Sedov's Lean asks only that the positive differences of $B$
 avoid those of $A$. The write-ups of Sothanaphan, Barreto and Chojecki state the
 theorem for non-empty $A$. The claim pages answer the question so read.
 
-**Status.** The site labels the problem “SOLVED (LEAN)”: the question, read
-for non-empty $A$ as the Formulation records, is answered yes, by a proof for
-every $M$ posted 2026-04-27 and formalized 2026-05-10, so the problem stands
-proved; the acceptance and the Lean qualifications are on the claim pages
-below.
+**Status.** The site labels the problem “SOLVED (LEAN)”. The question, read for
+non-empty $A$ as the Formulation records, is answered yes by a proof for every
+$M$, posted 2026-04-27 and formalized 2026-05-10. So the problem stands proved.
+The acceptance and the Lean qualifications are on the claim pages below.
 
 **Source.** [erdosproblems.com/42](https://www.erdosproblems.com/42), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #42,

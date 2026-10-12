@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0374
 title: Problem 374
 desc: |
-  Determines how many integers up to n need exactly k factorials, with the
-  largest being that integer's, to form a square product, for k from three to
-  six.
+  Asks for the order of growth, for $3\le k\le6$, of the number of $m\le n$ that
+  need exactly $k$ distinct factorials, the largest being $m!$, to form a square
+  product.
 tags:
 - Number theory
 status: claimed
@@ -28,19 +28,19 @@ D_k\cap\{1,\ldots,n\}\rvert$ for $3\leq k\leq 6$? For example, is it true that
 $\lvert D_6\cap \{1,\ldots,n\}\rvert \gg n$?
 
 **Status.** OPEN, the site's label (problem page, discussion thread and
-proof-claims tab read 2026-10-07). The site's proof-claims tab carries three
-proof claims. Zeraoulia's partial claim of 2026-07-27, the bound
-$D_6(x)=\omega(x/\log x)$ with certified computations, determines no order of
-growth and does not reach $D_6(x)\gg x$, so it settles no instance and has no
-claim page. Hartley and Olson
+proof-claims tab read 2026-10-07). The derived standing departs from the label.
+It is claimed, answered, because the two pending full claims agree. Neither
+claim is accepted, and the site's curator has credited neither. The site's
+proof-claims tab carries three proof claims. Hartley and Olson
 ([[problems/diophantine_problems/E0374/claims/2026_09_29_hartley_olson|claim page]])
 and Yudin
 ([[problems/diophantine_problems/E0374/claims/2026_10_01_yudin|claim page]])
 each claim the full determination. Hartley and Olson's forum submission covered
-the positive lower density of $D_6$, and their revised paper adds the orders of
-growth of $D_3$ through $D_5$. The derived standing departs from the label: the
-two pending full claims agree, so the standing is claimed, answered; neither
-claim is accepted, and the site's curator has credited neither.
+the positive lower density of $D_6$. Their revised paper adds the orders of
+growth of $D_3$ through $D_5$. Zeraoulia's partial claim of 2026-07-27 is the
+bound $D_6(x)=\omega(x/\log x)$ with certified computations. It determines no
+order of growth and does not reach $D_6(x)\gg x$. So it settles no instance and
+has no claim page.
 
 **Source.** [erdosproblems.com/374](https://www.erdosproblems.com/374), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #374,

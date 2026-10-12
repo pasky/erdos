@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0481/claims/2021_05_19_kolpakov_talambutsa
 title: Kolpakov and Talambutsa's non-freeness theorem with rational shifts
 desc: |
-  Theorem 3 of a 2022 paper: affine maps with positive integer multipliers and
-  rational shifts generate a non-free semigroup when the reciprocals of the
-  multipliers sum to more than one; the problem is a special case.
+  Theorem 3 of Kolpakov and Talambutsa's 2022 paper shows that affine maps with
+  positive integer multipliers and rational shifts generate a non-free semigroup
+  when the reciprocals of the multipliers sum to more than one. The problem is a
+  special case.
 authors:
 - Alexander Kolpakov
 - Alexey Talambutsa
@@ -52,9 +53,9 @@ March 2022. The paper is digested on its library card. The site's
 commentary of 3 December 2025 names it as a generalization of Klarner's
 result.
 
-**Acceptance.** Refereed publication in the Proceedings of the American
-Mathematical Society, and the acceptance of the site's curator, Thomas Bloom,
-in the commentary, which names the paper as a generalization of Klarner's
-result. Nothing was reviewed here.
+**Acceptance.** The evidence is the refereed publication in the Proceedings of
+the American Mathematical Society, together with the acceptance of the site's
+curator, Thomas Bloom. His commentary names the paper as a generalization of
+Klarner's result. Nothing was reviewed here.
 
 **Depends on.** No page of this wiki.

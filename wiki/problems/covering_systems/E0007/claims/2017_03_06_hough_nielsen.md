@@ -2,9 +2,9 @@
 name: problems/covering_systems/E0007/claims/2017_03_06_hough_nielsen
 title: Hough and Nielsen's modulus divisible by two or three
 desc: |
-  Theorem 1 of the Duke paper (2019): every distinct covering system has a
-  modulus divisible by 2 or by 3, so an odd covering must have a modulus
-  divisible by 3; accepted on the refereed paper.
+  Theorem 1 of Hough and Nielsen's Duke paper (2019) shows that every distinct
+  covering system has a modulus divisible by 2 or by 3, so an odd covering must
+  have a modulus divisible by 3. It is accepted on the refereed paper.
 authors:
 - Robert D. Hough
 - Pace P. Nielsen
@@ -54,8 +54,8 @@ unrestricted question stays open.
 **Depends on.** Nothing in this wiki; the theorem is the paper's own.
 
 **Acceptance.** Refereed: Duke Mathematical Journal 168 (2019), no. 17,
-3261--3295, doi:10.1215/00127094-2019-0058; the arXiv v1 of 2017-03-06
-names this page. Not reviewed: the site's commentary credits the theorem,
-but the site labels the problem VERIFIABLE, an open label, so the credit
-settles no part of the problem on the site's account. Not formalized: no
-Lean proof of the theorem is recorded.
+3261--3295, doi:10.1215/00127094-2019-0058. The arXiv v1 of 2017-03-06 names
+this page. Not reviewed: the site's commentary credits the theorem, but the site
+labels the problem VERIFIABLE, an open label. On the site's own account, the
+credit therefore settles no part of the problem. Not formalized: no Lean proof
+of the theorem is recorded.

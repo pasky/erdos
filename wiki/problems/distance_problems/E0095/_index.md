@@ -2,8 +2,8 @@
 name: problems/distance_problems/E0095
 title: Problem 95
 desc: |
-  Bounds the sum over distances of the squared number of pairs realizing each
-  distance, for n plane points, by n cubed times any small power of n.
+  States that if $f(u)$ pairs among $n$ points in the plane are at distance $u$,
+  then $\sum_u f(u)^2\ll_\epsilon n^{3+\epsilon}$ for every $\epsilon>0$.
 tags:
 - Geometry
 - Convexity
@@ -30,16 +30,16 @@ $$
 \sum_i f(u_i)^2 \ll_\epsilon n^{3+\epsilon}.
 $$
 
-**Status.** Proved. The site's export of 2026-09-04 records the label
-"PROVED (LEAN)". The proof is Guth and Katz's bound
-$\sum_i f(u_i)^2\ll n^3\log n$, recorded on
-[[problems/distance_problems/E0095/claims/2010_11_17_guth_katz|its claim
-page]]; the Lean qualification refers to a development in Boris Alexeev's
-repository that this corpus has neither built nor audited (see
-Formalization). The site's
-attribution of the convex case to Altman has no claim page, since his paper
-prints no statement about the sum (see the claim page and the card below);
-the convex case is [[problems/distance_problems/E0094/_index|Problem 94]].
+**Status.** Proved. The site's export of 2026-09-04 records the label "PROVED
+(LEAN)". The proof is Guth and Katz's bound $\sum_i f(u_i)^2\ll n^3\log n$,
+recorded on
+[[problems/distance_problems/E0095/claims/2010_11_17_guth_katz|its claim page]].
+The Lean qualification refers to a development in Boris Alexeev's repository
+that this corpus has neither built nor audited (see Formalization). The site
+attributes the convex case to Altman, but that attribution has no claim page,
+since his paper prints no statement about the sum (see the claim page and the
+card below). The convex case is
+[[problems/distance_problems/E0094/_index|Problem 94]].
 
 **Source.** [erdosproblems.com/95](https://www.erdosproblems.com/95), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #95,

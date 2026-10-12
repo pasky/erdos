@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E0621
 title: Problem 621
 desc: |
-  Compares the largest set of edges meeting each triangle at most once with
-  the fewest edges meeting every triangle, in a graph on n vertices.
+  Asks whether, in every graph on $n$ vertices, the largest edge set containing
+  at most one edge of each triangle and the smallest edge set meeting every
+  triangle have sizes summing to at most $n^2/4$.
 tags:
 - Graph theory
 status: solved
@@ -35,10 +36,10 @@ $$
 inequality follows from Norin–Sun's stronger bipartite-deletion bound. The
 frontmatter standing is derived from the accepted claim page
 [[problems/extremal_graph_theory/E0621/claims/2016_02_13_norin_sun|Norin and Sun's theorem]],
-whose acceptance evidence is the site's and the refereed uptake; the public
-Lean proof of their theorem is linked from that page and described below,
-with its provenance; the corpus has not built it, and no refereed
-publication of the proof itself is recorded.
+whose acceptance evidence is the site's and the refereed uptake. The public Lean
+proof of their theorem is linked from that page and described below, with its
+provenance. The corpus has not built it, and no refereed publication of the
+proof itself is recorded.
 
 **Source.** [erdosproblems.com/621](https://www.erdosproblems.com/621), its
 [discussion](https://www.erdosproblems.com/forum/thread/621), and linked

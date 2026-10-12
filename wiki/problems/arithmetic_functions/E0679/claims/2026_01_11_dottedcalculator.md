@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0679/claims/2026_01_11_dottedcalculator
 title: DottedCalculator's primorial disproof of the stronger version
 desc: |
-  For every constant C, every large n has some k below n with omega(n-k) at
-  least log k over log log k plus C, so the version with an O(1) error term
-  is false; a thread post credited in the site's remarks, with a Lean proof.
+  For every constant $C$, every large $n$ has some $k<n$ with
+  $\omega(n-k)\ge\log k/\log\log k+C$, so the version with an $O(1)$ error term
+  is false. The argument is a thread post by DottedCalculator, credited in the
+  site's remarks, and it comes with a Lean proof.
 authors: []
 status: claimed
 claim: disproved

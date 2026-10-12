@@ -52,8 +52,8 @@ smaller exponents, and lengths below $k_0$.
 
 **Depends on.** Nothing in this wiki; the result rests on the cited paper.
 
-**Acceptance.** Refereed: Annals of Mathematics (2) 191 (2020), no. 2; the
-Crossref record dates the issue to March 2020. The page is named by the
-arXiv posting of 4 September 2017. The site's commentary credits the
-theorem, but the site labels the problem VERIFIABLE, an open label, so the
-commentary is not `reviewed` evidence.
+**Acceptance.** Refereed: Annals of Mathematics (2) 191 (2020), no. 2. The
+Crossref record dates the issue to March 2020. The page is named by the arXiv
+posting of 4 September 2017. The site's commentary credits the theorem, but the
+site labels the problem VERIFIABLE, an open label, so the commentary is not
+`reviewed` evidence.

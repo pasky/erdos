@@ -2,9 +2,9 @@
 name: problems/irrationality/E0496
 title: Problem 496
 desc: |
-  Asks whether, for every positive irrational alpha, sums of two positive
-  squares come arbitrarily close to alpha times a positive square; the site's
-  wording over every irrational alpha fails at negative ones.
+  Asks whether, for every irrational $\alpha>0$ and $\epsilon>0$, some positive
+  integers $x,y,z$ satisfy $|x^2+y^2-z^2\alpha|<\epsilon$. The site's wording,
+  over every irrational $\alpha$, fails for negative $\alpha$.
 tags:
 - Number theory
 - Diophantine approximation
@@ -87,13 +87,11 @@ and proves the theorem the site credits.
 
 **Status.** The site, accessed 2026-09-04 and 2026-10-07, labels the problem
 PROVED and credits the proof to Margulis [Ma89]. That label describes the
-corrected Statement, which Margulis's theorem settles; the result is recorded
-as
-[[problems/irrationality/E0496/claims/1989_01_01_margulis|an accepted full claim]]
+corrected Statement, which Margulis's theorem settles. The result is recorded as
+[[problems/irrationality/E0496/claims/1989_01_01_margulis|an accepted full claim]],
 with the site's curator as reviewer. Alexeev's Lean disproof of the site's
-wording is
-[[problems/irrationality/E0496/claims/2026_08_21_alexeev|rejected]], since it
-answers the site's wording, not the corrected statement.
+wording is [[problems/irrationality/E0496/claims/2026_08_21_alexeev|rejected]],
+since it answers the site's wording, not the corrected statement.
 
 **Source.** [erdosproblems.com/496](https://www.erdosproblems.com/496), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #496,

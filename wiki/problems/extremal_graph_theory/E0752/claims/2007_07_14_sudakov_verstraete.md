@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0752/claims/2007_07_14_sudakov_verstraete
 title: Sudakov and Verstraëte's cycle-length theorem
 desc: |
-  Sudakov and Verstraëte prove that a graph of average degree d and girth g has
-  order d^floor((g-1)/2) consecutive even cycle lengths, which gives the order
-  k^s distinct cycle lengths Problem 752 asks for; Combinatorica 28 (2008).
+  Sudakov and Verstraëte (Combinatorica 28 (2008)) prove that a graph of average
+  degree $d$ and girth $g$ has $\Omega(d^{\lfloor(g-1)/2\rfloor})$ consecutive
+  even cycle lengths. This gives the $\gg k^s$ distinct cycle lengths that
+  Problem 752 asks for.
 authors:
 - Benny Sudakov
 - Jacques Verstraëte

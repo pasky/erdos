@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0477/claims/2026_09_25_shan_xu_liang_dai_chen
 title: The cubes as a direct additive factor of the integers
 desc: |
-  Shan, Xu, Liang, Dai and Chen claim a set A such that every integer is
-  uniquely a member of A plus an integer cube, and that no integer-valued
-  quadratic polynomial admits such a complement.
+  Shan, Xu, Liang, Dai and Chen claim a set $A$ such that every integer is
+  uniquely a member of $A$ plus an integer cube. They also claim that no
+  integer-valued quadratic polynomial admits such a complement.
 authors:
 - Hongyu Shan
 - Dongdong Xu

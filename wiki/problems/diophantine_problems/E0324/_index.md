@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0324
 title: Problem 324
 desc: |
-  Asks whether some polynomial with integer coefficients has all sums of two
-  of its values at distinct nonnegative integers distinct.
+  Asks whether some polynomial $f\in\mathbb{Z}[x]$ makes all the sums
+  $f(a)+f(b)$, with $a<b$ nonnegative integers, distinct.
 tags:
 - Number theory
 - Powers
@@ -25,8 +25,8 @@ updated: 2026-10-07T21:38:27Z
 **Statement.** Does there exist a polynomial $f(x)\in\mathbb{Z}[x]$ such that
 all the sums $f(a)+f(b)$ with $a<b$ nonnegative integers are distinct?
 
-**Status.** Open: the site's label; its commentary credits Dubickas and
-Novikas's exclusion of cubic polynomials
+**Status.** Open, the site's label. The site's commentary credits Dubickas and
+Novikas with the exclusion of cubic polynomials
 ([[problems/diophantine_problems/E0324/claims/2021_10_03_dubickas_novikas|claim page]]).
 
 **Source.** [erdosproblems.com/324](https://www.erdosproblems.com/324), accessed

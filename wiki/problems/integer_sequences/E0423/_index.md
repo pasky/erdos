@@ -2,8 +2,9 @@
 name: problems/integer_sequences/E0423
 title: Problem 423
 desc: |
-  Estimates the growth of the sequence beginning one, two in which each term
-  is the least larger integer that is a sum of consecutive earlier terms.
+  Asks for the asymptotic behaviour of the sequence with $a_1=1$, $a_2=2$ in
+  which each later term is the least integer above the previous one that is a
+  sum of at least two consecutive earlier terms.
 tags:
 - Number theory
 status: open
@@ -24,16 +25,16 @@ updated: 2026-10-07T23:33:05Z
 least integer $>a_{k-1}$ which is the sum of at least two consecutive terms of
 the sequence. What is the asymptotic behaviour of this sequence?
 
-**Status.** Open. The site labels the problem OPEN (page last edited
-23 March 2026) and credits Bolan and Tang [Ta26], independently, with the
-sequence omitting infinitely many integers, and Tang with the bounds
-$n+\Omega(\log\log n)\le a_n\ll n^{688/413+o(1)}$; the omission result and
-Tang's bounds with upper exponent $4175/2506$ (the exponent $688/413$ is
-Sothanaphan's observation recorded in the paper, not one of its theorems) are
-pending partial claims on
+**Status.** Open. The site labels the problem OPEN (page last edited 23 March
+2026). It credits Bolan and Tang [Ta26], independently, with the sequence
+omitting infinitely many integers. It credits Tang with the bounds
+$n+\Omega(\log\log n)\le a_n\ll n^{688/413+o(1)}$. The exponent $688/413$ is
+Sothanaphan's observation recorded in the paper, not one of its theorems. The
+omission result and Tang's bounds with upper exponent $4175/2506$ are pending
+partial claims on
 [[problems/integer_sequences/E0423/claims/2026_01_15_tang|Tang's page]] and
-[[problems/integer_sequences/E0423/claims/2026_01_15_bolan|Bolan's page]].
-The standing in the frontmatter derives from the claim pages.
+[[problems/integer_sequences/E0423/claims/2026_01_15_bolan|Bolan's page]]. The
+standing in the frontmatter derives from the claim pages.
 
 **Source.** [erdosproblems.com/423](https://www.erdosproblems.com/423), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #423,

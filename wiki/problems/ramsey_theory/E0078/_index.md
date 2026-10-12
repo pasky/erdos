@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0078
 title: Problem 78
 desc: |
-  Asks for a constructive proof that the Ramsey number of the complete graph
-  on k vertices grows at least exponentially in k, equivalently for an
-  explicit graph with logarithmic clique and independence numbers.
+  Asks for a constructive proof that $R(k)>C^k$ for some constant $C>1$, or
+  equivalently for an explicit graph on $n$ vertices with clique and
+  independence numbers $O(\log n)$.
 tags:
 - Graph theory
 - Ramsey theory
@@ -48,17 +48,18 @@ quoted below. The thread's proposal of an algorithmic variant, a deterministic
 algorithm producing the graph in time less than double exponential in $k$, is
 a different question.
 
-**Status.** Open. The nonconstructive bound $R(k)>2^{k/2}$ is Erdős's of 1947.
-The strongest explicit construction recorded here is Li's Corollary 1.9 (arXiv
-v2, 30 May 2023; FOCS 2023): a strongly explicit graph on $N$ vertices with no
-clique or independent set of size $(\log N)^c$ for an unspecified constant
-$c>1$, which inverts to the constructive bound $R(k)>2^{k^{1/c}}$,
-subexponential in $k$; Cohen's earlier $2^{(\log\log n)^{O(1)}}$ (2015;
-STOC 2016) and the classical constructions listed in his Table 1 are weaker. No
-explicit construction reaching $O(\log n)$, and no proof that none exists, was
-found in the search whose scope the Current assessment records. This is a
-bounded negative finding, not a certificate of openness. Erdős offered a prize
-for a constructive proof in 1981, 1988, 1993, 1995 and 1997.
+**Status.** Open. The nonconstructive bound $R(k)>2^{k/2}$ is Erdős's 1947
+result. The strongest explicit construction recorded here is Li's Corollary 1.9
+(arXiv v2, 30 May 2023; FOCS 2023). It gives a strongly explicit graph on $N$
+vertices with no clique or independent set of size $(\log N)^c$, for an
+unspecified constant $c>1$. This inverts to the constructive bound
+$R(k)>2^{k^{1/c}}$, which is subexponential in $k$. Cohen's earlier
+$2^{(\log\log n)^{O(1)}}$ (2015; STOC 2016) and the classical constructions
+listed in his Table 1 are weaker. The search whose scope the Current assessment
+records found no explicit construction reaching $O(\log n)$, and no proof that
+none exists. This is a bounded negative finding, not a certificate of openness.
+Erdős offered a prize for a constructive proof in 1981, 1988, 1993, 1995
+and 1997.
 
 **Source.** [erdosproblems.com/78](https://www.erdosproblems.com/78),
 accessed 2026-09-18: the problem page (OPEN, with

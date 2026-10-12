@@ -4,15 +4,16 @@ desc: The 1 claim page of Problem 247, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T19:40:10Z
-updated: 2026-10-07T19:40:10Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/irrationality/E0247/claims
 
 [[problems/irrationality/E0247/_index|..]]
 
-[[problems/irrationality/E0247/claims/1956_12_29_erdos|1956_12_29_erdos]]: Erdős's 1957 Theorem 2 proves that the sum of 1 over t to the n_k satisfies
-no integer equation of degree at most l when n_k over k to the l is
-unbounded, so the series is transcendental when every power is beaten.
+[[problems/irrationality/E0247/claims/1956_12_29_erdos|1956_12_29_erdos]]: Erdős's 1957 Theorem 2 proves that $\sum_k1/t^{n_k}$ satisfies no algebraic
+equation with integer coefficients of degree at most $l$ when $n_k/k^l$ is
+unbounded. So the series is transcendental when $n_k/k^l$ is unbounded for
+every $l$.
 
 ***

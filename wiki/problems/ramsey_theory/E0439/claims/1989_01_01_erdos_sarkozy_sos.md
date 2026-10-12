@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0439/claims/1989_01_01_erdos_sarkozy_sos
 title: Erdős, Sárközy and Sós settle the square question for two and three colors
 desc: |
-  Theorem 3 of the 1989 chapter: for any partition of the positive integers
-  into at most three classes, infinitely many squares are sums of two distinct
-  integers of one class; the partial result before Khalfalah and Szemerédi.
+  Theorem 3 of Erdős, Sárközy and Sós's 1989 chapter states that for any
+  partition of the positive integers into at most three classes, infinitely many
+  squares are sums of two distinct integers of one class. It is the partial
+  result before Khalfalah and Szemerédi.
 authors:
 - P. Erdős
 - A. Sárközy
@@ -56,11 +57,10 @@ covered; both were settled later by
 alone.
 
 **Acceptance.** None listed. The chapter is part of a conference volume whose
-refereeing is not documented in its Crossref record or on the library card,
-so `refereed` is not listed. The site's curator, T. F. Bloom, labels the
-problem PROVED and credits that label to Khalfalah and Szemerédi; the
-commentary's sentence that Erdős, Sárközy and Sós proved the statement for
-two or three colors (page last edited 7 April 2026) mentions this result but
-is not the label's credit, so `reviewed` is not listed either. The volume
-gives no day of publication, so the day in the page name is a placeholder
-for 1989.
+refereeing is not documented in its Crossref record or on the library card, so
+`refereed` is not listed. The site's curator, T. F. Bloom, labels the problem
+PROVED and credits that label to Khalfalah and Szemerédi. The commentary also
+says that Erdős, Sárközy and Sós proved the statement for two or three colors
+(page last edited 7 April 2026). That sentence mentions this result but is not
+the label's credit, so `reviewed` is not listed either. The volume gives no day
+of publication, so the day in the page name is a placeholder for 1989.

@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0715
 title: Problem 715
 desc: |
-  Asks whether every 4-regular graph contains a 3-regular subgraph, and
-  whether some degree r forces one in every r-regular graph; both answered
-  yes by Tashkinov in 1982, for degree 4 and for every degree at least 3.
+  Asks whether every $4$-regular graph contains a $3$-regular subgraph, and
+  whether some $r$ forces one in every $r$-regular graph. Tashkinov answered
+  both yes in 1982, for $r=4$ and for every $r\ge3$.
 tags:
 - Graph theory
 status: solved
@@ -50,25 +50,24 @@ $3$-regular subgraph. The note's Theorem 2 answers it with $r_0=3$: the case
 $r=3$ is trivial, $r=4$ is its Theorem 1, and the content is $r\ge5$.
 
 **Status.** Proved. Both questions are answered in the affirmative by
-Tashkinov's note [Ta82] (Dokl. Akad. Nauk SSSR 265 (1982), no. 1, 43--44,
-in Russian; the site's key is its English translation in Soviet Math. Dokl.
-26 (1982), 37--38), in this page's translation:
-[[../library/extremal_graph_theory/tashkinov_1982_regular_subgraphs_regular_graphs/theorem_1|Theorem 1]],
-"Every 4-regular graph has a 3-regular subgraph", and
-[[../library/extremal_graph_theory/tashkinov_1982_regular_subgraphs_regular_graphs/theorem_2|Theorem 2]],
-"For every $r\ge3$ every $r$-regular graph has a 3-regular subgraph", which
-the note presents as the solution of the problem Erdős posed in [Er81]; the
+Tashkinov's note [Ta82] (Dokl. Akad. Nauk SSSR 265 (1982), no. 1, 43--44, in
+Russian; the site's key is its English translation in Soviet Math. Dokl. 26
+(1982), 37--38). In this page's translation,
+[[../library/extremal_graph_theory/tashkinov_1982_regular_subgraphs_regular_graphs/theorem_1|Theorem 1]]
+reads "Every 4-regular graph has a 3-regular subgraph", and
+[[../library/extremal_graph_theory/tashkinov_1982_regular_subgraphs_regular_graphs/theorem_2|Theorem 2]]
+reads "For every $r\ge3$ every $r$-regular graph has a 3-regular subgraph". The
+note presents these as the solution of the problem Erdős posed in [Er81]. The
 claim page
 [[problems/extremal_graph_theory/E0715/claims/1982_02_04_tashkinov|Tashkinov 1982]]
-records the result, its scope and its acceptance evidence, from which the
-frontmatter standing is derived. The refereed note of Alon, Friedland and
-Kalai [AFK84] attests the first theorem ("the well known Berge--Sauer
-conjecture [2], which has recently been proved [4]", [4] = Tashkinov) and
-proves that a 4-regular loopless multigraph plus one edge contains a
-3-regular subgraph
+records the result, its scope and its acceptance evidence, and the frontmatter
+standing is derived from it. The refereed note of Alon, Friedland and Kalai
+[AFK84] attests the first theorem ("the well known Berge--Sauer conjecture [2],
+which has recently been proved [4]", [4] = Tashkinov). It also proves that a
+4-regular loopless multigraph plus one edge contains a 3-regular subgraph
 ([[../library/extremal_graph_theory/alon_1984_every_regular_graph_plus_edge_contains/theorem_p92|theorem]]).
-Tashkinov's proofs are sketches and were not checked; the English translation
-was not compared.
+Tashkinov's proofs are sketches and were not checked, and the English
+translation was not compared.
 
 **Source.** [erdosproblems.com/715](https://www.erdosproblems.com/715),
 accessed 2026-09-18: the problem page (PROVED, with

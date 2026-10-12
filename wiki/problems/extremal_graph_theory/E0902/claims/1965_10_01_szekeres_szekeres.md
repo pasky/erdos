@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0902/claims/1965_10_01_szekeres_szekeres
 title: The Szekeres–Szekeres lower bound and f(3) = 19
 desc: |
-  E. and G. Szekeres (Math. Gaz. 1965) prove f(k) >= (k+2)2^(k−1) − 1 for the
-  least order of a tournament with Schütte's property S_k, and f(3) = 19;
-  refereed, the best known lower bound for general k.
+  E. and G. Szekeres (Math. Gaz. 1965, refereed) prove that the least order
+  $f(k)$ of a tournament with Schütte's property $S_k$ satisfies
+  $f(k)\ge(k+2)2^{k-1}-1$, and that $f(3)=19$. This is the best known lower
+  bound for general $k$.
 authors:
 - E. Szekeres
 - G. Szekeres
@@ -50,9 +51,9 @@ not the order of magnitude, which the problem asks to estimate.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Refereed: published in The Mathematical Gazette, cited with
-its venue above. The site credits Szekeres and Szekeres with $f(3)=19$ and
-$n2^n\ll f(n)$ in commentary on a problem it labels OPEN, which is not
+**Acceptance.** Refereed: published in The Mathematical Gazette, cited with its
+venue above. The site credits Szekeres and Szekeres with $f(3)=19$ and
+$n2^n\ll f(n)$, but only in commentary on a problem it labels OPEN. That is not
 acceptance, so `reviewed` is not listed.
 
 **Formalization.** The repository `jaredwilder/erdos902`, linked above at its

@@ -2,8 +2,9 @@
 name: problems/polynomials/E0523
 title: Problem 523
 desc: |
-  Concerns the behavior of a random polynomial of degree n whose coefficients
-  are chosen independently and uniformly from plus one and minus one.
+  Asks whether some $C>0$ makes the maximum on $\lvert z\rvert=1$ of a random
+  degree-$n$ polynomial with independent uniform $\pm 1$ coefficients equal
+  $(C+o(1))\sqrt{n\log n}$ almost surely.
 tags:
 - Analysis
 - Probability
@@ -32,11 +33,11 @@ $$
 \max_{\lvert z\rvert=1}\left\lvert \sum_{k\leq n}\epsilon_k(t)z^k\right\rvert=(C+o(1))\sqrt{n\log n}?
 $$
 
-**Status.** Proved. The answer is yes with $C=1$: Halász proved in 1973
-that the unit-circle maximum divided by $\sqrt{n\log n}$ tends almost surely
-to $1$ (refereed; the accepted claim page is
-[[problems/polynomials/E0523/claims/1973_04_20_halasz|Halász 1973]]). No
-formal proof is built or audited in this repository.
+**Status.** Proved. The answer is yes, with $C=1$. Halász proved in 1973 that
+the unit-circle maximum divided by $\sqrt{n\log n}$ tends almost surely to $1$.
+The result is refereed, and the accepted claim page is
+[[problems/polynomials/E0523/claims/1973_04_20_halasz|Halász 1973]]. No formal
+proof is built or audited in this repository.
 
 **Source.** [erdosproblems.com/523](https://www.erdosproblems.com/523), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #523,

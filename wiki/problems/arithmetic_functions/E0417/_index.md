@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0417
 title: Problem 417
 desc: |
-  Asks whether the ratio of the count of totient values below x to the number
-  of distinct totients of integers below x has a limit exceeding one; the
-  limit's existence is open.
+  Asks whether the ratio of the number of totient values up to $x$ to the number
+  of distinct values $\phi(m)$ with $m\le x$ has a limit, and whether that limit
+  exceeds 1; open.
 tags:
 - Number theory
 status: open
@@ -41,12 +41,11 @@ under Formalization states it (`erdos_417.parts.ii`): whether $V(x)/V'(x)$
 tends to a limit $L>1$, possibly infinite, so a yes to it includes a yes to
 the first.
 
-**Status.** Open. The site labels the problem OPEN, and its proof-claims
-thread carried no claim as of 2026-10-06; no claim page is recorded: no one
-claims either question. Theorem 2.2 of the OpenAI release manuscript of 25
-September 2026 bears on the problem without claiming it; the Current
-assessment records the item and why it is not a claim. The derived standing
-is open.
+**Status.** Open. The site labels the problem OPEN, and the derived standing is
+open. The site's proof-claims thread carried no claim as of 2026-10-06. No claim
+page is recorded, since no one claims either question. Theorem 2.2 of the OpenAI
+release manuscript of 25 September 2026 bears on the problem without claiming
+it. The Current assessment records this item and why it is not a claim.
 
 **Source.** [erdosproblems.com/417](https://www.erdosproblems.com/417), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #417,

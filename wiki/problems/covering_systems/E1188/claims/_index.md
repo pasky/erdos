@@ -4,19 +4,21 @@ desc: The 2 claim pages of Problem 1188, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-07T20:32:50Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/covering_systems/E1188/claims
 
 [[problems/covering_systems/E1188/_index|..]]
 
-[[problems/covering_systems/E1188/claims/2019_04_09_balister_bollobas_morris_sahasrabudhe_tiba|2019_04_09_balister_bollobas_morris_sahasrabudhe_tiba]]: The minimal covering systems built by Balister, Bollobás, Morris,
-Sahasrabudhe and Tiba (J. Eur. Math. Soc. 2024) give, as the site derives,
-F(x) >= exp((log x)^(3-o(1))); refereed; a lower bound only.
+[[problems/covering_systems/E1188/claims/2019_04_09_balister_bollobas_morris_sahasrabudhe_tiba|2019_04_09_balister_bollobas_morris_sahasrabudhe_tiba]]: The minimal covering systems built by Balister, Bollobás, Morris, Sahasrabudhe
+and Tiba (J. Eur. Math. Soc. 2024) give
+$F(x)\ge\exp\bigl((\log x)^{3-o(1)}\bigr)$, as the site derives. The paper is
+refereed, and the result is a lower bound only.
 
-[[problems/covering_systems/E1188/claims/2026_07_12_snyder|2026_07_12_snyder]]: Colin Snyder's 2026 claim, produced by Star Fleet Math's GPT 5.6 harness,
-that the number of minimal distinct covering systems with moduli at most x
-satisfies log log F(x)/log x -> 1, with a Lean 4 proof; no review recorded.
+[[problems/covering_systems/E1188/claims/2026_07_12_snyder|2026_07_12_snyder]]: Colin Snyder's 2026 claim, produced by Star Fleet Math's GPT 5.6 harness, is
+that the number $F(x)$ of minimal distinct covering systems with moduli at
+most $x$ satisfies $\log\log F(x)/\log x\to1$. It comes with a Lean 4 proof,
+and no review is recorded.
 
 ***

@@ -4,19 +4,20 @@ desc: The 2 claim pages of Problem 720, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/ramsey_theory/E0720/claims
 
 [[problems/ramsey_theory/E0720/_index|..]]
 
-[[problems/ramsey_theory/E0720/claims/1983_03_01_beck|1983_03_01_beck]]: Beck's 1983 theorem (J. Graph Theory) that the size Ramsey number of the path
-is below 900n for large n, answering the first question no and the second
-yes; refereed and credited by the site's curator; the paper is not held here.
+[[problems/ramsey_theory/E0720/claims/1983_03_01_beck|1983_03_01_beck]]: In a refereed 1983 paper in J. Graph Theory, not held here, Beck shows that
+the size Ramsey number of the path is below $900n$ for large $n$. This answers
+the first question no and the second yes, and the site's curator credits it.
 
-[[problems/ramsey_theory/E0720/claims/1995_09_01_haxell_kohayakawa_luczak|1995_09_01_haxell_kohayakawa_luczak]]: Haxell, Kohayakawa and Łuczak (1995), Theorem 10 and Corollary 11: linearly
-many edges force induced monochromatic cycles of every length in a linear
-range, so the size Ramsey numbers of cycles and paths are linear; refereed.
+[[problems/ramsey_theory/E0720/claims/1995_09_01_haxell_kohayakawa_luczak|1995_09_01_haxell_kohayakawa_luczak]]: Theorem 10 and Corollary 11 of Haxell, Kohayakawa and Łuczak (1995, refereed)
+show that linearly many edges force induced monochromatic cycles of every
+length in a linear range. So the size Ramsey numbers of cycles and paths are
+linear.
 
 ***

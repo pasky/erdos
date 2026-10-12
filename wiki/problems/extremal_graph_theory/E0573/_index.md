@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0573
 title: Problem 573
 desc: |
-  Asks whether the most edges a graph on n vertices can have with no triangle
-  and no four-cycle is asymptotic to n over two to the power three halves; the
-  ratio is known only to lie between one and the square root of two.
+  Asks whether $\mathrm{ex}(n;\{C_3,C_4\})$, the most edges of a graph on $n$
+  vertices with no triangle and no four-cycle, is asymptotic to $(n/2)^{3/2}$.
+  The ratio is known only to lie between $1$ and $\sqrt2$.
 tags:
 - Graph theory
 - Turán numbers
@@ -46,22 +46,21 @@ with no odd cycle is bipartite, so in the total order $N=2n$ this is
 $z(N,C_4)\sim(N/2)^{3/2}$; the paper does not state it in the site's form.
 
 **Status.** Open. The lower bound is the bipartite one,
-$\mathrm{ex}(n;\{C_3,C_4\})\ge z(n,C_4)\ge(n/2)^{3/2}-cn^{4/3}$, improved for
-every $n\ge7$ by $cn^{5/4}$ (Ma and Yang 2025, Theorem 1.3, refereed); at the
-orders $n=2(q^2+q+1)$, $q$ a prime power, and for almost all $n$,
-$\mathrm{ex}(n;\{C_3,C_4\})=(n/2)^{3/2}+\Omega(n^{5/4})$ (their Corollary 1.4),
-so the second-order term is not $O(n)$, but the leading term is untouched. The
+$\mathrm{ex}(n;\{C_3,C_4\})\ge z(n,C_4)\ge(n/2)^{3/2}-cn^{4/3}$. Ma and Yang
+(2025, Theorem 1.3, refereed) improve it by $cn^{5/4}$ for every $n\ge7$. At the
+orders $n=2(q^2+q+1)$, $q$ a prime power, and for almost all $n$, they show
+$\mathrm{ex}(n;\{C_3,C_4\})=(n/2)^{3/2}+\Omega(n^{5/4})$ (their Corollary 1.4).
+So the second-order term is not $O(n)$, but the leading term is untouched. The
 upper bound is the trivial
 $\mathrm{ex}(n;\{C_3,C_4\})\le\mathrm{ex}(n;C_4)=\tfrac12n^{3/2}+O(n)$, which Ma
-and Yang (p. 2) call the best known; so the ratio
-$\mathrm{ex}(n;\{C_3,C_4\})/(n/2)^{3/2}$ is confined to $[1,\sqrt2]$ in the
-limit and nothing more is proved. The variant with the five-cycle in place of
-the triangle is settled: $\mathrm{ex}(n;\{C_4,C_5\})=(n/2)^{3/2}+O(n)$ (Erdős
-and Simonovits 1982, Theorem 2). An opposite conjecture, that the ratio's lower
-limit exceeds $1$, is attributed by Ma and Yang to Allen, Keevash, Sudakov and
-Verstraëte (2014). No proof or disproof was found in the search whose scope
-the Current assessment records; this is a bounded negative finding, not a
-certificate of openness.
+and Yang (p. 2) call the best known. So in the limit the ratio
+$\mathrm{ex}(n;\{C_3,C_4\})/(n/2)^{3/2}$ is confined to $[1,\sqrt2]$, and
+nothing more is proved. The variant with the five-cycle in place of the triangle
+is settled: $\mathrm{ex}(n;\{C_4,C_5\})=(n/2)^{3/2}+O(n)$ (Erdős and Simonovits
+1982, Theorem 2). Ma and Yang attribute an opposite conjecture, that the ratio's
+lower limit exceeds $1$, to Allen, Keevash, Sudakov and Verstraëte (2014). The
+search whose scope the Current assessment records found no proof or disproof.
+This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/573](https://www.erdosproblems.com/573),
 accessed 2026-09-18: the problem page (labeled OPEN; last edited 18 January

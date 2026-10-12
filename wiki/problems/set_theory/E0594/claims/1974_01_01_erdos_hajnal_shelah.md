@@ -2,9 +2,9 @@
 name: problems/set_theory/E0594/claims/1974_01_01_erdos_hajnal_shelah
 title: Uncountable chromatic number forces all large odd cycles
 desc: |
-  Erdős, Hajnal and Shelah prove that every graph of chromatic number greater
-  than aleph_0 contains odd cycles of every sufficiently large length, the
-  statement of Problem 594, as Theorem 3 of their 1974 paper.
+  Erdős, Hajnal and Shelah prove, as Theorem 3 of their 1974 paper, that every
+  graph of chromatic number greater than $\aleph_0$ contains odd cycles of every
+  sufficiently large length. This is the statement of Problem 594.
 authors:
 - P. Erdős
 - A. Hajnal
@@ -64,12 +64,12 @@ results are recorded on
 [[../library/graph_coloring/erdos_1974_general_properties_chromatic_numbers/_index|the source card]];
 nothing is independently reviewed here.
 
-**Acceptance.** Reviewed: the curator of erdosproblems.com (T. F. Bloom)
-labels the problem PROVED (LEAN) and credits Erdős, Hajnal and Shelah
-[EHS74] with the proof in the problem's commentary. The curator is
-independent of the authors. The paper appeared in a colloquium proceedings
-volume reviewed by Mathematical Reviews and Zentralblatt, not in a journal,
-so `refereed` is not listed.
+**Acceptance.** Reviewed: the curator of erdosproblems.com, T. F. Bloom, labels
+the problem PROVED (LEAN). In the problem's commentary, the curator credits
+Erdős, Hajnal and Shelah [EHS74] with the proof. The curator is independent of
+the authors. The paper appeared in a colloquium proceedings volume, not in a
+journal, so `refereed` is not listed. The volume was reviewed by Mathematical
+Reviews and Zentralblatt.
 
 **Formalization.** The
 [formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/96119ca3cc8c0955d9ad81e313e973162909a86e/FormalConjectures/ErdosProblems/594.lean)

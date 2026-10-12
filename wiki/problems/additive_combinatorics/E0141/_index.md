@@ -2,8 +2,8 @@
 name: problems/additive_combinatorics/E0141
 title: Problem 141
 desc: |
-  Asks whether, for every k at least three, there are k consecutive primes
-  forming an arithmetic progression.
+  Asks whether, for every $k\ge3$, there are $k$ consecutive primes in
+  arithmetic progression.
 tags:
 - Additive combinatorics
 - Primes
@@ -26,16 +26,15 @@ updated: 2026-10-08T01:29:58Z
 progression?
 
 **Status.** Open. The site labels the problem OPEN (page last edited 28
-September 2025); its commentary reports such progressions for every $k\le10$
-and notes that whether infinitely many exist is open even for three terms.
-The instances $3\le k\le10$ are the accepted partial claim on
+September 2025). Its commentary reports such progressions for every $k\le10$ and
+notes that whether infinitely many exist is open even for three terms. The
+instances $3\le k\le10$ are the accepted partial claim on
 [[problems/additive_combinatorics/E0141/claims/2001_11_28_dubner_forbes_lygeros_mizony_nelson_zimmermann|the Dubner et al. page]],
-ten consecutive primes in arithmetic progression; every $k$ follows from
-Hypothesis H on
-[[problems/additive_combinatorics/E0141/claims/1958_01_01_schinzel_sierpinski|the Schinzel and Sierpiński page]],
-a conditional claim. That commentary reports progressions only for
-$k\le10$, and no claim page settles $k\ge11$, so the derived standing is
-open.
+which gives ten consecutive primes in arithmetic progression. Every $k$ follows
+from Hypothesis H, a conditional claim on
+[[problems/additive_combinatorics/E0141/claims/1958_01_01_schinzel_sierpinski|the Schinzel and Sierpiński page]].
+The commentary reports progressions only for $k\le10$, and no claim page settles
+$k\ge11$, so the derived standing is open.
 
 **Source.** [erdosproblems.com/141](https://www.erdosproblems.com/141), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #141,

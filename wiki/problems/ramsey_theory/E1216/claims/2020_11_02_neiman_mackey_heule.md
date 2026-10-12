@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E1216/claims/2020_11_02_neiman_mackey_heule
 title: Neiman, Mackey and Heule, the bounds 34 <= R(7) <= 47
 desc: |
-  Neiman, Mackey and Heule (Graphs Combin. 2022), computer-assisted: every
-  tournament on 47 vertices contains a transitive 7-subtournament, so f(n) >=
-  7 > floor(log_2 n) + 1 for 47 <= n <= 63.
+  Neiman, Mackey and Heule (Graphs Combin. 2022) show with computer assistance
+  that every tournament on $47$ vertices contains a transitive
+  $7$-subtournament. So $f(n)\ge7>\lfloor\log_2 n\rfloor+1$ for $47\le n\le63$.
 authors:
 - David Neiman
 - John Mackey

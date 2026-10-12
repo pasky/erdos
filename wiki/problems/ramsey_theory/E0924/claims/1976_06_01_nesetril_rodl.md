@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0924/claims/1976_06_01_nesetril_rodl
 title: Nešetřil and Rödl, a Ramsey graph for K_l in k colors with clique number l
 desc: |
-  The theorem of Nešetřil and Rödl (J. Combin. Theory Ser. B 1976) that for
-  every finite graph G and number c of colors some graph with the clique number
-  of G forces a monochromatic G in every c-edge-coloring; refereed, not held.
+  Nešetřil and Rödl (J. Combin. Theory Ser. B 1976, refereed) prove that for
+  every finite graph $G$ and number $c$ of colors, some graph with the clique
+  number of $G$ has a monochromatic copy of $G$ in every $c$-coloring of its
+  edges. The paper is not held here.
 authors:
 - Jaroslav Nešetřil
 - Vojtěch Rödl
@@ -42,17 +43,16 @@ methods; it is the accepted partial claim
 alone.
 
 **Acceptance.** Refereed: J. Nešetřil and V. Rödl, The Ramsey property for
-graphs with forbidden complete subgraphs, J. Combin. Theory Ser. B 20
-(1976), no. 3, 243--249 (the publisher's record dates the issue June 1976,
-which this page is named by; the day is a placeholder). Reviewed: the site's
-curator, T. F. Bloom, credits the theorem with the general case in the
-problem's commentary, on a page the site labels PROVED; Spencer's refereed
-1975 paper states it in its introduction (printed p. 278) as the full
-generalization of Folkman's theorem, and Erdős's 1975 report credits
-Nešetřil and Rödl with the answer for every number of colors, their paper
-then unpublished. Semantic Scholar's citation list (the first hundred
-records, 1986 to 2026, scanned by title,) records no
-dispute.
+graphs with forbidden complete subgraphs, J. Combin. Theory Ser. B 20 (1976),
+no. 3, 243--249. The publisher's record dates the issue June 1976, which this
+page is named by, and the day is a placeholder. Reviewed: the site's curator, T.
+F. Bloom, credits the theorem with the general case in the problem's commentary,
+on a page the site labels PROVED. Spencer's refereed 1975 paper states it in its
+introduction (printed p. 278) as the full generalization of Folkman's theorem.
+Erdős's 1975 report credits Nešetřil and Rödl with the answer for every number
+of colors, when their paper was still unpublished. Semantic Scholar's citation
+list records no dispute in the first hundred records (1986 to 2026, scanned by
+title).
 
 **Read depth.** The paper is not held; no open copy was found on
 2026-09-18. The statement above is quoted second-hand from Spencer's

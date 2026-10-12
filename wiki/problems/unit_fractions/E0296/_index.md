@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0296
 title: Problem 296
 desc: |
-  Estimates the largest number of disjoint subsets of one through N whose
-  reciprocals each sum to one, and asks whether it is o(log N), of smaller
-  order than log N.
+  Asks for estimates of $k(N)$, the largest number of disjoint subsets of
+  $\{1,\ldots,N\}$ whose reciprocals each sum to $1$, and whether
+  $k(N)=o(\log N)$.
 tags:
 - Number theory
 - Unit fractions
@@ -34,17 +34,17 @@ disjointness gives $k(N)\le\sum_{n\le N}1/n$. The closing question is Erdős
 and Graham's guess ("No doubt $k=o(\log n)$ but we have not proved this",
 monograph printed p. 36).
 
-**Status.** PROVED (LEAN) is the site's label, which attaches to the
-estimate: $k(N)=(1-o(1))\log N$, by Bloom's Theorem 3 (J. Eur. Math. Soc.
-27 (2025)) combined with a greedy removal argument, an observation the site
-credits to Hunter and Sawhney and which is written out below. This is the
-accepted claim
+**Status.** The site's label is PROVED (LEAN), and it attaches to the estimate.
+The Lean suffix is a catalog label qualified under Existing formalization below.
+The Lean files are formalization links on the claim page, and no local kernel
+credit is claimed. The estimate is $k(N)=(1-o(1))\log N$. It follows from
+Bloom's Theorem 3 (J. Eur. Math. Soc. 27 (2025)) combined with a greedy removal
+argument. The site credits this observation to Hunter and Sawhney, and it is
+written out below. This is the accepted claim
 [[problems/unit_fractions/E0296/claims/2024_06_16_hunter_sawhney|Hunter and Sawhney]],
-recorded with the value answered: it determines $k(N)$ to first order and
-answers the closing question in the negative, since $k(N)/\log N\to1$ rules
-out $k(N)=o(\log N)$. The Lean suffix is a catalog label qualified under
-Existing formalization below; the Lean files are formalization links on the
-claim page, and no local kernel credit is claimed.
+recorded with the value answered. It determines $k(N)$ to first order. It also
+answers the closing question in the negative, since $k(N)/\log N\to1$ rules out
+$k(N)=o(\log N)$.
 
 **Source.** [erdosproblems.com/296](https://www.erdosproblems.com/296),
 accessed 2026-09-17: the problem page (PROVED (LEAN)), its discussion thread

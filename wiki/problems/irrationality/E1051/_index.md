@@ -2,9 +2,8 @@
 name: problems/irrationality/E1051
 title: Problem 1051
 desc: |
-  Asks whether the sum of one over consecutive products of an increasing
-  integer sequence is irrational whenever the sequence grows doubly
-  exponentially.
+  Asks whether $\sum_{n\ge1}1/(a_na_{n+1})$ is irrational for every increasing
+  integer sequence $1\le a_1<a_2<\cdots$ with $\liminf a_n^{1/2^n}>1$.
 tags:
 - Irrationality
 status: solved
@@ -37,21 +36,21 @@ $$
 is irrational?
 
 **Status.** The site labels the problem PROVED (LEAN) (page last edited
-2026-02-01): its remarks credit the affirmative answer to the agent Aletheia as
-written up in [Fe26], and the extension to the sharp golden-ratio growth rate
-to [BKKKZ26]. Both are accepted claims on the acceptance of the site's curator,
-Thomas Bloom:
+2026-02-01). Its remarks credit the affirmative answer to the agent Aletheia, as
+written up in [Fe26]. They credit the extension to the sharp golden-ratio growth
+rate to [BKKKZ26]. Both are accepted claims, on the acceptance of the site's
+curator, Thomas Bloom. The first is
 [[problems/irrationality/E1051/claims/2026_01_29_feng_et_al|Feng and coauthors 2026]],
-whose proof Barreto formalized in Lean 4, and
+whose proof Barreto formalized in Lean 4. The second is
 [[problems/irrationality/E1051/claims/2026_01_29_barreto_kang_kim_kovac_zhang|Barreto, Kang, Kim, Kovač and Zhang 2026]],
 which also rests on its journal publication in Bull. London Math. Soc. 58
 (2026). Theorem 2 of the latter shows that $\lim a_n^{1/\phi^n}=\infty$, with
-$\phi$ the golden ratio, already suffices for non-decreasing sequences; its
-Theorem 3, through Remark 4(3), gives the $\limsup$ form for strictly
-increasing sequences; and its Theorem 2(2) shows that no slower
-double-exponential rate suffices. The Lean qualifier rests on Barreto's
-formalization, of which no build is recorded in this repository, and no
-independent review by this project is recorded.
+$\phi$ the golden ratio, already suffices for non-decreasing sequences. Its
+Theorem 3, through Remark 4(3), gives the $\limsup$ form for strictly increasing
+sequences. Its Theorem 2(2) shows that no slower double-exponential rate
+suffices. The Lean qualifier rests on Barreto's formalization. No build of that
+formalization is recorded in this repository, and no independent review by this
+project is recorded.
 
 **Source.** [erdosproblems.com/1051](https://www.erdosproblems.com/1051),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1051,

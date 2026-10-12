@@ -2,9 +2,9 @@
 name: problems/divisors/E0693
 title: Problem 693
 desc: |
-  Bounds the largest gap between consecutive integers above n having a divisor
-  between n and twice n, asking if it is at most a power of the logarithm of
-  n.
+  Asks for an estimate of the largest gap between consecutive integers in
+  $[n,n^k]$, for fixed $k\ge2$, that have a divisor in $(n,2n)$, and whether it
+  is at most $(\log n)^{O(1)}$.
 tags:
 - Number theory
 - Divisors

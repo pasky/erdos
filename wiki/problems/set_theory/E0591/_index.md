@@ -2,8 +2,8 @@
 name: problems/set_theory/E0591
 title: Problem 591
 desc: |
-  Asks whether every red-blue coloring of pairs from the ordinal omega to the
-  omega squared gives a red complete subgraph of that order type or a blue
+  Asks whether every red-blue coloring of the pairs from the ordinal
+  $\omega^{\omega^2}$ gives a red complete subgraph of that order type or a blue
   triangle.
 tags:
 - Set theory

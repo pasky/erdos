@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0342
 title: Problem 342
 desc: |
-  Asks what can be said about the sequence whose terms are the least integers
-  uniquely expressible as a sum of two earlier terms, its density and its
-  gaps.
+  Asks what can be said about the sequence starting $1,2$ in which each later
+  term is the least larger integer that is uniquely a sum of two earlier terms,
+  in particular about its density and its gaps.
 tags:
 - Number theory
 status: open

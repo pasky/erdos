@@ -2,9 +2,8 @@
 name: problems/set_theory/E1219
 title: Problem 1219
 desc: |
-  Asks whether a sum of strictly increasing powers two to the aleph n_k, the
-  first above aleph omega, satisfies the partition relation to aleph omega for
-  pairs.
+  Asks whether $\sum_k 2^{\aleph_{n_k}}\to(\aleph_\omega)^2$ when the cardinals
+  $2^{\aleph_{n_k}}$ strictly increase and the first exceeds $\aleph_\omega$.
 tags:
 - Set theory
 - Ramsey theory
@@ -31,7 +30,7 @@ $$
 $$
 
 **Status.** Proved. The site's label is PROVED (page last edited 1 September
-2026, as of 2026-10-07) and its remark credits the proof to Shelah [Sh75]; the
+2026, as of 2026-10-07), and its remark credits the proof to Shelah [Sh75]. The
 frontmatter standing is derived from the accepted claim page
 [[problems/set_theory/E1219/claims/1975_01_01_shelah|Shelah's proof of the partition relation]].
 

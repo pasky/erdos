@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0572/claims/1995_01_01_lazebnik_ustimenko_woldar
 title: Lazebnik, Ustimenko and Woldar, the case k = 3 from the graphs D(3,q)
 desc: |
-  The q-regular bipartite graphs D(3,q) of girth at least eight (Bull. Amer.
-  Math. Soc. 1995) give ex(n; C_6) at least a constant times n^(4/3), the
-  instance k = 3; for k at least 4 their general bound is of smaller order.
+  The $q$-regular bipartite graphs $D(3,q)$ of Lazebnik, Ustimenko and Woldar,
+  of girth at least eight (Bull. Amer. Math. Soc. 1995), give
+  $\mathrm{ex}(n;C_6)\gg n^{4/3}$, the instance $k=3$. For $k\ge4$ their general
+  bound is of smaller order.
 authors:
 - F. Lazebnik
 - V. A. Ustimenko
@@ -56,10 +57,10 @@ the paper's, and the monotonicity step is elementary.
 
 **Acceptance.** Refereed: F. Lazebnik, V. A. Ustimenko and A. J. Woldar, *A new
 series of dense graphs of high girth*, Bull. Amer. Math. Soc. (N.S.) 32 (1995),
-no. 1, 73--79, doi:10.1090/S0273-0979-1995-00569-0, a refereed journal, where it
-appeared as a research announcement (received 26 October 1993). First posting:
-arXiv:math/9501231, 1 January 1995 (the date this page is named by). No
-`reviewed` evidence is listed: the site credits the paper with the general lower
+no. 1, 73--79, doi:10.1090/S0273-0979-1995-00569-0, a refereed journal. It
+appeared there as a research announcement (received 26 October 1993). First
+posting: arXiv:math/9501231, 1 January 1995 (the date this page is named by). No
+`reviewed` evidence is listed. The site credits the paper with the general lower
 bound but labels the problem OPEN, and commentary on an open problem is not an
 acceptance. The site cites the authors' 1999 paper only for history.
 

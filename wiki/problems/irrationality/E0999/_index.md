@@ -2,8 +2,9 @@
 name: problems/irrationality/E0999
 title: Problem 999
 desc: |
-  Asks whether almost-all approximability of alpha by fractions within f of q
-  over q equals divergence of the sum of the totient of q times f of q over q.
+  Asks whether, for every $f:\mathbb{N}\to\mathbb{N}$, almost every $\alpha$
+  satisfies $|\alpha-p/q|<f(q)/q$ for infinitely many coprime $p,q$ if and only
+  if $\sum_{q\ge1}\phi(q)f(q)/q=\infty$.
 tags:
 - Number theory
 - Diophantine approximation
@@ -34,7 +35,7 @@ $$
 \sum_{q\geq 1}\phi(q)\frac{f(q)}{q}=\infty.
 $$
 
-**Status.** Proved. The site's label is PROVED, crediting Koukoulopoulos and
+**Status.** Proved. The site's label is PROVED. It credits Koukoulopoulos and
 Maynard's 2019 proof of the Duffin-Schaeffer conjecture, refereed in 2020 and
 recorded on
 [[problems/irrationality/E0999/claims/2019_07_10_koukoulopoulos_maynard|its claim page]].

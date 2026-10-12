@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0749
 title: Problem 749
 desc: |
-  Asks whether a set of naturals can have a sumset of lower density near one
-  while every integer has boundedly many representations as a sum of two
-  elements.
+  Asks whether, for each $\epsilon>0$, some $A\subseteq\mathbb{N}$ has $A+A$ of
+  lower density at least $1-\epsilon$ while every integer has $O_\epsilon(1)$
+  representations as a sum of two elements of $A$.
 tags:
 - Additive combinatorics
 status: open

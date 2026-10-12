@@ -2,7 +2,7 @@
 name: problems/set_theory/E1068
 title: Problem 1068
 desc: |
-  Asks whether every graph of chromatic number aleph one contains a countable
+  Asks whether every graph of chromatic number $\aleph_1$ contains a countable
   subgraph that is infinitely vertex-connected.
 tags:
 - Graph theory

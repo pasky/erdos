@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0552/claims/2015_01_24_wu_sun_zhang_radziszowski
 title: Wu, Sun, Zhang and Radziszowski, R(C_4,S_n) at n = q^2-2 and further values for even q
 desc: |
-  Theorem 3 of Wu, Sun, Zhang and Radziszowski (Graphs Combin. 2015) gives
-  R(C_4,K_{1,q^2-2}) = q^2+q-1 for prime powers q >= 3 and, for even q, the
-  values at n = q^2-k-1; refereed.
+  Theorem 3 of Wu, Sun, Zhang and Radziszowski (Graphs Combin. 2015), a refereed
+  result, gives $R(C_4,K_{1,q^2-2})=q^2+q-1$ for every prime power $q\ge3$. For
+  even $q$ it also gives the values at $n=q^2-k-1$.
 authors:
 - Yali Wu
 - Yongqi Sun
@@ -56,8 +56,8 @@ it.
 counting bound and constructions.
 
 **Acceptance.** Refereed: the paper is a journal publication in Graphs and
-Combinatorics, volume 31, number 6 (2015), published online 24 January
-2015, the date this page is named by, the `refereed` evidence. The site's
-curator refers to this paper in the commentary on exact values, but the
+Combinatorics, volume 31, number 6 (2015). This is the `refereed` evidence. It
+was published online on 24 January 2015, the date this page is named by. The
+site's curator refers to this paper in the commentary on exact values. But the
 site's label OPEN settles neither the problem nor a declared part of it, so
 `reviewed` is not listed.

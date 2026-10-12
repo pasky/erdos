@@ -2,9 +2,9 @@
 name: problems/polynomials/E0485/claims/2009_03_31_schinzel_zannier
 title: Schinzel and Zannier's logarithmic lower bound
 desc: |
-  Proves that the square of a polynomial with k nonzero terms has at least
-  2 plus log(k minus 1) over log 8 terms, so the minimum grows at least
-  logarithmically; refereed in Rendiconti Lincei, 2009.
+  Schinzel and Zannier prove that the square of a polynomial with $k$ nonzero
+  terms has at least $2+\log(k-1)/\log8$ terms, so the minimum grows at least
+  logarithmically. The refereed paper appeared in Rendiconti Lincei in 2009.
 authors:
 - Andrzej Schinzel
 - Umberto Zannier

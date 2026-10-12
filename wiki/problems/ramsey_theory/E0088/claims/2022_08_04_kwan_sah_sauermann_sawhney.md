@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0088/claims/2022_08_04_kwan_sah_sauermann_sawhney
 title: Kwan, Sah, Sauermann and Sawhney's proof of the Erdős–McKay conjecture
 desc: |
-  Theorem 1.1 of Kwan, Sah, Sauermann and Sawhney (2022): a C-Ramsey graph
-  on n vertices has induced subgraphs of every edge count up to (1 − η)e(G),
-  giving the Erdős–McKay conjecture of Problem 88; refereed, PROVED on the site.
+  Theorem 1.1 of Kwan, Sah, Sauermann and Sawhney (2022) shows that a $C$-Ramsey
+  graph $G$ on $n$ vertices has induced subgraphs of every edge count up to
+  $(1-\eta)e(G)$, which gives the Erdős–McKay conjecture of Problem 88. The
+  paper is refereed, and the site lists Problem 88 as PROVED.
 authors:
 - Matthew Kwan
 - Ashwin Sah
@@ -76,19 +77,18 @@ condition, as the site's commentary and the footnote both note.
 **Depends on.** Nothing in this wiki; the deduction above is the only step
 beyond the cited paper.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the
-problem PROVED, with the note that the answer is yes, and credits the
-solution to the four authors in the problem's commentary (page accessed
-2026-09-18); the thread and the proof-claim tab are empty. The site's
-credit line thanks Mehtaab Sawhney, one of the four authors; the PROVED
-label and the credit in the commentary are the curator's, and the refereed
-publication stands independently. Refereed: the paper is published in Forum
-of Mathematics, Pi 11 (2023), e21, DOI 10.1017/fmp.2023.17 (published
-online 24 August 2023; Crossref record accessed). The text read
-is the arXiv v2 of 30 May 2024, posted after the journal publication; the
-journal text is not held and was not compared with it. The claims of
-Theorem 1.1, footnote 2 and Theorem 1.2 are checked and the proof is not;
-nothing here is independently reviewed.
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+PROVED, with the note that the answer is yes, and credits the solution to the
+four authors in the problem's commentary (page accessed 2026-09-18). The thread
+and the proof-claim tab are empty. The site's credit line thanks Mehtaab
+Sawhney, one of the four authors. The PROVED label and the credit in the
+commentary are the curator's, and the refereed publication stands independently.
+Refereed: the paper is published in Forum of Mathematics, Pi 11 (2023), e21, DOI
+10.1017/fmp.2023.17 (published online 24 August 2023; Crossref record accessed).
+The text read is arXiv v2 of 30 May 2024, posted after the journal publication.
+The journal text is not held and was not compared with it. The claims of Theorem
+1.1, footnote 2 and Theorem 1.2 are checked, and the proof is not. Nothing here
+is independently reviewed.
 
 **Postings.** arXiv:2208.02874, v1 of 4 August 2022 (the first posting,
 which dates this page) and v2 of 30 May 2024, the version read; the

@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0001/claims/2026_09_03_adamczewski
 title: Sum-distinct sets below every fixed multiple of two to the n
 desc: |
-  A disproof found by GPT-6 Astra in Epoch AI's benchmark, with a public Lean
-  development from Tom Adamczewski: no constant c > 0 makes N > c 2^n hold for
-  every sum-distinct set of n integers in {1, ..., N}; accepted on Lean built here.
+  No constant $c>0$ makes $N>c\,2^n$ hold for every sum-distinct set of $n$
+  integers in $\{1,\ldots,N\}$. The disproof was found by GPT-6 Astra in Epoch
+  AI's benchmark, has a public Lean development from Tom Adamczewski, and is
+  accepted on Lean built here.
 authors:
 - Tom Adamczewski
 - Thomas F. Bloom
@@ -92,33 +93,38 @@ is not an outside review.
 and uses none of the earlier lower bounds.
 
 **Acceptance.** Formalized. This corpus's verification built the repository at
-the pinned commit of 2026-09-03 (the default targets `Erdos1`,
-`Erdos1Alternates`, `Challenge` and `Solution`) and checked the axioms of
+the pinned commit of 2026-09-03, with the default targets `Erdos1`,
+`Erdos1Alternates`, `Challenge` and `Solution`. It checked the axioms of
 `Erdos1.erdos_1.disproof` in the `Solution` environment, which the primary
-module `Erdos1_219usd_38h` supplies; they are exactly `propext`,
+module `Erdos1_219usd_38h` supplies. They are exactly `propext`,
 `Classical.choice` and `Quot.sound`. The repository's comparator challenge
 `Challenge.lean` pins that declaration with its predicate
 `Erdos1.IsSumDistinctSet`, and the fingerprint of both was found identical to
-the challenge; the alternate module `Erdos1_735usd_86h`, which the repository's
-own comparator does not compare, proves the same statement with the same axioms
-and the same fingerprint. The compared statement is the no-constant form: there
-is no real $C>0$ with $C\,2^{|A|}<N$ for every $N\ne0$ and every sum-distinct
-$A\subseteq\{1,\ldots,N\}$, the exact negation of the conjecture
+the challenge. The alternate module `Erdos1_735usd_86h` proves the same
+statement with the same axioms and the same fingerprint, though the repository's
+own comparator does not compare it.
+
+The compared statement is the no-constant form: there is no real $C>0$ with
+$C\,2^{|A|}<N$ for every $N\ne0$ and every sum-distinct
+$A\subseteq\{1,\ldots,N\}$. This is the exact negation of the conjecture
 `Erdos1.erdos_1` as Formal Conjectures stated it in [the revision given to the
-benchmark](https://github.com/google-deepmind/formal-conjectures/blob/488aade228ec37880b8fec178c173c07d279bb53/FormalConjectures/ErdosProblems/1.lean),
-including the hypothesis $N\ne0$, which excludes only the trivial witness $N=0$;
-the Formal Conjectures statement file, at its commit of 2026-10-06, has since
-restated `erdos_1` as that negation, tags it solved and names the module, at the
-repository's later commit of 2026-09-06, whose Lean files are identical to the
-pinned commit's, as the formal proof. The $\varepsilon$ form stated above
-follows by $2^n\le nN+1$ and is not separately formalized, and the real variant
-is not formalized in this repository, which defines `IsSumDistinctRealSet` and
-never uses it. Not reviewed: the site labels the problem disproved and credits
-GPT-6 Astra, but the curator submitted this proof claim, as part of the
-FrontierMath Erdős work with Epoch AI, so the site's label is not an independent
-review of it, and no outside reviewer has published an examination. Not
-refereed: there is no journal publication; the claim note describes the
+benchmark](https://github.com/google-deepmind/formal-conjectures/blob/488aade228ec37880b8fec178c173c07d279bb53/FormalConjectures/ErdosProblems/1.lean).
+That includes the hypothesis $N\ne0$, which excludes only the trivial witness
+$N=0$. The Formal Conjectures statement file, at its commit of 2026-10-06, has
+since restated `erdos_1` as that negation and tags it solved. It names the
+module as the formal proof, at the repository's later commit of 2026-09-06,
+whose Lean files are identical to the pinned commit's. The $\varepsilon$ form
+stated above follows by $2^n\le nN+1$ and is not separately formalized. The real
+variant is not formalized in this repository, which defines
+`IsSumDistinctRealSet` and never uses it.
+
+Not reviewed: the site labels the problem disproved and credits GPT-6 Astra.
+However, the curator submitted this proof claim as part of the FrontierMath
+Erdős work with Epoch AI, so the site's label is not an independent review of
+it. No outside reviewer has published an examination.
+
+Not refereed: there is no journal publication. The claim note describes the
 generated PDF and the curator's informal exposition as placeholders until a
-proper write-up is prepared, and the FrontierMath Erdős paper describes the
+proper write-up is prepared. The FrontierMath Erdős paper describes the
 benchmark run rather than the proof. The comments on the claim thread discuss
 the lattice behind the construction and raise no objection.

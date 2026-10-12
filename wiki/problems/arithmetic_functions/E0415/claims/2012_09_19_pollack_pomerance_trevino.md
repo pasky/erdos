@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0415/claims/2012_09_19_pollack_pomerance_trevino
 title: Pollack, Pomerance and Treviño's asymptotic for monotone runs of consecutive totients
 desc: |
-  Theorem 1.5 of the 2013 paper gives the longest monotone run of consecutive
-  totients below x the length (1+o(1)) log_3 x/log_6 x, so the threshold F(n)
-  is o(log_3 n) and no positive constant c works in the first question.
+  Theorem 1.5 of the 2013 paper of Pollack, Pomerance and Treviño shows that the
+  longest monotone run of consecutive totients below $x$ has length
+  $(1+o(1))\log_3x/\log_6x$. So the threshold $F(n)$ is $o(\log_3n)$, and no
+  positive constant $c$ works in the first question.
 authors:
 - Paul Pollack
 - Carl Pomerance
@@ -61,8 +62,8 @@ addresses.
 
 **Acceptance.** Refereed: The Ramanujan Journal, volume 30, issue 3 (2013),
 published online 19 September 2012. The site's commentary records that the
-asymptotic answers the first question in the negative, but the site labels
-the problem OPEN, so that commentary is not listed as `reviewed` evidence.
-The corpus has not reproved the theorem and awards no tier of its own.
+asymptotic answers the first question in the negative. But the site labels the
+problem OPEN, so that commentary is not listed as `reviewed` evidence. The
+corpus has not reproved the theorem and awards no tier of its own.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper.

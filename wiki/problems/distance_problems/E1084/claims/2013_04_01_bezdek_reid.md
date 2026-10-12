@@ -2,9 +2,9 @@
 name: problems/distance_problems/E1084/claims/2013_04_01_bezdek_reid
 title: Bezdek and Reid's upper bound for contact numbers in space
 desc: |
-  Among n points of 3-space at mutual distance at least one, fewer than
-  6n - 0.926 n^{2/3} pairs are at distance one, for every n at least 2; the
-  upper half of Erdős's two-sided estimate for d = 3.
+  Bezdek and Reid prove that among $n\ge2$ points of $\mathbb{R}^3$ at mutual
+  distance at least $1$, fewer than $6n-0.926\,n^{2/3}$ pairs are at distance
+  $1$. This is the upper half of Erdős's two-sided estimate for $d=3$.
 authors:
 - Károly Bezdek
 - Samuel Reid
@@ -54,8 +54,8 @@ $d\ge3$.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: K. Bezdek and S. Reid, Contact graphs of unit
-sphere packings revisited, Journal of Geometry 104 (2013), no. 1, 57–83; the
-preprint is arXiv:1210.5756. The site's remarks credit the bound to this
-paper, but the site labels the problem OPEN, so the remark is not `reviewed`
-evidence. The page is dated to the issue, April 2013.
+**Acceptance.** Refereed: K. Bezdek and S. Reid, Contact graphs of unit sphere
+packings revisited, Journal of Geometry 104 (2013), no. 1, 57–83. The preprint
+is arXiv:1210.5756. The site's remarks credit the bound to this paper, but the
+site labels the problem OPEN, so the remark is not `reviewed` evidence. The page
+is dated to the issue, April 2013.

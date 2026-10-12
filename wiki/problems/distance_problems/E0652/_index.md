@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0652
 title: Problem 652
 desc: |
-  Asks whether the least possible number of distinct distances from the k-th
-  of n planar points, in units of root n, grows with k; Erdős's first guess,
-  that it is unbounded already at k = 3, fails by a construction of Elekes.
+  Asks whether the least possible number of distinct distances from the $k$-th
+  of $n$ planar points, in units of $\sqrt{n}$, tends to infinity with $k$.
+  Erdős's first guess, that it is unbounded already at $k=3$, fails by a
+  construction of Elekes.
 tags:
 - Geometry
 - Distances
@@ -44,10 +45,9 @@ determines $O(\sqrt{kn})$ distances to the other $n$ points when
 $2\le k\le n^{1/3}$. So each $\alpha_k$ is finite, and the site asks instead
 whether these constants grow with $k$; that question sets the standing.
 
-**Status.** Proved; the site's label is PROVED.
+**Status.** Proved. The site's label is PROVED.
 [[problems/distance_problems/E0652/claims/2019_12_04_mathialagan|Mathialagan's theorem]]
-[Ma21], refereed and credited by the site's curator, answers the question,
-and
+[Ma21] answers the question. It is refereed and credited by the site's curator.
 [[problems/distance_problems/E0652/claims/2026_01_29_feng|Feng and coauthors]]
 give a second, unrefereed proof with a weaker growth rate.
 

@@ -2,9 +2,10 @@
 name: problems/number_theory/E1096/claims/2026_04_16_acosta_de_leon
 title: Acosta De León's note deducing the answer from Feng
 desc: |
-  A two-page note of 16 April 2026, posted on a data repository and linked
-  from the problem's thread, that deduces the answer for every q below the
-  square root of the smallest Pisot number from Feng's Theorem 1.4; pending.
+  Acosta De León's two-page note of 16 April 2026, posted on a data repository
+  and linked from the problem's thread, deduces the answer for every $q$ below
+  the square root of the smallest Pisot number from Feng's Theorem 1.4. It is
+  pending.
 authors:
 - Pedro Acosta De Leon
 status: claimed

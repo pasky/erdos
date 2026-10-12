@@ -2,9 +2,10 @@
 name: problems/number_theory/E0480/claims/1981_07_01_chung_graham
 title: Chung and Graham's sharp clustering bound
 desc: |
-  Theorem 1 of Chung and Graham: every sequence in [0,1] has clustering
-  measure at most (1 + sum of 1/F_2k)^(-1) = 0.3944..., below one over root
-  five, and Theorem 2 shows the constant is sharp; announced 1981, proved 1984.
+  Theorem 1 of Chung and Graham: every sequence in $[0,1]$ has clustering
+  measure at most $\bigl(1+\sum_k1/F_{2k}\bigr)^{-1}=0.3944\ldots$, which is
+  below $1/\sqrt5$. Theorem 2 shows that the constant is sharp, and the results
+  were announced in 1981 and proved in 1984.
 authors:
 - F. R. K. Chung
 - R. L. Graham
@@ -76,17 +77,16 @@ audited here, so no `formalized` evidence is listed. The formal-conjectures
 statement file the problem page records is a statement, not a
 formalization.
 
-**Acceptance.** Refereed: F. R. K. Chung and R. L. Graham, On
-irregularities of distribution of real sequences, Proc. Natl. Acad. Sci.
-USA 78 (1981), no. 7, 4001 (July 1981; communicated 13 April 1981), which
-states the theorems and carries no proof. The proof, On irregularities of
-distribution, in Finite and Infinite Sets (Eger, 1981), Colloq. Math. Soc.
-János Bolyai 37, North-Holland (1984), 181--222, is a proceedings chapter
-not shown to be refereed, so the proof's acceptance rests on the curator's
-credit. Reviewed: the site's curator, Thomas F. Bloom, marks Problem 480
-PROVED (LEAN) and credits the chapter with the proof in the problem's commentary
-(page last edited 28 December 2025); the curator neither wrote nor
-submitted the result. The 1980 monograph of Erdős and Graham reports the
-theorem as just proved in its added-in-proof note (p. 107). The page is
-dated by the first day of the issue month of the announcement, since the
-record gives no finer posting date.
+**Acceptance.** Refereed: F. R. K. Chung and R. L. Graham, On irregularities of
+distribution of real sequences, Proc. Natl. Acad. Sci. USA 78 (1981), no. 7,
+4001 (July 1981; communicated 13 April 1981). This paper states the theorems and
+carries no proof. The proof appears in the proceedings chapter On irregularities
+of distribution, in Finite and Infinite Sets (Eger, 1981), Colloq. Math. Soc.
+János Bolyai 37, North-Holland (1984), 181--222. That chapter is not shown to be
+refereed, so the proof's acceptance rests on the curator's credit. Reviewed: the
+site's curator, Thomas F. Bloom, marks Problem 480 PROVED (LEAN) and, in the
+problem's commentary, credits the chapter with the proof (page last edited 28
+December 2025). The curator neither wrote nor submitted the result. The 1980
+monograph of Erdős and Graham reports the theorem as just proved in its
+added-in-proof note (p. 107). The page is dated by the first day of the issue
+month of the announcement, since the record gives no finer posting date.

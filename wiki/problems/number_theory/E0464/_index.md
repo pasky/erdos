@@ -2,11 +2,10 @@
 name: problems/number_theory/E0464
 title: Problem 464
 desc: |
-  Asks whether every lacunary sequence admits an irrational multiplier whose
-  fractional parts along the sequence are not dense in the unit interval;
-  proved by Pollington and de Mathan, with Peres and Schlag's separation of
-  order epsilon over log(1/epsilon), while the site's wording is trivially
-  true.
+  Asks whether every lacunary sequence ($n_{k+1}\ge(1+\epsilon)n_k$) has an
+  irrational $\theta$ with $\{\theta n_k\}$ not dense in $[0,1]$; proved by
+  Pollington and de Mathan. Peres and Schlag give a separation of order
+  $\epsilon/\log(1/\epsilon)$, and the site's wording is trivially true.
 tags:
 - Number theory
 status: solved
@@ -86,54 +85,59 @@ clause only if it produces an irrational $\theta$. The sources prove the
 stronger separation $\inf_k\|\theta n_k\|>0$, with quantitative lower bounds in
 $\epsilon$.
 
-**Status.** Proved. The site's label PROVED (LEAN) describes the site's
-wording, which is trivially true (Notes), and is right for the corrected
-Statement as well; the suffix is a catalog label explained under Formalization
-below. Pollington's Theorem [Po79b] (Illinois J. Math. 23 (1979), refereed)
-gives, for every sequence of positive numbers with consecutive ratios at least
-$\alpha>1$, a $\beta>0$ and a set of $\xi$ of positive Hausdorff dimension,
-uncountable by the paper's own remark, with $\{t_k\xi\}\in[\beta,1-\beta]$ for
-all $k$; an uncountable set of reals contains irrational numbers (the rationals
-are countable), so an irrational $\theta$ with $\inf_k\|\theta n_k\|\ge\beta>0$
-exists (one authored line). De Mathan's independent solution [dM80] (Acta Math.
-Acad. Sci. Hungar. 36 (1980), refereed) is its Corollary 1 (p. 237): for every
-sequence of positive reals with consecutive ratios at least $\lambda>1$ and
-every interval $[a,b]$, the $x\in[a,b]$ with $(q_nx)$ not everywhere dense mod
-1 form a set of Hausdorff dimension 1, and the proof of its Theorem 1 concludes
-(p. 241) that the $x$ for which $(q_nx)$ does not have $0$ as a point of
+**Status.** Proved. The site's label PROVED (LEAN) describes the site's wording,
+which is trivially true (Notes). The label is right for the corrected Statement
+as well. The suffix is a catalog label explained under Formalization below.
+
+Pollington's Theorem [Po79b] (Illinois J. Math. 23 (1979), refereed) applies to
+every sequence of positive numbers with consecutive ratios at least $\alpha>1$.
+It gives a $\beta>0$ and a set of $\xi$ of positive Hausdorff dimension with
+$\{t_k\xi\}\in[\beta,1-\beta]$ for all $k$. The set is uncountable by the
+paper's own remark. An uncountable set of reals contains irrational numbers,
+since the rationals are countable. So an irrational $\theta$ with
+$\inf_k\|\theta n_k\|\ge\beta>0$ exists (one authored line).
+
+De Mathan's independent solution [dM80] (Acta Math. Acad. Sci. Hungar. 36
+(1980), refereed) is its Corollary 1 (p. 237). For every sequence of positive
+reals with consecutive ratios at least $\lambda>1$ and every interval $[a,b]$,
+the $x\in[a,b]$ with $(q_nx)$ not everywhere dense mod 1 form a set of Hausdorff
+dimension 1. The proof of its Theorem 1 concludes (p. 241) that another set also
+has dimension 1: the $x$ for which $(q_nx)$ does not have $0$ as a point of
 accumulation mod 1, so that $\|q_nx\|$ stays above some $\varepsilon>0$ for all
-but finitely many $n$, also form a set of dimension 1; the same uncountability
-line supplies an irrational $\theta$ in that set, and for it the finitely many
-excepted terms have $\|\theta n_k\|>0$, so $\inf_k\|\theta n_k\|>0$ (two
-authored lines). Katznelson's Theorem 1.2 [Ka01] (Combinatorica 21 (2001),
-refereed) gives the separation again, and his Claim 2 gives the set of
-multipliers with a positive separation Hausdorff dimension 1, so the same
-uncountability line supplies an irrational $\theta$. Pollington (p. 511),
-Katznelson (p. 212), Erdős's 1982 restatement (p. 63) and the site attest the
-independence of the two original solutions; Peres and Schlag (p. 2) credit both
-without saying so. The three results are the accepted claim pages
+but finitely many $n$. The same uncountability line supplies an irrational
+$\theta$ in that set. For this $\theta$ the finitely many excepted terms have
+$\|\theta n_k\|>0$, so $\inf_k\|\theta n_k\|>0$ (two authored lines).
+
+Katznelson's Theorem 1.2 [Ka01] (Combinatorica 21 (2001), refereed) gives the
+separation again. His Claim 2 gives the set of multipliers with a positive
+separation Hausdorff dimension 1, so the same uncountability line supplies an
+irrational $\theta$. Pollington (p. 511), Katznelson (p. 212), Erdős's 1982
+restatement (p. 63) and the site attest that the two original solutions are
+independent. Peres and Schlag (p. 2) credit both without saying so. The three
+results are the accepted claim pages
 [[problems/number_theory/E0464/claims/1979_12_01_pollington|Pollington 1979]],
 [[problems/number_theory/E0464/claims/1980_09_01_de_mathan|de Mathan 1980]] and
 [[problems/number_theory/E0464/claims/2001_04_01_katznelson|Katznelson 2001]].
-The quantitative record: de Mathan and Pollington give $\inf_k\|\theta
-n_k\|\gg\epsilon^4/\log(1/\epsilon)$ (as Peres and Schlag report it; de
-Mathan's paper prints no bound in terms of $\lambda-1$, and its displayed
+The irrationality clause rests on these three papers, each through the
+uncountability of its dimension-one set.
+
+The quantitative record is as follows. De Mathan and Pollington give
+$\inf_k\|\theta n_k\|\gg\epsilon^4/\log(1/\epsilon)$, as Peres and Schlag report
+it. De Mathan's paper prints no bound in terms of $\lambda-1$. Its displayed
 choices give a separation of order $\epsilon^4/\log^4(1/\epsilon)$, a filing
-observation recorded on its card), Katznelson's footnote 2 prints
+observation recorded on its card. Katznelson's footnote 2 prints
 $\varepsilon(\rho)> (\rho-1)^2\log^{-2}(\rho-1)$ for ratio $\rho$ close to $1$,
-of order $\epsilon^2/\log^2(1/\epsilon)$, where Peres and Schlag report
-$\gg\epsilon^2/\log(1/\epsilon)$ for it, Akhunzhanov and Moshchevitin remove
-the logarithm from the quoted form (as Peres and Schlag and Dubickas report
-it), Dubickas's Theorem 1 gives $\|\xi t_n\|\ge1/(9(r+2)^2)$ for ratio at least
-$1+r^{-1}$, of order $\epsilon^2$, and Peres and Schlag's Theorem 1.1 gives
+of order $\epsilon^2/\log^2(1/\epsilon)$. Peres and Schlag report
+$\gg\epsilon^2/\log(1/\epsilon)$ for it. Akhunzhanov and Moshchevitin remove the
+logarithm from the quoted form, as Peres and Schlag and Dubickas report it.
+Dubickas's Theorem 1 gives $\|\xi t_n\|\ge1/(9(r+2)^2)$ for ratio at least
+$1+r^{-1}$, of order $\epsilon^2$. Peres and Schlag's Theorem 1.1 gives
 $\gg\epsilon/\log(1/\epsilon)$ for $0<\epsilon<1/4$, sharp up to the logarithm.
 The Dubickas and Peres--Schlag theorems produce a positive real $\xi$ or a
-$\theta\in(0,1)$ and do not assert irrationality, and Akhunzhanov and
-Moshchevitin's bound is known only as those two papers report it, with no
-irrational multiplier; these three results settle no instance of the question
-and have no claim pages. The irrationality clause rests on Pollington's, de
-Mathan's and Katznelson's papers, each through the uncountability of its
-dimension-one set.
+$\theta\in(0,1)$ and do not assert irrationality. Akhunzhanov and Moshchevitin's
+bound is known only as those two papers report it, with no irrational
+multiplier. These three results settle no instance of the question and have no
+claim pages.
 
 **Source.** [erdosproblems.com/464](https://www.erdosproblems.com/464),
 accessed 2026-09-18: the problem page (PROVED (LEAN), with the site's note

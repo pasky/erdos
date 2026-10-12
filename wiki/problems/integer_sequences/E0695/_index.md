@@ -2,8 +2,9 @@
 name: problems/integer_sequences/E0695
 title: Problem 695
 desc: |
-  Asks how fast a chain of primes, each congruent to 1 modulo the previous
-  one, must grow, and whether a nearly optimally slow such chain exists.
+  Asks whether primes $p_1<p_2<\cdots$ with $p_{i+1}\equiv1\pmod{p_i}$ must have
+  $p_k^{1/k}\to\infty$, and whether such a sequence exists with
+  $p_k\le\exp(k(\log k)^{1+o(1)})$.
 tags:
 - Number theory
 status: open

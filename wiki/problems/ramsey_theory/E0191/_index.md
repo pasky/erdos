@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0191
 title: Problem 191
 desc: |
-  Asks whether every two-coloring of the pairs from 2 up to n yields a
-  monochromatic complete set whose reciprocal-logarithm sum is arbitrarily
-  large; proved by Rödl, with the order determined by Conlon, Fox and Sudakov.
+  Asks whether, for every $C>0$ and large $n$, every $2$-coloring of the pairs
+  from $\{2,\ldots,n\}$ has a set $X$ with all its pairs one color and
+  $\sum_{x\in X}1/\log x\ge C$; proved by Rödl, with the order of growth
+  determined by Conlon, Fox and Sudakov.
 tags:
 - Combinatorics
 - Ramsey theory
@@ -52,24 +53,25 @@ $f(n)=O(\log\log\log n)$, a point a reader raised in the thread on 5 February
 2026.
 
 **Status.** Proved: the site labels the problem PROVED (LEAN). The answer is
-yes: Rödl (J. Combin. Theory Ser. A 102 (2003), 229--240) proved that
-$f(n)\to\infty$, with $f(n)=\Omega(\log\log\log\log n/\log\log\log\log\log n)$,
-the rate both second-hand accounts give (under Rödl's results below), and gave a
-coloring showing $f(n)=O(\log\log\log n)$; Theorem 1.1 of Conlon, Fox and
-Sudakov (Duke Math. J. 162 (2013), 2903--2927) gives
+yes. Rödl (J. Combin. Theory Ser. A 102 (2003), 229--240) proved that
+$f(n)\to\infty$, with $f(n)=\Omega(\log\log\log\log n/\log\log\log\log\log n)$.
+This is the rate both second-hand accounts give (under Rödl's results below). He
+also gave a coloring showing $f(n)=O(\log\log\log n)$. Theorem 1.1 of Conlon,
+Fox and Sudakov (Duke Math. J. 162 (2013), 2903--2927) gives
 $f(n)\ge2^{-8}\log\log\log n$ for large $n$, so $f(n)=\Theta(\log\log\log n)$.
-Rödl's paper is not held, so his results are quoted second-hand from the
-Conlon--Fox--Sudakov introduction, the site and Erdős's 1982 report; the
-refereed theorem of Conlon, Fox and Sudakov (cited from the arXiv version headed
-"Accepted for publication in Duke Mathematical Journal") answers the question on
-its own. The site's "(Lean)" suffix is a catalog label explained under
-Formalization: an external Lean file that declares itself a formalization of
-Rödl's result states the problem and claims a proof (not built or checked here);
-it is linked from Rödl's claim page. The claim pages
+The claim pages
 [[problems/ramsey_theory/E0191/claims/2003_04_23_rodl|Rödl 2003]] and
 [[problems/ramsey_theory/E0191/claims/2011_12_07_conlon_fox_sudakov|Conlon, Fox and Sudakov 2011]]
-record the two refereed proofs with their postings and acceptance evidence; the
-frontmatter standing derives from these pages.
+record the two refereed proofs with their postings and acceptance evidence. The
+frontmatter standing derives from these pages. Rödl's paper is not held, so his
+results are quoted second-hand from the Conlon--Fox--Sudakov introduction, the
+site and Erdős's 1982 report. The refereed theorem of Conlon, Fox and Sudakov
+answers the question on its own. It is cited from the arXiv version headed
+"Accepted for publication in Duke Mathematical Journal". The site's "(Lean)"
+suffix is a catalog label explained under Formalization. An external Lean file
+that declares itself a formalization of Rödl's result states the problem and
+claims a proof. It was not built or checked here, and it is linked from Rödl's
+claim page.
 
 **Source.** [erdosproblems.com/191](https://www.erdosproblems.com/191),
 accessed 2026-09-18: the problem page (labeled

@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0507/claims/1982_02_01_komlos_pintz_szemeredi
 title: The Komlós-Pintz-Szemerédi lower bound of order (log n)/n^2
 desc: |
-  Komlós, Pintz and Szemerédi prove that for all large n some n points of the
-  unit square have every triangle of area at least c (log n)/n^2, which gives
-  the lower bound alpha(n) >> (log n)/n^2 for the disk; refereed.
+  Komlós, Pintz and Szemerédi prove, in a refereed paper, that for all large $n$
+  some $n$ points of the unit square have every triangle of area at least
+  $c(\log n)/n^2$. This gives the lower bound $\alpha(n)\gg(\log n)/n^2$ for the
+  disk.
 authors:
 - János Komlós
 - János Pintz

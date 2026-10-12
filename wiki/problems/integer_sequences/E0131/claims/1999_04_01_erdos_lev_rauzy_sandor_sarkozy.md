@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0131/claims/1999_04_01_erdos_lev_rauzy_sandor_sarkozy
 title: The 1999 bounds N to the 1/5 below and 3 N^{1/2} + 1 above
 desc: |
-  Erdős, Lev, Rauzy, Sándor and Sárközy's refereed bounds (Discrete Math. 1999)
-  on the largest non-dividing subset of the first N integers: F(N) < 3 N^{1/2} +
-  1 for all N, and F(N) >> N^{1/5} deduced from Straus and Bosznay.
+  Erdős, Lev, Rauzy, Sándor and Sárközy (Discrete Math. 1999, refereed) bound
+  the size $F(N)$ of the largest non-dividing subset of the first $N$ integers.
+  They prove $F(N)<3N^{1/2}+1$ for all $N$ and deduce $F(N)\gg N^{1/5}$ from
+  Straus and Bosznay.
 authors:
 - P. Erdős
 - V. Lev

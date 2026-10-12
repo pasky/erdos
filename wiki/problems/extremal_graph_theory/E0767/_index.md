@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0767
 title: Problem 767
 desc: |
-  Asks whether the most edges on n vertices with no cycle carrying k chords
-  at one cycle vertex is (k+1)n minus (k+1) squared for large n; proved for
-  n at least 3k+3 by Jiang (2004), with a 2026 preprint claiming the threshold.
+  Asks whether, for large $n$, the most edges in an $n$-vertex graph with no
+  cycle carrying $k$ chords at one cycle vertex is $(k+1)n-(k+1)^2$. Proved for
+  $n\ge3k+3$ by Jiang (2004); a 2026 preprint claims the threshold.
 tags:
 - Graph theory
 - Turán numbers
@@ -59,30 +59,29 @@ $\mathfrak G(n;2n-3)$ has a circuit with a diagonal, false for $2n-4$, is the
 site's $g_1(n)=2n-4$ ("for $n\ge4$" in [Er75]). Jiang's abstract and the 2026
 preprint [ChNi26] use the site's indexing.
 
-**Status.** Proved. The site labels the problem PROVED and credits Jiang
-[Ji04] (J. Graph Theory 46 (2004), no. 3, 180--182; refereed). The paper is
-not held; its abstract is known as deposited in the Crossref record: "Given
-positive integers $n$ and $k$, let $g_k(n)$ denote
-the maximum number of edges of a graph on $n$ vertices that does not contain
-a cycle with $k$ chords incident to a vertex on the cycle. Bollobás
-conjectured as an exercise in [2, p. 398, Problem 13] that there exists a
-function $n(k)$ such that $g_k(n)=(k+1)n-(k+1)^2$ for all $n\ge n(k)$.
-Using an old result of Bondy [3], we prove the conjecture, showing that
-$n(k)\le3k+3$." This is the site's statement in the site's notation, with
-the same threshold $n\ge3k+3$ that the site's commentary gives; the 2026
-preprint [ChNi26] restates it as its Theorem 1.2 with the hypotheses $k\ge1$
-and $n\ge3k+3$. The theorem's proof is known only through the abstract and
-that restatement. The accepted claim rests on the refereed note and the
-curator's credit; the preprint's account below and the third-party Lean
-proof of the $n\ge3k+3$ form that this corpus has not built are context,
-not acceptance evidence. Jiang credits the conjecture to Bollobás's book,
-where Erdős's papers state it as his own. The theorem is recorded on the claim page
-[[problems/extremal_graph_theory/E0767/claims/2004_04_07_jiang|Jiang]],
-from which the frontmatter standing is derived; the 2026 preprint has its
-own claim page,
+**Status.** Proved. The site labels the problem PROVED and credits Jiang [Ji04]
+(J. Graph Theory 46 (2004), no. 3, 180--182; refereed). The theorem is recorded
+on the claim page
+[[problems/extremal_graph_theory/E0767/claims/2004_04_07_jiang|Jiang]], from
+which the frontmatter standing is derived. The accepted claim rests on the
+refereed note and the curator's credit. The paper is not held. Its abstract is
+known as deposited in the Crossref record: "Given positive integers $n$ and $k$,
+let $g_k(n)$ denote the maximum number of edges of a graph on $n$ vertices that
+does not contain a cycle with $k$ chords incident to a vertex on the cycle.
+Bollobás conjectured as an exercise in [2, p. 398, Problem 13] that there exists
+a function $n(k)$ such that $g_k(n)=(k+1)n-(k+1)^2$ for all $n\ge n(k)$. Using
+an old result of Bondy [3], we prove the conjecture, showing that
+$n(k)\le3k+3$." This is the site's statement in the site's notation, with the
+same threshold $n\ge3k+3$ that the site's commentary gives. The 2026 preprint
+[ChNi26] restates it as its Theorem 1.2 with the hypotheses $k\ge1$ and
+$n\ge3k+3$. The theorem's proof is known only through the abstract and that
+restatement. The preprint's account below is context, not acceptance evidence.
+So is the third-party Lean proof of the $n\ge3k+3$ form, which this corpus has
+not built. Jiang credits the conjecture to Bollobás's book. Erdős's papers state
+it as his own. The 2026 preprint has its own claim page,
 [[problems/extremal_graph_theory/E0767/claims/2026_09_14_chen_ning|Chen and Ning]],
-as a pending claim, and Pósa's theorem for $k=1$, credited in the site's
-commentary, has its own partial claim page,
+as a pending claim. Pósa's theorem for $k=1$, credited in the site's commentary,
+has its own partial claim page,
 [[problems/extremal_graph_theory/E0767/claims/1961_01_01_posa|Pósa]].
 
 **Source.** [erdosproblems.com/767](https://www.erdosproblems.com/767),

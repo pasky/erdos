@@ -2,8 +2,7 @@
 name: problems/irrationality/E0068
 title: Problem 68
 desc: |
-  Asks whether the sum over integers n at least two of one over n factorial
-  minus one is irrational.
+  Asks whether $\sum_{n\ge2}\frac{1}{n!-1}$ is irrational.
 tags:
 - Number theory
 - Irrationality

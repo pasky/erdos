@@ -3,8 +3,8 @@ name: problems/graph_coloring/E0632/claims/2018_06_11_dvorak_hu_sereni
 title: Dvořák, Hu and Sereni disprove the (am,bm)-choosability conjecture
 desc: |
   Theorem 2 of Dvořák, Hu and Sereni (Advances in Combinatorics 2019) gives a
-  graph that is 4-choosable but not (8,2)-choosable, a counterexample at
-  m = 2; accepted on the refereed publication and the site's credit.
+  graph that is $4$-choosable but not $(8,2)$-choosable, a counterexample at
+  $m=2$. It is accepted on the refereed publication and the site's credit.
 authors:
 - Zdeněk Dvořák
 - Xiaolan Hu
@@ -50,13 +50,13 @@ the
 [[../library/graph_coloring/dvorak_2019_4_choosable_graph_not_8_2_choosable/_index|source card]]
 prints it; no independent check of the gadget lemmas or the proof is recorded.
 
-**Acceptance.** Refereed publication: Advances in Combinatorics 2019, Paper
-No. 5, 9 pp., doi:10.19086/aic.10811, received 11 June 2018 and published
-30 October 2019; the preprint is arXiv:1806.03880, first posted 11 June 2018,
-the date of this page. The site's curator, T. F. Bloom, labels the problem
-disproved and credits [DHS19] with the construction, which the page lists as
-`reviewed`. The question is from Erdős, Rubin and Taylor, who printed it as
-an open question in
+**Acceptance.** Refereed publication: Advances in Combinatorics 2019, Paper No.
+5, 9 pp., doi:10.19086/aic.10811. The paper was received on 11 June 2018 and
+published on 30 October 2019. The preprint is arXiv:1806.03880, first posted on
+11 June 2018, which is the date of this page. The site's curator, T. F. Bloom,
+labels the problem disproved and credits [DHS19] with the construction. The page
+lists this credit as `reviewed`. The question is from Erdős, Rubin and Taylor,
+who printed it as an open question in
 [[../library/graph_coloring/erdos_1980_choosability_graphs/_index|Choosability in graphs]]
 (1980).
 

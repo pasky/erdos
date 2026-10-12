@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0283/claims/2018_01_18_alekseyev
 title: "Alekseyev: the case p(x) = x^2, every integer above 8542"
 desc: |
-  Alekseyev's theorem that 8542 is the largest integer not a sum of squares
-  of distinct positive integers whose reciprocals sum to one, the case
-  p(x) = x^2 of the problem; a published book chapter, refereeing not recorded.
+  Alekseyev's theorem that $8542$ is the largest integer that is not a sum of
+  squares of distinct positive integers whose reciprocals sum to $1$, the case
+  $p(x)=x^2$ of the problem. It is a published book chapter, and its refereeing
+  is not recorded.
 authors:
 - Max A. Alekseyev
 status: claimed

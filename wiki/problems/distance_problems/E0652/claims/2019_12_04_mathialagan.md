@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0652/claims/2019_12_04_mathialagan
 title: Mathialagan's point with many bipartite distances
 desc: |
-  Among k points, k at most the cube root of n, some point determines at least
-  a constant times root kn distances to n other points, so alpha_k is at least
-  a constant times root k and the answer is yes; refereed, curator-credited.
+  Mathialagan proves that among $k\le n^{1/3}$ points, some point determines
+  $\Omega(\sqrt{kn})$ distinct distances to $n$ other points. So
+  $\alpha_k=\Omega(\sqrt k)$ and the answer is yes; the paper is refereed and
+  credited by the site's curator.
 authors:
 - Surya Mathialagan
 status: accepted
@@ -67,13 +68,12 @@ that the paper's Section 2, which restates Elekes's construction, gives
 $\alpha_k=O(k^{1/2})$, which would make the order $k^{1/2}$ sharp; this page
 credits only the lower bound.
 
-**Acceptance.** The paper is refereed: the Electronic Journal of
-Combinatorics accepted it on 1 November 2021 and published it on 19 November
-2021. The site's curator, Thomas Bloom, labels the problem proved, cites the
-paper as [Ma21] and states the theorem with the deduction above (problem
-page last edited 18 January 2026), which is the `reviewed` evidence. The
-proof has the journal's refereeing and the curator's endorsement; no other
-review of it is recorded.
+**Acceptance.** The paper is refereed. The Electronic Journal of Combinatorics
+accepted it on 1 November 2021 and published it on 19 November 2021. The site's
+curator, Thomas Bloom, labels the problem proved, cites the paper as [Ma21] and
+states the theorem with the deduction above (problem page last edited 18 January
+2026). This is the `reviewed` evidence. The proof has the journal's refereeing
+and the curator's endorsement. No other review of it is recorded.
 
 **Later reports of the same deduction.** The site's discussion thread of
 January 2026 records a web page by Mehmet Mars Seven presenting a deduction by

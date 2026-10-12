@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0978/claims/2026_08_11_zapata_ceballos_jalalvand
 title: Squarefree values of degree-2q polynomials with a Galois subfield
 desc: |
-  Zapata Ceballos and Jalalvand's 2026 preprint claims a positive density of
-  squarefree values for monic irreducible degree-2q polynomials whose field has
-  a Galois subfield of degree q, which includes n^4+2; unreviewed.
+  Zapata Ceballos and Jalalvand's unreviewed 2026 preprint claims a positive
+  density of squarefree values for monic irreducible polynomials of degree $2q$
+  whose field has a Galois subfield of degree $q$. This class includes $n^4+2$.
 authors:
 - Sergio Ricardo Zapata Ceballos
 - Fatemeh Jalalvand

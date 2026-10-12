@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0358/claims/2026_02_18_sothanaphan
 title: Sothanaphan's withdrawn proof of a logarithmic representation count
 desc: |
-  A write-up of 2026-02-18 produced with GPT-5.2 Thinking claims a set with
-  f(n) at least c log n for all large n; Tao found a gap in its Lemma 17 that
-  day, and the author reported on 2026-02-20 that the system could not fix it.
+  Nat Sothanaphan's write-up of 2026-02-18, produced with GPT-5.2 Thinking,
+  claims a set with $f(n)\ge c\log n$ for all large $n$. Tao found a gap in its
+  Lemma 17 that day, and the author reported on 2026-02-20 that the system could
+  not fix it.
 authors:
 - Nat Sothanaphan
 status: withdrawn

@@ -2,8 +2,9 @@
 name: problems/integer_sequences/E0359
 title: Problem 359
 desc: |
-  The density of the sequence starting at n in which each later term is the
-  least integer that is not a sum of consecutive earlier terms.
+  Asks what can be said about the density of the sequence starting at $n$ in
+  which each later term is the least integer that is not a sum of consecutive
+  earlier terms.
 tags:
 - Number theory
 status: open

@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0245
 title: Problem 245
 desc: |
-  Asks whether a sparse infinite set of naturals must have its sumset, counted
-  up to N, at least three times as large as the set, up to o(1), along a
-  sequence of N.
+  Asks whether every infinite set $A$ of naturals with
+  $|A\cap\{1,\ldots,N\}|=o(N)$ satisfies
+  $\limsup_{N\to\infty}|(A+A)\cap\{1,\ldots,N\}|/|A\cap\{1,\ldots,N\}|\ge 3$.
 tags:
 - Additive combinatorics
 status: solved
@@ -28,13 +28,13 @@ $$
 \limsup_{N\to \infty}\frac{\lvert (A+A)\cap \{1,\ldots,N\}\rvert}{\lvert A\cap \{1,\ldots,N\}\rvert}\geq 3?
 $$
 
-**Status.** Proved, the site's label: the answer is yes, by the theorem of
-Freĭman's 1973 monograph [Fr73], recorded on
-[[problems/additive_combinatorics/E0245/claims/1973_01_01_freiman|its claim page]]
+**Status.** Proved, the site's label. The answer is yes, by the theorem of
+Freĭman's 1973 monograph [Fr73]. It is recorded on
+[[problems/additive_combinatorics/E0245/claims/1973_01_01_freiman|its claim page]],
 with the site's acceptance as its only evidence. The label carries no Lean
-qualification; a Lean development in Boris Alexeev's `lean-proofs` repository
-that declares itself a formalization of Freĭman's solution is linked from the
-claim page and has not been built or audited by this corpus.
+qualification. The claim page links a Lean development in Boris Alexeev's
+`lean-proofs` repository that declares itself a formalization of Freĭman's
+solution. This corpus has not built or audited it.
 
 **Source.** [erdosproblems.com/245](https://www.erdosproblems.com/245), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #245,

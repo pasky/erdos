@@ -3,8 +3,9 @@ name: problems/additive_bases/E0349/claims/2026_06_10_cepadugato
 title: Lean proofs of the elementary regions of the catalog statement
 desc: |
   Lean proofs in a fork of formal-conjectures, contributed under the account
-  cepadugato in June 2026, that no pair with base above 2 or at most 1 is
-  complete and that positive integer pairs are complete only for (1, 2).
+  cepadugato in June 2026, show that no pair with base above $2$ or at most $1$
+  is complete. They also show that among positive integer pairs only $(1,2)$ is
+  complete.
 authors: []
 status: claimed
 claim: proved

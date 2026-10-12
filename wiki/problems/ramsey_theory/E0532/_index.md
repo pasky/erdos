@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0532
 title: Problem 532
 desc: |
-  Asks whether every two-coloring of the natural numbers admits an infinite
-  set all of whose finite non-empty subset sums share one color; yes, by
-  Hindman's theorem, held in his 1974 paper and Baumgartner's 1974 note.
+  Asks whether every two-coloring of $\mathbb{N}$ has an infinite set whose
+  finite non-empty subset sums all have one color. The answer is yes, by
+  Hindman's theorem, proved in his 1974 paper and in Baumgartner's 1974 note.
 tags:
 - Number theory
 - Ramsey theory
@@ -52,32 +52,29 @@ sets $s$. With that reading the site's positive integers with two colors
 follow by assigning $0$ to either class, and no removal of $0$ from $X$ is
 needed (an observation made here).
 
-**Status.** The site labels the problem PROVED (LEAN) and its curator
-credits Hindman [Hi74] with the proof, for every finite number of colors.
-Hindman's theorem (J. Combin. Theory Ser. A 17 (1974), 1--11, refereed) answers the
-question for every finite coloring.
-Hindman's paper is in the publisher's open archive: its Theorem 3.1 (p. 9)
-is the statement for a finite partition of the positive integers, and its
-proof (Lemmas 2.2--2.12, pp. 2--9, and a compactness argument on p. 9) was
-read for structure only. The second refereed proof is Baumgartner's note
-[Ba74] (J. Combin. Theory Ser. A 17 (1974), 384--386), whose Theorem 1
-(p. 384) is the statement for $k$ cells of the nonnegative integers and
-whose Theorem 2, the finite-unions form, is proved in two pages; the
-theorem statements were checked here and the proof was read for structure
-only. The site's "(LEAN)" suffix is a catalog label: the theorem
-is in Mathlib (`Hindman.FS_partition_regular`,
-`Hindman.exists_FS_of_finite_cover`) and an external Lean file derives the
-site's statement from it; both are cited at pinned commits from their
-text, nothing was built and no local kernel credit is claimed
-(Formalization below). Label, sources and field agree. The claim pages
-[[problems/ramsey_theory/E0532/claims/1974_07_01_hindman|Hindman 1974]]
-and
+**Status.** The site labels the problem PROVED (LEAN), and its curator credits
+Hindman [Hi74] with the proof for every finite number of colors. Hindman's
+theorem (J. Combin. Theory Ser. A 17 (1974), 1--11, refereed) answers the
+question for every finite coloring. The paper is in the publisher's open
+archive. Its Theorem 3.1 (p. 9) is the statement for a finite partition of the
+positive integers. Its proof (Lemmas 2.2--2.12, pp. 2--9, and a compactness
+argument on p. 9) was read for structure only. The second refereed proof is
+Baumgartner's note [Ba74] (J. Combin. Theory Ser. A 17 (1974), 384--386). Its
+Theorem 1 (p. 384) is the statement for $k$ cells of the nonnegative integers,
+and its Theorem 2, the finite-unions form, is proved in two pages. The theorem
+statements were checked here, and the proof was read for structure only. The
+site's "(LEAN)" suffix is a catalog label. The theorem is in Mathlib
+(`Hindman.FS_partition_regular`, `Hindman.exists_FS_of_finite_cover`), and an
+external Lean file derives the site's statement from it. Both are cited from
+their text at pinned commits. Nothing was built, and no local kernel credit is
+claimed (Formalization below). Label, sources and field agree. The claim pages
+[[problems/ramsey_theory/E0532/claims/1974_07_01_hindman|Hindman 1974]] and
 [[problems/ramsey_theory/E0532/claims/1974_11_01_baumgartner|Baumgartner 1974]]
-(both accepted on their refereed publications, Hindman's also on the site's
-credit; the Mathlib proof and the external Lean derivation of the site's
-statement are formalization links on Hindman's page, not built here)
-record the results, their postings and their acceptance evidence,
-and the frontmatter standing derives from them.
+record the results, their postings and their acceptance evidence, and the
+frontmatter standing derives from them. Both are accepted on their refereed
+publications, and Hindman's is also accepted on the site's credit. The Mathlib
+proof and the external Lean derivation of the site's statement are formalization
+links on Hindman's page, not built here.
 
 **Source.** [erdosproblems.com/532](https://www.erdosproblems.com/532),
 accessed 2026-09-18: the problem page (labeled

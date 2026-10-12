@@ -3,8 +3,8 @@ name: problems/extremal_graph_theory/E1021/claims/2018_07_13_conlon_lee
 title: Conlon and Lee's exponent gap for one-subdivided cliques
 desc: |
   Theorem 5.1 of Conlon and Lee (Int. Math. Res. Not. IMRN 2021) bounds the
-  extremal number of the one-subdivision of K_k by C_k n^{3/2 - 6^{-k}} for
-  every k at least three, answering Problem 1021 with c_k = 6^{-k}.
+  extremal number of the one-subdivision of $K_k$ by $C_kn^{3/2-6^{-k}}$ for
+  every $k\ge3$. This answers Problem 1021 with $c_k=6^{-k}$.
 authors:
 - David Conlon
 - Joonkyung Lee
@@ -62,23 +62,27 @@ $k\to\infty$ is forced.
 **Depends on.** Nothing in this wiki; the identification $G_k=H_k$ is
 written on the problem page and carries no independent review.
 
-**Acceptance.** Refereed publication in International Mathematics Research
-Notices, cited with its venue above, the `refereed` evidence. The
-`reviewed` evidence is the documented acceptance of the site's curator,
-Thomas Bloom, who took no part in the paper: the site's label is PROVED and
-its commentary credits the proof to [CoLe21] with the value $c_k=6^{-k}$;
-the forum comment of 13 September 2025 pointing to the restatement of the
-theorem in Conlon, Janzer and Lee's later paper (arXiv:1903.10631, its
-Theorem 1.3) is marked by the site as addressed, and
-the curator's comment of 21 January 2026 explains that both resolving
-papers appeared on arXiv in 2018, this one a few months before Janzer's.
-The proof-claim tab is empty, and the community database records the
-problem proved. This page's date is the arXiv v1 posting, 13 July 2018
-(arXiv record, 2026-10-07). Read depth: pp. 1--2, 9 and 14 of the
-manuscript are the basis for the definitions, the statement and the final
-assembly of the proof; the dependent-random-choice argument of Section 5 and
-its lemmas are not reconstructed, the journal typesetting is not compared
-with the manuscript, and nothing is independently reviewed by this
-project. Janzer's sharper exponent has its
-own claim page,
+**Acceptance.** The `refereed` evidence is the publication in International
+Mathematics Research Notices, cited with its venue above.
+
+The `reviewed` evidence is the documented acceptance of the site's curator,
+Thomas Bloom, who took no part in the paper. The site's label is PROVED, and its
+commentary credits the proof to [CoLe21] with the value $c_k=6^{-k}$. A forum
+comment of 13 September 2025 pointed to the restatement of the theorem in
+Conlon, Janzer and Lee's later paper (arXiv:1903.10631, its Theorem 1.3), and
+the site marks that comment as addressed. The curator's comment of 21 January
+2026 explains that both resolving papers appeared on arXiv in 2018, this one a
+few months before Janzer's. The proof-claim tab is empty, and the community
+database records the problem proved.
+
+This page's date is the arXiv v1 posting, 13 July 2018 (arXiv record,
+2026-10-07).
+
+Read depth: pp. 1--2, 9 and 14 of the manuscript are the basis for the
+definitions, the statement and the final assembly of the proof. The
+dependent-random-choice argument of Section 5 and its lemmas are not
+reconstructed. The journal typesetting is not compared with the manuscript.
+Nothing is independently reviewed by this project.
+
+Janzer's sharper exponent has its own claim page,
 [[problems/extremal_graph_theory/E1021/claims/2018_09_03_janzer|Janzer]].

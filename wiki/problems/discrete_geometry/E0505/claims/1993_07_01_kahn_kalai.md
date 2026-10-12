@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0505/claims/1993_07_01_kahn_kalai
 title: Kahn and Kalai's disproof of Borsuk's conjecture
 desc: |
-  Kahn and Kalai answer the question no: finite sets built from equal cuts of
-  a complete graph need at least (1.2)^sqrt(n) parts for large n, and exact
-  counts give failures at n = 1325 and every n > 2014.
+  Kahn and Kalai answer the question no. Finite sets built from equal cuts of a
+  complete graph need at least $(1.2)^{\sqrt n}$ parts for large $n$, and exact
+  counts give failures at $n=1325$ and every $n>2014$.
 authors:
 - Jeff Kahn
 - Gil Kalai
@@ -52,14 +52,14 @@ and the finite-dimension remark at
 [[../library/discrete_geometry/kahn_kalai_1993_borsuk_counterexample/remark_1|Remark 1]]
 of the source card.
 
-**Acceptance.** The result is refereed: it appeared in the Bulletin of the
-American Mathematical Society. The site's curator, Thomas Bloom, marks the
-problem disproved and credits Kahn and Kalai for the disproof, with
-Brouwer and Jenrich for the smallest dimension the site records (problem page
-last edited 30 December 2025). The corpus's own rewritten
-chain for Theorem 1 passed an independent review at its stated scope,
-retained on the source card; that record is local proof coverage and is not
-counted as acceptance evidence here.
+**Acceptance.** The result is refereed, since it appeared in the Bulletin of the
+American Mathematical Society. Thomas Bloom, the site's curator, marks the
+problem disproved. He credits Kahn and Kalai for the disproof, and Brouwer and
+Jenrich for the smallest dimension the site records (problem page last edited 30
+December 2025). The corpus's own rewritten chain for Theorem 1 passed an
+independent review at its stated scope, and that review is retained on the
+source card. The record is local proof coverage and is not counted as acceptance
+evidence here.
 
 **Formalization.** Boris Alexeev's GitHub repository `lean-proofs` holds, at
 the pinned commit linked above, a Lean 4 file whose header declares it a

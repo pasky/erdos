@@ -2,8 +2,8 @@
 name: problems/factorials_binomials/E0397
 title: Problem 397
 desc: |
-  Asks whether only finitely many equalities hold between two products of
-  central binomial coefficients taken over distinct indices.
+  Asks whether $\prod_i\binom{2m_i}{m_i}=\prod_j\binom{2n_j}{n_j}$ has only
+  finitely many solutions with the $m_i,n_j$ distinct.
 tags:
 - Number theory
 - Binomial coefficients
@@ -29,17 +29,17 @@ $$
 
 with the $m_i,n_j$ distinct?
 
-**Status.** DISPROVED (LEAN). The site labels the problem DISPROVED (LEAN)
-(page last edited 12 January 2026) and credits Neel Somani, working with
-ChatGPT, with an explicit infinite family of solutions, recorded on
-[[problems/factorials_binomials/E0397/claims/2026_01_11_somani|its claim page]];
-the Lean qualifier refers to an Aristotle-generated formalization of that
-family, which this corpus has not built. The preprint of Feng and coauthors
-(29 January 2026) reports the same family, found by their Gemini-based agent
-Aletheia in December 2025, as a pending claim on
+**Status.** DISPROVED (LEAN). The site labels the problem DISPROVED (LEAN) (page
+last edited 12 January 2026). The standing in the frontmatter derives from the
+claim pages. The site credits Neel Somani, working with ChatGPT, with an
+explicit infinite family of solutions, recorded on
+[[problems/factorials_binomials/E0397/claims/2026_01_11_somani|its claim page]].
+The Lean qualifier refers to an Aristotle-generated formalization of that
+family, which this corpus has not built. The preprint of Feng and coauthors (29
+January 2026) reports the same family, found by their Gemini-based agent
+Aletheia in December 2025. It is a pending claim on
 [[problems/factorials_binomials/E0397/claims/2026_01_29_feng|its own page]].
-There is no refereed write-up. The standing in the frontmatter derives from
-the claim pages.
+There is no refereed write-up.
 
 **Source.** [erdosproblems.com/397](https://www.erdosproblems.com/397), accessed
 2026-10-07. The site cites the problem from p. 77 of Erdős and

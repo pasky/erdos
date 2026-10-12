@@ -3,8 +3,8 @@ name: problems/integer_sequences/E0873/claims/1992_01_01_erdos_szemeredi
 title: Windows of three terms give exactly the exponent 1/3
 desc: |
   Erdős reports in 1992, without proof, that he and Szemerédi proved
-  F(A,X,3) < c X^{1/3} log X for every sequence and found a sequence meeting
-  this bound for infinitely many X.
+  $F(A,X,3)<cX^{1/3}\log X$ for every sequence $A$, and found a sequence meeting
+  this bound for infinitely many $X$.
 authors:
 - P. Erdős
 status: claimed

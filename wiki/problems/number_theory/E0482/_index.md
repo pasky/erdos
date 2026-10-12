@@ -2,9 +2,10 @@
 name: problems/number_theory/E0482
 title: Problem 482
 desc: |
-  Asks for analogs, for root m and other algebraic numbers, of the Graham-Pollak
-  recurrence whose differences a_{2n+1} - 2a_{2n-1} are the binary digits of root
-  two; solved by Stoll's families for every positive real and every base.
+  Asks for analogs, for $\sqrt{m}$ and other algebraic numbers, of the
+  Graham–Pollak recurrence $a_{n+1}=\lfloor\sqrt{2}(a_n+1/2)\rfloor$, whose
+  differences $a_{2n+1}-2a_{2n-1}$ are the binary digits of $\sqrt{2}$; solved
+  by Stoll's families for every positive real and every base.
 tags:
 - Number theory
 status: solved
@@ -53,23 +54,24 @@ unconventional problem" and closes "It seems clear that there must
 be similar results for $\sqrt m$ and other algebraic numbers but we have no
 idea what they are."
 
-**Status.** SOLVED, the site's label (page last edited 28 September 2025), which
-marks a resolution other than a proof or disproof and attaches here to a
+**Status.** SOLVED, the site's label (page last edited 28 September 2025). The
+label marks a resolution other than a proof or disproof. Here it attaches to a
 constructive answer, the accepted claim page
-[[problems/number_theory/E0482/claims/2005_05_24_stoll|Stoll 2005]]: Stoll's two
-refereed papers give, for every positive real $w$ (so for every $\sqrt m$ and
-every positive algebraic number) and for every integer base $g\ge2$, infinitely
+[[problems/number_theory/E0482/claims/2005_05_24_stoll|Stoll 2005]]. For every
+positive real $w$ (so for every $\sqrt m$ and every positive algebraic number)
+and for every integer base $g\ge2$, Stoll's two refereed papers give infinitely
 many floor recurrences of the Graham--Pollak shape whose differences
 $u_{2n+1}-gu_{2n-1}$ are the base-$g$ digits of $w$ (J. Integer Seq. 8 (2005),
-Theorems 1.2 and 1.3; Acta Arith. 125 (2006), Theorems 3.1, 3.3 and 3.4), and
-identify what the original recurrence computes for every integer starting value
-(Corollary 3.5 of 2006). They construct families and do not classify every
-recurrence with the digit property, which the request never asked for; the
+Theorems 1.2 and 1.3; Acta Arith. 125 (2006), Theorems 3.1, 3.3 and 3.4). They
+also identify what the original recurrence computes for every integer starting
+value (Corollary 3.5 of 2006). They construct families and do not classify every
+recurrence with the digit property, which the request never asked for. The
 site's own qualification is recorded below. The claim is accepted on the
-refereed papers and the curator's credit, and its value is `answered` because
-the first paragraph is a theorem and the second is a request with no truth
-value, neither false nor degenerate, so neither a proof nor a disproof is the
-outcome; the label attaches to an open-ended request, the shape of Problem 296.
+refereed papers and the curator's credit. Its value is `answered` because the
+first paragraph is a theorem and the second is a request with no truth value.
+The request is neither false nor degenerate, so neither a proof nor a disproof
+is the outcome. The label attaches to an open-ended request, the shape of
+Problem 296.
 
 **Source.** [erdosproblems.com/482](https://www.erdosproblems.com/482),
 accessed 2026-09-18: the problem page (SOLVED, with

@@ -2,8 +2,9 @@
 name: problems/integer_sequences/E0235
 title: Problem 235
 desc: |
-  Asks whether the distribution of normalized gaps between integers coprime to
-  the product of the first k primes tends to a continuous limiting function.
+  Asks whether the distribution of normalized gaps between the integers coprime
+  to the product of the first $k$ primes tends to a continuous limiting
+  function.
 tags:
 - Number theory
 status: solved
@@ -30,17 +31,17 @@ $$
 
 exists and is a continuous function of $c$.
 
-**Status.** Proved. Hooley's Theorem 1 ([Ho65], refereed) shows that, as
-$n/\phi(n)\to\infty$, the proportion of gaps below $cn/\phi(n)$ between the
-integers prime to $n$ tends to $1-e^{-c}$, uniformly for $c$ in any fixed
-range bounded away from $0$ and $\infty$; the problem's limit, which counts
-gaps up to $cN_k/\phi(N_k)$, follows for every $c>0$ and is $0$ at $c=0$, so
-it is the continuous function $1-e^{-c}$; the site records the problem as
-solved by Hooley, and the
-[[problems/integer_sequences/E0235/claims/1963_12_05_hooley|claim page]]
-carries the acceptance, together with a 2026 Lean formalization of Hooley's
-theorem in a public repository, registered by no outside record and neither
-built nor audited here.
+**Status.** Proved. Hooley's Theorem 1 ([Ho65], refereed) concerns the gaps
+between the integers prime to $n$. It shows that, as $n/\phi(n)\to\infty$, the
+proportion of these gaps below $cn/\phi(n)$ tends to $1-e^{-c}$, uniformly for
+$c$ in any fixed range bounded away from $0$ and $\infty$. The problem's limit
+counts gaps up to $cN_k/\phi(N_k)$. It follows for every $c>0$ and is $0$ at
+$c=0$, so it is the continuous function $1-e^{-c}$. The site records the problem
+as solved by Hooley. The
+[[problems/integer_sequences/E0235/claims/1963_12_05_hooley|claim page]] carries
+the acceptance. It also carries a 2026 Lean formalization of Hooley's theorem in
+a public repository. No outside record registers that formalization, and it has
+been neither built nor audited here.
 
 **Source.** [erdosproblems.com/235](https://www.erdosproblems.com/235), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #235,

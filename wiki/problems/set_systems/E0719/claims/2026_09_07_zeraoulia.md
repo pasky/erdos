@@ -3,8 +3,9 @@ name: problems/set_systems/E0719/claims/2026_09_07_zeraoulia
 title: Zeraoulia's claimed verification of the r = 3 case through nine vertices
 desc: |
   Rafik Zeraoulia's September 2026 preprint states that the Erdős–Sauer
-  decomposition bound holds for every 3-uniform hypergraph on at most nine
-  vertices and gives local packing lemmas; AI-assisted, not refereed, unreviewed.
+  decomposition bound holds for every $3$-uniform hypergraph on at most nine
+  vertices, and gives local packing lemmas. It is AI-assisted, not refereed and
+  unreviewed.
 authors:
 - Rafik Zeraoulia
 status: claimed
@@ -68,6 +69,6 @@ problem's discussion thread had reported an exhaustive check of the
 inequality for all $3$-graphs on $6$ vertices, with
 $\mathrm{ex}_3(6;K_4^3)=14$; a thread comment has no page of its own.
 
-**Acceptance.** None: the preprint is not refereed, no outside reviewer has
-endorsed it, the entry has no comments, and the site labels the problem
-OPEN. This account follows the Zenodo abstract and the forum entry.
+**Acceptance.** None. The preprint is not refereed, and no outside reviewer has
+endorsed it. The entry has no comments, and the site labels the problem OPEN.
+This account follows the Zenodo abstract and the forum entry.

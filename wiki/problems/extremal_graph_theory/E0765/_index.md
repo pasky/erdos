@@ -2,8 +2,8 @@
 name: problems/extremal_graph_theory/E0765
 title: Problem 765
 desc: |
-  Asks for an asymptotic formula for the largest number of edges of a graph on
-  n vertices containing no cycle of length four.
+  Asks for an asymptotic formula for $\mathrm{ex}(n;C_4)$, the largest number of
+  edges in a graph on $n$ vertices with no $C_4$.
 tags:
 - Graph theory
 - Turán numbers
@@ -23,15 +23,14 @@ updated: 2026-10-08T14:17:37Z
 
 **Statement.** Give an asymptotic formula for $\mathrm{ex}(n;C_4)$.
 
-**Status.** The site labels the problem SOLVED (LEAN). The asymptotic
-formula is the 1966 theorem of Erdős, Rényi and Sós, recorded on the claim
-page
-[[problems/extremal_graph_theory/E0765/claims/1966_01_01_erdos_renyi_sos|Erdős, Rényi and Sós]],
-proved independently the same year by Brown, recorded on the claim page
-[[problems/extremal_graph_theory/E0765/claims/1966_08_01_brown|Brown]];
-the frontmatter standing is derived from these two accepted claims, and the
-label's Lean marker refers to the outside formalization of the asymptotic,
-linked on both claim pages, which this corpus has neither built nor audited.
+**Status.** The site labels the problem SOLVED (LEAN). The asymptotic formula is
+the 1966 theorem of Erdős, Rényi and Sós, recorded on the claim page
+[[problems/extremal_graph_theory/E0765/claims/1966_01_01_erdos_renyi_sos|Erdős, Rényi and Sós]].
+Brown's independent proof of the same year is recorded on the claim page
+[[problems/extremal_graph_theory/E0765/claims/1966_08_01_brown|Brown]]. The
+frontmatter standing is derived from these two accepted claims. The label's Lean
+marker refers to the outside formalization of the asymptotic, linked on both
+claim pages, which this corpus has neither built nor audited.
 
 **Source.** [erdosproblems.com/765](https://www.erdosproblems.com/765), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #765,

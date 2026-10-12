@@ -3,8 +3,8 @@ name: problems/graph_coloring/E0108/claims/2026_09_30_nguyen_walczak
 title: Expository disproof with 3-colorable four-cycle-free subgraphs
 desc: |
   Nguyen and Walczak's expository note of September 2026 explains the
-  Kohlmeyer–Kruer construction and sharpens its bound from 6 to 3, refuting
-  the question for every r at least 5 and k at least 4; not refereed.
+  Kohlmeyer–Kruer construction and sharpens its bound from $6$ to $3$, refuting
+  the question for every $r\ge5$ and $k\ge4$. The note has not been refereed.
 authors:
 - Tung Nguyen
 - Bartosz Walczak
@@ -67,5 +67,5 @@ ChatGPT-6 Astra; the construction is Kohlmeyer and Kruer's.
 
 **Acceptance.** None: the note is not refereed and carries no outside review,
 and the site labels the problem OPEN. It reached the erdosproblems.com forum on
-2 October 2026 as a comment, linking it as an exposition, under the curator's
-posting of the Conjectures.io claim.
+2 October 2026 as a comment under the curator's posting of the Conjectures.io
+claim. The comment links the note as an exposition.

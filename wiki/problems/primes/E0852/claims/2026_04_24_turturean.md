@@ -2,9 +2,9 @@
 name: problems/primes/E0852/claims/2026_04_24_turturean
 title: Turturean's four-prime rectangle count for the cube-root lower bound
 desc: |
-  David Turturean's Overleaf write-up of 24 April 2026, made with a scaffold
-  on ChatGPT-5.5-Pro, derives h(x) >> (log x)^{1/3} from a four-prime
-  rectangle count and sketches a conditional bound of order log x; claimed.
+  David Turturean's Overleaf write-up of 24 April 2026, made with a scaffold on
+  ChatGPT-5.5-Pro, claims to derive $h(x)\gg(\log x)^{1/3}$ from a four-prime
+  rectangle count. It also sketches a conditional bound of order $\log x$.
 authors:
 - David Turturean
 status: claimed

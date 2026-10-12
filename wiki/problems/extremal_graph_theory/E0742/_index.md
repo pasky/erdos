@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0742
 title: Problem 742
 desc: |
-  Asks whether a graph on n vertices of diameter two in which deleting any
-  edge raises the diameter has at most n squared over four edges; proved by
-  Füredi for all large n, with one unreviewed proof claim for every n.
+  Asks whether a graph on $n$ vertices with diameter $2$, in which deleting any
+  edge raises the diameter, has at most $n^2/4$ edges. Füredi proved this for
+  all large $n$, and one unreviewed proof claim covers every $n$.
 tags:
 - Graph theory
 status: claimed
@@ -38,36 +38,38 @@ it is the only extremal graph, which the site's wording does not ask. The
 statement is for every $n$. The label DECIDABLE is the site's; the site's
 page defines it as a problem settled apart from a finite check.
 
-**Status.** DECIDABLE is the site's label; it describes the shape of what
-remains and is not a theorem. The standing in the frontmatter is derived from
-the claim pages: Füredi's large-$n$ theorem is the accepted partial claim
-[[problems/extremal_graph_theory/E0742/claims/1988_03_01_furedi|Füredi 1988/1992]]
-(the reduction to a finite check), and the proof claim for all $n$ on the site's
-proof-claim tab is the pending full claim
+**Status.** DECIDABLE is the site's label. It describes the shape of what
+remains and is not a theorem. The frontmatter standing is derived from the claim
+pages. Füredi's large-$n$ theorem is the accepted partial claim
+[[problems/extremal_graph_theory/E0742/claims/1988_03_01_furedi|Füredi 1988/1992]],
+which gives the reduction to a finite check. The proof claim for all $n$ on the
+site's proof-claim tab is the pending full claim
 [[problems/extremal_graph_theory/E0742/claims/2026_08_05_jstar|jstar 2026]],
-unreviewed. The derived standing, claimed and proved, departs from the label
-because that full claim is pending; the label matches Füredi's accepted
-reduction alone. Proved for all sufficiently large $n$: Füredi's
+unreviewed and recorded below. The derived standing, claimed and proved, departs
+from the label because that full claim is pending. The label matches Füredi's
+accepted reduction alone.
+
+The statement is proved for all sufficiently large $n$. Füredi's
 [[../library/extremal_graph_theory/furedi_1992_maximum_number_edges_minimal_graph_diameter/theorem_1_2|Theorem 1.2]]
 [Fu92] (J. Graph Theory 16 (1992), 81--98, refereed; locators from the 1988
 preprint) states that Conjecture 1.1, the bound with its equality clause, is
-true for $n>n_0$, where "The value of $n_0$ is explicitly computable, but the
-proof given here yields a vastly huge number (a tower of 2's of height
-about 1000)". The finite remainder $n\le n_0$ has no stated extent; its checked
+true for $n>n_0$. The paper adds: "The value of $n_0$ is explicitly computable,
+but the proof given here yields a vastly huge number (a tower of 2's of height
+about 1000)". The finite remainder $n\le n_0$ has no stated extent. Its checked
 part is Fan's verification for $n\le24$ and $n=26$, the accepted partial claim
-[[problems/extremal_graph_theory/E0742/claims/1987_12_01_fan|Fan 1987]], Fan's
+[[problems/extremal_graph_theory/E0742/claims/1987_12_01_fan|Fan 1987]]. This is
+Fan's
 [[../library/extremal_graph_theory/fan_1987_diameter_2_critical_graphs/theorem|Theorem]]
-(ii) with its Remark [Fa87] (Discrete Math. 67 (1987), refereed), which proves
-the inequality and not the equality clause for those $n$, as Füredi attests it;
-and for every $n$ Füredi's paper proves $|E(G)|\le(1+o(1))n^2/4$, its
+(ii) with its Remark [Fa87] (Discrete Math. 67 (1987), refereed). As Füredi
+attests it, it proves the inequality and not the equality clause for those $n$.
+For every $n$, Füredi's paper proves $|E(G)|\le(1+o(1))n^2/4$, its
 [[../library/extremal_graph_theory/furedi_1992_maximum_number_edges_minimal_graph_diameter/corollary_3_6|Corollary 3.6]].
-The site's proof-claim tab carries one full proof claim for all $n$, unreviewed,
-recorded on its claim page and below; the site's label is unchanged and no
-accepted proof for all $n$ was found in the search whose scope the Current
-assessment records.
-Whether the label should stand for a statement proved for all $n>n_0$ with $n_0$
-astronomically large and unchecked for finitely many $n$ is a question of the
-catalog's labeling that this page records and does not decide.
+
+The site's label is unchanged, and no accepted proof for all $n$ was found in
+the search whose scope the Current assessment records. Whether the label should
+stand for a statement proved for all $n>n_0$, with $n_0$ astronomically large
+and unchecked for finitely many $n$, is a question of the catalog's labeling
+that this page records and does not decide.
 
 **Source.** [erdosproblems.com/742](https://www.erdosproblems.com/742),
 accessed 2026-09-19: the problem page (DECIDABLE, with the site's definition

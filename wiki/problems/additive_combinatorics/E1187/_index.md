@@ -2,8 +2,9 @@
 name: problems/additive_combinatorics/E1187
 title: Problem 1187
 desc: |
-  Asks whether every coloring of the integers with finitely many colors
-  contains k primes in arithmetic progression all of the same color.
+  Asks whether every finite coloring of the integers has, for each $k\ge3$, a
+  monochromatic $k$-term progression of primes, and a monochromatic $k$-term
+  progression whose common difference is prime.
 tags:
 - Number theory
 - Additive combinatorics
@@ -39,20 +40,21 @@ quantifier: whether, for $k\ge3$, every finite coloring of the integers has
 a monochromatic $k$-term progression whose common difference is a prime. Read
 as asking about some coloring, it would be trivially yes (one color).
 
-**Status.** Claimed. The site labels the problem SOLVED, but the derived
-standing is claimed: the first question's yes is an accepted claim, while the
-second question's no rests only on the site's own modulo-4 argument and
-Kitamura's unbuilt Lean proof of it for the natural numbers, both pending claim
-pages, since the argument has no publication and the curator who labels the
-problem wrote it. The label is the site's (SOLVED, page last edited 8 April
-2026, as of 2026-10-07). The two questions have different answers: the first is
-yes for every $k\ge3$ by the Green–Tao theorem [GrTa08], since some color class
-of a finite coloring has positive relative upper density in the primes and so
-contains $k$-term progressions; the second is no, by giving each integer the
-color of its residue class modulo $4$, under which two integers of one color
-differ by a multiple of $4$, or with two colors by putting the residues $0,1$ in
-one class and $2,3$ in the other, which has no monochromatic $3$-term
-progression with prime difference.
+**Status.** Claimed. The site labels the problem SOLVED (page last edited 8
+April 2026, as of 2026-10-07), but the derived standing is claimed. The first
+question's yes is an accepted claim. The second question's no rests only on the
+site's own modulo-4 argument and on Kitamura's unbuilt Lean proof of it for the
+natural numbers, both pending claim pages. They are pending because the argument
+has no publication and the curator who labels the problem wrote it.
+
+The two questions have different answers. The first is yes for every $k\ge3$ by
+the Green–Tao theorem [GrTa08]. Some color class of a finite coloring has
+positive relative upper density in the primes, and so contains $k$-term
+progressions. The second is no. Give each integer the color of its residue class
+modulo $4$. Then two integers of one color differ by a multiple of $4$.
+Alternatively, with two colors, put the residues $0,1$ in one class and $2,3$ in
+the other. This coloring has no monochromatic $3$-term progression with prime
+difference.
 
 **Source.** [erdosproblems.com/1187](https://www.erdosproblems.com/1187)
 with its discussion thread (as of 2026-10-07: page last edited 8 April 2026;

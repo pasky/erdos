@@ -2,8 +2,8 @@
 name: problems/discrete_geometry/E0353
 title: Problem 353
 desc: |
-  Asks whether a planar measurable set of infinite measure must contain the
-  vertices of an isosceles trapezoid of area one, or of other prescribed
+  Asks whether a measurable set of infinite measure in the plane must contain
+  the vertices of an isosceles trapezoid of area $1$, or of other prescribed
   shapes.
 tags:
 - Geometry
@@ -32,19 +32,19 @@ measure. Must $A$ contain the vertices of an isosceles trapezoid of area $1$?
 What about an isosceles triangle, or a right-angled triangle, or a cyclic
 quadrilateral, or a convex polygon with congruent sides?
 
-**Status.** PROVED (LEAN): the site labels the problem proved with a Lean
-qualification, crediting Koizumi with the trapezoid question and the two
+**Status.** PROVED (LEAN). The site labels the problem proved with a Lean
+qualification. It credits Koizumi with the trapezoid question and the two
 triangle variants, recorded on the
-[[problems/discrete_geometry/E0353/claims/2025_01_03_koizumi|Koizumi claim page]];
-the cyclic quadrilateral (yes) and the polygon with congruent sides (no) are on
+[[problems/discrete_geometry/E0353/claims/2025_01_03_koizumi|Koizumi claim page]].
+The cyclic quadrilateral (yes) and the polygon with congruent sides (no) are on
 the
 [[problems/discrete_geometry/E0353/claims/2024_12_16_kovac_predojevic|Kovač–Predojević claim page]].
-The statement asks five questions, listed as the problem's parts; four are
-answered yes and the convex polygon with congruent sides no. Because the parts
-differ in polarity, the standing derived from the two partial claims records an
-answer rather than the proof the label names. The Lean proof the label refers to
-is a third-party development, linked from both pages and under Formalization,
-which this corpus has not built.
+The statement asks five questions, listed as the problem's parts. Four are
+answered yes, and the one on the convex polygon with congruent sides is answered
+no. Because the parts differ in polarity, the standing derived from the two
+partial claims records an answer rather than the proof the label names. The Lean
+proof the label refers to is a third-party development, linked from both pages
+and under Formalization. This corpus has not built it.
 
 **Source.** [erdosproblems.com/353](https://www.erdosproblems.com/353), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #353,

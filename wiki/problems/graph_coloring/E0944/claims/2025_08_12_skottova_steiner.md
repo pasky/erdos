@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0944/claims/2025_08_12_skottova_steiner
 title: Skottova and Steiner's answer for every k at least 5
 desc: |
-  Skottova and Steiner's 2025 preprint proves f_k(n) = Omega(n^(1/3)) for
-  every fixed k at least 5, so suitable graphs exist for all k at least 5 and
-  all r; no journal version, unreviewed.
+  Skottova and Steiner's 2025 preprint proves $f_k(n)=\Omega(n^{1/3})$ for every
+  fixed $k\ge5$, so suitable graphs exist for all $k\ge5$ and all $r$. The
+  preprint has no journal version and is unreviewed.
 authors:
 - Ema Skottova
 - Raphael Steiner

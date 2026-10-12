@@ -2,9 +2,9 @@
 name: problems/divisors/E0893/claims/2025_06_05_kovac_luca_conditional
 title: "Kovač and Luca: divergence of the doubling ratios under either of two conjectures"
 desc: |
-  Kovač and Luca prove that f(2n)/f(n) tends to infinity if either of their two
-  conjectures holds, one on highly composite Mersenne indices and one on prime
-  factors of cyclotomic values at 2; both are unproven.
+  Kovač and Luca prove that $f(2n)/f(n)\to\infty$ if either of their two
+  conjectures holds. Both are unproven: one is on highly composite Mersenne
+  indices and the other on prime factors of cyclotomic values at $2$.
 authors:
 - Vjekoslav Kovač
 - Florian Luca
@@ -46,6 +46,6 @@ page settles no standing.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** As on
-[[problems/divisors/E0893/claims/2025_06_05_kovac_luca|the unconditional page]]:
-refereed, Experimental Mathematics; the site labels the problem OPEN, so its
-commentary is not acceptance.
+[[problems/divisors/E0893/claims/2025_06_05_kovac_luca|the unconditional page]],
+the evidence is refereed: Experimental Mathematics. The site labels the problem
+OPEN, so its commentary is not acceptance.

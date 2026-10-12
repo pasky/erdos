@@ -2,9 +2,10 @@
 name: problems/covering_systems/E0007/claims/2019_01_31_balister_bollobas_morris_sahasrabudhe_tiba
 title: The square-free case has no odd covering
 desc: |
-  Theorem 1.1 of the Algebra & Number Theory paper (2021): every finite
-  covering system with distinct square-free moduli greater than one has an even
-  modulus, settling the odd square-free question; accepted on the refereed paper.
+  Theorem 1.1 of Balister, Bollobás, Morris, Sahasrabudhe and Tiba (Algebra &
+  Number Theory 2021) shows that every finite covering system with distinct
+  square-free moduli greater than one has an even modulus. This settles the odd
+  square-free question and is accepted on the refereed paper.
 authors:
 - Paul Balister
 - Béla Bollobás
@@ -58,11 +59,11 @@ stays open.
 
 **Depends on.** Nothing in this wiki; the theorem is the paper's own.
 
-**Acceptance.** Refereed: Algebra & Number Theory 15 (2021), no. 3,
-609--626, doi:10.2140/ant.2021.15.609, received 31 January 2019, accepted
-18 September 2020 and published 20 May 2021; the arXiv v1 of 2019-01-31
-names this page. Not reviewed: the site's commentary credits the result,
-but the site labels the problem VERIFIABLE, an open label, so the credit
-settles no part of the problem on the site's account. Not formalized: the
-library's exact certificate checks are author-recorded coverage by this
-project and award nothing here.
+**Acceptance.** Refereed: Algebra & Number Theory 15 (2021), no. 3, 609--626,
+doi:10.2140/ant.2021.15.609. The paper was received 31 January 2019, accepted 18
+September 2020 and published 20 May 2021. The arXiv v1 of 2019-01-31 names this
+page. Not reviewed: the site's commentary credits the result, but the site
+labels the problem VERIFIABLE, an open label. On the site's own account, the
+credit therefore settles no part of the problem. Not formalized: the library's
+exact certificate checks are author-recorded coverage by this project and award
+nothing here.

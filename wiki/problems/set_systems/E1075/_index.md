@@ -2,8 +2,10 @@
 name: problems/set_systems/E1075
 title: Problem 1075
 desc: |
-  Concerns a constant larger than r to the power minus r, for each r at least
-  three, in a property of r-uniform hypergraphs on many vertices.
+  Asks whether each $r\ge3$ has some $c_r>r^{-r}$ such that, for every
+  $\epsilon>0$ and large $n$, every $r$-uniform hypergraph on $n$ vertices with
+  at least $(1+\epsilon)(n/r)^r$ edges has subgraphs on $m\to\infty$ vertices
+  with at least $c_rm^r$ edges.
 tags:
 - Hypergraphs
 status: claimed
@@ -27,17 +29,16 @@ Any $r$-uniform hypergraph on $n$ vertices with at least $(1+\epsilon)(n/r)^r$
 many edges contains a subgraph on $m$ vertices with at least $c_rm^r$ edges,
 where $m=m(n)\to \infty$ as $n\to \infty$.
 
-**Status.** Open on the site (label OPEN; page last edited 5 October 2025). The
-site's commentary records Erdős's theorem [Er64f] that the statement holds with
-$c_r=r^{-r}$ for every hypergraph with at least $\epsilon n^r$ edges, so the
-question is whether the constant can be raised above $r^{-r}$ under the stronger
-density hypothesis. One full claim is pending:
-[[problems/set_systems/E1075/claims/2026_09_05_gu|Gu's disproof]] (5 September
-2026), explicit $5$-uniform hypergraphs meant to show that no $c_5>5^{-5}$
-works, lifted to every $r\ge5$; the forum entry described an earlier
-$16$-uniform version, whose Zenodo record was removed on 23 September 2026. It
-is not refereed and no outside reviewer has endorsed it, so the standing is
-claimed, not solved.
+**Status.** Open on the site (label OPEN; page last edited 5 October 2025). One
+full claim is pending: [[problems/set_systems/E1075/claims/2026_09_05_gu|Gu's
+disproof]] (5 September 2026). It gives explicit $5$-uniform hypergraphs meant
+to show that no $c_5>5^{-5}$ works, and lifts them to every $r\ge5$. The forum
+entry described an earlier $16$-uniform version, whose Zenodo record was removed
+on 23 September 2026. The claim is not refereed and no outside reviewer has
+endorsed it, so the standing is claimed, not solved. The site's commentary
+records Erdős's theorem [Er64f] that the statement holds with $c_r=r^{-r}$ for
+every hypergraph with at least $\epsilon n^r$ edges. So the question is whether
+the constant can be raised above $r^{-r}$ under the stronger density hypothesis.
 
 **Source.** [erdosproblems.com/1075](https://www.erdosproblems.com/1075),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1075,

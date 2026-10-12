@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0585
 title: Problem 585
 desc: |
-  Asks for the most edges a graph on n vertices can have without two
-  edge-disjoint cycles on exactly the same vertex set; known to lie between
-  n log log n and n times a power of log n.
+  Asks for the maximum number of edges in a graph on $n$ vertices with no two
+  edge-disjoint cycles on the same vertex set. The maximum is known to be
+  $\Omega(n\log\log n)$ and $O(n(\log n)^t)$ for some constant $t$.
 tags:
 - Graph theory
 - Cycles
@@ -43,19 +43,19 @@ treats the stronger question of $k$ pairwise edge-disjoint cycles on one
 vertex set for every fixed $k\ge2$; the problem is the case $k=2$.
 
 **Status.** Open. The maximum is known only up to a polylogarithmic factor.
-Lower bound: the Pyber--Rödl--Szemerédi graphs with $\Omega(n\log\log n)$
-edges and no $k$-regular subgraph for any $k\ge3$ have no two edge-disjoint
-cycles on the same vertex set (Theorem 1 of the 1995 paper, printed p. 42,
-whose concluding remarks on p. 53 place this problem's class under it;
-recorded below). Upper bound:
+Lower bound: the Pyber--Rödl--Szemerédi graphs, with $\Omega(n\log\log n)$ edges
+and no $k$-regular subgraph for any $k\ge3$, have no two edge-disjoint cycles on
+the same vertex set. These graphs come from Theorem 1 of the 1995 paper, printed
+p. 42, whose concluding remarks on p. 53 place this problem's class under it
+(recorded below). Upper bound:
 [[../library/extremal_graph_theory/chakraborti_2024_edge_disjoint_cycles_same_vertex_set/theorem_2|Theorem 2 of Chakraborti, Janzer, Methuku and Montgomery]]
-(Adv. Math. 469 (2025), refereed; cited from the arXiv v1): for some
-absolute $t$ and every $k\ge2$ there is $c(k)$ such that $c(k)\,n(\log n)^t$
-edges force $k$ pairwise edge-disjoint cycles with the same vertex set, so
-the maximum is $O(n(\log n)^t)$; the exponent $t$ is not made explicit. The
-authors ask whether their bound improves to $O_k(n\log\log n)$. No exact
-value, asymptotic formula or matching pair of bounds was found in the search
-whose scope the Current assessment records. This is a bounded negative
+(Adv. Math. 469 (2025), refereed; cited from the arXiv v1) gives an absolute $t$
+with the following property. For every $k\ge2$ there is $c(k)$ such that
+$c(k)\,n(\log n)^t$ edges force $k$ pairwise edge-disjoint cycles with the same
+vertex set. So the maximum is $O(n(\log n)^t)$. The exponent $t$ is not made
+explicit. The authors ask whether their bound improves to $O_k(n\log\log n)$.
+The search whose scope the Current assessment records found no exact value,
+asymptotic formula or matching pair of bounds. This is a bounded negative
 finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/585](https://www.erdosproblems.com/585),

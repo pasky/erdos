@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E1110/claims/2026_08_24_ding_li_liu_zhang
 title: Positive lower density of representable integers for (5,2)
 desc: |
-  Ding, Li, Liu and Zhang claim that for the pair 5 and 2 the integers that
-  are sums of numbers 2^a 5^b with no summand dividing another have positive
-  lower density, by an injection from a class of admissible words.
+  Ding, Li, Liu and Zhang claim that for the pair $(5,2)$ the integers that are
+  sums of numbers $2^a5^b$, no summand dividing another, have positive lower
+  density. The proof uses an injection from a class of admissible words.
 authors:
 - Yuchen Ding
 - Huixi Li

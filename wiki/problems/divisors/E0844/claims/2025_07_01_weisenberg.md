@@ -3,8 +3,9 @@ name: problems/divisors/E0844/claims/2025_07_01_weisenberg
 title: Weisenberg's reduction to Chvátal's theorem
 desc: |
   Desmond Weisenberg shows that a maximal set contains every non-squarefree
-  number and that Chvátal's 1974 theorem makes the even squarefree numbers
-  the largest pairwise non-coprime set of squarefree numbers, answering yes.
+  number. He then uses Chvátal's 1974 theorem to show that the even squarefree
+  numbers are the largest pairwise non-coprime set of squarefree numbers, which
+  answers the question yes.
 authors:
 - Desmond Weisenberg
 status: accepted
@@ -55,12 +56,11 @@ reduction in its Subsection 1.1, names Desmond Weisenberg, and cites the
 site's page as retrieved; that retrieval date names this
 page as the latest date by which the argument was public.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, marks Problem
-844 proved and presents Weisenberg's argument as the proof, with
+**Acceptance.** Reviewed: the site's curator, Thomas Bloom, marks Problem 844
+proved and presents Weisenberg's argument as the proof, with
 [[problems/divisors/E0844/claims/2025_07_02_alexeev_mixon_sawin|the independent proof of Alexeev, Mixon and Sawin]]
-as the alternative. Chvátal's theorem is transcribed on its library card
-with its proof not checked; nothing here is independently reviewed by this
-corpus.
+as the alternative. Chvátal's theorem is transcribed on its library card, and
+its proof is not checked. Nothing here is independently reviewed by this corpus.
 
 **Formalization.** John Jennings posted on the site's thread on 26 April
 2026 a Lean 4 file authored as Jennings and Aristotle (Harmonic), which

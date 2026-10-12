@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0408/claims/1990_01_01_erdos_granville_pomerance_spiro
 title: Erdős, Granville, Pomerance and Spiro's normal order under a strong Elliott–Halberstam hypothesis
 desc: |
-  The 1990 paper proves that the number of totient iterations needed to reach
-  one has normal and average order alpha log n for some alpha > 0, provided a
-  strong form of the Elliott–Halberstam conjecture holds; it is unproven.
+  The 1990 paper of Erdős, Granville, Pomerance and Spiro proves that the number
+  of totient iterations needed to reach $1$ has normal and average order
+  $\alpha\log n$ for some $\alpha>0$. The proof assumes a strong form of the
+  Elliott–Halberstam conjecture, which is unproven.
 authors:
 - Paul Erdős
 - Andrew Granville

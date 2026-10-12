@@ -2,9 +2,8 @@
 name: problems/ramsey_theory/E0812
 title: Problem 812
 desc: |
-  Asks whether consecutive diagonal Ramsey numbers grow by at least a
-  constant factor, and whether their difference is at least a constant times
-  n squared.
+  Asks whether consecutive diagonal Ramsey numbers satisfy $R(n+1)/R(n)\ge1+c$
+  for a constant $c>0$, and whether $R(n+1)-R(n)\gg n^2$.
 tags:
 - Graph theory
 - Ramsey theory
@@ -44,16 +43,14 @@ second; no converse implication is available. The site's source key is
 [Er91], a 1991 problem paper that is not held; the closest passages in other
 papers of Erdős are quoted below.
 
-**Status.** Open: the site labels the problem OPEN, and the only source
-results in hand are additive: the
-Corollary of Burr, Erdős, Faudree and Schelp specializes on the diagonal
-to $R(n+1)-R(n)\ge4n-4$ for $n\ge2$ (the site's commentary prints $4n-8$),
-and with the lower bound for $R(3,k)$ their Theorem 2 gives the two-step
-bound $R(n+2)-R(n)\gg n^2/\log n$. Nothing in hand bounds $R(n+1)/R(n)$
-away from $1$, proves $R(n+1)-R(n)\gg n^2$, or refutes either question,
-and no source doing so was found in the search whose
-scope the Current assessment records. This is a bounded negative finding,
-not a certificate of openness.
+**Status.** Open: the site labels the problem OPEN. The only source results in
+hand are additive. The Corollary of Burr, Erdős, Faudree and Schelp specializes
+on the diagonal to $R(n+1)-R(n)\ge4n-4$ for $n\ge2$ (the site's commentary
+prints $4n-8$). With the lower bound for $R(3,k)$, their Theorem 2 gives the
+two-step bound $R(n+2)-R(n)\gg n^2/\log n$. Nothing in hand bounds $R(n+1)/R(n)$
+away from $1$, proves $R(n+1)-R(n)\gg n^2$, or refutes either question. No
+source doing so was found in the search whose scope the Current assessment
+records. This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/812](https://www.erdosproblems.com/812),
 accessed 2026-09-18: the problem page (OPEN, marked

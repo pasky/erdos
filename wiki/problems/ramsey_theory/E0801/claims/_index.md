@@ -4,15 +4,16 @@ desc: The 1 claim page of Problem 801, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-07T07:13:08Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/ramsey_theory/E0801/claims
 
 [[problems/ramsey_theory/E0801/_index|..]]
 
-[[problems/ramsey_theory/E0801/claims/1996_10_01_alon|1996_10_01_alon]]: Alon's 1996 refereed theorem: a graph on n vertices with independence number
-below the floor of the square root of n has a set of that many vertices
-spanning an absolute constant times sqrt(n) log n edges; answers Problem 801.
+[[problems/ramsey_theory/E0801/claims/1996_10_01_alon|1996_10_01_alon]]: Alon's refereed 1996 theorem states that if a graph on $n$ vertices has
+independence number below $\lfloor\sqrt n\rfloor$, then some set of
+$\lfloor\sqrt n\rfloor$ vertices spans at least $c'\sqrt n\log n$ edges, for
+an absolute constant $c'>0$. This answers Problem 801.
 
 ***

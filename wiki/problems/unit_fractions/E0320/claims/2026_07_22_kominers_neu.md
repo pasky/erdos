@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0320/claims/2026_07_22_kominers_neu
 title: A full asymptotic for log S(N) with a phase term
 desc: |
-  Kominers and Neu's AI-assisted claim of an asymptotic formula for log S(N)
-  with a non-constant periodic phase factor and a second-order term, with a
-  Lean 4 development resting on isolated assumptions; not accepted.
+  Kominers and Neu's AI-assisted claim of an asymptotic formula for $\log S(N)$
+  with a non-constant periodic phase factor and a second-order term. It comes
+  with a Lean 4 development resting on isolated assumptions and is not accepted.
 authors:
 - Scott Duke Kominers
 - Joachim Neu

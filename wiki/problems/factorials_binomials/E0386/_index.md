@@ -2,8 +2,9 @@
 name: problems/factorials_binomials/E0386
 title: Problem 386
 desc: |
-  Asks whether a binomial coefficient, other than the trivial ones, can be a
-  product of consecutive primes infinitely often.
+  Asks whether $\binom{n}{k}$ with $2\le k\le n-2$ can be a product of
+  consecutive primes infinitely often, as $\binom{21}{2}=2\cdot3\cdot5\cdot7$
+  is.
 tags:
 - Number theory
 - Binomial coefficients
@@ -29,15 +30,16 @@ $$
 $$
 
 **Status.** Open. The site labels the problem OPEN and credits no solution. The
-standing derives from the claim pages: the two pending partial claims are
-[[problems/factorials_binomials/E0386/claims/2026_09_29_martins|Martins 2026]],
-a manuscript that bounds the primes and the block length of any sufficiently
-large solution, proves finiteness for each fixed $k$ and block length, and
-treats the case $k=2$ in detail, and
-[[problems/factorials_binomials/E0386/claims/2026_09_30_mysore|Mysore 2026]], a
-draft note showing that any further solution with $k=2$ is a product of at least
-$1924$ consecutive primes; neither decides whether solutions are infinite, so
-the problem is `open` with no settling or pending full claim.
+standing derives from the claim pages: the problem is `open`, with no settling
+or pending full claim. There are two pending partial claims.
+[[problems/factorials_binomials/E0386/claims/2026_09_29_martins|Martins 2026]]
+is a manuscript that bounds the primes and the block length of any sufficiently
+large solution. It proves finiteness for each fixed $k$ and block length, and
+treats the case $k=2$ in detail.
+[[problems/factorials_binomials/E0386/claims/2026_09_30_mysore|Mysore 2026]] is
+a draft note showing that any further solution with $k=2$ is a product of at
+least $1924$ consecutive primes. Neither decides whether there are infinitely
+many solutions.
 
 **Source.** [erdosproblems.com/386](https://www.erdosproblems.com/386), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #386,

@@ -2,9 +2,9 @@
 name: problems/irrationality/E0270/claims/2026_08_22_lambrinoudis
 title: Irrationality and transcendence for affine f
 desc: |
-  A manuscript of August 2026 by Costa Lambrinoudis, written with generative
-  AI, proves the sum irrational for f(n) = an + b with a >= 1 and 0 <= b <= a,
-  and claims transcendence, hence irrationality, for every b >= 1 - a.
+  Costa Lambrinoudis's manuscript of August 2026, written with generative AI,
+  proves the sum irrational for $f(n)=an+b$ with $a\ge1$ and $0\le b\le a$. It
+  claims transcendence, and hence irrationality, for every $b\ge1-a$.
 authors:
 - Costa Lambrinoudis
 status: claimed

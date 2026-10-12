@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E0904/claims/2004_10_08_bollobas_nikiforov
 title: Bollobás and Nikiforov's degree-sum clique for every n at least r
 desc: |
   Theorem 2 of Bollobás and Nikiforov (Electron. J. Combin. 2005) proves the
-  Bollobás–Erdős conjecture for n at least r, an r-clique of degree sum at
-  least 2rm/n; accepted on the refereed publication and the site's credit.
+  Bollobás–Erdős conjecture for $n\ge r$: there is an $r$-clique of degree sum
+  at least $2rm/n$. The claim is accepted on the refereed publication and the
+  site's credit.
 authors:
 - Béla Bollobás
 - Vladimir Nikiforov
@@ -73,16 +74,16 @@ that failure, about which the theorem says nothing.
 the common neighborhoods of the greedy clique and Cauchy's inequality) is
 self-contained.
 
-**Acceptance.** Refereed, open-access publication in the Electronic Journal of
-Combinatorics, the `refereed` evidence. The `reviewed` evidence is the site's
-documented acceptance: its curator, Thomas Bloom, credits the full conjecture
-to this paper in the commentary and labels the problem proved, and the
-community database agrees; the formal-conjectures statement for the problem,
+**Acceptance.** The `refereed` evidence is the paper's refereed, open-access
+publication in the Electronic Journal of Combinatorics. The `reviewed` evidence
+is the site's documented acceptance. Its curator, Thomas Bloom, credits the full
+conjecture to this paper in the commentary and labels the problem proved, and
+the community database agrees. The formal-conjectures statement for the problem,
 tagged solved, encodes the same $n\ge r$ range. Proof coverage: the statements
-of Theorems 1, 2 and 3 and Corollary 1 are checked; the proof of Theorem 2
-(pp. 6--7) is followed, not checked step by step. The authors' acknowledgment
-thanks a reader for pointing out a fallacy in an earlier version of the proof
-of Theorem 2; the arXiv version carries the corrected proof.
+of Theorems 1, 2 and 3 and Corollary 1 are checked. The proof of Theorem 2 (pp.
+6--7) is followed but not checked step by step. In their acknowledgment, the
+authors thank a reader for pointing out a fallacy in an earlier version of the
+proof of Theorem 2. The arXiv version carries the corrected proof.
 
 **Formalization.** A Lean 4 proof of the theorem, declared a formalization of
 this paper, was announced on the site's thread on 18 April 2026 by Parcly

@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0545
 title: Problem 545
 desc: |
-  Asks whether, for all large m, the graph with m edges that is as complete as
-  possible has the largest Ramsey number among graphs with m edges and no
-  isolated vertices; open, while the site's wording, for every m, fails at two
+  Asks whether, for all large $m$, the graph with $m$ edges that is as complete
+  as possible has the largest Ramsey number among graphs with $m$ edges and no
+  isolated vertices; open. The site's wording, for every $m$, fails at two
   edges.
 tags:
 - Graph theory
@@ -103,15 +103,15 @@ case $t=0$: Erdős and Graham (1975, p. 526, for $k$ colors) and Burr and Erdős
 among graphs with $\binom n2$ edges; the general $t$ comes from Chung's problem
 collection, as the thread records.
 
-**Status.** OPEN, the site's label (page last edited 2 December 2025), which
-describes the corrected Statement: the site's commentary records that the
-displayed statement fails for small $m$ and keeps the label, and the
-formal-conjectures statement takes all sufficiently large $m$. Its one claim
-page, the account LouisD's small-$m$ counterexamples, is rejected because it
-answers the site's wording, not the corrected Statement, so the frontmatter
-standing, which judges the corrected Statement, is open with no claim. No proof,
-disproof or proof claim for the corrected Statement, for any $t$, was found in
-the search whose scope the Current assessment records; Sudakov (2011, p. 2)
+**Status.** OPEN, the site's label (page last edited 2 December 2025). The label
+describes the corrected Statement. The site's commentary records that the
+displayed statement fails for small $m$, and the site keeps the label. The
+formal-conjectures statement takes all sufficiently large $m$. The one claim
+page, for the account LouisD's small-$m$ counterexamples, is rejected because it
+answers the site's wording, not the corrected Statement. So the frontmatter
+standing, which judges the corrected Statement, is open with no claim. The
+search whose scope the Current assessment records found no proof, disproof or
+proof claim for the corrected Statement, for any $t$. Sudakov (2011, p. 2)
 reports "no progress" on the case $t=0$ as of 2010. This is a bounded negative
 finding, not a certificate of openness.
 

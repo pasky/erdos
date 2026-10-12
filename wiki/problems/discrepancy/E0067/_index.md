@@ -2,9 +2,9 @@
 name: problems/discrepancy/E0067
 title: Problem 67
 desc: |
-  Asks whether every function on the naturals taking values plus and minus one
-  has unbounded discrepancy: for every bound, some step and length give a
-  partial sum along the multiples of the step that exceeds it.
+  Asks whether every $f:\mathbb{N}\to\{-1,+1\}$ has unbounded discrepancy, that
+  is, whether for every $C>0$ some $d,m\geq 1$ give
+  $\lvert\sum_{1\leq k\leq m}f(kd)\rvert>C$.
 tags:
 - Discrepancy
 status: solved
@@ -28,8 +28,8 @@ $$
 \left\lvert \sum_{1\leq k\leq m}f(kd)\right\rvert > C?
 $$
 
-**Status.** Proved: Tao's 2015 theorem, refereed in Discrete Analysis in
-2016, answers yes; see
+**Status.** Proved. Tao's 2015 theorem, refereed in Discrete Analysis in 2016,
+answers yes. See
 [[problems/discrepancy/E0067/claims/2015_09_17_tao|the claim page]].
 
 **Source.** [erdosproblems.com/67](https://www.erdosproblems.com/67), accessed

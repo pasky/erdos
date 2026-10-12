@@ -3,8 +3,9 @@ name: problems/set_theory/E1176/claims/2003_01_01_hajnal_komjath
 title: Hajnal and Komjáth's consistency of the simultaneous coloring property, as credited
 desc: |
   The site credits Hajnal and Komjáth (Combinatorica, 2003) with the consistency
-  that every aleph_1-chromatic graph has an edge coloring with aleph_1 colors in
-  which every countable vertex partition has a class with edges of all colors.
+  of the statement that every $\aleph_1$-chromatic graph has an edge coloring
+  with $\aleph_1$ colors in which every countable vertex partition has a class
+  with edges of all colors.
 authors:
 - András Hajnal
 - Péter Komjáth
@@ -76,11 +77,11 @@ can be split into $\lambda$ classes so that every partition of the vertices into
 fewer than $\kappa$ classes has a class containing an edge of every edge class.
 
 **Acceptance.** Refereed: a journal paper in Combinatorica. Reviewed: the
-curator of erdosproblems.com, T. F. Bloom, labels the problem NOT DISPROVABLE
+curator of erdosproblems.com, T. F. Bloom, labels the problem NOT DISPROVABLE,
 and the page's remark credits Hajnal and Komjáth with the consistency (problem
-page last edited 24 January 2026); a thread comment of 18 March 2026 asked for
+page last edited 24 January 2026). A thread comment of 18 March 2026 asked for
 the label. The formal-conjectures statement file `erdos_1176` carries the same
-remark and the category research open; it is a statement, not a formalization of
+remark and the category research open. It is a statement, not a formalization of
 the result.
 
 **Depends on.** No other wiki page; the claim rests on the paper above.

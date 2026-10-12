@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0320/claims/2026_07_15_young_zhu_luo
 title: The order of magnitude of log S(N)
 desc: |
-  Young, Zhu and Luo's AI-assisted proof that log S(N) has the order of
-  N / log N times the product of the iterated logarithms from the third to
-  the last one exceeding 1, matching the refereed lower bound; site-accepted.
+  Young, Zhu and Luo's AI-assisted proof that $\log S(N)$ has the order of
+  $\frac{N}{\log N}\prod_{j=3}^{k}\log_jN$, with $\log_kN$ the last iterated
+  logarithm exceeding $1$, matching the refereed lower bound. The site accepts
+  it.
 authors:
 - Keheng Zhu
 - Yanping Luo
@@ -114,16 +115,17 @@ estimate remain cited inputs. The file contains no theorem about the order of
 $\log S(N)$ and has not been built by this corpus, so it is a link on the
 claimants' page and no `formalized` evidence.
 
-**Acceptance.** The site's curator, Thomas Bloom, marked the claim on the tab
-as accepted by the site as correct, marked the problem resolved on 16 July
-2026 with a thread comment saying that the order of magnitude of $\log S(N)$
-is now known and that finer questions such as an asymptotic remain open, and
-wrote the exposition of 1 September 2026 on the problem page. The curator is
-independent of the claimants, and that acceptance is the `reviewed` evidence.
-No refereed publication and no independent review of the claim were found on
-2026-09-18. Among the eight comments under the claim (2026-10-07), the
-curator's comment of 16 July 2026 says that the proof is correct and sketches
-the argument. A later full claim on the same problem,
+**Acceptance.** The site's curator, Thomas Bloom, marked the claim on the tab as
+accepted by the site as correct. On 16 July 2026 the curator marked the problem
+resolved, with a thread comment saying that the order of magnitude of
+$\log S(N)$ is now known and that finer questions such as an asymptotic remain
+open. The curator also wrote the exposition of 1 September 2026 on the problem
+page. The curator is independent of the claimants, and that acceptance is the
+`reviewed` evidence. No refereed publication and no independent review of the
+claim were found on 2026-09-18. There were eight comments under the claim on
+2026-10-07. Among them, the curator's comment of 16 July 2026 says that the
+proof is correct and sketches the argument. A later full claim on the same
+problem,
 [[problems/unit_fractions/E0320/claims/2026_07_22_kominers_neu|Kominers and Neu's asymptotic]],
-asserts a stronger statement and reports that its authors have not verified
-this one.
+asserts a stronger statement. It reports that its authors have not verified this
+one.

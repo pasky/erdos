@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0896
 title: Problem 896
 desc: |
-  Estimates, for subsets A and B of {1,...,N}, the largest possible number of
-  integers with exactly one representation ab with a in A and b in B; the
-  order of magnitude is N^2/((log N)^delta (log log N)^(3/2)).
+  Asks for an estimate of the largest number of integers $m$ with exactly one
+  representation $m=ab$, $a\in A$, $b\in B$, over $A,B\subseteq\{1,\ldots,N\}$;
+  the order of magnitude is $N^2/((\log N)^{\delta}(\log\log N)^{3/2})$.
 tags:
 - Number theory
 status: solved
@@ -36,19 +36,19 @@ The upper bound is immediate from Ford's theorem on the number of distinct
 entries of the $N\times N$ multiplication table [Fo08]
 ([[problems/integer_sequences/E0896/claims/2004_01_18_ford|claim page]],
 partial). The lower bound is the result of a manuscript of 26 April 2026
-credited to GPT-5.5 Pro prompted by Chojecki, which builds $A$ from multiples
-$pr$ of randomly chosen large prime labels $p$ and $B$ from the integers up to
-$N$ divisible by no chosen label, so that uniqueness within a label reduces to
-Ford's integers with exactly one divisor in a short interval; the site's
-curator, Thomas Bloom, accepted it on 2 May 2026
-([[problems/integer_sequences/E0896/claims/2026_04_26_chojecki|claim page]]).
-An earlier thread post of 23 November 2025 (van Doorn) first observed the
-upper bound from Ford's theorem and gave the weaker lower bound
-$(1+o(1))N^2/\log N$ from Szemerédi's construction; the site's commentary
-credited it until its edit of 2 May 2026. It is a thread post, not a dated
-manuscript, so it has no claim page; its upper bound is Ford's theorem, paged
-above. No leading constant is known or asked. The site's commentary was last
-edited on 2 May 2026.
+credited to GPT-5.5 Pro prompted by Chojecki. It builds $A$ from multiples $pr$
+of randomly chosen large prime labels $p$, and $B$ from the integers up to $N$
+divisible by no chosen label. Uniqueness within a label then reduces to Ford's
+integers with exactly one divisor in a short interval. The site's curator,
+Thomas Bloom, accepted it on 2 May 2026
+([[problems/integer_sequences/E0896/claims/2026_04_26_chojecki|claim page]]). An
+earlier thread post of 23 November 2025 (van Doorn) first observed the upper
+bound from Ford's theorem. It gave the weaker lower bound $(1+o(1))N^2/\log N$
+from Szemerédi's construction. The site's commentary credited it until its edit
+of 2 May 2026. It is a thread post, not a dated manuscript, so it has no claim
+page. Its upper bound is Ford's theorem, whose claim page is given above. No
+leading constant is known or asked. The site's commentary was last edited on 2
+May 2026.
 
 **Source.** [erdosproblems.com/896](https://www.erdosproblems.com/896), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #896,

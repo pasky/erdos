@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 1169, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T07:33:50Z
-updated: 2026-10-07T19:24:40Z
+updated: 2026-10-11T22:24:14Z
 ---
 
 # problems/set_theory/E1169/claims
@@ -12,22 +12,25 @@ updated: 2026-10-07T19:24:40Z
 [[problems/set_theory/E1169/_index|..]]
 
 [[problems/set_theory/E1169/claims/1971_01_01_hajnal|1971_01_01_hajnal]]: Hajnal (Proc. Nat. Acad. Sci. U.S.A., 1971) proves under the continuum
-hypothesis that omega_1^2 does not arrow (omega_1^2, 3)^2, so the relation
-Problem 1169 asks about cannot be refuted in ZFC; its provability is open.
+hypothesis that $\omega_1^2\not\to(\omega_1^2,3)^2$, so ZFC cannot refute the
+relation Problem 1169 asks about. Whether ZFC proves it is open.
 
-[[problems/set_theory/E1169/claims/1975_12_01_baumgartner|1975_12_01_baumgartner]]: Baumgartner (Israel J. Math., 1975) proves that kappa^2 -> (kappa^2, 3)^2 for
-regular kappa implies the kappa-Souslin hypothesis, so a Suslin tree gives
-omega_1^2 -/-> (omega_1^2, 3)^2 and ZFC does not refute the relation.
+[[problems/set_theory/E1169/claims/1975_12_01_baumgartner|1975_12_01_baumgartner]]: Baumgartner (Israel J. Math., 1975) proves that $\kappa^2\to(\kappa^2,3)^2$
+for regular $\kappa$ implies the $\kappa$-Souslin hypothesis. So a Suslin tree
+gives $\omega_1^2\not\to(\omega_1^2,3)^2$, and ZFC does not refute the
+relation.
 
-[[problems/set_theory/E1169/claims/1987_03_01_takahashi|1987_03_01_takahashi]]: Takahashi (Period. Math. Hungar., 1987) derives omega_1 omega_1 -/->
-(omega_1 omega_1, 3)^2 from the stick principle, which CH implies, so ZFC
-does not refute the relation of Problem 1169.
+[[problems/set_theory/E1169/claims/1987_03_01_takahashi|1987_03_01_takahashi]]: Takahashi (Period. Math. Hungar., 1987) derives
+$\omega_1\cdot\omega_1\not\to(\omega_1\cdot\omega_1,3)^2$ from the stick
+principle, which CH implies. So ZFC does not refute the relation of
+Problem 1169.
 
-[[problems/set_theory/E1169/claims/1998_01_01_larson|1998_01_01_larson]]: Larson (Kluwer proceedings, 1998) derives omega_1^2 -/-> (omega_1^2, 3)^2
-from the dominating number being aleph_1; claimed, since the volume is not
-shown to be refereed.
+[[problems/set_theory/E1169/claims/1998_01_01_larson|1998_01_01_larson]]: Larson (Kluwer proceedings, 1998) derives $\omega_1^2\not\to(\omega_1^2,3)^2$
+from the hypothesis that the dominating number is $\aleph_1$. It is recorded
+as claimed, since the volume is not shown to be refereed.
 
-[[problems/set_theory/E1169/claims/2026_08_13_golshani|2026_08_13_golshani]]: An arXiv preprint (2026) gives a model of MA_{omega_1}(sigma-centered) with
-2^{aleph_0} = aleph_2 in which omega_1^2 -/-> (omega_1^2, 3)^2; claimed.
+[[problems/set_theory/E1169/claims/2026_08_13_golshani|2026_08_13_golshani]]: Golshani's arXiv preprint (2026) gives a model of
+$\mathrm{MA}_{\omega_1}(\sigma\text{-centered})$ with $2^{\aleph_0}=\aleph_2$
+in which $\omega_1^2\not\to(\omega_1^2,3)^2$. It is recorded as claimed.
 
 ***

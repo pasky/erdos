@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0811/claims/2023_03_26_clemen_wagner
 title: Clemen and Wagner exclude the four-vertex clique
 desc: |
-  Theorem 1.2 of Clemen and Wagner (Electron. J. Combin. 30 (2023)) gives
-  balanced six-colorings of K_{13^k} with no rainbow K_4, so K_4 is outside
-  the answer set; refereed.
+  Theorem 1.2 of Clemen and Wagner (Electron. J. Combin. 30 (2023), refereed)
+  gives balanced six-colorings of $K_{13^k}$ with no rainbow $K_4$, so $K_4$ is
+  outside the answer set.
 authors:
 - Felix Christian Clemen
 - Adam Zsolt Wagner

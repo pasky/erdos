@@ -2,8 +2,8 @@
 name: problems/additive_combinatorics/E0876
 title: Problem 876
 desc: |
-  Determines how small the gaps of an infinite sum-free set of naturals can
-  be, and whether the nth gap can stay below n.
+  Asks how small the gaps of an infinite sum-free set of naturals can be, and
+  whether the $n$th gap can stay below $n$.
 tags:
 - Additive combinatorics
 status: claimed
@@ -50,39 +50,41 @@ $\sum_{n\in A}1/n$ over all such sets, which the commentary raises from
 [Er75b] and [Er77c], is a related question outside the statement. The
 counting function is written $A(x)=|A\cap[1,x]|$.
 
-**Status.** The site's label is OPEN; the derived standing is claimed, through a
+**Status.** The site's label is OPEN. The derived standing is claimed, through a
 pending full claim on the site's proof-claims tab that would settle the gap
-questions if accepted. What the refereed sources give: a sum-free set has
-density zero, $\sum1/a_i<103$ and $\liminf A(x)x^{-(\sqrt5-1)/2}<\infty$, and
-some sum-free set has $A(x)>cx^{2/7}$ (Erdős 1962, Theorems I--III and the
-construction); a sum-free set has $A(n)\le403\sqrt{n\log n}$ for infinitely many
-$n$, and for every $\varepsilon>0$ some sum-free set has
-$A(n)\ge n^{1/2}(\log n)^{-1/2-\varepsilon}$ for all large $n$ (Łuczak and
-Schoen 2000); the reciprocal sum is below an absolute constant that the authors
-say "seems certain" to be below $10$ (Benkoski and Erdős 1974), below $100$ by
-Erdős's 1977 restatement, and below $4$ by Sullivan, who conjectured a maximum
-"only a little greater than $2$" (Erdős 1977, the site's figures; Sullivan's
-work is not held). None of these decides the gap questions: the site's
-near-linear gap statement $a_{n+1}-a_n<n^{1+o(1)}$ (Graham, as reported by Erdős
-1998) and the $a_n\sim n^{3+o(1)}$ construction (Deshouillers, Erdős and Melfi
-1999) rest on papers not held and are reported from the site. Two claims on the
-site's proof-claims tab, neither adopted by the site, bear on the gap questions
-and have claim pages:
+questions if accepted.
+
+The refereed sources give the following. Erdős (1962, Theorems I--III and the
+construction) shows that a sum-free set has density zero, $\sum1/a_i<103$ and
+$\liminf A(x)x^{-(\sqrt5-1)/2}<\infty$, and that some sum-free set has
+$A(x)>cx^{2/7}$. Łuczak and Schoen (2000) show that a sum-free set has
+$A(n)\le403\sqrt{n\log n}$ for infinitely many $n$, and that for every
+$\varepsilon>0$ some sum-free set has
+$A(n)\ge n^{1/2}(\log n)^{-1/2-\varepsilon}$ for all large $n$. The reciprocal
+sum is below an absolute constant that the authors say "seems certain" to be
+below $10$ (Benkoski and Erdős 1974). It is below $100$ by Erdős's 1977
+restatement, and below $4$ by Sullivan, who conjectured a maximum "only a little
+greater than $2$" (Erdős 1977, the site's figures; Sullivan's work is not held).
+None of these decides the gap questions. The site's near-linear gap statement
+$a_{n+1}-a_n<n^{1+o(1)}$ (Graham, as reported by Erdős 1998) and the
+$a_n\sim n^{3+o(1)}$ construction (Deshouillers, Erdős and Melfi 1999) rest on
+papers not held and are reported from the site.
+
+Two claims on the site's proof-claims tab bear on the gap questions and have
+claim pages. The site has adopted neither.
 [[problems/additive_combinatorics/E0876/claims/2026_07_18_price|Price's partial
-claim]] of 18 July 2026, credited to GPT 5.6 Sol Pro, that every sum-free
+claim]] of 18 July 2026, credited to GPT 5.6 Sol Pro, states that every sum-free
 sequence has $\limsup(a_{n+1}-a_n)/n=\infty$, a negative answer to the second
-question; and
+question.
 [[problems/additive_combinatorics/E0876/claims/2026_09_22_korsky|Korsky's full
-claim]] of 22 September 2026, credited to GPT Astra, with two theorems: for a
-nondecreasing slowly varying $F\ge1$, a sum-free sequence with gaps of the order
-$nF(n)$ exists if and only if the integral $\int^\infty dx/(xF(x))$ is finite
-(its claim page states how that reading of the summary's $\Omega(nF(n))$ is
-reached); and the smallest $c$ for which a sum-free sequence can have gaps
-$O(n^c)$ and infinitely many bounded gaps is $(1+\sqrt{13})/2$. Both are
-unreviewed; the pending full claim makes the derived standing claimed, while the
-site's label stays OPEN. Neither touches the reciprocal-sum question. The
-refereed sources alone give a bounded negative finding, not a certificate of
-openness.
+claim]] of 22 September 2026, credited to GPT Astra, has two theorems. First,
+for a nondecreasing slowly varying $F\ge1$, a sum-free sequence with gaps of the
+order $nF(n)$ exists if and only if the integral $\int^\infty dx/(xF(x))$ is
+finite. Its claim page states how that reading of the summary's $\Omega(nF(n))$
+is reached. Second, the smallest $c$ for which a sum-free sequence can have gaps
+$O(n^c)$ and infinitely many bounded gaps is $(1+\sqrt{13})/2$. Both claims are
+unreviewed. Neither touches the reciprocal-sum question. The refereed sources
+alone give a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/876](https://www.erdosproblems.com/876),
 accessed 2026-09-18: the problem page (OPEN, with

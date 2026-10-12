@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0785/claims/2026_08_05_van_doorn_liu_tang
 title: Van Doorn, Liu and Tang claim Chen's 3/2 threshold with a ChatGPT proof
 desc: |
-  A proof claim of 2026-08-05 that infinite additive complements with
-  limsup A(x)B(x)/x < 3/2 have A(x)B(x) - x tending to infinity, Chen's
-  conjecture; note by GPT-5.6 Sol, Lean by Aristotle, no review recorded.
+  A proof claim of 2026-08-05 by van Doorn, Liu and Tang asserts Chen's
+  conjecture that infinite additive complements with $\limsup A(x)B(x)/x<3/2$
+  have $A(x)B(x)-x\to\infty$. The note is by GPT-5.6 Sol and the Lean proof by
+  Aristotle, and no review is recorded.
 authors:
 - Wouter van Doorn
 - Boning Liu

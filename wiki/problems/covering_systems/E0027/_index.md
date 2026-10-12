@@ -2,8 +2,9 @@
 name: problems/covering_systems/E0027
 title: Problem 27
 desc: |
-  Asks whether one constant C lets every tolerance and every N admit an almost
-  covering system with distinct moduli all between N and C times N.
+  Asks whether there is a constant $C>1$ such that for every $\epsilon>0$ and
+  $N\ge1$ some $\epsilon$-almost covering system has distinct moduli all in
+  $[N,CN]$.
 tags:
 - Number theory
 - Covering systems
@@ -43,12 +44,12 @@ form is what [FFKPY07] prove (their Theorem B, with any $d_C<1/C$
 admissible) and what Theorem 5.1 of [BBMST22] proves again with a threshold
 on $N$ independent of $C$; both claim pages record the uniform form.
 
-**Status.** Disproved, the site's label. The answer is no, by Filaseta,
-Ford, Konyagin, Pomerance and Yu (J. Amer. Math. Soc. 2007, refereed), whom
-the site credits; the acceptance evidence is on
+**Status.** Disproved, the site's label. The answer is no, by Filaseta, Ford,
+Konyagin, Pomerance and Yu (J. Amer. Math. Soc. 2007, refereed), whom the site
+credits. The acceptance evidence is on
 [[problems/covering_systems/E0027/claims/2005_07_18_filaseta_ford_konyagin_pomerance_yu|their claim page]].
-A second proof, Theorem 5.1 of Balister, Bollobás, Morris, Sahasrabudhe and
-Tiba (Invent. Math. 2022, refereed), has
+A second proof, Theorem 5.1 of Balister, Bollobás, Morris, Sahasrabudhe and Tiba
+(Invent. Math. 2022, refereed), has
 [[problems/covering_systems/E0027/claims/2018_11_08_balister_bollobas_morris_sahasrabudhe_tiba|its own claim page]].
 
 **Source.** [erdosproblems.com/27](https://www.erdosproblems.com/27), accessed

@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0261/claims/2020_08_04_tengely_ulas_zygadlo
 title: "Tengely, Ulas and Zygadło: every n up to 10000 has the property"
 desc: |
-  Tengely, Ulas and Zygadło verify that for every n at most ten thousand, n
-  over two to the n is a sum of at least two distinct terms k over two to the
-  k; refereed, it covers the second question up to ten thousand.
+  Tengely, Ulas and Zygadło verify that $n/2^n$ is a sum of at least two
+  distinct terms $k/2^k$ for every $n\le10^4$. The paper is refereed and covers
+  the second question up to $10^4$.
 authors:
 - Szabolcs Tengely
 - Maciej Ulas
@@ -63,10 +63,10 @@ settling it.
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper.
 
 **Acceptance.** Refereed: Journal of Number Theory 217 (2020), 445--459, DOI
-10.1016/j.jnt.2020.05.006, in the December 2020 issue (`refereed`); the
-arXiv preprint 2008.01501 was posted on 4 August 2020, which dates this
-page. The site's curator credits the verification in the problem's remarks,
-but the site labels the problem OPEN, so the remark is not acceptance of the
-problem and the page lists no `reviewed` evidence. The library holds no file
-of the paper; the results are recorded from its card, and the corpus
+10.1016/j.jnt.2020.05.006, in the December 2020 issue (`refereed`). The arXiv
+preprint 2008.01501 was posted on 4 August 2020, and this page is dated by that
+posting. The site's curator credits the verification in the problem's remarks.
+The site labels the problem OPEN, however, so the remark is not acceptance of
+the problem, and the page lists no `reviewed` evidence. The library holds no
+file of the paper. The results are recorded from its card, and the corpus
 records no check of the proofs or of the computation.

@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0800/claims/1997_06_01_li_rousseau_soltes
 title: Li, Rousseau and Šoltés improve the linear Ramsey constant to 6
 desc: |
-  Li, Rousseau and Šoltés's 1997 theorem that a graph on n vertices whose
-  vertices of degree at least three are independent has two-color Ramsey number
-  at most 6n, answering Problem 800 yes; refereed, read at abstract depth only.
+  In a refereed 1997 paper, Li, Rousseau and Šoltés prove that a graph on $n$
+  vertices whose vertices of degree at least three are independent has two-color
+  Ramsey number at most $6n$. This answers Problem 800 yes, and only the paper's
+  abstract has been read here.
 authors:
 - Yusheng Li
 - Cecil C. Rousseau
@@ -52,11 +53,11 @@ absolute constant.
 alone.
 
 **Acceptance.** Refereed: the paper appeared in Discrete Math. 170 (1997), no.
-1--3, 269--275 (Crossref record, issue dated June 1997,). The site labels the
-problem PROVED and its commentary credits Alon; it does not name this paper, and
-its discussion thread and proof-claim tab are empty, so the acceptance rests on
-the refereed publication alone; the proof is unread, and the abstract check is
-not acceptance evidence.
+1--3, 269--275 (Crossref record, issue dated June 1997). The site labels the
+problem PROVED, and its commentary credits Alon without naming this paper. The
+site's discussion thread and proof-claim tab are empty. So the acceptance rests
+on the refereed publication alone. The proof is unread, and the abstract check
+is not acceptance evidence.
 
 **Dating.** The page is dated by the issue month the journal record gives;
 the day in the page name is a placeholder, since no earlier posting is

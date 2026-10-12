@@ -2,8 +2,9 @@
 name: problems/number_theory/E0268
 title: Problem 268
 desc: |
-  Asks whether the triples of reciprocal sums over n, n plus one and n plus
-  two, taken over infinite sets with convergent reciprocal sum, contain an
+  Asks whether the points
+  $\bigl(\sum_{n\in A}1/n,\sum_{n\in A}1/(n+1),\sum_{n\in A}1/(n+2)\bigr)$, over
+  infinite $A\subseteq\mathbb{N}$ with $\sum_{n\in A}1/n<\infty$, contain an
   open set.
 tags:
 - Number theory
@@ -31,18 +32,18 @@ $$
 as $A\subseteq\mathbb{N}$ ranges over all infinite sets with $\sum_{n\in
 A}\frac{1}{n}<\infty$. Does $X$ contain an open set?
 
-**Status.** Proved. The site shows PROVED (LEAN); the parenthesis is a
-catalog label explained under Formalization. Kovač's Theorem 1
-(arXiv:2405.07681, May 2024; Amer. Math. Monthly 132 (2025), 895--911,
-refereed) proves that $X$ has nonempty interior, the question's affirmative
-answer, and is recorded as the accepted claim
-[[problems/number_theory/E0268/claims/2024_05_13_kovac|Kovač 2024]]; Kovač
-and Tao's Corollary 2.10 (arXiv:2406.17593v3, November 2024; Acta Math.
-Hungar. 175 (2025), 572--608, refereed), the same statement in every
-dimension, is recorded as a second accepted claim,
+**Status.** Proved. The site shows PROVED (LEAN). The parenthesis is a catalog
+label explained under Formalization. Kovač's Theorem 1 (arXiv:2405.07681, May
+2024; Amer. Math. Monthly 132 (2025), 895--911, refereed) proves that $X$ has
+nonempty interior, which is the question's affirmative answer. It is recorded as
+the accepted claim
+[[problems/number_theory/E0268/claims/2024_05_13_kovac|Kovač 2024]]. Kovač and
+Tao's Corollary 2.10 (arXiv:2406.17593v3, November 2024; Acta Math. Hungar. 175
+(2025), 572--608, refereed) is the same statement in every dimension. It is
+recorded as a second accepted claim,
 [[problems/number_theory/E0268/claims/2024_11_27_kovac_tao|Kovač and Tao 2024]].
-The two Lean developments that follow Kovač's proof are linked from his
-claim page and were not built here.
+The two Lean developments that follow Kovač's proof are linked from his claim
+page and were not built here.
 
 **Source.** [erdosproblems.com/268](https://www.erdosproblems.com/268),
 accessed 2026-09-04 (the problem page: PROVED (LEAN); last edited

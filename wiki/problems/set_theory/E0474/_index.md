@@ -2,7 +2,7 @@
 name: problems/set_theory/E0474
 title: Problem 474
 desc: |
-  Which set theoretic assumptions allow a three-coloring of the plane in
+  Asks under which set-theoretic assumptions the plane has a three-coloring in
   which every uncountable set contains a pair of points of each color.
 tags:
 - Set theory
@@ -32,19 +32,19 @@ $A\subseteq\mathbb{R}$ uncountable. This page reads the question that way:
 a $3$-coloring of the pairs of $\mathbb{R}$ such that every uncountable
 $A\subseteq\mathbb{R}$ contains a pair of each color.
 
-**Status.** Independent of ZFC, relative to the consistency of ZFC with an
-Erdős or measurable cardinal:
+**Status.** Independent of ZFC, relative to the consistency of ZFC with an Erdős
+or measurable cardinal. The site labels the problem NOT PROVABLE, based on
+Shelah's result. It credits the coloring under the continuum hypothesis to
+Erdős, but does not record that this classical result settles the other side, so
+this page departs from the site's label.
 [[problems/set_theory/E0474/claims/1965_03_01_erdos_hajnal_rado|Erdős, Hajnal and Rado 1965]]
-settles the not-disprovable side, since their coloring exists under the
-continuum hypothesis, which Gödel showed consistent with ZFC, and
+settles the not-disprovable side: their coloring exists under the continuum
+hypothesis, which Gödel showed consistent with ZFC.
 [[problems/set_theory/E0474/claims/1988_10_01_shelah|Shelah 1988]] settles the
-not-provable side. The site labels the problem NOT PROVABLE, on Shelah's result,
-and records as open whether the coloring can fail when $2^{\aleph_0}=\aleph_2$
-[Va99], a narrower question than the Statement. It credits the coloring under
-the continuum hypothesis to Erdős but does not record that this classical result
-settles the other side, so this page departs from the site's label. The pending
-claim [[problems/set_theory/E0474/claims/2026_01_06_shelah|Shelah 2026]] reads a
-2026 preprint as removing the large cardinal.
+not-provable side. The site also records as open whether the coloring can fail
+when $2^{\aleph_0}=\aleph_2$ [Va99], a narrower question than the Statement. The
+pending claim [[problems/set_theory/E0474/claims/2026_01_06_shelah|Shelah 2026]]
+reads a 2026 preprint as removing the large cardinal.
 
 **Source.** [erdosproblems.com/474](https://www.erdosproblems.com/474), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #474,

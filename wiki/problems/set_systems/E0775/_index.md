@@ -2,8 +2,8 @@
 name: problems/set_systems/E0775
 title: Problem 775
 desc: |
-  Asks whether a three-uniform hypergraph on n vertices can have at least n
-  minus O(1) different sizes of maximal complete subgraphs.
+  Asks whether a $3$-uniform hypergraph on $n$ vertices can have at least
+  $n-O(1)$ different sizes of maximal complete subgraphs.
 tags:
 - Graph theory
 - Hypergraphs

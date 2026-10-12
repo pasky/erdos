@@ -2,9 +2,9 @@
 name: problems/set_systems/E0701/claims/2018_09_05_eifler_gleixner_pulaj
 title: Chvátal's conjecture on ground sets of at most seven elements
 desc: |
-  Eifler, Gleixner and Pulaj (ACM Trans. Math. Softw. 2022) verify Chvátal's
-  conjecture for every downset on at most seven elements by exact integer
-  programming with checked certificates; refereed; partial.
+  Eifler, Gleixner and Pulaj (ACM Trans. Math. Softw. 2022, refereed) verify
+  Chvátal's conjecture for every downset on at most seven elements, a partial
+  result. They use exact integer programming with checked certificates.
 authors:
 - Leon Eifler
 - Ambros Gleixner
@@ -50,6 +50,6 @@ previous bound, five elements, is their Proposition 3.
 **Covers.** Families closed under taking subsets whose members lie in a ground
 set of at most seven elements.
 
-**Acceptance.** Refereed: ACM Trans. Math. Softw. 48 (2022), no. 2, 1--12.
-The site does not cite the paper; a comment of 15 May 2026 in the problem's
+**Acceptance.** Refereed: ACM Trans. Math. Softw. 48 (2022), no. 2, 1--12. The
+site does not cite the paper. A comment of 15 May 2026 in the problem's
 discussion thread reports it.

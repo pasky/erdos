@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0012/claims/2026_04_07_sothanaphan
 title: Sothanaphan's compact block construction for the first two questions
 desc: |
-  Sothanaphan's note, produced with GPT-5.4 Thinking, builds sets with property
-  P from narrow tagged blocks, answering the first question yes and the second
-  no by its own construction; posted in the thread, not refereed.
+  Sothanaphan's note, produced with GPT-5.4 Thinking and posted in the thread,
+  builds sets with property P from narrow tagged blocks. By its own construction
+  it answers the first question yes and the second no, and it is not refereed.
 authors:
 - Nat Sothanaphan
 status: claimed

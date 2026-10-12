@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0824
 title: Problem 824
 desc: |
-  Estimates the number of coprime pairs of integers below x that have the same
-  sum of divisors; a lower bound with exponent 13/8 is claimed in an
-  AI-assisted write-up of August 2026.
+  Asks whether the number $h(x)$ of coprime pairs $a<b<x$ with
+  $\sigma(a)=\sigma(b)$ satisfies $h(x)>x^{2-o(1)}$. An AI-assisted write-up of
+  August 2026 claims $h(x)>x^{\gamma}$ for every $\gamma<13/8$.
 tags:
 - Number theory
 status: open
@@ -29,18 +29,19 @@ Is it true that $h(x)>x^{2-o(1)}$?
 
 **Status.** Open. The site labels the problem OPEN (page last edited 28
 September 2025). Pollack and Pomerance [PoPo16] proved $h(x)>x^{1.4}$ for all
-large $x$, which gives $h(x)/x\to\infty$; Erdős [Er74b, p. 202] had sketched
-only $\limsup h(x)/x=\infty$, writing that the proof of $h(x)/x\to\infty$
-"can be produced with a little more trouble". A partial result is claimed
-on the site's
-[proof-claims tab](https://www.erdosproblems.com/forum/thread/824/proof-claims#proof-claim-232)
-(claim by Cam, using GPT 5.6 high, submitted 2026-08-28): the
+large $x$, which gives $h(x)/x\to\infty$. Erdős [Er74b, p. 202] had sketched
+only $\limsup h(x)/x=\infty$. He wrote that the proof of $h(x)/x\to\infty$ "can
+be produced with a little more trouble".
+
+A partial result is claimed on the site's [proof-claims
+tab](https://www.erdosproblems.com/forum/thread/824/proof-claims#proof-claim-232).
+The claim is by Cam, using GPT 5.6 high, and was submitted 2026-08-28. The
 [write-up](https://github.com/LeanMeanBean/Erdos-824/blob/fbf066d640a1/erdos_824_partial_proof_13_8.pdf)
-claims $h(x)>x^{\gamma}$ for every fixed $\gamma<13/8$ and all large $x$,
-with squarefree pairs, by the scheme of [PoPo16] with Pascadi's level $5/8$ of
-distribution for primes in place of Baker and Harman's count of smooth shifted
-primes. A bound below exponent $2$ settles no instance of the question, so the
-claim has no claim page; the proof-claims thread had no comments as of
+claims $h(x)>x^{\gamma}$ for every fixed $\gamma<13/8$ and all large $x$, with
+squarefree pairs. It follows the scheme of [PoPo16], with Pascadi's level $5/8$
+of distribution for primes in place of Baker and Harman's count of smooth
+shifted primes. A bound below exponent $2$ settles no instance of the question,
+so the claim has no claim page. The proof-claims thread had no comments as of
 2026-10-06.
 
 **Source.** [erdosproblems.com/824](https://www.erdosproblems.com/824), accessed

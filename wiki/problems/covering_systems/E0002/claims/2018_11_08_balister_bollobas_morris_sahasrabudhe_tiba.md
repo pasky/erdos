@@ -2,9 +2,10 @@
 name: problems/covering_systems/E0002/claims/2018_11_08_balister_bollobas_morris_sahasrabudhe_tiba
 title: The Balister–Bollobás–Morris–Sahasrabudhe–Tiba bound of 616000
 desc: |
-  Theorem 8.1 of the Inventiones paper (2022) shows that distinct moduli all
-  at least 616000 cannot cover the integers, a second proof that the minimum
-  modulus is bounded; accepted on the refereed paper and the site's credit.
+  Theorem 8.1 of Balister, Bollobás, Morris, Sahasrabudhe and Tiba (Inventiones
+  2022) shows that distinct moduli all at least 616000 cannot cover the
+  integers. This second proof that the minimum modulus is bounded is accepted on
+  the refereed paper and the site's credit.
 authors:
 - Paul Balister
 - Béla Bollobás
@@ -62,25 +63,28 @@ relative to an explicit Dusart prime bound; the
 whose earlier bound of $10^{16}$ is on
 [[problems/covering_systems/E0002/claims/2013_07_02_hough|Hough's claim page]].
 
-**Acceptance.** Refereed: Inventiones mathematicae 228 (2022), no. 1,
-377--414, doi:10.1007/s00222-021-01087-5, published online 2021-11-16; the
-arXiv v1 of 2018-11-08 names this page. Reviewed: the site's curator,
-Thomas Bloom, credits the alternative proof and the improved bound $616000$
-to [BBMST22] on the problem page (last edited 5 April 2026), and the community
-database records the problem disproved. The library's replay of the
-numerical certificate is author-recorded coverage by this project and
-awards nothing here. Not listed as formalized: the catalog's statement file
-(google-deepmind/formal-conjectures, `ErdosProblems/2.lean`) carries a
-`sorry` body, and the development behind the site's Lean label is the file
+**Acceptance.** Refereed: Inventiones mathematicae 228 (2022), no. 1, 377--414,
+doi:10.1007/s00222-021-01087-5, published online 2021-11-16. The arXiv v1 of
+2018-11-08 names this page.
+
+Reviewed: the site's curator, Thomas Bloom, credits the alternative proof and
+the improved bound $616000$ to [BBMST22] on the problem page (last edited 5
+April 2026). The community database records the problem disproved. The library's
+replay of the numerical certificate is author-recorded coverage by this project
+and awards nothing here.
+
+Not listed as formalized: the catalog's statement file
+(google-deepmind/formal-conjectures, `ErdosProblems/2.lean`) carries a `sorry`
+body. The development behind the site's Lean label is the file
 `src/latest/ErdosProblems/Erdos2.lean` in Boris Alexeev's lean-proofs
-repository, pinned above at the commit of 2026-09-15, which declares itself
-a formalization of a solution to Problem 2 with Balister, Bollobás, Morris,
+repository, pinned above at the commit of 2026-09-15. The file declares itself a
+formalization of a solution to Problem 2. It names Balister, Bollobás, Morris,
 Sahasrabudhe and Tiba as informal authors and Codex and GPT-5.6 Sol as formal
-authors. It follows the distortion sieve with the bound $616000$ and proves
-`uniformMinimumBound`, `not_hasArbitrarilyLargeMinimum` and `erdos_2`,
-ending with `#print axioms erdos_2`; the file entered the repository on
-2026-08-17 and its record page on 2026-08-22. This corpus has not built or
-audited it, so the file gives no `formalized` evidence.
+authors. It follows the distortion sieve with the bound $616000$, proves
+`uniformMinimumBound`, `not_hasArbitrarilyLargeMinimum` and `erdos_2`, and ends
+with `#print axioms erdos_2`. The file entered the repository on 2026-08-17 and
+its record page on 2026-08-22. This corpus has not built or audited it, so the
+file gives no `formalized` evidence.
 
 **Not covered.** The largest attainable minimum modulus, which lies between
 Owens's construction with minimum modulus $42$ and the bound $615999$. The

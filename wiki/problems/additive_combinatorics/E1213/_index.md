@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E1213
 title: Problem 1213
 desc: |
-  Asks whether, for every starting value a and gap bound K, any long enough
-  integer sequence starting at a with gaps at most K has two intervals with
-  equal sums; yes by Hegyvári's 1986 Theorem 3, with an explicit bound.
+  Asks whether, for every starting value $a$ and gap bound $K$, any long enough
+  integer sequence starting at $a$ with gaps at most $K$ has two intervals with
+  equal sums. The answer is yes, by Hegyvári's 1986 Theorem 3, with an explicit
+  bound.
 tags:
 - Additive combinatorics
 status: solved
@@ -46,19 +47,19 @@ records the answer as yes with a bound of the shape $f(a,K)\ll ae^{O(K)}$. The
 site's only source key is [He86]; a separate thanks line follows the
 two-sentence commentary.
 
-**Status.** Proved, the site's label. The status-defining source is Hegyvári's
-paper *On consecutive sums in sequences* (Acta Math. Hungar. 48 (1986), no.
-1--2, 193--200, refereed), which the site credits with the affirmative answer
-and an explicit bound of the shape $f(a,K)\ll ae^{O(K)}$; the site adds that the
-author thinks the exponential dependence on $K$ can be improved. The claim is
-recorded on
+**Status.** Proved. This is the site's label. The status-defining source is
+Hegyvári's paper *On consecutive sums in sequences* (Acta Math. Hungar. 48
+(1986), no. 1--2, 193--200, refereed). The site credits it with the affirmative
+answer and an explicit bound of the shape $f(a,K)\ll ae^{O(K)}$. The site adds
+that the author thinks the exponential dependence on $K$ can be improved. The
+claim is recorded on
 [[problems/additive_combinatorics/E1213/claims/1986_03_01_hegyvari|its claim page]]
 and accepted on the refereed publication and the site's credit. Theorem 3 (p.
 197) of the paper states $f(a,K)<(a+K/2)e^{K+1}+Ke^{2K+2}$, where $f(a,K)$ is
 "the largest integer with the following property: There exists an increasing
 sequence $a=a_1<a_2<\ldots<a_s=f(a,K)$ such that $a_{i+1}-a_i\le K$,
 $i=1,2,\ldots,s-1$ and all $c$-sums are different". Two equal $c$-sums are two
-distinct intervals of equal sum, overlapping intervals included, so this is the
+distinct intervals of equal sum, overlapping intervals included. So this is the
 question's $f(a,K)$ with explicit constants.
 
 **Source.** [erdosproblems.com/1213](https://www.erdosproblems.com/1213),

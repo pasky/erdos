@@ -2,9 +2,10 @@
 name: problems/number_theory/E0482/claims/1991_06_01_rabinowitz_gilbert
 title: Rabinowitz and Gilbert's binary family for every positive real
 desc: |
-  Rabinowitz and Gilbert's recurrence of 1991: for every positive real w, a
-  Graham-Pollak floor recurrence with multipliers a and 2/a whose differences
-  u_{2n+1} - 2u_{2n-1} are the binary digits of w; refereed in Math. Mag.
+  Rabinowitz and Gilbert's 1991 paper gives, for every positive real $w$, a
+  Graham–Pollak floor recurrence with multipliers $a$ and $2/a$ whose
+  differences $u_{2n+1}-2u_{2n-1}$ are the binary digits of $w$. It was refereed
+  and published in Math. Mag.
 authors:
 - S. Rabinowitz
 - P. Gilbert
@@ -45,13 +46,12 @@ algebraic number, in one binary family. Stoll's theorems, on the
 beside this page, extend it to infinitely many families and to every base
 $g\ge2$; Case I of Stoll's Theorem 1.2 at $j=1$ is this family.
 
-**Acceptance.** Refereed: S. Rabinowitz and P. Gilbert, A nonlinear
-recurrence yielding binary digits, Math. Mag. 64 (1991), no. 3, 168--171.
-Stoll's 2006 paper (Acta Arith. 125, p. 90) counts it among the partial
-results on the problem. The site's curator does not credit it, so no
-`reviewed` evidence is listed. Boris Alexeev's repository, linked above,
-holds a third-party Lean proof of the family whose header names Rabinowitz
-and Gilbert among its informal authors and Codex and GPT-5.6 Sol as its
-formal authors; it was not built here, so no `formalized` evidence is
-listed. The page is dated to the June 1991 issue, which prints no fuller
-date.
+**Acceptance.** Refereed: S. Rabinowitz and P. Gilbert, A nonlinear recurrence
+yielding binary digits, Math. Mag. 64 (1991), no. 3, 168--171. Stoll's 2006
+paper (Acta Arith. 125, p. 90) counts it among the partial results on the
+problem. The site's curator does not credit it, so no `reviewed` evidence is
+listed. Boris Alexeev's repository, linked above, holds a third-party Lean proof
+of the family. Its header names Rabinowitz and Gilbert among its informal
+authors and Codex and GPT-5.6 Sol as its formal authors. It was not built here,
+so no `formalized` evidence is listed. The page is dated to the June 1991 issue,
+which prints no fuller date.

@@ -2,8 +2,9 @@
 name: problems/discrete_geometry/E0846
 title: Problem 846
 desc: |
-  Asks what follows for an infinite plane set in which every n of its points
-  contain at least a fixed proportion with no three collinear.
+  Asks whether an infinite plane set in which, for some fixed $\epsilon>0$,
+  every $n$ of its points include at least $\epsilon n$ with no three collinear
+  must be a finite union of sets with no three collinear.
 tags:
 - Geometry
 status: solved
@@ -27,9 +28,9 @@ always at least $\epsilon n$ with no three on a line.
 Is it true that $A$ is the union of a finite number of sets where no three are
 on a line?
 
-**Status.** DISPROVED (LEAN). The site credits two independent disproofs, by
-DeepMind and by an internal model at OpenAI, the latter written up by
-Putterman, Sawhney and Valiant [PSV26]; the claim pages
+**Status.** DISPROVED (LEAN). The site credits two independent disproofs, one by
+DeepMind and one by an internal model at OpenAI. Putterman, Sawhney and Valiant
+wrote up the second [PSV26]. The claim pages
 [[problems/discrete_geometry/E0846/claims/2026_02_24_putterman_sawhney_valiant|Putterman, Sawhney and Valiant]]
 and [[problems/discrete_geometry/E0846/claims/2026_02_25_deepmind|DeepMind]]
 record the two results and their acceptance.

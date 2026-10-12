@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0320/claims/2025_09_12_bettin_grenie_molteni_sanna
 title: A lower bound for log S(N) of the right order
 desc: |
-  Bettin, Grenié, Molteni and Sanna's Theorem 1: log S(N) is at least
-  2 log 2 times N / log N times the iterated-logarithm product, for every
-  depth k >= 4 with log_k N >= 3/2; the lower half of the order of magnitude.
+  Bettin, Grenié, Molteni and Sanna's Theorem 1:
+  $\log S(N)\ge2\log2\,(1-\frac{3/2}{\log_kN})\frac{N}{\log N}\prod_{j=3}^{k}\log_jN$
+  for every $k\ge4$ with $\log_kN\ge3/2$. This is the lower half of the order of
+  magnitude.
 authors:
 - Sandro Bettin
 - Loïc Grenié
@@ -57,12 +58,12 @@ the matching upper bound and any asymptotic.
 
 **Depends on.** No page of this wiki; the theorem is the paper's own.
 
-**Acceptance.** Refereed: the paper appeared in Mathematics of Computation,
-DOI 10.1090/mcom/4190, published online 22 January 2026; the page is dated by
-the arXiv posting of 12 September 2025. Reviewed: the site's curator, Thomas
-Bloom, labels the problem SOLVED for the order of magnitude and credits this
-bound in the commentary, noting that it grows faster than the 1975 bound; it
-is the lower half of that order, and the matching upper half is
+**Acceptance.** Refereed: the paper appeared in Mathematics of Computation, DOI
+10.1090/mcom/4190, published online 22 January 2026. The page is dated by the
+arXiv posting of 12 September 2025. Reviewed: the site's curator, Thomas Bloom,
+labels the problem SOLVED for the order of magnitude. The commentary credits
+this bound and notes that it grows faster than the 1975 bound. This bound is the
+lower half of that order. The matching upper half is
 [[problems/unit_fractions/E0320/claims/2026_07_15_young_zhu_luo|Young, Zhu and Luo's accepted claim]],
-which takes its lower bound from this theorem. The curator is independent of
-the authors. The proof is not verified by this corpus.
+which takes its lower bound from this theorem. The curator is independent of the
+authors. The proof is not verified by this corpus.

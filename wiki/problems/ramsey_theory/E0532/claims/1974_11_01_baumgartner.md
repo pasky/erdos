@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0532/claims/1974_11_01_baumgartner
 title: Baumgartner's short proof of Hindman's theorem
 desc: |
-  Theorem 1 of Baumgartner's 1974 note in J. Combin. Theory Ser. A: when the
-  nonnegative integers are partitioned into k sets, some set contains an
-  infinite sequence with all its finite sums; a second refereed proof.
+  Theorem 1 of Baumgartner's 1974 note in J. Combin. Theory Ser. A shows that
+  when the nonnegative integers are partitioned into $k$ sets, some set contains
+  an infinite sequence together with all its finite sums. It is a second
+  refereed proof of the theorem.
 authors:
 - James E. Baumgartner
 status: accepted
@@ -49,14 +50,12 @@ Hindman's, recorded on
 [[problems/ramsey_theory/E0532/claims/1974_07_01_hindman|Hindman's claim page]];
 this page records the second refereed proof.
 
-**Acceptance.** Refereed: J. E. Baumgartner, A short proof of Hindman's
-theorem, J. Combin. Theory Ser. A 17 (1974), no. 3, 384--386, published
-November 1974 (Crossref record accessed). The record gives no
-day, so the day in the page name is a placeholder for November 1974.
-Erdős's
-surveys of 1975, 1977 and 1980 name the note as the simplification of
-Hindman's proof; the site labels the problem PROVED (LEAN) and credits
-Hindman.
+**Acceptance.** Refereed: J. E. Baumgartner, A short proof of Hindman's theorem,
+J. Combin. Theory Ser. A 17 (1974), no. 3, 384--386, published November 1974
+(Crossref record accessed). The record gives no day, so the day in the page name
+is a placeholder for November 1974. Erdős's surveys of 1975, 1977 and 1980 name
+the note as the simplification of Hindman's proof. The site labels the problem
+PROVED (LEAN) and credits Hindman.
 
 **Read depth.** Theorems 1 and 2 and the definitions were checked; the
 statements of Lemmas 1--4 were read, and no proof step was checked. Nothing

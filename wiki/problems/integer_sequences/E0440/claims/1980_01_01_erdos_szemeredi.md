@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0440/claims/1980_01_01_erdos_szemeredi
 title: Both questions answered, with the limsup constant 1.86 and liminf at most 1
 desc: |
-  Erdős and Szemerédi bound the count of consecutive pairs with least common
-  multiple at most x by (1.8600... + o(1)) x^{1/2} and its liminf over x^{1/2}
-  by 1, which the positive integers attain; Mat. Lapok 28 (1980), refereed.
+  Erdős and Szemerédi bound the number of consecutive pairs with least common
+  multiple at most $x$ by $(1.8600\ldots+o(1))x^{1/2}$, and its liminf over
+  $x^{1/2}$ by $1$, which the positive integers attain. It appeared, refereed,
+  in Mat. Lapok 28 (1980).
 authors:
 - Erdős Pál
 - Szemerédi Endre
@@ -84,29 +85,34 @@ problem.
 
 **Acceptance.** Reviewed: a thread comment of 26 October 2025 asked whether
 Theorem II holds for every $A$, since $A=\mathbb N$ would then settle the
-problem, and Thomas Bloom, the site's curator and independent of the authors,
-answered on 27 December 2025 that, going by a machine translation of the
-Hungarian, it does, and relabeled the problem SOLVED (page last edited the
-same day); the commentary credits [ErSz80] for both the liminf bound and the
-constant (site page and thread accessed 2026-09-05 and 2026-09-18). The
-commentary also credits two later proofs of the first
-answer: Tao's thread comment of 26 October 2025
-([post](https://www.erdosproblems.com/forum/thread/440#post-1477)) gives a
-short argument for $A(x)\ll x^{1/2}$, and van Doorn's
+problem. Thomas Bloom, the site's curator, is independent of the authors. On 27
+December 2025 he answered that, going by a machine translation of the Hungarian,
+it does. He then relabeled the problem SOLVED (page last edited the same day).
+The commentary credits [ErSz80] for both the liminf bound and the constant (site
+page and thread accessed 2026-09-05 and 2026-09-18).
+
+The commentary also credits two later proofs of the first answer. Tao's thread
+comment of 26 October 2025
+([post](https://www.erdosproblems.com/forum/thread/440#post-1477)) gives a short
+argument for $A(x)\ll x^{1/2}$. The
 [note](https://github.com/Woett/Mathematical-shorts/blob/main/Sequences%20with%20bounded%20lcm%20for%20consecutive%20elements.pdf)
-(last changed 12 August 2025) proves the finite version with the constant
-$c$, whose proof, its author writes in the thread, carries over to the
-problem as stated. Refereed: Matematikai Lapok is the refereed journal of the
-Bolyai Society. No refereed English account is known. The statement
-collection added a file for the problem on 20 September 2026, linked above as
-a record at that commit: three statements, the first question, the second
-question and the limsup constant, each tagged `research solved` with a
-`sorry` body and a `formal_proof` attribute naming the Lean file below, so
-it is a statement file and not a formalization. Read depth: the three
-theorem statements (p. 121) are checked clause by clause; the proof of
-Theorem I was read for its structure and not checked step by step, and the
-proof of Theorem II to its final display, where the error above was found;
-nothing is independently reviewed by this project.
+of van Doorn (last changed 12 August 2025) proves the finite version with the
+constant $c$. Its author writes in the thread that the proof carries over to the
+problem as stated.
+
+Refereed: Matematikai Lapok is the refereed journal of the Bolyai Society. No
+refereed English account is known.
+
+The statement collection added a file for the problem on 20 September 2026,
+linked above as a record at that commit. It holds three statements: the first
+question, the second question and the limsup constant. Each is tagged `research
+solved`, with a `sorry` body and a `formal_proof` attribute naming the Lean file
+below. It is therefore a statement file and not a formalization.
+
+Read depth: the three theorem statements (p. 121) are checked clause by clause.
+The proof of Theorem I was read for its structure and not checked step by step.
+The proof of Theorem II was read to its final display, where the error above was
+found. Nothing is independently reviewed by this project.
 
 **Formalization.** The repository `plby/lean-proofs` (Boris Alexeev) holds
 `src/latest/ErdosProblems/Erdos440.lean`, with four supporting files under

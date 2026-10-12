@@ -2,9 +2,9 @@
 name: problems/set_systems/E0231
 title: Problem 231
 desc: |
-  Asks whether every string of length 2^k over k letters contains two adjacent
-  blocks that are permutations of each other; the site prints 2^k - 1, Erdős's
-  misprint, and Keränen's word on four letters disproves it.
+  Asks whether every string of length $2^k$ over $k$ letters (the site prints
+  $2^k-1$, Erdős's misprint) contains two adjacent blocks that are permutations
+  of each other. Keränen's word on four letters disproves it.
 tags:
 - Combinatorics
 status: solved
@@ -76,14 +76,14 @@ and settles no instance of the corrected Statement.
 
 **Status.** The site shows DISPROVED (LEAN), crediting the negative answer for
 all $k\geq4$ to Keränen's infinite abelian-square-free word on four letters
-[Ke92], a label that describes the corrected Statement. The corrected
-Statement is **disproved**: the accepted claim is
-[[problems/set_systems/E0231/claims/1992_07_13_keranen|infinite abelian-square-free words on four letters]],
-and the finite disproof at $k=4$ that Erdős attributes to de Bruijn and
-himself, published without a construction, is a pending claim,
+[Ke92]. This label describes the corrected Statement. The corrected Statement is
+**disproved**. The accepted claim is
+[[problems/set_systems/E0231/claims/1992_07_13_keranen|infinite abelian-square-free words on four letters]].
+Erdős attributes a finite disproof at $k=4$ to de Bruijn and himself, published
+without a construction. It is a pending claim,
 [[problems/set_systems/E0231/claims/1957_11_16_de_bruijn_erdos|reported finite disproof at four letters]].
-The site's wording, with length $2^k-1$, already fails for $k\le3$, as the
-Notes record. The Lean artifacts behind the label's qualifier are described under
+The site's wording, with length $2^k-1$, already fails for $k\le3$, as the Notes
+record. The Lean artifacts behind the label's qualifier are described under
 Formalization.
 
 **Source.** [erdosproblems.com/231](https://www.erdosproblems.com/231), accessed

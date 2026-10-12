@@ -2,8 +2,8 @@
 name: problems/additive_bases/E0345
 title: Problem 345
 desc: |
-  Asks whether infinitely many k make the completeness threshold of the kth
-  powers larger than that of the next powers.
+  Asks whether infinitely many $k$ make the completeness threshold of the $k$th
+  powers larger than that of the $(k+1)$th powers, $T(n^k)>T(n^{k+1})$.
 tags:
 - Number theory
 - Complete sequences

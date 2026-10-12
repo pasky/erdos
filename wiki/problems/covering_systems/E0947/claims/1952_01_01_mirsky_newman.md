@@ -2,9 +2,9 @@
 name: problems/covering_systems/E0947/claims/1952_01_01_mirsky_newman
 title: The Mirsky–Newman theorem that no exact covering system has distinct moduli
 desc: |
-  The theorem of Mirsky and Newman, found independently by Davenport and Rado
-  and first printed in Erdős's 1952 Mat. Lapok paper, that congruence classes
-  with distinct moduli above one cannot partition the integers; accepted.
+  Mirsky and Newman proved that congruence classes with distinct moduli above
+  one cannot partition the integers. Davenport and Rado found it independently,
+  Erdős first printed it in his 1952 Mat. Lapok paper, and it is accepted.
 authors:
 - Erdös Pál
 status: accepted
@@ -84,32 +84,34 @@ as their pages say.
 
 **Acceptance.** Reviewed: the site's curator (T. F. Bloom) labels the problem
 proved and credits the theorem to Mirsky and Newman and, independently, to
-Davenport and Rado (the site's page as of 2026-10-07; its thread holds one
-comment, of 2026-02-02, and its proof-claim tab is empty), and Erdős, who
-posed the question, printed the theorem as theirs with the proof in 1952; the
-theorem has been standard since, cited as known in Erdős and Szemerédi's 1968
-paper *On a problem of P. Erdős and S. Stein* on the library's
+Davenport and Rado (the site's page as of 2026-10-07). The page's thread holds
+one comment, of 2026-02-02, and its proof-claim tab is empty. Erdős, who posed
+the question, printed the theorem as theirs with the proof in 1952. The theorem
+has been standard since. Erdős and Szemerédi's 1968 paper *On a problem of P.
+Erdős and S. Stein*, on the library's
 [[../library/covering_systems/erdos_1968_problem_p_erdos_s_stein/_index|card]],
-whose reference [2] cites the 1952 Mat. Lapok proof, and reproved and
-sharpened by Newman in 1971. Refereed: Erdős prints the theorem and its proof
-in his journal paper Mat. Lapok 3 (1952), 122–128; Mirsky and Newman did not
-publish it themselves. Not listed as formalized: the site's label carries a
-Lean qualification, resting on Wouter van Doorn's Lean 4 file of 2026-02-02
-(Lean v4.24.0 with the Mathlib commit the file names), whose proof Aristotle,
-the Harmonic system, wrote from an exposition of the Mirsky–Newman argument
-that ChatGPT produced at van Doorn's request, as the file's header and the
-thread post state. Boris Alexeev's lean-proofs repository carries it as
-`Erdos947.erdos_947` (informal authors ChatGPT and van Doorn, formal authors
-Aristotle and van Doorn) at the commit linked above, and formal-conjectures'
-`ErdosProblems/947.lean`, added 2026-09-19 with the category research solved,
-links that theorem as the formal proof of its own statement while leaving its
-body a `sorry`, so the formal-conjectures file is a statement file, linked
-from the problem page and not a formalization of this claim. The Lean file
-formalizes the classical theorem rather than a new proof, so it is a
-formalization link on this page and not a claim page of its own. Neither Lean
-file is among the Lean the corpus has built and audited, so no `formalized` is
-listed, and the acceptance rests on the printed proof and the curator's
-credit.
+cites it as known, and that paper's reference [2] cites the 1952 Mat. Lapok
+proof. Newman reproved and sharpened the theorem in 1971.
+
+Refereed: Erdős prints the theorem and its proof in his journal paper Mat. Lapok
+3 (1952), 122–128. Mirsky and Newman did not publish it themselves.
+
+Not listed as formalized: the site's label carries a Lean qualification. It
+rests on Wouter van Doorn's Lean 4 file of 2026-02-02 (Lean v4.24.0 with the
+Mathlib commit the file names). As the file's header and the thread post state,
+Aristotle, the Harmonic system, wrote its proof from an exposition of the
+Mirsky–Newman argument that ChatGPT produced at van Doorn's request. Boris
+Alexeev's lean-proofs repository carries it as `Erdos947.erdos_947` at the
+commit linked above, with informal authors ChatGPT and van Doorn and formal
+authors Aristotle and van Doorn. Formal-conjectures' `ErdosProblems/947.lean`
+was added 2026-09-19 with the category research solved. It links that theorem as
+the formal proof of its own statement but leaves its body a `sorry`. So the
+formal-conjectures file is a statement file, linked from the problem page, and
+not a formalization of this claim. The Lean file formalizes the classical
+theorem rather than a new proof, so it is a formalization link on this page and
+not a claim page of its own. Neither Lean file is among the Lean the corpus has
+built and audited, so no `formalized` is listed. The acceptance rests on the
+printed proof and the curator's credit.
 
 **Not covered.** Nothing of the question itself. The quantitative
 strengthenings for disjoint covers with repeated moduli (the multiplicity

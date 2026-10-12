@@ -3,8 +3,9 @@ name: problems/additive_combinatorics/E0138/claims/2026_08_21_campos_fox_schildk
 title: Campos, Fox and Schildkraut's lower bound k 2^(k-1) for W(k)
 desc: |
   Theorem 1 of Campos, Fox and Schildkraut (arXiv, August 2026) proves
-  W(k) >= (1 - o(1)) k 2^(k-1) for all k, improving the general lower bound
-  and giving W(k)/2^k -> infinity; the coloring was found by ChatGPT 5.6 Sol Pro.
+  $W(k)\ge(1-o(1))\,k\,2^{k-1}$ for all $k$, which improves the general lower
+  bound and gives $W(k)/2^k\to\infty$. The coloring was found by ChatGPT 5.6 Sol
+  Pro.
 authors:
 - Marcelo Campos
 - Jacob Fox

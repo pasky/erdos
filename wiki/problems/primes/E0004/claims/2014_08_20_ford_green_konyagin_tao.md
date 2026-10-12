@@ -2,9 +2,10 @@
 name: problems/primes/E0004/claims/2014_08_20_ford_green_konyagin_tao
 title: "Ford, Green, Konyagin and Tao: Rankin's constant can be arbitrarily large"
 desc: |
-  Proves that the largest prime gap below X exceeds Rankin's 1938 scale by a
-  factor tending to infinity, so the question's bound holds for every
-  constant; refereed in the Annals and credited by the site's curator.
+  Ford, Green, Konyagin and Tao prove that the largest prime gap below $X$
+  exceeds Rankin's 1938 scale by a factor tending to infinity, so the question's
+  bound holds for every constant. The refereed paper appeared in the Annals and
+  is credited by the site's curator.
 authors:
 - Kevin Ford
 - Ben Green

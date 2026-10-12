@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0982/claims/1994_01_01_erdos_fishburn
 title: Erdős and Fishburn, a run of n/3 + 1 successively farther vertices
 desc: |
-  Erdős and Fishburn prove that every convex n-gon, n ≥ 4, has a vertex
-  followed by ⌊n/3⌋+1 successively farther vertices, so that many distinct
-  distances, which reaches ⌊n/2⌋ for n = 4 to 7 and 9; DCG 1994.
+  Erdős and Fishburn (DCG 1994) prove that every convex $n$-gon with $n\ge4$ has
+  a vertex followed by $\lfloor n/3\rfloor+1$ successively farther vertices, so
+  that vertex has that many distinct distances. This bound reaches
+  $\lfloor n/2\rfloor$ for $n=4$ to $7$ and $n=9$.
 authors:
 - Paul Erdős
 - Peter Fishburn

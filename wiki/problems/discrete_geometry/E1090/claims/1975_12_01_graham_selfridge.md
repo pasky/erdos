@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E1090/claims/1975_12_01_graham_selfridge
 title: Graham and Selfridge's affirmative answer for three points
 desc: |
-  Erdős reports in his 1975 problem paper that Graham and Selfridge answered
-  the question yes for k = 3; the report gives no argument, and no publication
-  of one is recorded.
+  Erdős reports in his 1975 problem paper that Graham and Selfridge answered the
+  question yes for $k=3$. The report gives no argument, and no publication of
+  one is recorded.
 authors:
 - Paul Erdős
 status: claimed
@@ -51,8 +51,8 @@ commentary (page last edited 2025-10-19) and the formal-conjectures
 repeat the report in one sentence each and add nothing to it.
 
 **Acceptance.** None recorded. Erdős's report is the poser's word that the case
-was answered, with no argument to examine, and this page does not count it as
-acceptance evidence. Thomas Bloom, the site's curator, labels the problem
-proved for Hunter's construction, which settles every $k$; that label credits
-nothing to this case. There is no refereed proof and no formalization of the
-Graham and Selfridge argument, so the claim stays `claimed`.
+was answered, with no argument to examine. This page does not count it as
+acceptance evidence. Thomas Bloom, the site's curator, labels the problem proved
+for Hunter's construction, which settles every $k$. That label credits nothing
+to this case. There is no refereed proof and no formalization of the Graham and
+Selfridge argument, so the claim stays `claimed`.

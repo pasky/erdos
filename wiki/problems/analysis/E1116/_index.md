@@ -2,8 +2,9 @@
 name: problems/analysis/E1116
 title: Problem 1116
 desc: |
-  Asks whether some meromorphic or entire function has, for every two distinct
-  values, the ratio of their solution counts in growing discs unbounded.
+  Asks whether some meromorphic (or entire) $f$ has
+  $\limsup_{r\to\infty}n(r,a)/n(r,b)=\infty$ for every $a\neq b$, where $n(r,a)$
+  counts the roots of $f(z)=a$ in $|z|<r$.
 tags:
 - Analysis
 status: solved
@@ -39,17 +40,16 @@ target. It takes the entire question, with finite $a\ne b$, as a variant; an
 entire $f$ has $n(r,\infty)=0$. Toppila's Theorem 2 answers the target, and
 Toppila's Theorem 3 and Gol'dberg's theorem answer the variant.
 
-**Status.** SOLVED on the site; the answer is yes. Toppila's 1976 Theorems 2 and
-3 give a meromorphic function and an entire function with
-$\limsup_{r\to\infty}n(r,a)/n(r,b)=\infty$ for every pair of distinct values,
-finite values in the entire case
-([[problems/analysis/E1116/claims/1976_01_01_toppila|Toppila's claim page]]),
-and Gol'dberg's 1978 theorem gives an entire function with that upper limit
-infinite and the lower limit zero for every pair of distinct complex values
+**Status.** SOLVED on the site. The answer is yes. The derived standing is
+solved, proved rather than answered, because the question asks whether such a
+function exists and Toppila's accepted full claim proves that one does.
+Toppila's 1976 Theorems 2 and 3 give a meromorphic function and an entire
+function with $\limsup_{r\to\infty}n(r,a)/n(r,b)=\infty$ for every pair of
+distinct values, with finite values in the entire case
+([[problems/analysis/E1116/claims/1976_01_01_toppila|Toppila's claim page]]).
+Gol'dberg's 1978 theorem gives an entire function with that upper limit infinite
+and the lower limit zero for every pair of distinct complex values
 ([[problems/analysis/E1116/claims/1978_01_01_goldberg|Gol'dberg's claim page]]).
-The derived standing is solved, proved rather than answered: the question asks
-whether such a function exists, and Toppila's accepted full claim proves that
-one does.
 
 **Source.** [erdosproblems.com/1116](https://www.erdosproblems.com/1116),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1116,

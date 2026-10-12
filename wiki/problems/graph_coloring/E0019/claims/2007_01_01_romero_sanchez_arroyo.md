@@ -48,9 +48,9 @@ the cliques can be numbered $0,\dots,n-1$ so that, for each vertex, the
 numbers of the cliques containing it form one or two runs of consecutive
 integers.
 
-**Acceptance.** Refereed: Ars Combin. **85** (2007), 71–84 (Zbl 1224.05187);
-the record gives only the year, so the page carries its first day. The site's
-label decidable does not settle the problem, so the curator's mention is
-context and not `reviewed` evidence.
+**Acceptance.** Refereed: Ars Combin. **85** (2007), 71–84 (Zbl 1224.05187). The
+record gives only the year, so the page carries its first day. The site's label
+decidable does not settle the problem, so the curator's mention is context and
+not `reviewed` evidence.
 
 **Depends on.** Nothing in this wiki.

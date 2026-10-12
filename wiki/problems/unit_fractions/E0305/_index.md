@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0305
 title: Problem 305
 desc: |
-  Bounds the least possible largest denominator needed to write any fraction
-  with denominator b by distinct unit fractions, against b times a power of
-  log b.
+  Asks to estimate $D(b)$, the smallest possible largest denominator needed to
+  write any fraction with denominator $b$ as a sum of distinct unit fractions,
+  and whether $D(b)\ll b(\log b)^{1+o(1)}$.
 tags:
 - Number theory
 - Unit fractions
@@ -41,30 +41,32 @@ Erdős write $D(N)=\max_{0<a<N}D(a,N)$, and the question is their Conjecture
 $D(N)\le K(\varepsilon)N(\ln N)^{1+\varepsilon}$; the site's
 $D(b)\ll b(\log b)^{1+o(1)}$ says the same.
 
-**Status.** Proved, in the site's label, PROVED (page last edited 18
-November 2025). The answer is yes. Yokota (1988), in the paper the site
-cites as the solution, proved $D(N)/N\le(\log N)^{1+\delta(N)}$ with
-$\delta(N)\to0$ (the zbMATH review, Zbl 0652.10015), which Liu and Sawhney
-restate as $D(b)\ll b(\log b)(\log\log b)^4(\log\log\log b)^2$; Liu and
-Sawhney (2024; published 2026) improved this to
-$D(b)\ll b(\log b)(\log\log b)^3(\log\log\log b)^{O(1)}$. Either bound
-implies $b(\log b)^{1+o(1)}$. Yokota's paper is refereed but paywalled, so
-its statement is recorded from the zbMATH review. Liu and Sawhney's
-Theorem 1.5 is refereed (International Mathematics Research Notices,
-published online 14 January 2026); the library records it from arXiv v1
-as a statement with a proof sketch. Two accepted full claims carry the
-standing:
+**Status.** Proved. The site's label is PROVED (page last edited 18 November
+2025), and the answer is yes. Two accepted full claims carry the standing:
 [[problems/unit_fractions/E0305/claims/1988_10_01_yokota|Yokota's 1988 theorem]],
 the site's citation, and
 [[problems/unit_fractions/E0305/claims/2024_04_10_liu_sawhney|Liu and Sawhney's Theorem 1.5]].
-Two accepted partial claims record Bleicher and Erdős's bounds:
-[[problems/unit_fractions/E0305/claims/1976_05_01_bleicher_erdos|their J. Number Theory paper]]
-($D(P)\ge P\lceil\log_2P\rceil$ for primes and $D(N)\le KN(\ln N)^3$) and
-[[problems/unit_fractions/E0305/claims/1976_12_01_bleicher_erdos|their Illinois paper]]
-($D(N)\le\lambda^3(N)N(\ln N)^2$ and a sharper prime lower bound). The
-lower bound $D(p)\gg p\log p$ for primes shows that the exponent $1$ of
-$\log b$ cannot be lowered. The site's discussion and proof-claim pages
-carry no further claim.
+
+Yokota (1988), in the paper the site cites as the solution, proved
+$D(N)/N\le(\log N)^{1+\delta(N)}$ with $\delta(N)\to0$ (the zbMATH review, Zbl
+0652.10015). Liu and Sawhney restate this as
+$D(b)\ll b(\log b)(\log\log b)^4(\log\log\log b)^2$. Liu and Sawhney (2024;
+published 2026) improved it to
+$D(b)\ll b(\log b)(\log\log b)^3(\log\log\log b)^{O(1)}$. Either bound implies
+$b(\log b)^{1+o(1)}$. Yokota's paper is refereed but paywalled, so its statement
+is recorded from the zbMATH review. Liu and Sawhney's Theorem 1.5 is refereed
+(International Mathematics Research Notices, published online 14 January 2026).
+The library records it from arXiv v1 as a statement with a proof sketch.
+
+Two accepted partial claims record Bleicher and Erdős's bounds. The first,
+[[problems/unit_fractions/E0305/claims/1976_05_01_bleicher_erdos|their J. Number Theory paper]],
+gives $D(P)\ge P\lceil\log_2P\rceil$ for primes and $D(N)\le KN(\ln N)^3$. The
+second,
+[[problems/unit_fractions/E0305/claims/1976_12_01_bleicher_erdos|their Illinois paper]],
+gives $D(N)\le\lambda^3(N)N(\ln N)^2$ and a sharper prime lower bound. The lower
+bound $D(p)\gg p\log p$ for primes shows that the exponent $1$ of $\log b$
+cannot be lowered. The site's discussion and proof-claim pages carry no further
+claim.
 
 **Source.** [erdosproblems.com/305](https://www.erdosproblems.com/305): the
 problem page (PROVED, with the site's note that it is solved in the

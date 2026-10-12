@@ -2,8 +2,8 @@
 name: problems/divisors/E0026
 title: Problem 26
 desc: |
-  Asks whether every infinite set of natural numbers has a shift k for which
-  almost all integers have a divisor that is a member plus k.
+  Asks whether every infinite set $A\subset\mathbb{N}$ has a shift $k\ge1$ such
+  that almost all integers have a divisor of the form $a+k$ with $a\in A$.
 tags:
 - Number theory
 - Divisors

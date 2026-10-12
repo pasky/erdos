@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0168
 title: Problem 168
 desc: |
-  The limiting density of the largest subset of the first N integers
-  containing no triple of the form n, twice n, three times n, and whether it
-  is irrational.
+  Asks for $\lim_{N\to\infty}F(N)/N$, where $F(N)$ is the size of the largest
+  subset of $\{1,\ldots,N\}$ containing no set $\{n,2n,3n\}$, and whether this
+  limit is irrational.
 tags:
 - Additive combinatorics
 status: open
@@ -30,16 +30,16 @@ $$
 
 Is this limit irrational?
 
-**Status.** Open. The site's label is OPEN (page last edited 23 March 2026).
-One partial claim is recorded:
+**Status.** Open. The site's label is OPEN (page last edited 23 March 2026). One
+partial claim is recorded.
 [[problems/additive_combinatorics/E0168/claims/1977_01_01_graham_witsenhausen_spencer|Graham, Witsenhausen and Spencer]]
-proved that the limit exists and equals $\frac13\sum_{k\in K}1/d_k$, a series
-over the $3$-smooth numbers $d_1<d_2<\cdots$ indexed by the set $K$ of $k$ at
-which the extremal count on $\{d_1,\ldots,d_k\}$ grows; the site's commentary
-credits the result and reports Eberhard's evaluation of the series as
+proved that the limit exists and equals $\frac13\sum_{k\in K}1/d_k$. This is a
+series over the $3$-smooth numbers $d_1<d_2<\cdots$, indexed by the set $K$ of
+$k$ at which the extremal count on $\{d_1,\ldots,d_k\}$ grows. The site's
+commentary credits the result and reports Eberhard's evaluation of the series as
 $0.800965\cdots$. The paper appeared in a collected volume not shown to be
-refereed, so the claim is pending. No closed form for the value and no answer
-to the irrationality question is claimed, so the problem stays open.
+refereed, so the claim is pending. Neither a closed form for the value nor an
+answer to the irrationality question is claimed, so the problem stays open.
 
 **Source.** [erdosproblems.com/168](https://www.erdosproblems.com/168), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #168,

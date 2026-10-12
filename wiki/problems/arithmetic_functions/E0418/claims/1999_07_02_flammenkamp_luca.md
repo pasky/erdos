@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0418/claims/1999_07_02_flammenkamp_luca
 title: Flammenkamp and Luca's infinite families of noncototients
 desc: |
-  Gives a sufficient condition on k for every 2^m k with m at least 1 to be a
-  noncototient and finds seven such k by computation, so infinitely many
-  integers are not of the form n minus phi(n); refereed.
+  In a refereed paper, Flammenkamp and Luca give a sufficient condition on $k$
+  for every $2^mk$ with $m\ge1$ to be a noncototient, and find seven such $k$ by
+  computation. So infinitely many integers are not of the form $n-\phi(n)$.
 authors:
 - A. Flammenkamp
 - F. Luca

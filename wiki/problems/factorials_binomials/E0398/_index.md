@@ -2,8 +2,7 @@
 name: problems/factorials_binomials/E0398
 title: Problem 398
 desc: |
-  Asks whether a factorial is one less than a perfect square only for n equal
-  to four, five, and seven.
+  Asks whether $n!=x^2-1$ has solutions only for $n=4,5,7$.
 tags:
 - Number theory
 - Factorials
@@ -29,24 +28,25 @@ $$
 
 when $n=4,5,7$?
 
-**Status.** The site's label is FALSIFIABLE, an open problem: a further solution
-would be a finite witness, one more $n$ with $n!+1$ a perfect square, while a
-proof that none exists has no such check. The site's problem page (last edited 1
-April 2026) records no proof and lists no proof claim, but its discussion thread
-carries one: Ahmad Sabihi's manuscript claiming a short elementary proof,
-brought there on 19 October 2025 and recorded as rejected on
-[[problems/factorials_binomials/E0398/claims/2017_02_14_sabihi|its claim page]]
-after Stijn Cambie exhibited an error in it. An arXiv manuscript of Salvador
-Cerdá (2015) claiming a solution was withdrawn by its author and is recorded on
+**Status.** The site's label is FALSIFIABLE, an open problem. A further solution
+would be a finite witness: one more $n$ with $n!+1$ a perfect square. A proof
+that none exists has no such check. The derived standing departs from the label.
+It is claimed, proved, because Maiti's pending full claim asserts a proof. No
+full claim is accepted. The site's problem page (last edited 1 April 2026)
+records no proof and lists no proof claim, but its discussion thread carries
+one. This is Ahmad Sabihi's manuscript claiming a short elementary proof,
+brought there on 19 October 2025. Stijn Cambie exhibited an error in it, and it
+is recorded as rejected on
+[[problems/factorials_binomials/E0398/claims/2017_02_14_sabihi|its claim page]].
+An arXiv manuscript of Salvador Cerdá (2015) claiming a solution was withdrawn
+by its author. It is recorded on
 [[problems/factorials_binomials/E0398/claims/2015_04_25_cerda|its claim page]].
 Somnath Maiti's arXiv manuscript, whose version of 5 February 2026 states the
 conjecture as its Theorem 2.15, is a pending claim on
-[[problems/factorials_binomials/E0398/claims/2026_02_05_maiti|its claim page]],
-and Naciri's refereed theorem settling the 7-free and prime-power cases is an
+[[problems/factorials_binomials/E0398/claims/2026_02_05_maiti|its claim page]].
+Naciri's refereed theorem settling the 7-free and prime-power cases is an
 accepted partial claim on
 [[problems/factorials_binomials/E0398/claims/2025_08_15_naciri|its claim page]].
-The derived standing departs from the label: it is claimed, proved, because
-Maiti's pending full claim asserts a proof; no full claim is accepted.
 
 **Source.** [erdosproblems.com/398](https://www.erdosproblems.com/398), accessed
 2026-09-04 and, with its discussion thread (ten comments) and its empty

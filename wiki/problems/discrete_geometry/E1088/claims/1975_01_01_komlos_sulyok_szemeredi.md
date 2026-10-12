@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E1088/claims/1975_01_01_komlos_sulyok_szemeredi
 title: Komlós, Sulyok and Szemerédi fix the order of f_1(n)
 desc: |
-  Every set of N integers contains a Sidon subset of size at least c N^{1/2},
-  so f_1(n) is at most a constant times n^2; with the Erdős–Turán bound this
-  fixes the order n^2 of the one-dimensional case.
+  Komlós, Sulyok and Szemerédi show that every set of $N$ integers contains a
+  Sidon subset of size at least $cN^{1/2}$, so $f_1(n)\le Cn^2$. With the
+  Erdős–Turán bound, this fixes the order $n^2$ of the one-dimensional case.
 authors:
 - J. Komlós
 - M. Sulyok
@@ -54,9 +54,8 @@ $d=1$. The constant is not determined.
 claim page for Problem 530]], for the transfer of the integer theorem to
 finite sets of reals.
 
-**Acceptance.** Refereed: the paper is a journal publication in Acta
-Mathematica Academiae Scientiarum Hungaricae, volume 26, issue 1--2 (1975).
-The site's remarks state $f_1(n)\asymp n^2$ through Problem 530, but the site
-labels the problem OPEN, so the remark is not `reviewed` evidence. The page
-is dated to the first day of the publication year, the citation giving no
-month or day.
+**Acceptance.** Refereed: the paper is a journal publication in Acta Mathematica
+Academiae Scientiarum Hungaricae, volume 26, issue 1--2 (1975). The site's
+remarks state $f_1(n)\asymp n^2$ through Problem 530. But the site labels the
+problem OPEN, so the remark is not `reviewed` evidence. The page is dated to the
+first day of the publication year, since the citation gives no month or day.

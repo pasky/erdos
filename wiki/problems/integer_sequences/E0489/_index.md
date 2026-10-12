@@ -2,8 +2,9 @@
 name: problems/integer_sequences/E0489
 title: Problem 489
 desc: |
-  Asks whether the average of the squared gaps between consecutive integers
-  divisible by no member of a sparse set of divisors tends to a finite limit.
+  Asks whether, for $A\subseteq\mathbb{N}$ with $|A\cap[1,x]|=o(x^{1/2})$ and
+  $b_1<b_2<\cdots$ the integers divisible by no member of $A$, the limit of
+  $\frac1x\sum_{b_i<x}(b_{i+1}-b_i)^2$ exists and is finite.
 tags:
 - Number theory
 status: claimed
@@ -35,26 +36,28 @@ $$
 
 exists (and is finite)?
 
-**Status.** OPEN, in the site's label. The site notes that for $A$ the set of
-prime squares, when $B$ is the squarefree numbers, Erdős proved the limit exists
-(Publ. Math. Debrecen 2 (1951), 103--109; claim page
-[[problems/integer_sequences/E0489/claims/1951_05_04_erdos|Erdős's squarefree case]],
-accepted and partial). A full proof claim posted to the site's proof-claims tab
-on 15 July 2026 by Colin Snyder, produced with GPT 5.6 (custom harness), as the
-tab names the system, answers yes with a Lean 4 proof bundle; the site has not
-accepted it, nothing was built or audited here, and the claim page
+**Status.** The site's label is OPEN. The frontmatter standing derives from a
+pending full claim, and it departs from the label for that reason. That claim
+was posted to the site's proof-claims tab on 15 July 2026 by Colin Snyder,
+produced with GPT 5.6 (custom harness), as the tab names the system. It answers
+yes with a Lean 4 proof bundle. The site has not accepted it, and nothing was
+built or audited here. The claim page
 [[problems/integer_sequences/E0489/claims/2026_07_15_snyder|Snyder's Lean proof]]
-records it, together with the formal-conjectures collection's marking of the
-problem as solved on the strength of a hosted copy of that proof, which is not
-acceptance. A note of 20 April 2026 by Przemyslaw Chojecki, produced with
-GPT-5.4 Pro, as Chojecki's thread comment says, claims a proof that the limit
-always exists in $[0,+\infty]$ and is finite for a structured class of $A$; it
-is the partial claim page
+records it. The page also records that the formal-conjectures collection marks
+the problem as solved on the strength of a hosted copy of that proof, which is
+not acceptance. Snyder's claim answers the Statement yes and would settle it, so
+the derived standing is `claimed` with claim `proved`. The site, which has not
+accepted the claim, labels the problem OPEN.
+
+The site notes that Erdős proved the limit exists for $A$ the set of prime
+squares, when $B$ is the squarefree numbers (Publ. Math. Debrecen 2 (1951),
+103--109). Its claim page is
+[[problems/integer_sequences/E0489/claims/1951_05_04_erdos|Erdős's squarefree case]],
+accepted and partial. A note of 20 April 2026 by Przemyslaw Chojecki, produced
+with GPT-5.4 Pro, as Chojecki's thread comment says, claims a proof that the
+limit always exists in $[0,+\infty]$ and is finite for a structured class of
+$A$. It is the partial claim page
 [[problems/integer_sequences/E0489/claims/2026_04_20_chojecki|Chojecki's note]].
-The frontmatter standing derives from the pending full claim, and it departs
-from the label for that reason: Snyder's claim answers the Statement yes and
-would settle it, so the derived standing is `claimed` with claim `proved`, while
-the site, which has not accepted the claim, labels the problem OPEN.
 
 **Source.** [erdosproblems.com/489](https://www.erdosproblems.com/489), accessed
 2026-09-04; proof-claims tab accessed 2026-10-06. Cite as: T. F. Bloom, Erdős

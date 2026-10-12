@@ -2,8 +2,9 @@
 name: problems/discrete_geometry/E0589
 title: Problem 589
 desc: |
-  Estimates the largest subset with no three points on a line that can always
-  be found inside n points in the plane having no four points on a line.
+  Asks to estimate $g(n)$, the size of the largest subset with no three points
+  on a line that can always be found among $n$ points in the plane with no four
+  on a line.
 tags:
 - Geometry
 status: open
@@ -24,13 +25,13 @@ updated: 2026-10-07T20:00:46Z
 $\mathbb{R}^2$ with no four points on a line there exists a subset on $g(n)$
 points with no three points on a line. Estimate $g(n)$.
 
-**Status.** Open, in the site's label. The accepted partial claims
+**Status.** Open, in the site's label. The order of $g(n)$ is undetermined. The
+accepted partial claims
 [[problems/discrete_geometry/E0589/claims/1991_05_01_furedi|Füredi 1991]] and
 [[problems/discrete_geometry/E0589/claims/2017_04_17_balogh_solymosi|Balogh and
-Solymosi 2017]] give $c\sqrt{n\log n}<g(n)\le n^{5/6+o(1)}$; the order of
-$g(n)$ is undetermined. Furstenberg and Katznelson's density Hales--Jewett
-theorem [FuKa91], which Füredi applies, says nothing about $g(n)$ itself and
-has no claim page.
+Solymosi 2017]] give $c\sqrt{n\log n}<g(n)\le n^{5/6+o(1)}$. Füredi applies
+Furstenberg and Katznelson's density Hales--Jewett theorem [FuKa91]. That
+theorem says nothing about $g(n)$ itself and has no claim page.
 
 **Source.** [erdosproblems.com/589](https://www.erdosproblems.com/589), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #589,

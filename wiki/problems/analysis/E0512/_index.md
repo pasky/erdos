@@ -2,8 +2,9 @@
 name: problems/analysis/E0512
 title: Problem 512
 desc: |
-  Asks whether the mean absolute value of the exponential sum over a set of N
-  integers is at least of order the logarithm of N.
+  Asks whether the exponential sum over any set $A$ of $N$ integers has mean
+  absolute value
+  $\int_0^1\lvert\sum_{n\in A}e(n\theta)\rvert\,\mathrm{d}\theta\gg\log N$.
 tags:
 - Analysis
 status: solved
@@ -29,11 +30,11 @@ $$
 
 where $e(x)=e^{2\pi ix }$?
 
-**Status.** PROVED (LEAN), the site's label, which credits the independent
+**Status.** PROVED (LEAN), the site's label. The site credits the independent
 proofs of Littlewood's conjecture by
 [[problems/analysis/E0512/claims/1981_01_01_konyagin|Konyagin]] and by
 [[problems/analysis/E0512/claims/1981_05_01_mcgehee_pigno_smith|McGehee, Pigno and Smith]],
-both refereed; the Lean proof the formal-conjectures statement names is
+both refereed. The Lean proof that the formal-conjectures statement names is
 linked from the latter page.
 
 **Source.** [erdosproblems.com/512](https://www.erdosproblems.com/512), accessed

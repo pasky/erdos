@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0391
 title: Problem 391
 desc: |
-  Bounds the largest possible smallest factor when n factorial is written as a
-  product of n increasing factors, in particular whether it approaches n over
-  e.
+  Asks for bounds on $t(n)/n$, where $t(n)$ is the largest possible $a_1$ in
+  $n!=a_1\cdots a_n$ with $a_1\le\cdots\le a_n$, and in particular whether
+  $t(n)/n\to1/e$.
 tags:
 - Number theory
 - Factorials
@@ -45,10 +45,10 @@ for infinitely many $n$?
 
 **Status.** The site labels the problem PROVED (LEAN), crediting Alexeev,
 Conway, Rosenfeld, Sutherland, Tao, Uhr and Ventullo with answering both
-questions. The standing derived from the claim pages is `solved`, `proved`,
-by the accepted claim
-[[problems/factorials_binomials/E0391/claims/2025_03_26_alexeev_conway_rosenfeld_sutherland_tao_uhr_ventullo|Alexeev and others 2025]];
-the Lean behind the site's qualification is third-party work not built here.
+questions. The standing derived from the claim pages is `solved`, `proved`, by
+the accepted claim
+[[problems/factorials_binomials/E0391/claims/2025_03_26_alexeev_conway_rosenfeld_sutherland_tao_uhr_ventullo|Alexeev and others 2025]].
+The Lean behind the site's qualification is third-party work not built here.
 
 **Source.** [erdosproblems.com/391](https://www.erdosproblems.com/391), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #391,

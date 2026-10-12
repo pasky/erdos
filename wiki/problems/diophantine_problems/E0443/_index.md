@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E0443
 title: Problem 443
 desc: |
-  How many values are shared by the two sets of products k times m minus k and
-  l times n minus l for m different from n, and whether this count can be large
-  or must be very small.
+  Asks for the size of $\{k(m-k):1\le k\le m/2\}\cap\{l(n-l):1\le l\le n/2\}$
+  when $m\neq n$, whether it can be arbitrarily large, and whether it is at most
+  $(mn)^{o(1)}$ for large $m,n$.
 tags:
 - Number theory
 status: solved
@@ -63,10 +63,10 @@ hypothesis is not the source of the change. No result about the site's wording
 exists beyond the check recorded here, which settles no instance of the
 corrected Statement.
 
-**Status.** PROVED (LEAN) on erdosproblems.com, a label that describes the
-corrected Statement; the site's commentary credits Hegyvári and, unpublished,
-Cambie, and the Lean mark refers to a third-party Lean formalization of
-Hegyvári's paper that this repository has not built; the claim page
+**Status.** PROVED (LEAN) on erdosproblems.com. This label describes the
+corrected Statement. The site's commentary credits Hegyvári and, unpublished,
+Cambie. The Lean mark refers to a third-party Lean formalization of Hegyvári's
+paper, which this repository has not built. The claim page
 [[problems/diophantine_problems/E0443/claims/2025_03_31_hegyvari|Hegyvári]]
 records the result and its acceptance.
 

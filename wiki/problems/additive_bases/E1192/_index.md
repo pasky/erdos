@@ -2,8 +2,9 @@
 name: problems/additive_bases/E1192
 title: Problem 1192
 desc: |
-  Concerns the possible growth of the number of representations of n as a sum
-  of r elements of a set of natural numbers.
+  Asks whether, for every $r\ge2$, some basis $A$ of order $r$ has
+  $\sum_{n\le x}f_r(n)^2\ll x$, where $f_r(n)$ counts the representations of $n$
+  as a sum of $r$ elements of $A$.
 tags:
 - Additive combinatorics
 - Additive bases
@@ -33,9 +34,9 @@ $$
 
 for all $x$?
 
-**Status.** Open. Ruzsa [Ru90] answers the case $r=2$, the accepted partial
-claim [[problems/additive_bases/E1192/claims/1990_06_01_ruzsa|Ruzsa]]; the
-cases $r\ge3$ are open.
+**Status.** Open. Ruzsa [Ru90] answers the case $r=2$. This is the accepted
+partial claim [[problems/additive_bases/E1192/claims/1990_06_01_ruzsa|Ruzsa]].
+The cases $r\ge3$ are open.
 
 **Source.** [erdosproblems.com/1192](https://www.erdosproblems.com/1192),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1192,

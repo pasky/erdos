@@ -2,9 +2,9 @@
 name: problems/discrete_geometry/E0526
 title: Problem 526
 desc: |
-  Characterizes which sequences of arc lengths tending to zero with infinite
-  sum make random independent arcs cover the whole unit circle with
-  probability one.
+  Asks for a necessary and sufficient condition on arc lengths $a_n\to0$ with
+  $\sum a_n=\infty$ under which independent random arcs of these lengths cover
+  the unit circle with probability $1$.
 tags:
 - Probability
 - Geometry
@@ -40,9 +40,9 @@ criterion answers the question under this reading.
 **Status.** Solved. The site labels the problem SOLVED and credits Shepp's
 necessary and sufficient condition [Sh72], recorded as the accepted claim
 [[problems/discrete_geometry/E0526/claims/1972_09_01_shepp|Shepp 1972]].
-Kahane's sufficient and necessary conditions [Ka59], which give the case
-$a_n=(1+c)/n$ the site credits to him, are the accepted partial claim
-[[problems/discrete_geometry/E0526/claims/1959_01_05_kahane|Kahane 1959]];
+Kahane's sufficient and necessary conditions [Ka59] give the case $a_n=(1+c)/n$
+that the site credits to him. They are the accepted partial claim
+[[problems/discrete_geometry/E0526/claims/1959_01_05_kahane|Kahane 1959]].
 Erdős's cases $a_n=1/n$ and $a_n=(1-c)/n$ are unpublished and have no claim
 page.
 

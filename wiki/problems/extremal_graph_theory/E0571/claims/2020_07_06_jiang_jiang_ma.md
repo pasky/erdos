@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0571/claims/2020_07_06_jiang_jiang_ma
 title: Jiang, Jiang and Ma, the exponents 2 minus a/b with a between the cube of the floor of b/a and b/(floor(b/a)+1) plus 1
 desc: |
-  Jiang, Jiang and Ma (Ann. Appl. Math. 2022): 2 minus a/b is a Turán
-  exponent whenever the floor of b/a cubed is at most a and a is at most
-  b/(floor(b/a)+1) plus 1; infinitely many instances of Problem 571.
+  Jiang, Jiang and Ma (Ann. Appl. Math. 2022) show that $2-a/b$ is a Turán
+  exponent whenever
+  $\lfloor b/a\rfloor^3\le a\le\frac{b}{\lfloor b/a\rfloor+1}+1$. This gives
+  infinitely many instances of Problem 571.
 authors:
 - Tao Jiang
 - Zilin Jiang
@@ -49,13 +50,13 @@ settled by the accepted claim page
 
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.
 
-**Acceptance.** Refereed: T. Jiang, Z. Jiang and J. Ma, *Negligible
-obstructions and Turán exponents*, Ann. Appl. Math. 38 (2022), no. 3, 356--384,
-doi:10.4208/aam.oa-2022-0008, a refereed journal; the site cites the arXiv
+**Acceptance.** Refereed: T. Jiang, Z. Jiang and J. Ma, *Negligible obstructions
+and Turán exponents*, Ann. Appl. Math. 38 (2022), no. 3, 356--384,
+doi:10.4208/aam.oa-2022-0008, a refereed journal. The site cites the arXiv
 version. First posting: arXiv:2007.02975, v1 6 July 2020 (the date this page is
-named by), v3 30 January 2023. No `reviewed` evidence is listed: the site's
-commentary lists these exponents among the Turán exponents known before 2026
-and credits the paper, but its label credits GPT-6 Astra with the full proof
+named by), v3 30 January 2023. No `reviewed` evidence is listed. The site's
+commentary lists these exponents among the Turán exponents known before 2026 and
+credits the paper. But the site's label credits GPT-6 Astra with the full proof
 and is not an acceptance of this result.
 
 **Read depth.** The statements are taken from the paper's abstract and the

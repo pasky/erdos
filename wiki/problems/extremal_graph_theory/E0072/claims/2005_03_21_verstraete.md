@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0072/claims/2005_03_21_verstraete
 title: Verstraëte's unavoidable set of density zero
 desc: |
-  Verstraëte proves that some set of integers with O(n^0.99) elements up to n
-  is unavoidable, in that every graph of average degree at least ten has a
-  cycle whose length lies in it, which answers Problem 72 affirmatively.
+  Verstraëte proves that some set of integers with $O(n^{0.99})$ elements up to
+  $n$ is unavoidable: every graph of average degree at least $10$ has a cycle
+  whose length lies in it. This answers Problem 72 affirmatively.
 authors:
 - J. Verstraëte
 status: accepted
@@ -37,14 +37,14 @@ page states it, with $A=S$ and $c=10$. The proof shows that such a set exists
 without exhibiting one.
 
 **Acceptance.** The paper is a refereed publication in the Journal of Graph
-Theory, and the site's curator, Thomas Bloom, records the problem as solved
-by it and labels the problem proved, which is the reviewed evidence listed.
-The author's undated preprint is the edition described on its
-[[../library/extremal_graph_theory/verstraete_2005_unavoidable_cycle_lengths_graphs/_index|source card]];
-the basis here is the statement of Theorem 1 on its p. 1 alone, not the proof
-on pp. 2--16, and the journal text was not compared. The acceptance recorded
-here therefore rests on the publication and the site's acceptance, not on a
-local review.
+Theory. The site's curator, Thomas Bloom, records the problem as solved by it
+and labels the problem proved, which is the reviewed evidence listed. The
+author's undated preprint is the edition described on its
+[[../library/extremal_graph_theory/verstraete_2005_unavoidable_cycle_lengths_graphs/_index|source card]].
+The basis here is the statement of Theorem 1 on p. 1 of the preprint alone, not
+the proof on pp. 2--16. The journal text was not compared. The acceptance
+recorded here therefore rests on the publication and the site's acceptance, not
+on a local review.
 
 **Later work.**
 [[problems/extremal_graph_theory/E0072/claims/2020_10_29_liu_montgomery|Liu and Montgomery]]

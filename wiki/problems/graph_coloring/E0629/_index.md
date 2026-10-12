@@ -2,8 +2,8 @@
 name: problems/graph_coloring/E0629
 title: Problem 629
 desc: |
-  Asks for the least number of vertices n(k) of a bipartite graph whose list
-  chromatic number exceeds k; open, with n(2) = 6 and n(3) = 14 known.
+  Asks for the least number of vertices $n(k)$ of a bipartite graph whose list
+  chromatic number exceeds $k$; open, with $n(2)=6$ and $n(3)=14$ known.
 tags:
 - Graph theory
 - Chromatic number

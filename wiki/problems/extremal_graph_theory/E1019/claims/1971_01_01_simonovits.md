@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1019/claims/1971_01_01_simonovits
 title: Simonovits's thesis theorem on saturated planar subgraphs
 desc: |
-  Simonovits's PhD thesis (Chapter 9, unpublished) shows that a graph on n
-  vertices with the Turán number plus the ceiling of half of n edges contains
-  a K_4 or a cycle joined to two independent vertices, both saturated planar.
+  Chapter 9 of Simonovits's unpublished PhD thesis shows that a graph on $n$
+  vertices with $\lfloor n^2/4\rfloor+\lceil n/2\rceil$ edges contains a $K_4$
+  or a cycle joined to two independent vertices. Both are saturated planar
+  graphs.
 authors: []
 status: accepted
 claim: proved
@@ -100,19 +101,21 @@ database records formal status Lean since 16 September 2026 through this
 submission.
 
 **Acceptance.** The `reviewed` evidence is documented acceptance by a named
-expert and by the site's curator: Erdős, in a published proceedings volume
-(Academic Press 1971), stated that Simonovits had proved the conjecture; and
-the site's curator, Thomas Bloom, who took no part in the result, after the
-thread of October 2025 had concluded that the problem should be reopened
-because the 1975 paper does not prove it, marked the comment of 21 November
-2025 as addressed, labeled the problem PROVED (the community database's file
-history changes it to proved in a commit of that day) and attributes the
-result to the thesis with the proof given in the comments. No publication of
-the theorem exists, so `refereed` is not listed, and no text of the thesis
-is available: the statement is known here through Erdős's one sentence and
-the forum summary. The forum comment is not checked here, and this page
-records the acceptance as the sources document it, nothing being
-independently reviewed here. Reopening condition: a published text of the
-theorem (the comment of 21 November 2025 says Simonovits was then preparing
-translations of his main works for his website), after which the statement
-is paged and the proof read.
+expert and by the site's curator. Erdős stated in a published proceedings volume
+(Academic Press 1971) that Simonovits had proved the conjecture. The thread of
+October 2025 concluded that the problem should be reopened, because the 1975
+paper does not prove it. After that, the site's curator, Thomas Bloom, who took
+no part in the result, marked the comment of 21 November 2025 as addressed and
+labeled the problem PROVED. The community database's file history changes it to
+proved in a commit of that day. The curator attributes the result to the thesis,
+with the proof given in the comments.
+
+No publication of the theorem exists, so `refereed` is not listed. No text of
+the thesis is available. The statement is known here through Erdős's one
+sentence and the forum summary. The forum comment is not checked here. This page
+records the acceptance as the sources document it, and nothing is independently
+reviewed here.
+
+Reopening condition: a published text of the theorem. The comment of 21 November
+2025 says Simonovits was then preparing translations of his main works for his
+website. Once such a text exists, the statement is paged and the proof read.

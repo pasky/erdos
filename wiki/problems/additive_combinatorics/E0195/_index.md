@@ -2,8 +2,8 @@
 name: problems/additive_combinatorics/E0195
 title: Problem 195
 desc: |
-  The largest number of terms k such that every permutation of the integers
-  contains a monotone arithmetic progression of k terms.
+  Asks for the largest $k$ such that every permutation of the integers contains
+  a monotone $k$-term arithmetic progression.
 tags:
 - Arithmetic progressions
 status: open
@@ -39,20 +39,20 @@ progression, and every one contains a monotone three-term progression
 (Davis, Entringer, Graham and Simmons, Fact 5, as Adenwalla's introduction
 notes).
 
-**Status.** Open, the site's label (OPEN). The largest $k$ is $3$ or $4$.
-Every permutation of $\mathbb{Z}$ contains a monotone three-term
-progression: its positive terms, in order, form a permutation of the
-positive integers, and every such permutation contains an increasing
+**Status.** Open, the site's label (OPEN). The largest $k$ is $3$ or $4$. Every
+permutation of $\mathbb{Z}$ contains a monotone three-term progression, as
+Adenwalla's introduction notes. Its positive terms, in order, form a permutation
+of the positive integers, and every such permutation contains an increasing
 three-term progression (Davis, Entringer, Graham and Simmons, Acta Arith. 34
 (1977/78), Fact 3;
-[[../library/additive_combinatorics/davis_nd_permutations_containing_no_long_arithmetic_progressions/_index|source card]]),
-as Adenwalla's introduction notes. Adenwalla's permutation of $\mathbb{Z}$
-with no monotone five-term progression gives $k\le4$
+[[../library/additive_combinatorics/davis_nd_permutations_containing_no_long_arithmetic_progressions/_index|source card]]).
+Adenwalla's permutation of $\mathbb{Z}$ with no monotone five-term progression
+gives $k\le4$
 ([[problems/additive_combinatorics/E0195/claims/2022_11_05_adenwalla|claim page]],
-accepted on its refereed publication), improving Geneson's $k\le5$
+accepted on its refereed publication). This improves Geneson's $k\le5$
 ([[problems/additive_combinatorics/E0195/claims/2018_03_15_geneson|claim page]],
-accepted on its refereed publication). Neither result decides whether a
-monotone four-term progression is forced.
+accepted on its refereed publication). Neither result decides whether a monotone
+four-term progression is forced.
 
 **Source.** [erdosproblems.com/195](https://www.erdosproblems.com/195), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #195,

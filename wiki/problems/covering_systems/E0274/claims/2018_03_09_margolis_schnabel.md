@@ -2,9 +2,9 @@
 name: problems/covering_systems/E0274/claims/2018_03_09_margolis_schnabel
 title: Margolis and Schnabel's groups of order below 1440
 desc: |
-  Theorem A of Margolis and Schnabel's Beitr. Algebra Geom. paper (2019): every
-  group of order below 1440 satisfies the Herzog-Schönheim conjecture; accepted
-  on the refereed paper.
+  Theorem A of Margolis and Schnabel's 2019 paper in Beitr. Algebra Geom. states
+  that every group of order below 1440 satisfies the Herzog-Schönheim
+  conjecture. It is accepted on the refereed paper.
 authors:
 - Leo Margolis
 - Ofir Schnabel
@@ -50,9 +50,8 @@ groups, and so for infinite groups, stays open.
 
 **Depends on.** Nothing in this wiki; the theorem is the paper's own.
 
-**Acceptance.** Refereed: Beiträge zur Algebra und Geometrie 60 (2019), no.
-3, 399--418, doi:10.1007/s13366-018-0419-1, published online 2018-10-04; the
-arXiv v1 of 2018-03-09 names this page. Not reviewed: the site's commentary
-credits the theorem, but the site labels the problem OPEN, so the credit is
-not counted as review. Not formalized: no Lean proof of the theorem is
-recorded.
+**Acceptance.** Refereed: Beiträge zur Algebra und Geometrie 60 (2019), no. 3,
+399--418, doi:10.1007/s13366-018-0419-1, published online 2018-10-04. The arXiv
+v1 of 2018-03-09 names this page. Not reviewed: the site's commentary credits
+the theorem, but the site labels the problem OPEN, so the credit is not counted
+as review. Not formalized: no Lean proof of the theorem is recorded.

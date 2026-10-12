@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0796
 title: Problem 796
 desc: |
-  The largest subset of one to n in which every number has fewer than k
-  representations as a product of two distinct members; asks whether the
-  second-order term for k equal to three has an asymptotic constant.
+  Asks whether $g_3(n)=n\log\log n/\log n+(c+o(1))n/\log n$ for some constant
+  $c$, where $g_k(n)$ is the size of the largest $A\subseteq\{1,\ldots,n\}$ in
+  which every number has fewer than $k$ representations $a_1a_2$ with $a_1<a_2$
+  in $A$.
 tags:
 - Number theory
 status: claimed
@@ -50,26 +51,25 @@ second term; the site prints $\log n$, reading the printed $(\log n)^2$ as a
 typo repeated through the display. Both printed forms are recorded below.
 
 **Status.** The site's label is OPEN (page last edited 16 January 2026;
-proof-claim tab accessed 2026-10-06). What is known: the asymptotic
-$g_3(n)=(1+o(1))n\log\log n/\log n$ (Erdős 1964, Theorem 3); Erdős's
-1969 statement, without proof, of second-order bounds with the denominator
-$(\log n)^2$, and his 1964 remark, without proof, that the second term is
-$O(n/(\log n)^{1+c})$; a 2026 forum construction (Tang) giving
-$g_3(n)\ge n\log\log n/\log n+(M+1+o(1))n/\log n$ with $M$ the
-Meissel--Mertens constant, which refutes both printed second-order claims
-if correct, and the site maintainer's reading that Erdős's 1964 proof gives
-an upper bound with second term $O(n/\log n)$; and two full-proof claims of
-15 July 2026 on the site's proof-claim tab, each declaring the use of a
-GPT 5.6 model and each with a Lean development, one of which the
-formal-conjectures
-collection marks as a formal proof
-([[problems/integer_sequences/E0796/claims/2026_07_15_gajjala|Gajjala]]
-and [[problems/integer_sequences/E0796/claims/2026_07_15_snyder|Snyder]],
-both pending). No refereed publication or independent review of either
-claim was found in the search whose scope the Current assessment records. The standing
-derives from the claim pages: two pending full claims that agree make it
-`claimed`, with `proved` the answer they assert; nothing is accepted. The
-negative finding on acceptance is bounded by that search, not a
+proof-claim tab accessed 2026-10-06). The standing derives from the claim pages.
+Two pending full claims that agree make it `claimed`, with `proved` the answer
+they assert. Nothing is accepted. The asymptotic
+$g_3(n)=(1+o(1))n\log\log n/\log n$ is known (Erdős 1964, Theorem 3). In 1969
+Erdős stated, without proof, second-order bounds with the denominator
+$(\log n)^2$. In 1964 he remarked, without proof, that the second term is
+$O(n/(\log n)^{1+c})$. A 2026 forum construction (Tang) gives
+$g_3(n)\ge n\log\log n/\log n+(M+1+o(1))n/\log n$, with $M$ the Meissel--Mertens
+constant. If correct, it refutes both printed second-order claims. The site
+maintainer reads Erdős's 1964 proof as giving an upper bound with second term
+$O(n/\log n)$. Two full-proof claims of 15 July 2026 are on the site's
+proof-claim tab:
+[[problems/integer_sequences/E0796/claims/2026_07_15_gajjala|Gajjala]] and
+[[problems/integer_sequences/E0796/claims/2026_07_15_snyder|Snyder]], both
+pending. Each declares the use of a GPT 5.6 model and each has a Lean
+development. The formal-conjectures collection marks one of these developments
+as a formal proof. No refereed publication or independent review of either claim
+was found in the search whose scope the Current assessment records. This
+negative finding on acceptance is bounded by that search and is not a
 certificate of openness.
 
 **Source.** [erdosproblems.com/796](https://www.erdosproblems.com/796),

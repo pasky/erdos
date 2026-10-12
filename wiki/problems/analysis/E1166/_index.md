@@ -2,8 +2,9 @@
 name: problems/analysis/E1166
 title: Problem 1166
 desc: |
-  Asks whether the number of sites ever favorite by time n in planar simple
-  random walk is eventually bounded by a power of log n almost surely.
+  Asks whether, almost surely, the number of sites that are favorite at some
+  time up to $n$ in a planar simple random walk is at most $(\log n)^{O(1)}$ for
+  all large $n$.
 tags:
 - Probability
 status: claimed
@@ -46,7 +47,7 @@ walk from the setup on printed p. 11, which says only "a random walk on
 $\mathbb{Z}^2$".
 
 **Status.** PROVED, the site's label. Almost surely the union has size
-$O((\log n)^2)$; the cited estimates give the more precise upper limit
+$O((\log n)^2)$. The cited estimates give the more precise upper limit
 
 $$
 \limsup_{n\to\infty}
@@ -56,13 +57,14 @@ $$
 
 The constant is a consequence of those estimates, not a claim of a sharp
 asymptotic for the union. The derived standing is claimed and proved, not
-solved: the pending claim is
+solved. The pending claim is
 [[problems/analysis/E1166/claims/2024_09_02_hao_li_okada_zheng|the favorite-count bound of Hao, Li, Okada and Zheng with the Erdős–Taylor estimate]],
-two refereed theorems; the site's page states their combination itself and
-credits the eventual bound through Problem 1165 to Tóth, a misattribution
-(Hao–Li–Okada–Zheng Theorem 1.1 supplies it), so no review credits the
-deduction, and the claim stays claimed although both of its inputs are refereed.
-An independent Lean proof of the deduction is a second pending claim, on
+which consists of two refereed theorems. The site's page states their
+combination itself. It credits the eventual bound, through Problem 1165, to
+Tóth. That is a misattribution, since Hao–Li–Okada–Zheng Theorem 1.1 supplies
+it. So no review credits the deduction, and the claim stays claimed although
+both of its inputs are refereed. An independent Lean proof of the deduction is a
+second pending claim, on
 [[problems/analysis/E1166/claims/2026_08_23_alexeev|its own claim page]].
 
 **Source.** [erdosproblems.com/1166](https://www.erdosproblems.com/1166),

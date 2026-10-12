@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0829
 title: Problem 829
 desc: |
-  Asks whether the number of ways to write n as a sum of two cubes is at most
-  a power of the logarithm of n.
+  Asks whether the number of ways to write $n$ as a sum of two cubes is at most
+  $(\log n)^{O(1)}$.
 tags:
 - Number theory
 status: open

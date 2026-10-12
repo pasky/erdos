@@ -2,9 +2,10 @@
 name: problems/diophantine_problems/E0366
 title: Problem 366
 desc: |
-  Asks whether some integer divisible by the square of each of its prime
-  factors is followed by one divisible by the cube of each; Erdős and Graham's
-  companion question, with the cube first, is answered by 12167, 12168.
+  Asks whether some integer divisible by the square of each of its prime factors
+  is followed by one divisible by the cube of each of its prime factors. Erdős
+  and Graham's companion question, with the cube first, is answered by
+  12167, 12168.
 tags:
 - Number theory
 - Powerful numbers
@@ -41,12 +42,12 @@ question as printed, and that question sets the standing. Erdős expects in
 [Er76d, p. 31] that no two consecutive integers are both $3$-full, a weaker
 question that the site places in section B16 of Guy's collection [Gu04] as well.
 
-**Status.** Verifiable, the site's label (VERIFIABLE, which the site explains
-as open but provable by a finite example; page last edited 16 July 2026,
-accessed 2026-10-07). No claim settles the question. The site's proof-claims
-tab carries one partial proof claim, Xeff's bound on any solution under
-Baker's explicit abc conjecture, which decides nothing and gets no claim page;
-the Current assessment records it with the reason.
+**Status.** Verifiable, the site's label (VERIFIABLE; page last edited 16 July
+2026, accessed 2026-10-07). The site explains this label as open but provable by
+a finite example. No claim settles the question. The site's proof-claims tab
+carries one partial proof claim: Xeff's bound on any solution under Baker's
+explicit abc conjecture. It decides nothing and gets no claim page. The Current
+assessment records it with the reason.
 
 **Source.** [erdosproblems.com/366](https://www.erdosproblems.com/366), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #366,

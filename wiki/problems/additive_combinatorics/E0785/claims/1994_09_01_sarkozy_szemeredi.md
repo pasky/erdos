@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0785/claims/1994_09_01_sarkozy_szemeredi
 title: Sárközy and Szemerédi prove the excess tends to infinity
 desc: |
-  Sárközy and Szemerédi (Acta Math. Hungar. 1994) prove that infinite
-  additive complements with A(x)B(x) ~ x have A(x)B(x) - x tending to
-  infinity, not even o(A(x)); accepted, refereed and credited by the site.
+  Sárközy and Szemerédi (Acta Math. Hungar. 1994) prove that infinite additive
+  complements with $A(x)B(x)\sim x$ have $A(x)B(x)-x\to\infty$, and that this
+  excess is not even $o(A(x))$. The claim is accepted, refereed and credited by
+  the site.
 authors:
 - A. Sárközy
 - E. Szemerédi
@@ -55,11 +56,13 @@ later results with their own pages, not part of this claim.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed: Acta Math. Hungar. 64 (1994), no. 3, 237--245,
-doi:10.1007/BF01874252; the Crossref record dates the issue to September 1994,
-filled to the first of the month for this page's name. Reviewed: the site's
-curator, Thomas Bloom, credits the affirmative answer to Sárközy and Szemerédi
-in the problem page's commentary and labels the problem PROVED (LEAN) on the
-page last edited 7 March 2026, and the formal-conjectures catalog's statement
-file for the problem names them as the source of the proof; the community
-database lists the problem as proved as of its last update on 2026-03-06.
-Nothing here rests on a review by this project.
+doi:10.1007/BF01874252. The Crossref record dates the issue to September 1994,
+and this page's name fills that to the first of the month.
+
+Reviewed: the site's curator, Thomas Bloom, credits the affirmative answer to
+Sárközy and Szemerédi in the problem page's commentary. The curator labels the
+problem PROVED (LEAN) on the page, last edited 7 March 2026. The
+formal-conjectures catalog's statement file for the problem names Sárközy and
+Szemerédi as the source of the proof. The community database lists the problem
+as proved as of its last update on 2026-03-06. Nothing here rests on a review by
+this project.

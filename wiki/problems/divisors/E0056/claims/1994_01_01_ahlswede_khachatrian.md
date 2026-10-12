@@ -2,9 +2,10 @@
 name: problems/divisors/E0056/claims/1994_01_01_ahlswede_khachatrian
 title: Ahlswede and Khachatrian, a larger set for k equal to 212
 desc: |
-  For k equal to 212 and N in an explicit range there is a larger subset of
-  the first N integers with no 213 pairwise coprime elements than the
-  multiples of the first 212 primes, so the conjectured extremal set fails.
+  Ahlswede and Khachatrian show that for $k=212$ and $N$ in an explicit range,
+  some subset of $\{1,\ldots,N\}$ with no $213$ pairwise coprime elements is
+  larger than the set of multiples of the first $212$ primes. So the conjectured
+  extremal set fails.
 authors:
 - Rudolf Ahlswede
 - Levon Khachatrian
@@ -69,10 +70,10 @@ and 2025-11-27; the link is pinned to the last commit that touched the file at
 its present path. This corpus has not built or audited the file, so no
 `formalized` evidence is listed.
 
-**Acceptance.** The site's curator, T. F. Bloom, marks the problem disproved
-and credits this paper for the case $k=212$, which the page lists as
-`reviewed`. The paper is R. Ahlswede and L. H. Khachatrian, On extremal sets
-without coprimes, Acta Arith. 66 (1994), no. 1, 89--99, a refereed journal,
-listed as `refereed`. The page is dated by the publication year alone: the
-publisher's record gives 1994 without a month, so the first day of the year
-stands in for the issue date.
+**Acceptance.** The site's curator, T. F. Bloom, marks the problem disproved and
+credits this paper for the case $k=212$. This is listed as `reviewed`. The paper
+is R. Ahlswede and L. H. Khachatrian, On extremal sets without coprimes, Acta
+Arith. 66 (1994), no. 1, 89--99. It appeared in a refereed journal and is listed
+as `refereed`. The page is dated by the publication year alone. The publisher's
+record gives 1994 without a month, so the first day of the year stands in for
+the issue date.

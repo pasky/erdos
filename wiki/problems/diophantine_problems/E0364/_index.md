@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0364
 title: Problem 364
 desc: |
-  Asks whether three consecutive positive integers can all be powerful,
-  meaning every prime dividing such a number divides it at least twice.
+  Asks whether three consecutive positive integers can all be powerful, meaning
+  that every prime dividing such a number divides it at least twice.
 tags:
 - Number theory
 - Powerful numbers
@@ -24,14 +24,14 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Are there any triples of consecutive positive integers all of
 which are powerful (i.e. if $p\mid n$ then $p^2\mid n$)?
 
-**Status.** Verifiable: the site's label, meaning open but settled by a finite
-example if one exists (page last edited 13 April 2026; problem page,
-discussion thread and proof-claims tab read 2026-10-07). The site's
-proof-claims tab carries one partial proof claim, Sayim's exclusion of the two
-mixed shapes for the neighbors of a cube, recorded on
-[[problems/diophantine_problems/E0364/claims/2026_06_12_sayim|its claim page]]
-as pending; no claim settles the question, and the frontmatter standing is
-derived from the claim pages.
+**Status.** Verifiable, the site's label. It means open, but settled by a finite
+example if one exists. The page was last edited 13 April 2026, and the problem
+page, discussion thread and proof-claims tab were read 2026-10-07. No claim
+settles the question, and the frontmatter standing is derived from the claim
+pages. The site's proof-claims tab carries one partial proof claim: Sayim's
+exclusion of the two mixed shapes for the neighbors of a cube. It is recorded as
+pending on
+[[problems/diophantine_problems/E0364/claims/2026_06_12_sayim|its claim page]].
 
 **Source.** [erdosproblems.com/364](https://www.erdosproblems.com/364), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #364,

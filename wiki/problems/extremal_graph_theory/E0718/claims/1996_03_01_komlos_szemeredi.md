@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0718/claims/1996_03_01_komlos_szemeredi
 title: Komlós and Szemerédi's proof of the Erdős–Hajnal–Mader conjecture
 desc: |
-  Komlós and Szemerédi prove, by refining their earlier method, that a
-  constant times r^2 n edges on n vertices force a subdivision of the complete
-  graph on r vertices, an independent second proof answering Problem 718.
+  Komlós and Szemerédi refine their earlier method to prove that $cr^2n$ edges
+  on $n$ vertices, for a constant $c$, force a subdivision of $K_r$. This is an
+  independent second proof answering Problem 718.
 authors:
 - János Komlós
 - Endre Szemerédi
@@ -50,17 +50,16 @@ which attributes it to both pairs of authors.
 
 **Acceptance.** The paper is a refereed publication in Combinatorics,
 Probability and Computing (volume 5, issue 1, March 1996, per the Crossref
-record; the `refereed` evidence), and the site's curator, Thomas Bloom, records
-the problem as proved by it and by the independent proof of
-[[problems/extremal_graph_theory/E0718/claims/1996_09_01_bollobas_thomason|Bollobás and Thomason]]
-(the `reviewed` evidence; Bloom took no part in either paper). Two refereed
-attestations are in print: Bollobás and Thomason's 1998 paper, which names it
-as an alternative proof of the conjecture, and Fox, Lee and Sudakov's quotation.
-The basis of this page is the paper's abstract alone, and nothing is
-independently reviewed. The acceptance recorded here rests on the publication,
-the printed attestations and the site's acceptance, not on a local review; the
-theorem is stated first-hand only in Bollobás and Thomason's text, on their
-claim page.
+record). This is the `refereed` evidence. The site's curator, Thomas Bloom,
+records the problem as proved by this paper and by the independent proof of
+[[problems/extremal_graph_theory/E0718/claims/1996_09_01_bollobas_thomason|Bollobás and Thomason]].
+This is the `reviewed` evidence, and Bloom took no part in either paper. Two
+refereed attestations are in print. Bollobás and Thomason's 1998 paper names it
+as an alternative proof of the conjecture, and Fox, Lee and Sudakov quote it.
+This page is based on the paper's abstract alone, and nothing is independently
+reviewed. The acceptance recorded here rests on the publication, the printed
+attestations and the site's acceptance, not on a local review. The theorem is
+stated first-hand only in Bollobás and Thomason's text, on their claim page.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos718.lean` of
 Boris Alexeev's `plby/lean-proofs` repository, at the commit linked above,

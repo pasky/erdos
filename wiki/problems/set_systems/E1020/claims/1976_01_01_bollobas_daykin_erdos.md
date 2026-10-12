@@ -2,9 +2,10 @@
 name: problems/set_systems/E1020/claims/1976_01_01_bollobas_daykin_erdos
 title: Bollobás, Daykin and Erdős's range n > 2 r cubed (k - 1)
 desc: |
-  Bollobás, Daykin and Erdős (1976) prove that for n > 2 r^3 (k - 1) an
-  r-uniform hypergraph with no k pairwise disjoint edges and more edges than
-  the covering family minus a correction is contained in it; refereed.
+  Bollobás, Daykin and Erdős (1976) prove that for $n>2r^3(k-1)$ an $r$-uniform
+  hypergraph with no $k$ pairwise disjoint edges, and with more edges than the
+  covering family minus a correction term, lies inside that family. The paper is
+  refereed.
 authors:
 - B. Bollobás
 - D. E. Daykin
@@ -60,8 +61,8 @@ and to order $rk$ on
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper appeared in the Quarterly Journal of
-Mathematics, Oxford Second Series, in 1976 (volume 27, issue 1); the record
-gives only the year, so the page is dated to its first day. The site labels
-the problem FALSIFIABLE, an open label, so its commentary, which credits the
-range to the paper as [BDE76], is not acceptance and no `reviewed` is listed.
-Nothing here rests on this project's own review.
+Mathematics, Oxford Second Series, in 1976 (volume 27, issue 1). The record
+gives only the year, so the page is dated to its first day. The site's
+commentary credits the range to the paper as [BDE76]. The site labels the
+problem FALSIFIABLE, an open label, so this commentary is not acceptance and no
+`reviewed` is listed. Nothing here rests on this project's own review.

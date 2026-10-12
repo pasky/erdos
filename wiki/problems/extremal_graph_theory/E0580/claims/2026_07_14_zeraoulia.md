@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0580/claims/2026_07_14_zeraoulia
 title: Zeraoulia's certified SAT verification of the vertex form for n at most 19
 desc: |
-  A computer-assisted verification, posted on the site's proof-claim tab with a
-  Zenodo archive, that the site's vertex formulation holds for every n at most
-  19; reclassified partial by a moderator, unreviewed, silent on n at least 20.
+  On the site's proof-claim tab, with a Zenodo archive, Rafik Zeraoulia claims a
+  computer-assisted verification that the site's vertex formulation holds for
+  every $n\le19$. The claim is unreviewed, was reclassified as partial by a
+  moderator, and says nothing about $n\ge20$.
 authors:
 - Rafik Zeraoulia
 status: claimed

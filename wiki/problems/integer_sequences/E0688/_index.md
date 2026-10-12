@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0688
 title: Problem 688
 desc: |
-  Asks for the largest exponent such that one residue class per prime between
-  n to that exponent and n covers every integer from 1 to n, and whether it
-  tends to zero; open, between Erdős's lower bound and a counting bound of 1/e.
+  Asks for the largest $\epsilon_n$ such that one residue class for each prime
+  $p$ with $n^{\epsilon_n}<p\le n$ covers every integer in $[1,n]$, and whether
+  $\epsilon_n\to0$. It is open, between Erdős's lower bound and a counting bound
+  of $1/e$.
 tags:
 - Number theory
 status: open
@@ -42,18 +43,18 @@ also open. Problem 687 uses all primes up to $x$ and optimizes the covered
 interval; here the interval is fixed and the window of primes is truncated
 from below.
 
-**Status.** Open. The site labels the problem OPEN. Two results are in hand:
-Erdős's lower bound $\epsilon_n\gg\log\log\log n/\log\log n$, asserted in
-[Er79d] p. 79 ("I can prove") and [Er80] p. 106 ("It is not difficult to prove")
-without a proof in either source, which the formal-conjectures collection marks
-`research solved` as a variant, and the elementary counting bound
-$\limsup\epsilon_n\le1/e$ proved under What is known. No upper bound tending to
-$0$, and nothing toward $\epsilon_n=o(1)$, was found in the search whose
-scope the Current assessment records. Erdős's own remark in [Er80] ties the
-question to the Erdős--Ruzsa covering conjecture of Problem 1200: if that
-conjecture holds "then very likely $\epsilon_x>c$ for some absolute constant
-$c$", that is, the answer to the displayed question would be no. This is a
-bounded negative finding, not a certificate of openness.
+**Status.** Open. The site labels the problem OPEN. Two results are in hand. The
+first is Erdős's lower bound $\epsilon_n\gg\log\log\log n/\log\log n$. He
+asserts it in [Er79d] p. 79 ("I can prove") and [Er80] p. 106 ("It is not
+difficult to prove"), without a proof in either source. The formal-conjectures
+collection marks it `research solved` as a variant. The second is the elementary
+counting bound $\limsup\epsilon_n\le1/e$, proved under What is known. No upper
+bound tending to $0$, and nothing toward $\epsilon_n=o(1)$, was found in the
+search whose scope the Current assessment records. This is a bounded negative
+finding, not a certificate of openness. Erdős's own remark in [Er80] ties the
+question to the Erdős--Ruzsa covering conjecture of Problem 1200. If that
+conjecture holds, "then very likely $\epsilon_x>c$ for some absolute constant
+$c$", that is, the answer to the displayed question would be no.
 
 **Source.** [erdosproblems.com/688](https://www.erdosproblems.com/688),
 accessed 2026-09-18: the problem page (OPEN, with

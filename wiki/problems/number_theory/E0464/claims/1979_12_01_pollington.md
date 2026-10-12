@@ -2,9 +2,10 @@
 name: problems/number_theory/E0464/claims/1979_12_01_pollington
 title: Pollington's multipliers with separated fractional parts
 desc: |
-  Pollington's Theorem: for every sequence with consecutive ratios at least
-  alpha > 1 there are beta > 0 and uncountably many xi with every fractional
-  part of xi t_k in [beta, 1 - beta]; an irrational xi answers Problem 464.
+  Pollington's Theorem: for every sequence $(t_k)$ with consecutive ratios at
+  least $\alpha>1$ there are $\beta>0$ and uncountably many $\xi$ such that
+  every fractional part of $\xi t_k$ lies in $[\beta,1-\beta]$. An irrational
+  such $\xi$ answers Problem 464.
 authors:
 - A. D. Pollington
 status: accepted
@@ -60,9 +61,9 @@ structure only, and nothing here is independently reviewed.
 
 **Acceptance.** The paper is refereed: A. D. Pollington, *On the density of
 sequence $\{n_k\xi\}$*, Illinois J. Math. 23, no. 4 (December 1979), 511--515,
-received 14 February 1979. Erdős announced in 1982 that de Mathan and
-Pollington had settled the problem independently, and Katznelson records the
-same; Peres and Schlag credit both papers. The site's curator, Thomas F.
-Bloom, marks Problem 464 proved and credits this paper, with de Mathan's, with
-the solution. The page is dated by the first day of the issue month, since the
-paper's first posting carries no finer date.
+received 14 February 1979. Erdős announced in 1982 that de Mathan and Pollington
+had settled the problem independently. Katznelson records the same, and Peres
+and Schlag credit both papers. The site's curator, Thomas F. Bloom, marks
+Problem 464 proved and credits this paper, with de Mathan's, with the solution.
+The page is dated by the first day of the issue month, since the paper's first
+posting carries no finer date.

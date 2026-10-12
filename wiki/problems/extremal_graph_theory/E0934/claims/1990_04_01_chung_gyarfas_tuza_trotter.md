@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0934/claims/1990_04_01_chung_gyarfas_tuza_trotter
 title: Chung, Gyárfás, Tuza and Trotter's exact value of h_2(d)
 desc: |
-  Theorem 4 of Chung, Gyárfás, Tuza and Trotter (Discrete Math. 1990) bounds the
-  edges of a 2K_2-free graph of maximum degree D, whence h_2(d) = 5d^2/4 + 1 for
-  even d and (5d^2 - 2d + 1)/4 + 1 for odd d, the t = 2 case; refereed.
+  Theorem 4 of Chung, Gyárfás, Tuza and Trotter (Discrete Math. 1990, refereed)
+  bounds the edges of a $2K_2$-free graph of maximum degree $D$. Hence
+  $h_2(d)=5d^2/4+1$ for even $d$ and $(5d^2-2d+1)/4+1$ for odd $d$, the case
+  $t=2$.
 authors:
 - F.R.K. Chung
 - A. Gyárfás
@@ -59,10 +60,11 @@ general $t$.
 **Depends on.** No page of this wiki; the proof is the paper's own.
 
 **Acceptance.** Refereed: Discrete Mathematics, volume 81, issue 2, issued April
-1990 (the Crossref record; the issue carries no publication day, so this page is
-named by the first day of its month). The site's curator, Thomas F. Bloom,
-credits the proof of the $t=2$ conjecture to Chung, Gyárfás, Tuza and Trotter in
-the problem page's commentary, where the label is OPEN (page last edited 28
-October 2025); commentary on an open problem is not acceptance of the problem,
-so the credit is recorded and not listed as `reviewed`. The card records the
-proof of Theorem 4 as not read, and nothing is independently reviewed.
+1990 according to the Crossref record. The issue carries no publication day, so
+this page is named by the first day of its month. The site's curator, Thomas F.
+Bloom, credits the proof of the $t=2$ conjecture to Chung, Gyárfás, Tuza and
+Trotter in the problem page's commentary. The label there is OPEN (page last
+edited 28 October 2025). Commentary on an open problem is not acceptance of the
+problem, so the credit is recorded but not listed as `reviewed`. The card
+records the proof of Theorem 4 as not read, and nothing is independently
+reviewed.

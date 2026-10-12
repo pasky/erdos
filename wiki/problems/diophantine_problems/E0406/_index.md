@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0406
 title: Problem 406
 desc: |
-  Asks whether only finitely many powers of two are written with just the
-  digits zero and one in base three.
+  Asks whether only finitely many powers of $2$ use only the digits $0$ and $1$
+  in base $3$.
 tags:
 - Number theory
 - Base representations

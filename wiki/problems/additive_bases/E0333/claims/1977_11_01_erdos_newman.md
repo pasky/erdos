@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0333/claims/1977_11_01_erdos_newman
 title: Erdős and Newman's basis bound for most sets
 desc: |
-  Theorem 2 of Erdős and Newman (1977) bounds below the smallest basis of
-  most n-element subsets of [N]; glued along a dyadic sequence it gives a
-  density-zero set with no basis of size o(N^{1/2}), a negative answer.
+  Theorem 2 of Erdős and Newman (1977) gives a lower bound on the smallest basis
+  of most $n$-element subsets of $[N]$. Gluing such sets along a dyadic sequence
+  gives a density-zero set with no basis of size $o(N^{1/2})$, a negative
+  answer.
 authors:
 - P. Erdős
 - D. J. Newman
@@ -59,18 +60,18 @@ expands that sketch, has no independent review and rests on the statement of
 Theorem 2 as printed.
 
 **Acceptance.** Refereed: Theorem 2 is a journal theorem (J. Number Theory).
-Reviewed: the deduction of the negative answer from it was pointed out in
-the problem's forum thread on 2025-12-25, after which the site's curator,
-T. F. Bloom, relabeled the problem disproved and recorded in the commentary
-that the theorem settles the question negatively and that Erdős and Graham
-seem not to have noticed this (site page last edited 2025-12-27); the curator
-took no part in the claim, and this is the site's acceptance, the only review
-listed. The preprint of Feng, Trinh, Bingham and coauthors (arXiv:2601.22401,
-January 2026) is the identifying team's own account, not an independent one:
-its Remark 5.1 says that the forum identification was posted for the team
-after its Gemini-based research agent Aletheia had found Theorem 2 in the
-literature, and the preprint lists the problem among its five literature
-identifications
+Reviewed: the deduction of the negative answer from it was pointed out in the
+problem's forum thread on 2025-12-25. The site's curator, T. F. Bloom, then
+relabeled the problem disproved (site page last edited 2025-12-27). The
+commentary records that the theorem settles the question negatively, and that
+Erdős and Graham seem not to have noticed this. The curator took no part in the
+claim. This is the site's acceptance and the only review listed.
+
+The preprint of Feng, Trinh, Bingham and coauthors (arXiv:2601.22401, January
+2026) is the identifying team's own account, not an independent one. Its Remark
+5.1 says that the forum identification was posted for the team after its
+Gemini-based research agent Aletheia had found Theorem 2 in the literature. The
+preprint lists the problem among its five literature identifications
 ([[../library/distance_problems/feng_2026_semi_autonomous_mathematics_discovery_gemini_case/_index|source card]]).
 This project has not reviewed the proof of Theorem 2, and the paper's proof is
 not compiled.

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0752/claims/1999_04_01_erdos_faudree_rousseau_schelp
 title: Erdős, Faudree, Rousseau and Schelp's girth-five case
 desc: |
-  Erdős, Faudree, Rousseau and Schelp prove the case s = 2 of Problem 752, that
-  a graph of minimum degree k and girth at least five has order k^2 distinct
-  cycle lengths; Discrete Math. 200 (1999), known through later citations.
+  Erdős, Faudree, Rousseau and Schelp prove the case $s=2$ of Problem 752: a
+  graph of minimum degree $k$ and girth at least five has $\Omega(k^2)$ distinct
+  cycle lengths. The paper is in Discrete Math. 200 (1999) and is known through
+  later citations.
 authors:
 - P. Erdős
 - R.J. Faudree
@@ -48,12 +49,11 @@ minimum degree $k$ and girth $>4$ has $\gg k^2$ distinct cycle lengths. The
 cases $s\ge3$ are not covered; they are settled by Sudakov and Verstraëte on
 [[problems/extremal_graph_theory/E0752/claims/2007_07_14_sudakov_verstraete|their claim page]].
 
-**Acceptance.** Refereed: Discrete Mathematics, per the publisher's
-Crossref record. Reviewed: Sudakov and Verstraëte state in their refereed
-paper that Erdős's conjecture was proved for girth five by Erdős, Faudree,
-Rousseau and Schelp. As context and not as evidence, the site's curator,
-Thomas Bloom, credits the case $s=2$ to Erdős, Faudree and Schelp in the
-problem's commentary, naming three of the four authors; the label PROVED
-rests on Sudakov and Verstraëte and the problem lists no parts, so that
-credit is no `reviewed` evidence. This corpus supplies no independent proof
-review.
+**Acceptance.** Refereed: Discrete Mathematics, per the publisher's Crossref
+record. Reviewed: Sudakov and Verstraëte state in their refereed paper that
+Erdős's conjecture was proved for girth five by Erdős, Faudree, Rousseau and
+Schelp. As context and not as evidence, the site's curator, Thomas Bloom,
+credits the case $s=2$ to Erdős, Faudree and Schelp in the problem's commentary,
+naming three of the four authors. The label PROVED rests on Sudakov and
+Verstraëte, and the problem lists no parts, so that credit is not `reviewed`
+evidence. This corpus supplies no independent proof review.

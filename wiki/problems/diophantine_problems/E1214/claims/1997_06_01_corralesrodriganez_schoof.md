@@ -2,9 +2,9 @@
 name: problems/diophantine_problems/E1214/claims/1997_06_01_corralesrodriganez_schoof
 title: Equal prime supports of x^n - 1 and y^n - 1 force x = y
 desc: |
-  Corrales-Rodrigáñez and Schoof prove that if, for almost all primes p and
-  all n, p dividing x^n - 1 implies p dividing y^n - 1, then y is a power
-  of x; for positive integers with equal supports this gives x = y.
+  Corrales-Rodrigáñez and Schoof prove that if, for almost all primes $p$ and
+  all $n$, $p\mid x^n-1$ implies $p\mid y^n-1$, then $y$ is a power of $x$. For
+  positive integers with equal supports this gives $x=y$.
 authors:
 - Capi Corrales-Rodrigáñez
 - René Schoof
@@ -58,9 +58,9 @@ cyclotomic and division fields. Theorem 2 is the elliptic analogue for points
 on an elliptic curve, not needed here.
 
 **Acceptance.** Refereed: J. Number Theory 64 (1997). Reviewed: the site's
-curator, Thomas Bloom, marks the problem proved and credits the paper with
-the positive answer (problem page last edited 2026-04-12; the community
-database records the proved status from 2026-04-21). This corpus has not
+curator, Thomas Bloom, marks the problem proved and credits the paper with the
+positive answer. The problem page was last edited 2026-04-12, and the community
+database records the proved status from 2026-04-21. This corpus has not
 independently verified the proof.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos1214.lean` of

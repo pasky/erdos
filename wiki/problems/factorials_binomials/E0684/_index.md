@@ -2,8 +2,9 @@
 name: problems/factorials_binomials/E0684
 title: Problem 684
 desc: |
-  Splits n choose k into the part made of primes at most k and the part made
-  of primes above k, and asks how the sizes of the two parts compare.
+  Writes $\binom{n}{k}=uv$, where the prime factors of $u$ are at most $k$ and
+  those of $v$ lie in $(k,n]$, and asks for bounds on the least $k$ with
+  $u>n^2$.
 tags:
 - Number theory
 - Primes
@@ -34,21 +35,22 @@ $v$ are in $(k,n]$.
 Let $f(n)$ be the smallest $k$ such that $u>n^2$. Give bounds for $f(n)$.
 
 **Status.** Open. The site labels the problem OPEN (page last edited 1 April
-2026), its remarks recording the bounds of [APSSV26] and of Tang and ChatGPT
-and crediting no solution. The standing derives from the claim pages, three
-pending partial claims, none of which determines the order of $f(n)$:
-[[problems/factorials_binomials/E0684/claims/2026_01_19_tang|Tang 2026]], a
-research note with the bound $f(n)\le\lceil n^{12/17+\varepsilon}\rceil$ and
-the thread's exponent $30/43$;
-[[problems/factorials_binomials/E0684/claims/2026_03_31_alexeev_putterman_sawhney_sellke_valiant|Alexeev, Putterman, Sawhney, Sellke and Valiant 2026]],
-an arXiv preprint with $f(n)\le(24/(\pi^2-6)+o(1))(\log n)^2$ for all large
-$n$ and $f(n)\ge(1/2+o(1))\log n$ along a sequence; and
-[[problems/factorials_binomials/E0684/claims/2026_09_03_bae|Bae 2026]], an
+2026). Its remarks record the bounds of [APSSV26] and of Tang and ChatGPT, and
+credit no solution. The standing derives from the claim pages. The problem is
+`open`, with no settling or pending full claim.
+
+There are three pending partial claims, and none of them determines the order of
+$f(n)$. [[problems/factorials_binomials/E0684/claims/2026_01_19_tang|Tang 2026]]
+is a research note with the bound $f(n)\le\lceil n^{12/17+\varepsilon}\rceil$
+and the thread's exponent $30/43$.
+[[problems/factorials_binomials/E0684/claims/2026_03_31_alexeev_putterman_sawhney_sellke_valiant|Alexeev, Putterman, Sawhney, Sellke and Valiant 2026]]
+is an arXiv preprint. It proves $f(n)\le(24/(\pi^2-6)+o(1))(\log n)^2$ for all
+large $n$ and $f(n)\ge(1/2+o(1))\log n$ along a sequence.
+[[problems/factorials_binomials/E0684/claims/2026_09_03_bae|Bae 2026]] is an
 arXiv preprint with a Lean 4 proof that
-$f(n)\ge(1/2-o(1))\log n\,\log\log n/\log\log\log n$ for infinitely many
-$n$, which the site's curator relabeled partial because the order of $f(n)$
-stays undetermined. So the problem is `open` with no settling or pending full
-claim. Known Results below record the density-one results, which have no
+$f(n)\ge(1/2-o(1))\log n\,\log\log n/\log\log\log n$ for infinitely many $n$.
+The site's curator relabeled it partial because the order of $f(n)$ stays
+undetermined. Known Results below record the density-one results, which have no
 claim pages.
 
 **Source.** [erdosproblems.com/684](https://www.erdosproblems.com/684), accessed

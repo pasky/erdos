@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0645
 title: Problem 645
 desc: |
-  Asks whether every two-coloring of the positive integers has a monochromatic
-  three-term progression whose difference exceeds its first term; proved by
-  Brown and Landman in 1999, with an elementary argument recorded by the site.
+  Asks whether every 2-coloring of the positive integers has a monochromatic
+  progression $x,x+d,x+2d$ with $d>x$. Proved by Brown and Landman in 1999, and
+  the site also records an elementary argument.
 tags:
 - Number theory
 - Additive combinatorics
@@ -43,29 +43,29 @@ progression whose difference is larger than its first term." The site's
 quotation "perhaps this is easy or false" is not on that page and is
 presumably from the second source key [Er95c], not held.
 
-**Status.** The site labels the problem PROVED (LEAN), a label it explains
-as a positive solution whose proof has been checked in Lean. The question
-is proved. The status-defining source is Theorem 7 of Brown and Landman
-(Bull. Austral. Math. Soc. 60 (1999), 21--35, refereed; paged here by the
-authors' own version): for every function $f$ from the positive integers to
-the positive reals, $w(f,3,2)$ exists; the first proof shows directly that
-every 2-coloring of the positive integers has a monochromatic three-term
-progression with $d\ge f(a)$, and $f(a)=a+1$ is this problem. The site's
-elementary argument, attributed to Ryan Alweiss, is checked below as an
-authored verification and is correct with one index adjusted, and a Lean
-proof of it was built and audited in this corpus (see "Formalization and
-the Lean label" below). The site's further remark that the statement fails
-for four-term progressions is true (Brown and Landman's Theorem 12 with
-$k=4$, $r=2$), but the explicit coloring the site and Erdős offer as a
-witness does not have the property (an observation made here, below). The
-claim pages
+**Status.** The site labels the problem PROVED (LEAN), a label it explains as a
+positive solution whose proof has been checked in Lean. The question is proved.
+The claim pages
 [[problems/ramsey_theory/E0645/claims/1999_08_01_brown_landman|Brown and Landman 1999]]
-and [[problems/ramsey_theory/E0645/claims/2025_10_20_alweiss|Alweiss's argument]]
-record the two proofs, their postings and their standing: Brown and
-Landman's theorem is accepted on its refereed publication and the curator's
-credit, and Alweiss's argument, whose only posting is the curator's own
-commentary, is accepted on the Lean proof built and audited here; the
-frontmatter standing derives from them.
+and
+[[problems/ramsey_theory/E0645/claims/2025_10_20_alweiss|Alweiss's argument]]
+record the two proofs, their postings and their standing, and the frontmatter
+standing derives from them. Brown and Landman's theorem is accepted on its
+refereed publication and the curator's credit. Alweiss's argument, whose only
+posting is the curator's own commentary, is accepted on the Lean proof built and
+audited here. The status-defining source is Theorem 7 of Brown and Landman
+(Bull. Austral. Math. Soc. 60 (1999), 21--35, refereed; paged here by the
+authors' own version). It states that for every function $f$ from the positive
+integers to the positive reals, $w(f,3,2)$ exists. The first proof shows
+directly that every 2-coloring of the positive integers has a monochromatic
+three-term progression with $d\ge f(a)$, and $f(a)=a+1$ is this problem. The
+site's elementary argument, attributed to Ryan Alweiss, is checked below as an
+authored verification. It is correct with one index adjusted. A Lean proof of it
+was built and audited in this corpus (see "Formalization and the Lean label"
+below). The site further remarks that the statement fails for four-term
+progressions, and this is true (Brown and Landman's Theorem 12 with $k=4$,
+$r=2$). However, the explicit coloring that the site and Erdős offer as a
+witness does not have the property (an observation made here, below).
 
 **Source.** [erdosproblems.com/645](https://www.erdosproblems.com/645),
 accessed 2026-09-18: the problem page (PROVED (LEAN),

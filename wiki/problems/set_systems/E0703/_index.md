@@ -2,8 +2,9 @@
 name: problems/set_systems/E0703
 title: Problem 703
 desc: |
-  The largest family of subsets of the first n integers in which no two
-  members intersect in exactly r elements.
+  Asks for the largest family of subsets of $\{1,\ldots,n\}$ in which no two
+  members meet in exactly $r$ elements, and whether for each $\epsilon>0$ it is
+  below $(2-\delta)^n$ for some $\delta>0$ when $\epsilon n<r<(1/2-\epsilon)n$.
 tags:
 - Combinatorics
 status: solved
@@ -34,19 +35,19 @@ $$
 
 **Status.** Proved on the site (label PROVED at the access of 2026-09-04; page
 last edited 16 October 2025). The community database lists the status as proved
-(Lean) as of its last update, dated 2026-09-16, the Lean qualification resting
-on Collin Yuanjie Ren's formalization of the Frankl–Füredi theorem, which is
-linked from
+(Lean) as of its last update, dated 2026-09-16. The Lean qualification rests on
+Collin Yuanjie Ren's formalization of the Frankl–Füredi theorem, which is linked
+from
 [[problems/set_systems/E0703/claims/1984_03_01_frankl_furedi|the Frankl–Füredi claim page]].
-The site records that $T(n,0)=2^{n-1}$ trivially, that Frankl and Füredi
-[FrFu84b] determined $T(n,r)$ for fixed $r$ and $n$ large in terms of $r$ (the
-extremal family being the sets of size less than $r$ together with the large
-sets of Katona's family, in its odd and even forms), that Frankl [Fr77b] had
-done the case $r=1$ for every $n$, that a yes answer to the second question
-implies the exponential growth of the chromatic number of the unit-distance
-graph of $\mathbb R^n$, proved by other means by Frankl and Wilson [FrWi81] (see
-[[problems/discrete_geometry/E0704/_index|Problem 704]]), and that Frankl and
-Rödl [FrRo87] answered the second question yes.
+The site records that $T(n,0)=2^{n-1}$ trivially. It records that Frankl and
+Füredi [FrFu84b] determined $T(n,r)$ for fixed $r$ and $n$ large in terms of
+$r$. Their extremal family consists of the sets of size less than $r$ together
+with the large sets of Katona's family, in its odd and even forms. Frankl
+[Fr77b] had done the case $r=1$ for every $n$. A yes answer to the second
+question implies that the chromatic number of the unit-distance graph of
+$\mathbb R^n$ grows exponentially. Frankl and Wilson [FrWi81] proved this by
+other means (see [[problems/discrete_geometry/E0704/_index|Problem 704]]).
+Frankl and Rödl [FrRo87] answered the second question yes.
 
 **Source.** [erdosproblems.com/703](https://www.erdosproblems.com/703), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #703,

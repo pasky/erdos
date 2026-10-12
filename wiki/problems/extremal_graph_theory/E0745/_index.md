@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0745
 title: Problem 745
 desc: |
-  Asks for the size of the second largest component of the random graph on n
-  vertices with edge probability one over n; the site credits Komlós, Sulyok
-  and Szemerédi's supercritical log n bound; Aldous (1997) gives n^(2/3).
+  Asks for the size of the second largest component of the random graph on $n$
+  vertices with edge probability $1/n$. Aldous (1997) gives order $n^{2/3}$,
+  while the site credits Komlós, Sulyok and Szemerédi's supercritical $\log n$
+  bound.
 tags:
 - Graph theory
 status: solved
@@ -38,48 +39,55 @@ edges as a function of $k$, with the singularity at $k=n/2$; the site's $p=1/n$
 (mean $\binom n2/n\approx n/2$ edges) is the same critical point. The size of a
 component is its number of vertices.
 
-**Status.** PROVED is the site's label, which credits Komlós, Sulyok and
+**Status.** PROVED is the site's label. It credits Komlós, Sulyok and
 Szemerédi's 1980 paper [KSS80] (Studia Sci. Math. Hungar. 15 (1980), 391--395)
 with proving Erdős's expectation that the second largest component has size
-$\ll\log n$ almost surely. The standing in the frontmatter is derived from the
-claim pages and differs from the label. [KSS80] is not held (the routes tried
-are recorded below), and its theorem is known second-hand, from the site's
-commentary, from a thread comment of 25 August 2026, which says that [KSS80]
-assumes $\lambda>1$ strictly, and from the docstring of an external Lean file
-describing "the KSS logarithmic upper bound" as holding "for each fixed
-supercritical parameter": for every fixed $\lambda>1$ the second largest
-component of $G(n,\lambda/n)$ has $O(\log n)$ vertices with high probability.
-Erdős himself attests the resolution in the added-in-proof sentence of his 1981
-paper ("These questions were cleared up by Komlós and Szemerédi", [Er81], Part
-VIII, copy p. 16). The problem fixes $p=1/n$, that is $\lambda=1$, where the
-theorem says nothing and where the second largest component is not of order
-$\log n$ but of order $n^{2/3}$, the order of the largest components in the
-critical window (Erdős and Rényi 1960 [ErRe60] prove that order at $N\sim n/2$
-for the greatest tree, Theorem 7c, and state it for the largest component in
-their summary on p. 52; Aldous 1997 [Al97] proves the limit law of all the
-largest components, the second included, at $p=1/n$). So Erdős's expectation,
-stated for the whole process ("never be large, perhaps not much larger than
-$\log n$ and certainly $o(n^\varepsilon)$", [Er81], copy p. 16), holds for fixed
-$\lambda>1$ and fails at the asked parameter. The theorem is correct, but it
+$\ll\log n$ almost surely. The frontmatter standing is derived from the claim
+pages and differs from the label. The theorem of [KSS80] is correct, but it
 answers the supercritical case the site's label credits ($\lambda>1$), not the
-Statement ($p=1/n$), so it does not count toward the problem's standing, and its
+Statement ($p=1/n$). So it does not count toward the problem's standing, and its
 claim page,
 [[problems/extremal_graph_theory/E0745/claims/1980_01_01_komlos_sulyok_szemeredi|Komlós, Sulyok and Szemerédi 1980]],
 is rejected. The accepted full claim is
 [[problems/extremal_graph_theory/E0745/claims/1997_04_01_aldous|Aldous 1997]],
-refereed: for fixed $t$ the component sizes of $G(n,1/n+tn^{-4/3})$, scaled by
-$n^{-2/3}$, converge in law to Brownian excursion lengths, so at $t=0$, the
-asked parameter, $L_2=\Theta_{\mathbb P}(n^{2/3})$; this describes what the
-problem asks for, so the claim's value is solved. Two Lean developments reach
-the same order and are pending full claims: Boris Alexeev's
-[[problems/extremal_graph_theory/E0745/claims/2026_08_25_alexeev|Alexeev 2026]],
-which also gives the logarithmic order with its coefficient for every fixed
-$\lambda\ne1$, and Jingxuan Ding's
-[[problems/extremal_graph_theory/E0745/claims/2026_10_04_ding|Ding 2026]], a
+refereed. It describes what the problem asks for, so the claim's value is
+solved.
+
+The paper [KSS80] is not held, and the routes tried are recorded below. Its
+theorem is known second-hand, from the site's commentary, from a thread comment
+of 25 August 2026, and from the docstring of an external Lean file. The thread
+comment says that [KSS80] assumes $\lambda>1$ strictly. The docstring describes
+"the KSS logarithmic upper bound" as holding "for each fixed supercritical
+parameter". The theorem says that for every fixed $\lambda>1$ the second largest
+component of $G(n,\lambda/n)$ has $O(\log n)$ vertices with high probability.
+Erdős himself attests the resolution in the added-in-proof sentence of his 1981
+paper ("These questions were cleared up by Komlós and Szemerédi", [Er81], Part
+VIII, copy p. 16).
+
+The problem fixes $p=1/n$, that is $\lambda=1$. There the theorem says nothing.
+At this parameter the second largest component is not of order $\log n$ but of
+order $n^{2/3}$, the order of the largest components in the critical window.
+Erdős and Rényi 1960 [ErRe60] prove that order at $N\sim n/2$ for the greatest
+tree (Theorem 7c) and state it for the largest component in their summary on
+p. 52. Aldous 1997 [Al97] proves the limit law of all the largest components, the
+second included, at $p=1/n$. So Erdős's expectation, stated for the whole
+process ("never be large, perhaps not much larger than $\log n$ and certainly
+$o(n^\varepsilon)$", [Er81], copy p. 16), holds for fixed $\lambda>1$ and fails
+at the asked parameter.
+
+Aldous's accepted result states that for fixed $t$ the component sizes of
+$G(n,1/n+tn^{-4/3})$, scaled by $n^{-2/3}$, converge in law to Brownian
+excursion lengths. So at $t=0$, the asked parameter,
+$L_2=\Theta_{\mathbb P}(n^{2/3})$. Two Lean developments reach the same order
+and are pending full claims. Boris Alexeev's
+[[problems/extremal_graph_theory/E0745/claims/2026_08_25_alexeev|Alexeev 2026]]
+also gives the logarithmic order with its coefficient for every fixed
+$\lambda\ne1$. Jingxuan Ding's
+[[problems/extremal_graph_theory/E0745/claims/2026_10_04_ding|Ding 2026]] is a
 five-regime atlas of the sparse evolution of the uniform model $G(n,M)$. This
 corpus has built neither, and the search recorded below found the site's label
 unchanged. Whether the label can stand at the literal parameter is a question of
-the catalog's labeling that this page records; the two parameters are stated
+the catalog's labeling that this page records. The two parameters are stated
 side by side below.
 
 **Source.** [erdosproblems.com/745](https://www.erdosproblems.com/745), accessed

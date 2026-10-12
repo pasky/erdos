@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E1007
 title: Problem 1007
 desc: |
-  The smallest number of edges of a graph of dimension four, the least
-  Euclidean dimension in which it embeds with every edge a unit segment; nine,
-  attained only by K_{3,3} up to isolated vertices, by House and Chaffee-Noble.
+  Asks for the fewest edges in a graph of dimension $4$, where a graph's
+  dimension is the least $n$ such that it embeds in $\mathbb{R}^n$ with every
+  edge a unit segment. The answer is nine, attained only by $K_{3,3}$ up to
+  isolated vertices (House; Chaffee and Noble).
 tags:
 - Graph theory
 status: solved
@@ -44,38 +45,40 @@ question asks for a number, and the site labels it SOLVED, its label for a
 resolution that is neither a proof nor a disproof; the suffix "(LEAN)" is a
 catalog label explained under Formalization.
 
-**Status.** SOLVED (LEAN). The smallest number of edges is $9$, attained only
-by $K_{3,3}$ among graphs without isolated vertices. The refereed
-source is
+**Status.** SOLVED (LEAN). The smallest number of edges is $9$, attained only by
+$K_{3,3}$ among graphs without isolated vertices.
+
+The refereed source is
 [[../library/extremal_graph_theory/chaffee_2016_dimension_4_dimension_5_graphs_minimum/theorem_6|Theorem 6]]
 of Chaffee and Noble (Australas. J. Combin. 64 (2016), no. 2, 327--333; a
-refereed open-access journal): "The
-minimum number of edges of a graph $G$ with $\dim(G)=4$ is nine", with
+refereed open-access journal): "The minimum number of edges of a graph $G$ with
+$\dim(G)=4$ is nine". Their
 [[../library/extremal_graph_theory/chaffee_2016_dimension_4_dimension_5_graphs_minimum/lemma_3|Lemma 3]]
-($\dim(K_{n,m})=4$ for $m,n\ge3$, taken from
-[[../library/extremal_graph_theory/erdos_harary_tutte_1965_dimension_graph/complete_bipartite_graphs_p119|p. 119 of Erdős, Harary and Tutte]],
-[EHT65]) supplying the nine-edge witness $K_{3,3}$ and
+supplies the nine-edge witness $K_{3,3}$. It gives $\dim(K_{n,m})=4$ for
+$m,n\ge3$, taken from
+[[../library/extremal_graph_theory/erdos_harary_tutte_1965_dimension_graph/complete_bipartite_graphs_p119|p. 119 of Erdős, Harary and Tutte]]
+[EHT65]. Their
 [[../library/extremal_graph_theory/chaffee_2016_dimension_4_dimension_5_graphs_minimum/theorem_7|Theorem 7]]
-the uniqueness. The first proof is House's (Discrete Math. 313 (2013),
-1783--1789; in the publisher's open archive): its
+supplies the uniqueness. The first proof is House's (Discrete Math. 313 (2013),
+1783--1789; in the publisher's open archive). Its
 [[../library/extremal_graph_theory/house_2013_4_dimensional_graph_has_at_least_9_edges/main_theorem|main result]]
-(unnumbered; pp. 1783 and 1789) states that "the minimum number of edges
-which a 4-dimensional graph can have is 9, and there is only one such graph,
-namely $K_{3,3}$", as the 2016 paper's introduction reports it ("R. F.
-House showed that the answer to the above question is 9 and furthermore,
-that the complete bipartite graph $K_{3,3}$ is the unique graph that
-achieves this bound"). The 2016 paper's Theorems 10 and 11 give the
-dimension-5 value $15$, attained by $K_6$ and $K_{1,3,3}$, which the site
-records as context. The claim pages
-[[problems/extremal_graph_theory/E1007/claims/2013_06_04_house|House 2013]]
-and
+(unnumbered; pp. 1783 and 1789) states that "the minimum number of edges which a
+4-dimensional graph can have is 9, and there is only one such graph, namely
+$K_{3,3}$". The 2016 paper's introduction reports it in these words: "R. F.
+House showed that the answer to the above question is 9 and furthermore, that
+the complete bipartite graph $K_{3,3}$ is the unique graph that achieves this
+bound". Theorems 10 and 11 of the 2016 paper give the dimension-5 value $15$,
+attained by $K_6$ and $K_{1,3,3}$. The site records this as context.
+
+The claim pages
+[[problems/extremal_graph_theory/E1007/claims/2013_06_04_house|House 2013]] and
 [[problems/extremal_graph_theory/E1007/claims/2016_02_01_chaffee_noble|Chaffee and Noble 2016]]
-record the two results, their postings and the acceptance evidence; the Lean
-development of 2026 described under Formalization declares itself a
-formalization of their result and is a formalization link on both pages, not
-a claim of its own; a second development of September 2026 formalizes the
-uniqueness theorem alone and is a formalization link on the Chaffee--Noble
-page. The standing in the frontmatter is derived from the two pages.
+record the two results, their postings and the acceptance evidence. The standing
+in the frontmatter is derived from the two pages. The Lean development of 2026
+described under Formalization declares itself a formalization of their result.
+It is a formalization link on both pages, not a claim of its own. A second
+development, of September 2026, formalizes the uniqueness theorem alone and is a
+formalization link on the Chaffee--Noble page.
 
 **Source.** [erdosproblems.com/1007](https://www.erdosproblems.com/1007),
 accessed 2026-09-18: the problem page

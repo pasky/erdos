@@ -2,9 +2,10 @@
 name: problems/analysis/E1042/claims/2023_12_21_ghosh_ramachandran
 title: Capacity one is the threshold for lemniscate components
 desc: |
-  Below capacity one the maximal number of components of the unit lemniscate
-  is at most (1 - c) n for large n with c depending on the set; at capacity
-  one, n components occur along a subsequence of degrees.
+  Ghosh and Ramachandran prove that below capacity one the maximal number of
+  components of the unit lemniscate is at most $(1-c)n$ for large $n$, with $c$
+  depending on the set. At capacity one, $n$ components occur along a
+  subsequence of degrees.
 authors:
 - Subhajit Ghosh
 - Koushik Ramachandran

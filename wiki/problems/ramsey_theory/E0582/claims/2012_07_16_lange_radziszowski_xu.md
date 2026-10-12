@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0582/claims/2012_07_16_lange_radziszowski_xu
 title: Lange, Radziszowski and Xu, a K_4-free arrowing graph on 786 vertices
 desc: |
-  Lange, Radziszowski and Xu (arXiv 2012; J. Combin. Math. Combin. Comput.
-  88, 2014), Theorem 3: F_e(3,3;4) <= 786, by a K_4-free graph whose arrowing
-  is certified by a semidefinite MAX-CUT bound; refereed.
+  Theorem 3 of Lange, Radziszowski and Xu (arXiv 2012; J. Combin. Math. Combin.
+  Comput. 88, 2014, refereed) gives $F_e(3,3;4)\le786$. The witness is a
+  $K_4$-free graph whose arrowing is certified by a semidefinite MAX-CUT bound.
 authors:
 - Alexander R. Lange
 - Stanislaw P. Radziszowski
@@ -50,9 +50,9 @@ corpus.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed: A. R. Lange, S. P. Radziszowski and X. Xu, *Use of
-MAX-CUT for Ramsey arrowing of triangles*, J. Combin. Math. Combin. Comput.
-88 (2014), 61--71, as the
+MAX-CUT for Ramsey arrowing of triangles*, J. Combin. Math. Combin. Comput. 88
+(2014), 61--71, as the
 [[../library/ramsey_theory/lange_2014_use_max_cut_ramsey_arrowing_triangles/_index|source card]]
-records it; the journal has no DOI, so the arXiv versions are the links. The
+records it. The journal has no DOI, so the links go to the arXiv versions. The
 site's label rests on Folkman's existence proof, so the site's commentary
 crediting this paper is not listed as evidence.

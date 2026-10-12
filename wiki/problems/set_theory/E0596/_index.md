@@ -2,9 +2,10 @@
 name: problems/set_theory/E0596
 title: Problem 596
 desc: |
-  Characterizes pairs of graphs for which finite colorings of a host avoiding
-  the first force a monochromatic second, while countably many colors do not;
-  Erdős and Hajnal first guessed that no pair exists, which C_4 and C_6 refute.
+  Asks for which graphs $G_1,G_2$ every finite number of colors forces a
+  monochromatic $G_2$ in some $G_1$-free graph, while countably many colors
+  never do. Erdős and Hajnal first guessed that no pair exists, which $C_4$ and
+  $C_6$ refute.
 tags:
 - Graph theory
 - Ramsey theory
@@ -41,10 +42,10 @@ then asks for which $G_1$ and $G_2$ the original guess holds. Those are exactly
 the pairs without both properties, so his question and the site's ask for one
 characterization, and the Statement sets the standing.
 
-**Status.** Open. One accepted partial claim records the pair $(C_4,C_6)$ on
-[[problems/set_theory/E0596/claims/1987_09_01_nesetril_rodl|Nešetřil–Rödl 1987]];
-the characterization the problem asks for is open, so the derived standing
-stays `open`.
+**Status.** Open. One accepted partial claim,
+[[problems/set_theory/E0596/claims/1987_09_01_nesetril_rodl|Nešetřil–Rödl 1987]],
+records the pair $(C_4,C_6)$. The characterization the problem asks for is open,
+so the derived standing stays `open`.
 
 **Source.** [erdosproblems.com/596](https://www.erdosproblems.com/596), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #596,

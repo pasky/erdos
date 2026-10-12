@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0883
 title: Problem 883
 desc: |
-  Asks whether a subset of one to n above the triangle threshold of the
-  coprime graph forces all odd cycles up to n/3 + 1 and, for large n, complete
-  (1, l, l) tripartite subgraphs; the second was settled by Sárközy in 1999.
+  Asks whether a set $A\subseteq\{1,\ldots,n\}$ above the triangle threshold of
+  the coprime graph forces all odd cycles up to length $n/3+1$ and, for large
+  $n$, complete $(1,\ell,\ell)$ tripartite subgraphs. Sárközy settled the second
+  in 1999.
 tags:
 - Number theory
 - Graph theory
@@ -96,8 +97,8 @@ of 27 July 2026 (p. 1) also records the second question as settled by [Sa99].
 The result is recorded on the claim page
 [[problems/extremal_graph_theory/E0883/claims/1999_05_01_sarkozy|Sárközy's Theorem 1]].
 
-**Status.** Claimed: pending claims answer the first question and an accepted
-claim settles the second; the site's label is OPEN.
+**Status.** Claimed. The site's label is OPEN. Pending claims answer the first
+question, and an accepted claim settles the second.
 
 **Source.** [erdosproblems.com/883](https://www.erdosproblems.com/883), accessed
 2026-09-04 and 2026-10-06, with its proof-claims thread (source keys [Er98],

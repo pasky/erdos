@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0718/claims/1996_09_01_bollobas_thomason
 title: Bollobás and Thomason's proof of the Erdős–Hajnal–Mader conjecture
 desc: |
-  Bollobás and Thomason prove that every graph on n vertices with at least
-  256 r^2 n edges contains a subdivision of the complete graph on r vertices,
-  which answers Problem 718 affirmatively with the constant 256.
+  Bollobás and Thomason prove that every graph on $n$ vertices with at least
+  $256r^2n$ edges contains a subdivision of $K_r$. This answers Problem 718
+  affirmatively with the constant $256$.
 authors:
 - Béla Bollobás
 - Andrew Thomason
@@ -63,22 +63,22 @@ result, while the statement above is taken from the 1998 paper, the short
 direct proof the corpus has read; the 1996 paper is not held, and whether it
 prints the theorem itself is not checked.
 
-**Acceptance.** Both papers are refereed publications (Combinatorica,
-September 1996; European Journal of Combinatorics, November 1998, received 15
-March 1997, per their Crossref records; the `refereed` evidence),
-and the site's curator, Thomas Bloom, records the problem as proved by them
-together with the independent proof of
-[[problems/extremal_graph_theory/E0718/claims/1996_03_01_komlos_szemeredi|Komlós and Szemerédi]]
-(the `reviewed` evidence; Bloom took no part in either paper).
-A refereed attestation is in print: Fox, Lee and Sudakov quote the theorem as
+**Acceptance.** Both papers are refereed publications: Combinatorica, September
+1996, and the European Journal of Combinatorics, November 1998, received 15
+March 1997, per their Crossref records. This is the `refereed` evidence. The
+site's curator, Thomas Bloom, records the problem as proved by them together
+with the independent proof of
+[[problems/extremal_graph_theory/E0718/claims/1996_03_01_komlos_szemeredi|Komlós and Szemerédi]].
+This is the `reviewed` evidence, and Bloom took no part in either paper. A
+refereed attestation is in print. Fox, Lee and Sudakov quote the theorem as
 their Theorem 3.1 (Combinatorica **33** (2013), 181--197), paged at
 [[../library/extremal_graph_theory/fox_2013_chromatic_number_clique_subdivisions_conjectures_hajos/theorem_3_1|Theorem 3.1]],
-attributing it to both pairs of authors. The basis of this page is the
-statement of Theorem 4 and its half-page proof in the 1998 paper, with the
-reduction followed at filing depth; of the proofs of its Theorem 1 and Lemma 3
-only the structure is recorded, and nothing is independently reviewed.
-The acceptance recorded here rests on the publications, the printed
-attestation and the site's acceptance, not on a local review.
+and attribute it to both pairs of authors. This page is based on the statement
+of Theorem 4 and its half-page proof in the 1998 paper, with the reduction
+followed at filing depth. For the proofs of that paper's Theorem 1 and Lemma 3,
+only the structure is recorded. Nothing is independently reviewed. The
+acceptance recorded here rests on the publications, the printed attestation and
+the site's acceptance, not on a local review.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos718.lean` of
 Boris Alexeev's `plby/lean-proofs` repository, at the commit linked above,

@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0475
 title: Problem 475
 desc: |
-  Whether every finite set of nonzero residues modulo a prime can be ordered
-  with all partial sums distinct (Graham's rearrangement conjecture); proved for
-  all large primes by four range results with no explicit threshold.
+  Asks whether every finite set of nonzero residues modulo a prime can be
+  ordered with all partial sums distinct (Graham's rearrangement conjecture);
+  four range results prove it for all large primes with no explicit threshold.
 tags:
 - Number theory
 - Additive combinatorics
@@ -57,60 +57,63 @@ proves nothing about it and does not mention the case $k=p-1$. The label
 DECIDABLE is the site's, which the site explains as resolved except for a
 finite check.
 
-**Status.** Decidable, the site's label; the label describes the shape of what
-remains and is not a theorem, and the question for every prime is open. Proved
-for all sufficiently large primes $p$: the site's chain of four range results
-covers every size $t$ once $p\ge p_0$, with $p_0$ unspecified in every link,
-recorded as a pending partial claim on
-[[problems/additive_combinatorics/E0475/claims/2026_02_17_pham_sauermann|its claim page]]
-(the site's label leaves the problem open, so the curator's commentary is not
-acceptance). Small $t$:
+**Status.** Decidable, the site's label. The label describes the shape of what
+remains and is not a theorem. The question for every prime is open.
+
+The statement is proved for all sufficiently large primes $p$. The site's chain
+of four range results covers every size $t$ once $p\ge p_0$, with $p_0$
+unspecified in every link. This is recorded as a pending partial claim on
+[[problems/additive_combinatorics/E0475/claims/2026_02_17_pham_sauermann|its claim page]].
+The site's label leaves the problem open, so the curator's commentary is not
+acceptance. For small $t$,
 [[../library/additive_combinatorics/bedert_2024_graham_s_rearrangement_conjecture_beyond_rectification/theorem_1_2|Bedert and Kravitz]]
 (Israel J. Math. 273 (2026), refereed;
 [[problems/additive_combinatorics/E0475/claims/2024_09_11_bedert_kravitz|claim page]],
-accepted) for $t\le e^{c(\log p)^{1/4}}$, every $c>0$ and $p$ large, improved
-to $t\le e^{c(\log p)^{1/3}}$ by
+accepted) cover $t\le e^{c(\log p)^{1/4}}$ for every $c>0$ and $p$ large.
 [[../library/additive_combinatorics/costa_2026_new_bounds_weak_sequenceability/theorem_1_3|Costa and Della Fiore]]
-(a 2026 preprint), after
+(a 2026 preprint) improved this to $t\le e^{c(\log p)^{1/3}}$. Both came after
 [[../library/additive_combinatorics/kravitz_2024_rearranging_small_sets_distinct_partial_sums/theorem_1_2|Kravitz]]'s
 $t\le\log p/\log\log p$ for every prime
 ([[problems/additive_combinatorics/E0475/claims/2024_07_01_kravitz|claim page]],
-pending). Medium $t$:
+pending). For medium $t$,
 [[../library/additive_combinatorics/pham_2026_graham_s_rearrangement_conjecture/theorem_1_2|Pham and Sauermann]]
-(a 2026 preprint) for $C_\alpha\le t\le p^{1-\alpha}$, any fixed $0<\alpha<1$.
-Large $t$:
+(a 2026 preprint) cover $C_\alpha\le t\le p^{1-\alpha}$ for any fixed
+$0<\alpha<1$. For large $t$,
 [[../library/additive_combinatorics/bedert_2025_graham_s_rearrangement_conjecture_over/theorem_1_4|Bedert, Bucić, Kravitz, Montgomery and Müyesser]]
-(a 2025 preprint) for $t\ge p^{1-c}$ in every finite group. Very large $t$:
-their
-[[../library/additive_combinatorics/bedert_2025_graham_s_rearrangement_conjecture_over/theorem_7_1|Theorem 7.1]],
-$t\ge p-p^{1-\gamma}$, derived from the random Hall--Paige theorem of
+(a 2025 preprint) cover $t\ge p^{1-c}$ in every finite group. For very large
+$t$, their
+[[../library/additive_combinatorics/bedert_2025_graham_s_rearrangement_conjecture_over/theorem_7_1|Theorem 7.1]]
+covers $t\ge p-p^{1-\gamma}$. It is derived from the random Hall--Paige theorem
+of
 [[../library/additive_combinatorics/muyesser_2022_random_hall_paige_conjecture/theorem_6_9|Müyesser and Pokrovskiy]]
-(Invent. Math. 240 (2025), refereed). For every prime the statement holds for
-$t\le12$
+(Invent. Math. 240 (2025), refereed).
+
+For every prime the statement holds in three cases. It holds for $t\le12$
 ([[../library/additive_combinatorics/costa_2020_new_results_about_conjecture_brian_alspach/proposition_4_2|Costa and Pellegrini]],
 Arch. Math. 115 (2020), refereed;
 [[problems/additive_combinatorics/E0475/claims/2020_03_12_costa_pellegrini|claim page]],
-accepted), for every set of size $p-2$ or $p-1$
+accepted). It holds for every set of size $p-2$ or $p-1$
 ([[../library/additive_combinatorics/bode_harborth_2005_directed_paths_diagonals_within_polygons/theorem_2|Bode and Harborth]],
 Discrete Math. 299 (2005), refereed;
 [[problems/additive_combinatorics/E0475/claims/2005_08_10_bode_harborth|claim page]],
-accepted; $t=p-1$ is also Graham's case) and for every $(p-3)$-subset with
-nonzero sum
+accepted). The case $t=p-1$ is also Graham's case. It holds for every
+$(p-3)$-subset with nonzero sum
 ([[../library/additive_combinatorics/hicks_2019_distinct_partial_sums_cyclic_groups_polynomial/theorem_4_6|Hicks, Ollis and Schmitt]],
 J. Combin. Des. 27 (2019), refereed;
 [[problems/additive_combinatorics/E0475/claims/2018_09_07_hicks_ollis_schmitt|claim page]],
 accepted). The site's range $p-3\le t\le p-1$ also includes the zero-sum
-$(p-3)$-subsets, which no cited source covers; Kravitz states the range as
-nonzero-sum sets of size $p-2$ or $p-3$. Bedert and Kravitz's refereed theorem
-has its own page. Müyesser and Pokrovskiy do not state the subset case, which
-Bedert, Bucić, Kravitz, Montgomery and Müyesser make explicit. That paper and
-Costa and Della Fiore's are preprints. These links are recorded on the chain's
-page. Two of the four range results are unrefereed preprints, so the
-completion for large $p$ carries the preprint qualification; none of the
-sources cited here bounds the finite set of primes left unchecked. Whether the
-label should stand for a statement proved for all $p\ge p_0$ with $p_0$
-unknown is a question about the catalog's vocabulary that this page records
-and does not decide.
+$(p-3)$-subsets, which no cited source covers. Kravitz states the range as
+nonzero-sum sets of size $p-2$ or $p-3$.
+
+Bedert and Kravitz's refereed theorem has its own page. Müyesser and Pokrovskiy
+do not state the subset case, which Bedert, Bucić, Kravitz, Montgomery and
+Müyesser make explicit. That paper and Costa and Della Fiore's are preprints.
+These links are recorded on the chain's page. Two of the four range results are
+unrefereed preprints, so the completion for large $p$ carries the preprint
+qualification. None of the sources cited here bounds the finite set of primes
+left unchecked. Whether the label should stand for a statement proved for all
+$p\ge p_0$ with $p_0$ unknown is a question about the catalog's vocabulary. This
+page records that question and does not decide it.
 
 **Source.** [erdosproblems.com/475](https://www.erdosproblems.com/475),
 accessed 2026-09-18: the problem page (DECIDABLE, a

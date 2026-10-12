@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E0453
 title: Problem 453
 desc: |
-  Asks whether, for all large n, some symmetric pair of primes around the nth
-  prime has product exceeding the square of the nth prime.
+  Asks whether, for all large $n$, some $i<n$ satisfies $p_n^2<p_{n+i}p_{n-i}$,
+  where $p_k$ is the $k$th prime.
 tags:
 - Number theory
 status: solved
@@ -29,16 +29,15 @@ $$
 
 where $p_k$ is the $k$th prime?
 
-**Status.** Disproved, the site's label, with a Lean suffix that is a
-catalog label: the Lean file announced in the thread is linked from the
-claim page as a formalization of Pomerance's proof, neither built nor
-audited here, and this page records the statement file of
-formal-conjectures, which points at that Lean file. The disproof is Pomerance's 1979
-corollary that infinitely many $n$ have $p_n^2>p_{n-i}p_{n+i}$ for all
-$0<i<n$, recorded on the claim page
+**Status.** Disproved, the site's label, with a Lean suffix that is a catalog
+label. The Lean file announced in the thread is linked from the claim page as a
+formalization of Pomerance's proof. It was neither built nor audited here. This
+page records the statement file of formal-conjectures, which points at that Lean
+file. The disproof is Pomerance's 1979 corollary that infinitely many $n$ have
+$p_n^2>p_{n-i}p_{n+i}$ for all $0<i<n$. It is recorded on the claim page
 [[problems/integer_sequences/E0453/claims/1979_01_01_pomerance|Pomerance's infinitely many good primes]]
-(accepted; refereed in Mathematics of Computation, and the result the
-site's commentary names).
+(accepted; refereed in Mathematics of Computation, and the result the site's
+commentary names).
 
 **Source.** [erdosproblems.com/453](https://www.erdosproblems.com/453),
 accessed 2026-09-05: the problem page (DISPROVED (LEAN), which the site

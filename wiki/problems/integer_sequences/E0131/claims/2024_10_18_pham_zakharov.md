@@ -2,9 +2,9 @@
 name: problems/integer_sequences/E0131/claims/2024_10_18_pham_zakharov
 title: The Pham-Zakharov bound answers the displayed question
 desc: |
-  Pham and Zakharov's refereed bound (Geom. Funct. Anal. 2025) of N to the
-  1/4 + o(1) for non-averaging sets, which non-dividing sets are, so the
-  displayed question, whether F(N) exceeds N to the 1/2 - o(1), is answered no.
+  Pham and Zakharov (Geom. Funct. Anal. 2025, refereed) prove the bound
+  $N^{1/4+o(1)}$ for non-averaging sets. Non-dividing sets are non-averaging, so
+  the displayed question, whether $F(N)>N^{1/2-o(1)}$, is answered no.
 authors:
 - Huy Tuan Pham
 - Dmitrii Zakharov
@@ -58,13 +58,12 @@ the site's label attaches, open between the $N^{1/5}$ construction and this
 bound; the pending full claim on it is
 [[problems/integer_sequences/E0131/claims/2026_07_24_xeff|the Xeff claim page]].
 
-**Acceptance.** Refereed: the journal publication cited above
-(Geometric and Functional Analysis, December 2025). The site's curator,
-Thomas Bloom, records the inclusion, the bound and the negative answer to
-the displayed question in the commentary (page last edited 30 September
-2025, accessed 2026-09-18 and 2026-10-07), but the site labels the problem OPEN,
-so the commentary is not acceptance and the claim lists no `reviewed`
-evidence. Nothing here is this project's own review beyond the one-line
-inclusion.
+**Acceptance.** Refereed: the journal publication cited above (Geometric and
+Functional Analysis, December 2025). The site's curator, Thomas Bloom, records
+the inclusion, the bound and the negative answer to the displayed question in
+the commentary (page last edited 30 September 2025, accessed 2026-09-18 and
+2026-10-07). The site labels the problem OPEN, however, so the commentary is not
+acceptance and the claim lists no `reviewed` evidence. Nothing here is this
+project's own review beyond the one-line inclusion.
 
 **Depends on.** No page of this wiki.

@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0927
 title: Problem 927
 desc: |
-  Asks whether the largest number of distinct clique sizes in a graph on n
-  vertices is n minus log_2 n minus the iterated-logarithm count, up to O(1);
-  disproved by Spencer, whose construction removes the iterated term.
+  Asks whether the largest number of distinct clique sizes in a graph on $n$
+  vertices is $n-\log_2n-\log_*(n)+O(1)$. Disproved by Spencer, whose
+  construction removes the $\log_*(n)$ term.
 tags:
 - Graph theory
 status: solved
@@ -53,43 +53,48 @@ paper states $c=4$ for every $N>33000$ ([Sp71], p. 419), with $c=5$ in one
 case by its own counts. The site's label DISPROVED (LEAN) carries a catalog
 suffix explained under Formalization.
 
-**Status.** The site labels the problem DISPROVED (LEAN); its Lean clause is
-treated under Formalization. The refuting paper is Spencer's [Sp71] (Israel J.
-Math. 9 (1971), 419--421; a refereed journal): with a clique a maximal complete
-subgraph and all logarithms to the base $2$, "for $N$ sufficiently large
-($>33000$ will do) $g(N)\ge N-\log N-4$" (p. 419; paged at
-[[../library/extremal_graph_theory/spencer_1971_cliques_graphs/main_bound_p419|main_bound_p419]]).
-Its result is also attested in print by Erdős himself, in the note added in
-proof to item 10 of his 1971 problem list ([Er71], printed p. 101: "Spencer
-proved $f(n)>n-\frac{\log n}{\log2}-c$", where the paper's $f(n)$ is this page's
-$g(n)$), and the site's curator, Thomas Bloom, accepts it, crediting Spencer
-with $g(n)>n-\log_2n-O(1)$. With the upper bound of Moon and Moser,
-$g(n)\le n-[\log_2n]$ for $n\ge4$ ([MoMo65], Theorem 4, printed p. 27; paged at
-[[../library/extremal_graph_theory/moon_moser_1965_cliques_graphs/theorem_4|theorem_4]];
-[[problems/extremal_graph_theory/E0927/claims/1965_03_01_moon_moser|its claim page]]),
-this gives $g(n)=n-\log_2n+O(1)$, the site's estimate. The constant $4$ is the
-paper's headline as printed; the construction's own counts realize only
-$N-[\log_2N]-5$ clique sizes in the third of its three cases, the window
-$2^n+2^{\lfloor n/2\rfloor-2}\le N<2^{n+1}$, and $-4$ or better elsewhere, so
-what the printed argument delivers for every $N>33000$ is
-$N-[\log_2N]-5\le g(N)\le N-[\log_2N]$ (authored, from the two printed bounds,
-the card's counts and the integrality of $g$); any fixed constant refutes the
-conjecture. The bracket $\{\log N\}$ in the paper's closing bounds is undefined
-in print, and the card records the reading the counts fix (a filing observation,
-not a review verdict). The Lean file named in the site's discussion thread
-encodes a construction with $g(N)\ge N-\lfloor\log_2N\rfloor-6$ along a sequence
-of $N$ (Formalization). The claim page is
-[[problems/extremal_graph_theory/E0927/claims/1971_02_01_spencer|Spencer]]
-(accepted on the refereed publication, Erdős's attestation and the site's
-acceptance); the bounds of
+**Status.** The site labels the problem DISPROVED (LEAN). The label's Lean
+clause is a separate matter, treated under Formalization. The claim page is
+[[problems/extremal_graph_theory/E0927/claims/1971_02_01_spencer|Spencer]],
+accepted on the refereed publication, Erdős's attestation and the site's
+acceptance, and the frontmatter is derived from it. The bounds of
 [[problems/extremal_graph_theory/E0927/claims/1965_03_01_moon_moser|Moon and Moser]]
 and of
 [[problems/extremal_graph_theory/E0927/claims/1966_12_01_erdos|Erdős 1966]] are
-accepted partial claims on the estimate. The Lean developments that declare
-themselves formalizations of his disproof, the gist of June 2026 and the
-lean-proofs copy that formal-conjectures names, are `formalization` links on
-that page, not built by this project, and add no evidence. The frontmatter is
-derived from it; the label's Lean clause is a separate matter (Formalization).
+accepted partial claims on the estimate.
+
+The refuting paper is Spencer's [Sp71] (Israel J. Math. 9 (1971), 419--421; a
+refereed journal). There a clique is a maximal complete subgraph, and all
+logarithms are to the base $2$. It states that "for $N$ sufficiently large
+($>33000$ will do) $g(N)\ge N-\log N-4$" (p. 419; paged at
+[[../library/extremal_graph_theory/spencer_1971_cliques_graphs/main_bound_p419|main_bound_p419]]).
+Erdős himself also attests the result in print, in the note added in proof to
+item 10 of his 1971 problem list ([Er71], printed p. 101: "Spencer proved
+$f(n)>n-\frac{\log n}{\log2}-c$"). That paper's $f(n)$ is this page's $g(n)$.
+The site's curator, Thomas Bloom, accepts the result and credits Spencer with
+$g(n)>n-\log_2n-O(1)$. The upper bound of Moon and Moser is
+$g(n)\le n-[\log_2n]$ for $n\ge4$ ([MoMo65], Theorem 4, printed p. 27; paged at
+[[../library/extremal_graph_theory/moon_moser_1965_cliques_graphs/theorem_4|theorem_4]];
+[[problems/extremal_graph_theory/E0927/claims/1965_03_01_moon_moser|its claim page]]).
+With that bound, Spencer's result gives $g(n)=n-\log_2n+O(1)$, the site's
+estimate.
+
+The constant $4$ is the paper's headline as printed. The construction's own
+counts realize only $N-[\log_2N]-5$ clique sizes in the third of its three
+cases, the window $2^n+2^{\lfloor n/2\rfloor-2}\le N<2^{n+1}$, and $-4$ or
+better elsewhere. So what the printed argument delivers for every $N>33000$ is
+$N-[\log_2N]-5\le g(N)\le N-[\log_2N]$ (authored, from the two printed bounds,
+the card's counts and the integrality of $g$). Any fixed constant refutes the
+conjecture. The bracket $\{\log N\}$ in the paper's closing bounds is undefined
+in print. The card records the reading the counts fix, as a filing observation,
+not a review verdict.
+
+The Lean file named in the site's discussion thread encodes a construction with
+$g(N)\ge N-\lfloor\log_2N\rfloor-6$ along a sequence of $N$ (Formalization). The
+Lean developments that declare themselves formalizations of Spencer's disproof
+are the gist of June 2026 and the lean-proofs copy that formal-conjectures
+names. They are `formalization` links on the Spencer page, not built by this
+project, and they add no evidence.
 
 **Source.** [erdosproblems.com/927](https://www.erdosproblems.com/927),
 accessed 2026-09-18: the problem page

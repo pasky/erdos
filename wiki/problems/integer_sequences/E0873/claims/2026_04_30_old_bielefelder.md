@@ -3,8 +3,9 @@ name: problems/integer_sequences/E0873/claims/2026_04_30_old_bielefelder
 title: Every exponent above 1/4 from long enough windows
 desc: |
   Two 2026 notes posted by old-bielefelder, written by ChatGPT 5.5 Thinking and
-  ChatGPT 5.6 Sol, prove that for every epsilon above 1/4 some k gives
-  F(A,X,k) << X^epsilon uniformly in A; the range up to 1/4 is not covered.
+  ChatGPT 5.6 Sol, prove that for every $\varepsilon>1/4$ some $k$ gives
+  $F(A,X,k)\ll X^{\varepsilon}$ uniformly in $A$. The range $\varepsilon\le1/4$
+  is not covered.
 authors:
 - Ingo Althöfer
 status: claimed

@@ -2,9 +2,9 @@
 name: problems/analysis/E1047
 title: Problem 1047
 desc: |
-  Examines a monic polynomial with m distinct roots and a threshold so small
-  that the set where its absolute value is at most that threshold has m
-  components.
+  Asks whether, for a monic polynomial $f$ with $m$ distinct roots and $c>0$
+  small enough that $\{z:|f(z)|\le c\}$ has $m$ connected components, all these
+  components must be convex.
 tags:
 - Analysis
 status: solved
@@ -27,17 +27,17 @@ f(z)\rvert\leq c\}$ has $m$ distinct connected components.
 
 Must all these components be convex?
 
-**Status.** DISPROVED (LEAN) on the site. Pommerenke's Theorem 14 of 1961,
-$z^p(z-a)$ whose closed sublevel set at level $1$ has two components, one of
-them not convex, is the accepted disproof in the problem's exact terms
-([[problems/analysis/E1047/claims/1961_01_01_pommerenke|Pommerenke's claim page]]);
-Goodman's 1966 quartics, one with four simple roots, disprove Grunsky's question
-for the open sublevel set at a critical level, and the paper does not treat
-the problem's closed set
-([[problems/analysis/E1047/claims/1966_04_01_goodman|Goodman's claim page]]);
-the Lean qualifier of the site's label refers to Alexeev's Lean proof with
-$z^6-z$, found by Aristotle from the informal statement, which this corpus built
-at a pinned commit and accepted as a formalized disproof, resting on the
+**Status.** DISPROVED (LEAN) on the site. Pommerenke's Theorem 14 of 1961 is the
+accepted disproof in the problem's exact terms
+([[problems/analysis/E1047/claims/1961_01_01_pommerenke|Pommerenke's claim page]]).
+Its example is $z^p(z-a)$, whose closed sublevel set at level $1$ has two
+components, one of them not convex. Goodman's 1966 quartics, one with four
+simple roots, disprove Grunsky's question for the open sublevel set at a
+critical level. That paper does not treat the problem's closed set
+([[problems/analysis/E1047/claims/1966_04_01_goodman|Goodman's claim page]]).
+The Lean qualifier of the site's label refers to Alexeev's Lean proof with
+$z^6-z$, found by Aristotle from the informal statement. This corpus built it at
+a pinned commit and accepted it as a formalized disproof. The proof rests on the
 classical fact that every component of the set contains a root
 ([[problems/analysis/E1047/claims/2026_01_21_alexeev|Alexeev's claim page]]).
 

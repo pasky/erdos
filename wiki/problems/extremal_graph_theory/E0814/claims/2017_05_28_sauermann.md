@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0814/claims/2017_05_28_sauermann
 title: Sauermann's proof of the Erdős–Faudree–Rousseau–Schelp conjecture
 desc: |
-  Sauermann's Theorem 1.3 (J. Combin. Theory Ser. B 2019) gives, for k at least
-  3, a subgraph of minimum degree at least k on at most (1 - 1/(10^4 k^3)) n
-  vertices one edge above the threshold; refereed and credited by the site.
+  Sauermann's Theorem 1.3 (J. Combin. Theory Ser. B 2019) shows that for
+  $k\ge3$, a graph one edge above the threshold has a subgraph of minimum degree
+  at least $k$ on at most $(1-1/(10^4k^3))n$ vertices. The result is refereed
+  and credited by the site.
 authors:
 - Lisa Sauermann
 status: accepted
@@ -68,21 +69,20 @@ the acceptance below credits it with the full conjecture.
 **Depends on.** Nothing in this wiki; the argument is self-contained.
 
 **Acceptance.** `refereed`: the Journal of Combinatorial Theory, Series B is a
-refereed journal; the Crossref record of the DOI gives volume 134
-(January 2019), pages 36--75, and the paper link's date is the issue's nominal
-first day; the acknowledgment of arXiv v2 thanks the anonymous referees.
-`reviewed`: the site's curator, Thomas Bloom, labels the problem PROVED and
-credits Sauermann's paper with the proof of the full conjecture, recording its
-bound as $c_k\gg1/k^3$ (the site's page on 2026-09-18, with an empty thread
-and an empty proof-claim tab); the curator is independent of the author, and
-the site's label is the `discussion` link. The community database lists the
-problem as proved as of its last update on 31 August 2025, and as formalized
-since 21 September 2026. Page numbers are those of arXiv v2 (26 June 2018),
-the edition on its
-[[../library/extremal_graph_theory/sauermann_2019_rousseau_schelp_subgraphs_minimum_degree/_index|source card]];
-Fact 1.1, Conjecture 1.2, Theorem 1.3 and the deduction (pp. 1--2) and the
-induced-subgraph remark (p. 3) were checked, the proof (pp. 3--34) was not
-read, and the journal text was not compared.
+refereed journal. The Crossref record of the DOI gives volume 134 (January
+2019), pages 36--75, and the paper link's date is the issue's nominal first day.
+The acknowledgment of arXiv v2 thanks the anonymous referees. `reviewed`: the
+site's curator, Thomas Bloom, labels the problem PROVED and credits Sauermann's
+paper with the proof of the full conjecture. He records its bound as
+$c_k\gg1/k^3$ (the site's page on 2026-09-18, with an empty thread and an empty
+proof-claim tab). The curator is independent of the author, and the site's label
+is the `discussion` link. The community database lists the problem as proved as
+of its last update on 31 August 2025, and as formalized since 21 September 2026.
+Page numbers are those of arXiv v2 (26 June 2018), the edition on its
+[[../library/extremal_graph_theory/sauermann_2019_rousseau_schelp_subgraphs_minimum_degree/_index|source card]].
+Fact 1.1, Conjecture 1.2, Theorem 1.3 and the deduction (pp. 1--2) were checked,
+as was the induced-subgraph remark (p. 3). The proof (pp. 3--34) was not read,
+and the journal text was not compared.
 
 **Formalization.** Boris Alexeev's repository `plby/lean-proofs` holds, at
 its commit of 15 September 2026, the file

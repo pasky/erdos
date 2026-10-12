@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E0993/claims/2026_09_17_fang_lu_nevo_yao_zh
 title: Unimodality for all sufficiently large forests
 desc: |
   Fang, Lu, Nevo, Yao and Zheng claim that the independence sequence of every
-  forest with at least N_0 vertices is unimodal, for an unspecified absolute
-  N_0, by a central limit theorem and end monotonicity; arXiv preprint with Lean.
+  forest with at least $N_0$ vertices is unimodal, for an absolute $N_0$ that is
+  not specified. Their arXiv preprint, with Lean code, argues by a central limit
+  theorem and end monotonicity.
 authors:
 - Ethan X. Fang
 - Junwei Lu

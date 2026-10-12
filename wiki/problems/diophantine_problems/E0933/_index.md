@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0933
 title: Problem 933
 desc: |
-  Asks whether the largest divisor of n times n plus 1 built only from the
-  primes 2 and 3 exceeds any fixed multiple of n log n for suitable n.
+  Asks whether the largest divisor of $n(n+1)$ built only from the primes 2 and
+  3 exceeds every fixed multiple of $n\log n$ for suitable $n$.
 tags:
 - Number theory
 status: open
@@ -26,10 +26,10 @@ $$
 \limsup_{n\to \infty} \frac{2^k3^l}{n\log n}=\infty?
 $$
 
-**Status.** Open. A claimed negative answer of 7 February 2026 by Mohamed
-Amine Belachhab, that the limsup equals $3/\log 2$, was refuted in the site's
-discussion thread by the counterexample $n=3^{14}\cdot 311$ and is recorded as
-rejected on
+**Status.** Open. On 7 February 2026, Mohamed Amine Belachhab claimed a negative
+answer, namely that the limsup equals $3/\log 2$. The site's discussion thread
+refuted this claim with the counterexample $n=3^{14}\cdot 311$. The claim is
+recorded as rejected on
 [[problems/diophantine_problems/E0933/claims/2026_02_07_belachhab|its claim page]].
 
 **Source.** [erdosproblems.com/933](https://www.erdosproblems.com/933), accessed

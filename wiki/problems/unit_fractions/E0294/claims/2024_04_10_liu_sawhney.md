@@ -2,9 +2,10 @@
 name: problems/unit_fractions/E0294/claims/2024_04_10_liu_sawhney
 title: Liu and Sawhney's two-sided estimate of t(N)
 desc: |
-  Liu and Sawhney's Theorem 1.6 (Int. Math. Res. Not. 2026) determines the
-  least starting denominator t(N) that admits no Egyptian fraction for 1 below
-  N up to a factor (log log N)^3 (log log log N)^O(1).
+  Liu and Sawhney's Theorem 1.6 (Int. Math. Res. Not. 2026) determines $t(N)$,
+  the least $t$ that cannot start a representation of $1$ by distinct unit
+  fractions with denominators at most $N$, up to a factor
+  $(\log\log N)^3(\log\log\log N)^{O(1)}$.
 authors:
 - Yang P. Liu
 - Mehtaab Sawhney
@@ -63,13 +64,13 @@ structure, a complete rewrite of both bounds not compiled; the published
 text was not compared, so all locators are v1 locators. The paper labels
 the question with the site's number 305; its statement matches this problem.
 
-**Acceptance.** The paper appeared in Int. Math. Res. Not. 2026, no. 2,
-rnaf382, DOI 10.1093/imrn/rnaf382 (received 28 October 2025, accepted 23
-December 2025, published online 14 January 2026, per the publisher's record
-read), which is the `refereed` evidence. The site's curator,
-Thomas Bloom, labels the problem proved and credits the estimate to this
-paper on the problem page (last edited 18 November 2025); the curator is not
-an author, and that credit is the `reviewed` evidence.
+**Acceptance.** The paper appeared in Int. Math. Res. Not. 2026, no. 2, rnaf382,
+DOI 10.1093/imrn/rnaf382. According to the publisher's record, it was received
+on 28 October 2025, accepted on 23 December 2025 and published online on 14
+January 2026. This is the `refereed` evidence. The site's curator, Thomas Bloom,
+labels the problem proved and credits the estimate to this paper on the problem
+page (last edited 18 November 2025). The curator is not an author, and that
+credit is the `reviewed` evidence.
 
 **Formalization by others.** The file `src/latest/ErdosProblems/Erdos294.lean`
 of the collection `plby/lean-proofs`, linked above at the pinned commit and

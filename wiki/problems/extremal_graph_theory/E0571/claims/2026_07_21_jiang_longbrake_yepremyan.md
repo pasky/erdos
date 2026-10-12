@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0571/claims/2026_07_21_jiang_longbrake_yepremyan
 title: Jiang, Longbrake and Yepremyan, the exponents near 3/2
 desc: |
-  A 2026 preprint of Jiang, Longbrake and Yepremyan: 1 + (rt-1)/(2rt+2r) is
-  a Turán exponent for t at least 2 and r at least 2t+3, by bounding rooted
-  powers of the subdivided height-two tree; infinitely many instances.
+  A 2026 preprint of Jiang, Longbrake and Yepremyan shows that
+  $1+\frac{rt-1}{2rt+2r}$ is a Turán exponent for $t\ge2$ and $r\ge2t+3$, by
+  bounding rooted powers of the subdivided height-two tree. This gives
+  infinitely many instances.
 authors:
 - T. Jiang
 - S. Longbrake

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0766
 title: Problem 766
 desc: |
-  Asks for estimates of the least Turán number over all graphs with k vertices
-  and l edges in the range k < l ≤ k²/4, and whether it is strictly monotone
-  in l; open, with asymptotics known at the pairs (5,6) and (6,9) only.
+  Asks for estimates of $f(n;k,l)$, the least Turán number over graphs with $k$
+  vertices and $l$ edges, for $k<l\le k^2/4$, and whether it is strictly
+  monotone in $l$. Open; asymptotics are known only at the pairs $(5,6)$ and
+  $(6,9)$.
 tags:
 - Graph theory
 - Turán numbers
@@ -54,35 +55,40 @@ in either reading is strictness. The Statement is the site's minimum of Turán
 numbers. The departure from the passage changes no known answer, since both
 readings are open, so the Statement stands and the $f_1$ reading is a variant.
 
-**Status.** Open. The site labels the problem OPEN. No source estimating
-$f(n;k,l)$ for general $(k,l)$ in the range $k<l\le k^2/4$, beyond the pairs
-recorded below, or deciding strict monotonicity in $l$ in either reading, was
-found in the search whose scope the Current assessment
-records; this is a bounded negative finding, not a certificate of openness.
-What the origin records in the range: the Kővári--Sós--Turán bound, by which
-$[c_kn^{2-1/k}]$ edges force a $K(k,k)$, so $f(n;2k,k^2)\le c_kn^{2-1/k}$ at
-the top of the range; the conjecture $f_1(n;2k,k^2)>\alpha_kn^{2-1/k}$, which
-the paper reports as proved only for $k=2$; the admission that even
-$\lim f(n;6,9)/n^{3/2}=\infty$ was out of reach (p. 33); the p. 34 estimates
-(9)--(11) for $l$ linear in $k$ and $k$ large, quoted in the Current
-assessment; and, at the pair $(5,6)$ inside the range, Cavallius's upper bound
-for $f_1(n;5,6)=f_2(n;5,6)$, the least edge count forcing a $K(2,3)$, and the
-value $f_3(n;5,6)=[n^2/4]+1$ (p. 32). Later results at these pairs, recorded in
-the Current assessment: Brown's $K_{3,3}$-free construction of 1966 gives
-$f(n;6,9)\gg n^{5/3}$, which proves the 1964 conjecture for $k=3$ and settles
-$\lim f(n;6,9)/n^{3/2}=\infty$, and Füredi's bounds of 1996 give
-$f(n;6,9)\sim\tfrac12n^{5/3}$ and
+**Status.** Open. The site labels the problem OPEN. The search whose scope the
+Current assessment records found no source that estimates $f(n;k,l)$ for general
+$(k,l)$ in the range $k<l\le k^2/4$, beyond the pairs recorded below. It also
+found none that decides strict monotonicity in $l$ in either reading. This is a
+bounded negative finding, not a certificate of openness.
+
+The origin records the following in the range. The Kővári--Sós--Turán bound says
+that $[c_kn^{2-1/k}]$ edges force a $K(k,k)$, so $f(n;2k,k^2)\le c_kn^{2-1/k}$
+at the top of the range. It records the conjecture
+$f_1(n;2k,k^2)>\alpha_kn^{2-1/k}$, which the paper reports as proved only for
+$k=2$. It admits that even $\lim f(n;6,9)/n^{3/2}=\infty$ was out of reach (p.
+33). It gives the p. 34 estimates (9)--(11) for $l$ linear in $k$ and $k$ large,
+quoted in the Current assessment. At the pair $(5,6)$ inside the range, it gives
+Cavallius's upper bound for $f_1(n;5,6)=f_2(n;5,6)$, the least edge count
+forcing a $K(2,3)$, and the value $f_3(n;5,6)=[n^2/4]+1$ (p. 32).
+
+Later results at these pairs are recorded in the Current assessment. Brown's
+$K_{3,3}$-free construction of 1966 gives $f(n;6,9)\gg n^{5/3}$. This proves the
+1964 conjecture for $k=3$ and settles $\lim f(n;6,9)/n^{3/2}=\infty$. Füredi's
+bounds of 1996 give $f(n;6,9)\sim\tfrac12n^{5/3}$ and
 $f(n;5,6)=\mathrm{ex}(n;K_{2,3})\sim n^{3/2}/\sqrt2$ in the site's
 normalization. General $(k,l)$ in the range and strict monotonicity remain
-unresolved. The site's commentary sentence on $l=\lfloor k^2/4\rfloor+1$ is the
-paper's p. 34 statement (below), just above the range; its Dirac half is Theorem
-1 of [Di63] at $k=3$; inside the range that paper's only statements come from
-the cases $\alpha\le0$ of its Theorems 1 and 2, upper bounds of order $n^2$ on
-$f_1$ where the Kővári--Sós--Turán theorem gives $o(n^2)$, and it says nothing
-about monotonicity in $l$. The neighboring question of Chung and Erdős (1983),
-which graph with $e$ edges minimizes $\mathrm{ex}(n;H)$ with $e$ tied to the
-host, is settled by Bucić, Draganić and Sudakov (Combin. Probab. Comput. 30
-(2021); refereed), and does not transfer to a fixed $k$ and $l$.
+unresolved.
+
+The site's commentary sentence on $l=\lfloor k^2/4\rfloor+1$ is the paper's p.
+34 statement (below), just above the range. Its Dirac half is Theorem 1 of
+[Di63] at $k=3$. Inside the range, that paper's only statements come from the
+cases $\alpha\le0$ of its Theorems 1 and 2. These are upper bounds of order
+$n^2$ on $f_1$, where the Kővári--Sós--Turán theorem gives $o(n^2)$, and that
+paper says nothing about monotonicity in $l$. The neighboring question of Chung
+and Erdős (1983) asks which graph with $e$ edges minimizes $\mathrm{ex}(n;H)$,
+with $e$ tied to the host. It is settled by Bucić, Draganić and Sudakov (Combin.
+Probab. Comput. 30 (2021), refereed), and it does not transfer to a fixed $k$
+and $l$.
 
 **Source.** [erdosproblems.com/766](https://www.erdosproblems.com/766),
 accessed 2026-09-18: the problem page (labeled OPEN,

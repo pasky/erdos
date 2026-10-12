@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0556/claims/2005_06_01_kohayakawa_simonovits_skokan
 title: Kohayakawa, Simonovits and Skokan, R_3(C_n) = 4n - 3 for all large odd n
 desc: |
-  Theorem 1 of Kohayakawa, Simonovits and Skokan gives a threshold beyond
-  which R(C_{n_1}, C_{n_2}, C_{n_3}) = 4 max(n_i) - 3 for odd lengths, so
-  the bound holds with equality for every sufficiently large odd n.
+  Theorem 1 of Kohayakawa, Simonovits and Skokan gives a threshold beyond which
+  $R(C_{n_1},C_{n_2},C_{n_3})=4\max\{n_1,n_2,n_3\}-3$ for odd lengths. So the
+  bound holds with equality for every sufficiently large odd $n$.
 authors:
 - Yoshiharu Kohayakawa
 - Miklós Simonovits

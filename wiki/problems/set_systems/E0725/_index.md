@@ -2,8 +2,7 @@
 name: problems/set_systems/E0725
 title: Problem 725
 desc: |
-  Asks for an asymptotic formula for the number of Latin rectangles with k
-  rows and n columns.
+  Asks for an asymptotic formula for the number of $k\times n$ Latin rectangles.
 tags:
 - Combinatorics
 status: open
@@ -23,14 +22,14 @@ updated: 2026-10-07T19:24:20Z
 **Statement.** Give an asymptotic formula for the number of $k\times n$ Latin
 rectangles.
 
-**Status.** Open: the site labels the problem OPEN. Its commentary records
-the asymptotic $L_{k,n}\sim e^{-\binom k2}(n!)^k$ of Erdős and Kaplansky
-[ErKa46] for $k=o((\log n)^{3/2-\epsilon})$ and Yamamoto's extension of it to
-$k\le n^{1/3-o(1)}$ [Ya51], and calls sequence A001009 of the OEIS the count
-of such Latin rectangles. That sequence lists the normalized counts
-$R_{k,n}$, rectangles whose first row and first column are in natural order,
-with $L_{k,n}=\dfrac{n!\,(n-1)!}{(n-k)!}\,R_{k,n}$ for the labeled count
-$L_{k,n}$ that the asymptotics use.
+**Status.** The site labels the problem OPEN. Its commentary records the
+asymptotic $L_{k,n}\sim e^{-\binom k2}(n!)^k$ of Erdős and Kaplansky [ErKa46]
+for $k=o((\log n)^{3/2-\epsilon})$, and Yamamoto's extension of it to
+$k\le n^{1/3-o(1)}$ [Ya51]. The commentary calls sequence A001009 of the OEIS
+the count of such Latin rectangles. That sequence lists the normalized counts
+$R_{k,n}$, which count rectangles whose first row and first column are in
+natural order. The labeled count $L_{k,n}$ that the asymptotics use is
+$L_{k,n}=\dfrac{n!\,(n-1)!}{(n-k)!}\,R_{k,n}$.
 
 **Source.** [erdosproblems.com/725](https://www.erdosproblems.com/725), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #725,

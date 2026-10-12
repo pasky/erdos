@@ -2,9 +2,10 @@
 name: problems/covering_systems/E0007/claims/2018_11_08_balister_bollobas_morris_sahasrabudhe_tiba
 title: The period of an odd covering is divisible by 9 or 15
 desc: |
-  Theorem 1.4 of the Inventiones paper (2022): the least common multiple of
-  the moduli of a distinct covering system is divisible by 2, 9 or 15, so an
-  odd covering's period is divisible by 9 or 15; accepted on the refereed paper.
+  Theorem 1.4 of Balister, Bollobás, Morris, Sahasrabudhe and Tiba (Inventiones
+  2022), accepted on the refereed paper, shows that the least common multiple of
+  the moduli of a distinct covering system is divisible by 2, 9 or 15. So an odd
+  covering's period is divisible by 9 or 15.
 authors:
 - Paul Balister
 - Béla Bollobás
@@ -62,10 +63,10 @@ or by $15$. The unrestricted question stays open.
 
 **Depends on.** Nothing in this wiki; the theorem is the paper's own.
 
-**Acceptance.** Refereed: Inventiones mathematicae 228 (2022), no. 1,
-377--414, doi:10.1007/s00222-021-01087-5, published online 2021-11-16; the
-arXiv v1 of 2018-11-08 names this page. Not reviewed: the site's commentary
-credits the result, but the site labels the problem VERIFIABLE, an open
-label, so the credit settles no part of the problem on the site's account.
-Not formalized: the library's compilation is author-recorded coverage by
-this project and awards nothing here.
+**Acceptance.** Refereed: Inventiones mathematicae 228 (2022), no. 1, 377--414,
+doi:10.1007/s00222-021-01087-5, published online 2021-11-16. The arXiv v1 of
+2018-11-08 names this page. Not reviewed: the site's commentary credits the
+result, but the site labels the problem VERIFIABLE, an open label. On the site's
+own account, the credit therefore settles no part of the problem. Not
+formalized: the library's compilation is author-recorded coverage by this
+project and awards nothing here.

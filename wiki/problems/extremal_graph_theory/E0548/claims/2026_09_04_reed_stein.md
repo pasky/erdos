@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0548/claims/2026_09_04_reed_stein
 title: Reed and Stein, the Erdős–Sós conjecture for trees of linear order
 desc: |
-  A 2026 preprint of Reed and Stein proving that for every positive gamma
-  there is n_0 such that the statement of Problem 548 holds for all n at least
-  n_0 and all k at least gamma n; a preprint, credited in the site's remarks.
+  A 2026 preprint of Reed and Stein proves that for every $\gamma>0$ there is
+  $n_0$ such that the statement of Problem 548 holds for all $n\ge n_0$ and all
+  $k\ge\gamma n$. The preprint is credited in the site's remarks.
 authors:
 - Bruce Reed
 - Maya Stein

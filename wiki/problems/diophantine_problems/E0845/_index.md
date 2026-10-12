@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0845
 title: Problem 845
 desc: |
-  Asks whether, for each constant C, the sums of distinct products of powers
-  of two and three lying within a factor C of each other have density zero.
+  Asks whether, for each $C>0$, the integers $b_1+\cdots+b_t$ with
+  $b_1<\cdots<b_t\le Cb_1$ and each $b_i$ of the form $2^k3^l$ have density $0$.
 tags:
 - Number theory
 status: solved

@@ -2,9 +2,9 @@
 name: problems/additive_combinatorics/E0140
 title: Problem 140
 desc: |
-  Asks whether the largest subset of the first N integers with no three-term
-  arithmetic progression is smaller than N over any fixed power of the
-  logarithm of N.
+  Asks whether $r_3(N)\ll N/(\log N)^C$ for every $C>0$, where $r_3(N)$ is the
+  size of the largest subset of $\{1,\ldots,N\}$ with no non-trivial $3$-term
+  arithmetic progression.
 tags:
 - Additive combinatorics
 - Arithmetic progressions
@@ -27,25 +27,26 @@ $\{1,\ldots,N\}$ which does not contain a non-trivial $3$-term arithmetic
 progression. Prove that $r_3(N)\ll N/(\log N)^C$ for every $C>0$.
 
 **Status.** PROVED (LEAN). The site credits the proof to Kelley and Meka
-[KeMe23], whose Theorem 1.1 gives $r_3(N)\le N\,2^{-c(\log N)^{\beta}}$ for an
-absolute $\beta>0$, below $N/(\log N)^C$ for every $C$; the claim page
+[KeMe23]. Their Theorem 1.1 gives $r_3(N)\le N\,2^{-c(\log N)^{\beta}}$ for an
+absolute $\beta>0$, which is below $N/(\log N)^C$ for every $C$. The claim page
 [[problems/additive_combinatorics/E0140/claims/2023_02_10_kelley_meka|Kelley and Meka]]
-is accepted on the site's credit and Bloom and Sisask's refereed exposition of
-the proof (the FOCS 2023 proceedings are not a journal, so the page lists no
-`refereed` evidence), and the frontmatter standing derives from it. A second
-route, the September 2026 release preprint of OpenAI with a Lean library two of
-whose declarations combine to prove the problem at $k=3$, is accepted on
+is accepted on the site's credit and on Bloom and Sisask's refereed exposition
+of the proof. The FOCS 2023 proceedings are not a journal, so the page lists no
+`refereed` evidence. The frontmatter standing derives from this claim. A second
+route is the September 2026 release preprint of OpenAI, with a Lean library two
+of whose declarations combine to prove the problem at $k=3$. It is accepted on
 [[problems/additive_combinatorics/E0140/claims/2026_09_23_openai|its claim page]]
-on those declarations, which this corpus's verification built and axiom-checked;
-no comparator challenge pins them, and the preprint itself is unreviewed. The
+on those declarations, which this corpus's verification built and axiom-checked.
+No comparator challenge pins them, and the preprint itself is unreviewed. The
 site's commentary adds that [ErGr80] and [Er81] conjecture the same bound for
 every $k$. No result before the release proves it for any $k\ge4$, and the
-release's theorem claims it; the same two Lean declarations give it at each
+release's theorem claims it. The same two Lean declarations give it at each
 $k\ge4$ by the same combination, as its claim page records. The (Lean) suffix of
-the site's label traces to the community database's formal-status mark and to
-the Lean development in Boris Alexeev's lean-proofs repository that declares
-itself a formalization of Kelley and Meka's result, linked on their claim page
-and explained under Formalization; this corpus has not built or audited it.
+the site's label traces to the community database's formal-status mark. It also
+traces to the Lean development in Boris Alexeev's lean-proofs repository that
+declares itself a formalization of Kelley and Meka's result, which is linked on
+their claim page and explained under Formalization. This corpus has not built or
+audited it.
 
 **Source.** [erdosproblems.com/140](https://www.erdosproblems.com/140), accessed
 2026-10-07 (the page, last edited 20 December 2025, credits Kelley and Meka,

@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0071
 title: Problem 71
 desc: |
-  Asks whether each infinite arithmetic progression with even numbers has a
-  degree bound forcing every graph of that average degree to have such a cycle
-  length.
+  Asks whether, for every infinite arithmetic progression $P$ containing even
+  numbers, there is a constant $c(P)$ such that every graph of average degree at
+  least $c(P)$ has a cycle whose length lies in $P$.
 tags:
 - Graph theory
 - Cycles
@@ -28,10 +28,10 @@ graph with average degree at least $c$ contains a cycle whose length is in $P$?
 
 **Status.** PROVED (LEAN). The claim page is
 [[problems/extremal_graph_theory/E0071/claims/1977_03_01_bollobas|Bollobás]],
-accepted on the refereed publication and the site's credit; the frontmatter
+accepted on the refereed publication and the site's credit, and the frontmatter
 standing is derived from it. The site's suffix is a catalog label explained
-under Formalization, and the Current assessment explains how the printed
-theorem reaches the site's question.
+under Formalization. The Current assessment explains how the printed theorem
+reaches the site's question.
 
 **Source.** [erdosproblems.com/71](https://www.erdosproblems.com/71), accessed
 2026-10-07 (problem page; discussion thread with four posts, on the

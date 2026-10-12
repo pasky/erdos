@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0959/claims/2025_05_07_clemen_dumitrescu_liu
 title: Clemen, Dumitrescu and Liu's n log n gap
 desc: |
-  For all large n some n-point planar set has its most frequent distance
-  occurring Omega(n log n) more times than the next one (Corollary 1.10, from
-  Theorem 1.9); refereed in Acta Math. Hungar.
+  Clemen, Dumitrescu and Liu prove that for all large $n$, some $n$-point planar
+  set has its most frequent distance occurring $\Omega(n\log n)$ more times than
+  the next one (Corollary 1.10, from Theorem 1.9). The paper is refereed and
+  appeared in Acta Math. Hungar.
 authors:
 - Felix Christian Clemen
 - Adrian Dumitrescu
@@ -51,12 +52,12 @@ the order of $M(n)$ remains open.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: the paper is the publisher's version of record in
-Acta Mathematica Hungarica, volume 177 (2025), pages 231-245, published online
-on 12 November 2025; the preprint arXiv:2505.04283 was first posted on 7 May
-2025, the date this page carries. Not reviewed under the corpus's rule: the
-site's commentary credits [CDL25] with the $n\log n$ bound, but the site labels
-the problem OPEN, so that commentary is not an acceptance that settles it. The
-later claims of larger gaps are
-[[problems/distance_problems/E0959/claims/2026_07_15_snyder|Snyder's page]]
-and [[problems/distance_problems/E0959/claims/2026_07_21_xeff|Xeff's page]].
+**Acceptance.** Refereed: the paper is the publisher's version of record in Acta
+Mathematica Hungarica, volume 177 (2025), pages 231-245, published online on 12
+November 2025. The preprint arXiv:2505.04283 was first posted on 7 May 2025, the
+date this page carries. Not reviewed under the corpus's rule: the site's
+commentary credits [CDL25] with the $n\log n$ bound, but the site labels the
+problem OPEN, so that commentary is not an acceptance that settles it. The later
+claims of larger gaps are on
+[[problems/distance_problems/E0959/claims/2026_07_15_snyder|Snyder's page]] and
+[[problems/distance_problems/E0959/claims/2026_07_21_xeff|Xeff's page]].

@@ -3,8 +3,8 @@ name: problems/factorials_binomials/E0391/claims/2025_03_26_alexeev_conway_rosen
 title: The asymptotic of t(n)/n with its logarithmic deficit
 desc: |
   Alexeev, Conway, Rosenfeld, Sutherland, Tao, Uhr and Ventullo prove that
-  t(n)/n equals 1/e minus c_0 over log n up to a smaller error, with an
-  explicit c_0, answering both of the problem's questions in the affirmative.
+  $t(n)/n=1/e-c_0/\log n$ up to a smaller error, with an explicit $c_0$. This
+  answers both of the problem's questions in the affirmative.
 authors:
 - Boris Alexeev
 - Evan Conway

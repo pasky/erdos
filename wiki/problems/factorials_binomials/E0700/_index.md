@@ -2,9 +2,10 @@
 name: problems/factorials_binomials/E0700
 title: Problem 700
 desc: |
-  Studies the least greatest common divisor of n and n choose k over k between
-  1 and half of n, asking when it is large and how big it can be for composite
-  n.
+  Asks, for composite $n$ and $f(n)=\min_{1<k\le n/2}\gcd(n,\binom{n}{k})$,
+  which $n$ have $f(n)=n/P(n)$, where $P(n)$ is the largest prime factor of $n$,
+  whether $f(n)>n^{1/2}$ infinitely often, and whether $f(n)\ll_A n/(\log n)^A$
+  for every $A>0$.
 tags:
 - Number theory
 - Binomial coefficients
@@ -50,13 +51,12 @@ $12/3$, and under the site's reading every prime square is an equality case,
 since $f(p^2)=p$. This page's standing targets the site's wording; the first
 question is open under both readings.
 
-**Status.** Open, the site's label. The site credits GPT 5.6 Sol Pro,
-prompted by Price, with a positive answer to the second question, infinitely
-many products of three primes with $f(n)\sim n^{2/3}$ (page edited 28 August
-2026); see the
+**Status.** Open, the site's label. The standing in the frontmatter derives from
+the claim pages. The site credits GPT 5.6 Sol Pro, prompted by Price, with a
+positive answer to the second question (page edited 28 August 2026). The answer
+gives infinitely many products of three primes with $f(n)\sim n^{2/3}$. See the
 [[problems/factorials_binomials/E0700/claims/2026_07_27_price|Price claim page]],
-a pending partial claim. The standing in the frontmatter derives from the
-claim pages.
+a pending partial claim.
 
 **Source.** [erdosproblems.com/700](https://www.erdosproblems.com/700), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #700,

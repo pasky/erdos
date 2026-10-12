@@ -2,8 +2,10 @@
 name: problems/analysis/E0527
 title: Problem 527
 desc: |
-  Asks whether, for almost all sign choices, a signed power series with small
-  but not square-summable coefficients converges somewhere on the unit circle.
+  Asks whether, for real $a_n$ with $\sum\lvert a_n\rvert^2=\infty$ and
+  $\lvert a_n\rvert=o(1/\sqrt{n})$, almost every choice of signs
+  $\epsilon_n=\pm1$ makes $\sum\epsilon_na_nz^n$ converge at some $z$ on the
+  unit circle.
 tags:
 - Analysis
 - Probability
@@ -32,14 +34,14 @@ $$
 
 converges?
 
-**Status.** Proved. The site labels the problem PROVED and credits Michelen
-and Sawhney [MiSa25], whose Theorem 1.1 gives a convergent point almost
-surely and whose Theorem 1.2 gives a set of convergent points of Hausdorff
-dimension one. The accepted claim page
+**Status.** Proved. The site labels the problem PROVED and credits Michelen and
+Sawhney [MiSa25]. Their Theorem 1.1 gives a convergent point almost surely.
+Their Theorem 1.2 gives a set of convergent points of Hausdorff dimension one.
+The accepted claim page
 [[problems/analysis/E0527/claims/2025_09_02_michelen_sawhney|Michelen and Sawhney 2025]]
-records the result, on the site's acceptance; the paper is a preprint, so no
-refereed publication is listed. The frontmatter standing derives from the
-claim page.
+records the result, on the site's acceptance. The paper is a preprint, so no
+refereed publication is listed. The frontmatter standing derives from the claim
+page.
 
 **Source.** [erdosproblems.com/527](https://www.erdosproblems.com/527), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #527,

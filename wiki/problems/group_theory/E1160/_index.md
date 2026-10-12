@@ -2,8 +2,8 @@
 name: problems/group_theory/E1160
 title: Problem 1160
 desc: |
-  Asks whether the number of groups of order n is at most the number of groups
-  of order two to the m whenever n is at most two to the m.
+  Asks whether the number $g(n)$ of groups of order $n$ satisfies
+  $g(n)\leq g(2^m)$ whenever $n\leq 2^m$.
 tags:
 - Group theory
 status: open
@@ -24,9 +24,9 @@ updated: 2026-10-08T02:16:54Z
 2^m$ then $g(n)\leq g(2^m)$.
 
 **Status.** Open. The site's commentary credits Pantelidakis [Pa03] with the
-case of odd $n$ and $m\ge3619$, recorded as a pending partial claim on
-[[problems/group_theory/E1160/claims/2003_01_01_pantelidakis|its claim page]];
-it does not change the standing.
+case of odd $n$ and $m\ge3619$. This is recorded as a pending partial claim on
+[[problems/group_theory/E1160/claims/2003_01_01_pantelidakis|its claim page]],
+and it does not change the standing.
 
 **Source.** [erdosproblems.com/1160](https://www.erdosproblems.com/1160),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1160,

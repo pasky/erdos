@@ -2,9 +2,10 @@
 name: problems/graph_coloring/E0833/claims/1975_01_01_erdos_lovasz
 title: Erdős and Lovász's exponential degree bound
 desc: |
-  Theorem 2 of Erdős and Lovász's 1975 paper: a 3-chromatic r-uniform
-  hypergraph has a vertex in more than 2^(r-1)/(4r) edges, exponential in r,
-  answering the question; published and credited as the solution by the site.
+  Theorem 2 of Erdős and Lovász's 1975 paper shows that a $3$-chromatic
+  $r$-uniform hypergraph has a vertex in more than $2^{r-1}/(4r)$ edges, a bound
+  exponential in $r$ that answers the question. It is published and credited by
+  the site as the solution.
 authors:
 - P. Erdős
 - L. Lovász
@@ -41,18 +42,17 @@ $3$-chromatic one has a vertex of degree at least $2>1.001^r$. The problem
 page's Progress section carries that calculation. The question's answer is
 yes.
 
-**Acceptance.** Published as P. Erdős and L. Lovász, Problems and results
-on 3-chromatic hypergraphs and some related questions, in Infinite and
-Finite Sets (Colloquium, Keszthely, 1973), Vol. II, Colloquia Mathematica
-Societatis János Bolyai **10**, North-Holland, Amsterdam, 1975, 609–627,
-Mathematical Reviews MR 52 #2938
-([[../library/graph_coloring/erdos_1975_problems_results_3_chromatic_hypergraphs_related/_index|source card]]);
-the venue is an edited proceedings volume, not a journal, so the page lists
-no refereed evidence. The site's curator, Thomas Bloom, marks the problem
-proved and names this paper as the solution, citing the bound $2^{r-1}/(4r)$
-(site page). This corpus checked the theorem's statement
-and the specialization to $q=2$; it has not reconstructed or reviewed the
-proof.
+**Acceptance.** Published as P. Erdős and L. Lovász, Problems and results on
+3-chromatic hypergraphs and some related questions, in Infinite and Finite Sets
+(Colloquium, Keszthely, 1973), Vol. II, Colloquia Mathematica Societatis János
+Bolyai **10**, North-Holland, Amsterdam, 1975, 609–627, Mathematical Reviews MR
+52 #2938
+([[../library/graph_coloring/erdos_1975_problems_results_3_chromatic_hypergraphs_related/_index|source card]]).
+The venue is an edited proceedings volume, not a journal, so the page lists no
+refereed evidence. The site's curator, Thomas Bloom, marks the problem proved
+and names this paper as the solution, citing the bound $2^{r-1}/(4r)$ (site
+page). This corpus checked the theorem's statement and the specialization to
+$q=2$. It has not reconstructed or reviewed the proof.
 
 **Formalization.** The Lean file among the links, in Boris Alexeev's repository
 `lean-proofs`, declares itself a formalization of a solution to Problem 833,

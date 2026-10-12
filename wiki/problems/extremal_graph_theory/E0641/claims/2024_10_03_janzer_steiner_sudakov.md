@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0641/claims/2024_10_03_janzer_steiner_sudakov
 title: Janzer, Steiner and Sudakov's graphs of large chromatic number without a 4-regular subgraph
 desc: |
-  Graphs of fractional chromatic number about log log n / log log log n with no
-  4-regular subgraph, hence no two edge-disjoint cycles on one vertex set, so
-  no f(k) exists even for k = 2; refereed in Bull. London Math. Soc.
+  Janzer, Steiner and Sudakov build graphs of fractional chromatic number about
+  $\log\log n/\log\log\log n$ with no $4$-regular subgraph, hence no two
+  edge-disjoint cycles on one vertex set. This refereed result in Bull. London
+  Math. Soc. shows that no $f(k)$ exists even for $k=2$.
 authors:
 - Barnabás Janzer
 - Raphael Steiner
@@ -58,14 +59,14 @@ bound tight; that is context, not part of this claim. Both the publisher's
 version and the arXiv v1 are held at the paper's
 [[../library/graph_coloring/janzer_2025_chromatic_number_regular_subgraphs/_index|library home]].
 
-**Acceptance.** Refereed: the Bulletin of the London Mathematical Society is
-a refereed journal, and the paper is its open-access version of record,
+**Acceptance.** Refereed: the Bulletin of the London Mathematical Society is a
+refereed journal, and the paper is its open-access version of record. It was
 received 7 October 2024, accepted 17 November 2025 and published online 17
-December 2025. Reviewed: T. F. Bloom, the site's curator, who took no part
-in the paper, labels the problem DISPROVED, credits the resolution to this
-paper, records that the statement fails already at $k=2$, and states the
-chromatic-number bound in the commentary (snapshot of 2026-09-05, page last
-edited 22 January 2026; the thread and the proof-claims tab are empty). No
-independent review is recorded or claimed.
+December 2025. Reviewed: T. F. Bloom, the site's curator, labels the problem
+DISPROVED and credits the resolution to this paper. In the commentary, Bloom
+records that the statement fails already at $k=2$ and states the
+chromatic-number bound (snapshot of 2026-09-05, page last edited 22 January
+2026). Bloom took no part in the paper. The thread and the proof-claims tab are
+empty. No independent review is recorded or claimed.
 
 **Depends on.** Nothing in this wiki: the proof is the paper's.

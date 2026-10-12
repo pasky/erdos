@@ -2,9 +2,8 @@
 name: problems/ramsey_theory/E0636
 title: Problem 636
 desc: |
-  Asks whether a graph on n vertices with no large clique or independent set
-  has many induced subgraphs that pairwise differ in vertex count or edge
-  count.
+  Asks whether a graph on $n$ vertices with no large clique or independent set
+  has many induced subgraphs that pairwise differ in vertex count or edge count.
 tags:
 - Graph theory
 - Ramsey theory
@@ -27,19 +26,19 @@ graph or independent set on $\gg \log n$ many vertices. Must $G$ contain $\gg
 n^{5/2}$ induced subgraphs which pairwise differ in either the number of
 vertices or the number of edges?
 
-**Status.** Proved. The site labels the problem PROVED and its curator
-credits the proof to Kwan and Sudakov [KwSu21]. The status-defining source
-is Theorem 1.1 of Kwan and Sudakov [KwSu21], published in Trans. Amer. Math.
-Soc. 372 (2019), 5571--5594 (refereed; the editions cited are the authors'
-corrected arXiv v4 of 2021 and the published journal text): for
-fixed $C>0$ and $n$ large in terms of $C$, every graph on $n$ vertices with
-no clique or independent set of $C\log n$ vertices has $\Omega_C(n^{5/2})$
-induced subgraphs that pairwise differ in vertex count or edge count, the
-exponent the question asks for. Read depth: statement and application
-checked; no proof is reviewed in this corpus. The claim page
+**Status.** Proved. The site labels the problem PROVED, and its curator credits
+the proof to Kwan and Sudakov [KwSu21]. The claim page
 [[problems/ramsey_theory/E0636/claims/2017_12_15_kwan_sudakov|Kwan and Sudakov 2017]]
-records the result, its postings and the acceptance evidence; the
-frontmatter standing derives from it.
+records the result, its postings and the acceptance evidence, and the
+frontmatter standing derives from it. The status-defining source is Theorem 1.1
+of Kwan and Sudakov [KwSu21], published in Trans. Amer. Math. Soc. 372 (2019),
+5571--5594 (refereed). The editions cited are the authors' corrected arXiv v4 of
+2021 and the published journal text. The theorem states that for fixed $C>0$ and
+$n$ large in terms of $C$, every graph on $n$ vertices with no clique or
+independent set of $C\log n$ vertices has $\Omega_C(n^{5/2})$ induced subgraphs
+that pairwise differ in vertex count or edge count. This is the exponent the
+question asks for. Read depth: statement and application checked; no proof is
+reviewed in this corpus.
 
 **Source.** [erdosproblems.com/636](https://www.erdosproblems.com/636),
 accessed 2026-09-04: the problem page (PROVED; source keys [Er93], [Er97d]

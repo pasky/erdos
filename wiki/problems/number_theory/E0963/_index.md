@@ -2,8 +2,9 @@
 name: problems/number_theory/E0963
 title: Problem 963
 desc: |
-  Estimates the largest dissociated subset guaranteed in any set of n reals,
-  in particular whether it always has at least floor(log_2 n) elements.
+  Asks to estimate $f(n)$, the size of the largest dissociated subset guaranteed
+  in any set of $n$ reals, and in particular whether
+  $f(n)\ge\lfloor\log_2 n\rfloor$.
 tags:
 - Number theory
 status: open
@@ -28,8 +29,8 @@ $$
 f(n)\geq \lfloor \log_2 n\rfloor?
 $$
 
-**Status.** Open. The site labels the problem OPEN, with its note that no
-finite computation can settle it (page last edited 23 January 2026).
+**Status.** Open. The site labels the problem OPEN (page last edited 23 January
+2026) and notes that no finite computation can settle it.
 
 **Source.** [erdosproblems.com/963](https://www.erdosproblems.com/963), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #963,

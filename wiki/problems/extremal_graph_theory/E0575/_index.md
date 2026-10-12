@@ -2,9 +2,11 @@
 name: problems/extremal_graph_theory/E0575
 title: Problem 575
 desc: |
-  Asks whether the extremal number of a finite family with a bipartite member is
-  within a constant factor of some bipartite member's; false as written for two
-  forests, and false for cyclic bipartite families by OpenAI's 2026 report.
+  Asks whether every finite family $\mathcal{F}$ with a bipartite member has a
+  bipartite member $G$ with
+  $\mathrm{ex}(n;G)\ll_{\mathcal{F}}\mathrm{ex}(n;\mathcal{F})$. It is false as
+  written for two forests, and false for families of bipartite graphs with
+  cycles by OpenAI's 2026 report.
 tags:
 - Graph theory
 - Turán numbers
@@ -60,36 +62,38 @@ separately; the site's own account rests on it.
 **Status.** Disproved, on two routes. (1) The statement is false by the
 elementary Observation on p. 1 of Wigderson's note [Wig22]
 ([[../library/extremal_graph_theory/wigderson_2022_erdossimonovits_compactness_conjecture_needs_more_assumptions/observation_p1|result page]],
-recomputed below): for $\mathcal F=\{K_{1,2},2K_2\}$, both members
-bipartite, $\mathrm{ex}(n;\mathcal F)=1$ for $n\ge2$ while
-$\mathrm{ex}(n;K_{1,2})=\lfloor n/2\rfloor$ and $\mathrm{ex}(n;2K_2)=n-1$
-for $n\ge4$, so no member satisfies the displayed comparison. (2) The
-no-forest form is disproved by Theorem 1.1 of Chapter 10 of OpenAI's
-technical report *Ten Advances in Mathematics and Theoretical Computer
-Science* (August 6, 2026 version;
-[[../library/ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_10/theorem_1_1|result page]]):
-a finite nonempty family $\mathcal F$ of connected bipartite graphs, every
-member containing a cycle, with $\mathrm{ex}(n,\mathcal F)=O(n^{4/3-1/48})$
-and $\mathrm{ex}(n,F)=\Omega(n^{4/3})$ for every $F\in\mathcal F$. Its
-author is OpenAI; the announcement attributes the arguments to an internal
-model and manuscript preparation to humans working with that model; the
-site accepted it as the disproof on 31 August 2026 with the label
-DISPROVED. This is a source-supported solution accepted by the site,
-distinct from a claim of journal refereeing: no refereed publication and no
-independent expert review of the argument was found, and the
-corpus has not built or audited the accompanying Lean file. The claim pages
-record both routes:
+recomputed below). Take $\mathcal F=\{K_{1,2},2K_2\}$, both members bipartite.
+Then $\mathrm{ex}(n;\mathcal F)=1$ for $n\ge2$, while
+$\mathrm{ex}(n;K_{1,2})=\lfloor n/2\rfloor$ and $\mathrm{ex}(n;2K_2)=n-1$ for
+$n\ge4$, so no member satisfies the displayed comparison. (2) The no-forest form
+is disproved by Theorem 1.1 of Chapter 10 of OpenAI's technical report *Ten
+Advances in Mathematics and Theoretical Computer Science* (August 6, 2026
+version;
+[[../library/ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_10/theorem_1_1|result page]]).
+It gives a finite nonempty family $\mathcal F$ of connected bipartite graphs,
+every member containing a cycle, with
+$\mathrm{ex}(n,\mathcal F)=O(n^{4/3-1/48})$ and
+$\mathrm{ex}(n,F)=\Omega(n^{4/3})$ for every $F\in\mathcal F$. Its author is
+OpenAI. The announcement attributes the arguments to an internal model and
+manuscript preparation to humans working with that model. The site accepted it
+as the disproof on 31 August 2026 with the label DISPROVED. This is a
+source-supported solution accepted by the site, distinct from a claim of journal
+refereeing. No refereed publication and no independent expert review of the
+argument was found, and the corpus has not built or audited the accompanying
+Lean file.
+
+The claim pages record both routes.
 [[problems/extremal_graph_theory/E0575/claims/2022_07_25_wigderson|Wigderson's two-forest observation]]
-is `claimed`, since no outside acceptance of it is documented (the site's
+is `claimed`, since no outside acceptance of it is documented. The site's
 commentary does not mention it, and the report's p. 237 restates the values
-without reviewing the note), and
+without reviewing the note.
 [[problems/extremal_graph_theory/E0575/claims/2026_08_01_openai|OpenAI's Theorem 1.1]]
-is `accepted` on the site's acceptance alone (evidence `reviewed`: the
-curator's label and commentary of 31 August 2026), with no refereed
-publication and no independent review. The frontmatter standing is derived
-from the accepted claim, so it rests on the site's acceptance of an
-AI-generated argument; the elementary route (1) is recomputed below but, as
-this project's own check, awards no acceptance.
+is `accepted` on the site's acceptance alone (evidence `reviewed`: the curator's
+label and commentary of 31 August 2026), with no refereed publication and no
+independent review. The frontmatter standing is derived from the accepted claim,
+so it rests on the site's acceptance of an AI-generated argument. The elementary
+route (1) is recomputed below, but as this project's own check it awards no
+acceptance.
 
 **Source.** [erdosproblems.com/575](https://www.erdosproblems.com/575),
 accessed 2026-09-18: the problem page (DISPROVED, the

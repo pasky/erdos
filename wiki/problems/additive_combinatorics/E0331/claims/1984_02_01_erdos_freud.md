@@ -3,8 +3,9 @@ name: problems/additive_combinatorics/E0331/claims/1984_02_01_erdos_freud
 title: Erdős and Freud's published counterexample
 desc: |
   Erdős and Freud (J. Number Theory 1984) answer the question in the negative
-  with the integers using only even, respectively only odd, powers of two, for
-  which liminf min(A(x), B(x))/sqrt(x) = 1/sqrt(2); refereed.
+  with the integers that use only even powers of two and those that use only odd
+  powers of two, for which $\liminf\min\{A(x),B(x)\}/\sqrt x=1/\sqrt2$. The
+  paper is refereed.
 authors:
 - P. Erdős
 - R. Freud
@@ -74,12 +75,12 @@ and not checked.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Refereed publication: Journal of Number Theory 18 (1984),
-no. 1, 99--109, issued February 1984 (the date of this page), received 20
-January 1982, communicated by H. Zassenhaus. The site's label credits
-Ruzsa and does not cite this paper, so no `reviewed` evidence is listed;
-the page of the site's credited counterexample discloses this earlier
-publication. The paper is linked at the publisher's record and at the
-Rényi Institute's archive of Erdős's papers; its
+**Acceptance.** Refereed publication: Journal of Number Theory 18 (1984), no. 1,
+99--109. It was received 20 January 1982, communicated by H. Zassenhaus, and
+issued February 1984, the date of this page. The site's label credits Ruzsa and
+does not cite this paper, so no `reviewed` evidence is listed. The page of the
+site's credited counterexample discloses this earlier publication. The paper is
+linked at the publisher's record and at the Rényi Institute's archive of Erdős's
+papers. Its
 [[../library/additive_combinatorics/erdos_freud_1984_disjoint_sets_differences/_index|library card]]
 pages the counterexample of p. 100 and Theorem 4.

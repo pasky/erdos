@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0520/claims/2026_07_31_durkan_pearce_crump
 title: Durkan and Pearce-Crump's sharp almost sure upper bound
 desc: |
-  An arXiv preprint proves that Steinhaus and Rademacher random multiplicative
-  sums are almost surely O(root x (log log x)^(1/4+epsilon)); in the Rademacher
-  case the limit superior in Problem 520 is 0, so the answer is no; pending.
+  An arXiv preprint by Durkan and Pearce-Crump, a pending claim, proves that
+  Steinhaus and Rademacher random multiplicative sums are almost surely
+  $O(\sqrt x(\log\log x)^{1/4+\epsilon})$. In the Rademacher case the limit
+  superior in Problem 520 is then $0$, so the answer is no.
 authors:
 - Benjamin Durkan
 - Andrew Pearce-Crump

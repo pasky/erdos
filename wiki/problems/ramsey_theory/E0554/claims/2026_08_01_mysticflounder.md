@@ -3,8 +3,9 @@ name: problems/ramsey_theory/E0554/claims/2026_08_01_mysticflounder
 title: mysticflounder's report derives the limit for every n at least 4 from two accepted bounds
 desc: |
   A research report of 1 August 2026 by the forum user mysticflounder, credited
-  to Claude with an audit by GPT 5.6, derives the limit 0 for every fixed n at
-  least 4 from the OpenAI triangle bound and the Axenovich et al. upper bound.
+  to Claude with an audit by GPT 5.6, derives the limit $0$ for every fixed
+  $n\ge4$. Its inputs are the OpenAI triangle bound and the upper bound of
+  Axenovich et al.
 authors:
 - Adam McKenna
 status: claimed

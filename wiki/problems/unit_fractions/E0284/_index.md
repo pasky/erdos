@@ -2,8 +2,9 @@
 name: problems/unit_fractions/E0284
 title: Problem 284
 desc: |
-  Asks whether the largest possible smallest denominator among k distinct unit
-  fractions summing to one is asymptotically k divided by e minus one.
+  Asks whether $f(k)$, the largest possible smallest denominator among $k$
+  distinct unit fractions summing to $1$, satisfies
+  $f(k)=(1+o(1))\frac{k}{e-1}$.
 tags:
 - Number theory
 - Unit fractions
@@ -49,15 +50,14 @@ below); Croot's paper prints the corrected form,
 $\max\{x_1\}\sim k/(e-1)$, and notes that the monograph misstated it. The
 site's statement is the corrected form.
 
-**Status.** Proved, in the site's label. The status-defining source is
-Croot's Main Theorem (Acta Arith. 99 (2001), no. 2, 99--114; refereed):
-for every $N>1$ there is a representation $1=\sum1/x_i$ with
-$N<x_1<\cdots<x_k\le(e+o(1))N$, which gives $f(k)=(1+o(1))k/(e-1)$ for
-the infinitely many $k$ that occur as term counts of these
-representations. The paper states the result "for infinitely many $k$";
-the site's commentary calls the problem essentially solved by Croot, and
-its PROVED label rests on that credit. The standing in the frontmatter
-derives from the accepted claim page
+**Status.** Proved, in the site's label. The site's commentary calls the problem
+essentially solved by Croot, and its PROVED label rests on that credit. The
+status-defining source is Croot's Main Theorem (Acta Arith. 99 (2001), no. 2,
+99--114; refereed). For every $N>1$ it gives a representation $1=\sum1/x_i$ with
+$N<x_1<\cdots<x_k\le(e+o(1))N$. This gives $f(k)=(1+o(1))k/(e-1)$ for the
+infinitely many $k$ that occur as term counts of these representations. The
+paper states the result "for infinitely many $k$". The standing in the
+frontmatter derives from the accepted claim page
 [[problems/unit_fractions/E0284/claims/1999_04_30_croot|Croot 1999]].
 
 **Source.** [erdosproblems.com/284](https://www.erdosproblems.com/284),

@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0549/claims/2025_09_09_montgomery_pavez_signe_yan
 title: Montgomery, Pavez-Signé and Yan, Burr's formula for trees of small linear maximum degree
 desc: |
-  Theorem 1.1 of the 2025 preprint gives R(T) = 4k-1 for every tree with
-  classes 2k and k whose maximum degree is at most 3ck, for a small absolute
-  constant c > 0; claimed.
+  Theorem 1.1 of the 2025 preprint gives $R(T)=4k-1$ for every tree with classes
+  $2k$ and $k$ whose maximum degree is at most $3ck$, for a small absolute
+  constant $c>0$. It is recorded as claimed.
 authors:
 - Richard Montgomery
 - Matías Pavez-Signé

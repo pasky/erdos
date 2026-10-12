@@ -2,7 +2,9 @@
 name: problems/divisors/E0468
 title: Problem 468
 desc: |
-  Studies the set of partial sums of the increasing divisors of n above one.
+  Concerns the set $D_n$ of partial sums $d_1,d_1+d_2,\ldots$ of the divisors
+  $1<d_1<d_2<\cdots$ of $n$. It asks how many elements of $D_n$ lie in no
+  earlier $D_m$, and whether the least $n$ with $N\in D_n$ is $o(N)$.
 tags:
 - Number theory
 - Divisors

@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0439
 title: Problem 439
 desc: |
-  Asks whether every finite coloring of the integers has two distinct
-  integers of one color summing to a square, or to a k-th power; proved by
-  Khalfalah and Szemerédi for every non-constant polynomial with an even value.
+  Asks whether every finite coloring of the integers has two distinct integers
+  of one color whose sum is a square, or a $k$th power. Khalfalah and Szemerédi
+  proved it for the values of every non-constant polynomial that takes an even
+  value.
 tags:
 - Number theory
 - Ramsey theory
@@ -51,25 +52,24 @@ the question (the site's Problem 438), and those pages do not pose the
 coloring question.
 
 **Status.** Proved. The status-defining source is Khalfalah and Szemerédi's
-theorem (Combin. Probab. Comput. 15 (2006), no. 1--2, 213--227, published
-online 3 January 2006, refereed): for every non-constant polynomial $f$
-with integer coefficients that takes an even value, every finite coloring
-of the integers has distinct $x$, $y$ of the same color with $x+y=f(z)$; the squares are the
-case $f(z)=z^2$ and the $k$th powers the case $f(z)=z^k$, which takes the
-even value $2^k$. The paper is closed access and not held, so its theorem is
-cited here through the publisher's abstract, the introduction of Sanders's
-refereed 2020 note (the square case, with the distinctness of $x$ and $y$
-stated), Green and Lindqvist's remark, and the site's commentary; the site
-accepted it (PROVED, last edited 7 April 2026). The partial result before
-it, Theorem 3 of Erdős, Sárközy and Sós (1989), which gives for at most three
-colors infinitely many squares that are sums of two distinct integers of one
-color, has the claim page
-[[problems/ramsey_theory/E0439/claims/1989_01_01_erdos_sarkozy_sos|Erdős, Sárközy and Sós 1989]].
-The claim page
+theorem (Combin. Probab. Comput. 15 (2006), no. 1--2, 213--227, published online
+3 January 2006, refereed). Let $f$ be a non-constant polynomial with integer
+coefficients that takes an even value. Then every finite coloring of the
+integers has distinct $x$, $y$ of the same color with $x+y=f(z)$. The squares
+are the case $f(z)=z^2$. The $k$th powers are the case $f(z)=z^k$, which takes
+the even value $2^k$. The site accepted the theorem (PROVED, last edited 7 April
+2026). The claim page
 [[problems/ramsey_theory/E0439/claims/2006_01_03_khalfalah_szemeredi|Khalfalah and Szemerédi 2006]]
 records the theorem, its postings and its acceptance evidence, the refereed
-publication and the documented acceptance, and the frontmatter standing
-derives from it.
+publication and the documented acceptance. The frontmatter standing derives from
+it. The paper is closed access and not held. Its theorem is therefore cited here
+through the publisher's abstract, the introduction of Sanders's refereed 2020
+note (the square case, with the distinctness of $x$ and $y$ stated), Green and
+Lindqvist's remark, and the site's commentary. The partial result before it is
+Theorem 3 of Erdős, Sárközy and Sós (1989). For at most three colors, it gives
+infinitely many squares that are sums of two distinct integers of one color. It
+has the claim page
+[[problems/ramsey_theory/E0439/claims/1989_01_01_erdos_sarkozy_sos|Erdős, Sárközy and Sós 1989]].
 
 **Source.** [erdosproblems.com/439](https://www.erdosproblems.com/439),
 accessed 2026-09-18: the problem page (labeled

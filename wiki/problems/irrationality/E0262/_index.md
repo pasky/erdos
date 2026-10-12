@@ -2,8 +2,9 @@
 name: problems/irrationality/E0262
 title: Problem 262
 desc: |
-  Asks how slowly an increasing integer sequence can grow while every sum of
-  reciprocals of positive integer multiples of its terms stays irrational.
+  Asks how slowly an increasing integer sequence $a_n$ can grow if
+  $\sum_n 1/(t_na_n)$ is irrational for every sequence of positive integers
+  $t_n$.
 tags:
 - Irrationality
 status: solved
@@ -29,16 +30,17 @@ $$
 
 is irrational. How slowly can $a_n$ grow?
 
-**Status.** Solved: Hančl's 1991 theorem that an irrationality sequence must
-satisfy $\limsup(\log_2\log_2 a_n)/n\ge1$ is recorded on
-[[problems/irrationality/E0262/claims/1991_01_01_hancl|its claim page]], and
-Erdős's 1975 theorem that $a_n=2^{2^n}$ attains that growth, the accepted
-partial claim it rests on, on
-[[problems/irrationality/E0262/claims/1975_01_01_erdos|its own page]]. The
-site labels the problem "SOLVED (LEAN)" (page last edited 2025-09-28) and says
-Hančl essentially solved it; the Lean proof behind the label is a public
-formalization of Hančl's argument linked from the claim page, of which the
-corpus records no build or audit as of 2026-10-07.
+**Status.** Solved. The site labels the problem "SOLVED (LEAN)" (page last
+edited 2025-09-28) and says Hančl essentially solved it. Hančl's 1991 theorem,
+that an irrationality sequence must satisfy $\limsup(\log_2\log_2 a_n)/n\ge1$,
+is recorded on
+[[problems/irrationality/E0262/claims/1991_01_01_hancl|its claim page]]. The
+answer also rests on an accepted partial claim, Erdős's 1975 theorem that
+$a_n=2^{2^n}$ attains that growth, recorded on
+[[problems/irrationality/E0262/claims/1975_01_01_erdos|its own page]]. The Lean
+proof behind the label is a public formalization of Hančl's argument, linked
+from the claim page. The corpus records no build or audit of it as of
+2026-10-07.
 
 **Source.** [erdosproblems.com/262](https://www.erdosproblems.com/262), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #262,

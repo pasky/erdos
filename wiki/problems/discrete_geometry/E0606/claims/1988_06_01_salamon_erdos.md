@@ -2,10 +2,10 @@
 name: problems/discrete_geometry/E0606/claims/1988_06_01_salamon_erdos
 title: Salamon and Erdős's spectrum of line counts
 desc: |
-  Salamon and Erdős determine, for every sufficiently large n, exactly which
-  integers occur as the number of lines determined by n points in the plane,
-  the corrected Statement of Problem 606 in full; refereed, and credited by
-  the site as the solution.
+  Salamon and Erdős determine, for every sufficiently large $n$, exactly which
+  integers occur as the number of lines determined by $n$ points in the plane.
+  This answers the corrected Statement of Problem 606 in full, and the site
+  credits the refereed paper as the solution.
 authors:
 - Peter Salamon
 - Paul Erdös
@@ -52,11 +52,11 @@ $n\ge n^*$ and leaves $n<n^*$ open, and that the size of $n^*$ is unknown,
 though the authors expect it to be small. The digest is on the
 [[../library/discrete_geometry/erdos_1988_solution_problem_grunbaum/_index|source card]].
 
-**Acceptance.** The site's curator, T. F. Bloom, labels the problem SOLVED and
+**Acceptance.** T. F. Bloom, the site's curator, labels the problem SOLVED and
 credits Salamon and Erdős [ErSa88] with the complete description (problem page
-accessed 2026-09-04), which is the `reviewed` evidence. The paper is refereed:
-P. Salamon and P. Erdős, The solution to a problem of Grünbaum, Canad. Math.
-Bull. 31 (1988), no. 2, 129–138, DOI 10.4153/CMB-1988-020-2. Issue no. 2 is
-the June 1988 issue, and the page's date is the first of that month. The
-second link is the copy on the Rényi Institute's Erdős page. No independent
-proof review and no formalization are recorded.
+accessed 2026-09-04). This is the `reviewed` evidence. The paper is refereed: P.
+Salamon and P. Erdős, The solution to a problem of Grünbaum, Canad. Math. Bull.
+31 (1988), no. 2, 129–138, DOI 10.4153/CMB-1988-020-2. Issue no. 2 is the June
+1988 issue, and the page's date is the first of that month. The second link is
+the copy on the Rényi Institute's Erdős page. No independent proof review and no
+formalization are recorded.

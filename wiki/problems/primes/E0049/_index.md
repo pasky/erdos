@@ -2,9 +2,10 @@
 name: problems/primes/E0049
 title: Problem 49
 desc: |
-  Asks whether a set of integers up to N on which Euler's totient function is
-  strictly increasing has at most (1+o(1))π(N) elements, or even o(N); Erdős's
-  exact conjecture, that the primes are a largest such set, is open.
+  Asks whether a set $A\subseteq\{1,\ldots,N\}$ on which Euler's totient
+  function $\phi$ is strictly increasing has $\lvert A\rvert<(1+o(1))\pi(N)$, or
+  even $\lvert A\rvert=o(N)$. Erdős's exact conjecture, that the primes are a
+  largest such set, is open.
 tags:
 - Number theory
 - Primes
@@ -80,18 +81,18 @@ $M_{\le}(x)\ge\pi(x)+64$ for every $x\ge31957$ (see Further results). No claim
 page records the conjecture.
 
 **Status.** PROVED (LEAN), the site's label, which describes the corrected
-Statement: the site credits Tao [Ta24d], and
+Statement. The site credits Tao [Ta24d].
 [[problems/primes/E0049/claims/2023_09_05_tao|Tao's theorem]], an accepted full
-claim, answers both of its clauses, giving $\lvert A\rvert<(1+o(1))\pi(N)$ and
-hence $\lvert A\rvert=o(N)$. The strict $o(N)$ clause is older and elementary:
-a strict example has distinct totient values, so its size is at most the number
-of totient values up to $N$, which Erdős (1935) bounded by
-$N/(\log N)^{1+o(1)}$; Pollack, Pomerance and Treviño (2013) extended $o(x)$ to
-the weak maximum. The community database lists the formal status Lean, last
-updated 2026-08-24; that status tracks Boris Alexeev's `lean-proofs` file,
-which states the strict $o(N)$ clause and Tao's weak bound with its rate, not
-exact extremality. Erdős's exact conjecture, recorded under Formulation, is
-open.
+claim, answers both clauses of that Statement: it gives
+$\lvert A\rvert<(1+o(1))\pi(N)$ and hence $\lvert A\rvert=o(N)$. The strict
+$o(N)$ clause is older and elementary. A strict example has distinct totient
+values, so its size is at most the number of totient values up to $N$. Erdős
+(1935) bounded that number by $N/(\log N)^{1+o(1)}$. Pollack, Pomerance and
+Treviño (2013) extended $o(x)$ to the weak maximum. The community database lists
+the formal status Lean, last updated 2026-08-24. That status tracks Boris
+Alexeev's `lean-proofs` file, which states the strict $o(N)$ clause and Tao's
+weak bound with its rate, not exact extremality. Erdős's exact conjecture,
+recorded under Formulation, is open.
 
 **Source.** [T. F. Bloom, Erdős Problem #49](https://www.erdosproblems.com/49),
 accessed 2026-09-05. The discussion and proof-claim lists were empty when

@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0402/claims/1987_09_01_zaharescu
 title: Zaharescu's proof of Graham's conjecture for large sets
 desc: |
-  Zaharescu proves Graham's conjecture for every chain of n positive integers
-  with n sufficiently large, through the gap below 2n to the largest prime and
-  Huxley's prime-gap bound; refereed in J. Number Theory 27 (1987).
+  In a refereed paper in J. Number Theory 27 (1987), Zaharescu proves Graham's
+  conjecture for every chain of $n$ positive integers with $n$ sufficiently
+  large. The proof uses the distance from $2n$ to the largest prime below it and
+  Huxley's prime-gap bound.
 authors:
 - Alexandru Zaharescu
 status: accepted
@@ -58,9 +59,9 @@ $N_0$ elements, where $N_0$ is of the order $e^{10^6}$.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: the Journal of Number Theory is a refereed
-journal, and the paper appeared in its volume 27 (1987). The site's
-commentary credits Szegedy and Zaharescu with the large-set case, while its
-PROVED label settles the problem through Balasubramanian and Soundararajan,
-so no `reviewed` evidence is listed here. The journal record dates the
-issue to September 1987, so the page is dated to its first day.
+**Acceptance.** Refereed: the paper appeared in volume 27 (1987) of the Journal
+of Number Theory, a refereed journal. The site's commentary credits Szegedy and
+Zaharescu with the large-set case. The site's PROVED label, however, settles the
+problem through Balasubramanian and Soundararajan, so no `reviewed` evidence is
+listed here. The journal record dates the issue to September 1987, so the page
+is dated to the first day of that month.

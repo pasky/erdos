@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0061/claims/2021_02_09_chudnovsky_scott_seymour_spirkl
 title: Chudnovsky, Scott, Seymour and Spirkl's five-cycle case
 desc: |
-  Chudnovsky, Scott, Seymour and Spirkl prove that for some t > 0 every graph
-  with no induced five-cycle has a clique or a stable set of size at least
-  |G|^t, the Erdős-Hajnal conjecture for C5; accepted on the refereed paper.
+  Chudnovsky, Scott, Seymour and Spirkl prove that for some $t>0$, every graph
+  $G$ with no induced five-cycle has a clique or a stable set of size at least
+  $|G|^t$. This is the Erdős-Hajnal conjecture for $C_5$, and the claim is
+  accepted on the refereed paper.
 authors:
 - Maria Chudnovsky
 - Alex Scott

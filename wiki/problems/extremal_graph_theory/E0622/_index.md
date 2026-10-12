@@ -2,8 +2,9 @@
 name: problems/extremal_graph_theory/E0622
 title: Problem 622
 desc: |
-  Every regular graph of degree n plus one on two n vertices has a positive
-  proportion of cyclic vertex subsets; the limiting constant is one half.
+  Asks whether every regular graph of degree $n+1$ on $2n$ vertices has
+  $\gg 2^{2n}$ vertex subsets spanned by a cycle; proved, and the limiting
+  constant is $1/2$.
 tags:
 - Graph theory
 status: solved
@@ -27,12 +28,12 @@ Must $G$ have $\gg 2^{2n}$ subsets that are spanned by a cycle?
 has a Hamilton cycle, using exactly its vertices. Distinct subsets are
 counted, not distinct cycles on the same subset.
 
-**Status.** Proved by Draganić, Keevash, and Müyesser (2025). The site
-labels the problem PROVED and credits the resolution to [DKM25]; the result is
-recorded as an accepted claim, on the refereed venue and the site's
-acceptance, on
+**Status.** Proved by Draganić, Keevash, and Müyesser (2025). The site labels
+the problem PROVED and credits the resolution to [DKM25]. The result is recorded
+as an accepted claim on
 [[problems/extremal_graph_theory/E0622/claims/2025_03_03_draganic_keevash_muyesser|its claim page]],
-from which the frontmatter standing is derived.
+on the basis of the refereed venue and the site's acceptance. The frontmatter
+standing is derived from that page.
 
 **Source.** T. F. Bloom, Erdős Problem #622,
 [erdosproblems.com/622](https://www.erdosproblems.com/622), accessed

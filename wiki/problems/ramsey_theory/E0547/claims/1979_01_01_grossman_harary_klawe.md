@@ -3,8 +3,9 @@ name: problems/ramsey_theory/E0547/claims/1979_01_01_grossman_harary_klawe
 title: Grossman, Harary and Klawe, the Ramsey bound for double stars
 desc: |
   Theorem 3.1 of Grossman, Harary and Klawe (Discrete Math. 1979) bounds the
-  Ramsey number of every double star S(n,m) by 2n + m + 2, at most 2N - 2 on
-  its N vertices: the corrected statement of Problem 547 for double stars.
+  Ramsey number of every double star $S(n,m)$ by $2n+m+2$, which is at most
+  $2N-2$ when it has $N$ vertices. This is the corrected statement of Problem
+  547 for double stars.
 authors:
 - Jerrold W. Grossman
 - Frank Harary
@@ -48,9 +49,9 @@ claim]].
 
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.
 
-**Acceptance.** Refereed: J. W. Grossman, F. Harary and M. Klawe,
-*Generalized Ramsey theory for graphs, X: double stars*, Discrete Math. 28
-(1979), no. 3, 247--254, doi:10.1016/0012-365X(79)90132-8, received 8 May
-1978 and revised 22 May 1979; this page's date is the first day of the
-volume's year. No `reviewed` evidence is listed: the site's label
-DECIDABLE settles neither the problem nor any part of it.
+**Acceptance.** Refereed: J. W. Grossman, F. Harary and M. Klawe, *Generalized
+Ramsey theory for graphs, X: double stars*, Discrete Math. 28 (1979), no. 3,
+247--254, doi:10.1016/0012-365X(79)90132-8. The paper was received 8 May 1978
+and revised 22 May 1979. This page's date is the first day of the volume's year.
+No `reviewed` evidence is listed, because the site's label DECIDABLE settles
+neither the problem nor any part of it.

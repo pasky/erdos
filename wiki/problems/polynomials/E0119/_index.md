@@ -2,9 +2,10 @@
 name: problems/polynomials/E0119
 title: Problem 119
 desc: |
-  Asks whether the maximum modulus on the unit circle of the partial products
-  of z minus a unimodular point is unbounded, exceeds a power of n, and has
-  partial sums above n^(1+c); yes by Wagner, Beck, and Korsky with GPT 5.6-Pro.
+  Asks, for unimodular $z_i$ and $M_n=\max_{|z|=1}\prod_{i\le n}|z-z_i|$,
+  whether $\limsup M_n=\infty$, whether $M_n>n^c$ for infinitely many $n$, and
+  whether $\sum_{k\le n}M_k>n^{1+c}$ for all large $n$, for some $c>0$. The
+  answers are yes, by Wagner, Beck, and Korsky with GPT 5.6-Pro.
 tags:
 - Analysis
 - Polynomials
@@ -42,22 +43,21 @@ $$
 \sum_{k\leq n}M_k > n^{1+c}?
 $$
 
-**Status.** The site labels the problem SOLVED (LEAN); the Lean suffix
-refers to formal proofs by others, recorded on the claim pages, that this
-corpus has not built or audited. The site credits the
-first question to Wagner [Wa80], the second to Beck [Be91], and the third,
-the prize question, to Korsky with GPT 5.6-Pro. The claim pages are
+**Status.** The site labels the problem SOLVED (LEAN). The Lean suffix refers to
+formal proofs by others, recorded on the claim pages. This corpus has not built
+or audited them. The site credits the first question to Wagner [Wa80], the
+second to Beck [Be91], and the third, the prize question, to Korsky with GPT
+5.6-Pro. The claim pages are
 [[problems/polynomials/E0119/claims/1980_03_01_wagner|Wagner 1980]]
 ($M_n>(\log n)^c$ infinitely often),
 [[problems/polynomials/E0119/claims/1991_11_01_beck|Beck 1991]]
 ($\max_{n\le N}M_n>N^c$),
 [[problems/polynomials/E0119/claims/2026_07_14_korsky|Korsky 2026]]
-($\sum_{k\le N}M_k\gg N^{5/4}/\sqrt{\log N}$ by a one-page
-harmonic-analysis argument) and
-[[problems/polynomials/E0119/claims/2026_08_29_korsky|Korsky 2026 (second
-claim)]] (the sharper bound $(e^{-1/2}+o(1))N^{3/2}$, which the site's
-commentary credits at the strength $n^{3/2-o(1)}$); see Current assessment
-for the evidence.
+($\sum_{k\le N}M_k\gg N^{5/4}/\sqrt{\log N}$ by a one-page harmonic-analysis
+argument) and [[problems/polynomials/E0119/claims/2026_08_29_korsky|Korsky 2026
+(second claim)]]. The second Korsky claim gives the sharper bound
+$(e^{-1/2}+o(1))N^{3/2}$, which the site's commentary credits at the strength
+$n^{3/2-o(1)}$. See Current assessment for the evidence.
 
 **Source.** [erdosproblems.com/119](https://www.erdosproblems.com/119), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #119,

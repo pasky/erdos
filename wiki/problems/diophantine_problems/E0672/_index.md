@@ -2,9 +2,8 @@
 name: problems/diophantine_problems/E0672
 title: Problem 672
 desc: |
-  Asks whether a product of at least four positive terms in a primitive
-  arithmetic progression, with gcd of initial term and difference one, can
-  be a perfect power.
+  Asks whether the product $n(n+d)\cdots(n+(k-1)d)$ of $k\ge4$ positive terms of
+  an arithmetic progression with $(n,d)=1$ can be a perfect power.
 tags:
 - Number theory
 status: open
@@ -24,8 +23,8 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** Can the product of an arithmetic progression of positive integers
 $n,n+d,\ldots,n+(k-1)d$ of length $k\geq 4$ (with $(n,d)=1$) be a perfect power?
 
-**Status.** Verifiable, in the site's label (VERIFIABLE), an open label;
-refereed partial results settle instances in the negative (Current
+**Status.** Verifiable, the site's label (VERIFIABLE). This is an open label.
+Refereed partial results settle instances in the negative (see the Current
 assessment).
 
 **Source.** [erdosproblems.com/672](https://www.erdosproblems.com/672), accessed

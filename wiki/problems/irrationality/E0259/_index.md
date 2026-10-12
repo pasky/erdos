@@ -2,8 +2,7 @@
 name: problems/irrationality/E0259
 title: Problem 259
 desc: |
-  Asks whether the sum over squarefree n of n divided by two to the n is
-  irrational.
+  Asks whether the sum of $n/2^n$ over all squarefree $n$ is irrational.
 tags:
 - Irrationality
 status: solved
@@ -28,15 +27,15 @@ $$
 
 irrational?
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page
-last edited 19 October 2025; accessed 2026-09-04 and 2026-10-07) and credits
-Chen and Ruzsa [ChRu99] with the proof of the stronger conjecture that every
-infinite subseries over squarefree numbers is irrational; the frontmatter
-standing derives from the
+**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
+edited 19 October 2025; accessed 2026-09-04 and 2026-10-07). It credits Chen and
+Ruzsa [ChRu99] with the proof of the stronger conjecture that every infinite
+subseries over squarefree numbers is irrational. The frontmatter standing
+derives from the
 [[problems/irrationality/E0259/claims/1999_02_01_chen_ruzsa|claim page]] for
 that refereed paper. The Lean qualifier is a third-party formalization of the
-paper's argument that formal-conjectures cites, described under
-Formalization; this corpus has not built or audited it.
+paper's argument, cited by formal-conjectures and described under Formalization.
+This corpus has not built or audited it.
 
 **Source.** [erdosproblems.com/259](https://www.erdosproblems.com/259), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #259,

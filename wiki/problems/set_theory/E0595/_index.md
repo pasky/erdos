@@ -2,8 +2,8 @@
 name: problems/set_theory/E0595
 title: Problem 595
 desc: |
-  Asks whether there is an infinite graph with no complete subgraph on four
-  vertices that is not a union of countably many triangle-free graphs.
+  Asks whether there is an infinite $K_4$-free graph that is not a union of
+  countably many triangle-free graphs.
 tags:
 - Graph theory
 - Set theory
@@ -24,13 +24,12 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** Is there an infinite graph $G$ which contains no $K_4$ and is not
 the union of countably many triangle-free graphs?
 
-**Status.** Open. The site labels Problem 595 OPEN. The one claim recorded
-here is imported from the site's ruling on the identical first question of
-[[problems/set_theory/E1174/_index|Problem 1174]], which it labels NOT
-DISPROVABLE, crediting Shelah; the claim page
+**Status.** Open. The site labels Problem 595 OPEN. The one claim recorded here
+is imported from the site's ruling on the identical first question of
+[[problems/set_theory/E1174/_index|Problem 1174]]. The site labels that problem
+NOT DISPROVABLE, crediting Shelah. The claim page
 [[problems/set_theory/E0595/claims/1989_01_01_shelah|Shelah 1989]] records that
-result, which is one side of an independence result, so the problem is open on
-it.
+result. It is one side of an independence result, so the problem is open on it.
 
 **Source.** [erdosproblems.com/595](https://www.erdosproblems.com/595), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #595,

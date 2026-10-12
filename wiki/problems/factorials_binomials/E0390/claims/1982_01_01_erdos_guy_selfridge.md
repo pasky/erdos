@@ -2,9 +2,10 @@
 name: problems/factorials_binomials/E0390/claims/1982_01_01_erdos_guy_selfridge
 title: The order of magnitude of f(n) - 2n
 desc: |
-  Erdős, Guy and Selfridge prove constants 0 < c1 < c2 with 2n + c1 n/log n <
-  f(n) < 2n + c2 n/log n for all large n, so f(n) - 2n has exact order n/log
-  n; a proceedings paper, pending acceptance.
+  Erdős, Guy and Selfridge prove that there are constants $0<c_1<c_2$ with
+  $2n+c_1n/\log n<f(n)<2n+c_2n/\log n$ for all large $n$, so $f(n)-2n$ has exact
+  order $n/\log n$. It is a proceedings paper, and the claim is pending
+  acceptance.
 authors:
 - P. Erdős
 - R. K. Guy
@@ -53,6 +54,6 @@ raises the lower constant.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** None listed. The paper appeared in a proceedings volume, Congr.
-Numer. 34, with no evidence on record that it was refereed, and the site labels
-the problem OPEN (LEAN), so its remark crediting the result is commentary on an
-open problem and not acceptance. This corpus has not checked the proof.
+Numer. 34, with no evidence on record that it was refereed. The site labels the
+problem OPEN (LEAN), so its remark crediting the result is commentary on an open
+problem and not acceptance. This corpus has not checked the proof.

@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0778/claims/2025_05_06_cambie_provoost
 title: Cambie and Provoost's exhaustive search for small n
 desc: |
-  Cambie and Provoost's game solver shows that Bob wins the unbiased clique
-  game on K_n for 3 <= n <= 8 and determines the maximum-degree game on K_n for
-  n <= 8: Alice wins at n = 2, 3 and Bob ties from n = 4 on.
+  Cambie and Provoost report from their game solver that Bob wins the unbiased
+  clique game on $K_n$ for $3\le n\le8$. They also determine the maximum-degree
+  game on $K_n$ for $n\le8$: Alice wins at $n=2,3$ and Bob ties for
+  $4\le n\le8$.
 authors:
 - Stijn Cambie
 - Michiel Provoost
@@ -61,9 +62,9 @@ first question together with a determination of the third.
 **Depends on.** Nothing in this wiki: the results are the authors' own
 computations.
 
-**Acceptance.** None recorded. The paper is an unrefereed preprint, the
-computations rest on the authors' implementations (published with the
-paper, in C and in Sage, in the repository
-Algorithmic-Graph-Theory-Group/edge-colouring-games linked above at its
-commit of 6 May 2025), the site's commentary does not cite the paper, and
-the site's label is OPEN as of 2026-10-06. The claim stays `claimed`.
+**Acceptance.** None recorded. The paper is an unrefereed preprint. The
+computations rest on the authors' implementations in C and in Sage, published
+with the paper in the repository
+Algorithmic-Graph-Theory-Group/edge-colouring-games, which is linked above at
+its commit of 6 May 2025. The site's commentary does not cite the paper, and the
+site's label is OPEN as of 2026-10-06. The claim stays `claimed`.

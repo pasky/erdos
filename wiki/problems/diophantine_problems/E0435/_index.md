@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E0435
 title: Problem 435
 desc: |
-  The largest integer not expressible as a nonnegative integer combination of
-  the binomial coefficients C(n,1), ..., C(n,n-1), for n not a prime power.
+  Asks for the largest integer that is not a nonnegative integer combination of
+  $\binom{n}{1},\ldots,\binom{n}{n-1}$, for $n$ not a prime power.
 tags:
 - Number theory
 status: solved
@@ -29,15 +29,15 @@ $$
 
 where the $c_i\geq 0$ are integers?
 
-**Status.** Solved; the site labels the problem PROVED (LEAN). The site's
-commentary credits Hwang and Song with the first proof, and the frontmatter
-standing is derived from the accepted claim page
+**Status.** Solved. The site labels the problem PROVED (LEAN). The site's
+commentary credits Hwang and Song with the first proof. The frontmatter standing
+is derived from the accepted claim page
 [[problems/diophantine_problems/E0435/claims/2024_12_23_hwang_song|Hwang and Song's formula]],
-accepted on the site's credit; the formula was found independently in the
-site's forum by Peake and Cambie, whose posts are recorded on that page and,
-as forum comments, have no page of their own. The Lean part of the label
-refers to a formalization of Cambie's forum proof, linked from the same page,
-which this corpus has not built or audited.
+accepted on the site's credit. Peake and Cambie found the formula independently
+in the site's forum. Their posts are recorded on that page and, as forum
+comments, have no page of their own. The Lean part of the label refers to a
+formalization of Cambie's forum proof, linked from the same page. This corpus
+has not built or audited it.
 
 **Source.** [erdosproblems.com/435](https://www.erdosproblems.com/435), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #435,

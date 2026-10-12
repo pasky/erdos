@@ -3,8 +3,9 @@ name: problems/distance_problems/E0213/claims/2019_01_09_ascher_braune_turchet
 title: Ascher, Braune and Turchet's uniform bound under Lang's conjecture
 desc: |
   Ascher, Braune and Turchet (Bull. London Math. Soc. 2020) prove that Lang's
-  conjecture implies a uniform bound on rational distance sets in general
-  position, so under that unproven hypothesis the answer is no for large n.
+  conjecture implies a uniform bound on the size of rational distance sets in
+  general position. Under that unproven hypothesis, the answer is no for large
+  $n$.
 authors:
 - Kenneth Ascher
 - Lucas Braune
@@ -61,9 +62,9 @@ Kurz]] and that no larger example is known.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Refereed: Bulletin of the London Mathematical Society 52
-(2020), no. 6, 1053–1063, published online 2020-06-29; the Crossref record of
-the DOI gives these data. The site's remarks record the conditional uniform
-bound with this paper as its source, but the site labels the problem OPEN, so
-that remark is commentary on an open problem and no `reviewed` evidence is
+**Acceptance.** Refereed: Bulletin of the London Mathematical Society 52 (2020),
+no. 6, 1053–1063, published online 2020-06-29. These data come from the Crossref
+record of the DOI. The site's remarks record the conditional uniform bound and
+give this paper as its source, but the site labels the problem OPEN. That remark
+is therefore commentary on an open problem, and no `reviewed` evidence is
 listed.

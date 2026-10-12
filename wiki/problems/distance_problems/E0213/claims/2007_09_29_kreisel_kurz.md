@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0213/claims/2007_09_29_kreisel_kurz
 title: Kreisel and Kurz's integral heptagon in general position
 desc: |
-  Kreisel and Kurz (Discrete Comput. Geom. 2008) find by exhaustive search
+  By exhaustive search, Kreisel and Kurz (Discrete Comput. Geom. 2008) find
   seven points in the plane, no three on a line and no four on a circle, with
-  all distances integers and minimum diameter 22270; yes for every n up to 7.
+  all distances integers and minimum diameter 22270. The answer is therefore yes
+  for every $n\le7$.
 authors:
 - Tobias Kreisel
 - Sascha Kurz
@@ -56,7 +57,7 @@ formalization.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed: Discrete & Computational Geometry 39 (2008), no. 4,
-786–790, published online 2007-09-29; the Crossref record of the DOI gives
-these data. The site's remarks credit the largest known construction, seven
-points, to this paper, but the site labels the problem OPEN, so that credit is
-commentary on an open problem and no `reviewed` evidence is listed.
+786–790, published online 2007-09-29. These data come from the Crossref record
+of the DOI. The site's remarks credit the largest known construction, seven
+points, to this paper, but the site labels the problem OPEN. That credit is
+therefore commentary on an open problem, and no `reviewed` evidence is listed.

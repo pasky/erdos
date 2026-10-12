@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E0188/claims/2026_06_15_currier_mody_xie_zhang
 title: Currier, Mody, Xie and Zhang, an avoiding coloring for 6330-term unit progressions
 desc: |
-  Theorem 1.2 of the preprint gives a red-blue coloring of the plane with no
-  red unit pair and no blue unit progression of 6330 terms, so the least
-  avoiding length is at most 6330.
+  Theorem 1.2 of Currier, Mody, Xie and Zhang's preprint claims there is a
+  red-blue coloring of the plane with no red unit pair and no blue unit
+  progression of $6330$ terms. This would show that the least avoiding length is
+  at most $6330$.
 authors:
 - Gabriel Currier
 - Param Mody

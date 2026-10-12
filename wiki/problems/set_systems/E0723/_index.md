@@ -2,8 +2,7 @@
 name: problems/set_systems/E0723
 title: Problem 723
 desc: |
-  Asks whether the order of a finite projective plane must always be a power
-  of a prime.
+  Asks whether the order of every finite projective plane must be a prime power.
 tags:
 - Combinatorics
 status: open
@@ -27,12 +26,12 @@ A finite projective plane of order $n$ is a collection of subsets of
 $\{1,\ldots,n^2+n+1\}$ of size $n+1$ such that every pair of elements is
 contained in exactly one set.
 
-**Status.** Falsifiable: the site labels the problem FALSIFIABLE and records
-that planes exist for every prime-power order, that the conjecture holds for
-$n\le11$ while the existence of a plane of order $12$ is open, Bruck and
-Ryser's theorem [BrRy49] that an order $n\equiv1$ or $2\pmod4$ must be a sum
-of two squares, which rules out $n=6$ and $n=14$, and the computer search
-that ruled out $n=10$ [La97].
+**Status.** The site labels the problem FALSIFIABLE. It records that planes
+exist for every prime-power order. It records that the conjecture holds for
+$n\le11$, while the existence of a plane of order $12$ is open. It cites Bruck
+and Ryser's theorem [BrRy49] that an order $n\equiv1$ or $2\pmod4$ must be a sum
+of two squares, which rules out $n=6$ and $n=14$. It also cites the computer
+search that ruled out $n=10$ [La97].
 
 **Source.** [erdosproblems.com/723](https://www.erdosproblems.com/723), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #723,

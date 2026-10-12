@@ -2,10 +2,10 @@
 name: problems/ramsey_theory/E0949
 title: Problem 949
 desc: |
-  Asks whether the complement of any sum-free set of reals contains a set of
-  size continuum whose pairwise sums also avoid it; open; AlphaProof's Lean
-  proof of the Sidon case is a pending claim and a thread comment argues the
-  Baire case.
+  Asks whether the complement of every sum-free set $S\subseteq\mathbb R$
+  contains a set $A$ of size continuum with $A+A$ also outside $S$. Open, with
+  AlphaProof's Lean proof of the Sidon case pending as a claim and a thread
+  comment arguing the Baire case.
 tags:
 - Ramsey theory
 status: open
@@ -44,20 +44,21 @@ $S$ Sidon when the sums $a+b$ with $a,b\in S$ are distinct apart from
 $a+b=b+a$.
 
 **Status.** Open. No proof or disproof of the statement for an arbitrary
-sum-free $S\subseteq\mathbb R$ was found in the search
-whose scope the Current assessment records. Two special cases are not the
-problem. The case $S$ Sidon (the site's variant) is claimed by an argument
-that AlphaProof found, merged as a Lean proof into the formal-conjectures
-statement file on 6 January 2026, posted to the site's discussion on 7
-January 2026 and adopted by the site's commentary; the first case of that
-argument also covers every $S$ of cardinality less than $\mathfrak c$
-without the Sidon hypothesis. It is recorded as a pending partial claim on
-[[problems/ramsey_theory/E0949/claims/2026_01_06_deepmind|its claim page]],
-which the commentary on an open problem does not make accepted. The case of
-$S$ with the property of Baire is argued in a thread comment of 23 January
-2026, not adopted by the commentary; it is a thread post, not a dated
-manuscript or a Lean proof, so it has no claim page. The proof-claim tab is
-empty. This is a bounded negative finding, not a certificate of openness.
+sum-free $S\subseteq\mathbb R$ was found in the search whose scope the Current
+assessment records. This is a bounded negative finding, not a certificate of
+openness. The proof-claim tab is empty. Two special cases have been argued, and
+neither is the problem itself. The first is the case where $S$ is Sidon, which
+is the site's variant. It is claimed by an argument that AlphaProof found. The
+argument was merged as a Lean proof into the formal-conjectures statement file
+on 6 January 2026, posted to the site's discussion on 7 January 2026 and adopted
+by the site's commentary. The first case of that argument also covers every $S$
+of cardinality less than $\mathfrak c$, without the Sidon hypothesis. It is
+recorded as a pending partial claim on
+[[problems/ramsey_theory/E0949/claims/2026_01_06_deepmind|its claim page]].
+Adoption by the commentary on an open problem does not make it accepted. The
+second is the case where $S$ has the property of Baire. It is argued in a thread
+comment of 23 January 2026, which the commentary did not adopt. It is a thread
+post, not a dated manuscript or a Lean proof, so it has no claim page.
 
 **Source.** [erdosproblems.com/949](https://www.erdosproblems.com/949),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that no

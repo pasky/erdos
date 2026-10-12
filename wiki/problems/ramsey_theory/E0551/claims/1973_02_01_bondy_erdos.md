@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E0551/claims/1973_02_01_bondy_erdos
 title: "Bondy and Erdős: the identity for cycles of length at least n squared minus two"
 desc: |
-  Theorem 4 of Bondy and Erdős (1973): R(C_k,K_n) = (k-1)(n-1)+1 whenever
-  k >= n^2-2, the first infinite range of the identity; refereed and credited
-  by the site's commentary.
+  Theorem 4 of Bondy and Erdős (1973) gives $R(C_k,K_n)=(k-1)(n-1)+1$ whenever
+  $k\ge n^2-2$, the first infinite range of the identity. It is refereed and
+  credited by the site's commentary.
 authors:
 - J. A. Bondy
 - P. Erdős
@@ -59,13 +59,12 @@ to finitely many $n$; the finite residue is stated on that page.
 **Depends on.** No page of this wiki: the theorem and its proof are the
 paper's own.
 
-**Acceptance.** Refereed: the paper is a journal publication in the
-Journal of Combinatorial Theory, Series B, volume 14, number 1 (February
-1973), received 28 January 1972, the `refereed` evidence; the issue
-carries no day, so this page is dated to the first day of that month. The
-site's curator, Thomas Bloom, credits the range to this paper in the
-problem page's commentary, but the site's label DECIDABLE settles neither
-the problem nor a declared part of it, so that credit is not `reviewed`
-evidence. The statement is checked against the paper; the proof is read
-for its structure only, and nothing is independently reviewed by this
-corpus.
+**Acceptance.** Refereed: the paper is a journal publication in the Journal of
+Combinatorial Theory, Series B, volume 14, number 1 (February 1973), received 28
+January 1972. This is the `refereed` evidence. The issue carries no day, so this
+page is dated to the first day of that month. The site's curator, Thomas Bloom,
+credits the range to this paper in the problem page's commentary. But the site's
+label DECIDABLE settles neither the problem nor a declared part of it, so that
+credit is not `reviewed` evidence. The statement is checked against the paper.
+The proof is read for its structure only, and nothing is independently reviewed
+by this corpus.

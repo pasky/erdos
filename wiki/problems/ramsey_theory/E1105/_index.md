@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E1105
 title: Problem 1105
 desc: |
-  Asks for the anti-Ramsey numbers of cycles and paths, the most colors on
-  the edges of the complete graph on n vertices without a rainbow copy: an
-  asymptotic formula for cycles and an exact formula for paths.
+  Asks for the anti-Ramsey numbers of cycles and paths, the most colors on the
+  edges of $K_n$ without a rainbow copy. It proposes an asymptotic formula for
+  cycles and an exact formula for paths.
 tags:
 - Graph theory
 - Ramsey theory
@@ -56,41 +56,42 @@ equal to $\epsilon_0+1$; the translation is checked on the
 page. The site's range $n\ge\frac54k+C$ for the 1975 announcement is that
 paper's $n\ge(5t+3+c)/2$.
 
-**Status.** The site's label is PROVED; the two halves rest on different
-evidence. Paths: the formula holds for all $n\ge k\ge5$ by Theorem 1 of Yuan
-(arXiv:2102.00807v3, 9 February 2021), a preprint which the site's curator
-accepts: the commentary, under the label PROVED, credits Yuan with an announced
-proof of the formula over the whole range, and the community database lists the
-problem as proved as of its last update, 1 February 2026; before it, Simonovits
-and Sós (Combinatorica 1984, refereed) proved the formula for paths on
-$2t+3+\epsilon_0\ge13$ vertices and $n>ct^2$, and the 1975 announcements of
-proofs never appeared. Cycles: the exact value is Theorem 5 of
-Montellano-Ballesteros and Neumann-Lara (Graphs Combin. 21 (2005), 343--354,
-refereed): for every $n\ge p\ge3$, $h(n,p)=\mathbf E(n,p)$, where $h(n,p)$
-is the least number of colors that forces a rainbow $C_p$ and
-$\mathbf E(n,p)=\binom{p-1}2\lfloor\frac n{p-1}\rfloor+\binom r2+\lceil\frac n{p-1}\rceil$
-with $r$ the residue of $n$ modulo $p-1$, so that
-$\mathrm{AR}(n,C_k)=\mathbf E(n,k)-1$ for all $n\ge k\ge3$; the displayed
-asymptotic is its Corollary 1 (p. 353). Before it, the 1975 and 1984 papers
-state the cycle formula as a conjecture (proved by its authors "only for
-$k=3$") and call it "still unsettled for $k\ge5$". The claim pages
+**Status.** The site's label is PROVED. The problem lists two parts, cycles and
+paths, and the two halves rest on different evidence. The claim pages
 [[problems/ramsey_theory/E1105/claims/2005_09_01_montellano_ballesteros_neumann_lara|Montellano-Ballesteros and Neumann-Lara 2005]]
-(accepted on the curator's credit and the refereed publication, partial:
-the cycle half),
-[[problems/ramsey_theory/E1105/claims/2021_02_01_yuan|Yuan 2021]]
-(accepted on the curator's credit, partial: the path half for all
-$n\ge k\ge5$) and
+(accepted on the curator's credit and the refereed publication, partial: the
+cycle half), [[problems/ramsey_theory/E1105/claims/2021_02_01_yuan|Yuan 2021]]
+(accepted on the curator's credit, partial: the path half for all $n\ge k\ge5$)
+and
 [[problems/ramsey_theory/E1105/claims/1984_03_01_simonovits_sos|Simonovits and Sós 1984]]
-(accepted on the refereed publication, partial: long paths for large $n$)
-record the results, their postings and their acceptance evidence. The
-frontmatter standing derives from these pages: the problem lists its two
-parts, cycles and paths, and the accepted partial claims of
+(accepted on the refereed publication, partial: long paths for large $n$) record
+the results, their postings and their acceptance evidence. The frontmatter
+standing derives from these pages. The accepted partial claims of
 Montellano-Ballesteros and Neumann-Lara (cycles) and Yuan (paths) settle one
-part each, so the derived standing is solved, proved, in agreement with
-the site's label, while the evidence behind each half differs as recorded
-here. Both halves rest on theorem statements with no proof checked, the
-cycle half in a refereed paper and the path half in a preprint with no
+part each. So the derived standing is solved, proved, in agreement with the
+site's label. Both halves rest on theorem statements with no proof checked. The
+cycle half rests on a refereed paper, and the path half on a preprint with no
 refereed version.
+
+Paths. The formula holds for all $n\ge k\ge5$ by Theorem 1 of Yuan
+(arXiv:2102.00807v3, 9 February 2021). This is a preprint, which the site's
+curator accepts. Under the label PROVED, the commentary credits Yuan with an
+announced proof of the formula over the whole range. The community database
+lists the problem as proved as of its last update, 1 February 2026. Before Yuan,
+Simonovits and Sós (Combinatorica 1984, refereed) proved the formula for paths
+on $2t+3+\epsilon_0\ge13$ vertices and $n>ct^2$. The proofs announced in 1975
+never appeared.
+
+Cycles. The exact value is Theorem 5 of Montellano-Ballesteros and Neumann-Lara
+(Graphs Combin. 21 (2005), 343--354, refereed). For every $n\ge p\ge3$ it gives
+$h(n,p)=\mathbf E(n,p)$. Here $h(n,p)$ is the least number of colors that forces
+a rainbow $C_p$, and
+$\mathbf E(n,p)=\binom{p-1}2\lfloor\frac n{p-1}\rfloor+\binom r2+\lceil\frac n{p-1}\rceil$,
+with $r$ the residue of $n$ modulo $p-1$. So
+$\mathrm{AR}(n,C_k)=\mathbf E(n,k)-1$ for all $n\ge k\ge3$. The displayed
+asymptotic is its Corollary 1 (p. 353). Before this paper, the 1975 and 1984
+papers state the cycle formula as a conjecture, proved by its authors "only for
+$k=3$". They call it "still unsettled for $k\ge5$".
 
 **Source.** [erdosproblems.com/1105](https://www.erdosproblems.com/1105),
 accessed 2026-09-18: the problem page (PROVED, the site's label for a

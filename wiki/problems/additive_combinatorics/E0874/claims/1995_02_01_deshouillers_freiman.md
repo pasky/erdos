@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0874/claims/1995_02_01_deshouillers_freiman
 title: Deshouillers and Freiman's asymptotic 2 root N for admissible sets
 desc: |
-  Theorem 1 of the 1995 Israel Journal paper: an admissible subset of the
-  first N integers has at most 2 N^{1/2} + C N^{5/12} elements, so with
-  Straus's block k(N) is asymptotic to 2 N^{1/2}; refereed, not the site's key.
+  Theorem 1 of Deshouillers and Freiman's 1995 Israel Journal paper: an
+  admissible subset of the first $N$ integers has at most $2N^{1/2}+CN^{5/12}$
+  elements, so, with Straus's block, $k(N)\sim2N^{1/2}$. The paper is refereed
+  but is not the site's key reference.
 authors:
 - J-M. Deshouillers
 - G. A. Freiman
@@ -71,11 +72,11 @@ also needs is Straus's block computation (1966; not held), reported in the
 paper itself (p. 34) and by Erdős, Nicolas and Sárközy (1991), and
 recorded on the problem page.
 
-**Acceptance.** Refereed: Israel Journal of Mathematics 92 (1995),
-no. 1--3, 33--43, doi:10.1007/BF02762069 (Crossref record read,
-issue dated February 1995; received March 11, 1993, revised March 22,
-1994); the page is named by the issue's month, filled to its first day.
-Not reviewed: the site's commentary credits the affirmative answer to the
-authors' 1999 paper, [DeFr99], and does not cite this one, so no curator
-credit attaches to it; its result is what the 1999 paper's introduction
-and the site's "proved" label build on.
+**Acceptance.** Refereed: Israel Journal of Mathematics 92 (1995), no. 1--3,
+33--43, doi:10.1007/BF02762069. The Crossref record was read: it dates the issue
+to February 1995, and the paper was received March 11, 1993 and revised March
+22, 1994. The page is named by the issue's month, filled to its first day. Not
+reviewed: the site's commentary credits the affirmative answer to the authors'
+1999 paper, [DeFr99], and does not cite this one, so no curator credit attaches
+to it. This paper's result is what the 1999 paper's introduction and the site's
+"proved" label build on.

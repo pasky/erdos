@@ -2,9 +2,10 @@
 name: problems/divisors/E1099/claims/1987_01_01_tenenbaum
 title: Tenenbaum's bounded divisor-gap sums along three classical sequences
 desc: |
-  Tenenbaum's Théorème 1 bounds the sum of the alpha-th powers of the
-  consecutive divisor ratios minus one uniformly along the factorials, the
-  least common multiples and the primorials, settling Erdős's question again.
+  Tenenbaum's Théorème 1 bounds $h_\alpha(N)=\sum_i(d_{i+1}/d_i-1)^\alpha$,
+  summed over the consecutive divisors of $N$, uniformly along the factorials,
+  the least common multiples and the primorials. This settles Erdős's question
+  again.
 authors:
 - Gérald Tenenbaum
 status: accepted
@@ -69,7 +70,8 @@ Théorème 1 is unchanged.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The paper is a refereed article in the Annales de l'Institut
-Fourier, the `refereed` evidence. The site's problem page credits Vose alone;
-a comment in the problem's thread on 2 July 2026 points out that Tenenbaum's
-paper also solves the problem, and no curator credit of it is recorded, so no
-`reviewed` evidence is listed. No proof has been reproduced here.
+Fourier, which is the `refereed` evidence. The site's problem page credits Vose
+alone. A comment in the problem's thread on 2 July 2026 points out that
+Tenenbaum's paper also solves the problem. No curator credit of the paper is
+recorded, so no `reviewed` evidence is listed. No proof has been reproduced
+here.

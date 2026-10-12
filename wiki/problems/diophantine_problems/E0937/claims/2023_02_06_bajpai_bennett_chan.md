@@ -3,8 +3,9 @@ name: problems/diophantine_problems/E0937/claims/2023_02_06_bajpai_bennett_chan
 title: Infinitely many coprime four-term progressions of powerful numbers
 desc: |
   Bajpai, Bennett and Chan construct infinitely many four-term arithmetic
-  progressions of pairwise coprime powerful numbers, answering Problem 937
-  affirmatively; refereed in Int. J. Number Theory and credited by the site.
+  progressions of pairwise coprime powerful numbers, which answers Problem 937
+  affirmatively. The paper was refereed in Int. J. Number Theory, and the site
+  credits it.
 authors:
 - Prajeet Bajpai
 - Michael A. Bennett
@@ -53,15 +54,17 @@ direct gcd argument makes every pair of terms coprime.
 
 **Acceptance.** The paper is refereed: Int. J. Number Theory 20 (2024), no. 1,
 19–45. The site's curator, Thomas Bloom, marks Problem 937 proved and credits
-this paper for the proof. The community database (teorth/erdosproblems) further records
-the problem as proved in Lean: the formal-conjectures statement for Problem 937 carries a
-formal-proof attribute pointing at the Lean 4 file linked above, which declares
-itself a formalization of this paper's solution (informal authors Bajpai,
-Bennett and Chan; formal authors recorded as the AI systems Codex and GPT-5.6
-Sol) and proves that the set of pairs $(a,d)$ with $d>0$ and $a, a+d, a+2d,
-a+3d$ pairwise coprime and powerful is infinite, following the same
-elliptic-curve orbit modulo $73$. That file is linked as the claimant's
-formalization; this corpus has not built or audited it, so it is not listed as
+this paper for the proof.
+
+The community database (teorth/erdosproblems) also records the problem as proved
+in Lean. The formal-conjectures statement for Problem 937 carries a formal-proof
+attribute that points at the Lean 4 file linked above. That file declares itself
+a formalization of this paper's solution. Its informal authors are Bajpai,
+Bennett and Chan, and its formal authors are recorded as the AI systems Codex
+and GPT-5.6 Sol. It proves that the set of pairs $(a,d)$ with $d>0$ and
+$a, a+d, a+2d, a+3d$ pairwise coprime and powerful is infinite, following the
+same elliptic-curve orbit modulo $73$. The file is linked as the claimant's
+formalization. This corpus has not built or audited it, so it is not listed as
 `formalized` evidence.
 
 **Depends on.** No other wiki page; the claim rests on the cited paper.

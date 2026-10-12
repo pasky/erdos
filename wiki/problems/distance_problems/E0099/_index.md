@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0099
 title: Problem 99
 desc: |
-  Asks whether, for all sufficiently large n, an n-point plane set of minimum
-  distance one and smallest possible diameter must contain three points forming
-  a unit equilateral triangle.
+  Asks whether, for all large $n$, an $n$-point set in the plane with minimum
+  distance $1$ and the smallest possible diameter must contain three points
+  forming an equilateral triangle of side $1$.
 tags:
 - Geometry
 - Distances

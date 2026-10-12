@@ -3,8 +3,9 @@ name: problems/arithmetic_functions/E0416/claims/2026_09_25_openai_formula
 title: OpenAI's asymptotic equivalent for the totient count
 desc: |
   Theorem 2.1 of the OpenAI release manuscript of 25 September 2026 gives
-  V(x) ~ (x/log x) G_m A(1;theta) with a coefficient that has no closed form;
-  whether it is the asymptotic formula Problem 416 asks for stays pending.
+  $V(x)\sim(x/\log x)\,G_mA(1;\theta)$, with a coefficient that has no closed
+  form. Whether this is the asymptotic formula Problem 416 asks for is still
+  pending.
 authors:
 - OpenAI
 status: claimed

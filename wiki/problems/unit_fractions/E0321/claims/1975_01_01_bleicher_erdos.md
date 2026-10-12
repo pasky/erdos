@@ -3,8 +3,8 @@ name: problems/unit_fractions/E0321/claims/1975_01_01_bleicher_erdos
 title: Bleicher and Erdős's dissociated set of products of growing primes
 desc: |
   Bleicher and Erdős's 1975 Lemma and count: the products of rapidly growing
-  primes up to N have distinct reciprocal subset sums, so R(N) is at least
-  N / log N times the iterated-logarithm product up to depth k + 1.
+  primes up to $N$ have distinct reciprocal subset sums, so
+  $R(N)\ge\frac{N}{\log N}\prod_{j=3}^{k+1}\log_jN$.
 authors:
 - M. N. Bleicher
 - P. Erdős

@@ -2,9 +2,9 @@
 name: problems/graph_coloring/E0921
 title: Problem 921
 desc: |
-  Asks whether, for every k at least 4, the longest odd cycle avoidable in a
-  k-chromatic graph on n vertices has length about the (k minus 2)th root of
-  n.
+  Asks whether, for every $k\geq4$, the largest $m$ such that some $k$-chromatic
+  graph on $n$ vertices has every odd cycle longer than $m$ is of order
+  $n^{1/(k-2)}$.
 tags:
 - Graph theory
 - Chromatic number
@@ -33,10 +33,10 @@ $$
 
 **Status.** Proved. The site credits Kierstead, Szemerédi and Trotter [KST84]
 with the proof for every $k\ge4$
-([[problems/graph_coloring/E0921/claims/1984_06_01_kierstead_szemeredi_trotter|claim page]]):
-their local-coloring theorem gives $f_k(n)\ll_k n^{1/(k-2)}$, and Schrijver's
+([[problems/graph_coloring/E0921/claims/1984_06_01_kierstead_szemeredi_trotter|claim page]]).
+Their local-coloring theorem gives $f_k(n)\ll_k n^{1/(k-2)}$, and Schrijver's
 stable Kneser graphs give the matching lower bound. The question is Erdős and
-Gallai's; for $k=4$, Gallai [Ga63] had the lower bound $f_4(n)\gg n^{1/2}$ for
+Gallai's. For $k=4$, Gallai [Ga63] had the lower bound $f_4(n)\gg n^{1/2}$ for
 infinitely many $n$, and the matching upper bound is an unpublished argument of
 Erdős.
 

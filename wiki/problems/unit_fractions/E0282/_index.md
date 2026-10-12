@@ -2,9 +2,9 @@
 name: problems/unit_fractions/E0282
 title: Problem 282
 desc: |
-  Asks whether the greedy algorithm picking the least allowed denominator
-  always terminates for a rational with odd denominator when only odd ones are
-  allowed.
+  Asks whether the greedy algorithm for unit fractions, which always takes the
+  least allowed denominator, terminates for every rational in $(0,1)$ with odd
+  denominator when only odd denominators are allowed.
 tags:
 - Number theory
 - Unit fractions
@@ -53,18 +53,18 @@ sources. The first question is Stein's odd-denominator question; the second,
 site's commentary names two further instances, denominators in a residue class
 and square denominators.
 
-**Status.** Open on the site: the label is OPEN (no last-edited date shown;),
-and the site marks the problem as not resolvable by a finite computation. The
-frontmatter standing open, claim none, rests on no claim page: the site's
+**Status.** Open on the site: the label is OPEN, with no last-edited date shown.
+The site marks the problem as not resolvable by a finite computation. The
+frontmatter standing, open, claim none, rests on no claim page. The site's
 proof-claim tab is empty, and no manuscript located claims either question. No
 proof, disproof or accepted resolution of the odd-denominator question, and no
-classification of the terminating pairs $(x,A)$, was found in the search
-whose scope the Current assessment records. The published sources cited state
-the odd-denominator question as open (Pihko 2001 and 2010, Louwsma and Martino
-2023, Koizumi 2025); the results recorded are existence criteria, which say
-which rationals have a representation at all, and termination for prescribed
-finite numbers of steps, none of which decides termination in general. This is a
-bounded negative finding, not a certificate of openness.
+classification of the terminating pairs $(x,A)$, was found in the search whose
+scope the Current assessment records. The published sources cited state the
+odd-denominator question as open (Pihko 2001 and 2010, Louwsma and Martino 2023,
+Koizumi 2025). The results recorded are existence criteria, which say which
+rationals have a representation at all, and termination for prescribed finite
+numbers of steps. None of them decides termination in general. This is a bounded
+negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/282](https://www.erdosproblems.com/282),
 accessed 2026-09-18: the problem page (OPEN, marked as not resolvable by a

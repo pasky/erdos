@@ -2,9 +2,9 @@
 name: problems/extremal_graph_theory/E0746
 title: Problem 746
 desc: |
-  Asks whether the uniform random graph on n vertices with slightly more than
-  half of n times log n edges is almost surely Hamiltonian; the Erdős-Rényi
-  conjecture, settled by Korshunov and by Komlós and Szemerédi.
+  Asks whether a uniform random graph on $n$ vertices with at least
+  $(\tfrac12+\epsilon)n\log n$ edges is almost surely Hamiltonian. This
+  Erdős–Rényi conjecture was settled by Korshunov and by Komlós and Szemerédi.
 tags:
 - Graph theory
 status: solved
@@ -55,38 +55,39 @@ and the threshold with a Hamiltonian cycle is Erdős's later wording, as
 $(1+\varepsilon)n\log n$ edges on $2n$ vertices in [Er81] and in the
 $(\tfrac12+\epsilon)n\log n$ form in [Er82e].
 
-**Status.** Proved. The statement follows from either of two results:
-Korshunov's theorem that almost all graphs with $n$ labeled vertices and $k$
-edges are Hamiltonian if and only if
-$k=\tfrac12n(\log n+\log\log n+\varphi(n))$ with $\varphi(n)\to\infty$
-(announced in Dokl. Akad. Nauk SSSR 228 (1976), 529--532, in the mathnet.ru
-copy, no file held; the 1977 paper [Ko77], not held, gave by the author's own
-account a part of the proof, for $k>6n\log n$; the author's complete proof is
-Theorem 1, p. 171, of his 1985 paper, no file held, paged at
-[[../library/extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/theorem_1|theorem_1]]),
-and Komlós and Szemerédi's limit law [KoSz83] (Discrete Math. 43 (1983),
-55--63, refereed; Theorem 1, p. 56, paged at
-[[../library/extremal_graph_theory/komlos_szemeredi_1983_limit_distribution_hamiltonian_cycles_random_graph/theorem_1|theorem_1]]):
-with $\tfrac12n\log n+\tfrac12n\log\log n+c_nn$ edges the probability of a
+**Status.** Proved. The statement follows from either of two results. The first
+is Korshunov's theorem that almost all graphs with $n$ labeled vertices and $k$
+edges are Hamiltonian if and only if $k=\tfrac12n(\log n+\log\log n+\varphi(n))$
+with $\varphi(n)\to\infty$. It was announced in Dokl. Akad. Nauk SSSR 228
+(1976), 529--532, in the mathnet.ru copy (no file held). By the author's own
+account, the 1977 paper [Ko77], not held, gave a part of the proof, for
+$k>6n\log n$. The author's complete proof is Theorem 1, p. 171, of his 1985
+paper (no file held), paged at
+[[../library/extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/theorem_1|theorem_1]].
+The second is Komlós and Szemerédi's limit law [KoSz83] (Discrete Math. 43
+(1983), 55--63, refereed; Theorem 1, p. 56, paged at
+[[../library/extremal_graph_theory/komlos_szemeredi_1983_limit_distribution_hamiltonian_cycles_random_graph/theorem_1|theorem_1]]).
+With $\tfrac12n\log n+\tfrac12n\log\log n+c_nn$ edges, the probability of a
 Hamiltonian cycle tends to $0$, $e^{-e^{-2c}}$ or $1$ as $c_n\to-\infty$,
-$c_n\to c$ or $c_n\to\infty$. Since
-$(\tfrac12+\epsilon)n\log n$ exceeds $\tfrac12n(\log n+\log\log n)+\omega n$
-for every fixed $\omega$ once $n$ is large, either result gives the
-statement. Pósa's earlier theorem [Po76] (Theorem 3, p. 364: $[c_1n\log n]$
-edges for a sufficiently large constant $c_1$, which the paper does not
-specify) settles the statement only for $\epsilon\ge c_1-\tfrac12$, recorded
-as the partial claim
-[[problems/extremal_graph_theory/E0746/claims/1976_01_01_posa|Pósa]]. The two
-status-defining papers are attested by Erdős himself in two of his own
-published problem papers ([Er81], Part VIII, and [Er82e], §1, quoted below),
-by the site, and by Frieze's annotated bibliography; Korshunov's theorem is
-taken as printed in the author's 1985 paper, the 1977 text being not held,
-while [Po76] is read in full and [KoSz83] at its theorems (the library holds
-no file of either). The two full results are recorded on the claim pages
+$c_n\to c$ or $c_n\to\infty$. Since $(\tfrac12+\epsilon)n\log n$ exceeds
+$\tfrac12n(\log n+\log\log n)+\omega n$ for every fixed $\omega$ once $n$ is
+large, either result gives the statement. The two full results are recorded on
+the claim pages
 [[problems/extremal_graph_theory/E0746/claims/1976_01_22_korshunov|Korshunov]]
 and
 [[problems/extremal_graph_theory/E0746/claims/1983_01_01_komlos_szemeredi|Komlós and Szemerédi]],
 from which the frontmatter standing is derived.
+
+Pósa's earlier theorem [Po76] (Theorem 3, p. 364) gives $[c_1n\log n]$ edges for
+a sufficiently large constant $c_1$, which the paper does not specify. It
+settles the statement only for $\epsilon\ge c_1-\tfrac12$ and is recorded as the
+partial claim
+[[problems/extremal_graph_theory/E0746/claims/1976_01_01_posa|Pósa]]. The two
+status-defining papers are attested by Erdős himself in two of his own published
+problem papers ([Er81], Part VIII, and [Er82e], §1, quoted below), by the site,
+and by Frieze's annotated bibliography. Korshunov's theorem is taken as printed
+in the author's 1985 paper, the 1977 text being not held. [Po76] is read in full
+and [KoSz83] at its theorems. The library holds no file of either.
 
 **Source.** [erdosproblems.com/746](https://www.erdosproblems.com/746), accessed
 2026-09-18: the problem page (labeled PROVED, the site recording an affirmative

@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E1204
 title: Problem 1204
 desc: |
-  Estimates the smallest largest element, and smallest average, of k integers
-  missing a residue class modulo every prime; the largest element lies between
-  half and once k log k, the average between a quarter and half of it; open.
+  Asks for estimates of the least possible largest element $A(k)$ and least
+  possible mean $B(k)$ of $k$ integers missing a residue class modulo every
+  prime; open. Asymptotically, $A(k)$ lies between $\tfrac12k\log k$ and
+  $k\log k$, and $B(k)$ between $\tfrac14k\log k$ and $\tfrac12k\log k$.
 tags:
 - Number theory
 status: open
@@ -69,28 +70,34 @@ term is not fixed in the print; the site takes $a_1=0$, giving the sequence
 $0,2,6,8,12,18,20,26,\ldots$ of OEIS A135311.
 
 **Status.** Open. What is known is the two-sided bound
-$(1/2+o(1))k\log k\le A(k)\le(1+o(1))k\log k$ and second-order refinements of
-the upper bound: the $k$ smallest primes above $k$ form an admissible $k$-tuple,
-which gives $A(k)\le k\log k+k\log\log k-k+o(k)$ (display (149) of the Polymath
-paper, the sieve of Eratosthenes), and the Hensley--Richards sieve gives
-$A(k)\le k\log k+k\log\log k-(1+\log2)k+o(k)$ (display (150), from the 1974 Acta
-Arithmetica theorem that $\rho^*(x)-\pi(x)\ge(\log2-\varepsilon)x/(\log x)^2$
-for large $x$, where $\rho^*(x)$ is the size of the largest admissible tuple in
-an interval of $x$ integers). A 2022 announcement by Konyagin, with no published
-proof, claims a further second-order improvement (Current assessment). The lower
-bound is an application of the Brun--Titchmarsh inequality, which the site
-credits to Elliott (1965, not held) and the Polymath paper to the project's
-earlier work. The asymptotic $A(k)\sim k\log k$ is open: the Polymath paper
-expects $H(k)=(1+o(1))k\log k$ (p. 80) and conjectures $k\log k+k$ as an upper
-bound for large $k$ (p. 79); the site records that the prime tuples conjecture
-together with $\pi(x+y)\le\pi(x)+(1+o(1))\pi(y)$ (Problem 855) would give
-$A(k)\ge(1+o(1))k\log k$; and Hensley and Richards proved that the prime
-$k$-tuples conjecture is incompatible with $\pi(x+y)\le\pi(x)+\pi(y)$. For
-$B(k)$ only elementary bounds are known: $B(k)<A(k)$, the $k$ primes above $k$
-give $B(k)\le(1/2+o(1))k\log k$, and $a_j\ge A(j)$ with the known lower bound
-gives $B(k)\ge(1/4-o(1))k\log k$ (the site's deduction). No source proving or
-refuting either asymptotic was found in the search whose
-scope the Current assessment records. This is a bounded negative finding, not a
+$(1/2+o(1))k\log k\le A(k)\le(1+o(1))k\log k$, together with second-order
+refinements of the upper bound. The asymptotic $A(k)\sim k\log k$ is open.
+
+The $k$ smallest primes above $k$ form an admissible $k$-tuple. This gives
+$A(k)\le k\log k+k\log\log k-k+o(k)$ (display (149) of the Polymath paper, the
+sieve of Eratosthenes). The Hensley--Richards sieve gives
+$A(k)\le k\log k+k\log\log k-(1+\log2)k+o(k)$ (display (150)). This comes from
+the 1974 Acta Arithmetica theorem that
+$\rho^*(x)-\pi(x)\ge(\log2-\varepsilon)x/(\log x)^2$ for large $x$, where
+$\rho^*(x)$ is the size of the largest admissible tuple in an interval of $x$
+integers. A 2022 announcement by Konyagin, with no published proof, claims a
+further second-order improvement (Current assessment). The lower bound is an
+application of the Brun--Titchmarsh inequality. The site credits it to Elliott
+(1965, not held), and the Polymath paper credits it to the project's earlier
+work.
+
+On the asymptotic, the Polymath paper expects $H(k)=(1+o(1))k\log k$ (p. 80) and
+conjectures $k\log k+k$ as an upper bound for large $k$ (p. 79). The site
+records that the prime tuples conjecture together with
+$\pi(x+y)\le\pi(x)+(1+o(1))\pi(y)$ (Problem 855) would give
+$A(k)\ge(1+o(1))k\log k$. Hensley and Richards proved that the prime $k$-tuples
+conjecture is incompatible with $\pi(x+y)\le\pi(x)+\pi(y)$.
+
+For $B(k)$ only elementary bounds are known. First, $B(k)<A(k)$. Second, the $k$
+primes above $k$ give $B(k)\le(1/2+o(1))k\log k$. Third, $a_j\ge A(j)$ with the
+known lower bound gives $B(k)\ge(1/4-o(1))k\log k$ (the site's deduction). No
+source proving or refuting either asymptotic was found in the search whose scope
+the Current assessment records. This is a bounded negative finding, not a
 certificate of openness.
 
 **Source.** [erdosproblems.com/1204](https://www.erdosproblems.com/1204),

@@ -2,9 +2,10 @@
 name: problems/set_systems/E1025/claims/1958_03_01_erdos_hajnal
 title: Erdős and Hajnal's bounds n to the 1/3 and root of n log n
 desc: |
-  Erdős and Hajnal (1958) prove that every mapping of pairs of an n-set to
-  outside points admits an independent set of order n^(1/3) and that some
-  mapping admits none above order root(n log n); refereed, both superseded.
+  Erdős and Hajnal (1958) prove that every map sending each pair of an $n$-set
+  to a point outside it has an independent set of order $n^{1/3}$, and that some
+  such map has none above order $\sqrt{n\log n}$. The paper is refereed, and
+  both bounds are superseded.
 authors:
 - P. Erdős
 - A. Hajnal
@@ -57,8 +58,8 @@ $g(n)\ll n^{1/2}$. The theorem does not determine the order of $g(n)$.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: P. Erdős and A. Hajnal, On the structure of
-set-mappings, Acta Math. Acad. Sci. Hungar. 9 (1958), no. 1–2, 111–131; the
+set-mappings, Acta Math. Acad. Sci. Hungar. 9 (1958), no. 1–2, 111–131. The
 record dates the issue to March 1958 and gives no day, so the page is dated to
-the first day of that month. The site's label SOLVED (LEAN) rests on Spencer
-and on Conlon, Fox and Sudakov, so no `reviewed` is listed for these bounds.
-Nothing here rests on this project's own review.
+the first day of that month. The site's label SOLVED (LEAN) rests on Spencer and
+on Conlon, Fox and Sudakov, so no `reviewed` is listed for these bounds. Nothing
+here rests on this project's own review.

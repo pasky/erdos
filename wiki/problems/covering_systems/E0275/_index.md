@@ -2,7 +2,7 @@
 name: problems/covering_systems/E0275
 title: Problem 275
 desc: |
-  Asks whether a system of r congruences that covers two to the r consecutive
+  Asks whether a system of $r$ congruences that covers $2^r$ consecutive
   integers must cover every integer.
 tags:
 - Number theory
@@ -25,12 +25,12 @@ updated: 2026-10-08T02:16:54Z
 i\leq r\}$ (the $n_i$ are not necessarily distinct) covers $2^r$ consecutive
 integers then it covers all integers.
 
-**Status.** PROVED (LEAN). The proof of Crittenden and Vanden Eynden and the
-short proof of Balister, Bollobás, Morris, Sahasrabudhe and Tiba, which the
-Lean proof follows, are recorded on
-[[problems/covering_systems/E0275/claims/1970_03_01_crittenden_vanden_eynden|the first]]
-and
+**Status.** PROVED (LEAN). Two proofs are recorded on claim pages. The proof of
+Crittenden and Vanden Eynden is on
+[[problems/covering_systems/E0275/claims/1970_03_01_crittenden_vanden_eynden|the first]].
+The short proof of Balister, Bollobás, Morris, Sahasrabudhe and Tiba is on
 [[problems/covering_systems/E0275/claims/2019_09_05_balister_bollobas_morris_sahasrabudhe_tiba|the second claim page]].
+The Lean proof follows the short proof.
 
 **Source.** [erdosproblems.com/275](https://www.erdosproblems.com/275), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #275,

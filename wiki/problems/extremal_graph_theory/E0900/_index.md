@@ -2,9 +2,10 @@
 name: problems/extremal_graph_theory/E0900
 title: Problem 900
 desc: |
-  Asks whether the uniform random graph with n vertices and cn edges, c above
-  one half, almost surely has a path of length f(c)n with f tending to 0 at
-  one half and to 1 at infinity; proved by Ajtai, Komlós and Szemerédi, 1981.
+  Asks whether the uniform random graph with $n$ vertices and $cn$ edges,
+  $c>1/2$, almost surely has a path of length $f(c)n$, where $f(c)\to0$ as
+  $c\to1/2$ and $f(c)\to1$ as $c\to\infty$. Proved by Ajtai, Komlós and
+  Szemerédi in 1981.
 tags:
 - Graph theory
 status: solved
@@ -43,26 +44,26 @@ is reached there. The site's wording follows Erdős's 1982 statement of the
 conjecture (p. 69, below); his 1975 statement asks a stronger question, an
 asymptotic $(1+o(1))f(C)n$ for the longest cycle.
 
-**Status.** Proved. The status-defining source is Theorem 2 of Ajtai,
-Komlós and Szemerédi, *The longest path in a random graph*, Combinatorica 1
-(1981), 1--12 (refereed; the version of record): "The random (undirected)
-graph $G'_{n,\beta n}$ with $n$ vertices and $\beta n$ edges, $\beta>1/2$,
-almost surely contains a path of length $cn$, $c=c(\beta)$", together with
-its Corollary, that for any prescribed path fraction $c<1$ the
-exponential-rate bound holds for a large enough edge coefficient, its
-transfer sentence to the undirected model and its Remark 2 relating the
-fixed-edge and independent-edge models. The existence of a function $f$
-with the two limits follows from these three statements by the deduction
-written under Status support, this page's own and not the paper's, which
-defines no single $f$. Acceptance evidence: refereed publication;
-Erdős's own report of the proof in his 1982 collection ("All
-these conjectures were proved by Ajtai, Komlós and Szemerédi"); the site;
-the community database. Read depth: claims checked for Theorem 2, the
-Exponential rate, the Corollary and Remarks 1 and 2; the proofs (pp. 4--12)
-were not read. The result and its acceptance evidence are recorded on the
+**Status.** Proved. The result and its acceptance evidence are recorded on the
 claim page
 [[problems/extremal_graph_theory/E0900/claims/1981_03_01_ajtai_komlos_szemeredi|Ajtai--Komlós--Szemerédi]],
-from which the frontmatter standing is derived.
+from which the frontmatter standing is derived. The status-defining source is
+Theorem 2 of Ajtai, Komlós and Szemerédi, *The longest path in a random graph*,
+Combinatorica 1 (1981), 1--12 (refereed; the version of record): "The random
+(undirected) graph $G'_{n,\beta n}$ with $n$ vertices and $\beta n$ edges,
+$\beta>1/2$, almost surely contains a path of length $cn$, $c=c(\beta)$". It is
+used together with three further statements of the paper. Its Corollary says
+that for any prescribed path fraction $c<1$ the exponential-rate bound holds for
+a large enough edge coefficient. Its transfer sentence passes to the undirected
+model. Its Remark 2 relates the fixed-edge and independent-edge models. The
+existence of a function $f$ with the two limits follows from these three
+statements by the deduction written under Status support. That deduction is this
+page's own, not the paper's, and the paper defines no single $f$. The acceptance
+evidence is the refereed publication, Erdős's own report of the proof in his
+1982 collection ("All these conjectures were proved by Ajtai, Komlós and
+Szemerédi"), the site and the community database. Read depth: the claims were
+checked for Theorem 2, the Exponential rate, the Corollary and Remarks 1 and 2.
+The proofs (pp. 4--12) were not read.
 
 **Source.** [erdosproblems.com/900](https://www.erdosproblems.com/900),
 accessed 2026-09-19: the problem page (PROVED, recording an affirmative

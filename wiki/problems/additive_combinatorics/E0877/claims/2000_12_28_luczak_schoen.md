@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0877/claims/2000_12_28_luczak_schoen
 title: Łuczak and Schoen's exponential saving over two to the n over two
 desc: |
-  For all large n the number of maximal sum-free subsets of the first n
-  integers is at most 2^(n/2 - n/2^28), which is o(2^(n/2)); the first answer
-  to the displayed question, refereed in the Proc. AMS; not held.
+  Łuczak and Schoen's bound, refereed in the Proc. AMS, that for all large $n$
+  the first $n$ integers have at most $2^{n/2-n/2^{28}}$ maximal sum-free
+  subsets, which is $o(2^{n/2})$ and the first answer to the displayed question.
+  The paper is not held.
 authors:
 - Tomasz Łuczak
 - Tomasz Schoen
@@ -58,11 +59,11 @@ informal authors, so it is not a formalization of this paper.
 
 **Depends on.** No wiki page; the claim rests on the cited paper.
 
-**Acceptance.** Refereed: the paper is a research article in the
-Proceedings of the American Mathematical Society (Crossref record read: published online 28 December 2000, the date that names this
-page; volume 129, issue 8, 2001). Reviewed: the site's curator, Thomas Bloom,
-marks the problem proved on erdosproblems.com and credits Łuczak and
-Schoen with a bound $f_m(n)<2^{cn}$ for some $c<1/2$ that settles the
-question; the two refereed papers of 2015 and 2018 cite the result as
-the answer to the question. The paper's read status is unread, so no
-further evidence is listed.
+**Acceptance.** Refereed: the paper is a research article in the Proceedings of
+the American Mathematical Society. Its Crossref record (read) gives volume 129,
+issue 8, 2001, and online publication on 28 December 2000, the date that names
+this page. Reviewed: the site's curator, Thomas Bloom, marks the problem proved
+on erdosproblems.com and credits Łuczak and Schoen with a bound $f_m(n)<2^{cn}$
+for some $c<1/2$ that settles the question. The two refereed papers of 2015 and
+2018 cite the result as the answer to the question. The paper has not been read,
+so no further evidence is listed.

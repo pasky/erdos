@@ -2,8 +2,8 @@
 name: problems/integer_sequences/E0539
 title: Problem 539
 desc: |
-  Estimates the least possible size of the set of ratios of each element to
-  the greatest common divisor of a pair, over all sets of n natural numbers.
+  Asks for estimates of $h(n)$, the least size of $\{a/\gcd(a,b):a,b\in A\}$
+  over all sets $A\subseteq\mathbb{N}$ of size $n$.
 tags:
 - Additive combinatorics
 - Number theory
@@ -49,34 +49,36 @@ The site's source key is [Er73, p. 125]; it tags the page additive
 combinatorics and number theory.
 
 **Status.** The site's label is OPEN. The refereed bounds are
-$n^{1/2}\ll h(n)\ll n^{2/3}$: the lower bound is Erdős and Szemerédi's, by
-the pairing argument Granville and Roesler give on p. 2 of their paper, and
-the upper bound comes from the Freiman–Lev sets in two dimensions, which
-Granville and Roesler present (pp. 2--3) and record as their Theorem 2; the
-accepted partial claim
+$n^{1/2}\ll h(n)\ll n^{2/3}$. The lower bound is Erdős and Szemerédi's, by the
+pairing argument Granville and Roesler give on p. 2 of their paper. The upper
+bound comes from the Freiman–Lev sets in two dimensions, which Granville and
+Roesler present (pp. 2--3) and record as their Theorem 2. The accepted partial
+claim
 [[problems/integer_sequences/E0539/claims/1999_04_01_granville_roesler|Granville and Roesler 1999]]
-records both, on the refereed publication alone. Erdős's 1973 announcement
-of the bounds (5.2) with Szemerédi has no claim page: it gives no proof and
-no reference, and its content is carried by the Granville–Roesler page,
-which credits it. Two further partial claims have pages. The exponent:
-Theorem A.1 of the arXiv preprint of July 2026 by Schmitt, Gehrunger,
-Dekoninck, Bérczi, Kreitner, Price and Holmes describing their system ProofCouncil, to which they attribute it,
-gives $h(n)\le e^{O(\sqrt{\log n})}n^{1/2}$, hence $h(n)=n^{1/2+o(1)}$; the
-site's curator, Thomas Bloom, adopted the bound into the commentary on
-15 June 2026 after sketching the construction himself, while the label
-stayed OPEN, and
-[[problems/integer_sequences/E0539/claims/2026_06_10_schmitt_gehrunger_dekoninck_berczi_kreitner_price_holmes|its claim page]]
-records it as a pending partial claim (not refereed; the adoption of a bound
-into the commentary of a problem the site labels OPEN is not an acceptance,
-and nothing is reviewed by this project). The lower bound: a Lean
-development of September 2026 states that $h(n)/\sqrt n\to\infty$, read as
-neither built nor audited by this corpus, on
-[[problems/integer_sequences/E0539/claims/2026_09_05_kitamura|Kitamura's
-claim page]] (claimed). The authors of the exponent result write that the
-exact order of $h(n)$ remains open within a subexponential factor, and this
-page reads the label OPEN the same way: the question asks for an estimate,
-and the order is not determined. No full claim exists, and the standing
-derives from the claim pages.
+records both, on the refereed publication alone. Erdős's 1973 announcement of
+the bounds (5.2) with Szemerédi has no claim page. It gives no proof and no
+reference, and its content is carried by the Granville–Roesler page, which
+credits it.
+
+Two further partial claims have pages. The first concerns the exponent. Theorem
+A.1 of an arXiv preprint of July 2026 by Schmitt, Gehrunger, Dekoninck, Bérczi,
+Kreitner, Price and Holmes gives $h(n)\le e^{O(\sqrt{\log n})}n^{1/2}$, hence
+$h(n)=n^{1/2+o(1)}$. The preprint describes their system ProofCouncil, to which
+they attribute the theorem. The site's curator, Thomas Bloom, adopted the bound
+into the commentary on 15 June 2026 after sketching the construction himself,
+while the label stayed OPEN. The bound is recorded as a pending partial claim on
+[[problems/integer_sequences/E0539/claims/2026_06_10_schmitt_gehrunger_dekoninck_berczi_kreitner_price_holmes|its claim page]].
+It is not refereed. The adoption of a bound into the commentary of a problem the
+site labels OPEN is not an acceptance, and nothing is reviewed by this project.
+The second concerns the lower bound. A Lean development of September 2026 states
+that $h(n)/\sqrt n\to\infty$. It is on
+[[problems/integer_sequences/E0539/claims/2026_09_05_kitamura|Kitamura's claim page]]
+(claimed), read as neither built nor audited by this corpus.
+
+The authors of the exponent result write that the exact order of $h(n)$ remains
+open within a subexponential factor. This page reads the label OPEN the same
+way: the question asks for an estimate, and the order is not determined. No full
+claim exists, and the standing derives from the claim pages.
 
 **Source.** [erdosproblems.com/539](https://www.erdosproblems.com/539),
 accessed 2026-09-18: the problem page (OPEN, with

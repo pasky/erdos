@@ -2,9 +2,9 @@
 name: problems/factorials_binomials/E0379
 title: Problem 379
 desc: |
-  Asks whether the largest exponent S such that every binomial coefficient in
-  row n is divisible by some prime to the power S is unbounded as n varies;
-  answered yes in 2025 by Cambie, Kovač and Tao.
+  Asks whether $\limsup S(n)=\infty$, where $S(n)$ is the largest $S$ such that
+  each $\binom{n}{k}$ with $1\le k<n$ is divisible by $p^S$ for some prime $p$.
+  Answered yes in 2025 by Cambie, Kovač and Tao.
 tags:
 - Number theory
 - Binomial coefficients
@@ -30,18 +30,18 @@ $$
 \limsup S(n)=\infty?
 $$
 
-**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page
-last edited 12 January 2026) and credits a proof worked out in its
-discussion thread by Cambie, Kovač and Tao in August 2025, recorded on
-[[problems/factorials_binomials/E0379/claims/2025_08_28_cambie_kovac_tao|its claim page]];
-the Lean qualifier refers to Tao's formalization of that proof in his
-analysis repository, which this corpus has not built. There is no refereed
-write-up. A second, independent proof, produced by the Seed-Prover 1.5
-system and posted in the thread by Zheng Yuan on 21 December 2025, is an
-accepted claim on formal evidence on
-[[problems/factorials_binomials/E0379/claims/2025_12_21_yuan|its own page]]:
-this corpus built a version of its Lean code and audited its statement. The
-standing in the frontmatter derives from the claim pages.
+**Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
+edited 12 January 2026). The standing in the frontmatter derives from the claim
+pages. The site credits a proof worked out in its discussion thread by Cambie,
+Kovač and Tao in August 2025, recorded on
+[[problems/factorials_binomials/E0379/claims/2025_08_28_cambie_kovac_tao|its claim page]].
+The Lean qualifier refers to Tao's formalization of that proof in his analysis
+repository, which this corpus has not built. There is no refereed write-up. A
+second, independent proof was produced by the Seed-Prover 1.5 system and posted
+in the thread by Zheng Yuan on 21 December 2025. It is an accepted claim on
+formal evidence on
+[[problems/factorials_binomials/E0379/claims/2025_12_21_yuan|its own page]].
+This corpus built a version of its Lean code and audited its statement.
 
 **Source.** [erdosproblems.com/379](https://www.erdosproblems.com/379), accessed
 2026-09-04 and 2026-10-07, with its discussion thread and the community

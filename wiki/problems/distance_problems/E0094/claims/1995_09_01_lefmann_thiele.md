@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0094/claims/1995_09_01_lefmann_thiele
 title: Lefmann and Thiele's cubic bound on distance multiplicities
 desc: |
-  Lefmann and Thiele prove that n plane points with no three on a line have
-  sum of squared distance multiplicities O(n^3); the vertices of a convex
-  polygon are such a set, so the bound Erdős conjectured holds.
+  Lefmann and Thiele prove that for $n$ plane points with no three on a line,
+  the squared distance multiplicities sum to $O(n^3)$. The vertices of a convex
+  polygon form such a set, so the bound Erdős conjectured holds.
 authors:
 - Hanno Lefmann
 - Torsten Thiele
@@ -64,16 +64,17 @@ $\tfrac34 n^2(n-1)$. The theorem is cited as the site's page records it, for
 sets with no three collinear points, and as the headers of the Lean
 developments below state it; the library holds no card for the paper.
 
-**Acceptance.** The paper is refereed: Hanno Lefmann and Torsten Thiele,
-Point sets with distinct distances, Combinatorica 15 (1995), no. 3, 379–408.
-The site's curator, Thomas Bloom, marks the problem proved and credits the
-paper's theorem on the problem page; the site's export of 2026-09-04 records
-the label "PROVED (LEAN)", and the community database at
-teorth/erdosproblems records the proved status from 2026-01-15. Erdős wrote
-in 1997 that he had conjectured the bound and Fishburn had proved it, without
-giving a reference
-([[../library/ramsey_theory/erdos_1997_some_my_favorite_problems_results/conjecture_p65|the
-remark on p. 65]]); no manuscript of Fishburn's proof is recorded, so it has
+**Acceptance.** The paper is refereed: Hanno Lefmann and Torsten Thiele, Point
+sets with distinct distances, Combinatorica 15 (1995), no. 3, 379–408. The
+site's curator, Thomas Bloom, marks the problem proved and credits the paper's
+theorem on the problem page. The site's export of 2026-09-04 records the label
+"PROVED (LEAN)". The community database at teorth/erdosproblems records the
+proved status from 2026-01-15.
+
+Erdős wrote in 1997 that he had conjectured the bound and that Fishburn had
+proved it
+([[../library/ramsey_theory/erdos_1997_some_my_favorite_problems_results/conjecture_p65|the remark on p. 65]]).
+He gave no reference. No manuscript of Fishburn's proof is recorded, so it has
 no claim page. Erdős and Fishburn's stronger conjecture, that the regular
 $n$-gon maximizes the sum for large $n$, is not what the problem asks.
 

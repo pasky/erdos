@@ -2,9 +2,10 @@
 name: problems/additive_bases/E0010/claims/2026_08_06_5gegry_uluscv
 title: The Grechuk variant certified at Conjectures.io
 desc: |
-  Lean 4 proof credited to the solver address 5GeGrY…uLUScV, certified and paid
-  by the bounty site Conjectures.io on 6 August 2026, that infinitely many even
-  integers are not a prime plus at most three powers of 2; the Grechuk variant.
+  A Lean 4 proof that infinitely many even integers are not a prime plus at most
+  three powers of $2$, the Grechuk variant. It is credited to the solver address
+  5GeGrY…uLUScV and was certified and paid by the bounty site Conjectures.io on
+  6 August 2026.
 authors: []
 status: accepted
 claim: disproved
@@ -73,26 +74,27 @@ own page,
 [[problems/additive_bases/E0010/claims/2026_08_06_daryxx|Daryxx 2026]]; the
 site set that record aside as a duplicate of this one.
 
-**Acceptance.** Reviewed: the bounty site Conjectures.io's documented
-acceptance of the exact statement, which is the `reviewed` evidence named
-here. Its Lean kernel accepted the proof on 6 August 2026 with `propext`,
-`Quot.sound` and `Classical.choice` as the only axioms, its static scan found
-no imports, axiom declarations, `sorry`, `native_decide` or unsafe options, its
-report records an unchanged canonical statement and a sandboxed build, its
-review approved the record the same day, finding that Lean verified the exact
-published task and that the proof establishes infinitely many even natural
-numbers that are not a prime plus at most three powers of two through
-Crocker's covering-congruence construction, and the record was certified on
-6 August 2026 with the bounty paid. The site's second kernel was not run, so
-the kernel verdict rests on one implementation. The site withdrew the target
-the same day as solved and not open, noting that the informal claim already
-follows from Crocker's published theorem by the parity reduction. No
-`formalized` evidence is listed: the corpus has not built or replayed the
-file, and the basis here is its text (final theorem, target type and
-tokens). No `refereed` evidence exists. The erdosproblems.com page labels the
-problem OPEN, as the variant does not settle it, and the formal-conjectures
-catalog marks the variant `research solved` since 2026-09-14 citing the second
-proof's gist as its `formal_proof`.
+**Acceptance.** Reviewed: the bounty site Conjectures.io documented its
+acceptance of the exact statement, and that is the `reviewed` evidence named
+here. Its Lean kernel accepted the proof on 6 August 2026, with `propext`,
+`Quot.sound` and `Classical.choice` as the only axioms. Its static scan found no
+imports, axiom declarations, `sorry`, `native_decide` or unsafe options. Its
+report records an unchanged canonical statement and a sandboxed build. Its
+review approved the record the same day. The review found that Lean verified the
+exact published task, and that the proof establishes infinitely many even
+natural numbers that are not a prime plus at most three powers of two, through
+Crocker's covering-congruence construction. The record was certified on 6 August
+2026 and the bounty was paid. The site's second kernel was not run, so the
+kernel verdict rests on one implementation. The site withdrew the target the
+same day as solved and not open. It noted that the informal claim already
+follows from Crocker's published theorem by the parity reduction.
+
+No `formalized` evidence is listed. The corpus has not built or replayed the
+file, and the basis here is its text (final theorem, target type and tokens). No
+`refereed` evidence exists. The erdosproblems.com page labels the problem OPEN,
+since the variant does not settle it. Since 2026-09-14 the formal-conjectures
+catalog has marked the variant `research solved`, citing the second proof's gist
+as its `formal_proof`.
 
 **Depends on.**
 [[../library/additive_bases/crocker_1971_sum_prime_two_powers_two/theorem_i|Crocker 1971, Theorem I]],

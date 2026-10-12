@@ -2,9 +2,11 @@
 name: problems/ramsey_theory/E0561
 title: Problem 561
 desc: |
-  Asks to prove the 1978 formula for the size Ramsey number of two star
-  forests as a sum over diagonals of the largest star-size sums minus one;
-  proved in special cases only.
+  Asks for a proof of the 1978 formula
+  $\hat{R}(F_1,F_2)=\sum_{2\le k\le s+t}l_k$, with
+  $l_k=\max\{n_i+m_j-1:i+j=k\}$, for the star forests
+  $F_1=\bigcup_{i\le s}K_{1,n_i}$ and $F_2=\bigcup_{j\le t}K_{1,m_j}$ with stars
+  in decreasing order of size; proved in special cases only.
 tags:
 - Graph theory
 - Ramsey theory
@@ -51,24 +53,22 @@ upper bound $\hat R(F_1,F_2)\le\sum_{k=2}^{s+t}l_k$ is immediate, since
 $\bigcup_{k=2}^{s+t}K_{1,l_k}\to(F_1,F_2)$ ([DJKR25] p. 3), so the content is
 the lower bound. Stars with a single edge ($n_s=1$ or $m_t=1$) are allowed.
 
-**Status.** Open. The formula is proved in special cases and by no source read
-for all star forests: for the uniform case, all $n_i$ equal and all $m_j$
-equal, by [BEFRS78] Theorem 1 (refereed, 1978); under the condition
-$\binom{l_k}2>\sum_{k\le i\le s+t}l_i$ for all $k$ by Győri and Schelp
-[GySc02] Theorem 2 (refereed, 2002; the inequality is strict as
-printed); and, by [DJKR25]
-(Ars Math. Contemp. 25 (2025), refereed), for $s=1$ and for $s=2$ with
-$n_1=n_2$ (both when every star of $F_2$ has at least two edges), for all
-$n_i$ and $m_j$ odd, and for all $n_i$ equal to one odd number with $m_1$ odd
-and $m_t\ge2$. A June 2026 arXiv preprint whose first version claimed to
-"completely confirm" the conjecture withdrew the claim the next day, and its
-later versions treat only uniform star forests [FLN26] (recorded as a
-withdrawn claim on
-[[problems/ramsey_theory/E0561/claims/2026_06_03_fu_luo_ni|its claim page]]);
-two partial proof claims on the site's claim tab (August and September 2026,
-both declaring AI assistance, each recorded on a claim page below) have no
-acceptance evidence. This is
-a bounded negative finding from the search, not a
+**Status.** Open. The formula is proved in special cases, and no source read
+proves it for all star forests. [BEFRS78] Theorem 1 (refereed, 1978) proves it
+in the uniform case, with all $n_i$ equal and all $m_j$ equal. Győri and Schelp
+[GySc02] Theorem 2 (refereed, 2002) prove it under the condition
+$\binom{l_k}2>\sum_{k\le i\le s+t}l_i$ for all $k$. The inequality is strict as
+printed. The paper [DJKR25] (Ars Math. Contemp. 25 (2025), refereed) proves it
+for $s=1$ and for $s=2$ with $n_1=n_2$, both when every star of $F_2$ has at
+least two edges. It also proves it for all $n_i$ and $m_j$ odd, and for all
+$n_i$ equal to one odd number with $m_1$ odd and $m_t\ge2$. A June 2026 arXiv
+preprint claimed in its first version to "completely confirm" the conjecture. It
+withdrew the claim the next day, and its later versions treat only uniform star
+forests [FLN26]. It is recorded as a withdrawn claim on
+[[problems/ramsey_theory/E0561/claims/2026_06_03_fu_luo_ni|its claim page]]. Two
+partial proof claims on the site's claim tab (August and September 2026) both
+declare AI assistance. Each is recorded on a claim page below, and neither has
+acceptance evidence. This is a bounded negative finding from the search, not a
 certificate of openness.
 
 **Source.** [erdosproblems.com/561](https://www.erdosproblems.com/561),

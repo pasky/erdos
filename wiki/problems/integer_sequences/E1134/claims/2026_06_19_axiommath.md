@@ -3,8 +3,8 @@ name: problems/integer_sequences/E1134/claims/2026_06_19_axiommath
 title: AxiomProver's Lean proof that the set has lower density zero
 desc: |
   AxiomProver's Lean 4 file, posted to the site's thread in June 2026, proves
-  that the set generated from 1 by 2x+1, 3x+1 and 6x+1 has lower density
-  zero; not built or audited by this corpus.
+  that the set generated from $1$ by $2x+1$, $3x+1$ and $6x+1$ has lower density
+  zero. This corpus has not built or audited it.
 authors: []
 status: claimed
 claim: disproved

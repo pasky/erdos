@@ -2,9 +2,10 @@
 name: problems/analysis/E0120/claims/2020_01_08_cruz_lai_pramanik
 title: Cruz, Lai and Pramanik's withdrawn proof of the conjecture
 desc: |
-  An arXiv preprint claiming that every infinite set of reals is avoided by a
-  compact set of positive measure, the full Erdős similarity conjecture,
-  withdrawn by its authors three days later over a gap in Proposition 3.3.
+  An arXiv preprint of Cruz, Lai and Pramanik claimed that every infinite set of
+  reals is avoided by a compact set of positive measure, the full Erdős
+  similarity conjecture. The authors withdrew it three days later over a gap in
+  Proposition 3.3.
 authors:
 - Angel Cruz
 - Chun-Kit Lai

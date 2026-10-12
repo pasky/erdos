@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0414
 title: Problem 414
 desc: |
-  Asks whether the iterates of the map sending n to n plus its number of
-  divisors, started from any two integers, always eventually meet at a common
+  Asks whether, under the map $n\mapsto n+\tau(n)$ with $\tau(n)$ the number of
+  divisors, the iterates of any two starting integers eventually reach a common
   value.
 tags:
 - Number theory

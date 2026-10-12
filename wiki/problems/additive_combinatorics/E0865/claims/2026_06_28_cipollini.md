@@ -3,8 +3,9 @@ name: problems/additive_combinatorics/E0865/claims/2026_06_28_cipollini
 title: Cipollini's sharp 5/8 bound for pairwise-sum triples
 desc: |
   Theorem 1.1 of Cipollini's 2026 arXiv preprint, developed with GPT-5.5 Pro:
-  every subset of 1..N of size at least 5N/8 plus a constant holds three
-  members whose three pairwise sums lie in it; accepted on the site's review.
+  every subset of $\{1,\ldots,N\}$ with at least $5N/8+C$ members, for a
+  constant $C$, contains three members whose three pairwise sums lie in it. It
+  is accepted on the site's review.
 authors:
 - Ricky Cipollini
 status: accepted
@@ -66,25 +67,29 @@ self-contained, an earlier version's input from the 1975 theorem of Choi,
 Erdős and Szemerédi having been replaced by the induction.
 
 **Acceptance.** Reviewed: the site's curator, Thomas Bloom, accepted the
-solution on 2026-07-02, labeling the problem proved and crediting Cipollini
-and GPT Pro with [Ci26] in the commentary; the curator's acceptance alone
-carries the `reviewed` evidence. Stijn Cambie, a contributor the paper's
-acknowledgments thank for feedback and improvements, confirmed the paper on
-the site's thread on 2026-06-27, reporting that they had read a previous
-version in detail, had noticed that its $O(1)$ could be improved to about
-$3$, and had checked the crucial points of the major revision briefly; as
-an acknowledged contributor Cambie is not independent of the author, so the
-confirmation is recorded and not counted as review. Not refereed:
-there is no journal publication, no later arXiv version, no citing paper
-and no written review beyond the thread (searched 2026-09-18, as the
-problem page records). The claim was first announced on the thread on
-2026-06-21, a short paper drafted by GPT-5.5 Pro (the Overleaf document
-linked above, a live document that was revised afterwards and cannot be
-pinned) and a formalization that still assumed the 1975 coarse theorem
-were linked on 2026-06-22, revisions followed on 2026-06-25
-and 2026-06-27, and the arXiv preprint of 2026-06-28 is the dated
-manuscript this page is named for; the author noted on the thread on
-2026-07-06 that the Lean formalization had been updated to match it.
+solution on 2026-07-02. The curator labeled the problem proved and credited
+Cipollini and GPT Pro with [Ci26] in the commentary. The curator's acceptance
+alone carries the `reviewed` evidence.
+
+Stijn Cambie confirmed the paper on the site's thread on 2026-06-27. Cambie
+reported that they had read a previous version in detail, had noticed that its
+$O(1)$ could be improved to about $3$, and had checked the crucial points of the
+major revision briefly. The paper's acknowledgments thank Cambie for feedback
+and improvements. As an acknowledged contributor, Cambie is not independent of
+the author, so the confirmation is recorded and not counted as review.
+
+Not refereed: there is no journal publication, no later arXiv version, no citing
+paper and no written review beyond the thread (searched 2026-09-18, as the
+problem page records).
+
+The claim was first announced on the thread on 2026-06-21. On 2026-06-22 two
+items were linked: a short paper drafted by GPT-5.5 Pro, and a formalization
+that still assumed the 1975 coarse theorem. The short paper is the Overleaf
+document linked above, a live document that was revised afterwards and cannot be
+pinned. Revisions followed on 2026-06-25 and 2026-06-27. The arXiv preprint of
+2026-06-28 is the dated manuscript this page is named for. The author noted on
+the thread on 2026-07-06 that the Lean formalization had been updated to match
+it.
 
 **Formalization.** Not counted as evidence. Two Lean developments, both
 named as the formal proof by the formal-conjectures statement file linked

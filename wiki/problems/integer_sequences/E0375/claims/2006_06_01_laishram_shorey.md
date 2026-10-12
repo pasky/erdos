@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0375/claims/2006_06_01_laishram_shorey
 title: Laishram and Shorey's verification for n up to 1.9 times 10^10
 desc: |
-  Laishram and Shorey prove that the distinct primes exist for every run of
-  composites n+1, ..., n+k with n at most 19236701629 and any k, by a
-  reduction to the prime gaps and a computation; refereed in 2006.
+  In a refereed 2006 paper, Laishram and Shorey prove that the distinct primes
+  exist for every run of composites $n+1,\ldots,n+k$ with $n\le19236701629$ and
+  any $k$. The proof reduces the question to the prime gaps and then uses a
+  computation.
 authors:
 - Shanta Laishram
 - T. N. Shorey
@@ -43,7 +44,7 @@ the first of that month.
 of any length, for which the problem's distinct primes exist. Larger $n$
 are not covered, so the problem stays open.
 
-**Acceptance.** The result appeared in a refereed journal, the International
-Journal of Number Theory, in 2006: the `refereed` evidence. The site labels
-the problem FALSIFIABLE, an open label, so its commentary's credit is not
-`reviewed` evidence.
+**Acceptance.** The result appeared in 2006 in the International Journal of
+Number Theory, a refereed journal. This is the `refereed` evidence. The site
+labels the problem FALSIFIABLE, which is an open label, so the credit in its
+commentary is not `reviewed` evidence.

@@ -2,7 +2,7 @@
 name: problems/additive_bases/E0868
 title: Problem 868
 desc: |
-  Asks whether an additive basis of order two whose representation counts tend
+  Asks whether an additive basis of order $2$ whose representation counts tend
   to infinity must contain a minimal such basis.
 tags:
 - Number theory
@@ -30,15 +30,16 @@ What if $1_A\ast 1_A(n) >\epsilon \log n$ (for all large $n$, for arbitrary
 fixed $\epsilon>0$)?
 
 **Status.** Disproved. The site labels the problem SOLVED (LEAN) and records a
-negative answer to both questions by Larsen and Larsen, who build a basis with
-representation counts above $\varepsilon\log n$ and no minimal subbasis, against
-the positive answer of [ErNa79] when every large $n$ has more than $c\log n$
-representations $n=a+a'$ with $a\le a'$ in $A$ for some $c>1/\log(4/3)$ (the
-site writes this threshold for $1_A\ast 1_A(n)$, which counts ordered pairs
-and is about twice that number); its label's Lean qualifier refers to a Lean 4
-formalization of the note posted in lean-proofs on 2026-08-16, which this
-corpus has not audited. The accepted claim, a disproof of both questions, is
+negative answer to both questions by Larsen and Larsen. They build a basis with
+representation counts above $\varepsilon\log n$ and no minimal subbasis. The
+site sets this against the positive answer of [ErNa79], which holds when every
+large $n$ has more than $c\log n$ representations $n=a+a'$ with $a\le a'$ in
+$A$, for some $c>1/\log(4/3)$. The site writes this threshold for
+$1_A\ast 1_A(n)$, which counts ordered pairs and is about twice that number. The
+accepted claim, a disproof of both questions, is
 [[problems/additive_bases/E0868/claims/2026_01_13_larsen_larsen|Larsen and Larsen]].
+The label's Lean qualifier refers to a Lean 4 formalization of the note posted
+in lean-proofs on 2026-08-16, which this corpus has not audited.
 
 **Source.** [erdosproblems.com/868](https://www.erdosproblems.com/868), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #868,

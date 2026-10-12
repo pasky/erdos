@@ -4,7 +4,7 @@ title: Clunie and Hayman's functions with a positive limiting ratio
 desc: |
   Clunie and Hayman show that the ratio of the maximum term to the maximum
   modulus of a transcendental entire function can tend to any value in
-  [0, 1/2], so a limit need not be zero and Problem 227 is answered no.
+  $[0,1/2]$. So a limit need not be zero, and Problem 227 is answered no.
 authors:
 - J. Clunie
 - W. K. Hayman

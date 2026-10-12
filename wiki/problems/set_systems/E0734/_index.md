@@ -2,8 +2,8 @@
 name: problems/set_systems/E0734
 title: Problem 734
 desc: |
-  Asks for a non-trivial pairwise balanced design on n points in which each
-  block size is used at most about the square root of n times.
+  Asks, for all large $n$, for a non-trivial pairwise balanced design on $n$
+  points in which each block size is used only $O(n^{1/2})$ times.
 tags:
 - Combinatorics
 status: open

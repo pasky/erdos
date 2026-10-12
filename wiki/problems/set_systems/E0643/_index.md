@@ -2,8 +2,9 @@
 name: problems/set_systems/E0643
 title: Problem 643
 desc: |
-  Estimates how many edges force a t-uniform hypergraph on n vertices to have
-  four edges with A union B equal to C union D and A, B and C, D disjoint.
+  Asks to estimate how many edges force a $t$-uniform hypergraph on $n$ vertices
+  to have four edges $A,B,C,D$ with $A\cup B=C\cup D$ and
+  $A\cap B=C\cap D=\emptyset$.
 tags:
 - Graph theory
 - Hypergraphs

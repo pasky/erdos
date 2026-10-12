@@ -2,9 +2,9 @@
 name: problems/set_systems/E1020
 title: Problem 1020
 desc: |
-  Asks whether, for r at least 3 and n at least rk, the most edges in an
-  r-uniform hypergraph on n vertices with no k pairwise disjoint edges is the
-  larger of the clique count and the star count.
+  Asks whether, for $r\ge3$ and $n\ge rk$, the most edges in an $r$-uniform
+  hypergraph on $n$ vertices with no $k$ pairwise disjoint edges is the larger
+  of the clique count and the star count.
 tags:
 - Graph theory
 - Hypergraphs
@@ -77,21 +77,24 @@ statement, as the Formalization paragraph records, assumes $0<k$ and
 $rk-1\le n$, which adds only the instance $n=rk-1$.
 
 **Status.** Open on the site, under the label FALSIFIABLE (page last edited 28
-December 2025). The site's commentary calls this the Erdős matching conjecture,
-records the Erdős–Gallai theorem for $r=2$ [ErGa59] (its parenthesis ties the
-Erdős–Ko–Rado theorem to $r=2$ as well; that theorem gives the case $k=2$ for
-every $r$), notes that the two examples (all $r$-sets of an $(rk-1)$-set, and
-all $r$-sets meeting a fixed $(k-1)$-set) show the conjectured value cannot be
-raised, that the second term dominates once $n\ge(r+1)k$, and Frankl's bound
-$f(n;r,k)\le(k-1)\binom{n-1}{r-1}$ [Fr87], and lists the ranges in which the
-conjecture is known: for small $n$, trivially for $n<kr$, at $n=kr$ by Kleitman
-[Kl68], for $kr\le n\le k(r+1/(2r^{2r+1}))$ by Frankl [Fr17], and for $r\ge5$,
-$k>101r^3$ and $kr\le n<k(r+1/(100r))$ by Kolupaev and Kupavskii [KoKu23]; for
-large $n$, for $n>c_rk$ by Erdős [Er65d], $n>100k^2r$ by Frankl and Füredi
-[Fr87], $n\ge2kr^3$ by Bollobás, Daykin and Erdős [BDE76], $n\ge3kr^2$ by Huang,
-Loh and Sudakov [HLS12], $n>2kr^2/\log r$ by Frankl, Łuczak and Mieczkowska
-[FLM12], and, for $r=3$, $n\ge4k$ by Frankl, Rödl and Ruciński [FRR12] and then
-every $k$ by Łuczak and Mieczkowska [LuMi14].
+December 2025). The site's commentary calls this the Erdős matching conjecture.
+It records the Erdős–Gallai theorem for $r=2$ [ErGa59]. Its parenthesis ties the
+Erdős–Ko–Rado theorem to $r=2$ as well, but that theorem gives the case $k=2$
+for every $r$. The commentary notes that two examples show the conjectured value
+cannot be raised: all $r$-sets of an $(rk-1)$-set, and all $r$-sets meeting a
+fixed $(k-1)$-set. It notes that the second term dominates once $n\ge(r+1)k$. It
+also records Frankl's bound $f(n;r,k)\le(k-1)\binom{n-1}{r-1}$ [Fr87].
+
+The commentary lists the ranges in which the conjecture is known. For small $n$,
+it holds trivially for $n<kr$, at $n=kr$ by Kleitman [Kl68], for
+$kr\le n\le k(r+1/(2r^{2r+1}))$ by Frankl [Fr17], and for $r\ge5$, $k>101r^3$
+and $kr\le n<k(r+1/(100r))$ by Kolupaev and Kupavskii [KoKu23]. For large $n$,
+it holds for $n>c_rk$ by Erdős [Er65d], for $n>100k^2r$ by Frankl and Füredi
+[Fr87], for $n\ge2kr^3$ by Bollobás, Daykin and Erdős [BDE76], for $n\ge3kr^2$
+by Huang, Loh and Sudakov [HLS12], and for $n>2kr^2/\log r$ by Frankl, Łuczak
+and Mieczkowska [FLM12]. Also for large $n$, with $r=3$, it holds for $n\ge4k$
+by Frankl, Rödl and Ruciński [FRR12], and then for every $k$ by Łuczak and
+Mieczkowska [LuMi14].
 
 **Source.** [erdosproblems.com/1020](https://www.erdosproblems.com/1020),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1020,

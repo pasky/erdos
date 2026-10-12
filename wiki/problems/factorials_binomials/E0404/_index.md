@@ -2,8 +2,9 @@
 name: problems/factorials_binomials/E0404
 title: Problem 404
 desc: |
-  Asks for which integers a and primes p the power of p dividing a sum of
-  increasing factorials starting at a is bounded, and how that bound behaves.
+  Asks for which $a\ge1$ and primes $p$ the exponents $k$ with
+  $p^k\mid a_1!+\cdots+a_n!$ for some $a=a_1<\cdots<a_n$ are bounded, and how
+  the largest such $k$ behaves.
 tags:
 - Number theory
 - Factorials
@@ -34,18 +35,17 @@ Is there a prime $p$ and an infinite sequence $a_1<a_2<\cdots$ such that if
 $p^{m_k}$ is the highest power of $p$ dividing $\sum_{i\leq k}a_i!$ then $m_k\to
 \infty$?
 
-**Status.** Open. The site labels the problem OPEN (page last edited
-29 September 2025) and credits Lin [Li76] with $f(2,2)\le254$, a pending
-partial claim on
-[[problems/factorials_binomials/E0404/claims/1976_01_01_lin|its claim page]];
-the exact values of $f(a,2)$ for $a\le256$ and of $f(a,p)$ at some pairs with
-$p=3,5,7,11,13$ posted in the thread in July 2026 are pending partial claims
-on
-[[problems/factorials_binomials/E0404/claims/2026_07_07_kitamura|their page for p = 2]]
-and
-[[problems/factorials_binomials/E0404/claims/2026_07_08_kitamura|their page for odd primes]];
-the September 2025 comments in the thread are posts without a manuscript and
-have none. The standing in the frontmatter derives from the claim pages.
+**Status.** Open. The site labels the problem OPEN (page last edited 29
+September 2025). The standing in the frontmatter derives from the claim pages.
+The site credits Lin [Li76] with $f(2,2)\le254$, a pending partial claim on
+[[problems/factorials_binomials/E0404/claims/1976_01_01_lin|its claim page]].
+Exact values posted in the thread in July 2026 are also pending partial claims.
+The values of $f(a,2)$ for $a\le256$ are on
+[[problems/factorials_binomials/E0404/claims/2026_07_07_kitamura|their page for p = 2]].
+The values of $f(a,p)$ at some pairs with $p=3,5,7,11,13$ are on
+[[problems/factorials_binomials/E0404/claims/2026_07_08_kitamura|their page for odd primes]].
+The September 2025 comments in the thread are posts without a manuscript and
+have no claim page.
 
 **Source.** [erdosproblems.com/404](https://www.erdosproblems.com/404), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #404,

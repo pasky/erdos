@@ -2,9 +2,10 @@
 name: problems/distance_problems/E0090/claims/2026_05_20_alon_bloom_gowers_litt_sawin_shankar_tsimerman_wang_wood
 title: The human companion proof of the fixed-power disproof
 desc: |
-  Theorem 1.1 of Alon, Bloom, Gowers, Litt, Sawin, Shankar, Tsimerman, Wang
-  and Matchett Wood, arXiv:2605.20695, gives planar sets with a fixed-power
-  excess of unit pairs; a human-digested proof of OpenAI's result, claimed.
+  Theorem 1.1 of Alon, Bloom, Gowers, Litt, Sawin, Shankar, Tsimerman, Wang and
+  Matchett Wood, arXiv:2605.20695, gives planar sets with a fixed-power excess
+  of unit pairs. It is a human-digested proof of OpenAI's result, and its status
+  is claimed.
 authors:
 - Noga Alon
 - Thomas F. Bloom
@@ -59,8 +60,8 @@ and this page records the companion's distinct proof of the same statement.
 declares are recorded at statement level on the result pages and not
 reproved there.
 
-**Acceptance.** None documented. The manuscript is an arXiv preprint with no
-journal record known here. The site's page labels the problem disproved and
-credits the model, not this manuscript, and its curator is one of the authors,
-so the site's label is no independent review of this proof. The corpus's own
-reading awards no standing. The claim is therefore claimed.
+**Acceptance.** None documented. The manuscript is an arXiv preprint, and no
+journal record is known here. The site's page labels the problem disproved and
+credits the model, not this manuscript. The site's curator is also one of the
+authors, so the site's label is not an independent review of this proof. The
+corpus's own reading awards no standing. The claim is therefore claimed.

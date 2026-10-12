@@ -2,9 +2,9 @@
 name: problems/ramsey_theory/E1216/claims/1998_06_05_sanchez_flores
 title: Sánchez-Flores, transitive 7-subtournaments in 54-vertex tournaments
 desc: |
-  Sánchez-Flores (Graphs Combin. 1998): every tournament on 54 vertices
-  contains a transitive subtournament on 7 vertices, so f(54) >= 7 while
-  floor(log_2 54) + 1 = 6; the formula fails.
+  Sánchez-Flores (Graphs Combin. 1998): every tournament on $54$ vertices
+  contains a transitive subtournament on $7$ vertices. So $f(54)\ge7$ while
+  $\lfloor\log_2 54\rfloor+1=6$, and the formula fails.
 authors:
 - Adolfo Sánchez-Flores
 status: accepted
@@ -51,8 +51,8 @@ $n$ in $[54\cdot2^j,2^{j+6})$ for each $j\ge0$.
 and Combinatorics 14, no. 2, 5 June 1998, per Crossref).
 
 **Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
-DISPROVED and credits Sánchez-Flores [Sa98b] in the problem's commentary with
-the bound $f(n)\ge\lfloor\log_2n-\log_2(54)\rfloor+7$ for $n\ge32$ (page last
-edited 12 April 2026); the curator is independent of the author. Refereed:
-Graphs and Combinatorics 14 (1998), no. 2, 181--200. The proof is not checked
-in this corpus.
+DISPROVED. In the problem's commentary, the curator credits Sánchez-Flores
+[Sa98b] with the bound $f(n)\ge\lfloor\log_2n-\log_2(54)\rfloor+7$ for $n\ge32$
+(page last edited 12 April 2026). The curator is independent of the author.
+Refereed: Graphs and Combinatorics 14 (1998), no. 2, 181--200. The proof is not
+checked in this corpus.

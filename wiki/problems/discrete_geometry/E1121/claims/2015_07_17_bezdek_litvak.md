@@ -2,9 +2,10 @@
 name: problems/discrete_geometry/E1121/claims/2015_07_17_bezdek_litvak
 title: Bezdek and Litvak's analytic proof through plank packings
 desc: |
-  Theorem 6.1 of Packing convex bodies by cylinders bounds the circumradius
-  of the hull of nonseparable disks by the sum of their radii through an
-  integral-geometric lemma; a second proof of the circle covering theorem.
+  Theorem 6.1 of Bezdek and Litvak's paper Packing convex bodies by cylinders
+  bounds the circumradius of the hull of nonseparable disks by the sum of their
+  radii, using an integral-geometric lemma. This gives a second proof of the
+  circle covering theorem.
 authors:
 - Karoly Bezdek
 - Alexander Litvak
@@ -73,10 +74,9 @@ on p. 11 of that version.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** The result is refereed: it appeared in Discrete and
+**Acceptance.** The result is refereed. It appeared in Discrete and
 Computational Geometry. The site's curator, Thomas Bloom, marks the problem
-proved and records on its page that Bezdek and Litvak give an alternative
-proof (problem page last edited 17 April 2026). The problem was first settled
-by
-[[problems/discrete_geometry/E1121/claims/1945_11_01_goodman_goodman|Goodman and Goodman]];
-this page records a different proof of the same statement.
+proved and records on its page that Bezdek and Litvak give an alternative proof
+(problem page last edited 17 April 2026). The problem was first settled by
+[[problems/discrete_geometry/E1121/claims/1945_11_01_goodman_goodman|Goodman and Goodman]].
+This page records a different proof of the same statement.

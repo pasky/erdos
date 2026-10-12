@@ -3,8 +3,9 @@ name: problems/extremal_graph_theory/E0743/claims/1990_01_01_guichard_massman
 title: Guichard and Massman's computer verification through n = 11
 desc: |
   Guichard and Massman (J. Combin. Math. Combin. Comput. 8 (1990)) verify by
-  computer that the tree packing conjecture holds for n = 10 and n = 11,
-  extending Fishburn's n at most 9; accepted on the journal publication.
+  computer that the tree packing conjecture holds for $n=10$ and $n=11$,
+  extending Fishburn's $n\le9$. The claim is accepted on the journal
+  publication.
 authors:
 - David R. Guichard
 - John D. Massman

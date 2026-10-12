@@ -2,8 +2,8 @@
 name: problems/diophantine_problems/E1081
 title: Problem 1081
 desc: |
-  Asks whether the count of integers up to x that are sums of two squarefull
-  numbers is asymptotic to a constant times x over the square root of log x.
+  Asks whether the number of $n\leq x$ that are sums of two squarefull numbers
+  is asymptotic to $cx/\sqrt{\log x}$ for some $c>0$.
 tags:
 - Number theory
 - Powerful numbers

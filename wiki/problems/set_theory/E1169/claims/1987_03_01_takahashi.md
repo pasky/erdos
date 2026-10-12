@@ -2,9 +2,10 @@
 name: problems/set_theory/E1169/claims/1987_03_01_takahashi
 title: Takahashi's negative relation from the stick principle
 desc: |
-  Takahashi (Period. Math. Hungar., 1987) derives omega_1 omega_1 -/->
-  (omega_1 omega_1, 3)^2 from the stick principle, which CH implies, so ZFC
-  does not refute the relation of Problem 1169.
+  Takahashi (Period. Math. Hungar., 1987) derives
+  $\omega_1\cdot\omega_1\not\to(\omega_1\cdot\omega_1,3)^2$ from the stick
+  principle, which CH implies. So ZFC does not refute the relation of
+  Problem 1169.
 authors:
 - J. Takahashi
 status: accepted

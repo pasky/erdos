@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E0239
 title: Problem 239
 desc: |
-  Asks whether every multiplicative function taking only the values plus and
-  minus one has a mean value.
+  Asks whether every multiplicative function $f:\mathbb{N}\to\{-1,1\}$ has a
+  mean value.
 tags:
 - Number theory
 status: solved
@@ -29,14 +29,15 @@ $$
 
 always exists?
 
-**Status.** PROVED (LEAN), the site's label. The answer is yes: Wirsing proved in 1967 that
-every multiplicative $f:\mathbb{N}\to\{-1,1\}$ has a mean value, and Halász
-generalized the theorem in 1968 (both refereed; the accepted claim pages are
+**Status.** PROVED (LEAN), the site's label. The answer is yes. Wirsing proved
+in 1967 that every multiplicative $f:\mathbb{N}\to\{-1,1\}$ has a mean value,
+and Halász generalized the theorem in 1968. Both results are refereed. Their
+accepted claim pages are
 [[problems/arithmetic_functions/E0239/claims/1967_09_01_wirsing|Wirsing 1967]]
-and [[problems/arithmetic_functions/E0239/claims/1968_09_01_halasz|Halász 1968]]).
-The label's Lean marker refers to a community Lean formalization of
-Wirsing's theorem, linked from his claim page; none was built or audited
-here.
+and
+[[problems/arithmetic_functions/E0239/claims/1968_09_01_halasz|Halász 1968]].
+The label's Lean marker refers to a community Lean formalization of Wirsing's
+theorem, linked from his claim page. None was built or audited here.
 
 **Source.** [erdosproblems.com/239](https://www.erdosproblems.com/239), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #239,

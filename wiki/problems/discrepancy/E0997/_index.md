@@ -2,8 +2,8 @@
 name: problems/discrepancy/E0997
 title: Problem 997
 desc: |
-  Asks whether the fractional parts of alpha times the primes fail to be well
-  distributed for every alpha.
+  Asks whether, for every $\alpha$, the sequence $\{\alpha p_n\}$ over the
+  primes $p_n$ fails to be well distributed.
 tags:
 - Analysis
 - Discrepancy
@@ -33,19 +33,18 @@ $$
 Is it true that, for every $\alpha$, the sequence $\{ \alpha p_n\}$ is not
 well-distributed, if $p_n$ is the sequence of primes?
 
-**Status.** PROVED (LEAN): Alexeev, Putterman, Sawhney, Sellke and Valiant
+**Status.** PROVED (LEAN). Alexeev, Putterman, Sawhney, Sellke and Valiant
 [APSSV26] showed that $\{\alpha p_n\}$ is not well-distributed for every real
-$\alpha$, the accepted claim
+$\alpha$. This is the accepted claim
 [[problems/discrepancy/E0997/claims/2026_03_31_alexeev_putterman_sawhney_sellke_valiant|Alexeev, Putterman, Sawhney, Sellke and Valiant 2026]],
-accepted on the site's label and Terence Tao's thread comment; no journal
-version of the preprint was found on 2026-10-07. The site's Lean
-qualification refers to a formalization that takes the
-Banks–Freiberg–Turnage-Butterbaugh theorem [BFT15] as an axiom; a later
-public development in Boris Alexeev's repository states an unconditional
-proof of the same statement; neither is built or audited here, so the claim
-page lists no `formalized` evidence. Champagne, Lê, Liu and Wooley [CLLW24]
-had earlier found one irrational $\alpha$ with this property, the partial
-claim
+accepted on the site's label and Terence Tao's thread comment. No journal
+version of the preprint was found on 2026-10-07. The site's Lean qualification
+refers to a formalization that takes the Banks–Freiberg–Turnage-Butterbaugh
+theorem [BFT15] as an axiom. A later public development in Boris Alexeev's
+repository states an unconditional proof of the same statement. Neither is built
+or audited here, so the claim page lists no `formalized` evidence. Champagne,
+Lê, Liu and Wooley [CLLW24] had earlier found one irrational $\alpha$ with this
+property. This is the partial claim
 [[problems/discrepancy/E0997/claims/2024_06_27_champagne_le_liu_wooley|Champagne, Lê, Liu and Wooley 2024]].
 
 **Source.** [erdosproblems.com/997](https://www.erdosproblems.com/997), accessed

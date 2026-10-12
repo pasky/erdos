@@ -2,9 +2,10 @@
 name: problems/additive_combinatorics/E0272
 title: Problem 272
 desc: |
-  The largest number of subsets of {1,...,N} with every pairwise intersection
-  a non-empty arithmetic progression; open for the exact value, while Szabó's
-  linear-error question, N^2/2 + O(N), has a Lean proof Conjectures.io accepted.
+  Asks for the largest number of subsets of $\{1,\ldots,N\}$ whose pairwise
+  intersections are all non-empty arithmetic progressions. The exact value is
+  open, while Szabó's linear-error question, whether it is $N^2/2+O(N)$, has a
+  Lean proof that Conjectures.io accepted.
 tags:
 - Additive combinatorics
 - Arithmetic progressions
@@ -32,16 +33,18 @@ Read as the site words it, the question allows repeats, and then no largest $t$
 exists (take every $A_i=\{1\}$).
 
 **Status.** Open, the site's label. The exact maximum $t(N)$ is not known for
-general $N$. The refereed bounds are recorded as accepted partial claims on
-the claim pages of
+general $N$. The refereed bounds are recorded as accepted partial claims on the
+claim pages of
 [[problems/additive_combinatorics/E0272/claims/1981_12_01_simonovits_sos|Simonovits and Sós]]
-and [[problems/additive_combinatorics/E0272/claims/1999_07_01_szabo|Szabó]],
-and Yang's reported exact values for $3\leq N\leq12$ as a claimed partial
-claim on [[problems/additive_combinatorics/E0272/claims/2026_07_25_yang|his]].
-Szabó's linear-error question, whether $t(N)=N^2/2+O(N)$ (the second of the
-two questions in Section 6 of his 1999 paper), has an affirmative Lean proof
-that the bounty site Conjectures.io verified on 9 September 2026 and approved; that settles a variant, not the catalog question, and is
-recorded as an accepted partial claim on
+and [[problems/additive_combinatorics/E0272/claims/1999_07_01_szabo|Szabó]].
+Yang's reported exact values for $3\leq N\leq12$ are recorded as a claimed
+partial claim on
+[[problems/additive_combinatorics/E0272/claims/2026_07_25_yang|his]] claim page.
+Szabó's linear-error question asks whether $t(N)=N^2/2+O(N)$. It is the second
+of the two questions in Section 6 of his 1999 paper. It has an affirmative Lean
+proof, which the bounty site Conjectures.io verified on 9 September 2026 and
+approved. That proof settles a variant, not the catalog question. It is recorded
+as an accepted partial claim on
 [[problems/additive_combinatorics/E0272/claims/2026_09_09_jenw1n|its claim page]]
 (see Current assessment).
 

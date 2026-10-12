@@ -2,9 +2,10 @@
 name: problems/arithmetic_functions/E0334
 title: Problem 334
 desc: |
-  The best function f for which every n is a sum of two integers having no
-  prime factor larger than f of n; Erdős asked whether n^epsilon suffices,
-  still open, and whether even n^(1/3) does, which Balog's bound answers yes.
+  Asks for the best $f(n)$ such that every $n$ is a sum of two integers with no
+  prime factor larger than $f(n)$; open. Erdős asked whether $n^{\epsilon}$
+  suffices, which is unsettled, and whether $n^{1/3}$ does, which Balog's bound
+  answers yes.
 tags:
 - Number theory
 status: open
@@ -40,13 +41,12 @@ $\alpha=3$; Balog's bound $f(n)\ll_\epsilon n^{4/(9\sqrt e)+\epsilon}$, with
 $4/(9\sqrt e)=0.2695\ldots<1/3$, answers that case yes. The site asks instead
 for the best function $f$, and that question sets the standing.
 
-**Status.** Open, the site's label (OPEN; page last edited 2026-04-03). The
-case the site records as Erdős's original question, whether
-$f(n)\le n^{1/3}$, is answered yes by Balog [Ba89], recorded as the accepted
-partial claim
-[[problems/arithmetic_functions/E0334/claims/1989_09_01_balog|Balog's bound
-with exponent $4/(9\sqrt e)$]]; the best function $f$ is not determined, so
-the problem stays open.
+**Status.** Open, the site's label (OPEN; page last edited 2026-04-03). The site
+records Erdős's original question as the case whether $f(n)\le n^{1/3}$. Balog
+[Ba89] answers this case yes. His result is recorded as the accepted partial
+claim [[problems/arithmetic_functions/E0334/claims/1989_09_01_balog|Balog's
+bound with exponent $4/(9\sqrt e)$]]. The best function $f$ is not determined,
+so the problem stays open.
 
 **Source.** [erdosproblems.com/334](https://www.erdosproblems.com/334), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #334,

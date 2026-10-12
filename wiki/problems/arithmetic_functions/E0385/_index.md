@@ -2,9 +2,9 @@
 name: problems/arithmetic_functions/E0385
 title: Problem 385
 desc: |
-  Asks whether the largest value of a composite number below n plus its least
-  prime factor exceeds n for all large n, and whether the excess grows without
-  bound.
+  Asks whether the maximum of $m+p(m)$ over composite $m<n$, where $p(m)$ is the
+  least prime factor of $m$, exceeds $n$ for all large $n$, and whether the
+  excess grows without bound.
 tags:
 - Number theory
 status: open

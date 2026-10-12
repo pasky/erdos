@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0541/claims/2009_02_27_gao_hamidoune_wang
 title: Gao, Hamidoune and Wang's proof of Graham's conjecture for every modulus
 desc: |
-  Theorem 1.1 of Gao, Hamidoune and Wang (J. Number Theory, 2010): n integers
-  in [0, n-1] taking at least three values have two nonempty zero-sum
-  subsequences modulo n of distinct lengths; refereed, credited by the site.
+  Theorem 1.1 of Gao, Hamidoune and Wang (J. Number Theory, 2010) shows that $n$
+  integers in $[0,n-1]$ taking at least three values have two nonempty zero-sum
+  subsequences modulo $n$ of distinct lengths. It is refereed and credited by
+  the site.
 authors:
 - W. Gao
 - Y. O. Hamidoune
@@ -59,15 +60,14 @@ the simple proof Erdős and Szemerédi had hoped for. The statement was
 checked clause by clause; the proof (pp. 4--8 of the preprint) was read for
 structure only, and the journal text was not compared.
 
-**Acceptance.** Refereed: the paper appeared in the Journal of Number
-Theory; the issue is dated June 2010 in the Crossref record (2026-10-07).
-Reviewed: the site's curator, Thomas Bloom, who is independent of the
-authors, labels the problem PROVED (LEAN), and his commentary (page last
-edited 8 April 2026) credits the proof for every modulus, prime or not, to
-this paper, with the large-prime case credited to Erdős and Szemerédi.
-Semantic Scholar listed nineteen citing records on 2026-09-18, none
-disputing the theorem by its title. Nothing here is independently reviewed
-by this project.
+**Acceptance.** Refereed: the paper appeared in the Journal of Number Theory. In
+the Crossref record (2026-10-07), the issue is dated June 2010. Reviewed: the
+site's curator, Thomas Bloom, who is independent of the authors, labels the
+problem PROVED (LEAN). His commentary (page last edited 8 April 2026) credits
+this paper with the proof for every modulus, prime or not, and credits the
+large-prime case to Erdős and Szemerédi. On 2026-09-18 Semantic Scholar listed
+nineteen citing records, none of which disputes the theorem by its title.
+Nothing here is independently reviewed by this project.
 
 **Related claims.** The large-prime case for nonzero residues is the
 accepted partial claim

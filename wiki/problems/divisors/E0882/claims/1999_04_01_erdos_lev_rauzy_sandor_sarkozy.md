@@ -2,9 +2,10 @@
 name: problems/divisors/E0882/claims/1999_04_01_erdos_lev_rauzy_sandor_sarkozy
 title: Erdős, Lev, Rauzy, Sándor and Sárközy's two-sided bound
 desc: |
-  The largest subset of one to n whose nonzero subset sums never divide one
-  another has log n / log 2 + O(log log n) elements: a refereed theorem that
-  fixes the leading term the problem asks for and leaves the second open.
+  Erdős, Lev, Rauzy, Sándor and Sárközy prove that the largest subset of
+  $\{1,\ldots,n\}$ whose nonzero subset sums never divide one another has
+  $\log n/\log2+O(\log\log n)$ elements. This refereed theorem fixes the leading
+  term the problem asks for and leaves the second open.
 authors:
 - P. Erdős
 - V. Lev
@@ -56,15 +57,15 @@ set $\{2^i+m2^m:0\le i<m\}$ and $n=2^{m-1}+m2^m$, and that he and Sárközy
 had expected this after the greedy algorithm gave only $(1-o(1))\log_3 n$.
 
 **Acceptance.** The paper is a refereed journal publication (Discrete
-Mathematics 200, April 1999), the `refereed` evidence. The site's curator,
-Thomas Bloom, marks the problem solved and credits the lower bound to this
-paper and the upper bound to the distinct-subset-sums bound of Problem 1 in
-the problem's remarks, the `reviewed` evidence. The statement and its proof
-are recorded on the library result page
+Mathematics 200, April 1999), which is the `refereed` evidence. The site's
+curator, Thomas Bloom, marks the problem solved. In the problem's remarks the
+curator credits the lower bound to this paper and the upper bound to the
+distinct-subset-sums bound of Problem 1. This is the `reviewed` evidence. The
+statement and its proof are recorded on the library result page
 [[../library/divisors/erdos_1999_greedy_algorithm_arithmetic_progressions_subset_sums/theorem_5|Theorem 5]]
 of the source card
-[[../library/divisors/erdos_1999_greedy_algorithm_arithmetic_progressions_subset_sums/_index|erdos_1999_greedy_algorithm_arithmetic_progressions_subset_sums]];
-nothing there is independently reviewed.
+[[../library/divisors/erdos_1999_greedy_algorithm_arithmetic_progressions_subset_sums/_index|erdos_1999_greedy_algorithm_arithmetic_progressions_subset_sums]].
+Nothing there is independently reviewed.
 
 **Formalization.** The file `Erdos882.lean` in Boris Alexeev's lean-proofs
 repository, linked above at a commit of 17 August 2026, the day the file

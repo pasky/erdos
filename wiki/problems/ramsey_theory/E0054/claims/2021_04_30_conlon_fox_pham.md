@@ -2,9 +2,10 @@
 name: problems/ramsey_theory/E0054/claims/2021_04_30_conlon_fox_pham
 title: Conlon, Fox and Pham determine the sparsest Ramsey 2-complete growth
 desc: |
-  Theorem 1.1 of the 2021 preprint at r = 2: a Ramsey 2-complete sequence
-  with O(log² n) terms up to n, and none with c log² n terms up to every
-  large n; an unrefereed preprint the site's curator credits as the resolution.
+  Theorem 1.1 of Conlon, Fox and Pham's 2021 preprint, at $r=2$, gives a Ramsey
+  2-complete sequence with $O(\log^2 n)$ terms up to $n$, and shows that none
+  has $c\log^2 n$ terms up to every large $n$. The preprint is unrefereed, and
+  the site's curator credits it as the resolution.
 authors:
 - David Conlon
 - Jacob Fox
@@ -46,19 +47,22 @@ theorem solves it together with the question for $r\ge3$, which is
 the paper's threshold $n(A)$ makes the constructed sequence entirely Ramsey
 $2$-complete with the same bound up to an additive constant.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the
-problem SOLVED and credits the resolution to the paper in the problem's
-commentary, which records the constructed Ramsey $2$-complete sequence with
-counting function $\ll(\log N)^2$ (page last edited 28 October 2025,
-accessed 2026-09-18); the discussion thread and the proof-claim tab are
-empty. The curator is independent of the authors. Not refereed: the paper is
-an arXiv preprint, version 1 of 30 April 2021 and the only version on the
-listing on 2026-09-18, with no journal version found (Crossref bibliographic
-query of the same date). The authors' own refereed 2022 Mathematika paper
-uses Theorem 6.1 of the preprint as its Theorem 3, which shows the authors'
-reliance on the preprint, not review by others. Read depth: this page rests
-on the statement of Theorem 1.1 and the paragraphs around it, not on the
-proof (Lemma 2.8 and Section 2); nothing here is independent review.
+**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labels the problem
+SOLVED and credits the resolution to the paper in the problem's commentary. The
+commentary records the constructed Ramsey $2$-complete sequence with counting
+function $\ll(\log N)^2$ (page last edited 28 October 2025, accessed
+2026-09-18). The discussion thread and the proof-claim tab are empty. The
+curator is independent of the authors.
+
+Not refereed: the paper is an arXiv preprint. Version 1 of 30 April 2021 was the
+only version on the listing on 2026-09-18, and no journal version was found
+(Crossref bibliographic query of the same date). The authors' own refereed 2022
+Mathematika paper uses Theorem 6.1 of the preprint as its Theorem 3. This shows
+the authors' reliance on the preprint, not review by others.
+
+Read depth: this page rests on the statement of Theorem 1.1 and the paragraphs
+around it, not on the proof (Lemma 2.8 and Section 2). Nothing here is
+independent review.
 
 **Depends on.** Nothing in this wiki; the result is the paper's own
 theorem.

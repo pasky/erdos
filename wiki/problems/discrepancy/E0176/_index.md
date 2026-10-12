@@ -2,9 +2,10 @@
 name: problems/discrepancy/E0176
 title: Problem 176
 desc: |
-  Bounds the least N forcing every plus-minus-one sign pattern to have a
-  k-term arithmetic progression with partial sum of absolute value at least a
-  given size.
+  Asks for good upper bounds on $N(k,\ell)$, the least $N$ such that every
+  $f:\{1,\ldots,N\}\to\{-1,1\}$ has a $k$-term arithmetic progression $P$ with
+  $\lvert\sum_{n\in P}f(n)\rvert\geq\ell$, in particular whether every $c>0$ has
+  some $C>1$ with $N(k,ck)\leq C^k$.
 tags:
 - Additive combinatorics
 - Arithmetic progressions
@@ -85,24 +86,25 @@ the Statement and [ErGr79]'s strict form is a variant that leaves it out; the
 beliefs about $W(n)$ in both texts concern the answer, not the question, and a
 later theorem about $c=1$ does not license a change.
 
-**Status.** Open, the site's label as accessed. No result
-settles the question. The OpenAI release's superexponential lower bound
-$W(k)>k^{k/100000}$ for all large $k$ (23 September 2026), recorded on the
-claim page
-[[problems/discrepancy/E0176/claims/2026_09_23_openai|OpenAI 2026]] as a
-claimed partial result, would answer the case $c=1$ in the negative through
-the identity above; the bound is accepted, formalized, on Problem 138, and the
-reduction is elementary but has not been checked by review or formalization
-here. The case $0<c<1$ is open. Lean developments posted in the site's thread
-in June 2026 claim yes answers, with polynomial bounds, to the questions
-$N(k,2)\le C^k$ and $N(k,\sqrt k)\le C^k$; they are recorded as claimed
-partial results on
+**Status.** Open, the site's label as accessed. No result settles the question.
+No full claim exists, and the standing derives from the claim pages.
+
+The OpenAI release of 23 September 2026 gives the superexponential lower bound
+$W(k)>k^{k/100000}$ for all large $k$. It is recorded as a claimed partial
+result on the claim page
+[[problems/discrepancy/E0176/claims/2026_09_23_openai|OpenAI 2026]]. Through the
+identity above, it would answer the case $c=1$ in the negative. The bound itself
+is accepted, formalized, on Problem 138. The reduction is elementary, but it has
+not been checked by review or formalization here. The case $0<c<1$ is open.
+
+Lean developments posted in the site's thread in June 2026 claim yes answers,
+with polynomial bounds, to the questions $N(k,2)\le C^k$ and
+$N(k,\sqrt k)\le C^k$. They are recorded as claimed partial results on
 [[problems/discrepancy/E0176/claims/2026_06_21_kitamura|Kitamura, 21 June 2026]]
 and
 [[problems/discrepancy/E0176/claims/2026_06_23_kitamura|Kitamura, 23 June 2026]].
-For even $k$ the first already follows from Spencer's formula for $N(k,1)$,
-since $N(k,2)=N(k,1)$ by parity. No full claim exists, and the standing
-derives from the claim pages.
+For even $k$ the first of these answers already follows from Spencer's formula
+for $N(k,1)$, since $N(k,2)=N(k,1)$ by parity.
 
 **Source.** [erdosproblems.com/176](https://www.erdosproblems.com/176), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #176,

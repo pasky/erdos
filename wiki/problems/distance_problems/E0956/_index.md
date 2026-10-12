@@ -2,9 +2,9 @@
 name: problems/distance_problems/E0956
 title: Problem 956
 desc: |
-  Determines the largest number of unit distances among n disjoint translates
-  of a compact convex set, in particular whether it exceeds n to a power above
-  1.
+  Asks for the largest number $h(n)$ of unit distances among $n$ disjoint
+  translates of a compact convex set, in particular whether $h(n)>n^{1+c}$ for
+  some $c>0$.
 tags:
 - Geometry
 - Distances
@@ -42,9 +42,9 @@ $$
 Determine $h(n)$ - in particular, prove that there exists a constant $c>0$ such
 that $h(n)>n^{1+c}$ for all large $n$.
 
-**Status.** Open. The site labels the problem OPEN; two pending claims of
-the order $n^{4/3}$, Valtr's announcement of 2005 and Chojecki's note of
-2026, are recorded on their claim pages, listed in the Current assessment.
+**Status.** Open. The site labels the problem OPEN. Two pending claims of the
+order $n^{4/3}$, Valtr's announcement of 2005 and Chojecki's note of 2026, are
+recorded on their claim pages. The Current assessment lists those pages.
 
 **Source.** [erdosproblems.com/956](https://www.erdosproblems.com/956), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #956,

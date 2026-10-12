@@ -2,8 +2,8 @@
 name: problems/arithmetic_functions/E1203
 title: Problem 1203
 desc: |
-  Asks whether the maximum over k of the number of distinct prime factors of n
-  plus k times log log k over log k tends to infinity as n grows.
+  Asks whether $F(n)=\max_k\omega(n+k)\log\log k/\log k$ tends to infinity as
+  $n\to\infty$, where $\omega$ counts distinct prime factors.
 tags:
 - Number theory
 status: open
