@@ -4,8 +4,7 @@ title: Problem 1144
 desc: |
   Asks whether a random completely multiplicative function $f$ with values
   $\pm1$ almost surely has
-  $\limsup_{N\to\infty}\sum_{m\le N}f(m)/\sqrt{N}=\infty$; a proof is claimed
-  but not accepted.
+  $\limsup_{N\to\infty}\sum_{m\le N}f(m)/\sqrt{N}=\infty$.
 tags:
 - Number theory
 - Probability

@@ -3,9 +3,8 @@ name: problems/ramsey_theory/E0556
 title: Problem 556
 desc: |
   Asks whether, for every $n>3$, every 3-coloring of the edges of $K_{4n-3}$ has
-  a monochromatic cycle of length $n$; the bound is known for all large $n$, and
-  the problem is open. The site's wording also includes the triangle, where it
-  fails.
+  a monochromatic cycle of length $n$; the bound is known for all large $n$. The
+  site's wording also includes the triangle, where it fails.
 tags:
 - Graph theory
 - Ramsey theory

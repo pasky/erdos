@@ -7,7 +7,7 @@ desc: |
   Euclidean Ramsey theory and the colorings of the plane and of R^n descended
   from the Hadwiger-Nelson problem.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Discrete and Convex Geometry
@@ -50,8 +50,8 @@ finite coloring of $\mathbb{R}^d$ for large enough $d$. OpenAI answered it in
 
 [[problems/discrete_geometry/E0188/_index|E0188/]]: Asks for the least $k$ such
 that the plane can be colored red and blue with no two red points at unit
-distance and no blue $k$-term progression with step $1$; open. If the step is
-left free, Erdős and Graham's question has no finite answer.
+distance and no blue $k$-term progression with step $1$. If the step is left
+free, Erdős and Graham's question has no finite answer.
 
 [[problems/discrete_geometry/E0189/_index|E0189/]]: Asks whether every finite
 coloring of the plane has a color class containing the vertices of a rectangle

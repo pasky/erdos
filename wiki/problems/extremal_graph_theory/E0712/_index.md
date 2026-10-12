@@ -3,8 +3,8 @@ name: problems/extremal_graph_theory/E0712
 title: Problem 712
 desc: |
   Asks for the Turán density of the complete $r$-uniform hypergraph on $k$
-  vertices, for any $k>r>2$; open. Turán's 1941 theorem settles $r=2$, no pair
-  with $r>2$ is known, and Erdős's two prize offers stand.
+  vertices, for any $k>r>2$. Turán's 1941 theorem settles $r=2$, no pair with
+  $r>2$ is known, and Erdős's two prize offers stand.
 tags:
 - Graph theory
 - Turán numbers

@@ -3,8 +3,8 @@ name: problems/graph_coloring/E1091
 title: Problem 1091
 desc: |
   Asks whether every $K_4$-free graph with chromatic number $4$ contains an odd
-  cycle with at least two diagonals; solved. Erdős first asked for one diagonal,
-  which Larson proved in 1979.
+  cycle with at least two diagonals. Erdős first asked for one diagonal, which
+  Larson proved in 1979.
 tags:
 - Graph theory
 - Chromatic number

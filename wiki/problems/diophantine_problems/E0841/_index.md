@@ -3,7 +3,7 @@ name: problems/diophantine_problems/E0841
 title: Problem 841
 desc: |
   Asks for estimates of the least $t_n$ such that $\{n+1,\ldots,n+t_n\}$
-  contains a subset whose product with $n$ is a square; solved. Erdős's original
+  contains a subset whose product with $n$ is a square. Erdős's original
   question, whether the $n$ with $t_n\ge n^{1-o(1)}$ have density zero, has the
   answer yes.
 tags:

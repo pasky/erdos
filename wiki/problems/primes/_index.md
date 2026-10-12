@@ -5,7 +5,7 @@ desc: |
   Distribution of the primes, prime gaps, and prime values and patterns in
   arithmetic sequences.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Primes
@@ -33,9 +33,8 @@ have every even $n\le p-3$ expressible as $q_1-q_2$ with primes $q_1,q_2\le p$.
 
 [[problems/primes/E0049/_index|E0049/]]: Asks whether a set
 $A\subseteq\{1,\ldots,N\}$ on which Euler's totient function $\phi$ is strictly
-increasing has $\lvert A\rvert<(1+o(1))\pi(N)$, or even $\lvert A\rvert=o(N)$;
-both are proved. Erdős's exact conjecture, that the primes are a largest such
-set, is open.
+increasing has $\lvert A\rvert<(1+o(1))\pi(N)$, or even $\lvert A\rvert=o(N)$.
+Erdős's exact conjecture, that the primes are a largest such set, is open.
 
 [[problems/primes/E0218/_index|E0218/]]: Asks whether the $n$ with $d_{n+1}\ge
 d_n$ and those with $d_{n+1}\le d_n$ each have density $1/2$, where
@@ -199,9 +198,8 @@ each $p_i$ leaves at most $\epsilon n$ integers $m\le n$.
 
 [[problems/primes/E1212/_index|E1212/]]: Asks whether some path to infinity,
 changing one coordinate by $\pm1$ per step, stays among coprime pairs $(x,y)$
-with $\min(x,y)>1$ and a composite coordinate; open on the site, with a proof
-claim pending. Stewart quickly answered yes to Erdős's first version, without
-the composite condition.
+with $\min(x,y)>1$ and a composite coordinate. Stewart quickly answered yes to
+Erdős's first version, without the composite condition.
 
 ***
 

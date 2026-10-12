@@ -3,8 +3,7 @@ name: problems/distance_problems/E1083
 title: Problem 1083
 desc: |
   Asks to estimate the least number $f_d(n)$ of distinct distances determined by
-  $n$ points in $\mathbb{R}^d$ for $d\ge3$, and whether $f_d(n)=n^{2/d-o(1)}$; a
-  proof is claimed.
+  $n$ points in $\mathbb{R}^d$ for $d\ge3$, and whether $f_d(n)=n^{2/d-o(1)}$.
 tags:
 - Geometry
 - Distances

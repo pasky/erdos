@@ -5,7 +5,7 @@ desc: |
   Asks whether, for any array of distinct nodes in $[-1,1]$ and any
   $\epsilon(n)\to 0$, some continuous $f$ makes every sequence of interpolants
   $p_n$ of $f$ with $\deg p_n<(1+\epsilon(n))n$ fail to converge to $f(x)$ for
-  almost all $x$; a proof is claimed but not accepted.
+  almost all $x$.
 tags:
 - Analysis
 - Polynomials

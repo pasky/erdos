@@ -4,8 +4,8 @@ title: Problem 1076
 desc: |
   Asks whether, for $k\ge5$, the most edges of a $3$-uniform hypergraph on $n$
   vertices with no $j$ vertices spanning $j-2$ edges for any $4\le j\le k$ is
-  asymptotic to $n^2/6$; proved. The version as printed, with only the single
-  family $j=k$, is false.
+  asymptotic to $n^2/6$. The version as printed, with only the single family
+  $j=k$, is false.
 tags:
 - Hypergraphs
 status: solved

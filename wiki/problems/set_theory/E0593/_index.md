@@ -3,8 +3,7 @@ name: problems/set_theory/E0593
 title: Problem 593
 desc: |
   Asks for a characterization of the finite $3$-uniform hypergraphs that appear
-  in every $3$-uniform hypergraph of uncountable chromatic number. Two pending
-  claims give the same characterization, and neither is accepted.
+  in every $3$-uniform hypergraph of uncountable chromatic number.
 tags:
 - Set theory
 - Graph theory

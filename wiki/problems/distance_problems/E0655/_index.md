@@ -3,8 +3,7 @@ name: problems/distance_problems/E0655
 title: Problem 655
 desc: |
   Asks whether $n$ points in the plane determine at least $(1+c)n/2$ distinct
-  distances when no circle centered at one of them contains three others; a
-  disproof is claimed.
+  distances when no circle centered at one of them contains three others.
 tags:
 - Geometry
 - Distances

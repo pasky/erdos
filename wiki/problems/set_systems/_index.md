@@ -7,7 +7,7 @@ desc: |
   Latin squares and finite projective planes, together with the general
   combinatorics problems the site tags no more finely.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Set Systems, Designs and Hypergraphs
@@ -191,8 +191,8 @@ subgraphs on $m\to\infty$ vertices with at least $c_rm^r$ edges.
 
 [[problems/set_systems/E1076/_index|E1076/]]: Asks whether, for $k\ge5$, the
 most edges of a $3$-uniform hypergraph on $n$ vertices with no $j$ vertices
-spanning $j-2$ edges for any $4\le j\le k$ is asymptotic to $n^2/6$; proved. The
-version as printed, with only the single family $j=k$, is false.
+spanning $j-2$ edges for any $4\le j\le k$ is asymptotic to $n^2/6$. The version
+as printed, with only the single family $j=k$, is false.
 
 [[problems/set_systems/E1159/_index|E1159/]]: Asks whether there is a constant
 $C>1$ such that every finite projective plane has a set of points meeting each

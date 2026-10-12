@@ -4,8 +4,8 @@ title: Problem 998
 desc: |
   Asks whether, for irrational $\alpha$, an interval $[u,v)$ with bounded
   discrepancy along the fractional parts $\{\alpha m\}$ must have length
-  $v-u=\{\alpha j\}$ for some integer $j$; proved. The site's wording, which
-  asks this of both endpoints, is false.
+  $v-u=\{\alpha j\}$ for some integer $j$. The site's wording, which asks this
+  of both endpoints, is false.
 tags:
 - Analysis
 - Diophantine approximation

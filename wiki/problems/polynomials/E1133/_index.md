@@ -5,8 +5,7 @@ desc: |
   Asks whether each $C>0$ has an $\epsilon>0$ such that, for large $n$ and any
   $x_1,\ldots,x_n\in[-1,1]$, some $y_i\in[-1,1]$ give
   $\max_{[-1,1]}\lvert P\rvert>C$ whenever $\deg P<(1+\epsilon)n$ and
-  $P(x_i)=y_i$ for at least $(1-\epsilon)n$ values of $i$; proofs are claimed
-  but none is accepted.
+  $P(x_i)=y_i$ for at least $(1-\epsilon)n$ values of $i$.
 tags:
 - Analysis
 - Polynomials

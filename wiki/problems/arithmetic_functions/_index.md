@@ -7,7 +7,7 @@ desc: |
   factors, the largest prime factor — along with general additive and
   multiplicative functions and perfect, amicable and aliquot-type questions.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Arithmetic Functions
@@ -287,12 +287,11 @@ partition function, tends to infinity, and whether $F(n)>n$ for all large $n$.
 
 [[problems/arithmetic_functions/E1122/_index|E1122/]]: Asks whether an additive
 function $f$ with $f(n+1)<f(n)$ only for a density-zero set of $n$ must be
-$c\log n$ for some real $c$; a proof is claimed but not accepted.
+$c\log n$ for some real $c$.
 
 [[problems/arithmetic_functions/E1144/_index|E1144/]]: Asks whether a random
 completely multiplicative function $f$ with values $\pm1$ almost surely has
-$\limsup_{N\to\infty}\sum_{m\le N}f(m)/\sqrt{N}=\infty$; a proof is claimed but
-not accepted.
+$\limsup_{N\to\infty}\sum_{m\le N}f(m)/\sqrt{N}=\infty$.
 
 [[problems/arithmetic_functions/E1203/_index|E1203/]]: Asks whether
 $F(n)=\max_k\omega(n+k)\log\log k/\log k$ tends to infinity as $n\to\infty$,

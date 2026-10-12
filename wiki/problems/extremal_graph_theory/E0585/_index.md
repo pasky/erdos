@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0585
 title: Problem 585
 desc: |
   Asks for the maximum number of edges in a graph on $n$ vertices with no two
-  edge-disjoint cycles on the same vertex set. Open; the maximum is known to be
+  edge-disjoint cycles on the same vertex set. The maximum is known to be
   $\Omega(n\log\log n)$ and $O(n(\log n)^t)$ for some constant $t$.
 tags:
 - Graph theory

@@ -7,7 +7,7 @@ desc: |
   powerful and squarefree numbers, sums of k-th powers, products of
   consecutive integers, and base and digit representations.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Diophantine Problems and Powers
@@ -16,9 +16,9 @@ updated: 2026-10-11T23:17:00Z
 
 [[problems/diophantine_problems/E0123/_index|E0123/]]: Asks whether, for
 pairwise coprime $a,b,c>1$, every large integer is a sum of distinct numbers
-$a^kb^lc^m$, none dividing another; proved. Erdős also suggested the weaker
-hypothesis that $a,b,c$ have no common factor, under which the answer is no, as
-$6$, $10$ and $15$ show.
+$a^kb^lc^m$, none dividing another. Erdős also suggested the weaker hypothesis
+that $a,b,c$ have no common factor, under which the answer is no, as $6$, $10$
+and $15$ show.
 
 [[problems/diophantine_problems/E0124/_index|E0124/]]: Asks whether, for
 integers $3\le d_1<\cdots<d_r$ with $\sum_i 1/(d_i-1)\ge1$, every large integer
@@ -72,13 +72,12 @@ such $n\le x$ is at most $(\log x)^{O(1)}$.
 
 [[problems/diophantine_problems/E0366/_index|E0366/]]: Asks whether some integer
 divisible by the square of each of its prime factors is followed by one
-divisible by the cube of each of its prime factors; open. Erdős and Graham's
-companion question, with the cube first, is answered by 12167, 12168.
+divisible by the cube of each of its prime factors. Erdős and Graham's companion
+question, with the cube first, is answered by 12167, 12168.
 
 [[problems/diophantine_problems/E0374/_index|E0374/]]: Asks for the order of
 growth, for $3\le k\le6$, of the number of $m\le n$ that need exactly $k$
-distinct factorials, the largest being $m!$, to form a square product. Two
-pending claims answer it.
+distinct factorials, the largest being $m!$, to form a square product.
 
 [[problems/diophantine_problems/E0388/_index|E0388/]]: Asks whether two disjoint
 blocks of more than three consecutive integers can have equal products only
@@ -165,8 +164,8 @@ of ways to write $n$ as a sum of two cubes is at most $(\log n)^{O(1)}$.
 
 [[problems/diophantine_problems/E0841/_index|E0841/]]: Asks for estimates of the
 least $t_n$ such that $\{n+1,\ldots,n+t_n\}$ contains a subset whose product
-with $n$ is a square; solved. Erdős's original question, whether the $n$ with
-$t_n\ge n^{1-o(1)}$ have density zero, has the answer yes.
+with $n$ is a square. Erdős's original question, whether the $n$ with $t_n\ge
+n^{1-o(1)}$ have density zero, has the answer yes.
 
 [[problems/diophantine_problems/E0843/_index|E0843/]]: Asks whether the squares
 are Ramsey $2$-complete, meaning that in every $2$-coloring of the squares each

@@ -2,8 +2,8 @@
 name: problems/ramsey_theory/E0165
 title: Problem 165
 desc: |
-  Asks for an asymptotic formula for $R(3,k)$; open. The order $k^2/\log k$ is
-  known, and the constant lies between $1/2$ and $1$.
+  Asks for an asymptotic formula for $R(3,k)$. The order $k^2/\log k$ is known,
+  and the constant lies between $1/2$ and $1$.
 tags:
 - Graph theory
 - Ramsey theory

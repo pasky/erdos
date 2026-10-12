@@ -3,8 +3,8 @@ name: problems/irrationality/E0496
 title: Problem 496
 desc: |
   Asks whether, for every irrational $\alpha>0$ and $\epsilon>0$, some positive
-  integers $x,y,z$ satisfy $|x^2+y^2-z^2\alpha|<\epsilon$; answered yes. The
-  site's wording, over every irrational $\alpha$, fails for negative $\alpha$.
+  integers $x,y,z$ satisfy $|x^2+y^2-z^2\alpha|<\epsilon$. The site's wording,
+  over every irrational $\alpha$, fails for negative $\alpha$.
 tags:
 - Number theory
 - Diophantine approximation

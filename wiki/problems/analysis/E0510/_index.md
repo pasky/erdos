@@ -3,8 +3,8 @@ name: problems/analysis/E0510
 title: Problem 510
 desc: |
   Asks whether every set $A$ of $N$ positive integers has some $\theta$ with
-  $\sum_{n\in A}\cos(n\theta)<-cN^{1/2}$, for an absolute constant $c>0$; open.
-  The site's wording, over all integers, fails for sets containing $0$.
+  $\sum_{n\in A}\cos(n\theta)<-cN^{1/2}$, for an absolute constant $c>0$. The
+  site's wording, over all integers, fails for sets containing $0$.
 tags:
 - Analysis
 status: open

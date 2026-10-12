@@ -4,7 +4,7 @@ title: Problem 87
 desc: |
   Asks whether, for each $0<\epsilon<1$ and all large $k$, every graph $G$ with
   $\chi(G)=k$ has $R(G)>(1-\epsilon)^kR(k)$, or even $R(G)>cR(k)$ for a fixed
-  $c>0$; open. Erdős's original conjecture, $R(G)\ge R(k)$, fails at $k=4$.
+  $c>0$. Erdős's original conjecture, $R(G)\ge R(k)$, fails at $k=4$.
 tags:
 - Graph theory
 - Ramsey theory

@@ -7,7 +7,7 @@ desc: |
   asking for their density, counting function, gaps or growth, including
   covering-congruence and sieve questions.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Sequences and Densities of Integers
@@ -239,8 +239,7 @@ unreviewed.
 [[problems/integer_sequences/E0489/_index|E0489/]]: Asks whether, for
 $A\subseteq\mathbb{N}$ with $|A\cap[1,x]|=o(x^{1/2})$ and $b_1<b_2<\cdots$ the
 integers divisible by no member of $A$, the limit of
-$\frac1x\sum_{b_i<x}(b_{i+1}-b_i)^2$ exists and is finite; a proof claim of July
-2026 is pending.
+$\frac1x\sum_{b_i<x}(b_{i+1}-b_i)^2$ exists and is finite.
 
 [[problems/integer_sequences/E0490/_index|E0490/]]: Asks whether
 $A,B\subseteq\{1,\ldots,N\}$ with all products $ab$ distinct must satisfy
@@ -263,8 +262,7 @@ distinct primes $p_1,p_2,p_3$.
 
 [[problems/integer_sequences/E0538/_index|E0538/]]: Asks for the best possible
 upper bound on $\sum_{n\in A}1/n$ for $A\subseteq\{1,\ldots,N\}$ in which each
-$m$ has at most $r$ representations $m=pa$ with $p$ prime and $a\in A$; a
-pending claim of July 2026 asserts that the order $\log N/\log\log N$ is sharp.
+$m$ has at most $r$ representations $m=pa$ with $p$ prime and $a\in A$.
 
 [[problems/integer_sequences/E0539/_index|E0539/]]: Asks for estimates of
 $h(n)$, the least size of $\{a/\gcd(a,b):a,b\in A\}$ over all sets
@@ -509,8 +507,8 @@ than $r$ members divisible only by primes from some set of $r$ primes, and
 whether $2\pi(n^{1/2})-f(\pi(n)+1,n)\to\infty$.
 
 [[problems/integer_sequences/E0985/_index|E0985/]]: Asks whether every prime
-$p>2$ has a primitive root modulo $p$ that is a prime $q<p$; open. The site's
-wording also includes $p=2$, where it fails.
+$p>2$ has a primitive root modulo $p$ that is a prime $q<p$. The site's wording
+also includes $p=2$, where it fails.
 
 [[problems/integer_sequences/E1057/_index|E1057/]]: Asks whether the number
 $C(x)$ of Carmichael numbers up to $x$ satisfies $C(x)=x^{1-o(1)}$.

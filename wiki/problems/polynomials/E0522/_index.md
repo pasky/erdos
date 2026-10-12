@@ -4,7 +4,7 @@ title: Problem 522
 desc: |
   Asks whether the number $R_n$ of roots in the closed unit disc of a random
   degree-$n$ polynomial with independent uniform $\pm 1$ coefficients satisfies
-  $R_n/(n/2)\to 1$ almost surely; proofs are claimed but none is accepted.
+  $R_n/(n/2)\to 1$ almost surely.
 tags:
 - Analysis
 - Polynomials

@@ -4,8 +4,7 @@ title: Problem 538
 desc: |
   Asks for the best possible upper bound on $\sum_{n\in A}1/n$ for
   $A\subseteq\{1,\ldots,N\}$ in which each $m$ has at most $r$ representations
-  $m=pa$ with $p$ prime and $a\in A$; a pending claim of July 2026 asserts that
-  the order $\log N/\log\log N$ is sharp.
+  $m=pa$ with $p$ prime and $a\in A$.
 tags:
 - Number theory
 status: claimed

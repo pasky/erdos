@@ -4,8 +4,8 @@ title: Problem 49
 desc: |
   Asks whether a set $A\subseteq\{1,\ldots,N\}$ on which Euler's totient
   function $\phi$ is strictly increasing has $\lvert A\rvert<(1+o(1))\pi(N)$, or
-  even $\lvert A\rvert=o(N)$; both are proved. Erdős's exact conjecture, that
-  the primes are a largest such set, is open.
+  even $\lvert A\rvert=o(N)$. Erdős's exact conjecture, that the primes are a
+  largest such set, is open.
 tags:
 - Number theory
 - Primes

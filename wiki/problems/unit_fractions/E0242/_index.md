@@ -3,7 +3,7 @@ name: problems/unit_fractions/E0242
 title: Problem 242
 desc: |
   Asks whether $4/n=1/x+1/y+1/z$ has a solution in distinct positive integers
-  $x<y<z$ for every $n>2$; proofs are claimed but none is accepted.
+  $x<y<z$ for every $n>2$.
 tags:
 - Number theory
 - Unit fractions

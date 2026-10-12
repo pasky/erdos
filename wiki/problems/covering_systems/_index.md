@@ -6,7 +6,7 @@ desc: |
   the minimum modulus problem, and the analogous exact coverings of a group by
   cosets.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Covering Systems
@@ -89,14 +89,12 @@ containing a divisor of every $2^km+1$.
 
 [[problems/covering_systems/E1188/_index|E1188/]]: Asks for an estimate of the
 number $F(x)$ of minimal covering systems with distinct moduli in $[1,x]$, where
-minimal means no proper subsystem still covers every integer. A full answer is
-claimed and pending.
+minimal means no proper subsystem still covers every integer.
 
 [[problems/covering_systems/E1189/_index|E1189/]]: Asks about sets of distinct
 moduli that cover the integers for some choice of residues while no proper
 subset can, including how many have size $k$, the extreme values of their
-largest modulus, and their largest reciprocal sum. Full answers are claimed and
-pending.
+largest modulus, and their largest reciprocal sum.
 
 [[problems/covering_systems/E1190/_index|E1190/]]: Asks for an estimate of
 $\epsilon_m$, the supremum of $\sum 1/n_i$ over finite families of pairwise

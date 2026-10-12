@@ -4,8 +4,8 @@ title: Problem 713
 desc: |
   Asks whether every bipartite graph $G$ with at least two edges has
   $\mathrm{ex}(n;G)\sim cn^\alpha$ for some $c>0$ and $\alpha\in[1,2)$, and
-  whether $\alpha$ must be rational; open. The exponent forms Erdős proposed in
-  1967 were disproved in 1970.
+  whether $\alpha$ must be rational. The exponent forms Erdős proposed in 1967
+  were disproved in 1970.
 tags:
 - Graph theory
 - Turán numbers

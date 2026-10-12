@@ -3,8 +3,8 @@ name: problems/additive_combinatorics/E0791
 title: Problem 791
 desc: |
   Estimates $g(n)$, the fewest elements of $\{0,\ldots,n\}$ whose pairwise sums
-  cover $\{0,\ldots,n\}$ (the smallest finite additive $2$-basis); open. Its
-  square lies between $2.181n$ and $3.458n$, and the guess $g(n)\sim2\sqrt n$ is
+  cover $\{0,\ldots,n\}$ (the smallest finite additive $2$-basis). Its square
+  lies between $2.181n$ and $3.458n$, and the guess $g(n)\sim2\sqrt n$ is
   refuted (Hämmerer and Hofmeister, Mrose).
 tags:
 - Additive combinatorics

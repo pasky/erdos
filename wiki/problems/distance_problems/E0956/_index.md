@@ -4,7 +4,7 @@ title: Problem 956
 desc: |
   Asks for the largest number $h(n)$ of unit distances among $n$ disjoint
   translates of a compact convex set, in particular whether $h(n)>n^{1+c}$ for
-  some $c>0$; answers are claimed.
+  some $c>0$.
 tags:
 - Geometry
 - Distances

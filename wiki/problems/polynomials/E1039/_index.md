@@ -4,8 +4,7 @@ title: Problem 1039
 desc: |
   Asks how $\rho(f)$, the radius of the largest disc inside
   $\{z:\lvert f(z)\rvert<1\}$, behaves for monic $f$ of degree $n$ with all
-  roots in the closed unit disc, and whether $\rho(f)\gg 1/n$ always holds; an
-  answer is claimed but not accepted.
+  roots in the closed unit disc, and whether $\rho(f)\gg 1/n$ always holds.
 tags:
 - Analysis
 - Polynomials

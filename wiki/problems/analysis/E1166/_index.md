@@ -4,7 +4,7 @@ title: Problem 1166
 desc: |
   Asks whether, almost surely, the number of sites that are favorite at some
   time up to $n$ in a planar simple random walk is at most $(\log n)^{O(1)}$ for
-  all large $n$; a proof is claimed but still pending.
+  all large $n$.
 tags:
 - Probability
 status: claimed

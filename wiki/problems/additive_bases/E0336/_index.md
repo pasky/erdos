@@ -3,7 +3,7 @@ name: problems/additive_bases/E0336
 title: Problem 336
 desc: |
   Asks for $\lim_r h(r)/r^2$, where $h(r)$ is the largest finite exact order of
-  an additive basis of order $r$; a pending claim answers it.
+  an additive basis of order $r$.
 tags:
 - Number theory
 - Additive bases

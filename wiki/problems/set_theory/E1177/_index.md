@@ -4,7 +4,7 @@ title: Problem 1177
 desc: |
   Asks whether three assertions hold about the families $F_G(\kappa)$ of
   $3$-uniform hypergraphs of chromatic number $\kappa$ that avoid a fixed finite
-  $3$-uniform hypergraph $G$. One claim, not accepted, answers all three.
+  $3$-uniform hypergraph $G$.
 tags:
 - Set theory
 - Chromatic number

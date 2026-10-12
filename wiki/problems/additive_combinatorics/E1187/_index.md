@@ -3,8 +3,8 @@ name: problems/additive_combinatorics/E1187
 title: Problem 1187
 desc: |
   Asks whether every finite coloring of the integers has, for each $k\ge3$, a
-  monochromatic $k$-term progression of primes, and one whose common difference
-  is prime.
+  monochromatic $k$-term progression of primes, and a monochromatic $k$-term
+  progression whose common difference is prime.
 tags:
 - Number theory
 - Additive combinatorics

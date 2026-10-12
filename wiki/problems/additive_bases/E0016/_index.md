@@ -2,8 +2,9 @@
 name: problems/additive_bases/E0016
 title: Problem 16
 desc: |
-  Asks whether the odd integers not of the form $2^k+p$ are the union of an
-  infinite arithmetic progression and a set of density $0$.
+  Asks whether the odd integers not of the form $2^k+p$, a power of $2$ plus a
+  prime, are the union of an infinite arithmetic progression and a set of
+  density $0$.
 tags:
 - Number theory
 - Additive bases

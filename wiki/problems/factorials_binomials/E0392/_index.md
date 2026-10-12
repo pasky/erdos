@@ -3,8 +3,7 @@ name: problems/factorials_binomials/E0392
 title: Problem 392
 desc: |
   Asks whether $A(n)=n/2-n/(2\log n)+o(n/\log n)$, where $A(n)$ is the least $t$
-  such that $n!=a_1\cdots a_t$ with $a_1\le\cdots\le a_t\le n^2$; a proof is
-  claimed but not accepted.
+  such that $n!=a_1\cdots a_t$ with $a_1\le\cdots\le a_t\le n^2$.
 tags:
 - Number theory
 - Factorials

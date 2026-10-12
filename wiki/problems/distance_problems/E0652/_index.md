@@ -3,8 +3,8 @@ name: problems/distance_problems/E0652
 title: Problem 652
 desc: |
   Asks whether the least possible number of distinct distances from the $k$-th
-  of $n$ planar points, in units of $\sqrt{n}$, tends to infinity with $k$;
-  proved. Erdős's first guess, that it is unbounded already at $k=3$, fails by a
+  of $n$ planar points, in units of $\sqrt{n}$, tends to infinity with $k$.
+  Erdős's first guess, that it is unbounded already at $k=3$, fails by a
   construction of Elekes.
 tags:
 - Geometry

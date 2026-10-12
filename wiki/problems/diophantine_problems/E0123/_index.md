@@ -3,9 +3,9 @@ name: problems/diophantine_problems/E0123
 title: Problem 123
 desc: |
   Asks whether, for pairwise coprime $a,b,c>1$, every large integer is a sum of
-  distinct numbers $a^kb^lc^m$, none dividing another; proved. Erdős also
-  suggested the weaker hypothesis that $a,b,c$ have no common factor, under
-  which the answer is no, as $6$, $10$ and $15$ show.
+  distinct numbers $a^kb^lc^m$, none dividing another. Erdős also suggested the
+  weaker hypothesis that $a,b,c$ have no common factor, under which the answer
+  is no, as $6$, $10$ and $15$ show.
 tags:
 - Number theory
 status: solved

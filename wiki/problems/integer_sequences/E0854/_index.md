@@ -40,19 +40,20 @@ partial claim leaves the standing open. The site's proof-claim tab carries one
 partial claim, submitted 2026-08-20 by the forum account DottedCalculator, the
 claimant. It comes with a five-page write-up signed by the AI system GPT 5.6
 Sol. The claim is that for every large $k$, every even number up to a constant
-times $p_k$ is a difference $a_{i+1}-a_i$. So the smallest even integer that is
-not such a difference is $\gg p_k\sim k\log k$, and $\gg p_k$ distinct even
-differences occur. The write-up says that it does not settle the displayed
-comparison with $\max_i(a_{i+1}-a_i)$. The claim is recorded on
-[[problems/integer_sequences/E0854/claims/2026_08_20_dottedcalculator|its claim page]]
-without adoption. No comment, review or outside record was found, and nothing is
-reviewed here. The write-up names two earlier public lower bounds, each recorded
-as a claimed partial result.
-[[problems/integer_sequences/E0854/claims/2020_07_03_ziller|Ziller's 2020 preprint]]
-shows that $2,4,\ldots,2k$ all occur as differences.
-[[problems/integer_sequences/E0854/claims/2026_07_27_white|White's working report of 27 July 2026]],
-written with Claude, proves that the smallest even non-difference is at least
-$(e^{\gamma}-o(1))k\log\log k$.
+times $p_k$ is a difference $a_{i+1}-a_i$. So the claim also gives that the
+smallest even integer that is not such a difference is $\gg p_k\sim k\log k$,
+and that $\gg p_k$ distinct even differences occur. The write-up says that it
+does not settle the displayed comparison with $\max_i(a_{i+1}-a_i)$. The claim
+is recorded on
+[[problems/integer_sequences/E0854/claims/2026_08_20_dottedcalculator|its claim
+page]] without adoption. No comment, review or outside record was found, and
+nothing is reviewed here. The write-up names two earlier public lower bounds,
+each recorded as a claimed partial result.
+[[problems/integer_sequences/E0854/claims/2020_07_03_ziller|Ziller's 2020
+preprint]] shows that $2,4,\ldots,2k$ all occur as differences.
+[[problems/integer_sequences/E0854/claims/2026_07_27_white|White's working
+report of 27 July 2026]], written with Claude, proves that the smallest even
+non-difference is at least $(e^{\gamma}-o(1))k\log\log k$.
 
 **Source.** [erdosproblems.com/854](https://www.erdosproblems.com/854), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #854,

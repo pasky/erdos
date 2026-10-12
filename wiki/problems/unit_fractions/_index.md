@@ -6,7 +6,7 @@ desc: |
   conjecture and the Erdos-Graham problems on representing rationals as sums
   of unit fractions.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Unit Fractions
@@ -34,8 +34,7 @@ $x>0$, the best underapproximations of $x$ by sums of $n$ distinct unit
 fractions are eventually built greedily.
 
 [[problems/unit_fractions/E0242/_index|E0242/]]: Asks whether $4/n=1/x+1/y+1/z$
-has a solution in distinct positive integers $x<y<z$ for every $n>2$; proofs are
-claimed but none is accepted.
+has a solution in distinct positive integers $x<y<z$ for every $n>2$.
 
 [[problems/unit_fractions/E0282/_index|E0282/]]: Asks whether the greedy
 algorithm for unit fractions, which always takes the least allowed denominator,
@@ -69,8 +68,7 @@ I_1}\frac{1}{n}+\sum_{n\in I_2}\frac{1}{n}\in\mathbb{N}$.
 
 [[problems/unit_fractions/E0289/_index|E0289/]]: Asks whether, for every large
 $k$, one can write $1$ as the sum of $1/n$ over $k$ distinct integer intervals,
-none overlapping or adjacent and each of length at least $2$; proofs are claimed
-but none is accepted.
+none overlapping or adjacent and each of length at least $2$.
 
 [[problems/unit_fractions/E0290/_index|E0290/]]: Asks whether, for each $a\ge1$,
 some $b>a$ makes the reduced denominator of $\sum_{a\le n\le b}1/n$ drop when

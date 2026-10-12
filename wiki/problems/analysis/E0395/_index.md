@@ -4,8 +4,8 @@ title: Problem 395
 desc: |
   Asks whether, for unit complex numbers $z_1,\ldots,z_n$ and random signs
   $\epsilon_i$, the sum $\sum\epsilon_iz_i$ has modulus at most $\sqrt{2}$ with
-  probability $\gg 1/n$; proved. Erdős asked it with radius $1$, which fails for
-  every even $n$.
+  probability $\gg 1/n$. Erdős asked it with radius $1$, which fails for every
+  even $n$.
 tags:
 - Analysis
 status: solved

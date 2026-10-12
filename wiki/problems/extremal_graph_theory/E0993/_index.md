@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0993
 title: Problem 993
 desc: |
   Asks whether the sequence counting the independent sets of each size in a tree
-  or forest is unimodal; proofs are claimed, but none is accepted.
+  or forest is unimodal.
 tags:
 - Graph theory
 status: claimed

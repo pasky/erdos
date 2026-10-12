@@ -4,8 +4,7 @@ title: Problem 489
 desc: |
   Asks whether, for $A\subseteq\mathbb{N}$ with $|A\cap[1,x]|=o(x^{1/2})$ and
   $b_1<b_2<\cdots$ the integers divisible by no member of $A$, the limit of
-  $\frac1x\sum_{b_i<x}(b_{i+1}-b_i)^2$ exists and is finite; a proof claim of
-  July 2026 is pending.
+  $\frac1x\sum_{b_i<x}(b_{i+1}-b_i)^2$ exists and is finite.
 tags:
 - Number theory
 status: claimed

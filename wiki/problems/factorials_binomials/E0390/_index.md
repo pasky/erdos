@@ -4,8 +4,7 @@ title: Problem 390
 desc: |
   Asks whether there is a constant $c$, and what it is, with
   $f(n)-2n\sim cn/\log n$, where $f(n)$ is the least $m$ such that
-  $n!=a_1\cdots a_k$ with $n<a_1<\cdots<a_k=m$; a proof is claimed but not
-  accepted.
+  $n!=a_1\cdots a_k$ with $n<a_1<\cdots<a_k=m$.
 tags:
 - Number theory
 - Factorials

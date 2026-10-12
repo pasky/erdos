@@ -5,7 +5,7 @@ desc: |
   Asks whether a set $A\subseteq\{1,\ldots,n\}$ above the triangle threshold of
   the coprime graph forces all odd cycles up to length $n/3+1$ and, for large
   $n$, complete $(1,\ell,\ell)$ tripartite subgraphs. Sárközy settled the second
-  in 1999; pending claims answer the first.
+  in 1999.
 tags:
 - Number theory
 - Graph theory

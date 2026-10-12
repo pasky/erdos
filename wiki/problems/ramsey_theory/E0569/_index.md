@@ -3,8 +3,7 @@ name: problems/ramsey_theory/E0569
 title: Problem 569
 desc: |
   Asks for the least constant $c_k$ such that $R(C_{2k+1},H)\le c_km$ for every
-  graph $H$ with $m$ edges and no isolated vertices. Open on the site, with a
-  pending claim of an exact answer.
+  graph $H$ with $m$ edges and no isolated vertices.
 tags:
 - Graph theory
 - Ramsey theory

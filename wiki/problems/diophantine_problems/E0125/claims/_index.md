@@ -4,17 +4,17 @@ desc: The 3 claim pages of Problem 125, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:33:50Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # problems/diophantine_problems/E0125/claims
 
 [[problems/diophantine_problems/E0125/_index|..]]
 
-[[problems/diophantine_problems/E0125/claims/2026_02_25_deepmind|2026_02_25_deepmind]]: A DeepMind prover agent found a Lean proof that the sumset of the base-3 and
-base-4 digit sets has no positive asymptotic density. This answers the site's
-earlier wording (positive density), not the Statement (positive lower
-density), so it does not count toward the problem's standing.
+[[problems/diophantine_problems/E0125/claims/2026_02_25_deepmind|2026_02_25_deepmind]]: Answers the site's earlier wording (positive density), not the Statement
+(positive lower density), so it does not count toward the problem's standing.
+A DeepMind prover agent found a Lean proof that the sumset of the base-3 and
+base-4 digit sets has no positive asymptotic density.
 
 [[problems/diophantine_problems/E0125/claims/2026_03_30_deepmind|2026_03_30_deepmind]]: Claims, with a Lean proof found by a DeepMind prover agent, that the sumset of
 the base-3 and base-4 digit sets has lower density zero, which answers the

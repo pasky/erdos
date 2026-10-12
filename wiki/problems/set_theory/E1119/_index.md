@@ -4,7 +4,7 @@ title: Problem 1119
 desc: |
   Asks whether a family of entire functions taking at most $\mathfrak m$
   distinct values at each point has cardinality at most $\mathfrak m$, for
-  $\aleph_0<\mathfrak m<2^{\aleph_0}$; independent.
+  $\aleph_0<\mathfrak m<2^{\aleph_0}$.
 tags:
 - Analysis
 - Set theory

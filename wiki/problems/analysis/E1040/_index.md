@@ -5,7 +5,7 @@ desc: |
   Asks whether the least area $\mu(F)$ of $\{z:\lvert f(z)\rvert<1\}$, over
   monic $f$ with roots in a closed infinite $F\subseteq\mathbb{C}$, is
   determined by the transfinite diameter of $F$, and whether $\mu(F)=0$ when
-  that diameter is $\geq 1$. Pending claims answer both.
+  that diameter is $\geq 1$.
 tags:
 - Analysis
 parts:

@@ -4,8 +4,7 @@ title: Problem 524
 desc: |
   Asks for the order of magnitude, for almost all $t\in(0,1)$, of
   $M_n(t)=\max_{x\in[-1,1]}\lvert\sum_{k\le n}(-1)^{\epsilon_k(t)}x^k\rvert$,
-  where $\epsilon_k(t)$ are the binary digits of $t$; an answer is claimed but
-  not accepted.
+  where $\epsilon_k(t)$ are the binary digits of $t$.
 tags:
 - Analysis
 - Probability

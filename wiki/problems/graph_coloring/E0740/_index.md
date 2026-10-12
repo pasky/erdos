@@ -4,7 +4,7 @@ title: Problem 740
 desc: |
   Asks whether a graph of infinite chromatic number $\mathfrak{m}$ must contain
   a subgraph of the same chromatic number with no odd cycle of length at most
-  $r$; a claimed disproof is pending.
+  $r$.
 tags:
 - Graph theory
 - Chromatic number

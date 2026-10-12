@@ -2,8 +2,7 @@
 name: problems/factorials_binomials/E0398
 title: Problem 398
 desc: |
-  Asks whether $n!=x^2-1$ has solutions only for $n=4,5,7$; a proof is claimed
-  but not accepted.
+  Asks whether $n!=x^2-1$ has solutions only for $n=4,5,7$.
 tags:
 - Number theory
 - Factorials

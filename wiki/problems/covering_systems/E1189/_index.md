@@ -5,7 +5,6 @@ desc: |
   Asks about sets of distinct moduli that cover the integers for some choice of
   residues while no proper subset can, including how many have size $k$, the
   extreme values of their largest modulus, and their largest reciprocal sum.
-  Full answers are claimed and pending.
 tags:
 - Number theory
 - Covering systems

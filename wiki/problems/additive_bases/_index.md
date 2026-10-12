@@ -7,7 +7,7 @@ desc: |
   differences are almost distinct, and complete sequences whose subset sums
   represent every large integer.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Additive Bases and Sidon Sets
@@ -33,8 +33,8 @@ $o(N^{1/2})$. The answers are yes and no, by two Lean proofs the bounty site
 Conjectures.io accepted.
 
 [[problems/additive_bases/E0016/_index|E0016/]]: Asks whether the odd integers
-not of the form $2^k+p$ are the union of an infinite arithmetic progression and
-a set of density $0$.
+not of the form $2^k+p$, a power of $2$ plus a prime, are the union of an
+infinite arithmetic progression and a set of density $0$.
 
 [[problems/additive_bases/E0028/_index|E0028/]]: Asks whether, when $A+A$
 contains all but finitely many integers, some integers must have arbitrarily
@@ -144,7 +144,7 @@ $\lvert B\cap\{1,\ldots,N\}\rvert=o(N^{1/2})$.
 
 [[problems/additive_bases/E0336/_index|E0336/]]: Asks for $\lim_r h(r)/r^2$,
 where $h(r)$ is the largest finite exact order of an additive basis of order
-$r$; a pending claim answers it.
+$r$.
 
 [[problems/additive_bases/E0337/_index|E0337/]]: Asks whether every additive
 basis $A$ of density zero has $\lvert (A+A)\cap\{1,\ldots,N\}\rvert/\lvert
@@ -188,7 +188,7 @@ finite set of terms is removed.
 
 [[problems/additive_bases/E0348/_index|E0348/]]: Asks for which $0\le m<n$ a
 complete sequence can stay complete after removing any $m$ elements yet fail to
-be complete after removing any $n$ elements; a pending claim answers it.
+be complete after removing any $n$ elements.
 
 [[problems/additive_bases/E0349/_index|E0349/]]: Asks for which $t,\alpha>0$ the
 sequence $\lfloor t\alpha^n\rfloor$ is complete, meaning that sums of distinct
@@ -264,8 +264,7 @@ order $2$.
 
 [[problems/additive_bases/E0870/_index|E0870/]]: Asks whether, for $k\ge3$,
 representation counts $r(n)\ge c\log n$ with a suitable constant $c$ force an
-additive basis of order $k$ to contain a minimal one; a pending claim disproves
-it.
+additive basis of order $k$ to contain a minimal one.
 
 [[problems/additive_bases/E0871/_index|E0871/]]: Asks whether an additive basis
 $A$ of order $2$ with $1_A\ast 1_A(n)\to\infty$ can be split into two disjoint

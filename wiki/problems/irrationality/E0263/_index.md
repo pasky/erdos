@@ -33,11 +33,12 @@ is irrational. Is $a_n=2^{2^n}$ such a sequence? Must such a sequence satisfy
 $a_n^{1/n}\to \infty$?
 
 **Status.** Open. The site labels the problem OPEN (page last edited
-2026-04-02). The problem asks two questions. The first, whether $a_n=2^{2^n}$ is
-such a sequence, has no claim. The second asks whether an irrationality sequence
-of this kind must satisfy $a_n^{1/n}\to\infty$. It has one pending partial
-claim, [[problems/irrationality/E0263/claims/2026_05_09_price|a disproof of the
-growth question posted in 2026]], which asserts a counterexample.
+2026-04-02). The problem asks two questions, which are its two parts. The first,
+whether $a_n=2^{2^n}$ is such a sequence, has no claim. The second asks whether
+an irrationality sequence of this kind must satisfy $a_n^{1/n}\to\infty$. It has
+one pending partial claim,
+[[problems/irrationality/E0263/claims/2026_05_09_price|a disproof of the growth
+question posted in 2026]], which asserts a counterexample.
 
 **Source.** [erdosproblems.com/263](https://www.erdosproblems.com/263), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #263,

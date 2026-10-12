@@ -4,7 +4,7 @@ title: Problem 374
 desc: |
   Asks for the order of growth, for $3\le k\le6$, of the number of $m\le n$ that
   need exactly $k$ distinct factorials, the largest being $m!$, to form a square
-  product. Two pending claims answer it.
+  product.
 tags:
 - Number theory
 status: claimed

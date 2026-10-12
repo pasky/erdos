@@ -4,8 +4,8 @@ title: Problem 1212
 desc: |
   Asks whether some path to infinity, changing one coordinate by $\pm1$ per
   step, stays among coprime pairs $(x,y)$ with $\min(x,y)>1$ and a composite
-  coordinate; open on the site, with a proof claim pending. Stewart quickly
-  answered yes to Erdős's first version, without the composite condition.
+  coordinate. Stewart quickly answered yes to Erdős's first version, without the
+  composite condition.
 tags:
 - Number theory
 - Primes

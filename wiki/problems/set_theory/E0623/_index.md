@@ -4,8 +4,7 @@ title: Problem 623
 desc: |
   Asks whether every set mapping on a set $X$ of size $\aleph_\omega$, a
   function $f$ from the finite subsets of $X$ to $X$ with $f(A)\notin A$, has an
-  infinite independent set. An unaccepted claim says the question is
-  independent.
+  infinite independent set.
 tags:
 - Set theory
 status: claimed

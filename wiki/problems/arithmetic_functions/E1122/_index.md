@@ -3,8 +3,7 @@ name: problems/arithmetic_functions/E1122
 title: Problem 1122
 desc: |
   Asks whether an additive function $f$ with $f(n+1)<f(n)$ only for a
-  density-zero set of $n$ must be $c\log n$ for some real $c$; a proof is
-  claimed but not accepted.
+  density-zero set of $n$ must be $c\log n$ for some real $c$.
 tags:
 - Number theory
 status: claimed

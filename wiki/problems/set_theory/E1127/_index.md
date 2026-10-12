@@ -3,7 +3,7 @@ name: problems/set_theory/E1127
 title: Problem 1127
 desc: |
   Asks whether $\mathbb{R}^n$ splits into countably many sets in each of which
-  all pairwise distances are distinct; independent.
+  all pairwise distances are distinct.
 tags:
 - Geometry
 - Distances

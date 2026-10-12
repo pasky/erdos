@@ -4,7 +4,7 @@ title: Problem 870
 desc: |
   Asks whether, for $k\ge3$, representation counts $r(n)\ge c\log n$ with a
   suitable constant $c$ force an additive basis of order $k$ to contain a
-  minimal one; a pending claim disproves it.
+  minimal one.
 tags:
 - Number theory
 - Additive bases

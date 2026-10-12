@@ -6,7 +6,7 @@ desc: |
   and edge counts, cycles and girth, degree and subgraph-counting conditions,
   planarity, and structural questions such as the Erdos-Hajnal conjecture.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Extremal and Structural Graph Theory
@@ -236,7 +236,7 @@ cycle.
 
 [[problems/extremal_graph_theory/E0585/_index|E0585/]]: Asks for the maximum
 number of edges in a graph on $n$ vertices with no two edge-disjoint cycles on
-the same vertex set. Open; the maximum is known to be $\Omega(n\log\log n)$ and
+the same vertex set. The maximum is known to be $\Omega(n\log\log n)$ and
 $O(n(\log n)^t)$ for some constant $t$.
 
 [[problems/extremal_graph_theory/E0600/_index|E0600/]]: Let $e(n,r)$ be the
@@ -316,14 +316,14 @@ $\epsilon>0$ and all large $n$, every subgraph of the hypercube $Q_n$ with at
 least an $\epsilon$ fraction of its edges contains a $C_6$.
 
 [[problems/extremal_graph_theory/E0712/_index|E0712/]]: Asks for the Turán
-density of the complete $r$-uniform hypergraph on $k$ vertices, for any $k>r>2$;
-open. Turán's 1941 theorem settles $r=2$, no pair with $r>2$ is known, and
-Erdős's two prize offers stand.
+density of the complete $r$-uniform hypergraph on $k$ vertices, for any $k>r>2$.
+Turán's 1941 theorem settles $r=2$, no pair with $r>2$ is known, and Erdős's two
+prize offers stand.
 
 [[problems/extremal_graph_theory/E0713/_index|E0713/]]: Asks whether every
 bipartite graph $G$ with at least two edges has $\mathrm{ex}(n;G)\sim cn^\alpha$
-for some $c>0$ and $\alpha\in[1,2)$, and whether $\alpha$ must be rational;
-open. The exponent forms Erdős proposed in 1967 were disproved in 1970.
+for some $c>0$ and $\alpha\in[1,2)$, and whether $\alpha$ must be rational. The
+exponent forms Erdős proposed in 1967 were disproved in 1970.
 
 [[problems/extremal_graph_theory/E0714/_index|E0714/]]: Asks whether the maximum
 number of edges in a $K_{r,r}$-free graph on $n$ vertices is $\gg n^{2-1/r}$.
@@ -442,8 +442,7 @@ Proved for $n\ge600$ by Chen and Ma; claimed for every $n\ge2$ by Liu and Zeng.
 [[problems/extremal_graph_theory/E0883/_index|E0883/]]: Asks whether a set
 $A\subseteq\{1,\ldots,n\}$ above the triangle threshold of the coprime graph
 forces all odd cycles up to length $n/3+1$ and, for large $n$, complete
-$(1,\ell,\ell)$ tripartite subgraphs. Sárközy settled the second in 1999;
-pending claims answer the first.
+$(1,\ell,\ell)$ tripartite subgraphs. Sárközy settled the second in 1999.
 
 [[problems/extremal_graph_theory/E0900/_index|E0900/]]: Asks whether the uniform
 random graph with $n$ vertices and $cn$ edges, $c>1/2$, almost surely has a path
@@ -499,7 +498,7 @@ and at $h_3(3)=23$, lies between $0.629^td^t$ and $\frac32d^t+1$ in general, and
 
 [[problems/extremal_graph_theory/E0993/_index|E0993/]]: Asks whether the
 sequence counting the independent sets of each size in a tree or forest is
-unimodal; proofs are claimed, but none is accepted.
+unimodal.
 
 [[problems/extremal_graph_theory/E1006/_index|E1006/]]: Asks whether every graph
 of girth at least five has an acyclic orientation that stays acyclic when any

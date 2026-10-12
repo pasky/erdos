@@ -4,7 +4,7 @@ title: Problem 289
 desc: |
   Asks whether, for every large $k$, one can write $1$ as the sum of $1/n$ over
   $k$ distinct integer intervals, none overlapping or adjacent and each of
-  length at least $2$; proofs are claimed but none is accepted.
+  length at least $2$.
 tags:
 - Number theory
 - Unit fractions

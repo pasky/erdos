@@ -6,7 +6,7 @@ desc: |
   and series, and the few purely probabilistic and topological problems that
   carry no subject co-tag.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Analysis
@@ -40,8 +40,8 @@ f(n)$ for every choice of $n$ integers $1\leq a_1\leq\cdots\leq a_n$.
 
 [[problems/analysis/E0395/_index|E0395/]]: Asks whether, for unit complex
 numbers $z_1,\ldots,z_n$ and random signs $\epsilon_i$, the sum
-$\sum\epsilon_iz_i$ has modulus at most $\sqrt{2}$ with probability $\gg 1/n$;
-proved. Erdős asked it with radius $1$, which fails for every even $n$.
+$\sum\epsilon_iz_i$ has modulus at most $\sqrt{2}$ with probability $\gg 1/n$.
+Erdős asked it with radius $1$, which fails for every even $n$.
 
 [[problems/analysis/E0498/_index|E0498/]]: Asks whether at most
 $\binom{n}{\lfloor n/2\rfloor}$ of the signed sums $\sum\epsilon_iz_i$ of $n$
@@ -50,8 +50,8 @@ $1$.
 
 [[problems/analysis/E0510/_index|E0510/]]: Asks whether every set $A$ of $N$
 positive integers has some $\theta$ with $\sum_{n\in A}\cos(n\theta)<-cN^{1/2}$,
-for an absolute constant $c>0$; open. The site's wording, over all integers,
-fails for sets containing $0$.
+for an absolute constant $c>0$. The site's wording, over all integers, fails for
+sets containing $0$.
 
 [[problems/analysis/E0511/_index|E0511/]]: Asks whether, for each $c>1$, the set
 where a monic polynomial has modulus below $1$ has $O_c(1)$ connected components
@@ -149,7 +149,7 @@ real polynomials $f$ with all roots in $[-1,1]$.
 [[problems/analysis/E1040/_index|E1040/]]: Asks whether the least area $\mu(F)$
 of $\{z:\lvert f(z)\rvert<1\}$, over monic $f$ with roots in a closed infinite
 $F\subseteq\mathbb{C}$, is determined by the transfinite diameter of $F$, and
-whether $\mu(F)=0$ when that diameter is $\geq 1$. Pending claims answer both.
+whether $\mu(F)=0$ when that diameter is $\geq 1$.
 
 [[problems/analysis/E1042/_index|E1042/]]: Asks whether $\{z:\lvert
 f(z)\rvert<1\}$ can have $n$ components for monic $f$ of degree $n$ with roots
@@ -194,7 +194,7 @@ where $n(r,a)$ counts the roots of $f(z)=a$ in $|z|<r$.
 [[problems/analysis/E1117/_index|E1117/]]: Asks whether $\limsup\nu(r)=\infty$
 is possible, and whether $\liminf\nu(r)=\infty$ is, where $\nu(r)$ counts the
 points of $|z|=r$ at which a non-monomial entire function attains its maximum
-modulus; both parts have pending claims.
+modulus.
 
 [[problems/analysis/E1118/_index|E1118/]]: Asks for the minimum growth rate of a
 non-constant entire $f$ for which $E(c)=\{z:|f(z)|>c\}$ has finite measure, and
@@ -229,8 +229,7 @@ the maximum local time infinitely often.
 
 [[problems/analysis/E1166/_index|E1166/]]: Asks whether, almost surely, the
 number of sites that are favorite at some time up to $n$ in a planar simple
-random walk is at most $(\log n)^{O(1)}$ for all large $n$; a proof is claimed
-but still pending.
+random walk is at most $(\log n)^{O(1)}$ for all large $n$.
 
 [[problems/analysis/E1195/_index|E1195/]]: Asks how fast $|S\cap(0,x)|$ can tend
 to infinity for a set $S\subset\mathbb{R}$ of infinite measure in which $a/b$ is

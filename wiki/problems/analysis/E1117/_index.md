@@ -4,8 +4,7 @@ title: Problem 1117
 desc: |
   Asks whether $\limsup\nu(r)=\infty$ is possible, and whether
   $\liminf\nu(r)=\infty$ is, where $\nu(r)$ counts the points of $|z|=r$ at
-  which a non-monomial entire function attains its maximum modulus; both parts
-  have pending claims.
+  which a non-monomial entire function attains its maximum modulus.
 tags:
 - Analysis
 status: claimed

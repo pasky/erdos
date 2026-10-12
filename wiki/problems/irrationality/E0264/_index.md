@@ -33,14 +33,15 @@ $$
 is irrational. Are $a_n=2^n$ or $a_n=n!$ examples of such a sequence?
 
 **Status.** Open. The site labels the problem OPEN (page last edited 20 January
-2026). The problem asks two questions. The powers-of-two part is answered no by
-[[problems/irrationality/E0264/claims/2024_11_27_kovac_tao|Kovač and Tao's accepted partial claim]].
-Their Corollary 2.6 (Acta Math. Hungar. 175 (2025)) shows that no strictly
-increasing sequence with bounded successive ratios is an irrationality sequence
-of this type.
-[[problems/irrationality/E0264/claims/2025_12_18_alexeev|An independent Lean proof by Aristotle]]
-is a pending partial claim of the same answer. The factorial part has no claim,
-and those results do not apply to factorials.
+2026). The problem asks two questions, which are its two parts. The
+powers-of-two part is answered no by
+[[problems/irrationality/E0264/claims/2024_11_27_kovac_tao|Kovač and Tao's
+accepted partial claim]]. Their Corollary 2.6 (Acta Math. Hungar. 175 (2025))
+shows that no strictly increasing sequence with bounded successive ratios is an
+irrationality sequence of this type.
+[[problems/irrationality/E0264/claims/2025_12_18_alexeev|An independent Lean
+proof by Aristotle]] is a pending partial claim of the same answer. The
+factorial part has no claim, and those results do not apply to factorials.
 
 **Source.** [erdosproblems.com/264](https://www.erdosproblems.com/264), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #264,

@@ -3,8 +3,8 @@ name: problems/distance_problems/E0097
 title: Problem 97
 desc: |
   Asks whether every convex polygon has a vertex with no four other vertices
-  equidistant from it; a disproof has been claimed. Erdős first asked it with
-  three in place of four, and Danzer's convex nonagon refutes that version.
+  equidistant from it. Erdős first asked it with three in place of four, and
+  Danzer's convex nonagon refutes that version.
 tags:
 - Geometry
 - Distances

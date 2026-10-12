@@ -5,7 +5,7 @@ desc: |
   Asks for a proof that, with Chebyshev nodes, every closed $A\subseteq[-1,1]$
   is the set of limit points of $\mathcal{L}^nf(x)$ for some continuous $f$,
   where $\mathcal{L}^nf$ is the Lagrange interpolation polynomial of degree
-  $n-1$; a proof is claimed but not accepted.
+  $n-1$.
 tags:
 - Analysis
 - Polynomials

@@ -3,8 +3,7 @@ name: problems/factorials_binomials/E0731
 title: Problem 731
 desc: |
   Asks for a reasonable $f(n)$ such that, for almost all $n$, the least $m$ with
-  $m\nmid\binom{2n}{n}$ satisfies $m\sim f(n)$; a negative answer under one
-  reading of "reasonable" is claimed but not accepted.
+  $m\nmid\binom{2n}{n}$ satisfies $m\sim f(n)$.
 tags:
 - Number theory
 - Binomial coefficients

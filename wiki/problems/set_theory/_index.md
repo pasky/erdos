@@ -6,7 +6,7 @@ desc: |
   theory, cardinal arithmetic, and problems whose answers are independent of
   the usual axioms of set theory.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Set Theory and Infinite Combinatorics
@@ -28,8 +28,7 @@ each $n\ge3$.
 
 [[problems/set_theory/E0474/_index|E0474/]]: Asks under which set-theoretic
 assumptions the plane has a three-coloring in which every uncountable set
-contains a pair of points of each color; independent of ZFC, relative to the
-consistency of an Erdős or measurable cardinal.
+contains a pair of points of each color.
 
 [[problems/set_theory/E0501/_index|E0501/]]: Asks whether, if each real $x$ is
 assigned a bounded set $A_x$ of outer measure $<1$, some infinite $X$ has
@@ -50,8 +49,7 @@ complete subgraph of order type $\omega^\beta$ or a blue triangle.
 
 [[problems/set_theory/E0593/_index|E0593/]]: Asks for a characterization of the
 finite $3$-uniform hypergraphs that appear in every $3$-uniform hypergraph of
-uncountable chromatic number. Two pending claims give the same characterization,
-and neither is accepted.
+uncountable chromatic number.
 
 [[problems/set_theory/E0594/_index|E0594/]]: Asks whether every graph with
 chromatic number at least $\aleph_1$ contains all sufficiently large odd cycles.
@@ -92,8 +90,7 @@ meeting in other than $2$ points, with no set monochromatic.
 
 [[problems/set_theory/E0623/_index|E0623/]]: Asks whether every set mapping on a
 set $X$ of size $\aleph_\omega$, a function $f$ from the finite subsets of $X$
-to $X$ with $f(A)\notin A$, has an infinite independent set. An unaccepted claim
-says the question is independent.
+to $X$ with $f(A)\notin A$, has an infinite independent set.
 
 [[problems/set_theory/E1067/_index|E1067/]]: Asks whether every graph of
 chromatic number $\aleph_1$ contains an infinitely connected subgraph of
@@ -105,16 +102,14 @@ vertex-connected.
 
 [[problems/set_theory/E1119/_index|E1119/]]: Asks whether a family of entire
 functions taking at most $\mathfrak m$ distinct values at each point has
-cardinality at most $\mathfrak m$, for $\aleph_0<\mathfrak m<2^{\aleph_0}$;
-independent.
+cardinality at most $\mathfrak m$, for $\aleph_0<\mathfrak m<2^{\aleph_0}$.
 
 [[problems/set_theory/E1123/_index|E1123/]]: Asks for a proof that the Boolean
 algebra of sets of integers modulo sets of density $0$ is not isomorphic to the
-Boolean algebra of sets modulo sets of logarithmic density $0$; independent.
+Boolean algebra of sets modulo sets of logarithmic density $0$.
 
 [[problems/set_theory/E1127/_index|E1127/]]: Asks whether $\mathbb{R}^n$ splits
-into countably many sets in each of which all pairwise distances are distinct;
-independent.
+into countably many sets in each of which all pairwise distances are distinct.
 
 [[problems/set_theory/E1128/_index|E1128/]]: Asks whether every $2$-coloring of
 $A\times B\times C$, for sets $A,B,C$ of size $\aleph_1$, has a monochromatic
@@ -165,8 +160,7 @@ of all colors.
 
 [[problems/set_theory/E1177/_index|E1177/]]: Asks whether three assertions hold
 about the families $F_G(\kappa)$ of $3$-uniform hypergraphs of chromatic number
-$\kappa$ that avoid a fixed finite $3$-uniform hypergraph $G$. One claim, not
-accepted, answers all three.
+$\kappa$ that avoid a fixed finite $3$-uniform hypergraph $G$.
 
 [[problems/set_theory/E1218/_index|E1218/]]: Asks whether, under GCH, the
 partition relation for triples $\aleph_{\beta+1}\to(\aleph_\beta,4,\ldots,4)^3$
@@ -179,8 +173,7 @@ strictly increase and the first exceeds $\aleph_\omega$.
 
 [[problems/set_theory/E1220/_index|E1220/]]: Asks whether
 $\lambda\to(\lambda,\aleph_1)^2$ for every singular cardinal $\lambda$ such that
-$\lambda$ and $\mathrm{cf}(\lambda)$ are both $\aleph_0$-inaccessible;
-independent of ZFC.
+$\lambda$ and $\mathrm{cf}(\lambda)$ are both $\aleph_0$-inaccessible.
 
 ***
 

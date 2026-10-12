@@ -4,7 +4,7 @@ title: Problem 1188
 desc: |
   Asks for an estimate of the number $F(x)$ of minimal covering systems with
   distinct moduli in $[1,x]$, where minimal means no proper subsystem still
-  covers every integer. A full answer is claimed and pending.
+  covers every integer.
 tags:
 - Number theory
 - Covering systems

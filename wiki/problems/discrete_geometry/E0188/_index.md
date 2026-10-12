@@ -4,7 +4,7 @@ title: Problem 188
 desc: |
   Asks for the least $k$ such that the plane can be colored red and blue with no
   two red points at unit distance and no blue $k$-term progression with step
-  $1$; open. If the step is left free, Erdős and Graham's question has no finite
+  $1$. If the step is left free, Erdős and Graham's question has no finite
   answer.
 tags:
 - Geometry

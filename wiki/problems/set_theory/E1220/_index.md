@@ -4,7 +4,7 @@ title: Problem 1220
 desc: |
   Asks whether $\lambda\to(\lambda,\aleph_1)^2$ for every singular cardinal
   $\lambda$ such that $\lambda$ and $\mathrm{cf}(\lambda)$ are both
-  $\aleph_0$-inaccessible; independent of ZFC.
+  $\aleph_0$-inaccessible.
 tags:
 - Set theory
 - Ramsey theory

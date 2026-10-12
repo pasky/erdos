@@ -7,7 +7,7 @@ desc: |
   that force them (van der Waerden numbers), difference bases and perfect
   rulers, and sets with distinct subset sums.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Sumsets and Arithmetic Progressions
@@ -219,7 +219,7 @@ sum of three elements of $A$, summed over $n\le N$, equals $cN+O(1)$.
 [[problems/additive_combinatorics/E0781/_index|E0781/]]: Asks for an estimate of
 the least $n$ such that every two-coloring of $\{1,\ldots,n\}$ has a
 monochromatic $k$-term descending wave, and whether it equals $k^2-k+1$ for all
-$k$; it does not.
+$k$.
 
 [[problems/additive_combinatorics/E0785/_index|E0785/]]: Asks whether infinite
 sets $A,B$ of naturals with $A+B$ containing all large integers and
@@ -247,9 +247,9 @@ $(n\log n/\log\log n)^{1/2}\ll l(n)\ll n/\log n$.
 
 [[problems/additive_combinatorics/E0791/_index|E0791/]]: Estimates $g(n)$, the
 fewest elements of $\{0,\ldots,n\}$ whose pairwise sums cover $\{0,\ldots,n\}$
-(the smallest finite additive $2$-basis); open. Its square lies between $2.181n$
-and $3.458n$, and the guess $g(n)\sim2\sqrt n$ is refuted (Hämmerer and
-Hofmeister, Mrose).
+(the smallest finite additive $2$-basis). Its square lies between $2.181n$ and
+$3.458n$, and the guess $g(n)\sim2\sqrt n$ is refuted (Hämmerer and Hofmeister,
+Mrose).
 
 [[problems/additive_combinatorics/E0792/_index|E0792/]]: Estimates $f(n)$, the
 size of the largest sum-free subset (no solution to $a+b=c$) guaranteed inside
@@ -353,7 +353,8 @@ monochromatic $k$-term arithmetic progressions.
 
 [[problems/additive_combinatorics/E1187/_index|E1187/]]: Asks whether every
 finite coloring of the integers has, for each $k\ge3$, a monochromatic $k$-term
-progression of primes, and one whose common difference is prime.
+progression of primes, and a monochromatic $k$-term progression whose common
+difference is prime.
 
 [[problems/additive_combinatorics/E1193/_index|E1193/]]: Asks whether, for
 $A\subset\mathbb{N}$ and a positive non-decreasing $g$, the set of $n$ with

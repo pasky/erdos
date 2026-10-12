@@ -5,7 +5,7 @@ desc: |
   Divisibility, prime factorization and digit arithmetic of factorials,
   binomial coefficients, and products of consecutive integers.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Factorials and Binomial Coefficients
@@ -53,8 +53,7 @@ divisor in $(cn,n]$.
 
 [[problems/factorials_binomials/E0390/_index|E0390/]]: Asks whether there is a
 constant $c$, and what it is, with $f(n)-2n\sim cn/\log n$, where $f(n)$ is the
-least $m$ such that $n!=a_1\cdots a_k$ with $n<a_1<\cdots<a_k=m$; a proof is
-claimed but not accepted.
+least $m$ such that $n!=a_1\cdots a_k$ with $n<a_1<\cdots<a_k=m$.
 
 [[problems/factorials_binomials/E0391/_index|E0391/]]: Asks for bounds on
 $t(n)/n$, where $t(n)$ is the largest possible $a_1$ in $n!=a_1\cdots a_n$ with
@@ -62,8 +61,7 @@ $a_1\le\cdots\le a_n$, and in particular whether $t(n)/n\to1/e$.
 
 [[problems/factorials_binomials/E0392/_index|E0392/]]: Asks whether
 $A(n)=n/2-n/(2\log n)+o(n/\log n)$, where $A(n)$ is the least $t$ such that
-$n!=a_1\cdots a_t$ with $a_1\le\cdots\le a_t\le n^2$; a proof is claimed but not
-accepted.
+$n!=a_1\cdots a_t$ with $a_1\le\cdots\le a_t\le n^2$.
 
 [[problems/factorials_binomials/E0393/_index|E0393/]]: Asks how $f(n)$ behaves,
 where $f(n)$ is the least $m\ge1$ such that $n!=a_1\cdots a_t$ with
@@ -77,7 +75,7 @@ $\prod_i\binom{2m_i}{m_i}=\prod_j\binom{2n_j}{n_j}$ has only finitely many
 solutions with the $m_i,n_j$ distinct.
 
 [[problems/factorials_binomials/E0398/_index|E0398/]]: Asks whether $n!=x^2-1$
-has solutions only for $n=4,5,7$; a proof is claimed but not accepted.
+has solutions only for $n=4,5,7$.
 
 [[problems/factorials_binomials/E0399/_index|E0399/]]: Asks whether $n!=x^k\pm
 y^k$ has no solutions in positive integers with $xy>1$ and $k>2$.
@@ -158,8 +156,7 @@ consecutive pairs, by an AI proof credited to Price.
 
 [[problems/factorials_binomials/E0731/_index|E0731/]]: Asks for a reasonable
 $f(n)$ such that, for almost all $n$, the least $m$ with $m\nmid\binom{2n}{n}$
-satisfies $m\sim f(n)$; a negative answer under one reading of "reasonable" is
-claimed but not accepted.
+satisfies $m\sim f(n)$.
 
 [[problems/factorials_binomials/E0849/_index|E0849/]]: Asks whether, for every
 $t\ge1$, some integer $a$ has exactly $t$ solutions of $\binom{n}{k}=a$ with

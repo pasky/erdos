@@ -4,7 +4,7 @@ title: Problem 781
 desc: |
   Asks for an estimate of the least $n$ such that every two-coloring of
   $\{1,\ldots,n\}$ has a monochromatic $k$-term descending wave, and whether it
-  equals $k^2-k+1$ for all $k$; it does not.
+  equals $k^2-k+1$ for all $k$.
 tags:
 - Additive combinatorics
 status: solved

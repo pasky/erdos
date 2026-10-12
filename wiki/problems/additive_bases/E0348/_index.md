@@ -3,8 +3,7 @@ name: problems/additive_bases/E0348
 title: Problem 348
 desc: |
   Asks for which $0\le m<n$ a complete sequence can stay complete after removing
-  any $m$ elements yet fail to be complete after removing any $n$ elements; a
-  pending claim answers it.
+  any $m$ elements yet fail to be complete after removing any $n$ elements.
 tags:
 - Number theory
 - Complete sequences

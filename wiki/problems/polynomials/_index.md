@@ -5,7 +5,7 @@ desc: |
   Extremal and approximation problems for polynomials, including coefficient
   and norm bounds, zero distribution, and random polynomials.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Polynomials
@@ -55,8 +55,7 @@ coefficients satisfies $R_n/\log n\to 2/\pi$ almost surely.
 
 [[problems/polynomials/E0522/_index|E0522/]]: Asks whether the number $R_n$ of
 roots in the closed unit disc of a random degree-$n$ polynomial with independent
-uniform $\pm 1$ coefficients satisfies $R_n/(n/2)\to 1$ almost surely; proofs
-are claimed but none is accepted.
+uniform $\pm 1$ coefficients satisfies $R_n/(n/2)\to 1$ almost surely.
 
 [[problems/polynomials/E0523/_index|E0523/]]: Asks whether some $C>0$ makes the
 maximum on $\lvert z\rvert=1$ of a random degree-$n$ polynomial with independent
@@ -65,7 +64,7 @@ uniform $\pm 1$ coefficients equal $(C+o(1))\sqrt{n\log n}$ almost surely.
 [[problems/polynomials/E0524/_index|E0524/]]: Asks for the order of magnitude,
 for almost all $t\in(0,1)$, of $M_n(t)=\max_{x\in[-1,1]}\lvert\sum_{k\le
 n}(-1)^{\epsilon_k(t)}x^k\rvert$, where $\epsilon_k(t)$ are the binary digits of
-$t$; an answer is claimed but not accepted.
+$t$.
 
 [[problems/polynomials/E0525/_index|E0525/]]: Asks whether all but $o(2^n)$ of
 the degree-$n$ polynomials $f$ with $\pm 1$ coefficients have $\lvert
@@ -79,7 +78,7 @@ constant $c=c(f)>0$ with $\sum_{n\le X}\tau(f(n))\sim cX\log X$.
 [[problems/polynomials/E1039/_index|E1039/]]: Asks how $\rho(f)$, the radius of
 the largest disc inside $\{z:\lvert f(z)\rvert<1\}$, behaves for monic $f$ of
 degree $n$ with all roots in the closed unit disc, and whether $\rho(f)\gg 1/n$
-always holds; an answer is claimed but not accepted.
+always holds.
 
 [[problems/polynomials/E1041/_index|E1041/]]: Asks whether every monic
 polynomial $f$ with all roots in the open unit disc has a path of length less
@@ -113,8 +112,7 @@ whether $\limsup_n L_n(x)/\log n\ge 2/\pi$ for almost all $x$.
 [[problems/polynomials/E1133/_index|E1133/]]: Asks whether each $C>0$ has an
 $\epsilon>0$ such that, for large $n$ and any $x_1,\ldots,x_n\in[-1,1]$, some
 $y_i\in[-1,1]$ give $\max_{[-1,1]}\lvert P\rvert>C$ whenever $\deg
-P<(1+\epsilon)n$ and $P(x_i)=y_i$ for at least $(1-\epsilon)n$ values of $i$;
-proofs are claimed but none is accepted.
+P<(1+\epsilon)n$ and $P(x_i)=y_i$ for at least $(1-\epsilon)n$ values of $i$.
 
 [[problems/polynomials/E1150/_index|E1150/]]: Asks whether some constant $c>0$
 makes every polynomial $P$ of large degree $n$ with coefficients $\pm 1$ have
@@ -124,14 +122,12 @@ OpenAI release's construction of 2026-09-23.
 [[problems/polynomials/E1151/_index|E1151/]]: Asks for a proof that, with
 Chebyshev nodes, every closed $A\subseteq[-1,1]$ is the set of limit points of
 $\mathcal{L}^nf(x)$ for some continuous $f$, where $\mathcal{L}^nf$ is the
-Lagrange interpolation polynomial of degree $n-1$; a proof is claimed but not
-accepted.
+Lagrange interpolation polynomial of degree $n-1$.
 
 [[problems/polynomials/E1152/_index|E1152/]]: Asks whether, for any array of
 distinct nodes in $[-1,1]$ and any $\epsilon(n)\to 0$, some continuous $f$ makes
 every sequence of interpolants $p_n$ of $f$ with $\deg p_n<(1+\epsilon(n))n$
-fail to converge to $f(x)$ for almost all $x$; a proof is claimed but not
-accepted.
+fail to converge to $f(x)$ for almost all $x$.
 
 [[problems/polynomials/E1153/_index|E1153/]]: Asks whether, for fixed $-1\le
 a<b\le 1$, the sum $\lambda(x)=\sum_k\lvert l_k(x)\rvert$ of the fundamental

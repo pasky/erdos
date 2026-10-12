@@ -4,8 +4,8 @@ title: Problem 187
 desc: |
   Asks for the best $f(d)$ such that every $2$-coloring of the integers has, for
   infinitely many $d$, a monochromatic arithmetic progression of difference $d$
-  and length $f(d)$; open. Beck (1980) gives $f(d)\le(1+o(1))\log_2 d$, and no
-  usable lower bound is known.
+  and length $f(d)$. Beck (1980) gives $f(d)\le(1+o(1))\log_2 d$, and no usable
+  lower bound is known.
 tags:
 - Additive combinatorics
 - Ramsey theory

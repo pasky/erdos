@@ -6,7 +6,7 @@ desc: |
   color-critical graphs, and the interaction of coloring with girth and
   cycles; colorings of the plane and of R^n are filed with discrete geometry.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Graph Coloring
@@ -109,8 +109,7 @@ number $\mathfrak{n}$ for every infinite cardinal $\mathfrak{n}<\mathfrak{m}$.
 
 [[problems/graph_coloring/E0740/_index|E0740/]]: Asks whether a graph of
 infinite chromatic number $\mathfrak{m}$ must contain a subgraph of the same
-chromatic number with no odd cycle of length at most $r$; a claimed disproof is
-pending.
+chromatic number with no odd cycle of length at most $r$.
 
 [[problems/graph_coloring/E0744/_index|E0744/]]: Asks whether $f_k(n)\to\infty$,
 where $f_k(n)$ is the fewest edges whose deletion makes bipartite some
@@ -240,7 +239,7 @@ to $3$.
 
 [[problems/graph_coloring/E1091/_index|E1091/]]: Asks whether every $K_4$-free
 graph with chromatic number $4$ contains an odd cycle with at least two
-diagonals; solved. Erdős first asked for one diagonal, which Larson proved in 1979.
+diagonals. Erdős first asked for one diagonal, which Larson proved in 1979.
 
 [[problems/graph_coloring/E1092/_index|E1092/]]: Asks whether $f_r(n)\gg_r n$,
 in particular for $r=2$, where $f_r$ is the largest function such that a graph

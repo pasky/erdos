@@ -4,7 +4,7 @@ title: Problem 1123
 desc: |
   Asks for a proof that the Boolean algebra of sets of integers modulo sets of
   density $0$ is not isomorphic to the Boolean algebra of sets modulo sets of
-  logarithmic density $0$; independent.
+  logarithmic density $0$.
 tags:
 - Set theory
 status: solved

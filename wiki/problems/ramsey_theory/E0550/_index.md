@@ -4,8 +4,7 @@ title: Problem 550
 desc: |
   Asks for a proof that, for large $n$, every tree $T$ on $n$ vertices and the
   complete multipartite graph $G$ with class sizes $m_1\le\cdots\le m_k$ satisfy
-  $R(T,G)\le(\chi(G)-1)(R(T,K_{m_1,m_2})-1)+m_1$. A full proof is claimed in an
-  unreviewed 2026 preprint.
+  $R(T,G)\le(\chi(G)-1)(R(T,K_{m_1,m_2})-1)+m_1$.
 tags:
 - Graph theory
 - Ramsey theory

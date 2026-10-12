@@ -7,7 +7,7 @@ desc: |
   of Schur and Rado type; Euclidean Ramsey problems and colorings of the
   plane are filed with discrete geometry.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Ramsey Theory
@@ -54,7 +54,7 @@ squares.
 
 [[problems/ramsey_theory/E0087/_index|E0087/]]: Asks whether, for each
 $0<\epsilon<1$ and all large $k$, every graph $G$ with $\chi(G)=k$ has
-$R(G)>(1-\epsilon)^kR(k)$, or even $R(G)>cR(k)$ for a fixed $c>0$; open. Erdős's
+$R(G)>(1-\epsilon)^kR(k)$, or even $R(G)>cR(k)$ for a fixed $c>0$. Erdős's
 original conjecture, $R(G)\ge R(k)$, fails at $k=4$.
 
 [[problems/ramsey_theory/E0088/_index|E0088/]]: Asks whether, for some
@@ -81,8 +81,8 @@ $R(H)\ll_d n$. Lee proved it (2015 preprint, Ann. of Math. 2017), and the
 constant is still open.
 
 [[problems/ramsey_theory/E0165/_index|E0165/]]: Asks for an asymptotic formula
-for $R(3,k)$; open. The order $k^2/\log k$ is known, and the constant lies
-between $1/2$ and $1$.
+for $R(3,k)$. The order $k^2/\log k$ is known, and the constant lies between
+$1/2$ and $1$.
 
 [[problems/ramsey_theory/E0166/_index|E0166/]]: Asks to prove that $R(4,k)\gg
 k^3/(\log k)^{O(1)}$; proved by Mattheus and Verstraete, with the fourth power
@@ -102,8 +102,8 @@ $k$-coloring of the edges of $K_n$ has a monochromatic triangle.
 
 [[problems/ramsey_theory/E0187/_index|E0187/]]: Asks for the best $f(d)$ such
 that every $2$-coloring of the integers has, for infinitely many $d$, a
-monochromatic arithmetic progression of difference $d$ and length $f(d)$; open.
-Beck (1980) gives $f(d)\le(1+o(1))\log_2 d$, and no usable lower bound is known.
+monochromatic arithmetic progression of difference $d$ and length $f(d)$. Beck
+(1980) gives $f(d)\le(1+o(1))\log_2 d$, and no usable lower bound is known.
 
 [[problems/ramsey_theory/E0191/_index|E0191/]]: Asks whether, for every $C>0$
 and large $n$, every $2$-coloring of the pairs from $\{2,\ldots,n\}$ has a set
@@ -165,8 +165,7 @@ $k$ vertices in one class and $2k$ in the other has $R(T)=4k-1$.
 [[problems/ramsey_theory/E0550/_index|E0550/]]: Asks for a proof that, for large
 $n$, every tree $T$ on $n$ vertices and the complete multipartite graph $G$ with
 class sizes $m_1\le\cdots\le m_k$ satisfy
-$R(T,G)\le(\chi(G)-1)(R(T,K_{m_1,m_2})-1)+m_1$. A full proof is claimed in an
-unreviewed 2026 preprint.
+$R(T,G)\le(\chi(G)-1)(R(T,K_{m_1,m_2})-1)+m_1$.
 
 [[problems/ramsey_theory/E0551/_index|E0551/]]: Asks for a proof that
 $R(C_k,K_n)=(k-1)(n-1)+1$ for $k\ge n\ge3$, except when $n=k=3$.
@@ -188,8 +187,8 @@ number $R_k(C_{2n})$ of the even cycle on $2n$ vertices.
 
 [[problems/ramsey_theory/E0556/_index|E0556/]]: Asks whether, for every $n>3$,
 every 3-coloring of the edges of $K_{4n-3}$ has a monochromatic cycle of length
-$n$; the bound is known for all large $n$, and the problem is open. The site's
-wording also includes the triangle, where it fails.
+$n$; the bound is known for all large $n$. The site's wording also includes the
+triangle, where it fails.
 
 [[problems/ramsey_theory/E0557/_index|E0557/]]: Asks whether $R_k(T)\le kn+O(1)$
 for every tree $T$ on $n$ vertices, where $R_k$ is the $k$-color Ramsey number.
@@ -247,7 +246,7 @@ vertices.
 
 [[problems/ramsey_theory/E0569/_index|E0569/]]: Asks for the least constant
 $c_k$ such that $R(C_{2k+1},H)\le c_km$ for every graph $H$ with $m$ edges and
-no isolated vertices. Open on the site, with a pending claim of an exact answer.
+no isolated vertices.
 
 [[problems/ramsey_theory/E0570/_index|E0570/]]: Asks whether, for each $k\ge3$
 and all sufficiently large $m$, every graph $H$ with $m$ edges and no isolated

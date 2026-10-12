@@ -3,8 +3,8 @@ name: problems/diophantine_problems/E0366
 title: Problem 366
 desc: |
   Asks whether some integer divisible by the square of each of its prime factors
-  is followed by one divisible by the cube of each of its prime factors; open.
-  Erdős and Graham's companion question, with the cube first, is answered by
+  is followed by one divisible by the cube of each of its prime factors. Erdős
+  and Graham's companion question, with the cube first, is answered by
   12167, 12168.
 tags:
 - Number theory

@@ -3,9 +3,7 @@ name: problems/set_theory/E0474
 title: Problem 474
 desc: |
   Asks under which set-theoretic assumptions the plane has a three-coloring in
-  which every uncountable set contains a pair of points of each color;
-  independent of ZFC, relative to the consistency of an Erdős or measurable
-  cardinal.
+  which every uncountable set contains a pair of points of each color.
 tags:
 - Set theory
 - Ramsey theory

@@ -6,7 +6,7 @@ desc: |
   nearest-neighbor conditions, and distance problems for points in convex
   position.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-11T23:17:00Z
+updated: 2026-10-12T00:09:36Z
 ---
 
 # Distance Problems
@@ -48,9 +48,9 @@ answer is no, by Kruer and Kohlmeyer's Lean construction of convex point sets
 with unboundedly many unit distances per point.
 
 [[problems/distance_problems/E0097/_index|E0097/]]: Asks whether every convex
-polygon has a vertex with no four other vertices equidistant from it; a disproof
-has been claimed. Erdős first asked it with three in place of four, and Danzer's
-convex nonagon refutes that version.
+polygon has a vertex with no four other vertices equidistant from it. Erdős
+first asked it with three in place of four, and Danzer's convex nonagon refutes
+that version.
 
 [[problems/distance_problems/E0098/_index|E0098/]]: Asks whether the least
 number $h(n)$ of distinct distances among $n$ points in the plane, with no three
@@ -122,8 +122,8 @@ $f(n)\to\infty$.
 
 [[problems/distance_problems/E0652/_index|E0652/]]: Asks whether the least
 possible number of distinct distances from the $k$-th of $n$ planar points, in
-units of $\sqrt{n}$, tends to infinity with $k$; proved. Erdős's first guess,
-that it is unbounded already at $k=3$, fails by a construction of Elekes.
+units of $\sqrt{n}$, tends to infinity with $k$. Erdős's first guess, that it is
+unbounded already at $k=3$, fails by a construction of Elekes.
 
 [[problems/distance_problems/E0653/_index|E0653/]]: Asks whether the counts of
 distinct distances from each of $n$ planar points to the others can take
@@ -136,7 +136,7 @@ the plane with no four on a circle.
 
 [[problems/distance_problems/E0655/_index|E0655/]]: Asks whether $n$ points in
 the plane determine at least $(1+c)n/2$ distinct distances when no circle
-centered at one of them contains three others; a disproof is claimed.
+centered at one of them contains three others.
 
 [[problems/distance_problems/E0657/_index|E0657/]]: Asks whether $n$ planar
 points with no isosceles triangle must determine at least $f(n)n$ distinct
@@ -181,7 +181,7 @@ integer distance.
 
 [[problems/distance_problems/E0956/_index|E0956/]]: Asks for the largest number
 $h(n)$ of unit distances among $n$ disjoint translates of a compact convex set,
-in particular whether $h(n)>n^{1+c}$ for some $c>0$; answers are claimed.
+in particular whether $h(n)>n^{1+c}$ for some $c>0$.
 
 [[problems/distance_problems/E0957/_index|E0957/]]: Asks whether the
 multiplicities of the smallest and largest distances among $n$ points in the
@@ -205,7 +205,7 @@ distinct distances, even as seen from a single point.
 
 [[problems/distance_problems/E1083/_index|E1083/]]: Asks to estimate the least
 number $f_d(n)$ of distinct distances determined by $n$ points in $\mathbb{R}^d$
-for $d\ge3$, and whether $f_d(n)=n^{2/d-o(1)}$; a proof is claimed.
+for $d\ge3$, and whether $f_d(n)=n^{2/d-o(1)}$.
 
 [[problems/distance_problems/E1084/_index|E1084/]]: Asks to estimate the largest
 number of pairs at distance exactly $1$ among $n$ points in $\mathbb{R}^d$ that
