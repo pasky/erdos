@@ -27,7 +27,7 @@ updated: 2026-10-07T20:39:38Z
 
 ***
 
-Pollington proves, as the Theorem of his 1979 paper, that if $(t_n)$ is a
+Pollington proves, as the Theorem of the 1979 paper, that if $(t_n)$ is a
 sequence of positive numbers with $t_{n+1}/t_n\ge\alpha>1$ for all $n$ and
 $0<s_0<1$, then there are $\beta=\beta(\alpha,s_0)>0$ and a set $T$ of
 Hausdorff dimension at least $s_0$ such that every $\xi\in T$ has

@@ -80,12 +80,13 @@ not built it, so no `formalized` evidence is listed.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Reviewed: the site's curator, Thomas Bloom, labels the problem
-solved and states that it is false already at $k=3$. He credits Furstenberg's
-example [Fu81] for the infinite set whose difference set is not $2$-intersective
-(page last edited 5 April 2026; the discussion thread and proof-claims tab are
-empty). He is independent of Furstenberg. The deduction from the example to the
-finite statement is his own commentary. Not refereed: the source is a published
-monograph, not a journal article, and the deduction from it to the finite
-statement appears only in the site's commentary. The 2006 Annales paper that
-cites the example is refereed, but it is not the source of the claim. The
-example's property is stated as the commentary and the 2006 paper give it.
+solved and states that it is false already at $k=3$. The curator credits
+Furstenberg's example [Fu81] for the infinite set whose difference set is not
+$2$-intersective (page last edited 5 April 2026; the discussion thread and
+proof-claims tab are empty). Bloom is independent of Furstenberg. The deduction
+from the example to the finite statement is the curator's own commentary. Not
+refereed: the source is a published monograph, not a journal article, and the
+deduction from it to the finite statement appears only in the site's commentary.
+The 2006 Annales paper that cites the example is refereed, but it is not the
+source of the claim. The example's property is stated as the commentary and the
+2006 paper give it.

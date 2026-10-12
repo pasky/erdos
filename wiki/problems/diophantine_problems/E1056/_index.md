@@ -90,7 +90,7 @@ $p=3011$ with nine intervals; it is a computed table reported by Guy, and the
 cases it settles are covered by Andersen's claim page.
 
 J. K. Andersen extended the least primes to $k=14$ on Prime Puzzles problem 27
-in 2007, with explicit intervals; his $k=14$ witness modulo $10428007$ settles
+in 2007, with explicit intervals; the $k=14$ witness modulo $10428007$ settles
 every $k$ from $2$ to $14$
 ([[problems/diophantine_problems/E1056/claims/2007_05_04_andersen|Andersen's
 claim page]]). OEIS A060427 lists these least primes. Kenta Kitamura's forum

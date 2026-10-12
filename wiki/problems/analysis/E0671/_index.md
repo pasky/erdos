@@ -91,7 +91,7 @@ https://www.erdosproblems.com/671.
 
 **Formalization.** No formal-conjectures statement is recorded for this
 problem. The two pending claims link Lean files of their own, Price's as a
-Lean web-editor address carried in the thread posts linked on his page and
+Lean web-editor address carried in the thread posts linked on its page and
 QuietMethod's on the claimant's hosting site, neither built nor audited here;
 the links are on
 [[problems/analysis/E0671/claims/2026_06_22_price|Price's claim page]] and

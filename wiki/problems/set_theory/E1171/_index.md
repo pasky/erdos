@@ -65,7 +65,7 @@ Erdős Problem #1171, https://www.erdosproblems.com/1171.
 - [ErHa70] Erdős, P. and Hajnal, A., Some results and problems on certain
   polarized partitions. Acta Math. Acad. Sci. Hungar. 21 (1970), 369-392. Open
   scan at https://users.renyi.hu/~p_erdos/1970-25.pdf; not held. Komjáth's
-  reference [40], which renders the title with "for" in place of "on", is his
+  reference [40], which renders the title with "for" in place of "on", is the
   source for attributing the case $k=1$ to this paper; the attribution is
   Komjáth's and is not found in the paper, whose §1 says it does not investigate
   relations for order types and gives its definitions for cardinals only.

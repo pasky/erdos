@@ -40,7 +40,7 @@ limit points) of S(kappa) is empty; the
 [[discrepancy/schmidt_1972_irregularities_distribution/corollary_p64|Corollary]]
 (p. 64) deduces that every S(kappa) is at most countable and nowhere dense and
 that S(infinity) is at most countable. This sharpens the author's result in
-part I of the series that S(infinity) has Lebesgue measure zero, with which he
+part I of the series that S(infinity) has Lebesgue measure zero, with which they
 had answered Erdos's question whether S(infinity) must be a proper subset of U
 (p. 63). The proof (Sections 2-6, pp. 64-71) reduces the Theorem to a
 Proposition on the oscillation of Z(n,alpha) - n*alpha near points of a set

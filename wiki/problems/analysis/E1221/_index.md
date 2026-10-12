@@ -120,10 +120,10 @@ $r-\lambda_r\ge\tfrac12-\tfrac5{12r}+O(r^{-2})$ and $r(\mu_r-1)\ge1$ that the
 conjecture says can be improved to growth. With the printed normalization,
 (3.3) would already prove the first part, and the second part would be false,
 so the posers' words are true only of the normalized form. The form is the one
-Korsky [Ko26b, p. 2] prints when he restates the conjecture of [dBEr49, p.
-17], $\bar A_r-r\to\infty$, $r-\underline A_r\to\infty$,
-$r(\mu_r-1)\to\infty$, apart from the hypotheses of his theorem (his constants
-are taken over sequences of distinct points, a restriction the correction does
+Korsky [Ko26b, p. 2] prints when restating the conjecture of [dBEr49, p.
+17], $\bar A_r-r\to\infty$, $r-\underline A_r\to\infty$, $r(\mu_r-1)\to\infty$,
+apart from the hypotheses of Korsky's theorem (its constants are taken over
+sequences of distinct points, a restriction the correction does
 not adopt; see Formulation). The form is taken from these two sources, not
 from the results that bear on it. The defect is already in the source: Section
 6 of [dBEr49] prints $r(\Lambda_r-1)$ and $r(1-\lambda_r)$ with the same
@@ -279,7 +279,7 @@ document was posted in a preliminary form ahead of the preprint; the paper's
 acknowledgments (p. 15) state that GPT Astra was used to complete, audit and
 review the argument and that the author independently checked it, the site's
 proof-claim tab registers the claim as made using GPT Astra, and in the thread
-the author attributes the two one-sided bounds to the system, built on his ratio
+the author attributes the two one-sided bounds to the system, built on the ratio
 work. The two site comments (10 September 2026) concern the speed of posting and
 the attribution of the AI's role, not the mathematics. Acceptance: none found
 (unrefereed; no journal reference; Crossref finds no published version; site

@@ -21,8 +21,8 @@ n^{\pi(n)-\pi(n-k)}
 $$
 
 Ecklund prints the lemma with the single hypothesis $k\geq59$ (pp.267--268).
-The condition $n\geq2k$ is the range of his theorem, in which he applies the
-lemma, and the proof below uses it to place $n-k$ in the domain of (1).
+The condition $n\geq2k$ is the range of the theorem, in which Ecklund applies
+the lemma, and the proof below uses it to place $n-k$ in the domain of (1).
 
 ## Proof
 

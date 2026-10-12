@@ -3,7 +3,7 @@ name: number_theory/bernstein_1994_noniterative_2adic/theorem_3
 title: "Theorem 3 (p. 2): a positive N in Φ((1/3)ℤ) reaches 1 under C"
 desc: |
   Bernstein's theorem that a positive integer N lying in the image under Phi
-  of the thirds of integers has some Collatz iterate equal to one, so his
+  of the thirds of integers has some Collatz iterate equal to one, so the
   non-iterative conjecture implies the 3N+1 conjecture.
 created: 2026-10-08T17:21:06Z
 updated: 2026-10-08T17:21:06Z

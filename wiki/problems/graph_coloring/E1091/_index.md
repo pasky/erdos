@@ -36,7 +36,7 @@ number $\leq 3$, contains an odd cycle with at least $f(r)$ diagonals?
 of chromatic number $4$ contain an odd cycle with a diagonal? The site's
 commentary records that question as his original one, without a source (the
 site's source key for the problem is [Er76c], a text not read here), and credits
-Larson [La79] with the answer yes, through her proof of the stronger conjecture
+Larson [La79] with the answer yes, through a proof of the stronger conjecture
 of Bollobás and Erdős that a $K_4$-free graph with no odd cycle carrying a
 diagonal is bipartite, has a cut vertex, or has a vertex of degree at most $2$;
 a $4$-critical subgraph of the graph is $2$-connected with minimum degree at

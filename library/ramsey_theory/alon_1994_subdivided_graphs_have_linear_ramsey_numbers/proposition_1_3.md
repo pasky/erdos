@@ -61,8 +61,8 @@ number at most two contains every graph with $m$ edges and no isolated
 vertices. Goddard--Kleitman's author manuscript states the equivalent
 $r(K_3,H)\leq2m+1$ on numbered and physical p. 1. Alon notes on p. 2 that
 the exact Theorem 2.1 estimate is not essential for Proposition 1.3, since the
-weaker earlier estimates in his references [4] or [6] also suffice; those
-alternative source proofs have not been read here.
+weaker earlier estimates in the source's references [4] or [6] also suffice;
+those alternative source proofs have not been read here.
 
 The no-isolate condition requires attention because Alon's auxiliary $H$ can
 have isolated vertices. If $m>0$, delete them to obtain $H_0$, apply the

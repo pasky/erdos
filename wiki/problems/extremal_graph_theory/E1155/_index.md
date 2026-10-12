@@ -156,9 +156,9 @@ of [BFL15] says that Grable proved $n^{11/6+o(1)}$ with high probability and
 described how similar arguments, with more delicate calculations, should
 extend that result to $n^{7/4+o(1)}$; Section 1 of [OAI26] likewise says
 that Grable proved $O(n^{11/6+\xi})$ for every fixed $\xi>0$ and outlined the
-higher-order calculations leading to $O(n^{7/4+\xi})$ (his Theorems 5 and
+higher-order calculations leading to $O(n^{7/4+\xi})$ (Grable's Theorems 5 and
 7). [Gr97] is not held, so this page records $11/6$ as the exponent Grable
-proved and $7/4$ as the one he outlined.
+proved and $7/4$ as the one outlined.
 
 **The sharp constant, formally verified.** The release preprint [OAI26],
 Theorem 1.1, states $\mathbb E[(f(n)/n^{3/2}-1/(2\sqrt2))^2]\to0$, hence
@@ -201,7 +201,7 @@ found that model faithful to the process of the Statement.
   conjectured by Bollobás and Erdős.
 - Grable 1997 (not held): $f(n)\le n^{11/6+o(1)}$ with high probability, as
   the introduction of [BFL15] reports it; the site and the abstract of
-  [BFL15] credit him with $n^{7/4+o(1)}$, which [BFL15] and [OAI26] describe
+  [BFL15] credit Grable with $n^{7/4+o(1)}$, which [BFL15] and [OAI26] describe
   as outlined, not proved.
 - [[../library/extremal_graph_theory/openai_2026_sharp_terminal_leave_random_triangle_removal/theorem_1_1|OpenAI 2026, Theorem 1.1]]
   (release preprint, formally verified): $f(n)/n^{3/2}\to1/(2\sqrt2)$ in

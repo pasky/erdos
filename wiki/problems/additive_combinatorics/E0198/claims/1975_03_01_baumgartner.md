@@ -64,15 +64,15 @@ result, and as a disproof of this problem the construction was first written
 out on the site's page, by mid-May 2025.
 
 **Acceptance.** None. The site's curator, Thomas Bloom, labels the problem
-disproved. He credits the result to Baumgartner on the report of Erdős and
+disproved and credits the result to Baumgartner on the report of Erdős and
 Graham, with the qualification that [Ba75] does not state it exactly. But the
-curator wrote out the integer construction above himself. The formal-conjectures
-catalog's pull request of 2025-05-15 credits the elementary argument to him.
-Baumgartner never stated it, and Erdős and Graham credit Baumgartner with the
-opposite answer. The label therefore accepts the curator's own write-out and is
-not acceptance independent of the claim. No refereed publication states the
-integer result, and the natural-language proof on the library page is
-author-recorded. The problem's standing rests on the accepted claims of Google
-DeepMind and Dutta.
+curator personally wrote out the integer construction above. The
+formal-conjectures catalog's pull request of 2025-05-15 credits the elementary
+argument to Bloom. Baumgartner never stated it, and Erdős and Graham credit
+Baumgartner with the opposite answer. The label therefore accepts the curator's
+own write-out and is not acceptance independent of the claim. No refereed
+publication states the integer result, and the natural-language proof on the
+library page is author-recorded. The problem's standing rests on the accepted
+claims of Google DeepMind and Dutta.
 
 **Depends on.** No wiki page; the claim rests on the construction stated above.

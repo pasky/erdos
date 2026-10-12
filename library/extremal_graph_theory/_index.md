@@ -1032,7 +1032,7 @@ k = (n/2)(ln n + ln ln n + φ(n)) with φ(n) → ∞, with a sketch of the
 polynomial-time path-rotation algorithm the proof uses for k > 3n ln n,
 and no proofs.
 
-[[extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/_index|korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/]]: Korshunov's 1985 English paper giving a new proof of his theorem that
+[[extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/_index|korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/]]: Korshunov's 1985 English paper giving a new proof of the author's theorem that
 almost every graph with n vertices and k edges contains a Hamiltonian
 cycle if and only if k = (n/2)(log n + log log n + φ(n)) with φ(n) → ∞,
 the Erdős–Rényi problem of Problem 746: Theorem 1, proved through its
@@ -1321,8 +1321,8 @@ c1 log n has at least 2^(c2 n) non-isomorphic induced subgraphs.
 [[extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/_index|simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/]]: Simonovits 1974: when one forbidden graph is almost d-chromatic, some
 extremal graph, also under a chromatic condition such as chromatic number
 at least t, lies in a class of very symmetric graphs (Theorems 1.a, 1-3);
-with Theorem 2.7, from his thesis, that the most edges in a triangle-free
-graph on n vertices with chromatic number at least t is
+with Theorem 2.7, from the author's thesis, that the most edges in a
+triangle-free graph on n vertices with chromatic number at least t is
 n^2/4 - ĝ_3(t) n/2 + O(1), and Remark 2.8's bounds on ĝ_3(t).
 
 [[extremal_graph_theory/sleszynskanowak_2016_clique_number_square_line_graph/_index|sleszynskanowak_2016_clique_number_square_line_graph/]]: Proves the clique number of the square of the line graph of any simple graph

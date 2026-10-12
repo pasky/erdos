@@ -17,8 +17,9 @@ $f(k)\ge\bigl(\tfrac{\log2}{2}-o(1)\bigr)k$, the bound the site credits to
 him.
 
 [[problems/additive_combinatorics/E0169/claims/1977_02_01_gerver|1977_02_01_gerver]]: Gerver proved that the largest reciprocal sum of a set with no $k$-term
-arithmetic progression is at least $(1-o(1))k\log k$. He also proved that the
-finiteness of every $f(k)$ is equivalent to Erdős's reciprocal-sum conjecture.
+arithmetic progression is at least $(1-o(1))k\log k$. The author also proved
+that the finiteness of every $f(k)$ is equivalent to Erdős's reciprocal-sum
+conjecture.
 
 [[problems/additive_combinatorics/E0169/claims/1984_07_01_wroblewski|1984_07_01_wroblewski]]: Wróblewski constructed an explicit set of integers with no three-term
 arithmetic progression and reciprocal sum above 3.00849. This is the record
@@ -26,8 +27,8 @@ for $f(3)$ that the site credits.
 
 [[problems/additive_combinatorics/E0169/claims/2022_03_11_walker|2022_03_11_walker]]: In an arXiv preprint, Walker found a digit-restricted Kempner set with no
 four-term arithmetic progression and reciprocal sum 4.43975, and one with no
-ten-term progression and reciprocal sum 14.056. He also showed that Kempner
-sets suffice for $f(k)$, and the result is claimed.
+ten-term progression and reciprocal sum 14.056. The preprint also showed that
+Kempner sets suffice for $f(k)$, and the result is claimed.
 
 [[problems/additive_combinatorics/E0169/claims/2026_09_23_openai|2026_09_23_openai]]: Corollary 11.2 of the OpenAI release manuscript of 23 September 2026 claims
 that every set with no $k$-term progression has reciprocal sum at most

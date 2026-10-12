@@ -42,7 +42,7 @@ recorded as a claimed partial claim on
 [[problems/additive_combinatorics/E0271/claims/1978_01_01_odlyzko_stanley|its claim page]].
 Rolnick proved them for $m\ge1$, with growth of order $k^{\log_23}$, in a
 refereed paper. This is recorded as an accepted partial claim on
-[[problems/additive_combinatorics/E0271/claims/2014_08_08_rolnick|his claim page]].
+[[problems/additive_combinatorics/E0271/claims/2014_08_08_rolnick|its claim page]].
 Moy's bound $a_k\le(1/2+\epsilon)k^2$ [Mo11] holds for every $n$ but fixes no
 sequence's growth. So it settles no instance and has no claim page. For every
 other $n$ both questions are open.

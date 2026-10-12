@@ -56,11 +56,11 @@ $F(N)\sim\log N$. The later results sharpen this to $F(N)=\log N+O(1)$.
 
 The first disproof is the count bound of Yokota's 1990 paper (Canad. Math. Bull.
 33 (1990), 235--241; refereed; not held):
-$F(N)\ge(\tfrac12-\varepsilon(N))\log N$ with $\varepsilon(N)\to0$. His 1997
-paper reports this bound on printed p. 162, and the publisher's abstract states
-it too. It fixes $F(N)$ only up to a factor between $\tfrac12$ and $1$, and the
-site does not cite it. The site credits Theorem 1 of Yokota's 1997 paper (J.
-Number Theory 67 (1997), 162--169; refereed; printed p. 162). It gives
+$F(N)\ge(\tfrac12-\varepsilon(N))\log N$ with $\varepsilon(N)\to0$. Yokota's
+1997 paper reports this bound on printed p. 162, and the publisher's abstract
+states it too. It fixes $F(N)$ only up to a factor between $\tfrac12$ and $1$,
+and the site does not cite it. The site credits Theorem 1 of Yokota's 1997 paper
+(J. Number Theory 67 (1997), 162--169; refereed; printed p. 162). It gives
 $(1-5\log\log N/\log N)\le F(N)/\log N<(1+1/\log N)$ for large $N$, that is,
 $F(N)\ge\log N-5\log\log N$, the site's $\log N-O(\log\log N)$. Its 1998
 Corrigendum is not held.
@@ -239,7 +239,7 @@ only) opens by stating what it shows, that every positive integer
 $a\le\log n(1-\varepsilon(n))$ with $\varepsilon(n)\le5\log_2n/\log n$ is in
 $N(n)$; Croot's introduction (typescript p. 1) states the same range,
 $\{n:1\le n\le\log x-5\log\log x\}\subseteq N(x)$, but credits it to the
-Corrigendum, his [6]. The printed last step (p. 168) shows $a\in N(n)$ when
+Corrigendum, its [6]. The printed last step (p. 168) shows $a\in N(n)$ when
 $a^4\exp[a(1+3/\log a)]\le n$ and then says this condition implies
 $a\le\log n(1-5\log_2n/\log n)$, the converse of what the range needs; the
 condition holds only for $a$ up to $\log n-(3+o(1))\log n/\log\log n$, which
@@ -262,7 +262,7 @@ $$
 and with the trivial $F(N)\le H_N<\log N+1$ this gives $F(N)=\log N+O(1)$,
 so $F(N)/\log N\to1$ and $F(N)$ is not $o(\log N)$. In fact Croot's p. 2
 shows that $N(N)$ is an initial segment for large $N$, so $F(N)=n(N)$ and
-both of his floors bound $F(N)$ itself. Acceptance evidence for Croot's
+both of the paper's floors bound $F(N)$ itself. Acceptance evidence for Croot's
 theorem: publication in Mathematika, a refereed journal (Crossref record),
 and the site's record of its representability bound in the commentary.
 Proof coverage: the proof is recorded in outline only (result page); its
@@ -279,7 +279,7 @@ has no claim page: its zbMATH review (Zbl 0926.11020) states its theorem
 for the largest integer $M(n)$ in $N(n)$,
 $\log n+\gamma-2-c_1/\log\log n\le M(n)$ for large $n$, together with an
 upper bound of the same shape, and a bound on the largest representable
-integer does not bound the count. Yokota's 2002 introduction credits his
+integer does not bound the count. Yokota's 2002 introduction credits the
 papers of 1997 to 2000 together ([Yo97] with its Corrigendum, [Yo99] with
 its Erratum) with $\log n+\gamma-2-o(1)\le|N(n)|$, and the zbMATH review
 of the 2002 paper (Zbl 1036.11008, by C. Elsholtz) attributes that count
@@ -375,7 +375,7 @@ recorded.
 - Yokota's 1999 paper [Yo99] (J. Number Theory 1999, with an Erratum of
   2000; not held): by its zbMATH review, the largest representable integer
   $M(N)$ satisfies $M(N)\ge\log N+\gamma-2-c_1/\log\log N$ for large $N$;
-  his 2002 introduction (crediting it together with [Yo97]) and the review
+  Yokota's 2002 introduction (crediting it together with [Yo97]) and the review
   of the 2002 paper credit it with the count bound
   $F(N)\ge\log N+\gamma-2-o(1)$; no claim page, as Status support records.
 - Croot's

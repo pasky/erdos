@@ -5,7 +5,7 @@ desc: |
   Asks whether $\sum_{p<x}f_\epsilon(p)\sim c_\epsilon x/\log x$, where
   $f_\epsilon(p)$ is the least $m$ with $\sum_{n\le N}(\frac{n}{p})<\epsilon N$
   for all $N\ge m$. Elliott (1969) proved it for the two-sided threshold, with
-  the one-sided form covered only by his remark.
+  the one-sided form covered only by Elliott's remark.
 tags:
 - Number theory
 status: solved
@@ -53,7 +53,7 @@ a nonresidue or a multiple of $p$, and $n_2(p)<p$, so $f_1(p)=n_2(p)$ (checked
 here in exact arithmetic for the odd primes below $300$; the general argument
 is the sentence just given), and the $\epsilon=1$ instance of the wording is
 Erdős's theorem (78) quoted under Origin below. Elliott's theorem covers
-$0<\epsilon\le1$, for the two-sided threshold (Status below), and his
+$0<\epsilon\le1$, for the two-sided threshold (Status below), and the paper's
 introduction records $f(1,p)=n_2(p)$ in the same words. Erdős and the site
 sum over all primes; Tang and Zhang restrict to odd primes, where the
 Legendre symbol is defined; one term does not affect the asymptotic.
@@ -155,7 +155,7 @@ formulation, the discovery while writing that Erdős's original display
 Elliott's paper and confirmed that it resolves the eventual-time problem,
 with the remark that the eventual-time asymptotic does not imply the
 first-passage one; Tao replied asking for more
-detail on the method and reporting that ChatGPT Pro, through which he had
+detail on the method and reporting that ChatGPT Pro, through which Tao had
 run the paper, flagged a fixable issue with the odd-primes convention; Tang
 agreed to address both. The page was corrected the
 same day. The proof-claim tab is empty.
@@ -278,7 +278,7 @@ so the manuscript is recorded as background only, has no claim page, and
 leaves the standing unchanged. Nothing of it was checked here.
 
 **Search scope.** None of the routes below found a dispute
-of Elliott's result, a copy of his paper, or a further result on the
+of Elliott's result, a copy of the paper, or a further result on the
 eventual-time sum; the paper is available as the publisher's open-archive
 file at its DOI (reference entry above).
 

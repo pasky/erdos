@@ -17,7 +17,7 @@ updated: 2026-10-08T14:56:45Z
 [[ramsey_theory/cohen_2015_two_source_dispersers_polylogarithmic_entropy/theorem_1_10|theorem_1_10]]: Cohen's main theorem: an explicit two-source sub-extractor for
 outer-entropy polylog(n) and inner-entropy k_out^{Omega(1)}, with
 k_out^{Omega(1)} output bits and error 2^{-k_out^{Omega(1)}}, from which
-his explicit bipartite Ramsey graphs and dispersers follow.
+the paper's explicit bipartite Ramsey graphs and dispersers follow.
 
 [[ramsey_theory/cohen_2015_two_source_dispersers_polylogarithmic_entropy/theorem_1_2|theorem_1_2]]: Cohen's explicit bipartite Ramsey graph with quasi-polylogarithmic
 homogeneous sets, improving on Barak, Rao, Shaltiel and Wigderson, with
@@ -25,7 +25,7 @@ the paper's own definition of explicitness.
 
 [[ramsey_theory/cohen_2015_two_source_dispersers_polylogarithmic_entropy/theorem_1_6|theorem_1_6]]: Cohen's explicit two-source zero-error disperser for n-bit sources of
 entropy k = polylog(n) with k^{Omega(1)} output bits, the many-bit form of
-his explicit bipartite Ramsey graphs.
+the paper's explicit bipartite Ramsey graphs.
 
 ***
 

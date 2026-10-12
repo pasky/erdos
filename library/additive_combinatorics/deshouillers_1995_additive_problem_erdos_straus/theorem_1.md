@@ -92,7 +92,7 @@ Within the paper: Theorem 2 (p. 34), proved in Sections 1--5 (pp. 35--41)
 from Proposition 1 (a small $s^\wedge\mathcal A$), Proposition 2 (a subset
 $\mathcal B$ with $|4^\wedge\mathcal B|<5.8|\mathcal B|$), Freiman's inverse
 theorem in its easiest case (Proposition 3.1, cited to Freiman's 1973
-monograph, Thm. 1.9, and his 1959 paper, neither held) and Proposition 4,
+monograph, Thm. 1.9, and the 1959 paper, neither held) and Proposition 4,
 the special case $\lambda=5.8$ of Theorem 3. Outside it: Straus's upper
 bound $(4/\sqrt3+o(1))\sqrt N$ (J. Math. Sci. 1 (1966), 77--80, not held),
 used as the standing assumption $\operatorname{card}\mathcal A\le2.31\sqrt N$

@@ -4,8 +4,9 @@ title: "Proposition 6.1: every permutation of [n] has at least n^{3/2}/(4 sqrt 2
 desc: |
   Konieczny's lower bound for the minimum number of distinct consecutive sums
   of a permutation of [n], n^{3/2}/(4 sqrt 2), by a variant of an argument of
-  Solymosi; with his Questions 3 and 4 whether the minimum is n^{2-o(1)} and
-  whether it is at least a constant times the count for the identity.
+  Solymosi; with the paper's Questions 3 and 4 whether the minimum is
+  n^{2-o(1)} and whether it is at least a constant times the count for
+  the identity.
 created: 2026-09-18T15:30:00Z
 updated: 2026-10-08T14:29:35Z
 ---

@@ -12,12 +12,12 @@ updated: 2026-10-08T17:21:06Z
 
 [[integer_sequences/_index|..]]
 
-[[integer_sequences/konyagin_2022_construction_schinzel_many_numbers_short_interval_without_small_prime_factors/corollary_1|corollary_1]]: Konyagin's announced corollary of his Theorem 1, stated without proof in
-his 2022 slides: assuming the prime k-tuple conjecture, for large x some y
+[[integer_sequences/konyagin_2022_construction_schinzel_many_numbers_short_interval_without_small_prime_factors/corollary_1|corollary_1]]: Konyagin's announced corollary of Theorem 1, stated without proof in
+the 2022 slides: assuming the prime k-tuple conjecture, for large x some y
 has pi(x+y) - pi(x) - pi(y) at least a constant times
 x (log x)^{-2} log log log x.
 
-[[integer_sequences/konyagin_2022_construction_schinzel_many_numbers_short_interval_without_small_prime_factors/theorem_1|theorem_1]]: Konyagin's announced lower bound, stated without proof in his 2022 slides:
+[[integer_sequences/konyagin_2022_construction_schinzel_many_numbers_short_interval_without_small_prime_factors/theorem_1|theorem_1]]: Konyagin's announced lower bound, stated without proof in the 2022 slides:
 for large x the largest admissible subset of {1, ..., x} exceeds pi(x) by
 at least a constant times x (log x)^{-2} log log log x.
 

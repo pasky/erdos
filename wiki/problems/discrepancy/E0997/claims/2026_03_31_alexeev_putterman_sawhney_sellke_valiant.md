@@ -66,8 +66,8 @@ discussion thread of 2026-04-01 carries a comment by Terence Tao stating that
 the problem is now solved and describing the argument. Tao notes that a 2013
 paper of Benatar (arXiv:1305.0348) essentially gives the case of Diophantine
 $\alpha$ by the same sieve machinery, one standard additional sieve estimate
-away. He also notes that the present proof avoids a Diophantine condition by
-approximating $\alpha$ by a rational and using a congruence class.
+away. The comment also notes that the present proof avoids a Diophantine
+condition by approximating $\alpha$ by a rational and using a congruence class.
 
 The formal-conjectures statement file
 [`ErdosProblems/997.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/997.lean)

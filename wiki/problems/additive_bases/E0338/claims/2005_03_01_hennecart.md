@@ -30,12 +30,12 @@ every large integer is a sum of at most two elements of $A$. Hennecart
 proves that $A$ has a restricted order, in the sense of
 [[problems/additive_bases/E0338/_index|Problem 338]], and that it is at most
 $4$: every large integer is a sum of at most four distinct elements of $A$.
-He also constructs a basis of order $2$ whose restricted order is exactly
-$4$, which refutes Kelly's conjecture that $3$ always suffices. The paper is
-Hennecart, François, On the restricted order of asymptotic bases of order two,
-Ramanujan J. 9 (2005), no. 1--2, 123--130. Its summary states the theorem as
-"We show that any asymptotic basis of order 2 has a restricted order at most
-equal to 4". Hegyvári, Hennecart and Plagne [HHP07]
+The author also constructs a basis of order $2$ whose restricted order is
+exactly $4$, which refutes Kelly's conjecture that $3$ always suffices. The
+paper is Hennecart, François, On the restricted order of asymptotic bases of
+order two, Ramanujan J. 9 (2005), no. 1--2, 123--130. Its summary states the
+theorem as "We show that any asymptotic basis of order 2 has a restricted order
+at most equal to 4". Hegyvári, Hennecart and Plagne [HHP07]
 ([[../library/additive_bases/hegyvari_2007_answer_question_burr_erdos_restricted_addition/_index|library card]])
 record that this settles the case $h=2$, with $f(2)=4$ for the largest
 restricted order of a basis of order $2$. The theorem extends Kelly's bound

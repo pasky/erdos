@@ -24,7 +24,7 @@ together with all their pairwise midpoints once N >= exp(C k^68
 log(2/alpha)^16).
 
 [[additive_combinatorics/beker_2025_erdos_moser_sum_free_set_problem/theorem_1_2|theorem_1_2]]: Beker's new proof, after Sanders's, of a lower bound of the form
-(log n)^(1+c) for the Erdős–Moser problem, deduced from his bound for sets
+(log n)^(1+c) for the Erdős–Moser problem, deduced from Beker's bound for sets
 lacking k-configurations: every sufficiently large finite set of integers A
 contains B of size at least (log |A|)^(1+c), for any fixed c below 1/68,
 with b_1 + b_2 outside A for distinct b_1, b_2 in B.

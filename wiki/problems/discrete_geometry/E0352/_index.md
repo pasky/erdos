@@ -72,7 +72,7 @@ theorem of 2002
 and already by Sas's theorem of 1939 on the largest triangle inscribed in a
 convex body, which the site's thread cites; that page records both. The same
 threshold is sharp for unions of the interiors of at most three compact
-convex sets, by the argument Mauldin writes out in his 2013 survey
+convex sets, by the argument Mauldin writes out in a 2013 survey
 ([[problems/discrete_geometry/E0352/claims/2013_01_01_freiling_mauldin|Freiling and Mauldin 2013]]).
 Sets of infinite measure contain a triangle of every area, by Erdős's
 density-theorem argument left to the reader, and unbounded sets of positive

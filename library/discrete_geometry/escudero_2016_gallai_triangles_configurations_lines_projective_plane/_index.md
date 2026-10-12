@@ -12,12 +12,12 @@ updated: 2026-10-08T18:17:13Z
 
 [[discrete_geometry/_index|..]]
 
-[[discrete_geometry/escudero_2016_gallai_triangles_configurations_lines_projective_plane/lemma_1|lemma_1]]: García Escudero's lemma that in his arrangement A_{d,k} every two lines
-intersect, three lines are concurrent exactly when their indices sum to
+[[discrete_geometry/escudero_2016_gallai_triangles_configurations_lines_projective_plane/lemma_1|lemma_1]]: García Escudero's lemma that in the paper's arrangement A_{d,k} every two
+lines intersect, three lines are concurrent exactly when their indices sum to
 k+1 modulo d, and no vertex lies on more than three lines.
 
-[[discrete_geometry/escudero_2016_gallai_triangles_configurations_lines_projective_plane/theorem_1|theorem_1]]: García Escudero's theorem that his real line arrangements A_{d,k} have no
-Gallai triangle for d = 3q+1, 3q+2 or 9n with k = 0 and for d = 3q with q
+[[discrete_geometry/escudero_2016_gallai_triangles_configurations_lines_projective_plane/theorem_1|theorem_1]]: García Escudero's theorem that the paper's real line arrangements A_{d,k} have
+no Gallai triangle for d = 3q+1, 3q+2 or 9n with k = 0 and for d = 3q with q
 not a multiple of 3 and k = 2, which with Lemma 1 answers Erdős's Gallai
 triangle question negatively for every d >= 4.
 

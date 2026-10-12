@@ -86,10 +86,10 @@ problem.
 **Acceptance.** Reviewed: a thread comment of 26 October 2025 asked whether
 Theorem II holds for every $A$, since $A=\mathbb N$ would then settle the
 problem. Thomas Bloom, the site's curator, is independent of the authors. On 27
-December 2025 he answered that, going by a machine translation of the Hungarian,
-it does. He then relabeled the problem SOLVED (page last edited the same day).
-The commentary credits [ErSz80] for both the liminf bound and the constant (site
-page and thread accessed 2026-09-05 and 2026-09-18).
+December 2025 Bloom answered that, going by a machine translation of the
+Hungarian, it does, and then relabeled the problem SOLVED (page last edited the
+same day). The commentary credits [ErSz80] for both the liminf bound and the
+constant (site page and thread accessed 2026-09-05 and 2026-09-18).
 
 The commentary also credits two later proofs of the first answer. Tao's thread
 comment of 26 October 2025

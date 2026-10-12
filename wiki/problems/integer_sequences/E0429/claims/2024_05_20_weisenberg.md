@@ -79,8 +79,8 @@ The paper reports on p. 2 that the site marked the problem solved when the first
 construction appeared as a preprint. But the paper's acknowledgement (p. 4)
 thanks Bloom for reviewing an earlier draft and for advising the author in the
 Oxford mathematics master's program. Bloom is therefore not independent of the
-claimant, and his credit is not `reviewed` evidence. The community database
-lists the Lean suffix on its status entry, with a last update of 29
+claimant, and the site's credit is not `reviewed` evidence. The community
+database lists the Lean suffix on its status entry, with a last update of 29
 January 2026.
 
 The search recorded on the problem page found no dispute of the construction, no

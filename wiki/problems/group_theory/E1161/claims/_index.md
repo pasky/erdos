@@ -12,7 +12,7 @@ updated: 2026-10-11T22:24:14Z
 [[problems/group_theory/E1161/_index|..]]
 
 [[problems/group_theory/E1161/claims/2025_10_13_beker|2025_10_13_beker]]: Beker (arXiv, 2025) proved that the largest of the counts $f_k(n)$ is
-asymptotic to $(n-1)!$. He also proved that for all sufficiently large $n$ it
+asymptotic to $(n-1)!$, and also that for all sufficiently large $n$ it
 is attained exactly at the least $k$ divisible by every integer up to $n-k$.
 
 ***

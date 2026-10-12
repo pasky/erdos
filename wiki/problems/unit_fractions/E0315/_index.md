@@ -163,7 +163,7 @@ answer is yes, with the credit shared between Kamio [Ka25] and Li and Tang
 [LiTa25] as independent proofs. The thread (eleven comments): 31 January 2026
 (Boris Alexeev), that Kamio's paper was formalized by the prover Aristotle
 from the arXiv source, with a link to the Lean file, after which the site was
-updated; 31 July 2026 (Quanyu Tang), that Corollary 3 of his paper with Kovač
+updated; 31 July 2026 (Quanyu Tang), that Corollary 3 of their paper with Kovač
 generalizes the problem to rationals $\lambda\in(0,1]$ whose best $n$-term
 underapproximations are unique; 31 July 2026 (van Doorn), a suggested
 strengthening to a dichotomy without the uniqueness hypothesis and the two

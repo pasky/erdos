@@ -15,7 +15,7 @@ updated: 2026-10-08T14:57:09Z
 The notions of a configuration and of an $E$-Ramsey configuration are on
 the
 [[discrete_geometry/mirabi_2026_one_point_extensions_euclidean_ramsey_sets/preliminaries|definitions page]].
-The paper quotes two results of Kříž, citing Theorems 3.2 and 4.1 of his
+The paper quotes two results of Kříž, citing Theorems 3.2 and 4.1 of the
 1991 paper (p. 3).
 
 **Product.** If $F_1$ is $E_1$-Ramsey and $F_2$ is $E_2$-Ramsey, then
@@ -31,7 +31,7 @@ equivalent. Then $F$ is $U(E;z,b,r)$-Ramsey.
 The paper uses the product statement to pass from a configuration to its
 $(n+1)$-fold power, and orbit gluing only with $r=2$, both in the proof of
 [[discrete_geometry/mirabi_2026_one_point_extensions_euclidean_ramsey_sets/theorem_3_2|Theorem 3.2]].
-Kříž's own statements are recorded on his card as
+Kříž's own statements are recorded on the 1991 paper's card as
 [[discrete_geometry/kriz_1991_permutation_groups_euclidean_ramsey_theory/theorem_3_2|Theorem 3.2]]
 and
 [[discrete_geometry/kriz_1991_permutation_groups_euclidean_ramsey_theory/theorem_4_1|Theorem 4.1]].

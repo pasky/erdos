@@ -48,7 +48,7 @@ Rosser and Schoenfeld.
 2025). The frontmatter standing derives from the claim pages. Two pending full
 claims answer all three parts, so the standing is claimed. The site's commentary
 credits Tao, in comments first posted under Problem 468, with disproving the
-strong claim $f(n)=o(n)$. He did so by showing that the $n$ with
+strong claim $f(n)=o(n)$. Tao did so by showing that the $n$ with
 $f(n)\le\delta n$ have upper density $\ll\delta^2$.
 
 **Source.** [erdosproblems.com/1054](https://www.erdosproblems.com/1054),

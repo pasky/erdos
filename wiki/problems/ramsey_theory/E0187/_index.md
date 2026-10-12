@@ -122,8 +122,8 @@ Problem #187, https://www.erdosproblems.com/187, accessed 2026-09-18.
   [[../library/ramsey_theory/erdos_1976_problems_results_combinatorial_number_theory_ii/_index|erdos_1976_problems_results_combinatorial_number_theory_ii]].
 - [Sp77] J. Spencer, Asymptotic lower bounds for Ramsey functions. Discrete
   Math. 20 (1977), no. 1, 69--76, DOI 10.1016/0012-365X(77)90044-9 (Beck's
-  reference for his Lemma 2, dated 1976 in his list; the running head reads
-  1977). Theorem 1.1, printed p. 70, the local lemma Beck quotes as his Lemma
+  reference for Lemma 2, dated 1976 there; the running head reads
+  1977). Theorem 1.1, printed p. 70, the local lemma Beck quotes as Lemma
   2. Library home:
   [[../library/ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/_index|spencer_1977_asymptotic_lower_bounds_ramsey_functions]];
   paged at
@@ -155,7 +155,7 @@ are empty.
 **Claims.** The three results the commentary credits are upper bounds on the
 best $f$, partial results on a problem the site labels OPEN. Beck's bound is
 an accepted partial claim on
-[[problems/ramsey_theory/E0187/claims/1980_11_01_beck|his claim page]], with
+[[problems/ramsey_theory/E0187/claims/1980_11_01_beck|its claim page]], with
 `refereed` evidence only: the curator's commentary on an OPEN problem is not
 acceptance. Erdős's bound $f(d)<cd$ is a pending partial claim on
 [[problems/ramsey_theory/E0187/claims/1973_01_01_erdos|his claim page]]: the
@@ -234,7 +234,7 @@ and they are sure that their proof will give $F(d)=O(d^\epsilon)$". So
 Erdős 1976 and 1980 call the $d^{\varepsilon}$ bound an expectation, and
 the Erdős–Graham texts mention only $cd^{1/2}$. Beck (p. 376) writes
 "Petruska and Szemerédi proved $F(d)=O(d^\varepsilon)$ (unpublished)", with
-the same letter $\varepsilon$ as his theorem's arbitrary small constant,
+the same letter $\varepsilon$ as the arbitrary small constant of Beck's theorem,
 which reads as the stronger $d^{o(1)}$-type bound. Nothing was published,
 so which statement is right cannot be checked; Beck's theorem supersedes
 both.

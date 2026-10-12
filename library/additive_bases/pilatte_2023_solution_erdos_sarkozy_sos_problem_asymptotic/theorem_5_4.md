@@ -84,7 +84,7 @@ $\mathbb P(m\notin S+S+S)\le\exp(-m^{3c-1-o(1)})$ as $m\to+\infty$ for
 $m\ge q^{(C_0+2)^2}$: Lemma 5.1 writes $m$ in the base with digits suited to
 $A+A+A$, and Lemma 5.2, deduced from Sawin's square-root cancellation
 theorem for factorization functions over squarefree progressions in
-$\mathbb F_q[t]$ (his Lemma 9.14), counts the triples of distinct
+$\mathbb F_q[t]$ (Sawin's Lemma 9.14), counts the triples of distinct
 $f_1,f_2,f_3\in\mathcal P_d$ with $f_1f_2f_3$ in a prescribed residue class,
 giving many independent chances for $n_{f_1}+n_{f_2}+n_{f_3}=m$. Since
 $3c-1>0$ the bound is $\ll m^{-2}$ for large $m$, and the Borel–Cantelli

@@ -123,7 +123,7 @@ its commit of 15 September 2026), a file that declares itself a formalization
 of Alon's solution, with Codex and GPT-5.6 Sol named as its formal authors,
 and states the result with explicit constants and the base-two logarithm
 under the hypothesis `G.indepNum ≤ Nat.sqrt n`, the boundary case included.
-That development is linked on Alon's claim page as a formalization of his
+That development is linked on Alon's claim page as a formalization of the
 result; this corpus has not built or audited it, so it gives no `formalized`
 evidence, and the claim's standing rests on the curator's credit and the
 refereed publication. As of 2026-10-07 the site's indicator reads "Yes" and
@@ -159,8 +159,8 @@ statement is the question for $m=[n^{1/2}]$, with "best possible" spelled out as
 $\gg n^{1/2}\log n$ edges. The archive's typescript has page headers that run
 one ahead of its page count from its eighth page on (that page is headed 9, and
 no page is headed 8), so one typescript page is absent; the Congressus
-Numerantium pagination 19--37 is not in it. Alon cites the paper as his [4] with
-those pages.
+Numerantium pagination 19--37 is not in it. Alon cites the paper as reference
+[4] with those pages.
 
 **Status-defining source.**
 [[../library/extremal_graph_theory/alon_1996_independence_numbers_locally_sparse_graphs_ramsey/theorem_1_2|Theorem 1.2]] of [Al96b], p. 2 of the preprint, checked clause by
@@ -261,7 +261,7 @@ the printed Congressus Numerantium text of [Er79g].
 **Remaining gaps.** (1) The boundary case $\alpha(G)=\lfloor\sqrt n\rfloor$ of
 the site's hypothesis is outside Theorem 1.2 as printed; it is closed by the
 twin blow-up in the Current assessment, an authored reduction that no source
-cited states, and by Alon's p. 7 remark that his proof extends to every
+cited states, and by Alon's p. 7 remark that the proof extends to every
 $n^\epsilon\le m\le n/2$, which the paper does not prove. (2) The proof of
 Theorem 1.2 was read for structure only; the Ajtai--Komlós--Szemerédi bound it
 uses is read here at statement depth on its result page, its own proof read for

@@ -23,7 +23,7 @@ least $f(n;c)$ triangles. The print calls it "the smallest integer" with this
 property; the integer meant is the largest, since every smaller integer also
 has the property. The problem is to estimate $f(n;c)$ as well as possible. The
 print records that Noga Alon showed $f(n;c)<\alpha_c\sqrt n$ and that
-Szemerédi observed that his regularity lemma implies $f(n;c)\to\infty$ for
+Szemerédi observed that the regularity lemma implies $f(n;c)\to\infty$ for
 every $c>0$, and asks, quoted: "Is it true that $f(n;c)>n^\varepsilon$ (or at
 least $f(n;c)>\log n$)?"
 

@@ -35,7 +35,7 @@ $a_i$?
 **Formulation.** The site's wording of 2026-09-18 (page last edited 8 April
 2026). $p$ is a prime, as in the formal-conjectures statement (`Fact p.Prime`)
 and in every source; the site's author said in the thread (31 December 2025)
-that he believed, since the letter $p$ was used, that both original sources
+that they believed, since the letter $p$ was used, that both original sources
 asked only about primes; the composite case is Gao, Hamidoune and Wang's
 extension, which the site's commentary credits separately. The $a_i$ form a
 sequence of length $p$ with repetition; the residue $0$ is not excluded by the
@@ -140,7 +140,7 @@ the question to Graham and credits the proof to Erdős and Szemerédi
 [GHW10] for every modulus, prime or not. The thread: a comment of 31
 December 2025 by Boris Alexeev reporting a Lean proof produced with the
 prover Aristotle and with ChatGPT after many runs, connected to the
-formal-conjectures statement and type-checked by him (a 3,000-line file
+formal-conjectures statement and type-checked by the poster (a 3,000-line file
 taking twenty minutes to check), with a link to the file; the site's
 curator, Thomas Bloom, noting the same day that the proof covers the
 statement for all primes, so sits between [ErSz76] and [GHW10], and, after

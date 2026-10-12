@@ -556,7 +556,7 @@ non-planar subgraph of bounded size. Answered yes by Kostochka and Pyber in
 [[problems/extremal_graph_theory/E1019/_index|E1019/]]: Asks whether every graph
 on $n$ vertices with $\lfloor n^2/4\rfloor+\lfloor\frac{n+1}{2}\rfloor$ edges
 contains a saturated planar subgraph on more than $3$ vertices. Proved by
-Simonovits in his thesis, as attested by Erdős and the site.
+Simonovits in a PhD thesis, as attested by Erdős and the site.
 
 [[problems/extremal_graph_theory/E1021/_index|E1021/]]: Asks whether, for every
 $k\ge3$, $\mathrm{ex}(n,G_k)\ll n^{3/2-c_k}$ for some $c_k>0$, where $G_k$ is

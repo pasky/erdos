@@ -19,7 +19,7 @@ a set of $n$ integers.
 $1.77898$ gives, through an elementary embedding, sets with more than
 $n^{1.77898}$ common differences. So $O(n^{3/2})$ does not always suffice.
 
-[[problems/additive_combinatorics/E1097/claims/2026_05_28_firsching|2026_05_28_firsching]]: Moritz Firsching claims a self-contained Lean 4 proof, in his fork of
+[[problems/additive_combinatorics/E1097/claims/2026_05_28_firsching|2026_05_28_firsching]]: Moritz Firsching claims a self-contained Lean 4 proof, in a personal fork of
 formal-conjectures, that no constant $C$ bounds the number of common
 differences by $Cn^{3/2}$. The claim answers the second question no.
 

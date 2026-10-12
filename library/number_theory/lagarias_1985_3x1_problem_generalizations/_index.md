@@ -38,7 +38,7 @@ research papers starred) includes Terras's 1976 paper, filed as
 [[number_theory/terras_1976_stopping_time_problem/_index|terras_1976_stopping_time_problem]]
 (its [64]), Guy's Unsolved Problems in Number Theory, 1981, Problem E16 (its
 [36]), Coxeter's 1970 Felix Behrend Memorial Lecture (its [27]) and the 1982
-PPC Calculator Journal note in which Thwaites offers his prize (its [69]).
+PPC Calculator Journal note in which Thwaites offers a prize (its [69]).
 
 The copy read for this card is
 JSTOR's scan of the printed article, the version of record: 22 pages, PDF

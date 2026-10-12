@@ -77,8 +77,8 @@ $$
 
 with $H_N=\sum_{n\le N}1/n=\log N+\gamma+O(1/N)$. In Croot's notation this
 is $n(N)\ge\lfloor H_N-(\frac{\pi^2}3+o(1))(\log\log N)^2/\log N\rfloor$,
-the lower floor of his Main Theorem with $\frac92$ replaced by
-$\frac{\pi^2}3$; his upper floor and his conjecture are untouched. The
+the lower floor of Croot's Main Theorem with $\frac92$ replaced by
+$\frac{\pi^2}3$; its upper floor and Croot's conjecture are untouched. The
 deduction is a filing observation from the printed statement, not a review
 verdict, and nothing is claimed about the paper's proof.
 
@@ -98,7 +98,7 @@ Nothing here is independently reviewed.
 ## Proof pointer
 
 Immediate from Theorem 1 (p. 352) through $|N^*(n)|\le|N(n)|$ and
-$F(a)\le F^*(a)$, with Croot's upper bound quoted from his Main Theorem. The
+$F(a)\le F^*(a)$, with the upper bound quoted from Croot's Main Theorem. The
 theorem's proof is § 3, pp. 354--357, resting on Lemmas 1--5 of p. 353,
 proved on pp. 357--371; see the
 [[unit_fractions/yokota_2002_number_integers_representable_sums_unit_fractions_iii/theorem_1|theorem's page]].
@@ -117,7 +117,7 @@ printed statement and $H_N=\log N+\gamma+O(1/N)$.
   best lower bound the site records for the count $F(N)$ of representable
   integers, with $\frac{\pi^2}3$ in place of the $\frac92$ of Croot's Main
   Theorem; together with Croot's upper bound, both read in the integer-part
-  form of his Main Theorem, it places $F(N)$ between
+  form of that Main Theorem, it places $F(N)$ between
   $\lfloor H_N-(\frac{\pi^2}3+o(1))(\log\log N)^2/\log N\rfloor$ and
   $\lfloor H_N-(\frac12+o(1))(\log\log N)^2/\log N\rfloor$. It sharpens
   the second-order term only; that $F(N)$ has order $\log N$ follows from

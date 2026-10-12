@@ -4,7 +4,7 @@ title: Problem 362
 desc: |
   Asks whether $\ll2^N/N^{3/2}$ subsets of a set of $N$ naturals have sum $t$,
   and $\ll2^N/N^2$ if their size is fixed too. Sárközy and Szemerédi proved the
-  first (Stanley found the exact maximizers), and Halász the second, via his
+  first (Stanley found the exact maximizers), and Halász the second, via a
   bound on signed sums of $1$-separated plane vectors in a unit ball.
 tags:
 - Number theory
@@ -88,7 +88,7 @@ absolute constant. The order is sharp: $A=\{1,\ldots,N\}$ has
 $\max_tf(t)>c_32^N/N^{3/2}$ (the paper's remark). Stanley's Corollary 5.1 (SIAM
 J. Algebraic Discrete Methods 1 (1980), 168--184, refereed) identifies the exact
 maximum over $N$ distinct positive reals as the middle coefficient of
-$(1+q)(1+q^2)\cdots(1+q^N)$, attained by $\{1,\ldots,N\}$. His Corollary 5.3
+$(1+q)(1+q^2)\cdots(1+q^N)$, attained by $\{1,\ldots,N\}$. Corollary 5.3
 identifies the maximum over all sets of $N$ distinct reals, attained by
 $\{-\lfloor(N-1)/2\rfloor,\ldots,\lfloor N/2\rfloor\}$, the site's set.
 
@@ -116,7 +116,7 @@ The conjecture itself is Erdős's. In 1965 he stated it with the constant
 independent of the subset size (his $t$, the page's $l$). In 1973, display
 (8.8), he stated it with the constant independent of $t$, $l$, $n$ and the
 sequence. Halász's printed proof of Theorem 2 is a one-paragraph modification
-(p. 208) of his proof of the probabilistic Theorem 4, and it was not checked
+(p. 208) of the proof of the probabilistic Theorem 4, and it was not checked
 here.
 
 **Source.** [erdosproblems.com/362](https://www.erdosproblems.com/362), accessed
@@ -404,7 +404,7 @@ service. Not held: van Lint 1967, Peck, Katona.
 
 **Remaining gaps.** (1) The second question rests on Halász's Theorem 2, whose
 printed proof is a one-paragraph modification (p. 208) of the proof of Theorem
-4, and on the authored reduction from the page's fixed-size subset counts to his
+4, and on the authored reduction from the page's fixed-size subset counts to its
 unit-ball counts of signed sums in the plane; the paper's remark is the nearest
 printed statement of the page's inequality and does not spell out the condition
 of Theorem 1 for the vectors $(a_k,1)$. (2) The Lean development is neither

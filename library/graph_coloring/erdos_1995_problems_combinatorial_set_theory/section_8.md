@@ -44,7 +44,7 @@ page images. Every result in it is reported, not proved.
 
 ## Proof pointer
 
-None in the paper; Komjáth's results are cited to his paper named above.
+None in the paper; Komjáth's results are cited to the paper named above.
 
 ## Dependencies
 

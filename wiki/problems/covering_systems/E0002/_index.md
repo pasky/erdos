@@ -173,7 +173,7 @@ Hough filters the moduli by primes, uses a relative Lovász local lemma on
 surviving residue fibers, and controls how reweighting changes the bias
 statistics. The library's
 [[../library/covering_systems/hough_2015_solution_minimum_modulus_problem_covering_systems/qualitative_theorem_1|qualitative
-proof]], a compilation expansion of his self-contained method, already
+proof]], a compilation expansion of Hough's self-contained method, already
 disproves the conjecture using elementary prime-counting bounds, without a
 numerical certificate. The explicit $10^{16}$ proof also uses
 [[../library/covering_systems/hough_2015_solution_minimum_modulus_problem_covering_systems/lemma_7|prime-band

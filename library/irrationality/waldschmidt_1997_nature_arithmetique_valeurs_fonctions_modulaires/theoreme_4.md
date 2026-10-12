@@ -14,11 +14,11 @@ updated: 2026-10-08T15:23:53Z
 **Source.** Théorème 4, printed p. 118 (physical PDF p. 15), section 2.2
 "Indépendance algébrique de trois nombres", read on the page image; it is
 introduced as "Voici le résultat principal de [2] et [3]", where [2] is
-Nesterenko, Mat. Sb. 187 (1996), 65--96, and [3] his C. R. note of 1996.
-The exposé's proof is section 2.5 (pp. 126--128), via Proposition 3
-(p. 127) and Philippon's criterion, Proposition 4 (pp. 127--128); the zero
-estimate behind it is Théorème 5 (section 3.1, p. 128). The proof was not
-checked here.
+Nesterenko, Mat. Sb. 187 (1996), 65--96, and [3] the same author's C. R.
+note of 1996. The exposé's proof is section 2.5 (pp. 126--128), via
+Proposition 3 (p. 127) and Philippon's criterion, Proposition 4
+(pp. 127--128); the zero estimate behind it is Théorème 5 (section 3.1,
+p. 128). The proof was not checked here.
 
 ## Statement
 

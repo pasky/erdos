@@ -58,8 +58,9 @@ which the
 links at a pinned commit. The pull request that added the file records an
 outside check: it rebuilt Alexeev's development against the repository's
 Mathlib, found the axioms `propext`, `Classical.choice` and `Quot.sound` only,
-and compiled a bridge from his theorem to the new statement, whose definitions
-coincide with his by `rfl`. This corpus has built and audited none of it.
+and compiled a bridge from the development's theorem to the new statement, whose
+definitions coincide with Alexeev's by `rfl`. This corpus has built and audited
+none of it.
 
 ## Progress
 

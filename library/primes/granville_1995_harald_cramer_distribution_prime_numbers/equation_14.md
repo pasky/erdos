@@ -36,8 +36,8 @@ $$
 \max_{p_n\le x}\,(p_{n+1}-p_n)\sim\log^2x.\qquad(14)
 $$
 
-He records that (14), "or the weaker $O(\log^2x)$", is known as "Cramér's
-Conjecture" (p. 21, quoted).
+The author records that (14), "or the weaker $O(\log^2x)$", is known as
+"Cramér's Conjecture" (p. 21, quoted).
 
 **Shanks's form** (p. 21). Granville reports that Shanks reformulated (14)
 to suggest that the first gap between consecutive primes of size $>g$

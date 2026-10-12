@@ -89,7 +89,7 @@ independently reviewed.
 - Opening (p. 211, page image). The first sentence, quoted: "In 1987 Paul
   Erdős asked me if the Cayley graph defined on $\mathbb Z$ by a lacunary
   sequence has necessarily a finite chromatic number." The author says that
-  what follows is the answer he gave Erdős at once but never published
+  what follows is the answer given to Erdős at once but never published
   (footnote 1: "An account did appear recently in chapter 5 of [4]", Weiss
   2000), together with further remarks, and names the key idea: reading the
   question as one about return times of dynamical systems.

@@ -43,9 +43,9 @@ participant. The example has no claim page of its own because its claimant is
 unnamed.
 
 Alexeev's repository holds Lean proofs of both questions. The proof of the
-second formalizes his own construction and is linked on his page. The proof of
-the first formalizes the Figure 4 example. It is recorded as an independent
-claim on
+second formalizes Alexeev's own construction and is linked on its claim page.
+The proof of the first formalizes the Figure 4 example. It is recorded as an
+independent claim on
 [[problems/discrete_geometry/E1071/claims/2026_02_13_alexeev|its own page]].
 
 **Source.** [erdosproblems.com/1071](https://www.erdosproblems.com/1071),

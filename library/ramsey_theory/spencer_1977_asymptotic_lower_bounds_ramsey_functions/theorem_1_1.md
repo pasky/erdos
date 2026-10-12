@@ -4,7 +4,7 @@ title: "Theorem 1.1 (Lovász): the local lemma, with the weighted form of Theore
 desc: |
   The Lovász local lemma as Spencer states and proves it, with the weighted
   form of Theorem 1.3 and the symmetric forms of Theorems 1.4 and 1.5; the
-  lemma Beck 1980 quotes as his Lemma 2 and the tool behind every bound of the
+  lemma Beck 1980 quotes as its Lemma 2 and the tool behind every bound of the
   paper.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T01:29:58Z
@@ -126,9 +126,9 @@ filed as
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0187/_index|Problem 187]]: the statement Beck 1980
-  quotes without proof as his Lemma 2, introduced (p. 377) as "a
+  quotes without proof as its Lemma 2, introduced (p. 377) as "a
   generalization of the well-known probabilistic lemma of Lovász", in the
-  proof of his
+  proof of its
   [[ramsey_theory/beck_1980_remark_concerning_arithmetic_progressions/theorem|Theorem]]
   $F(d)\le(1+\varepsilon)\log_2d$ for large $d$, the problem's only upper
   bound; Beck's reference dates the volume 1976, where the running head

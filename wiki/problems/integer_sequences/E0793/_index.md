@@ -259,7 +259,7 @@ $|A|\ge\pi(n)+(27/2-o(1))S$. Read depth: claims checked for Theorem 1.1
 and the eight named statements; the proofs were read for their structure
 and not checked step by step; no step is independently reviewed here.
 Acceptance evidence: the label and commentary of the site's curator,
-Thomas Bloom (14 July 2026), and his thread comment that the argument is
+Thomas Bloom (14 July 2026), and their thread comment that the argument is
 Erdős's 1938 argument with the constants tracked; no
 refereed publication and no written expert review were found (Crossref
 bibliographic query for the title and the searches of the scope below); the
@@ -309,7 +309,7 @@ in its snapshot of 2026-10-06.
   product of $k$ other members, has been formalized with constants $c_k$
   tending to $e^2$, with a blueprint PDF in `Woett/Miscellaneous` (5 August
   2026) and the file `ErdosProblem793General.lean` (697,428 bytes) in
-  `Woett/Lean-files`; the submitter writes that he has not digested the
+  `Woett/Lean-files`; the submitter writes that they have not digested the
   proof. The blueprint's byline is ChatGPT, and the Lean file's header, at
   the file's only commit (5 August 2026), says that Aristotle formalized the
   result from a ChatGPT write-up. Its theorem `main` states, for every

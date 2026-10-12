@@ -33,7 +33,7 @@ the approximation theorem of its p. 97 (a closed bounded set of capacity $1$
 lies in the interior of a lemniscate curve $\{|f|=\rho^n\}$, with $f$ monic
 and $\rho$ slightly above $1$, and the curve lies in an
 $\varepsilon$-neighborhood of the set) to the five-armed star of capacity
-$1$ from his Math. Ann. 139 paper, whose
+$1$ from the author's Math. Ann. 139 paper, whose
 least projection exceeds $2.386$. The same page bounds the other side: by
 Theorem 7, every closed bounded set of capacity $1$, so every lemniscate set,
 has some projection of measure below $3.30$, and by Theorem 6 (p. 102) every

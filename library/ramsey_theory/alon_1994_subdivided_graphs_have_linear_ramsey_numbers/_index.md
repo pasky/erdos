@@ -30,8 +30,8 @@ Noga Alon, *Subdivided graphs have linear Ramsey numbers*,
 **Edition read.** The copy read for this card is the author manuscript, which
 has five physical pages numbered 1--5, with no journal pagination. It is the
 copy downloaded from [Alon's author-hosted
-copy](https://web.math.princeton.edu/~nalon/PDFS/rams.pdf), linked by his
-[publication
+copy](https://web.math.princeton.edu/~nalon/PDFS/rams.pdf), linked by the
+author's [publication
 list](https://web.math.princeton.edu/~nalon/PDFS/publications.html). The
 manuscript gives no revision date. Its bibliographic identification agrees with
 the [Wiley

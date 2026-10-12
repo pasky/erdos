@@ -100,7 +100,7 @@ The site labels the problem FALSIFIABLE: a single monic polynomial whose
 lemniscate is longer than that of $z^n-1$ of the same degree would refute the
 conjecture by a finite computation of two lengths. Remark 1.3 of
 [[../library/polynomials/tao_2025_maximal_length_erdos_herzog_piranian_lemniscate/_index|Tao 2025]]
-adds that the constants of his proof are effective, so the conjecture reduces to
+adds that the constants of its proof are effective, so the conjecture reduces to
 finitely many degrees, and that only an exact tie between the lemniscate lengths
 of $z^n-1$ and of a competitor in some bounded degree could keep it from being
 decided by a finite computation. The site's remarks record the question as

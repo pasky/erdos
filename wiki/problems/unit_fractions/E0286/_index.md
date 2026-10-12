@@ -147,10 +147,10 @@ the preprint; it has not been verified, and the published proof has not been
 compared with the preprint's.
 
 **Every large $k$ through Martin's theorem.** Neither Croot's Main Theorem
-nor his introduction claims the question for every $k\ge2$; the
-introduction's quantifier is "for infinitely many $k$", and his remark
+nor the introduction claims the question for every $k\ge2$; the
+introduction's quantifier is "for infinitely many $k$", and Croot's remark
 (p. 99) that Martin's result "cannot be applied to solve these questions"
-concerns his corrected form of the question, width $\sim k$, not the
+concerns the paper's corrected form of the question, width $\sim k$, not the
 site's. Under the site's wording Martin's Theorem 2 settles every large
 $k$: it gives a $k$-term representation of $1$ whose largest denominator
 is $M_k(1)=(e/(e-1)+o(1))k$, so all denominators lie in $[2,M_k(1)]$, an

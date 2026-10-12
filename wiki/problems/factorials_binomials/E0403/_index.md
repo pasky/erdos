@@ -87,7 +87,7 @@ solution containing $0!$ but not $1!$ is odd, so it is $2^0=0!$.
 The resolution. Erdős and Graham report on p. 79 of their monograph [ErGr80]
 that Burr and Erdős asked the question, that $2^7$ seemed the largest
 solution, and that Frankl, in a personal communication the monograph cites as
-[Frank (76)], and independently Lin, in his Bell Laboratories memorandum
+[Frank (76)], and independently Lin, in a Bell Laboratories memorandum
 [Li76], proved it the largest; Lin also showed that $2^{254}$ is the largest
 power of two dividing a sum of distinct factorials that includes $2!$, and
 that $3^m$ is such a sum only for $m\in\{0,1,2,3,6\}$. The

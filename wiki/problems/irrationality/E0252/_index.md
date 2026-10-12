@@ -262,7 +262,7 @@ proved that $\sum_{n=1}^{\infty}\delta_k(n)/n!$ is irrational for $k=1$
 and $k=2$"; Erdős 1957
 (p. 213, footnote) attributes $k=1$ to Kelly's solution (Monthly 60 (1953),
 557) and $k=2$ to Breusch's (61 (1954), 264), which Pratt [Pr22] identifies
-(his references [9] and [11]) as the solutions of Problems 4493 and 4518;
+(its references [9] and [11]) as the solutions of Problems 4493 and 4518;
 Friedlander–Luca–Stoiciu attribute both to Erdős and Kac [ErKa54];
 Schlage-Puchta attributes $k=0$ and $k=1$ to a general result of Erdős and
 Straus [ErSt74] and $k=2$ to Erdős and Kac; formal-conjectures cites [ErSt71]

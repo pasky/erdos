@@ -30,7 +30,7 @@ most $1/5$, is a sum of distinct unit fractions with semiprime denominators.
 The claim is partial.
 
 [[problems/unit_fractions/E0306/claims/2026_06_19_tang|2026_06_19_tang]]: Tang's Lean 4 development of June 2026, released on Zenodo, asserts the whole
-statement with two Rosser–Schoenfeld bounds taken as axioms. His manuscript
+statement with two Rosser–Schoenfeld bounds taken as axioms. The manuscript
 was frozen in August 2026 and published in October 2026.
 
 [[problems/unit_fractions/E0306/claims/2026_09_26_li|2026_09_26_li]]: Li's preprint of September 2026, with a Lean 4 formalization, asserts that

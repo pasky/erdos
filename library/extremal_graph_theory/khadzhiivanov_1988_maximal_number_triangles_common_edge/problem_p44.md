@@ -5,8 +5,8 @@ desc: |
   Khadzhiivanov's 1988 statement of Erdős's problem on the largest number of
   triangles on one edge of a graph with more than n²/4 edges, tracing it from
   Erdős's linear bound with an explicit constant through the conjecture of
-  the 1975 Aberdeen collection, and attributing its complete solution to his
-  1979 note with Nikiforov.
+  the 1975 Aberdeen collection, and attributing its complete solution to the
+  author's 1979 note with Nikiforov.
 created: 2026-09-18T16:10:00Z
 updated: 2026-10-08T01:29:58Z
 ---

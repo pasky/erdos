@@ -37,7 +37,7 @@ Dutta's power sequences
 ([[problems/additive_combinatorics/E0198/claims/2025_09_02_dutta|claim page]]).
 The factorial and power-sequence claims are accepted on the documented credit of
 the site's curator. The successive selection stays claimed, since the curator
-wrote it out himself. The natural-language proofs on the linked library pages
+wrote it out personally. The natural-language proofs on the linked library pages
 are author-recorded. The Lean files behind the label's Lean mark are linked on
 Google DeepMind's claim page and were not built by this corpus.
 

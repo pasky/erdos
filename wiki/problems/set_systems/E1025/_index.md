@@ -79,7 +79,7 @@ Conlon, Fox and Sudakov records that the upper bound $g(n)\ll n^{1/2}$ was
 proved independently and much earlier by Füredi [Fu91], Theorem 2.3 of
 [[../library/discrete_geometry/furedi_1991_maximal_independent_subsets_steiner_systems_planar_sets/_index|Maximal independent subsets in Steiner systems and in planar sets]],
 which proves $(2\sqrt3/9)\sqrt n<g(n)<2\sqrt n$ with the lower bound from
-Spencer's theorem; the site does not cite Füredi, and his two-sided theorem is a
+Spencer's theorem; the site does not cite Füredi, and the two-sided theorem is a
 second accepted full claim, on the page
 [[problems/set_systems/E1025/claims/1991_05_01_furedi|Füredi 1991]]. The
 accepted claim credited by the site is Conlon, Fox and Sudakov's, which rests on

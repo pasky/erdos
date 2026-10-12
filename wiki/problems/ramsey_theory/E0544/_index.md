@@ -190,7 +190,7 @@ with no triangle and no independent $k$-set, so there are at most $R(3,k)-1$
 of them; hence the order is at most $1+k+(R(3,k)-1)$. The exact values from
 OEIS A000791 give increments $3,5,4,5,5,8$ for $k=3,\dots,8$ and $4$ to $6$
 at $k=9$ ($4$ or $5$ if that claimed bound holds); nothing in this range shows divergence. Order of magnitude:
-$R(3,k)\asymp k^2/\log k$ (Kim's lower bound and Shearer's upper bound, his
+$R(3,k)\asymp k^2/\log k$ (Kim's lower bound and Shearer's upper bound,
 [[../library/ramsey_theory/shearer_1983_note_independence_number_triangle_free_graphs/theorem_1|Theorem 1]]
 [Sh83], on Problem 165), so the increment averages $k/\log k$ over long
 ranges, which is

@@ -71,4 +71,4 @@ with Velammal's independent proof, on the problem page (last edited 8
 February 2026). Velammal's proof is recorded on
 [[problems/factorials_binomials/E0175/claims/1995_01_01_velammal|its own claim page]],
 and Sárközy's earlier proof for all large $n$ on
-[[problems/factorials_binomials/E0175/claims/1985_02_01_sarkozy|his]].
+[[problems/factorials_binomials/E0175/claims/1985_02_01_sarkozy|its claim page]].

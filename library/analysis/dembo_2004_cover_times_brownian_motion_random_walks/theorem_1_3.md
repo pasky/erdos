@@ -45,7 +45,7 @@ $$
 [[analysis/dembo_2004_cover_times_brownian_motion_random_walks/theorem_1_2|Theorem 1.2]].
 The abstract states the case of unit area.
 
-The paper notes (p. 435) that this settles Matthews's conjecture that his
+The paper notes (p. 435) that this settles Matthews's conjecture that the
 upper bound for the two-dimensional sphere was sharp, once a computational
 error in Matthews's paper, a hitting time twice its correct value, is
 corrected.

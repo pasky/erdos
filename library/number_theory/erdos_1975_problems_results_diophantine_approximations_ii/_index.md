@@ -112,7 +112,7 @@ nothing here is independently reviewed.
   theorem and which Erdős hopes his method will prove (the scan states
   neither the theorem's condition nor the conjecture in full: p. 92 ends at
   "is that" and p. 93 opens with display (2)); Cassels's property of
-  sequences, Haight's construction (in his thesis) of a sequence for which
+  sequences, Haight's construction (in their thesis) of a sequence for which
   the averaged ratios tend to $0$, and Erdős's results from (I) on
   $\varphi(n_1,\ldots,n_{k-1};n_k)/n_k$. References to Erdős, J. Number
   Theory 2 (1970), and Philipp's Memoir 114.

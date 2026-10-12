@@ -35,7 +35,7 @@ As in Lemma 2.1, the print does not say for which $n$; the argument gives
 it for the $n$ that Lemma 2.1's proof covers, infinitely many of them.
 
 **Lovász's theorem as reported** (p. 121). The authors write that
-L. Lovász informed them that, generalizing a theorem of T. Gallai, he can
+L. Lovász informed them that, generalizing a theorem of T. Gallai, Lovász can
 prove: "For $2\leq r<\omega$ there is a finite graph $\mathcal G$ with
 $\chi(\mathcal G)\geq r+2$ and $f^3_{\mathcal G}(n)=O(n^{1-1/r})$." The
 example they describe takes as vertices the points of the $r$-dimensional

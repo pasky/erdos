@@ -18,7 +18,7 @@ updated: 2026-10-08T01:29:58Z
 have size Ramsey number linear in n, the question of Problem 559 with edges
 in place of vertices.
 
-[[ramsey_theory/beck_1990_size_ramsey_number_paths_trees_circuits_ii/remark_p34|remark_p34]]: Beck's own attestation of his 1983 bound, the size Ramsey number of the
+[[ramsey_theory/beck_1990_size_ramsey_number_paths_trees_circuits_ii/remark_p34|remark_p34]]: Beck's own attestation of the 1983 bound, the size Ramsey number of the
 path of length n is below 900n for large n, with the universal graph for
 bounded-degree trees and its corollary (2).
 
@@ -79,8 +79,8 @@ lemma structure only.
    **Theorem 1**, for any tree $T_n$ of $n$ edges,
    $\Delta(T_n)/4<\hat r(T_n)<C_0\cdot\Delta(T_n)\cdot(\log n)^{12}$ with a
    universal $C_0$ (the proof is nonconstructive, by random bipartite
-   graphs, and Beck says he cannot prove the density form, in which the
-   larger color class contains $T_n$); the **Conjecture** that an absolute
+   graphs, and Beck reports being unable to prove the density form, in which
+   the larger color class contains $T_n$); the **Conjecture** that an absolute
    $c_1$ has $\hat r(T)<c_1\cdot\Delta(T)$ for all trees; the induced size
    Ramsey number $\hat r(\mathrm{ind}\,H)$, a problem Beck attributes to a
    letter from Erdős; **Theorem 2**, a graph $G=G(n)$ with fewer than
@@ -139,7 +139,7 @@ problem paper credits to Beck is not in this text.
 Read on page images: printed pp. 34--36 and 44--45 clause by clause;
 pp. 37--43 for section and lemma structure. Statements and the structure of
 the proof of Theorem 3; no proof is checked. The attestation of Beck (1983)
-in display (1) is Beck's own citation of his earlier paper, which is not
+in display (1) is Beck's own citation of the earlier paper, which is not
 held.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0720/_index|#720]] (p. 34, PDF p. 1:

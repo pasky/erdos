@@ -36,7 +36,7 @@ positive constant; the statement asserts that it tends to infinity. The site's
 commentary attributes the bounds $k2^{k/2}\ll R(k)\le\binom{2k-1}{k-1}$ to
 Erdős and Szekeres [ErSz35]; the 1935 paper proves only the upper bound, in
 the form $R(k)\le\binom{2k-2}{k-1}$ (its equation (3)), and the lower bound is
-Erdős's probabilistic bound, which Spencer restates as his Theorem 1 and
+Erdős's probabilistic bound, which Spencer restates as Theorem 1 and
 Corollary 1. The formal-conjectures file encodes the statement as the
 divergence of $R(k)/(k2^{k/2})$.
 
@@ -134,7 +134,7 @@ on its card; published in Annals of Mathematics 203 (2026)) is the subject of
 Problem 77 and is context here. Lower: Spencer's
 [[../library/ramsey_theory/spencer_1975_ramsey_theorem_new_lower_bound/corollary_1|Corollary 1]]
 (p. 109), Erdős's $R(k)\ge k2^{k/2}[(1/(e\sqrt2))+o(1)]$ from the union bound
-over the $\binom nk$ monochromatic-set events, and his
+over the $\binom nk$ monochromatic-set events, and Spencer's
 [[../library/ramsey_theory/spencer_1975_ramsey_theorem_new_lower_bound/corollary_2|Corollary 2]]
 (p. 110), $R(k)\ge k2^{k/2}[(\sqrt2/e)+o(1)]$, from Theorem 2 and the Lovász
 local lemma, which the paper calls "the first improvement in the lower bound of

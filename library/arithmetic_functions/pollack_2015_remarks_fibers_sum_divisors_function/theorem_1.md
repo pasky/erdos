@@ -62,7 +62,7 @@ $\alpha<0$.
 
 Lemma 1 (p. 3), proved in the paper. Proposition 1 (p. 3), the
 bounded-gaps theorem for admissible linear forms $a_ix+b_i$, which the paper
-attributes to Zhang (stated by him for all $a_i=1$) and, explicitly for
+attributes to Zhang (who stated it for all $a_i=1$) and, explicitly for
 general linear forms, to Maynard (Theorem 3.1 of arXiv:1405.2593); it is
 cited, not proved.
 

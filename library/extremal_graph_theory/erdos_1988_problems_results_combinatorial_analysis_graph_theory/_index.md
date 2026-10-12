@@ -96,7 +96,7 @@ that every edge of a $\mathscr G(n;cn^2)$ is contained in a triangle. Denote
 by $h(n;c)$ the largest integer so that every such graph has an edge which is
 contained in at least $h(n;c)$ triangles." He doubts that $h(n;c)$ is easy to
 determine, or even to estimate well, and lists what is known: for each fixed
-$c>0$, $h(n;c)\to\infty$ as $n\to\infty$ (Szemerédi, from his Regularity
+$c>0$, $h(n;c)\to\infty$ as $n\to\infty$ (Szemerédi, from the Regularity
 Lemma); for small $c$, $h(n;c)<c'n^{1/2}$ (Noga Alon); and for $c>\frac14$ a
 linear lower bound $h(n;c)>c_1n$, which he says is easy to see and well
 known. He then states a stronger result, provable "without much difficulty":

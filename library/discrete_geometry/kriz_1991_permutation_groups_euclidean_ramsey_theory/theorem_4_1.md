@@ -130,6 +130,6 @@ erratum.
 
 **Uses.** [[discrete_geometry/kriz_1991_permutation_groups_euclidean_ramsey_theory/theorem_4_2|Theorem 4.2]]. Mirabi uses the $n=2$
 case in
-[[discrete_geometry/mirabi_2026_one_point_extensions_euclidean_ramsey_sets/theorem_3_2|his alternative one-point-extension proof]].
+[[discrete_geometry/mirabi_2026_one_point_extensions_euclidean_ramsey_sets/theorem_3_2|an alternative one-point-extension proof]].
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0174/_index|Problem 174]].

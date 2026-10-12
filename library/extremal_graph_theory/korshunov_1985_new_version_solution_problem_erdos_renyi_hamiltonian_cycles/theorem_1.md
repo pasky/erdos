@@ -2,7 +2,7 @@
 name: extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/theorem_1
 title: "Theorem 1: almost every graph with n vertices and k edges is Hamiltonian iff k = (n/2)(log n + log log n + φ(n)), φ(n) → ∞"
 desc: |
-  Korshunov's threshold theorem, as printed in his 1985 English paper: almost
+  Korshunov's threshold theorem, as printed in the 1985 English paper: almost
   every graph with n vertices and k edges contains a Hamiltonian cycle if and
   only if k = (n/2)(log n + log log n + φ(n)) with φ(n) → ∞, with Theorem 2, its
   binomial-model form, which the paper proves; the statement of Problem 746

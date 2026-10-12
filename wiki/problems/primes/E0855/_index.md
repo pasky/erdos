@@ -84,7 +84,7 @@ and the uniform exclusion of Landau--Siegel zeros
 none of them names this problem or claims anything about
 $\pi(x+y)\le\pi(x)+\pi(y)$. Their only bearing is on the hypothesis of
 Granville's conditional interval constructions, recorded on
-[[../library/integer_sequences/granville_2020_sieving_intervals_siegel_zeros/_index|his card]],
+[[../library/integer_sequences/granville_2020_sieving_intervals_siegel_zeros/_index|the source card]],
 which assume infinitely many Siegel zeros; if the release's claims stand,
 those constructions have a false hypothesis, and the inequality itself is
 untouched either way. The claims are unverified here.

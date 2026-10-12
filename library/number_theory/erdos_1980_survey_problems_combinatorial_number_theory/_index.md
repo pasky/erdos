@@ -180,7 +180,7 @@ survey proves nothing here, so there is no proof to check):
   ($i=j$ permitted) are in the same class." Erdős finds it annoying that so
   simple a question is open. He reports partial results of Hindman,
   who showed that the conjecture is false for three classes and that
-  density $0$ is possible for one of his sequences, with counting function
+  density $0$ is possible for one of Hindman's sequences, with counting function
   $A_1(x)=\sum_{a_i<x}1<Cx^{1/2}$ (display (1)); Erdős does not know
   whether (1) is best possible. Erdős
   attributes the question to Ewing where the site attributes it to Owings.
@@ -490,9 +490,9 @@ more than $cn$ integers $m\le n$ of the form $a_{i_1}^{(j)}+a_{i_2}^{(j)}$ with
 both summands in one class; the site's key [Er80, p. 112]),
 [[../wiki/problems/additive_combinatorics/E0984/_index|#984]] (printed p. 92:
 Spencer's three-class split in which every monochromatic progression with first
-term $a$ is shorter than a very slowly growing $h(a)$, his question about two
-classes, and Erdős's two-class split with the bound $c_1a^{1-c_2}$, very likely
-$a^\varepsilon$, and no non-trivial lower bound),
+term $a$ is shorter than a very slowly growing $h(a)$, Spencer's question about
+two classes, and Erdős's two-class split with the bound $c_1a^{1-c_2}$, very
+likely $a^\varepsilon$, and no non-trivial lower bound),
 [[../wiki/problems/additive_combinatorics/E1185/_index|#1185]] (printed p. 92:
 the Erdős--Mauldin question whether for every $c>0$ some $t=t(c)$ makes every
 set of more than $cn$ integers up to $n$ contain, for any $t$ integers

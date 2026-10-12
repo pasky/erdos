@@ -272,10 +272,11 @@ $SP_n$ and the two statements are as the thread quotes them, and the
 derivation from them is valid only for those statements; the reopening
 condition is Smith's text read (JCTA 72 (1995), 77--94; the open-archive
 license suggests a browser download). (2) No formal statement exists; the
-derivation from Smith's statements is authored here. (3) Theorem 3.1 of Hindman's 1974 paper (p. 9) and Theorem 2.14 of his
-1980 paper (p. 117) are read first-hand, the latter's proof (pp. 117--118) for
-structure only and not checked. (4) [Sm01], a two-cell paper by the same
-author, was not read and may give a more direct two-cell theorem.
+derivation from Smith's statements is authored here. (3) Theorem 3.1 of
+Hindman's 1974 paper (p. 9) and Theorem 2.14 of the 1980 paper (p. 117) are
+read first-hand, the latter's proof (pp. 117--118) for structure only and not
+checked. (4) [Sm01], a two-cell paper by the same author, was not read and may
+give a more direct two-cell theorem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

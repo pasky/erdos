@@ -4,7 +4,7 @@ title: "Theorem 1.6 (Two-source zero-error dispersers): an explicit disperser fo
 desc: |
   Cohen's explicit two-source zero-error disperser for n-bit sources of
   entropy k = polylog(n) with k^{Omega(1)} output bits, the many-bit form of
-  his explicit bipartite Ramsey graphs.
+  the paper's explicit bipartite Ramsey graphs.
 created: 2026-10-08T14:35:00Z
 updated: 2026-10-08T14:56:45Z
 ---

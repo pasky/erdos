@@ -2,7 +2,7 @@
 name: analysis/biro_1994_problem_turan_concerning_sums_powers_complex/theorem_2
 title: "Theorem 2 (p. 212): with z_1 = ... = z_m = 1, the first n-m+1 power sums reach modulus above m(1/2 + m/(8n) + 3m^2/(64n^2))"
 desc: |
-  Biró's refinement of his one-half bound to systems whose first m members
+  Biró's refinement of the one-half bound to systems whose first m members
   equal one: the largest modulus among the first n-m+1 power sums exceeds m
   times 1/2 + (1/8)(m/n) + (3/64)(m/n)^2, which for m = 1 sharpens Theorem 1
   by a term of order 1/n.

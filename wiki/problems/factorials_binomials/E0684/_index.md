@@ -65,7 +65,7 @@ T. F. Bloom, Erdős Problem #684, https://www.erdosproblems.com/684.
 **Formalization.** No formal-conjectures statement file exists for the
 problem. Bae's Lean 4 development, not built or audited here, is linked at a
 pinned tag from
-[[problems/factorials_binomials/E0684/claims/2026_09_03_bae|his claim page]].
+[[problems/factorials_binomials/E0684/claims/2026_09_03_bae|Bae's claim page]].
 
 ## Current assessment
 
@@ -117,12 +117,12 @@ has a claim page and both are recorded here.
 - Almost all $n$, earlier (unrefereed):
   $f(n)\le(4/(1-\gamma)+o(1))\log n=(9.461\ldots+o(1))\log n$ for almost all
   $n$, in Nat Sothanaphan's notes *Averaged logarithmic bounds for the
-  binomial threshold problem* of 2 April 2026, linked from his thread post of
-  the same day; the notes' disclaimer says GPT-5.4 Thinking generated them in
-  a near-autonomous process. The notes prove the bound for every threshold
-  $n^\beta$, with constant $2\beta/(1-\gamma)$, by averaging over $n$ as a
-  thread comment of 1 April 2026 had suggested; no claim page, for the reason
-  given in the Current assessment.
+  binomial threshold problem* of 2 April 2026, linked from the author's thread
+  post of the same day; the notes' disclaimer says GPT-5.4 Thinking generated
+  them in a near-autonomous process. The notes prove the bound for every
+  threshold $n^\beta$, with constant $2\beta/(1-\gamma)$, by averaging over $n$
+  as a thread comment of 1 April 2026 had suggested; no claim page, for the
+  reason given in the Current assessment.
 - Superseded polynomial bounds: $f(n)\le\lceil n^{12/17+\varepsilon}\rceil$
   for large $n$, proved in the note of Quanyu Tang and ChatGPT-5.2 Thinking of
   19 January 2026, and $f(n)\le n^{30/43+o(1)}$ through Guth and Maynard's

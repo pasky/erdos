@@ -59,18 +59,18 @@ second question. So that remark is context and not acceptance evidence, and the
 page lists no `reviewed`. The library card records the paper's results. No proof
 review is recorded.
 
-**Formalization.** Collin Yuanjie Ren's submission jsp-000573-cyr in his awards
-repository, committed 2026-09-16 and linked above at that commit, formalizes
-Theorem 1.3 of the paper as `FranklFuredi.frankl_furedi` (for $t\ge1$, $T(n,t)$
-equals the Frankl–Füredi bound for all $n\ge n_0$) and as `erdos_703_exact` (for
-every $r$ and all $n\ge n_0(r)$, $T(n,r)=2^{n-1}$ when $r=0$ and the
-Frankl–Füredi bound otherwise). Its README says that the mathematics is due to
-P. Frankl and Z. Füredi, that the Lean code was prepared with Claude Code
-(Claude Fable 5.1 and Claude Opus) assistance, that the theorems depend only on
-the axioms `propext`, `Classical.choice` and `Quot.sound`, and that the
-development builds on the definitions, trivial case and lower-bound
-constructions of the `Erdos703` module of Boris Alexeev's lean-proofs
-collection. The community database lists the problem's formal status as Lean,
-with this submission as its source, as of its last update, dated 2026-09-16.
-This corpus has not built or audited the development, so the page lists no
-`formalized` evidence.
+**Formalization.** Collin Yuanjie Ren's submission jsp-000573-cyr in their
+awards repository, committed 2026-09-16 and linked above at that commit,
+formalizes Theorem 1.3 of the paper as `FranklFuredi.frankl_furedi` (for
+$t\ge1$, $T(n,t)$ equals the Frankl–Füredi bound for all $n\ge n_0$) and as
+`erdos_703_exact` (for every $r$ and all $n\ge n_0(r)$, $T(n,r)=2^{n-1}$ when
+$r=0$ and the Frankl–Füredi bound otherwise). Its README says that the
+mathematics is due to P. Frankl and Z. Füredi, that the Lean code was prepared
+with Claude Code (Claude Fable 5.1 and Claude Opus) assistance, that the
+theorems depend only on the axioms `propext`, `Classical.choice` and
+`Quot.sound`, and that the development builds on the definitions, trivial case
+and lower-bound constructions of the `Erdos703` module of Boris Alexeev's
+lean-proofs collection. The community database lists the problem's formal status
+as Lean, with this submission as its source, as of its last update, dated
+2026-09-16. This corpus has not built or audited the development, so the page
+lists no `formalized` evidence.

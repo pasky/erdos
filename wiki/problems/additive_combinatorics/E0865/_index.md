@@ -64,8 +64,8 @@ proof the author developed together with that model. It also declares that the
 Lean formalization was carried out with the prover Aristotle. The site's
 commentary credits the solution to Cipollini and GPT Pro, and the site accepted
 it on 2 July 2026 with the label PROVED (LEAN). On 27 June 2026, Stijn Cambie
-reported in the site's thread that he had read a version of the paper in detail
-and confirmed it. The paper's acknowledgments thank him for feedback and
+reported in the site's thread having read a version of the paper in detail
+and confirmed it. The paper's acknowledgments thank Cambie for feedback and
 improvements.
 
 This is a source-supported solution accepted by the site, distinct from a claim
@@ -165,13 +165,13 @@ strategy and that a formalization with Aristotle was in preparation; a
 comment of 22 June 2026 (the same account) linking a short paper drafted
 by GPT-5.5 Pro and a formalization that
 treated the 1975 coarse $2/3$ theorem as a hypothesis; a comment of 25
-June 2026 (the account StijnC) that he was in touch with the author to
+June 2026 (the account StijnC) that they were in touch with the author to
 share comments and check the proof; comments of 25 and 27 June 2026 (the
 author) reporting revisions, the second removing the coarse theorem
 through an induction; a comment of 27 June 2026 (the account StijnC)
 confirming the paper, whose updated version proves a $\frac58N+6\frac38$
-bound, while saying that he had read a previous version in detail, where
-he noticed that the $\frac58N+O(1)$ could be improved to about
+bound, while saying that they had read a previous version in detail, where
+they noticed that the $\frac58N+O(1)$ could be improved to about
 $\frac58N+3$, and had checked the crucial points of the major revision
 only briefly, adding that $C=2$ seems out of reach because Lemma 2.1 does not
 give $m/4+1$, and describing the main idea (residues appearing twice

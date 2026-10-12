@@ -27,9 +27,9 @@ $$
 
 The paper notes (p. 375) that Sander (J. London Math. Soc. 59 (1999),
 422--434) proved that (1.2) with $\alpha=0$ has no solution for $k=2,3,4$;
-the two solutions for $k=l=3$ are missing from his Proposition 2, so his
-Conjecture 1, that for $k\ge3$ equation (1.2) with $\alpha=0$ has only the
-trivial solutions, should be modified. The case $k=5$ is new.
+the two solutions for $k=l=3$ are missing from Sander's Proposition 2, so the
+same author's Conjecture 1, that for $k\ge3$ equation (1.2) with $\alpha=0$ has
+only the trivial solutions, should be modified. The case $k=5$ is new.
 
 **Source.** K. Győry, L. Hajdu and N. Saradha, *On the Diophantine equation
 $n(n+d)\cdots(n+(k-1)d)=by^l$*, Canad. Math. Bull. 47 (2004), no. 3,

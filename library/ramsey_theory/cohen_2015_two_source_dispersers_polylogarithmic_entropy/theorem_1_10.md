@@ -5,7 +5,7 @@ desc: |
   Cohen's main theorem: an explicit two-source sub-extractor for
   outer-entropy polylog(n) and inner-entropy k_out^{Omega(1)}, with
   k_out^{Omega(1)} output bits and error 2^{-k_out^{Omega(1)}}, from which
-  his explicit bipartite Ramsey graphs and dispersers follow.
+  the paper's explicit bipartite Ramsey graphs and dispersers follow.
 created: 2026-10-08T14:35:00Z
 updated: 2026-10-08T14:56:45Z
 ---

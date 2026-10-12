@@ -13,7 +13,7 @@ updated: 2026-10-08T18:03:01Z
 
 [[analysis/_index|..]]
 
-[[analysis/konyagin_1981_littlewood_problem/corollary_1|corollary_1]]: Konyagin's weighted form of his theorem: under the theorem's hypotheses
+[[analysis/konyagin_1981_littlewood_problem/corollary_1|corollary_1]]: Konyagin's weighted form of the theorem: under the theorem's hypotheses
 I_{F,R} is at least C ln of the sum over j of exp|a_j|, which answers
 Littlewood's question for not necessarily distinct frequencies.
 

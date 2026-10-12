@@ -34,7 +34,7 @@ page.
 
 The introduction's printing of Theorem 5.1 (p. 2) has $2.1615001$ as the lower
 bound, the value the introduction reports for Kleinwaks's 1010-term Sidon set
-$K$ supplemented by the greedy algorithm, as Kleinwaks himself remarked. The
+$K$ supplemented by the greedy algorithm, as Kleinwaks remarked. The
 proof on p. 12 concludes with the printed lower bound $2.16150003$. The upper
 bound improves the bound $\mathrm{DDC}<2.24732646$ that the introduction
 (p. 2) credits to Taylor, citing Yovanof and Taylor, and Levine's earlier

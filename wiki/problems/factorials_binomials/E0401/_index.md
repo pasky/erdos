@@ -47,8 +47,8 @@ in Boris Alexeev's repository, which this corpus has not built. A second route
 is a pending claim on
 [[problems/factorials_binomials/E0401/claims/2026_01_11_sothanaphan|its own page]].
 It is the deduction from the Problem 729 construction that ChatGPT noticed and
-Nat Sothanaphan posted and checked. It is developed in the appendix of his
-write-up of Problem 728. There is no refereed write-up.
+Nat Sothanaphan posted and checked. It is developed in the appendix of the
+poster's write-up of Problem 728. There is no refereed write-up.
 
 **Source.** [erdosproblems.com/401](https://www.erdosproblems.com/401), accessed
 2026-09-04 and, with its discussion thread, its empty proof-claims list, the
@@ -107,11 +107,12 @@ records the problem as proved with a Lean proof (last updated 11 January
 2026); there is no refereed write-up, and no Lean file is built here. The same
 day Sothanaphan reported in the thread that ChatGPT had noticed that the
 Problem 729 construction implies this problem, and posted the deduction with
-his own check of it; the appendix of his write-up [So26] of the Problem 728 proof derives both from a
-density-one theorem about valuations of binomial coefficients; that route is
-sketched rather than proved in full and no reviewer has accepted it, so
+their own check of it; the appendix of the write-up [So26] of the Problem 728
+proof derives both from a density-one theorem about valuations of binomial
+coefficients; that route is sketched rather than proved in full and no reviewer
+has accepted it, so
 [[problems/factorials_binomials/E0401/claims/2026_01_11_sothanaphan|its page]]
-is a pending claim. Carl Pomerance's note extending his earlier work on
+is a pending claim. Carl Pomerance's note extending the author's earlier work on
 divisors of the middle binomial coefficient, which [So26] compares with its
 Theorem 2, concerns
 [[problems/factorials_binomials/E0400/_index|Problem 400]] and is not a result

@@ -61,7 +61,7 @@ edges are Hamiltonian if and only if $k=\tfrac12n(\log n+\log\log n+\varphi(n))$
 with $\varphi(n)\to\infty$. It was announced in Dokl. Akad. Nauk SSSR 228
 (1976), 529--532, in the mathnet.ru copy (no file held). By the author's own
 account, the 1977 paper [Ko77], not held, gave a part of the proof, for
-$k>6n\log n$. The author's complete proof is Theorem 1, p. 171, of his 1985
+$k>6n\log n$. The author's complete proof is Theorem 1, p. 171, of the 1985
 paper (no file held), paged at
 [[../library/extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/theorem_1|theorem_1]].
 The second is Komlós and Szemerédi's limit law [KoSz83] (Discrete Math. 43
@@ -343,7 +343,7 @@ vertices are Hamiltonian. This question seems to be difficult. Recently Moon and
 Moser and I. Palásti proved $f(n)<cn^{3/2}$, but it seems certain that
 $f(n)<n^{1+\varepsilon}$ [24]." So in 1971 the expectation was
 $n^{1+\varepsilon}$; Frieze (p. 2) records that Komlós and Szemerédi proved
-$n^{1+\varepsilon}$ in a 1973 proceedings paper (his [151], not held), as
+$n^{1+\varepsilon}$ in a 1973 proceedings paper (Frieze's [151], not held), as
 [KoSz83] itself says (p. 55: "the present authors [3] proved the estimation
 $f(n)<n^{1+\varepsilon}$"), and that Pósa's $O(n\log n)$ "introduced the idea of
 using rotations". Pósa's own introduction ([Po76], pp. 359--360) states the
@@ -404,7 +404,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X, and no arXiv search
 the 1973 Komlós--Szemerédi paper.
 
 **Remaining gaps.** (1) Korshunov's theorem, the result the site's key [Ko77]
-credits, is taken as printed by its author in his 1985 paper (no file held) and
+credits, is taken as printed by its author in the 1985 paper (no file held) and
 paged at
 [[../library/extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/theorem_1|theorem_1]];
 the 1977 Russian paper itself is not held, so its printed statement, and the

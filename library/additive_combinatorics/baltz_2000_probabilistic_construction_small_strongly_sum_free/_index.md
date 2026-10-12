@@ -73,7 +73,7 @@ bound, and p. 172 attests the greedy lower bound $\sqrt n$ and Choi's bound
 and conjecture; the intervals are half-open where the site's are open.
 [[../wiki/problems/additive_combinatorics/E0787/_index|#787]]: Corollary 3 (p. 174) refines
 Choi's $g(n)=O(n^{2/5+\varepsilon})$ to $O(n^{2/5}(\ln n)^{2/5})$ for the
-problem's $g(n)$, and p. 171 attests Choi's integer reduction and his
+problem's $g(n)$, and p. 171 attests Choi's integer reduction and
 $g(n)\ge\ln n$; not a key of the site's page.
 
 **Results to transcribe.**

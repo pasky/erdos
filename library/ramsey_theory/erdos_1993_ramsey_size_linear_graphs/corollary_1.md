@@ -23,7 +23,7 @@ and size at least $2p-2$ is not Ramsey size linear": **Theorem 2**
 exists a positive constant $C$ such that for $n$ sufficiently large,
 $r(G,K_n)>C\bigl(\frac{n}{\log n}\bigr)^{(q-1)/(p-2)}$." For $q\ge2p-2$ the
 exponent exceeds $2$, while $K_n$ has $\binom n2=O(n^2)$ edges, so $H=K_n$
-witnesses the failure. Wigderson restates the corollary as his Lemma 3.
+witnesses the failure. Wigderson restates the corollary as Lemma 3.
 
 **Source.** P. Erdős, R. J. Faudree, C. C. Rousseau and R. H. Schelp,
 *Ramsey size linear graphs*, Combin. Probab. Comput. 2 (1993), no. 4,

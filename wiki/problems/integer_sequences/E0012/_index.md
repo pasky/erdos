@@ -83,7 +83,7 @@ formal proofs, [TKS26], of May 2026 and revised June 2026, is unrefereed.
 Nat Sothanaphan's note of 8 April 2026 gives its own construction answering the
 same two questions. The note was produced with GPT-5.4 Thinking and linked in
 the thread on 7 April. It is recorded as a pending partial claim on
-[[problems/integer_sequences/E0012/claims/2026_04_07_sothanaphan|his claim page]].
+[[problems/integer_sequences/E0012/claims/2026_04_07_sothanaphan|Sothanaphan's claim page]].
 
 Before 2026 the results in hand were the density-zero theorem of Erdős and
 Sárközy (1970), their $p^2$ example with counting function $\gg N^{1/2}/\log N$,
@@ -279,11 +279,11 @@ $A_S(N)<(3+\varepsilon)N^{2/3}(\log N)^{-1}$ for infinitely many $N$ (Integers
 by the arithmetic large sieve with the elements of $S$ as moduli. The
 "counterexample" Baier attributes to Schoen is the $p^2$ example of [ErSa70],
 which Schoen recalls on p. 192 ("following [2]") to show that $c$ cannot exceed
-$1/2$ in the second question for coprime sets; his Remarks (p. 195) restate it
+$1/2$ in the second question for coprime sets; the Remarks (p. 195) restate it
 as: the exponent $2/3$ "cannot be substituteded [sic] by $1/2-\varepsilon$" (p.
 192 prints the observation as "$c<1/2$ is impossible" [sic], a misprint for
 $c>1/2$, as the library card notes). Schoen's P-set definition, like Baier's,
-lets the two larger elements coincide (his equation form $x+y=kz$, $x,y>z$
+lets the two larger elements coincide (its equation form $x+y=kz$, $x,y>z$
 admits $x=y$). Read depth: each statement is checked against its source;
 Schoen's proof (pp. 193--194) has been followed step by step; no other proof has
 been followed; nothing is independently reviewed.
@@ -309,8 +309,8 @@ the conditions $b,c>a$ already exclude $2a=b+c$, so no progression-free
 ingredient is needed and a minor tweak of the 1970 construction suffices, and
 called the solution notable as an AI-generated partial solution to a problem
 with prior human partial progress; a comment of 21:40 (Nat Sothanaphan) reports
-simplifying the proofs with GPT-5.4 Thinking and links his dated note, recorded
-on
+simplifying the proofs with GPT-5.4 Thinking and links the poster's dated note,
+recorded on
 [[problems/integer_sequences/E0012/claims/2026_04_07_sothanaphan|its claim page]];
 a comment of 22:33 (the account TFBloom) gives the simpler construction
 $B_k=\{C^{k\log k}<n<\tfrac32C^{k\log k}:n\equiv1\ (\mathrm{mod}\ p_i),\ i<k,\ n\equiv0\ (\mathrm{mod}\ p_k)\}$

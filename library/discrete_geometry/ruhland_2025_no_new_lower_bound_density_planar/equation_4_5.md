@@ -23,7 +23,7 @@ radius $1$. Its area is $A_D=\pi-0.0104747054\,\epsilon^2$ (2.5), p. 4.
 Section 3 (p. 5) places copies of $D_\epsilon$, rotated by $0$, $2\pi/3$
 and $4\pi/3$, on the three colour classes of a hexagonal lattice with lattice
 constant $L=2L_C$, $L_C=1+\cos\varphi_C$ Croft's lattice constant and
-$\varphi_C=15.08686^\circ$ his half segment angle, and cuts from each
+$\varphi_C=15.08686^\circ$ the half segment angle, and cuts from each
 nearest-neighbour pair the two disc segments inside a strip of width $2$
 placed to minimize their total area. The result is a 2-avoiding set
 $S_\epsilon$; $S_0$ is Croft's construction scaled by $2$. The cut sets

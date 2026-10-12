@@ -3,7 +3,7 @@ name: unit_fractions/terzi_1971_conjecture_erdos_straus/verification_p215
 title: "The verification for n up to 10^8 on p. 215"
 desc: |
   Terzi's statement that the Erdős–Straus conjecture holds for all n up to
-  10^8, crediting Obláth, Rosati and Yamamoto below 10^7 and his own second
+  10^8, crediting Obláth, Rosati and Yamamoto below 10^7 and the author's second
   algorithm between 10^7 and 10^8, with the seven printed Rosati quadruples
   of Table 3.
 created: 2026-09-22T00:00:00Z
@@ -100,7 +100,7 @@ verifications credited to Obláth ($n<106129$), Rosati
 computer run reported on p. 215. The problem page's history of finite
 verifications is Table 1 of
 [[unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/_index|Elsholtz and Tao]]
-(p. 4), which lists Terzi's $10^8$ with the caveat that his set of checked
+(p. 4), which lists Terzi's $10^8$ with the caveat that the set of checked
 primes appears incomplete; the printed Table 3 is that incompleteness.
 
 ## Bears on

@@ -82,7 +82,7 @@ arithmetic progression and a central symmetric interval, gives Theorem 4.1
 and from it Theorem 4.6, sizes forming a progression from $O(\sqrt n)$ to
 $n/3-O(\sqrt n)$. Theorem 1.4 follows: the relative sizes $|S|/n$ are dense
 in $[0,\frac13]$, which the paper says answers Cameron's question whether the
-densities $|S|/(2n)$ of complete sum-free sets, met in his study of random
+densities $|S|/(2n)$ of complete sum-free sets, met in Cameron's study of random
 sum-free sets, are dense in $[0,\frac16]$. Theorem 1.5 follows too: every
 large $\mathbb{Z}_n$ contains such a set of size at most $c\sqrt n$.
 

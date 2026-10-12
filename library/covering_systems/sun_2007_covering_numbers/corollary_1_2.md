@@ -4,7 +4,7 @@ title: "Corollary 1.2 (p. 4): infinitely many primitive covering numbers with ex
 desc: |
   Sun's corollary that for every r = 2, 3, ... there are infinitely many
   primitive covering numbers with exactly r distinct prime divisors,
-  deduced from his Theorem 1.3 and Dirichlet's theorem.
+  deduced from the paper's Theorem 1.3 and Dirichlet's theorem.
 created: 2026-10-08T17:27:26Z
 updated: 2026-10-08T17:27:26Z
 ---

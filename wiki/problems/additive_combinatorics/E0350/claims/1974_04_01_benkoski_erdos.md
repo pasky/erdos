@@ -60,7 +60,7 @@ checked for the theorem and the refinement on the
 of the
 [[../library/divisors/benkoski_1974_weird_pseudoperfect_numbers/_index|source card]];
 the proof for structure, not checked. Ryavec
-published no text of his own, and the elementary proof of E. and G.
+published no text of their own, and the elementary proof of E. and G.
 Szekeres that Erdős mentions in 1975 is untraced.
 
 **Depends on.** Nothing in this wiki.
@@ -85,7 +85,7 @@ $2^k-1$, so the reciprocal sum is at most $\sum_{i<n}2^{-i}<2$.
   elements is derived from the distinctness hypothesis. The file has no
   `sorry`, no `axiom` declaration and no `native_decide`, and records no
   `#print axioms` output. The repository's owner announced the file on the
-  site's discussion thread on 25 November 2025 and reported there that he
+  site's discussion thread on 25 November 2025 and reported there that they
   had checked the result; the repository's record page lists copies for six
   Mathlib versions.
 - The file `FormalConjectures/ErdosProblems/350.lean` of the fork
@@ -109,7 +109,7 @@ of 2026-09-18; category `research solved`, `sorry` body) carries
 the second at the linked commit, and its docstring says that the problem
 was formalized in Lean by Alexeev using Aristotle. The community database
 lists the problem as proved in Lean, its entry last updated on 25 November
-2025, the day Alexeev announced his file; the catalog added the fork's
+2025, the day Alexeev announced the file; the catalog added the fork's
 proof in April 2026. Only the linked commits of the two files are
 described. No `formalized` evidence is listed: that evidence means Lean
 this corpus built and audited, and no statement-fidelity review of either

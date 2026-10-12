@@ -65,4 +65,4 @@ of the same paper.
 - [[../wiki/problems/additive_combinatorics/E0787/_index|Problem 787]]: the refinement
   of Choi's upper bound $n^{2/5+o(1)}$ to $O(n^{2/5}(\log n)^{2/5})$, held
   and refereed, superseded by Ruzsa's $\exp(O(\sqrt{\log n}))$ (not held);
-  p. 171 also attests Choi's $g(n)\ge\ln n$ and his integer reduction.
+  p. 171 also attests Choi's $g(n)\ge\ln n$ and integer reduction.

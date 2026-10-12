@@ -42,8 +42,8 @@ II* (Urbana, Illinois, 2000), A K Peters, Natick, Massachusetts (2002),
 The copy read for this card is a 24-page author manuscript dated 22 May 2001.
 Filaseta's
 [official publication list](https://people.math.sc.edu/filaseta/paperindex.html)
-supplies the proceedings citation above, and his seminar list records a talk
-with this title at the Millennial Conference on Number Theory on 23 April
+supplies the proceedings citation above, and the author's seminar list records a
+talk with this title at the Millennial Conference on Number Theory on 23 April
 2000. The result pages use the author manuscript and cite its printed page
 numbers, which run one behind the PDF's physical pages (the title page is
 unnumbered), giving the PDF page beside them; a published proceedings PDF

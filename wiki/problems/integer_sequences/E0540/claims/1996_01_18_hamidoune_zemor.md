@@ -47,7 +47,7 @@ Olson, *Sums of sets of group elements*, Acta Arith. 28 (1975), 147--156).
 
 **Acceptance.** Refereed: the journal publication. Reviewed: the site's curator,
 Thomas Bloom, who is independent of the authors, labels the problem PROVED
-(LEAN). His commentary credits this paper with the threshold $(1+o(1))\sqrt{2N}$
+(LEAN). The commentary credits this paper with the threshold $(1+o(1))\sqrt{2N}$
 for abelian groups of order $N$.
 
 **Depends on.** No page of this wiki; the proof's input from Olson (1975) is

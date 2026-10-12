@@ -49,7 +49,7 @@ numerators and denominators are distinct.
 On p. 1024 the author states that the conditions $(r,s)=1$ and $(v,b)=1$ are
 necessary for the theorem to hold in this generality, that $(u,v)=1$ appears
 almost impossible to omit, and that $(v,s)=1$ and $(v,r)=1$ may possibly be
-weakened; as an instance, he says that $(v,r)=1$ may be replaced by
+weakened; as an instance, Webb says that $(v,r)=1$ may be replaced by
 $(v,r,u-s)=1$, by an argument not given in the paper.
 
 ## Dependencies

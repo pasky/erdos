@@ -12,7 +12,7 @@ updated: 2026-10-08T18:17:13Z
 
 [[distance_problems/_index|..]]
 
-[[distance_problems/szlam_2001_monochromatic_translates_configurations_plane/proposition_2|proposition_2]]: Szlam's partial converse to his reduction, turning a proper n-coloring of
+[[distance_problems/szlam_2001_monochromatic_translates_configurations_plane/proposition_2|proposition_2]]: Szlam's partial converse to the reduction, turning a proper n-coloring of
 R^m whose color classes are translates of one class into an admissible
 red-blue coloring with no red translate of some n-point configuration.
 

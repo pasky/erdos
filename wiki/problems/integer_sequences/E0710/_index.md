@@ -163,8 +163,8 @@ the proof of Lemma 2 was not read; nothing is independently reviewed by
 this project. The gap between the two sides is a factor of order
 $\sqrt{\log\log n}$ and a constant; the asymptotic formula asked for is
 unknown. Van Doorn's 2026 theorem concerns $\max_mf(n,m)$ (Problem 711), not
-the diagonal, and his Lemma 3 quotes the two bounds above; the OEIS entry
-A390246 lists the site's $f(n)$ for small $n$ ($f(10)=15$; not recomputed
+the diagonal, and the paper's Lemma 3 quotes the two bounds above; the OEIS
+entry A390246 lists the site's $f(n)$ for small $n$ ($f(10)=15$; not recomputed
 beyond $n=10$ here).
 
 **Forum and AI-assisted items (leads with provenance, not status).** The

@@ -39,7 +39,7 @@ n → ∞, so for all but a vanishing proportion of sign choices the minimum
 modulus is at most n^{-1/2+ε}. The introduction (p. 80) recalls Littlewood's
 conjecture that P(ε n^{1/2}) → 0 for every ε > 0, Kashin's proof of it in
 the form P(n^{1/2}(log n)^{-1/3}) → 0, and A. M. Odlyzko's unpublished
-result P(n^{1/3+ε}) → 0 together with his conjecture that most such
+result P(n^{1/3+ε}) → 0 and conjecture that most such
 polynomials satisfy min |T(x)| < n^{-1/2+ε}, which Theorem 1 proves. The
 proof (pp. 80--101), for 0 < ε < 1, looks at the points 2πκ/k with k a
 prime near n^{1-ε/(5r)}, shows by Taylor's formula that a suitable event for

@@ -38,9 +38,9 @@ distinct distances among n planar points, Moser's improvements as reported,
 and the conjectures f_2(n) > c_2 n/(log n)^(1/2) and its summed form.
 
 [[distance_problems/erdos_1975_problems_elementary_combinatorial_geometry/section_1_inequality_2|section_1_inequality_2]]: Szemerédi's result, with Erdős's sketch, that n planar points with no k on a
-line have a point with more than ε_k n distinct distances; his conjecture
-(6) that no three on a line gives a point with at least [n/2]; and the
-reported bound [n/3].
+line have a point with more than ε_k n distinct distances; Szemerédi's
+conjecture (6) that no three on a line gives a point with at least [n/2];
+and the reported bound [n/3].
 
 [[distance_problems/erdos_1975_problems_elementary_combinatorial_geometry/section_2_unit_distances_p102|section_2_unit_distances_p102]]: For n points with minimum distance 1, the most pairs at distance 1, m_k(n):
 m_1(n) = n - 1, m_2(n) < 3n, m_3(n) < 6n, the two-sided bounds
@@ -83,8 +83,8 @@ Erdos-Straus bound g(n; k) < c^{k^{1-beta_n}}. For problem 660 the paper
 contributes only the remark in Section 1 that Altman proved D_3 > c n for the
 vertices of a convex polyhedron in 3-space, with no reference given, so it does
 not settle the exact n/2 asymptotic formulation; the convex-polygon case f_2(n)
-= [n/2] proved by Altman is stated, and the section's reference list names his
-1963 Monthly paper and his 1972 Canad. Math. Bull. paper on convex polygons.
+= [n/2] proved by Altman is stated, and the section's reference list names
+Altman's 1963 Monthly and 1972 Canad. Math. Bull. papers on convex polygons.
 Section 4 (pp. 105-106) surveys ordinary lines (Sylvester's question and
 Gallai's proof, the de Bruijn-Erdos conjecture proved by Motzkin, Kelly and
 Moser's bound [3n/7], Motzkin's conjecture of n/2 for large n) and closes with
@@ -116,7 +116,7 @@ are not restated.
   unsettled single-vertex form, and Danzer's unpublished counterexample.
 - [[distance_problems/erdos_1975_problems_elementary_combinatorial_geometry/section_1_inequality_2|Section 1, inequality (2)]]
   (p. 100): Szemeredi's $\max_i d_2(x_i)>\varepsilon_kn$ when no $k$ points
-  are on a line, his conjecture (6) and the bound $[n/3]$ (p. 101).
+  are on a line, Szemeredi's conjecture (6) and the bound $[n/3]$ (p. 101).
 - [[distance_problems/erdos_1975_problems_elementary_combinatorial_geometry/section_1_higher_dimensions_p101|Section 1, higher dimensions]]
   (p. 101): inequality (7) $f_k(n)<c_kn^{2/k}$, Altman's reported
   $D_3>cn$ for convex polyhedra, and Szemeredi's bounds in 3-space.

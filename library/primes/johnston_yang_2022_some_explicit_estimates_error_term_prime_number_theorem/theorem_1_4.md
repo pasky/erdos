@@ -72,7 +72,7 @@ $A_2\le0.028$.
 
 ## Dependencies
 
-Lemma 2.10 (Ford's Vinogradov--Korobov region, his Theorem 5); Lemmas 2.1,
+Lemma 2.10 (the Vinogradov--Korobov region, Ford's Theorem 5); Lemmas 2.1,
 2.4--2.6 and A.3--A.4; [[primes/johnston_yang_2022_some_explicit_estimates_error_term_prime_number_theorem/lemma_2_2|Lemma 2.2]];
 [[primes/johnston_yang_2022_some_explicit_estimates_error_term_prime_number_theorem/theorem_1_1|Theorem 1.1]] for the middle range.
 

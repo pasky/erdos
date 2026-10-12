@@ -286,7 +286,7 @@ rate.
 
 - The site: problem page, discussion (four comments: the AI-assisted computation
   of 14 September 2026 described above, the comment of 29 December 2025 by the
-  paper's second author announcing the result, his comment of 8 December 2025
+  paper's second author announcing the result, their comment of 8 December 2025
   deriving $v(k)\le s_k$ from the Sylvester sequence, and the comment of 8
   December 2025 that states inequality (1.2) and clarifies the definition; the
   site text reflects the last three) and the empty proof-claim tab; the

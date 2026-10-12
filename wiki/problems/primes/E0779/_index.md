@@ -42,7 +42,7 @@ counterexample is a single $n>1$ for which no prime $p$ with $p_n<p<P$ makes
 $P+p$ prime, a check by finite arithmetic over the primes below $P$, while a
 proof must cover every $n$. The label is a body note, not a claim, and the
 problem has no claim page. The site's commentary attributes the question to
-Deaconescu, records his verification of it for $n\le1000$, and reports
-Erdős's expectation that the least such $p$ is at most a fixed power of $n$;
-its probabilistic heuristic makes a failure at any $n$ extremely unlikely.
-Nothing here is independently reviewed.
+Deaconescu, records the proposer's verification of it for $n\le1000$, and
+reports Erdős's expectation that the least such $p$ is at most a fixed power
+of $n$; its probabilistic heuristic makes a failure at any $n$ extremely
+unlikely. Nothing here is independently reviewed.

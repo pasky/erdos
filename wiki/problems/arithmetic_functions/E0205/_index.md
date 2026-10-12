@@ -82,14 +82,14 @@ proof-claims thread was empty on 2026-10-07.
 evidence alone, and the derived standing is solved, disproved.
 [[problems/arithmetic_functions/E0205/claims/2026_01_11_barreto_leeham|Barreto–Leeham 2026]]
 rests on the site curator's credit and on Terence Tao's acceptance in the
-discussion thread on 2026-01-11, where he listed the construction as a full
+discussion thread on 2026-01-11, where they listed the construction as a full
 AI solution in the community database's AI-contributions wiki;
 [[problems/arithmetic_functions/E0205/claims/2026_01_11_tao_alexeev|Tao–Alexeev 2026]]
 rests on the site curator's credit and on Nat Sothanaphan's thread comment
-of the same day that he had checked by hand his human-readable version of
+of the same day that they had checked by hand their human-readable version of
 the quantified Lean proof. Two informal write-ups exist, both posted on
-2026-01-11: Liam Price's Overleaf write-up of the construction, which he
-describes as ChatGPT's output, and Sothanaphan's de-formalization of the
+2026-01-11: Liam Price's Overleaf write-up of the construction, which the
+author describes as ChatGPT's output, and Sothanaphan's de-formalization of the
 quantified proof; neither is refereed and no library card digests either.
 No refereed account exists and no Lean file was built by this corpus.
 

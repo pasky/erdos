@@ -2,8 +2,8 @@
 name: discrete_geometry/escudero_2016_gallai_triangles_configurations_lines_projective_plane/lemma_1
 title: "Lemma 1 (p. 552): in A_{d,k} every two lines meet, three are concurrent iff their indices sum to k+1 mod d, and no vertex has multiplicity above 3"
 desc: |
-  García Escudero's lemma that in his arrangement A_{d,k} every two lines
-  intersect, three lines are concurrent exactly when their indices sum to
+  García Escudero's lemma that in the paper's arrangement A_{d,k} every two
+  lines intersect, three lines are concurrent exactly when their indices sum to
   k+1 modulo d, and no vertex lies on more than three lines.
 created: 2026-10-08T18:17:13Z
 updated: 2026-10-08T18:17:13Z

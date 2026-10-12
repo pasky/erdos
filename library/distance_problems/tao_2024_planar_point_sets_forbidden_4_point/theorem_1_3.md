@@ -33,8 +33,8 @@ page. The set the proof produces in fact contains no parallelogram
 **Read depth.** Claims checked: the statement and the proof's lemmas
 (Lemmas 1.5, 1.6 and 1.7 and the concluding paragraph on p. 6) were read on
 the arXiv v1 page images; the argument was followed but not re-derived, and
-Lemma 1.4, quoted from Dumitrescu, was not checked against his paper. Nothing
-here is independently reviewed.
+Lemma 1.4, quoted from Dumitrescu, was not checked against Dumitrescu's paper.
+Nothing here is independently reviewed.
 
 ## Proof pointer
 

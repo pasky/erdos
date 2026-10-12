@@ -21,7 +21,7 @@ inequality pi(x+y) <= pi(x)+pi(y).
 
 [[primes/richards_1974_incompatibility_two_conjectures_concerning_primes_discussion_use_computers_attacking_theoretical_pro/definition_1_7|definition_1_7]]: Richards's definition of rho*(x) as the largest k for which an admissible
 k-tuple of distinct integers lies in an interval of x consecutive integers,
-with admissibility as in his Definition 1.5.
+with admissibility as in the paper's Definition 1.5.
 
 [[primes/richards_1974_incompatibility_two_conjectures_concerning_primes_discussion_use_computers_attacking_theoretical_pro/proposition_1_9|proposition_1_9]]: Richards's proposition that, assuming the prime k-tuples conjecture (B),
 rho*(x) is the largest number of primes that infinitely many intervals of
@@ -180,7 +180,7 @@ problems (Part IV, “Further results”, printed pp. 437–438).
 This source bears on [[../wiki/problems/primes/E0855/_index|Problem 855]].
 
 Use E855’s variables exactly as follows: Richards’s interval length is E855’s
-$x$, and his translation parameter is E855’s $y$. Consequently
+$x$, and the paper’s translation parameter is E855’s $y$. Consequently
 
 $$
 \#\{p:y<p\leq y+x\}=\pi(x+y)-\pi(y),

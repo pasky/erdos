@@ -28,7 +28,7 @@ for $k_1>k_0$, $g(k_1)>k_1^3$?"
 **Remark** (p. 9). The remark points back to 86:18 and states that deficient
 binomial coefficients must have $n+k\ge g(k)$. It then reports, without
 proof or reference, that Lacampagne later wrote that Erdős had proved
-$g(k)>ck^2/\ln k$ for large $k$, and that Andrew Granville thought he might
+$g(k)>ck^2/\ln k$ for large $k$, and that Andrew Granville hoped to
 be able to prove that $g(k)$ exceeds any power of $k$ for all sufficiently
 large $k$.
 

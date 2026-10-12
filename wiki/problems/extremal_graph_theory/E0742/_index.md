@@ -157,7 +157,7 @@ leaves open); and the collection keeps the all-$n$ statement `research open`
 while marking the large-$n$ statement `solved`, which is the DECIDABLE label
 in the collection's terms. The external file (196,156 bytes, 4,376 lines) is
 described under the Current assessment and, as a self-declared formalization
-of Füredi's theorem, linked from his claim page; this corpus has built none of
+of Füredi's theorem, linked from its claim page; this corpus has built none of
 it, and the collection's statement file is no formalization link. The
 community database records the problem decidable (as of
 its last update, 31 August 2025), the statement formalized since 29 June 2026,
@@ -335,7 +335,7 @@ for structure only; the external Lean file neither built nor audited. (5)
 [Pl75] is unread, so Plesník's bound rests on Füredi's and Fan's
 attestations; the statements of [CaHa79] and [Fa87] (Conjecture 1 and
 Theorem 1; the Theorem's parts (ii)--(iii) with the Remark on $n=26$) agree
-with Füredi's account of them, Fan's cases following from his inequality (7)
+with Füredi's account of them, Fan's cases following from inequality (7)
 by computation and the derivation of (7) covered for structure only. The
 site's Ore attribution is not on the preprint pages cited. The site
 attributes the conjecture to Murty and Plesník, following the problem's own

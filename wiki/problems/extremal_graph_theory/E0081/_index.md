@@ -56,16 +56,17 @@ full).
 Two results get no claim page because they settle no instance of the question.
 The first is the proof-claims tab's entry of 10 August 2026 by Cipollini (claim
 201). It is an Overleaf manuscript that partitions the edges of every chordal
-graph into $n^2/6+o(n^2)$ cliques. As the tab says, he wrote it with LaTeX
-assistance and minor polishing by GPT-5.6 Sol. It gives the sharp quadratic
-coefficient and names the gap between $o(n^2)$ and $O(n)$ as the remaining
-difficulty. It proves the $O(n)$ error for no class of chordal graphs. The later
-full claims credit it as an independent first-order bound. The second is the
-thread's comment of 19 June 2026, which is not registered on the tab. It reports
-an explicit form of the bound of Erdős, Ordman and Zalcstein, $(1/4-c)n^2$ with
-$c\ge1/133$, which sharpens a known weaker bound. As the comment says, this was
-obtained with ChatGPT 5.5 Pro and formalized by Aristotle. The site states that
-a listing on the proof-claims tab is no guarantee of correctness.
+graph into $n^2/6+o(n^2)$ cliques. As the tab says, Cipollini wrote it with
+LaTeX assistance and minor polishing by GPT-5.6 Sol. It gives the sharp
+quadratic coefficient and names the gap between $o(n^2)$ and $O(n)$ as the
+remaining difficulty. It proves the $O(n)$ error for no class of chordal graphs.
+The later full claims credit it as an independent first-order bound. The second
+is the thread's comment of 19 June 2026, which is not registered on the tab. It
+reports an explicit form of the bound of Erdős, Ordman and Zalcstein,
+$(1/4-c)n^2$ with $c\ge1/133$, which sharpens a known weaker bound. As the
+comment says, this was obtained with ChatGPT 5.5 Pro and formalized by
+Aristotle. The site states that a listing on the proof-claims tab is no
+guarantee of correctness.
 
 **Source.** [erdosproblems.com/81](https://www.erdosproblems.com/81), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #81,

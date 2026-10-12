@@ -4,7 +4,8 @@ title: "Lemma 1 (p. 638): at most p x^theta_p integers n <= x have C(2n,n) prime
 desc: |
   Pomerance's Lemma 1 bounds by p x^theta_p, with theta_p = log((p+1)/2)/log p,
   the number of n up to x for which an odd prime p does not divide C(2n,n),
-  the count behind his heuristic for Graham's problem on C(2n,n) coprime to 105.
+  the count behind the paper's heuristic for Graham's problem on C(2n,n)
+  coprime to 105.
 created: 2026-10-08T16:16:06Z
 updated: 2026-10-08T16:16:06Z
 ---

@@ -26,7 +26,7 @@ question for such sequences and is refereed, in Proc. Amer. Math. Soc.
 
 [[problems/discrepancy/E0987/claims/2025_08_30_tao|2025_08_30_tao]]: Tao's 2025 forum proof shows that $\limsup_k A_k=\infty$ for every sequence.
 It reproves the answer to the first question, is credited by the site's
-curator, and has a Lean 4 formalization in his analysis repository that was
+curator, and has a Lean 4 formalization in Tao's analysis repository that was
 not built here.
 
 [[problems/discrepancy/E0987/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant|2026_04_08_alexeev_putterman_sawhney_sellke_valiant]]: Alexeev, Putterman, Sawhney, Sellke and Valiant's 2026 theorem, due to an

@@ -107,8 +107,8 @@ mathematical refereeing, which has not occurred.
 
 The site attributes the 2026 disproof to GPT-6 Astra in the FrontierMath
 Erdős benchmark. Bloom's proof claim of 2026-09-03 supplies a PDF
-exposition that GPT generated from the Lean proof at his request, and his own
-preliminary sketch. The
+exposition that GPT generated from the Lean proof at the claimant's request, and
+the claimant's own preliminary sketch. The
 [[../library/graph_coloring/adamczewski_2026_erdos74/theorem_1_1|complete reconstructed argument]]
 produces one function $f\to\infty$ for which every graph obeying the
 prescribed edge-deletion bound has chromatic number at most three.

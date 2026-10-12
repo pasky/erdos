@@ -27,8 +27,8 @@ vertices of $H$. Must $G$ be the union of a bipartite graph and $O_k(1)$ many
 vertices?
 
 **Status.** Proved. The site labels the problem PROVED and credits Reed [Re99],
-noting with him that the case $k=0$ is trivial. The frontmatter standing is
-derived from the one claim page under `claims/`,
+noting with the paper that the case $k=0$ is trivial. The frontmatter standing
+is derived from the one claim page under `claims/`,
 [[problems/extremal_graph_theory/E0073/claims/1999_02_01_reed|Reed]], accepted
 on the refereed publication and the site's credit.
 

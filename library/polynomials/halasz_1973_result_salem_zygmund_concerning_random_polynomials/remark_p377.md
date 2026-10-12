@@ -2,7 +2,7 @@
 name: polynomials/halasz_1973_result_salem_zygmund_concerning_random_polynomials/remark_p377
 title: "Remark (p. 377): the theorem for random sign power polynomials on the unit circle"
 desc: |
-  Halász's closing remark that his bounds carry over to the power polynomial
+  Halász's closing remark that the bounds carry over to the power polynomial
   with random signs on the unit circle, the lower bound through its real part
   and the upper bound through the real parts of finitely many fixed rotations,
   so that its maximum divided by sqrt(n log n) tends almost surely to 1.

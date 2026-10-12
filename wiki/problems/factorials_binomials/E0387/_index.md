@@ -77,7 +77,7 @@ journal publication is recorded. An unsigned note posted in
 the site's thread on 2026-05-29 by Przemek Chojecki, its argument credited to
 GPT-5.5 Pro, claims the same negative answer for every fixed window $(n/B,n]$
 by pairing a fixed-$B$ covering construction with the first version's divisor
-propositions; Naprienko described it as a rewriting of his own construction,
+propositions; Naprienko described it as a rewriting of their own construction,
 public since 2026-05-23, and it is a pending claim on
 [[problems/factorials_binomials/E0387/claims/2026_05_29_chojecki|its page]].
 

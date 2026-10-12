@@ -84,9 +84,9 @@ were not searched.
 lists `formalized` evidence, and whether Petkov's Lean definitions reach the
 uncountable hosts of the question was not examined. (3) The two proofs are not
 informationally independent by the second claimant's later account: in a site
-comment of 2026-07-15 Petkov called his proof independent, but his manuscript
-revision of 2026-07-21 presents an alternative proof that reuses Li's one-apex
-sequence-lift and bridge-trace framework for the converse, credits Li's
+comment of 2026-07-15 Petkov called the second proof independent, but the
+manuscript revision of 2026-07-21 presents an alternative proof that reuses Li's
+one-apex sequence-lift and bridge-trace framework for the converse, credits Li's
 preprint as the first complete proof and claims no informational independence.
 <!-- BEGIN problem library links -->
 

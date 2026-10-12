@@ -20,7 +20,7 @@ proves nothing on it.
 
 [[additive_bases/pliego_2024_erdos_turan_conjecture_growth_b_2/conjecture_1_2|conjecture_1_2]]: Pliego's prediction that for every eps > 0 some Sidon sequence represents
 every large integer as a sum of three of its elements with one summand at
-most n^eps, the Sidon analogue of his Corollary 1.1; the paper proves
+most n^eps, the Sidon analogue of the author's Corollary 1.1; the paper proves
 nothing on it.
 
 [[additive_bases/pliego_2024_erdos_turan_conjecture_growth_b_2/conjecture_p2|conjecture_p2]]: The stronger conjectural statement Pliego attributes to Erdős and Fuchs,

@@ -111,7 +111,7 @@ above; status PROVED; source key [ErGr80]. The commentary derives the
 upper bound $f(k)\le(1+o(1))\frac{k}{e-1}$ from
 $\sum_{u\le n\le eu}\frac1n=1+o(1)$, since $f(k)=u$ forces
 $k\ge(e-1-o(1))u$, and then calls the problem essentially solved by Croot
-[Cr01], citing his theorem that for every $N>1$ some $k\ge1$ and
+[Cr01], citing the theorem that for every $N>1$ some $k\ge1$ and
 $N<n_1<\cdots<n_k\le(e+o(1))N$ have $1=\sum\frac{1}{n_i}$. The thread's
 one comment (17 July 2026) says the monograph's page is p. 33 and that
 Problems 284 and 286 should link to one another. The proof-claim tab is

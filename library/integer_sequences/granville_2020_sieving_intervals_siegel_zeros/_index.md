@@ -37,7 +37,7 @@ gives intervals of length y with at least 2y/log y minus an explicit loss
 of integers free of primes up to z, the loss depending on how close
 beta is to 1, in four regimes.
 
-[[integer_sequences/granville_2020_sieving_intervals_siegel_zeros/remark_p4|remark_p4]]: Granville's remark that the proof of his Corollary 2 shows that infinitely
+[[integer_sequences/granville_2020_sieving_intervals_siegel_zeros/remark_p4|remark_p4]]: Granville's remark that the proof of Corollary 2 shows that infinitely
 many Siegel zeros with 1 - beta < 1/(log q)^B, for some integer B >= 1,
 give integers m with J(m) >> omega(m)(log omega(m))^B, against the
 conjectured size omega(m)(log omega(m))^{3+o(1)} when B > 3.
@@ -117,7 +117,7 @@ $$
 J(m)\ll(\omega(m)\log\omega(m))^2
 $$
 
-for every $m$. Granville states that his proof of [[integer_sequences/granville_2020_sieving_intervals_siegel_zeros/corollary_2|Corollary 2]] (which is
+for every $m$. Granville states that the proof of [[integer_sequences/granville_2020_sieving_intervals_siegel_zeros/corollary_2|Corollary 2]] (which is
 itself a lower bound for prime gaps) shows that sufficiently close Siegel zeros
 would instead produce exceptionally large values of $J(m)$
 ([[integer_sequences/granville_2020_sieving_intervals_siegel_zeros/remark_p4|remark on p. 4]]): if there are

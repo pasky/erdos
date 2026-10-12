@@ -26,7 +26,7 @@ $\gg n$ many distinct distances each of which occurs for more than $n$ many
 pairs from $A$?
 
 **Status.** PROVED (LEAN). The site marks the problem proved and credits
-Bhowmick's construction. It also flags a Lean formalization of his proof. See
+Bhowmick's construction. It also flags a Lean formalization of the proof. See
 the [[problems/distance_problems/E0756/claims/2024_07_01_bhowmick|claim page]].
 
 **Source.** [erdosproblems.com/756](https://www.erdosproblems.com/756), accessed

@@ -78,7 +78,7 @@ since a large set contains a Sidon subset of about square-root size; and a
 positive answer with $\lvert A\rvert=f(N)$ gives a negative answer to the
 first question of [[problems/additive_bases/E0043/_index|Problem 43]]. A
 separate write-up that Barreto generated with GPT, an Overleaf document linked
-from his thread post of 2026-04-29, claims an effective threshold
+from Barreto's thread post of 2026-04-29, claims an effective threshold
 $N_0(M)\leq\exp(\exp(CM^2\log 2M))$ and, by a later edit of that post, a $B$
 of size $\gg(\log\log N/\log\log\log N)^{1/2}$; the site's remarks record
 that bound only as what the method seems able to prove. Two further write-ups

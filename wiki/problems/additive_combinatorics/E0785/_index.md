@@ -39,7 +39,7 @@ infinity and is not even $o(A(x))$. Chen and Fang proved the conclusion under
 weaker hypotheses, first $\limsup A(x)B(x)/x<5/4$ [ChFa10] and then $<3-\sqrt3$
 [ChFa14]. They then sharpened the excess to exceed every power of
 $\min(A(x),B(x))$ [ChFa15]. Ruzsa [Ru17] proved
-$A(x)B(x)-x>(1-o(1))\,a^*(x)/A(x)$, where $a^*(x)=\max A\cap[1,x]$. His
+$A(x)B(x)-x>(1-o(1))\,a^*(x)/A(x)$, where $a^*(x)=\max A\cap[1,x]$. Ruzsa's
 construction shows this is nearly best possible.
 
 The claim pages are

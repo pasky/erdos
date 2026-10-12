@@ -188,7 +188,7 @@ degree $3$, the last as the best known; the site lists the problem as
 number 28 of the Ramsey theory section of its graphs problem collection.
 The discussion thread has three comments
 of 25 and 26 October 2025 on the attribution: the site's maintainer writes
-that Beck [Be83b] was the first to ask the question and that he is not sure
+that Beck [Be83b] was the first to ask the question and that they are not sure
 whether Erdős repeated it; a comment of 26 October 2025 (which says it
 asked ChatGPT and Gemini for sources) reports that Chung's survey attributes
 the problem to Beck and Erdős, with the 1990 volume Mathematics of Ramsey

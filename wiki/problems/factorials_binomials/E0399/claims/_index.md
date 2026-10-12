@@ -27,6 +27,6 @@ had settled.
 
 [[problems/factorials_binomials/E0399/claims/2025_09_09_cambie|2025_09_09_cambie]]: Stijn Cambie observes, by a congruence modulo $8$, that $n!=x^4+y^4$ has no
 solution with $x,y$ coprime and $xy>1$. The site's commentary credits the
-remark to him.
+remark to Cambie.
 
 ***

@@ -12,15 +12,15 @@ updated: 2026-10-08T17:41:31Z
 
 [[covering_systems/_index|..]]
 
-[[covering_systems/sun_2007_covering_numbers/conjecture_1_1|conjecture_1_1]]: Sun's conjecture, the converse of his Theorem 1.1 for primitive covering
-numbers: each one can be written as p_1^{a_1} ... p_r^{a_r} with distinct
-primes so that the product of (a_t + 1) over t < s is at least
+[[covering_systems/sun_2007_covering_numbers/conjecture_1_1|conjecture_1_1]]: Sun's conjecture, the converse of the paper's Theorem 1.1 for primitive
+covering numbers: each one can be written as p_1^{a_1} ... p_r^{a_r} with
+distinct primes so that the product of (a_t + 1) over t < s is at least
 p_s - [r != s] for every s; the paper notes it is stronger than the
 Erdős-Selfridge conjecture.
 
 [[covering_systems/sun_2007_covering_numbers/corollary_1_2|corollary_1_2]]: Sun's corollary that for every r = 2, 3, ... there are infinitely many
 primitive covering numbers with exactly r distinct prime divisors,
-deduced from his Theorem 1.3 and Dirichlet's theorem.
+deduced from the paper's Theorem 1.3 and Dirichlet's theorem.
 
 [[covering_systems/sun_2007_covering_numbers/corollary_1_3|corollary_1_3]]: Sun's answer to Erdős's 1980 question: there are infinitely many n, namely
 n = 2^{p-1}p for the odd primes p, such that among the subsets of the

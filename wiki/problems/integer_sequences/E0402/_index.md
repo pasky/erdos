@@ -71,7 +71,7 @@ large-set case had been settled a decade earlier, independently, by Szegedy
 and by Zaharescu, with a threshold of the order $e^{10^6}$; their refereed
 papers are accepted partial claims on their pages. Whether their theorems
 include Graham's equality case is recorded differently by the sources:
-Szegedy's abstract and the formal-conjectures transcription of his theorem
+Szegedy's abstract and the formal-conjectures transcription of the theorem
 include it, the zbMATH review of Zaharescu's paper states the inequality
 alone, the site's commentary credits both with it, and Balasubramanian and
 Soundararajan's introduction calls both results the weaker form. The

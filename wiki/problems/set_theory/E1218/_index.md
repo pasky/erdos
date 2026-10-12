@@ -121,7 +121,7 @@ $\lambda=\aleph_{\omega_{\omega+1}+1}$ as both resource and first target, is a
 theorem of [EHR65]: Corollary 13 (p. 138) gives, under GCH,
 $\aleph_\delta\not\to(\aleph_\delta,4)^3$ for every non-inaccessible
 $\aleph_\delta$, and the countably many further colors may be left unused. The
-site's curator records this attribution to the 1965 work in his comment of 8
+site's curator records this attribution to the 1965 work in a comment of 8
 September 2026 under the claim. The claim of that relation and its rejection
 are on [[problems/set_theory/E1218/claims/2026_09_02_li|Li's claim page]]. No
 result on the corrected relation, with first target

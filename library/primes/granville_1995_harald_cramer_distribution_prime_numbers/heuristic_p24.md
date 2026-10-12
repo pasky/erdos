@@ -26,15 +26,15 @@ $$
 $$
 
 For $T=1$ this is Cramér's model; Granville takes $T$ to be at least some
-power of $\log x$. He notes that, unlike Cramér's model, it recognizes that one of $p$ and
-$p+1$ is even, and it leads to the Hardy--Littlewood twin prime count
-(12).
+power of $\log x$. The author notes that, unlike Cramér's model, it recognizes
+that one of $p$ and $p+1$ is even, and it leads to the Hardy--Littlewood twin
+prime count (12).
 
 **Inconsistency** (p. 24). Granville checks the model against Cramér's
 prediction (17) for primes in $(x,x+y]$ with $y/\log^2x\to\infty$ and
 finds, for $T=y^{1/2+o(1)}$ and $x$ divisible by $\prod_{p\le T}p$, a
 discrepancy by the factor $2e^{-\gamma}$ coming from Mertens's product (1);
-he identifies it with the inconsistency between (6) and (2) that Maier
+the author identifies it with the inconsistency between (6) and (2) that Maier
 exploited.
 
 **Heuristic** (p. 24, unnumbered). With the new model, Granville writes,
@@ -46,7 +46,7 @@ $$
 
 which contradicts Cramér's conjecture
 [[primes/granville_1995_harald_cramer_distribution_prime_numbers/equation_14|(14)]];
-here $2e^{-\gamma}\approx1.12292$ (p. 13). He adds that the computational
+here $2e^{-\gamma}\approx1.12292$ (p. 13). Granville adds that the computational
 evidence alone would not suggest that (14) errs on the small side, but
 that the data are very limited.
 

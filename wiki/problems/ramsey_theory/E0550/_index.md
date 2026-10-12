@@ -97,7 +97,7 @@ https://www.erdosproblems.com/550, accessed 2026-09-17.
 - [EFRS89] Erdős, P., Faudree, R. J., Rousseau, C. C. and Schelp, R. H.,
   Multipartite graph--tree Ramsey numbers. Graph theory and its applications:
   East and West (Jinan, 1986), Ann. New York Acad. Sci. 576 (1989), 146--154.
-  Li (p. 2) locates the question as "(2) of [7, p. 153]", his [7] being this
+  Li (p. 2) locates the question as "(2) of [7, p. 153]", Li's [7] being this
   paper. Library home:
   [[../library/ramsey_theory/erdos_1989_multipartite_graph_tree_ramsey_numbers/_index|erdos_1989_multipartite_graph_tree_ramsey_numbers]]
   (the Rényi archive's scan `1989-12.pdf`; question (2), p. 153, and the
@@ -223,8 +223,8 @@ comment "The proof has been formally verified in Lean", not compared here.
 - Discussion, 23 June 2026: a comment reports that the paper claims to
   resolve the problem; another cites the acknowledgment and describes the
   paper as another affirmative result written almost entirely by AI; the
-  site's maintainer writes that he finds this style of proof hard to read and
-  reserves judgment on whether such proofs are correct until humans he trusts
+  site's maintainer writes that they find this style of proof hard to read and
+  reserves judgment on whether such proofs are correct until humans they trust
   have read and vouched for them.
 - Discussion, 24 June 2026: a commenter reports that an AI model found some
   issues that seemed fixable; the author replies that the alleged issues come

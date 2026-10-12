@@ -3,7 +3,7 @@ name: primes/vardi_1999_deterministic_percolation/theorem_3_3
 title: "Theorem 3.3 (p. 51): the asymptotic density of the infinite component of the coprime lattice points is not zero"
 desc: |
   Vardi's theorem that the asymptotic density of the infinite component of
-  the coprime integer pairs under distance-1 adjacency, which exists by his
+  the coprime integer pairs under distance-1 adjacency, which exists by
   Theorem 3.2, is positive.
 created: 2026-10-08T17:47:53Z
 updated: 2026-10-08T17:47:53Z

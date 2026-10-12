@@ -215,7 +215,7 @@ $n=3k+1$ and $3k+2$.
   preprint (v2 of 13 November 2012, "Revised to include a new bound for
   $\pi(K_4^3)$" per its arXiv comment); the certificate file is not held
   and the argument is not checked (claims checked for the passage only).
-  Baber himself writes that "a significantly better bound may be possible".
+  Baber writes that "a significantly better bound may be possible".
 - The thread's $0.561465$ (18 August 2026): a forum computation inside
   Baber's certificate family, produced, the comment says, with Claude
   (Anthropic) under human direction and review, with a verification suite

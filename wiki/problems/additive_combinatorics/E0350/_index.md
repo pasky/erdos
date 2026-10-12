@@ -134,7 +134,7 @@ and no formal-proof URL. Neither external file is Lean this corpus built.
 
 **The question (site formulation of 2026-09-18).** The statement
 above; PROVED (LEAN); no last-edited date. The commentary credits the proof
-to Ryavec, who seems never to have published it, says that his proof is
+to Ryavec, who seems never to have published it, says that the proof is
 reproduced in [BeEr74] and delivers the refinement
 $\sum_{n\in A}1/n\le2-2^{1-|A|}$ with equality exactly for the powers of
 two (written there as $A=\{1,2,\ldots,2^k\}$), records the stronger bound
@@ -203,7 +203,7 @@ a refereed journal (volume 66 per the Crossref record, not the "63" of
 some catalogs); no page of this wiki records its argument.
 
 **Formalization and the Lean label.** The site's Lean mark dates from 25
-November 2025, the day Alexeev announced his file; it is a catalog label
+November 2025, the day Alexeev announced the file; it is a catalog label
 attached to the formal-conjectures statement, which has a `sorry` body and
 points to two external developments, described at the commits named below
 and neither built by this corpus.

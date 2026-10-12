@@ -4,8 +4,8 @@ title: "Theorem 7 (pp. 2 and 7): the fractional strong chromatic index of any si
 desc: |
   Śleszyńska-Nowak's fractional bound: every simple graph has fractional
   strong chromatic index at most 1.75 times the squared maximum degree,
-  derived from her clique bound Theorem 5 and a fractional coloring bound
-  she attributes to Molloy and Reed's book; read in the arXiv v2.
+  derived from the paper's clique bound Theorem 5 and a fractional coloring
+  bound the author attributes to Molloy and Reed's book; read in the arXiv v2.
 created: 2026-10-08T14:36:14Z
 updated: 2026-10-08T14:36:14Z
 ---

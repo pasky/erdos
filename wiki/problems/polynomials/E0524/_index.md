@@ -95,12 +95,12 @@ along $n_m=\lfloor e^{m^3}\rfloor$ the minimal values of $M_n(t)$ occur at the
 scale $\sqrt n\exp(-\Theta((\log\log n)^{1/3}))$, with the constant pinned
 between two values taken from the Gao–Li–Wellner small-ball bounds; it does
 not determine the lower envelope, as its conclusion says. The same day the
-site's curator wrote that he would view the problem as unresolved until an
+site's curator wrote that they would view the problem as unresolved until an
 expert confirmed the argument or a formal proof existed, and Mehtaab Sawhney
-replied that the proof is correct and is what he had sketched on the thread,
-adding that neither the note nor his coming result with Letwin pins the
-answer down as precisely as Salem and Zygmund might have wanted. That result
-is the pending full claim [LeSa26]: almost surely
+replied that the proof is correct and is what Sawhney had sketched on the
+thread, adding that neither the note nor the coming result with Letwin pins
+the answer down as precisely as Salem and Zygmund might have wanted. That
+result is the pending full claim [LeSa26]: almost surely
 
 $$
 \liminf_{n\to\infty}\frac{\log\bigl(M_n(t)/\sqrt n\bigr)}{(\log\log n)^{1/3}}

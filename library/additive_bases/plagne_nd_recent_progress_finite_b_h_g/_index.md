@@ -26,7 +26,7 @@ F_{2,1}(N) <= sqrt(N) + N^{1/4} + 1 for Sidon sets in {1,...,N} can be
 improved, to sqrt(N) + O(1), to sqrt(N) + O(N^eps) for every eps > 0, in
 the exponent 1/4, or at least in the constant lambda <= 1.
 
-[[additive_bases/plagne_nd_recent_progress_finite_b_h_g/problem_6|problem_6]]: Plagne's Problem 6, which he calls the main unsolved question, asks
+[[additive_bases/plagne_nd_recent_progress_finite_b_h_g/problem_6|problem_6]]: Plagne's Problem 6, which the author calls the main unsolved question, asks
 whether the limit c_{h,g} of F_{h,g}(N)/N^{1/h} exists; Problems 7 and 8
 ask to compute it, in particular c_{3,1} and c_{2,2}.
 

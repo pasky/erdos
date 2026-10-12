@@ -59,7 +59,7 @@ just said; Erdős's next sentence, "$c_k'(\alpha)\to\infty$ as $\alpha\to1/k$",
 treats the endpoint as excluded, so the site's "$<1/2$" is the intended range.
 The site's discussion thread raised this endpoint on 17 January 2026 (a comment
 that credits the observation to ChatGPT), and the site's curator replied on 18
-January 2026 that he takes the printed $\le1/2$ for a misprint in [Er90b]; the
+January 2026, taking the printed $\le1/2$ for a misprint in [Er90b]; the
 printed text carries the misprint, and Erdős's next sentence makes it harmless.
 Erdős prints the constant of (30) as $c_k$ without showing a dependence on
 $\alpha$; the site's $c_\alpha$ makes the dependence explicit, and the bound

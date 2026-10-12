@@ -30,15 +30,16 @@ Matematika 1975, no. 8 (159), 39--45.
 
 This Russian-language note addresses Schinzel's 1958 conjecture that natural
 numbers x, y, z, each different from 1, satisfying x^x y^y = z^z must have the
-same prime divisors; the author says that, as far as he knows, it had not been
-proved, and the note presents a proof (p. 39). Assuming a counterexample, he
-writes x, y, z as products over a common set of primes p_i (formula (2)) and
-derives the linear relations a_i x + b_i y = c_i z (formula (3)), reducing to
-the shape (4) in which x, y, z are built from pairwise coprime q_0,...,q_n > 1
-with q_0 dividing x and z but not y. He shows z < x+y, since z >= x+y would give
-0 = ln(z^z/x^x y^y) >= x ln(1+y/x) + y ln(1+x/y) > 0; with d = (x,y) this
-yields the identity (5), from which he derives min{alpha_s,beta_s} < gamma_s
-<= max{alpha_s,beta_s}. Lemma 1 (p. 40) rules out the case n = 1, that is
+same prime divisors; the author says that, as far as they know, it had not been
+proved, and the note presents a proof (p. 39). Assuming a counterexample, the
+author writes x, y, z as products over a common set of primes p_i (formula (2))
+and derives the linear relations a_i x + b_i y = c_i z (formula (3)), reducing
+to the shape (4) in which x, y, z are built from pairwise coprime
+q_0,...,q_n > 1 with q_0 dividing x and z but not y. The author shows z < x+y,
+since z >= x+y would give 0 = ln(z^z/x^x y^y) >= x ln(1+y/x) + y ln(1+x/y) > 0;
+with d = (x,y) this yields the identity (5), from which the author derives
+min{alpha_s,beta_s} < gamma_s <= max{alpha_s,beta_s}. Lemma 1 (p. 40) rules out
+the case n = 1, that is
 x = q_0^{alpha_0} q_1^{alpha_1}, y = q_1^{beta_1}, z = q_0^{gamma_0}
 q_1^{gamma_1}, by a case analysis on a = alpha_0 - gamma_0 (the cases a = 1, 2,
 3 by hand; for a >= 4, tables of numerical minima together with the bound

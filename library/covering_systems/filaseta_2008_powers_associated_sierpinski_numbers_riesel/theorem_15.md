@@ -20,7 +20,7 @@ updated: 2026-10-08T16:20:15Z
 exist infinitely many positive odd numbers $k$ such that $k^r-2^n$ has at
 least two distinct prime factors for all positive integers $n$." The paper
 records that Chen settled it for $r$ odd and for $r$ twice an odd number with
-$3\nmid r$, that $r=4$ and $r=6$ are the least exponents his arguments do not
+$3\nmid r$, that $r=4$ and $r=6$ are the least exponents Chen's arguments do not
 reach, and that the full conjecture remains open (p. 11).
 
 **Theorem 15** (pp. 21--22, quoted). "There exist infinitely many positive odd

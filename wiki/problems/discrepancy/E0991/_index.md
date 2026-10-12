@@ -40,12 +40,13 @@ area of $C$ (normalised so that the entire sphere has area $1$)?
 **Status.** Proved. The site labels the problem proved (page last edited
 2025-09-16) on the strength of two refereed papers, while remarking that the
 attribution is unclear. Brauchart (Math. Comp. 2008) proves the quantitative
-bound $\max_C\lvert\lvert A\cap C\rvert-\alpha_C n\rvert\ll n^{3/4}$. He regards
-the equidistribution itself as classical potential theory. Marzo and Mas
-(Constr. Approx. 2021) prove $\ll n^{2/3}$ as the case $d=2$, $s=0$ of a bound
-for Riesz energy minimizers. They credit this rate to an unpublished manuscript
-of Wolff from around 1992. Each rate answers the question, so the standing is
-`solved`/`proved`. It derives from the two accepted claim pages
+bound $\max_C\lvert\lvert A\cap C\rvert-\alpha_C n\rvert\ll n^{3/4}$. The
+paper regards the equidistribution itself as classical potential theory.
+Marzo and Mas (Constr. Approx. 2021) prove $\ll n^{2/3}$ as the case $d=2$,
+$s=0$ of a bound for Riesz energy minimizers. They credit this rate to an
+unpublished manuscript of Wolff from around 1992. Each rate answers the
+question, so the standing is `solved`/`proved`. It derives from the two
+accepted claim pages
 [[problems/discrepancy/E0991/claims/2008_02_06_brauchart|Brauchart 2008]] and
 [[problems/discrepancy/E0991/claims/2019_07_10_marzo_mas|Marzo and Mas 2021]].
 The acceptance evidence on each is the refereed publication and the site's

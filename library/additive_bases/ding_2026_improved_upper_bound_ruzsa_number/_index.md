@@ -45,7 +45,7 @@ m <= 400 by an explicit set of size at most 40, and for 400 < m <= 132^2 with
 the explicit finite sequence c_j = 74j - floor(j^2/32). For m > 132^2 a prime
 in a short interval (Lemma 2.3) and a comparison lemma of Ding and Zhao
 (Proposition 2.4, R_{m_2} <= 4R_{m_1} for 3m_1/2 <= m_2 < 2m_1) transfer
-Theorem 1.3 to m. The paper reports (p. 1) that Ruzsa, in proving his 1990
+Theorem 1.3 to m. The paper reports (p. 1) that Ruzsa, in proving a 1990
 basis of order two with bounded square mean (equation (1.1)), essentially
 proved that R_m is bounded by a constant; Theorem 1.1 gives 128 as such a
 constant. The paper derives no constant in (1.1) and

@@ -121,7 +121,7 @@ last citing [va25]), all with proof `sorry`. The
 adds the variant `erdos_302.variants.upper_0_8461739827964010`, also with
 proof `sorry`, with a `formal_proof` annotation pointing at Kitamura's
 repository, which is linked on
-[[problems/unit_fractions/E0302/claims/2026_09_25_kitamura|his claim page]].
+[[problems/unit_fractions/E0302/claims/2026_09_25_kitamura|the claim page]].
 The community database (fetched 2026-09-17) lists the statement as
 formalized, as of its last update of 5 August 2026, and no formal proof.
 Nothing was built or checked here.

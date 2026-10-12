@@ -85,7 +85,7 @@ holds
 linked at its commit of 15 September 2026, which declares itself a
 formalization of a solution to the problem, names Alon as the informal author
 and Codex and GPT-5.6 Sol as the formal authors, and proves the explicit bound
-$12n$; it is linked on Alon's claim page as a formalization of his result.
+$12n$; it is linked on Alon's claim page as a formalization of its result.
 None of this Lean was built or audited in this corpus, so no claim page lists
 `formalized` evidence.
 

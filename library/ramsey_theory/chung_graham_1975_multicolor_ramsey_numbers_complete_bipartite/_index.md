@@ -159,7 +159,7 @@ independently reviewed.
   edge-colored with no monochromatic $G$: (7) $R(G;n)>\binom n2/T(G;n)$;
   (8) $r(G;R(G;n)-1)\le n<r(G;R(G;n))$; Spencer's remark [8], (9)
   $R(G;n)=O((n^2\log n)/T(G;n))$ when $T(G;n)=o(n^2)$; and, from
-  $T(K_{3,3};n)=(n^{5/3}/2)(1+o(1))$, which the paper credits to Brown (his
+  $T(K_{3,3};n)=(n^{5/3}/2)(1+o(1))$, which the paper credits to Brown (whose
   construction gives only the lower half, the one (10) uses; the upper half
   is Füredi's, 1996),
   [[ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/inequality_10|inequality (10)]]

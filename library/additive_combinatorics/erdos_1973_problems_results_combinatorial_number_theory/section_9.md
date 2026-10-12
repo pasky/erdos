@@ -4,7 +4,7 @@ title: "Section 9: the sum-free selection functions f(n), g(n), h(n) and l(n) of
 desc: |
   Erdős's 1973 restatement of the sum-free selection problems of his 1965
   paper: f(n) >= n/3 with the Klarner–Hilton n/2, (9.2) c log n < g(n) <
-  n^(2/5+epsilon), Choi's interval function f(n) with his n^(1/2+epsilon)
+  n^(2/5+epsilon), Choi's interval function f(n) with its n^(1/2+epsilon)
   conjecture and n^(3/4) bound, c_1 n^(1/3) < h(n) < c_2 n^(1/2), and l(n)
   >= sqrt(n/2) with Choi's (1+c) sqrt(n) and the withdrawn o(n) claim.
 created: 2026-09-18T15:50:00Z

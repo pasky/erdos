@@ -86,7 +86,7 @@ proves Selfridge's conjecture "using only that $\log p_n=o(n)$" (p. 399).
   the question of [[../wiki/problems/primes/E0454/_index|#454]], and reports a computer
   search by E. R. Canfield: the largest value of $A(n)-2p_n$ for $n\le1000$
   was 24, at $n=985$ ($p_{985}=7759$), and the $p_n$ with $A(n)-2p_n\ge0$
-  appeared to be distributed like the squares. He also conjectures that
+  appeared to be distributed like the squares. Pomerance also conjectures that
   the set of $n$ with $p_n^2>M(n)$ has density 0.
 
 ## Compiled scope

@@ -4,8 +4,8 @@ desc: |
   Simonovits 1974: when one forbidden graph is almost d-chromatic, some
   extremal graph, also under a chromatic condition such as chromatic number
   at least t, lies in a class of very symmetric graphs (Theorems 1.a, 1-3);
-  with Theorem 2.7, from his thesis, that the most edges in a triangle-free
-  graph on n vertices with chromatic number at least t is
+  with Theorem 2.7, from the author's thesis, that the most edges in a
+  triangle-free graph on n vertices with chromatic number at least t is
   n^2/4 - ĝ_3(t) n/2 + O(1), and Remark 2.8's bounds on ĝ_3(t).
 license: reserved
 created: 2026-09-22T00:00:00Z
@@ -19,7 +19,8 @@ updated: 2026-10-08T14:36:14Z
 [[extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/remark_2_8|remark_2_8]]: Simonovits's remark after Theorem 2.7: the function ĝ_3(t) is well defined
 by Lovász's graphs of large chromatic number and girth; comparing it with
 the g_3 of Erdős's 1959 paper gives c_1 t^2 log t / log log t < ĝ_3(t) <
-c_2 t^2 (log t)^2, asserted without proof; the K_4 analogue is open to him.
+c_2 t^2 (log t)^2, asserted without proof; the K_4 analogue is open to
+the author.
 
 [[extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/theorem_1|theorem_1]]: Theorem 1.a extended to an additional chromatic condition A, such as
 chromatic number at least t: when one sample graph is almost d-chromatic,
@@ -45,12 +46,12 @@ balanced complete d-partite graph is the only extremal graph for large n;
 under any chromatic condition A the maximum drops by (n/d) g(A) + O(1)
 for an integer g(A).
 
-[[extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/theorem_2_7|theorem_2_7]]: Simonovits's statement, attributed to his thesis and printed without proof,
-that the maximum number of edges of a triangle-free graph on n vertices with
-chromatic number at least t is n^2/4 − ĝ_3(t) n/2 + O(1), where ĝ_3(t) is
-the largest m such that every such graph needs at least m vertices removed
-to become bipartite; the expansion the catalog's Problem 1011 attributes to
-the paper.
+[[extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/theorem_2_7|theorem_2_7]]: Simonovits's statement, attributed to the author's thesis and printed
+without proof, that the maximum number of edges of a triangle-free graph on
+n vertices with chromatic number at least t is n^2/4 − ĝ_3(t) n/2 + O(1),
+where ĝ_3(t) is the largest m such that every such graph needs at least m
+vertices removed to become bipartite; the expansion the catalog's
+Problem 1011 attributes to the paper.
 
 [[extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/theorem_3|theorem_3]]: In the setting of Theorem 1 there are an n_0 and a finite set of extremal
 graphs such that, for n > n_0, a graph on n vertices is extremal for the

@@ -39,7 +39,7 @@ have bounded size, so Conjecture 1.2 holds for that step.
 relatively prime to an even N form at most one infinite connected
 component.
 
-[[primes/vardi_1998_prime_percolation/question_p277|question_p277]]: The question Vardi raises among the aspects his paper leaves unexamined:
+[[primes/vardi_1998_prime_percolation/question_p277|question_p277]]: The question Vardi raises among the aspects the paper leaves unexamined:
 for the pairs of relatively prime integers in the plane joined at distance
 one, whether the set has a limiting density and whether it is nonzero; the
 paper proves nothing on it.

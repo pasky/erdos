@@ -26,7 +26,7 @@ graph with $n$ vertices and average degree $t$ has independence number at
 least $c(r)\frac nt\log\log(t+1)$, and conjectured "that in fact it is at
 least $c(r)\frac nt\log t$" (p. 1, display (1)). Alon reports the conjecture
 still open, Shearer [8] having raised the bound to
-$c'(r)\frac nt\frac{\log t}{\log\log(t+1)}$. He then observes that
+$c'(r)\frac nt\frac{\log t}{\log\log(t+1)}$. Alon then observes that
 $K_{r+1}$-freeness means every vertex neighborhood is $K_r$-free, calls
 $r$-colorable neighborhoods a stronger assumption, and presents Theorem 1.1
 as reaching the order of (1) under it (on the indexing, see the observation

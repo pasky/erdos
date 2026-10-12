@@ -206,7 +206,7 @@ sharpened." He then states Lovász's result in that direction: with
 $e=\binom n2-k$ and $t$ the largest integer satisfying $t^2-t\le e$, every
 $G(n;k)$ is the union of $e+t$ complete subgraphs, and the bound is sharp
 when $e=t^2$ or $e=t^2-t$; Lovász does not require the complete graphs to
-be edge-disjoint, and he observed that the result fails once
+be edge-disjoint, and observed that the result fails once
 edge-disjointness is required. Erdős closes the paragraph: "In this case no
 satisfactory non-trivial sharpening of our theorem is known." Lovász's
 bound is the site's $\binom n2-k+t$ complete graphs; it concerns covers,
@@ -274,7 +274,7 @@ have at most $m$ edge-disjoint triangles and need $[n^2/4]-m$ pieces; hence
 $f\ge[n^2/4]-m$ for $m$ up to about $n^2/16$, and $f=[n^2/4]-m$ in Győri's
 range. For a fixed excess $m$ this answers the 1966 question (i): the new
 minimum is $[n^2/4]-m$ for all large $n$. Győri's Theorem 1.6 as [BaWi25]
-restates it (p. 2, from his 1991 Combinatorica paper) gives $m-O(m^2/n^2)$
+restates it (p. 2, from the 1991 Combinatorica paper) gives $m-O(m^2/n^2)$
 edge-disjoint triangles for $m=o(n^2)$, so $f=[n^2/4]-m+O(m^2/n^2)$ for
 $m=o(n^2)$. [BaWi25] proves Győri's conjecture that an $n$-vertex graph with
 $t_{r-1}(n)+k$ edges has at least $(2-o(1))k/r$ edge-disjoint $r$-cliques
@@ -314,7 +314,7 @@ journal texts of [GyKe17] and [BaWi25], the papers named by identifier
 above.
 
 **Remaining gaps.** (1) [Lo68] is not held; Lovász's covering bound and its
-sharpness are second-hand through Erdős's 1971 wording, and whether his paper
+sharpness are second-hand through Erdős's 1971 wording, and whether [Lo68]
 also discusses the edge-disjoint version is not known from the sources found.
 (2) Proof coverage is statements only: Theorems 2 and 4 of 1966 with their
 proofs followed for structure, Theorem 1 of [GyKe17] at claims checked. (3) The

@@ -2,7 +2,7 @@
 name: discrete_geometry/vritsiou_2023_regular_ellipsoids_blaschke_santalo_type_inequality_projections_non_symmetric_convex_bodies/proposition_3
 title: "Proposition 3 (p. 3): Gelfand-number regularity for non-symmetric convex bodies"
 desc: |
-  Vritsiou's Gelfand-number form of her Theorem 2: for each beta in (0,2/5)
+  Vritsiou's Gelfand-number form of Theorem 2: for each beta in (0,2/5)
   every convex body with barycentre or Santaló point at the origin has a
   linear image whose Gelfand numbers, and those of its polar, against the
   Euclidean ball are at most C_0 D_beta^{1/beta} (n/l)^{1/beta}.

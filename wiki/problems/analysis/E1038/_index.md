@@ -97,8 +97,8 @@ page]]; they agree on the value, so the frontmatter derives one pending outcome,
 `answered`, for this determine-the-values question, whose two parts, the infimum
 and the supremum, the page lists. None is refereed, the site has credited none,
 and the corpus has neither built the Lean project nor checked the proofs; the
-objection raised in the comments on Wang's claim to the citations of his first
-version, and his response, are recorded on his page.
+objection raised in the comments on Wang's claim to the citations of its first
+version, and the claimant's response, are recorded on Wang's page.
 
 Pommerenke's theorem [Po61] concerns the variant with roots in $[-2,2]$, where
 the infimum is $0$, and does not bear on the standing. The search scope, is the site page, its proof-claims tab and the comments on the three

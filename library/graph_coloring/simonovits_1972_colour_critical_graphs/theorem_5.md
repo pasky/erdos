@@ -4,7 +4,7 @@ title: "Theorem 5 (p. 68): for every even n large enough some 4-critical W^n has
 desc: |
   Simonovits's theorem that for every sufficiently large even n there is a
   4-critical graph W^n on n vertices whose minimum valence is at least
-  n^{1/3}/6, built from cyclically linked copies of his block Q.
+  n^{1/3}/6, built from cyclically linked copies of the paper's block Q.
 created: 2026-10-08T16:56:52Z
 updated: 2026-10-08T16:56:52Z
 ---

@@ -82,7 +82,7 @@ stated on the linked finite-witness page.
 **Uses.** [[discrete_geometry/kriz_1991_permutation_groups_euclidean_ramsey_theory/theorem_3_3|Theorem 3.3]] and
 [[discrete_geometry/kriz_1991_permutation_groups_euclidean_ramsey_theory/theorem_4_1|Theorem 4.1]]. Mirabi uses this exact equivalence
 form in
-[[discrete_geometry/mirabi_2026_one_point_extensions_euclidean_ramsey_sets/theorem_3_2|his cyclic-product construction]].
+[[discrete_geometry/mirabi_2026_one_point_extensions_euclidean_ramsey_sets/theorem_3_2|the cyclic-product construction]].
 The universal-relation specialization is the ordinary product closure
 used in
 [[discrete_geometry/moore_2026_pyramid_ramsey_base/theorem_2_1|Moore's classical product input]],

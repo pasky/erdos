@@ -238,7 +238,7 @@ only the claimants and the site's curator are named.
   document (a file-sharing link; its content is recorded from the thread's
   description) and is the
   [[problems/number_theory/E0951/claims/2026_01_27_leeham|pending partial
-  claim]] of this page. The site's curator replied that, on his reading,
+  claim]] of this page. The site's curator replied that, on their reading,
   the note disproves the inequality at $x=10$ only, that the construction
   could still satisfy it for all large $x$, and that the question is in
   spirit about the asymptotic behavior; Nat Sothanaphan reported a ChatGPT
@@ -256,7 +256,7 @@ only the claimants and the site's curator are named.
   resembling a rigidity statement. The site's commentary adopted
   the $x=10$ report.
 - 28 January 2026: the site's curator reports finding nothing in the
-  Beurling literature on the separation hypothesis (the problems he found
+  Beurling literature on the separation hypothesis (the problems found
   there assume that the count of generalized integers in $[1,x]$ is
   asymptotic to $Ax$ and ask what asymptotics follow for the generalized
   primes $a_i\le x$), believes the asymptotic question was intended, and

@@ -43,7 +43,7 @@ the parameter's domain, so it is a failure of setting, not of range. The
 change replaces "$\alpha\in\mathbb{R}$" by "$\alpha>0$"; nothing else changes.
 The evidence is the setting the site names: its commentary calls the problem
 originally a conjecture of Oppenheim and credits the proof to Margulis [Ma89],
-and Margulis states the conjecture he proves for real nondegenerate indefinite
+and Margulis states and proves the conjecture for real nondegenerate indefinite
 quadratic forms in at least three variables (Banach Center Publ. 23 (1989), p.
 399, §1 and Theorem 1; §1 calls it Davenport's conjecture, and its footnote 1
 credits the case of at least five variables to Oppenheim, Ann. of Math. 32
@@ -82,8 +82,8 @@ For positive irrational $\alpha$ the positive-integer assertion follows from
 Theorem 1 and the complete coordinate transfer]]. The source theorem gives a
 nonzero integer vector; the companion checks every hypothesis and supplies the
 positive-coordinate step. The site's [Ma89] is Margulis's Oslo chapter; the
-Banach Center paper cited here is a distinct 1989 paper of his that states
-and proves the theorem the site credits.
+Banach Center paper cited here is a distinct 1989 paper by the same author
+that states and proves the theorem the site credits.
 
 **Status.** The site, accessed 2026-09-04 and 2026-10-07, labels the problem
 PROVED and credits the proof to Margulis [Ma89]. That label describes the

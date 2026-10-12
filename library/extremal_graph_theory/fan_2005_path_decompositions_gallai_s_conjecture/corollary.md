@@ -45,7 +45,7 @@ $3k$ of them would have $9k$ vertices and need $6k$ paths, the same ratio
 $\frac23$. Each block of that graph is a triangle of maximum degree $2$. The
 statement holds for every graph, connected or not, and gives
 $\lfloor n/2\rfloor$ paths, one fewer than Gallai's $\lceil n/2\rceil$ when $n$
-is odd; Pyber's odd semi-cliques (the Example on p. 153 of his paper, a triangle
+is odd; the odd semi-cliques of Pyber's paper (its Example on p. 153, a triangle
 of even-degree vertices) show that the floor cannot survive one triangle in the
 E-subgraph.
 

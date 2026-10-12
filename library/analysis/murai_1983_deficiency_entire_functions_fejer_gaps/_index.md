@@ -17,8 +17,8 @@ every complex value infinitely often in any given sector, improving a
 result of Hayman.
 
 [[analysis/murai_1983_deficiency_entire_functions_fejer_gaps/construction_p52|construction_p52]]: Murai constructs an entire function with Fabry gaps, k/n_k tending to 0,
-whose Nevanlinna deficiency at 0 equals 1, so his theorem fails when Fejér
-gaps are weakened to Fabry gaps.
+whose Nevanlinna deficiency at 0 equals 1, so the paper's theorem fails when
+Fejér gaps are weakened to Fabry gaps.
 
 [[analysis/murai_1983_deficiency_entire_functions_fejer_gaps/proposition_p46|proposition_p46]]: For an entire function with Fejér gaps and any positive epsilon, the
 Nevanlinna characteristic is at least (1 - epsilon) times the logarithm

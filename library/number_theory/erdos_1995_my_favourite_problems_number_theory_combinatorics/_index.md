@@ -201,8 +201,8 @@ at most one, color the edges between the parts with the first color and
 all other edges with the second. Then the same-color companion: perhaps
 there is an absolute constant $c>0$ such that more than $(1+c)n^2/24$
 monochromatic triangles of a single color can always be found; Jacobson
-conjectured the value $n^2/20$, and a simple example of his shows that this
-value, if correct, cannot be improved. Erdős notes that the count of
+conjectured the value $n^2/20$, and a simple example of Jacobson's shows that
+this value, if correct, cannot be improved. Erdős notes that the count of
 monochromatic triangles without the edge-disjointness requirement is an
 old result of Goodman [48] and others; the site's key Er95 for the
 problem),

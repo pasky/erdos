@@ -3,7 +3,7 @@ name: ramsey_theory/spencer_1975_ramsey_theorem_new_lower_bound/corollary_1
 title: "Corollary 1: R(k) ≥ k 2^{k/2} [1/(e√2) + o(1)] (Erdős's bound)"
 desc: |
   Erdős's probabilistic lower bound for the diagonal Ramsey number, as
-  restated by Spencer before his improvement.
+  restated by Spencer before the paper's improvement.
 created: 2026-09-17T13:45:00Z
 updated: 2026-10-07T20:53:41Z
 ---

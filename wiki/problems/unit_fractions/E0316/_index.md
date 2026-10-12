@@ -50,7 +50,7 @@ $239/120<2$ and no admissible split. The site attributes this set to Sándor's
 1997 paper. The eleven-element set $\{2,3,4,5,6,7,10,11,13,14,15\}$ of the
 site's commentary (sum $120047/60060$) has no admissible split either. Both are
 finite computations, rechecked here with exact arithmetic. Sándor's paper (J.
-Number Theory 63 (1997), refereed) is not held, so his statements are recorded
+Number Theory 63 (1997), refereed) is not held, so its statements are recorded
 second-hand from the site. The label's Lean qualifier is a catalog label whose
 referent is the formal-conjectures file. That file proves the disproof by a
 `decide +kernel` step on the eleven-element set. Nothing was built here, and no
@@ -113,7 +113,7 @@ DISPROVED (LEAN); last edited 5 March 2026. The commentary makes three points:
 the multiset $2,3,3,5,5,5,5$ already fails the conclusion when repetitions are
 allowed; the answer is no for sets as well, which the site credits to Sándor
 [Sa97] with the proper divisors of $120$, the divisors other than $1$ and
-$120$, as his counterexample, together with his general theorem that for every
+$120$, as the counterexample, together with the general theorem that for every
 $n\ge2$ a finite set $A\subseteq\mathbb N\setminus\{1\}$ exists with
 reciprocal sum below $n$ and no partition into $n$ parts of reciprocal sum
 below $1$; and the eleven-element set $\{2,3,4,5,6,7,10,11,13,14,15\}$,
@@ -163,7 +163,7 @@ one else has reviewed them, and the `decide +kernel` step on $E$ in the
 formal-conjectures file was not rebuilt here.
 
 **What is second-hand.** Sándor's paper is not held: its counterexample is
-taken from the site and confirmed by the computation above, and his general
+taken from the site and confirmed by the computation above, and its general
 theorem (that for every $n\ge2$ some finite set $A$ has $\sigma(A)<n$ yet
 admits no partition into $n$ parts of sum below $1$) is recorded as the
 site's statement. Stobart's eleven-element set is recorded on Sándor's claim

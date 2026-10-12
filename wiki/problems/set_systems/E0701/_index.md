@@ -53,11 +53,11 @@ infinite family: a finite family closed under taking subsets has only finite
 members, so its members lie in a finite set.
 
 The change replaces "of sets" with "of subsets of a finite set", in the words of
-the problem's poser. The site credits the problem to Chvátal, and his Conjecture
+the problem's poser. The site credits the problem to Chvátal, and the Conjecture
 in [Ch74] (p. 65;
 [[../library/set_systems/chvatal_1974_intersecting_families_edges_hypergraphs_hereditary_property/_index|library card]])
 is stated for "a family of subsets of a finite set $S$" closed under taking
-subsets; his Theorem (p. 62), the case of families closed under left shifts, is
+subsets; its Theorem (p. 62), the case of families closed under left shifts, is
 stated for subsets of $\{1,2,\dots,n\}$. The defect is not in Chvátal's text.
 Erdős's statement of the conjecture in [Er81], item 4 (p. 26), credits it to
 Chvátal and also names no ground set, and the site's wording follows that

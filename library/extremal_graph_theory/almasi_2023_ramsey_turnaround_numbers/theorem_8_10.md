@@ -30,7 +30,7 @@ The print does not say how the number of parts is rounded when $t$ is odd.
 ## Proof pointer
 
 Proof on p. 42; the remark before the theorem credits the idea to
-C. Ortlieb's proof of Theorem 4.25 in his bachelor's thesis, Balanced
+C. Ortlieb's proof of Theorem 4.25 in a bachelor's thesis, Balanced
 colorings and generalized Ramsey numbers, Karlsruhe Institute of
 Technology, 2017. Lemma 8.9 (p. 42), the Bertrand--Chebyshev theorem, gives
 a prime $p_t\in[\frac t2,t]$. Lemma 8.7 with $r=p_t-1$, using the

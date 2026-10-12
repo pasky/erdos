@@ -84,6 +84,6 @@ makes it quantitative is cited to McGehee, Pigno and Smith (Ann. of Math. 113
   of the cosine sum over $B$. The paper draws from it no bound on $f(n)$ in
   terms of $n$ beyond Proposition 1.3.
   [[additive_combinatorics/bedert_2025_large_sum_free_subsets_sets_integers/_index|Bedert]]
-  restates the bound as his Proposition 4.2 (arXiv v1, p. 9) for sets of
+  restates the bound as Proposition 4.2 (arXiv v1, p. 9) for sets of
   nonzero integers and builds on this $L^1$ route for
-  [[additive_combinatorics/bedert_2025_large_sum_free_subsets_sets_integers/theorem_1_2|his Theorem 1.2]].
+  [[additive_combinatorics/bedert_2025_large_sum_free_subsets_sets_integers/theorem_1_2|Bedert's Theorem 1.2]].

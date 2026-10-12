@@ -125,7 +125,7 @@ different title and two authors and assumes the density hypothesis, so it is a
 separate work and has
 [[problems/divisors/E1217/claims/2026_04_16_tang_li|its own claim page]], at
 standing claimed. The same day Jared Duker Lichtman reported in the thread an
-independent proof he was writing up. The eight-author preprint of 1 May 2026
+independent proof then being written up. The eight-author preprint of 1 May 2026
 gives the proof as its Theorem 1.6, and the site's page says that similar proofs
 were found independently by subsets of its authors and by GPT 5.4 Pro. The
 [[problems/divisors/E1217/claims/2026_05_01_alexeev_barreto_li_lichtman_price_shah_tang_tao|claim page]]

@@ -209,7 +209,7 @@ checked and its two steps followed; Shi's theorem, on which it rests, is
 not held.
 
 **The upper bound, attested.** The bound $h(n)\le\log_2n+\log_*n+O(1)$ is
-stated by Bondy himself in the conclusion of [Bo71] (p. 84; paged at
+stated by Bondy in the conclusion of [Bo71] (p. 84; paged at
 [[../library/extremal_graph_theory/bondy_1971_pancyclic_graphs_i/claim_p84|claim_p84]]):
 "Finally we mention one extremal problem concerning pancyclic graphs. What
 is the minimum number of edges in a pancyclic graph of order $n$? If this
@@ -336,7 +336,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Sh94],
 **Remaining gaps.** (1) [Bo71] is paged at its statement of the bounds
 (p. 84): Bondy claims both inequalities with
 "we can prove that" and prints no proof and no indication of one, so what
-he claimed is settled from the text, and the site's, Griffin's and the
+was claimed is settled from the text, and the site's, Griffin's and the
 thread's accounts of the claim agree with it. (2) The upper bound
 $\log_2n+\log_*n+O(1)$ has no proof in any source found: [Bo71] prints
 none, and [GKW16] prints Theorems 18 and 19 (pp. 46--47), whose general

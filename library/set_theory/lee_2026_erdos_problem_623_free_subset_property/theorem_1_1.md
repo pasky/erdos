@@ -49,7 +49,7 @@ Both corollaries rest on
 [[set_theory/lee_2026_erdos_problem_623_free_subset_property/corollary_5_1|Corollary 5.1]] (p. 5), the
 equivalence in ZFC of $E_{623}$ with Koepke's free-subset property
 $\mathrm{Fr}_\omega(\aleph_\omega,\omega)$, and on Theorem 5.2 (p. 5),
-which recalls Koepke's Theorems 2.2 and 4.4 from his 1984 paper on the
+which recalls Koepke's Theorems 2.2 and 4.4 from the 1984 paper on the
 [[set_theory/koepke_1984_consistency_strength_free_subset_property_omega/_index|Koepke card]]:
 (i) $\mathrm{Fr}_\omega(\aleph_\omega,\omega)$ gives an inner model with a
 measurable cardinal $\le\aleph_\omega$; (ii) a measurable cardinal gives a

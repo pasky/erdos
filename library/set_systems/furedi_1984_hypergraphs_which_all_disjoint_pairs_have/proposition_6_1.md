@@ -3,8 +3,8 @@ name: set_systems/furedi_1984_hypergraphs_which_all_disjoint_pairs_have/proposit
 title: "Proposition 6.1 (p. 167): f_3(n)/binom(n,2) has a limit between 1 and 3.5"
 desc: |
   Füredi's remark that f_3(n)/binom(n,2) converges as n tends to infinity,
-  to a limit between 1 and 3.5; he could not prove the analogous statement
-  for f_r(n) with r greater than 3.
+  to a limit between 1 and 3.5; the author could not prove the analogous
+  statement for f_r(n) with r greater than 3.
 created: 2026-10-08T17:22:26Z
 updated: 2026-10-08T17:22:26Z
 ---

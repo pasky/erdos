@@ -37,7 +37,7 @@ S = {1,2,3,...} is rational, and Corollary 2 says every sequence with limsup
 irrationality sequence must not be rational, Corollary 2 forces limsup (log_2
 log_2 a_n)/n >= 1, essentially pinning the slowest possible growth of an
 irrationality sequence at the doubly exponential rate 2^{2^n}; Hančl notes as an
-open remark that he does not know whether 2^{2^n/n} is rational.
+open remark that the author does not know whether 2^{2^n/n} is rational.
 
 Source: <https://doi.org/10.4064/aa-59-2-97-104>. The scan is image-only and its
 rendered first and last pages show no copyright or license line; the journal's

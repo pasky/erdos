@@ -51,9 +51,10 @@ class; the count is of classes containing the integer.
 `claimed`/`proved` derives from those claims, while the site keeps the label
 OPEN. Its maintainer wrote in the thread on 2 June 2026 that two full-solution
 claims had been posted, both built on the sketch developed in the thread mainly
-by Sawhney and Tao. He wrote that he would wait for a refereed publication or a
-careful reading by an expert before changing the label. No refereed proof or
-disproof was found in the searches whose scope the Current assessment records.
+by Sawhney and Tao. The maintainer wrote that they would wait for a refereed
+publication or a careful reading by an expert before changing the label. No
+refereed proof or disproof was found in the searches whose scope the Current
+assessment records.
 
 Three claim pages record the pending claims. All answer yes for all large $n$,
 and all declare AI assistance. The first is for Zribi's notes of 25 April to 2
@@ -208,7 +209,7 @@ $n/\exp((\log n)^{o(1)})$ and $n$ contribute
 $o(n(\log\log n)^{r-1}/\log n)$; the range between $n^{1/2-\varepsilon}$
 and $n/\exp((\log n)^{o(1)})$ is the open part); and (TerenceTao) the trivial
 upper bound: since $\sum_{p\le n}n/p\sim n\log\log n$, the multiplicity
-cannot exceed $(1+o(1))\log\log n$, which the author, to his surprise,
+cannot exceed $(1+o(1))\log\log n$, which the author, to their surprise,
 could not improve at all. 29 October 2025 (BorisAlexeev): the [Er79d]
 passage quoted in full with the remark that it puts no condition on $n$,
 and the reading "for all sufficiently large $n$" agreed the same day. 3

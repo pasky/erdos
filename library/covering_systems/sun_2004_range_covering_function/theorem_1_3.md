@@ -57,7 +57,7 @@ run from $1$ to $k$. The integer $m$ is not required to be positive. The source 
 theorem a refinement of
 [[covering_systems/sun_2004_range_covering_function/theorem_1_1|Theorem 1.1]],
 and its Remark 1.4 (PDF p. 4) attributes the case $m=0$ to the author's
-1991 paper, with an extension in his 2004 paper.
+1991 paper, with an extension in their 2004 paper.
 
 **Proof pointer.** The proof is in Section 2, PDF pp. 5--6. It evaluates the
 weighted sum over one least period against roots of unity of order $d$, as in

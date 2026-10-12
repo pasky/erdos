@@ -52,9 +52,9 @@ question.
 
 **Acceptance.** Refereed publication: J. Combin. Theory Ser. A 120 (2013), no.
 3, 722--732, doi:10.1016/j.jcta.2012.12.008. The site's curator, Thomas Bloom,
-labels the problem proved. He credits the answer to Hatami, Hladký, Král',
-Norine and Razborov [HHKNR13] and, independently, to Grzesik [Gr12]. The text
-cited is arXiv:1102.1634v4 (5 December 2012; v1 posted 8 February 2011, the date
-of this page). The journal text is not held. The flag-algebra computation and
-the stability argument are not independently reviewed. The acceptance rests on
-the refereed publication and the curator's credit.
+labels the problem proved. The curator credits the answer to Hatami, Hladký,
+Král', Norine and Razborov [HHKNR13] and, independently, to Grzesik [Gr12]. The
+text cited is arXiv:1102.1634v4 (5 December 2012; v1 posted 8 February 2011, the
+date of this page). The journal text is not held. The flag-algebra computation
+and the stability argument are not independently reviewed. The acceptance rests
+on the refereed publication and the curator's credit.

@@ -75,8 +75,8 @@ remark of this page), which is short of all large $n$. Valtr announced
 $h(n)=\Theta(n^{4/3})$ in an Oberwolfach abstract of 2005 without a
 published proof, recorded on
 [[problems/distance_problems/E0956/claims/2006_03_31_valtr|its claim page]].
-Chojecki's note of 27 April 2026, whose result he attributed to GPT-5.5 Pro,
-gives an explicit parabolic-cap construction with $h(n)\geq c_0n^{4/3}$ and
+Chojecki's note of 27 April 2026, whose result the author attributed to GPT-5.5
+Pro, gives an explicit parabolic-cap construction with $h(n)\geq c_0n^{4/3}$ and
 hence $h(n)=\Theta(n^{4/3})$, recorded on
 [[problems/distance_problems/E0956/claims/2026_04_27_chojecki|its claim page]]
 together with Aristotle's partial Lean file and Linmiao Xu's Lean

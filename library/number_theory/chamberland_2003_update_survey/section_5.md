@@ -3,7 +3,7 @@ name: number_theory/chamberland_2003_update_survey/section_5
 title: "Section 5 (pp. 15-17): cycles of T, the author's cycle identities, {1,2} the only circuit, Eliahou's and Tempkin-Arteaga's cycle-length forms, and Brox's finiteness result"
 desc: |
   The survey's account of what is known about cycles of T: the author's
-  identity between the even and odd terms of a cycle and his residue
+  identity between the even and odd terms of a cycle and the author's residue
   observations, the circuit theorem that {1,2} is the only circuit, the
   cycle-length forms of Eliahou and of Tempkin and Arteaga that give the
   bound 272,500,658, and Brox's finiteness theorem for cycles with few terms

@@ -166,9 +166,9 @@ disproof of $g(n)\sim2n^{1/2}$ to Mrose [Mr79], whose construction gives
 $g(n)^2\le\frac72n$. The
 thread: a comment of 24 September 2025 asking how to prove
 $(2^{1/2}+c)n^{1/2}\le g(n)\le2n^{1/2}$, and the site's author's reply the
-same day that, prompted by it, he had found the literature and updated the
-page. The proof-claim tab is empty. The community database record says
-open (31 August 2025), unformalized, OEIS A066063.
+same day that, prompted by it, the author had found the literature and updated
+the page. The proof-claim tab is empty. The community database record says open
+(31 August 2025), unformalized, OEIS A066063.
 
 **The origin.** [Er73], printed pp. 130--131,
 introduces the problem as one of Rohrbach's, from the papers of Rohrbach
@@ -216,7 +216,7 @@ $294/85=3.4588\ldots$, the site's $3.458\cdots$; and if
 $n(k)\le(0.4585+\varepsilon)k^2$ for all large $k$ then, as $g(n)\to\infty$,
 $n\le n(g(n))\le(0.4585+\varepsilon)g(n)^2$, so $g(n)^2\ge(1/0.4585-o(1))n$
 with $1/0.4585=2.1810\ldots$, the site's $2.181\cdots$. The Yu bound is
-second-hand (the paper is not held); Mrose's $2/7$, his equation (3)
+second-hand (the paper is not held); Mrose's $2/7$, equation (3)
 $n_2(k)\ge\frac87(\frac k2)^2+O(k)$ with $k$ counting the positive elements
 ([Mr79], p. 118;
 [[../library/additive_combinatorics/mrose_1979_untere_schranken_reichweiten_extremalbasen_fester_ordnung/equation_3|result page]]),

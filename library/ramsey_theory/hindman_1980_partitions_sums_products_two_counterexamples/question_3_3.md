@@ -52,9 +52,9 @@ is the $r$-cell partition, and the one-element subsets put $A$ itself in the
 cell $E$, as the problem's reading through Hindman's conjecture does. Open
 in the paper (received October 1978, published 1980) and as of the search
 recorded on the problem page; the site's commentary says the problem was
-"First asked by Hindman", and this is a printed statement of it in his own
-words, without a claim here that it is the first. The same statement in the
-later literature is
+"First asked by Hindman", and this is a printed statement of it in the
+author's own words, without a claim here that it is the first. The same
+statement in the later literature is
 [[ramsey_theory/alweiss_2023_monochromatic_sums_products_over/conjecture_1_1|Alweiss's Conjecture 1.1]].
 The paper's own theorems concern the infinite versions:
 [[ramsey_theory/hindman_1980_partitions_sums_products_two_counterexamples/theorem_2_14|Theorem 2.14]]

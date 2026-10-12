@@ -82,12 +82,12 @@ Samuel Korsky (with GPT 5.6-Pro, filed 26 July 2026, four comments) claims
 the lower bound
 $h(n)\ge n\exp((\frac{\log2}2-o(1))\frac{\log n}{\log\log n})$ by adapting a
 construction of Green and Ruzsa, on
-[[problems/primes/E0860/claims/2026_07_26_korsky|his claim page]]. Kaizhe
+[[problems/primes/E0860/claims/2026_07_26_korsky|Korsky's claim page]]. Kaizhe
 Chen (with ChatGPT 5.6 Sol, filed 29 July 2026, one comment) claims a lower
 bound of the same shape with an unspecified constant and the upper bounds
 $h(n)\ll n^{1.4}$ and, for the function of Problem 711,
 $F(n)\ll n^{1.4031}$, on
-[[problems/primes/E0860/claims/2026_07_29_chen|his claim page]]. Chen's
+[[problems/primes/E0860/claims/2026_07_29_chen|the second claim page]]. Chen's
 arXiv paper 2607.26450 carried the tab's bounds in its first version (29
 July 2026: $h(n)\ll n^{7/5}/(\log n)^{2/5}$, $F(n)\ll n^{1.4031}$,
 lower-bound constant $1/50$); its second version (13 August 2026), joint

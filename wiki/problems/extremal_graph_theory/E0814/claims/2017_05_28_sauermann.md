@@ -73,7 +73,7 @@ refereed journal. The Crossref record of the DOI gives volume 134 (January
 2019), pages 36--75, and the paper link's date is the issue's nominal first day.
 The acknowledgment of arXiv v2 thanks the anonymous referees. `reviewed`: the
 site's curator, Thomas Bloom, labels the problem PROVED and credits Sauermann's
-paper with the proof of the full conjecture. He records its bound as
+paper with the proof of the full conjecture. Bloom records its bound as
 $c_k\gg1/k^3$ (the site's page on 2026-09-18, with an empty thread and an empty
 proof-claim tab). The curator is independent of the author, and the site's label
 is the `discussion` link. The community database lists the problem as proved as

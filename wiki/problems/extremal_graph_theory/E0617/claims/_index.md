@@ -4,7 +4,7 @@ desc: The 10 claim pages of Problem 617, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-12T23:28:38Z
 ---
 
 # problems/extremal_graph_theory/E0617/claims
@@ -55,7 +55,7 @@ $r=5$ of Problem 617 with a Lean 4 proof built on a hitter lemma and a
 minority-color lemma. The proof's SAT certificates rest on native_decide.
 
 [[problems/extremal_graph_theory/E0617/claims/2026_08_11_terpstra|2026_08_11_terpstra]]: A preprint draft and artifact, written by OpenAI Codex under the direction of
-Adam Lee Terpstra and released by him on 11 August 2026, claim the fixed cases
+Adam Lee Terpstra, who released them on 11 August 2026, claim the fixed cases
 $r=10$ and $r=11$ of Problem 617. They give no certificate and are unrefereed.
 
 ***

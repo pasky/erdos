@@ -35,7 +35,7 @@ equivalence. It is accepted on the site's acceptance of the same theorem for
 Problem 146
 ([[problems/extremal_graph_theory/E0113/claims/2026_08_01_openai|claim page]]).
 The label's Lean suffix is the site's formal status. It reflects the outside
-Lean formalization of Janzer's result, which is linked on his claim page and
+Lean formalization of Janzer's result, which is linked on its claim page and
 which this corpus has not built.
 
 **Source.** [erdosproblems.com/113](https://www.erdosproblems.com/113), accessed
@@ -80,7 +80,7 @@ evidence.
 ## Current assessment
 
 A bounded primary-source search checked Janzer's arXiv record,
-the Oxford publication record and his author page, with targeted correction
+the Oxford publication record and the author's page, with targeted correction
 and X-announcement queries. The current version of the
 [arXiv record](https://arxiv.org/abs/2109.06110) is v2, which states the
 disproof. No primary correction or retraction was located in that scope;
@@ -122,7 +122,7 @@ are outside this bounded compilation.
 ## Progress
 
 Janzer disproves the necessary-condition direction of the dated equivalence.
-His
+The paper's
 [[../library/extremal_graph_theory/janzer_2023_disproof_conjecture_erdos_simonovits_turan_number/theorem_1_4_e147|Theorem 1.4]]
 gives, for every $\eta>0$, a finite 3-regular bipartite graph $H$ with
 $\operatorname{ex}(n,H)=O(n^{4/3+\eta})$. The statement is on p. 2 of

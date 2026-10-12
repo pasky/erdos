@@ -3,9 +3,9 @@ name: problems/divisors/E0844/claims/2025_07_01_weisenberg
 title: Weisenberg's reduction to Chvátal's theorem
 desc: |
   Desmond Weisenberg shows that a maximal set contains every non-squarefree
-  number. He then uses Chvátal's 1974 theorem to show that the even squarefree
-  numbers are the largest pairwise non-coprime set of squarefree numbers, which
-  answers the question yes.
+  number. The author then uses Chvátal's 1974 theorem to show that the even
+  squarefree numbers are the largest pairwise non-coprime set of squarefree
+  numbers, which answers the question yes.
 authors:
 - Desmond Weisenberg
 status: accepted

@@ -36,7 +36,7 @@ restatement then gives $\alpha>c_2(n/t)\log t$, the form of
 with an unspecified constant.
 
 **Sharpness.** The same page records Joel Spencer's remark that Theorem 1$'$ is
-best possible up to a constant factor. His example blows up each vertex of a
+best possible up to a constant factor. The example blows up each vertex of a
 triangle-free graph of small independence number into a clique of size
 $s>\exp t'$, where $t'$ is that graph's average valency, joining two cliques
 completely when their vertices were adjacent; the resulting graph has few

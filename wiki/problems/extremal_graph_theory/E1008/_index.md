@@ -71,7 +71,7 @@ of its own. A third page,
 [[problems/extremal_graph_theory/E1008/claims/2026_01_20_alexeev|Aristotle's proof with c equal to three eighths]],
 records a pending claim: a Lean proof of the bound with $c=\tfrac38$. The same
 development's author committed it on 20 January 2026 and announced it in an
-update to his comment of 17 January 2026. It names no informal author. The
+update to their comment of 17 January 2026. It names no informal author. The
 automated prover Aristotle found it from the statement alone. The standing in
 the frontmatter is derived from the three pages.
 

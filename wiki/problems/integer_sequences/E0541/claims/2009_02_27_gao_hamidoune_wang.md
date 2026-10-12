@@ -63,7 +63,7 @@ structure only, and the journal text was not compared.
 **Acceptance.** Refereed: the paper appeared in the Journal of Number Theory. In
 the Crossref record (2026-10-07), the issue is dated June 2010. Reviewed: the
 site's curator, Thomas Bloom, who is independent of the authors, labels the
-problem PROVED (LEAN). His commentary (page last edited 8 April 2026) credits
+problem PROVED (LEAN). The commentary (page last edited 8 April 2026) credits
 this paper with the proof for every modulus, prime or not, and credits the
 large-prime case to Erdős and Szemerédi. On 2026-09-18 Semantic Scholar listed
 nineteen citing records, none of which disputes the theorem by its title.

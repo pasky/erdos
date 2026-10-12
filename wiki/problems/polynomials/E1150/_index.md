@@ -125,7 +125,7 @@ A 2016 preprint
 asserts that no $\pm1$ sequence is $L^4$-flat, and a September 2025 preprint
 ([[problems/polynomials/E1150/claims/2025_09_04_el_abdalaoui|its page]])
 asserts the same for every $L^\alpha$; Appendix A of the release disputes
-both. His April 2025 preprint, that $\pm1$ polynomials are never
+both. El Abdalaoui's April 2025 preprint, that $\pm1$ polynomials are never
 $L^\alpha$-flat for even $\alpha>2$, which would give a universal gap, is
 rejected on
 [[problems/polynomials/E1150/claims/2025_04_30_el_abdalaoui|its claim page]]:

@@ -66,8 +66,8 @@ problem's sense if and only if it is a Sidon set.
 The article says the proof that Sidon sets satisfy (vii) is given in
 Pisier's "Condition d'entropie et caractérisations arithmétiques des
 ensembles de Sidon" (its reference [5], then to appear), and that the
-converse follows from Theorem 2.3 of his "De nouvelles caractérisations des
-ensembles de Sidon" (reference [4], Advances in Math. Supplementary Studies
+converse follows from Theorem 2.3 of the author's "De nouvelles caractérisations
+des ensembles de Sidon" (reference [4], Advances in Math. Supplementary Studies
 7B (1981), 685--726), because every quasi-independent set $B$ is Sidon with
 Sidon constant $S(B)$ bounded by an absolute constant (p. 89).
 

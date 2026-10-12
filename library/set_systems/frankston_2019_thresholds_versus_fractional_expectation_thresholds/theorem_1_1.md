@@ -32,9 +32,9 @@ system in place of $g$.
 every finite $X$ and increasing $\mathcal F\subseteq 2^X$,
 $p_c(\mathcal F)\le Kq_f(\mathcal F)\log\ell(\mathcal F)$."
 
-The paper presents this as Talagrand's strengthening of his Conjecture 1.3
-($p_c(\mathcal F)\le Kq_f(\mathcal F)\log|X|$), itself a fractional
-relaxation of the Kahn–Kalai Conjecture 1.2 ($p_c(\mathcal F)\le
+The paper presents this as Talagrand's strengthening of the same author's
+Conjecture 1.3 ($p_c(\mathcal F)\le Kq_f(\mathcal F)\log|X|$), itself a
+fractional relaxation of the Kahn–Kalai Conjecture 1.2 ($p_c(\mathcal F)\le
 Kq(\mathcal F)\log|X|$), which the paper does not prove (p. 2). It notes
 that, apart from $K$, the bound is tight in many of the most interesting
 cases (p. 1). The printed statement does not exclude $\ell(\mathcal F)=1$,

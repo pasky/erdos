@@ -56,7 +56,7 @@ claim. The standing concerns the site's formulation.
 2026). The standing is claimed through two pending full claims, recorded without
 adoption and described below. No outside review is recorded for either.
 
-The site's commentary records the last question as settled by Sun. His theorem
+The site's commentary records the last question as settled by Sun. The theorem
 that the divisors of $2^{p-1}p$ above one form an irreducible covering set for
 every odd prime $p$ is the accepted partial claim on
 [[problems/covering_systems/E1189/claims/2006_01_01_sun|Sun's claim page]]. The

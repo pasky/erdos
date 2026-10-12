@@ -26,8 +26,8 @@ read in the arXiv v2.
 
 [[extremal_graph_theory/sleszynskanowak_2016_clique_number_square_line_graph/theorem_7|theorem_7]]: Śleszyńska-Nowak's fractional bound: every simple graph has fractional
 strong chromatic index at most 1.75 times the squared maximum degree,
-derived from her clique bound Theorem 5 and a fractional coloring bound
-she attributes to Molloy and Reed's book; read in the arXiv v2.
+derived from the paper's clique bound Theorem 5 and a fractional coloring
+bound the author attributes to Molloy and Reed's book; read in the arXiv v2.
 
 ***
 

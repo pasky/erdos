@@ -3,8 +3,8 @@ name: additive_combinatorics/freud_1993_adding_numbers_problem_p/upper_bound_p62
 title: "The remark of p. 6201: the proportion cannot exceed 2/3, with the report of Coppersmith and Phillips's 13n/24 construction and 2/3 − 1/3584 bound"
 desc: |
   Freud's unproved upper-bound remark for sets with no member a sum of
-  consecutive members, and his report that Coppersmith and Phillips
-  rediscovered and improved his construction and the upper bound, with the
+  consecutive members, and the author's report that Coppersmith and Phillips
+  rediscovered and improved Freud's construction and the upper bound, with the
   figure 1/3584 as printed.
 created: 2026-09-18T15:50:00Z
 updated: 2026-10-08T14:29:35Z
@@ -34,7 +34,7 @@ $\epsilon=1/512$" and its Theorem 3.7 (printed p. 177, PDF p. 5) prints
 $2n/3-\lfloor n/512\rfloor+3\log_4n-1/2$, both read on the text layer, where the string $3584$ does not occur; the published figure is
 $1/512$, and the theorem is paged on
 [[additive_combinatorics/coppersmith_phillips_1996_question_erdos_subsequence_sums/theorem_3_7|theorem_3_7]].
-Freud's $1/3584$ is his report as printed, not the paper's figure.
+Freud's $1/3584$ is the note's report as printed, not the paper's figure.
 
 **Source.** R. Freud, *Adding numbers*, James
 Cook Mathematical Notes 6 (1993), issue 60, 6199--6202; printed p. 6201 is

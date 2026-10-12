@@ -42,7 +42,7 @@ the least prime factor of $d$, and $F(1)=1$), $B_n$ is the set of $b$ with
 $F(b)<n$, so $|B_n|=A(n-1)$ for $A(x)=|\{b:F(b)\le x\}|$.
 [[integer_sequences/weingartner_2025_schinzel_szekeres_function/_index|Weingartner]]
 (arXiv:2310.13038v2, p. 1, read on the page image) records that Schinzel
-and Szekeres showed $A(x)=o(x)$, and his Theorem 1 gives
+and Szekeres showed $A(x)=o(x)$, and Weingartner's Theorem 1 gives
 $A(x)\sim1.53796\ldots\,x/\log x$; so $|B_n|$ has order $n/\log n$.
 
 **Source.** A. Schinzel and G. Szekeres, *Sur un problème de M. Paul Erdős*,

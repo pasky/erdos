@@ -87,9 +87,9 @@ file's `volume` on the projection line a null measure, so the formal statement
 was false until a fix of 10 September 2026 restored the Lebesgue measure of the
 line; Alexeev's file measures length on the line directly and matches the fixed
 statement. This corpus built the revision of Alexeev's development of
-2026-09-15, in the Lean v4.33.0 folder of his lean-proofs repository, checked
-its axioms and matched its statement to the repository's comparator challenge,
-as Alexeev's claim page records.
+2026-09-15, in the Lean v4.33.0 folder of the author's lean-proofs
+repository, checked its axioms and matched its statement to the repository's
+comparator challenge, as Alexeev's claim page records.
 
 ## Progress
 

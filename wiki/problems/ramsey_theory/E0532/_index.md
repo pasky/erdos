@@ -4,7 +4,8 @@ title: Problem 532
 desc: |
   Asks whether every two-coloring of $\mathbb{N}$ has an infinite set whose
   finite non-empty subset sums all have one color. The answer is yes, by
-  Hindman's theorem, proved in his 1974 paper and in Baumgartner's 1974 note.
+  Hindman's theorem, proved in Hindman's 1974 paper and in Baumgartner's
+  1974 note.
 tags:
 - Number theory
 - Ramsey theory
@@ -38,8 +39,8 @@ such a set for an infinite $A$ (the site's phrase: an IP set). The site fixes
 two colors and attributes the question to Graham and Rothschild, with source
 keys [Er73], [Er75b] and [Er77c]; Hindman's theorem gives the conclusion for
 every finite number of colors, and the two-color statement is its instance.
-Hindman states the theorem for a finite partition of $N$, his positive
-integers, and concludes with a sequence rather than a set; his Lemma 2.2 (p.
+Hindman states the theorem for a finite partition of $N$, the positive
+integers, and concludes with a sequence rather than a set; its Lemma 2.2 (p.
 2) replaces any such sequence by a strictly increasing one whose finite sums
 lie among the original ones, so the sequence's terms form the infinite set $A$
 (an observation made here from the printed lemma). Baumgartner states the
@@ -327,7 +328,7 @@ paper (Proc. Amer. Math. Soc. 36, 341--346), which proves [Hi74]'s Lemma 2.2.
 
 **Remaining gaps.** (1) Hindman's Theorem 3.1 is checked at statement depth on
 p. 9; its proof, Lemmas 2.2--2.12 on pp. 2--9, was read for structure only,
-and Lemma 2.2 is proved in his 1972 paper, which was not read. (2)
+and Lemma 2.2 is proved in Hindman's 1972 paper, which was not read. (2)
 Baumgartner's two-page proof was read for structure only, and no step of
 Lemmas 1--4 was checked. (3) The Lean developments are cited from their text
 and not built; the `0`-versus-positive-integer convention between the

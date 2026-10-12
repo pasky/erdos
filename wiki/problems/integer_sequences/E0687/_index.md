@@ -268,7 +268,7 @@ $Y(X)\gg X\log X/\log_3X$ and $G(T)\gg\log T\log_2T/\log_4T$, declaring as its
 only outside inputs classical prime-distribution theorems and two stated results
 of Ford, Green, Konyagin, Maynard and Tao; the argument is not checked here).
 The tab records 31 comments on the claim. The same page carries a proof
-exposition by the site's maintainer (last edited 31 August 2026), which he
+exposition by the site's maintainer (last edited 31 August 2026), which Bloom
 presents as a heuristic sketch that leaves out the routine calculations and
 concentration estimates and warns that some of the omitted technicalities are
 substantial; it has two ideas: for the primes in $(w,X/2]$, $w=L_1^{100}$, take

@@ -71,7 +71,7 @@ factorials beginning with $a!$ bounded; how does the largest exponent
 $f(a,p)$ behave; and is there a prime $p$ and an infinite increasing sequence
 whose partial factorial sums are divisible by ever higher powers of $p$? All
 three are open. The site's commentary records one result, Lin's
-$f(2,2)\le254$ from his 1976 memorandum, so the first question has the answer
+$f(2,2)\le254$ from a 1976 memorandum, so the first question has the answer
 yes at $(2,2)$. Kitamura's two repositories of July 2026 compute $f(a,2)$
 exactly for every $a\le256$, with $f(2,2)=254$ (so Lin's bound is sharp),
 $f(a,2)=v_2(a!)$ for odd $a$, and $f(34,2)=18444$ the largest value in the

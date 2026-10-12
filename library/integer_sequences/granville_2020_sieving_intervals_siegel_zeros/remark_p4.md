@@ -2,7 +2,7 @@
 name: integer_sequences/granville_2020_sieving_intervals_siegel_zeros/remark_p4
 title: "Remark (p. 4): Siegel zeros with 1 - beta < (log q)^{-B} would give J(m) >> omega(m)(log omega(m))^B for Jacobsthal's function"
 desc: |
-  Granville's remark that the proof of his Corollary 2 shows that infinitely
+  Granville's remark that the proof of Corollary 2 shows that infinitely
   many Siegel zeros with 1 - beta < 1/(log q)^B, for some integer B >= 1,
   give integers m with J(m) >> omega(m)(log omega(m))^B, against the
   conjectured size omega(m)(log omega(m))^{3+o(1)} when B > 3.

@@ -246,7 +246,7 @@ the cover-graph papers above.
 **Remaining gaps.** (1) Proof coverage: Corollaries 3 and 4 and Theorem 2
 are paged at claims checked; the probabilistic proof of Theorem 2 and the
 Lemma are read for structure only, and the deduction above is the page's own
-and unreviewed. Pretzel's theorem is stated from its summary, and his proof
+and unreviewed. Pretzel's theorem is stated from its summary, and the proof
 is not reproduced. (2) Ore's girth-four example is described in none of the
 texts cited here. (3) There is no Lean statement of the problem.
 

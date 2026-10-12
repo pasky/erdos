@@ -30,7 +30,7 @@ deleting any vertex leaves a vertex of degree $k-1$ on the cycle (p. 54);
 the paper says no proper subgraph has minimum degree at least $k$, but its
 argument covers subgraphs on fewer vertices, and for $k\ge4$ deleting one
 clique edge leaves a spanning subgraph of minimum degree $k$. The lemma is the
-threshold Sauermann restates as her Fact 1.1
+threshold Sauermann restates as Fact 1.1
 ([[extremal_graph_theory/sauermann_2019_rousseau_schelp_subgraphs_minimum_degree/fact_1_1|fact_1_1]]),
 and Mousset, Noever and Škorić write $t_k(n)$ for the edge count; the
 problem's hypothesis is the second half's edge count, and the

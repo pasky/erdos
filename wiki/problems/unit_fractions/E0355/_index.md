@@ -113,9 +113,9 @@ last edited 18 November 2025; source keys [BlEr76, p. 167] and [ErGr80, p.
 negative answer, that the answer is in fact yes for every lacunarity
 constant $\lambda\in(1,2)$ but not for $\lambda=2$, and that van Doorn and
 Kovač [DoKo25] proved it. The thread: 19--22 August 2025, Kovač's guess that
-the answer is yes, his construction of a sequence with ratios in $[3/2,2]$
+the answer is yes, their construction of a sequence with ratios in $[3/2,2]$
 whose finite reciprocal sums contain all rationals in $[0,1)$ (Claims 1 and
-2, with the first terms $2,4,6,12,24,48,72,120,180,360,720,\ldots$) and his
+2, with the first terms $2,4,6,12,24,48,72,120,180,360,720,\ldots$) and their
 preliminary draft, van Doorn's variants (products of the first primes,
 lacunarity arbitrarily close to $2$, all rationals in $[0,x]$ for any $x$),
 and Kovač's note that the question is Conjecture 4 of the 1976 paper; 29--30

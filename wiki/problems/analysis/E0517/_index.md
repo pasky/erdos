@@ -84,7 +84,7 @@ these exponents satisfy $n_k/k\to\infty$. Fejér's theorem [Fe08], that
 under $\sum1/n_k<\infty$ every value is taken at least once, settles no
 instance of the question and has no claim page. Murai's example of an
 entire function with Fabry gaps, $k/n_k\to0$, whose deficiency at $0$ is
-$1$ shows that his theorem's gap hypothesis is sharp, but a deficient value
+$1$ shows that the 1983 theorem's gap hypothesis is sharp, but a deficient value
 may still be taken infinitely often, so the example answers nothing here.
 What remains open is the class of functions of infinite order with
 $n_k/k\to\infty$ and $\sum1/n_k=\infty$, which Murai's introduction

@@ -3,7 +3,7 @@ name: discrete_geometry/parts_2020_what_percent_plane_can_be_properly/table_2
 title: "Table 2: unit-distance graphs in the plane of order at most 6992 are 6-colorable, and of order at most 24 are 5-colorable"
 desc: |
   Parts' table of bounds on the order of unit-distance graphs in the plane,
-  derived from his partial tilings by Pritikin's pigeonhole argument: every
+  derived from the partial tilings by Pritikin's pigeonhole argument: every
   such graph with at most 6992 vertices is 6-colorable, every one with at
   most 24 vertices is 5-colorable, and a 7-chromatic one has at least 6993
   vertices.

@@ -2,7 +2,7 @@
 name: number_theory/doorn_2025_improved_bounds_mayer_erdos_phenomenon_similarly/lemma_2
 title: "Lemma 2 (p. 3): Farey fractions of order n enclosing a Farey fraction a/b are similarly ordered when l - k <= (n + b + 1)/(2b)"
 desc: |
-  Van Doorn's 2025 lemma behind his lower bound for Problem 1005: two
+  Van Doorn's 2025 lemma behind the paper's lower bound for Problem 1005: two
   Farey fractions of order n that enclose a Farey fraction a/b are
   similarly ordered whenever their index distance is at most
   (n + b + 1)/(2b).

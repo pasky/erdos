@@ -12,7 +12,7 @@ updated: 2026-10-08T15:35:15Z
 
 [[polynomials/_index|..]]
 
-[[polynomials/halasz_1973_result_salem_zygmund_concerning_random_polynomials/remark_p377|remark_p377]]: Halász's closing remark that his bounds carry over to the power polynomial
+[[polynomials/halasz_1973_result_salem_zygmund_concerning_random_polynomials/remark_p377|remark_p377]]: Halász's closing remark that the bounds carry over to the power polynomial
 with random signs on the unit circle, the lower bound through its real part
 and the upper bound through the real parts of finitely many fixed rotations,
 so that its maximum divided by sqrt(n log n) tends almost surely to 1.
@@ -59,10 +59,10 @@ $$
 $$
 
 The author notes that the order of the error term is probably correct but does
-not seek optimal constants. He adds, without proof, that for fixed $n$ the
+not seek optimal constants. Halász adds, without proof, that for fixed $n$ the
 $\log\log n$ can be dropped with probability $1-\varepsilon$, the constants 4
 and 3 being replaced by a $c(\varepsilon)$, and that the maximum probably has a
-limit distribution; his remarks on generalizations (pp. 376--377) say that the
+limit distribution; the remarks on generalizations (pp. 376--377) say that the
 same proof applies to this fixed-$n$ form, with a denser set of points in the
 lower estimate as in the upper one.
 

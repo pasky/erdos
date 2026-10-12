@@ -78,7 +78,7 @@ these values over all such $f$. The label is OPEN; the site cross-references
 holds six comments: two of December 2025 agreeing that the
 statement needs the word transcendental, which Clunie and Hayman assumed;
 Tang's announcement of 13 February 2026 of the paper [HeTa26]; Tao's of the
-same day of a page for the constant $B$ in his repository of optimization
+same day of a page for the constant $B$ in Tao's repository of optimization
 constants; Sothanaphan's of 1 March 2026 announcing the computation recorded
 below; and the curator's of 2 April 2026 on citing the upper bound
 $2/\pi-c$.

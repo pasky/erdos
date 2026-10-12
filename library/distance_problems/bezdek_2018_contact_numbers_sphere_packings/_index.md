@@ -110,7 +110,7 @@ d >= 3.
   all its centers on the vertices of a triangulation by congruent equilateral
   triangles of side D, provided the equilateral triangle of side D has each
   angle equal to 2 pi / N for some positive integer N >= 3. The survey
-  credits Bowen for H^2 and says his method extends to S^2.
+  credits Bowen for H^2 and says the method extends to S^2.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card names above the edition read.

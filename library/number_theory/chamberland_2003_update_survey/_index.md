@@ -28,7 +28,7 @@ c > 0 with Z_1(x) > x^c for large x, the successive exponents 0.25, 0.643,
 3/7, 0.48 and 0.81, and Krasikov and Lagarias's Z_1(x) > x^0.84.
 
 [[number_theory/chamberland_2003_update_survey/section_5|section_5]]: The survey's account of what is known about cycles of T: the author's
-identity between the even and odd terms of a cycle and his residue
+identity between the even and odd terms of a cycle and the author's residue
 observations, the circuit theorem that {1,2} is the only circuit, the
 cycle-length forms of Eliahou and of Tempkin and Arteaga that give the
 bound 272,500,658, and Brox's finiteness theorem for cycles with few terms

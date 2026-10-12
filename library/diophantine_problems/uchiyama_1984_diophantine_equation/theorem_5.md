@@ -16,8 +16,8 @@ updated: 2026-10-08T17:59:05Z
 Setting (pp. 237--238). The equation (1) is $x^xy^y=z^z$ in positive
 integers. A solution is trivial when $x=1,\ y=z$ or $x=z,\ y=1$. The index
 of a solution is $Q=xy/z^2$. Mills's Theorem 1, recalled on p. 237, gives no
-non-trivial solution with $4xy>z^2$, that is $Q>1/4$, and his Theorem 2 gives
-exactly Ko's family (2) with $4xy=z^2$, that is $Q=1/4$. For the remaining
+non-trivial solution with $4xy>z^2$, that is $Q>1/4$, and Mills's Theorem 2
+gives exactly Ko's family (2) with $4xy=z^2$, that is $Q=1/4$. For the remaining
 non-trivial solutions, those with $4xy<z^2$, the paper assumes by symmetry
 $z>x\ge y>1$ (its (3)), so that $Q$ is a rational number with $0<Q<1$.
 

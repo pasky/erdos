@@ -107,7 +107,7 @@ infinite arithmetic progression at all; Lemma 1 restates, without proof, the
   p. 121); and, for alpha in [A-1,A), the gap normalized by
   (f_alpha(x) - log_2 x/2)/(sqrt(log x)/2) (denominator as printed) has the
   Gaussian limit law lim mu(G(eta,x)) = Phi(eta).
-- Theorem A (p. 116, recalled from the author's earlier paper, his reference
+- Theorem A (p. 116, recalled from the author's earlier paper, reference
   [3], Acta Math. Hungar. 53, 149--154): The pairs (alpha,beta) with
   A_{alpha,beta} not complete have the cardinality of the continuum.
 

@@ -33,13 +33,14 @@ proof splits n into two cases: for n not of the form 4m+2 some prime of the
 reduced covering set {3,17,257,641,65537,6700417} divides k*2^n + 1, while for
 n = 4m+2 the value equals 4(t*2^m)^4 + 1, which factors algebraically as
 (t^2 2^{2m+1} + t 2^{m+1} + 1)(t^2 2^{2m+1} - t 2^{m+1} + 1) with both factors
-exceeding 1. He notes k*2^{4m+2} + 1 is congruent to 1 mod 5, so Sierpinski's
-full covering set is not a covering set for these k; he asks whether there
-are other Sierpinski numbers analogous to Theorem 1 and suggests that the least
-Sierpinski number k_0 may have no covering set. Problem 1113 asks whether there are Sierpinski numbers
-with no finite covering set of primes: the paper gives explicit families whose
-compositeness is partly algebraic, but it shows only that Sierpinski's set is
-not a covering set for these k, not that they have no finite covering set.
+exceeding 1. Izotov notes k*2^{4m+2} + 1 is congruent to 1 mod 5, so
+Sierpinski's full covering set is not a covering set for these k; the author
+asks whether there are other Sierpinski numbers analogous to Theorem 1 and
+suggests that the least Sierpinski number k_0 may have no covering set.
+Problem 1113 asks whether there are Sierpinski numbers with no finite covering
+set of primes: the paper gives explicit families whose compositeness is partly
+algebraic, but it shows only that Sierpinski's set is not a covering set for
+these k, not that they have no finite covering set.
 
 Source: <https://www.fq.math.ca/33-3.html>.
 

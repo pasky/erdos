@@ -91,7 +91,7 @@ for the $n$th prime, is linked on that page and is not built here.
 constant $C$ infinitely many $n$ have $\omega(n-k)\le\Omega(n-k)\le C\log k$
 for all $1<k<n$, within a factor $\log\log k$ of the bound asked for, and
 conjectures that the $C\log k$ bound is sharp up to a constant, which would
-give the answer no; his Theorem 7.3 proves the answer no for every
+give the answer no; Theorem 7.3 of [La26] proves the answer no for every
 $\epsilon$ below some $\delta>0$ under a conjecture on short intervals
 containing integers with many prime factors, the conditional claim on
 [[problems/arithmetic_functions/E0679/claims/2026_04_16_lau|Lau's claim page]].

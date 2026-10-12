@@ -2,7 +2,7 @@
 name: distance_problems/shinohara_2008_uniqueness_maximum_planar_five_distance_sets/theorem_1_1
 title: "Theorem 1.1: g(4) = 9 with four extremal sets, and g(5) = 12 (quoted from Erdős and Fishburn)"
 desc: |
-  The results of Erdős and Fishburn that Shinohara quotes as his starting
+  The results of Erdős and Fishburn that Shinohara quotes as the starting
   point: a planar four-distance set has at most nine points, the nine-point
   ones are classified, and a planar five-distance set has at most twelve
   points, with a twelve-point example.

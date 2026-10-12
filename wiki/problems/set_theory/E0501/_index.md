@@ -223,8 +223,8 @@ CI, not built in this corpus, with no fidelity audit by anyone outside the
 project found; its formalized positive model uses $\mathfrak c^+$ random reals
 over the pure random algebra rather than the paper's $\omega_2$ random reals
 over a CH ground; the author's forum post of 2026-08-16 offered the argument as
-an autoformalization candidate and said he had vetted neither it nor Lee's; and
-no independent human review of the forcing argument was found. The corpus
+an autoformalization candidate and said they had vetted neither it nor Lee's;
+and no independent human review of the forcing argument was found. The corpus
 already treats documented site acceptance of an unrefereed source as sufficient
 for a resolved label; the author's formal check is an unaudited formalization, a
 link on the claim pages and not acceptance evidence.

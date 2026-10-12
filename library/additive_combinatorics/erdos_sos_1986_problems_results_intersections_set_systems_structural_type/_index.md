@@ -113,7 +113,7 @@ $$
 g(n,P_1)=\frac{n^2}{2}+O(n^{5/3}\log^3 n),
 $$
 
-so the leading term conjectured in 1986 is correct, but he also constructed
+so the leading term conjectured in 1986 is correct, but Szabó also constructed
 families of size
 
 $$

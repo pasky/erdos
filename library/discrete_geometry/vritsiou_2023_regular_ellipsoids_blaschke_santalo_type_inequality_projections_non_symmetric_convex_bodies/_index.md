@@ -12,12 +12,12 @@ updated: 2026-10-08T16:42:58Z
 
 [[discrete_geometry/_index|..]]
 
-[[discrete_geometry/vritsiou_2023_regular_ellipsoids_blaschke_santalo_type_inequality_projections_non_symmetric_convex_bodies/corollary_17|corollary_17]]: Vritsiou's corollary to her Proposition 15: every isotropic convex body
+[[discrete_geometry/vritsiou_2023_regular_ellipsoids_blaschke_santalo_type_inequality_projections_non_symmetric_convex_bodies/corollary_17|corollary_17]]: Vritsiou's corollary to Proposition 15: every isotropic convex body
 in R^n, symmetric or not, has mean norm M(K) at most
 C log^{5/22}(n)/(n^{1/22} L_K), with a conditional bound of order
 log^{1/6}(n)/(n^{1/18} L_K) carrying the factor 1 + h_K(-b(K°)).
 
-[[discrete_geometry/vritsiou_2023_regular_ellipsoids_blaschke_santalo_type_inequality_projections_non_symmetric_convex_bodies/proposition_3|proposition_3]]: Vritsiou's Gelfand-number form of her Theorem 2: for each beta in (0,2/5)
+[[discrete_geometry/vritsiou_2023_regular_ellipsoids_blaschke_santalo_type_inequality_projections_non_symmetric_convex_bodies/proposition_3|proposition_3]]: Vritsiou's Gelfand-number form of Theorem 2: for each beta in (0,2/5)
 every convex body with barycentre or Santaló point at the origin has a
 linear image whose Gelfand numbers, and those of its polar, against the
 Euclidean ball are at most C_0 D_beta^{1/beta} (n/l)^{1/beta}.

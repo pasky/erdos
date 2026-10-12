@@ -3,9 +3,9 @@ name: analysis/pisier_1983_arithmetic_characterizations_sidon_sets
 title: Arithmetic characterizations of Sidon sets
 desc: |
   Pisier characterizes Sidon sets by the existence of linearly sized
-  quasi-independent subsets in every finite subset, which, he says, in some sense
-  reduces the finite-union question for Sidon sets to a combinatorial question
-  whose case of sets of positive integers is E0774.
+  quasi-independent subsets in every finite subset, which, the author says, in
+  some sense reduces the finite-union question for Sidon sets to a combinatorial
+  question whose case of sets of positive integers is E0774.
 license: reserved
 created: 2026-09-17T21:51:07Z
 updated: 2026-10-08T14:17:40Z

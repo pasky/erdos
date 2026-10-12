@@ -45,8 +45,8 @@ subgraph or is the join $T_{n_1}+n_2K_1$ of a tree on $n_1$ vertices with
 $n_2$ independent vertices, $0\le n_1-n_2\le2$; Erdős's 1969 example (the
 join of a star with an independent set, checked on the problem page) is one
 of these. The claimant is M. Simonovits, and the result is attributed to
-Chapter 9 of his PhD thesis, which is unpublished and not held; no source
-cited here records the thesis's own date.
+Chapter 9 of the claimant's PhD thesis, which is unpublished and not held; no
+source cited here records the thesis's own date.
 
 **Postings.** No text of the claimant's is in the record; the result is
 known through Erdős's report of it and a forum summary. The report is
@@ -117,5 +117,6 @@ records the acceptance as the sources document it, and nothing is independently
 reviewed here.
 
 Reopening condition: a published text of the theorem. The comment of 21 November
-2025 says Simonovits was then preparing translations of his main works for his
-website. Once such a text exists, the statement is paged and the proof read.
+2025 says Simonovits was then preparing translations of their main works for
+their website. Once such a text exists, the statement is paged and the proof
+read.

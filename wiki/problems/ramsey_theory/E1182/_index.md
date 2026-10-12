@@ -178,9 +178,9 @@ OPEN; last edited 11 April 2026. The commentary attributes the problem to Burr,
 Erdős, Faudree, Rousseau and Schelp, records $f(n)\ge F(n)$, $R(K_3,G)\ge2n-1$
 for connected $G$ and $F(n)\ge n-1$ from Chvátal's theorem, quotes [BEFRS80]'s
 $\frac{17n+1}{15}\le F(n)\le(\frac{27}4+o(1))n(\log n)^2$ (the lower bound
-holding for all $n\ge4$), Brandt's improvement $F(n)\le84n$ with his expectation
-$2n<F(n)<6n$ for large $n$ (which the commentary notes answers the final
-question in the negative), [BEFRS80]'s $n^{3/2}(\log n)^{1/2}\ll f(n)\ll
+holding for all $n\ge4$), Brandt's improvement $F(n)\le84n$ with the author's
+expectation $2n<F(n)<6n$ for large $n$ (which the commentary notes answers the
+final question in the negative), [BEFRS80]'s $n^{3/2}(\log n)^{1/2}\ll f(n)\ll
 n^{5/3}(\log n)^{2/3}$, the values $1,2,5,7,8$ and $1,2,5,8,12$ for
 $n=2,\ldots,6$, and the general $K_m$ bounds $n^{2/(m-1)}\ll F_m(n)-n\ll
 n^{4/(m+1)+o(1)}$ and $n^{1+1/(m-1)}\ll f_m(n)\ll n^{1+2/m+o(1)}$. The thread
@@ -230,14 +230,15 @@ on the expansion of random regular graphs is the preprint's Theorem 3. So, if
 Brandt's bound holds, $17/15\le\liminf F(n)/n$ and $\limsup F(n)/n\le84$: the
 answer to "is it true that $F(n)/n\to\infty$?" is no. Brandt adds, without
 proof, that a refined analysis "not presented here" gives $F(n)/n<11.75$, that
-he expects $2<F(n)/n<6$ for large $n$, and that computer experiments suggest
-$F(n)/n>3/2$ for larger $n$; these are the author's remarks and not results. The
-site's label OPEN belongs to the estimation problem, and the pending negative
-answer to the closing question is recorded in the Status paragraph above.
-Brandt's bound has no acceptance evidence: the site's commentary (updated April
-2026) notes it under the label OPEN, which is not acceptance, and no refereed
-version, citation with a proof check or independent review was found, so the
-E0290 preprint qualification applies to this half of the account; the claim page
+the author expects $2<F(n)/n<6$ for large $n$, and that computer experiments
+suggest $F(n)/n>3/2$ for larger $n$; these are the author's remarks and not
+results. The site's label OPEN belongs to the estimation problem, and the
+pending negative answer to the closing question is recorded in the Status
+paragraph above. Brandt's bound has no acceptance evidence: the site's
+commentary (updated April 2026) notes it under the label OPEN, which is not
+acceptance, and no refereed version, citation with a proof check or independent
+review was found, so the E0290 preprint qualification applies to this half of
+the account; the claim page
 [[problems/ramsey_theory/E1182/claims/1996_12_01_brandt|Brandt 1996]] records
 the bound as a pending partial claim.
 
@@ -295,7 +296,7 @@ $f_m(n)=O(n^{1+2/(m+1)}\log n)$, below $n^{1+2/m+o(1)}$ (the same one-line
 deduction). Brandt's Theorems 1--2 (for every nonbipartite $G$, goodness
 fails for almost every $d$-regular graph once $d$ is large enough in terms
 of $G$) refute three goodness conjectures of Burr and of Burr and Erdős and are the
-context of his bound, not this problem.
+context of the paper's bound, not this problem.
 
 **Unreviewed full claim (September 2026).** The site's proof-claim tab carries a
 full claim by Qiyuan Gu, submitted 10 September 2026, which the site has not
@@ -325,7 +326,7 @@ inside the 1980 reduction, and $F(n)\le11n/2$, indeed $5.03n$, for large
 $n$, by a first-moment count against a balanced blow-up of $C_5$ with a
 certified exponent; it does not touch $f(n)$. The tab lists the claim as
 made using Claude Fable 5.1 (Anthropic), and the claimant's notes say that
-system produced the arguments, code and write-up under his direction. It
+system produced the arguments, code and write-up under Kataria's direction. It
 is recorded, with its provenance, on
 [[problems/ramsey_theory/E1182/claims/2026_09_28_kataria|its claim page]];
 the site's label is unchanged (OPEN; page last edited 11 April 2026), and
@@ -333,7 +334,7 @@ nothing here adopts the claim.
 
 **Search scope.** None of the routes below found a bound
 on $F(n)$ or $f(n)$ improving those above in a refereed source, a journal
-version of Brandt's preprint, or a dispute of his bound.
+version of Brandt's preprint, or a dispute of its bound.
 
 - The site: problem page, discussion thread and proof-claim tab; the full
   directory listing of formal-conjectures (no file for this problem); the

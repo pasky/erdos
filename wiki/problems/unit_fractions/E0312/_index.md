@@ -115,10 +115,10 @@ caution that they deserve close checking; 7 July 2026, the arXiv
 link; 9 July 2026, four comments in which Kovač questions the paper's
 terminology as machine-written and its crediting of sources, another
 commenter quotes the paper's AI acknowledgment and asks whether the author
-inspected the argument closely, and Korsky replies that this is his most
-AI-involved paper, that he reviewed it personally over several weeks and
+inspected the argument closely, and Korsky replies that this is their most
+AI-involved paper, that the author reviewed it personally over several weeks and
 is confident in the result, that the section and idea names were produced
-by GPT-5.5, and that he has no plans to send it to a journal. The
+by GPT-5.5, and that the author has no plans to send it to a journal. The
 proof-claim tab is
 empty. The community database says open.
 
@@ -154,7 +154,7 @@ writing of the manuscript, in particular in filling in technical details
 (the author claims the conceptual reductions and proof strategy and takes
 responsibility), the thread
 disputes its provenance and crediting as described above, and the author
-states he will not submit it to a journal. The site's page does not cite
+states that it will not be submitted to a journal. The site's page does not cite
 it. It is recorded on this page as the best bound found, with that provenance, and
 its correctness is neither confirmed nor doubted on this page.
 

@@ -4,7 +4,7 @@ title: "Bi-wheels (p. 687, Figure 1 on p. 688): graphs with n points, 3n−3 lin
 desc: |
   Leonard's bi-wheel construction, asserted with no proof beyond Figure 1:
   graphs with n points and 3n−3 lines containing no 6-way, which make the
-  3n−2 of his Theorem sharp, and for each r graphs with n points and
+  3n−2 of the paper's Theorem sharp, and for each r graphs with n points and
   [r(n−1)/2] lines containing no r-way, a lower bound for l_r(n).
 created: 2026-10-08T15:01:05Z
 updated: 2026-10-08T15:01:05Z

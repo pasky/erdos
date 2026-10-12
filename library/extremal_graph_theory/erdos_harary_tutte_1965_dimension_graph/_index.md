@@ -234,8 +234,8 @@ so $K_{3,3}$, with nine edges, is the problem's witness (Chaffee and
 Noble's Lemma 3; House's Proposition 3); from p. 118, $\dim K_n=n-1$ and
 $\dim(K_n-x)=n-2$, so $\dim K_5=4$ and $\dim(K_5-x)=3$: Chaffee and
 Noble's Theorem 6 uses the second (their Lemma 2) to rule out eight-edge
-graphs on five vertices, and House's §4 uses both (his Proposition 3) to
-discard orders at most five. The paper asserts these values without printed
+graphs on five vertices, and House's §4 uses both (the note's Proposition 3)
+to discard orders at most five. The paper asserts these values without printed
 proof, except Lenz's construction for $\dim K_{m,n}\le4$, and does not print
 the monotonicity statement the two later papers also take from it; the
 problem page's status does not change, and its proof-coverage gap is this

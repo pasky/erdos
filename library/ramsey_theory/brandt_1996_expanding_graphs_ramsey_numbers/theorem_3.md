@@ -60,7 +60,7 @@ here.
 
 External: the configuration model of random regular graphs (B. Bollobás, A
 probabilistic proof of an asymptotic formula for the number of labelled
-regular graphs, European J. Combin. 1 (1980), 34--38, and his book Random
+regular graphs, European J. Combin. 1 (1980), 34--38, and Bollobás's book Random
 Graphs, Academic Press, 1985), which also supplies the positive fraction of
 simple configurations for fixed $d$.
 

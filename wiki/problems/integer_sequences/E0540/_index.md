@@ -70,7 +70,7 @@ The constant $\sqrt2$ for composite $N$ (beyond the $o(1)$ term) remains open.
 For non-abelian groups, Erdős (1973) recorded the case as unsettled. Hamidoune
 and Zémor's introduction (p. 143) credits Olson's 1975 paper with the constant
 $3$ "in the case of an arbitrary finite group". Their Theorem 2.5, however,
-states his result for abelian groups. Olson's 1975 paper is not carded, so this
+states the result for abelian groups. Olson's 1975 paper is not carded, so this
 page leaves open whether it settles the non-abelian question. The paper has no
 claim page.
 
@@ -162,7 +162,7 @@ Zémor's threshold $(1+o(1))\sqrt{2N}$ for abelian groups of order $N$
 comment of 8 October 2025 supplying the Hamidoune--Zémor bound, after which
 the site was updated, and noting that Erdős and Heilbronn also asked about
 non-abelian groups; a comment of 15 April 2026 by Matteo Del Vecchio
-reporting that the prover Aristotle (Harmonic) formalized, with him, a
+reporting that the prover Aristotle (Harmonic) formalized, with the poster, a
 solution following Szemerédi's paper, linking a Lean file (below). The
 proof-claim tab is empty.
 
@@ -248,7 +248,7 @@ record gives them, not recomputed). The claim pages
 and
 [[problems/integer_sequences/E0540/claims/2009_07_20_balandraud|Balandraud (2012)]]
 record these results. Read depth: claims checked for each theorem; Balandraud's
-ten-line deduction of Theorem 9 from his Theorem 5 is checked, Theorem 5 itself
+ten-line deduction of Theorem 9 from Theorem 5 is checked, Theorem 5 itself
 is not.
 
 **Formalization and the Lean label.** The site's (LEAN) suffix is a catalog
@@ -304,7 +304,7 @@ Hamidoune and Zémor credit with an arbitrary finite group, is not carded; these
 are the natural continuations, not the problem. (2) The
 Balandraud account rests on the arXiv version, and the journal's erratum has not
 been compared with it. (3) Proofs are compiled at statement level (Olson's proof
-of Theorem 1 is checked in full, his Theorem 2 at the level of its structure);
+of Theorem 1 is checked in full, Theorem 2 at the level of its structure);
 the Lean artifacts are pointers, not local evidence.
 <!-- BEGIN problem library links -->
 

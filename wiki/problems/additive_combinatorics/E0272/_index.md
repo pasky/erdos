@@ -39,9 +39,9 @@ claim pages of
 and [[problems/additive_combinatorics/E0272/claims/1999_07_01_szabo|Szabó]].
 Yang's reported exact values for $3\leq N\leq12$ are recorded as a claimed
 partial claim on
-[[problems/additive_combinatorics/E0272/claims/2026_07_25_yang|his]] claim page.
+[[problems/additive_combinatorics/E0272/claims/2026_07_25_yang|its]] claim page.
 Szabó's linear-error question asks whether $t(N)=N^2/2+O(N)$. It is the second
-of the two questions in Section 6 of his 1999 paper. It has an affirmative Lean
+of the two questions in Section 6 of the 1999 paper. It has an affirmative Lean
 proof, which the bounty site Conjectures.io verified on 9 September 2026 and
 approved. That proof settles a variant, not the catalog question. It is recorded
 as an accepted partial claim on
@@ -94,7 +94,7 @@ unrefereed preprint, 2026;
 [[../library/additive_combinatorics/yang_2026_exact_values_exact_upper_bounds_families_integers_arithmetic_progression_intersections_erdos_problem_272/_index|card]])
 reports $t(N)$ exactly for $3\leq N\leq12$ by computation and proves the upper
 bound $\binom N2+1+\lfloor(N-1)/4\rfloor$ for every family with a common
-element, reducing his sharpened conjecture to Szabó's kernel question. A Lean
+element, reducing Yang's sharpened conjecture to Szabó's kernel question. A Lean
 proof accepted by the bounty site Conjectures.io (record
 `c3277f4a-d573-42a9-bfca-e45fb2cb39ff`; Conjectures.io's Lean kernel verified
 it, its review approved it on 11 September 2026 under its
@@ -104,7 +104,7 @@ solver shown as JenW1N;
 claim page
 [[problems/additive_combinatorics/E0272/claims/2026_09_09_jenw1n|JenW1N 2026]])
 proves $t(N)=N^2/2+O(N)$, the affirmative answer to Szabó's linear-error
-question, the second of the two questions in Section 6 of his 1999 paper.
+question, the second of the two questions in Section 6 of the 1999 paper.
 
 The formal statement it verified is the catalog's
 `Erdos272.erdos_272.variants.szabo_strong`
@@ -184,7 +184,7 @@ families with a common element and conjectures it for every $N$, which would
 follow from Szabó's kernel conjecture. Neither is settled. The thread
 computations have no claim page, since they are thread posts and not a dated
 manuscript; Yang's are recorded on
-[[problems/additive_combinatorics/E0272/claims/2026_07_25_yang|his claim page]].
+[[problems/additive_combinatorics/E0272/claims/2026_07_25_yang|a claim page]].
 
 ## Known Results
 
@@ -229,7 +229,7 @@ manuscript; Yang's are recorded on
   claim page
   [[problems/additive_combinatorics/E0272/claims/2026_09_09_jenw1n|JenW1N 2026]]):
   $t(N)=N^2/2+O(N)$, answering Szabó's linear-error question (the second of
-  the two questions in Section 6 of his paper) affirmatively and improving his
+  the two questions in Section 6 of the paper) affirmatively and improving the
   error term to linear. Route in the file: lower bound $\binom N2+1$ (from
   $\{1\}$ and all two- and three-element sets containing $1$); for
   $N\geq N_0$ any admissible

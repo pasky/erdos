@@ -32,7 +32,7 @@ agrees with the original function almost everywhere.
 
 Jurkat first applies Fubini's theorem to choose a conull set \(M\) on which
 the equation can be composed safely. Three null-set avoidances show that the
-equation holds whenever \(x,y,x+y\in M\). He then proves that
+equation holds whenever \(x,y,x+y\in M\). Jurkat then proves that
 \(f(x)+f(y)\) depends only on \(x+y\) for \(x,y\in M\), and proves a
 three-to-two summand reduction inside \(M\). Since every real number is a sum
 of two elements of \(M\), these facts define a function \(F\) on all of
@@ -46,7 +46,8 @@ of translated null sets. Jurkat extends \(f\) through consistent
 representations in \(M+M\); de Bruijn instead defines \(h(x)\) as the
 almost-everywhere constant value of \(f(x+y)-f(y)\), then uses a
 five-exception argument in the \((w,z)\)-plane. Jurkat's added-in-proof note
-says that de Bruijn sent him the independent manuscript in September 1964.
+says that de Bruijn sent the author the independent manuscript in September
+1964.
 
 Theorem II answers a question of I. Halperin: an everywhere additive
 real function with \(f(1/x)=f(x)/x^2\) for every \(x\ne0\) satisfies

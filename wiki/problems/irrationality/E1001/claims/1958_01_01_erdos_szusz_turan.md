@@ -66,7 +66,7 @@ and [[problems/irrationality/E1001/claims/2008_08_01_boca|Boca]].
 The `reviewed` evidence is the documented acceptance by the catalog
 erdosproblems.com. Its page for the problem (the `discussion` link) carries the
 label SOLVED. Its curator, Thomas Bloom, credits Erdős, Szüsz and Turán with the
-value $12A\log c/\pi^2$ in this range. He is not an author of the paper. No
+value $12A\log c/\pi^2$ in this range. Bloom is not an author of the paper. No
 independent check of the proof is recorded. The claim value is `proved` because
 the part it settles is proved in the affirmative, with the value found.
 

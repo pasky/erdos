@@ -14,7 +14,8 @@ updated: 2026-10-08T16:16:06Z
 
 [[factorials_binomials/pomerance_2015_divisors_middle_binomial_coefficient/lemma_1|lemma_1]]: Pomerance's Lemma 1 bounds by p x^theta_p, with theta_p = log((p+1)/2)/log p,
 the number of n up to x for which an odd prime p does not divide C(2n,n),
-the count behind his heuristic for Graham's problem on C(2n,n) coprime to 105.
+the count behind the paper's heuristic for Graham's problem on C(2n,n)
+coprime to 105.
 
 [[factorials_binomials/pomerance_2015_divisors_middle_binomial_coefficient/theorem_1|theorem_1]]: Pomerance's Theorem 1 shows that for each integer k different from 1 there
 are infinitely many positive integers n for which n+k does not divide the

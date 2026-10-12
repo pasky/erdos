@@ -67,8 +67,8 @@ exponential saving. That comparison is this page's, not the paper's.
 The article defers the proof to Pisier's "Condition d'entropie et
 caractérisations arithmétiques des ensembles de Sidon" (its reference [5],
 then to appear in the proceedings of the 1982 Torino/Milano conference on
-modern topics in harmonic analysis), and says the proof relies heavily on his
-"De nouvelles caractérisations des ensembles de Sidon" (reference [4],
+modern topics in harmonic analysis), and says the proof relies heavily on the
+author's "De nouvelles caractérisations des ensembles de Sidon" (reference [4],
 Advances in Math. Supplementary Studies 7B (1981), 685--726) and on the
 [[analysis/pisier_1983_arithmetic_characterizations_sidon_sets/proposition_p88|Proposition]]
 of p. 88. It notes two steps (p. 88): (iii) and (iv) are easily equivalent

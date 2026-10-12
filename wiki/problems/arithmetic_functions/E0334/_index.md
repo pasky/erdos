@@ -43,7 +43,7 @@ for the best function $f$, and that question sets the standing.
 
 **Status.** Open, the site's label (OPEN; page last edited 2026-04-03). The site
 records Erdős's original question as the case whether $f(n)\le n^{1/3}$. Balog
-[Ba89] answers this case yes. His result is recorded as the accepted partial
+[Ba89] answers this case yes. The result is recorded as the accepted partial
 claim [[problems/arithmetic_functions/E0334/claims/1989_09_01_balog|Balog's
 bound with exponent $4/(9\sqrt e)$]]. The best function $f$ is not determined,
 so the problem stays open.

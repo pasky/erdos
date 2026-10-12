@@ -4,7 +4,7 @@ title: Laczkovich's circle squaring by translations
 desc: |
   Laczkovich proves that a disk and a square of the same area are
   equidecomposable into finitely many congruent pieces, which can even be
-  matched by translations alone. His paper in Crelle's journal answers Tarski's
+  matched by translations alone. The paper in Crelle's journal answers Tarski's
   circle-squaring problem yes.
 authors: []
 status: accepted

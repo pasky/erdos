@@ -282,7 +282,7 @@ which the booklet folds into the attribution).
 Spencer's Theorem 1 with
 [[../library/ramsey_theory/spencer_1975_ramsey_theorem_new_lower_bound/corollary_1|Corollary 1]]
 (p. 109), $R(k)\ge k2^{k/2}[1/(e\sqrt2)+o(1)]$, and improved by a factor of
-$2$ in his
+$2$ in
 [[../library/ramsey_theory/spencer_1975_ramsey_theorem_new_lower_bound/corollary_2|Corollary 2]]
 (p. 110), $R(k)\ge k2^{k/2}[\sqrt2/e+o(1)]$; both give
 $\liminf R(k)^{1/k}\ge\sqrt2$ and nothing more, since the factor $k$ vanishes

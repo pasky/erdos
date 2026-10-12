@@ -45,7 +45,7 @@ page images of the manuscript. Nothing here is independently reviewed.
 - [[distance_problems/sothanaphan_2026_compact_poissonbessel_proof_integer_distance_free/lemma_1_2|Lemma 1.2]] (p. 2).
 
 The corresponding statement in Chojecki's long note is
-[[distance_problems/chojecki_2026_poisson_bessel_kernel_bound_planar_sets/proposition_4_2|his Proposition 4.2]].
+[[distance_problems/chojecki_2026_poisson_bessel_kernel_bound_planar_sets/proposition_4_2|Proposition 4.2]].
 
 **Source.** Nat Sothanaphan, *A compact Poisson–Bessel proof for
 integer-distance-free planar sets*, manuscript dated 29 April 2026, 4 pp.,

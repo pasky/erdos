@@ -26,7 +26,7 @@ N(A)=F(A)=1500000001,\qquad
 \beta=\tfrac12\text{ for every such zero with }0<\gamma\le A.
 $$
 
-He cites R. P. Brent, J. van de Lune, H. J. J. te Riele and D. T. Winter,
+The paper cites R. P. Brent, J. van de Lune, H. J. J. te Riele and D. T. Winter,
 *On the zeros of the Riemann zeta function in the critical strip. II*,
 Mathematics of Computation **39** (1982), 681–688; and
 J. van de Lune, H. J. J. te Riele and D. T. Winter,

@@ -49,9 +49,9 @@ infinitely many $n$. The site reports it as proved, but no accepted claim covers
 it. The written version there, a claimed page, reaches only the $\gg$ form. Both
 bounds are far below $(\log n)^2$. A heuristic recorded by Tao in the thread of
 Problem 457 suggests $q(n,\log n)\ll\log n\log\log n/\log\log\log n$ for all
-$n$, which he regards as beyond current methods. No source improving the trivial
-bound was found in the search whose scope the Current assessment records. This
-is a bounded negative finding, not a certificate of openness.
+$n$, which Tao regards as beyond current methods. No source improving the
+trivial bound was found in the search whose scope the Current assessment
+records. This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/1181](https://www.erdosproblems.com/1181),
 accessed 2026-09-18 at 10:27 UTC: the problem page (labeled OPEN,
@@ -142,7 +142,7 @@ qualifications). These are lower bounds along a sequence and say nothing about
 the maximum of $q(n,\log n)$ over all large $n$. Tao's comment of 10 September
 2025 on that thread records that standard probabilistic heuristics put the
 growth of $q(n,\log n)$ at about $\log n(\log\log n)/(\log\log\log n)$, while a
-rigorous justification is, in his view, beyond current methods; his comment of 2
+rigorous justification is, it says, beyond current methods; Tao's comment of 2
 March 2026 expects the matching upper bound to be extremely difficult, since the
 much weaker bound posed in the commentary, this problem, remains open. So the
 expected truth is a factor $\log n\log\log\log n/\log\log n$ below the trivial

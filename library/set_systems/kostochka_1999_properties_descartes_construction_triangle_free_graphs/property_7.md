@@ -181,7 +181,7 @@ independently proved that every 3-chromatic hypergraph has density at least
 $1$. The corpus records the Lovász proof from the primary source. In
 Lovász's terminology, a hypergraph is a forest when every nonempty
 subsystem has at least one more vertex than edge, and
-[[set_systems/lovasz_1968_graphs_set_systems/theorem_5|his 1968 Theorem 5]] proves
+[[set_systems/lovasz_1968_graphs_set_systems/theorem_5|the 1968 Theorem 5]] proves
 that every forest is two-colorable. By contraposition, a hypergraph that is
 not two-colorable has a subsystem with at least as many edges as vertices,
 which is the reported density bound.

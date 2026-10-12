@@ -69,7 +69,7 @@ $m_n=p$. OPEN.
 [[problems/arithmetic_functions/E0456/claims/2026_09_23_turturean|claim page]]):
 the answers no, no and yes, through a positive lower density for
 $\{n:m_n=p_n\}$ and a lower bound of order $X/(\log X)^{55}$ for the
-uniqueness primes up to $X$. His earlier manuscript of 4 May 2026, which
+uniqueness primes up to $X$. Turturean's earlier manuscript of 4 May 2026, which
 answers the first two questions no
 ([[problems/arithmetic_functions/E0456/claims/2026_05_04_turturean|claim page]]),
 is a pending partial claim. No referee, outside reviewer or the site's
@@ -93,7 +93,7 @@ other literature search was made.
   $n$ and that $m_n/n\to\infty$ for almost all $n$ (site commentary).
 - van Doorn observes in the site's comments that $n=2^{2k+1}$ with $k\ge1$
   gives $m_n\le2n$ and $p_n\ge2n+1$, so $m_n<p_n$ along that sequence.
-- Pending: Turturean's claim above. His earlier manuscript of 4 May 2026
+- Pending: Turturean's claim above. Their earlier manuscript of 4 May 2026
   ([[problems/arithmetic_functions/E0456/claims/2026_05_04_turturean|claim page]];
   [[../library/arithmetic_functions/turturean_2026_positive_density_equality_set_erdos_problem/_index|card]])
   proves the positive-density theorem and the first two answers (its Theorem

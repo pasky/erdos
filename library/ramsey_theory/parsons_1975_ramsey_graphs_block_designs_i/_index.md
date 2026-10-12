@@ -21,7 +21,7 @@ least valence exceeds m − n.
 
 [[ramsey_theory/parsons_1975_ramsey_graphs_block_designs_i/remark_p35|remark_p35]]: The paper's remark on when the bound of Lemma 1 is attained: for square n
 it is attained at prime-power roots, at n = 7 the Petersen graph attains it
-and gives R(C_4, K_{1,7}) = 11, and the author states that he does not know
+and gives R(C_4, K_{1,7}) = 11, and the author states not knowing
 whether it is attained for infinitely many non-square n.
 
 [[ramsey_theory/parsons_1975_ramsey_graphs_block_designs_i/theorem_1|theorem_1]]: The general upper bound for the four-cycle versus star Ramsey number and

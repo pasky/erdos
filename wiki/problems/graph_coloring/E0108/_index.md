@@ -149,8 +149,8 @@ publication, no erdosproblems.com acceptance and no formal-conjectures catalog
 agreement (the catalog's file at the revision linked above agrees with the
 statement the site prints and marks the problem research open with
 `answer(sorry)`). The site labels the problem OPEN; its forum has carried the
-claim since 27 September 2026 with the curator's note that he has not verified
-it, and a comment of 2 October 2026 links the Nguyen–Walczak note.
+claim since 27 September 2026 with the curator's note that they have not
+verified it, and a comment of 2 October 2026 links the Nguyen–Walczak note.
 
 **The proof file.** The accepted file has 1,846 lines. Its final theorem is the
 negation of the catalog statement, instantiated at $r=5$ and $k=7$. It contains

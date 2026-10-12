@@ -113,7 +113,7 @@ and
   in $G$ is less than $\varepsilon nt^2$, where $\varepsilon>1/(\log t)$, then
   (5) $\alpha>c_2(n/t)\log(1/\varepsilon)$; "In other words, for any graph $G$
   $\alpha>c_2(n/t)\min\{\log(nt^2/h);\log t\}$." Spencer's remark that
-  Theorem 1$'$ is best possible up to a constant factor, with his blow-up of
+  Theorem 1$'$ is best possible up to a constant factor, with the blow-up of
   a triangle-free graph into $s$-cliques. Paged at
   [[extremal_graph_theory/ajtai_1981_turan_s_theorem_sparse_graphs/theorem_1_prime|theorem_1_prime]].
 - Section 3 (pp. 315--316): the sparse subgraph lemma (for $p\ge2$ and

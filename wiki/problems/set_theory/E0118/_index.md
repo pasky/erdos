@@ -71,7 +71,7 @@ for every finite $n$, the conjecture of Erdős and Hajnal about partition
 ordinals. The answer is no. The counterexample is $\alpha=\omega^{\omega^2}$:
 Schipperus [Sc99, Sc10] proves $\omega^{\omega^2}\to(\omega^{\omega^2},3)^2$
 (Theorem 28) and $\omega^{\omega^2}\not\to(\omega^{\omega^2},6)^2$ (Theorem
-29(1)); his paper credits Darby [Da99] with an independent proof of the negative
+29(1)); the paper credits Darby [Da99] with an independent proof of the negative
 relations for $\omega^{\omega^\beta}$ with $\beta$ finite and reports that Darby
 also proved the positive one independently, citing no paper for it. Larson
 [La00] sharpened the $6$ to a $5$, and Schipperus reports without proof that

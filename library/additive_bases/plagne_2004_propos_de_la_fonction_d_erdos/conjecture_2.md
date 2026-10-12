@@ -3,8 +3,8 @@ name: additive_bases/plagne_2004_propos_de_la_fonction_d_erdos/conjecture_2
 title: "Conjecture 2 (p. 1720): X(h) <= h(h+1)/2 + 1 for every h >= 2"
 desc: |
   Plagne's conjecture that the Erdős–Graham function satisfies
-  X(h) <= h(h+1)/2 + 1 for every h >= 2, the value his method reaches as its
-  limit; the paper does not prove it.
+  X(h) <= h(h+1)/2 + 1 for every h >= 2, the value the author's method
+  reaches as its limit; the paper does not prove it.
 created: 2026-10-08T17:25:40Z
 updated: 2026-10-08T17:25:40Z
 ---

@@ -54,7 +54,7 @@ $a\in A+A$ with $a-1,a+1\notin A+A$. Answered yes, with $\gg\lvert A\rvert^2$
 such elements:
 [[problems/additive_bases/E0152/claims/2026_04_03_deepmind|the DeepMind claim
 page]] records the Lean proof posted on 2026-04-03, which the site's curator
-accepted on 2026-05-16 after withdrawing his own remark that the 1994 methods
+accepted on 2026-05-16 after withdrawing their own remark that the 1994 methods
 of Erdős, Sárközy and Sós already gave the result. The question for
 truncations of infinite Sidon sets, raised in the site's remarks, is not
 addressed by it. Status search of 2026-10-07: the site's page and remarks,

@@ -250,7 +250,7 @@ possible, a vertex with at least $\sqrt{n\log n}$ neighbors together with
 those neighbors (at most $\sqrt{n/\log n}$ times), coloring the remainder by
 Theorem 1 and giving each removed vertex a common new color and its removed
 neighborhood a color of its own (pp. 2--3, followed here). The proof of
-Theorem 1 (pp. 3--7) adapts Molloy's proof of his list-coloring theorem for
+Theorem 1 (pp. 3--7) adapts the proof of Molloy's list-coloring theorem for
 triangle-free graphs ("we make only a few minor adjustments"; the
 acknowledgment thanks Molloy "for most of the proof"); it was read for
 structure only. Acceptance evidence: the Electronic Journal of Combinatorics

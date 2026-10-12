@@ -120,7 +120,7 @@ update, 10 September 2025, and not formalized, with no formal proof.
 
 **The question (site formulation).** The statement
 above; SOLVED; no last-edited date shown. The commentary attributes the
-question to Moon [Mo66b], crediting him with $f(3)=4$ for $n\ge8$;
+question to Moon [Mo66b], crediting [Mo66b] with $f(3)=4$ for $n\ge8$;
 supposes that Erdős meant to ask only for $n$ large in terms of $t$;
 records Erdős's bound $f(t)\ll4^t$ from the Ramsey number $R(t)$; and
 credits Burr, Erdős and Spencer [BES75] with the value, for $n$ large in
@@ -260,7 +260,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X.
 
 **Remaining gaps.** (1) Moon's printed equality is the case
 $n\equiv2\pmod3$, $n\ge8$; the value $f(n,3)=4$ for $n\equiv1\pmod3$, the
-site's value, rests on the first part of his theorem for the upper bound
+site's value, rests on the first part of the theorem for the upper bound
 and, for the matching coloring, on examples [Mo66b] leaves to the reader
 (p. 261) and on the $k=3$ case of [BES75]'s Figure 6 coloring. (2) Proof
 coverage is statements only: Theorem 6's upper-bound argument is followed

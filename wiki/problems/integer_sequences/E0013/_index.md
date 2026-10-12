@@ -56,10 +56,10 @@ the 1992 card), so the site's $N/(r+1)$ is taken as the intended reading.
 
 **Status.** PROVED (LEAN). Bedert's Theorem 1 (2023) gives an absolute constant
 $C$ with $|A|\le N/3+C$ for every $N$ and every $A\subseteq\{1,\ldots,N\}$ with
-property P. His Theorem 2 gives $|A|\le\lceil N/3\rceil$ for all sufficiently
+property P. Theorem 2 gives $|A|\le\lceil N/3\rceil$ for all sufficiently
 large $N$, which is sharp for the set $\{\lfloor2N/3\rfloor+1,\ldots,N\}$. The
 status-defining source is an arXiv preprint (v1, 17 January 2023). Thomas Bloom,
-the site's curator, accepted it as the resolution. He named Bedert's paper in
+the site's curator, accepted it as the resolution, and named Bedert's paper in
 the commentary as the proof that the answer is yes. The formal-conjectures
 collection marks the statement `research solved`. An outside Lean proof of the
 $N/3+C$ statement, not built here, is linked from the claim page. The claim page

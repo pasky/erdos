@@ -46,7 +46,7 @@ $\chi(G)\le7$.
 
 ## Dependencies
 
-Mycielski's graph, for the lower bound (his 1955 paper, the reference [1],
+Mycielski's graph, for the lower bound (the 1955 paper, the reference [1],
 is not held).
 
 ## Bears on

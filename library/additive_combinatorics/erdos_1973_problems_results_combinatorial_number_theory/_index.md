@@ -27,7 +27,7 @@ a_j/(a_i, a_j) among n integers, with the question of lim log h(n)/log n.
 
 [[additive_combinatorics/erdos_1973_problems_results_combinatorial_number_theory/section_9|section_9]]: Erdős's 1973 restatement of the sum-free selection problems of his 1965
 paper: f(n) >= n/3 with the Klarner–Hilton n/2, (9.2) c log n < g(n) <
-n^(2/5+epsilon), Choi's interval function f(n) with his n^(1/2+epsilon)
+n^(2/5+epsilon), Choi's interval function f(n) with its n^(1/2+epsilon)
 conjecture and n^(3/4) bound, c_1 n^(1/3) < h(n) < c_2 n^(1/2), and l(n)
 >= sqrt(n/2) with Choi's (1+c) sqrt(n) and the withdrawn o(n) claim.
 

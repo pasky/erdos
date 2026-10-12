@@ -52,9 +52,9 @@ notice, and no source page is recorded for it, so none was read; the term is
 unstated.
 
 Green studies how small the additive energy M(f), the sum of f(a)f(b)f(c)f(d)
-over a+b=c+d, can be over real-valued functions f on {1,...,N} with sum N (his
-Problem 3, p. 8). Embedding {1,...,N} in Z_{2N+v} and pairing f with a smooth
-test function, he shows that the sum of |f-hat(r)|^4 over the nonzero
+over a+b=c+d, can be over real-valued functions f on {1,...,N} with sum N
+(Problem 3, p. 8). Embedding {1,...,N} in Z_{2N+v} and pairing f with a smooth
+test function, the author shows that the sum of |f-hat(r)|^4 over the nonzero
 frequencies |r| < X is at least (1/7)N^4(1 - C(v/N + N^2/(v^2 X) + X^2/N))
 (Theorem 12), hence M(f) >= (4/7)N^3 for all sufficiently large N (Theorem
 13), against the value 2N^3/3 + O(N) of the indicator of the interval (Lemma
@@ -66,7 +66,7 @@ N^(1/3)(1+o(1)) (Theorem 17), improving the constants 8^(1/4) of Lindström and
 B_2[g] sets the energy bound with (A*A°)(x) <= 2g gives alpha(2,g) <=
 sqrt(7g/2 - 7/4) (Theorem 24), which the paper says improves the bound of
 Cilleruelo, Ruzsa and Trujillo for g <= 68, and in particular alpha(2,2) <=
-sqrt(21)/2; combining his method with theirs gives A(2,g,N) <= (17/5)^(1/2)
+sqrt(21)/2; combining Green's method with theirs gives A(2,g,N) <= (17/5)^(1/2)
 g^(1/2) N^(1/2)(1+o(1)) (Theorem 25), below their bound for every g. All the
 bounds concern finite sets in an interval.
 

@@ -42,9 +42,9 @@ $N>(3-\varepsilon)p_n$, and that the range $N>3p_n$ was left open.
   $\beta=1/\varrho$, and a random subset of $[1,N]$ with inclusion
   probability $cN^{-1/k}$ that contains a whole residue class in $[1,N]$
   for more than a quarter of these primes with probability at least $1/4$.
-  The author says he cannot show that infinitely many such sets exist, and
-  knows no lower estimate better than the Erdős--Selfridge one, given for
-  $\varrho=2$.
+  The author reports being unable to show that infinitely many such sets
+  exist, and knows no lower estimate better than the Erdős--Selfridge one,
+  given for $\varrho=2$.
 - Remark (p. 125), on the Theorem's page: the same argument, sketched
   only, bounds by $O\bigl((\log N)^{1/k}N^{1-1/k}\bigr)$ the least number
   of multiples of all primes $p$ with $\alpha N\le p\le N$ in an interval

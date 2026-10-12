@@ -72,7 +72,7 @@ sixth of the number of solutions of $F(x)+F(y)+F(x+y+a)=b$. Corollary 4.7
 for even $n$, makes the distribution uniform on
 $\mathcal Q(\mathbb F_{2^n},F)$, so it suffices to take $a=0$ and count
 solutions of $F(x)+F(y)+F(x+y)=b$ for $b\ne F(0)$. Carlet's count (9)
-(p. 17, from Section 6.5.1 of his 2021 book) gives
+(p. 17, from Section 6.5.1 of Carlet's 2021 book) gives
 $2^n\pm2^{\frac n2+1}-2$ when $b$ is a nonzero cube ($\frac{2^n-1}{3}$
 values) and $2^n\mp2^{\frac n2}-2$ when $b$ is not a cube
 ($2\cdot\frac{2^n-1}{3}$ values). Lemma 5.1 (p. 17), an integrality check

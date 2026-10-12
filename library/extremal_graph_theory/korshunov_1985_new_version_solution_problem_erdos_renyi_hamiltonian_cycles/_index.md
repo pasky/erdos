@@ -1,7 +1,7 @@
 ---
 name: extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles
 desc: |
-  Korshunov's 1985 English paper giving a new proof of his theorem that
+  Korshunov's 1985 English paper giving a new proof of the author's theorem that
   almost every graph with n vertices and k edges contains a Hamiltonian
   cycle if and only if k = (n/2)(log n + log log n + φ(n)) with φ(n) → ∞,
   the Erdős–Rényi problem of Problem 746: Theorem 1, proved through its
@@ -17,7 +17,7 @@ updated: 2026-10-08T15:11:47Z
 
 [[extremal_graph_theory/_index|..]]
 
-[[extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/theorem_1|theorem_1]]: Korshunov's threshold theorem, as printed in his 1985 English paper: almost
+[[extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/theorem_1|theorem_1]]: Korshunov's threshold theorem, as printed in the 1985 English paper: almost
 every graph with n vertices and k edges contains a Hamiltonian cycle if and
 only if k = (n/2)(log n + log log n + φ(n)) with φ(n) → ∞, with Theorem 2, its
 binomial-model form, which the paper proves; the statement of Problem 746

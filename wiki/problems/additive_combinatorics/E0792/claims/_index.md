@@ -37,7 +37,8 @@ bound for $f(n)$ that exceeds $n/3$ by an unbounded amount. The preprint is
 unrefereed.
 
 [[problems/additive_combinatorics/E0792/claims/2026_09_09_bedert|2026_09_09_bedert]]: Bedert's proof claim on the site's tab, worked out with GPT 6 Astra, that
-$f(n)\ge n/3+(\log n)^{1/3-o(1)}$, improving the $\log\log n$ of his preprint.
-The write-up is AI-generated, is on a file-sharing service and is unreviewed.
+$f(n)\ge n/3+(\log n)^{1/3-o(1)}$, improving the $\log\log n$ of the
+claimant's preprint. The write-up is AI-generated, is on a file-sharing
+service and is unreviewed.
 
 ***

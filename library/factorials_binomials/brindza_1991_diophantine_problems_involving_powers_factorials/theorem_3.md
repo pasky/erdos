@@ -52,7 +52,7 @@ is below $(\sqrt p)^{-k}$; the lower bound of Philippon and Waldschmidt
 ## Dependencies
 
 Lemma 1 (Philippon and Waldschmidt), quoted from the literature, and the
-bound (12) on the factors, cited from Győry (Lemma 3 of his 1980 paper). Read
+bound (12) on the factors, cited from Lemma 3 of Győry's 1980 paper. Read
 depth: claims checked; the statement was read clause by clause on the print,
 the proof for its structure only.
 

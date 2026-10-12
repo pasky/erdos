@@ -78,11 +78,11 @@ the primary module and in each alternate, matched its fingerprint to the
 comparator challenge that pins it and audited its statement clause by clause
 against the Statement above, as the claim page records. The site's curator
 registered it as a proof claim on the site's proof-claims tab on 2026-09-03 and
-co-authored the paper that announces it (arXiv:2609.25050, a preprint), so his
-label and credit are not an independent review of a proof claim he submitted and
-no `reviewed` evidence is listed; the exposition is a placeholder that GPT
-generated from the Lean proof at the curator's request, so there is no refereed
-write-up. The compared declaration is the limit statement
+co-authored the paper that announces it (arXiv:2609.25050, a preprint), so the
+curator's label and credit are not an independent review of a proof claim they
+submitted and no `reviewed` evidence is listed; the exposition is a
+placeholder that GPT generated from the Lean proof at the curator's request, so
+there is no refereed write-up. The compared declaration is the limit statement
 $f(n)/\log n\to\infty$; the square-root bound is formally checked in the
 alternate module `Erdos126_104usd_15h`, which no challenge compares, and is not
 asserted to be optimal.

@@ -48,8 +48,8 @@ $\lvert\mathcal{L}^nf(x_0)\rvert\to\infty$.
 
 **Status.** The site labels the problem OPEN (page last edited 23 January
 2026). Its discussion thread carries a note that Przemek Chojecki posted on
-30 April 2026, produced with GPT-5.5 Pro as he wrote there and hosted at
-ulam.ai. The note claims the problem in full in the reading of the
+30 April 2026, produced with GPT-5.5 Pro as the poster wrote there and hosted
+at ulam.ai. The note claims the problem in full in the reading of the
 Formulation. The claim is recorded, unadopted, on
 [[problems/polynomials/E1151/claims/2026_04_30_chojecki|its claim page]], and
 the standing in the frontmatter follows from it.

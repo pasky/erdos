@@ -12,7 +12,7 @@ updated: 2026-10-08T15:25:14Z
 
 [[number_theory/_index|..]]
 
-[[number_theory/doorn_2025_improved_bounds_mayer_erdos_phenomenon_similarly/lemma_2|lemma_2]]: Van Doorn's 2025 lemma behind his lower bound for Problem 1005: two
+[[number_theory/doorn_2025_improved_bounds_mayer_erdos_phenomenon_similarly/lemma_2|lemma_2]]: Van Doorn's 2025 lemma behind the paper's lower bound for Problem 1005: two
 Farey fractions of order n that enclose a Farey fraction a/b are
 similarly ordered whenever their index distance is at most
 (n + b + 1)/(2b).
@@ -27,10 +27,10 @@ n at index distance at most (n/12)(1 - 4 n^{-1/3}) are similarly ordered,
 so f(n) is at least (1/12 - o(1)) n; an optimization of Erdős's 1943
 argument, improving the constants 1/400 (Erdős) and 1/480 (Zaharescu).
 
-[[number_theory/doorn_2025_improved_bounds_mayer_erdos_phenomenon_similarly/theorem_3|theorem_3]]: Van Doorn's 2025 local-density form of his lower bound for Problem 1005:
-two Farey fractions of order n that differ by x/n either enclose a Farey
-fraction of denominator below 6/x or are more than nx(1/12 - o(1)) places
-apart in the sequence.
+[[number_theory/doorn_2025_improved_bounds_mayer_erdos_phenomenon_similarly/theorem_3|theorem_3]]: Van Doorn's 2025 local-density form of the paper's lower bound for
+Problem 1005: two Farey fractions of order n that differ by x/n either
+enclose a Farey fraction of denominator below 6/x or are more than
+nx(1/12 - o(1)) places apart in the sequence.
 
 ***
 

@@ -45,7 +45,7 @@ holds for every graph with $\Delta=3$. For $\Delta\le2$ the bound $10$ does
 not give it (the conjectured bound is $5$ when $\Delta=2$), but those graphs
 are paths and cycles, for which it is elementary (the paper's p. 152), so the
 statement holds for every $\Delta\le3$. The paper (p. 152) reports that
-Andersen obtained the same theorem independently by different methods; his
+Andersen obtained the same theorem independently by different methods; that
 result is on
 [[problems/extremal_graph_theory/E0149/claims/1992_10_01_andersen|its own claim page]].
 

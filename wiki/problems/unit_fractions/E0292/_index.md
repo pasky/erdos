@@ -154,7 +154,7 @@ page.
 [[../library/unit_fractions/martin_2000_denser_egyptian_fractions/theorem_3|Theorem 3]]
 (p. 3; claims checked) shows that for each $j\ge2$ only finitely many
 integers cannot be the $j$th-largest denominator of a representation of
-$1$, and none once $j$ is large; he suggests (p. 3, unproved) that $\{2,4\}$
+$1$, and none once $j$ is large; Martin suggests (p. 3, unproved) that $\{2,4\}$
 may be the full list for $j=2$ and that every $j\ge3$ may exclude nothing.
 OEIS A092671 records a conjectured characterization of $A$ (verified to
 $2\cdot10^5$ by its contributors) in terms of the largest prime-power

@@ -128,7 +128,7 @@ through integers $n>2$ with at most $\kappa\log\log n$ distinct prime
 factors. Stewart states on printed pp. 427--428 that a covered set has natural
 density one and contains every sufficiently large prime; our explicit
 choice of any fixed $1<\kappa<1/\log2$ clarifies the parameter range in
-his almost-all remark. His
+that almost-all remark. The paper's
 [[../library/arithmetic_functions/stewart_nd_greatest_prime_factor/theorem_2|Theorem 2]],
 printed p. 428, also gives effective lower bounds for the greatest prime
 factors of $\Phi_p(a,b)$ and $\Phi_{2p}(a,b)$ for all sufficiently large

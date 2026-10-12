@@ -31,7 +31,7 @@ updated: 2026-10-07T21:33:46Z
 [[problems/additive_combinatorics/E0658/_index|Problem 658]] is yes, as a
 consequence of the density Hales–Jewett theorem of H. Furstenberg and
 Y. Katznelson, *A density version of the Hales-Jewett theorem*. In the
-form Solymosi records as his Theorem 3.1, the theorem gives, for every
+form Solymosi records as Theorem 3.1, the theorem gives, for every
 $\delta>0$ and positive integers $K$ and $d$, an $N_0(\delta,K,d)$ such
 that for $N>N_0$ every subset of $[N]^d$ of size at least $\delta N^d$
 contains a homothetic copy of $[K]^d$; with $d=K=2$ the copy

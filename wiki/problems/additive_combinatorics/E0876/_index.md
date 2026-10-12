@@ -264,9 +264,9 @@ by it; the two tab claims have claim pages and are summarized here.
   which it calls a resolution of Problem 254. Recorded on
   [[problems/additive_combinatorics/E0876/claims/2026_07_18_price|its claim page]].
   The write-up is a read-only document on a collaborative editor (read
-  status: unread); of the seven comments, one by the author of [Fa26] says he checked
-  the proof and believes it correct, and another reduces the claim to Fan's
-  theorem. The label was OPEN and the commentary did not mention the claim
+  status: unread); of the seven comments, one by the author of [Fa26] reports
+  checking the proof and believes it correct, and another reduces the claim to
+  Fan's theorem. The label was OPEN and the commentary did not mention the claim
   on 2026-10-06. If accepted, the claim leaves the first question and the
   reciprocal-sum question open.
 - The proof-claim tab, 2026-09-22: a full claim by Samuel Korsky, credited

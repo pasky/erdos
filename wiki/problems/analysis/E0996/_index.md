@@ -92,7 +92,7 @@ gives a $\{0,1\}$-valued $f$ with the same decay whose averages have limit
 superior at least $3/4$ against an integral at most $1/16$. Both are recorded as
 pending full claims on [[problems/analysis/E0996/claims/2026_04_20_ho|Ho's
 page]] and [[problems/analysis/E0996/claims/2026_09_26_yang|Yang's page]]; Yang
-credits Ho with the first disproof and presents his own as an independent
+credits Ho with the first disproof and presents the second as an independent
 bounded construction, neither is refereed or credited by the site, and the
 proofs were not checked here. The frontmatter's standing derives from these two
 agreeing pending claims.

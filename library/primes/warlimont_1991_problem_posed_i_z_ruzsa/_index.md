@@ -30,11 +30,11 @@ Mathematicarum (Szeged) 55 (1991), 53-58.
 Ruzsa's problem asks for mu(n), the least total of 1/a_j over systems of moduli
 1 <= a_1 < ... < a_m <= n (m not fixed) with residue classes R(a_j,b_j)
 covering {1,...,n}. The paper reports that the counting bound gives mu(n) >= 1/2
-at once, that Ruzsa mentions he can improve this to mu(n) >= log(2^5 3^6/(5^2
+at once, that Ruzsa mentions improving this to mu(n) >= log(2^5 3^6/(5^2
 23^2)) = 0.56754538..., and that Ruzsa gives the upper estimate mu(n) <=
 log(5/2) + O(1/n) (p. 53). Warlimont introduces the counting relaxation nu(n),
 the minimum of the same cost over subsets A of {1,...,n} satisfying only sum over
-a in A of ([n/a]+1) >= n, so that nu(n) <= mu(n), and says he could show nu(n) =
+a in A of ([n/a]+1) >= n, so that nu(n) <= mu(n), and reports proving nu(n) =
 log(2^5 3^6/23^3) + O(n^{-1/3}) (p. 54). The paper presents Ruzsa's
 simplification of that proof, which improves the error term to O(1/n): the
 problem is relaxed further to a linear program nu*(n) over real vectors y with 0

@@ -16,7 +16,7 @@ updated: 2026-10-08T14:30:02Z
 [[additive_combinatorics/_index|..]]
 
 [[additive_combinatorics/mrose_1979_untere_schranken_reichweiten_extremalbasen_fester_ordnung/equation_3|equation_3]]: Mrose's lower bound n_2(k) >= (8/7)(k/2)^2 + O(k) for the range of a
-finite additive 2-basis with k positive elements, from his order-raising
+finite additive 2-basis with k positive elements, from Mrose's order-raising
 construction with the parameters t_2 = 3 and alpha_1 = k/7 + O(1); it gives
 liminf n(k)/k^2 >= 2/7 and so g(n)^2 <= (7/2 + o(1)) n for Problem 791.
 

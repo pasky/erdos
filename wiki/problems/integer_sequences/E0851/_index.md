@@ -43,14 +43,14 @@ thread on 5 February 2026. It is a sieve count of the representations $2^k+m$
 with $m$ free of primes in $(z,x^{1/t}]$ for large constants $z,t$. The
 fundamental lemma of sieve theory estimates the first and second moments of this
 count. The second moment rests on an averaged bound for a singular series over
-the primes dividing $2^k-2^l$. Tao confirmed the proof correct in an edit to his
-thread comment of 5 February 2026. No refereed or arXiv version was found on
-2026-10-07. Romanoff (1934) gives the $r=1$ case with a positive density in
+the primes dividing $2^k-2^l$. Tao confirmed the proof correct in an edit to
+their thread comment of 5 February 2026. No refereed or arXiv version was found
+on 2026-10-07. Romanoff (1934) gives the $r=1$ case with a positive density in
 place of $1-\epsilon$. Claim page:
 [[problems/integer_sequences/E0851/claims/2026_02_05_price|Price 2026]]
 (accepted on Tao's confirmation and the site's curator's acceptance; not
 refereed, not counted as formalized). A thread comment of 6 February 2026 by
-Sawhney announces that he and Green have a version of the argument that gives
+Sawhney announces a version of the argument, joint with Green, that gives
 $r\ll\log(1/\epsilon)/\log\log(1/\epsilon)$, using a high-moment argument in
 place of the second moment. The site's commentary also mentions it. It is a
 thread comment without a write-up, no manuscript was found on 2026-10-07, and it
@@ -115,7 +115,7 @@ only on $\epsilon$ such that the integers $2^k+n$ with $n$ having at most $r$
 prime divisors have lower density at least $1-\epsilon$, by a sieve count of
 the representations $2^k+m$ with $m$ free of primes in a middle range, whose
 first and second moments the fundamental lemma estimates. Sawhney's thread
-comment of 6 February 2026 announces that he and Green have a version of the
+comment of 6 February 2026 announces a version, joint with Green, of the
 argument, replacing the second moment by a high moment, that gives
 $r\ll\log(1/\epsilon)/\log\log(1/\epsilon)$, which the site's commentary
 also records; no write-up was found on 2026-10-07. Whether $r$ can be chosen

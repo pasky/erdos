@@ -3,8 +3,8 @@ name: graph_coloring/heckel_2021_non_concentration_chromatic_number_random_graph
 title: "Conjecture and open questions (p. 12): intervals of length n^(1/2-eps), a lower bound for every large n, and the correct exponent"
 desc: |
   Heckel's conjecture that no sequence of intervals of length below
-  n^(1/2-eps) contains the chromatic number of G(n,1/2) whp, with her open
-  questions whether a lower bound on the interval length holds for every
+  n^(1/2-eps) contains the chromatic number of G(n,1/2) whp, with the paper's
+  open questions whether a lower bound on the interval length holds for every
   large n and whether an exponent rho(n) governs the concentration.
 created: 2026-10-08T17:04:21Z
 updated: 2026-10-08T17:04:21Z

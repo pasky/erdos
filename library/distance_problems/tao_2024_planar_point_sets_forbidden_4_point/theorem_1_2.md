@@ -97,7 +97,7 @@ sketches that argument.
 [[distance_problems/tao_2024_planar_point_sets_forbidden_4_point/theorem_1_3|Theorem 1.3]]
 of the same paper; Dumitrescu's observation that every four-point set with
 fewer than five distinct distances is of one of the eight patterns
-(reference [5], Lemma 1) and his
+(reference [5], Lemma 1) and the
 counts of patterns $\pi_1,\pi_3,\ldots,\pi_8$ in the grid (Lemma 1.4, quoted
 from reference [5], Lemmas 6, 8 and 11); Erdős's count of the distances of the
 square grid (reference [6]).

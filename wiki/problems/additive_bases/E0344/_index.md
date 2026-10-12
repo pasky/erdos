@@ -59,8 +59,8 @@ second, shorter proof. The refereed papers and the site's acceptance are
 recorded on the
 [[problems/additive_bases/E0344/claims/2005_07_26_szemeredi_vu|claim page]].
 Y.-G. Chen proved the same theorem by a different method in Acta Arithmetica
-(2003). His proof is recorded on
-[[problems/additive_bases/E0344/claims/2003_01_01_chen|his claim page]], and the
+(2003). The proof is recorded on
+[[problems/additive_bases/E0344/claims/2003_01_01_chen|its claim page]], and the
 site does not credit it. Folkman [Fo66] had proved the statement under the
 stronger hypothesis $\gg N^{1/2+\epsilon}$. This refereed partial result is
 recorded on

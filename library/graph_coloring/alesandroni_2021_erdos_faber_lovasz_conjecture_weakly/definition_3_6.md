@@ -26,7 +26,7 @@ every vertex has degree $1$ or degree greater than $\sqrt n$; it is slightly
 weakly dense when no $k$ in $[2,\sqrt n)$ is the degree of a vertex. Dense
 hypergraphs are slightly weakly dense, and slightly weakly dense ones are
 weakly dense. The paper notes (p. 1) that Sánchez-Arroyo's definition of
-density differs slightly from its own, and that his theorem, in its
+density differs slightly from its own, and that Sánchez-Arroyo's theorem, in its
 strongest form, proves the conjecture for dense hypergraphs in the paper's
 sense.
 

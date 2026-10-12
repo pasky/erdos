@@ -2,7 +2,7 @@
 name: set_systems/kahn_1994_problem_erdos_lovasz_ii/theorem_2_3
 title: "Theorem 2.3 (p. 131): every edge cover of size r is concentrated on the lines through one point"
 desc: |
-  Kahn's covering theorem for the hypergraph of his construction: an edge
+  Kahn's covering theorem for the hypergraph of the construction: an edge
   cover of size r = Kq+t meets each part H_l through some point x in exactly q
   edges, or t edges on the line through x and x_0, which gives edge cover
   number r.

@@ -90,7 +90,7 @@ $n-k!$ ($1\le k\le L$) composite; its sieve input is the published
 fundamental lemma of sieve theory (Koukoulopoulos 2019, Theorem 18.11(a)).
 The Lean development
 [factorial-hypergraph-auxiliary-erdos](https://github.com/GrgAakash/factorial-hypergraph-auxiliary-erdos/tree/67b4088fc84422c84f7e5e205552757c3c0c9a71)
-formalizes a different manuscript of his, *Factorial-residue hypergraphs and
+formalizes a different Gurung manuscript, *Factorial-residue hypergraphs and
 an auxiliary problem of Erdős*, which reaches the same count through rainbow
 covers of a factorial-residue hypergraph. It takes the sieve lemma as an
 explicit hypothesis and is registered on the Palomar registry as entry

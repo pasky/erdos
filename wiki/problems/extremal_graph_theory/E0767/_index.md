@@ -174,7 +174,7 @@ $n\ge2k+2$ on for $k=2$ and $k=3$; Jiang [Ji04] proved it for $n\ge3k+3$;
 and the site notes, as a curiosity, that in [Er69b] Erdős reports his
 conjectured equality disproved for general $k$ by Lewin, by oral
 communication, and offers two guesses, that Lewin's examples concerned only
-small $n$ or that his disproof was wrong. The thread holds one comment
+small $n$ or that the disproof was wrong. The thread holds one comment
 (13:05 on 15 September 2026), which points to [ChNi26] by X. Chen and
 B. Ning as an improvement on the problem; the key ChNi26 is not in the page's
 reference list. The proof-claim tab is empty. The community

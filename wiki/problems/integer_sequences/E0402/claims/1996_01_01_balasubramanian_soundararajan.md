@@ -68,7 +68,7 @@ $a\in A$, $b\in B$ with $\max(a,b)/\gcd(a,b)\ge N$.
 
 **Earlier partial results.** Szegedy (Combinatorica 6 (1986), 67--71) and
 Zaharescu (J. Number Theory 27 (1987), 33--40) proved the conjecture
-independently for all sufficiently large $N$. Szegedy's theorem, as his
+independently for all sufficiently large $N$. Szegedy's theorem, as the paper's
 abstract and the formal-conjectures statement file give it, includes the
 equality case, and the site's commentary credits both papers with it;
 Zaharescu's, as the zbMATH review states it, is the inequality alone, and
@@ -84,7 +84,7 @@ the site's commentary credits Szegedy and Zaharescu for large sets and
 Balasubramanian and Soundararajan for all sets.
 
 **Acceptance.** Reviewed: the site's curator, Thomas Bloom, who is independent
-of the authors, labels the problem PROVED and credits the paper in his
+of the authors, labels the problem PROVED and credits the paper in the
 commentary (page last edited 8 April 2026). The discussion thread and the
 proof-claim tab are empty.
 

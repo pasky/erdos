@@ -187,7 +187,7 @@ formal_proof annotation that points at
 of Boris Alexeev's lean-proofs at its commit of 15 September 2026. That file
 declares itself a formalization of a solution to the problem, names Beck as
 the informal author and Codex and GPT-5.6 Sol as the formal authors, and is
-linked on Beck's claim page as a formalization of his result; it attributes
+linked on Beck's claim page as a formalization of its result; it attributes
 the cycle bound to Beck as well. None of this Lean was built or audited in
 this corpus, so no claim page lists `formalized` evidence. The statement file
 postdates 2026-09-18, when the directory held no file for the problem and the

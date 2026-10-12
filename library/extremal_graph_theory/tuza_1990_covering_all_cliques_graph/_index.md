@@ -52,7 +52,7 @@ Zsolt Tuza, "Covering all cliques of a graph," Discrete Mathematics, 86(1-3),
 ## Overview
 
 Tuza studies the minimum size $\tau_C(G)$ of a vertex set meeting every maximal
-clique of size at least two; his cliques have at least two vertices, so
+clique of size at least two; the paper's cliques have at least two vertices, so
 isolated vertices are not cliques (Section 1, p. 117), and the clique
 hypergraph is built from them (Section 2, p. 118). The central question is
 whether a graph in a specified class has $\tau_C(G)\leq n/k$ when every edge

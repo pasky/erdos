@@ -90,8 +90,9 @@ consequence. It certifies no claim that all sixteen possible steps occur and
 no formal verification.
 
 Thomas Bloom explicitly agreed that the result should be marked solved in
-[his September 3, 2026 comment](https://www.erdosproblems.com/forum/thread/proof-claim:5a48dd7b490340c598f617b09282d003#post-8704).
-He explained the lingering open label as an omission and confirmed its update
+[a September 3, 2026 comment](https://www.erdosproblems.com/forum/thread/proof-claim:5a48dd7b490340c598f617b09282d003#post-8704).
+The curator explained the lingering open label as an omission and confirmed
+its update
 [on September 4](https://www.erdosproblems.com/forum/thread/proof-claim:5a48dd7b490340c598f617b09282d003#post-8737).
 These comments concern the joint Gaussian-integer proof, claim 239, recorded
 on its

@@ -81,7 +81,7 @@ Shoup (*Searching for primitive roots in finite fields*, Math. Comp. 58
 (1992), 369-380) bounds the least primitive root of a prime $p$ by
 $\ll(\omega(p-1)\log\omega(p-1))^4(\log p)^2$, and Martin (*The least prime
 primitive root and the shifted sieve*, Acta Arith. 80 (1997), 277-288,
-Corollary 3.1) rederives this bound, which he attributes to Shoup for prime
+Corollary 3.1) rederives this bound, credited there to Shoup for prime
 moduli, for the least prime primitive root, which is therefore below $p$ for
 every sufficiently large $p$. Unconditionally, Nongkynrih (*On prime primitive
 roots*, Acta Arith. 72 (1995), 45-53) bounds the least prime primitive root by

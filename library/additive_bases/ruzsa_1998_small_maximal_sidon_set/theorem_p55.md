@@ -29,7 +29,7 @@ set in $[1,N]$, the paper records $N^{1/3}\ll g(N)\ll(N\log N)^{1/3}$ (its
 display (4), p. 57). It observes that if the right side were the true order,
 this would immediately give the Ajtai--Komlós--Szemerédi theorem on an
 infinite Sidon set with $\gg(N\log N)^{1/3}$ elements up to $N$, and the author
-says he has no heuristic argument indicating which side of (4) is correct
+says they have no heuristic argument indicating which side of (4) is correct
 (p. 58).
 
 **Source.** Imre Z. Ruzsa, A Small Maximal Sidon Set, The Ramanujan Journal 2

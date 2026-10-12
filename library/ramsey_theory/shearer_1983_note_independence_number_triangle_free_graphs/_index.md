@@ -137,7 +137,7 @@ independently reviewed.
 - Remark 3 (pp. 86--87). From (12),
   $F(d,Ad^2/(\ln d)^2)\le4(\ln d-\ln d+\frac12\ln A+\ln\ln d)/d+O(1/d)
   =4\ln\ln d/d+O(1/d)$, and Shearer concludes that Remark 3 of [1], which
-  he reads as stating "in effect that there exist constants $A$, $B$ such
+  Shearer reads as stating "in effect that there exist constants $A$, $B$ such
   that $F(d,Ad^2/(\ln d)^2)\ge B(\ln d)/d$ for $d\ge d_0$", "is incorrect".
 - Remark 4 and the closing paragraph (p. 87). Remark 4 poses the open
   questions, quoted: "what is $\lim_{d\to\infty}dF(d,0)/\ln d$ or

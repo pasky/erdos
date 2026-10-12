@@ -59,11 +59,11 @@ answer is no. The claim page
 [[problems/integer_sequences/E0429/claims/2024_05_20_weisenberg|Weisenberg 2024]]
 records the result as accepted on the refereed publication. The standing in the
 frontmatter is derived from it. The site's curator is not an independent
-reviewer of this result. The paper's acknowledgement records that he reviewed an
-earlier draft and advised the author, so his label is not acceptance evidence.
-The site adds that a variant of the construction also answers Erdős's squarefree
-($p^2$) question in the negative. That sentence is the site's statement: the
-paper does not treat squarefree numbers.
+reviewer of this result. The paper's acknowledgement records that the curator
+reviewed an earlier draft and advised the author, so the site's label is not
+acceptance evidence. The site adds that a variant of the construction also
+answers Erdős's squarefree ($p^2$) question in the negative. That sentence is
+the site's statement: the paper does not treat squarefree numbers.
 
 **Source.** [erdosproblems.com/429](https://www.erdosproblems.com/429),
 accessed 2026-09-18: the problem page (DISPROVED

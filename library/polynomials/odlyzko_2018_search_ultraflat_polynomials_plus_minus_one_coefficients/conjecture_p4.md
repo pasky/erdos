@@ -2,7 +2,7 @@
 name: polynomials/odlyzko_2018_search_ultraflat_polynomials_plus_minus_one_coefficients/conjecture_p4
 title: "Conjecture, p. 4: the limits of M_n, m_n and W_n exist, with M about 1.27, m about 0.64 and W about 0.79"
 desc: |
-  Odlyzko's conjecture, drawn from his exhaustive computations, that the
+  Odlyzko's conjecture, drawn from the paper's exhaustive computations, that the
   normalized extremal maximum, minimum and annulus width of plus or minus one
   polynomials of degree n each tend to a limit, estimated as 1.27, 0.64 and
   0.79; the paper proves none of it.

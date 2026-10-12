@@ -4,7 +4,7 @@ desc: The 6 claim pages of Problem 267, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:51:25Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-12T23:28:38Z
 ---
 
 # problems/irrationality/E0267/claims
@@ -19,9 +19,9 @@ yes.
 every fixed $k$, with coefficient $-1/2$ on $\sqrt5$. So every instance
 $n_j=2^jk$ of the question has answer yes.
 
-[[problems/irrationality/E0267/claims/1987_07_01_badea|1987_07_01_badea]]: Badea's 1987 Corollary 4 proves $\sum_{n\ge1}1/F_{2^n+1}$ irrational by his
-criterion for series of positive rationals. So the instance $n_k=2^k+1$ of the
-question has answer yes.
+[[problems/irrationality/E0267/claims/1987_07_01_badea|1987_07_01_badea]]: Badea's 1987 Corollary 4 proves $\sum_{n\ge1}1/F_{2^n+1}$ irrational by the
+paper's criterion for series of positive rationals. So the instance
+$n_k=2^k+1$ of the question has answer yes.
 
 [[problems/irrationality/E0267/claims/1993_01_01_badea|1993_01_01_badea]]: Badea's Corollary 3.2 of 1993 proves $\sum_k1/F_{n(k)}$ irrational whenever
 $n(k+1)\ge2n(k)-1$ for all large $k$. This answers the problem for every ratio

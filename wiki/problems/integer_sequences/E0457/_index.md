@@ -161,7 +161,7 @@ question from $2$ to $3/\log4\approx2.16$, and a later run of GPT that
 proves the statement for every constant; records Tao's
 elaboration in the comments, which proves infinitely many $n$ with
 $q(n,\log n)>\frac{1-o(1)}{2}\frac{\log\log n}{\log\log\log n}\log n$, and
-his suggestion that standard heuristics make this lower bound also an upper
+Tao's suggestion that standard heuristics make this lower bound also an upper
 bound, up to constants, for all $n$; and points to Problems 663 and 1181,
 the latter for upper bounds on $q(n,\log n)$. The thread is summarized
 below. The proof-claim tab is empty.
@@ -228,7 +228,7 @@ the construction and its extension to GPT-5.2 Pro in two autonomous
 runs prompted by Kevin Barreto, the formalization to Aristotle, Harmonic's
 automated prover, and the linking of the formal proof to the collection's
 statement to the same prover at van Doorn's request; Nat Sothanaphan reports a
-GPT standard check, as he calls it, that found no issue.
+GPT standard check, as Sothanaphan calls it, that found no issue.
 
 **The thread (ten comments, oldest first).** 10 September 2025 (the account
 TerenceTao): standard probabilistic heuristics suggest $q(n,\log n)\asymp\log
@@ -242,21 +242,21 @@ failed on the general $q(n,k)$ question; an update that an independent run of
 GPT-5.2 Pro, using the prime number theorem, resolved the stated question for
 arbitrarily large $\epsilon$ (a second PDF); and a live Lean-editor link to
 Aristotle's formalization of the solution as stated (the site was updated). 2
-March 2026 (the account Nat Sothanaphan): a GPT standard check, as he calls it,
-that found no issue, not meant to be comprehensive. 2 March 2026 (TerenceTao):
-the 1979 formulation is the negation of the monograph's, and the problem is a
-case where Erdős accidentally posed one that was too easy; the elaboration
-above, the broader lesson that Dirichlet approximation controls more moduli
-than the Chinese remainder theorem at the cost of localizing $n$ modulo $p$ to
-an interval, and the remark that the upper-bound problem remains open, is of a
-different nature, and should be absorbed or spun off (the site was updated). 2
-March 2026 (Kevin Barreto): agreement. 3 March 2026 (Nat Sothanaphan): a
-write-up of the elaboration by GPT (GPT-5.2 Thinking, as the write-up names
-it), in what he calls a near-autonomous process, reaching $\gg\log n\log\log
-n/\log\log\log n$ but not the $(1-o(1))$ constant (its claim page is linked
-from the Status). 3 March 2026 (TerenceTao): the factor $1/2$ from the
-symmetric shift, so that the method's natural limit is $q(n,\log
-n)\ge(\frac12-o(1))\log n\log\log n/\log\log\log n$, which he credits to GPT's
+March 2026 (the account Nat Sothanaphan): a GPT standard check, as the poster
+calls it, that found no issue, not meant to be comprehensive. 2 March 2026
+(TerenceTao): the 1979 formulation is the negation of the monograph's, and the
+problem is a case where Erdős accidentally posed one that was too easy; the
+elaboration above, the broader lesson that Dirichlet approximation controls more
+moduli than the Chinese remainder theorem at the cost of localizing $n$ modulo
+$p$ to an interval, and the remark that the upper-bound problem remains open, is
+of a different nature, and should be absorbed or spun off (the site was
+updated). 2 March 2026 (Kevin Barreto): agreement. 3 March 2026 (Nat
+Sothanaphan): a write-up of the elaboration by GPT (GPT-5.2 Thinking, as the
+write-up names it), in what the poster calls a near-autonomous process, reaching
+$\gg\log n\log\log n/\log\log\log n$ but not the $(1-o(1))$ constant (its claim
+page is linked from the Status). 3 March 2026 (TerenceTao): the factor $1/2$
+from the symmetric shift, so that the method's natural limit is $q(n,\log
+n)\ge(\frac12-o(1))\log n\log\log n/\log\log\log n$, which Tao credits to GPT's
 write-up. 7 March 2026 (the account Thomas Bloom): the upper-bound question is
 spun off as Problem 1181 and this problem is marked solved. 7 March 2026
 (TerenceTao): a GPT attempt on one third-party site and a GPT solution on

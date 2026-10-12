@@ -43,7 +43,7 @@ Section 2b (pp. 10--13) and section 7 (pp. 26--28), by range of $n$.
   $n=104$). The paper describes how to find such prime triples with
   certifiable primality by the Brillhart--Lehmer--Selfridge test (p. 12) and
   says the computation was carried out by P. Cutter, its details to be given
-  in her paper [C] (pp. 2 and 12); the computation is not in this paper.
+  in Cutter's paper [C] (pp. 2 and 12); the computation is not in this paper.
 - $n\ge2^{1617}$: section 7 gives a prime $p>\sqrt n$ with
   $p^2\mid\binom{2n}{n}$, as on the
   [[factorials_binomials/granville_1996_explicit_bounds_exponential_sums_scarcity_squarefree/theorem_1|Theorem 1 page]].

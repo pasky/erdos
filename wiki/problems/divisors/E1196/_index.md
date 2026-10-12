@@ -38,7 +38,7 @@ in the thread and cited by the paper. The accepted claim is recorded on the
 [[problems/divisors/E1196/claims/2026_04_13_price|claim page]]. Nat
 Sothanaphan's dated notes in the thread sharpen the constant and give a
 resummation proof. They are the pending claim on
-[[problems/divisors/E1196/claims/2026_04_16_sothanaphan|his page]].
+[[problems/divisors/E1196/claims/2026_04_16_sothanaphan|Sothanaphan's page]].
 
 **Source.** [erdosproblems.com/1196](https://www.erdosproblems.com/1196),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1196,
@@ -76,8 +76,8 @@ journal record, and this corpus has not built the Lean development, so neither
 `refereed` nor `formalized` evidence is listed. Nat Sothanaphan's three notes
 of 16, 20 and 21 April 2026, produced with GPT-5.4 Thinking, sharpen the
 bound to $1+\gamma/\log x+O(1/\log^{2}x)$ and recast the argument as a pure
-resummation; the paper's Remark 4.1 credits the sharper bound to him, and the
-notes are the pending claim on
+resummation; the paper's Remark 4.1 credits the sharper bound to their author,
+and the notes are the pending claim on
 [[problems/divisors/E1196/claims/2026_04_16_sothanaphan|Sothanaphan's page]].
 Przemek Chojecki's note of 15 April 2026 in the thread, *Sub-Markov chain
 certificates for weighted antichain bounds*, written with GPT-5.4, packages
@@ -86,7 +86,7 @@ divisibility chains, taking the Mertens-type estimate from the thread's
 argument; it presents a framework and not a claimed resolution, so it has no
 claim page. Before it, Lichtman's bound
 $e^{\gamma}\pi/4+o(1)$, Theorem 1.5 on
-[[../library/divisors/lichtman_2022_proof_erdos_primitive_set_conjecture/_index|his card]],
+[[../library/divisors/lichtman_2022_proof_erdos_primitive_set_conjecture/_index|the library card]],
 was the best known; the case $x=1$ is
 [[problems/divisors/E0164/_index|Problem 164]]. The lower bounds of Lichtman
 [Li20] and of Gorodetsky, Lichtman and Wong [GLW24] for the integers with

@@ -162,10 +162,10 @@ of de la Bretèche and Tenenbaum, a strategy the paper attributes to Stef's
 effort to compute $c$ and says its method gives, for the first question, a
 lower bound worse than the odd numbers. Acceptance evidence: none beyond the
 site's proof-claim tab, where the author submitted the result on 18 July
-2026, first as a full claim and, by his own comment of 29 July 2026, as a
+2026, first as a full claim and, by Sawin's own comment of 29 July 2026, as a
 claim on the second part only, naming the AI systems ChatGPT 5.5 for data
 analysis and reference search and ChatGPT 5.6 for proofreading and keeping
-the proof strategy and the write-up as his own; the arXiv listing of
+the proof strategy and the write-up as the author's own; the arXiv listing of
 2026-09-17 shows one version and no journal reference, no citing work was
 found, and the site's status and commentary do not mention the preprint.
 Provenance recorded, not judged: the paper's own declaration (p. 2) says the

@@ -54,7 +54,7 @@ comment on it).
 bilinear: Bombieri, Friedlander and Iwaniec (1986) reached moduli up to
 $x^{29/56}$ and Maynard reached $x^{11/21-\varepsilon}$ (with absolute-value
 weights). The paper places Theorem 1.4 between Maynard's bilinear result and
-his result for triply well-factorable weights, which reaches
+the same author's result for triply well-factorable weights, which reaches
 $x^{3/5-\epsilon}$ but which, it says, does not apply because the shifted
 primes problem appears too rigid for it.
 
@@ -73,7 +73,7 @@ Nothing here is independently reviewed.
 ## Proof pointer
 
 Section 5 (pp. 7--9) proves the theorem from four propositions, following
-Maynard's proof of his Theorem 1.1 with the quadrilinear weights in place
+the proof of Maynard's Theorem 1.1 with the quadrilinear weights in place
 of absolute values: a Type II estimate (Proposition 5.1, proved in Section
 9), sieve asymptotics (Proposition 5.2, Section 11), and estimates for
 numbers with four or more prime factors (Proposition 5.3, Section 10) and

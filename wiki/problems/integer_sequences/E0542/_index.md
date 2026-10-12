@@ -208,7 +208,7 @@ $\{3,4,5,7,11\}$ are the only such sets with sum above $1$; and Problem
 784 is cross-referenced. The thread
 (16--17 October 2025): a comment defining $\rho_n$ as the maximal sum for
 the ambient $n$, recording $1/3+1/4+1/5+1/7+1/11=1.017099\ldots$ as the
-optimum for $n=11$, Chen's sharper $\rho_n<1.0170166$ for large $n$ and his
+optimum for $n=11$, Chen's sharper $\rho_n<1.0170166$ for large $n$ and Chen's
 criterion that a function $h$ with $h=0$ on $[0,1)$ and
 $x\le\sum_{k\ge1}h(x/k)\le x(1+o(1))$ would give $\lim\rho_n=1$, Erdős's
 further conjecture that $\sum1/a\le1$ whenever $[a,b]>n+1$, and the question

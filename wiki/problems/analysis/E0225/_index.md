@@ -80,7 +80,7 @@ and [[problems/analysis/E0225/claims/1974_05_01_kristiansen|Kristiansen 1974]],
 accepted on its refereed publication. Kristiansen's theorem is the two-sided
 real form, a real trigonometric polynomial of degree $n\ge1$ with $2n$ real
 roots. It implies the display for arbitrary complex coefficients. The site's
-description is narrower than his paper. Both routes prove the corrected
+description is narrower than the paper. Both routes prove the corrected
 Statement. This project's own review of the compiled chain is described under
 Review record below and awards no standing.
 
@@ -140,7 +140,7 @@ settles the complex case, credited by the site, and Kristiansen's refereed paper
 proves the two-sided real form, which implies the display for arbitrary complex
 coefficients, though the site describes it as the real-coefficient case; the
 Kristiansen paper is not held in the library, and the account of the cited 1976
-erratum is on his claim page. This project's own reviews of the compiled Theorem
+erratum is on its claim page. This project's own reviews of the compiled Theorem
 1 chain, the Theorem 2 reduction and the transfer sentence are described under
 Review record below; none of them gives formal-verification or new acceptance
 credit. This page records no dated status-search scope. The 1976 erratum the
@@ -207,9 +207,9 @@ The references also record Kristiansen's proof and a 1976 correction.
 Kristiansen proves the conjecture for a real trigonometric polynomial of
 degree $n\ge1$ with $2n$ real roots, which gives the display for arbitrary
 complex coefficients; the site's description of it as the real-coefficient
-case is narrower than the paper. The correction concerns his companion note
+case is narrower than the paper. The correction concerns the companion note
 *Proof of a polynomial conjecture* (Proc. Amer. Math. Soc. 44 (1974),
-58--60), not the trigonometric paper, as his claim page records; the
+58--60), not the trigonometric paper, as its claim page records; the
 Saff--Sheil-Small argument does not rest on either.
 
 **Review record.** The

@@ -110,17 +110,17 @@ refereed publication exists; erdosproblems.com lists the problem as open, and
 its only proof-claim entry is the curator's notice of 2026-09-27, which
 misstates the direction of the claim and links a different file (next
 paragraph). That notice lists the claimant as conjectures.io with the system
-given as unknown, and the curator says in it that he has neither verified nor
+given as unknown, and the curator says in it that they have neither verified nor
 looked into the proof, that the notice is no endorsement of the Conjectures.io
-program, which in his view uses the problems for its own ends without explaining
-its proofs or engaging with the mathematical community, and that the program is
-not transparent about who runs the problems through an AI system, for how long,
-or with which one. Which AI system, if any, generated the proof is therefore not
-disclosed. The formal-conjectures statement file, at the catalog's commit of 18
-September 2026 linked above, marks the statement research open with proof
-`sorry`. In September 2026 the site's problem page badge said the bounty was
-paid while the record page said it was pending; by 2026-10-07 the record shows
-the bounty as paid, with the certification dated 23 September 2026.
+program, which in the curator's view uses the problems for its own ends without
+explaining its proofs or engaging with the mathematical community, and that the
+program is not transparent about who runs the problems through an AI system, for
+how long, or with which one. Which AI system, if any, generated the proof is
+therefore not disclosed. The formal-conjectures statement file, at the catalog's
+commit of 18 September 2026 linked above, marks the statement research open with
+proof `sorry`. In September 2026 the site's problem page badge said the bounty
+was paid while the record page said it was pending; by 2026-10-07 the record
+shows the bounty as paid, with the certification dated 23 September 2026.
 
 **A Lean contribution that is not a claim.** The file the curator's forum
 entry links, a contribution of 1 September 2026 in the Conjectures.io

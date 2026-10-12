@@ -36,9 +36,9 @@ The paper studies the Erdos-Graham problem on whether A_{alpha,beta} =
 {[2^n alpha], [2^n beta] : n >= 0} (alpha, beta > 0) is complete, i.e. all large
 integers are sums of distinct elements. On p. 7 it recalls the Erdos-Graham
 conjecture (complete whenever alpha/beta is irrational), the author's 1989
-result for a finite and an infinite dyadic fraction, and his stronger 1989
-conjecture (complete whenever beta/alpha is not a power of 2 and alpha is an
-infinite dyadic fraction), and poses two weaker forms: that X_alpha =
+result for a finite and an infinite dyadic fraction, and Hegyvári's stronger
+1989 conjecture (complete whenever beta/alpha is not a power of 2 and alpha is
+an infinite dyadic fraction), and poses two weaker forms: that X_alpha =
 {beta : A_{alpha,beta} is incomplete} is countable for each fixed alpha, and
 that mu(X_alpha) = 0. The Theorem (p. 7) states that X_alpha is measurable and
 mu(X_alpha) is either 0 or infinity (mu Lebesgue measure); it proves neither

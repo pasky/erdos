@@ -30,9 +30,9 @@ $$
 $$
 
 The paper notes $\log\frac52\approx0.91629073<1$. The author states, without
-proof, that he can improve the lower bound to
-$\log(2^53^6/5^223^2)\approx0.5675438$; he says he cannot determine the exact
-value, nor prove that $\lim_x\mu(x)$ exists (p. 262).
+proof, that the lower bound can be improved to
+$\log(2^53^6/5^223^2)\approx0.5675438$, and reports being unable to determine
+the exact value, or to prove that $\lim_x\mu(x)$ exists (p. 262).
 
 The construction of Section 5 uses the moduli in $[2n,5n]$ other than $4n$,
 the modulus $2n-1$, and the moduli $5n+k$, $1\le k\le r$, where $x=5n+r$ and

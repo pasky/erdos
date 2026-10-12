@@ -13,15 +13,15 @@ updated: 2026-10-08T17:21:06Z
 [[number_theory/_index|..]]
 
 [[number_theory/bernstein_1994_noniterative_2adic/conjecture_p1|conjecture_p1]]: Bernstein's non-iterative conjecture that every positive integer is the
-image under the 2-adic permutation Phi of a third of an integer, which his
-Theorems 2 and 3 show equivalent to the 3N+1 conjecture.
+image under the 2-adic permutation Phi of a third of an integer, which the
+paper's Theorems 2 and 3 show equivalent to the 3N+1 conjecture.
 
 [[number_theory/bernstein_1994_noniterative_2adic/corollary_1|corollary_1]]: Bernstein's corollary that the 2-adic permutation Phi sends rational 2-adic
 integers to rational 2-adic integers, one half of the Periodicity
 Conjecture of Lagarias's survey.
 
-[[number_theory/bernstein_1994_noniterative_2adic/corollary_2|corollary_2]]: Müller's theorem, reproved by Bernstein from his expansion of Phi, that the
-2-adic permutation Phi conjugating H to the Collatz map is nowhere
+[[number_theory/bernstein_1994_noniterative_2adic/corollary_2|corollary_2]]: Müller's theorem, reproved by Bernstein from the paper's expansion of Phi,
+that the 2-adic permutation Phi conjugating H to the Collatz map is nowhere
 differentiable.
 
 [[number_theory/bernstein_1994_noniterative_2adic/theorem_1|theorem_1]]: Bernstein's identity that the 2-adic permutation Phi carries the simple map
@@ -30,10 +30,10 @@ Collatz map C, so that C of Phi of Q equals Phi of H of Q.
 
 [[number_theory/bernstein_1994_noniterative_2adic/theorem_2|theorem_2]]: Bernstein's theorem that a 2-adic integer N some iterate of the Collatz map
 sends to one lies in the image under Phi of the thirds of integers, so the
-3N+1 conjecture implies his non-iterative conjecture.
+3N+1 conjecture implies the non-iterative conjecture.
 
 [[number_theory/bernstein_1994_noniterative_2adic/theorem_3|theorem_3]]: Bernstein's theorem that a positive integer N lying in the image under Phi
-of the thirds of integers has some Collatz iterate equal to one, so his
+of the thirds of integers has some Collatz iterate equal to one, so the
 non-iterative conjecture implies the 3N+1 conjecture.
 
 ***

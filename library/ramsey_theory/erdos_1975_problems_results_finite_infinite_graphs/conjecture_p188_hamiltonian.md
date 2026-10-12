@@ -21,7 +21,7 @@ among all such graphs; $[x]$ is the integer part (the paper's notation).
 was started, as far as Erdős knows, by Rényi and himself (the paper's
 references [19], [20], [21]). One of their conjectures was that for some
 absolute constant $C$ almost all graphs $G(n;[Cn\log n])$ are Hamiltonian.
-Pósa recently proved it, and Komlós and Szemerédi later proved by his
+Pósa recently proved it, and Komlós and Szemerédi later proved by Pósa's
 method that $C=\tfrac12+\epsilon$ suffices. No reference is printed for
 either proof.
 

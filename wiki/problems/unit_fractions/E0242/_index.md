@@ -307,9 +307,9 @@ Erdős, asked in 1996, said $4$ is "the first interesting case".
   allowed. Terzi's classes are first-hand ([Te71],
   [[../library/unit_fractions/terzi_1971_conjecture_erdos_straus/table_2|Table 2]],
   p. 214): congruence (9), "$n\equiv N_2\pmod{120120}$ where $N_2$ takes all
-  198 values from Table 2", is the condition his first algorithm leaves as the
-  only one under which, for a prime $n$, "the Erdös--Straus conjecture may
-  happen to be untrue" (p. 213); every prime coprime to $120120$ outside the
+  198 values from Table 2", is the condition the paper's first algorithm leaves
+  as the only one under which, for a prime $n$, "the Erdös--Straus conjecture
+  may happen to be untrue" (p. 213); every prime coprime to $120120$ outside the
   $198$ classes satisfies Rosati's parametrization and has a representation,
   with repetition allowed in the paper's convention. The classes refine Table
   1's $34$ classes modulo $9240$ and the six classes modulo $840$; the $198$
@@ -493,7 +493,7 @@ publication and Mordell's a consequence of Terzi's; Vaughan's bound is
 first-hand ([Va70], p. 193; its proof is recorded in outline only), with
 [PoWe25]'s Theorem 1.3 as its uniform form; the survey's Mordell list carries
 a misprint. Terzi's $198$ classes are first-hand and an accepted partial claim
-for primes, but his $10^8$ verification is an author's report whose printed
+for primes, but the $10^8$ verification is an author's report whose printed
 Table 3 covers seven of the $43485$ primes it is said to cover and carries two
 misprinted rows. (2) The $10^{18}$ verification is a computation report that
 was not rerun. (3) The three pending full claims,

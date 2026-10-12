@@ -22,7 +22,7 @@ that is $A(x)<c_1x/\log x$ for every $x\ge1$, such that every $n$ can be
 written as $a_i+b_j$?
 
 **Announced theorem** (p. 309, unnumbered, quoted in part). The author states
-that he proved, using a result of Erdős's paper (the paper's reference [1]),
+that they proved, using a result of Erdős's paper (the paper's reference [1]),
 that there is a sequence $b_1<b_2<\cdots$ with $B(x)>c_3\log x$ such that if
 every $n$ can be written as $a_i+b_j$, then for infinitely many $x$
 

@@ -59,7 +59,7 @@ was published in the Bulletin of the London Mathematical Society in 2010
 preprint. For every lacunary $S$ with ratio at least $1+\epsilon$,
 $0<\epsilon<1/4$, the theorem gives a $\theta\in(0,1)$ with
 $\inf_j\|\theta n_j\|>c\epsilon |\log\epsilon|^{-1}$. By Katznelson's reduction
-(the proof of his Theorem 1.1, [Ka01] p. 212; restated in the same paper), this
+(the proof of Theorem 1.1 of [Ka01], p. 212; restated in the same paper), this
 gives a proper coloring of the graph with at most
 $1+c^{-1}\epsilon^{-1}|\log\epsilon|$ colors. This is the site's
 $\ll\epsilon^{-1} \log(1/\epsilon)$ bound. The same paper gives a self-contained
@@ -70,7 +70,7 @@ Mathan and Pollington, 1979--80) are the site's account of Problem 464.
 Pollington's theorem gives a second route to finiteness through the reduction,
 without an explicit dependence on $\epsilon$. Katznelson's own Theorem 1.1 (p.
 211), "If $\Lambda$ is lacunary then $\chi(\Lambda)<\infty$", is the original
-answer. It is proved from his Theorem 1.2 by the reduction, and again,
+answer. It is proved from Theorem 1.2 of [Ka01] by the reduction, and again,
 elementarily, with $5^d$ colors where $\rho^d\ge5$ (p. 212).
 
 **Source.** [erdosproblems.com/894](https://www.erdosproblems.com/894),
@@ -225,7 +225,7 @@ with $t_k=n_k$ and Katznelson's reduction this is a second first-hand proof
 that the chromatic number is finite, with a bound $\lceil\beta^{-1}\rceil$
 whose dependence on $\epsilon$ the paper does not make explicit. Dubickas's
 [[../library/number_theory/dubickas_2006_fractional_parts_lacunary_sequences/theorem_1|Theorem 1]]
-yields, as his p. 137 states, a $\xi>0$ with
+yields, as the paper's p. 137 states, a $\xi>0$ with
 $\|\xi t_n\|\ge1/(9(r+2)^2)$ for every lacunary sequence with ratio at least
 $1+r^{-1}$ and hence $\chi\le9(r+2)^2$ for the graph on the real line with
 those forbidden distances; restricted to the integers, with $r=\epsilon^{-1}$,

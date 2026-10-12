@@ -43,7 +43,7 @@ coefficients*, Izv. Math. 60 (1996), no. 6, 1123--1182 (Russian original Izv.
 Ross. Akad. Nauk Ser. Mat. 60 (1996), no. 6, 31--90). It is recorded as the
 site's commentary states it and as Q. Tang, *An improved lower bound for
 Erdős–Szekeres products*, Proc. Amer. Math. Soc. 154 (2026), no. 8,
-3381--3388 (arXiv:2509.14182), states it in citing the paper as his reference
+3381--3388 (arXiv:2509.14182), states it in citing the paper as its reference
 [3].
 
 **Covers.** The second question of Problem 256, whether $\log f(n)\gg n^c$ for

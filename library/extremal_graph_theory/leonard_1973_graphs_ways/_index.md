@@ -14,7 +14,7 @@ updated: 2026-10-08T15:11:47Z
 
 [[extremal_graph_theory/leonard_1973_graphs_ways/construction_p687|construction_p687]]: Leonard's bi-wheel construction, asserted with no proof beyond Figure 1:
 graphs with n points and 3n−3 lines containing no 6-way, which make the
-3n−2 of his Theorem sharp, and for each r graphs with n points and
+3n−2 of the paper's Theorem sharp, and for each r graphs with n points and
 [r(n−1)/2] lines containing no r-way, a lower bound for l_r(n).
 
 [[extremal_graph_theory/leonard_1973_graphs_ways/theorem_p688|theorem_p688]]: Leonard's 1973 theorem that 3n−2 edges force two vertices joined by six

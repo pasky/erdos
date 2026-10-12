@@ -74,6 +74,6 @@ These are compilation corrections, not an author-issued erratum.
 
 **Related method.** The same extension step is made explicit when Moore
 transports all auxiliary apices in
-[[discrete_geometry/moore_2026_pyramid_ramsey_base/theorem_1_2|his pyramid proof]].
+[[discrete_geometry/moore_2026_pyramid_ramsey_base/theorem_1_2|the pyramid proof]].
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0174/_index|Problem 174]].

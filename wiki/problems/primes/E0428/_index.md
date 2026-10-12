@@ -51,7 +51,7 @@ posts they have no claim page. On 2 July 2026 Steve Fan posted an argument
 that every set $A$ with the problem's property has
 $\limsup A(x)/\pi(x)\le2$: the numbers $n-a$ with $a\le x$ are primes in an
 interval of length $x$, and the Brun–Titchmarsh inequality bounds their count
-by $(2+o(1))x/\log x$. He also posted a construction of such a set with
+by $(2+o(1))x/\log x$. Fan also posted a construction of such a set with
 $\limsup A(x)/\pi(x)\ge1$, assuming Dickson's conjecture. On 3 July 2026
 Will Sawin observed that the prime number theorem in all intervals
 $[n-n^\delta,n]$, $\delta>0$, would give the answer no. Fan combined that

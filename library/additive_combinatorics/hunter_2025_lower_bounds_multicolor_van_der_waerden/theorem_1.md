@@ -21,7 +21,7 @@ inverse function $f_r(N)$ is the least $k$ for which some coloring
 $c:[N]\to[r]$ has no monochromatic arithmetic progression of length $k$.
 The paper recalls the earlier lower bound $w(k;r)>r^{k-1}/(4k)$, from the
 Erdős--Lovász theorem on coloring $k$-uniform hypergraphs of bounded
-maximum degree, and Gowers' upper bound from his proof of Szemerédi's
+maximum degree, and the upper bound from Gowers' proof of Szemerédi's
 theorem; in inverse form the two read
 $\log_{(5)}N-O_r(1)\le f_r(N)\le O\bigl(\frac{\log N}{\log r}\bigr)+O_r(1)$,
 where $\log_{(T)}$ is the $T$-times iterated base-2 logarithm.

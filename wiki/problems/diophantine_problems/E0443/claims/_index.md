@@ -12,8 +12,8 @@ updated: 2026-10-11T22:24:14Z
 [[problems/diophantine_problems/E0443/_index|..]]
 
 [[problems/diophantine_problems/E0443/claims/2025_03_31_hegyvari|2025_03_31_hegyvari]]: Hegyvári bounds the number of common values of $k(m-k)$ and $l(n-l)$ by a
-divisor count of $m^2-n^2$, which is $m^{o(1)}$. He also shows that every size
-$s$ occurs for infinitely many pairs, which answers both questions for
-$m\ne n$.
+divisor count of $m^2-n^2$, which is $m^{o(1)}$. The paper also shows that
+every size $s$ occurs for infinitely many pairs, which answers both
+questions for $m\ne n$.
 
 ***

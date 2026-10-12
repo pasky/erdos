@@ -63,7 +63,7 @@ credited by the site's curator. Schmidt's 1968 theorem
 ([[problems/discrepancy/E0255/claims/1968_01_01_schmidt|Schmidt 1968]])
 answers the question yes: for every sequence some interval has unbounded
 discrepancy, and the anchors $x$ at which $D_N([0,x))$ stays bounded form a
-set of measure zero. His 1972 countability theorem
+set of measure zero. The 1972 countability theorem
 ([[problems/discrepancy/E0255/claims/1972_01_01_schmidt|Schmidt 1972]])
 shows that this exceptional set is at most countable, so all but countably
 many anchored intervals $[0,x)$ answer the question. Tijdeman and Wagner's
@@ -85,7 +85,7 @@ bounded in $N$, as the 1949 note remarks.
 
 ## Known Results
 
-Schmidt's 1968 theorem answers the question yes; his 1972 countability
+Schmidt's 1968 theorem answers the question yes; Schmidt's 1972 countability
 theorem and the Tijdeman–Wagner rate are accepted claims with their own
 pages, all three linked in the Current assessment.
 <!-- BEGIN problem library links -->

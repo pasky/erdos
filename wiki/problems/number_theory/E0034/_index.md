@@ -149,7 +149,7 @@ formalized as of its last update of 6 July 2026, and records no formal-proof
 URL; the site's indicator reads "Formalised statement? Yes". The thread comment
 of 5 February 2026 reports the formalization and links a post on X, which is not
 cited or linked here. The file is linked from Konieczny's claim page as a
-formalization of his result.
+formalization of its result.
 
 ## Current assessment
 
@@ -164,7 +164,7 @@ $S(\pi)\sim\frac{1+e^{-2}}4n^2$ for a random permutation, which it takes as
 showing the conjecture to be false by a wide margin. It then turns to
 $f(n)=\max_{\pi\in S_n}S(\pi)$, for which Konieczny proves
 $(0.286\cdots+o(1))n^2\le f(n)\le(0.446\cdots+o(1))n^2$, and to
-$g(n)=\min S(\pi)$, for which he proves $g(n)\gg n^{3/2}$, adding the
+$g(n)=\min S(\pi)$, for which Konieczny proves $g(n)\gg n^{3/2}$, adding the
 expectations that $g(n)\ge n^{2-o(1)}$ or even $g(n)\gg S(\iota)$, and it points
 to Problems 356 and 357. The thread, oldest first: 18 September 2025, the
 maximal and minimal values of $S(\pi)$ computed by brute force for $n\le10$,

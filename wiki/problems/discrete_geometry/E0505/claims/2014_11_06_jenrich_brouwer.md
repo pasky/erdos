@@ -58,9 +58,9 @@ here.
 
 **Acceptance.** The result is refereed, since the Electronic Journal of
 Combinatorics published it. Thomas Bloom, the site's curator, marks the problem
-disproved. He names Brouwer and Jenrich's dimension 64 as the smallest dimension
-in which the conjecture is known to fail (problem page last edited 30 December
-2025).
+disproved. The curator names Brouwer and Jenrich's dimension 64 as the smallest
+dimension in which the conjecture is known to fail (problem page last edited 30
+December 2025).
 [[problems/discrete_geometry/E0505/claims/1993_07_01_kahn_kalai|Kahn and Kalai]]
 had already answered the question no, and this result settles it again in a much
 smaller dimension. The corpus has not reviewed the complete proof or its

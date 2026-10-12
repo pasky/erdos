@@ -247,9 +247,9 @@ note.
 
 **What is proved, class by class.** Sources with library pages first, at
 claims-checked depth; no proof was read except the one-sentence
-derivation of Pyber's Theorem 0 from his Corollary 1.2 and Lovász's theorem
+derivation of Pyber's Theorem 0 from Corollary 1.2 and Lovász's theorem
 (p. 155 of [Py96]) and the one-sentence derivation of Fan's Corollary from
-his Proposition 2.6 and Main theorem (p. 125 of [Fa05]) and the three-line
+Proposition 2.6 and the Main theorem (p. 125 of [Fa05]) and the three-line
 derivation of Chu, Fan and Zhou's Theorem 1.3 from their Theorem 1.4 (p. 2
 of [CFZ26]) with the one-paragraph proof of their Theorem 1.4 (p. 6) and
 the one-paragraph proofs of their Theorems 1.5 and 1.7 (p. 2), all of which
@@ -304,8 +304,8 @@ results (Pyber 1996, Fan 2002) and Chung's tree partition concern other
 pieces and do not bound the path number. Pyber's
 [[../library/extremal_graph_theory/pyber_1996_covering_edges_connected_graph_paths/theorem_i|Theorem I]]
 (p. 153) covers every connected graph by
-$n/2+O(n^{3/4})$ paths that may share edges, and his Theorem II by
-$n/2+4e/n$ paths when there are $e$ edges; his Example on the same page
+$n/2+O(n^{3/4})$ paths that may share edges, and Theorem II by
+$n/2+4e/n$ paths when there are $e$ edges; the Example on the same page
 shows that the analogous asymptotic statement for edge-disjoint paths,
 $n/2+o(n)$, cannot be proved without the conjecture itself: a vertex joined
 by an edge to each of $k\ge2m+3$ copies of an $m$-vertex counterexample

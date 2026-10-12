@@ -56,7 +56,7 @@ Sections 2 and 3, pp. 2--10, following Frankl's 2017 framework. Take
 $\mathcal F$ largest under the hypotheses; it may be taken shifted. Its trace
 $\mathcal T$ on $[(s+1)k-1]$ has matching number $s$, and $\mathcal F$ is the
 family of $k$-sets containing a member of $\mathcal T$. Frankl's Proposition 2.1
-(p. 3, proved in his paper) gives a $(k-1)$-set $G_0\notin\mathcal T$, and
+(p. 3, proved in the 2017 paper) gives a $(k-1)$-set $G_0\notin\mathcal T$, and
 shiftedness and maximality give pairwise disjoint $k$-sets
 $G_1,\ldots,G_s\in\mathcal T$ avoiding $G_0$. Weighting each trace set by its
 width (the number of the $G_i$ it meets) and its size writes $|\mathcal F|$
@@ -87,7 +87,7 @@ proof was checked. Nothing here is independently reviewed.
 ## Dependencies
 
 None in the corpus. External inputs named by the paper: Frankl's framework
-and his Proposition 2.1 (P. Frankl, Proof of the Erdős matching conjecture in
+and Proposition 2.1 (P. Frankl, Proof of the Erdős matching conjecture in
 a new range, Israel J. Math. 222 (2017)), and the standard reduction to
 shifted families.
 

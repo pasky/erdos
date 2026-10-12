@@ -11,8 +11,8 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/additive_combinatorics/E0788/_index|..]]
 
-[[problems/additive_combinatorics/E0788/claims/1971_12_01_choi|1971_12_01_choi]]: Choi (Proc. London Math. Soc. 1971) proves $f(n)\ll n^{3/4}$ for his interval
-function, the first upper bound for Problem 788, and states it with his
+[[problems/additive_combinatorics/E0788/claims/1971_12_01_choi|1971_12_01_choi]]: Choi (Proc. London Math. Soc. 1971) proves $f(n)\ll n^{3/4}$ for the interval
+function, the first upper bound for Problem 788, and states it with a
 conjecture $n^{1/2+o(1)}$. The paper is refereed and is known here through the
 papers that cite it.
 

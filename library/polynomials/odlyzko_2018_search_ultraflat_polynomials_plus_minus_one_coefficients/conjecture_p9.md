@@ -2,7 +2,7 @@
 name: polynomials/odlyzko_2018_search_ultraflat_polynomials_plus_minus_one_coefficients/conjecture_p9
 title: "Conjecture, p. 9, inequality (16): for all large n some plus or minus one polynomial has 0.5 < |F(z)|/sqrt(n+1) < 1.5 on the circle"
 desc: |
-  Odlyzko's statement, offered as what his computations strongly suggest,
+  Odlyzko's statement, offered as what the computations strongly suggest,
   that there are constants 0 < delta < C, even delta = 0.5 and C = 1.5, such
   that for all large n some plus or minus one polynomial of degree n stays
   strictly between delta and C times the square root of n+1 on the unit

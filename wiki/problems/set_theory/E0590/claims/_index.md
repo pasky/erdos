@@ -18,6 +18,6 @@ triangle.
 
 [[problems/set_theory/E0590/claims/1973_12_01_larson|1973_12_01_larson]]: Larson proves $\omega^\omega\to(\omega^\omega,m)^2$ for every finite $m$ by a
 short argument, and the case $m=3$ is the statement of Problem 590. The Lean
-formalization in Boris Alexeev's repository follows her proof.
+formalization in Boris Alexeev's repository follows Larson's proof.
 
 ***

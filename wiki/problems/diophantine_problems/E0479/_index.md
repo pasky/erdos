@@ -46,7 +46,7 @@ power-of-two family, no universal proof and no primary publication. The
 for the historical reference, and the site page. The site's commentary
 records the cases $k=2^i$ ($i\geq1$) and $k=-1$, which Erdős and Graham
 attribute to Graham, Lehmer and Lehmer, and credits Tang's note with a proof
-for $k=2^i$. Tang's note (Section 2.2) and his forum comment of 2 December
+for $k=2^i$. Tang's note (Section 2.2) and forum comment of 2 December
 2025 list $k\in\{0,-1,-2\}\cup\{2^i:i\geq1\}$ as the values for which
 infinitely many $n$ are known, and call every other fixed $k$ open. The
 historical source and the manuscript discussed below have the narrower

@@ -124,7 +124,7 @@ Jin's
 [[../library/additive_bases/jin_2014_density_versions_plunnecke_inequality/theorem_2|Theorem
 2]] gives a complete rewritten proof of this bound and the elementary
 inequality just used. It partitions each finite initial interval into blocks
-with increasing minimal forward densities, and applies his
+with increasing minimal forward densities, and applies the
 [[../library/additive_bases/jin_2014_density_versions_plunnecke_inequality/lemma_1|interval
 lemma]] on each block. The precisely stated external dependency is the
 [[../library/additive_bases/jin_2014_density_versions_plunnecke_inequality/theorem_3|truncated
@@ -134,7 +134,7 @@ give density one directly; no value for $0^0$ is needed when $\alpha=0$.
 
 Plünnecke's original article is cited through its De Gruyter record, and its
 proof has not been compiled. The proof recorded here is Jin's different proof,
-from his author manuscript. Other density variants and the identified Malouf
+from the author manuscript. Other density variants and the identified Malouf
 alternative proof have their separate coverage limits in
 [[../library/additive_bases/jin_2014_density_versions_plunnecke_inequality/_index|Jin's
 source digest]].

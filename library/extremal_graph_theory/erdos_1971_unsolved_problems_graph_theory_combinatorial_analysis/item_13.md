@@ -50,7 +50,7 @@ is identified in the
 **Read depth.** Claims checked: the item was read clause by clause on the
 page image. The paper proves nothing here: the example is "easy to
 construct" (it is constructed in the 1969 paper), and the sentence on
-Simonovits is a printed attestation without a reference to a text of his.
+Simonovits is a printed attestation without a reference to a text by Simonovits.
 
 ## Proof pointer
 

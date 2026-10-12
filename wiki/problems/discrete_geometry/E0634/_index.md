@@ -47,7 +47,7 @@ https://www.erdosproblems.com/634.
 third-party Lean developments accompany manuscripts below, George's, whose
 global theorems take the imported classification results as an explicit
 hypothesis, and Bonfioli's, which checks the arithmetic and combinatorial
-layer of his paper; this corpus has built neither.
+layer of the author's paper; this corpus has built neither.
 
 ## Current assessment
 
@@ -151,7 +151,7 @@ be cut into a prime number $p>3$ of congruent triangles; by itself it settles
 no instance of the problem, so it has no claim page, but it was withdrawn on
 24 September 2026 with the note that its Lemma 9 is not correct as stated and
 that the theorem has meantime been proved by Bonfioli, and it is a
-load-bearing input of Harries's first manuscript (his Theorems 6 and 8), of
+load-bearing input of Harries's first manuscript (its Theorems 6 and 8), of
 Beeson's prime manuscript (Theorem 5(iii)) and of the branch completeness in
 Harries's second manuscript; each page records the issue.
 

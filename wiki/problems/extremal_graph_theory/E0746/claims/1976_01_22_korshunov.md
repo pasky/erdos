@@ -4,8 +4,8 @@ title: Korshunov's Hamiltonicity threshold
 desc: |
   Korshunov proves that almost every graph with $n$ labeled vertices and $k$
   edges is Hamiltonian exactly when $k=\tfrac n2(\log n+\log\log n+\varphi(n))$
-  with $\varphi(n)\to\infty$, answering Problem 746. He announced it in 1976,
-  proved a part in 1977 and gave the full proof in 1985.
+  with $\varphi(n)\to\infty$, answering Problem 746. The author announced it in
+  1976, proved a part in 1977 and gave the full proof in 1985.
 authors:
 - A. D. Korshunov
 status: accepted
@@ -74,8 +74,8 @@ that paper's reference list has no Korshunov item. The abstract of Komlós and
 Szemerédi's refereed paper [KoSz83] credits the $f(n)\to\infty$ case to
 Korshunov by name, again with no Korshunov item among its references. The site's
 curator, Thomas Bloom, labels the problem PROVED and credits the theorem to
-[Ko77] in the problem's commentary. He cites the 1977 paper with its venue, as
-the 1985 paper's own reference list does.
+[Ko77] in the problem's commentary. The curator cites the 1977 paper with its
+venue, as the 1985 paper's own reference list does.
 
 Not refereed: by the author's account, the 1977 journal paper proves only the
 case $k>6n\log n$. The complete proof is the 1985 paper in Annals of Discrete

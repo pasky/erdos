@@ -37,9 +37,9 @@ and that it is possible to do better still.
 almost surely $M(x)\ne O(\sqrt x)$, that perhaps $M(x)$ almost surely has
 fluctuations of order $\sqrt{x\log\log x}$, by analogy with Kolmogorov's law
 of the iterated logarithm, and that $M(x)$ might exhibit even larger
-fluctuations since its distribution may have rather heavy tails. He adds that
-an argument like his, based on a certain average of $M(x)$, seems unable to
-detect such large but rare fluctuations.
+fluctuations since its distribution may have rather heavy tails. Harper adds
+that an argument like the paper's, based on a certain average of $M(x)$, seems
+unable to detect such large but rare fluctuations.
 
 **Source.** Adam J. Harper, Bounds on the suprema of Gaussian processes, and
 omega results for the sum of a random multiplicative function, Ann. Appl.

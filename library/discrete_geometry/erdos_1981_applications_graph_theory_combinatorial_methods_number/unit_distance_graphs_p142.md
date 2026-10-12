@@ -32,7 +32,7 @@ graph joining two points of $S$ at distance $1$.
   least $k$ (its shortest circuit has at least $k$ sides), then $G_1(S)$
   has chromatic number less than $4$.
 - Wormald, in a then unpublished paper, disproved the original conjecture:
-  he found an $S$ for which $G_1(S)$ has girth $5$ and chromatic number
+  they found an $S$ for which $G_1(S)$ has girth $5$ and chromatic number
   $4$, by a construction with elaborate computations.
 
 **Several distances** (p. 142). For positive numbers $u_1,\ldots,u_r$,

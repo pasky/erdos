@@ -44,7 +44,7 @@ kernel check is the site's, on a single kernel. No proof was verified here.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0272/_index|Problem 272]]: proves
 $t(N)=N^2/2+O(N)$, the affirmative answer to Szabó's linear-error question
-(the second of the two questions in Section 6 of his 1999 paper) and the
+(the second of the two questions in Section 6 of the 1999 paper) and the
 catalog variant `szabo_strong`, a variant of the catalog question; it gives
 neither the exact value of $t(N)$ nor Szabó's kernel conjecture, so it is
 progress, not a resolution.

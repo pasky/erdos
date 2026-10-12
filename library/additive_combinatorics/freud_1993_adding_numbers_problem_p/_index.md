@@ -19,8 +19,8 @@ the deletion count and the infinite version with upper density 19/36, as
 printed in the 1993 note.
 
 [[additive_combinatorics/freud_1993_adding_numbers_problem_p/upper_bound_p6201|upper_bound_p6201]]: Freud's unproved upper-bound remark for sets with no member a sum of
-consecutive members, and his report that Coppersmith and Phillips
-rediscovered and improved his construction and the upper bound, with the
+consecutive members, and the author's report that Coppersmith and Phillips
+rediscovered and improved Freud's construction and the upper bound, with the
 figure 1/3584 as printed.
 
 ***
@@ -59,10 +59,11 @@ Freud gives an explicit four-block construction (blocks A-D built from
 parameters x, y around 2x, 3x, 4x and the interval [4x+4y+2, 8x+8y+4]) which
 after deleting the forbidden consecutive sums leaves 76y-7 elements up to n =
 144y-12, so k = 19n/36 + O(1) is attainable; repeating the construction with
-rapidly growing y gives an infinite sequence with limsup A(n)/n = 19/36. He also
-asserts, without proof, that the proportion cannot exceed 2/3, and notes 2/3 is best
-possible if only the relations a_i = a_j + a_{j+1} are forbidden. The note records that
-Coppersmith and Phillips independently rediscovered and improved the
+rapidly growing y gives an infinite sequence with limsup A(n)/n = 19/36. The
+author also asserts, without proof, that the proportion cannot exceed 2/3,
+and notes 2/3 is best possible if only the relations a_i = a_j + a_{j+1}
+are forbidden. The note records that Coppersmith and Phillips
+independently rediscovered and improved the
 construction to 13n/24 + O(1) and the upper bound to 2/3 - 1/3584 (as printed
 on p. 6201; the site's commentary on problem 867 and the catalog's Lean file
 print 2/3 - 1/512 for that bound). The SIAM paper is filed as
@@ -78,7 +79,7 @@ nowhere prints 3584, so the published figure is the site's 1/512 and the
 of the whole JCMN issue; page 6203 carries Erdos's companion note 'Adding
 numbers 2' asking whether a set in [1,n] all of whose consecutive-block sums are
 distinct must have k = o(n), and how large k can be. Freud's construction and
-upper bound are the quantitative content behind problem 867, his infinite
+upper bound are the quantitative content behind problem 867, the infinite
 version bears on problem 839, and the Erdos note on distinct consecutive sums
 is the Erdos-Harzheim question of problem 357, which Freud's note does not
 address.
@@ -135,10 +136,10 @@ proportion $19/36$.
 
 For the infinite version (pp. 6201–6202), Freud repeats the finite construction
 at widely separated scales, choosing the next $y=T^2$ when $T$ is the sum of
-all preceding members. He specifies four intervals to delete at each new stage
-and asserts that this loses only about $4T$ members while preserving avoidance
-and $\limsup A(n)/n=19/36$, where $A(n)$ counts members at most $n$. The note
-has no numbered theorems or lemmas.
+all preceding members. The author specifies four intervals to delete at each
+new stage and asserts that this loses only about $4T$ members while preserving
+avoidance and $\limsup A(n)/n=19/36$, where $A(n)$ counts members at most $n$.
+The note has no numbered theorems or lemmas.
 
 ## Relation to E839
 

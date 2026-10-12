@@ -90,7 +90,7 @@ the condition (p. 379).
 
 Spencer's weighted local lemma (J. Spencer, Asymptotic lower bounds for
 Ramsey functions, Discrete Math. 20 (1977), 69--76, which Beck's reference
-[5] dates 1976; Lemma 2, quoted without proof; Spencer's statement is his
+[5] dates 1976; Lemma 2, quoted without proof; Spencer's statement is
 [[ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/theorem_1_1|Theorem 1.1]])
 and the compactness principle.
 

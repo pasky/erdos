@@ -64,7 +64,7 @@ The case $M_4(2)$ is stated without proof as straightforward (p. 66).
 $M_6(3)$ is Section 2 (pp. 69--71), a case analysis on where the longest
 distance sits, using Altman's
 [[distance_problems/fishburn_1995_convex_polygons_few_intervertex_distances/lemma_1|Lemma 1]]
-and his Lemmas 2 and 3 (p. 69). The case $n=2N$, $N\ge4$, is Section 3
+and Lemmas 2 and 3 (p. 69). The case $n=2N$, $N\ge4$, is Section 3
 (pp. 72--81): Lemma 4 (p. 72) confines the longest distances from a chosen
 vertex 1 to the vertices $N+1$ and possibly $N$ or $N+2$. When $1$ has a
 single longest segment, Lemma 5 (p. 72) makes every segment between

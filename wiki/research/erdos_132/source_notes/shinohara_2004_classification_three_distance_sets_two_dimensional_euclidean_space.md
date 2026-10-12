@@ -106,7 +106,7 @@ D(P)=\{\|x-y\|:x,y\in P,\ x\ne y\},\qquad
 m_P(r)=|\{\{x,y\}\subset P:\|x-y\|=r\}|.
 $$
 
-Shinohara's $X$ is $P$, and his $A(X)$ is $D(P)$, not E132's point set.
+Shinohara's $X$ is $P$, and the paper's $A(X)$ is $D(P)$, not E132's point set.
 In the colored-complete-graph representation of Section 2 (p. 1040), the color
 class belonging to $r$ has exactly $m_P(r)$ edges. Thus E132 asks for at
 least two nonempty color classes of size at most $n=|P|$, and asymptotically

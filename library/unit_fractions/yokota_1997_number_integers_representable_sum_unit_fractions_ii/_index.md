@@ -217,7 +217,7 @@ The upper bound is the trivial $|N(n)|\le\log n+1$ recalled on the same
 page. The 1998 Corrigendum is not held, so the theorem is quoted as printed
 in 1997; Croot's 1999 introduction states the range
 $\{n:1\le n\le\log x-5\log\log x\}\subseteq N(x)$ but credits it to the
-Corrigendum (his [6]), so it does not confirm the 1997 printing, whose last
+Corrigendum (its [6]), so it does not confirm the 1997 printing, whose last
 step (p. 168) does not reach that range (see Contents); the printed
 argument still gives $|N(n)|\sim\log n$, so the disproof stands.
 [[unit_fractions/yokota_1997_number_integers_representable_sum_unit_fractions_ii/lemma_4|Lemma 4]]

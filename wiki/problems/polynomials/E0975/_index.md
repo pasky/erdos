@@ -99,10 +99,10 @@ translate of such an $x^2+a$, so the new monic cases have odd $b$. McKee
 proves the asymptotic with the error $O(x)$ and the constant written in
 class numbers for every monic irreducible quadratic: for negative
 discriminant in [Mc95], recorded on
-[[problems/polynomials/E0975/claims/1995_05_01_mckee|his 1995 claim page]],
+[[problems/polynomials/E0975/claims/1995_05_01_mckee|the 1995 claim page]],
 and for positive non-square discriminant in [Mc99], recorded on
-[[problems/polynomials/E0975/claims/1999_01_01_mckee|his 1999 claim page]],
-both accepted partial claims. His note [Mc97], in a proceedings volume,
+[[problems/polynomials/E0975/claims/1999_01_01_mckee|the 1999 claim page]],
+both accepted partial claims. McKee's note [Mc97], in a proceedings volume,
 treats the non-monic $ax^2+bx+c$ with negative discriminant prime to $a$;
 it is recorded on
 [[problems/polynomials/E0975/claims/1997_01_30_mckee|its claim page]] as a

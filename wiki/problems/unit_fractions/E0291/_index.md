@@ -50,8 +50,8 @@ pends on the first question.
 Three of the four claim pages concern the second question.
 [[problems/unit_fractions/E0291/claims/2024_11_07_steinerberger|Steinerberger's base-3 observation]]
 is a pending partial claim answering the second question in the affirmative. The
-site's commentary credits it to him, but the site labels the whole problem OPEN
-and declares no parts, so the credit is context and not acceptance.
+site's commentary credits it to Steinerberger, but the site labels the whole
+problem OPEN and declares no parts, so the credit is context and not acceptance.
 [[problems/unit_fractions/E0291/claims/2016_07_11_shiu|Shiu's criterion and infinitude theorem]]
 is a pending partial claim giving the same answer with the exact criterion. The
 commentary credits the observation, not this paper.
@@ -177,12 +177,12 @@ $q_n=1$) holds infinitely often. By Theorem 2 this says that $n$ avoids, for
 every odd prime $p\le n$, all the intervals $[mp^a,(m+1)p^a)$ with $p\mid c_m$,
 a simultaneous leading-digit condition over all primes up to $n$; Shiu writes
 (p. 6) that "we have yet to discover why there are arbitrarily large $n$ with
-$d_n=D_n$" and that he could not "emulate Euclid's elegant proof that there are
-infinitely many primes". His
+$d_n=D_n$" and that the author could not "emulate Euclid's elegant proof that
+there are infinitely many primes". Shiu's
 [[../library/unit_fractions/shiu_2016_denominators_harmonic_numbers_revised/conjecture_p2|Conjecture]]
 (p. 2) is quantitative: $K_1x/\log x<\tilde Q(x)<K_2x/\log x$ for the count
-$\tilde Q(x)$ of $n\le x$ with $d_n=D_n$, based, as he says (p. 6), on display
-(3) in the proof of his Theorem 3: $Q_p=\{n:p\mid q_n\}$ has
+$\tilde Q(x)$ of $n\le x$ with $d_n=D_n$, based, as the paper says (p. 6), on
+display (3) in the proof of Theorem 3: $Q_p=\{n:p\mid q_n\}$ has
 $Q_p(x)\sim|E_p|x/p$ along $x=p^b$, the sieve picture in which each prime
 removes a proportion about $|E_p|/p$ of the integers, $E_p=\{1<m<p:p\mid c_m\}$.
 Theorem 3 itself gives $Q_p$ the harmonic density
@@ -197,10 +197,10 @@ runs, except that the last run, printed as $9156_{155}$ (that is,
 $9156\le n<9311$), has 156 members ($9156\le n\le9311$), so the printed run
 lengths sum to 2640. The obstacle van Doorn names is the rational independence
 of the numbers $\log p_1/\log p_i$ needed for Kronecker-type alignment arguments
-(his MathOverflow question 76372 of 2011 on this independence had no answer on
-2026-09-18); he also quotes the bound
+(their MathOverflow question 76372 of 2011 on this independence had no answer on
+2026-09-18); they also quote the bound
 $|E_p|\le\frac{3^{2/3}}{2}p^{2/3}\approx1.04p^{2/3}$ for the number of $k<p$
-with $p\mid c_k$, attributed to himself and, independently, to Lemma 2.4 of Wu
+with $p\mid c_k$, attributed to van Doorn and, independently, to Lemma 2.4 of Wu
 and Chen (J. Number Theory 175 (2017); not held in the library, so the bound is
 second-hand).
 
@@ -224,7 +224,7 @@ density of the set of $n$ with coprime $a_n$ and $L_n$ is $1$; the paper
 and the site's commentary concern the set with $\gcd>1$, so the comment's
 sentence appears to name the wrong half. Bloom's comment of
 28 December 2025 suggests that any linear dependencies among the
-$1/\log p$ could be built into the argument, as in his recent work with
+$1/\log p$ could be built into the argument, as in Bloom's recent work with
 Croot (arXiv:2509.02835, cited there), possibly giving an
 unconditional proof of the upper density statement; it makes no proof
 claim.
@@ -249,7 +249,7 @@ the second follows from Nair's lower bound for $\mathrm{lcm}(1,\ldots,n)$.
 The header says they are prime-number-theorem-type results expected from a
 separate formalization project, that the proof was produced by Aristotle,
 Harmonic's automated proving system, from the author's note "Generalized
-harmonic sums have arbitrarily large prime factors" (uploaded to his
+harmonic sums have arbitrarily large prime factors" (uploaded to van Doorn's
 repository on 5 February 2026 and linked in the comment, itself based on
 [vD24]), and that the case $r\equiv1$ is the second question of this
 problem. The comment adds that for arbitrary (non-periodic) signs
@@ -264,7 +264,7 @@ and no build of the file is recorded.
 question, and one accepted conditional claim that gives it only under an
 open independence conjecture and derives nothing. The partial claims are
 [[problems/unit_fractions/E0291/claims/2024_11_07_steinerberger|Steinerberger's base-3 observation]],
-which the curator's commentary credits to him, dated by the earliest
+which the curator's commentary credits to its author, dated by the earliest
 archived copy of the site's page that carries it (7 November 2024; the copy
 of 19 June 2024 has the statement and no commentary), and carrying as a
 `formalization` link the Lean package submitted on 16 September 2026 to a
@@ -276,7 +276,7 @@ acceptance, and the claim is pending;
 whose statement the site's commentary records without crediting the paper;
 and
 [[problems/unit_fractions/E0291/claims/2026_02_05_van_doorn|van Doorn's generalization to periodic numerators]],
-from his note of 5 February 2026 with the Lean proof by Aristotle described
+from the note of 5 February 2026 with the Lean proof by Aristotle described
 above, which settles the second question for every periodic sequence of
 non-zero numerators and so, with $r\equiv1$, the second question itself.
 The conditional claim is

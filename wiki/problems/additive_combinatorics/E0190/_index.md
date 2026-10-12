@@ -101,7 +101,7 @@ community database (teorth/erdosproblems) lists the problem's status as
 through Bae's repository jbaelaw/erdos190-lean and the note that the
 existence of $H(k)$ is not formalized: the repository proves the qualitative
 form with the existence of the canonical number as a hypothesis, and it is
-linked, pinned and qualified on his claim page; it has not been built or
+linked, pinned and qualified on Bae's claim page; it has not been built or
 audited here.
 
 ## Current assessment
@@ -122,13 +122,13 @@ theorem.
 
 Neither preprint has a refereed version and neither proof
 is disputed. The one proof claim on the site's proof-claims page, Bae's own
-of 2026-09-15, asserts the result of his preprint and so is a discussion
-link on his claim page rather than a second claim. The commentary's sentence
+of 2026-09-15, asserts the result of Bae's preprint and so is a discussion
+link on its claim page rather than a second claim. The commentary's sentence
 on Hunter's recurrence states, as written, only $H(k)^{1/k}\to\infty$; this
 page reads it as $H(k)^{1/k}/k\to\infty$, since the easy statement follows
 from the local lemma alone. Bae's discussion-thread post of 2026-09-14
-disputes that attribution, not any proof: it asks that his note be recorded
-as the first posted proof of the divergence and that the observation be
+disputes that attribution, not any proof: it asks that its author's note be
+recorded as the first posted proof of the divergence and that the observation be
 credited to Fox and Hunter, since Hunter's 2025 paper states nothing about
 $H(k)$. The commentary, last edited 2026-06-02, predates the post.
 

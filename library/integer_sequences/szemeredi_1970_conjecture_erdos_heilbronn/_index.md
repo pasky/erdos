@@ -37,9 +37,9 @@ is combinatorial: sets D, A_i, B_i with |A*_k - D*| and |D* - B*_i| at most
 sqrt n (condition (1)) force the identity into A* through the matrix m_{ik} =
 d - b_i + a_k; condition (1) follows from a counting condition (4) on the
 relation X defined at display (3), and (4) is proved by contradiction, since its
-failure would give a chain of subsets with A*_q > n. Szemeredi notes he cannot
+failure would give a chain of subsets with A*_q > n. Szemeredi notes they cannot
 decide the stronger Erdos-Heilbronn conjectures that F(k) > 0 already for k > 2
-sqrt n and that commutativity is unnecessary, and adds, without proof, that his
+sqrt n and that commutativity is unnecessary, and adds, without proof, that the
 methods also prove the Eggleston-Erdos conjecture f(k) > ck^2 on the least
 number of distinct nonempty subset sums of k elements no nonempty subset of
 which sums to the identity. For problem 540 this is the source proving that a

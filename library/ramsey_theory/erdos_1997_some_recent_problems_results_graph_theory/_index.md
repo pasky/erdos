@@ -86,7 +86,7 @@ without a heading word; the later literature calls them "Problem 10",
   that the conjecture proved hard, that he had long offered a prize for a
   proof or disproof, and that about three years earlier Jeff Kahn had shown
   the chromatic number of $\bigcup_{i=1}^nG_i$ to be at most $n(1+o(1))$,
-  earning a consolation prize and the hope that he would eventually reach
+  earning a consolation prize and the hope that Kahn would eventually reach
   $n$. Two variants are asked: how large the
   chromatic number of $\bigcup_{i=1}^nG_i$ can be when every $G_i\cap G_j$
   is triangle-free, or when every $G_i\cap G_j$ has at most one edge.

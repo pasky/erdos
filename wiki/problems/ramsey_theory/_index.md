@@ -7,7 +7,7 @@ desc: |
   of Schur and Rado type; Euclidean Ramsey problems and colorings of the
   plane are filed with discrete geometry.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-12T00:09:36Z
+updated: 2026-10-12T23:28:38Z
 ---
 
 # Ramsey Theory
@@ -137,8 +137,8 @@ $k$-element set whose non-empty subset sums all have the same color.
 
 [[problems/ramsey_theory/E0532/_index|E0532/]]: Asks whether every two-coloring
 of $\mathbb{N}$ has an infinite set whose finite non-empty subset sums all have
-one color. The answer is yes, by Hindman's theorem, proved in his 1974 paper and
-in Baumgartner's 1974 note.
+one color. The answer is yes, by Hindman's theorem, proved in Hindman's 1974
+paper and in Baumgartner's 1974 note.
 
 [[problems/ramsey_theory/E0544/_index|E0544/]]: Asks whether the gap
 $R(3,k+1)-R(3,k)$ between consecutive Ramsey numbers of a triangle against a

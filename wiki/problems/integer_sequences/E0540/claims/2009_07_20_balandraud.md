@@ -50,7 +50,7 @@ is not covered.
 
 **Acceptance.** Refereed: the journal publication. Reviewed: the site's curator,
 Thomas Bloom, who is independent of the author, labels the problem PROVED
-(LEAN). His commentary credits this paper with Selfridge's conjecture for prime
+(LEAN). The commentary credits this paper with Selfridge's conjecture for prime
 $N$. The erratum has not been compared with the arXiv version.
 
 **Depends on.** No page of this wiki.

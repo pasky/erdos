@@ -62,7 +62,7 @@ Library home:
 **Acceptance.** Refereed: Combinatorica, volume 8, issue 4, pages 297--306,
 issue dated December 1988 (Crossref record of DOI 10.1007/BF02189086). The paper
 was received on 1 July 1987. Reviewed: the site's curator, Thomas Bloom, who is
-independent of the authors, labels the problem PROVED. His commentary credits
+independent of the authors, labels the problem PROVED. The commentary credits
 the upper bound to this paper, with the choice of $m$ above, and the lower bound
 to Erdős and Graham, and it thanks Alon. This describes the commentary as of
 2026-09-05, when the discussion thread and the proof-claim tab were empty and no

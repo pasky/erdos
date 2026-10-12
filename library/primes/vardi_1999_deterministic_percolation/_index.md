@@ -26,7 +26,7 @@ integer pairs under distance-1 adjacency has an asymptotic density, taken
 over the squares max(|m|,|n|) < R.
 
 [[primes/vardi_1999_deterministic_percolation/theorem_3_3|theorem_3_3]]: Vardi's theorem that the asymptotic density of the infinite component of
-the coprime integer pairs under distance-1 adjacency, which exists by his
+the coprime integer pairs under distance-1 adjacency, which exists by
 Theorem 3.2, is positive.
 
 [[primes/vardi_1999_deterministic_percolation/theorem_3_4|theorem_3_4]]: Vardi's theorem that for any function f(R) increasing to infinity, every

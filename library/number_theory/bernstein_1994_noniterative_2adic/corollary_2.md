@@ -2,8 +2,8 @@
 name: number_theory/bernstein_1994_noniterative_2adic/corollary_2
 title: "Corollary 2 (p. 3): Φ is nowhere differentiable"
 desc: |
-  Müller's theorem, reproved by Bernstein from his expansion of Phi, that the
-  2-adic permutation Phi conjugating H to the Collatz map is nowhere
+  Müller's theorem, reproved by Bernstein from the paper's expansion of Phi,
+  that the 2-adic permutation Phi conjugating H to the Collatz map is nowhere
   differentiable.
 created: 2026-10-08T17:21:06Z
 updated: 2026-10-08T17:21:06Z

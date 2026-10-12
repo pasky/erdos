@@ -45,7 +45,7 @@ preprint, v3 of February 2026, no journal record). Earlier lower bounds were
 Kim's $1/162$ (1995, refereed), the $1/4$ of Bohman and Keevash and of Fiz
 Pontiveros, Griffiths and Morris (refereed, 2021 and 2020), and the $1/3$ of
 Campos, Jenssen, Michelen and Sahasrabudhe (preprint, 2025). The upper bound is
-Shearer's (1983, refereed). His Theorem 1 is the independence bound
+Shearer's (1983, refereed). The paper's Theorem 1 is the independence bound
 $\alpha\ge n(d\ln d-d+1)/(d-1)^2$ for triangle-free graphs of average degree
 $d$, from which the Ramsey bound follows by an elementary step. It sharpens
 Ajtai, Komlós and Szemerédi (1980, refereed), whose Theorem 3,
@@ -271,7 +271,7 @@ process run from a blown-up random seed graph, which disproves Conjecture
 (p. 2), $R(3,k)\ge(\frac12+o(1))k^2/\log k$, from a random overlay of two
 blow-ups of a random graph with no nibble (their Theorem 1.3: triangle-free
 graphs on $n$ vertices with $\alpha<(1+\varepsilon)\sqrt{n\log n}$). Upper
-bound: Shearer's $R(3,k)\le(1+o(1))k^2/\log k$ [Sh83], from his
+bound: Shearer's $R(3,k)\le(1+o(1))k^2/\log k$ [Sh83], from
 [[../library/ramsey_theory/shearer_1983_note_independence_number_triangle_free_graphs/theorem_1|Theorem 1]]
 (printed p. 83): a triangle-free graph on $n$ vertices with average degree
 $d$ has $\alpha\ge nf(d)$, $f(d)=(d\ln d-d+1)/(d-1)^2$, which is the

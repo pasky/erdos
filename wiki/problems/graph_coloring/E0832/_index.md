@@ -107,8 +107,8 @@ report. Akolzin and Shabanov's bounds are taken from the site.
 Alon writes $f(k,s)$ for the minimum number of edges in a $k$-uniform
 hypergraph with chromatic number at least $s$. Here the uniformity is renamed
 $t$, since $k$ is the problem's chromatic number, and the complete $t$-uniform
-hypergraph on $(s-1)(t-1)+1$ vertices gives his bound (2), $f(t,s)\le B(t,s)$,
-where
+hypergraph on $(s-1)(t-1)+1$ vertices gives Alon's bound (2),
+$f(t,s)\le B(t,s)$, where
 
 $$
 B(t,s)=\binom{(s-1)(t-1)+1}{t}.

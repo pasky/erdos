@@ -83,8 +83,8 @@ has not built or audited; the formal-conjectures catalog's statement file,
 at the
 [revision of 2026-08-07](https://github.com/google-deepmind/formal-conjectures/blob/c594af4ba42f58465253b8550545e0132959a78c/FormalConjectures/ErdosProblems/959.lean)
 that added it, carries a companion statement of that lower bound marked
-solved with his hosted Lean file as its formal proof. Theofil Xeff's claim of
-2026-07-21
+solved with Snyder's hosted Lean file as its formal proof. Theofil Xeff's claim
+of 2026-07-21
 ([[problems/distance_problems/E0959/claims/2026_07_21_xeff|claim page]])
 is the bound $M(n)\geq n^{1+c}$ for an absolute $c>0$, by tuning the point
 set behind OpenAI's fixed-power lower bound for unit distances

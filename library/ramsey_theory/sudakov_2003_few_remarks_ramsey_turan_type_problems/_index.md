@@ -12,7 +12,7 @@ updated: 2026-10-08T15:34:11Z
 
 [[ramsey_theory/_index|..]]
 
-[[ramsey_theory/sudakov_2003_few_remarks_ramsey_turan_type_problems/corollary_2_2|corollary_2_2]]: The form of Sudakov's dependent-random-choice lemma used for his
+[[ramsey_theory/sudakov_2003_few_remarks_ramsey_turan_type_problems/corollary_2_2|corollary_2_2]]: The form of Sudakov's dependent-random-choice lemma used for the paper's
 Ramsey-Turán bounds: a graph with at least cn² edges contains, for large n,
 a set of n exp(−ω(n)√(ln n)) vertices any k of which have at least that
 many common neighbours.

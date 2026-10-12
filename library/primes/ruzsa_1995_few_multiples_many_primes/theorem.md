@@ -30,9 +30,9 @@ $$"
 Context (p. 123). For $N\ge2p_n$ the paper cites the Erdős--Selfridge lower
 bound $m\ge2\sqrt{n+1}$, with examples where it is exact even for
 $N>(3-\varepsilon)p_n$, and notes that the case $N>3p_n$ was left open. The
-author says he cannot show that infinitely many such sets $Q$ exist, and
-that he knows no lower estimate better than the Erdős--Selfridge one, given
-for $\varrho=2$.
+author reports being unable to show that infinitely many such sets $Q$
+exist, and knowing no lower estimate better than the Erdős--Selfridge one,
+given for $\varrho=2$.
 
 ## Proof pointer
 

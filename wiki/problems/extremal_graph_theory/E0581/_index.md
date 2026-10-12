@@ -127,7 +127,7 @@ stays `reviewed` and `refereed`.
 **The question (site formulation of 2026-09-18).** The statement above;
 SOLVED, the site's label for a resolution by some means other than a proof
 or a disproof; source key [CEG79]. The commentary credits the resolution to
-Alon [Al96] and states his two-sided bound, constants $c_1,c_2>0$ with
+Alon [Al96] and states the paper's two-sided bound, constants $c_1,c_2>0$ with
 $\frac m2+c_1m^{4/5}\le f(m)\le\frac m2+c_2m^{4/5}$. The discussion thread
 and the proof-claim tab are empty. The community database lists the problem
 as solved, its record last updated 31 August 2025.

@@ -3,7 +3,7 @@ name: additive_combinatorics/mrose_1979_untere_schranken_reichweiten_extremalbas
 title: "Equation (3): n_2(k) ≥ (8/7)(k/2)^2 + O(k), the range of a 2-basis with k positive elements"
 desc: |
   Mrose's lower bound n_2(k) >= (8/7)(k/2)^2 + O(k) for the range of a
-  finite additive 2-basis with k positive elements, from his order-raising
+  finite additive 2-basis with k positive elements, from Mrose's order-raising
   construction with the parameters t_2 = 3 and alpha_1 = k/7 + O(1); it gives
   liminf n(k)/k^2 >= 2/7 and so g(n)^2 <= (7/2 + o(1)) n for Problem 791.
 created: 2026-09-22T00:00:00Z
@@ -109,8 +109,8 @@ composition theorem of the author's 1974 paper (p. 123), not held.
   problem page's conversion the bound gives $g(n)^2\le(\frac72+o(1))n$,
   so $\limsup g(n)/\sqrt n<2$ and the "in particular" question
   $g(n)\sim2n^{1/2}$ has the answer no. Kohonen (p. 1) quotes Mrose's $2/7$,
-  also reached by Kløve and Mossige, and improves it in his
+  also reached by Kløve and Mossige, and improves it in Kohonen's
   [[additive_combinatorics/kohonen_2017_improved_lower_bound_finite_additive_2/equation_1|equation (1)]],
-  $\liminf n(k)/k^2\ge85/294$, proved with what he calls a generalized
+  $\liminf n(k)/k^2\ge85/294$, proved with what that paper calls a generalized
   Mrose basis. The estimate of $g(n)$ that the problem asks for is not
   settled by this bound.

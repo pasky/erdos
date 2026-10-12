@@ -236,7 +236,7 @@ $d$-almost-regular, and that the second question is Problem 803; 24 to
 about $\sqrt2\,n^{(1+\alpha)/2}$ vertices plus isolated vertices, or a path
 on the rest; the comment's own size, slightly more than $n^{(1+\alpha)/2}$
 vertices, gives only about $n^{1+\alpha}/2$ edges), posted by Boris Alexeev
-and credited by him to Aristotle, and the curator's reply of 31 December
+and credited by the poster to Aristotle, and the curator's reply of 31 December
 2025 that the exponent $1-\alpha$ was a typo and that JunGao's comment
 answered the intended question; 28
 December 2025, the comment (the account JunGao) that the right exponent is

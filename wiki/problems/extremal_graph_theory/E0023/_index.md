@@ -94,7 +94,7 @@ direct enumeration: $a(5)=1$, $a(10)=4$, $a(15)=9$ and $a(20)=16$, so the
 question's answer is yes for $n\le4$. A data entry is not a dated
 manuscript, and its range lies inside Ferudun's claim, which cites the
 enumeration for $N\le23$; Ferudun also stated the values $a(5k)=k^2$ for
-$1\le k\le40$ in a comment on the entry dated 29 June 2026, citing his
+$1\le k\le40$ in a comment on the entry dated 29 June 2026, citing the claim's
 preprint. (2) The formal-conjectures file for the problem
 has carried the variant `erdos_23.variants.n5` since 2026-06-27 (every
 triangle-free graph on $25$ vertices can be made bipartite by removing at
@@ -105,7 +105,7 @@ neither a proof nor a formalization link. (3) Theorem 2(b),(c) of [BCL21]
 proves the $n^2$ bound for sufficiently large $n$ in two edge-density
 ranges; it settles the question for no $n$, since every $n$ leaves the
 middle densities open, so under the schema it is a known result and not a
-partial claim. Ferudun's claim uses it, as his page records.
+partial claim. Ferudun's claim uses it, as its page records.
 
 In the 2021 source the flag-algebra and high-density arguments are sketches
 with omitted computations; no reconstruction, independent proof review or

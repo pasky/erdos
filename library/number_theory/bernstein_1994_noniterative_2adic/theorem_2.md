@@ -4,7 +4,7 @@ title: "Theorem 2 (p. 2): if C^k(N) = 1 then N ∈ Φ((1/3)ℤ)"
 desc: |
   Bernstein's theorem that a 2-adic integer N some iterate of the Collatz map
   sends to one lies in the image under Phi of the thirds of integers, so the
-  3N+1 conjecture implies his non-iterative conjecture.
+  3N+1 conjecture implies the non-iterative conjecture.
 created: 2026-10-08T17:21:06Z
 updated: 2026-10-08T17:21:06Z
 ---

@@ -18,7 +18,7 @@ updated: 2026-10-07T20:53:41Z
 
 [[ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/theorem_1_1|theorem_1_1]]: The Lovász local lemma as Spencer states and proves it, with the weighted
 form of Theorem 1.3 and the symmetric forms of Theorems 1.4 and 1.5; the
-lemma Beck 1980 quotes as his Lemma 2 and the tool behind every bound of the
+lemma Beck 1980 quotes as its Lemma 2 and the tool behind every bound of the
 paper.
 
 [[ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/theorem_2_1|theorem_2_1]]: The lower bound R(3,t) ≥ (1/27 − o(1))(t/ln t)^2 from the local lemma, the
@@ -348,7 +348,7 @@ $f(n)<Bn^{5/3}(\log n)^{2/3}$.
 [[../wiki/problems/ramsey_theory/E0187/_index|#187]]: Theorem 1.1 (printed p. 70, PDF
 p. 2), the local lemma with weights $0<x_i<1$ and
 $P(A_i)\le(1-x_i)\prod_{\{i,j\}\in G}x_j$, is the statement Beck 1980 quotes
-without proof as his Lemma 2 in the proof of his theorem
+without proof as its Lemma 2 in the proof of its theorem
 $F(d)\le(1+\varepsilon)\log_2d$, the problem's only upper bound; Beck's
 reference dates the volume 1976.
 [[../wiki/problems/ramsey_theory/E1014/_index|#1014]]: Theorem 2.2 (p. 74) at $k=4$,

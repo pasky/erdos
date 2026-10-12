@@ -282,7 +282,7 @@ the Lean development on record was the thread's file of 17 May 2026, mirrored
 in `plby/lean-proofs` from 19 May, which rests on four declared axioms. The
 formal-conjectures file above, added on 19 September 2026, names the later
 axiom-free version of the second file as its proof. Two external developments
-exist, both linked from Szemerédi's claim page as formalizations of his
+exist, both linked from Szemerédi's claim page as formalizations of the
 theorem. The first, the one the site's thread names, is `ErdosProblem490.lean`
 in the repository `Woett/Lean-files`, linked from the claim page at the
 repository's head of 10 September 2026 (the file last changed on 17 May 2026;

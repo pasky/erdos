@@ -148,7 +148,7 @@ $$
 B_k(w)=\{w_k-w_{k-1},w_k-w_{k-2},\ldots,w_k-w_0\}.
 $$
 
-This is Lunnon’s (1.4). If his conclusion “SSD” holds, then $B_k(w)$ is a
+This is Lunnon’s (1.4). If the conclusion “SSD” holds, then $B_k(w)$ is a
 dissociated $k$-set. In particular, Theorem (1.8) gives unconditionally
 
 $$

@@ -67,7 +67,7 @@ https://www.erdosproblems.com/946.
 which, at the commit of 18 September 2026 linked here, carries a
 `formal_proof` attribute pointing at `Erdos946.lean` in Boris Alexeev's
 lean-proofs repository, a Lean proof that follows Heath-Brown's method and
-is linked, pinned, from his
+is linked, pinned, from the
 [[problems/divisors/E0946/claims/1984_06_01_heath_brown|claim page]]; this
 corpus has not built it.
 
@@ -75,7 +75,7 @@ corpus has not built it.
 
 The question is whether $\tau(n)=\tau(n+1)$ holds for infinitely many $n$.
 Heath-Brown's 1984 theorem answers yes, with at least $cx/(\log x)^{7}$ such
-$n\le x$; the problem's standing derives from his
+$n\le x$; the problem's standing derives from its
 [[problems/divisors/E0946/claims/1984_06_01_heath_brown|claim page]], which is
 accepted on the curator's credit and the journal publication. Hildebrand's
 lower bound $\gg x/(\log\log x)^{3}$

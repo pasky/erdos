@@ -38,7 +38,7 @@ Konstanten".
 
 **Context printed with the theorem** (p. 101). Before the theorem the paper
 recalls the known bound $D_k\le2^{2(k-1)}k^k$, citing Pommerenke's 1961
-Michigan paper (Th. 16) and his 1964 paper on Faber polynomials (Satz 4);
+Michigan paper (Th. 16) and 1964 paper on Faber polynomials (Satz 4);
 Theorem 2 sharpens it for large $k$. After the theorem it adds, without
 proof, that one can show for example $D_k<k^k\exp(3k(k-2)^{-1/7})$ for
 $k\ge360$. That explicit estimate is an announcement, not a proved result

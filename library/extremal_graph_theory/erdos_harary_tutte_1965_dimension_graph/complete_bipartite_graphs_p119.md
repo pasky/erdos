@@ -86,7 +86,7 @@ $C$, and the points of the axis at distance 1 from $C$ are exactly the two
 points $u_1$ and $u_2$; so $u_3$ coincides with one of them, against the
 requirement of distinct points. Hence $\dim K_{3,3}\ge4$, and the same for
 every $K_{m,n}$ with $m,n\ge3$ by monotonicity under subgraphs, which the
-paper uses without stating. House's Proposition 4 (p. 1784 of his note)
+paper uses without stating. House's Proposition 4 (p. 1784 of the note)
 prints the planar analogue of this argument, two unit circles meeting in at
 most two points.
 
