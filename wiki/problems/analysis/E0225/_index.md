@@ -74,9 +74,9 @@ recorded separately rather than identified with the one-sided display.
 solutions: Kristiansen [Kr74], which it describes as the real-coefficient case,
 and Saff and Sheil-Small [SaSh74] for general complex coefficients. They are
 recorded on the claim pages
-[[problems/analysis/E0225/claims/1974_11_01_saff_sheil_small|Saff and Sheil-Small 1974]],
-accepted on its refereed publication and the site's credit, and
-[[problems/analysis/E0225/claims/1974_05_01_kristiansen|Kristiansen 1974]],
+[[problems/analysis/E0225/claims/1974_11_01_saff_sheil_small|Saff and
+Sheil-Small 1974]], accepted on its refereed publication and the site's credit,
+and [[problems/analysis/E0225/claims/1974_05_01_kristiansen|Kristiansen 1974]],
 accepted on its refereed publication. Kristiansen's theorem is the two-sided
 real form, a real trigonometric polynomial of degree $n\ge1$ with $2n$ real
 roots. It implies the display for arbitrary complex coefficients. The site's

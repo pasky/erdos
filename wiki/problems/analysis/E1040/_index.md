@@ -44,13 +44,16 @@ question, with AI systems named on the tab. They are by shlummi and by Declan
 Gessel (6 September 2026), and by Ioannis Tzachristas (9 September 2026).
 
 The accepted partial claims are
-[[problems/analysis/E1040/claims/1958_12_01_erdos_herzog_piranian|the segment and disc cases of Erdős, Herzog and Piranian]],
-[[problems/analysis/E1040/claims/2024_02_03_krishnapur_lundberg_ramachandran|the regular capacity-above-one case of Krishnapur, Lundberg and Ramachandran]]
-and
-[[problems/analysis/E1040/claims/2026_04_03_ghosh_ramachandran|Ghosh and Ramachandran's counterexamples and capacity-above-one case]].
-The pending partial claims are
-[[problems/analysis/E1040/claims/2026_01_29_feng|Aletheia's capacity-zero pair]],
-[[problems/analysis/E1040/claims/2025_03_24_krishnapur_lundberg_ramachandran|the smooth capacity-one case of Krishnapur, Lundberg and Ramachandran]],
+[[problems/analysis/E1040/claims/1958_12_01_erdos_herzog_piranian|the segment
+and disc cases of Erdős, Herzog and Piranian]],
+[[problems/analysis/E1040/claims/2024_02_03_krishnapur_lundberg_ramachandran|the
+regular capacity-above-one case of Krishnapur, Lundberg and Ramachandran]] and
+[[problems/analysis/E1040/claims/2026_04_03_ghosh_ramachandran|Ghosh and
+Ramachandran's counterexamples and capacity-above-one case]]. The pending
+partial claims are [[problems/analysis/E1040/claims/2026_01_29_feng|Aletheia's
+capacity-zero pair]],
+[[problems/analysis/E1040/claims/2025_03_24_krishnapur_lundberg_ramachandran|the
+smooth capacity-one case of Krishnapur, Lundberg and Ramachandran]],
 [[problems/analysis/E1040/claims/2026_09_05_tzachristas|Tzachristas's page]],
 [[problems/analysis/E1040/claims/2026_09_06_shlummi|shlummi's page]],
 [[problems/analysis/E1040/claims/2026_09_06_gessel|Gessel's page]] and

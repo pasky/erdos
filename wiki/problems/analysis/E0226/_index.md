@@ -26,9 +26,9 @@ $x\in\mathbb{R}$, $x$ is rational if and only if $f(x)$ is?
 **Status.** PROVED (LEAN). The site credits Barth and Schneider [BaSc70]. Their
 theorem for arbitrary countable dense subsets of the reals gives the function at
 $A=B=\mathbb Q$. The claim page
-[[problems/analysis/E0226/claims/1970_10_01_barth_schneider|Barth and Schneider 1970]]
-records it, accepted on its refereed publication and the site's credit. The
-site's Lean qualification refers to Boris Alexeev's formalization of that
+[[problems/analysis/E0226/claims/1970_10_01_barth_schneider|Barth and Schneider
+1970]] records it, accepted on its refereed publication and the site's credit.
+The site's Lean qualification refers to Boris Alexeev's formalization of that
 solution. The formalization is linked from the claim page and is not built by
 this corpus.
 

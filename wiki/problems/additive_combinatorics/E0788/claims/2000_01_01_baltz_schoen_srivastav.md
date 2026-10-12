@@ -4,7 +4,8 @@ title: Baltz, Schoen and Srivastav's bounds for Choi's interval function
 desc: |
   Theorem 2 of Baltz, Schoen and Srivastav (Colloq. Math. 2000, refereed) proves
   $f(n)=O(n^{2/3}(\log n)^{2/3})$, the best refereed upper bound for
-  Problem 788. The paper also proves the greedy lower bound $f(n)\ge\sqrt n$ on p. 172.
+  Problem 788. The paper also proves the greedy lower bound $f(n)\ge\sqrt n$ on
+  p. 172.
 authors:
 - Andreas Baltz
 - Tomasz Schoen

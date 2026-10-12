@@ -44,10 +44,10 @@ basis and has the shift property with an explicit $f(\alpha)>0$. The site
 credits the manuscript to GPT 5.5 Pro, prompted by a forum user. Thomas Bloom,
 the site's curator, accepted it. Nat Sothanaphan checked the write-up and found
 no issues. There is no refereed version. The claim page
-[[problems/integer_sequences/E0038/claims/2026_04_25_gebyjaff|the 2026 construction]]
-records the acceptance. The site's (LEAN) suffix is a catalog label. The linked
-Lean files are a statement with a placeholder and an unbuilt community proof,
-described under Formalization.
+[[problems/integer_sequences/E0038/claims/2026_04_25_gebyjaff|the 2026
+construction]] records the acceptance. The site's (LEAN) suffix is a catalog
+label. The linked Lean files are a statement with a placeholder and an unbuilt
+community proof, described under Formalization.
 
 **Source.** [erdosproblems.com/38](https://www.erdosproblems.com/38), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #38,

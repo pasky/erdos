@@ -86,9 +86,9 @@ as a formalization of this result and not as an independent proof.
 The second `formalization` link is the gist's port in Boris Alexeev's
 lean-proofs repository (`src/latest/ErdosProblems/Erdos259.lean`, added
 2026-04-28). Its header calls it a Lean formalization of a solution to
-Problem 259. It names Chen and Ruzsa as the informal authors and Aristotle and Stefano
-Rocca as the formal authors, and it lists the gist as its source. This corpus
-has not built, replayed or audited either file, so the claim carries no
+Problem 259. It names Chen and Ruzsa as the informal authors and Aristotle and
+Stefano Rocca as the formal authors, and it lists the gist as its source. This
+corpus has not built, replayed or audited either file, so the claim carries no
 `formalized` evidence. The corpus records no check of the proof.
 
 **Depends on.** Nothing in this wiki; the claim is the cited paper's theorem.

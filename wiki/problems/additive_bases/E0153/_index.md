@@ -37,15 +37,15 @@ a note of 2026-05-16 posted to the site's discussion thread. It derived the
 answer yes from a shifted-intersection bound that was retracted the same day,
 and the author withdrew it.
 
-[[problems/additive_bases/E0153/claims/2026_05_19_liu|Liu's divergence for asymptotically maximum Sidon sets]]
-is the corrected note, dated 2026-05-20. It was entered in the author's
-repository on 2026-05-19 and posted to the thread on 2026-05-20. Through
-Pikhurko's uniformity lemma, it proves the answer yes for every family of Sidon
-sets whose diameter is $(1+o(1))n^2$.
+[[problems/additive_bases/E0153/claims/2026_05_19_liu|Liu's divergence for
+asymptotically maximum Sidon sets]] is the corrected note, dated 2026-05-20. It
+was entered in the author's repository on 2026-05-19 and posted to the thread on
+2026-05-20. Through Pikhurko's uniformity lemma, it proves the answer yes for
+every family of Sidon sets whose diameter is $(1+o(1))n^2$.
 
-[[problems/additive_bases/E0153/claims/2026_08_14_kapoor|Kapoor's logarithmic lower bound]]
-is a write-up of 2026-08-14, entered on the site's proof-claims thread on
-2026-08-21. It bounds the mean squared gap below by a constant times
+[[problems/additive_bases/E0153/claims/2026_08_14_kapoor|Kapoor's logarithmic
+lower bound]] is a write-up of 2026-08-14, entered on the site's proof-claims
+thread on 2026-08-21. It bounds the mean squared gap below by a constant times
 $\min\{\log\frac1{\kappa-1},\log n\}$, where $\kappa$ is the diameter over
 $n^2$. This answers yes for sets of nearly minimal diameter and for dyadically
 non-concentrated families. It reduces the general case without settling it. The

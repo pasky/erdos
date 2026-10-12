@@ -27,10 +27,11 @@ basis of order 3?
 standing rests on two accepted claim pages. The first is
 [[problems/additive_bases/E0157/claims/2023_03_16_pilatte|Pilatte 2023]], the
 construction refereed in Compositio Mathematica (2024). The second is
-[[problems/additive_bases/E0157/claims/2026_08_25_alexeev|an AI-generated elementary proof]].
-It was first posted as a Lean development on 2026-08-25 and registered on the
-site's proof-claims page on 2026-09-15 with a write-up. This corpus built and
-audited its Lean theorem, in an earlier form of the construction.
+[[problems/additive_bases/E0157/claims/2026_08_25_alexeev|an AI-generated
+elementary proof]]. It was first posted as a Lean development on 2026-08-25 and
+registered on the site's proof-claims page on 2026-09-15 with a write-up. This
+corpus built and audited its Lean theorem, in an earlier form of the
+construction.
 
 **Source.** [erdosproblems.com/157](https://www.erdosproblems.com/157), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #157,

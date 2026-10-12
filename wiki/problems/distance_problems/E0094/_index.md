@@ -33,11 +33,11 @@ $$
 **Status.** Proved. The site's export of 2026-09-04 records the label "PROVED
 (LEAN)". The proof is Lefmann and Thiele's theorem for point sets with no three
 on a line, recorded on
-[[problems/distance_problems/E0094/claims/1995_09_01_lefmann_thiele|its claim page]].
-The Lean qualification refers to third-party developments that this corpus has
-neither built nor audited (see Formalization). In 1997 Erdős attributed a proof
-to Fishburn without giving a reference. That attribution has no manuscript to
-record on a claim page.
+[[problems/distance_problems/E0094/claims/1995_09_01_lefmann_thiele|its claim
+page]]. The Lean qualification refers to third-party developments that this
+corpus has neither built nor audited (see Formalization). In 1997 Erdős
+attributed a proof to Fishburn without giving a reference. That attribution has
+no manuscript to record on a claim page.
 
 **Source.** [erdosproblems.com/94](https://www.erdosproblems.com/94), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #94,

@@ -66,12 +66,12 @@ The claim page
 records the disproof as accepted on the site's documented acceptance. The site's
 label is DISPROVED (LEAN), and its page was last edited 28 October 2025. The
 community database lists "disproved (Lean)" as of its last update of 4
-December 2025. The claim page carries, as a `formalization` link, the external Lean file
-that declares itself a formalization of the note's solution and proves the
-negation of the formalized statement. That file was not built here. This is a
-source-supported solution accepted by the site, distinct from a claim of journal
-refereeing. The site's Lean suffix is its catalog label for that external proof,
-which this corpus has not built or audited.
+December 2025. The claim page carries, as a `formalization` link, the external
+Lean file that declares itself a formalization of the note's solution and proves
+the negation of the formalized statement. That file was not built here. This is
+a source-supported solution accepted by the site, distinct from a claim of
+journal refereeing. The site's Lean suffix is its catalog label for that
+external proof, which this corpus has not built or audited.
 
 Erdős's general question stays open between $(\frac16-o(1))n$ and
 $(2-\sqrt{5/2}+o(1))n$. It asks for the largest $h(n)$ for which every such

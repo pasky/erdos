@@ -70,8 +70,8 @@ under Formalization.
 support, one for each question. The derived frontmatter standing is solved,
 proved. The page lists the two questions as its parts, and each is settled by an
 accepted partial claim page.
-[[problems/number_theory/E0362/claims/1965_01_01_sarkozy_szemeredi|Sárközy and Szemerédi 1965]]
-settles the first question and
+[[problems/number_theory/E0362/claims/1965_01_01_sarkozy_szemeredi|Sárközy and
+Szemerédi 1965]] settles the first question and
 [[problems/number_theory/E0362/claims/1977_09_01_halasz|Halász 1977]] the
 second. So the two claims together settle every part, and both questions are
 answered yes below. A Lean development that declares itself a formalization of

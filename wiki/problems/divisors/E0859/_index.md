@@ -39,14 +39,15 @@ as $t\to \infty$?
 comment, and one proof-claim entry. The curator posted that entry on 2026-09-27
 to make the Conjectures.io claim known, without verifying it. The frontmatter
 standing derives from the accepted claim page
-[[problems/divisors/E0859/claims/2026_09_18_kruer_kohlmeyer|Kruer and Kohlmeyer's Lean disproof]].
-Its acceptance evidence is the certification by the bounty site Conjectures.io:
-Lean kernel verification on 18 September 2026, review approval on 21 September
-2026 and certification on 23 September 2026. The subject is the literal site
-wording quoted above, and the answer is no. The density $d_t$ exists for every
-$t$, and for no constants $c_1,c_2>0$ is $d_t\sim c_1/(\log t)^{c_2}$. The
-reason is that $-\log d_t/\log\log t$ has lower limit exactly
-$\delta=1-(1+\log\log 2)/\log 2=0.0860\ldots$, while $(\log t)^{\delta}d_t\to0$.
+[[problems/divisors/E0859/claims/2026_09_18_kruer_kohlmeyer|Kruer and
+Kohlmeyer's Lean disproof]]. Its acceptance evidence is the certification by the
+bounty site Conjectures.io: Lean kernel verification on 18 September 2026,
+review approval on 21 September 2026 and certification on 23 September 2026. The
+subject is the literal site wording quoted above, and the answer is no. The
+density $d_t$ exists for every $t$, and for no constants $c_1,c_2>0$ is
+$d_t\sim c_1/(\log t)^{c_2}$. The reason is that $-\log d_t/\log\log t$ has
+lower limit exactly $\delta=1-(1+\log\log 2)/\log 2=0.0860\ldots$, while
+$(\log t)^{\delta}d_t\to0$.
 
 **Source.** [erdosproblems.com/859](https://www.erdosproblems.com/859), accessed
 2026-09-22 (the problem page: OPEN, marked as not resolvable by a finite

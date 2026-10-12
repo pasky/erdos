@@ -54,11 +54,10 @@ second to Beck [Be91], and the third, the prize question, to Korsky with GPT
 ($\max_{n\le N}M_n>N^c$),
 [[problems/polynomials/E0119/claims/2026_07_14_korsky|Korsky 2026]]
 ($\sum_{k\le N}M_k\gg N^{5/4}/\sqrt{\log N}$ by a one-page harmonic-analysis
-argument) and
-[[problems/polynomials/E0119/claims/2026_08_29_korsky|Korsky 2026 (second claim)]].
-The second Korsky claim gives the sharper bound $(e^{-1/2}+o(1))N^{3/2}$, which
-the site's commentary credits at the strength $n^{3/2-o(1)}$. See Current
-assessment for the evidence.
+argument) and [[problems/polynomials/E0119/claims/2026_08_29_korsky|Korsky 2026
+(second claim)]]. The second Korsky claim gives the sharper bound
+$(e^{-1/2}+o(1))N^{3/2}$, which the site's commentary credits at the strength
+$n^{3/2-o(1)}$. See Current assessment for the evidence.
 
 **Source.** [erdosproblems.com/119](https://www.erdosproblems.com/119), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #119,

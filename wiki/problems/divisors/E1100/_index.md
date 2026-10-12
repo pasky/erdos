@@ -48,11 +48,11 @@ is restricted to squarefree integers. Determine the growth of $g(k)$.
 2025 and was accessed 2026-10-07. Its proof-claims thread lists two proof claims
 as partial. The frontmatter standing `open` derives from the claim pages, and no
 full claim is recorded there. The accepted partial claim
-[[problems/divisors/E1100/claims/1989_03_01_erdos_tenenbaum|Erdős and Tenenbaum's bounds]]
-settles the first two questions (yes and no). The pending partial claims
-[[problems/divisors/E1100/claims/2026_07_31_korsky|Korsky's maximal order]] and
-[[problems/divisors/E1100/claims/2026_08_04_ross|Ross's golden-ratio bound]]
-bear on the maximal order and on the growth of $g(k)$.
+[[problems/divisors/E1100/claims/1989_03_01_erdos_tenenbaum|Erdős and
+Tenenbaum's bounds]] settles the first two questions (yes and no). The pending
+partial claims [[problems/divisors/E1100/claims/2026_07_31_korsky|Korsky's
+maximal order]] and [[problems/divisors/E1100/claims/2026_08_04_ross|Ross's
+golden-ratio bound]] bear on the maximal order and on the growth of $g(k)$.
 
 **Source.** [erdosproblems.com/1100](https://www.erdosproblems.com/1100),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1100,

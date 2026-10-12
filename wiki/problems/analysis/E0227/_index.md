@@ -34,8 +34,8 @@ exists then it must be $0$?
 **Status.** Disproved. The site credits Clunie and Hayman [ClHa64]. They produce
 transcendental entire functions for which the ratio tends to any prescribed
 value in $[0,1/2]$. The claim page
-[[problems/analysis/E0227/claims/1964_12_01_clunie_hayman|Clunie and Hayman 1964]]
-records it, accepted on its refereed publication and the site's credit.
+[[problems/analysis/E0227/claims/1964_12_01_clunie_hayman|Clunie and Hayman
+1964]] records it, accepted on its refereed publication and the site's credit.
 
 **Source.** [erdosproblems.com/227](https://www.erdosproblems.com/227), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #227,

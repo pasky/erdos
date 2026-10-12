@@ -35,16 +35,16 @@ $f(n)\asymp n^{1/3}(n/\phi(n))/((\log n)^{1/3}(\log\log n)^{2/3})$. The site's
 page is labeled SOLVED. Its commentary records the first two bounds as proved
 and credits the order of growth to Conlon, Fox and Pham. The first two are
 accepted partial claims
-([[problems/integer_sequences/E0360/claims/1995_05_15_alon_erdos|Alon and Erdős]],
-[[problems/integer_sequences/E0360/claims/2006_11_16_vu|Vu]]). The third is the
-accepted full claim
-([[problems/integer_sequences/E0360/claims/2021_04_30_conlon_fox_pham|claim page]]).
-Its acceptance evidence is the site's documented acceptance, and the journal
-version has no record yet. A 2026 Lean formalization of the Conlon–Fox–Pham
-order in Boris Alexeev's public repository attributes its mathematics to the
-three authors, so it is a formalization link on their claim page. No outside
-record registers it. It has been neither built nor audited here, and it gives no
-`formalized` evidence.
+([[problems/integer_sequences/E0360/claims/1995_05_15_alon_erdos|Alon and
+Erdős]], [[problems/integer_sequences/E0360/claims/2006_11_16_vu|Vu]]). The
+third is the accepted full claim
+([[problems/integer_sequences/E0360/claims/2021_04_30_conlon_fox_pham|claim
+page]]). Its acceptance evidence is the site's documented acceptance, and the
+journal version has no record yet. A 2026 Lean formalization of the
+Conlon–Fox–Pham order in Boris Alexeev's public repository attributes its
+mathematics to the three authors, so it is a formalization link on their claim
+page. No outside record registers it. It has been neither built nor audited
+here, and it gives no `formalized` evidence.
 
 **Source.** [erdosproblems.com/360](https://www.erdosproblems.com/360), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #360,

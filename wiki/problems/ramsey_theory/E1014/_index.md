@@ -49,24 +49,24 @@ is quoted below.
 **Status.** PROVED (LEAN). The status-defining source is Theorem 1 of a
 three-page manuscript, *On the ratio of $R(k,\ell)$ and $R(k,\ell+1)$*, hosted
 by OpenAI. The manuscript was retrieved, and its PDF metadata is dated 22
-April 2026. It proves $\lim_{\ell\to\infty}R(k,\ell+1)/R(k,\ell)=1$ for every fixed
-integer $k\ge2$, by dependent random choice on a critical graph. Its author is
-OpenAI, and its abstract attributes the proof to an internal model at OpenAI.
-The site accepted it as the resolution on 24 April 2026, with the label PROVED
-(LEAN). This is a solution supported by its source and accepted by the site. It
-is distinct from a claim of journal refereeing. No refereed publication, no
-arXiv version and no independent expert review of the manuscript was found on
-2026-09-18.
+April 2026. It proves $\lim_{\ell\to\infty}R(k,\ell+1)/R(k,\ell)=1$ for every
+fixed integer $k\ge2$, by dependent random choice on a critical graph. Its
+author is OpenAI, and its abstract attributes the proof to an internal model at
+OpenAI. The site accepted it as the resolution on 24 April 2026, with the label
+PROVED (LEAN). This is a solution supported by its source and accepted by the
+site. It is distinct from a claim of journal refereeing. No refereed
+publication, no arXiv version and no independent expert review of the manuscript
+was found on 2026-09-18.
 
-The claim page
-[[problems/ramsey_theory/E1014/claims/2026_04_22_openai|OpenAI 2026]] records
-the manuscript, its two external formalizations and the site's acceptance as an
-accepted full result. The frontmatter standing derives from it. It is accepted
-on the one evidence kind that the curator's crediting of the manuscript supplies
-(`reviewed`). There is no refereed version and no independent review of the
-whole argument. Two external Lean developments prove the theorem, each for its
-own definition of the Ramsey number, at pinned revisions. They are not built or
-independently audited here, and no local kernel credit is claimed.
+The claim page [[problems/ramsey_theory/E1014/claims/2026_04_22_openai|OpenAI
+2026]] records the manuscript, its two external formalizations and the site's
+acceptance as an accepted full result. The frontmatter standing derives from it.
+It is accepted on the one evidence kind that the curator's crediting of the
+manuscript supplies (`reviewed`). There is no refereed version and no
+independent review of the whole argument. Two external Lean developments prove
+the theorem, each for its own definition of the Ramsey number, at pinned
+revisions. They are not built or independently audited here, and no local kernel
+credit is claimed.
 
 **Source.** [erdosproblems.com/1014](https://www.erdosproblems.com/1014),
 accessed 2026-09-18: the problem page (PROVED (LEAN),

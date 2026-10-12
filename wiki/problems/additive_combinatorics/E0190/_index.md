@@ -71,10 +71,10 @@ two independent 2026 preprints that the site's commentary credits. Bae proves
 $H(k)\ge k^{(2-o(1))k}$, so $H(k)^{1/k}/k\to\infty$
 ([[problems/additive_combinatorics/E0190/claims/2026_04_22_bae|claim page]]).
 Fox and Hunter prove the stronger $H(k)\ge k^{(1-o(1))k\log k}$
-([[problems/additive_combinatorics/E0190/claims/2026_06_01_fox_hunter|claim page]]).
-The acceptance evidence comes from the site's curator, T. F. Bloom, whose
-commentary credits both results. Fox and Hunter's preprint credits Bae's earlier
-independent resolution, and Bae acknowledged their stronger bound in a
+([[problems/additive_combinatorics/E0190/claims/2026_06_01_fox_hunter|claim
+page]]). The acceptance evidence comes from the site's curator, T. F. Bloom,
+whose commentary credits both results. Fox and Hunter's preprint credits Bae's
+earlier independent resolution, and Bae acknowledged their stronger bound in a
 discussion-thread post of 2026-09-14. Neither preprint is refereed, and no
 formal proof of the statement has been audited here. The community database
 lists the problem as solved (Lean) as of its last update of 2026-09-15, through

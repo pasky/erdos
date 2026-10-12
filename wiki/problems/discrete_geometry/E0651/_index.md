@@ -35,9 +35,9 @@ for some constant $c_k>0$?
 **Status.** The site labels the problem DISPROVED (export of 2026-09-04). It
 credits Pohoata and Zakharov, whose subexponential bound $f_3(n)\le 2^{o(n)}$
 rules out every constant $c_k>0$ for $k\ge3$. The accepted claim is
-[[problems/discrete_geometry/E0651/claims/2022_08_09_pohoata_zakharov|their 2022 result]].
-The community database lists the problem as disproved (Lean), citing Ren's
-formalization, as of its last update of that field on 2026-09-16.
+[[problems/discrete_geometry/E0651/claims/2022_08_09_pohoata_zakharov|their 2022
+result]]. The community database lists the problem as disproved (Lean), citing
+Ren's formalization, as of its last update of that field on 2026-09-16.
 
 **Source.** [erdosproblems.com/651](https://www.erdosproblems.com/651), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #651,

@@ -54,13 +54,14 @@ none of the claims below. Accepted and pending claims together settle every
 part, so the derived standing is claimed. Its value is `answered` because the
 parts are answered in opposite directions. Three partial claims answer the three
 parts. The accepted claim
-[[problems/analysis/E0514/claims/1984_12_01_lewis_rossi_weitsman|Lewis, Rossi and Weitsman 1984]]
-answers the first question yes, on its refereed publication. The pending claim
-[[problems/analysis/E0514/claims/2026_04_20_chojecki|Chojecki 2026]], a note of
-20 April 2026 produced with GPT-5.4 Pro, answers the first and second yes. The
-pending claim [[problems/analysis/E0514/claims/2026_04_28_oriike|Oriike 2026]],
-a note of 28 April 2026 produced with GPT-5.5 Pro, answers the third no and
-comes with a Lean file.
+[[problems/analysis/E0514/claims/1984_12_01_lewis_rossi_weitsman|Lewis, Rossi
+and Weitsman 1984]] answers the first question yes, on its refereed publication.
+The pending claim [[problems/analysis/E0514/claims/2026_04_20_chojecki|Chojecki
+2026]], a note of 20 April 2026 produced with GPT-5.4 Pro, answers the first and
+second yes. The pending claim
+[[problems/analysis/E0514/claims/2026_04_28_oriike|Oriike 2026]], a note of 28
+April 2026 produced with GPT-5.5 Pro, answers the third no and comes with a Lean
+file.
 
 **Source.** [erdosproblems.com/514](https://www.erdosproblems.com/514), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #514,

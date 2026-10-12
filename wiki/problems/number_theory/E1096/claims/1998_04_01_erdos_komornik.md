@@ -86,12 +86,12 @@ evidence is listed. The same answer follows independently on
 
 **Acceptance.** Refereed: P. Erdős and V. Komornik, *Developments in non-integer
 bases*, Acta Math. Hungar. 79 (1998), no. 1--2, 57--83, received 30
-September 1996. The publisher's record dates the issue to April 1998 without a day, and
-the page is named by the first of that month. Reviewed: the site's curator,
-Thomas F. Bloom, labels the problem proved. In the problem's commentary and in
-the thread of 16 April 2026, the curator credits this paper with the first
-resolution, for $1<q<\sqrt{q_1}$. The curator neither wrote nor submitted the
-result. Feng's 2016 paper cites it as its reference [9]. The site's range
+September 1996. The publisher's record dates the issue to April 1998 without a
+day, and the page is named by the first of that month. Reviewed: the site's
+curator, Thomas F. Bloom, labels the problem proved. In the problem's commentary
+and in the thread of 16 April 2026, the curator credits this paper with the
+first resolution, for $1<q<\sqrt{q_1}$. The curator neither wrote nor submitted
+the result. Feng's 2016 paper cites it as its reference [9]. The site's range
 $1<q<\sqrt{q_1}$ is the part of the printed range below the excluded point.
 Nothing here is independently reviewed by this project.
 

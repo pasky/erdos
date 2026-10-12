@@ -56,11 +56,12 @@ Mathématique, a refereed journal. The site's commentary credits the two bounds
 to the paper, but the site labels the problem OPEN, so that credit is not
 acceptance of the problem and the page lists no `reviewed` evidence. Three later
 lower bounds supersede $4/7$, all pending:
-[[problems/analysis/E0513/claims/2026_02_12_he_tang|He and Tang's certified lower bound]],
-[[problems/analysis/E0513/claims/2026_02_27_sothanaphan|Sothanaphan's certified parameter improvement]]
-and
-[[problems/analysis/E0513/claims/2026_08_02_lystad|Lystad's certified lower bound]].
-The upper bound stands.
+[[problems/analysis/E0513/claims/2026_02_12_he_tang|He and Tang's certified
+lower bound]],
+[[problems/analysis/E0513/claims/2026_02_27_sothanaphan|Sothanaphan's certified
+parameter improvement]] and
+[[problems/analysis/E0513/claims/2026_08_02_lystad|Lystad's certified lower
+bound]]. The upper bound stands.
 
 **Dating.** The page is dated by the issue month in the publisher's record
 (Crossref), December 1964; the day is a placeholder.

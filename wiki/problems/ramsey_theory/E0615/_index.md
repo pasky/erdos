@@ -49,13 +49,13 @@ label DISPROVED (LEAN) carries a catalog suffix explained under
 Formalization.
 
 **Status.** The site labels the problem DISPROVED (LEAN). The claim page
-[[problems/ramsey_theory/E0615/claims/2012_08_16_fox_loh_zhao|Fox, Loh and Zhao 2012]]
-records the refereed disproof with its postings and acceptance evidence, and the
-frontmatter standing derives from that page. As a formalization link, the page
-carries the Lean file behind the site's suffix, which is linked and not built.
-The status-defining source is Theorem 1.10 of Fox, Loh and Zhao, *The critical
-window for the classical Ramsey-Turán problem*, Combinatorica 35 (2015), no. 4,
-435--476 (refereed; cited from the arXiv v3). It states that if
+[[problems/ramsey_theory/E0615/claims/2012_08_16_fox_loh_zhao|Fox, Loh and Zhao
+2012]] records the refereed disproof with its postings and acceptance evidence,
+and the frontmatter standing derives from that page. As a formalization link,
+the page carries the Lean file behind the site's suffix, which is linked and not
+built. The status-defining source is Theorem 1.10 of Fox, Loh and Zhao, *The
+critical window for the classical Ramsey-Turán problem*, Combinatorica 35
+(2015), no. 4, 435--476 (refereed; cited from the arXiv v3). It states that if
 $m=e^{-o((\log n/\log\log n)^{1/2})}n$ then
 $\mathbf{RT}(n,K_4,m)\ge(1/8-o(1))n^2$. The paper presents it as settling in the
 negative the question those five authors posed, its Problem 1.4 (the sentence is

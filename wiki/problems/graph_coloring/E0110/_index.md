@@ -29,14 +29,14 @@ most $F(n)$ vertices?
 
 **Status.** Disproved on the site, with the label DISPROVED. The page was last
 edited 1 October 2025. The standing rests on
-[[problems/graph_coloring/E0110/claims/2019_02_21_lambie_hanson|Lambie-Hanson's theorem]],
-accepted on its refereed publication and the curator's credit. For every
-function $f$ there is a graph of chromatic number $\aleph_1$ in which, for every
-$k\ge3$, every subgraph of chromatic number at least $k$ has at least $f(k)$
-vertices. So no $F$ works. The
-[[problems/graph_coloring/E0110/claims/2002_12_04_komjath_shelah|Komjáth–Shelah forcing result]]
-is an accepted partial claim. It showed the positive answer unprovable in ZFC
-without deciding the question.
+[[problems/graph_coloring/E0110/claims/2019_02_21_lambie_hanson|Lambie-Hanson's
+theorem]], accepted on its refereed publication and the curator's credit. For
+every function $f$ there is a graph of chromatic number $\aleph_1$ in which, for
+every $k\ge3$, every subgraph of chromatic number at least $k$ has at least
+$f(k)$ vertices. So no $F$ works. The
+[[problems/graph_coloring/E0110/claims/2002_12_04_komjath_shelah|Komjáth–Shelah
+forcing result]] is an accepted partial claim. It showed the positive answer
+unprovable in ZFC without deciding the question.
 
 The site attributes the conjecture to Erdős, Hajnal and Szemerédi [EHS82] and
 notes that it fails for graphs of chromatic number $\aleph_0$. It recalls that

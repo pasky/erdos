@@ -33,9 +33,9 @@ $$
 
 **Status.** PROVED (LEAN). The site credits Barth and Schneider [BaSc72] with
 the affirmative answer. The claim page
-[[problems/analysis/E0229/claims/1972_03_01_barth_schneider|Barth and Schneider 1972]]
-records it, accepted on its refereed publication and the site's credit. The
-site's Lean qualification refers to Boris Alexeev's formalization of that
+[[problems/analysis/E0229/claims/1972_03_01_barth_schneider|Barth and Schneider
+1972]] records it, accepted on its refereed publication and the site's credit.
+The site's Lean qualification refers to Boris Alexeev's formalization of that
 solution. The formalization is linked from the claim page and is not built here.
 
 **Source.** [erdosproblems.com/229](https://www.erdosproblems.com/229), accessed

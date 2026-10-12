@@ -31,21 +31,21 @@ girth $\geq r$ and chromatic number $\geq k$?
 January 2026. On 27 September 2026 the curator posted the Conjectures.io claim
 below on the site's proof-claims forum without endorsing it. The derived
 standing rests on the accepted claim page of
-[[problems/graph_coloring/E0108/claims/2026_09_15_kohlmeyer_kruer|Kohlmeyer and Kruer's Lean counterexample family]],
-published under the handle JenW1N and certified by Conjectures.io in
-September 2026. The family gives, for every $M$, a finite graph of chromatic number at
-least $M$ all of whose subgraphs of girth at least $5$ are $6$-colorable. So no
-finite $f(7,5)$ exists. That certification is documented independent acceptance
-by the bounty site. There is no refereed publication, and no formalization was
-built here.
+[[problems/graph_coloring/E0108/claims/2026_09_15_kohlmeyer_kruer|Kohlmeyer and
+Kruer's Lean counterexample family]], published under the handle JenW1N and
+certified by Conjectures.io in September 2026. The family gives, for every $M$,
+a finite graph of chromatic number at least $M$ all of whose subgraphs of girth
+at least $5$ are $6$-colorable. So no finite $f(7,5)$ exists. That certification
+is documented independent acceptance by the bounty site. There is no refereed
+publication, and no formalization was built here.
 
-The
-[[problems/graph_coloring/E0108/claims/2026_09_30_nguyen_walczak|expository note of Nguyen and Walczak]]
-(30 September 2026) explains the construction and sharpens the bound to $3$,
-which refutes every $r\ge5$ with $k\ge4$. It is a pending claim. The $r=4$ case
-is Rödl's theorem, an accepted partial claim
-([[problems/graph_coloring/E0108/claims/1977_06_01_rodl|triangle-free subgraphs of large chromatic number]]).
-It is the whole of [[problems/graph_coloring/E0923/_index|Problem 923]].
+The [[problems/graph_coloring/E0108/claims/2026_09_30_nguyen_walczak|expository
+note of Nguyen and Walczak]] (30 September 2026) explains the construction and
+sharpens the bound to $3$, which refutes every $r\ge5$ with $k\ge4$. It is a
+pending claim. The $r=4$ case is Rödl's theorem, an accepted partial claim
+([[problems/graph_coloring/E0108/claims/1977_06_01_rodl|triangle-free subgraphs
+of large chromatic number]]). It is the whole of
+[[problems/graph_coloring/E0923/_index|Problem 923]].
 [[problems/graph_coloring/E0108/claims/2026_08_03_steiner|Steiner's preprint]]
 (August 2026) gives a second proof of Rödl's theorem, with a single-exponential
 bound in place of Rödl's tower. That preprint is a pending partial claim. The

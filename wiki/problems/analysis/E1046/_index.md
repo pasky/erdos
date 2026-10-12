@@ -43,8 +43,8 @@ lies in the circle $|z-\zeta|<2$, where $\zeta$ is the centroid of the zeros.
 The set $E$, bounded by that lemniscate, lies in the same open disc. The paper
 introduces the theorem as establishing "the conjecture in Problem 14" of
 [EHP58], which is the question stated above. So the Statement is proved
-([[problems/analysis/E1046/claims/1959_01_01_pommerenke|Pommerenke's claim page]],
-accepted, full, refereed).
+([[problems/analysis/E1046/claims/1959_01_01_pommerenke|Pommerenke's claim
+page]], accepted, full, refereed).
 
 The only refutation the commentary reports is of a different conjecture from the
 same passage of [EHP58]. That is Problem 15, the conjecture that the width of a

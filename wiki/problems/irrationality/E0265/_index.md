@@ -45,14 +45,14 @@ $a_n^{1/\beta^n}\to\infty$ for some $\beta>1$. It says the remaining question is
 the exact exponent, in particular whether $\limsup a_n^{1/2^n}>1$ is possible,
 since a folklore result makes the sum irrational once $\lim a_n^{1/2^n}=\infty$.
 Their result, for every base $\beta<\sqrt{6/5}$, is the accepted partial claim
-on
-[[problems/irrationality/E0265/claims/2024_11_27_kovac_tao|the Kovač–Tao claim page]].
-There are also two pending partial claims. One,
-[[problems/irrationality/E0265/claims/2026_08_28_cam|a residual-state construction of 2026]],
-asserts that every exponent $\beta<(\sqrt{13}-1)/2$ can be reached. The other,
-[[problems/irrationality/E0265/claims/2026_09_07_kitamura|a Lean 4 development of 2026]],
-asserts that $\limsup a_n^{1/2^n}>1$ is impossible. The problem asks for the
-exact growth threshold, which no claim determines.
+on [[problems/irrationality/E0265/claims/2024_11_27_kovac_tao|the Kovač–Tao
+claim page]]. There are also two pending partial claims. One,
+[[problems/irrationality/E0265/claims/2026_08_28_cam|a residual-state
+construction of 2026]], asserts that every exponent $\beta<(\sqrt{13}-1)/2$ can
+be reached. The other,
+[[problems/irrationality/E0265/claims/2026_09_07_kitamura|a Lean 4 development
+of 2026]], asserts that $\limsup a_n^{1/2^n}>1$ is impossible. The problem asks
+for the exact growth threshold, which no claim determines.
 
 **Source.** [erdosproblems.com/265](https://www.erdosproblems.com/265), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #265,

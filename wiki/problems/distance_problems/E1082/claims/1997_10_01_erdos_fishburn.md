@@ -72,4 +72,5 @@ here. The first is Xichuan's forty-two-point example on the site's thread (19
 December 2025), which gets no page because it is a forum post. The second is the
 eight-point Lean proof found by a DeepMind prover agent (25 February 2026). It
 constructs this same configuration and has
-[[problems/distance_problems/E1082/claims/2026_02_25_deepmind|its own claim page]].
+[[problems/distance_problems/E1082/claims/2026_02_25_deepmind|its own claim
+page]].

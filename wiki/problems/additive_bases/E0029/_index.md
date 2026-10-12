@@ -35,10 +35,10 @@ $A+A=\mathbb{N}$ and $1_A\ast1_A(n)\le Cn^{c/\log\log n}$, so the answer is yes.
 The site's Lean marker corresponds to the proof the formal-conjectures catalog
 links. That proof is a third party's Lean proof of a weaker existence statement
 (see Formalization). The claim page
-[[problems/additive_bases/E0029/claims/2024_05_14_jain_pham_sawhney_zakharov|An explicit economical additive basis]]
-records the acceptance evidence: the refereed publication and the curator of
-erdosproblems.com, Thomas Bloom. The corpus has not built or audited the Lean
-proof.
+[[problems/additive_bases/E0029/claims/2024_05_14_jain_pham_sawhney_zakharov|An
+explicit economical additive basis]] records the acceptance evidence: the
+refereed publication and the curator of erdosproblems.com, Thomas Bloom. The
+corpus has not built or audited the Lean proof.
 
 **Source.** [erdosproblems.com/29](https://www.erdosproblems.com/29), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #29,

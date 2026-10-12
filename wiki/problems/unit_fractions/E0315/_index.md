@@ -63,11 +63,11 @@ convention.
 (LEAN). Its Lean qualifier is a catalog label whose scope is qualified under
 Formalization and the Lean label below, and no local kernel credit is claimed.
 The two accepted claims are recorded on
-[[problems/unit_fractions/E0315/claims/2025_03_15_li_tang|Li and Tang's claim page]]
-and
-[[problems/unit_fractions/E0315/claims/2025_03_04_kamio|Kamio's claim page]].
-The pending claim is recorded on
-[[problems/unit_fractions/E0315/claims/2026_07_30_kovac_tang|Kovač and Tang's claim page]].
+[[problems/unit_fractions/E0315/claims/2025_03_15_li_tang|Li and Tang's claim
+page]] and [[problems/unit_fractions/E0315/claims/2025_03_04_kamio|Kamio's claim
+page]]. The pending claim is recorded on
+[[problems/unit_fractions/E0315/claims/2026_07_30_kovac_tang|Kovač and Tang's
+claim page]].
 
 Li and Tang's Corollary 1.7 (arXiv:2503.12277, March 2025) proves exactly the
 statement. Every strictly increasing sequence of positive integers other than

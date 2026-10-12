@@ -32,16 +32,16 @@ distinct colours.
 Does every planar bipartite graph $G$ have $\chi_L(G)\leq 3$?
 
 **Status.** Proved on the site, with the label PROVED. The standing rests on
-[[problems/graph_coloring/E0630/claims/1992_06_01_alon_tarsi|Alon and Tarsi's theorem]],
-accepted on its refereed publication and the curator's credit. A planar
-bipartite graph has an orientation of maximum outdegree at most $2$ in which
-every Eulerian subgraph has an even number of edges. Their algebraic criterion
-then colors it from any lists of size $3$. The site attributes the question to
-Erdős, Rubin and Taylor [ERT80], credits Alon and Tarsi [AlTa92] with the answer
-yes, and points to [[problems/graph_coloring/E0631/_index|Problem 631]]. The
-community database (teorth/erdosproblems) lists the problem as proved with a
-Lean proof from 2026-09-16. That is the date of the formalization recorded under
-Formalization.
+[[problems/graph_coloring/E0630/claims/1992_06_01_alon_tarsi|Alon and Tarsi's
+theorem]], accepted on its refereed publication and the curator's credit. A
+planar bipartite graph has an orientation of maximum outdegree at most $2$ in
+which every Eulerian subgraph has an even number of edges. Their algebraic
+criterion then colors it from any lists of size $3$. The site attributes the
+question to Erdős, Rubin and Taylor [ERT80], credits Alon and Tarsi [AlTa92]
+with the answer yes, and points to
+[[problems/graph_coloring/E0631/_index|Problem 631]]. The community database
+(teorth/erdosproblems) lists the problem as proved with a Lean proof from
+2026-09-16. That is the date of the formalization recorded under Formalization.
 
 **Source.** [erdosproblems.com/630](https://www.erdosproblems.com/630), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #630,

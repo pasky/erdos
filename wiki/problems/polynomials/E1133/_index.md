@@ -42,16 +42,15 @@ Two manuscripts claim the assertion in full, and neither is reviewed or
 refereed.
 
 The first is a note posted in the site's thread by Przemek Chojecki on 29
-April 2026. It was produced with GPT-5.5 Pro, as Chojecki wrote there, and is hosted
-at ulam.ai. It derives a finite obstruction from Beurling's
+April 2026. It was produced with GPT-5.5 Pro, as Chojecki wrote there, and is
+hosted at ulam.ai. It derives a finite obstruction from Beurling's
 interpolation-density theorem for the Bernstein space and plants it on short
-blocks of nodes
-([[problems/polynomials/E1133/claims/2026_04_29_chojecki|claim page]]). The
-second is the manuscript of Jia-Qi Yang, submitted to the site's proof-claims
-tab on 2026-09-13 (using GPT-6, as the tab writes it). It claims to prove the
-obstruction for sign data at any pointwise tolerance, with $\epsilon$ of optimal
-exponential order in $C$. It also claims the sharp coefficient $\pi/2$ on
-Chebyshev–Lobatto grids
+blocks of nodes ([[problems/polynomials/E1133/claims/2026_04_29_chojecki|claim
+page]]). The second is the manuscript of Jia-Qi Yang, submitted to the site's
+proof-claims tab on 2026-09-13 (using GPT-6, as the tab writes it). It claims to
+prove the obstruction for sign data at any pointwise tolerance, with $\epsilon$
+of optimal exponential order in $C$. It also claims the sharp coefficient
+$\pi/2$ on Chebyshev–Lobatto grids
 ([[problems/polynomials/E1133/claims/2026_09_13_yang|claim page]]).
 
 The site's commentary credits Erdős with a weaker statement. He gives it as

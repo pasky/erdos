@@ -36,9 +36,9 @@ open. The two questions are the problem's parts, listed in the frontmatter as
 `distinct_distances` and `single_point`. The second question has a negative
 answer. Erdős and Fishburn [ErFi97b] published it with credit to Harborth, and
 it is recorded as an accepted partial claim on
-[[problems/distance_problems/E1082/claims/1997_10_01_erdos_fishburn|its claim page]].
-A DeepMind prover agent independently found a Lean proof of the same negative
-answer. That proof is a pending partial claim on
+[[problems/distance_problems/E1082/claims/1997_10_01_erdos_fishburn|its claim
+page]]. A DeepMind prover agent independently found a Lean proof of the same
+negative answer. That proof is a pending partial claim on
 [[problems/distance_problems/E1082/claims/2026_02_25_deepmind|its own page]].
 The first question is open. Two partial claims settle cases of it. Altman's
 theorem on convex polygons covers every set in convex position. It is an

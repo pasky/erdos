@@ -40,9 +40,9 @@ open; Korsky's pending claim bears on it.
 Erdős, Lev, Rauzy, Sándor and Sárközy, and the upper bound to the
 distinct-subset-sums bound of Problem 1. The frontmatter standing derives from
 the accepted claim page
-[[problems/divisors/E0882/claims/1999_04_01_erdos_lev_rauzy_sandor_sarkozy|the two-sided bound of 1999]],
-which fixes the size to its leading term $\log_2 n+O(\log\log n)$. A pending
-partial claim,
+[[problems/divisors/E0882/claims/1999_04_01_erdos_lev_rauzy_sandor_sarkozy|the
+two-sided bound of 1999]], which fixes the size to its leading term
+$\log_2 n+O(\log\log n)$. A pending partial claim,
 [[problems/divisors/E0882/claims/2026_07_27_korsky|Korsky's near-exact bounds]],
 narrows it to two consecutive values.
 

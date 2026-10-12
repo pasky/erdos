@@ -36,9 +36,8 @@ $a_n^{1/n}\to \infty$?
 2026-04-02). The problem asks two questions. The first, whether $a_n=2^{2^n}$ is
 such a sequence, has no claim. The second asks whether an irrationality sequence
 of this kind must satisfy $a_n^{1/n}\to\infty$. It has one pending partial
-claim,
-[[problems/irrationality/E0263/claims/2026_05_09_price|a disproof of the growth question posted in 2026]],
-which asserts a counterexample.
+claim, [[problems/irrationality/E0263/claims/2026_05_09_price|a disproof of the
+growth question posted in 2026]], which asserts a counterexample.
 
 **Source.** [erdosproblems.com/263](https://www.erdosproblems.com/263), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #263,

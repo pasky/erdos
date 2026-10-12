@@ -51,7 +51,8 @@ records it as a pending full claim without acceptance evidence. Tidor, Yu and
 Zakharov's preprint of 14 August 2026 proves $f_3(n)=n^{2/3-o(1)}$. This is a
 yes to the particular question for $d=3$. It is recorded as a pending partial
 claim on
-[[problems/distance_problems/E1083/claims/2026_08_14_tidor_yu_zakharov|its claim page]].
+[[problems/distance_problems/E1083/claims/2026_08_14_tidor_yu_zakharov|its claim
+page]].
 
 **Source.** [erdosproblems.com/1083](https://www.erdosproblems.com/1083),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1083,

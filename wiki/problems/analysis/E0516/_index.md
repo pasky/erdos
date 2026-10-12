@@ -32,15 +32,14 @@ $$
 
 **Status.** PROVED (LEAN). The site labels the problem PROVED (LEAN) (page last
 edited 28 December 2025) and credits Fuchs [Fu63] with the affirmative solution.
-The accepted claim page
-[[problems/analysis/E0516/claims/1963_12_01_fuchs|Fuchs 1963]] records the
-result, on the refereed venue and the site's acceptance, and the frontmatter
-standing derives from it. The claim page also carries the formalization link.
-The Lean qualifier refers to a proof in Boris Alexeev's lean-proofs repository
-that has not been built here (see Formalization). Two earlier refereed results
-settle subclasses and are accepted partial claims:
-[[problems/analysis/E0516/claims/1954_12_01_erdos_macintyre|Erdős and Macintyre 1954]]
-and [[problems/analysis/E0516/claims/1965_06_01_kovari|Kővári 1965]].
+The accepted claim page [[problems/analysis/E0516/claims/1963_12_01_fuchs|Fuchs
+1963]] records the result, on the refereed venue and the site's acceptance, and
+the frontmatter standing derives from it. The claim page also carries the
+formalization link. The Lean qualifier refers to a proof in Boris Alexeev's
+lean-proofs repository that has not been built here (see Formalization). Two
+earlier refereed results settle subclasses and are accepted partial claims:
+[[problems/analysis/E0516/claims/1954_12_01_erdos_macintyre|Erdős and Macintyre
+1954]] and [[problems/analysis/E0516/claims/1965_06_01_kovari|Kővári 1965]].
 
 **Source.** [erdosproblems.com/516](https://www.erdosproblems.com/516), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #516,

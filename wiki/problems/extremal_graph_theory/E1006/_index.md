@@ -56,11 +56,11 @@ girth five with no orientation of the required kind. The deduction is written
 out below and is this page's own. Corollary 4 of the same paper states the
 Hasse-diagram form. The paper describes its result as "the full solution of an
 Erdös-Ore problem" and cites Erdős's 1971 list for the question. The claim page
-[[problems/extremal_graph_theory/E1006/claims/1978_11_01_nesetril_rodl|Nešetřil and Rödl 1978]]
-records the result, its postings and the acceptance evidence. O. Pretzel, "A
-non-covering graph of girth six" (Discrete Math. 63 (1987), 241--244),
-constructs a graph of girth six that is not a cover graph. Through the
-equivalence in the Formulation, this is an explicit negative answer. It is
+[[problems/extremal_graph_theory/E1006/claims/1978_11_01_nesetril_rodl|Nešetřil
+and Rödl 1978]] records the result, its postings and the acceptance evidence. O.
+Pretzel, "A non-covering graph of girth six" (Discrete Math. 63 (1987),
+241--244), constructs a graph of girth six that is not a cover graph. Through
+the equivalence in the Formulation, this is an explicit negative answer. It is
 stated from its zbMATH summary, is pending, and is recorded on
 [[problems/extremal_graph_theory/E1006/claims/1987_01_01_pretzel|Pretzel 1987]].
 The standing in the frontmatter is derived from the claim pages.

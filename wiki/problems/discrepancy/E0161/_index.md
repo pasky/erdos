@@ -51,9 +51,9 @@ and the fixed-$n$ reading is degenerate.
 
 **Status.** Open, the site's label (page last edited 16 January 2026). The one
 claim is Conlon, Fox and Sudakov's accepted partial claim [CFS11]
-([[problems/discrepancy/E0161/claims/2009_01_25_conlon_fox_sudakov|claim page]]).
-Its result is that for $t=3$ the order of growth of $F^{(3)}(n,\alpha)$ is
-$\sqrt{\log n}$ for every fixed $\alpha\in(0,1/2)$. So no jump occurs inside
+([[problems/discrepancy/E0161/claims/2009_01_25_conlon_fox_sudakov|claim
+page]]). Its result is that for $t=3$ the order of growth of $F^{(3)}(n,\alpha)$
+is $\sqrt{\log n}$ for every fixed $\alpha\in(0,1/2)$. So no jump occurs inside
 $(0,1/2)$. Whether a jump occurs at $0$ for $t=3$ is open, and so is the whole
 question for $t\ge4$. So the problem stays open.
 

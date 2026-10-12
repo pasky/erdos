@@ -69,5 +69,6 @@ The problem page's Notes credit the result.
 **Acceptance.** Refereed: O. Pikhurko and S. Sun, On the quadratic 8-edge case
 of the Brown–Erdős–Sós problem, European J. Combin. 135 (2026), 104364. The
 publisher's record dates it 4 March 2026, after the arXiv posting of 2
-June 2025. The site does not cite the paper on this problem, and its curator makes no
-statement about it. The proof is unreviewed, and no formalization is known.
+June 2025. The site does not cite the paper on this problem, and its curator
+makes no statement about it. The proof is unreviewed, and no formalization is
+known.

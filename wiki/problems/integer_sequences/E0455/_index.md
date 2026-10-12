@@ -36,9 +36,9 @@ $$
 proof-claims thread accessed 2026-10-06). The site records Richter's bound
 $\liminf q_n/n^2>0.352$ [Ri76]. This refereed result is recorded as an accepted
 partial claim on
-[[problems/integer_sequences/E0455/claims/1976_01_01_richter|Richter's claim page]].
-Erdős and Graham pose the question in [ErGr80, p. 91] and cite Richter's result
-only as $\liminf q_n/n^2>0$.
+[[problems/integer_sequences/E0455/claims/1976_01_01_richter|Richter's claim
+page]]. Erdős and Graham pose the question in [ErGr80, p. 91] and cite Richter's
+result only as $\liminf q_n/n^2>0$.
 
 Two later partial results raise the bound and leave the limit question open.
 Neither is adopted here. Yongxi Lin claims $\liminf q_n/n^2>0.864289$ in a Lean

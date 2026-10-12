@@ -28,10 +28,10 @@ points with no three points on a line. Estimate $g(n)$.
 **Status.** Open, in the site's label. The order of $g(n)$ is undetermined. The
 accepted partial claims
 [[problems/discrete_geometry/E0589/claims/1991_05_01_furedi|Füredi 1991]] and
-[[problems/discrete_geometry/E0589/claims/2017_04_17_balogh_solymosi|Balogh and Solymosi 2017]]
-give $c\sqrt{n\log n}<g(n)\le n^{5/6+o(1)}$. Füredi applies Furstenberg and
-Katznelson's density Hales--Jewett theorem [FuKa91]. That theorem says nothing
-about $g(n)$ itself and has no claim page.
+[[problems/discrete_geometry/E0589/claims/2017_04_17_balogh_solymosi|Balogh and
+Solymosi 2017]] give $c\sqrt{n\log n}<g(n)\le n^{5/6+o(1)}$. Füredi applies
+Furstenberg and Katznelson's density Hales--Jewett theorem [FuKa91]. That
+theorem says nothing about $g(n)$ itself and has no claim page.
 
 **Source.** [erdosproblems.com/589](https://www.erdosproblems.com/589), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #589,

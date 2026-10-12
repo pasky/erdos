@@ -38,15 +38,15 @@ Nguyen and Vu date it to 1986.
 and credits Nguyen and Vu, describing the problem as solved in essence. The
 Formulation above records the reading under which the label attaches to the
 order of magnitude. The claim page
-[[problems/integer_sequences/E0587/claims/2008_11_09_nguyen_vu|of Nguyen and Vu]]
-records the acceptance, and the frontmatter standing derives from it. Nguyen and
-Vu (2010) prove that a square-sum-free subset of $\{1,\ldots,N\}$ has at most
-$N^{1/3}(\log N)^C$ elements for an absolute constant $C$. This matches Erdős's
-construction of order $N^{1/3}$ up to the logarithmic factor. That construction
-takes the first $k$ multiples of a prime $p\approx N^{2/3}$ with $1+\cdots+k<p$.
-So the largest such set has size $N^{1/3+o(1)}$. A public Lean development
-reports a gap in the proof of the paper's Lemma 4.2 and proves the bound by a
-corrected route (see the claim page). The site points to
+[[problems/integer_sequences/E0587/claims/2008_11_09_nguyen_vu|of Nguyen and
+Vu]] records the acceptance, and the frontmatter standing derives from it.
+Nguyen and Vu (2010) prove that a square-sum-free subset of $\{1,\ldots,N\}$ has
+at most $N^{1/3}(\log N)^C$ elements for an absolute constant $C$. This matches
+Erdős's construction of order $N^{1/3}$ up to the logarithmic factor. That
+construction takes the first $k$ multiples of a prime $p\approx N^{2/3}$ with
+$1+\cdots+k<p$. So the largest such set has size $N^{1/3+o(1)}$. A public Lean
+development reports a gap in the proof of the paper's Lemma 4.2 and proves the
+bound by a corrected route (see the claim page). The site points to
 [[problems/integer_sequences/E0438/_index|Problem 438]] as related.
 
 **Source.** [erdosproblems.com/587](https://www.erdosproblems.com/587), accessed

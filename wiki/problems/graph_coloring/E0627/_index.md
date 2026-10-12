@@ -33,10 +33,11 @@ $$
 exist?
 
 **Status.** Open, as the site labels it. The page was last edited 8
-February 2026. The site's commentary records Erdős's bounds and the conditional theorem
-and improved constant of Araujo, Filipe and Miyazaki. The Current assessment
-records them together with the conditional claim page
-[[problems/graph_coloring/E0627/claims/2025_12_18_araujo_filipe_miyazaki|Araujo, Filipe and Miyazaki's conditional limit]].
+February 2026. The site's commentary records Erdős's bounds and the conditional
+theorem and improved constant of Araujo, Filipe and Miyazaki. The Current
+assessment records them together with the conditional claim page
+[[problems/graph_coloring/E0627/claims/2025_12_18_araujo_filipe_miyazaki|Araujo,
+Filipe and Miyazaki's conditional limit]].
 
 **Source.** [erdosproblems.com/627](https://www.erdosproblems.com/627), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #627,

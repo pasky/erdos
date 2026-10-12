@@ -30,10 +30,10 @@ distances, for some $f(n)\to \infty$?
 2025). The standing derived from the claim pages is open, because no superlinear
 lower bound is known for planar sets in general. The assertion is proved for
 collinear sets, which are the progression-free sets of reals. On that class,
-[[problems/distance_problems/E0657/claims/2008_12_01_dumitrescu|Dumitrescu's accepted partial claim]]
-gives $(\log n)^c\le f(n)\le2^{O(\sqrt{\log n})}$.
-[[problems/distance_problems/E0657/claims/2025_08_19_hunter|Hunter's pending partial claim]]
-raises the lower bound to $2^{c(\log n)^{1/9}}$.
+[[problems/distance_problems/E0657/claims/2008_12_01_dumitrescu|Dumitrescu's
+accepted partial claim]] gives $(\log n)^c\le f(n)\le2^{O(\sqrt{\log n})}$.
+[[problems/distance_problems/E0657/claims/2025_08_19_hunter|Hunter's pending
+partial claim]] raises the lower bound to $2^{c(\log n)^{1/9}}$.
 
 **Source.** [erdosproblems.com/657](https://www.erdosproblems.com/657), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #657,

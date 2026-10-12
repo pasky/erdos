@@ -72,16 +72,16 @@ papers not held and are reported from the site.
 
 Two claims on the site's proof-claims tab bear on the gap questions and have
 claim pages. The site has adopted neither.
-[[problems/additive_combinatorics/E0876/claims/2026_07_18_price|Price's partial claim]]
-of 18 July 2026, credited to GPT 5.6 Sol Pro, states that every sum-free
+[[problems/additive_combinatorics/E0876/claims/2026_07_18_price|Price's partial
+claim]] of 18 July 2026, credited to GPT 5.6 Sol Pro, states that every sum-free
 sequence has $\limsup(a_{n+1}-a_n)/n=\infty$, a negative answer to the second
 question.
-[[problems/additive_combinatorics/E0876/claims/2026_09_22_korsky|Korsky's full claim]]
-of 22 September 2026, credited to GPT Astra, has two theorems. First, for a
-nondecreasing slowly varying $F\ge1$, a sum-free sequence with gaps of the order
-$nF(n)$ exists if and only if the integral $\int^\infty dx/(xF(x))$ is finite.
-Its claim page states how that reading of the summary's $\Omega(nF(n))$ is
-reached. Second, the smallest $c$ for which a sum-free sequence can have gaps
+[[problems/additive_combinatorics/E0876/claims/2026_09_22_korsky|Korsky's full
+claim]] of 22 September 2026, credited to GPT Astra, has two theorems. First,
+for a nondecreasing slowly varying $F\ge1$, a sum-free sequence with gaps of the
+order $nF(n)$ exists if and only if the integral $\int^\infty dx/(xF(x))$ is
+finite. Its claim page states how that reading of the summary's $\Omega(nF(n))$
+is reached. Second, the smallest $c$ for which a sum-free sequence can have gaps
 $O(n^c)$ and infinitely many bounded gaps is $(1+\sqrt{13})/2$. Both claims are
 unreviewed. Neither touches the reciprocal-sum question. The refereed sources
 alone give a bounded negative finding, not a certificate of openness.

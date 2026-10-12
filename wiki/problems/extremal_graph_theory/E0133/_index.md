@@ -58,16 +58,16 @@ The trivial bound $f(n)\ge\sqrt{n-1}$ holds because a graph of diameter $2$ with
 every degree at most $d$ has at most $d^2+1$ vertices. Cayley graphs on
 symmetric complete sum-free sets match it. Hanson and Seyffarth [HaSe84] gave
 $f(n)=O(\sqrt n)$
-([[problems/extremal_graph_theory/E0133/claims/1984_01_01_hanson_seyffarth|claim page]],
-partial). The site, Füredi and Seress, and Alon state this bound for all large
-$n$, while Haviv and Levy state it for the sequence $n=m^2+5m+2$. Haviv and Levy
-[HaLe18] constructed such sets in every large cyclic group, proving
+([[problems/extremal_graph_theory/E0133/claims/1984_01_01_hanson_seyffarth|claim
+page]], partial). The site, Füredi and Seress, and Alon state this bound for all
+large $n$, while Haviv and Levy state it for the sequence $n=m^2+5m+2$. Haviv
+and Levy [HaLe18] constructed such sets in every large cyclic group, proving
 $f(n)=O(\sqrt n)$ for every large $n$
-([[problems/extremal_graph_theory/E0133/claims/2017_03_12_haviv_levy|claim page]]).
-Füredi and Seress's projective-plane construction [FuSe94] gives the best known
-constant, $f(n)\le(2/\sqrt3+o(1))\sqrt n$ for all large $n$
-([[problems/extremal_graph_theory/E0133/claims/1994_01_01_furedi_seress|claim page]]).
-These last two results are refereed and settle the problem.
+([[problems/extremal_graph_theory/E0133/claims/2017_03_12_haviv_levy|claim
+page]]). Füredi and Seress's projective-plane construction [FuSe94] gives the
+best known constant, $f(n)\le(2/\sqrt3+o(1))\sqrt n$ for all large $n$
+([[problems/extremal_graph_theory/E0133/claims/1994_01_01_furedi_seress|claim
+page]]). These last two results are refereed and settle the problem.
 
 The constant, between $1$ and $2/\sqrt3$, is not asked and is open. Alon's 2024
 note, also cited on [[problems/extremal_graph_theory/E0134/_index|Problem 134]],

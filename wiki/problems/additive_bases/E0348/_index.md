@@ -38,11 +38,11 @@ sense with repeated values, the reading of Geneson's claim; van Doorn's
 strong-sense result settles no instance of it and has no claim page.
 
 **Status.** Claimed, against the site's label OPEN. One pending full claim is
-recorded,
-[[problems/additive_bases/E0348/claims/2026_09_09_geneson|Geneson's classification of deletion thresholds]],
-and the frontmatter standing, `claimed`/`answered`, follows from it. The claim
-is a 2026 preprint stating that the pairs asked for are exactly those with
-$m\in\{0,1\}$. The site's remarks record the case $m=2$, $n=3$ as unknown.
+recorded, [[problems/additive_bases/E0348/claims/2026_09_09_geneson|Geneson's
+classification of deletion thresholds]], and the frontmatter standing,
+`claimed`/`answered`, follows from it. The claim is a 2026 preprint stating that
+the pairs asked for are exactly those with $m\in\{0,1\}$. The site's remarks
+record the case $m=2$, $n=3$ as unknown.
 
 **Source.** [erdosproblems.com/348](https://www.erdosproblems.com/348), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #348,

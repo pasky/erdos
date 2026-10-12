@@ -39,12 +39,12 @@ with AI systems named on the tab. They are by Shouqiao Wang (14 July 2026), by
 Tamás Darvas, Binghui Peng and Runzhou Tao (15 July 2026), and by Cristian
 Budala (24 August 2026). All three give the same infimum. The pending claims are
 [[problems/analysis/E1038/claims/2026_07_14_wang|Wang's page]],
-[[problems/analysis/E1038/claims/2026_07_15_darvas_peng_tao|the page of Darvas, Peng and Tao]]
-and [[problems/analysis/E1038/claims/2026_08_24_budala|Budala's page]]. The
-supremum alone is the subject of the accepted partial claim on
+[[problems/analysis/E1038/claims/2026_07_15_darvas_peng_tao|the page of Darvas,
+Peng and Tao]] and [[problems/analysis/E1038/claims/2026_08_24_budala|Budala's
+page]]. The supremum alone is the subject of the accepted partial claim on
 [[problems/analysis/E1038/claims/1966_01_01_elbert|Elbert's page]] and of the
-pending partial claim on
-[[problems/analysis/E1038/claims/2025_12_21_tao|Tao's page]].
+pending partial claim on [[problems/analysis/E1038/claims/2025_12_21_tao|Tao's
+page]].
 
 **Source.** [erdosproblems.com/1038](https://www.erdosproblems.com/1038),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1038,
