@@ -8,7 +8,7 @@ autoImplicit = false
 [[require]]
 name = "mathlib"
 git = "https://github.com/leanprover-community/mathlib4"
-rev = "79aee35d9696d759b73eed71d7dde666750bc35e"
+rev = "d13f23b723b8a846827a245b89c10fc7d3f11612"
 
 # The mathematics. The glob builds every module under Erdos/
 # unconditionally: there is no root import file to maintain, and an

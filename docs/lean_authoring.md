@@ -20,7 +20,7 @@ updated: 2026-09-08T01:42:35Z
 
 The audit law (rigid triple, axiom hygiene, manifest) lives in
 [[anatomy|anatomy]]; this page is the practical layer a Lean author needs on the
-pinned toolchain (lean4 v4.32.0-rc1, mathlib per `lean/lake-manifest.json`).
+pinned toolchain (lean4 v4.34.1, mathlib per `lean/lake-manifest.json`).
 
 Lean is available during discovery when it helps expose an interface error,
 construct an object, or prove a useful implication. It is not an admission

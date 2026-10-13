@@ -46,13 +46,14 @@ under `UpperBound/`, and the statement, main-term, threshold-arithmetic,
 bridge, comparison and assembly modules at the top, with module paths
 re-rooted and the author's `Erdos809` namespaces kept so that a later sync
 differs only in import lines (two modules declare into an
-`Erdos809.NearBipartite` namespace, and the compatibility module below adds names
-under Mathlib's `SimpleGraph`, `Set` and `ENat`). The
-corpus pins an older Mathlib than the project, so a
+`Erdos809.NearBipartite` namespace). The
+corpus pins an older Mathlib than the project: one moved Mathlib import keeps
+its earlier name, which the pin keeps as a deprecated alias, and three proof
+steps keep the form the pin accepts. A
 [`MathlibCompat` module](../../../lean/Erdos/Library/Problem809/MathlibCompat.lean)
-restates four lemma names the project uses under those names, one moved
-Mathlib import takes its name on the pin, and three proof steps keep the
-form the pin accepts. The project's publication files, the Mathlib-only
+declares nothing; it gathers the Mathlib imports for the graph, walk, set and
+extended-natural lemmas that eleven of the modules use. The project's
+publication files, the Mathlib-only
 `Challenge.lean` with its deliberate `sorry` among them, are retained under
 [evidence/assets/publication/](evidence/_index.md) and are not built here.
 The modules use targeted Mathlib imports and contain no incomplete proofs.
