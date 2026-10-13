@@ -653,9 +653,9 @@ page navigation under [[math_authoring]].
   source prints it.
 - **Every claim carries its source.** Cite the paper behind each result and each
   claim page, linking the result page under `library/` when one exists. Do not
-  record a claim the sources do not support — the site itself warns that an
-  "open" label may be stale, so check the literature before recording either
-  way.
+  record a claim the sources do not support — the site's labels were not always
+  current, and the site itself warned that an "open" label might be stale, so
+  check the literature before recording either way.
 
 #### Page layout
 
@@ -673,9 +673,18 @@ and the curator's reading differ, both readings with their locators and the
 answer under each; they credit results about the site's wording. The fields
 "Corrected formulation" and "Answer to the corrected formulation" are not used.
 Status states the site's label with its qualifications as prose; the derived
-standing is the frontmatter. Preserve the exact formulation, status
-qualifications and source dates when normalizing labels. Formalization may
-briefly point to a detailed later section.
+standing is the frontmatter. On 6 October 2026 the site stopped showing problem
+labels and froze the comments in each problem's thread and its proof claims (the
+curator's post [Changes](https://www.erdosproblems.com/forum/thread/blog:9), 6
+October 2026); its general threads and its blog stayed open. A site label a page
+cites is therefore the label as it stood up to that date, a historical record
+written in the past tense, and a problem thread's comments and proof claims are
+a frozen archive as of that date. An access date of 7 October 2026 or later
+dates the page's other content, never its label. The site's statements, remarks,
+references, tags, prize, formalized-statement flag and problem lists remain
+current; cite the remarks with the date they were read. Preserve the exact
+formulation, status qualifications and source dates when normalizing labels.
+Formalization may briefly point to a detailed later section.
 
 Put one nonempty `## Current assessment` after this opening as the first
 authored H2. Intervening prose or H3 content is permitted. Later mathematical
