@@ -58,7 +58,7 @@ each by an exact path line in `.gitattributes` under "Data assets over 1 MB", so
 small JSON and TSV files stay plain text; a change that lands such a file adds
 its line. History is not rewritten: the file is re-added as a pointer. The
 conversion sidecars `.tex/`, `.html/` and `.convert/` beside a library PDF are
-the maintainers' working files: `library/.gitignore` ignores them, so a clone
+the maintainers' working files: the root `.gitignore` ignores them, so a clone
 has none. The converter that writes them is not distributed with the repository,
 so contributors supply Markdown transcriptions themselves (`CONTRIBUTING.md`).
 The `.arxiv/` record beside a held arXiv PDF is tracked, since the license audit

@@ -299,7 +299,7 @@ leg runs the same audit.
   work's text under the term of the held file beside them. Beside no held file,
   the sidecars are held under each term the card records, so the text left when
   a file is removed stays audited. Only tracked and non-ignored files are read,
-  so a sidecar git ignores is not held. In this repository `library/.gitignore`
+  so a sidecar git ignores is not held. In this repository the root `.gitignore`
   ignores all three sidecars, so none is held.
 - **The `license` key.** A scalar term when the card holds exactly one held
   file; a mapping from file name to term, keys in byte order, when it holds

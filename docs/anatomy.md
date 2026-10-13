@@ -791,8 +791,8 @@ wording (...), not the corrected Statement" otherwise.
   repository: its renderings and each work's records (state file, ledger, review
   notes and repair page payloads). Of these only the `.arxiv/` record is
   tracked, since the license audit reads it ([[tools]] "License audit
-  contract"), and it is never edited by hand. The others are working files:
-  `library/.gitignore` ignores them, so a clone has none. The maintainers' tools
+  contract"), and it is never edited by hand. The others are working files: the
+  root `.gitignore` ignores them, so a clone has none. The maintainers' tools
   rebuild them in the checkout where they run, and a bundle from outside arXiv
   is fetched again from the release its card cites. The converter's records stay
   in the checkout where it ran. A converter run in a fresh clone finds no record

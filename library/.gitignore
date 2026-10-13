@@ -1,4 +1,11 @@
-# the conversion sidecars beside each library PDF: the maintainers' working files; the .arxiv/ records stay tracked
-**/.convert/
-**/.tex/
-**/.html/
+# >>> mdconvert >>>
+**/.convert/**
+!**/.convert/*/
+!**/.convert/*/_state.json
+!**/.convert/*/_history.jsonl
+!**/.convert/*/_notes.md
+!**/.convert/*/_execution/
+!**/.convert/*/_execution/*/
+!**/.convert/*/_execution/*/pages/
+!**/.convert/*/_execution/*/pages/*.md
+# <<< mdconvert <<<

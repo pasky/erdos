@@ -1,8 +1,12 @@
 # Adapted from GitHub Python .gitignore template (https://github.com/github/gitignore/blob/master/Python.gitignore)
 
-# Scratch directory
-/tmp/
-/wiki/tmp/
+# Library sidecars
+**/.convert/
+**/.html/
+**/.tex/
+
+# Scratch directories
+**/tmp/
 
 # Editor config
 .vscode/
