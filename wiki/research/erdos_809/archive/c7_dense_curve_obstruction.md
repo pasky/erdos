@@ -23,6 +23,8 @@ This construction disproves extending the stronger all-edge formula of
 [[../library/ramsey_theory/bucic_2026_maximal_anti_ramsey_conjecture_burr_erdos/theorem_1_2|Bucić, Chen and Ma, Theorem 1.2]] (BCM)
 to $C_7$, ruling out an unchanged use of that induction. At
 $e=\lfloor n^2/4\rfloor+1$, it does not contradict the threshold assertion.
+The [five-clique construction](../proofs/c7_five_clique_construction.md)
+shows the same failure at every density strictly between $1/4$ and $1/2$.
 
 ## Construction and coloring
 

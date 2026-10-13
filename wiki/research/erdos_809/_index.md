@@ -3,7 +3,7 @@ name: research/erdos_809
 title: Proof of the rainbow odd-cycle threshold
 desc: The seven-cycle argument and Lean formalization of the full k≥3 threshold, recorded as claim L17 and accepted at tier 2 on 2026-09-25 for its audited Lean sources and statement.
 created: 2026-09-24T00:00:00Z
-updated: 2026-10-13T02:23:33Z
+updated: 2026-10-13T02:31:05Z
 ---
 
 # Proof of the rainbow odd-cycle threshold
@@ -19,7 +19,9 @@ beside the research folder.
 
 [[research/erdos_809/formalization|formalization]]: The Lean theorem covers every k≥3 by combining the seven-cycle proof with the Bucić–Chen–Ma k≥4 theorem.
 
-[[research/erdos_809/proofs/_index|proofs/]]: Six notes for the C7 threshold, from finite palette savings through graph cleaning and the near-Turán cases.
+[[research/erdos_809/open_questions|open_questions]]: The five further questions of Plasma AI's seven-cycle write-up: the interior coefficient, stability, compatible edge families, the error term and a proof without regularity.
+
+[[research/erdos_809/proofs/_index|proofs/]]: Six notes for the C7 threshold, from finite palette savings through graph cleaning and the near-Turán cases, and two for Plasma AI's bounds above the threshold.
 
 ***
 
@@ -52,3 +54,10 @@ the [formalization account](formalization.md) for the Lean assembly. The
 [research archive](archive/_index.md) preserves earlier finite-template
 routes, counterexamples to stronger formulas, and bounded experiments. Its
 local unresolved questions do not remain gaps in the threshold proof.
+
+Plasma AI's write-up of the seven-cycle proof, held in the
+[research evidence](evidence/_index.md), also proves a lower bound at every
+edge density and a construction beating the longer-cycle formula at every
+interior density. Both are recorded among the [proof notes](proofs/_index.md)
+as the write-up's results, not independently reviewed here. Its further
+questions are collected on the [open questions](open_questions.md) page.
