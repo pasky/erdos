@@ -94,10 +94,8 @@ Read status: claims checked for Theorem 1.3 (p. 2), the definition of
 $\mu$-almost-regularity and the statements of Theorems 1.1 and 1.2 that
 precede it, read clause by clause on the rendered page image
 (the digest's constants $6$, $(2^\varepsilon-1)/48$ and
-$d(G)/(12\log(2n/d(G)))$ agree with the print); the proof and the bipartite
-theorems were not read in that pass. Later the statements of Theorems 1.5--1.7
-(pp. 3--4), 5.7 and 5.10 (pp. 25--27) and the outline of Section 2 (pp. 4--8)
-were read on the page images to correct this digest; no proof was checked. Then
+$d(G)/(12\log(2n/d(G)))$ agree with the print). The outline of Section 2
+(pp. 4--8) was read on the page images; no proof was checked there.
 Definition 1.4 and Theorems 1.5--1.7 (pp. 3--4), the notation for asymmetric
 extremal numbers and subdivisions (pp. 2--3), and Theorems 5.7 and 5.10 with the
 remarks after them (pp. 25--27) were read clause by clause on the page images

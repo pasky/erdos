@@ -88,9 +88,8 @@ with the sharpness of $G_4(n,k)$ gives that conjecture's equality in its
 full range $r_{\text{Bondy}}\le\frac12(n-1)$, as the corpus reads it.
 
 **The small range, a filing observation and not a review verdict.** The
-second bound covers $k+3\le n\le2k+2$, where the problem page had no
-source. For these $n$ the problem's count is at least the second bound:
-with $a=n-k-1\ge2$ and $b=k+2$, $a+b=n+1$, and
+second bound covers $k+3\le n\le2k+2$. For these $n$ the problem's count
+is at least the second bound: with $a=n-k-1\ge2$ and $b=k+2$, $a+b=n+1$, and
 $\binom a2+\binom b2=\frac12(a^2+b^2-(n+1))$ is smallest when $a$ and $b$
 are as equal as possible, which gives $\frac14(n^2-1)=[\frac14n^2]$ for $n$
 odd and $\frac14n^2$ for $n$ even (followed here; both are one line of
@@ -174,9 +173,9 @@ held).
   bound is the problem's edge count, the range $n\ge2k+3$ is the site's,
   and the conclusion includes a cycle on $n-k$ vertices, so $f(k)\le2k+3$;
   the statement agrees with Theorem 8 of
-  [[extremal_graph_theory/li_2023_stability_woodall_theorem_spectral_conditions_large_cycles/_index|Li and Ning 2023]],
-  through which the page had read it. The paper frames the corollary as the
-  answer to Erdős's 1969 question, Problem 4 of the Oxford list paged at
+  [[extremal_graph_theory/li_2023_stability_woodall_theorem_spectral_conditions_large_cycles/_index|Li and Ning 2023]].
+  The paper frames the corollary as the answer to Erdős's 1969 question,
+  Problem 4 of the Oxford list paged at
   [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_4|Erdős 1971, item 4]],
   with the problem's count and not the list's misprinted one, and its
   $G_4(n,r)$ is the problem's sharpness graph with the paper's own statement
@@ -185,6 +184,5 @@ held).
   and the case $r=0$ to
   [[extremal_graph_theory/ore_1961_arc_coverings_graphs/theorem_4_3|Ore 1961, Theorem 4.3]].
   The second bound, with the elementary comparison above, covers the range
-  $k+3\le n\le2k+2$ that the page had left to a forum argument, so the
-  problem's implication holds for every $n\ge1$; that comparison is made
-  here, not in the paper.
+  $k+3\le n\le2k+2$, so the problem's implication holds for every $n\ge1$;
+  that comparison is made here, not in the paper.

@@ -78,8 +78,8 @@ also records.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0112/_index|Problem 112]]: the bound $k(n,3)\le n^2$
-  that the site's commentary attributes to the paper, which the page had
-  second-hand from the 2021 paper's Lemma 2.4; the 2021 paper's
+  that the site's commentary attributes to the paper and that the 2021
+  paper restates as its Lemma 2.4; the 2021 paper's
   [[ramsey_theory/ihringer_2017_new_bounds_ramsey_number_r_i/proposition_3_4|Proposition 3.4]]
   sharpens it to $k(n,3)\le n^2-n+3$, and its Theorem 1.2 gives the order
   $n^2/\log n$. At $n=4$ the corollary $r(K_4^*,L_3)\le16$ is the upper

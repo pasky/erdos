@@ -68,3 +68,15 @@ the index $i=0$ in the proof of Lemma 4.1 (iii), and two scope sentences) and
 records every page as faithful to the source, with the arguments sound as
 reconstructed given their labeled imports. These are focused reviews: they
 assign no tier, change no status, and leave the pages author-recorded.
+
+The records name two library cards for the paper, which became one card. Three
+of their links named the removed card,
+`library/arithmetic_functions/pollack_2013_sets_monotonicity_euler_s_totient_function/`,
+and were redirected in place to the kept card,
+[[../library/primes/pollack_et_al_2013_sets_monotonicity_euler_totient_function/_index|Pollack, Pomerance and Treviño (2013)]]:
+the link "the second card" in
+[[research/erdos_49/evidence/verify/grade|the grade]] and in
+[[research/erdos_49/evidence/verify/theorem_3_3_reconstruction_review|the Theorem 3.3 review]],
+and the link "the arithmetic-functions card" in
+[[research/erdos_49/evidence/verify/theorem_1_2_reconstruction_review|the Theorem 1.2 review]].
+The records' other mentions of the two cards stay as written.

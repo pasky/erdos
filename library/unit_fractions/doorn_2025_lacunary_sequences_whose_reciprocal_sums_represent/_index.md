@@ -52,7 +52,7 @@ below are the preprint's. Read status: claims checked. Definition 1 (p. 1),
 display (1.2) and Theorems 1 and 2 (pp. 2--3) were read clause by clause on
 the rendered page image of p. 2 and the text layer of pp. 1--3, Theorem 3
 (p. 3) in the text layer, and Corollary 5's proof (pp. 6--7) was read;
-Theorem 3 (p. 3), Proposition 8 (p. 8) and Theorem 12 (p. 15) were later
+Theorem 3 (p. 3), Proposition 8 (p. 8) and Theorem 12 (p. 15) were also
 read clause by clause on the page images; Sections 3--6 and Appendix A were
 read for structure only and nothing is verified. Result pages:
 [[unit_fractions/doorn_2025_lacunary_sequences_whose_reciprocal_sums_represent/theorem_1|theorem_1]],

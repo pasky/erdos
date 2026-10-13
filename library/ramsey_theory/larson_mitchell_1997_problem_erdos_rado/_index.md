@@ -264,8 +264,8 @@ digraph is an arbitrary set of arcs, an independent set has "no arcs in
 either direction", and the transitive tournament is included as a
 subgraph; Question 1.2, p. 246). Lemma 4.2 (p. 248), "For all $n>1$,
 $r(K_n^*,L_3)\le n^2$", is the bound the site's commentary attributes to
-the paper, $k(n,3)\le n^2$, which the page had second-hand from Lemma 2.4
-of Ihringer, Rajendraprasad and Weinert; that paper's Proposition 3.4
+the paper, $k(n,3)\le n^2$, which Ihringer, Rajendraprasad and Weinert
+restate as their Lemma 2.4; that paper's Proposition 3.4
 sharpens it to $n^2-n+3$. Proposition 3.1 (p. 248), "$r(K_4^*,L_3)>13$",
 with the corollary $r(K_4^*,L_3)\le16$ of Lemma 4.2, is the bracket
 $14\le k(4,3)\le16$ that the table of p. 247 prints as "$14-16$", closed at

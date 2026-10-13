@@ -290,7 +290,7 @@ is the problem's edge count, the range is the site's $n\ge2k+3$, and the
 length $n-k$ is included, so $f(k)\le2k+3$ in the site's letters; the
 statement matches Theorem 8 of
 [[extremal_graph_theory/li_2023_stability_woodall_theorem_spectral_conditions_large_cycles/_index|Li and Ning 2023]]
-(p. 4), through which the problem page had read it. The paper itself
+(p. 4). The paper itself
 frames the corollary as the answer to Erdős's 1969 question (p. 741,
 citing Problem 4 of the Oxford list, paged at
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_4|Erdős 1971, item 4]];
@@ -304,8 +304,8 @@ and the case $r=0$ to
 Corollary 11.1 is the case $k=0$ of
 [[extremal_graph_theory/woodall_1972_sufficient_conditions_circuits_graphs/theorem_11|Theorem 11]]
 (pp. 747--748), whose cases with a positive minimum valency the problem
-does not use. The second bound bears on the smallest admissible $f(k)$, which the problem
-page had left open: for $k+3\le n\le2k+2$ the problem's count is at least
+does not use. The second bound bears on the smallest admissible $f(k)$: for
+$k+3\le n\le2k+2$ the problem's count is at least
 $[\frac14n^2]+1$ (an elementary comparison recorded on the result page), so
 the corollary's two bounds together give the problem's implication for
 every $n\ge k+3$. The problem page reads the corollary and Theorem 11 on

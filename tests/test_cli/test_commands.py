@@ -230,7 +230,7 @@ def test_evidence_lists_entry_points_declarations_and_gaps(
     owner = root / 'wiki' / 'theory' / 'wall' / 'L1_first' / 'evidence'
     write_page(
         owner / 'verify' / 'main.py',
-        '# evidence: historical 2026-03-01',
+        '# evidence: historical',
         'import sys',
         'sys.exit(1)',
     )
@@ -248,7 +248,7 @@ def test_evidence_lists_entry_points_declarations_and_gaps(
         'wiki/theory/wall/L1_first/evidence/probe/main.py  probe'
         '  takes --quick  spawns a worker pool\n'
         'wiki/theory/wall/L1_first/evidence/verify/main.py  leg'
-        '  declared: historical 2026-03-01\n'
+        '  declared: historical\n'
         'gap: wiki/theory/wall/L1_first/evidence/verify/leg_b'
         '  wiki/theory/wall/L1_first/evidence/verify/leg_b/check.py\n'
     )

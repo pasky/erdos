@@ -70,7 +70,7 @@ numerical threshold.
 
 **Method and proof scope.** The source associates a graph to each distance value
 and studies its vertex degrees. The earlier source check covered statements and
-selected method only. Complete own-words proof compilations now supply the local
+selected method only. Complete own-words proof compilations supply the local
 degree arguments, all high-degree diagram cases and the two upper bounds. The
 circle-counting correction in Lemma 1 and the replacement of Lemma 3's
 three-short-neighbor shortcut are explicitly identified as compilation-supplied.

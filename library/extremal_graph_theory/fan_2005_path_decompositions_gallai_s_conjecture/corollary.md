@@ -95,7 +95,7 @@ and Lovász's path sequence technique (the paper's [4], not held).
   with $\lfloor n/2\rfloor$ in place of $\lceil n/2\rceil$, for every graph
   each block of whose even-degree subgraph is a triangle-free graph of
   maximum degree at most $3$; the row that page's table records for the
-  paper, now read at first hand, and the statement Bonamy and Perrett quote
+  paper, read here at first hand, and the statement Bonamy and Perrett quote
   as their Theorem 1.2. It contains Pyber's
   [[extremal_graph_theory/pyber_1996_covering_edges_connected_graph_paths/theorem_0|forest case]],
   whose blocks have maximum degree at most $1$. A special class, not the

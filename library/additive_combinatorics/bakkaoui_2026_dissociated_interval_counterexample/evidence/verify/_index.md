@@ -168,12 +168,12 @@ assigned.
 All paths here resolve from this source owner in an ordinary clone. The
 reviewed result is retained as an opaque snapshot; its internal relative paths
 describe its original location. The mathematical input retains its reviewed
-bytes. The owner checker's docstring was edited after the review, on
-2026-09-17: the sentence prescribing an external 30-second supervisor limit was
-replaced by an expected-runtime sentence, with every check and its data
-unchanged. The reviewed checker bytes are those of `evidence/main.py` as it
-stood on 2026-09-10; they are not retained, and today's file differs from them
-only by that docstring edit.
+bytes. Since the review, the owner checker's docstring sentence prescribing an
+external 30-second supervisor limit was replaced by a sentence on its expected
+runtime, with every check and its data unchanged. The reviewed checker bytes
+are those of `evidence/main.py` as it stood on 2026-09-10; they are not
+retained, and the current file differs from them only by that docstring
+sentence.
 
 | Reviewed artifact | Exact native file |
 | --- | --- |

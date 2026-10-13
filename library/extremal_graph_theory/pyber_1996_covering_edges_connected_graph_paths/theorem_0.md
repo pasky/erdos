@@ -93,7 +93,7 @@ held).
 - [[../wiki/problems/extremal_graph_theory/E0583/_index|Problem 583]]: the conjecture, with
   $\lfloor n/2\rfloor$ in place of $\lceil n/2\rceil$, for every graph whose
   even-degree vertices induce a forest; the row that page's table records
-  for the paper, now read at first hand. Bonamy and Perrett's
+  for the paper, read here at first hand. Bonamy and Perrett's
   [[extremal_graph_theory/bonamy_2019_gallai_s_path_decomposition_conjecture_graphs/theorem_1_3|Theorem 1.3]]
   finishes with this theorem. The Example's graphs are odd semi-cliques in
   the sense of their Question 1.1. A special class, not the general statement.

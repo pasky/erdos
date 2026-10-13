@@ -60,11 +60,11 @@ Read status: claims checked for the lacunary density question and the
 generalized arithmetic progression question of p. 96, read clause by clause
 on the page image of PDF p. 8. The first page (p. 89), the closing problems (pp.
 97--98) and the references (p. 99) were read on the page images of PDF pp. 1, 9,
-10 and 11; §§ 2--6 (pp. 89--96) were first read in the text layer only, for
-their section structure and the names in them, and their summaries below were
-checked against the page images of PDF pp. 1--8. The chapter states questions
-and reports results of others; it proves nothing, so there is no proof to check,
-and nothing here is independently reviewed.
+10 and 11; §§ 2--6 (pp. 89--96) were read in the text layer for their section
+structure and the names in them, and their summaries below were checked against
+the page images of PDF pp. 1--8. The chapter states questions and reports
+results of others; it proves nothing, so there is no proof to check, and nothing
+here is independently reviewed.
 
 ## Contents
 

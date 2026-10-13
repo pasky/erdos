@@ -43,7 +43,7 @@ bounds; it located no exact-target resolution. This is a bounded currentness
 check, not a proof of openness.
 
 A complete own-words reconstruction of Theorem 3, its balanced specialization
-and every essential local step is now supplied on the linked source result
+and every essential local step is supplied on the linked source result
 pages. It includes explicit overlap, rotation-convention and regulus repairs,
 and precisely stated external Guth--Katz premises. Its living verification
 record is **Verified at the stated scope** after independent source-based
@@ -53,9 +53,7 @@ the external Guth--Katz proofs are not compiled or reviewed here. The lattice
 construction is separately **Verified at the stated scope** in that review,
 relative to its external counting premise, whose proof remains uncompiled.
 Theorem 4's separate unbalanced proof remains uncompiled in this account. These
-additions do not change the status of the little-o question. On 2026-10-13 the
-literature-check paragraph above was reworded to drop its date; the change
-touches no examined statement, proof, code or input.
+additions do not change the status of the little-o question.
 
 ## Progress
 

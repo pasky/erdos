@@ -252,8 +252,8 @@ substitution made on the problem page), and the paper credits it to "the
 construction described in [4]", its Erdős--Laskar 1985 reference, the same
 attribution as the site's. Corollary 3.1 (printed p. 262, PDF p. 14)
 restates and reproves Edwards's theorem for $e\ge n^2/3$, degree sum at
-least $6e/n$ with equality exactly for regular graphs, which the problem
-page had second-hand from [ErLa85]. Theorem 2 (printed p. 259, PDF p. 11)
+least $6e/n$ with equality exactly for regular graphs, which [ErLa85] also
+reports. Theorem 2 (printed p. 259, PDF p. 11)
 gives a lower bound that, by its Remark, exceeds $21e/4n$ for $e\ge0.26n^2$
 and that is below $n+4$ at the problem's edge count, so it does not move the
 problem's bounds. The paper does not address whether $2(\sqrt3-1)$ is the

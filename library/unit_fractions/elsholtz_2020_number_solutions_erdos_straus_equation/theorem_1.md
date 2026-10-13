@@ -38,9 +38,9 @@ compared.
 
 **Read depth.** Claims checked: Theorem 1, Corollaries 1 and 2, Theorems 2
 and 3 and Corollary 4 and Theorem 4 (pp. 2--4) were read clause by clause on
-the page images of pp. 2 and 4 and in the text layer of p. 3; the proofs
-were not read. The proof of Theorem 1 (pp. 9--10) was later read for its
-structure only and was not checked step by step.
+the page images of pp. 2 and 4 and in the text layer of p. 3. The proof of
+Theorem 1 (pp. 9--10) was read for its structure only and was not checked
+step by step; the other proofs were not read.
 
 ## Proof pointer
 

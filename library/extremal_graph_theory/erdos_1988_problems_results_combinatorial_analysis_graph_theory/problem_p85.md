@@ -44,8 +44,8 @@ this if possible."
 Here $G(n;m)$ and $\mathcal G(n;m)$ denote a graph with $n$ vertices and
 $m$ edges (the paper prints both), and $f_k(n)-1$ is the maximum number of
 edges of an $n$-vertex graph with no $k$-regular subgraph. The exponent in
-$F_3(n)<cn^{5/3}$ is $5/3$ on the page image (the source digest formerly
-printed $3/2$), consistent with Erdős's 1975 statement $F(n,3)<c_1n^{5/3}$.
+$F_3(n)<cn^{5/3}$ is $5/3$ on the page image, consistent with Erdős's 1975
+statement $F(n,3)<c_1n^{5/3}$.
 
 **Source.** P. Erdős, *Problems and results in combinatorial analysis and
 graph theory*, Discrete Math. 72 (1988), 81--92; Section 6 on printed p. 85

@@ -148,13 +148,13 @@ page (C5); Step 4 of the Theorem 5.1 page (C6); Steps 1 and 3 of the
 digit-budget page (C7, C8); the three step headings of the bounded-spacing page
 (C9); and Step 4 of the theorem page (C10). No tier is assigned and the
 problem's status is unchanged. After the review, line wrapping was normalized on
-the reconstruction pages; no formula or sentence changed.
+the reconstruction pages, changing no formula or sentence.
 
 **First question (base 2).** The problem page records the first question
 as answered yes on a bounty site's accepted Lean proof, with the stated
 qualifications. The Yu--Chen manuscript claims the stronger conclusion
 that the value set stays complete after every finite deletion. Its
-argument is now written out here at the author-recorded level, with one
+argument is written out here at the author-recorded level, with one
 external input (Dirichlet's approximation theorem, imported on the
 windows page) and one finite input (the Appendix A certificate, rechecked
 by the evidence). Where the source states a step without proof (the

@@ -91,7 +91,7 @@ $$
 The source construction of $Z$ deletes neighborhoods in $G'=G-L$
 of only the sampled vertices outside $L$, together with $U$.
 That weaker condition does not give the needed disjointness from
-$\bar A_j\cap L$. Lemma 4.3 now explicitly also deletes the entire
+$\bar A_j\cap L$. Lemma 4.3 here explicitly also deletes the entire
 union $S$ of sampled adjusters before applying Lemma 3.12. Its size
 bound verifies the allowed deletion. The preceding proof uses this
 stronger choice, not an arbitrary $Z$ with only the source's weaker

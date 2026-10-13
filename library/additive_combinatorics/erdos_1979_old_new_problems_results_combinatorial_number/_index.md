@@ -40,16 +40,15 @@ and Szemeredi-type statements, monochromatic structures in partitions, and the
 associated density and Ramsey-type questions were first stated or given their
 current status, rather than a paper proving a single theorem. Statements about what was
 known in this digest describe the paper's 1979 context. The problem links
-below were checked against the chapter's twenty pages; the import's links to
-twenty problems the chapter does not state, whose site pages cite the 1980
-monograph [ErGr80] (its pp. 26--94) and not this chapter, were removed.
-Because the text is a problem list, the specific numbered results are
-references to other papers rather than new theorems proved here. The import's
-link to problem 289, the question whether $1$ is a sum of reciprocals over
-$k$ separated blocks of consecutive integers, was removed: the
-chapter's twenty pages (text layer searched; the plan on printed p. 326 read
-on the page image) contain no unit-fraction passage, and the question's
-passage is printed p. 34 of the 1980 monograph.
+below were checked against the chapter's twenty pages; problems the chapter
+does not state, whose site pages cite the 1980 monograph [ErGr80] (its
+pp. 26--94) and not this chapter, are not linked. Because the text is a
+problem list, the specific numbered results are references to other papers
+rather than new theorems proved here. Problem 289, the question whether $1$
+is a sum of reciprocals over $k$ separated blocks of consecutive integers, is
+not linked: the chapter's twenty pages (text layer searched; the plan on
+printed p. 326 read on the page image) contain no unit-fraction passage, and
+the question's passage is printed p. 34 of the 1980 monograph.
 
 Source: <https://users.renyi.hu/~p_erdos/1979-07.pdf>. The copy read for this
 card is the 20-page PDF of 1,593,809 bytes; no notice is printed in it; the

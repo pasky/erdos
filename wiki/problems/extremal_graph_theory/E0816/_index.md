@@ -51,9 +51,8 @@ of Chen and Ma's theorem, which is a theorem's hypothesis and not the form.
 The form follows from the size of the failing instance alone, not from the
 range of any theorem; the formal-conjectures statement file states the same
 range $n\ge2$. Results about the site's wording, credited and never counted:
-the failure at $n=1$ is this corpus's own check, first recorded on this page
-on 2026-09-18; the [formal-conjectures statement
-file](https://github.com/google-deepmind/formal-conjectures/blob/dbf791ccb6137ed409b0f8c608d397acb141921b/FormalConjectures/ErdosProblems/816.lean),
+the failure at $n=1$ is this corpus's own check; the
+[formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/dbf791ccb6137ed409b0f8c608d397acb141921b/FormalConjectures/ErdosProblems/816.lean),
 added on 2026-09-20, notes that at $n=1$ the graph is a triangle with no path
 of length $3$; and the docstring of Boris Alexeev's [Lean
 development](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos816.lean)

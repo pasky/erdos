@@ -216,8 +216,8 @@ observation (printed p. 99) and the note's remark after it that $t^i$ is
 the degree sequence of a tree on $i+1$ vertices less one of its $1$'s, so
 that the packing Graham's remark requires exists: the degree sequences of
 any trees on $2,\ldots,n+1$ vertices pack into the degree sequence of
-$K_{n+1}$, the fact the page had from the Joos, Kim, Kühn and Osthus
-paper. The site
+$K_{n+1}$, a fact the Joos, Kim, Kühn and Osthus paper also states. The
+site
 cites this note for the verification of the tree packing conjecture for
 $n\le9$; the note, read in full on the page images, states no such result
 and no result on the conjecture itself, only the degree-sequence packing

@@ -94,8 +94,8 @@ Within the paper: Lemma 1 and Lemma 2 (pp. 226--227) and observations 1--8
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0742/_index|Problem 742]]: the bound
-  $|E|<0.27n^2$ that the page had from Füredi's attestation, now read in the
-  paper in its sharper form $\varepsilon<\frac{1+\sqrt5}{12}\nu^2$; the
+  $|E|<0.27n^2$ that Füredi attests, read here in the paper in its sharper
+  form $\varepsilon<\frac{1+\sqrt5}{12}\nu^2$; the
   earlier bound is Plesník's $|E|<3n(n-1)/8$ (1975, not held) and the later
   ones Fan's $0.2532n^2$ for $n\ge25$ (1987,
   [[extremal_graph_theory/fan_1987_diameter_2_critical_graphs/theorem|Theorem (iii)]])

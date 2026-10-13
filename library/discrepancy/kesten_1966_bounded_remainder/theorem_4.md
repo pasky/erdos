@@ -535,13 +535,12 @@ direction is not full local proof coverage of Theorem 4.
 
 The
 [[irrationality/ostrowski_1927_mathematische_miszellen/evidence/verify/translated_interval_review|retained independent review and distinct grade]]
-cover the previously recorded Theorem 4 statement, exact domains and
-elementary transfers, not the anchored proof reviewed in the records above.
-That review read this page as it stood on 2026-09-09T00:48:49Z. The
-reconstruction filed on 2026-09-10T09:12:21Z added the anchored necessity
-sections above and removed the earlier proof-scope paragraph, which said the
-necessity argument was not reconstructed; the statement, exact domains and
-elementary transfers it read are otherwise unchanged apart from citation
-wording tidied on 2026-09-17. The endpoint disproof does not depend on the
+cover the Theorem 4 statement, exact domains and elementary transfers, not
+the anchored proof reviewed in the records above. That review read this page
+as it stood on 2026-09-09T00:48:49Z. Since that review, the anchored necessity
+sections above replaced a proof-scope paragraph that left the necessity
+argument unreconstructed, and citation wording was tidied; the statement,
+exact domains and elementary transfers it read are otherwise unchanged. The
+endpoint disproof does not depend on the
 necessity direction. Those completed earlier scopes and their acceptance are
 unchanged.

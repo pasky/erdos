@@ -87,5 +87,5 @@ of the paper (p. 2, proved p. 6), with the dependencies listed there.
   every graph whose even-degree vertices induce a complete graph on at most
   $15$ vertices; for $n$ even it is one more than the conjecture's $n/2$.
   This is the row that page's table records for the paper from the site's
-  account, now read at first hand. Lovász's row of the same table is the
+  account, read here at first hand. Lovász's row of the same table is the
   case $m\le1$. A special class, not the general statement.

@@ -103,8 +103,8 @@ Harary (the paper's [3], not held) for the case $m=0$ of Lemma 3.9.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0549/_index|Problem 549]]: the exact values the
-  problem page quoted from Norin, Sun and Zhao's Theorem 1.1 and from
-  Montgomery, Pavez-Signé and Yan, now read at the source; the theorems do
+  problem page quotes from Norin, Sun and Zhao's Theorem 1.1 and from
+  Montgomery, Pavez-Signé and Yan, read here at the source; the theorems do
   not cover the tree $S(2k-1,k-1)$ for $k\ge4$, whose ratio $n/m$ lies
   strictly between $\sqrt2$ and $3$ and whose $m\ge3$, while Lemma 3.9 with
   Theorem 2.1 gives $r(S(3,1))=7$ and $r(S(5,2))=11$, the equality

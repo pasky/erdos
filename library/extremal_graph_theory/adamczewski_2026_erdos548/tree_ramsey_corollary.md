@@ -70,7 +70,7 @@ The parity refinements are stated in LouisD's comments of 2026-09-04 on
 and [the #557 discussion](https://www.erdosproblems.com/forum/discuss/557).
 The proof above checks those upper bounds directly; the comments' additional
 claims of sharpness for stars require a separate lower-bound argument.
-For $q=2$, that argument is now supplied in
+For $q=2$, that argument is supplied in
 [[extremal_graph_theory/adamczewski_2026_erdos548/star_sharpness|two-colour
 star sharpness]], including unequal star orders. General-$q$ star sharpness
 remains outside the proof coverage here. It is classical: Chung and Graham

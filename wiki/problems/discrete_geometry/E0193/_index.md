@@ -87,9 +87,7 @@ reconstruction]] has passed an independent whole-proof review. The
 [[../library/discrete_geometry/cambie_kalviainen_2026_small_step_walk/evidence/verify/source_proof_review|retained review]]
 checks every essential deduction against the v1 PDF and the exact catalog
 consequence. It certifies no claim that all sixteen possible steps occur and
-no formal verification. On 2026-10-12 this page's frontmatter description and
-Status paragraph were reworded; the change touches no examined statement, proof,
-code or input.
+no formal verification.
 
 Thomas Bloom explicitly agreed that the result should be marked solved in
 [a September 3, 2026 comment](https://www.erdosproblems.com/forum/thread/proof-claim:5a48dd7b490340c598f617b09282d003#post-8704).

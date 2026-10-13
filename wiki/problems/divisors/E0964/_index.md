@@ -82,11 +82,11 @@ curator's credit and the journal publication; the community Lean file is
 recorded there as a formalization link, not as evidence.
 
 The divisor-ratio review, grade and source reading filed with the Eberhard
-source read this page as it stood on 2026-09-10T20:31:59Z. On
-2026-09-18T02:50:47Z the frontmatter status was changed from solved
-to proved and the Status field and one Known Results line were reworded to
-match, with the affirmative answer and Eberhard's theorem as its source
-unchanged; the Statement and this assessment were not touched by that edit.
+source read this page as it stood on 2026-09-10T20:31:59Z. Since the review,
+the frontmatter status value was changed and the Status field and one Known
+Results line were reworded, with the affirmative answer and Eberhard's theorem
+as its source unchanged; it touches no examined statement, proof, code or
+input.
 
 ## Progress
 

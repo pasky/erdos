@@ -31,7 +31,7 @@ The proof invokes
 [[ramsey_theory/fettes_kramer_radziszowski_2004_upper_bound_62/theorem_3_2|Theorem 3.2]]
 and Propositions 5.1–5.5 together with the reported final computation.
 The analytic Theorem 3.2 reconstruction, including Lemma 3.1 and its
-elementary Ramsey bounds, now has independently reviewed proof coverage.
+elementary Ramsey bounds, has independently reviewed proof coverage.
 The remaining structural exclusions and final computation do not.
 The paper's two reported independent programs were not acquired,
 inspected or run. Kramer's unpublished manuscript was not read.

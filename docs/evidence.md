@@ -174,12 +174,12 @@ runs them in its reports, which gate nothing; [[tools]] "Evidence command
 contract" states the runner's rules. An entry point may carry one `# evidence:`
 line among its leading comments, after any shebang and before the docstring:
 `full` for a program too slow for a quick run even in its quick mode, `manual`
-for one that needs external supervision or dedicated machine time,
-`historical <YYYY-MM-DD>` for one that read the text as it stood on that date
-and is never run, `lean` for one that needs the built Lean project, `entry` to
-enroll a program not named `main.py`, and `args <argv>` for documented
-full-check arguments. Without a line the program runs in both modes and needs
-only the repository environment.
+for one that needs external supervision or dedicated machine time, `historical`
+for one that read an earlier text, which its page dates, and is never run,
+`lean` for one that needs the built Lean project, `entry` to enroll a program
+not named `main.py`, and `args <argv>` for documented full-check arguments.
+Without a line the program runs in both modes and needs only the repository
+environment.
 
 Checks must test the stated property and have meaningful failure cases. A bound
 or enclosure routine must fail on exhausted limits rather than returning an

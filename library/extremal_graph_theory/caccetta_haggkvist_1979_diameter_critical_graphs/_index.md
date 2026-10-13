@@ -247,11 +247,11 @@ itself credits Simon and Murty, with Murty's private communication as its
 reference [2], and does not name Plesník. Theorem 1 (printed p. 228, PDF
 p. 6), "If $G$ is a 2-critical graph, then
 $\varepsilon<\bigl(\frac{1+\sqrt5}{12}\bigr)\nu^2<0.27\nu^2$", is the bound
-$|E|<0.27n^2$ that the problem page had from Füredi's attestation and now
-reads in the paper; it bounds the edge count for every $\nu$ and gives the
-conjectured inequality only for small $\nu$ ($\nu\le6$ from the printed
-bound, $\nu\le8$ from the quadratic of its proof), cases within the range
-$n\le24$ of Fan's 1987 theorem, so it settles no case those leave open.
+$|E|<0.27n^2$ that Füredi attests, read here in the paper; it bounds the edge
+count for every $\nu$ and gives the conjectured inequality only for small $\nu$
+($\nu\le6$ from the printed bound, $\nu\le8$ from the quadratic of its proof),
+cases within the range $n\le24$ of Fan's 1987 theorem, so it settles no case
+those leave open.
 [[extremal_graph_theory/caccetta_haggkvist_1979_diameter_critical_graphs/theorem_2|Theorem 2]]
 (p. 228) and
 [[extremal_graph_theory/caccetta_haggkvist_1979_diameter_critical_graphs/conjecture_2|Conjecture 2]]

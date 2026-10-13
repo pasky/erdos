@@ -78,9 +78,9 @@ the proof of Theorem 1 and Section 5 (p. 251) and the reference list
 20--22, Fig. 1 on a 300 dpi crop. Lemmas 2--15 (pp. 234--250) were read in the
 text layer for their statements and the structure of their proofs; none of the
 case analyses was checked, and the figures of pp. 242 and 245 were not compared
-with the text. The statements of Lemmas 2--15 and the definitions they use were
-later compared with the page images of PDF pp. 4--16, which corrected the
-sequence $s_0$ (p. 242) and the bigreedy definition (p. 239); the case analyses
+with the text. The statements of Lemmas 2--15 and the definitions they use,
+among them the sequence $s_0$ (p. 242) and the bigreedy definition (p. 239),
+were also compared with the page images of PDF pp. 4--16; the case analyses
 remain unchecked. Nothing here is independently reviewed.
 
 ## Contents

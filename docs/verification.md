@@ -173,7 +173,7 @@ and the reviewer has ruled.
 The report identifies who reviewed what: the exact statement or section,
 convention, proof and code paths, required inputs, and the UTC date of the
 examination, or the path of a preserved snapshot. Every path a record names
-resolves in an ordinary clone, unless the owning page records when it was
+resolves in an ordinary clone, unless the owning page records that it was
 removed. Private branches and temporary files are not the evidence citation.
 
 A record names its subject by repository-relative path and the UTC date of the
@@ -192,7 +192,7 @@ named by path. Filed records, preserved snapshots included, may be edited in
 place to remove the names of people, agents, sessions and tool harnesses, and
 any commit id or hash this page does not allow. A removed commit is replaced by
 its UTC date where a sentence needs one, and the paths, scope, dates and verdict
-are kept. The record's index page lists each such edit with its date.
+are kept. The record's index page lists each such edit.
 
 On 2026-10-05 the library moved from `erdos/library/` to `library/` at the
 repository root, and the mathematics wiki root `erdos/` was renamed `math/`. On
@@ -244,38 +244,23 @@ index page lists these edits, and no statement, check or verdict changed.
 
 <!-- end swap note -->
 
-On 2026-10-07 the library's two cards for Pollack, Pomerance and Treviño's "Sets
-of monotonicity for Euler's totient function" became one card,
+The library's two cards for Pollack, Pomerance and Treviño's "Sets of
+monotonicity for Euler's totient function" became one card,
 `library/primes/pollack_et_al_2013_sets_monotonicity_euler_totient_function/`.
 In the filed verification records under `evidence/**/verify/` the links to the
 removed card,
 `library/arithmetic_functions/pollack_2013_sets_monotonicity_euler_s_totient_function/`,
-and to its result pages were updated in place on that date to the kept card and
-its pages. The records' other mentions of the two cards stay as written, as
-history. No statement, check or verdict changed.
-
-On 2026-10-13 the corpus recorded that the site stopped showing labels on 6
-October 2026: every sentence of a problem page, claim page, research page or
-library page that stated the site's label as current was put into the past tense
-("the site labeled the problem OPEN" for "the site labels the problem OPEN"),
-and a bare status fragment became "Labeled X on the site". Where a filed
-record's examined passage held such a sentence, the passage now reads in the
-converted form, with the same label and date. Filed records and retained copies
-under `evidence/**/` were not edited. No statement, check or verdict changed.
-
-Earlier on 2026-10-13 the corpus's own prose stopped referring to living people
-as he, his, him, she or her where no source prints their pronouns: about 1,300
-lines of problem pages, claim pages, library cards, result pages and research
-notes now name the person or give their role. Where a filed record's examined
-passage held such a line, the passage now reads in the reworded form;
-quotations, filed records and reading copies of sources were not edited. No
-statement, check or verdict changed.
+and to its result pages were updated in place to the kept card and its pages,
+and the records' index page lists each such link. The records' other mentions of
+the two cards stay as written, as history. No statement, check or verdict
+changed.
 
 A later change to examined text in a named file is disclosed in the same change
-on the owning page's standing, with its date and whether it touches the examined
-statement, proof, code or inputs; the standing thus says whether the current
-text is the examined text. Mechanical maintenance (a path move, a separator or
-whitespace change, an identity edit convention 9 allows, a change touching only
+on the owning page's standing, saying whether it touches the examined statement,
+proof, code or inputs; the standing thus says whether the current text is the
+examined text. Mechanical maintenance (a path move, a separator or whitespace
+change, an identity edit convention 9 allows, a corpus-wide wording pass that
+changes no statement, proof, code, input or verdict, a change touching only
 Markdown, license texts or attribution records under `lean/`, or an edit to a
 `.lean` file that changes only its comments) needs no standing note and leaves
 the record in force. A substantive change is read under "Grading and claim
@@ -353,12 +338,12 @@ the standing does not yet carry; after the reset the dates and the standing are
 the record, and the reset commit counts as no change only when the squashed tree
 equals the default branch's tree before it.
 
-Records filed before the identity rule of 2026-10-02 named commit, tree and blob
-identities; the identity sweep restates each as its UTC date, removes own-file
-digests and renames commit-named files and folders, with verdicts, scope and
-line ranges unchanged and paths unchanged apart from those renames, and adds no
-per-record note except where a record's own text would otherwise become false.
-Later in-place edits are listed on the record's index page.
+Records filed before the identity rule named commit, tree and blob identities;
+the identity sweep restates each as its UTC date, removes own-file digests and
+renames commit-named files and folders, with verdicts, scope and line ranges
+unchanged and paths unchanged apart from those renames, and adds no per-record
+note except where a record's own text would otherwise become false. Later
+in-place edits are listed on the record's index page.
 
 A checksum or a commit id appears in tracked content only where it is absolutely
 necessary, in these four cases:
@@ -411,8 +396,8 @@ be supported by a new assessment; editing an old report to imply that it
 reviewed the correction is not allowed. Mechanical path maintenance may make a
 retained report or leg runnable after reorganization, provided the mathematical
 checks and subject remain unchanged and the record's index page lists the
-transformation with its date. Every input a retained check needs to rerun stays
-in the tree, or the check is marked historical, naming the date of the text it
+transformation. Every input a retained check needs to rerun stays in the tree,
+or the check is marked historical and its page names the date of the text it
 read.
 
 The durable record contains the mathematical reasoning, verdict, dependency
@@ -872,13 +857,13 @@ warrant.
 
 Edit the owning page's current standing in place; it says whether the current
 text is the reviewed text, naming the review date and each later substantive
-change by date when they differ. Preserve each report as an assessment of its
-actual subject; never rewrite it to suggest that it reviewed a later repair. A
-filed report may otherwise be edited: paths maintained, commit ids and per-file
-hashes removed, names of people, agents, sessions and tool harnesses removed,
-wording clarified, as long as its paths, scope, dates and verdict are preserved
-and its index page lists each edit with its date. A changed check is a new
-independent record, or the old record is explicitly retired. A new location,
+change, without its date, when they differ. Preserve each report as an
+assessment of its actual subject; never rewrite it to suggest that it reviewed a
+later repair. A filed report may otherwise be edited: paths maintained, commit
+ids and per-file hashes removed, names of people, agents, sessions and tool
+harnesses removed, wording clarified, as long as its paths, scope, dates and
+verdict are preserved and its index page lists each edit. A changed check is a
+new independent record, or the old record is explicitly retired. A new location,
 reformatted text, or repeated use does not supply a new verdict.
 
 Use **refutation-failed** when a proof survives the commissioned attacks under

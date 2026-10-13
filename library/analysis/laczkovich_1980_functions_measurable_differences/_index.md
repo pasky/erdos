@@ -82,11 +82,7 @@ opening definitions were independently reviewed on 6 September 2026; the
 [filed formulation review](evidence/verify/formulation_review.md) retains that
 report. That bounded review does not reconstruct the complete source proof or
 establish formal verification or additional publication acceptance. The primary
-source was reinspected. On 2026-10-12 the frontmatter description and Status
-paragraph of the Problem 908 page were reworded; the change touches no examined
-statement, proof, code or input. On 2026-10-13 the dates of the source
-reinspections were removed from this card and from the De Bruijn 1951 card; the
-change touches no examined statement, proof, code or input.
+source was reinspected.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

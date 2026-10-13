@@ -75,7 +75,7 @@ and the account of the earlier results (p. 2, text layer), Conjecture 1.1
 and the historical remark (pp. 2--3), Theorems 1.2, 1.3 and 1.4 (pp. 3--4,
 page images), the construction $G(T)$ and Lemma 2.1 (p. 4, page image),
 Theorem 4.1, Lemma 4.2 and Lemma 4.3 (pp. 15--16, text layer), Proposition
-5.1 (p. 19, text layer) and Section 6 (p. 21, text layer); later read on the
+5.1 (p. 19, text layer) and Section 6 (p. 21, text layer); also read on the
 page images, for the result pages: Lemma 2.2, Definition 2.3 and Theorem 2.5
 (pp. 6--7), the proofs of Theorems 1.3(ii) and 1.2 (p. 8), Proposition 3.2
 (p. 9), Theorem 3.3 (p. 10), Proposition 3.9 and the proof of Theorem 1.3(i)

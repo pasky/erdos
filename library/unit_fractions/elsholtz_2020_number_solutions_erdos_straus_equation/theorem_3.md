@@ -54,8 +54,8 @@ Soc. Edinburgh Sect. A 150 (2020), no. 3, 1401--1427, DOI
 10.1017/prm.2018.137; the published version was not compared.
 
 **Read depth.** Claims checked: the statement was read clause by clause on
-the page images of pp. 3--4. The proof (Section 7, pp. 16--18) was later
-read for its structure only and was not checked step by step. Remark 1
+the page images of pp. 3--4. The proof (Section 7, pp. 16--18) was read
+for its structure only and was not checked step by step. Remark 1
 (p. 4) says the improvement comes from using factorizations of many shifts
 of $n$, not of $n$ alone.
 

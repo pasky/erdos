@@ -91,7 +91,7 @@ PDF pp. 4--5 for structure only; the proofs of Lemmas 3.5--3.7 and 4.1
 (pp. 122--124) and of the Main theorem (pp. 124--125) were read on the page
 images for structure only, as summarized on the result pages, and none of
 their steps was checked. Every statement this card and its result pages make
-about the paper was later checked again on the page images of PDF pp. 1--9,
+about the paper was also checked on the page images of PDF pp. 1--9,
 including the opening of Lemma 3.5 on p. 121. Nothing here is independently
 reviewed.
 

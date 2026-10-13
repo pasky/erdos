@@ -100,14 +100,15 @@ finite progress is kept on the linked problem page and its later sources.
 
 Source: <https://renyi.hu/~p_erdos/1965-02.pdf>.
 
-**Reading and proof scope.** On 2026-09-09, complete PDF pages 1, 2 and 9
+**Reading and proof scope.** Complete PDF pages 1, 2 and 9
 (printed pp. 181, 182 and 189) were visually read for artifact identity,
 equations (3) and (4), the construction convention and the later Ruzsa report.
-The full paper in Markdown was subsequently read for this digest, and
+The full paper in Markdown was read for this digest, and
 the #963 passage on printed p. 188 was checked against the scan's page image.
 The greedy base-three argument above was reconstructed; no other proof was
 reviewed.
-The unrelated survey results below retain their earlier compilation scope.
+The survey results below that bear on other problems are recorded as
+statements only.
 
 **Statements recorded.**
 

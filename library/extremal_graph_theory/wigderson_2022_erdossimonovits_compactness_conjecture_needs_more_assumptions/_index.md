@@ -46,7 +46,8 @@ The first Conjecture on p. 1 asks whether every finite family $\mathcal{F}$
 contains a member $H$ and admits $c>0$ such that
 $\mathrm{ex}(n;\mathcal{F})\geq c\,\mathrm{ex}(n;H)$ for all $n$.
 Wigderson attributes that formulation to Erdős-Simonovits (1982),
-Conjecture 1, and its repetition to Füredi-Simonovits (2013). The 1982 paper is now held:
+Conjecture 1, and its repetition to Füredi-Simonovits (2013). The 1982 paper
+is held:
 [[extremal_graph_theory/erdos_1982_compactness_results_extremal_graph_theory/conjecture_1|Conjecture 1]]
 (printed p. 276) carries the parenthesis "containing bipartite graphs as
 well", and its display (5) is printed with the two sides interchanged

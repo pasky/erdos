@@ -112,9 +112,9 @@ Theorem 6, p. 397).
   with $F=Z_p$, stated in the remark after the proof, is the problem's
   inequality $|A\hat{+}A|\ge\min(2|A|-3,p)$, the paper's $A\wedge A$ being
   the problem's restricted sumset. The general case is the $m$-fold
-  theorem the problem page had recorded second-hand through
+  theorem that
   [[additive_combinatorics/alon_1996_polynomial_method_restricted_sums_congruence_classes/theorem_3_3|Theorem 3.3]]
-  of Alon, Nathanson and Ruzsa 1996, whose polynomial-method proof is
+  of Alon, Nathanson and Ruzsa 1996 restates, with a polynomial-method proof
   independent of this one. Read as sums of exactly $r$ distinct elements,
   it also covers the general conjecture (73) of Erdős's 1965 lectures,
   which asks for $\min(p,rk-r^2+1)$ distinct sums of at most $r$ distinct

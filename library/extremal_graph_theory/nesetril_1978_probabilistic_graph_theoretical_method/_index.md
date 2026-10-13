@@ -49,8 +49,8 @@ received by the editors May 20, 1977, and in revised form January 6, 1978.
 The copy read for this card is the publisher's scan of the five journal pages
 (head "PROCEEDINGS OF THE AMERICAN MATHEMATICAL SOCIETY, Volume 72, Number 2,
 November 1978"; PDF p. $n$ is printed p. $416+n$) with an OCR text layer in
-which formulas are partly garbled; the statements below were first read in it
-and then re-read on the rendered page images. Provenance: downloaded in
+which formulas are partly garbled; the statements below were read on the
+rendered page images. Provenance: downloaded in
 September 2026; the download URL was not recorded. 406,575 bytes. The file
 prints "© American Mathematical Society 1978" on its first page, every other
 right reserved.
@@ -58,10 +58,9 @@ right reserved.
 Read status: claims checked for Corollaries 3 and 4 (p. 419, with the
 one-sentence proof of Corollary 4 on p. 420), Theorem 1 (p. 418), Theorem 2
 (pp. 418--419) and Theorem 5 (p. 420, which has no printed proof),
-read clause by clause on the page images (the first reading
-was in the text layer); the proofs of the Lemma and of Theorems 1 and 2 were
-read for structure and not checked. Problem 1006 consumes Corollaries 3 and
-4, paged at
+read clause by clause on the page images; the proofs of the Lemma and of
+Theorems 1 and 2 were read for structure and not checked. Problem 1006 consumes
+Corollaries 3 and 4, paged at
 [[extremal_graph_theory/nesetril_1978_probabilistic_graph_theoretical_method/corollary_3|corollary_3]]
 and
 [[extremal_graph_theory/nesetril_1978_probabilistic_graph_theoretical_method/corollary_4|corollary_4]],

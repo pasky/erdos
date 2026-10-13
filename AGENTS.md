@@ -144,65 +144,74 @@ Convention numbers are immutable, and a citation names a heading or a numbered
 convention, never a line; `docs/verification.md` "Exact subjects and durable
 evidence" states the numbering and citation guarantee.
 
-1. **Corpus law.** `docs/anatomy.md` governs mathematical contributions;
-   `docs/verification.md` defines independent verification. Research is
-   free-form, but its established results, conjectures, and limitations must be
-   distinguishable. Precise open and refuted claims belong in theory too.
-2. **Tier honesty.** Tiers are warranted by this tree: 2 = Lean proof passing
-   the axiom audit, any compiler axioms recorded on the card as
-   `assumes: compiler`, plus independent whole-statement fidelity audit; 1 =
-   independent, fresh-context adversarial verification; 0 = author-recorded. The
-   complete warrant for each tier is stated in `docs/anatomy.md` "Tiers". Never
-   promote your own work or claim a tier the retained evidence cannot support.
-3. **Timelessness.** Retained pages explain the mathematics and reusable
-   procedures. Run logs, active assignments, budgets, queues, and session notes
-   belong in ignored `tmp/`, local runtime storage, or outside the repository. A
-   fresh clone must need no previous-run cleanup. `docs/anatomy.md` states the
-   rule.
-4. **Re-runnable evidence.** Verify a claim by running its `evidence/main.py`.
-   Cached success output warrants nothing. Preserve necessary witnesses, exact
-   inputs, and independent verification records with the mathematical claim. A
-   verification record identifies its subject by path and date (see convention
-   9). A path change must not change a check or the statement it audited. See
-   `docs/evidence.md` "Local executable evidence".
-5. **Generated views.** Never hand-edit `wiki/lemmas.md`, `wiki/standing.md`,
-   `lean/Manifest.json`, or wiki index link rows. Fix their source and
-   regenerate. See `docs/anatomy.md` "Generated views".
-6. **Gates before commits.** Wiki update and lint must be clean on all three
-   roots, and every other leg of the repository battery, including pre-commit,
-   must pass. Lean changes require the complete Lean gate: build, axiom audit,
-   and self-test stamp validation (`lean/scripts/gate.sh`). Use
-   `erdos gate --lean` for the full battery. See `docs/tools.md` "Gate battery
-   contract".
-7. **Claim IDs.** `L<n>` IDs are immutable and never reused. Coordinate new
-   allocations with the maintainers before parallel work; uniqueness is checked
-   by the ledger. Existing claims retain their IDs when moved. See
-   `docs/anatomy.md` "Naming".
-8. **Self-contained corpus.** Committed content must not depend on machine-local
-   paths, private session artifacts, or private archives. Mathematical
-   references and their required evidence must remain accessible to a reader of
-   the repository. Committed files are identified by path and date, not by
-   commit or byte hash (see convention 9). `docs/anatomy.md` "Naming" and
-   `docs/evidence.md` state the rule.
-9. **Paths and dates, not hashes.** A verification, review, grading or
-   acceptance record names what it examined by its repository-relative paths
-   (with line ranges, sections and reading depth where it has them) and the UTC
-   date of the examination. Tracked content carries no commit, tree or blob id,
-   no file or folder named after a commit, and no per-file hash: the history may
-   be squashed, and a record must stand without it, even though the exact text
-   it examined may then be lost. A later substantive change to examined text is
-   disclosed on the owning page. A retained check reads its inputs from the tree
-   by path, never from a commit. A checksum or commit id appears only where it
-   is absolutely necessary, on the closed lists in `docs/verification.md` "Exact
-   subjects and durable evidence": tool data, the gold data under "Gold pins",
-   the listed computed-result digests, and an external source's commit where a
-   record relies on that exact content. No program refuses to run because a
-   file's hash changed, unless the file is gold data. Filed records may be
-   edited in place to remove any other commit id or hash, replacing a removed
-   commit with its UTC date where a sentence needs one, and to remove the names
-   of people, agents, sessions and tool harnesses, keeping their paths, scope,
-   dates and verdict. Private run state that never reaches the default branch
-   may name commits.
+01. **Corpus law.** `docs/anatomy.md` governs mathematical contributions;
+    `docs/verification.md` defines independent verification. Research is
+    free-form, but its established results, conjectures, and limitations must be
+    distinguishable. Precise open and refuted claims belong in theory too.
+02. **Tier honesty.** Tiers are warranted by this tree: 2 = Lean proof passing
+    the axiom audit, any compiler axioms recorded on the card as
+    `assumes: compiler`, plus independent whole-statement fidelity audit; 1 =
+    independent, fresh-context adversarial verification; 0 = author-recorded.
+    The complete warrant for each tier is stated in `docs/anatomy.md` "Tiers".
+    Never promote your own work or claim a tier the retained evidence cannot
+    support.
+03. **Timelessness.** Retained pages explain the mathematics and reusable
+    procedures. Run logs, active assignments, budgets, queues, and session notes
+    belong in ignored `tmp/`, local runtime storage, or outside the repository.
+    A fresh clone must need no previous-run cleanup. `docs/anatomy.md` states
+    the rule.
+04. **Re-runnable evidence.** Verify a claim by running its `evidence/main.py`.
+    Cached success output warrants nothing. Preserve necessary witnesses, exact
+    inputs, and independent verification records with the mathematical claim. A
+    verification record identifies its subject by path and date (see convention
+    9). A path change must not change a check or the statement it audited. See
+    `docs/evidence.md` "Local executable evidence".
+05. **Generated views.** Never hand-edit `wiki/lemmas.md`, `wiki/standing.md`,
+    `lean/Manifest.json`, or wiki index link rows. Fix their source and
+    regenerate. See `docs/anatomy.md` "Generated views".
+06. **Gates before commits.** Wiki update and lint must be clean on all three
+    roots, and every other leg of the repository battery, including pre-commit,
+    must pass. Lean changes require the complete Lean gate: build, axiom audit,
+    and self-test stamp validation (`lean/scripts/gate.sh`). Use
+    `erdos gate --lean` for the full battery. See `docs/tools.md` "Gate battery
+    contract".
+07. **Claim IDs.** `L<n>` IDs are immutable and never reused. Coordinate new
+    allocations with the maintainers before parallel work; uniqueness is checked
+    by the ledger. Existing claims retain their IDs when moved. See
+    `docs/anatomy.md` "Naming".
+08. **Self-contained corpus.** Committed content must not depend on
+    machine-local paths, private session artifacts, or private archives.
+    Mathematical references and their required evidence must remain accessible
+    to a reader of the repository. Committed files are identified by path and
+    date, not by commit or byte hash (see convention 9). `docs/anatomy.md`
+    "Naming" and `docs/evidence.md` state the rule.
+09. **Paths and dates, not hashes.** A verification, review, grading or
+    acceptance record names what it examined by its repository-relative paths
+    (with line ranges, sections and reading depth where it has them) and the UTC
+    date of the examination. Tracked content carries no commit, tree or blob id,
+    no file or folder named after a commit, and no per-file hash: the history
+    may be squashed, and a record must stand without it, even though the exact
+    text it examined may then be lost. A later substantive change to examined
+    text is disclosed on the owning page. A retained check reads its inputs from
+    the tree by path, never from a commit. A checksum or commit id appears only
+    where it is absolutely necessary, on the closed lists in
+    `docs/verification.md` "Exact subjects and durable evidence": tool data, the
+    gold data under "Gold pins", the listed computed-result digests, and an
+    external source's commit where a record relies on that exact content. No
+    program refuses to run because a file's hash changed, unless the file is
+    gold data. Filed records may be edited in place to remove any other commit
+    id or hash, replacing a removed commit with its UTC date where a sentence
+    needs one, and to remove the names of people, agents, sessions and tool
+    harnesses, keeping their paths, scope, dates and verdict. Private run state
+    that never reaches the default branch may name commits.
+10. **No change logs.** Prose carries no change logs. Correct a page in place:
+    never record what it used to say, when it changed or who changed it, since
+    git holds that history. A date enters prose only as a fact in its own right:
+    when a review examined or accepted something, when a Lean clean check or
+    carry-forward check ran, a snapshot of an outside source, or an outside
+    event such as a publication. A filed review whose subject has since changed
+    may say so on the owning page, without a date. `docs/anatomy.md` states the
+    rule.
 
 ## Erdos-specific
 

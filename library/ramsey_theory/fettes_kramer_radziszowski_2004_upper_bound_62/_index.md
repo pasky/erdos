@@ -84,11 +84,10 @@ in this paper.
 The selected journal's complete page images were inspected for PDF pp. 1–8 and
 20–23, corresponding to printed pp. 41–48 and 60–63. This covered source
 identity, definitions, historical routing, the finite statement and its
-dependency pointers. Theorem 5.6 on printed p. 61 was visually rechecked when
-filing this source. Printed pp. 49–59 / PDF pp. 9–19 were not viewed at that
-filing. Text extraction was not usable for the scanned opening pages; the page
-images controlled the reading. The complete page images of printed pp. 41–48 and
-54–63 / PDF pp. 1–8 and 14–23 were later read for the
+dependency pointers. Theorem 5.6 on printed p. 61 was visually rechecked.
+Text extraction was not usable for the scanned opening pages; the page
+images controlled the reading. The complete page images of printed pp. 41–48
+and 54–63 / PDF pp. 1–8 and 14–23 were read for the
 [[ramsey_theory/fettes_kramer_radziszowski_2004_upper_bound_62/section_5_pipeline|Section 5 pipeline map]],
 which records the reported computation stage by stage at claims-checked
 depth: the seeds, the counts 533, 724, 129, 124, 454, 452, 512, 5, 8191
@@ -98,7 +97,7 @@ pp. 9–13, the body of the Section 4 manuscript summary, remain unviewed.
 
 The analytic
 [[ramsey_theory/fettes_kramer_radziszowski_2004_upper_bound_62/theorem_3_2|Theorem 3.2 attaching-set reduction]]
-now has complete independently reviewed proof coverage, including
+has complete independently reviewed proof coverage, including
 Lemma 3.1 and explicit elementary Ramsey upper bounds. The fresh review
 visually checked PDF pages 1 and 4–8; its
 [full report](evidence/verify/theorem_3_2_review.md),
@@ -114,7 +113,7 @@ or run locally. Kramer's manuscript and the alternative proof summary
 were not reviewed.
 
 Publication identifies the external premise; it is not local proof
-acceptance. The linked elementary implication now has independently
+acceptance. The linked elementary implication has independently
 reviewed premise-relative proof coverage, recorded in the
 [[ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_9/evidence/verify/upper_bound_route_review|retained upper-route review]].
 Theorem 5.6 itself remains claims-checked only. No current-best-bound,

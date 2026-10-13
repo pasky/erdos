@@ -16,7 +16,7 @@ updated: 2026-10-05T05:52:35Z
 ## Graph inputs from Paths, Trees and Flowers
 
 The weighted paper explicitly uses the earlier paper's Sections 4
-and 7. Their complete original arguments are now available at their
+and 7. Their complete original arguments are available at their
 canonical source. They remain external to this six-page article.
 
 - [[extremal_graph_theory/edmonds_1965_paths_trees_flowers/lemma_4_5|Section 4.5]]

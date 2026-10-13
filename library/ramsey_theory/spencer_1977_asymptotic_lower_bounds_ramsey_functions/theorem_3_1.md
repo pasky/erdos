@@ -69,8 +69,8 @@ Within the paper: Theorem 1.3 (p. 71) through the reduction (1) of Theorem
 
 - [[../wiki/problems/ramsey_theory/E0159/_index|Problem 159]]: the site's lower bound
   $R(C_4,K_n)\gg n^{3/2}/(\log n)^{3/2}$, "due to Spencer [Sp77]", stated
-  directly for $C_4$; the problem page had used it through the 1978 paper's
-  quotation of Theorem 3.3. Bohman and Keevash's
+  directly for $C_4$, and also the case $k=4$ of Theorem 3.3, which the 1978
+  paper quotes. Bohman and Keevash's
   [[ramsey_theory/bohman_2010_early_evolution_free_process/theorem_1_3|Theorem 1.3]]
   prints the same order for the $C_4$-free process; inverting their Theorem
   1.9 at $\ell=4$ gives the larger $\Omega(t^{3/2}/\log t)$.

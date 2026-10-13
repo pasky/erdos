@@ -73,7 +73,7 @@ dependence and no regularity-like lemma at all: any n-vertex graph with at
 least n^2/8 + 10^10 alpha n edges has a K4 or an independent set larger than
 alpha; Theorem 1.6 sharpens the constant to 3/2 for alpha < gamma_0 n using
 the regularity lemma with an absolute parameter (the paper prints
-n^2/8 + (3/2) alpha n; an earlier reading of the text layer gave "32"), and
+n^2/8 + (3/2) alpha n, which the text layer renders as "32"), and
 Theorem 1.7 shows the linear
 dependence is optimal to within a factor 3 + o(1) via RT(n,K4,m) >= n^2/8 +
 (1/3 - o(1)) mn. At exactly n^2/8 edges, Theorem 1.8 forces a K4 or an

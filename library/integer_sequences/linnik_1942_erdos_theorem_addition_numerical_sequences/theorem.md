@@ -805,8 +805,8 @@ by the scan.
   $\{0,1\}$ explicitly as $\widehat\Phi$.
 - **P. 70: construction.** The cutoffs bound the powers, and all the
   half-degree blocks start at $B_0$. The English prefix union is retained
-  exactly. Bounds on the bases and omission of $B_0,B_1$ were errors in
-  the earlier compilation, not in this source definition.
+  exactly; the source definition puts no bounds on the bases and omits
+  neither $B_0$ nor $B_1$.
 - **Pp. 68–70: preliminary estimates.** The normalized Weyl estimate used
   here is the proved sufficient specialization (W); the full printed
   first-lemma parameter range is not certified here. The fourth lemma
