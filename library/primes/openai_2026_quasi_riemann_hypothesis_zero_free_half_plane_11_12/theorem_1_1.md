@@ -145,9 +145,12 @@ evidence.
 - [[../wiki/problems/integer_sequences/E0770/_index|Problem 770]]: the page's result
   for question 3 stops at $\epsilon>1/2$ (its criterion $C(p)>n$ needs
   $p>\sqrt n$); the manuscript states (cited, unproved in the text) only the
-  quadratic polylogarithmic nonresidue bound as a consequence of this theorem,
-  and any argument below $\epsilon=1/2$ would be a different argument, not
-  made in the manuscript and not checked here.
+  quadratic polylogarithmic nonresidue bound as a consequence of this theorem.
+  The page records Plasma AI's observation, which answers the third
+  question from the companion manuscript's half-plane
+  $\operatorname{Re}s>7/8$; its lemma needs only a uniform zero-free
+  half-plane, so this theorem would serve it with $(\log n)^{12}$ in place of
+  $(\log n)^8$, an inference of this page that is not checked.
 - [[../wiki/problems/integer_sequences/E0985/_index|Problem 985]]: a uniform zero-free
   half-plane for every Dirichlet $L$-function is the hypothesis under which a
   prime primitive root below $p$ has been approached; the manuscript draws no

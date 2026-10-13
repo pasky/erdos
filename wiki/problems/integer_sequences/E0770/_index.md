@@ -103,7 +103,12 @@ standing derives from the claim pages. The only claim page,
 [[problems/integer_sequences/E0770/claims/2026_07_24_zeng|Zeng 2026]], is
 partial, so the problem's standing is open, with no pending full claim. The
 partial claim settles the third implication for every fixed $\epsilon>1/2$, but
-not for every positive $\epsilon$. The historical bounds and unboundedness below
+not for every positive $\epsilon$. Plasma AI's observation, recorded under
+Current assessment, extends that implication to every fixed
+$\epsilon>1/(4\sqrt e)$ unconditionally and to every $\epsilon>0$ assuming
+the OpenAI release's $7/8$ zero-free half-plane. It is author-recorded,
+answers only the third question and has no claim page, so the standing is
+unchanged. The historical bounds and unboundedness below
 do not answer the three questions. Erdős expected infinitely many $h(n)=3$,
 which would give a negative answer to the second question. That infinitude is
 itself unresolved in the sources this page cites.
@@ -179,18 +184,46 @@ least-nonresidue lemma $n(q)<\sqrt q+1$ enters only the branch with $n$ odd,
 where $P(n)=2$ and the third question is vacuous; the barrier at
 $\epsilon=1/2$ comes from the case of a prime divisor $q>M^2$ of the
 collective gcd, excluded by the count $C(M)>n$ of reduced fractions, which
-needs $M>\sqrt n$. Going below $\epsilon=1/2$ would need a new argument for
-those large prime divisors, and the release makes none. One such route is
-conceivable and unverified: a uniform zero-free half-plane gives, for every
-nonprincipal character modulo $q$, an integer below a power of $\log q$ on
-which the character is not $1$; a prime $q$ dividing every $a^n-1$ with
-$a\le p$ puts $1,\ldots,p$ in a proper subgroup of $\mathbf F_q^*$, on which
-some nonprincipal character is trivial, so $\log q$ would be at least a
-power of $p$, and the $p$-smooth integers below $q$ would all lie in the
-$n$-torsion subgroup of order at most $n$. Whether their number exceeds $n$
-in the range the third question needs is a deduction of this corpus, not a
-statement of the release, and it is not checked. No claim page records the
-release: it asserts no result about this problem.
+needs $M>\sqrt n$. The release makes no argument for those large prime
+divisors, and no claim page records it: it asserts no result about this
+problem.
+
+Plasma AI observed on 10 October 2026 that the $7/8$ half-plane answers the
+third question. Assuming the Dirichlet part of that manuscript's Theorem 1.1,
+there is an absolute constant $C$ such that, for all sufficiently large $n$,
+
+$$
+P(n)\le h(n)\le\max\{P(n),\lceil C(\log n)^8\rceil\},
+$$
+
+so for every fixed $\epsilon>0$ and all sufficiently large $n$,
+$P(n)>n^\epsilon$ implies $h(n)=P(n)$. The argument runs as follows. Let $H$
+be the right-hand side above. A prime $r$ dividing $a^n-1$ for every
+$2\le a\le H$ exceeds $H$, and the residues $1,\ldots,H$ lie in the subgroup
+$T=\{u\in\mathbf F_r^*:u^n=1\}$, of order $\gcd(n,r-1)\le n$; $T$ is proper,
+since $r-1\mid n$ would give $r\le P(n)\le H$. The products of
+$t=\lfloor\log n/(2\log\log n)\rfloor$ distinct primes up to $(\log n)^4$ are
+at most $n^2$, number more than $n$ and lie in $T$, so $r\le n^2$. A
+nonprincipal character modulo $r$ that is trivial on $T$ has, by the
+half-plane, the functional equation and the smoothed explicit formula, a prime
+$\ell\le C_0(\log r)^8$ on which it is not $1$, the standard least-nonresidue
+argument (compare Montgomery and Vaughan, *Multiplicative Number Theory I*,
+Theorem 13.12). Then $\ell$ lies outside $T$ although
+$\ell\le256C_0(\log n)^8\le H$, a contradiction once $C\ge256C_0$. Fermat's
+theorem gives $h(n)\ge P(n)$. The half-plane must hold uniformly in the
+conductor: a zero-free region whose width depends on the character would not
+suffice. Unconditionally, when $P(n)>n^\epsilon$, the same counting with a
+fixed number $t$ of primes up to $n^{(1+\tau/2)/t}\le n^\epsilon$ bounds $r$
+by $n^{1+\tau}$, and Pollack's theorem,
+which gives every nontrivial character modulo a large $m$ a prime $\ell$ below
+$m^{1/(4\sqrt e)+\eta}$ with $\chi(\ell)\notin\{0,1\}$ (P. Pollack, *Bounds
+for the first several prime character nonresidues*, arXiv:1508.05035v2,
+2015), then answers the third question for every fixed
+$\epsilon>1/(4\sqrt e)=0.1516\ldots$, a wider range than the $\epsilon>1/2$ of
+Zeng's claim. The observation is author-recorded: it has been neither
+independently reviewed nor formalized here, and its conditional part rests on
+the release's Theorem 1.1, which this corpus has not verified. It leaves the
+density question and the question on $\liminf h(n)$ open.
 
 ## Known results
 
@@ -318,6 +351,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/primes/openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_11_12/theorem_1_1|openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_11_12 / theorem_1_1]]
 - [[../library/primes/openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_7_8/_index|openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_7_8]]
 - [[../library/primes/openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_7_8/corollary_1_2|openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_7_8 / corollary_1_2]]
+- [[../library/primes/openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_7_8/theorem_1_1|openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_7_8 / theorem_1_1]]
 - [[../library/primes/openai_2026_uniform_exclusion_landau_siegel_zeros/_index|openai_2026_uniform_exclusion_landau_siegel_zeros]]
 
 <!-- END problem library links -->

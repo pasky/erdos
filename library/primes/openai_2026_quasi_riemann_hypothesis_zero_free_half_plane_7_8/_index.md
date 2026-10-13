@@ -260,17 +260,18 @@ obstruction removal inferred on this card; none is stated in the manuscript,
 none is verified here, and each page's status rests on its own acceptance
 evidence.
 
-- [[../wiki/problems/integer_sequences/E0770/_index|Problem 770]]: Corollary 1.2 is a
-  claimed unconditional bound $n(p)\le C(\log p)^A$ for the least quadratic
-  nonresidue, the quantity that the elementary lemma $n(q)<\sqrt q+1$ bounds
-  in the page's recorded partial result (the threshold theorem for
-  $\epsilon>1/2$); but that lemma enters only the odd-$n$ branch, where
-  $P(n)=2$ and the third question is vacuous, and the $\epsilon=1/2$ barrier
-  comes from the coprime-pair criterion $C(M)>n$, so the corollary
-  strengthens nothing in the recorded theorem. It answers none of the three
-  questions; any route to the third question below $\epsilon=1/2$ would be a
-  separate character-sum argument the manuscript does not make. Unverified
-  here.
+- [[../wiki/problems/integer_sequences/E0770/_index|Problem 770]]: input. The
+  page records Plasma AI's observation that the Dirichlet part of Theorem
+  1.1, a zero-free half-plane uniform in the conductor, answers the third
+  question: it puts a prime below $C_0(\log r)^8$ outside every proper
+  subgroup of $\mathbf F_r^*$, which gives
+  $h(n)\le\max\{P(n),C(\log n)^8\}$, so that $P(n)>n^\epsilon$ forces
+  $h(n)=P(n)$ for every fixed $\epsilon>0$ and all large $n$. The argument is
+  the observation's, not the manuscript's, and it rests on Theorem 1.1, which
+  is unverified here. Corollary 1.2, the quadratic case, does not suffice: a
+  quadratic nonresidue lies outside the subgroup the argument meets only when
+  that subgroup lies inside the squares. The observation answers neither the
+  density question nor the question on $\liminf h(n)$. Unverified.
 - [[../wiki/problems/integer_sequences/E0985/_index|Problem 985]]: background only:
   a uniform Dirichlet zero-free half-plane (the Dirichlet part of Theorem
   1.1) is the kind of hypothesis under which small prime primitive roots are
