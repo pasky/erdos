@@ -59,8 +59,9 @@ site's remark quotes. Under GCH,
 $(2^{\aleph_1})^+=\omega_3\to(\omega_2+1)^2_{\aleph_1}$, so every $2$-coloring
 of $[\omega_3]^2$ has a homogeneous set of type $\omega_2+1$, which contains
 sets of types $\omega_2$ and $\omega_1+2$. The standing answers the site's
-wording. Its first relation holds; the other two relations and the consistency
-question are open.
+wording. Its first relation holds and the other two relations are open. The
+consistency question is not settled on this page: no answer is recorded here,
+pending Laver 1982 and the normality of its ideal (Current assessment below).
 
 **Status.** Open. The site's label was OPEN.
 
@@ -87,9 +88,11 @@ last edited 11 April 2026). Its first relation, as printed, follows from the
 Erdős–Rado theorem under GCH; the step is recorded on
 [[problems/set_theory/E1172/claims/1956_09_01_erdos_rado|the Erdős–Rado page]],
 an accepted partial claim. The second relation,
-$\omega_3\to(\omega_2+\omega_1,\omega_2+\omega)^2$, the third relation,
-$\omega_2\to(\omega_1^{\omega+2}+2,\omega_1+2)^2$, and the consistency of
-$\omega_2\to(\omega_1+\omega)^2_2$ with GCH are open, so the problem is open.
+$\omega_3\to(\omega_2+\omega_1,\omega_2+\omega)^2$, and the third relation,
+$\omega_2\to(\omega_1^{\omega+2}+2,\omega_1+2)^2$, are open, so the problem is
+open. The consistency of $\omega_2\to(\omega_1+\omega)^2_2$ with GCH is not
+settled on this page: no answer is recorded here, pending Laver 1982 and the
+normality of its ideal (below).
 Komjáth's Problem 10/B
 ([[../library/set_theory/komjath_2025_erdos_hajnal_problem_list/_index|source card]],
 pp. 423--424) asks whether GCH proves $\omega_2\to(\omega_1+\omega)^2_2$, not

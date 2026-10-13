@@ -59,7 +59,7 @@ and Weitsman 1984]] answers the first and second questions yes, on its refereed
 publication, the second by a one-line deduction from its integral condition.
 The pending claim [[problems/analysis/E0514/claims/2026_04_20_chojecki|Chojecki
 2026]], a note of 20 April 2026 produced with GPT-5.4 Pro, answers the first and
-second yes and first wrote that deduction down. The pending claim
+second yes and writes that deduction out. The pending claim
 [[problems/analysis/E0514/claims/2026_04_28_oriike|Oriike 2026]], a note of 28
 April 2026 produced with GPT-5.5 Pro, answers the third no and comes with a Lean
 file.
@@ -133,8 +133,8 @@ $\lvert f\rvert\le M(R)$ on $\lvert z\rvert\le R$, the part of the path inside
 $\lvert z\rvert<R$ has length at most
 $M(R)^\epsilon\int e^{-\epsilon u}\lvert\mathrm{d}z\rvert=O(M(R)^\epsilon)$
 for every $\epsilon>0$, a deduction the accepted claim page writes out. The
-paper states no length bound; Theorem 1 of Chojecki's note [Ch26] first wrote
-the deduction down, from the theorem as Wu restates it ([Wu85], Theorem B):
+paper states no length bound; Theorem 1 of Chojecki's note [Ch26] writes the
+deduction out, from the theorem as Wu restates it ([Wu85], Theorem B):
 the pending claim
 [[problems/analysis/E0514/claims/2026_04_20_chojecki|Chojecki 2026]], which also
 answers the first question. The third question is answered no by Theorem 1 of

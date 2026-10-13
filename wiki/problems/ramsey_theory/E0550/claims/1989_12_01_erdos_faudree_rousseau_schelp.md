@@ -58,6 +58,6 @@ authors' earlier work and Hall's theorem, as the paper states.
 theory and its applications: East and West* (Jinan, 1986), and no evidence
 that the volume was refereed is recorded, so `refereed` is not listed. The
 Crossref record dates the volume December 1989 with no day, so this page is
-dated to the first day of that month. The site's label (OPEN on 2026-09-17,
-OPEN (LEAN) in a check of 2026-10-06) settled neither the problem nor a
-declared part of it, so `reviewed` is not listed. The proof is not read.
+dated to the first day of that month. The site's label (OPEN when accessed on
+2026-09-17, and later OPEN (LEAN)) settled neither the problem nor a declared
+part of it, so `reviewed` is not listed. The proof is not read.

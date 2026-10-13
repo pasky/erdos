@@ -54,6 +54,9 @@ https://www.erdosproblems.com/98.
   [[../library/distance_problems/guth_2015_erdos_distinct_distance_problem_plane/_index|On the Erdős distinct distances problem in the plane]].
   Ann. of Math. (2) 181 (2015), 155--190,
   [DOI 10.4007/annals.2015.181.1.2](https://doi.org/10.4007/annals.2015.181.1.2).
+- [Sh14] A. Sheffer,
+  [[../library/distance_problems/sheffer_2014_distinct_distances_open_problems_current_bounds/_index|Distinct distances: open problems and current bounds]].
+  [arXiv:1406.1949v3](https://arxiv.org/abs/1406.1949v3).
 
 **Formalization.** The statement is recorded in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/98.lean).
@@ -77,19 +80,26 @@ sets with the problem's two exclusions, and credits $O(n^{\log3/\log2})$ to
 Erdős, Hickerson and Pach; the EFPR paper itself is not compiled here. The
 constructions of [Du08] and [Ta24] in Progress below are much weaker,
 $h(n)=O(n^2/\sqrt{\log n})$, because they exclude more: no parallelogram
-[Du08], and none of Dumitrescu's eight four-point patterns [Ta24]. The lower
-bound is that of Guth and Katz [GuKa15]
-([[../library/distance_problems/guth_2015_erdos_distinct_distance_problem_plane/theorem_1_1|Theorem 1.1]]):
-every $n$ points in the plane determine $\gg n/\log n$ distinct distances, so
-$n/\log n\ll h(n)<n\exp(c\sqrt{\log n})$. Neither bound decides whether
+[Du08], and none of Dumitrescu's eight four-point patterns [Ta24]. The
+lower bound is linear: by Szemerédi's bound, proved as
+[[../library/distance_problems/sheffer_2014_distinct_distances_open_problems_current_bounds/lemma_3_1|Lemma 3.1]]
+of Sheffer's survey [Sh14] (p. 5), any $n$ points in the plane with no three
+on a line determine at least $\lceil(n-1)/3\rceil$ distinct distances, and
+the survey's
+[[../library/distance_problems/sheffer_2014_distinct_distances_open_problems_current_bounds/problem_8|Problem 8]]
+(p. 6) records the lower bound $\Omega(n)$ for points with the problem's two
+exclusions. So $(n-1)/3\le h(n)<n\exp(c\sqrt{\log n})$. The Guth--Katz
+bound $\gg n/\log n$ [GuKa15]
+([[../library/distance_problems/guth_2015_erdos_distinct_distance_problem_plane/theorem_1_1|Theorem 1.1]])
+holds for every planar set but is weaker here. Neither bound decides whether
 $h(n)/n\to\infty$, and an upper construction does not by itself certify that
 the problem is open.
 
 **Search scope.** The site's problem page (snapshot of 2026-09-05) and the
-library cards of [Du08], [Ta24], [GGK25] and [GuKa15]; no literature search
-beyond the site's references and those cards was made. The compiled results
-are statement and transfer records: no source proof was checked in full, and
-no acceptance review or formal verification is claimed.
+library cards of [Du08], [Ta24], [GGK25], [GuKa15] and [Sh14]; no literature
+search beyond the site's references and those cards was made. The compiled
+results are statement and transfer records: no source proof was checked in
+full, and no acceptance review or formal verification is claimed.
 
 ## Progress
 

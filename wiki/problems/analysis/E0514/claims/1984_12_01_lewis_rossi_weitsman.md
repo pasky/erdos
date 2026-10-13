@@ -85,8 +85,9 @@ $$
 since the last integral is finite. So the initial segment of $\Gamma$ up to
 its first exit from $\lvert z\rvert<R$ has length $O(M(R)^\epsilon)$ for
 every $\epsilon>0$.
-[[problems/analysis/E0514/claims/2026_04_20_chojecki|Chojecki's note]] first
-wrote this deduction down, from Wu's restatement of the theorem. Not covered:
+Theorem 1 of
+[[problems/analysis/E0514/claims/2026_04_20_chojecki|Chojecki's note]] writes
+this deduction out, from Wu's restatement of the theorem. Not covered:
 the growth of $f$ along the path in terms of $M(r)$ (the part `growth`).
 
 **Depends on.** Nothing in this wiki: the argument is the paper's own, and

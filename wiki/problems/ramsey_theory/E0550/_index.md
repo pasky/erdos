@@ -44,9 +44,11 @@ inequality asks that the excess of $R(T,G)$ over $(k-1)(n-1)+m_1$ be at most
 $(k-1)(R(T,K_{m_1,m_2})-n)$, which is $k-1$ times the two-class excess
 $R(T,K_{m_1,m_2})-(n-1+m_1)$ plus $(k-1)(m_1-1)$.
 
-**Status.** The site labeled the problem OPEN when accessed on 2026-09-17 and
-OPEN (LEAN) in a check of 2026-10-06; the paragraph on the community database
-below dates the change. The page showed no last-edited date. The frontmatter
+**Status.** The site labeled the problem OPEN when accessed on 2026-09-17, and
+later OPEN (LEAN), a label recorded here with no dated snapshot, after the
+community database set the formal status to Lean on 2026-09-18 (below). The
+label settled neither the problem nor a part of it. The page showed no
+last-edited date. The frontmatter
 standing derives from the pending claim page
 [[problems/ramsey_theory/E0550/claims/2026_06_22_li|Li 2026]]. A 2026 arXiv
 preprint (Li, arXiv:2606.23659; v1 22 June 2026, v2 2 August 2026) states the
@@ -83,8 +85,8 @@ finite computation; no last-edited date; source key
 [EFRS85]), its seven-comment discussion thread (23--24 June 2026) and its
 proof-claim tab with one full-proof claim (submitted 17 July 2026). The site
 cites [Ch77] in its commentary. Cite as: T. F. Bloom, Erdős Problem #550,
-https://www.erdosproblems.com/550, accessed 2026-09-17. A check of the problem
-page on 2026-10-06 found the label OPEN (LEAN).
+https://www.erdosproblems.com/550, accessed 2026-09-17. The site's later label
+OPEN (LEAN) is recorded here with no dated snapshot.
 
 **References.**
 
@@ -151,7 +153,7 @@ here.
 ## Current assessment
 
 **The question (site formulation of 2026-09-17).** The statement
-above; OPEN, and OPEN (LEAN) in the check of 2026-10-06. The commentary is one
+above, labeled OPEN and later OPEN (LEAN). The commentary is one
 sentence crediting Chvátal [Ch77] with $R(T,K_m)=(m-1)(n-1)+1$, plus the
 pointer to #16 in Ramsey Theory of the graphs problem collection. The problem
 page does not mention the 2026 claim; the proof-claim tab and the thread do
@@ -210,8 +212,8 @@ narrowing the search space, programming, LaTeX formatting and other forms of
 orchestration", the author taking full responsibility; the site's proof-claim
 entry (submitted 17 July 2026) declares the claim as made using GPT-5.5 Pro.
 Acceptance evidence: none. No journal record (Crossref); no citing
-paper (Semantic Scholar); the site's last label, OPEN (LEAN) in the check of
-2026-10-06, kept the informal status open. Version note: the text cited is v1
+paper (Semantic Scholar); the site's last label, OPEN (LEAN), kept the
+informal status open. Version note: the text cited is v1
 (20 pages, complete); the arXiv listing shows v2 of 2 August 2026 (26 pages)
 with the comment "The proof has been formally verified in Lean", not compared
 here.
