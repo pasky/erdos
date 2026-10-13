@@ -56,21 +56,21 @@ $n$ triangle-free graphs, which is Folkman's Theorem 1 with $k_1=k_2=3$
 and its extension to every number of colors. The question itself, whether
 one $K_4$-free graph defeats countably many colors, has a consistent positive
 answer: Shelah (Lecture Notes in Math. 1401, 1989, Lemma 5.1 with $k(*)=3$
-and $\mu=\aleph_0$) proved by forcing, from a measurable cardinal or one of the
-lemma's weaker hypotheses, that such a graph can exist, so relative to that
-hypothesis ZFC cannot refute a positive answer; this is the accepted partial
-claim on [[problems/set_theory/E0595/claims/1989_01_01_shelah|Shelah 1989]],
-with the value `not_disprovable` that the site gives the identical first
-question of Problem 1174. It is one side of an independence result, so the
-problem stays open. Komjáth's survey (Bull. Symbolic Logic 31 (2025),
-Problem 53) records Shelah's consistency proof and records that existence in
-ZFC is open, which is the open part of the problem: a ZFC construction would
-answer the question outright, and a proof that no such graph exists would
-contradict Shelah's result and so would need the lemma's hypothesis to be
-inconsistent. Any such graph has more than $2^{\aleph_0}$ vertices, as the Known
-Results explain. No formal proof is recorded: the formal-conjectures statement
-file, as of 2026-10-07, marks only the finite analog research solved, and the
-community database lists the problem as open.
+and $\mu=\aleph_0$) proved by forcing, with no large cardinal (the claim page
+gives the reason), that such a graph can exist, so if ZFC is consistent it
+cannot refute a positive answer; this is the accepted partial claim on
+[[problems/set_theory/E0595/claims/1989_01_01_shelah|Shelah 1989]], with the
+value `not_disprovable` that the site gives the identical first question of
+Problem 1174. It is one side of an independence result, so the problem stays
+open. Komjáth's survey (Bull. Symbolic Logic 31 (2025), Problem 53) records
+Shelah's consistency proof and records that existence in ZFC is open, which is
+the open part of the problem: a ZFC construction would answer the question
+outright, and a ZFC proof that no such graph exists would contradict Shelah's
+result and so would show ZFC inconsistent. Any such graph has more than
+$2^{\aleph_0}$ vertices, as the Known Results explain. No formal proof is
+recorded: the formal-conjectures statement file, as of 2026-10-07, marks only
+the finite analog research solved, and the community database lists the problem
+as open.
 
 ## Known Results
 

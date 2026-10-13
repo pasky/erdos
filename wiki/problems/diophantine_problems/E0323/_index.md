@@ -69,14 +69,56 @@ Erdős and Graham's 1980 monograph [ErGr80], where the authors call it
 unattackable by the methods available to them; the site's commentary notes
 its bearing on Waring's problem.
 
-The one settled case is $k=2$: Landau's theorem of 1908, that the integers
+The case $k=2$ is settled: Landau's theorem of 1908, that the integers
 up to $x$ which are sums of two squares number asymptotically
 $cx/\sqrt{\log x}$, gives the first question a yes at $k=2$, and at $k=2$
 the second question is the trivial count of squares. This is the accepted
 partial claim on
 [[problems/diophantine_problems/E0323/claims/1908_01_01_landau|Landau's claim page]],
 accepted on the refereed paper alone, with its proof not checked in this
-corpus. For $k\ge3$ neither question is settled, and the site records that
-it is not known whether $f_{k,k}(x)=o(x)$. No claim about any $k\ge3$ is
-recorded, so the open standing of the remaining cases rests on the site's
+corpus. For $k\ge3$ the first question is not settled, and the site records
+that it is not known whether $f_{k,k}(x)=o(x)$. At $k=3$ it is the weaker form
+of [[problems/diophantine_problems/E0325/_index|Problem 325]] at $k=3$,
+$f_{3,3}(x)\gg_\epsilon x^{1-\epsilon}$, where the best bound recorded there
+is Wooley's $f_{3,3}(x)\gg x^{0.91709477}$
+([[../library/diophantine_problems/wooley_2015_sums_three_cubes_ii/theorem_1_1|Theorem 1.1]]).
+The open standing of the first question for $k\ge3$ rests on the site's
 label.
+
+The second question is answered yes at several pairs $(k,m)$ by accepted
+results, which have no claim pages here. At $m=1$ it holds for every $k$,
+since the $k$th powers up to $x$ number $\lfloor x^{1/k}\rfloor+1$. At $m=2$
+and $k=3$ it follows from Heath-Brown's 1997 corollary
+([[../library/diophantine_problems/heath_brown_1997_density_rational_points_cubic_surfaces/corollary_p3|Corollary]],
+refereed in Acta Arith. 79): the pairs $0\le a\le b\le(x/2)^{1/3}$ number
+$\gg x^{2/3}$ and have $a^3+b^3\le x$; an integer $n$ is $a^3+b^3$ for at
+most $d(n)\ll_\epsilon x^\epsilon$ such pairs, since $a+b$ divides $n$ and,
+with $n$, fixes $a$ and $b$; and the corollary leaves at most
+$O(x^{4/9+\epsilon})$ integers up to $x$ with two or more representations,
+which take at most $O(x^{4/9+2\epsilon})$ pairs, so the integers with one
+representation give $f_{3,2}(x)\gg x^{2/3}$. With $m=1$, this answers the
+second question yes at $k=3$. At $m=2$ and every even $k\ge4$ it follows from
+Erdős and Mahler's theorem
+([[../library/diophantine_problems/erdos_2019_number_integers_represented_binary_form/main_theorem|main theorem (a)]],
+refereed in J. London Math. Soc. 13, 1938): $x^k+y^k$ has nonzero
+discriminant, and for even $k$ the positive values $\lvert x^k+y^k\rvert$ over
+integers $x,y$ are the positive sums of two nonnegative $k$th powers, so
+$f_{k,2}(x)\gg x^{2/k}$; for odd $k$ the paper only asserts, without proof,
+the restricted form it would need. At $m=3$ and every $k\ge33$ it follows from
+Browning and Heath-Brown's corollary,
+[[problems/diophantine_problems/E0325/claims/2004_03_17_browning_heath_brown|accepted on Problem 325]]:
+$f_{k,3}(x)\ge(c/6+o(1))x^{3/k}$. Other pairs $(k,m)$ with $k\ge4$ are not
+assessed here.
+<!-- BEGIN problem library links -->
+
+## Linked library material
+
+These entries are derived from explicit links on library pages. They are
+navigation only and do not by themselves record mathematical progress.
+
+- [[../library/diophantine_problems/erdos_2019_number_integers_represented_binary_form/_index|erdos_2019_number_integers_represented_binary_form]]
+- [[../library/diophantine_problems/erdos_2019_number_integers_represented_binary_form/main_theorem|erdos_2019_number_integers_represented_binary_form / main_theorem]]
+- [[../library/diophantine_problems/heath_brown_1997_density_rational_points_cubic_surfaces/_index|heath_brown_1997_density_rational_points_cubic_surfaces]]
+- [[../library/diophantine_problems/heath_brown_1997_density_rational_points_cubic_surfaces/corollary_p3|heath_brown_1997_density_rational_points_cubic_surfaces / corollary_p3]]
+
+<!-- END problem library links -->

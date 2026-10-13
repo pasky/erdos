@@ -64,8 +64,11 @@ The site's formulation, a problem of Erdős and Turán, asks
 for an asymptotic formula for the number $f(n)$ of subgroups of $S_n$ and
 whether there is a statistical theorem on their orders. The site's remarks
 record two results: Pyber [Py93] proved $\log f(n)\asymp n^2$, and Roney-Dougal
-and Tracey [RoTr25] proved $\log_2 f(n)=(1/16+o(1))n^2$, confirming Pyber's 1993
-conjecture; the library card is
+and Tracey [RoTr25] proved $\log f(n)=(1/16+o(1))n^2$. The site prints $\log$
+there, but the paper's logarithms are to base $2$: its abstract states that
+$S_n$ has $2^{n^2/16+o(n^2)}$ subgroups, that is
+$\log_2 f(n)=(1/16+o(1))n^2$, confirming Pyber's 1993 conjecture; with the
+natural logarithm the constant would be $(\log2)/16$. The library card is
 [[../library/group_theory/roneydougal_2025_subgroups_symmetric_groups_enumeration_asymptotic_properties/_index|Roney-Dougal and Tracey 2025]].
 Neither gives an asymptotic formula for $f(n)$ itself. On the second question
 the same paper proves statistical theorems on a uniformly random subgroup of

@@ -55,10 +55,11 @@ part, so the derived standing is claimed. Its value is `answered` because the
 parts are answered in opposite directions. Three partial claims answer the three
 parts. The accepted claim
 [[problems/analysis/E0514/claims/1984_12_01_lewis_rossi_weitsman|Lewis, Rossi
-and Weitsman 1984]] answers the first question yes, on its refereed publication.
+and Weitsman 1984]] answers the first and second questions yes, on its refereed
+publication, the second by a one-line deduction from its integral condition.
 The pending claim [[problems/analysis/E0514/claims/2026_04_20_chojecki|Chojecki
 2026]], a note of 20 April 2026 produced with GPT-5.4 Pro, answers the first and
-second yes. The pending claim
+second yes and first wrote that deduction down. The pending claim
 [[problems/analysis/E0514/claims/2026_04_28_oriike|Oriike 2026]], a note of 28
 April 2026 produced with GPT-5.5 Pro, answers the third no and comes with a Lean
 file.
@@ -127,11 +128,14 @@ answered in refereed print by Talpur's theorem with $u=\log\lvert f\rvert$, and
 the 1984 paper's addition is the integral condition on the same path. Talpur's
 paper has no claim page: the site does not credit it, and its theorem is the
 path clause of the accepted claim. Boas's proof has no manuscript and no page.
-The second question is answered yes by Theorem 1 of Chojecki's note [Ch26]: the
-path given by that theorem in Wu's restatement [Wu85] (Theorem B) has initial
-segments of length $O(M(R,f)^\epsilon)$ for every $\epsilon>0$, deduced from the
-convergence of $\int e^{-\epsilon u}\lvert\mathrm{d}z\rvert$ along the path;
-this is the pending claim
+The second question is answered yes by the same theorem of [LRW84]: since
+$\lvert f\rvert\le M(R)$ on $\lvert z\rvert\le R$, the part of the path inside
+$\lvert z\rvert<R$ has length at most
+$M(R)^\epsilon\int e^{-\epsilon u}\lvert\mathrm{d}z\rvert=O(M(R)^\epsilon)$
+for every $\epsilon>0$, a deduction the accepted claim page writes out. The
+paper states no length bound; Theorem 1 of Chojecki's note [Ch26] first wrote
+the deduction down, from the theorem as Wu restates it ([Wu85], Theorem B):
+the pending claim
 [[problems/analysis/E0514/claims/2026_04_20_chojecki|Chojecki 2026]], which also
 answers the first question. The third question is answered no by Theorem 1 of
 Oriike's note [Or26]: for every nondecreasing $\Phi\to\infty$ there is a
@@ -171,7 +175,9 @@ the announced joint paper (2026-10-07, none found).
   infinity on which $u(z)/\log\lvert z\rvert\to\infty$ and
   $\int e^{-\lambda u}\lvert\mathrm{d}z\rvert<\infty$ for every
   $\lambda>0$. With $u=\log\lvert f\rvert$ this answers the first question
-  yes: the accepted partial claim
+  yes, and the integral condition bounds the length of the path inside
+  $\lvert z\rvert<R$ by $O(M(R)^\epsilon)$, answering the second yes: the
+  accepted partial claim
   [[problems/analysis/E0514/claims/1984_12_01_lewis_rossi_weitsman|Lewis,
   Rossi and Weitsman 1984]].
 - Wu [Wu85] restates that theorem as Theorem B and sharpens the length

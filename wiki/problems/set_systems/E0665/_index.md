@@ -44,10 +44,19 @@ design has $|A_i|>n^{1/2}-h(n)$ for every block. Erdős and Larson [ErLa82] reac
 $h(n)\ll n^{1/2-c}$ for some $c>0$, and $h(n)\ll(\log n)^2$ under a Cramér-type
 bound on prime gaps. Shrikhande and Singhi [ShSi85] embed every large design
 with blocks of size at least $n^{1/2}-c$ in a projective plane. So the answer is
-no if every projective plane has prime power order. Let $H(n)$ be the largest
-gap between consecutive primes up to $n$. Then the prime power conjecture gives
-$H(n)\asymp h(n)$. This conditional negative answer is recorded as the accepted
-conditional claim
+no if every projective plane has prime power order. The site adds that, with
+$H(n)$ the largest gap between consecutive primes up to $n$, these results give
+$H(n)\asymp h(n)$ under the prime power conjecture. That compares $h$ with the
+wrong gaps, since both theorems concern primes and plane orders near $n^{1/2}$.
+Let $p$ be the least prime with $p^2+p+1\ge n$. Erdős and Larson's design from
+the plane of order $p$ has blocks of size at least $p-r-2$, where
+$rp\le p^2+p-n$ ([ErLa82] pp. 130--131, recorded under
+[[../library/set_systems/erdos_1982_pairwise_balanced_block_designs_sizes_blocks/theorem_1|Theorem 1]]),
+so $r\le2(p-n^{1/2})+1$ when $p\ge n^{1/2}$ and every block exceeds
+$n^{1/2}-(p-n^{1/2})-4$. So $h(n)\le p-n^{1/2}+O(1)$, at most a prime gap near
+$n^{1/2}$. Shrikhande and Singhi's theorem is for a fixed $c$, so under the
+conjecture it shows only that $h$ is unbounded. This conditional negative
+answer is recorded as the accepted conditional claim
 [[problems/set_systems/E0665/claims/1985_12_01_shrikhande_singhi|Shrikhande and Singhi 1985]].
 
 **Source.** [erdosproblems.com/665](https://www.erdosproblems.com/665), accessed

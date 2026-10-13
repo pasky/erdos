@@ -310,7 +310,8 @@ totient fibers, $g(n)>n^{1-\varepsilon}$ for infinitely many $n$, derived by
 a product-and-pigeonhole step from a claimed count of $x^{1-o(1)}$ primes
 $p\in(2x,5x]$ with $P^+(p-1)\le x^\delta$ for every fixed $\delta>0$, which
 the manuscript derives from a transference theorem for weighted dilation
-graphs, a Type II estimate and a sieve; bears on Problem 821 and, as background, Problem 1057.
+graphs, a Type II estimate and a sieve; bears on Problem 821 and, as background,
+Problem 1057.
 
 [[arithmetic_functions/pascadi_2026_large_sieve_exceptional_maass_greatest_prime_factor/_index|pascadi_2026_large_sieve_exceptional_maass_greatest_prime_factor/]]: Proves large sieve inequalities for exceptional Maass forms with
 exponential-phase and dispersion coefficients, and from them an

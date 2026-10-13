@@ -75,13 +75,16 @@ accepted, partial). It is the Corollary of [Iw78], p. 226: $C(r)\ll r^2\log^2r$
 for the longest run of consecutive integers each divisible by one of $r$
 arbitrary primes. Here $C(k)=h(k)-1$ is the same function as Erdős's 1965
 $C(r)$. [FGKMT18] attests the primorial case $Y(x)\ll x^2$, and Erdős's 1965
-lecture had $C(r)<c_2r^{c_3}$. There are two lower bounds. The first is Erdős's
-1965 display (29), $C(r)>c_1r(\log r)^2\log_3r/(\log_2r)^2$. The second,
+lecture had $C(r)<c_2r^{c_3}$. There are three lower bounds. The first is
+Erdős's 1965 display (29), $C(r)>c_1r(\log r)^2\log_3r/(\log_2r)^2$. The second,
 $h(k)\gg k(\log k)^2\log_3k/\log_2k$, is obtained from [FGKMT18]'s (1.2) through
 the identity above. It is an authored one-line derivation, recorded below and on
 the claim page
 [[problems/integer_sequences/E0970/claims/2014_12_16_ford_green_konyagin_maynard_tao|Ford, Green, Konyagin, Maynard and Tao 2014]]
-(accepted, partial).
+(accepted, partial). The third and best, $h(k)\gg k(\log k)^2/\log_3k$, comes
+from the same identity applied to the covering theorem
+$Y(x)\gg x\log x/\log_3x$, accepted, not refereed, on
+[[problems/primes/E0004/claims/2026_08_26_dottedcalculator|its claim page on Problem 4]].
 
 The site's commentary prints the best lower bound as
 $h(k)\gg k\log k\log_3k/(\log_2k)^2$ and attributes it to [FGKMT18]. That
@@ -251,7 +254,8 @@ $j(P(p_n))\ll n^2(\log n)^2$, the same form with $k=n=\pi(x)$. Nothing
 better was found, and Erdős's 1965 upper bound $c_2r^{c_3}$ had an
 unspecified exponent.
 
-**Lower bounds.** Two are source-supported. (a) Erdős's display (29),
+**Lower bounds.** Two are source-supported, and a third follows from a claim
+accepted on Problem 4. (a) Erdős's display (29),
 $C(r)>c_1r(\log r)^2\log_3r/(\log_2r)^2$, from the Erdős--Rankin prime-gap
 constructions (1965; the paper gives no proof). (b) From [FGKMT18]:
 [[../library/integer_sequences/ford_2018_long_gaps_between_primes/equation_1_2|display (1.2)]],
@@ -274,24 +278,33 @@ The site's displayed bound, $h(k)\gg k\log k\log_3k/(\log_2k)^2$, is
 Rankin's bound for $Y(x)$, as [FGKMT18] p. 4 states it, with $x$ replaced
 by $k$, or equivalently Erdős's (29) with one logarithm dropped; it is
 implied by both source-supported bounds and is not what either source gives
-for $h(k)$. Read depth: claims
-checked for (29), (30), (1.2) and (1.3); the proofs behind (1.2) were not
-read.
+for $h(k)$. (c) The covering theorem $Y(x)\ge c_0x\log x/\log_3x$ for large
+$x$, of the AI-written manuscript posted by the forum user DottedCalculator,
+is accepted, not refereed, on
+[[problems/primes/E0004/claims/2026_08_26_dottedcalculator|its claim page on Problem 4]]
+on the site curator's credit. The identity of (b), with $x=p_k\sim k\log k$,
+gives
 
-**Bounds map.** $k(\log k)^2\log_3k/\log_2k\ll h(k)\ll k^2$: the lower bound
-from the sources above through the authored identity, the upper bound from the
-accepted partial claim of 25 September 2026 (the
+$$
+h(k)\ \ge\ j(P(p_k))\ \gg\ \frac{p_k\log p_k}{\log_3p_k}
+\ \asymp\ \frac{k(\log k)^2}{\log_3k},
+$$
+
+larger than (b) by the factor $\log_2k/(\log_3k)^2$, which tends to infinity.
+Read depth: claims checked for (29), (30), (1.2) and (1.3); the proofs behind
+(1.2) were not read, and the manuscript behind (c) is not checked here.
+
+**Bounds map.** $k(\log k)^2/\log_3k\ll h(k)\ll k^2$: the lower bound (c)
+from the covering theorem accepted on Problem 4 through the authored identity,
+the best refereed one being (b), $k(\log k)^2\log_3k/\log_2k$; the upper bound
+from the accepted partial claim of 25 September 2026 (the
 [[problems/integer_sequences/E0970/claims/2026_09_25_openai|claim page]]),
 which answers Jacobsthal's conjecture $h(k)\ll k^2$ yes and rests on the Lean
 declaration `erdos_970_quadratic`, built, axiom-checked and audited here, not
 on a refereed source; the manuscript's sharper claim
 $h(k)\ll k^2/(\log\log 3k)^2$ is not accepted here; the best refereed upper
-bound remains Iwaniec's $(k\log k)^2$. The site's Problem 687 records an
-AI-generated improvement of the $Y(x)$ bound to $x\log x/\log_3x$, accepted by
-the site as its account; through the same identity it would give
-$h(k)\gg k(\log k)^2/\log_3k$; that is a lead recorded on Problem 687, not a
-source result. OEIS A048670 lists $j(P(p_n))$ for $n\le64$, the values $h(k)$
-would have to exceed.
+bound remains Iwaniec's $(k\log k)^2$. OEIS A048670 lists $j(P(p_n))$ for
+$n\le64$, the values $h(k)$ would have to exceed.
 
 **Search scope.** None of the routes below found an upper bound below
 $(k\log k)^2$, a lower bound beyond those above, or a proof claim.
@@ -332,9 +345,11 @@ bound is weaker than the source-supported bounds by a factor of $\log k$
 against (29) and $\log k\cdot\log_2k$ against the derived bound; recorded as a
 site-versus-source note, not resolved with the site. (3) Neither side of
 Erdős's (29) is proved in the lecture, and the [FGKMT18] proof was not read;
-the lower bound here rests on that paper's refereed statement and a one-line
-identity. (4) Jacobsthal's original papers and Erdős's 1962 paper are not
-held.
+the best refereed lower bound rests on that paper's refereed statement and a
+one-line identity, and the best lower bound on the same identity and the
+covering theorem accepted on Problem 4 on the site curator's credit, which has
+no refereed version and whose manuscript is not checked here. (4)
+Jacobsthal's original papers and Erdős's 1962 paper are not held.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

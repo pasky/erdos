@@ -87,14 +87,16 @@ The refereed upper bound is $Y(x)\ll x^2$. It is the Corollary of [Iw78],
 p. 226, $C(r)\ll r^2\log^2r$ for the longest run of consecutive integers each
 divisible by one of $r$ arbitrary primes, taken at $r=\pi(x)$. It is attested
 in this form by the introduction of [FGKMT18], and in the inverse form
-$B(n)>c\sqrt n$ by [Er79d] p. 79. The lower bound in hand is
+$B(n)>c\sqrt n$ by [Er79d] p. 79. The best refereed lower bound is
 $Y(x)\gg x\log x\log_3x/\log_2x$, display (1.2) of [FGKMT18] (J. Amer. Math.
 Soc. 2018, refereed, cited from the arXiv version). It improves Rankin's
-$x\log x\log_3x/(\log_2x)^2$. Since 31 August 2026 the site has given an account
-of a further improvement, $Y(x)\gg x\log x/\log_3x$, attributed to GPT 5.6 Pro
-(the name the site gives) prompted by a forum contributor. It is supported by a
-proof claim and a maintainer's exposition on the site's Problem 4 page. It is
-recorded here as the site's account, not as a refereed result. The conjectured
+$x\log x\log_3x/(\log_2x)^2$. The best lower bound is
+$Y(x)\gg x\log x/\log_3x$, larger by a factor $\log_2x/(\log_3x)^2$: the
+covering theorem (1.2) of the AI-written manuscript posted by the forum user
+DottedCalculator, accepted, not refereed, on
+[[problems/primes/E0004/claims/2026_08_26_dottedcalculator|its claim page on Problem 4]]
+on the site curator's credit. Since 31 August 2026 the site's commentary here
+has credited it to GPT 5.6 Pro (the name the site gives). The conjectured
 truth is $Y(x)\ll x(\log x)^{2+o(1)}$ (Maier and Pomerance, as attested by
 [FGKMT18]). Erdős expected $B(n)>n^{1-\varepsilon}$. Erdős's offer in [Er80]
 p. 106 is a prize "for clearing up of this problem", and the site lists a
@@ -265,8 +267,8 @@ Read depth: the statements of Definition 1, Lemma 1.1 (with its half-page
 proof), (1.2), (1.3), Theorem 1 and Corollary 1 on pp. 2--4 are checked;
 the proof of (1.2), Sections 3--8, is not checked here.
 
-**The site-accepted AI-generated improvement (the site's account; provenance
-recorded, not judged).** Since 31 August 2026 the commentary credits the best
+**The AI-generated improvement (accepted on Problem 4; provenance
+recorded).** Since 31 August 2026 the commentary credits the best
 lower bound, $Y(x)\gg x\log x/\log_3x$, to GPT 5.6 Pro and points to Problem 4.
 The site's Problem 4 page, as of 2026-09-05, carries the records: its commentary
 says that the [FGKMT18] gap bound was improved to $\gg\log n\log_2n/\log_4n$ by
@@ -309,11 +311,14 @@ maintainer's exposition; no refereed publication, arXiv version or independent
 review of the argument was found on 2026-09-18, and the label stayed OPEN
 because the bound is an estimate, not a resolution. Provenance: the site names
 the model on this page and on Problem 4; the manuscript's author line is the
-model's name; the human contributor is the account named above. This page
-records the improvement as the site's account of an AI-generated bound and keeps
-[FGKMT18]'s (1.2) as the bound in hand from a refereed source. The claim was
-posted on Problem 4, not here, and a lower bound settles neither displayed
-question, so it has no claim page on this problem. A second item on the Problem
+model's name; the human contributor is the account named above. The corpus
+accepts the covering theorem on
+[[problems/primes/E0004/claims/2026_08_26_dottedcalculator|Problem 4's claim page]],
+whose `reviewed` evidence is the curator's credit, so this page records it as
+the best lower bound, accepted but not refereed, and keeps [FGKMT18]'s (1.2)
+as the best refereed bound. The claim was posted on Problem 4, not here, and a
+lower bound settles neither displayed question, so it has no claim page on
+this problem. A second item on the Problem
 4 tab (as of 2026-09-05) postdates this page's last edit: a full-proof claim
 submitted 4 September 2026 by the account BorisAlexeev with OpenAI named as
 claimant, using a model of that organization, announcing an improvement of the
@@ -328,11 +333,13 @@ $x\log x\log_3x/\log_2x\ll Y(x)\ll x^2$; the accepted partial claim of 25
 September 2026 (the
 [[problems/integer_sequences/E0687/claims/2026_09_25_openai|claim page]]) lowers
 the upper bound to $x^2/(\log x)^2$ with an unspecified constant and so answers
-the first displayed question; the site's account raises the lower bound to
-$x\log x/\log_3x$; the conjectured truth is $x(\log x)^{2+o(1)}$
-(Maier--Pomerance) and Erdős expected $Y(x)\ll x^{1+o(1)}$. The second displayed
-question lives in the gap between $x\log x$ times iterated logarithms and
-$x^2/(\log x)^2$; no refereed or reviewed source lowers the exponent $2$. The
+the first displayed question; the covering theorem accepted on
+[[problems/primes/E0004/claims/2026_08_26_dottedcalculator|Problem 4's claim page]]
+raises the lower bound to $x\log x/\log_3x$; the conjectured truth is
+$x(\log x)^{2+o(1)}$ (Maier--Pomerance) and Erdős expected
+$Y(x)\ll x^{1+o(1)}$. The second displayed question lives in the gap between
+$x\log x$ times iterated logarithms and $x^2/(\log x)^2$; no refereed or
+reviewed source lowers the exponent $2$. The
 OEIS entries the site links: A048670, the Jacobsthal function at the product of
 the first $n$ primes, that is $Y(p_n)+1$, with values
 $2,4,6,10,14,22,26,34,\ldots$ tabulated for $n\le64$ and comments recording
@@ -379,9 +386,9 @@ comments on the Problem 4 claim.
 [Iw78] and on the one-line passage from $C(\pi(x))$ to $Y(x)$ made on its result
 page; the proof of the Theorem is checked only at the level of its displays, and
 its Lemma 2 is quoted by the paper from the author's 1971 paper, which is not
-held. (2) The best lower bound is the site's account of an AI-generated argument
-whose manuscript is not checked here; a refereed version or an independent
-review is the reopening condition for its standing. (3) [Er96b] is not held; its
+held. (2) The best lower bound, $x\log x/\log_3x$, is accepted on Problem 4 on
+the site curator's credit; it has no refereed version, and its manuscript is
+not checked here. (3) [Er96b] is not held; its
 passage is unknown here. (4) The Maier--Pomerance conjecture is recorded only as
 attested by [FGKMT18]. (5) Proofs are compiled at statement level; the proof of
 (1.2) is not checked here. (6) The accepted answer to the first displayed

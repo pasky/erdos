@@ -50,6 +50,10 @@ https://www.erdosproblems.com/98.
   [arXiv:2509.06935v1](https://arxiv.org/abs/2509.06935v1); Discrete Comput.
   Geom. 76 (2026), 1886--1911,
   [DOI 10.1007/s00454-026-00853-7](https://doi.org/10.1007/s00454-026-00853-7).
+- [GuKa15] L. Guth and N. H. Katz,
+  [[../library/distance_problems/guth_2015_erdos_distinct_distance_problem_plane/_index|On the Erdős distinct distances problem in the plane]].
+  Ann. of Math. (2) 181 (2015), 155--190,
+  [DOI 10.4007/annals.2015.181.1.2](https://doi.org/10.4007/annals.2015.181.1.2).
 
 **Formalization.** The statement is recorded in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/98.lean).
@@ -65,16 +69,27 @@ Ruzsa [EFPR93]. The site labeled the problem OPEN, its proof-claims tab
 carries no claim, and no forum claim, release manuscript or lead names the
 problem, so it has no claim page.
 
-**Known results.** The constructions in Progress below give
-$h(n)=O(n^2/\sqrt{\log n})$ [Du08, Ta24]. No lower bound beyond the trivial
-one is compiled here, and an upper construction does not by itself certify
-that the problem is open.
+**Known results.** The best upper bound known here is that of Erdős, Füredi,
+Pach and Ruzsa [EFPR93], $h(n)<n\exp(c\sqrt{\log n})$ for some $c>0$, as the
+site's remarks report it; it improved Pach's $h(n)<n^{\log_23}$, also reported
+there. [Du08] (p. 2) records the same bound, as $n2^{c\sqrt{\log n}}$, for
+sets with the problem's two exclusions, and credits $O(n^{\log3/\log2})$ to
+Erdős, Hickerson and Pach; the EFPR paper itself is not compiled here. The
+constructions of [Du08] and [Ta24] in Progress below are much weaker,
+$h(n)=O(n^2/\sqrt{\log n})$, because they exclude more: no parallelogram
+[Du08], and none of Dumitrescu's eight four-point patterns [Ta24]. The lower
+bound is that of Guth and Katz [GuKa15]
+([[../library/distance_problems/guth_2015_erdos_distinct_distance_problem_plane/theorem_1_1|Theorem 1.1]]):
+every $n$ points in the plane determine $\gg n/\log n$ distinct distances, so
+$n/\log n\ll h(n)<n\exp(c\sqrt{\log n})$. Neither bound decides whether
+$h(n)/n\to\infty$, and an upper construction does not by itself certify that
+the problem is open.
 
 **Search scope.** The site's problem page (snapshot of 2026-09-05) and the
-library cards of [Du08], [Ta24] and [GGK25]; no literature search beyond the
-site's references and those cards was made. The compiled results are
-statement and transfer records: no source proof was checked in full, and no
-acceptance review or formal verification is claimed.
+library cards of [Du08], [Ta24], [GGK25] and [GuKa15]; no literature search
+beyond the site's references and those cards was made. The compiled results
+are statement and transfer records: no source proof was checked in full, and
+no acceptance review or formal verification is claimed.
 
 ## Progress
 

@@ -31,8 +31,9 @@ The published bounds are
 $$
  \left(\frac2{\sqrt3}+o(1)\right)\sqrt N
  \le M(N)
- \le(2+o(1))\sqrt N.
+ \le(1.863\ldots+o(1))\sqrt N.
 $$
 
 The [established bounds](established_bounds.md) page gives the reflected
-construction behind the lower bound. The leading constant is undetermined.
+construction behind the lower bound and the deduction of the upper bound from
+Pikhurko's theorem on quasi-Sidon sets. The leading constant is undetermined.

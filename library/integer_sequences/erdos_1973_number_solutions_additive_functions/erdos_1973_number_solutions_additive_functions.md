@@ -147,8 +147,8 @@ To see this we construct for every $x$ an additive function for which the number
 $$
 f(p^a)=
 \begin{cases}
-0 & \text{if }p<x^{1-\eta}\text{ or }p>x,\\
-1 & \text{if }x^{1-\eta}\leq p\leq x.
+0 & \text{if }p<x^{\frac{1}{2}-\eta}\text{ or }p>x,\\
+1 & \text{if }x^{\frac{1}{2}-\eta}\leq p\leq x.
 \end{cases}
 $$
 
@@ -156,9 +156,10 @@ The number of solutions of $f(n)=1$, $n\leq x$ clearly equals
 
 $$(4)\quad \sum_1\left[\frac{x}{p}\right]-\sum_2\left[\frac{x}{pq}\right]=x\left(\sum_1\frac{1}{p}-\sum_2\frac{1}{pq}\right)+o(x)$$
 
-where in $\sum_1$ $x^{1-\eta}<p<x$ and in $\sum_2$ $x^{1-\eta}<p<q<x$, $pq<x$. We easily obtain from the well known theorem of Mertens ($c_1$ and $c_2$ are absolute constants)
+where in $\sum_1$ $x^{\frac{1}{2}-\eta}<p<x$ and in $\sum_2$ $x^{\frac{1}{2}-\eta}<p<q<x$, $pq<x$. We easily obtain from the well known theorem of Mertens ($c_1$ and $c_2$ are absolute constants)
 
-$$(5)\quad \sum_1\frac{1}{p}=\log\log x-\log\log x^{1-\eta}>\log 2+c_1\eta$$
+$$(5)\quad \sum_1\frac{1}{p}=\log\log x-\log\log x^{\frac{1}{2}-\eta}>\log
+2+c_1\eta$$
 
 and
 
@@ -199,7 +200,7 @@ The results of Schinzel-Szekeres and Lubell show the same contrast as our Theore
 Now finally we prove Theorem 6 (this contrasts with the Schinzel-Szekeres result where no such bound exists). In fact we show
 
 $$
-(8)\quad G_0(x)<x\left(1-\frac{1}{10^{10000}}\right).
+(8)\quad G_0(x)<x\left(1-\frac{1}{10^{1000}}\right).
 $$
 
 It would not be too difficult to prove
@@ -216,7 +217,7 @@ $$
 G_0(x)\leq x-\left[\frac{x}{m}\right]
 $$
 
-thus henceforth we can assume $f(n)=0$ for $n\leq10^{10000}$.
+thus henceforth we can assume $f(n)=0$ for $n\leq10^{1000}$.
 
 Next we show that we can assume
 

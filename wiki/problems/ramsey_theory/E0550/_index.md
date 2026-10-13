@@ -44,8 +44,10 @@ inequality asks that the excess of $R(T,G)$ over $(k-1)(n-1)+m_1$ be at most
 $(k-1)(R(T,K_{m_1,m_2})-n)$, which is $k-1$ times the two-class excess
 $R(T,K_{m_1,m_2})-(n-1+m_1)$ plus $(k-1)(m_1-1)$.
 
-**Status.** OPEN (LEAN), the site's label (no last-edited date shown). The
-frontmatter standing derives from the pending claim page
+**Status.** The site labeled the problem OPEN when accessed on 2026-09-17 and
+OPEN (LEAN) in a check of 2026-10-06; the paragraph on the community database
+below dates the change. The page showed no last-edited date. The frontmatter
+standing derives from the pending claim page
 [[problems/ramsey_theory/E0550/claims/2026_06_22_li|Li 2026]]. A 2026 arXiv
 preprint (Li, arXiv:2606.23659; v1 22 June 2026, v2 2 August 2026) states the
 inequality as its Theorem 1.1 and claims a full proof. The author's proof claim
@@ -81,7 +83,8 @@ finite computation; no last-edited date; source key
 [EFRS85]), its seven-comment discussion thread (23--24 June 2026) and its
 proof-claim tab with one full-proof claim (submitted 17 July 2026). The site
 cites [Ch77] in its commentary. Cite as: T. F. Bloom, Erdős Problem #550,
-https://www.erdosproblems.com/550, accessed 2026-09-17.
+https://www.erdosproblems.com/550, accessed 2026-09-17. A check of the problem
+page on 2026-10-06 found the label OPEN (LEAN).
 
 **References.**
 
@@ -128,10 +131,10 @@ of formal-conjectures (main) declares
 (the two index proofs abbreviated) under `category research open`, with
 proof `sorry`: the class sizes are fixed before $n$ grows, $\chi(G)$ is
 written as $k$, and no `answer` wrapper is used. The site shows the statement
-as formalized; the community database records it
-formalized since 9 September 2026, open, with no formal proof. The author's
-own Lean repository is a formalization link on the Li claim page. Nothing was
-built or checked here.
+as formalized; the community database recorded it
+formalized since 9 September 2026 and open, with no formal proof until 18
+September 2026 (below). The author's own Lean repository is a formalization
+link on the Li claim page. Nothing was built or checked here.
 
 The community database records `formal_status` Lean (pull request 413, merged
 2026-09-18) with the formal-proof link `ericlisg/erdos550-lean` at its head of 2
@@ -148,11 +151,12 @@ here.
 ## Current assessment
 
 **The question (site formulation of 2026-09-17).** The statement
-above; OPEN. The commentary is one sentence crediting Chvátal [Ch77] with
-$R(T,K_m)=(m-1)(n-1)+1$, plus the pointer to #16 in Ramsey Theory of the
-graphs problem collection. The problem page does not mention the 2026 claim;
-the proof-claim tab and the thread do (below). The community database record
-says open (last updated 31 August 2025).
+above; OPEN, and OPEN (LEAN) in the check of 2026-10-06. The commentary is one
+sentence crediting Chvátal [Ch77] with $R(T,K_m)=(m-1)(n-1)+1$, plus the
+pointer to #16 in Ramsey Theory of the graphs problem collection. The problem
+page does not mention the 2026 claim; the proof-claim tab and the thread do
+(below). The community database record says open (last updated 31 August
+2025).
 
 **Origin and the base case.** The problem is question (2) of Erdős, Faudree,
 Rousseau and Schelp, in the 1989 paper (p. 153; Li, p. 2: "this is
@@ -206,10 +210,11 @@ narrowing the search space, programming, LaTeX formatting and other forms of
 orchestration", the author taking full responsibility; the site's proof-claim
 entry (submitted 17 July 2026) declares the claim as made using GPT-5.5 Pro.
 Acceptance evidence: none. No journal record (Crossref); no citing
-paper (Semantic Scholar); the site's label was OPEN (LEAN), which keeps the
-informal status open. Version note: the text cited is v1 (20 pages,
-complete); the arXiv listing shows v2 of 2 August 2026 (26 pages) with the
-comment "The proof has been formally verified in Lean", not compared here.
+paper (Semantic Scholar); the site's last label, OPEN (LEAN) in the check of
+2026-10-06, kept the informal status open. Version note: the text cited is v1
+(20 pages, complete); the arXiv listing shows v2 of 2 August 2026 (26 pages)
+with the comment "The proof has been formally verified in Lean", not compared
+here.
 
 **Forum and formalization items (provenance, not status).**
 

@@ -58,3 +58,9 @@ number of such points.
   these collisions; integers with a single representation, and sums of three
   cubes or of general $3$-powerful numbers, are not counted, so it gives no
   density bound for the set Problem 940 asks about.
+- [[../wiki/problems/diophantine_problems/E0323/_index|Problem 323]]: the
+  pairs $0\le a\le b$ with $a^3+b^3\le x$ number $\gg x^{2/3}$, an integer
+  $n$ takes at most $d(n)\ll_\varepsilon x^\varepsilon$ of them, and the
+  corollary leaves at most $O(x^{4/9+\varepsilon})$ integers with two or more
+  representations, so the integers with exactly one representation give
+  $f_{3,2}(x)\gg x^{2/3}$, the problem's second question at $k=3$, $m=2$.

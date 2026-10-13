@@ -91,11 +91,30 @@ $\omega_3\to(\omega_2+\omega_1,\omega_2+\omega)^2$, the third relation,
 $\omega_2\to(\omega_1^{\omega+2}+2,\omega_1+2)^2$, and the consistency of
 $\omega_2\to(\omega_1+\omega)^2_2$ with GCH are open, so the problem is open.
 Komjáth's Problem 10/B
-([[../library/set_theory/komjath_2025_erdos_hajnal_problem_list/_index|source card]])
-records that Erdős and Hajnal proved $\omega_2\to(\omega_1+n)^2_2$ under CH for
-finite $n$, and that the consistency question stays posed. Baumgartner, Hajnal
-and Todorčević, Extensions of the Erdős–Rado theorem (1993, Zbl 0846.03021),
-prove under CH at $\kappa=\omega_1$ a relation
+([[../library/set_theory/komjath_2025_erdos_hajnal_problem_list/_index|source card]],
+pp. 423--424) asks whether GCH proves $\omega_2\to(\omega_1+\omega)^2_2$, not
+whether the relation is consistent. Its commentary records that Erdős and Hajnal
+proved $\omega_2\to(\omega_1+n)^2_2$ under CH for finite $n$, and that Hajnal
+showed $\omega_2\not\to[\omega_1+\omega]^2_{\omega_1}$ consistent with GCH (both
+unpublished; Rebholz derived the second from a gap-2 morass and $\diamond$). The
+second relation gives $\omega_2\not\to(\omega_1+\omega)^2_2$, since a coloring
+with $\aleph_1$ colors that gives every set of type $\omega_1+\omega$ all colors
+gives it both colors of the $2$-coloring that separates color $0$ from the rest;
+so GCH does not prove the relation, which the consistency question allows.
+Laver's results bear on the consistency question. Komjáth reports that Laver
+proved, from a huge cardinal, that GCH is consistent with an
+$(\aleph_2,\aleph_2,\aleph_0)$-saturated ideal on $\omega_1$ (Problem 24,
+p. 431), and that CH with a normal such ideal gives
+$\omega_2\to(\omega_1 2+1,\alpha)^2$ for every $\alpha<\omega_2$ (Problem 10/B),
+which at $\alpha=\omega_1+\omega$ gives $\omega_2\to(\omega_1+\omega)^2_2$. If
+the ideal in Laver's GCH model is normal, the relation is therefore consistent
+with GCH relative to a huge cardinal; the site's commentary on
+[[problems/set_theory/E1170/_index|Problem 1170]] credits Laver with the
+consistency of $\omega_2\to(\omega_1 2+1,\alpha)^2$ for all $\alpha<\omega_2$.
+Laver's paper (Logic Colloquium '80, 1982, pp. 173--180) is not held and was not
+read, so this page records no answer to the consistency question. Baumgartner,
+Hajnal and Todorčević, Extensions of the Erdős–Rado theorem (1993, Zbl
+0846.03021), prove under CH at $\kappa=\omega_1$ a relation
 $\omega_2\to(\omega_1^{\omega+2}+1,(\omega_1+n)_k)^2$ close to the third
 relation, which does not settle it. No literature search beyond these sources
 and the site is recorded.

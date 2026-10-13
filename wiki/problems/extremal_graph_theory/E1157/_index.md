@@ -286,8 +286,8 @@ at least 4 and give for 3-graphs only a lower bound they conjecture to be
 sharp. Letzter and Sgueglia (arXiv:2312.03856) and Wang and Zeng
 (arXiv:2603.19345) treat even $s$ at large uniformity (abstracts). This
 regime is [[problems/set_systems/E1076/_index|Problem 1076]]'s and is recorded
-here from the papers' abstracts. [SaTy25] proves the $(k+3,k)$ statement for linear
-triple systems of linear density above $4/5$ (abstract).
+here from the papers' abstracts. [SaTy25] proves the $(k+3,k)$ statement for
+linear triple systems of linear density above $4/5$ (abstract).
 
 **Erdős's statements.** [Er74c], pp. 80--81, announces the two forthcoming
 papers with Brown and Sós as the beginning of an organized treatment of extremal
@@ -346,8 +346,8 @@ theorems are cited second-hand from the introductions of [AlSh06] and
 is checked or reviewed. (3) [AlSh06], [KeLo20] and [ShTy23] are cited from
 the preprints; the journal texts may differ. (4) The quadratic regime and
 the dense-linear results are recorded from abstracts; the regime is Problem
-1076's. (5) The site's notation defect is recorded above and not resolved with the
-site.
+1076's. (5) The site's notation defect is recorded above and not resolved with
+the site.
 
 ## Known results
 

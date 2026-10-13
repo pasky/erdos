@@ -106,9 +106,10 @@ numbered result of the paper is cited in the proof.
   triangle-free graphs. A graph is such a union exactly when its edges have a
   countable coloring with no monochromatic triangle, so the case
   $k(*)=3$, $\mu=\aleph_0$ of the lemma gives such a graph in a forcing
-  extension, from a measurable cardinal or one of the lemma's weaker
-  hypotheses. The lemma gives no construction in ZFC and does not show that
-  ZFC cannot provide one.
+  extension. One of the lemma's alternatives to a measurable cardinal, the
+  relation $\lambda\to_{\mathrm{wsp}}$, holds in ZFC by Lemma 3.6(1), so with
+  GCH the extension needs only the consistency of ZFC. The lemma gives no
+  construction in ZFC and does not show that ZFC cannot provide one.
 - [[../wiki/problems/set_theory/E1174/_index|Problem 1174]], first question:
   it asks for a $K_4$-free graph every countable edge coloring of which has a
   monochromatic $K_3$, and the same case of the lemma gives one in a forcing

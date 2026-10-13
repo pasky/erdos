@@ -87,13 +87,14 @@ monochromatic $K_{\aleph_0}$. Both are questions of Erdős and Hajnal; the first
 is [[problems/set_theory/E0595/_index|Problem 595]] in other words. The site's
 label, not disprovable, is the consistency of both, credited to Shelah. The
 first question is Lemma 5.1 of [Sh89] (§5, with $k(*)=3$ and $\mu=\aleph_0$), a
-forcing from a measurable cardinal or a weaker hypothesis the lemma states; the
-second is Theorem 2 of [KoSh93], the consistency, from a proper class of
-measurable cardinals (which the paper says can be eliminated through §§3--4 of
-[Sh89]), that for every graph $Y$ and cardinal $\mu$ some graph $X$ has
-$X\to(Y)^2_\mu$ with an induced copy and omits every complete graph $Y$ omits,
-applied to $Y=K_{\aleph_0}$, $\mu=\aleph_0$; its introduction names the second
-question as an old Erdős--Hajnal question that the paper solves consistently.
+forcing that needs no large cardinal, so that the consistency is relative to
+ZFC alone (the claim page gives the reason); the second is Theorem 2 of
+[KoSh93], the consistency, from a proper class of measurable cardinals (which
+the paper says can be eliminated through §§3--4 of [Sh89]), that for every graph
+$Y$ and cardinal $\mu$ some graph $X$ has $X\to(Y)^2_\mu$ with an induced copy
+and omits every complete graph $Y$ omits, applied to $Y=K_{\aleph_0}$,
+$\mu=\aleph_0$; its introduction names the second question as an old
+Erdős--Hajnal question that the paper solves consistently.
 Each result is an accepted partial claim page (the site's label and credit; for
 [KoSh93] also the refereed journal publication) naming the part it settles, with
 the value not disprovable. Each settles one side of its part only: ZFC does not

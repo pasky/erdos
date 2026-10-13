@@ -311,10 +311,12 @@ by taking one side and regenerating the views with `erdos ledger`.
 
 The `erdos` command has `gate`, `evidence`, `lead-audit`, `license-audit`,
 `problem-claims`, `ledger`, `claim-check`, and `reflint`. The reference linter
-of this repository, `erdos claim-check`, follows no link to disk. The gate's
-`reflint` leg (`erdos reflint`) resolves every inline Markdown link on disk,
-cross-root links included, so only a stale wikilink must be caught by reading,
-as [[weaving]] records.
+of this repository, `erdos claim-check`, follows no link to disk. This governs
+here over the shared Wikilinks rule: no wikilink sweep fails a target whose page
+does not exist, and `wiki lint` only notes it. The gate's `reflint` leg
+(`erdos reflint`) resolves every inline Markdown link on disk, cross-root links
+included, so only a stale wikilink must be caught by reading, as [[weaving]]
+records.
 
 Evidence Python and attachments are not wiki pages. The settings exclude
 implementation helpers, assets, output, and Python caches from navigation; link

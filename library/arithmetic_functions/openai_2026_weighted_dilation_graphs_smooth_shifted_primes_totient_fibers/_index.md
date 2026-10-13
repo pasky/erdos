@@ -6,7 +6,8 @@ desc: |
   a product-and-pigeonhole step from a claimed count of $x^{1-o(1)}$ primes
   $p\in(2x,5x]$ with $P^+(p-1)\le x^\delta$ for every fixed $\delta>0$, which
   the manuscript derives from a transference theorem for weighted dilation
-  graphs, a Type II estimate and a sieve; bears on Problem 821 and, as background, Problem 1057.
+  graphs, a Type II estimate and a sieve; bears on Problem 821 and, as
+  background, Problem 1057.
 license: Apache-2.0
 created: 2026-10-06T23:57:54Z
 updated: 2026-10-08T01:50:13Z

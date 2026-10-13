@@ -2,10 +2,10 @@
 name: extremal_graph_theory/mubayi_2024_order_erdos_rogers_functions/equation_1
 title: "Equation (1): f_s(n) = Ω(√(n log n)/log log n) for all s ≥ 3, from Shearer's independence bound"
 desc: |
-  The known lower bound for the Erdős–Rogers function, deduced in the
-  introduction from Shearer's independent-set bound for K_{s+1}-free graphs of
-  given maximum degree applied to a vertex neighborhood; Shearer's paper is
-  not held and the bound is recorded here second-hand.
+  A lower bound for the Erdős–Rogers function, in the paper's threshold form,
+  deduced in the introduction from Shearer's independent-set bound for
+  K_{s+1}-free graphs of given maximum degree applied to a vertex neighborhood;
+  Shearer's paper is not held and the bound is recorded here second-hand.
 created: 2026-09-18T06:05:00Z
 updated: 2026-10-05T05:52:35Z
 ---
@@ -40,8 +40,10 @@ image. The artifact is identified in the
 page image. The bound is quoted from Shearer's paper, which is not held; the
 two-line deduction (a vertex of maximum degree $d$ gives a $K_s$-free induced
 subgraph on $d$ vertices, and Shearer's bound gives an independent, hence
-$K_s$-free, set of size $\Omega(n\log d/(d\log\log d))$; balancing
-$d\approx\sqrt{n\log n}$) is the paper's and was not checked beyond reading.
+$K_s$-free, set of size $\Omega(n\log d/(d\log\log d))$; taking
+$d\approx\sqrt{n\log n}$, which gives (1)) is the paper's and was not checked
+beyond reading. Balancing at $d\approx\sqrt{n\log n/\log\log n}$ instead
+gives the larger bound $c\sqrt{n\log n/\log\log n}$.
 
 ## Dependencies
 
@@ -49,9 +51,14 @@ Shearer's theorem (not held).
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]: the best known lower
-  bound, $f(n)\gg\sqrt{n\log n}/\log\log n$, attested here second-hand. A
+- [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]: a lower
+  bound, $f(n)\gg\sqrt{n\log n}/\log\log n$, attested here second-hand.
+  Display (1) is the weaker threshold form of the neighborhood argument, the
+  form the site prints. Balancing the threshold gives
+  $f(n)\ge c\sqrt{n\log n/\log\log n}$, the best lower bound a refereed
+  paper prints: Dudek and Mubayi first printed it with this argument, and a
   later paper (Gishboliner, Janzer and Sudakov, Combinatorica 45 (2025),
-  p. 2) prints the same bound with $(\log\log n)^{1/2}$ in the denominator;
-  the discrepancy between the two secondary statements is recorded on the
-  problem page and not resolved here.
+  p. 2) prints it as well. The two statements differ only in the choice of
+  threshold, as the problem page records. The problem page also derives
+  $f(n)\ge c\sqrt{n\log n}$ from Corollary 2 of Joret, Micek, Reed and Smid
+  and from Theorem 1.1 of the OpenAI manuscript accepted on Problem 802.

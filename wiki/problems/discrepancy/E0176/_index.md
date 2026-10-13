@@ -93,9 +93,13 @@ The OpenAI release of 23 September 2026 gives the superexponential lower bound
 $W(k)>k^{k/100000}$ for all large $k$. It is recorded as a claimed partial
 result on the claim page
 [[problems/discrepancy/E0176/claims/2026_09_23_openai|OpenAI 2026]]. Through the
-identity above, it would answer the case $c=1$ in the negative. The bound itself
-is accepted, formalized, on Problem 138. The reduction is elementary, but it has
-not been checked by review or formalization here. The case $0<c<1$ is open.
+identity above, it makes $N(k,k)\le C^k$ fail for every $C$, and since the first
+displayed question asks for every $c>0$, a failure at $c=1$ answers that
+question, as stated, no. The bound itself is accepted, formalized, on Problem
+138. The reduction is elementary, but it has not been checked by review or
+formalization here, so the no is claimed, not accepted. The substantive open
+question is the variant for $0<c<1$, [ErGr79]'s strict form, which leaves out
+$c=1$ (Formulation).
 
 Lean developments posted in the site's thread in June 2026 claim yes answers,
 with polynomial bounds, to the questions $N(k,2)\le C^k$ and
@@ -137,14 +141,15 @@ comments as of 2026-10-06 and the proof-claim tab was empty.
 
 **Claims.** The three claim pages named under Status: the OpenAI release's
 bound for $W(k)$, which rules out the case $c=1$ of the first displayed
-question through $N(k,k)=W(k)$ (claimed, partial), and Kitamura's two Lean
-developments of June 2026, which answer the displayed questions for $N(k,2)$
-and $N(k,\sqrt k)$ with polynomial bounds (claimed, partial; neither built
-nor audited by this corpus). The thread also records, on 21 June 2026, a
-screening check of the first development by another commenter and the remark
-that its argument generalizes to the bound $N(k,c\sqrt k)=O(k^3)$ that Zach
-Hunter announced in the thread on 1 April 2026; Hunter's announcement has no
-manuscript or note and gets no page.
+question through $N(k,k)=W(k)$ and so answers that question, as stated, no
+(claimed, partial), and Kitamura's two Lean developments of June 2026, which
+answer the displayed questions for $N(k,2)$ and $N(k,\sqrt k)$ with polynomial
+bounds (claimed, partial; neither built nor audited by this corpus). The
+thread also records, on 21 June 2026, a screening check of the first
+development by another commenter and the remark that its argument generalizes
+to the bound $N(k,c\sqrt k)=O(k^3)$ that Zach Hunter announced in the thread
+on 1 April 2026; Hunter's announcement has no manuscript or note and gets no
+page.
 
 **Results without a claim page.** Spencer's exact value
 $N(k,1)=2^t(k-1)+1$ for $k=2^tm$, $m$ odd, settles the case $\ell=1$ of the
@@ -168,13 +173,14 @@ settle no displayed question, so they get no page. For $c>1$ no $N(k,ck)$
 exists, so those values lie outside the first displayed question, as the
 Formulation notes, and no page carries them.
 
-**Remaining gaps.** The question $N(k,ck)\le C^k$ for $0<c<1$ is open, and
-no upper bound for it is recorded here. The $c=1$ case rests on the release's
-bound for $W(k)$, accepted on Problem 138, through an elementary reduction that
-no review or formalization has checked here, and the two polynomial bounds on
-Lean developments that this corpus has not built; the site's commentary records
-none of the three. Proof coverage is at statement level throughout, and nothing
-is independently reviewed by this project.
+**Remaining gaps.** The variant of the first displayed question for
+$0<c<1$, [ErGr79]'s strict form, is open, and no upper bound for it is recorded
+here. The no to the first displayed question as stated rests on its case $c=1$,
+which rests on the release's bound for $W(k)$, accepted on Problem 138, through
+an elementary reduction that no review or formalization has checked here; the
+two polynomial bounds rest on Lean developments that this corpus has not built;
+the site's commentary records none of the three. Proof coverage is at statement
+level throughout, and nothing is independently reviewed by this project.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

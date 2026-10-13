@@ -75,10 +75,10 @@ the volume; its first page is unnumbered.
 **Bears on.**
 
 - [[../wiki/problems/set_theory/E0595/_index|#595]]: with k(*) = 3 and
-  mu = aleph_0, Lemma 5.1 gives, in a forcing extension and from a
-  measurable cardinal or one of the lemma's weaker hypotheses, a K4-free
-  graph every countable edge coloring of which has a monochromatic triangle,
-  that is, a K4-free graph that is not a union of countably many
+  mu = aleph_0, Lemma 5.1 gives, in a forcing extension that needs only the
+  consistency of ZFC (its wsp alternative holds in ZFC by Lemma 3.6(1)), a
+  K4-free graph every countable edge coloring of which has a monochromatic
+  triangle, that is, a K4-free graph that is not a union of countably many
   triangle-free graphs. It gives no such graph in ZFC and does not show that
   ZFC cannot provide one.
 - [[../wiki/problems/set_theory/E1174/_index|#1174]], first question only: the

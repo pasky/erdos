@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 176, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-13T12:59:13Z
 ---
 
 # problems/discrepancy/E0176/claims
@@ -23,7 +23,7 @@ $N(k,\sqrt k)\le C^k$ has the answer yes.
 
 [[problems/discrepancy/E0176/claims/2026_09_23_openai|2026_09_23_openai]]: The superexponential lower bound for van der Waerden numbers in the OpenAI
 release, read through the site's identity $N(k,k)=W(k)$, makes the first
-displayed question false at $c=1$. The source is a release preprint, and the
-result is claimed but not accepted.
+displayed question false at $c=1$, and so answers it no as stated. The
+source is a release preprint, and the result is claimed but not accepted.
 
 ***

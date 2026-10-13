@@ -47,6 +47,10 @@ https://www.erdosproblems.com/260.
 
 - [Er81l] Erdős, Paul, Sur l'irrationalité d'une certaine série. C. R. Acad.
   Sci. Paris Sér. I Math. 292 (1981), no. 17, 765-768.
+- [ErGr80] Erdős, P. and Graham, R. L.,
+  [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|Old and new problems and results in combinatorial number theory]].
+  Monographies de L'Enseignement Mathématique 28, Université de Genève,
+  Geneva, 1980; p. 62.
 - [Va99] Various, Some of Paul's favorite problems. Booklet produced for the
   conference "Paul Erdős and his mathematics", Budapest, July 1999 (1999).
 
@@ -73,12 +77,17 @@ claim on
 [[problems/irrationality/E0260/claims/1981_05_11_erdos|its claim page]]. The
 site's remarks also credit the same note with the case
 $a_n\gg n\sqrt{\log n\log\log n}$; the note does not contain that condition and
-says only that the case $a_n>cn\log n$ was known before (its reference [2]), so
-the source of the second condition is unidentified. Dated search scope: the
-site's page and remarks (2026-09-04), its proof-claims thread (2026-10-06), its
-discussion thread, the formal-conjectures file (2026-10-05 and 2026-10-07) and
-the arXiv record of the preprint (2026-10-07); no wider literature search was
-made, and no assessment of proof coverage is recorded.
+says only that the case $a_n>cn\log n$ was known before (its reference [2]).
+The condition is printed in [ErGr80], p. 62, one of the site's source keys for
+this problem: Erdős and Graham write that the sum "is known to be irrational
+under the stronger hypothesis that $a_n>cn\sqrt{\log n\log\log n}$", without
+a proof or a reference, and in the same paragraph that the case
+$a_{n+1}-a_n\to\infty$ "can be shown". The site's attribution of the condition
+to [Er81l] is mistaken, but the condition has a printed source. Dated search
+scope: the site's page and remarks (2026-09-04), its proof-claims thread
+(2026-10-06), its discussion thread, the formal-conjectures file (2026-10-05
+and 2026-10-07) and the arXiv record of the preprint (2026-10-07); no wider
+literature search was made, and no assessment of proof coverage is recorded.
 
 ## Progress
 

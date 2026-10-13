@@ -40,8 +40,11 @@ bound. The release's model file states that bound as its
 the reciprocal-sum declaration, checked its axioms and found it identical to the
 release's comparator challenge. So the result is accepted on
 [[problems/additive_combinatorics/E0003/claims/2026_09_23_openai|its claim page]].
-Theorem 1.1's bound is not formalized. It is a claimed partial result on
-[[problems/additive_combinatorics/E0142/claims/2026_09_23_openai|Problem 142's claim page]].
+Theorem 1.1's bound is not formalized. It is recorded on
+[[problems/additive_combinatorics/E0139/claims/2026_09_23_openai|Problem 139's claim page]].
+It bears on [[problems/additive_combinatorics/E0142/_index|Problem 142]] as an
+improved upper bound but settles no instance of it, so it has no claim page
+there.
 The case $k=3$, proved by Bloom and Sisask, is a claimed partial result on
 [[problems/additive_combinatorics/E0003/claims/2020_07_07_bloom_sisask|its own claim page]].
 The case where $A$ is the set of primes, proved by Green and Tao, is an accepted

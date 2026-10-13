@@ -32,8 +32,10 @@ says the question is open in general and holds in some models of set theory. The
 accepted partial claim
 [[problems/set_theory/E1171/claims/1989_01_01_baumgartner|Baumgartner's partition ordinal under Martin's axiom]]
 shows that ZFC does not refute the relation. This is one side of an independence
-result. Whether ZFC proves the relation is open for $k\ge3$. The ZFC cases
-$k\le2$ are on the claimed partial page
+result. Whether ZFC proves the relation is open for $k\ge3$. The ZFC case
+$k=1$ is the accepted partial claim
+[[problems/set_theory/E1171/claims/1971_09_01_erdos_hajnal|Erdős and Hajnal 1971]],
+and the ZFC cases $k\le2$ are on the claimed partial page
 [[problems/set_theory/E1171/claims/1987_01_01_baumgartner_hajnal|Baumgartner and Hajnal 1987]].
 The deposit that prompted the site's label has its own page,
 [[problems/set_theory/E1171/claims/2026_09_05_gao|Gao's conditional proof]],
@@ -71,9 +73,12 @@ Erdős Problem #1171, https://www.erdosproblems.com/1171.
   relations for order types and gives its definitions for cardinals only.
 - [ErHa71] Erdős, P. and Hajnal, A., Ordinary partition relations for ordinal
   numbers. Period. Math. Hungar. 1 (1971), no. 3, 171-185. DOI
-  10.1007/BF02029142. Treats the ordinal relation $\omega_1^2\to(\mu,3)^2$ for
-  $\mu<\omega_1^2$, which its zbMATH review (Zbl 0257.04004) states under GCH;
-  not held, and not established to prove the case $k=1$ in ZFC.
+  10.1007/BF02029142. Open scan at https://users.renyi.hu/~p_erdos/1971-15.pdf;
+  not held. Theorem 5, printed p. 181, proves
+  $\omega_{\xi+1}^{(t+1)(k+1)}\to(\mu,t+2)^2$ for every
+  $\mu<\omega_{\xi+1}^{k+2}$ with no hypothesis beyond ZFC, which gives the case
+  $k=1$; its zbMATH review (Zbl 0257.04004) summarizes the paper's relations
+  under GCH, which the paper assumes only where it says so.
 - [Ga26] Gao, Lezhe, A finite-color partition relation for $\omega_1^2$ under
   $\mathrm{MA}_{\aleph_1}$. Zenodo (5 September 2026), DOI
   10.5281/zenodo.22315956. Unrefereed, AI-assisted; withdrawn by its author
@@ -167,11 +172,15 @@ Komjáth attributes the case $k=1$, in the form
 $\omega_1^2\to(\omega_1\alpha,3)^2$ for all $\alpha<\omega_1$, to Erdős and
 Hajnal [ErHa70]; the attribution is Komjáth's and is not found in that paper,
 which says in its §1 that it does not investigate relations for order types. The
-ordinal relations of [ErHa71] are stated under GCH in its review, so $k=1$ has
-no page of its own and is covered by the 1987 page. Komjáth's Problem 54
-discussion records the case $k=3$, $\omega_1^2\to(\omega_1\omega,3,3,3)^2$, as
-unknown, so the exact question is open in ZFC for $k\ge3$. The triangle targets
-are sharp: CH gives $\omega_1^2\not\to(\omega_1\omega,4)^2$
+case $k=1$ is Theorem 5 of [ErHa71] (printed p. 181) with $\xi=0$, $t=1$, the
+paper's $k=0$ and $\mu=\omega_1\omega$, a refereed theorem that carries no
+hypothesis beyond ZFC, although the paper's review summarizes its relations
+under GCH; it is the accepted partial claim
+[[problems/set_theory/E1171/claims/1971_09_01_erdos_hajnal|Erdős and Hajnal 1971]].
+Komjáth's Problem 54 discussion records the case $k=3$,
+$\omega_1^2\to(\omega_1\omega,3,3,3)^2$, as unknown, so the exact question is
+open in ZFC for $k\ge3$. The triangle targets are sharp: CH gives
+$\omega_1^2\not\to(\omega_1\omega,4)^2$
 ([[../library/set_theory/baumgartner_1987_remark_partition_relations_infinite_ordinals/negative_relation|Baumgartner and Hajnal 1987]]),
 and $\mathfrak d=\aleph_1$ already suffices (Chen, Garti and Weinert, Theorem
 2.9). CH also gives $\omega_1\omega\not\to(\omega_1\omega,3)^2$ (Erdős and
@@ -189,13 +198,14 @@ and [BaHa87]); arXiv (a preprint of Golshani, arXiv:2608.13213, on the relation
 $\omega_1^2\to(\omega_1^2,3)^2$ of Problem 1169, cites this problem and adds
 nothing to it; a date-sorted query on partition relations for $\omega_1^2$ found
 nothing else); the Rényi Erdős archive (the scan of [ErHa70]); and the texts of
-[Ko25], of Chen, Garti and Weinert, and of [Va99]. Not searched: X, MathSciNet,
-and the Hajnal--Larson Handbook chapter on partition relations. Not held: the
-PDFs of [Ba89b], [BaHa87] and [ErHa71]; the $k=1$ attribution to [ErHa70] is
-Komjáth's and is not found in that paper. The bridging step from Baumgartner's
-theorem is author-recorded here; the only independent review recorded is the
-2026-09-28 grade of the research reconstructions noted above, which awards no
-tier.
+[Ko25], of Chen, Garti and Weinert, and of [Va99]; and, after the search, the
+Rényi archive's scan of [ErHa71] and its zbMATH review. Not searched: X,
+MathSciNet, and the Hajnal--Larson Handbook chapter on partition relations. Not
+held: the PDFs of [Ba89b], [BaHa87] and [ErHa71]; the $k=1$ attribution to
+[ErHa70] is Komjáth's and is not found in that paper. The bridging step from
+Baumgartner's theorem is author-recorded here; the only independent review
+recorded is the 2026-09-28 grade of the research reconstructions noted above,
+which awards no tier.
 
 ## Known Results
 

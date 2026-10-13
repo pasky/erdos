@@ -111,6 +111,11 @@ clause on the print; the proofs were read for their structure only.
   to $u$ that are sums of two nonnegative $k$th powers, hence a lower bound of
   that order for the problem's $f_{k,3}(u)$; the problem asks for $u^{3/k}$,
   and the paper says nothing about three summands.
+- [[../wiki/problems/diophantine_problems/E0323/_index|Problem 323]]: the main
+  theorem (a), applied to $x^k+y^k$ for even $k\ge4$, gives
+  $f_{k,2}(u)\gg u^{2/k}$, the problem's second question at $m=2$ for every
+  even $k$, as the problem page derives; for odd $k$ the same needs the
+  restricted range, which the paper asserts without proof.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

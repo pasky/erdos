@@ -312,6 +312,7 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/irrationality/E0250/_index|E0250]]
   - [[../wiki/problems/irrationality/E0251/_index|E0251]]
   - [[../wiki/problems/irrationality/E0252/_index|E0252]]
+  - [[../wiki/problems/irrationality/E0260/_index|E0260]]
 - [[number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]]
   - [[../wiki/problems/irrationality/E0252/_index|E0252]]
 - [[primes/kuperberg_2023_sums_singular_series_large_sets_tail/_index|kuperberg_2023_sums_singular_series_large_sets_tail]]

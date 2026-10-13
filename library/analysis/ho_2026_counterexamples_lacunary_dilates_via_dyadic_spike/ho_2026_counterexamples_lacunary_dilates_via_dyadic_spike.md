@@ -137,7 +137,7 @@ $$
 A^{1/2}\omega(\exp(\exp(2A\log A)))\longrightarrow\infty \qquad (A\to\infty). \tag{1.3}
 $$
 
-*The constant 2 is essential. Indeed, changing it to any fixed $\kappa>0$ gives an equivalent condition, by monotonicity of $\omega$ and the change of scale $B\asymp\kappa A/2$.*
+*The constant 2 is inessential. Indeed, changing it to any fixed $\kappa>0$ gives an equivalent condition, by monotonicity of $\omega$ and the change of scale $B\asymp\kappa A/2$.*
 
 **Corollary 1.3** (Bad admissible moduli). *Let $\omega$ be admissible. Then there exist a real-valued mean-zero $f\in\bigcap_{1\leq p<\infty}L^p(\mathbb{T})$ and a lacunary integer sequence $(n_j)$ with $n_{j+1}/n_j\ge 2$ such that*
 

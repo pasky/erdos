@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 354, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:51:25Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-13T12:59:13Z
 ---
 
 # problems/additive_bases/E0354/claims
@@ -29,7 +29,7 @@ paid the bounty in September 2026.
 [[problems/additive_bases/E0354/claims/2026_09_13_yu_chen|2026_09_13_yu_chen]]: Yu and Chen's unrefereed manuscript of September 2026, with its own Lean
 formalization, claims that the nonzero values of $\lfloor2^n\alpha\rfloor$ and
 $\lfloor2^n\beta\rfloor$ for two reals with irrational ratio stay complete
-after any finite deletion. It is unreviewed.
+after any finite deletion. It has no outside review.
 
 [[problems/additive_bases/E0354/claims/2026_09_20_geneson|2026_09_20_geneson]]: Geneson's unrefereed preprint of September 2026 gives a Salem base between
 $6/5$ and $13/10$ and two coefficients with irrational ratio whose interleaved

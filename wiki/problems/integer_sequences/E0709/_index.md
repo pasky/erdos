@@ -173,9 +173,9 @@ March 2026 restricts to the set $\{2,\ldots,n+1\}$ of size $n$ and maximum
 $n+1$: any $f(n)(n+1)$ consecutive integers hold distinct multiples of
 $2,\ldots,n+1$, hence of $1,\ldots,n+1$, so the theorem's interval of
 length $0.36(n+1)\log(n+1)/\log\log(n+1)$ without such a system forces
-$f(n)(n+1)$ to exceed it; the deduction passes from the site's arbitrary
-$A$ to one special set and is recorded here as the site's and the
-thread's, not re-derived beyond this sentence); and, as a lead only,
+$f(n)(n+1)$ to exceed it; since $f(n)$ must serve every $n$-element $A$,
+one set without a system bounds it below, so the deduction is complete; it
+is the site's and the thread's, checked in this sentence); and, as a lead only,
 $\exp((\tfrac{\log2}2-o(1))\log n/\log\log n)$, the commenter's deduction of
 14 September 2026 from the lower bound $F(n)\ge n\exp((\tfrac{\log2}2-o(1))\log n/\log\log n)$
 that the abstract of [ChKo26] states for $F(n)=\max_mf(n,m)$ in the
@@ -229,9 +229,11 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [ChKo26]
 and $n^{1/2}$ on published sources; the two September 2026 leads (a
 preprint's lower bound and GPT Astra's upper-bound claim) are unreviewed, and
 a refereed version of [ChKo26] is the reopening condition for the lower
-side. (2) The lower bounds beyond the 1959 paper's rest on a passage from
-the site's arbitrary $A$ to the special set $\{2,\ldots,n+1\}$, recorded as
-the site's and the thread's; no source treats arbitrary $A$ directly. (3)
+side. (2) Provenance: the lower bound $\log n/\log\log n$ is the site's
+commentary's and the thread's deduction from van Doorn's theorem through the
+set $\{2,\ldots,n+1\}$, which suffices because $f(n)$ must serve every
+$n$-element $A$; no source states it for $f(n)$, and the deduction is
+checked in the bounds map above. (3)
 The 1959 proofs are read through only; proof coverage is at statement
 level.
 <!-- BEGIN problem library links -->

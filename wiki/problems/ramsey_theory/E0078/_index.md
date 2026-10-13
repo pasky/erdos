@@ -150,9 +150,9 @@ file's separate open variant `erdos_78.variants.strongly_explicit`
 `li_strongly_explicit` are marked solved. Every declaration has proof `sorry`,
 and no `formal_proof` attribute is present. No file for this problem existed on
 main on 2026-09-18, when the site's "Formalised statement?" indicator read "No
-(create one)"; the indicator read "Yes". The community database records the
-problem open (record dated 31 August 2025) and its statement formalized, with no
-formal proof. Nothing was built here.
+(create one)"; on 2026-10-13 the indicator read "Yes", linking the file. The
+community database records the problem open (record dated 31 August 2025) and
+its statement formalized, with no formal proof. Nothing was built here.
 
 ## Current assessment
 
