@@ -27,8 +27,8 @@ in the same file.
 JenW1N (the solver handle the record credits), Lean proof of "Erdős problem
 18 - b" ($h(n!)<n^{\varepsilon}$ for all sufficiently large $n$, for every
 $\varepsilon>0$), Conjectures.io record
-`e93a2766-4c70-4564-b565-d0c556f35929`, Lean-verified,
-review approved 16 September 2026, certified 17 September 2026, bounty paid.
+`e93a2766-4c70-4564-b565-d0c556f35929`, Lean-verified 16 September 2026, review
+approved 16 September 2026, certified 17 September 2026, bounty paid.
 Conjectures.io is a Bittensor subnet that publishes catalog problems as pinned
 formal-conjectures statements and pays for Lean proofs that pass its kernel
 check and its review; its acceptance is documented independent acceptance of
@@ -59,8 +59,8 @@ statement is exactly the catalog's second question and says nothing about
 $(\log n)^{O(1)}$ (the third question) or about general practical $m$ (the
 first).
 
-**Acceptance shown on the results page**: Lean
-verification Passed (verified, 3 min 40 s, Landrun with
+**Acceptance shown on the results page** (fetched 2026-09-28T02:36Z): Lean
+verification Passed (verified 16 September 2026, 3 min 40 s, Landrun with
 seccomp sandbox; a single kernel, the Nanoda second kernel not run); review
 Approved (`REVIEW_APPROVED`, policy v3, decided 16 September 2026, two agent
 assessments of one model family, no fresh Lean replay by the reviewers);

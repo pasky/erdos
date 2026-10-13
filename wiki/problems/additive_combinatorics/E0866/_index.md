@@ -241,12 +241,12 @@ for Theorems 1--5, 8 and 9 and Lemma 7; the proofs of Theorems 1--5 read
 through, those of Lemma 7 and Theorem 8 for their structure; nothing
 independently reviewed. Acceptance evidence: none beyond the site's
 thanks and the updated commentary figure; no citing paper (the citation
-service lists none), no independent review found. Provenance, recorded not judged: Section 2
-declares that ChatGPT (model GPT-5.3 Instant) was used for brainstorming
-and autonomously produced the proof of Theorem 3, and that the automated
-theorem prover Aristotle, from Harmonic, produced Lean formalizations of
-every statement marked with a checkmark (the mark stands before Theorems
-1--9 and Lemma 7), improving the $h_4$ bound on the way.
+service lists none), no independent review found. Provenance, recorded not
+judged: Section 2 declares that ChatGPT (model GPT-5.3 Instant) was used for
+brainstorming and autonomously produced the proof of Theorem 3, and that the
+automated theorem prover Aristotle, from Harmonic, produced Lean formalizations
+of every statement marked with a checkmark (the mark stands before Theorems 1--9
+and Lemma 7), improving the $h_4$ bound on the way.
 
 **Site against sources (figures side by side).** The site prints $g_3(N)=2$
 where the 1975 theorem gives $t_3=2$ under the positive reading ($h_3(N)=2$

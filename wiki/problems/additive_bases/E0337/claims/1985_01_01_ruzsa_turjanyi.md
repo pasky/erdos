@@ -61,9 +61,10 @@ Turjányi's 1984 note, recorded at
 [[problems/additive_bases/E0337/claims/1984_01_01_turjanyi|Turjányi 1984]]. The
 curator credits to this paper the generalization in which the $k$-fold sumset
 replaces $A+A$, for every $k\ge2$ (Theorem 1 with $h=k+1$). The curator labeled
-the problem disproved with a Lean qualifier at erdosproblems.com (label). This
-is the site's acceptance. The source card records the statements of Theorems
-1--3 and Conjectures 1--2. None of the proofs is checked here.
+the problem disproved with a Lean qualifier at erdosproblems.com (the site's
+last label). This is the site's acceptance. The source card records the
+statements of Theorems 1--3 and Conjectures 1--2. None of the proofs is checked
+here.
 
 **The Lean proof.** A comment in the problem's forum thread on 2025-12-10
 reports that the Ruzsa--Turjányi solution has been formalized in Lean, the

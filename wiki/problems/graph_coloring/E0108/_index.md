@@ -137,7 +137,7 @@ the formal statement is trivially false; the proof does not use that defect,
 it instantiates $r=5$ and $k=7$, both inside the wording's range, and its
 counterexamples are finite graphs lifted to every universe, so the refutation
 holds under both a finite-graph and an all-graphs reading of "every graph".
-Conjectures.io records the proof as verified (Lean
+Conjectures.io records the proof as verified on 15 September 2026 (Lean
 kernel, axioms `propext`, `Quot.sound` and `Classical.choice` only, a static
 scan finding no imports, axiom declarations, `sorry`, `native_decide` or
 unsafe options, one kernel implementation with the site's second kernel not

@@ -76,7 +76,8 @@ the exact maximum on 2026-09-12 (PR #5807).
 
 ## Acceptance shown on the results page
 
-The record page fetched shows Lean verification Passed, Conjectures review
+The record page fetched 2026-09-28T02:36Z shows Lean verification Passed
+(verified 2026-09-09T23:35:33Z), Conjectures review
 Approved (`REVIEW_APPROVED` under policy v2, decided 2026-09-11T20:38:25Z),
 Reward Paid and Certified 14 September 2026; the results listing's record data
 gives `verification_status VERIFIED`, `reward_status REWARDED`, certified

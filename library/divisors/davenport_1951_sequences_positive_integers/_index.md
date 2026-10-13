@@ -49,10 +49,10 @@ A is the ordinary density outright, and recall Besicovitch's example showing
 the b sequence need not have a natural density. The corpus's claim page for
 problem 26 starts from the convergent case, and the elementary theorem is the
 second publication behind the zero-class case of problem 486. Problem 1217's
-references also list the paper, which has no divisibility-chain result: the chain theorem that Erdős, Sárközy and
-Szemerédi (1966) credit to Davenport and Erdős, citing the Acta paper with
-this one as "see also", is Theorem 2 of the 1936 paper, whose proof uses the
-logarithmic-density theorem reproved here.
+references also list the paper, which has no divisibility-chain result: the
+chain theorem that Erdős, Sárközy and Szemerédi (1966) credit to Davenport and
+Erdős, citing the Acta paper with this one as "see also", is Theorem 2 of the
+1936 paper, whose proof uses the logarithmic-density theorem reproved here.
 
 The copy read for this card is the six-page scan at the source URL below, whose
 PDF pp. 1--6 are printed pp. 19--24; the footnote on p. 19 reads "Received

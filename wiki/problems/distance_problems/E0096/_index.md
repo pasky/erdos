@@ -33,8 +33,9 @@ proof exposition.
 
 The standing in the frontmatter derives from the claim pages. The disproof of
 Kruer and Kohlmeyer is a Lean proof that the bounty site Conjectures.io verified
-on 10 September 2026 and certified. It is accepted on that certification alone,
-with no refereed publication and no acceptance by erdosproblems.com, on
+on 10 September 2026 and certified on 14 September 2026. It is accepted on that
+certification alone, with no refereed publication and no acceptance by
+erdosproblems.com, on
 [[problems/distance_problems/E0096/claims/2026_09_10_kruer_kohlmeyer|its claim page]].
 A stronger disproof by Kruer, Kohlmeyer and Price is pending on
 [[problems/distance_problems/E0096/claims/2026_09_13_kruer_kohlmeyer_price|its claim page]].

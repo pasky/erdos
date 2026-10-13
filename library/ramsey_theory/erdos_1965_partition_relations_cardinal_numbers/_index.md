@@ -36,8 +36,12 @@ $92+n$) whose text layer is badly garbled (the exponent of statement 16.4
 extracts as noise). Printed pp. 93--94 (introduction), 139--140 (Section 16)
 and 195--196 (references) were read on rendered page images at 130 dpi, with
 300 dpi crops of pp. 139--140 for the inequality glyphs, and printed
-pp. 107 (Lemma 2) and 130 (Theorem I) were read on page images at 130 dpi;
-the rest of the paper is digested from an earlier reading of the
+pp. 107 (Lemma 2) and 130 (Theorem I) were read on page images at 130 dpi.
+Printed pp. 96--97 (notation and the $(*)$ convention), 117--118 (Theorem 10
+and its proof), 130 (section 15.1) and 132--133 (section 15.6 and the proof
+of Corollary 7) were read on page images at 200 dpi, with 800 dpi crops of
+the subscript glyphs of Corollary 7 on p. 132; the rest of the paper is
+digested from an earlier reading of the
 introduction. No notice is printed in the scan; the publisher's article page for
 DOI 10.1007/BF01886396 (read 2026-10-02) exposed only the site footer "© 2026
 Springer Nature", which speaks for the site, not the paper, and the Crossref
@@ -51,7 +55,16 @@ the paper omits the proofs of Section 16 ("Since these results are
 obviously not final we omit the proofs"), so nothing in that section can be
 proof-checked from this source. The statement of Theorem I (p. 130) and of
 Lemma 2 (p. 107) were read clause by clause on the page images; their
-proofs were not read; the rest of the paper is unread here.
+proofs were not read. The notation and the $(*)$ convention for the General
+Continuum Hypothesis (pp. 96--97), the definition of the critical number
+(section 15.1, p. 130), the statement of Theorem 10 (p. 117) and the
+statements of Corollaries 6, 7 and 8 (section 15.6, p. 132) were read clause
+by clause on the page images. The proof of Corollary 7 for r = 2 (p. 133,
+displays (10)--(12) and its Cases 1 to 3) was read step by step on the page
+images, without following its citations of Theorem 8 and Lemma 4; the proof
+of Theorem 10 (pp. 117--118) and the rest of pp. 132--133 were read on the
+page images. None of these proofs was checked; the rest of the paper is
+unread here.
 
 This is the long systematic treatment of the partition relations a -> (b_0, b_1,
 ...)^r and their polarized and square-bracket variants, generalizing Ramsey's
@@ -137,9 +150,11 @@ Compositio Math. 2 (1935), 463--470; [9] Erdős, Bull. Amer. Math. Soc. 53
 
 ## Compiled scope
 
-Printed pp. 93--94, 96--97, 107, 130, 139--140 and 195--196 were read on the
-page images; pp. 95, 98--106, 108--129, 131--138 and 141--194 were not read
-here. No proof was checked and nothing here is independently reviewed.
+Printed pp. 93--94, 96--97, 107, 117--118, 130, 132--133, 139--140 and
+195--196 were read on the page images; pp. 95, 98--106, 108--116, 119--129,
+131, 134--138 and 141--194 were not read here. No proof was checked (the
+proofs of Theorem 10 and of Corollary 7 for r = 2 were read, not checked) and
+nothing here is independently reviewed.
 
 Source: <https://users.renyi.hu/~p_erdos/1965-14.pdf>.
 

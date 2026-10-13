@@ -43,8 +43,8 @@ partial claim on
 Szabó's linear-error question asks whether $t(N)=N^2/2+O(N)$. It is the second
 of the two questions in Section 6 of the 1999 paper. It has an affirmative Lean
 proof, which the bounty site Conjectures.io verified on 9 September 2026 and
-approved. That proof settles a variant, not the catalog question. It is recorded
-as an accepted partial claim on
+approved on 11 September 2026. That proof settles a variant, not the catalog
+question. It is recorded as an accepted partial claim on
 [[problems/additive_combinatorics/E0272/claims/2026_09_09_jenw1n|its claim page]]
 (see Current assessment).
 
@@ -77,7 +77,8 @@ of `maxArithInterCard N` for every $N\geq1$ with an open answer (restated to the
 exact maximum on 2026-09-12, PR #5807) and is `research open`; its variant
 `Erdos272.erdos_272.variants.szabo_strong`, `(fun N ↦ (maxArithInterCard N - N ^
 2 / 2 : ℝ)) =O[atTop] fun N : ℕ ↦ (N : ℝ)`, is the statement the Conjectures.io
-proof establishes, which the catalog's default branch labels `research open`.
+proof establishes, which the catalog's default branch labeled `research open` on
+2026-09-27.
 
 ## Current assessment
 
@@ -97,7 +98,7 @@ bound $\binom N2+1+\lfloor(N-1)/4\rfloor$ for every family with a common
 element, reducing Yang's sharpened conjecture to Szabó's kernel question. A Lean
 proof accepted by the bounty site Conjectures.io (record
 `c3277f4a-d573-42a9-bfca-e45fb2cb39ff`; Conjectures.io's Lean kernel verified
-it, its review approved it on 11 September 2026 under its
+it on 9 September 2026, its review approved it on 11 September 2026 under its
 policy v2, it certified the record on 14 September 2026 and paid the bounty;
 solver shown as JenW1N;
 [[../library/additive_combinatorics/jenw1n_2026_erdos_problem_272_szabo_strong/_index|card]];
@@ -136,8 +137,8 @@ options), "Statement unchanged", permitted axioms `propext`, `Quot.sound`,
 `Classical.choice`, "Lean kernel accepted" and a fresh isolated replay on 10
 September 2026, with the second kernel not run, so that the verdict rests on one
 kernel implementation, and the review describes itself as a decision on
-eligibility that does not vouch for originality; there was no refereed
-publication, no write-up, no erdosproblems.com acceptance and no
+eligibility that does not vouch for originality; on 2026-09-27 there was no
+refereed publication, no write-up, no erdosproblems.com acceptance and no
 formal-conjectures catalog agreement (the erdosproblems.com forum carried no
 proof claim, and the catalog labeled the variant `research open`).
 

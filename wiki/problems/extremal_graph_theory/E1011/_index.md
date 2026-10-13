@@ -330,7 +330,8 @@ corpus. The claim page
 [[problems/extremal_graph_theory/E1011/claims/2026_09_10_kentakitamura|2026_09_10_kentakitamura]]
 records what the repository contains, the comment's disclosure of
 assistance from OpenAI Codex and ChatGPT Astra, and the standing:
-unrefereed, not accepted by the site (whose page prints $n\ge150$) or by the community database, and covering the case $r=4$
+unrefereed, not accepted by the site (whose page prints $n\ge150$, accessed
+2026-10-07) or by the community database, and covering the case $r=4$
 alone, so the problem's standing is unaffected. A further comment of the
 same account (11:40 on 19 September 2026) announces, in the same
 repository, a kernel-checked Lean proof of

@@ -117,8 +117,8 @@ Erdős Problem #981, https://www.erdosproblems.com/981, accessed 2026-09-18.
   [[../library/number_theory/elliott_1969_conjecture_erdos_concerning_character_sums/theorem_p165|theorem_p165]].
 - [TaZh25] Tang, Q. and Zhang, H., Average first-passage times for
   character sums. arXiv:2512.24631v2 (18 January 2026; v1 31 December 2025;
-  "9 pages. v2: added a reference and corrected several typos").
-  Conjecture 1.1 and
+  "9 pages. v2: added a reference and corrected several typos"; no journal
+  reference on the arXiv listing of 2026-09-18). Conjecture 1.1 and
   footnote 1 (p. 1), Theorem 1.2 and the remark on the two thresholds
   (p. 2), §2.1 (p. 2). Library home:
   [[../library/number_theory/tang_2025_average_first_passage_times_character_sums/_index|tang_2025_average_first_passage_times_character_sums]];

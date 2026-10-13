@@ -233,8 +233,9 @@ index on. The paper says this makes Li and Tang's conditional theorem
 unconditional (Theorem 1.6 of their Acta Math. Hungar. paper, Theorem 1.9 of
 arXiv v4): the route feeds the paper's Theorem 1, the eventually-greedy
 property of the best underapproximations of every positive rational, into that
-conditional theorem. It is an author preprint, and no independent review is
-located; its declaration of AI usage says
+conditional theorem. It is an author preprint: the arXiv listing carried no
+journal reference (2026-09-18), a Crossref query of 2026-09-17 found no record,
+and no independent review is located; its declaration of AI usage says
 key steps of the proof of Theorem 1 came from OpenAI's GPT-5.6 Sol. Its case
 $\lambda=1$ is a third, non-constructive proof of the statement, recorded as a
 pending claim on

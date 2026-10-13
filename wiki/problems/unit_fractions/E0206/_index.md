@@ -202,12 +202,12 @@ gives, non-constructively, a transcendental number without the property.
   admits the denominator $1$, which the paper's tuples exclude) and the one
   that
   [[../library/unit_fractions/nathanson_2023_underapproximation_egyptian_fractions/open_problem_4|Nathanson posed as Open problem (4)]].
-  It is an author preprint, with no independent review found, and its Declaration of AI usage (p. 28) says
-  that key steps of the proof were provided by OpenAI's GPT-5.6 Sol and
-  rewritten by the authors. It is recorded as a claim with provenance, not
-  as a status; the frontmatter status concerns the almost-all question
-  only. The second author announced the result in the site discussion on
-  31 July 2026.
+  It is an author preprint, with no independent review found, and its
+  Declaration of AI usage (p. 28) says that key steps of the proof were provided
+  by OpenAI's GPT-5.6 Sol and rewritten by the authors. It is recorded as a
+  claim with provenance, not as a status; the frontmatter status concerns the
+  almost-all question only. The second author announced the result in the site
+  discussion on 31 July 2026.
 - algebraic $x$: open. Erdős and Graham's "attractive conjecture"; Kovač
   and Tang write that they cannot resolve it. A site comment of 9 August
   2025 speculates that all algebraic numbers are eventually greedy; it

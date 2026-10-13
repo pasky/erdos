@@ -118,7 +118,8 @@ https://www.erdosproblems.com/354, accessed 2026-09-28.
 - [JiMa24] Jiang, X.-W. and Ma, W.-X., A conjecture of Hegyvári. Int. J.
   Number Theory 20 (2024), 915--933. Not held; site-attested.
 - [JW26] JenW1N (solver handle), Lean proof of Erdős problem 354, part (i).
-  Conjectures.io record `815c1d5f-3afb-4430-8e2c-260d9038f5b0`; verified, review approved 15 September 2026, certified 16
+  Conjectures.io record `815c1d5f-3afb-4430-8e2c-260d9038f5b0`; verified
+  11 September 2026, review approved 15 September 2026, certified 16
   September 2026. Library home:
   [[../library/additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/_index|jenw1n_2026_erdos_354_part_i_lean_proof]];
   result page

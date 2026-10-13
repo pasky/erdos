@@ -134,7 +134,7 @@ the defective statement pinned at
 `fc-379fc029-erdos726-erdos-726-21ddd3c4de-counterexample-v1`, attacked as
 Disprove). The proof rewrites the real remainder to zero, so the filtered sum
 is the zero function, and contradicts the divergence of $\tfrac12\log\log n$.
-The site's kernel verified the file (single kernel; the
+The site's kernel verified the file on 13 August 2026 (single kernel; the
 site's second kernel was not run; axioms `propext`, `Quot.sound`,
 `Classical.choice`); its review approved the record on 13 August 2026 as a
 formalization-defect award under its manual-review policy v2, stating that

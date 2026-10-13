@@ -156,7 +156,7 @@ Combinatorics and a 2017 paper on vertex-disjoint quadrilaterals in multigraphs
 in the same journal, neither held or read. The page therefore keeps the site's
 label, carried by the refereed text read at statement depth.
 
-**Search scope.** The status rests on these dated routes;
+**Search scope.** The status rests on these routes;
 none found a dispute, a retraction or a second proof.
 
 - The site: problem page, discussion thread and proof-claim tab; the

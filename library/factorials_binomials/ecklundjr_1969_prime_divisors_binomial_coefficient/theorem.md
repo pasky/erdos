@@ -276,7 +276,7 @@ For real $x\geq25$, the difference between the two sides of (19) has value
 greater than $0.10$ at $25$ and derivative greater than $0.916$. Thus (19)
 is impossible for every integer $k\geq25$. This exact threshold certificate
 is the bounded project-authored correction to the printed typo; it was
-independently checked within the
+independently checked on 2026-09-06 within the
 [full-proof review](evidence/verify/full_proof_review.md).
 
 #### Subcase 3b: \(n/8<k\leq n/4\)

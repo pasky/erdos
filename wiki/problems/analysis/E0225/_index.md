@@ -250,9 +250,12 @@ transfer sentence is therefore the reviewed text, and the source card discloses
 the later rewording of 2026-10-07. The displayed problem Statement is unchanged;
 the corrected Statement and its Notes immediately below it record the required
 actual-degree convention. This record gives no formal-verification or new
-acceptance credit. On 2026-10-13 the word "dated" was removed from this page's
-sentence on its status-search scope; the change touches no examined statement,
-proof, code or input.
+acceptance credit. On 2026-10-12 this page's frontmatter description and Status
+paragraph were reworded; the change touches no examined statement, proof, code
+or input. On 2026-10-13 the word "dated" was removed from this page's sentence
+on its status-search scope and a stray comma from the parenthesis naming the
+community database; the change touches no examined statement, proof, code or
+input.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -70,7 +70,7 @@ accessed 2026-09-17.
   time): the elements of $A$ to $10000$ (b-file by J. E. Schoenfield), the
   observations that no prime power lies in $A$ and that multiples of
   elements greater than $1$ lie in $A$, and a conjectured characterization
-  verified to $2\cdot10^5$.
+  verified to $2\cdot10^5$; accessed 2026-09-17.
 
 **Formalization.** Statement in
 [`ErdosProblems/292.lean`](https://github.com/google-deepmind/formal-conjectures/blob/573d06b08947dbff577e453ab102fa2b39d8f759/FormalConjectures/ErdosProblems/292.lean)

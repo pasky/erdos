@@ -114,8 +114,8 @@ Bloom, Erdős Problem #34, https://www.erdosproblems.com/34, accessed
   monotone variant of the monograph's paragraph (Problem 356), context only.
 - [OEIS] The entries A389241 (the maximum, 2025), A390187 (the minimum,
   2025) and A234813 (the identity permutation, 2014) of The On-Line
-  Encyclopedia of Integer Sequences, read as ordinary web sources; their
-  terms were not verified here.
+  Encyclopedia of Integer Sequences, accessed 2026-09-18 as ordinary web
+  sources; their terms were not verified here.
 
 **Formalization.** The site's (LEAN) suffix is a catalog label. The file
 [`ErdosProblems/34.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/34.lean)
@@ -266,7 +266,7 @@ $g(n)$; the paper knows no permutation "significantly worse" than the identity
 and notes that the identity is not the minimizer. Exact values: OEIS A389241
 (the maximum; $0,1,3,6,9,13,19,25,32,39,47,56,66,77,89,100$ for $n\le15$) and
 A390187 (the minimum; $0,1,3,5,7,10,13,17,20,25,30,33,39,44,50,56,63,70,77$ for
-$n\le18$), neither verified here; A234813 lists
+$n\le18$), both accessed 2026-09-18 and not verified here; A234813 lists
 $|S(\mathrm{id}_n)|$.
 
 **A pending proof claim (a lead with provenance, not status).** The site's

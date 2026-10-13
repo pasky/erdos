@@ -254,6 +254,23 @@ and to its result pages were updated in place on that date to the kept card and
 its pages. The records' other mentions of the two cards stay as written, as
 history. No statement, check or verdict changed.
 
+On 2026-10-13 the corpus recorded that the site stopped showing labels on 6
+October 2026: every sentence of a problem page, claim page, research page or
+library page that stated the site's label as current was put into the past tense
+("the site labeled the problem OPEN" for "the site labels the problem OPEN"),
+and a bare status fragment became "Labeled X on the site". Where a filed
+record's examined passage held such a sentence, the passage now reads in the
+converted form, with the same label and date. Filed records and retained copies
+under `evidence/**/` were not edited. No statement, check or verdict changed.
+
+Earlier on 2026-10-13 the corpus's own prose stopped referring to living people
+as he, his, him, she or her where no source prints their pronouns: about 1,300
+lines of problem pages, claim pages, library cards, result pages and research
+notes now name the person or give their role. Where a filed record's examined
+passage held such a line, the passage now reads in the reworded form;
+quotations, filed records and reading copies of sources were not edited. No
+statement, check or verdict changed.
+
 A later change to examined text in a named file is disclosed in the same change
 on the owning page's standing, with its date and whether it touches the examined
 statement, proof, code or inputs; the standing thus says whether the current

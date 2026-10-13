@@ -43,7 +43,7 @@ the commit the registry entry pins, the repository's commits changed only the
 write-up's author line, one broken citation in it and the README.
 
 The README's "to our knowledge" novelty sentence reflects the project's search
-and is retained as written; Asad Shahab's independent proof
+of 24 September 2026 and is retained as written; Asad Shahab's independent proof
 claim, a proof of the seven-cycle case with a Lean development whose headline
 theorem covers every odd cycle $C_{2k+1}$ with $k\ge3$, was filed on the site
 first (proof claim 358, before the project's 367, both on 27 September 2026;

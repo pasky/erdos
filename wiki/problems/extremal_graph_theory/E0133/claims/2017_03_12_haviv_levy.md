@@ -66,6 +66,7 @@ this claim uses neither.
 with its venue above. The site's curator, Thomas Bloom, marked the problem
 DISPROVED. In the commentary the curator credits the paper, under the reference
 [HaLe18], with an alternative construction of the complete sum-free sets behind
-the bound. That credit is the `reviewed` evidence, and Bloom took no part in the
-paper. No independent review of the argument was made here. The theorem and the
-deduction to $f(n)$ were read, but no proof step of Theorem 1.5 was checked.
+the bound (read 2026-10-07). That credit is the `reviewed` evidence, and Bloom
+took no part in the paper. No independent review of the argument was made here.
+The theorem and the deduction to $f(n)$ were read, but no proof step of Theorem
+1.5 was checked.

@@ -51,13 +51,13 @@ strengthens.
 
 **Depends on.** Nothing in this wiki; the argument is self-contained.
 
-**Acceptance.** Refereed: Archiv der Mathematik. The Crossref record gives
-volume 25, issue 1, pp. 210--215, issued December 1974, and this page's date is
-the issue's nominal first day. Reviewed: the site's curator, T.
-F. Bloom, independent of the author, labeled the problem proved and names this
-paper as the proof. Carmesin restates the theorem, without a range for $n$, in a
-refereed, open-access paper (J. Combin. Theory Ser. B 161 (2023), p. 22, paged
-at
+**Acceptance.** Refereed: Archiv der Mathematik. The Crossref record (accessed
+2026-10-07) gives volume 25, issue 1, pp. 210--215, issued December 1974, and
+this page's date is the issue's nominal first day. Reviewed: the site's curator,
+T. F. Bloom, independent of the author, labeled the problem proved and names
+this paper as the proof. Carmesin restates the theorem, without a range for $n$,
+in a refereed, open-access paper (J. Combin. Theory Ser. B 161 (2023), p. 22,
+paged at
 [[../library/extremal_graph_theory/carmesin_2023_characterising_graphs_no_subdivision_wheel_bounded_diameter/related_results_p22|related_results_p22]]).
 The source has a library
 [[../library/extremal_graph_theory/thomassen_1974_minimal_condition_implying_special_k4_subdivision_graph/_index|source card]].

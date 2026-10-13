@@ -31,10 +31,11 @@ updated: 2026-10-13T14:08:51Z
 relations for cardinal numbers, Acta Math. Acad. Sci. Hungar. 16 (1965),
 no. 1--2, 93--196 (the corpus's
 [[../library/ramsey_theory/erdos_1965_partition_relations_cardinal_numbers/_index|source card]]),
-stated in §15.6 (p. 132) as one of the three propositions behind the first
-Main Theorem, carries the mark $(*)$ that the paper prefixes to results whose
-proofs assume the General Continuum Hypothesis (pp. 96--97). For $r=2$ it
-states $\aleph_\beta\not\to(\aleph_\beta,(3)_{\aleph_{\mathrm{cr}(\beta)}})^2$
+stated in §15.6 (p. 132) as one of the three propositions behind part (i) of
+the first Main Theorem, carries the mark $(*)$ that the paper prefixes to
+results whose proofs assume the General Continuum Hypothesis (pp. 96--97). For
+$r=2$ it states
+$\aleph_\beta\not\to(\aleph_\beta,(3)_{\aleph_{\mathrm{cr}(\beta)}})^2$
 for every ordinal $\beta$, where $\mathrm{cr}(\beta)$ is the paper's critical
 number (§15.1, p. 130); when $\beta=\alpha+1$,
 $\aleph_{\mathrm{cr}(\beta)}=\mathrm{cf}(\aleph_\alpha)$ (pp. 96 and 130). For

@@ -46,9 +46,9 @@ natural-number case, and "conjecture that a similar result holds for
 $\omega=2$".
 
 **Status.** Open, in the site's label. The site labeled the problem OPEN (page
-last edited 21 June 2026), and the community database agrees, as of 2026-10-07.
-The frontmatter standing is `claimed` with claim `proved`. It derives from two
-pending full claims, each on its own page. The first is
+last edited 21 June 2026), and the community database recorded it as open on
+2026-10-07. The frontmatter standing is `claimed` with claim `proved`. It
+derives from two pending full claims, each on its own page. The first is
 [[problems/unit_fractions/E0306/claims/2026_06_19_tang|Tang's Lean proof]] of
 June 2026. This is a Lean development asserting the whole statement with two
 Rosser--Schoenfeld bounds taken as axioms, followed by a manuscript published in
@@ -101,8 +101,9 @@ https://www.erdosproblems.com/306, accessed 2026-09-18.
   [[problems/unit_fractions/E0306/claims/1977_08_01_barbeau|1977_08_01_barbeau]].
 - [Jo78] Johnson, A. W., Jr., Letter to the editor. Crux Mathematicorum 4
   (1978), no. 7 (August--September 1978), 190, in the same archive,
-  [Crux_v4n07_Aug.pdf](https://cms.math.ca/wp-content/uploads/crux-pdfs/Crux_v4n07_Aug.pdf); the 48 denominators are also reproduced in [BEG15],
-  p. 2, and [Wa20], p. 2. Claim page
+  [Crux_v4n07_Aug.pdf](https://cms.math.ca/wp-content/uploads/crux-pdfs/Crux_v4n07_Aug.pdf);
+  the 48 denominators are also reproduced in [BEG15], p. 2, and [Wa20], p. 2.
+  Claim page
   [[problems/unit_fractions/E0306/claims/1978_08_01_johnson|1978_08_01_johnson]].
 - [Wa20] Watanabe, T., New examples of the representation of 1 by the sum
   of reciprocals of semiprime numbers. arXiv:2009.03275v2 (9 September

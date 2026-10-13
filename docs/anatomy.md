@@ -63,8 +63,9 @@ a live page ("page last edited 2026-04-06") or a repository ("its commit of
 2026-09-15"); and the license reading for a file the release holds. A date that
 is part of what is known stays as well: the date of an event in the history of a
 problem or a source, such as a publication, posting, submission, revision or
-catalog decision, and the dates a claim page's name and a link's `date` carry.
-When an as-of date is removed, an observation that held only on that date ("the
+catalog decision; the date of a correction to a claim's statement or proof, on
+its card; and the dates a claim page's name and a link's `date` carry. When an
+as-of date is removed, an observation that held only on that date ("the
 repository had no statement file on 2026-09-27") is dropped or kept as a dated
 event, never restated in the present tense as if it still holds.
 

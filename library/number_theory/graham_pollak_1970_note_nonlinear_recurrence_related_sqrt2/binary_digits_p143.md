@@ -40,10 +40,10 @@ p. 145 (PDF p. 4), read on the page images. The artifact is identified in
 the
 [[number_theory/graham_pollak_1970_note_nonlinear_recurrence_related_sqrt2/_index|source digest]].
 
-**Read depth.** Claims checked: the announcement, the reduction and the
-closing derivation were read clause by clause on the page images, and the first six digits were recomputed here. The proof of the
-closed form the identity rests on was read in full on the page images and
-followed, as recorded on
+**Read depth.** Claims checked: the announcement, the reduction and the closing
+derivation were read clause by clause on the page images, and the first six
+digits were recomputed here. The proof of the closed form the identity rests on
+was read in full on the page images and followed, as recorded on
 [[number_theory/graham_pollak_1970_note_nonlinear_recurrence_related_sqrt2/theorem_p143|theorem_p143]].
 Nothing here is independently reviewed.
 

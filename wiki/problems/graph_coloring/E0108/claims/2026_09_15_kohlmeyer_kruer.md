@@ -113,17 +113,17 @@ instantiates $r=5$ and $k=7$, both inside the wording's range, and its
 counterexamples are finite graphs lifted to every universe, so the refutation
 holds under both a finite-graph and an all-graphs reading of "every graph".
 
-**Acceptance.** Conjectures.io records the proof as verified. Its Lean kernel
-accepted the file with `propext`, `Quot.sound` and `Classical.choice` as the
-only axioms, after a static scan found no imports, axiom declarations, `sorry`,
-`native_decide` or unsafe options. The site's second kernel was not run, so the
-verdict rests on one kernel implementation. Conjectures.io records its review as
-approved on 16 September 2026, on two independent agent assessments covering
-formal semantics and prior-source eligibility. It marks the record as certified
-on 17 September 2026, with the bounty paid. A Conjectures.io certification is
-documented independent acceptance, listed as `reviewed`. The result is not
-refereed, and the file was not built here, so no `formalized` evidence is
-listed.
+**Acceptance.** Conjectures.io records the proof as verified on 15 September
+2026. Its Lean kernel accepted the file with `propext`, `Quot.sound` and
+`Classical.choice` as the only axioms, after a static scan found no imports,
+axiom declarations, `sorry`, `native_decide` or unsafe options. The site's
+second kernel was not run, so the verdict rests on one kernel implementation.
+Conjectures.io records its review as approved on 16 September 2026, on two
+independent agent assessments covering formal semantics and prior-source
+eligibility. It marks the record as certified on 17 September 2026, with the
+bounty paid. A Conjectures.io certification is documented independent
+acceptance, listed as `reviewed`. The result is not refereed, and the file was
+not built here, so no `formalized` evidence is listed.
 
 On 27 September 2026 the site's curator, Thomas Bloom, posted the claim on the
 erdosproblems.com proof-claims forum so that it could be discussed. The curator

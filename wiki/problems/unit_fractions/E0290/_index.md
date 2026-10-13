@@ -146,7 +146,7 @@ least $b$ are $5,5,17,17$. Corollary 2 (p. 28)
 gives infinitely many drops for every $a$ and every periodic sequence, and
 Theorem 5 (p. 28) an explicit linear bound $b(a)<ca$ in general. Acceptance
 evidence: the paper has no journal record (arXiv lists none; Crossref
-bibliographic query); the site accepted the resolution and
+bibliographic query, 2026-09-17); the site accepted the resolution and
 attributes it, van Doorn's bounds are formula lines of A375081, and the
 existence statement with $b\le6a$ has an external Lean proof (below). The
 $a=1$ case was also settled independently by Shiu ([Sh]; [vD24] says on

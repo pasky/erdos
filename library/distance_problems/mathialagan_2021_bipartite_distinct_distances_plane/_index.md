@@ -105,7 +105,9 @@ A complete own-words reconstruction of Theorem 3 and its essential local steps
 is supplied, with state **Verified at the stated scope** after independent
 source-based review, as recorded in its living verification record and retained
 in the [final review](evidence/verify/final_review.md) and [finalization-delta
-review](evidence/verify/finalization_delta_review.md).
+review](evidence/verify/finalization_delta_review.md). On 2026-10-12 the
+frontmatter description of the Problem 661 page was reworded; the change touches
+no examined statement, proof, code or input.
 
 [[distance_problems/mathialagan_2021_bipartite_distinct_distances_plane/theorem_1|Theorem
 1 and its bipartite application]] compile the ordinary lattice upper

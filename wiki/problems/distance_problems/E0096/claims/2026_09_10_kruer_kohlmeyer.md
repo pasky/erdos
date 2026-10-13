@@ -74,14 +74,14 @@ locating an erroneous step; that claim has
 
 **Acceptance.** The `reviewed` evidence is the certification by the bounty site
 Conjectures.io, linked above as the record. The site's Lean kernel verified the
-proof in a fresh isolated replay, with checks on the statement, the dependencies
-and the permitted axioms. The permitted axioms are `propext`, `Quot.sound` and
-`Classical.choice`. The site's review approved the record on 11 September 2026
-under its policy v2. It found that the reviewed definitions use Euclidean
-distance and unordered pairs, that the argument handles every proposed linear
-constant and every size threshold, and that the formal target matches the
-question of Problem 96. The record was certified on 14 September 2026 and shows
-the bounty as paid.
+proof on 10 September 2026 in a fresh isolated replay, with checks on the
+statement, the dependencies and the permitted axioms. The permitted axioms are
+`propext`, `Quot.sound` and `Classical.choice`. The site's review approved the
+record on 11 September 2026 under its policy v2. It found that the reviewed
+definitions use Euclidean distance and unordered pairs, that the argument
+handles every proposed linear constant and every size threshold, and that the
+formal target matches the question of Problem 96. The record was certified on 14
+September 2026 and shows the bounty as paid.
 
 The review states that it is an eligibility decision and not a guarantee of
 originality. It also states that its provenance search found no earlier

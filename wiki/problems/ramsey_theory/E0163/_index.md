@@ -64,12 +64,12 @@ https://www.erdosproblems.com/163, accessed 2026-09-18.
 
 **References.**
 
-- [Le17] Lee, Choongbum, Ramsey numbers of degenerate graphs. Ann. of Math.
-  (2) 185 (2017), no. 3, 791--829, doi:10.4007/annals.2017.185.3.2
-  (Crossref record read: issue dated 1 May 2017); arXiv:1505.04773
-  (v2, 1 December 2016, the version cited; 35 pages; the arXiv listing
-  carries no journal reference). Theorem 1.1 and the remarks after it, p. 3;
-  Theorem 1.3 and the hypercube remark, p. 4; Section 7, p. 32. Library home:
+- [Le17] Lee, Choongbum, Ramsey numbers of degenerate graphs. Ann. of Math. (2)
+  185 (2017), no. 3, 791--829, doi:10.4007/annals.2017.185.3.2 (the Crossref
+  record, read 2026-09-18, dates the issue 1 May 2017); arXiv:1505.04773 (v2, 1
+  December 2016, the version cited; 35 pages; the arXiv listing carries no
+  journal reference). Theorem 1.1 and the remarks after it, p. 3; Theorem 1.3
+  and the hypercube remark, p. 4; Section 7, p. 32. Library home:
   [[../library/ramsey_theory/lee_2017_ramsey_numbers_degenerate_graphs/_index|lee_2017_ramsey_numbers_degenerate_graphs]].
 - [BuEr75] Burr, S. A. and Erdős, P., On the magnitude of generalized Ramsey
   numbers for graphs. Infinite and finite sets (Colloq., Keszthely, 1973),
@@ -163,9 +163,9 @@ to isomorphism and each has a finite Ramsey number, so
 $c(d)=\max\bigl(2^{d2^{c(d+1)}},\max_{|V(H)|<n_0(d)}R(H)/|V(H)|\bigr)$
 gives $R(H)\le c(d)\,n$ for all $d$-degenerate $H$, which is $R(H)\ll_dn$.
 The theorem's threshold $n\ge2^{d^22^{cr}}$ is part of its hypothesis.
-Acceptance evidence: the Annals is refereed; the Crossref record places the
-article in volume 185, issue 3, 1 May 2017; the version cited is the arXiv
-v2 and the journal text was not compared.
+Acceptance evidence: the Annals is refereed; the Crossref record (read
+2026-09-18) places the article in volume 185, issue 3, 1 May 2017; the version
+cited is the arXiv v2 and the journal text was not compared.
 Read depth: claims checked for Theorem 1.1 and the two remarks after it
 (p. 3), Theorem 1.3 with the hypercube remark (p. 4) and Section 7's
 "Related problems" (p. 32); no proof was read.

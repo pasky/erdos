@@ -36,7 +36,7 @@ structurally similar to Katz, Krop and Maggioni's.
 **Source.** A. Gordeev, *Combinatorial Nullstellensatz and Turán numbers of
 complete $r$-partite $r$-uniform hypergraphs*, arXiv:2307.04447v1 (10 July
 2023, 3 pages; the identifier is printed on the retained file's own arXiv
-stamp and matches the arXiv record read), the retained file;
+stamp and matches the arXiv record read on 2026-09-18), the retained file;
 the paper appeared in Discrete Math. 347 (2024), no. 7, 114037,
 doi:10.1016/j.disc.2024.114037, and a corrigendum followed in Discrete Math.
 348 (2025), no. 4, 114417, doi:10.1016/j.disc.2025.114417 (Crossref records); neither the journal text nor the corrigendum is held,

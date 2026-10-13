@@ -358,9 +358,9 @@ $\{302,409,447,459,465,466,474\}$, so that by monotonicity
 $g_3(n)/3^n<0.2168$ for $n\ge7$; the witness is not checked in this
 corpus. The site states that it does not verify the comments on its pages.
 
-**Search scope.** None of the routes below found a refereed source for
-the Erdős--Sárközy bound beyond the Crossref record of [ErSa92], a journal version of [Ko26] or [Co26], an independent check of
-[Co26], or a further proof claim.
+**Search scope.** None of the routes below found a refereed source for the
+Erdős--Sárközy bound beyond the Crossref record of [ErSa92], a journal version
+of [Ko26] or [Co26], an independent check of [Co26], or a further proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab on
   2026-09-18; the formal-conjectures file, linked above; the community

@@ -114,16 +114,16 @@ the graphs problem collection. The community database record says proved,
 not formalized.
 
 **Status support.** The status-defining source is [Ri00], of which only the
-publisher's abstract was read. As deposited with the DOI record: "Let
-$G_p$ be a random graph on $2^d$ vertices where edges are selected independently
-with a fixed probability $p>\tfrac14$, and let $H$ be the $d$-dimensional
-hypercube $Q_d$. We answer a question of Bollobás by showing that, as
-$d\to\infty$, $G_p$ almost surely has a spanning subgraph isomorphic to $H$. In
-fact we prove a stronger result which implies that the number of $d$-cubes in
-$G\in\mathcal G(n,M)$ is asymptotically normally distributed for $M$ in a
-certain range." The abstract adds that the method applies to many other graphs,
-improving earlier results for the two-dimensional square grid, and that the
-proof uses the second moment method. With $p=1/2>1/4$ this is the statement.
+publisher's abstract was read. As deposited with the DOI record, accessed
+2026-09-18: "Let $G_p$ be a random graph on $2^d$ vertices where edges are
+selected independently with a fixed probability $p>\tfrac14$, and let $H$ be the
+$d$-dimensional hypercube $Q_d$. We answer a question of Bollobás by showing
+that, as $d\to\infty$, $G_p$ almost surely has a spanning subgraph isomorphic to
+$H$. In fact we prove a stronger result which implies that the number of
+$d$-cubes in $G\in\mathcal G(n,M)$ is asymptotically normally distributed for
+$M$ in a certain range." The abstract adds that the method applies to many other
+graphs, improving earlier results for the two-dimensional square grid, and that
+the proof uses the second moment method. With $p=1/2>1/4$ this is the statement.
 Acceptance evidence: Combinatorics, Probability and Computing is refereed (vol.
 9, no. 2, March 2000). What this page does not establish: the theorem's exact
 statement as printed (its number, page and quantifiers), the range of $M$ in the

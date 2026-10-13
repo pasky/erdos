@@ -144,18 +144,18 @@ linked above postdates the fix. Under the earlier definition the bounty site
 Conjectures.io published `erdos_567.parts.i` as a task (frozen statement `True ↔
 Erdos567.Q3.IsRamseySizeLinear`; the catalog revision the site names is one of
 its own task catalog, not of formal-conjectures) and accepted a Lean refutation
-of it (record 145e01a5-a004-4b17-a9fa-7503a28ff052; kernel verified, review
-decided 7 August 2026, certified 8 August 2026). The site's manual review
-classified the acceptance as a formalization-defect award: the frozen statement
-"materially differs from the intended Erdős Problem 567(i)", the proof "validly
-refutes the frozen size-Ramsey statement" but "does not settle the intended open
-problem", and the site paid its formalization-defect award instead of the
-displayed bounty; the task was withdrawn on 12 August 2026 for source mismatch,
-and the site's problems catalog listed no task for this problem on 2026-09-27.
-The refutation shows that for every $c\ge1$ and all large $n$ no host graph with
-at most $c\binom n2$ edges arrows $(Q_3,K_n)$: a graph with $m$ edges has at
-most $(2m)^4$ labeled copies (embeddings) of $Q_3$, each determined by the
-images of the four matching edges that change the first coordinate, and a
+of it (record 145e01a5-a004-4b17-a9fa-7503a28ff052; kernel verified 6 August
+2026, review decided 7 August 2026, certified 8 August 2026). The site's manual
+review classified the acceptance as a formalization-defect award: the frozen
+statement "materially differs from the intended Erdős Problem 567(i)", the proof
+"validly refutes the frozen size-Ramsey statement" but "does not settle the
+intended open problem", and the site paid its formalization-defect award instead
+of the displayed bounty; the task was withdrawn on 12 August 2026 for source
+mismatch, and the site's problems catalog listed no task for this problem on
+2026-09-27. The refutation shows that for every $c\ge1$ and all large $n$ no
+host graph with at most $c\binom n2$ edges arrows $(Q_3,K_n)$: a graph with $m$
+edges has at most $(2m)^4$ labeled copies (embeddings) of $Q_3$, each determined
+by the images of the four matching edges that change the first coordinate, and a
 weighted first moment with red probability $A/n$, summed over those copies and
 over the $n$-sets of vertices of degree at least $n-1$ that carry all $\binom
 n2$ edges, leaves mass for neither a red $Q_3$ nor a blue $K_n$. Hence $\hat
