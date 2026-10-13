@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 124, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T20:32:50Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-13T12:59:13Z
 ---
 
 # problems/diophantine_problems/E0124/claims
@@ -27,7 +27,7 @@ every nonnegative integer is a sum of one number with base-$d_i$ digits 0 and
 
 [[problems/diophantine_problems/E0124/claims/2026_09_09_fan|2026_09_09_fan]]: Theorem 1.5 of Steve Fan's arXiv preprint (version of 9 September 2026) claims
 that the powers of bases split into two parts with reciprocal sums at least 1
-and one part with gcd 1 are strongly complete. This answers the second
-question at tuples that admit such a split.
+and one part with gcd 1, no two bases powers of one integer, are strongly
+complete. This answers the second question at tuples containing such bases.
 
 ***

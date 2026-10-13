@@ -14,15 +14,22 @@ updated: 2026-09-24T22:12:55Z
 
 ## Current bounds
 
-The published bounds are
+The best bounds that follow from published results are
 
 $$
- (2/\sqrt3+o(1))\sqrt N\le M(N)\le(2+o(1))\sqrt N.
+ (2/\sqrt3+o(1))\sqrt N\le M(N)\le(1.863\ldots+o(1))\sqrt N.
 $$
 
-All sum conditions include diagonal pairs. The upper bound is the trivial
-bound printed as display (37) by Erdős–Freud (1991), p. 204; they state
-without proof that the coefficient $2$ can be replaced by $1.98$.
+All sum conditions include diagonal pairs. The upper bound is Theorem 3 of
+Pikhurko (2006), p. 2099,
+[source record](../../../library/additive_bases/pikhurko_2006_dense_edge_magic_graphs_thin_additive/theorem_3.md),
+a refereed bound of $((1/4+(\pi+2)^{-2})^{-1/2}+o(1))\sqrt N$ on quasi-Sidon
+subsets of $[1,N]$, those with $|A+A|=(1+o(1))\binom{|A|}2$. A set counted by
+$M(N)$ with $k$ elements is quasi-Sidon: the $r$ representations of its one
+repeated sum use disjoint elements, so $r\le\lceil k/2\rceil$ and
+$|A+A|=\binom{k+1}2-(r-1)\ge\binom{k+1}2-k/2$. Erdős–Freud (1991) print the
+trivial bound $(2+o(1))\sqrt N$ as display (37), p. 204, and state without
+proof that the coefficient $2$ can be replaced by $1.98$.
 
 ## Lower bound
 

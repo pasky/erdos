@@ -36,14 +36,17 @@ of $\log n$ do not answer it. The trivial bounds are quadratic: [EFRS78] Theorem
 **Status.** Open, the site's label. The search whose scope the Current
 assessment records found no proof, disproof, preprint or proof claim for the
 exact statement. This is a bounded negative finding, not a certificate of
-openness. The known bounds are
+openness. The known bounds are, for all large $n$,
 
 $$
-c_1\Bigl(\frac{n}{\log n}\Bigr)^{3/2}<R(C_4,K_n)\le(1+o(1))\Bigl(\frac{n}{\log n}\Bigr)^2,
+c_1\frac{n^{3/2}}{\log n}<R(C_4,K_n)\le(1+o(1))\Bigl(\frac{n}{\log n}\Bigr)^2,
 $$
 
-where the lower bound is Spencer's Theorem 3.1 ([Sp77], printed p. 75). The
-upper bound is [CLRZ00] Corollary 3 (i) at $m=2$ (p. 53), which gives the order
+where the lower bound is [BoKe10] Theorem 1.9 (arXiv p. 7) inverted at $\ell=4$,
+as the Lower bounds paragraph of the Current assessment shows. It is a factor
+$(\log n)^{1/2}$ above Spencer's earlier $c(n/\log n)^{3/2}$ (Theorem 3.1 of
+[Sp77], printed p. 75), the lower bound the site displays. The upper bound is
+[CLRZ00] Corollary 3 (i) at $m=2$ (p. 53), which gives the order
 $n^2/(\log n)^2$ that the site displays. [Er84d] (display (33), p. 67)
 attributes that order to an observation of Szemerédi from the
 Ajtai--Komlós--Szemerédi independence lemma, without a printed proof. [CLRZ00]
@@ -259,17 +262,17 @@ this problem; [CLRZ00] (printed pp. 51--56) and [Sp77] (printed pp. 69--76) are
 cited from the publisher's open archive.
 
 **Remaining gaps.** (1) The site's attribution of the $n^2/(\log n)^2$ upper
-bound to Szemerédi is printed in [Er84d], display (33), p. 67, as an
-observation with no proof and no citation, and confirmed in [CLRZ00], pp.
-51--52, which prints a proof as Corollary 3 (i); that proof rests on the
-Li--Rousseau independence bound (J. Combin. Theory Ser. B 68 (1996), 36--44),
-not held, so the bound is claims-checked and not proof-verified here; reopening
-condition for the depth: a copy of the 1996 paper. (2) The lower bound is
-recorded at statement depth from [Sp77] Theorem 3.1 and Theorem 3.3 (p. 75),
-whose proofs the paper only sketches with no explicit constant, and on [BoKe10]
-Theorem 1.3 in its arXiv version; [CLRZ00] Note 1 (p. 54) quotes the same order
-from a 1987 paper, not held. (3) Proof coverage: the proof of [EFRS78] Theorem
-2 was followed for structure only, and no proof here is rewritten or
+bound to Szemerédi is printed in [Er84d], display (33), p. 67, as an observation
+with no proof and no citation, and confirmed in [CLRZ00], pp. 51--52, which
+prints a proof as Corollary 3 (i); that proof rests on the Li--Rousseau
+independence bound (J. Combin. Theory Ser. B 68 (1996), 36--44), not held, so
+the bound is claims-checked and not proof-verified here; reopening condition for
+the depth: a copy of the 1996 paper. (2) The lower bound is recorded at
+statement depth from [Sp77] Theorem 3.1 and Theorem 3.3 (p. 75), whose proofs
+the paper only sketches with no explicit constant, and on [BoKe10] Theorem 1.3
+and Theorem 1.9 in its arXiv version; [CLRZ00] Note 1 (p. 54) quotes the same
+order from a 1987 paper, not held. (3) Proof coverage: the proof of [EFRS78]
+Theorem 2 was followed for structure only, and no proof here is rewritten or
 independently reviewed; there is no resolving proof to compile. (4) The Lean
 file is a statement, not a proof.
 <!-- BEGIN problem library links -->

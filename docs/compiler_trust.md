@@ -218,25 +218,20 @@ claim's standing paragraph — carries the disclosure sentence: "The accepted
 proof assumes the compiler under `docs/compiler_trust.md`; the kernel-only pass
 is owed for this closure."
 
-Here a full problem is a catalog problem whose claim page for the project's
-proof moves to `accepted`, resting on the claim card, so that the problem's
-`status` and `claim` follow. A claim card's own change to proved or refuted
-closes no problem. The disclosure sentence goes in the problem page's
-Formalization paragraph. Any compiler-assumed claim that a breakthrough rests on
-is also replicated. The same computation is rerun in a second, independent
-implementation (an evidence check in another language, as the mathematics wiki
-does for its computed results) and, where feasible, under a second Lean
-toolchain version. The replication is named beside the disclosure. The pass
-replaces each `native_decide` by a kernel route (`decide +kernel`, accumulator
-twins, chunked declarations, under [[lean_authoring]] Kernel-scale decide) until
-the claim's row lists no compiler axiom. The carry-over holds only when the
-fidelity record's frozen subject is untouched. A fidelity record for a
-compiler-assumed claim freezes its Lean subject as the statement declaration and
-the definitions it uses, and names the proof modules outside that subject, so
-the pass changes nothing the record reviewed. A record that binds the whole Lean
-subject needs a fresh review under its own rule. Like any change to the Lean
-build inputs, the pass leaves every other tier-2 warrant under the carry-forward
-rule.
+Any compiler-assumed claim that a breakthrough rests on is also replicated. The
+same computation is rerun in a second, independent implementation (an evidence
+check in another language, as the mathematics wiki does for its computed
+results) and, where feasible, under a second Lean toolchain version. The
+replication is named beside the disclosure. The pass replaces each
+`native_decide` by a kernel route (`decide +kernel`, accumulator twins, chunked
+declarations, under [[lean_authoring]] Kernel-scale decide) until the claim's
+row lists no compiler axiom. The carry-over holds only when the fidelity
+record's frozen subject is untouched. A fidelity record for a compiler-assumed
+claim freezes its Lean subject as the statement declaration and the definitions
+it uses, and names the proof modules outside that subject, so the pass changes
+nothing the record reviewed. A record that binds the whole Lean subject needs a
+fresh review under its own rule. Like any change to the Lean build inputs, the
+pass leaves every other tier-2 warrant under the carry-forward rule.
 
 ## Toolchain changes and removal
 
@@ -257,3 +252,15 @@ rule or `standing: stale` semantics attaches to a compiler-assumed proof: the
 gate is the replay, and a false evaluation fails it. A kernel-only proof of the
 same declaration removes the assumption by dropping the key and the compiler
 sentence in the commit that lands it.
+
+## Erdos-specific
+
+The rules below are specific to this repository and hold in addition to the
+shared text above; a sentence that differs from the shared text says that it
+governs here.
+
+Here a full problem is a catalog problem whose claim page for the project's
+proof moves to `accepted`, resting on the claim card, so that the problem's
+`status` and `claim` follow. A claim card's own change to proved or refuted
+closes no problem. The disclosure sentence goes in the problem page's
+Formalization paragraph.

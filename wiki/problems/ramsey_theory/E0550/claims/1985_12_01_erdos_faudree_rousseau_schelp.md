@@ -62,5 +62,6 @@ paper's own.
 volume 5, number 4 (December 1985), received 4 March 1983. This is the
 `refereed` evidence. The issue carries no day, so this page is dated to the
 first day of that month. The paper is the site's source key for the problem. But
-the site's label OPEN (LEAN) settles neither the problem nor a declared part of
-it, so `reviewed` is not listed. The proof is cited at statement depth.
+the site's label (OPEN when accessed on 2026-09-17, and later OPEN (LEAN))
+settled neither the problem nor a declared part of it, so `reviewed` is not
+listed. The proof is cited at statement depth.

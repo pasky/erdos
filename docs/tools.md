@@ -648,15 +648,16 @@ its claims, part by part where parts are listed. A `not_provable` or
 `not_disprovable` claim states one side of an independence result and must be
 partial: on its own it leaves the problem, or the part it settles, open, and one
 accepted claim of each kind settles it as `independent`. A problem with no claim
-page keeps its provisional standing: the leg counts such problems in its detail
-and passes; with `--settled` each is a finding, the mode a release gate uses
-once the claim pages are written. `erdos problem-claims` runs the same check
-standalone, and `erdos problem-claims --write` sets the derived values on every
-problem that has claim pages before checking; repeatable `--problem E<nnnn>`
-selections scope the write and the check alike. The leg reads frontmatter and
-the two labeled paragraphs only; it assesses no mathematics and awards no
-standing. The module `tools.core.problem_claims` is shared, repository-neutral
-code, so it knows no problem numbering, area list or site.
+page keeps its provisional standing: unless that standing is `open` with claim
+`none`, the leg counts such problems in its detail and passes; with `--settled`
+each is a finding, the mode a release gate uses once the claim pages are
+written. `erdos problem-claims` runs the same check standalone, and
+`erdos problem-claims --write` sets the derived values on every problem that has
+claim pages before checking; repeatable `--problem E<nnnn>` selections scope the
+write and the check alike. The leg reads frontmatter and the two labeled
+paragraphs only; it assesses no mathematics and awards no standing. The module
+`tools.core.problem_claims` is shared, repository-neutral code, so it knows no
+problem numbering, area list or site.
 
 #### Incoming-library scope
 

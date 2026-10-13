@@ -22,8 +22,8 @@ paginated 1--22; the published chapter was not read. Equations (25), (26) and
 (27) are all on p. 15.
 
 **Read depth.** Claims checked: the three statements were read clause by
-clause on the printed page. (25) and (26) are reported from other works; the
-step to (27) is stated in one sentence and not written out.
+clause on the printed page. Equations (25) and (26) are reported from other
+works; the step to (27) is stated in one sentence and not written out.
 
 ## Statement
 

@@ -112,11 +112,15 @@ three with reciprocal sums at least $1$ and one with gcd $1$, form a strongly
 complete set, which answers the second question for every $k$ at every tuple
 containing such sets; Fan's Theorem 1.5
 ([[problems/diophantine_problems/E0124/claims/2026_09_09_fan|claim page]],
-claimed, an arXiv preprint) does the same with two parts beside the gcd part.
-A post on the site's thread of 23 September 2026 cites these two results as
-settling the second question when the reciprocal sum exceeds $2$ or $3$. For
-tuples with reciprocal sum at most $2$, and for $k\ge2$ at the four tuples of
-[BEGL96], the second question is open.
+claimed, an arXiv preprint) does the same with two parts beside the gcd part,
+for sets of bases no two of which are powers of one integer. A post on the
+site's thread of 23 September 2026 cites these two results as settling the
+second question when the reciprocal sum exceeds $2$ or $3$. On accepted
+results the second question is open at every tuple that contains no four sets
+of Bergelson and Simmons's kind, among them every tuple whose reciprocal sum is
+at most $3$, apart from the case $k=1$ at the four tuples of [BEGL96]. Fan's
+pending claim would also settle the tuples that contain a set of bases, no two
+of them powers of one integer, admitting his split into three parts.
 
 The formal-conjectures statement file, at its
 [commit of 2026-09-18](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/124.lean),

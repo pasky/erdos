@@ -399,15 +399,15 @@ regenerates it.
 On the Lean side there is no hand-maintained roster. `lake exe audit` walks
 every declaration in the corpus; its axiom check has no opt-out and cannot be
 silenced. It checks the claim surface (`Erdos.L<id>.statement` / `.claim` /
-`.refutation`) and emits `lean/Manifest.json`, which is committed and checked
-for freshness. Each claim row of the manifest records two fields. `depends` is
-the kernel dependency check: the ids of the other claims whose namespace
-constants the proof closure of the claim's triple reaches. The reference linter
-gates every recorded id against the claim page's `depends_on`, so a page always
-discloses what its kernel proof relies on. `compiler` lists the compiler axioms
-that `native_decide` minted in the triple's closure, each with the declaration
-and module that minted it; the reference linter matches them to the card's
-`assumes: compiler` in both directions.
+`.refutation`), and `lake exe audit --emit` writes `lean/Manifest.json`, which
+is committed and checked for freshness. Each claim row of the manifest records
+two fields. `depends` is the kernel dependency check: the ids of the other
+claims whose namespace constants the proof closure of the claim's triple
+reaches. The reference linter gates every recorded id against the claim page's
+`depends_on`, so a page always discloses what its kernel proof relies on.
+`compiler` lists the compiler axioms that `native_decide` minted in the triple's
+closure, each with the declaration and module that minted it; the reference
+linter matches them to the card's `assumes: compiler` in both directions.
 
 A claim's `lean:` field names a fully qualified declaration in that claim's own
 namespace (`Erdos.L<id>.*`). The field certifies the claim's own
@@ -516,7 +516,8 @@ as `independent`, and with one of them pending it is `claimed`. `tags` lists the
 problem's tag strings; the repository-specific section says where they come
 from. The problem page never carries a hand-set standing: a problem without a
 claim page keeps a provisional standing, which the schema check counts as
-transition debt and, in its settled mode, fails.
+transition debt and, in its settled mode, fails, unless that standing is `open`
+with claim `none`, which needs no claim page.
 
 A claim page carries `authors`, `status` (`claimed`, `accepted`, `rejected` or
 `withdrawn`), `claim` (the problem values without `none` and `contested`, plus
@@ -780,10 +781,11 @@ prominent. A theorem statement in a manuscript is not sufficient by itself: such
 a claim stays `claimed`, and the problem's `status` stays `claimed` with it.
 Source-supported standing, local proof coverage and formal verification remain
 distinct. A provisional standing retained from the site's label, on a problem
-with no claim page yet, still needs the qualifications above; the schema check
-counts it as transition debt and certifies nothing. Project-authored resolutions
-require the independent whole-conclusion and exact-formulation scrutiny in
-[[verification]] before acceptance as project solutions.
+with no claim page yet, still needs the qualifications above; unless it is
+`open`/`none`, the schema check counts it as transition debt, and it certifies
+nothing. Project-authored resolutions require the independent whole-conclusion
+and exact-formulation scrutiny in [[verification]] before acceptance as project
+solutions.
 
 A claim page with an erdosproblems.com proof claim, a claimant's forum post that
 the page cites, or a Palomar registry link carries a `**Submission note.**`

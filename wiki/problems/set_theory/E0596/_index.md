@@ -87,7 +87,7 @@ Whether the pair $(K_4,K_3)$ qualifies is
 every $n$ (Folkman for two colors, Nešetřil and Rödl for every $n$), so the
 pair qualifies exactly when Problem 595 has a negative answer, and Shelah's
 consistency result for that problem means that ZFC cannot prove that the pair
-qualifies, relative to that result's large-cardinal hypothesis.
+qualifies, relative to the consistency of ZFC alone.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

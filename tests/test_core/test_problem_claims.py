@@ -721,8 +721,8 @@ def test_a_dependence_on_a_library_result_page_is_noted_with_its_read_status(
         '',
         '***',
         '',
-        '**Read depth.** Claims checked: the statement and its hypotheses. The',
-        'proof was not read.',
+        '**Read depth.** Claims checked: the statement (p. 3) and its hypotheses',
+        '(pp. 3--4). The proof was not read.',
     )
     write_page(
         tmp_path / 'library/first/remark_3.md', '---', 'name: first/remark_3', '---'
@@ -742,7 +742,8 @@ def test_a_dependence_on_a_library_result_page_is_noted_with_its_read_status(
         f"{page}: depends on '../library/first/theorem_1'"
         ' (read status: claims checked; proof not verified)',
         f"{page}: depends on '../library/first/lemma_2'"
-        ' (read status: Claims checked: the statement and its hypotheses)',
+        ' (read status: Claims checked: the statement (p. 3) and its hypotheses'
+        ' (pp. 3--4))',
         f"{page}: depends on '../library/first/remark_3' (read status: not stated)",
     ]
     # a card is not a result page: name the result page the claim rests on

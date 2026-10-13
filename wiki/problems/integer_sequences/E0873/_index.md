@@ -49,11 +49,12 @@ above $1/4$
 ([[problems/integer_sequences/E0873/claims/2026_04_30_old_bielefelder|claim page]]).
 No claim covers exponents at most $1/4$.
 
-Kenta Kitamura's Lean development (thread post of 11 September 2026) proves that
-every increasing sequence has $\liminf_{X\to\infty}F(A,X,3)/X^{1/3}\le6$. As the
-post discloses, it was developed with ChatGPT and OpenAI Codex using GPT-6
-(Astra). This refutes Erdős's suggestion in [Er92c], p. 48, repeated in the
-site's commentary, that some sequence satisfies $F(A,X,3)\gg X^{1/3}\log X$ for
+Kenta Kitamura's Lean development (thread post of 11 September 2026) claims a
+proof that every increasing sequence has
+$\liminf_{X\to\infty}F(A,X,3)/X^{1/3}\le6$. As the post discloses, it was
+developed with ChatGPT and OpenAI Codex using GPT-6 (Astra). If correct, this
+refutes Erdős's suggestion in [Er92c], p. 48, repeated in the site's
+commentary, that some sequence satisfies $F(A,X,3)\gg X^{1/3}\log X$ for
 every $X$. Formal-conjectures registers the development as the formal proof of
 its variant `erdos_873.variants.supplement_all_scale`. It settles no instance of
 the question asked, so it has no claim page. It was not built or audited here.

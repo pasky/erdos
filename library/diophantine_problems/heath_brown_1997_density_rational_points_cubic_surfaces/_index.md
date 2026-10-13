@@ -55,13 +55,22 @@ read clause by clause on the printed pages (pp. 2-5), as were the statements of
 Lemmas 1-6 summarized below. The proofs were read for their structure, not
 checked step by step.
 
-**Bears on.** [[../wiki/problems/diophantine_problems/E0940/_index|#940]]: the
-Corollary bounds by $O(x^{4/9+\varepsilon})$ the integers up to $x$ with two or
-more distinct representations as a sum of two cubes of nonnegative integers,
-one restricted collision set inside the case $r=3$, since cubes are
-$3$-powerful; it bounds neither the integers with one representation nor sums
-of three cubes or of general $3$-powerful numbers, and settles no part of the
-problem.
+**Bears on.**
+
+- [[../wiki/problems/diophantine_problems/E0940/_index|#940]]: the Corollary
+  bounds by $O(x^{4/9+\varepsilon})$ the integers up to $x$ with two or more
+  distinct representations as a sum of two cubes of nonnegative integers, one
+  restricted collision set inside the case $r=3$, since cubes are
+  $3$-powerful; it bounds neither the integers with one representation nor
+  sums of three cubes or of general $3$-powerful numbers, and settles no part
+  of the problem.
+- [[../wiki/problems/diophantine_problems/E0323/_index|#323]]: the Corollary
+  gives $f_{3,2}(x)\gg x^{2/3}$ for the integers up to $x$ that are sums of
+  two nonnegative cubes, since about $x^{2/3}$ pairs of cubes have sum at most
+  $x$ and the integers with two or more representations absorb only
+  $O(x^{4/9+2\varepsilon})$ of them; with the trivial case of one cube this
+  answers the problem's second question yes at $k=3$, as the problem page
+  derives.
 
 **Results.**
 [[diophantine_problems/heath_brown_1997_density_rational_points_cubic_surfaces/theorem_1|Theorem 1]]

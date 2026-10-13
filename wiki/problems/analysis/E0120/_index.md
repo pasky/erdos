@@ -124,9 +124,9 @@ special cases. Mora Cuellar, Iosevich, Kulkarni, Rojas Aravena and Yavicoli
 for every infinite $A\subseteq\mathbb{R}$, every $a\ne0$ and every $0<|r|<1$
 neither $\{ar^n:n\ge1\}+A$ nor $\{ar^n:n\ge1\}-A$ is measure universal, and the
 same for any set containing a lacunary sequence $(b_n)$ with $-\log b_n=O(n)$ in
-place of the geometric sequence; this is a two-summand case of Bourgain's
-three-set theorem, and it does not cover a single geometric progression, the
-case the release claims
+place of the geometric sequence; this is a two-summand analogue of Bourgain's
+three-set theorem, in the two-set regime that theorem leaves open, and it does
+not cover a single geometric progression, the case the release claims
 ([[problems/analysis/E0120/claims/2026_07_03_mora_cuellar_iosevich_kulkarni_rojas_aravena_yavicoli|claim page]]).
 Iosevich, Kulkarni, Mora Cuéllar, Rojas Aravena and Yavicoli
 ([arXiv:2609.04456](https://arxiv.org/abs/2609.04456), 3 September 2026) state

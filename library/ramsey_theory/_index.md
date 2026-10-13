@@ -984,6 +984,7 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/ramsey_theory/E0076/_index|E0076]]
 - [[extremal_graph_theory/chen_1997_result_c4_star_ramsey_numbers/_index|chen_1997_result_c4_star_ramsey_numbers]]
   - [[../wiki/problems/ramsey_theory/E0085/_index|E0085]]
+  - [[../wiki/problems/ramsey_theory/E0552/_index|E0552]]
 - [[extremal_graph_theory/chung_1997_open_problems_paul_erdos_graph_theory/_index|chung_1997_open_problems_paul_erdos_graph_theory]]
   - [[../wiki/problems/ramsey_theory/E0609/_index|E0609]]
 - [[extremal_graph_theory/conlon_2023_ramsey_numbers_zarankiewicz_problem/_index|conlon_2023_ramsey_numbers_zarankiewicz_problem]]

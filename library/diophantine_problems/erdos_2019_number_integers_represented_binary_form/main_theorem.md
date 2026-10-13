@@ -68,3 +68,8 @@ assertion of the paper, not a proved statement.
   also sums of three nonnegative $k$th powers, so the count is a lower bound
   of order $u^{2/k}$ for the problem's $f_{k,3}(u)$, against the $u^{3/k}$ the
   problem asks for; the paper says nothing about three summands.
+- [[../wiki/problems/diophantine_problems/E0323/_index|Problem 323]]: for even
+  $k\ge4$ the positive values $\lvert x^k+y^k\rvert$ are the positive sums of
+  two nonnegative $k$th powers, so (a) gives $f_{k,2}(u)\gg u^{2/k}$, the
+  problem's second question at $m=2$; odd $k$ needs the unproved
+  restricted-range remark.

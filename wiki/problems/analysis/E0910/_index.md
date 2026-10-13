@@ -55,19 +55,23 @@ writes that "Mary Ellen Rudin using the continuum hypothesis found the required
 counter examples" to both questions. For the first question Rudin's theorem
 gives countable complements, and the paper neither states nor proves that every
 nondegenerate connected subset of her set is homeomorphic to the set; that step
-is asserted by [Er82e] and the site and has not been found here. The first
+is asserted by [Er82e] and the site and has not been found here. For the second
+question Rudin's set has dimension one (Progress below), so it answers the
+site's ambient wording under the continuum hypothesis but not the corrected
+question, and [Ru58] does not support the attribution there. The first
 defect is already in [Er82e], which excludes points for the subset only; the
 second is the site's. The $2^c$ form of [Er44] is a variant.
 
 **Status.** The site labeled the problem DISPROVED on the strength of Rudin's
 1958 construction [Ru58]. Its commentary credits the construction, under the
 continuum hypothesis, with a negative answer to both questions. That result is
-recorded as an
-[[problems/analysis/E0910/claims/1958_01_01_rudin|accepted conditional claim]].
-The page departs from the DISPROVED label, as the Notes explain. The
-homeomorphism step that the credit needs for the first question is not in the
-paper and is unchecked here. A conditional claim derives nothing in any case, so
-the standing is open.
+recorded as a
+[[problems/analysis/E0910/claims/1958_01_01_rudin|rejected conditional claim]]:
+it answers the site's wording of the second question, and Rudin's set, of
+dimension one, is outside the corrected second question. The page departs from
+the DISPROVED label, as the Notes explain. The homeomorphism step that the
+credit needs for the first question is not in the paper and is unchecked here.
+A conditional claim derives nothing in any case, so the standing is open.
 
 **Source.** [erdosproblems.com/910](https://www.erdosproblems.com/910), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #910,
@@ -94,9 +98,9 @@ https://www.erdosproblems.com/910.
 ## Current assessment
 
 Rudin’s theorem gives, under CH, a nondegenerate connected planar set with at
-most $\mathfrak c$ connected subsets, and its construction has not been
-reconstructed. Nothing on this page removes CH from Rudin’s theorem or settles
-either question of the corrected Statement in full.
+most $\mathfrak c$ connected subsets, of dimension one, and its construction
+has not been reconstructed. Nothing on this page removes CH from Rudin’s
+theorem or settles either question of the corrected Statement in full.
 
 The source statements below are recorded at the stated scopes; complete source
 proofs remain uncompiled. See
@@ -129,6 +133,16 @@ Singletons add at most $\mathfrak c$ more subsets, and allowing the empty set
 does not change the bound. Under CH, therefore, the site's wording of the second
 question fails already in ambient dimension two.
 
+The corrected second question is not touched, because $M$ has dimension one,
+not greater than one. If $M$ contained an open disc $U$, a closed disc
+$D\subset U$ would be a nondegenerate connected subset with
+$M\setminus D\supseteq U\setminus D$ uncountable, against the theorem; so $M$
+has empty interior in $\mathbb R^2$. A subset of $\mathbb R^2$ has dimension
+$2$ only if it has interior (W. Hurewicz and H. Wallman, *Dimension Theory*,
+Princeton, 1941, Chapter IV), and a nondegenerate connected set is not
+zero-dimensional, so $\dim M=1$, and so is the dimension of its copies in
+$\mathbb R^n$. Rudin's paper does not discuss dimension.
+
 The first clause requires a separate transfer. Rudin's direct citation is to
 Erdős's *Some remarks on connected sets*, Bull. Amer. Math. Soc. 50 (1944),
 printed p.443 / physical p.2: the conjecture that every nondegenerate connected
@@ -150,8 +164,9 @@ Erdős's *Some of my favourite problems which recently have been solved* (1982),
 more-than-$\mathfrak c$ question with intrinsic dimension greater than one, the
 corrected second question. Erdős attributes counterexamples to Rudin under CH.
 This is a historical attribution: the homeomorphism transfer it needs for the
-first question is unchecked. Physical p.18 is printed p.76 and concerns the
-different measurable-differences problem.
+first question is unchecked, and for the second question Rudin's set, of
+dimension one, does not meet the hypothesis. Physical p.18 is printed p.76 and
+concerns the different measurable-differences problem.
 
 Rudin's optimality remark (printed p.15) says every nondegenerate connected
 set has a nondegenerate connected subset with infinite complement. It cites

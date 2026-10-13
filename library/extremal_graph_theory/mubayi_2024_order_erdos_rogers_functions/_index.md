@@ -2,20 +2,22 @@
 name: extremal_graph_theory/mubayi_2024_order_erdos_rogers_functions
 desc: |
   Proves the Erdős-Rogers function satisfies f_s(n) = O(sqrt(n) log n) for
-  every fixed s at least 3, nearly matching the known lower bound.
+  every fixed s at least 3, within a power of log n of the lower bound
+  f_s(n) >> sqrt(n log n)/log log n that the paper prints.
 license: CC-BY-4.0
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-13T13:51:08Z
 ---
 
 # extremal_graph_theory/mubayi_2024_order_erdos_rogers_functions
 
 [[extremal_graph_theory/_index|..]]
 
-[[extremal_graph_theory/mubayi_2024_order_erdos_rogers_functions/equation_1|equation_1]]: The known lower bound for the Erdős–Rogers function, deduced in the
-introduction from Shearer's independent-set bound for K_{s+1}-free graphs of
-given maximum degree applied to a vertex neighborhood; Shearer's paper is
-not held and the bound is recorded here second-hand.
+[[extremal_graph_theory/mubayi_2024_order_erdos_rogers_functions/equation_1|equation_1]]: A lower bound for the Erdős–Rogers function, in the paper's threshold form,
+deduced in the introduction from Shearer's independent-set bound for
+K_{s+1}-free graphs of given maximum degree applied to a vertex neighborhood;
+the bound is Shearer's Corollary 1, read on the page images of his paper,
+of which no file is held.
 
 [[extremal_graph_theory/mubayi_2024_order_erdos_rogers_functions/theorem_1|theorem_1]]: The Erdős–Rogers function f_s(n), the largest m such that every n-vertex
 K_{s+1}-free graph has m vertices spanning no K_s, is at most a constant
@@ -79,9 +81,10 @@ Source: <https://arxiv.org/abs/2401.02548>.
   f_s(n) <= 2^{100s} sqrt(n) log n for n >= 2, hence f_s(n) = n^{1/2+o(1)} when
   s = o(log n) (page
   [[extremal_graph_theory/mubayi_2024_order_erdos_rogers_functions/theorem_1|theorem_1]]).
-- Equation (1): The known lower bound f_s(n) = Omega(sqrt(n log n)/log log n)
+- Equation (1): A lower bound f_s(n) = Omega(sqrt(n log n)/log log n)
   for all s >= 3, derived from Shearer's independent-set bound for K_{s+1}-free
-  graphs; Shearer's paper is not held and the bound is second-hand here (page
+  graphs, his Corollary 1, read on the page images of his paper (no file of it
+  is held; page
   [[extremal_graph_theory/mubayi_2024_order_erdos_rogers_functions/equation_1|equation_1]]).
 - Proposition 2: Janson-inequality bound: for s >= 3, n >= 2^{40s} and rho =
   (8s/n)^{2/s}, a random s-partite graph on color classes of size at least n/2s

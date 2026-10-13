@@ -63,8 +63,12 @@ $\max x_i\le B$ for $k\ge33$. For $k=3$ the site's record is Wooley's
 Theorem 1.1 [Wo15], $f_{3,3}(x)\gg x^{0.91709477}$ for sums of three positive
 cubes
 ([[../library/diophantine_problems/wooley_2015_sums_three_cubes_ii/_index|source card]]),
-short of the exponent $1$ the question asks for. The two-power analogue is
-Mahler and Erdős's theorem [ErMa38], which the site records as
+short of the exponent $1$ the question asks for. At $k=3$ the weaker form,
+$f_{3,3}(x)\gg_\epsilon x^{1-\epsilon}$, is the first question of
+[[problems/diophantine_problems/E0323/_index|Problem 323]] at $k=3$, and that
+page uses the corollary recorded here to answer its second question yes at
+three summands for every $k\ge33$. The two-power analogue is Mahler and
+Erdős's theorem [ErMa38], which the site records as
 $f_{k,2}(x)\gg x^{2/k}$ for every $k\ge3$: an integral binary form of degree
 $k\ge3$ with nonzero discriminant represents $\gg u^{2/k}$ integers up to $u$
 ([[../library/diophantine_problems/erdos_2019_number_integers_represented_binary_form/_index|source card]]);

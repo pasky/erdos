@@ -237,8 +237,8 @@ pending negative answer to the closing question is recorded in the Status
 paragraph above. Brandt's bound has no acceptance evidence: the site's
 commentary (updated April 2026) notes it under the label OPEN, which is not
 acceptance, and no refereed version, citation with a proof check or independent
-review was found, so the E0290 preprint qualification applies to this half of
-the account; the claim page
+review was found, so the preprint qualification applies to this half of the
+account; the claim page
 [[problems/ramsey_theory/E1182/claims/1996_12_01_brandt|Brandt 1996]] records
 the bound as a pending partial claim.
 

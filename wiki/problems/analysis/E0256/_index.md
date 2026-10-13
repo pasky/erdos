@@ -110,9 +110,16 @@ $\exp(c(n\log n)^{1/2}\log\log n)$. This gives
 $\log f^*(n)\ll(n\log n)^{1/2}\log\log n$ only at the sizes $n$ the
 construction produces; the paper states no bound for $f^*(n)$ at every $n$. [BoCh18]
 also recalls, as Atkinson's relation (1.9), a link between $f^*$ and the
-Chowla cosine problem, [[problems/analysis/E0510/_index|Problem 510]]: if
-every set $A$ of $n$ integers has a $\theta$ with
-$\sum_{a\in A}\cos(a\theta)<-M_n$, then $\log f^*(n)\ll M_n\log n$.
+Chowla cosine problem, [[problems/analysis/E0510/_index|Problem 510]]: with
+$M_2(n)$ the infimum, over integers $a_1<\cdots<a_n$, of
+$-\min_\theta\sum_j\cos(a_j\theta)$ (1.8), $\log f^*(n)\ll M_2(n)\log n$.
+So if some set $A$ of $n$ distinct integers has
+$\sum_{a\in A}\cos(a\theta)\ge-M$ for every $\theta$, then
+$\log f^*(n)\ll M\log n$. The site's commentary words the hypothesis the
+other way round, that every set of $n$ integers has a $\theta$ with
+$\sum_{a\in A}\cos(a\theta)<-M_n$; as written that is a lower bound for
+every set and gives no upper bound for $f^*(n)$, and it matches (1.9) only
+when $M_n$ is the optimal constant $M_2(n)$.
 Atkinson's 1961 paper [At61] states no such result: its closing remarks
 (pp. 11--12) only suggest, for $f(n)$ with repeated exponents allowed, a
 connection with the minimum of a sum of cosines.

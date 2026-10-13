@@ -45,7 +45,7 @@ of the problem is the upper bound. The exception is needed, since
 $R(C_3,K_3)=R(3,3)=6$ while the formula gives $5$; the 1978 source prints
 its conjecture as "for all $m\ge n$" without the exception. Below the
 range $k\ge n$ the formula fails badly: $R(C_4,K_n)$ lies between
-$c(n/\log n)^{3/2}$ and $(1+o(1))(n/\log n)^2$ (see
+$cn^{3/2}/\log n$ and $(1+o(1))(n/\log n)^2$ (see
 [[problems/ramsey_theory/E0159/_index|Problem 159]]), far above the
 linear formula, and [KLS21] Theorem 1.2 gives $r(C_\ell,K_n)>n\log n$ for
 $3\le\ell\le(1-\varepsilon)\log n/\log\log n$ and $n\ge n_0(\varepsilon)$.

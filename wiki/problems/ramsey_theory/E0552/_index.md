@@ -96,6 +96,13 @@ https://www.erdosproblems.com/552, accessed 2026-09-17.
   home:
   [[../library/ramsey_theory/parsons_1975_ramsey_graphs_block_designs_i/_index|parsons_1975_ramsey_graphs_block_designs_i]]
   (retrieved from the AMS open back file).
+- [Ch97] Chen, Guantao, A result on $C_4$-star Ramsey numbers. Discrete
+  Math. 163 (1997), no. 1--3, 243--246, doi:10.1016/0012-365X(95)00340-3.
+  Theorem 4 and the question it answers, printed p. 244, with the proof on
+  printed pp. 244--246. Library home:
+  [[../library/extremal_graph_theory/chen_1997_result_c4_star_ramsey_numbers/_index|chen_1997_result_c4_star_ramsey_numbers]];
+  result page
+  [[../library/extremal_graph_theory/chen_1997_result_c4_star_ramsey_numbers/theorem_4|Theorem 4]].
 - [WSZR15] Wu, Yali, Sun, Yongqi, Zhang, Rui and Radziszowski, Stanisław
   P., Ramsey numbers of $C_4$ versus wheels and stars. Graphs Combin. 31
   (2015), no. 6, 2437--2446 (published online 24 January 2015). Theorem 3,
@@ -290,6 +297,17 @@ of Burr et al., $r(C_4,T)=\max\{4,n+1,r(C_4,K_{1,m})\}$ for a tree $T$ of
 order $n$ and maximum degree $m$ (p. 81), shows that $f$ carries all
 $C_4$-versus-tree Ramsey numbers.
 
+**The increment question.** The commentary's question whether
+$f(n+1)\le f(n)+2$ for all $n$, the second question of [BEFRS89] Section 4
+(p. 89), is answered yes in a refereed paper. Chen's
+[[../library/extremal_graph_theory/chen_1997_result_c4_star_ramsey_numbers/theorem_4|Theorem 4]]
+of [Ch97] (printed p. 244) proves $r(C_4,K_{1,n+1})\le r(C_4,K_{1,n})+2$ for
+all positive integers $n$, after the sentence "We answer the second question
+in this paper by proving". Its proof (pp. 244--246) is followed on its card
+and is not independently reviewed. The question is in the commentary, not in
+the statement, and the theorem determines no value of $f(n)$, so it has no
+claim page.
+
 **Search scope.** None of the routes below found a
 determination of $f(n)$ for all $n$, a proof or disproof of the displayed
 question, or a value below $n+\sqrt n$.
@@ -312,8 +330,8 @@ question, or a value below $n+\sqrt n$.
   search, [ZCC17] pp. 73--76 and 78 and [ZCC17b] pp. 655--656 and 659.
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Er94b],
-[Er96], Parsons 1976. [Er93] and Baker--Harman--Pintz 2001 were not part
-of the search and were consulted.
+[Er96], Parsons 1976. [Er93], Baker--Harman--Pintz 2001 and [Ch97] were
+not part of the search and were consulted.
 
 **Remaining gaps.** (1) [ZCC17] and [ZCC17b] are cited at statement
 depth; their proofs were not read. The $q^2-t$ family of Parsons 1976 is
@@ -331,7 +349,8 @@ Lemma 1.3 and Theorem 2, Wu et al.'s Theorem 3, Boza's Theorem 10 and Zhang,
 Chen and Cheng's Theorems 6--7 of [ZCC17] and Theorem 4 of [ZCC17b];
 Parsons's
 Lemma 1 was read for structure, the other proofs were not read, and Boza's
-computer checks were not rerun. (4) The unconditional form of the lower bound
+computer checks were not rerun. Chen's Theorem 4 of [Ch97] is covered with
+its proof on its card. (4) The unconditional form of the lower bound
 rests on a prime-gap theorem cited at statement depth only; the sharpened
 exponent is not worked through here. (5) [Bo24]
 is a preprint.

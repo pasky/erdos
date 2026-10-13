@@ -56,13 +56,35 @@ https://www.erdosproblems.com/864.
   $\max k=(1+o(1))\frac{2}{\sqrt3}n^{1/2}$ as the probable truth, which is this
   problem. Library home:
   [[../library/integer_sequences/erdos_1992_my_forgotten_problems_number_theory/_index|erdos_1992_my_forgotten_problems_number_theory]].
+- [Pi06] Pikhurko, O., Dense edge-magic graphs and thin additive bases.
+  Discrete Math. 306 (2006), 2097--2107, doi:10.1016/j.disc.2006.05.003.
+  Theorem 2, p. 2098, and Theorem 3, p. 2099. Library home:
+  [[../library/additive_bases/pikhurko_2006_dense_edge_magic_graphs_thin_additive/_index|pikhurko_2006_dense_edge_magic_graphs_thin_additive]];
+  result page
+  [[../library/additive_bases/pikhurko_2006_dense_edge_magic_graphs_thin_additive/theorem_3|Theorem 3]].
 
 **Formalization.** None recorded.
 
 ## Current assessment
 
-No current assessment is recorded. The status above is imported from the dated
-site record. This page records no current literature search or independent
+**Known bounds.** Let $M(N)$ be the largest size of a set as in the statement.
+Then $(2/\sqrt3+o(1))N^{1/2}\le M(N)\le(1.863\ldots+o(1))N^{1/2}$. The lower
+bound is the Erdős--Freud construction of [ErFr91] described above. The upper
+bound follows from Pikhurko's refereed
+[[../library/additive_bases/pikhurko_2006_dense_edge_magic_graphs_thin_additive/theorem_3|Theorem 3]]
+of [Pi06] (p. 2099), which bounds every quasi-Sidon subset of
+$\{1,\ldots,N\}$, one with $|A+A|=(1+o(1))\binom{|A|}2$, by
+$(1.863\ldots+o(1))N^{1/2}$. A set as in the statement with $k$ elements is
+quasi-Sidon: the $r$ representations of its one repeated sum use disjoint
+elements, so $r\le\lceil k/2\rceil$ and
+$|A+A|=\binom{k+1}2-(r-1)\ge\binom{k+1}2-k/2$. The bound is weaker than the
+constant $2/\sqrt3=1.154\ldots$ the question asks about, so it settles
+nothing. The research folder
+[[research/erdos_864/_index|research/erdos_864]] gives the construction behind
+the lower bound in detail.
+
+This account is partial. The status above is imported from the dated site
+record, and this page records no current literature search or independent
 assessment of proof coverage.
 
 <!-- BEGIN problem library links -->

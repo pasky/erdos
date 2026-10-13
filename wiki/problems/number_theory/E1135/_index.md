@@ -135,7 +135,8 @@ https://www.erdosproblems.com/1135, accessed 2026-09-18.
   [[../library/number_theory/barina_2025_improved_verification_limit_convergence_collatz/_index|barina_2025_improved_verification_limit_convergence_collatz]].
 - [He23] Hercher, C., There are no Collatz $m$-cycles with $m\le91$. J.
   Integer Seq. 26 (2023), Article 23.3.5; arXiv:2201.00406v3 (4 April
-  2023). Theorem 23, p. 15. Library home:
+  2023). Theorem 23, p. 15; Corollary 24 and Table 1, p. 16; Corollary 29,
+  p. 20, with its proof on p. 21. Library home:
   [[../library/number_theory/hercher_2023_no_mcycles_91/_index|hercher_2023_no_mcycles_91]].
 - [KrLa03] Krasikov, I. and Lagarias, J. C., Bounds for the $3x+1$ problem
   using difference inequalities. Acta Arith. 109 (2003), no. 3, 237--258,
@@ -240,7 +241,7 @@ That circle of questions is the site's Problem 1134, and the theorem [La16]
 means, "the closest he ever came to working on problems like the $3x+1$ problem"
 (p. 775), is the orbit bound.
 
-**The frontier (six statements; the map is the page's $f$ in every source).**
+**The frontier (eight statements; the map is the page's $f$ in every source).**
 Verification:
 [[../library/number_theory/barina_2020_convergence_verification/verification_p6|Barina's 2020 statement]]
 (postprint pp. 6--7): "From September 2019 to May 2020, the project managed to
@@ -259,8 +260,19 @@ using the verification bound $704\cdot2^{60}$; Simons and de Weger's $m\le75$
 is
 [[../library/number_theory/simons_de_weger_2010_mcycles_bounds/theorem_3|their Theorem 3]]
 (p. 5) in their 2010 version 1.44 (the 2005 Acta Arith. version has
-$m\le68$), and Eliahou's 2010-era period bound $10{,}439{,}860{,}591$ is
-reported in Lagarias's (W2). Almost all orbits:
+$m\le68$), and Eliahou's 2010-era bounds, period at least $10{,}439{,}860{,}591$
+and at least $6{,}586{,}818{,}670$ odd elements, are reported in Lagarias's
+(W2). Hercher's Corollary 24 (Table 1, p. 16) gives every nontrivial cycle,
+whatever its $m$, more than $7.20\cdot10^{10}$ odd members, from the
+verification bound $704\cdot2^{60}$ (p. 2: "the current $K>7.2\cdot10^{10}$",
+credited to Hercher and Puchert). His Corollary 29 (p. 20) states: "If
+$X_0\geq1536\cdot2^{60}=3\cdot2^{69}$ then every nontrivial cycle contains at
+least $K>1.375\cdot10^{11}$ odd numbers", $X_0$ being a bound below which every
+starting value is known to reach the trivial cycle (Definition 4, p. 2).
+Barina's $2^{71}=2048\cdot2^{60}$ meets that hypothesis, so every nontrivial
+cycle has more than $1.375\cdot10^{11}$ odd members. This rests on the
+computer search that proves Corollary 29 (five weeks of computing, p. 21),
+which the corpus has not rerun. Almost all orbits:
 [[../library/number_theory/tao_2019_almost_all_orbits/theorem_1_3|Tao's Theorem 1.3]]
 (p. 3): for any $F:\mathbb N+1\to\mathbb R$ with $F(N)\to\infty$,
 $\mathrm{Col}_{\min}(N)<F(N)$ for almost all $N$ in logarithmic density ("Thus
@@ -282,7 +294,7 @@ at least $6.143\log n$ steps (Applegate and Lagarias), (W4) Roosendaal's record,
 (W5) the density bound. Hercher's Remark 3 names the two ways the conjecture
 could fail, an unbounded trajectory or a nontrivial cycle; the results above
 bound the second for cycles of a given shape and say nothing about the first.
-The six statements are checked against their theorems, not their proofs (Tao's
+The eight statements are checked against their theorems, not their proofs (Tao's
 58 pages included); no computation is rerun, and none of them is independently
 reviewed.
 
@@ -303,10 +315,11 @@ those above.
 - The site: problem page, discussion thread and proof-claims tab; the
   formal-conjectures file and the Collatz module it points to at the pinned
   commit; the community database as fetched 2026-09-18.
-- The primary sources, at these pages: [La10] pp. 1, 4, 14--15 and 23;
-  [Ta22] pp. 1--3; [Ba21] pp. 1 and 6--7; [Ba25] pp. 1--3 and 12--13; [He23]
-  pp. 1--3 and 15--16; [KrLa03] and [SdW05] p. 1; [La85] and [La16] whole, with pp. 3--4 and 21--23 of the first and pp. 753,
-  756, 759, 761, 766--767, 771--772 and 775 of the second relied on.
+- The primary sources, at these pages: [La10] pp. 1, 4, 14--15 and 23; [Ta22]
+  pp. 1--3; [Ba21] pp. 1 and 6--7; [Ba25] pp. 1--3 and 12--13; [He23] pp. 1--3,
+  15--16 and 20--21; [KrLa03] and [SdW05] p. 1; [La85] and [La16] whole, with
+  pp. 3--4 and 21--23 of the first and pp. 753, 756, 759, 761, 766--767,
+  771--772 and 775 of the second relied on.
 - arXiv: the API records of 2111.02635, 1909.03562, 2201.00406 and
   math/0205002 (versions and journal references); the searches
   `abs:Collatz AND (abs:proof OR abs:conjecture)` (157 records) and
@@ -329,13 +342,13 @@ figure; and [Er97e] is not checked, so the 1983 conversation behind the figure,
 the "hopeless" remark's occasions and Erdős's own 1997 words rest on the site
 and on Lagarias's 2010 survey. Reopening condition: a check of [Er97e]. (2) The
 conjecture is open; finite verification and cycle exclusion cannot settle it,
-and the almost-all theorem decides no single value. (3) Proof coverage: the six
-statements are checked against their theorems, not their proofs; no computation
-is rerun. (4) The arXiv proof claims are unchecked and unreviewed. (5) The Lean
-statement is the standard map's; the bridge to the page's $f$ is the one-line
-map remark. (6) The sixteen other library cards the page links (surveys,
-bibliographies, stochastic models, cycle and density papers) have no result
-pages.
+and the almost-all theorem decides no single value. (3) Proof coverage: the
+eight statements are checked against their theorems, not their proofs; no
+computation is rerun. (4) The arXiv proof claims are unchecked and unreviewed.
+(5) The Lean statement is the standard map's; the bridge to the page's $f$ is
+the one-line map remark. (6) The sixteen other library cards the page links
+(surveys, bibliographies, stochastic models, cycle and density papers) have no
+result pages.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

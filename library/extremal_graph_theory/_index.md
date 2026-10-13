@@ -3,7 +3,7 @@ name: extremal_graph_theory
 title: "Extremal and Structural Graph Theory"
 desc: "Sources filed under Extremal and Structural Graph Theory, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T20:32:21Z
+updated: 2026-10-13T12:59:17Z
 ---
 
 # Extremal and Structural Graph Theory
@@ -1196,7 +1196,8 @@ of length 2l, confirming a conjecture of Erdős.
 has such a subgraph on all but Omega(n/log n) vertices.
 
 [[extremal_graph_theory/mubayi_2024_order_erdos_rogers_functions/_index|mubayi_2024_order_erdos_rogers_functions/]]: Proves the Erdős-Rogers function satisfies f_s(n) = O(sqrt(n) log n) for
-every fixed s at least 3, nearly matching the known lower bound.
+every fixed s at least 3, within a power of log n of the lower bound
+f_s(n) >> sqrt(n log n)/log log n that the paper prints.
 
 [[extremal_graph_theory/nagy_2011_multipartite_turan_problem_density_eigenvalues/_index|nagy_2011_multipartite_turan_problem_density_eigenvalues/]]: Determines the critical edge density for transversal copies of trees and
 cycles in weighted multipartite blow-ups, relating the threshold to the

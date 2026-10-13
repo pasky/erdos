@@ -3,7 +3,7 @@ name: arithmetic_functions
 title: "Arithmetic Functions"
 desc: "Sources filed under Arithmetic Functions, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-13T10:26:04Z
+updated: 2026-10-13T13:13:10Z
 ---
 
 # Arithmetic Functions

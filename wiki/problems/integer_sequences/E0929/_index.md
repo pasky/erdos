@@ -77,7 +77,9 @@ direct inversion of [FGKMT18]'s display (1.2) gives
 $S(k)\ll k\log_2k/(\log k\log_3k)$. This is an authored one-line derivation,
 recorded below and on
 [[problems/integer_sequences/E0929/claims/2014_12_16_ford_green_konyagin_maynard_tao|its claim page]].
-It is smaller than the site's display and implies it.
+It is smaller than the site's display and implies it. The same inversion of
+the covering theorem accepted on Problem 4, $Y(x)\gg x\log x/\log_3x$, gives
+the smaller $S(k)\ll k\log_3k/\log k$ (Current assessment).
 
 **Source.** [erdosproblems.com/929](https://www.erdosproblems.com/929),
 accessed 2026-09-18: the problem page (OPEN, with
@@ -190,7 +192,7 @@ problem is [Er76d] alone.
 
 **The covering form and its consequences.** Because $S(k)$ is the least
 $x$ with $Y(x)\ge k$ (Formulation), every bound on $Y$ inverts into a bound
-on $S$; the four consequences below are one-line derivations made here and
+on $S$; the five consequences below are one-line derivations made here and
 named as such. (i) Iwaniec's $Y(x)\ll x^2$ (the
 [[../library/integer_sequences/iwaniec_1978_problem_jacobsthal/corollary|Corollary]]
 of [Iw78], p. 226, $C(r)\ll r^2\log^2r$ for the longest run of consecutive
@@ -222,14 +224,26 @@ inverts to $S(k)\ll k(\log_2k)^2/(\log k\log_3k)$; Erdős's printed
 Rankin-type bounds, $\ell<ck(\log_3k)^2/(\log k\log_2k\log_4k)$ for the index
 $\ell=\pi(S(k))$ in [Er76d] and $B(n)<cn(\log_3n)^2/(\log n\log_2n\log_4n)$ in
 [Er79d], share a shape that this inversion does not reproduce; they are
-recorded as printed and not reconciled here. The site-accepted AI-generated
-improvement of the $Y$ bound to $x\log x/\log_3x$, recorded on Problem 687
-as the site's account, would give $S(k)\ll k\log_3k/\log k$; a lead, not a
-source result.
+recorded as printed and not reconciled here. (v) The covering theorem
+$Y(x)\ge c_0x\log x/\log_3x$ for large $x$, of the AI-written manuscript posted
+by the forum user DottedCalculator, is accepted, not refereed, on
+[[problems/primes/E0004/claims/2026_08_26_dottedcalculator|its claim page on Problem 4]]
+on the site curator's credit, and Problem 687 records it as the best lower
+bound for $Y$. It gives $S(k)\le x$ for every large $x$ with
+$c_0x\log x/\log_3x\ge k$. Take $x=Ck\log_3k/\log k$ with a constant
+$C>1/c_0$: then $\log x\sim\log k$ and $\log_3x\sim\log_3k$, so
+$c_0x\log x/\log_3x\sim c_0Ck>k$ for large $k$, and
 
-**Bounds map.** $k^{1/2}\ll S(k)\ll k\log_2k/(\log k\log_3k)$ from the
-sources above (the lower bound by inversion of Iwaniec's Corollary, the
-upper bound by inversion of a refereed statement),
+$$
+S(k)\ \ll\ \frac{k\log_3k}{\log k},
+$$
+
+smaller than (ii) by the factor $(\log_3k)^2/\log_2k$, which tends to $0$.
+
+**Bounds map.** $k^{1/2}\ll S(k)\ll k\log_3k/\log k$ from the sources
+above (the lower bound by inversion of Iwaniec's Corollary, the upper bound by
+inversion (v) of the covering theorem accepted on Problem 4; the best upper
+bound from a refereed statement is (ii), $k\log_2k/(\log k\log_3k)$),
 against the trivial $S(k)\le k+1$ and the conjectured $S(k)\ge k^{1-o(1)}$
 (Erdős 1976 and 1979; the site's displayed question). The exponent gap between
 $1/2$ and $1$ is untouched. Any progress on the exponent is progress on Problem
@@ -270,7 +284,9 @@ and the inversion of (1.2) differ; the site's is recorded as the site's and the
 difference is not resolved with the site. (3) Erdős's two printed Rankin-type
 bounds are recorded as printed and not reconciled with the inversion. (4) The
 site's page does not cross-reference Problem 687, of which this problem is the
-inverse form; recorded here as an observation.
+inverse form; recorded here as an observation. (5) The best upper bound rests
+on the covering theorem accepted on Problem 4 on the site curator's credit; it
+has no refereed version, and its manuscript is not checked here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

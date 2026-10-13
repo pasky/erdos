@@ -38,12 +38,9 @@ lacunary sequence with ||f - S_N f||_2 << (loglog N)^{-1/2} yet
 limsup N^{-1} sum_{j<=N} f(n_j x) = +infinity almost everywhere. Corollaries
 1.3, 1.4 and 1.5 are deduced from it (Section 6): Corollary 1.3 states the
 same divergence with the tail bound omega(N) for any admissible modulus omega
-(Definition 1.2), a bound implied by the (loglog N)^{-1/2} one (Lemma 6.1;
-its proof on p. 20 evaluates omega at exp(exp(2A log A)), while (1.3) as
-printed on p. 3 reads omega(exp(exp(2 log A))), a weaker condition under which
-the lemma fails, for instance for omega(N) = exp(-(loglog N)/5)),
-Corollary 1.4 gives the (logloglog N)^{-C} version, and Corollary 1.5 shows
-the exponent range c > 1/2 in Matsuyama's positive theorem is sharp.
+(Definition 1.2), a bound implied by the (loglog N)^{-1/2} one (Lemma 6.1,
+p. 20), Corollary 1.4 gives the (logloglog N)^{-C} version, and Corollary
+1.5 shows the exponent range c > 1/2 in Matsuyama's positive theorem is sharp.
 Theorem 1.6 gives, for each finite p >= 2, a mean-zero f in L^p whose partial
 sums exceed N(log N)^{1/p-epsilon} infinitely often almost everywhere, for
 every epsilon > 0, and Theorem 1.7 is a bounded companion: for each epsilon

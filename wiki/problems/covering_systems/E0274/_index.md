@@ -140,8 +140,9 @@ stands, solvable groups leave the remaining problem stated below; the status
 is unchanged.
 
 The remaining problem is to prove the repeated-index conclusion without a
-cell bound or to construct and verify a counterexample with at least eighteen
-cells.
+cell bound or to construct and verify a counterexample with at least eight
+cells (at least eighteen if Itabe's pending claim holds), which in a finite
+group needs order at least $1440$ by Margolis and Schnabel's Theorem A.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

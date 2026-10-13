@@ -107,9 +107,25 @@ treats the non-monic $ax^2+bx+c$ with negative discriminant prime to $a$;
 it is recorded on
 [[problems/polynomials/E0975/claims/1997_01_30_mckee|its claim page]] as a
 claimed partial claim, since no evidence that the volume was refereed is
-recorded. The non-monic quadratics of positive discriminant, and those of
-negative discriminant sharing a factor with $a$, have no asymptotic in the
-sources cited. Scourfield's paper of 1961 (Proc. Glasgow Math. Assoc. 5,
+recorded. The site's commentary says that such an asymptotic "is known whenever
+$f$ is an irreducible quadratic, as proved by Hooley [Ho63]"; the attribution is
+inexact, since [Ho63] treats only $x^2+a$. The asymptotic does hold for every
+irreducible quadratic, by the square-root argument that Tao's
+[blog post](https://terrytao.wordpress.com/2011/07/23/erdos-divisor-bound/) of
+23 July 2011, which the site cites, gives for $n^2+1$ and says extends to other
+quadratics. Pairing each divisor of $f(n)$ with its complement gives
+$\sum_{n\le X}\tau(f(n))=2\sum_{d\le\sqrt{f(X)}}\rho(d)(X-g(d))/d+O(X)$, where
+$\rho(d)$ counts the roots of $f$ modulo $d$, for large $n$ one has $f(n)>d^2$
+exactly when $n>g(d)$, $g(d)\ll d$, and the $O(\log X)$ square values of $f$
+fall in the error. The Dirichlet series of $\rho$ is $\zeta(s)L(s,\chi)$, with
+$\chi$ the character of the discriminant, times an Euler product absolutely
+convergent for $\Re s>1/2$, so $\sum_{d\le Y}\rho(d)/d=C\log Y+O(1)$ with $C>0$
+and $\sum_{d\le Y}\rho(d)=O(Y)$, and the sum is $2CX\log X+O(X)$. The cited
+papers give explicit constants and error terms only for the classes above: for
+the non-monic quadratics of positive discriminant, and those of negative
+discriminant sharing a factor with $a$, the page has only this argument and
+Bellman and Shapiro's unpublished asymptotic for degree two that [Er52b]
+reports. Scourfield's paper of 1961 (Proc. Glasgow Math. Assoc. 5,
 8--20) gets no page: Hooley's introduction credits it with the formula
 $A_2(a)x\log x+O(x)$ for $x^2+a$, which Hooley's theorem contains, and no
 review states its theorem. For $f(n)=n^2+1$ the constant is $3/\pi$:

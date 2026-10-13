@@ -732,7 +732,9 @@ def _read_status(page: pathlib.Path) -> str:
 
     The status is the first sentence of the page's read-status paragraph (the
     paragraph opening ``**Read status: ...**`` or ``**Read depth.** ...``),
-    without the label and the bold markers.
+    without the label and the bold markers. A sentence ends at a period before a
+    capital letter or the paragraph's end, so a page reference such as ``p. 3``
+    or ``pp. 3--4`` does not end it.
     """
     visible = _visible(_body(page.read_text(encoding='utf-8')))
     match = _READ_STATUS.search(visible)
@@ -742,7 +744,9 @@ def _read_status(page: pathlib.Path) -> str:
     end = re.search(r'\n[ \t]*\n', paragraph)
     if end is not None:
         paragraph = paragraph[: end.start()]
-    sentence = re.split(r'\.(?:\*\*|\s|$)', paragraph.replace('**', ''), maxsplit=1)[0]
+    sentence = re.split(
+        r'\.(?=\s+[A-Z]|\s*$)', paragraph.replace('**', ''), maxsplit=1
+    )[0]
     sentence = ' '.join(sentence.split()).strip(' :')
     return sentence or 'not stated'
 

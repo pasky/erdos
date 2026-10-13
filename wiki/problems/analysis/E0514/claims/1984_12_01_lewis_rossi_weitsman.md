@@ -4,8 +4,9 @@ title: "Lewis, Rossi and Weitsman: a path on which f outgrows every power"
 desc: |
   Lewis, Rossi and Weitsman's path theorem for subharmonic functions, applied to
   $\log\lvert f\rvert$, gives every transcendental entire $f$ a path to infinity
-  on which $\log\lvert f(z)\rvert/\log\lvert z\rvert\to\infty$. Their paper in
-  Ark. Mat. is refereed.
+  on which $\log\lvert f(z)\rvert/\log\lvert z\rvert\to\infty$, and its
+  integral condition bounds the path's length inside $\lvert z\rvert<R$ by
+  $O(M(R)^\epsilon)$. Their paper in Ark. Mat. is refereed.
 authors:
 - John Lewis
 - John Rossi
@@ -13,7 +14,7 @@ authors:
 status: accepted
 claim: proved
 scope: partial
-settles: [path]
+settles: [path, length]
 evidence:
 - refereed
 submitted: null
@@ -66,13 +67,32 @@ path-growth clause. Wu's 1985 paper restates the theorem as its Theorem B, the
 form in which [[problems/analysis/E0514/claims/2026_04_20_chojecki|Chojecki's
 note]] applies it and adds the length estimate the second question asks for.
 
-**Covers.** The first question (the part `path`), answered yes. Not
-covered: the length of the path in terms of $M(r)$ (the paper states no
-length bound, which is deduced from the integral in Chojecki's note) and
-the growth of $f$ along the path in terms of $M(r)$.
+**Covers.** The first question (the part `path`), answered yes, and the
+second (the part `length`), answered yes. The paper states no length bound,
+but one follows from the integral condition on the same path $\Gamma$. Fix
+$\epsilon>0$ and $R>0$. On $\lvert z\rvert\le R$ the maximum principle gives
+$\lvert f(z)\rvert\le M(R)$, so $e^{\epsilon u}=\lvert f\rvert^\epsilon\le
+M(R)^\epsilon$ there, and the part of $\Gamma$ inside $\lvert z\rvert<R$ has
+length
+
+$$
+\int_{\Gamma\cap\{\lvert z\rvert<R\}}e^{\epsilon u}e^{-\epsilon u}\,
+\lvert\mathrm{d}z\rvert
+\le M(R)^\epsilon\int_\Gamma e^{-\epsilon u}\,\lvert\mathrm{d}z\rvert
+=O_\epsilon\bigl(M(R)^\epsilon\bigr),
+$$
+
+since the last integral is finite. So the initial segment of $\Gamma$ up to
+its first exit from $\lvert z\rvert<R$ has length $O(M(R)^\epsilon)$ for
+every $\epsilon>0$.
+Theorem 1 of
+[[problems/analysis/E0514/claims/2026_04_20_chojecki|Chojecki's note]] writes
+this deduction out, from Wu's restatement of the theorem. Not covered:
+the growth of $f$ along the path in terms of $M(r)$ (the part `growth`).
 
 **Depends on.** Nothing in this wiki: the argument is the paper's own, and
-the specialization to $u=\log\lvert f\rvert$ is immediate.
+the specialization to $u=\log\lvert f\rvert$ and the length bound are
+immediate.
 
 **Acceptance.** Refereed: the paper appeared in Arkiv för Matematik, a refereed
 journal. The site labeled the problem OPEN and credits Boas, unpublished, with

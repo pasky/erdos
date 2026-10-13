@@ -89,9 +89,12 @@ ledger) reproves both halves and shows that any least failing cardinal is
 regular and $\aleph_0$-closed. The exact consistency strength of a failure
 lies between $0^\sharp$ and I1 and is not determined.
 
-**Claims.** Three pending conditional claims, the pages named above; none
-is reviewed or refereed. A conditional claim derives no standing, so the
-frontmatter standing is open with no claim.
+**Claims.** Three pending claims, the pages named above; none is reviewed
+or refereed. Wu's and White's are conditional claims of independence,
+relative to the consistency of I1, and a conditional claim derives no
+standing. Chojecki's is a partial claim of the value not provable, which is
+one-sided and leaves the problem open on its own. So the frontmatter standing
+is open with no claim.
 
 **Search scope.** The site's problem page, its discussion thread (eight
 comments) and proof-claims tab (none), MathOverflow question 511508, the

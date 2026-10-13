@@ -128,11 +128,11 @@ finding with `--settled`), the evidence order, the shape of `links`, the
 `settles` labels of a multi-part problem and the derivation of each problem's
 `status` and `claim`, and prints one note per dependence on a library result
 page with the page's read status. A problem without a claim page keeps its
-provisional standing and is counted in the leg's detail; `--settled` makes each
-such problem a finding. `erdos problem-claims` runs the check standalone,
-`--write` sets the derived values first, and repeatable `--problem E####`
-options scope both to the named folders. Exit 0 means no findings, 1 findings, 2
-a command or usage error.
+provisional standing; unless that standing is `open`/`none`, it is counted in
+the leg's detail, and `--settled` makes each such problem a finding.
+`erdos problem-claims` runs the check standalone, `--write` sets the derived
+values first, and repeatable `--problem E####` options scope both to the named
+folders. Exit 0 means no findings, 1 findings, 2 a command or usage error.
 
 Incoming-library navigation is still being rolled out. By default its leg checks
 the sorted union of problem pages already carrying either managed marker. Add a

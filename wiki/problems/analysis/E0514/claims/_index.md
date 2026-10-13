@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 514, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T20:32:50Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-13T12:59:13Z
 ---
 
 # problems/analysis/E0514/claims
@@ -13,8 +13,9 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/analysis/E0514/claims/1984_12_01_lewis_rossi_weitsman|1984_12_01_lewis_rossi_weitsman]]: Lewis, Rossi and Weitsman's path theorem for subharmonic functions, applied to
 $\log\lvert f\rvert$, gives every transcendental entire $f$ a path to infinity
-on which $\log\lvert f(z)\rvert/\log\lvert z\rvert\to\infty$. Their paper in
-Ark. Mat. is refereed.
+on which $\log\lvert f(z)\rvert/\log\lvert z\rvert\to\infty$, and its
+integral condition bounds the path's length inside $\lvert z\rvert<R$ by
+$O(M(R)^\epsilon)$. Their paper in Ark. Mat. is refereed.
 
 [[problems/analysis/E0514/claims/2026_04_20_chojecki|2026_04_20_chojecki]]: Chojecki's note, produced with GPT-5.4 Pro, uses Wu's path theorem to derive a
 path to infinity on which $\log|f|/\log|z|\to\infty$ and whose initial

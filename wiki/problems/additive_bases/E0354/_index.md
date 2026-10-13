@@ -287,8 +287,8 @@ site alone, without refereeing, erdosproblems.com acceptance or
 formal-conjectures catalog agreement (as of 2026-09-28 the erdosproblems.com
 page labeled the problem OPEN, last edited 1 December 2025, its proof-claims
 tab listed one later full-proof claim, the Yu--Chen manuscript of 13
-September 2026 with its own Lean formalization, unreviewed, and PR #6433 to
-record the answer from that manuscript was open). The proof file is the
+September 2026 with its own Lean formalization, no outside review, and PR
+#6433 to record the answer from that manuscript was open). The proof file is the
 record's solution download (the `.../solution` page shows its first 500 lines),
 fetched 2026-09-28: 485,414 bytes, 10,152 lines, header "A proof of the full
 Erdős 354(levelIndex) proposition", 130 `Source: <name>.lean` sections in
@@ -325,12 +325,20 @@ no 2026 source. The later Yu--Chen manuscript ([YuCh26],
 claims the stronger strong completeness of the nonzero value set, which
 would imply the first answer; it is dated 13 September 2026, its repository
 was created 12 September, it is listed on the site's proof-claims tab and in
-an open catalog PR, and it has no review or acceptance evidence, so it
-changes nothing here. Van Doorn's results of September and October 2025 are
-thread posts, so they have no claim page. [He91], [He94], [JiMa24] and
-[FaHe25] settle no instance of the problem, since [He91] is a measure
-statement and the other three concern pairs with $\beta=2^k\alpha$, a
-rational ratio; they have no claim page either.
+an open catalog PR, and it has no outside review or acceptance evidence, so
+it changes nothing here. Its argument is reconstructed section by section in
+[[research/erdos_354/_index|the research folder for this problem]], with
+Dirichlet's approximation theorem imported and the finite certificate of its
+Appendix A rechecked; an internal review of 2026-09-28 graded each of that
+folder's fourteen pages, the Fan and Geneson reconstructions included,
+faithful to its source and its argument sound
+([[research/erdos_354/evidence/verify/grade|the grade]]). That review covers
+the reconstructions, assigns no tier and changes no status. Van Doorn's
+results of September and October 2025 are thread posts, so they have no
+claim page. [He91], [He94], [JiMa24] and [FaHe25] settle no instance of the
+problem, since [He91] is a measure statement and the other three concern
+pairs with $\beta=2^k\alpha$, a rational ratio; they have no claim page
+either.
 
 **Standing of the second question: unresolved, two readings.** Under
 "for every $\gamma\in(1,2)$",
@@ -344,8 +352,10 @@ the interleaving, repeated occurrences retained, is not complete; the
 construction is existential (Dubickas's fractional-part theorem with a
 sign adjustment), gives no explicit $\alpha,\beta$, and the author states
 it "does not resolve the original question with base 2" (p. 13). A preprint
-of 20 September 2026 whose two-page proof has not been independently
-reviewed.
+of 20 September 2026 with no outside review; its Theorem 9 and Corollary 12
+are reconstructed in the same research folder, with Dubickas's theorem
+imported, and the internal review graded both reconstructions faithful and
+sound, with no tier.
 Under "for some $\gamma\in(1,2)$", the catalog's existential form,
 [[../library/additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii/erdos_354_part_ii_solved|Kitamura's theorem]]
 ([Ki26]) answers yes with $\gamma=\sqrt\varphi$: the single sequence
@@ -450,7 +460,7 @@ Problems 254 and 124; those results belong to the pages of those problems.
   large integers as sums of distinct remaining values, which implies the first
   answer;
   [[../library/additive_bases/yu_chen_2026_erdos_problem_354_i_strong_completeness_two_dyadic_floor_sequences/theorem|Theorem]];
-  an unreviewed claim.
+  a claim with no outside review, reconstructed in the research folder.
 - Kitamura 2026 Lean proof [Ki26] (5 September 2026; unreviewed; PR #5286 open;
   issue #6542 disputes the formalization): the catalog's existential form of the
   second question holds with $\gamma=\sqrt\varphi\approx1.2720$, at which the

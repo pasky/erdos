@@ -71,11 +71,13 @@ Hajnal, *Some results and problems on certain polarized partitions*, Acta Math.
 Acad. Sci. Hungar. 21 (1970), 369--392. That paper says in its §1 that it does
 not investigate relations for order types and gives its definitions for
 cardinals only, so the attribution is not borne out there. The ordinal relation
-$\omega_1^2\to(\mu,3)^2$ for $\mu<\omega_1^2$ is in Erdős and Hajnal, *Ordinary
-partition relations for ordinal numbers*, Period. Math. Hungar. 1 (1971),
-171--185, which the zbMATH review (Zbl 0257.04004) states under GCH; whether
-that paper proves $k=1$ in ZFC is not established, so this page covers $k=1$
-through the 1987 relation.
+$\omega_1^2\to(\mu,3)^2$ for $\mu<\omega_1^2$ is Theorem 5 of Erdős and Hajnal,
+*Ordinary partition relations for ordinal numbers*, Period. Math. Hungar. 1
+(1971), 171--185 (printed p. 181), stated with no hypothesis beyond ZFC,
+although the zbMATH review (Zbl 0257.04004) summarizes the paper's relations
+under GCH. So $k=1$ was proved in ZFC in 1971; it is the accepted partial claim
+[[problems/set_theory/E1171/claims/1971_09_01_erdos_hajnal|Erdős and Hajnal 1971]],
+and the 1987 relation contains it.
 
 **Depends on.**
 [[../library/set_theory/baumgartner_1987_remark_partition_relations_infinite_ordinals/positive_relation|Baumgartner and Hajnal 1987, positive relation]].
