@@ -46,7 +46,9 @@ at <https://github.com/openai/math> (revision adc7f1241), folder
 `preprints/A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026`;
 the held PDF, `paper.pdf` in the release, is retained as
 [openai_2026_classification_finite_euclidean_ramsey_configurations.pdf](openai_2026_classification_finite_euclidean_ramsey_configurations.pdf),
-and the release's TeX bundle sits beside `paper.pdf` in that folder.
+and the release's TeX bundle sits beside `paper.pdf` in that folder. The license
+term was read in the release's root `LICENSE` file at that revision on
+2026-10-13.
 
 ```bibtex
 @misc{OAI:A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026,

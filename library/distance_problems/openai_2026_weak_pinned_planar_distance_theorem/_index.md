@@ -36,7 +36,8 @@ September 23, 2026. Released under the Apache License 2.0 at
 `preprints/The-weak-pinned-planar-distance-theorem-September-23-2026`; the held
 PDF, `paper.pdf` in the release, is retained as
 [openai_2026_weak_pinned_planar_distance_theorem.pdf](openai_2026_weak_pinned_planar_distance_theorem.pdf),
-and the release's TeX bundle sits in the same release folder.
+and the release's TeX bundle sits in the same release folder. The license term
+was read in the release's root `LICENSE` file at that revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:The-weak-pinned-planar-distance-theorem-September-23-2026,

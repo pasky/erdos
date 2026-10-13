@@ -30,7 +30,9 @@ Release preprint, September 26, 2026. Released under the Apache License 2.0 at
 `preprints/Critical-strip-crossing-mass-on-the-honeycomb-lattice-September-26-2026`;
 the held PDF, `main.pdf` in the release, is retained as
 [openai_2026_critical_strip_crossing_mass_honeycomb_lattice.pdf](openai_2026_critical_strip_crossing_mass_honeycomb_lattice.pdf),
-and the release's TeX bundle sits beside `main.pdf` in that folder.
+and the release's TeX bundle sits beside `main.pdf` in that folder. The license
+term was read in the release's root `LICENSE` file at that revision on
+2026-10-13.
 
 ```bibtex
 @misc{OAI:Critical-strip-crossing-mass-on-the-honeycomb-lattice-September-26-2026,

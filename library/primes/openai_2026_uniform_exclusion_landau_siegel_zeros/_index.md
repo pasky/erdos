@@ -26,7 +26,8 @@ preprint, October 1, 2026. Released under the Apache License 2.0 at
 `preprints/Uniform-exclusion-of-Landau-Siegel-zeros-October-1-2026`; the held
 PDF, `paper.pdf` in the release, is retained as
 [openai_2026_uniform_exclusion_landau_siegel_zeros.pdf](openai_2026_uniform_exclusion_landau_siegel_zeros.pdf),
-and the release's TeX bundle sits in the same release folder.
+and the release's TeX bundle sits in the same release folder. The license term
+was read in the release's root `LICENSE` file at that revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:Uniform-exclusion-of-Landau-Siegel-zeros-October-1-2026,

@@ -34,6 +34,8 @@ Release preprint, October 5, 2026. Released under the Apache License 2.0 at
 the held PDF, `geometric-erdos-similarity.pdf` in the release, is retained as
 [openai_2026_geometric_case_erdos_similarity_conjecture.pdf](openai_2026_geometric_case_erdos_similarity_conjecture.pdf),
 and the release's TeX bundle in the same folder is the TeX source cited below.
+The license term was read in the release's root `LICENSE` file at that revision
+on 2026-10-13.
 
 ```bibtex
 @misc{OAI:The-geometric-case-of-the-Erdos-similarity-conjecture-October-5-2026,

@@ -35,7 +35,8 @@ at <https://github.com/openai/math> (revision adc7f1241), folder
 the held PDF, `paper.pdf` in the release, is retained as
 [openai_2026_asymptotically_minimal_maxima_real_littlewood_polynomials.pdf](openai_2026_asymptotically_minimal_maxima_real_littlewood_polynomials.pdf),
 and the release's TeX bundle in that folder is the TeX source cited on this
-card.
+card. The license term was read in the release's root `LICENSE` file at that
+revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:Asymptotically-minimal-maxima-of-real-Littlewood-polynomials-September-23-2026,

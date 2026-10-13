@@ -38,7 +38,8 @@ OpenAI, *Short Egyptian fractions*, OpenAI Math Release preprint, September 25,
 `preprints/Short-Egyptian-fractions-September-25-2026`; the held PDF,
 `Short-Egyptian-fractions-September-25-2026.pdf` in the release, is retained as
 [openai_2026_short_egyptian_fractions.pdf](openai_2026_short_egyptian_fractions.pdf),
-and the release's TeX bundle sits in the same release folder.
+and the release's TeX bundle sits in the same release folder. The license term
+was read in the release's root `LICENSE` file at that revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:Short-Egyptian-fractions-September-25-2026,

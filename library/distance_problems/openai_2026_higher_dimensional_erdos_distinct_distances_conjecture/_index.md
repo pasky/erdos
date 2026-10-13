@@ -33,7 +33,8 @@ at <https://github.com/openai/math> (revision adc7f1241), folder
 `preprints/The-higher-dimensional-Erdos-distinct-distances-conjecture-September-23-2026`;
 the held PDF, `paper.pdf` in the release, is retained as
 [openai_2026_higher_dimensional_erdos_distinct_distances_conjecture.pdf](openai_2026_higher_dimensional_erdos_distinct_distances_conjecture.pdf),
-and the release's TeX bundle sits in the same folder.
+and the release's TeX bundle sits in the same folder. The license term was read
+in the release's root `LICENSE` file at that revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:The-higher-dimensional-Erdos-distinct-distances-conjecture-September-23-2026,

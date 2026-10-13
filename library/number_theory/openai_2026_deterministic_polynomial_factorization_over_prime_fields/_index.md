@@ -42,7 +42,8 @@ the held PDF, `Deterministic-Polynomial-Factorization-over-Prime-Fields.pdf` in
 the release, is retained as
 [openai_2026_deterministic_polynomial_factorization_over_prime_fields.pdf](openai_2026_deterministic_polynomial_factorization_over_prime_fields.pdf),
 and the release's TeX bundle in that folder is the TeX source cited on this
-card.
+card. The license term was read in the release's root `LICENSE` file at that
+revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:Deterministic-Polynomial-Factorization-over-Prime-Fields-October-4-2026,

@@ -34,7 +34,8 @@ License 2.0 at <https://github.com/openai/math> (revision adc7f1241), folder
 `preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026`;
 the held PDF, `paper.pdf` in the release, is retained as
 [openai_2026_monochromatic_finite_sums_products_positive_integers.pdf](openai_2026_monochromatic_finite_sums_products_positive_integers.pdf),
-and the release's TeX bundle sits in the same release folder.
+and the release's TeX bundle sits in the same release folder. The license term
+was read in the release's root `LICENSE` file at that revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026,

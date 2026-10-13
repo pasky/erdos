@@ -39,7 +39,9 @@ preprint, September 23, 2026. Released under the Apache License 2.0 at
 `preprints/The-Euclidean-plane-is-not-five-colorable-September-23-2026`; the
 held PDF, `paper.pdf` in the release, is retained as
 [openai_2026_euclidean_plane_not_five_colorable.pdf](openai_2026_euclidean_plane_not_five_colorable.pdf),
-and the release's TeX bundle sits beside `paper.pdf` in that folder.
+and the release's TeX bundle sits beside `paper.pdf` in that folder. The license
+term was read in the release's root `LICENSE` file at that revision on
+2026-10-13.
 
 ```bibtex
 @misc{OAI:The-Euclidean-plane-is-not-five-colorable-September-23-2026,

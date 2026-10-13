@@ -38,7 +38,9 @@ Release preprint, September 27, 2026. Released under the Apache License 2.0 at
 `preprints/Finite-angular-cylinder-covers-below-the-half-area-bound-September-27-2026`;
 the held PDF, `main.pdf` in the release, is retained as
 [openai_2026_finite_angular_cylinder_covers_below_half_area_bound.pdf](openai_2026_finite_angular_cylinder_covers_below_half_area_bound.pdf),
-and the release's TeX bundle sits beside `main.pdf` in that folder.
+and the release's TeX bundle sits beside `main.pdf` in that folder. The license
+term was read in the release's root `LICENSE` file at that revision on
+2026-10-13.
 
 ```bibtex
 @misc{OAI:Finite-angular-cylinder-covers-below-the-half-area-bound-September-27-2026,

@@ -34,6 +34,8 @@ preprint, September 24, 2026. Released under the Apache License 2.0 at
 the held PDF, `paper.pdf` in the release, is retained as
 [openai_2026_poisson_dirichlet_law_prime_predecessors.pdf](openai_2026_poisson_dirichlet_law_prime_predecessors.pdf),
 and the release's TeX bundle in the same folder is the TeX source cited below.
+The license term was read in the release's root `LICENSE` file at that revision
+on 2026-10-13.
 
 ```bibtex
 @misc{OAI:The-Poisson-Dirichlet-Law-for-Prime-Predecessors-September-24-2026,

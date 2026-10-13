@@ -30,7 +30,9 @@ Release preprint, September 24, 2026. Released under the Apache License 2.0 at
 `preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-September-24-2026`;
 the held PDF, `main.pdf` in the release, is retained as
 [openai_2026_selmer_converse_elliptic_curves_at_prime.pdf](openai_2026_selmer_converse_elliptic_curves_at_prime.pdf),
-and the release's TeX bundle sits beside `main.pdf` in that folder.
+and the release's TeX bundle sits beside `main.pdf` in that folder. The license
+term was read in the release's root `LICENSE` file at that revision on
+2026-10-13.
 
 ```bibtex
 @misc{OAI:The-Selmer-converse-for-elliptic-curves-at-every-prime-September-24-2026,
