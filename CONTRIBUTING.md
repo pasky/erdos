@@ -40,9 +40,14 @@ figures, book pages or forum threads.
   Record its term in the card's `license` key and say on the card where you read
   it. Otherwise the card cites the work and holds no file. `erdos license-audit`
   checks the terms.
-- The converter that produced the existing transcriptions is not distributed
-  with the repository. Supply a transcription yourself, in Markdown faithful to
-  the PDF, and only for a work the library may hold.
+- Every PDF the library holds has its full transcription beside it: a Markdown
+  file named after the PDF (`author_year_slug.md`), without frontmatter and
+  faithful to the PDF. The converter that produced the existing transcriptions
+  is not distributed with the repository, so supply the transcription yourself.
+  A whole book may go without one: record `transcription: book` on its card and
+  say so in a sentence. The maintainers record the other reasons the rule
+  allows. `erdos license-audit` checks that each held PDF has its transcription
+  or a reason.
 
 ## Structure
 

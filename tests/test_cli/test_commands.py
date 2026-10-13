@@ -432,6 +432,7 @@ def test_license_audit_reports_findings_with_exit_codes(tmp_path: pathlib.Path) 
     second = root / 'library' / 'subject' / 'second'
     second.mkdir()
     (second / 'second.pdf').write_bytes(b'')
+    write_page(second / 'second.md', 'The paper.')
     (second / 'figure.png').write_bytes(b'')
     write_page(second / '_index.md', '---', 'name: second', '---')
     result = run_erdos(tmp_path, 'license-audit', '--path', f'{root}')
@@ -507,12 +508,13 @@ def _lead_repository(tmp_path: pathlib.Path) -> pathlib.Path:
 
 
 def _license_repository(tmp_path: pathlib.Path) -> pathlib.Path:
-    """Build a committed checkout with one library card holding a licensed PDF."""
+    """Build a committed checkout with one library card holding a licensed PDF and its transcription."""
     root = tmp_path / 'repo'
     write_page(root / 'wiki' / '_index.md', '# erdos')
     first = root / 'library' / 'subject' / 'first'
     first.mkdir(parents=True)
     (first / 'first.pdf').write_bytes(b'')
+    write_page(first / 'first.md', 'The paper.')
     write_page(first / '_index.md', '---', 'license: CC-BY-4.0', '---')
     run_git(root, 'init', '-q', '-b', 'main')
     run_git(root, 'add', '-A')

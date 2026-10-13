@@ -221,11 +221,14 @@ vocabulary (an SPDX license identifier, an unversioned Creative Commons
 a term that is not an open license when the holding policy is enforced
 (`LIBRARY_OPEN_TERMS_ONLY` in `tools/constants.py`, on here: the library holds a
 file only under an open license), the term of a PDF disagreeing with its arXiv
-record, a record naming a license URL with no mapping, or frontmatter that does
-not parse. `reserved` terms whose arXiv record maps differently are notes, as is
-a missing `library/`. It writes nothing. Exit 0 means no findings; 1 findings; 2
-a command or usage error. The gate's `library licenses` leg runs the same audit;
-`docs/tools.md` "License audit contract" states its rules.
+record, a record naming a license URL with no mapping, a held PDF with neither
+its transcription (`<stem>.md` beside it) nor a reason in the card's
+`transcription` key (`book`, `terms` or `unreadable`), a reason that does not
+fit, or frontmatter that does not parse. `reserved` terms whose arXiv record
+maps differently are notes, as is a missing `library/`. It writes nothing. Exit
+0 means no findings; 1 findings; 2 a command or usage error. The gate's
+`library licenses` leg runs the same audit; `docs/tools.md` "License audit
+contract" states its rules.
 
 ## Reference lint
 
