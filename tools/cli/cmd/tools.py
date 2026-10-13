@@ -106,8 +106,9 @@ def gate(app: typer.Typer) -> typer.Typer:
     strict = typer.Option(False, '--strict', help=strict_help)
     # settled flag
     settled_help = (
-        'Fail the problem claims leg on a problem whose provisional standing'
-        ' rests on no claim page, instead of counting it as transition debt.'
+        'Fail the problem claims leg on a problem whose provisional standing,'
+        ' other than open with claim none, rests on no claim page, instead of'
+        ' counting it as transition debt.'
     )
     settled = typer.Option(False, '--settled', help=settled_help)
 
@@ -132,8 +133,9 @@ def gate(app: typer.Typer) -> typer.Typer:
         otherwise. The receipt is a gate convenience, never an acceptance
         record. With ``--strict``, a leg whose required tool (wiki, pre-commit)
         is unavailable fails instead of skipping. With ``--settled``, the
-        problem claims leg fails on a problem whose provisional standing rests
-        on no claim page; without it such problems are counted and reported.
+        problem claims leg fails on a problem whose provisional standing, other
+        than open with claim none, rests on no claim page; without it such
+        problems are counted and reported.
 
         Scripts should branch on the exit code rather than parse the findings
         (0 all requested legs passed, 1 failed legs, 2 command or usage error).
@@ -459,8 +461,9 @@ def problem_claims(app: typer.Typer) -> typer.Typer:
     path = typer.Option(None, '--path', help=path_help)
     # settled flag
     settled_help = (
-        'Fail on a problem whose provisional standing rests on no claim page,'
-        ' instead of counting it as transition debt.'
+        'Fail on a problem whose provisional standing, other than open with'
+        ' claim none, rests on no claim page, instead of counting it as'
+        ' transition debt.'
     )
     settled = typer.Option(False, '--settled', help=settled_help)
     # write flag
@@ -488,8 +491,9 @@ def problem_claims(app: typer.Typer) -> typer.Typer:
         ``Covers.`` paragraph, a ``Depends on.`` link that is not a wiki page,
         an accepted claim resting on an unaccepted page, or a recorded status
         and claim that the claim pages do not derive. A problem with no claim
-        page keeps its provisional standing and is counted as transition debt;
-        with ``--settled`` it is a finding. With ``--write``, each problem with
+        page keeps its provisional standing and, unless that standing is open
+        with claim none, is counted as transition debt; with ``--settled`` it is
+        a finding. With ``--write``, each problem with
         claim pages gets the derived status and claim written into its two
         frontmatter lines before the check. With ``--problem E####``
         (repeatable) only the named problem folders are written and checked,
