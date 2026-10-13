@@ -86,7 +86,7 @@ $\pi(y+(\log y)^3)-\pi(y)>(1+\delta_3)(\log y)^2$. Restricting the hypothesis to
 the $A=2$ instance the proof uses does not avoid this. So Theorem 1.8 decides
 nothing, and the preprint has no claim page; the problem has no claim.
 
-Search scope (2026-10-07): the site's page and its discussion thread (two
-comments, 2025-09-28 and 2026-09-18), the formal-conjectures statement file
-at its 2026-09-18 commit (no formal proof recorded) and the arXiv record of
-the preprint.
+Search scope: the site's page and its discussion thread (two comments by
+2026-10-07, of 2025-09-28 and 2026-09-18), the formal-conjectures statement file
+at its 2026-09-18 commit (no formal proof recorded) and the arXiv record of the
+preprint.

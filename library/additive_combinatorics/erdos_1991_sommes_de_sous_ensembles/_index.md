@@ -60,14 +60,13 @@ with Numdam's cover page; printed p. $n$ is PDF p. $n-53$); the journal
 record is Journal de théorie des nombres de Bordeaux, Série 2, Tome 3
 (1991), no. 1, 55--72, DOI 10.5802/jtnb.42 (Crossref and Numdam records read; the manuscript was received 30 October 1990). Its text layer
 carries the prose and drops the displays, which were read on the page
-images. Read status: claims checked, on the page images (130 dpi) on
-2026-09-18, for the definition of admissibility (printed p. 55), Straus's
-results (i), (ii) and the conjecture as reported on p. 56, Théorème 1 with
-its decimal (p. 56), Lemme 1 and Lemme 2 with its proof (pp. 56--57), the
-conjecture and the report of Erdős's 1962 construction opening Section 5
-(p. 65), Théorème 2 (p. 65) and the closing inequality of its proof
-(p. 69); the proofs of Théorème 1 and Théorème 2 were read for their
-structure only. Result pages:
+images. Read status: claims checked, on the page images (130 dpi), for the
+definition of admissibility (printed p. 55), Straus's results (i), (ii) and the
+conjecture as reported on p. 56, Théorème 1 with its decimal (p. 56), Lemme 1
+and Lemme 2 with its proof (pp. 56--57), the conjecture and the report of
+Erdős's 1962 construction opening Section 5 (p. 65), Théorème 2 (p. 65) and the
+closing inequality of its proof (p. 69); the proofs of Théorème 1 and Théorème 2
+were read for their structure only. Result pages:
 [[additive_combinatorics/erdos_1991_sommes_de_sous_ensembles/theoreme_1|theoreme_1]],
 [[additive_combinatorics/erdos_1991_sommes_de_sous_ensembles/lemme_2|lemme_2]]
 (with Lemme 1) and
@@ -102,7 +101,7 @@ Straus's from Lemme 1; applied to the admissible subsets of
 $\{1,\ldots,n\}$ it gives $h(n)<(4/\sqrt3)n^{1/2}+1$ for the problem's
 $h(n)$.
 
-**Results to transcribe.**
+**Results.**
 
 - Théorème 1: limsup_{N→∞} F(N) N^{-1/2} ≤ (143/27)^{1/2} = 2.301368...,
   improving Straus's bound 4/√3 = 2.309401...

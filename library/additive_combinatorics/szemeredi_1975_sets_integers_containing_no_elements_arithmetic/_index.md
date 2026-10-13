@@ -45,7 +45,7 @@ read 2026-10-02).
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0139/_index|#139]]
 
-**Results to transcribe.**
+**Results.**
 
 - Main theorem (Erdős–Turán conjecture): c_k = lim_n r_k(n)/n = 0 for every k,
   so every set of integers of positive upper density contains arithmetic

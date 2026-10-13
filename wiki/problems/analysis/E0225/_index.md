@@ -143,7 +143,7 @@ Kristiansen paper is not held in the library, and the account of the cited 1976
 erratum is on its claim page. This project's own reviews of the compiled Theorem
 1 chain, the Theorem 2 reduction and the transfer sentence are described under
 Review record below; none of them gives formal-verification or new acceptance
-credit. This page records no dated status-search scope. The 1976 erratum the
+credit. This page records no status-search scope. The 1976 erratum the
 site cites concerns Kristiansen's companion note *Proof of a polynomial
 conjecture* (Proc. Amer. Math. Soc. 44 (1974), 58--60), whose proof misses one
 case, and reports no gap in the trigonometric paper, which cites only Erdős's

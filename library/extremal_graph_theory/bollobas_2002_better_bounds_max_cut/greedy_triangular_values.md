@@ -75,8 +75,7 @@ authors' manuscript described in the
 [[extremal_graph_theory/bollobas_2002_better_bounds_max_cut/_index|source digest]].
 
 **Read depth.** Claims checked: the decomposition, the definitions, the
-displayed value and the constructions read clause by clause on the page
-images on 2026-10-08.
+displayed value and the constructions read clause by clause on the page images.
 
 ## Proof pointer
 

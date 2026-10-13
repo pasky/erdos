@@ -46,7 +46,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/irrationality/E0260/_index|#260]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 2.1: If sum n d_n 2^{-n} is rational with infinite support S, then
   A_S(2X) - A_S(X) >= c_Q X for all large dyadic X, with c_Q depending only on

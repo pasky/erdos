@@ -40,10 +40,9 @@ read on the page images. The artifact is identified in the
 [[additive_combinatorics/bourgain_1997_estimates_related_sumfree_subsets_sets_integers/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, (1.6) and the statement of
-Lemma 6.27 were read clause by clause on the page images on 2026-10-08. The
-proof (§ 7) was read on the page images and its structure followed; §§ 5--6,
-which supply Lemma 6.27, were not checked. Nothing here is independently
-reviewed.
+Lemma 6.27 were read clause by clause on the page images. The proof (§ 7) was
+read on the page images and its structure followed; §§ 5--6, which supply Lemma
+6.27, were not checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

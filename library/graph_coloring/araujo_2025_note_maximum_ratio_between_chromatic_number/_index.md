@@ -43,7 +43,7 @@ Source: <https://arxiv.org/abs/2512.16062>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0627/_index|#627]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.3: f(n) <= (3.71943 + o(1)) n/(log n)^2, and <= (3.70831 + o(1))
   n/(log n)^2 if Conjecture 1.1 holds.

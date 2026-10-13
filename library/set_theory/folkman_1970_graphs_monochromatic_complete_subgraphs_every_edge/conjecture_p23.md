@@ -46,8 +46,8 @@ a $K_5$-free graph, not a $K_4$-free one.
 
 **Source.** J. Folkman, *Graphs with monochromatic complete subgraphs in every
 edge coloring*, SIAM J. Appl. Math. 18 (1970), no. 1, 19--24; printed
-pp. 23--24 (PDF pp. 6--7 of the JSTOR reprint); read on the rendered
-page images on 2026-09-18.
+pp. 23--24 (PDF pp. 6--7 of the JSTOR reprint); read on the rendered page
+images.
 
 **Read depth.** Claims checked: the definitions, the conjecture and the
 inequality were read clause by clause on the page images. The inequality is

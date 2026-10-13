@@ -85,7 +85,7 @@ pp. 136--137 (PDF pp. 1--2), the bracket pi(x) + pi(sqrt x) < max k <
 pi(x) + c_5 x^{1/2}/log x for distinct subset products and the conjecture
 max k = pi(x) + pi(sqrt x) + o(x^{1/2}/log x).
 
-**Results to transcribe.**
+**Results.**
 
 - [[integer_sequences/erdos_1970_applications_graph_theory_number_theory/display_1|Display (1)]],
   p. 136: pi(x) + c_1 x^{2/3}/(log x)^2 < max k < pi(x) + c_2 x^{2/3}/(log x)^2

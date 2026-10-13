@@ -39,15 +39,14 @@ routes recorded for this source. Publication metadata establishes the journal
 identity and printed span only. Its physical page map, statement-level changes,
 and relationship to the selected arXiv proof remain unverified; no
 version-of-record locator or equivalence claim is made here. Version check
-of 2026-09-17: the arXiv listing still shows only v1 (20 October 2025), and
-the Crossref record of the DOI gives J. Combin. Theory Ser. B 179 (2026),
-293--298 (July 2026); the arXiv abstract rounds the bound to
-$(4\ell)^kk^{k/\ell}$, while the PDF's Theorem 1.1 has
-$(4\ell-2)^kk^{k/\ell}+1$.
+of 2026-09-17: the arXiv listing showed only v1 (20 October 2025), and the
+Crossref record of the DOI gives J. Combin. Theory Ser. B 179 (2026), 293--298
+(July 2026); the arXiv abstract rounds the bound to $(4\ell)^kk^{k/\ell}$, while
+the PDF's Theorem 1.1 has $(4\ell-2)^kk^{k/\ell}+1$.
 
 Read status: claims checked for Theorem 1.1 (p. 2, read clause by clause on
-the page image and in the text layer on 2026-09-17); its proof (p. 4) and
-Lemma 2.1 were not checked.
+the page image and in the text layer); its proof (p. 4) and Lemma 2.1 were not
+checked.
 
 [[ramsey_theory/axenovich_2025_improved_upper_bound_multicolour_ramsey_number/theorem_1_1|Theorem 1.1]] proves, for all $k,\ell\in\mathbb N$,
 
@@ -86,7 +85,7 @@ Sources: <https://arxiv.org/abs/2510.17981> and
 **Bears on.** [[../wiki/problems/ramsey_theory/E0554/_index|#554]] and
 [[../wiki/problems/ramsey_theory/E0609/_index|#609]].
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/axenovich_2025_improved_upper_bound_multicolour_ramsey_number/theorem_1_1|Theorem 1.1]]:
   $R_k(C_{2\ell+1})\leq(4\ell-2)^k k^{k/\ell}+1$ for all

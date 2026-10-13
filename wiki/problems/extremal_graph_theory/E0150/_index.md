@@ -194,8 +194,7 @@ names Bradač as its informal author, it is a formalization link on
 [[problems/extremal_graph_theory/E0150/claims/2024_09_04_bradac|Bradač's claim page]]
 and has no claim page of its own; the thread post of 31 March 2026 that
 reported it is linked there too. The community database
-(teorth/erdosproblems, `data/problems.yaml` fetched)
-records `status` "proved
+(teorth/erdosproblems, `data/problems.yaml`) records `status` "proved
 (Lean)" since 31 March 2026, `formal_status` Lean since 31 March 2026 with
 no URL, the statement formalized since 3 August 2026 and no formal-proof
 field; the site's indicator records the statement as formalized.

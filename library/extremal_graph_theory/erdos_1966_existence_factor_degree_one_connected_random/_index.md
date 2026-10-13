@@ -37,10 +37,10 @@ concerns a different article; the term is unstated.
 
 Read status: claims checked for Theorem 1 (printed p. 360 = PDF p. 2) and the
 introduction's displays (0.1)--(0.4) (p. 359 = PDF p. 1), read clause by
-clause on the page images on 2026-09-18; all ten pages were read on the page
-images for any statement about Hamiltonian cycles, and there is none. The
-proof of Theorem 1 (§2, pp. 362--368) was read for structure only. Nothing
-here is independently reviewed.
+clause on the page images; all ten pages were read on the page images for any
+statement about Hamiltonian cycles, and there is none. The proof of Theorem 1
+(§2, pp. 362--368) was read for structure only. Nothing here is independently
+reviewed.
 
 Continuing the authors' random graph series, the paper takes the uniform random
 graph Gamma_{n,N} on n vertices with N edges and asks when it has a factor of
@@ -71,7 +71,7 @@ ErRe66, cited by the site for the perfect-matching theorem;
 (p. 360, page image) is that theorem, and the paper states no conjecture about
 Hamiltonian cycles.
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/erdos_1966_existence_factor_degree_one_connected_random/theorem_1|Theorem 1]]
   (p. 360, page image): If n = 2m is even and N = (1/2) n log n + omega(n) n

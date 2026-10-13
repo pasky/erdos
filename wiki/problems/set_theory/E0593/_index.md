@@ -72,9 +72,9 @@ pending claims agree, which is what the frontmatter records. Li's paper also
 claims the answers to [[problems/set_theory/E1177/_index|Problem 1177]]; that
 claim belongs on that problem's page.
 
-**Search scope, 2026-10-07:** the site's problem page, commentary,
-discussion thread and proof-claims page, with the comments the site lists on
-the two claims (three and seven); the arXiv record of Li's preprint; the
+**Search scope:** the site's problem page, commentary, discussion thread and
+proof-claims page, with the comments the site listed on the two claims on
+2026-10-07 (three and seven); the arXiv record of Li's preprint; the
 READMEs of both repositories and their commit records for dates and pins.
 arXiv beyond the record, Crossref, MathSciNet, zbMATH, Google Scholar and X
 were not searched.

@@ -37,9 +37,9 @@ $\gg x/\log x$ from the primes, and that the upper density of the set of
 champs is less than $1$ (by the method of Erdős and Pomerance on the largest
 prime factors of $n$ and $n+1$).
 
-**Read depth.** Claims checked: the statement was read clause by clause on
-the page image on 2026-10-08, and the proof on pp. 14--15 was followed.
-Nothing here is independently reviewed.
+**Read depth.** Claims checked: the statement was read clause by clause on the
+page image, and the proof on pp. 14--15 was followed. Nothing here is
+independently reviewed.
 
 ## Proof sketch
 

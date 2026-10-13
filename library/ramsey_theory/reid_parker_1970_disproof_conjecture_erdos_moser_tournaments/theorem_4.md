@@ -42,11 +42,10 @@ pp. 11--12), read on the page images. The edition is identified in the
 
 **Read depth.** Claims checked: the statement, the § 3 opening, the
 definitions of p. 225 and the $T_{13}$ passage were read clause by clause
-on the page images on 2026-09-22. The proof (one paragraph) was read in
-full on the page image and its reduction to Theorems 2 and 3 and to
-Stearns's bound was followed; the case analysis proving Theorem 3
-(pp. 227--235) was read in the text layer for structure only and not
-checked. Nothing here is independently reviewed.
+on the page images. The proof (one paragraph) was read in full on the page image
+and its reduction to Theorems 2 and 3 and to Stearns's bound was followed; the
+case analysis proving Theorem 3 (pp. 227--235) was read in the text layer for
+structure only and not checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

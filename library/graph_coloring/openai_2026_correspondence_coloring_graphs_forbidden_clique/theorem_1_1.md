@@ -52,8 +52,8 @@ release folder
 `preprints/Correspondence-Coloring-Graphs-with-a-Forbidden-Clique-October-5-2026`;
 TeX file `build/sections/introduction.tex`, label `thm:main` (lines 25--34),
 PDF p. 2; the proof closes at the end of Section 5
-(`build/sections/completion.tex` lines 9--68, PDF pp. 26--27). Read
-2026-10-12. Provenance and attestations are on
+(`build/sections/completion.tex` lines 9--68, PDF pp. 26--27). Provenance and
+attestations are on
 [[graph_coloring/openai_2026_correspondence_coloring_graphs_forbidden_clique/_index|the card]].
 
 **Read depth.** Claims checked: the statement, the definitions it rests on

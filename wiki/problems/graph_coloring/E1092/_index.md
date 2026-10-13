@@ -99,10 +99,11 @@ graph and supplies the small-subgraph step of the deduction; it is disclosed
 on Rödl's page and has no page of its own. Which sublinear budgets are
 admissible is not assessed here.
 
-Search scope, 2026-10-07: the site's page and discussion thread (six posts:
-Tang's deduction of 2025-11-03, a link to Rödl's paper, Chojecki's note of
-2026-04-28 with two replies, and the curator's reading of 2026-05-12), the
-community database (teorth/erdosproblems: formalized, with the Lean qualifier),
-the formal-conjectures catalog (the statement file, added 2026-01-08 and
-corrected 2026-09-15, without a proof) and Boris Alexeev's lean-proofs
-collection. No other claim on the problem was found.
+Search scope, with the changing sources as they stood on 2026-10-07: the
+site's page and discussion thread (six posts: Tang's deduction of 2025-11-03, a
+link to Rödl's paper, Chojecki's note of 2026-04-28 with two replies, and the
+curator's reading of 2026-05-12), the community database
+(teorth/erdosproblems: formalized, with the Lean qualifier), the
+formal-conjectures catalog (the statement file, added 2026-01-08 and corrected
+2026-09-15, without a proof) and Boris Alexeev's lean-proofs collection. None
+of them showed another claim on the problem.

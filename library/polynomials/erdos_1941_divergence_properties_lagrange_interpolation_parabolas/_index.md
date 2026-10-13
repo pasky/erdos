@@ -87,7 +87,7 @@ by line. Result pages:
   given value. The paper treats no other closed set. Theorem 2 makes no
   assertion at these points.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 311): For x_0 = cos(p*pi/q) with p == q == 1 (mod 2) there is
   a continuous f with L_n(f(x_0)) -> infinity; by a remark stated without proof

@@ -57,11 +57,10 @@ $K_{2^k+1}$. It is therefore adjacent context, not an improvement for that
 problem.
 
 **Living verification.** Needs review. Claims checked: the theorem statement
-was read clause by clause on the page image of p. 3 (2026-09-17, as the source
-digest records). The asymptotic derivation on pp. 10--12 was looked over on
-the page images for the proof pointer above, not checked step by step; the
-weighted estimate behind Theorem 4 (Sections 2--3) and the complete proof
-chain were not reviewed.
+was read clause by clause on the page image of p. 3. The asymptotic derivation
+on pp. 10--12 was looked over on the page images for the proof pointer above,
+not checked step by step; the weighted estimate behind Theorem 4 (Sections 2--3)
+and the complete proof chain were not reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0554/_index|#554]] as a direct but
 nonresolving numerator bound, and [[../wiki/problems/ramsey_theory/E0609/_index|#609]] as

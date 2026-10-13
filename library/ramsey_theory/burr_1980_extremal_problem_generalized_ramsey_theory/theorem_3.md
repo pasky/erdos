@@ -43,8 +43,8 @@ scan), read on the rendered page image.
 
 **Read depth.** Claims checked: the definitions of $\alpha,\beta,\gamma,
 \delta,\varepsilon$, the range $m\ge3$, the quantifiers on the constants and
-on $n$, and both displayed chains were read clause by clause on the page
-image on 2026-10-08. The paper gives no proof, so there is none to check.
+on $n$, and both displayed chains were read clause by clause on the page image.
+The paper gives no proof, so there is none to check.
 
 ## Proof pointer
 

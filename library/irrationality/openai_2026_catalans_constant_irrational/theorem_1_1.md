@@ -46,8 +46,8 @@ entry for it at this revision (see the card).
 **Source.** OpenAI, *Catalan's constant is irrational*, release folder
 `preprints/Catalans-constant-is-irrational-September-24-2026`; TeX file
 `build/sections/introduction.tex`, label `thm:main` (lines 16--18), PDF p. 1;
-the proof closes in Section 8 (`build/sections/conclusion.tex` lines 3--16,
-PDF p. 42). Read 2026-10-12. Provenance and attestations are on
+the proof closes in Section 8 (`build/sections/conclusion.tex` lines 3--16, PDF
+p. 42). Provenance and attestations are on
 [[irrationality/openai_2026_catalans_constant_irrational/_index|the card]].
 
 **Read depth.** Claims checked: the statement and the definition of $G$

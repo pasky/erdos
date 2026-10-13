@@ -92,9 +92,8 @@ T. F. Bloom, Erdős Problem #965, https://www.erdosproblems.com/965, accessed
   [[../library/ramsey_theory/hindman_2017_pairwise_sums_colourings_reals/_index|hindman_2017_pairwise_sums_colourings_reals]].
 - [Ko16] Komjáth, P., A certain 2-coloring of the reals. Real Anal. Exchange
   41 (2016), no. 1, 227--231, doi:10.14321/realanalexch.41.1.0227 (the
-  publisher's record, gives volume 41, issue 1, first
-  page 227). Not held: no open copy was found; no author copy
-  was found. Quoted second-hand.
+  publisher's record gives volume 41, issue 1, first page 227). Not held: no
+  open copy was found; no author copy was found. Quoted second-hand.
 - [SoWe] Soukup, D. T. and Weiss, W., Sums and anti-Ramsey colourings of
   $\mathbb R$. Unpublished manuscript, 5 pages, PDF dated September 2015; no
   journal or arXiv record found. Theorem 3.1, p. 3; Corollary

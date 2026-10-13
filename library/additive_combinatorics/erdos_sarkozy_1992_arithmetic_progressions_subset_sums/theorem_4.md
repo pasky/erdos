@@ -79,13 +79,13 @@ pp. 10--13), read on the page images. The artifact is identified in the
 [[additive_combinatorics/erdos_sarkozy_1992_arithmetic_progressions_subset_sums/_index|source digest]].
 
 **Read depth.** Claims checked: the definitions of $\mathcal P(\mathcal A)$
-and $K(N)$, the statement and the remark were read clause by clause on the
-page images on 2026-09-22. The proof (pp. 258--261, three pages) was read
-in full on the page images and its steps were followed: the ternary
-uniqueness argument for the lower bound, the two-case reduction from a
-progression-free $\{0\}\cup\mathcal P(\mathcal A)$ to Property P, and the
-interval count, whose printed range is a slip (see the proof pointer).
-Nothing here is independently reviewed.
+and $K(N)$, the statement and the remark were read clause by clause on the page
+images. The proof (pp. 258--261, three pages) was read in full on the page
+images and its steps were followed: the ternary uniqueness argument for the
+lower bound, the two-case reduction from a progression-free
+$\{0\}\cup\mathcal P(\mathcal A)$ to Property P, and the interval count, whose
+printed range is a slip (see the proof pointer). Nothing here is independently
+reviewed.
 
 ## Proof pointer
 

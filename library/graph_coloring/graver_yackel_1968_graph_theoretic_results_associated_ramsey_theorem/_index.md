@@ -94,15 +94,14 @@ Corollary 4 with their proofs (p. 149), the bounds $R(3,8)\le29$ and
 $R(3,9)\le36$ and Proposition 9 with its setup (p. 154), Lemma 9 and its
 proof (p. 155), the proof of Proposition 9 and the Corollary (p. 156) and
 the proof of the Corollary (p. 157), each read clause by clause on the
-page images of PDF pp. 1, 2, 25 and 30--33 on 2026-09-22. The proofs of
-Corollary 4, of Proposition 9 and of its Corollary were read in full on the
-page images and followed; the proof of Lemma 9 was read on the page image
-and its estimates were not checked. The rest of the paper (pp. 127--148,
-150--153 and 158--175) was read in the text layer for structure only: the
-statements of Lemmas 1--8, Propositions 1--7, Corollaries 1--3 and 5--6
-and Computations A--U were located and their wording taken from the text
-layer, and none of their proofs was checked. Nothing here is independently
-reviewed.
+page images of PDF pp. 1, 2, 25 and 30--33. The proofs of Corollary 4, of
+Proposition 9 and of its Corollary were read in full on the page images and
+followed; the proof of Lemma 9 was read on the page image and its estimates were
+not checked. The rest of the paper (pp. 127--148, 150--153 and 158--175) was
+read in the text layer for structure only: the statements of Lemmas 1--8,
+Propositions 1--7, Corollaries 1--3 and 5--6 and Computations A--U were located
+and their wording taken from the text layer, and none of their proofs was
+checked. Nothing here is independently reviewed.
 
 ## Conventions
 

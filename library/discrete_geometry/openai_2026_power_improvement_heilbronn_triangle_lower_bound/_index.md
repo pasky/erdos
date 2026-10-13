@@ -90,11 +90,10 @@ manuscript, alternate proof or consequence paper for it.
 Read status: claims checked for Theorem 1.1, the definitions of $\Delta(P)$
 and $\Delta(n)$, the almost-$n^{-2}$ formulation (1.1) and the explicit
 exponent (8.7), read clause by clause in the TeX source
-(`sections/01-introduction.tex`, lines 1--55, and
-`sections/08-alteration.tex`, lines 97--137) on 2026-10-07; the proofs in
-`sections/02-lattices.tex` through `sections/09-prime-interval.tex` were read
-for their structure only and no step was checked; nothing here is
-independently reviewed.
+(`sections/01-introduction.tex`, lines 1--55, and `sections/08-alteration.tex`,
+lines 97--137); the proofs in `sections/02-lattices.tex` through
+`sections/09-prime-interval.tex` were read for their structure only and no step
+was checked; nothing here is independently reviewed.
 
 ## Contents
 

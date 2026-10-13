@@ -39,10 +39,10 @@ Mathematical Sciences Center, Tsinghua University (Ma); School of
 Mathematics and Statistics, Xi'an Jiaotong University (Tang). The site's
 thread records (20 October 2025) that an earlier version gave the constant
 $\sqrt2-1$ and that the note was updated to $2-\sqrt{5/2}$; the copy read for
-this card prints $2-\sqrt{5/2}$ throughout and is the updated version. No refereed
-publication, arXiv version or independent review of the note was found on
-2026-09-19 (Crossref bibliographic query for the title, OpenAlex title search
-and two arXiv author queries, all without a record).
+this card prints $2-\sqrt{5/2}$ throughout and is the updated version. A
+Crossref bibliographic query for the title, an OpenAlex title search and two
+arXiv author queries on 2026-09-19 returned no record of a refereed publication
+or an arXiv version of the note.
 
 The copy read for this card is that file,
 three letter-size pages with a complete text layer, read on the rendered page

@@ -55,10 +55,9 @@ all 1,449,166 graphs on 12 vertices with no $K_4$ in the graph or its complement
 are 4-cocolorable, a route that avoids the chromatic-number reduction of
 [[problems/graph_coloring/E0758/claims/2024_09_15_mehta|Mehta's computation]];
 the deposit credits these re-derivations to Claude Opus 5. The site's page
-records $z(20)$ as unknown as of 2026-10-07, and no refereed or independently
-verified account was found (search scope 2026-10-07: the site and its thread,
-the community database, the Justin Sun Prize awards repository, Crossref,
-Zenodo).
+records $z(20)$ as unknown as of 2026-10-07, and on that date the site and its
+thread, the community database, the Justin Sun Prize awards repository,
+Crossref and Zenodo showed no refereed or independently verified account.
 
 **Formalizations.** Two Lean 4 developments state $z(20)=6$ and are linked
 above. Collin Yuanjie Ren's submission to the Justin Sun Prize awards

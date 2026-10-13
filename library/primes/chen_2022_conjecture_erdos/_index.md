@@ -16,7 +16,8 @@ updated: 2026-10-07T20:53:40Z
 
 Yong-Gao Chen, Yuchen Ding, On a conjecture of Erdős. arXiv:2201.10727 (2022);
 published as Comptes Rendus Mathématique 360 (2022), 971--974, doi
-10.5802/crmath.345, online 2022-09-29. The arXiv record
+10.5802/crmath.345, online 2022-09-29. The held PDF is the preprint
+arXiv:2201.10727v1 (26 January 2022). The arXiv record
 (https://arxiv.org/abs/2201.10727, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 
@@ -43,7 +44,7 @@ Source: <https://arxiv.org/abs/2201.10727>.
 
 **Bears on.** [[../wiki/problems/primes/E0237/_index|#237]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For any l distinct integers a_1,...,a_l, infinitely many n have
   more than (1/8) log l - 1.6 representations n = p + a_i with p prime.

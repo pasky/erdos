@@ -100,14 +100,13 @@ Read status: claims checked for the abstract and § 1 (pp. 140--141),
 Theorem 3.2 (p. 143), Corollary 3.3, Theorem 4.1 with its proof, the remark
 after it and Example 4.1 (p. 144), Theorem 4.2, Corollary 4.3, the three
 remarks and Example 4.2 (p. 145), each read clause by clause on the page
-images of PDF pp. 1, 2, 4, 5 and 6 on 2026-09-22; § 2 (pp. 141--142) and
-Theorem 3.1 with its proof (p. 143) were read on the page images of PDF
-pp. 2--4 for structure, and the references on the page image of PDF p. 7.
-The proof of Theorem 4.1 (five lines, p. 144) was read in full on the page
-image and its reduction to Corollary 3.3 followed; the proofs of
-Theorem 3.2 (pp. 143--144), Theorem 3.1 (p. 143) and Corollary 2.3 (p. 142)
-were read for structure only, and the two theorems quoted from James and
-Kerber (Theorems 2.1 and 2.2) were not checked. Nothing here is
+images of PDF pp. 1, 2, 4, 5 and 6; § 2 (pp. 141--142) and Theorem 3.1 with its
+proof (p. 143) were read on the page images of PDF pp. 2--4 for structure, and
+the references on the page image of PDF p. 7. The proof of Theorem 4.1 (five
+lines, p. 144) was read in full on the page image and its reduction to Corollary
+3.3 followed; the proofs of Theorem 3.2 (pp. 143--144), Theorem 3.1 (p. 143) and
+Corollary 2.3 (p. 142) were read for structure only, and the two theorems quoted
+from James and Kerber (Theorems 2.1 and 2.2) were not checked. Nothing here is
 independently reviewed.
 
 ## Contents

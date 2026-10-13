@@ -79,8 +79,8 @@ ordinary proof reconstruction is recorded on this page.
 
 Norin and Sun proved the stronger inequality in 2016. The selected original
 is the fourteen-page arXiv v1; the arXiv record listed only v1 on 2026-09-05,
-and no separate journal version was located in the bounded primary search of
-that date.
+and the primary sources consulted showed no separate journal version on that
+date.
 
 A later published paper, Bujtás et al., *Covering the edges of a graph with
 triangles*, Discrete Mathematics 348(1) (2025), 114226,

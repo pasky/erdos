@@ -125,9 +125,9 @@ claim page]]. It is a result about the plane alone, claims nothing about the
 growth of $\chi(G_n)$ in $n$, and so gets no claim page here; its transfer
 theorem between arbitrary and measurable colorings is stated for the plane.
 
-Search scope, 6 October 2026: the site's page and proof-claims thread, and
-the release of 23 September 2026; no further literature search. A later search
-of arXiv's new mathematics listings found Davies's preprint.
+Search scope: the site's page and proof-claims thread, and the release of 23
+September 2026; no further literature search. A search of arXiv's new
+mathematics listings found Davies's preprint.
 
 <!-- BEGIN problem library links -->
 

@@ -79,14 +79,13 @@ the notation line, Definition 2.1 and Lemma 2.2 (pp. 113--114), Definition
 2.3 with the note that $\{J_0,J_1\}$ and $\{K_i\}_{i<7}$ are partitions of
 $N$ (pp. 114--115), Theorem 2.14 (p. 117), Theorem 2.15 (p. 118), and § 3
 with Questions 3.1 and 3.3 and the reference list (pp. 119--120), each read
-clause by clause on the page images of PDF pp. 1--3 and 5--8 on
-2026-09-22. The proofs of Theorems 2.14 and 2.15 (pp. 117--119) were read
-on the page images for their case structure, and their reductions to
-Lemmas 2.7, 2.9, 2.10, 2.11 and 2.13 were followed, but no case computation
-was checked; Lemmas 2.4--2.13 with their proofs (pp. 115--117) were read on
-the page images for structure only. The paper's assertion that the two
-families are partitions of $N$ was not checked. Nothing here is
-independently reviewed.
+clause by clause on the page images of PDF pp. 1--3 and 5--8. The proofs of
+Theorems 2.14 and 2.15 (pp. 117--119) were read on the page images for their
+case structure, and their reductions to Lemmas 2.7, 2.9, 2.10, 2.11 and 2.13
+were followed, but no case computation was checked; Lemmas 2.4--2.13 with their
+proofs (pp. 115--117) were read on the page images for structure only. The
+paper's assertion that the two families are partitions of $N$ was not checked.
+Nothing here is independently reviewed.
 
 ## Contents
 

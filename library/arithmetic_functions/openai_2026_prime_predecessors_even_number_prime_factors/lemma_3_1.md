@@ -42,8 +42,8 @@ Factors*, release folder
 `preprints/Prime-Predecessors-with-an-Even-Number-of-Prime-Factors-September-17-2026`;
 TeX file `build/sections/02-long-prime.tex`, label `lp:prime-polynomial`
 (lines 8--21), PDF p. 4; the proof is at lines 483--579 (PDF pp. 10--11),
-after Lemmas 3.2--3.6 (lines 48--481, PDF pp. 5--10). Read 2026-10-12.
-Provenance and attestations are on
+after Lemmas 3.2--3.6 (lines 48--481, PDF pp. 5--10). Provenance and
+attestations are on
 [[arithmetic_functions/openai_2026_prime_predecessors_even_number_prime_factors/_index|the card]].
 
 **Read depth.** Claims checked: the statement, with the conventions of

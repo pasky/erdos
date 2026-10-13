@@ -35,9 +35,8 @@ The artifact is identified in the
 [[ramsey_theory/ihringer_2017_new_bounds_ramsey_number_r_i/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, the definition of
-$\mathrm{ld}$, Theorem 1.3 and the closing sentence were read clause by
-clause on 2026-09-18. The proof (pp. 15--17) was read for its case
-structure only.
+$\mathrm{ld}$, Theorem 1.3 and the closing sentence were read clause by clause.
+The proof (pp. 15--17) was read for its case structure only.
 
 ## Proof pointer
 

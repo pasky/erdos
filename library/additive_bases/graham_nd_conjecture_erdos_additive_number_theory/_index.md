@@ -46,7 +46,7 @@ stated.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0349/_index|#349]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorems 4-6 (Section 3): For 0 < t < 1 and 1 < a < 2, S_t(a) = ([t a^n])
   fails to be complete exactly when (t, a) lies in the union of the explicit

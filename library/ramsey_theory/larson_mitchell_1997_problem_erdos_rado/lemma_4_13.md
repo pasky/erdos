@@ -61,13 +61,12 @@ identified in the
 
 **Read depth.** Claims checked: the statement, the two definitions, the
 growth estimates and the statements of Lemmas 4.3--4.12 were read clause
-by clause on the page images on 2026-09-22. The proof of Lemma 4.13 (a
-paragraph) was read in full and its two steps followed; the proofs of
-Lemmas 4.4 and 4.9 were read in full and their algebra followed; the proofs
-of Lemmas 4.10, 4.11 and 4.12 were read for structure only, and the
-"details are left to the reader" in the induction step of Lemma 4.12
-(p. 251) were not reconstructed. Lemma 4.3 is printed without proof.
-Nothing here is independently reviewed.
+by clause on the page images. The proof of Lemma 4.13 (a paragraph) was read in
+full and its two steps followed; the proofs of Lemmas 4.4 and 4.9 were read in
+full and their algebra followed; the proofs of Lemmas 4.10, 4.11 and 4.12 were
+read for structure only, and the "details are left to the reader" in the
+induction step of Lemma 4.12 (p. 251) were not reconstructed. Lemma 4.3 is
+printed without proof. Nothing here is independently reviewed.
 
 ## Proof pointer
 

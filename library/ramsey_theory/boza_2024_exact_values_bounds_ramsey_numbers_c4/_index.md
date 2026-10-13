@@ -57,8 +57,8 @@ f(n-1) >= f(n) - 2 quoted from Chen 1997 (the paper's [3], Discrete Math. 163
 (1997) 243--246, cited and not proved here). Chen's paper is held, filed as
 [[extremal_graph_theory/chen_1997_result_c4_star_ramsey_numbers/_index|chen_1997_result_c4_star_ramsey_numbers]];
 its Theorem 4, r(C_4, K_{1,n+1}) <= r(C_4, K_{1,n}) + 2 for all positive
-integers n, is on printed p. 244 (PDF p. 2), located there on the text layer
-on 2026-09-22 and paged on
+integers n, is on printed p. 244 (PDF p. 2), located there on the text layer and
+paged on
 [[extremal_graph_theory/chen_1997_result_c4_star_ramsey_numbers/theorem_4|theorem_4]].
 For problem 552 the paper supplies the exact values of f(n) for n <= 38; apart
 from f(1) = 4, all are of the form n + ceil(sqrt(n)) + {0, 1}.
@@ -68,7 +68,7 @@ Source: <https://arxiv.org/abs/2409.12770>.
 **Bears on.** [[../wiki/problems/ramsey_theory/E0085/_index|#85]],
 [[../wiki/problems/ramsey_theory/E0552/_index|#552]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 4: If m is congruent to 2 mod 6 and m >= 8 then f(m^2+3) <= m^2+m+4,
   where f(n) = R(C_4, K_{1,n}).

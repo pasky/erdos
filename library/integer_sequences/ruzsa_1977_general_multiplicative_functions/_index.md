@@ -46,7 +46,7 @@ Source: <https://eudml.org/doc/205553>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0121/_index|#121]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.4: If G is an Abelian group and f is G-multiplicative, the sequence
   f^{-1}(g) has an asymptotic density for every g in G. Corollary 1.6 fails if

@@ -30,21 +30,18 @@ to $54/19$" ($=2.8421\ldots$).
 **Source.** L. Yi, *An improved upper bound for Tuza's conjecture via
 2-colorable triangle families*, arXiv:2608.23010v1 (24 August 2026);
 Corollary 1 with Haxell's lemmas restated and its proof on pp. 3--4 of the
-preprint, read on the page images. A preprint with no refereed
-version or independent review found on 2026-09-19. The artifact is
-identified in the
+preprint, read on the page images. The artifact is identified in the
 [[extremal_graph_theory/yi_2026_improved_upper_bound_tuza_s_conjecture/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, the restated Lemmas
-3.1--3.4 and the proof (pp. 3--4) were read clause by clause on the page
-images on 2026-09-19; the combination of the lemmas was followed and
-recomputed here ($11\tau\le\frac{63}2\nu$ after the $|\mathcal B_1|$,
-$|\mathcal B_2|$ and $|\mathcal B'_1|$ terms cancel). Haxell's Lemmas 1--4
-themselves are stated in the preprint "for completeness" with proofs
-referred to Haxell's paper, which is not held; the restatements were compared
-with the printed Lemmas 1--4 (pp. 252--253) on the page images on
-2026-10-07 and agree with them, and their proofs are followed on the card
-of Haxell's paper, not here.
+3.1--3.4 and the proof (pp. 3--4) were read clause by clause on the page images;
+the combination of the lemmas was followed and recomputed here
+($11\tau\le\frac{63}2\nu$ after the $|\mathcal B_1|$, $|\mathcal B_2|$ and
+$|\mathcal B'_1|$ terms cancel). Haxell's Lemmas 1--4 themselves are stated in
+the preprint "for completeness" with proofs referred to Haxell's paper, which is
+not held; the restatements were compared with the printed Lemmas 1--4 (pp.
+252--253) on the page images and agree with them, and their proofs are followed
+on the card of Haxell's paper, not here.
 
 ## Proof sketch
 

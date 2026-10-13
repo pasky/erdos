@@ -107,14 +107,14 @@ too (the note's Conjecture 3.2). Whether the full lines of a projective plane
 admit a blocking set meeting every line in a bounded number of points is
 [[problems/set_systems/E1159/_index|Problem 1159]], which is open.
 
-Search scope, 2026-10-07: the site's page and discussion thread (one comment
-of 26 January 2026 on the cross-reference to Problem 1159, no proof claims),
-the community database (teorth/erdosproblems, formalized statement recorded),
-the formal-conjectures statement file, the lean-proofs collection, Alon's
-publication list and the library card of the 2026 chapter. No other claim on
-the problem was found. One third-party Lean development, linked from the
-claim page, proves the $c=2/5$ case; this corpus has not built or audited
-it.
+Search scope, with the changing sources as they stood on 2026-10-07: the
+site's page and discussion thread (one comment of 26 January 2026 on the
+cross-reference to Problem 1159, no proof claims), the community database
+(teorth/erdosproblems, formalized statement recorded), the formal-conjectures
+statement file, the lean-proofs collection, Alon's publication list and the
+library card of the 2026 chapter. None of them showed another claim on the
+problem. One third-party Lean development, linked from the claim page, proves
+the $c=2/5$ case; this corpus has not built or audited it.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

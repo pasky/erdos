@@ -109,7 +109,7 @@ this card apply to both versions. The companions' arguments were not read for
 this card.
 
 Read status: claims checked for Theorem 1.1 and the normalizations it rests on,
-read clause by clause in the release's TeX source on 2026-10-12 (files under
+read clause by clause in the release's TeX source (files under
 `build/sections/`): `01-introduction.tex` lines 12--71 (the definitions of
 $s_p$, $a$, $r$, $\mathrm{Sha}$, $\Omega_E$, $c_\ell$, $H$, $B$ and
 $\mathrm{Reg}_E$, and `thm:main` at lines 47--62) and lines 141--167 (the

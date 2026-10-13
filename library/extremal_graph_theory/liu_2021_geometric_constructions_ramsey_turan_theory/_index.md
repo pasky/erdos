@@ -81,7 +81,7 @@ delta_3(5) = 1/12; Theorem 1.4 at t = 1 restates it),
 RT_2(n, K_{2,2,2}, o(n)) = o(n^2)?", the site's question recorded as open in
 2025; the paper proves nothing about K_{2,2,2}).
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: Complex Bollobas-Erdos graphs: for 1 <= l < p, graphs with
   sublinear p-independence number, sparse sides and cross density l/p,

@@ -41,10 +41,9 @@ is identified in the
 [[extremal_graph_theory/fox_2013_chromatic_number_clique_subdivisions_conjectures_hajos/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, the constant, the lower-bound
-sentence and the attribution were read clause by clause on the page image of
-p. 2 on 2026-09-19; the deduction of Theorem 1.1 from Theorem 1.2
-(Section 2, pp. 3--4) was read for structure. The proof of Theorem 1.2
-(Sections 3--4) was not read.
+sentence and the attribution were read clause by clause on the page image of p.
+2; the deduction of Theorem 1.1 from Theorem 1.2 (Section 2, pp. 3--4) was read
+for structure. The proof of Theorem 1.2 (Sections 3--4) was not read.
 
 ## Proof pointer
 

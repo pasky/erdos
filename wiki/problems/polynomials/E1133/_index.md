@@ -124,8 +124,8 @@ of Yang's arXiv preprint; this is a catalog label change, not a formal proof,
 a review or an acceptance, and Yang's claim stays `claimed`. No Lean
 development of either claim is known.
 
-**Search scope (2026-10-07).** The site's problem page, its thread with the
-three posts of 29 April and 13 September 2026, and its proof-claims tab with
+**Search scope.** The site's problem page, its thread (three posts by
+2026-10-07, of 29 April and 13 September 2026), and its proof-claims tab with
 Yang's claim; the community database at teorth/erdosproblems; the
 formal-conjectures file at the pinned commit; the note at ulam.ai through
 its card and Yang's manuscript at its pinned commit.

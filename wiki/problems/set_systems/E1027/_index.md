@@ -71,8 +71,8 @@ of $\mathcal F$, that is, property B, the subject of
 [[problems/set_systems/E0901/_index|Problem 901]]; the question here is the
 counting form.
 
-Search scope, 2026-10-07: the site's page and discussion thread, the community
-database (teorth/erdosproblems), the formal-conjectures catalog and the
-lean-proofs catalog. No other claim on the problem was found. The claim page
-links one third-party Lean proof, which the corpus has not built, so no
-`formalized` evidence is listed.
+Search scope: the site's page and discussion thread, the community database
+(teorth/erdosproblems), the formal-conjectures catalog and the lean-proofs
+catalog; on 2026-10-07 none of them showed another claim on the problem. The
+claim page links one third-party Lean proof, which the corpus has not built,
+so no `formalized` evidence is listed.

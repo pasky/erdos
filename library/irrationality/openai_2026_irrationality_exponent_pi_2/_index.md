@@ -114,9 +114,9 @@ Read status: claims checked for Theorem 1.1, Corollary 1.2 and Corollary 5.2,
 together with the definition of the irrationality exponent and the
 statements of Theorem 2.1 (separated-weight interpolation), Proposition 3.4
 (determinant comparison), Lemma 4.1 (choice of constants) and Lemma 5.1
-(dyadic spacing), read clause by clause on 2026-10-12 in the release's TeX
-source: in `main.tex`, the definition at lines 50--56, `thm:main` at lines
-64--71 with the remark at lines 73--78 and `thm:flinthills` at lines 90--92;
+(dyadic spacing), read clause by clause in the release's TeX source: in
+`main.tex`, the definition at lines 50--56, `thm:main` at lines 64--71 with the
+remark at lines 73--78 and `thm:flinthills` at lines 90--92;
 `geom:interpolation` at lines 24--57 of `sections/interpolation.tex`;
 `det:comparison` at lines 353--370 of `sections/determinant.tex`;
 `par:constants` at lines 9--21 of `sections/conclusion.tex`; and

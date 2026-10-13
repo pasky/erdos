@@ -118,7 +118,7 @@ that $h_3(n)=2n-2$ is not excluded, the problem's question five years before
 the 1967 seminar paper (paged at
 [[extremal_graph_theory/bollobas_1962_grafelmeleti_szelsoertekekre_vonatkozo_problemakrol_extremal_problems/question_p144|question_p144]]).
 
-**Results to transcribe.**
+**Results.**
 
 - k_3 result: With f(2n) = 3n - 1 and f(2n+1) = 3n + 1, k_3(n) = f(n): f(n)
   edges on n vertices force two vertices joined by three pairwise internally

@@ -55,7 +55,7 @@ Science*, technical report, August 6, 2026 version, Chapter 10; Theorem 1.2
 on printed pp. 237--238 (PDF pp. 241--242), Section 6 and Fact 6.1 on
 printed p. 245 (PDF p. 249), the proof of Theorem 1.2 on printed pp. 247--248
 (PDF pp. 251--252); read on the page images (pp. 241, 242, 249, 251) and
-in the text layer (p. 252) on 2026-09-18.
+in the text layer (p. 252).
 
 **Read depth.** Claims checked: the statement, display (3), the layered
 construction and Fact 6.1 were read clause by clause on the page images;

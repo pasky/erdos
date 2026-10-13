@@ -82,10 +82,10 @@ manuscript, and exact values at $n\le7$ settle no part of the asymptotic
 question, so it has no claim page; this corpus has not built or audited the
 development.
 
-Search scope, 2026-10-07: the site's page and discussion thread (one comment,
-no proof claims), the community database (teorth/erdosproblems, which lists
-the problem as open with a formalized statement), the formal-conjectures
-statement file
+Search scope, with the changing sources as they stood on 2026-10-07: the
+site's page and discussion thread (one comment, no proof claims), the
+community database (teorth/erdosproblems, which lists the problem as open with
+a formalized statement), the formal-conjectures statement file
 ([857.lean](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/857.lean),
 which leaves the asymptotic answer as `sorry` and names no formal proof), the
 journal and arXiv records of Naslund and Sawin's paper, and the linked

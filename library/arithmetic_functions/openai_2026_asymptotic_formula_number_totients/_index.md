@@ -59,8 +59,8 @@ issues". The manuscript's own README adds nothing about how it was produced: it
 gives the title, the author "OpenAI", the date September 25, 2026 and the
 citation block above. The PDF title page names "OpenAI" as author and prints no
 further statement on the method of production. No refereed publication, no
-arXiv version and no independent review of the manuscript is recorded here as
-of the read date, and nothing on this card is independently reviewed.
+arXiv version and no independent review of the manuscript is recorded here, and
+nothing on this card is independently reviewed.
 
 Formalization, as the release lists it: the release's Lean catalogue file
 `lean/formalization.yaml` does not name this manuscript, but the release's own
@@ -105,8 +105,8 @@ Read status: claims checked for Theorem 2.1, Theorem 2.2, Corollary 6.2 and
 Remark 7.4, read clause by clause in the TeX source (`statements.tex` lines
 45--63 and 176--192, `limits.tex` lines 103--108, `companion.tex` lines
 310--323, with the definitions of the scale and the coefficient in
-`statements.tex` lines 6--165) on 2026-10-07; the proofs were read for their
-structure only and no step was checked; nothing here is independently reviewed.
+`statements.tex` lines 6--165); the proofs were read for their structure only
+and no step was checked; nothing here is independently reviewed.
 
 ## Contents
 

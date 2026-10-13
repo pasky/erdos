@@ -73,7 +73,7 @@ A lower bound only; the problem asks for the asymptotic formula, and the
 problem page records the earlier and later constants. The guess
 R(3,t) ~ t^2/4 log t of p. 73 is a guess, not a result.
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/bohman_2021_dynamic_concentration_triangle_free_process/theorem_1_1|Theorem 1.1]]
   (p. 2): Whp every vertex of the final triangle-free process graph has

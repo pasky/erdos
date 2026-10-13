@@ -62,9 +62,8 @@ Read status: claims checked for the definitions and the statement of purpose
 (p. 167), Theorem 1 and Theorem 2 with the definition of $f_r(n)$ and the
 remark attributed to Erdős (p. 168), the examples for Theorem 1 and footnote
 1 (p. 169) and the Lemma (3) (p. 170), each read clause by clause on the
-page images on 2026-09-18; the proofs of Theorems 1 and 2 (pp. 168--170)
-were read for their structure and not checked; nothing here is independently
-reviewed.
+page images; the proofs of Theorems 1 and 2 (pp. 168--170) were read for their
+structure and not checked; nothing here is independently reviewed.
 
 ## Contents
 

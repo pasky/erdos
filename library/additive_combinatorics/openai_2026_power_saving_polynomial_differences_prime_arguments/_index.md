@@ -134,14 +134,13 @@ Read status: claims checked for Theorem 1.1, together with the definition of
 a prime-intersective polynomial and the remark after the theorem, and for
 the statements of Theorem 5.1 (the zero-free input), Proposition 5.2 (primes
 in residue classes) and Proposition 7.5 (uniform power decay), read clause by
-clause in the release's TeX source on 2026-10-12
-(`build/sections/introduction.tex`, label `thm:main` at lines 19--29, the
-definition at lines 10--17 and the remark at lines 31--34;
-`build/sections/primes.tex`, labels `thm:zero-free-input` at lines 27--34 and
-`prop:prime-progressions` at lines 36--47; `build/sections/descent.tex`,
-label `prop:uniform-descent` at lines 414--420); the proofs were read for
-their structure only and no step was checked; nothing here is independently
-reviewed.
+clause in the release's TeX source (`build/sections/introduction.tex`, label
+`thm:main` at lines 19--29, the definition at lines 10--17 and the remark at
+lines 31--34; `build/sections/primes.tex`, labels `thm:zero-free-input` at lines
+27--34 and `prop:prime-progressions` at lines 36--47;
+`build/sections/descent.tex`, label `prop:uniform-descent` at lines 414--420);
+the proofs were read for their structure only and no step was checked; nothing
+here is independently reviewed.
 
 ## Contents
 

@@ -39,8 +39,8 @@ Factors*, release folder
 `preprints/Prime-Predecessors-with-an-Even-Number-of-Prime-Factors-September-17-2026`;
 TeX file `build/main.tex`, label `thm:main` (lines 53--57; the abstract at
 lines 40--44), PDF p. 1; the proof closes in
-`build/sections/07-extraction.tex` (lines 645--668, PDF pp. 44--45). Read
-2026-10-12. Provenance and attestations are on
+`build/sections/07-extraction.tex` (lines 645--668, PDF pp. 44--45). Provenance
+and attestations are on
 [[arithmetic_functions/openai_2026_prime_predecessors_even_number_prime_factors/_index|the card]].
 
 **Read depth.** Claims checked: the statement, the abstract's equivalent

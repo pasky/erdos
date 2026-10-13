@@ -53,13 +53,12 @@ and on the result pages is a preprint page. Result pages:
 [[extremal_graph_theory/chen_2025_problem_erdos_hajnal_paths_equal_degree/theorem_13|theorem_13]] (p. 14).
 
 Read status: claims checked for Problem 1 (p. 1), Theorem 2, the two
-remarks after it and Theorem 3 (p. 2), read clause by clause on the page
-images on 2026-09-18, and for Definition 1, Theorems 12 and 13, Conjecture
-14 and Problem 15 (pp. 13--15, text layer, then on the page images on
-2026-10-08); the proof of Theorem 2 (Section 2, pp. 2--11) and the proof of
-Theorem 3 (Section 3, pp. 11--12) were read for their structure only, and
-the proofs of Theorems 12 and 13 (pp. 13--14) were read but not checked step
-by step.
+remarks after it and Theorem 3 (p. 2), read clause by clause on the page images,
+and for Definition 1, Theorems 12 and 13, Conjecture 14 and Problem 15 (pp.
+13--15, text layer, then on the page images); the proof of Theorem 2 (Section 2,
+pp. 2--11) and the proof of Theorem 3 (Section 3, pp. 11--12) were read for
+their structure only, and the proofs of Theorems 12 and 13 (pp. 13--14) were
+read but not checked step by step.
 
 The paper addresses the problem of Erdős and Hajnal from Erdős's Kalamazoo
 paper of 1991 (Problem 1, p. 1, quoted as "Is it true that every

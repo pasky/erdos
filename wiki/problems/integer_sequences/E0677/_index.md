@@ -108,13 +108,13 @@ Bloom, Erdős Problem #677, https://www.erdosproblems.com/677, accessed
 
 **Formalization.** Statement only here. The file
 [`ErdosProblems/677.lean`](https://github.com/google-deepmind/formal-conjectures/blob/fe0601160638ba1feedc32858970070c326b7534/FormalConjectures/ErdosProblems/677.lean)
-of formal-conjectures,(the commit the link pins), declares `erdos_677 : ∀ (m n k
+of formal-conjectures (the commit the link pins) declares `erdos_677 : ∀ (m n k
 : ℕ), k > 0 → m ≥ n + k → lcmInterval m k ≠ lcmInterval n k` under `category
 research open` with proof `sorry`, and checks the two known solutions of the
 general equation as `lcmInterval_eq_example1 : lcmInterval 4 3 = lcmInterval 13
 2 ∧ lcmInterval 3 4 = lcmInterval 19 2` by `decide` under `category test`; a
 comment says the other statements of the source remain to be added. The
-community database, records the problem open (last changed 31 August 2025), the
+community database records the problem open (last changed 31 August 2025), the
 statement formalized since 2 December 2025, `formal_status` unformalized, no
 formal proof and OEIS "possible". Nothing was built.
 

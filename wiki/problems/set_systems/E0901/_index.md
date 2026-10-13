@@ -97,10 +97,10 @@ recorded in Erdős's 1963 paper, and $m(4)=23$ is Östergård's
 [[problems/set_systems/E0901/claims/2014_01_01_ostergard|computer-assisted determination of 2014]],
 which the site lists without a source. No value with $n\ge5$ is known.
 
-Search scope, 2026-10-06: the site's problem page (OPEN, last edited 28
-December 2025, no proof claims) and its one-comment discussion thread (21
-December 2025, pointing to [ErLo75]); the community database lists the
-problem as open and unformalized as of its last update; the
+Search scope, with the sources as they stood on 2026-10-06: the site's problem
+page (OPEN, last edited 28 December 2025, no proof claims) and its one-comment
+discussion thread (21 December 2025, pointing to [ErLo75]); the community
+database lists the problem as open and unformalized as of its last update; the
 formal-conjectures statement file is linked above.
 <!-- BEGIN problem library links -->
 

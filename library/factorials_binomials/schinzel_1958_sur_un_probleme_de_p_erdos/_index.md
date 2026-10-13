@@ -62,7 +62,7 @@ Source: <https://matwbn.icm.edu.pl/ksiazki/cm/cm5/cm5128.pdf>.
 
 **Bears on.** [[../wiki/problems/factorials_binomials/E0387/_index|#387]]
 
-**Results to transcribe.**
+**Results.**
 
 - Counterexample k=15, n=99215: H_{k,n} fails for k = 15, n = 99215: no n-i with
   0 <= i < 15 divides (99215 choose 15), answering negatively Erdos's

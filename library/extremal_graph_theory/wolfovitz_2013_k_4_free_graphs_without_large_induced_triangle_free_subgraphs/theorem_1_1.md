@@ -71,11 +71,11 @@ identified in the
 
 **Read depth.** Claims checked: the two definitions, Theorem 1.1, Theorem
 1.2, the consequence and the remark were read clause by clause on the page
-images of PDF pp. 1--2 on 2026-09-22; the derivation of Theorem 1.1 from
-Theorem 1.2 (one paragraph, p. 624) was read in full on the page image and
-followed. The proof of Theorem 1.2 (pp. 624--630: the outline, Lemmas 2.1,
-2.3 and 2.4 and Lemma 3.1) was read in the text layer for structure only,
-and no estimate was checked. Nothing here is independently reviewed.
+images of PDF pp. 1--2; the derivation of Theorem 1.1 from Theorem 1.2 (one
+paragraph, p. 624) was read in full on the page image and followed. The proof of
+Theorem 1.2 (pp. 624--630: the outline, Lemmas 2.1, 2.3 and 2.4 and Lemma 3.1)
+was read in the text layer for structure only, and no estimate was checked.
+Nothing here is independently reviewed.
 
 ## Proof pointer
 

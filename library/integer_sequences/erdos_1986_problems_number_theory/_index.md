@@ -87,7 +87,7 @@ at least $(3-\epsilon)p_u-1$, and the weaker theorem of p. 62 gives
 $F_K\ge\sqrt{6u}$ for $K\ge3p_u+1$ (deductions made on the result pages;
 the problem page cites this paper for the range $2<\alpha<3$ only).
 
-**Results to transcribe.**
+**Results.**
 
 - [[integer_sequences/erdos_1986_problems_number_theory/theorem_p60|Erdős–Selfridge theorem]]
   (stated p. 60, proved pp. 60-62): For every ε>0 and k there is a set of k^2

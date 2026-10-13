@@ -15,7 +15,8 @@ updated: 2026-10-05T05:52:35Z
 ***
 
 Christian Hercher, On the Sum of Squarefree Integers and a Power of Two.
-arXiv:2411.01964 (2024). The arXiv record (https://arxiv.org/abs/2411.01964,
+arXiv:2411.01964 (2024). The held PDF is arXiv:2411.01964v1 (4 November 2024).
+The arXiv record (https://arxiv.org/abs/2411.01964,
 read 2026-10-02) names the Creative Commons Attribution 4.0 license.
 
 Erdos conjectured that every odd n > 1 is the sum of a squarefree number and a
@@ -39,7 +40,7 @@ Source: <https://arxiv.org/abs/2411.01964>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0011/_index|#11]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 5: For every odd 1 < n < 2^50 there exist a squarefree positive
   integer s and an integer 1 <= k <= 13 with n = s + 2^k.

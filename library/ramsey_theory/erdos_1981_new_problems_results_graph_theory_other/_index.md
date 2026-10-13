@@ -38,11 +38,10 @@ other right reserved.
 Read status: claims checked for items (1), (3), (5), (11), (15), (16) and
 (17) and the Rosta--Faudree--Schelp sentence on p. 13 (read clause by clause
 on the page images); nothing in the survey is proved, so there is no proof
-to check. Read again on the page images on 2026-09-18: items (3)--(5) on
-p. 10 (PDF p. 2), the whole of p. 11 (PDF p. 3: (6), (6'), (7)--(10) and the
-closing sentence on $r(n,3)$), the constructive offer and items (12)--(13) on
-p. 12 (PDF p. 4), (14) on p. 13 (PDF p. 5) and (17) on p. 14 (PDF p. 6),
-each clause by clause.
+to check. Read again on the page images: items (3)--(5) on p. 10 (PDF p. 2), the
+whole of p. 11 (PDF p. 3: (6), (6'), (7)--(10) and the closing sentence on
+$r(n,3)$), the constructive offer and items (12)--(13) on p. 12 (PDF p. 4), (14)
+on p. 13 (PDF p. 5) and (17) on p. 14 (PDF p. 6), each clause by clause.
 
 A problem survey with no numbered theorems. Section 1 collects what was then
 known about Ramsey numbers: p. 10 attributes to Schur the bound
@@ -182,7 +181,7 @@ true and (16') to be false." The problem's statement in its 1981 form, with
 the expectation, recorded nowhere on the site, that the cube inequality
 fails.
 
-**Results to transcribe.**
+**Results.**
 
 - Ramsey bounds (3), p. 10: $c_1n^{1/2}2^{n/2}<r(n,n)<c_2\binom n{[n/2]}
   \log\log n/\log n$, the bracket denoting the integer part and the upper bound

@@ -55,11 +55,11 @@ artifact is identified in the
 
 **Read depth.** Claims checked: the statement, the recalled Theorem 3, the
 paragraph placing the values and the summary of known values were read
-clause by clause on the page image of PDF p. 2 on 2026-09-22; the ranges of
-$t$ and the definition of $H_t$ in the proof (p. 659) were read on the page
-image of PDF p. 5. The proof (pp. 658--660) and the construction and
-Lemmas 1--4 of § 2 (pp. 656--658) were read in the text layer for structure
-only and not checked. Nothing here is independently reviewed.
+clause by clause on the page image of PDF p. 2; the ranges of $t$ and the
+definition of $H_t$ in the proof (p. 659) were read on the page image of PDF
+p. 5. The proof (pp. 658--660) and the construction and Lemmas 1--4 of § 2 (pp.
+656--658) were read in the text layer for structure only and not checked.
+Nothing here is independently reviewed.
 
 ## Proof pointer
 

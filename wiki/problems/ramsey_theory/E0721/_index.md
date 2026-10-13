@@ -146,7 +146,7 @@ https://www.erdosproblems.com/721, accessed 2026-09-18.
 **Formalization.** None: the directory `FormalConjectures/ErdosProblems/`
 of formal-conjectures, at the head of `main` on 2026-09-18, has no
 `721.lean`; the site page shows "Formalised statement? No"; the community
-database, records the problem solved (last changed 31
+database records the problem solved (last changed 31
 August 2025), not formalized, OEIS A171081 and no formal proof.
 
 ## Current assessment

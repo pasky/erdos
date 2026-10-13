@@ -41,9 +41,9 @@ procedure for colouring graphs of bounded local density*, Adv. Comb. 2022:7,
 text, page image. The artifact is identified in the
 [[extremal_graph_theory/hurley_2022_improved_procedure_colouring_graphs_bounded_local_density/_index|source digest]].
 
-**Read depth.** Claims checked: the passage was read clause by clause on
-the page image on 2026-09-19. It states a conjecture and proves nothing;
-the references [14], [11] and [7] were not followed.
+**Read depth.** Claims checked: the passage was read clause by clause on the
+page image. It states a conjecture and proves nothing; the references [14], [11]
+and [7] were not followed.
 
 ## Proof pointer
 

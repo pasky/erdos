@@ -84,7 +84,7 @@ Result pages:
 [[../wiki/problems/unit_fractions/E0148/_index|#148]] (inequality (1.2), v(k) <= k F(k) + 2,
 and the form of the upper bound on F(k))
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: There is an absolute c > 0 with v(k) >= e^{c k^2} for all
   positive integers k, the first known lower bound on the smallest denominator

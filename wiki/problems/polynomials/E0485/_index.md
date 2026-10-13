@@ -97,10 +97,9 @@ proves that the minimum tends to infinity; the claim page links it at its
 pinned commit. Nothing was built or audited here, and no `formalized`
 evidence is claimed.
 
-**Search scope (2026-10-07).** The site's page and thread, the
-formal-conjectures file and the lean-proofs file; statements and dates from
-the papers (Erdős 1949, Theorem; Schinzel 1987, Theorem 1; Schinzel and
-Zannier 2009, Theorem 1).
+**Search scope.** The site's page and thread, the formal-conjectures file and
+the lean-proofs file; statements and dates from the papers (Erdős 1949,
+Theorem; Schinzel 1987, Theorem 1; Schinzel and Zannier 2009, Theorem 1).
 
 ## Progress
 

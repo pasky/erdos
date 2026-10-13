@@ -50,10 +50,10 @@ The copy read for this card is the publisher's scan of the five journal pages
 (head "PROCEEDINGS OF THE AMERICAN MATHEMATICAL SOCIETY, Volume 72, Number 2,
 November 1978"; PDF p. $n$ is printed p. $416+n$) with an OCR text layer in
 which formulas are partly garbled; the statements below were first read in it
-and, on 2026-09-18, re-read on the rendered page images. Provenance:
-downloaded in September 2026; the download URL was not recorded. 406,575
-bytes. The file prints "© American Mathematical Society 1978" on its first
-page, every other right reserved.
+and then re-read on the rendered page images. Provenance: downloaded in
+September 2026; the download URL was not recorded. 406,575 bytes. The file
+prints "© American Mathematical Society 1978" on its first page, every other
+right reserved.
 
 Read status: claims checked for Corollaries 3 and 4 (p. 419, with the
 one-sentence proof of Corollary 4 on p. 420), Theorem 1 (p. 418), Theorem 2

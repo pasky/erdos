@@ -69,10 +69,10 @@ in the
 
 **Read depth.** Claims checked: both statements, the König remark, the
 almost-regular consequence and the concluding remarks were read clause by
-clause on the page images on 2026-09-22. The proof (pp. 42--46) was read in
-full on the page images: the construction and the shape of the estimate were
-followed as summarized below, and none of the displayed inequalities
-(4)--(8) was checked. Nothing here is independently reviewed.
+clause on the page images. The proof (pp. 42--46) was read in full on the page
+images: the construction and the shape of the estimate were followed as
+summarized below, and none of the displayed inequalities (4)--(8) was checked.
+Nothing here is independently reviewed.
 
 ## Proof pointer
 

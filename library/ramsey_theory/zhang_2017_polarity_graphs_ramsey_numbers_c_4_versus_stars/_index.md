@@ -81,12 +81,12 @@ Read status: claims checked for the abstract, the notation, the class
 $\mathbb G_n$ and Theorem 1 (p. 655), Table 1, Theorems 2--4 with the
 paragraph between Theorems 3 and 4, the summary of known values, Question 1
 and Conjecture 1 (p. 656), each read clause by clause on the page images of
-PDF pp. 1--2 on 2026-09-22; the ranges of $t$ and the definition of $H_t$ in
-the proof of Theorem 4 (p. 659) were read on the page image of PDF p. 5.
-The construction of $G_q$ and Lemmas 1--4 of § 2 (pp. 656--658), Claims 1--4
-and the rest of the proof of Theorem 4 (pp. 658--660), the acknowledgments
-and the references (p. 660) were read in the text layer for structure only;
-none of the arguments was checked. Nothing here is independently reviewed.
+PDF pp. 1--2; the ranges of $t$ and the definition of $H_t$ in the proof of
+Theorem 4 (p. 659) were read on the page image of PDF p. 5. The construction of
+$G_q$ and Lemmas 1--4 of § 2 (pp. 656--658), Claims 1--4 and the rest of the
+proof of Theorem 4 (pp. 658--660), the acknowledgments and the references
+(p. 660) were read in the text layer for structure only; none of the arguments
+was checked. Nothing here is independently reviewed.
 
 ## Contents
 

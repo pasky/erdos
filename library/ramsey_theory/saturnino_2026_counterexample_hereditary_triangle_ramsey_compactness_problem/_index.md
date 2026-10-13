@@ -102,11 +102,10 @@ the author revised the note (this version) and later linked a Lean project that,
 in the author's words, formalizes the compactness and diagonal part of the
 ordinary-subgraph counterexample and leaves the finite avoidance principle
 and the block-sequence existence lemma as explicit `sorry`s, its initial
-draft produced with the same system. No refereed publication, arXiv version,
-independent mathematical review or complete formalization was found on
-2026-09-18; the Lean project was not fetched or built here. For Problem 638
-the note is a forum-posted, AI-assisted claim of a negative answer to the
-hereditary reading: a lead with this provenance, not a source of status.
+draft produced with the same system. The Lean project was not fetched or built
+here. For Problem 638 the note is a forum-posted, AI-assisted claim of a
+negative answer to the hereditary reading: a lead with this provenance, not a
+source of status.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0638/_index|#638]]:
 [[ramsey_theory/saturnino_2026_counterexample_hereditary_triangle_ramsey_compactness_problem/main_theorem_1|Main Theorem 1]] (Propositions 14 and 18) states, as an

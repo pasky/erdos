@@ -80,7 +80,7 @@ for all large $n$, where the site writes a single set with exponent
 $1/2+o(1)$; the paper's sum-free condition ($A\cap\mathcal P'(A)=\emptyset$,
 no element a sum of two or more distinct other elements) is the problem's.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 2: If A(n) > 402 sqrt(n log n) for large n, then P(A) contains {d',
   2d', 3d', ...} for some d'.

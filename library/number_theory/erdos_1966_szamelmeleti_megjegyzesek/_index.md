@@ -77,7 +77,7 @@ distinct subset products announced as proved, with its proof sketch
 pi(n^{1/2}) + o(n^{1/2}/log n), which Erdős calls not impossible but says
 he cannot decide (display (13), p. 140).
 
-**Results to transcribe.**
+**Results.**
 
 - Section I.9: For the AP sign-discrepancy G(n) = min_phi max_{a,d,m}
   |sum_{k<=m} phi(a+kd)|, Erdős proves G(n) < C n^{1/2} for suitable large C by

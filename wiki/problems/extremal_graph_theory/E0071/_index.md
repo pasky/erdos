@@ -116,13 +116,12 @@ formalization link on the argument's claim page and not a claim of its own; this
 corpus has not built or audited it, and no outside review of its statement is
 published. It adds no acceptance evidence to the refereed one.
 
-**Search scope (2026-10-07 UTC).** The site's problem page, thread and
-proof-claim tab; the community database (2026-10-06); the
-formal-conjectures file at `main`; the erdos-lean catalog entry, file
-header, closing lines and history for Problem 71; the Crossref record of
-[Bo77]; the scan of [Bo77] linked from the thread; the library digest of
-[Er82e]. Not searched: MathSciNet, zbMATH, Google Scholar, X; the later
-literature on the best constant $c(P)$ was not surveyed.
+**Search scope.** The site's problem page, thread and proof-claim tab; the
+community database (2026-10-06); the formal-conjectures file at `main`; the
+erdos-lean catalog entry, file header, closing lines and history for Problem
+71; the Crossref record of [Bo77]; the scan of [Bo77] linked from the thread;
+the library digest of [Er82e]. Not searched: MathSciNet, zbMATH, Google
+Scholar, X; the later literature on the best constant $c(P)$ was not surveyed.
 
 **Remaining gaps.** (1) [Bo77] is not held; the publisher's online copy is
 incomplete, so its statement rests on a forum user's scan. (2) The

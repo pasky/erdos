@@ -94,12 +94,11 @@ the Hajnal--Szemerédi and Chvátal remarks and Theorem 3 (p. 166), equation
 (5), the two-color remark and Theorem 4 (p. 167), (6$'$) and the
 Concluding Remarks with (7)--(10) (p. 168), and the cyclotomy limit and
 conjecture (11) (p. 169), each read clause by clause on the page images of
-PDF pp. 1 and 3--6 on 2026-09-22. The proofs of Theorem 1 (pp. 165--166),
-Theorem 3 (p. 167) and Theorem 4 (pp. 167--168) were read in full on the
-page images and their steps were followed. The paper prints no proofs of
-Theorem 1$'$, Theorem 2, Corollary 1, equation (5) or the p. 169 limit; the
-last two are referred to the dissertation [5]. Nothing here is
-independently reviewed.
+PDF pp. 1 and 3--6. The proofs of Theorem 1 (pp. 165--166), Theorem 3 (p. 167)
+and Theorem 4 (pp. 167--168) were read in full on the page images and their
+steps were followed. The paper prints no proofs of Theorem 1$'$, Theorem 2,
+Corollary 1, equation (5) or the p. 169 limit; the last two are referred to the
+dissertation [5]. Nothing here is independently reviewed.
 
 ## Contents
 

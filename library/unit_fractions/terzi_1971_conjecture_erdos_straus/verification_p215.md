@@ -59,16 +59,15 @@ the displayed formulas. The artifact is identified in the
 [[unit_fractions/terzi_1971_conjecture_erdos_straus/_index|source digest]].
 
 **Read depth.** Claims checked: the passage was read clause by clause and
-Table 3 digit by digit on the page image on 2026-09-22. This is an author's
-report of a completed computation with no theorem label: the second
-algorithm is stated in one paragraph and was not reconstructed, the
-computation was not rerun, and the paper prints no record of its run beyond
-Table 3 and the value of $K$. Filing observations, not review verdicts
-(checked here): the seven $n$ are primes and lie in the classes of
-Table 2; the rows for $10330321$, $17330329$, $21021001$, $99822529$ and
-$99949441$ satisfy (2), and the printed formula gives three distinct unit
-fractions summing to $4/n$ (the formula gives $4/n$ whenever (2) holds,
-since $1/x+1/y+1/z=(n+c)/(nab(cd-b))$); the row for $34954921$ satisfies
+Table 3 digit by digit on the page image. This is an author's report of a
+completed computation with no theorem label: the second algorithm is stated in
+one paragraph and was not reconstructed, the computation was not rerun, and the
+paper prints no record of its run beyond Table 3 and the value of $K$. Filing
+observations, not review verdicts (checked here): the seven $n$ are primes and
+lie in the classes of Table 2; the rows for $10330321$, $17330329$, $21021001$,
+$99822529$ and $99949441$ satisfy (2), and the printed formula gives three
+distinct unit fractions summing to $4/n$ (the formula gives $4/n$ whenever (2)
+holds, since $1/x+1/y+1/z=(n+c)/(nab(cd-b))$); the row for $34954921$ satisfies
 (2) with $a=118091$ in place of the printed $1118091$, a one-digit
 misprint; the row for $43950481$ satisfies neither (2) nor (3) as printed,
 and no change of one printed entry repairs it (searched over $b\le12$,

@@ -23,11 +23,10 @@ The copy read for this card is the arXiv preprint, arXiv:1507.00547v2
 (11 February 2016; 21 pages with the preprint's own pagination), not the
 journal text, which was not compared; locators below are
 pages of the preprint. Read status: claims checked for Theorem 3.1, Lemma
-3.2 and Theorem 3.3 (Section 3, p. 4), read clause by clause on the page
-image on 2026-09-18, and the half-page proof of Theorem 3.1 (p. 4) read for
-structure; Theorem 4.1 and Corollary 4.2 (Section 4, p. 7) were read on the
-page image on 2026-09-22; the rest of the paper is recorded from an earlier
-digest and was not re-read here.
+3.2 and Theorem 3.3 (Section 3, p. 4), read clause by clause on the page image,
+and the half-page proof of Theorem 3.1 (p. 4) read for structure; Theorem 4.1
+and Corollary 4.2 (Section 4, p. 7) were read on the page image; the rest of the
+paper is recorded from an earlier digest and was not re-read here.
 
 The paper gathers short proofs of results across extremal graph theory and
 Ramsey theory. Section 2 concerns the Erdos-Hajnal set-mapping function
@@ -85,7 +84,7 @@ number at most $2^{\Delta+6}n$, so the $d$-cube satisfies
 $r(Q_d)\le2^{2d+6}$, the $O(2^{2n})$ bound that stood before Tikhomirov's;
 the same page records Fox and Sudakov's earlier $r(Q_d)\le d2^{2d+5}$.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 2.1: For m = n^k there is a set mapping on k-sets with l = k!
   (modifiable to (k-1)!) whose largest independent set has order at most k^2

@@ -51,7 +51,7 @@ layer.
 introduction's account of the earlier bounds were read clause by clause in
 the text layer. The proof (Section 6, pp. 31--33) was not checked; its
 reduction to Theorem 6.1 and the inputs it names were read on the page
-images of pp. 31--32 on 2026-10-07 for the proof pointer.
+images of pp. 31--32 for the proof pointer.
 
 ## Proof pointer
 

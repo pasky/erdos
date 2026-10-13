@@ -132,10 +132,10 @@ literature found by the thread's searches concerns the stronger divisibility
 $a!\,b!\mid n!$ and small constants only, and the authors of [EGRS75] left
 the question as a remark without a conjecture.
 
-Search scope, 2026-10-07: the site's problem page, its discussion thread (87
-comments), the community database, the formal-conjectures file and Alexeev's
-repository. The site lists no proof claim for the problem, and the forum
-carries no claim beyond those recorded on the claim pages.
+Search scope: the site's problem page, its discussion thread, the community
+database, the formal-conjectures file and Alexeev's repository. On 2026-10-07
+the thread held 87 comments, the site listed no proof claim for the problem,
+and the forum carried no claim beyond those recorded on the claim pages.
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -146,5 +146,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/factorials_binomials/erdos_1975_prime_factors/_index|erdos_1975_prime_factors]]
 - [[../library/factorials_binomials/erdos_1975_prime_factors/question_p91_factorial_divisibility|erdos_1975_prime_factors / question_p91_factorial_divisibility]]
 - [[../library/factorials_binomials/sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle/_index|sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle]]
+- [[../library/factorials_binomials/sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle/theorem_1|sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle / theorem_1]]
+- [[../library/factorials_binomials/sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle/theorem_2|sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle / theorem_2]]
 
 <!-- END problem library links -->

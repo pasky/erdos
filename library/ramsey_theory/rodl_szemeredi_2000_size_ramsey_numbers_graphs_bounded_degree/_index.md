@@ -66,12 +66,12 @@ Ramsey number and the recalled results (p. 257), Beck's Problem, Theorem 1
 and the constants fixed at the start of its proof (p. 258), the definition
 of $G$, the bound (3) and the Fact (p. 259), and the Concluding Remark
 (p. 261), each read clause by clause on the page images of PDF pp. 1, 2, 3
-and 5 on 2026-09-22. The proof of Theorem 1 (pp. 258--261) was read in full
-on the page images of PDF pp. 2--5 for its structure, the construction, the
-counting of automorphism types, the definition of "can see" and the coloring
-argument were followed, and none of the estimates was checked; the reference
-list and the addresses (pp. 261--262) were read on the page images of PDF
-pp. 5--6. Nothing here is independently reviewed.
+and 5. The proof of Theorem 1 (pp. 258--261) was read in full on the page images
+of PDF pp. 2--5 for its structure, the construction, the counting of
+automorphism types, the definition of "can see" and the coloring argument were
+followed, and none of the estimates was checked; the reference list and the
+addresses (pp. 261--262) were read on the page images of PDF pp. 5--6. Nothing
+here is independently reviewed.
 
 ## Contents
 

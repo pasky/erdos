@@ -85,7 +85,7 @@ $l(n)\geq n^{1-o(1)}$"; the paper does not prove it. The
 [[additive_combinatorics/choi_1975_sum_free_subsequences/lemma|Lemma]]
 (p. 307) enters only through the proof of the upper bound.
 
-**Results to transcribe.**
+**Results.**
 
 - [[additive_combinatorics/choi_1975_sum_free_subsequences/theorem|Theorem]]
   (printed p. 307, display (1.1)): (n log n / log log n)^{1/2} << f(n) << n (log

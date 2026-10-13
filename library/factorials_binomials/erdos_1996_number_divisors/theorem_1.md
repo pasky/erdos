@@ -50,9 +50,8 @@ $\log d(m)\le\log2\,\log m/\log\log m+O(\log m/(\log\log m)^2)$ for all $m$
 (display (1), p. 1).
 
 **Read depth.** Claims checked: the statement, display (3) and the value of
-$c_0$ were read clause by clause on the page images on 2026-10-08; the proof
-on pp. 2--3 was read for structure only. Nothing here is independently
-reviewed.
+$c_0$ were read clause by clause on the page images; the proof on pp. 2--3 was
+read for structure only. Nothing here is independently reviewed.
 
 ## Proof sketch
 

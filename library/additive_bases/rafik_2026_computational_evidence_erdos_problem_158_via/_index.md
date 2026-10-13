@@ -45,7 +45,7 @@ Source: <https://doi.org/10.5281/zenodo.18452185>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]
 
-**Results to transcribe.**
+**Results.**
 
 - Definition 1: The classic greedy B_2[2] sequence: A_1 = {1}, and a_{k+1} is
   the least x > a_k keeping the set B_2[2].

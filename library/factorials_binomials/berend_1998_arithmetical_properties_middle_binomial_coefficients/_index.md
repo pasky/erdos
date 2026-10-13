@@ -57,7 +57,7 @@ Source:
 
 **Bears on.** [[../wiki/problems/factorials_binomials/E0376/_index|#376]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For every odd prime power p^e and every residue class s mod p^e
   there are infinitely many n with C(2n,n) in p^e Z + s; equivalently (C(2n,n))

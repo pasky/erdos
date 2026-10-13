@@ -44,9 +44,8 @@ authors' manuscript described in the
 [[extremal_graph_theory/bollobas_2002_better_bounds_max_cut/_index|source digest]];
 the deduction from Theorem 8 is on pp. 30-31.
 
-**Read depth.** Claims checked: statement read clause by clause on the
-page images on 2026-10-08; the deduction on pp. 30-31 was read and
-followed.
+**Read depth.** Claims checked: statement read clause by clause on the page
+images; the deduction on pp. 30-31 was read and followed.
 
 ## Proof pointer
 

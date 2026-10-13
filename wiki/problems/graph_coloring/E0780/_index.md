@@ -61,8 +61,9 @@ by the site's curator. The case $k=2$ has its own accepted partial page,
 [[problems/graph_coloring/E0780/claims/1978_11_01_lovasz|Lovász 1978]], a
 refereed paper credited by the curator, on which the general proof rests.
 
-**Search scope.** 2026-10-07: the site's problem page, its discussion thread
-and its proof-claims list. No other claim on the problem was found.
+**Search scope.** The site's problem page, its discussion thread and its
+proof-claims list; on 2026-10-07 none of them showed another claim on the
+problem.
 
 <!-- BEGIN problem library links -->
 

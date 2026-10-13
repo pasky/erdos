@@ -51,9 +51,9 @@ pp. 250--251 (PDF pp. 2--3), the remarks after it on p. 251 and its proof,
 [[additive_combinatorics/erdos_sarkozy_1992_arithmetic_progressions_subset_sums/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the remarks after it were
-read clause by clause on the page images on 2026-10-08. The proof
-(pp. 256--258) was read on the page images and its outline followed, not
-checked step by step. Nothing here is independently reviewed.
+read clause by clause on the page images. The proof (pp. 256--258) was read on
+the page images and its outline followed, not checked step by step. Nothing here
+is independently reviewed.
 
 ## Proof pointer
 

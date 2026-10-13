@@ -57,10 +57,10 @@ https://www.erdosproblems.com/657.
 
 ## Current assessment
 
-A literature check on 6 September 2026 covered the local-distance,
-progression-free, and lattice-box sources discussed below and searched for
-later resolutions of the no-isosceles planar question. No exact-target
-resolution was located; this bounded search does not itself prove openness.
+A literature check covered the local-distance, progression-free, and
+lattice-box sources discussed below and searched for later resolutions of the
+no-isosceles planar question. It had located no exact-target resolution on 6
+September 2026; this bounded search does not itself prove openness.
 
 The site's commentary also records Straus's observation that for $2^k\ge n$
 there are $n$ points in $\mathbb R^k$ with no isosceles triangle and at most

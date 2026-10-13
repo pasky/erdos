@@ -42,8 +42,8 @@ folder `preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026`;
 TeX file `build/main.tex`, label `thm:flinthills` (lines 90--92), PDF p. 1,
 with the series defined at lines 80--88; Lemma 5.1 is `series:dyadic` in
 `build/sections/series.tex` (lines 11--21, PDF p. 19); the proof of the
-corollary is at lines 47--91 of that file and closes on PDF p. 20. Read
-2026-10-12. Provenance and attestations are on
+corollary is at lines 47--91 of that file and closes on PDF p. 20. Provenance
+and attestations are on
 [[irrationality/openai_2026_irrationality_exponent_pi_2/_index|the card]].
 
 **Read depth.** Claims checked: the corollary, the definition of the series

@@ -73,7 +73,7 @@ Source: <https://math.dartmouth.edu/~carlp/>.
 [[../wiki/problems/arithmetic_functions/E1004/_index|#1004]] (fixed-shift collision bound and
 non-transfer context only).
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: a parametrized family of equal-totient solutions for even shifts.
 - [[arithmetic_functions/graham_1999_solutions_phi_n_phi_n_k/theorem_2|Theorem 2]]: the eventual exceptional-solution bound for each

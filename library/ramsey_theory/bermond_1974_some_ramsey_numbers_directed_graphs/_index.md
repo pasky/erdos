@@ -76,8 +76,8 @@ pp. 313--321 = PDF pp. 1--9 (printed p. $n$ is PDF p. $n-312$), a 2001 scan
 creation date) with an OCR text layer that locates a few passages and
 garbles most of the mathematics and much of the prose (the star of $K_p^*$,
 the letter $\nu$, subscripts, inequality signs and the congruences of the
-constructions are all lost). Provenance: the copy is the publisher's open-archive one, read on
-2026-09-22, free of charge, the DOI
+constructions are all lost). Provenance: the copy is the publisher's
+open-archive one, free of charge, the DOI
 <https://doi.org/10.1016/0012-365X(74)90077-6> resolving to the article's
 PDF on the publisher's platform under its open-archive license; 858,083
 bytes. The scan prints "DISCRETE MATHEMATICS 9 (1974) 313-321. © North-Holland
@@ -93,16 +93,15 @@ Propositions 2.5 and 2.6 (p. 316), Proposition 2.7 and the opening of § 3
 (p. 317), Lemmas 3.1, 3.2 and 3.4 and Remark 3.3 (p. 318), Theorem 3.5,
 Theorem 3.6, Corollary 3.7 and Proposition 3.8 (p. 319), Proposition 3.9,
 the closing conjecture and the note added in proof (p. 320), each read
-clause by clause on the page images of PDF pp. 1--8 on 2026-09-22, the
-passages consumed by Problem 112 (pp. 314--316) on a higher-resolution
-rendering as well; pp. 320--321 (PDF pp. 8--9) were read on the page images
-for the reference list. The proofs of Theorem 2.2, Proposition 2.4 and
-Proposition 2.5 (pp. 314--316, a paragraph each) were read in full on the
-page images and followed, and the two checks that the proof of Proposition
-2.5 leaves to the reader were carried out here by hand, as recorded on its
-page; the proofs of Theorem 2.3 and Propositions 2.6 and 2.7 and all of § 3
-were read on the page images for structure only. Nothing here is
-independently reviewed.
+clause by clause on the page images of PDF pp. 1--8, the passages consumed by
+Problem 112 (pp. 314--316) on a higher-resolution rendering as well; pp.
+320--321 (PDF pp. 8--9) were read on the page images for the reference list. The
+proofs of Theorem 2.2, Proposition 2.4 and Proposition 2.5 (pp. 314--316, a
+paragraph each) were read in full on the page images and followed, and the two
+checks that the proof of Proposition 2.5 leaves to the reader were carried out
+here by hand, as recorded on its page; the proofs of Theorem 2.3 and
+Propositions 2.6 and 2.7 and all of § 3 were read on the page images for
+structure only. Nothing here is independently reviewed.
 
 ## Contents
 

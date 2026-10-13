@@ -95,15 +95,14 @@ critique of Sridharan (pp. 42--43) and the graphs $S_n^k$ (p. 43), the chord
 $A_4^*$ and the excess-5 and excess-6 ranges (p. 44), the definitions of
 $x_k$, $A_k$, $A_k^*$ and $G_k$ (p. 45), the excess table, Theorem 18 and
 the excess-6 argument (p. 46), and the second table, the general recipe and
-Theorem 19 (p. 47), each read clause by clause on the page images of PDF
-pp. 47--49 and 54--59 on 2026-09-22; the copyright page (PDF p. 5) was read
-on the page image for the citation. The nine-vertex argument (p. 38), the
-three-chord table and case analysis (pp. 39--40), the four-chord cycle table
-(p. 41) and the five-chord cycle table (p. 42) were read in the text layer
-for structure only, and none of their cycle lists was checked; the
-seventeen-vertex cycle list (p. 44) was read on the page image but not
-checked. The constructions behind Theorems 18 and 19 were followed at the
-level stated on
+Theorem 19 (p. 47), each read clause by clause on the page images of PDF pp.
+47--49 and 54--59; the copyright page (PDF p. 5) was read on the page image for
+the citation. The nine-vertex argument (p. 38), the three-chord table and case
+analysis (pp. 39--40), the four-chord cycle table (p. 41) and the five-chord
+cycle table (p. 42) were read in the text layer for structure only, and none of
+their cycle lists was checked; the seventeen-vertex cycle list (p. 44) was read
+on the page image but not checked. The constructions behind Theorems 18 and 19
+were followed at the level stated on
 [[extremal_graph_theory/george_khodkar_wallis_2016_minimal_pancyclicity/theorem_19|theorem_19]].
 Chapters 1--3 and 5--8 were not read beyond the table of contents, the
 opening of Chapter 3 (p. 21) and its open problems (p. 34), read in the text
@@ -246,9 +245,8 @@ Nothing here is independently reviewed.
   place of the likewise undefined $A_j$, $j=2^h+h+1$, the listed chords do
   give a pancyclic graph, checked at both ends of the $h=3$ window. Read on
   the page images of PDF pp. 57--59 (printed pp. 45--47) and checked by a
-  short cycle-length computation for the small cases, not retained, on
-  2026-09-22; the $j=21$ and $h=2$ counts were checked the same way, not
-  retained, on 2026-10-07. Paged on
+  short cycle-length computation for the small cases, not retained; the $j=21$
+  and $h=2$ counts were checked the same way, not retained. Paged on
   [[extremal_graph_theory/george_khodkar_wallis_2016_minimal_pancyclicity/theorem_19|theorem_19]].
 
 ## Compiled scope

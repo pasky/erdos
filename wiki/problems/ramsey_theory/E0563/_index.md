@@ -113,7 +113,7 @@ least `m` for which some simple graph on `Fin n` (one color class) has, on
 every vertex set `X` with `m ≤ |X|`, strictly more than `α` times
 $\binom{|X|}2$ edges and strictly fewer than `1 - α` times $\binom{|X|}2$
 edges; that is the site's definition, the other color's share being the
-complement. The community database, records the problem
+complement. The community database records the problem
 open (last changed 31 August 2025), the statement formalized since 9
 September 2026, and no formal proof; the site's formalized-statement
 indicator read yes.

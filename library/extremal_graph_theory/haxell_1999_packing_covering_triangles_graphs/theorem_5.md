@@ -48,11 +48,11 @@ edition read is identified in the
 [[extremal_graph_theory/haxell_1999_packing_covering_triangles_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, the closing remark, the
-definitions of p. 251 and the four lemmas were read clause by clause on the
-page images on 2026-09-22. The proofs of Lemmas 1--4 and the displayed
-combination proving Theorem 5 (pp. 252--254) were read in full on the page
-images and each step was followed; the arithmetic of the combination was
-recomputed. Nothing here is independently reviewed.
+definitions of p. 251 and the four lemmas were read clause by clause on the page
+images. The proofs of Lemmas 1--4 and the displayed combination proving Theorem
+5 (pp. 252--254) were read in full on the page images and each step was
+followed; the arithmetic of the combination was recomputed. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

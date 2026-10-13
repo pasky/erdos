@@ -41,8 +41,8 @@ is identified on the
 [[polynomials/erdos_1958_metric_properties_polynomials/_index|source card]].
 
 **Read depth.** Claims checked: the statement and the paragraph before it
-were read on the page image of p. 136 on 2026-10-08; the proof was read for
-structure, not checked. Nothing here is independently reviewed.
+were read on the page image of p. 136; the proof was read for structure, not
+checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

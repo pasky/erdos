@@ -29,9 +29,9 @@ $$
 **Source.** Liu–Sawhney, arXiv:2404.07113v1, Theorem 1.6,
 p. 3; proof pp. 13–14, with Lemma 4.1 on p. 13 (p. 14 continues with the
 proof of Theorem 1.5 and p. 15 begins Section 5). The statement was read
-clause by clause on the rendered page image on 2026-09-17. The problem
-immediately preceding this theorem is labeled 305 in the source; the
-current repository's matching statement is Problem 294.
+clause by clause on the rendered page image. The problem immediately preceding
+this theorem is labeled 305 in the source; the current repository's matching
+statement is Problem 294.
 
 ## Proof pointer and sketch
 

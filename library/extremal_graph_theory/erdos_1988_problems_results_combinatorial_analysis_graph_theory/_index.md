@@ -75,8 +75,8 @@ question, 934 the Section 1 edge-distance function $h_r(n)$, 151 the Section 3
 Erdős--Gallai clique-transversal question, 167 the Tuza problem of Section 10,
 and 77 the Ramsey material of Section 4 (the digest formerly routed 150 and 151
 to the Section 6 functions f_k(n) and F_k(n) and 934 to the minimal-cut
-question; corrected on the page images on 2026-09-19). Section 6 is also Erdős's
-statement of problem 182 for general k, with the 1988 bounds.
+question; corrected on the page images). Section 6 is also Erdős's statement of
+problem 182 for general k, with the 1988 bounds.
 
 Read status: claims checked for the Section 6 statements (printed p. 85, PDF
 p. 5 of the scan), read clause by clause on the page image; the rest
@@ -87,25 +87,24 @@ the formulas (the exponent $1/n$ and the sign $\sqrt2\le$ are lost), so no
 formula was taken from it. Section 1 (printed p. 81, PDF p. 1), the
 Erdős--Gallai passage of Section 3 (printed p. 82, PDF p. 2) and the Tuza
 problem of Section 10 (printed p. 90, PDF p. 10) were read clause by clause
-on the page images on 2026-09-19 (claims checked; the text layer's "Sn 2 /4"
-and "%r" are OCR for $5n^2/4$ and $\ge r$, and nothing was taken from it).
-The Erdős--Rothschild passage of Section 10 (printed pp. 90--91, PDF pp.
-10--11) was read clause by clause on the page images. Erdős
-writes that he and Rothschild posed the problem a few years earlier: "Assume
-that every edge of a $\mathscr G(n;cn^2)$ is contained in a triangle. Denote
-by $h(n;c)$ the largest integer so that every such graph has an edge which is
-contained in at least $h(n;c)$ triangles." He doubts that $h(n;c)$ is easy to
-determine, or even to estimate well, and lists what is known: for each fixed
-$c>0$, $h(n;c)\to\infty$ as $n\to\infty$ (Szemerédi, from the Regularity
-Lemma); for small $c$, $h(n;c)<c'n^{1/2}$ (Noga Alon); and for $c>\frac14$ a
-linear lower bound $h(n;c)>c_1n$, which he says is easy to see and well
-known. He then states a stronger result, provable "without much difficulty":
-if $e>\frac14n^2-cn$ and each edge of a $G(n;e)$ lies in a triangle, then some
-edge lies in at least $c_1n$ triangles, for a constant $c_1=c_1(c)$ depending
-only on $c$. Its sharpness, he says, comes from adapting Alon's
-construction: for any $f(n)\to\infty$ some $G(n;\frac14n^2-nf(n))$ has every
-edge in a triangle and no edge in more than $o(n)$ triangles. An outline of
-the proof follows (pp. 90--91, using Edwards's constant $c'=\frac16+o(1)$),
+on the page images (claims checked; the text layer's "Sn 2 /4" and "%r" are OCR
+for $5n^2/4$ and $\ge r$, and nothing was taken from it). The Erdős--Rothschild
+passage of Section 10 (printed pp. 90--91, PDF pp. 10--11) was read clause by
+clause on the page images. Erdős writes that he and Rothschild posed the problem
+a few years earlier: "Assume that every edge of a $\mathscr G(n;cn^2)$ is
+contained in a triangle. Denote by $h(n;c)$ the largest integer so that every
+such graph has an edge which is contained in at least $h(n;c)$ triangles." He
+doubts that $h(n;c)$ is easy to determine, or even to estimate well, and lists
+what is known: for each fixed $c>0$, $h(n;c)\to\infty$ as $n\to\infty$
+(Szemerédi, from the Regularity Lemma); for small $c$, $h(n;c)<c'n^{1/2}$ (Noga
+Alon); and for $c>\frac14$ a linear lower bound $h(n;c)>c_1n$, which he says is
+easy to see and well known. He then states a stronger result, provable "without
+much difficulty": if $e>\frac14n^2-cn$ and each edge of a $G(n;e)$ lies in a
+triangle, then some edge lies in at least $c_1n$ triangles, for a constant
+$c_1=c_1(c)$ depending only on $c$. Its sharpness, he says, comes from adapting
+Alon's construction: for any $f(n)\to\infty$ some $G(n;\frac14n^2-nf(n))$ has
+every edge in a triangle and no edge in more than $o(n)$ triangles. An outline
+of the proof follows (pp. 90--91, using Edwards's constant $c'=\frac16+o(1)$),
 and the passage ends by proposing sharper bounds for $h(n;c)$ and a study of
 the regime $c=c_n\to0$.
 
@@ -202,7 +201,7 @@ true that $G$ can be made triangle free by the omission of at most $2k$
 edges?", with $K(4)$ and $K(5)$ showing that $2k$ would be best possible; the
 site's key.
 
-**Results to transcribe.**
+**Results.**
 
 - Strongly independent edges: Conjecture (Erdos-Nesetril): max degree <= n and
   more than 5n^2/4 edges forces two strongly independent edges -- proved by

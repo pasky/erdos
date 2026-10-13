@@ -5,7 +5,7 @@ desc: |
   window for the factorial divisibility a!b! dividing n!(a+b-n)!.
 license: CC-BY-4.0
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-13T14:08:55Z
 ---
 
 # factorials_binomials/sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle
@@ -14,6 +14,15 @@ updated: 2026-10-08T01:29:58Z
 
 [[factorials_binomials/sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle/source_digest|source_digest]]: Records selected statements, formal-source provenance, and verification
 scope for the retained Sothanaphan preprint.
+
+[[factorials_binomials/sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle/theorem_1|theorem_1]]: For fixed 0 < C_1 < C_2 and 0 < epsilon < 1/2 there are infinitely many
+triples (a, b, n) with epsilon n <= a, b <= (1 - epsilon) n,
+a!b! | n!(a+b-n)! and C_1 log n < a+b-n < C_2 log n.
+
+[[factorials_binomials/sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle/theorem_2|theorem_2]]: For absolute c_1, c_2 > 0 the set of m for which nu_p(C(2m,m)) -
+nu_p(C(m+k,m)) >= c_2 (log m / log p) [p <= 2k] for every prime p and every
+0 <= k <= exp(c_1 sqrt(log m)) has density 1; the appendix deduces Problems
+728, 729 and 401 from it.
 
 ***
 
@@ -44,6 +53,11 @@ paper's claims are reported provenance; they are not a local build result.
 **Local verification.** The retained PDF is the arXiv v5 file, as its arXiv
 stamp and title page show. Rendered physical pp. 2 and 5–20 were inspected for
 the selected statements, method map, effective bounds, and source identity.
+Read status: claims checked for the consumed statements, Theorem 1 (p. 2) on
+[[factorials_binomials/sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle/theorem_1|theorem_1]]
+and Theorem 2 with its deductions for #728, #729 and #401 (pp. 13–14) on
+[[factorials_binomials/sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle/theorem_2|theorem_2]];
+their proofs were not checked step by step.
 
 **Problem-link scope.** Theorem 1 is directly relevant to E728. Appendix Theorem
 2 and its explicit deductions are directly relevant to E729 and E401. The appendix's

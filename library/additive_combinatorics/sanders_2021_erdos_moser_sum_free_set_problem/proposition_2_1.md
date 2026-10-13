@@ -58,9 +58,9 @@ artifact is identified in the
 [[additive_combinatorics/sanders_2021_erdos_moser_sum_free_set_problem/_index|source digest]].
 
 **Read depth.** Claims checked: the definition, footnote 3, the
-proposition and the paragraph around (2.1) were read clause by clause on
-the page images on 2026-10-08. The paper gives no separate proof
-of the proposition; [SSV05] is not held.
+proposition and the paragraph around (2.1) were read clause by clause on the
+page images. The paper gives no separate proof of the proposition; [SSV05] is
+not held.
 
 ## Proof pointer
 

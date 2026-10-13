@@ -40,7 +40,7 @@ Source: <https://arxiv.org/abs/2412.11914>.
 
 **Bears on.** [[../wiki/problems/distance_problems/E0668/_index|#668]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1(a): u(n) for n = 16, ..., 21 equals 41, 43, 46, 50, 54, 57
   respectively.

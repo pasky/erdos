@@ -50,7 +50,7 @@ Source: <https://arxiv.org/abs/2408.02400>.
 **Bears on.** [[../wiki/problems/graph_coloring/E0625/_index|#625]],
 [[../wiki/problems/graph_coloring/E0762/_index|#762]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.4: There are infinitely many graphs G with omega(G) < 5, zeta(G) = 4
   and chi(G) = 7; this disproves the 1988 Erdos-Gimbel-Straight conjecture and

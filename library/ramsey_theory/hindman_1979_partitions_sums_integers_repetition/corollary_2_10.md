@@ -73,11 +73,10 @@ read on the page images. The artifact is identified in the
 
 **Read depth.** Claims checked: both statements, the abstract, the
 introduction's sentences and the closing conjecture were read clause by
-clause on the page images on 2026-09-22. The proof of Theorem 2.9
-(pp. 26--27) was read on the page images for its structure only, and
-Lemmas 2.5--2.8 (pp. 23--26), which it uses, were read in the text layer
-for structure only; none of their steps was checked. Nothing here is
-independently reviewed.
+clause on the page images. The proof of Theorem 2.9 (pp. 26--27) was read on the
+page images for its structure only, and Lemmas 2.5--2.8 (pp. 23--26), which it
+uses, were read in the text layer for structure only; none of their steps was
+checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

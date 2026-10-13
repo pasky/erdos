@@ -274,8 +274,8 @@ credit is claimed. The AI-tool authorship is recorded as provenance only.
 theorem.
 
 - The site: problem page, discussion thread and proof-claim tab; the
-  formal-conjectures directory listing at its `main` head of that date (no
-  file for this problem; `191.lean` was added on 19 September 2026, see
+  formal-conjectures directory listing at its `main` head before `191.lean`
+  was added on 19 September 2026 (no file for this problem then; see
   Formalization); the community database record; the external Lean file at
   the commit linked under Formalization, through the GitHub API.
 - arXiv API: the record of 1112.1548 (two versions; the journal reference

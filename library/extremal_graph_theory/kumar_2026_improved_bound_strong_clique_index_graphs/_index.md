@@ -56,14 +56,13 @@ Corollary 1.7 with the comparison paragraph (p. 3), the definition (1.1),
 Theorem 1.8, Conjectures 1.9--1.10, Theorem 1.11 and Problem 1.12 (pp.
 3--4), Lemma 3.1 with its proof and the $h_3(4)$ display (p. 9), Lemma 3.2
 and the $h_3(15)$ display (pp. 9--10), the closing computation of Theorem
-1.11 and the "AI statement" (p. 13), read clause by clause on the page
-images on 2026-09-19, paged at the three result pages listed above;
-Conjectures 1.1--1.2, Theorem 1.3, Conjecture 1.4 and Theorem 1.5 (pp.
-2--3) read in the text layer; the proof of Lemma 3.1 followed, the
-derivation of Corollary 1.7 from Theorems 1.5 and 1.6 followed, the proof
-of Lemma 3.2 read for structure; the proof of Theorem 1.6 (Section 2) and
-Lemmas 3.3--3.4 (the projective-plane construction $G[H,q]$, Section 3.2)
-not read.
+1.11 and the "AI statement" (p. 13), read clause by clause on the page images,
+paged at the three result pages listed above; Conjectures 1.1--1.2, Theorem 1.3,
+Conjecture 1.4 and Theorem 1.5 (pp. 2--3) read in the text layer; the proof of
+Lemma 3.1 followed, the derivation of Corollary 1.7 from Theorems 1.5 and 1.6
+followed, the proof of Lemma 3.2 read for structure; the proof of Theorem 1.6
+(Section 2) and Lemmas 3.3--3.4 (the projective-plane construction $G[H,q]$,
+Section 3.2) not read.
 
 ## Contents
 
@@ -131,8 +130,7 @@ not read.
 ## Compiled scope
 
 Statements at claims-checked depth; Lemma 3.1's proof and the arithmetic of
-Corollary 1.7 followed; the rest of the proofs unread; no acceptance
-evidence beyond the arXiv posting exists on 2026-09-19. Nothing here is
+Corollary 1.7 followed; the rest of the proofs unread. Nothing here is
 independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]: Corollary 1.7

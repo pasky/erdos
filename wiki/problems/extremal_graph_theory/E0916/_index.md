@@ -132,8 +132,8 @@ accessed 2026-09-19.
   [[../library/extremal_graph_theory/dirac_1960_in_abstrakten_graphen_vorhandene_vollstandige_4_graphen_und_ihre_unterteilungen/satz_6|satz_6]].
 
 **Formalization.** None in the collection. No file `ErdosProblems/916.lean`
-exists in formal-conjectures(the directory
-`FormalConjectures/ErdosProblems/` then had 682 entries); the site's page
+was in formal-conjectures when its directory
+`FormalConjectures/ErdosProblems/` was listed (682 entries); the site's page
 shows "Formalised statement? No (create one)"; the community database
 (teorth/erdosproblems, `data/problems.yaml`) records
 the problem proved (last update 31 August 2025), unformalized, with no

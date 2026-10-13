@@ -32,8 +32,8 @@ edge-disjoint monochromatic triangles."
 **Source.** V. Gruslys and S. Letzter, *Monochromatic triangle packings in
 red-blue graphs*, arXiv:2008.05311v2 (14 August 2020), 37 pages; Conjecture
 1.1 and footnote 1 on p. 1, Theorem 1.2 on p. 2, read on the rendered page
-images. No journal version was found on 2026-09-18 (the arXiv record carries
-no journal reference; a Crossref bibliographic query for the title found no
+images. No journal version was found on 2026-09-18 (the arXiv record carried no
+journal reference; a Crossref bibliographic query for the title found no
 record); the artifact is identified in the
 [[ramsey_theory/gruslys_2020_monochromatic_triangle_packings_red_blue_graphs/_index|source digest]].
 
@@ -41,10 +41,10 @@ record); the artifact is identified in the
 1.2, Theorem 1.3 (the stability companion, p. 2), Theorem 2.3 (p. 4) and the
 sentence "Note that our first main theorem, Theorem 1.2, follows directly
 from Theorem 2.3 and Corollary 2.2" (p. 4) were read clause by clause, and
-Corollary 2.2 with the definition of $\mathrm{pack}(G)$ (p. 3) and Theorem
-2.6 (p. 5) on 2026-10-07. The proof of Theorem 2.3 (Section 5, pp. 17--18)
-was read for its structure and conclusion only, its steps unchecked, and
-nothing here is independently reviewed.
+Corollary 2.2 with the definition of $\mathrm{pack}(G)$ (p. 3) and Theorem 2.6
+(p. 5). The proof of Theorem 2.3 (Section 5, pp. 17--18) was read for its
+structure and conclusion only, its steps unchecked, and nothing here is
+independently reviewed.
 
 ## Proof pointer
 

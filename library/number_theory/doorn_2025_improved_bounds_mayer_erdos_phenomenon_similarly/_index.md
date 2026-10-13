@@ -124,7 +124,7 @@ gap $x/n$, of what that proof gives; neither improves the bound of
 Theorem 2. Theorems 1 and 2 are bounds on the problem's $f(n)$
 that the paper proves; the Conjecture is stated there, not proved.
 
-**Results to transcribe.**
+**Results.**
 
 - [[number_theory/doorn_2025_improved_bounds_mayer_erdos_phenomenon_similarly/theorem_1|Theorem 1]]:
   for all $n\ge4$, $f(n)\le\lfloor n/4\rfloor+d$ with $d=1,2,2,4$ depending

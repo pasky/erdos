@@ -28,8 +28,7 @@ constant below $2$ is possible in the theorem: "the triangles in $K_4$ are
 **Source.** L. Yi, *An improved upper bound for Tuza's conjecture via
 2-colorable triangle families*, arXiv:2608.23010v1 (24 August 2026);
 Theorem 1 on p. 1 of the preprint, its proof on pp. 2--3, read on
-the page images. A preprint with no refereed version or independent review
-found on 2026-09-19. The artifact is identified in the
+the page images. The artifact is identified in the
 [[extremal_graph_theory/yi_2026_improved_upper_bound_tuza_s_conjecture/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, the definitions and the

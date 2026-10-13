@@ -52,7 +52,7 @@ version the record does not name.
 
 **Bears on.** [[../wiki/problems/divisors/E0534/_index|#534]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For every finite Q = {q_1 < ... < q_r} of primes and n >= prod q_i,
   f(n,Q) = max_{1<=j<=r} |M(2q_1, ..., 2q_j, q_1...q_j) cap N(n)|; in particular

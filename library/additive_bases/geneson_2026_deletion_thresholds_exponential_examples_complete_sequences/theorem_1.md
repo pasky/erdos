@@ -70,4 +70,4 @@ that a partial report elsewhere records the unbounded case of Lemma 3.
   contrasts van Doorn's exclusion of $m\ge2$ under the requirement that
   every positive integer be represented, recorded in the site's
   discussion of the problem. A preprint claim with no acceptance evidence
-  found on 2026-09-28; separate triage of that page is pending.
+  found on 2026-09-28.

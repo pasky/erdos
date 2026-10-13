@@ -45,8 +45,8 @@ subgroups padded with redundant Type 2 subgroups does not count. Finally it
 asks whether there are homogeneous covers that do not come from composite
 covers of $\mathbf Z$.
 
-These are recorded as historical questions, not current open problems. A dated
-metadata check on 2026-09-05 located Andrzej Schinzel's
+These are recorded as historical questions, not current open problems. A
+metadata check located Andrzej Schinzel's
 [1997 paper](https://www.impan.pl/~schinzel/), *On homogeneous covering
 congruences*, Rocky Mountain J. Math. **27**, 335–342, and Boping Jin and Gerry
 Myerson's [2005 paper](https://www.sciencedirect.com/science/article/pii/S0022314X04001453),

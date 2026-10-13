@@ -68,7 +68,7 @@ Source: <https://users.renyi.hu/~p_erdos/1962-24.pdf>.
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0533/_index|#533]],
 [[../wiki/problems/extremal_graph_theory/E0620/_index|#620]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem (Section 3, p. 704): for each integer k >= 3, each positive c_k
   below log(1/{1 - (eta_k/8)^2}) / (2 log(4/eta_k)), where 1/eta_k =

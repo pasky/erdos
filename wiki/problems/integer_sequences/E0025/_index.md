@@ -36,7 +36,7 @@ https://www.erdosproblems.com/25.
 
 ## Current assessment
 
-The question, in the site's formulation accessed, asks whether
+The question, in the site's formulation accessed 2026-09-04, asks whether
 the set $A$ of integers that avoid, for every modulus $n_i$ not exceeding
 them, the residue class $a_i$ modulo $n_i$ must have a logarithmic density;
 the site labeled the problem OPEN and notes it as a special case of

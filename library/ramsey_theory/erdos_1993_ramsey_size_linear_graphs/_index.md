@@ -161,7 +161,7 @@ context; [[../wiki/problems/ramsey_theory/E0568/_index|#568]];
 is the origin of the problem, asked there for every size, with Corollary 4
 settling the even cycle lengths for large size.
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/erdos_1993_ramsey_size_linear_graphs/question_1|Question 1]]: the density question, is $G$ Ramsey size linear
   if every subgraph $S$ has $q(S)\leq2p(S)-3$ (Problem 566).

@@ -118,7 +118,7 @@ Theorem 7 and Corollary 8 and the proof of Theorem 2 (pp. 8--9) were read on
 the page images; the rest of pp. 3--10 was read for structure only. No proof
 was checked, the computer search was not replayed, and nothing here is
 independently reviewed. The statements and page locators above were checked
-against the page images of all ten pages on 2026-10-07.
+against the page images of all ten pages.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E1216/_index|#1216]]: with $f(n)$ the
 largest $k$ such that every tournament on $n$ vertices contains a transitive

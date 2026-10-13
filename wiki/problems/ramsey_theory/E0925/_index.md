@@ -70,7 +70,7 @@ https://www.erdosproblems.com/925, accessed 2026-09-18.
 
 - [AlRo05] Alon, N. and Rödl, V., Sharp bounds for some multicolor Ramsey
   numbers. Combinatorica 25 (2005), no. 2, 125--141,
-  doi:10.1007/s00493-005-0011-9 (Crossref record accessed: issue
+  doi:10.1007/s00493-005-0011-9 (Crossref record: issue
   dated March 2005). The pages and statement numbers used here are those of
   the authors' "Final Version" manuscript (15 pages) from Alon's publication
   list; Theorem 3.2, p. 6; its proof with the
@@ -98,8 +98,8 @@ https://www.erdosproblems.com/925, accessed 2026-09-18.
   half of the same $k=1$ case, cited in the paper; in the library on
   Problem 553's account and not read.
 
-**Formalization.** None. No file `ErdosProblems/925.lean` exists in
-formal-conjectures(the directory then had 673 entries);
+**Formalization.** None. No file `ErdosProblems/925.lean` was in
+formal-conjectures when its directory was listed (673 entries);
 the site's indicator reports no formalized statement, and the community
 database (teorth/erdosproblems) records the problem
 disproved and unformalized (record last updated 31 August 2025).

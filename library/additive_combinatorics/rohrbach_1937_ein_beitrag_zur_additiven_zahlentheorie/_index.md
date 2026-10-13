@@ -108,17 +108,16 @@ its Folgerung (pp. 14--15); inequality (44) (p. 17); Satz 7, the opening
 of § 5 and inequality (47) (p. 18); Satz 8 (p. 24); Satz 9 (p. 25);
 inequality (72) (p. 26); Satz 10 (p. 27), Satz 11 (p. 28) and Satz 12
 (pp. 29--30), each read clause by clause on the page images of PDF
-pp. 1--11, 14--19 and 23--30 on 2026-09-22. The proofs of Satz 1, Satz 2
-and Satz 3 (pp. 4--6) were read in full on the page images and followed;
-the construction (11) and the proof of Satz 4 (pp. 6--8) were read on the
-page images and the count $2(x+y)+xz$ and the range (13) were recomputed
-from the printed rows. The proof of Satz 6 (pp. 11--14), the eight-interval
-method of § 4 and the case analysis of § 5 (pp. 15--23) and the proofs of
-Satz 9 to Satz 12 (pp. 25--30) were read for structure only; PDF
-pp. 12--13 and 20--22 were read in the text layer alone, and none of the
-numerical inequalities of §§ 3--5 was checked. A filing check, not a
-review verdict: the systems (6) and (11) as printed on pp. 5 and 7 were built
-for all $1\le x,y\le7$ and $1\le z\le4$, and in every case the system had
+pp. 1--11, 14--19 and 23--30. The proofs of Satz 1, Satz 2 and Satz 3 (pp. 4--6)
+were read in full on the page images and followed; the construction (11) and the
+proof of Satz 4 (pp. 6--8) were read on the page images and the count
+$2(x+y)+xz$ and the range (13) were recomputed from the printed rows. The proof
+of Satz 6 (pp. 11--14), the eight-interval method of § 4 and the case analysis
+of § 5 (pp. 15--23) and the proofs of Satz 9 to Satz 12 (pp. 25--30) were read
+for structure only; PDF pp. 12--13 and 20--22 were read in the text layer alone,
+and none of the numerical inequalities of §§ 3--5 was checked. A filing check,
+not a review verdict: the systems (6) and (11) as printed on pp. 5 and 7 were
+built for all $1\le x,y\le7$ and $1\le z\le4$, and in every case the system had
 the printed number of elements and its pairwise sums covered
 $\{0,\ldots,n\}$ for the printed $n$; the parameter choices (7)--(8) and
 the even case of Satz 4's Folgerung reproduced (9) and (15) for

@@ -47,7 +47,7 @@ Source: <https://doi.org/10.4064/aa-83-3-225-240>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0784/_index|#784]]
 
-**Results to transcribe.**
+**Results.**
 
 - Théorème 1: There are positive constants c_1, c_2 with c_1 x/log x <= H(x) <=
   c_2 x/log x for x >= 2, where H(x) is the Erdős-Ruzsa small sieve minimum.

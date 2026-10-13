@@ -128,13 +128,13 @@ corpus has not built the archive or checked its statements, so it gives no
    the universal third assertion is false. Its multiples-of-$3$ restriction
    remains unresolved on the accepted evidence.
 
-**Evidence and search scope.** Search scope, 2026-09-07: the site's problem
-page, discussion thread and proof-claims tab, Erdős's complete 1969 survey, and
-arXiv:2301.01656v1 of Luo–Ma–Yang; 2026-10-06: the proof-claims tab. The
-attribution of the constructions follows Luo–Ma–Yang; the site's competing
-credit to Stiebitz is recorded on Toft's claim page. On 2026-09-07 Zenodo listed
-record 22569201, version 7, as the latest Gu deposit. No wider literature search
-is recorded.
+**Evidence and search scope.** Search scope: the site's problem page,
+discussion thread and proof-claims tab (the tab also as it stood on
+2026-10-06), Erdős's complete 1969 survey, and arXiv:2301.01656v1 of
+Luo–Ma–Yang. The attribution of the constructions follows Luo–Ma–Yang; the
+site's competing credit to Stiebitz is recorded on Toft's claim page. On
+2026-09-07 Zenodo listed record 22569201, version 7, as the latest Gu deposit.
+No wider literature search is recorded.
 
 **Proof and review coverage.** The Luo–Ma–Yang proofs and Gu's manuscript are
 not reviewed in this corpus; no complete-proof, review or formalization credit

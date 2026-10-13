@@ -55,9 +55,8 @@ $c<1/4$: "Thus, there is a threshold for this problem at $c=1/4$."
 arXiv:1412.1838v1 (4 December 2014; the title page is typeset "November 5,
 2018"), 7 pages; Definitions 1.1--1.2, Theorem 1.3 and Corollaries 1.4--1.5
 on p. 2, read on the rendered page image and in the text layer. No journal
-version was found on 2026-09-18 (the arXiv record has one version and no
-journal reference; a Crossref bibliographic query for the title found no
-record).
+version was found on 2026-09-18 (the arXiv record had one version and no journal
+reference; a Crossref bibliographic query for the title found no record).
 
 **Read depth.** Claims checked: the two definitions, Theorem 1.3,
 Corollaries 1.4 and 1.5 with the inline proof of 1.4, and the

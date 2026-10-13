@@ -110,10 +110,8 @@ was built or checked here.
 ## Compiled scope
 
 Statements at claims-checked depth; nothing of the proofs, certificates or
-formalization was read, built or checked, and no acceptance evidence beyond
-the arXiv posting exists on 2026-09-19 (the citing records found are the
-companion preprint, arXiv:2606.23824 and arXiv:2608.03965). Nothing here is
-independently reviewed.
+formalization was read, built or checked. Nothing here is independently
+reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]: Theorem 1.1
 (p. 1, page image) is the best claimed upper bound on the site's quantity

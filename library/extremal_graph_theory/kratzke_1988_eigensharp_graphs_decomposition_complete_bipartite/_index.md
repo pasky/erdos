@@ -84,12 +84,12 @@ Read status: claims checked for the abstract and the definition of
 $\tau_{\mathbf F}(G)$ (printed p. 637 = PDF p. 1) and for the paragraph on
 stars, the vertex cover number, the star bound $\tau(G)\le n-\alpha(G)$ and
 Erdős's conjecture, with the following paragraph on graphs without $4$-cycles
-(p. 638 = PDF p. 2), read clause by clause on the rendered page images on
-2026-09-18; the reference list (p. 653 = PDF p. 17) was read in the text
-layer. The statements of Theorems 1--10 and Example 1 (pp. 640--653), with
-the definitions they use, were then read clause by clause on the page
-images, and their proofs in outline only; no proof is verified here. Problem
-807 consumes the conjecture sentence, paged at
+(p. 638 = PDF p. 2), read clause by clause on the rendered page images; the
+reference list (p. 653 = PDF p. 17) was read in the text layer. The statements
+of Theorems 1--10 and Example 1 (pp. 640--653), with the definitions they use,
+were then read clause by clause on the page images, and their proofs in outline
+only; no proof is verified here. Problem 807 consumes the conjecture sentence,
+paged at
 [[extremal_graph_theory/kratzke_1988_eigensharp_graphs_decomposition_complete_bipartite/conjecture_p638|conjecture_p638]].
 
 ## Contents

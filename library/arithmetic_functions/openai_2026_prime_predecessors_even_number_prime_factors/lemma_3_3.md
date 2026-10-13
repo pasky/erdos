@@ -46,8 +46,8 @@ cover the moderate heights.
 Factors*, release folder
 `preprints/Prime-Predecessors-with-an-Even-Number-of-Prime-Factors-September-17-2026`;
 TeX file `build/sections/02-long-prime.tex`, label `lp:log-phase` (lines
-185--197), PDF p. 7; the proof is at lines 199--310 (PDF pp. 7--8). Read
-2026-10-12. Provenance and attestations are on
+185--197), PDF p. 7; the proof is at lines 199--310 (PDF pp. 7--8). Provenance
+and attestations are on
 [[arithmetic_functions/openai_2026_prime_predecessors_even_number_prime_factors/_index|the card]].
 
 **Read depth.** Claims checked: the statement, with the conventions of

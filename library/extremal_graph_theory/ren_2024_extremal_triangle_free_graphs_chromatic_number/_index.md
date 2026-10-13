@@ -55,14 +55,13 @@ Source: <https://arxiv.org/abs/2404.07486>.
 The copy read for this card
 is arXiv:2404.07486v2 (19 October 2025, "14 pages, 4 figures, the proof is
 slightly improved"; v1 11 April 2024), 14 pages with a clean text layer; the
-identity line's "(2024)" is the year of v1. No journal reference is listed
-on arXiv and no Crossref record was found on 2026-09-18: a preprint, and the
-pages consuming it carry the preprint qualification. Read status: claims
-checked for Theorems 1.1--1.4, the graph $H_0$ and the family $\mathcal G(n)$
-(pp. 1--2, read clause by clause on the page images) and for Theorem 1.5 and
-$d_2(G)$ and the graph $H_n$ (p. 3, read clause by clause on the page
-image); the proofs (Sections 2--4) were not checked. The
-consumed statements are paged at
+identity line's "(2024)" is the year of v1. The arXiv listing showed no journal
+reference and Crossref showed no record on 2026-09-18: a preprint, and the pages
+consuming it carry the preprint qualification. Read status: claims checked for
+Theorems 1.1--1.4, the graph $H_0$ and the family $\mathcal G(n)$ (pp. 1--2,
+read clause by clause on the page images) and for Theorem 1.5 and $d_2(G)$ and
+the graph $H_n$ (p. 3, read clause by clause on the page image); the proofs
+(Sections 2--4) were not checked. The consumed statements are paged at
 [[extremal_graph_theory/ren_2024_extremal_triangle_free_graphs_chromatic_number/theorem_1_4|theorem_1_4]]
 and
 [[extremal_graph_theory/ren_2024_extremal_triangle_free_graphs_chromatic_number/theorem_1_2|theorem_1_2]],
@@ -83,7 +82,7 @@ $d_2(G)\ge4$; paged at
 and
 [[extremal_graph_theory/ren_2024_extremal_triangle_free_graphs_chromatic_number/theorem_1_5|theorem_1_5]].
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/ren_2024_extremal_triangle_free_graphs_chromatic_number/theorem_1_4|Theorem 1.4]]
   (p. 2): Triangle-free G on n >= 90 vertices with chi(G) >= 4 has e(G) <=

@@ -70,12 +70,11 @@ introduction's account of the graph conjecture (p. 98), Graham's
 observation and the definitions, including $n$-universality and the sets
 $U_1$, $U_2$, $U_3$ (p. 99), Lemma 1, Lemma 2, Theorem 1, the Corollary and
 the closing examples (p. 100), and the definition of $V_n$, the Conjecture
-and the reference list (p. 101), each read clause by clause on the page
-images of PDF pp. 1--4 on 2026-09-22; the whole note was read on the page
-images. The proofs of Lemma 1 (half a page), Lemma 2, Theorem 1 and the
-Corollary (a line each; p. 100) were read in full on the page images and
-followed, with the filing observations recorded below. Nothing here is
-independently reviewed.
+and the reference list (p. 101), each read clause by clause on the page images
+of PDF pp. 1--4; the whole note was read on the page images. The proofs of Lemma
+1 (half a page), Lemma 2, Theorem 1 and the Corollary (a line each; p. 100) were
+read in full on the page images and followed, with the filing observations
+recorded below. Nothing here is independently reviewed.
 
 ## Contents
 

@@ -59,13 +59,13 @@ of an admissible subset, the estimates (1) and (2) with footnote 1, and the
 Straus bound (p. 105), the choice of the prime (17) and the passage deducing
 (1) from a large residue class (p. 109), the displays (21)--(26) (p. 110)
 and the closing admissibility argument (27)--(30) (p. 111), each read
-clause by clause on the page images of PDF pp. 1 and 5--7 on 2026-09-22.
-The proof of (2) (§ 2, pp. 106--108) and the Lemma with its proof
-(pp. 108--109) were read in full on the page images of PDF pp. 2--5 and
-followed; the proof of (1) (§ 3, pp. 109--111) was read on the page images
-for its structure, the case split, the count of large classes, the
-application of the Lemma and the admissibility check, and its estimates
-were not checked line by line. Nothing here is independently reviewed.
+clause by clause on the page images of PDF pp. 1 and 5--7. The proof of (2) (§
+2, pp. 106--108) and the Lemma with its proof (pp. 108--109) were read in full
+on the page images of PDF pp. 2--5 and followed; the proof of (1) (§ 3, pp.
+109--111) was read on the page images for its structure, the case split, the
+count of large classes, the application of the Lemma and the admissibility
+check, and its estimates were not checked line by line. Nothing here is
+independently reviewed.
 
 ## Contents
 

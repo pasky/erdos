@@ -47,15 +47,14 @@ identified in the
 [[ramsey_theory/zhang_2017_some_values_ramsey_numbers_c_4_versus_stars/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the paragraph placing its
-values were read clause by clause on the page image of PDF p. 3 on
-2026-09-22. The proof (pp. 83--84), Lemmas 1--4 (pp. 79--81) and the
-construction and Propositions 1--5 of § 2 (pp. 76--78) were read in the
-text layer for structure only and not checked; in particular the case
-$q=5$, which the proof settles by reading $R(C_4,K_{1,18})=23$ and
-$R(C_4,K_{1,16})=21$ off Fig. 1, rests on values the paper cites, Parsons's
-Theorem 2 for $n=16$ and the computer determination of $R(C_4,W_{18})$ for
-$n=18$, and not on the paper's own argument. Nothing here is independently
-reviewed.
+values were read clause by clause on the page image of PDF p. 3. The proof (pp.
+83--84), Lemmas 1--4 (pp. 79--81) and the construction and Propositions 1--5 of
+§ 2 (pp. 76--78) were read in the text layer for structure only and not checked;
+in particular the case $q=5$, which the proof settles by reading
+$R(C_4,K_{1,18})=23$ and $R(C_4,K_{1,16})=21$ off Fig. 1, rests on values the
+paper cites, Parsons's Theorem 2 for $n=16$ and the computer determination of
+$R(C_4,W_{18})$ for $n=18$, and not on the paper's own argument. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

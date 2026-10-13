@@ -55,7 +55,7 @@ earlier upper bound $cx^2\ln\ln x/\ln x$, filed as
 [[graph_coloring/graver_yackel_1968_graph_theoretic_results_associated_ramsey_theorem/_index|graver_yackel_1968_graph_theoretic_results_associated_ramsey_theorem]];
 its Proposition 9, "There exists a constant $B$ so that
 $R(3,y)\le By^2\log\log y/\log y$", is on printed p. 154 (PDF p. 30),
-located here on the text layer of that page on 2026-09-22 and paged on
+located here on the text layer of that page and paged on
 [[graph_coloring/graver_yackel_1968_graph_theoretic_results_associated_ramsey_theorem/proposition_9|proposition_9]]).
 The edition cited is
 the publisher's version of record; no preprint or later version is known
@@ -87,14 +87,13 @@ the definition of a groupie, Lemma 1 and Theorem 2 with its Note (p. 355),
 the restatement of Theorem 2 and Remarks 1--3 (pp. 357--358), Theorem 3 and
 its proof, Lemma 4 (p. 358), Lemma 5, Remark 4 and Theorem 6 (p. 359), the
 proof of Theorem 6, Theorem 7, the acknowledgment and the references
-(p. 360), each read clause by clause on the page images of PDF pp. 1--7 on
-2026-09-22. The proofs of Lemma 1 (p. 355) and Theorem 3 (p. 358) were read
-in full on the page images and followed; the proof of Theorem 2
-(pp. 355--357, with the flow chart of Fig. 1 on p. 356) and the proofs of
-Lemmas 4--5 and Theorem 6 (pp. 358--360) were read on the page images for
-structure only, and the two calculations the paper omits ((11) to
-$g(n',t')\ge g(n,t)$ and inequality (15)) were not reconstructed. Nothing
-here is independently reviewed.
+(p. 360), each read clause by clause on the page images of PDF pp. 1--7. The
+proofs of Lemma 1 (p. 355) and Theorem 3 (p. 358) were read in full on the page
+images and followed; the proof of Theorem 2 (pp. 355--357, with the flow chart
+of Fig. 1 on p. 356) and the proofs of Lemmas 4--5 and Theorem 6 (pp. 358--360)
+were read on the page images for structure only, and the two calculations the
+paper omits ((11) to $g(n',t')\ge g(n,t)$ and inequality (15)) were not
+reconstructed. Nothing here is independently reviewed.
 
 ## Contents
 

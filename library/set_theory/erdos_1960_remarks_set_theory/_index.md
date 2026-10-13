@@ -56,7 +56,7 @@ Source: <https://users.renyi.hu/~p_erdos/1960-19.pdf>.
 
 **Bears on.** [[../wiki/problems/set_theory/E0501/_index|#501]].
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 187): "If S(x) has measure 0 and is not everywhere dense, there
   exists an independent pair; under the additional assumption H_0, an

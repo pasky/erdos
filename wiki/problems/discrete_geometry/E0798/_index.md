@@ -44,7 +44,7 @@ https://www.erdosproblems.com/798.
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/798.lean),
 tagged `research solved` with a `sorry` proof and a `formal_proof` attribute
 naming a third-party Lean proof of Alon's bound, at the `main` revision of
-2026-09-18 read; the claim page links that proof and the forum posting it
+2026-09-18; the claim page links that proof and the forum posting it
 copies.
 
 ## Current assessment

@@ -56,8 +56,8 @@ authors' manuscript described in the
 proof on pp. 52-53.
 
 **Read depth.** Claims checked: statement and the display (62) read clause
-by clause on the page image on 2026-10-08, with the two numerical checks
-above; the proof was read for its structure only.
+by clause on the page image, with the two numerical checks above; the proof was
+read for its structure only.
 
 ## Proof pointer
 

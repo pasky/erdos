@@ -101,4 +101,4 @@ September 2026 and following the method of Tan, Wang, Huang and Chen, is linked
 from their page as a formalization with the registry's own caveats, not built
 here. The search scope is the site page, its thread and proof-claims tab, the
 two arXiv records, the formal-conjectures file, the claimants' repository and
-the Palomar record, as of 2026-10-07; no wider literature search was made.
+the Palomar record; no wider literature search was made.

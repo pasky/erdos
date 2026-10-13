@@ -135,10 +135,10 @@ and the statements of Lemma 2.1, Lemma 2.2, Proposition 2.3, Lemma 2.4,
 Lemma 4.1, Proposition 5.1 and Proposition 6.4, read clause by clause in the
 TeX source (`main.tex`, labels `thm:universal`, `thm:gaussian`,
 `energy:reciprocal`, `energy:low-frequency`, `energy:lp`, `energy:laplace`,
-`lem:finite-certificate`, `prop:exact-interpolation`, `prop:global-signs`)
-on 2026-10-07; the proofs were read for their structure only and no step was
-checked; the finite certificate was neither run nor inspected; nothing here
-is independently reviewed.
+`lem:finite-certificate`, `prop:exact-interpolation`, `prop:global-signs`); the
+proofs were read for their structure only and no step was checked; the finite
+certificate was neither run nor inspected; nothing here is independently
+reviewed.
 
 ## Contents
 

@@ -72,7 +72,7 @@ Source: <https://arxiv.org/abs/2601.10238>.
 **Bears on.** [[../wiki/problems/ramsey_theory/E0569/_index|#569]];
 [[../wiki/problems/ramsey_theory/E0570/_index|#570]].
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/cambie_2026_ramsey_number_cycle_versus_graph_given/theorem_3|Theorem 3]]: For odd $k\geq7$ and $H$ with no isolated
   vertices,

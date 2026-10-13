@@ -90,7 +90,7 @@ Source: <https://doi.org/10.2140/obs.2020.4.371>.
 clause by clause on the page images of the print; the proofs were read for
 structure only, and the computation was not repeated.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (Kummer, p. 372): for positive integers k < n, a prime
   p <= k and a positive integer t >= floor(log_p n), with base-p digits a_i

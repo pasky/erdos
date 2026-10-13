@@ -45,8 +45,7 @@ the authors' manuscript described in the
 [[extremal_graph_theory/bollobas_2002_better_bounds_max_cut/_index|source digest]],
 and the recurrence (5) is proved as Theorem 10 (p. 31).
 
-**Read depth.** Claims checked: the deduction read on the page image on
-2026-10-08.
+**Read depth.** Claims checked: the deduction read on the page image.
 
 ## Proof pointer
 

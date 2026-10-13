@@ -68,15 +68,14 @@ Read status: claims checked for the introduction and the conventions
 Lemma 2 (p. 266), the definitions of $g(n)$, $z(n)$ and $d(n)$ with the
 statements (1), (2) and (3) (p. 267), and the statement (4) with the closing
 bounds on $d(n)$ (p. 268), each read clause by clause on the page images of
-PDF pp. 1--4 (printed pp. 265--268) on 2026-09-22, Satz 1 and Satz 2 also on
-400 dpi crops; p. 268 was read on the page image for the reference list, the
-address and the received date. The proofs of Lemma 1 (pp. 265--266), Lemma 2
-(p. 266), (2) (p. 267), (3) (pp. 267--268) and (4) (p. 268), a paragraph or
-half a page each, were read in full on the page images and their structure
-followed at filing depth; the one-sentence inductions from Lemma 1 to Satz 1
-and from Lemma 2 to Satz 2 were followed here by the arithmetic recorded
-below. None of the steps was checked, and nothing here is independently
-reviewed.
+PDF pp. 1--4 (printed pp. 265--268), Satz 1 and Satz 2 also on 400 dpi crops; p.
+268 was read on the page image for the reference list, the address and the
+received date. The proofs of Lemma 1 (pp. 265--266), Lemma 2 (p. 266), (2) (p.
+267), (3) (pp. 267--268) and (4) (p. 268), a paragraph or half a page each, were
+read in full on the page images and their structure followed at filing depth;
+the one-sentence inductions from Lemma 1 to Satz 1 and from Lemma 2 to Satz 2
+were followed here by the arithmetic recorded below. None of the steps was
+checked, and nothing here is independently reviewed.
 
 ## Contents
 

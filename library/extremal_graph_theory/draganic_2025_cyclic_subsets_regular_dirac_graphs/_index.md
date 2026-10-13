@@ -82,7 +82,6 @@ labels and page citations in this folder refer to that version.
 The original 17-page PDF is retained unchanged as
 `draganic_2025_cyclic_subsets_regular_dirac_graphs_arxiv_v2.pdf`:
 [arXiv:2503.01826v2](https://arxiv.org/abs/2503.01826v2), 31 March 2025. The
-arXiv record still lists v2 as its latest revision as of the source check. The
 mathematical result labels are retained in the published version; typesetting
 changes the page breaks, the unused McKay reference is removed, and later
 bibliography entries are renumbered. The specific arithmetic and
@@ -164,8 +163,8 @@ resolution claim.
 
 ## Later literature and formalization
 
-The 2026-09-05 search also found Liu–Niu–Wang–Yan's lower-degree staircase
-bounds and Hunter–Liu–Milojević–Sudakov's tournament analog; precise
+The bounded literature search also found Liu–Niu–Wang–Yan's lower-degree
+staircase bounds and Hunter–Liu–Milojević–Sudakov's tournament analog; precise
 primary-source leads and their differing scopes are in
 [[extremal_graph_theory/draganic_2025_cyclic_subsets_regular_dirac_graphs/remarks_p14|remarks p14]].
 They were not found to replace the exact theorem for $(n+1)$-regular graphs

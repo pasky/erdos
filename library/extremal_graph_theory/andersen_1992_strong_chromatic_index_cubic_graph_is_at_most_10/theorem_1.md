@@ -55,7 +55,7 @@ at most 10, Discrete Math. 108 (1992), 231--252; Theorem 1 and the opening
 of its proof on printed p. 250 (PDF p. 20 of the publisher's scan),
 the rest of the proof on p. 251 (PDF p. 21), the definitions on
 pp. 231--232 (PDF pp. 1--2) and the bigreedy definition on p. 239 (PDF
-p. 9), read on the page images, p. 239 on 2026-10-07 (earlier in the text
+p. 9), read on the page images (p. 239 after an earlier reading in the text
 layer). The edition read is identified in the
 [[extremal_graph_theory/andersen_1992_strong_chromatic_index_cubic_graph_is_at_most_10/_index|source digest]].
 
@@ -66,8 +66,8 @@ crop. The proof of Theorem 1 (pp. 250--251) was read in full on the page
 images and its reduction to Lemmas 2--15 was followed; Lemmas 2--15
 themselves (pp. 234--250) were read in the text layer for their statements
 and the structure of their proofs only, and none of the case analyses of
-Lemmas 6, 7, 10, 14 and 15 was checked. Their statements were compared with
-the page images on 2026-10-07. Nothing here is independently reviewed.
+Lemmas 6, 7, 10, 14 and 15 was checked. Their statements were compared with the
+page images. Nothing here is independently reviewed.
 
 ## Proof pointer
 
@@ -106,8 +106,8 @@ on distinct representatives (P. Hall, J. London Math. Soc. 10 (1935)
 26--30, the paper's [4]), used in Lemmas 6 and 7; the paper is filed as
 [[set_systems/hall_1935_representatives_subsets/_index|hall_1935_representatives_subsets]],
 and its Theorem 1, the union criterion for a complete system of distinct
-representatives, is on printed p. 27 (PDF p. 2), located there in the text
-layer on 2026-09-22 and paged on
+representatives, is on printed p. 27 (PDF p. 2), located there in the text layer
+and paged on
 [[set_systems/hall_1935_representatives_subsets/theorem_1|theorem_1]].
 The conjecture
 the theorem confirms for $\Delta\le3$ is quoted from the paper's [1]--[3]:

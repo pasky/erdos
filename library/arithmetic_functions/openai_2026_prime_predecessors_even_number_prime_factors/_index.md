@@ -121,19 +121,19 @@ and the opening paragraph of its Appendix A was read. Of the Artin manuscript
 only the citing passages were read.
 
 Read status: claims checked for Theorem 1.1, Lemma 3.1, Lemma 3.3 and
-Proposition 2.1, read clause by clause in the release's TeX source on
-2026-10-12 (`build/main.tex`, abstract lines 40--44 and label `thm:main` at
-lines 53--57; `build/sections/01-preliminaries.tex`, conventions lines 3--17
-and label `pre:primes` at lines 24--40; `build/sections/02-long-prime.tex`,
-labels `lp:prime-polynomial` at lines 8--21 and `lp:log-phase` at lines
-185--197); the statements of Theorems 4.1, 6.1 and 7.1 and of the lemmas
-numbered 3.2, 3.4--3.6, 5.1--5.3 and 8.1--8.9 were read as statements; all
-proofs were read for their structure only and no step was checked; nothing
-here is independently reviewed. The citing passages of the Artin manuscript
-were read in its TeX source at the same revision (`sections/08-type-ii.tex`
-lines 321--536, `sections/12-construction.tex` lines 83--127, where Lemma 12.1
-invokes the proof of Proposition 10.3, and `references.tex` lines 148--153).
-No search was made for earlier results on the parity of $\Omega(p-1)$.
+Proposition 2.1, read clause by clause in the release's TeX source
+(`build/main.tex`, abstract lines 40--44 and label `thm:main` at lines 53--57;
+`build/sections/01-preliminaries.tex`, conventions lines 3--17 and label
+`pre:primes` at lines 24--40; `build/sections/02-long-prime.tex`, labels
+`lp:prime-polynomial` at lines 8--21 and `lp:log-phase` at lines 185--197); the
+statements of Theorems 4.1, 6.1 and 7.1 and of the lemmas numbered 3.2,
+3.4--3.6, 5.1--5.3 and 8.1--8.9 were read as statements; all proofs were read
+for their structure only and no step was checked; nothing here is independently
+reviewed. The citing passages of the Artin manuscript were read in its TeX
+source at the same revision (`sections/08-type-ii.tex` lines 321--536,
+`sections/12-construction.tex` lines 83--127, where Lemma 12.1 invokes the proof
+of Proposition 10.3, and `references.tex` lines 148--153). No search was made
+for earlier results on the parity of $\Omega(p-1)$.
 
 ## Contents
 

@@ -71,7 +71,7 @@ appear (the problem page's [Wo72]), which appeared as Proc. London Math.
 Soc. (3) 24 (1972), 739--755 and is filed as
 [[extremal_graph_theory/woodall_1972_sufficient_conditions_circuits_graphs/_index|woodall_1972_sufficient_conditions_circuits_graphs]];
 its Corollary 11.1 on printed p. 749 (PDF p. 11), read there clause by
-clause on the page image on 2026-09-22 and paged on
+clause on the page image and paged on
 [[extremal_graph_theory/woodall_1972_sufficient_conditions_circuits_graphs/corollary_11_1|corollary_11_1]],
 settles Conjecture 1 in full and credits the case $r=1$ of Erdős's question
 in its letters, a cycle of length $n-1$, to this paper's Theorem 2. The
@@ -107,17 +107,17 @@ two sentences on the ranges in which Conjectures 2 and 1 hold, Theorem 3 and
 Lemma 3.1 (p. 128), Theorem 3$'$ and Corollary 3.1 (p. 130), Corollaries
 3.2, 3.3 and 3.4 and the note on Woodall (pp. 131--132), and the reference
 list (p. 132), each read clause by clause on the page images of PDF pp. 1, 3
-and 5--12 (printed pp. 121, 123 and 125--132) on 2026-09-22; printed pp. 122
-and 124 (PDF pp. 2 and 4), the path notation and the middle of the proof of
-Theorem 1, were read in the text layer only. The proof of Theorem 2 (p. 127)
-and the proof of Lemma 2.2 (pp. 126--127) were read in full on the page
-images and their structure followed; their inequalities were not checked.
-The proofs of Corollaries 3.1 and 3.2 (p. 131) were read in full on the page
-image and followed. The proof of Theorem 1 (pp. 123--125) was read in the
-text layer for structure only, and the proof of Theorem 3 (pp. 129--130) on
-the page images for structure only; the paper omits the case of that proof
-in which $G-V(C)$ is a block. The bound for Conjecture 2 stated on p. 128 has
-no written proof in the paper. Nothing here is independently reviewed.
+and 5--12 (printed pp. 121, 123 and 125--132); printed pp. 122 and 124 (PDF pp.
+2 and 4), the path notation and the middle of the proof of Theorem 1, were read
+in the text layer only. The proof of Theorem 2 (p. 127) and the proof of Lemma
+2.2 (pp. 126--127) were read in full on the page images and their structure
+followed; their inequalities were not checked. The proofs of Corollaries 3.1 and
+3.2 (p. 131) were read in full on the page image and followed. The proof of
+Theorem 1 (pp. 123--125) was read in the text layer for structure only, and the
+proof of Theorem 3 (pp. 129--130) on the page images for structure only; the
+paper omits the case of that proof in which $G-V(C)$ is a block. The bound for
+Conjecture 2 stated on p. 128 has no written proof in the paper. Nothing here is
+independently reviewed.
 
 ## Contents
 

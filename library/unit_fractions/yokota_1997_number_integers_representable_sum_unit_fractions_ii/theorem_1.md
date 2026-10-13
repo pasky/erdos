@@ -75,8 +75,8 @@ $d_0$, $k$ and $d^*$ (p. 167) and the closing steps (pp. 168--169) were read
 clause by clause on the page images. Lemmas 1--5 (pp. 163--164) were read as
 statements on the page image; the proofs of Lemmas 3 and 5 (pp. 163--167) were
 read for structure only, pp. 165--166 in the text layer. No estimate was checked
-except the last step of p. 168 (on the page image on 2026-10-07; see the
-Statement), and nothing here is independently reviewed.
+except the last step of p. 168 (on the page image; see the Statement), and
+nothing here is independently reviewed.
 
 ## Proof pointer
 

@@ -111,7 +111,8 @@ bound $(1-1/e+o(1))N$ under `category research solved`, also with proof
 `sorry`, whose docstring credits Adenwalla and Croot [Cr01]. The formal set is
 the site's: subsets of $\{1,\ldots,N\}$ with a sign function and the two
 conditions. The file is a statement, not a proof, and no declaration carries
-a `formal_proof` attribute. The community database, records a formalized statement and no formal proof.
+a `formal_proof` attribute. The community database records a formalized
+statement and no formal proof.
 
 ## Current assessment
 

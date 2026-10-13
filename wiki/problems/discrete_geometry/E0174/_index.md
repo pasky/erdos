@@ -28,7 +28,11 @@ $k\geq 1$, there exists some $d=d(A,k)$ such that in any $k$-colouring of
 $\mathbb{R}^d$ there exists a monochromatic copy of $A$. Characterise the Ramsey
 sets in $\mathbb{R}^n$.
 
-**Notes.** The site asks to "characterise the Ramsey sets". The classification
+**Formulation.** A copy is a congruent copy at the original scale, as Erdős,
+Graham, Montgomery, Rothschild, Spencer and Straus define it and as the claim
+pages read it; allowing a change of scale would be a different question.
+
+The site asks to "characterise the Ramsey sets". The classification
 accepted here is a criterion: a finite set is Ramsey exactly when an explicit
 linear system over the tensor square of its coordinate field has a solution.
 That is a complete if-and-only-if description of the Ramsey sets, so the
@@ -48,10 +52,6 @@ source, and that work in preparation by Pálvölgyi contains a proof that every
 finite transitive set is Ramsey; it does not say whether the criterion answers
 the question. The standing here would follow the curator's ruling if the
 curator reads 'characterise' more narrowly.
-
-**Formulation.** A copy is a congruent copy at the original scale, as Erdős,
-Graham, Montgomery, Rothschild, Spencer and Straus define it and as the claim
-pages read it; allowing a change of scale would be a different question.
 
 **Status.** OPEN, in the site's label (page last edited 16 October 2025). The
 site's proof-claims thread had no claim as of 6 October 2026. The standing in

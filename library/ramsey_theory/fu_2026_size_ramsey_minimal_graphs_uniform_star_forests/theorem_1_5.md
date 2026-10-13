@@ -38,7 +38,7 @@ $(a_1K_{1,b_1},a_2K_{1,b_2},K_{1,1},\dots,K_{1,1})$.
 **Source.** P. Fu, Z. Luo and Z. Ni, *Size Ramsey minimal graphs for uniform
 star forests*, arXiv:2606.04439v3 (4 July 2026), Theorem 1.5 and Remark 1.6
 on p. 3, read on the page image and in the text layer of the retained PDF.
-Preprint; no journal record found on 2026-09-17.
+Preprint.
 
 **Read depth.** Claims checked: the statement and Remark 1.6 were read clause
 by clause on the page image of p. 3. The proof was not read.

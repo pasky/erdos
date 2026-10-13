@@ -73,14 +73,13 @@ setting, the Jurkat--Richert bound $C(r)<c(\varepsilon)r^{2+\varepsilon}$
 display (1), Jacobsthal's two questions, the Theorem and the Corollary
 (p. 226), Lemma 2 with displays (5) and (6) (p. 229), the choice of
 parameters, display (7), the closing step of the proof and the note added
-in proof (p. 230), each read clause by clause on the page images of PDF
-pp. 1--2 and 5--6 on 2026-09-22; the references and the received line
-(pp. 230--231, PDF pp. 6--7) were read on the page images. The shifted
-sieve of § 2, Lemma 1 with its hypotheses (R), (2), (+) and (-) and its
-displays (3) and (4), and the proof of (4) (pp. 227--228, PDF pp. 3--4)
-were read on the page images for structure only, and the proof of the
-Theorem (pp. 228--230) was followed at the level of its displays without
-checking Lemma 1, the sieve weights $\lambda_n$ or the quoted Lemma 2.
+in proof (p. 230), each read clause by clause on the page images of PDF pp. 1--2
+and 5--6; the references and the received line (pp. 230--231, PDF pp. 6--7) were
+read on the page images. The shifted sieve of § 2, Lemma 1 with its hypotheses
+(R), (2), (+) and (-) and its displays (3) and (4), and the proof of (4) (pp.
+227--228, PDF pp. 3--4) were read on the page images for structure only, and the
+proof of the Theorem (pp. 228--230) was followed at the level of its displays
+without checking Lemma 1, the sieve weights $\lambda_n$ or the quoted Lemma 2.
 Nothing here is independently reviewed.
 
 ## Contents

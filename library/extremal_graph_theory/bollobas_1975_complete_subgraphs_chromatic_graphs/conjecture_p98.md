@@ -40,8 +40,8 @@ appear in Discrete Mathematics" (Congr. Numer. XIV (1975), printed p. 12;
 
 **Source.** B. Bollobás, P. Erdős and E. Szemerédi, *On complete subgraphs of
 $r$-chromatic graphs*, Discrete Math. 13 (1975), no. 2, 97--107; printed
-pp. 97--98 = PDF pp. 1--2 of the Rényi archive scan, read on the
-rendered page images on 2026-09-18. The edition read is identified in the
+pp. 97--98 = PDF pp. 1--2 of the Rényi archive scan, read on the rendered page
+images. The edition read is identified in the
 [[extremal_graph_theory/bollobas_1975_complete_subgraphs_chromatic_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the conjecture, the two sentences after it and

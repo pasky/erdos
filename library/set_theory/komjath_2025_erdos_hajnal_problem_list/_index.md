@@ -89,7 +89,7 @@ Source: <https://doi.org/10.1017/bsl.2025.1>.
 [[../wiki/problems/set_theory/E1219/_index|#1219]],
 [[../wiki/problems/set_theory/E1220/_index|#1220]]
 
-**Results to transcribe.**
+**Results.**
 
 - Problem 3 (p. 419): If aleph_omega < 2^{aleph_{n_0}} < 2^{aleph_{n_1}} < ...
   and lambda = 2^{aleph_{n_0}} + 2^{aleph_{n_1}} + ..., then lambda ->

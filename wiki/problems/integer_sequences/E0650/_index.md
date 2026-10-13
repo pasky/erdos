@@ -135,7 +135,7 @@ under `category research solved` with proof `sorry` and a `formal_proof`
 attribute naming `ErdosProblem650.lean` in the repository `Woett/Lean-files` on
 its `main` branch; the variants `erdos_650.variants.erdos_suranyi` ($\sqrt m\le
 f(m)$) and `erdos_650.variants.erdos_selfridge` ($f(m^2)\le2m$) are `research
-solved` with `sorry` and no attribute. The community database, lists the problem
+solved` with `sorry` and no attribute. The community database lists the problem
 as "solved (Lean)" with a last update of 6 March 2026, `formal_status` Lean, the
 statement as formalized with a last update of 4 August 2026, no formal-proof URL
 and OEIS A027434; those dates are when the entries were last updated, not

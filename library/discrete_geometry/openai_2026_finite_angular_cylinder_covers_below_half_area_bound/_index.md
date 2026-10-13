@@ -133,9 +133,9 @@ clause by clause in the TeX source (`main.tex`, `sections/introduction.tex`,
 `sections/history.tex`, `sections/construction.tex`, `sections/coverage.tex`,
 `sections/area.tex`, `sections/angular-extensions.tex`,
 `sections/cubic-buffer.tex`; the appendices `sections/alternative-estimates.tex`
-and `sections/scaling-specializations.tex` read for their statements and
-table) on 2026-10-07; the proofs were read for their structure only and no
-step was checked; nothing here is independently reviewed.
+and `sections/scaling-specializations.tex` read for their statements and table);
+the proofs were read for their structure only and no step was checked; nothing
+here is independently reviewed.
 
 ## Contents
 

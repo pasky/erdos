@@ -57,13 +57,12 @@ Read status: claims checked for the abstract, the definition of a P-set in
 both of its printed forms, the recalled results (2) of Erdős and Sárközy and
 their conjecture (pp. 191--192), the $p^2$ example and the statement of the aim
 (p. 192), Lemma 1, Lemma 2 (p. 192), the Theorem (p. 193) and the Remarks
-(p. 195), each read clause by clause on the page images of PDF pp. 1--5 on
-2026-09-22. The proof of the Theorem (pp. 193--194) and the proof of Lemma 2
-(p. 193) were read in full on the page images and their steps followed;
-Lemma 1 (the large sieve, cited to Montgomery) and the divisor bound
-$d(n)=O_\varepsilon(n^\varepsilon)$ (cited to Wigert) were taken at
-statement level. The reference list (p. 195) was read on the page image.
-Nothing here is independently reviewed.
+(p. 195), each read clause by clause on the page images of PDF pp. 1--5. The
+proof of the Theorem (pp. 193--194) and the proof of Lemma 2 (p. 193) were read
+in full on the page images and their steps followed; Lemma 1 (the large sieve,
+cited to Montgomery) and the divisor bound $d(n)=O_\varepsilon(n^\varepsilon)$
+(cited to Wigert) were taken at statement level. The reference list (p. 195) was
+read on the page image. Nothing here is independently reviewed.
 
 ## Contents
 

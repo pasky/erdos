@@ -103,7 +103,7 @@ could not find the best possible value of the constant $c$ in his theorem;
 [[../wiki/problems/polynomials/E1151/_index|#1151]] only through the site's
 citation: the note says nothing on interpolation (Compiled scope above).
 
-**Results to transcribe.**
+**Results.**
 
 - [[number_theory/erdos_1943_note_farey_series/theorem|Theorem]]
   (p. 82): there is an absolute constant $c$ such that if $n>ck$ then the

@@ -84,7 +84,7 @@ terms are equal; Theorem 2 gives the triangle-free bound 2n/delta + O(1),
 part (ii) of the problem at r = 1, a case the printed Conjecture excludes;
 Theorem 3 is context only).
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For a connected n-vertex graph with minimum degree delta >= 2 the
   diameter is at most about 3n/(delta+1) - 1 and the radius at most about half

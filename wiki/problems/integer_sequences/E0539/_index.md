@@ -146,7 +146,7 @@ the second repository above), the negative answers to $h(n)=\Theta(n^{2/3})$ and
 $n^{2/3}=O(h(n))$ and the limit `Tendsto (fun n ↦ Real.log (cofactorThreshold n)
 / Real.log n) atTop (nhds (1/2))` (with attributes naming lines of
 `lean/Erdos539/FC.lean` in the first repository), citing Theorem A.1 of [SGD+26]
-in their docstrings. The community database, records the problem open (record
+in their docstrings. The community database records the problem open (record
 last updated 31 August 2025), the statement formalized since 16 April 2026 and
 no formal proof. The site's page marks the statement as formalized. Nothing was
 built or audited by this corpus. The two external repositories are described

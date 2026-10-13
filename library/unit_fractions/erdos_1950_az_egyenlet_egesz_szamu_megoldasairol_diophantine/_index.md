@@ -99,7 +99,7 @@ Straus, that N(4,b) <= 3 for every b > 4, that is, 4/b is a sum of at most
 three distinct unit fractions, with Straus's verification for 4 < b < 5000;
 the site's source key [Er50c])
 
-**Results to transcribe.**
+**Results.**
 
 - 1. tetel / Theorem 1 (p. 195, eq. 5): There is a constant c_1 such that N(a,b)
   < c_1 log b / log log b for every 0 < a < b.

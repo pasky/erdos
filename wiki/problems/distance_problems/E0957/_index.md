@@ -67,11 +67,11 @@ $c$ in the sum bound $f(d_1)+f(d_k)\leq3n-c\sqrt n+o(\sqrt n)$ that Erdős
 and Pach [ErPa90] state, and their stronger conjecture
 $f(d_1)\leq3n-2m+o(\sqrt n)$ for a convex hull with $m$ vertices, which
 would imply the product bound. The odd regular polygon shows that every
-distance can have multiplicity at least $n$. Search scope, 2026-10-07: the
-site's problem page and discussion thread, the publisher records of the
-conference and journal versions of [Du19], and an arXiv search for the
-paper, which finds no preprint of it; no forum proof claim, release item or
-lead names the problem.
+distance can have multiplicity at least $n$. Search scope: the site's problem
+page and discussion thread, the publisher records of the conference and
+journal versions of [Du19], and an arXiv search for the paper. On 2026-10-07
+arXiv listed no preprint of it, and no forum proof claim, release item or lead
+named the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

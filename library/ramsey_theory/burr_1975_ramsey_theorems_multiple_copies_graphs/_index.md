@@ -62,13 +62,13 @@ Read status: claims checked for the introduction's section summary (printed
 p. 87 = PDF p. 1), the opening paragraph of Section 5 with the trivial bound,
 Theorem 6 and its lower-bound coloring (p. 94 = PDF p. 8), the closing line
 of the proof and the opening of Section 6 (p. 95 = PDF p. 9), read clause by
-clause on the page images on 2026-09-18; the upper-bound argument of Theorem
-6 was read for its structure and not checked. The abstract, Lemma 1,
-Theorems 1 and 2 (p. 88), Lemma 2 (p. 89), Theorem 3 (p. 91), Theorem 4
-(p. 92), Theorem 5 with the definition of $D$ (p. 93), its Corollary
-(p. 94), Lemmas 3 and 4 and Theorem 7 (pp. 95--96) and the statements of
-Theorems 8--10 (pp. 97--98) were read clause by clause on the page images
-on 2026-10-08; their proofs were read for their structure and not checked.
+clause on the page images; the upper-bound argument of Theorem 6 was read for
+its structure and not checked. The abstract, Lemma 1, Theorems 1 and 2 (p. 88),
+Lemma 2 (p. 89), Theorem 3 (p. 91), Theorem 4 (p. 92), Theorem 5 with the
+definition of $D$ (p. 93), its Corollary (p. 94), Lemmas 3 and 4 and Theorem 7
+(pp. 95--96) and the statements of Theorems 8--10 (pp. 97--98) were read clause
+by clause on the page images; their proofs were read for their structure and not
+checked.
 
 For graphs G and H without isolated points (p. 87) with p(G) = k, p(H) = l
 and i = min(β_0(G), β_0(H)) the smaller of their independence numbers,

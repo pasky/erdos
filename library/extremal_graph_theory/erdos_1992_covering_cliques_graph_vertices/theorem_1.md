@@ -35,10 +35,10 @@ image. The edition is identified in the
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/_index|source digest]].
 
 **Read depth.** Claims checked: the statement was read clause by clause on the
-page image on 2026-09-19, and its five-line proof from Lemmas 1(a) and 2 was
-followed; the proofs of Lemma 1 (p. 282, elementary) and Lemma 2 (p. 282, half
-a page) were read for their structure and not checked step by step. Nothing
-here is independently reviewed.
+page image, and its five-line proof from Lemmas 1(a) and 2 was followed; the
+proofs of Lemma 1 (p. 282, elementary) and Lemma 2 (p. 282, half a page) were
+read for their structure and not checked step by step. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

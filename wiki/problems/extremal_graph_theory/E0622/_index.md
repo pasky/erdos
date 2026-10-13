@@ -60,10 +60,10 @@ result of [DKM25] and records no formalized statement; its discussion holds
 one comment, about a bibliography link that had been broken, and its
 proof-claims tab is empty.
 
-A separate 2026-09-05 search checked arXiv version history, the published IMRN
-article, author publication pages, later papers, and indexed announcements
-including X. It found related results about lower regular degrees, tournaments,
-and clique factors, rather than a replacement of the exact result for this
+A separate search checked arXiv version history, the published IMRN article,
+author publication pages, later papers, and indexed announcements including X.
+It found related results about lower regular degrees, tournaments, and clique
+factors, and on 2026-09-05 no replacement of the exact result for this
 question; details and primary links are in
 [[../library/extremal_graph_theory/draganic_2025_cyclic_subsets_regular_dirac_graphs/remarks_p14|the related-literature record]]
 and

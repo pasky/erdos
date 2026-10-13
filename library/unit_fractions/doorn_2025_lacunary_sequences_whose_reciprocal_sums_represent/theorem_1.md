@@ -16,12 +16,11 @@ updated: 2026-10-08T01:29:58Z
 (3 December 2025), 17 pages; Definition 1 (p. 1) and display (1.2) (p. 2);
 proof of (a) and (b) in Section 4 (pp. 10--12) through Proposition 8
 (Section 3, p. 8) and Lemma 10 (p. 10); (c) is Corollary 5 (Section 2,
-p. 6). Read on the rendered page image of p. 2 and in the text layer of
-pp. 1--8 on 2026-09-18. Published as W. van Doorn and V. Kovač, Acta Arith.
-223 (2026), 275--295, DOI 10.4064/aa251001-13-1, online 15 April 2026 (the
-arXiv journal reference and the Crossref record); the
-acknowledgments (p. 16) thank an anonymous referee; the published text was
-not compared and the locators here are the preprint's.
+p. 6). Read on the rendered page image of p. 2 and in the text layer of pp.
+1--8. Published as W. van Doorn and V. Kovač, Acta Arith. 223 (2026), 275--295,
+DOI 10.4064/aa251001-13-1, online 15 April 2026 (the arXiv journal reference and
+the Crossref record); the acknowledgments (p. 16) thank an anonymous referee;
+the published text was not compared and the locators here are the preprint's.
 
 ## Statement
 

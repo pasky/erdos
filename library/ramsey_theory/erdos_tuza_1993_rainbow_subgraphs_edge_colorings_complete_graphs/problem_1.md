@@ -92,10 +92,10 @@ identified in the
 [[ramsey_theory/erdos_tuza_1993_rainbow_subgraphs_edge_colorings_complete_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the definitions, the Notation, Problems 1
-and 2 and the paragraph after them were read clause by clause on the
-page images on 2026-09-22. They pose questions and state what the authors
-could prove; the claims for trees, $K_3$ and $C_4$ rest on Proposition 1,
-Theorem 2 and Theorem 3, whose proofs were read for structure only.
+and 2 and the paragraph after them were read clause by clause on the page
+images. They pose questions and state what the authors could prove; the claims
+for trees, $K_3$ and $C_4$ rest on Proposition 1, Theorem 2 and Theorem 3, whose
+proofs were read for structure only.
 
 ## Proof pointer
 

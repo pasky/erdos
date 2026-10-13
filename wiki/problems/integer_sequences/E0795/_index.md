@@ -209,8 +209,8 @@ graph-theoretic count of prime factorizations in the subset product set, by
 the strategy paragraph of Section 1.1; Sections 2--4 prove Theorems 1.3 and
 1.5 and Section 5 Theorems 1.4 and 1.6) were not checked.
 
-**Search scope (2026-09-18 UTC).** None of the routes below found a
-dispute of Raghavan's theorems, a sharper second-order result, or a
+**Search scope.** The routes below, as they stood on 2026-09-18, showed no
+dispute of Raghavan's theorems, no sharper second-order result and no
 determination of the exact lower-order term.
 
 - The site: problem page, discussion thread and proof-claim tab as of that

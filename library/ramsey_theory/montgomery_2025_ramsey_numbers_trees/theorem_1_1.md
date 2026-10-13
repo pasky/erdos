@@ -33,7 +33,7 @@ $2k$ and $k$ whose maximum degree is at most $3ck$.
 **Source.** R. Montgomery, M. Pavez-Signé and J. Yan, *Ramsey numbers of
 trees*, arXiv:2509.07934v1 (9 September 2025; the PDF is dated September 10,
 2025), 59 pages; Theorem 1.1 on p. 2, read on the page image of the retained
-PDF. Preprint: no journal record was found on 2026-09-17.
+PDF. A preprint.
 
 **Read depth.** Claims checked: the statement and the surrounding remarks on
 p. 2 were read clause by clause on the page image. The proof (Sections 2--7,

@@ -50,7 +50,7 @@ Source:
 
 **Bears on.** [[../wiki/problems/set_theory/E0592/_index|#592]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 358): Reduces alpha -> beta to indecomposable ordinals: with
   Cantor normal forms, alpha -> beta iff a one-to-one index map f exists with

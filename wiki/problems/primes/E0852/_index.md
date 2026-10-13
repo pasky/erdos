@@ -106,12 +106,12 @@ twelfth significant digit. A post of 23 December 2025 notes that the OEIS
 sequence A078515 is the inverse function of $h$. These are predictions and
 data, not theorems.
 
-Search scope, 2026-10-07: the site's page and discussion thread (eight
-comments, no proof claims), the community database (teorth/erdosproblems,
-which lists the problem as open and not formalized), the formal-conjectures
-catalog (no statement file for the problem), the library card of Stadlmann's
-paper, and the two write-ups through their links. No refereed result on
-$h(x)$ beyond Brun's sieve was found.
+Search scope, with the sources as they stood on 2026-10-07: the site's page and
+discussion thread (eight comments, no proof claims), the community database
+(teorth/erdosproblems, which listed the problem as open and not formalized), the
+formal-conjectures catalog (no statement file for the problem), the library card
+of Stadlmann's paper, and the two write-ups through their links. They showed no
+refereed result on $h(x)$ beyond Brun's sieve.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

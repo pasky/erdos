@@ -70,12 +70,12 @@ identified in the
 
 **Read depth.** Claims checked: the definitions, the recalled bounds and
 the statement with its condition on $c$ were read clause by clause on the
-page image on 2026-09-22. The proof of the upper estimate (pp. 78--79) was
-read in full on the page images and followed step by step, including the
-bound $\lambda(U_r)\le2^dr$ and the arithmetic of display (2.1); one
-misprint in its last step is recorded below. The proof of the lower
-estimate (pp. 79--81) was read on the page images for structure only, and
-the count (3.4) was not checked. Nothing here is independently reviewed.
+page image. The proof of the upper estimate (pp. 78--79) was read in full on the
+page images and followed step by step, including the bound $\lambda(U_r)\le2^dr$
+and the arithmetic of display (2.1); one misprint in its last step is recorded
+below. The proof of the lower estimate (pp. 79--81) was read on the page images
+for structure only, and the count (3.4) was not checked. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

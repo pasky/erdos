@@ -28,8 +28,7 @@ from Corollary 1.4, that is, from
 
 **Source.** A. Potechin, *A note on a problem of Erdős and Rothschild*,
 arXiv:1412.1838v1 (4 December 2014), Corollary 1.5 on p. 2, read on the
-rendered page image and in the text layer; no journal version found on
-2026-09-18.
+rendered page image and in the text layer.
 
 **Read depth.** Claims checked: the statement was read clause by clause.
 The deduction from Corollary 1.4 is not written out in the paper and was

@@ -74,11 +74,9 @@ Source: <https://arxiv.org/abs/2301.01656>.
 Read status: claims checked for the definitions (p. 1), the survey of p. 2,
 Theorems 1.1 and 1.2 with the Toft graph (p. 3), Lemma 2.1 (pp. 3--4), Lemma 3.1
 (p. 4), the remark of p. 6, Theorem 4.1 (p. 6) and the closing question (p. 12),
-each read clause by clause on the arXiv v1 print on 2026-10-08. The proofs
-(pp. 4--12) were read for structure only, and nothing here is independently
-reviewed.
-Labels and pages are those of arXiv v1; the published version's were not
-compared.
+each read clause by clause on the arXiv v1 print. The proofs (pp. 4--12) were
+read for structure only, and nothing here is independently reviewed. Labels and
+pages are those of arXiv v1; the published version's were not compared.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0917/_index|#917]]: the survey
 of p. 2

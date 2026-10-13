@@ -63,21 +63,20 @@ claims checked for the Chapter III passages on printed p. 305 (Hindman's
 theorem with Baumgartner's proof; the $\aleph_1$ question with Erdős's
 continuum-hypothesis sentence) and the Chapter IV passages on printed p. 306
 (item (i) with its added-in-proof note; the graph question), read clause by
-clause on the page images (PDF pp. 11--12, at 130 and 300 dpi) on 2026-09-18;
-the passages are prose and read cleanly. Also claims checked, on the page
-images on 2026-09-18: the Chapter II divisibility passage on printed
-pp. 302--303 (PDF pp. 8--9) and item (vi) on printed p. 309 (PDF p. 15),
-recorded below. Also claims checked, on the page image (130 dpi, and 300 dpi
-for the digits) on 2026-09-18: the two Chapter II passages on printed p. 302
-(PDF p. 8) recorded below for #876 and #350, the sum-free reciprocal-sum
-paragraph and the February 1973 conjecture on distinct subset sums; the
-printed constant is 103 (twice), as the digest above says, where Erdős's 1977
-restatement (Number theory day, p. 52) prints 100. The rest of the digest
-records an earlier reading that was not
-repeated. No notice is printed in the file; the Numdam record of the article
-shows its bibliographic data and no copyright, license or conditions-of-use
-statement (http://www.numdam.org/item/AST_1975__24-25__295_0/, read 2026-10-02),
-and Numdam's conditions page, which speaks for every item the site hosts, states
+clause on the page images (PDF pp. 11--12, at 130 and 300 dpi); the passages are
+prose and read cleanly. Also claims checked, on the page images: the Chapter II
+divisibility passage on printed pp. 302--303 (PDF pp. 8--9) and item (vi) on
+printed p. 309 (PDF p. 15), recorded below. Also claims checked, on the page
+image (130 dpi, and 300 dpi for the digits): the two Chapter II passages on
+printed p. 302 (PDF p. 8) recorded below for #876 and
+#350, the sum-free reciprocal-sum paragraph and the February 1973 conjecture on
+distinct subset sums; the printed constant is 103 (twice), as the digest above
+says, where Erdős's 1977 restatement (Number theory day, p. 52) prints 100. The
+rest of the digest records an earlier reading that was not repeated. No notice
+is printed in the file; the Numdam record of the article shows its bibliographic
+data and no copyright, license or conditions-of-use statement
+(http://www.numdam.org/item/AST_1975__24-25__295_0/, read 2026-10-02), and
+Numdam's conditions page, which speaks for every item the site hosts, states
 "Une partie importante des fonds numérisés est dans le domaine public et l'autre
 reste la propriété des auteurs et de la revue" and "Il est interdit de modifier
 les fichiers des textes intégraux" (https://www.numdam.org/conditions, read
@@ -210,7 +209,7 @@ exponent and the expectation $f(X)=o(X^\varepsilon)$; the site's key [Er75b,
 p. 309] for the problem. The exponent $3/4$ printed here differs from the $2/3$
 Erdős gives the same Erdős--Straus bound in his 1973, 1977 and 1980 accounts.
 
-**Results to transcribe.**
+**Results.**
 
 - Szemeredi regularity lemma and (7): Statement of the regularity lemma, and
   Szemeredi's proof that f_3(n;6,3) = o(n^2), where f_3(n;6,3) is the least

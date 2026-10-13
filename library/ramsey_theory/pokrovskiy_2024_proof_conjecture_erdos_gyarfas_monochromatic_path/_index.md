@@ -40,11 +40,11 @@ Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 license.
 
 Read status: claims checked for Theorems 1.1, 1.2 and 1.3, the remark after
 Theorem 1.3, the lower-bound construction and the conventions of Section 2 (pp.
-1--2), read clause by clause on the page images and in the text layer on
-2026-09-18; Lemmas 2.1--2.3 were read as statements in the text layer; the
-statements of Lemmas 2.4 and 3.1--3.3 and Proposition 3.4 and the outline of the
-proof of Theorem 1.3 (pp. 3--7) were read on the page images; no proof step was
-checked, and nothing here is independently reviewed.
+1--2), read clause by clause on the page images and in the text layer; Lemmas
+2.1--2.3 were read as statements in the text layer; the statements of Lemmas 2.4
+and 3.1--3.3 and Proposition 3.4 and the outline of the proof of Theorem 1.3
+(pp. 3--7) were read on the page images; no proof step was checked, and nothing
+here is independently reviewed.
 
 Erdos and Gyarfas showed (Theorem 1.2 here) that the vertices of any
 2-edge-colored K_n can be covered by 2 sqrt(n) monochromatic paths all of the
@@ -76,7 +76,7 @@ for n <= 20^{40} the paper proves only Proposition 3.4 (p. 7), that fewer than
 sqrt(n) + 20^4 monochromatic paths of one color always suffice, and its
 sqrt(n) + 10 remark is not proved.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.3 (p. 2): For all n > 20^{40}, the vertex set of any 2-edge-colored
   K_n can be covered by sqrt(n) monochromatic paths of the same color (page

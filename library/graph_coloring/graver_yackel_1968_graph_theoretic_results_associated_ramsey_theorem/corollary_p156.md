@@ -41,11 +41,10 @@ read on the page images. The artifact is identified in the
 [[graph_coloring/graver_yackel_1968_graph_theoretic_results_associated_ramsey_theorem/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, the abstract's and the
-introduction's forms of it and the proof were read clause by clause on the
-page images on 2026-09-22. The proof (five lines) was read in full and
-followed, together with the proof of Proposition 9 that it repeats;
-Lemma 2 (p. 126), which it invokes, was read on the page image of PDF
-p. 2. Nothing here is independently reviewed.
+introduction's forms of it and the proof were read clause by clause on the page
+images. The proof (five lines) was read in full and followed, together with the
+proof of Proposition 9 that it repeats; Lemma 2 (p. 126), which it invokes, was
+read on the page image of PDF p. 2. Nothing here is independently reviewed.
 
 ## Proof pointer
 

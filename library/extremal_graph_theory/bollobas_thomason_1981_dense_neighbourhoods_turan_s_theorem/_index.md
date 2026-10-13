@@ -53,14 +53,13 @@ foot of its first page, and that printed notice governs the publisher's
 open-archive copy, every other right reserved.
 
 Read status: claims checked for the abstract, the introduction and the
-Theorem (p. 111), read clause by clause on the page image of PDF p. 1 on
-2026-09-22; the proof (pp. 112--114, PDF pp. 2--4) was read in full on the
-page images and followed step by step, with three filing observations
-recorded on the result page and below, and a fourth, a misprinted range in
-the definition of $g$ (p. 112), found on a check of the page image on
-2026-10-07; the acknowledgments and the five references (p. 114) were read
-on the page image. The text layer was used only to locate passages. Nothing
-here is independently reviewed.
+Theorem (p. 111), read clause by clause on the page image of PDF p. 1; the proof
+(pp. 112--114, PDF pp. 2--4) was read in full on the page images and followed
+step by step, with three filing observations recorded on the result page and
+below, and a fourth, a misprinted range in the definition of $g$ (p. 112), found
+on a check of the page image; the acknowledgments and the five references
+(p. 114) were read on the page image. The text layer was used only to locate
+passages. Nothing here is independently reviewed.
 
 ## Contents
 
@@ -151,7 +150,7 @@ reviewed. Bondy's 1983 strengthening is a separate note, filed as
 [[extremal_graph_theory/bondy_1983_large_dense_neighbourhoods_turan_s_theorem/_index|bondy_1983_large_dense_neighbourhoods_turan_s_theorem]];
 its Theorem 2, that with more than $t_r(n)$ edges any vertex of maximum
 degree serves as the vertex $x$, is on printed p. 110 (PDF p. 2), located
-here on the text layer of that page on 2026-09-22 and paged on
+here on the text layer of that page and paged on
 [[extremal_graph_theory/bondy_1983_large_dense_neighbourhoods_turan_s_theorem/theorem_2|theorem_2]].
 
 No file of this source is held: no license on record permits its redistribution,

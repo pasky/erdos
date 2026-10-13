@@ -87,11 +87,11 @@ equivalence remark, Theorem 2, the definitions of permissible
 transformation, stable path, $H(T_G)$, $U(T_G)$ and $X(T_G)$, and Lemma 1
 (p. 172), Lemma 2 (p. 173), Lemma 3 (p. 174), Lemma 4 (p. 176), the comment
 (p. 179) and the references (p. 180), each read clause by clause on the
-page images of PDF pp. 1--4, 6, 9 and 10 on 2026-09-22. The proof of Lemma 1
-(pp. 172--173) was read in full on the page images and its two cases
-followed. The proofs of Lemmas 2--4 (pp. 173--177) and the proof of Theorem
-2 (pp. 177--179) were read on the page images for structure only; none of
-their displays was checked. Nothing here is independently reviewed.
+page images of PDF pp. 1--4, 6, 9 and 10. The proof of Lemma 1 (pp. 172--173)
+was read in full on the page images and its two cases followed. The proofs of
+Lemmas 2--4 (pp. 173--177) and the proof of Theorem 2 (pp. 177--179) were read
+on the page images for structure only; none of their displays was checked.
+Nothing here is independently reviewed.
 
 ## Contents
 

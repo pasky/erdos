@@ -43,10 +43,10 @@ abstract describes the method as signed fractional localization combined with
 an edge-disjoint triangle construction, needing only a qualitative
 fractional-packing approximation, and adds structural stability for sublinear
 defect and a finite-order theorem for integer signed clique functionals. This
-record rests on the arXiv abstract (as of 2026-10-07); this corpus has not
-checked the paper's proofs. Traverso's Paper IV cites the paper's
-Corollary 1.2 as obtaining the additive bound and eventual maximum for chordal
-graphs as a special case and its Theorem 1.1 for the extremal family.
+record rests on the arXiv abstract; this corpus has not checked the paper's
+proofs. Traverso's Paper IV cites the paper's Corollary 1.2 as obtaining the
+additive bound and eventual maximum for chordal graphs as a special case and
+its Theorem 1.1 for the extremal family.
 
 **Depends on.** Nothing in this wiki.
 

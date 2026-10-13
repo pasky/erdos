@@ -42,8 +42,8 @@ printed p. 36. The edition is identified in the
 [[extremal_graph_theory/george_khodkar_wallis_2016_minimal_pancyclicity/_index|source digest]].
 
 **Read depth.** Claims checked: the definition of $m(n)$, Conjecture 4.1,
-the construction and Theorem 17 were read clause by clause on the printed
-pages 35--36 on 2026-10-08. Nothing here is independently reviewed.
+the construction and Theorem 17 were read clause by clause on the printed pages
+35--36. Nothing here is independently reviewed.
 
 ## Proof pointer
 

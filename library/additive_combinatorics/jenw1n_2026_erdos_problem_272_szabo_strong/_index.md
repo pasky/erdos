@@ -78,9 +78,8 @@ the exact maximum on 2026-09-12 (PR #5807).
 
 The record page fetched shows Lean verification Passed, Conjectures review
 Approved (`REVIEW_APPROVED` under policy v2, decided 2026-09-11T20:38:25Z),
-Reward Paid ($13,177 at the day's rate, 12334.9281 α locked at submission) and
-Certified 14 September 2026; the results listing's record data gives
-`verification_status VERIFIED`, `reward_status REWARDED`, certified
+Reward Paid and Certified 14 September 2026; the results listing's record data
+gives `verification_status VERIFIED`, `reward_status REWARDED`, certified
 2026-09-14T08:14:36Z and task
 `fc-8432eac9-variants-szabo-strong-454001886c-formalized-v1`. The verification
 report lists a static scan (no imports, no axiom declarations, no `sorry`, no

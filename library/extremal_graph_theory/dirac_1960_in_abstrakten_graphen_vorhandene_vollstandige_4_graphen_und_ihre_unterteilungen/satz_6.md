@@ -64,12 +64,11 @@ the inequality signs). The edition is identified in the
 
 **Read depth.** Claims checked: the statement of Satz 6, its proof, the
 best-possible sentence and the statement of Satz 5 were read clause by
-clause on the page images on 2026-09-22, and the figures were read on the
-page image of p. 67. The proof of Satz 6 (one paragraph) was read in full
-and followed as printed; the proof of Satz 5 (pp. 67--68) was read on the
-page image and in the text layer for its reduction to Satz 4, and the proof
-of Satz 4 (pp. 64--65) was read in the text layer for structure only.
-Nothing here is independently reviewed.
+clause on the page images, and the figures were read on the page image of p. 67.
+The proof of Satz 6 (one paragraph) was read in full and followed as printed;
+the proof of Satz 5 (pp. 67--68) was read on the page image and in the text
+layer for its reduction to Satz 4, and the proof of Satz 4 (pp. 64--65) was read
+in the text layer for structure only. Nothing here is independently reviewed.
 
 ## Proof pointer
 

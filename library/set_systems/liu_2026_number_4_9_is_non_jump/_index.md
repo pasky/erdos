@@ -40,7 +40,7 @@ Source: <https://arxiv.org/abs/2605.13567>.
 
 **Bears on.** [[../wiki/problems/set_systems/E0837/_index|#837]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (p. 2): 4/9 is a non-jump for 3-uniform hypergraphs; via Peng's
   lifting, 2r!/r^r is a non-jump for every r >= 4 (also obtained by Shaw).

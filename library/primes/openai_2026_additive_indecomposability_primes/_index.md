@@ -93,9 +93,8 @@ environments `prop:quadratic`, `cor:quad-harmonic`, `prop:characters`,
 `cor:mixed-flatness`, `prop:supply`, `lem:supply-local-contraction`,
 `lem:supply-total-prime-error`, `lem:tree-comparison`, `prop:comparisons`
 and `lem:arith-progression`, and the unlabeled remark at
-`sections/05-supply.tex` lines 751--772) on 2026-10-07; the proofs were read
-for their structure only and no step was checked; nothing here is
-independently reviewed.
+`sections/05-supply.tex` lines 751--772); the proofs were read for their
+structure only and no step was checked; nothing here is independently reviewed.
 
 ## Contents
 

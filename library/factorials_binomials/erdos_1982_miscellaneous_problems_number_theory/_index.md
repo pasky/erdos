@@ -88,14 +88,13 @@ integers is 1, which Erdős reports remains out of reach.
 The copy read for this card is a 21-page scan of printed pp. 25--45 (printed
 p. n is PDF p. n - 24) whose text layer garbles the formulas. The Part II
 passage below was read on the page images of PDF pp. 14--15 (printed pp.
-38--39) on 2026-09-18. Read status: claims checked for Theorem 3 and displays
-(23)--(26), read clause by clause on the page images; the paper gives no proof
-of Theorem 3, so there is nothing to check. The digest's other statements
-(Theorems 1 and 2, displays (4)--(6), Part III's (30)--(31)) were checked
-against the page images; the proofs of Theorems 1 and 2 are not
-verified. No notice is printed on the scan's first or last pages; the hosting
-archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All
+38--39). Read status: claims checked for Theorem 3 and displays (23)--(26), read
+clause by clause on the page images; the paper gives no proof of Theorem 3, so
+there is nothing to check. The digest's other statements (Theorems 1 and 2,
+displays (4)--(6), Part III's (30)--(31)) were checked against the page images;
+the proofs of Theorems 1 and 2 are not verified. No notice is printed on the
+scan's first or last pages; the hosting archive's site footer speaks for the
+site, not the paper (https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All
 rights reserved. All material on this site is for scientifics purposes only.");
 Congressus Numerantium 34 (1982), published by Utilitas Mathematica, has no
 publisher page or DOI for this edition, so the publisher's page was not

@@ -75,16 +75,15 @@ Read status: claims checked for the abstract, the definitions of § 1
 Lemma 1.1 with its proof and the tightness remark (p. 173), Theorem 2.1
 and Table 1 (p. 174), Lemma 3.1 (p. 175), Theorem 3.7 (p. 177), the
 conclusion with Open Question 1 and the two references (p. 177), each read
-clause by clause on the page images of PDF pp. 1--5 on 2026-09-22; Table
-1's twelve row values and their total $13/24$ were recomputed here from the
-printed fractions. The proof of Theorem 2.1 (p. 174, half a page of prose
-plus the table) was read in full on the page image and its boundary
-argument was followed and not checked; the proof paragraph of Theorem 3.7
-(p. 177) was read in full on the page image and its assembly of Lemmas
-3.3, 3.4, 3.6 and 3.1 was followed and not checked; Lemmas 3.2--3.6 with
-the case analysis of Lemma 3.3 (pp. 175--177) were read on the page images
-for structure only, and none of their cases was checked. Nothing here is
-independently reviewed.
+clause by clause on the page images of PDF pp. 1--5; Table 1's twelve row values
+and their total $13/24$ were recomputed here from the printed fractions. The
+proof of Theorem 2.1 (p. 174, half a page of prose plus the table) was read in
+full on the page image and its boundary argument was followed and not checked;
+the proof paragraph of Theorem 3.7 (p. 177) was read in full on the page image
+and its assembly of Lemmas 3.3, 3.4, 3.6 and 3.1 was followed and not checked;
+Lemmas 3.2--3.6 with the case analysis of Lemma 3.3 (pp. 175--177) were read on
+the page images for structure only, and none of their cases was checked. Nothing
+here is independently reviewed.
 
 ## Contents
 

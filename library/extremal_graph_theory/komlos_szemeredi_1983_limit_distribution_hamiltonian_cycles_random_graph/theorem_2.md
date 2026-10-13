@@ -64,10 +64,10 @@ identified in the
 [[extremal_graph_theory/komlos_szemeredi_1983_limit_distribution_hamiltonian_cycles_random_graph/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the $V'$ passage were read
-clause by clause on the page images of PDF pp. 2--3 on 2026-09-22, the
-displays on higher-resolution crops of the same pages. The proof (§ 3,
-p. 62, one paragraph reducing to Theorem 1) was read on the page image for
-structure only and not checked. Nothing here is independently reviewed.
+clause by clause on the page images of PDF pp. 2--3, the displays on
+higher-resolution crops of the same pages. The proof (§ 3, p. 62, one paragraph
+reducing to Theorem 1) was read on the page image for structure only and not
+checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

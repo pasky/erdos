@@ -35,10 +35,10 @@ journal text was not compared. The artifact is identified in the
 
 **Read depth.** Claims checked: the statement and the paragraphs before it
 (p. 7), with the definitions of p. 2 in the text layer, were read clause by
-clause on the page image on 2026-09-19; the proof (pp. 7--11, a case
-analysis on the part sizes $a\ge b\ge c\ge d$, one case of which uses the
-Ore--Ryser $f$-factor theorem) was read for structure only on the page
-images on 2026-10-07, its estimates not checked.
+clause on the page image; the proof (pp. 7--11, a case analysis on the part
+sizes $a\ge b\ge c\ge d$, one case of which uses the Ore--Ryser $f$-factor
+theorem) was read for structure only on the page images, its estimates not
+checked.
 
 ## Proof pointer
 

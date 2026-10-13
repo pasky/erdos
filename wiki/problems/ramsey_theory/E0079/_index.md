@@ -61,7 +61,7 @@ vertices and its proper subgraphs are the subgraphs of its one-edge-deleted
 graphs). No result about the site's wording is published. The problem's standing
 judges the corrected Statement.
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
 last-edited date). $R(G,H)$ is the least $N$ such that every red-blue coloring
 of the edges of $K_N$ has a red $G$ or a blue $H$, and "$R(G,H)\ll m$" means
 $R(G,H)\le C_G\,m$ with $C_G$ depending only on $G$ ([EFRS93], Definition 1,

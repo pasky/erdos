@@ -70,7 +70,7 @@ $n-\Theta(\sqrt{n\log n})$;
 [[ramsey_theory/kim_1995_ramsey_number_has_order_magnitude/theorem_1_1|theorem_1_1]]),
 [[../wiki/problems/graph_coloring/E1104/_index|#1104]]
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/kim_1995_ramsey_number_has_order_magnitude/theorem_1_1|Theorem 1.1]]
   (typescript p. 1): Every sufficiently large n has a triangle-free graph

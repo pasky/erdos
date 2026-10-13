@@ -45,10 +45,9 @@ on.
 
 ## Later status
 
-- Question 1 is unresolved in the sources located on 2026-09-27. Tao's 2024
-  paper records the stronger assertion $M^\uparrow(x)\le\pi(x)+O(1)$ as the
-  question this paper left open, and the $+64$ conjecture as the numerical
-  expectation, on its
+- Question 1 is unresolved in the sources located. Tao's 2024 paper records the
+  stronger assertion $M^\uparrow(x)\le\pi(x)+O(1)$ as the question this paper
+  left open, and the $+64$ conjecture as the numerical expectation, on its
   [[primes/tao_2024_monotone_nondecreasing_sequences_euler_totient_function/external_context|external-context page]];
   Tao's
   [[primes/tao_2024_monotone_nondecreasing_sequences_euler_totient_function/proposition_4_1|Proposition 4.1]]

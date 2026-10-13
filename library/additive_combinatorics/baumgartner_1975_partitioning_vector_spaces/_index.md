@@ -25,10 +25,9 @@ integer k, for which the paper omits the modified proof.
 Combinatorial Theory, Series A **18** (1975), 231–233; received 1974-05-07.
 [DOI](https://doi.org/10.1016/0097-3165(75)90016-3).
 The copy read for this card, the publisher's PDF of printed pp. 231–233, was
-inspected page by page on 2026-09-06 and read again against the card and the
-result pages on 2026-10-08. It prints "Copyright © 1975 by Academic Press, Inc.
-All rights of reproduction in any form reserved." in the footer of printed
-p. 231, every other right reserved.
+inspected page by page and read again against the card and the result pages. It
+prints "Copyright © 1975 by Academic Press, Inc. All rights of reproduction in
+any form reserved." in the footer of printed p. 231, every other right reserved.
 
 The [[additive_combinatorics/baumgartner_1975_partitioning_vector_spaces/main_theorem|unnumbered Theorem on p. 231]] constructs a subset of any
 vector space over $\mathbb Q$ that meets every one-sided infinite arithmetic

@@ -72,9 +72,9 @@ partial claims, so the problem is open: the first question, the size of the
 largest set, is determined exactly by the claims only for $c\ge1$, and
 asymptotically along some arithmetic subsequences of $n$ for $0<c<1$ (Alon's
 Corollary 2.6 at $c=1/2$, Beyer de Ryke's limits and Principia Math's second
-claim); no claim determines $f_c(n)$ for every $n$ when $0<c<1$. Search scope,
-2026-10-07: the site's page, its discussion thread and its proof-claims tab with
-the comments under the claim, the claimant's repository, the note linked in the
+claim); no claim determines $f_c(n)$ for every $n$ when $0<c<1$. Search scope:
+the site's page, its discussion thread and its proof-claims tab with the
+comments under the claim, the claimant's repository, the note linked in the
 thread and the papers these cite.
 
 ## Known Results

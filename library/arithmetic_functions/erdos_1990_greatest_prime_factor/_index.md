@@ -50,7 +50,7 @@ Source: <https://eudml.org/doc/206280>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0976/_index|#976]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For f in Z[x] irreducible of degree l > 1 there is an absolute c_1
   > 0 with P(∏_{k=1}^{x} f(k)) > x exp exp(c_1 (log log x)^{1/3}) for all x >

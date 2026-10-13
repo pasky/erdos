@@ -16,7 +16,7 @@ updated: 2026-10-07T20:53:39Z
 ***
 
 Tamás Erdélyi, "Do flat skew-reciprocal Littlewood polynomials exist?,"
-arXiv:2001.08151 (2020).
+arXiv:2001.08151 (2020). The held file is arXiv:2001.08151v2 of 7 July 2020.
 
 [Retained PDF](erdelyi_2020_do_flat_skew_reciprocal_littlewood_polynomials_exist.pdf).
 The arXiv record (https://arxiv.org/abs/2001.08151, read 2026-10-02) names the

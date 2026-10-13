@@ -78,7 +78,7 @@ the status-defining result for the cycles of length at least nine, through
 its specialization at e = floor(n^2/4)+1, and Conjecture 1.1 (p. 2) states
 the problem in the paper's words; the cycle C_7 is outside the theorem.
 
-**Results to transcribe.**
+**Results.**
 
 - Conjecture 1.1 (p. 2): Burr-Erdős-Graham-Sós conjecture: for k >= 3, f(n,
   floor(n^2/4)+1, C_{2k+1}) = n^2/8 + o(n^2) (page

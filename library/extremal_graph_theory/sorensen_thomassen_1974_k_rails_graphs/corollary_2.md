@@ -92,16 +92,15 @@ Within the paper: Lemma 5 (p. 155), unproved in print. No outside result.
   as
   [[extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/_index|leonard_1973_conjecture_bollobas_erdos]];
   the graph $G$ with 57 points and 141 edges and no 5-way is announced on
-  printed p. 281 (PDF p. 1), located here in the text layer on 2026-09-22
-  and paged on
+  printed p. 281 (PDF p. 1), located here in the text layer and paged on
   [[extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/counterexample_p281|counterexample_p281]])
   and of Mader's $k_m(n)>\frac m2n+C$ for some $n$, for every $C$ and
   $m\ge6$ ([Ma73], filed as
   [[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/_index|mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen]];
   the examples showing that no constant $c_n$ makes $\frac n2e(G)+c_n$
   edges force $n$ internally disjoint paths, $e(G)$ there being Mader's
-  number of vertices, begin on printed p. 228 (PDF p. 6), read there on the
-  page image on 2026-09-22 and paged on
+  number of vertices, begin on printed p. 228 (PDF p. 6), read there on the page
+  image and paged on
   [[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/examples_p228|examples_p228]]),
   which the paper's introduction reports as citations (p. 143). Part
   (b) is the lower bound at multiples of 3 used in the proof of

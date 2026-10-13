@@ -58,9 +58,8 @@ exactly the estimate of f(n) and the question whether that limit exists.
 
 Read status: claims checked for inequality (1) and its argument (p. 52),
 inequalities (2) and (3) with both proofs (p. 53) and the conjecture on the
-limit (p. 53), read clause by clause on the page images on 2026-10-08; the
-final estimates in the proof of (2) read for structure. Nothing here is
-independently reviewed.
+limit (p. 53), read clause by clause on the page images; the final estimates in
+the proof of (2) read for structure. Nothing here is independently reviewed.
 
 Source: <https://users.renyi.hu/~p_erdos/1978-44.pdf>. No notice is printed on
 any of the three pages; the journal's page states "The copyright for both the

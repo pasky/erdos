@@ -73,8 +73,9 @@ the arXiv record lists no journal reference so no
 refereed publication is listed. The theorem statements of [MiSa25] and
 [DE59] are those recorded on their library cards; no independent review of
 the proof is recorded. The status search covered the site, its forum
-thread, the arXiv record and the community database on 2026-10-07; the
-thread holds no proof claim, and no other claim of the result was found.
+thread, the arXiv record and the community database; on 2026-10-07 the thread
+held no proof claim, and none of these sources recorded another claim of the
+result.
 
 ## Known Results
 

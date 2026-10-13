@@ -79,7 +79,7 @@ on Hasanalizade [Has21] (also discussed by Schlage-Puchta [Sch25]).
 
 **Bears on.** [[../wiki/problems/divisors/E0964/_index|#964]]
 
-**Results to transcribe.**
+**Results.**
 
 - [[divisors/eberhard_2025_ratios_consecutive_values_divisor_function/main_theorem|Main theorem]]: Every positive rational is attained infinitely
   many times by the sequence of ratios $d(n+1)/d(n)$.

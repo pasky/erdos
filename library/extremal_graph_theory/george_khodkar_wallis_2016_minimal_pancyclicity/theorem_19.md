@@ -109,13 +109,13 @@ the
 **Read depth.** Claims checked: the definitions of $x_k$, $A_k$ and
 $A_k^*$, the cycle lengths each set of chords supplies, the definition of
 $G_k$ and its excess table, the excess-6 argument, Theorem 18, the general
-recipe and Theorem 19 were read clause by clause on the page images of PDF
-pp. 57--59 on 2026-09-22. The constructions were followed as counting
-arguments: which cycle lengths the chords $A_0,\ldots,A_{k-1}$, $A_k^*$ and
-$A_4^*$ supply, and the resulting excess on each range; the non-overlap of
-the chords for the stated $n$ and the seventeen-vertex and $54\le n\le68$
-computer analyses of Sridharan's construction (pp. 44--45) were not
-checked. Nothing here is independently reviewed.
+recipe and Theorem 19 were read clause by clause on the page images of PDF pp.
+57--59. The constructions were followed as counting arguments: which cycle
+lengths the chords $A_0,\ldots,A_{k-1}$, $A_k^*$ and $A_4^*$ supply, and the
+resulting excess on each range; the non-overlap of the chords for the stated $n$
+and the seventeen-vertex and $54\le n\le68$ computer analyses of Sridharan's
+construction (pp. 44--45) were not checked. Nothing here is independently
+reviewed.
 
 ## Proof pointer
 
@@ -146,13 +146,11 @@ one beyond the range $5\le j\le20$ argued before it. A filing observation, not a
 review verdict: at $j=21$ the same chords ($A_0,\ldots,A_{20}$,
 $A_{21}^*$ and $A_4^*$) give a 21-cycle only at $n=2^{21}+23$ and
 $n=2^{21}+40$, so on the rest of the window $2^{21}+21\le n\le2^{22}+20$
-the printed construction does not give excess 23 (a cycle-length
-computation of 2026-10-07, not retained). At $j=22$ the 21-cycle is
-missing;
-$A_5^*$ supplies lengths 6 to 37, and $A_{h+1}^*$ is needed once
-$n>2^j+j+1$ with $j=2^h+h+1$, so on Theorem 19's window the chords
-$A_0,\ldots,A_{2^h+h+1}$ and $A_4^*,\ldots,A_{h+1}^*$, in number
-$(2^h+h+2)+(h-2)=2^h+2h$, give a pancyclic graph. Followed here at the
+the printed construction does not give excess 23 (a cycle-length computation,
+not retained). At $j=22$ the 21-cycle is missing; $A_5^*$ supplies lengths 6 to
+37, and $A_{h+1}^*$ is needed once $n>2^j+j+1$ with $j=2^h+h+1$, so on Theorem
+19's window the chords $A_0,\ldots,A_{2^h+h+1}$ and $A_4^*,\ldots,A_{h+1}^*$, in
+number $(2^h+h+2)+(h-2)=2^h+2h$, give a pancyclic graph. Followed here at the
 level stated in the read depth; the non-overlap conditions were not
 checked.
 

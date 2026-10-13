@@ -40,9 +40,8 @@ which the paper uses again in the proof of
 [[factorials_binomials/erdos_1996_number_divisors/corollary_2|Corollary 2]].
 
 **Read depth.** Claims checked: the statement and display (5) were read
-clause by clause on the page images on 2026-10-08, and the proof on
-pp. 3--4 was followed step by step. Nothing here is independently
-reviewed.
+clause by clause on the page images, and the proof on pp. 3--4 was followed step
+by step. Nothing here is independently reviewed.
 
 ## Proof sketch
 

@@ -46,10 +46,10 @@ authors' manuscript described in the
 [[extremal_graph_theory/bollobas_2002_better_bounds_max_cut/_index|source digest]],
 proof on pp. 11-12.
 
-**Read depth.** Claims checked: statement read clause by clause on the
-page images on 2026-10-08; the proof on pp. 11-12 was read and followed
-except the $n=4$ equality case, which the paper settles by "a simple case
-check" (p. 12) without giving it.
+**Read depth.** Claims checked: statement read clause by clause on the page
+images; the proof on pp. 11-12 was read and followed except the $n=4$ equality
+case, which the paper settles by "a simple case check" (p. 12) without giving
+it.
 
 ## Proof pointer
 

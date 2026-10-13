@@ -47,7 +47,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0156/_index|#156]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 5.3: For t >= 6, no [n_t, n_t - t, 5] binary code exists for a
   specified n_t, giving s_max(F_2^t) <= 2^((t+1)/2) - 2 for odd t and

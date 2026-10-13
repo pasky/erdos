@@ -29,7 +29,7 @@ Problem 3 on p. 134. The copy read is identified on the
 [[polynomials/erdos_1958_metric_properties_polynomials/_index|source card]].
 
 **Read depth.** Claims checked: the problem was read clause by clause on the
-page image of p. 134 on 2026-10-08. Nothing here is independently reviewed.
+page image of p. 134. Nothing here is independently reviewed.
 
 ## Dependencies
 

@@ -186,16 +186,16 @@ tier or formalization standing and does not turn the imported metadata into
 local proof verification; it is separate from the reconstruction review
 above and does not extend it.
 
-**Status search (2026-09-17 UTC).** The site page, its forum thread and its
-proof-claim list (three comments; no proof claims; no proof expositions); the
+**Status search.** The site page, its forum thread and its proof-claim list
+(three comments, no proof claims and no proof expositions on 2026-09-17); the
 erdosproblems community database entry 250; the formal-conjectures file; the
-zbMATH records of the sources; Crossref for the journal data of [Zu02],
-[PV07], [SV09] and the LNM 1752 chapter; mathnet.ru, numdam, arXiv and the
-author's page for the PDFs; web searches for the sources by title, for the
-irrationality of $\sum\sigma(n)/2^n$, and for "Erdős problem 250" with "Lean";
-the GitHub API for the database's history and for the claimed Lean proof. Not
-searched: MathSciNet (no access); X (not used). No dispute, retraction or
-contrary claim concerning the cited proofs was found; the thread's one
+zbMATH records of the sources; Crossref for the journal data of [Zu02], [PV07],
+[SV09] and the LNM 1752 chapter; mathnet.ru, numdam, arXiv and the author's page
+for the PDFs; web searches for the sources by title, for the irrationality of
+$\sum\sigma(n)/2^n$, and for "Erdős problem 250" with "Lean"; the GitHub API for
+the database's history and for the claimed Lean proof. Not searched: MathSciNet
+(no access); X (not used). On that date these sources showed no dispute,
+retraction or contrary claim concerning the cited proofs; the thread's one
 alternative argument, RomanLeLan's note of 21 October 2025, was refuted by the
 curator the same day and is recorded as a rejected claim page,
 [[problems/irrationality/E0250/claims/2025_10_21_romanlelan|RomanLeLan 2025]].
@@ -283,9 +283,8 @@ the $\omega$ case conditionally.
 - The site's badge "PROVED (LEAN)" is the `formal_status: Lean` field of
   entry 250 in `data/problems.yaml` of the community database
   teorth/erdosproblems (`status: proved (Lean)`, `last_update: 2026-08-23`,
-  no URL;). It was set by the database's pull request
-  #385, "Formalize solutions to 40 problems with existing statements",
-  merged 2026-08-24.
+  no URL). It was set by the database's pull request #385, "Formalize
+  solutions to 40 problems with existing statements", merged 2026-08-24.
 - The proof it refers to is in Boris Alexeev's repository
   [plby/lean-proofs, at its revision of 2026-09-15](https://github.com/plby/lean-proofs/tree/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems):
   `src/latest/ErdosProblems/Erdos250.lean` and thirteen files under

@@ -45,7 +45,7 @@ stated.
 
 **Bears on.** [[../wiki/problems/irrationality/E1001/_index|#1001]]
 
-**Results to transcribe.**
+**Results.**
 
 - theorem_1: For any alpha > 0, c >= 1 and any subinterval I of [0,1],
   lim_{m->inf} mu(S_I(m,alpha,c)) exists and equals |I| rho(alpha,c).

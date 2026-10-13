@@ -129,7 +129,7 @@ Erdős Problem #981, https://www.erdosproblems.com/981, accessed 2026-09-18.
 directory](https://github.com/google-deepmind/formal-conjectures/tree/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems)
 of google-deepmind/formal-conjectures on main of 2026-09-18 (673 entries) has no
 file for this problem, and the community database (teorth/erdosproblems, fetched
-and again 2026-10-06) lists the problem as proved, as of its entry's last update
+2026-10-06) lists the problem as proved, as of its entry's last update
 on 26 December 2025, not formalized, with no formal proof. The site's
 formalized-statement indicator read no.
 

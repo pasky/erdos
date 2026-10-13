@@ -89,12 +89,12 @@ text layer garbles the formulas). The artifact is identified in the
 
 **Read depth.** Claims checked: Satz 6, the Folgerung, Satz 7 and (47)
 with its framing paragraph were read clause by clause on the page images
-of PDF pp. 11, 14, 15 and 18 on 2026-09-22. The proof of Satz 6
-(pp. 11--14; pp. 12--13 in the text layer only), the eight-interval method
-of § 4 (pp. 15--17) and the two-case argument for (47) (pp. 18--23;
-pp. 20--22 in the text layer only) were read for structure, and none of
-their numerical inequalities was checked. The conversion to $g(n)$ above
-is an authored two-line step. Nothing here is independently reviewed.
+of PDF pp. 11, 14, 15 and 18. The proof of Satz 6 (pp. 11--14; pp. 12--13 in the
+text layer only), the eight-interval method of § 4 (pp. 15--17) and the two-case
+argument for (47) (pp. 18--23; pp. 20--22 in the text layer only) were read for
+structure, and none of their numerical inequalities was checked. The conversion
+to $g(n)$ above is an authored two-line step. Nothing here is independently
+reviewed.
 
 ## Proof pointer
 

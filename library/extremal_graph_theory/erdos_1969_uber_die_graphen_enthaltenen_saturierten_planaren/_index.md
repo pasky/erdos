@@ -91,19 +91,17 @@ terms-and-conditions entry
 every other right reserved.
 
 Read status: claims checked for Satz 1 (p. 13), Satz 2 and Lemma 1 (p. 14),
-and the example and conjecture on pp. 16--17, read clause by clause on the
-page images on 2026-09-18; the proof of Satz 2 (p. 14) and the sharpness
-construction (pp. 14--16) were read for structure only. Satz 3, Satz 4 and
-Satz 5 (pp. 16--17) were read as statements, and on 2026-10-08 clause by
-clause on the page images, with the remarks after each; Satz 4 and Satz 5
-have no proof in the paper, and the sketch for Satz 3 was read for
-structure only. The digest paragraph above
-agrees with the print for Satz 1, Satz 2, Lemma 1 and the sharpness
-construction; it omits pp. 16--17, which state the exact question of the
-catalog's Problem 1019: the paper constructs a $G(n;[n^2/4]+[(n-1)/2])$
-with no saturated planar subgraph on more than three vertices and asks
-whether every $G(n;[n^2/4]+[(n+1)/2])$ contains one, two years before the
-1971 problem list restated the question.
+and the example and conjecture on pp. 16--17, read clause by clause on the page
+images; the proof of Satz 2 (p. 14) and the sharpness construction (pp. 14--16)
+were read for structure only. Satz 3, Satz 4 and Satz 5 (pp. 16--17) were read
+clause by clause on the page images, with the remarks after each; Satz 4 and
+Satz 5 have no proof in the paper, and the sketch for Satz 3 was read for
+structure only. The digest paragraph above agrees with the print for Satz 1,
+Satz 2, Lemma 1 and the sharpness construction; it omits pp. 16--17, which state
+the exact question of the catalog's Problem 1019: the paper constructs a
+$G(n;[n^2/4]+[(n-1)/2])$ with no saturated planar subgraph on more than three
+vertices and asks whether every $G(n;[n^2/4]+[(n+1)/2])$ contains one, two years
+before the 1971 problem list restated the question.
 
 ## Contents
 

@@ -56,13 +56,13 @@ is identified in the
 [[additive_combinatorics/choi_1974_extremal_problem_number_theory/_index|source digest]].
 
 **Read depth.** Claims checked: the abstract, the definition, (1), (2) and
-footnote 1 were read clause by clause on the page image of PDF p. 1 on
-2026-09-22, the exponents at full page resolution. The proof (pp. 109--111)
-was read on the page images for its structure, the case split, the count
-of large classes, the application of the Lemma and the admissibility check;
-its estimates (20)--(26) were not checked line by line. The Lemma it uses
-(pp. 108--109) and the proof of (2) whose two cases it reuses (pp. 106--108)
-were read in full and followed. Nothing here is independently reviewed.
+footnote 1 were read clause by clause on the page image of PDF p. 1, the
+exponents at full page resolution. The proof (pp. 109--111) was read on the page
+images for its structure, the case split, the count of large classes, the
+application of the Lemma and the admissibility check; its estimates (20)--(26)
+were not checked line by line. The Lemma it uses (pp. 108--109) and the proof of
+(2) whose two cases it reuses (pp. 106--108) were read in full and followed.
+Nothing here is independently reviewed.
 
 ## Proof pointer
 

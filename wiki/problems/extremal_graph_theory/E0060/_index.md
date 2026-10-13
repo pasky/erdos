@@ -68,9 +68,10 @@ that two copies are guaranteed for large $n$, with no citation; this page
 records no source for the second. The 2026-09-12 commit restricted the first
 variant from even $q$ to powers of $2$.
 
-Search scope: on 2026-10-07 the site's problem page and its empty thread,
-the formal-conjectures statement file, and the arXiv and Crossref records of
-[HeMaYa21] were read; no further claim on the stated question was found.
+Search scope: the site's problem page and its thread, the formal-conjectures
+statement file, and the arXiv and Crossref records of [HeMaYa21]. On
+2026-10-07 the thread was empty and none of these held a further claim on the
+stated question.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

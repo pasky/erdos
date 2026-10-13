@@ -163,12 +163,12 @@ accessed 2026-09-18.
   Context.
 
 **Formalization.** None in formal-conjectures: no file `ErdosProblems/687.lean`
-exists in google-deepmind/formal-conjectures(none of the 673 entries of the
+exists in google-deepmind/formal-conjectures (none of the 673 entries of the
 directory `FormalConjectures/ErdosProblems/`, or of the 1,740 entries of the
 recursive tree, is for this problem), and the site's indicator shows no
 formalized statement. The community database (teorth/erdosproblems) records the
 problem open (31 August 2025), the statement not formalized, `formal_status`
-unformalized, no formal-proof URL, the prize "$1000" and the OEIS entries
+unformalized, no formal-proof URL, the prize field set and the OEIS entries
 A048670 and A058989.
 
 ## Current assessment

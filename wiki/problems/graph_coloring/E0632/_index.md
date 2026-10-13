@@ -82,10 +82,11 @@ corpus has not built or audited it, so the claim page lists no `formalized`
 evidence; the community database records no formalized statement and the
 formal-conjectures repository has no file for the problem (2026-10-07).
 
-Search scope, 2026-10-07: the site's page and discussion thread (no comments,
-no proof claims), the community database (teorth/erdosproblems), the
-formal-conjectures repository, the lean-proofs collection and Crossref. No
-other claim on the problem was found.
+Search scope: the site's page and discussion thread, the community database
+(teorth/erdosproblems), the formal-conjectures repository, the lean-proofs
+collection and Crossref. On 2026-10-07 the thread held no comments and the
+site no proof claims, and none of these sources showed another claim on the
+problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

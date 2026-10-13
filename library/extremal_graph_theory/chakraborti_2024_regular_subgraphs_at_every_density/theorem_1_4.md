@@ -30,7 +30,7 @@ was not compared.
 
 **Read depth.** Claims checked: the statement was read clause by clause on the
 page image of p. 2. The proof (Section 3, pp. 9--11) was read for its structure
-on the page images on 2026-10-07 and not checked step by step.
+on the page images and not checked step by step.
 
 ## Proof pointer
 

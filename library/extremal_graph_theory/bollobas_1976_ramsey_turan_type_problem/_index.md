@@ -73,7 +73,7 @@ construction is the lower half, and Szemerédi's bound (1) the upper half, of
 the density $1/8$ from which the problem's question departs; the paper says
 nothing about independence numbers of order $n/\log n$, the problem's scale.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem: If l = o(n) then f(n,4,l) = (1+o(1))n^2/8; that is, there are
   n-vertex graphs with no K_4 and independence number o(n) having (1+o(1))n^2/8

@@ -54,9 +54,9 @@ pp. 252--254 (PDF pp. 4--6). The edition read is identified on the
 [[additive_combinatorics/erdos_sarkozy_1992_arithmetic_progressions_subset_sums/_index|source digest]].
 
 **Read depth.** Claims checked: the notation and the statement were read
-clause by clause on the page images on 2026-10-08. The proof (pp. 252--254)
-was read on the page images and its outline followed, not checked step by
-step. Nothing here is independently reviewed.
+clause by clause on the page images. The proof (pp. 252--254) was read on the
+page images and its outline followed, not checked step by step. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

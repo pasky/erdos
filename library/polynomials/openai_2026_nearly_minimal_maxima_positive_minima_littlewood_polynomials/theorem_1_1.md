@@ -38,8 +38,8 @@ $\eta$ is given.
 polynomials*, release folder
 `Nearly-minimal-maxima-and-positive-minima-of-Littlewood-polynomials-October-5-2026`;
 statement in `sections/introduction.tex` lines 18--28 (label `thm:main`),
-PDF p. 2; proof in `sections/completion.tex` (Section 7), PDF p. 27. Read in
-the TeX source on 2026-10-07. The card
+PDF p. 2; proof in `sections/completion.tex` (Section 7), PDF p. 27. Read in the
+TeX source. The card
 [[polynomials/openai_2026_nearly_minimal_maxima_positive_minima_littlewood_polynomials/_index|records the provenance and the release's attestations]].
 
 **Read depth.** Claims checked: the statement and the definitions it uses were

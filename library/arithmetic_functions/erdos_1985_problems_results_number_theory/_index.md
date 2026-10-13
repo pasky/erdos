@@ -68,7 +68,7 @@ Source: <https://users.renyi.hu/~p_erdos/1985-32.pdf>.
 [[../wiki/problems/arithmetic_functions/E1003/_index|#1003]],
 [[../wiki/problems/arithmetic_functions/E1004/_index|#1004]]
 
-**Results to transcribe.**
+**Results.**
 
 - conjecture_p66_F_x: Problem/conjecture (p. 66): F(x), the longest run of
   consecutive integers up to x with distinct divisor counts, satisfies F(x) >

@@ -16,7 +16,8 @@ updated: 2026-10-07T20:53:39Z
 ***
 
 Stijn Cambie, Michiel Provoost, On edge-colouring-games by Erdős, and Bensmail
-and Mc Inerney. arXiv preprint (2025). arXiv:2505.03497. The arXiv record
+and Mc Inerney. arXiv preprint (2025). arXiv:2505.03497. The held file is
+arXiv:2505.03497v2 of 28 October 2025. The arXiv record
 (https://arxiv.org/abs/2505.03497, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 
@@ -45,7 +46,7 @@ Source: <https://arxiv.org/abs/2505.03497>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0778/_index|#778]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 8: For every n >= 4, the biased clique game Clique(1,3)(n) is won by
   player 2.

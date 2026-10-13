@@ -42,9 +42,8 @@ both sides of its equation, evidently a misprint for $b_1=b_2+\cdots+b_m$.
 
 **Source.** *Some of Paul's favorite problems*, booklet circulated at the
 conference *Paul Erdős and his mathematics*, Budapest, July 1999; PDF
-pp. 3--4 of the nine-spread scan (130 dpi renders), read on the page
-images on 2026-09-18; the site's key [Va99, 1.22] for Problems 787, 790
-and 792.
+pp. 3--4 of the nine-spread scan (130 dpi renders), read on the page images; the
+site's key [Va99, 1.22] for Problems 787, 790 and 792.
 
 **Read depth.** Claims checked: the item was read clause by clause on the
 page images. It is a 1999 statement of four questions with the estimates

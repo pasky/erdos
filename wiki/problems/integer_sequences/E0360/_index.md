@@ -59,7 +59,7 @@ https://www.erdosproblems.com/360.
 - [Vu07] Vu, Van H., Some new results on subset sums. J. Number Theory 124
   (2007), no. 1, 229-233.
 
-**Formalization.** No statement in formal-conjectures(no
+**Formalization.** No statement in formal-conjectures (no
 `360.lean`; the site lists no formalized statement; the community database
 records the problem unformalized). The directory
 `src/latest/ErdosProblems/Erdos360/` of `plby/lean-proofs`, with its entry

@@ -67,14 +67,13 @@ bounded-gap question, the definition of $f(a,K)$, the four small values, the
 $K=1$ estimate and Theorem 3 (p. 197); and the definition of $g(n)$, the
 conjecture $g(n)>n^{2-\varepsilon}$, Theorem 4 and the remark on $a_i=i^2$
 (p. 198), each read clause by clause on the page images of PDF pp. 1, 3, 5
-and 6 on 2026-09-22. The proof of Theorem 1 (pp. 193--194) and the proof of
-Theorem 3 (pp. 197--198), each about a page, were read in full on the page
-images of PDF pp. 1--2 and 5--6 and followed for structure; no step was
-checked. The proof of Theorem 2 (pp. 195--197) and the proof of Theorem 4
-(pp. 198--200) were read on the page images for structure only. Page 200
-(PDF p. 8) was read on the page image for the acknowledgment, the
-reference list and the received date. Nothing here is independently
-reviewed.
+and 6. The proof of Theorem 1 (pp. 193--194) and the proof of Theorem 3 (pp.
+197--198), each about a page, were read in full on the page images of PDF pp.
+1--2 and 5--6 and followed for structure; no step was checked. The proof of
+Theorem 2 (pp. 195--197) and the proof of Theorem 4 (pp. 198--200) were read on
+the page images for structure only. Page 200 (PDF p. 8) was read on the page
+image for the acknowledgment, the reference list and the received date. Nothing
+here is independently reviewed.
 
 ## Contents
 

@@ -42,8 +42,7 @@ auxiliary data chosen from $\delta$ and are not quantified.
 **Source.** OpenAI, *Ultraflat real Littlewood polynomials*, release folder
 `preprints/Ultraflat-real-Littlewood-polynomials-October-5-2026`; TeX
 `sections/waves.tex` lines 10--26 (label `prop:waves`), PDF p. 9; proof pp.
-10--14 (`sections/waves.tex` lines 41--392, Figure 1 on p. 13). Read
-2026-10-07.
+10--14 (`sections/waves.tex` lines 41--392, Figure 1 on p. 13).
 
 **Read depth.** Claims checked: the statement and the conventions it relies
 on were read clause by clause in the TeX source, together with the statement

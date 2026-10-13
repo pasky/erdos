@@ -45,7 +45,7 @@ Source: <https://arxiv.org/abs/2208.04878>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0651/_index|#651]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: ES_3(n) = 2^{o(n)}: for any eps > 0 and n large, any
   general-position X in R^3 with |X| >= 2^{eps n} contains n points in convex

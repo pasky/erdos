@@ -107,11 +107,10 @@ Industrial and Applied Mathematics" on its first page; the term recorded,
 Read status: claims checked for the abstract's statement (p. 168), Corollary
 5.1, Lemma 5.2 and Corollary 5.3 (pp. 178--179) and the two remarks on the
 Erdős--Moser conjecture (pp. 178--179), read clause by clause on the page
-images and in the text layer on 2026-09-18; the proofs, which rest on
-Theorem 3.1 (property S of the Bruhat-order posets $W^J$, via the hard
-Lefschetz theorem) and Proposition 2.5 (on products of varieties with
-cellular decompositions), were not checked. Nothing here is independently
-reviewed.
+images and in the text layer; the proofs, which rest on Theorem 3.1 (property S
+of the Bruhat-order posets $W^J$, via the hard Lefschetz theorem) and
+Proposition 2.5 (on products of varieties with cellular decompositions), were
+not checked. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/number_theory/E0362/_index|#362]] (Corollary 5.1, p. 178:
 with $\nu=\zeta=0$, $k=1$, the exact maximum number of subsets of $N$ distinct
@@ -120,7 +119,7 @@ $(1+q)(1+q^2)\cdots(1+q^N)$, attained by $\{1,\ldots,N\}$; Corollary 5.3,
 p. 179: the maximum over all sets of $N$ distinct reals, attained by
 $\{-[(N-1)/2],\ldots,[N/2]\}$, the set the site's commentary names)
 
-**Results to transcribe.**
+**Results.**
 
 - Lemma 1.1 (p. 168): For a finite graded rank-symmetric poset P of rank n,
   the following are equivalent: P is rank-unimodal and has property S (the

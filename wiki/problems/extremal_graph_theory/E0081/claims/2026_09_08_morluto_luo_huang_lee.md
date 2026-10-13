@@ -53,10 +53,10 @@ finite-family transfer of Rohatgi, Urschel and Wellens), and a first-entry
 argument along the copy path joins the two regimes. The constants are
 conservative ($N=\max\{10^{32},T(\eta/2)\}$ with $\eta=10^{-30}$ and $T$ the
 transfer theorem's threshold, for which no numerical value is asserted). This
-record rests on the manuscript's first three pages and the repository's
-verification ledger (as of 2026-10-07); this corpus has not checked the proof.
-The submitters credit GPT-5.6 and GPT-6 Astra, as the proof-claims tab names
-them, working with a mathematical tool suite, say that human input during
+record rests on the manuscript's first three pages and on the repository's
+verification ledger as it stood on 2026-10-07; this corpus has not checked the
+proof. The submitters credit GPT-5.6 and GPT-6 Astra, as the proof-claims tab
+names them, working with a mathematical tool suite, say that human input during
 discovery was mostly encouragement, and link the full conversation transcript.
 The manuscript credits Traverso's Paper II for the clone-copy symmetrization
 and complete-split terminal strategy, Traverso's Paper III for the split case,

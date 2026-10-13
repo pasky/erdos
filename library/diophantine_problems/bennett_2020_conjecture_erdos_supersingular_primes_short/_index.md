@@ -63,7 +63,7 @@ Faltings deduction gives finitely many positive solutions with $\ell\geq2$;
 lengths below $k_0$ are untouched, and for the remaining exponents only
 finiteness, not nonexistence, follows.
 
-**Results to transcribe.**
+**Results.**
 
 - [[diophantine_problems/bennett_2020_conjecture_erdos_supersingular_primes_short/theorem_2|Theorem 2]].
   Published Theorem 2, printed p. 357 (PDF p. 3): an effectively

@@ -106,7 +106,7 @@ https://www.erdosproblems.com/1209, accessed 2026-09-18.
   2026 (`Problem1209/Solution.pdf`, 271,224 bytes, with its TeX source and
   `Problem1209/Formalization.lean`) in the repository
   https://github.com/ebarschkis/ErdosProblem, at the repository's head of
-  15 April 2026, accessed (the claim page below links the files
+  15 April 2026 (the claim page below links the files
   pinned to that head). Theorem 2.1 and Corollary 2.2 (pp. 1--3), Theorem
   3.1, Lemma 3.2 and Lemma 3.3 (pp. 3--5). A forum-linked note, not a
   refereed source; not filed.

@@ -80,10 +80,10 @@ existence conclusion; it is not a line-by-line review of either
 manuscript, and the frontmatter's `proved` records the affirmative answer
 to the literal existence question.
 
-The status search of 9 September 2026 covered the live problem and proof
-claim, the signed exposition, their linked manuscript and GitHub history,
-an author's account, arXiv and cited journal sources, and a targeted X
-search; that of 7 October 2026 covered the site's page and forum thread.
+The status search covered the live problem and proof claim, the signed
+exposition, their linked manuscript and GitHub history, an author's account,
+arXiv and cited journal sources, a targeted X search, and the site's page and
+forum thread.
 The reconstruction on the card covers all six manuscript pages and checks
 the external theorem statements its argument uses at the versions the
 result page identifies, without reconstructing their proofs; it is at
@@ -107,8 +107,8 @@ Price's complements for every power $d\ge5$ with nonnegative inputs
 are accepted on the same credit for the even exponents $d\ge6$, where the
 tiled set is the full image and $d=6$ settles the problem; the case $d=5$
 and the odd exponents rest on the claimant alone, the manuscript's shared
-link showed only its application shell in the status search of 9 September
-2026, and the exposition writes the construction with positive inputs.
+link showed only its application shell on 9 September 2026, and the exposition
+writes the construction with positive inputs.
 Beside the axiom-taking project, Boris Alexeev's repository holds a Lean
 file, with Codex as its formal author, that declares itself a formalization
 of Price's result for $f(X)=X^6$ and develops its estimates unconditionally;

@@ -84,9 +84,9 @@ and
 and for the statements of Lemmas 3.1--3.3, 4.1--4.3 and 5.1, read clause by
 clause in the TeX source (`sections/01-introduction.tex` lines 17--24,
 `sections/02-periodic.tex` lines 12--19, `sections/03-windows.tex`,
-`sections/04-routing.tex`, `sections/05-scales.tex`) on 2026-10-07, against
-the held PDF for page numbers; the proofs were read for their structure only
-and no step was checked; nothing here is independently reviewed.
+`sections/04-routing.tex`, `sections/05-scales.tex`), against the held PDF for
+page numbers; the proofs were read for their structure only and no step was
+checked; nothing here is independently reviewed.
 
 ## Contents
 

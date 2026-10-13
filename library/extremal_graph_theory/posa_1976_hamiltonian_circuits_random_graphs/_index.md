@@ -81,14 +81,12 @@ statement of the Erdős--Rényi problem (p. 359), the introduction's account
 of the earlier bounds (pp. 359--360), the allowable transformation and the
 sets $H$ and $X$ with Lemma 1 (p. 360), the Remark, Lemma 2 and Theorem 1
 (p. 361), Theorem 2 (p. 363) and Theorem 3 (p. 364), each read clause by
-clause on the page images of all six pages (PDF pp. 1--6) on 2026-09-22;
-p. 364 (PDF p. 6) was read on the page image for the acknowledgment and
-the reference list. The proofs of Lemma 1 (pp. 360--361), Lemma 2
-(p. 361, one display), Theorem 1 (pp. 361--363), Theorem 2 (pp. 363--364)
-and Theorem 3 (p. 364), each at most about a page, were read in full on
-the page images and followed step by step; the paper contains no other
-arguments.
-Nothing here is independently reviewed.
+clause on the page images of all six pages (PDF pp. 1--6); p. 364 (PDF p. 6) was
+read on the page image for the acknowledgment and the reference list. The proofs
+of Lemma 1 (pp. 360--361), Lemma 2 (p. 361, one display), Theorem 1 (pp.
+361--363), Theorem 2 (pp. 363--364) and Theorem 3 (p. 364), each at most about a
+page, were read in full on the page images and followed step by step; the paper
+contains no other arguments. Nothing here is independently reviewed.
 
 ## Contents
 

@@ -47,7 +47,7 @@ reserved." speaks for the site, not the article.
 
 **Bears on.** [[../wiki/problems/discrepancy/E0177/_index|#177]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem (p. 257): For a set of distinct naturals up to N with density eta,
   sum_{q<=Q} q^{-1} sum_{m<=N} V_q(m) + Q sum_{q<=Q} V_q(N) >> eta(1-eta) Q^2 N

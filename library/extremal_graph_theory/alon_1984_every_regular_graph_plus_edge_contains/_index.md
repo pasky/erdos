@@ -45,9 +45,9 @@ image, the scan having no text layer), every other right reserved.
 
 Read status: claims checked for the statement and the proof of (1) (p. 92,
 with Chevalley's theorem and the six-line proof on p. 93) and for the
-Remark and the reference list (p. 93), read clause by clause on the page
-images on 2026-09-18; the proof of (1) from Chevalley's theorem was followed
-in full, and Chevalley's theorem itself is cited, not proved.
+Remark and the reference list (p. 93), read clause by clause on the page images;
+the proof of (1) from Chevalley's theorem was followed in full, and Chevalley's
+theorem itself is cited, not proved.
 
 Source: <https://web.math.princeton.edu/~nalon/PDFS/publications.html>.
 

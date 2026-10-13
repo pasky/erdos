@@ -54,13 +54,12 @@ Springer-Verlag", every other right reserved.
 Read status: claims checked for Theorem 1 (p. 217) and the introduction's
 attribution ("In 1970 Hajnal and Szemerédi [3] proved the following
 theorem, which had been conjectured by Erdős", p. 217), read clause by
-clause on the page image on 2026-09-19; the paper's own proof of Theorem 1 (Section 2,
-pp. 218--220) was read for structure only in the text layer, and no step of
-it was checked; Theorem 4 (p. 221) and the computational model it is stated
-in were read clause by clause on the printed pages on 2026-10-08, its proof
-(Section 3, pp. 221--223) for structure only; Theorem 2 (p. 218) and
-Conjecture 5 (p. 223) were read as statements only. Nothing here is
-independently reviewed.
+clause on the page image; the paper's own proof of Theorem 1 (Section 2, pp.
+218--220) was read for structure only in the text layer, and no step of it was
+checked; Theorem 4 (p. 221) and the computational model it is stated in were
+read clause by clause on the printed pages, its proof (Section 3, pp. 221--223)
+for structure only; Theorem 2 (p. 218) and Conjecture 5 (p. 223) were read as
+statements only. Nothing here is independently reviewed.
 
 ## Contents
 

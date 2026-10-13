@@ -139,7 +139,7 @@ Abbott–Hanson bound $N^{1/2+\varepsilon}$ (solved), and the stronger sunflower
 conjecture of [Er73], display (4.3), for integers with exactly $k$ prime factors
 counted with multiplicity (open), with its Erdős–Rado form $c_r^k\,k!$ (solved);
 all bodies are `sorry` and no `formal_proof` attribute is present. The community
-database, lists the problem open as of its last update on 31 August 2025, the
+database lists the problem open as of its last update on 31 August 2025, the
 statement formalized since 17 April 2026 and no formal proof. The site's page
 marks the statement as formalized. Nothing was built.
 

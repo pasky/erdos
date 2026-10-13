@@ -39,15 +39,15 @@ The public problem page gives the negative answer and regards its construction
 as implicit in *Partitioning vector spaces*, JCTA 18 (1975), 231–233,
 [DOI](https://doi.org/10.1016/0097-3165(75)90016-3). The
 [[additive_combinatorics/baumgartner_1975_partitioning_vector_spaces/_index|primary paper]] was obtained through a publisher
-download and all three pages were inspected on 2026-09-06. It explicitly
-proves the rational-vector-space statement resolving Problem 199, and contains
-no explicit Sidon theorem. Its proof on pp. 231–232 selects a point in each
-enumerated progression beyond all earlier coefficient magnitudes. The integer
-diagonal construction uses that same successive-selection idea and adds the
-separately proved doubling-gap Sidon lemma. This identifies the methodological
-connection behind the public page's word "implicit"; it does not convert the
-paper's three-term-progression-free conclusion into a stated Sidon result or
-establish a separate priority claim.
+download and all three pages were inspected. It explicitly proves the
+rational-vector-space statement resolving Problem 199, and contains no explicit
+Sidon theorem. Its proof on pp. 231–232 selects a point in each enumerated
+progression beyond all earlier coefficient magnitudes. The integer diagonal
+construction uses that same successive-selection idea and adds the separately
+proved doubling-gap Sidon lemma. This identifies the methodological connection
+behind the public page's word "implicit"; it does not convert the paper's
+three-term-progression-free conclusion into a stated Sidon result or establish a
+separate priority claim.
 
 The inspected survey PDF's original rendered p. 339 was read, not just
 extracted text. The printed

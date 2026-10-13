@@ -90,7 +90,7 @@ accessed 2026-09-18.
 `ErdosProblems/578.lean` exists in formal-conjectures (main; the directory
 listing and the recursive tree were checked); the site's page shows the
 statement as not formalized, and the community database (teorth/erdosproblems,
-`data/problems.yaml` fetched) records the problem as proved (last update 31
+`data/problems.yaml`) records the problem as proved (last update 31
 August 2025), not formalized, no formal proof. Outside formal-conjectures, Boris
 Alexeev's public lean-proofs repository holds a Lean 4 development
 `Erdos578.lean`, added on 2026-08-17, that declares itself a formalization of a
@@ -114,7 +114,7 @@ the graphs problem collection. The community database record says proved,
 not formalized.
 
 **Status support.** The status-defining source is [Ri00], of which only the
-publisher's abstract was read. As deposited with the DOI record, accessed: "Let
+publisher's abstract was read. As deposited with the DOI record: "Let
 $G_p$ be a random graph on $2^d$ vertices where edges are selected independently
 with a fixed probability $p>\tfrac14$, and let $H$ be the $d$-dimensional
 hypercube $Q_d$. We answer a question of Bollobás by showing that, as

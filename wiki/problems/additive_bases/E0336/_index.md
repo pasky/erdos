@@ -97,7 +97,7 @@ corpus, and without a refereed publication, so the problem's standing is
 `claimed` and the site's label stayed OPEN. If it holds, the matching upper
 bound $1/3$ is the new content; the lower bound is Grekos's.
 
-**Search scope (2026-10-07).** The account above rests on the site's problem
+**Search scope.** The account above rests on the site's problem
 page and its proof-claims thread, the Erdős and Graham source card, the Plagne
 source card and the claimant's solution page. Grekos and Nash are cited from
 the site's commentary and not held; no proof is checked here, and no

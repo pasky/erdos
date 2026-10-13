@@ -64,12 +64,11 @@ definitions of a tricolored tetrahedron, a proper joining, a supercolor and
 a super-TCT (p. 121), the Lemma with its proof, the Remark and the
 Definition of the sign of a joining (p. 122), the Theorem with its proof
 and the three paragraphs of § III (p. 123), each read clause by clause on
-the page images of all five PDF pages on 2026-09-22; p. 124 (PDF p. 5) was
-read on the page image for the reference list. The proofs of the Lemma and
-of the Theorem (a paragraph each) were read in full on the page images and
-followed. Figures 1 and 2 (pp. 121--122) were viewed on the page images;
-the edge marks of Figure 2 were not decoded. Nothing here is independently
-reviewed.
+the page images of all five PDF pages; p. 124 (PDF p. 5) was read on the page
+image for the reference list. The proofs of the Lemma and of the Theorem (a
+paragraph each) were read in full on the page images and followed. Figures 1 and
+2 (pp. 121--122) were viewed on the page images; the edge marks of Figure 2 were
+not decoded. Nothing here is independently reviewed.
 
 ## Contents
 

@@ -67,11 +67,11 @@ Read status: claims checked for the introduction (p. 164: the definitions
 of $f(\epsilon,p)$ and $g(\epsilon,p)$, Erdős's conjecture (1), the remark
 $f(1,p)=n_2(p)$ and the remark on the one-sided definition), the Theorem
 (p. 165) and the closing display and remarks (p. 171), each read clause by
-clause on the page images of PDF pp. 1, 2 and 8 on 2026-09-22. The
-statements of Lemmas 1--7 (pp. 165--168) and the five steps (i)--(v) of the
-proof (pp. 169--171) were read on the page images of PDF pp. 2--8 for their
-structure; no proof was checked, and the reference list (p. 171) was read
-on the page image. Nothing here is independently reviewed.
+clause on the page images of PDF pp. 1, 2 and 8. The statements of Lemmas 1--7
+(pp. 165--168) and the five steps (i)--(v) of the proof (pp. 169--171) were read
+on the page images of PDF pp. 2--8 for their structure; no proof was checked,
+and the reference list (p. 171) was read on the page image. Nothing here is
+independently reviewed.
 
 ## Contents
 

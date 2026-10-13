@@ -44,11 +44,9 @@ by the problem's pairs $(m,n)$.
 `sections/09-finite-rules.tex` and `sections/09-finite-packing.tex`, the
 results table and the proof in `sections/09-finite-results.tex` (Table 2,
 PDF p. 35; proof, p. 36); the implementations in
-`sections/10-implementation.tex` (Appendix A, pp. 36--40). Read on
-2026-10-07 in the TeX source, with the PDF text layer for page numbers.
-The card
-[[ramsey_theory/openai_2026_cycle_clique_ramsey_numbers/_index|records the
-provenance and the release's own attestations]].
+`sections/10-implementation.tex` (Appendix A, pp. 36--40). Read in the TeX
+source, with the PDF text layer for page numbers. The card
+[[ramsey_theory/openai_2026_cycle_clique_ramsey_numbers/_index|records the provenance and the release's own attestations]].
 
 **Read depth.** Claims checked: the statement, the pattern definition and
 Lemma 9.2, the statements of the inference rules (Lemmas 9.4--9.9) and of

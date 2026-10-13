@@ -45,9 +45,9 @@ The copy read is identified on the
 [[diophantine_problems/borwein_1990_questions_erdos_graham_numbers_form_sum_g_n_2_g_n/_index|source card]].
 
 **Read depth.** Claims checked: the statement and the remarks on pp. 390--391
-were read clause by clause on the page images on 2026-10-08; the proof was
-read but not verified, and the computation for $1/3$ was not repeated.
-Nothing here is independently reviewed.
+were read clause by clause on the page images; the proof was read but not
+verified, and the computation for $1/3$ was not repeated. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

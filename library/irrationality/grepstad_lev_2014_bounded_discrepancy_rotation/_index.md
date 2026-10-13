@@ -61,8 +61,8 @@ solution g of the cohomological equation.
 
 Sigrid Grepstad and Nir Lev, *Sets of bounded discrepancy for multi-dimensional
 irrational rotation*, arXiv:1404.0165v2 (2014; published Geom. Funct. Anal. 25
-(2015), no. 1, 87-133, DOI 10.1007/s00039-015-0313-z, checked against
-Crossref on 2026-10-07; 39 pp.).
+(2015), no. 1, 87-133, DOI 10.1007/s00039-015-0313-z, checked against Crossref;
+39 pp.).
 
 The multi-dimensional theory of bounded remainder sets. Here
 $\alpha=(\alpha_1,\dots,\alpha_d)$ has $1,\alpha_1,\dots,\alpha_d$ linearly

@@ -206,7 +206,7 @@ $\hat R(P_n)\ll n$ and $\hat R(C_n)\ll n$, and points to Problem 559 for
 the general question on graphs of bounded maximum degree. There are no
 comments and no proof claims. The community database record says proved
 (31 August 2025) and formalized from 21 September 2026 (see
-**Formalization.**).
+**Formalization**).
 
 **Origin.** [EFRS78b] (printed pp. 146, 160 and 161) defines
 $\hat r(G_1,G_2)=\min\{|E(G)|:G\to(G_1,G_2)\}$,
@@ -317,8 +317,8 @@ is meaningful and the pair (i)--(ii) is exactly what Erdős asked and paid for.
 contradicting the linear bounds or a copy of [Be83b].
 
 - The site: problem page, discussion thread and proof-claim tab; the full
-  directory listing of formal-conjectures (no file at that date); the
-  community database record.
+  directory listing of formal-conjectures (no file before `720.lean` was added
+  on 21 September 2026); the community database record.
 - The primary sources: [EFRS78b] pp. 146, 160--161, [Er78] p. 33, [Er81]
   p. 9, [Er81c] p. 14, [Er82e] pp. 70--71, [HKL95] pp. 3, 11 and 21,
   [JKOP19] p. 2 (and pp. 11--12), [DrPe22] p. 1 and [Be90]

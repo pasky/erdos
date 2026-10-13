@@ -106,11 +106,11 @@ dated 2026-07-22, posted as a
 on 2026-07-23. It only limits the admissible exponents and settles no instance
 of either question (the first asks only for some $c>0$, and the paper does not
 treat the second), so it has no claim page; it is unrefereed and unreviewed. The
-two claims are consistent. Search scope, 2026-10-07: the site's problem page,
-discussion thread and proof-claims tab, the hosted write-up and Lean archive of
-the full claim, the formal-conjectures file and its history, and the manuscript
-of the partial claim; no other claim on the problem was found. Nothing on this
-page is independently reviewed.
+two claims are consistent. Search scope: the site's problem page, discussion
+thread and proof-claims tab, the hosted write-up and Lean archive of the full
+claim, the formal-conjectures file and its history, and the manuscript of the
+partial claim; on 2026-10-07 none of them recorded another claim on the problem.
+Nothing on this page is independently reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

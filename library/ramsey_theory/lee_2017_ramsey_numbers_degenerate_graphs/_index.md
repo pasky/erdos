@@ -146,7 +146,7 @@ restates the Burr--Erdős conjecture $r(Q_n)\le c2^n$ as open. Both
 bounds, $2^{2n}+n^22^n$ and $2^{2n+6}$, were superseded in the exponent by
 Tikhomirov's 2024 bound, which does not settle the conjecture.
 
-**Results to transcribe.**
+**Results.**
 
 - Abstract (p. 1): for an absolute constant $c$, every $d$-degenerate $H$
   with $\chi(H)=r$ and $|V(H)|\ge2^{d^22^{cr}}$ has

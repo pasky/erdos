@@ -55,11 +55,10 @@ edition is identified in the
 **Read depth.** Claims checked: the statement, the definition of property
 $p$, the definition of a $(K_3,K_{3,3})$-cockade, Lemma 2 and the
 Introduction's statement of Erdős's suggestion were read clause by clause
-on the page images on 2026-09-22. The proof (pp. 212--215, PDF pp. 3--6)
-was read on the page images for its structure and its seven numbered steps
-were followed as printed; no step was checked, and the proofs of Lemma 1
-and Lemma 2 (pp. 211--212) were read for structure only. Nothing here is
-independently reviewed.
+on the page images. The proof (pp. 212--215, PDF pp. 3--6) was read on the page
+images for its structure and its seven numbered steps were followed as printed;
+no step was checked, and the proofs of Lemma 1 and Lemma 2 (pp. 211--212) were
+read for structure only. Nothing here is independently reviewed.
 
 ## Proof pointer
 

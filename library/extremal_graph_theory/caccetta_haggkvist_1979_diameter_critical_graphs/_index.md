@@ -83,13 +83,13 @@ Read status: claims checked for the abstract, the definitions and Conjecture
 (p. 224), Theorem 1 with its proof, Theorem 2 with its proof and Remark 1
 (p. 228), Remarks 2 and 3, the § 3 construction with its conjecture, the
 acknowledgment and the references (p. 229), each read clause by clause on
-the page images of PDF pp. 1, 2, 6 and 7 on 2026-09-22. The § 2 machinery,
-the triple classes, the observations, Lemma 1 with its three-case proof and
-Lemma 2 with its proof (pp. 224--227, PDF pp. 2--5), was read on the page
-images for structure; the derivation of Theorem 1 from Lemma 2 and
-observation 8, and of Theorem 2 from observation 6 and inequality (4), was
-followed as a computation (below), and the case analysis proving Lemma 1 was
-not checked. Nothing here is independently reviewed.
+the page images of PDF pp. 1, 2, 6 and 7. The § 2 machinery, the triple classes,
+the observations, Lemma 1 with its three-case proof and Lemma 2 with its proof
+(pp. 224--227, PDF pp. 2--5), was read on the page images for structure; the
+derivation of Theorem 1 from Lemma 2 and observation 8, and of Theorem 2 from
+observation 6 and inequality (4), was followed as a computation (below), and the
+case analysis proving Lemma 1 was not checked. Nothing here is independently
+reviewed.
 
 ## Contents
 

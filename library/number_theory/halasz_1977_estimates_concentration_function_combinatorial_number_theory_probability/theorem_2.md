@@ -105,12 +105,11 @@ p. 198 = PDF p. 2 of the publisher's scan, read on the page images
 [[number_theory/halasz_1977_estimates_concentration_function_combinatorial_number_theory_probability/_index|halasz_1977_estimates_concentration_function_combinatorial_number_theory_probability]].
 
 **Read depth.** Claims checked: the definitions of the sums and of $N$, the
-condition of Theorem 1, Theorem 2 and the remark were read clause by clause
-on the page images on 2026-09-22. The proof of Theorem 2 (p. 208, one
-paragraph) was read on the page image and its reduction to Theorem 4
-(p. 199) was followed; the proof of Theorem 4 (pp. 200--208) was read in the
-text layer for structure only and not checked. Nothing here is
-independently reviewed.
+condition of Theorem 1, Theorem 2 and the remark were read clause by clause on
+the page images. The proof of Theorem 2 (p. 208, one paragraph) was read on the
+page image and its reduction to Theorem 4 (p. 199) was followed; the proof of
+Theorem 4 (pp. 200--208) was read in the text layer for structure only and not
+checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

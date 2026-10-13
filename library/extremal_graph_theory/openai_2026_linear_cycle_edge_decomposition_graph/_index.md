@@ -98,9 +98,9 @@ internal Corollary 2.2, Lemmas 3.1, 4.1--4.3, 5.1--5.2, 6.1--6.2 and 7.1 and
 Proposition 7.2, read clause by clause in the TeX source (`main.tex`, the
 `theorem` and `corollary` environments of Section 1, and
 `sections/preliminaries.tex`, `routing.tex`, `residue.tex`, `splitting.tex`,
-`folding.tex`, `induction.tex`) on 2026-10-07, with the PDF pages checked for
-labels and page numbers; the proofs were read for their structure only and no
-step was checked; nothing here is independently reviewed.
+`folding.tex`, `induction.tex`), with the PDF pages checked for labels and page
+numbers; the proofs were read for their structure only and no step was checked;
+nothing here is independently reviewed.
 
 ## Contents
 

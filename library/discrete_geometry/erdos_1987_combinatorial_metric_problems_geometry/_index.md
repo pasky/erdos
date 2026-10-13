@@ -126,7 +126,7 @@ Fig. 4 as Erdős reports, and the question (p. 174) whether a maximal family of
 disjoint unit segments in a region can be denumerable, the site's two questions
 ([[discrete_geometry/erdos_1987_combinatorial_metric_problems_geometry/question_p173|question_p173]]).
 
-**Results to transcribe.**
+**Results.**
 
 - conjecture_p168 ([[discrete_geometry/erdos_1987_combinatorial_metric_problems_geometry/conjecture_p168|result page]], p. 168):
   Conjecture (3): for n points in general position, D(n) = max_i d(x_i) >

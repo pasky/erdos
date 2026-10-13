@@ -59,12 +59,12 @@ edition is identified in the
 [[extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/_index|source digest]].
 
 **Read depth.** Claims checked: the conjecture, the definitions, the
-statement and the construction were read clause by clause on the page
-images on 2026-09-22, and the point and edge counts were recomputed here.
-The figures were looked at on the page images; their degree labels were not
-verified against the drawings. The argument that the constructed graphs
-contain no 5-way (pp. 281--282, one paragraph) was read in full on the page
-image and not checked. Nothing here is independently reviewed.
+statement and the construction were read clause by clause on the page images,
+and the point and edge counts were recomputed here. The figures were looked at
+on the page images; their degree labels were not verified against the drawings.
+The argument that the constructed graphs contain no 5-way (pp. 281--282, one
+paragraph) was read in full on the page image and not checked. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

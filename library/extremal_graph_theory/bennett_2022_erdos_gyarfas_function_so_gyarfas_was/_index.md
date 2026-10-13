@@ -43,7 +43,7 @@ are the preprint's, and the journal version was not compared with it.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0136/_index|#136]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 2): f(n,4,5) = (5/6)n + o(n). The new part is the upper
   bound, (4,5)-colorings of K_n with (5/6)n + o(n) colors; the lower bound

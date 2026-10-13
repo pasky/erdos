@@ -46,7 +46,7 @@ speaks for the site, not the article.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0402/_index|#402]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For N >= 5 and A = {a_1,...,a_N} with gcd(a_1,...,a_N)=1 there
   exist a_i,a_j in A with a_i/(a_i,a_j) >= N, strictly unless A or A* equals

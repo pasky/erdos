@@ -98,14 +98,14 @@ Source: <https://arxiv.org/abs/math/9909190>, read as
 
 **Reading and proof scope.** Complete printed/PDF pp. 1-3 were visually read for
 version identity, complete multiplicativity, the real-valued hypothesis,
-constants and equality condition. On 2026-10-07 pp. 4-13 were read on the page
-images for the statements of the Euler product spectrum, Theorem 3, Corollary 3,
-Theorem 5 and Theorem 9 used above, and section 9 (pp. 55-58) for what its proof
-covers. On 2026-10-08 the statements of Theorems 1, 2, 3, 5 and 9 and of
-Corollary 1 were read again clause by clause on pp. 2-13 for the result pages
-below, with the deductions on pp. 28-30 and the proof locations in sections 2,
-4, 5, 7 and 9. No proof review of this paper was performed; the broader
-overview and uninspected results retain their earlier compilation scope.
+constants and equality condition. Pages 4-13 were read on the page images for
+the statements of the Euler product spectrum, Theorem 3, Corollary 3, Theorem 5
+and Theorem 9 used above, and section 9 (pp. 55-58) for what its proof covers.
+The statements of Theorems 1, 2, 3, 5 and 9 and of Corollary 1 were read again
+clause by clause on pp. 2-13 for the result pages below, with the deductions on
+pp. 28-30 and the proof locations in sections 2, 4, 5, 7 and 9. No proof review
+of this paper was performed; the broader overview and uninspected results retain
+their earlier compilation scope.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0786/_index|#786]]: a forum
 post (Tao, post 4061, 2 February 2026) proposes applying Corollary 1 to

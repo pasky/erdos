@@ -79,7 +79,7 @@ transcendental number without the property exists; Lemmas 3 and 4 are steps
 in the proof of Theorem 1. The paper states that it makes no progress on
 whether every rational, or every algebraic number, has the property.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: The positive reals having eventually greedy best Egyptian
   underapproximations form a Lebesgue null set.

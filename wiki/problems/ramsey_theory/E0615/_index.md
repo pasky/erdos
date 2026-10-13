@@ -26,7 +26,7 @@ updated: 2026-10-08T14:17:37Z
 with $n$ vertices and $\geq (1/8-c)n^2$ edges then $G$ must contain either a
 $K_4$ or an independent set on at least $n/\log n$ vertices?
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
 last-edited date). In the Ramsey--Turán notation the
 site also gives, with $\mathrm{rt}(n;4,\ell)$ (the sources write
 $\mathbf{RT}(n,K_4,m)$) the largest number of edges of a $K_4$-free graph
@@ -80,7 +80,7 @@ https://www.erdosproblems.com/615, accessed 2026-09-18.
 - [FLZ15] Fox, J., Loh, P.-S. and Zhao, Y., The critical window for the
   classical Ramsey-Turán problem. Combinatorica 35 (2015), no. 4, 435--476,
   doi:10.1007/s00493-014-3025-3 (published online 22 October 2014; Crossref
-  record and the arXiv listing's journal reference accessed);
+  record and the arXiv listing's journal reference);
   arXiv:1208.3276v3 (23 September 2014), the edition cited; the journal text
   was not compared. Problem 1.4, p. 3; Theorem 1.10 and the paragraph before it,
   p. 4; Theorem 1.11, p. 5. Library home:
@@ -114,7 +114,7 @@ https://www.erdosproblems.com/615, accessed 2026-09-18.
 **Formalization.** The suffix (LEAN) of the site's label was a catalog label.
 The file
 [`ErdosProblems/615.lean`](https://github.com/google-deepmind/formal-conjectures/blob/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems/615.lean)
-of formal-conjectures, linked at the `main` commit(5,479
+of formal-conjectures, linked at the `main` commit (5,479
 bytes), declares
 `erdos_615 : answer(False) ↔ ∃ c : ℝ, 0 < c ∧ ∀ᶠ (n : ℕ) in atTop, ∀ G : SimpleGraph (Fin n), (1 / 8 - c) * n ^ 2 ≤ G.edgeFinset.card → ¬ G.CliqueFree 4 ∨ (n : ℝ) / Real.log n ≤ G.indepNum`
 under `category research solved`, with proof `sorry`, with the variants

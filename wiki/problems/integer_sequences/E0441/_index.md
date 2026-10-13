@@ -131,9 +131,9 @@ https://www.erdosproblems.com/441, accessed 2026-09-18.
   read) is quoted from [Ch98], p. 71. Library home:
   [[../library/integer_sequences/choi_1972_largest_subset_pairwise_l_c_m_not_exceeding_n/_index|choi_1972_largest_subset_pairwise_l_c_m_not_exceeding_n]].
 - [Er51b] Erdős, P., Problem. Mat. Lapok 2 (1951), 233 (the volume and page
-  per [Ch98]'s reference [3]). Not read: the Rényi archive's bibliography,
-  lists fourteen 1951 papers and no Mat. Lapok problem
-  entry; no other open copy was located. The bound $g(N)\le(4N)^{1/2}+O(1)$
+  per [Ch98]'s reference [3]). Not read: the Rényi archive's bibliography
+  listed fourteen 1951 papers and no Mat. Lapok problem entry; no other open
+  copy was located. The bound $g(N)\le(4N)^{1/2}+O(1)$
   the site attributes to it is quoted from the site and from [Ch98], p. 71,
   which refers to [Er65] for a proof.
 - [Er62] Erdős, P., Számelméleti megjegyzések IV. Mat. Lapok 13 (1962),

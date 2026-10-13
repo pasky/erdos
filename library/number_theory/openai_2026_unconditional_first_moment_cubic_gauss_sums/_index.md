@@ -118,13 +118,13 @@ there. That manuscript's argument was not read for this card.
 Read status: claims checked for Theorem 1.1 and Theorem A.1 with its fixed-power
 consequence (A.14), together with the definitions (1.1), the weighted form
 (1.3), the conversion to Kummer sums (1.4)--(1.5) and Remark 1.2, read clause by
-clause in the release's TeX source on 2026-10-12 (`build/paper.tex`, label
-`thm:main` at lines 64--72, definitions at lines 50--62, the weighted form at
-lines 84--92, Section 1.2 and `rem:normalization` at lines 151--192;
-`build/sections/angular.tex`, label `thm:angular` at lines 19--35, definitions
-at lines 10--16 and Section A.6 at lines 802--838); the statements of the
-intermediate propositions and lemmas and all proofs were read for their
-structure only and no step was checked; nothing here is independently reviewed.
+clause in the release's TeX source (`build/paper.tex`, label `thm:main` at lines
+64--72, definitions at lines 50--62, the weighted form at lines 84--92, Section
+1.2 and `rem:normalization` at lines 151--192; `build/sections/angular.tex`,
+label `thm:angular` at lines 19--35, definitions at lines 10--16 and Section A.6
+at lines 802--838); the statements of the intermediate propositions and lemmas
+and all proofs were read for their structure only and no step was checked;
+nothing here is independently reviewed.
 
 ## Contents
 

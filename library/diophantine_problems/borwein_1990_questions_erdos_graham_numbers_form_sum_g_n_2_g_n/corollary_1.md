@@ -51,7 +51,7 @@ p. 377. The copy read is identified on the
 
 **Read depth.** Claims checked: the corollary, its proof, (2.4)--(2.6), the
 abstract and the passage on p. 384 were read clause by clause on the page
-images on 2026-10-08. Nothing here is independently reviewed.
+images. Nothing here is independently reviewed.
 
 ## Proof pointer
 

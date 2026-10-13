@@ -74,10 +74,10 @@ in the text layer. The edition read is identified in the
 
 **Read depth.** Claims checked: Theorem 3, Corollary 1 and the
 Klarner--Rado quotation were read clause by clause on the page images of
-PDF pp. 8 and 10 on 2026-09-22; the definitions of pp. 757--758 were read in
-the text layer. The proof (pp. 760--761) was read in full in the text layer
-and its two claims followed as sketched below; no step was checked against
-an independent source, and nothing here is independently reviewed.
+PDF pp. 8 and 10; the definitions of pp. 757--758 were read in the text layer.
+The proof (pp. 760--761) was read in full in the text layer and its two claims
+followed as sketched below; no step was checked against an independent source,
+and nothing here is independently reviewed.
 
 ## Proof pointer
 

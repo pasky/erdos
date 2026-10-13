@@ -170,8 +170,9 @@ part even conditionally. Cambie's and Kitamura's examples and Cambie's $r=4$
 search have no claim pages: they come from the site's thread and remarks, with
 no manuscript.
 
-Dated search scope, 2026-09-27: erdosproblems.com (problem page, revision
-history, forum thread 939 with 9 comments, proof-claims thread empty); the
+Search scope, with the changing sources as they stood on 2026-09-27:
+erdosproblems.com (problem page, revision history, forum thread 939 with 9
+comments, proof-claims thread empty); the
 community database (open, last update 2025-08-31); conjectures.io (result,
 solution, problem page, public verification-report API, and the validator
 repository's review-decision document); formal-conjectures (main and the

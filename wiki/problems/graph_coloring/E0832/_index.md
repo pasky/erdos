@@ -94,8 +94,9 @@ reviewed.
 page, [[problems/graph_coloring/E0832/claims/1985_12_01_alon|Alon 1985]]:
 a refereed journal note, credited by the site's curator as the disproof.
 
-**Search scope.** 2026-09-07: the site's problem page and its discussion
-thread, and the sources cited above. No other claim on the problem was found.
+**Search scope.** The site's problem page and its discussion thread, and the
+sources cited above; on 2026-09-07 the site's pages showed no other claim on
+the problem.
 
 **Remaining gaps.** The proof of Proposition 3 has not been rewritten. The
 equality clause of the Formulation's reading was not separately assessed, and

@@ -29,9 +29,8 @@ Conjecture 1.3 completely."
 **Source.** H. Chen and Y. Chen, *On monochromatic path covers conjecture of
 Erdős--Gyárfás*, arXiv:2607.21915v1 (24 July 2026); Theorem 1.5 on p. 2,
 read on the rendered page image and in the text layer. An unrefereed
-preprint; no journal record was found on 2026-09-18, and the site's Problem
-518 page lists it as a proof claim submitted 2026-07-29 without adopting it
-(the source card records the searches).
+preprint; the site's Problem 518 page lists it as a proof claim submitted
+2026-07-29 without adopting it (the source card records the searches).
 
 **Read depth.** Claims checked for the statement only: the theorem, the
 conjecture it addresses and the conventions paragraph were read clause by

@@ -74,14 +74,13 @@ $r_{\mathrm{ind}}(G,H)$ and the arrow notation, the quotation of Erdős's
 bipartite case and on best possibility, Conjecture 2, Theorem 3 with the
 diagonal remark and the description of the host, Theorem 4 and Theorem 5
 (pp. 373--376), and the concluding remarks with display (51) (p. 402), each
-read clause by clause on the page images of PDF pp. 1--4 and 30 on
-2026-09-22. The construction of § 2.1, the lemmas of §§ 2.2--2.5, the
-outline of § 3, Lemma 14 and the assertion (†) of § 3.1, the opening of
-§ 3.3 and the statements of Lemmas 15--19 (pp. 377--402), and the
-reference list (pp. 402--404), were read in the text layer for structure
-only; on 2026-10-07 the statements this digest gives for them were compared
-with the page images of PDF pp. 5--32. No proof was checked, and nothing
-here is independently reviewed.
+read clause by clause on the page images of PDF pp. 1--4 and 30. The
+construction of § 2.1, the lemmas of §§ 2.2--2.5, the outline of § 3, Lemma 14
+and the assertion (†) of § 3.1, the opening of § 3.3 and the statements of
+Lemmas 15--19 (pp. 377--402), and the reference list (pp. 402--404), were read
+in the text layer for structure only; the statements this digest gives for them
+were compared with the page images of PDF pp. 5--32. No proof was checked, and
+nothing here is independently reviewed.
 
 ## Contents
 

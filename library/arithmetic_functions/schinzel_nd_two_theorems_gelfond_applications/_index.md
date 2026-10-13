@@ -65,7 +65,7 @@ Source: <https://doi.org/10.4064/aa-13-2-177-236>.
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0368/_index|#368]],
 [[../wiki/problems/arithmetic_functions/E0928/_index|#928]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorems 1 and 2: Explicit versions of Gelfond's p-adic (Theorem 1) and
   ordinary (Theorem 2) irrationality measures for the ratio of two logarithms,

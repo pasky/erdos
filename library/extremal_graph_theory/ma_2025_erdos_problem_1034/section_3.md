@@ -42,8 +42,8 @@ reference: every graph with $\lfloor n^2/4\rfloor+1$ edges has an edge in at
 least $n/6$ triangles. It states that the exact asymptotic constant
 $c_*:=\lim_{n\to\infty}h(n)/n$ is open.
 
-The quotation is given as the note prints it. Compared on 2026-10-07 with
-the page image of [Er93], Chapter V, problem 4, p. 344 (the copy named on
+The quotation is given as the note prints it. Compared with the page image of
+[Er93], Chapter V, problem 4, p. 344 (the copy named on
 [[extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|its card]]),
 the wording is Erdős's, including "at least $\frac n2$ and other vertices"
 and "$t>\frac n2-o(1)$", which the site renders as $t>(\frac12-o(1))n$.
@@ -64,9 +64,9 @@ identified in the
 
 **Read depth.** Claims checked: the passage and the displayed bounds were read
 clause by clause on the page image. The quotation of [Er93] is
-the note's; it was compared with the page image of the 1993 text on
-2026-10-07, as recorded above, and no file of [Er93] is held; the book
-theorem invoked for the lower bound is paged as
+the note's; it was compared with the page image of the 1993 text, as recorded
+above, and no file of [Er93] is held; the book theorem invoked for the lower
+bound is paged as
 [[extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/corollary_3|Khadzhiivanov's Corollary 3]];
 the upper bound is
 [[extremal_graph_theory/ma_2025_erdos_problem_1034/theorem_2_1|Theorem 2.1]].

@@ -29,9 +29,7 @@ the case $m=\ell=1$ of the preprint's Theorem 1.6 (p. 4).
 **Source.** Huang, Lian, Shao, Xiao, Xu and Zhang, *An affirmative answer
 to Owings's sumset question*, arXiv:2607.17333v3 (29 July 2026); Theorem
 1.1 on p. 2, read on the rendered page image and in the text layer. An
-unrefereed preprint; no journal record, site adoption, independent review
-or citing paper was found on 2026-09-18 (the source card records the
-searches).
+unrefereed preprint.
 
 **Read depth.** Claims checked for the statement only: the theorem, the
 quotation of Owings's question and the surrounding sentences were read

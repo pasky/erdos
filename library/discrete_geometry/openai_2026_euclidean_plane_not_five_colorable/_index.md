@@ -100,11 +100,11 @@ alternate proof or consequence paper for it.
 
 Read status: claims checked for Theorem 1.1, Definition 1.2, Theorem 1.3,
 Theorem 1.4 and Corollary 1.5, read clause by clause in the TeX source
-(`sections/introduction.tex`, lines 62--68, 83--96, 104--117 and 282--307) on
-2026-10-07; the proofs in `sections/spectral.tex`, `rigidity.tex`,
-`transfer.tex`, `palettes.tex`, `transitions.tex`, `interfaces.tex` and
-`angular.tex` were read for their structure only and no step was checked;
-nothing here is independently reviewed.
+(`sections/introduction.tex`, lines 62--68, 83--96, 104--117 and 282--307); the
+proofs in `sections/spectral.tex`, `rigidity.tex`, `transfer.tex`,
+`palettes.tex`, `transitions.tex`, `interfaces.tex` and `angular.tex` were read
+for their structure only and no step was checked; nothing here is independently
+reviewed.
 
 ## Contents
 

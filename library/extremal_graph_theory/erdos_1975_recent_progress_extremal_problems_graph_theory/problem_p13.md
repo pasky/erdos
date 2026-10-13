@@ -43,9 +43,9 @@ render of the two sentences. The artifact is identified in the
 [[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/_index|source digest]].
 
 **Read depth.** Claims checked: the two sentences were read clause by
-clause on the page images on 2026-09-18. The theorem "I proved" is stated
-without proof or reference, and the observation $c\le\frac16$ without an
-example; nothing to check in the source.
+clause on the page images. The theorem "I proved" is stated without proof or
+reference, and the observation $c\le\frac16$ without an example; nothing to
+check in the source.
 
 ## Proof pointer
 

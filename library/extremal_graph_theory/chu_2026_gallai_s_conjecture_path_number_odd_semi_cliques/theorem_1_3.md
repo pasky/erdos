@@ -56,10 +56,9 @@ fractions). The edition is identified in the
 
 **Read depth.** Claims checked: the statements of Theorems 1.3 and 1.4,
 Conjecture 1.1, Theorem 1.2 and the definitions were read clause by clause
-on the page images on 2026-09-22. The derivation of Theorem 1.3 from
-Theorem 1.4 (three lines, p. 2) and the proof of Theorem 1.4 (one
-paragraph, p. 6) were read in full on the page images and followed, at
-the depth recorded on
+on the page images. The derivation of Theorem 1.3 from Theorem 1.4 (three lines,
+p. 2) and the proof of Theorem 1.4 (one paragraph, p. 6) were read in full on
+the page images and followed, at the depth recorded on
 [[extremal_graph_theory/chu_2026_gallai_s_conjecture_path_number_odd_semi_cliques/theorem_1_4|Theorem 1.4]].
 Nothing here is independently reviewed.
 

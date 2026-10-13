@@ -39,8 +39,8 @@ Theorem 1.1).
 folder `preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026`;
 TeX file `build/sections/series.tex`, label `series:generalized` (lines
 97--104), PDF p. 20; the proof is at lines 106--155 and closes on PDF p. 21.
-The introduction announces the criterion at `build/main.tex` lines 102--109
-(PDF p. 2). Read 2026-10-12. Provenance and attestations are on
+The introduction announces the criterion at `build/main.tex` lines 102--109 (PDF
+p. 2). Provenance and attestations are on
 [[irrationality/openai_2026_irrationality_exponent_pi_2/_index|the card]].
 
 **Read depth.** Claims checked: the statement was read clause by clause in

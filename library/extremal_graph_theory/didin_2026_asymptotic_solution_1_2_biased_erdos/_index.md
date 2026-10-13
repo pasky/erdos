@@ -46,7 +46,7 @@ Source: <https://zenodo.org/records/21813052>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0778/_index|#778]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For every sufficiently large n, Chingiz (the two-edge player) has a
   strategy with omega(G_C) > omega(G_B) in the (1:2)-biased clique-building game

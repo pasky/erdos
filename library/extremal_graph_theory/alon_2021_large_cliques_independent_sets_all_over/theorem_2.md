@@ -43,9 +43,9 @@ pp. 3146-3147. The edition read is identified on the
 [[extremal_graph_theory/alon_2021_large_cliques_independent_sets_all_over/_index|source card]].
 
 **Read depth.** Claims checked: the statement, its range and the
-conventions were read clause by clause on the page images on 2026-10-08.
-The deduction from Theorem 8 on p. 3154 was read for its structure; the
-proof of Theorem 8 was not checked.
+conventions were read clause by clause on the page images. The deduction from
+Theorem 8 on p. 3154 was read for its structure; the proof of Theorem 8 was not
+checked.
 
 ## Proof pointer
 

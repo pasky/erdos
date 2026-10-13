@@ -90,7 +90,7 @@ and Corollary 1 (p. 9) is where the Theorem's induction on l starts.
 The paper's reference [2] is the site's key GeGy67, Gerencsér and Gyárfás,
 Ann. Univ. Sci. Budapest. Eötvös Sect. Math. 10 (1967), 167--170.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem (p. 8): In any two-coloring of K_n, for each l there are l paths,
   monochromatic in a common color, covering at least n(l+1)/(l+2) vertices; the

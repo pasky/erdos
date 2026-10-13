@@ -11,7 +11,7 @@ authors:
 status: claimed
 claim: proved
 scope: full
-submitted: null
+submitted: 2026-07-13
 links:
 - url: https://omniscienceproject.com/papers/a-deterministic-resolution-of-erdos-problem-728-via-small-prime-nQHYqk7S
   kind: preprint
@@ -62,6 +62,23 @@ reports that its main theorem `erdos728Main_proved` builds without `sorry` on
 or audited it, so no `formalized` evidence is listed. On 2026-10-07 the
 manuscript links above redirected to pages on the agent's maker's site,
 paratelligent.com.
+
+**Submission note.** Posted to the site's forum by Jeff Pickhardt (account
+JPickhardt) on 13 July 2026:
+
+> I realize this was already solved back in January, but I've been working on an
+> AI research agent recently and have been using this problem as one of my test
+> cases. In the process, it generated two new methodologically distinct
+> solutions that may be of interest to the community. You can read them at:
+> Paper 1 link Paper 2 link Both of the proofs are deterministic, distinguishing
+> them from the January proof. The first paper was checked with Lean. I've been
+> checking some of my research agent's output in Lean, not all of it only
+> because I find it is generally very trustworthy these days, and generating
+> Lean increases the cost and slows it down. However, if there is a mistake, I'd
+> be interested to hear that feedback. I know that this community doesn't want
+> to have pure AI commentary only, so I did in fact read over the work and work
+> through it myself as I understand it. I've verified them in various ways
+> including Lean, so I believe it should be correct.
 
 **Depends on.** No page of this wiki.
 

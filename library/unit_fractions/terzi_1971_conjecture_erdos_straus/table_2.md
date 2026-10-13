@@ -95,15 +95,15 @@ formulas). The artifact is identified in the
 [[unit_fractions/terzi_1971_conjecture_erdos_straus/_index|source digest]].
 
 **Read depth.** Claims checked: the statements quoted above and the three
-tables were read clause by clause and digit by digit on the page images on
-2026-09-22. The algorithm (one paragraph) was read for structure only: the
-paper asserts that (2) is equivalent to each of (4)--(6) and (3) to (7) and
-works one substitution; the equivalences and the algorithm's runs were not
-checked. Filing observations, not review verdicts (checked here): Table 1
-has 34 distinct entries and Table 2 has 198; every entry of Table 1 reduces
-modulo $840$ to one of the six classes; the entries of Table 2 reduce
-modulo $9240$ to exactly the 34 entries of Table 1; every entry of Table 2
-is coprime to $120120$. Nothing here is independently reviewed.
+tables were read clause by clause and digit by digit on the page images. The
+algorithm (one paragraph) was read for structure only: the paper asserts that
+(2) is equivalent to each of (4)--(6) and (3) to (7) and works one substitution;
+the equivalences and the algorithm's runs were not checked. Filing observations,
+not review verdicts (checked here): Table 1 has 34 distinct entries and Table 2
+has 198; every entry of Table 1 reduces modulo $840$ to one of the six classes;
+the entries of Table 2 reduce modulo $9240$ to exactly the 34 entries of Table
+1; every entry of Table 2 is coprime to $120120$. Nothing here is independently
+reviewed.
 
 ## Proof pointer
 

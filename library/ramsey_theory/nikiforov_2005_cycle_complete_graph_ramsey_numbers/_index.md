@@ -47,11 +47,10 @@ other right reserved.
 Read status: claims checked for Theorem 1 (p. 2) and Conjecture 16 (p. 22),
 read clause by clause on the page images; the abstract and introduction
 (p. 1), the statements of Lemmas 2--5 (p. 2) and the concluding remarks
-(p. 22) were read in the text layer. On 2026-10-07 pp. 1--14 and 20--23
-were read on the page images, the proof of Theorem 1 (Section 2.4,
-pp. 5--11) for its structure and the results it cites; the proofs of the
-lemmas (Section 2.5, pp. 11--22) were read only for the results they cite,
-and no proof was checked.
+(p. 22) were read in the text layer. Pages 1--14 and 20--23 were also read on
+the page images, the proof of Theorem 1 (Section 2.4, pp. 5--11) for its
+structure and the results it cites; the proofs of the lemmas (Section 2.5, pp.
+11--22) were read only for the results they cite, and no proof was checked.
 
 The paper proves the Erdős--Faudree--Rousseau--Schelp formula
 $r(C_p,K_r)=(p-1)(r-1)+1$ for all $r\ge4$ and $p\ge4r+2$ (Theorem 1), where
@@ -108,9 +107,9 @@ Conjecture 16 asks for a polynomial threshold $p>r^{1/k}$.
 ## Compiled scope
 
 Pages 2 and 22 were read on the page images and pp. 1--4 and 22 in the text
-layer; on 2026-10-07 pp. 1--14 and 20--23 were read on the page images,
-the proof of Theorem 1 for structure only. No proof was checked and
-nothing here is independently reviewed.
+layer; pp. 1--14 and 20--23 were also read on the page images, the proof of
+Theorem 1 for structure only. No proof was checked and nothing here is
+independently reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0551/_index|#551]]: Theorem 1 is the
 range $k\ge4n+2$ ($n\ge4$) of the problem's identity, the last range for

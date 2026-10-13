@@ -88,8 +88,8 @@ H(q,t) (pp. 6--7), read clause by clause in the text layer; Theorem 1 (p. 4)
 and the introduction (pp. 2--3) were read in the text layer; no proof was
 read. For problem 558: claims checked for the Section 3 definition,
 inequality (7), Theorem 3 and Theorem 8 (pp. 5--7, read clause by clause on
-the page images and in the text layer on 2026-09-17); the proof of Theorem 3
-was read for structure only, and Theorem 8 has no written proof.
+the page images and in the text layer); the proof of Theorem 3 was read for
+structure only, and Theorem 8 has no written proof.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0558/_index|#558]],
 [[../wiki/problems/extremal_graph_theory/E0714/_index|#714]]

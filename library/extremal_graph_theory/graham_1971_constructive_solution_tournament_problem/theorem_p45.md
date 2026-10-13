@@ -74,11 +74,10 @@ identified in the
 
 **Read depth.** Claims checked: the definitions, displays (1) and (2), the
 construction, the Theorem and the concluding remarks were read clause by
-clause on the page images on 2026-09-19. The proof (pp. 45--47) was read for
-structure only. The bounds (1), (2), the values $f(2)=7$, $f(3)=19$ and the
-property $P_4$ of $T_{67}$ are quoted or asserted without proof in the
-paper; (2) and $f(3)=19$ are attested here second-hand, their source [6]
-being unread.
+clause on the page images. The proof (pp. 45--47) was read for structure only.
+The bounds (1), (2), the values $f(2)=7$, $f(3)=19$ and the property $P_4$ of
+$T_{67}$ are quoted or asserted without proof in the paper; (2) and $f(3)=19$
+are attested here second-hand, their source [6] being unread.
 
 ## Proof pointer
 

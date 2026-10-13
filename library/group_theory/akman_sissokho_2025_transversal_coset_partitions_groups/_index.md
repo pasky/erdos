@@ -52,10 +52,10 @@ Beiträge zur Algebra und Geometrie / Contributions to Algebra and Geometry,
 
 The copy read for this card is the author-typeset manuscript, without its
 ancillary program. The manuscript prints no journal header, arXiv stamp,
-copyright or license line, and its download URL was not recorded; no
-arXiv record exists for the paper (an arXiv title query on 2026-10-02 returned
-no result), and the version of record's publisher page for DOI
-10.1007/s13366-024-00748-9 sits behind a login wall; the term is unstated.
+copyright or license line, and its download URL was not recorded; an arXiv title
+query on 2026-10-02 returned no record of the paper, and the version of record's
+publisher page for DOI 10.1007/s13366-024-00748-9 sits behind a login wall; the
+term is unstated.
 
 For distinct subgroups $H_1,\ldots,H_r\leq G$, the paper calls a coset
 partition **transversal** when at least one $H_i$-coset occurs for every $i$,

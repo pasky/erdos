@@ -52,10 +52,10 @@ authors' manuscript described in the
 proof on pp. 23-29. The paper credits the recursive bound independently to
 Alon and Halperin (p. 22).
 
-**Read depth.** Claims checked: statement read clause by clause on the
-page images on 2026-10-08. The proof (pp. 23-29) was read in full; the
-three slips below were checked on the page images, and the repair is
-outlined here, not independently reviewed.
+**Read depth.** Claims checked: statement read clause by clause on the page
+images. The proof (pp. 23-29) was read in full; the three slips below were
+checked on the page images, and the repair is outlined here, not independently
+reviewed.
 
 ## Proof pointer
 

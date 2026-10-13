@@ -51,17 +51,16 @@ which the Crossref record dates 2013-07-17; 167,531 bytes. The file prints
 rights of reproduction in any form reserved." on its first page, every other
 right reserved.
 
-Read status: the whole note was read on the page images of PDF pp. 1--2 on
-2026-09-22. Claims checked for the abstract, the introduction, the
-definitions of $\chi(G)$ and $\omega(G)$ and the Theorem (p. 345), the
-remarks on sharpness and on a linear bound, the definition of $f_n$, the
-second Theorem, the triangle-free consequence and the reference list
-(p. 346), each read clause by clause. The proof of the first Theorem
-(pp. 345--346, one paragraph) was read in full on the page images and its
-steps were followed; the second Theorem's proof is not printed ("Using the
-proof above as an induction step, one easily obtains the following result",
-p. 346) and was not reconstructed here. Nothing here is independently
-reviewed.
+Read status: the whole note was read on the page images of PDF pp. 1--2. Claims
+checked for the abstract, the introduction, the definitions of $\chi(G)$ and
+$\omega(G)$ and the Theorem (p. 345), the remarks on sharpness and on a linear
+bound, the definition of $f_n$, the second Theorem, the triangle-free
+consequence and the reference list (p. 346), each read clause by clause. The
+proof of the first Theorem (pp. 345--346, one paragraph) was read in full on the
+page images and its steps were followed; the second Theorem's proof is not
+printed ("Using the proof above as an induction step, one easily obtains the
+following result", p. 346) and was not reconstructed here. Nothing here is
+independently reviewed.
 
 ## Contents
 

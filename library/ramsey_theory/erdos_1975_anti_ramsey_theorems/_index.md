@@ -126,7 +126,7 @@ with k >= 3 (Remark 2, p. 636), and does not reach the linear-order values the p
 asks for (page
 [[ramsey_theory/erdos_1975_anti_ramsey_theorems/theorem_1|theorem_1]]).
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 634): With d+1 = min_{e in E(H)} k(H-e), f(n,H)/C(n,2) -> 1 -
   1/d as n -> infinity (page

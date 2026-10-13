@@ -61,12 +61,12 @@ in the
 
 **Read depth.** Claims checked: the statement, the corollary, the
 introduction's special case and the definitions were read clause by clause
-on the page images on 2026-09-22; the proof of Theorem 1 (p. 258, one
-paragraph) was read in full on the page image and its induction step and
-its use of Lemma 2 were followed; Lemma 2 (p. 255) was read clause by clause
-and its proof from Lemma 1 (pp. 255--257) was followed on the page images;
-Lemma 1 (p. 253) and its proof (pp. 253--255) were read on the page images
-for structure only. Nothing here is independently reviewed.
+on the page images; the proof of Theorem 1 (p. 258, one paragraph) was read in
+full on the page image and its induction step and its use of Lemma 2 were
+followed; Lemma 2 (p. 255) was read clause by clause and its proof from Lemma 1
+(pp. 255--257) was followed on the page images; Lemma 1 (p. 253) and its proof
+(pp. 253--255) were read on the page images for structure only. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

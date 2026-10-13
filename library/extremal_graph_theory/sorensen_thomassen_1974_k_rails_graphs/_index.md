@@ -64,8 +64,8 @@ Bollobás and Erdős, Per. Math. Hungar. 3 (1973), 281--284, the problem
 page's [Le73], filed as
 [[extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/_index|leonard_1973_conjecture_bollobas_erdos]]
 (the disproof at $k=5$ that p. 143 reports is its graph $G$ with 57 points
-and 141 edges, announced on printed p. 281 and built on p. 282, PDF
-pp. 1--2, located here in the text layer on 2026-09-22 and paged on
+and 141 edges, announced on printed p. 281 and built on p. 282, PDF pp. 1--2,
+located here in the text layer and paged on
 [[extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/counterexample_p281|counterexample_p281]]);
 Leonard 1972, filed as
 [[extremal_graph_theory/leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices/_index|leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices]];
@@ -75,8 +75,8 @@ Mader, Ein Extremalproblem des Zusammenhangs von Graphen, Math. Z. 131
 (1973), 223--231, the problem page's [Ma73], filed as
 [[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/_index|mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen]]
 (the general edge-disjoint result that p. 143 reports is its Satz 1 on
-printed p. 223, PDF p. 1, with the Korollar on printed p. 226, PDF p. 4,
-both located here in the text layer on 2026-09-22 and paged on
+printed p. 223, PDF p. 1, with the Korollar on printed p. 226, PDF p. 4, both
+located here in the text layer and paged on
 [[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/satz_1|satz_1]]
 and
 [[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/korollar|korollar]]);
@@ -108,17 +108,16 @@ $f_5(n)\le3n-5$ and Lemma 5 (p. 155), Corollary 2 with both proofs and
 Figure 2 (pp. 156--157), Lemma 6 (p. 157), Theorem 4 with its proof and the
 closing paragraph on $n=7$ and $n=12$ (p. 158) and the reference list
 (p. 159), each read clause by clause on the page images of PDF pp. 1, 2, 5,
-7, 12, 13, 14, 15, 16 and 17 on 2026-09-22. The proof of Theorem 4 (p. 158,
-one paragraph) was read in full on the page image and its reductions to
-Lemma 4, Lemma 6, Corollary 2(b) and the Remark after Theorem 3 were
-followed, with the arithmetic of the two bounds checked for $6\le n\le13$;
-the proof of Corollary 2 (pp. 156--157) was read on the page images and its
-vertex and edge counts followed, its reliance on Lemma 5, whose proof the
-paper leaves to the reader, noted. § 2 (pp. 144--145), Lemmas 1 and 2 and
-Theorem 1 with its proof (pp. 145--147), Lemma 3 and the nine-case proof of
-Theorem 3 (pp. 148--154) and the proof of Lemma 6 (pp. 157--158) were read
-in the text layer for structure only, and none of their case analyses was
-checked. Nothing here is independently reviewed.
+7, 12, 13, 14, 15, 16 and 17. The proof of Theorem 4 (p. 158, one paragraph) was
+read in full on the page image and its reductions to Lemma 4, Lemma 6, Corollary
+2(b) and the Remark after Theorem 3 were followed, with the arithmetic of the
+two bounds checked for $6\le n\le13$; the proof of Corollary 2 (pp. 156--157)
+was read on the page images and its vertex and edge counts followed, its
+reliance on Lemma 5, whose proof the paper leaves to the reader, noted. § 2 (pp.
+144--145), Lemmas 1 and 2 and Theorem 1 with its proof (pp. 145--147), Lemma 3
+and the nine-case proof of Theorem 3 (pp. 148--154) and the proof of Lemma 6
+(pp. 157--158) were read in the text layer for structure only, and none of their
+case analyses was checked. Nothing here is independently reviewed.
 
 ## Contents
 
@@ -322,7 +321,7 @@ $m>0$, and the truth of the edge-disjoint form for $k=5$ by Leonard [7]
 (the page's [Le72]) and in general by Mader [9] (the page's [Ma73], filed as
 [[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/_index|mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen]];
 its Satz 1 on printed p. 223, PDF p. 1, and its Korollar on printed
-p. 226, PDF p. 4, located here in the text layer on 2026-09-22 and paged on
+p. 226, PDF p. 4, located here in the text layer and paged on
 [[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/satz_1|satz_1]]
 and
 [[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/korollar|korollar]]).

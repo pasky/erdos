@@ -40,7 +40,7 @@ Source: <https://arxiv.org/abs/2503.22691>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0648/_index|#648]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: g(n) = Theta((n/log n)^{1/2}), where g(n) is the length of the
   longest sequence of integers up to n with strictly decreasing largest prime

@@ -31,8 +31,7 @@ Status of the conjecture: false. Campos, Jenssen, Michelen and Sahasrabudhe's
 abstract says "we disprove a conjecture of Fiz Pontiveros, Griffiths and
 Morris that the constant $1/4$ is sharp"; Hefty, Horn, King and Pfender's
 [[ramsey_theory/hefty_2025_improving_just_two_bites/theorem_1_2|Theorem 1.2]]
-raises the constant to $1/2$. Both refutations are arXiv preprints without
-journal records on 2026-09-18.
+raises the constant to $1/2$. Both refutations are arXiv preprints.
 
 **Source.** G. Fiz Pontiveros, S. Griffiths and R. Morris, *The
 triangle-free process and the Ramsey number $R(3,k)$*, Mem. Amer. Math. Soc.

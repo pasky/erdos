@@ -42,10 +42,10 @@ arXiv journal reference and the Crossref records read the same day; the
 published chapter was not obtained or compared, and the locators below are
 the preprint's. Read status: claims checked. The definition of a
 representable integer and Theorem 1 (p. 1) and Lemma 2 (p. 2) were read clause
-by clause in the text layer on 2026-09-18, and on 2026-10-08 again on the page
-images together with Lemmas 3--5 (pp. 3--5), the definitions of Section 3 and
-Theorems 6 and 7 (p. 6); the proofs were read for structure and the
-computations were not rerun. Result pages:
+by clause in the text layer, and again on the page images together with Lemmas
+3--5 (pp. 3--5), the definitions of Section 3 and Theorems 6 and 7 (p. 6); the
+proofs were read for structure and the computations were not rerun. Result
+pages:
 [[unit_fractions/alekseyev_2019_partitions_into_squares_distinct_integers_whose/theorem_1|Theorem 1]] (p. 1),
 [[unit_fractions/alekseyev_2019_partitions_into_squares_distinct_integers_whose/lemma_2|Lemma 2]] (p. 2),
 [[unit_fractions/alekseyev_2019_partitions_into_squares_distinct_integers_whose/theorem_6|Theorem 6]] (p. 6) and
@@ -88,7 +88,7 @@ Source: <https://arxiv.org/abs/1801.05928>.
   case $p(x)=x^2$ without the removal of a finite set that strong
   completeness requires.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: The largest integer not expressible as a sum of squares of distinct
   positive integers whose reciprocals sum to 1 is 8542; every larger integer is

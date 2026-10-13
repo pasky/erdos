@@ -52,9 +52,9 @@ identified in the
 
 **Read depth.** Claims checked: the statement, the introduction's question
 and announcement, and the reduction note were read clause by clause on the
-page images of pp. 237--238 on 2026-09-22. The proof of Theorem 1 was
-followed for its first part and read for structure in its second, and not
-checked. Nothing here is independently reviewed.
+page images of pp. 237--238. The proof of Theorem 1 was followed for its first
+part and read for structure in its second, and not checked. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

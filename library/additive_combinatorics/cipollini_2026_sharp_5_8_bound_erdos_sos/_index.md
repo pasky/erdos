@@ -67,7 +67,7 @@ large $N$", and the Section 5 example (p. 7) is the site's sharpness
 example; the problem page qualifies the status (declared AI assistance, no
 refereed publication).
 
-**Results to transcribe.**
+**Results.**
 
 - [[additive_combinatorics/cipollini_2026_sharp_5_8_bound_erdos_sos/theorem_1_1|Theorem 1.1]]
   (p. 1): There is C>0 such that for all N every A ⊆ [1,N] with |A| ≥ 5N/8 + C

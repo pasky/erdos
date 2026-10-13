@@ -87,9 +87,9 @@ independent review verdict for the reconstructed proofs. The site's Lean label
 rested on the public Lean proof linked from
 [[problems/additive_bases/E0035/claims/1970_07_01_plunnecke|Plünnecke's claim
 page]], which carries no formal-verification credit in this corpus. Status
-search of 2026-10-07: the site's page and remarks, its forum thread (one
-comment, a notation query), and the formal-conjectures file; no other claim
-was found.
+search: the site's page and remarks, its forum thread and the
+formal-conjectures file. On 2026-10-07 the thread held one comment, a notation
+query, and none of these sources held another claim.
 
 ## Progress
 

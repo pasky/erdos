@@ -110,10 +110,10 @@ The standing derives from these accepted claims.
 **Status search.** The search covers the site's page (last edited 17 April
 2026), the community database's record of the problem (proved, with a
 formalization listed), the formal-conjectures statement file, and the arXiv
-and Crossref records of the papers cited above, as of 2026-10-07. It found
-the Bezdek and Lángi proof [BeLa16] and the generalization in [ABG18], cited
-above, and nothing that contests the standing; no broader literature search
-is recorded.
+and Crossref records of the papers cited above. It found the Bezdek and Lángi
+proof [BeLa16] and the generalization in [ABG18], cited above, and on 2026-10-07
+these sources held nothing that contests the standing; no broader literature
+search is recorded.
 
 **Compiled proof coverage.** No proof is reconstructed here. The Bezdek and
 Litvak paper's card

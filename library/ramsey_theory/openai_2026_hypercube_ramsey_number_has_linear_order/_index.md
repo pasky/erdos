@@ -83,9 +83,9 @@ in the files `sections/04-bias-versus-purity-at-power-widths.tex`,
 `sections/12-the-two-deep-orientations-some-estimates.tex`,
 `sections/13-patch-tiling-under-9.tex`, `sections/15-high-modes-of-the-tiling.tex`
 and `sections/18-late-dynamics-and-its-transfer-problem.tex`, the last with
-its paragraph "Conclusion of Theorem 1.1") on 2026-10-07; the proofs in
-Sections 3--18 (about 155 pages) were read for their structure only and no
-step was checked; nothing here is independently reviewed.
+its paragraph "Conclusion of Theorem 1.1"); the proofs in Sections 3--18 (about
+155 pages) were read for their structure only and no step was checked; nothing
+here is independently reviewed.
 
 ## Contents
 

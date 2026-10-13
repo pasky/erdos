@@ -65,10 +65,10 @@ The copy read for this card is arXiv:2602.15797v1 (17 February 2026,
 (Crossref bibliographic query, 2026-09-18): a preprint, cited by four 2026
 preprints on 2026-09-18 (Semantic Scholar). Read status: claims checked for
 Conjecture 1.1, Theorem 1.2, Theorem 1.3, Corollary 1.4 and the completion
-sentence (pp. 1--2, text layer) on 2026-09-18, and the statements against the
-print on 2026-10-08; the proofs of Theorem 1.3 (Section 3, pp. 4--12) and
-Corollary 1.4 (pp. 12--13) were read for structure only, and the proof of
-Theorem 1.2 (Section 5, pp. 16--26) was not read. Result pages:
+sentence (pp. 1--2, text layer), and the statements against the print; the
+proofs of Theorem 1.3 (Section 3, pp. 4--12) and Corollary 1.4 (pp. 12--13) were
+read for structure only, and the proof of Theorem 1.2 (Section 5, pp. 16--26)
+was not read. Result pages:
 [[additive_combinatorics/pham_2026_graham_s_rearrangement_conjecture/theorem_1_2|theorem_1_2]],
 [[additive_combinatorics/pham_2026_graham_s_rearrangement_conjecture/theorem_1_3|theorem_1_3]]
 and
@@ -85,7 +85,7 @@ Theorem 1.3 and Corollary 1.4 are anticoncentration inputs to its proof and say
 nothing about orderings on their own. The other ranges come from other papers,
 and no threshold on p is given.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.2: For any 0 < alpha < 1 there is C_alpha with: every S in Z_p \ {0}
   with C_alpha <= |S| <= p^{1-alpha} admits an ordering with all partial sums

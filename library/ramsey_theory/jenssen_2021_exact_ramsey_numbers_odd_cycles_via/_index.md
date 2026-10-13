@@ -65,7 +65,7 @@ odd half of the problem's bound, $R_3(C_n)=4n-3$ for all sufficiently large
 odd $n$, which the paper records as first resolved by Kohayakawa, Simonovits
 and Skokan (p. 3); the threshold on $n$ is not effective.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.2: for each fixed k >= 2, R_k(C_n) = 2^{k-1}(n-1)+1 holds for
   every odd n above a threshold depending on k, proving the Bondy-Erdos

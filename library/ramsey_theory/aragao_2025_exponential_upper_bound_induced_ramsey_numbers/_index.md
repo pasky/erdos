@@ -22,9 +22,9 @@ exponential upper bound for induced Ramsey numbers*, arXiv:2509.22629 (v1 26
 September 2025; v2 13 November 2025, with the arXiv comment "Simplified and
 improved the presentation for journal submission; fixed typos and corrected
 some calculations"). No journal version was found on 2026-09-17: the arXiv
-listing carries no journal reference and a Crossref bibliographic query
-returned no record. The result is reported as proved, with a proof outline,
-in Morris's ICM 2026 plenary lecture
+listing carried no journal reference and a Crossref bibliographic query returned
+no record. The result is reported as proved, with a proof outline, in Morris's
+ICM 2026 plenary lecture
 ([[ramsey_theory/morris_2026_recent_results_ramsey_theory/theorem_1_5|Theorem 1.5]]).
 
 The retained
@@ -99,5 +99,4 @@ read. Nothing here is independently reviewed.
 Source: <https://arxiv.org/abs/2509.22629>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0565/_index|#565]]: Theorem 1.1 is the
-status-defining source, a preprint with no journal version found on
-2026-09-17.
+status-defining source, a preprint.

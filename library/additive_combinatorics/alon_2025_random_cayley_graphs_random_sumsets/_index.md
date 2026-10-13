@@ -80,11 +80,11 @@ The copy read for this card is arXiv:2509.02561v1 (2 September 2025; 19
 pages), the only arXiv version on 2026-09-18, with no journal reference on
 arXiv and no Crossref record: an unrefereed preprint. Read status: claims
 checked for the definitions (p. 2), Theorems 1, 3, 4, 5, 6, 7 and 8 and
-Conjecture 2 (pp. 2--5), each read clause by clause, first in the text layer
-on 2026-09-18 and again on the page images on 2026-10-08; the proofs of
-Theorems 4 to 8 were read for the proof pointers on their pages but not
-checked step by step. The arXiv record names arXiv's non-exclusive
-distribution license (arXiv:2509.02561), every other right reserved.
+Conjecture 2 (pp. 2--5), each read clause by clause, first in the text layer and
+again on the page images; the proofs of Theorems 4 to 8 were read for the proof
+pointers on their pages but not checked step by step. The arXiv record names
+arXiv's non-exclusive distribution license (arXiv:2509.02561), every other right
+reserved.
 
 Source: <https://arxiv.org/abs/2509.02561>.
 

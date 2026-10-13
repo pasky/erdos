@@ -68,7 +68,7 @@ context only: the problem page cites
 and the introduction's announcement of later totient work to set them apart
 from the totient-block question; the paper proves nothing on that question).
 
-**Results to transcribe.**
+**Results.**
 
 - [[arithmetic_functions/erdos_1985_locally_repeated_values_certain_arithmetic_functions_i/theorem_1|Theorem 1]]
   (printed p. 320): general sufficient conditions for infinitely many

@@ -197,7 +197,7 @@ publicity from the site), a historical comment of 12 January 2026 (Erdős and
 Collatz both attended the 1950 International Congress at Harvard; a group
 photograph), and a third-party notice of 16 July 2026 (a company's prize for a
 proof, with a 2031 deadline); none is a mathematical source. The proof-claims
-tab is empty. The community database record, lists the problem as open as of its
+tab is empty. The community database record lists the problem as open as of its
 last update on 11 January 2026.
 
 **The Erdős connection (the account this page keeps).** Lagarias's 2010 survey

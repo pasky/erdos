@@ -48,11 +48,11 @@ page images. The edition read is identified in the
 
 **Read depth.** Claims checked: the statement, the abstract, the
 introduction's statement of the conjecture, the definition of disjointness
-and the § 2 sketch with Claims 2.1--2.7 were read clause by clause on the
-page images on 2026-09-22. The Proof of Theorem B from Claims 2.5--2.7
-(p. 836, one paragraph) was read in full and followed. The proofs of Claims
-2.1--2.7 (pp. 836--877) were read in the text layer for structure only and
-not checked. Nothing here is independently reviewed.
+and the § 2 sketch with Claims 2.1--2.7 were read clause by clause on the page
+images. The Proof of Theorem B from Claims 2.5--2.7 (p. 836, one paragraph) was
+read in full and followed. The proofs of Claims 2.1--2.7 (pp. 836--877) were
+read in the text layer for structure only and not checked. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

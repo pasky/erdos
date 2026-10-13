@@ -44,8 +44,8 @@ p. 12 of the scan, read on the rendered page image. The artifact is
 identified in the
 [[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/_index|source digest]].
 
-**Read depth.** Claims checked: the paragraph was read clause by clause on
-the page image on 2026-09-18. A question; nothing to prove in the source.
+**Read depth.** Claims checked: the paragraph was read clause by clause on the
+page image. A question; nothing to prove in the source.
 
 ## Proof pointer
 

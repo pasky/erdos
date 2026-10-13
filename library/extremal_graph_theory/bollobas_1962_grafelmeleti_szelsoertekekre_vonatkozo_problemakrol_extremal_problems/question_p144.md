@@ -57,8 +57,8 @@ in the
 
 **Read depth.** Claims checked: the question, the definition of $h_r(n)$ and
 the statement of the theorem $h_2(n)=f(n)$ were read clause by clause on the
-page images on 2026-09-19 and translated here; the two proofs of the theorem
-(pp. 145--148 and 149--151) were not read.
+page images and translated here; the two proofs of the theorem (pp. 145--148 and
+149--151) were not read.
 
 ## Proof pointer
 
@@ -69,7 +69,7 @@ as
 its Theorem, with the hypothesis $n(G)\ge3$ and the "in particular"
 sentence that $e(G)\ge2n(G)-2$ forces a cycle and a vertex off it joined
 to at least three of its vertices, is on printed p. 212 (PDF p. 3), located
-here on the text layer of that page on 2026-09-22 and paged on
+here on the text layer of that page and paged on
 [[extremal_graph_theory/thomassen_1974_minimal_condition_implying_special_k4_subdivision_graph/theorem|theorem]];
 the restatement in
 [[extremal_graph_theory/carmesin_2023_characterising_graphs_no_subdivision_wheel_bounded_diameter/related_results_p22|Carmesin (2023), p. 22]]

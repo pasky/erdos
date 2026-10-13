@@ -97,7 +97,7 @@ approved after a replay of the certificate, which is not a review of the
 argument, and this corpus has not built the file
 ([[problems/graph_coloring/E0944/claims/2026_09_10_kitamura|claim page]]);
 the formal-conjectures catalog cites Kitamura's file as the formal proof of
-the $k=4$ case of Dirac's conjecture. The dated search scope is the site's
+the $k=4$ case of Dirac's conjecture. The search scope is the site's
 page, its thread and its proof-claims tab, the Conjectures.io record and the
 formal-conjectures catalog, as of 2026-10-07; the thread also carries a
 comment of 18 June 2026 on the structure of $6$-regular $4$-vertex-critical

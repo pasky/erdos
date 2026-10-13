@@ -14,8 +14,7 @@ updated: 2026-10-08T14:17:34Z
 **Source.** Theorem 3, printed pp. 439--440 (PDF pp. 5--6) of R. L. Graham,
 *A theorem on partitions*, J. Austral. Math. Soc. 3 (1963), no. 4,
 435--441, DOI 10.1017/S1446788700039045; proof pp. 440--441. The copy read
-is an image-only scan; the statement was read on the rendered page
-images on 2026-09-18.
+is an image-only scan; the statement was read on the rendered page images.
 
 ## Statement
 

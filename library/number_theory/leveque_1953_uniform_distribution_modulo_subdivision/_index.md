@@ -76,10 +76,8 @@ Read status: claims checked. The definitions of Sections 1--2 (pp.
 757--758), Theorems 1--6 (pp. 758, 759, 762, 763, 767, 770), the variation
 of Theorem 3 and the opening sentence of Section 4 (p. 763), condition
 (5$'$) (p. 770) and the Corollary with its closing remark (pp. 770--771)
-were read clause by clause on the page images, the Section 1 definitions,
-the Section 4 sentence and Theorem 4 on 2026-09-18 and the rest on
-2026-10-08; the proofs were not checked; nothing here is independently
-reviewed.
+were read clause by clause on the page images; the proofs were not checked;
+nothing here is independently reviewed.
 
 Given a subdivision Delta of (0, infinity) by points z_0 < z_1 < ..., the
 fractional position of x within its interval defines uniform distribution mod

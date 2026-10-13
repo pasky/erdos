@@ -73,14 +73,13 @@ recalled bounds of the author's earlier papers and of Croot (p. 351), the
 definitions of $F(a)$, the sequence $S$, $p_{k(t)}$, $p_{u(t)}$, $D(t)$,
 $L(t)$, $N^*(n)$ and $F^*(a)$, and Theorem 1 (p. 352), Corollary 1 and the
 statements of Lemmas 1--5 (p. 353), each read clause by clause on the page
-images of PDF pp. 1--3 on 2026-09-22; the closing step of the proof of
-Theorem 1 and the opening of § 4 with the proof of Lemma 1 (p. 357) were
-read on the page image of PDF p. 7, and the reference list (pp. 371--372)
-on the page images of PDF pp. 21--22. The proof of Theorem 1 (pp. 354--357)
-and the proofs of Lemmas 2--5 (pp. 357--371) were read in the text layer
-for structure only, and none of their estimates was checked; the results
-cited in the proof of Lemma 2 on p. 360 were read on the page image of PDF
-p. 10 on 2026-10-07. No proof was checked, and nothing here is
+images of PDF pp. 1--3; the closing step of the proof of Theorem 1 and the
+opening of § 4 with the proof of Lemma 1 (p. 357) were read on the page image of
+PDF p. 7, and the reference list (pp. 371--372) on the page images of PDF pp.
+21--22. The proof of Theorem 1 (pp. 354--357) and the proofs of Lemmas 2--5 (pp.
+357--371) were read in the text layer for structure only, and none of their
+estimates was checked; the results cited in the proof of Lemma 2 on p. 360 were
+read on the page image of PDF p. 10. No proof was checked, and nothing here is
 independently reviewed.
 
 ## Contents

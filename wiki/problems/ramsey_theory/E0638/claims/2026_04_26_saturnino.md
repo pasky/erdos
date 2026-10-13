@@ -11,9 +11,9 @@ authors:
 status: claimed
 claim: disproved
 scope: full
-submitted: null
+submitted: 2026-04-26
 links:
-- url: https://www.erdosproblems.com/forum/thread/638
+- url: https://www.erdosproblems.com/forum/thread/638#post-5909
   kind: discussion
   date: 2026-04-26
 - url: https://github.com/woeowiegj/Erdos638/tree/06cfc3735d4415643196bb67440fbec71342b783
@@ -48,6 +48,13 @@ avoid the minimal cores of the earlier blocks define the class; and a graph
 whose finite subgraphs all lie in the class has a triangle hypergraph of
 finite chromatic number, by the de Bruijn--Erdős compactness lemma or by
 finiteness.
+
+**Submission note.** Posted to the site's forum by Brian Saturnino (account
+InfiniteInsights) on 26 April 2026:
+
+> Hello, I would like to submit a potential solution to the problem.
+> https://pdfhost.io/v/kQ6nBNKNY8_Erdos_Problem_638 I have tried to get it
+> submitted through Aristotle AI. Everything appears to be fine. Thank you.
 
 **Scope.** Full: the class $S_{\mathrm{ord}}$ is closed under taking
 subgraphs and meets the hypothesis, so a correct proof answers no to the

@@ -56,9 +56,9 @@ asserts that some finite seed has a greedy extension whose gaps are not
 eventually periodic; it does not name Li's seed, though its proof uses it, and
 Li's infinite family of seeds is not built. The notes under Known Results
 record outside results and claims and are not independently reviewed. Search
-scope, 2026-10-05 and 2026-10-07: the site's page, thread and proof-claims tab,
-the claimant's repository and its Zenodo record, the formal-conjectures catalog
-and the community database; no literature search beyond these is recorded.
+scope: the site's page, thread and proof-claims tab, the claimant's repository
+and its Zenodo record, the formal-conjectures catalog and the community
+database; no literature search beyond these is recorded.
 
 ## Known Results
 

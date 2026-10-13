@@ -56,7 +56,7 @@ Source: <https://arxiv.org/abs/2503.22700>.
 
 **Bears on.** [[../wiki/problems/primes/E0244/_index|#244]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For almost all y > 1, the lower density of S_y = {p + floor(y^k)}
   is at least 1/(log y + 9C_0/pi^2), so S_y has positive lower density; the

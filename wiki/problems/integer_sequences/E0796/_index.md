@@ -299,13 +299,12 @@ page follows the site and records the disagreement. Tang's note ([Ta26]) states
 Proposition 2.1 as stated above and, in its concluding remarks, records the p.
 261 remark of [Er64d] and conjectures $g_3(n)\le n\log\log n/\log n+cn/\log n$.
 
-**Search scope (2026-09-18 UTC).** None of the routes below found a
-refereed publication or an independent review of either claim, a
-published second-order asymptotic, or the passage the site attributes to
-[Er69b].
+**Search scope.** The routes below, as they stood on 2026-09-18, showed no
+refereed publication or independent review of either claim, no published
+second-order asymptotic and not the passage the site attributes to [Er69b].
 
-- The site: problem page, discussion thread and proof-claim tab from that
-  access; formal-conjectures `796.lean` at the commit linked above; the
+- The site: problem page, discussion thread and proof-claim tab as accessed
+  2026-09-18; formal-conjectures `796.lean` at the commit linked above; the
   community database as of 2026-09-18.
 - The three repositories at the commits linked above: Tang's note (TeX
   source), Gajjala's README, `Statement.lean` and `AUDIT.md`, and the 44

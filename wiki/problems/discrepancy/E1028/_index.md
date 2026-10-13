@@ -30,6 +30,35 @@ $$
 
 where $f$ ranges over all functions $f:X^2\to \{-1,1\}$. Estimate $H(n)$.
 
+**Statement (precise).** Let
+
+$$
+H(n)=\min_f \max_{X\subseteq \{1,\ldots,n\}}
+\left\lvert \sum_{x<y\in X} f(x,y)\right\rvert,
+$$
+
+where $f$ ranges over all functions $f:\{1,\ldots,n\}^2\to \{-1,1\}$. Estimate
+$H(n)$.
+
+**Notes.** The site's annotation $f:X^2\to\{-1,1\}$ reuses the subset $X$ over
+which the maximum is taken, so it fixes no single domain for $f$, and its sum
+over $x\neq y$ counts each pair twice, once in each order. Read with the domain
+$\{1,\ldots,n\}^2$ and independent signs on the two orders, the minimax is $0$
+for every $n$: taking $f(x,y)=1$ for $x<y$ and $f(x,y)=-1$ for $x>y$ makes
+every sum vanish. The sources fix the reading. Erdős [Er63d] gives each
+unordered edge of the complete graph one sign (printed p.30) and defines
+$H(n)$ as the least possible largest absolute sum over induced complete
+subgraphs (printed p.31), and Erdős and Spencer [ErSp71] define $H_2(n)$ the
+same way (printed pp.379--380). The change sums over $x<y$, one term per
+unordered pair, and gives $f$ the domain $\{1,\ldots,n\}^2$; only the values
+of $f$ above the diagonal matter, so this is the edge quantity of the sources.
+Requiring $f(x,y)=f(y,x)$ and keeping the sum over $x\neq y$ gives $2H(n)$
+instead. Both elementary deductions are in
+[[../library/discrepancy/erdos_1971_imbalances_colorations/edge_normalization|Unordered edges and ordered-pair variants]].
+Under the precise Statement, Erdős and Spencer's Theorem (5) gives
+$H(n)=\Theta(n^{3/2})$; under the site's wording read on ordered pairs, the
+answer is the value $0$.
+
 **Status.** Labeled SOLVED (LEAN) on erdosproblems.com, with a formulation
 qualification. This is the label as it stood on 2026-09-04. Its Lean marker
 refers to the formalization reported in the forum and recorded below. The site's
@@ -101,16 +130,16 @@ H(n)=\min_{g:\binom{[n]}2\to\{-1,1\}}
 $$
 
 Here $[n]=\{1,\ldots,n\}$. In the historical results below, $H(n)$ means
-this normalized unordered-edge quantity. This is an explicitly distinguished
-intended variant, not a replacement transcription of the imported statement.
+this normalized unordered-edge quantity, the one the precise Statement above
+defines.
 
 The well-scoped ordered variant with arbitrary $f:[n]^2\to\{-1,1\}$ has
 value $0$, since opposite orientations can cancel. Requiring
 $f(x,y)=f(y,x)$ makes the ordered-pair minimax exactly $2H(n)$;
 summing only over $x<y$ gives $H(n)$. The complete elementary arguments are
 in [[../library/discrepancy/erdos_1971_imbalances_colorations/edge_normalization|Unordered edges and ordered-pair variants]].
-The published theorem and the formal artifacts below concern the intended
-edge quantity, not the imported formula as written.
+The published theorem and the formal artifacts below concern the edge
+quantity of the precise Statement, not the site's formula as written.
 
 ## Known Results
 

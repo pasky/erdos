@@ -72,7 +72,7 @@ Source: <https://arxiv.org/abs/2102.00807>.
 the status-defining result for the problem's path question, in a preprint;
 the cycle question is not touched.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 1): For n >= k >= 5 and l = floor((k-1)/2), AR(n,P_k) =
   max{binom(k-2,2)+1, binom(l-1,2)+(l-1)(n-l+1)+eps}, eps = 1 if k odd and 2 if

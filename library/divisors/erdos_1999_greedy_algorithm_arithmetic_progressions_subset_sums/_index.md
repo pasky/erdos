@@ -89,16 +89,15 @@ functions $P(n)$, $Q(n)$, $R(n)$ (p. 127), Theorem 2, Theorem 3, Corollary
 passage deducing $Q(n)\gg n^{1/5}$ (p. 128), the guess
 $Q(n)>n^{1/2-\varepsilon}$, Theorem 4, Theorem 5 and Theorem 6 (p. 129),
 and the proof of Theorem 5
-(p. 133), each read clause by clause on the page images of PDF pp. 1, 9,
-10, 11 and 15 on 2026-09-22. The proof of Theorem 5 (§ 8, pp. 133--134)
-was read on the page image of p. 133 and in the text layer for p. 134: the
-upper bound's reduction to the Erdős--Moser bound and the witness set were
-followed, the divisibility argument for the witness was not checked. § 2
-(the Stanley sequences and Tables 1--6, pp. 120--126), Theorem 1 and its
-proof (pp. 126, 129--130), the proofs of Theorems 3, 2 and 4 (§§ 5--7,
-pp. 130--132), the proof of Theorem 6 (§ 9, p. 134) and the reference list
-(p. 135) were read in the text layer for structure only. Nothing here is
-independently reviewed.
+(p. 133), each read clause by clause on the page images of PDF pp. 1, 9, 10, 11
+and 15. The proof of Theorem 5 (§ 8, pp. 133--134) was read on the page image of
+p. 133 and in the text layer for p. 134: the upper bound's reduction to the
+Erdős--Moser bound and the witness set were followed, the divisibility argument
+for the witness was not checked. § 2 (the Stanley sequences and Tables 1--6, pp.
+120--126), Theorem 1 and its proof (pp. 126, 129--130), the proofs of Theorems
+3, 2 and 4 (§§ 5--7, pp. 130--132), the proof of Theorem 6 (§ 9, p. 134) and the
+reference list (p. 135) were read in the text layer for structure only. Nothing
+here is independently reviewed.
 
 ## Contents
 

@@ -78,7 +78,7 @@ minimum degree; p. 609 records the lower bounds $4/3$ and $3/2$. Paged at
 and
 [[extremal_graph_theory/conlon_2014_cycle_packing/theorem_1_4|theorem_1_4]].
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.2 (p. 609): average degree d allows a split into O(n log log d)
   cycles and single edges, so f(n) = O(n log log n).

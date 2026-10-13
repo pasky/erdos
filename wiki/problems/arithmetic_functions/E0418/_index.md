@@ -95,7 +95,7 @@ lean-proofs repository, which the formal-conjectures statement file credits to
 Alexeev using Aristotle and records as the problem's formal proof. This corpus
 has neither built nor audited it, so no `formalized` evidence is listed.
 
-**Search scope (2026-10-07).** The site's problem page (last edited 2025-12-08)
+**Search scope.** The site's problem page (last edited 2025-12-08)
 and discussion thread, the community database, the formal-conjectures statement
 file and the lean-proofs file; [BrSc95] through its library card, [FlLu00] on
 the publisher's site and [BaLu04] on arXiv. No proof was reconstructed here.

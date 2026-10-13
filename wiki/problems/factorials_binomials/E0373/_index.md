@@ -134,12 +134,13 @@ states the stronger form, that every other solution has $a_1\ge10^{3000}$.
 Guy's section B23 [Gu04] states the equation, Hickerson's solutions and the
 searches to 18160 and $10^6$.
 
-Dated search scope (2026-10-07): the site's problem page and commentary, its
-discussion thread and its proof-claims tab, which carries no claim; the
-community database's entry; the formal-conjectures statement file at the
-pinned revision; the publisher's record of Luca's paper; and the library
-cards for [Er76d], [Er93], [Gu04], [BhRa10] and [Ha19]. No other claim on
-the problem was found. Nothing on this page is independently reviewed.
+Search scope: the site's problem page and commentary, its discussion thread
+and its proof-claims tab, which carried no claim on 2026-10-07; the community
+database's entry; the formal-conjectures statement file at the pinned
+revision; the publisher's record of Luca's paper; and the library cards for
+[Er76d], [Er93], [Gu04], [BhRa10] and [Ha19]. On 2026-10-07 none of them
+showed another claim on the problem. Nothing on this page is independently
+reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

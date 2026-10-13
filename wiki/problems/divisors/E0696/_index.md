@@ -77,8 +77,8 @@ Erdős's original formulation is on p. 81 of
 
 No source of either claim is compiled in this corpus, no independent proof
 review is recorded, and this corpus has not built the Lean developments; the
-account above rests on the site's thread and the claimants' repositories, read
-on 2026-10-07.
+account above rests on the site's thread and the claimants' repositories as
+they stood on 2026-10-07.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

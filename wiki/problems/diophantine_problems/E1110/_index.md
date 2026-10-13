@@ -121,9 +121,9 @@ $(5,2)$ and $(7,2)$, two pairs outside Yu and Chen's density-zero range, and
 Bécart's repository adds a draft of the same for $(4,3)$, a third such pair,
 so that the first question's answer differs between pairs. None of the three
 would settle the problem alone, none is accepted, and the derived standing
-is open. The search behind this account, made 2026-10-07, covered the site's
-page, its proof-claims thread, the claimants' postings and the
-formal-conjectures statement file; the statements attributed above to Yu and
+is open. The search behind this account covered the site's page, its
+proof-claims thread, the claimants' postings and the formal-conjectures
+statement file; the statements attributed above to Yu and
 Chen [YuCh22] and to Yang and Zhao [YaZh25] follow the site's remarks, not
 the papers.
 <!-- BEGIN problem library links -->

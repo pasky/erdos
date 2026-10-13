@@ -90,11 +90,11 @@ Theorem 1.2 and
 [[discrete_geometry/openai_2026_triangular_minimality_planar_coulomb_renormalized_energy/corollary_1_3|Corollary 1.3]],
 read clause by clause in the TeX source
 (`sections/01-introduction.tex`, labels `thm:main`, `thm:torus`, `cor:bhs`,
-with the definitions in lines 12-62 and 78-87 of that file) on 2026-10-07; the
-statements of Proposition 2.4, Lemma 3.2, Lemma 4.1, Propositions 4.3 and 4.5,
-Lemma 5.3, Proposition 5.4 and Theorem 7.2 were read as statements for the
-proof pointers; the proofs in Sections 2-8 were read for their structure only
-and no step was checked; nothing here is independently reviewed.
+with the definitions in lines 12-62 and 78-87 of that file); the statements of
+Proposition 2.4, Lemma 3.2, Lemma 4.1, Propositions 4.3 and 4.5, Lemma 5.3,
+Proposition 5.4 and Theorem 7.2 were read as statements for the proof pointers;
+the proofs in Sections 2-8 were read for their structure only and no step was
+checked; nothing here is independently reviewed.
 
 ## Contents
 

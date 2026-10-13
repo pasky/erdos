@@ -106,11 +106,11 @@ $1/\log4$, so it is a partial result for this problem and carries no claim
 page here. Problem 401 is a later, more precise question in the same spirit,
 settled the next day by the same route.
 
-Search scope, 2026-10-07: the site's problem page, its discussion thread (30
-comments), the community database, the formal-conjectures file and Alexeev's
-repository. The site lists no proof claim for the problem, and the thread's
-literature searches, including an inquiry to Pomerance, found no earlier
-solution.
+Search scope: the site's problem page, its discussion thread, the community
+database, the formal-conjectures file and Alexeev's repository. On 2026-10-07
+the thread held 30 comments and the site listed no proof claim for the
+problem; the thread's literature searches, including an inquiry to Pomerance,
+found no earlier solution.
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -121,5 +121,6 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/factorials_binomials/erdos_1975_prime_factors/_index|erdos_1975_prime_factors]]
 - [[../library/factorials_binomials/erdos_1975_prime_factors/question_p91_small_prime_denominators|erdos_1975_prime_factors / question_p91_small_prime_denominators]]
 - [[../library/factorials_binomials/sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle/_index|sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle]]
+- [[../library/factorials_binomials/sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle/theorem_2|sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle / theorem_2]]
 
 <!-- END problem library links -->

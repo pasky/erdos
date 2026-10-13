@@ -55,7 +55,7 @@ image. The edition is identified in the
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/_index|source digest]].
 
 **Read depth.** Claims checked: the passage was read clause by clause on the
-page image on 2026-09-19. It poses a question and summarizes
+page image. It poses a question and summarizes
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/theorem_5|Theorem 5]]
 and the constant-$k$ constructions; the latter's bound
 $n-O(n^{1-1/k}\log^{k/2}n)$ was not checked against the proof of Theorem 5,

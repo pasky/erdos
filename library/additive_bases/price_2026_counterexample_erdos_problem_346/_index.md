@@ -68,7 +68,7 @@ and
   a_{n+1}/a_n -> phi; it does not address sequences whose ratios are assumed
   to converge.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 1): There is a strictly increasing sequence A of positive
   integers with: A minus any finite subsequence complete, A minus any infinite

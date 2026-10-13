@@ -122,8 +122,7 @@ T. F. Bloom, Erdős Problem #457, https://www.erdosproblems.com/457, accessed
 - [OEIS] Beregovsky, E., Sequence A391668, The On-Line Encyclopedia of
   Integer Sequences (2025; entry last modified 20 January 2026, server
   time): the table of the least number coprime to every integer in
-  $[n+1,n+k]$, read by antidiagonals; accessed. A data lead
-  only.
+  $[n+1,n+k]$, read by antidiagonals. A data lead only.
 
 **Formalization.** The site's suffix (Lean) is a catalog label; see
 "Formalization and the Lean label" below for the file's contents. The file

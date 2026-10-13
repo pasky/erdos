@@ -31,8 +31,7 @@ Therefore, $W$ is a counterexample to Conjecture 1.9 for $\Delta=15$."
 strong clique index of graphs*, arXiv:2607.02698v1 (2 July 2026); Lemma 3.1
 with its proof and the $h_3(4)$ display on p. 9 of the retained preprint,
 read on the page image; Lemma 3.2 and the $h_3(15)$ display on pp. 9--10,
-page images. A preprint with no refereed version or independent review
-found on 2026-09-19. The artifact is identified in the
+page images. The artifact is identified in the
 [[extremal_graph_theory/kumar_2026_improved_bound_strong_clique_index_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, its proof and the display

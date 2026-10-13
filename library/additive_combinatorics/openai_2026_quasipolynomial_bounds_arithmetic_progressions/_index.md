@@ -104,11 +104,11 @@ Lemma 2.2, Proposition 10.4, Proposition 11.1 and Corollaries 11.2--11.5,
 read clause by clause in the TeX source (`sections/00-introduction.tex` lines
 13--36, `sections/01-setup.tex` lines 97--124 and 192--203,
 `sections/08-iteration.tex` lines 360--367, `sections/09-consequences.tex`
-in full) on 2026-10-07; the statements of the remaining section-level results
-(Theorem 3.4, Propositions 4.1, 6.2, 7.4, 7.8 and 9.1, Corollary 7.9,
-Theorem 8.2, and the appendix results the interface table names)
-were read as statements only; the proofs were read for their structure only
-and no step was checked; nothing here is independently reviewed.
+in full); the statements of the remaining section-level results (Theorem 3.4,
+Propositions 4.1, 6.2, 7.4, 7.8 and 9.1, Corollary 7.9, Theorem 8.2, and the
+appendix results the interface table names) were read as statements only; the
+proofs were read for their structure only and no step was checked; nothing here
+is independently reviewed.
 
 ## Contents
 

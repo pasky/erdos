@@ -84,13 +84,12 @@ notation of § 2 and the statements of Lemmas 1--3 (p. 163), the statements
 of Lemmas 4 and 5 (p. 164), the opening sentence of § 3 with the choice of
 $t$, $d_0$, $k$ and $d^*$ (p. 167), the closing steps of the proof
 (pp. 168--169) and the reference list (p. 169), each read clause by clause
-on the page images of PDF pp. 1--3 and 6--8 on 2026-09-22. The proofs of
-Lemma 3 (pp. 163--164) and Lemma 5 (pp. 164--167) were read in the text
-layer for structure only, with the pages 163, 164 and 167 also on the page
-image; PDF pp. 4--5 (printed pp. 165--166) were read in the text layer
-only. No estimate was checked except the last step of the proof (p. 168,
-on the page image on 2026-10-07; see Contents), and nothing here is
-independently reviewed.
+on the page images of PDF pp. 1--3 and 6--8. The proofs of Lemma 3 (pp.
+163--164) and Lemma 5 (pp. 164--167) were read in the text layer for structure
+only, with the pages 163, 164 and 167 also on the page image; PDF pp. 4--5
+(printed pp. 165--166) were read in the text layer only. No estimate was checked
+except the last step of the proof (p. 168, on the page image; see Contents), and
+nothing here is independently reviewed.
 
 ## Contents
 

@@ -65,14 +65,13 @@ Tables 2(a)--(d) (p. 16), the case split of § 5 (p. 17), the closing
 paragraphs of § 5 with the identification of coloring (a) with the
 Greenwood--Gleason coloring $GG$ (p. 18), Table 3, the automorphisms of
 $GG$, the non-isomorphism argument and the Theorem (p. 19), each read
-clause by clause on the page images of all twelve PDF pages on 2026-09-22;
-p. 20 (PDF p. 12) was read on the page image for the reference list. The
-proofs of Lemma 1 (pp. 11--13), Lemma 2 (pp. 13--14) and the four cases of
-§ 5 (pp. 17--18) were read in full on the page images and their structure
-was followed; none of their edge-by-edge deductions was checked. The
-entries of Tables 2(a) and 2(b) were read on the page image against the
-text layer and transcribed onto the result page. Nothing here is
-independently reviewed.
+clause by clause on the page images of all twelve PDF pages; p. 20 (PDF p. 12)
+was read on the page image for the reference list. The proofs of Lemma 1 (pp.
+11--13), Lemma 2 (pp. 13--14) and the four cases of § 5 (pp. 17--18) were read
+in full on the page images and their structure was followed; none of their
+edge-by-edge deductions was checked. The entries of Tables 2(a) and 2(b) were
+read on the page image against the text layer and transcribed onto the result
+page. Nothing here is independently reviewed.
 
 ## Contents
 

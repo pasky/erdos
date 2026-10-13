@@ -16,7 +16,8 @@ updated: 2026-10-07T21:11:03Z
 ***
 
 Marcus Michelen, Mehtaab Sawhney, Convergent points for random power series on
-the unit circle. arXiv:2509.02729 (2025). The arXiv record
+the unit circle. arXiv:2509.02729 (2025). The held PDF is arXiv:2509.02729v1
+(2 September 2025). The arXiv record
 (https://arxiv.org/abs/2509.02729, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 
@@ -41,7 +42,7 @@ Source: <https://arxiv.org/abs/2509.02729>.
 
 **Bears on.** [[../wiki/problems/analysis/E0527/_index|#527]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: If a_n are complex with n^{1/2}|a_n| -> 0 and eps_n are
   independent uniform signs, then almost surely some z with |z| = 1 has sum

@@ -47,7 +47,7 @@ https://www.erdosproblems.com/969.
 
 ## Current assessment
 
-Site formulation(last edit): determine the order of
+Site formulation (last edit 2025-10-19): determine the order of
 magnitude of $E(x)=Q(x)-\frac{6}{\pi^2}x$. The question was open
 on the site and no claim about it is on record. The site's summary of the
 literature leaves a gap between an omega result and the upper bounds. Evelyn

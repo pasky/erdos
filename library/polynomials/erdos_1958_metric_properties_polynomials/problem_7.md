@@ -24,9 +24,9 @@ polynomials*, J. Analyse Math. 6 (1958), 125--148, doi:10.1007/BF02790232;
 Problem 7 on p. 142. The copy read is identified on the
 [[polynomials/erdos_1958_metric_properties_polynomials/_index|source card]].
 
-**Read depth.** Claims checked: the problem was read on the page image of
-p. 142 on 2026-10-08; the disk is printed without the bar the paper uses for
-closed disks. Nothing here is independently reviewed.
+**Read depth.** Claims checked: the problem was read on the page image of p.
+142; the disk is printed without the bar the paper uses for closed disks.
+Nothing here is independently reviewed.
 
 ## Dependencies
 

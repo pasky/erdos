@@ -73,14 +73,13 @@ construction $B_2$ with its range $n_2$ and element count $k_2$ (p. 121),
 the parameter choices and the displays leading to equations (3) and (4) and
 the statement of Satz 2 (p. 123), and equation (6) with the induction and
 the reference list (p. 124), each read clause by clause on the page images of
-PDF pp. 1, 2, 4, 6 and 7 on 2026-09-22. On 2026-10-08 the Bemerkung
-(p. 120), the order-3 construction $B_3$ with its range $n_3$ and count
-$k_3$ and the elimination of $\alpha_h$ (p. 122) were also read clause by
-clause. The proof of Satz 1 (pp. 120--121) was read for structure only; no
-case of the proof was checked, and its construction was run on small
-parameters as a filing check (recorded on the Satz 1 page). The arithmetic
-from the stated parameters to the leading terms of (3) and (4) on p. 123 was
-followed. Nothing here is independently reviewed.
+PDF pp. 1, 2, 4, 6 and 7. The Bemerkung (p. 120), the order-3 construction $B_3$
+with its range $n_3$ and count $k_3$ and the elimination of $\alpha_h$ (p. 122)
+were also read clause by clause. The proof of Satz 1 (pp. 120--121) was read for
+structure only; no case of the proof was checked, and its construction was run
+on small parameters as a filing check (recorded on the Satz 1 page). The
+arithmetic from the stated parameters to the leading terms of (3) and (4) on p.
+123 was followed. Nothing here is independently reviewed.
 
 ## Contents
 

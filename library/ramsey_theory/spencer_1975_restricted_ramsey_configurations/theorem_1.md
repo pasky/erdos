@@ -38,8 +38,8 @@ positive integers.
 
 **Source.** J. Spencer, *Restricted Ramsey configurations*, J. Combinatorial
 Theory Ser. A 19 (1975), 278--286; Section 2, printed p. 279, read on the
-rendered rotated spread PDF p. 3 of the interlibrary-loan scan (the
-right half of the spread) on 2026-09-18.
+rendered rotated spread PDF p. 3 of the interlibrary-loan scan (the right half
+of the spread).
 
 **Read depth.** Claims checked: van der Waerden's theorem as recalled, the
 $V$-set definition and Theorem 1 were read clause by clause on the page image.

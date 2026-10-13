@@ -22,10 +22,10 @@ the printed article (no text layer; printed p. n is PDF p. n - 230). The
 Section 2 items quoted below for Problems 88, 636 and 637 were read on the
 rendered page image of printed p. 234 (PDF p. 4); read status for them: claims
 checked, the two items read clause by clause on the page image. Problem 14
-(printed pp. 234--236, PDF pp. 4--6) was read clause by clause on the
-rendered page images on 2026-09-18 for Problem 80; read status for it:
-claims checked. The other items on this card keep their earlier reading. No
-notice is printed in the file; the journal's article page
+(printed pp. 234--236, PDF pp. 4--6) was read clause by clause on the rendered
+page images for Problem 80; read status for it: claims checked. The other items
+on this card keep their earlier reading. No notice is printed in the file; the
+journal's article page
 (https://lematematiche.dmi.unict.it/index.php/lematematiche/article/view/587,
 read 2026-10-02) names the Creative Commons Attribution 4.0 license for the
 article content ("licensed under Creative Commons Attribution 4.0
@@ -118,7 +118,7 @@ $e(n;k)$ depends on $k$. I offer a prize of one thousand dollars for
 clearing up these questions"; the problem's $e(n,r)$ with its estimation
 asked in general, without the two limit questions of the 1987 paper)
 
-**Results to transcribe.**
+**Results.**
 
 - Item 4 (p. 232, reviewing Problem 6 of the 1989 list): Asks whether every
   graph on (2k+1)n vertices whose smallest odd cycle has size ≥ 2k+1 becomes

@@ -39,8 +39,7 @@ answer also rests on an accepted partial claim, Erdős's 1975 theorem that
 $a_n=2^{2^n}$ attains that growth, recorded on
 [[problems/irrationality/E0262/claims/1975_01_01_erdos|its own page]]. The Lean
 proof behind the label is a public formalization of Hančl's argument, linked
-from the claim page. The corpus records no build or audit of it as of
-2026-10-07.
+from the claim page. The corpus records no build or audit of it.
 
 **Source.** [erdosproblems.com/262](https://www.erdosproblems.com/262), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #262,

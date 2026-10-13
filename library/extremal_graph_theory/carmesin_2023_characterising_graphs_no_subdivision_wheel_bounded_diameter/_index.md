@@ -54,10 +54,10 @@ Commons: Attribution (CC BY)", the Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for the two sentences on Thomassen in the
 paragraph "Related results" (printed p. 22 = PDF p. 3), read clause by
-clause on the page image on 2026-09-19, and for reference [16] on p. 51 (text
-layer); Theorem 1.1 (p. 22) was read as a statement. Nothing else of the
-paper was read, and none of its proofs is checked. The paper is held as an
-attestation of Thomassen's theorem for Problem 916, not for its own results.
+clause on the page image, and for reference [16] on p. 51 (text layer); Theorem
+1.1 (p. 22) was read as a statement. Nothing else of the paper was read, and
+none of its proofs is checked. The paper is held as an attestation of
+Thomassen's theorem for Problem 916, not for its own results.
 
 ## Contents
 

@@ -129,13 +129,14 @@ is a sum of two distinct integers of $\{1,\ldots,N\}$ of one color, and
 $|C_N|\ge|C^2_N|>N/2-3N^{1-2^{-k-1}}\ge cN$ for any fixed $c<\tfrac12$ once
 $N$ exceeds a threshold depending on $k$. Acceptance evidence: the site's
 curator names the chapter as the solution; the chapter is part of a Springer
-conference volume published in 1989 (Crossref record of the DOI accessed), whose refereeing is not documented. Read depth: claims checked
-for Theorem 1, Lemma 1 and Theorem 2; the deduction of Theorem 1(i) from
-Lemma 1 (p. 50: Lemma 1 with $d=k+1$ gives a $(k+1)$-dimensional cube of
-even integers without monochromatic representation, and two of the $k+1$
-integers $z+v_i$ share a class, so their sum $u+v_i+v_j$ is a monochromatic
-sum in the cube, a contradiction) and the proofs of (ii) and (iii) (p. 51)
-were read for structure; the proof of Lemma 1 (pp. 49--50) was not checked.
+conference volume published in 1989 (Crossref record of the DOI), whose
+refereeing is not documented. Read depth: claims checked for Theorem 1, Lemma 1
+and Theorem 2; the deduction of Theorem 1(i) from Lemma 1 (p. 50: Lemma 1 with
+$d=k+1$ gives a $(k+1)$-dimensional cube of even integers without monochromatic
+representation, and two of the $k+1$ integers $z+v_i$ share a class, so their
+sum $u+v_i+v_j$ is a monochromatic sum in the cube, a contradiction) and the
+proofs of (ii) and (iii) (p. 51) were read for structure; the proof of Lemma 1
+(pp. 49--50) was not checked.
 
 **Known results beyond the statement.**
 [[../library/ramsey_theory/erdos_1989_conjecture_roth_related_problems/theorem_2|Theorem 2]]

@@ -39,10 +39,10 @@ and its proof on printed p. 55 (PDF p. 3 of the publisher scan),
 read on the page image. The edition is identified in the
 [[extremal_graph_theory/erdos_1990_subgraphs_minimal_degree_k/_index|source digest]].
 
-**Read depth.** Claims checked: the statement was read clause by clause on
-the page image on 2026-09-22. The proof (half a page) was read in full on the
-page image and its deletion algorithm followed; its closing inequality chain
-was not rechecked. Nothing here is independently reviewed.
+**Read depth.** Claims checked: the statement was read clause by clause on the
+page image. The proof (half a page) was read in full on the page image and its
+deletion algorithm followed; its closing inequality chain was not rechecked.
+Nothing here is independently reviewed.
 
 ## Proof pointer
 

@@ -52,7 +52,7 @@ Source: <https://doi.org/10.4064/aa-48-3-209-260>.
 Corollary 1 answers the problem asymptotically, with a power-of-log x error,
 when A consists of primes.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 2 (p. 211): For x >= z >= 2 and multiplicative f satisfying (1.1) with
   K >= 1, K_1 > 0, 0 < K_2 < 2, (1/x) sum_{n <= x} f(n) >=

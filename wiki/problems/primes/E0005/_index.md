@@ -42,7 +42,8 @@ https://www.erdosproblems.com/5.
 
 - [BFM16] Banks, William D. and Freiberg, Tristan and Maynard, James, On limit
   points of the sequence of normalized prime gaps. Proc. Lond. Math. Soc. (3)
-  (2016), 515-539.
+  (2016), 515-539. Library home:
+  [[../library/primes/banks_2016_limit_points_sequence_normalized_prime_gaps/_index|banks_2016_limit_points_sequence_normalized_prime_gaps]].
 - [Er55] Erdős, Paul, Some remarks on number theory. Riveon Lematematika (1955),
   45-48. The site's commentary credits the positive-measure theorem to Erdős
   under this key, but this note does not contain it (see
@@ -63,14 +64,17 @@ https://www.erdosproblems.com/5.
   paged at
   [[../library/ramsey_theory/erdos_1997_some_my_favorite_problems_results/remark_p58|remark_p58]].
 - [GPY09] Goldston, Daniel A. and Pintz, János and Y\i ld\i r\i m, Cem Y.,
-  Primes in tuples. I. Ann. of Math. (2) 170 (2009), 819-862.
+  Primes in tuples. I. Ann. of Math. (2) 170 (2009), 819-862. Library home:
+  [[../library/primes/goldston_2009_primes_tuples_i/_index|goldston_2009_primes_tuples_i]].
 - [HiMa88] Hildebrand, Adolf and Maier, Helmut, Gaps between prime numbers.
   Proc. Amer. Math. Soc. (1988), 1-9.
 - [Me20] Merikoski, Jori, Limit points of normalized prime gaps. J. Lond. Math.
-  Soc. (2) (2020), 99-124.
+  Soc. (2) (2020), 99-124. Library home:
+  [[../library/primes/merikoski_2020_limit_points_normalized_prime_gaps/_index|merikoski_2020_limit_points_normalized_prime_gaps]].
 - [Pi16] Pintz, János, Polignac numbers, conjectures of Erdős on gaps between
   primes, arithmetic progressions in primes, and the bounded gap conjecture.
-  From arithmetic to zeta-functions (2016), 367-384.
+  From arithmetic to zeta-functions (2016), 367-384. Library home:
+  [[../library/primes/pintz_2016_polignac_numbers_conjectures_erdos_gaps_primes/_index|pintz_2016_polignac_numbers_conjectures_erdos_gaps_primes]].
 - [Ri56] Ricci, Giovanni, Recherches sur l'allure de la suite
   $\{p_{n+1}-p_n/\log p_n\}$. Colloque sur la Théorie des Nombres, Bruxelles,
   1955 (1956), 93-106.
@@ -86,10 +90,14 @@ The site's formulation asks, for each $C\ge0$, whether $C$ is a limit point of
 the normalized gaps $(p_{n+1}-p_n)/\log n$; the site's commentary reads the
 problem as asking whether the set $S$ of limit points is all of $[0,\infty]$,
 and labeled it OPEN. The case $C=0$ is the theorem of Goldston, Pintz and
-Yıldırım [GPY09], an accepted partial result on
+Yıldırım [GPY09]
+([[../library/primes/goldston_2009_primes_tuples_i/theorem_2|Theorem 2]]), an
+accepted partial result on
 [[problems/primes/E0005/claims/2005_08_10_goldston_pintz_yildirim|its claim page]],
-and Pintz [Pi16] adds every $C$ in an initial interval $[0,c]$ with an
-ineffective $c>0$, a claimed partial result on
+and Pintz [Pi16]
+([[../library/primes/pintz_2016_polignac_numbers_conjectures_erdos_gaps_primes/theorem_3|Theorem 3]])
+adds every $C$ in an initial interval $[0,c]$ with an ineffective $c>0$, a
+claimed partial result on
 [[problems/primes/E0005/claims/2013_05_27_pintz|its claim page]]. Westzynthius's
 theorem [We31] gives $\infty\in S$, which the commentary's reading includes but
 the site's wording, with real $C\ge0$, does not. The other results the site's
@@ -97,7 +105,10 @@ commentary credits identify no particular $C$ and so settle no instance: the
 positive Lebesgue measure of $S$ (Erdős's 1955 C.I.M.E. lecture and Ricci
 [Ri56]), arbitrarily large finite limit points (Hildebrand and Maier [HiMa88]),
 and the proportions of at least $12.5\%$ and at least $1/3$ of $[0,\infty)$
-lying in $S$ (Banks, Freiberg and Maynard [BFM16]; Merikoski [Me20]).
+lying in $S$ (Banks, Freiberg and Maynard [BFM16],
+[[../library/primes/banks_2016_limit_points_sequence_normalized_prime_gaps/corollary_1_2|Corollary 1.2]];
+Merikoski [Me20],
+[[../library/primes/merikoski_2020_limit_points_normalized_prime_gaps/corollary_2|Corollary 2]]).
 
 The 2026 release manuscript
 [[../library/primes/openai_2026_positive_lower_density_large_prime_gaps/_index|Positive lower density of large prime gaps]]

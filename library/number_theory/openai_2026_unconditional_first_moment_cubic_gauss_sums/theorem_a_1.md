@@ -75,8 +75,7 @@ TeX file `build/sections/angular.tex`, label `thm:angular` (lines 19--35), PDF
 p. 42, with the definitions at lines 10--16 and the scope remark at lines
 37--40; the proof closes at lines 745--793 (PDF pp. 50--51); (A.14),
 label `eq:gauss-power-cancellation`, is at lines 812--819 with its derivation
-in Section A.6, lines 802--838 (PDF p. 51). Read 2026-10-12. Provenance and
-attestations are on
+in Section A.6, lines 802--838 (PDF p. 51). Provenance and attestations are on
 [[number_theory/openai_2026_unconditional_first_moment_cubic_gauss_sums/_index|the card]].
 
 **Read depth.** Claims checked: Theorem A.1, the definitions it rests on, the

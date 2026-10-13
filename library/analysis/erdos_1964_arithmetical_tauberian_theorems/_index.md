@@ -53,7 +53,7 @@ version or URL named (https://www.impan.pl/get/doi/10.4064/aa-9-4-341-356, read
 
 **Bears on.** [[../wiki/problems/analysis/E0967/_index|#967]]
 
-**Results to transcribe.**
+**Results.**
 
 - Lemma (Abelian principle): For real g bounded on bounded intervals (class
   R) and g*(x) = sum g(x/a_n), the lower and upper densities satisfy

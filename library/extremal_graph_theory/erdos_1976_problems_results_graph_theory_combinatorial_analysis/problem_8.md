@@ -35,7 +35,7 @@ artifact is identified in the
 [[extremal_graph_theory/erdos_1976_problems_results_graph_theory_combinatorial_analysis/_index|source digest]].
 
 **Read depth.** Claims checked: the two sentences were read clause by clause
-on the page image on 2026-09-18. The paper proves nothing here.
+on the page image. The paper proves nothing here.
 
 ## Proof pointer
 

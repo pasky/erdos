@@ -69,10 +69,10 @@ under a uniform quantitative prime tuples conjecture, is on
 it is conditional and decides nothing for the problem's standing. Erdős proved
 in [Er48] that $\sum_n\tau(n)/2^n$ is irrational and wrote that the analogous
 series for the number of prime factors seemed to present difficulties. Status
-search of 2026-10-07: the site's page and remarks, its forum thread, which has
-no comments, the formal-conjectures file, and Crossref for a journal version of
-[TaTe25]; no refereed publication of the unconditional proof was found. The
-corpus holds no compiled or reviewed proof.
+search: the site's page and remarks, its forum thread, which had no comments on
+2026-10-07, the formal-conjectures file, and Crossref, which listed no journal
+version of [TaTe25] on that date. The corpus holds no compiled or reviewed
+proof.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -122,12 +122,12 @@ a route mapping posted by another forum user, and that no independent human
 review of the mathematics was performed. The site's acceptance of the proof
 claim is the independent review on record.
 
-Search scope, 2026-10-07: the site's problem page, its discussion thread (7
-comments), its proof-claims page (one claim, accepted), the community
-database, the formal-conjectures file, the Palomar registry record and the two
-Lean repositories. The community database's row records the status solved
-(last update 2025-08-31) and the formal status unformalized, which the claim
-page notes.
+Search scope, with the sources as they stood on 2026-10-07: the site's problem
+page, its discussion thread (7 comments), its proof-claims page (one claim,
+accepted), the community database, the formal-conjectures file, the Palomar
+registry record and the two Lean repositories. The community database's row
+records the status solved (last update 2025-08-31) and the formal status
+unformalized, which the claim page notes.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

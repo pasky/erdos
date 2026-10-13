@@ -50,14 +50,14 @@ distribution license (arXiv:1402.6466), every other right reserved.
 Read status: claims checked for Theorem 1.1 with the definitions of beta(G)
 and k_0 and the bound tau(G) <= n - beta(G) + 1 (p. 2), for the sense of
 "most values of n" (p. 3) and for Theorem 1.2 as a statement (p. 2), read
-clause by clause on the rendered page image of p. 2 and in the text layer of
-p. 3 on 2026-09-18; Conjecture 4.1 and the concluding remarks (p. 13) and the
-reference list (pp. 13--14) were read in the text layer; the proofs (Sections
-2--3, pp. 3--12) were not read. Problem 807 consumes Theorem 1.1, paged at
+clause by clause on the rendered page image of p. 2 and in the text layer of p.
+3; Conjecture 4.1 and the concluding remarks (p. 13) and the reference list (pp.
+13--14) were read in the text layer; the proofs (Sections 2--3, pp. 3--12) were
+not read. Problem 807 consumes Theorem 1.1, paged at
 [[extremal_graph_theory/alon_2015_bipartite_decomposition_random_graphs/theorem_1_1|theorem_1_1]].
-On 2026-10-08 the whole print (pp. 1--14) was read on the page images:
-Theorem 1.2 (p. 2), Proposition 1.3 (p. 3) and Conjecture 4.1 with the
-remarks around it (p. 13) were checked clause by clause and paged at
+Later the whole print (pp. 1--14) was read on the page images: Theorem 1.2 (p.
+2), Proposition 1.3 (p. 3) and Conjecture 4.1 with the remarks around it (p. 13)
+were checked clause by clause and paged at
 [[extremal_graph_theory/alon_2015_bipartite_decomposition_random_graphs/theorem_1_2|theorem_1_2]],
 [[extremal_graph_theory/alon_2015_bipartite_decomposition_random_graphs/proposition_1_3|proposition_1_3]]
 and

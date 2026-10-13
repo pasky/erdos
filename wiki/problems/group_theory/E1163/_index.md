@@ -74,10 +74,10 @@ The paper is not a claim on this problem: the site does not credit it here,
 and this page adopts no reading under which these theorems would settle
 anything.
 
-**Search scope, 2026-10-07.** The site's problem page, commentary,
-discussion thread and proof-claims page, and the claimant's web page. The
-discussion thread holds two posts (1 March and 29 April 2026) proposing
-readings of the question, which this page lists as candidates and not as its
+**Search scope.** The site's problem page, commentary, discussion thread and
+proof-claims page, and the claimant's web page. On 2026-10-07 the discussion
+thread held two posts (1 March and 29 April 2026) proposing readings of the
+question, which this page lists as candidates and not as its
 own interpretation: the order of a subgroup chosen uniformly at random from
 all subgroups of $S_n$, with its logarithm, its $p$-adic valuations and its
 number of prime factors as the statistics; the set of orders of subgroups as a

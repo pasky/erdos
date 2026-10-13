@@ -82,15 +82,14 @@ The edition is identified in the
 
 **Read depth.** Claims checked: the Theorem, its explanation, the
 assumptions $(\alpha)$ and $(\beta)$, the statement $H(n,Z)$, the
-reduction (1) and the four lemma statements were read clause by clause on
-the page images on 2026-09-22. The proof of the theorem from the lemmas
-(pp. 404--405, about a page) was read in full on the page images and its
-induction was followed at the level of the lemma statements; the last step,
-from the sequence of pairwise blue sets $X_n$ to a blue set of type
-$\omega^\omega$ by Erdős's result, is not printed. The proofs of the four
-lemmas (§§ 2--5, pp. 423--452), resting on the embedding results of § 1
-(pp. 405--423), were read in the text layer for structure only and not
-checked. Nothing here is independently reviewed.
+reduction (1) and the four lemma statements were read clause by clause on the
+page images. The proof of the theorem from the lemmas (pp. 404--405, about a
+page) was read in full on the page images and its induction was followed at the
+level of the lemma statements; the last step, from the sequence of pairwise blue
+sets $X_n$ to a blue set of type $\omega^\omega$ by Erdős's result, is not
+printed. The proofs of the four lemmas (§§ 2--5, pp. 423--452), resting on the
+embedding results of § 1 (pp. 405--423), were read in the text layer for
+structure only and not checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

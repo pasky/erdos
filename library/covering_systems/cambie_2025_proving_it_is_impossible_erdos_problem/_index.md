@@ -43,7 +43,7 @@ Source: <https://arxiv.org/abs/2508.18270>.
 
 **Bears on.** [[../wiki/problems/covering_systems/E0278/_index|#278]]
 
-**Results to transcribe.**
+**Results.**
 
 - Section 1: For moduli 3, 3p, 3p_3, ..., 3p_r the minimal uncovered density
   depends sensitively on p, so no single formula in n_1,...,n_r can express it.

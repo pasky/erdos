@@ -14,8 +14,8 @@ These are the questions in
 Sections 3–5, pp. 15–19 of the arXiv version 1012.1350v1
 (December 2010) identified in the
 [[discrete_geometry/leader_2012_transitive_sets_euclidean_ramsey_theory/_index|source digest]].
-This page records their source meaning. It does not certify that each is
-still open on the access date, 5 September 2026.
+This page records their source meaning. It does not certify that each is still
+open.
 
 - **G** (Problem G, p. 15). Prove the fixed-degree block-set assertion (Conjecture E) with
   $m=3$ for the template $112233$. Theorem 3.1 handles $1^r2^s3$, which has only one occurrence

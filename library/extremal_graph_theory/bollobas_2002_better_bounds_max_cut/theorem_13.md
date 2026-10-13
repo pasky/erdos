@@ -35,8 +35,8 @@ p. 36 of the authors' manuscript described in the
 [[extremal_graph_theory/bollobas_2002_better_bounds_max_cut/_index|source digest]],
 proof on pp. 38-41 with Lemma 18 on pp. 41-43.
 
-**Read depth.** Claims checked: statements read clause by clause on the
-page images on 2026-10-08; the proof was read for its structure only.
+**Read depth.** Claims checked: statements read clause by clause on the page
+images; the proof was read for its structure only.
 
 ## Proof pointer
 

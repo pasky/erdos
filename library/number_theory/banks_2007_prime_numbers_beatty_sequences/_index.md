@@ -72,7 +72,7 @@ of finite type, the one-prime statement; the problem's two-prime question is
 not addressed;
 [[number_theory/banks_2007_prime_numbers_beatty_sequences/theorem_5_4|theorem_5_4]])
 
-**Results to transcribe.**
+**Results.**
 
 - [[number_theory/banks_2007_prime_numbers_beatty_sequences/theorem_5_1|Theorem 5.1]]:
   For alpha positive irrational of finite type there is kappa > 0

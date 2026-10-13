@@ -131,7 +131,7 @@ essentially-continuous-difference variant is distinguished on
 [[../wiki/problems/analysis/E0908/_index|Problem 908]]. The remaining results
 summarized in this digest (Theorems 1.3, 4.2, 4.3 and 6.1, the class C_5 of
 Section 5 and the classes of Sections 3, 6 and 7) are retained without new
-proof review. Local reinspection of p. 195: 6 September 2026 UTC.
+proof review. Page 195 was reinspected.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

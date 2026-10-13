@@ -39,9 +39,8 @@ p. 143. The copy read is identified on the
 [[polynomials/erdos_1958_metric_properties_polynomials/_index|source card]].
 
 **Read depth.** Claims checked: the definitions, the theorem, the identity
-behind it and the Remark were read clause by clause on the page images of
-pp. 142--143 on 2026-10-08, and the identity was followed. Nothing here is
-independently reviewed.
+behind it and the Remark were read clause by clause on the page images of pp.
+142--143, and the identity was followed. Nothing here is independently reviewed.
 
 ## Proof pointer
 

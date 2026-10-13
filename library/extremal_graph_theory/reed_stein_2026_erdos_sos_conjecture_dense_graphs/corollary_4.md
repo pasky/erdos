@@ -46,9 +46,8 @@ $k$ (a filing derivation; the paper states only the threshold form).
 
 **Source.** B. Reed and M. Stein, *The Erdős--Sós conjecture in dense
 graphs*, arXiv:2609.05417v2 (8 September 2026), 33 pages; Corollary 4 and
-the paragraph deducing it on p. 2, read on the page image and in the text
-layer of that edition. A preprint: no journal record was found on
-2026-10-07. The artifact is identified in the
+the paragraph deducing it on p. 2, read on the page image and in the text layer
+of that edition. The artifact is identified in the
 [[extremal_graph_theory/reed_stein_2026_erdos_sos_conjecture_dense_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, the paragraph before it and

@@ -103,7 +103,7 @@ Sources: <https://arxiv.org/abs/2506.14910> and
   proof. None of them gives a lower bound or determines the growth order of
   $L(k)$.
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/janzer_2025_short_monochromatic_odd_cycles/theorem_1_4|Theorem 1.4]]: Every $k$-edge-coloring of $K_{2^k+1}$
   contains a monochromatic odd cycle of length

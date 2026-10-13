@@ -37,20 +37,18 @@ Read status: claims checked for the five Ramsey displays of Part V ((1)--(4),
 p. 9, with the prize sentences of (1) and (4), and (5) with its prize, p. 10),
 for the closing paragraph of Part V (p. 10), for Part III item 2 (pp. 6--7),
 Part IV item 3 (p. 8) and the $\sum1/\log n_i$ paragraph of p. 15, all read
-clause by clause on the page images (the last four on 2026-09-18), and for
-Part III item 1 (p. 6) and the Hamiltonicity sentences of Part VIII (p. 16),
-read clause by clause on the page images, and for Part III item
-3 (p. 7: the Erdős--Sauer function $F(n;r)$ and the Berge sentences), read
-clause by clause on the page image, and for display (2) of Part
-V (p. 9), Part III item 2 display (3) with its p. 7 upper bound and Part III
-item 3 (p. 7), re-read on the page images for the Problem 159,
-714 and 182 rows, and for Part IV, item 2 (p. 8: the Hajós and Hajnal--Mader
-passages, the exponent of Mader's bound checked on a 300 dpi crop), the
-Murty--Plesnik and Gyárfás sentences of p. 15 and the opening of Part VIII
-(p. 16: the singularity at $k=n/2$ and the second largest component), read
-clause by clause on the page images for the Problem 717, 718,
-742, 743 and 745 rows; the statements of the other parts are unread; the paper
-proves nothing, so there is no proof to check.
+clause by clause on the page images, and for Part III item 1 (p. 6) and the
+Hamiltonicity sentences of Part VIII (p. 16), read clause by clause on the page
+images, and for Part III item 3 (p. 7: the Erdős--Sauer function $F(n;r)$ and
+the Berge sentences), read clause by clause on the page image, and for display
+(2) of Part V (p. 9), Part III item 2 display (3) with its p. 7 upper bound and
+Part III item 3 (p. 7), re-read on the page images for the Problem 159, 714 and
+182 rows, and for Part IV, item 2 (p. 8: the Hajós and Hajnal--Mader passages,
+the exponent of Mader's bound checked on a 300 dpi crop), the Murty--Plesnik and
+Gyárfás sentences of p. 15 and the opening of Part VIII (p. 16: the singularity
+at $k=n/2$ and the second largest component), read clause by clause on the page
+images for the Problem 717, 718, 742, 743 and 745 rows; the statements of the
+other parts are unread; the paper proves nothing, so there is no proof to check.
 
 This is a prize-laden problem survey in eight parts, I to VIII (the copy's
 headings: I set systems, II combinatorial number theory, III extremal graph
@@ -376,7 +374,7 @@ Hamiltonian, our conjecture was settled by Pósa [70], Komlós and Szemerédi
 the copy, whether there is an absolute constant $C$ such that every finite
 plane has a blocking set meeting every line in at most $C$ points.
 
-**Results to transcribe.**
+**Results.**
 
 - I.1 (Erdős-Rado sunflowers): Conjecture f_k(n) < c_k^n for the least size
   forcing k sets with pairwise the same intersection; a prize for k = 3,

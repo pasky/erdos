@@ -40,8 +40,8 @@ line of that proof states.
 subset sums problem*, SIAM J. Discrete Math. (2021), 322--324. The retained
 PDF is arXiv:2006.12988v2 [math.CO] (20 July 2020; 3 pages; text layer),
 whose pagination is used here; the published version was not inspected.
-Theorem 1 is on p. 1, its two proofs on p. 2, read on page images with the
-text layer as an aid on 2026-09-18.
+Theorem 1 is on p. 1, its two proofs on p. 2, read on page images with the text
+layer as an aid.
 
 **Read depth.** Claims checked: the statement, with its hypotheses and its
 $o(1)$, was read clause by clause on the p. 1 page image. Both proofs on

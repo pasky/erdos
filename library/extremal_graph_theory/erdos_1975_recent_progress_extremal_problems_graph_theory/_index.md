@@ -248,7 +248,7 @@ log k has the form of the (1/2 - o(1)) log k lower bound the problem page
 records from Liu and Montgomery, proved there for the odd cycle lengths of a
 graph of chromatic number k, not for Erdős's edge-density parameter
 
-**Results to transcribe.**
+**Results.**
 
 - chapter_1_eq_3: Brown, and independently Erdős, Rényi and Sós, for the least
   edge count f(n; C_4) forcing a C_4: f(n; C_4) = (1/2 + o(1)) n^{3/2},

@@ -44,9 +44,8 @@ comes from finitely many "sufficiently large $S$" thresholds.
 `introduction.tex`, lines 16--24 (label `thm:main`), PDF p. 2; proof in
 `elementary.tex`, lines 110--170 (pp. 6--7), assuming Proposition 2.1,
 which is proved in `descent.tex` (pp. 19--22) from Lemma 3.1
-(`divisors.tex`) and Lemma 4.1 (`residues.tex`, `random.tex`). Read on
-2026-10-07 in the TeX source, with the PDF page images consulted for page
-numbers. The card
+(`divisors.tex`) and Lemma 4.1 (`residues.tex`, `random.tex`). Read in the TeX
+source, with the PDF page images consulted for page numbers. The card
 [[unit_fractions/openai_2026_short_egyptian_fractions/_index|records the provenance]]:
 the release attributes the manuscript to an internal model, and no refereed
 publication, arXiv version or independent review is recorded here.

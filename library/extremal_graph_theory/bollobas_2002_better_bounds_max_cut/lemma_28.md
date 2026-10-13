@@ -44,8 +44,8 @@ authors' manuscript described in the
 proof on pp. 58-59.
 
 **Read depth.** Claims checked: statement, the definition of $g$ and the
-extremal-graph paragraph read on the page images on 2026-10-08; the proof
-was read and followed.
+extremal-graph paragraph read on the page images; the proof was read and
+followed.
 
 ## Proof pointer
 

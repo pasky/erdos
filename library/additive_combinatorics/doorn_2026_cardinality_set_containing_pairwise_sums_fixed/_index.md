@@ -99,7 +99,7 @@ non-positive) from the positive-integer version $h_k$ and correct the 1975
 lower-bound example for $k=5$; the paper is a preprint with declared AI
 assistance, qualified as such on the problem page.
 
-**Results to transcribe.**
+**Results.**
 
 - [[additive_combinatorics/doorn_2026_cardinality_set_containing_pairwise_sums_fixed/theorem_1|Theorem 1]]
   (p. 3): g_3(n) = 1 for all n >= 3, with the odd-numbers set giving the

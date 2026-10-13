@@ -64,7 +64,7 @@ Source: <https://arxiv.org/abs/2505.13371>.
   asymptotics the problem asks about; Conjecture 1.2 (p. 4) conjectures the
   formula R(3,k) = (1/2 + o(1)) k^2/log k. Neither determines the asymptotics.
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/campos_2025_new_lower_bound_ramsey_numbers/theorem_1_1|Theorem 1.1]]
   (p. 2): R(3,k) >= (1/3 + o(1)) k^2/log k.

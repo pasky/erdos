@@ -75,14 +75,13 @@ definition of a greedy algorithm, the distance classes and Lemma 1 (p. 233),
 Section 4 with Theorem 1 and the opening of its proof (p. 250), the rest of
 the proof of Theorem 1 and Section 5 (p. 251) and the reference list
 (p. 252), each read clause by clause on the page images of PDF pp. 1--3 and
-20--22 on 2026-09-22, Fig. 1 on a 300 dpi crop. Lemmas 2--15 (pp. 234--250)
-were read in the text layer for their statements and the structure of their
-proofs; none of the case analyses was checked, and the figures of pp. 242
-and 245 were not compared with the text. On 2026-10-07 the statements of
-Lemmas 2--15 and the definitions they use were compared with the page images
-of PDF pp. 4--16, which corrected the sequence $s_0$ (p. 242) and the
-bigreedy definition (p. 239); the case analyses remain unchecked. Nothing
-here is independently reviewed.
+20--22, Fig. 1 on a 300 dpi crop. Lemmas 2--15 (pp. 234--250) were read in the
+text layer for their statements and the structure of their proofs; none of the
+case analyses was checked, and the figures of pp. 242 and 245 were not compared
+with the text. The statements of Lemmas 2--15 and the definitions they use were
+later compared with the page images of PDF pp. 4--16, which corrected the
+sequence $s_0$ (p. 242) and the bigreedy definition (p. 239); the case analyses
+remain unchecked. Nothing here is independently reviewed.
 
 ## Contents
 

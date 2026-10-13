@@ -59,7 +59,7 @@ Source: <https://github.com/ShouqiaoW/erdos/tree/main/390>.
 
 **Bears on.** [[../wiki/problems/factorials_binomials/E0390/_index|#390]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: Claimed exact asymptotic f(n) = 2n + C0 n/log n + o(n/log n) with
   C0 = 4029639598/25970038185.

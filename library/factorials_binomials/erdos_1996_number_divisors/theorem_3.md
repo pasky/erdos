@@ -37,10 +37,9 @@ $$
 f(n)\ge(1/4-\varepsilon)\log n\log\log n\log\log\log\log n/(\log\log\log n)^3."
 $$
 
-**Read depth.** Claims checked: the statement was read clause by clause on
-the page image on 2026-10-08; the proof on pp. 6--8, including Lemma 2
-(p. 7), was read for structure only. Nothing here is independently
-reviewed.
+**Read depth.** Claims checked: the statement was read clause by clause on the
+page image; the proof on pp. 6--8, including Lemma 2 (p. 7), was read for
+structure only. Nothing here is independently reviewed.
 
 ## Proof sketch
 

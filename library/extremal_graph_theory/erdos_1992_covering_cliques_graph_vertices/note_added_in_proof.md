@@ -40,10 +40,10 @@ page image. The edition is identified in the
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/_index|source digest]].
 
 **Read depth.** Claims checked: the note was read clause by clause on the page
-image on 2026-09-19. It states a result without proof; nothing was checked
-against a proof. The statement and its sharpness were checked exhaustively
-for $2\le n\le7$ on Problem 611's page (an authored finite check, not a
-review of the unpublished argument).
+image. It states a result without proof; nothing was checked against a proof.
+The statement and its sharpness were checked exhaustively for $2\le n\le7$ on
+Problem 611's page (an authored finite check, not a review of the unpublished
+argument).
 
 ## Proof pointer
 

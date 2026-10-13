@@ -63,14 +63,15 @@ garbles subscripts, inequality signs and the displayed formulas, so every
 value below was read on the page images. The publisher's download stamp
 runs down the outer margin of PDF pp. 2--5 (the journal's identifier, the
 DOI, the downloading account holder's name, the download date and a
-terms-of-use notice, read in the text layer of PDF pp. 2--5 on 2026-09-23;
-the name is not recorded here). Provenance: the copy was obtained from
-the publisher on 2026-09-22 as a DRM-free production PDF, from <https://doi.org/10.1112/S0025579300005222>
-(Mathematika at Wiley Online Library); 239,505 bytes. No copyright line is
-printed on the pages, and the publisher's download stamp refers to the
-publisher's terms and conditions "for rules of use", adding only that "OA
-articles are governed by the applicable Creative Commons License", which
-names no license for this article; the publisher's article page
+terms-of-use notice, read in the text layer of PDF pp. 2--5; the name is not
+recorded here). Provenance: the copy was obtained from the publisher on
+2026-09-22 as a DRM-free production PDF, from
+<https://doi.org/10.1112/S0025579300005222> (Mathematika at Wiley Online
+Library); 239,505 bytes. No copyright line is printed on the pages, and the
+publisher's download stamp refers to the publisher's terms and conditions "for
+rules of use", adding only that "OA articles are governed by the applicable
+Creative Commons License", which names no license for this article; the
+publisher's article page
 (https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/S0025579300005222)
 returned HTTP 403 on 2026-10-02, and the Crossref record for DOI
 10.1112/S0025579300005222 (read 2026-10-02) lists only the publisher's terms
@@ -83,15 +84,14 @@ for $K_n$ and $K_n-x$ (p. 118), the values for the complete bipartite
 graphs $K_{m,n}$ with Lenz's construction (p. 119), the definitions of
 girth and of the chromatic numbers of a graph and of $E_n$ and Theorem 1
 (p. 121), and Unsolved problems I and II (p. 122), each read clause by
-clause on the page images of PDF pp. 1, 2, 4 and 5 on 2026-09-22; the
-remainder of §1 (pp. 119--121: wheels, cubes, the Petersen graph, trees and
-cacti), Theorems 2--7 with their corollaries (pp. 121--122) and the
-reference list (p. 122) were read on the page images for their statements.
-The paper prints no proof of the §1 values beyond its figures and Lenz's
-four-line construction, which was read and followed; in place of proofs §2
-gives citations to other papers or to unpublished work, and for Theorem 1 a
-one-sentence pointer to the §1 argument. Nothing here is independently
-reviewed.
+clause on the page images of PDF pp. 1, 2, 4 and 5; the remainder of §1 (pp.
+119--121: wheels, cubes, the Petersen graph, trees and cacti), Theorems 2--7
+with their corollaries (pp. 121--122) and the reference list (p. 122) were read
+on the page images for their statements. The paper prints no proof of the §1
+values beyond its figures and Lenz's four-line construction, which was read and
+followed; in place of proofs §2 gives citations to other papers or to
+unpublished work, and for Theorem 1 a one-sentence pointer to the §1 argument.
+Nothing here is independently reviewed.
 
 ## Contents
 

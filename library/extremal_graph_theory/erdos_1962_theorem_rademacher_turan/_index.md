@@ -56,9 +56,9 @@ garbles the subscripts. Read status: claims checked for the introduction
 even-$n$ graph with $m^2-1$ triangles and the odd-$n$ graph, printed
 pp. 122--123 = PDF pp. 1--2), the Theorem and Lemma 1 (p. 123 = PDF p. 2)
 and the remark and example after Lemma 1 (p. 124 = PDF p. 3), read clause
-by clause on the page images on 2026-09-18; the proof of Lemma 1
-(pp. 123--124) was read for structure; Lemmas 2--3 and the proof of the
-Theorem (pp. 124--127) were not read. The consumed statements are paged at
+by clause on the page images; the proof of Lemma 1 (pp. 123--124) was read for
+structure; Lemmas 2--3 and the proof of the Theorem (pp. 124--127) were not
+read. The consumed statements are paged at
 [[extremal_graph_theory/erdos_1962_theorem_rademacher_turan/theorem|theorem]]
 and
 [[extremal_graph_theory/erdos_1962_theorem_rademacher_turan/lemma_1|lemma_1]].
@@ -88,7 +88,7 @@ triangle-free graphs "not even" is the same as chromatic number at least
 $3$, which gives the site's $f_3(n)$; paged at
 [[extremal_graph_theory/erdos_1962_theorem_rademacher_turan/lemma_1|lemma_1]].
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/erdos_1962_theorem_rademacher_turan/theorem|Theorem]]
   (p. 123): There is c_1 > 0 such that for t < c_1 n/2 every graph on n

@@ -153,9 +153,9 @@ $o(2^n)$ count of the first question; the claim page links it at its pinned
 commit. No formal proof is built or audited in this repository, and no
 `formalized` evidence is listed.
 
-**Search scope and read depth.** Search scope (2026-10-07): the site's
-problem page and its empty thread, the formal-conjectures file and the
-lean-proofs file; the arXiv record of Cook and Nguyen's paper for its posting
+**Search scope and read depth.** Search scope: the site's problem page and its
+thread (empty on 2026-10-07), the formal-conjectures file and the lean-proofs
+file; the arXiv record of Cook and Nguyen's paper for its posting
 dates and license, the publisher's record of Konyagin and Schlag's paper for
 its received and publication dates and abstract, and the arXiv posting of
 Yakir and Zeitouni's paper for its Theorems 1 and 2. Read depth: Konyagin

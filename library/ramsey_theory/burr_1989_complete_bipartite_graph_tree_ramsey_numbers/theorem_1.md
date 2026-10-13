@@ -69,7 +69,7 @@ being Parsons's $f(q^2)=q^2+q+1$ and $f(q^2+1)=q^2+q+2$ at $q=2$, which the
 paper cites just before the table, and the first given without proof or
 source; and the value $r(C_4,mK_2)=2m+1$ for $m\ge2$, stated without proof.
 The induction invokes Lemma 1.3 and these values on p. 83 (read on the page
-image on 2026-10-07).
+image).
 
 ## Bears on
 

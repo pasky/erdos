@@ -45,9 +45,8 @@ from p. 3154 to p. 3155. The edition read is identified on the
 [[extremal_graph_theory/alon_2021_large_cliques_independent_sets_all_over/_index|source card]].
 
 **Read depth.** Claims checked: Propositions 3, 9 and 10 and the
-definition of $m_n(k)$ were read clause by clause on the page images on
-2026-10-08. The proofs were read for their structure; their estimates were
-not checked.
+definition of $m_n(k)$ were read clause by clause on the page images. The proofs
+were read for their structure; their estimates were not checked.
 
 ## Proof pointer
 

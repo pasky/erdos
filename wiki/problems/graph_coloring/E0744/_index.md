@@ -58,7 +58,7 @@ formalized, with formal status unformalized, as of its last update, 31 August
 
 ## Current assessment
 
-The question, in the site's formulation accessed, asks whether
+The question, in the site's formulation accessed 2026-09-04, asks whether
 $f_k(n)$, the fewest edges whose deletion makes some $n$-vertex $k$-critical
 graph bipartite, tends to infinity for large fixed $k$, and in particular
 whether $f_4(n)\gg\log n$. The standing is `solved`, `disproved`, through

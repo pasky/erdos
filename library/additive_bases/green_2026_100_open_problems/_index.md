@@ -70,7 +70,7 @@ its question, and the list records no solution.
 list has no just-basis formulation and does not restate the problem's question
 for any order $r$ (Section 3, Sumsets and bases, and the whole text searched).
 
-**Results to transcribe.**
+**Results.**
 
 - Problem 49 (Solved): Polynomial Freiman-Ruzsa / Marton conjecture in F_2^n: a
   set with |A+A| <= K|A| is covered by K^O(1) translates of a subspace of size

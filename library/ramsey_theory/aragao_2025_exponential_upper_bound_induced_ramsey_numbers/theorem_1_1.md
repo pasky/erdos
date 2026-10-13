@@ -34,8 +34,7 @@ says: "When $r=2$, this resolves a conjecture of Erdős from 1975."
 **Source.** L. Aragão, M. Campos, G. Dahia, R. Filipe and J. P. Marciano, An
 exponential upper bound for induced Ramsey numbers; retained
 arXiv:2509.22629v2 (13 November 2025), Theorem 1.1 on p. 2 (PDF p. 2),
-Theorem 1.2 and the random-host remark on p. 3, read on the page images. No
-journal version was found on 2026-09-17.
+Theorem 1.2 and the random-host remark on p. 3, read on the page images.
 
 **Read depth.** Claims checked: the definitions, Theorem 1.1, Theorem 1.2
 and the random-host sentences were read clause by clause on the page

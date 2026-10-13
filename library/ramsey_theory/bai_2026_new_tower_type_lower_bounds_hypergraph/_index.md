@@ -24,7 +24,7 @@ bounds on both sides.
 
 H. Bai, L. Du, X. Hu, R. Liu and G. Wang, *New tower-type lower bounds for
 hypergraph Ramsey numbers*, arXiv:2606.24198v1 (23 June 2026), 14 pages. A
-preprint: the arXiv page lists one version and no journal reference, and a
+preprint: the arXiv page listed one version and no journal reference, and a
 Crossref bibliographic query on 2026-09-17 found no publication record.
 
 The copy read for this card is

@@ -163,10 +163,10 @@ Liu. The technical report on ByteDance's Seed-Prover 1.5 (arXiv:2512.17260,
 lists Problem 958 among fifteen Erdős problems that system solved, adding that
 these problems are mathematically relatively simple; it releases no proof and
 no Lean file for the problem, so it asserts a solution with nothing to page
-and gets no claim page. Search scope, 2026-10-07: the site's problem page and
-discussion thread, the arXiv and publisher records of [CDL25], [Er84c], the
-Lean repository and the formal-conjectures file; no forum proof claim, release
-item or lead names the problem.
+and gets no claim page. Search scope: the site's problem page and discussion
+thread, the arXiv and publisher records of [CDL25], [Er84c], the Lean
+repository and the formal-conjectures file; on 2026-10-07 no forum proof claim,
+release item or lead named the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

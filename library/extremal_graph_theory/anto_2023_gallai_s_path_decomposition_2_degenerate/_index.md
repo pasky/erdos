@@ -84,7 +84,7 @@ drops connectedness for $2$-degenerate graphs with no triangle component,
 which the problem does not ask; paged at
 [[extremal_graph_theory/anto_2023_gallai_s_path_decomposition_2_degenerate/corollary_1|corollary_1]].
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: The edges of any connected 2-degenerate graph on n vertices can be
   decomposed into at most floor(n/2) paths unless the graph is a triangle.

@@ -103,11 +103,11 @@ accepted partial claims, one yes and one no, which derives the standing
 solved with the claim answered. Neither result has been built in Lean by the
 corpus; the lean-proofs file linked from both pages is third-party Lean.
 
-Search scope, 2026-10-07: the site's page and discussion thread (two
-comments, of 3 and 23 November 2025, which report Voss's paper and link its
-publisher's record and claim nothing), the community database
-(teorth/erdosproblems), the formal-conjectures catalog and the lean-proofs
-catalog. No other claim on the problem was found.
+Search scope: the site's page and discussion thread (two comments, of 3 and 23
+November 2025, which report Voss's paper and link its publisher's record and
+claim nothing), the community database (teorth/erdosproblems), the
+formal-conjectures catalog and the lean-proofs catalog; on 2026-10-07 none of
+them showed another claim on the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

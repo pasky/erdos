@@ -91,7 +91,7 @@ below one for small alpha, so the problem's density-one statement fails; the
 paper states this as the refutation of C4
 ([[divisors/erdos_1981_sur_la_structure_de_la_suite/theorem_1|theorem_1]]).
 
-**Results to transcribe.**
+**Results.**
 
 - Théorème 1, p. 19: For every epsilon > 0 there is c(epsilon) > 0 such that for
   all alpha in [0,1] the upper density of the integers n with tau^+(n) ≤

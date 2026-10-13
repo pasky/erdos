@@ -88,9 +88,8 @@ explicitly does not claim; the preprint's contribution to it would be that
 $2$ is a limit point of $V(2n)/V(n)$ and that the set of limit points is an
 interval containing $2$. The accepted 2026 Lean proof establishes the limit
 itself, so if that acceptance stands the interval is the single point $2$ and
-the preprint's $c=2$ statements are subsumed. For $c\ne2$ the preprint is the
-only claim found in the 2026-09-27 search; the Conjectures.io review of the
-accepted record cites it and says it leaves the interval's width uncontrolled.
-The computation to $10^{10}$ is the only numerical record of $V(2x)/V(x)$
-found, and is unverified here. Nothing in the preprint bears on the second
-question, an asymptotic formula for $V(x)$.
+the preprint's $c=2$ statements are subsumed. For $c\ne2$, the Conjectures.io
+review of the accepted record cites the preprint and says it leaves the
+interval's width uncontrolled. The computation to $10^{10}$ is the only
+numerical record of $V(2x)/V(x)$ found, and is unverified here. Nothing in the
+preprint bears on the second question, an asymptotic formula for $V(x)$.

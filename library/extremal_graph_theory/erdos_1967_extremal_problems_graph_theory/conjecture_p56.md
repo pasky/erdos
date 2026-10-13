@@ -41,8 +41,8 @@ page image. The edition read is identified in the
 [[extremal_graph_theory/erdos_1967_extremal_problems_graph_theory/_index|source digest]].
 
 **Read depth.** Claims checked: the two sentences were read clause by
-clause on the page image on 2026-09-19. The paper gives no proof; it states
-a conjecture and credits two cases.
+clause on the page image. The paper gives no proof; it states a conjecture and
+credits two cases.
 
 ## Proof pointer
 

@@ -42,7 +42,7 @@ states the license "Creative Commons Attribution 4.0 International" (read
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For every g >= 2, F(g,N) <= (1+o(1))sqrt(1.74246(2g-1)N); in
   particular F(2,N) <= (1+o(1))sqrt(5.2274N).

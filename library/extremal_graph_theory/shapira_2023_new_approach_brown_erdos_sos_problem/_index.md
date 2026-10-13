@@ -69,7 +69,7 @@ Theorem 1.4 (p. 3;
 [[extremal_graph_theory/shapira_2023_new_approach_brown_erdos_sos_problem/theorem_1_4|theorem_1_4]])
 reduces it to Conjecture 1.3, a conditional route and not a bound.
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/shapira_2023_new_approach_brown_erdos_sos_problem/conjecture_1_1|Conjecture 1.1]]
   (p. 2): Constant-deficiency BESC: an absolute constant d such that every

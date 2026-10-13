@@ -65,4 +65,4 @@ Lovász Local Lemma for Theorem 1.4.
   [[additive_combinatorics/bedert_2024_graham_s_rearrangement_conjecture_beyond_rectification/theorem_1_2|Bedert and Kravitz]];
   the constant $c$ here is existential where the paper's Theorem 1.2
   restates Bedert and Kravitz for every $c>0$ and large enough primes $p$.
-  An unrefereed preprint at the time of writing.
+  An unrefereed preprint.

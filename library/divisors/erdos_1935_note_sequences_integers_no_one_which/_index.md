@@ -76,7 +76,7 @@ integers, a necessary condition only.
 gives delta(n) -> 0, with no rate, and does not touch the question on
 delta_1(n).
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem (p. 126): For any primitive sequence a_1, a_2, ... (a_m divides a_n
   only if m = n), the series sum_n 1/(a_n log a_n) converges; inequality (1)

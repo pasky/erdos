@@ -79,8 +79,8 @@ $$
 
 and states that the smallest preimage of $d_1$ is $n_1=135268352$ and the
 largest preimage of $d_2$ is $n_2=134742074$, so that $d_1<d_2$ while
-$n_1>n_2$. The source gives no derivation. A corpus check on 2026-09-28
-enumerated all preimages of both totients by the divisor recursion (a
+$n_1>n_2$. The source gives no derivation. A corpus check enumerated all
+preimages of both totients by the divisor recursion (a
 prime power $p^a$ exactly dividing a preimage contributes the factor
 $(p-1)p^{a-1}$, so every prime factor $p$ of a preimage satisfies
 $p-1\mid d$, and the preimages are built from those primes), cross-checked

@@ -63,12 +63,12 @@ artifact is identified in the
 [[ramsey_theory/hindman_1974_finite_sums_sequences_within_cells_partition_n/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, Definition 2.1, the notation
-line, Lemma 2.2 and Lemma 2.12 were read clause by clause on the page
-images on 2026-09-22. The proof of Theorem 3.1 (one paragraph, p. 9) was
-read in full on the page image and its reduction to Lemma 2.12 and the
-compactness of $\{0,1\}^N$ was followed; Lemmas 2.5--2.11 (pp. 3--9), the
-chain that proves Lemma 2.12, were read in the text layer for structure
-only and not checked. Nothing here is independently reviewed.
+line, Lemma 2.2 and Lemma 2.12 were read clause by clause on the page images.
+The proof of Theorem 3.1 (one paragraph, p. 9) was read in full on the page
+image and its reduction to Lemma 2.12 and the compactness of $\{0,1\}^N$ was
+followed; Lemmas 2.5--2.11 (pp. 3--9), the chain that proves Lemma 2.12, were
+read in the text layer for structure only and not checked. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

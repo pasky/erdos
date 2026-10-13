@@ -53,13 +53,12 @@ first page, every other right reserved.
 
 Read status: claims checked for the abstract, the definition of $r(G,H)$ and
 Theorem 1 (p. 243), Theorems 2 and 3, Questions 1 and 2 and Theorem 4
-(p. 244), each read clause by clause on the page images of PDF pp. 1--2 on
-2026-09-22. The proof of Theorem 4 (pp. 244--246, PDF pp. 2--4: four claims
-and a closing count) was read in full on the page images and each step was
-followed; the two filing observations below record where the printed
-justification is shorter than the step it supports. The Acknowledgements
-and the reference list (p. 246) were read on the page image. Nothing here is
-independently reviewed.
+(p. 244), each read clause by clause on the page images of PDF pp. 1--2. The
+proof of Theorem 4 (pp. 244--246, PDF pp. 2--4: four claims and a closing count)
+was read in full on the page images and each step was followed; the two filing
+observations below record where the printed justification is shorter than the
+step it supports. The Acknowledgements and the reference list (p. 246) were read
+on the page image. Nothing here is independently reviewed.
 
 ## Contents
 

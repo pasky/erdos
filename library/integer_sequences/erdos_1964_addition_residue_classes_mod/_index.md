@@ -83,7 +83,7 @@ statement about sums of few summands is Davenport's theorem, applied in
 the proof of Lemma I.1 (p. 150) to sums of at most $r$ classes with
 repeated indices allowed.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem I (p. 149): F(N) > 0 if k >= 3(6p)^{1/2}: every residue class mod p
   is a subset sum of any k distinct non-zero classes once k reaches that bound

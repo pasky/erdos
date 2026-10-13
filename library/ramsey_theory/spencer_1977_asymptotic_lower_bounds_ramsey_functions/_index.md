@@ -98,16 +98,15 @@ reduction (1) (p. 73), the closing display of Theorem 2.1 and Theorem 2.2
 with the paragraph on $\alpha(k)$ (p. 74), the definitions of $r(G,H)$ and
 $r(\le C_k,K_t)$ with Theorems 3.1--3.3 (p. 75), the quoted bound of Erdős,
 Faudree, Rousseau and Schelp, Theorem 3.4 and the references (p. 76), each
-read clause by clause on the page images of PDF pp. 1--8 on 2026-09-22. The
-proof of Theorem 1.1 (pp. 70--71), the two-line proofs of Theorems 1.4 and
-1.5 (pp. 71--72; the first with its printed choice $x=1/(d+1)$ corrected to
-$x=d/(d+1)$) and the proof of Theorem 3.4 (p. 76) were read in full on the
-page images and followed; the analysis proving Theorem 2.1 (pp. 73--74)
-was read on the page images for structure, and the step from its printed
-$t=[3\sqrt3/2+o(1)]n^{1/2}\ln n$ to the constant $1/27$ was followed; the
-sketches of Theorems 2.2, 3.1 and 3.3 (pp. 74--76) print parameter choices
-only and were read for structure, their conditions not verified. Nothing
-here is independently reviewed.
+read clause by clause on the page images of PDF pp. 1--8. The proof of Theorem
+1.1 (pp. 70--71), the two-line proofs of Theorems 1.4 and 1.5 (pp. 71--72; the
+first with its printed choice $x=1/(d+1)$ corrected to $x=d/(d+1)$) and the
+proof of Theorem 3.4 (p. 76) were read in full on the page images and followed;
+the analysis proving Theorem 2.1 (pp. 73--74) was read on the page images for
+structure, and the step from its printed $t=[3\sqrt3/2+o(1)]n^{1/2}\ln n$ to the
+constant $1/27$ was followed; the sketches of Theorems 2.2, 3.1 and 3.3 (pp.
+74--76) print parameter choices only and were read for structure, their
+conditions not verified. Nothing here is independently reviewed.
 
 ## Contents
 

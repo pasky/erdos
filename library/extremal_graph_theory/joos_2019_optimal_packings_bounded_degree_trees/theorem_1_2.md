@@ -49,10 +49,10 @@ preprint's. The edition is identified in the
 
 **Read depth.** Claims checked: Conjecture 1.1, Theorem 1.2, the remark
 after it and the introduction's attributions (Bollobás, Balogh--Palmer, Żak,
-Fishburn) were read clause by clause on the page images of pp. 1--2 on
-2026-09-19; Theorem 1.3 on p. 2 as well. The deduction of Theorem 1.2 from
-Theorem 1.7 (p. 55) was read; the proof of Theorem 10.1 (Sections
-3--10.1), on which Theorem 1.7 rests, was not.
+Fishburn) were read clause by clause on the page images of pp. 1--2; Theorem 1.3
+on p. 2 as well. The deduction of Theorem 1.2 from Theorem 1.7 (p. 55) was read;
+the proof of Theorem 10.1 (Sections 3--10.1), on which Theorem 1.7 rests, was
+not.
 
 ## Proof pointer
 

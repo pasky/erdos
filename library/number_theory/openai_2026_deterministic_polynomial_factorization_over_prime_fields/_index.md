@@ -86,15 +86,15 @@ two manuscripts are filed in different release families.
 Read status: claims checked for Theorem 1.1, Theorem 1.2, Theorem 11.1 (as the
 manuscript cites it), Lemma 11.2 and Proposition 11.3, read clause by clause in
 the TeX source (`main.tex` with `sections/00-introduction.tex` for Section 1
-and `sections/10-analytic.tex` for Section 11) on 2026-10-07, with the PDF
-pages checked for the printed numbering; the statements of the intermediate
-results of Sections 2--10 were read for the Contents below and are not
-compiled; the proofs were read for their structure only and no step was
-checked; nothing here is independently reviewed. The TeX bundle's file numbers
-do not match the printed section numbers (`main.tex` inputs
-`02-finite-fields`, `01-table`, `05-geometry`, `04-divisors`, `03-norms` in
-that order), so the analytic section is `10-analytic.tex` but prints as
-Section 11, and its results are Theorem 11.1, Lemma 11.2 and Proposition 11.3.
+and `sections/10-analytic.tex` for Section 11), with the PDF pages checked for
+the printed numbering; the statements of the intermediate results of Sections
+2--10 were read for the Contents below and are not compiled; the proofs were
+read for their structure only and no step was checked; nothing here is
+independently reviewed. The TeX bundle's file numbers do not match the printed
+section numbers (`main.tex` inputs `02-finite-fields`, `01-table`,
+`05-geometry`, `04-divisors`, `03-norms` in that order), so the analytic section
+is `10-analytic.tex` but prints as Section 11, and its results are Theorem 11.1,
+Lemma 11.2 and Proposition 11.3.
 
 ## Contents
 

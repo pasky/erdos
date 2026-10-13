@@ -142,9 +142,8 @@ members having pairwise equal gcd, with the bounds above for $k=3$ and
 general $k$. The least-common-multiple form asked on the problem page (no
 three distinct elements with $[a,b]=[b,c]=[a,c]$) was not found in this
 paper by a search of the OCR text for lcm wording and a reading of
-problems 1--18, re-checked on the page images of pp. 236--238 on
-2026-09-18 (problem 15 there is the pairwise-lcm-at-most-$n$ problem); the
-1970 paper [Er70], filed as
+problems 1--18, re-checked on the page images of pp. 236--238 (problem 15 there
+is the pairwise-lcm-at-most-$n$ problem); the 1970 paper [Er70], filed as
 [[divisors/erdos_1970_extremal_problems_combinatorial_number_theory/_index|erdos_1970_extremal_problems_combinatorial_number_theory]],
 treats that form and calls the four-element result recent.
 [[../wiki/problems/integer_sequences/E0441/_index|#441]]: problem 15 (p. 238, PDF p. 11,

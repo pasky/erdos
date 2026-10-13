@@ -77,7 +77,7 @@ lower bound on the problem's $W(k)$; pp. 376--377 (PDF pp. 1--2) call the
 theorem "best possible" because "any improvement would imply an
 improvement on the upper bound of $W(n)$".
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem: F(d) <= (1 + epsilon) log_2 d for all d large enough depending only
   on epsilon, where F(d) is Cohen's function for monochromatic progressions

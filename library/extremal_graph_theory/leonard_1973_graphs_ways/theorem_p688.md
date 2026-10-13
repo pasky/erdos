@@ -47,10 +47,9 @@ reference [3] for the background and the notation $l_r(n)$: Leonard's 1972
 paper on four line-disjoint paths, filed as
 [[extremal_graph_theory/leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices/_index|leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices]].
 Reference [3] on printed p. 692 (PDF p. 6) of this paper, read in the text
-layer on 2026-09-22, is that paper as printed in J. Combinatorial Theory
-Ser. B 13 (1972), 242--250; its definition of $l_r(n)$ opens § 3 on printed
-p. 244 (PDF p. 3), located there in the text layer on 2026-09-22 and paged
-on
+layer, is that paper as printed in J. Combinatorial Theory Ser. B 13 (1972),
+242--250; its definition of $l_r(n)$ opens § 3 on printed p. 244 (PDF p. 3),
+located there in the text layer and paged on
 [[extremal_graph_theory/leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices/remark_p244|remark_p244]].
 
 **Source.** J. L. Leonard, *Graphs with 6-ways*, Canadian J. Math. 25 (1973),
@@ -61,11 +60,10 @@ PDF, read on the rendered page images. The edition is identified in the
 **Read depth.** Claims checked: the definitions, the Lemma ("If six
 line-disjoint paths join a point $f$ to the points of $K_5$, then there is a
 6-way from $f$ to a single point of $K_5$") and the Theorem were read clause
-by clause on the page images on 2026-09-19. The proof (pp. 688--692) was read
-for structure only: the base cases $n\le7$ (using Dirac's extension of
-Turán's theorem for $J[7,18]$), then an induction on $n$ through a point of
-degree less than six, with (3) used for degree 4 and the Lemma for
-contractions of $K_5$.
+by clause on the page images. The proof (pp. 688--692) was read for structure
+only: the base cases $n\le7$ (using Dirac's extension of Turán's theorem for
+$J[7,18]$), then an induction on $n$ through a point of degree less than six,
+with (3) used for degree 4 and the Lemma for contractions of $K_5$.
 
 ## Proof pointer
 

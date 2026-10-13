@@ -78,7 +78,7 @@ the Chung--Graham general conjecture and upper bound restated second-hand.
 Theorem 1.3 and the restated Lazebnik--Woldar bound give $R_k(C_4)\ge k^2+2$
 for every prime power $k$.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (p. 3): for $q$, $t$ powers of the same prime with $t<q$ and
   $n=q^2/t$, $\mathrm{ex}(n,K_{2,t+1})\ge\frac{\sqrt t}2n^{3/2}-\frac{\sqrt{tn}}2$.

@@ -43,7 +43,7 @@ Attribution 4.0 license.
 **Bears on.** [[../wiki/problems/distance_problems/E0091/_index|#91]],
 [[../wiki/problems/distance_problems/E0503/_index|#503]]
 
-**Results to transcribe.**
+**Results.**
 
 - Six-point isosceles classification: The only S ⊂ R^2 with |S| = 6 all of whose
   triples form isosceles triangles is a regular pentagon together with its

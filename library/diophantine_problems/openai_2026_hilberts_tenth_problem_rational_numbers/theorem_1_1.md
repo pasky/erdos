@@ -42,8 +42,7 @@ release folder
 TeX file `build/sections/01-introduction.tex`, label `thm:main` (lines
 7--11), PDF p. 3; the proof closes at the end of Section 2
 (`build/sections/02-reduction.tex` lines 876--887, PDF p. 17), with its
-inputs proved in Sections 3--6 (pp. 18--56). Read 2026-10-12. Provenance and
-attestations are on
+inputs proved in Sections 3--6 (pp. 18--56). Provenance and attestations are on
 [[diophantine_problems/openai_2026_hilberts_tenth_problem_rational_numbers/_index|the card]].
 
 **Read depth.** Claims checked: the statement, and the statements of

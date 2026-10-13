@@ -67,7 +67,7 @@ article.
 
 **Bears on.** [[../wiki/problems/analysis/E0910/_index|#910]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem (p. 15): If the continuum hypothesis holds, there is a non-degenerate
   connected subset M of the plane such that for every non-degenerate connected

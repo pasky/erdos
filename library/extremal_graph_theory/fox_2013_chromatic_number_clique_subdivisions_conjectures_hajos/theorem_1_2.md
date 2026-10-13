@@ -45,10 +45,10 @@ compared). The artifact is identified in the
 [[extremal_graph_theory/fox_2013_chromatic_number_clique_subdivisions_conjectures_hajos/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the remarks were read
-clause by clause on the page image of p. 2 on 2026-09-19; the second branch
-was also checked against its use in the deduction on p. 3, where the bound
-appears as $\sigma(G)\ge c_2\sqrt n/\sqrt{a\log a}$. The proof (Sections
-3--4, pp. 4--12) was not read.
+clause by clause on the page image of p. 2; the second branch was also checked
+against its use in the deduction on p. 3, where the bound appears as
+$\sigma(G)\ge c_2\sqrt n/\sqrt{a\log a}$. The proof (Sections 3--4, pp. 4--12)
+was not read.
 
 ## Proof pointer
 

@@ -112,10 +112,9 @@ Proposition 5.4, read clause by clause in the TeX source
 `sections/closure.tex` lines 19--27 for Proposition 6.1;
 `sections/invariant.tex` lines 23--31 for Theorem 3.1; the lemma
 environments of `sections/optimizer.tex`, `sections/invariant.tex`,
-`sections/entropy.tex` and `sections/coupling.tex`) on 2026-10-07, with the
-PDF page map taken from the text layer of the held PDF; the proofs were read
-for their structure only and no step was checked; nothing here is
-independently reviewed.
+`sections/entropy.tex` and `sections/coupling.tex`), with the PDF page map taken
+from the text layer of the held PDF; the proofs were read for their structure
+only and no step was checked; nothing here is independently reviewed.
 
 ## Contents
 

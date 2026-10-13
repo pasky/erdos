@@ -55,7 +55,7 @@ on printed p. 55.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0009/_index|#9]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: |N* ∩ [1,x]| >> x exp(-C log x * log log log log x / log
   log log x) for an absolute constant C > 0, hence >> x^{1-epsilon} for all

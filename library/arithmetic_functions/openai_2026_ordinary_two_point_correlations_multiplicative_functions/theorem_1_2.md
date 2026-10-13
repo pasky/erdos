@@ -84,7 +84,7 @@ TeX file `build/introduction.tex`, label `thm:elliott` (lines 64--72), with
 Part II: the reduction is in `build/qualitative/analytic-transfer.tex` (lines
 251--275, PDF p. 49), and the deferred graph estimate closes at the end of
 Section 17 (`build/qualitative/localization.tex`, lines 144--167, PDF p. 81).
-Read 2026-10-12. Provenance and attestations are on
+Provenance and attestations are on
 [[arithmetic_functions/openai_2026_ordinary_two_point_correlations_multiplicative_functions/_index|the card]].
 
 **Read depth.** Claims checked: the statement, the definitions (1.1) and (1.2),

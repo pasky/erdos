@@ -44,8 +44,8 @@ text layer). The artifact is identified in the
 [[additive_bases/graham_1971_sums_integers_taken_fixed_sequence/_index|source digest]].
 
 **Read depth.** Claims checked: the two statements were read clause by
-clause on the page image on 2026-09-22. A conjecture; the paper proves
-nothing about it. Nothing here is independently reviewed.
+clause on the page image. A conjecture; the paper proves nothing about it.
+Nothing here is independently reviewed.
 
 ## Proof pointer
 

@@ -53,15 +53,14 @@ and the curator's credit.
 
 ## Current assessment
 
-Dated search scope (2026-10-07): the site's problem page, with its empty
-discussion thread and empty proof-claim tab, labeled the problem proved and
-credits Anderson and Keisler for the general case; formal-conjectures has no
-statement file for the problem; the community database records the problem
-proved and unformalized, as of its last update, dated 31 August 2025; Boris
-Alexeev's lean-proofs
-repository holds the file `src/latest/ErdosProblems/Erdos909.lean`, added on
-20 August 2026 and linked above at a fixed commit. Not searched: MathSciNet,
-zbMATH, Google Scholar.
+Search scope: the site's problem page, which on 2026-10-07, with its discussion
+thread and proof-claim tab both empty, labeled the problem proved and credited
+Anderson and Keisler for the general case; formal-conjectures, which had no
+statement file for the problem on that date; the community database, which
+records the problem proved and unformalized, as of its last update, dated 31
+August 2025; Boris Alexeev's lean-proofs repository, which holds the file
+`src/latest/ErdosProblems/Erdos909.lean`, added on 20 August 2026 and linked
+above at a fixed commit. Not searched: MathSciNet, zbMATH, Google Scholar.
 
 Theorem 2 of [AnKe67] gives, for each $m\geq1$, a set $K\subset E^m$ with
 $\dim K=\dim K^s=\dim K^\omega=m-1$ for every positive integer $s$, where

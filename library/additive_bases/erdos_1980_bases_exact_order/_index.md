@@ -48,7 +48,7 @@ Creative Commons Attribution license, with no version stated.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0336/_index|#336]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 202): A basis A = {a_1, a_2, ...} has an exact order if and
   only if gcd{a_{k+1} - a_k : k = 1, 2, ...} = 1.

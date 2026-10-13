@@ -27,23 +27,18 @@ with chromatic number $\mathfrak{m}$. Let $r\geq 1$. Must $G$ contain a subgraph
 of chromatic number $\mathfrak{m}$ which does not contain any odd cycle of
 length $\leq r$?
 
-**Notes.** The site labeled the problem OPEN and its commentary records no
-result beyond Rödl's. Komjáth and Shelah (J. Symbolic Logic 1988, refereed)
-proved it consistent with ZFC+CH that an $\aleph_1$-chromatic graph has only
-countably chromatic triangle-free subgraphs, so the affirmative answer, for
-every infinite cardinal, is not a theorem of ZFC; no model in which the answer
-is yes at $\aleph_1$ is known, and no ZFC refutation is accepted (Land's 2026
-claim is pending). On the related Problem 1175 the curator records Shelah's
-consistency result and kept the label OPEN, so the site treats such a result as
-progress on an open problem, and this page does the same: the result is one side
-of an independence result and leaves the problem open.
-
-**Status.** Labeled open on erdosproblems.com, with the label OPEN. The label
-does not record the refereed consistency result of Komjáth and Shelah (1988).
-Under that result the statement, as a question about every infinite cardinal, is
-not a theorem of ZFC. That result is one side of an independence result and
-leaves the problem open, as the label does. A refutation in ZFC alone, Johan
-Land's 2026 claim, is pending. The site's notes call the problem a question of
+**Status.** Labeled open on erdosproblems.com, with the label OPEN, and its
+commentary records no result beyond Rödl's. The label does not record the
+refereed consistency result of Komjáth and Shelah (J. Symbolic Logic 1988): it
+is consistent with ZFC+CH that an $\aleph_1$-chromatic graph has only countably
+chromatic triangle-free subgraphs. Under that result the statement, as a
+question about every infinite cardinal, is not a theorem of ZFC; no model in
+which the answer is yes at $\aleph_1$ is known. That result is one side of an
+independence result and leaves the problem open, as the label does. On the
+related Problem 1175 the curator records Shelah's consistency result and kept
+the label OPEN, so the site treats such a result as progress on an open
+problem, and this page does the same. A refutation in ZFC alone, Johan Land's
+2026 claim, is pending. The site's notes call the problem a question of
 Erdős and Hajnal and record Rödl's theorem for $\mathfrak{m}=\aleph_0$ and
 $r=3$. They say that Erdős and Hajnal asked more generally for an
 $f_r(\mathfrak{m})$ such that chromatic number at least $f_r(\mathfrak{m})$

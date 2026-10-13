@@ -41,7 +41,7 @@ Source: <https://arxiv.org/abs/2606.28651>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: Every g-Golomb ruler A has liminf A(n)/sqrt(n/log n) <= (2/sqrt(log
   2))·sqrt(g).

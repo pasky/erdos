@@ -28,10 +28,10 @@ length three.
 
 Zhen Liu and Qinghou Zeng, *A complement of the Erdős-Hajnal problem on
 paths with equal-degree endpoints*, arXiv:2505.00523v2 [math.CO], 4 August
-2025 (v1 1 May 2025), 14 pages. A preprint: no journal record was found on
-2026-09-18 (Crossref and Semantic Scholar queries recorded on Problem 816's
-page), and it is not cited by the site. Not a source key of the site;
-Problem 816's page cites it as [LiZe25]. The theorem it extends is filed as
+2025 (v1 1 May 2025), 14 pages. A preprint: Crossref and Semantic Scholar
+queries on 2026-09-18, recorded on Problem 816's page, returned no journal
+record, and it is not cited by the site. Not a source key of the site; Problem
+816's page cites it as [LiZe25]. The theorem it extends is filed as
 [[extremal_graph_theory/chen_2025_problem_erdos_hajnal_paths_equal_degree/_index|chen_2025_problem_erdos_hajnal_paths_equal_degree]].
 
 **Edition read.** The copy read for this card is the arXiv copy of v2:

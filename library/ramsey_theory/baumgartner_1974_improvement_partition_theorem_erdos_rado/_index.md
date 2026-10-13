@@ -58,12 +58,11 @@ the notation, the definition of $l_\alpha(m,n)$ and the negative relation
 quoted from the 1967 paper (p. 134), the finite characterization of
 $l_0(m,n)$ and the displayed statement $\omega_\alpha\cdot l_0(m,n)\to
 (m,\omega_\alpha\cdot n)^2$ with its sentence "for all $\alpha$, $m$, and
-$n$" (p. 135), each read clause by clause on the page images of PDF
-pp. 1--2 on 2026-09-22; the reference list (p. 137) was read on the page
-image of PDF p. 4. The proof (pp. 135--137, PDF pp. 2--4) was read on the
-page images for its structure, the thinning construction, the definition of
-$\rho$ and the two cases as recorded below, and no step of it was checked.
-Nothing here is independently reviewed.
+$n$" (p. 135), each read clause by clause on the page images of PDF pp. 1--2;
+the reference list (p. 137) was read on the page image of PDF p. 4. The proof
+(pp. 135--137, PDF pp. 2--4) was read on the page images for its structure, the
+thinning construction, the definition of $\rho$ and the two cases as recorded
+below, and no step of it was checked. Nothing here is independently reviewed.
 
 ## Contents
 

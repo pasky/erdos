@@ -74,10 +74,10 @@ Source: <https://users.renyi.hu/~p_erdos/1986-17.pdf>.
 
 Read status: claims checked for Theorems 1.5, 1.5$'$, 1.6 and 1.7 (pp.
 113--115), Proposition 6.3 and Problem 6.2 (p. 120) and the remark on p. 119,
-read clause by clause on the page images on 2026-10-08; the proofs of
-Sections 2 to 5 (pp. 115--118) were read in outline, not checked step by step.
-The line carrying display (5) at the top of p. 115 is faint on the page image;
-its reading is confirmed by the abstract and by Section 5.
+read clause by clause on the page images; the proofs of Sections 2 to 5 (pp.
+115--118) were read in outline, not checked step by step. The line carrying
+display (5) at the top of p. 115 is faint on the page image; its reading is
+confirmed by the abstract and by Section 5.
 
 ## Contents
 

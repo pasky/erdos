@@ -44,7 +44,7 @@ Source: <https://math.colgate.edu/~integers/vol25.html>.
 
 **Bears on.** [[../wiki/problems/factorials_binomials/E0398/_index|#398]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1(i): For any k >= 2 there are finitely many solutions of n!+1 = x^2
   with x±1 k-free; for k = 7 the only candidates are (4,5), (5,11), (7,71).

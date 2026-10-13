@@ -103,7 +103,7 @@ release's quantitative bound on $r_k(N)$ bears on
 [[problems/additive_combinatorics/E0003/_index|Problem 3]], the question the
 manuscript answers, and is not needed for this problem.
 
-**Scope (2026-10-07).** This assessment rests on the site export, the
+**Scope.** This assessment rests on the site export, the
 Green–Tao paper's statements through its source card, the release
 manuscript's introduction and Section 11 with its Lean documentation,
 comparator challenge and conclusions module, and the lean-proofs and

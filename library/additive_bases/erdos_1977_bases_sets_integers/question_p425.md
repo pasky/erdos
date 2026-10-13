@@ -39,9 +39,9 @@ all $A$ of type $(n,n^2)$, is $M_n=o(n)$?"
 Number Theory 9 (1977), no. 4, 420--425, DOI 10.1016/0022-314x(77)90003-8
 (received 13 October 1976; Crossref record read); the copy read
 for this page is the Rényi archive's OmniPage scan, six pages, printed
-p. $n$ = PDF p. $n-419$. Read on the page images (130 dpi) of printed pp.
-420, 423 and 425 on 2026-09-18, with the text layer used to locate the
-passages; p. 422 read in the text layer.
+p. $n$ = PDF p. $n-419$. Read on the page images (130 dpi) of printed pp. 420,
+423 and 425, with the text layer used to locate the passages; p. 422 read in the
+text layer.
 
 **Read depth.** Claims checked: Theorem 1, Theorem 2, the p. 423 remark
 and the p. 425 question were read clause by clause; the counting argument

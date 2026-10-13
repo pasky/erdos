@@ -87,7 +87,7 @@ the Hooley and Deshouillers--Iwaniec positive-power results for $X^2+1$
 from the cited papers, and its own results give no positive-power lower
 bound for the greatest prime factor of $\prod_{n\leq x}F(n)$.
 
-**Results to transcribe.**
+**Results.**
 
 - [[arithmetic_functions/tenenbaum_1990_sur_une_question_erdos_schinzel_i/main_theorem|Main theorem]]: the two-regime estimate for
   $H_F(x,y,z)$ on printed pp. 407--408.

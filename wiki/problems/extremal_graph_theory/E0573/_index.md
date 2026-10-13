@@ -122,13 +122,13 @@ https://www.erdosproblems.com/573, accessed 2026-09-18.
   statements). Library home:
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
 - OEIS A006856, "Maximal number of edges in n-node graph of girth at least 5",
-  <https://oeis.org/A006856>, accessed: terms $a(1)$ to $a(53)$, with
+  <https://oeis.org/A006856>: terms $a(1)$ to $a(53)$, with
   $a(50)=175$ (the Hoffman--Singleton graph, unique) and $a(53)=181$.
 
 **Formalization.** None. No file `ErdosProblems/573.lean` exists in
 formal-conjectures (main; none on main on 2026-10-07); the
 site's page shows the statement as not formalized, and the community database
-(teorth/erdosproblems, `data/problems.yaml` fetched) records the
+(teorth/erdosproblems, `data/problems.yaml`) records the
 problem as open (last update 31 August 2025), not formalized, no formal proof,
 and lists OEIS A006856.
 

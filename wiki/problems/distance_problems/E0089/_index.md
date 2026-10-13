@@ -82,7 +82,8 @@ https://www.erdosproblems.com/89.
   ([[../library/distance_problems/openai_2026_higher_dimensional_erdos_distinct_distances_conjecture/theorem_b_12|Theorem B.12]]),
   without improving it, and has no claim page here. The item is background
   here and gives no claim page.
-- **Status search.** The site's page and its proof-claims tab,; no broader literature search is recorded.
+- **Status search.** The site's page and its proof-claims tab; no broader
+  literature search is recorded.
 - **Proof coverage and review.** None: the problem is open, and no proof is
   held or reviewed.
 <!-- BEGIN problem library links -->

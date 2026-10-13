@@ -74,9 +74,9 @@ Theorem 7.1, very rich motions; Theorem A.1, uniform concentration), each
 read clause by clause in the TeX source (`sections/introduction.tex` lines
 19--26, `sections/classical-incidence.tex` lines 808--811,
 `sections/sparse-cones.tex` lines 10--19, `sections/motions.tex` lines
-15--32, `sections/concentration.tex` lines 44--70) on 2026-10-07; the whole
-TeX source was read, and the proofs were read for their structure only, no
-step was checked; nothing here is independently reviewed.
+15--32, `sections/concentration.tex` lines 44--70); the whole TeX source was
+read, and the proofs were read for their structure only, no step was checked;
+nothing here is independently reviewed.
 
 ## Contents
 

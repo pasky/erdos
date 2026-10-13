@@ -26,8 +26,7 @@ author's claim, statement checked, proof not read.
 ***
 
 E. Li, *A resolution of Erdős Problem 550 on tree versus complete multipartite
-Ramsey numbers*, arXiv:2606.23659 (v1 22 June 2026; v2 2 August 2026).
-Preprint; no journal record was found on 2026-09-17.
+Ramsey numbers*, arXiv:2606.23659 (v1 22 June 2026; v2 2 August 2026). Preprint.
 
 The copy read for this card is the
 arXiv v1 (stamped 22 Jun 2026, dated June 23, 2026), 20 pages numbered 1--20

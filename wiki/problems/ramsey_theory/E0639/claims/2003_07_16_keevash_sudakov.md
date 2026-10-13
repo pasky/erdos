@@ -73,7 +73,7 @@ matching lower bound.
 theorem.
 
 **Dating.** The page is dated 16 July 2003, the day the paper's Crossref
-record was created (the Crossref record, gives that
+record was created (the Crossref record gives that
 creation date and no online date; OpenAlex gives the same day as the
 publication date). The journal posts an article online when it registers
 its DOI, and the journal's issue version, whose header reads "Journal of
@@ -90,9 +90,9 @@ solution of the problem to Keevash and Sudakov's theorem, with the same three
 small values. The thread's one comment concerns the formalization below, and the
 proof-claim tab is empty. Refereed: J. Combin. Theory Ser. B 90 (2004), no. 1,
 41--53. The acknowledgments credit Thomason and Scott with catching a mistake in
-an earlier draft, so the journal version is the one used. Semantic Scholar's ten
-citing records, scanned by title on 2026-09-18, include no dispute or
-correction.
+an earlier draft, so the journal version is the one used. On 2026-09-18
+Semantic Scholar listed ten citing records, none of them, by its title, a
+dispute or correction.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos639.lean` of
 Boris Alexeev's repository `plby/lean-proofs`, linked above at the commit of

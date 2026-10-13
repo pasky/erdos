@@ -33,8 +33,7 @@ Rényi scan), read on the rendered page image (the text layer prints the
 infinity signs as dashes).
 
 **Read depth.** Claims checked: the passage was read clause by clause on
-the page image on 2026-09-18. There is nothing to prove; the section states
-a question.
+the page image. There is nothing to prove; the section states a question.
 
 ## Proof pointer
 

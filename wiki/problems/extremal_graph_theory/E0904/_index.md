@@ -194,7 +194,7 @@ Yes".
 
 ## Current assessment
 
-**The question (site wording accessed).** The site's statement
+**The question (site wording accessed 2026-09-18).** The site's statement
 above, which fails for $n<r$, and the corrected Statement below it (Notes);
 the site showed PROVED (LEAN), the label of the corrected Statement; last
 edited 3 April 2026. The commentary attributes the conjecture to Bollobás and

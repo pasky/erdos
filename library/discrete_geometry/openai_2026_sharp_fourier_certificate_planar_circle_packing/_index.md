@@ -121,12 +121,11 @@ Proposition 5.3 and Lemma A.1, read clause by clause in the TeX source
 `sections/normalization.tex`, labels `normalization:origin-lemma` and
 `normalization:periodic-uniqueness`; `sections/certificates.tex`;
 `sections/independent-certification.tex`, which inputs
-`sections/rational-check.tex` as its Section B.4) on 2026-10-07; the proofs
-were read for their structure only and no step was checked; the interval
-and rational computations the proofs cite were not run here; nothing here is
-independently reviewed. Page numbers below are those of the held PDF (49
-pages: title, abstract and contents on pp. 1--2, text from p. 3, references
-on p. 49).
+`sections/rational-check.tex` as its Section B.4); the proofs were read for
+their structure only and no step was checked; the interval and rational
+computations the proofs cite were not run here; nothing here is independently
+reviewed. Page numbers below are those of the held PDF (49 pages: title,
+abstract and contents on pp. 1--2, text from p. 3, references on p. 49).
 
 ## Contents
 

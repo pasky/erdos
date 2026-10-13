@@ -70,20 +70,20 @@ with an OCR text layer (the file's metadata names ABBYY FineReader and a July
 which prints the journal's identifier, the DOI, the downloading account
 holder's name and the download date down the outer margin of PDF pp. 2--17,
 printed pp. 740--755; PDF p. 1, printed p. 739, is unstamped, checked in the
-text layer of every page and on the page images of PDF pp. 1--2 on
-2026-09-23). The text layer locates passages and reads the prose, but
-garbles the displays: binomial coefficients, the integer-part brackets,
-subscripts and the inequality signs. Provenance: obtained from the publisher
-on 2026-09-22 as a DRM-free PDF through the library's acquisition, from
-<https://doi.org/10.1112/plms/s3-24.4.739>; 1,107,899 bytes. No copyright line
-is printed on the 1972 pages; the publisher's download footer reads "See the
-Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on
-Wiley Online Library for rules of use; OA articles are governed by the
-applicable Creative Commons License" and the article carries no open-access
-marker, the publisher's article page could not be read on 2026-10-02 (it
-answered HTTP 403), and the Crossref record (read 2026-10-07) names the
-publisher's text and data mining terms and its terms and conditions for the
-version of record and no Creative Commons license, every other right reserved.
+text layer of every page and on the page images of PDF pp. 1--2). The text layer
+locates passages and reads the prose, but garbles the displays: binomial
+coefficients, the integer-part brackets, subscripts and the inequality signs.
+Provenance: obtained from the publisher on 2026-09-22 as a DRM-free PDF through
+the library's acquisition, from <https://doi.org/10.1112/plms/s3-24.4.739>;
+1,107,899 bytes. No copyright line is printed on the 1972 pages; the publisher's
+download footer reads "See the Terms and Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library
+for rules of use; OA articles are governed by the applicable Creative Commons
+License" and the article carries no open-access marker, the publisher's article
+page could not be read on 2026-10-02 (it answered HTTP 403), and the Crossref
+record (read 2026-10-07) names the publisher's text and data mining terms and
+its terms and conditions for the version of record and no Creative Commons
+license, every other right reserved.
 
 Read status: claims checked for the summary and the footnote (p. 739), the
 definitions of path, circuit, length, Hamiltonian, connected and cut-vertex
@@ -96,17 +96,16 @@ Sublemma 11.2.1 (p. 745), Lemma 11.2 (p. 746), the Conjecture, the displays
 for $f(n,k)$ and $f(n,k,r)$ and Theorem 11 with its case list and bounds
 (pp. 747--748), the sentence answering Erdős's question and Corollary 11.1
 with its sharpness parenthesis (p. 749), each read clause by clause on the
-page images of PDF pp. 1--4 and 6--11 (printed pp. 739--742 and 744--749) on
-2026-09-22. Printed p. 743 (PDF p. 5; Theorem 7 and its proof), § 6 on
-directed graphs (pp. 749--754), the acknowledgment and the reference list
-(pp. 754--755) were read in the text layer for structure only; the
-statements of Theorem 7 and of § 6 as summarized below, and the reference
-list, were checked against the page images, and Theorem 2D with the remarks
-of § 6 that frame it (pp. 749--751) was read clause by clause on the page
-images on 2026-10-08, its proof (pp. 751--754) for structure only. The proofs of
-Lemma 11.1, Sublemma 11.2.1, Lemma 11.2 and Theorem 11 (pp. 745--749) were
-read in full on the page images and their structure followed; their
-inequalities were not checked. Nothing here is independently reviewed.
+page images of PDF pp. 1--4 and 6--11 (printed pp. 739--742 and 744--749).
+Printed p. 743 (PDF p. 5; Theorem 7 and its proof), § 6 on directed graphs (pp.
+749--754), the acknowledgment and the reference list (pp. 754--755) were read in
+the text layer for structure only; the statements of Theorem 7 and of § 6 as
+summarized below, and the reference list, were checked against the page images,
+and Theorem 2D with the remarks of § 6 that frame it (pp. 749--751) was read
+clause by clause on the page images, its proof (pp. 751--754) for structure
+only. The proofs of Lemma 11.1, Sublemma 11.2.1, Lemma 11.2 and Theorem 11 (pp.
+745--749) were read in full on the page images and their structure followed;
+their inequalities were not checked. Nothing here is independently reviewed.
 
 ## Contents
 

@@ -93,19 +93,19 @@ Conjectures.io acceptance of 5-6 August 2026 refutes a misformalization
 (`Summable` over ℚ) and Conjectures.io's own review says it settles nothing;
 formal-conjectures corrected the statement on 2026-09-09.
 
-Dated search scope, 2026-09-27: erdosproblems.com (the problem page, the forum
-thread /forum/discuss/15 with two comments dated 11 August 2025 and 13 January
-2026 and no proof claim, the proof-claims thread, and the history page); the
-community database (teorth/erdosproblems problems.yaml, entry 15: status open,
-last update 2025-08-31); conjectures.io (the results list, the record, its
-problem and solution pages, the report API, the validator's review-decision
-file, and the task pool listing at conjectures-io/conjectures-tasks pool/tier-1,
-whose directory listing held no problem-15 task); formal-conjectures (15.lean at
-main and at a commit carrying the statement quoted in Status, its history, issue
-#4979, and PR #4990); arXiv (the 2308.07205 version history, v3 of 23 August
-2023 being the latest, and export-API searches for the alternating series); and
-Crossref (10.1090/cams/29). No proof claim, preprint or acceptance of a
-resolution was found.
+Search scope, with the sources as they stood on 2026-09-27: erdosproblems.com
+(the problem page, the forum thread /forum/discuss/15 with two comments dated
+11 August 2025 and 13 January 2026 and no proof claim, the proof-claims thread,
+and the history page); the community database (teorth/erdosproblems
+problems.yaml, entry 15: status open, last update 2025-08-31); conjectures.io
+(the results list, the record, its problem and solution pages, the report API,
+the validator's review-decision file, and the task pool listing at
+conjectures-io/conjectures-tasks pool/tier-1, whose directory listing held no
+problem-15 task); formal-conjectures (15.lean at main and at a commit carrying
+the statement quoted in Status, its history, issue #4979, and PR #4990); arXiv
+(the 2308.07205 version history, v3 of 23 August 2023 being the latest, and
+export-API searches for the alternating series); and Crossref (10.1090/cams/29).
+They showed no proof claim, preprint or acceptance of a resolution.
 
 Reviewed coverage: the four reconstruction pages of Tao's conditional argument
 (Theorem 1.4 with Lemmas 3.1 and 3.2 and the Section 2 equivalence), filed with

@@ -48,7 +48,7 @@ version or URL for it (https://www.impan.pl/get/doi/10.4064/aa-59-2-97-104, read
 
 **Bears on.** [[../wiki/problems/irrationality/E0262/_index|#262]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: If sum 1/a_n = K < infinity and S = {b_1=1 < b_2 < ...} tends to
   infinity, then condition (max_k (1/b_k - 1/b_{k+1}))/a_n <= sum_{j>n} 1/a_j

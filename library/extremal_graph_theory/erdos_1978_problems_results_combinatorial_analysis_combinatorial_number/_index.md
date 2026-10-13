@@ -50,26 +50,24 @@ page and the card gives no DOI, so the publisher's page was not consulted and no
 Crossref license is recorded; the term is unstated.
 
 Read status: claims checked for displays (2) and (3) of Section 4 with the
-three offers (printed p. 33, PDF p. 5, read clause by clause on the page
-image on 2026-09-18), for relation (5) of Section 4 (printed p. 34),
-for the restatement of the cycle-complete bound on the same page, for
-display (4) and the sentence after it on the same page (the wish for an
-asymptotic formula for $r(C_3,K_n)$, quoted in the Bears-on row for #165;
-read clause by clause on the page image), and for
-the Section 2 problem of Erdős and Sauer on $f_3(n)$ (printed p. 31), each
-read clause by clause on the page image; for the Section 4 passage defining
-$f(n)$ and $F(n)$ for $r(K_3;G(n;\ell))\le2n-1$ with its bounds and
-expectations (printed pp. 33--34, PDF pp. 5--6), and for Section 6's
-Erdős--Ulam problem, its two conjectures, Theorem 2 with its proof and the
-closing remarks with Howorka's result (printed pp. 39--40, PDF pp. 11--12),
-each read clause by clause on the page images (the Section 6
-heading on printed p. 35 was read the same way), and for Theorem 1 of
-Section 6 (printed p. 36 = PDF p. 8), read clause by clause on the page
-image on 2026-09-18, and for the Section 3 passage on the longest path of
-almost all graphs $G(n;[Cn])$ (printed p. 32 = PDF p. 4), read clause by
-clause on the page image on 2026-09-19; the remaining statements are
-recorded from the digest without a re-read. The paper proves only the two
-theorems of Section 6; its problems and conjectures carry no proofs.
+three offers (printed p. 33, PDF p. 5, read clause by clause on the page image),
+for relation (5) of Section 4 (printed p. 34), for the restatement of the
+cycle-complete bound on the same page, for display (4) and the sentence after it
+on the same page (the wish for an asymptotic formula for $r(C_3,K_n)$, quoted in
+the Bears-on row for #165; read clause by clause on the page image), and for the
+Section 2 problem of Erdős and Sauer on $f_3(n)$ (printed p. 31), each read
+clause by clause on the page image; for the Section 4 passage defining $f(n)$
+and $F(n)$ for $r(K_3;G(n;\ell))\le2n-1$ with its bounds and expectations
+(printed pp. 33--34, PDF pp. 5--6), and for Section 6's Erdős--Ulam problem, its
+two conjectures, Theorem 2 with its proof and the closing remarks with Howorka's
+result (printed pp. 39--40, PDF pp. 11--12), each read clause by clause on the
+page images (the Section 6 heading on printed p. 35 was read the same way), and
+for Theorem 1 of Section 6 (printed p. 36 = PDF p. 8), read clause by clause on
+the page image, and for the Section 3 passage on the longest path of almost all
+graphs $G(n;[Cn])$ (printed p. 32 = PDF p. 4), read clause by clause on the page
+image; the remaining statements are recorded from the digest without a re-read.
+The paper proves only the two theorems of Section 6; its problems and
+conjectures carry no proofs.
 
 Sections 1-5 restate open problems with prizes: the Erdős-Faber-Lovász coloring
 conjecture (n sets of size n meeting pairwise in at most one point are

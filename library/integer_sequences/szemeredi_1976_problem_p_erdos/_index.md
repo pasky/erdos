@@ -63,11 +63,11 @@ construction (1) and the conjecture (2) (p. 264), Diviš's question with the
 bound (3), the announced Erdős--Szemerédi theorem, the sentence on
 $c>1$ and Lemma 1 (p. 265), Lemmas 2 and 3 (p. 266), the two cases (p. 267)
 and the closing statement with the constant $C$ (p. 269), each read clause
-by clause on the page images of PDF pp. 1--7 (printed pp. 264--270) on
-2026-09-22; the acknowledgment (p. 269) and the reference list (p. 270) were
-read on the page images. The proof (pp. 265--269, the whole of the paper
-after the introduction) was read in full on the page images for its
-structure, and its outline was compared with the second proof in
+by clause on the page images of PDF pp. 1--7 (printed pp. 264--270); the
+acknowledgment (p. 269) and the reference list (p. 270) were read on the page
+images. The proof (pp. 265--269, the whole of the paper after the introduction)
+was read in full on the page images for its structure, and its outline was
+compared with the second proof in
 [[integer_sequences/erdos_1976_multiplicative_representations_integers/theorem_1|Theorem 1]]
 of the 1976 Erdős--Szemerédi paper; no step of either proof was checked.
 Nothing here is independently reviewed.

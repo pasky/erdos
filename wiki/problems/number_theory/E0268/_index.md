@@ -94,12 +94,12 @@ audited line by line. The claim pages record the two refereed proofs; the
 curator credits Kovač with the solution and cites Kovač and Tao for the
 analogous result in every dimension.
 
-**Search scope (2026-10-07 UTC).** The site's problem page, discussion
-thread and proof-claim tab; the formal-conjectures declaration at the
-commit linked under Formalization and the two Lean developments at the
-revisions linked from Kovač's claim page; the arXiv records of 2405.07681
-and 2406.17593 and the Crossref records of both publications. None found a
-dispute of the theorem. Not searched: MathSciNet, zbMATH, Google Scholar, X.
+**Search scope.** The site's problem page, discussion thread and proof-claim
+tab; the formal-conjectures declaration at the commit linked under Formalization
+and the two Lean developments at the revisions linked from Kovač's claim page;
+the arXiv records of 2405.07681 and 2406.17593 and the Crossref records of both
+publications. On 2026-10-07 none of them showed a dispute of the theorem. Not
+searched: MathSciNet, zbMATH, Google Scholar, X.
 
 ## Progress
 

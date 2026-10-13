@@ -73,9 +73,8 @@ linked in the thread on 31 May 2026 as claiming some results on the problem
 but no full solution. Its DataCite and OpenAlex records carry no abstract,
 and no theorem from it is recorded, so it has no claim page.
 
-**Search scope (2026-10-07).** The site page and its forum thread, the
-formal-conjectures file, and the DataCite and OpenAlex records of the Bado
-note.
+**Search scope.** The site page and its forum thread, the formal-conjectures
+file, and the DataCite and OpenAlex records of the Bado note.
 
 **Gaps.** The question is open; the corpus holds no claim on it. The content
 of the Bado note is unrecorded, and a theorem from it settling any case would

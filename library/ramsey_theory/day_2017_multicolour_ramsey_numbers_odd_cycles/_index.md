@@ -26,8 +26,8 @@ arXiv:1602.07607v2, marked 16 January 2017 (title-page date 17 January 2017),
 with printed and physical pages 1--9. The labels and locators below refer to
 this preprint, not the journal pagination 56--63 in the bibliographic citation
 above. The journal edition was not read, and no edition-equivalence
-assessment is claimed. Version check of 2026-09-17: the arXiv listing shows
-v1 (24 February 2016) and v2 (16 January 2017) and no journal reference; the
+assessment is claimed. Version check of 2026-09-17: the arXiv listing showed v1
+(24 February 2016) and v2 (16 January 2017) and no journal reference; the
 Crossref record gives J. Combin. Theory Ser. B 124 (2017), 56--63, DOI
 10.1016/j.jctb.2016.12.005 (May 2017). The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:1602.07607), every other right
@@ -73,7 +73,7 @@ Source: <https://arxiv.org/abs/1602.07607v2>.
 **Bears on.** [[../wiki/problems/ramsey_theory/E0554/_index|#554]],
 [[../wiki/problems/ramsey_theory/E0609/_index|#609]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 2 (p. 2): Given r, some number k of colors admits a k-coloring of
   K_{2^k+1} whose shortest monochromatic odd cycle has length at least r,

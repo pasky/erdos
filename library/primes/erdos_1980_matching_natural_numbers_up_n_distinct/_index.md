@@ -112,7 +112,7 @@ the problem's second question (proved in 2026 by van Doorn), and proves only
 (21), max_m f(n,m) - f(n,n) >= 1 for infinitely many n (every large prime,
 p. 161).
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 149): f(n)/n tends to infinity as n tends to infinity.
 - [[primes/erdos_1980_matching_natural_numbers_up_n_distinct/theorem_2|Theorem 2]]

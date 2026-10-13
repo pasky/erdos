@@ -209,7 +209,21 @@ $k(n,m)=r(I_n,L_m)$ of [IRW21]. Known exactly:
   The general bounds on the column are Stearns's $k(2,m)\le2^{m-1}$ and Erdős
   and Moser's $k(2,m)\ge2^{(m-1)/2}$
   ([[../library/ramsey_theory/erdos_1964_representation_directed_graphs_as_unions_orderings/theorem_1|Theorem 1]]
-  of [ErMo64]).
+  of [ErMo64]). Beyond $m=6$ the column is known only within bounds, since
+  $k(2,m)$ is the directed Ramsey number $R(m)$, the least $n$ such that every
+  tournament on $n$ vertices has a transitive subtournament on $m$ vertices.
+  Neiman, Mackey and Heule give $34\le k(2,7)\le47$
+  ([[../library/ramsey_theory/neiman_2022_tighter_bounds_directed_ramsey_number_r_7/section_5|Section 5]]
+  of their Graphs Combin. 2022 paper, refereed and computer-assisted; accepted
+  on
+  [[problems/ramsey_theory/E1216/claims/2020_11_02_neiman_mackey_heule|their Problem 1216 claim page]]).
+  McCarthy and Monico's
+  [[../library/ramsey_theory/mccarthy_2025_mathon_type_construction_digraphs_improved_lower_bounds/theorem_1|Theorem 1]]
+  (Electron. J. Combin. 32 (2025), P2.42, refereed; a computer search over
+  Paley tournaments with a digraph construction of Mathon type, not replayed
+  here) gives $k(2,8)\ge57$, $k(2,11)\ge169$, $k(2,12)\ge217$,
+  $k(2,14)\ge401$, $k(2,15)\ge545$, $k(2,16)\ge737$, $k(2,17)\ge889$,
+  $k(2,18)\ge1241$, $k(2,19)\ge1321$ and $k(2,20)\ge1945$.
 - $k(3,3)=9$:
   [[../library/ramsey_theory/bermond_1974_some_ramsey_numbers_directed_graphs/proposition_2_5|Proposition 2.5]]
   of [Be74] (p. 316), stated as $R(TT_3,K_3^*)=9$ in that
@@ -296,7 +310,8 @@ independent set and $m$ the transitive tournament:
   $R(n,m)$; it has the same order $n^{m-1}$ as the Erdős--Rado bound and
   gains the factor $(\log_2n)^{m-2}$ at the cost of the constant $2^{17m}$.
 
-**Lower bounds and the exponent of $n$.** No lower bound for $m\ge4$ beyond
+**Lower bounds and the exponent of $n$.** Apart from the tournament column
+$n=2$ above, no lower bound for $m\ge4$ beyond
 $k(n,m)\ge R(n,m)$ was found in the sources read (the underlying graph of a
 transitive tournament on $m$ vertices is $K_m$, so any orientation of a graph on
 $R(n,m)-1$ vertices with no $K_m$ and no $n$ independent vertices witnesses

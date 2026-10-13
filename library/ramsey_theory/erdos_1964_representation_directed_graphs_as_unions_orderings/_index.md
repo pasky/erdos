@@ -47,13 +47,12 @@ license is recorded; the term is unstated.
 Read status: claims checked for the introduction's summary (p. 125),
 Stearns's argument and the counting argument (p. 126), Theorem 1, the
 remark $f(7)=3$ and the conjecture paragraph (p. 127), each read clause by
-clause on the page image on 2026-09-18; the two proofs of Theorem 1 were
-read in full (each is a paragraph) and not checked in detail; the statements
-of Lemmas 1--6 and the course of the proof of the estimate of $m(n)$
-(pp. 127--132) were read on the page images, and their proofs
-were not checked; the main estimate's display (p. 126) and its restatements
-(pp. 125, 130 and 132) were read clause by clause on 2026-10-08, its proof
-read for structure, and the counting proof of its lower half followed.
+clause on the page image; the two proofs of Theorem 1 were read in full (each is
+a paragraph) and not checked in detail; the statements of Lemmas 1--6 and the
+course of the proof of the estimate of $m(n)$ (pp. 127--132) were read on the
+page images, and their proofs were not checked; the main estimate's display
+(p. 126) and its restatements (pp. 125, 130 and 132) were read clause by clause,
+its proof read for structure, and the counting proof of its lower half followed.
 
 ## Contents
 

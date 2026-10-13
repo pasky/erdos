@@ -95,14 +95,14 @@ page. The still weaker statement, a permutation with every entry nonzero and
 sum at least $1$, is due to Marcus and Ree [MaRe59] and is not part of the
 question.
 
-Search scope, 2026-10-07: the site's page and discussion thread (Alexeev's
-Lean posting of 2025-11-29, no proof claims), the community database
-(teorth/erdosproblems, which lists the problem as proved with a Lean proof
-from 2025-11-29), the formal-conjectures statement file, the lean-proofs
-collection, Crossref and zbMATH. No other claim on the problem was found.
-One third-party Lean proof of the Marcus–Minc theorem is linked from the
-claim page; the corpus did not build or audit it, and the site's Lean
-qualifier rests on it.
+Search scope, with the sources as they stood on 2026-10-07: the site's page
+and discussion thread (Alexeev's Lean posting of 2025-11-29, no proof claims),
+the community database (teorth/erdosproblems, which lists the problem as proved
+with a Lean proof from 2025-11-29), the formal-conjectures statement file, the
+lean-proofs collection, Crossref and zbMATH. None of them showed another claim
+on the problem. One third-party Lean proof of the Marcus–Minc theorem is
+linked from the claim page; the corpus did not build or audit it, and the
+site's Lean qualifier rests on it.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

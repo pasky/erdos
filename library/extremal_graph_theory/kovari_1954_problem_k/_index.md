@@ -79,7 +79,7 @@ state it in that form; the graph application is (3.1)
 ([[extremal_graph_theory/kovari_1954_problem_k/inequality_1_5|inequality_1_5]]);
 [[../wiki/problems/extremal_graph_theory/E0714/_index|#714]]
 
-**Results to transcribe.**
+**Results.**
 
 - Inequality (1.5): For 2 ≤ j ≤ n-1, k_j(n) < 1 + jn + [(j-1)^{1/j}
   n^{(2j-1)/j}], with [x] the integral part: that many 1's in an n×n 0-1

@@ -15,9 +15,9 @@ updated: 2026-10-05T05:52:35Z
 [8709](https://www.erdosproblems.com/forum/thread/963#post-8709),
 3 September 2026, Erdős Problems discussion thread 963.
 
-This is an excerpt of a locally saved copy of the thread, read on 2026-09-09.
-The two complete posts below preserve their source order, with the correction
-first. The live thread and linked external material were not checked.
+This is an excerpt of a locally saved copy of the thread. The two complete posts
+below preserve their source order, with the correction first. The live thread
+and linked external material were not checked.
 
 The posts contain source claims and reported searches. Their inclusion does
 not verify those claims. The companion result selects only the finite A*

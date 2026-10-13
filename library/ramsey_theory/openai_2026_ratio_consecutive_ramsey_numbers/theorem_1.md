@@ -33,9 +33,8 @@ case $k=2$ is "immediate, since $R(2,\ell)=\ell$" (p. 2); the site's Problem
 three-page manuscript hosted at cdn.openai.com (retrieved 2026-09-18; PDF
 metadata dated 22 April 2026); Theorem 1 on p. 1, proof on pp. 2--3, read on
 the page images and in the text layer. The abstract states "The proof is due
-to an internal model at OpenAI." No refereed publication, arXiv version or
-independent review was found on 2026-09-18; the site accepted the manuscript
-as the resolution on 24 April 2026. The card records the provenance.
+to an internal model at OpenAI." The site accepted the manuscript as the
+resolution on 24 April 2026. The card records the provenance.
 
 **Read depth.** Claims checked: the statement, the definition and convention,
 and the statements of Lemmas 1--3 were read clause by clause on the page images.

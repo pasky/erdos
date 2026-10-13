@@ -78,12 +78,13 @@ not $2$-choosable by Erdős, Rubin and Taylor's characterization [ERT80]. The
 general planar case, where Thomassen proved $5$ and Voigt showed that $4$ does
 not suffice, is [[problems/graph_coloring/E0631/_index|Problem 631]].
 
-Search scope, 2026-10-07: the site's page and discussion thread (no proof
-claims), the community database (teorth/erdosproblems), the formal-conjectures
-repository, the lean-proofs collection, Ren's submission repository and
-Crossref. No other claim on the problem was found. The two third-party Lean
-developments are linked from the claim page; the corpus built neither, and
-the community database's Lean status rests on Ren's.
+Search scope: the site's page and discussion thread, the community database
+(teorth/erdosproblems), the formal-conjectures repository, the lean-proofs
+collection, Ren's submission repository and Crossref. On 2026-10-07 the site
+listed no proof claims, and none of these sources showed another claim on the
+problem. The two third-party Lean developments are linked from the claim page;
+the corpus built neither, and the community database's Lean status rests on
+Ren's.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

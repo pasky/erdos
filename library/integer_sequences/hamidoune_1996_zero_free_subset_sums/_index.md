@@ -57,7 +57,7 @@ Source: <http://www.impan.pl/get/doi/10.4064/aa-78-2-143-152>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0540/_index|#540]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 3.3: For G of prime order, any S with |S| >= sqrt2 |G|^{1/2} + 5 ln|G|
   contains a nonempty subset summing to zero (p. 148; result page

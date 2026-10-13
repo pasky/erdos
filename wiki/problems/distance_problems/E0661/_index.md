@@ -37,10 +37,10 @@ https://www.erdosproblems.com/661.
 
 ## Current assessment
 
-A literature check on 6 September 2026 covered the published bipartite paper,
-its arXiv record and author publication list, and searches for later general
-bipartite distance bounds. It located no exact-target resolution. This is a
-bounded currentness check, not a proof of openness.
+A literature check covered the published bipartite paper, its arXiv record and
+author publication list, and searches for later general bipartite distance
+bounds. It had located no exact-target resolution on 6 September 2026. This is
+a bounded currentness check, not a proof of openness.
 
 A complete own-words reconstruction of Theorem 3, its balanced specialization
 and every essential local step is now supplied on the linked source result

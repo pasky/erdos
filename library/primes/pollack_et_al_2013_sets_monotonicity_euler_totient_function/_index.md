@@ -69,9 +69,9 @@ the strict-monotonicity remark on p. 3 and the §9 numerics with Table 9.1
 (pp. 15--16) were read clause by clause on the page images;
 the §5 proof of Theorem 1.2 (pp. 9--10) was read for its structure on the
 text layer, with its inputs (Theorems 3.1 and 3.3, Lemma 4.1) unread.
-Theorems 1.1, 1.3, 1.4 and 1.5 were read as statements only. On 2026-09-28
-the §3--§5 chain behind Theorem 1.2 (pp. 5--10) was read clause by clause
-on the page images for the proof reconstruction filed under
+Theorems 1.1, 1.3, 1.4 and 1.5 were read as statements only. The §3--§5 chain
+behind Theorem 1.2 (pp. 5--10) was read clause by clause on the page images for
+the proof reconstruction filed under
 [[../wiki/research/erdos_49/_index|research/erdos_49]]. The statements and
 locators of Theorems 3.1 and 3.3 were also checked against the alternate
 manuscript, as were its locators for the p. 2 questions and for Theorem 1.5.

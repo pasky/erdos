@@ -58,12 +58,12 @@ theorem's. The artifact is identified in the
 [[unit_fractions/vaughan_1970_problem_erdos_straus_schinzel/_index|source digest]].
 
 **Read depth.** Claims checked: the definition, the theorem and the
-sentence drawing the almost-every consequence were read clause by clause
-on the page image on 2026-09-22. The proof (pp. 193--198, the whole paper)
-was read on the page images for structure as recorded below; Lemmas 1 and
-2 (pp. 193--194), a line and a paragraph, were followed; the proof of
-Lemma 7 (pp. 195--197) and the Rankin argument (pp. 197--198) were not
-checked line by line. Nothing here is independently reviewed.
+sentence drawing the almost-every consequence were read clause by clause on the
+page image. The proof (pp. 193--198, the whole paper) was read on the page
+images for structure as recorded below; Lemmas 1 and 2 (pp. 193--194), a line
+and a paragraph, were followed; the proof of Lemma 7 (pp. 195--197) and the
+Rankin argument (pp. 197--198) were not checked line by line. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

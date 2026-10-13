@@ -35,8 +35,7 @@ given. The constant $c$ is explicit.
 Numbers*, release folder
 `Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026`;
 TeX `sections/01-introduction.tex`, label `main:intro` (PDF p. 1); proof in
-`sections/07-transfers.tex`, "Proof of Theorem 1.1" (PDF p. 20). Read
-2026-10-07. The card
+`sections/07-transfers.tex`, "Proof of Theorem 1.1" (PDF p. 20). The card
 [[additive_combinatorics/openai_2026_quantitative_superexponential_bounds_van_der_waerden_numbers/_index|records the provenance and attestations]].
 
 **Read depth.** Claims checked: the statement, the definition of $W_r(k)$ and

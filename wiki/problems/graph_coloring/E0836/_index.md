@@ -82,17 +82,21 @@ disproves the $O(r^2)$ proposal; this is the lower bound of their Theorem 8
 (printed p. 613), recorded on
 [[problems/graph_coloring/E0836/claims/1975_01_01_erdos_lovasz|their claim page]].
 The same source proves only the $r/\log r$ maximum-intersection lower bound
-below, which it credits to Shelah and the authors jointly. No cited source
-proves or refutes the requested linear bound, so that second question retains
-the open status the site reports.
+below, which it credits to Shelah and the authors jointly. For the requested
+linear bound, a note that Liam Price posted in the site's thread on 27 April
+2026, produced with GPT-5.5 Pro, claims the answer yes: for exact
+$\chi(G)=3$ some two edges meet in at least $\lfloor r/2\rfloor$ vertices.
+The note is unreviewed and recorded as a pending partial claim on
+[[problems/graph_coloring/E0836/claims/2026_04_27_price|its claim page]]; no
+accepted source proves or refutes the linear bound, so the second question
+stays open.
 
 **Evidence and search window.** Search scope: the site's problem,
 discussion and proof-claim pages, the Erdős–Lovász paper, and the complete
 arXiv v2 of Bucić–Glock–Sudakov. The latter work was published in 2022; its
 journal version is not held, and the locators above follow the arXiv version.
-The site's 2026 AI-solution discussion links a mutable
-[Overleaf argument](https://www.overleaf.com/read/bhnhxhswnjht#52529b).
-That argument remains dynamic and unreviewed, with no recorded acceptance.
+The thread's one claim is the note above, an editable Overleaf document with
+no fixed version and no recorded review or acceptance.
 
 **Proof and review coverage.** The §3(b) construction, its two complementary
 edges per partition, vertex count, intersecting property, and chromatic number
@@ -103,8 +107,8 @@ reconstruction or final mathematical review is claimed.
 **Remaining gaps.** A source-level resolution of the linear-intersection
 question remains missing. The site credits the matching construction to
 Alon; Erdős and Lovász published it in 1975 as their construction (b), which
-gives the lower bound of their Theorem 8. The linked 2026 AI argument
-remains an unreviewed lead and does not affect status.
+gives the lower bound of their Theorem 8. The 2026 GPT-5.5 Pro note stays a
+pending claim until a review or publication accepts it.
 
 ## Progress
 

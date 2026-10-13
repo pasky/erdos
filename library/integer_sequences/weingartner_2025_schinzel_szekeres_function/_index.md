@@ -59,7 +59,7 @@ the question yes at C = 1 and no for fixed C > 1; at z = 1, Theorem 4 and
 Corollary 2 give only the upper bound H(x) < 0.879 x / log x for large x, and
 Question 2 asks for the asymptotic.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: A(x) = #{n : F(n) <= x} equals a x / log x (1 + O(1/log x)) with a
   = 1.53796... given by an explicit integral.

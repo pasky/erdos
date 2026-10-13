@@ -107,8 +107,8 @@ proof or consequence manuscript is listed.
 
 Read status: claims checked for Theorem 1.1 and Theorem 1.2, read clause by
 clause in the TeX source (`sections/introduction.tex`, labels `thm:main` and
-`thm:survivors`, with the parameter display `eq:parameters`; PDF pp. 2 and 4)
-on 2026-10-07, together with the statements of the inputs Lemmas 2.1--2.3
+`thm:survivors`, with the parameter display `eq:parameters`; PDF pp. 2 and 4),
+together with the statements of the inputs Lemmas 2.1--2.3
 (`sections/inputs.tex`) and of the propositions the proofs of the two theorems
 cite (Propositions 5.5, 6.3, 7.2, 8.2, 9.2, 10.5 and 10.6, Corollary 9.3 and
 Lemma 7.1, read at their statements); the proofs, including the two closing

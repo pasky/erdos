@@ -46,8 +46,8 @@ on the site's proof-claims tab first, as proof claim 358, before the project's
 claim 367 on the same day, 27 September 2026; this corpus built that development
 at its pinned commit and audited its statement on 2026-10-08. The seven-cycle
 argument here is the project's own in authorship and was not the first posted,
-as [[problems/ramsey_theory/E0809/_index|the problem page]] records with its
-dated check of 2026-10-05.
+as [[problems/ramsey_theory/E0809/_index|the problem page]] records from the
+site's page as it stood on 2026-10-05.
 
 Read the [six C7 proof notes](proofs/_index.md) in their stated order, then
 the [formalization account](formalization.md) for the Lean assembly. The

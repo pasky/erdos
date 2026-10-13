@@ -51,7 +51,7 @@ itself an unconditional completion of it. This corpus has built neither file.
 
 ## Current assessment
 
-The question, in the site's formulation accessed, asks whether
+The question, in the site's formulation accessed 2026-09-04, asks whether
 every sufficiently large $n$ is $x^2+y^2-z^2$ with $\max(x^2,y^2,z^2)\le n$.
 The answer is yes:
 [[problems/diophantine_problems/E1148/claims/2026_03_16_chojecki|Chojecki 2026]],
@@ -77,7 +77,7 @@ Strengthenings posted in the forum thread without a manuscript, such as a
 bound of $(0.575+\varepsilon)n$ on the three squares for all but finitely many
 $n$ (2026-05-19), have no claim page. Search scope: the site's problem page
 and forum thread, the community database, the two notes, the Lean file and
-the formal-conjectures file, read 2026-10-07.
+the formal-conjectures file.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

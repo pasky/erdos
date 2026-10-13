@@ -67,7 +67,7 @@ attributed by the authors to their 1956 paper (Bull. Amer. Math. Soc. 62
 
 **Read depth.** Claims checked: the relation, the negative relation, the
 finite characterization (i)--(ii) and the small values were read clause by
-clause on the page image on 2026-09-18. No proof is given in this paper.
+clause on the page image. No proof is given in this paper.
 
 ## Proof pointer
 

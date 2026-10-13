@@ -64,7 +64,7 @@ Source: <https://arxiv.org/abs/2501.10333>.
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0690/_index|#690]],
 [[../wiki/problems/divisors/E0692/_index|#692]]
 
-**Results to transcribe.**
+**Results.**
 
 - [[divisors/cambie_2025_resolution_erdos_problems_about_unimodularity/theorem_1|Theorem 1]]:
   delta_1(1,m) is non-increasing in m and hence unimodular.

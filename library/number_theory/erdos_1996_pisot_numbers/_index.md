@@ -96,7 +96,7 @@ subset of the digit-$2$ sums) away from $0$, but the smallest Pisot number
 is about $1.3247$, and for non-Pisot $q$ its small gaps may use the digit
 $2$.
 
-**Results to transcribe.**
+**Results.**
 
 - [[number_theory/erdos_1996_pisot_numbers/theorem|Theorem]]
   (p. 95): For 1<q<A=(1+√5)/2, q is a Pisot number if and only if

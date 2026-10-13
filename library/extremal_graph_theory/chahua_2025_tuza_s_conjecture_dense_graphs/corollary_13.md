@@ -42,11 +42,11 @@ identified in the
 [[extremal_graph_theory/chahua_2025_tuza_s_conjecture_dense_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the corollary, Theorem 12 and the
-paragraphs around them (pp. 6--7) were read clause by clause on the page
-images on 2026-09-19; the derivation of the corollary from Theorem 12
-followed; the proof of Theorem 12 (pp. 6--7, a random-permutation transfer
-of a packing of the complete tripartite graph through Lemma 4, with
-Bollobás's count of triangles) read for structure only.
+paragraphs around them (pp. 6--7) were read clause by clause on the page images;
+the derivation of the corollary from Theorem 12 followed; the proof of Theorem
+12 (pp. 6--7, a random-permutation transfer of a packing of the complete
+tripartite graph through Lemma 4, with Bollobás's count of triangles) read for
+structure only.
 
 ## Proof pointer
 

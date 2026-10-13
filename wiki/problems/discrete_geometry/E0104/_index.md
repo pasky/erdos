@@ -47,7 +47,7 @@ https://www.erdosproblems.com/104.
 ## Current assessment
 
 This account rests on the site's page and on the library cards of the two
-release preprints named below; no dated status search beyond the site is
+release preprints named below; no status search beyond the site is
 recorded, no claim is recorded for this problem, and the standing is the site's
 label. In [Er81d] Erdős states, without giving an argument, that at most
 $n(n-1)$ unit circles pass through three or more of $n$ points

@@ -91,7 +91,7 @@ the single value $n^2+1$ for the one polynomial $X^2+1$. They state no bound
 for the greatest prime factor of the product $\prod_{m\leq n}f(m)$ and change
 neither power target of the problem.
 
-**Results to transcribe.**
+**Results.**
 
 - [[arithmetic_functions/pasten_2026_improvement_largest_prime_factor_n_squared_plus_one/theorem_1_1|Theorem 1.1]]: hybrid radical/largest-prime-factor bound.
 - [[arithmetic_functions/pasten_2026_improvement_largest_prime_factor_n_squared_plus_one/corollary_1_2|Corollary 1.2]]: improved pointwise lower bound for

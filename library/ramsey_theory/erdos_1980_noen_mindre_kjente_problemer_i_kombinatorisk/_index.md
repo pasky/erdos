@@ -71,20 +71,19 @@ formulas; the English summary on p. 180, part of the bibliographic identity, is
 not in the file. The text ends "Oversatt fra engelsk av Arne Stray." (p. 164):
 the Norwegian is Arne Stray's translation of Erdős's English, so the wording
 quoted below is the translator's. The Section 1 passages below were read on the
-page images of PDF pp. 2--3 (printed pp. 156--157) on 2026-09-18 and are quoted
-in Norwegian with an English gloss made here; Section 1 proves nothing beyond
-its example a_k = 3k - 2, so there is no proof to check there. Read status:
-claims checked for the Section 1 partition problem, its graph form, the h(n)
-bound and the remark on other sets; the statements on the result pages below
-were read clause by clause on the page images of pp. 155--164, and the proofs
-on pp. 158--159 and 161 were read for structure only. No notice is printed
-in the file (its first and last pages carry no copyright or license line); the
-hosting archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
-rights reserved. All material on this site is for scientifics purposes only.");
-Normat 28 (1980) has no publisher page or DOI for this edition, so the
-publisher's page was not consulted and no Crossref license is recorded; the
-term is unstated.
+page images of PDF pp. 2--3 (printed pp. 156--157) and are quoted in Norwegian
+with an English gloss made here; Section 1 proves nothing beyond its example a_k
+= 3k - 2, so there is no proof to check there. Read status: claims checked for
+the Section 1 partition problem, its graph form, the h(n) bound and the remark
+on other sets; the statements on the result pages below were read clause by
+clause on the page images of pp. 155--164, and the proofs on pp. 158--159 and
+161 were read for structure only. No notice is printed in the file (its first
+and last pages carry no copyright or license line); the hosting archive's site
+footer speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/,
+read 2026-10-02, prints "(C) 2005-2007 All rights reserved. All material on this
+site is for scientifics purposes only."); Normat 28 (1980) has no publisher page
+or DOI for this edition, so the publisher's page was not consulted and no
+Crossref license is recorded; the term is unstated.
 
 Section 1 ("Et partisjonsproblem", printed p. 156) reads: "Følgende spørsmål
 dukket opp gjennom en samtale mellom avdøde Silverman og meg selv for cirka

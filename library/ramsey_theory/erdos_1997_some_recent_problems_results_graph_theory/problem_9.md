@@ -42,9 +42,9 @@ p. 83 to the head of p. 84 (PDF pp. 3--4 of the publisher's scan),
 read on the page images. The copy read is identified in the
 [[ramsey_theory/erdos_1997_some_recent_problems_results_graph_theory/_index|source digest]].
 
-**Read depth.** Claims checked: the passage was read clause by clause on
-the page images on 2026-09-22. It is a question; the paper proves nothing
-here. Nothing is independently reviewed.
+**Read depth.** Claims checked: the passage was read clause by clause on the
+page images. It is a question; the paper proves nothing here. Nothing is
+independently reviewed.
 
 ## Proof pointer
 

@@ -94,14 +94,13 @@ introduction's display (1) and the account of the bounds (pp. 250--251),
 the § 2 construction and its inequality (pp. 251--252), Theorem 1 (p. 252),
 Corollary 1.1 (p. 253), Lemma 2 (p. 255), Theorem 2 with its Remark
 (p. 259), Theorem 3 (p. 261) and Corollary 3.1 (p. 262), each read clause by
-clause on the page images on 2026-09-22 and again on 2026-10-08; the
-reference list and the acknowledgments (p. 263) were read on the page image.
-The § 2 construction (pp. 251--252) and the proof of Theorem 1 from Lemma 2
-(p. 258) were read in full on the page images and followed. On 2026-10-08
-the proofs of Lemma 2 from Lemma 1 (pp. 255--257), of Theorem 2
-(pp. 259--261), of Theorem 3 (p. 262) and of Corollary 3.1 (pp. 262--263)
-were read in full on the page images and followed, with a sign in display
-(18) of p. 261 noted on the
+clause on the page images; the reference list and the acknowledgments (p. 263)
+were read on the page image. The § 2 construction (pp. 251--252) and the proof
+of Theorem 1 from Lemma 2 (p. 258) were read in full on the page images and
+followed. Later the proofs of Lemma 2 from Lemma 1 (pp. 255--257), of Theorem 2
+(pp. 259--261), of Theorem 3 (p. 262) and of Corollary 3.1 (pp. 262--263) were
+read in full on the page images and followed, with a sign in display (18) of p.
+261 noted on the
 [[extremal_graph_theory/fan_1988_degree_sum_triangle_graph/theorem_2|Theorem 2]]
 page and two printed slips of p. 257 noted on the
 [[extremal_graph_theory/fan_1988_degree_sum_triangle_graph/lemma_2|Lemma 2]]

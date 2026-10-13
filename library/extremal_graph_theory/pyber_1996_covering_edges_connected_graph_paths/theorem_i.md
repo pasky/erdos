@@ -55,11 +55,11 @@ in the
 
 **Read depth.** Claims checked: both statements, the Conjecture, the
 sentence on Chung's suggestion and the Example were read clause by clause
-on the page images on 2026-09-22. The proof of Theorem I (p. 157) was read
-in full on the page image and its steps were followed as summarized below;
-its arithmetic was not checked. The proof of Theorem II (pp. 157--158) and
-the proofs of Lemmas 1.4, 1.5 and 2.1 it and Theorem I use were read for
-structure only. Nothing here is independently reviewed.
+on the page images. The proof of Theorem I (p. 157) was read in full on the page
+image and its steps were followed as summarized below; its arithmetic was not
+checked. The proof of Theorem II (pp. 157--158) and the proofs of Lemmas 1.4,
+1.5 and 2.1 it and Theorem I use were read for structure only. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

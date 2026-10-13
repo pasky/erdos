@@ -41,10 +41,9 @@ sets $A_v$.
 version
 [`Finset.rado_selection_subtype`](https://github.com/leanprover-community/mathlib4/blob/fe6e3cde435e82b2407df2760cbac392694c9e64/Mathlib/Combinatorics/Compactness.lean#L91)
 and the `Set.Finite.rado_selection_subtype` variant in the same file.
-The source code was inspected on 2026-09-05; its proof uses compactness
-of products of finite discrete spaces. This records an existing
-formalization of the selection principle, not a formalization of Theorem 1
-or of any result of this paper.
+The source code was inspected; its proof uses compactness of products of finite
+discrete spaces. This records an existing formalization of the selection
+principle, not a formalization of Theorem 1 or of any result of this paper.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0057/_index|#57]],
 [[../wiki/problems/graph_coloring/E0063/_index|#63]].

@@ -89,7 +89,7 @@ quoted from [6] (Math. Gaz. 49 (1965), 290--293) without proof, and that
 paper is not held (paged at
 [[extremal_graph_theory/graham_1971_constructive_solution_tournament_problem/theorem_p45|theorem_p45]]).
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem: If p is a prime congruent to 3 mod 4 with p > k^2 2^(2k-2), then the
   Paley tournament T_p on {0,...,p-1} has property P_k: every k vertices are

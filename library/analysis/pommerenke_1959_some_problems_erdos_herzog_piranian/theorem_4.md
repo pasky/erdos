@@ -51,12 +51,12 @@ images. The copy read is identified in the
 
 **Read depth.** Claims checked: the statement and the Remarks, including the
 two examples and the concluding deduction, were read clause by clause on the
-page images on 2026-09-22. The proof was read in full; its inequalities
-(1)--(4) were followed as printed and not recomputed, and its two cited
-Pólya--Szegö problems are not held. A filing observation, not a review
-verdict: the paper prints no argument that the lemniscates approximating the
-segment configurations have connected $E$, which the concluding deduction
-assumes. Nothing here is independently reviewed.
+page images. The proof was read in full; its inequalities (1)--(4) were followed
+as printed and not recomputed, and its two cited Pólya--Szegö problems are not
+held. A filing observation, not a review verdict: the paper prints no argument
+that the lemniscates approximating the segment configurations have connected
+$E$, which the concluding deduction assumes. Nothing here is independently
+reviewed.
 
 ## Proof pointer
 

@@ -46,17 +46,16 @@ The copy read for this card is a seven-page OmniPage scan (printed
 pp. 80--86 are PDF pp. 1--7; the text layer garbles the displays). Read
 status: claims checked for Section I, displays (1), (2) and (3) and the
 question on N(A,B;n), read clause by clause on the page image of printed
-p. 81 (PDF p. 2) on 2026-09-18, and for Section IV, read clause by clause
-on the page image of printed p. 83 (PDF p. 4) on 2026-09-18 for Problems
-465, 466 and 953, and for Section III, read clause by clause on the page images
-of printed pp. 82--83 (PDF pp. 3--4) on 2026-09-18 for Problems 865 and
-866; Sections II, V--VII record an earlier reading that was not repeated. No
-notice is printed on pp. 80--81 or 85--86 of the scan; the hosting archive's
-site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007 All rights
-reserved. All material on this site is for scientifics purposes only."); the
-university-issued proceedings have no publisher page, so none was consulted, and
-no Crossref license is recorded; the term is unstated.
+p. 81 (PDF p. 2), and for Section IV, read clause by clause on the page image of
+printed p. 83 (PDF p. 4) for Problems 465, 466 and 953, and for Section III,
+read clause by clause on the page images of printed pp. 82--83 (PDF pp. 3--4)
+for Problems 865 and 866; Sections II, V--VII record an earlier reading that was
+not repeated. No notice is printed on pp. 80--81 or 85--86 of the scan; the
+hosting archive's site footer speaks for the site, not the paper
+(https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007 All rights reserved. All
+material on this site is for scientifics purposes only."); the university-issued
+proceedings have no publisher page, so none was consulted, and no Crossref
+license is recorded; the term is unstated.
 
 Source: <https://users.renyi.hu/~p_erdos/1972-05.pdf>.
 
@@ -130,7 +129,7 @@ show this sharp apart from the value of $c$; for six integers the threshold
 is $k>\frac n2+c\sqrt n$; the 1972 announcement of the pairwise-sum
 thresholds the 1975 paper proved.
 
-**Results to transcribe.**
+**Results.**
 
 - [[integer_sequences/erdos_1972_extremal_problems_number_theory/section_i|Section I, (1)]]:
   If all products a_i b_j from two subsets of [1,n] are distinct

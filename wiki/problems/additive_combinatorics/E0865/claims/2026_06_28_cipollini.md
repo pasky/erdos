@@ -78,9 +78,9 @@ major revision briefly. The paper's acknowledgments thank Cambie for feedback
 and improvements. As an acknowledged contributor, Cambie is not independent of
 the author, so the confirmation is recorded and not counted as review.
 
-Not refereed: there is no journal publication, no later arXiv version, no citing
-paper and no written review beyond the thread (searched 2026-09-18, as the
-problem page records).
+Not refereed: on 2026-09-18 the paper had no journal publication, no later arXiv
+version, no citing paper and no written review beyond the thread, by the routes
+the problem page records.
 
 The claim was first announced on the thread on 2026-06-21. On 2026-06-22 two
 items were linked: a short paper drafted by GPT-5.5 Pro, and a formalization
@@ -110,7 +110,7 @@ together with the sharpness example, and records `#print axioms` as
 states the formal-conjectures theorem, whose own body is `sorry`, and no
 bridging declaration or statement-fidelity review exists. The corpus holds
 no build of either development, so neither gives formalized evidence; the
-community database, lists the problem as "proved (Lean)" as
+community database lists the problem as "proved (Lean)" as
 of its last update on 2026-07-02, which does not date the change of state.
 The problem's standing rests on the site's documented review of the
 preprint, and a refereed version or an independent whole-argument review is

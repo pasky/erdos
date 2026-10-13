@@ -48,9 +48,8 @@ identified on the
 [[diophantine_problems/borwein_1990_questions_erdos_graham_numbers_form_sum_g_n_2_g_n/_index|source card]].
 
 **Read depth.** Claims checked: Algorithm 5, the definitions, Conjecture 3,
-the tables and Proposition 8 were read clause by clause on the page images
-on 2026-10-08. The computations were not repeated. Nothing here is
-independently reviewed.
+the tables and Proposition 8 were read clause by clause on the page images. The
+computations were not repeated. Nothing here is independently reviewed.
 
 ## Proof pointer
 

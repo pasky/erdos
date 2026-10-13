@@ -46,7 +46,7 @@ line being recorded beside it.
 
 **Bears on.** [[../wiki/problems/divisors/E0887/_index|#887]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.3: For every c >= 3, a perfect square n = N^2 with n > exp(C c^6
   (log c)^5), where C is a large absolute constant not depending on c, has at

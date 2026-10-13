@@ -44,8 +44,7 @@ with equality if and only if $G\in\mathcal G(n)$ up to isomorphism."
 
 **Source.** S. Ren, J. Wang, S. Wang and W. Yang, *Extremal triangle-free
 graphs with chromatic number at least four*, arXiv:2404.07486v2 (19 October
-2025; a preprint with no journal record found on 2026-09-18); Theorem 1.4
-and the definition of $\mathcal G(n)$ on p. 2 of v2, read on
+2025); Theorem 1.4 and the definition of $\mathcal G(n)$ on p. 2 of v2, read on
 the page image and in the text layer. The artifact is identified in the
 [[extremal_graph_theory/ren_2024_extremal_triangle_free_graphs_chromatic_number/_index|source digest]].
 

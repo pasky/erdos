@@ -81,13 +81,12 @@ Read status: claims checked for the abstract, the introduction's
 definitions and recalled bounds (p. 123), the notation $G_v$ and $f_m$,
 Theorem 1, Theorem 2 and the Lemma (p. 124), the Corollary (p. 125) and the
 concluding remarks (p. 127), each read clause by clause on the page images
-of PDF pp. 1--5 on 2026-09-22; the references and the received dates
-(pp. 127--128, PDF pp. 5--6) were read on the page images. The proof of
-Theorem 2 (pp. 126--127) was read in full on the page images and its
-induction and case split were followed; the proofs of the Lemma
-(pp. 124--125) and of Theorem 1 (pp. 125--126) were read on the page images
-for structure only, and none of their computations was checked. Nothing
-here is independently reviewed.
+of PDF pp. 1--5; the references and the received dates (pp. 127--128, PDF pp.
+5--6) were read on the page images. The proof of Theorem 2 (pp. 126--127) was
+read in full on the page images and its induction and case split were followed;
+the proofs of the Lemma (pp. 124--125) and of Theorem 1 (pp. 125--126) were read
+on the page images for structure only, and none of their computations was
+checked. Nothing here is independently reviewed.
 
 ## Contents
 

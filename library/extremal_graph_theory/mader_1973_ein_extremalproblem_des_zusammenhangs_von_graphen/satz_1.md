@@ -60,11 +60,10 @@ edition is identified in the
 
 **Read depth.** Claims checked: the statement and the notation of p. 223 and
 the identities (1) and (2) of p. 224 were read clause by clause on the page
-images on 2026-09-22. The proof (pp. 223--226, two and a half pages) was
-read on the page images for structure only: the induction, the separating
-edge set, the assertion (A) and the three cases were followed, and none of
-the displayed inequalities was checked. Nothing here is independently
-reviewed.
+images. The proof (pp. 223--226, two and a half pages) was read on the page
+images for structure only: the induction, the separating edge set, the assertion
+(A) and the three cases were followed, and none of the displayed inequalities
+was checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

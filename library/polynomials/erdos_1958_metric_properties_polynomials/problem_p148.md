@@ -34,7 +34,7 @@ the note added in proof on p. 148. The copy read is identified on the
 [[polynomials/erdos_1958_metric_properties_polynomials/_index|source card]].
 
 **Read depth.** Claims checked: the question was read clause by clause on the
-page image of p. 148 on 2026-10-08. Nothing here is independently reviewed.
+page image of p. 148. Nothing here is independently reviewed.
 
 ## Dependencies
 

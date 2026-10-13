@@ -67,10 +67,10 @@ brackets). The copy read is identified in the
 
 **Read depth.** Claims checked: the statement, Definitions 2.1--2.2,
 Propositions 2.3--2.6 and Lemma 4.1 were read clause by clause on the page
-images on 2026-09-22. The proof (pp. 124--125) was read on the page images
-for structure only, as summarized below, and its case analysis was not
-checked; the proofs of Lemmas 3.3--3.7 and 4.1 it rests on were read for
-structure only. Nothing here is independently reviewed.
+images. The proof (pp. 124--125) was read on the page images for structure only,
+as summarized below, and its case analysis was not checked; the proofs of Lemmas
+3.3--3.7 and 4.1 it rests on were read for structure only. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

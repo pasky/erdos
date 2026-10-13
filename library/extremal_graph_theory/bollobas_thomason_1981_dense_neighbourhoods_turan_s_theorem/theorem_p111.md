@@ -65,8 +65,8 @@ garbles the displays). The edition read is identified in the
 Theorem were read clause by clause on the page image. The
 proof (pp. 112--114, three pages) was read in full on the page images and
 followed step by step; filing observations (a)--(c) below record what the
-reading found, and (d) was found on a check of the page image of p. 112 on
-2026-10-07. Nothing here is independently reviewed.
+reading found, and (d) was found on a check of the page image of p. 112. Nothing
+here is independently reviewed.
 
 ## Proof pointer
 

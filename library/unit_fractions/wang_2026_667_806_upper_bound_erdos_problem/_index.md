@@ -38,8 +38,8 @@ nine-page ResearchGate manuscript (title page dated May 27, 2026; no arXiv
 identifier, no journal, no version history); Theorem 1 was read on the page
 image of p. 2 and the rest in the text layer. The manuscript says nothing about
 how it was written. The site's Problem 301 discussion thread
-(<https://www.erdosproblems.com/forum/thread/301>, read in the refresh of
-2026-09-17T15:40Z) describes it otherwise: a comment by the account Woett,
+(<https://www.erdosproblems.com/forum/thread/301>, accessed 2026-09-17)
+describes it otherwise: a comment by the account Woett,
 12:26 on 04 Jul 2026, says the preprint "is AI-generated without any
 disclaimers to this effect", and a comment by the account KentaKitamura,
 07:43 on the same day, dates it to May 2026 and records its bound. This card

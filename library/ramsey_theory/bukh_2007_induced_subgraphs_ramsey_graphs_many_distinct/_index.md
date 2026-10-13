@@ -46,8 +46,8 @@ That copy prints "© 2006 Elsevier Inc. All rights reserved." on its first page
 Read status: claims checked for Theorem 1.1 (p. 613), the remark after its
 proof and Proposition 2.4 (p. 616), Proposition 3.1 and Theorem 3.2 (pp.
 617-618), read clause by clause in the text layer with pp. 613 and 616 on the
-page images (p. 617 on the page image on 2026-09-18); the proof of Theorem 1.1 (pp. 613-616) was read for its
-structure and not checked.
+page images (p. 617 on the page image); the proof of Theorem 1.1 (pp. 613-616)
+was read for its structure and not checked.
 
 Theorem 1.1 states that if G has n vertices and hom(G) <= C log n, then G
 contains an induced subgraph on alpha n vertices in which beta sqrt(n) vertices
@@ -93,7 +93,7 @@ edges", and Proposition 3.1 gives $\Omega(n^{3/2})$ distinct pairs
 $(|V(H)|,|E(H)|)$ from the proof of Theorem 1.1, "much weaker than" the
 conjecture)
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (p. 613): If hom(G) <= C log n for an n-vertex G, then G has an
   induced subgraph on alpha n vertices with beta sqrt(n) vertices of distinct

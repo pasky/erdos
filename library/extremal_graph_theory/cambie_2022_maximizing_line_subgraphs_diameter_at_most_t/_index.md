@@ -113,7 +113,7 @@ confirmation); Theorem 6 (p. 3) is the site's $\frac32d^t+1$, Proposition
 conjectures, and Theorem 7 (p. 3) the $C_{2t+1}$-free case of Conjecture 4;
 the paper is the site's key CCJK22.
 
-**Results to transcribe.**
+**Results.**
 
 - Conjecture 1 (p. 2): h_3(Delta) <= Delta^3 - Delta^2 + Delta + 2, with
   equality if Delta is one more than a prime power (plain "if"); confirmed at

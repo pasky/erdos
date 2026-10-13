@@ -108,7 +108,7 @@ $e=4$ of the problem's conjecture, $d_3(4)=7$, in its linear form, still
 open, and the passage through which the site's Problem 810 links this
 problem.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 4.1 (p. 268): For large n and e = t_2(n)+1, c_1 n <= chi_S(n,e,C_5)
   <= floor(n/2)+3; the sharpness of the upper bound is attributed to Erdős

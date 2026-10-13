@@ -55,10 +55,10 @@ identified in the
 **Read depth.** Claims checked: the statement, the sentence introducing
 it, the paragraph on the value of $\varepsilon$, the plan of the proof, the
 definitions and the question of p. 103, Lemmas 1 and 2 and the sentence
-deducing Theorem 1 from them, and the Remarks were read clause by clause on
-the page images on 2026-09-22. The proofs of Lemma 1 (pp. 106--107) and
-Lemma 2 (pp. 107--108) were read on the page images for structure only;
-their estimates were not checked. Nothing here is independently reviewed.
+deducing Theorem 1 from them, and the Remarks were read clause by clause on the
+page images. The proofs of Lemma 1 (pp. 106--107) and Lemma 2 (pp. 107--108)
+were read on the page images for structure only; their estimates were not
+checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

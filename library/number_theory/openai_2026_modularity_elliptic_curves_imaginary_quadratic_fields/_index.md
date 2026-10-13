@@ -85,11 +85,11 @@ source (`build/sections/introduction.tex` label `thm:main` at lines 17--43;
 `aut:lift` at lines 35--57, `aut:seed` at lines 65--71 and
 `aut:elliptic-compat` at lines 80--93; `residual.tex` label
 `res:specialization` at lines 199--218; `automorphy.tex` labels `aut:over-F`
-at lines 94--98 and `aut:descent` at lines 153--160) on 2026-10-12. The rest
-of the TeX was read once, and all proofs were read for their structure only;
-no step was checked, and the specialized forms of Caraiani and Newton's
-theorems (Theorems 6.2--6.4) were not compared with the preprint they cite.
-Nothing here is independently reviewed.
+at lines 94--98 and `aut:descent` at lines 153--160). The rest of the TeX was
+read once, and all proofs were read for their structure only; no step was
+checked, and the specialized forms of Caraiani and Newton's theorems (Theorems
+6.2--6.4) were not compared with the preprint they cite. Nothing here is
+independently reviewed.
 
 ## Contents
 

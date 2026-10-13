@@ -42,8 +42,7 @@ release folder
 `preprints/Primitive-roots-for-every-admissible-integer-base-October-4-2026`;
 TeX file `sections/01-introduction.tex`, environment labeled
 `thm:primitive-root` (lines 17--24), printed as Theorem 1.1 on PDF p. 2;
-proof in `sections/01a-reduction.tex` lines 150--201, PDF p. 7. Read
-2026-10-07. The card
+proof in `sections/01a-reduction.tex` lines 150--201, PDF p. 7. The card
 [[integer_sequences/openai_2026_primitive_roots_admissible_integer_base/_index|openai_2026_primitive_roots_admissible_integer_base]]
 records the release's attestations; no refereed publication, arXiv version
 or independent review is recorded here.

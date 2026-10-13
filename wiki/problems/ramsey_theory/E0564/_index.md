@@ -177,7 +177,7 @@ stepping-up procedure, our construction requires four colors." So the
 two-color, $r=3$ gap named in 1965 was still open in August 2025 by a refereed
 account.
 
-**Adjacent results that are not the problem (leads from the dated
+**Adjacent results that are not the problem (leads from the
 search).** Conlon, Fox and Sudakov (J. Amer. Math. Soc. 23 (2010);
 arXiv:0808.3760) give off-diagonal bounds $r_3(s,n)$ and
 $r_3(n,n,n)\ge2^{n^{c\log n}}$ for three colors; their abstract states no

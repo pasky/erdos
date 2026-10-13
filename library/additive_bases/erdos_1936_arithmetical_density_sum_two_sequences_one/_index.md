@@ -62,7 +62,7 @@ Buchstab are mentioned on p. 197 but are not separately compiled.
 **Bears on.** [[../wiki/problems/additive_bases/E0035/_index|#35]],
 [[../wiki/problems/integer_sequences/E0038/_index|#38]]
 
-**Results to transcribe.**
+**Results.**
 
 - [[additive_bases/erdos_1936_arithmetical_density_sum_two_sequences_one/theorem|The
   theorem]] (pp. 197–200): If $a$ has Schnirelmann density $\delta$ and

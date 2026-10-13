@@ -60,16 +60,16 @@ reserved.
 Read status: claims checked for the abstract, the definitions of a
 sum-avoiding subset, $\lambda(A)$ and $l(n)$, the recalled bounds of Klarner
 and Choi, and the Theorem with display (1.1) and its condition on $c$
-(p. 77), each read clause by clause on the page image of PDF p. 1 on
-2026-09-22. The proof of the upper estimate, § 2 (pp. 78--79, PDF pp. 2--3),
-was read in full on the page images and followed step by step:
-the bound $\lambda(U_r)\le2^dr$, the choice of $d$ and $r$, display (2.1)
-and the projection to the integers. § 3 (pp. 79--82, PDF pp. 3--6), the
-account of Klarner's and Choi's bounds, the proof of the lower estimate and
-the example limiting the greedy algorithm, was read on the page images for
-structure only; the count (3.4) and the estimate of the example's size were
-not checked. Page 82 (PDF p. 6) was read on the page image for the end of
-the example and the reference. Nothing here is independently reviewed.
+(p. 77), each read clause by clause on the page image of PDF p. 1. The proof of
+the upper estimate, § 2 (pp. 78--79, PDF pp. 2--3), was read in full on the page
+images and followed step by step: the bound $\lambda(U_r)\le2^dr$, the choice of
+$d$ and $r$, display (2.1) and the projection to the integers. § 3 (pp. 79--82,
+PDF pp. 3--6), the account of Klarner's and Choi's bounds, the proof of the
+lower estimate and the example limiting the greedy algorithm, was read on the
+page images for structure only; the count (3.4) and the estimate of the
+example's size were not checked. Page 82 (PDF p. 6) was read on the page image
+for the end of the example and the reference. Nothing here is independently
+reviewed.
 
 ## Contents
 

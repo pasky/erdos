@@ -47,8 +47,8 @@ scan read, which the source card identifies). Library home:
 [[number_theory/stanley_1980_weyl_groups_hard_lefschetz_theorem_sperner/_index|stanley_1980_weyl_groups_hard_lefschetz_theorem_sperner]].
 
 **Read depth.** Claims checked: the statement was read clause by clause on
-the page image and in the text layer on 2026-09-18. The proof (p. 179) was
-read for structure and not checked; nothing here is independently reviewed.
+the page image and in the text layer. The proof (p. 179) was read for structure
+and not checked; nothing here is independently reviewed.
 
 ## Proof pointer
 

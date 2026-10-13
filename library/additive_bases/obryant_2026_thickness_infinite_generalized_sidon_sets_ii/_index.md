@@ -39,7 +39,7 @@ Source: <https://arxiv.org/abs/2607.23795>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For even h and any B_h set A, liminf A(n)/(n/log n)^{1/h} <=
   ((pi/log 2)·Gamma(1+h/2)^2/Gamma(1+1/h)^h)^{1/h}.

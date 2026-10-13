@@ -88,7 +88,7 @@ analogue; the paper's results imply nothing about Problem 451.
 clause on the page images of the scan named above; the proofs of (6) and (8)
 were read for structure only.
 
-**Results to transcribe.**
+**Results.**
 
 - [[factorials_binomials/ecklund_1974_new_function_associated_prime_factors/inequality_6|Inequality (6)]]
   (p. 648): g(k) > k^{1+c} for an absolute constant c > 0, via g(k) > 2k for

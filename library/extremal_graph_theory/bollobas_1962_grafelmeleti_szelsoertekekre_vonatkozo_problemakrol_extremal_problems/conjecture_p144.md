@@ -38,11 +38,11 @@ read on the rendered page image. The artifact is identified in the
 [[extremal_graph_theory/bollobas_1962_grafelmeleti_szelsoertekekre_vonatkozo_problemakrol_extremal_problems/_index|source digest]].
 
 **Read depth.** Claims checked: the two sentences were read clause by clause
-on the page image on 2026-09-19 and translated here. The lower bound
-$k_4(3n+1)>6n$ is the example, checked here: in $K_1+nK_3$ two points of one
-tetrahedron have two common neighbors and one direct line, so at most three
-internally disjoint paths, and two points of different tetrahedra are joined
-only through the common point.
+on the page image and translated here. The lower bound $k_4(3n+1)>6n$ is the
+example, checked here: in $K_1+nK_3$ two points of one tetrahedron have two
+common neighbors and one direct line, so at most three internally disjoint
+paths, and two points of different tetrahedra are joined only through the common
+point.
 
 ## Proof pointer
 

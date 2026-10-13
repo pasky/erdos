@@ -54,8 +54,8 @@ TeX file `build/sections/02-reduction.tex`, label `prop:reservoir` (lines
 11--28), PDF p. 2; the proof occupies Sections 4 and 5
 (`build/sections/04-marked-family.tex` and
 `build/sections/05-prime-reservoir.tex`, PDF pp. 6--20) and closes at
-`05-prime-reservoir.tex` lines 596--610, PDF p. 20. Read 2026-10-12.
-Provenance and attestations are on
+`05-prime-reservoir.tex` lines 596--610, PDF p. 20. Provenance and attestations
+are on
 [[integer_sequences/openai_2026_simultaneous_primitive_roots_conditional_lower_bound_prime_bases/_index|the card]].
 
 **Read depth.** Claims checked: the statement, Inputs 4.1, 5.1 and 5.2 and

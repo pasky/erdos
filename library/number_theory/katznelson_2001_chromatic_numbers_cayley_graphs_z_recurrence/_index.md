@@ -74,15 +74,14 @@ definitions of § 1.1 and Theorem 1.1 (p. 211), Theorem 1.2, the proof of
 Theorem 1.1, § 1.2 with its attribution sentence and its torus coloring,
 § 1.3, Claims 1 and 2 and footnote 2 (p. 212), and the proof of Claims 1
 and 2 and Theorem 2.1 (p. 213), each read clause by clause on the page
-images of PDF pp. 1--3 on 2026-09-22, footnote 2 also on a high-resolution
-crop; Theorem 3.1, § 4 with Theorem 4.1 and its Remark, and the reference
-list (pp. 218--219, PDF pp. 8--9) were read on the page images; §§ 2--3
-(pp. 214--217, PDF pp. 4--7) were read in the text layer for structure. The
-proof of Theorem 1.1 from Theorem 1.2 (two lines, p. 212) and the
-$\rho\ge5$ case of Theorem 1.2 (one paragraph, p. 212) were read in full and
-followed; the proof of Claim 1 for $\rho$ close to $1$ (p. 213) was read for
-structure and not checked; no other proof was checked, and nothing here is
-independently reviewed.
+images of PDF pp. 1--3, footnote 2 also on a high-resolution crop; Theorem 3.1,
+§ 4 with Theorem 4.1 and its Remark, and the reference list (pp. 218--219, PDF
+pp. 8--9) were read on the page images; §§ 2--3 (pp. 214--217, PDF pp. 4--7)
+were read in the text layer for structure. The proof of Theorem 1.1 from Theorem
+1.2 (two lines, p. 212) and the $\rho\ge5$ case of Theorem 1.2 (one paragraph,
+p. 212) were read in full and followed; the proof of Claim 1 for $\rho$ close to
+$1$ (p. 213) was read for structure and not checked; no other proof was checked,
+and nothing here is independently reviewed.
 
 ## Contents
 

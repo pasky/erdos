@@ -19,7 +19,8 @@ updated: 2026-10-07T20:53:40Z
 Oliver Roche-Newton, Carl Schildkraut, Audie Warren, "More sum-product type
 counterexamples: products with shifts and $AA+A$," arXiv:2606.24583 (2026). The
 arXiv record (https://arxiv.org/abs/2606.24583, read 2026-10-02) names the
-Creative Commons Attribution 4.0 license.
+Creative Commons Attribution 4.0 license. The held PDF is arXiv:2606.24583v2
+(26 June 2026).
 
 The main result is **Theorem 3** (Introduction): there is an absolute
 $c>0$ and arbitrarily large finite $A\subset\mathbb R$ for which

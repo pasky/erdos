@@ -56,12 +56,12 @@ Read status: claims checked for Theorem 1, display (2$'$), display (3) with
 the remark that it is undecided at $p=4$, and Theorem 2 with its remarks
 (printed p. 314 = PDF p. 2), and for Theorem 1$'$ with its equivalent form and
 Spencer's sharpness remark (printed p. 315 = PDF p. 3), read clause by clause
-on the page images on 2026-09-18; the notation section (p. 313 = PDF p. 1)
-was read on the page image and the reference list (p. 317 = PDF p. 5) in the
-text layer. On 2026-10-08 Theorem 1$'$ (p. 315) was read again, the Section
-3 lemma and Lemma$^*$ (pp. 315--316) were read on the page images, and the
-proof of Theorem 2 in Section 4 (pp. 316--317) was read in outline, not
-checked step by step. Problem 802 consumes display (3), Theorem 1 and Theorem 2, paged at
+on the page images; the notation section (p. 313 = PDF p. 1) was read on the
+page image and the reference list (p. 317 = PDF p. 5) in the text layer. Theorem
+1$'$ (p. 315) was read again, the Section 3 lemma and Lemma$^*$ (pp. 315--316)
+were read on the page images, and the proof of Theorem 2 in Section 4 (pp.
+316--317) was read in outline, not checked step by step. Problem 802 consumes
+display (3), Theorem 1 and Theorem 2, paged at
 [[extremal_graph_theory/ajtai_1981_turan_s_theorem_sparse_graphs/conjecture_3|conjecture_3]],
 [[extremal_graph_theory/ajtai_1981_turan_s_theorem_sparse_graphs/theorem_1|theorem_1]]
 and

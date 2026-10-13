@@ -42,7 +42,7 @@ Source: <https://arxiv.org/abs/2406.15317>. The held PDF is arXiv:2406.15317v3
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0508/_index|#508]]
 
-**Results to transcribe.**
+**Results.**
 
 - Main computational result: Diverse beam search finds, up to isomorphism,
   every planar UDG known to be maximally dense (n <= 15) and every densest one

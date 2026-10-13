@@ -86,7 +86,7 @@ Source: <https://users.renyi.hu/~p_erdos/1961-07.pdf>.
   conjectured value at k = 2; it says nothing for k >= 3
   ([[set_systems/erdos_1961_intersection_theorems_systems_finite_sets/theorem_1|theorem_1]]).
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: If 1 <= l <= m/2 and (a_0,...,a_{n-1}) is in S(1,l,m) then n <=
   binom(m-1,l-1); strict if |a_v| < l for some v.

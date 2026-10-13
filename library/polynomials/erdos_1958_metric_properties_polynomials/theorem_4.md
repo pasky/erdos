@@ -37,9 +37,9 @@ Theorem 4, the Corollary and the proof on p. 133. The copy read is identified
 on the [[polynomials/erdos_1958_metric_properties_polynomials/_index|source card]].
 
 **Read depth.** Claims checked: the theorem, the corollary and the MacLane
-paragraph were read on the page images of pp. 132--133 on 2026-10-08; the
-proof was read and its steps followed, not independently checked. Nothing here
-is independently reviewed.
+paragraph were read on the page images of pp. 132--133; the proof was read and
+its steps followed, not independently checked. Nothing here is independently
+reviewed.
 
 ## Proof pointer
 

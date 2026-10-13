@@ -86,7 +86,7 @@ filed as
 record as open whether the reduced denominator of H_n equals L_n for
 infinitely many n, the first question of #291).
 
-**Results to transcribe.**
+**Results.**
 
 - Main theorem (Section 2): For every a there are infinitely many b > a with
   v_{a,b} < v_{a,b-1}, and b(a) < ca for an effective c depending only on {r_i};

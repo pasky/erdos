@@ -46,8 +46,8 @@ pp. 4--5 of the publisher's open-archive scan), read on the page images.
 The edition read is identified in the
 [[integer_sequences/erdos_1997_some_old_new_problems_various_branches_combinatorics/_index|source digest]].
 
-**Read depth.** Claims checked: the item was read clause by clause on the
-page images on 2026-09-22. There is no proof in the source.
+**Read depth.** Claims checked: the item was read clause by clause on the page
+images. There is no proof in the source.
 
 ## Proof pointer
 

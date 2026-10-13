@@ -52,8 +52,8 @@ gives the title, the author "OpenAI", the date September 25, 2026 and the
 citation block above. The PDF title page names "OpenAI" as author, and neither
 the PDF nor the TeX source prints any statement on the method of production or
 on human assistance. No refereed publication, no arXiv version and no
-independent review of the manuscript is recorded here as of the read date, and
-nothing on this card is independently reviewed.
+independent review of the manuscript is recorded here, and nothing on this card
+is independently reviewed.
 
 Formalization, as the release lists it: the release's Lean catalog file
 `lean/formalization.yaml` does not name this manuscript, but the release's own
@@ -87,9 +87,9 @@ Proposition 2.2 (good prefix), Proposition 3.4 (product identities),
 Proposition 4.2 (unfolded probabilities), Lemma 5.1 (coupling) and
 Proposition 6.3 (collision bound), read clause by clause in the TeX source
 (`introduction.tex` lines 36--48; `prefix.tex` lines 52--84; `queries.tex`,
-`stability.tex`, `coupling.tex`, `witnesses.tex` at the labeled environments)
-on 2026-10-07; the proofs were read for their structure only and no step was
-checked; nothing here is independently reviewed.
+`stability.tex`, `coupling.tex`, `witnesses.tex` at the labeled environments);
+the proofs were read for their structure only and no step was checked; nothing
+here is independently reviewed.
 
 ## Contents
 

@@ -78,7 +78,7 @@ lower bound $f(n)\ge c\,n^{1/2}(\log\log n)^{1/2}$, Corollary 1 (the case
 $r=3$, $s=4$ of Theorem 2) the upper bound $f(n)\le cn^{2/3}(\log n)^{1/3}$,
 and Section 2 the exact value $f(7)=4$.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: f_{r,s}(n) >= c_{r,s} n^{1/(s-r+1)} (log log n)^{1-1/(s-r+1)},
   improving the Bollobas-Hind lower bound n^{1/(s-r+1)} (page

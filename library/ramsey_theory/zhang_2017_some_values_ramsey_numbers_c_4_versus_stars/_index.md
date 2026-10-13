@@ -81,14 +81,14 @@ paper attributes them and Conjecture 1 (p. 74), Theorems 4 and 5 as the
 paper attributes them (p. 75), Theorems 6 and 7 with the paragraph after
 them and the summary of known values (p. 75), the question
 following Fig. 1 (p. 76) and the closing paragraph of § 2 on $\Gamma_q$
-(p. 78), each read clause by clause on the page images of PDF pp. 1--4 and
-6 on 2026-09-22. The construction of $\Gamma_q$ and Propositions 1--5
-(pp. 76--78), Lemmas 1--4 (pp. 79--81) and the proofs of Theorems 6 and 7
-(pp. 81--84) were read in the text layer for structure only; none of their
-arguments was checked. The statement of Lemma 2 and its Remark (pp. 79--80)
-were later read clause by clause on the page images on 2026-10-08; its
-proof was read for structure only. The reference list (pp. 84--85) was read in the text
-layer. Nothing here is independently reviewed.
+(p. 78), each read clause by clause on the page images of PDF pp. 1--4 and 6.
+The construction of $\Gamma_q$ and Propositions 1--5 (pp. 76--78), Lemmas 1--4
+(pp. 79--81) and the proofs of Theorems 6 and 7 (pp. 81--84) were read in the
+text layer for structure only; none of their arguments was checked. The
+statement of Lemma 2 and its Remark (pp. 79--80) were later read clause by
+clause on the page images; its proof was read for structure only. The reference
+list (pp. 84--85) was read in the text layer. Nothing here is independently
+reviewed.
 
 ## Contents
 
@@ -214,11 +214,10 @@ read on the page images and quoted above; the question is paged on
 [[ramsey_theory/zhang_2017_some_values_ramsey_numbers_c_4_versus_stars/question_p76|question_p76]].
 Lemma 2 (p. 79), the parity upper bound behind Theorem 7, is paged on
 [[ramsey_theory/zhang_2017_some_values_ramsey_numbers_c_4_versus_stars/lemma_2|lemma_2]],
-its statement and Remark read on the page images of pp. 79--80 on
-2026-10-08. The recalled Theorems 4 and 5 are
-recorded as the paper attributes them, to Parsons 1976, not held, and to the
-authors' companion paper filed above. The proofs were read for structure
-only, and nothing is independently reviewed.
+its statement and Remark read on the page images of pp. 79--80. The recalled
+Theorems 4 and 5 are recorded as the paper attributes them, to Parsons 1976, not
+held, and to the authors' companion paper filed above. The proofs were read for
+structure only, and nothing is independently reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0552/_index|#552]]:
 Theorems 6 and 7 (printed p. 75, PDF p. 3) are this paper's exact families:

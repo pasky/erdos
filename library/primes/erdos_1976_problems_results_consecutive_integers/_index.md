@@ -79,10 +79,10 @@ $f(k)=o(k^\epsilon)$ seems sure and $f(k)<c_1(\log k)^{c_2}$ probable, and
 that these conjectures "are inaccessible at present". The passage is on
 [[primes/erdos_1976_problems_results_consecutive_integers/inequality_1|inequality_1]].
 
-For [[../wiki/problems/integer_sequences/E0962/_index|#962]], printed p. 273 (PDF p. 3,
-page image, 2026-09-18) defines $n_k$ as the smallest integer with
-$f(n_k,k)=k$, that is, the least $n$ such that each of $n+1,\ldots,n+k$ has
-a prime factor greater than $k$; derives from the Chinese remainder theorem
+For [[../wiki/problems/integer_sequences/E0962/_index|#962]], printed p. 273
+(PDF p. 3, page image) defines $n_k$ as the smallest integer with $f(n_k,k)=k$,
+that is, the least $n$ such that each of $n+1,\ldots,n+k$ has a prime factor
+greater than $k$; derives from the Chinese remainder theorem
 $n_k<\prod_{i=0}^{k-1}p_{s+i}$ over the consecutive primes above $k$ and,
 from de Bruijn's count (2) of $k$-smooth integers, display (6)
 $n_k<k^{\log k/\log\log k}$ for $k>k_0$, which Erdős thinks "fairly sharp";
@@ -116,7 +116,7 @@ p. 271 (PDF p. 1, page image), the site's cited source;
 reported lower bound for $n_k$, the inverse of the problem's $k(n)$, printed
 p. 273 (PDF p. 3, page image), the site's cited source.
 
-**Results to transcribe.**
+**Results.**
 
 - [[primes/erdos_1976_problems_results_consecutive_integers/inequality_1|Display (1)]]
   (p. 271, reported): f(k) < c_1 k log log log k / (log k log log k), the

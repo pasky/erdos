@@ -59,12 +59,11 @@ copy read is identified in the
 
 **Read depth.** Claims checked: the statement, the introduction's
 announcement with its example, and Proposition 2.6 were read clause by
-clause on the page images on 2026-09-22. The one-sentence derivation from
-Proposition 2.6 and the Main theorem (p. 125) was read in full and
-followed; the proof of Proposition 2.6 (pp. 119--120) was read in the text
-layer for structure only, and the proof of the Main theorem (pp. 124--125)
-was read on the page images for structure only and not checked. Nothing
-here is independently reviewed.
+clause on the page images. The one-sentence derivation from Proposition 2.6 and
+the Main theorem (p. 125) was read in full and followed; the proof of
+Proposition 2.6 (pp. 119--120) was read in the text layer for structure only,
+and the proof of the Main theorem (pp. 124--125) was read on the page images for
+structure only and not checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

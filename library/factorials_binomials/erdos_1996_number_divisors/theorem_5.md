@@ -38,8 +38,8 @@ proof, as an example they call relatively easy to show, that $3r$ is a
 champ whenever $q$ and $r$ are primes with $2q+1=3r$. These are reported remarks, not results of the paper.
 
 **Read depth.** Claims checked: the definitions and the statement were read
-clause by clause on the page images on 2026-10-08, and the proof on p. 13
-was followed step by step. Nothing here is independently reviewed.
+clause by clause on the page images, and the proof on p. 13 was followed step by
+step. Nothing here is independently reviewed.
 
 ## Proof sketch
 

@@ -55,7 +55,7 @@ Source: <https://arxiv.org/abs/2502.16625>.
 **Bears on.** [[../wiki/problems/set_theory/E0597/_index|#597]],
 [[../wiki/problems/set_theory/E1168/_index|#1168]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 0.1 (background): If lambda is singular and 2^lambda = lambda^+ then
   lambda^+ does not arrow (lambda^+,(3)_{cf(lambda)})^2 (Erdos-Hajnal-Rado).

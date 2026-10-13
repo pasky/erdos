@@ -73,7 +73,7 @@ and Theorem 2
 are the girth-8 and girth-12 incidence graphs behind the cases k = 3 and
 k = 5 in which the asked lower bound is known.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: The point-line incidence graph G8 of a non-degenerate quadric
   surface Q4 in P(4,q) is a minimal regular graph of degree q+1 and girth 8.

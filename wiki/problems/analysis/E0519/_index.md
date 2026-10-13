@@ -99,10 +99,10 @@ for all large $n$ ($0.69368$ by Harcos's computation) and bound the limit
 superior of the optimal constants $R_n$, so none of the lower bounds is
 presented as sharp. The Lean formalizations named under
 Formalization have not been built or audited here. The status search
-covered the site, its forum thread and the community database on
-2026-10-07; the thread's one formal result is the autoformalization of
-Atkinson's proof, recorded on his claim page, and no other claim of the
-result was found there.
+covered the site, its forum thread and the community database; on 2026-10-07
+the thread's one formal result was the autoformalization of Atkinson's proof,
+recorded on his claim page, and none of these sources recorded another claim of
+the result.
 
 ## Progress
 

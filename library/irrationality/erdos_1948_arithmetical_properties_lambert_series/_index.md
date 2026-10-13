@@ -74,7 +74,7 @@ Crossref record exists for the article, which has no DOI; the term is unstated.
 [[../wiki/problems/irrationality/E0257/_index|#257]], [[../wiki/problems/irrationality/E0258/_index|#258]],
 [[../wiki/problems/irrationality/E1049/_index|#1049]], [[../wiki/problems/irrationality/E1050/_index|#1050]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem: For every integer t with |t| > 1, both f(1/t) = sum_{n>=1} 1/(t^n-1)
   = sum_{n>=1} tau(n)/t^n and the sine analog g(1/t) are irrational.

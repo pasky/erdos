@@ -49,7 +49,7 @@ version the record does not name.
 **Bears on.** [[../wiki/problems/divisors/E0885/_index|#885]],
 [[../wiki/problems/divisors/E0886/_index|#886]], [[../wiki/problems/divisors/E0887/_index|#887]]
 
-**Results to transcribe.**
+**Results.**
 
 - Proposition 3.1: For distinct integers a, b only finitely many M satisfy {a,b}
   ⊆ D(M).

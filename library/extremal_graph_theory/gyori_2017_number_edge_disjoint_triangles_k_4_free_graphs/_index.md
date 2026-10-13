@@ -73,7 +73,7 @@ which settles the $K_4$-free case of the clique partition question for $k$
 up to about $n^2/16$ and bounds it above from there to $n^2/12$; paged at
 [[extremal_graph_theory/gyori_2017_number_edge_disjoint_triangles_k_4_free_graphs/theorem_1|theorem_1]].
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/gyori_2017_number_edge_disjoint_triangles_k_4_free_graphs/theorem_1|Theorem 1]]
   (p. 2): a K_4-free graph with n^2/4 + k edges has ceil(k) or more

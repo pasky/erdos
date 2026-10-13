@@ -251,8 +251,8 @@ integers avoid the primes of $(k,2k)$; its cutoff is the interval $(k,2k)$,
 not "a prime $>k$", so it neither bounds nor is bounded by $f(k)$, and it
 is recorded on Problem 451, not as progress here.
 
-**Search scope (2026-09-18 UTC).** None of the routes below found a bound
-on $f(k)$ beyond those above, a copy of [Ju74] or [RaSh73], or a proof
+**Search scope.** The routes below, as they stood on 2026-09-18, showed no
+bound on $f(k)$ beyond those above, no copy of [Ju74] or [RaSh73] and no proof
 claim.
 
 - The site: problem page, discussion thread and proof-claim tab;

@@ -58,12 +58,12 @@ The copy read for this card
 is the Numdam file: a cover page followed by the fourteen printed pages
 (printed p. $n$ is PDF p. $n-375$), with an OCR text layer that garbles the
 formulas, so the statements below were read on the rendered page images of
-printed pp. 377, 386, 387, 389 and 390, and those of pp. 378--385 on
-2026-10-07. Source: <http://www.numdam.org/item/BSMF_1990__118_3_377_0/>.
-The file prints "© Bulletin de la S. M. F., 1990, tous droits réservés."
-and "ce fichier doit contenir la présente mention de copyright" on its
-Numdam cover page (PDF p. 1) and "© Société mathématique de France" in the
-footer of PDF p. 2, every other right reserved.
+printed pp. 377, 386, 387, 389 and 390, and those of pp. 378--385. Source:
+<http://www.numdam.org/item/BSMF_1990__118_3_377_0/>. The file prints "©
+Bulletin de la S. M. F., 1990, tous droits réservés." and "ce fichier doit
+contenir la présente mention de copyright" on its Numdam cover page (PDF p. 1)
+and "© Société mathématique de France" in the footer of PDF p. 2, every other
+right reserved.
 
 Read status: claims checked for Theorems 1--3 with Remark 1 (pp. 378--386),
 Theorem 4 with Remark 2, the recall on
@@ -71,8 +71,8 @@ Pisot numbers and the proof of assertion d), and Problems 1--6, read clause
 by clause on the page images of pp. 386 and 389--390; the proof of Theorem 4
 a) (p. 387) was read for structure and not checked; the lemmas of Sections 1--2
 are not consumed, and their statements in the import digest below were
-checked against the page images of pp. 378--386 on 2026-10-07; the proofs
-of Theorems 1--3 were not checked.
+checked against the page images of pp. 378--386; the proofs of Theorems 1--3
+were not checked.
 
 For 1 < q < 2 the paper studies expansions x = sum eps_i q^{-i} with digits
 eps_i in {0,1}, using the lexicographic order to identify the greedy (largest)
@@ -157,7 +157,7 @@ $q<A$)", the case $x=1$ of Theorem 3 and the result recalled from [5];
 Problem 4 is the problem's question in the authors' own words, posed in
 1990.
 
-**Results to transcribe.**
+**Results.**
 
 - [[number_theory/erdos_1990_characterization_unique_expansions_related_problems/theorem_1|Theorem 1]]
   (pp. 378--379): For 1 = sum eps_i q^{-i} with eps_i in {0,1}: it is the greedy

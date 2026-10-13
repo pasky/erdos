@@ -50,15 +50,14 @@ Attribution 4.0 license.
 Read status: claims checked for the abstract, Conjecture 1 and the Haxell
 paragraph (p. 1), the three announced results (p. 2), Theorem 5 (p. 3),
 Theorem 12 (p. 6), Corollary 13 and Theorem 15 (p. 7), read clause by
-clause on the page images on 2026-09-19, paged at the three result pages
-listed above; the derivation of Corollary 13 from Theorem 12 followed; the
-introduction's class attributions and notation (p. 2) and the reference
-list (pp. 11--12) read in the text layer; the proofs of Theorems 5, 12 and
-15 (pp. 3--11) read for structure only (that of Theorem 15 on the page
-images, that of Theorem 5 in the text layer with its close on p. 6 on the
-page image, on 2026-10-07), their estimates not checked. Acceptance
-evidence: Discrete Applied Mathematics is refereed, per the journal record
-the consuming page cites; the journal text is not held.
+clause on the page images, paged at the three result pages listed above; the
+derivation of Corollary 13 from Theorem 12 followed; the introduction's class
+attributions and notation (p. 2) and the reference list (pp. 11--12) read in the
+text layer; the proofs of Theorems 5, 12 and 15 (pp. 3--11) read for structure
+only (that of Theorem 15 on the page images, that of Theorem 5 in the text layer
+with its close on p. 6 on the page image), their estimates not checked.
+Acceptance evidence: Discrete Applied Mathematics is refereed, per the journal
+record the consuming page cites; the journal text is not held.
 
 ## Contents
 

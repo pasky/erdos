@@ -121,7 +121,7 @@ https://www.erdosproblems.com/293, accessed 2026-09-17.
 **Formalization.** No formal-conjectures statement: no file
 `ErdosProblems/293.lean` existed on 2026-09-17, and the pull request of 4
 October 2026 that would add one formalizes the setting only and says it is not
-a solution. The community database (fetched and 2026-10-06)
+a solution. The community database (fetched 2026-10-06)
 records the problem as unformalized with no formal-proof URL, and the site's
 status label carried no Lean suffix. The release's Lean proof of the partial
 result, Corollary 1.3, built and audited by the corpus's verification, is
@@ -301,7 +301,7 @@ rate.
   December 2025 that states inequality (1.2) and clarifies the definition; the
   site text reflects the last three) and the empty proof-claim tab; the
   community database record (open, unformalized); the formal-conjectures
-  directory (no file on that date).
+  directory (no file on 2026-09-17, as the Formalization records).
 - arXiv: the abstract page of 2512.22083 (v1, v2 and the acceptance comment) and
   API metadata searches for `"unit fraction" AND "smallest denominator"` (no
   record), `"unit fractions" AND denominators AND distinct` (eleven records,
@@ -309,7 +309,7 @@ rate.
   of 2025–2026 abstracts mentioning "Egyptian fractions" or "unit fractions" (29
   records, none on $v(k)$). Titles and abstracts only.
 - Crossref: the journal record of [vDTa25b]. Semantic Scholar: the citation list
-  of arXiv:2512.22083 (empty on the search date). zbMATH Open: `au:Bleicher &
+  of arXiv:2512.22083. zbMATH Open: `au:Bleicher &
   au:Erdős & ti:Denominators` (the two 1976 papers).
 - The primary sources: [BlEr75], part I of [BlEr76] and pp. 598–600 and
   602–603 of part II, [Er50c], [vDTa25b] (v2) and [ErGr80] p. 35.

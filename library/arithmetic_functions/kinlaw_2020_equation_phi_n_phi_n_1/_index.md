@@ -74,7 +74,7 @@ problem page cites
 a bound on the reciprocal sum of the solutions of $\varphi(n)=\varphi(n+1)$;
 it does not decide whether there are infinitely many solutions).
 
-**Results to transcribe.**
+**Results.**
 
 - [[arithmetic_functions/kinlaw_2020_equation_phi_n_phi_n_1/theorem_1_1|Theorem 1.1]]
   (local p. 1): the reciprocal sum over the solutions of

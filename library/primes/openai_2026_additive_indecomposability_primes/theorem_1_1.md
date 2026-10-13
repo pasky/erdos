@@ -35,8 +35,7 @@ contains every large prime contains infinitely many composites.
 folder `the-additive-indecomposability-of-the-primes-September-24-2026`; TeX
 `sections/01-introduction.tex` lines 15--20 (label `cor:ostmann`), PDF p. 1;
 the reduction to Theorem 2.3 is `sections/02-preliminaries.tex` lines
-91--121 (Lemma 2.2, label `lem:finite-factor`, PDF pp. 4--5). Read
-2026-10-07.
+91--121 (Lemma 2.2, label `lem:finite-factor`, PDF pp. 4--5).
 
 **Read depth.** Claims checked: the statement, its equivalent form and the
 statements of Lemmas 2.1 and 2.2 were read clause by clause in the TeX

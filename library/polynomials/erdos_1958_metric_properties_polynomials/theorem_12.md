@@ -29,9 +29,9 @@ polynomials*, J. Analyse Math. 6 (1958), 125--148, doi:10.1007/BF02790232;
 Theorem 12 on p. 145, its proof on pp. 145--147. The copy read is identified
 on the [[polynomials/erdos_1958_metric_properties_polynomials/_index|source card]].
 
-**Read depth.** Claims checked: the statement was read on the page image of
-p. 145 on 2026-10-08; the proof was read for structure, not checked. Nothing
-here is independently reviewed.
+**Read depth.** Claims checked: the statement was read on the page image of p.
+145; the proof was read for structure, not checked. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

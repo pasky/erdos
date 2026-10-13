@@ -65,7 +65,7 @@ Source: <https://arxiv.org/abs/1109.4428>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0533/_index|#533]]
 
-**Results to transcribe.**
+**Results.**
 
 - Main theorem: RT_t(n, K_{t+2}, o(n)) = Omega(n^2), so l = 2 is the least l
   with RT_t(n, K_{t+l}, o(n)) quadratic; RT_t(n, K_{t+1}, o(n)) = o(n^2).

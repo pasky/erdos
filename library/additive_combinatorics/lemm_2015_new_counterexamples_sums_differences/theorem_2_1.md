@@ -51,12 +51,11 @@ reports the weights $p_1\approx0.00024983$, $p_2\approx0.028156$,
 $p_3\approx0.22425$, and Proposition 1.1 then gives the theorem.
 
 The paper prints no value of the ratio itself. A recomputation for this page
-(2026-10-08) found that the weights exactly as printed, with
-$p_4=1-2(p_1+p_2+p_3)$, give a ratio of about $1.778976$, just below
-$1.77898$, while nearby weights reach about $1.778989$, above it; the bound
-of the theorem is therefore met by this construction, but not by the printed
-rounded weights alone. A second reader repeated the recomputation and found
-the same values.
+found that the weights exactly as printed, with $p_4=1-2(p_1+p_2+p_3)$, give a
+ratio of about $1.778976$, just below $1.77898$, while nearby weights reach
+about $1.778989$, above it; the bound of the theorem is therefore met by this
+construction, but not by the printed rounded weights alone. A second reader
+repeated the recomputation and found the same values.
 
 ## Dependencies
 

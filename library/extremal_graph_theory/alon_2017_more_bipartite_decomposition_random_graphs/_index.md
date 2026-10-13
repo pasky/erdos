@@ -76,7 +76,7 @@ more than 2 alpha(G) vertices, and ask whether bc(G) = n - O(alpha(G)) whp
 and whether bc(G) = n - alpha(G) whp for G(n,p) with any fixed positive
 p < 0.5. Theorem 4.1 (p. 6) bears on no problem page.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (p. 2): There is an absolute c > 0 such that for G = G(n,0.5), bc(G) <=
   n - (2+2c) log_2 n <= n - (1+c) alpha(G) with high probability.

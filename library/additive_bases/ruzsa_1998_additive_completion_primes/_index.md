@@ -44,7 +44,7 @@ Source: <https://matwbn.icm.edu.pl/ksiazki/aa/aa86/aa8638.pdf>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0032/_index|#32]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1(a) (p. 269): For every eps > 0 there is a set B with B(x) = O(log x)
   such that S = {p + b : b in B, p prime} has lower asymptotic density greater

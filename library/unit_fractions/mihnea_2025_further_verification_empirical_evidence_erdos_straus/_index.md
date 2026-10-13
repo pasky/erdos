@@ -72,7 +72,7 @@ The arXiv record names arXiv's non-exclusive distribution license
   numerical data for primes up to 3.5·10^7 and settle no further n. Neither
   part proves the conjecture.
 
-**Results to transcribe.**
+**Results.**
 
 - Verification bound (Section 2): The authors report that the Erdős-Straus
   conjecture holds for all primes p <= 10^18, extending Salez's 10^17 by

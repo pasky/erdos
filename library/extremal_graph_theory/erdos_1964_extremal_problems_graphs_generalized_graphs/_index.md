@@ -27,15 +27,14 @@ The copy read for this card is the Rényi archive's eight-page scan
 `1964-13.pdf` of the offprint (headed as reprinted from the Israel Journal
 of Mathematics, Volume 2, Number 3, 1964; received 18 August 1964), printed
 pp. 183--190 = PDF pp. 1--8 (printed p. $n$ = PDF p. $n-182$), with a text
-layer that garbles the exponents; the statements below were read on the
-rendered page images on 2026-09-18. No notice is printed in the file (the
-reprint head reads "Reprinted from ISRAEL JOURNAL OF MATHEMATICS Volume 2,
-Nunber [sic] 3, 1964", p. 183, with no copyright line); the hosting
-archive's site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
-rights reserved. All material on this site is for scientifics purposes only.");
-the card gives no DOI, so no Crossref license is recorded, and the publisher's
-page was not consulted; the term is unstated.
+layer that garbles the exponents; the statements below were read on the rendered
+page images. No notice is printed in the file (the reprint head reads "Reprinted
+from ISRAEL JOURNAL OF MATHEMATICS Volume 2, Nunber [sic] 3, 1964", p. 183, with
+no copyright line); the hosting archive's site footer speaks for the site, not
+the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C)
+2005-2007 All rights reserved. All material on this site is for scientifics
+purposes only."); the card gives no DOI, so no Crossref license is recorded, and
+the publisher's page was not consulted; the term is unstated.
 
 Read status: claims checked for Theorem 1 (p. 185) and for the definitions
 and remarks around it (pp. 183--184 and 188--189), read clause by clause on
@@ -97,7 +96,7 @@ PDF p. 3 (page image;
 the site's displayed bounds with the letters exchanged, the lower bound
 carrying an unspecified constant and only a method pointer for its proof.
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/erdos_1964_extremal_problems_graphs_generalized_graphs/theorem_1|theorem_1]]
   (p. 185): For n > n_0(r,l) and l>1, n^{r-C/l^{r-1}} < f(n;K^{(r)}(l,...,l))

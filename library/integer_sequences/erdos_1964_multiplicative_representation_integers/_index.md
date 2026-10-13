@@ -77,7 +77,7 @@ Source: <https://users.renyi.hu/~p_erdos/Erdos.html>.
 printed p. 252 (PDF p. 2), the asymptotic the site quotes for g_k(n), and
 the p. 261 remark (PDF p. 11) on sharpening its second term.
 
-**Results to transcribe.**
+**Results.**
 
 - [[integer_sequences/erdos_1964_multiplicative_representation_integers/theorem_1|Theorem 1]]
   (p. 251): If g(n) > 0 for all n > n_0, where g counts representations n = b_i

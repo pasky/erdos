@@ -66,7 +66,7 @@ read; nothing has been independently reviewed.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0206/_index|#206]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For theta = p/q with p dividing q+1, the greedy underapproximation
   sequence has a_1 = (q+1)/p and a_{k+1} = q prod_{i<=k} a_i + 1, generalizing

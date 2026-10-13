@@ -58,8 +58,8 @@ check the remaining cases by a naive method. The accepted claim page
 acceptance evidence, which is the site's curator crediting the preprint as the
 solution; no refereed publication is recorded. Search scope: the site's problem
 page, discussion thread and proof-claims page, and the arXiv record of the
-preprint, accessed 2026-10-07; they record no other claim. Nothing on this page
-is independently reviewed.
+preprint, accessed 2026-10-07; they recorded no other claim. Nothing on this
+page is independently reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

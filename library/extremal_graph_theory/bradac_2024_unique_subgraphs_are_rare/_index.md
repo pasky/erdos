@@ -47,7 +47,7 @@ are the preprint's, and the journal version was not compared with it.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0426/_index|#426]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.2 (p. 2): f(n), the maximum over n-vertex graphs H of f(H), tends
   to 0 as n tends to infinity; in the abstract's gloss, no n-vertex graph has a

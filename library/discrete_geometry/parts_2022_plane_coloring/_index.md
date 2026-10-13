@@ -16,8 +16,9 @@ updated: 2026-10-07T20:33:23Z
 ***
 
 Jaan Parts, On the plane and its coloring. Geombinatorics 31 (2022), no. 4,
-189-195. arXiv:2206.12633. The arXiv record (https://arxiv.org/abs/2206.12633,
-read 2026-10-02) names the Creative Commons Attribution 4.0 license.
+189-195. arXiv:2206.12633. The held file is arXiv:2206.12633v1 of 25 June 2022.
+The arXiv record (https://arxiv.org/abs/2206.12633, read 2026-10-02) names the
+Creative Commons Attribution 4.0 license.
 
 Parts proves (Theorem, p. 3, stated with citations to Chybowska-Sokół,
 Junosza-Szaniawski and Węsek and to Exoo) that when every distance in an
@@ -45,7 +46,7 @@ Source: <https://arxiv.org/abs/2206.12633>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0508/_index|#508]]
 
-**Results to transcribe.**
+**Results.**
 
 - Main result (Theorem, p. 3): chi = 7 for the forbidden distance interval
   [1, d] for every d with 2 sin(2 pi / 9) < d <= sqrt(7)/2, where

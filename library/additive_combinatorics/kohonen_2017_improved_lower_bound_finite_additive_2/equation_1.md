@@ -43,8 +43,8 @@ text not compared.
 **Read depth.** Claims checked: the definitions, equation (1) and the
 introduction's quoted bounds were read clause by clause; equation (2) and
 Facts 1--3 (p. 2) were read as statements; the placement giving $85/294$
-(Theorem 1, pp. 3--4) was read on the page images on 2026-10-08, its
-proof's covering steps followed, as recorded on the
+(Theorem 1, pp. 3--4) was read on the page images, its proof's covering steps
+followed, as recorded on the
 [[additive_combinatorics/kohonen_2017_improved_lower_bound_finite_additive_2/theorem_1|Theorem 1]]
 page. Nothing here is independently reviewed.
 

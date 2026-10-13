@@ -80,9 +80,9 @@ multiplicity at least $n^{1+c/\log\log n}$ for some $c>0$. This is a result in a
 different regime, superlinear multiplicity for only $n^{o(1)}$ distances, which
 [CDL25] present as an improvement on Bhowmick's bound for multiplicity $n+m$
 with $m$ large; it is not part of the question, which asks for $\gg n$ such
-distances. Search scope (2026-10-07): the site's problem page and discussion
-thread, the arXiv and publisher records of [Bh24] and [CDL25], and the Lean
-repositories named above; no forum proof claim, release item or lead names the
+distances. Search scope: the site's problem page and discussion thread, the
+arXiv and publisher records of [Bh24] and [CDL25], and the Lean repositories
+named above; on 2026-10-07 no forum proof claim, release item or lead named the
 problem.
 <!-- BEGIN problem library links -->
 

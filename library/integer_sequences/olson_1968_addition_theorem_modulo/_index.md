@@ -63,13 +63,12 @@ display (1), the recalled Erdős--Heilbronn theorem and conjecture, Theorem 1
 and the near-best-possible example (p. 45), the statement of Theorem 2 with
 its displays (2)--(4) (pp. 45--46) and the definition of $\lambda_B$ with
 Lemma 2.1 (p. 47), each read clause by clause on the page images of PDF
-pp. 1--3 (printed pp. 45--47) on 2026-09-22; p. 52 (PDF p. 8) was read on
-the page image for the end of the proof of Theorem 2 and the reference list.
-The proof of Theorem 1 (pp. 46--47, one case written out) was read in full
-on the page images and its reduction to Theorem 2 was followed; the proofs
-of Lemmas 2.1--2.3 and of Theorem 2 (pp. 47--52) were read in the text layer
-for structure only, and none of their inequalities was checked. Nothing here
-is independently reviewed.
+pp. 1--3 (printed pp. 45--47); p. 52 (PDF p. 8) was read on the page image for
+the end of the proof of Theorem 2 and the reference list. The proof of Theorem 1
+(pp. 46--47, one case written out) was read in full on the page images and its
+reduction to Theorem 2 was followed; the proofs of Lemmas 2.1--2.3 and of
+Theorem 2 (pp. 47--52) were read in the text layer for structure only, and none
+of their inequalities was checked. Nothing here is independently reviewed.
 
 ## Contents
 

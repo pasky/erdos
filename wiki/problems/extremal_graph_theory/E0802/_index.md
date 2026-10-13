@@ -146,13 +146,13 @@ $r\ge4$ over finite simple graphs with the average degree $2|E|/|V|$ as a real
 number, pinned by the comparator challenge `CliqueFreeLog.lean`; the corpus's
 verification built it from the pinned revision with the axioms `propext`,
 `Classical.choice` and `Quot.sound` only, and the corpus's own
-statement-fidelity audit is recorded on the claim page. Nothing else: no file
-`ErdosProblems/802.lean` exists in google-deepmind/formal-conjectures(the directory `FormalConjectures/ErdosProblems/` and its
-recursive tree had none on 2026-09-18 either); the site's
+statement-fidelity audit is recorded on the claim page. Nothing else: on
+2026-09-18 google-deepmind/formal-conjectures had no file
+`ErdosProblems/802.lean` (neither the directory
+`FormalConjectures/ErdosProblems/` nor its recursive tree had one); the site's
 page shows no formalized statement; the community database
-(teorth/erdosproblems, `data/problems.yaml`) records the
-problem open (last update 31 August 2025), unformalized, with no formal
-proof.
+(teorth/erdosproblems, `data/problems.yaml`) records the problem open (last
+update 31 August 2025), unformalized, with no formal proof.
 
 ## Current assessment
 

@@ -35,16 +35,15 @@ dense version of Davoodi, Piguet, Řada and Sanhueza-Matamala [4].
 
 **Source.** B. Reed and M. Stein, *The Erdős--Sós conjecture in dense
 graphs*, arXiv:2609.05417v2 (8 September 2026), 33 pages; Theorem 2 on
-p. 2, read on the page image and in the text layer of that edition, which
-is the one the card names. A preprint: no journal record was found on
-2026-10-07. The artifact is identified in the
+p. 2, read on the page image and in the text layer of that edition, which is the
+one the card names. The artifact is identified in the
 [[extremal_graph_theory/reed_stein_2026_erdos_sos_conjecture_dense_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, Conjecture 1 and the
 paragraph of prior results (p. 1) and Theorem 3 (p. 2) were read clause by
-clause on 2026-10-07; the overview (Section 2, pp. 3--4) was read in the
-text layer; the proof (Section 4, pp. 14--30, on the preliminaries of
-Section 3, pp. 5--13) was not read. Nothing here is independently reviewed.
+clause; the overview (Section 2, pp. 3--4) was read in the text layer; the proof
+(Section 4, pp. 14--30, on the preliminaries of Section 3, pp. 5--13) was not
+read. Nothing here is independently reviewed.
 
 ## Proof pointer
 

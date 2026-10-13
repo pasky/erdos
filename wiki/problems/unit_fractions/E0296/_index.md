@@ -111,12 +111,12 @@ observation to Hunter and Sawhney.
 $k(N)$ is not $o(\log N)$. The site's label PROVED belongs to the estimate;
 the monograph's guess is refuted by the same estimate.
 
-**Search scope (2026-09-17 UTC).** The site's problem, discussion and
+**Search scope.** The site's problem, discussion and
 proof-claim pages on 2026-09-17; the community database record; the
 formal-conjectures file, the external Lean file it tags and the two files the
 thread links; the arXiv listing for 2112.03726 (v1 7 December 2021,
 v2 12 October 2023); the EMS article record; the Semantic Scholar
-citing-paper records for Bloom's paper (nine records; the 2025 and 2026
+citing-paper records for Bloom's paper (nine on 2026-09-17; the 2025 and 2026
 items concern approximate reciprocal subsums, partitions with prescribed
 reciprocal sums and the count of unit-sum subsets, none this problem); the
 arXiv API listing of the sixty most recent abstracts mentioning unit or

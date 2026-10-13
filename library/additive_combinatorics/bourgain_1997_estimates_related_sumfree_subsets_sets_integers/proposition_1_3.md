@@ -56,10 +56,10 @@ layer garbles the displays). The artifact is identified in the
 
 **Read depth.** Claims checked: the definition, the statement, (1.1),
 (1.2), (2.1) and the conclusion (3.24) were read clause by clause on the
-page images on 2026-09-22. The proof (§ 3, pp. 74--76) was read in full on
-the page images and its structure followed; the values of $\widehat F$ at
-the test frequencies and the numerical bounds (3.9)--(3.23) were not
-recomputed. Nothing here is independently reviewed.
+page images. The proof (§ 3, pp. 74--76) was read in full on the page images and
+its structure followed; the values of $\widehat F$ at the test frequencies and
+the numerical bounds (3.9)--(3.23) were not recomputed. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

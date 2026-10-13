@@ -20,7 +20,8 @@ updated: 2026-10-07T20:53:40Z
 
 Fang-Yu Ma, "A Note on Additive Complements," arXiv:2205.04128 (2022). The arXiv
 record (https://arxiv.org/abs/2205.04128, read 2026-10-02) names the Creative
-Commons Attribution 4.0 license.
+Commons Attribution 4.0 license. The held PDF is arXiv:2205.04128v1 (9 May
+2022).
 
 ## Overview
 

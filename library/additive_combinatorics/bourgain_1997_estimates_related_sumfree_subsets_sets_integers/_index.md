@@ -77,19 +77,18 @@ Read status: claims checked for the abstract, displays (1.1) and (1.2),
 Propositions 1.3, 1.4 and 1.7 with (1.5) and (1.6) (printed pp. 71--72), the
 harmonic-analysis formulation of § 2 (p. 73), and the proof of Proposition
 1.3 in § 3 (pp. 74--76), each read clause by clause on the page images of PDF
-pp. 1--6 on 2026-09-22; the opening of § 8 with Lemma 8.5 (p. 89, PDF
-p. 19), the construction on p. 90 (PDF p. 20) and the references (p. 92, PDF
-p. 22) were read on the page images. The proof of Proposition 1.3 was read
-in full on the page images and its structure followed (the test-function
-minorization and the case split), but its numerical case bounds
-(3.9)--(3.23) were not recomputed. §§ 4--7 (pp. 77--88) and p. 91 of § 8
-were read in the text layer for structure only, except Remark 1 of § 7
-(p. 88), read on the page image, and no proof there was checked. On
-2026-10-08 the statements of Propositions 1.4 and 1.7, (1.5), (1.6), Lemma
-6.27 (p. 86) and § 8's (8.1)--(8.4) with Lemma 8.5 were read again clause by
-clause on the page images, and § 4 (p. 77), § 7 (pp. 87--88) and § 8
-(pp. 89--91) were read on the page images for structure; their inequalities
-were not checked. Nothing here is independently reviewed.
+pp. 1--6; the opening of § 8 with Lemma 8.5 (p. 89, PDF p. 19), the construction
+on p. 90 (PDF p. 20) and the references (p. 92, PDF p. 22) were read on the page
+images. The proof of Proposition 1.3 was read in full on the page images and its
+structure followed (the test-function minorization and the case split), but its
+numerical case bounds (3.9)--(3.23) were not recomputed. §§ 4--7 (pp. 77--88)
+and p. 91 of § 8 were read in the text layer for structure only, except Remark 1
+of § 7 (p. 88), read on the page image, and no proof there was checked. The
+statements of Propositions 1.4 and 1.7, (1.5), (1.6), Lemma 6.27 (p. 86) and §
+8's (8.1)--(8.4) with Lemma 8.5 were read again clause by clause on the page
+images, and § 4 (p. 77), § 7 (pp. 87--88) and § 8 (pp. 89--91) were read on the
+page images for structure; their inequalities were not checked. Nothing here is
+independently reviewed.
 
 ## Contents
 

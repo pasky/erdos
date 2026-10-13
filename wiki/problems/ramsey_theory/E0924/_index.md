@@ -26,7 +26,7 @@ updated: 2026-10-08T14:06:00Z
 no $K_{l+1}$ such that every $k$-colouring of the edges of $G$ contains a
 monochromatic copy of $K_l$?
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
 last-edited date). The graphs of the sources are finite. A graph with no
 $K_{l+1}$ that forces a monochromatic $K_l$ has clique number exactly $l$, so
 the question asks for a graph of clique number $l$ that is Ramsey for $K_l$ in
@@ -100,10 +100,10 @@ https://www.erdosproblems.com/924, accessed 2026-09-18.
   (1968), p. 300. Folkman's reference [2], solving the special case stated in
   [ErHa67]. Not held.
 
-**Formalization.** None. No file `ErdosProblems/924.lean` exists in
-formal-conjectures (`main`, whose directory then held 672
-entries). The community database, records the problem
-proved (its record last updated 31 August 2025), not formalized,
+**Formalization.** None. No file `ErdosProblems/924.lean` was in
+formal-conjectures when its directory on `main` was listed (672 entries). The
+community database records the problem proved (its record last updated 31
+August 2025), not formalized,
 `formal_status` unformalized and no formal proof; the site's indicator reads
 "Formalised statement? No".
 
@@ -114,7 +114,7 @@ glossed by the site as solved in the affirmative; no last-edited date. The
 commentary attributes the question to Erdős and Hajnal, credits Folkman [Fo70]
 with the case $k=2$ and Nešetřil and Rödl [NeRo76] with general $k$, and points
 to Problem 582 as a special case and Problem 966 as an arithmetic analog. The
-discussion thread and the proof-claim tab are empty. The community database,
+discussion thread and the proof-claim tab are empty. The community database
 records proved and unformalized.
 
 **The origin.** Erdős 1969 [Er69b], printed p. 33: "One final problem of Hajnal

@@ -364,15 +364,15 @@ and filed as
 its Theorem, "There are exactly two non-isomorphic $(3)^3$-colorings on 16
 vertices. Their incidence matrices are given in Tables 2(a) and 2(b)", is on
 printed p. 19 (PDF p. 11) and Tables 2(a)–(d) on printed p. 16 (PDF p. 8),
-located there on the text layer on 2026-09-22 and paged on
+located there on the text layer and paged on
 [[ramsey_theory/kalbfleisch_stanton_1968_maximal_triangle_free_edge_chromatic_graphs_three_colors/theorem_p19|theorem_p19]].
 [9] is held and filed as
 [[ramsey_theory/laywine_mayberry_1988_simple_construction_two_non_isomorphic_triangle_free_3_colored_k_16/_index|laywine_mayberry_1988_simple_construction_two_non_isomorphic_triangle_free_3_colored_k_16]];
 its Theorem, "Among all the $K_{16}$'s which may be constructed as
 super-TCT's, there are exactly two isomorphism classes", and the
 identification of the finite-field coloring as the untwisted super-TCT and
-the computer-found one as the twisted super-TCT are on printed p. 123 (PDF
-p. 4), located there on the text layer on 2026-09-22 and paged on
+the computer-found one as the twisted super-TCT are on printed p. 123 (PDF p.
+4), located there on the text layer and paged on
 [[ramsey_theory/laywine_mayberry_1988_simple_construction_two_non_isomorphic_triangle_free_3_colored_k_16/theorem_p123|theorem_p123]].
 Neither [5] nor the thesis, the manuscript or the nauty guide was acquired
 or read for this page; they are cited only as the paper cites them.
@@ -394,8 +394,8 @@ alleged against the published proof.
    held and filed as
    [[ramsey_theory/kalbfleisch_stanton_1968_maximal_triangle_free_edge_chromatic_graphs_three_colors/_index|kalbfleisch_stanton_1968_maximal_triangle_free_edge_chromatic_graphs_three_colors]],
    its Theorem on printed p. 19 (PDF p. 11) and the incidence matrices of
-   Tables 2(a) and 2(b) on printed p. 16 (PDF p. 8), located there on the
-   text layer on 2026-09-22 and paged on
+   Tables 2(a) and 2(b) on printed p. 16 (PDF p. 8), located there on the text
+   layer and paged on
    [[ramsey_theory/kalbfleisch_stanton_1968_maximal_triangle_free_edge_chromatic_graphs_three_colors/theorem_p19|theorem_p19]].
    A reproduction needs exact seed data and must keep the completeness of
    the classification as an explicit external premise.

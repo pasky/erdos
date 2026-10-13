@@ -31,8 +31,7 @@ over $\mathbb{Z}$ to over $\mathbb{N}$.
 
 **Source.** R. Alweiss, Monochromatic sums and products over $\mathbb{Q}$,
 arXiv:2307.08901v6 (12 July 2026), Theorem 1.3, p. 3; read on the page image.
-The arXiv comment on v6 reads "accepted in Duke Math Journal"; no journal
-record was found on 17 September 2026.
+The arXiv comment on v6 reads "accepted in Duke Math Journal".
 
 **Read depth.** Claims checked: the statement and the remarks of pp. 2--4
 were read clause by clause on the page images. The proof was not read.

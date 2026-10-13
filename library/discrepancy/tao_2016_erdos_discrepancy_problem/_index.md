@@ -44,7 +44,7 @@ without a version; the journal's page was not consulted.
 
 **Bears on.** [[../wiki/problems/discrepancy/E0067/_index|#67]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: Every f from N to a real or complex Hilbert space with ||f(n)|| =
   1 for all n has infinite discrepancy.

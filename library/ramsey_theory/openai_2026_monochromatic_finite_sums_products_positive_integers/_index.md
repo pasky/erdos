@@ -78,10 +78,10 @@ proof or consequence manuscript is listed.
 Read status: claims checked for Theorem 1.1, Corollary 1.2, Principles 2.3
 and 2.4, Lemma 2.5 and Corollary 2.6, read clause by clause in the TeX
 source (`main.tex`, `sections/01_introduction.tex` lines 13--47,
-`sections/02_framework.tex` lines 58--232, 258--263 and 407--420) on
-2026-10-07; the statements of the lemmas and propositions of Sections 3--8
-were read, and the proofs were read for their structure only and no step was
-checked; nothing here is independently reviewed.
+`sections/02_framework.tex` lines 58--232, 258--263 and 407--420); the
+statements of the lemmas and propositions of Sections 3--8 were read, and the
+proofs were read for their structure only and no step was checked; nothing here
+is independently reviewed.
 
 ## Contents
 

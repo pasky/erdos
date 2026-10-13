@@ -15,7 +15,7 @@ updated: 2026-10-07T20:53:40Z
 ***
 
 Adam Cushman, A Note on the Sum-Product Problem and the Convex Sumset Problem.
-arXiv:2512.13849 (2025).
+arXiv:2512.13849 (2025). The held PDF is arXiv:2512.13849v2 (29 January 2026).
 
 ## Digest for Erdős Problem 52
 
@@ -110,7 +110,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0052/_index|#52]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.3 and Section 4: for finite $A\subset\mathbb R$,
   $\max(|A+A|,|AA|)\gg_\varepsilon

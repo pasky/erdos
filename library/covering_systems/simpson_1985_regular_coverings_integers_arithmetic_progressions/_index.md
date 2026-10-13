@@ -66,7 +66,7 @@ Write $C(a,d)=a+d\mathbb Z$.
   The extracted page contains the statement and a short proof-route sketch,
   with its reading limits; it is not a complete proof reconstruction.
 
-**Results to transcribe.**
+**Results.**
 
 - Corollary 1: With A, <a,d>, p and alpha as in Theorem 1, let 0 <= n <=
   p^alpha and 0 < beta <= alpha, and let B be the union of n progressions

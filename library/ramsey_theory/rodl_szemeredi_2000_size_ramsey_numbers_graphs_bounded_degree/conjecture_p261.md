@@ -34,9 +34,8 @@ doi:10.1007/s004930070024; printed p. 261 = PDF p. 5 of the
 publisher's PDF, read on the page image. The edition is identified in the
 [[ramsey_theory/rodl_szemeredi_2000_size_ramsey_numbers_graphs_bounded_degree/_index|source digest]].
 
-**Read depth.** Claims checked: the remark was read clause by clause on the
-page image on 2026-09-22. It is a conjecture; the paper offers no argument
-for it.
+**Read depth.** Claims checked: the remark was read clause by clause on the page
+image. It is a conjecture; the paper offers no argument for it.
 
 ## Proof pointer
 

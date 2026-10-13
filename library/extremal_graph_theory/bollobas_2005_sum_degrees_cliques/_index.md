@@ -55,11 +55,11 @@ carries no license field, so arXiv's assumed license applies
 Read status: claims checked for the abstract and the introduction (pp.
 1--2), Theorem 1 (p. 3), the opening of Section 3 with display (13) and
 Theorem 2 (p. 6), Corollary 1 and the opening of Section 4 (p. 7) and Theorem
-3 (p. 8), read clause by clause on the page images of pp. 2, 3 and 6--8 and
-in the text layer on 2026-09-18; the proof of Theorem 2 (pp. 6--7) was read
-and followed, the proofs of Theorem 1 (pp. 3--5) and Theorem 3 (pp. 8--9)
-were read for their structure and not checked step by step. Problem 904
-consumes Theorem 2 with Corollary 1, paged at
+3 (p. 8), read clause by clause on the page images of pp. 2, 3 and 6--8 and in
+the text layer; the proof of Theorem 2 (pp. 6--7) was read and followed, the
+proofs of Theorem 1 (pp. 3--5) and Theorem 3 (pp. 8--9) were read for their
+structure and not checked step by step. Problem 904 consumes Theorem 2 with
+Corollary 1, paged at
 [[extremal_graph_theory/bollobas_2005_sum_degrees_cliques/theorem_2|theorem_2]]
 and
 [[extremal_graph_theory/bollobas_2005_sum_degrees_cliques/corollary_1|corollary_1]];

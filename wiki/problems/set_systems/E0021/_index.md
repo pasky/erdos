@@ -90,12 +90,13 @@ is unrefereed and would refute the value $3n+O(1)$ that the site's commentary
 reports as speculated, but it does not bear on the question asked, whether
 $f(n)\ll n$, so it has no claim page and is recorded here.
 
-Search scope, 2026-10-07: the site's problem page (last edited 3 December 2025)
-and its discussion thread (last post 24 June 2026), the arXiv record of
-arXiv:2606.24878, the community database (listing the problem as proved (Lean)
-and formalized as of its last update) and the formal-conjectures statement file
-(added 2026-09-19, proof left as `sorry`, formal proof pointer to the Lean
-development linked on the claim page).
+Search scope, with the changing sources as they stood on 2026-10-07: the
+site's problem page (last edited 3 December 2025) and its discussion thread
+(last post 24 June 2026), the arXiv record of arXiv:2606.24878, the community
+database (listing the problem as proved (Lean) and formalized as of its last
+update) and the formal-conjectures statement file (added 2026-09-19, proof left
+as `sorry`, formal proof pointer to the Lean development linked on the claim
+page).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

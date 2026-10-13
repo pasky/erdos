@@ -112,9 +112,9 @@ and for the statements of Lemmas 2.1--2.3, 3.1, 4.2 and 5.2 and Proposition
 4.1, read clause by clause in the release's TeX source
 (`sections/introduction.tex` lines 15--29, `sections/oscillation.tex` lines
 15--92, `sections/rounding.tex` lines 11--41, `sections/balanced.tex` lines
-10--54, `sections/waves.tex` lines 10--39) on 2026-10-07, with the PDF pages
-consulted for page numbers; the proofs were read for their structure only and
-no step was checked; nothing here is independently reviewed.
+10--54, `sections/waves.tex` lines 10--39), with the PDF pages consulted for
+page numbers; the proofs were read for their structure only and no step was
+checked; nothing here is independently reviewed.
 
 ## Contents
 

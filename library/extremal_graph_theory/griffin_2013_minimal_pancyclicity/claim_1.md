@@ -64,11 +64,12 @@ the site attributes the first published proof of the upper bound to Chapter
 
 [[extremal_graph_theory/griffin_2013_minimal_pancyclicity/corollary_1|Corollary 1]]
 (p. 2), which rests on Shi 1994 (Theorem 2 as quoted on p. 2; Discrete Math.
-133 (1994), 249--257; not held); Bondy 1971 for the statement of the bounds, filed as
+133 (1994), 249--257; not held); Bondy 1971 for the statement of the bounds,
+filed as
 [[extremal_graph_theory/bondy_1971_pancyclic_graphs_i/_index|bondy_1971_pancyclic_graphs_i]];
 the bounds are stated on printed p. 84 (PDF p. 5) with "we can prove that"
-and no proof, read there clause by clause on the page image and located in
-the text layer on 2026-09-22, and paged on
+and no proof, read there clause by clause on the page image and located in the
+text layer, and paged on
 [[extremal_graph_theory/bondy_1971_pancyclic_graphs_i/claim_p84|claim_p84]].
 
 ## Bears on

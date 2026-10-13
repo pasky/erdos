@@ -57,7 +57,7 @@ not compared with the arXiv version.
 
 **Bears on.** [[../wiki/problems/primes/E0015/_index|#15]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.4: Assuming the quantitative Hardy-Littlewood prime tuples
   Conjecture 1.3, sum (-1)^{pi(n)}/(n log n) converges, and hence so does

@@ -74,7 +74,7 @@ minimal separators to minimal cuts; p. 1 names the site's problem number
 and, in the added note, attests the earlier bounds $1.7087$ (Fomin,
 Kratsch, Todinca and Villanger) and $1.4457\le\alpha\le(1+\sqrt5)/2$.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: The maximum number of inclusion-wise minimal vertex cuts of an
   n-vertex graph is at most 2^{(1+o(1))H(1/3)n}, so alpha = lim c(n)^{1/n} is at

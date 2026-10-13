@@ -91,9 +91,9 @@ recorded on the claim page
 account and the publishers' records; no proof is reconstructed in this
 repository, no independent review is recorded, and the Lean proof named in
 Formalization has not been built or audited here. The status search covered the
-site, its forum thread and the community database on 2026-10-07; the thread
-holds no proof claim of this problem's question, and no other claim of the
-result was found.
+site, its forum thread and the community database; on 2026-10-07 the thread held
+no proof claim of this problem's question, and none of these sources recorded
+another claim of the result.
 
 The forum thread carries one formal result, posted 21 September 2026 by
 Kenta Kitamura with ChatGPT and OpenAI Codex (GPT-6 Astra) named as

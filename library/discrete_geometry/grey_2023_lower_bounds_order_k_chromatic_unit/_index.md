@@ -45,7 +45,7 @@ Source: <https://arxiv.org/abs/2303.14714>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0508/_index|#508]]
 
-**Results to transcribe.**
+**Results.**
 
 - Improved bounds (k = 5, 6): e_5 >= 99, v_5 >= 28, e_6 >= 182, v_6 >= 42,
   improving Gwyn-Stavrianos's e_5 >= 98, v_5 >= 22, e_6 >= 180, v_6 >= 32.

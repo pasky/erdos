@@ -55,7 +55,7 @@ Source: <https://arxiv.org/abs/1811.06916>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0571/_index|#571]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.4 (p. 2): if a < b are positive integers and b is congruent to 1
   or to -1 modulo a, then some graph F has ex(n,F) = Theta(n^{2-a/b}).

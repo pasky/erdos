@@ -52,7 +52,7 @@ https://www.erdosproblems.com/348.
 
 ## Current assessment
 
-The site records Problem 348 as OPEN,. The frontmatter
+The site labeled Problem 348 OPEN. The frontmatter
 standing, `claimed`/`answered`, is derived from the one claim page below:
 Geneson's 2026 preprint asserts the full classification, exactly $m\le1$, and no
 acceptance of it is recorded. This page records no literature search beyond

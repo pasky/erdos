@@ -90,9 +90,8 @@ Lemma 6 and Lemma 7, read clause by clause in the TeX source
 (the release's `paper.tex`, labels
 `thm:main`, `lem:primebias`, `lem:interpolation`, `cor:rectangle`,
 `lem:exponents` and `lem:divisibility`, with the displays `eq:upper`,
-`eq:lower` and `eq:master` of Sections 5 and 6) on 2026-10-07; the proofs
-were read for their structure only and no step was checked; nothing here is
-independently reviewed.
+`eq:lower` and `eq:master` of Sections 5 and 6); the proofs were read for their
+structure only and no step was checked; nothing here is independently reviewed.
 
 ## Contents
 

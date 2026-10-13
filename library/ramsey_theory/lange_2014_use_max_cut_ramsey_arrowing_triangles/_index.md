@@ -33,7 +33,7 @@ The arXiv record names arXiv's non-exclusive distribution license
 (11 pages; the arXiv record dates v1 to 16 July 2012). The journal text was
 not compared, and the page locators below are the preprint's. Read status:
 claims checked for Theorems 1--3 and Table 1 (pp. 3--8), read on the page
-images on 2026-10-07; the eigenvalue and SDP computations were not replayed.
+images; the eigenvalue and SDP computations were not replayed.
 
 The paper studies the edge Folkman number F_e(3,3;4), the least order of a
 K4-free graph in which every edge 2-coloring forces a monochromatic triangle,

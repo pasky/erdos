@@ -53,12 +53,11 @@ The retained folder-name PDF is arXiv:2508.18254v1 (25 August 2025,
 no journal record was found (Crossref bibliographic query, 2026-09-18): a
 preprint. Read status: claims checked for Question 1.1, Conjecture 1.2,
 Theorems 1.3, 1.4, 1.5 and 7.1, Lemma A.1 and Theorem A.2 (pp. 2--3, 25,
-42, text layer) on 2026-09-18; the proof of Theorem A.2 (pp. 42--43) was
-read for structure and the other proofs were not read. Theorem 7.1, the
-extremely dense case $|S|\ge N-N^{1-\gamma}$, is labeled "([36])" and
-proved in Appendix A from Lemma 6.22 and the method of Theorem 6.9 of
-Müyesser and Pokrovskiy; it is the explicit form of the site's very large
-range for Problem 475. Result pages:
+42, text layer); the proof of Theorem A.2 (pp. 42--43) was read for structure
+and the other proofs were not read. Theorem 7.1, the extremely dense case
+$|S|\ge N-N^{1-\gamma}$, is labeled "([36])" and proved in Appendix A from Lemma
+6.22 and the method of Theorem 6.9 of Müyesser and Pokrovskiy; it is the
+explicit form of the site's very large range for Problem 475. Result pages:
 [[additive_combinatorics/bedert_2025_graham_s_rearrangement_conjecture_over/theorem_1_4|theorem_1_4]]
 and
 [[additive_combinatorics/bedert_2025_graham_s_rearrangement_conjecture_over/theorem_7_1|theorem_7_1]].
@@ -69,7 +68,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0475/_index|#475]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.3: An absolute constant C exists such that every S ⊆ F_2^n \ {0}
   with |S| >= C has a valid ordering; the method extends to abelian groups of

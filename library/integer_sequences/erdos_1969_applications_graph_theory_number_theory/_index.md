@@ -84,15 +84,14 @@ The copy read for this card is the six-page file from the Rényi
 Institute's Erdős archive (printed pp. 77--82 are PDF pp. 1--6; its text
 layer garbles the displayed exponents). Read status: claims checked for
 displays (1), (2), (3), (6), (7), (9), (10) and (11) and for the
-two-sequence question on pp. 81--82, each read clause by clause on the
-page images on 2026-09-18; the outline of the upper bound of (1) was read;
-displays (4), (5), (8) and (12) were read as statements only; no proof is
-checked here. Display (10) prints its two second-order terms with the
-denominator $(\log n)^2$, as recorded on its result page. Claims checked
-also, for the Turán paragraph of p. 80 (PDF p. 4) and the
-3-graph conjecture that opens p. 81 (PDF p. 5), "Every $G_3(3n;n^3+1)$
-contains either a $G_3(4;3)$ or a $G_3(5;7)$", read clause by clause on the
-page images and paged at
+two-sequence question on pp. 81--82, each read clause by clause on the page
+images; the outline of the upper bound of (1) was read; displays (4), (5), (8)
+and (12) were read as statements only; no proof is checked here. Display (10)
+prints its two second-order terms with the denominator $(\log n)^2$, as recorded
+on its result page. Claims checked also, for the Turán paragraph of p. 80 (PDF
+p. 4) and the 3-graph conjecture that opens p. 81 (PDF p. 5), "Every
+$G_3(3n;n^3+1)$ contains either a $G_3(4;3)$ or a $G_3(5;7)$", read clause by
+clause on the page images and paged at
 [[integer_sequences/erdos_1969_applications_graph_theory_number_theory/conjecture_p81|conjecture_p81]];
 the paper gives no argument for it. Claims checked also, for
 the closing question of p. 82 (PDF p. 6), the real-number modification of the
@@ -149,7 +148,7 @@ problem's question that Erdős's 1980 survey recalls in a footnote; display
 finite question kept separate on the problem page; the site's key
 [Er69, p. 82].
 
-**Results to transcribe.**
+**Results.**
 
 - [[integer_sequences/erdos_1969_applications_graph_theory_number_theory/conjecture_p81|Conjecture, p. 81]]:
   every $G_3(3n;n^3+1)$ contains either a $G_3(4;3)$ or a $G_3(5;7)$; stated

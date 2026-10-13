@@ -43,8 +43,8 @@ eleven numbered vertices (the Grötzsch graph; the paper spells "Grötsch").
 combinatorial analysis*, Combinatorial Mathematics and its Applications
 (Proc. Conf., Oxford, 1969), Academic Press (1971), 97--109; item 7 on
 printed p. 99 = PDF p. 3 and Figure 1 on printed p. 100 = PDF p. 4 of the
-Rényi archive scan (`1971-25.pdf`; printed p. $n$ is PDF p. $n-96$), read on
-the page images on 2026-09-18. The artifact is identified in the
+Rényi archive scan (`1971-25.pdf`; printed p. $n$ is PDF p. $n-96$), read on the
+page images. The artifact is identified in the
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/_index|source digest]].
 
 **Read depth.** Claims checked: the item, its footnote and the figure were

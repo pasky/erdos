@@ -62,9 +62,9 @@ record read). Read status: claims checked for the definitions,
 displays (1)--(3), footnote 1 (the two conventions for S(k)), the announced
 bounds S(6) >= 536, S(7) >= 1680 and the self-assessment "There are no real
 theorems in this note" (pp. 1--2), read clause by clause on the page images;
-the six-set partition of [1, 536] (p. 6) was recomputed on 2026-09-18 and is
-sum-free, disjoint and covering; the seven-set partition of [1, 1680] was
-not recomputed. Result page:
+the six-set partition of [1, 536] (p. 6) was recomputed and is sum-free,
+disjoint and covering; the seven-set partition of [1, 1680] was not recomputed.
+Result page:
 [[ramsey_theory/fredricksen_2000_symmetric_sum_free_partitions_lower_bounds/constructions_p6|constructions_p6]].
 No notice is printed in the file; the journal's submissions page
 (https://www.combinatorics.org/ojs/index.php/eljc/about/submissions, read
@@ -86,7 +86,7 @@ R_7(3) >= 1682: lower bounds on two values of the problem's denominator
 R_k(K_3); the paper states no exponential bound in k and nothing on odd
 cycles).
 
-**Results to transcribe.**
+**Results.**
 
 - Constructions (pp. 6--8; bounds announced on p. 2): Explicit symmetric
   sum-free partitions give S(6) >= 536 and S(7) >= 1680.

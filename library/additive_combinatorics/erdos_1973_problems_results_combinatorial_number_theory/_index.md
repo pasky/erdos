@@ -326,7 +326,7 @@ $\max k=\pi(x)+\pi(\sqrt x)+o\bigl(\frac{x^{1/2}}{\log x}\bigr)$", the
 problem's bound and conjecture in Erdős's words, unnumbered and without a
 proof or reference; not a site key for the problem)
 
-**Results to transcribe.**
+**Results.**
 
 - [[additive_combinatorics/erdos_1973_problems_results_combinatorial_number_theory/ruzsa_construction_p124|Ruzsa's construction]],
   p. 124: the squarefree integers q_1 ... q_r with q_{i+1} > 2 q_i have
@@ -342,12 +342,11 @@ proof or reference; not a site key for the problem)
   with the question of lim log h(n)/log n.
 
 - [[additive_combinatorics/erdos_1973_problems_results_combinatorial_number_theory/section_9|Section 9, l(n)]],
-  p. 130: l(n) >= sqrt(n/2) (Erdos; the digest wrote sqrt(2n) before
-  2026-09-18) and l(n) > (1 + c) sqrt(n) (Choi) for the largest subset of n
-  reals with no element a distinct sum of others; conjecturally l(n)/sqrt(n)
-  tends to infinity and l(n) < n^{1-c}. Section 9 also carries (9.1) with
-  f(n) >= n/3 (p. 129) and, on p. 130, display (9.2), Choi's interval problem
-  and the h(n) bounds.
+  p. 130: l(n) >= sqrt(n/2) (Erdos) and l(n) > (1 + c) sqrt(n) (Choi) for
+  the largest subset of n reals with no element a distinct sum of others;
+  conjecturally l(n)/sqrt(n) tends to infinity and l(n) < n^{1-c}. Section 9
+  also carries (9.1) with f(n) >= n/3 (p. 129) and, on p. 130, display (9.2),
+  Choi's interval problem and the h(n) bounds.
 - Retraction: Erdos reports trouble reconstructing the proof of his claim
   l(n) = o(n); the claim was printed in 1965 (p. 188 of that
   paper) without its argument.

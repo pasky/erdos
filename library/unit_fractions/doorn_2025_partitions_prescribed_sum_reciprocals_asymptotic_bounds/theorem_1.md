@@ -13,9 +13,9 @@ updated: 2026-10-08T15:43:05Z
 
 **Source.** Theorem 1, Section 2, p. 2 of arXiv:2502.02200v2
 (23 July 2025), 12 pages; definitions in Section 1, p. 1; proof pp. 2--5
-(Lemmas 1--6). Read on the rendered page image of p. 2 and in the text
-layer of pp. 1--5 on 2026-09-18. Author preprint: the arXiv listing carries
-no journal reference and no journal record was found.
+(Lemmas 1--6). Read on the rendered page image of p. 2 and in the text layer of
+pp. 1--5. Author preprint: the arXiv listing carries no journal reference and no
+journal record was found.
 
 ## Statement
 

@@ -86,7 +86,7 @@ at
 the site's "$2^{n+1}-1\le f(n)\ll n^22^n$" in the site's letter $n$ for the
 paper's $k$.
 
-**Results to transcribe.**
+**Results.**
 
 - Inequality (1): f(k) >= 2^(k+1) - 1 for all k = 1, 2, ..., proved by induction
   using a vertex of minimum indegree.

@@ -101,9 +101,9 @@ note of 2026-04-30 in the thread proves; the $O(\sqrt N)$ error stated in the
 comment does not follow from it. The curator's reply to that note
 (2026-04-30), calling the bound an immediate generalization of the Erdős–Turán
 argument, gives $\sum_i\lvert A_i\rvert^2\leq N+O(m^{1/2}N^{3/4})$ for $m$
-Sidon sets with pairwise disjoint nonzero differences. No refereed publication
-of either answer was found as of 2026-10-07 in the site's page and remarks,
-its thread, Problem 42's thread or the formal-conjectures file.
+Sidon sets with pairwise disjoint nonzero differences. On 2026-10-07 the site's
+page and remarks, its thread, Problem 42's thread and the formal-conjectures
+file recorded no refereed publication of either answer.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

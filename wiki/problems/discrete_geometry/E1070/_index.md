@@ -85,8 +85,8 @@ formal-conjectures has no statement file for the problem.
   second conjecture. The variant with no two points at distance less than one is
   [[problems/extremal_graph_theory/E1066/_index|Problem 1066]].
 - **Status search.** The search covers the site's page and its proof-claims
-  tab and the arXiv record of the preprint,; the paper is
-  compiled on its source card. No broader literature search is recorded.
+  tab and the arXiv record of the preprint; the paper is compiled on its source
+  card. No broader literature search is recorded.
 - **Proof coverage and review.** None. The paper's certificate and blow-ups
   have not been independently checked, no own-words proof is held, and no
   independent review is recorded.

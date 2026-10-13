@@ -52,11 +52,11 @@ publisher's PDF. The edition is identified in the
 
 **Read depth.** Claims checked: the statement, Lemma 1, Conjecture 1, the
 $r=2$ construction and the two quoted passages were read clause by clause
-on the page images of PDF pp. 1--2 on 2026-09-22; the reduction of the
-theorem to inequality (2) (pp. 1083--1084) was read on the page image of
-PDF p. 3. The segment algorithm and the case analysis of the four segment
-types (pp. 1084--1089) were read in the text layer for structure only and
-not checked. Nothing here is independently reviewed.
+on the page images of PDF pp. 1--2; the reduction of the theorem to inequality
+(2) (pp. 1083--1084) was read on the page image of PDF p. 3. The segment
+algorithm and the case analysis of the four segment types (pp. 1084--1089) were
+read in the text layer for structure only and not checked. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

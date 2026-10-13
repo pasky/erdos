@@ -95,7 +95,7 @@ $2^{(\log n)^{1-o(1)}}$ vertices (erdosproblems.com/61, read 2026-10-07); the
 paper contains no such result, and no result in it addresses the
 Erdős–Hajnal question.
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/nguyen_2024_problem_el_zahar_erdos/problem_1_1|Problem 1.1]]
   (printed p. 1): The El-Zahar-Erdos question: for all integers t, c >= 1, is

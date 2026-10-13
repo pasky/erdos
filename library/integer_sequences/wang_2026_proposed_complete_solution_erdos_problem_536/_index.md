@@ -72,7 +72,7 @@ moving-prefix argument needs. External inputs are only standard prime-number
 estimates, Brun-Titchmarsh, and the polynomial-method cap-set bound, with finite
 checks in a companion Python verifier. The manuscript does not mention
 Problems 535 or 857 (its text was searched for their numbers and for gcd and
-sunflower wording on 2026-09-18).
+sunflower wording).
 
 Source: <https://github.com/ShouqiaoW/erdos/tree/main/536>.
 
@@ -80,7 +80,7 @@ Source: <https://github.com/ShouqiaoW/erdos/tree/main/536>.
 claims the answer $f(N)=o(N)$ to the site's question; recorded there as an
 unreviewed claim.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 ([[integer_sequences/wang_2026_proposed_complete_solution_erdos_problem_536/theorem_1_1|claim page]]):
   Claimed f(N) = o(N) for the largest subset of [N] with no three

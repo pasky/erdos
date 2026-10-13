@@ -90,16 +90,15 @@ other right reserved.
 Read status: claims checked for the notation and Turán's theorem as the
 paper states it and Theorem 1 (p. 417), Theorem 2 and (4) (p. 418), Theorem
 3 with its footnote and Theorem 4 (p. 419) and Theorem 5 (p. 421), each read
-clause by clause on the page images of PDF pp. 1--5 on 2026-09-22; p. 422
-(PDF p. 6) was read on the page image for the end of the proof of Theorem 5,
-the Remark, the received date and the reference list. The proof of Theorem 1
-(pp. 417--418) and the deduction of Theorems 2 and 3 from it (p. 418) were
-read in full on the page images and followed, with the identities (1) and
-(2), the inequality of (3), the value $d_k(k+q-1)$ and the identity
-$d_3(n)=[n^2/4]$ recomputed here from the printed formula. The proofs of
-(4), of Theorem 4 (pp. 419--421) and of Theorem 5 (pp. 421--422) were read
-on the page images for structure only, and their case analyses were not
-checked. Nothing here is independently reviewed.
+clause by clause on the page images of PDF pp. 1--5; p. 422 (PDF p. 6) was read
+on the page image for the end of the proof of Theorem 5, the Remark, the
+received date and the reference list. The proof of Theorem 1 (pp. 417--418) and
+the deduction of Theorems 2 and 3 from it (p. 418) were read in full on the page
+images and followed, with the identities (1) and (2), the inequality of (3), the
+value $d_k(k+q-1)$ and the identity $d_3(n)=[n^2/4]$ recomputed here from the
+printed formula. The proofs of (4), of Theorem 4 (pp. 419--421) and of Theorem 5
+(pp. 421--422) were read on the page images for structure only, and their case
+analyses were not checked. Nothing here is independently reviewed.
 
 ## Contents
 

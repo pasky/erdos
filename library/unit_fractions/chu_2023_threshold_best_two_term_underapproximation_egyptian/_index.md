@@ -72,7 +72,7 @@ the proofs were not read; nothing has been independently reviewed.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0206/_index|#206]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.3 (Upsilon <= 3): If Upsilon(p,q) <= 3 and p/q is not 10/17, the
   greedy pair 1/a_1 + 1/a_2 is the unique best two-term underapproximation of

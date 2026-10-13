@@ -50,7 +50,7 @@ subset sums problem*, SIAM J. Discrete Math. (2021), 322--324. The retained
 PDF is arXiv:2006.12988v2 [math.CO] (20 July 2020; 3 pages; text layer),
 whose pagination is used here; the published version was not inspected.
 Theorem 3 and the definitions before it are on p. 2, read on the page image
-with the text layer as an aid on 2026-09-18.
+with the text layer as an aid.
 
 **Read depth.** Claims checked for the paper's statement of the inequality
 and its definition of the vertex boundary, clause by clause on the p. 2 page

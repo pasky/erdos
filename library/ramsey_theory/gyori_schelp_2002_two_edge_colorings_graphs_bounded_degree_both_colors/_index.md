@@ -66,16 +66,15 @@ Read status: claims checked for the abstract (p. 105), the definitions of
 $\mathcal F$, $m(k,\ell)$, $\hat r(G_1,G_2)$ and $H\to(G_1,G_2)$, Conjecture 1,
 the announced condition, Theorem 1 and Lemma 1 (p. 106), Theorem 2 (p. 108)
 and the closing remarks (p. 109), each read clause by clause on the page
-images of PDF pp. 1, 2, 4 and 5 on 2026-09-22; the reference list (p. 110,
-PDF p. 6) was read in the text layer. The proof of Theorem 2 (pp. 108--109,
-PDF pp. 4--5) was read in full on the page image and its reduction to
-Theorem 1 and to Vizing's theorem was followed, with two filing observations
-recorded on the result page and below. The proof of Theorem 1 (pp. 106--108),
-including the proof of Lemma 1 (p. 107), was read in the text layer for
-structure only, and none of its steps was checked. On 2026-10-07 all six
-pages, the reference list included, were reread on the page images against
-this card, the proof of Theorem 1 again for structure only. Nothing here is
-independently reviewed.
+images of PDF pp. 1, 2, 4 and 5; the reference list (p. 110, PDF p. 6) was read
+in the text layer. The proof of Theorem 2 (pp. 108--109, PDF pp. 4--5) was read
+in full on the page image and its reduction to Theorem 1 and to Vizing's theorem
+was followed, with two filing observations recorded on the result page and
+below. The proof of Theorem 1 (pp. 106--108), including the proof of Lemma 1 (p.
+107), was read in the text layer for structure only, and none of its steps was
+checked. All six pages, the reference list included, were reread on the page
+images against this card, the proof of Theorem 1 again for structure only.
+Nothing here is independently reviewed.
 
 ## Contents
 

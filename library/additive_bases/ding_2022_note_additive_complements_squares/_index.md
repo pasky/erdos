@@ -40,7 +40,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0033/_index|#33]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For any additive complement W of the squares and sufficiently
   large N, sum_{n<=N} R_{S,W}(n) - N >= 0.193 N^{1/2}, improving the bound

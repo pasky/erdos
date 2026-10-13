@@ -46,7 +46,7 @@ Source: <https://arxiv.org/abs/2304.00943>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0520/_index|#520]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For Steinhaus or Rademacher f and any eps > 0, almost surely
   sum_{n<=x} f(n) << sqrt(x)(log_2 x)^{3/4+eps} as x -> infinity.

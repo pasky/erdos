@@ -66,7 +66,7 @@ asymptotic e/(e-1)k untouched;
 maximum-count result recorded for contrast, which says nothing about
 k(N) - (e-1)N
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: Given a positive rational r and eta > 0, once x is large in
   terms of r and eta, some set of more than (C(r) - eta)x positive integers

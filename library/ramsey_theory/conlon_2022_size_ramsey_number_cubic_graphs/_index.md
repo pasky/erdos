@@ -70,7 +70,7 @@ Theorem 1.2 is the random-graph statement behind the first. None of them
 bears on the disproof, which rests on lower bounds the paper only cites,
 and they change nothing in the problem's standing.
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/conlon_2022_size_ramsey_number_cubic_graphs/theorem_1_1|Theorem 1.1]] (p. 2): There is K with r-hat(H) <= K n^{8/5} for every cubic graph H on
   n vertices.

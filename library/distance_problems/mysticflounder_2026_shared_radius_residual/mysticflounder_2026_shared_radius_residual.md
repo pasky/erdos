@@ -19,10 +19,10 @@ The complete post below, including its edit, is transcribed from a locally
 saved forum-thread copy.
 
 Removing the quotation prefix below and normalizing trailing blank lines to one
-final newline gives the 1083-byte UTF-8 post text. The post was read locally on
-2026-09-09. Neither the capture retrieval date nor the edit timestamp is
-supplied by this record. This is not a live-page access or a claim about the
-page's present wording. No adjacent post is included.
+final newline gives the 1083-byte UTF-8 post text. The post was read locally.
+Neither the capture retrieval date nor the edit timestamp is supplied by this
+record. This is not a live-page access or a claim about the page's present
+wording. No adjacent post is included.
 
 The author's initial claim expressly leaves a residual, and the later edit
 qualifies the expectation of an imminent solution. The

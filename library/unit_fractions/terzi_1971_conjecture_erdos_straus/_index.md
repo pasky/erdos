@@ -71,14 +71,13 @@ congruence $(*)$, equations (4)--(7), the definition of $m$, the six
 classes modulo $840$, congruence (8) and Table 1 (p. 213), congruence (9)
 and Table 2 (p. 214), the second algorithm, the verification statement
 with its attribution list, Table 3 and the solution formula (p. 215), each
-read clause by clause on the page images of PDF pp. 1--4 on 2026-09-22;
-the references and the address (p. 216) were read on the page image of
-PDF p. 5. The two algorithms are described in a paragraph each and were
-read for structure only: the equivalences (4)--(7) were not checked beyond
-the paper's own worked substitution, and the divisibility test of the
-second algorithm was not reconstructed. The three tables were checked
-arithmetically here as recorded below; the paper's computation was not
-rerun. Nothing here is independently reviewed.
+read clause by clause on the page images of PDF pp. 1--4; the references and the
+address (p. 216) were read on the page image of PDF p. 5. The two algorithms are
+described in a paragraph each and were read for structure only: the equivalences
+(4)--(7) were not checked beyond the paper's own worked substitution, and the
+divisibility test of the second algorithm was not reconstructed. The three
+tables were checked arithmetically here as recorded below; the paper's
+computation was not rerun. Nothing here is independently reviewed.
 
 ## Contents
 

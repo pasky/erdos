@@ -46,8 +46,8 @@ release folder
 `preprints/Correspondence-Coloring-Graphs-with-a-Forbidden-Clique-October-5-2026`;
 TeX file `build/sections/introduction.tex`, label `cor:forbidden` (lines
 44--52), PDF p. 2; the proof follows at lines 53--56 (PDF p. 2), and the
-remarks on the conjecture and on sharpness at lines 58--65. Read 2026-10-12.
-Provenance and attestations are on
+remarks on the conjecture and on sharpness at lines 58--65. Provenance and
+attestations are on
 [[graph_coloring/openai_2026_correspondence_coloring_graphs_forbidden_clique/_index|the card]].
 
 **Read depth.** Claims checked: the statement and the definition of

@@ -102,7 +102,7 @@ members, against the problem's $|A|\le N/2+O(1)$, the verification that no
 member is a consecutive sum being the note's; the unproved upper-bound
 remark ($2/3$) and the Coppersmith--Phillips report (p. 6201).
 
-**Results to transcribe.**
+**Results.**
 
 - [[additive_combinatorics/freud_1993_adding_numbers_problem_p/construction_p6199|Construction]]
   (p. 6199-6201): For n = 144y-12 there is a set of 76y-7 integers

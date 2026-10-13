@@ -110,8 +110,8 @@ of Guy and Selfridge [GuSe98], that $t(n)\leq n/e$ for $n\neq1,2,4$, that
 $t(n)\geq\lfloor2n/7\rfloor$ for $n\neq56$ and that $t(n)\geq n/3$ for
 $n\geq3\times10^5$, a threshold they asked whether one could lower: the paper
 proves the bound for $n\geq43632$ and shows that threshold best possible. It
-also computes $t(n)$ for $n\leq10^4$. Search scope, 2026-10-07: the site's
-problem page and discussion thread, the arXiv record with its four versions, the
+also computes $t(n)$ for $n\leq10^4$. Search scope: the site's problem page
+and discussion thread, the arXiv record (four versions on 2026-10-07), the
 formal-conjectures file and the Lean file's text. The paper's proofs are not
 checked here, and this page takes [Er96b], [AlGr77] and [GuSe98] from the site's
 reports of them.

@@ -53,7 +53,7 @@ Source: <https://afm.journal.fi/article/view/134314>.
 
 **Bears on.** [[../wiki/problems/analysis/E1116/_index|#1116]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: An explicit infinite product f has lim inf n(r)/A(r) >= 80/79,
   so the constant e in Hayman's bound lim inf n(r)/A(r) <= e cannot be

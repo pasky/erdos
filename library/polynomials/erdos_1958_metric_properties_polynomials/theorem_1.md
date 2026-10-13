@@ -39,8 +39,8 @@ Theorem 1 on p. 126, its proof on pp. 126--128. The copy read is identified on
 the [[polynomials/erdos_1958_metric_properties_polynomials/_index|source card]].
 
 **Read depth.** Claims checked: the statement was read clause by clause on the
-page image of p. 126 on 2026-10-08; the proof was read for structure, not
-checked. Nothing here is independently reviewed.
+page image of p. 126; the proof was read for structure, not checked. Nothing
+here is independently reviewed.
 
 ## Proof pointer
 

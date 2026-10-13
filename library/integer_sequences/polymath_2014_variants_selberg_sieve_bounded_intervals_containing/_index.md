@@ -73,11 +73,11 @@ as statements from the introduction. In the arXiv v4 version, claims checked for
 the definition of $H(k)$, Theorem 3.3 (the journal's Theorem 17) and the
 section "Narrow admissible tuples" (arXiv Sections 10.1--10.3), including
 the stated construction algorithms, complexity qualifications and finite
-numerical bounds; the proofs and computations were not independently
-verified. On 2026-10-08 the statements of Theorems 4, 5 and 17, Claims 8,
-12 and 15, Theorem 16, Proposition 46 and the section "Narrow admissible
-tuples" (pp. 76--81) were read clause by clause on the page images of the
-journal PDF for their result pages; no proof was checked.
+numerical bounds; the proofs and computations were not independently verified.
+The statements of Theorems 4, 5 and 17, Claims 8, 12 and 15, Theorem 16,
+Proposition 46 and the section "Narrow admissible tuples" (pp. 76--81) were read
+clause by clause on the page images of the journal PDF for their result pages;
+no proof was checked.
 
 Writing $H_m=\liminf(p_{n+m}-p_n)$, the Polymath8b project extends
 Maynard's multidimensional Selberg sieve with a more general sieve weight

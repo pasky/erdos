@@ -52,8 +52,8 @@ and a Crossref bibliographic query found no journal record (both read). The arti
 **Read depth.** Claims checked: the definitions, the statement, the two
 colorings, the prior-work sentences and the quoted Theorems 2 and 3 of
 Section 2 were read clause by clause, and footnote 1 (p. 2), Corollaries
-5--6 and the Remark (p. 3) on 2026-10-07. The proof (Section 3 onward, with
-Lemma 4 and Appendix A) was not read.
+5--6 and the Remark (p. 3). The proof (Section 3 onward, with Lemma 4 and
+Appendix A) was not read.
 
 ## Proof pointer
 

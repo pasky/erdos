@@ -57,7 +57,7 @@ not formalized (both checked).
 
 ## Current assessment
 
-The question, in the site's formulation accessed, asks whether
+The question, in the site's formulation accessed 2026-09-04, asks whether
 $f(N)\le\log_2N+o(\log\log N)$, where $f(N)$ is the least $k$ such that a
 random $k$-subset of any abelian group of order $N$ covers the group by
 subset sums with probability at least $1/2$. The answer is no:
@@ -89,8 +89,8 @@ argument as correct in the thread on 2026-01-21; neither the note nor
 the arXiv paper is refereed, the site credits only the note, and this corpus
 has not verified either proof. No
 Lean formalization is recorded. Search scope: the site's problem page and
-forum thread, the community database, the note in both versions and the
-arXiv listing, read 2026-10-07.
+forum thread, the community database, the note in both versions and the arXiv
+listing.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

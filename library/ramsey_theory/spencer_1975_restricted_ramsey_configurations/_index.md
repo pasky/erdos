@@ -44,9 +44,9 @@ next article in the volume (E. Spence, *Hadamard matrices from relative
 difference sets*, JCTA 19 (1975), 287--300), which is not Spencer's. The
 volume, year and page range are printed in the running head of p. 278. The scan
 has no text layer beyond the cover sheet; every statement below was read on the
-rendered spreads, rotated, at 130 dpi on 2026-09-18. Provenance: the
-repository's survey download set of September 2026 (the download URL recorded
-when the copy was obtained, on 2026-09-05, is
+rendered spreads, rotated, at 130 dpi. Provenance: the repository's survey
+download set of September 2026 (the download URL recorded when the copy was
+obtained, on 2026-09-05, is
 <https://www.cs.umd.edu/~gasarch/TOPICS/vdw/res-ram-config.pdf>); 853,941
 bytes. The scan prints "Copyright © 1975 by Academic Press, Inc. All rights of
 reproduction in any form reserved." on the article's first page (printed p. 278,

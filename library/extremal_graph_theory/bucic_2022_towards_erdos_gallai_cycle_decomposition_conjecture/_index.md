@@ -83,7 +83,7 @@ the paper's reading of Erdős's 1983 remark. Paged at
 and
 [[extremal_graph_theory/bucic_2022_towards_erdos_gallai_cycle_decomposition_conjecture/lower_bound_p24|lower_bound_p24]].
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 2 (p. 2): every graph on n vertices splits into O(n log* n)
   edge-disjoint cycles and single edges, log* n being the iterated logarithm.

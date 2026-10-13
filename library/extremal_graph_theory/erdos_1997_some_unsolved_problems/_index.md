@@ -113,8 +113,8 @@ forty references (pp. 9--10). The problems consumed here:
   settled by Wagner, who proved $M_n>(\log n)^c$ for infinitely many $n$;
   Erdős writes "I further conjectured that $M_n>n^c$ for some $c>0$ and
   infinitely many $n$ and, in fact, for every $n$ we have
-  $\sum_{k=1}^nM_k>n^{1+c}$" (inequality (7), p. 8), with a prize of 100
-  dollars. These are the three questions of #119.
+  $\sum_{k=1}^nM_k>n^{1+c}$" (inequality (7), p. 8), with a prize offered
+  for a solution of (7). These are the three questions of #119.
 - Problem 26 (p. 8): for a group with at most $n$ pairwise noncommuting
   elements, $h(n)$ is the least number of Abelian subgroups covering every
   such group; determine or estimate $h(n)$. Pyber [34] proved
@@ -134,7 +134,7 @@ reviewed.
 posing the pentagon count with Győri's partial results;
 [[../wiki/problems/group_theory/E0117/_index|#117]], as Problem 26, posing $h(n)$ with
 Pyber's exponential bounds; [[../wiki/problems/polynomials/E0119/_index|#119]], as
-Problem 23, posing the three questions on $M_n$ with the prize;
+Problem 23, posing the three questions on $M_n$, the last with the prize;
 [[../wiki/problems/ramsey_theory/E0667/_index|#667]], as Problem 13 (pp. 3--4, PDF pp.
 26--27), the site's only source: the definition of $H(n;p,q)$ and $c(p,q)$
 as a lower limit, the strict-increase conjecture over $1\le q\le

@@ -69,7 +69,7 @@ order $2^{(1/4+o(1))n}$; the paper's $f_{\max}$ is the site's $f_m$.
 (p. 2) asks whether $f_m(n)=O(2^{n/4})$, a sharpening of the problem's
 request to estimate $f_m(n)$; this paper poses it without answering it.
 
-**Results to transcribe.**
+**Results.**
 
 - [[additive_combinatorics/balogh_2015_number_maximal_sum_free_subsets_integers/theorem_1_1|Theorem 1.1]]
   (p. 2): the number f_max(n) of maximal sum-free subsets of [n] is at most

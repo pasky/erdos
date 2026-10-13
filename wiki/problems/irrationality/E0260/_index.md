@@ -83,11 +83,11 @@ this problem: Erdős and Graham write that the sum "is known to be irrational
 under the stronger hypothesis that $a_n>cn\sqrt{\log n\log\log n}$", without
 a proof or a reference, and in the same paragraph that the case
 $a_{n+1}-a_n\to\infty$ "can be shown". The site's attribution of the condition
-to [Er81l] is mistaken, but the condition has a printed source. Dated search
-scope: the site's page and remarks (2026-09-04), its proof-claims thread
-(2026-10-06), its discussion thread, the formal-conjectures file (2026-10-05
-and 2026-10-07) and the arXiv record of the preprint (2026-10-07); no wider
-literature search was made, and no assessment of proof coverage is recorded.
+to [Er81l] is mistaken, but the condition has a printed source. Search scope:
+the site's page and remarks (2026-09-04), its proof-claims thread (2026-10-06),
+its discussion thread, the formal-conjectures file (2026-10-05 and 2026-10-07)
+and the arXiv record of the preprint (2026-10-07); no wider literature search
+was made, and no assessment of proof coverage is recorded.
 
 ## Progress
 

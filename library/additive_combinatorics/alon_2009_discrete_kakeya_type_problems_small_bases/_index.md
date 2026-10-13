@@ -85,11 +85,10 @@ author's publication list (12 pp., its own pagination, no journal header,
 PDF created in 2007); the journal text was not compared.
 Read status: claims checked for the definitions, the Question, Theorems
 1.1--1.4 and 1.6, Corollary 1.5, Lemma 3.1, Theorem 3.2 and the reduction
-paragraph (pp. 1--3, 8--9, text layer) on 2026-09-18, and again against the
-printed pages, with Theorem 2.1, Lemmas 2.2, 3.3 and 4.1, on 2026-10-08; the
-proofs of Theorems 1.2, 1.3, 1.4 and 1.6 and Corollary 1.5 (pp. 4--10) were
-read for structure, not checked step by step. Result pages are listed
-below.
+paragraph (pp. 1--3, 8--9, text layer), and again against the printed pages,
+with Theorem 2.1, Lemmas 2.2, 3.3 and 4.1; the proofs of Theorems 1.2, 1.3, 1.4
+and 1.6 and Corollary 1.5 (pp. 4--10) were read for structure, not checked step
+by step. Result pages are listed below.
 
 Source: <https://web.math.princeton.edu/~nalon/PDFS/publications.html>. That
 copy is the authors' version from the first author's publication list at

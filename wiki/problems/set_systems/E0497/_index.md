@@ -68,13 +68,14 @@ Dedekind numbers, such as the sharpened error term of Kleitman and Markowsky
 (1975) recorded on the claim page by title, are not part of the question and
 are not assessed here.
 
-Search scope, 2026-10-07: the site's page and discussion thread (one comment,
-no proof claims), the community database (teorth/erdosproblems, which lists
-the sequence as OEIS A000372), the formal-conjectures statement file, the
-lean-proofs collection and Crossref. No other claim on the problem was found.
-One third-party Lean proof of the asymptotic, by a container-method route
-rather than Kleitman's, is linked from the claim page; it was not built or
-audited here, and the site's Lean qualifier rests on it.
+Search scope, with the sources as they stood on 2026-10-07: the site's page
+and discussion thread (one comment, no proof claims), the community database
+(teorth/erdosproblems, which lists the sequence as OEIS A000372), the
+formal-conjectures statement file, the lean-proofs collection and Crossref.
+None of them showed another claim on the problem. One third-party Lean proof
+of the asymptotic, by a container-method route rather than Kleitman's, is
+linked from the claim page; it was not built or audited here, and the site's
+Lean qualifier rests on it.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -30,10 +30,10 @@ The proof ends (p. 12) with the weighted form
 $\sum_{p>x^{5/9+\delta}}N(p)\log p>0.0002\,x^{4/9}\log x$ for large $x$,
 where $N(p)$ is the number of multiples of $p$ in $(x,x+x^{4/9}]$.
 
-**Read depth.** Claims checked: the statement was read clause by clause on
-the page image on 2026-10-08; the proof on pp. 9--12 was read for structure
-only, and the numerical claim $4/9+I(4/9)<0.9998$ on p. 12 was not
-recomputed. Nothing here is independently reviewed.
+**Read depth.** Claims checked: the statement was read clause by clause on the
+page image; the proof on pp. 9--12 was read for structure only, and the
+numerical claim $4/9+I(4/9)<0.9998$ on p. 12 was not recomputed. Nothing here is
+independently reviewed.
 
 ## Proof sketch
 

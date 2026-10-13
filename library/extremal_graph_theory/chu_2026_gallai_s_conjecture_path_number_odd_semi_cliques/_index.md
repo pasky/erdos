@@ -93,16 +93,14 @@ foot of its first page, every other right reserved.
 Read status: claims checked for the abstract, Conjecture 1.1 and Theorem
 1.2 (p. 1), Theorems 1.3, 1.4 and 1.5, the definition of a semi-clique,
 Conjecture 1.6 and Theorem 1.7 (p. 2), Lemmas 2.1--2.4 (p. 3) and the
-restated Theorem 1.4 (p. 6), each read clause by clause on the page images
-of PDF pp. 1--3 and 6 on 2026-09-22. The derivation of Theorem 1.3 from
-Theorem 1.4 (three lines, p. 2), the proofs of Theorems 1.5 and 1.7 (a
-paragraph each, p. 2) and the proof of Theorem 1.4 (one paragraph, p. 6)
-were read in full on the page images and followed; Lemma 2.5 (p. 5) and
-the proofs of Lemmas 2.4 and 2.5 (pp. 3--6), the case analyses that carry
-the paper, were read in the text layer for structure only and not checked;
-the statement of Lemma 2.5 was checked on the page image of p. 5 on
-2026-10-08.
-Nothing here is independently reviewed.
+restated Theorem 1.4 (p. 6), each read clause by clause on the page images of
+PDF pp. 1--3 and 6. The derivation of Theorem 1.3 from Theorem 1.4 (three lines,
+p. 2), the proofs of Theorems 1.5 and 1.7 (a paragraph each, p. 2) and the proof
+of Theorem 1.4 (one paragraph, p. 6) were read in full on the page images and
+followed; Lemma 2.5 (p. 5) and the proofs of Lemmas 2.4 and 2.5 (pp. 3--6), the
+case analyses that carry the paper, were read in the text layer for structure
+only and not checked; the statement of Lemma 2.5 was checked on the page image
+of p. 5. Nothing here is independently reviewed.
 
 ## Contents
 

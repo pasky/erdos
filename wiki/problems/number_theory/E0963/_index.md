@@ -106,11 +106,11 @@ dissociated subset among $n$-element real sets, which post 3662 rejects and
 the 13-element example below refutes, so the argument gives neither a proof
 nor a disproof of the problem.
 
-Search scope, 2026-10-06: the site's problem page (OPEN, last edited 23
-January 2026, source keys [Er65] and [Va99, 1.22], no proof claims) and its
-discussion thread of 20 posts through 3 September 2026; the community
-database lists the problem as open and unformalized as of its last update,
-and formal-conjectures has no statement file for it.
+Search scope, with the sources as they stood on 2026-10-06: the site's problem
+page (OPEN, last edited 23 January 2026, source keys [Er65] and [Va99, 1.22], no
+proof claims) and its discussion thread of 20 posts through 3 September 2026;
+the community database listed the problem as open and unformalized as of its
+last update, and formal-conjectures had no statement file for it.
 
 ## Known Results
 

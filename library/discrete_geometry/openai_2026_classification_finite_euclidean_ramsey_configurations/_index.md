@@ -111,10 +111,9 @@ Read status: claims checked for
 Propositions 2.1, 2.4, 7.3, 7.6 and 7.7 and Corollary 7.1, read clause by
 clause in the TeX source (`sections/01-introduction.tex` lines 74--88;
 `sections/02-tensors.tex` lines 33--36 and 144--149;
-`sections/07-consequences.tex` lines 8--10, 29--31, 62--71, 106--109,
-124--131, 153--161 and 210--224) on 2026-10-07; the proofs were read for their
-structure only and no step was checked; nothing here is independently
-reviewed.
+`sections/07-consequences.tex` lines 8--10, 29--31, 62--71, 106--109, 124--131,
+153--161 and 210--224); the proofs were read for their structure only and no
+step was checked; nothing here is independently reviewed.
 
 ## Contents
 

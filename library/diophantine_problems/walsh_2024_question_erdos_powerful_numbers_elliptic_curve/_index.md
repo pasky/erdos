@@ -47,7 +47,7 @@ Attribution 4.0 license. The held PDF is the arXiv v1 preprint of 5 April 2024.
 
 **Bears on.** [[../wiki/problems/diophantine_problems/E0939/_index|#939]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (p. 2): If p is an odd prime with rank E(Q) > 0 for E: Y^2 =
   X^3 - 432p^2, then x^3 + y^3 = p^4 z^3 has infinitely many pairwise coprime

@@ -62,12 +62,11 @@ in the
 
 **Read depth.** Claims checked: the definition, the Theorem, the displays
 (4) and (5), their partial-summation forms, the closed form, the printed
-numerical values and the estimate (6) were read clause by clause on the
-page images on 2026-09-22. The proof of (6) (half a page) and the deduction
-of the Theorem from Lemma 2 (pp. 224--225) were read in full and followed;
-Lemmas 1--6 (pp. 222--229) were read for their statements only, and the
-sieve computations proving them were not checked. Nothing here is
-independently reviewed.
+numerical values and the estimate (6) were read clause by clause on the page
+images. The proof of (6) (half a page) and the deduction of the Theorem from
+Lemma 2 (pp. 224--225) were read in full and followed; Lemmas 1--6 (pp.
+222--229) were read for their statements only, and the sieve computations
+proving them were not checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

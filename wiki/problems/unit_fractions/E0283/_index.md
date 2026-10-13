@@ -142,7 +142,7 @@ https://www.erdosproblems.com/283, accessed 2026-09-18.
   (2026-09-18); the Drive file is the copy this page cites.
 - [OEIS] van Doorn, W., Sequence A380791, The On-Line Encyclopedia of
   Integer Sequences (2025): the number of positive rationals $x$ whose
-  threshold $k(x)$ equals $n$; accessed.
+  threshold $k(x)$ equals $n$.
 
 **Formalization.** Statement only, with a pointer to an external proof. The
 file

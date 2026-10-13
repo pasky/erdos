@@ -40,9 +40,9 @@ layer). The copy read is identified in the
 
 **Read depth.** Claims checked: the statement, the two problems as the
 paper recalls them and the approximation theorem were read clause by
-clause on the page images on 2026-09-22. The proof (one paragraph) was read
-in full and its steps followed, with the observation recorded below.
-Nothing here is independently reviewed.
+clause on the page images. The proof (one paragraph) was read in full and its
+steps followed, with the observation recorded below. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

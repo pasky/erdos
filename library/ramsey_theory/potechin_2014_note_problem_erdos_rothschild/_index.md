@@ -93,7 +93,7 @@ introduction cites, and Omega(n^{2-2c}) for c >= 2/3. A near-threshold result
 adjacent to the problem's fixed-c function, for which it gives no bound that
 grows with n.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.3 (p. 2): If G has exactly n^2/4 - nf(n) edges, each in a
   triangle, and f(n) <= n/1000, then bk(G) > n/1000 or f(n)(f(n) + bk(G))

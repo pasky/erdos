@@ -106,7 +106,7 @@ definition uses x >= 0 and positive intervals; no equivalence with
 arbitrary consecutive intervals is asserted here.
 
 The scan read for this card was visually checked on complete printed pages
-39, 42, 44 and 47-48 on 2026-09-09 for these statements and locators. This is a bounded
+39, 42, 44 and 47-48 for these statements and locators. This is a bounded
 statement check, not a full proof reconstruction or independent proof review.
 The existing f(n) account is retained; its proof has not been newly assessed.
 No live source or current literature-status search was performed.
@@ -126,7 +126,7 @@ image), defines the problem's f(n) and proves f(n) >= c(log n)^α; Sections
 11--12, pp. 45--47 (PDF pp. 7--9), prove f(n) <= C'·sqrt(n); the summary,
 p. 48, states both bounds and says neither seems exact.
 
-**Results to transcribe.**
+**Results.**
 
 - Section 1, p.39 (two- and three-input questions): For positive integers
   a < b (restoring the printed a > b as explained above), among any b

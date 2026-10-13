@@ -212,8 +212,9 @@ The proof-claim tab is empty. The community database record says open.
   rotational tournament with $S_4$). [Je26], p. 2, reports third-hand that
   "Fisher showed computationally that $P_{67}$, $P_{331}$, and $P_{1163}$ are
   the smallest $S_4$, $S_5$, and $S_6$ Paley tournaments respectively", which is
-  OEIS A362137's sequence (1, 3, 7, 19, 67, 331, 1163 from $n=0$; the entry, says that its terms from 67 on are the smallest Paley examples
-  and "only the smallest sizes of the known solutions"); these are upper bounds
+  OEIS A362137's sequence (1, 3, 7, 19, 67, 331, 1163 from $n=0$; the entry
+  says that its terms from 67 on are the smallest Paley examples and "only the
+  smallest sizes of the known solutions"); these are upper bounds
   for $f(4)$, $f(5)$, $f(6)$, not values.
 - The conjecture. [Je26], p. 2: Szekeres and Szekeres "conjectured that
   their lower bound is the true value for $f(k)$", that is

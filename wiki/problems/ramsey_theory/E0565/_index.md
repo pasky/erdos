@@ -120,7 +120,7 @@ accessed 2026-09-17.
   1975 and then explicitly in 1984".
 
 **Formalization.** None. No file `ErdosProblems/565.lean` exists in
-formal-conjectures(the full tree holds none); the site's
+formal-conjectures (the full tree holds none); the site's
 formalized-statement indicator reads no, and the community database
 (teorth/erdosproblems) lists the problem as proved as of its
 last update on 29 September 2025, unformalized and with no formal proof.

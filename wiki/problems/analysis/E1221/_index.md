@@ -296,9 +296,9 @@ statement it addresses and with its imported inputs labeled, are
 reconstructed (author-recorded, unreviewed; no status or tier follows)
 in [[research/erdos_1221/_index|the Problem 1221 research folder]].
 
-**Search scope (2026-09-27).** erdosproblems.com (page, LaTeX source, history,
-discussion thread, proof-claims tab and its comments, the bibliography entry
-dBEr49, the reference's problem list: 1220 and 1221); the community database
+**Search scope.** erdosproblems.com (page, LaTeX source, history, discussion
+thread, proof-claims tab and its comments, the bibliography entry dBEr49, the
+reference's problem list: 1220 and 1221); the community database
 teorth/erdosproblems (the YAML copy and live main, entry 1221 open, last update
 2026-09-12, comment "ambiguous statement", the highest number in the database;
 issue 414; pull request 416, "Add problems 1218--1221; mark 1221 as ambiguous",
@@ -306,16 +306,16 @@ merged 2026-09-18); conjectures.io (results and problems pages);
 formal-conjectures main (directory listing; issue and pull-request search);
 arXiv (API queries for Korsky and circle, and for de Bruijn, Erdős and circle;
 the abstract pages of 2609.07196 v1 and v2, 2605.30959, 2511.14637, 2607.00775
-and 2605.29166, none with a journal reference); Crossref (no published version
-of the three preprints); Semantic Scholar (the record of 2605.30959 with three
-citing titles; queries for 2609.07196 and 2511.14637 rate-limited); the TU/e
-list of de Bruijn's publications (the 1949 PDF); the DOI resolver for the
-Brethouwer thesis. The site's Google Drive proof document is the same manuscript
-as arXiv v2 of 2609.07196 (text identical apart from the arXiv stamp). Not
-searched: MathSciNet, zbMATH, Google Scholar, X. Outside the search: the full
-texts of 2607.00775 and 2605.29166 (abstracts only), the Brethouwer thesis, van
-Aardenne-Ehrenfest 1945/46, the author's earlier potential-function manuscript
-on Google Drive.
+and 2605.29166, none with a journal reference on 2026-09-27); Crossref (no
+published version of the three preprints on that date); Semantic Scholar (the
+record of 2605.30959 with three citing titles; queries for 2609.07196 and
+2511.14637 rate-limited); the TU/e list of de Bruijn's publications (the 1949
+PDF); the DOI resolver for the Brethouwer thesis. The site's Google Drive proof
+document is the same manuscript as arXiv v2 of 2609.07196 (text identical apart
+from the arXiv stamp). Not searched: MathSciNet, zbMATH, Google Scholar, X.
+Outside the search: the full texts of 2607.00775 and 2605.29166 (abstracts
+only), the Brethouwer thesis, van Aardenne-Ehrenfest 1945/46, the author's
+earlier potential-function manuscript on Google Drive.
 
 **Remaining gaps.** (1) No independent review of [Ko26b]; the ratio part
 (Sections 2--5, the shorter of the two arguments) is the first candidate for

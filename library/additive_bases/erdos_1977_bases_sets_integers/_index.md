@@ -72,14 +72,13 @@ pages; printed p. $n$ = PDF p. $n-419$); J. Number Theory 9 (1977), no. 4,
 420--425, DOI 10.1016/0022-314x(77)90003-8 (Crossref record read). Read status: claims checked for Theorem 1 (p. 420), Theorem 2
 (p. 422), the remark on p. 423 that most sets of type $(n,n^2)$ need a
 basis of size $c\,n\log\log n/\log n$ (asserted there without proof) and
-the closing question on p. 425, read on the page images (130 dpi) on
-2026-09-18 with the text layer used for locating; Theorem 3 (p. 424) with
-the definition of $D_A$ (p. 423) and the squares bound, inequality 9
-(p. 423), read clause by clause on the page images on 2026-10-08; the
-counting argument (pp. 421--422), the proof of Theorem 3 and its sharpness
-construction (pp. 424--425) and the choice of primes in the squares bound
-read for structure. Nothing here is independently reviewed. Result pages:
-[[additive_bases/erdos_1977_bases_sets_integers/theorem_1|theorem_1]],
+the closing question on p. 425, read on the page images (130 dpi) with the text
+layer used for locating; Theorem 3 (p. 424) with the definition of $D_A$
+(p. 423) and the squares bound, inequality 9 (p. 423), read clause by clause on
+the page images; the counting argument (pp. 421--422), the proof of Theorem 3
+and its sharpness construction (pp. 424--425) and the choice of primes in the
+squares bound read for structure. Nothing here is independently reviewed. Result
+pages: [[additive_bases/erdos_1977_bases_sets_integers/theorem_1|theorem_1]],
 [[additive_bases/erdos_1977_bases_sets_integers/theorem_2|theorem_2]],
 [[additive_bases/erdos_1977_bases_sets_integers/inequality_9|inequality_9]],
 [[additive_bases/erdos_1977_bases_sets_integers/theorem_3|theorem_3]] and

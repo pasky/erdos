@@ -29,9 +29,10 @@ $$
 R(Q_n) \ll 2^n.
 $$
 
-**Formulation.** The site's wording (the page shows no last-edited
-date). $R(Q_n)$ is the least $N$ such that every red-blue coloring of the edges
-of $K_N$ contains a monochromatic copy of $Q_n$, and "$R(Q_n)\ll2^n$" means
+**Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
+last-edited date). $R(Q_n)$ is the least $N$ such that every red-blue coloring
+of the edges of $K_N$ contains a monochromatic copy of $Q_n$, and
+"$R(Q_n)\ll2^n$" means
 $R(Q_n)\le C\,2^n$ for an absolute constant $C$; in the words of the 1975
 source, whether the set of cubes is an $L$-set. The commentary's attribution of
 the conjecture to Burr and Erdős is the site's wording: the 1975 paper poses the
@@ -68,7 +69,7 @@ https://www.erdosproblems.com/181, accessed 2026-09-18.
 
 - [Ti22] Tikhomirov, K., A remark on the Ramsey number of the hypercube.
   European J. Combin. 120 (2024), 103954, doi:10.1016/j.ejc.2024.103954
-  (Crossref record accessed: issue dated August 2024);
+  (Crossref record: issue dated August 2024);
   arXiv:2208.14568 (v1 30 August 2022, v3 2 March 2024; 24 pages; the arXiv
   listing carries no journal reference). The site's text cites the arXiv
   number with the year 2022. Theorem 1.1, the Remark after it and

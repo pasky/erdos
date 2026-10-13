@@ -66,7 +66,7 @@ Source: <https://arxiv.org/abs/2307.08901>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0172/_index|#172]]
 
-**Results to transcribe.**
+**Results.**
 
 - Conjecture 1.1 (p. 2, Hindman's): For every n >= 2 and every finite coloring
   of N, some x_1, ..., x_n have all their sums sum_{i in S} x_i and products

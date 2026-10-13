@@ -167,14 +167,15 @@ Ser. A 16 (1974), 215--220, has no claim page because its statement has not been
 compiled here. A thread comment of 9 May 2026 gives a proof for families of rank
 at most $2$; it is a thread post, not a dated manuscript, and has no page.
 
-Search scope, 2026-10-07: the site's page, its discussion thread (six
-comments) and proof-claims thread (one entry), the community database
-(teorth/erdosproblems, formalized statement recorded), the formal-conjectures
-statement file, the arXiv records of the three preprints and of the papers of
-Frankl and Kupavskii and of Eifler, Gleixner and Pulaj, the zbMATH review of
-[Bo11] and the Palomar registry. Remaining gaps: no refereed publication or
-independent review of any of the three full proofs is recorded; the site's
-wording, read with infinite ground sets, is false, as the Notes record.
+Search scope, with the sources as they stood on 2026-10-07: the site's page,
+its discussion thread (six comments) and proof-claims thread (one entry), the
+community database (teorth/erdosproblems, formalized statement recorded), the
+formal-conjectures statement file, the arXiv records of the three preprints and
+of the papers of Frankl and Kupavskii and of Eifler, Gleixner and Pulaj, the
+zbMATH review of [Bo11] and the Palomar registry. Remaining gaps: no refereed
+publication or independent review of any of the three full proofs is recorded;
+the site's wording, read with infinite ground sets, is false, as the Notes
+record.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

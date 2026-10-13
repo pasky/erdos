@@ -15,11 +15,10 @@ updated: 2026-10-08T15:33:21Z
 arXiv:2503.12277v4 (21 March 2025), 23 pages; Conjecture 1.3 on p. 3,
 Definition 1.4 on p. 3, Theorems 1.5 (pp. 3--4) and 1.6 (p. 4); proof of
 the corollary in Section 3.3, p. 19. Read on the rendered page image of
-p. 4 and in the text layer of pp. 1--6 and 19 on 2026-09-18, and on the
-page images of pp. 1--23 on 2026-10-08. The arXiv
-journal reference points to Z. Li and Q. Tang, *Generalizing a conjecture
-of Erdős and Graham via best Egyptian underapproximations*, Acta Math.
-Hungar. 177 (2025), no. 1, 41--63, DOI 10.1007/s10474-025-01566-8,
+p. 4 and in the text layer of pp. 1--6 and 19, and on the page images of pp.
+1--23. The arXiv journal reference points to Z. Li and Q. Tang, *Generalizing a
+conjecture of Erdős and Graham via best Egyptian underapproximations*, Acta
+Math. Hungar. 177 (2025), no. 1, 41--63, DOI 10.1007/s10474-025-01566-8,
 published online 13 October 2025 (the Crossref record), a
 separate paper on the conditional generalization that cites this preprint
 as its own reference item (see the source card); the published text was

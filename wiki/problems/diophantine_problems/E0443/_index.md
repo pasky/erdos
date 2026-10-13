@@ -112,11 +112,11 @@ Cambie as the informal authors and lists the paper's Theorem 1.1, Corollary
 parts of the question. This repository has not built or audited that file,
 so the standing rests on the curator's credit and not on a formal check.
 
-The status search of 7 October 2026 covered the site's problem page and
-forum thread, the arXiv record of the paper, a Crossref search for a journal
-version, the formal-conjectures file and the pinned Lean file's header. No
-other claim or dispute was found. This repository has not reviewed the
-proof; the
+The status search covered the site's problem page and forum thread, the arXiv
+record of the paper, a Crossref search for a journal version, the
+formal-conjectures file and the pinned Lean file's header. On 7 October 2026
+none of these sources recorded another claim or dispute. This repository has
+not reviewed the proof; the
 [[../library/diophantine_problems/hegyvari_2025_elementary_question_erdos_graham/_index|source card]]
 records the paper's results.
 <!-- BEGIN problem library links -->

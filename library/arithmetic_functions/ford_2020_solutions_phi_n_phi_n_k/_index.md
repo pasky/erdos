@@ -100,7 +100,7 @@ Source: <https://arxiv.org/abs/2002.12155>.
 only: Theorem 1 gives infinitude for even shifts only, and Theorem 2 for
 unspecified offsets; neither gives the unit shift $k=1$.
 
-**Results to transcribe.**
+**Results.**
 
 - [[arithmetic_functions/ford_2020_solutions_phi_n_phi_n_k/theorem_1|Theorem 1]] (p. 2): infinitude for every multiple of the displayed
   even modulus and for every multiple of some even $\ell\leq3570$.

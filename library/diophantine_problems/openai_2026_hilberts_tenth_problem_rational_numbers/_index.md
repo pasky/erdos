@@ -123,9 +123,9 @@ Theorem 2.4 with Corollary 2.5
 Propositions 2.11 and 2.12 (`02-reduction.tex` lines 27--34, 109--127,
 143--175, 294--322, 435--438, 477--486, 545--553, 643--654, 722--733 and
 755--759, in that order), Lemmas 3.3--3.4 (`03-parity.tex` lines
-300--315 and 464--468) and Lemma 6.1 (`06-primes.tex` lines 21--40), read
-clause by clause on 2026-10-12. The proofs were read for their structure
-only and no step was checked; nothing here is independently reviewed.
+300--315 and 464--468) and Lemma 6.1 (`06-primes.tex` lines 21--40), read clause
+by clause. The proofs were read for their structure only and no step was
+checked; nothing here is independently reviewed.
 
 ## Contents
 

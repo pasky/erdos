@@ -107,11 +107,10 @@ Remark 2.8 on printed p. 359 = PDF p. 11. The edition read is identified in the
 [[extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the passage from "(C)" through the end of
-Theorem 2.7, including displays (8) and (9), was read clause by clause on
-the page image of PDF p. 10 on 2026-09-22, the two displays on a 400 dpi
-crop; Remark 2.8 was read the same way on PDF p. 11. The paper prints no
-proof, so there is none to read; the thesis it cites is not held. Nothing
-here is independently reviewed.
+Theorem 2.7, including displays (8) and (9), was read clause by clause on the
+page image of PDF p. 10, the two displays on a 400 dpi crop; Remark 2.8 was read
+the same way on PDF p. 11. The paper prints no proof, so there is none to read;
+the thesis it cites is not held. Nothing here is independently reviewed.
 
 ## Proof pointer
 

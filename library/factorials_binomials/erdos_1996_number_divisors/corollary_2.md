@@ -35,9 +35,9 @@ $$
 In particular, $K(n)/\log n$ is unbounded."
 
 **Read depth.** Claims checked: the statement and the definitions of
-$F_k(n)$ and $K(n)$ were read clause by clause on the page images on
-2026-10-08, and the deduction from Theorem 3 on p. 6 was followed step by
-step. Nothing here is independently reviewed.
+$F_k(n)$ and $K(n)$ were read clause by clause on the page images, and the
+deduction from Theorem 3 on p. 6 was followed step by step. Nothing here is
+independently reviewed.
 
 ## Proof sketch
 

@@ -38,8 +38,8 @@ Read status: claims checked for the definition of h(n,c), the Alon--Trotter
 sentence (p. 1), the Edwards and Khadžiivanov--Nikiforov remark, the 1987
 question, Theorem 1.1, the Bollobás--Nikiforov paragraph and the closing
 paragraph on lower bounds (p. 2), read clause by clause on the page images
-and in the text layer on 2026-09-18; the construction (Section 3, pp. 3--7)
-was not read, and nothing here is independently reviewed.
+and in the text layer; the construction (Section 3, pp. 3--7) was not read, and
+nothing here is independently reviewed.
 
 A book of size h is a set of h triangles sharing an edge. Erdős and
 Rothschild asked to estimate h(n,c), "the largest integer such that every
@@ -87,7 +87,7 @@ triangles", the refereed attestation of the site's KhNi79 (not held) and of
 problem page cites; the paper proves nothing about the problem itself
 ([[ramsey_theory/fox_2012_problem_erdos_rothschild_edges_triangles/theorem_1_1|theorem_1_1]]).
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (p. 2): For all sufficiently large n there are n-vertex graphs
   with (n^2/4)(1 - e^{-(log n)^{1/6}}) edges, every edge in a triangle, and

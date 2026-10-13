@@ -93,21 +93,20 @@ Read status: claims checked for the abstract and § 0 (pp. 57--60), that is
 the definitions of the sequence $(y_k)$, the set $Y=Y^{q,m}$ and the
 sequences $y_k^{q,m}$, the attribution of the question to [4], Problem 4,
 Theorems I--V with their remarks, and the definition of a universal
-development, each read clause by clause on the page images of PDF pp. 1--4
-on 2026-09-22; the proof of Theorem IV (pp. 77--78, PDF pp. 21--22) was
-read in full on the page images and its reductions to Part (b) of Theorem I
-and to Lemmas 3.1 and 3.2 were followed; the statements of Lemmas 1.1--1.8,
-2.1--2.2, 3.1--3.2 and 4.1 and of Propositions 2.3, 3.3 and 3.4 were read
-on the page images, and the proofs of Theorems I, II, III and V, of
-Lemma 3.2 and of the propositions were read on the page images for
-structure only; none of them was checked. The reference list and the
-received date (p. 83, PDF p. 27) were read on the page image. On
-2026-10-08 the statements of Theorems I, II, III and V and their remarks
-were read again clause by clause on the page images for their result pages,
-with the statements of Lemmas 1.1--1.8, 2.1--2.2, 3.1--3.2 and 4.1 and of
-Propositions 2.3, 3.3 and 3.4, and the one-paragraph proofs of Part (b) of
-Theorem II (p. 74) and of Theorem III (p. 77) were followed as reductions
-to their lemmas. Nothing here is independently reviewed.
+development, each read clause by clause on the page images of PDF pp. 1--4; the
+proof of Theorem IV (pp. 77--78, PDF pp. 21--22) was read in full on the page
+images and its reductions to Part (b) of Theorem I and to Lemmas 3.1 and 3.2
+were followed; the statements of Lemmas 1.1--1.8, 2.1--2.2, 3.1--3.2 and 4.1 and
+of Propositions 2.3, 3.3 and 3.4 were read on the page images, and the proofs of
+Theorems I, II, III and V, of Lemma 3.2 and of the propositions were read on the
+page images for structure only; none of them was checked. The reference list and
+the received date (p. 83, PDF p. 27) were read on the page image. The statements
+of Theorems I, II, III and V and their remarks were read again clause by clause
+on the page images for their result pages, with the statements of Lemmas
+1.1--1.8, 2.1--2.2, 3.1--3.2 and 4.1 and of Propositions 2.3, 3.3 and 3.4, and
+the one-paragraph proofs of Part (b) of Theorem II (p. 74) and of Theorem III
+(p. 77) were followed as reductions to their lemmas. Nothing here is
+independently reviewed.
 
 ## Contents
 

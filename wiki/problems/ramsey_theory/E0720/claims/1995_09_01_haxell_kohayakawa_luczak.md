@@ -73,9 +73,9 @@ theorem.
 record); the day in the page name is a placeholder.
 
 **Acceptance.** Refereed: Combin. Probab. Comput. 4 (1995), no. 3, 217--239.
-Semantic Scholar's roughly 95 citing records, checked by title on 2026-09-18,
-include no dispute. The site's commentary does not cite the paper. It credits
-the cycle bound to Beck.
+On 2026-09-18 Semantic Scholar listed roughly 95 citing records, none of them,
+by its title, a dispute. The site's commentary does not cite the paper. It
+credits the cycle bound to Beck.
 
 **Read depth.** Claims checked: the basis is Theorem 10 and Corollary 11
 (preprint p. 11) and the attribution (p. 3 and reference [6], p. 21); no

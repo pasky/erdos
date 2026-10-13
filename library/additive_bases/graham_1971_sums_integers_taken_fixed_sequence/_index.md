@@ -84,12 +84,12 @@ error), and the proceedings have no publisher page; the term is unstated.
 Read status: claims checked for the definitions of $\Sigma(S)$, $P(S)$,
 complete and strongly complete (pp. 22 and 24) and for all twelve open
 questions (pp. 34--36), read clause by clause on the page images of PDF
-pp. 1, 3 and 13--15 on 2026-09-22; the survey body (pp. 25--33) and the
-reference list (pp. 37--40) were read on the page images of PDF pp. 4--12
-and 16--19 for the statements summarized below. The paper proves nothing:
-every statement in it is either a definition, a reported result of a cited
-paper, or an open question, and no reported result was checked against its
-source here. Nothing here is independently reviewed.
+pp. 1, 3 and 13--15; the survey body (pp. 25--33) and the reference list (pp.
+37--40) were read on the page images of PDF pp. 4--12 and 16--19 for the
+statements summarized below. The paper proves nothing: every statement in it is
+either a definition, a reported result of a cited paper, or an open question,
+and no reported result was checked against its source here. Nothing here is
+independently reviewed.
 
 ## Contents
 

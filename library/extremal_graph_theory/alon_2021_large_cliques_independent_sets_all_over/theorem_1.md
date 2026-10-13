@@ -76,12 +76,10 @@ PDF, identified on the
 [[extremal_graph_theory/alon_2021_large_cliques_independent_sets_all_over/_index|source card]].
 Complete rendered PDF pages 1-3, 7-8, and 10 were inspected for the source
 identity, theorem interface, construction description, and proof pointer;
-the statement, label and page were read again on all thirteen page images
-on 2026-10-08.
-The final asymptotic specialization above was checked as an author check.
-Theorem 2 is otherwise used as a stated source premise. No complete proof
-reconstruction, independent proof acceptance, or formal verification is
-claimed.
+the statement, label and page were read again on all thirteen page images. The
+final asymptotic specialization above was checked as an author check. Theorem 2
+is otherwise used as a stated source premise. No complete proof reconstruction,
+independent proof acceptance, or formal verification is claimed.
 
 ## Bears on
 

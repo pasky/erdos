@@ -29,13 +29,11 @@ The retained
 [folder-name PDF](bedert_2025_large_sum_free_subsets_sets_integers.pdf) is
 arXiv:2502.08624v1 (12 February 2025; 37 pages), the only arXiv version on
 2026-09-18, with no journal reference on arXiv and no Crossref record: an
-unrefereed preprint. Before 2026-09-18 this digest was written from the arXiv
-abstract alone; it was rewritten from the PDF on that date. Read status: claims
-checked for the definitions of sum-free, $S(A)$ and $S(N)$ (display (1), p. 1),
-Problem 1.1, Theorem 1.2 and Theorem 1.3 (p. 2) and Theorem 2.2 (p. 3), each
-read clause by clause in the text layer, with the overview of Section 2 (pp.
-3--5); the proof (Sections 4--9, pp. 7--34) was not read. The main statement is
-on
+unrefereed preprint. Read status: claims checked for the definitions of
+sum-free, $S(A)$ and $S(N)$ (display (1), p. 1), Problem 1.1, Theorem 1.2 and
+Theorem 1.3 (p. 2) and Theorem 2.2 (p. 3), each read clause by clause in the
+text layer, with the overview of Section 2 (pp. 3--5); the proof (Sections
+4--9, pp. 7--34) was not read. The main statement is on
 [[additive_combinatorics/bedert_2025_large_sum_free_subsets_sets_integers/theorem_1_2|theorem_1_2]].
 The arXiv record (https://arxiv.org/abs/2502.08624, read 2026-10-02) names the
 Creative Commons Attribution 4.0 license.
@@ -100,7 +98,7 @@ Problem 1 of Green's list, recorded with the preprint qualification.
 two-term sum-free condition treated here does not imply that problem's
 condition on sums of two or more distinct summands.
 
-**Results to transcribe.**
+**Results.**
 
 - [[additive_combinatorics/bedert_2025_large_sum_free_subsets_sets_integers/theorem_1_2|Theorem 1.2]]
   (p. 2): There is c > 0 such that every finite set A of integers has a

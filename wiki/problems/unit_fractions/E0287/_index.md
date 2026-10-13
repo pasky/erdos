@@ -86,7 +86,7 @@ https://www.erdosproblems.com/287, accessed 2026-09-17.
 
 **Formalization.** Statement only for the main question. The file
 [`ErdosProblems/287.lean`](https://github.com/google-deepmind/formal-conjectures/blob/2074bd5600639880106b82447ff96269996822b7/FormalConjectures/ErdosProblems/287.lean)
-of formal-conjectures,(the link is pinned to that commit),
+of formal-conjectures (the link is pinned to that commit)
 declares `erdos_287` as `answer(sorry) ↔` the statement for all $k\ge2$ and
 all strictly increasing `s : Fin k → ℕ` with `1 < s 0` and real reciprocal sum
 $1$, under `category research open`, proof `sorry`. The same file carries the

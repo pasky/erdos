@@ -69,10 +69,8 @@ Read status: claims checked for the abstract (p. 1), Notation 1.7 and
 Remark 1.8 (p. 4), Theorems 1.9 (p. 4), 1.10 (p. 5), 2.1 (p. 5), 3.1
 (p. 10) and 4.5 (p. 14), Corollaries 2.3 and 2.4 (pp. 7--8), Remark 3.2
 (p. 10) and Proposition 3.7 (p. 11) of arXiv:1711.09282v1, the copy read
-for this card (18 pages, stamped "[math.CO] 25 Nov 2017"), on the page
-images; the abstract and Theorems 1.10, 3.1 and 4.5 on 2026-10-07, the
-rest on 2026-10-08. The proofs were read for structure only and not
-checked step by step.
+for this card (18 pages, stamped "[math.CO] 25 Nov 2017"), on the page images.
+The proofs were read for structure only and not checked step by step.
 
 Source: <https://arxiv.org/abs/1711.09282>.
 

@@ -38,8 +38,8 @@ identified on the
 [[extremal_graph_theory/alon_2021_large_cliques_independent_sets_all_over/_index|source card]].
 
 **Read depth.** Claims checked: the statement and its hypotheses were read
-clause by clause on the page images on 2026-10-08. The proof was read for
-its structure only; its estimates were not checked.
+clause by clause on the page images. The proof was read for its structure only;
+its estimates were not checked.
 
 ## Proof pointer
 

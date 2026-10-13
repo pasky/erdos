@@ -44,8 +44,8 @@ pp. 79--80, the Remark on p. 80. The artifact is identified in the
 [[ramsey_theory/zhang_2017_some_values_ramsey_numbers_c_4_versus_stars/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the Remark were read
-clause by clause on the page images of printed pp. 79--80 on 2026-10-08.
-The proof was read for structure. Nothing here is independently reviewed.
+clause by clause on the page images of printed pp. 79--80. The proof was read
+for structure. Nothing here is independently reviewed.
 
 ## Proof pointer
 

@@ -124,11 +124,12 @@ notes by Przemek Chojecki, both posted as written by GPT-5.5 Pro. The note of
 2026-04-30 deduces the precise Statement from the Matomäki--Radziwiłł theorem.
 It is recorded as a pending full claim on
 [[problems/primes/E1201/claims/2026_04_30_chojecki|Chojecki's claim page]]. The
-conditional natural-density note of 2026-05-01 is recorded as a rejected claim
-on [[problems/primes/E1201/claims/2026_05_01_chojecki|the conditional page]]. It
-is rejected because it reaches the natural-density variant, and through it the
-precise Statement, only under an unproven hypothesis and only for
-$\epsilon<1/2$. The site has accepted neither note.
+conditional natural-density note of 2026-05-01 is recorded as a pending
+conditional claim on
+[[problems/primes/E1201/claims/2026_05_01_chojecki|the conditional page]]. It
+reaches the natural-density variant, and through it the precise Statement,
+only under an unproven hypothesis and only for $\epsilon<1/2$, so it derives
+nothing for the standing. The site has accepted neither note.
 
 **Source.** [erdosproblems.com/1201](https://www.erdosproblems.com/1201),
 accessed 2026-09-04; its discussion thread accessed 2026-10-07. Cite as:

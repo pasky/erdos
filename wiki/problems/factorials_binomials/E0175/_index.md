@@ -135,9 +135,9 @@ factorizations cover $n\le2081$, and they state that $\binom{1572}{786}$ is
 the largest central binomial coefficient not divisible by the square of an odd
 prime.
 
-Search scope, 2026-10-07: the site's problem page, its discussion thread,
-the community database and the formal-conjectures file; the site lists no
-proof claim for the problem.
+Search scope: the site's problem page, its discussion thread, the community
+database and the formal-conjectures file; the site listed no proof claim for
+the problem on 2026-10-07.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -335,7 +335,7 @@ two-coloring is also a coloring with any larger number of colors, so
 Galvin's example already refutes that question for every $k\ge2$ and for
 $\aleph_0$. Under either reading the sentence predates the disproof.
 
-**Search scope (2026-09-18 UTC).** None of the routes below found a
+**Search scope.** On 2026-09-18 none of the routes below showed a
 refereed or arXiv version of the note, a written review beyond the thread,
 a dispute of the argument, or a second proof.
 

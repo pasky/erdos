@@ -79,12 +79,12 @@ not part of the question and are not assessed here. The site's Problem 487 is
 the number-theoretic consequence and its Problem 1023 the variant forbidding
 the union of any number of members.
 
-Search scope, 2026-10-07: the site's page and discussion thread (one comment,
-no proof claims), the community database (teorth/erdosproblems), the
-formal-conjectures statement file, the lean-proofs collection and Crossref.
-No other claim on the problem was found. One third-party Lean proof of
-Kleitman's theorem is linked from the claim page; it was not built or audited
-here, and the site's Lean qualifier rests on it.
+Search scope, with the sources as they stood on 2026-10-07: the site's page
+and discussion thread (one comment, no proof claims), the community database
+(teorth/erdosproblems), the formal-conjectures statement file, the lean-proofs
+collection and Crossref. None of them showed another claim on the problem. One
+third-party Lean proof of Kleitman's theorem is linked from the claim page; it
+was not built or audited here, and the site's Lean qualifier rests on it.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

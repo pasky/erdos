@@ -50,11 +50,10 @@ The copy read for this card is the journal's file: Electron. J. Combin. 1
 September 1994; DOI 10.37236/1188 per the Crossref record read);
 printed page equals PDF page. Read status: claims checked for the
 definitions (p. 1) and for the partition and the bounds S(5) >= 160,
-R_5(3) >= 162 (p. 2), read clause by clause on the page images; the
-partition was recomputed on 2026-09-18 (disjoint, covering [1, 160],
-sum-free with i = j allowed); the exponential bound c(321)^{k/5} and the
-R_6(3) >= 500 consequence are attributed to other papers and were not
-checked. Result page:
+R_5(3) >= 162 (p. 2), read clause by clause on the page images; the partition
+was recomputed (disjoint, covering [1, 160], sum-free with i = j allowed); the
+exponential bound c(321)^{k/5} and the R_6(3) >= 500 consequence are attributed
+to other papers and were not checked. Result page:
 [[ramsey_theory/exoo_1994_lower_bound_schur_numbers_multicolor_ramsey/lower_bound_p2|lower_bound_p2]].
 No notice is printed in the file; the journal's article page
 (https://www.combinatorics.org/ojs/index.php/eljc/article/view/v1i1r8, read
@@ -75,7 +74,7 @@ problem's $R(3;k)$ and on its growth rate, $3.17176$ per color;
 [[../wiki/problems/ramsey_theory/E0483/_index|#483]] (f(5) >= 161, the lower half of the
 exact value f(5) = 161)
 
-**Results to transcribe.**
+**Results.**
 
 - S(5) >= 160: Explicit symmetric partition of [1,160] into five sum-free sets,
   listed in the paper.

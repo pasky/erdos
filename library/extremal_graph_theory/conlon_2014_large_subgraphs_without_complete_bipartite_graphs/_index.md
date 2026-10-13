@@ -94,7 +94,7 @@ improves an estimate of Foucaud, Krivelevich and Perarnau by a logarithmic
 factor. Theorems 3.1 and 3.2 bear on no problem page directly; at k = 2
 they are Theorem 2.1 and the case s = r of Theorem 2.3.
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/conlon_2014_large_subgraphs_without_complete_bipartite_graphs/theorem_2_1|Theorem 2.1]]
   (p. 1): Every graph with m edges contains a K_{r,r}-free subgraph with at

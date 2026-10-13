@@ -101,11 +101,11 @@ $r=7$, $n=8$ is immediate. The case $r=3$ with $n\ge10$, and every case
 $r\ge4$ beyond the trivial range $n\le r+1$, are untouched by any claim
 found. The problem is open with no full claim.
 
-Search scope, 2026-10-07: the site's problem page, discussion thread (one
-comment) and proof-claims tab (one claim), the community database entry
-(teorth/erdosproblems), the formal-conjectures statement file, the
-lean-proofs catalog, and the cards of [Er81] and [EGP66]. No other claim on
-the problem was found.
+Search scope, with the changing sources as they stood on 2026-10-07: the
+site's problem page, discussion thread (one comment) and proof-claims tab (one
+claim), the community database entry (teorth/erdosproblems), the
+formal-conjectures statement file, the lean-proofs catalog, and the cards of
+[Er81] and [EGP66]. None of them showed another claim on the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

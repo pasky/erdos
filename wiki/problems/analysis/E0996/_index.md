@@ -122,10 +122,10 @@ the problem, which at its revision of 18 September 2026 tags the problem
 research open (Formalization above); the corpus has built nothing, so no
 formalized evidence is listed.
 
-Search scope, 2026-10-07: the site page, its thread and proof-claims tab, the
-arXiv record of Ho's preprint and its library card, the formal-conjectures file
-and Yang's repository, and the Math-Net.Ru record of Raikov's paper; no wider
-literature search was made.
+Search scope: the site page, its thread and proof-claims tab, the arXiv record
+of Ho's preprint and its library card, the formal-conjectures file and Yang's
+repository, and the Math-Net.Ru record of Raikov's paper; no wider literature
+search was made.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

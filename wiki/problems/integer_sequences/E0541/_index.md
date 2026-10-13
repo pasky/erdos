@@ -194,7 +194,7 @@ zero-sum subsequence of length at most the maximal multiplicity) and $r<n/2$
 (Theorem D of Savchev--Chen and Yuan on long zero-sum free sequences); read
 for structure, not checked. Acceptance evidence: refereed publication in the
 Journal of Number Theory; the site's label and commentary; nineteen citing
-records in Semantic Scholar (scanned by title on 2026-09-18: generalizations
+records in Semantic Scholar on 2026-09-18 (scanned by title: generalizations
 and structure results, none a dispute), among them a 2015 paper titled "A
 generalization of Graham's conjecture" and a 2025 preprint on the structure
 of sequences with zero-sum subsequences of the same length. Read depth:

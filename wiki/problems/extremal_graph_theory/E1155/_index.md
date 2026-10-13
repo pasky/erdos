@@ -175,14 +175,13 @@ while the manuscript has no journal or arXiv version and no independent review.
 It says nothing about the typical structure of the terminal graph beyond its
 edge count.
 
-**Search scope (2026-10-07 UTC).** The site's problem page, discussion
-thread and proof-claim tab, the formal-conjectures tree and the community
-database, with the library cards of [BFL15], [Va99] and [OAI26], the last
-with the release's comparator statement and solution module. No database,
-arXiv or publisher search was made for this problem. [Bo98], [Gr97] and
-[JoKu24] are not held; what this page says of them comes from the site, its
-thread, the introduction of [BFL15] and the release manuscript's own
-account.
+**Search scope.** The site's problem page, discussion thread and proof-claim
+tab, the formal-conjectures tree and the community database, with the library
+cards of [BFL15], [Va99] and [OAI26], the last with the release's comparator
+statement and solution module. No database, arXiv or publisher search was made
+for this problem. [Bo98], [Gr97] and [JoKu24] are not held; what this page says
+of them comes from the site, its thread, the introduction of [BFL15] and the
+release manuscript's own account.
 
 **Remaining gaps.** (1) The displayed questions are answered by the sharp
 constant, accepted on its formalization alone: the refereed result gives the

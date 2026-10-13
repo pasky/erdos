@@ -80,10 +80,10 @@ proves the almost-sure limit; the claim page links it at its pinned commit. The
 development is not built or audited in this repository, so no `formalized`
 evidence is listed.
 
-**Search scope and read depth.** Search scope (2026-10-07): the site's
-problem page and its empty thread, the formal-conjectures tree and the
-lean-proofs file. Read depth: Halász 1973 for the theorem, the
-power-polynomial extension and the received date.
+**Search scope and read depth.** Search scope: the site's problem page and its
+thread (empty on 2026-10-07), the formal-conjectures tree and the lean-proofs
+file. Read depth: Halász 1973 for the theorem, the power-polynomial extension
+and the received date.
 
 ## Progress
 

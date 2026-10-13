@@ -65,14 +65,13 @@ the definition of an essential component and the quotation from Halberstam
 and Roth (p. 146), the size result on essential components and the
 question on the numbers $2^m3^n$ (p. 147), and the opening of § 16 with
 the bounds on the distinct-subset-sums function $g(n)$ (p. 151), each read
-clause by clause on the page images of PDF pp. 1, 2, 32, 33 and 37 on
-2026-09-22; the last page of the references (p. 163, PDF p. 49) was read
-on the page image. The rest of the survey (pp. 116--154) and the reference
-list (pp. 154--163) were read in the text layer for structure only, to map
-the sections and to locate the bibliography entries named below. The
-survey states results with pointers to the literature and gives proofs
-only in sketch; no proof was checked, and nothing here is independently
-reviewed.
+clause by clause on the page images of PDF pp. 1, 2, 32, 33 and 37; the last
+page of the references (p. 163, PDF p. 49) was read on the page image. The rest
+of the survey (pp. 116--154) and the reference list (pp. 154--163) were read in
+the text layer for structure only, to map the sections and to locate the
+bibliography entries named below. The survey states results with pointers to the
+literature and gives proofs only in sketch; no proof was checked, and nothing
+here is independently reviewed.
 
 ## Contents
 

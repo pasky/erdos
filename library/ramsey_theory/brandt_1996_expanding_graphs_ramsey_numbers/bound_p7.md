@@ -52,9 +52,9 @@ series. The edition is identified in the
 
 **Read depth.** Claims checked: the announcement on p. 4 and the statement
 and conclusion of the argument on pp. 7--8 were read clause by clause in
-the text layer on 2026-09-18. The argument (about one page) was read for
-its structure and not checked; its input, Theorem 3 of the preprint on the
-expansion of almost every $d$-regular graph, was not checked.
+the text layer. The argument (about one page) was read for its structure and not
+checked; its input, Theorem 3 of the preprint on the expansion of almost every
+$d$-regular graph, was not checked.
 
 ## Proof pointer
 

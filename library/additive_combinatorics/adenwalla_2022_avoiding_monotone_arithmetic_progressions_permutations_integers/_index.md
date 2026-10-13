@@ -57,7 +57,7 @@ Attribution 4.0 license.
 [[../wiki/problems/additive_combinatorics/E0196/_index|#196]],
 [[../wiki/problems/additive_combinatorics/E0197/_index|#197]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 3): "There exists a permutation of the integers, $P$, that
   avoids 5-APs." Here a $k$-AP is a monotone $k$-term arithmetic progression;

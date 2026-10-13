@@ -37,7 +37,7 @@ factors; stated without proof in the paper.
 
 S. A. Burr, P. Erdős, R. J. Faudree, C. C. Rousseau and R. H. Schelp, *An
 extremal problem in generalized Ramsey theory*, Ars Combin. 10 (1980),
-193--203 (MR 82b:05096; Zbl 458.05045). No Crossref record exists for the
+193--203 (MR 82b:05096; Zbl 458.05045). No Crossref record was found for the
 article (bibliographic query of 2026-09-18).
 
 The copy read for this card is the Rényi archive scan (OmniPage, 11 pages),

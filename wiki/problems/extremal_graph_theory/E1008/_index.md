@@ -115,7 +115,7 @@ Problem #1008, https://www.erdosproblems.com/1008, accessed 2026-09-18.
 
 **Formalization.** The site's (LEAN) suffix is a catalog label. The file
 [`ErdosProblems/1008.lean`](https://github.com/google-deepmind/formal-conjectures/blob/468a1438e567ae6dd1d733cfbecacdd3b33afaed/FormalConjectures/ErdosProblems/1008.lean)
-of formal-conjectures,(the link pins that commit), declares
+of formal-conjectures (the link pins that commit) declares
 `erdos_1008 : answer(True) ↔ ∃ c > (0 : ℝ), ∀ (V : Type) [Fintype V] (G : SimpleGraph V), ∃ H ≤ G, (cycleGraph 4).Free H ∧ c * (G.edgeSet.ncard : ℝ) ^ (2 / 3 : ℝ) ≤ (H.edgeSet.ncard : ℝ)`
 under `category research solved, AMS 5`, with proof `sorry` and a `formal_proof`
 attribute naming `src/v4.29.1/ErdosProblems/Erdos1008.lean` in the repository

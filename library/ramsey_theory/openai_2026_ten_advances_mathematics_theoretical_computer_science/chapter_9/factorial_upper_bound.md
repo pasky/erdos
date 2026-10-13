@@ -173,12 +173,12 @@ computational proof, Theorem 3.2, Propositions 5.1–5.5, the two reported
 programs and Kramer's manuscript remain outside local proof coverage.
 Printed pp. 49–59 / PDF pp. 9–19 of that journal paper were not viewed.
 
-On 2026-09-10, the complete OpenAI page carrying equation (2) and its
-bibliography page, printed pp. 230 and 235 / PDF pp. 234 and 239, were
-visually inspected for this route. The Fettes–Kramer–Radziszowski digest
-records the finite source's exact artifact and page-reading limits.
-The argument above was checked by hand by its author; no mathematical
-program, evidence run or Lean check supports this filing.
+The complete OpenAI page carrying equation (2) and its bibliography page,
+printed pp. 230 and 235 / PDF pp. 234 and 239, were visually inspected for this
+route. The Fettes–Kramer–Radziszowski digest records the finite source's exact
+artifact and page-reading limits. The argument above was checked by hand by its
+author; no mathematical program, evidence run or Lean check supports this
+filing.
 
 This separate upper route gives quantitative context for
 [[../wiki/problems/ramsey_theory/E0183/_index|Problem 183]]. It is not needed for the

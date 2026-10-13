@@ -82,8 +82,8 @@ Read status: claims checked for Theorem 1.1, for the fixed-$u$ consequence
 `sections/03-determinant.tex` lines 37--63,
 `sections/06-correlations.tex` lines 55--82,
 `sections/07-extraction.tex` lines 3--31 and `sections/08-poisson-dirichlet.tex`
-in full) on 2026-10-07; the proofs were read for their structure only and no
-step was checked; nothing here is independently reviewed.
+in full); the proofs were read for their structure only and no step was checked;
+nothing here is independently reviewed.
 
 ## Contents
 

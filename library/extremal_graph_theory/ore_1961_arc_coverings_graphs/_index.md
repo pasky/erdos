@@ -76,11 +76,10 @@ site footer "© 2026 Springer Nature", every other right reserved.
 Read status: claims checked for the definitions (p. 315), Theorem 2.1
 (p. 317), Theorems 3.1 and 3.2 and Theorem 4.1 (p. 318), Theorem 4.2
 (pp. 319--320) and Theorem 4.3 with Fig. 3 (p. 320), each read clause by
-clause on the page images of PDF pp. 1--7 on 2026-09-22. The proofs of
-Theorem 2.1 (pp. 316--317), Theorem 4.1 (pp. 318--319) and Theorem 4.3
-(pp. 320--321) were read in full on the page images and followed. The text
-layer was used only to locate passages. Nothing here is independently
-reviewed.
+clause on the page images of PDF pp. 1--7. The proofs of Theorem 2.1 (pp.
+316--317), Theorem 4.1 (pp. 318--319) and Theorem 4.3 (pp. 320--321) were read
+in full on the page images and followed. The text layer was used only to locate
+passages. Nothing here is independently reviewed.
 
 ## Contents
 

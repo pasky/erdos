@@ -200,13 +200,13 @@ prize program's repository (`TheJustinSunPrize/awards`, PR 493; closed), its
 description stating that neither question is claimed; the corpus has not
 built or checked it.
 
-**Search scope (2026-09-18 UTC).** The problem, discussion and proof-claim
-pages (and the thread of Problem 311 for the special case); the community
-database record; the formal-conjectures file at the pinned
-commit; arXiv API searches for abstracts naming reciprocals with signs and
-harmonic or unit fractions (one unrelated record), Egyptian fractions with
-subset sums (one unrelated record) and "Erdos problem" with the problem
-number (none); the monograph's pp. 42 and 43; the GitHub API record of the
+**Search scope.** The problem, discussion and proof-claim pages (and the
+thread of Problem 311 for the special case); the community database record;
+the formal-conjectures file at the pinned commit; arXiv API searches of
+2026-09-18 for abstracts naming reciprocals with signs and harmonic or unit
+fractions (one unrelated record), Egyptian fractions with subset sums (one
+unrelated record) and "Erdos problem" with the problem number (none); the
+monograph's pp. 42 and 43; the GitHub API record of the
 pull request above; one general web search in three rounds, whose results
 were papers on other unit-fraction problems (the count of subsets with
 reciprocal sum one, Problem 297; one of them, arXiv:2403.17041, concerns

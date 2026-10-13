@@ -32,9 +32,9 @@ Here $d(m)$ is the number of positive divisors of $m$. Since $n/P(n)$ is an
 integer, the main term $P(n)/n$ is always of the form $1/m$ with $m$ a
 natural number.
 
-**Read depth.** Claims checked: the statement was read clause by clause on
-the page image on 2026-10-08, and the proof on p. 4 was followed step by
-step. Nothing here is independently reviewed.
+**Read depth.** Claims checked: the statement was read clause by clause on the
+page image, and the proof on p. 4 was followed step by step. Nothing here is
+independently reviewed.
 
 ## Proof sketch
 

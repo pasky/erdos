@@ -70,7 +70,7 @@ prime factors at most 101. The paper says nothing about other rationals, and
 whether 47 is the least number of terms, which the paper assumes but does not
 prove, is not asked by Problem 306.
 
-**Results to transcribe.**
+**Results.**
 
 - Main result (Section 2): 17 new representations of 1 as a sum of reciprocals
   of 47 distinct products of two distinct primes, improving Johnson's 48-term

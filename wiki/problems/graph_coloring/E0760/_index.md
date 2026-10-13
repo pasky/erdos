@@ -62,12 +62,12 @@ Theory and credited by the site's curator; the problem's standing derives from
 that accepted claim. The bound is tight up to the constant, by the complete
 graph; the constant is not determined and the question does not ask for it.
 
-Search scope, 2026-10-07: the site's page and discussion thread, the community
-database (teorth/erdosproblems), the formal-conjectures statement file, the
-lean-proofs and erdos-lean catalogs, and Crossref. No other claim on the
-problem was found. Del Vecchio's Lean proof of the theorem is linked from the
-claim page in its original posting and two later variants; the corpus did not
-build them, and the site's Lean qualifier rests on them.
+Search scope: the site's page and discussion thread, the community database
+(teorth/erdosproblems), the formal-conjectures statement file, the lean-proofs
+and erdos-lean catalogs, and Crossref; on 2026-10-07 none of them showed
+another claim on the problem. Del Vecchio's Lean proof of the theorem is
+linked from the claim page in its original posting and two later variants; the
+corpus did not build them, and the site's Lean qualifier rests on them.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

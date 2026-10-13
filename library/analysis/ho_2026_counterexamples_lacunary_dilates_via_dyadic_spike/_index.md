@@ -21,9 +21,9 @@ arXiv preprint (2026). arXiv:2604.18535. The arXiv record
 Attribution 4.0 license. The folder's PDF is arXiv:2604.18535v2 [math.CA] (21
 April 2026; 27 pages). Read status: claims checked for Theorem 1.1, Definition
 1.2 and Corollary 1.3 (p. 3), Corollaries 1.4 and 1.5 and Theorem 1.6 (p. 4) and
-Theorem 1.7 (p. 5), each read clause by clause on the page images on 2026-10-07,
-with the short deductions of the three corollaries from Theorem 1.1 (pp.
-20--21); the proofs of Theorems 1.1, 1.6 and 1.7 were not read.
+Theorem 1.7 (p. 5), each read clause by clause on the page images, with the
+short deductions of the three corollaries from Theorem 1.1 (pp. 20--21); the
+proofs of Theorems 1.1, 1.6 and 1.7 were not read.
 
 The construction is built from dyadic spikes: functions of mean zero and unit
 L^2 norm that are large and positive on one short dyadic interval and slightly
@@ -55,7 +55,7 @@ Source: <https://arxiv.org/abs/2604.18535>.
 **Bears on.** [[../wiki/problems/discrepancy/E0995/_index|#995]],
 [[../wiki/problems/analysis/E0996/_index|#996]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: There exist a mean-zero f in every finite L^p and a dyadic
   lacunary sequence with ||f - S_N f||_2 << (loglog N)^{-1/2} but limsup N^{-1}

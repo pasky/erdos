@@ -92,10 +92,9 @@ page (`lean/docs/084.md`) lists as formalized.
 Read status: claims checked for Theorem 1.1 (the main theorem) and Lemma 2.1
 (the periodic hitting lemma), read clause by clause in the TeX source
 (`sections/introduction.tex` lines 24--33, `sections/periodic.tex` lines
-13--20) on 2026-10-07, together with the statements of Lemma 3.1, Lemmas
-4.1--4.3, Lemma 5.1 and Proposition 5.2; the proofs were read for their
-structure only and no step was checked; nothing here is independently
-reviewed.
+13--20), together with the statements of Lemma 3.1, Lemmas 4.1--4.3, Lemma 5.1
+and Proposition 5.2; the proofs were read for their structure only and no step
+was checked; nothing here is independently reviewed.
 
 ## Contents
 

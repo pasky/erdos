@@ -4,8 +4,8 @@ title: "Theorem 1.6 (p. 4): χ'_s(G) ≤ 1.772 Δ(G)² for every graph with Δ(G
 desc: |
   Hurley, de Joannis de Verclos and Kang's bound on the strong chromatic
   index, 1.772 times the squared maximum degree for all degrees at least
-  some Δ_0, the best refereed general bound as of 2026, with the chain of
-  earlier constants in the paper's ε-form.
+  some Δ_0, the best refereed general bound, with the chain of earlier
+  constants in the paper's ε-form.
 created: 2026-09-19T08:00:00Z
 updated: 2026-10-08T01:29:58Z
 ---

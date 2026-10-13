@@ -15,7 +15,8 @@ updated: 2026-10-07T20:53:40Z
 ***
 
 Stijn Cambie, Arne Decadt, Yanni Dong, Tao Hu, Quanyu Tang, On the maximum
-product of distances of diameter $2$ point sets. arXiv:2603.07088 (2026).
+product of distances of diameter $2$ point sets. arXiv:2603.07088 (2026). The
+held PDF is arXiv:2603.07088v1 (7 March 2026).
 
 For a configuration $P=\{z_1,\ldots,z_n\}\subset\mathbb C$ of diameter at
 most $2$, the paper writes

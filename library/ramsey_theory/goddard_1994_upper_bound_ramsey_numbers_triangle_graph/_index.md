@@ -55,7 +55,7 @@ stronger than the problem's sufficiently-large qualification in this case.
 **Bears on.** [[../wiki/problems/ramsey_theory/E0569/_index|#569]] (the $k=1$ case,
 $c_1=3$, unconditional); [[../wiki/problems/ramsey_theory/E0570/_index|#570]].
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/goddard_1994_upper_bound_ramsey_numbers_triangle_graph/main_theorem|Main theorem]]: If $G$ has $q$ edges and no isolated
   vertices, then $r(K_3,G)\leq2q+1$.

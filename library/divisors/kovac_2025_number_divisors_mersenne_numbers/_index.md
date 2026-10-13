@@ -53,7 +53,7 @@ Source: <https://arxiv.org/abs/2506.04883>.
 rules out every finite limit of f(2n)/f(n); Theorem 3 gives f(2n)/f(n) ->
 infinity only under Conjecture 1 or Conjecture 2, neither proved.
 
-**Results to transcribe.**
+**Results.**
 
 - [[divisors/kovac_2025_number_divisors_mersenne_numbers/theorem_1|Theorem 1]]:
   limsup_{n->infinity} f(2n)/f(n) = infinity, where f(n) = sum_{k<=n}

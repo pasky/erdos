@@ -80,7 +80,7 @@ answer, with the paper's attribution of the plain linear bound to Bollobás,
 Burr and an unnamed third person, cited as Bollobás's personal communication
 of November 1992 (its [6]), recorded above.
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/haxell_1995_induced_size_ramsey_number_cycles/theorem_10|Theorem 10]] (p. 11): For every r >= 2 there are constants B, b > 0 such that every
   sufficiently large n admits a graph G of order n and size O(n) where any

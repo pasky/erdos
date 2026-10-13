@@ -120,14 +120,14 @@ one lemma of that preprint cannot be used as written, while stating that this is
 not a counterexample to the preprint's theorem. No manuscript of Conlon, Fox and
 Pham on the square-sum-free problem was found.
 
-**Search scope (2026-10-07).** The site's page, discussion thread and
-proof-claims tab (no comments, no proof claims); the community database
-(teorth/erdosproblems: solved, formalized statement, no Lean proof recorded);
-formal-conjectures (`ErdosProblems/587.lean` states the problem and a variant
-for Nguyen and Vu's bound and carries no `formal_proof`); the arXiv records of
-Nguyen and Vu and of Conlon, Fox and Pham; Crossref for the chapter; and
-Alexeev's repository plby/lean-proofs, whose Erdős 587 development is the only
-Lean proof found.
+**Search scope.** The sources below, as they stood on 2026-10-07: the site's
+page, discussion thread and proof-claims tab (no comments, no proof claims); the
+community database (teorth/erdosproblems: solved, formalized statement, no Lean
+proof recorded); formal-conjectures (`ErdosProblems/587.lean` states the
+problem and a variant for Nguyen and Vu's bound and carries no `formal_proof`);
+the arXiv records of Nguyen and Vu and of Conlon, Fox and Pham; Crossref for the
+chapter; and Alexeev's repository plby/lean-proofs, whose Erdős 587 development
+was the only Lean proof found.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -207,7 +207,7 @@ $s\ge\tfrac52k+4$ after [CFS13]), a restriction irrelevant to the problem's
 fixed $r$ and $n\to\infty$. Both are second-hand restatements; the
 stepping-up proof itself is not compiled here.
 
-**Adjacent results that are not the problem (leads from the dated
+**Adjacent results that are not the problem (leads from the
 search).** [BDHLW26] treats $r_k(k+1,k+1)$ as $k$ grows
 ([[../library/ramsey_theory/bai_2026_new_tower_type_lower_bounds_hypergraph/theorem_1_2|Theorem 1.2]]:
 $r_k(k+1,k+1)>s_3(\lfloor k/2\rfloor-2)$ for $k\ge6$;

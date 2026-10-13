@@ -72,11 +72,10 @@ edition is identified in the
 
 **Read depth.** Claims checked: the question, the definition, the small
 values, the $K=1$ estimate and the statement were read clause by clause on
-the page image on 2026-09-22. The proof (about a page) was read in full on
-the page images and followed for structure; apart from the passage from
-(3.6) to (3.7) in the third filing observation, no step, in particular the
-estimate (3.6) of the block count, was checked. Nothing here is
-independently reviewed.
+the page image. The proof (about a page) was read in full on the page images and
+followed for structure; apart from the passage from (3.6) to (3.7) in the third
+filing observation, no step, in particular the estimate (3.6) of the block
+count, was checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

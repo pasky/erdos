@@ -130,7 +130,7 @@ Local artifact: canonical conversion.
 listed above were checked against the full paper in Markdown; the
 local PDF remains canonical. No proof verification is recorded.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem A: For 0 < c < 1/3 and N large, any finite set S of integers n > N
   with Σ_{n∈S} 1/n ≤ c log N log log log N / log log N has δ⁻(S) > 0, so the

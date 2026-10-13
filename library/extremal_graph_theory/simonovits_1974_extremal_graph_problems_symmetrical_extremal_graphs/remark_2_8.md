@@ -77,11 +77,11 @@ read is identified in the
 [[extremal_graph_theory/simonovits_1974_extremal_graph_problems_symmetrical_extremal_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the four parts of the remark and display
-(10) were read clause by clause on the page image of PDF p. 11 on
-2026-09-22, the display on a 400 dpi crop; the reference entries [1], [2],
-[10], [12] and [13] were read on the page image of PDF p. 28. The bounds
-(10) are asserted ("one can easily prove"), with no argument printed, and
-none was reconstructed here. Nothing here is independently reviewed.
+(10) were read clause by clause on the page image of PDF p. 11, the display on a
+400 dpi crop; the reference entries [1], [2], [10], [12] and [13] were read on
+the page image of PDF p. 28. The bounds (10) are asserted ("one can easily
+prove"), with no argument printed, and none was reconstructed here. Nothing here
+is independently reviewed.
 
 ## Proof pointer
 

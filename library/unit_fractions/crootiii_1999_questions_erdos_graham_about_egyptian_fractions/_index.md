@@ -88,8 +88,8 @@ F(N) = o(log N); the site's commentary credits a lower bound to Yokota
 (1997), filed as
 [[unit_fractions/yokota_1997_number_integers_representable_sum_unit_fractions_ii/_index|yokota_1997_number_integers_representable_sum_unit_fractions_ii]],
 whose Theorem 1, (1 - 5 log log n/log n) <= |N(n)|/log n < 1 + 1/log n
-for large n, is on printed p. 162 (PDF p. 1), read there clause by clause
-on the page image on 2026-09-22 and paged on
+for large n, is on printed p. 162 (PDF p. 1), read there clause by clause on the
+page image and paged on
 [[unit_fractions/yokota_1997_number_integers_representable_sum_unit_fractions_ii/theorem_1|theorem_1]],
 and the best lower bound to Yokota (2002), filed as
 [[unit_fractions/yokota_2002_number_integers_representable_sums_unit_fractions_iii/_index|yokota_2002_number_integers_representable_sums_unit_fractions_iii]],
@@ -107,7 +107,7 @@ that problem credits to Croot without naming a paper (the problem page traces
 it to this paper through Glibichuk's introduction), stated here as a tool for
 the Main Theorem (its Corollary on p. 5 bounds f(p^a, x)).
 
-**Results to transcribe.**
+**Results.**
 
 - Main Theorem: The largest n(x) with every integer 1 <= n <= n(x) a sum of
   distinct unit fractions with denominators at most x satisfies floor(H(x) -

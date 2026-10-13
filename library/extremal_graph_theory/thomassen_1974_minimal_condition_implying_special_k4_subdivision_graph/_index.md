@@ -44,7 +44,7 @@ vorhandene vollständige 4-Graphen und ihre Unterteilungen, Math. Nachr. 22
 (1960), 61--85, the problem page's [Di60], filed as
 [[extremal_graph_theory/dirac_1960_in_abstrakten_graphen_vorhandene_vollstandige_4_graphen_und_ihre_unterteilungen/_index|dirac_1960_in_abstrakten_graphen_vorhandene_vollstandige_4_graphen_und_ihre_unterteilungen]]
 (its Satz 6, the "[1, Satz 6]" of the Introduction, stands on printed
-p. 68, PDF p. 8, located there in the text layer on 2026-09-22 and paged on
+p. 68, PDF p. 8, located there in the text layer and paged on
 [[extremal_graph_theory/dirac_1960_in_abstrakten_graphen_vorhandene_vollstandige_4_graphen_und_ihre_unterteilungen/satz_6|satz_6]]);
 Dirac, Homomorphism Theorems for Graphs, Math. Ann. 153 (1964), 69--80
 (not held); Erdős, Extremal problems in graph theory, in A Seminar on Graph
@@ -75,11 +75,11 @@ $(K_3,K_{3,3})$-cockade (pp. 210--211), the definition of property $p$,
 Lemma 1 and Lemma 2 (p. 211), the Theorem (p. 212), the Corollary and the
 closing remarks on 3-connected graphs (p. 215) and the reference list
 (p. 215), each read clause by clause on the page images of PDF pp. 1, 2, 3
-and 6 on 2026-09-22. The proof of the Theorem (pp. 212--215, PDF pp. 3--6)
-was read on the page images for its structure, an induction on $n(G)$ in
-seven numbered steps, and the steps were followed as printed; no step was
-checked, and the proofs of Lemma 1 and Lemma 2 (pp. 211--212) were read on
-the page images for structure only. Nothing here is independently reviewed.
+and 6. The proof of the Theorem (pp. 212--215, PDF pp. 3--6) was read on the
+page images for its structure, an induction on $n(G)$ in seven numbered steps,
+and the steps were followed as printed; no step was checked, and the proofs of
+Lemma 1 and Lemma 2 (pp. 211--212) were read on the page images for structure
+only. Nothing here is independently reviewed.
 
 ## Contents
 

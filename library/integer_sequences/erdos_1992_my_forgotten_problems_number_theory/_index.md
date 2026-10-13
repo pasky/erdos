@@ -179,7 +179,7 @@ display (31) $\frac n3\le g(n)\le\frac{3n}7$ attributed to [18], and the
 Alon--Kleitman improvement $\frac n3<g(n)\le\frac{12}{29}n$, "the exact
 value of $g(n)$ is still not known".
 
-**Results to transcribe.**
+**Results.**
 
 - g(3)=4 (introductory prose, p.34); lower bound (1): for every ε>0 there is
   n_0 with g(n)>(2-ε)n; conjectured g(n)<(2+ε)n (or even g(n)≤2n), with a

@@ -74,11 +74,10 @@ Read status: claims checked for Theorems 1.2 and 6.3, read clause by clause
 in the journal PDF's text layer (pp. 2 and 11) with the square roots of
 Section 6 confirmed on the page image, and for the quoted Theorems 1.1 and
 6.2; no proof was read. Theorems 6.1, 6.2 and 6.3 and the paragraph
-introducing them were re-read clause by clause on the page image of p. 11 on
-2026-09-18: Theorem 6.1 prints $\frac25m^{1+\alpha}$, and Theorem 6.2 prints
-"$72m\sqrt{\log m}+18\log(64K)+324$" as the digest quotes it (Alon's
-Proposition 2.1 gives the last two terms a factor $m$; recorded on the
-result page, not resolved).
+introducing them were re-read clause by clause on the page image of p. 11:
+Theorem 6.1 prints $\frac25m^{1+\alpha}$, and Theorem 6.2 prints "$72m\sqrt{\log
+m}+18\log(64K)+324$" as the digest quotes it (Alon's Proposition 2.1 gives the
+last two terms a factor $m$; recorded on the result page, not resolved).
 
 ## Contents
 

@@ -81,10 +81,10 @@ conjecture and Theorem 3 (p. 198), § 2 with Theorem 4 and its discussion
 (pp. 199--200), the opening of § 3 (p. 200), § 4 with the proofs of
 Theorems 1--3 (pp. 208--209), the statement of Esséen's lemma (p. 209) and
 the references with the received date (p. 211), each read clause by clause
-on the page images of PDF pp. 1--4, 12--13 and 15 on 2026-09-22. The proof
-of Theorem 4 (§ 3, pp. 200--208) and the proofs of the Esséen and Wiener
-lemmas (§ 5, pp. 209--210) were read in the text layer for structure only.
-No proof was checked, and nothing here is independently reviewed.
+on the page images of PDF pp. 1--4, 12--13 and 15. The proof of Theorem 4 (§ 3,
+pp. 200--208) and the proofs of the Esséen and Wiener lemmas (§ 5, pp. 209--210)
+were read in the text layer for structure only. No proof was checked, and
+nothing here is independently reviewed.
 
 ## Contents
 

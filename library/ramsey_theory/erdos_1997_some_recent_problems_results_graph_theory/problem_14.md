@@ -53,9 +53,9 @@ the publisher's scan), read on the page image. The copy read is
 identified in the
 [[ramsey_theory/erdos_1997_some_recent_problems_results_graph_theory/_index|source digest]].
 
-**Read depth.** Claims checked: the passage was read clause by clause on
-the page image on 2026-09-22. It is a question with an expectation; the
-paper proves nothing here. Nothing is independently reviewed.
+**Read depth.** Claims checked: the passage was read clause by clause on the
+page image. It is a question with an expectation; the paper proves nothing here.
+Nothing is independently reviewed.
 
 ## Proof pointer
 

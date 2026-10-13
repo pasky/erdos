@@ -45,7 +45,7 @@ q > p^2 as the Turan exponent of a single bipartite graph, and Corollary 1.5
 (p. 2) every 2 - p/q with q > p and (q mod p) <= sqrt(p); the problem asks
 for every rational in [1,2), which the paper does not reach.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.2 (p. 2): 1 + p/(kp+b) is a Turan exponent (ex(n, H) =
   Theta(n^r) for some bipartite H) for every choice of positive integers

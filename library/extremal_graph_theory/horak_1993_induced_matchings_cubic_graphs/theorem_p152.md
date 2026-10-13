@@ -48,9 +48,8 @@ after the Theorem were read clause by clause on the page images. The proof (pp.
 Pp. 153--159, not read here; the paper says (p. 152) that Andersen's
 independent proof of the same theorem "uses different methods and
 emphasizes algorithmic aspects". That proof, the paper's [1] (listed on
-printed p. 160 = PDF p. 10 as "Ann. Discrete Math. To appear", read on the
-text layer on 2026-09-22), is Andersen's paper in Discrete Math. 108
-(1992), filed as
+printed p. 160 = PDF p. 10 as "Ann. Discrete Math. To appear", read on the text
+layer), is Andersen's paper in Discrete Math. 108 (1992), filed as
 [[extremal_graph_theory/andersen_1992_strong_chromatic_index_cubic_graph_is_at_most_10/_index|andersen_1992_strong_chromatic_index_cubic_graph_is_at_most_10]];
 its Theorem 1, "There is a linear time algorithm for giving a strong
 edge-colouring with at most 10 colours to any graph with maximum degree at

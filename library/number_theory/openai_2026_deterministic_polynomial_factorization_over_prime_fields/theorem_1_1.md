@@ -47,8 +47,7 @@ companion", p. 2). The algebraic reduction without that input is
 Fields*, release folder
 `preprints/Deterministic-Polynomial-Factorization-over-Prime-Fields-October-4-2026`;
 TeX `sections/00-introduction.tex`, label `thm:factorization`; PDF pp. 2--3;
-proof on p. 46 (`sections/10-analytic.tex`, "Proof of Theorem 1.1"). Read
-2026-10-07. The card
+proof on p. 46 (`sections/10-analytic.tex`, "Proof of Theorem 1.1"). The card
 [[number_theory/openai_2026_deterministic_polynomial_factorization_over_prime_fields/_index|openai_2026_deterministic_polynomial_factorization_over_prime_fields]]
 records the provenance and the release's attestations.
 

@@ -67,9 +67,9 @@ disproof to Steiner, the paper is published in SIAM Journal on Discrete
 Mathematics (2025), and a third-party Lean proof of the counterexample, which
 this corpus has not built, is linked from it.
 
-**Search scope.** 2026-10-07: the site's problem page, its discussion thread
-and its proof-claims list, and the Crossref record of the paper. No other
-claim on the problem was found.
+**Search scope.** The site's problem page, its discussion thread and its
+proof-claims list, and the Crossref record of the paper; on 2026-10-07 none of
+them showed another claim on the problem.
 
 What the paper leaves open is quantitative and not part of Problem 762:
 Proposition 1.1 reduces the determination of $f(n)$, the largest excess

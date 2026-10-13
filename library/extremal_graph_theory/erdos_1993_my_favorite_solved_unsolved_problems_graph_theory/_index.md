@@ -55,9 +55,7 @@ locate passages and to search for the one citing page whose question the
 survey does not state (Problem 373). The survey is a problem paper and
 proves nothing: it states results, most with a reference number, and gives no
 proof, its statements of what is open describe the state at its November 1991
-submission, and nothing here is independently reviewed. Every reading date in
-this card is 2026-09-22, except the 2026-10-02 attempt to read the publisher's
-pages.
+submission, and nothing here is independently reviewed.
 
 ## Contents
 

@@ -59,14 +59,14 @@ Theorem 2 (p. 226), the special tournaments $ST_7$ and $ST_6$ and Theorem 3
 (p. 227), Theorem 4, Corollaries 1 and 2 and the $T_{13}$ witness (p. 235),
 the values of $f(n)$ for $n\le23$, the note on $n\le27$, the opening of § 4
 and Theorem 5 (p. 236), each read clause by clause on the page images of
-PDF pp. 1--3 and 11--13 (printed pp. 225--227 and 235--237) on 2026-09-22;
-p. 238 (PDF p. 14) was read on the page image for the correspondence table
-and the reference list. The proofs of Theorem 4 and of Corollaries 1 and 2
-(p. 235, a paragraph each) were read in full on the page image and their
-reductions to Theorems 2 and 3 and to Stearns's bound were followed; the
-proof of Theorem 3 (pp. 227--235) and the proof of Theorem 5
-(pp. 236--238) were read in the text layer for structure only, and none of
-their case analyses was checked. Nothing here is independently reviewed.
+PDF pp. 1--3 and 11--13 (printed pp. 225--227 and 235--237); p. 238 (PDF p. 14)
+was read on the page image for the correspondence table and the reference list.
+The proofs of Theorem 4 and of Corollaries 1 and 2 (p. 235, a paragraph each)
+were read in full on the page image and their reductions to Theorems 2 and 3 and
+to Stearns's bound were followed; the proof of Theorem 3 (pp. 227--235) and the
+proof of Theorem 5 (pp. 236--238) were read in the text layer for structure
+only, and none of their case analyses was checked. Nothing here is independently
+reviewed.
 
 ## Contents
 

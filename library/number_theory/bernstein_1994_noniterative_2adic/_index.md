@@ -62,7 +62,7 @@ conjecture, i.e. a reformulation of problem 1135.
 Source: PDF. The copy read for this card is the
 author's typescript, which prints the header "Proceedings of the American
 Mathematical Society 121 (1994), 405–408." and no copyright or license line (pp.
-1 and 4 read on the page images on 2026-10-02), from the author's papers page
+1 and 4 read on the page images), from the author's papers page
 (https://cr.yp.to/papers.html, read 2026-10-02), which states no copyright,
 license or terms line; the term is unstated.
 

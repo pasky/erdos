@@ -73,7 +73,7 @@ eps > 0 and all n >= 2.
 Source: <https://eccc.weizmann.ac.il/report/2011/067/>. The copy read for this
 card is ECCC Report No. 67 (2011), and the theorem numbers below are that
 report's; it prints the ECCC footers and no copyright or license line; no arXiv
-record exists for it (arXiv title query, read 2026-10-02), the report page
+record was listed for it (arXiv title query, read 2026-10-02), the report page
 (https://eccc.weizmann.ac.il/report/2011/067/, read 2026-10-02) states no terms,
 and the conference and journal editions are not held; the term is unstated.
 

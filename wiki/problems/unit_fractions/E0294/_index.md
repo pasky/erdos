@@ -99,7 +99,7 @@ arXiv:2404.07113v1, p. 3, read clause by clause on the page image: with
 $t(N)$ defined exactly as on the site, the two-sided bound displayed above
 holds. The paper appeared in Int. Math. Res. Not. 2026, no. 2, rnaf382
 (received 28 October 2025, accepted 23 December 2025, online 14 January
-2026, per the publisher's record read), which is the
+2026, per the publisher's record), which is the
 acceptance evidence; the library retains arXiv v1, and the published text
 has not been compared, so all locators are v1 locators. The proof (pp. 13--14) was read
 for its structure: the upper bound takes a prime $t>10N/\log N$ and shows

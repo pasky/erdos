@@ -43,9 +43,9 @@ and
 
 Read status: claims checked for Fact 1.1 and its proof (p. 1), Conjecture
 1.2, Theorem 1.3 and the deduction of $\varepsilon_k$ (p. 2), read clause by
-clause on the page images on 2026-09-18, and for the induced-subgraph remark
-(p. 3, text layer); the proof of Theorem 1.3 (Sections 2--5, pp. 3--33) and
-the appendix were not read.
+clause on the page images, and for the induced-subgraph remark (p. 3, text
+layer); the proof of Theorem 1.3 (Sections 2--5, pp. 3--33) and the appendix
+were not read.
 
 Erdős, Faudree, Rousseau and Schelp observed (Fact 1.1, p. 1) that
 $(k-1)(n-k+2)+\binom{k-2}2$ edges on $n\ge k-1$ vertices always force a

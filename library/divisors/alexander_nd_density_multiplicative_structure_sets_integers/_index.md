@@ -55,7 +55,7 @@ not name.
 
 **Bears on.** [[../wiki/problems/divisors/E0858/_index|#858]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 3.10: If C does not have zero logarithmic density then, for any
   prescribed positive K_1, K_2, ..., C contains a division chain q_1, q_1 q_2,

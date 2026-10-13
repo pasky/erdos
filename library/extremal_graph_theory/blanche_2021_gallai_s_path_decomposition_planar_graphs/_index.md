@@ -45,15 +45,15 @@ Source: <https://arxiv.org/abs/2110.08870>.
 **Copy read.** The copy read for this card is arXiv:2110.08870v2, stamped
 "[math.CO] 21 Jun 2022" on p. 1 with the title page dated June 22, 2022; 95
 pages with a text layer, printed and PDF pages agreeing. The digest's
-citation year 2021 is the year of v1 (17 October 2021). No journal version of
-the full paper was found on 2026-09-18: the arXiv record lists no journal
-reference, and a Crossref bibliographic query on the title returned only the
-extended abstract "Gallai's Path Decomposition for Planar Graphs", Extended
-Abstracts EuroComb 2021 (Trends in Mathematics), pp. 758--764,
-doi:10.1007/978-3-030-83823-2_121 (published online 24 August 2021), which
-was not read for this card. The full proof therefore stands as a preprint's
-theorem in this record. The arXiv record names arXiv's non-exclusive
-distribution license (arXiv:2110.08870), every other right reserved.
+citation year 2021 is the year of v1 (17 October 2021). On 2026-09-18 the arXiv
+record listed no journal reference for the full paper, and a Crossref
+bibliographic query on the title returned only the extended abstract "Gallai's
+Path Decomposition for Planar Graphs", Extended Abstracts EuroComb 2021 (Trends
+in Mathematics), pp. 758--764, doi:10.1007/978-3-030-83823-2_121 (published
+online 24 August 2021), which was not read for this card. The full proof
+therefore stands as a preprint's theorem in this record. The arXiv record names
+arXiv's non-exclusive distribution license (arXiv:2110.08870), every other right
+reserved.
 
 Read status: claims checked for Theorems 1.1 and 1.2 and the introduction's
 sentence "Gallai's conjecture is still unsolved as of today" (p. 1), read
@@ -69,7 +69,7 @@ $\lfloor n/2\rfloor$ form except $K_3$ and $K_5^-$; paged at
 and
 [[extremal_graph_theory/blanche_2021_gallai_s_path_decomposition_planar_graphs/theorem_1_2|theorem_1_2]].
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: Every connected planar graph on n vertices decomposes into
   ceil(n/2) paths, confirming Gallai's conjecture for planar graphs.

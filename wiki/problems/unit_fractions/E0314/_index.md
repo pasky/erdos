@@ -97,7 +97,7 @@ epsilon n) = 0` under `category research solved` with proof `sorry`; its
 `formal_proof` attribute points to the file
 [`Erdos314.lean`](https://github.com/plby/lean-proofs/blob/1d7b3f00780b85ed0462e79a1cd5650ee9055655/src/v4.29.1/ErdosProblems/Erdos314.lean)
 in Boris Alexeev's `lean-proofs` repository at the commit the attribute pins.
-The community database, records `formal_status` Lean (field last updated 31
+The community database records `formal_status` Lean (field last updated 31
 August 2025), the statement formalized (field last updated 3 August 2026) and no
 formal-proof URL. The corpus has not built or audited either file; see
 Formalization and the Lean label below.

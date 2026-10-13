@@ -94,9 +94,9 @@ The theorem statements follow the site's commentary and Murai's paper
 ([[../library/analysis/murai_1983_deficiency_entire_functions_fejer_gaps/_index|library card]]);
 the papers of Fejér, Biernacki and Pólya are not held and their proofs are
 not reconstructed here. Search scope: the site's problem page, its
-discussion thread (one comment, citing Murai on 2026-03-26) and its empty
-proof-claims tab, the community database entry and the formal-conjectures
-file, on 2026-10-07; no literature search beyond Murai's bibliography.
+discussion thread (on 2026-10-07 one comment, of 2026-03-26, citing Murai) and
+its proof-claims tab (empty on that date), the community database entry and the
+formal-conjectures file; no literature search beyond Murai's bibliography.
 
 ## Known Results
 

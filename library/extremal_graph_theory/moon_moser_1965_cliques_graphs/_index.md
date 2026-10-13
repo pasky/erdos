@@ -65,13 +65,12 @@ questions of Erdős and Moser and the summary "$g(n)\sim n-[\log_2n]$"
 (p. 23), Theorem 1 (p. 23), Theorem 2, the § 4 lead-in with the bound
 $g(n)\ge[\frac12(n+1)]$ and Theorem 3 (p. 25), display (6) and Theorem 4
 (p. 27) and the concluding remarks (p. 28), each read clause by clause on
-the page images of PDF pp. 1, 3, 5 and 6 on 2026-09-22. The proof of
-Theorem 4 (pp. 27--28, a paragraph) was read in full on the page images and
-followed. The proof of Theorem 3 (pp. 26--27, with Figure 1) was read on the
-page images of PDF pp. 4--5 for structure only, and the proofs of Theorems 1
-and 2 (pp. 23--25) were read on the page image of PDF p. 2 and in the text
-layer for structure only; none of them was checked. Nothing here is
-independently reviewed.
+the page images of PDF pp. 1, 3, 5 and 6. The proof of Theorem 4 (pp. 27--28, a
+paragraph) was read in full on the page images and followed. The proof of
+Theorem 3 (pp. 26--27, with Figure 1) was read on the page images of PDF pp.
+4--5 for structure only, and the proofs of Theorems 1 and 2 (pp. 23--25) were
+read on the page image of PDF p. 2 and in the text layer for structure only;
+none of them was checked. Nothing here is independently reviewed.
 
 ## Contents
 

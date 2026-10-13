@@ -128,10 +128,10 @@ Corollary 7.1, Corollary 8.1 and Corollary 8.2, read clause by clause in the
 TeX source (`introduction.tex` lines 1--39, `reduction.tex` lines 1--38,
 `flatness.tex` lines 1--13, `merit-morse.tex` lines 1--36 and 57--86, with
 the labels `thm:main`, `prop:almost-signs`, `lem:rounding`,
-`cor:finite-flatness`, `cor:merit`, `cor:morse`) on 2026-10-07; the statements
-of Lemma 3.1, Theorem 3.2, Proposition 4.1, Lemma 4.2, Lemma 5.1 and Lemma 6.1
-were read for what they supply, and every proof was read for its structure
-only with no step checked; nothing here is independently reviewed.
+`cor:finite-flatness`, `cor:merit`, `cor:morse`); the statements of Lemma 3.1,
+Theorem 3.2, Proposition 4.1, Lemma 4.2, Lemma 5.1 and Lemma 6.1 were read for
+what they supply, and every proof was read for its structure only with no step
+checked; nothing here is independently reviewed.
 
 ## Contents
 

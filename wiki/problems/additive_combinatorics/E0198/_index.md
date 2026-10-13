@@ -82,7 +82,7 @@ by May 2025, dated by the formal-conjectures catalog's issue of 2025-05-13 and
 pull request of 2025-05-15. Status-search scope: the site's page and forum
 thread, the formal-conjectures catalog with the forks its `formal_proof` links
 name, the community database and the web archive captures named on the claim
-pages, examined on 2026-10-07; no literature search beyond them is recorded.
+pages; no literature search beyond them is recorded.
 
 ## Progress
 

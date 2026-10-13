@@ -99,9 +99,8 @@ chapter record](https://doi.org/10.1007/978-3-032-18810-6_2), and the [1998
 publisher record](https://doi.org/10.1007/s004930050035), with targeted
 title/problem searches, an arXiv query, and X announcement queries. The
 publisher confirms the selected chapter was first online on 28 May 2026. No
-contrary primary result was identified in that bounded search, and the
-catalog's Alon attribution and Lean label were unchanged at that date. The
-same search located Boris Alexeev's [8 February 2026 forum
+contrary primary result was identified in that bounded search. The same search
+located Boris Alexeev's [8 February 2026 forum
 report](https://www.erdosproblems.com/forum/thread/618) that their Lean proof
 for this problem imports their formalization of the solution of Problem 134;
 that proof is linked from Alon's claim page, and the corpus has not built

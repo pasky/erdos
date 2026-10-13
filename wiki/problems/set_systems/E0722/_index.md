@@ -128,11 +128,11 @@ is recorded in the Formulation; the Lean development linked from Keevash's
 page also notes the misprint and proves that exact coverage forces
 $\binom nr\binom kr^{-1}$ blocks.
 
-Search scope, 2026-10-07: the site's problem page, discussion thread and
-proof-claims page, the community database entry, the arXiv records of
-arXiv:1401.3665 and arXiv:1611.06827, the Crossref record of the memoir, the
-preprint's card, the formal-conjectures statement file and the
-lean-proofs catalog of Boris Alexeev's repository.
+Search scope: the site's problem page, discussion thread and proof-claims
+page, the community database entry, the arXiv records of arXiv:1401.3665 and
+arXiv:1611.06827, the Crossref record of the memoir, the preprint's card, the
+formal-conjectures statement file and the lean-proofs catalog of Boris
+Alexeev's repository.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

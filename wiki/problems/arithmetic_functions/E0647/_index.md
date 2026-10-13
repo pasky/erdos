@@ -119,8 +119,8 @@ A finite exclusion, however checked, leaves the existence question open, and
 the thread records no further proof attempt. Beyond these results the
 mathematics of the problem is unassessed in this wiki.
 
-Search scope (2026-10-07): the site's problem page and remarks, its
-discussion thread (18 comments) and its empty proof-claims tab, the
+Search scope: the site's problem page and remarks, its discussion thread (18
+comments on 2026-10-07) and its proof-claims tab (empty on that date), the
 community database entry, the formal-conjectures file, the Zenodo records
 and repositories linked from the thread, and the arXiv record of Mian and
 Siddique. MathSciNet and zbMATH were not searched and X was not used.

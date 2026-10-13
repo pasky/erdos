@@ -114,18 +114,17 @@ for cycles of length at most $8$ with the unnumbered Theorem it rests on
 definitions of $G(n,m)$, $C_{2k}$-connectedness and $f_k(n,m)$ with the
 recalled bounds (1)--(3) (p. 263), Proposition 0 and Theorem 1 (p. 264), and
 the first paragraph of the concluding remarks (p. 277), each read clause by
-clause on the page images of PDF pp. 1--4 and 17 (printed pp. 261--264 and
-277) on 2026-09-22. The proofs of Proposition 0 and Theorem 1 (pp. 264--267),
-Theorems 2--10 and Lemmas 4 and 9 with their proofs (pp. 267--277), the
-remaining concluding remarks (pp. 277--278) and the reference list (p. 278)
-were read in the text layer for structure only; the statements of Theorems
-2--10 recorded under Contents, with their ranges and inequality signs, and
-the construction of Lemma 4 were then compared with the page images of
-pp. 267--275 on 2026-10-07. On 2026-10-08 the statements of Theorems 1--3,
-5--8 and 10, Lemmas 4 and 9 with the star-system definition, the Remarks of
-pp. 268 and 274 and display (18) were read clause by clause on the page
-images of pp. 264--275 for their result pages. No proof was checked, and
-nothing here is independently reviewed.
+clause on the page images of PDF pp. 1--4 and 17 (printed pp. 261--264 and 277).
+The proofs of Proposition 0 and Theorem 1 (pp. 264--267), Theorems 2--10 and
+Lemmas 4 and 9 with their proofs (pp. 267--277), the remaining concluding
+remarks (pp. 277--278) and the reference list (p. 278) were read in the text
+layer for structure only; the statements of Theorems 2--10 recorded under
+Contents, with their ranges and inequality signs, and the construction of Lemma
+4 were then compared with the page images of pp. 267--275. Later the statements
+of Theorems 1--3, 5--8 and 10, Lemmas 4 and 9 with the star-system definition,
+the Remarks of pp. 268 and 274 and display (18) were read clause by clause on
+the page images of pp. 264--275 for their result pages. No proof was checked,
+and nothing here is independently reviewed.
 
 ## Contents
 

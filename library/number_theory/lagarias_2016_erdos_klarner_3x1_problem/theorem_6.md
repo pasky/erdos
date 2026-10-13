@@ -67,10 +67,10 @@ is identified in the
 
 **Read depth.** Claims checked: the problem statement, the surrounding
 paragraph, footnote 3, Theorem 6 and the Remark were read clause by clause
-on the page images of PDF pp. 15--16 on 2026-09-22. The proof (pp. 767--768)
-was read in full in the text layer and its two claims followed as sketched
-below; the numerical value of $\tau_1$ was not recomputed, and nothing here
-is independently reviewed.
+on the page images of PDF pp. 15--16. The proof (pp. 767--768) was read in full
+in the text layer and its two claims followed as sketched below; the numerical
+value of $\tau_1$ was not recomputed, and nothing here is independently
+reviewed.
 
 ## Proof pointer
 

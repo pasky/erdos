@@ -48,7 +48,7 @@ Source: <https://users.renyi.hu/~p_erdos/1967-23.pdf>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0627/_index|#627]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem (1): For every n there is a graph G_n on n vertices with
   H(G_n)/K(G_n) > c_3 n/(log n)^2, where H is the chromatic number and K the

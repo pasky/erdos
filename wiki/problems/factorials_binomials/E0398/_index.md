@@ -132,13 +132,12 @@ estimate; the manuscript was never posted to the site and no review of it is
 known. It is a pending claim on
 [[problems/factorials_binomials/E0398/claims/2026_02_05_maiti|its page]].
 
-**Unassessed.** Search scope, 2026-10-07: erdosproblems.com with its discussion
-thread and proof-claims list, the OEIS entry A146968 and the sources named
-above. [Ov93] is not held in the library, and the $10^{15}$ bound rests on the
-OEIS entry's report of a program, not on a write-up. The formal-conjectures file
-is a statement of the problem, not a proof. The site's proof-claims list was
-empty on 2026-10-07, and the one claim in its discussion thread is recorded
-above.
+**Unassessed.** Search scope: erdosproblems.com with its discussion thread and
+proof-claims list, the OEIS entry A146968 and the sources named above. [Ov93]
+is not held in the library, and the $10^{15}$ bound rests on the OEIS entry's
+report of a program, not on a write-up. The formal-conjectures file is a
+statement of the problem, not a proof. The site's proof-claims list was empty
+on 2026-10-07, and the one claim in its discussion thread is recorded above.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -15,7 +15,8 @@ updated: 2026-10-07T20:53:39Z
 ***
 
 Conlon, David and Janzer, Oliver, Rational exponents near two. Adv. Comb.
-(2022), Paper No. 9, 10 pp. doi:10.19086/aic.2022.9. The arXiv record
+(2022), Paper No. 9, 10 pp. doi:10.19086/aic.2022.9. The held file is
+arXiv:2203.03375v2 of 13 December 2022. The arXiv record
 (https://arxiv.org/abs/2203.03375, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 
@@ -39,7 +40,7 @@ Source: <https://arxiv.org/abs/2203.03375>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0571/_index|#571]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.2: All rationals r = 2 - a/b with b >= max(a, (a-1)^2) are
   realizable as Turan exponents.

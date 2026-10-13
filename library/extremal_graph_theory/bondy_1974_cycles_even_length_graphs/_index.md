@@ -73,7 +73,7 @@ k = 3 gives ex(n;C_6) <= 300 n^(4/3); the problem's G_3 is the 6-cycle, so its
 case k = 3 holds with c_3 = 1/6, while for k >= 4 the graph G_k is not a cycle
 and the theorem gives no upper bound for it.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: If e(G^n) > 100 k n^(1+1/k) then C_{2l} is a subgraph of G^n for
   every integer l in [k, k n^(1/k)]; sharp up to the constant.

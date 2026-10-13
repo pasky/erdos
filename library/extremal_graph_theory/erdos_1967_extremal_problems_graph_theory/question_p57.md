@@ -54,9 +54,8 @@ None in the paper. The affirmative answer is Thomassen's theorem of 1974
 its Theorem, "If $G$ is a graph with $n(G)\ge3$ and $e(G)\ge2n(G)-3$ then
 either $G$ has property $p$ or $G$ is a $(K_3,K_{3,3})$-cockade. In
 particular $e(G)\ge2n(G)-2$ implies that $G$ has property $p$", stands on
-printed p. 212 (PDF p. 3 of the cited publisher edition), located there in
-the OCR text layer on 2026-09-22 with the inequality signs garbled, and is
-paged on
+printed p. 212 (PDF p. 3 of the cited publisher edition), located there in the
+OCR text layer with the inequality signs garbled, and is paged on
 [[extremal_graph_theory/thomassen_1974_minimal_condition_implying_special_k4_subdivision_graph/theorem|theorem]].
 The theorem is also attested in the held
 [[extremal_graph_theory/carmesin_2023_characterising_graphs_no_subdivision_wheel_bounded_diameter/related_results_p22|Related results paragraph of Carmesin (2023)]].

@@ -125,10 +125,10 @@ $R_k(K_3)$ comes from running the Hilfssatz's argument on edge colorings
 (the Greenwood--Gleason recursion), not from $S(k)<k!\,e$.
 [[../wiki/problems/ramsey_theory/E0483/_index|#483]]: the Hilfssatz is the origin of the
 factorial upper bound on the Schur function, $f(m)\le\lfloor m!\,e\rfloor+1$
-in the site's convention $f(m)=S(m)+1$ (read on the page image of p. 114 on
-2026-09-18; the [[ramsey_theory/schur_1916_uber_die_kongruenz/hilfssatz_p114|Hilfssatz]]
-page records the statement), and p. 117 gives the lower bound
-$S(m)=N_m\ge(3^m-1)/2$, so $f(m)\ge(3^m+1)/2$
+in the site's convention $f(m)=S(m)+1$ (read on the page image of p. 114; the
+[[ramsey_theory/schur_1916_uber_die_kongruenz/hilfssatz_p114|Hilfssatz]] page
+records the statement), and p. 117 gives the lower bound $S(m)=N_m\ge(3^m-1)/2$,
+so $f(m)\ge(3^m+1)/2$
 ([[ramsey_theory/schur_1916_uber_die_kongruenz/lower_bound_p117|lower bound, p. 117]]); the exponential
 upper-bound question $f(k)<c^k$ that Problem 483 asks is not touched.
 

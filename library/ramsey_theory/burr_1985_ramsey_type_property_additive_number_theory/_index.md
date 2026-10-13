@@ -80,7 +80,7 @@ Source: <https://users.renyi.hu/~p_erdos/1985-05.pdf>.
 **Bears on.** [[../wiki/problems/ramsey_theory/E0054/_index|#54]],
 [[../wiki/problems/ramsey_theory/E0055/_index|#55]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 5): some entirely Ramsey-complete sequence has fewer than
   2 lg^2 x terms in (x/2, x] once x is large.

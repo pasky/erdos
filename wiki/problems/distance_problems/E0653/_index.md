@@ -86,9 +86,9 @@ and what the corpus did and did not check are recorded on
   question, which asks only whether $g(n)\ge(1-o(1))n$, and the paper itself
   says the bound does not decide it. The preprint is unrefereed, and its
   proof-claims entry carries one comment, which records no review.
-- **Status search.** The site's label and proof-claims tab were read, the Conjectures.io record on 2026-09-18 and 2026-10-07, and the
-  formal-conjectures catalog on 2026-09-18. No broader literature search is
-  recorded here.
+- **Status search.** The site's label and proof-claims tab, the Conjectures.io
+  record and the formal-conjectures catalog were read. No broader literature
+  search is recorded here.
 - **Proof coverage and review.** None. The proof is a kernel-checked Lean file
   whose statement the corpus compared with the question by reading; the
   corpus holds no own-words proof and has commissioned no review.

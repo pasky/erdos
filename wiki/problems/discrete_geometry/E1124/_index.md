@@ -76,9 +76,8 @@ covers.
 **Status search.** The search covers the site's page, the community
 database's record of the problem (proved, unformalized), the
 formal-conjectures repository, and the arXiv and Crossref records of the
-papers cited above,. It found the measurable and Borel
-circle squarings [GMP17] and [MaUn17], cited above, and nothing that contests
-the standing; no broader literature search is recorded.
+papers cited above. It found the measurable and Borel circle squarings [GMP17]
+and [MaUn17], cited above; no broader literature search is recorded.
 
 **Compiled proof coverage.** No proof is reconstructed here, and none of the
 papers is held. Nothing here is independently reviewed.

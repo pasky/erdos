@@ -114,12 +114,13 @@ asked for. The preprint is not refereed, no proof claim is registered on the
 site's proof-claims tab, and neither argument is compiled or reviewed in this
 wiki; the site's page predates both postings.
 
-Search scope: the site's problem page as exported (last edited 27 December
-2025), its discussion thread (11 comments) and proof-claims tab (none), the
-community database entry (open, unformalized), the arXiv record of the
-Letwin–Sawhney preprint and the note's own page, all read 2026-10-07; no
-formal-conjectures statement exists and no OpenAI release item names this
-problem. MathSciNet and zbMATH were not searched and X was not used.
+Search scope, with the sources as they stood on 2026-10-07: the site's problem
+page as exported (last edited 27 December 2025), its discussion thread (11
+comments) and proof-claims tab (none), the community database entry (open,
+unformalized), the arXiv record of the Letwin–Sawhney preprint and the note's
+own page; formal-conjectures had no statement for the problem and no OpenAI
+release item named it. MathSciNet and zbMATH were not searched and X was not
+used.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

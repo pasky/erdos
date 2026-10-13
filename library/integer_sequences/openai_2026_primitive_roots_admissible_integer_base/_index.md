@@ -87,10 +87,9 @@ Read status: claims checked for Theorem 1.1, Theorem 1.2, Proposition 2.1,
 Proposition 2.2 and Lemmas 2.3--2.4, read clause by clause in the TeX source
 (`sections/01-introduction.tex` lines 17--45 and
 `sections/01a-reduction.tex` lines 18--38, 50--63, 69--76 and 104--113 of
-the TeX bundle; PDF pp. 2--6) on 2026-10-07; the proof of Theorem 1.1
-(`01a-reduction.tex` lines 150--201, PDF p. 7) and Sections 3--12 and
-Appendix A were read for their structure only and no step was checked;
-nothing here is independently reviewed.
+the TeX bundle; PDF pp. 2--6); the proof of Theorem 1.1 (`01a-reduction.tex`
+lines 150--201, PDF p. 7) and Sections 3--12 and Appendix A were read for their
+structure only and no step was checked; nothing here is independently reviewed.
 
 ## Contents
 

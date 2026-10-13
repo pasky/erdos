@@ -43,7 +43,7 @@ Commons Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/divisors/E0844/_index|#844]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 1): "For the squarefree graph, the even vertices form a
   maximum independent set." The squarefree graph has the squarefree integers up

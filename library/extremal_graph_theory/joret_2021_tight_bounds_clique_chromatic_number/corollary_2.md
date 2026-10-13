@@ -32,9 +32,9 @@ the proof on pp. 2--3. The edition is identified in the
 [[extremal_graph_theory/joret_2021_tight_bounds_clique_chromatic_number/_index|source digest]].
 
 **Read depth.** Claims checked: the statement was read clause by clause on the
-page image on 2026-09-19, and the half-page proof was read and followed; it
-rests entirely on Theorem 1, whose proof was read for structure only. Nothing
-here is independently reviewed.
+page image, and the half-page proof was read and followed; it rests entirely on
+Theorem 1, whose proof was read for structure only. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

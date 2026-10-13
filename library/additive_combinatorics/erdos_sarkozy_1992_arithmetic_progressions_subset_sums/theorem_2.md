@@ -60,9 +60,9 @@ read is identified on the
 [[additive_combinatorics/erdos_sarkozy_1992_arithmetic_progressions_subset_sums/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the remark after it were
-read clause by clause on the page images on 2026-10-08. The proof
-(pp. 254--256) was read on the page images and its outline followed, not
-checked step by step. Nothing here is independently reviewed.
+read clause by clause on the page images. The proof (pp. 254--256) was read on
+the page images and its outline followed, not checked step by step. Nothing here
+is independently reviewed.
 
 ## Proof pointer
 

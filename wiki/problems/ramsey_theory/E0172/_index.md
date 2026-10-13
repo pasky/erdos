@@ -53,10 +53,10 @@ without a computer in Bowen 2022, both refereed. Moreira 2017 (refereed) proved
 the pattern $\{x,x+y,xy\}$ for all finite colorings. Over $\mathbb{Q}$ the full
 statement is proved by Bowen and Sabok for $n=2$ (refereed) and by Alweiss for
 all $n$ (a preprint accepted per its arXiv comment). Even the case $n=2$ over
-$\mathbb{N}$ with three or more colors was open at that date. This is a bounded
-negative finding, not a certificate of openness. After that search, the OpenAI
-release's preprint of 23 September 2026 claimed the full statement for every $n$
-and every finite coloring. The claim page
+$\mathbb{N}$ with three or more colors was open when that search was made. This
+is a bounded negative finding, not a certificate of openness. After that search,
+the OpenAI release's preprint of 23 September 2026 claimed the full statement
+for every $n$ and every finite coloring. The claim page
 [[problems/ramsey_theory/E0172/claims/2026_09_23_openai|OpenAI 2026]] records it
 as claimed, since it is unrefereed and unreviewed, and the third-party Lean
 proof of the statement that formal-conjectures links has not been built or

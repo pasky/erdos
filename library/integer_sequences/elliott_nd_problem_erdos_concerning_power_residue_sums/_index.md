@@ -51,7 +51,7 @@ site, not the article.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0980/_index|#980]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 131): For each integer k > 0 and a < 4 e^(1-1/k), the sum of
   n_k(p)^a over primes p < x is asymptotic to C_{k,a} x / log x for a constant

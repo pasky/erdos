@@ -88,7 +88,7 @@ ordinary van der Waerden function for two colors" $w(k;2)$, the problem's
 $W(k)$, as the block lengths $k\,w(k;2)$; the paper proves nothing about
 $w(k;2)$ itself)
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 7: For any f from the positive integers to the positive reals, w(f; 3;
   2) exists; a stronger version gives an explicit upper bound when f is

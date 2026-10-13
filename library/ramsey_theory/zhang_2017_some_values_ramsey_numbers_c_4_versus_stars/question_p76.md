@@ -52,8 +52,7 @@ Conjecture 1 on printed p. 74. The artifact is identified in the
 
 **Read depth.** Claims checked: the question, the sentence on Conjecture 1
 and Conjecture 1 itself were read clause by clause on the page images of
-printed pp. 74 and 76 on 2026-09-22 and again on 2026-10-08. Nothing here
-is independently reviewed.
+printed pp. 74 and 76, twice. Nothing here is independently reviewed.
 
 ## Proof pointer
 

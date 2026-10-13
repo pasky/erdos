@@ -33,12 +33,12 @@ their 2003 paper) and Bondarenko (proof of Corollary 1 of the 2014 paper).
 assertion*, release folder
 `preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026`,
 TeX `sections/conclusion.tex` lines 22--26 (label `cor:higher-dimensions`),
-proof lines 28--58, PDF p. 17 (the introducing paragraph is on p. 16). Read
-on 2026-10-07. The release's Lean catalog lists no comparator statement for
-this corollary; its `BorsukNine.lean` covers Theorem 1.1 only (the
+proof lines 28--58, PDF p. 17 (the introducing paragraph is on p. 16). The
+release's Lean catalog lists no comparator statement for this corollary; its
+`BorsukNine.lean` covers Theorem 1.1 only (the
 [[discrete_geometry/openai_2026_nine_dimensional_counterexample_borsuk_covering_assertion/_index|card]]
 records the listing). No refereed publication, arXiv version or independent
-review of the manuscript is recorded here as of the read date.
+review of the manuscript is recorded here.
 
 **Read depth.** Claims checked: the statement and the construction in its
 proof were read clause by clause in the TeX source; the proof was read for

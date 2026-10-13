@@ -81,7 +81,7 @@ result for k >= 1 that the site's commentary derives from it (the
 derivation, from the site's discussion thread, is recorded on the problem
 page with its provenance).
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/erdos_1962_remarks_paper_posa/theorem_p227|Theorem]]
   (p. 227, page image): For 1 <= k < n/2 put l_k = 1 + max_{k <= t < n/2}

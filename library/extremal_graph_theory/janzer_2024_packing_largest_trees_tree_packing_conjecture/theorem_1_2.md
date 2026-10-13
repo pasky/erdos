@@ -53,9 +53,9 @@ version was not compared. The edition is identified in the
 [[extremal_graph_theory/janzer_2024_packing_largest_trees_tree_packing_conjecture/_index|source digest]].
 
 **Read depth.** Claims checked: Conjecture 1.1, Theorem 1.2, the remarks
-after it and the introduction's attributions were read clause by clause on
-the page images of pp. 1--2 on 2026-09-19. The proof (Sections 2--6) was not
-read beyond the sketch on p. 2.
+after it and the introduction's attributions were read clause by clause on the
+page images of pp. 1--2. The proof (Sections 2--6) was not read beyond the
+sketch on p. 2.
 
 ## Proof pointer
 

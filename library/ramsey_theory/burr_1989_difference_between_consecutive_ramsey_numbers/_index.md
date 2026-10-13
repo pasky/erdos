@@ -37,12 +37,12 @@ every statement below was read on the page images. Read status: claims
 checked for Theorem 1, the Corollary, Theorem 2, the remark on p. 117 and
 Theorems 3--5 (read clause by clause on the page images); the proof of
 Theorem 2 was read in full and the proof of Theorem 1 for its construction,
-neither checked step by step. Read again on 2026-09-18 on the page images
-of pp. 115--117: Theorem 1, the Corollary and its printed range, Theorem 2
-(the relation is $\ge$), the remark on p. 117 and the hypotheses
-"$m,n\ge3$ and $m+n\ge8$" of Theorems 3 and 4, each clause by clause. No notice
-is printed in the file (its first and last pages carry no copyright or license
-line); the hosting archive's site footer speaks for the site, not the paper
+neither checked step by step. Read again on the page images of pp. 115--117:
+Theorem 1, the Corollary and its printed range, Theorem 2 (the relation is
+$\ge$), the remark on p. 117 and the hypotheses "$m,n\ge3$ and $m+n\ge8$" of
+Theorems 3 and 4, each clause by clause. No notice is printed in the file (its
+first and last pages carry no copyright or license line); the hosting archive's
+site footer speaks for the site, not the paper
 (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints "(C) 2005-2007 All
 rights reserved. All material on this site is for scientifics purposes only.");
 Utilitas Mathematica 35 (1989) has no publisher page or DOI for this edition, so
@@ -96,7 +96,7 @@ $t=2$. The paper says nothing about the other graphs with as many edges as
 $H$, which the problem compares with $H$ (specializations made here; Theorem
 3 leaves its cases $m=n=4$ and $\{m,n\}=\{3,5\}$ to the reader).
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/burr_1989_difference_between_consecutive_ramsey_numbers/theorem_1|Theorem 1]]
   (p. 115): r(m,n) >= r(m,n-1) + 2m - 3 for m, n >= 2.

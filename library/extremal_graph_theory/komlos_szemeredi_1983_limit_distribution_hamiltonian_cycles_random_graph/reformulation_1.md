@@ -48,9 +48,8 @@ image. The artifact is identified in the
 [[extremal_graph_theory/komlos_szemeredi_1983_limit_distribution_hamiltonian_cycles_random_graph/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the companion sentence were
-read clause by clause on the page image of PDF p. 3 on 2026-10-08. No
-argument for the reformulation is printed (see below). Nothing here is
-independently reviewed.
+read clause by clause on the page image of PDF p. 3. No argument for the
+reformulation is printed (see below). Nothing here is independently reviewed.
 
 ## Proof pointer
 

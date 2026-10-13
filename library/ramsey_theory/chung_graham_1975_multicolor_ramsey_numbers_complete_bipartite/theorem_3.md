@@ -36,10 +36,9 @@ scan) and its proof on p. 167 (PDF p. 4), read on the page images. The
 artifact is identified in the
 [[ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/_index|source digest]].
 
-**Read depth.** Claims checked: the statement was read clause by clause on
-the page image on 2026-09-22. The proof (p. 167, two paragraphs) was read
-in full on the page image and its steps were followed. Nothing here is
-independently reviewed.
+**Read depth.** Claims checked: the statement was read clause by clause on the
+page image. The proof (p. 167, two paragraphs) was read in full on the page
+image and its steps were followed. Nothing here is independently reviewed.
 
 ## Proof pointer
 

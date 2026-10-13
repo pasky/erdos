@@ -54,12 +54,11 @@ The copy read for this card is an eleven-page scan of the article with an
 OCR text layer whose accents and displays are garbled; printed p. $n$ is
 PDF p. $n-27$, the Russian summary is on printed p. 37 and the English
 summary on printed p. 38 (PDF pp. 10--11). Read status: claims checked, on
-the page images (130 dpi) on 2026-09-18, for Theorems I--IV, the two
-constructions (displays (16) on printed p. 32 and (16') on printed p. 34),
-the question on the exponent $\beta$ (printed p. 33) and the English
-summary; the Hungarian prose is rendered in the corpus's words on the
-result pages, and the displays keep the paper's numbering in modern
-notation, with the changes noted there; the proofs were read
+the page images (130 dpi), for Theorems I--IV, the two constructions (displays
+(16) on printed p. 32 and (16') on printed p. 34), the question on the exponent
+$\beta$ (printed p. 33) and the English summary; the Hungarian prose is rendered
+in the corpus's words on the result pages, and the displays keep the paper's
+numbering in modern notation, with the changes noted there; the proofs were read
 for their structure only. Result pages:
 [[additive_combinatorics/erdos_1962_szamelmeleti_megjegyzesek/theorem_i_iii|theorem_i_iii]]
 (Theorems I--III with the $x^{2/7}$ construction) and
@@ -107,7 +106,7 @@ infinite admissible sequence of polynomial growth on record here, cited as
 such by Erdős, Nicolas and Sárközy (1991, p. 65); the paper says nothing
 about the gaps $a_{n+1}-a_n$.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem I (printed p. 28): If no member of A is a sum of distinct other
   members, then A has density zero.

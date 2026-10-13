@@ -71,9 +71,8 @@ Lemma 1 and Theorem 2, read clause by clause on the page images of pp. 47-48 and
 49-50) and the proofs of Theorem 2 (pp. 51-54) were not checked; Theorems 4 and
 5 were read as statements on pp. 55-56. Theorem 3 and Lemma 2 (printed p. 55,
 PDF p. 9) and the sentence introducing them (printed p. 54, PDF p. 8) were
-read clause by clause on the page images on 2026-09-18, the half-page proof
-of Theorem 3 for structure only; the text layer garbles "k <= 3" as "k < 3".
-Result pages:
+read clause by clause on the page images, the half-page proof of Theorem 3 for
+structure only; the text layer garbles "k <= 3" as "k < 3". Result pages:
 [[ramsey_theory/erdos_1989_conjecture_roth_related_problems/theorem_1|theorem_1]],
 [[ramsey_theory/erdos_1989_conjecture_roth_related_problems/theorem_2|theorem_2]],
 [[ramsey_theory/erdos_1989_conjecture_roth_related_problems/theorem_3|theorem_3]].
@@ -95,7 +94,7 @@ arbitrary number of colors, the case settled later by Khalfalah and
 Szemerédi),
 [[../wiki/problems/ramsey_theory/E0484/_index|#484]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 48): (i) For k ≥ 2 and M > M_0(k) every k-partition of N gives
   |C^2_M| > M/2 - 3M^{1-2^{-k-1}}, so fewer than 3M^{1-2^{-k-1}} even integers

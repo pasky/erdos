@@ -52,12 +52,11 @@ read on the page images and in the text layer.
 
 **Read depth.** Claims checked: the definitions, displays (1)--(3), the
 announced bounds and the self-assessment on pp. 1--2 were read clause by
-clause on the page images. The 536 partition was recomputed here on
-2026-09-18 from the text layer of p. 6: the six listed sets, closed under
-$i\mapsto537-i$ except for the exempt pair $179\in$ Set 4, $358\in$ Set 1,
-are pairwise disjoint, cover $\{1,\ldots,536\}$ (sizes 129, 86, 110, 77,
-64, 70) and are each sum-free with $i=j$ allowed. The 1680 partition was
-not recomputed.
+clause on the page images. The 536 partition was recomputed here from the text
+layer of p. 6: the six listed sets, closed under $i\mapsto537-i$ except for the
+exempt pair $179\in$ Set 4, $358\in$ Set 1, are pairwise disjoint, cover
+$\{1,\ldots,536\}$ (sizes 129, 86, 110, 77, 64, 70) and are each sum-free with
+$i=j$ allowed. The 1680 partition was not recomputed.
 
 ## Proof pointer
 

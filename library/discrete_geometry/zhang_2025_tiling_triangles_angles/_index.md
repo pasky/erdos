@@ -53,7 +53,7 @@ Source: <https://arxiv.org/abs/2512.22696>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0634/_index|#634]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 4: For a tile (a,b,c) with a, b and c all integers and M = 3
   ceil((c^2-a-b)/(ab)), for every integer m >= M the length mab is

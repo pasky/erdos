@@ -44,7 +44,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0642/_index|#642]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For n sufficiently large, every n-vertex graph with at least n
   log^8 n edges contains a cycle C with at least |C| chords.

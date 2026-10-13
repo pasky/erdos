@@ -76,12 +76,11 @@ garbles the mathematics). The artifact is identified in the
 [[ramsey_theory/hindman_1980_partitions_sums_products_two_counterexamples/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, Definitions 2.1 and 2.3, the
-partition note of p. 115 and the § 3 remark were read clause by clause on
-the page images on 2026-09-22. The proof (pp. 118--119) was read on the
-page images for its case structure, and its reductions to Lemmas 2.9 and
-2.10 were followed; none of its digit computations was checked, and the
-assertion that $\{K_i\}_{i<7}$ is a partition of $N$ was not checked.
-Nothing here is independently reviewed.
+partition note of p. 115 and the § 3 remark were read clause by clause on the
+page images. The proof (pp. 118--119) was read on the page images for its case
+structure, and its reductions to Lemmas 2.9 and 2.10 were followed; none of its
+digit computations was checked, and the assertion that $\{K_i\}_{i<7}$ is a
+partition of $N$ was not checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

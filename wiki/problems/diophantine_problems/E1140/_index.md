@@ -44,7 +44,7 @@ https://www.erdosproblems.com/1140.
 
 ## Current assessment
 
-The question, in the site's formulation accessed, asks for
+The question, in the site's formulation accessed 2026-09-04, asks for
 infinitely many $n$ with $n-2x^2$ prime for every $x$ with $2x^2<n$. The
 answer is no: at most nine such $n$ exist, the eight known ones
 $2,5,7,13,31,61,181,199$ and possibly one more. Doubling $n$ turns the
@@ -65,4 +65,4 @@ theorem. A conditional argument posted in the forum thread on 2026-01-25,
 assuming the generalized Riemann hypothesis, was found there to have a gap and
 is superseded by the unconditional result; it has no claim page. Search scope:
 the site's problem page and forum thread, the community database, and the two
-cited papers (2026-10-07). No Lean formalization of the result is known.
+cited papers. No Lean formalization of the result is known.

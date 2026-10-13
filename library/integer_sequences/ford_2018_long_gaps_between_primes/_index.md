@@ -39,10 +39,9 @@ listing's journal reference were read). The journal text was not
 compared; the page numbers and labels below are the
 preprint's. Read status: claims checked for Definition 1, Lemma 1.1,
 displays (1.2) and (1.3), Theorem 1 and Corollary 1 (pp. 2--4), each read
-clause by clause on the page images and in the text layer on 2026-09-18,
-with the proof of Lemma 1.1 read in full; the proof of (1.2) (Sections 3--8,
-pp. 8--39) was not read. The rest of the digest records an earlier reading
-that was not repeated.
+clause by clause on the page images and in the text layer, with the proof of
+Lemma 1.1 read in full; the proof of (1.2) (Sections 3--8, pp. 8--39) was not
+read. The rest of the digest records an earlier reading that was not repeated.
 
 Theorem 1 shows that G(X) = max_{p_{n+1} <= X} (p_{n+1} - p_n) is at least of
 order log X log_2 X log_4 X / log_3 X for large X, with an effective constant,
@@ -93,7 +92,7 @@ arbitrarily large, "answering in the affirmative a long-standing
 conjecture of Erdős", the problem's question
 ([[integer_sequences/ford_2018_long_gaps_between_primes/theorem_1|theorem_1]]).
 
-**Results to transcribe.**
+**Results.**
 
 - [[integer_sequences/ford_2018_long_gaps_between_primes/theorem_1|Theorem 1]]
   (p. 2): G(X) >> log X log_2 X log_4 X / log_3 X for sufficiently large X,

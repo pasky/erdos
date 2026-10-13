@@ -114,10 +114,10 @@ reduction that settles no instance, and says itself that the case
 $\alpha=\omega_1^{\omega+2}$ remains model-dependent.
 
 **Search scope.** The site's problem page and commentary (its discussion
-thread carries no comments and its proof-claims tab no claim), the zbMATH
-reviews of [La86], [La87], [La90] and [BL90], the Rényi archive scans of
-[EHM70] and of Erdős 1987, and the erdosproblemaday ledger were read on
-2026-10-07. MathSciNet, Google Scholar and arXiv were not searched.
+thread had no comments and its proof-claims tab no claim on 2026-10-07), the
+zbMATH reviews of [La86], [La87], [La90] and [BL90], the Rényi archive scans of
+[EHM70] and of Erdős 1987, and the erdosproblemaday ledger. MathSciNet, Google
+Scholar and arXiv were not searched.
 
 ## Known Results
 

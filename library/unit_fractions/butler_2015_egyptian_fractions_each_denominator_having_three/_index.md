@@ -56,7 +56,7 @@ Result page:
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0306/_index|#306]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 2): "Any natural number can be written as an Egyptian
   fraction where each denominator is the product of three distinct primes."

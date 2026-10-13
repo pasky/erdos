@@ -81,10 +81,10 @@ a third member of the same release family, which the manuscript does not cite.
 Read status: claims checked for Theorem 1.1, Theorem 1.2 and Lemma 8.1, read
 clause by clause in the TeX source (`sections/00-introduction.tex`, lines
 10--53, and `sections/07-totient-conclusion.tex`, lines 10--16; PDF pp. 1 and
-65) on 2026-10-07; the statements of the intermediate theorems (3.5, 4.1, 5.1,
-6.1) and propositions (7.1, 7.2) were read as statements, and the proofs of
-Sections 3--8 were read for their structure only and no step was checked;
-nothing here is independently reviewed.
+65); the statements of the intermediate theorems (3.5, 4.1, 5.1, 6.1) and
+propositions (7.1, 7.2) were read as statements, and the proofs of Sections 3--8
+were read for their structure only and no step was checked; nothing here is
+independently reviewed.
 
 ## Contents
 

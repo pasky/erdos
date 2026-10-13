@@ -40,7 +40,7 @@ identified in the
 [[extremal_graph_theory/erdos_1988_problems_results_combinatorial_analysis_graph_theory/_index|source digest]].
 
 **Read depth.** Claims checked: the passage was read clause by clause on the
-page image on 2026-09-19. It states a problem and proves nothing.
+page image. It states a problem and proves nothing.
 
 ## Proof pointer
 
