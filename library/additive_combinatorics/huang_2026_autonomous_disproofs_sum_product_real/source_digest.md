@@ -101,14 +101,8 @@ disclosure. The Zenodo rendered physical p. 1 was inspected for its displayed
 date and matching title, authorship, abstract, and theorem context. This is a
 statement and provenance check without code execution or proof verification.
 
-## Source-reading corrections
+## Standing
 
-The real-line notation was corrected to \(\mathbb{R}\). The index now states
-the exact sumset/product-set definitions and Theorem 1 hypotheses and
-conclusion, distinguishes the E52 integer problem from the real-number result,
-and gives both precise version scopes. The seven-of-eight result and
-trial-2 gap are explicitly attributed to the paper. The filing labels the
-repository as released project materials, identifies Zenodo record 21286412 as
-preprint/deposit metadata with `publication_date` 2026-07-10, and records that no
+The seven-of-eight result and the trial-2 gap are the paper's own report. No
 peer-review or named community-acceptance evidence is established. The digest
 records the statement and source report; it assigns no full proof credit.

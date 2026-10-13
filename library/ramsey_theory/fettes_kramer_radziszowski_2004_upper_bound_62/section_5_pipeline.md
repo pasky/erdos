@@ -358,7 +358,7 @@ Mayberry, A Simple Construction Giving the Two Non-isomorphic Triangle-Free
 3 Colored $K_{16}$'s, Journal of Combinatorial Theory, Series B 45 (1988),
 120–124. Of these, [6] is held as
 [[ramsey_theory/heinrich_1977_proper_colourings_k_15/_index|heinrich_1977_proper_colourings_k_15]],
-filed after this page was written and read at statement depth. [7] is held
+read at statement depth. [7] is held
 and filed as
 [[ramsey_theory/kalbfleisch_stanton_1968_maximal_triangle_free_edge_chromatic_graphs_three_colors/_index|kalbfleisch_stanton_1968_maximal_triangle_free_edge_chromatic_graphs_three_colors]];
 its Theorem, "There are exactly two non-isomorphic $(3)^3$-colorings on 16
@@ -388,7 +388,7 @@ alleged against the published proof.
 1. **The seeds.** No labeled edge table for $T_1$ or $T_2$ is printed; the
    classification of good $3$-colorings of $K_{16}$ and the $K_{15}$
    containment are cited to [7] and [6], not reproduced. The $K_{15}$
-   containment is now held as
+   containment is held as
    [[ramsey_theory/heinrich_1977_proper_colourings_k_15/theorem_2|Heinrich 1977, Theorem 2]],
    whose proof itself assumes the $K_{16}$ classification of [7]; [7] is
    held and filed as

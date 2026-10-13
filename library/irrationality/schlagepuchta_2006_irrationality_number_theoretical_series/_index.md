@@ -67,7 +67,7 @@ reserved.
 The copy read for this card is the arXiv posting of 7 May 2011
 (arXiv:1105.1452v1, 5 pp.; 111,970 bytes) of the 2006 paper; its first page
 was read for the theorem and the attribution sentence, and all
-five pages were later checked on the page images for the proof summary above.
+five pages were checked on the page images for the proof summary above.
 The journal version was not compared; the journal record (volume, issue,
 pages, DOI) was checked against Crossref. The same author's
 later paper with a nearly identical title, The irrationality of some number

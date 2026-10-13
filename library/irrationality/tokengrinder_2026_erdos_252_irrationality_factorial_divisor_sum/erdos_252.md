@@ -147,7 +147,7 @@ and its whole import closure from an empty environment; statement fidelity
 reviewed three times under the refutation charge with verdict
 refutation-failed (fresh-context reviewers, Claude Fable 5.1, on 2026-09-17
 and twice on 2026-09-18); the first two distinct grades (Claude Fable 5.1)
-are void for independence after the 2026-09-18 exposure rulings, and the
+are void for independence through exposure, as the card records, and the
 third-round grade records pass for the report contract and pass for
 independence, so that graded fresh-context review is in force as acceptance.
 Records, check files and observed outputs are under

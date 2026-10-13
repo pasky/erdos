@@ -57,8 +57,8 @@ rational approximation a_s = a/q + theta/(q tau) with (a,q) = 1 and
 P^{kappa} << q <= tau = P^{0.5 s}, then S << P^{1-rho} for l <= P^{2 rho_0},
 with rho = 0.041 nu^2/(log n + 2) if q > P^{0.25} and
 rho = 0.37 nu^2 kappa/(log(n^2/kappa) + 4) if q <= P^{0.25}, nu = 1/n
-(corrected on the page images from the digest's tau = P^{0.25} and
-S << Z P^{-rho}, the latter an intermediate of the proof). The condition on l
+(read on the page images; the form S << Z P^{-rho} is an intermediate of
+the proof). The condition on l
 is printed with rho_0, the slightly larger exponent of Lemma 4 (p. 228:
 rho_0 = 0.0416 nu^2/(log n + 2) if q > P^{0.25} and
 0.375 nu^2 kappa/(log(n^2/kappa) + 4) if q <= P^{0.25}), which the proof of

@@ -12,7 +12,7 @@ updated: 2026-09-24T22:12:59Z
 
 ***
 
-## A recently located independence bound
+## The localized Caro--Wei bound
 
 Abiad, Kumar, and Pragada, *Localization of the Caro--Wei bound and its
 applications to bipartiteness*, arXiv:2609.00210v1 (31 August 2026),
@@ -32,8 +32,8 @@ e(H)\ge\frac{|H|^2}{\alpha(H)}
 -\frac{(\omega(H)+1)|H|}{2}. \tag{1}
 $$
 
-This input is outside the originally supplied source bundle; its provenance
-is therefore explicit rather than silently treated as an old known theorem.
+This input is a 2026 preprint result, not a classical theorem, so its
+provenance is stated explicitly.
 
 In averaged form, Jensen and $c(v)\le\omega(H)$ give
 

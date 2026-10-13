@@ -78,7 +78,7 @@ Remark 1 and the Definition (p. 203), the quasi-Sidon construction, display
 differences variant, Remark 2, Proposition 2 with its proof and the Remark
 after it (p. 204), and the rate remark, Proposition 3 with its Corollary and
 the reference list (p. 205), each read clause by clause on the page images
-of PDF pp. 1--5 and 8--10 on 2026-09-22. Printed pp. 201--202 (PDF
+of PDF pp. 1--5 and 8--10. Printed pp. 201--202 (PDF
 pp. 6--7), the induction (17)--(19), the even-$r$ substitution (21)--(26)
 and the $\varepsilon$-argument (27)--(32) of the upper bound, were read in
 the text layer for structure only. The proofs of Lemma 1, Lemma 3, the lower

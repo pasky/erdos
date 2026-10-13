@@ -112,9 +112,7 @@ elementary transfers have received independent strong review, retained as the
 [[../library/polynomials/tao_2026_local_bernstein_theory_lower_bounds_lebesgue/evidence/verify/transfer_review|transfer
 review]] filed with the Tao source. The copy of the text the review read is
 not retained in the repository; the current text agrees with the report's
-description of it, which is a match of description, not of bytes. On 2026-10-12
-this page's frontmatter description and Status paragraph were reworded; the
-change touches no examined statement, proof, code or input. Proof
+description of it, which is a match of description, not of bytes. Proof
 coverage: the complete source proofs are not compiled in this corpus. The
 catalog's PROVED label is the recorded acceptance; refereed publication,
 independent review of the complete source proof and formal verification are
@@ -130,15 +128,11 @@ The recorded 6 September 2026 API response identifies Tao v3; no broader
 current-status search is recorded on this page.
 
 The transfer review read this page's frontmatter status and Status paragraph as
-they stood on 2026-09-15. Since then the Status paragraph has been reworded to
-name the catalog's PROVED label, Tao's Theorem 1.10(i) as the status-defining
-source and the three claim pages, including the accepted partial Erdős 1961
-page, the Formalization field to describe the pinned repository, and this
-assessment to record the review's unretained copy, the recorded acceptance and
-the claim pages; the frontmatter has moved to the claims schema
-(`status: solved`, `claim: proved` in place of `status: proved`) without a
-change of meaning. The standing, the Tao source, the statement and the transfer
-below are unchanged since the review.
+they stood on 2026-09-15. Since the review, the frontmatter has taken the
+claims schema without a change of meaning, and its description, the Status
+paragraph, the Formalization field and this assessment were reworded; this
+touches no examined statement, proof, code or input, and the standing, the Tao
+source, the statement and the transfer below are unchanged.
 
 ## Progress
 

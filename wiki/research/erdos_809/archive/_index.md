@@ -127,8 +127,7 @@ questions are historical: the author-recorded [C7 proof](../proofs/_index.md)
 gives an argument for the threshold, and the
 [Lean account](../formalization.md) records the $k\ge3$ Lean development
 behind claim L17, accepted at tier 2 on 2026-09-25 for the Lean sources and
-the statement as they stood on 2026-09-25T03:40:15Z and first carried by the
-default branch on 2026-09-28.
+the statement as they stood on 2026-09-25T03:40:15Z.
 
 For context, first read the [random-blow-up palette model](c7_random_blowup_lp.md)
 and [half-edge reduction](c7_half_edge_reduction.md). The

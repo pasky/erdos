@@ -67,7 +67,7 @@ free set, Olson's Theorem 1 as quoted (p. 2), the main addition theorem (p. 2
 and Theorem 5, p. 9, statements only), Theorems 6 and 7 on sequences (pp. 12
 and 14, statements only), Section 3.3's history and Theorems 8 and 9 (p. 16),
 read in the text layer and checked against the page images; Definition 4
-and Proposition 4 (p. 15) were later read on the page images; the ten-line
+and Proposition 4 (p. 15) were read on the page images; the ten-line
 proof of Theorem 9 and the proofs of Theorem 7 and Proposition 4 were read,
 the proofs of Theorems 5 and 6 for structure only. Result pages:
 [[integer_sequences/balandraud_2012_addition_theorem_maximal_zero_sum_free_sets/theorem_5|Theorem 5]], [[integer_sequences/balandraud_2012_addition_theorem_maximal_zero_sum_free_sets/theorem_6|Theorem 6]],

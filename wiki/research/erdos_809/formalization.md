@@ -62,5 +62,5 @@ result in the catalog's exact-edge form over graph copies and proves it from
 independent whole-statement fidelity audit, its grade and a non-author clean
 gate are filed on the claim page, so the claim stands at tier 2 (accepted on
 2026-09-25 for the Lean sources and the statement as they stood on
-2026-09-25T03:40:15Z, first carried by the default branch on 2026-09-28) and
+2026-09-25T03:40:15Z) and
 the problem page records the question as proved.

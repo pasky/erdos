@@ -25,15 +25,14 @@ The retained [folder-name
 PDF](gordeev_2023_combinatorial_nullstellensatz_turan_numbers_complete_r.pdf) is
 arXiv:2307.04447v1 (10 July 2023, 3 pages): the identifier and date are printed
 on the file's own arXiv stamp, and the arXiv record read gives this title and
-author for that identifier, so the doubt recorded in an earlier digest is
-settled. The note appeared in Discrete Math. 347 (2024), no. 7, 114037,
-doi:10.1016/j.disc.2024.114037, and a corrigendum followed in Discrete Math. 348
-(2025), no. 4, 114417, doi:10.1016/j.disc.2025.114417 (Crossref records);
-neither the journal text nor the corrigendum is held (one paced request through
-the DOI resolver on 2026-09-18 reached only the publisher's redirect page), so
-what the corrigendum changes is unknown here. The arXiv record
-(https://arxiv.org/abs/2307.04447, read 2026-10-07) names the Creative Commons
-Attribution 4.0 license.
+author for that identifier. The note appeared in Discrete Math. 347 (2024),
+no. 7, 114037, doi:10.1016/j.disc.2024.114037, and a corrigendum followed in
+Discrete Math. 348 (2025), no. 4, 114417, doi:10.1016/j.disc.2025.114417
+(Crossref records); neither the journal text nor the corrigendum is held (one
+paced request through the DOI resolver on 2026-09-18 reached only the
+publisher's redirect page), so what the corrigendum changes is unknown here. The
+arXiv record (https://arxiv.org/abs/2307.04447, read 2026-10-07) names the
+Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for Theorem 3.2 with its four-line proof, Lemma
 2.1 and Lemma 3.1's statement (p. 2) and the introduction's displays (1)--(2)
@@ -60,8 +59,7 @@ under heavy recent activity (Kollar-Ronyai-Szabo, Ma-Yuan-Zhang,
 Conlon-Pohoata-Zakharov, Pohoata-Zakharov) without the central bound being
 settled. The local PDF is Gordeev's note, and the arXiv identifier
 2307.04447 is confirmed from the file's own stamp and the arXiv record
-(above); an earlier digest's association of the identifier with a different
-title was wrong.
+(above).
 
 Source: <https://arxiv.org/abs/2307.04447>.
 

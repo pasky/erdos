@@ -87,8 +87,8 @@ reconstruction]] has passed an independent whole-proof review. The
 [[../library/discrete_geometry/cambie_kalviainen_2026_small_step_walk/evidence/verify/source_proof_review|retained review]]
 checks every essential deduction against the v1 PDF and the exact catalog
 consequence. It certifies no claim that all sixteen possible steps occur and
-no formal verification. On 2026-10-12 this page's frontmatter description and
-Status paragraph were reworded; the change touches no examined statement, proof,
+no formal verification. Since the review, this page's frontmatter description
+and Status paragraph were reworded; this touches no examined statement, proof,
 code or input.
 
 Thomas Bloom explicitly agreed that the result should be marked solved in

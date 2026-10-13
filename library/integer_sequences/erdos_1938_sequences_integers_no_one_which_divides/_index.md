@@ -79,8 +79,8 @@ $\sum_{n^{2/5}\ge q\ge n^{1/3}}\pi(n/q^2)=O(n^{2/3}/(\log n)^2)$ of the
 class-(d) $b$'s (p. 76); and the construction from the $s>n^{1/3}/(2\log n)$
 primes not exceeding $n^{1/3}$ giving an A sequence of more than
 $\pi(n)+n^{2/3}/(80(\log n)^2)$ members (p. 77). The digest's A-sequence
-exponents were corrected to these readings on that date; the B-sequence
-exponents 3/4 and 3/2 of Section 2 are as printed. The rest of the digest
+exponents follow these readings; the B-sequence exponents 3/4 and 3/2 of
+Section 2 are as printed. The rest of the digest
 records an earlier reading that was not repeated here.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0121/_index|#121]]: Section 2,

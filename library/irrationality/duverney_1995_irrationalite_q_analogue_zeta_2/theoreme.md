@@ -175,11 +175,10 @@ coverage relative to Euler's pentagonal number theorem, not proved here,
 and to Théorème 2 of Duverney 1993, whose statement and proof were
 checked. The reviewed text is the copy
 `evidence/assets/reviewed_pages/theoreme.md`, which the repository does
-not hold; the current page differs from it only in the `desc` field, this
-Verification section, the `updated` field and, since 2026-10-07, the page
-range of the Bundschuh and Väänänen paper under Remarks, where the reviewed
-copy repeats the note's misprinted 175--201; that change touches neither
-the statement nor the proof. The result is relied on for the status of
+not hold. Since the review, only the `desc` field, this Verification section,
+the `updated` field and the page range of the Bundschuh and Väänänen paper
+under Remarks have changed; this touches no examined statement, proof, code or
+input. The result is relied on for the status of
 Problem 250 as a refereed publication (Zbl 0843.11034), the first published
 proof that $\sum_{n\ge1}\sigma(n)/2^n$ is irrational, independently of
 this reconstruction.

@@ -84,19 +84,10 @@ description and the statements and proof route on pp. 3151-3152 and 3154 were
 also inspected. The final specialization of Theorem 2 to Theorem 1 was
 checked; the construction lemmas and full proof of Theorem 2 were not
 reconstructed or independently verified. The extracted result records that
-boundary. All thirteen page images were later read: Theorems 1, 2 and 8 and
+boundary. All thirteen page images were read: Theorems 1, 2 and 8 and
 Propositions 3, 9 and 10 were checked clause by clause, and the proofs of
 Theorems 2 and 8 and of Propositions 9 and 10 were read for their structure
 only. Read status: claims checked for every result page of this card.
-
-**Identity correction.** The formerly recorded arXiv identifier
-`2010.05953` belongs to Hwang et al., *COMET-ATOMIC 2020: On Symbolic and
-Neural Commonsense Knowledge Graphs*, and the formerly recorded PDF was
-that unrelated paper's version 2. The formerly recorded DOI
-`10.1090/proc/15381` belongs to Gaffney and Ruas, *Equisingularity and EIDS*.
-Neither identifies the Alon-Bucić-Sudakov source. The account above uses the
-correct published edition; no claims about this graph construction are
-supported by either unrelated identifier.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0805/_index|#805]]:
 Theorem 1 gives an $n$-vertex graph in which every set of

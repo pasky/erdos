@@ -15,7 +15,7 @@ updated: 2026-10-08T14:29:35Z
 and context from 1973, not a current status census.
 
 The paper asks whether sphericality suffices for a finite configuration to
-be Ramsey. Its necessity proof is now reconstructed at
+be Ramsey. Its necessity proof is reconstructed at
 [[discrete_geometry/erdos_1973_euclidean_ramsey_theorems/theorem_13]].
 The broader characterization question belongs to
 [[../wiki/problems/discrete_geometry/E0174/_index|Problem 174]], where any present-day
@@ -33,7 +33,7 @@ finite number of colors.
 
 The original product theorem is a cited input in
 [[discrete_geometry/moore_2026_pyramid_ramsey_base/theorem_2_1]].
-Its finite-witness pattern argument is now fully compiled at
+Its finite-witness pattern argument is fully compiled at
 [[discrete_geometry/erdos_1973_euclidean_ramsey_theorems/theorem_20]].
 The stronger density product proof from 1990 and the recent pyramid methods
 are recorded as distinct arguments, not attributed back to the 1973 paper.

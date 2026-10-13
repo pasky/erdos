@@ -94,8 +94,8 @@ European J. Combin. paper, not the site's key BoTh96.
   over n-vertex graphs with independence number <= alpha.
 - Theorem 1.2(2): If alpha = a log n with a >= 2 then f(n,alpha) >= c_2
   sqrt(n/(a log a)), tight up to a constant factor via G(n,p) with constant
-  p. (An earlier digest printed sqrt(n log a / a); the page prints
-  sqrt(n/(a log a)), which is also the form used in the deduction on p. 3.)
+  p. The page prints sqrt(n/(a log a)), which is also the form used in the
+  deduction on p. 3.
 - Theorem 3.1 (quoted, p. 4): "Every graph G with n vertices and at least
   256 t^2 n edges satisfies sigma(G) >= t", the theorem of Bollobás and
   Thomason [5] (European J. Combin. 19 (1998) 883-887) and of Komlós and

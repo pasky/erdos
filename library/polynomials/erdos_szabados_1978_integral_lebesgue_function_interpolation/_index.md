@@ -69,10 +69,10 @@ on 2026-09-18T07:24:04Z, graded PASS for contract and independence by its
 [distinct grade](evidence/verify/full_chain_review_grade_fresh.md) on
 2026-09-18; the earlier [full-chain
 review](evidence/verify/full_chain_review.md) is retained but void as an
-independent warrant for the composition after a material exposure ruling of the
-same day. Those reviews give no independent proof credit to those external
-inputs and no credit for the printed $1/40$, the sharp $2/\pi$ coefficient,
-formal verification, acceptance, a status change, or E1153's sharp claim.
+independent warrant for the composition, for material exposure. Those reviews
+give no independent proof credit to those external inputs and no credit for the
+printed $1/40$, the sharp $2/\pi$ coefficient, formal verification, acceptance,
+a status change, or E1153's sharp claim.
 
 **Read status.** Claims checked: the theorem (4), the node gap lemma (5) and
 the closing remark were read clause by clause on the printed pages. Proof

@@ -44,11 +44,10 @@ right reserved.
 Read status: claims checked for the $\pi(K_4^3)\le0.5615$ passage of
 Section 5.1 (p. 14) and the opening of Section 5.1.1, read clause by clause
 on the page image; the certificate file the passage names was
-not fetched and the argument was not checked; the hypercube results,
-recorded from an earlier reading, were checked against the
-abstract (p. 1), the introduction (pp. 2--3), Theorem 2.1 (p. 4), Theorem 3.1
-(p. 8) and Theorem 4.1 (p. 9) on the page images, their certificate files not
-fetched and their arguments not checked. The bound is paged at
+not fetched and the argument was not checked; the hypercube results were checked
+against the abstract (p. 1), the introduction (pp. 2--3), Theorem 2.1 (p. 4),
+Theorem 3.1 (p. 8) and Theorem 4.1 (p. 9) on the page images, their certificate
+files not fetched and their arguments not checked. The bound is paged at
 [[extremal_graph_theory/baber_2012_turan_densities_hypercubes/bound_p14|bound_p14]],
 and the hypercube theorems at
 [[extremal_graph_theory/baber_2012_turan_densities_hypercubes/theorem_2_1|Theorem 2.1]],

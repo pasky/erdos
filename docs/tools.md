@@ -552,11 +552,11 @@ slot-named library page with no PDF beside it is a page and stays in.
 The leg fails on retired names and broken links. First, one of the ten
 conventions page names (`anatomy`, `approach_vetting`, `compiler_trust`,
 `evidence`, `lean_authoring`, `math_authoring`, `research`, `tools`,
-`verification`, `weaving`), retired from `wiki/` on 2026-10-05 when the
-conventions folder, then named `wiki/`, became `docs/`, exists at the top of the
-mathematics wiki `wiki/` as a file or a symlink, or is named as `wiki/<stem>` in
-any form (a plain path, a wikilink, an inline link) outside the dated note's
-mapping table in `docs/verification.md`, which sits between the marker comments
+`verification`, `weaving`), retired from `wiki/` when the conventions folder,
+then named `wiki/`, became `docs/`, exists at the top of the mathematics wiki
+`wiki/` as a file or a symlink, or is named as `wiki/<stem>` in any form (a
+plain path, a wikilink, an inline link) outside the dated note's mapping table
+in `docs/verification.md`, which sits between the marker comments
 `<!-- swap note 2026-10-05 -->` and `<!-- end swap note -->`. Second, a marker
 is left unclosed. Third, an inline Markdown link or link reference definition
 has an absolute target, or a relative target that does not resolve on disk from

@@ -85,7 +85,7 @@ following Fig. 1 (p. 76) and the closing paragraph of § 2 on $\Gamma_q$
 The construction of $\Gamma_q$ and Propositions 1--5 (pp. 76--78), Lemmas 1--4
 (pp. 79--81) and the proofs of Theorems 6 and 7 (pp. 81--84) were read in the
 text layer for structure only; none of their arguments was checked. The
-statement of Lemma 2 and its Remark (pp. 79--80) were later read clause by
+statement of Lemma 2 and its Remark (pp. 79--80) were also read clause by
 clause on the page images; its proof was read for structure only. The reference
 list (pp. 84--85) was read in the text layer. Nothing here is independently
 reviewed.

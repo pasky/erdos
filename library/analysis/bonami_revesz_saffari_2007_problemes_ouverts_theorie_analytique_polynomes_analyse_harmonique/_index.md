@@ -50,8 +50,7 @@ group's 21-page problem collection, which prints no copyright or license
 statement on pp. 1--2 or 20--21; no host or download location is recorded, so
 there is no page to consult, and the term is unstated.
 
-**Reading.** The card was first read from a complete Markdown transcription of
-the collection; its digest was then checked clause by clause against the
+**Reading.** The card's digest was checked clause by clause against the
 printed pages, from which the result pages below take their labels and pages.
 
 ## Summary

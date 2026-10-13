@@ -65,7 +65,7 @@ p. 219 of Frankl–Rödl, *Strong Ramsey properties of simplices*, Israel Journa
 of Mathematics **139** (2004), 215–236
 ([published PDF](https://www.renyi.hu/~pfrankl/2004-1.pdf#page=5)).
 Both statements were checked visually against those versions.
-The full original proof chain of the 1987 theorem is now compiled at the
+The full original proof chain of the 1987 theorem is compiled at the
 canonical source linked above. It remains external to the 1990 paper.
 
 **Two-point hyper-Ramsey input.** For every $a>0$ and $\delta>0$, the

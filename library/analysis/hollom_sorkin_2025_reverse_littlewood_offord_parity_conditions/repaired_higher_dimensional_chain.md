@@ -22,10 +22,10 @@ version. One independent review, filed at
 [[analysis/hollom_sorkin_2025_reverse_littlewood_offord_parity_conditions/evidence/verify/gap_audit|evidence/verify/gap_audit]],
 found it sound at the stated constant for $d\ge3$; no grader's acceptance
 is on file, so the page is author-recorded proof coverage only. The
-current text restates the reviewed reconstruction, retained at
+page restates the reviewed reconstruction, retained at
 `evidence/assets/repaired_higher_dimensional_chain_reviewed.txt`, with
-the same mathematics; the issue list now lives on the card and the layout
-differs.
+the same mathematics; it differs in layout and leaves the issue list to
+the card.
 
 Notation follows the paper (pp. 3, 6): $S(V)$ is the set of signed sums
 of the sequence $V$, $Z(V)$ its zonotope, and $V$ is $r$-approximating if

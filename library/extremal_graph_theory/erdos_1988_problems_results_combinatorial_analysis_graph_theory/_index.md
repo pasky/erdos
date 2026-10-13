@@ -73,10 +73,8 @@ subgraph of minimum degree >= r. The cited problems 77, 149, 150, 151, 167 and
 conjecture on strongly independent edges, 150 the Section 1 minimal-cut
 question, 934 the Section 1 edge-distance function $h_r(n)$, 151 the Section 3
 Erdős--Gallai clique-transversal question, 167 the Tuza problem of Section 10,
-and 77 the Ramsey material of Section 4 (the digest formerly routed 150 and 151
-to the Section 6 functions f_k(n) and F_k(n) and 934 to the minimal-cut
-question; corrected on the page images). Section 6 is also Erdős's statement of
-problem 182 for general k, with the 1988 bounds.
+and 77 the Ramsey material of Section 4, as read on the page images. Section 6
+is also Erdős's statement of problem 182 for general k, with the 1988 bounds.
 
 Read status: claims checked for the Section 6 statements (printed p. 85, PDF
 p. 5 of the scan), read clause by clause on the page image; the rest

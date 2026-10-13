@@ -154,7 +154,7 @@ the reconstruction pages; no formula or sentence changed.
 as answered yes on a bounty site's accepted Lean proof, with the stated
 qualifications. The Yu--Chen manuscript claims the stronger conclusion
 that the value set stays complete after every finite deletion. Its
-argument is now written out here at the author-recorded level, with one
+argument is written out here at the author-recorded level, with one
 external input (Dirichlet's approximation theorem, imported on the
 windows page) and one finite input (the Appendix A certificate, rechecked
 by the evidence). Where the source states a step without proof (the

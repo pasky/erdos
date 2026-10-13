@@ -215,7 +215,7 @@ $r(S(5,2))=11$, each $4k-1$. The
 conjecture of p. 254 is the one Norin, Sun and Zhao's
 [[ramsey_theory/norin_2016_asymptotics_ramsey_numbers_double_stars/theorem_1_3|Theorem 1.3]]
 refutes, and remark (2) of p. 254 states Burr's conjecture and its disproof
-in the paper's own words, which the problem page had quoted second-hand.
+in the paper's own words.
 [[../wiki/problems/ramsey_theory/E0547/_index|#547]]: for a double star on $N=n+m+2$
 points, Theorem 3.1 (p. 249), $r(S(n,m))\le2n+m+2$, and the exact values
 (1) and (2) (p. 248) all lie at or below $2N-2=2n+2m+2$, so the double

@@ -106,7 +106,7 @@ the identity $Y(x)=j(P(x))-1$ of
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0970/_index|Problem 970]]: the upper bound
-  $h(k)\ll(k\log k)^2$ that the site attributes to the paper, now read at
+  $h(k)\ll(k\log k)^2$ that the site attributes to the paper, read here at
   its source; the displayed question $h(k)\ll k^2$ is Jacobsthal's second
   question as p. 226 reports it, and the paper leaves it open.
 - [[../wiki/problems/integer_sequences/E0687/_index|Problem 687]]: the upper bound

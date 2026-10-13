@@ -61,10 +61,9 @@ repeated. Result pages:
 [[divisors/benkoski_1974_weird_pseudoperfect_numbers/theorem_1|theorem_1]]
 and
 [[divisors/benkoski_1974_weird_pseudoperfect_numbers/theorem_2|theorem_2]].
-The digest's bullets for Theorems 1 and 2 agree with the page images; the
-refinement on p. 619 was not in the digest before 2026-09-18. The copy read
-prints "Copyright © 1974, American Mathematical Society" on its first page,
-every other right reserved.
+The digest's bullets for Theorems 1 and 2 agree with the page images. The copy
+read prints "Copyright © 1974, American Mathematical Society" on its first
+page, every other right reserved.
 
 Source: <https://users.renyi.hu/~p_erdos/1974-24.pdf>.
 

@@ -152,8 +152,8 @@ a defect in the transfer sentence
 clause). Its [distinct grade](evidence/verify/publication_grade_r3.md) records
 pass for the report contract and pass for independence, and states that it
 warrants acceptance of the two theorems and no acceptance of the transfer
-sentence as frozen; that sentence was repaired on 2026-09-18, after the review,
-so `theorem_1.md`'s transfer section now carries $n\geq1$. The focused [transfer
+sentence as frozen; that sentence was then repaired, so `theorem_1.md`'s
+transfer section carries $n\geq1$. The focused [transfer
 repair review](evidence/verify/transfer_repair_review.md) of 2026-09-18 read the
 Theorem 1 Statement, the repaired transfer section and the Problem 225 Statement
 paragraph as they stood on 2026-09-18T09:26:42Z through a redacted extraction
@@ -162,13 +162,12 @@ grade](evidence/verify/transfer_repair_grade.md) records pass for the report
 contract and pass for independence and states that the repaired section survives
 focused blind review, conditional on Theorem 1 as the card states it, with no
 tier asserted. The transfer sentence is therefore accepted as the card states
-it. On 2026-10-07, after these reviews, the reviewed pages were reworded
-without changing any statement, hypothesis or proof step: the Theorem 1
-Statement marks $n\geq1$ as implicit in the print, the Theorem 2 Statement
-attributes the multiplicity count to the card rather than the paper, Lax's
-inequality and both equality clauses are restated, and the Theorem 2 page and
-the transfer section's closing pointer to it no longer call the two-sided
-theorem stronger or broader, since each theorem implies the other. The named
+it. Since these reviews, the reviewed pages were reworded without changing any
+statement, hypothesis or proof step: the Theorem 1 Statement marks $n\geq1$ as
+implicit in the print, the Theorem 2 Statement attributes the multiplicity
+count to the card rather than the paper, Lax's inequality and both equality
+clauses are restated, and the comparison of the two theorems on the Theorem 2
+page and in the transfer section's closing pointer to it is reworded. The named
 external proofs, Kristiansen route, formal verification, and acceptance evidence
 remain outside this compilation.
 

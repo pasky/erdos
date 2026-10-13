@@ -100,10 +100,10 @@ and report contract. The
 [review record](evidence/verify/interval_not_extremal_review.md)
 identifies their exact subjects, corrected report, completed-record grading and
 scope limits. The
-mathematical sections above retain the reviewed text; the input retains its
-reviewed bytes, and the owner checker's docstring was edited after the review
-of the checker as it stood on 2026-09-10 (an expected-runtime sentence replaced
-the external supervisor limit; its checks are unchanged).
+mathematical sections above retain the reviewed text, and the input retains
+its reviewed bytes. Since the review of the owner checker as it stood on
+2026-09-10, the docstring sentence on its expected runtime was reworded; its
+checks are unchanged.
 
 The owner checker, preserved independent program and shared-harness adaptation
 have passed full normal and optimized author runs. The

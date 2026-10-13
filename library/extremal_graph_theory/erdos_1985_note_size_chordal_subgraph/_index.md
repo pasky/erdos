@@ -109,11 +109,11 @@ recorded on the problem page.
   edges, and some graph with [n^2/4] edges has none of size more than n-1;
   paged at
   [[extremal_graph_theory/erdos_1985_note_size_chordal_subgraph/theorem_1|theorem_1]].
-- theorem_2 (p. 83, proof pp. 83--85; the digest formerly called it
-  main_theorem_epsilon): For some fixed epsilon > 0, whose exact value the
-  paper cannot determine, and n > n_0(epsilon), every graph on n vertices
-  with [n^2/4]+1 edges contains a chordal subgraph of at least n(1+epsilon)
-  edges; proved by finding a triangle xyz with deg x + deg y + deg z > n(1+eta);
+- theorem_2 (p. 83, proof pp. 83--85): For some fixed epsilon > 0, whose
+  exact value the paper cannot determine, and n > n_0(epsilon), every graph
+  on n vertices with [n^2/4]+1 edges contains a chordal subgraph of at least
+  n(1+epsilon) edges; proved by finding a triangle xyz with
+  deg x + deg y + deg z > n(1+eta);
   paged at
   [[extremal_graph_theory/erdos_1985_note_size_chordal_subgraph/theorem_2|theorem_2]].
 

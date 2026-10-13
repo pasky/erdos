@@ -185,9 +185,9 @@ The complete two-part statement and induction passed independent review
 in a fresh context, with verdict refutation-failed and a passing contract
 and independence grade by a distinct grader. The
 [[ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_9/evidence/verify/lower_bound_route_review|accepted review record]]
-preserves the exact subject, independent reasoning and grade. On 2026-10-07
-five proof sentences were reworded to stop following the source's wording;
-the statement and every deduction are unchanged from the reviewed subject.
+preserves the exact subject, independent reasoning and grade. Since the
+review, five proof sentences were reworded; the statement and every deduction
+are unchanged from the reviewed subject.
 
 The proof consumes the fixed universal cover of Lemma 2.2 and the
 separation and nonemptiness of the palette families in Lemma 2.3.

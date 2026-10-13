@@ -113,4 +113,4 @@ the Erdős--Sós conjecture, the note's [2], which is open.
   that the smallest $\lfloor n/\sqrt2\rfloor$ many trees can always be packed
   greedily into $K_n$"; the theorem gives more, since any packing of the
   larger trees among the first $s$ extends. The remark is the conditional
-  $(\sqrt3/2)n$ the page had second-hand from the later sources.
+  $(\sqrt3/2)n$ that later sources cite.

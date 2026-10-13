@@ -59,7 +59,7 @@ a zero-one optimum over this set. The paper explicitly
 defers the proof to Edmonds, *Maximum Matching and a
 Polyhedron with (0,1) Vertices*, Journal of Research
 of the National Bureau of Standards 69B (1965),
-its reference [4]. The original proof is now compiled at
+its reference [4]. The original proof is compiled at
 [[extremal_graph_theory/edmonds_1965_maximum_matching_polyhedron/theorem_p|Theorem P in that source]]. It remains external
 to the present paper. Exactness for the one objective
 $\sum_e x_e$ does not establish it.

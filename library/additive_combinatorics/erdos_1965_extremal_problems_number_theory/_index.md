@@ -322,24 +322,21 @@ and asks whether $\lfloor\log_2 n\rfloor$ is always attainable.
 - [[additive_combinatorics/erdos_1965_extremal_problems_number_theory/theorem_2|Theorem 2]]
   (printed pp. 186--187): From any n reals different from 0 one can select at
   least n/3 of them with no relation a + b = c among the chosen ones, equal
-  summands included (condition (27), 1 <= j_1 <= j_2 < j_3 <= k); corrected on
-  2026-09-18 from the earlier reading "no two distinct of which have their sum
-  in the original sequence", which is the condition of phi(n).
+  summands included (condition (27), 1 <= j_1 <= j_2 < j_3 <= k), a
+  different condition from that of phi(n) below.
 - [[additive_combinatorics/erdos_1965_extremal_problems_number_theory/phi_n_p187|The phi(n) passage]]
   (printed p. 187): c log n < phi(n) < (1/4 + epsilon)n for the largest k such
   that any n distinct reals contain k of them no two distinct of which have
   their sum in the original sequence; no proofs given.
 - [[additive_combinatorics/erdos_1965_extremal_problems_number_theory/inequality_30|Inequality (30)]]
   (printed p. 188): g(n) >= sqrt(n/2), where g(n) is the largest k such that
-  any n reals contain k of them none of which is the sum of others; corrected
-  on 2026-09-18 from sqrt(2n).
+  any n reals contain k of them none of which is the sum of others.
 - [[additive_combinatorics/erdos_1965_extremal_problems_number_theory/inequality_31|Inequality (31)]]
   (printed p. 188): h(n) >= n^(1/3) for the variant where two subset sums agree
   only when they have the same number of summands; the page cites h(n) < c
   n^(5/6) to its reference [5], Remarks in number theory III (Mat. Lapok 13
   (1962), 28-38), and the Straus bound h(n) < c n^(1/2)
-  appears only in the Additions of the augmented scan (printed p. 190);
-  corrected on 2026-09-18.
+  appears only in the Additions of the augmented scan (printed p. 190).
 - Dissociated-subset paragraph, p. 188: every n-element real set has a
   dissociated subset of size at least floor(log_3 n), and Erdos asks whether
   floor(log_2 n) is always attainable. The interval example supports near

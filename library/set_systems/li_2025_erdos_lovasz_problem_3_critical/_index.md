@@ -84,17 +84,13 @@ rendered PDF. The
 independent assessment of all thirteen reconstructed proofs and the finite
 data. The [evidence record](evidence/_index.md) distinguishes that review
 from execution of the current checker and gives its commands and limitations.
-On 2026-09-17 the two test modules the verification records under `evidence/`
-name changed after their recorded states: `tests/test_e0834_bitmask.py` (added
-and recorded 2026-09-15) replaced its two expectations of the checker's
-byte-identity refusal with the content refusal `construction.degrees`, asserted
-through the shared check harness, and took American spellings, and both it and
-`tests/test_e0834_evidence.py` (recorded) now load the checker
-from the renamed source folder by path, the second no longer importing it from
-`scripts/`; the fixtures and mathematical assertions are unchanged and the
-modules still collect 67 and 20 cases, so the records' verdicts are unaffected.
-On 2026-10-12 the frontmatter description of the Problem 834 page was reworded;
-the change touches no examined statement, proof, code or input.
+Since the verification records under `evidence/` recorded them, the two test
+modules they name, `tests/test_e0834_bitmask.py` and
+`tests/test_e0834_evidence.py`, were revised in the checker refusal the first
+expects and in how both load the checker, and the frontmatter description of
+the Problem 834 page was reworded; the fixtures and mathematical assertions are
+unchanged and the modules still collect 67 and 20 cases, so the records'
+verdicts are unaffected.
 
 **Source and version status.** The
 copy read for this card is the complete

@@ -255,9 +255,8 @@ p. 10, $N_t\le tN_{t-1}+1$, is the elementary recurrence $R_t(3)\le
 t(R_{t-1}(3)-1)+2$ behind the problem's factorial upper bounds, with the
 1968 remark that equality for $t=4$ would follow from the unexamined
 $N_4=65$. The problem's solved status rests on the separate lower-bound
-route and is unchanged; the filing replaces the last cited but unread
-seed-interface source of the finite premise with one read at
-statement depth, and the premise itself remains claims checked only.
+route; this card reads that seed-interface source of the finite premise at
+statement depth, and the premise itself is claims checked only.
 
 **Results.**
 

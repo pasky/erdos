@@ -116,15 +116,15 @@ matched the committed self-test stamp. The proof is kernel-only: the L17 row of
 `Quot.sound` and an empty `compiler` list, and this card carries no
 `assumes: compiler` key. The warrant is bound to the `lean/` tree checked by the
 non-author clean gate of 2026-10-08T14:04:57Z, keyed to the build inputs under
-`lean/`. Under the carry-forward rule of 2026-10-04 (`docs/verification.md`
+`lean/`. Under the carry-forward rule (`docs/verification.md`
 "Exact subjects and durable evidence"), which overrides the grade's own wording
 about later changes, the warrant carries forward over every later change to the
 build inputs while (a) the ordinary gate passes and (b) the claim's statement is
 unchanged in meaning: its declaration `Erdos.L17.statement`, every definition it
 reaches, its manifest row over every field both rows carry except `module`, and
 the `statement:` field above. A later change under `lean/` does not lower this
-card; only a change that ends coverage is listed here, by date and with what it
-touched, until the claim is re-graded, and none is listed. Checked by
+card; only a change that ends coverage is listed here, with what it touched,
+until the claim is re-graded, and none is listed. Checked by
 `scripts/claim_carry_forward.py` on 2026-10-08 from the tree the review and the
 grade examined, as it stood on 2026-10-02, to the tree of 2026-10-08T13:58:11Z
 that the gate checked: clause (b) holds on both legs. The tier assertion is in
@@ -165,8 +165,8 @@ the review and the frozen subject after it (model: Claude Fable 5.1).
 Extraction preparer: the preparer of the blind English extraction, distinct
 from the reviewer. Clean gate: a non-author clean-gate runner in a fresh
 context, who authored no native mathematics or audit logic; this claim's
-Lean sources reached the default branch on 2026-09-28, before that context
-existed. Filing: the integrator of this standing (model: Claude Fable 5.1),
+Lean sources reached the default branch before that context existed.
+Filing: the integrator of this standing (model: Claude Fable 5.1),
 who adds paths and dates and asserts no tier. These results cover the whole
 English statement above. They assert nothing about $\chi_S$ at any fixed
 $n$, a rate of convergence, $C_3$ or $C_5$, novelty, community acceptance or
@@ -183,7 +183,7 @@ asserted tier 2 for that subject, and its non-author clean gate of
 2026-09-25T03:47:09Z (`AUDIT PASS` with 0 compiler axioms; exit 0) examined a
 branch tree as it stood on 2026-09-25T03:40:15Z which the default branch
 never carried. The default branch
-first carried this claim and its records on 2026-09-28, with `lean/` already
+first carried this claim and its records with `lean/` already
 different outside `Erdos.L17`, its 196-module import closure and the English
 subject (the audit's notation exemption and unbounded heartbeats, the
 manifest grown from 1,732 to 2,977 modules, a lakefile comment, the self-test
@@ -223,7 +223,7 @@ import closure.
   `Erdos.L17`, reported `AUDIT PASS` with 0 compiler axioms over 1 claim and
   matched the committed self-test stamp; the claim's statement is unchanged in
   meaning between the two trees, as checked on 2026-10-08.
-- [x] Closed by the carry-forward rule of 2026-10-04 (`docs/verification.md` "Exact
+- [x] Closed by the carry-forward rule (`docs/verification.md` "Exact
   subjects and durable evidence"): no fresh non-author clean gate is owed after
   a later change under `lean/`; the warrant carries forward while the ordinary
   gate passes and the statement is unchanged in meaning, checked by

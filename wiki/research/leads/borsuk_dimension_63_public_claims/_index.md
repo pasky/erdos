@@ -31,7 +31,7 @@ distance to obtain a counterexample in every dimension $d\ge9$, dimension
 63 included. The corollary is a short paper-level argument, not formal
 evidence: the Lean covers $d=9$ only, and no declaration states any other
 dimension. The dimension-63 constructions compared below remain unverified
-and are now recorded as claim pages,
+and are recorded as claim pages,
 [[problems/discrete_geometry/E0505/claims/2026_05_27_grinsztajn|Grinsztajn's]]
 (claimed) and
 [[problems/discrete_geometry/E0505/claims/2026_08_12_ji|Ji's]]

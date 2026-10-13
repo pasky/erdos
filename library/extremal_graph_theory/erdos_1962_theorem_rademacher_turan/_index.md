@@ -62,9 +62,8 @@ read. The consumed statements are paged at
 [[extremal_graph_theory/erdos_1962_theorem_rademacher_turan/theorem|theorem]]
 and
 [[extremal_graph_theory/erdos_1962_theorem_rademacher_turan/lemma_1|lemma_1]].
-Two wordings of this digest were corrected on the page images: the
-conjecture is printed with the range $t<[n/2]$ (not $t<n/2$), and the
-Theorem with $t<c_1n/2$ (not $t<c_1n$). No notice is printed in the scan (the
+The page images print the conjecture with the range $t<[n/2]$ and the
+Theorem with $t<c_1n/2$. No notice is printed in the scan (the
 reprint head reads "Reprinted from ILLINOIS JOURNAL OF MATHEMATICS / Vol. 6,
 No. 1, March 1962 / Printed in U.S.A." with no copyright line); the hosting
 archive's site footer speaks for the site, not the paper

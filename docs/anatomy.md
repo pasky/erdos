@@ -48,26 +48,26 @@ Mathematical verification records and useful witnesses are durable evidence, not
 operational logs. A fresh clone must support continuing the mathematics without
 recovering someone's private runtime state.
 
-Prose carries no as-of dates. A page states what is known, not when its author
-looked: it gives no date on which the corpus read, searched or checked a source
-that does not change ("read on the page images on 2026-09-18", "(read
-2026-10-07)", "a literature search dated 6 September 2026") and qualifies no
-statement by a date ("as of 2026-10-07"). When what is known changes, the page
-is rewritten in place. A date stays only where the thing it qualifies can change
-and the page relies on its state: the examination date in a formal verification
-or grading record, with the dated sentences [[verification]] requires of the
-record's owning page (a later change to examined text, the last check of a
-tier-2 Lean tree); a snapshot of a changing source, such as the site's page as
+Prose carries no as-of dates and no change logs. A page states what is known,
+not when its author looked or how the page once read: it gives no date on which
+the corpus read, searched or checked a source that does not change ("read on the
+page images on 2026-09-18", "(read 2026-10-07)", "a literature search dated 6
+September 2026") and qualifies no statement by a date ("as of 2026-10-07"). When
+what is known changes, the page is corrected in place: it never records what it
+used to say, when it changed or who changed it, since git holds that history. A
+date stays only where it is a fact in its own right: the date a review examined
+or accepted something; the date a Lean clean check ran; a snapshot of an outside
+source that can change and that the page relies on, such as the site's page as
 the Source line accessed it ("accessed 2026-09-04"), a forum thread, a registry,
 a live page ("page last edited 2026-04-06") or a repository ("its commit of
-2026-09-15"); and the license reading for a file the release holds. A date that
-is part of what is known stays as well: the date of an event in the history of a
-problem or a source, such as a publication, posting, submission, revision or
-catalog decision; the date of a correction to a claim's statement or proof, on
-its card; and the dates a claim page's name and a link's `date` carry. When an
-as-of date is removed, an observation that held only on that date ("the
-repository had no statement file on 2026-09-27") is dropped or kept as a dated
-event, never restated in the present tense as if it still holds.
+2026-09-15"), and the license reading for a file the release holds; and an
+outside event in the history of a problem or a source, such as a publication,
+posting, submission, revision or catalog decision, with the dates a claim page's
+name and a link's `date` carry. A filed review whose subject has since changed
+may say so on the owning page, without a date. When an as-of date is removed, an
+observation that held only on that date ("the repository had no statement file
+on 2026-09-27") is dropped or kept as a dated observation of the outside source,
+never restated in the present tense as if it still holds.
 
 Understand material before importing it: identify its statement, scope,
 dependencies, and warranted standing, and run available executable checks.
@@ -350,17 +350,17 @@ Tier is the kind of scrutiny a claim has survived, warranted by this tree alone:
   card's statement field) ends coverage of the new tree until the claim is
   re-graded. A later change to the build inputs does not by itself lower the
   card: the tier field keeps the tier the warrant established, the card names
-  the dated gate, and a change that ends coverage is listed on the card by date
-  with what it touched until a grade or decision for the claim re-binds the
-  warrant. A record's own validity condition governs: when a condition it states
-  ("holds only while", "takes effect only when", "falls if", or a condition on a
-  premise's tier) fails, its assertion is not in force and the card states what
-  its other retained records warrant; only a grader can waive a grader's
-  condition, except where the carry-forward rule governs a later change to the
-  Lean build inputs, or a change touches only Markdown, license texts or
-  attribution records under `lean/`, or only comments in a Lean file. A card
-  promoted under an earlier wording keeps tier 2 only if its records meet the
-  tier law as it stands.
+  the dated gate, and a change that ends coverage is listed on the card, without
+  its date, with what it touched until a grade or decision for the claim
+  re-binds the warrant. A record's own validity condition governs: when a
+  condition it states ("holds only while", "takes effect only when", "falls if",
+  or a condition on a premise's tier) fails, its assertion is not in force and
+  the card states what its other retained records warrant; only a grader can
+  waive a grader's condition, except where the carry-forward rule governs a
+  later change to the Lean build inputs, or a change touches only Markdown,
+  license texts or attribution records under `lean/`, or only comments in a Lean
+  file. A card promoted under an earlier wording keeps tier 2 only if its
+  records meet the tier law as it stands.
 - **1:** the claim survived independent, fresh-context adversarial verification
   charged to refute it.
 - **0:** the claim is recorded by its author.

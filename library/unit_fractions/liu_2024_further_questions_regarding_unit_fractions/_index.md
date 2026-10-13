@@ -92,9 +92,8 @@ silently transferred to the published version. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2404.07113), every other right
 reserved.
 
-The digest was checked against the PDF and corrected during result compilation.
-In particular the reciprocal-mass extremal function is not the
-minimum-term quantity $k(N)$ in Problem 295, and Theorem 1.6 matches
+The digest was checked against the PDF. The reciprocal-mass extremal function
+is not the minimum-term quantity $k(N)$ in Problem 295, and Theorem 1.6 matches
 Problem 294 despite the paper's nearby reference to 305.
 
 ## Results and method
@@ -147,7 +146,7 @@ The simpler Fourier argument of Proposition 3.2 is used for the counting
 and denominator results, where the ambient set can be chosen; the main
 Proposition 5.2 is designed for arbitrary input sets. For counting,
 [[unit_fractions/liu_2024_further_questions_regarding_unit_fractions/proposition_3_2|the actual-period, sixth-power form of Proposition 3.2]]
-and [[unit_fractions/liu_2024_further_questions_regarding_unit_fractions/lemma_3_3|Lemma 3.3]] now have complete rewritten proofs.
+and [[unit_fractions/liu_2024_further_questions_regarding_unit_fractions/lemma_3_3|Lemma 3.3]] have complete rewritten proofs.
 The full proof of Lemma 4.1 and the later denominator applications remain
 to be compiled at their exact target and parameter scopes. Earlier
 alternative methods and later refinements must be checked there before

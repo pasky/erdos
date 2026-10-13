@@ -88,7 +88,7 @@ checked; the proofs of Theorem 2.1 (pp. 406--407), Lemma 3.1 (pp. 408--409),
 Proposition 1.2 (pp. 409--410) and Theorem 3.2 (pp. 410--411) were read in the
 text layer for structure only; § 4 and § 5 (pp. 411--416) and the references
 (pp. 416--417) were read in the text layer for their statements. The whole
-article was later read on the page images: Theorem 2.1 and its proof with Lemma
+article was also read on the page images: Theorem 2.1 and its proof with Lemma
 2.2 (pp. 406--407), the statement of Lemma 3.1 (p. 408), the restatement and
 proof of Proposition 1.2 (pp. 409--410) and Theorem 3.2 with its proof and
 sharpness example (pp. 410--411) clause by clause for the statements and for

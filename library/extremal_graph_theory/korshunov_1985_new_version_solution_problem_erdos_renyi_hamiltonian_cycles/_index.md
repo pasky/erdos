@@ -227,7 +227,7 @@ literature. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0746/_index|#746]]: Theorem 1
 (printed p. 171, PDF p. 1) is the theorem the site attributes to [Ko77],
-now read as printed by its author in English (quoted in full under
+read here as printed by its author in English (quoted in full under
 Contents): almost every graph from $\mathscr G(n,k)$ is Hamiltonian if and
 only if $k=\tfrac12n(\log n+\log\log n+\varphi(n))$ with
 $\varphi(n)\to\infty$ and $\varphi(n)\le n-1-\log n-\log\log n$; with

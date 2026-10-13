@@ -218,16 +218,15 @@ large), and the same page attributes the $k=3$ case to Erdős with a
 reference to the 1988 Ars Combinatoria paper. Lemma 3 (p. 54) is the
 threshold the problem's edge count exceeds by one, with the generalized
 wheel of p. 53 showing that at the threshold every subgraph of minimum
-degree $k$ may have all $n$ vertices; the problem page had it from Fact 1.1
-of Sauermann. Theorem 1 (p. 53) is the site's "$n-c_k\sqrt n$", the first
-bound toward the conjecture, previously quoted on the problem page from
-Theorem 1.2 of Mousset, Noever and Škorić as $n-\lfloor\sqrt{n/6k^3}\rfloor$,
-equal to the printed $n-\lfloor\sqrt n/\sqrt{6k^3}\rfloor$. Lemma 4 (p. 55)
-is the conjecture when at most $\alpha n$ vertices have degree exactly $k$,
-$\alpha<1/(2k)$, previously quoted on the problem page as Lemma 2.1 of
-Mousset, Noever and Škorić; p. 57 says in the paper's own words that the
-conjecture reduces to graphs with many vertices of degree $k$. The
-$C^{k-1}$ example of p. 57 bounds the problem's $c_k$ from above by about
+degree $k$ may have all $n$ vertices; Sauermann states it as Fact 1.1. Theorem 1
+(p. 53) is the site's "$n-c_k\sqrt n$", the first bound toward the conjecture,
+which Theorem 1.2 of Mousset, Noever and Škorić quotes as
+$n-\lfloor\sqrt{n/6k^3}\rfloor$, equal to the printed
+$n-\lfloor\sqrt n/\sqrt{6k^3}\rfloor$. Lemma 4 (p. 55) is the conjecture when at
+most $\alpha n$ vertices have degree exactly $k$, $\alpha<1/(2k)$, which
+Mousset, Noever and Škorić quote as Lemma 2.1; p. 57 says in the paper's own
+words that the conjecture reduces to graphs with many vertices of degree $k$.
+The $C^{k-1}$ example of p. 57 bounds the problem's $c_k$ from above by about
 $1-(k+1)/(3k)$ for $k\ge3$; at $k=2$ the example is the $n$-cycle, one edge
 short of the problem's count.
 [[../wiki/problems/ramsey_theory/E0667/_index|#667]] (checked and excluded): that page

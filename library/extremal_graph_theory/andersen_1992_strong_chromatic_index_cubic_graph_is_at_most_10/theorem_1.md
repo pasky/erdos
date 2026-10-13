@@ -55,8 +55,7 @@ at most 10, Discrete Math. 108 (1992), 231--252; Theorem 1 and the opening
 of its proof on printed p. 250 (PDF p. 20 of the publisher's scan),
 the rest of the proof on p. 251 (PDF p. 21), the definitions on
 pp. 231--232 (PDF pp. 1--2) and the bigreedy definition on p. 239 (PDF
-p. 9), read on the page images (p. 239 after an earlier reading in the text
-layer). The edition read is identified in the
+p. 9), read on the page images. The edition read is identified in the
 [[extremal_graph_theory/andersen_1992_strong_chromatic_index_cubic_graph_is_at_most_10/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, the Section 4 preamble, the

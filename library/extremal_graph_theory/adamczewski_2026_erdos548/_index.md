@@ -145,13 +145,14 @@ on 2026-09-18, and its [distinct
 grade](evidence/verify/proof_chain_review_grade_fresh.md) records PASS for the
 report contract and PASS for independence. The earlier [proof-chain
 review](evidence/verify/proof_chain_review.md) of 2026-09-05 is retained with
-its `lemma_1.md` repair, but its acceptance was voided on 2026-09-18 for
-material exposure: its reviewed bytes as they stood at 2026-09-10T05:35:49Z,
-this card and the three problem pages among them, carried sentences stating that
+its `lemma_1.md` repair, but its acceptance is void for material exposure:
+its reviewed bytes as they stood at 2026-09-10T05:35:49Z, this card and the
+three problem pages among them, carried sentences stating that
 the reconstruction had passed independent review. Neither review is the public
 formal verification, and neither constitutes external expert refereeing of the
-preliminary source. The six proof pages are unchanged since
-2026-09-18T07:24:04Z.
+preliminary source. Since the fresh review, the tree Ramsey corollary's
+remarks on star sharpness were extended and reworded; this touches no examined
+statement, proof, code or input.
 
 That six-page review does not cover the later two-tree corollary or its
 star-sharpness companion. Their separate

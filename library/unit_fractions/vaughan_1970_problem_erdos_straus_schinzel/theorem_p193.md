@@ -117,8 +117,8 @@ a citation.
 
 - [[../wiki/problems/unit_fractions/E0242/_index|Problem 242]]: with $a=4$ the theorem is
   the bound $N\exp(-c(\log N)^{2/3})$ on the number of $n\le N$ without a
-  representation that the site's commentary attributes to Vaughan, now
-  first-hand; it shows the conjecture holds for almost every $n$ and for
+  representation that the site's commentary attributes to Vaughan, read
+  here first-hand; it shows the conjecture holds for almost every $n$ and for
   almost every prime, and says nothing about whether any exception exists.
   The paper's convention allows repeated denominators; the page's
   Formulation converts a representation into one with three distinct terms.

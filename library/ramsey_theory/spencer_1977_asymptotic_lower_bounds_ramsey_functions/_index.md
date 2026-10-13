@@ -316,7 +316,7 @@ p. 75, PDF p. 7), "$r(C_4,K_t)\ge c(t/\ln t)^{3/2}$", is the site's lower
 bound $R(C_4,K_n)\gg n^{3/2}/(\log n)^{3/2}$ stated directly, and Theorem
 3.3 (p. 75), "$r(\le C_k,K_t)\ge c(t/\ln t)^{(k-1)/(k-2)}$" for fixed $k$, is
 the bound the 1978 paper of Erdős, Faudree, Rousseau and Schelp quotes as
-its display (1.4), whose case $k=4$ the problem page had used second-hand;
+its display (1.4), whose case $k=4$ is the site's bound;
 the paper also records the upper bound $r(C_4,K_t)=o(t^2)$ of its [4] and
 prints no constant.
 [[../wiki/problems/ramsey_theory/E0166/_index|#166]]: Theorem 2.2 (printed p. 74, PDF

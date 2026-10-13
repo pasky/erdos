@@ -60,10 +60,9 @@ Its card holds the retained PDF, the provenance line identifying those
 bytes, and the Drive retrieval record. That filing identifies the retained
 artifact, not publication or mathematical acceptance.
 
-The PDF sat at
+The records under Current review name the PDF at
 `erdos/research/leads/polynomial_product_prime_value_condition/bhalla_conditional_note.pdf`,
-the path the records under Current review name, until it moved unchanged to the
-card on 2026-09-17.
+its path before it moved unchanged to the card.
 
 Hypothesis 3.1 on physical and numbered p. 3 says that for every irreducible
 $g\in\mathbb Z[X]$ with positive leading coefficient and no fixed prime
@@ -119,7 +118,7 @@ Corollary 4.1 observes that the asserted
 Bateman--Horn asymptotic supplies a prime value in $(X,2X]$ for every large
 $X$.
 
-The three linked pages now hold an author-recorded reconstruction of this
+The three linked pages hold an author-recorded reconstruction of this
 conditional chain. The existing non-blind reading and grade records remain
 separate; no independent proof coverage, status, tier, or unconditional E0976
 result follows.
@@ -131,7 +130,7 @@ publication or public-acceptance evidence established by this record.
 The fixed-divisor reduction and transfer to every sufficiently large
 integer endpoint were checked in the disclosed non-blind source reading
 below. That scope does not discharge the fresh-context review obligation.
-The author-recorded reconstruction now makes those three steps of the
+The author-recorded reconstruction makes those three steps of the
 conditional chain explicit, but the fresh-context review obligation remains.
 
 The disclosed non-blind source reading of Lemma 2.1, Theorem 3.2 and Corollary
@@ -158,7 +157,7 @@ reading, not a tier-bearing whole-claim review.
 The reconstruction pages are author work, not a fresh review. They leave
 review_status: unreviewed and preserve both conjectural premises.
 
-The three reconstruction pages were then independently reviewed and
+The three reconstruction pages were independently reviewed and
 separately graded as a source reconstruction. The
 [[research/leads/polynomial_product_prime_value_condition/evidence/verify/source_reconstruction_review|independent review]]
 and the
@@ -169,7 +168,9 @@ are applied and mapped in the
 That review covers the reconstruction of the note's argument against the
 retained PDF. It does not bear on whether Hypothesis 3.1 or the
 Bateman--Horn conjecture is true, changes no problem status, and gives the
-lead itself no accepted whole-proof coverage.
+lead itself no accepted whole-proof coverage. Since the review, two of this
+lead's sentences pointing to the reconstruction pages were reworded; this
+touches no examined statement, proof, code or input.
 
 The manuscript is unchanged. Its positive-input convention and omitted
 lower endpoint are explicitly handled in the retained account. This

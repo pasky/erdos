@@ -69,11 +69,11 @@ bound the number of distinct values, or all pairs below an arbitrary fixed
 numerical threshold.
 
 **Method and proof scope.** The source associates a graph to each distance value
-and studies its vertex degrees. The earlier source check covered statements and
-selected method only. Complete own-words proof compilations now supply the local
-degree arguments, all high-degree diagram cases and the two upper bounds. The
-circle-counting correction in Lemma 1 and the replacement of Lemma 3's
-three-short-neighbor shortcut are explicitly identified as compilation-supplied.
+and studies its vertex degrees. Complete own-words proof compilations supply
+the local degree arguments, all high-degree diagram cases and the two upper
+bounds. The circle-counting correction in Lemma 1 and the replacement of
+Lemma 3's three-short-neighbor shortcut are explicitly identified as
+compilation-supplied.
 An independent source-based reviewer, distinct from the compiler, checked all
 the listed local proofs and repairs against the published scan named above,
 including the separately reviewed hexagonal construction. Their living records
@@ -81,7 +81,9 @@ are **Verified at the stated scope**. The [final
 review](evidence/verify/final_review.md) and [finalization-delta
 review](evidence/verify/finalization_delta_review.md) retain the reports. This
 is complete-proof review of those bounded scopes, not an upgrade inherited from
-the earlier statement check.
+the earlier statement check. Since the finalization-delta review, this
+paragraph's sentence on the earlier source check was dropped and the next
+sentence reworded; this touches no examined statement, proof, code or input.
 
 **Compiled result scopes.**
 
