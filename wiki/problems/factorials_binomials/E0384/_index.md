@@ -153,7 +153,9 @@ edits expanded the [Gu04] reference and the Progress paragraph on Guy's
 sections, reworded the Proof coverage and Remaining gaps items, and made the
 weak formulation the page's corrected Statement, which the standing now
 judges; the weak statement, the counterexample and the Ecklund transfer that
-the review examined are unchanged in substance.
+the review examined are unchanged in substance. On 2026-10-12 this page's
+frontmatter description and Status paragraph were reworded; the change touches
+no examined statement, proof, code or input.
 
 ## Progress
 

@@ -93,6 +93,8 @@ through the shared check harness, and took American spellings, and both it and
 from the renamed source folder by path, the second no longer importing it from
 `scripts/`; the fixtures and mathematical assertions are unchanged and the
 modules still collect 67 and 20 cases, so the records' verdicts are unaffected.
+On 2026-10-12 the frontmatter description of the Problem 834 page was reworded;
+the change touches no examined statement, proof, code or input.
 
 **Source and version status.** The
 copy read for this card is the complete

@@ -77,7 +77,9 @@ implication for this problem were reviewed on 2026-09-05; the
 [[../library/extremal_graph_theory/alon_2026_problems_results_extremal_combinatorics_v/evidence/verify/theorem_3_2_review|Theorem
 3.2 review]] filed with the source retains the report, which is this
 project's own proof coverage and not acceptance evidence. The reported Lean
-file is not built here.
+file is not built here. On 2026-10-12 this page's frontmatter description and
+Status paragraph were reworded; the change touches no examined statement, proof,
+code or input.
 
 ## Progress
 
