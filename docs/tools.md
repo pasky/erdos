@@ -366,6 +366,15 @@ The rules below are specific to this repository and hold in addition to the
 shared text above; a sentence that differs from the shared text says that it
 governs here.
 
+### Historical declarations
+
+Here the `historical` declaration is the bare word, without a date: the
+program's page names the date of the text it read, and no program in this
+repository reads the date from the declaration line. The runner accepts the bare
+word and starts no program that carries it. A copy of these contracts that dates
+the declaration (`historical <YYYY-MM-DD>`) keeps its filed declarations as
+written; the bare form governs here.
+
 ### Shared package
 
 The repository-root `tools/` directory is the shared Python package: import
