@@ -7,7 +7,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-25T00:00:00Z
-updated: 2026-10-08T14:21:57Z
+updated: 2026-10-13T18:32:16Z
 ---
 
 # Evidence for the rainbow odd-cycle threshold
@@ -15,9 +15,9 @@ updated: 2026-10-08T14:21:57Z
 [[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_index|..]]
 
 [[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/evidence/verify/_index|verify/]]: The second-cycle fidelity review and distinct grade of 2026-10-02 and the
-non-author clean gate of 2026-10-08, the current records for the
-kernel-only tier-2 standing of L17, beside the retained record of the
-first acceptance of 2026-09-25.
+non-author clean gate of 2026-10-13, the current records for the
+kernel-only tier-2 standing of L17, beside the earlier clean gate of
+2026-10-08 and the retained record of the first acceptance of 2026-09-25.
 
 ***
 
@@ -27,8 +27,10 @@ of [L17](../_index.md). The current record,
 second-cycle fidelity review of 2026-10-02, verdict refutation-failed, the
 distinct grade that asserts the tier and cites the non-author clean gate of
 2026-09-29, and the reviewer's census scripts; the non-author clean gate of
-2026-10-08, which the card's standing cites with that grade, is filed in
-[clean_gate/](verify/clean_gate/_index.md) with its receipt, log and wrapper.
+2026-10-13, which the card's standing cites with that grade, is filed in
+[clean_gate_2/](verify/clean_gate_2/_index.md) with its receipt, log and
+wrapper, and the earlier non-author clean gate of 2026-10-08 in
+[clean_gate/](verify/clean_gate/_index.md).
 The earlier record, [statement_fidelity/](verify/statement_fidelity/_index.md),
 holds the fidelity review, the distinct grade, the
 [acceptance warrant](verify/statement_fidelity/acceptance_warrant.json), the

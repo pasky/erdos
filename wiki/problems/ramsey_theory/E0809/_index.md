@@ -167,13 +167,15 @@ in the grade) are filed under the claim's
 the grade cites the non-author clean gate of 2026-09-29 over the whole `lean/`
 tree as it stood on the default branch that day (7,501 jobs built; `AUDIT PASS`
 over 42,230 constants in 2,977 modules, 7 claims, 0 compiler axioms; exit 0),
-whose receipt the claim card names by path, and no first-parent change under
-`lean/` has followed; the proof is kernel-only, on `propext`,
-`Classical.choice` and `Quot.sound`. The tier-2 warrant covers the whole
-statement of L17. It asserts nothing about $\chi_S$ at any fixed $n$, a rate of
-convergence, $C_3$ or $C_5$, novelty or community acceptance; neither the
-fidelity review nor its grade read the Bucić–Chen–Ma paper, and the $k\ge4$
-branch is a closed native proof whose truth does not rest on that attribution.
+and a grade decision applied the grade to the Lean v4.34.1 tree, which the
+non-author clean gate of 2026-10-13 checked (`AUDIT PASS` over 1 claim with 0
+compiler axioms; exit 0), whose receipt the claim card names by path; the proof
+is kernel-only, on `propext`, `Classical.choice` and `Quot.sound`. The tier-2
+warrant covers the whole statement of L17. It asserts nothing about $\chi_S$ at
+any fixed $n$, a rate of convergence, $C_3$ or $C_5$, novelty or community
+acceptance; neither the fidelity review nor its grade read the Bucić–Chen–Ma
+paper, and the $k\ge4$ branch is a closed native proof whose truth does not rest
+on that attribution.
 
 **Outside claims and priority.** As of 2026-10-05 the site labeled the problem
 OPEN (last edited 1 April 2026), credits Bucić, Chen and Ma for $k\ge4$ only,

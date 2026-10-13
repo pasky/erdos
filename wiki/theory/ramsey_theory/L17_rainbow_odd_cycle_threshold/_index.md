@@ -105,30 +105,34 @@ verdict refutation-failed), by an independent reviewer in a fresh context, model
 Claude Fable 5.1, graded pass by a distinct grader in a fresh context, model
 Claude Fable 5.1
 (`wiki/theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/evidence/verify/statement_fidelity_2/grade.md`),
-who asserted the tier, and on the non-author clean gate of 2026-10-08 (receipt
-`wiki/theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/evidence/verify/clean_gate/clean_gate.json`,
+who asserted the tier, and on the non-author clean gate of 2026-10-13 (receipt
+`wiki/theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/evidence/verify/clean_gate_2/clean_gate.json`,
 with the captured log `clean_gate_log.txt` beside it), run from
-2026-10-08T14:04:57Z to 2026-10-08T14:11:20Z over a fresh archive of the whole
-`lean/` tree as it stood on 2026-10-08T13:58:11Z, exit 0, which built
-`Erdos.L17`, reported `AUDIT PASS` with 0 compiler axioms over 1 claim and
-matched the committed self-test stamp. The proof is kernel-only: the L17 row of
-`lean/Manifest.json` lists the axioms `propext`, `Classical.choice` and
-`Quot.sound` and an empty `compiler` list, and this card carries no
-`assumes: compiler` key. The warrant is bound to the `lean/` tree checked by the
-non-author clean gate of 2026-10-08T14:04:57Z, keyed to the build inputs under
-`lean/`. Under the carry-forward rule of 2026-10-04 (`docs/verification.md`
-"Exact subjects and durable evidence"), which overrides the grade's own wording
-about later changes, the warrant carries forward over every later change to the
-build inputs while (a) the ordinary gate passes and (b) the claim's statement is
-unchanged in meaning: its declaration `Erdos.L17.statement`, every definition it
-reaches, its manifest row over every field both rows carry except `module`, and
-the `statement:` field above. A later change under `lean/` does not lower this
-card; only a change that ends coverage is listed here, by date and with what it
-touched, until the claim is re-graded, and none is listed. Checked by
-`scripts/claim_carry_forward.py` on 2026-10-08 from the tree the review and the
-grade examined, as it stood on 2026-10-02, to the tree of 2026-10-08T13:58:11Z
-that the gate checked: clause (b) holds on both legs. The tier assertion is in
-force from the filing that cites the grade and the gate together.
+2026-10-13T18:19:09Z to 2026-10-13T18:23:47Z over a fresh archive of the whole
+`lean/` tree of the change that moved the project to Lean v4.34.1, as
+committed at 2026-10-13T17:35:38Z, exit 0, which built `Erdos.L17`, reported
+`AUDIT PASS` with 0 compiler axioms over 1 claim and matched the committed
+self-test stamp. A grade decision applied the filed grade to the Lean v4.34.1
+tree: its surface differs only by Mathlib's renames (`setOf` to `Set.ofPred`, a
+shorter instance path, and reordered implicit arguments of `SimpleGraph.Copy`),
+every module of the claim's import closure is the one the review examined except
+`MathlibCompat.lean`, which declares nothing there, and the claim's statement
+fingerprints in `lean/Manifest.json` are unchanged. The proof is kernel-only:
+the L17 row of `lean/Manifest.json` lists the axioms `propext`,
+`Classical.choice` and `Quot.sound` and an empty `compiler` list, and this card
+carries no `assumes: compiler` key. The warrant is bound to the `lean/` tree
+checked by the non-author clean gate of 2026-10-13T18:19:09Z, keyed to the build
+inputs under `lean/`. Under the carry-forward rule of 2026-10-04
+(`docs/verification.md` "Exact subjects and durable evidence"), which overrides
+the grade's own wording about later changes, the warrant carries forward over
+every later change to the build inputs while (a) the ordinary gate passes and
+(b) the claim's statement is unchanged in meaning: its declaration
+`Erdos.L17.statement`, every definition it reaches, its manifest row over every
+field both rows carry except `module`, and the `statement:` field above. A later
+change under `lean/` does not lower this card; only a change that ends coverage
+is listed here, by date and with what it touched, until the claim is re-graded,
+and none is listed. The tier assertion is in force from the filing that cites
+the grade, the grade decision and the gate together.
 
 The review compared the `statement:` field above, this card's Statement and
 Argument sections, the proof body, the Statement block of Problem 809 and the
@@ -164,9 +168,9 @@ development, this card or the review, and who read the contract pages before
 the review and the frozen subject after it (model: Claude Fable 5.1).
 Extraction preparer: the preparer of the blind English extraction, distinct
 from the reviewer. Clean gate: a non-author clean-gate runner in a fresh
-context, who authored no native mathematics or audit logic; this claim's
-Lean sources reached the default branch on 2026-09-28, before that context
-existed. Filing: the integrator of this standing (model: Claude Fable 5.1),
+context, who authored neither the change to Lean v4.34.1 nor any native
+mathematics or audit logic. Grade decision: a maintainer who took no part in
+that change. Filing: the integrator of this standing (model: Claude Fable 5.1),
 who adds paths and dates and asserts no tier. These results cover the whole
 English statement above. They assert nothing about $\chi_S$ at any fixed
 $n$, a rate of convergence, $C_3$ or $C_5$, novelty, community acceptance or
@@ -216,13 +220,16 @@ import closure.
   2026-10-02 under `evidence/verify/statement_fidelity_2/` (verdict
   refutation-failed; graded pass, tier 2 asserted), which cover the `lean/` tree
   as it stood on the default branch on 2026-10-02, and the non-author clean gate
-  of 2026-10-08 under `evidence/verify/clean_gate/`, whose receipt
-  `wiki/theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/evidence/verify/clean_gate/clean_gate.json`
-  records a run from 2026-10-08T14:04:57Z to 2026-10-08T14:11:20Z over the
-  `lean/` tree as it stood on 2026-10-08T13:58:11Z, exit 0, which built
-  `Erdos.L17`, reported `AUDIT PASS` with 0 compiler axioms over 1 claim and
-  matched the committed self-test stamp; the claim's statement is unchanged in
-  meaning between the two trees, as checked on 2026-10-08.
+  of 2026-10-13 under `evidence/verify/clean_gate_2/`, whose receipt
+  `wiki/theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/evidence/verify/clean_gate_2/clean_gate.json`
+  records a run from 2026-10-13T18:19:09Z to 2026-10-13T18:23:47Z over the
+  `lean/` tree of the change that moved the project to Lean v4.34.1, as
+  committed at 2026-10-13T17:35:38Z, exit 0, which built `Erdos.L17`, reported
+  `AUDIT PASS` with 0 compiler axioms over 1 claim and matched the committed
+  self-test stamp; a grade decision applied the filed grade to that tree, whose
+  surface differs only by Mathlib's renames. The earlier non-author clean gate
+  of 2026-10-08, under `evidence/verify/clean_gate/`, checked the `lean/` tree
+  as it stood on 2026-10-08T13:58:11Z, on Lean v4.32.0-rc1.
 - [x] Closed by the carry-forward rule of 2026-10-04 (`docs/verification.md` "Exact
   subjects and durable evidence"): no fresh non-author clean gate is owed after
   a later change under `lean/`; the warrant carries forward while the ordinary
