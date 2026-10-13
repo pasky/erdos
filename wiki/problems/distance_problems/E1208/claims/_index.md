@@ -1,6 +1,6 @@
 ---
 name: problems/distance_problems/E1208/claims
-desc: ...
+desc: The 2 claim pages of Problem 1208, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-13T13:29:21Z

@@ -91,7 +91,7 @@ def run_gate(
     tree differs from the receipt's; ``strict`` fails a leg whose required tool
     is unavailable instead of skipping it; ``settled`` makes a problem whose
     provisional standing rests on no claim page a failure of the problem
-    claims leg instead of counted transition debt.
+    claims leg instead of a count in the leg's detail (the release mode).
     """
     # check generated corpus structure
     root = root.resolve()
@@ -258,7 +258,7 @@ def _problem_links_leg(
         return LegResult(
             'problem library links', 'FAIL', f'missing required {MATH_DIR}/ root'
         )
-    # find managed pages without extending the navigation rollout
+    # find managed pages without adding blocks to unmanaged pages
     pages = sorted((root / MATH_DIR / 'problems').glob(_PROBLEM_GLOB))
     selected = set(requested)
     marker_bearing = set()

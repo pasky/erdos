@@ -94,9 +94,9 @@ def lint_problem_claims(
 
     Read only the problem pages and their claim pages. A problem without a
     claim page keeps its provisional ``status`` and ``claim`` and is counted
-    as transition debt unless they are ``open`` and ``none``; with ``settled``
-    that debt is a finding. A claim page without ``authors`` is counted as
-    debt in the same way and is a finding with ``settled``; a claim of this
+    in the notes unless they are ``open`` and ``none``; with ``settled``, the
+    release mode, it is a finding. A claim page without ``authors`` is counted
+    in the same way and is a finding with ``settled``; a claim of this
     corpus's own (a ``*_corpus`` page) has no publication and lists none. ``select``
     narrows the check to the problem folders named (by folder name), a scoped
     check for a batch; a name matching no folder is a finding. A dependence
@@ -150,7 +150,7 @@ def lint_problem_claims(
                 findings.append(f'{page_relative}: {error}')
                 continue
             findings.extend(f'{page_relative}: {issue}' for issue in issues)
-            # a claim page without its authors is transition debt until settled;
+            # a claim page without its authors is counted, and a finding when settled;
             # a claim of this corpus's own has no publication and lists none
             if 'authors' not in claim and not page.stem.endswith('_corpus'):
                 authorless += 1
