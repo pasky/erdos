@@ -11,13 +11,13 @@ We prove universal energy minimality for the triangular lattice in the plane. Am
 Universal optimality asks whether one configuration minimizes an entire class of pair interactions. In the plane, the triangular lattice is the natural candidate. The problem goes beyond comparison with other lattices: a competing configuration may be nonperiodic, may contain arbitrarily close pairs, and may have very uneven local point counts. We prove the energy comparison for this full class under a single centered-density hypothesis.
 
 Put $b=\sqrt3/2$ and let $$A=b^{-1/2}\{j(1,0)+k(1/2,b):j,k\in\mathbb Z\}$$ be the triangular lattice of covolume one. Let $B_R$ be the closed disk of radius $R$ centered at the origin. For a locally finite configuration $\mathcal C\subset\mathbb R^2$, write $\mathcal C_R=\mathcal C\cap B_R$ and $N_R=\#\mathcal C_R$. Its centered disk density is one if $$\frac{N_R}{\pi R^2}\longrightarrow1\qquad(R\to\infty).$$ For a nonnegative interaction $g:(0,\infty)\to[0,\infty)$, define $$\begin{equation}
-\label{eq:energy-definition}
+\tag{1.1}
  E_g(\mathcal C)=\liminf_{R\to\infty}\frac1{N_R}
  \sum_{\substack{x,y\in\mathcal C_R\\x\ne y}}g(\left\lvert x-y\right\rvert^2).
 \end{equation}$$ The sum counts ordered pairs. Density one makes $N_R$ positive for all sufficiently large $R$, so the lower limit is well defined in $[0,\infty]$.
 
 **Theorem 1.1** (Universal energy minimality). *Let $g:(0,\infty)\to[0,\infty)$ be smooth and completely monotone, meaning that $(-1)^r g^{(r)}(t)\ge0$ for every integer $r\ge0$ and every $t>0$. For every locally finite configuration $\mathcal C\subset\mathbb R^2$ of centered disk density one, the following equality and inequality hold in the extended nonnegative reals: $$\begin{equation}
-\label{eq:main-inequality}
+\tag{1.2}
  E_g(\mathcal C)\ge
  \sum_{a\in A\setminus\{0\}}g(\left\lvert a\right\rvert^2)=E_g(A).
 \end{equation}$$*
@@ -83,12 +83,12 @@ The spectral construction adapts the cardinal-measure and Gaussian-transform met
 ### Shells and interpolation nodes
 
 Set the construction parameters and radial coordinate as follows: $$\begin{equation}
-\label{eq:normalization}
+\tag{2.1}
  b=\frac{\sqrt3}{2},\qquad h=\frac25,\qquad
  B=\frac43=\frac1{b^2},\qquad s=b|x|^2.
 \end{equation}$$ The same radial coordinate is used on the Fourier side. For the unit-covolume triangular lattice $A$, take the basis $$u=\sqrt{2/\sqrt3}\,(1,0),\qquad
  v=\sqrt{2/\sqrt3}\,(1/2,\sqrt3/2).$$ Then $$b|ju+\ell v|^2=j^2+j\ell+\ell^2\qquad(j,\ell\in\mathbb Z).$$ Modulo 3 the right side equals $(j-\ell)^2$, and is therefore 0 or 1. Modulo 2 it is even only when both $j$ and $\ell$ are even, in which case it is divisible by 4. These two restrictions give the residue classes listed below. Thus every nonzero shell belongs to the positive part of the following periodic set: $$\begin{equation}
-\label{eq:node-set}
+\tag{2.2}
  \begin{gathered}
  L=\{0,1,3,4,7,9\},\qquad \mathcal Z=12\mathbb Z+L,\\
  \mathcal N=\mathcal Z\cap(0,\infty),\qquad
@@ -104,10 +104,10 @@ The Fourier transform uses the convention fixed in the introduction. The common 
 
 **Theorem 2.1** (Normalized Gaussian Fourier pair). *For every finite real $k\ge2.36$, put $T_k(s)=k^{-1}e^{-k(s-1)}$. There are entire functions $H_1,H_2$, real on the real axis, and a real radial Schwartz function $f$ on $\mathbb R^2$ such that $$f(x)=e^{-\pi h b\left\lvert x\right\rvert^2}H_1(b\left\lvert x\right\rvert^2),\qquad
  \widehat f(\xi)=e^{-\pi h b\left\lvert\xi\right\rvert^2}H_2(b\left\lvert\xi\right\rvert^2).$$ For every real $s\ge0$, $$\begin{equation}
-\label{eq:normalized-signs}
+\tag{2.3}
  H_1(s)\le T_k(s),\qquad H_2(s)\ge0.
 \end{equation}$$ At every $n\in\mathcal N$, the values and first derivatives satisfy $$\begin{equation}
-\label{eq:normalized-jets}
+\tag{2.4}
  \begin{gathered}
  H_1(n)=T_k(n),\qquad H_1'(n)=T_k'(n)=-e^{-k(n-1)},\\
  H_2(n)=H_2'(n)=0.
@@ -123,21 +123,21 @@ The atomic companion (OpenAI 2026b, secs. 3–4) uses finite atomic columns, a p
 ### The sine product and its node coordinates
 
 We now begin the construction of the theorem’s pair. The first ingredient is a function with a double zero at every prescribed node. Define $$\begin{equation}
-\label{eq:periodic-polynomial}
+\tag{2.5}
  P(s)=\prod_{a\in L}\left(2\sin\frac{\pi(s-a)}{12}\right)^2
      =\sum_{l=-6}^{6}P_l e^{i\pi t_l s},\qquad t_l=\frac l6.
 \end{equation}$$ This is an entire trigonometric polynomial, nonnegative and 12-periodic on the real axis, with a double zero at each point of $\mathcal Z$ and no other real zeros. Its Fourier coefficients are $$\begin{equation}
-\label{eq:periodic-coefficients}
+\tag{2.6}
  (P_0,P_1,\ldots,P_6)
  =\left(5,-1+2ib,1+2ib,-2,-\frac12+ib,-1-2ib,1\right),
  \qquad P_{-l}=\overline{P_l}.
-\end{equation}$$ Indeed, setting $w=e^{i\pi s/6}$ expresses the product as $w^{-6}\prod_{a\in L}(w-e^{i\pi a/6})^2$. The scalar factor is one because $\sum_{a\in L}a=24$; multiplying this degree-twelve polynomial gives (eq:periodic-coefficients).
+\end{equation}$$ Indeed, setting $w=e^{i\pi s/6}$ expresses the product as $w^{-6}\prod_{a\in L}(w-e^{i\pi a/6})^2$. The scalar factor is one because $\sum_{a\in L}a=24$; multiplying this degree-twelve polynomial gives (2.6).
 
 At a node $n\in\mathcal N_0$, write $$\begin{equation}
-\label{eq:node-expansion}
+\tag{2.7}
  P(n+u)=Q_nu^2\bigl(1+D_nu+O(u^2)\bigr).
 \end{equation}$$ The periodicity of $P$ makes $Q_n,D_n$ depend only on the residue $a$ of $n$: $$\begin{equation}
-\label{eq:node-constants}
+\tag{2.8}
 \begin{array}{c|cc}
  a&Q_n&D_n\\ \hline
  0&\pi^2/3&-7\pi\sqrt3/18\\
@@ -153,7 +153,7 @@ At a node $n\in\mathcal N_0$, write $$\begin{equation}
  \qquad
  D_a=\frac\pi6\sum_{d\in L\setminus\{a\}}
              \cot\frac{\pi(a-d)}{12}.$$ The angle-addition formulas give the displayed entries. In particular, $$\begin{equation}
-\label{eq:node-constant-bounds}
+\tag{2.9}
  Q_n>\frac74=1.75,\qquad |D_n|<\frac{53}{25}=2.12.
 \end{equation}$$ For these strict comparisons, $157/50<\pi<22/7$ and $\sqrt3<1733/1000$ suffice. The smallest $Q_n$ is greater than $(2/3)(157/50)^2(267/1000)>7/4$, while the largest $|D_n|$ is $7\pi\sqrt3/18<(22/18)(1733/1000)<53/25$. The upper bound for $\pi$ is proved in Section 3; the lower bound for $\pi$ and the upper bound for $\sqrt3$ are proved in Appendix A.
 
@@ -162,28 +162,28 @@ At a node $n\in\mathcal N_0$, write $$\begin{equation}
 Double-pole value terms and simple-pole derivative terms are familiar from the one-dimensional constructions of Cohn and Kumar (Cohn and Kumar 2007, Proposition 9.6) and Carneiro et al. (Carneiro et al. 2013, secs. 1, (1.2)–(1.3)). Here we need their planar Fourier transform and bounds uniform in the node location. A compactly supported spectral measure provides both.
 
 A coefficient list consists of a real constant $C$ and real pairs $(c_n,d_n)$ for $n\in\mathcal N_0$, with the unweighted norm $$\|a\|_1:=|C|+\sum_{n\in\mathcal N_0}(|c_n|+|d_n|)<\infty.$$ The letter $a$ denotes the full list. Away from the nodes, put $$\begin{equation}
-\label{eq:cardinal-function}
+\tag{2.10}
  p_a(s)=P(s)\left(C+
        \sum_{n\in\mathcal N_0}
           \left(\frac{c_n}{(s-n)^2}+\frac{d_n}{s-n}\right)\right).
 \end{equation}$$ We suppress the subscript when the list is understood.
 
-**Lemma 2.2** (Cardinal measure). *The function in (eq:cardinal-function) extends to an entire function, real on the real axis, with jets $$\begin{equation}
-\label{eq:cardinal-jets}
+**Lemma 2.2** (Cardinal measure). *The function in (2.10) extends to an entire function, real on the real axis, with jets $$\begin{equation}
+\tag{2.11}
  p_a(n)=Q_nc_n,\qquad p_a'(n)=Q_n(d_n+D_nc_n)
        \quad(n\in\mathcal N_0).
 \end{equation}$$ There is a finite complex measure $\mu_a$ on $[-1,1]$ such that $$\begin{equation}
-\label{eq:full-measure}
+\tag{2.12}
  p_a(s)=\int_{-1}^{1}e^{i\pi ts}\,\mathop{}\!\mathrm d\mu_a(t)\qquad(s\in\mathbb C),
 \end{equation}$$ $\mu_a(-E)=\overline{\mu_a(E)}$ for every Borel set $E$, and $$\begin{equation}
-\label{eq:spectral-variation}
+\tag{2.13}
  \|\mu_a\|_{\mathrm{TV}}
  \le 25|C|+36\sum_{n\in\mathcal N_0}(|c_n|+|d_n|).
 \end{equation}$$ For real $s$, the same value can be evaluated from a folded measure on $[0,1]$: $$\begin{equation}
-\label{eq:folded-evaluation}
+\tag{2.14}
  p_a(s)=\mathop{\mathrm{Re}}\int_0^1e^{i\pi ts}\,\mathop{}\!\mathrm d\nu_a(t).
 \end{equation}$$ The atoms of $\nu_a$ are $Ce_jP_j$ at $t_j$, where $e_0=1$ and $e_j=2$ for $1\le j\le6$. Its density on the open frequency intervals is $$\begin{equation}
-\label{eq:folded-density}
+\tag{2.15}
  d_j(t)=2\pi\sum_{n\in\mathcal N_0}e^{-i\pi tn}
        \sum_{l=j}^{6}
            \bigl[-\pi c_n(t_l-t)+id_n\bigr]P_le^{i\pi t_ln}
@@ -195,81 +195,81 @@ A coefficient list consists of a real constant $C$ and real pairs $(c_n,d_n)$ fo
     &=i\pi\int_0^{t_l}e^{i\pi tu}\,\mathop{}\!\mathrm dt,\\
  \frac{e^{i\pi t_lu}-1-i\pi t_lu}{u^2}
     &=-\pi^2\int_0^{t_l}(t_l-t)e^{i\pi tu}\,\mathop{}\!\mathrm dt.
-\end{align*}$$ The integrals include the removable values at $u=0$. Multiply these identities by $P_le^{i\pi t_ln}$ and sum over $l$. The subtracted constant and linear terms cancel because $P(n)=P'(n)=0$. We therefore obtain spectral measures for the two entire node fractions in (eq:cardinal-function). Their negative-frequency parts are conjugate reflections of their positive-frequency parts. Folding doubles the latter parts and gives exactly (eq:folded-density). These node measures are absolutely continuous; the atoms come only from $CP$, with the zero frequency counted once and every positive frequency counted twice.
+\end{align*}$$ The integrals include the removable values at $u=0$. Multiply these identities by $P_le^{i\pi t_ln}$ and sum over $l$. The subtracted constant and linear terms cancel because $P(n)=P'(n)=0$. We therefore obtain spectral measures for the two entire node fractions in (2.10). Their negative-frequency parts are conjugate reflections of their positive-frequency parts. Folding doubles the latter parts and gives exactly (2.15). These node measures are absolutely continuous; the atoms come only from $CP$, with the zero frequency counted once and every positive frequency counted twice.
 
-The coefficient row in (eq:periodic-coefficients) gives $(|P_1|,\ldots,|P_6|)=(2,2,2,1,2,1)$. The constant column consequently has variation $|P_0|+2\sum_{l=1}^6|P_l|=25$. Taking absolute values in the two integrals above gives, per unit $c_n$ and $d_n$, respectively, $$\pi^2\sum_{l=1}^6t_l^2|P_l|=\frac{65\pi^2}{18}<36,
+The coefficient row in (2.6) gives $(|P_1|,\ldots,|P_6|)=(2,2,2,1,2,1)$. The constant column consequently has variation $|P_0|+2\sum_{l=1}^6|P_l|=25$. Taking absolute values in the two integrals above gives, per unit $c_n$ and $d_n$, respectively, $$\pi^2\sum_{l=1}^6t_l^2|P_l|=\frac{65\pi^2}{18}<36,
  \qquad
  2\pi\sum_{l=1}^6t_l|P_l|=\frac{32\pi}{3}<36.$$ The phases involving $n$ have modulus one at real frequencies, so these bounds are independent of the node. They apply to the full measure and to its folded form.
 
-For an absolutely summable list, the node measures now converge in total variation, proving (eq:spectral-variation). On every compact subset of the complex $s$-plane, $e^{i\pi ts}$ and each of its $s$-derivatives are uniformly bounded for $|t|\le1$. Thus the measure integral and all its derivatives are locally uniform limits of those for finite lists. On a compact set avoiding the nodes, the reciprocal factors in the cardinal sum are uniformly bounded over all $n$, so absolute summability also gives uniform convergence of that sum there. The integral thus defines its entire extension, with the stated removals.
+For an absolutely summable list, the node measures now converge in total variation, proving (2.13). On every compact subset of the complex $s$-plane, $e^{i\pi ts}$ and each of its $s$-derivatives are uniformly bounded for $|t|\le1$. Thus the measure integral and all its derivatives are locally uniform limits of those for finite lists. On a compact set avoiding the nodes, the reciprocal factors in the cardinal sum are uniformly bounded over all $n$, so absolute summability also gives uniform convergence of that sum there. The integral thus defines its entire extension, with the stated removals.
 
-For a finite list, (eq:node-expansion) gives (eq:cardinal-jets): the designated double and simple fractions give the two displayed terms, while every other term vanishes to order at least two at the node. Locally uniform convergence of the functions and their derivatives passes these identities to the full list. Finally, conjugate symmetry of the measure gives reality on the real axis and the folded formula. ◻
+For a finite list, (2.7) gives (2.11): the designated double and simple fractions give the two displayed terms, while every other term vanishes to order at least two at the node. Locally uniform convergence of the functions and their derivatives passes these identities to the full list. Finally, conjugate symmetry of the measure gives reality on the real axis and the folded formula. ◻
 
-The entire extension is always the full complex integral (eq:full-measure). The real part in (eq:folded-evaluation) is an evaluation rule for real $s$, not a definition at complex arguments.
+The entire extension is always the full complex integral (2.12). The real part in (2.14) is an evaluation rule for real $s$, not a definition at complex arguments.
 
 ### Gaussian damping and the transformed kernel
 
 For $-1\le t\le1$, set $$\begin{equation}
-\label{eq:transformed-kernel}
+\tag{2.16}
  z(t)=-\frac{B}{t+ih}-ih,\qquad
  \lambda(t)=\frac{i}{b(t+ih)}.
 \end{equation}$$ For a coefficient list $a$, define $$\begin{equation}
-\label{eq:transformed-function}
+\tag{2.17}
  K_{p_a}(s)=\int_{-1}^1\lambda(t)e^{i\pi z(t)s}\,\mathop{}\!\mathrm d\mu_a(t).
 \end{equation}$$ The image of $[-1,1]$ under $z$ is compact and $\lambda$ is bounded there, so the same compact-uniform argument makes $K_{p_a}$ entire. Also, $$\lambda(-t)=\overline{\lambda(t)},\qquad
  z(-t)=-\overline{z(t)}.$$ It follows that $K_{p_a}$ is real on the real axis, where $$\begin{equation}
-\label{eq:folded-transformed-function}
+\tag{2.18}
  K_{p_a}(s)=\mathop{\mathrm{Re}}\int_0^1
                    \lambda(t)e^{i\pi z(t)s}\,\mathop{}\!\mathrm d\nu_a(t).
 \end{equation}$$
 
-*Remark 2.3* (Pointwise frequency consistency). The rational formulas in (eq:transformed-kernel) also make sense for complex $t\ne-ih$. Since $z(t)+ih=-B/(t+ih)$, the image avoids $-ih$, and substitution twice gives $$z(z(t))=t,\qquad
+*Remark 2.3* (Pointwise frequency consistency). The rational formulas in (2.16) also make sense for complex $t\ne-ih$. Since $z(t)+ih=-B/(t+ih)$, the image avoids $-ih$, and substitution twice gives $$z(z(t))=t,\qquad
  \lambda(t)\lambda(z(t))
  =\frac{i}{b(t+ih)}\frac{-i(t+ih)}{bB}=1.$$ These are pointwise frequency and amplitude identities for the Gaussian transform. They do not define a composition of the folded real-contour integral: $z$ does not preserve that contour, and a transformed profile has not thereby been given a cardinal measure on $[-1,1]$. The involution for the radial functions follows from the genuine Fourier transform below.
 
 **Lemma 2.4** (Fourier pairs). *For every coefficient list $a$, the radial functions $e^{-\pi hs}p_a(s)$ and $e^{-\pi hs}K_{p_a}(s)$ are real Schwartz functions on $\mathbb R^2$ and are Fourier transforms of one another. Consequently, for any two lists, the entire functions $$\begin{equation}
-\label{eq:coupled-pair}
+\tag{2.19}
  H_1=p_1+K_{p_2},\qquad H_2=p_2+K_{p_1}
 \end{equation}$$ give the real radial Schwartz Fourier pair $$f(x)=e^{-\pi hb|x|^2}H_1(b|x|^2),\qquad
  \widehat f(\xi)=e^{-\pi hb|\xi|^2}H_2(b|\xi|^2).$$*
 
 *Proof.* For a complex parameter $\gamma$ with $\mathop{\mathrm{Re}}\gamma>0$, the Gaussian transform in dimension two, with kernel $e^{-2\pi i x\cdot\xi}$, is $$\begin{equation}
-\label{eq:complex-gaussian-transform}
+\tag{2.20}
  \widehat{e^{-\pi\gamma|x|^2}}(\xi)
        =\gamma^{-1}e^{-\pi|\xi|^2/\gamma}.
-\end{equation}$$ For real $\gamma>0$, squaring the Gaussian integral and using polar coordinates gives the one-dimensional value $\gamma^{-1/2}$ at frequency zero. Integration by parts shows that the one-dimensional transform obeys $F'(\xi)=-(2\pi\xi/\gamma)F(\xi)$. Solving this differential equation and taking the product in two coordinates proves (eq:complex-gaussian-transform) for positive real $\gamma$. Both sides are holomorphic on the right half-plane; differentiation under the integral is locally justified by a polynomial times a decaying Gaussian. The identity theorem gives the complex case.
+\end{equation}$$ For real $\gamma>0$, squaring the Gaussian integral and using polar coordinates gives the one-dimensional value $\gamma^{-1/2}$ at frequency zero. Integration by parts shows that the one-dimensional transform obeys $F'(\xi)=-(2\pi\xi/\gamma)F(\xi)$. Solving this differential equation and taking the product in two coordinates proves (2.20) for positive real $\gamma$. Both sides are holomorphic on the right half-plane; differentiation under the integral is locally justified by a polynomial times a decaying Gaussian. The identity theorem gives the complex case.
 
-After multiplication by $e^{-\pi hs}$, the integrand in (eq:full-measure) is a Gaussian with parameter $\gamma=b(h-it)=-ib(t+ih)$, whose real part is the fixed positive number $bh$. Using $B=1/b^2$, its transform is $$\frac1{b(h-it)}
+After multiplication by $e^{-\pi hs}$, the integrand in (2.12) is a Gaussian with parameter $\gamma=b(h-it)=-ib(t+ih)$, whose real part is the fixed positive number $bh$. Using $B=1/b^2$, its transform is $$\frac1{b(h-it)}
     \exp\left(-\frac{\pi|\xi|^2}{b(h-it)}\right)
  =e^{-\pi hs}\lambda(t)e^{i\pi z(t)s},\qquad s=b|\xi|^2.$$ Integrating this identity against $\mu_a$ proves the forward Fourier formula. The exchanges with Fourier integration, derivatives, and polynomial weights are justified uniformly: the measure is finite, the frequency interval is compact, and every differentiated real-space Gaussian is bounded by a fixed polynomial times a decaying Gaussian. On the transformed side, the real part of the Gaussian parameter is $h/[b(h^2+t^2)]$, with a positive lower bound on $[-1,1]$. The same domination applies there. Both functions are therefore Schwartz.
 
-Fourier transformation twice reflects a Schwartz function. The functions here are radial, so reflection fixes them and proves the reverse transform. Linearity gives (eq:coupled-pair). ◻
+Fourier transformation twice reflects a Schwartz function. The functions here are radial, so reflection fixes them and proves the reverse transform. Linearity gives (2.19). ◻
 
 ### The jet operator and its distant outputs
 
 For a function differentiable at the positive nodes, define the jet projection $$\begin{equation}
-\label{eq:jet-projection}
+\tag{2.21}
  (\mathcal Ju)_{c,n}=\frac{u(n)}{Q_n},\qquad
  (\mathcal Ju)_{d,n}=\frac{u'(n)-D_nu(n)}{Q_n}
        \quad(n\in\mathcal N).
 \end{equation}$$ By Lemma 2.2, $\mathcal Jp_a$ is precisely the positive-node part of $a$. The three remaining coordinates, in the order $(c_0,d_0,C)$, are called the extra coordinates. They make no direct contribution to the jets at positive nodes; we will choose them in Section 3. Put $$\begin{equation}
-\label{eq:jet-operator}
+\tag{2.22}
  Sa=-\mathcal J K_{p_a}.
-\end{equation}$$ For two full lists $a_1,a_2$, let $a_i^+$ denote their positive-node parts. The coupled pair (eq:coupled-pair) then satisfies $$\mathcal JH_1=a_1^+-Sa_2,\qquad
+\end{equation}$$ For two full lists $a_1,a_2$, let $a_i^+$ denote their positive-node parts. The coupled pair (2.19) then satisfies $$\mathcal JH_1=a_1^+-Sa_2,\qquad
  \mathcal JH_2=a_2^+-Sa_1.$$ Thus the interpolation problem asks for these two expressions to equal $\mathcal JT_k$ and zero, respectively. This explains the minus sign in the definition of $S$. The next estimates bound the transformed contribution, especially at distant output nodes, uniformly in the locations of the input coefficients.
 
 The same letter $S$ denotes its restriction to positive-node inputs with zero extras. Subscripts specify input and output restrictions. All list norms are unweighted sums of absolute values, including the sum of the norms on a pair of lists; operator norms are induced by them. A finite matrix therefore has the maximum absolute column-sum norm.
 
 **Lemma 2.5** (Kernel and tail bounds). *For $0\le t\le1$, $$\begin{equation}
-\label{eq:global-kernel-bounds}
+\tag{2.23}
  |\lambda(t)|<3,\qquad |z(t)|\le\frac{44}{15}<3,
  \qquad \pi\mathop{\mathrm{Im}}z(t)>.187.
 \end{equation}$$ The last quantity exceeds $.70$ when $0\le t\le5/6$. On $5/6\le t\le1$, the sharper bounds are $$\begin{equation}
-\label{eq:last-interval-bounds}
+\tag{2.24}
  |\lambda(t)|<1.25,\qquad |z(t)|<1.32,
  \qquad \pi\mathop{\mathrm{Im}}z(t)>.187+2.48(1-t).
 \end{equation}$$ The operator $S$, with extra input coordinates included if desired, maps coefficient lists boundedly to positive-node $\ell^1$ lists and has norm less than 4000. More precisely, if $$w\ge\sum_{n\in\mathcal N_0}(|c_n|+|d_n|),\qquad c\ge|C|,$$ then for every positive integer $r$, $$\begin{equation}
-\label{eq:tail-bound}
+\tag{2.25}
  \sum_{\substack{n\in\mathcal N\\n\ge r}}
        \bigl(|(Sa)_{c,n}|+|(Sa)_{d,n}|\bigr)
  \le U_r(w,c):=
@@ -285,26 +285,26 @@ The same letter $S$ denotes its restriction to positive-node inputs with zero ex
 \end{align*}$$ Since $B>2h^2$, all three expressions decrease for $t\ge0$. At zero, $|\lambda|=5/\sqrt3<3$ and $|z|=44/15$. At the other relevant endpoints, $$q(1)=\frac{26\pi}{435}>.187,\qquad
  q(5/6)=\frac{862\pi}{3845}>.70,$$ and $$|\lambda(5/6)|=\frac{60}{\sqrt{2307}}<\frac54,
  \qquad
- |z(5/6)|^2=\frac{33476}{19225}<\left(\frac{33}{25}\right)^2.$$ Finally, $$-q'(t)=\frac{2\pi hBt}{(t^2+h^2)^2}.$$ The function $t/(t^2+h^2)^2$ decreases for $t>h/\sqrt3$. Its value at the last endpoint therefore gives $-q'(t)\ge2000\pi/2523>2.48$ throughout $[5/6,1]$. Integrating from $t$ to 1 proves the last inequality in (eq:last-interval-bounds). All strict numerical comparisons here follow from $157/50<\pi<22/7$ and squaring the positive rational bounds.
+ |z(5/6)|^2=\frac{33476}{19225}<\left(\frac{33}{25}\right)^2.$$ Finally, $$-q'(t)=\frac{2\pi hBt}{(t^2+h^2)^2}.$$ The function $t/(t^2+h^2)^2$ decreases for $t>h/\sqrt3$. Its value at the last endpoint therefore gives $-q'(t)\ge2000\pi/2523>2.48$ throughout $[5/6,1]$. Integrating from $t$ to 1 proves the last inequality in (2.24). All strict numerical comparisons here follow from $157/50<\pi<22/7$ and squaring the positive rational bounds.
 
 One unit of spectral variation at frequency $t$ contributes at most $$\begin{equation}
-\label{eq:jet-kernel-cost}
+\tag{2.26}
  \frac{|\lambda(t)|}{Q_n}
        \bigl(1+|D_n|+\pi|z(t)|\bigr)e^{-q(t)n}
-\end{equation}$$ to the sum of the two absolute jet coordinates at $n$. By (eq:node-constant-bounds), its prefactor is less than 22 globally and less than 5.3 on the last interval, since $$\frac{3(1+2.12+3\pi)}{1.75}<22,
+\end{equation}$$ to the sum of the two absolute jet coordinates at $n$. By (2.9), its prefactor is less than 22 globally and less than 5.3 on the last interval, since $$\frac{3(1+2.12+3\pi)}{1.75}<22,
  \qquad
- \frac{1.25(1+2.12+1.32\pi)}{1.75}<5.3.$$ The variation bound is at most $36\|a\|_1$. Summing (eq:jet-kernel-cost) over all positive integers, a superset of the positive nodes, therefore gives $$\|S\|\le\frac{22\cdot36}{e^{.187}-1}<4000.$$ For the final comparison, $e^{.187}-1>.187+(.187)^2/2>.198$.
+ \frac{1.25(1+2.12+1.32\pi)}{1.75}<5.3.$$ The variation bound is at most $36\|a\|_1$. Summing (2.26) over all positive integers, a superset of the positive nodes, therefore gives $$\|S\|\le\frac{22\cdot36}{e^{.187}-1}<4000.$$ For the final comparison, $e^{.187}-1>.187+(.187)^2/2>.198$.
 
-For the sharper tail, split the folded measure into $[0,5/6]$ and $(5/6,1]$, assigning the atom at $5/6$ to the first part. The first part has variation at most $36w+25c$. Its contribution to the row pair at $n$ is therefore at most $$22(36w+25c)e^{-.70n}\le800(w+c)e^{-.70n}.$$ On the last open frequency interval, only $l=6$ remains in (eq:folded-density). Here $|P_6|=1$ and $\pi(1-t)\le\pi/6<1$, so the density has absolute value at most $2\pi w$. The only atom in $(5/6,1]$ is the one at 1, of mass $2C$. This part contributes at most $$5.3e^{-.187n}
+For the sharper tail, split the folded measure into $[0,5/6]$ and $(5/6,1]$, assigning the atom at $5/6$ to the first part. The first part has variation at most $36w+25c$. Its contribution to the row pair at $n$ is therefore at most $$22(36w+25c)e^{-.70n}\le800(w+c)e^{-.70n}.$$ On the last open frequency interval, only $l=6$ remains in (2.15). Here $|P_6|=1$ and $\pi(1-t)\le\pi/6<1$, so the density has absolute value at most $2\pi w$. The only atom in $(5/6,1]$ is the one at 1, of mass $2C$. This part contributes at most $$5.3e^{-.187n}
        \left(2\pi w\int_{5/6}^1e^{-2.48n(1-t)}\,\mathop{}\!\mathrm dt+2c\right)
- \le5.3e^{-.187n}\left(\frac{2.54w}{n}+2c\right),$$ because $2\pi/2.48<2.54$. Summing over the integers $n\ge r$ and using $1/n\le1/r$ proves (eq:tail-bound). Only absolute-value sums were used, so the same argument applies to several lists with their summed inputs. ◻
+ \le5.3e^{-.187n}\left(\frac{2.54w}{n}+2c\right),$$ because $2\pi/2.48<2.54$. Summing over the integers $n\ge r$ and using $1/n\le1/r$ proves (2.25). Only absolute-value sums were used, so the same argument applies to several lists with their summed inputs. ◻
 
 The same estimates control every derivative. If $V=25|C|+36\sum_n(|c_n|+|d_n|)$, then for every integer $j\ge0$ and real $s\ge0$, differentiation of the spectral integrals gives $$\begin{equation}
-\label{eq:uniform-derivative-bounds}
+\tag{2.27}
  |p_a^{(j)}(s)|\le\pi^jV,\qquad
  |K_{p_a}^{(j)}(s)|\le3(3\pi)^j e^{-.187s}V.
 \end{equation}$$ Keeping the two frequency ranges separate as above gives, for $s>0$, $$\begin{equation}
-\label{eq:refined-derivative-bound}
+\tag{2.28}
  |K_{p_a}^{(j)}(s)|
  \le3(3\pi)^j(36w+25c)e^{-.70s}
     +1.25(1.32\pi)^j
@@ -322,7 +322,7 @@ All terminating decimals in this section denote exact rational numbers. For a re
 Set $$M=168,\qquad \mathcal F=\mathcal N\cap[1,M],\qquad N=384.$$ There are $84$ nodes in $\mathcal F$: each of the fourteen successive blocks of twelve positive integers contains six permitted residues. A finite positive-node list has $168$ coordinates, first all $c_n$ and then all $d_n$, with $n$ increasing in each group. We append the extra coordinates $e=(c_0,d_0,C)$ in that order. Thus the complete finite input space has $171$ coordinates.
 
 The folded spectral measure in Lemma 2.2 has a density on each interval $((j-1)/6,j/6)$ and seven atoms at $t_j=j/6$. We leave the atoms unchanged. On each density interval define $$\begin{equation}
-\label{eq:quadrature-rule}
+\tag{3.1}
 \begin{aligned}
  \alpha_v&=\frac{v+1/2}{N},&
  \tau_{jv}&=\frac{2j-1+\cos(\pi\alpha_v)}{12},\\
@@ -340,27 +340,27 @@ Put $\theta_v=\pi(v+1/2)/N$. For $1\le l\le2N-1$, the finite identity $$\sum_{v=
  1/(1-l^2),&l>0\text{ even},
  \end{cases}
  \qquad 0\le l\le N-1.$$ Let $C_l$ be the Chebyshev polynomial defined by $C_l(\cos\theta)=\cos(l\theta)$. These values equal $\frac12\int_{-1}^1C_l(x)\,\mathop{}\!\mathrm dx$, as follows by substituting $x=\cos\theta$. The polynomials $C_0,\ldots,C_{N-1}$ span all polynomials of degree at most $N-1$, so the rule is exact through degree $383$. Moreover, $$\sum_{a=1}^{N/2-1}\frac{2}{4a^2-1}=1-\frac1{N-1}$$ by telescoping. Since every cosine is at most one, this identity and the case $l=0$ above prove $$\begin{equation}
-\label{eq:positive-quadrature-weights}
+\tag{3.2}
  o_v\ge\frac1{N(N-1)}>0,\qquad \sum_{v=0}^{N-1}o_v=1.
 \end{equation}$$ The substitution $t=(2j-1+x)/12$ changes the average rule on $[-1,1]$ into the weights $o_v/6$ on the $j$th frequency interval. Each interval therefore has total weight $1/6$, and all six together have total weight one.
 
 A tilde will denote this replacement of the density integrals. In particular, $\widetilde p$ and $\widetilde K_p$ are finite sums. The functions ultimately used in the Fourier pair remain $p$ and $K_p$ with their exact spectral integrals; the following lemma quantifies the difference.
 
-**Lemma 3.1** (Quadrature error for scaled moments). *Let $p$ and $K_p$ be the exact direct and transformed functions for one basis input among the $171$ coordinates $(\mathcal F,e)$. For every integer $a\ge0$, real $0\le m\le168$, and real $|y|\le3/2$, the replacement (eq:quadrature-rule), with all atoms kept exactly, changes each of $$\frac{y^a}{a!}p^{(a)}(m),\qquad
+**Lemma 3.1** (Quadrature error for scaled moments). *Let $p$ and $K_p$ be the exact direct and transformed functions for one basis input among the $171$ coordinates $(\mathcal F,e)$. For every integer $a\ge0$, real $0\le m\le168$, and real $|y|\le3/2$, the replacement (3.1), with all atoms kept exactly, changes each of $$\frac{y^a}{a!}p^{(a)}(m),\qquad
  \frac{y^a}{a!}K_p^{(a)}(m)$$ by less than $10^{-31}$ in absolute value.*
 
 *Proof.* We first bound each analytic integrand on a disk twice as wide as its real integration interval. We then use polynomial exactness and positivity to turn one Taylor remainder bound into a quadrature error bound. The estimates are uniform in the derivative order.
 
-For the $j$th density piece in (eq:folded-density), put $u=(2j-1)/12$ and consider $|t-u|\le1/6$. On this disk, $|t|\le13/12<1.1$. The pole $-ih$ of $z$ and $\lambda$ lies outside, and $$|\lambda(t)|\le\frac1{b(h-1/6)}<5,
+For the $j$th density piece in (2.15), put $u=(2j-1)/12$ and consider $|t-u|\le1/6$. On this disk, $|t|\le13/12<1.1$. The pole $-ih$ of $z$ and $\lambda$ lies outside, and $$|\lambda(t)|\le\frac1{b(h-1/6)}<5,
  \qquad
  |z(t)|\le\frac{B}{h-1/6}+h=\frac{214}{35}<6.2.$$ Inversion sends the disk centered at $u+ih$ with radius $1/6$ to the disk centered at $(u-ih)/(u^2+h^2-1/36)$ with radius $(1/6)/(u^2+h^2-1/36)$. Thus $$\begin{equation}
-\label{eq:complex-kernel-disk}
+\tag{3.3}
  \mathop{\mathrm{Im}}z(t)\ge
  \frac{B(h-1/6)}{u^2+h^2-1/36}-h
  \ge-\frac{1402}{17505}>-.081.
 \end{equation}$$ The middle expression decreases as $u$ increases, so its minimum among the six disks occurs at $u=11/12$.
 
-For positive indices, the moduli of the coefficients in (eq:periodic-coefficients) are $(2,2,2,1,2,1)$. Hence $$\sum_{l=1}^6|P_l|=10,\qquad
+For positive indices, the moduli of the coefficients in (2.6) are $(2,2,2,1,2,1)$. Hence $$\sum_{l=1}^6|P_l|=10,\qquad
  \sum_{l=1}^6t_l|P_l|=\frac{16}{3}.$$ For a $c_n$ basis column, the density on the disk has modulus at most $$2\pi^2e^{\pi n/6}\sum_{l=j}^6|P_l|(t_l-u+1/6)
  \le\frac{37\pi^2}{3}e^{\pi M/6}<220e^{\pi M/6}.$$ The last sum is bounded by $16/3+(1/12)10=37/6$; the first disk gives the largest possible added term. For a $d_n$ column the smaller bound $20\pi e^{\pi M/6}$ suffices. These arguments include $n=0$. The constant column has only atoms, so it has no quadrature error.
 
@@ -372,7 +372,7 @@ The direct scaled kernel factor satisfies $$|e^{i\pi tm}|\frac{|i\pi ty|^a}{a!}
  1100(2719/1000)^{160}<10^{83}$$ therefore bound both analytic integrands by $10^{83}$. This is the degree-six elementary route for the present allowance; it is separate from the scalar method developed in Appendix A.
 
 The actual interval is $|t-u|\le1/12$, half the disk radius. Cauchy’s coefficient estimate bounds the Taylor tail after degree $383$ there by $$10^{83}\sum_{r=384}^{\infty}2^{-r}
- =2\cdot10^{83}2^{-384}.$$ The degree-$383$ polynomial is integrated exactly. Both integration and quadrature are positive functionals of total mass one when the six intervals are combined, by (eq:positive-quadrature-weights). Applying each to the tail thus bounds their difference by $$4\cdot10^{83}2^{-384}<10^{-31};$$ the final comparison is the integer inequality $4\cdot10^{114}<2^{384}$. Taking real parts cannot enlarge the error, and no atom was changed. ◻
+ =2\cdot10^{83}2^{-384}.$$ The degree-$383$ polynomial is integrated exactly. Both integration and quadrature are positive functionals of total mass one when the six intervals are combined, by (3.2). Applying each to the tail thus bounds their difference by $$4\cdot10^{83}2^{-384}<10^{-31};$$ the final comparison is the integer inequality $4\cdot10^{114}<2^{384}$. Taking real parts cannot enlarge the error, and no atom was changed. ◻
 
 ### Masses and transformed jets
 
@@ -387,7 +387,7 @@ The quadrature is now both specified and controlled. We next express it as matri
 \end{align*}$$ At atom $j$, only the constant column is nonzero: $W_{\mathrm{atom}(j),C}=e_jP_j$, where $e_0=1$ and $e_j=2$ for $j>0$. These are exactly the folded masses of Lemma 2.2.
 
 For the tuple $t$ of all $2311$ mass points, define the row vectors $$\begin{equation}
-\label{eq:quadrature-moments}
+\tag{3.4}
 \begin{aligned}
  F_a(m,y;t)&=e^{i\pi tm}\frac{(i\pi yt)^a}{a!},\\
  G_a(m,y;t)&=\lambda(t)e^{i\pi z(t)m}
@@ -395,21 +395,21 @@ For the tuple $t$ of all $2311$ mass points, define the row vectors $$\begin{equ
 \end{aligned}
 \end{equation}$$ For a real coefficient column $A$, the real parts of $F_aWA$ and $G_aWA$ are the order-$a$ derivatives at $m$ of its direct and transformed finite sums, multiplied by $y^a/a!$. This follows by differentiating each finite exponential sum. It fixes, in particular, the absence of conjugation in these products.
 
-Apply the jet projection of (eq:jet-projection) to the transformed sums and write $$(\widetilde S_{\mathcal F\mathcal F},\widetilde S_{\mathcal F e})
+Apply the jet projection of (2.21) to the transformed sums and write $$(\widetilde S_{\mathcal F\mathcal F},\widetilde S_{\mathcal F e})
  =-\mathcal J_{\mathcal F}\widetilde K,
- \qquad D=\widetilde S_{\mathcal F\mathcal F}.$$ Thus $D$ is a $168\times168$ matrix; it is distinct from the scalar node constants $D_n$. Explicitly, if $a_n=\mathop{\mathrm{Re}}(G_0(n,1)W)$ and $b_n=\mathop{\mathrm{Re}}(G_1(n,1)W)$, the $c_n$ and $d_n$ rows of the full projected matrix are $$-a_n/Q_n,\qquad (D_na_n-b_n)/Q_n,$$ respectively. The bounds in (eq:node-constant-bounds) ensure that these denominators are positive.
+ \qquad D=\widetilde S_{\mathcal F\mathcal F}.$$ Thus $D$ is a $168\times168$ matrix; it is distinct from the scalar node constants $D_n$. Explicitly, if $a_n=\mathop{\mathrm{Re}}(G_0(n,1)W)$ and $b_n=\mathop{\mathrm{Re}}(G_1(n,1)W)$, the $c_n$ and $d_n$ rows of the full projected matrix are $$-a_n/Q_n,\qquad (D_na_n-b_n)/Q_n,$$ respectively. The bounds in (2.9) ensure that these denominators are positive.
 
 ### Target data and finite reference columns
 
 The ten data coordinates encode the target jets at the first five positive nodes. Define $$(n_1,\ldots,n_5)=(1,3,4,7,9),\qquad
  v_j=e^{-k(n_j-1)},\qquad
  q(k)=(v_1,\ldots,v_5,v_1/k,\ldots,v_5/k)^t.$$ The first five coordinates are $-T_k'(n_j)$ and the last five are $T_k(n_j)$. We will convert these values and slopes to cardinal coordinates with the jet projection $\mathcal J$. In the cardinal formula, $c_0,d_0$ determine the value and slope of the direct profile $p$ at the origin, while $C$ multiplies $P$ and supplies the constant term in the later rational tail comparison. These three coordinates leave all direct positive-node jets unchanged, but alter the transformed contribution. We fix them first; Section 4 will correct the positive-node coefficients to impose all contacts of the coupled pair. We choose the following values, whose suitability will be established by the norm and sign estimates below. In the order of list 1 followed by list 2, they are $$\begin{equation}
-\label{eq:extra-data}
+\tag{3.5}
  E(k)=
  \begin{pmatrix}.567\\.250\\-.0074\\0\\-.209\\.0096\end{pmatrix}
  +\frac1k
  \begin{pmatrix}-.976\\.408\\.0115\\1\\.938\\-.017\end{pmatrix}.
-\end{equation}$$ Let $E_1,E_2$ be $3\times10$ matrices. Their first columns are the first and last three entries, respectively, of the first vector in (eq:extra-data); their sixth columns use the corresponding entries of the second vector, and all other columns vanish. Since $v_1=1$, the stack of $E_1q(k)$ and $E_2q(k)$ is exactly $E(k)$.
+\end{equation}$$ Let $E_1,E_2$ be $3\times10$ matrices. Their first columns are the first and last three entries, respectively, of the first vector in (3.5); their sixth columns use the corresponding entries of the second vector, and all other columns vanish. Since $v_1=1$, the stack of $E_1q(k)$ and $E_2q(k)$ is exactly $E(k)$.
 
 Define a $168\times10$ matrix $Y$ by the following nonzero entries, for $1\le j\le5$: $$Y_{d_{n_j},j}=-\frac1{Q_{n_j}},\qquad
  Y_{c_{n_j},j+5}=\frac1{Q_{n_j}},\qquad
@@ -420,7 +420,7 @@ To see which equations the finite columns must approximate, write $A_1,A_2$ for 
  A_2-DA_1=\widetilde S_{\mathcal F e}E_1.$$ Each right side contains the other list’s extras because the transformed function in $H_i$ comes from that other list. Denote these right sides by $g_1,g_2$. Adding and subtracting the equations gives $$(I-D)(A_1+A_2)=g_1+g_2,
  \qquad
  (I+D)(A_1-A_2)=g_1-g_2.$$ We use finite geometric sums in place of the two inverses and define $$\begin{equation}
-\label{eq:finite-columns}
+\tag{3.6}
 \begin{aligned}
  g_1&=Y+\widetilde S_{\mathcal F e}E_2,&
  g_2&=\widetilde S_{\mathcal F e}E_1,\\
@@ -439,7 +439,7 @@ The remaining finite bounds have three roles. Bounds on powers of $D$ and the su
 ### Containing parameter boxes
 
 The data vector $q(k)$ lies on a one-dimensional curve. To obtain lower bounds uniform in $k$, we place each part of that curve in a rectangular box. The endpoints are $$2.36,\quad2.65,\quad3.2,\quad4,\quad6,\quad\infty.$$ For a real row $l=(a_1,\ldots,a_5,b_1,\ldots,b_5)$ and consecutive endpoints $K,J$, define $$\begin{equation}
-\label{eq:box-lower}
+\tag{3.7}
  [l]_{K,J}=\min_{x\in\{1/K,1/J\}}\left(
  a_1+xb_1+\sum_{j=2}^5
  \min_{H\in\{K,J\}}\{(a_j+xb_j)e^{-H(n_j-1)}\}\right).
@@ -448,7 +448,7 @@ The data vector $q(k)$ lies on a one-dimensional curve. To obtain lower bounds u
 **Lemma 3.2** (Containing parameter boxes). *Let $K,J$ be consecutive endpoints in the displayed list. For every real row $l$ as above and every finite $k$ with $K\le k\le J$, where the upper inequality is omitted if $J=\infty$, one has $lq(k)\ge[l]_{K,J}$.*
 
 *Proof.* Write $x=1/k$ and $w_j=e^{-k(n_j-1)}$ for $j=2,\ldots,5$. The physical vector lies in the box $$x\in[1/J,1/K],\qquad
- w_j\in[e^{-J(n_j-1)},e^{-K(n_j-1)}].$$ On this larger box the expression $a_1+xb_1+\sum_{j=2}^5(a_j+xb_j)w_j$ is affine in each variable while the others are fixed. Its minimum therefore occurs at a vertex. First minimizing each $w_j$ and then the single shared $x$ gives exactly (eq:box-lower). This is a containing-box bound, not sampling of the curve $q(k)$. ◻
+ w_j\in[e^{-J(n_j-1)},e^{-K(n_j-1)}].$$ On this larger box the expression $a_1+xb_1+\sum_{j=2}^5(a_j+xb_j)w_j$ is affine in each variable while the others are fixed. Its minimum therefore occurs at a vertex. First minimizing each $w_j$ and then the single shared $x$ gives exactly (3.7). This is a containing-box bound, not sampling of the curve $q(k)$. ◻
 
 ### Polynomial rows on the half-gaps
 
@@ -458,7 +458,7 @@ At a positive center the desired value and derivative contacts would make $T_k-H
  =\frac{u(s)-u(m)-(s-m)u'(m)}{(s-m)^2},
  \qquad \mathcal D_{m,2}u(m)=\frac{u''(m)}2.$$ If $u(m)=u'(m)=0$, then $$u(s)=(s-m)^2\mathcal D_{m,2}u(s).$$ Once exact interpolation is imposed, this identity applies to both $u=T_k-H_1$ and $u=H_2$ at every positive center. It reduces their sign inequalities to lower bounds for quotients that remain regular at the nodes. At the origin we use $\mathcal D_{0,0}u=u$. Put $\nu=0$ there and $\nu=2$ at every positive center. Taylor expansion gives $$\mathcal D_{m,\nu}u(m+yx)
  =\sum_{r=0}^\infty\frac{y^r}{(r+\nu)!}u^{(r+\nu)}(m)x^r.$$ This subtraction is defined even for reference functions that do not interpolate exactly. For the reference pair formed from the columns $X_i$, we keep the first 41 coefficients and replace each spectral moment by its quadrature sum. The resulting ten-component rows are $$\begin{equation}
-\label{eq:bernstein-rows}
+\tag{3.8}
 \begin{aligned}
  l_{i,r}&=\sigma_i\frac{y^r}{(r+\nu)!}
  \left(\widetilde p_{X_i}^{(r+\nu)}(m)
@@ -473,7 +473,7 @@ The rows $L_{i,d}$ are exactly the degree-$40$ Bernstein coefficients of $\sum_{
        \binom{40}d x^d(1-x)^{40-d}.$$ On $[0,1]$ the complete family $\binom{40}d x^d(1-x)^{40-d}$, $0\le d\le40$, is nonnegative and sums to one. Thus a polynomial value lies between its smallest and largest Bernstein coefficients, the standard coefficient-range enclosure discussed by Titi and Garloff (Titi and Garloff 2019, sec. 3). The identity just proved specifies our rows; the local remainder and parameter estimates are separate.
 
 The first inequality also contains the target quotient $\mathcal D_{m,\nu}T_k$. To bound it below on the same half-gap and parameter box, define $$\begin{equation}
-\label{eq:target-support}
+\tag{3.9}
  (a_r^*)_{r=0}^{40}=
  \begin{cases}
  \bigl((e^K/K)(-Ky)^r/r!\bigr)_{r=0}^{40},&m=0,\\
@@ -492,18 +492,18 @@ For large $s$, we will use the low-node terms of the cardinal formula rather tha
        +\frac{d^*_{i,n}q(k)}{s-n}\right).$$ The identity $$\frac1{s-n}=\frac1s+\frac{n}{s(s-n)}$$ groups the simple-pole rows into a coefficient of $1/s$ and a remaining sum. For a fixed parameter box, put $\eta_{K,J}(l)=\min(0,[l]_{K,J})$. This gives a nonpositive lower bound for the numerator $lq(k)$. On $s\ge s_0$, the reciprocal factors are positive and decrease with $s$, so their products with this lower bound are smallest at $s_0$. Keeping the full lower bound for the constant row gives the tail expression in the proposition below. In Section 5, its positive margin will absorb the correction to the exact lists and the omitted high-node and transformed terms.
 
 **Proposition 3.3** (Finite certificate). *The exact arrays defined in this section satisfy $$\begin{equation}
-\label{eq:finite-norms}
+\tag{3.10}
 \begin{gathered}
  \left\lVert D^{64}\right\rVert<.004,\qquad \left\lVert V_+\right\rVert+\left\lVert V_-\right\rVert<36,\\
  \sum_{i=1}^2\left\lVert(X_i)_j\right\rVert_1<
  \begin{cases}2.3,&1\le j\le5,\\5.6,&6\le j\le10.\end{cases}
 \end{gathered}
 \end{equation}$$ For every specified half-gap, $i=1,2$, consecutive parameter endpoints $K,J$, and $0\le d\le40$, $$\begin{equation}
-\label{eq:bernstein-certificate}
+\tag{3.11}
  [L_{i,d}]_{K,J}
  +\mathbf1_{i=1}\sum_{r=0}^d\omega_{dr}a_r^*>.001.
 \end{equation}$$ For every box and $i=1,2$, $$\begin{equation}
-\label{eq:tail-certificate}
+\tag{3.12}
 \begin{split}
  [C_i^*]_{K,J}
  &+\frac{\eta_{K,J}\bigl(\sum_{n\in\mathcal N_{\le88}}d^*_{i,n}\bigr)}{s_0}\\
@@ -513,11 +513,11 @@ For large $s$, we will use the low-node terms of the cardinal formula rather tha
 \end{split}
 \end{equation}$$*
 
-*Finite verification.* We specify the complete stronger exact-array comparisons in Tables 1–3 and the route by which each is checked. Their looser consequences are the proposition’s outputs, whose analytic use is separate. No precomputed coefficient list or approximate auxiliary function is an input: all arrays are reconstructed from (eq:quadrature-rule)– (eq:finite-columns).
+*Finite verification.* We specify the complete stronger exact-array comparisons in Tables 1–3 and the route by which each is checked. Their looser consequences are the proposition’s outputs, whose analytic use is separate. No precomputed coefficient list or approximate auxiliary function is an input: all arrays are reconstructed from (3.1)– (3.6).
 
 The power sums use nine doubling steps. Start with $U=D$ and $V_+=V_-=I$. At step $r=0,\ldots,8$, replace $V_+$ by $V_+(I+U)$ and $V_-$ by $V_-(I+\epsilon_rU)$, where $\epsilon_0=-1$ and $\epsilon_r=1$ for $r>0$; square $U$ before the next step. Before step $r$, $U=D^{2^r}$, and $$\prod_{r=0}^8(I+D^{2^r})=\sum_{j=0}^{511}D^j,
  \qquad
- (I-D)\prod_{r=1}^8(I+D^{2^r})=\sum_{j=0}^{511}(-D)^j.$$ Thus the final sums are exactly those in (eq:finite-columns). Table 1 gives strict upper bounds for $U$ before each update and for both sums after it. Row 6 therefore bounds $D^{64}$.
+ (I-D)\prod_{r=1}^8(I+D^{2^r})=\sum_{j=0}^{511}(-D)^j.$$ Thus the final sums are exactly those in (3.6). Table 1 gives strict upper bounds for $U$ before each update and for both sums after it. Row 6 therefore bounds $D^{64}$.
 
 **Table 1:** Strict upper bounds in the nine-step power computation.
 
@@ -541,7 +541,7 @@ The power sums use nine doubling steps. Start with $U=D$ and $V_+=V_-=I$. At ste
 | $\max_j\left\lVert(X_2)_j\right\rVert_1$ | 1.01 | 3.03 |
 | $\max_j\sum_i\left\lVert(X_i)_j\right\rVert_1$ | 2.20 | 5.40 |
 
-**Table 3:** Strict lower bounds for the left sides of (eq:bernstein-certificate) and (eq:tail-certificate). Each half-gap entry covers both functions, every indicated center and signed half-gap, and all Bernstein indices. The right endpoint $J$ follows $K$ in the endpoint list.
+**Table 3:** Strict lower bounds for the left sides of (3.11) and (3.12). Each half-gap entry covers both functions, every indicated center and signed half-gap, and all Bernstein indices. The right endpoint $J$ follows $K$ in the endpoint list.
 
 <table>
 <thead>
@@ -624,12 +624,12 @@ Let $$\mathcal E=\ell^1(\mathcal N;\mathbb R^2),\qquad
  H_2(n)&=0,& H_2'(n)&=0
  \end{aligned}
  \qquad(n\in\mathcal N),
- \label{eq:exact-jets}
+ \tag{4.1}
 \end{equation}$$ where $H_1=p_{\ell_1}+K_{p_{\ell_2}}$ and $H_2=p_{\ell_2}+K_{p_{\ell_1}}$. Let $\ell_i^{\mathrm{ref}}=X_iq(k)$, extended by zero on $\mathcal T$. Then $$\begin{equation}
  \sum_{i=1}^2\left\lVert\ell_i^{\mathrm{ref}}\right\rVert_1<4.8,\qquad
  \sum_{i=1}^2\left\lVert\ell_i-\ell_i^{\mathrm{ref}}\right\rVert_1<2\cdot10^{-8},\qquad
  \sum_{i=1}^2\left\lVert\ell_i\right\rVert_1<5.
- \label{eq:exact-list-bounds}
+ \tag{4.2}
 \end{equation}$$ The functions $H_1,H_2$ are entire and real on the real axis. In particular, $H_1-T_k$ and $H_2$ have zeros of order at least two at every positive node, including the nodes that are not lattice radii. Their Gaussian-damped functions form the real radial Schwartz Fourier pair of Lemma 2.4.*
 
 The bounded inverse below gives uniqueness for summable coefficient lists with fixed extras and jets prescribed on the larger periodic node set $\mathcal N$. This differs from reconstruction using only the actual triangular shells: Talebizadeh Sardari (Talebizadeh Sardari 2021, Theorem 1.7) constructs infinitely many linearly independent radial Schwartz functions whose values and radial derivatives, and those of their Fourier transforms, vanish on all those shells.
@@ -638,21 +638,21 @@ The bounded inverse below gives uniqueness for summable coefficient lists with f
 
 ##### The coupled jet equation.
 
-Write $a_i\in\mathcal E$ for the positive-node part of $\ell_i$. By (eq:cardinal-jets) and (eq:jet-operator), the desired equations are $$\begin{equation}
+Write $a_i\in\mathcal E$ for the positive-node part of $\ell_i$. By (2.11) and (2.22), the desired equations are $$\begin{equation}
  \mathcal L\binom{a_1}{a_2}
  :=\begin{pmatrix}I&-S\\-S&I\end{pmatrix}\binom{a_1}{a_2}
  =\binom{\mathcal JT_k+S_e e_2}{S_e e_1}.
- \label{eq:infinite-interpolation-system}
-\end{equation}$$ Here $S$ acts on positive-node inputs, while $S_e$ acts on the three extra coordinates. Both are bounded by Lemma 2.5. The target belongs to $\mathcal E$ as well. Indeed, $T_k'(n)=-e^{-k(n-1)}$, and (eq:node-constant-bounds) gives $$\begin{equation}
+ \tag{4.3}
+\end{equation}$$ Here $S$ acts on positive-node inputs, while $S_e$ acts on the three extra coordinates. Both are bounded by Lemma 2.5. The target belongs to $\mathcal E$ as well. Indeed, $T_k'(n)=-e^{-k(n-1)}$, and (2.9) gives $$\begin{equation}
  \left|\frac{T_k(n)}{Q_n}\right|
  +\left|\frac{T_k'(n)-D_nT_k(n)}{Q_n}\right|
  \le\frac{1+(1+2.12)/k}{1.75}\,e^{-k(n-1)}.
- \label{eq:target-jet-bound}
+ \tag{4.4}
 \end{equation}$$ The right side is summable, uniformly after replacing $k$ by 2.36. We will use the exact constant $$c_*:=\frac{1+(1+2.12)/2.36}{1.75}=\frac{548}{413}<\frac43.$$
 
 ##### The finite block.
 
-Let $D=\widetilde S_{\mathcal F\mathcal F}$ and form the paired quadrature block $$\mathcal L_D=\begin{pmatrix}I&-D\\-D&I\end{pmatrix}.$$ With $\eta=.004^8$, submultiplicativity and Proposition 3.3 give $\left\lVert D^{512}\right\rVert=\left\lVert(D^{64})^8\right\rVert<\eta$. The finite geometric identities for the matrices $V_+,V_-$ in (eq:finite-columns) yield $$R_+=(I-D)^{-1}=V_+(I-D^{512})^{-1},\qquad
+Let $D=\widetilde S_{\mathcal F\mathcal F}$ and form the paired quadrature block $$\mathcal L_D=\begin{pmatrix}I&-D\\-D&I\end{pmatrix}.$$ With $\eta=.004^8$, submultiplicativity and Proposition 3.3 give $\left\lVert D^{512}\right\rVert=\left\lVert(D^{64})^8\right\rVert<\eta$. The finite geometric identities for the matrices $V_+,V_-$ in (3.6) yield $$R_+=(I-D)^{-1}=V_+(I-D^{512})^{-1},\qquad
  R_-=(I+D)^{-1}=V_-(I-D^{512})^{-1}.$$ The remaining inverse is its norm-convergent Neumann series. Diagonalizing the two-list block into its sum and difference gives $$\mathcal L_D^{-1}=\frac12
  \begin{pmatrix}
  R_++R_-&R_+-R_-\\
@@ -662,26 +662,26 @@ Let $D=\widetilde S_{\mathcal F\mathcal F}$ and form the paired quadrature block
  \le\left\lVert R_+\right\rVert+\left\lVert R_-\right\rVert
  \le\frac{\left\lVert V_+\right\rVert+\left\lVert V_-\right\rVert}{1-\eta}
  <\frac{36}{1-\eta}<37.
- \label{eq:finite-quadrature-inverse}
+ \tag{4.5}
 \end{equation}$$
 
 We now replace this quadrature block by the exact one. Apply Lemma 3.1 to orders zero and one with $y=1$. For each basis input, the errors in the two transformed moments are less than $10^{-31}$. In the jet projection their multipliers are bounded by $1/Q_n$ and $(1+|D_n|)/Q_n$, both less than 2. In particular, every entry of $S_{\mathcal F\mathcal F}-D$, and every entry of $S_{\mathcal F e}-\widetilde S_{\mathcal F e}$, has absolute value less than $10^{-29}$. There are 168 output coordinates. The paired block is off-diagonal, so its column norm has no extra factor of two. Hence $$\begin{equation}
  \left\lVert\mathcal L_{\mathcal F\mathcal F}-\mathcal L_D\right\rVert
  <2\cdot10^{-27}.
- \label{eq:finite-operator-perturbation}
+ \tag{4.6}
 \end{equation}$$ Factoring $\mathcal L_{\mathcal F\mathcal F}$ through $\mathcal L_D$ and using another Neumann series gives $$\begin{equation}
  \left\lVert\mathcal L_{\mathcal F\mathcal F}^{-1}\right\rVert
  <\frac{37}{1-37\cdot2\cdot10^{-27}}<40.
- \label{eq:finite-exact-inverse}
+ \tag{4.7}
 \end{equation}$$ This bound is for the exact finite block, not for the full inverse.
 
 ##### Solving after elimination of the finite block.
 
-The scalar bound (eq:scalar-error-budgets) gives $$U_{168}(1,0)<1.1\cdot10^{-14}=:\delta.$$ Because (eq:tail-bound) is uniform in the input node locations, it bounds outputs on $\mathcal T$ from either finite or infinite positive-node inputs. Again the two off-diagonal blocks introduce no extra factor in the combined $\ell^1$ norm. We obtain $$\begin{equation}
+The scalar bound (A.4) gives $$U_{168}(1,0)<1.1\cdot10^{-14}=:\delta.$$ Because (2.25) is uniform in the input node locations, it bounds outputs on $\mathcal T$ from either finite or infinite positive-node inputs. Again the two off-diagonal blocks introduce no extra factor in the combined $\ell^1$ norm. We obtain $$\begin{equation}
  \left\lVert\mathcal L_{\mathcal T\mathcal F}\right\rVert<\delta,\qquad
  \left\lVert\mathcal L_{\mathcal T\mathcal T}-I\right\rVert<\delta,\qquad
  \left\lVert\mathcal L_{\mathcal F\mathcal T}\right\rVert<4000.
- \label{eq:tail-operator-blocks}
+ \tag{4.8}
 \end{equation}$$ The last bound need not be small. We first solve the finite equation for its finite unknowns in terms of the tail unknowns. Substituting that solution into the tail equation leaves the Schur complement $$\mathcal Q=\mathcal L_{\mathcal T\mathcal T}
  -\mathcal L_{\mathcal T\mathcal F}
   \mathcal L_{\mathcal F\mathcal F}^{-1}
@@ -694,7 +694,7 @@ The scalar bound (eq:scalar-error-budgets) gives $$U_{168}(1,0)<1.1\cdot10^{-14}
  a_{\mathcal F}
  &=\mathcal L_{\mathcal F\mathcal F}^{-1}
    \bigl(\psi_{\mathcal F}-\mathcal L_{\mathcal F\mathcal T}a_{\mathcal T}\bigr).
-\end{align*}$$ Every operator in these formulas is bounded. Thus $\mathcal L$ is a boundedly invertible operator on the full pair space $\mathcal E^2$, not merely on a truncation. Applied to (eq:infinite-interpolation-system), this proves existence and uniqueness for the specified extras. We henceforth write $a=(a_1,a_2)$ for this solution.
+\end{align*}$$ Every operator in these formulas is bounded. Thus $\mathcal L$ is a boundedly invertible operator on the full pair space $\mathcal E^2$, not merely on a truncation. Applied to (4.3), this proves existence and uniqueness for the specified extras. We henceforth write $a=(a_1,a_2)$ for this solution.
 
 ##### Size of the reference lists.
 
@@ -705,20 +705,20 @@ The same-column bounds in Proposition 3.3, applied to the nonnegative entries o
  &\le\left(2.3+\frac{5.6}{2.36}\right)
        \left(1+e^{-4.72}+e^{-7.08}+e^{-14.16}+e^{-18.88}\right)
  <4.8.
- \label{eq:reference-norm}
-\end{align}$$ The last comparison is the corresponding scalar bound in (eq:scalar-error-budgets). The norm includes all extras, so $\left\lVert e_1\right\rVert_1+\left\lVert e_2\right\rVert_1<4.8$. The constant coordinates in (eq:extra-data) satisfy the sharper bound $$\begin{equation}
+ \tag{4.9}
+\end{align}$$ The last comparison is the corresponding scalar bound in (A.4). The norm includes all extras, so $\left\lVert e_1\right\rVert_1+\left\lVert e_2\right\rVert_1<4.8$. The constant coordinates in (3.5) satisfy the sharper bound $$\begin{equation}
  |C_1|+|C_2|
  =\left|-.0074+\frac{.0115}{k}\right|
   +\left|.0096-\frac{.017}{k}\right|<.02.
- \label{eq:extra-constant-bound}
+ \tag{4.10}
 \end{equation}$$ Indeed, for $k\ge2.36$, the first expression inside absolute values is negative and the second is positive; their absolute values are less than $.0074$ and $.0096$, respectively. The exact lists have the same constants because their extras are fixed.
 
 ##### The three finite residual terms.
 
-Let $a^{\mathrm{ref}}$ be the paired positive-node part of the reference lists, and let $r$ be the right side of (eq:infinite-interpolation-system) minus $\mathcal L a^{\mathrm{ref}}$. Put $\gamma_i=g_iq(k)$, with $g_i$ as in (eq:finite-columns), and define $$\Delta S_{\mathcal F}
+Let $a^{\mathrm{ref}}$ be the paired positive-node part of the reference lists, and let $r$ be the right side of (4.3) minus $\mathcal L a^{\mathrm{ref}}$. Put $\gamma_i=g_iq(k)$, with $g_i$ as in (3.6), and define $$\Delta S_{\mathcal F}
  =\bigl(S_{\mathcal F\mathcal F}-D,\,
         S_{\mathcal F e}-\widetilde S_{\mathcal F e}\bigr).$$ This map acts on the finite positive-node coordinates followed by the three extras; the reference lists are supported on these coordinates. The finite geometric identities $(I-D)V_+=(I+D)V_-=I-D^{512}$ give the exact decomposition $$\begin{equation}
-\label{eq:finite-residual-decomposition}
+\tag{4.11}
  r_{\mathcal F}
  =\binom{\mathcal J_{\mathcal F}T_k-Yq(k)}{0}
   +\binom{\Delta S_{\mathcal F}\ell_2^{\mathrm{ref}}}
@@ -726,52 +726,52 @@ Let $a^{\mathrm{ref}}$ be the paired positive-node part of the reference lists, 
   +\binom{D^{512}\gamma_1}{D^{512}\gamma_2}.
 \end{equation}$$ The three terms are the omitted target data, the quadrature error on the full reference lists, and the finite geometric-sum residual.
 
-The vector $Yq(k)$ reproduces the target jets at $1,3,4,7,9$ and vanishes at the other finite nodes. Summing (eq:target-jet-bound) over all integers from 12, a superset of the omitted nodes, and applying the scalar bound in (eq:scalar-error-budgets), gives $$\begin{equation}
+The vector $Yq(k)$ reproduces the target jets at $1,3,4,7,9$ and vanishes at the other finite nodes. Summing (4.4) over all integers from 12, a superset of the omitted nodes, and applying the scalar bound in (A.4), gives $$\begin{equation}
  \frac{1+(1+2.12)/2.36}{1.75}
  \sum_{n=12}^{\infty}e^{-2.36(n-1)}<8\cdot10^{-12}.
- \label{eq:omitted-target-jets}
-\end{equation}$$ For the quadrature replacement, each basis column has finite output error less than $168\cdot10^{-29}$. Multiplication by the combined reference norm in (eq:reference-norm) therefore costs less than $10^{-24}$, including the extra inputs.
+ \tag{4.12}
+\end{equation}$$ For the quadrature replacement, each basis column has finite output error less than $168\cdot10^{-29}$. Multiplication by the combined reference norm in (4.9) therefore costs less than $10^{-24}$, including the extra inputs.
 
-For the third term, we can bound $\gamma_i$ without a further matrix estimate. The elementary bound $e^{-2.36}<2/21$, proved in the local calculation preceding (eq:target-tail-168), and (eq:target-jet-bound) give the first five target jets total norm at most $$c_*\left(1+(2/21)^2+(2/21)^3+(2/21)^6+(2/21)^8\right)<1.35.$$ The exact operator on the extra inputs has norm less than 4000, and its finite quadrature replacement differs by less than $2\cdot10^{-27}$. Since the extras have combined norm less than 4.8, $$\left\lVert\gamma_1\right\rVert_1+\left\lVert\gamma_2\right\rVert_1
+For the third term, we can bound $\gamma_i$ without a further matrix estimate. The elementary bound $e^{-2.36}<2/21$, proved in the local calculation preceding (A.5), and (4.4) give the first five target jets total norm at most $$c_*\left(1+(2/21)^2+(2/21)^3+(2/21)^6+(2/21)^8\right)<1.35.$$ The exact operator on the extra inputs has norm less than 4000, and its finite quadrature replacement differs by less than $2\cdot10^{-27}$. Since the extras have combined norm less than 4.8, $$\left\lVert\gamma_1\right\rVert_1+\left\lVert\gamma_2\right\rVert_1
  <1.35+(4000+2\cdot10^{-27})4.8<20000.$$ The geometric-sum residual is consequently less than $20000\eta=1.31072\cdot10^{-15}<1.4\cdot10^{-15}$. Adding the three finite errors yields $$\begin{equation}
  \left\lVert r_{\mathcal F}\right\rVert_1<10^{-11}.
- \label{eq:finite-reference-residual}
+ \tag{4.13}
 \end{equation}$$
 
 ##### The tail residual.
 
-The positive-node reference lists vanish on $\mathcal T$. Their transformed outputs there, including the extras, are bounded by $U_{168}(5,.02)$, using (eq:reference-norm) and (eq:extra-constant-bound). For the target part, $\mathcal T$ is contained in the integers above 168, so (eq:target-jet-bound) gives $$\sum_{n\in\mathcal T}
+The positive-node reference lists vanish on $\mathcal T$. Their transformed outputs there, including the extras, are bounded by $U_{168}(5,.02)$, using (4.9) and (4.10). For the target part, $\mathcal T$ is contained in the integers above 168, so (4.4) gives $$\sum_{n\in\mathcal T}
  \left(\left|\frac{T_k(n)}{Q_n}\right|
  +\left|\frac{T_k'(n)-D_nT_k(n)}{Q_n}\right|\right)
  \le c_*\frac{e^{-2.36\cdot168}}{1-e^{-2.36}}
- <10^{-170}.$$ The last inequality is the local target-tail calculation (eq:target-tail-168). The scalar bound (eq:scalar-error-budgets) retains the separate strict margin $U_{168}(5,.02)<8.3\cdot10^{-14}-10^{-170}$. Therefore $$\begin{equation}
+ <10^{-170}.$$ The last inequality is the local target-tail calculation (A.5). The scalar bound (A.4) retains the separate strict margin $U_{168}(5,.02)<8.3\cdot10^{-14}-10^{-170}$. Therefore $$\begin{equation}
  \left\lVert r_{\mathcal T}\right\rVert_1
  \le U_{168}(5,.02)+10^{-170}<8.3\cdot10^{-14}.
- \label{eq:tail-reference-residual}
+ \tag{4.14}
 \end{equation}$$
 
 ##### Correction size and exact jets.
 
-Put $u_{\mathcal F}=\left\lVert(a-a^{\mathrm{ref}})_{\mathcal F}\right\rVert_1$ and $u_{\mathcal T}=\left\lVert(a-a^{\mathrm{ref}})_{\mathcal T}\right\rVert_1$. Take the finite and tail blocks of $\mathcal L(a-a^{\mathrm{ref}})=r$. Using (eq:finite-exact-inverse), (eq:tail-operator-blocks), (eq:finite-reference-residual), and (eq:tail-reference-residual) gives $$\begin{equation}
+Put $u_{\mathcal F}=\left\lVert(a-a^{\mathrm{ref}})_{\mathcal F}\right\rVert_1$ and $u_{\mathcal T}=\left\lVert(a-a^{\mathrm{ref}})_{\mathcal T}\right\rVert_1$. Take the finite and tail blocks of $\mathcal L(a-a^{\mathrm{ref}})=r$. Using (4.7), (4.8), (4.13), and (4.14) gives $$\begin{equation}
  \begin{aligned}
  u_{\mathcal F}&\le40\bigl(10^{-11}+4000u_{\mathcal T}\bigr),\\
  u_{\mathcal T}&\le8.3\cdot10^{-14}
        +1.1\cdot10^{-14}(u_{\mathcal F}+u_{\mathcal T}).
  \end{aligned}
- \label{eq:correction-system}
+ \tag{4.15}
 \end{equation}$$ Substituting the first inequality into the second gives $$u_{\mathcal T}
  \le\frac{8.3\cdot10^{-14}+4.4\cdot10^{-24}}
           {1-1.760011\cdot10^{-9}}
  <8.31\cdot10^{-14},\qquad
- u_{\mathcal F}<1.37\cdot10^{-8}.$$ Their sum is less than $2\cdot10^{-8}$. The extras did not change, so this is the full-list correction in (eq:exact-list-bounds). Adding (eq:reference-norm) gives the combined exact norm less than 5.
+ u_{\mathcal F}<1.37\cdot10^{-8}.$$ Their sum is less than $2\cdot10^{-8}$. The extras did not change, so this is the full-list correction in (4.2). Adding (4.9) gives the combined exact norm less than 5.
 
-Finally, (eq:infinite-interpolation-system) is exactly $\mathcal JH_1=\mathcal JT_k$ and $\mathcal JH_2=0$. The definition of $\mathcal J$ recovers both values and first derivatives at every node of $\mathcal N$, proving (eq:exact-jets). The functions $p_{\ell_i}$ and $K_{p_{\ell_i}}$ are entire and real on the real axis by Section 2; $T_k$ is entire as well. The jet identities are therefore genuine double zeros. Lemma 2.4 supplies the Schwartz Fourier pair. ◻
+Finally, (4.3) is exactly $\mathcal JH_1=\mathcal JT_k$ and $\mathcal JH_2=0$. The definition of $\mathcal J$ recovers both values and first derivatives at every node of $\mathcal N$, proving (4.1). The functions $p_{\ell_i}$ and $K_{p_{\ell_i}}$ are entire and real on the real axis by Section 2; $T_k$ is entire as well. The jet identities are therefore genuine double zeros. Lemma 2.4 supplies the Schwartz Fourier pair. ◻
 
 ## Signs on every radius and parameter
 
 Fix a real $k\ge2.36$, and take the exact lists $\ell_1,\ell_2$ from Proposition 4.1. Write $p_i=p_{\ell_i}$, and combine the two desired inequalities into the slacks $$F_i(s)=\sigma_iH_i(s)+\delta_iT_k(s),\qquad
  (\sigma_1,\sigma_2)=(-1,1),\qquad \delta_i=\mathbf1_{\{i=1\}}.$$ Thus we must prove $F_1,F_2\ge0$ on $[0,\infty)$. Exact interpolation already gives $$\begin{equation}
-\label{eq:exact-slack-jets}
+\tag{5.1}
  F_i(m)=F_i'(m)=0\qquad(m\in\mathcal N).
 \end{equation}$$ The reference lists are $X_iq(k)$, extended by zero beyond $M=168$. Throughout this section, $H_i^{\mathrm{ref}}$ denotes the function formed from those lists with the *exact* direct and transformed spectral integrals. Only the finite coefficient rows of Section 3 use quadrature.
 
@@ -784,11 +784,11 @@ The gaps in the full zero set have repeating lengths $1,2,1,3,2,3$. The signed h
 Recall the quotient $\mathcal D_{m,2}$ introduced before the finite polynomial rows in Section 3. For a twice continuously differentiable function $u$, Taylor’s formula gives $$\mathcal D_{m,2}u(s)
  =\frac{u(s)-u(m)-(s-m)u'(m)}{(s-m)^2}
  =\int_0^1(1-v)u''\bigl(m+v(s-m)\bigr)\,\mathop{}\!\mathrm dv.$$ The integral also gives the removable value at $s=m$. As before, $\mathcal D_{0,0}u=u$ at the origin. On a prescribed half-gap $s=m+yx$, $0\le x\le1$, the relevant quotient is $$\begin{equation}
-\label{eq:deleted-slack}
+\tag{5.2}
  \mathcal D_{m,\nu}F_i(s)
  =\sigma_i\mathcal D_{m,\nu}H_i(s)
   +\delta_i\mathcal D_{m,\nu}T_k(s).
-\end{equation}$$ For $m>0$, (eq:exact-slack-jets) makes this equal to $F_i(s)/(s-m)^2$ away from the center. The deletion is performed on each function before any approximation is made, so a nonzero constant or linear approximation error is never divided by $(s-m)^2$.
+\end{equation}$$ For $m>0$, (5.1) makes this equal to $F_i(s)/(s-m)^2$ away from the center. The deletion is performed on each function before any approximation is made, so a nonzero constant or linear approximation error is never divided by $(s-m)^2$.
 
 ##### Moving from the exact lists to the reference lists.
 
@@ -797,23 +797,23 @@ Their combined $\ell^1$ distance is less than $2\cdot10^{-8}$. A unit list has s
  \left|\mathcal D_{m,\nu}(H_i-H_i^{\mathrm{ref}})(s)\right|
  &\le\frac{36}{\nu!}(2\cdot10^{-8})
        \max\{\pi^\nu,3(3\pi)^\nu\}\notag\\
- &<.00011.\label{eq:deleted-list-error}
-\end{align}$$ For $\nu=0$, this is the zeroth-derivative estimate. For $\nu=2$, the factor $1/2$ is $\int_0^1(1-v)\,\mathop{}\!\mathrm dv$, and the last comparison is the scalar bound in (eq:scalar-error-budgets). No zero jet is required of the reference function; only the exact slack uses (eq:exact-slack-jets).
+ &<.00011.\tag{5.3}
+\end{align}$$ For $\nu=0$, this is the zeroth-derivative estimate. For $\nu=2$, the factor $1/2$ is $\int_0^1(1-v)\,\mathop{}\!\mathrm dv$, and the last comparison is the scalar bound in (A.4). No zero jet is required of the reference function; only the exact slack uses (5.1).
 
 ##### Replacing the reference quotient by its finite polynomial.
 
 The entire Taylor series gives, in both cases $\nu=0,2$, $$\sigma_i\mathcal D_{m,\nu}H_i^{\mathrm{ref}}(m+yx)
  =\sum_{r=0}^{\infty}
    \sigma_i\frac{y^r}{(r+\nu)!}
-     (H_i^{\mathrm{ref}})^{(r+\nu)}(m)x^r.$$ The rows $l_{i,r}$ in (eq:bernstein-rows) replace the included derivatives by quadrature. We claim $$\begin{equation}
-\label{eq:half-gap-polynomial-error}
+     (H_i^{\mathrm{ref}})^{(r+\nu)}(m)x^r.$$ The rows $l_{i,r}$ in (3.8) replace the included derivatives by quadrature. We claim $$\begin{equation}
+\tag{5.4}
  \sup_{0\le x\le1}
  \left|\sigma_i\mathcal D_{m,\nu}H_i^{\mathrm{ref}}(m+yx)
        -\sum_{r=0}^{40}l_{i,r}q(k)x^r\right|<.000001.
-\end{equation}$$ For the included coefficients, Lemma 3.1 controls the scaled moment of order $r+\nu$. The row above has the additional multiplier $y^{-\nu}$, whose absolute value is at most 4. By (eq:reference-norm), the combined reference-list norm is less than $4.8<5$. Summing the 41 coefficient errors therefore gives at most $41\cdot4\cdot5\cdot10^{-31}$.
+\end{equation}$$ For the included coefficients, Lemma 3.1 controls the scaled moment of order $r+\nu$. The row above has the additional multiplier $y^{-\nu}$, whose absolute value is at most 4. By (4.9), the combined reference-list norm is less than $4.8<5$. Summing the 41 coefficient errors therefore gives at most $41\cdot4\cdot5\cdot10^{-31}$.
 
 For the omitted powers, put $Y=|y|$ and $l=41+\nu$. Their total is at most $$\begin{equation}
-\label{eq:half-gap-series-tail}
+\tag{5.5}
  \frac{Y^{-\nu}36\cdot5}
  {l!\bigl(1-3\pi Y/(l+1)\bigr)}
  \left((\pi Y)^l+
@@ -822,44 +822,44 @@ For the omitted powers, put $Y=|y|$ and $l=41+\nu$. Their total is at most $$\be
        \bigl(\pi|z(t_{j-1})|Y\bigr)^l\right).
 \end{equation}$$ Indeed, each direct derivative contributes a factor $i\pi t$, and each transformed derivative a factor $i\pi z(t)$. On $[t_{j-1},t_j]$, both $\mathop{\mathrm{Im}}z(t)$ and $|z(t)|$ decrease. Thus the right endpoint maximizes $e^{-\pi\mathop{\mathrm{Im}}z(t)m}$, while the left endpoint bounds the largest frequency modulus, including the endpoint atoms. For each fixed frequency, the ratio of successive terms in the absolute exponential series is at most $3\pi Y/(l+1)<1$. Summing this geometric majorant and then integrating against total variation gives the displayed denominator. The factor $36\cdot5$ bounds the combined spectral variation of the reference inputs.
 
-The scalar calculation in Appendix A replaces the maximum in (eq:half-gap-series-tail) by the larger sum over all six intervals. For $$(m,Y,\nu)=(0,1/2,0),\quad(1,1,2),\quad(3,1,2),\quad(4,3/2,2),$$ it gives, respectively, upper bounds $1.8\cdot10^{-19}$, $10^{-11}$, $3\cdot10^{-16}$, and $2\cdot10^{-11}$, all below $10^{-8}$. These four cases cover every half-gap. The origin is the first case; the largest half-lengths at 1 and 3 are one; and every later center is at least 4 with half-length at most $3/2$. For fixed $\nu$, the expression decreases as $m$ increases or $Y$ decreases: its powers contain $Y^{l-\nu}=Y^{41}$, and the positive geometric denominator also improves when $Y$ decreases. Adding the included quadrature error proves (eq:half-gap-polynomial-error).
+The scalar calculation in Appendix A replaces the maximum in (5.5) by the larger sum over all six intervals. For $$(m,Y,\nu)=(0,1/2,0),\quad(1,1,2),\quad(3,1,2),\quad(4,3/2,2),$$ it gives, respectively, upper bounds $1.8\cdot10^{-19}$, $10^{-11}$, $3\cdot10^{-16}$, and $2\cdot10^{-11}$, all below $10^{-8}$. These four cases cover every half-gap. The origin is the first case; the largest half-lengths at 1 and 3 are one; and every later center is at least 4 with half-length at most $3/2$. For fixed $\nu$, the expression decreases as $m$ increases or $Y$ decreases: its powers contain $Y^{l-\nu}=Y^{41}$, and the positive geometric denominator also improves when $Y$ decreases. Adding the included quadrature error proves (5.4).
 
 ### Lower supports for every target regime
 
-**Lemma 5.1** (Exponential supports). *Let $K,J$ be consecutive endpoints of the parameter partition in Section 3, and let $K\le k\le J$, with no upper restriction when $J=\infty$. On every prescribed half-gap, the coefficients $a_r^*$ from (eq:target-support) satisfy $$\mathcal D_{m,\nu}T_k(m+yx)
+**Lemma 5.1** (Exponential supports). *Let $K,J$ be consecutive endpoints of the parameter partition in Section 3, and let $K\le k\le J$, with no upper restriction when $J=\infty$. On every prescribed half-gap, the coefficients $a_r^*$ from (3.9) satisfy $$\mathcal D_{m,\nu}T_k(m+yx)
  \ge\sum_{r=0}^{40}a_r^*x^r-.000001\qquad(0\le x\le1).$$*
 
 *Proof.* At the origin, $0\le s\le1/2$, and $$\frac{\partial T_k(s)}{\partial k}
- =T_k(s)\left(1-s-\frac1k\right)>0$$ because $k\ge2.36>2$. Replacing $k$ by $K$ therefore lowers the target. The Taylor polynomial of $T_K(yx)$ through degree 40 has coefficients $(e^K/K)(-Ky)^r/r!$, exactly the first case in (eq:target-support).
+ =T_k(s)\left(1-s-\frac1k\right)>0$$ because $k\ge2.36>2$. Replacing $k$ by $K$ therefore lowers the target. The Taylor polynomial of $T_K(yx)$ through degree 40 has coefficients $(e^K/K)(-Ky)^r/r!$, exactly the first case in (3.9).
 
-At the first positive node, write $u=s-1$. The deleted quotient is $$\mathcal D_{1,2}T_k(1+u)=\frac{e^{-ku}-1+ku}{ku^2},$$ with value $k/2$ at $u=0$. For $u\ne0$, its derivative with respect to $k$ is $$\frac{1-(1+ku)e^{-ku}}{k^2u^2}\ge0,$$ by $e^{ku}\ge1+ku$. The same monotonicity holds at the removable value. This works for both signed half-gaps, including negative $u$. Replacing $k$ by $K$ again lowers the quotient, and its Taylor coefficients are $K(-Ky)^r/(r+2)!$, the second case in (eq:target-support).
+At the first positive node, write $u=s-1$. The deleted quotient is $$\mathcal D_{1,2}T_k(1+u)=\frac{e^{-ku}-1+ku}{ku^2},$$ with value $k/2$ at $u=0$. For $u\ne0$, its derivative with respect to $k$ is $$\frac{1-(1+ku)e^{-ku}}{k^2u^2}\ge0,$$ by $e^{ku}\ge1+ku$. The same monotonicity holds at the removable value. This works for both signed half-gaps, including negative $u$. Replacing $k$ by $K$ again lowers the quotient, and its Taylor coefficients are $K(-Ky)^r/(r+2)!$, the second case in (3.9).
 
 In both cases the left endpoint satisfies $K\le6$, even for the last, unbounded parameter interval. At the origin $K|y|\le3$, and at node 1 $K|y|\le6$. Also $e^K/K$ increases for $K>1$, so its value is at most $e^6/6$. The absolute tails after degree 40 are bounded by $$\frac{e^6}{6}\frac{3^{41}}{41!(1-3/42)}<8\cdot10^{-29}<10^{-6},
  \qquad
  \frac{6\cdot6^{41}}{43!(1-6/44)}<10^{-20}<10^{-6},$$ using the scalar comparisons in Appendix A. Thus no Taylor estimate with unbounded $k$ is needed.
 
 At every positive node, Taylor’s integral formula also gives the general nonnegative support $$\begin{equation}
-\label{eq:target-integral-quotient}
+\tag{5.6}
  \mathcal D_{m,2}T_k(m+u)
  =k\int_0^1(1-v)e^{-k(m-1+vu)}\,\mathop{}\!\mathrm dv\ge0.
-\end{equation}$$ This handles all cases in which (eq:target-support) prescribes zero. It remains to justify the stronger constant at $m=3$ for finite $J$. Here $-1\le u\le1/2$, so $a=2+vu\ge1$. The function $k e^{-ak}$ decreases for $k\ge2.36$, and (eq:target-integral-quotient) is at least $$J\int_0^1(1-v)e^{-J(2+vu)}\,\mathop{}\!\mathrm dv.$$ The probability density $2(1-v)$ on $[0,1]$ has mean $1/3$. Jensen’s inequality for the exponential therefore bounds this expression below by $$\frac J2e^{-J(2+u/3)}\ge\frac J2e^{-13J/6},$$ which is the third case of (eq:target-support). When $J=\infty$, the prescribed support is zero and (eq:target-integral-quotient) applies. ◻
+\end{equation}$$ This handles all cases in which (3.9) prescribes zero. It remains to justify the stronger constant at $m=3$ for finite $J$. Here $-1\le u\le1/2$, so $a=2+vu\ge1$. The function $k e^{-ak}$ decreases for $k\ge2.36$, and (5.6) is at least $$J\int_0^1(1-v)e^{-J(2+vu)}\,\mathop{}\!\mathrm dv.$$ The probability density $2(1-v)$ on $[0,1]$ has mean $1/3$. Jensen’s inequality for the exponential therefore bounds this expression below by $$\frac J2e^{-J(2+u/3)}\ge\frac J2e^{-13J/6},$$ which is the third case of (3.9). When $J=\infty$, the prescribed support is zero and (5.6) applies. ◻
 
 ### The bounded radial range
 
 **Lemma 5.2** (Signs on the finite half-gaps). *For every real $k\ge2.36$, the exact slacks satisfy $F_i(s)\ge0$ for $0\le s\le s_0$, $i=1,2$.*
 
 *Proof.* Choose a half-gap and a parameter interval containing $k$. Combine the finite rows and the target support into $$\Phi_i(x;k)=\sum_{r=0}^{40}
-       \bigl(l_{i,r}q(k)+\delta_i a_r^*\bigr)x^r.$$ By the Bernstein conversion defining (eq:bernstein-rows), the coefficient of the $d$-th degree-40 Bernstein basis function is $$L_{i,d}q(k)+\delta_i\sum_{r=0}^d\omega_{dr}a_r^*.$$ The containing-box lower evaluation (eq:box-lower) applies to the physical vector $q(k)$. Together with Proposition 3.3, it makes every coefficient above strictly greater than $.001$. The Bernstein basis functions are nonnegative and sum to one on $[0,1]$, so $\Phi_i(x;k)>.001$ on that entire interval.
+       \bigl(l_{i,r}q(k)+\delta_i a_r^*\bigr)x^r.$$ By the Bernstein conversion defining (3.8), the coefficient of the $d$-th degree-40 Bernstein basis function is $$L_{i,d}q(k)+\delta_i\sum_{r=0}^d\omega_{dr}a_r^*.$$ The containing-box lower evaluation (3.7) applies to the physical vector $q(k)$. Together with Proposition 3.3, it makes every coefficient above strictly greater than $.001$. The Bernstein basis functions are nonnegative and sum to one on $[0,1]$, so $\Phi_i(x;k)>.001$ on that entire interval.
 
-Apply (eq:deleted-list-error), (eq:half-gap-polynomial-error), and Lemma 5.1 to (eq:deleted-slack). The result is the strict quotient margin $$\mathcal D_{m,\nu}F_i(m+yx)
- >.001-.00011-.000001-.000001=.000888>0.$$ At the origin this is the desired inequality. At a positive center, multiplication by $(s-m)^2$ proves the inequality away from the center, and (eq:exact-slack-jets) supplies equality at the center. The half-gaps cover $[0,s_0]$, while the five parameter intervals cover every finite $k\ge2.36$. ◻
+Apply (5.3), (5.4), and Lemma 5.1 to (5.2). The result is the strict quotient margin $$\mathcal D_{m,\nu}F_i(m+yx)
+ >.001-.00011-.000001-.000001=.000888>0.$$ At the origin this is the desired inequality. At a positive center, multiplication by $(s-m)^2$ proves the inequality away from the center, and (5.1) supplies equality at the center. The half-gaps cover $[0,s_0]$, while the five parameter intervals cover every finite $k\ge2.36$. ◻
 
 ### The tail and its quadratic scale
 
 Beyond $s_0$, the low-node rational part of each direct cardinal function has a positive signed value. We will group the high-node terms, the transformed function, and the target into a single remainder. That sum has a small second derivative and exact double zeros; its individual terms need not have zero jets. The following geometric bound lets us compare the positive part and the remainder on the same squared-distance scale.
 
 **Lemma 5.3** (Quadratic barrier for the sine product). *For every real $s$, let $m\in\mathcal Z$ be any nearest point of the full periodic zero set, so $|s-m|=\min_{n\in\mathcal Z}|s-n|$. Then $$\begin{equation}
-\label{eq:P-quadratic-lower}
+\tag{5.7}
  P(s)\ge .68(s-m)^2.
 \end{equation}$$*
 
@@ -868,7 +868,7 @@ Beyond $s_0$, the low-node rational part of each direct cardinal function has a 
  =\frac2{u^2}-2\left(\frac\pi{12}\right)^2
                 \csc^2\left(\frac{\pi u}{12}\right)\le0$$ for $u\ne0$, by $|\sin x|\le|x|$, and the inequality extends through the removable value. Every other sine factor has nonpositive logarithmic second derivative on this half-gap. A concave function is bounded below by the smaller of its endpoint values, so the quotient is bounded below by its smaller value at the center and the midpoint.
 
-At the center, the periodicity of $P$ reduces the removable value to the corresponding node value $Q_n>1.75$ in (eq:node-constant-bounds). At the midpoints, the exact values are $$\begin{array}{c|c}
+At the center, the periodicity of $P$ reduces the removable value to the corresponding node value $Q_n>1.75$ in (2.9). At the midpoints, the exact values are $$\begin{array}{c|c}
  \text{gap modulo }12&P(s)/(s-m)^2\text{ at its midpoint}\\ \hline
  {[0,1],\ [3,4]}&12-8\sqrt2\\
  {[1,3]}&1\\
@@ -892,46 +892,46 @@ Separate each direct cardinal function as $$\begin{align*}
        \left(\frac{c_{in}}{(s-n)^2}+\frac{d_{in}}{s-n}\right),\\
  p_i(s)&=P(s)R_{i,0}(s)+p_{i,\mathrm{high}}(s).
 \end{align*}$$ The high function contains precisely the node columns beginning at 91 and no constant column. Every denominator in $R_{i,0}$ is positive for $s\ge s_0$. We claim $$\begin{equation}
-\label{eq:tail-rational-positive}
+\tag{5.8}
  \sigma_iR_{i,0}(s)>.002\qquad(s\ge s_0).
-\end{equation}$$ For the reference lists, use the decomposition preceding (eq:tail-certificate), which groups the simple-pole rows into their common $1/s$ numerator before taking negative parts. In the parameter box containing $k$, each numerator row $l$ has the nonpositive lower bound $\eta_{K,J}(l)=\min(0,[l]_{K,J})$. The reciprocal factors are nonnegative and nonincreasing for $s\ge s_0$, so their products with these lower bounds give a value at least as large as at $s_0$; the constant row retains its full lower bound $[C_i^*]_{K,J}$. Thus (eq:tail-certificate) gives $\sigma_iR_{i,0}^{\mathrm{ref}}(s)>.0021$.
+\end{equation}$$ For the reference lists, use the decomposition preceding (3.12), which groups the simple-pole rows into their common $1/s$ numerator before taking negative parts. In the parameter box containing $k$, each numerator row $l$ has the nonpositive lower bound $\eta_{K,J}(l)=\min(0,[l]_{K,J})$. The reciprocal factors are nonnegative and nonincreasing for $s\ge s_0$, so their products with these lower bounds give a value at least as large as at $s_0$; the constant row retains its full lower bound $[C_i^*]_{K,J}$. Thus (3.12) gives $\sigma_iR_{i,0}^{\mathrm{ref}}(s)>.0021$.
 
-The passage to the exact list changes this rational function by less than $2\cdot10^{-8}$. Indeed, $s-n\ge1.5$ for every low node, so both reciprocal coefficient factors have modulus at most one, as does the constant factor; apply the full-list correction in (eq:exact-list-bounds). Since $.0021-2\cdot10^{-8}>.002$, this proves (eq:tail-rational-positive).
+The passage to the exact list changes this rational function by less than $2\cdot10^{-8}$. Indeed, $s-n\ge1.5$ for every low node, so both reciprocal coefficient factors have modulus at most one, as does the constant factor; apply the full-list correction in (4.2). Since $.0021-2\cdot10^{-8}>.002$, this proves (5.8).
 
 ##### The high-node list and the remainder.
 
 For the exact pair define the coupled input sizes $$w=\sum_{i=1}^2\sum_{n\in\mathcal N_0}(|c_{in}|+|d_{in}|),\qquad
- c=\sum_{i=1}^2|C_i|.$$ The full-list norm and the fixed extras give $w+c<5$ and $c<.02$, by (eq:exact-list-bounds) and (eq:extra-constant-bound). At every node $n\ge91$, the exact equations (eq:infinite-interpolation-system) read $$(c_{1n},d_{1n})=(S\ell_2)_n+(\mathcal JT_k)_n,
+ c=\sum_{i=1}^2|C_i|.$$ The full-list norm and the fixed extras give $w+c<5$ and $c<.02$, by (4.2) and (4.10). At every node $n\ge91$, the exact equations (4.3) read $$(c_{1n},d_{1n})=(S\ell_2)_n+(\mathcal JT_k)_n,
  \qquad
  (c_{2n},d_{2n})=(S\ell_1)_n.$$ Here $S\ell_i=-\mathcal JK_{p_i}$ includes all input coordinates, including the extras. Applying Lemma 2.5 to both lists with their summed input bounds $w,c$, the combined high-node norm is at most $U_{91}(w,c)$ plus the target geometric majorant $$\frac{1+(1+2.12)/2.36}{1.75}
-       \frac{e^{-2.36\cdot90}}{1-e^{-2.36}}<10^{-89}.$$ This follows from (eq:target-jet-bound) by overcounting with all integers from 91; the last comparison is the local calculation (eq:target-tail-91). The finer scalar bound in (eq:scalar-error-budgets) is $U_{91}(5,.02)<2.2711\cdot10^{-7}$. Since $U_{91}$ is increasing in both input bounds, we obtain $$\sum_{i=1}^2\sum_{\substack{n\in\mathcal N\\n\ge91}}
+       \frac{e^{-2.36\cdot90}}{1-e^{-2.36}}<10^{-89}.$$ This follows from (4.4) by overcounting with all integers from 91; the last comparison is the local calculation (A.6). The finer scalar bound in (A.4) is $U_{91}(5,.02)<2.2711\cdot10^{-7}$. Since $U_{91}$ is increasing in both input bounds, we obtain $$\sum_{i=1}^2\sum_{\substack{n\in\mathcal N\\n\ge91}}
        (|c_{in}|+|d_{in}|)
  <2.2711\cdot10^{-7}+10^{-89}<2.4\cdot10^{-7}.$$ The difference between $2.2711\cdot10^{-7}$ and $2.4\cdot10^{-7}$ leaves room for this target contribution.
 
 Define $$Z_i(s)=\sigma_i\bigl(p_{i,\mathrm{high}}(s)+K_{p_{3-i}}(s)\bigr)
                   +\delta_iT_k(s).$$ Then $$\begin{equation}
-\label{eq:tail-decomposition}
+\tag{5.9}
  F_i(s)=\sigma_iP(s)R_{i,0}(s)+Z_i(s).
 \end{equation}$$ We have the uniform bound $$\begin{equation}
-\label{eq:tail-second-derivative}
+\tag{5.10}
  \sup_{s\ge s_0}|Z_i''(s)|<.0002.
-\end{equation}$$ To verify it, the direct high columns contribute at most $36\pi^2(2.4\cdot10^{-7})$. For the low-frequency transformed term, the actual coupled full-list norm gives the important estimate $$25c+36w\le36(c+w)<180.$$ Thus the $[0,5/6]$ variation in (eq:refined-derivative-bound), which includes the atom at $5/6$, is bounded by $36\cdot5$. On $(5/6,1]$, we may separately use $w<5$ and $c<.02$; the only atom there is at 1 and contributes $2c<.04$. Finally, $T_k''(s)=k e^{-k(s-1)}$. Its supremum over $s\ge s_0$, $k\ge2.36$, occurs at $s=s_0$, $k=2.36$, since $s_0-1>1/2.36$. The resulting four-term bound is $$\begin{align*}
+\end{equation}$$ To verify it, the direct high columns contribute at most $36\pi^2(2.4\cdot10^{-7})$. For the low-frequency transformed term, the actual coupled full-list norm gives the important estimate $$25c+36w\le36(c+w)<180.$$ Thus the $[0,5/6]$ variation in (2.28), which includes the atom at $5/6$, is bounded by $36\cdot5$. On $(5/6,1]$, we may separately use $w<5$ and $c<.02$; the only atom there is at 1 and contributes $2c<.04$. Finally, $T_k''(s)=k e^{-k(s-1)}$. Its supremum over $s\ge s_0$, $k\ge2.36$, occurs at $s=s_0$, $k=2.36$, since $s_0-1>1/2.36$. The resulting four-term bound is $$\begin{align*}
  &36\pi^2(2.4\cdot10^{-7})
   +3(3\pi)^2\,36\cdot5\,e^{-.70s_0}\\
  &\quad+1.25(1.32\pi)^2
        \left(\frac{2.54\cdot5}{s_0}+.04\right)e^{-.187s_0}
   +2.36e^{-2.36(s_0-1)}
  <8.5485\cdot10^{-5}<.0002,
-\end{align*}$$ by the scalar comparison in Appendix A. This proves (eq:tail-second-derivative).
+\end{align*}$$ by the scalar comparison in Appendix A. This proves (5.10).
 
-At every node $m\in\mathcal N$ with $m\ge91$, $R_{i,0}$ is regular and $P$ has a double zero. Subtracting its product from the exact slack jets in (eq:tail-decomposition) therefore gives $$\begin{equation}
-\label{eq:tail-remainder-jets}
+At every node $m\in\mathcal N$ with $m\ge91$, $R_{i,0}$ is regular and $P$ has a double zero. Subtracting its product from the exact slack jets in (5.9) therefore gives $$\begin{equation}
+\tag{5.11}
  Z_i(m)=Z_i'(m)=0\qquad(m\in\mathcal N,\ m\ge91).
 \end{equation}$$ These zeros use the exact interpolation equations, not merely the small norm of the high list.
 
 ##### Comparison at a nearest zero.
 
-For $s\ge s_0$, choose a nearest point $m\in\mathcal Z$ with $m\ge91$. Such a choice is possible throughout the tail; at $s=s_0$, choose 91 from the tied points 88 and 91. The segment joining $s$ and $m$ stays in $[s_0,\infty)$. Taylor’s integral formula, using (eq:tail-second-derivative) and (eq:tail-remainder-jets), gives $$|Z_i(s)|\le .0001(s-m)^2.$$ On the other hand, (eq:tail-rational-positive) and Lemma 5.3 imply $$\sigma_iP(s)R_{i,0}(s)\ge .68\cdot.002(s-m)^2.$$ Since $.68\cdot.002>.0001$, (eq:tail-decomposition) gives $F_i(s)\ge0$. At a node the exact zero value gives the same conclusion, without division by a vanishing factor. ◻
+For $s\ge s_0$, choose a nearest point $m\in\mathcal Z$ with $m\ge91$. Such a choice is possible throughout the tail; at $s=s_0$, choose 91 from the tied points 88 and 91. The segment joining $s$ and $m$ stays in $[s_0,\infty)$. Taylor’s integral formula, using (5.10) and (5.11), gives $$|Z_i(s)|\le .0001(s-m)^2.$$ On the other hand, (5.8) and Lemma 5.3 imply $$\sigma_iP(s)R_{i,0}(s)\ge .68\cdot.002(s-m)^2.$$ Since $.68\cdot.002>.0001$, (5.9) gives $F_i(s)\ge0$. At a node the exact zero value gives the same conclusion, without division by a vanishing factor. ◻
 
 *Proof of Theorem 2.1.* For every real $k\ge2.36$, Proposition 4.1 supplies real summable lists with the prescribed extras. Section 2 makes $H_1,H_2$ entire and real on the real axis, and Lemma 2.4 gives the real radial Schwartz Fourier pair $$f(x)=e^{-\pi hb|x|^2}H_1(b|x|^2),\qquad
  \widehat f(\xi)=e^{-\pi hb|\xi|^2}H_2(b|\xi|^2).$$ Lemmas 5.2 and 5.4 cover all $s\ge0$, so $H_1(s)\le T_k(s)$ and $H_2(s)\ge0$. The exact jets are $$H_1(n)=T_k(n),\qquad H_1'(n)=T_k'(n),\qquad
@@ -946,7 +946,7 @@ The preceding sections construct the Fourier pair in Theorem 2.1. We now turn t
 Recall that $B_R$ is the centered closed disk, $\mathcal C_R=\mathcal C\cap B_R$, and $N_R=\#\mathcal C_R$. The only geometric limit used below is $N_R/(\pi R^2)\to1$. The density-only linear-programming argument is due to Cohn and de Courcy-Ireland (Cohn and Courcy-Ireland 2018, Proposition 2.2), whose background-measure comparison follows Cohn and Zhao (Cohn and Zhao 2014, Theorem 3.3). The latter is a packing theorem; its exclusion-distance hypothesis is not an assumption here. We give the argument for the exact auxiliary class used in this paper.
 
 **Proposition 6.1** (Linear programming with centered disk density). *Let $f$ be a real even Schwartz function on $\mathbb R^2$ whose Fourier transform is nonnegative. Every locally finite configuration $\mathcal C\subset\mathbb R^2$ with centered disk density one satisfies $$\begin{equation}
-\label{eq:density-lp}
+\tag{6.1}
  \liminf_{R\to\infty}\frac1{N_R}
  \sum_{\substack{x,y\in\mathcal C_R\\x\ne y}}f(x-y)
  \ge \widehat f(0)-f(0).
@@ -959,27 +959,27 @@ Recall that $B_R$ is the centered closed disk, $\mathcal C_R=\mathcal C\cap B_R$
 
 Put $a=\widehat f(0)=\int f\ge0$ and $\mu_R=\sum_{x\in\mathcal C_R}\delta_x$. If $a=0$, positivity gives $Q(\mu_R,\mu_R)/N_R\ge a$ whenever $N_R>0$. Suppose now that $a>0$. Fix $\varepsilon>0$ and let $$\nu_R=1_{B_{(1+\varepsilon)R}}\,\mathop{}\!\mathrm dx,
  \qquad V_R=\pi(1+\varepsilon)^2R^2.$$ For every $x\in B_R$, the disk $B_{(1+\varepsilon)R}-x$ contains $B_{\varepsilon R}$. Thus $$\begin{equation}
-\label{eq:uniform-cross-term}
+\tag{6.2}
  \bigl|Q(\mu_R,\nu_R)-N_Ra\bigr|
  \le N_R\int_{|z|\ge\varepsilon R}|f(z)|\,\mathop{}\!\mathrm dz=o(N_R).
 \end{equation}$$ The estimate is uniform in the locations of all points of $\mathcal C_R$; it does not use a bound on their number in any smaller disk.
 
-**Figure 2:** The comparison disk contains a disk of radius $\varepsilon R$ around every $x\in\mathcal C_R$. This containment gives the uniform tail error in (eq:uniform-cross-term), including for clustered points.
+**Figure 2:** The comparison disk contains a disk of radius $\varepsilon R$ around every $x\in\mathcal C_R$. This containment gives the uniform tail error in (6.2), including for clustered points.
 
 The area self-term has the limit $$\frac{Q(\nu_R,\nu_R)}{V_R}
  =\int_{\mathbb R^2}f(z)
    \frac{|B_{(1+\varepsilon)R}\cap(B_{(1+\varepsilon)R}-z)|}{V_R}
    \,\mathop{}\!\mathrm dz
- \longrightarrow a.$$ For each fixed $z$, the overlap fraction tends to one and is between zero and one. Dominated convergence therefore applies with dominator $|f|$. In particular, $Q(\nu_R,\nu_R)>0$ for all sufficiently large $R$. Cauchy–Schwarz and (eq:uniform-cross-term) now yield $$\frac{Q(\mu_R,\mu_R)}{N_R}
+ \longrightarrow a.$$ For each fixed $z$, the overlap fraction tends to one and is between zero and one. Dominated convergence therefore applies with dominator $|f|$. In particular, $Q(\nu_R,\nu_R)>0$ for all sufficiently large $R$. Cauchy–Schwarz and (6.2) now yield $$\frac{Q(\mu_R,\mu_R)}{N_R}
  \ge\frac{|Q(\mu_R,\nu_R)|^2}{N_RQ(\nu_R,\nu_R)}
- =\frac{N_R}{V_R}\frac{(a+o(1))^2}{a+o(1)}.$$ Since $N_R/V_R\to(1+\varepsilon)^{-2}$, taking the lower limit in $R$ and then letting $\varepsilon\downarrow0$ proves $$\liminf_{R\to\infty}\frac{Q(\mu_R,\mu_R)}{N_R}\ge a.$$ There are exactly $N_R$ diagonal terms, each equal to $f(0)$, so removing them proves (eq:density-lp). The assertion for $\Phi$ follows by termwise comparison of each finite off-diagonal sum. ◻
+ =\frac{N_R}{V_R}\frac{(a+o(1))^2}{a+o(1)}.$$ Since $N_R/V_R\to(1+\varepsilon)^{-2}$, taking the lower limit in $R$ and then letting $\varepsilon\downarrow0$ proves $$\liminf_{R\to\infty}\frac{Q(\mu_R,\mu_R)}{N_R}\ge a.$$ There are exactly $N_R$ diagonal terms, each equal to $f(0)$, so removing them proves (6.1). The assertion for $\Phi$ follows by termwise comparison of each finite off-diagonal sum. ◻
 
 ### Sharp pairs for every Gaussian parameter
 
 The normalized theorem directly covers $\alpha\ge1$. Fourier complementation supplies $0<\alpha<1$. This is the Gaussian form of the duality in Cohn and Miller (Cohn and Miller 2016, sec. 6); we give the calculation to fix the dimension-two factor and the two contact sets.
 
 **Lemma 6.2** (Gaussian duality). *For every $\alpha>0$, let $G_\alpha(x)=e^{-\pi\alpha|x|^2}$. There is a real radial Schwartz function $f_\alpha$ such that, pointwise, $$\begin{equation}
-\label{eq:gaussian-sharp-pair}
+\tag{6.3}
  \begin{gathered}
  f_\alpha\le G_\alpha,\qquad \widehat f_\alpha\ge0,\\
  f_\alpha(a)=G_\alpha(a)\quad(a\in A\setminus\{0\}),\qquad
@@ -988,20 +988,20 @@ The normalized theorem directly covers $\alpha\ge1$. Fourier complementation sup
 \end{equation}$$*
 
 *Proof.* For $\alpha\ge1$, take $$k=\pi(\alpha/b-h)\ge\pi(2/\sqrt3-2/5)>2.36.$$ The elementary comparison is proved in Appendix A. Let $f$ be the function supplied by Theorem 2.1 for this $k$, and define $f_\alpha=ke^{-k}f$. The multiplier is positive, so $\widehat f_\alpha\ge0$. With $s=b|x|^2$, the upper bound for $f_\alpha$ becomes $$ke^{-k}e^{-\pi hs}T_k(s)
- =e^{-(\pi h+k)s}=e^{-\pi\alpha|x|^2}.$$ The shell containment and $A^*=JA$ from Section 2 place every nonzero direct and dual shell in $\mathcal N$. The value contacts in (eq:normalized-jets) therefore give (eq:gaussian-sharp-pair).
+ =e^{-(\pi h+k)s}=e^{-\pi\alpha|x|^2}.$$ The shell containment and $A^*=JA$ from Section 2 place every nonzero direct and dual shell in $\mathcal N$. The value contacts in (2.4) therefore give (6.3).
 
-For $0<\alpha<1$, put $\beta=1/\alpha$ and use the function already constructed for $\beta>1$. Define its nonnegative radial Schwartz slacks $$q_\beta=G_\beta-f_\beta,\qquad r_\beta=\widehat f_\beta.$$ The Fourier transform applied twice is reflection, which is immaterial for these radial functions. Thus $G_\beta=q_\beta+\widehat r_\beta$. The dimension-two Gaussian transform from (eq:complex-gaussian-transform) gives $$\beta^{-1}G_\alpha=\widehat G_\beta
+For $0<\alpha<1$, put $\beta=1/\alpha$ and use the function already constructed for $\beta>1$. Define its nonnegative radial Schwartz slacks $$q_\beta=G_\beta-f_\beta,\qquad r_\beta=\widehat f_\beta.$$ The Fourier transform applied twice is reflection, which is immaterial for these radial functions. Thus $G_\beta=q_\beta+\widehat r_\beta$. The dimension-two Gaussian transform from (2.20) gives $$\beta^{-1}G_\alpha=\widehat G_\beta
  =\widehat q_\beta+r_\beta.$$ Set $$\begin{equation}
-\label{eq:reciprocal-minorant}
+\tag{6.4}
  f_\alpha=\beta\widehat q_\beta.
 \end{equation}$$ Then $G_\alpha-f_\alpha=\beta r_\beta\ge0$ and $\widehat f_\alpha=\beta q_\beta\ge0$. The known contacts say that $q_\beta$ vanishes on $A\setminus\{0\}$ and $r_\beta$ vanishes on $A^*\setminus\{0\}$. Since $A^*$ is a rotation of $A$ and both functions are radial, $q_\beta$ also vanishes on the nonzero dual shells and $r_\beta$ on the nonzero direct shells. The two displayed slack identities give the required contacts for $f_\alpha$. ◻
 
-It remains to identify the lower bound with the Gaussian lattice sum. Periodize the fixed Schwartz function $f_\alpha$ over $A$. Schwartz decay makes the periodization smooth, and termwise integration over a unit-area fundamental cell gives Fourier coefficients $\widehat f_\alpha(w)$ for $w\in A^*$. These coefficients are absolutely summable. Evaluating the Fourier series at zero gives $\sum_{a\in A}f_\alpha(a)=\sum_{w\in A^*}\widehat f_\alpha(w)$. Using (eq:gaussian-sharp-pair) and removing the origin yields $$\begin{equation}
-\label{eq:gaussian-lattice-value}
+It remains to identify the lower bound with the Gaussian lattice sum. Periodize the fixed Schwartz function $f_\alpha$ over $A$. Schwartz decay makes the periodization smooth, and termwise integration over a unit-area fundamental cell gives Fourier coefficients $\widehat f_\alpha(w)$ for $w\in A^*$. These coefficients are absolutely summable. Evaluating the Fourier series at zero gives $\sum_{a\in A}f_\alpha(a)=\sum_{w\in A^*}\widehat f_\alpha(w)$. Using (6.3) and removing the origin yields $$\begin{equation}
+\tag{6.5}
  \sum_{a\in A\setminus\{0\}}G_\alpha(a)
  =\widehat f_\alpha(0)-f_\alpha(0).
 \end{equation}$$ Only the lattice has been periodized; no periodicity is assumed of the competitor. Proposition 6.1 with $\Phi=G_\alpha$ therefore proves, for every locally finite $\mathcal C$ of centered disk density one and every $\alpha>0$, $$\begin{equation}
-\label{eq:gaussian-energy}
+\tag{6.6}
  \liminf_{R\to\infty}\frac1{N_R}
  \sum_{\substack{x,y\in\mathcal C_R\\x\ne y}}
  e^{-\pi\alpha|x-y|^2}
@@ -1010,14 +1010,14 @@ It remains to identify the lower bound with the Gaussian lattice sum. Periodize 
 
 ## Shifted moments and positive mixtures
 
-Equation (eq:gaussian-energy) compares the configuration with the triangular lattice for every kernel $e^{-\pi\alpha t}$. To pass to a completely monotone interaction, we represent it by positive mixtures of these kernels. A potential may be singular at zero, so a finite representing measure need not be available for the unshifted function. We instead construct one for each positive shift and remove the shift only after taking the lattice sum.
+Equation (6.6) compares the configuration with the triangular lattice for every kernel $e^{-\pi\alpha t}$. To pass to a completely monotone interaction, we represent it by positive mixtures of these kernels. A potential may be singular at zero, so a finite representing measure need not be available for the unshifted function. We instead construct one for each positive shift and remove the shift only after taking the lattice sum.
 
 ### A finite moment representation
 
 The representation belongs to the classical Hausdorff–Bernstein–Widder theory (Hausdorff 1921; Bernstein 1929; Widder 1931). We prove precisely the finite-measure form needed here. The construction first solves a discrete moment problem using finite differences, then passes to all positive real exponents. It also identifies the endpoint masses that enter the energy argument.
 
 **Lemma 7.1** (Positive mixtures). *Let $F:[0,\infty)\to[0,\infty)$ be smooth, with one-sided derivatives at zero, and suppose $(-1)^jF^{(j)}(t)\ge0$ for every integer $j\ge0$ and every $t\ge0$. There is a finite positive Borel measure $\rho$ on $[0,1]$ of total mass $F(0)$ such that $$\begin{equation}
-\label{eq:positive-mixture}
+\tag{7.1}
  F(t)=\int_{[0,1]}v^t\,\mathop{}\!\mathrm d\rho(v)\qquad(t>0).
 \end{equation}$$ Moreover, $\rho(\{0\})=0$. An atom at $1$ is allowed and contributes a constant function.*
 
@@ -1041,14 +1041,14 @@ The representation belongs to the classical Hausdorff–Bernstein–Widder theor
 
 ### Lower limits and singular interactions
 
-The next proposition isolates the positive-mixture step. Its Gaussian hypothesis has already been proved for every configuration considered here in (eq:gaussian-energy).
+The next proposition isolates the positive-mixture step. Its Gaussian hypothesis has already been proved for every configuration considered here in (6.6).
 
 **Proposition 7.2** (Positive-mixture transfer). *Let $\mathcal C\subset\mathbb R^2$ be locally finite with centered disk density one. Suppose that, for every $\alpha>0$, $$\liminf_{R\to\infty}\frac1{N_R}
  \sum_{\substack{x,y\in\mathcal C_R\\x\ne y}}e^{-\pi\alpha|x-y|^2}
  \ge\sum_{a\in A\setminus\{0\}}e^{-\pi\alpha|a|^2}.$$ Then every smooth completely monotone $g:(0,\infty)\to[0,\infty)$ satisfies $$\begin{equation}
-\label{eq:full-energy-bound}
+\tag{7.2}
  E_g(\mathcal C)\ge\sum_{a\in A\setminus\{0\}}g(|a|^2)
-\end{equation}$$ in the extended nonnegative reals, with the ordered-pair energy defined in (eq:energy-definition).*
+\end{equation}$$ in the extended nonnegative reals, with the ordered-pair energy defined in (1.1).*
 
 *Proof.* Fix $\varepsilon>0$ and set $F_\varepsilon(t)=g(\varepsilon+t)$ for $t\ge0$. It satisfies Lemma 7.1, with a finite representing measure $\rho_\varepsilon$ of mass $g(\varepsilon)$. Choose any real sequence $R_n\to\infty$, discarding finitely many terms so that $N_{R_n}>0$, and define $$A_n(v)=\frac1{N_{R_n}}
  \sum_{\substack{x,y\in\mathcal C_{R_n}\\x\ne y}}v^{|x-y|^2}
@@ -1066,12 +1066,12 @@ The finite-sum representation, Fatou’s lemma, and Tonelli’s theorem now give
 
 Complete monotonicity gives $g'\le0$, hence $g(t)\ge F_\varepsilon(t)$ for $t>0$. Termwise comparison therefore yields $$E_g(\mathcal C)\ge
  \sum_{a\in A\setminus\{0\}}g(\varepsilon+|a|^2)
- \qquad(\varepsilon>0).$$ As $\varepsilon\downarrow0$, the summands increase to $g(|a|^2)$. Monotone convergence in the lattice sum proves (eq:full-energy-bound). No limit in $\varepsilon$ has been interchanged with the configuration lower limit, and no unshifted representing measure has been used. ◻
+ \qquad(\varepsilon>0).$$ As $\varepsilon\downarrow0$, the summands increase to $g(|a|^2)$. Monotone convergence in the lattice sum proves (7.2). No limit in $\varepsilon$ has been interchanged with the configuration lower limit, and no unshifted representing measure has been used. ◻
 
-*Completion of the proof of Theorem 1.1.* Equation (eq:gaussian-energy) verifies the proposition’s hypothesis for every locally finite configuration of centered disk density one. This proves the inequality in Theorem 1.1. We finish by checking attainment, including the case of an infinite lattice sum.
+*Completion of the proof of Theorem 1.1.* Equation (6.6) verifies the proposition’s hypothesis for every locally finite configuration of centered disk density one. This proves the inequality in Theorem 1.1. We finish by checking attainment, including the case of an infinite lattice sum.
 
 Choose a bounded half-open fundamental cell of $A$ with vertex zero and area one, and let $d$ bound the distance of its points from its lattice vertex. Up to boundary sets of area zero, for $R>d$ the union of cells whose vertices lie in $A\cap B_R$ contains $B_{R-d}$ and is contained in $B_{R+d}$. Its area is $\#(A\cap B_R)$, so $A$ has centered disk density one. For each $x\in A\cap B_R$, the differences $y-x$ with $y\in A\cap B_R\setminus\{x\}$ form a subset of $A\setminus\{0\}$. Nonnegativity gives $$\sum_{\substack{y\in A\cap B_R\\y\ne x}}g(|x-y|^2)
- \le\sum_{a\in A\setminus\{0\}}g(|a|^2).$$ If the lattice sum is finite, averaging gives the upper bound for $E_g(A)$, and (eq:full-energy-bound) applied to $A$ gives the reverse bound. If the lattice sum is infinite, the same lower bound gives $E_g(A)=\infty$. Thus the equality in Theorem 1.1 holds in every case. ◻
+ \le\sum_{a\in A\setminus\{0\}}g(|a|^2).$$ If the lattice sum is finite, averaging gives the upper bound for $E_g(A)$, and (7.2) applied to $A$ gives the reverse bound. If the lattice sum is infinite, the same lower bound gives $E_g(A)=\infty$. Thus the equality in Theorem 1.1 holds in every case. ◻
 
 ## Renormalized and jellium energies
 
@@ -1108,7 +1108,7 @@ The periodic energy has the same field normalization. For a torus $T=\mathbb R^2
  \right].$$ This follows the integration-by-parts argument of Petrache and Serfaty (Petrache and Serfaty 2017, Proposition 1.5), using the Green function and coefficient determined by the displayed extension equation.
 
 For $N\in\mathbb N$, set $R=\sqrt N$ and $K_R=[-R/2,R/2]^2$. The finite ordered-pair jellium energy is $$\begin{equation}
-\label{eq:finite-ordered-jellium}
+\tag{8.1}
 \begin{split}
  J_{s,R}(a_1,\ldots,a_N)
  ={}&\sum_{i\ne j}g_s(a_i-a_j)
@@ -1149,7 +1149,7 @@ Set $$B_{\mathcal C}(t,x)=\frac1N\sum_{i,j}P_{t,L}(a_i-a_j+x),$$ so $B_{\mathcal
        \big(H_{\mathcal C}(t)-H_{\mathcal D}(t)\big)t^{-s/2}\,\mathop{}\!\mathrm dt.$$ This calculation also covers $s=0$: the logarithmic singularity cancels before either endpoint is integrated. ◻
 
 *Proof of Corollary 8.1.* *Periodic configurations.* The subtraction in $H_{\mathcal C}$ removes only the coincident point; all other images, including images of the same point, remain. Periodic counting gives $$H_{\mathcal C}(t)=\frac1{4\pi t}E_{g_t}(\mathcal C),
- \qquad g_t(u)=e^{-u/(4t)}.$$ Indeed, every fixed image displacement has its periodic frequency in large disks, and the Gaussian tail is summable uniformly over the finitely many point types. The Gaussian estimate (eq:gaussian-energy), with Gaussian parameter $1/(4\pi t)$, multiplied by the positive factor $(4\pi t)^{-1}$, therefore gives $H_{\mathcal C}(t)\ge H_A(t)$ for every $t>0$.
+ \qquad g_t(u)=e^{-u/(4t)}.$$ Indeed, every fixed image displacement has its periodic frequency in large disks, and the Gaussian tail is summable uniformly over the finitely many point types. The Gaussian estimate (6.6), with Gaussian parameter $1/(4\pi t)$, multiplied by the positive factor $(4\pi t)^{-1}$, therefore gives $H_{\mathcal C}(t)\ge H_A(t)$ for every $t>0$.
 
 Applying Lemma 8.2 with $\mathcal D=A$ therefore proves $V_s(\mathcal C)\ge V_s(A)$ for every periodic $\mathcal C$. Repetition on $nA$ preserves $H_A$ and hence $V_s(A)$, which proves the stated torus inequality.
 
@@ -1162,7 +1162,7 @@ Put $m_s=\inf_E\mathcal W_s(E)$, where the infimum runs over all compatible grad
  \qquad
  \frac{2\mathcal E_{\mathrm{per},L}}N
  =\frac{W_{s,L}}{\kappa_s}.$$ The scalar thermodynamic input, in this notation, is $$\begin{equation}
-\label{eq:scalar-jellium-input}
+\tag{8.2}
  \lim_{N\to\infty}\frac1{2N}
     \min_{\mathbf a\in(\mathbb R^2)^N}J_{s,\sqrt N}(\mathbf a)
  =
@@ -1172,7 +1172,7 @@ Put $m_s=\inf_E\mathcal W_s(E)$, where the infimum runs over all compatible grad
  =:e_{\mathrm{per}}^{(s)} .
 \end{equation}$$ For $0<s<2$, this is Lewin et al. (Lewin et al. 2019, secs. II, (3)–(4), and Section VI, (25), (27)–(31), Theorem 2); for $s=0$, it is Lauritsen (Lauritsen 2021, sec. II and Theorem II.1), who also proves existence of the full periodic limit. Both inputs use $N$ particles against a background of density one and area $N$, with unrestricted particle positions on the left. Their scalar energies count each pair once. Their periodic kernels have zero mean, and their self contribution is $Nr_L/2$, exactly as in $\mathcal E_{\mathrm{per},L}$ above.
 
-The approximating periods in Proposition B.1 are cubic. Every canonical periodic value is at least $m_s$, and the values along that sequence tend to $m_s$. The finite identity $2\mathcal E_{\mathrm{per},L}/N=W_{s,L}/\kappa_s$ therefore identifies the lower limit in (eq:scalar-jellium-input) as $e_{\mathrm{per}}^{(s)}=m_s/(2\kappa_s)$.
+The approximating periods in Proposition B.1 are cubic. Every canonical periodic value is at least $m_s$, and the values along that sequence tend to $m_s$. The finite identity $2\mathcal E_{\mathrm{per},L}/N=W_{s,L}/\kappa_s$ therefore identifies the lower limit in (8.2) as $e_{\mathrm{per}}^{(s)}=m_s/(2\kappa_s)$.
 
 *Confinement to the background square.* Finite minimization is unchanged by restricting the particles to $K_R$. Fix the other $N-1$ particles. For $0<s<2$, their one-particle potential extends to $X=(x,z)\in\mathbb R^3$ as $$U(X)=\sum_{j\ne i}|X-(a_j,0)|^{-s}
              -\int_{K_R}|X-(y,0)|^{-s}\,\mathop{}\!\mathrm dy .$$ The background potential is continuous because $s<2$, the point poles tend to $+\infty$, and $U(X)=-|X|^{-s}+O(|X|^{-s-1})$ at infinity. Hence $U$ attains a negative global minimum away from its point poles.
@@ -1196,7 +1196,7 @@ Appendix C gives a separate conditional floor-rounded rational procedure, with 
 ### Rational enclosures of elementary constants
 
 Every terminating decimal specifying a parameter or comparison threshold is an exact rational number. Set $\epsilon=10^{-80}$ and define $$\begin{equation}
-\label{eq:rational-pi-b}
+\tag{A.1}
 \begin{split}
  p_*={}&3.14159265358979323846264338327950288419716939937510582097494459230781640628620899,\\
  b_*={}&0.86602540378443864676372317075293618347140262690519031402790348972596650845440001.
@@ -1204,7 +1204,7 @@ Every terminating decimal specifying a parameter or comparison threshold is an e
 \end{equation}$$
 
 **Lemma A.1** (Decimal enclosures). *For $b=\sqrt3/2$, these rationals satisfy $$\begin{equation}
-\label{eq:rational-pi-b-error}
+\tag{A.2}
  p_*<\pi<p_*+\epsilon,\qquad b_*<b<b_*+\epsilon.
 \end{equation}$$*
 
@@ -1219,7 +1219,7 @@ The threshold in Lemma 6.2 needs only a shorter rational comparison. Squaring g
  =\frac{1025838}{433250}>\frac{59}{25}=2.36.$$
 
 We will also use a rational enclosure of a real exponential. For rational $a\ge0$ and an integer $q\ge0$, put $P_q(a)=\sum_{j=0}^qa^j/j!$. If $a>0$ and $q+2>a$, comparison of successive terms in the positive tail gives $$\begin{equation}
-\label{eq:scalar-rational-enclosure}
+\tag{A.3}
 \begin{gathered}
  P_q(a)<e^a<
  P_q(a)+\frac{a^{q+1}}{(q+1)!}\frac1{1-a/(q+2)},\\
@@ -1235,7 +1235,7 @@ We now evaluate the scalar majorants derived in Sections 4 and 5. The first is
  +\frac{5.3(2.54w/r+2c)e^{-.187r}}{1-e^{-.187}}.$$ In each application, $w$ bounds the sum of the absolute node coefficients and $c$ bounds the absolute constant coordinate, summed over the input lists when there are two. Lemma 2.5 then bounds the sum of the absolute transformed jet coordinates over all output nodes $n\ge r$ by $U_r(w,c)$.
 
 The following strict outward bounds collect the numerical inputs for interpolation and the first sign estimates: $$\begin{equation}
-\label{eq:scalar-error-budgets}
+\tag{A.4}
 \begin{array}{c|c|c}
 \text{quantity}&\text{outward upper bound}&\text{allowance used}\\ \hline
  U_{168}(1,0)&1.0670\cdot10^{-14}&1.1\cdot10^{-14}\\
@@ -1250,30 +1250,29 @@ The following strict outward bounds collect the numerical inputs for interpolati
  \displaystyle\frac{36}{2}(2\cdot10^{-8})3(3\pi)^2
        &9.5933\cdot10^{-5}&.00011
 \end{array}
-\end{equation}$$ The first tail residual has a deliberately finer margin: $8.3\cdot10^{-14}-8.1575\cdot10^{-14}
-=1.425\cdot10^{-15}>10^{-170}$. For the high-node list, the finer $2.2711\cdot10^{-7}$ bound is retained before the target jets are added.
+\end{equation}$$ The first tail residual has a deliberately finer margin: $8.3\cdot10^{-14}-8.1575\cdot10^{-14} =1.425\cdot10^{-15}>10^{-170}$. For the high-node list, the finer $2.2711\cdot10^{-7}$ bound is retained before the target jets are added.
 
 ##### Local target tails and interpolation arithmetic.
 
 Write $$c_{\mathrm{jet}}=\frac{1+(1+2.12)/2.36}{1.75}
- =\frac{548}{413},\qquad \rho=e^{-2.36}.$$ The target-jet estimate (eq:target-jet-bound), monotonicity in $k\ge2.36$, and overcounting by all integers show that the target cost from nodes $n\ge r+1$ is at most $c_{\mathrm{jet}}\rho^r/(1-\rho)$. A small rational check suffices even for the very distant tail: $$P_7(59/25)>1+2.36+2.78+2.19+1.29+.61+.239+.08
+ =\frac{548}{413},\qquad \rho=e^{-2.36}.$$ The target-jet estimate (4.4), monotonicity in $k\ge2.36$, and overcounting by all integers show that the target cost from nodes $n\ge r+1$ is at most $c_{\mathrm{jet}}\rho^r/(1-\rho)$. A small rational check suffices even for the very distant tail: $$P_7(59/25)>1+2.36+2.78+2.19+1.29+.61+.239+.08
  =10.549>21/2.$$ Each termwise lower comparison is rational. Thus $\rho<2/21$. Also $$\frac{548}{413}\frac{21}{19}<\frac32,\qquad
  (21/20)^{168}>(21/20)^{160}>
  (3/2)^{16}>150.$$ The middle inequality follows from $(1+1/20)^{10}>1+10/20=3/2$, and the last follows by comparing $3^{16}$ with $150\cdot2^{16}$. Therefore the target tail above $168$ satisfies the explicit local bound $$\begin{equation}
-\label{eq:target-tail-168}
+\tag{A.5}
  c_{\mathrm{jet}}\frac{\rho^{168}}{1-\rho}
  <\frac{548}{413}\frac{21}{19}(2/21)^{168}
  <\frac{3}{2}\frac{10^{-168}}{150}=10^{-170}.
-\end{equation}$$ Combining this with the finer $U_{168}(5,.02)$ row of (eq:scalar-error-budgets) proves the tail allowance $U_{168}(5,.02)+10^{-170}<8.3\cdot10^{-14}$. This direct rational bound handles the exponent $2.36\cdot168=396.48$, outside the range of exponents used in the degree-$2000$ comparisons below.
+\end{equation}$$ Combining this with the finer $U_{168}(5,.02)$ row of (A.4) proves the tail allowance $U_{168}(5,.02)+10^{-170}<8.3\cdot10^{-14}$. This direct rational bound handles the exponent $2.36\cdot168=396.48$, outside the range of exponents used in the degree-$2000$ comparisons below.
 
 The same local estimate for the first high node $91$ gives $$\begin{equation}
-\label{eq:target-tail-91}
+\tag{A.6}
  c_{\mathrm{jet}}\frac{e^{-2.36\cdot90}}{1-e^{-2.36}}
  <\frac32\,10^{-90}<10^{-89}.
 \end{equation}$$ Thus the transformed and target contributions to the high-list norm obey $U_{91}(5,.02)+10^{-89}<2.4\cdot10^{-7}$. The finer $U_{91}$ bound leaves the margin needed to include the target jets.
 
 The same $\rho<2/21$ gives a direct bound for the first five target jets: $$\frac{548}{413}\left(1+(2/21)^2+(2/21)^3+(2/21)^6+(2/21)^8\right)
- <1.35.$$ The reference-list bound in (eq:scalar-error-budgets) includes the extras, so their combined norm is below $4.8$. Their constant coordinates also retain a stronger bound. For $k\ge2.36$, the first expression below is negative and the second positive, whence $$|-.0074+.0115/k|+|.0096-.017/k|
+ <1.35.$$ The reference-list bound in (A.4) includes the extras, so their combined norm is below $4.8$. Their constant coordinates also retain a stronger bound. For $k\ge2.36$, the first expression below is negative and the second positive, whence $$|-.0074+.0115/k|+|.0096-.017/k|
  =.017-.0285/k<.02.$$ The first-five jet bound and the quadrature-operator bound imply $1.35+(4000+2\cdot10^{-27})4.8<20000$ for the combined data norm used in the geometric residual.
 
 For clarity, the remaining local inverse and residual arithmetic is $$\begin{gathered}
@@ -1282,14 +1281,14 @@ For clarity, the remaining local inverse and residual arithmetic is $$\begin{gat
  (1.1\cdot10^{-14})(1+40\cdot4000)
  =1.760011\cdot10^{-9}<1,\\
  20000(.004)^8=1.31072\cdot10^{-15}<1.4\cdot10^{-15}.
-\end{gathered}$$ The finite residual is consequently bounded by $8\cdot10^{-12}+10^{-24}+1.4\cdot10^{-15}<10^{-11}$ after its three terms have been derived in Section 4. For the correction inequalities (eq:correction-system), put $\beta=1.1\cdot10^{-14}$. Their rational solution is bounded by $$u_{\mathcal T}\le
+\end{gathered}$$ The finite residual is consequently bounded by $8\cdot10^{-12}+10^{-24}+1.4\cdot10^{-15}<10^{-11}$ after its three terms have been derived in Section 4. For the correction inequalities (4.15), put $\beta=1.1\cdot10^{-14}$. Their rational solution is bounded by $$u_{\mathcal T}\le
  \frac{8.3\cdot10^{-14}+40\beta\cdot10^{-11}}
  {1-\beta(1+40\cdot4000)},\qquad
- u_{\mathcal F}\le40(10^{-11}+4000u_{\mathcal T}).$$ The denominator is positive by the preceding Schur bound, and the two right sides give $u_{\mathcal F}+u_{\mathcal T}<1.3681\cdot10^{-8}<2\cdot10^{-8}$. Together with the operator-derived inequalities (eq:correction-system), this proves the correction bound. The reference norm then gives a combined exact-list norm below $4.8+2\cdot10^{-8}<5$, with the fixed constant coordinates still bounded by $.02$.
+ u_{\mathcal F}\le40(10^{-11}+4000u_{\mathcal T}).$$ The denominator is positive by the preceding Schur bound, and the two right sides give $u_{\mathcal F}+u_{\mathcal T}<1.3681\cdot10^{-8}<2\cdot10^{-8}$. Together with the operator-derived inequalities (4.15), this proves the correction bound. The reference norm then gives a combined exact-list norm below $4.8+2\cdot10^{-8}<5$, with the fixed constant coordinates still bounded by $.02$.
 
 ##### Half-gap and tail sign arithmetic.
 
-For the Taylor remainder in (eq:half-gap-series-tail), put $$\mathcal R(m,Y,\nu)=
+For the Taylor remainder in (5.5), put $$\mathcal R(m,Y,\nu)=
  \frac{Y^{-\nu}36\cdot5}
  {(41+\nu)!\bigl(1-3\pi Y/(42+\nu)\bigr)}
  \left((\pi Y)^{41+\nu}
@@ -1304,7 +1303,7 @@ The denominators are positive for the four tuples below; for example, $3\pi Y/(4
 (4,3/2,2)&2.0\cdot10^{-11}.
 \end{array}$$
 
-The included-moment quadrature cost is separately at most $41\cdot4\cdot5\cdot10^{-31}=8.2\cdot10^{-29}$. Adding it to each displayed remainder still gives less than $10^{-8}$. As proved after (eq:half-gap-series-tail), the bound decreases when $m$ increases or $Y$ decreases, so these four tuples cover every half-gap.
+The included-moment quadrature cost is separately at most $41\cdot4\cdot5\cdot10^{-31}=8.2\cdot10^{-29}$. Adding it to each displayed remainder still gives less than $10^{-8}$. As proved after (5.5), the bound decreases when $m$ increases or $Y$ decreases, so these four tuples cover every half-gap.
 
 The two target-support Taylor tails satisfy $$\frac{e^6}{6}\frac{3^{41}}{41!}\frac1{1-3/42}
  <8\cdot10^{-29}<10^{-6},\qquad
@@ -1326,7 +1325,7 @@ The final numerical implications are elementary once their separate error terms 
 
 ##### A nonmatrix rational route for these scalars.
 
-For the three $U_r$ evaluations and the reference-list, omitted-jet, deleted-quotient, four half-gap-remainder, two target-support-tail, second-derivative, and product endpoint comparisons above, use (eq:scalar-rational-enclosure) with $q=2000$. Square roots, when present, are enclosed between positive rationals of width $10^{-80}$ whose squares straddle the radicand. Explicitly, write a radicand as $A_{\mathrm{num}}/A_{\mathrm{den}}$ with positive integers $A_{\mathrm{num}},A_{\mathrm{den}}$. Integer search over $0\le m<3\cdot10^{80}$ finds $m$ with $m^2A_{\mathrm{den}}\le10^{160}A_{\mathrm{num}}<(m+1)^2A_{\mathrm{den}}$. Then $m/10^{80}\le\sqrt{A_{\mathrm{num}}/A_{\mathrm{den}}}<(m+1)/10^{80}$; equality at the lower endpoint is kept exact. The radicands used here exceed one, so both bracket endpoints are positive. The tail and interpolation comparisons need only rational arithmetic and exponential enclosures, with positive geometric denominators. The deleted-quotient, half-gap-remainder, and second-derivative comparisons also use the $\pi$ output of Lemma A.1; they do not need its $b$ output. For the half-gap remainders, $$\mathop{\mathrm{Im}}z(t)=\frac{Bh}{t^2+h^2}-h,\qquad
+For the three $U_r$ evaluations and the reference-list, omitted-jet, deleted-quotient, four half-gap-remainder, two target-support-tail, second-derivative, and product endpoint comparisons above, use (A.3) with $q=2000$. Square roots, when present, are enclosed between positive rationals of width $10^{-80}$ whose squares straddle the radicand. Explicitly, write a radicand as $A_{\mathrm{num}}/A_{\mathrm{den}}$ with positive integers $A_{\mathrm{num}},A_{\mathrm{den}}$. Integer search over $0\le m<3\cdot10^{80}$ finds $m$ with $m^2A_{\mathrm{den}}\le10^{160}A_{\mathrm{num}}<(m+1)^2A_{\mathrm{den}}$. Then $m/10^{80}\le\sqrt{A_{\mathrm{num}}/A_{\mathrm{den}}}<(m+1)/10^{80}$; equality at the lower endpoint is kept exact. The radicands used here exceed one, so both bracket endpoints are positive. The tail and interpolation comparisons need only rational arithmetic and exponential enclosures, with positive geometric denominators. The deleted-quotient, half-gap-remainder, and second-derivative comparisons also use the $\pi$ output of Lemma A.1; they do not need its $b$ output. For the half-gap remainders, $$\mathop{\mathrm{Im}}z(t)=\frac{Bh}{t^2+h^2}-h,\qquad
  |z(t)|^2=h^2+\frac{B(B-2h^2)}{t^2+h^2}$$ at rational $t=t_j$, so only the latter positive rational radicand needs a square-root bracket. For $0\le t\le1$, $1<4/25+304/261\le |z(t)|^2<9$, by this formula and $|z|<3$. The endpoint ratio uses a bracket for $\sqrt2$, whose radicand also lies between one and nine. Thus each of these scalar comparisons requires no matrix construction.
 
 All exponential magnitudes in this list are below $250$: the largest explicit target phase is $2.36(s_0-1)=208.86$, the largest tail phase is $.70\cdot168=117.6$, and the four half-gap phases are below $\pi\cdot3\cdot4<38$ by $|z|<3$. Finite rational evaluation with $q=2000$ and the indicated root brackets gives the printed outward margins. The two more distant target-jet tails instead use the local $P_7(59/25)$ calculation above; the quadrature proof uses $q=6$.
@@ -1361,9 +1360,9 @@ The screening fields need not be gradients. At that stage we preserve the diverg
 *Proof.* Testing the smeared field equation against a nonnegative smooth function equal to one near all spheres centered in a fixed unit cell gives $$\begin{equation}
  N_B^2\le C_{B,\eta}\left(1+
           \int_{B'\times[-h,h]^k}w|E_\eta|^2\right).
- \label{eq:normalized-local-count}
+ \tag{B.1}
 \end{equation}$$ Here $B'$ and $h$ are fixed enlargements. These enlargements have bounded overlap over a unit-cell tiling. Also $$\int w|\nabla(f_\alpha-f_\eta)|^2
-       =\kappa[g(\alpha)-g(\eta)],\qquad 0<\alpha<\eta.$$ Consequently, if $Q_\alpha(E,R)=O(R^2)$ at one fixed cutoff, then $Q_\eta(E,R)=O(R^2)$ at every fixed cutoff: apply (eq:normalized-local-count) to the finite-range difference $\sum_pN_p\nabla(f_\alpha-f_\eta)(\cdot-p)$.
+       =\kappa[g(\alpha)-g(\eta)],\qquad 0<\alpha<\eta.$$ Consequently, if $Q_\alpha(E,R)=O(R^2)$ at one fixed cutoff, then $Q_\eta(E,R)=O(R^2)$ at every fixed cutoff: apply (B.1) to the finite-range difference $\sum_pN_p\nabla(f_\alpha-f_\eta)(\cdot-p)$.
 
 The smeared Gauss equation also gives $\nu(K_R)/R^2\to1$ whenever one cutoff has volume-order energy. For completeness, choose a lateral boundary at distance at most one from $\partial K_R$ with squared flux energy $O(R^2)$. For $k=1$, choose height $L\in[1,\sqrt R]$ with top and bottom squared energy $O(R^{3/2})$. Weighted Cauchy–Schwarz bounds the total flux by $$C L^{(\gamma+1)/2}R^{3/2}
        +C L^{\gamma/2}R^{7/4}=o(R^2),$$ since $-1<\gamma<1$ (for negative $\gamma$, use $L^{\gamma/2}\le1$). The smeared count lies between the counts in squares whose sidelengths differ from $R$ by a fixed constant. Applying these inequalities at the correspondingly shifted radii proves full-radius density convergence. In the logarithmic case only the lateral term is needed. This is the argument of Petrache and Serfaty (Petrache and Serfaty 2017, Lemma 2.1), with the actual flux in the weak equation.
@@ -1372,16 +1371,16 @@ Put $S=\sum_pN_p(f_\alpha-f_\eta)(\cdot-p)\le0$. For a horizontal cutoff $\chi$,
  \int\chi w(|E_\eta|^2-|E_\alpha|^2)
   &=\kappa\int\chi S(\nu_\eta+\nu_\alpha-2\delta_{\mathbb R^2})\\
   &\quad-\int S w(E_\alpha+E_\eta)\cdot\nabla\chi.
-\end{align*}$$ Distinct-charge terms are nonpositive. An interior self term is $-\kappa[g(\alpha)-g(\eta)]N_p^2$, bounded above by the same expression with $N_p$ in place of $N_p^2$. The background contributes at most $2\kappa F_\eta$ per particle. The commutator and transition terms are bounded by the sum of the two energies and the counts in a fixed-width shell, using (eq:normalized-local-count).
+\end{align*}$$ Distinct-charge terms are nonpositive. An interior self term is $-\kappa[g(\alpha)-g(\eta)]N_p^2$, bounded above by the same expression with $N_p$ in place of $N_p^2$. The background contributes at most $2\kappa F_\eta$ per particle. The commutator and transition terms are bounded by the sum of the two energies and the counts in a fixed-width shell, using (B.1).
 
 To remove that shell, choose $r_j$ realizing the $\eta$-limsup. Averaging both fixed-cutoff shell energies over $t\in[r_j+b_0,r_j+\sqrt{r_j}]$, where $b_0$ exceeds twice the shell width, gives a radius $t_j$ at which their sum is $O(r_j^{3/2})=o(r_j^2)$. Since $t_j/r_j\to1$ and $Q_\eta$ is nonnegative and increasing, $$\frac{Q_\eta(E,t_j)}{t_j^2}
    \ge\frac{r_j^2}{t_j^2}\frac{Q_\eta(E,r_j)}{r_j^2}.$$ Thus these radii still realize the $\eta$-limsup. Only an upper limsup bound is needed for $Q_\alpha(E,t_j)/t_j^2$. The count shell is $o(t_j^2)$ by the density conclusion. Hence $$\begin{equation}
  \mathcal W_\eta(E)\le\mathcal W_\alpha(E)+2\kappa F_\eta,
  \qquad 0<\alpha<\eta<\eta_0.
- \label{eq:normalized-almost-monotonicity}
-\end{equation}$$ These selected radii suffice for the upper-limit comparison. Comparing with one fixed cutoff proves a uniform lower bound; then (eq:normalized-almost-monotonicity) proves existence of the full cutoff limit and $$\begin{equation}
+ \tag{B.2}
+\end{equation}$$ These selected radii suffice for the upper-limit comparison. Comparing with one fixed cutoff proves a uniform lower bound; then (B.2) proves existence of the full cutoff limit and $$\begin{equation}
  -C_s\le\mathcal W_\eta(E)\le\mathcal W(E)+2\kappa F_\eta.
- \label{eq:normalized-cutoff-bound}
+ \tag{B.3}
 \end{equation}$$ If every cutoff has infinite energy, the conclusion is immediate. These arguments also hold with integer multiplicities. A canonical unit-lattice field has finite renormalized value, so $-\infty<m<\infty$. ◻
 
 ### A minimizing stationary law and its close-pair defect
@@ -1399,20 +1398,20 @@ The cutoff estimate does not exclude rare clusters. We now use translation avera
  \le m+2\kappa F_{\eta_\ell}+\kappa g(\eta_\ell),
  \qquad
  \Gamma_\eta(E)=\int_{Q\times\mathbb R^k}w|E_\eta|^2.
- \label{eq:normalized-orbit-bound}
+ \tag{B.4}
 \end{equation}$$ The analogous bounds hold on every fixed base square.
 
-Here are the compactness details. Use $H^{-r}_{\rm loc}$ for $E$, with $r>(2+k)/2+1$, together with the vague topology for the positive charge measure. Bounded local $L^p$ sets are relatively compact in the first space. Equation (eq:normalized-local-count) bounds second moments of local counts. Weighted Hölder bounds $E_\eta$ in local unweighted $L^p$ when $p<\min(2,2/s)$; the singular correction belongs to local $L^p$ when $p<3/(s+1)$. For the logarithm both requirements reduce to $p<2$. Thus Markov’s inequality and a countable exhaustion give tightness. Allow multiplicities in the resulting integer point measure.
+Here are the compactness details. Use $H^{-r}_{\rm loc}$ for $E$, with $r>(2+k)/2+1$, together with the vague topology for the positive charge measure. Bounded local $L^p$ sets are relatively compact in the first space. Equation (B.1) bounds second moments of local counts. Weighted Hölder bounds $E_\eta$ in local unweighted $L^p$ when $p<\min(2,2/s)$; the singular correction belongs to local $L^p$ when $p<3/(s+1)$. For the logarithm both requirements reduce to $p<2$. Thus Markov’s inequality and a countable exhaustion give tightness. Allow multiplicities in the resulting integer point measure.
 
 On sets with bounded local counts, vague convergence identifies every fixed singular correction distributionally (indeed in the permitted local $L^p$ topology). On bounded-energy subsequences, the truncated fields have weak $L^2(w)$ limits, identified by that correction. It is this weighted convergence that passes the smeared divergence equation, since test gradients belong to $L^2(w)$. Adding back the singular correction recovers the unsmeared equation; weighted Cauchy–Schwarz and the locally integrable singular flux give $wE\in L^1_{\rm loc}$. Distributional curl remains zero and the local $L^p$ bounds persist, so the limit is a gradient in the prescribed class. These statements hold on compact sets of arbitrarily large probability, by a summable allocation of the Markov bounds. They therefore apply to the limiting law, not merely to a deterministic subsequence of configurations.
 
 Weighted quadratic energy is lower semicontinuous in this topology. On a bounded cylinder this follows also from $$\int w|F|^2
  =\sup_{\psi\in C_c^\infty}
-       \left(2\langle F,\psi\rangle-\int w^{-1}|\psi|^2\right).$$ Take the increasing supremum over cylinder heights for the full extension integral. Consequently a subsequential law $P$ satisfies (eq:normalized-orbit-bound) with $P$ in place of $P_j$. At this point the limit law is supported on compatible gradients and has the required energy bounds; it may still have multiple charges. It is horizontally stationary: for a fixed translation $z$, the total variation discrepancy of an orbit law and its translate is at most $|K_{S_j}\mathbin\triangle(K_{S_j}+z)|/S_j^2\to0$.
+       \left(2\langle F,\psi\rangle-\int w^{-1}|\psi|^2\right).$$ Take the increasing supremum over cylinder heights for the full extension integral. Consequently a subsequential law $P$ satisfies (B.4) with $P$ in place of $P_j$. At this point the limit law is supported on compatible gradients and has the required energy bounds; it may still have multiple charges. It is horizontally stationary: for a fixed translation $z$, the total variation discrepancy of an orbit law and its translate is at most $|K_{S_j}\mathbin\triangle(K_{S_j}+z)|/S_j^2\to0$.
 
 The $L^1$ pointwise and mean ergodic theorems along tempered Følner sequences (Lindenstrauss 1999, sec. 1), applied to the centered square sequence in $\mathbb Z^2$, apply to each integrable observable $\Gamma_{\eta_\ell}$. The tiled sums of this observable are exactly the raw energies on integer squares; positivity and nested squares extend the limits to every real radius. Each limit is the conditional expectation of its observable on the $\mathbb Z^2$-invariant sigma-algebra. It may depend on the realization; no ergodicity of $P$ is assumed. Its expectation equals the mean of the observable. Thus, on one event of full probability for all selected cutoffs, $$a_{\eta_\ell}:=\mathbb E_P\mathcal W_{\eta_\ell}
        =\mathbb E_P\Gamma_{\eta_\ell}-\kappa g(\eta_\ell)
-       \le m+2\kappa F_{\eta_\ell}.$$ Fatou and the uniform lower bound give $\mathbb E_P\mathcal W\le m$. This does not yet use minimality, because the limit could have multiplicities. It shows that $\mathcal W$ is finite and integrable. Equation (eq:normalized-cutoff-bound) then gives dominated convergence $a_{\eta_\ell}\to\mathbb E_P\mathcal W$.
+       \le m+2\kappa F_{\eta_\ell}.$$ Fatou and the uniform lower bound give $\mathbb E_P\mathcal W\le m$. This does not yet use minimality, because the limit could have multiplicities. It shows that $\mathcal W$ is finite and integrable. Equation (B.3) then gives dominated convergence $a_{\eta_\ell}\to\mathbb E_P\mathcal W$.
 
 *Unit intensity and simplicity.* The local count bound gives finite point intensity $\rho$. In the logarithmic case the expected smeared PDE immediately gives $\rho=1$ by horizontal stationarity. In the extension case, let $b_\eta(y)=\mathbb E_P(E_\eta)_y$ and let $\mu_{\eta,y}$ be the vertical probability marginal of one smeared charge. Jensen gives $\int |y|^\gamma|b_\eta|^2<\infty$, and the mean PDE is $$-\partial_y(|y|^\gamma b_\eta)
        =\kappa(\rho\mu_{\eta,y}-\delta_0).$$ Outside $[-\eta,\eta]$ the weighted flux is constant on each tail. They must vanish, since $\int_1^\infty y^{-\gamma}\,dy=\infty$. Integrating the equation proves $\rho=1$.
@@ -1421,11 +1420,11 @@ For cutoffs $0<\alpha<\eta$ from the selected dyadic sequence, put $d=\sum_p(f_\
  w(|E_\alpha|^2-|E_\eta|^2)
   =\operatorname{div}[wd(E_\alpha+E_\eta)]
      +\kappa d(\nu_\alpha+\nu_\eta-2\delta_{\mathbb R^2}).
- \label{eq:normalized-two-cutoff-local}
+ \tag{B.5}
 \end{equation}$$ At positive cutoffs the kernels in $d$ are bounded and have finite range. The second count moment and Cauchy–Schwarz justify all local expected products. Test with a smooth horizontal function of integral one and, if needed, a vertical cutoff equal to one on $|y|\le\eta$. Stationarity annihilates the expected horizontal divergence; the vertical cutoff varies outside the support of $d$. Separating self, distinct-labeled-pair, and background terms gives exactly $$\begin{equation}
  D_{\alpha,\eta}=a_\alpha-a_\eta+2\kappa(F_\eta-F_\alpha),
  \qquad D_{\alpha,\eta}\ge0.
- \label{eq:normalized-two-cutoff-mean}
+ \tag{B.6}
 \end{equation}$$ Here $D_{\alpha,\eta}$ is the ordered-pair intensity of the kernel $$\kappa\int(f_\eta-f_\alpha)(X-(p,0))
                 (d\delta_q^{(\alpha)}+d\delta_q^{(\eta)})(X),
  \qquad p\ne q\text{ as labeled particles}.$$ A coincident pair contributes $\kappa[g(\alpha)-g(\eta)]$. If $c_{\rm coll}=\mathbb E_P\sum_{p\in Q}N_p(N_p-1)$, then $$0\le\kappa[g(\alpha)-g(\eta)]c_{\rm coll}
@@ -1433,24 +1432,24 @@ For cutoffs $0<\alpha<\eta$ from the selected dyadic sequence, put $d=\sum_p(f_\
 
 We have obtained simple minimizing fields. The remaining task is to select one whose close pairs and vertical tail remain controlled during screening.
 
-*Vanishing defect and selection of a realization.* Fatou in (eq:normalized-two-cutoff-mean), with only $\alpha\downarrow0$, gives $$\begin{equation}
+*Vanishing defect and selection of a realization.* Fatou in (B.6), with only $\alpha\downarrow0$, gives $$\begin{equation}
  0\le D_\eta:=\kappa\mathbb E_P
            \sum_{p\in Q}\sum_{q\ne p}q_\eta(p-q)
        \le m-a_\eta+2\kappa F_\eta\longrightarrow0.
- \label{eq:normalized-defect-small}
+ \tag{B.7}
 \end{equation}$$ The measure $\mu_\eta$ thus has finite mean intensity $D_\eta$. The ergodic theorem therefore gives its spatial density $$d_\eta(E)=\lim_{R\to\infty}\frac{\mu_\eta(K_R)}{R^2},
  \qquad \mathbb E_Pd_\eta=D_\eta$$ almost surely. For $k=1$, apply the same ergodic theorem to the raw energy over each fixed integer height $|y|>z>1$. These integrable observables decrease to zero, so their spatial densities decrease to zero almost surely. Intersect all the energy, tail, and selected defect events, a countable family of full-measure events. For each selected $\eta$, choose a realization $(E,\mathcal C)$ in this intersection with $d_\eta\le2D_\eta$; if $D_\eta=0$, choose $d_\eta=0$. This realization may depend on $\eta$. For every fixed $\varepsilon>0$, define $$\begin{equation}
  e_{\varepsilon,R}:=\frac1{\varepsilon^4R^2}
  \int_{K_R\times\{|y|>\frac14\varepsilon^2R\}}w|E|^2
                          \longrightarrow0.
- \label{eq:normalized-moving-tail}
+ \tag{B.8}
 \end{equation}$$ The coefficient $\frac14$ in this threshold is fixed independently of the cutoffs and the realization. Indeed, compare the moving height with each fixed integer height and then let that fixed height tend to infinity. No uniform rate in $\varepsilon$ is needed. ◻
 
 ### Screening at a fixed cutoff
 
 We use the rectangular shell construction of Petrache and Serfaty (Petrache and Serfaty 2017, sec. 6.2). The next lemma records the precise input and output needed here; the proof supplies the local field equations and their constants in the present normalization.
 
-**Lemma B.4** (Screening without new close pairs). *Fix the auxiliary cutoff $\eta'$ chosen above and $0<\eta<\eta'$. Let $E$ be a compatible simple gradient field for which $$M_{R,\rho}:=R^{-2}Q_\rho(E,R)$$ has a finite limit for $\rho=\eta,\eta'$. If $k=1$, suppose also that $e_{\varepsilon,R}$ defined in (eq:normalized-moving-tail) tends to zero for every fixed $\varepsilon>0$; set $e_{\varepsilon,R}=0$ if $k=0$. For every $0<\varepsilon<1/8$ and every sufficiently large integer $R$, there are exactly $R^2$ distinct points $\widehat\Lambda\subset K_R$ and a field $\widehat E$ with zero exterior normal flux satisfying $$-\operatorname{div}(w\widehat E)
+**Lemma B.4** (Screening without new close pairs). *Fix the auxiliary cutoff $\eta'$ chosen above and $0<\eta<\eta'$. Let $E$ be a compatible simple gradient field for which $$M_{R,\rho}:=R^{-2}Q_\rho(E,R)$$ has a finite limit for $\rho=\eta,\eta'$. If $k=1$, suppose also that $e_{\varepsilon,R}$ defined in (B.8) tends to zero for every fixed $\varepsilon>0$; set $e_{\varepsilon,R}=0$ if $k=0$. For every $0<\varepsilon<1/8$ and every sufficiently large integer $R$, there are exactly $R^2$ distinct points $\widehat\Lambda\subset K_R$ and a field $\widehat E$ with zero exterior normal flux satisfying $$-\operatorname{div}(w\widehat E)
  =\kappa\left(\sum_{p\in\widehat\Lambda}\delta_{(p,0)}
                  -\mathbf1_{K_R}\delta_{\mathbb R^2}\right).$$ Its truncation has finite weighted energy and obeys $$\begin{align*}
  R^{-2}\int_{K_R\times\mathbb R^k}w|\widehat E_\eta|^2
@@ -1475,7 +1474,7 @@ We use the rectangular shell construction of Petrache and Serfaty (Petrache and
 
 Let $D_0=K'_R\times[-\ell,\ell]^k$, $A_{\rm sh}=|K_R|-|K'_R|$, and, when $k=1$, let $T_\pm$ be the outward weighted flux of the old field through the top and bottom of $D_0$. The cap constants must be $$\begin{equation}
  C^\pm=-\frac{T_\pm}{A_{\rm sh}\ell^\gamma}.
- \label{eq:normalized-two-caps}
+ \tag{B.9}
 \end{equation}$$ They impose separate compatibility in the disconnected upper and lower caps $K_R\times(\ell,R)$ and $K_R\times(-R,-\ell)$. For $k=0$ all $T_\pm,C^\pm$ and cap terms are omitted. Let $\Lambda_0=\{p\in\mathcal C:\operatorname{dist}(p,\partial K'_R)\le\eta\}$ be the retained crossing centers and $\rho_0=\sum_{p\in\Lambda_0}N_p\delta_p^{(\eta)}$ their full smeared measure. The retained old centers are $\Lambda_{\rm old}=(\mathcal C\cap K'_R)\cup\Lambda_0$; $N_{\rm old}$ counts all of them, including multiplicity if present. All pieces assembled below are finite-energy components of the *truncated* field. In particular the new-charge component uses smeared sources; the point singularities are restored only after the pieces have been assembled. On a shell cell $H_i$, denote the old side flux by $B_i=\int_{(\partial K'_R\cap\partial H_i)\times[-\ell,\ell]^k}wE_\eta\cdot\nu_0$, where $\nu_0$ points outward from $D_0$. The truncated shell field is the sum of five components, constructed below:
 
 | Field | Role in the shell |
@@ -1526,8 +1525,8 @@ The crossing field now completes every retained smeared charge and provides its 
 For each large cell set $Q_i=\int_{(\partial K'_R\cap\partial H_i)\times[-\ell,\ell]^k}w j$, its actual inner-face outlet flux. This need not equal the restricted source mass $\kappa\rho_0(H_i\times[-\ell,\ell]^k)$, because the completion field may transport that source across a large-cell boundary. Define the ideal density by $$\begin{equation}
  \kappa(m_i-1)|H_i|
        =B_i-\ell^\gamma(C^++C^-)|H_i|-Q_i.
- \label{eq:normalized-shell-density}
-\end{equation}$$ Since $\sum_iQ_i=\kappa\rho_0(D_0^c)$, Gauss’ equation and (eq:normalized-two-caps) give $\sum_i m_i|H_i|=R^2-N_{\rm old}=:N_{\rm new}\in\mathbb N$. At fixed parameters the lateral-flux, cap-flux and outlet bounds make $\max_i|m_i-1|\to0$ as $R\to\infty$; choose this maximum below $1/4$. For example the outlet term divided by $|H_i|$ is bounded by $C(1+M_{R,\eta'})\varepsilon^{-5}R^{-1}$.
+ \tag{B.10}
+\end{equation}$$ Since $\sum_iQ_i=\kappa\rho_0(D_0^c)$, Gauss’ equation and (B.9) give $\sum_i m_i|H_i|=R^2-N_{\rm old}=:N_{\rm new}\in\mathbb N$. At fixed parameters the lateral-flux, cap-flux and outlet bounds make $\max_i|m_i-1|\to0$ as $R\to\infty$; choose this maximum below $1/4$. For example the outlet term divided by $|H_i|$ is bounded by $C(1+M_{R,\eta'})\varepsilon^{-5}R^{-1}$.
 
 Set $r_i=m_i|H_i|$. Round the $r_i$ down, and increase the required number of entries by one, obtaining integers $n_i$ with $\sum_i n_i=N_{\rm new}$ and $|n_i-r_i|\le1$. Put $\widetilde m_i=n_i/|H_i|$. For large $R$ these densities lie in $[1/2,3/2]$. To compensate this rounding, write $\delta_i=n_i-r_i$, whose sum is zero, and choose a rooted spanning tree of the large-cell adjacency graph. On the face from a child cell $i$ to its parent prescribe outward weighted flux $-\kappa\sum_{a\text{ in the subtree of }i}\delta_a$, with opposite flux on the adjacent cell. The total outward flux of cell $i$ is $-\kappa\delta_i$. There is therefore a compatible Neumann field $E_{{\rm round},i}$ with source $\kappa\delta_i|H_i|^{-1}\delta_{\mathbb R^2}$, these face fluxes, and zero flux on all other faces, including the caps. The paired fluxes make the union $E_{\rm round}$ a global field. It has no flux through the inner or outer shell boundary. After dilation by $\ell$, weighted trace and Poincaré on rectangles of bounded aspect ratio give $$\int w|E_{\rm round}|^2\le
  \begin{cases}C_{s,\varepsilon}\ell^{-s},&s>0,\\
@@ -1539,7 +1538,7 @@ Set $r_i=m_i|H_i|$. Round the $r_i$ down, and increase the required number of en
 The vertical correction on each shell cell is the gradient of $$h_2(y)=\frac{\ell^\gamma}{1-\gamma}
  \begin{cases}C^+y^{1-\gamma},&y\ge0,\\
  C^-|y|^{1-\gamma},&y\le0.
- \end{cases}$$ It has source $-\ell^\gamma(C^++C^-)\delta_{\mathbb R^2}$. The side-flux correction has the opposite cap source plus $\kappa(m_i-1)\delta_{\mathbb R^2}$ and datum $-E_\eta\cdot\nu_0+j$ on the inner side, with zero data elsewhere. Equation (eq:normalized-shell-density) is exactly its compatibility.
+ \end{cases}$$ It has source $-\ell^\gamma(C^++C^-)\delta_{\mathbb R^2}$. The side-flux correction has the opposite cap source plus $\kappa(m_i-1)\delta_{\mathbb R^2}$ and datum $-E_\eta\cdot\nu_0+j$ on the inner side, with zero data elsewhere. Equation (B.10) is exactly its compatibility.
 
 The large-cell estimate used for this correction is as follows. Let $H$ have sidelengths in $[\ell,2\ell]$, set $\Omega=H\times[-\ell,\ell]$ and $\Sigma=\partial H\times[-\ell,\ell]$, and let $-1<\gamma<1$. For a constant $a$ and $b\in L^2(\Sigma,|y|^\gamma)$ satisfying $$a|H|=-\int_\Sigma |y|^\gamma b,$$ the weak Neumann problem $$-\operatorname{div}(|y|^\gamma\nabla h)
                   =a\delta_{\mathbb R^2}\quad\hbox{in }\Omega,
@@ -1549,12 +1548,12 @@ The large-cell estimate used for this correction is as follows. Let $H$ have sid
  \le C_\gamma\left(a^2\ell^{3-\gamma}
               +\ell\int_\Sigma |y|^\gamma|b|^2\right)
  \le C_\gamma\ell\int_\Sigma |y|^\gamma|b|^2.
- \label{eq:large-cell-side-estimate}
+ \tag{B.11}
 \end{equation}$$ The constants depend only on $\gamma$ and the stated aspect-ratio bounds. To see the scaling, choose the weighted-mean-zero representative. Weighted Poincaré and the one-dimensional trace inequalities, after dilation by $\ell$, give $$\int_H|h(x,0)|^2\le C_\gamma\ell^{1-\gamma}
                               \int_\Omega |y|^\gamma|\nabla h|^2,
  \qquad
  \int_\Sigma |y|^\gamma|h|^2
-          \le C_\gamma\ell\int_\Omega |y|^\gamma|\nabla h|^2.$$ Testing the weak equation gives the first inequality in (eq:large-cell-side-estimate). Compatibility, $|H|\asymp\ell^2$, and $\int_\Sigma|y|^\gamma\asymp\ell^{\gamma+2}$ give $a^2\ell^{3-\gamma}\le C_\gamma\ell\int_\Sigma|y|^\gamma|b|^2$, which proves the second. This is the constant-source case of Petrache and Serfaty (Petrache and Serfaty 2017, Lemma 6.4), with the source coefficient written explicitly. For the logarithm use $\Omega=H$, $-\Delta h=a$, and $\partial_\nu h=b$ on $\partial H$; ordinary Poincaré, trace, and compatibility give the same final bound $C\ell\int_{\partial H}|b|^2$.
+          \le C_\gamma\ell\int_\Omega |y|^\gamma|\nabla h|^2.$$ Testing the weak equation gives the first inequality in (B.11). Compatibility, $|H|\asymp\ell^2$, and $\int_\Sigma|y|^\gamma\asymp\ell^{\gamma+2}$ give $a^2\ell^{3-\gamma}\le C_\gamma\ell\int_\Sigma|y|^\gamma|b|^2$, which proves the second. This is the constant-source case of Petrache and Serfaty (Petrache and Serfaty 2017, Lemma 6.4), with the source coefficient written explicitly. For the logarithm use $\Omega=H$, $-\Delta h=a$, and $\partial_\nu h=b$ on $\partial H$; ordinary Poincaré, trace, and compatibility give the same final bound $C\ell\int_{\partial H}|b|^2$.
 
 For the side field on $H_i$, take $$a_i=\kappa(m_i-1)+\ell^\gamma(C^++C^-),\qquad
  b_i=-E_\eta\cdot\nu_0+j
@@ -1588,13 +1587,12 @@ Finally, let $S\subset H_i$ be one of the area-$1/\widetilde m_i$ rectangles, wi
 
 The shell now has the required source and lateral flux. It remains to close the two vertical ends without changing these sources.
 
-The upper and lower weighted harmonic caps are solved separately. On the inner horizontal face of the upper or lower cap, prescribe the outward normal derivative $-E_\eta(x,\pm\ell)\cdot(\pm e_y)$ for $x\in K'_R$, and $-C^\pm$ for $x\in K_R\setminus K'_R$; here $e_y$ is the positive vertical unit vector. Prescribe zero normal derivative on every other face. By (eq:normalized-two-caps), the weighted integral of these data is $-T_\pm-A_{\rm sh}\ell^\gamma C^\pm=0$, so each cap problem is compatible. If $u$ is adjusted by its ordinary mean on one cap, ordinary trace and Poincaré, followed by weight comparison, give $$\int_{K_R\times\{\ell\}}w|u|^2
+The upper and lower weighted harmonic caps are solved separately. On the inner horizontal face of the upper or lower cap, prescribe the outward normal derivative $-E_\eta(x,\pm\ell)\cdot(\pm e_y)$ for $x\in K'_R$, and $-C^\pm$ for $x\in K_R\setminus K'_R$; here $e_y$ is the positive vertical unit vector. Prescribe zero normal derivative on every other face. By (B.9), the weighted integral of these data is $-T_\pm-A_{\rm sh}\ell^\gamma C^\pm=0$, so each cap problem is compatible. If $u$ is adjusted by its ordinary mean on one cap, ordinary trace and Poincaré, followed by weight comparison, give $$\int_{K_R\times\{\ell\}}w|u|^2
    \le CR\max\{1,(\ell/R)^\gamma\}
                               \int_{\rm cap}w|\nabla u|^2.$$ Testing the compatible cap problem yields total cap energy at most $$C e_{\varepsilon,R}
-                     \varepsilon^{1+\min(2\gamma,0)}R^2.$$ The extra factor for $\gamma<0$ is retained. It vanishes at fixed $\varepsilon$ by (eq:normalized-moving-tail). There are no cap terms for $k=0$.
+                     \varepsilon^{1+\min(2\gamma,0)}R^2.$$ The extra factor for $\gamma<0$ is retained. It vanishes at fixed $\varepsilon$ by (B.8). There are no cap terms for $k=0$.
 
-Retain $E_\eta$ in $D_0$, use the sum of the five finite-energy components in the shell, and use the two harmonic cap fields above and below. Extend this assembled field $\widehat F_\eta$ by zero past the outer square and the cap heights. It has zero exterior normal flux and source $\kappa(\sum_{p\in\widehat\Lambda}\delta_p^{(\eta)}
--\mathbf1_{K_R}\delta_{\mathbb R^2})$, where $\widehat\Lambda$ consists of the retained old and new barycenter charges, exactly $R^2$ points. Now define $$\widehat E=\widehat F_\eta+
+Retain $E_\eta$ in $D_0$, use the sum of the five finite-energy components in the shell, and use the two harmonic cap fields above and below. Extend this assembled field $\widehat F_\eta$ by zero past the outer square and the cap heights. It has zero exterior normal flux and source $\kappa(\sum_{p\in\widehat\Lambda}\delta_p^{(\eta)} -\mathbf1_{K_R}\delta_{\mathbb R^2})$, where $\widehat\Lambda$ consists of the retained old and new barycenter charges, exactly $R^2$ points. Now define $$\widehat E=\widehat F_\eta+
                \sum_{p\in\widehat\Lambda}\nabla f_\eta(\cdot-(p,0)).$$ The singular corrections lie inside the outer square by its clearance. Thus $\widehat E_\eta=\widehat F_\eta$ exactly, and the fundamental-solution identity proves the required unsmeared divergence equation, with zero exterior normal flux. At fixed cutoffs the preceding bounds give $$\begin{align}
  R^{-2}\int_{K_R\times\mathbb R^k}w|\widehat E_\eta|^2
  &\le M_{R,\eta}
@@ -1602,7 +1600,7 @@ Retain $E_\eta$ in $D_0$, use the sum of the five finite-energy components in th
                  (1+M_{R,\eta}+M_{R,\eta'})+o_R(1)\notag\\
  &\quad+C_s e_{\varepsilon,R}
                        \varepsilon^{1+\min(2\gamma,0)}.
- \label{eq:normalized-screen-estimate}
+ \tag{B.12}
 \end{align}$$ Here $R$ is chosen after $\eta,\eta',\varepsilon$. For example, the count estimate is controlled once $R\gg(1+M_{R,\eta'})\varepsilon^{-5}$.
 
 Every new barycenter is at least $a_0/2$ from each face of its rectangle. Retained old points lie inside $K'_R$ or within $\eta$ of its boundary. Since $\eta<\eta_0\le a_0/16$ was fixed before the realization was selected, every new–old distance is at least $a_0/2-\eta>2\eta$. Choose the integer radius large enough that $\varepsilon R-\eta\ge a_0/2$; this gives the same clearance at the outer boundary and hence at every reflected seam. New–new distances and all reflection-seam distances exceed $2\eta$. Thus every close pair after screening was already an old close pair. ◻
@@ -1615,17 +1613,16 @@ Reflect the screened square in both coordinate directions and repeat with period
 
 Write $E^{\rm per}$ for the reflected field, which need not be curl free, and let $E^{\rm can}$ be the canonical periodic gradient with exactly its charges and background. At fixed cutoff, $D=E^{\rm per}-E^{\rm can}=E^{\rm per}_\eta-E^{\rm can}_\eta$ belongs to $L^2(w)$ on the full period cylinder and has zero weighted divergence. Test against the canonical truncated potential, with vertical cutoffs tending to infinity; its nonconstant Fourier modes decay vertically and its zero mode has compactly supported derivative. The cross term vanishes, so $$\int_{T\times\mathbb R^k}w|E^{\rm per}_\eta|^2
   =\int_{T\times\mathbb R^k}w|E^{\rm can}_\eta|^2
-                       +\int_{T\times\mathbb R^k}w|D|^2.$$ Canonical projection therefore decreases the cutoff energy and leaves the configuration defect unchanged. It also returns to the prescribed admissible class. For $s>0$, finite truncated $L^2(w)$ energy gives local unweighted $L^p$ by weighted Hölder when $p<\min(2,2/s)$, and each of the finitely many local singular corrections belongs to $L^p$ when $p<3/(s+1)$. For the logarithm both bounds reduce to $p<2$. Weighted Cauchy–Schwarz and the locally integrable singular flux give $wE^{\rm can}\in
-L^1_{\rm loc}$. Thus the canonical gradient is a member of $\mathcal A_1$ with the exponent fixed at the beginning, even though the intermediate screened field was not required to be a gradient.
+                       +\int_{T\times\mathbb R^k}w|D|^2.$$ Canonical projection therefore decreases the cutoff energy and leaves the configuration defect unchanged. It also returns to the prescribed admissible class. For $s>0$, finite truncated $L^2(w)$ energy gives local unweighted $L^p$ by weighted Hölder when $p<\min(2,2/s)$, and each of the finitely many local singular corrections belongs to $L^p$ when $p<3/(s+1)$. For the logarithm both bounds reduce to $p<2$. Weighted Cauchy–Schwarz and the locally integrable singular flux give $wE^{\rm can}\in L^1_{\rm loc}$. Thus the canonical gradient is a member of $\mathcal A_1$ with the exponent fixed at the beginning, even though the intermediate screened field was not required to be a gradient.
 
-For a finite simple periodic configuration, integrate (eq:normalized-two-cutoff-local) over its period cell and let the auxiliary cutoff tend to zero. This gives $$\begin{equation}
+For a finite simple periodic configuration, integrate (B.5) over its period cell and let the auxiliary cutoff tend to zero. This gives $$\begin{equation}
  V(\mathcal C)-\mathcal W_\eta(E^{\rm can}_{\mathcal C})
    =\frac{\kappa}{|T|}\sum_{p\in T}\sum_{q\ne p}q_\eta(p-q)
                         -2\kappa F_\eta.
- \label{eq:normalized-periodic-defect}
+ \tag{B.13}
 \end{equation}$$ The second sum includes periodic images; the self image at zero is the only omitted particle.
 
-Keep the auxiliary cutoff $\eta'$ fixed at its initial value as $\eta$ tends to zero. For each selected $\eta$, take the realization chosen above, and choose $\varepsilon$ so the middle term of (eq:normalized-screen-estimate) is as small as desired; then choose an arbitrarily large integer $R$ so that all energy and defect limits, the moving-tail estimate, the size conditions, and the seam clearance hold simultaneously. Subtract $\kappa g(\eta)$, project canonically, and apply (eq:normalized-periodic-defect). Equations (eq:normalized-cutoff-bound) and (eq:normalized-defect-small) give $$V(\mathcal C_{\eta,R})
+Keep the auxiliary cutoff $\eta'$ fixed at its initial value as $\eta$ tends to zero. For each selected $\eta$, take the realization chosen above, and choose $\varepsilon$ so the middle term of (B.12) is as small as desired; then choose an arbitrarily large integer $R$ so that all energy and defect limits, the moving-tail estimate, the size conditions, and the seam clearance hold simultaneously. Subtract $\kappa g(\eta)$, project canonically, and apply (B.13). Equations (B.3) and (B.7) give $$V(\mathcal C_{\eta,R})
    \le m+2\kappa F_\eta+o(1)+2D_\eta-2\kappa F_\eta
    =m+2D_\eta+o(1).$$ Let the chosen cutoffs tend to zero, taking the screening thickness and integer radius in that order for each cutoff. The canonical periodic gradients belong to $\mathcal A_1$, so their values are also at least $m$. This proves the asserted cubic minimizing sequence. Every use of the box limit preceded removal of the cutoff; no interchange of the two limits has been made. ◻
 
@@ -1633,12 +1630,12 @@ Keep the auxiliary cutoff $\eta'$ fixed at its initial value as $\eta$ tends to 
 
 This appendix proves a conditional alternative to the exact-array interval verification used in Proposition 3.3. If the rational procedure below passes the stronger tables of Section 3, its roundoff allowances leave the exact quadrature arrays within the proposition’s looser bounds. The complete floor-rounded matrix procedure is not executed by the supplied programs; the selected finite certificate uses direct Arb enclosures of the exact arrays.
 
-We use $\epsilon=10^{-80}$ and the decimal brackets $p_*,b_*$ from (eq:rational-pi-b) in Appendix A. We first define the rounding and prove its error bounds. The complete listings then specify each finite loop, keeping all arithmetic not explicitly rounded exact.
+We use $\epsilon=10^{-80}$ and the decimal brackets $p_*,b_*$ from (A.1) in Appendix A. We first define the rounding and prove its error bounds. The complete listings then specify each finite loop, keeping all arithmetic not explicitly rounded exact.
 
 ### Componentwise rounding and its error
 
 For real $x$, let $R(x)=\epsilon\lfloor x/\epsilon\rfloor$. Apply $R$ separately to the real and imaginary components of a complex number and entrywise to a matrix. For complex rational $w$, define $$\begin{equation}
-\label{eq:rational-exponential}
+\tag{C.1}
 \begin{gathered}
  u=R(w/4096),\qquad d_0=1,\qquad
  d_j=R(d_{j-1}u/j)\quad(1\le j\le60),\\
@@ -1657,7 +1654,7 @@ A superscript $\#$ denotes the output of this floor prescription. Its error is m
 
 2.  *A computed single-column quadrature moment of order at most $42$, scaled by $y^a/a!$ with $|y|\le3/2$, differs from the exact quadrature moment by less than $10^{-48}$. The initial operator-norm errors in $S^\#_{\mathcal F\mathcal F}$, $S^\#_{\mathcal F e}$, and $Y^\#$ are less than $10^{-44}$.*
 
-3.  *Suppose that either the exact or the rounded computation satisfies the following envelopes: every pre-update power in the nine steps has norm below $3$, each intermediate partial-sum matrix has norm below $34$, and every combined pair of corresponding $X_1,X_2$ columns has norm below $5.6$. Then the combined error in a pair of corresponding columns of $X_1^\#,X_2^\#$ is less than $10^{-29}$. Every entry of the Bernstein rows $L_{i,d}^\#$ differs from the corresponding entry of $L_{i,d}$ in (eq:bernstein-rows) by less than $10^{-16}$. Every lower evaluation in (eq:bernstein-certificate) and every tail expression in (eq:tail-certificate) has error less than $10^{-6}$.*
+3.  *Suppose that either the exact or the rounded computation satisfies the following envelopes: every pre-update power in the nine steps has norm below $3$, each intermediate partial-sum matrix has norm below $34$, and every combined pair of corresponding $X_1,X_2$ columns has norm below $5.6$. Then the combined error in a pair of corresponding columns of $X_1^\#,X_2^\#$ is less than $10^{-29}$. Every entry of the Bernstein rows $L_{i,d}^\#$ differs from the corresponding entry of $L_{i,d}$ in (3.8) by less than $10^{-16}$. Every lower evaluation in (3.11) and every tail expression in (3.12) has error less than $10^{-6}$.*
 
 *The stagewise envelopes in the last item follow from the stronger power and column tables, whether those tests are established on the exact arrays by intervals or on the rounded arrays by the prescription below.*
 
@@ -1672,7 +1669,7 @@ A componentwise floor changes a complex number by less than $2\epsilon$. For $r=
  <1.263\cdot10^{-78}<4\cdot10^{-78}.$$ The factorial tail alone is less than $4\cdot10^{-107}$. These are finite rational comparisons after using $e^{.416}<e<2719/1000$.
 
 At squaring step $j$, the exact value has modulus at most $e^{7/2^{12-j}}$. While the accumulated error is below one, its amplification factor is at most $2e^{7/2^{12-j}}+1$. Since $2e^a+1\le3e^a$ for $a\ge0$, the product of all twelve factors is at most $3^{12}e^7$. Including all twelve new floors gives $$\begin{equation}
-\label{eq:exponential-roundoff-budget}
+\tag{C.2}
  (4\cdot10^{-78}+24\epsilon)3^{12}e^7
  <2.472\cdot10^{-69}<10^{-68}.
 \end{equation}$$ The same bound is below one at every earlier stage, closing the hypothesis used in the amplification estimate.
@@ -1682,7 +1679,7 @@ The arguments used by the prescription have ample room in the stated domain. Den
 ##### Primitive masses and moments.
 
 The intermediate absolute error allowances are $$\begin{equation}
-\label{eq:primitive-roundoff-budgets}
+\tag{C.3}
 \begin{array}{c|c}
 \text{quantity}&\text{absolute error bound}\\ \hline
  \tau_{jv}&10^{-67}\\
@@ -1699,23 +1696,23 @@ The intermediate absolute error allowances are $$\begin{equation}
 For a weight phase, replacing $\pi$ changes the phase by less than $382\epsilon$. Add the $10^{-68}$ exponential error, and use $2\sum_{a=1}^{191}(4a^2-1)^{-1}<1$. Including the final floor gives the stated bounds for $\tau$ and $o$. On the real line, $|t+ih|\ge h$; the derivative bounds $$|z'(t)|\le B/h^2<9,\qquad
  |\partial_t\lambda(t)|<8,\qquad |\partial_b\lambda(t)|<4$$ then give the errors for $z$ and $\lambda$. The density phase errors are below $10^{-63}$ because $n\le168$. Inserting them in the six-term density formulas, using $\sum_{l>0}|P_l|=10$, gives the density allowance $10^{-60}$. The weighted density errors sum to at most $10^{-60}$ because the six positive quadrature rules have total weight one. Weight errors, density errors, the $2311$ componentwise mass floors, and atom coefficient errors together contribute less than $10^{-59}$ to the sum of absolute errors in one mass column.
 
-Each exact mass column has sum of absolute values less than $230$. Indeed, the pointwise real-interval density bounds are $2\pi^2\sum_{l>0}t_l|P_l|<106$ for a $c_n$ column and $20\pi<63$ for a $d_n$ column; the constant column has atomic variation $25$. Positivity and total density weight one from (eq:positive-quadrature-weights) make $230$ a common bound.
+Each exact mass column has sum of absolute values less than $230$. Indeed, the pointwise real-interval density bounds are $2\pi^2\sum_{l>0}t_l|P_l|<106$ for a $c_n$ column and $20\pi<63$ for a $d_n$ column; the constant column has atomic variation $25$. Positivity and total density weight one from (3.2) make $230$ a common bound.
 
 The direct zeroth kernel phase error is below $10^{-63}$. The transformed zeroth phase error is below $6\cdot10^{-63}$, and multiplication by $|\lambda|<3$ still leaves error below $10^{-60}$. The divided-power arguments $i\pi yt$ and $i\pi yz$ have modulus below $15$ and error below $10^{-63}$. To see explicitly how these errors enter a higher moment, write either exact factor as $H_a=H_0v^a/a!$ and its rounded update as $H_a^\#=R(H_{a-1}^\#v^\#/a)$. Here $$|H_0|<3,\qquad |H_0^\#-H_0|<10^{-60},\qquad
  |v|,|v^\#|<15,\qquad |v^\#-v|<10^{-63}.$$ Changing the initial value costs at most $e^{15}10^{-60}$, and changing $v$ costs at most $3e^{15}10^{-63}$, by the derivative of $v^a/a!$. A floor introduced at step $j$ is multiplied by $(v^\#)^{a-j}j!/a!$. Since $j!/a!\le1/(a-j)!$, all the floors together cost at most $$2\epsilon\sum_{j=1}^a15^{a-j}\frac{j!}{a!}\le2\epsilon e^{15}.$$ Thus for $0\le a\le42$ the total factor error is bounded by $$|H_a^\#-H_a|
- <e^{15}\bigl(10^{-60}+3\cdot10^{-63}+2\epsilon\bigr)<10^{-52}.$$ The last comparison follows already from $e<3$. Expanding the moment difference against the rounded mass column, whose norm is below $230+10^{-59}$, also retains the product of the two primitive errors. The total is at most $$(230+10^{-59})10^{-52}+3e^{15}\cdot10^{-59}<10^{-48}.$$ Finally, (eq:node-constants) and (eq:rational-pi-b-error) give errors below $10^{-75}$ in $Q_n,D_n$. Jet projection uses $Q_n>1.75$, $|D_n|<2.12$, and $168$ output coordinates. Including its floors, the resulting initial operator errors are less than $10^{-44}$; the same estimate applies to $Y^\#$.
+ <e^{15}\bigl(10^{-60}+3\cdot10^{-63}+2\epsilon\bigr)<10^{-52}.$$ The last comparison follows already from $e<3$. Expanding the moment difference against the rounded mass column, whose norm is below $230+10^{-59}$, also retains the product of the two primitive errors. The total is at most $$(230+10^{-59})10^{-52}+3e^{15}\cdot10^{-59}<10^{-48}.$$ Finally, (2.8) and (A.2) give errors below $10^{-75}$ in $Q_n,D_n$. Jet projection uses $Q_n>1.75$, $|D_n|<2.12$, and $168$ output coordinates. Including its floors, the resulting initial operator errors are less than $10^{-44}$; the same estimate applies to $Y^\#$.
 
 ##### Powers and coefficient columns.
 
 A floor on a real matrix with $168$ rows contributes at most $168\epsilon<10^{-77}$ in operator norm. Let $e_r$ bound the error in $U$ before step $r$, and let $v_r$ bound the error in either partial-sum matrix after $r$ steps, with $v_0=0$. The assumed stagewise envelopes give $\left\lVert U\right\rVert<3$ and partial-sum norms below $34$. Comparing products and then adding the floor gives $$\begin{equation}
-\label{eq:matrix-roundoff-recurrence}
+\tag{C.4}
  e_0<10^{-44},\qquad
  e_{r+1}\le7e_r+10^{-77},\qquad
  v_{r+1}\le5v_r+34e_r+10^{-77}.
 \end{equation}$$ More precisely, the square error is at most $(6+e_r)e_r+10^{-77}$, and the partial-sum coefficient of $v_r$ is at most $4+e_r$. Induction gives $e_r<1$ and validates the displayed recurrence. Its finite rational solution yields $$\max_{0\le r\le8}e_r<5.765\cdot10^{-38}<10^{-36},
  \qquad v_9<6.529\cdot10^{-36}<10^{-34}.$$ If the coarse norms are known for the rounded rather than exact factors, exchange their roles in the product difference. The same two inequalities follow. This is why the argument is not circular and does not require a rounded matrix inverse.
 
-The largest combined column norm of $E_1,E_2$ is $3.3505$. The formulas for $Y$ give $\left\lVert Y\right\rVert<2$, and the transform bound gives the sharper data estimate $2+(4000+2\cdot10^{-27})3.3505<13405$. Its rational perturbation is less than $10^{-43}$. Thus, for every column $j$, $\left\lVert(g_1)_j\right\rVert_1+\left\lVert(g_2)_j\right\rVert_1<20000$ for both the exact and rounded data. Applying the two sum/difference formulas in (eq:finite-columns), including the $168$ real floors in each of the two final columns, gives the complete bound $$40000v_9+72\cdot10^{-43}+336\epsilon
+The largest combined column norm of $E_1,E_2$ is $3.3505$. The formulas for $Y$ give $\left\lVert Y\right\rVert<2$, and the transform bound gives the sharper data estimate $2+(4000+2\cdot10^{-27})3.3505<13405$. Its rational perturbation is less than $10^{-43}$. Thus, for every column $j$, $\left\lVert(g_1)_j\right\rVert_1+\left\lVert(g_2)_j\right\rVert_1<20000$ for both the exact and rounded data. Applying the two sum/difference formulas in (3.6), including the $168$ real floors in each of the two final columns, gives the complete bound $$40000v_9+72\cdot10^{-43}+336\epsilon
  <2.612\cdot10^{-31}<10^{-29}.$$ The appended extras are exact. In particular, the term $336\epsilon$ is part of the column error even though it is negligible numerically.
 
 ##### Bernstein and lower-evaluation errors.
@@ -1723,15 +1720,15 @@ The largest combined column norm of $E_1,E_2$ is $3.3505$. The formulas for $Y$ 
 A scaled moment against a unit list column has absolute value at most $230\cdot3e^{15}$. Also $|y|^{-\nu}\le4$ and $0\le\omega_{dr}\le1$. The contribution from the coefficient-list error to one Bernstein row entry is therefore at most $$41\cdot4\cdot230\cdot3e^{15}\cdot10^{-29}
  <3.700\cdot10^{-18}.$$ For this decomposition the list difference is evaluated with exact moments; the primitive difference is evaluated against the rounded columns. The primitive moments therefore contribute separately. The relevant combined column norm is below $6$, either directly from the rounded cutoffs or from the exact cutoff $5.6$ and the column error. Thus their contribution is at most $$41\cdot4\cdot6\cdot10^{-48}<10^{-44}.$$ The sum of these two contributions is below $10^{-16}$, as claimed. This explicitly includes the primitive-moment addition.
 
-For completeness, the subsequent minimizations do not amplify that bound to anything close to $10^{-6}$. The same moment bound with combined column norm $6$ shows that each exact Bernstein row entry is below $10^{14}$ in modulus. If its entry error is $\delta=10^{-16}$, then for $x\in\{1/K,1/J\}\subset[0,1]$ the error in $a_j+xb_j$ is below $2\delta$. A finite endpoint exponential has error below $10^{-68}$ and modulus at most one; the infinite-endpoint values are exact. Each product in (eq:box-lower) consequently has error below $2\delta+(2\cdot10^{14}+2\delta)10^{-68}$. There are four such products and one unmultiplied term. A minimum is nonexpansive in the maximum norm, so the total row lower-evaluation error is less than $2\cdot10^{-15}$.
+For completeness, the subsequent minimizations do not amplify that bound to anything close to $10^{-6}$. The same moment bound with combined column norm $6$ shows that each exact Bernstein row entry is below $10^{14}$ in modulus. If its entry error is $\delta=10^{-16}$, then for $x\in\{1/K,1/J\}\subset[0,1]$ the error in $a_j+xb_j$ is below $2\delta$. A finite endpoint exponential has error below $10^{-68}$ and modulus at most one; the infinite-endpoint values are exact. Each product in (3.7) consequently has error below $2\delta+(2\cdot10^{14}+2\delta)10^{-68}$. There are four such products and one unmultiplied term. A minimum is nonexpansive in the maximum norm, so the total row lower-evaluation error is less than $2\cdot10^{-15}$.
 
 Only the target supports at $m=0$ and $m=3$ use a rounded exponential. At $m=0$, $|Ky|\le3$, $1/K<1$, and $\sum_{r=0}^{40}3^r/r!<e^3<27$, so their total weighted error is below $27\cdot10^{-68}$. At $m=3$, $J/2\le3$ gives error below $3\cdot10^{-68}$. The $m=1$ support is rational and exact. These additions still leave a bound far below $10^{-6}$.
 
-For a tail row from $X_i$, the entry error is below $10^{-29}$ and its entry modulus is below $6$. The same is true for the row obtained by summing the low $d_n$ rows, because the combined column norm controls that sum. The preceding five-term argument gives lower-evaluation error below $2\cdot10^{-28}$ for each such row. Taking $\min(0,\cdot)$ does not increase it. In (eq:tail-certificate) there are one constant row, one summed row, and two rows for each of $46$ low nodes, hence $94$ terms. Their nonnegative reciprocal factors are at most one since $s_0-n\ge1.5$. The tail error is therefore below $94(2\cdot10^{-28})<2\cdot10^{-26}$, in particular below $10^{-6}$. ◻
+For a tail row from $X_i$, the entry error is below $10^{-29}$ and its entry modulus is below $6$. The same is true for the row obtained by summing the low $d_n$ rows, because the combined column norm controls that sum. The preceding five-term argument gives lower-evaluation error below $2\cdot10^{-28}$ for each such row. Taking $\min(0,\cdot)$ does not increase it. In (3.12) there are one constant row, one summed row, and two rows for each of $46$ low nodes, hence $94$ terms. Their nonnegative reciprocal factors are at most one since $s_0-n\ge1.5$. The tail error is therefore below $94(2\cdot10^{-28})<2\cdot10^{-26}$, in particular below $10^{-6}$. ◻
 
 ### The complete floor-rounded finite prescription
 
-We now specify the alternative rational computation. Every loop has a finite inclusive range. The five shell and two list indices are one-based; quadrature and derivative indices start at zero as indicated. Products are ordinary matrix or row products, without conjugation. An operation not marked $R$ is exact rational arithmetic. The imaginary unit is `i`; a list subscript never denotes that unit. The symbols $P_l,Q_n,D_n$ mean the formulas in (eq:periodic-coefficients) and (eq:node-constants) after the rational substitutions above.
+We now specify the alternative rational computation. Every loop has a finite inclusive range. The five shell and two list indices are one-based; quadrature and derivative indices start at zero as indicated. Products are ordinary matrix or row products, without conjugation. An operation not marked $R$ is exact rational arithmetic. The imaginary unit is `i`; a list subscript never denotes that unit. The symbols $P_l,Q_n,D_n$ mean the formulas in (2.6) and (2.8) after the rational substitutions above.
 
 The input order is all $c_n$ for increasing $n\in\mathcal F$, then all $d_n$, then $c_0,d_0,C$. The $2311$ mass rows are the $6\cdot384$ quadrature points in lexicographic order followed by the seven atoms.
 
@@ -1784,7 +1781,7 @@ These moments are scaled by $y^a/a!$, which explains the division by $y^\nu$ in 
  \left(
  \left\lfloor\frac{x_r^2-x_i^2}{S}\right\rfloor,
  \left\lfloor\frac{2x_rx_i}{S}\right\rfloor
- \right).$$ Every floor is toward negative infinity, including for negative numerators. These formulas are exactly (eq:rational-exponential).
+ \right).$$ Every floor is toward negative infinity, including for negative numerators. These formulas are exactly (C.1).
 
 ``` text
 Ssharp = zero matrix with 168 rows and 171 columns
@@ -1825,7 +1822,7 @@ X[2] = stack(R((vp*(g1+g2)-vm*(g1-g2))/2), E2)
 # against the corresponding bound in the column table.
 ```
 
-The product identities in the proof of Proposition 3.3 give the prescribed $512$-term series. At each stage, the entries of `vp` and `vm` are integer multiples of $\epsilon$. Hence $V+R(VU)=R(V(I+U))$, with the analogous identity for the initial minus sign. The listing and the rounded product update used in (eq:matrix-roundoff-recurrence) are therefore the same operation.
+The product identities in the proof of Proposition 3.3 give the prescribed $512$-term series. At each stage, the entries of `vp` and `vm` are integer multiples of $\epsilon$. Hence $V+R(VU)=R(V(I+U))$, with the analogous identity for the initial minus sign. The listing and the rounded product update used in (C.4) are therefore the same operation.
 
 ``` text
 nodes5 = [1,3,4,7,9]

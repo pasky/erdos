@@ -60,10 +60,10 @@ The proof has two ingredients. A triangle-free graph has an independent set larg
 
 Now choose $X$ uniformly from the vertices, independently of $I$. Double counting gives $$\mathbb E Z_X
  \le\frac4n\sum_v\deg(v)\Pr(v\in I)\le4D\mu.$$ Jensen’s inequality for the convex function $z\mapsto2^{-z}$ yields $$\begin{equation}
-\label{eq:occupancy-fixed-point}
+\tag{1}
  \mu\ge\frac12\mathbb E2^{-Z_X}
  \ge\frac12\,2^{-4D\mu}.
-\end{equation}$$ Write $u=D+1$. If $\mu<\log u/(8u)$, then $4D\mu\log2<\tfrac12\log u$, so (eq:occupancy-fixed-point) gives $\mu>1/(2\sqrt u)$. But $\log u\le\sqrt u$ for $u\ge1$, and the assumed inequality gives $\mu<1/(8\sqrt u)$, a contradiction. Finally, $\alpha(H)\ge\mathbb E|I|=n\mu$. ◻
+\end{equation}$$ Write $u=D+1$. If $\mu<\log u/(8u)$, then $4D\mu\log2<\tfrac12\log u$, so (1) gives $\mu>1/(2\sqrt u)$. But $\log u\le\sqrt u$ for $u\ge1$, and the assumed inequality gives $\mu<1/(8\sqrt u)$, a contradiction. Finally, $\alpha(H)\ge\mathbb E|I|=n\mu$. ◻
 
 The degree parameter in Lemma 2.2 need not equal the actual maximum degree. In particular, the lemma also applies to edgeless graphs by taking any $D\ge1$.
 
@@ -78,7 +78,7 @@ The degree parameter in Lemma 2.2 need not equal the actual maximum degree. In 
 \end{align*}$$ Choose a realization at least as large as this expectation. Delete all vertices having degree greater than $12pd$ in the original graph $G[S]$; there are at most $2e(G[S])/(12pd)$ such vertices. Then delete one vertex from each remaining triangle until no triangle remains. The latter procedure uses at most $T(G[S])$ further vertices. The remaining induced graph has the required order and maximum degree. ◻
 
 *Proof of Theorem 2.1.* We prove the estimates for sufficiently large $t$; increasing the final constant covers the finitely many smaller values. First, if $G$ is triangle-free and $\alpha(G)<t$, every neighborhood is independent, so its maximum degree is at most $t-1$. Lemma 2.2, with $D=t-1$, gives $|V(G)|<8t^2/\log t$. Consequently $$\begin{equation}
-\label{eq:ramsey-three-upper}
+\tag{2}
  r(3,t)\le C_3\frac{t^2}{\log t}
 \end{equation}$$ for an absolute constant $C_3$.
 
@@ -88,16 +88,16 @@ Next let $s\in\{4,5\}$, and suppose $G$ is $K_s$-free with $\alpha(G)<t$. Put $n
  \end{cases}$$ Here the first case uses the fact that this common neighborhood is independent, and the second uses that it is triangle-free.
 
 If $d\le t^{s-5/2}$, greedy selection gives $n<t(d+1)$: repeatedly choose a vertex for an independent set and remove its closed neighborhood, which has at most $d+1$ vertices. Hence $$n\le2t^{s-3/2}
- =o\!\left(\frac{t^{s-1}}{(\log t)^{s-2}}\right).$$ Otherwise set $p=(dm)^{-1/2}$. For $s=4$ we have $pd>t^{1/4}$. For $s=5$, (eq:ramsey-three-upper) gives $$pd=\sqrt{d/m}
+ =o\!\left(\frac{t^{s-1}}{(\log t)^{s-2}}\right).$$ Otherwise set $p=(dm)^{-1/2}$. For $s=4$ we have $pd>t^{1/4}$. For $s=5$, (2) gives $$pd=\sqrt{d/m}
  \ge C_3^{-1/2}t^{1/4}\sqrt{\log t}\ge t^{1/5}$$ for all sufficiently large $t$. The hypotheses of Lemma 2.3 therefore hold. Its subgraph $H$ still satisfies $\alpha(H)<t$. Applying Lemma 2.2 with $D=12pd$ gives $$t>\alpha(H)
  \ge\frac{(3/4)pn\log(12pd+1)}{8(12pd+1)}
  \ge c\frac{n\log t}{d}$$ for an absolute $c>0$. We conclude that $$\begin{equation}
-\label{eq:ramsey-upper-step}
+\tag{3}
  n\le C\frac{td}{\log t}
  \le C\frac{t\,r(s-1,t)}{\log t}
 \end{equation}$$ in the large-degree case.
 
-Apply this argument first with $s=4$, using (eq:ramsey-three-upper). Together with the small-degree case it gives $r(4,t)\le C_4t^3/(\log t)^2$. Apply it next with $s=5$, using this established bound for $r(4,t)$ in (eq:ramsey-upper-step). This gives $r(5,t)\le Ct^4/(\log t)^3$ as required. In each passage from an avoiding graph to a Ramsey number, the additive one is absorbed into the absolute constant. ◻
+Apply this argument first with $s=4$, using (2). Together with the small-degree case it gives $r(4,t)\le C_4t^3/(\log t)^2$. Apply it next with $s=5$, using this established bound for $r(4,t)$ in (3). This gives $r(5,t)\le Ct^4/(\log t)^3$ as required. In each passage from an avoiding graph to a Ramsey number, the additive one is absorbed into the absolute constant. ◻
 
 ## Projective flags and selected-stream entropy
 
@@ -145,7 +145,7 @@ Entropy always means Shannon entropy with natural logarithms. For a finite-value
  \mathop{\mathrm{TC}}(Y_1,\ldots,Y_m)=\sum_iH(Y_i)-H(Y_1,\ldots,Y_m).$$ We use their conditional versions with the same convention.
 
 For probability masses $P,Q$ on a finite set, their relative entropy is $$\mathop{\mathrm{D}}(P\Vert Q)=\sum_xP(x)\log\frac{P(x)}{Q(x)},$$ with value infinity if $P$ charges a zero of $Q$. Direct expansion gives $$I(Y;Z)=\mathop{\mathrm{D}}(P_{Y,Z}\Vert P_Y\otimes P_Z).$$ For every real function $f$, Jensen’s inequality gives $$\begin{equation}
-\label{eq:entropy-variational}
+\tag{4}
  \mathop{\mathrm{D}}(P\Vert Q)\ge \mathbb E_P f-\log\mathbb E_Q e^f.
 \end{equation}$$ Indeed, apply concavity of the logarithm under $P$ to $e^fQ/P$; its expectation is at most $\mathbb E_Q e^f$. In particular relative entropy is nonnegative. If $P(E)=0$, use $f=-s1_E$ and let $s\to\infty$ to obtain $\mathop{\mathrm{D}}(P\Vert Q)\ge-\log(1-Q(E))\ge Q(E)$.
 
@@ -189,15 +189,15 @@ Throughout this section and the next, fix $0<\eta<1/10$ and put $$\beta=\eta/10^
  k=\lfloor q\sigma^{1+\eta}\rfloor.$$ All assertions are for sufficiently large primes $q$, with the threshold allowed to depend on $\eta$. A stage starts with a consistent tuple $F=(F_i)_{i=1}^{\ell}$ of deterministic length $\ell=\Theta(k)$, in stream order or in the globally reversed and swapped order. Its underlying stream marginal has density bounded by a constant relative to the iid stream law, and the rectangle-occupancy event of Lemma 3.3 holds almost surely. Constants may depend on the stage, but the number of stages will depend only on $\eta$.
 
 A discrete context $\mathsf C$ specifies, for each tuple position, a decoder-known set of flags containing its actual value. The deterministic parameters $\Lambda,\Delta\ge0$ satisfy $$\begin{equation}
-\label{eq:stage-input}
+\tag{5}
  H(\mathsf C)\le\Lambda,\qquad
  |\text{each slot domain}|\le Cq^4e^\Delta.
 \end{equation}$$ Set $$\begin{equation}
-\label{eq:stage-parameters}
+\tag{6}
  D=\sigma^\beta(1+\Lambda/k+\Delta\sigma^{-\eta}),\qquad
  K=D\sigma^{3\beta},\qquad K_*=D\sigma^{6\beta}.
 \end{equation}$$ For now assume $$\begin{equation}
-\label{eq:stage-range}
+\tag{7}
  \sigma^\beta\le D\le\sigma^{1-\eta/2}.
 \end{equation}$$ In particular $K_*=o(\sigma)$ and $K=o(K_*)$. We use the parameters $L,R,P$ of Theorem 4.1, so that $L=D\sigma^{8\beta}$, $R$ is even and belongs to $[\sigma^\beta,2\sigma^\beta+2]$, and $P=LR$. The step will retain a fixed positive fraction of the tuple and give it a new context with controlled entropy and slot-domain sizes. Proposition 6.4 states the quantitative output.
 
@@ -206,11 +206,11 @@ A discrete context $\mathsf C$ specifies, for each tuple position, a decoder-kno
 Counting ordered independent sets by steps with few options or a large reduction in the remaining domain goes back to Alon and Rödl (Alon and Rödl 2005, Theorem 2.1 and Lemma 2.2). The following scan adapts the marking argument of Bradač (Bradač 2026, Claim 2.13), freezing its state between expensive steps and recording its joint option counts for later entropy estimates.
 
 **Lemma 5.1** (Marking). *There is a message $\Omega$, consisting of constant-alphabet masks and $O(q\sigma)$ full flags, with the following properties. Given $(\mathsf C,\Omega)$, every unspecified flag belongs to a known set of at most $C_1q^4$ flags, where $C_1$ is an absolute constant. Moreover, $$\begin{equation}
-\label{eq:marking-cost}
+\tag{8}
  H(\Omega\mid\mathsf C)
  \le O(k)+(4\sigma+\Delta+O(1))\mathbb Eh,
 \end{equation}$$ where $h\le Cq\sigma$ is the number of specified flags. Put $\theta_0=(\mathsf C,\Omega)$ and $J_0=\log(C_1q^4)$, and let $F_{\rm cheap}$ be the tuple of unspecified flags. Its expected joint entropy deficit satisfies $$\begin{equation}
-\label{eq:deficit-budget}
+\tag{9}
  \mathbb E\bigl[(\ell-h)J_0-H_{\theta_0}(F_{\rm cheap})\bigr]
  \le \mathcal B:=C(\Lambda+k+\Delta q\sigma).
 \end{equation}$$ The same bound holds for any subset of unspecified positions determined by $(\mathsf C,\Omega)$.*
@@ -222,25 +222,25 @@ Choose $l\le r$ maximizing $|Z_l|$, with a fixed rule for ties. Declare the flag
 
 Otherwise declare the flag expensive and perform the update. At least $|Z_l|/(8q)$ points of $Z_l$ are hit by $a$, and fewer than $|Z_l|/(16q)$ already have $b\subseteq V(y)$. At least $|Z_l|/(16q)\ge |U_l^0|/(80q)$ therefore leave $U_l^0$. Each of the five nonempty sets $U_l^0$ can undergo only $O(q\sigma)$ such multiplicative reductions. This bounds the number of updates.
 
-Run the same scan after reversing the tuple and swapping the two point systems. Transmit rank/type masks for both scans and every flag expensive in either scan. These data reconstruct both states at every position, and every remaining position passes both cheap scans. The masks cost $O(k)$; the specified flags can be encoded using their old context domains. This proves (eq:marking-cost).
+Run the same scan after reversing the tuple and swapping the two point systems. Transmit rank/type masks for both scans and every flag expensive in either scan. These data reconstruct both states at every position, and every remaining position passes both cheap scans. The masks cost $O(k)$; the specified flags can be encoded using their old context domains. This proves (8).
 
 The unspecified positions and their number are known from $\theta_0$, and the specified flags have been revealed. Thus $$\mathbb EH_{\theta_0}(F_{\rm cheap})
- =H(F\mid\mathsf C,\Omega)\ge H(F)-H(\mathsf C,\Omega).$$ Using Lemma 3.4 and (eq:marking-cost) gives $$\mathbb E\bigl[(\ell-h)J_0-H_{\theta_0}(F_{\rm cheap})\bigr]
+ =H(F\mid\mathsf C,\Omega)\ge H(F)-H(\mathsf C,\Omega).$$ Using Lemma 3.4 and (8) gives $$\mathbb E\bigl[(\ell-h)J_0-H_{\theta_0}(F_{\rm cheap})\bigr]
  \le C(\Lambda+k+\Delta q\sigma).$$ The $4\sigma\mathbb Eh$ cost cancels the expected cap of the specified positions. The deficit is nonnegative because the remaining domains have size at most $e^{J_0}$. Finally, omitted coordinates contribute entropy at most their cap sum, proving the assertion about subsets. ◻
 
 The masks also give useful separate endpoint bounds. At a slot that is poor-cheap in at least one orientation, fix such an orientation by a priority rule and put $u=\max(\sigma,\min(4\sigma,\log|Z_l|))$. Its endpoint supports have sizes at most $$\begin{equation}
-\label{eq:reciprocal-caps}
+\tag{10}
  A_{\max}=Ce^{5\sigma-u},\qquad B_{\max}=Ce^u.
 \end{equation}$$ The clamping uses the trivial ambient bound $Q_4=O(q^4)$ at the two endpoints. If the slot is popular-cheap in both scans, with forward and reversed ranks $r,r'$, its endpoint caps and partner caps are as follows. Here $|B\mid A|$ is the largest number of permitted second endpoints for a fixed first endpoint, and $|A\mid B|$ is defined symmetrically: $$\begin{equation}
-\label{eq:high-caps}
+\tag{11}
  |A|\le Cq^{r'},\quad |B|\le Cq^r,\qquad
  |B\mid A|\le2q^{4-r'},\quad |A\mid B|\le2q^{4-r}.
-\end{equation}$$ In a high class we use $A_{\max}=Cq^{r'}$ and $B_{\max}=Cq^r$. For $r+r'\le5$, these imply (eq:reciprocal-caps) with $u=r\sigma$. Rank zero cannot be popular.
+\end{equation}$$ In a high class we use $A_{\max}=Cq^{r'}$ and $B_{\max}=Cq^r$. For $r+r'\le5$, these imply (10) with $u=r\sigma$. Rank zero cannot be popular.
 
-We divide the remaining positions into a fixed number of classes. Reciprocal classes specify their orientation and either an integer band $|u-r\sigma|\le K_*$, with $r\in\{1,2,3,4\}$, or an open band $$(r-1)\sigma+K_*<u<r\sigma-K_*.$$ For open bands $r\in\{2,3,4\}$. The remaining, high classes specify $(r,r')$ with $r+r'>5$; whenever a rank is four, orient the class so that $r=4$. By pigeonholing, an event determined by $\theta_0$ and of probability bounded below has a fixed class containing at least $c k$ positions. Condition on that event and retain the first $\lfloor c k\rfloor$ positions. Conditional laws at a fixed $\theta_0$ have not changed, and (eq:deficit-budget) changes only by a constant factor. The deterministic parameters $D,K,K_*$ remain those chosen at the start of the stage. Conditioning here multiplies the expected deficit bound by at most the reciprocal of a fixed positive probability, which is absorbed in its stage constant. It does not redefine $D$ from the entropy of the conditioned old context. The next stage will instead use the deterministic message-length bound for its newly constructed context. If the orientation is swapped, reverse the retained order as well. All subsequent lengths are deterministic.
+We divide the remaining positions into a fixed number of classes. Reciprocal classes specify their orientation and either an integer band $|u-r\sigma|\le K_*$, with $r\in\{1,2,3,4\}$, or an open band $$(r-1)\sigma+K_*<u<r\sigma-K_*.$$ For open bands $r\in\{2,3,4\}$. The remaining, high classes specify $(r,r')$ with $r+r'>5$; whenever a rank is four, orient the class so that $r=4$. By pigeonholing, an event determined by $\theta_0$ and of probability bounded below has a fixed class containing at least $c k$ positions. Condition on that event and retain the first $\lfloor c k\rfloor$ positions. Conditional laws at a fixed $\theta_0$ have not changed, and (9) changes only by a constant factor. The deterministic parameters $D,K,K_*$ remain those chosen at the start of the stage. Conditioning here multiplies the expected deficit bound by at most the reciprocal of a fixed positive probability, which is absorbed in its stage constant. It does not redefine $D$ from the entropy of the conditioned old context. The next stage will instead use the deterministic message-length bound for its newly constructed context. If the orientation is swapped, reverse the retained order as well. All subsequent lengths are deterministic.
 
 Split this class into equal windows, discarding the final remainder. Let $w$ be the resulting deterministic number of complete windows, before any subsequent deletions. Take window length, rounded to a multiple of four, of order $$\begin{equation}
-\label{eq:window-lengths}
+\tag{12}
  m\asymp
  \begin{cases}
  qD\sigma^{\eta/2},&\text{open bands},\\
@@ -256,19 +256,19 @@ In the following estimates, conditional entropies and mutual information are eva
 
 **Lemma 5.2** (Pre-round decoupling). *After exposing a deterministic number of rounds of older representatives, one can draw one fresh uniform unused position from each representative block, without exposing their values, with the following properties. Let $\theta$ consist of $\theta_0$ and all older indices and values. For an unexposed position $i$, write $$\delta_i=J_0-H_\theta(F_i),\qquad
  I_{ij}=I_\theta(F_i;F_j).$$ Then $$\begin{equation}
-\label{eq:decoupling-bounds}
+\tag{13}
  \mathbb E\sum_i\delta_i\le\mathcal B,\qquad
  \mathbb E\sum_i\max_{j\in\mathcal J_i}I_{ij}
  \le\frac{C\mathcal B}{qD\sigma^{3000\beta}},
 \end{equation}$$ where $\mathcal J_i$ consists of fresh representatives outside $i$’s own representative block, and contains all representatives for a middle target. The expected sums over fresh representative targets themselves are at most $C/m$ times the corresponding all-target sums. The fresh indices do not change the conditional flag marginals.*
 
 *Proof.* Draw one new unused position per block for each of $T=\lfloor qD\sigma^{3000\beta}\rfloor$ rounds, exposing values after each round. The parameter choices give $T=o(m)$, so all unused block sizes remain comparable to $m$. For any conditional law of coordinates and any set $E$ of coordinates, the chain rule gives $$\begin{equation}
-\label{eq:tc-drop}
+\tag{14}
  \mathop{\mathrm{TC}}(F)-\mathbb E[\mathop{\mathrm{TC}}(F_{E^c}\mid F_E)]
  =\mathop{\mathrm{TC}}(F_E)+\sum_{i\notin E}I(F_i;F_E).
 \end{equation}$$ Here the new indices are independent of the values given past history. The initial expected total correlation is at most $\mathcal B$, because it is bounded by the joint deficit in $J_0$-sized domains.
 
-For an unselected target, its maximum mutual information with a new representative is bounded by $I(F_i;F_E)$. For a target in a representative block, the maximum over the other blocks is independent of the draw in its own block. Thus the selected targets’ expected contribution is at most $C/m$ times the all-target contribution. Absorbing this $o(1)$ fraction and summing (eq:tc-drop) over rounds proves that some deterministic pre-round satisfies the second bound in (eq:decoupling-bounds).
+For an unselected target, its maximum mutual information with a new representative is bounded by $I(F_i;F_E)$. For a target in a representative block, the maximum over the other blocks is independent of the draw in its own block. Thus the selected targets’ expected contribution is at most $C/m$ times the all-target contribution. Absorbing this $o(1)$ fraction and summing (14) over rounds proves that some deterministic pre-round satisfies the second bound in (13).
 
 Revealing and removing $r$ coordinates cannot increase the expected deficit of those remaining: the removed coordinates have entropy at most $rJ_0$. This proves the first bound. Uniformity gives the same $C/m$ estimate for selected deficits. Choose the indicated pre-round and stop before revealing its fresh values. Its fresh indices are independent of the remaining values given $\theta$, proving the final assertion. ◻
 
@@ -276,52 +276,51 @@ Revealing and removing $r$ coordinates cannot increase the expected deficit of t
 
 All conditional probabilities in this subsection are given a fixed pre-round history $\theta$. For a flag $(a,b)$ at slot $i$, denote its joint and endpoint marginal probabilities by $p_i(a,b)$, $p_i^A(a)$, and $p_i^B(b)$. Call a first endpoint $a$ good if $$p_i^A(a)\ge e^{-K}/A_{\max}\quad\text{and}\quad
  \Pr\bigl(p_i(a,b)>q^{-4}e^K\mid a\bigr)\le .02;$$ define good second endpoints symmetrically. In a high class impose also the upper cutoffs $$p_i^A(a)\le e^Kq^{-r'},\qquad p_i^B(b)\le e^Kq^{-r}.$$ The mass of bad endpoints at slot $i$ is $$\begin{equation}
-\label{eq:bad-endpoint-mass}
+\tag{15}
  O\bigl(e^{-K}+(\delta_i+1)/K\bigr).
 \end{equation}$$ Indeed, the negative part of $\log(p_i(F_i)q^4)$ has bounded expectation by the support cap $C_1q^4$, so its positive part has expectation at most $\delta_i+O(1)$. Markov’s inequality proves the light-atom condition. The lower cutoff loses at most $e^{-K}$. For the high upper cutoff, the partner cap gives $H_\theta(A_i)\ge r'\sigma-\delta_i-O(1)$, and the same negative-part argument with the marginal cap $Cq^{r'}$ applies; similarly for $B_i$.
 
 Fix $\rho=.005$. For a first endpoint $a$ define a vector subspace in the second system by $$\mathcal K_i(a)=
  \bigcap_{\Pr(b\not\perp z\mid a)\le\rho} z^\perp.$$ Define $\mathcal L_j(y)$ in the first system by the analogous construction from the conditional first endpoint at second endpoint $y$. A basis of the span of the tests has at most five members; hence $$\begin{equation}
-\label{eq:core-capture}
+\tag{16}
  \Pr(b\in\mathcal K_i(a)\mid a)\ge1-5\rho,
  \qquad a\perp\mathcal K_i(a),
 \end{equation}$$ with the analogous assertions for $\mathcal L_j(y)$. At a good $a$, a captured light conditional atom is at most $q^{-4}e^{2K}A_{\max}$, and these atoms have total mass at least $.955$. Counting points in a vector subspace therefore gives $$\begin{equation}
-\label{eq:core-dimension}
+\tag{17}
  \dim\mathcal K_i(a)\ge
  \left\lceil5-\frac{\log A_{\max}+3K}{\sigma}\right\rceil,
 \end{equation}$$ and the corresponding bound using $B_{\max}$ for $\mathcal L_j(y)$.
 
 **Lemma 5.3** (Low-conflict geometry). *For $i<j$, write the two flags as $(a,b),(c,y)$ and compare their actual joint law with the independent product of their conditional marginals. In a reciprocal class, or the high class $(3,3)$, there are nonnegative numbers $c_{ij}$ such that $$\begin{equation}
-\label{eq:low-conflict}
+\tag{18}
  \Pr_{\mathrm{prod}}(a,y\text{ good},\ a\perp y)
  \le C(I_{ij}+c_{ij}),
  \qquad \sum_{i<j}c_{ij}\le C\sigma k.
 \end{equation}$$ In open reciprocal bands one can take $c_{ij}=0$.*
 
 *Proof.* The conflict event $a\perp y$, $c\not\perp b$ has probability zero under the actual joint law. Coarsening relative entropy to that event shows that its product probability is at most $I_{ij}$. Except for hit mass at most $I_{ij}/\rho^2$, its reverse-miss probability conditional on $(a,y)$ is at most $\rho^2$. Markov’s inequality then shows that at least $1-\rho$ of $c\mid y$ are tests defining $\mathcal K_i(a)$. Every point of $\mathcal K_i(a)$ is consequently a test defining $\mathcal L_j(y)$, so $$\begin{equation}
-\label{eq:core-containment}
+\tag{19}
  \mathcal L_j(y)\subseteq\mathcal K_i(a)^\perp.
 \end{equation}$$ On such endpoints, both memberships $b\in\mathcal K_i(a)$ and $c\in\mathcal L_j(y)$ hold under the product law with probability at least $1-10\rho$.
 
-In an open band, (eq:core-dimension) gives dimensions at least $r$ and $6-r$, contradicting (eq:core-containment). In an integer band the bounds are $r$ and $5-r$, so equality holds in the orthogonal complement. Let $E_{ij}$ require good endpoint incidence, the containment, and both core memberships. Both flags then belong to $\mathcal R(\mathcal K_i(a))$.
+In an open band, (17) gives dimensions at least $r$ and $6-r$, contradicting (19). In an integer band the bounds are $r$ and $5-r$, so equality holds in the orthogonal complement. Let $E_{ij}$ require good endpoint incidence, the containment, and both core memberships. Both flags then belong to $\mathcal R(\mathcal K_i(a))$.
 
 For $(3,3)$, both core dimensions are at least two. Put $V=\mathcal L_j(y)^\perp$. Then $\mathcal K_i(a)\subseteq V$ with dimension difference at most one. If $y\in\mathcal K_i(a)$, both flags belong to $\mathcal R(\mathcal K_i(a))$. Otherwise $V=\operatorname{span}(\mathcal K_i(a),y)$, and $a\perp y$ shows that both flags belong to $\mathcal R(V)$. The first rectangle is determined by the earlier slot, the second by the later slot. Lemma 3.3 thus bounds the number of charged partners of any slot by $C\sigma$, pointwise for every actual tuple. Set $c_{ij}=\Pr_{\mathrm{joint}}(E_{ij}\mid\theta)$ and take conditional expectations to obtain its sum bound.
 
 For any pair event $E$, the entropy variational inequality with test $-1_E$ gives $$I_{ij}\ge-\Pr_{\mathrm{joint}}(E)
-   -\log\bigl(1-(1-e^{-1})\Pr_{\mathrm{prod}}(E)\bigr).$$ Therefore $\Pr_{\mathrm{prod}}(E)\le
-C(I_{ij}+\Pr_{\mathrm{joint}}(E))$. Apply this to $E_{ij}$ and use the product core-capture bound to prove (eq:low-conflict). ◻
+   -\log\bigl(1-(1-e^{-1})\Pr_{\mathrm{prod}}(E)\bigr).$$ Therefore $\Pr_{\mathrm{prod}}(E)\le C(I_{ij}+\Pr_{\mathrm{joint}}(E))$. Apply this to $E_{ij}$ and use the product core-capture bound to prove (18). ◻
 
 Extend $c_{ij}$ symmetrically, setting it to zero in the other high classes. For a fresh target $i$, put $$g_i=\max_{j\in\mathcal J_i}(I_{ij}+c_{ij}).$$ Call the index good if $$\begin{equation}
-\label{eq:good-index}
+\tag{20}
  \delta_i\le D\sigma^\beta,\qquad
  g_i\le\sigma^{-2000\beta}/q.
-\end{equation}$$ The expected fractions of bad indices and bad representatives are $o(1)$. For mutual information use Lemma 5.2 and $\mathcal B/k=O(D\sigma^{-\beta})$. For collisions, uniform block sampling and (eq:low-conflict) give expected total at most $C\sigma k/m$; collision windows have $m\ge cq\sigma^{1+\eta/2}$, so Markov loses at most $C\sigma^{2000\beta-\eta/2}=o(1)$. Selection in a target’s own block is independent of its other-block sum, giving the representative estimate as before. At every good index, (eq:bad-endpoint-mass) is $o(1)$.
+\end{equation}$$ The expected fractions of bad indices and bad representatives are $o(1)$. For mutual information use Lemma 5.2 and $\mathcal B/k=O(D\sigma^{-\beta})$. For collisions, uniform block sampling and (18) give expected total at most $C\sigma k/m$; collision windows have $m\ge cq\sigma^{1+\eta/2}$, so Markov loses at most $C\sigma^{2000\beta-\eta/2}=o(1)$. Selection in a target’s own block is independent of its other-block sum, giving the representative estimate as before. At every good index, (15) is $o(1)$.
 
 ### Eliminating high classes
 
 **Lemma 5.4** (High ranks). *The retained class cannot be high. In the rank-four case, the stated assumptions instead directly produce an encoding contradicting Lemma 3.4.*
 
-*Proof.* First suppose the class is $(3,3)$. Choose a good early representative and a good middle target, which exist for some histories and fresh draws by the preceding estimates. Restrict the representative’s first marginal to good endpoints. Its total mass is $1-o(1)$ and its atoms are at most $e^K/q^3$. Weighted incidence variance shows that all but $Cq^2e^K$ second endpoints have incident mass at least $.3/q$. The exceptional set has mass at most $Cq^{-1}e^{2K}=o(1)$ in the good target’s second marginal. This contradicts (eq:low-conflict) and (eq:good-index).
+*Proof.* First suppose the class is $(3,3)$. Choose a good early representative and a good middle target, which exist for some histories and fresh draws by the preceding estimates. Restrict the representative’s first marginal to good endpoints. Its total mass is $1-o(1)$ and its atoms are at most $e^K/q^3$. Weighted incidence variance shows that all but $Cq^2e^K$ second endpoints have incident mass at least $.3/q$. The exceptional set has mass at most $Cq^{-1}e^{2K}=o(1)$ in the good target’s second marginal. This contradicts (18) and (20).
 
 Now orient so that $r=4$ and $r'\ge2$. Draw $h=\lceil q\sigma^\beta\rceil$ independent full flags from a good early representative’s marginal conditioned on both endpoints being good. These draws are independent of the actual targets given history. Weighted variance shows that all but $o(1)$ of a good middle target’s second-endpoint mass has sample first-endpoint hit probability at least $.3/q$: the exceptional set has size $Cq^{5-r'}e^K$, while its good atoms are at most $e^K/q^4$.
 
@@ -331,24 +330,24 @@ In expectation only $o(k)$ middle targets are lost, also counting a bad represen
 
 ### Nearly uniform endpoint supports
 
-Only reciprocal classes remain. Their endpoint caps are (eq:reciprocal-caps), with a history-known number $u_i$ at each slot.
+Only reciprocal classes remain. Their endpoint caps are (10), with a history-known number $u_i$ at each slot.
 
 **Lemma 5.5** (Endpoint levels). *At every good index there are independent auxiliary choices of first and second endpoint supports, each consisting of good endpoints, such that a chosen support $A$ satisfies $$\tfrac12 A_{\max}e^{-K}\le |A|\le A_{\max},
  \qquad \mathbb E\frac{1_{\{a\in A\}}}{|A|}\le C p_i^A(a),$$ and similarly for $B$. For any two ordered good representatives in distinct blocks, $$\begin{equation}
-\label{eq:u-monotonicity}
+\tag{21}
  u_j\le u_i+CK\qquad(i<j).
 \end{equation}$$*
 
 *Proof.* Partition each endpoint marginal into levels of $\lfloor-\log p\rfloor$. The entropy of this integer-valued level is $O(\log\sigma)$: its mean is $O(\sigma)$, and comparison with a geometric distribution of that mean gives entropy at most $\log(e(1+O(\sigma)))$. For a first level set $A$, put $\operatorname{loss}_A=\log(A_{\max}/|A|)$, and define the second loss similarly. Conditional on both levels, incidence mixing gives $$\log|\{(a,b)\in A\times B:a\perp b\}|
  \le4\sigma+O(1)
-       -\tfrac12(\operatorname{loss}_A+\operatorname{loss}_B).$$ The chain rule consequently bounds the expected total loss by $O(\delta_i+\log\sigma+1)$. A level is permissible when its loss is at most $K$ and at least half its members are good. Since probabilities within a level differ by at most $e$, the total probability of permissible levels is $1-o(1)$ by (eq:bad-endpoint-mass) and Markov. Choose a permissible level by its marginal probability, normalized over permissible levels, and take its good subset. This proves both the size and averaged pointwise bounds.
+       -\tfrac12(\operatorname{loss}_A+\operatorname{loss}_B).$$ The chain rule consequently bounds the expected total loss by $O(\delta_i+\log\sigma+1)$. A level is permissible when its loss is at most $K$ and at least half its members are good. Since probabilities within a level differ by at most $e$, the total probability of permissible levels is $1-o(1)$ by (15) and Markov. Choose a permissible level by its marginal probability, normalized over permissible levels, and take its good subset. This proves both the size and averaged pointwise bounds.
 
-For $i<j$, independent choices of a first support at $i$ and second support at $j$ have expected incidence density at most $C\sigma^{-2000\beta}/q$ by (eq:low-conflict) and averaged pointwise domination. If $u_j-u_i>CK$ with a sufficiently large $C$, every such pair has product at least $c q^5\exp(u_j-u_i-2K)$; mixing forces density at least $c/q$. This contradiction proves (eq:u-monotonicity). ◻
+For $i<j$, independent choices of a first support at $i$ and second support at $j$ have expected incidence density at most $C\sigma^{-2000\beta}/q$ by (18) and averaged pointwise domination. If $u_j-u_i>CK$ with a sufficiently large $C$, every such pair has product at least $c q^5\exp(u_j-u_i-2K)$; mixing forces density at least $c/q$. This contradiction proves (21). ◻
 
-Discard windows with a bad representative. In an open band discard also windows with $u_{\rm early}-u_{\rm late}>K_*$. Along the remaining ordered representative list before this last deletion, the sum of downward changes is at most $C\sigma+CKw$, by (eq:u-monotonicity). Thus these extra deletions cost at most $C(\sigma+Kw)/K_*=o(w)$ windows, since $w\asymp\sigma^{1+\eta/2}/D$. In an integer band the variation is already at most $2K_*$.
+Discard windows with a bad representative. In an open band discard also windows with $u_{\rm early}-u_{\rm late}>K_*$. Along the remaining ordered representative list before this last deletion, the sum of downward changes is at most $C\sigma+CKw$, by (21). Thus these extra deletions cost at most $C(\sigma+Kw)/K_*=o(w)$ windows, since $w\asymp\sigma^{1+\eta/2}/D$. In an integer band the variation is already at most $2K_*$.
 
 At every surviving window independently choose a permissible first support $A$ from its early representative and a permissible second support $B$ from its late representative. Then $$\begin{equation}
-\label{eq:pivot-support-input}
+\tag{22}
  |A||B|\ge q^5e^{-CK_*}.
 \end{equation}$$ For the same window and every ordered cross pair, expected incidence density is at most $C\sigma^{-2000\beta}/q$. The same bound holds against the corresponding good endpoint mass of every good middle target on the appropriate temporal side. These are averaged statements over the independent support choices; no pointwise sparsity of every chosen pair is being assumed. They are precisely the inputs for the tree construction in the next section.
 
@@ -359,7 +358,7 @@ We now use Theorem 4.1 to replace the old slot domains by smaller ones. The mai
 ### A fresh incidence test
 
 For points $x,y$ in opposite systems write $x\in N(y)$ when $x\perp y$. Given a row $x_1,\ldots,x_h$ in one system, its fresh ambient test is $$\begin{equation}
-\label{eq:fresh-test-set}
+\tag{23}
  \mathcal T(x_1,\ldots,x_h)
  =\left\{y:\sum_{j=1}^h1_{\{x_j\perp y\}}<\frac{.2h}{q}\right\}.
 \end{equation}$$ The word “ambient” means that this set is defined on the entire opposite point system, before intersection with an inherited domain.
@@ -369,19 +368,19 @@ For points $x,y$ in opposite systems write $x\in N(y)$ when $x\perp y$. Given a 
  \le\frac{\varepsilon}{q},$$ where $b=O(K_*)$ and $\varepsilon\le C\sigma^{-1000\beta}$. Put $n_A=|A|$, $n_B=|B|$ and $d_A=\log(|U_A|/n_A)$, $d_B=\log(|U_B|/n_B)$. Suppose a decoder-known $W$ captures at least $c n_A$ points of $A$ and has size at most $n_Ae^{CP}$.*
 
 *Using independent public proposal tables, one can describe two caps $U_A'\subseteq U_A$, $U_B'\subseteq U_B$ such that $$\begin{equation}
-\label{eq:validated-caps}
+\tag{24}
  |U_B'|\le C'q^5/n_A,\quad |U_A'|\le C'q^5/n_B,
  \qquad |B\cap U_B'|\ge .9n_B,\quad |A\cap U_A'|\ge .9n_A.
 \end{equation}$$ The failure probability is $O(e^{-q})$, and the metadata cost is $O(qP(d_A+d_B+1))$. Each successful row, conditional on its past and on finding that row before its cutoff, has density bounded by an absolute constant relative to the true iid law of its stated hidden source. This conditional law does not include success of any later test or descendant.*
 
 *More generally, if such a test is produced from a hidden source contained in an original support $X$ and of size at least $c|X|$, then for every fixed opposite point $y$, $$\begin{equation}
-\label{eq:fresh-test-domination}
+\tag{25}
  \mathbb E\bigl[1_{\{\text{test is produced}\}}
           1_{\{y\notin\mathcal T\}}\mid\text{prior data}\bigr]
  \le Cq\frac{|X\cap N(y)|}{|X|}.
 \end{equation}$$ The prior data may include all original support choices and tables used earlier, but not the current fresh table.*
 
-*Proof.* First consider $h_B=\lceil Cq(d_B+1)\rceil$ genuine iid draws from $A\cap W$. Weighted incidence variance shows that at most $Cq^5/n_A$ points have incidence proportion less than $.5/q$ into this source. Each other point passes (eq:fresh-test-set) with probability at most $\exp(-c h_B/q)$ by Chernoff. Since $|U_B|=e^{d_B}n_B$ and sparsity with incidence mixing gives $n_An_B\le Cq^5$, Markov’s inequality makes the size of $U_B\cap\mathcal T$ at most $C'q^5/n_A$ with probability at least $.99$ after choosing the constants. The average hit proportion from this source into $B$ is at most $C\varepsilon/q$. Markov applied first to hit counts and then to the fraction of $B$ rejected by the test shows that at least $.9n_B$ points survive with probability $1-O(\varepsilon)$. Both requirements thus hold with probability at least $.9$.
+*Proof.* First consider $h_B=\lceil Cq(d_B+1)\rceil$ genuine iid draws from $A\cap W$. Weighted incidence variance shows that at most $Cq^5/n_A$ points have incidence proportion less than $.5/q$ into this source. Each other point passes (23) with probability at most $\exp(-c h_B/q)$ by Chernoff. Since $|U_B|=e^{d_B}n_B$ and sparsity with incidence mixing gives $n_An_B\le Cq^5$, Markov’s inequality makes the size of $U_B\cap\mathcal T$ at most $C'q^5/n_A$ with probability at least $.99$ after choosing the constants. The average hit proportion from this source into $B$ is at most $C\varepsilon/q$. Markov applied first to hit counts and then to the fraction of $B$ rejected by the test shows that at least $.9n_B$ points survive with probability $1-O(\varepsilon)$. Both requirements thus hold with probability at least $.9$.
 
 The first cap is regarded as produced immediately after this first acceptance, even if a later test fails. After this first success, draw $h_A=\lceil Cq(d_A+1)\rceil$ iid points from $B\cap U_B'$. This is at least $.9$ of $B$, so the same argument produces $U_A'=U_A\cap\mathcal T$ with the other two requirements. In particular the second cap is not intersected with $W$.
 
@@ -390,7 +389,7 @@ Implement the first row by proposals uniform in $W$, accepting precisely when ev
 Conditioning an all-in-source row gives exactly iid draws from that source. Its further acceptance property has probability at least $.9$ under this iid law. The first successful row, conditional on finding one before the cutoff, has the same acceptance-conditioned law; its density relative to iid is at most $1/.9$. This proves the law assertion and the metadata bound, including row sizes and the finite diagnostics.
 
 Finally, conditional on being ready to produce a test, its hidden source has at least $c|X|$ points inside $X$. The successful-row law just proved and the count threshold imply $$\Pr(y\notin\mathcal T\mid\text{ready})
- \le Cq\frac{|X\cap N(y)|}{|X|}.$$ Multiply by the readiness indicator and bound its probability by one. This proves (eq:fresh-test-domination). No assertion about a descendant’s later survival is used. ◻
+ \le Cq\frac{|X\cap N(y)|}{|X|}.$$ Multiply by the readiness indicator and bound its probability by one. This proves (25). No assertion about a descendant’s later survival is used. ◻
 
 ### The tree construction and loss accounting
 
@@ -402,9 +401,9 @@ At a node, trim $A$ and $B$ to their inherited sets. Drop its entire subtree if 
 
 **Lemma 6.2** (Tree retention). *The expected number of windows lost by this construction and the preceding deletions is $o(w)$, where $w$ is the deterministic window count before deletions. Among the middle targets, the expected number lost beyond their fixed non-middle complement is $o(k)$. Consequently, with probability bounded below, a deterministic $\Theta(k)$ middle targets can be retained, in order, in the two caps of their successful pivots.*
 
-*Proof.* Do not inspect actual middle-target coverage while constructing the tree. Conditional on history, fresh representative indices and all original support choices, apply (eq:fresh-test-domination) to each produced ancestor test. Its hidden source is always a constant fraction of the original support $X$: the node trim keeps $.9$, the predictor captures a constant fraction, and the first validation keeps $.9$ of the opposite trimmed support. Predictor bias therefore does not affect this bound. The readiness indicator has already been removed on the right-hand side of (eq:fresh-test-domination). We may therefore sum that bound over a descendant’s original support before averaging its level choice; we never replace that support by its law conditional on reaching the descendant.
+*Proof.* Do not inspect actual middle-target coverage while constructing the tree. Conditional on history, fresh representative indices and all original support choices, apply (25) to each produced ancestor test. Its hidden source is always a constant fraction of the original support $X$: the node trim keeps $.9$, the predictor captures a constant fraction, and the first validation keeps $.9$ of the opposite trimmed support. Predictor bias therefore does not affect this bound. The readiness indicator has already been removed on the right-hand side of (25). We may therefore sum that bound over a descendant’s original support before averaging its level choice; we never replace that support by its law conditional on reaching the descendant.
 
-Average the bound over the independently chosen levels. For every descendant’s original support, the expected fraction evicted by a relevant ancestor fresh test is $O(\sigma^{-2000\beta})$ by (eq:low-conflict) and Lemma 5.5. Inherited sets are intersections of precisely these ambient tests. The probability of reaching a node but failing its $.9$ trim is thus at most a constant times the sum of these loss bounds along its path. The same-node density rejection probability, even ignoring reach, is $O(\sigma^{-1000\beta})$ by Markov. Predictor and validation failures contribute $O(e^{-cq})$ per attempted node.
+Average the bound over the independently chosen levels. For every descendant’s original support, the expected fraction evicted by a relevant ancestor fresh test is $O(\sigma^{-2000\beta})$ by (18) and Lemma 5.5. Inherited sets are intersections of precisely these ambient tests. The probability of reaching a node but failing its $.9$ trim is thus at most a constant times the sum of these loss bounds along its path. The same-node density rejection probability, even ignoring reach, is $O(\sigma^{-1000\beta})$ by Markov. Predictor and validation failures contribute $O(e^{-cq})$ per attempted node.
 
 The tree depth is $O(\log(w+1))=O(\log\sigma)$. For each fixed node, summing failure bounds over its ancestor path therefore gives $o(1)$ probability of being lost through a dropped subtree. Summing over nodes gives $o(w)$ expected loss. This adds to the $o(w)$ representative and open-band deletions already proved.
 
@@ -417,29 +416,29 @@ In this argument the first pivot test is counted whenever it is produced, withou
 The encoder transmits the tree size and node statuses, successful node constructions, and the retained slot count at each node in tree order. The parameters $q,\eta,D,L,R,P$ and the deterministic stage budgets are part of the common protocol. At each successful node the message also specifies its orientation, trimmed support sizes, row lengths and row indices, together with the predictor’s diagnostics. These integers cost $O(\sigma)$ per node apart from the already charged row indices. No failed construction is transmitted. Starting with the two ambient point systems, the decoder reconstructs every successful ancestor’s caps and therefore the inherited sets for each successful child. The predictor’s message supplies its set $W$; row sizes and row indices supply the two validation tests. A proposal row is regenerated using public uniforms ranked in the decoder’s reconstructed finite domain. The hidden supports determine acceptance, but are not needed to regenerate an accepted row. Concatenating the prescribed number of copies of the pivot domains in the windows’ original order specifies all new slot domains. The decoder never needs the old context, the old slot labels, or the identities of the omitted targets.
 
 **Lemma 6.3** (Cost of the new context). *The output of Lemma 6.2 has a new context satisfying $$\begin{equation}
-\label{eq:stage-output}
+\tag{26}
  \Lambda'\le CqP\log(w+2)(\sigma+wP)+Cw\sigma,
  \qquad \Delta'\le CK_*.
 \end{equation}$$ These are deterministic bounds. After fixing public tables and conditioning on retention of the prescribed length, the stream marginal still has density bounded by a stage constant.*
 
-*Proof.* At a successful pivot let the trimmed sizes be $n_A,n_B$. Its two caps have sizes at most $Cq^5/n_B$ and $Cq^5/n_A$. Their product is at most $Cq^5e^{CK_*}$ by (eq:pivot-support-input). Incidence mixing bounds the number of flags in their product by $Cq^4e^{CK_*}$, proving the domain bound.
+*Proof.* At a successful pivot let the trimmed sizes be $n_A,n_B$. Its two caps have sizes at most $Cq^5/n_B$ and $Cq^5/n_A$. Their product is at most $Cq^5e^{CK_*}$ by (22). Incidence mixing bounds the number of flags in their product by $Cq^4e^{CK_*}$, proving the domain bound.
 
 To sum metadata, define at a node $$G=\log(|U_A||U_B|/q^5),\quad
  b_v=\log(q^5/(n_An_B)),\quad
  d_A=\log(|U_A|/n_A),\quad d_B=\log(|U_B|/n_B).$$ Then $d_A+d_B=G+b_v$, with $b_v\le CK_*$. The left child’s positive part $G^+$ is at most $d_B+C$, and the right child’s at most $d_A+C$, by the cap size bounds. Thus the sum of their positive potentials is at most $G^++CK_*+C$. The initial potential is $3\sigma+O(1)$. At every depth the sum of positive potentials over successful nodes is therefore at most $3\sigma+CwK_*+O(1)$, by accumulating the costs over their ancestors. Dropped children only reduce this sum.
 
-The predictor and validations at a successful node cost $O(qP(d_A+d_B+P))$ by Theorem 4.1 and Lemma 6.1. Since $K_*=o(P)$, summing the last bound over the $O(\log(w+2))$ depths gives the first term in (eq:stage-output). Tree statuses cost $O(w)$; support sizes, row lengths and retained counts cost $O(w\sigma)$. Self-delimiting integer encodings multiply these bounds by at most an absolute constant. The maximum message length therefore bounds its entropy by $\Lambda'$.
+The predictor and validations at a successful node cost $O(qP(d_A+d_B+P))$ by Theorem 4.1 and Lemma 6.1. Since $K_*=o(P)$, summing the last bound over the $O(\log(w+2))$ depths gives the first term in (26). Tree statuses cost $O(w)$; support sizes, row lengths and retained counts cost $O(w\sigma)$. Self-delimiting integer encodings multiply these bounds by at most an absolute constant. The maximum message length therefore bounds its entropy by $\Lambda'$.
 
 By Lemma 6.2, the joint probability of successful extraction, over the prior law and the independent public tables, is bounded below. Average first over the tables and fix a realization with extraction probability bounded below under the prior law and the remaining auxiliary choices. Only then condition on extraction. The stream marginal density increases by at most the reciprocal of this constant. This proves the final assertion without requiring any uniform capture distribution from the predictor. ◻
 
 We can now state the full compression step established by the two sections.
 
-**Proposition 6.4** (One compression stage). *Suppose a selected consistent tuple and context satisfy (eq:stage-input)–(eq:stage-range), with deterministic $\ell=\Theta(k)$ and bounded stream-marginal density, and suppose the rectangle-occupancy event of Lemma 3.3 holds almost surely. Then either the high-rank argument contradicts Lemma 3.4, or a constant-probability extraction produces another such tuple, of deterministic length $\Theta(k)$, and a new context satisfying (eq:stage-output), where $$\begin{equation}
-\label{eq:window-count}
+**Proposition 6.4** (One compression stage). *Suppose a selected consistent tuple and context satisfy (5)–(7), with deterministic $\ell=\Theta(k)$ and bounded stream-marginal density, and suppose the rectangle-occupancy event of Lemma 3.3 holds almost surely. Then either the high-rank argument contradicts Lemma 3.4, or a constant-probability extraction produces another such tuple, of deterministic length $\Theta(k)$, and a new context satisfying (26), where $$\begin{equation}
+\tag{27}
  w\le C\sigma^{1+\eta/2}/D.
 \end{equation}$$ Its decoder is independent of the old context.*
 
-*Proof.* Apply Lemma 5.1, select a deterministic class and window length by constant-probability conditioning, and use Lemma 5.2. Lemma 5.4 eliminates the high classes. In reciprocal classes, Lemma 5.5 and the open-band deletion supply (eq:pivot-support-input) and its averaged incidence bounds. Lemmas 6.2 and 6.3 finish the construction. For open bands, (eq:window-count) follows from $k/m\asymp\sigma^{1+\eta/2}/D$. For integer bands, $w=O(\sigma^{\eta/2})$, which is smaller because $D\le\sigma$. All losses and density changes are by stage constants. ◻
+*Proof.* Apply Lemma 5.1, select a deterministic class and window length by constant-probability conditioning, and use Lemma 5.2. Lemma 5.4 eliminates the high classes. In reciprocal classes, Lemma 5.5 and the open-band deletion supply (22) and its averaged incidence bounds. Lemmas 6.2 and 6.3 finish the construction. For open bands, (27) follows from $k/m\asymp\sigma^{1+\eta/2}/D$. For integer bands, $w=O(\sigma^{\eta/2})$, which is smaller because $D\le\sigma$. All losses and density changes are by stage constants. ◻
 
 ### The finite iteration
 
@@ -447,7 +446,7 @@ We can now state the full compression step established by the two sections.
 
 *Proof.* Suppose instead that every stream has a consistent subsequence of length $k$. Choose one and condition the stream on the rectangle occupancy event of Lemma 3.3, whose probability tends to one. Lemma 3.4 applies to it and to every constant-density extraction considered above. Initially the context is empty and every domain is the full flag set, so $\Lambda=0$ and $\Delta=3\sigma+O(1)$. Thus $$D=O(\sigma^{1-\eta+\beta})\le\sigma^{1-\eta/2}.$$ We show that the admissible range is preserved while the context shrinks.
 
-For sufficiently large $q$, $P\le3D\sigma^{9\beta}$. Substituting this and (eq:window-count) into (eq:stage-output) gives $$\begin{align*}
+For sufficiently large $q$, $P\le3D\sigma^{9\beta}$. Substituting this and (27) into (26) gives $$\begin{align*}
  \frac{\Lambda'}{k}
  &\le CD\log\sigma
        \bigl(\sigma^{9\beta-\eta}
@@ -455,11 +454,11 @@ For sufficiently large $q$, $P\le3D\sigma^{9\beta}$. Substituting this and (eq:
  &\le D\sigma^{-\eta/3},
  \qquad \Delta'\le CD\sigma^{6\beta}.
 \end{align*}$$ Here the term $Cw\sigma/k$ is exponentially small in $\sigma$; all other inequalities use $\beta=\eta/10^7$. The next stage parameter consequently satisfies $$\begin{equation}
-\label{eq:D-recurrence}
+\tag{28}
  D_{\mathrm{new}}
  =\sigma^\beta(1+\Lambda'/k+\Delta'\sigma^{-\eta})
  \le\sigma^{2\beta}+D\sigma^{-\eta/4}.
-\end{equation}$$ This remains in (eq:stage-range). After $O(1/\eta)$ applications it gives $D\le2\sigma^{2\beta}$. One more compression therefore yields $$\Lambda'/k=o(1),\qquad
+\end{equation}$$ This remains in (7). After $O(1/\eta)$ applications it gives $D\le2\sigma^{2\beta}$. One more compression therefore yields $$\Lambda'/k=o(1),\qquad
  \Delta' q\sigma/k=O(\sigma^{8\beta-\eta})=o(1).$$
 
 At this point run just the marking scans. Encoding the context, the masks, the expensive flags and then the remaining cheap flags gives $$H(F)\le4\sigma\ell+O(k)+\Lambda'+O(\Delta' q\sigma)
@@ -470,7 +469,7 @@ At this point run just the marking scans. Encoding the context, the masks, the e
 We now prove Theorem 4.1. The proof is by induction on the projective dimension $d$. A large concentration on a proper flat reduces the dimension. Otherwise, a small collection of flats records all relevant concentrations, and the score in Section 9 gives the required description.
 
 The following consequences of the parameter choices will be used throughout: $$\begin{equation}
-\label{eq:parameter-orders}
+\tag{29}
  P=o(\sigma),\quad \log\sigma=o(P),\quad
  R\log L=o(P),\quad b+P\tau=o(L),\quad L=o(P).
 \end{equation}$$ For example, $P\le3D\sigma^{9\beta}$, whereas $D\le\sigma^{1-\eta/2}$; also $b/L=O(\sigma^{-2\beta})$ and $P\tau/L=R\tau=o(1)$. In particular, all fixed numerical constants used below are eventually smaller than $R$.
@@ -506,14 +505,14 @@ Ties are resolved by a fixed ordering of flats. Each retained list partitions th
 Suppose a training cell has at least $.04n'$ points. Its listed flat $K_0$, of projective dimension $2\le j<d$, satisfies $$S_0=S\cap K_0,\qquad |S_0|\ge .01n.$$ The encoder sends $K_0$, with a canonical coordinate system. The average incidence proportion from $T$ into $S_0$ is at most $100\tau/q$. Delete members whose proportion exceeds $\sqrt\tau/q$. This loses at most $100\sqrt\tau\,|T|$ members, so leaves at least $|T|/2$ for large $q$. Each remaining covector restricts nontrivially to $K_0$.
 
 Normalize each nonzero projective restriction. Each restriction has at most $q^{d-j}$ projective lifts: after fixing one nonzero restricted coordinate to be $1$, the remaining $d-j$ coordinates are free. Among the dyads $[l,2l)$ of lift multiplicity, choose one carrying at least $|T|/(C\sigma)$ of the retained lift mass. Let $T_0$ be its set of distinct restrictions. Then $$\begin{equation}
-\label{eq:reduced-pair}
+\tag{30}
  |S_0||T_0|\ge q^{j+1}\exp\{-b-O(\log\sigma)\},
  \qquad
  \frac{e(S_0,T_0)}{|S_0||T_0|}\le\frac{\sqrt\tau}{q}.
 \end{equation}$$ Indeed, the number of restrictions is at least the retained mass divided by $2l$, and $l\le q^{d-j}$. The density assertion holds for each restriction separately, so forgetting its multiplicity causes no problem.
 
 The decoder’s enclosures are $$U_{S_0}=U_S\cap K_0,\qquad
- U_{T_0}=\{\text{nonzero projective restrictions with at least \(l\) lifts in \(U_T\)}\}.$$ Their logarithmic gaps are bounded by $d_S+O(1)$ and $d_T+O(\log\sigma)$. The extra term in $b$ in (eq:reduced-pair) is absorbed in $O(D\sigma^{6\beta})$. Moreover, $$\sqrt\tau\le
+ U_{T_0}=\{\text{nonzero projective restrictions with at least \(l\) lifts in \(U_T\)}\}.$$ Their logarithmic gaps are bounded by $d_S+O(1)$ and $d_T+O(\log\sigma)$. The extra term in $b$ in (30) is absorbed in $O(D\sigma^{6\beta})$. Moreover, $$\sqrt\tau\le
  \sigma^{-200\cdot2^{j-2}\beta}\qquad(j<d).$$ Thus the induction hypothesis applies after orienting the reduced pair so that its smaller side is first. The dimension decreases, and its initial value is at most four.
 
 If the recursive output captures $S_0$, it already captures a constant fraction of $S$ in a set of size at most $ne^{CP}$. Intersect it with $U_S$, if necessary. If instead it captures $T_0$, let $W_0$ be the decoded set and $C_0=W_0\cap T_0$ its hidden capture, with $|C_0|\ge c|T_0|$ and $|W_0|/|C_0|\le e^{CP}$. We convert this to a capture on the original side.
@@ -551,7 +550,7 @@ We first prove the only algebraic ingredient. Its characteristic restriction wil
  K=n^{4/3}q^{-1}e^{-g_0/5}.$$ Let $X$ be a set of at most $n$ points of $\mathrm{PG}(d,q)$, where $3\le d\le4$, such that every projective plane contains at most $K$ points of $X$. The number of lines containing at least $M$ points of $X$ is at most $Cn/M$.*
 
 *Proof.* The inequalities that make the argument work are $$\begin{equation}
-\label{eq:rich-line-parameters}
+\tag{31}
  \frac{M}{n^{1/3}}\ge c e^{37g_0/60},\qquad
  \frac{M^2}{K}\ge c e^{23g_0/30},\qquad
  cq\le\frac nM\le Cq e^{g_0/20}.
@@ -559,10 +558,10 @@ We first prove the only algebraic ingredient. Its characteristic restriction wil
 
 Work temporarily over an algebraic closure of $\mathbb F_q$. A generic linear map to a four-dimensional vector space preserves the independence of every independent subset of at most four points of $X$. Indeed, each of these finitely many requirements defines a nonempty open condition on the map, and the field is infinite. The resulting projection to projective three-space preserves distinct points and distinct rich lines. It also preserves the plane cap: four projected points in a plane cannot have come from four independent points. Choose an affine chart containing all projected points.
 
-Sample these points independently with probability $$f=A\frac{\sqrt n}{M^{3/2}},$$ where $A$ is a sufficiently large fixed constant. By (eq:rich-line-parameters), $f=o(1)$ and $fM=A\sqrt{n/M}\ge cA\sqrt q$. There are at most $n^2$ lines containing at least two points of $X$. Chernoff’s inequality and a union bound imply that, with probability $1-o(1)$, every rich line contains more than $fM/2$ sampled points. Markov’s inequality gives probability at least $1/2$ that the total sample size is at most $2fn$. Choose a sample satisfying both conditions.
+Sample these points independently with probability $$f=A\frac{\sqrt n}{M^{3/2}},$$ where $A$ is a sufficiently large fixed constant. By (31), $f=o(1)$ and $fM=A\sqrt{n/M}\ge cA\sqrt q$. There are at most $n^2$ lines containing at least two points of $X$. Chernoff’s inequality and a union bound imply that, with probability $1-o(1)$, every rich line contains more than $fM/2$ sampled points. Markov’s inequality gives probability at least $1/2$ that the total sample size is at most $2fn$. Choose a sample satisfying both conditions.
 
 Counting monomials in three variables produces a nonzero polynomial vanishing on that sample, of degree $$D_0\le C A^{1/3}\sqrt{n/M}.$$ For sufficiently large fixed $A$, this degree is less than $fM/2$, so the polynomial vanishes identically on every rich line. Replacing it by its squarefree part does not increase the degree or lose any such line. Also $$\begin{equation}
-\label{eq:degree-characteristic}
+\tag{32}
  D_0=o(M),\qquad D_0=O(q^{21/40})<q,
 \end{equation}$$ because $g_0\le\sigma+O(1)$.
 
@@ -570,7 +569,7 @@ First consider its plane factors. At most $D_0^2$ lines lie in two different fac
  \le K\bigl(rM'+r(r-1)\bigr).$$ Consequently $r\le KM'/((M')^2-K)=o(M')$. Delete from each line its intersections with all other factor planes, removing at most $D_0$ points. The remaining union in this plane has size at least $$r(M'-D_0)-\binom r2\ge \frac{rM'}2.$$ These unions are disjoint for different factor planes. They account for at most $Cn/M$ lines in total.
 
 Let $F_0$ be the squarefree product of the nonplane factors, and consider the remaining rich lines. Call a point of $X$ busy if it lies on at least three of these lines. At a busy point where $\nabla F_0\ne0$, the three distinct line directions lie in the tangent plane, and the Hessian quadratic form vanishes on them. A quadratic form on a two-dimensional space with three distinct projective zeros is identically zero. Since the characteristic is odd, polarization shows that the Hessian bilinear form vanishes on that tangent plane. Thus every busy point is a zero of all the polynomials $$\begin{equation}
-\label{eq:hessian-polynomials}
+\tag{33}
  Q_{ij}=(e_i\mathbin\times\nabla F_0)^t
               \operatorname{Hess}(F_0)
               (e_j\mathbin\times\nabla F_0),\qquad 1\le i,j\le3.
@@ -597,20 +596,20 @@ We now return to the training set. To keep the geometric statement independent o
 
 *There is a set of $o(n)$ query points outside which, simultaneously for all dyadic $a\in[q^{-10},2]$, $$\begin{align}
  \#\{\ell\ni x:a_\ell\ge a\}
-   &\le q^{2-2v}e^\chi a^{-100},\label{eq:local-rich-lines}\\
- E_x(a)&\le B^2e^{2\chi}a^{-200},\label{eq:overlap-pairs}\\
- \Delta_x(a)&\le Be^{2\chi}a^{-200}.\label{eq:overlap-degree}
+   &\le q^{2-2v}e^\chi a^{-100},\tag{34}\\
+ E_x(a)&\le B^2e^{2\chi}a^{-200},\tag{35}\\
+ \Delta_x(a)&\le Be^{2\chi}a^{-200}.\tag{36}
 \end{align}$$ The exceptional set is independent of the choice of the families $\mathcal H_x$.*
 
 *Let $p$ be an even integer in $[10000\sigma/P,10000\sigma/P+2]$ and put $t=1/(100p)$. After excluding at most $n\exp(CP)$ additional points, $$\begin{equation}
-\label{eq:ambient-overlap-degree}
+\tag{37}
  \Delta_x(t)\le B e^{-3P}.
 \end{equation}$$ These additional points are needed only for the ambient bound, and are not included in the $o(n)$ validation exception.*
 
 *Two further estimates hold without point exclusions. Every line strength is at most $Ce^{-g_1}$. If $g_0>\chi_0$ and $e^{-g_0/20}<a\le2$, the number of pairs $(x,\ell)$ with $x\in\ell$ and $a_\ell\ge a$ is at most $Cq^2/a^2$. For all strengths, the number of possible point–line pairs is at most $Cq^7$.*
 
-*Proof.* We first prove the line estimates. Since the radial lines partition $X_x$, their number of strength at least $a$ is at most $q/a$. This implies (eq:local-rich-lines) if $g_0\le\chi_0$ or $a\le e^{-g_0/20}$, because the ratio of the former bound to the latter is $$e^{2g_0-\chi}a^{99}=o(1).$$ Suppose otherwise, and put $M=n'a/q$. The plane-peeling step was then performed, with threshold $K_p=n^{4/3}q^{-1}e^{-g_0/5}$ and list length $J_p\le n/K_p$. In addition to (eq:rich-line-parameters), we have $$\begin{equation}
-\label{eq:plane-list-length}
+*Proof.* We first prove the line estimates. Since the radial lines partition $X_x$, their number of strength at least $a$ is at most $q/a$. This implies (34) if $g_0\le\chi_0$ or $a\le e^{-g_0/20}$, because the ratio of the former bound to the latter is $$e^{2g_0-\chi}a^{99}=o(1).$$ Suppose otherwise, and put $M=n'a/q$. The plane-peeling step was then performed, with threshold $K_p=n^{4/3}q^{-1}e^{-g_0/5}$ and list length $J_p\le n/K_p$. In addition to (31), we have $$\begin{equation}
+\tag{38}
  J_p\le q^{1/2}e^{-2g_0/15},\qquad J_p/M\le C e^{-13g_0/12}=o(1).
 \end{equation}$$
 
@@ -620,53 +619,53 @@ If a captured prefix of planes was retained, a line not contained in any listed 
 
 If $a>Cf_j$, the incidence variance in that projective plane gives at most $Cq^{2-v}f_j/a^2$ rich lines in it. Multiplying by $j$ and summing uses $\sum_j f_j\le1$ and $J_pq^{2-v}\le q^2$, giving $Cq^2/a^2$ center–line pairs. If $a\le Cf_j$, the nonincreasing cell sizes from the greedy plane peel imply $j\le C/a$. There are at most $Cq^2$ lines in each such plane, and summing the center multiplicities $j$ again gives $Cq^2/a^2$. Additional removal of a hyperplane cell can only decrease these counts.
 
-We have proved the asserted global center–line bound. Markov’s inequality at the threshold in (eq:local-rich-lines) leaves a fraction at most $$\begin{equation}
-\label{eq:line-exception-fraction}
+We have proved the asserted global center–line bound. Markov’s inequality at the threshold in (34) leaves a fraction at most $$\begin{equation}
+\tag{39}
  C e^{g_1-\chi}a^{98}
 \end{equation}$$ of $n$ exceptional centers. If $g_1\le\chi_0$, this tends to zero even after summing over $O(\sigma)$ dyads. Otherwise every line has strength at most $q(q+1)/n'\le Ce^{-g_1}$, so the same sum is still smaller. The crude $Cq^7$ bound counts all points and all lines through them in projective four-space; it also covers dimension three.
 
 This proves the radial-line bounds. We next estimate the overlap edge count $E_x(a)$ and maximum degree $\Delta_x(a)$. Set $M=n'a/q$ for every strength threshold $a$, including those covered by the trivial line bound. In dimension three the intersection of two distinct hyperplanes through $x$ is a radial line. Each such line gives at most $Cq^2$ ordered pairs. A fixed $H\in\mathcal H_x$ contains at most $2/a$ radial lines of strength at least $a$, and each lies in at most $Cq$ other hyperplanes. Hence $$E_x(a)\le Cq^2\#\{\ell\ni x:a_\ell\ge a\},\qquad
- \Delta_x(a)\le Cq/a.$$ Because $B\asymp q^{2-v}$ and $v\le1+O(1/\sigma)$, these prove (eq:overlap-pairs) and (eq:overlap-degree) in dimension three.
+ \Delta_x(a)\le Cq/a.$$ Because $B\asymp q^{2-v}$ and $v\le1+O(1/\sigma)$, these prove (35) and (36) in dimension three.
 
-It remains to analyze dimension four. Intersections are now planes through $x$. Call an overlap plane dominant if one radial line carries at least half its outside-own points, and nondominant otherwise. A dominant overlap of strength at least $a$ contains a line of strength at least $a/2$. Each such line gives at most $Cq^4$ ordered hyperplane pairs. For a fixed $H\in\mathcal H_x$, the corresponding degree is at most $Cq^2/a$. Dividing this degree by $B\asymp q^{3-v}$ gives $Ce^{g_1}/a$. If $g_1\le\chi_0$, this meets (eq:overlap-degree); if $g_1>\chi_0$, a dominant overlap requires $a\le Ce^{-g_1}$, and the same ratio is at most $C/a^2$. Equation (eq:local-rich-lines) also gives the required pair count.
+It remains to analyze dimension four. Intersections are now planes through $x$. Call an overlap plane dominant if one radial line carries at least half its outside-own points, and nondominant otherwise. A dominant overlap of strength at least $a$ contains a line of strength at least $a/2$. Each such line gives at most $Cq^4$ ordered hyperplane pairs. For a fixed $H\in\mathcal H_x$, the corresponding degree is at most $Cq^2/a$. Dividing this degree by $B\asymp q^{3-v}$ gives $Ce^{g_1}/a$. If $g_1\le\chi_0$, this meets (36); if $g_1>\chi_0$, a dominant overlap requires $a\le Ce^{-g_1}$, and the same ratio is at most $C/a^2$. Equation (34) also gives the required pair count.
 
 In a nondominant plane of strength at least $a$, there are at least $cM^2$ pairs of training points on distinct radial lines. Each pair together with $x$ determines the plane. Thus the number of these planes through $x$ is at most $Cq^2/a^2$. Within a fixed $H\in\mathcal H_x$, it is at most $C/a^2$, since $|X_x\cap H|\le2n'/q$. Every plane lies in at most $Cq$ hyperplanes, so $$\begin{equation}
-\label{eq:nondominant-crude}
+\tag{40}
  E_x(a)\le Cq^4/a^2,\qquad \Delta_x(a)\le Cq/a^2.
 \end{equation}$$ The degree bound is always sufficient. The pair bound is sufficient if $g_1\le\chi_0$ or $a\le e^{-g_1/10}$: after dividing by $B^2$, its extra factor is $Ce^{2g_1}/a^2$, which is then absorbed by $e^{2\chi}a^{-200}$.
 
 ##### Rich planes in the remaining range.
 
 Suppose $g_1>\chi_0$ and $a>e^{-g_1/10}$. Here $$\begin{equation}
-\label{eq:rich-plane-parameters}
+\tag{41}
  M\gg q,\qquad M^2\gg n.
 \end{equation}$$ If a captured hyperplane list was retained, take as its head the prefix whose original cell sizes, before plane peeling, exceed $C_0q^2/a$, where $C_0$ is a sufficiently large absolute constant. Its length is at most $na/(C_0q^2)$. The remaining training tail has hyperplane cap $C_0q^2/a$, by the maximal choice at every greedy step. If instead the hyperplane-capped residual was retained, use an empty head and the whole training set as tail.
 
 A plane not contained in a head hyperplane receives fewer than $M/4$ head points: each intersection is a line of at most $q+1$ points, and the displayed head-length bound applies. Let $\mathcal F$ be the global family of planes containing at least $M/2$ tail points, and let $$r=|\mathcal F|,\qquad u=q^{4-2v}a^{-3}.$$ A line is contained in at most $Cn/M=O(u)$ members of $\mathcal F$, since they are disjoint off that line and $M\gg q$. A hyperplane is a projective three-space and has at most $C_0q^2/a$ tail points. The incidence variance there bounds the number of its planes in $\mathcal F$ by $$\frac{Cq^2(C_0q^2/a)}{M^2}=O(u).$$ The use of variance is valid because the mean is $O(q/a)=o(M)$.
 
 For a query $x$, write $d_x$ for the number of members of $\mathcal F$ through $x$. In the quotient by $x$ these become lines of a projective three-space, with at most $Cu$ in any point or plane. If $d_x>C'u$, a constant fraction of pairs of these quotient lines are skew. Indeed, if no line meets half the others, this is immediate. Otherwise fix a line meeting at least half. Among its neighbors, a given line has only $O(u)$ companions with the same intersection point or the same spanning plane with the fixed line. All remaining pairs of neighbors are skew. Two corresponding original planes intersect exactly in $x$. Therefore $$\begin{equation}
-\label{eq:rich-plane-second-moment}
+\tag{42}
  \sum_{d_x>C'u}d_x^2\le Cr^2.
-\end{equation}$$ Count incidences at the tail points, splitting according to this threshold and applying Cauchy–Schwarz: $$rM/2\le Cnu+C\sqrt n\,r.$$ By (eq:rich-plane-parameters), $r\le Cnu/M$. Equation (eq:rich-plane-second-moment) now implies that $$\begin{equation}
-\label{eq:rich-plane-local}
+\end{equation}$$ Count incidences at the tail points, splitting according to this threshold and applying Cauchy–Schwarz: $$rM/2\le Cnu+C\sqrt n\,r.$$ By (41), $r\le Cnu/M$. Equation (42) now implies that $$\begin{equation}
+\tag{43}
  d_x\le q^{4-2v}e^\chi a^{-4}
 \end{equation}$$ outside at most $Cq^2e^{-2\chi}$ centers.
 
 Next consider a rich plane contained in a head hyperplane, and take the earliest such hyperplane, with index $j$. Earlier noncontaining cells contribute fewer than $M/4$ points, and later cells contribute none. Richness therefore requires at least $M/2$ points of cell $j$. For these to remain outside $O_x$, the center must lie in an earlier hyperplane. This allows at most $Cjq$ centers on the plane. Let $f_j$ be the original cell size divided by $n$. If $a>Cf_j$, variance within hyperplane $j$ bounds these planes by $CBf_j/a^2$. Summing their center multiplicities gives at most $Cq^3/a$, because $$\sum_j j f_j\le \frac{na}{C_0q^2}\sum_j f_j
- \le\frac{na}{C_0q^2}.$$ Markov’s inequality at the threshold in (eq:rich-plane-local) makes the exceptional fraction at most $Cq^{v-2}e^{-\chi}a^3=o(1)$.
+ \le\frac{na}{C_0q^2}.$$ Markov’s inequality at the threshold in (43) makes the exceptional fraction at most $Cq^{v-2}e^{-\chi}a^3=o(1)$.
 
 If $a\le Cf_j$, then $x$ belongs to two original hyperplanes whose cell fractions are at least $ca$, by the nonincreasing order. There are at most $C/a$ such hyperplanes; the union of their pairwise intersections has at most $Cq^2/a^2$ points. Relative to $n$, this is at most $Ce^{-.8g_1}=o(1)$ in the present range. All exceptions remain $o(n)$ after summing over the dyads.
 
-We have bounded the number of rich overlap planes through every remaining $x$ by $Cq^{4-2v}e^\chi a^{-4}$. Each gives at most $Cq^2$ ordered hyperplane pairs. This proves (eq:overlap-pairs) in the remaining case. The degree estimate continues to follow from (eq:nondominant-crude). The fixed powers of two from neighboring dyads and all constant factors are absorbed by the exponential slack. This completes the bounds outside $o(n)$ points.
+We have bounded the number of rich overlap planes through every remaining $x$ by $Cq^{4-2v}e^\chi a^{-4}$. Each gives at most $Cq^2$ ordered hyperplane pairs. This proves (35) in the remaining case. The degree estimate continues to follow from (40). The fixed powers of two from neighboring dyads and all constant factors are absorbed by the exponential slack. This completes the bounds outside $o(n)$ points.
 
 ##### The stronger bound used only for ambient points.
 
 If $g_1<-4P$, the dominant-line degree divided by $B$ is at most $Ce^{g_1}/t\le e^{-3P}$. If $g_1>\chi_0$, which can occur only in dimension four, the maximum line strength $Ce^{-g_1}$ is smaller than $t/2$; there is no dominant strong overlap.
 
 In the remaining range $-4P\le g_1\le\chi_0$, exclude every center with an outside-own radial line of strength greater than $t/2$. Here $g_0=\sigma/2+g_1>\chi_0$ and $t/2\gg e^{-g_0/20}$, so the global center–line bound already proved costs at most $$Cq^2/t^2\le n e^{CP}$$ centers. There are now no strong pairs in dimension three. In dimension four only nondominant strong pairs remain, and $$\Delta_x(t)/B\le Cq^{v-2}t^{-2}
- \le Cq^{-1/2+o(1)}<e^{-3P}.$$ Here $P=o(\sigma)$ and $\log(1/t)=O(\log\sigma)=o(P)$. These exclusions give (eq:ambient-overlap-degree). They have not been charged to the $o(n)$ exceptional set, as required. ◻
+ \le Cq^{-1/2+o(1)}<e^{-3P}.$$ Here $P=o(\sigma)$ and $\log(1/t)=O(\log\sigma)=o(P)$. These exclusions give (37). They have not been charged to the $o(n)$ exceptional set, as required. ◻
 
-*Remark 8.3*. The distinction between the two exceptional sets is essential. The second-moment validation argument can lose only $o(n)$ training points, so it uses (eq:local-rich-lines)–(eq:overlap-degree). The stronger degree estimate (eq:ambient-overlap-degree) is used only to bound the size of the predictor’s ambient output, where an additional $n\exp(CP)$ points are permitted.
+*Remark 8.3*. The distinction between the two exceptional sets is essential. The second-moment validation argument can lose only $o(n)$ training points, so it uses (34)–(36). The stronger degree estimate (37) is used only to bound the size of the predictor’s ambient output, where an additional $n\exp(CP)$ points are permitted.
 
 ## The Poisson score
 
@@ -683,7 +682,7 @@ Let $\mathscr C$ contain the cells from each list and their cross intersections.
  \mathcal E=\{H:|\lambda_H-1|>.1\}
  \ \cup\!\bigcup_{C\in\mathscr C}
        \{H:|\lambda_{H,C}-f_C|>.02\}.
- \label{eq:exceptional-hyperplanes}
+ \tag{44}
 \end{equation}$$ A hyperplane is *typical* if it does not belong to $\mathcal E$. The encoder may use this set in analyzing a row; the decoder will not need it to compute the score.
 
 A *pencil* at $x$ is the family of all hyperplanes containing $x$. Take $R$ independent Poisson batches, each of mean $Lq$, whose points are independent and uniform in $S'$. Let $Z\subseteq\mathcal E$ be the hyperplanes empty in every batch, put $z=|Z|$, and let $z_x$ count the members of $Z$ containing $x$.
@@ -693,8 +692,8 @@ For each point $x$, set $b_0=e^{-L(1-f)}$. Its score is $$\begin{equation}
  \mathbf1\{\text{batch }r\text{ has no point of }O_x\cap H\}
  \bigl(\mathbf1\{\text{batch }r\text{ has no point of }(S'\setminus O_x)
                                       \cap H\}-b_0\bigr).
- \label{eq:poisson-score}
-\end{equation}$$ The procedure includes every sampled point. It includes an unsampled point exactly when $A_x<.5z/q$. The samples and cell data determine (eq:poisson-score); only the integer $z$ is additional information.
+ \tag{45}
+\end{equation}$$ The procedure includes every sampled point. It includes an unsampled point exactly when $A_x<.5z/q$. The samples and cell data determine (45); only the integer $z$ is additional information.
 
 The score will approximate $z_x$: empty exceptional hyperplanes give its main contribution, and centering suppresses typical hyperplanes. We will show that $z_x$ is small for most training points and large for most ambient points.
 
@@ -705,13 +704,13 @@ The score will approximate $z_x$: empty exceptional hyperplanes give its main co
 Here are the geometric inputs used in dimensions three and four, stated explicitly to fix the interface. Apart from $o(n)$ centers, the number of radial lines of outside-own strength at least $a$ is at most $q^{2-2v}e^\chi a^{-100}$. Among any pencil family whose outside-own mass is at most two, the overlap graph at level $a$ has ordered edge count and maximum degree at most $$\begin{equation}
  E_a\le B^2e^{2\chi}a^{-200},\qquad
  \Delta_a\le Be^{2\chi}a^{-200}.
- \label{eq:score-geometric-inputs}
+ \tag{46}
 \end{equation}$$ For the ambient analysis, after excluding an additional $ne^{O(P)}$ centers, its degree at $t=1/(100p)$ is at most $Be^{-3P}$, where $p$ is an even integer in $[10000\sigma/P,10000\sigma/P+2]$. In the case $g_1=(v-1)\sigma>\chi_0$, which occurs only in dimension four, outside-own strengths are at most $Ce^{-g_1}$. The global number of center–line incidences of strength at least $a>e^{-.05g_0}$, where $g_0=(v-.5)\sigma$, is at most $Cq^2/a^2$. Lemma 8.2 proves these statements without sampling. All dyadic levels below range from $q^{-10}$ to two. Every positive strength or overlap is at least $q/n'$, so this range includes all nonzero quantities which occur.
 
 We shall repeatedly use the following consequences of the parameter hierarchy: $$\begin{equation}
  \log\sigma=o(P),\quad R\log L=o(P),\quad
  b+P\tau=o(L),\quad L=o(P),\quad P=o(\sigma).
- \label{eq:score-parameter-slack}
+ \tag{47}
 \end{equation}$$ They hold uniformly in the allowed range of $D$, for fixed $\eta>0$ and sufficiently large $q$. In particular $R/2>200$ and $R>5000$.
 
 ### Empty exceptional hyperplanes
@@ -719,42 +718,42 @@ We shall repeatedly use the following consequences of the parameter hierarchy: $
 The incidence variance identity gives $$\begin{equation}
  \sum_H(\lambda_{H,C}-f_C)^2\le CqBf_C,
  \qquad \sum_H(\lambda_H-1)^2\le CqB.
- \label{eq:cell-variance}
-\end{equation}$$ Replacing the exact means by $f_C$ and one changes only a negligible term, since $qp_d=1-1/Q_d$. Summing the first estimate over the three partition systems, then using the thresholds in (eq:exceptional-hyperplanes), gives $$\begin{equation}
+ \tag{48}
+\end{equation}$$ Replacing the exact means by $f_C$ and one changes only a negligible term, since $qp_d=1-1/Q_d$. Summing the first estimate over the three partition systems, then using the thresholds in (44), gives $$\begin{equation}
  |\mathcal E|\le CqB,\qquad
  \sum_{H\in\mathcal E}\lambda_H\le CqB.
- \label{eq:exceptional-mass}
-\end{equation}$$ For the second assertion, use Cauchy–Schwarz and the full-set variance in (eq:cell-variance).
+ \tag{49}
+\end{equation}$$ For the second assertion, use Cauchy–Schwarz and the full-set variance in (48).
 
-We call a pencil regular if it contains at most $Be^\xi$ members of $\mathcal E$, and if the pencil sum of each clipped squared deviation in (eq:cell-variance) is at most $Be^\xi$. Here clipping replaces a squared deviation $u^2$ by $\min\{1,u^2\}$. Only $o(n)$ centers have an irregular pencil. Indeed, a clipped weight $w_H\in[0,1]$ has $\sum_Hw_H\le CqBf_C$ and $\sum_Hw_H^2\le\sum_Hw_H$. Applying incidence variance in the opposite direction gives a total pencil variance at most $Cq^dBf_C$, with mean $O(Bf_C)$. Chebyshev’s inequality bounds its exceptional centers by $Cn'e^{-2\xi}f_C$. Sum this bound using $\sum_Cf_C\le3$; the full-set and exceptional-set indicator estimates have the same proof. This argument pays for the number of cells through their total mass, not their cardinality.
+We call a pencil regular if it contains at most $Be^\xi$ members of $\mathcal E$, and if the pencil sum of each clipped squared deviation in (48) is at most $Be^\xi$. Here clipping replaces a squared deviation $u^2$ by $\min\{1,u^2\}$. Only $o(n)$ centers have an irregular pencil. Indeed, a clipped weight $w_H\in[0,1]$ has $\sum_Hw_H\le CqBf_C$ and $\sum_Hw_H^2\le\sum_Hw_H$. Applying incidence variance in the opposite direction gives a total pencil variance at most $Cq^dBf_C$, with mean $O(Bf_C)$. Chebyshev’s inequality bounds its exceptional centers by $Cn'e^{-2\xi}f_C$. Sum this bound using $\sum_Cf_C\le3$; the full-set and exceptional-set indicator estimates have the same proof. This argument pays for the number of cells through their total mass, not their cardinality.
 
 Poisson splitting makes the sample counts at different point–batch pairs independent. The average of $\lambda_H$ over $H\in T$ is at most $4\tau$. Thus there is a fixed $T_0\subseteq T$ with $|T_0|\ge|T|/2$ and $\lambda_H\le8\tau$ for every $H\in T_0$. For large $q$, these hyperplanes lie in $\mathcal E$, and the product-size assumption gives $|T_0|\ge cqBe^{-b}$. If $Y$ counts the members of $T_0$ empty in all batches, then $$\mathbb EY\ge |T_0|e^{-8P\tau},\qquad 0\le Y\le |T_0|.$$ The second bound, rather than independence of empty-hyperplane events, yields $$\begin{equation}
  \mathbb P\{z\ge z_{\min}\}\ge\tfrac12e^{-8P\tau},
  \qquad z_{\min}=cqB e^{-b-8P\tau}.
- \label{eq:z-event}
+ \tag{50}
 \end{equation}$$ Here and below decrease the absolute constant $c$ if necessary.
 
 We may require at the same time $$\begin{equation}
  \sum_{H\in Z}\lambda_H\le .001z.
- \label{eq:z-small-mass}
-\end{equation}$$ The terms with $\lambda_H\le10^{-4}$ contribute at most $10^{-4}z$. For the others, (eq:exceptional-mass) gives expected contribution at most $CqBe^{-10^{-4}P}$. Markov’s inequality at $.0009z_{\min}$ fails with probability at most $Ce^{b+8P\tau-10^{-4}P}=o(e^{-8P\tau})$, by (eq:score-parameter-slack).
+ \tag{51}
+\end{equation}$$ The terms with $\lambda_H\le10^{-4}$ contribute at most $10^{-4}z$. For the others, (49) gives expected contribution at most $CqBe^{-10^{-4}P}$. Markov’s inequality at $.0009z_{\min}$ fails with probability at most $Ce^{b+8P\tau-10^{-4}P}=o(e^{-8P\tau})$, by (47).
 
 For each resulting $Z$, incidence variance shows that $$\begin{equation}
  z_x\ge .8z/q
  \quad\hbox{outside at most }Cq^{d+1}/z\hbox{ ambient points}.
- \label{eq:z-ambient}
+ \tag{52}
 \end{equation}$$ On the training set, $$\sum_{x\in S'}z_x=\frac{n'}q\sum_{H\in Z}\lambda_H\le .001n'z/q.$$ Consequently at least $.99n'$ training points satisfy $z_x\le .1z/q$.
 
 The exceptional part of the score equals $(1-b_0)^Rz_x$, with error in absolute value at most $b_0|\mathcal E\cap\{H:H\ni x\}|$. For a member of $Z$ every factor is $1-b_0$. For any other exceptional hyperplane, either an own hit makes its product zero or an outside-own hit supplies a factor $-b_0$; every other factor has magnitude at most one. At a regular pencil the error is at most $Be^{-.91L}=o(z_{\min}/q)$, and $(1-b_0)^R=1-o(1)$. It remains to control the sum $T_x$ over the nonexceptional hyperplanes. This is the only probabilistic issue left in separating the two bounds on $z_x$.
 
 ### The second moment on training points
 
-Fix $x$. The *schedule* of a point or direction is the vector of its sample counts in the $R$ batches. Condition first on $x$ being unsampled and then on the schedules of all points of $O_x\setminus\{x\}$. The own-empty multipliers in (eq:poisson-score) are now fixed zeros or ones. All remaining point counts are still independent Poisson variables. Group them by their radial lines $\ell$ through $x$, with strengths $$a_\ell=\frac q{n'}|\ell\cap(S'\setminus(O_x\cup\{x\}))|.$$ A line has a hit in a specified batch with probability $1-e^{-La_\ell}$. For a typical hyperplane put $$\lambda'_H=\sum_{\ell\subset H}a_\ell,\qquad
+Fix $x$. The *schedule* of a point or direction is the vector of its sample counts in the $R$ batches. Condition first on $x$ being unsampled and then on the schedules of all points of $O_x\setminus\{x\}$. The own-empty multipliers in (45) are now fixed zeros or ones. All remaining point counts are still independent Poisson variables. Group them by their radial lines $\ell$ through $x$, with strengths $$a_\ell=\frac q{n'}|\ell\cap(S'\setminus(O_x\cup\{x\}))|.$$ A line has a hit in a specified batch with probability $1-e^{-La_\ell}$. For a typical hyperplane put $$\lambda'_H=\sum_{\ell\subset H}a_\ell,\qquad
  \delta'_H=\lambda'_H-(1-f),\qquad
  \theta_{HH'}=\sum_{\ell\subset H\cap H'}a_\ell.$$ The union defining $O_x$ uses two cells minus their intersection. The exceptional thresholds therefore give $$\begin{equation}
  \lambda'_H\ge .75,\qquad |\delta'_H|\le .17,\qquad
  D_x:=\sum_{H\text{ typical}}(\delta'_H)^2\le CBe^\xi
- \label{eq:typical-masses}
+ \tag{53}
 \end{equation}$$ at a regular pencil. The last bound follows by summing the relevant clipped squares. Removing $x$ contributes at most $O(q^{d-1}(q/n')^2)=O(B)$, since $n'\ge n/4>25qP$. Also $\lambda'_H\le\lambda_H\le1.1$, so the geometric input applies.
 
 Temporarily omit the fixed own multiplier and write the one-batch term as $$X_H=\mathbf1\{H\text{ is outside-own empty}\}-b_0.$$ Then $$u_H:=\mathbb EX_H=e^{-L\lambda'_H}-b_0,
@@ -763,18 +762,18 @@ Temporarily omit the fixed own multiplier and write the one-batch term as $$X_H=
  |\mathbb EX_HX_{H'}|\le L^2e^{-.75L}
        (|\delta'_H\delta'_{H'}|+\theta_{HH'}),
  \qquad \mathbb EX_H^2\le2e^{-.75L}.
- \label{eq:one-batch-moments}
+ \tag{54}
 \end{equation}$$ The fixed multipliers can only reduce the absolute bounds. More precisely, after the own schedules are fixed, the full product for a hyperplane is either identically zero or has all its own-empty multipliers equal to one. Thus they do not alter the signed cancellation used below.
 
-In dimension two the overlaps vanish. In higher dimensions, (eq:score-geometric-inputs) and dyadic summation give $$\sum_{H\ne H'}\theta_{HH'}^R
- \le B^2\exp(2\chi+O(R+\log\sigma)).$$ For the deviation terms, $R\ge2$ and $|\delta'_H|<1$ give $\sum_{H,H'}|\delta'_H\delta'_{H'}|^R\le D_x^2$. Finally $Q_{d-1}=O(B^2)$, because $n'\le n\le Cq^{(d+1)/2}$. Summing (eq:one-batch-moments) to the $R$-th power and using (eq:score-parameter-slack) proves $$\begin{equation}
+In dimension two the overlaps vanish. In higher dimensions, (46) and dyadic summation give $$\sum_{H\ne H'}\theta_{HH'}^R
+ \le B^2\exp(2\chi+O(R+\log\sigma)).$$ For the deviation terms, $R\ge2$ and $|\delta'_H|<1$ give $\sum_{H,H'}|\delta'_H\delta'_{H'}|^R\le D_x^2$. Finally $Q_{d-1}=O(B^2)$, because $n'\le n\le Cq^{(d+1)/2}$. Summing (54) to the $R$-th power and using (47) proves $$\begin{equation}
  \mathbb ET_x^2\le B^2e^{-.6P}.
- \label{eq:validation-second-moment}
+ \tag{55}
 \end{equation}$$ This estimate is uniform in the conditioned own schedules. It holds at all centers except the $o(n)$ pencil and geometric exceptions; it uses none of the additional ambient exclusions.
 
 In dimension two, different pencil lines have disjoint outside-$x$ samples. Thus their score terms are independent under the same conditioning. Their variance sum is at most $Cqe^{-.6P}$, and their mean is at most $Be^{-cP}$, by the one-batch mean bound and $D_x$. Bernstein’s inequality gives $$\begin{equation}
  \mathbb P\{|T_x|>z_{\min}/(10q)\}\le q^{-50}.
- \label{eq:score-dimension-two}
+ \tag{56}
 \end{equation}$$ Indeed $B\ge c\sqrt q$, $P=o(\sigma)$, and $e^{cP}\gg\sigma$. This settles the ambient tail in dimension two. The next subsection treats dimensions three and four, where pencil tests share radial lines.
 
 ### An ambient moment bound
@@ -785,23 +784,23 @@ Choose the even moment order $p$ above, and put $K_c=200$, $J=5000$. If $g_1>\ch
 We prove, at every remaining ambient center, $$\begin{equation}
  \mathbb E\bigl[T_x^p\mathbf1_{\mathcal G_x}\bigr]
  \le B^p e^{-.1pP}.
- \label{eq:ambient-high-moment}
+ \tag{57}
 \end{equation}$$ Expand the power into ordered $p$-tuples of typical hyperplanes. Join two distinct tuple hyperplanes when their overlap exceeds $t=1/(100p)$. A component is a connected component of this graph. A simple singleton is an isolated hyperplane occurring in exactly one tuple position. A positive-strength radial direction is *external* if it is contained in hyperplanes from two different components. A batch *touches* a hyperplane when it has a hit on an external direction contained in that hyperplane. Thus sharing a direction always means containing that radial line, not merely intersecting it at $x$. The total external mass in any tuple hyperplane is at most $(p-1)t<.01$: sum its overlap with tuple hyperplanes in other components.
 
 Condition on all external schedules. Internal schedules belonging to different components are independent. Directions contained in no tuple hyperplane contribute an independent truncation probability at most one, which can be omitted from the absolute expectation bound. The remaining truncation condition splits into its external condition and one internal condition per component. The internal mass in every hyperplane is at least $.74$. In a batch with no external hit the expected absolute value of its factor is at most $2e^{-.74L}$. If there is an external hit the factor has magnitude $b_0\le e^{-.92L}$. A component containing two distinct hyperplanes, or a singleton repeated in the tuple, consequently costs at most $$\begin{equation}
  e^{-.7P}.
- \label{eq:nonsimple-attenuation}
+ \tag{58}
 \end{equation}$$ To see this, keep only the absolute factors of one of its hyperplanes; all other absolute factors are at most one. Drop its internal truncation and multiply the one-batch bounds. This bound is uniform in the external schedules.
 
 For a simple singleton $H$, let $\theta_{\max}$ be its largest overlap with another tuple hyperplane, or zero if there is none. The external mass is at most $p\theta_{\max}\le .01$. In an untouched batch its signed mean has magnitude at most $Le^{-.74L}(|\delta'_H|+p\theta_{\max})$; a touched batch has factor $-b_0$. If fewer than half the batches are touched, the product of means is therefore bounded in absolute value by $$\begin{equation}
  e^{-.68P}\bigl(|\delta'_H|^{R/2}+
                          (p\theta_{\max})^{K_c}\bigr).
- \label{eq:simple-signed-attenuation}
+ \tag{59}
 \end{equation}$$ Here $(CL)^R=e^{o(P)}$, and $R/2\ge K_c$. If at least half are touched, the bound is instead $e^{-.68P}\mathbf1_{\mathrm{BAD}(H)}$, where $\mathrm{BAD}(H)$ denotes this condition on the external schedules.
 
-Internal truncation adds to (eq:simple-signed-attenuation) at most $$\begin{equation}
+Internal truncation adds to (59) at most $$\begin{equation}
  e^{-.68P}\sum_{\ell\subset H}(Pa_\ell)^J.
- \label{eq:truncation-error}
+ \tag{60}
 \end{equation}$$ For a direct verification, union over a line with hits in $J$ specified batches. Each forced batch has score factor $-b_0$ and probability at most $La_\ell$. Every remaining batch has absolute expectation at most $2e^{-.74L}$. Summing the choices of forced batches gives $(Pa_\ell)^J$ while retaining the displayed attenuation. Thus no independence conditional on the truncation event is being asserted.
 
 We can now designate each simple singleton as a deviation, shift, truncation-error or BAD term according to these bounds. The first three have respective weights $$|\delta'_H|^{R/2},\qquad (p\theta_{\max})^{K_c},\qquad
@@ -827,16 +826,16 @@ This is a union bound over static descriptions. For each fixed tuple and descrip
 
 First consider $g_1\le\chi_0$. If an unencoded vertex has a touched direction shared with an encoded hyperplane $H_0$, use it as an anchor. For a new direction, the weighted sum of its direction and batch choices inside $H_0$ is at most $$\begin{equation}
  \sum_{r=1}^R\sum_{\ell\subset H_0}La_\ell\le 2P.
- \label{eq:anchor-weight}
+ \tag{61}
 \end{equation}$$ For an old direction use a dictionary reference and drop its hit requirement. The anchored hyperplane can be chosen in at most $Cq^{d-2}$ ways, giving normalized cost $Cq^{d-2}/B\le Cq^{v-1}\le Ce^{\chi_0}$. Encode it and add any new direction.
 
-If $g_1>\chi_0$, apply this step only when there are two geometrically distinct touched directions shared with encoded hyperplanes. Choose the two anchors in succession using (eq:anchor-weight) or dictionary references. They span a projective plane, so the normalized number of possible hyperplanes is at most $Cq^{d-3}/B\le Cq^{v-2}$. The two encoded neighbors need not be distinct, but the two directions must be. If this step is unavailable, there is at most one touched direction to the encoded set. On $\mathcal G_x$ it accounts for fewer than $J$ batches.
+If $g_1>\chi_0$, apply this step only when there are two geometrically distinct touched directions shared with encoded hyperplanes. Choose the two anchors in succession using (61) or dictionary references. They span a projective plane, so the normalized number of possible hyperplanes is at most $Cq^{d-3}/B\le Cq^{v-2}$. The two encoded neighbors need not be distinct, but the two directions must be. If this step is unavailable, there is at most one touched direction to the encoded set. On $\mathcal G_x$ it accounts for fewer than $J$ batches.
 
 ##### Stage 2: new pairs.
 
 Recheck the anchor steps after every operation. If no anchor step applies, and two unencoded vertices share hits in at least $K_c$ distinct batches on directions contained in no encoded hyperplane, encode that ordered pair. Choose an overlap dyad $a\le\theta<2a$ and exactly $K_c$ of those batches, with one witnessing direction in each. All these directions are outside the dictionary. Their specified direction–batch events are distinct even if a direction repeats. For the fixed pair the sum of their probability weights is at most $(2Pa)^{K_c}$. Combined with the pair count this costs at most $$\begin{equation}
  (E_a/B^2)(2Pa)^{K_c}\le e^{2\chi}(2P)^{K_c}.
- \label{eq:pair-certificate-cost}
+ \tag{62}
 \end{equation}$$ Add both vertices to the encoded set and the new directions to the dictionary, and resume the checks. Restricting new-direction choices to entries outside the dictionary preserves independence. Enlarging their positive weighted sum to all directions is only an upper bound on that sum; it does not turn repeated events into independent ones.
 
 ##### Stage 3: residual roots.
@@ -848,13 +847,13 @@ There is a root set containing at most one tenth of the residual vertices such t
 Encode the roots freely, dropping their BAD indicators. Encode every nonroot from two distinct directions to roots, as in the high-case anchor step, using dictionary references whenever possible. If there are $h$ residual vertices and $r\le h/10$ roots, the aggregate normalized geometric cost is at most $$\begin{equation}
  C^h q^{rv+(h-r)(v-2)}
  =C^h q^{h(v-2)+2r}\le C'^h q^{-.3h},
- \label{eq:root-cancellation}
+ \tag{63}
 \end{equation}$$ because $v\le1.5+O(1/\sigma)$. The geometric restrictions remain valid when a direction is already in the dictionary: reusing its name drops only a hit requirement, not the requirement that it lie in the new hyperplane. In particular, two reused but distinct directions still span a plane. Their previously paid hit events are not charged again, while the new hyperplane must still contain that plane.
 
-At most $CK_cp$ dictionary entries and positive hit requirements have been recorded. Orders, statuses, vertex names, batches, dictionary references and dyads, together with the powers of $P$ in (eq:anchor-weight) and (eq:pair-certificate-cost), cost at most $$\begin{equation}
+At most $CK_cp$ dictionary entries and positive hit requirements have been recorded. Orders, statuses, vertex names, batches, dictionary references and dyads, together with the powers of $P$ in (61) and (62), cost at most $$\begin{equation}
  (CpR\sigma P)^{CK_cp}=\exp(o(pP)).
- \label{eq:certificate-overhead}
-\end{equation}$$ The non-overhead factors are at most $e^{2\chi+O(1)}$ per operation; (eq:root-cancellation) is favorable. This completes the count of all residual BAD requirements.
+ \tag{64}
+\end{equation}$$ The non-overhead factors are at most $e^{2\chi+O(1)}$ per operation; (63) is favorable. This completes the count of all residual BAD requirements.
 
 Some counting bounds enlarge the sum over valid descriptions by dropping geometric constraints. The extra configurations need not have the original strong-component pattern: they are only positive summands in a numerical upper bound. Attenuation is applied to valid tuples before their description sums are enlarged, not to these extra configurations.
 
@@ -862,23 +861,23 @@ Some counting bounds enlarge the sum over valid descriptions by dropping geometr
 
 All component attenuations were uniform in the external schedules. They therefore remain valid for every static certificate. Only now integrate the external variables, dropping the external truncation indicator before using their product law. There is no assertion that these variables are independent conditional on $\mathcal G_x$.
 
-A nonsimple component pays for its first two positions by $e^{-.7P+2\chi}$, apart from the overhead. Each extra distinct position has factor $e^{-3P}$, and each repeat has factor $1/B\le e^{-P}$ for large $q$. Every simple position keeps $e^{-.68P}$, with cost at most $e^{2\chi+o(P)}$ per position. Deviation costs $e^\xi$ are smaller. After the overhead (eq:certificate-overhead), these bounds give (eq:ambient-high-moment), with room to spare. The moment order is even, so Markov’s inequality applies despite signed individual score terms. Since $z_{\min}/(10q)=cB e^{-b-8P\tau}$, it gives $$\begin{equation}
+A nonsimple component pays for its first two positions by $e^{-.7P+2\chi}$, apart from the overhead. Each extra distinct position has factor $e^{-3P}$, and each repeat has factor $1/B\le e^{-P}$ for large $q$. Every simple position keeps $e^{-.68P}$, with cost at most $e^{2\chi+o(P)}$ per position. Deviation costs $e^\xi$ are smaller. After the overhead (64), these bounds give (57), with room to spare. The moment order is even, so Markov’s inequality applies despite signed individual score terms. Since $z_{\min}/(10q)=cB e^{-b-8P\tau}$, it gives $$\begin{equation}
  \mathbb P\{|T_x|>z_{\min}/(10q),\ \mathcal G_x\}
  \le \exp[-.1pP+p(b+8P\tau+O(1))]\le q^{-50}.
- \label{eq:ambient-score-tail}
+ \tag{65}
 \end{equation}$$
 
 ### Simultaneous capture and size
 
 We finish the proof of Lemma 9.1 under the original sampling law. All fixed-point estimates above were conditional on the point being unsampled and uniform in its own schedules. Multiplying by the probability that it is unsampled and then averaging the own schedules makes them unconditional upper bounds for failures at unsampled points. Sampled points are included automatically.
 
-The deterministic pencil and local geometry exceptions contain $o(n)$ points. On the training set, the second moment (eq:validation-second-moment) gives expected typical-score failures at most $n'e^{-cP}$. Markov’s inequality shows that more than $.01n'$ such failures has probability $e^{-c'P}$, which is negligible relative to $e^{-8P\tau}$. This validation estimate does not discard the additional $ne^{O(P)}$ ambient centers.
+The deterministic pencil and local geometry exceptions contain $o(n)$ points. On the training set, the second moment (55) gives expected typical-score failures at most $n'e^{-cP}$. Markov’s inequality shows that more than $.01n'$ such failures has probability $e^{-c'P}$, which is negligible relative to $e^{-8P\tau}$. This validation estimate does not discard the additional $ne^{O(P)}$ ambient centers.
 
-For the ambient size estimate, those additional centers may all be included. Beyond all static exceptions, (eq:ambient-score-tail), (eq:score-dimension-two), and the bound on $\sum_x\mathbb P(\mathcal G_x^c)$ show that the expected number of dynamic failures is $O(n+1)$. Markov’s inequality permits at most $ne^{CP}$ of them, except with probability $e^{-cP}$, again negligible relative to (eq:z-event). The total Poisson sample count has mean $qP$ and exceeds $2qP$ with probability $e^{-cqP}$.
+For the ambient size estimate, those additional centers may all be included. Beyond all static exceptions, (65), (56), and the bound on $\sum_x\mathbb P(\mathcal G_x^c)$ show that the expected number of dynamic failures is $O(n+1)$. Markov’s inequality permits at most $ne^{CP}$ of them, except with probability $e^{-cP}$, again negligible relative to (50). The total Poisson sample count has mean $qP$ and exceeds $2qP$ with probability $e^{-cqP}$.
 
-Intersect these events with (eq:z-event) and (eq:z-small-mass). Their probability is at least $ce^{-8P\tau}$. At least $.99n'$ training points have $z_x\le .1z/q$; after the $o(n)$ static exceptions and the validation failures, a fixed positive fraction have score below $.5z/q$ or are sampled. They belong to $W$. Outside the ambient exceptions, $z_x\ge .8z/q$, the exceptional-score error is $o(z/q)$, and the typical score has magnitude at most $z/(10q)$. Such unsampled points have score above $.5z/q$ and are excluded.
+Intersect these events with (50) and (51). Their probability is at least $ce^{-8P\tau}$. At least $.99n'$ training points have $z_x\le .1z/q$; after the $o(n)$ static exceptions and the validation failures, a fixed positive fraction have score below $.5z/q$ or are sampled. They belong to $W$. Outside the ambient exceptions, $z_x\ge .8z/q$, the exceptional-score error is $o(z/q)$, and the typical score has magnitude at most $z/(10q)$. Such unsampled points have score above $.5z/q$ and are excluded.
 
-Finally, the $Z$-dependent ambient exception in (eq:z-ambient) has size $$Cq^{d+1}/z\le Cn'e^{b+8P\tau}\le ne^{CP}.$$ The at most $2qP$ sampled points, all other ambient exceptions and dynamic failures satisfy the same size allowance. Thus $|W|\le ne^{CP}$ and $|W\cap S'|\ge cn'$ simultaneously on a set of rows of probability at least $\exp[-C(P\tau+1)]$, proving the lemma.
+Finally, the $Z$-dependent ambient exception in (52) has size $$Cq^{d+1}/z\le Cn'e^{b+8P\tau}\le ne^{CP}.$$ The at most $2qP$ sampled points, all other ambient exceptions and dynamic failures satisfy the same size allowance. Thus $|W|\le ne^{CP}$ and $|W\cap S'|\ge cn'$ simultaneously on a set of rows of probability at least $\exp[-C(P\tau+1)]$, proving the lemma.
 
 ## Public descriptions and completion of the predictor
 
@@ -901,11 +900,11 @@ We now pass from the prime parameter in the construction to the Ramsey parameter
 
 *Completion of the proof of Theorem 1.1.* Fix $0<\eta<1/10$. By Theorem 6.5, for every sufficiently large prime $q$ there is a $K_5$-free graph on $$N=\lfloor q^4\log q\rfloor$$ vertices with independence number less than $k=\lfloor q(\log q)^{1+\eta}\rfloor$. For a large integer $t$, put $$x=\frac{t}{4(\log t)^{1+\eta}}.$$ Bertrand’s postulate, applied to $\lceil x\rceil$, supplies a prime with $$x<q<2\lceil x\rceil\le3x$$ once $x\ge2$. Since $x\to\infty$, this prime is large enough for Theorem 6.5 whenever $t$ is sufficiently large. Moreover, $q<t$ and $$k\le q(\log q)^{1+\eta}\le\frac34t<t.$$ The constructed graph therefore has no independent set of size $t$, so $r(5,t)>N$. Since $r(5,t)$ is an integer, this implies $r(5,t)>q^4\log q$. Also $$\log q\ge\log t-\log4-(1+\eta)\log\log t
  \ge\frac12\log t$$ for all sufficiently large $t$. Consequently $$\begin{equation}
-\label{eq:lower-fixed-eta}
+\tag{66}
  r(5,t)>\frac{t^4}{512(\log t)^{3+4\eta}}.
 \end{equation}$$
 
-Given $\varepsilon>0$, choose $\eta=\min\{\varepsilon/8,1/20\}$, so that $4\eta<\varepsilon$. Increasing the threshold on $t$ until $(\log t)^{\varepsilon-4\eta}\ge512$, we obtain from (eq:lower-fixed-eta) $$r(5,t)\ge\frac{t^4}{(\log t)^{3+\varepsilon}}$$ for every sufficiently large integer $t$. The parameter $\eta$ is fixed before taking $t$ large, and the threshold is allowed to depend on $\varepsilon$.
+Given $\varepsilon>0$, choose $\eta=\min\{\varepsilon/8,1/20\}$, so that $4\eta<\varepsilon$. Increasing the threshold on $t$ until $(\log t)^{\varepsilon-4\eta}\ge512$, we obtain from (66) $$r(5,t)\ge\frac{t^4}{(\log t)^{3+\varepsilon}}$$ for every sufficiently large integer $t$. The parameter $\eta$ is fixed before taking $t$ large, and the threshold is allowed to depend on $\varepsilon$.
 
 Theorem 2.1, with its absolute constant $C$, and the lower bound just proved give, for each $\varepsilon>0$ and all sufficiently large integers $t$, $$3-\frac{\log C}{\log\log t}
  \le\frac{4\log t-\log r(5,t)}{\log\log t}

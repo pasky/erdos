@@ -47,7 +47,7 @@ All graphs are finite and simple. An embedding is injective and preserves edges;
 This section supplies all the graph properties used in the continuation. In addition to degrees and link cycles, we need two upper bounds for small rooted graphs. The second is useful when all the remaining choices together have expected count below one.
 
 Fix $$\begin{equation}
-\label{eq:constants}
+\tag{2.1}
  \epsilon=\frac1{2000},\qquad r_0=8000,\qquad
  L=100,\qquad B=50,\qquad
  H_0=\max\{r_0+1,3L+2\}=8001.
@@ -56,9 +56,9 @@ Fix $$\begin{equation}
  i_0&=\left\lfloor\frac{n^2}{6}
              \left(1-\frac1n-n^{-1/2+\epsilon}\right)\right\rfloor,
  \qquad p=p_{i_0},\qquad D=np^2,\qquad m=\frac{n^2p}{2}.
- \label{eq:prefix-time}
+ \tag{2.2}
 \end{align}$$ These quantities are deterministic. In particular, $$\begin{equation}
-\label{eq:scales}
+\tag{2.3}
  p=n^{-1/2+\epsilon}+O(n^{-2}),\qquad
  D\sim n^{2\epsilon},\qquad e(G_{i_0})=m
 \end{equation}$$ whenever $i_0$ is reached.
@@ -75,10 +75,10 @@ The independence of $I$ is a property of the template. Its prescribed images may
 2.   *For every vertex $u$ and $3\le j\le r_0$, the number of embeddings of a fixed labeled cycle $C_j$ into the link $G[N_G(u)]$ is $(1\pm n^{-c})D^j$.*
 
 3.   *For every template $(H,I)$ with $v(H)\le H_0$ and every injection $\psi:I\to[n]$, the following two bounds hold. If $S(H',I)\ge1$ for every same-root subtemplate $H'$, then $$\begin{equation}
-    \label{eq:template-large}
+    \tag{2.4}
      X_{H,I,\psi}(G)\le(1+\log n)^{C_0}S(H,I).
     \end{equation}$$ If $n^{v(H)-|J|}p^{e(H)-e(H[J])}\le1$ for every $I\subseteq J\subseteq V(H)$, then $$\begin{equation}
-    \label{eq:template-small}
+    \tag{2.5}
      X_{H,I,\psi}(G)\le(1+\log n)^{C_0}.
     \end{equation}$$*
 
@@ -88,7 +88,7 @@ The independence of $I$ is a property of the template. Its prescribed images may
 
 ##### Public parameters and initial hypotheses.
 
-Denote their small parameter by $\eta$, keeping it distinct from $\epsilon$ in (eq:constants). Choose $\eta$ small enough for their hierarchy and so that $$\eta<\epsilon/2,\qquad \eta^{-4}\ge H_0.$$ Choose their $\delta>0$ sufficiently small in terms of $\eta$, with $\delta<1/2$. These choices remain fixed as $n$ grows. The removed graph is a triangle, with uniformity parameter $k=2$ and 2-density $(3-1)/(3-2)=2$; it is strictly 2-balanced. The initial density in their normalization is $\theta=2e(K_n)/n^2=1-1/n$. Their density trajectory is therefore exactly $p_i$ in (eq:prefix-time). Their horizon has density $n^{-1/2+\eta}$, strictly below $p_{i_0}$ for large $n$.
+Denote their small parameter by $\eta$, keeping it distinct from $\epsilon$ in (2.1). Choose $\eta$ small enough for their hierarchy and so that $$\eta<\epsilon/2,\qquad \eta^{-4}\ge H_0.$$ Choose their $\delta>0$ sufficiently small in terms of $\eta$, with $\delta<1/2$. These choices remain fixed as $n$ grows. The removed graph is a triangle, with uniformity parameter $k=2$ and 2-density $(3-1)/(3-2)=2$; it is strictly 2-balanced. The initial density in their normalization is $\theta=2e(K_n)/n^2=1-1/n$. Their density trajectory is therefore exactly $p_i$ in (2.2). Their horizon has density $n^{-1/2+\eta}$, strictly below $p_{i_0}$ for large $n$.
 
 Their Section 5 requires an $(\eta^4,\delta,2)$-pseudorandom initial graph. For completeness, $K_n$ satisfies all its defining conditions (P1)–(P4) on p. 3. The public convention permits edges among distinguished vertices and ignores them in both counts and scalings. For a template with $r$ distinguished vertices, $a$ other vertices, and $b$ edges not internal to the distinguished set, every fixed root injection has exactly $(n-r)_a$ extensions in $K_n$; here $(x)_a=x(x-1)\cdots(x-a+1)$ and $(x)_0=1$. For all templates with at most $\eta^{-4}$ vertices, $$\frac{(n-r)_a}{n^a\theta^b}=1+O_\eta(n^{-1}).$$ Their initial error parameter is $\zeta_{\mathrm{init}}=n^\delta/(\sqrt n\,\theta)$. The displayed relative error is smaller than both $\zeta_{\mathrm{init}}$ and $\zeta_{\mathrm{init}}^\delta$, which verifies the relative-error requirements (P1) and (P2). If $a\ge1$, the scaling is asymptotic to $n^a$, while the upper scaling threshold in (P3) is at most $n^{1/2}$; thus neither small-scaling condition (P3) or (P4) applies. If $a=0$, count and scaling are both exactly one, and the remaining conditions hold directly.
 
@@ -97,15 +97,15 @@ Their Section 5 requires an $(\eta^4,\delta,2)$-pseudorandom initial graph. For
 The dynamic error parameter is $$\zeta_i=\frac{n^{\eta^2}}{\sqrt n\,p_i}
          =n^{\eta^2}x_i^{-1/2},\qquad x_i=np_i^2.$$ The balanced-template controls in Section 7 give relative error $\zeta_i^\delta$ until the relevant scaling reaches $\zeta_i^{-\sqrt\delta}$, simultaneously over the templates and root injections in their families. For a balanced rooted template with $a\ge1$ free vertices and density at most two, its scaling is at least $x_i^a$. Throughout $i\le i_0$, we have $x_i\ge n^{2\epsilon}$ and $$\frac{x_i^a}{\zeta_i^{-\sqrt\delta}}
   =n^{\eta^2\sqrt\delta}x_i^{a-\sqrt\delta/2}
-  \longrightarrow\infty.$$ Thus each template used for parts [it:degrees] and [it:cycles] belongs to the tracked family initially and never reaches its threshold before $i_0$.
+  \longrightarrow\infty.$$ Thus each template used for parts (i) and (ii) belongs to the tracked family initially and never reaches its threshold before $i_0$.
 
 A rooted edge counts degrees. A path of length two with its endpoints distinguished counts common neighbors, even when the prescribed endpoint images are adjacent. For a link cycle of length $j$, use the wheel whose center is distinguished and whose rim is the labeled $C_j$. This template has $j$ free vertices and $2j$ edges. Any subset of $s$ free vertices has at most $s$ spokes and $s$ rim edges, so the wheel is balanced with density two. Its extensions are exactly the labeled link-cycle embeddings and have scaling $D^j$. The largest wheel has $r_0+1\le\eta^{-4}$ vertices. The degree and codegree templates are likewise balanced, with scalings $np$ and $D$ respectively.
 
-At $i_0$, $$\zeta_{i_0}\le n^{-(\epsilon-\eta^2)}.$$ Choose any fixed $c$ with $0<c<\delta(\epsilon-\eta^2)$. The public relative errors then imply parts [it:degrees] and [it:cycles], with slack for fixed constants.
+At $i_0$, $$\zeta_{i_0}\le n^{-(\epsilon-\eta^2)}.$$ Choose any fixed $c$ with $0<c<\delta(\epsilon-\eta^2)$. The public relative errors then imply parts (i) and (ii), with slack for fixed constants.
 
 ##### General rooted extensions.
 
-On the same stopping controls, Lemma 7.15 applies to every template up to the public size cap, with no balance assumption on the target template. Its first case states that, if all same-root subtemplate scalings are at least one, the extension count is at most its scaling times $(1+\log n)^{\alpha_{H,I}}$. Its second case gives the bound $(1+\log n)^{\alpha_{H,I}}$ when every completion scaling after enlarging the distinguished set is at most one. Here $$\alpha_{H,I}=2^{v(H)-|I|+1}-2.$$ In our independent-root convention these hypotheses are exactly those in (eq:template-large) and (eq:template-small). For the latter, the public convention ignores the edges internal to the enlarged root set $J$, giving precisely the exponent $e(H)-e(H[J])$. We may take $C_0=2^{H_0+1}-2$. Its size is immaterial: it is fixed independently of $n$.
+On the same stopping controls, Lemma 7.15 applies to every template up to the public size cap, with no balance assumption on the target template. Its first case states that, if all same-root subtemplate scalings are at least one, the extension count is at most its scaling times $(1+\log n)^{\alpha_{H,I}}$. Its second case gives the bound $(1+\log n)^{\alpha_{H,I}}$ when every completion scaling after enlarging the distinguished set is at most one. Here $$\alpha_{H,I}=2^{v(H)-|I|+1}-2.$$ In our independent-root convention these hypotheses are exactly those in (2.4) and (2.5). For the latter, the public convention ignores the edges internal to the enlarged root set $J$, giving precisely the exponent $e(H)-e(H[J])$. We may take $C_0=2^{H_0+1}-2$. Its size is immaterial: it is fixed independently of $n$.
 
 ##### Probability and conditioning.
 
@@ -181,17 +181,17 @@ We may consequently evaluate a child’s subtree hypothetically even when the ch
 ### Exact probability identities
 
 Let $q_e(t)$ be the probability that a full singleton root at $e$ returns true at threshold $t$ in the independent unfolding. Let $q_{e,T}(t)$ be the same probability when $T\ni e$ is omitted only from that singleton root list. For $T=\{e,f,g\}\in\mathcal T$, define $$\begin{equation}
-\label{eq:integral}
+\tag{3.1}
  I_{e,T}(t)=\int_0^t q_{f,T}(v)q_{g,T}(v)\,dv,
  \qquad 0\le t\le1.
 \end{equation}$$ The integral is well defined by Lemma 3.3.
 
 **Proposition 3.4** (Product identities). *For every triangle $T=\{e,f,g\}\in\mathcal T$ and $t\in[0,1]$, the independent unfolding satisfies $$\begin{equation}
-\label{eq:pair}
+\tag{3.2}
  \mathbb P(\text{the pair $\{f,g\}\subset T$ returns true at $t$})
    =q_{f,T}(t)q_{g,T}(t),
 \end{equation}$$ $$\begin{equation}
-\label{eq:products}
+\tag{3.3}
  \begin{aligned}
  q_e(t)&=\prod_{S\ni e}\bigl(1-I_{e,S}(t)\bigr),\\
  q_{e,T}(t)&=\prod_{\substack{S\ni e\\S\ne T}}
@@ -199,18 +199,18 @@ Let $q_e(t)$ be the probability that a full singleton root at $e$ returns true a
  \end{aligned}
 \end{equation}$$ In the pair probability, $T$ is omitted from the pair’s candidate list. All products are over $\mathcal T$, and an empty product equals $1$. The functions $q_e$, $q_{e,T}$, and $I_{e,T}$ belong to $C^1([0,1])$. Moreover, $q_e(0)=q_{e,T}(0)=1$ and $I_{e,T}(0)=0$.*
 
-*Proof.* After omitting $T$, the candidate sets at $f$ and $g$ are disjoint: a triangle containing both edges would equal $T$. Their occurrence variables and all descendant variables are independent. The pair returns true precisely when every candidate in both sets fails to give a successful child below $t$. The two separate events have the laws of the singleton roots with $T$ omitted, proving (eq:pair). The ordering of the joint list changes which children are visited, but not this event that all relevant children fail.
+*Proof.* After omitting $T$, the candidate sets at $f$ and $g$ are disjoint: a triangle containing both edges would equal $T$. Their occurrence variables and all descendant variables are independent. The pair returns true precisely when every candidate in both sets fails to give a successful child below $t$. The two separate events have the laws of the singleton roots with $T$ omitted, proving (3.2). The ordering of the joint list changes which children are visited, but not this event that all relevant children fail.
 
-Consider a candidate $S=\{e,f,g\}$ at a singleton root $e$. Conditional on its occurrence priority being $v$, its child is a pair call at threshold $v$, with $S$ omitted and independent descendant priorities. Equation (eq:pair) gives its success probability as $q_{f,S}(v)q_{g,S}(v)$. Thus $I_{e,S}(t)$ is exactly the probability that this candidate has priority below $t$ and a successful child. Different root candidates use disjoint sets of occurrence variables, including their descendants. Taking the probability that none succeeds proves both products in (eq:products).
+Consider a candidate $S=\{e,f,g\}$ at a singleton root $e$. Conditional on its occurrence priority being $v$, its child is a pair call at threshold $v$, with $S$ omitted and independent descendant priorities. Equation (3.2) gives its success probability as $q_{f,S}(v)q_{g,S}(v)$. Thus $I_{e,S}(t)$ is exactly the probability that this candidate has priority below $t$ and a successful child. Different root candidates use disjoint sets of occurrence variables, including their descendants. Taking the probability that none succeeds proves both products in (3.3).
 
-Initially the probabilities are measurable and bounded between $0$ and $1$. Equation (eq:integral) therefore makes each $I_{e,T}$ Lipschitz. The finite products imply continuity of all $q_e$ and $q_{e,T}$. Substitution back into (eq:integral) now gives a continuous integrand, so the integrals, and then the products, are continuously differentiable. Derivatives at the endpoints have their one-sided interpretation. The initial values follow directly from the formulas. ◻
+Initially the probabilities are measurable and bounded between $0$ and $1$. Equation (3.1) therefore makes each $I_{e,T}$ Lipschitz. The finite products imply continuity of all $q_e$ and $q_{e,T}$. Substitution back into (3.1) now gives a continuous integrand, so the integrals, and then the products, are continuously differentiable. Derivatives at the endpoints have their one-sided interpretation. The initial values follow directly from the formulas. ◻
 
 These identities describe the auxiliary independent model. They assert no factorization of survival probabilities in the finite priority system. We next estimate their solution uniformly over all edge and omitted-parent types; the finite evaluation above has already constructed this solution, so no recursive fixed-point assumption is needed.
 
 ## Stable unfolded probabilities
 
 We now compute the survival probabilities in the independent unfolding. Throughout this section, $G$ is any graph satisfying Proposition 2.2; every estimate is uniform over such graphs. Spencer’s branching model has survival probability $(1+Qc)^{-1/Q}$ (Spencer 1995, sec. 3, equation (9)). With $Q=2$ and $c=Dt$, its scalar comparison function is $$\begin{equation}
-\label{eq:scalar-survival}
+\tag{4.1}
  q(t)=(1+2Dt)^{-1/2},\qquad 0\le t\le1.
 \end{equation}$$ It solves $q'(t)=-Dq(t)^3$ with $q(0)=1$. We will show that the probabilities $q_e(t)$ and $q_{e,T}(t)$ from Section 3 are uniformly asymptotic to $q(t)$. The essential issue is stability: small discrepancies between edge types must remain small throughout the time interval.
 
@@ -225,7 +225,7 @@ Let $A$ be the real symmetric matrix indexed by $\mathcal E$, with $A_{ef}=1$ if
 Differentiating the products is legitimate by Proposition 3.4. For $T=\{e,f,g\}$ we have $$I'_{e,T}(t)=q_{f,T}(t)q_{g,T}(t),\qquad
  q_{f,T}(t)=\frac{q_f(t)}{1-I_{f,T}(t)},\qquad
  \frac{dt}{ds}=\frac1{Dq(t)^2}.$$ Here and below a prime on $I$ denotes differentiation in $t$, and a prime on $z$ denotes differentiation in $s$. Taking the logarithmic derivative of $q_e$ consequently gives the exact identity $$\begin{equation}
-\label{eq:exact-z}
+\tag{4.2}
  z'_e(s)=1-\frac1D
  \sum_{\substack{T\in\mathcal T\\T=\{e,f,g\}}}
  \frac{\exp(z_f(s)+z_g(s))}
@@ -234,35 +234,34 @@ Differentiating the products is legitimate by Proposition 3.4. For $T=\{e,f,g\}
 \end{equation}$$ The factor indexed by $e$ comes from differentiating its product; the other two factors come from the two omitted-parent probabilities.
 
 For vectors, $\lVert\cdot\rVert_\infty$ denotes the maximum norm and $\lVert\cdot\rVert_2$ the Euclidean norm. For matrices we use the corresponding induced operator norms. Fix $$\begin{equation}
-\label{eq:bootstrap-exponent}
+\tag{4.3}
  0<a<\min\{c,2\epsilon\},\qquad \delta_n=n^{-a}.
 \end{equation}$$ Suppose, provisionally, that on an interval starting at zero, $$\begin{equation}
-\label{eq:bootstrap-assumptions}
+\tag{4.4}
  \lVert z(s)\rVert_\infty\le\delta_n,
  \qquad I_{e,T}(t(s))\le\tfrac12
  \quad(e\in T\in\mathcal T).
 \end{equation}$$ The omitted-parent identity then implies $q_{e,T}(t)\le2e^{\delta_n}q(t)$. Integrating yields, on the same interval, $$\begin{equation}
-\label{eq:I-bootstrap}
+\tag{4.5}
  I_{e,T}(t)
  \le4e^{2\delta_n}\int_0^t\frac{dv}{1+2Dv}
  =\frac{2e^{2\delta_n}}D\log(1+2Dt)
  =O\!\left(\frac{\log n}{D}\right).
-\end{equation}$$ In particular, all three denominator factors in (eq:exact-z) are $1+O(\log n/D)$. Expanding the exponential and reciprocal factors gives, uniformly for each summand, $$\frac{e^{z_f+z_g}}
+\end{equation}$$ In particular, all three denominator factors in (4.2) are $1+O(\log n/D)$. Expanding the exponential and reciprocal factors gives, uniformly for each summand, $$\frac{e^{z_f+z_g}}
  {(1-I_{e,T})(1-I_{f,T})(1-I_{g,T})}
  =1+z_f+z_g+
  O\!\left(\delta_n^2+\frac{\log n}{D}\right).$$ The sum of the linear terms is exactly $(Az)_e$. Since $d_e/D=1+O(n^{-c})$, we obtain the conditional estimate $$\begin{equation}
-\label{eq:linearized-error}
+\tag{4.6}
  \left\lVert z'(s)+(A/D)z(s)\right\rVert_\infty
  \le C\left(n^{-2a}+n^{-c}+\frac{\log n}{D}\right).
-\end{equation}$$ The constant $C$ is independent of the graph and the provisional interval. The general bound $\lVert e^{-sA/D}\rVert_\infty\le
-e^{s\lVert A/D\rVert_\infty}$ gives a loss of order $D$ at $s=S$, too large to guarantee control of the prefix error $n^{-c}$. We will instead prove a polylogarithmic bound, sufficient to turn (eq:linearized-error) into a strict improvement of (eq:bootstrap-assumptions).
+\end{equation}$$ The constant $C$ is independent of the graph and the provisional interval. The general bound $\lVert e^{-sA/D}\rVert_\infty\le e^{s\lVert A/D\rVert_\infty}$ gives a loss of order $D$ at $s=S$, too large to guarantee control of the prefix error $n^{-c}$. We will instead prove a polylogarithmic bound, sufficient to turn (4.6) into a strict improvement of (4.4).
 
 ### From link spectra to a uniform semigroup bound
 
 The passage from even closed-walk counts to spectral control follows the sparse quasirandom trace method; compare Chung and Graham (Chung and Graham 2002, Theorem 1 and Facts 7–8). We prove the quantitative form required by the link hypotheses and then transfer it to the maximum norm on the full edge space.
 
 **Proposition 4.1**. *There are fixed constants $C_1,J<\infty$ such that every graph $G$ satisfying the degree, codegree and link-cycle conditions of Proposition 2.2 obeys $$\begin{equation}
-\label{eq:semigroup}
+\tag{4.7}
  \sup_{0\le s\le\log n}
  \left\lVert e^{-sA/D}\right\rVert_\infty
  \le C_1(1+\log n)^J
@@ -279,7 +278,7 @@ The trace $\operatorname{tr}(M_u^r)$ counts closed walks of length $r$ with a sp
 If the support is a tree, every support edge is traversed at least twice: a walk crossing the cut obtained by deleting that edge must cross back. Thus the support has at most $r/2$ edges. Choose the image of one vertex and then expose the other vertices along this tree. The link has maximum degree at most $2D$, so this gives at most $O(np)(2D)^{r/2}$ realizations of each pattern.
 
 If the support contains a cycle, let it have $j<r$ vertices and choose one of its simple cycles, of length $b\ge3$. The link-cycle condition gives $O(D^b)$ choices for this labeled cycle. A forest rooted at its vertices attaches all the other vertices of the connected support, using at most $(2D)^{j-b}$ choices. Ignoring its remaining edges only increases the count. The resulting bound is $O(D^j)$, and hence $O(D^{r-1})$ for each such pattern. These cases exhaust the non-injective walks. Dividing their total contribution by $D^r$ shows that $$\begin{equation}
-\label{eq:link-trace}
+\tag{4.8}
  \begin{aligned}
  \operatorname{tr}\bigl((M_u/D)^r\bigr)
  &=1+O\!\left(n^{-c}+D^{-1}+npD^{-r/2}\right)\\
@@ -294,42 +293,41 @@ Write $B_u=M_u/D$, and order its real eigenvalues as $\lambda_1\ge\lambda_2\ge\c
  =O(n^{-c_*}).$$ Consequently, with the fixed positive constant $\gamma=c_*/r$, all eigenvalues other than $\lambda_1$ have absolute value $O(n^{-\gamma})$. In particular, $\lambda_1$ is simple for large $n$.
 
 Let $\mathbf j_u=N_u^{-1/2}\mathbf1$ and let $v_u$ be a unit eigenvector for $\lambda_1$. The row sums also give $\lVert(B_u-\mathrm{Id})\mathbf j_u\rVert_2\le n^{-c}$. Write $\mathbf j_u=\alpha v_u+w$, where $w\perp v_u$. Every eigenvalue of $B_u-\mathrm{Id}$ on $v_u^\perp$ has absolute value at least $1/2$ for large $n$, so $\lVert w\rVert_2\le2n^{-c}$. The orthogonal projectors onto the lines spanned by $v_u$ and $\mathbf j_u$ therefore differ in operator norm by at most $2n^{-c}$. Combining this with the eigenvalue estimates gives $$\begin{equation}
-\label{eq:star-approximation}
+\tag{4.9}
  \left\lVert \frac{M_u}{D}-\frac{\mathbf1\mathbf1^{\mathsf T}}{N_u}
  \right\rVert_2=O(n^{-\gamma}).
 \end{equation}$$
 
 ##### Summing the star averages.
 
-Extend every star matrix by zero to the full edge space $\mathbb R^{\mathcal E}$, and let $P$ be the sum of the averaging matrices $\mathbf1\mathbf1^{\mathsf T}/N_u$ on the stars. Distinct edges lying in a common triangle have a unique common endpoint, so $A$ is the sum of the extended matrices $M_u$. Define $$R=A/D-P.$$ The matrix $P$ is symmetric and positive semidefinite. For every $x\in\mathbb R^{\mathcal E}$, estimate (eq:star-approximation) gives $$|x^{\mathsf T}Rx|
+Extend every star matrix by zero to the full edge space $\mathbb R^{\mathcal E}$, and let $P$ be the sum of the averaging matrices $\mathbf1\mathbf1^{\mathsf T}/N_u$ on the stars. Distinct edges lying in a common triangle have a unique common endpoint, so $A$ is the sum of the extended matrices $M_u$. Define $$R=A/D-P.$$ The matrix $P$ is symmetric and positive semidefinite. For every $x\in\mathbb R^{\mathcal E}$, estimate (4.9) gives $$|x^{\mathsf T}Rx|
  \le Cn^{-\gamma}\sum_{u\in[n]}
           \lVert x|_{\mathcal E_u}\rVert_2^2
  =2Cn^{-\gamma}\lVert x\rVert_2^2.$$ Each edge lies in exactly two stars, which explains the last equality and prevents a loss proportional to the number of vertices. Since $R$ is symmetric, it follows that $\lVert R\rVert_2=O(n^{-\gamma})$. Every row of $P$ has sum two, while a row of $A/D$ has sum $2d_e/D$. Both matrices are entrywise nonnegative, so their absolute row sums also give $$\begin{equation}
-\label{eq:R-norms}
+\tag{4.10}
  \lVert R\rVert_2=O(n^{-\gamma}),\qquad
  \lVert R\rVert_\infty=O(1).
 \end{equation}$$
 
-We have thus obtained a small Euclidean error, whereas the evolution in (eq:linearized-error) requires the maximum norm. The special form of $P$ supplies this stronger control. Define $$\begin{aligned}
+We have thus obtained a small Euclidean error, whereas the evolution in (4.6) requires the maximum norm. The special form of $P$ supplies this stronger control. Define $$\begin{aligned}
  U:\mathbb R^{[n]}&\longrightarrow\mathbb R^{\mathcal E},
  & (Uy)_{uv}&=y_u+y_v,\\
  V:\mathbb R^{\mathcal E}&\longrightarrow\mathbb R^{[n]},
  & (Vx)_u&=\frac1{N_u}\sum_{e\in\mathcal E_u}x_e.
  \end{aligned}$$ Then $P=UV$, $\lVert U\rVert_\infty=2$, and $\lVert V\rVert_\infty=1$. If $W$ is the neighbor random-walk matrix, defined by $(Wy)_u=N_u^{-1}\sum_{v\in N_G(u)}y_v$, then $VU=\mathrm{Id}+W$ and $\lVert W\rVert_\infty=1$. The identity $(UV)^j=U(VU)^{j-1}V$ for $j\ge1$, applied to the exponential power series, yields $$E_0(s):=e^{-sP}
- =\mathrm{Id}-U\int_0^s e^{-v(\mathrm{Id}+W)}\,dv\,V.$$ The exponential inside the integral satisfies $\lVert e^{-v(\mathrm{Id}+W)}\rVert_\infty
-\le e^{-v}e^{v\lVert W\rVert_\infty}=1$. Hence, for every $s\ge0$, $$\begin{equation}
-\label{eq:average-semigroup}
+ =\mathrm{Id}-U\int_0^s e^{-v(\mathrm{Id}+W)}\,dv\,V.$$ The exponential inside the integral satisfies $\lVert e^{-v(\mathrm{Id}+W)}\rVert_\infty \le e^{-v}e^{v\lVert W\rVert_\infty}=1$. Hence, for every $s\ge0$, $$\begin{equation}
+\tag{4.11}
  \lVert E_0(s)\rVert_\infty\le1+2s,
  \qquad \lVert E_0(s)\rVert_2\le1.
 \end{equation}$$ The second inequality follows from the positive semidefiniteness of $P$. Likewise, $A/D=P+R$ is symmetric with smallest eigenvalue at least $-\lVert R\rVert_2$, so $$\begin{equation}
-\label{eq:full-semigroup-l2}
+\tag{4.12}
  E(s):=e^{-sA/D},\qquad
  \lVert E(s)\rVert_2\le e^{s\lVert R\rVert_2}.
 \end{equation}$$
 
 ##### A finite perturbation expansion.
 
-It remains to transfer the maximum-norm estimate from $E_0$ to $E$. We use a finite form of the bounded-perturbation expansion for semigroups (Engel and Nagel 2000, Theorem III.1.10), estimating its initial terms and remainder in different norms. Choose a fixed integer $K$ with $K\gamma>2$. Iterating the variation-of-constants identity $$E(s)=E_0(s)-\int_0^s E_0(s-v)R E(v)\,dv$$ gives terms with $j=0,\ldots,K-1$ copies of $R$, followed by a remainder with $K$ copies. The term with $j$ copies is integrated over an ordered simplex of volume $s^j/j!$ and contains $j+1$ factors $E_0$, all at nonnegative times at most $s$. By (eq:average-semigroup), its maximum norm is at most $$(1+2s)^{j+1}\lVert R\rVert_\infty^j\frac{s^j}{j!}.$$ The remainder has the exact form $$\begin{split}
+It remains to transfer the maximum-norm estimate from $E_0$ to $E$. We use a finite form of the bounded-perturbation expansion for semigroups (Engel and Nagel 2000, Theorem III.1.10), estimating its initial terms and remainder in different norms. Choose a fixed integer $K$ with $K\gamma>2$. Iterating the variation-of-constants identity $$E(s)=E_0(s)-\int_0^s E_0(s-v)R E(v)\,dv$$ gives terms with $j=0,\ldots,K-1$ copies of $R$, followed by a remainder with $K$ copies. The term with $j$ copies is integrated over an ordered simplex of volume $s^j/j!$ and contains $j+1$ factors $E_0$, all at nonnegative times at most $s$. By (4.11), its maximum norm is at most $$(1+2s)^{j+1}\lVert R\rVert_\infty^j\frac{s^j}{j!}.$$ The remainder has the exact form $$\begin{split}
  \mathcal R_K(s)=(-1)^K
  \int_{0\le t_K\le\cdots\le t_1\le s}
  &E_0(s-t_1)R E_0(t_1-t_2)R\cdots\\[-2pt]
@@ -339,20 +337,20 @@ It remains to transfer the maximum-norm estimate from $E_0$ to $E$. We use a fin
  \le\lVert R\rVert_2^K e^{s\lVert R\rVert_2}\frac{s^K}{K!}.$$ For an $m\times m$ matrix $H$, Cauchy–Schwarz gives $\lVert H\rVert_\infty\le\sqrt m\,\lVert H\rVert_2$. Here $m=|\mathcal E|\le n^2/2$, so, uniformly for $s\le\log n$, $$\lVert\mathcal R_K(s)\rVert_\infty
  \le n(Cn^{-\gamma})^K
        e^{Cn^{-\gamma}\log n}\frac{(\log n)^K}{K!}
- =o(1).$$ The other $K$ terms have maximum norm bounded by a fixed power of $1+\log n$, by (eq:R-norms). This proves (eq:semigroup). The order $K$ may be large, but is fixed independently of $n$ and $G$. ◻
+ =o(1).$$ The other $K$ terms have maximum norm bounded by a fixed power of $1+\log n$, by (4.10). This proves (4.7). The order $K$ may be large, but is fixed independently of $n$ and $G$. ◻
 
 ### Closing the probability estimate
 
-The semigroup bound now controls the cumulative error in (eq:linearized-error). This is the only use of the spectral calculation in the probability argument.
+The semigroup bound now controls the cumulative error in (4.6). This is the only use of the spectral calculation in the probability argument.
 
 **Proposition 4.2**. *For every graph $G$ satisfying Proposition 2.2, the independent-unfolding probabilities obey $$\begin{equation}
-\label{eq:unfolding-asymptotics}
+\tag{4.13}
  q_e(t)=(1+o(1))q(t),\qquad
  q_{e,T}(t)=(1+o(1))q(t),\qquad
  I_{e,T}(t)=O\!\left(\frac{\log n}{D}\right).
 \end{equation}$$ The estimates hold uniformly over $G$, $0\le t\le1$, and every incident pair $e\in T\in\mathcal T$; the first estimate also holds for every $e\in\mathcal E$.*
 
-*Proof.* Use $a$ and $\delta_n$ from (eq:bootstrap-exponent). All $I_{e,T}$ vanish and all probabilities equal one at zero, so by continuity the conditions (eq:bootstrap-assumptions) hold on some interval starting at zero. On every such interval, (eq:I-bootstrap) improves the second condition to $I_{e,T}\le1/4$ for large $n$.
+*Proof.* Use $a$ and $\delta_n$ from (4.3). All $I_{e,T}$ vanish and all probabilities equal one at zero, so by continuity the conditions (4.4) hold on some interval starting at zero. On every such interval, (4.5) improves the second condition to $I_{e,T}\le1/4$ for large $n$.
 
 Write $h(s)=z'(s)+(A/D)z(s)$. As $z(0)=0$, variation of constants and Proposition 4.1 give, on the same interval, $$\begin{align*}
  \lVert z(s)\rVert_\infty
@@ -369,7 +367,7 @@ If either bootstrap condition had a first exit before $s=S$, these strict improv
  =\frac{e^{z_e(s)}}{1-I_{e,T}(t)},$$ which establishes both probability estimates. ◻
 
 One consequence records the precision needed for the later exploration of selected paths. Set $J_n=\max_{e\in T\in\mathcal T,\,0\le t\le1}I_{e,T}(t)$. At a paired call with focus $\{f,g\}\subset T$ and omitted parent $T$, the product of all no-success factors is $q_{f,T}(t)q_{g,T}(t)$. Deleting at most two factors from this product increases it by at most $(1-J_n)^{-2}$. Hence, uniformly in the call and threshold, for large $n$ the resulting product is at most $$\begin{equation}
-\label{eq:off-pattern-bound}
+\tag{4.14}
  \frac{q_{f,T}(t)q_{g,T}(t)}{(1-J_n)^2}
  \le 2q(t)^2=\frac2{1+2Dt}.
 \end{equation}$$ This remains a statement about the independent unfolding. We next compare its queries with the finite priority process.
@@ -415,7 +413,7 @@ Figure 1 shows the distinction between a visited call and an exposed candidate.
 For a formal vertex $a$, its *ancestral call path* is the path from a root to the birth call of $a$, including both ends. Given two formal vertices $a,b$, let $\Gamma_{a,b}$ be the graph constructed from the union of their ancestral call paths, using the root edges and gluings on those paths. All its calls are visited. We call $(a,b)$ an *extra-edge witness* if $a,b$ are distinct and nonadjacent in $\Gamma$, their labels are adjacent in $G$, and $\lambda$ is injective on $V(\Gamma_{a,b})$.
 
 **Lemma 5.2** (A geometric witness for a collision). *If the initial root labels are all distinct, then every occurrence of $\mathcal C_k$ produces an extra-edge witness. Moreover, uniformly over the graphs under consideration, $$\begin{equation}
-\label{eq:collision-witness}
+\tag{5.1}
  \mathbb P_{\mathrm{ind}}(\mathcal C_k)
  \le O(n^{-1})+
  \mathbb P_{\mathrm{ind}}(\text{an extra-edge witness exists}).
@@ -432,7 +430,7 @@ If either $xw$ or $yw$ is absent formally, it gives an extra edge among the earl
 Otherwise $xyw$ is a formal triangle and hence an earlier gluing triangle. There are two possibilities for its latest vertex. If it is $x$ or $y$, then $xy$ was born at this gluing. The current call focusing $xy$ is exactly its birth call, and omits the triangle $xyw$ as its parent. It therefore cannot have the proposed child with the same triangle type. If the latest vertex is $w$, then $w$ was attached through $xy$. The children introducing $w$ and $z$ would belong to the same unique call focusing $xy$, and would have the same triangle type. That call contains this candidate only once and traverses it at most once, again a contradiction. Thus a first repeated label always produces an earlier extra edge.
 
 Finally, either endpoint of a uniform oriented root has distribution $$\pi(v)=\frac{\deg_G(v)}{2m},
- \qquad \max_v\pi(v)=O(n^{-1}),$$ by the degree estimate and $2m=n^2p$. For two independent roots, any fixed pair of their endpoints coincides with probability $\sum_v\pi(v)^2\le\max_v\pi(v)$. There are four pairs to consider; the two endpoints within each root are distinct. A union bound therefore gives the term $O(n^{-1})$ in (eq:collision-witness). ◻
+ \qquad \max_v\pi(v)=O(n^{-1}),$$ by the degree estimate and $2m=n^2p$. For two independent roots, any fixed pair of their endpoints coincides with probability $\sum_v\pi(v)^2\le\max_v\pi(v)$. There are four pairs to consider; the two endpoints within each root are distinct. A union bound therefore gives the term $O(n^{-1})$ in (5.1). ◻
 
 The root experiment still samples with replacement; we have only charged its overlaps to the error bound. The remaining task is to bound the probability of a visited, injectively labelled pair of call paths whose two marked vertices have an extra edge. This uses both the template estimates for $G$ and the independent-test probabilities.
 
@@ -448,14 +446,14 @@ The paths in this section are paths in the *call forest*, not paths in the forma
  \qquad r=\text{the number of roots used}\in\{1,2\}.$$ Zero lengths are allowed. A mark born at a root specifies one of its two formal endpoints.
 
 A *pattern* records these rooted paths, their marks, and the choice of focus edge at each child step. The named focus edges from Section 5 give at most two choices at a step. The choices of roots, the order of the two marked paths, and any marked root endpoints contribute only an absolute constant. Consequently, for each triple $(h,\ell_1,\ell_2)$ there are at most $$\begin{equation}
-\label{eq:pattern-count}
+\tag{6.1}
  C\,2^\ell
 \end{equation}$$ patterns, for an absolute constant $C$. At a fork the two children each choose a focus edge; their third vertices will be determined by an embedding. Thus there is no further length-dependent multiplicity. Patterns that cannot occur under the query rule may be discarded.
 
 The formal graph $J$ of a pattern starts with $r$ disjoint root edges and adds two edges and one vertex at each non-root call. In particular, $$v(J)=2r+\ell,\qquad e(J)=r+2\ell.$$ We consider only patterns whose marks $a,b$ are distinct and nonadjacent in $J$, and write $J^+=J+ab$. An embedding below is an injective map of the formal vertices into $V(G)$ that maps every edge of $J^+$ to an edge of $G$ and respects the named endpoints of each root.
 
 **Lemma 6.1** (Embedding an extra edge). *For every such pattern with $r\in\{1,2\}$ roots and $\ell$ non-root calls, the number of embeddings of $J^+$ into $G$ is at most $$\begin{equation}
-\label{eq:embedding-bound}
+\tag{6.2}
  (2m)^r(2D)^\ell D^{-B}
 \end{equation}$$ for all sufficiently large $n$, uniformly over the pattern and $G$.*
 
@@ -466,12 +464,12 @@ The formal graph $J$ of a pattern starts with $r$ disjoint root edges and adds t
 Suppose $\ell<L$. Regard $J^+$ as a template with no distinguished vertices. Order all root vertices first, ordering the endpoints of each root edge, and then add the other vertices in any parent-first order of their birth calls. Before adding $ab$, each vertex has at most two neighbors preceding it. Moreover, the first vertex of any nonempty vertex subset has no preceding neighbor within that subset. An induced subgraph on $v>0$ vertices therefore has at most $2v-2$ edges from $J$, and at most $2v-1\leq 2v$ from $J^+$. Every subgraph satisfies the same weaker bound $e\leq 2v$. Since $p<1$ and $D>1$ for large $n$, its scaling is at least $$n^v p^{2v}=D^v\geq1.$$ The empty subgraph has scaling one. The first template bound gives $$\#\{J^+\hookrightarrow G\}
  \leq \kappa_n n^{2r+\ell}p^{r+2\ell+1}
  =\kappa_n(2m)^rD^\ell p.$$ Here the template has at most $4+(L-1)=103\leq H_0$ vertices. The inequality $$pD^B=n^{-1/2+(2B+1)\epsilon+o(1)}
-      =n^{-899/2000+o(1)}$$ shows that $\kappa_np\leq D^{-B}$ for large $n$. This proves (eq:embedding-bound) in the short case.
+      =n^{-899/2000+o(1)}$$ shows that $\kappa_np\leq D^{-B}$ for large $n$. This proves (6.2) in the short case.
 
 ##### The last $L$ births.
 
 Suppose $\ell\geq L$. Choose any parent-first ordering of the non-root calls, with all roots placed first, and let $Z$ be the set of the last $L$ vertices born. The labels of the preceding vertices can be assigned in at most $$\begin{equation}
-\label{eq:preceding-labels}
+\tag{6.3}
  (2m)^r(2D)^{\ell-L}
 \end{equation}$$ ways. Indeed, there are $2m$ choices for each oriented root, and at most $2D$ common neighbors of the two endpoints of each subsequent attachment edge. Discarding restrictions against repeated labels only increases this bound. We now fix an injective assignment of these preceding labels.
 
@@ -482,22 +480,22 @@ The birth call of every vertex in $Z$ is an ancestor of the birth call of a mark
 Form a template $(H,I)$ as follows. Its free vertices are $Z$. Retain the two backward edges of each vertex of $Z$, meaning its edges to the endpoints of its attachment edge, and retain $ab$. The distinguished set $I$ consists of all preceding vertices needed as endpoints of these edges. Include no edges with both endpoints in $I$. We may discard such constraints because we seek an upper bound on extensions. Thus $I$ is independent in the template, whether or not its prescribed images have edges between them in $G$.
 
 The backward edges use at most $2L$ boundary vertices, and the extra edge uses at most one further boundary vertex. Hence $$|I|\leq2L+1,\qquad v(H)\leq3L+1\leq H_0.$$ The $2L$ backward edges are distinct, and $ab$ is not one of them. Every retained edge touches $Z$, so $$\begin{equation}
-\label{eq:terminal-scaling}
+\tag{6.4}
  e(H)=2L+1,\qquad
  S(H,I)=n^Lp^{2L+1}=D^Lp
        =n^{-799/2000+o(1)}<1.
 \end{equation}$$
 
 We verify every completion condition needed for the second template bound. If $U\subsetneq Z$, then $$\begin{equation}
-\label{eq:proper-free-edges}
+\tag{6.5}
  e\bigl(H[I\cup U]\bigr)\leq2|U|.
-\end{equation}$$ Indeed, assign each backward edge to its newer endpoint in $Z$. In $H[I\cup U]$ there are at most two such edges per vertex of $U$. If (eq:proper-free-edges) failed, the induced graph would retain $ab$ and both backward edges of every vertex of $U$. Retaining $ab$ puts every free mark in $U$. Retaining both backward edges of a vertex also forces the vertex born at its immediate parent call into $U$, whenever that vertex belongs to $Z$. Indeed, both focus edges at a non-root parent contain its newly born vertex, so the child’s attachment edge contains that vertex. Repeating this argument backward along each marked path includes every vertex of $Z$, by the ancestor property just proved. This would give $U=Z$, a contradiction.
+\end{equation}$$ Indeed, assign each backward edge to its newer endpoint in $Z$. In $H[I\cup U]$ there are at most two such edges per vertex of $U$. If (6.5) failed, the induced graph would retain $ab$ and both backward edges of every vertex of $U$. Retaining $ab$ puts every free mark in $U$. Retaining both backward edges of a vertex also forces the vertex born at its immediate parent call into $U$, whenever that vertex belongs to $Z$. Indeed, both focus edges at a non-root parent contain its newly born vertex, so the child’s attachment edge contains that vertex. Repeating this argument backward along each marked path includes every vertex of $Z$, by the ancestor property just proved. This would give $U=Z$, a contradiction.
 
-For a proper $U$, (eq:proper-free-edges) implies $$S\bigl(H[I\cup U],I\bigr)
+For a proper $U$, (6.5) implies $$S\bigl(H[I\cup U],I\bigr)
  =n^{|U|}p^{e(H[I\cup U])}\geq D^{|U|}\geq1.$$ Every intermediate set of distinguished vertices has the form $J_0=I\cup U$, with $U\subseteq Z$. Its completion scaling is $$n^{v(H)-|J_0|}p^{e(H)-e(H[J_0])}
- =\frac{S(H,I)}{S(H[J_0],I)}.$$ For proper $U$ the numerator is less than one by (eq:terminal-scaling), while the denominator is at least one. For $U=Z$ the ratio equals one. All the required completion scalings are therefore at most one.
+ =\frac{S(H,I)}{S(H[J_0],I)}.$$ For proper $U$ the numerator is less than one by (6.4), while the denominator is at least one. For $U=Z$ the ratio equals one. All the required completion scalings are therefore at most one.
 
-The second template bound now gives at most $\kappa_n$ extensions for the labels of $Z$. In applying it we may ignore avoidance of previously assigned vertices outside $I$, again only enlarging the count. Since $L-B=50>0$ and $D\sim n^{1/1000}$, $$\kappa_n\leq(2D)^L D^{-B}$$ for all sufficiently large $n$. Multiplying this by (eq:preceding-labels) proves (eq:embedding-bound). The threshold for $n$ is uniform: the template order and its polylogarithmic exponent are fixed independently of the path lengths. ◻
+The second template bound now gives at most $\kappa_n$ extensions for the labels of $Z$. In applying it we may ignore avoidance of previously assigned vertices outside $I$, again only enlarging the count. Since $L-B=50>0$ and $D\sim n^{1/1000}$, $$\kappa_n\leq(2D)^L D^{-B}$$ for all sufficiently large $n$. Multiplying this by (6.3) proves (6.2). The threshold for $n$ is uniform: the template order and its polylogarithmic exponent are fixed independently of the path lengths. ◻
 
 The embedding bound supplies a factor $D^{-B}$ even when the paths are arbitrarily long. It remains to sum over their lengths. Counting paths alone would lose this factor, since a call can have order $D$ children. The next estimate uses the failures required to reach a prescribed child, together with the decreasing order of priorities.
 
@@ -506,60 +504,60 @@ The embedding bound supplies a factor $D^{-B}$ even when the paths are arbitrari
 Fix a pattern and an embedding of $J^+$ *before* exposing any priorities. The probability that its $r$ used roots have the prescribed ordered labels is $(2m)^{-r}$. Conditional on this root event, each step of the pattern specifies one candidate occurrence in a fixed potential call tree: its focus edge and third vertex determine its triangle. If these specifications cannot define distinct required children under the query rule, their visitation probability is zero and they can be discarded. Otherwise, write $u_y$ for the priority of the selected child occurrence corresponding to each of the $\ell$ non-root calls $y$. These are distinct independent uniform coordinates of the unfolding.
 
 Set $$\begin{equation}
-\label{eq:visitation-weights}
+\tag{6.6}
  b(t)=q(t)^2=\frac{1}{1+2Dt},\qquad
  C_D=1+2D,\qquad
  \mu=\int_0^1b(t)\,dt=\frac{\log(1+2D)}{2D}.
 \end{equation}$$
 
 **Lemma 6.2** (Visiting an embedded pattern). *Conditional on the prescribed ordered root labels, the probability that all calls in the embedded pattern are visited is at most $$\begin{equation}
-\label{eq:visitation-bound}
+\tag{6.7}
  C_D^3\frac{(2\mu)^\ell}{h!\,\ell_1!\,\ell_2!}.
 \end{equation}$$ This includes zero-length segments, with the convention $0!=1$.*
 
 *Proof.* Condition only on the selected priority coordinates $(u_y)$, not on actual visitation, return values, or previously exposed lists. For all required calls to be visited, these priorities must decrease along every required path.
 
 Consider a required non-root call $x$ that has one or two required children. Its focus is a pair $\{f,g\}$, and its omitted parent triangle is $T$. Let $t_x$ be the largest priority of its required children. Define $O_x$ prospectively to be the event that every off-pattern candidate at $x$ with priority below $t_x$ has a child query returning false, when that subtree is evaluated hypothetically. Reaching all the required children necessitates $O_x$. In particular, $$\begin{equation}
-\label{eq:necessary-offpattern}
+\tag{6.8}
  \{\text{all required calls are visited}\}
  \subseteq
  \{\text{priorities decrease along the required paths}\}
  \cap\bigcap_x O_x.
-\end{equation}$$ If a required call has two required children, reaching the later child also requires the earlier selected child to return false. We discard this additional condition in (eq:necessary-offpattern).
+\end{equation}$$ If a required call has two required children, reaching the later child also requires the earlier selected child to return false. We discard this additional condition in (6.8).
 
 Each $O_x$ depends only on subtrees rooted at off-pattern children of $x$. These subtrees contain none of the selected priority coordinates and are disjoint for different required calls. In particular, when one required call is an ancestor of another, the path between them starts through a selected child, so it does not enter an off-pattern subtree. The events $O_x$ are therefore independent conditional on $(u_y)$. This assertion concerns the prospective independent unfolding.
 
 For an off-pattern candidate $S$ attached through focus edge $e$, the probability that it is not a successful child before $t_x$ is exactly $1-I_{e,S}(t_x)$. By the product identities of Proposition 3.4, $$\begin{equation}
-\label{eq:offpattern-product}
+\tag{6.9}
  \mathbb P(O_x\mid (u_y))
  =\frac{q_{f,T}(t_x)q_{g,T}(t_x)}
  {\displaystyle\prod_{S\text{ selected at }x}
        (1-I_{e(S),S}(t_x))},
-\end{equation}$$ where $e(S)$ is the unique focus edge contained in $S$. The denominator removes the one or two selected candidate factors from the complete product. The product estimate (eq:off-pattern-bound) therefore gives, uniformly in the types and in $t_x\in[0,1]$, $$\begin{equation}
-\label{eq:offpattern-bound}
+\end{equation}$$ where $e(S)$ is the unique focus edge contained in $S$. The denominator removes the one or two selected candidate factors from the complete product. The product estimate (4.14) therefore gives, uniformly in the types and in $t_x\in[0,1]$, $$\begin{equation}
+\tag{6.10}
  \mathbb P(O_x\mid (u_y))\leq 2b(t_x)
 \end{equation}$$ for all sufficiently large $n$.
 
 We next distribute these factors among the selected child priorities. At a call with one required child of priority $u$, the bound is $2b(u)$. At a call with two required children of priorities $u,v$, we use $$\frac{b(\max\{u,v\})}{b(u)b(v)}
- =\frac{1}{b(\min\{u,v\})}\leq C_D.$$ There is at most one such non-root fork. We ignore the off-pattern requirements at roots entirely. There are at most two required child steps leaving roots in total, and inserting their missing factors $b(u)\geq C_D^{-1}$ costs at most $C_D^2$. The number of non-root calls with required children is at most $\ell$. Combining independence, (eq:necessary-offpattern), and (eq:offpattern-bound), we obtain the conditional bound $$\begin{equation}
-\label{eq:conditional-visitation}
+ =\frac{1}{b(\min\{u,v\})}\leq C_D.$$ There is at most one such non-root fork. We ignore the off-pattern requirements at roots entirely. There are at most two required child steps leaving roots in total, and inserting their missing factors $b(u)\geq C_D^{-1}$ costs at most $C_D^2$. The number of non-root calls with required children is at most $\ell$. Combining independence, (6.8), and (6.10), we obtain the conditional bound $$\begin{equation}
+\tag{6.11}
  C_D^3 2^\ell\prod_y b(u_y)
 \end{equation}$$ when the priorities decrease along the required paths, and zero otherwise. Every selected priority now carries one factor $b$. This also covers root marks and empty arms, which introduce no new priority coordinates.
 
-The selected priorities have joint Lebesgue density one. In integrating (eq:conditional-visitation), retain the order constraints within the trunk and within each arm, but discard constraints joining different segments. For a segment of length $j$, symmetry of the product integrand gives $$\int_{1>u_1>\cdots>u_j>0}\prod_{i=1}^j b(u_i)\,du_1\cdots du_j
- =\frac{\mu^j}{j!}.$$ The three segments use disjoint coordinates. Their contributions multiply, proving (eq:visitation-bound). Priority ties have probability zero. ◻
+The selected priorities have joint Lebesgue density one. In integrating (6.11), retain the order constraints within the trunk and within each arm, but discard constraints joining different segments. For a segment of length $j$, symmetry of the product integrand gives $$\int_{1>u_1>\cdots>u_j>0}\prod_{i=1}^j b(u_i)\,du_1\cdots du_j
+ =\frac{\mu^j}{j!}.$$ The three segments use disjoint coordinates. Their contributions multiply, proving (6.7). Priority ties have probability zero. ◻
 
 ### Summing all witnesses
 
 **Proposition 6.3** (Uniform collision bound). *Fix $k\in\{1,2\}$ and sample $k$ independent uniform oriented edges of $G$, with replacement. Execute the independent root queries at threshold $1$, executing every root regardless of earlier outputs. Let $\mathcal C_k$ be the event that an actual triangle type is repeated among all exposed candidate lists, including candidates not traversed. Then $$\begin{equation}
-\label{eq:collision-bound}
+\tag{6.12}
  \mathbb P_{\mathrm{ind}}(\mathcal C_k)
  =O(D^{15-B}+n^{-1})
  =O(D^{-35}+n^{-1})
  =o(D^{-1}).
 \end{equation}$$ The bound is uniform over the graphs in Proposition 2.2. Consequently, by Lemma 5.1, the probabilities that all root queries return true in the finite and independent experiments differ by at most the same bound.*
 
-*Proof.* Lemma 5.2 reduces a collision to initial root overlap, which has probability $O(n^{-1})$, or to an injectively labeled marked path union with an extra edge. For each fixed length triple, multiply the pattern count (eq:pattern-count), the embedding bound (eq:embedding-bound), the root-matching probability $(2m)^{-r}$, and the visitation bound (eq:visitation-bound). The result is at most an absolute constant times $$D^{-B}C_D^3
+*Proof.* Lemma 5.2 reduces a collision to initial root overlap, which has probability $O(n^{-1})$, or to an injectively labeled marked path union with an extra edge. For each fixed length triple, multiply the pattern count (6.1), the embedding bound (6.2), the root-matching probability $(2m)^{-r}$, and the visitation bound (6.7). The result is at most an absolute constant times $$D^{-B}C_D^3
  \frac{(8D\mu)^{h+\ell_1+\ell_2}}{h!\,\ell_1!\,\ell_2!}.$$ For two-tree patterns $h=0$; allowing all triples of nonnegative integers only enlarges the sum. A union bound over patterns and embeddings therefore bounds the witness probability by $$\begin{align*}
  O\left(D^{-B}C_D^3
    \sum_{h,\ell_1,\ell_2\geq0}
@@ -567,7 +565,7 @@ The selected priorities have joint Lebesgue density one. In integrating (eq:cond
  &=O\left(D^{-B}C_D^3\exp(24D\mu)\right)\\
  &=O\left(D^{-B}C_D^{15}\right)
   =O(D^{15-B}).
-\end{align*}$$ All terms are nonnegative; the countable union bound applies to the almost surely finite evaluations established in Section 3. The identity $24D\mu=12\log C_D$ accounts for the exponent $15$. Finally, $B=50$ and $D\sim n^{1/1000}$ imply $D^{-35}+n^{-1}=o(D^{-1})$, proving (eq:collision-bound). ◻
+\end{align*}$$ All terms are nonnegative; the countable union bound applies to the almost surely finite evaluations established in Section 3. The identity $24D\mu=12\log C_D$ accounts for the exponent $15$. Finally, $B=50$ and $D\sim n^{1/1000}$ imply $D^{-35}+n^{-1}=o(D^{-1})$, proving (6.12). ◻
 
 We have thus compared the finite continuation with independent root queries at an error smaller than their two-root success probability. The first and second terminal moments can now be read directly from these root-query probabilities.
 
@@ -576,38 +574,38 @@ We have thus compared the finite continuation with independent root queries at a
 We finish by converting the query estimates into moments and then removing the conditioning on the prefix. Both steps use the uniformity of all preceding bounds.
 
 Fix a good prefix, and choose $k\in\{1,2\}$ oriented root edges independently and uniformly with replacement from the $2m$ oriented edges of $G$. The orientations specify the formal roots and do not affect the query outputs. In the finite-priority model, each query at threshold one tests survival of its root edge in the same terminal graph. Conditional on that graph, its surviving edge fraction is $F_n/m$, and the sampled roots are independent. Consequently $$\begin{equation}
-\label{eq:finite-moments}
+\tag{7.1}
  \mathbb P(\text{all $k$ finite root queries return true}\mid\text{prefix})
        =\mathbb E\left[\left(\frac{F_n}{m}\right)^k
                         \mathrel{\Big|}\text{prefix}\right].
 \end{equation}$$ This identity includes the possibility of repeated sampled edges. Removing such samples would replace the ordinary second moment by a different expression.
 
 In the independent unfolding, the trees of the $k$ roots are independent, even when their edge types coincide. Averaging over the roots gives $$\begin{equation}
-\label{eq:unfolded-moments}
+\tag{7.2}
  \mathbb P(\text{all $k$ independent root queries return true}\mid\text{prefix})
        =\left(\frac1m\sum_{e\in\mathcal E}q_e(1)\right)^k
        =(1+o(1))q(1)^k,
-\end{equation}$$ by Proposition 4.2. Lemma 5.1 and Proposition 6.3 bound the difference between (eq:finite-moments) and (eq:unfolded-moments) by $$\Delta_n=O(D^{-35}+n^{-1}).$$ Since $q(1)^2=(1+2D)^{-1}$, $$\begin{equation}
-\label{eq:relative-error}
+\end{equation}$$ by Proposition 4.2. Lemma 5.1 and Proposition 6.3 bound the difference between (7.1) and (7.2) by $$\Delta_n=O(D^{-35}+n^{-1}).$$ Since $q(1)^2=(1+2D)^{-1}$, $$\begin{equation}
+\tag{7.3}
  \frac{\Delta_n}{q(1)^2}
     =O(D^{-34}+D/n)=o(1).
 \end{equation}$$ This also controls $\Delta_n/q(1)$, as $q(1)\le1$.
 
-Set $Y_n=F_n/(mq(1))$, using the deterministic $m$ and $D$ from (eq:prefix-time). The two moment identities give, uniformly over all good prefixes, $$\mathbb E[Y_n\mid\text{prefix}]=1+o(1),\qquad
+Set $Y_n=F_n/(mq(1))$, using the deterministic $m$ and $D$ from (2.2). The two moment identities give, uniformly over all good prefixes, $$\mathbb E[Y_n\mid\text{prefix}]=1+o(1),\qquad
  \mathbb E[Y_n^2\mid\text{prefix}]=1+o(1).$$ Subtracting twice the first identity from the second and adding one yields $$\begin{equation}
-\label{eq:conditional-l2}
+\tag{7.4}
  \mathbb E[(Y_n-1)^2\mid\text{prefix}]=o(1)
  \quad\text{uniformly on }\mathcal G_n.
 \end{equation}$$
 
 The normalization has the exact form $$\begin{equation}
-\label{eq:constant}
+\tag{7.5}
  a_n:=\frac{mq(1)}{n^{3/2}}
      =\frac{\sqrt D}{2\sqrt{1+2D}}
      =\frac1{2\sqrt{2+1/D}}
      \longrightarrow a:=\frac1{2\sqrt2}.
 \end{equation}$$ In particular $a_n$ is bounded below by a positive constant for large $n$. Regardless of the prefix, $0\le F_n\le\binom n2\le n^2/2$. It follows that $(Y_n-1)^2\le Cn$ deterministically. The bad-prefix contribution therefore satisfies $$\mathbb E[(Y_n-1)^2\mathbf1_{\mathcal G_n^c}]
-      \le Cn\mathbb P(\mathcal G_n^c)=o(1).$$ On $\mathcal G_n$, condition on the complete prefix and use (eq:conditional-l2). We conclude that $$\mathbb E[(Y_n-1)^2]\longrightarrow0.$$ Finally, $$\mathbb E\left[\left(\frac{F_n}{n^{3/2}}-a\right)^2\right]
+      \le Cn\mathbb P(\mathcal G_n^c)=o(1).$$ On $\mathcal G_n$, condition on the complete prefix and use (7.4). We conclude that $$\mathbb E[(Y_n-1)^2]\longrightarrow0.$$ Finally, $$\mathbb E\left[\left(\frac{F_n}{n^{3/2}}-a\right)^2\right]
  \le2a_n^2\mathbb E[(Y_n-1)^2]+2(a_n-a)^2\longrightarrow0.$$ Markov’s inequality gives the convergence in probability in Theorem 1.1; Cauchy–Schwarz gives the stated expectation limit. This completes the proof.
 
 ## References

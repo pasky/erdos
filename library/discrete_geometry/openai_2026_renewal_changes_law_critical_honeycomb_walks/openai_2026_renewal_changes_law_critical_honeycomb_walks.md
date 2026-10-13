@@ -19,21 +19,21 @@ For an ordinary finite walk $\gamma=(\gamma_0,\ldots,\gamma_n)$, write $$A(\gamm
 
 Here are the principal spatial conclusions, with the law included in each statement. The notation $X_t=t^{a+o(1)}$ in probability means that for every $\varepsilon>0$ the event $t^{a-\varepsilon}\le X_t\le t^{a+\varepsilon}$ has probability tending to one.
 
-- Under the infinite irreducible-bridge law, the distance of the $n$th vertex from the initial port is $n^{3/4+o(1)}$ almost surely, and the number of visited vertices within distance $R$ is $R^{4/3+o(1)}$ almost surely (Theorem 2.7). Both uniform and fugacity-weighted finite half-plane laws converge on each fixed initial path to this law (Theorem 2.8 and Lemma [R:renew:halfplane]).
+- Under the infinite irreducible-bridge law, the distance of the $n$th vertex from the initial port is $n^{3/4+o(1)}$ almost surely, and the number of visited vertices within distance $R$ is $R^{4/3+o(1)}$ almost surely (Theorem 2.7). Both uniform and fugacity-weighted finite half-plane laws converge on each fixed initial path to this law (Theorem 2.8 and Lemma 6.1).
 
 - Uniform strict bridges with $n$ visited vertices have terminal distance and diameter $n^{3/4+o(1)}$ in probability at every sufficiently large even $n$. The parity restriction is part of the port convention. Critical bridges conditioned instead on height $h$ have length $h^{4/3+o(1)}$ in probability (Theorems 3.3 and 3.4).
 
 - Uniform endpoint-free half-plane and full-plane walks have endpoint distance and diameter $n^{3/4+o(1)}$ in probability along a common set of lengths of natural density one. Their upper spatial bound holds at every sufficiently large length, with arbitrarily high polynomial accuracy (Theorems 8.1 and 8.2).
 
-- For thermal half-plane and full-plane walks, $L=N^{1+o(1)}$ and $A,D=N^{3/4+o(1)}$ in probability. Their positive moments have the corresponding exponents: for each fixed $p>0$, $\mathbb EL^p=N^{p+o(1)}$ and $\mathbb EA^p,\mathbb ED^p=N^{3p/4+o(1)}$ (Theorems [R:thermal:law] and 8.1).
+- For thermal half-plane and full-plane walks, $L=N^{1+o(1)}$ and $A,D=N^{3/4+o(1)}$ in probability. Their positive moments have the corresponding exponents: for each fixed $p>0$, $\mathbb EL^p=N^{p+o(1)}$ and $\mathbb EA^p,\mathbb ED^p=N^{3p/4+o(1)}$ (Theorems 6.4 and 8.1).
 
-The full-plane endpoint lower bound at fixed length retains the density-one qualification. The thermal statement concerns every large discount scale $N$. These conclusions use different normalization arguments, described below. Nienhuis’s analysis of the two-dimensional $O(n)$ model predicts the spatial exponent $\nu=3/4$ for self-avoiding walk in the $n\to0$ polymer limit [Nienhuis1982, Eqs. (1)–(2)]; the results here retain the sampling-law and length qualifications stated above.
+The full-plane endpoint lower bound at fixed length retains the density-one qualification. The thermal statement concerns every large discount scale $N$. These conclusions use different normalization arguments, described below. Nienhuis’s analysis of the two-dimensional $O(n)$ model predicts the spatial exponent $\nu=3/4$ for self-avoiding walk in the $n\to0$ polymer limit [15, Eqs. (1)–(2)]; the results here retain the sampling-law and length qualifications stated above.
 
 ### Bridge theory and the additional estimates
 
-Kesten’s normalization for irreducible bridges underlies the infinite-bridge construction of Madras and Slade [Kesten1963, MadrasSlade1993]. Lawler, Schramm and Werner identify this measure as the fixed-length half-space limit and describe its fugacity counterpart [LSW2004, Appendix]. Dyhr, Gilbert, Kennedy, Lawler and Passon give explicit finite-prefix descriptions of both limits and identify the strip law by conditioning on a renewal height [Dyhr2011, Propositions 2.2–2.3, 2.9 and 2.10]. These works use vertex conventions on the integer lattice; the strip construction of Dyhr et al. also includes a final bond from the conditioning height to the target height. We adapt the renewal arguments to the present honeycomb port convention and prove the required normalizations here. The infinite law, a fixed-height bridge law and a law conditioned on one exact length are different uses of the construction.
+Kesten’s normalization for irreducible bridges underlies the infinite-bridge construction of Madras and Slade [11, 14]. Lawler, Schramm and Werner identify this measure as the fixed-length half-space limit and describe its fugacity counterpart [13, Appendix]. Dyhr, Gilbert, Kennedy, Lawler and Passon give explicit finite-prefix descriptions of both limits and identify the strip law by conditioning on a renewal height [5, Propositions 2.2–2.3, 2.9 and 2.10]. These works use vertex conventions on the integer lattice; the strip construction of Dyhr et al. also includes a final bond from the conditioning height to the target height. We adapt the renewal arguments to the present honeycomb port convention and prove the required normalizations here. The infinite law, a fixed-height bridge law and a law conditioned on one exact length are different uses of the construction.
 
-Duminil-Copin and Smirnov proved the value of $\rho$ using a parafermionic observable on the honeycomb lattice [DCS2012]. Beaton et al. use a honeycomb mid-edge renewal construction and prove that the critical bridge mass tends to zero as the strip height grows [BeatonEtAl2014, Theorem 10 and Appendix]. Krachun and Panagiotis obtain a positive-power decay bound for this mass and show that a uniform $n$-step honeycomb walk remains within distance $O(n/\log n)$ of its root with probability tending to one [KrachunPanagiotis2026].
+Duminil-Copin and Smirnov proved the value of $\rho$ using a parafermionic observable on the honeycomb lattice [4]. Beaton et al. use a honeycomb mid-edge renewal construction and prove that the critical bridge mass tends to zero as the strip height grows [1, Theorem 10 and Appendix]. Krachun and Panagiotis obtain a positive-power decay bound for this mass and show that a uniform $n$-step honeycomb walk remains within distance $O(n/\log n)$ of its root with probability tending to one [12].
 
 The sharper finite estimates used below require additional strip and marked-polygon arguments. We state the companion results as estimates of positive walk weights. In Section 2, the finite bridge estimates of Theorem 2.1 and the renewal identities yield joint bounds for the height, length and diameter of one irreducible. Section 5 uses further finite strip and polygon estimates to control avoidance and absolute path masses. The analytic finite estimates are proved in the cited companions; the present paper proves the renewal and geometric transfers needed when the sampling law changes.
 
@@ -52,7 +52,7 @@ Section 5 next establishes the geometric estimates used in the thermal transfer
 
 The censored-arm estimates in Section 7 give a separate geometric route from the logarithmic finite inputs to absolute spatial bounds. Section 8 then treats moments and uniform walks, where there is no comparable exact cancellation at each length. In the half-plane, disjoint long-prefix events compare masses at nearby lengths. In the full plane, we insert a bridge at a minimum and use censored survival to control the inverse multiplicity. Both arguments average logarithms of the nearby-length masses: the interior terms telescope and leave a boundary error. This is why the resulting lower laws hold on a density-one set.
 
-Next, let $G_t(b)$ be the total weight $(\rho e^{-t})^{\ell(\gamma)}$ of ordinary walks from a fixed vertex $o$ to $b$, with edge length $\ell$. Section 9 proves that the convergence threshold in $s$ of $\sum_bG_t(b)e^{s e\cdot(b-o)}$ is $t^{3/4+o(1)}$, uniformly for unit directions $e$. The fixed-length free energy $$f_e(s)=\lim_{j\to\infty}\frac1j\log\sum_{\ell(\gamma)=j}\rho^j e^{s e\cdot(\gamma_j-o)}$$ exists and is $s^{4/3+o(1)}$ as $s\downarrow0$, uniformly in $e$. Its two one-sided derivatives are $s^{1/3+o(1)}$, in agreement with Pincus’s force-extension scaling relation $1/\nu-1$ at $\nu=3/4$ [Pincus1976, Eq. (I.4)]. Here the response follows from the threshold bounds and convexity; the distinction from fixed-force ballistic results is discussed in Section 9.
+Next, let $G_t(b)$ be the total weight $(\rho e^{-t})^{\ell(\gamma)}$ of ordinary walks from a fixed vertex $o$ to $b$, with edge length $\ell$. Section 9 proves that the convergence threshold in $s$ of $\sum_bG_t(b)e^{s e\cdot(b-o)}$ is $t^{3/4+o(1)}$, uniformly for unit directions $e$. The fixed-length free energy $$f_e(s)=\lim_{j\to\infty}\frac1j\log\sum_{\ell(\gamma)=j}\rho^j e^{s e\cdot(\gamma_j-o)}$$ exists and is $s^{4/3+o(1)}$ as $s\downarrow0$, uniformly in $e$. Its two one-sided derivatives are $s^{1/3+o(1)}$, in agreement with Pincus’s force-extension scaling relation $1/\nu-1$ at $\nu=3/4$ [25, Eq. (I.4)]. Here the response follows from the threshold bounds and convexity; the distinction from fixed-force ballistic results is discussed in Section 9.
 
 Prescribing a terminal vertex requires a further estimate: if $|b_N-o|=N^{3/4+o(1)}$, the thermal law conditioned to end at $b_N$ has length $N^{1+o(1)}$ and diameter $N^{3/4+o(1)}$ in probability, with the corresponding powers for all positive moments (Theorem 9.5). Proposition 9.4 obtains a uniform two-dimensional lattice lower bound from subsequential local limits. A lower partition bound supported in a corridor then permits this conditioning. The separate spatial-rate statement takes distance to infinity at fixed discount and then takes the discount to zero; it does not identify these two orders of limits.
 
@@ -72,7 +72,7 @@ Here is the positive finite input for our main route. Its proof belongs to the u
 **Theorem 2.1** (Finite bridge estimates). *There are constants $c,C>0$ such that, for every sufficiently large integer $h$, $$c h^{-1/4}\le B_h\le C h^{-1/4},\qquad M_h\le C h^{13/12},\qquad
  B_h\{L\ge c h^{4/3}\}\ge c h^{-1/4}.$$ For all $h\ge1$ and $x\ge1$, one also has $$B_h\{D>x\}\le C x^{-1/4}.$$ The same estimates hold in the symmetry-related pure directions.*
 
-These are the bounded-factor estimates of [companionU, Theorem 1.1]. All finitely many smaller-height masses and first moments are finite as well: append a fixed straight bridge to inject their paths into a sufficiently tall strip, with bounded weight and additive length changes. We enlarge constants to include these heights. The first moment and the positive mass of long bridges play different roles: the former bounds a truncated irreducible reward, whereas the latter supplies a lower length deficit. Exponent-only versions lead to the weaker, explicitly stated variants later in the paper.
+These are the bounded-factor estimates of [17, Theorem 1.1]. All finitely many smaller-height masses and first moments are finite as well: append a fixed straight bridge to inject their paths into a sufficiently tall strip, with bounded weight and additive length changes. We enlarge constants to include these heights. The first moment and the positive mass of long bridges play different roles: the former bounds a truncated irreducible reward, whereas the latter supplies a lower length deficit. Exponent-only versions lead to the weaker, explicitly stated variants later in the paper.
 
 ### Factorization and marked rewards
 
@@ -138,11 +138,11 @@ We record once the elementary conversion from a Laplace deficit to the growth of
 
 ### Uniform half-plane paths have the same prefix limit
 
-The fugacity cancellation will follow directly from factorization in Section 6. Uniform paths of one exact length require a separate ratio argument. The passage from a two-step counting ratio to the prefix limit adapts the argument of Lawler, Schramm and Werner [LSW2004, Appendix] and Dyhr et al. [Dyhr2011, Section 2.3, Proposition 2.9] to honeycomb ports; we prove the required ratio by local hexagon flips. Let $a_n$ count paths of $n$ visited vertices starting inward from our bottom port and otherwise unrestricted in the strict upper half-plane; put $a_0=1$.
+The fugacity cancellation will follow directly from factorization in Section 6. Uniform paths of one exact length require a separate ratio argument. The passage from a two-step counting ratio to the prefix limit adapts the argument of Lawler, Schramm and Werner [13, Appendix] and Dyhr et al. [5, Section 2.3, Proposition 2.9] to honeycomb ports; we prove the required ratio by local hexagon flips. Let $a_n$ count paths of $n$ visited vertices starting inward from our bottom port and otherwise unrestricted in the strict upper half-plane; put $a_0=1$.
 
 **Theorem 2.8**. *One has $a_{n+2}/a_n\to\rho^{-2}$. The uniform half-plane laws converge on each fixed initial path to the infinite law of Theorem 2.7.*
 
-*Proof.* First $a_n^{1/n}\to\rho^{-1}$. The upper bound is the honeycomb connective-constant theorem [DCS2012]. For the lower bound, let $b_m$ count strict bridges of length $2m$ over all heights. Concatenation at a prescribed length is injective, so $b_{m+j}\ge b_mb_j$; also $b_1>0$. The divergence $\sum_m b_m\rho^{2m}=\sum_hB_h=\infty$ and supermultiplicativity imply the required root bound along even lengths. Length-two bridges fill the bounded remainders after repeating a fixed long block. Extending the terminal port by one vertex gives the odd-length bound.
+*Proof.* First $a_n^{1/n}\to\rho^{-1}$. The upper bound is the honeycomb connective-constant theorem [4]. For the lower bound, let $b_m$ count strict bridges of length $2m$ over all heights. Concatenation at a prescribed length is injective, so $b_{m+j}\ge b_mb_j$; also $b_1>0$. The divergence $\sum_m b_m\rho^{2m}=\sum_hB_h=\infty$ and supermultiplicativity imply the required root bound along even lengths. Length-two bridges fill the bounded remainders after repeating a fixed long block. Extending the terminal port by one vertex gives the odd-length bound.
 
 A path is specified, up to bounded initial choices, by its left/right turn word. Runs have length at most four, since five equal turns close an elementary hexagon. Except for an exponentially negligible fraction at length $n$, there are at least $\delta n$ maximal runs of length three, for some fixed $\delta>0$. Indeed, compositions into parts $1,2,4$ have growth less than $\rho^{-1}$ because $\rho+\rho^2+\rho^4<1$. Assign a sufficiently small positive weight $v<1$ to every part of length three. The geometric composition series still has growth at most $\lambda<\rho^{-1}$; the words with at most $\delta n$ such parts number at most $C(v^{-\delta}\lambda)^n$. Choose $\delta$ small enough and use the root bound above.
 
@@ -158,7 +158,7 @@ Fix an ordered list of $k$ irreducibles, of total length $m$. Paths which start 
 
 ## Conditioning on one exact length
 
-The sum of all bridge masses at lengths near $n$ does not bound the mass at length $n$. Local renewal estimates belong to classical infinite-mean renewal theory; Garsia and Lamperti and Caravenna and Doney treat regularly varying tails [GarsiaLamperti1962, CaravennaDoney2019]. Our finite inputs give comparable powers, without a regular-variation limit. We therefore prove the local lower bound directly by exponential tilting and Fourier inversion, then apply it to the joint height–length–diameter law. The probability statement holds for every exponent $0<a<1$; the restriction $a>1/2$ enters only when we bound the contribution from small piece counts in the bridge application.
+The sum of all bridge masses at lengths near $n$ does not bound the mass at length $n$. Local renewal estimates belong to classical infinite-mean renewal theory; Garsia and Lamperti and Caravenna and Doney treat regularly varying tails [6, 3]. Our finite inputs give comparable powers, without a regular-variation limit. We therefore prove the local lower bound directly by exponential tilting and Fourier inversion, then apply it to the joint height–length–diameter law. The probability statement holds for every exponent $0<a<1$; the restriction $a>1/2$ enters only when we bound the contribution from small piece counts in the bridge application.
 
 ### A local renewal lower bound with bounded-factor tails
 
@@ -175,7 +175,7 @@ Let $\phi(\theta)=\mathbb Ee^{i\theta X}$. Use two independent copies in $1-|\ph
 
 *Proof.* For $u>0$ tilt the law by $$p_u(j)=\frac{e^{-uj}\mathbb P(X=j)}{Z(u)},\qquad Z(u)=\mathbb Ee^{-uX}.$$ Write $\mu_u,v_u$ for its mean and variance. Tail integration gives the upper bounds for its first three moments. The annular mass at scale $u^{-1}$ gives the lower bounds for the first two moments; for the variance, apply the identity $2v_u=\mathbb E_u(X-X')^2$, keeping one variable bounded and the other in that annulus. Thus $$\mu_u\asymp u^{a-1},\quad v_u\asymp u^{a-2},\quad
  \mathbb E_u|X-\mu_u|^3\le Cu^{a-3}.$$ Let $\phi_u$ be the tilted characteristic function. The same two-copy argument, now using the annulus of size $u^{-1}$ for $|\theta|\le u$ and of size $|\theta|^{-1}$ for $u\le|\theta|\le\theta_0$, gives uniform bounds $$\begin{equation}
-\label{R:exact:fourier-bounds}
+\tag{1}
  |\phi_u(\theta)|\le
  \begin{cases}
  e^{-cv_u\theta^2},& |\theta|\le u,\\
@@ -188,7 +188,7 @@ Fix a large constant $A$ and put $u=A/m$. Consider integers $k$ with $$|m-k\mu_u
 
 We verify a uniform local lower bound under the tilted law. Write $\sigma=\sqrt{kv_u}$. On $|\theta|\le\omega/\sigma$, Taylor expansion of the centered characteristic function gives its Gaussian approximation with error at most $C_\omega A^{-1/2}$, since $$\frac{k\mathbb E_u|X-\mu_u|^3}{(kv_u)^{3/2}}
  \le \frac C{\sqrt{ku^a}}\le\frac C{\sqrt A}.$$ After the change of variables $t=\sigma\theta$, Fourier inversion over this interval therefore differs by at most $C_\omega A^{-1/2}/\sigma$ from $$\frac1{2\pi\sigma}\int_{-\omega}^{\omega}
- e^{-t^2/2}e^{-it(m-k\mu_u)/\sigma}\,dt.$$ The latter has real part at least $c/\sigma$, uniformly for the allowed $k$, once $\omega$ is large enough. The portion $\omega/\sigma<|\theta|\le u$ is at most $C e^{-c\omega^2}/\sigma$ by the first line of (R:exact:fourier-bounds). The portion $u<|\theta|\le\theta_0$ is at most $Cu e^{-c'A}$, by substituting $|\theta|=u t$ into the second line; relative to $1/\sigma$ this is at most $C\sqrt A e^{-c'A}$. The final portion is exponentially small in $k$. Choose first $\omega$ and then $A$ large enough. We obtain $$\mathbb P_u(S_k=m)\ge c_A/m.$$ Removing the tilt multiplies this by $e^{um}Z(u)^k$. Since $um=A$ and $k(1-Z(u))=O(A)$, this factor is bounded below by a positive constant depending only on $A$. Summing over the $c_A m^a$ choices of $k$ proves the theorem. ◻
+ e^{-t^2/2}e^{-it(m-k\mu_u)/\sigma}\,dt.$$ The latter has real part at least $c/\sigma$, uniformly for the allowed $k$, once $\omega$ is large enough. The portion $\omega/\sigma<|\theta|\le u$ is at most $C e^{-c\omega^2}/\sigma$ by the first line of (1). The portion $u<|\theta|\le\theta_0$ is at most $Cu e^{-c'A}$, by substituting $|\theta|=u t$ into the second line; relative to $1/\sigma$ this is at most $C\sqrt A e^{-c'A}$. The final portion is exponentially small in $k$. Choose first $\omega$ and then $A$ large enough. We obtain $$\mathbb P_u(S_k=m)\ge c_A/m.$$ Removing the tilt multiplies this by $e^{um}Z(u)^k$. Since $um=A$ and $k(1-Z(u))=O(A)$, this factor is bounded below by a positive constant depending only on $A$. Summing over the $c_A m^a$ choices of $k$ proves the theorem. ◻
 
 ### Uniform bridges at every compatible length
 
@@ -228,7 +228,7 @@ Throughout this section the critical weight is $\rho^L$, where $L$ counts visite
 
 ### The finite estimates and a logarithmic renewal denominator
 
-The finite input is supplied by the calibrated cylinder analysis [compL, Theorems 1.1–1.2 and Proposition 11.2]. We state its precise form here, so that the conditioning argument can be read without revisiting that representation.
+The finite input is supplied by the calibrated cylinder analysis [18, Theorems 1.1–1.2 and Proposition 11.2]. We state its precise form here, so that the conditioning argument can be read without revisiting that representation.
 
 **Proposition 4.1** (Finite calibrated input). *Let $B_h$ be the critical mass of strict bridges of height $h$ from one fixed port, and let $B_0=1$. Then $B_h\asymp(1+h)^{-1/4}$. For sufficiently large fixed $T$, bridges confined to transverse width $Th$ have mass at least $c_T h^{-1/4}$ and first-length mass at most $C_T h^{13/12}$. The arch-plus-bridge mass in a height-$h$ strip with diameter larger than $r\ge Ch$ is at most $C h^{-1/4}e^{-cr/h}$. Since a self-avoiding path of diameter $r$ has at most $Cr^2$ centers, this estimate also controls every fixed length moment in the tail. In particular the mass at $D>h\log^2 h$, including any fixed length power, is smaller than every inverse power of $h$.*
 
@@ -237,13 +237,13 @@ The finite input is supplied by the calibrated cylinder analysis [compL, Theorem
  l_+=h^{4/3}(\log h)^{1/2}.$$ For a fixed finite $C$, $$\begin{equation}
  \sum_{j\le2R_0}B_j\{l_-\le L\le2l_+\}
        \ge h^{3/4}(\log h)^{-C}.
- \label{R:cal:window}
+ \tag{2}
 \end{equation}$$ The estimate sums over heights and terminal ports; it does not prescribe either one of them.*
 
 **Lemma 4.2** (Length deficit). *There is a finite $P$ such that, for all sufficiently small $t>0$, $$c t^\alpha(\log(1/t))^{-P}
  \le q_L(t):=1-\mathbb E_p e^{-tL}\le C t^\alpha.$$*
 
-*Proof.* Take $t=h^{-4/3}$. On the length window in (R:cal:window), $1-e^{-tL}\ge c(\log h)^{-1/8}$. Summing this damping loss over the $O(h(\log h)^{1/64})$ allowed heights shows that some height $1\le h_*\le2R_0$ has loss at least $h^{-1/4}(\log h)^{-C'}$. For a bridge with irreducible lengths $L_i$, $1-e^{-t\sum_iL_i}\le\sum_i(1-e^{-tL_i})$. The marked reward identity of Lemma 2.3 therefore bounds this loss above by $$\sum_{j\le h_*}\mathbb E_p[1-e^{-tL};H=j]
+*Proof.* Take $t=h^{-4/3}$. On the length window in (2), $1-e^{-tL}\ge c(\log h)^{-1/8}$. Summing this damping loss over the $O(h(\log h)^{1/64})$ allowed heights shows that some height $1\le h_*\le2R_0$ has loss at least $h^{-1/4}(\log h)^{-C'}$. For a bridge with irreducible lengths $L_i$, $1-e^{-t\sum_iL_i}\le\sum_i(1-e^{-tL_i})$. The marked reward identity of Lemma 2.3 therefore bounds this loss above by $$\sum_{j\le h_*}\mathbb E_p[1-e^{-tL};H=j]
                  \sum_{b+d=h_*-j}B_bB_d
  \le C h_*^{1/2}q_L(t).$$ Here $B_j\asymp(1+j)^{-1/4}$ gives the convolution bound. Since $h_*\le2h(\log h)^{1/64}$, we obtain $$q_L(h^{-4/3})\ge c h^{-3/4}(\log h)^{-P}$$ for some finite $P$, proving the lower estimate.
 
@@ -255,10 +255,10 @@ The upper deficit also gives the length tail and truncated mean: $$p(L>x)\le\fra
 
 **Theorem 4.3** (Exact compatible lengths from a logarithmic window). *Let $u_n=p(\exists k:S_L(k)=n)$. For every sufficiently large even $n$, $$u_n\ge n^{-7/16-o(1)},\qquad \frac{u_{n+2}}{u_n}\longrightarrow1.$$ Conditioning the independent sequence on hitting $n$ gives the uniform strict bridge of length $n$, with height and terminal port free. Under this law the height, endpoint distance, and maximum radius are $n^{3/4+o(1)}$ in probability. The finite bridge laws converge locally to the independent-irreducible law.*
 
-*Proof.* *A block law from the finite window.* The height deficit gives $$p\{S_H(k)\le2R_0\}\le e\exp(-c kR_0^{-a}).$$ Consequently, the contribution of counts $k>h^a\log^2h$ to (R:cal:window) is negligible. Dividing the remaining window mass by this number of counts yields a block whose probability of lying in the length window is bounded below by a negative power of $\log h$. Since $l_-/l_+=(\log h)^{-5/8}$, fix any $b\in(5/8,1)$, say $b=3/4$. For each sufficiently large $r$, choose $h$ so that $l_+$ is comparable to $r$ and $2l_+\le r/2$. Then there is a deterministic integer $k(r)$ such that $$\begin{equation}
+*Proof.* *A block law from the finite window.* The height deficit gives $$p\{S_H(k)\le2R_0\}\le e\exp(-c kR_0^{-a}).$$ Consequently, the contribution of counts $k>h^a\log^2h$ to (2) is negligible. Dividing the remaining window mass by this number of counts yields a block whose probability of lying in the length window is bounded below by a negative power of $\log h$. Since $l_-/l_+=(\log h)^{-5/8}$, fix any $b\in(5/8,1)$, say $b=3/4$. For each sufficiently large $r$, choose $h$ so that $l_+$ is comparable to $r$ and $2l_+\le r/2$. Then there is a deterministic integer $k(r)$ such that $$\begin{equation}
  p\{r(\log r)^{-b}\le S_L(k(r))\le r/2\}
        \ge(\log r)^{-C}.
- \label{R:cal:landing}
+ \tag{3}
 \end{equation}$$ Fix one such choice for every $r$. We will use these blocks to advance through a large remaining gap without passing its target.
 
 ##### A whole interval of local renewal mass.
@@ -268,19 +268,19 @@ Port lengths are even, and two- and four-center one-row irreducibles show that $
 
 Fourier inversion now gives, uniformly in the target and for every $k\ge1$, $$\begin{align}
  \sup_j p(S_L(k)=j)&\le C(1+k)^{-1/\alpha}\log^C(2+k),
- \label{R:cal:length-atom}\\
+ \tag{4}\\
  \sup_{j\text{ even}}|p(S_L(k)=j+2)-p(S_L(k)=j)|
  &\le C(1+k)^{-2/\alpha}\log^C(2+k).
- \label{R:cal:length-difference}
+ \tag{5}
 \end{align}$$ Indeed split the Fourier integral at $k^{-1/\alpha}(\log k)^M$ for large $k$. The inner interval has that length; for the difference its integrand has the additional factor $|e^{i\theta}-1|\le|\theta|$. For sufficiently large fixed $M$, the remaining integral near zero is smaller than any prescribed power of $k^{-1}$, and the part away from zero is exponentially small. Increasing the constants handles bounded $k$.
 
 For a small fixed $c_0>0$, put $$f_n(j)=\sum_{c_0n^\alpha\le k\le2c_0n^\alpha}p(S_L(k)=j).$$ The upper deficit bound gives $$p\{S_L(k)>n/3\}
  \le\frac{1-(1-q_L(1/n))^k}{1-e^{-1/3}}
- \le Ck n^{-\alpha}\le\tfrac12$$ when $c_0$ is sufficiently small. Thus $\sum_{0\le j\le n/3}f_n(j)\ge c n^\alpha$, and some even $j_0\le n/3$ satisfies $f_n(j_0)\ge c n^{\alpha-1}$. By (R:cal:length-difference), $$|f_n(j+2)-f_n(j)|\le Cn^{\alpha-2}(\log n)^{C_1}.$$ This preserves half the lower bound on an even interval $[m,m+w]=[j_0,j_0+w]\subset[0,n/2]$, where $w\ge c'n(\log n)^{-C_1}$. Positive increments make the events $S_L(k)=j$ disjoint in $k$ on one independent sequence. Hence $u_j\ge f_n(j)\ge c n^{\alpha-1}$ throughout this interval.
+ \le Ck n^{-\alpha}\le\tfrac12$$ when $c_0$ is sufficiently small. Thus $\sum_{0\le j\le n/3}f_n(j)\ge c n^\alpha$, and some even $j_0\le n/3$ satisfies $f_n(j_0)\ge c n^{\alpha-1}$. By (5), $$|f_n(j+2)-f_n(j)|\le Cn^{\alpha-2}(\log n)^{C_1}.$$ This preserves half the lower bound on an even interval $[m,m+w]=[j_0,j_0+w]\subset[0,n/2]$, where $w\ge c'n(\log n)^{-C_1}$. Positive increments make the events $S_L(k)=j$ disjoint in $k$ on one independent sequence. Hence $u_j\ge f_n(j)\ge c n^{\alpha-1}$ throughout this interval.
 
 ##### Landing before the final renewal hit.
 
-Aim for a partial sum in $[n-m-w,n-m]$. At a current sum $x<n-m-w$, put $r=n-m-x$ and expose the next $k(r)$ fresh pieces. On the event in (R:cal:landing), the new remaining gap is between $r/2$ and $r-r(\log r)^{-b}$. In particular the target $n-m$ is not passed. Stop as soon as the gap is at most $w$, so the partial sum lies in the required landing interval.
+Aim for a partial sum in $[n-m-w,n-m]$. At a current sum $x<n-m-w$, put $r=n-m-x$ and expose the next $k(r)$ fresh pieces. On the event in (3), the new remaining gap is between $r/2$ and $r-r(\log r)^{-b}$. In particular the target $n-m$ is not passed. Stop as soon as the gap is at most $w$, so the partial sum lies in the required landing interval.
 
 Before stopping every gap lies in $[w,n]$, and its logarithm is comparable to $\log n$. At most $J=O((\log n)^b(1+\log\log n))$ successful stages suffice, since each reduces the gap by a fraction at least $(\log n)^{-b}$ and $n/w\le C(\log n)^{C_1}$. The choice $k(r)$ depends only on the exposed past, so every block end is a stopping time and the unused pieces remain independent with law $p$. At each unfinished stage the conditional success probability is at least $(\log n)^{-C}$. Declaring all later stages successful once landing has occurred gives $$p\{\text{all required stages succeed}\}
  \ge\exp\{-C(\log n)^b(1+\log\log n)^2\}=n^{-o(1)}.$$ The fixed inequality $b<1$ is essential here. At the landing time the remaining length to $n$ belongs to $[m,m+w]$. The fresh continuation therefore hits $n$ with probability at least $c n^{\alpha-1}$, and $$u_n\ge n^{\alpha-1-o(1)}.$$
@@ -289,13 +289,13 @@ Before stopping every gap lies in $[w,n]$, and its logarithm is comparable to $\
 
 Every length-$n$ bridge has critical weight $\rho^n$, so conditioning the sequence on hitting $n$ gives exactly the uniform strict-bridge law. We first show that its number of pieces lies between $n^{\alpha-\epsilon}$ and $n^{\alpha+\epsilon}$ with high probability, for each fixed $0<\epsilon<\min(\alpha,1-\alpha)$; larger tolerances follow at once.
 
-The tail and truncated mean give $p\{S_L(j)>t\}\le Cj t^{-\alpha}$ by the union bound and Markov’s inequality. For $k\ge2$, split the pieces into two comparable groups. If $S_L(k)=n$, one group has length at least $n/2$, at cost $Ck n^{-\alpha}$; the independent other group pays at most $Ck^{-1/\alpha}\log^C(2+k)$ for the residual length, by (R:cal:length-atom). Consequently $$\sum_{2\le k\le n^{\alpha-\epsilon}}p(S_L(k)=n)
+The tail and truncated mean give $p\{S_L(j)>t\}\le Cj t^{-\alpha}$ by the union bound and Markov’s inequality. For $k\ge2$, split the pieces into two comparable groups. If $S_L(k)=n$, one group has length at least $n/2$, at cost $Ck n^{-\alpha}$; the independent other group pays at most $Ck^{-1/\alpha}\log^C(2+k)$ for the residual length, by (4). Consequently $$\sum_{2\le k\le n^{\alpha-\epsilon}}p(S_L(k)=n)
  \le Cn^{-\alpha}\sum_{k\le n^{\alpha-\epsilon}}
            k^{1-1/\alpha}\log^C(2+k)
  =n^{\alpha-1-\epsilon(2-1/\alpha)+o(1)}=o(u_n).$$ Here $2-1/\alpha=2/9>0$. The one-piece term is at most $Cn^{-\alpha}=o(u_n)$ because $2\alpha-1=1/8>0$. For the upper cutoff, the lower deficit gives $$p(S_L(k)=n)\le e\exp\{-c k n^{-\alpha}(\log n)^{-P}\}.$$ Summing over $k>n^{\alpha+\epsilon}$ is negligible; there are at most $n$ possible counts since lengths are positive.
 
 It suffices to take $0<\xi<3/4$. Choose $\epsilon>0$ sufficiently small. At the retained counts, the height deficit gives $$p\{S_H(k)<n^{3/4-\xi}\}
- \le\exp\{1-c n^{a\xi-\epsilon}\},$$ which remains negligible after summing counts and dividing by $u_n$ if $\epsilon<a\xi$. For the upper spatial bound put $r=n^{3/4+\xi}$. The diameter tail similarly gives $p\{S_D(j)>r\}\le Cj r^{-a}$. If $S_D(k)>r$, one of the two groups has diameter sum greater than $r/2$. Test this event in that group and the exact residual length in the other. By independence between groups and (R:cal:length-atom), $$\begin{aligned}
+ \le\exp\{1-c n^{a\xi-\epsilon}\},$$ which remains negligible after summing counts and dividing by $u_n$ if $\epsilon<a\xi$. For the upper spatial bound put $r=n^{3/4+\xi}$. The diameter tail similarly gives $p\{S_D(j)>r\}\le Cj r^{-a}$. If $S_D(k)>r$, one of the two groups has diameter sum greater than $r/2$. Test this event in that group and the exact residual length in the other. By independence between groups and (4), $$\begin{aligned}
  \sum_{n^{\alpha-\epsilon}\le k\le n^{\alpha+\epsilon}}
        p\{S_D(k)>r,\ S_L(k)=n\}
  &\le Cr^{-a}\sum_{k\le n^{\alpha+\epsilon}}
@@ -305,7 +305,7 @@ It suffices to take $0<\xi<3/4$. Choose $\epsilon>0$ sufficiently small. At the 
 
 ##### The neighboring-length ratio and local limit.
 
-In $u_{n+2}-u_n$, counts outside $[n^{\alpha-\epsilon},n^{\alpha+\epsilon}]$ contribute $o(u_n)$ by the same absolute bounds for both target lengths. On the retained counts, (R:cal:length-difference) bounds the sum of successive differences by $$C\sum_{k\ge n^{\alpha-\epsilon}}
+In $u_{n+2}-u_n$, counts outside $[n^{\alpha-\epsilon},n^{\alpha+\epsilon}]$ contribute $o(u_n)$ by the same absolute bounds for both target lengths. On the retained counts, (5) bounds the sum of successive differences by $$C\sum_{k\ge n^{\alpha-\epsilon}}
        k^{-2/\alpha}\log^C(2+k)
  =n^{(\alpha-\epsilon)(1-2/\alpha)+o(1)}=o(u_n)$$ for small $\epsilon$. Thus $u_{n+2}/u_n\to1$ on even lengths. For a fixed tuple of $k$ irreducibles of total length $l$, its initial-tuple probability under the length-$n$ bridge law is $\rho^l u_{n-l}/u_n$ for $n>l$, which tends to $\rho^l$. For fixed $k$ these limiting probabilities sum to one. A sufficiently large $k$ determines any prescribed finite initial path, or the path inside a fixed ball, since all later pieces lie above the completed height. Finite-set truncation of the tuples proves the asserted local convergence. ◻
 
@@ -325,49 +325,49 @@ Throughout this section a port path has weight $\rho^L$, where $L$ is its number
 
 ### The finite geometric inputs
 
-Here are the finite estimates used in this section. They are the slab, arch, and polygon theorems of *Radial transfer estimates and polygon length laws for honeycomb walks*. We state their full probabilistic content so that the subsequent changes of law can be read independently of their analytic proofs [companionA, Theorems 1.1, 12.1, 12.2 and Proposition 3.1].
+Here are the finite estimates used in this section. They are the slab, arch, and polygon theorems of *Radial transfer estimates and polygon length laws for honeycomb walks*. We state their full probabilistic content so that the subsequent changes of law can be read independently of their analytic proofs [16, Theorems 1.1, 12.1, 12.2 and Proposition 3.1].
 
 1.  For $h\ge1$ and every terminal port, $$\begin{equation}
-    \label{R:geo:slab-input}
+    \tag{6}
      c h^{-1/4}\le B_h\le C h^{-1/4},\qquad
      B_h(x)\le C h^{-5/4},\qquad
      B_h[D>Mh]\le C(Mh)^{-1/4}\quad(M\ge1).
-    \end{equation}$$ Let $g:[0,1]\to\mathbb R$ be continuous and piecewise linear, with $g(0)=0$, and fix $\epsilon>0$. The raw bridge mass restricted to $$\{(x,y):0\le y\le h,\ |x-hg(y/h)|\le\epsilon h\}$$ is at least $c(g,\epsilon)h^{-1/4}$ for all sufficiently large admissible $h$, in the cut convention of [companionA, Theorem 12.2]. The lower port is fixed and the upper port is free. For a compact family of such graphs in the uniform topology, both the constant and the lower threshold can be chosen uniformly. In particular this is a fixed-proportion corridor estimate, without a power loss.
+    \end{equation}$$ Let $g:[0,1]\to\mathbb R$ be continuous and piecewise linear, with $g(0)=0$, and fix $\epsilon>0$. The raw bridge mass restricted to $$\{(x,y):0\le y\le h,\ |x-hg(y/h)|\le\epsilon h\}$$ is at least $c(g,\epsilon)h^{-1/4}$ for all sufficiently large admissible $h$, in the cut convention of [16, Theorem 12.2]. The lower port is fixed and the upper port is free. For a compact family of such graphs in the uniform topology, both the constant and the lower threshold can be chosen uniformly. In particular this is a fixed-proportion corridor estimate, without a power loss.
 
 2.  The mass $a_b$ of upper-half-plane arches between ports separated by $b$ along their boundary satisfies $a_b\asymp b^{-5/4}$. The same lower bound holds after restricting the diameter to $C b$, for one fixed $C$. Also $\sum_{b\ge1}a_b<\infty$.
 
 3.  Let $\mathcal P$ be simple unoriented polygons modulo translations, with weight $w(P)=\rho^{|P|}$. As $r\to\infty$, $$\begin{equation}
-    \label{R:geo:polygon-input}
+    \tag{7}
      \sum_{D(P)\ge r}w(P)=r^{-2+o(1)},\qquad
      \sum_{D(P)\ge r}|P|w(P)=r^{-2/3+o(1)},\qquad
      \sum_{D(P)\le r}|P|^2w(P)\le r^{2/3+o(1)}.
     \end{equation}$$
 
 4.  Put $e=(1,0)$ and $a=(1/2,\sqrt3/2)$, and write $P_{ij}=ie+ja$ and $R_{ij}=P_{ij}+(e+a)/3$ for the two cell types. Use the same definitions after a lattice symmetry. On the cylinder obtained by quotienting by $Ne$, count polygons only modulo axial translation by $a$, and let $S(P)$ be the span of their cell-row indices $j$. For every fixed $\epsilon>0$, $q\ge0$, and $M>0$, $$\begin{equation}
-    \label{R:geo:cylinder-input}
+    \tag{8}
      \sum_{P:S(P)\ge N^{1+\epsilon}}(1+|P|)^q w(P)=O(N^{-M})
     \end{equation}$$ for both contractible and winding polygons. In particular a marked polygon carries its actual mark multiplicity, which can be absorbed by the length factor.
 
-The companion locators are Theorem 12.2 for the slab and corridor estimates, Theorem 12.1 for boundary arches, Theorem 1.1 for the polygon tails and second moment, and Proposition 3.1 for thin-cylinder span. Every use below concerns these positive masses; no conditional mean or prescribed-terminal lower bound is implicit in (R:geo:slab-input).
+The companion locators are Theorem 12.2 for the slab and corridor estimates, Theorem 12.1 for boundary arches, Theorem 1.1 for the polygon tails and second moment, and Proposition 3.1 for thin-cylinder span. Every use below concerns these positive masses; no conditional mean or prescribed-terminal lower bound is implicit in (6).
 
 ### Tails and concentration of an irreducible
 
 The slab mass determines the height scale of one increment. Its pointwise bound and corridor tightness also control horizontal movement. Both coordinates will be needed when two separately sampled bridges are joined.
 
 **Lemma 5.1**. *There are constants $c,C>0$ such that, for $r\ge1$, $$\begin{align}
- p(D>r)&\le Cr^{-3/4},\label{R:geo:D-tail}\\
- p(c r<H<C r)&\ge c r^{-3/4},\label{R:geo:H-shell}\\
+ p(D>r)&\le Cr^{-3/4},\tag{9}\\
+ p(c r<H<C r)&\ge c r^{-3/4},\tag{10}\\
  p(c r<|X|<C r,\ H<C r)&\ge c r^{-3/4}.
- \label{R:geo:X-shell}
+ \tag{11}
 \end{align}$$ Consequently, for $Y=H,D$, or $|X|$, $p(Y\wedge r)\le C r^{1/4}$. Also $1-p(e^{-H/r})\asymp r^{-3/4}$.*
 
 *Proof.* Put $\vartheta_r=1-p(e^{-H/r})$. The renewal identity gives $$\vartheta_r^{-1}=\sum_{h\ge0}e^{-h/r}B_h\asymp r^{3/4}.$$ After normalization, this bridge sum consists of a geometric number of increments with one-increment law proportional to $e^{-H/r}p$. Its number of increments has mean of order $r^{3/4}$. The inequality $1-e^{-H/r}\ge(1-e^{-1})\mathbf1_{\{H\ge r\}}$ first gives the height tail.
 
-The diameter of the whole bridge divided by $r$ is tight in this normalized sum, by (R:geo:slab-input), summation over heights, and the exponentially small contribution of heights much larger than $r$. An increment of diameter greater than $Mr$ forces the same diameter event for the whole bridge. The elementary formula for a geometrically stopped list therefore gives $p(e^{-H/r};D>Mr)\le C_M\vartheta_r$ for one sufficiently large fixed $M$. On $H\le r$ the damping is bounded below; the already proved height tail handles $H>r$. Rescaling by the fixed $M$ proves (R:geo:D-tail), and integration of that tail proves the truncated first-moment bounds.
+The diameter of the whole bridge divided by $r$ is tight in this normalized sum, by (6), summation over heights, and the exponentially small contribution of heights much larger than $r$. An increment of diameter greater than $Mr$ forces the same diameter event for the whole bridge. The elementary formula for a geometrically stopped list therefore gives $p(e^{-H/r};D>Mr)\le C_M\vartheta_r$ for one sufficiently large fixed $M$. On $H\le r$ the damping is bounded below; the already proved height tail handles $H>r$. Rescaling by the fixed $M$ proves (9), and integration of that tail proves the truncated first-moment bounds.
 
-The lower bound for $\vartheta_r$ cannot be supplied by very small or very large heights. Indeed their contributions to $p(1-e^{-H/r})$ are at most $C\delta^{1/4}r^{-3/4}$ for $H\le\delta r$ and $C M^{-3/4}r^{-3/4}$ for $H>Mr$. Choosing $\delta$ small and $M$ large proves (R:geo:H-shell).
+The lower bound for $\vartheta_r$ cannot be supplied by very small or very large heights. Indeed their contributions to $p(1-e^{-H/r})$ are at most $C\delta^{1/4}r^{-3/4}$ for $H\le\delta r$ and $C M^{-3/4}r^{-3/4}$ for $H>Mr$. Choosing $\delta$ small and $M$ large proves (10).
 
-In the normalized bridge sum, heights in $[r,2r]$ have probability bounded below. At any such height, the pointwise bound in (R:geo:slab-input) shows that terminal positions in an interval of width $\delta r$ have probability at most $C\delta$. Thus the total horizontal displacement has magnitude at least $c r$ with probability bounded below. The expected sum of $\min(|X_i|,\delta r)$ over the geometric list is at most $C\delta^{1/4}r$; increments of diameter greater than $Mr$ have arbitrarily small probability when $M$ is large. Hence, with probability bounded below, the list contains an increment with $c' r<|X_i|<C'r$ and $H_i<C'r$. Its expected number is an upper bound for that probability. The geometric mean is of order $r^{3/4}$ and the tilted probability of this event is at most a constant times its $p$ probability. This proves (R:geo:X-shell). ◻
+In the normalized bridge sum, heights in $[r,2r]$ have probability bounded below. At any such height, the pointwise bound in (6) shows that terminal positions in an interval of width $\delta r$ have probability at most $C\delta$. Thus the total horizontal displacement has magnitude at least $c r$ with probability bounded below. The expected sum of $\min(|X_i|,\delta r)$ over the geometric list is at most $C\delta^{1/4}r$; increments of diameter greater than $Mr$ have arbitrarily small probability when $M$ is large. Hence, with probability bounded below, the list contains an increment with $c' r<|X_i|<C'r$ and $H_i<C'r$. Its expected number is an upper bound for that probability. The geometric mean is of order $r^{3/4}$ and the tilted probability of this event is at most a constant times its $p$ probability. This proves (11). ◻
 
 **Lemma 5.2** (Spatial atoms). *For $k\ge1$, sums of $k$ independent irreducibles satisfy $$\sup_y p^{\otimes k}\{\textstyle\sum_{i=1}^k(H_i,X_i)=y\}
        \le C k^{-8/3},\qquad
@@ -377,7 +377,7 @@ In the normalized bridge sum, heights in $[r,2r]$ have probability bounded below
 
 *Proof.* Use independent increments $Y,Y'$ in $1-|\varphi(\theta)|^2=p\otimes p[1-\cos(\theta\cdot(Y-Y'))]$. Keep $Y'$ in a fixed bounded set of positive probability. At scale $r=\epsilon/|\theta|$, Lemma 5.1 supplies mass $c r^{-3/4}$ with the coordinate whose coefficient has larger absolute value between fixed positive multiples of $r$ in magnitude. For the height shell, discard $D>Mr$ with fixed $M$ sufficiently large: the diameter tail removes at most $CM^{-3/4}r^{-3/4}$, leaving a fixed fraction of that shell mass. Both coordinates are now bounded by a fixed multiple of $r$; the horizontal shell already has this property. Reflection replaces $X$ by $-X$ without changing $H$. One of these two signs avoids cancellation between the two coordinates in the scalar product. Choose the fixed $\epsilon>0$ small enough to avoid wrapping the resulting phase around $2\pi$. The integrand is then bounded below by a positive constant on a fixed fraction of this mass. This gives the claimed loss near zero. The same argument using only $H$ proves the one-dimensional loss.
 
-The support differences span two dimensions: otherwise reflection would first force an affine relation involving only $H$, and (R:geo:H-shell) rules that out. A finite subset of the differences therefore generates a rank-two sublattice. Thus $\Gamma_1$ has finite index in $\Gamma$. Equality in the triangle inequality for $p(e^{i\theta\cdot Y})$ occurs exactly when that character is constant on the support, which gives precisely the stated finite set. At each of these characters its modulus is a translate of the modulus near zero. Away from their neighborhoods compactness gives a bound strictly below one. Fourier inversion, with $\int_{\mathbb R^d}e^{-c k|\theta|^{3/4}}d\theta=O(k^{-4d/3})$, proves both atom estimates. No span-one assumption in two dimensions is being made. ◻
+The support differences span two dimensions: otherwise reflection would first force an affine relation involving only $H$, and (10) rules that out. A finite subset of the differences therefore generates a rank-two sublattice. Thus $\Gamma_1$ has finite index in $\Gamma$. Equality in the triangle inequality for $p(e^{i\theta\cdot Y})$ occurs exactly when that character is constant on the support, which gives precisely the stated finite set. At each of these characters its modulus is a translate of the modulus near zero. Away from their neighborhoods compactness gives a bound strictly below one. Fourier inversion, with $\int_{\mathbb R^d}e^{-c k|\theta|^{3/4}}d\theta=O(k^{-4d/3})$, proves both atom estimates. No span-one assumption in two dimensions is being made. ◻
 
 ### Closing two bridges into a polygon
 
@@ -385,30 +385,29 @@ Let $D_h^*$ be the mass of ordered disjoint pairs of bridges from two fixed adja
 
 **Lemma 5.3**. *For each fixed $C$, as $r\to\infty$, $$\begin{align}
  \sum_{r\le h\le2r}D_h^*[D(\gamma_1\cup\gamma_2)\le Cr]
-       &\le r^{-1/4+o(1)},\label{R:geo:pair-sewing}\\
+       &\le r^{-1/4+o(1)},\tag{12}\\
  \sum_{r\le h\le2r}B_h[L;D\le Cr]
-       &\le r^{25/12+o(1)}.\label{R:geo:length-sewing}
+       &\le r^{25/12+o(1)}.\tag{13}
 \end{align}$$ In particular $$\begin{equation}
-\label{R:geo:truncated-reward}
+\tag{14}
  p(L;D\le r)\le r^{7/12+o(1)},\qquad
  q(t)\le t^{-9/16+o(1)}.
 \end{equation}$$*
 
-*Proof.* For a polygon of diameter in $[c r,C'r]$, let $K$ count horizontal row cuts crossed exactly twice. Mark $s$ of these cuts, allowing repeated marks, and order their distinct levels. Outside the extreme cuts there are two arches. Between successive cuts there are two bridges. Anchor the first cut and its left crossing port, sum its arch gap using $\sum_b a_b<\infty$, and drop all further disjointness restrictions. Each internal gap contributes at most $\sum_{t\le C''r}B_t^2\le C\sqrt r$. Repeated marks and the choices of the extreme cuts contribute a fixed polynomial in $r$ whose degree does not depend on $s$. Consequently $$\sum_{D(P)\le C'r}w(P)K(P)^s\le C_s r^{C_0+s/2}.$$ Apply Hölder with arbitrarily large fixed $s$ and the first two bounds in (R:geo:polygon-input). For the length-weighted measure use also $|P|\le C r^2$ in the high-moment bound. We obtain $$\sum_{c r\le D(P)\le C'r}w(P)K(P)\le r^{-3/2+o(1)},\qquad
+*Proof.* For a polygon of diameter in $[c r,C'r]$, let $K$ count horizontal row cuts crossed exactly twice. Mark $s$ of these cuts, allowing repeated marks, and order their distinct levels. Outside the extreme cuts there are two arches. Between successive cuts there are two bridges. Anchor the first cut and its left crossing port, sum its arch gap using $\sum_b a_b<\infty$, and drop all further disjointness restrictions. Each internal gap contributes at most $\sum_{t\le C''r}B_t^2\le C\sqrt r$. Repeated marks and the choices of the extreme cuts contribute a fixed polynomial in $r$ whose degree does not depend on $s$. Consequently $$\sum_{D(P)\le C'r}w(P)K(P)^s\le C_s r^{C_0+s/2}.$$ Apply Hölder with arbitrarily large fixed $s$ and the first two bounds in (7). For the length-weighted measure use also $|P|\le C r^2$ in the high-moment bound. We obtain $$\sum_{c r\le D(P)\le C'r}w(P)K(P)\le r^{-3/2+o(1)},\qquad
  \sum_{c r\le D(P)\le C'r}|P|w(P)K(P)^2\le r^{1/3+o(1)}.$$
 
-Close a pair counted by $D_h^*$ with a fixed bounded lower cap and an independent upper arch. The latter has mass at least $c r^{-5/4}$ and diameter at most $C'r$; the two exterior half-planes keep the closures disjoint from the bridges. The lower cut is at bounded distance from the bottom of the resulting polygon. An output polygon has at most $C K$ preimages, since choosing its upper cut recovers both bridges and both caps. This proves (R:geo:pair-sewing).
+Close a pair counted by $D_h^*$ with a fixed bounded lower cap and an independent upper arch. The latter has mass at least $c r^{-5/4}$ and diameter at most $C'r$; the two exterior half-planes keep the closures disjoint from the bridges. The lower cut is at bounded distance from the bottom of the resulting polygon. An output polygon has at most $C K$ preimages, since choosing its upper cut recovers both bridges and both caps. This proves (12).
 
-For (R:geo:length-sewing), place a second bridge in a disjoint box to the right. Its starting port has order $r$ choices and its confined mass is at least $c r^{-1/4}$. Close with exterior arches above and below, each of mass at least $c r^{-5/4}$. The added mass per input is at least $c r^{-7/4}$. Both separating cuts recover the construction with multiplicity at most $C K^2$, and the input length is bounded by the output polygon length. The preceding weighted bound gives $r^{7/4+1/3+o(1)}=r^{25/12+o(1)}$.
+For (13), place a second bridge in a disjoint box to the right. Its starting port has order $r$ choices and its confined mass is at least $c r^{-1/4}$. Close with exterior arches above and below, each of mass at least $c r^{-5/4}$. The added mass per input is at least $c r^{-7/4}$. Both separating cuts recover the construction with multiplicity at most $C K^2$, and the input length is bounded by the output polygon length. The preceding weighted bound gives $r^{7/4+1/3+o(1)}=r^{25/12+o(1)}$.
 
-Finally surround an irreducible of diameter at most $r$ by confined bridges whose heights each range over $[r,2r]$. Each side has mass at least $c r^{3/4}$. In the output bridge the sum of the lengths of all possible marked irreducibles is at most its full length. Applying (R:geo:length-sewing) on a bounded number of height bins therefore gives $p(L;D\le r)\le r^{25/12-3/2+o(1)}$. In $q(t)\le t^{-1}p(L;D\le r)+p(D>r)$ take $r=t^{3/4}$. ◻
+Finally surround an irreducible of diameter at most $r$ by confined bridges whose heights each range over $[r,2r]$. Each side has mass at least $c r^{3/4}$. In the output bridge the sum of the lengths of all possible marked irreducibles is at most its full length. Applying (13) on a bounded number of height bins therefore gives $p(L;D\le r)\le r^{25/12-3/2+o(1)}$. In $q(t)\le t^{-1}p(L;D\le r)+p(D>r)$ take $r=t^{3/4}$. ◻
 
 ### Avoidance of adjacent initial pieces
 
 Two independent increment lists begun at adjacent ports need not stay disjoint. Define $E_k$ to be the event that their first $k$ increments can be extended to two disjoint bridges ending at one common height, while remaining their initial $k$ renewal pieces. Equivalently the extensions are strict bridges above the terminal renewal cuts. This event concerns the finite prefixes; those extensions need not be the independently sampled continuations.
 
-**Lemma 5.4**. *For each $\delta>0$ there is $C_\delta$ such that $p^{\otimes\mathbb N}\otimes p^{\otimes\mathbb N}(E_k)
-\le C_\delta(1+k)^{-1+\delta}$.*
+**Lemma 5.4**. *For each $\delta>0$ there is $C_\delta$ such that $p^{\otimes\mathbb N}\otimes p^{\otimes\mathbb N}(E_k) \le C_\delta(1+k)^{-1+\delta}$.*
 
 *Proof.* We prove this bound by induction, for $0<\delta<1$. Set $r=k^{4/3}$ and expose $k_0=\lfloor k/2\rfloor$ increments on each side. Call their endpoint coordinates $(X_i,t_i)$. If the sum of their diameters exceeds $Mr$, the sum of the diameters truncated at $Mr$ also does. On $E_k$ every earlier paired prefix satisfies $E_{a-1}$. Markov’s inequality and independence of the next increment give an upper bound $$\frac1{Mr}\sum_{i=1}^2\sum_{a\le k_0}
        \Pr(E_{a-1})p(D\wedge Mr)
@@ -420,14 +419,14 @@ Next discard the case $m<X_1-ur$. Were a disjoint common-height extension possib
 
 For each remaining pair of histories the strip just above $t_1$ of height $dr$, to the left of $X_1+ur$, is free of the second history. Extend the first history through this strip to the left of the box containing both histories, then upward. Extend the second upward in a separate corridor. If $t_2<t_1+dr$, its tip lies to the right of the cleared strip; if $t_2\ge t_1+dr$, the first path has reached its separate corridor before the second extension begins. These are piecewise linear guides with fixed positive separation. The corridor input supplies joint mass at least $c r^{-1/2}$ to every common terminal level in $[C_Mr,2C_Mr]$. The diameter stays at most $C'_Mr$.
 
-In an output pair the original histories are recovered by cutting after exactly $k_0$ irreducibles on both paths. Hence there is no multiplicity factor for those cuts. Summing the order $r$ terminal levels and using (R:geo:pair-sewing), the mass of the remaining histories is at most $r^{-3/4+o(1)}=k^{-1+o(1)}$. For large $k$ this fits in the remaining half of the induction bound. Increasing $A_\delta$ handles the finitely many smaller $k$. ◻
+In an output pair the original histories are recovered by cutting after exactly $k_0$ irreducibles on both paths. Hence there is no multiplicity factor for those cuts. Summing the order $r$ terminal levels and using (12), the mass of the remaining histories is at most $r^{-3/4+o(1)}=k^{-1+o(1)}$. For large $k$ this fits in the remaining half of the induction bound. Increasing $A_\delta$ handles the finitely many smaller $k$. ◻
 
 ### Matching the two ends of a marked pair
 
 The previous lemma controls initial avoidance. The next estimate also pays for matching the far endpoints. Its mark may be any nonnegative function of one whole irreducible; this uniformity is what permits both length and diameter tests later.
 
 **Proposition 5.5**. *For every nonnegative function $f$ of an irreducible, with $p(f)<\infty$, and every $\epsilon>0$, $$\begin{equation}
-\label{R:geo:marked-pair-bound}
+\tag{15}
  \sum_{R\le h\le2R}D_h\left[\sum_{i\text{ in the first path}}f(I_i)\right]
        \le C_\epsilon R^{-5/4+\epsilon}p(f).
 \end{equation}$$ Either path can carry the mark. If the two bottom ports instead have any prescribed separation, while the top ports remain adjacent, the right side becomes $C_\epsilon R^{-1/2+\epsilon}p(f)$. In that second estimate, requiring the marked path to contain at most $R^{3/4-\delta}$ increments improves the bound by $R^{-\delta+\epsilon}$, with the exponent slacks combined in the constant.*
@@ -437,7 +436,7 @@ The previous lemma controls initial avoidance. The next estimate also pays for m
 Bin the numbers of increments before and after the marked slot on the first path, each increased by one, at dyadic scales $a_-,a_+$. There are $O(a_-a_+)$ choices of these two numbers. Fix them, and put $K=\max(a_-,a_+)$. Near each end of the second path choose a grid of more than $2/\eta$ height thresholds in a fixed small fraction of $R$. The counts to their first reaching renewals are positive and at most $2R$. At some consecutive pair the counts differ by a factor at most $R^\eta$. Bin the lower count at scale $c_e$, where $e=-,+$ specifies the end. Sum over these finitely many threshold choices and logarithmically many bins at the end.
 
 At each end expose $m_e=\lfloor R^{-2\eta}\min(a_e,c_e)\rfloor$ increments on both paths. If necessary reduce this by a fixed factor to account for the added one in $a_e$; zero histories cost one. For large $R$ these are disjoint coordinate blocks and do not include the mark. On the second path they lie before the selected lower height thresholds. On the first path that extra restriction is unnecessary: the actual full disjoint bridges supply the extensions required by the prefix event. At the upper end read the lists backwards in relative coordinates from adjacent ports. Their still unknown common translation is immaterial to this test. Lemma 5.4 supplies the independent cost $$\begin{equation}
-\label{R:geo:end-costs}
+\tag{16}
  R^{O(\eta)}\prod_{e=-,+}\min(a_e,c_e)^{-1}.
 \end{equation}$$
 
@@ -446,29 +445,29 @@ The choices of counts and of the marked slot cost $O(a_-a_+)$. To cancel that co
 Fix the histories. Sum over the remaining count on the second path and let $F(y)$ be its central bridge kernel, where $y$ is its two-dimensional displacement. Its height is comparable to $R$. From either end, within $O(c_eR^\eta)$ central increments it must gain at least $c_\eta R$ height, by the gap between the two selected thresholds. Retain these requirements and drop the other restrictions. The pointwise slab estimate gives $F(y)\le CR^{-5/4}$.
 
 We need the following improvement on a small displacement ball $U_b$, valid for $1\ll b\ll c_\eta R$ and either subset $S$ of the two ends: $$\begin{equation}
-\label{R:geo:central-kernel}
+\tag{17}
  \sum_{y\in U_b}F(y)\le CR^{-5/4}b^2
            \prod_{e\in S}(C_\eta c_eR^\eta b^{-3/4}).
-\end{equation}$$ To prove it, append at each indicated end an independently chosen bridge of height in $[b,2b]$ and diameter at most $Cb$. Its mass, with terminal position and height summed, is at least $c b^{3/4}$. The enlarged displacement lies in a ball of radius $C'b$, hence has at most $Cb^2$ possible values, each with mass $CR^{-5/4}$. In any output, a possible removed attachment ends within $O(b)$ height of the new endpoint. Moreover that cut precedes the first renewal at or beyond height $c_\eta R/2$ from the new endpoint by at most $O(c_eR^\eta)$ renewal steps. Thus there are at most that many possible cuts at each indicated end. Dividing by the attachment masses proves (R:geo:central-kernel). Positivity is used both in adjoining these bridges and in dropping all further restrictions.
+\end{equation}$$ To prove it, append at each indicated end an independently chosen bridge of height in $[b,2b]$ and diameter at most $Cb$. Its mass, with terminal position and height summed, is at least $c b^{3/4}$. The enlarged displacement lies in a ball of radius $C'b$, hence has at most $Cb^2$ possible values, each with mass $CR^{-5/4}$. In any output, a possible removed attachment ends within $O(b)$ height of the new endpoint. Moreover that cut precedes the first renewal at or beyond height $c_\eta R/2$ from the new endpoint by at most $O(c_eR^\eta)$ renewal steps. Thus there are at most that many possible cuts at each indicated end. Dividing by the attachment masses proves (17). Positivity is used both in adjoining these bridges and in dropping all further restrictions.
 
 The first path still has order $K$ unexposed increments outside the mark and the histories. If $K\le R^{5\eta}$, the pointwise bound on $F$ suffices, since all additional factors below cost only $R^{O(\eta)}$. Otherwise choose $b_0=\lfloor KR^{-4\eta}\rfloor$ slots in each of $\lceil30/\eta\rceil$ disjoint batches. Put $b=R^\eta b_0^{4/3}$. The count cutoff implies $b\le R^{1-3\eta}$, up to fixed factors. By the diameter tail and truncation, a batch has displacement norm greater than $b$ with probability at most $C R^{-3\eta/4}$. The batches are independent, so the chance that all of them fail is $O(R^{-10})$.
 
-On that exception use the pointwise bound on $F$. Otherwise take a union over the fixed finite set of possible successful batch labels. For each label, fix everything outside that batch and use its two-dimensional atom bound $C b_0^{-8/3}$ together with (R:geo:central-kernel). At the end $e$ use the improvement when $c_e<K$. Since $b_0^{-8/3}b^2=R^{2\eta}$ and $c_eR^\eta b^{-3/4}\le R^{O(\eta)}c_e/K$, the resulting matching cost is $$\begin{equation}
-\label{R:geo:matching-cost}
+On that exception use the pointwise bound on $F$. Otherwise take a union over the fixed finite set of possible successful batch labels. For each label, fix everything outside that batch and use its two-dimensional atom bound $C b_0^{-8/3}$ together with (17). At the end $e$ use the improvement when $c_e<K$. Since $b_0^{-8/3}b^2=R^{2\eta}$ and $c_eR^\eta b^{-3/4}\le R^{O(\eta)}c_e/K$, the resulting matching cost is $$\begin{equation}
+\tag{18}
  C_\eta R^{-5/4+O(\eta)}
                   \prod_{e=-,+}\min(1,c_e/K).
 \end{equation}$$ The estimate is uniform in the value of the marked increment. The mark can therefore be integrated separately at cost $p(f)$.
 
-Multiply (R:geo:matching-cost) by (R:geo:end-costs) and the $O(a_-a_+)$ count and mark choices. Each end contributes at most one because $$a_e\min(1,c_e/K)\le\min(a_e,c_e).$$ Summing the threshold and dyadic labels costs only logarithmic powers. Taking $\eta$ sufficiently small in terms of $\epsilon$ proves (R:geo:marked-pair-bound).
+Multiply (18) by (16) and the $O(a_-a_+)$ count and mark choices. Each end contributes at most one because $$a_e\min(1,c_e/K)\le\min(a_e,c_e).$$ Summing the threshold and dyadic labels costs only logarithmic powers. Taking $\eta$ sufficiently small in terms of $\epsilon$ proves (15).
 
-For prescribed separated bottom ports, retain exactly the same central kernel and matching proof. The displacement to be matched is merely shifted by that prescribed separation. The bottom avoidance test is now absent, so its factor in (R:geo:end-costs) is lost. The remaining count factor is bounded by $$\frac{a_-a_+\prod_e\min(1,c_e/K)}{\min(a_+,c_+)}
+For prescribed separated bottom ports, retain exactly the same central kernel and matching proof. The displacement to be matched is merely shifted by that prescribed separation. The bottom avoidance test is now absent, so its factor in (16) is lost. The remaining count factor is bounded by $$\frac{a_-a_+\prod_e\min(1,c_e/K)}{\min(a_+,c_+)}
        \le a_-\le R^{3/4+\eta}.$$ This proves the $R^{3/4+\epsilon}$ loss. If the marked path has at most $R^{3/4-\delta}$ increments, then $a_-\le C R^{3/4-\delta}$, which gives the stated improvement. This is the only change in the argument; no bottom avoidance probability is retained implicitly. ◻
 
 The next consequence recovers the length-deficit exponent from the spatial and polygon inputs alone. Proposition 2.4 gave the stronger bounded-factor estimate using the finite first-length and long-bridge estimates.
 
 **Corollary 5.6**. *The length deficit satisfies $q(t)=t^{-9/16+o(1)}$.*
 
-*Proof.* The upper bound is (R:geo:truncated-reward). For a lower bound fix $\eta>0$. On polygon diameters in $[r,r^{1+\eta}]$, the length-weighted mass is $r^{-2/3+o(1)}$. Lengths less than $r^{4/3-\eta}$ contribute at most $r^{-2/3-\eta+o(1)}$ by the unweighted tail. Lengths greater than $r^{4/3+2\eta}$ contribute at most $$r^{-4/3-2\eta}\sum_{D(P)\le r^{1+\eta}}|P|^2w(P)
+*Proof.* The upper bound is (14). For a lower bound fix $\eta>0$. On polygon diameters in $[r,r^{1+\eta}]$, the length-weighted mass is $r^{-2/3+o(1)}$. Lengths less than $r^{4/3-\eta}$ contribute at most $r^{-2/3-\eta+o(1)}$ by the unweighted tail. Lengths greater than $r^{4/3+2\eta}$ contribute at most $$r^{-4/3-2\eta}\sum_{D(P)\le r^{1+\eta}}|P|^2w(P)
        \le r^{-2/3-4\eta/3+o(1)}.$$ Thus the unweighted mass with both diameter and length in these windows is at least $r^{-2-2\eta+o(1)}$.
 
 Choose a symmetry-related row normal retaining a fixed fraction with vertical span comparable to diameter. A bounded hexagonal-face modification at its lowest and highest vertices turns the polygon into two disjoint bridges with adjacent ports at each end. Here is the local operation. In coordinates $P_{ij}=iu+jv$, $R_{ij}=P_{ij}+(u+v)/3$, with $u=(1,0)$ and $v=(1/2,\sqrt3/2)$, the neighbors of $P_{ij}$ are $R_{ij},R_{i-1,j},R_{i,j-1}$. A lowest polygon vertex is a $P$ and uses both ascending bonds. At the leftmost lowest such vertex, take the adjacent face below and to its right. Its overlap with the polygon is a path of one or two edges and includes every occupied vertex of that face. Symmetric difference replaces it by the complementary face path, creating a bounded exterior lower cap. The reflected operation creates the upper cap. Remove the two caps. Simplicity forces the remainder to be exactly two through bridges; otherwise one cap would bound a separate cycle. The faces are disjoint for large $r$, and length, diameter, and weight change by bounded amounts. Anchoring the lower left port, the cuts and caps recover the input with bounded multiplicity. This suffices for the mass lower bound, whether or not a tie convention makes the map injective.
@@ -483,11 +482,11 @@ These two applications keep their distinct normalizing masses. A bridge with ter
 
 *Proof.* For counts in $[k,2k)$, split each list into two groups of comparable size. If their total height is $h$, one group gains at least $h/2$, at cost $C\min(1,k h^{-3/4})$; the other matches the remaining height at cost $C(1+k)^{-4/3}$. There are $O(k)$ count choices. Thus counts at most $h^{3/4-\delta}$ have total mass at most $h^{-1/4-2\delta/3+o(1)}$, negligible compared with $B_h$. Bounded counts follow directly from the height tail. Counts exceeding $h^{3/4+\delta}$ have superpolynomially small mass by exponential Markov with $e^{-H/h}$.
 
-On the remaining counts, length at most $t=h^{4/3-\epsilon}$ costs at most $e\exp(-k q(t))$. Choose $\delta<9\epsilon/32$; the deficit estimate makes this superpolynomially small. For length greater than $t=h^{4/3+\epsilon}$, mark $1-e^{-L_i/t}$, whose sum is bounded below on that event. The other increments match height at cost $Ck^{-4/3}$. Summing marks and count choices gives $Ck^{2/3}q(t)$ in a dyadic bin. For sufficiently small $\delta$ this is $o(h^{-1/4})$. Finally $D\ge c h$ deterministically, and (R:geo:slab-input) gives $B_h[D>h^{1+\epsilon}]=o(B_h)$. Division by any retained fixed fraction of $B_h$ preserves every conclusion. ◻
+On the remaining counts, length at most $t=h^{4/3-\epsilon}$ costs at most $e\exp(-k q(t))$. Choose $\delta<9\epsilon/32$; the deficit estimate makes this superpolynomially small. For length greater than $t=h^{4/3+\epsilon}$, mark $1-e^{-L_i/t}$, whose sum is bounded below on that event. The other increments match height at cost $Ck^{-4/3}$. Summing marks and count choices gives $Ck^{2/3}q(t)$ in a dyadic bin. For sufficiently small $\delta$ this is $o(h^{-1/4})$. Finally $D\ge c h$ deterministically, and (6) gives $B_h[D>h^{1+\epsilon}]=o(B_h)$. Division by any retained fixed fraction of $B_h$ preserves every conclusion. ◻
 
 **Proposition 5.8**. *For the critical upper-half-plane law between two prescribed boundary ports at separation $r$, one has $L=r^{4/3+o(1)}$ and $D=r^{1+o(1)}$ in probability. Any restriction retaining a fixed positive fraction of the arch mass has the same exponents.*
 
-*Proof.* The denominator is $a_r\asymp r^{-5/4}$. First discard arches of height at most $r^{1-\epsilon}$. Glue two independent such arches, one reflected into the lower half-plane, to make a marked polygon. This squares their total mass, up to bounded weight factors. Choose a symmetry-related period of order $r^{1-\epsilon}$ whose vertical component exceeds the polygon’s span. Its projection is simple, and anchoring the first marked edge recovers the lift. The transverse span is of order at least $r$, because of the original boundary gap and the nonparallel period. The possible marks cost at most a length factor. The cylinder estimate (R:geo:cylinder-input), with arbitrarily large $M$, makes the squared mass and hence the mass itself smaller than every power of $r$.
+*Proof.* The denominator is $a_r\asymp r^{-5/4}$. First discard arches of height at most $r^{1-\epsilon}$. Glue two independent such arches, one reflected into the lower half-plane, to make a marked polygon. This squares their total mass, up to bounded weight factors. Choose a symmetry-related period of order $r^{1-\epsilon}$ whose vertical component exceeds the polygon’s span. Its projection is simple, and anchoring the first marked edge recovers the lift. The transverse span is of order at least $r$, because of the original boundary gap and the nonparallel period. The possible marks cost at most a length factor. The cylinder estimate (8), with arbitrarily large $M$, makes the squared mass and hence the mass itself smaller than every power of $r$.
 
 For every remaining arch perform only the upper extremal-face operation described in the proof of Corollary 5.6. Removing the new upper cap leaves two disjoint bridges from the original prescribed bottom ports to adjacent top ports. Weights and lengths change boundedly and the inverse multiplicity is bounded. At height $h\in[R,2R]$, Proposition 5.5 with the bottom test omitted gives $R^{-1/2+o(1)}p(f)$ for a mark on either path. Take $f=\min(1,H/R)$: its sum on either path is bounded below, while $p(f)\le CR^{-3/4}$. The total mass of the bin is therefore $R^{-5/4+o(1)}$. Summing $R>r^{1+\epsilon}$ is negligible relative to $a_r$.
 
@@ -513,16 +512,16 @@ Consider a chain of $m$ bridge nodes, each with at most two tested ends. A teste
  s_{ij}=\min(\kappa_i,\kappa_j).$$ The scales $R_i$ need not be comparable between different nodes.
 
 **Proposition 5.10** (Independent coordinates at a turn). *For every sufficiently small fixed $\eta>0$, the joint critical mass, including all actual count choices in the bins, is at most $$\begin{equation}
-\label{R:geo:chain-product}
+\tag{19}
  h^{C_1\eta(m+1)}\prod_i\frac{\kappa_i^2}{K_i}
                     \prod_{ij\text{ tested}}s_{ij}^{-1}
 \end{equation}$$ for $h$ sufficiently large depending on $\eta$. Constant factors per node are included in this bound.*
 
 *At each sufficiently large-count node, the proof leaves an independent group of at least $c k_i$ increments available for a concentration test. An interval of at most $a_i$ allowed total heights contributes $$\begin{equation}
-\label{R:geo:height-factor}
+\tag{20}
                     C\min(1,a_i\kappa_i^{-4/3}),
 \end{equation}$$ provided the interval is measurable outside that group, with any fixed external data allowed. A proved concentration bound for another additive statistic, such as length, may be used on this group instead. A different independent group supplies $$\begin{equation}
-\label{R:geo:short-factor}
+\tag{21}
                          C e^{-c k_i q(l)}
 \end{equation}$$ when the node’s total length is at most $l$.*
 
@@ -531,29 +530,29 @@ Consider a chain of $m$ bridge nodes, each with at most two tested ends. A teste
 *Proof.* Fix every actual count. At $e=ij$ put $d_e=\min(R_i,R_j)$ and $s_e=s_{ij}$. If $d_e$ is bounded in terms of $\eta$, drop this test at a bounded cost. Otherwise place more than $3/\eta$ consecutive thresholds within a small fixed fraction of $d_e$ from each incident end, with gaps at least $c_\eta d_e$. The counts to their first reaching renewals lie in $[1,C_0h]$. At some consecutive pair their ratio is at most $h^\eta$, since otherwise their product would exceed the count cap. Bin the lower crossing counts dyadically at $c_{i,e}$ and $c_{j,e}$, and put $c_e=\min(c_{i,e},c_{j,e})$.
 
 Once these labels are fixed, the first $\ell_e=\lfloor h^{-2\eta}c_e\rfloor$ slots at both ends are deterministic coordinate sets. On the actual event their heights are below the lower thresholds, and the actual disjoint paths extend them to a common cut within the tested range. Opposite-end histories are disjoint coordinate blocks: each uses a vanishing fraction of the node’s count. Lemma 5.4 supplies the independent cost $$\begin{equation}
-\label{R:geo:history-charge}
+\tag{22}
                         C_\eta h^{3\eta}/c_e.
 \end{equation}$$ This includes $\ell_e=0$. If $c_e\ge h^{-4\eta}s_e$, it already costs at most $C_\eta h^{7\eta}/s_e$.
 
 If $c_e<h^{-4\eta}s_e$, designate an incident node attaining this smaller bin. On it take the deterministic group of slots $$\ell_e+1,\ldots,\lceil2h^\eta c_e\rceil$$ read from that end. It contains the later threshold renewal, so its height sum is at least $c_\eta d_e$. It has at most $C c_eh^\eta\le C h^{-3\eta}s_e\le C h^{-3\eta}k_i$ slots. Call it a rapid group. Such groups are disjoint from the histories and from any opposite-end rapid group. The height tail and its truncated first moment imply $$\begin{equation}
-\label{R:geo:sum-tail}
+\tag{23}
  \Pr(H_1+\cdots+H_n\ge u)\le C\min(1,n u^{-3/4}).
-\end{equation}$$ The rapid group therefore costs at most $C_\eta c_eh^\eta/d_e^{3/4}\le C_\eta h^\eta c_e/s_e$. Multiplying by (R:geo:history-charge) pays $s_e^{-1}$. We now discard the original crossing-index restrictions: only necessary events on the deterministic independent coordinate blocks are retained.
+\end{equation}$$ The rapid group therefore costs at most $C_\eta c_eh^\eta/d_e^{3/4}\le C_\eta h^\eta c_e/s_e$. Multiplying by (22) pays $s_e^{-1}$. We now discard the original crossing-index restrictions: only necessary events on the deterministic independent coordinate blocks are retained.
 
 The histories removed at one node have total height less than a small fixed multiple of $R_i$. Their complement must gain at least $c_0R_i$. It consists of at most two rapid groups and the remaining slots. Partition those remaining slots into eight groups of nearly equal size. For sufficiently large fixed counts, each has order $k_i$ slots. Some one of these at most ten groups gains height at least $c'_0R_i$. Take a finite union over a label selecting that height-carrying group. *After* fixing the label, reserve three different free groups for count damping, concentration, and the length test. None is the height-carrying group.
 
-Write $b_i=\min(1,k_i/K_i)$. If a free group carries the height, (R:geo:sum-tail) charges it by $Cb_i$, independently of the rapid groups. If the carrier is the rapid group for $e$ on node $i$, charge its larger height directly at scale $R_i$. The cost $C_\eta c_eh^\eta/K_i$ supplies both required factors, because $$\begin{equation}
-\label{R:geo:shared-height-charge}
+Write $b_i=\min(1,k_i/K_i)$. If a free group carries the height, (23) charges it by $Cb_i$, independently of the rapid groups. If the carrier is the rapid group for $e$ on node $i$, charge its larger height directly at scale $R_i$. The cost $C_\eta c_eh^\eta/K_i$ supplies both required factors, because $$\begin{equation}
+\tag{24}
               c_e/K_i\le \min(1,k_i/K_i)c_e/s_e.
 \end{equation}$$ This follows from $s_e\le\kappa_i$ in either regime for $k_i/K_i$. The other rapid group, if any, remains independent. Also $d_e^{3/4}=\min(K_i,K_j)\ge s_e$; thus this calculation allows unrelated height scales.
 
-The reserved damping group has height at most $CR_i$. Exponential Markov and $1-p(e^{-H/R_i})\ge c/K_i$ give $C e^{-c k_i/K_i}$. All previously charged events use other slots. Conditional on coordinates outside the concentration group, its product law is unchanged. Lemma 5.2 bounds its height atom by $Ck_i^{-4/3}\le C\kappa_i^{-4/3}$, proving (R:geo:height-factor). The same statement holds with any proved concentration function for an additive statistic of these slots. On the separate length group, $$\Pr\{\textstyle\sum L_j\le l\}
+The reserved damping group has height at most $CR_i$. Exponential Markov and $1-p(e^{-H/R_i})\ge c/K_i$ give $C e^{-c k_i/K_i}$. All previously charged events use other slots. Conditional on coordinates outside the concentration group, its product law is unchanged. Lemma 5.2 bounds its height atom by $Ck_i^{-4/3}\le C\kappa_i^{-4/3}$, proving (20). The same statement holds with any proved concentration function for an additive statistic of these slots. On the separate length group, $$\Pr\{\textstyle\sum L_j\le l\}
        \le e(1-q(l))^{c k_i}\le C e^{-c k_i q(l)}.$$ These bounds multiply because their coordinate sets are disjoint. For several height constraints, condition outside all their groups, bound the joint atom by the product, and sum the allowed height vectors. Successive interval constraints follow by successive integration with the same uniform bounds.
 
-For bounded counts the incident turn factors are bounded. Drop them and apply (R:geo:sum-tail) to the whole list. The height factor is then bounded below by a positive constant, so its insertion changes only the constant; no large-count length test is needed. There are $O(k_i)$ actual counts at each node, and $$k_i\min(1,k_i/K_i)e^{-c k_i/K_i}\le C\kappa_i^2/K_i.$$ For $k_i\le K_i$ this is immediate; otherwise use $x e^{-cx}\le C$. Thresholds, crossing-count bins, height-carrier labels, and local records number at most $(C_\eta\log^C h)^{C(m+1)}$. These choices and the power losses above are at most $h^{C_1\eta(m+1)}$ for large $h$. This proves the proposition. ◻
+For bounded counts the incident turn factors are bounded. Drop them and apply (23) to the whole list. The height factor is then bounded below by a positive constant, so its insertion changes only the constant; no large-count length test is needed. There are $O(k_i)$ actual counts at each node, and $$k_i\min(1,k_i/K_i)e^{-c k_i/K_i}\le C\kappa_i^2/K_i.$$ For $k_i\le K_i$ this is immediate; otherwise use $x e^{-cx}\le C$. Thresholds, crossing-count bins, height-carrier labels, and local records number at most $(C_\eta\log^C h)^{C(m+1)}$. These choices and the power losses above are at most $h^{C_1\eta(m+1)}$ for large $h$. This proves the proposition. ◻
 
 **Corollary 5.11** (Two ends with a reserved height variable). *Suppose two bridges start at adjacent prescribed ports and stay disjoint through a fixed positive fraction of the smaller height. Their heights and counts lie in the independent bins above, all bounded by $CN^2$. For every $\epsilon>0$ their critical mass is at most $$\begin{equation}
-\label{R:geo:two-end-mass}
+\tag{25}
  C_\epsilon N^\epsilon F,\qquad
  F=\frac{\kappa_1^2\kappa_2^2}
               {K_1K_2\min(\kappa_1,\kappa_2)}.
@@ -563,14 +562,14 @@ For bounded counts the incident turn factors are bounded. Drop them and apply (R
 
 ### Absolute critical mass of unrestricted paths
 
-The preceding estimate pays for every turn in a chain. Many turns therefore make an ordered extremum decomposition inexpensive, even though we impose no length damping. This is the point at which the bridge-unfolding method of Hammersley and Welsh is useful [HammersleyWelsh1962, MadrasSlade1993].
+The preceding estimate pays for every turn in a chain. Many turns therefore make an ordered extremum decomposition inexpensive, even though we impose no length damping. This is the point at which the bridge-unfolding method of Hammersley and Welsh is useful [7, 14].
 
 **Proposition 5.12**. *Let $a_n$ be the total critical mass of plane walks with $n$ visited vertices, rooted at one specified vertex, or counted up to translations with both possible initial vertex types. For every $\delta>0$, $$a_n\le C_\delta e^{n^\delta}.$$ The same bound holds for the mass with length at most $n$. In the extremum decomposition below, a bounded number of specified pieces may be omitted and counted separately; all other pieces still cost at most $C_\delta e^{n^\delta}$, including their count, position, and local records.*
 
 *Proof.* Split a path at a global minimum of its height and read both parts outward from that minimum. In either part, end the first piece at the last maximum of the remaining path, the next at its last minimum, and continue. Each piece stays between its endpoint heights. The spans decrease strictly after a possible initial equality, since the selected extreme cannot occur again in the remaining path. Every honeycomb edge has nonzero vertical projection in these coordinates.
 
-In a dyadic span bin $[R,2R)$ there are at most $CR$ pieces in a chain. Convert their endpoints by Lemma 5.9. Test turns only between consecutive pieces in the same bin. An omitted piece splits that bin into runs; no test crosses an omission. At a run of $m$ pieces put $K=R^{3/4}$ and $x_i=\kappa_i/K\le1$, absorbing fixed comparability constants into the per-node constants. The product in (R:geo:chain-product), before its exponent loss, is $$\begin{equation}
-\label{R:geo:run-product}
+In a dyadic span bin $[R,2R)$ there are at most $CR$ pieces in a chain. Convert their endpoints by Lemma 5.9. Test turns only between consecutive pieces in the same bin. An omitted piece splits that bin into runs; no test crosses an omission. At a run of $m$ pieces put $K=R^{3/4}$ and $x_i=\kappa_i/K\le1$, absorbing fixed comparability constants into the per-node constants. The product in (19), before its exponent loss, is $$\begin{equation}
+\tag{26}
             Kx_1x_m\prod_{i<m}\max(x_i,x_{i+1}).
 \end{equation}$$ There are only $O(\log R)$ possible count bins per piece.
 
@@ -585,11 +584,11 @@ The bins occur in decreasing order. Multiplying over dyadic scales up to $Cn$ gi
 The total-count bound is deliberately weak. To suppress rapid travel we cut a tall bridge into pieces on one intermediate height scale. A single crossing permits exact height matching. A repeated crossing is replaced by a short reverse piece, whose two turns pay for the loss of that exact matching. This is why the height atom and the short-length test had to remain independent in Proposition 5.10.
 
 **Proposition 5.13** (Absolute fast-path estimate). *For each sufficiently small $\epsilon>0$ there are $c_\epsilon>0$ and $n_\epsilon$ such that, for $n\ge n_\epsilon$, $$\begin{equation}
-\label{R:geo:fast-absolute}
+\tag{27}
  \sum_{L(\gamma)=n,\ D(\gamma)\ge n^{3/4+\epsilon}}
                   \rho^{L(\gamma)}\le e^{-n^{c_\epsilon}}.
 \end{equation}$$ More precisely, uniformly for $d\ge n^{3/4+\epsilon}$, $$\begin{equation}
-\label{R:geo:fast-refined}
+\tag{28}
  \sum_{L(\gamma)=n,\ D(\gamma)\ge d}\rho^{L(\gamma)}
                   \le \exp(-c_\epsilon d/n^{3/4}).
 \end{equation}$$ Walks are rooted at one fixed vertex, or counted in the translation convention of Proposition 5.12. These are absolute masses before division by any finite or thermal partition.*
@@ -603,16 +602,16 @@ Figure 1 shows the local reason for the reverse piece: cutting only at the last
 **Figure 1:** A repeated crossing of a transverse cut in an upward run. The segment from the selected maximum $M$ to the following minimum $m$ is read downward; the neighboring pieces are read upward. The drawing is schematic and suppresses individual lattice edges. The drawdown bound controls the repair’s height, while the separated cut levels keep distinct repairs in ordered disjoint zones.
 
 Call the pieces in the original direction primary pieces. Their spans are between fixed positive multiples of $h$; repair spans are at most $Ch$. After the local port changes, test every turn with sufficiently large smaller span. If $P$ is the number of primary pieces, then $$\begin{equation}
-\label{R:geo:primary-count}
+\tag{29}
                          c d/h\le P\le Cn/h.
 \end{equation}$$ There are at most $P-1$ repairs, and the total modified length is at most $n+CP$.
 
 Apply Proposition 5.10 with $K=h^{3/4}$. Write a primary label as $\kappa_i=Kx_i$. A repair of height scale $a\le Ch$ has $K_{\rm rep}=a^{3/4}$; put $t=K_{\rm rep}/K$ and $y=\kappa_{\rm rep}/K\le t$. Fixed comparability constants can be absorbed into all bounds below, so the normalized labels are at most one. For a single-crossing cut without a repair use the formal values $a=K_{\rm rep}=\kappa_{\rm rep}=1$. This virtual node has unit mass and no avoidance test; its algebraic node and seam factors are also one, since every actual $\kappa_i\ge1$.
 
 At either kind of cut, smooth the height of the preceding primary piece. Its endpoint lies within $O(a)$ of the cut, where the cut level is specified relative to the run’s starting height by the discrete cut pattern. We claim that this supplies the factor $$\begin{equation}
-\label{R:geo:repair-smoothing}
+\tag{30}
                       C\min(1,(t/x_i)^{4/3}).
-\end{equation}$$ Bounded-count nodes use the bounded-factor height estimate in Proposition 5.10. At the other nodes, use this constraint only when $a\kappa_i^{-4/3}<1$, and fix all coordinates outside the selected reserved groups. Their height sums have a joint atom bound equal to the product of their individual bounds $C\kappa_i^{-4/3}$ from Proposition 5.10. The allowed height vectors can be counted in traversal order: once the earlier selected sums in the run are given, the current endpoint constraint allows at most $Ca$ values for the next sum. The run’s starting height cancels from this relative constraint. Thus the number of allowed vectors is at most the product of these $Ca$ factors. Multiplying by the joint atom bound, and dropping the constraints at the unselected nodes, proves the product of (R:geo:repair-smoothing), since $a\kappa_i^{-4/3}=(t/x_i)^{4/3}$. Each primary receives at most one factor. This count already includes its possible endpoint heights. The turn tests use only their separate history and rapid groups in adjacent-port coordinates; none fixes the displacement of a selected reserved group.
+\end{equation}$$ Bounded-count nodes use the bounded-factor height estimate in Proposition 5.10. At the other nodes, use this constraint only when $a\kappa_i^{-4/3}<1$, and fix all coordinates outside the selected reserved groups. Their height sums have a joint atom bound equal to the product of their individual bounds $C\kappa_i^{-4/3}$ from Proposition 5.10. The allowed height vectors can be counted in traversal order: once the earlier selected sums in the run are given, the current endpoint constraint allows at most $Ca$ values for the next sum. The run’s starting height cancels from this relative constraint. Thus the number of allowed vectors is at most the product of these $Ca$ factors. Multiplying by the joint atom bound, and dropping the constraints at the unselected nodes, proves the product of (30), since $a\kappa_i^{-4/3}=(t/x_i)^{4/3}$. Each primary receives at most one factor. This count already includes its possible endpoint heights. The turn tests use only their separate history and rapid groups in adjacent-port coordinates; none fixes the displacement of a selected reserved group.
 
 For completeness, the product calculation is as follows. A direct turn between primaries contributes $\max(x_i,x_{i+1})$ after the primary factors have been collected. A cut with a repair contributes $$Q=\frac{\max(x_i,y)\max(x_{i+1},y)}{t}
                     \min(1,(t/x_i)^{4/3})
@@ -620,12 +619,12 @@ For completeness, the product calculation is as follows. A direct turn between p
 
 Take $s'=\epsilon/2$ and $s=9\epsilon/64$. For small $\epsilon$ these choices satisfy $9s'/16>s$ and $$\frac{n}{h^{4/3-s'}}=o\bigl(n^{3/4+\epsilon}/h\bigr).$$ Set $l=h^{4/3-s'}$. Since the total length is at most $n+CP$, only $o(P)$ actual nodes have length greater than $l$. Designate a superset of these nodes; all possible designations cost at most $2^{2P}$. On every other actual node with normalized label at least $h^{-s}$, the separate short-length group supplies $$C e^{-c k_i q(l)}\le\exp(-h^{c_s}),$$ for some $c_s>0$: indeed $k_i\ge K h^{-s}$ and $K h^{-s}q(l)=h^{9s'/16-s+o(1)}$. Virtual and bounded one-row nodes have small labels.
 
-If a positive fraction of labels are large, this gives stronger than exponential decay in $P\log h$. Otherwise a positive fraction of the connections have all incident labels small. Each large or designated long node can spoil at most two such connections, so those connections supply $h^{-s}$ each. Choose $\eta$ sufficiently small after $s$. After summing all the records and designations, the contribution with $P$ primary pieces is at most $\exp(-cP\log h)$. Equation (R:geo:primary-count) gives the tall-bridge bound $$\begin{equation}
-\label{R:geo:tall-bridge}
+If a positive fraction of labels are large, this gives stronger than exponential decay in $P\log h$. Otherwise a positive fraction of the connections have all incident labels small. Each large or designated long node can spoil at most two such connections, so those connections supply $h^{-s}$ each. Choose $\eta$ sufficiently small after $s$. After summing all the records and designations, the contribution with $P$ primary pieces is at most $\exp(-cP\log h)$. Equation (29) gives the tall-bridge bound $$\begin{equation}
+\tag{31}
                   \exp(-c d\log h/h).
 \end{equation}$$ All constants are uniform for $d$ in the stated range.
 
-Finally take an unrestricted path of diameter at least $d$. One of the finitely many symmetry-related row normals has vertical span at least $c d$. In its extremum decomposition from Proposition 5.12, an initial piece on one of the two halves reaches the global maximum from the global minimum. Omit that piece and its neighboring turn tests. Its individual port conversion has length at most $n+O(1)$ and height at least $c'd$; its mass is bounded by (R:geo:tall-bridge). The remaining pieces, including their choices and records, cost at most $C_\delta e^{n^\delta}$ for every fixed $\delta>0$. Choose $\delta$ smaller than the power gain in $d/h\ge c n^{\epsilon+\gamma}$. That cost is absorbed by (R:geo:tall-bridge). This proves (R:geo:fast-absolute). It also proves the uniform bound (R:geo:fast-refined), since $h\le n^{3/4}$ and the absorbed exponent is a fixed fraction of $d\log h/h$. ◻
+Finally take an unrestricted path of diameter at least $d$. One of the finitely many symmetry-related row normals has vertical span at least $c d$. In its extremum decomposition from Proposition 5.12, an initial piece on one of the two halves reaches the global maximum from the global minimum. Omit that piece and its neighboring turn tests. Its individual port conversion has length at most $n+O(1)$ and height at least $c'd$; its mass is bounded by (31). The remaining pieces, including their choices and records, cost at most $C_\delta e^{n^\delta}$ for every fixed $\delta>0$. Choose $\delta$ smaller than the power gain in $d/h\ge c n^{\epsilon+\gamma}$. That cost is absorbed by (31). This proves (27). It also proves the uniform bound (28), since $h\le n^{3/4}$ and the absorbed exponent is a fixed fraction of $d\log h/h$. ◻
 
 ## From renewal pieces to the unrestricted thermal law
 
@@ -638,16 +637,16 @@ Let $N\ge2$, $z=\rho e^{-1/N}$, and write $w_z(\gamma)=z^{L(\gamma)}$ for vertex
 Fix a horizontal row normal. Height is measured in row units; Euclidean vertical distance is $d_0$ times height, where $d_0=\sqrt3/2$. Let $T,L,\Delta$ be the height, vertex length and diameter of an irreducible bridge. The critical probability law is $p$, and $$q_N=1-\mathbb E_p e^{-L/N}.$$ We use the following earlier conclusions of the geometric and irreducible analysis.
 
 1.  Let $B_h$ be the total *critical* mass $\sum\rho^{L(\gamma)}$ of strict bridges from one bottom port at exact height $h$, with terminal port summed. Then $$\begin{equation}
-    \label{eq:strip-input}
+    \tag{32}
      B_h\le C(1+h)^{-1/4},\qquad B_0=1,
      \qquad q_N=N^{-9/16+o(1)}.
     \end{equation}$$ The error in the last exponent is an ordinary deterministic asymptotic. It is sufficient here; no bounded-factor length estimate is needed for this thermal transfer.
 
 2.  Write $a_m$ for total critical vertex-weighted mass of plane walks of vertex length $m$, in the translation convention just specified. For every $\delta>0$, $$\begin{equation}
-    \label{eq:count-input}
+    \tag{33}
      a_m\le C_\delta\exp(m^\delta).
     \end{equation}$$ For every sufficiently small fixed $\eta>0$, there are $c_\eta>0$ and $m_\eta$ such that $$\begin{equation}
-    \label{eq:fast-input}
+    \tag{34}
      \sum_{\substack{L(\gamma)=m\\D(\gamma)>m^{3/4+\eta}}}
            \rho^m\le \exp(-m^{c_\eta})\qquad(m\ge m_\eta).
     \end{equation}$$ This is an *absolute critical mass* bound, before division by any probability denominator.
@@ -655,22 +654,22 @@ Fix a horizontal row normal. Height is measured in row units; Euclidean vertical
 3.  We use the two-bridge specialization of the preceding turning-chain estimate. Its exact content for this section is as follows. Consider two bridges with adjacent prescribed bottom ports which stay disjoint for a fixed positive fraction of the smaller height. Restrict each height to an interval $[cH_i,CH_i]$ and each irreducible count to a dyadic interval $[k_i,2k_i)$, for $i=1,2$, with fixed $c,C>0$. The two scales $H_1,H_2$ vary independently; they need not be comparable to each other. All heights and counts are at most a fixed multiple of $N^2$. Put $$K_i=H_i^{3/4},\qquad \kappa_i=\min(k_i,K_i),\qquad
      F=\frac{\kappa_1^2\kappa_2^2}
               {K_1K_2\min(\kappa_1,\kappa_2)}.$$ For every fixed $\varepsilon>0$, the critical mass in these bins, including the choices of the counts and the bounded endpoint modifications, is at most $C_\varepsilon N^\varepsilon F$. At each bridge with sufficiently large count, the proof reserves a group of irreducibles for a height-concentration test. At bounded counts the displayed height factor below is bounded below by a positive constant, so its inclusion only changes the overall constant. Suppose an interval of at most $C(1+r)$ allowed total heights on bridge $i$ is measurable with respect to the other bridge, the local records, any externally attached remainders fixed up to translation, and the increments of bridge $i$ outside this group. Imposing that interval changes the joint mass bound to $$\begin{equation}
-    \label{eq:two-node-input}
+    \tag{35}
      C_\varepsilon N^\varepsilon F
            \min\{1,(1+r)\kappa_i^{-4/3}\}.
     \end{equation}$$ The reserved group is unused by the avoidance and large-height estimates, and its horizontal displacement remains unconditioned and is summed over. The estimate is therefore a joint bound; it does not assert independence after conditioning a bridge on its total height. With a single nonempty bridge the corresponding factor is $\kappa_i^2/K_i$ and the same optional height factor is available. Bounded one-row pieces cost a constant and need no smoothing. There is no additional translation sum at a joining port.
 
-The third input is stronger than a product of unconditioned bridge masses. Its proof uses adjacent-prefix avoidance, height tails and a reserved height-concentration estimate. The bridge-mass and one-piece estimates in (eq:strip-input) follow from Theorem 2.1 and Proposition 2.4, respectively. In this section we use it only for two ends created at one minimum. The turning-chain estimate of Proposition 5.10, its two-end specialization in Corollary 5.11, and Propositions 5.12 and 5.13 provide this rule and the absolute count and fast-path bounds. Those arguments concern unnormalized masses and do not use the thermal conclusion. The later uniform-law transfer uses these estimates as well.
+The third input is stronger than a product of unconditioned bridge masses. Its proof uses adjacent-prefix avoidance, height tails and a reserved height-concentration estimate. The bridge-mass and one-piece estimates in (32) follow from Theorem 2.1 and Proposition 2.4, respectively. In this section we use it only for two ends created at one minimum. The turning-chain estimate of Proposition 5.10, its two-end specialization in Corollary 5.11, and Propositions 5.12 and 5.13 provide this rule and the absolute count and fast-path bounds. Those arguments concern unnormalized masses and do not use the thermal conclusion. The later uniform-law transfer uses these estimates as well.
 
 ### The terminal remainder and an exact cancellation
 
-A *half-plane end* begins at a prescribed bottom port, visits vertices strictly above its line and ends at an arbitrary vertex. Its last piece after the highest once-crossed positive row boundary is a half-plane end with no positive renewal boundary. If there is no such boundary, the whole end is the last piece. Let $U_N$ denote the sum of $z$-weights of these no-renewal ends, and let $H_N$ denote the sum over all half-plane ends. Both are finite by (eq:count-input); also $U_N\ge z$, from the end consisting of its first vertex.
+A *half-plane end* begins at a prescribed bottom port, visits vertices strictly above its line and ends at an arbitrary vertex. Its last piece after the highest once-crossed positive row boundary is a half-plane end with no positive renewal boundary. If there is no such boundary, the whole end is the last piece. Let $U_N$ denote the sum of $z$-weights of these no-renewal ends, and let $H_N$ denote the sum over all half-plane ends. Both are finite by (33); also $U_N\ge z$, from the end consisting of its first vertex.
 
 **Lemma 6.1** (Half-plane factorization). *With the conventions above, $$H_N=\frac{U_N}{q_N}.$$ If a particular ordered tuple of irreducibles has total vertex length $\ell$, the probability under the normalized half-plane $z$-law that it is the initial tuple equals $z^\ell$.*
 
 *Proof.* Factor at all once-crossed positive row boundaries. The factors before the last remainder are strict irreducible bridges, and this factorization is unique. Conversely, adjoining any finite list of irreducibles and a no-renewal end gives a half-plane end. The interiors of successive pieces lie in disjoint height slabs, and the remainder lies above the last joining line. Thus weights multiply and no avoidance correction is needed. A list of $j$ unspecified irreducibles has $z$-mass $(1-q_N)^j$, whence $$H_N=U_N\sum_{j\ge0}(1-q_N)^j=U_N/q_N.$$ For a prescribed tuple, all possible later pieces together form an arbitrary half-plane end. Its numerator is $z^\ell H_N$, and division by $H_N$ gives the claimed probability. ◻
 
-This is the same factorization that defines the infinite renewal law, with the honeycomb port convention supplying the adaptation of the finite-prefix argument in [Dyhr2011, Propositions 2.2–2.3]. For a fixed tuple, $z^\ell\to\rho^\ell$. Moreover the number of complete irreducibles has the geometric law $q_N(1-q_N)^j$, so it tends to infinity in probability. Hence the fugacity prefix law converges to independent critical irreducibles. This cancellation does not involve a local estimate at any prescribed total length. Theorem 8.1 uses this cancellation to prove the half-plane thermal length, spatial and positive-moment laws.
+This is the same factorization that defines the infinite renewal law, with the honeycomb port convention supplying the adaptation of the finite-prefix argument in [5, Propositions 2.2–2.3]. For a fixed tuple, $z^\ell\to\rho^\ell$. Moreover the number of complete irreducibles has the geometric law $q_N(1-q_N)^j$, so it tends to infinity in probability. Hence the fugacity prefix law converges to independent critical irreducibles. This cancellation does not involve a local estimate at any prescribed total length. Theorem 8.1 uses this cancellation to prove the half-plane thermal length, spatial and positive-moment laws.
 
 ### A recoverable lower bound for the plane partition function
 
@@ -703,9 +702,9 @@ If a minimum is an endpoint of type $P$, its incoming bottom port gives the one-
 
 First suppose there is one end. On the event $V\le r$, its last renewal is at height at most $C(1+r)$. After removing its no-renewal remainder and dropping the restriction on that remainder’s final vertex, the mass is at most $$C U_N\sum_{h\le C(1+r)}B_h
        \le C'(1+r)^{3/4}U_N
-       \le C''(1+r)^{3/4}U_N^2,$$ using (eq:strip-input) and $U_N\ge\rho/2$.
+       \le C''(1+r)^{3/4}U_N^2,$$ using (32) and $U_N\ge\rho/2$.
 
-Now suppose there are two ends. Remove their no-renewal remainders and fix those remainders up to translation. Their $z$-weights will be summed at the end. Discard all avoidance constraints involving a remainder and the remaining total-length restriction, but retain the resulting $O(N^2)$ cap on bridge heights and piece counts. Drop the bridge damping factors $e^{-L_i/N}\le1$, so their weights are critical and the third input applies. The remaining two bridges have adjacent starts. If both are nonempty, they remain disjoint throughout the common height range. Put their heights and counts into dyadic bins and use the input’s notation. If $a=\min(\kappa_1,\kappa_2)$ and $M=\max(\kappa_1,\kappa_2)$, then $K_i\ge\kappa_i$ gives $$F=\frac{\kappa_1^2\kappa_2^2}{K_1K_2a}\le M.$$ If $M$ is bounded by the fixed count threshold of Proposition 5.10, the bound without a concentration test is already $O_\varepsilon(N^\varepsilon)$ and suffices. Otherwise choose a bridge $i$ attaining $M$, with a fixed tie rule; its count is large enough to supply the reserved group. In the integration for (eq:two-node-input), fix the other bridge, the local records and the increments of bridge $i$ outside its reserved group; the two remainder shapes are already fixed. If $h_j$ is the other bridge’s height, the endpoint-height condition restricts the total height of bridge $i$ to $$[h_j+b-r-C_0,\ h_j+b+r+C_0],$$ where $C_0$ bounds the endpoint-height changes and $b$ is determined by the two remainder endpoint heights and the fixed local records. Subtracting the fixed height of the other increments gives an interval of the same size for the reserved group’s height. Its horizontal displacement is still summed over, so this is precisely the permitted concentration test. Thus (eq:two-node-input) bounds the mass in this pair of bins by $$C_\varepsilon N^\varepsilon M
+Now suppose there are two ends. Remove their no-renewal remainders and fix those remainders up to translation. Their $z$-weights will be summed at the end. Discard all avoidance constraints involving a remainder and the remaining total-length restriction, but retain the resulting $O(N^2)$ cap on bridge heights and piece counts. Drop the bridge damping factors $e^{-L_i/N}\le1$, so their weights are critical and the third input applies. The remaining two bridges have adjacent starts. If both are nonempty, they remain disjoint throughout the common height range. Put their heights and counts into dyadic bins and use the input’s notation. If $a=\min(\kappa_1,\kappa_2)$ and $M=\max(\kappa_1,\kappa_2)$, then $K_i\ge\kappa_i$ gives $$F=\frac{\kappa_1^2\kappa_2^2}{K_1K_2a}\le M.$$ If $M$ is bounded by the fixed count threshold of Proposition 5.10, the bound without a concentration test is already $O_\varepsilon(N^\varepsilon)$ and suffices. Otherwise choose a bridge $i$ attaining $M$, with a fixed tie rule; its count is large enough to supply the reserved group. In the integration for (35), fix the other bridge, the local records and the increments of bridge $i$ outside its reserved group; the two remainder shapes are already fixed. If $h_j$ is the other bridge’s height, the endpoint-height condition restricts the total height of bridge $i$ to $$[h_j+b-r-C_0,\ h_j+b+r+C_0],$$ where $C_0$ bounds the endpoint-height changes and $b$ is determined by the two remainder endpoint heights and the fixed local records. Subtracting the fixed height of the other increments gives an interval of the same size for the reserved group’s height. Its horizontal displacement is still summed over, so this is precisely the permitted concentration test. Thus (35) bounds the mass in this pair of bins by $$C_\varepsilon N^\varepsilon M
        \min\{1,(1+r)M^{-4/3}\}
        \le C_\varepsilon N^\varepsilon(1+r)^{3/4}.$$ The last inequality follows by considering $M\le(1+r)^{3/4}$ and its complement. If only one bridge is nonempty, its factor $\kappa^2/K\le\kappa$ gives the same estimate: bounded $\kappa$ needs no concentration test, and larger $\kappa$ permits the calculation above. If neither is nonempty, the mass is at most one before the remainder weights are restored.
 
@@ -718,8 +717,8 @@ Because $L\le N^2$, there are only $O((\log N)^4)$ pairs of height/count bins. C
  \mathbb E_N A^p=N^{3p/4+o(1)},\qquad
  \mathbb E_N D^p=N^{3p/4+o(1)}.$$*
 
-*Proof.* We use the equivalent vertex-weighted translation-class law. First record a consequence of (eq:count-input). For each $\epsilon>0$, $p\ge0$ and $B>0$, $$\begin{equation}
-\label{eq:damped-tail}
+*Proof.* We use the equivalent vertex-weighted translation-class law. First record a consequence of (33). For each $\epsilon>0$, $p\ge0$ and $B>0$, $$\begin{equation}
+\tag{36}
  \sum_{m>N^{1+\epsilon}}m^p a_m e^{-m/N}=O_{\epsilon,p,B}(N^{-B}).
 \end{equation}$$ Indeed choose $0<\delta<\epsilon/(1+\epsilon)$. Uniformly for $m\ge N^{1+\epsilon}$, one has $m^\delta\le m/(2N)$ for all large $N$. The summands are then at most $C_\delta m^p e^{-m/(2N)}$, whose sum has faster than polynomial decay. In particular, paths with $L>N^2$ have negligible absolute mass and negligible mass after multiplication by any fixed length power. Since Lemma 6.2 gives $Z_N\ge c/q_N$, this remains true after normalization.
 
@@ -727,12 +726,12 @@ Take $r=N^{3/4-\delta}$ with fixed $0<\delta<3/4$. Lemmas 6.2 and 6.3 give $$\
        \le C_\varepsilon N^\varepsilon q_N(1+r)^{3/4}
        =N^{\varepsilon-3\delta/4+o(1)}.$$ Choose $\varepsilon<3\delta/4$ and add the tail just discarded. It follows that $V\ge N^{3/4-\delta}$ with probability tending to one. After slightly decreasing the exponent tolerance to absorb $d_0$, the same lower bound holds for $A$.
 
-We next obtain the upper spatial estimate from the absolute fast-path bound. Fix $\xi>0$. Choose small positive $\epsilon,\eta$ such that $$(1+\epsilon)(3/4+\eta)<3/4+\xi.$$ For lengths $m\le N^{1/2}$, the deterministic estimate $D\le Cm$ already gives the desired upper bound for large $N$. For $N^{1/2}<m\le N^{1+\epsilon}$, any violation of $D\le N^{3/4+\xi}$ implies $D>m^{3/4+\eta}$. Summing (eq:fast-input) over this range gives a faster than polynomially small absolute mass. Lengths above $N^{1+\epsilon}$ are handled by (eq:damped-tail). Division by $Z_N$ proves the upper spatial assertion.
+We next obtain the upper spatial estimate from the absolute fast-path bound. Fix $\xi>0$. Choose small positive $\epsilon,\eta$ such that $$(1+\epsilon)(3/4+\eta)<3/4+\xi.$$ For lengths $m\le N^{1/2}$, the deterministic estimate $D\le Cm$ already gives the desired upper bound for large $N$. For $N^{1/2}<m\le N^{1+\epsilon}$, any violation of $D\le N^{3/4+\xi}$ implies $D>m^{3/4+\eta}$. Summing (34) over this range gives a faster than polynomially small absolute mass. Lengths above $N^{1+\epsilon}$ are handled by (36). Division by $Z_N$ proves the upper spatial assertion.
 
 The same argument gives the lower length estimate, rather than assuming it from the discount scale. Fix $0<\xi<1$, choose $\eta,\delta>0$ so small that $$(1-\xi)(3/4+\eta)<3/4-\delta,
- \qquad \delta<1/4.$$ On the typical event $A\ge N^{3/4-\delta}$, a walk of length $m\le N^{1/2}$ is impossible for large $N$. If instead $N^{1/2}<m<N^{1-\xi}$, that endpoint event forces $D>m^{3/4+\eta}$, up to fixed unit factors absorbed by the strict inequality above. The summed exceptional mass is again negligible by (eq:fast-input). Hence $L\ge N^{1-\xi}$ with high probability. The upper length bound follows from (eq:damped-tail). Larger tolerances follow from smaller ones.
+ \qquad \delta<1/4.$$ On the typical event $A\ge N^{3/4-\delta}$, a walk of length $m\le N^{1/2}$ is impossible for large $N$. If instead $N^{1/2}<m<N^{1-\xi}$, that endpoint event forces $D>m^{3/4+\eta}$, up to fixed unit factors absorbed by the strict inequality above. The summed exceptional mass is again negligible by (34). Hence $L\ge N^{1-\xi}$ with high probability. The upper length bound follows from (36). Larger tolerances follow from smaller ones.
 
-For moments, the lower probability estimates give the respective lower exponents. For the upper length moment, restrict to $L\le N^{1+\epsilon}$ and use (eq:damped-tail) on its complement: $$\mathbb E_N L^p\le N^{p(1+\epsilon)}+o(1).$$ For the spatial upper moments, repeat the fast-path split with the additional factor $D^p\le C_pL^p$. On the exceptional paths of polynomially large length, the factor is harmless in the sum of (eq:fast-input); on the damped long-length tail use (eq:damped-tail) with this $p$. The remaining paths obey $D\le N^{3/4+\xi}$, apart from the deterministic short-length class. Thus $$\mathbb E_N A^p\le\mathbb E_N D^p\le N^{p(3/4+\xi)}+o(1).$$ Let the positive slacks decrease to zero. This completes the proof. ◻
+For moments, the lower probability estimates give the respective lower exponents. For the upper length moment, restrict to $L\le N^{1+\epsilon}$ and use (36) on its complement: $$\mathbb E_N L^p\le N^{p(1+\epsilon)}+o(1).$$ For the spatial upper moments, repeat the fast-path split with the additional factor $D^p\le C_pL^p$. On the exceptional paths of polynomially large length, the factor is harmless in the sum of (34); on the damped long-length tail use (36) with this $p$. The remaining paths obey $D\le N^{3/4+\xi}$, apart from the deterministic short-length class. Thus $$\mathbb E_N A^p\le\mathbb E_N D^p\le N^{p(3/4+\xi)}+o(1).$$ Let the positive slacks decrease to zero. This completes the proof. ◻
 
 The proof used the same irreducible law as exact-length conditioning, but a different denominator. It required no estimate of $U_N$, no local renewal mass at length $N$, and no inversion of a density-one statement. The part shared with exact conditioning is the renewal model and its increment estimates; the geometric recovery and two-end smoothing are the additional work needed for the unrestricted thermal law.
 
@@ -748,7 +747,7 @@ The absolute estimate supplied by this route is the following. It will control u
 
 **Theorem 7.1** (Absolute suppression of rapid travel). *For every fixed sufficiently small $\xi>0$ there are $c,C>0$ such that the unnormalized critical mass of all plane self-avoiding walks rooted at a fixed center obeys $$\begin{equation}
  \sum_{R\le {\rm diam}\,\omega\le 2R,\ |\omega|\le R^{d_*-\xi}}\mu(\omega)
-       \ \le\ C\exp(-R^c).                                                   \label{R:cal:fast-mass}
+       \ \le\ C\exp(-R^c).                                                   \tag{37}
 \end{equation}$$*
 
 Here $|\omega|$ counts centers; changing to edge count changes the weight by a fixed factor. The proof will follow the survival and kernel estimates below. We first record the finite geometric inputs and their concentration consequences. We will only need sufficiently large length/distance parameters; all constants below may change by fixed geometric/unit factors.
@@ -757,12 +756,12 @@ Keep horizontal integral levels $y$. We use $B_m\asymp (1+m)^{-\vartheta}$, the 
 
 ##### Angular growth and finite chord moments.
 
-The finite calibrated input also supplies angular growth [compL, Section 11, Recoverable half-plane growth]. For two signed lattice normals making angle $\pi/3$, fix a sufficiently small relative transverse tolerance $\gamma>0$. There are positive constants $r_\gamma,K_\gamma,c_\gamma,C_\gamma,C_{1,\gamma}$ such that, for $r\ge r_\gamma$ and each admissible grid target $S\ge K_\gamma r$, the construction starts with prefixes at scale $r$ from the fixed source port on the first wall and continues them to the exact wall of the second normal at distance $S$, with terminal port free. All centers stay in the first open half-plane and strictly before the target wall; the mass is at least $c_\gamma S^{-1/4}(S/r)^{-C_{1,\gamma}}$ and the diameter at most $C_\gamma S$. During continuation the transverse distance from the second-normal ray through the selected prefix endpoint is at most $\gamma u$, where $u$ is the second-normal level measured from the original source. The joining cuts are recovered as the first qualifying singly crossed walls. The finite flux identity applies on the simple polygonal domains used below; its coefficient at an exit is the real part of $\exp(i(3/8)\,\mathrm{turn})$, after a fixed common phase rotation if needed.
+The finite calibrated input also supplies angular growth [18, Section 11, Recoverable half-plane growth]. For two signed lattice normals making angle $\pi/3$, fix a sufficiently small relative transverse tolerance $\gamma>0$. There are positive constants $r_\gamma,K_\gamma,c_\gamma,C_\gamma,C_{1,\gamma}$ such that, for $r\ge r_\gamma$ and each admissible grid target $S\ge K_\gamma r$, the construction starts with prefixes at scale $r$ from the fixed source port on the first wall and continues them to the exact wall of the second normal at distance $S$, with terminal port free. All centers stay in the first open half-plane and strictly before the target wall; the mass is at least $c_\gamma S^{-1/4}(S/r)^{-C_{1,\gamma}}$ and the diameter at most $C_\gamma S$. During continuation the transverse distance from the second-normal ray through the selected prefix endpoint is at most $\gamma u$, where $u$ is the second-normal level measured from the original source. The joining cuts are recovered as the first qualifying singly crossed walls. The finite flux identity applies on the simple polygonal domains used below; its coefficient at an exit is the real part of $\exp(i(3/8)\,\mathrm{turn})$, after a fixed common phase rotation if needed.
 
-Finally, the finite visit identity and planar nesting bound give [compL, Proposition 11.1] $$\begin{equation}
+Finally, the finite visit identity and planar nesting bound give [18, Proposition 11.1] $$\begin{equation}
  \sum_{\substack{\omega\text{ a boundary chord in }Q_R}}
        \rho^{L(\omega)}L(\omega)\le C R^{25/12},
- \label{R:cal:box-moment}
+ \tag{38}
 \end{equation}$$ where $Q_R$ is a convex lattice domain with boundedly many sides and diameter $O(R)$, and both boundary ports are summed. Averaging over order-$R$ translates of a fixed boundary source gives the $CR^{13/12}$ bound used below for paths of diameter at most $R$. Using a growing diameter cutoff may add logarithmic factors; it does not produce an unrestricted bounded-factor first bridge moment.
 
 ##### Concentration of independent increments.
@@ -792,7 +791,7 @@ Let $\phi(t)=\mathbb E e^{it\cdot(H,X)}$. For small $t\ne0$ use the last annulus
        \ge c|t|^a.$$ The random vector $(H,2X)$ lies in $\mathbb Z^2$. Its support differences have rank two: otherwise a nonzero projection would be constant, contrary to the directional annuli. A rank-two subgroup of $\mathbb Z^2$ has finite index. Hence on the Fourier torus $|\phi|=1$ at finitely many points. At each such point all support phases agree, so the modulus nearby is a translate of the modulus at zero; on the compact complement it is uniformly less than one. Fourier inversion thus bounds every atom by a constant times $$\int_{\mathbb R^2}e^{-ck|t|^a}\,dt=C'k^{-2/a}.$$ The one-dimensional argument for $H$, allowing its own finite set of peaks, gives $Ck^{-1/a}$. No conditioning on the length of any irreducible has been used. ◻
 
 **Lemma 7.3** (Short bridges at a specified height). *For fixed small $\delta>0$, some $v_0,\sigma_0>0$ give uniformly for $S^{1-v_0}/2\le m\le C S$, $$\begin{equation}
- B_m\big(|\omega|\le S^{d_*-\delta}\big)\le C m^{-\vartheta} S^{-\sigma_0}.          \label{R:cal:short-height}
+ B_m\big(|\omega|\le S^{d_*-\delta}\big)\le C m^{-\vartheta} S^{-\sigma_0}.          \tag{39}
 \end{equation}$$*
 
 *Proof.* Here and below $B_m(\cdot)$ denotes restricted bridge mass. First sum over counts $k>m^{a-\theta}$. Exponential damping in length bounds the short-length event by $$p\{S_L(k)\le S^{d_*-\delta}\}
@@ -805,7 +804,7 @@ For $k\le m^{a-\theta}$, put $t_0=m^{1-z}$ with $0<z\ll\theta$. If all height ju
 ### Two censored arms
 
 **Lemma 7.4** (Censored two-arm survival). *Start two independent sequences of irreducibles from the same bottom port $p$ with first center $v$. On each keep its history of completed pieces up to heights **strictly less** than $g$, not including the first jump reaching or passing $g$. Fix roles left, right. Impose the following constraints whenever $0<d_1<d_2<g$ are cut heights in the left, right history respectively. The prefixes to them, apart from the shared start through $v$, must go disjointly (leaving $v$ on the two respective sides). At level $d_1$ all crossings of the right prefix must be to the right of $x_1$, the terminal horizontal coordinate of the left prefix. Write $f(g)$ for the probability of these constraints. Then for each $\eta>0$ $$\begin{equation}
- f(g)\le C_\eta (1+g)^{-a+\eta}.                                             \label{R:cal:survival-bound}
+ f(g)\le C_\eta (1+g)^{-a+\eta}.                                             \tag{40}
 \end{equation}$$*
 
 **Figure 3:** The two histories share their first center $v$. Only complete irreducibles ending strictly below $g$ are retained; the dashed continuations are the omitted crossing pieces. At a tested left renewal level $d_1$, all crossings of the right prefix ending at a higher tested level $d_2$ must lie right of $x_1$. The paths are schematic, rather than lattice embeddings.
@@ -819,7 +818,7 @@ Put $s=g$ large. Fix constants $0<\ell\ll\lambda\ll b\ll\kappa_0\ll1$, in partic
 ##### Separated tests and positive flux.
 
 Call a test separated if these normality, diameter and two-prefix constraints hold and the horizontal clearance between $x_1$ and the leftmost right-prefix crossing at $d_1$ is at least $\chi d_2$, where $\chi=s^{-\kappa_0}$. Unconditionally, its probability is at most $$\begin{equation}
- C r_j^{-a}s^{\kappa_0+a\lambda}(1+\log s)^C.                               \label{R:cal:separated-test}
+ C r_j^{-a}s^{\kappa_0+a\lambda}(1+\log s)^C.                               \tag{41}
 \end{equation}$$ Here are the gluing details. Sort $d_2$ into dyadic bins $d_2\asymp H$. Translate both paths together so the line at $d_1$ becomes $y=0$, and a lattice corner chosen strictly in the clearance gap becomes the origin; this allows at least $c\chi H$ placements per input. The top line is now $y=\Delta=d_2-d_1\asymp H$. Work inside a parallelogram of triangles with this top, bottom at $-C H$ (rounded outward), and slant side walls allowing all paths by width $O(H\log^2 s)$ with ample margin. Slit it along $y=0$ from its left wall to the origin (split the corresponding ports into two boundary copies). Joining the prefixes at $v$, removing the common initial half-edge, gives a simple chordal arc from a top wall port to the lower lip of the slit. It has no other boundary contact. To mark the choice of $v$ among deepest vertices, use the hexagonal face centered at the bottom-left corner of $v$’s triangle. Its only vertices at height $\ge y(v)$ are $v$, a second minimum-height candidate at its left, and their common higher neighbor. The edge from $v$ to that neighbor is used; if the second candidate is visited it must also use its edge to the same neighbor (minimum height and not an endpoint). Thus exactly a contiguous one- or two-edge arc of the face is present. Replace by the complementary face arc, giving a unique deepest vertex and hence identifying the face. This lies far from the domain boundaries. The change and joining have bounded weight costs. Inverse multiplicity is bounded since we can undo at that face and recover both original prefixes by translating $v$ back (and the slit placement is determined).
 
 Figure 4 shows the resulting domain and the clipping operation used in the flux comparison.
@@ -830,7 +829,7 @@ From each fixed top source, the mass in this slit domain of arcs as produced is 
 
 More explicitly, the finite extension identity sums with the slit adjacencies forbidden (detour reversals valid since the source on the top is approached from outside any such cycle); slit ends of half-edges are boundary terms. For the simple arc turn calculation one can thicken the slit by an arbitrarily narrow indentation, trimming terminal half-edges at lip ports slightly if needed: other arc edges stay off the slit, including its corners, and the lifts at source and exit are as stated. Thus this also follows by closing in a simple boundary polygon.
 
-Positive lost mass is bounded by the new exits’ mass, and those exits are a subset of strict downward bridges of height $\Delta+1$. This proves the claim. Summing over $O(H\log^2 s)$ top ports and $O(H)$ choices of $\Delta$, and dividing by placements, gives $O(\chi^{-1}H^a\log^2 s)$ cumulative input mass. The probability of each prefix pair at the test has, besides its bridge mass, index factors at most $C r_j^{-a}(r_j s^b)^{-a}$ by uniform sampling (piece counts uniquely specified). Since $H\le C r_j s^{b+\lambda}$, this gives (R:cal:separated-test).
+Positive lost mass is bounded by the new exits’ mass, and those exits are a subset of strict downward bridges of height $\Delta+1$. This proves the claim. Summing over $O(H\log^2 s)$ top ports and $O(H)$ choices of $\Delta$, and dividing by placements, gives $O(\chi^{-1}H^a\log^2 s)$ cumulative input mass. The probability of each prefix pair at the test has, besides its bridge mass, index factors at most $C r_j^{-a}(r_j s^b)^{-a}$ by uniform sampling (piece counts uniquely specified). Since $H\le C r_j s^{b+\lambda}$, this gives (41).
 
 ##### Fresh blocks after a candidate last separated test.
 
@@ -850,7 +849,7 @@ To estimate a proximity test, fix the entire relevant right sequence and all ear
 
 ##### Combining the two estimates.
 
-Every surviving pair has either a last separated test or none. For a candidate $p_0\ge0$, multiply its unconditional bound (R:cal:separated-test) by the uniform fresh-block bound just proved. For no separated test use that bound with $p_0=-1$. Summing over the finitely many candidates gives $$\begin{aligned}
+Every surviving pair has either a last separated test or none. For a candidate $p_0\ge0$, multiply its unconditional bound (41) by the uniform fresh-block bound just proved. For no separated test use that bound with $p_0=-1$. Summing over the finitely many candidates gives $$\begin{aligned}
  f(s)
  &\le C_J s^{-a\ell(J+1)}
    +C_J\sum_{p_0=0}^J
@@ -858,7 +857,7 @@ Every surviving pair has either a last separated test or none. For a candidate $
        s^{-a\ell(J-p_0)}
    +s^{-M}\\
  &\le s^{-a+O(\kappa_0)+o(1)}.
-\end{aligned}$$ Here $M$ can be arbitrarily large, accounting for the discarded cases. Choose $\kappa_0$ and then the smaller parameters so that the exponent loss is less than the prescribed $\eta$. Enlarging the constant covers bounded $s$ and proves (R:cal:survival-bound). ◻
+\end{aligned}$$ Here $M$ can be arbitrarily large, accounting for the discarded cases. Choose $\kappa_0$ and then the smaller parameters so that the exponent loss is less than the prescribed $\eta$. Enlarging the constant covers bounded $s$ and proves (40). ◻
 
 ### Summing the cores between censored ends
 
@@ -894,17 +893,17 @@ For a chain of pieces take the product reference measure $\mathsf P$ of all its 
           \,d\mathsf P(\boldsymbol\xi),$$ where $\mathcal A$ denotes the retained height constraints. If the bracket is at most $C_*$ uniformly in the histories, this is at most $$C_*\prod_v f(g_v).$$ Thus the order is: fix the histories, sum the kernels over fine heights, and only then integrate the independent turn indicators. The physical weighted bridge family itself is not asserted to have independent ends. Both the volume bound below and the insertion-label argument use this rule; the latter needs only its one-ended version.
 
 **Proposition 7.5** (Critical mass in a bounded region). *Let $V_R$ denote the mass of all center walks from a fixed center with diameter at most $R$. We have for every $\nu>0$ $$\begin{equation}
- V_R\le \exp(C_\nu(1+R)^\nu).                                                \label{R:cal:volume-bound}
+ V_R\le \exp(C_\nu(1+R)^\nu).                                                \tag{42}
 \end{equation}$$*
 
 *Proof.* Split at a lowest point (polynomial placement cost), then decompose each direction into weak bridges by repeatedly cutting at the last occurrence of the opposite extremum of the remaining path. On each chain spans are decreasing, strictly except possibly the second equal to the first. Group consecutive spans in dyads $[s,2s)$. In such a group of size $k$, $1\le k\le C s$, only impose shared-turn constraints *within* the group. Strict heights $h\asymp s$ there differ only boundedly from the weak spans. Assume $s$ large (bounded small dyads cost a constant by the ordinary bridge bounds); take common threshold $g=\max(1,\lfloor c_*s/k\rfloor)\asymp s/k$ for small fixed $c_*$.
 
-Call a piece exceptional in this sum if the threshold jumps coincide or are distinct with middle height $m<g$. Its kernel summed over the height dyad costs at most $C s^a k^{-2a}$. Indeed the coincident case uses the tail at $h-b-d\gtrsim s$ summed at distinct heights, and the two $T$ factors. In the other case one jump is of order $s$, giving conditional probability $\le C(g/s)^a$; sum also $\sum_{m<g}B_m\le Cg^a$. For ordinary pieces ($m\ge g$) the kernel per fixed $h$ costs $\le C s^{-\vartheta}$: for $m\asymp s$ this is direct, for $m$ smaller use $B_m\le C g^{-\vartheta}$ and the large jump factor $(g/s)^a$ again. For $t=k-r$ ordinary pieces with $r$ exceptional, we retain height ordering constraints among just the ordinary ones, giving at most $C^k s^t/t!$ ordinary lists (original spans are ordered on the discrete grid, $t\le Cs$, and bounded perturbations cost boundedly per piece). Exceptional heights sum without ordering. Multiply now by $k-1$ pair factors (R:cal:survival-bound). Uniformly from the fixed group start the total, absorbing subset choices, is at most $$C_\eta^k s^{ak}\, k^{-2ar}(t!)^{-1}\,(s/k)^{(-a+\eta)(k-1)}
-       \le s^a\big(C'_\eta s^\eta/k^\vartheta\big)^k ,$$ with the last bound also covering the sum over types ($1/t!\le \exp(k)/k^t,\ 2a>1$). Summing $k$ and multiplying over $O(1+\log R)$ dyads on each chain proves (R:cal:volume-bound), taking $\eta$ sufficiently small depending on $\nu$ (terms with $k$ above a constant times $s^{2\eta/\vartheta}$ already decay). We overcount freely between groups/chains. ◻
+Call a piece exceptional in this sum if the threshold jumps coincide or are distinct with middle height $m<g$. Its kernel summed over the height dyad costs at most $C s^a k^{-2a}$. Indeed the coincident case uses the tail at $h-b-d\gtrsim s$ summed at distinct heights, and the two $T$ factors. In the other case one jump is of order $s$, giving conditional probability $\le C(g/s)^a$; sum also $\sum_{m<g}B_m\le Cg^a$. For ordinary pieces ($m\ge g$) the kernel per fixed $h$ costs $\le C s^{-\vartheta}$: for $m\asymp s$ this is direct, for $m$ smaller use $B_m\le C g^{-\vartheta}$ and the large jump factor $(g/s)^a$ again. For $t=k-r$ ordinary pieces with $r$ exceptional, we retain height ordering constraints among just the ordinary ones, giving at most $C^k s^t/t!$ ordinary lists (original spans are ordered on the discrete grid, $t\le Cs$, and bounded perturbations cost boundedly per piece). Exceptional heights sum without ordering. Multiply now by $k-1$ pair factors (40). Uniformly from the fixed group start the total, absorbing subset choices, is at most $$C_\eta^k s^{ak}\, k^{-2ar}(t!)^{-1}\,(s/k)^{(-a+\eta)(k-1)}
+       \le s^a\big(C'_\eta s^\eta/k^\vartheta\big)^k ,$$ with the last bound also covering the sum over types ($1/t!\le \exp(k)/k^t,\ 2a>1$). Summing $k$ and multiplying over $O(1+\log R)$ dyads on each chain proves (42), taking $\eta$ sufficiently small depending on $\nu$ (terms with $k$ above a constant times $s^{2\eta/\vartheta}$ already decay). We overcount freely between groups/chains. ◻
 
 ### Subdivision for fast crossings
 
-*Proof of Theorem 7.1.* An input of (R:cal:fast-mass) contains a weak bridge between a minimum and maximum in some signed normal direction of span $H\asymp R$, since the three lattice directions control diameter; take the sign so it is oriented from low to high. We call this coordinate $y$ again. The exterior pieces cost at most $V_{2R}^2$ up to constants; it suffices to estimate such weak bridges from their fixed first vertex. Pay $O(R)$ for specifying the last height and normalize the first height by translation.
+*Proof of Theorem 7.1.* An input of (37) contains a weak bridge between a minimum and maximum in some signed normal direction of span $H\asymp R$, since the three lattice directions control diameter; take the sign so it is oriented from low to high. We call this coordinate $y$ again. The exterior pieces cost at most $V_{2R}^2$ up to constants; it suffices to estimate such weak bridges from their fixed first vertex. Pay $O(R)$ for specifying the last height and normalize the first height by translation.
 
 Take $\delta=\xi/2$, small $0<\sigma\ll\xi$, integer $S\asymp R^{1-\sigma}$, so $R^{d_*-\xi}=o(S^{d_*-\delta})$. First divide the bridge into swings with drawdown/up threshold $s_0=S/10$. Track running maxima from the beginning; on first detecting a fall by at least $s_0$ from one, mark the last corresponding peak before detection and switch to tracking running minima starting at detection, with next switch symmetrically after a rise, marking the trough, and so on. Use the marked extrema (not the detection points) and the two endpoints to cut. Every resulting swing is a weak bridge of span $\ge s_0$, with adverse increments between any earlier and later point of that swing strictly less than $s_0$. Indeed, e.g. on an upswing the initial trough-to-rise-detection part lies above the trough, and strictly within $s_0$ above it before detection. From detection to the peak the running maximum rule gives the bounds; all heights stay above the trough and at most the peak on both parts. The reversed argument works going down, and the global endpoint extrema handle first/last swings (after detecting a fall there must still be a rise by threshold before or at the terminal maximum). Without any switch the span itself is $H$.
 
@@ -920,16 +919,16 @@ Use strict virtual pieces with the bounded endpoint extensions described above. 
 
 Coarse coordinates cost boundedly many choices per piece from those before, since increments are $O(S)$. We can include any finite endpoint/port adjustment types as labels. Thus each virtual boundary height $w_j$ still to sum ranges over $O(D_j)$ possibilities (already fixed at external endpoints and single cuts), and for fixed next $w_{j+1}$ has bounded multiplicity per intervening strict-piece height $h$, their signed difference. We restrict $h\asymp P$, where $P=S$ on main pieces, $P=D_j=D_{j+1}$ on inserts; other fine height ordering restrictions will not be needed. Every strict piece length is $\le S^{d_*-\delta}$ by the global input bound, including its bounded adjustments.
 
-Use (R:cal:short-height), and fix $0<u\ll v\ll \min(v_0,\sigma_0)$. Call a boundary active if $D_j\ge S^{1-v}$. At scale $D'=D_j$ take the threshold $$g(D')=\max(1,\lfloor c_*D'S^{-u\,{\bf1}_{\rm active}}\rfloor)$$ for small fixed $c_*$. Since each endpoint scale is $O(P)$ this ensures $h-b-d\asymp P$ at the censored kernel, and pair tests at turns are either vacuous or well below the adjacent far adjustments. Write $F(D')=C_\eta g(D')^{-a+\eta}$ as a pair bound, or $1$ at unpaired boundaries with $D'=1$.
+Use (39), and fix $0<u\ll v\ll \min(v_0,\sigma_0)$. Call a boundary active if $D_j\ge S^{1-v}$. At scale $D'=D_j$ take the threshold $$g(D')=\max(1,\lfloor c_*D'S^{-u\,{\bf1}_{\rm active}}\rfloor)$$ for small fixed $c_*$. Since each endpoint scale is $O(P)$ this ensures $h-b-d\asymp P$ at the censored kernel, and pair tests at turns are either vacuous or well below the adjacent far adjustments. Write $F(D')=C_\eta g(D')^{-a+\eta}$ as a pair bound, or $1$ at unpaired boundaries with $D'=1$.
 
 The subdivision has reduced rapid travel to many main pieces of scale $S$. It remains to extract a power saving from each such piece without spending the same independent end history twice.
 
 We sum each kernel over its *left* boundary height at fixed right height and histories from both ends (left/right here meaning first/last in traversal). Include in its numerical budget also the factor $F(D_L)$ at the first boundary of that piece. We claim a bound $S^{-c_1}$ for this product on main pieces and active-scale inserts, for some $c_1>0$ uniformly at all sufficiently small $\eta$; on inactive-scale inserts at most $C_\eta S^{2\eta}$ suffices.
 
 Indeed in the coincident-jump case the summed kernel is at most $C g_L^a g_R^a P^{-a}$, using bounded multiplicity per height. With $F(D_L)$ this leaves $O_\eta(S^\eta (g_R/P)^a)$, giving the claim (on main pieces $g_R/P\le C\max(S^{-v},S^{-u})$, and on active inserts $\le CS^{-u}$). In the distinct case sort $1+m$ in dyads of scale $M$. For fixed crossing increments each $m$ can occur boundedly often as the left height varies, with $O(D_L)$ possible heights total. Thus by $B_m\le C M^{-\vartheta}$ we have kernel bound $$C\min(D_L M^{-\vartheta},M^a)
-   = C D_L^a\min((D_L/M)^\vartheta,(M/D_L)^a).$$ Here $D_L^a F(D_L)\le C_\eta S^\eta$ times $S^{a u}$ if active. When $M\ge S^{1-v_0}$ (R:cal:short-height) allows multiplying by $S^{-\sigma_0}$, enough. For smaller $M$ on a main piece or active insert, there must be a giant crossing jump $y_i\ge cP$ on some side $G$. Accordingly we can multiply the bound, after splitting into the two possible sides, by $C (g_G/P)^a$ by its conditional tail. On a main piece this saves $S^{-av}$ if $G$ inactive, otherwise $S^{-au}$; on an active insert (both sides active) also $S^{-au}$. In the latter savings cases, if left itself is active and pays $S^{au}$, the factor $(M/D_L)^a\le S^{-a(v_0-v)}$ supplies the gain. Inactive inserts just use the unconstrained dyad estimate with both boundary scales inactive. For clarity, all these cases have a common strictly positive saving before the small $\eta$ loss: $$\Lambda=\min\{au,\ a(v-u),\ a(v_0-v),\ \sigma_0-au\}>0.$$ Every dyad on a main piece or active insert costs at most $C_\eta S^{\eta-\Lambda}$. Choose $\eta$ sufficiently small, then sum $O(\log S)$ dyads. This proves the claimed negative power; inactive inserts cost at most $C_\eta S^{2\eta}$.
+   = C D_L^a\min((D_L/M)^\vartheta,(M/D_L)^a).$$ Here $D_L^a F(D_L)\le C_\eta S^\eta$ times $S^{a u}$ if active. When $M\ge S^{1-v_0}$ (39) allows multiplying by $S^{-\sigma_0}$, enough. For smaller $M$ on a main piece or active insert, there must be a giant crossing jump $y_i\ge cP$ on some side $G$. Accordingly we can multiply the bound, after splitting into the two possible sides, by $C (g_G/P)^a$ by its conditional tail. On a main piece this saves $S^{-av}$ if $G$ inactive, otherwise $S^{-au}$; on an active insert (both sides active) also $S^{-au}$. In the latter savings cases, if left itself is active and pays $S^{au}$, the factor $(M/D_L)^a\le S^{-a(v_0-v)}$ supplies the gain. Inactive inserts just use the unconstrained dyad estimate with both boundary scales inactive. For clarity, all these cases have a common strictly positive saving before the small $\eta$ loss: $$\Lambda=\min\{au,\ a(v-u),\ a(v_0-v),\ \sigma_0-au\}>0.$$ Every dyad on a main piece or active insert costs at most $C_\eta S^{\eta-\Lambda}$. Choose $\eta$ sufficiently small, then sum $O(\log S)$ dyads. This proves the claimed negative power; inactive inserts cost at most $C_\eta S^{2\eta}$.
 
-To combine, first hold all histories fixed and sum out the fine variables in sequence from first to last using the uniform summed-kernel bounds (the last height fixed). Applying the pair constraints (R:cal:survival-bound) in the product of censored-history probabilities contributes exactly the indicated upper costs allocated to the left boundaries. Taking $\eta$ small, all labeling costs, inactive inserts, and endpoint weight factors are absorbed: the resulting weak-bridge sum is at most $R^{O(1)}\sum_{k\ge cH/S} S^{-c_2 k}$ for some $c_2>0$. This is stretched-exponentially small; (R:cal:volume-bound) at the two exterior pieces preserves this, proving (R:cal:fast-mass). ◻
+To combine, first hold all histories fixed and sum out the fine variables in sequence from first to last using the uniform summed-kernel bounds (the last height fixed). Applying the pair constraints (40) in the product of censored-history probabilities contributes exactly the indicated upper costs allocated to the left boundaries. Taking $\eta$ small, all labeling costs, inactive inserts, and endpoint weight factors are absorbed: the resulting weak-bridge sum is at most $R^{O(1)}\sum_{k\ge cH/S} S^{-c_2 k}$ for some $c_2>0$. This is stretched-exponentially small; (42) at the two exterior pieces preserves this, proving (37). ◻
 
 ## Uniform endpoint-free laws and moments
 
@@ -943,7 +942,7 @@ The absolute estimates of Section 7 give upper spatial tails under every law co
 
 *Under the half-plane law of free center length $n\ge1$ with weights $\rho^n e^{-tn}$, length is $t^{-1+o(1)}$ and endpoint distance and maximum radius are $t^{-3/4+o(1)}$ in probability as $t\downarrow0$; their positive moments have the corresponding powers. At fixed bridge height $h$, the critical bridge length is $h^{4/3+o(1)}$ both in probability and in first mean.*
 
-*Proof.* *Absolute upper tails and moment bounds.* For the infinite walk, consider the first $n$ whole irreducibles; their concatenation contains the first $n$ centers. Except with probability $Cn^{1-aA}$, every one of these pieces has diameter at most $n^A$, where $A$ is any sufficiently large fixed constant. The concatenation has exactly its critical bridge weight as probability, by unique factorization. Split it at its $n$th center. If this prefix reaches radius $n^{1/d_*+\epsilon}$, summing its critical mass over diameter dyads costs stretched-exponentially little by (R:cal:fast-mass), with its slack $\xi$ sufficiently small. The remaining suffix has diameter at most $Cn^{A+1}$ and costs at most $CV_{Cn^{A+1}}$, including bounded endpoint weight corrections. Choose the exponent $\nu$ in (R:cal:volume-bound) sufficiently small after $A$; this suffix factor is absorbed by the stretched-exponential bound. Since $A$ can be arbitrarily large, the upper tail for the first $n$ centers is smaller than every fixed inverse power of $n$.
+*Proof.* *Absolute upper tails and moment bounds.* For the infinite walk, consider the first $n$ whole irreducibles; their concatenation contains the first $n$ centers. Except with probability $Cn^{1-aA}$, every one of these pieces has diameter at most $n^A$, where $A$ is any sufficiently large fixed constant. The concatenation has exactly its critical bridge weight as probability, by unique factorization. Split it at its $n$th center. If this prefix reaches radius $n^{1/d_*+\epsilon}$, summing its critical mass over diameter dyads costs stretched-exponentially little by (37), with its slack $\xi$ sufficiently small. The remaining suffix has diameter at most $Cn^{A+1}$ and costs at most $CV_{Cn^{A+1}}$, including bounded endpoint weight corrections. Choose the exponent $\nu$ in (42) sufficiently small after $A$; this suffix factor is absorbed by the stretched-exponential bound. Since $A$ can be arbitrarily large, the upper tail for the first $n$ centers is smaller than every fixed inverse power of $n$.
 
 The almost-sure lower exponent of Theorem 2.7, this upper tail, and the deterministic linear distance bound give the stated moments for endpoint distance and maximum radius. For uniform strict or vertex bridges, divide the absolute fast-path bound by their previously proved polynomial lower mass bound and use their typical lower cutoff. The same argument gives the upper tail for uniform endpoint-free walks. For plane walks the total edge-weighted mass is at least one, by the connective constant and submultiplicativity. For half-plane walks it has a polynomial lower bound by inclusion of strict bridges, with one outward center appended when required by parity.
 
@@ -962,7 +961,7 @@ Together with the all-length upper tail, this proves the claimed lower and upper
 
 For the half-plane Boltzmann law take $N=\lceil1/t\rceil$ and the same good tuples. The suffix partition is exactly the original half-plane partition, so the good-prefix probability is $w_N\mathbb E_{\rm good}e^{-tl}\to1$. The volume bound makes lengths larger than $N^{1+\delta}$ superpolynomially unlikely, even after multiplication by any fixed length power. Below this cutoff, condition on length and apply the uniform upper spatial tail. Lengths below $N^{1/2}$ cannot violate the spatial upper cutoff by the linear bound, and the good-prefix lower cutoff makes them atypical. Taking $\delta$ and the speed slack sufficiently small proves the spatial upper bound and all positive spatial moments. The endpoint lower bound combined with the speed bound also rules out every length lower power $N^{1-\delta}$, giving the length statement and its moments.
 
-At a fixed bridge height $h$, the short-length tail is negligible by (R:cal:fast-mass), since the diameter is at least a constant times $h$ and the denominator is $B_h\asymp h^{-\vartheta}$. To bound the mean, first restrict diameter to $r=Ch\log h$. The finite chord bound (R:cal:box-moment), applied in a common convex box to order-$r$ translates of the fixed source, bounds the first-length mass by $r^{13/12+o(1)}$. For larger diameters, the exponential strip cutoff and the deterministic area bound make the length-weighted tail negligible when $C$ is large. Division by $B_h$ gives mean length at most $h^{4/3+o(1)}$ and hence the typical upper cutoff; the short tail gives the matching lower bound for the mean.
+At a fixed bridge height $h$, the short-length tail is negligible by (37), since the diameter is at least a constant times $h$ and the denominator is $B_h\asymp h^{-\vartheta}$. To bound the mean, first restrict diameter to $r=Ch\log h$. The finite chord bound (38), applied in a common convex box to order-$r$ translates of the fixed source, bounds the first-length mass by $r^{13/12+o(1)}$. For larger diameters, the exponential strip cutoff and the deterministic area bound make the length-weighted tail negligible when $C$ is large. Division by $B_h$ gives mean length at most $h^{4/3+o(1)}$ and hence the typical upper cutoff; the short tail gives the matching lower bound for the mean.
 
 The same length-versus-scale conclusion holds for arches from a fixed half-plane source with terminal gap in $[h,2h]$ on one side and diameter at most $Ch$, for sufficiently large fixed $C$. The confined pointwise arch lower bound gives denominator at least $ch^{-\vartheta}$, and the same translated first-moment and fast-path estimates apply. ◻
 
@@ -972,11 +971,11 @@ A full-plane walk need not begin with a long bridge. We create one by reflecting
 
 **Theorem 8.2** (Unrestricted spatial laws by refolding). *For full-plane uniform walks rooted at a fixed center, there is a set $\mathcal N\subset\mathbb N$ of natural density one such that, as $n\to\infty$ through $\mathcal N$, endpoint distance and maximum radius are $n^{3/4+o(1)}$ in probability. For every fixed $p>0$ their $p$th moments are $n^{3p/4+o(1)}$ on the same set. Under the normalized full-plane law with edge weights $(\rho e^{-t})^n$, as $t\downarrow0$ the length is $t^{-1+o(1)}$ and both spatial variables are $t^{-3/4+o(1)}$ in probability, with corresponding positive-moment powers. The thermal assertion holds without exceptions in $t$.*
 
-Write $c_m$ for the total critical mass $\sum\rho^m$ of $m$-edge walks from a fixed center. Lattice symmetry identifies the two starting center types. We have $c_m\ge1$ and, by (R:cal:volume-bound), $$0\le\log c_m\le C_\nu(1+m)^\nu\qquad(\nu>0).$$ Throughout this argument $d_*=4/3$, $a=3/4$, and $\vartheta=1-a$.
+Write $c_m$ for the total critical mass $\sum\rho^m$ of $m$-edge walks from a fixed center. Lattice symmetry identifies the two starting center types. We have $c_m\ge1$ and, by (42), $$0\le\log c_m\le C_\nu(1+m)^\nu\qquad(\nu>0).$$ Throughout this argument $d_*=4/3$, $a=3/4$, and $\vartheta=1-a$.
 
 ##### The insertion and its inverse.
 
-Fix one lattice normal. Walks whose endpoints realize its two global height extrema, in either order, have total critical mass $o(1)$ at length $m\to\infty$. Indeed their bounded endpoint extensions are strict port bridges. Their exact-length masses $u_l$ tend to zero: each fixed piece-count term tends to zero, and the remaining terms are dominated by the summable envelope $k^{-1/\alpha+o(1)}$ from (R:cal:length-atom). Call the walks not omitted eligible.
+Fix one lattice normal. Walks whose endpoints realize its two global height extrema, in either order, have total critical mass $o(1)$ at length $m\to\infty$. Indeed their bounded endpoint extensions are strict port bridges. Their exact-length masses $u_l$ tend to zero: each fixed piece-count term tends to zero, and the remaining terms are dominated by the summable envelope $k^{-1/\alpha+o(1)}$ from (4). Call the walks not omitted eligible.
 
 Write $a_0,b_0$ for the input endpoints. Choose an internal global height extremum of each eligible walk by a fixed deterministic rule. Choose the sign of the normal coordinate $y$ so it is a minimum $v$; the two signs will be counted separately. The two used edges at $v$ are the rising slants. Let $P$ be the wall just below $v$, with its port adjacent to $v$. All input vertices lie strictly above $P$. Reflect the incoming arm, including $v$, across $P$, insert a strict upward bridge from that port to a port on a wall $Q$, and translate the outgoing arm, including $v$, by the bridge’s port increment. The three parts lie in disjoint open slabs and form a self-avoiding walk. Translate it once more to a fixed output center of the type produced by reflection; its mass $c_n$ agrees with the other starting type by lattice symmetry.
 
@@ -986,18 +985,18 @@ Use bridges of center length $l$ satisfying $$s\le Q-P\le2s,\qquad l\le C_0s^{d_
 
 Both $P$ and $Q$ are global up-cuts of the output: each is crossed exactly once, with all earlier vertices below and all later vertices above. For fixed sign and cut levels, the inverse is unique. Cut at the two ports, reflect the lower exterior back, translate the upper exterior to align the ports, merge the two copies of $v$, and anchor the original start. A pair is called *valid* if this refolded walk is simple. It need not satisfy the deterministic rule used to choose the input minimum; counting all valid pairs only enlarges the inverse multiplicity. If the input has absolute endpoint-height increment at most $r$, then $$\begin{equation}
  |P+Q-y({\rm start})-y({\rm end})|\le r.
- \label{R:cal:refolding-displacement}
+ \tag{43}
 \end{equation}$$ Indeed before reanchoring the two output endpoint heights are $2P-y(a_0)$ and $y(b_0)+Q-P$, and the expression is translation invariant.
 
 ##### Two bounds on the inverse labels.
 
-For ordered disjoint level intervals $I,J$, let $M_{I,J}(\omega)$ be the number of valid pairs $(P,Q)$ of an output $\omega$ with $P\in I$, $Q\in J$. The first bound below controls this count in one pair of intervals. The second also bounds how many opposite interval pairs can contain any cuts when (R:cal:refolding-displacement) holds.
+For ordered disjoint level intervals $I,J$, let $M_{I,J}(\omega)$ be the number of valid pairs $(P,Q)$ of an output $\omega$ with $P\in I$, $Q\in J$. The first bound below controls this count in one pair of intervals. The second also bounds how many opposite interval pairs can contain any cuts when (43) holds.
 
 **Lemma 8.3** (Recoverable insertion labels). *Fix $\eta>0$ and consider outputs of edge length at most $N^2$. Each assertion below holds outside a family of total critical mass at most $\exp(-N^c)$, for some $c>0$.*
 
 - *If $I$ lies below $J$ and both have size at most $CH$, where $1\le H\le CN^2$, then $M_{I,J}\le H^aN^\eta$.*
 
-- *Among valid pairs satisfying (R:cal:refolding-displacement) and $s\le Q-P\le2s$, with $1\le r\ll s\le CN^2$ and $s/r\to\infty$, there are at most $Cs^a(r/s)^\vartheta N^{2\eta}$ pairs.*
+- *Among valid pairs satisfying (43) and $s\le Q-P\le2s$, with $1\le r\ll s\le CN^2$ and $s/r\to\infty$, there are at most $Cs^a(r/s)^\vartheta N^{2\eta}$ pairs.*
 
 *The exceptional-mass conclusion is preserved by polynomially many choices of intervals, coordinates, and tests, and by any polynomial multiplicity.*
 
@@ -1012,13 +1011,13 @@ For matched gap scales $D_1,D_2$, choose $g=\max(1,\lfloor\min(D_1,D_2)/4\rfloor
        \sum_{h\text{ in the gap bin}}B_{h-b-H}
        \,\middle|\,H\ge g-b\right]\le CD^a,$$ with negative residual heights contributing zero. The crossing jump is the first omitted irreducible. Renewal factorization proves the kernel identity, and the bound is uniform in the retained history: for each crossing jump the residual heights range over an interval of size $O(D)$, whose bridge masses sum to at most $CD^a$.
 
-Validity forces the two aligned histories to satisfy (R:cal:survival-bound), for one of the two assignments of roles. They emanate from the same port and center and then follow disjoint arms of the refolded walk. For a lower tested left cut $d_1$ and a higher right cut $d_2<g$, continue the left arm to $d_2$, still inside its selected gap. This is a strip crosscut with a unique crossing at $d_1$, so every right-prefix crossing there lies to its right.
+Validity forces the two aligned histories to satisfy (40), for one of the two assignments of roles. They emanate from the same port and center and then follow disjoint arms of the refolded walk. For a lower tested left cut $d_1$ and a higher right cut $d_2<g$, continue the left arm to $d_2$, still inside its selected gap. This is a strip crosscut with a unique crossing at $d_1$, so every right-prefix crossing there lies to its right.
 
 We now sum fine gap heights at fixed relative histories. The central bridge was bounded uniformly, so these heights can be summed freely. There is no transverse matching factor: translation to the next port determines each placement, and the pair constraints use aligned relative histories. Thus the occurrence sum is bounded by an integral under independent censored reference laws, with kernels bounded by $CD_i^a$. It does not require independence under the law of an output conditioned on its labels. Distinct matches use disjoint gaps, so the survival costs multiply. Each match contributes at most $$C_\theta D_1^aD_2^a g^{-a+\theta}
        \le C'_\theta H^aN^{3\theta}.$$ There are $t+u-2$ gaps and at least $t+u-k-2$ such savings. Including untested gaps and all classifications therefore gives $$\sum_{\omega:\,|\omega|\le N^2}
        \rho^{|\omega|}M_{I,J}(\omega)^k
  \le N^{O(1)}V_{CN^2}^2 H^{ak}N^{3\theta k}
-       \exp\{O_\theta(k\log(k\log N))\}.$$ Choose $\theta$, then $\gamma$, sufficiently small relative to $\eta$, and use (R:cal:volume-bound) with $2\nu<\gamma$. Markov’s inequality at $H^aN^\eta$ proves the first exceptional-mass bound.
+       \exp\{O_\theta(k\log(k\log N))\}.$$ Choose $\theta$, then $\gamma$, sufficiently small relative to $\eta$, and use (42) with $2\nu<\gamma$. Markov’s inequality at $H^aN^\eta$ proves the first exceptional-mass bound.
 
 ##### How many opposite bins contain cuts?
 
@@ -1069,17 +1068,17 @@ The density-one theorem is stronger than a power-cardinality conclusion, but use
 
 *Proof.* Write $\alpha=9/16$. We first record the length atom estimate under the exponent-precision hypotheses of the turning-chain route. If the length $L$ of one irreducible satisfies $1-\mathbb E e^{-L/r}=r^{-\alpha+o(1)}$, then independent sums satisfy $$\begin{equation}
  \sup_m p(S_L(j)=m)\le j^{-1/\alpha+o(1)}.
- \label{R:cal:exponent-length-atom}
-\end{equation}$$ Here is a direct verification, without logarithmic precision. Fix a small $\zeta>0$ and put $z=r^{1-\zeta/2}$. The Laplace estimate implies $p(L>s)\le s^{-\alpha+o(1)}$ and $\mathbb E[L;L\le s]\le s^{1-\alpha+o(1)}$. Hence the contributions of $L<r^{1-\zeta}$ and $L>r/10$ to $\mathbb E(1-e^{-L/z})$ are negligible compared with $z^{-\alpha+o(1)}$. The intermediate interval therefore has probability at least $r^{-(1-\zeta/2)\alpha+o(1)}$. Subtracting an independent bounded-length copy in the characteristic-function symmetrization gives phases between $c r^{-\zeta}$ and a fixed constant below $\pi$ at frequency $1/r$. Thus the squared characteristic-function modulus is at most $1-c r^{-\alpha-O(\zeta)+o(1)}$. On the actual length lattice all modulus-one characters form a finite set and translate the same bound. Fourier inversion, followed by $\zeta\downarrow0$, proves (R:cal:exponent-length-atom).
+ \tag{44}
+\end{equation}$$ Here is a direct verification, without logarithmic precision. Fix a small $\zeta>0$ and put $z=r^{1-\zeta/2}$. The Laplace estimate implies $p(L>s)\le s^{-\alpha+o(1)}$ and $\mathbb E[L;L\le s]\le s^{1-\alpha+o(1)}$. Hence the contributions of $L<r^{1-\zeta}$ and $L>r/10$ to $\mathbb E(1-e^{-L/z})$ are negligible compared with $z^{-\alpha+o(1)}$. The intermediate interval therefore has probability at least $r^{-(1-\zeta/2)\alpha+o(1)}$. Subtracting an independent bounded-length copy in the characteristic-function symmetrization gives phases between $c r^{-\zeta}$ and a fixed constant below $\pi$ at frequency $1/r$. Thus the squared characteristic-function modulus is at most $1-c r^{-\alpha-O(\zeta)+o(1)}$. On the actual length lattice all modulus-one characters form a finite set and translate the same bound. Fourier inversion, followed by $\zeta\downarrow0$, proves (44).
 
 Now take the full-plane thermal law with edge weights $(\rho e^{-1/N})^m$ and its deterministic minimum-split decomposition. Use the notation of the two-end estimate in Corollary 5.11: for a height scale $H_i$ and count scale $k_i$, let $K_i=H_i^{3/4}$ and $\kappa_i=\min(k_i,K_i)$. Put $M=\max_i\kappa_i$ on the nonempty bridges, and $M=1$ if there are none. The endpoint-minimum case is included using its one-end decomposition. Restrict to length at most $N^2$, whose complement has negligible thermal probability by the absolute critical mass bound.
 
-The turning-chain estimate without smoothing bounds the critical mass of each dyadic family, including count choices, by $MN^{o(1)}$. The two no-renewal ends cost at most a constant times $U_N^2$. Lemma [R:thermal:denominator] bounds the plane normalization below by $(q_N^{-1}-1)U_N^2$, where $q_N=N^{-\alpha+o(1)}$. Consequently all families with $M<N^{\alpha-\eta}$ have vanishing normalized mass, for every fixed $\eta>0$.
+The turning-chain estimate without smoothing bounds the critical mass of each dyadic family, including count choices, by $MN^{o(1)}$. The two no-renewal ends cost at most a constant times $U_N^2$. Lemma 6.2 bounds the plane normalization below by $(q_N^{-1}-1)U_N^2$, where $q_N=N^{-\alpha+o(1)}$. Consequently all families with $M<N^{\alpha-\eta}$ have vanishing normalized mass, for every fixed $\eta>0$.
 
-In the remaining families fix the end shapes, all witness labels, and all pieces except the unused batch belonging to an index attaining $M$. Proposition 5.10 reserves this batch independently of the avoidance tests and the large-height and short-length tests. Exact total length is therefore one scalar equality in that batch. Applying (R:cal:exponent-length-atom) costs an additional $M^{-1/\alpha+o(1)}$, uniformly in the fixed outside data. The bounded endpoint length corrections merely change the target integer. Damping may be dropped on these bridges before using the critical estimate. After normalization, for every integer $m$ the mass of length $m$ in the retained families is at most $$N^{-\alpha+o(1)}M^{1-1/\alpha}
+In the remaining families fix the end shapes, all witness labels, and all pieces except the unused batch belonging to an index attaining $M$. Proposition 5.10 reserves this batch independently of the avoidance tests and the large-height and short-length tests. Exact total length is therefore one scalar equality in that batch. Applying (44) costs an additional $M^{-1/\alpha+o(1)}$, uniformly in the fixed outside data. The bounded endpoint length corrections merely change the target integer. Damping may be dropped on these bridges before using the critical estimate. After normalization, for every integer $m$ the mass of length $m$ in the retained families is at most $$N^{-\alpha+o(1)}M^{1-1/\alpha}
  \le N^{-1+(1/\alpha-1)\eta+o(1)}.$$ No independence between the length and height of an individual irreducible is used: its entire batch remains unexposed until this scalar test.
 
-Theorem [R:thermal:law] gives probability tending to one to $N^{1-s}\le m\le N^{1+s}$ and to the corresponding spatial exponent window with fixed slack $s>0$. Conditional on $m$, the thermal law is the uniform law. Taking $s$ sufficiently small relative to $\epsilon$ and using Markov’s inequality on the conditional failure probability, the lengths satisfying the proposition carry probability tending to one. Their intersection with the retained families still does so. The uniform atom bound forces their number to be at least $N^{1-O(\eta)+o(1)}$.
+Theorem 6.4 gives probability tending to one to $N^{1-s}\le m\le N^{1+s}$ and to the corresponding spatial exponent window with fixed slack $s>0$. Conditional on $m$, the thermal law is the uniform law. Taking $s$ sufficiently small relative to $\epsilon$ and using Markov’s inequality on the conditional failure probability, the lengths satisfying the proposition carry probability tending to one. Their intersection with the retained families still does so. The uniform atom bound forces their number to be at least $N^{1-O(\eta)+o(1)}$.
 
 Set $N=R^{1/(1+2s)}$. For small enough $s$ the resulting length interval lies in $[R^{1-\epsilon},R]$. Since $s$ and $\eta$ are arbitrarily small, the count is at least $R^{1-o(1)}$, and the trivial bound by $R$ proves the claim. The limsup assertions combine these favorable lengths with the all-length upper spatial tail. This argument gives power-cardinality; the separate refolding argument establishes the density-one conclusion. ◻
 
@@ -1090,12 +1089,12 @@ There are two further ways to change the thermal law. One may reward displacemen
 In this section lengths $\ell$ count edges of ordinary walks from a fixed vertex $o$. Put $z_t=\rho e^{-t}$, $t>0$, and define $$G_t(b)=\sum_{\gamma:o\to b}z_t^{\ell(\gamma)},\qquad
  \chi(t)=\sum_bG_t(b).$$ The empty walk is included. For a unit vector $e$, let $$\begin{align}
  m_e(t)&=\sup\left\{s\ge0:\sum_b e^{s e\cdot(b-o)}G_t(b)<\infty\right\},
- \label{R:resp:directional-mass}\\
+ \tag{45}\\
  m_{\mathrm{rad}}(t)&=\sup\left\{s\ge0:\sum_b e^{s|b-o|}G_t(b)<\infty\right\}.
- \label{R:resp:radial-mass}
+ \tag{46}
 \end{align}$$ Both convergence sets are intervals containing zero. For the directional sum this follows by separating nonnegative and negative projections; the latter contribution is bounded by $\chi(t)$. All constants below allow the fixed conversion between Euclidean units and row spacing.
 
-Directional decay and endpoint tilts have long been studied through renewal methods. Ioffe proved all-direction Ornstein–Zernike asymptotics for self-avoiding walk on $\mathbb Z^d$ in the strictly subcritical fugacity regime [Ioffe1998]. Borgs, Chayes, King and Madras studied directional masses for anisotropic walks and linear displacement of the most likely endpoint under asymmetric positive step weights [BorgsChayesKingMadras2000]. Ioffe and Velenik proved ballistic local limit results for self-interacting walks under fixed forces in the ballistic regime [IoffeVelenik2008]. Our estimates concern the approach to zero force and critical fugacity on the honeycomb lattice. We derive the required uniform powers from the quantitative bridge estimates above.
+Directional decay and endpoint tilts have long been studied through renewal methods. Ioffe proved all-direction Ornstein–Zernike asymptotics for self-avoiding walk on $\mathbb Z^d$ in the strictly subcritical fugacity regime [8]. Borgs, Chayes, King and Madras studied directional masses for anisotropic walks and linear displacement of the most likely endpoint under asymmetric positive step weights [2]. Ioffe and Velenik proved ballistic local limit results for self-interacting walks under fixed forces in the ballistic regime [9]. Our estimates concern the approach to zero force and critical fugacity on the honeycomb lattice. We derive the required uniform powers from the quantitative bridge estimates above.
 
 **Theorem 9.1** (Exponential thresholds and force). *Uniformly over unit vectors $e$, as $t\downarrow0$, $$m_e(t)=t^{3/4+o(1)},\qquad m_{\mathrm{rad}}(t)=t^{3/4+o(1)}.$$ More precisely, for every $\varepsilon>0$ and all sufficiently small $t$, $$t^{3/4+\varepsilon}\le m_{\mathrm{rad}}(t)\le m_e(t)\le C t^{3/4},$$ where $C$ is independent of $e$. For each unit vector $e$ and $s\ge0$, the limit $$f_e(s)=\lim_{j\to\infty}\frac1j\log
  \sum_{\ell(\gamma)=j}\rho^j e^{s e\cdot(\gamma_j-o)}$$ exists. It satisfies $f_e(0)=0$ and $$f_e(s)=s^{4/3+o(1)}\qquad(s\downarrow0),$$ uniformly in $e$.*
@@ -1106,13 +1105,13 @@ The proof uses two consequences of the absolute count and fast-path bounds in Pr
  \qquad
  U_R:=\sum_{D(\gamma)\le R}\rho^{L(\gamma)}
        \le e^{C_\nu(1+R)^\nu}\quad(\nu>0).
- \label{R:resp:critical-inputs}
+ \tag{47}
 \end{equation}$$ These sums start at a specified vertex and count vertices in $L$. For the first bound, paths of diameter at least $R$ have length at least $cR$. Choose $\eta>0$ so small that $(4/3-\xi)(3/4+\eta)<1$. At each remaining length $n\le R^{4/3-\xi}$, the refined fast-path estimate applies and gives mass at most $$\exp(-c_\eta R/n^{3/4})\le\exp(-c_\eta R^{3\xi/4}).$$ Summing the polynomial number of lengths gives the first bound. For the second, a self-avoiding trace of diameter at most $R$ visits at most $C(1+R)^2$ lattice vertices. Apply the absolute count bound with exponent smaller than $\nu/2$ and sum over these lengths. Changing either sum to edge weights costs one constant factor.
 
 For the divergence estimate we need a positive mass of bridges whose thermal discount is bounded below. Theorem 2.1 gives $B_h\ge ch^{-1/4}$ and $M_h\le Ch^{13/12}$. Hence $$B_h\{L>C_0h^{4/3}\}\le \frac{M_h}{C_0h^{4/3}}
        \le \frac C{C_0}h^{-1/4}.$$ Choosing the fixed $C_0$ large enough retains a positive fraction of $B_h$ with $L\le C_0h^{4/3}$. This uses the finite first-length mass before any exact-length conditioning.
 
-*Proof of Theorem 9.1.* Fix $\varepsilon>0$ and put $R=t^{-3/4-\varepsilon}$. Stop a walk on its first visit to distance at least $R$ from its starting vertex. Its endpoint lies at distance at most $R+a_{\mathrm{lat}}$, where $a_{\mathrm{lat}}$ is the lattice edge length, and its diameter lies between $R$ and $2R+a_{\mathrm{lat}}$. Let $W(t,R)$ be the total $z_t$-weight of these stopped prefixes. The prefixes with at most $R^{4/3-\xi}$ vertices have mass tending to zero by the first estimate in (R:resp:critical-inputs), with harmless fixed adjustments of the radii. The remaining prefixes have total mass at most $$C U_{3R}\exp(-tR^{4/3-\xi}).$$ Choose $\xi>0$ so small that $$4/3-\xi-\frac1{3/4+\varepsilon}>0,$$ and then choose $\nu$ smaller than this difference in the bound for $U_{3R}$. It follows that $W(t,R)=o(1)$.
+*Proof of Theorem 9.1.* Fix $\varepsilon>0$ and put $R=t^{-3/4-\varepsilon}$. Stop a walk on its first visit to distance at least $R$ from its starting vertex. Its endpoint lies at distance at most $R+a_{\mathrm{lat}}$, where $a_{\mathrm{lat}}$ is the lattice edge length, and its diameter lies between $R$ and $2R+a_{\mathrm{lat}}$. Let $W(t,R)$ be the total $z_t$-weight of these stopped prefixes. The prefixes with at most $R^{4/3-\xi}$ vertices have mass tending to zero by the first estimate in (47), with harmless fixed adjustments of the radii. The remaining prefixes have total mass at most $$C U_{3R}\exp(-tR^{4/3-\xi}).$$ Choose $\xi>0$ so small that $$4/3-\xi-\frac1{3/4+\varepsilon}>0,$$ and then choose $\nu$ smaller than this difference in the bound for $U_{3R}$. It follows that $W(t,R)=o(1)$.
 
 Now split any complete walk greedily into such stopped prefixes, restarting the rule at the endpoint of each prefix, followed by one remainder whose displacement is less than $R$. Edge weights multiply. Dropping avoidance between different pieces gives, at $s=1/R$, $$\sum_\gamma z_t^{\ell(\gamma)}e^{sA(\gamma)}
  \le e\chi(t)\sum_{k\ge0}
@@ -1135,19 +1134,19 @@ The directional susceptibility is $\sum_j e^{-tj}a_j(s,e)$. The root test shows 
 *Proof.* Each $j^{-1}\log a_j(s,e)$ is convex, and its pointwise limit is convex. Since $f_e(0)=0$, convexity gives $$\frac{f_e(s)}s\le f'_{e,-}(s)\le f'_{e,+}(s)
        \le\frac{f_e(2s)-f_e(s)}s\le\frac{f_e(2s)}s.$$ Here $f_e(s)\ge0$: rotation by $120$ degrees about $o$ makes the mean endpoint of the unforced fixed-length law zero, so Jensen’s inequality gives $a_j(s,e)\ge a_j(0,e)$. Theorem 9.1 now proves the derivative exponents. Finally the derivative of $j^{-1}\log a_j$ is the stated normalized mean. Its lower and upper difference quotients converge to those of $f_e$; letting their increments tend to zero proves the claim at differentiability points. No differentiability assertion is needed for the one-sided result. ◻
 
-The exponent $1/3$ agrees with Pincus’s force-extension scaling relation $1/\nu-1$ at $\nu=3/4$ [Pincus1976, Eq. (I.4)]; here it follows from the threshold bounds and convexity. This small-force relation is distinct from fixed-force ballistic asymptotics; see also [IoffeVelenik2010, Section 4.2.3].
+The exponent $1/3$ agrees with Pincus’s force-extension scaling relation $1/\nu-1$ at $\nu=3/4$ [25, Eq. (I.4)]; here it follows from the threshold bounds and convexity. This small-force relation is distinct from fixed-force ballistic asymptotics; see also [10, Section 4.2.3].
 
 For prescribed endpoints we will use the same geometric estimates before summing over lengths. In edge-count notation, the absolute critical count bound in Proposition 5.12 is $c_j\rho^j\le\exp(C_\nu j^\nu)$ for every $\nu>0$, where $c_j$ counts rooted $j$-edge walks. The refined fast-path bound in Proposition 5.13 is $$\begin{equation}
  \sum_{\substack{\ell(\gamma)=j\\D(\gamma)\ge d}}\rho^j
        \le\exp\bigl(-c_\eta d/j^{3/4}\bigr),
  \qquad d\ge j^{3/4+\eta},
- \label{R:resp:refined-fast}
+ \tag{48}
 \end{equation}$$ for fixed $\eta>0$ and sufficiently large $j$. The conversion from vertex count to edge count changes length by one and weight by a fixed factor; decreasing the slack and the exponential constant absorbs both changes. Both bounds concern unnormalized masses, so they remain available before a prescribed endpoint has been normalized.
 
 **Remark 9.3** (A second route to the radial threshold). *The turning-chain estimates give a useful alternative which requires no first-length estimate at a single chosen height. Write $p$ for the critical irreducible law, $T$ for its height and $L$ for its vertex length. By Lemma 5.1 and the length deficit in Proposition 2.4, $$p(e^{-L/N};T>R)\ge cR^{-3/4}-q_N,
  \qquad q_N:=p(1-e^{-L/N})=N^{-9/16+o(1)}.$$ At $R=N^{3/4-\delta}$ the right side is at least $c'R^{-3/4}$. A pull $s=N^{-3/4+2\delta}$ in a fixed positive multiple of the height therefore makes the total tilted irreducible weight exceed one. Free concatenation then forces divergence of the radially tilted plane sum, after the bounded endpoint conversion.*
 
-*For convergence put $s=N^{-3/4-\delta}$ and choose an even block length $j\asymp N^{1+\eta}$ with $\eta$ sufficiently small after $\delta$. On $D\le j^{3/4+\eta}$ the pull is bounded, while $e^{-j/N}$ beats the critical count bound. On successive larger diameter ranges, (R:resp:refined-fast) beats the pull because $s\ll j^{-3/4}$. The tilted mass of this block is less than one at both vertex types. Splitting paths into such blocks, with one bounded-length remainder, proves convergence. This recovers $m_{\mathrm{rad}}(1/N)=N^{-3/4+o(1)}$ by an argument directly adapted to the absolute turning-chain bounds.*
+*For convergence put $s=N^{-3/4-\delta}$ and choose an even block length $j\asymp N^{1+\eta}$ with $\eta$ sufficiently small after $\delta$. On $D\le j^{3/4+\eta}$ the pull is bounded, while $e^{-j/N}$ beats the critical count bound. On successive larger diameter ranges, (48) beats the pull because $s\ll j^{-3/4}$. The tilted mass of this block is less than one at both vertex types. Splitting paths into such blocks, with one bounded-length remainder, proves convergence. This recovers $m_{\mathrm{rad}}(1/N)=N^{-3/4+o(1)}$ by an argument directly adapted to the absolute turning-chain bounds.*
 
 ### A spatial local limit with lattice compatibility
 
@@ -1165,7 +1164,7 @@ For Fourier inversion the relevant subgroup is $\Gamma_1$, generated by differen
  \sum_{i=1}^k\Delta_i\le M_0H
  \right\}
  \ge c K H^{-2}=cH^{-5/4}.
- \label{R:resp:point-bound}
+ \tag{49}
 \end{equation}$$ Incompatible counts contribute zero. In particular the paths counted here remain within distance $M_0H$ of their initial port.*
 
 *Proof.* We first establish the estimate without the length and diameter restrictions. Although subsequential laws of the rescaled sums may differ, each has full forward support and a strictly positive density in the open forward half-plane. Fourier inversion will then give a uniform lattice lower bound. Finally we mark individual increments to impose the two restrictions.
@@ -1173,7 +1172,7 @@ For Fourier inversion the relevant subgroup is $\Gamma_1$, generated by differen
 *Subsequential jump limits.* Lemma 5.1 gives $$\begin{equation}
  p(|Y|>r)\le Cr^{-\beta},\qquad
  p(|Y|;|Y|\le r)\le Cr^{1-\beta}.
- \label{R:resp:jump-bounds}
+ \tag{50}
 \end{equation}$$ Consider any sequence $H\to\infty$. On a subsequence the measures $$\mu_H=H^\beta p(Y/H\in\cdot)$$ converge vaguely on $\mathbb R^2\setminus\{0\}$ to a measure $\mu$. This follows by compactness on each closed annulus and a diagonal extraction. The bounds $$\mu_H(|y|>r)\le Cr^{-\beta},\qquad
  \int_{|y|\le r}|y|\,d\mu_H(y)\le Cr^{1-\beta}$$ give the corresponding bounds for $\mu$, by approximation away from zero. In particular $\int(1\wedge|y|)\,d\mu(y)<\infty$. The measure is supported in $\{T\ge0\}$.
 
@@ -1181,41 +1180,41 @@ If $k/H^\beta\to u>0$, expansion of one characteristic function gives $$\begin{e
  \mathbb E\exp\left(is\cdot H^{-1}\sum_{i=1}^kY_i\right)
  \longrightarrow
  F_u(s):=\exp\left(u\int(e^{is\cdot y}-1)\,d\mu(y)\right).
- \label{R:resp:poisson-transform}
+ \tag{51}
 \end{equation}$$ For completeness, truncate the integral to $\delta\le|y|\le M$. Vague convergence gives the limit there at continuity radii. The small-jump error is at most $C|s|\delta^{1-\beta}$; the large-jump error is at most $CM^{-\beta}$. Send first $H$ to infinity, then $\delta$ to zero and $M$ to infinity. The one-factor error is $O(H^{-\beta})$, so its squared term disappears after multiplication by $k$.
 
-The right side is a characteristic function. Construct independent Poisson point collections on disjoint annuli, with intensity $u\mu$, and sum their points. There are finitely many points outside the unit disk, and the sum of the norms inside it has finite expectation. Thus the small-jump series converges absolutely almost surely. This is the finite-variation form of the Poisson construction of a pure-jump infinitely divisible law; see Schilling [Schilling2016, Chapter 7] for the general construction. Tightness of the rescaled sums also follows directly from (R:resp:jump-bounds): remove jumps above $M$, and use the truncated first moment for the others. Fourier uniqueness therefore proves weak convergence to the constructed law. We prove the support and uniform lattice lower bound needed here next.
+The right side is a characteristic function. Construct independent Poisson point collections on disjoint annuli, with intensity $u\mu$, and sum their points. There are finitely many points outside the unit disk, and the sum of the norms inside it has finite expectation. Thus the small-jump series converges absolutely almost surely. This is the finite-variation form of the Poisson construction of a pure-jump infinitely divisible law; see Schilling [26, Chapter 7] for the general construction. Tightness of the rescaled sums also follows directly from (50): remove jumps above $M$, and use the truncated first moment for the others. Fourier uniqueness therefore proves weak convergence to the constructed law. We prove the support and uniform lattice lower bound needed here next.
 
 *Full forward support.* For any $u>0$ the support of the limiting law is the closed additive semigroup generated by the support of $\mu$, including zero, and is independent of $u$. One inclusion follows by truncating the Poisson sum. Conversely, a specified finite list of jumps can be approximated with positive probability, excluding every other jump above a small cutoff. The remaining small jumps have arbitrarily small total norm with positive probability, by their first-moment bound. Hence each finite sum of support points belongs to the support.
 
 This semigroup contains the entire open forward half-plane. To prove it, fix an open ball $B$ whose closure lies in $\{T>0\}$ and then a smaller closed ball $B'$ in $B$. The free-terminal guide estimate in Section 5.1, applied over a fixed positive interval of target heights, gives $$\begin{equation}
  \sum_{k\ge0}p^{*k}(HB')\ge c_B H^\beta.
- \label{R:resp:bridge-ball}
-\end{equation}$$ Indeed a narrow straight guide places the terminal port in $HB'$, uniformly over order $H$ heights, and contributes $cH^{-1/4}$ at each height. Counts $k\le\xi H^\beta$ have total contribution at most $C_B\xi^2H^\beta$: to reach $HB'$ their height sum must exceed $c_BH$, and the truncated-sum bound from (R:resp:jump-bounds) gives probability at most $C_B kH^{-\beta}$. Counts $k\ge S H^\beta$ contribute at most $C_BH^\beta e^{-c_BS}$, because $$p\left(\sum_{i=1}^kT_i\le C_BH\right)
+ \tag{52}
+\end{equation}$$ Indeed a narrow straight guide places the terminal port in $HB'$, uniformly over order $H$ heights, and contributes $cH^{-1/4}$ at each height. Counts $k\le\xi H^\beta$ have total contribution at most $C_B\xi^2H^\beta$: to reach $HB'$ their height sum must exceed $c_BH$, and the truncated-sum bound from (50) gives probability at most $C_B kH^{-\beta}$. Counts $k\ge S H^\beta$ contribute at most $C_BH^\beta e^{-c_BS}$, because $$p\left(\sum_{i=1}^kT_i\le C_BH\right)
  \le e^{C_B}\bigl(p(e^{-T/H})\bigr)^k
- \le C_Be^{-c_B k/H^\beta}.$$ Choose $\xi$ small and $S$ large. The remaining mass in (R:resp:bridge-ball) is at least $c'_BH^\beta$, spread over at most $SH^\beta+1$ counts. Thus for some $k_H\in[\xi H^\beta,SH^\beta]$, the probability of $H^{-1}\sum_{i\le k_H}Y_i\in B'$ is bounded below independently of $H$. On a further subsequence $k_H/H^\beta\to u\in[\xi,S]$. Weak convergence and the closedness of $B'$ show that the limiting law gives positive mass to $B'$. Because all positive $u$ have the same support, every such ball meets the support of every limiting law.
+ \le C_Be^{-c_B k/H^\beta}.$$ Choose $\xi$ small and $S$ large. The remaining mass in (52) is at least $c'_BH^\beta$, spread over at most $SH^\beta+1$ counts. Thus for some $k_H\in[\xi H^\beta,SH^\beta]$, the probability of $H^{-1}\sum_{i\le k_H}Y_i\in B'$ is bounded below independently of $H$. On a further subsequence $k_H/H^\beta\to u\in[\xi,S]$. Weak convergence and the closedness of $B'$ show that the limiting law gives positive mass to $B'$. Because all positive $u$ have the same support, every such ball meets the support of every limiting law.
 
 *Fourier inversion on the displacement lattice.* We have obtained full support in the open forward half-plane. To turn this into a positive lattice lower bound, we need a density and Fourier domination. Write $\varphi(\theta)=p(e^{i\theta\cdot Y})$ for the increment characteristic function. Lemma 5.2 gives, near each of its modulus-one characters, the uniform estimate $$\begin{equation}
  |\varphi(\theta)|\le 1-c\operatorname{dist}(\theta,\mathcal P)^\beta,
- \label{R:resp:fourier-decay}
-\end{equation}$$ where $\mathcal P$ is the finite character group annihilating $\Gamma_1$ on the dual torus of $\Gamma$. Away from fixed neighborhoods of $\mathcal P$ the modulus is at most a constant strictly smaller than one. Passing to the limit near zero in (R:resp:fourier-decay) gives $|F_u(s)|\le e^{-cu|s|^\beta}$. Thus the limiting law has a continuous density $g_u$.
+ \tag{53}
+\end{equation}$$ where $\mathcal P$ is the finite character group annihilating $\Gamma_1$ on the dual torus of $\Gamma$. Away from fixed neighborhoods of $\mathcal P$ the modulus is at most a constant strictly smaller than one. Passing to the limit near zero in (53) gives $|F_u(s)|\le e^{-cu|s|^\beta}$. Thus the limiting law has a continuous density $g_u$.
 
-In fact $g_u(v)>0$ whenever the first coordinate of $v$ is positive. The convolution identity $g_u=g_{u/2}*g_{u/2}$ follows from (R:resp:poisson-transform). Choose a small ball of heights strictly between zero and the first coordinate of $v$. Full support and continuity provide a point in that ball where $g_{u/2}>0$, and a smaller ball on which it is bounded below. The reflected difference ball about $v$ remains in the forward half-plane and has positive mass under the other half-time law. The convolution is therefore positive at $v$.
+In fact $g_u(v)>0$ whenever the first coordinate of $v$ is positive. The convolution identity $g_u=g_{u/2}*g_{u/2}$ follows from (51). Choose a small ball of heights strictly between zero and the first coordinate of $v$. Full support and continuity provide a point in that ball where $g_{u/2}>0$, and a smaller ball on which it is bounded below. The reflected difference ball about $v$ remains in the forward half-plane and has positive mass under the other half-time law. The convolution is therefore positive at $v$.
 
 Take compatible $k$ and $y$ with $k/H^\beta\to u\in[1,2]$ and $y/H\to v$. Fourier inversion on $\Gamma$ yields $$\begin{equation}
  H^2p^{*k}(y)\longrightarrow c_\Gamma g_u(v),
  \qquad c_\Gamma>0.
- \label{R:resp:lattice-limit}
-\end{equation}$$ Here $c_\Gamma$ is the covolume of $\Gamma_1$ in the chosen coordinates. To check the periodicity factor, for $\theta_0\in\mathcal P$ all increments have the same phase $e^{i\theta_0\cdot a_*}$, so $\varphi(\theta_0+\theta)=e^{i\theta_0\cdot a_*}\varphi(\theta)$. Compatibility makes the phase in the inversion integrand equal to one. Thus all the finitely many neighborhoods contribute identically. In each neighborhood rescale $\theta$ by $H^{-1}$ and dominate by $e^{-c'|s|^\beta}$ using (R:resp:fourier-decay); the complement is exponentially small in $k$. This proves (R:resp:lattice-limit) with its stated constant.
+ \tag{54}
+\end{equation}$$ Here $c_\Gamma$ is the covolume of $\Gamma_1$ in the chosen coordinates. To check the periodicity factor, for $\theta_0\in\mathcal P$ all increments have the same phase $e^{i\theta_0\cdot a_*}$, so $\varphi(\theta_0+\theta)=e^{i\theta_0\cdot a_*}\varphi(\theta)$. Compatibility makes the phase in the inversion integrand equal to one. Thus all the finitely many neighborhoods contribute identically. In each neighborhood rescale $\theta$ by $H^{-1}$ and dominate by $e^{-c'|s|^\beta}$ using (53); the complement is exponentially small in $k$. This proves (54) with its stated constant.
 
-The same subsequence argument proves a uniform positive lower bound when $|x|/H\le C$ and $k/H^\beta\in[1,2]$ is compatible. If it failed, choose offending targets and counts, extract $x/H\to v_2$, $k/H^\beta\to u$, and then a vague limit $\mu$ as above. Equation (R:resp:lattice-limit) would contradict $g_u(1,v_2)>0$. A fixed positive fraction of the integers in $[K,2K]$ are compatible with each $y\in\Gamma$, because $\Gamma/\Gamma_1$ is finite cyclic. Consequently $$\begin{equation}
+The same subsequence argument proves a uniform positive lower bound when $|x|/H\le C$ and $k/H^\beta\in[1,2]$ is compatible. If it failed, choose offending targets and counts, extract $x/H\to v_2$, $k/H^\beta\to u$, and then a vague limit $\mu$ as above. Equation (54) would contradict $g_u(1,v_2)>0$. A fixed positive fraction of the integers in $[K,2K]$ are compatible with each $y\in\Gamma$, because $\Gamma/\Gamma_1$ is finite cyclic. Consequently $$\begin{equation}
  \sum_{K\le k\le2K}p^{*k}(y)\ge c_CKH^{-2}.
- \label{R:resp:unrestricted-point}
+ \tag{55}
 \end{equation}$$
 
 *Length and diameter restrictions.* We now remove paths whose length or total increment diameter is too large. If $\sum_iL_i>M$, then $$\sum_i(1-e^{-L_i/M})\ge1-e^{-\sum_iL_i/M}\ge1-e^{-1}.$$ Mark one increment by $1-e^{-L/M}$. Its total marked mass is $q_M:=p(1-e^{-L/M})$. The other $k-1$ increments match the remaining displacement with probability at most $C(k-1)^{-8/3}\le CH^{-2}$ by Lemma 5.2, independently of the value of the marked increment. Summing the mark and then the count gives the excluded mass bound $$C K^2H^{-2}q_M.$$ For $M=H^{4/3+\eta}$, the weak deficit bound $q_M=M^{-9/16+o(1)}$ makes this $o(KH^{-2})$.
 
-The same argument controls spatial excursions without a new independence assumption. If $\sum_i\Delta_i>BH$, then $\sum_i\min(1,\Delta_i/(BH))\ge1$. The diameter tail implies $$p\bigl(\min(1,\Delta/(BH))\bigr)\le C(BH)^{-\beta}.$$ Marking by this function excludes mass at most $CB^{-\beta}KH^{-2}$. Choose a fixed $B=M_0$ large enough to leave at least half the lower bound in (R:resp:unrestricted-point), and then take $H$ large enough for the length exclusion. The entire concatenated path is within its sum of increment diameters of its first port. This proves (R:resp:point-bound). ◻
+The same argument controls spatial excursions without a new independence assumption. If $\sum_i\Delta_i>BH$, then $\sum_i\min(1,\Delta_i/(BH))\ge1$. The diameter tail implies $$p\bigl(\min(1,\Delta/(BH))\bigr)\le C(BH)^{-\beta}.$$ Marking by this function excludes mass at most $CB^{-\beta}KH^{-2}$. Choose a fixed $B=M_0$ large enough to leave at least half the lower bound in (55), and then take $H$ large enough for the length exclusion. The entire concatenated path is within its sum of increment diameters of its first port. This proves (49). ◻
 
 ### Thermal walks ending at a specified vertex
 
@@ -1238,22 +1237,22 @@ Concatenate the segments in their consecutive slabs. They cannot share vertices 
  G_{1/N}(b)\ge
        \exp\left[-C_\delta\left(1+\frac{|b-o|}{H}\right)\log N\right]
  \qquad(|b-o|\gg H).
- \label{R:resp:denominator}
+ \tag{56}
 \end{equation}$$
 
 For fixed $N$ and $s<m_{\mathrm{rad}}(1/N)$, $$G_{1/N}(b)\le
- \left(\sum_v e^{s|v-o|}G_{1/N}(v)\right)e^{-s|b-o|}.$$ The parenthesized quantity is finite and independent of $b$. Hence the lower spatial rate is at least $m_{\mathrm{rad}}(1/N)$, which is at least $N^{-3/4-\varepsilon}$ for every fixed $\varepsilon>0$ and sufficiently large $N$. On the other hand (R:resp:denominator) gives the upper spatial rate at most $C_\delta H^{-1}\log N$. Letting the fixed exponent slacks tend to zero proves both asserted rate scales. No equality or existence of a single directional spatial limit is required.
+ \left(\sum_v e^{s|v-o|}G_{1/N}(v)\right)e^{-s|b-o|}.$$ The parenthesized quantity is finite and independent of $b$. Hence the lower spatial rate is at least $m_{\mathrm{rad}}(1/N)$, which is at least $N^{-3/4-\varepsilon}$ for every fixed $\varepsilon>0$ and sufficiently large $N$. On the other hand (56) gives the upper spatial rate at most $C_\delta H^{-1}\log N$. Letting the fixed exponent slacks tend to zero proves both asserted rate scales. No equality or existence of a single directional spatial limit is required.
 
-Now suppose $|b_N-o|=N^{3/4+o(1)}$. For every fixed $\zeta>0$, choose $\delta<\zeta/3$ in (R:resp:denominator). For all sufficiently large $N$ this gives $$\begin{equation}
+Now suppose $|b_N-o|=N^{3/4+o(1)}$. For every fixed $\zeta>0$, choose $\delta<\zeta/3$ in (56). For all sufficiently large $N$ this gives $$\begin{equation}
  G_{1/N}(b_N)\ge e^{-N^\zeta}.
- \label{R:resp:subexponential-denominator}
+ \tag{57}
 \end{equation}$$ The choice of $\zeta$ will be made after the desired tail slack, and stays fixed as $N$ tends to infinity.
 
-Let $c_j\rho^j$ be the total critical mass at edge length $j$. Proposition 5.12 gives $c_j\rho^j\le\exp(C_\nu j^\nu)$ for every $\nu>0$. Thus, for every $\varepsilon>0$, the absolute thermal mass on $j>N^{1+\varepsilon}$, even multiplied by $j^r$ for any fixed $r$, is at most $\exp(-cN^\varepsilon)$ after decreasing $\nu$. Dividing by (R:resp:subexponential-denominator) proves the length upper tail and its moment version.
+Let $c_j\rho^j$ be the total critical mass at edge length $j$. Proposition 5.12 gives $c_j\rho^j\le\exp(C_\nu j^\nu)$ for every $\nu>0$. Thus, for every $\varepsilon>0$, the absolute thermal mass on $j>N^{1+\varepsilon}$, even multiplied by $j^r$ for any fixed $r$, is at most $\exp(-cN^\varepsilon)$ after decreasing $\nu$. Dividing by (57) proves the length upper tail and its moment version.
 
-For the spatial upper tail choose a small $\varepsilon'>0$ relative to $\varepsilon$. On lengths $j\le N^{1+\varepsilon'}$, the event $D>N^{3/4+\varepsilon}$ is covered by (R:resp:refined-fast), with a sufficiently small fixed $\eta$ there. Its absolute mass is at most $\exp(-N^c)$ for some $c>0$, after summing the polynomial number of lengths. The lengths above this cutoff have just been treated. Choose $\zeta<c$ in (R:resp:subexponential-denominator). This proves the spatial upper tail. The same proof, using $D\le a_{\mathrm{lat}}j$ and the weighted length tail, gives its positive-moment version.
+For the spatial upper tail choose a small $\varepsilon'>0$ relative to $\varepsilon$. On lengths $j\le N^{1+\varepsilon'}$, the event $D>N^{3/4+\varepsilon}$ is covered by (48), with a sufficiently small fixed $\eta$ there. Its absolute mass is at most $\exp(-N^c)$ for some $c>0$, after summing the polynomial number of lengths. The lengths above this cutoff have just been treated. Choose $\zeta<c$ in (57). This proves the spatial upper tail. The same proof, using $D\le a_{\mathrm{lat}}j$ and the weighted length tail, gives its positive-moment version.
 
-Finally every path to $b_N$ has $D\ge|b_N-o|$. If $j<N^{1-\varepsilon}$, this required displacement is at least $N^{3/4-o(1)}$, so (R:resp:refined-fast) again bounds the absolute mass by $\exp(-N^{c'})$ for some $c'>0$; lengths smaller than the graph distance contribute nothing. Division by (R:resp:subexponential-denominator) proves the length lower tail. The diameter lower bound is deterministic. Integrating the proved weighted upper tails and using these lower bounds gives both moment exponents. ◻
+Finally every path to $b_N$ has $D\ge|b_N-o|$. If $j<N^{1-\varepsilon}$, this required displacement is at least $N^{3/4-o(1)}$, so (48) again bounds the absolute mass by $\exp(-N^{c'})$ for some $c'>0$; lengths smaller than the graph distance contribute nothing. Division by (57) proves the length lower tail. The diameter lower bound is deterministic. Integrating the proved weighted upper tails and using these lower bounds gives both moment exponents. ◻
 
 **Corollary 9.6** (Length responses at a prescribed endpoint). *For each fixed vertex $b$ and $t>0$, $G_t(b)$ can be differentiated term by term any fixed number of times. If $|b_N-o|=N^{3/4+o(1)}$, then for each positive integer $j$, $$\left.\frac{(-1)^j\partial_t^jG_t(b_N)}{G_t(b_N)}\right|_{t=1/N}
        =N^{j+o(1)},\qquad
@@ -1267,41 +1266,41 @@ The length tail of one irreducible does not specify where its expected length is
 
 ### Length rewards with logarithmic confinement
 
-We use the honeycomb lattice dual to a triangular tiling of side one. Successive horizontal cuts are at Euclidean distance $\sqrt3/2$; their integer separation is the height. As before, a port has no weight, and a path visiting $L$ vertices has weight $\rho^L$. Write $b_h$ for the critical mass of bridges from a fixed bottom port to all top ports at height $h$, $b_0=1$, and $m_h$ for the same mass with an insertion of $L$, $m_0=0$. The polynomial vacuum representation gives the following finite inputs [RenewalVacuumCompanion, Theorem 1.1, Proposition 1.3 and Lemma 8.2]: $$\begin{equation}
-\label{R:alt:pv:inputs}
+We use the honeycomb lattice dual to a triangular tiling of side one. Successive horizontal cuts are at Euclidean distance $\sqrt3/2$; their integer separation is the height. As before, a port has no weight, and a path visiting $L$ vertices has weight $\rho^L$. Write $b_h$ for the critical mass of bridges from a fixed bottom port to all top ports at height $h$, $b_0=1$, and $m_h$ for the same mass with an insertion of $L$, $m_0=0$. The polynomial vacuum representation gives the following finite inputs [23, Theorem 1.1, Proposition 1.3 and Lemma 8.2]: $$\begin{equation}
+\tag{58}
  b_h=h^{-1/4+o(1)},\qquad m_h=h^{13/12+o(1)}.
 \end{equation}$$ For a fixed-height bridge let $S$ be its largest absolute horizontal displacement from its source. There are absolute positive $c,C$ such that $$\begin{equation}
-\label{R:alt:pv:lateral}
+\tag{59}
  \sum_{\gamma:\,H(\gamma)=h,\ S(\gamma)>t}\rho^{L(\gamma)}
  \le C e^{-ct/(h+1)}.
-\end{equation}$$ The same bound holds on the subclass of irreducibles. The mixed exit law in the strip has total first length mass at most $h^{13/12+o(1)}$; the mass of half-plane arches not contained in that strip is $O(b_h)$. For the latter assertion, let $A_h$ be the strip return-arch mass and $c_0=\cos(3\pi/8)$. The strip flux identity in [RenewalVacuumCompanion, Section 2] is $b_h+c_0A_h=1$. Since $b_h\to0$, monotone exhaustion gives $c_0A_\infty=1$ and $A_\infty-A_h=b_h/c_0$. All these are fixed-source, unnormalized masses. The logarithmic confinement in (R:alt:pv:lateral) will be used explicitly below.
+\end{equation}$$ The same bound holds on the subclass of irreducibles. The mixed exit law in the strip has total first length mass at most $h^{13/12+o(1)}$; the mass of half-plane arches not contained in that strip is $O(b_h)$. For the latter assertion, let $A_h$ be the strip return-arch mass and $c_0=\cos(3\pi/8)$. The strip flux identity in [23, Section 2] is $b_h+c_0A_h=1$. Since $b_h\to0$, monotone exhaustion gives $c_0A_\infty=1$ and $A_\infty-A_h=b_h/c_0$. All these are fixed-source, unnormalized masses. The logarithmic confinement in (59) will be used explicitly below.
 
-Let $p$ be the irreducible probability from Proposition 2.2. Its normalization proof only uses the concatenation identity and divergence of $\sum_hb_h$, so (R:alt:pv:inputs) suffices for this application. Under $p$, write $H,L,D$ for height, vertex length and diameter, and $S$ for largest horizontal displacement. Put $\beta=3/4$ and $d=4/3$. The following reward estimate is also useful when the terminal port is subsequently prescribed.
+Let $p$ be the irreducible probability from Proposition 2.2. Its normalization proof only uses the concatenation identity and divergence of $\sum_hb_h$, so (58) suffices for this application. Under $p$, write $H,L,D$ for height, vertex length and diameter, and $S$ for largest horizontal displacement. Put $\beta=3/4$ and $d=4/3$. The following reward estimate is also useful when the terminal port is subsequently prescribed.
 
 **Proposition 10.1** (Truncated and discounted irreducible rewards). *For this irreducible law, $$\begin{align}
  p(H>r)&=r^{-\beta+o(1)},&
  \mathbb E_p[L;H\le r]&=r^{d-\beta+o(1)},
- \label{R:alt:pv:truncated}\\
+ \tag{60}\\
  \mathbb E_p[Le^{-H/r}]&=r^{d-\beta+o(1)}.
- \label{R:alt:pv:discounted}
-\end{align}$$ The lower bound in (R:alt:pv:discounted) is retained after imposing $H\le r\log^2r$ and $S\le r\log^4r$. Furthermore, $$\begin{equation}
-\label{R:alt:pv:tails}
+ \tag{61}
+\end{align}$$ The lower bound in (61) is retained after imposing $H\le r\log^2r$ and $S\le r\log^4r$. Furthermore, $$\begin{equation}
+\tag{62}
  p(L>n)\le n^{-9/16+o(1)},\qquad
  p(D>r)\le r^{-3/4+o(1)},\qquad
  1-\mathbb E_p e^{-L/n}\ge n^{-17/24-o(1)}.
 \end{equation}$$*
 
 *Proof.* For $s>0$, the renewal and reward identities give $$B(s):=\sum_{h\ge0}b_he^{-sh}=\frac1{1-\mathbb E_p e^{-sH}},\qquad
- \sum_{h\ge0}m_he^{-sh}=B(s)^2\mathbb E_p[Le^{-sH}].$$ Positive coefficient summation of (R:alt:pv:inputs) yields $B(1/r)=r^{\beta+o(1)}$ and $\sum m_he^{-h/r}=r^{d+\beta+o(1)}$. This proves (R:alt:pv:discounted). The height deficit is $r^{-\beta+o(1)}$, so $p(H>r)\le r^{-\beta+o(1)}$ and $\mathbb E[H;H\le r]\le r^{1-\beta+o(1)}$. To obtain the reverse height-tail bound, fix $\delta>0$ and use the deficit at scale $r^{1+\delta}$. Heights at most $r$ contribute at most $r^{-\beta-\delta+o(1)}$, whereas that deficit is $r^{-\beta(1+\delta)+o(1)}$. The former is negligible because $\beta<1$. Thus $p(H>r)\ge r^{-\beta(1+\delta)-o(1)}$; let $\delta$ decrease to zero.
+ \sum_{h\ge0}m_he^{-sh}=B(s)^2\mathbb E_p[Le^{-sH}].$$ Positive coefficient summation of (58) yields $B(1/r)=r^{\beta+o(1)}$ and $\sum m_he^{-h/r}=r^{d+\beta+o(1)}$. This proves (61). The height deficit is $r^{-\beta+o(1)}$, so $p(H>r)\le r^{-\beta+o(1)}$ and $\mathbb E[H;H\le r]\le r^{1-\beta+o(1)}$. To obtain the reverse height-tail bound, fix $\delta>0$ and use the deficit at scale $r^{1+\delta}$. Heights at most $r$ contribute at most $r^{-\beta-\delta+o(1)}$, whereas that deficit is $r^{-\beta(1+\delta)+o(1)}$. The former is negligible because $\beta<1$. Thus $p(H>r)\ge r^{-\beta(1+\delta)-o(1)}$; let $\delta$ decrease to zero.
 
-Write $j_h=\mathbb E_p[L;H=h]$. Coefficientwise the reward identity is $m=b*j*b$. At height $3r$, the convolution multiplier of each $j_h$ with $h\le r$ is $$(b*b)_{3r-h}\ge r^{2\beta-1-o(1)},$$ because order $r$ terms have both indices comparable to $r$. Since $m_{3r}\le r^{d+\beta-1+o(1)}$, this proves the upper bound in (R:alt:pv:truncated). Splitting $p(L>n)$ according as $H>n^{1/d}$ or not gives the first bound in (R:alt:pv:tails).
+Write $j_h=\mathbb E_p[L;H=h]$. Coefficientwise the reward identity is $m=b*j*b$. At height $3r$, the convolution multiplier of each $j_h$ with $h\le r$ is $$(b*b)_{3r-h}\ge r^{2\beta-1-o(1)},$$ because order $r$ terms have both indices comparable to $r$. Since $m_{3r}\le r^{d+\beta-1+o(1)}$, this proves the upper bound in (60). Splitting $p(L>n)$ according as $H>n^{1/d}$ or not gives the first bound in (62).
 
-We verify that the discounted reward is spatially retained. The elementary packing bound for a self-avoiding path in a strip is $L\le C h(1+S)$ at height $h\ge1$. Integrating (R:alt:pv:lateral) therefore gives, after decreasing $c$, $$\mathbb E_p[L;H=h,S>t]
- \le C h(1+t+h)e^{-ct/(h+1)}.$$ For $h>r\log^2r$, use $j_h\le m_h$ and the factor $e^{-h/r}$; the resulting tail is smaller than every inverse power of $r$. For $h\le r\log^2r$ and $S>r\log^4r$, the last display has the same property after summing over $h$. Thus removing these two tails retains $r^{d-\beta+o(1)}$. Evaluating this conclusion at $r=h^{1-\delta}$ gives $\sum_{j\le h}j_j\ge h^{d-\beta-o(1)}$ after letting $\delta\downarrow0$. This proves the other half of (R:alt:pv:truncated).
+We verify that the discounted reward is spatially retained. The elementary packing bound for a self-avoiding path in a strip is $L\le C h(1+S)$ at height $h\ge1$. Integrating (59) therefore gives, after decreasing $c$, $$\mathbb E_p[L;H=h,S>t]
+ \le C h(1+t+h)e^{-ct/(h+1)}.$$ For $h>r\log^2r$, use $j_h\le m_h$ and the factor $e^{-h/r}$; the resulting tail is smaller than every inverse power of $r$. For $h\le r\log^2r$ and $S>r\log^4r$, the last display has the same property after summing over $h$. Thus removing these two tails retains $r^{d-\beta+o(1)}$. Evaluating this conclusion at $r=h^{1-\delta}$ gives $\sum_{j\le h}j_j\ge h^{d-\beta-o(1)}$ after letting $\delta\downarrow0$. This proves the other half of (60).
 
 On the retained set $L=O(r^2\log^6r)$. Take $r=n^{1/2-\delta}$, so eventually $L\le n$ on that set. Since $1-e^{-L/n}\ge(1-e^{-1})L/n$ for $L\le n$, its retained reward gives $$1-\mathbb E_p e^{-L/n}
  \ge n^{-1}r^{7/12-o(1)}
- =n^{-17/24-(7/12)\delta-o(1)}.$$ Let $\delta\downarrow0$. Finally, split the event $D>r$ at $H=r/\log^2r$. The height tail costs $r^{-\beta+o(1)}$; on the complement, diameter greater than $r$ forces $S\ge c_0r$. Summing (R:alt:pv:lateral) over the remaining heights is superpolynomially small. This proves the diameter bound. ◻
+ =n^{-17/24-(7/12)\delta-o(1)}.$$ Let $\delta\downarrow0$. Finally, split the event $D>r$ at $H=r/\log^2r$. The height tail costs $r^{-\beta+o(1)}$; on the complement, diameter greater than $r$ forces $S\ge c_0r$. Summing (59) over the remaining heights is superpolynomially small. This proves the diameter bound. ◻
 
 To distinguish a completed prefix from the part retained before an exit, write $\eta_k$ for the $k$th irreducible, $H_k=H(\eta_k)$, $L_k=L(\eta_k)$, $S_H(k)=\sum_{i\le k}H_i$, and $\Gamma_k=\eta_1\circ\cdots\circ\eta_k$. For $h,w>0$ put $$V_h=\sum_{k\ge1}L_k\mathbf1_{\{S_H(k)\le h\}},\qquad
  V_h^{(w)}=\sum_{k\ge1}L_k
@@ -1309,42 +1308,42 @@ To distinguish a completed prefix from the part retained before an exit, write $
 
 **Corollary 10.2** (Consequences under the weaker finite inputs). *Let $\gamma_0$ be the source port, $\gamma_n$ the $n$th visited vertex of the infinite concatenation, and $Y_n$ its forward height from the source. Almost surely, $$Y_n\ge n^{3/4-o(1)},\qquad
  |\gamma_n-\gamma_0|\le n^{17/18+o(1)}.$$ For the normalized finite bridge law summed over heights with weight $\rho^Le^{-L/n}$, its height is at least $n^{3/4-\varepsilon}$ with probability tending to one, for every $\varepsilon>0$. The unnormalized mass of half-plane arches of length greater than $n$ is at most $n^{-3/16+o(1)}$. The completed-vertex rewards just defined satisfy, for some fixed $C>0$, $$\begin{equation}
-\label{R:alt:pv:prefix}
+\tag{63}
  \mathbb E V_h=h^{4/3+o(1)},\qquad
  \mathbb E V_h^{(C h\log^2h)}=h^{4/3+o(1)}.
 \end{equation}$$ Consequently the expected number of vertices before first exit from a disk of radius $R$ is at least $R^{4/3-o(1)}$.*
 
-*Proof.* We give the estimates that distinguish these conclusions from the sharp spatial law. At a dyadic vertex time $n$, let $m=\lfloor n^{9/16-\varepsilon}\rfloor$. The length tail in (R:alt:pv:tails), a union bound above $n$, and Markov’s inequality for lengths truncated at $n$ imply $$p\Bigl(\sum_{i\le m}L_i>n\Bigr)\le n^{-\varepsilon+o(1)}.$$ The probability that all of those $m$ heights are below $n^{3/4-2\varepsilon/\beta}$ is stretched exponentially small, by the matching height tail. Once these pieces have been completed, every later vertex is above their slabs. Borel–Cantelli on dyadics, followed by monotonicity between dyadics, proves the asserted height lower bound.
+*Proof.* We give the estimates that distinguish these conclusions from the sharp spatial law. At a dyadic vertex time $n$, let $m=\lfloor n^{9/16-\varepsilon}\rfloor$. The length tail in (62), a union bound above $n$, and Markov’s inequality for lengths truncated at $n$ imply $$p\Bigl(\sum_{i\le m}L_i>n\Bigr)\le n^{-\varepsilon+o(1)}.$$ The probability that all of those $m$ heights are below $n^{3/4-2\varepsilon/\beta}$ is stretched exponentially small, by the matching height tail. Once these pieces have been completed, every later vertex is above their slabs. Borel–Cantelli on dyadics, followed by monotonicity between dyadics, proves the asserted height lower bound.
 
-Conversely take $m=\lceil n^{17/24+\varepsilon}\rceil$. The last estimate in (R:alt:pv:tails) and exponential Markov give $$p\Bigl(\sum_{i\le m}L_i\le n\Bigr)
+Conversely take $m=\lceil n^{17/24+\varepsilon}\rceil$. The last estimate in (62) and exponential Markov give $$p\Bigl(\sum_{i\le m}L_i\le n\Bigr)
  \le e\bigl(\mathbb E_p e^{-L/n}\bigr)^m
  \le \exp(-n^{\varepsilon/2})$$ for large $n$. The diameter-tail bound, a union bound and truncated first moments show that $\sum_{i\le m}D_i\le m^{1/\beta+\varepsilon}$ except with a power-decaying probability. These bounds are summable on dyadics, and the union of the first $m$ blocks contains every vertex up to time $n$. Sending $\varepsilon$ to zero gives $(17/24)/\beta=17/18$.
 
 Including the empty bridge, the height-summed tilted law has normalizer $$Z_n=(1-\mathbb E_pe^{-L/n})^{-1}\ge n^{9/16-o(1)}.$$ The bound uses the upper length tail. Excluding the empty bridge replaces $Z_n$ by $Z_n-1$ and does not change the conclusion. Its part of height at most $h$ is bounded by $\sum_{j\le h}b_j=h^{\beta+o(1)}$. Take $h=n^{3/4-\varepsilon}$. For arches, split at height $h=n^{3/4}$: the part leaving that strip has mass $O(b_h)$; the remaining long arches have mass at most $n^{-1}h^{13/12+o(1)}$. Both contributions have exponent $-3/16$.
 
-For the completed prefix, put $j_h=\mathbb E_p[L;H=h]$ and mark the start height $l$ of each counted block. The expected count is exactly $$\mathbb E V_h=\sum_{l+j\le h}b_l j_j.$$ The cumulative bounds in Proposition 10.1 prove the upper bound. For the lower restrict $l\le h/2$ and apply the retained reward at scale $r=h^{1-\delta}$, so eventually $j\le h/2$. The prefix masses with $l\le h/2$ total $h^{\beta+o(1)}$. Their contribution with lateral excursion greater than $h\log^2h$ is superpolynomially small by (R:alt:pv:lateral); the retained last block has excursion at most $r\log^4r=o(h)$. For each marked block, its preceding prefix stays within $h\log^2h$ of the source and the marked block stays within $o(h)$ of its own start. Hence the whole prefix through that block is confined to $[-C h\log^2h,C h\log^2h]$ for one fixed $C$. These are precisely contributions to $V_h^{(C h\log^2h)}$, of expected total mass at least $h^{\beta+o(1)}r^{d-\beta-o(1)}$. Let $\delta\downarrow0$ and use $V_h^{(w)}\le V_h$ to obtain both parts of (R:alt:pv:prefix). Taking $h$ a sufficiently small multiple of $R/\log^3R$ puts every retained prefix inside the disk. All its counted vertices occur before first exit, which proves the last assertion. ◻
+For the completed prefix, put $j_h=\mathbb E_p[L;H=h]$ and mark the start height $l$ of each counted block. The expected count is exactly $$\mathbb E V_h=\sum_{l+j\le h}b_l j_j.$$ The cumulative bounds in Proposition 10.1 prove the upper bound. For the lower restrict $l\le h/2$ and apply the retained reward at scale $r=h^{1-\delta}$, so eventually $j\le h/2$. The prefix masses with $l\le h/2$ total $h^{\beta+o(1)}$. Their contribution with lateral excursion greater than $h\log^2h$ is superpolynomially small by (59); the retained last block has excursion at most $r\log^4r=o(h)$. For each marked block, its preceding prefix stays within $h\log^2h$ of the source and the marked block stays within $o(h)$ of its own start. Hence the whole prefix through that block is confined to $[-C h\log^2h,C h\log^2h]$ for one fixed $C$. These are precisely contributions to $V_h^{(C h\log^2h)}$, of expected total mass at least $h^{\beta+o(1)}r^{d-\beta-o(1)}$. Let $\delta\downarrow0$ and use $V_h^{(w)}\le V_h$ to obtain both parts of (63). Taking $h$ a sufficiently small multiple of $R/\log^3R$ puts every retained prefix inside the disk. All its counted vertices occur before first exit, which proves the last assertion. ◻
 
 ### Completed-prefix mass in a fixed-proportion ball
 
-The disk transfer representation supplies a stronger confinement input [RenewalDiskCompanion, Theorem 1.1]. In its unit-edge embedding a layer has height $3/2$, and its height-$h$ bridge masses satisfy $$\begin{equation}
-\label{R:alt:pd:input}
+The disk transfer representation supplies a stronger confinement input [21, Theorem 1.1]. In its unit-edge embedding a layer has height $3/2$, and its height-$h$ bridge masses satisfy $$\begin{equation}
+\tag{64}
  b_h\asymp(1+h)^{-1/4},\qquad m_h=h^{13/12+o(1)}.
 \end{equation}$$ For every sufficiently large fixed $C$, the lower bound for $m_h$ remains valid when the entire bridge has lateral wandering at most $Ch$. Multiplying the preceding triangular-side-one coordinates by $\sqrt3$ gives this unit-edge embedding: the layer distance becomes $3/2$. Vertex counts and critical weights are unchanged. We keep layer height integral in each embedding.
 
-**Proposition 10.3** (A fixed-ball completed-prefix expectation). *Under the irreducible law from (R:alt:pd:input), let $\mathcal V_R$ be the vertices through the last block ending at cumulative layer height at most $R$, excluding the overshooting block, and let $\mathcal V_\infty$ be the full infinite trace. With the starting port as origin, $$\mathbb E|\mathcal V_R|=R^{4/3+o(1)},\qquad
+**Proposition 10.3** (A fixed-ball completed-prefix expectation). *Under the irreducible law from (64), let $\mathcal V_R$ be the vertices through the last block ending at cumulative layer height at most $R$, excluding the overshooting block, and let $\mathcal V_\infty$ be the full infinite trace. With the starting port as origin, $$\mathbb E|\mathcal V_R|=R^{4/3+o(1)},\qquad
  \mathbb E|\mathcal V_R\cap B(0,R)|=R^{4/3+o(1)},$$ and almost surely $$|\mathcal V_\infty\cap B(0,R)|\le R^{4/3+o(1)}.$$ Changing the ball radius by any fixed positive factor preserves the expectation exponent.*
 
-*Proof.* Again put $j_h=\mathbb E_p[L;H=h]$ and $\beta=3/4$. The renewal and reward identities with (R:alt:pd:input) give $$B(1/R)\asymp R^\beta,\quad
+*Proof.* Again put $j_h=\mathbb E_p[L;H=h]$ and $\beta=3/4$. The renewal and reward identities with (64) give $$B(1/R)\asymp R^\beta,\quad
  \sum_hm_he^{-h/R}=R^{25/12+o(1)},\quad
  \sum_hj_he^{-h/R}=R^{7/12+o(1)}.$$ They imply $\sum_{h\le R}j_h=R^{7/12+o(1)}$. For the lower bound, evaluate at $R^{1-\varepsilon}$: the tail beyond $R$ is exponentially negligible because $j_h\le m_h$ has polynomial growth; then let $\varepsilon\downarrow0$. Consequently $\sum_{l+h\le R}b_lj_h=R^{4/3+o(1)}$, proving the first expectation and the upper bound for the second.
 
 The fixed-ball lower bound needs the confined bridge estimate, rather than only these transforms. Choose $c_0>0$ so small that each height-$m$ bridge with $c_0R\le m\le2c_0R$ and lateral wandering at most $Cm$ lies in $B(0,R)$ and has height at most $R$. The sum of their length masses is $$\begin{equation}
-\label{R:alt:pd:marked}
+\tag{65}
  \sum_{c_0R\le m\le2c_0R}
    \sum_{\substack{\gamma:H(\gamma)=m\\\gamma\subset B(0,R)}}
        L(\gamma)\rho^{L(\gamma)}
  \ge R^{25/12-o(1)}.
-\end{equation}$$ Under the iid irreducible law, the left side counts visits in prefixes ending at such renewal heights, with a visit repeated at later permissible prefix endings. For a vertex in a block ending at height $s\le R$, condition on that block and its past. Dropping every future confinement condition, the expected number of repetitions at later renewal endings is at most $\sum_{h\le R}b_h=O(R^\beta)$, by independence of the future pieces. Every counted vertex belongs to $\mathcal V_R\cap B(0,R)$. Tonelli’s theorem therefore bounds the left side of (R:alt:pd:marked) by $CR^\beta\mathbb E|\mathcal V_R\cap B(0,R)|$. Since $25/12-\beta=4/3$, this proves the lower bound. The same choice of a smaller $c_0$ handles any fixed positive multiple of the ball radius.
+\end{equation}$$ Under the iid irreducible law, the left side counts visits in prefixes ending at such renewal heights, with a visit repeated at later permissible prefix endings. For a vertex in a block ending at height $s\le R$, condition on that block and its past. Dropping every future confinement condition, the expected number of repetitions at later renewal endings is at most $\sum_{h\le R}b_h=O(R^\beta)$, by independence of the future pieces. Every counted vertex belongs to $\mathcal V_R\cap B(0,R)$. Tonelli’s theorem therefore bounds the left side of (65) by $CR^\beta\mathbb E|\mathcal V_R\cap B(0,R)|$. Since $25/12-\beta=4/3$, this proves the lower bound. The same choice of a smaller $c_0$ handles any fixed positive multiple of the ball radius.
 
 For the almost-sure statement, the bounded-factor height deficit gives $p(H>R)\asymp R^{-\beta}$: its upper bound is immediate, and after using that upper bound the contribution of $H\le\eta R$ to the deficit at $R$ is at most $C\eta^{1-\beta}R^{-\beta}$. Choose a fixed small $\eta$; the remaining contribution gives $p(H>\eta R)\ge cR^{-\beta}$. Replacing $R$ by $R/\eta$ proves the lower bound at $R$. Splitting according to height and using the cumulative reward gives $p(L>t)\le t^{-9/16+o(1)}$. The first $k=\lceil R^{\beta+\varepsilon}\rceil$ blocks reach a height larger than the greatest layer meeting $B(0,R)$ except with probability $\exp(-cR^\varepsilon)$. Their total length is at most $R^{4/3+3\varepsilon(4/3)/\beta}$ except with probability $R^{-2\varepsilon+o(1)}$, by a union bound for a length above that threshold and Markov’s inequality for truncated lengths. After those blocks, the path remains above the ball. The estimates are summable on dyadic radii; monotonicity and $\varepsilon\downarrow0$ complete the proof. ◻
 
@@ -1354,15 +1353,15 @@ This section derives the irreducible length tail using only the signed cylinder 
 
 ### Finite inputs and the proof strategy
 
-We use ports on the triangular tiling of side one, with height measured in whole tessellation layers and length equal to visited vertex count. The finite inputs come from the signed cylinder representation [RenewalSignedCompanion, Section 2, Propositions 9.1–9.2 and Theorems 1.1–1.2]. We state them here in the form used below. Let $\vartheta=\pi/8$. If $K(a,b)$ is the positive critical chord kernel in a convex tessellation polygon, its signed boundary balance is $$\sum_b e^{3iT(a,b)/8}K(a,b)=1,$$ where $T(a,b)$ is the total tangent turn of a chord from the inward edge at $a$ to the outward edge at $b$. Convexity gives $|T(a,b)|\le\pi$, so the real coefficients are uniformly positive. The same local identity cancels the two orientations of a self-collision whose incoming stem lies outside its loop. In the upper half-plane put $H_\partial(d)=K(0,d)$ for the kernel to the port $d$ lattice units to the right, and let $W_R$ be the mass of arches from one port reaching distance at least $R$. The finite boundary theorem gives $$\begin{equation}
-\label{R:alt:j:finite-boundary}
+We use ports on the triangular tiling of side one, with height measured in whole tessellation layers and length equal to visited vertex count. The finite inputs come from the signed cylinder representation [22, Section 2, Propositions 9.1–9.2 and Theorems 1.1–1.2]. We state them here in the form used below. Let $\vartheta=\pi/8$. If $K(a,b)$ is the positive critical chord kernel in a convex tessellation polygon, its signed boundary balance is $$\sum_b e^{3iT(a,b)/8}K(a,b)=1,$$ where $T(a,b)$ is the total tangent turn of a chord from the inward edge at $a$ to the outward edge at $b$. Convexity gives $|T(a,b)|\le\pi$, so the real coefficients are uniformly positive. The same local identity cancels the two orientations of a self-collision whose incoming stem lies outside its loop. In the upper half-plane put $H_\partial(d)=K(0,d)$ for the kernel to the port $d$ lattice units to the right, and let $W_R$ be the mass of arches from one port reaching distance at least $R$. The finite boundary theorem gives $$\begin{equation}
+\tag{66}
  2\sin\vartheta\sum_{d\ge1}H_\partial(d)=1,
  \qquad W_R=R^{-1/4+o(1)}.
 \end{equation}$$ For a finite convex tessellation polygon $D$ and a honeycomb vertex $v$ not adjacent to a boundary port, the raw critical visit mass summed over all ordered first-exit boundary chords of $D$ through $v$, with both sources and terminals summed, is comparable with absolute positive constants to the sum of the three nesting partitions at its incident face centers. Each nesting partition counts disjoint enclosing polygons in $D$, with weight $2\rho^{|\lambda|}$ per polygon. Writing $G_M(g)$ here for the companion’s $G_{M/2}(g)$, where the full physical period $M$ belongs to $4\mathbb N$ and the two marked faces are half a period apart, we have $$\begin{equation}
-\label{R:alt:j:finite-cylinder}
+\tag{67}
  G_M(2)=M^{1/6+o(1)}.
 \end{equation}$$ The visit and localization theorems give the following bounds in a regular hexagon $D_R$ of side $R$: the mass of ordered chords visiting the middle disk of radius $R/10$ is at most $R^{3/4+o(1)}$, and their first length mass is at least $R^{25/12-o(1)}$. Indeed, every chord visiting the middle disk belongs to the companion’s macroscopic chord ensemble, which gives the mass upper bound. Its uniform raw visit mass at each middle vertex is $R^{1/12+o(1)}$. Summing over the order $R^2$ vertices in the disk gives the first-length lower bound. Finally the marked-polygon theorem gives $$\begin{equation}
-\label{R:alt:j:polygon-input}
+\tag{68}
  \sum_{\substack{\lambda\ \text{modulo translations}\\
                    \operatorname{diam}\lambda\le Q}}
        \rho^{|\lambda|}|\lambda|^2\le Q^{2/3+o(1)}.
@@ -1382,12 +1381,12 @@ Levels are horizontal tessellation lines, with heights in units of their spacing
 
 **Lemma 11.2** (Comparison with a half-plane cap). *In any convex tessellation domain, finite or infinite, the mass of chords from a fixed port which reach distance at least $S$ from that port is at most $C W_{cS}$, for absolute positive constants $c,C$. Convex boundary balances extend to half-planes, strips and wedges by exhaustion.*
 
-*Proof.* First exhaust a tangent half-plane by aligned tessellation hexagons. Boundary saturation in (R:alt:j:finite-boundary) and positive real parts show that the artificial exits tend to zero. Artificial exits in any smaller convex domain are a subset of these exits, so they too vanish. This justifies its limiting boundary balance.
+*Proof.* First exhaust a tangent half-plane by aligned tessellation hexagons. Boundary saturation in (66) and positive real parts show that the artificial exits tend to zero. Artificial exits in any smaller convex domain are a subset of these exits, so they too vanish. This justifies its limiting boundary balance.
 
 For the quantitative assertion, cut the domain by a tessellation hexagon about a nearby lattice vertex, whose inner and outer radii about the source lie between $cS$ and $S/2$. Subtract the balances before and after the cut. A chord valid in both domains has the same terminal phase and cancels; all remaining old chords are precisely those lost on imposing the cut. Every chord reaching distance $S$ is among these lost chords. The new exits lie on the cap, and convex positivity compares their mass with the lost mass in both directions, with absolute constants. Their paths are also cap exits in the cut tangent half-plane. Applying the same subtraction there bounds their mass by the lost half-plane arch mass, at most $W_{cS}$. The exhaustion argument above applies if the original domain is infinite. ◻
 
 **Lemma 11.3** (Boundary tails and bridge mass). *One has $$\begin{equation}
-\label{R:alt:j:eq-br1}
+\tag{69}
  A(h)=h^{-1/4+o(1)},\qquad b_h=h^{-1/4+o(1)}.
 \end{equation}$$ For a wedge of angle $60^\circ$ or $120^\circ$, a source on one ray at apex distance at most $CH$ has mass at least $H^{-1/4-o(1)}$ to the other ray. This lower bound is retained within distance $H^{1+\epsilon}$ of the source, for every fixed $\epsilon>0$.*
 
@@ -1398,7 +1397,7 @@ The phases of a left base exit, a right base exit and an exit on the other ray a
  +\sqrt2\sum_{0<a\le R<b}D(a,b)
    =\sum_{0<a\le R}A(\lceil a\rceil).$$ The total loss is at most $CW_{ca}$ by Lemma 11.2. For a lower bound, take also the reflected wedge with its apex on the other side of the source. Their intersection is a triangle of diameter $O(a)$. An arch escaping this triangle is lost in at least one wedge; reflection makes their loss masses equal. Thus the total loss in either wedge is at least $cW_{Ca}$, and has exponent $-1/4$.
 
-Since $L_>(a)=\sum_{b>a}D(a,b)$, the preceding identity is bounded above and below by fixed multiples of $\sum_{a\le R}L_>(a)$. Consequently $$\sum_{a\le R} A(\lceil a\rceil)=R^{3/4+o(1)}.$$ Monotonicity gives the upper bound for $A(R)$. For the lower bound, subtract the cumulative sum at $R$ from that at $R^{1+\delta}$ and bound the difference above by $R^{1+\delta}A(R)$. Letting $\delta\downarrow0$ proves the first assertion in (R:alt:j:eq-br1).
+Since $L_>(a)=\sum_{b>a}D(a,b)$, the preceding identity is bounded above and below by fixed multiples of $\sum_{a\le R}L_>(a)$. Consequently $$\sum_{a\le R} A(\lceil a\rceil)=R^{3/4+o(1)}.$$ Monotonicity gives the upper bound for $A(R)$. For the lower bound, subtract the cumulative sum at $R$ from that at $R^{1+\delta}$ and bound the difference above by $R^{1+\delta}A(R)$. Letting $\delta\downarrow0$ proves the first assertion in (69).
 
 Half-plane–strip subtraction gives the exact relation $$b_h=\sin\vartheta\sum_{j>h}a_j.$$ An arch in this sum reaches distance comparable to $h$, so the cap bound gives $b_h\le h^{-1/4+o(1)}$. To obtain the reverse bound, let $K_{\rm w}(a,v)$ be the other-ray wedge kernel. Reversal and reflection make it symmetric in $a,v$, and the balance above shows $\sum_vK_{\rm w}(a,v)=a^{-1/4+o(1)}$. Cut the wedge at height $h$. All exits with $v>Ch$ are lost, and the new exits have mass at most $b_h$ per source. By symmetry, $$\sum_{a\le R}\sum_{v>Ch}K_{\rm w}(a,v)
  \ge R^{3/4-o(1)}-h^{3/4+o(1)}.$$ The subtracted term bounds the sum with $v\le Ch$ by summing first over $v$ and then over all $a$. Therefore $$Rb_h\ge c\bigl(R^{3/4-o(1)}-h^{3/4+o(1)}\bigr).$$ Set $R=h^{1+\epsilon}$ and let $\epsilon\downarrow0$.
@@ -1407,15 +1406,15 @@ For either stated wedge angle, the missing same-side endpoints beyond the apex h
 
 **Lemma 11.4** (Strip moments and fixed-width summability). *Let $H_h(d)$ be the strip same-side kernel at separation $d$. Then $$m_B(h):=\sum_{\text{bridges of height }h}\mathsf L\rho^{\mathsf L}
        \le h^{13/12+o(1)},$$ and the same upper bound holds for the first-length mass of strip arches. Moreover, $$\begin{equation}
-\label{R:alt:j:eq-br2}
+\tag{70}
  \sum_{d>0}d H_h(d)\le h^{3/4+o(1)}.
 \end{equation}$$ At each fixed strip height, the total critical mass and first-length mass of all walks from a fixed vertex staying in that strip are finite.*
 
 *Proof.* The interior visit identity bounds the sum of positive chord visits to any non-boundary-adjacent vertex by a constant times its three incident $+2$ nesting partitions. Each such one-face partition in the full strip has square at most $G_M(2)$, for a physical period $M\asymp Ch$ divisible by four in a transverse $60^\circ$ direction. To see the square, translate one strip and its marked face to each of the two cylinder marks. For large fixed $C$, the vertical separation of the half-period translates exceeds the strip width. The two strips are disjoint, their cycles embed without intersections, and every cycle separates the marks. Their independent union is therefore counted by $G_M(2)$.
 
-It follows from (R:alt:j:finite-cylinder) that the raw visit mass at each such vertex is at most $h^{1/12+o(1)}$. This bound applies first in finite convex strip exhaustions and then, by positivity, to genuine strip chords. For a fixed source, sum visits along a horizontal row. Horizontal translation identifies this sum with the sum over the corresponding boundary sources at one representative vertex of that row; it is bounded by the raw all-source visit estimate. There are $O(h)$ rows. Visits in a port-adjacent row can be charged, with bounded multiplicity, to slant neighbors on the path that are not adjacent to the boundary, when $h\ge2$. This proves the first-length bounds. Smaller heights have finite masses and moments as well: append a fixed bridge to reach a larger height; for arches use monotonicity.
+It follows from (67) that the raw visit mass at each such vertex is at most $h^{1/12+o(1)}$. This bound applies first in finite convex strip exhaustions and then, by positivity, to genuine strip chords. For a fixed source, sum visits along a horizontal row. Horizontal translation identifies this sum with the sum over the corresponding boundary sources at one representative vertex of that row; it is bounded by the raw all-source visit estimate. There are $O(h)$ rows. Visits in a port-adjacent row can be charged, with bounded multiplicity, to slant neighbors on the path that are not adjacent to the boundary, when $h\ge2$. This proves the first-length bounds. Smaller heights have finite masses and moments as well: append a fixed bridge to reach a larger height; for arches use monotonicity.
 
-For (R:alt:j:eq-br2), cut the strip on a transverse $60^\circ$ tessellation line. Compare balances in the strip and in one remaining side of this cut, then sum over bottom sources on that side. Retain only same-side chords whose endpoints are on opposite sides of the cut; all are lost. A chord with endpoint separation $d$ has exactly $d$ such source placements, up to a fixed lattice factor. The total lost mass thus bounds the left side of (R:alt:j:eq-br2). It is controlled by new cut exits. Reversing these paths gives, at each cut port of height $y$, a mass of bottom exits at most $O(1)$, and at most $CW_{cy}$ when $y$ is bounded away from zero, by Lemma 11.2. Summing over $0\le y\le h$ gives $h^{3/4+o(1)}$.
+For (70), cut the strip on a transverse $60^\circ$ tessellation line. Compare balances in the strip and in one remaining side of this cut, then sum over bottom sources on that side. Retain only same-side chords whose endpoints are on opposite sides of the cut; all are lost. A chord with endpoint separation $d$ has exactly $d$ such source placements, up to a fixed lattice factor. The total lost mass thus bounds the left side of (70). It is controlled by new cut exits. Reversing these paths gives, at each cut port of height $y$, a mass of bottom exits at most $O(1)$, and at most $CW_{cy}$ when $y$ is bounded away from zero, by Lemma 11.2. Summing over $0\le y\le h$ gives $h^{3/4+o(1)}$.
 
 We finally record why arbitrary fixed-width walks, needed in the slit exhaustion below, are summable. Split such a walk at a global highest vertex. On each resulting chain, cut at the last occurrence of its lowest level, then the last highest level in the remainder, and continue. Vertex heights in thirds of a layer are integral and change at every step. The positive spans of these extremal pieces decrease strictly, except possibly for equality of the first two. Thus the number of pieces is bounded in terms of the strip height. Each piece can be extended at its extreme ends to horizontal ports by adding at most one new vertex per end, giving a bridge with bounded multiplicity and bounded weight change. Drop avoidance between different pieces and compensate for shared endpoints. There are finitely many possible lists of spans. For each list, the mass and its first-length insertion are bounded by products of finite bridge masses and moments. There are only finitely many possible rows of the split vertex; after fixing a representative in that row, the original initial vertex determines at most one horizontal translation. This proves both asserted finiteness statements. ◻
 
@@ -1424,7 +1423,7 @@ We finally record why arbitrary fixed-width walks, needed in the slit exhaustion
 The next estimates will control how many arches can fold into a bridge containing a prescribed irreducible. We first bound paths that go around the tip of a slit. We then use the same bound for pairs of bridge prefixes whose endpoints are far apart at the shorter height.
 
 **Lemma 11.5** (A slit bound uniform in the lower depth). *In the strip between levels $-s_0$ and $L$, where $s_0,L$ are positive integers, cut the bonds at ports on a horizontal ray from a tessellation vertex to the right at level zero. The cut has upper and lower shores. For an upper-shore source at distance $a=1/2,3/2,\ldots$ from the tip, entering upward, let $V(a)$ be the mass of exits on the bottom wall. Then $$\begin{equation}
-\label{R:alt:j:eq-br3}
+\tag{71}
  \sum_a V(a)\le L^{3/4+o(1)},
 \end{equation}$$ uniformly in $s_0$.*
 
@@ -1444,31 +1443,31 @@ Reversal of an upper-shore gained chord gives $\sum_a E_<(a)=\sum_a E_>(a)$. Sin
 **Figure 6:** The slit domain and the exit phases for an upward-entering source at distance $a$ from the tip, where $\theta_0=3\pi/8$. The shores are separated in the drawing to distinguish the two ports at each cut bond. A chord to the opposite shore has total tangent turn $2\pi$; its phase is therefore removed by projection perpendicular to $e^{2i\theta_0}$.
 
 **Lemma 11.6** (Two sources and positive boundary kernels). *Let $K$ be the positive chord kernel in a convex tessellation polygon. For adjacent ports $a,b$ in counterclockwise order on a straight boundary segment and another port $e$, with cyclic order $a<b<e$, let $K_2(ac,bd)$ denote the mass of mutually vertex-disjoint chord pairs. Put $r=e^{2i\vartheta}$ and $s=3/8$. Then $$\begin{equation}
-\label{R:alt:j:eq-br4}
+\tag{72}
 K(a,e)-rK(b,e)
  =\sum_{b<d<e}e^{isT(b,d)}K_2(ae,bd)
  -r\sum_{e<c<a}e^{isT(a,c)}K_2(ac,be).
 \end{equation}$$ Consequently same-side kernels decrease as the terminal port moves away from a fixed source. For every fixed small $\epsilon>0$, the half-plane kernel confined within distance $H^{1+5\epsilon}$ of its source satisfies $$\begin{equation}
-\label{R:alt:j:eq-br5}
+\tag{73}
 K_{\rm conf}(c,b)\ge H^{-5/4-C\epsilon-o(1)}
 \qquad(1\le |b-c|\le H^{1+3\epsilon}).
 \end{equation}$$*
 
-*Proof.* Because $a,b$ lie on the same straight side, $T(a,e)=T(b,e)$; give both trunks the common phase $e^{isT(a,e)}$ during the following exploration. Fix a trunk from $a$ to $e$ and grow a turning-weighted stem from $b$, stopping at its first trunk contact as well as at boundary exits. Compare this with trunk $b$ to $e$ and stem from $a$. Self-collisions cancel by the local rule. A contact term is an embedded Y tree with outward arms in cyclic order $a,b,e$. At its junction, the turn from the $a$ arm onto the $e$ arm is $+\pi/3$, whereas from the $b$ arm it is $-\pi/3$. The other turns and all vertex weights agree, so the ratio of the two contact phases is $e^{is(2\pi/3)}=r$. This also covers immediate contact. After multiplying the second exploration by $r$, all contact terms cancel. The remaining disjoint boundary exits have exactly the two cyclic ranges in (R:alt:j:eq-br4); division by the common trunk phase gives that identity. In strip exhaustions, remote disjoint exits vanish by product domination and the cap bound.
+*Proof.* Because $a,b$ lie on the same straight side, $T(a,e)=T(b,e)$; give both trunks the common phase $e^{isT(a,e)}$ during the following exploration. Fix a trunk from $a$ to $e$ and grow a turning-weighted stem from $b$, stopping at its first trunk contact as well as at boundary exits. Compare this with trunk $b$ to $e$ and stem from $a$. Self-collisions cancel by the local rule. A contact term is an embedded Y tree with outward arms in cyclic order $a,b,e$. At its junction, the turn from the $a$ arm onto the $e$ arm is $+\pi/3$, whereas from the $b$ arm it is $-\pi/3$. The other turns and all vertex weights agree, so the ratio of the two contact phases is $e^{is(2\pi/3)}=r$. This also covers immediate contact. After multiplying the second exploration by $r$, all contact terms cancel. The remaining disjoint boundary exits have exactly the two cyclic ranges in (72); division by the common trunk phase gives that identity. In strip exhaustions, remote disjoint exits vanish by product domination and the cap bound.
 
 If $e$ lies beyond $b$ on the same base segment, multiply the identity by $e^{3i\vartheta}$ and take imaginary parts. The first sum has zero imaginary part. In the subtracted sum the sine phases are nonnegative, since $5\vartheta+sT\in[2\vartheta,8\vartheta]$. As $\sin3\vartheta=\sin5\vartheta>0$, this gives $K(a,e)\le K(b,e)$. Reversal makes it outward decrease of the terminal from a fixed source; a tessellation reflection gives the other direction.
 
-To prove the confined lower bound, use a tangent half-hexagonal cap whose radius is a small constant times $H^{1+5\epsilon}$. Along its base, the sum of kernels to ports beyond distance $H^{1+4\epsilon}$ is at least the half-plane tail $A(H^{1+4\epsilon})$ minus the lost mass $CW_{cH^{1+5\epsilon}}$. By Lemmas 11.2 and 11.3, the second term is negligible and the first has exponent $-(1+4\epsilon)/4$. There are $O(H^{1+5\epsilon})$ ports on the cap base. The outward monotonicity just proved bounds the kernel to every nearer port below by this sum divided by that number. The cap lies inside the required confinement radius, giving (R:alt:j:eq-br5). ◻
+To prove the confined lower bound, use a tangent half-hexagonal cap whose radius is a small constant times $H^{1+5\epsilon}$. Along its base, the sum of kernels to ports beyond distance $H^{1+4\epsilon}$ is at least the half-plane tail $A(H^{1+4\epsilon})$ minus the lost mass $CW_{cH^{1+5\epsilon}}$. By Lemmas 11.2 and 11.3, the second term is negligible and the first has exponent $-(1+4\epsilon)/4$. There are $O(H^{1+5\epsilon})$ ports on the cap base. The outward monotonicity just proved bounds the kernel to every nearer port below by this sum divided by that number. The cap lies inside the required confinement radius, giving (73). ◻
 
 **Lemma 11.7** (Top endpoints of two bridges). *Take adjacent bottom ports $a,b$, ordered left to right. Let $b_h(e)$ be the height-$h$ top kernel from $a$, and put $D_h(c,d)=K_2(ac,bd)$ for top ports $c<d$, in left-to-right order. Then $$b_h(e)-b_h(e-1)=\sum_{d>e}D_h(e,d)-\sum_{c<e}D_h(c,e),
  \qquad b_h(e)=\sum_{c\le e<d}D_h(c,d),$$ and $$\begin{equation}
-\label{R:alt:j:eq-br6}
+\tag{74}
  \sum_{h\ge H}\sum_{c<d}D_h(c,d)\le H^{-1/4+o(1)}.
 \end{equation}$$*
 
 *Proof.* Apply the imaginary-part projection in the preceding proof with $e$ on the top wall. Bottom exits to the right of $b$ and to the left of $a$ vanish. The top coefficients agree because $\sin3\vartheta=\sin5\vartheta$, giving the difference identity. Summing it from the left end of the strip gives the second identity; the kernel tends to zero at infinity by summability.
 
-For the last bound, join the adjacent bottom ports below the strip by a three-center arch. Together with the two bridges this gives a downward half-plane arch from $c$ to $d$. Translate its first port to a fixed source. The connector has a unique deepest vertex, so the output recovers the connector, the translation and the original height. Thus the map is injective over all $h$, with constant weight factor $\rho^3$. Its image reaches distance at least a constant times $H$, and (R:alt:j:finite-boundary) proves the bound. ◻
+For the last bound, join the adjacent bottom ports below the strip by a three-center arch. Together with the two bridges this gives a downward half-plane arch from $c$ to $d$. Translate its first port to a fixed source. The connector has a unique deepest vertex, so the output recovers the connector, the translation and the original height. Thus the map is injective over all $h$, with constant weight factor $\rho^3$. Its image reaches distance at least a constant times $H$, and (66) proves the bound. ◻
 
 We now pass to irreducible pieces, still without any lower length-tail estimate. Unique decomposition at once-crossed levels gives $$B(z)=\sum_{h\ge0}b_hz^h=\frac1{1-I(z)},\qquad
  I(z)=\sum_{\gamma\in\mathcal I}\rho^{L(\gamma)}z^{H(\gamma)}.$$ Lemma 11.3 gives $B(e^{-1/H})=H^{3/4+o(1)}$; letting $z\uparrow1$ proves $I(1)=1$. Thus the critical irreducible weights define the same law $p$ as in Proposition 2.2. Write $\mathsf H,\mathsf X,\mathsf L$ for a block’s height, signed horizontal displacement and length, and let $S$ be its horizontal coordinate range. Its diameter is at most $C(\mathsf H+S)$.
@@ -1476,7 +1475,7 @@ We now pass to irreducible pieces, still without any lower length-tail estimate.
 It will be convenient to name the normalized law of all finite bridges with weight $\rho^{\mathsf L}z^{\mathsf H}$, including the empty bridge: call it $\mathbb Q_z$. Under $\mathbb Q_z$, the number of pieces is geometric with probabilities $(1-I(z))I(z)^k$, $k\ge0$, and, given this number, their shapes are independent with law $$p_z(d\gamma)=I(z)^{-1}z^{H(\gamma)}p(d\gamma).$$ This statement concerns different pieces; no independence of the coordinates within one piece is asserted.
 
 **Lemma 11.8** (Increment estimates before the lower length bound). *Under $p$, $$\begin{equation}
-\label{R:alt:j:eq-br7}
+\tag{75}
  \mathbb P_p(\mathsf H>t)=t^{-3/4+o(1)},\qquad
  \mathbb P_p(S>t)\le t^{-3/4+o(1)},\qquad
  \mathbb P_p(\mathsf L>n)\le n^{-9/16+o(1)}.
@@ -1488,7 +1487,7 @@ Call a block wide if $S>t$, and put $u=\mathbb E_p[z^{\mathsf H};S>t]$. A bridge
 
 The marked-reward identity gives $$\sum_hm_B(h)z^h=B(z)^2\mathbb E_p[\mathsf Lz^{\mathsf H}],
  \qquad \mathbb E_p[\mathsf L e^{-\mathsf H/H}]
-       \le H^{7/12+o(1)}.$$ Splitting according to $\mathsf H>n^{3/4}$ and applying Markov to the remaining length gives the upper length tail in (R:alt:j:eq-br7).
+       \le H^{7/12+o(1)}.$$ Splitting according to $\mathsf H>n^{3/4}$ and applying Markov to the remaining length gives the upper length tail in (75).
 
 It remains to prove that the signed displacement has a matching lower tail. By Lemma 11.7, bridge weights to any endpoint windows of size $G$ per row, summed over $R\le h\le2R$, are at most $C(G+1)R^{-1/4+o(1)}$. For $z=e^{-1/R}$, the whole height bin has $\mathbb Q_z$-probability $R^{-o(1)}$, whereas the part with $|\mathsf X_{\rm total}|\le R^{1-\epsilon}$ has probability at most $R^{-\epsilon+o(1)}$. Thus displacement larger than this threshold has at least subpower probability.
 
@@ -1503,7 +1502,7 @@ If every piece had displacement at most $t_*=R^{1-\delta}$, with $\epsilon\ll\de
 - *for each pair of positive renewal indices at most $m$, if their heights are $n\le p$, every crossing of line $n$ by the height-$p$ prefix lies strictly on its designated side of the other arm’s endpoint at $n$. When $n=p$, this means that the two endpoints are ordered.*
 
 *Then $$\begin{equation}
-\label{R:alt:j:eq-br8}
+\tag{76}
  p_m:=\mathbb P(P_m)\le m^{-1+o(1)}.
 \end{equation}$$*
 
@@ -1514,17 +1513,17 @@ Condition on the other path. Divide the renewal indices into residue classes mod
 If there are $k$ increments of magnitude greater than $2G$, their signed sum lands in an interval of width $2G$ with probability at most $C/\sqrt{k}$. Indeed, after fixing the other signs, the subsets of positive large signs that yield a sum in that interval form an antichain: adding one such sign changes the sum by more than $4G$. Counting maximal chains bounds its size by the middle binomial coefficient. Thus the conditional window probability at each sampled endpoint tends uniformly to zero. Successive conditioning makes a positive fraction of hits in any residue class exponentially unlikely in $m/m_0$. Union over the classes proves the assertion about at most $m/4$ close endpoints; the initial incomplete chunk costs at most $m_0=o(m)$ indices.
 
 Suppose now that $P_m$ holds, both total heights are at most $L$, and the exception above does not occur. There are at least $cm^2$ pairs of renewal indices for which the two prefixes are disjoint and their gap at the shorter height exceeds $G$. Crossings there by the longer prefix equal those by its full path: later pieces lie strictly above its endpoint. We claim that the expected number of all such height-bounded pairs is $$\begin{equation}
-\label{R:signed:gap-pairs}
+\tag{77}
  O(1)+O(L^{7/4+o(1)}/G).
-\end{equation}$$ Summing over renewal prefixes gives ordinary bridge weights. Equal-height pairs have bounded total mass by (R:alt:j:eq-br6). For unequal heights, fix their difference $s_0=p-n>0$ and which arm is shorter. Join their adjacent bottom starts by the three-center connector used in Lemma 11.7.
+\end{equation}$$ Summing over renewal prefixes gives ordinary bridge weights. Equal-height pairs have bounded total mass by (74). For unequal heights, fix their difference $s_0=p-n>0$ and which arm is shorter. Join their adjacent bottom starts by the three-center connector used in Lemma 11.7.
 
 At row $n$, choose a tessellation vertex between the shorter endpoint and the extreme crossing of the longer prefix. The gap gives at least $cG$ choices. From that tip cut the horizontal ray pointing away from the longer path’s crossings, through the shorter endpoint. The joined path avoids the slit: the shorter bridge is strict below its endpoint, and all crossings of the longer bridge at this row are on the other side. It starts at the slit shore, goes toward the connector, and terminates on the line of height $p$.
 
-The map is illustrated in Figure 7. Send the tip $(t,n)$ to the origin. If the shorter endpoint is on the right, use $(x',y')=(x-t,n-y)$; if it is on the left, use $(x',y')=(t-x,n-y)$. These tessellation symmetries make the slit rightward and the initial shore upper. The endpoint is on $y'=-s_0$, while the unique highest vertex, on the connector, has $y'=n+2/3$. The path is therefore counted by the slit estimate with upper wall $L+1$. Conversely, its unique highest vertex recovers $n$, the connector and the original translation, and hence both bridges and the chosen tip. For the fixed assignment this map is injective, with a fixed weight factor. Summing (R:alt:j:eq-br3) over the slit sources and dividing by the $cG$ tip choices bounds the pair mass, already summed over $n\le L$, by $CL^{3/4+o(1)}/G$. Sum over the at most $L$ height differences to obtain (R:signed:gap-pairs).
+The map is illustrated in Figure 7. Send the tip $(t,n)$ to the origin. If the shorter endpoint is on the right, use $(x',y')=(x-t,n-y)$; if it is on the left, use $(x',y')=(t-x,n-y)$. These tessellation symmetries make the slit rightward and the initial shore upper. The endpoint is on $y'=-s_0$, while the unique highest vertex, on the connector, has $y'=n+2/3$. The path is therefore counted by the slit estimate with upper wall $L+1$. Conversely, its unique highest vertex recovers $n$, the connector and the original translation, and hence both bridges and the chosen tip. For the fixed assignment this map is injective, with a fixed weight factor. Summing (71) over the slit sources and dividing by the $cG$ tip choices bounds the pair mass, already summed over $n\le L$, by $CL^{3/4+o(1)}/G$. Sum over the at most $L$ height differences to obtain (77).
 
 Division by $cm^2$ now bounds $p_m$ in the restricted height range by $m^{-1+C\delta+o(1)}$. To remove that restriction, set $t=m^{4/3+\delta/2}$. Exponential Markov at $1/t$, together with $\mathbb E[\mathsf H;\mathsf H\le t]\le t^{1/4+o(1)}$, shows that a sum of $m$ heights exceeding $L$ with no increment above $t$ has superpolynomially small probability. A height above $t$ at index $j$ on either arm is independent of $P_{j-1}$. Thus $$p_m\le Cm^{-1+C'\delta+o(1)}
        +Cm^{-1-c'\delta}\sum_{j<m}p_j,
- \qquad p_0=1,$$ for some $c'>0$. Induction gives $p_m=O_\eta(m^{-1+\eta})$ whenever $\eta>C'\delta$: under this bound the second term is $O(m^{-1+\eta-c'\delta})$. Choose $\delta$ arbitrarily small to obtain (R:alt:j:eq-br8). ◻
+ \qquad p_0=1,$$ for some $c'>0$. Induction gives $p_m=O_\eta(m^{-1+\eta})$ whenever $\eta>C'\delta$: under this bound the second term is $O(m^{-1+\eta-c'\delta})$. Choose $\delta$ arbitrarily small to obtain (76). ◻
 
 **Figure 7:** The pair-to-slit map when the shorter arm is on the right. Choose a tessellation vertex $t$ in the gap at height $n$, and direct the slit through the shorter endpoint. After reflection across that level and translation of the tip, the shorter endpoint is an upper-shore source and the longer endpoint is on the bottom line $-s_0=-(p-n)$. The unique maximum, at height $n+2/3$, identifies the connector and recovers $n$. If the shorter arm is on the left, a half-turn about $t$ gives the same orientation. Heights and paths are schematic, and the two slit shores are separated only for display.
 
@@ -1535,7 +1534,7 @@ Fold a half-plane arch of exact maximum layer $k$ at its leftmost highest down t
 Call a segment of an ordinary bridge *valid* if its endpoints and middle are renewal positions, at heights $c-k,c,c+k$, and it is the image of this fold up to translation. Endpoints of the whole bridge are allowed. Fix positive constants $c_1,C_1,C_2$ and a small $\epsilon>0$. Let $K$ count valid segments whose half-height satisfies $$c_1H\le k\le H^{1+C_1\epsilon}.$$ The essential bound is uniform in the shape and length of a single fixed irreducible; this is what will permit marking a long block later.
 
 **Lemma 11.10** (Folding with a fixed irreducible). *Fix an irreducible $\xi$ of height $d$. Place independent $\mathbb Q_z$ bridges below and above it, translating $\xi$ to the joining port, where $z=e^{-1/T}$ and $T=H^{1+C_2\epsilon}$. Write $\mathbb E^*_\xi$ for this law. Uniformly in $\xi$, $$\begin{equation}
-\label{R:alt:j:eq-br9}
+\tag{78}
  \mathbb E^*_\xi K\le H^{1/2+O(\epsilon)+o(1)}.
 \end{equation}$$*
 
@@ -1565,7 +1564,7 @@ Let the ordinary prefix on the defect arm contain $m$ blocks and end at height $
 
 After this summation the exposed portions can be counted as independent $p$-sequences: the first $m$ blocks on the defect arm and the other arm stopped at its first renewal at or above $l$. Their necessary disjointness and ordering conditions imply $P_m$. If at least $m$ blocks of the other arm have been exposed, restrict to its first $m$. If fewer have been exposed, extend that arm by ordinary blocks: they stay beyond $p\ge l$ and neither meet the defect arm’s ordinary prefix nor alter crossings at its renewal levels. Thus every such extension has the required conditions for the first $m$ blocks of both arms. This explains why a probability bound for two equally indexed prefixes applies to the unequal stopping rule.
 
-Retain the tilt $z^l$ on the $m$ ordinary blocks of the defect arm, and drop the other exposed tilt factors. For $m\le T^{3/4+\delta'}$, Lemma 11.9 bounds the sum of exposed-prefix weights by $$\sum_{m\le T^{3/4+\delta'}}p_m=T^{o(1)}.$$ For larger $m$, discard ordering instead and use $I(z)^m$; since $1-I(z)=T^{-3/4+o(1)}$, that tail is negligible for each fixed $\delta'>0$. Multiplying by the alignment bound proves (R:alt:j:eq-br9) for segments containing the defect, and hence for all valid segments. ◻
+Retain the tilt $z^l$ on the $m$ ordinary blocks of the defect arm, and drop the other exposed tilt factors. For $m\le T^{3/4+\delta'}$, Lemma 11.9 bounds the sum of exposed-prefix weights by $$\sum_{m\le T^{3/4+\delta'}}p_m=T^{o(1)}.$$ For larger $m$, discard ordering instead and use $I(z)^m$; since $1-I(z)=T^{-3/4+o(1)}$, that tail is negligible for each fixed $\delta'>0$. Multiplying by the alignment bound proves (78) for segments containing the defect, and hence for all valid segments. ◻
 
 ### Recoverable cuts and the second moment of finite chords
 
@@ -1591,24 +1590,24 @@ Let $N_Q$ count their common renewal heights up to $CQ$. For every fixed positiv
 For the second assertion, fix the original cut level and one arc. Its endpoints are ports on that line, so neither lies on a tessellation line in a different direction. Take the first and last, in level order, among the alleged many exact-one crossings in the second direction. The portion between them is a strict through-bridge and all intermediate exact-one levels are its renewals. For a single sequence the same argument uses $$\sum_{j\le CQ}b_j\le Q^{3/4+o(1)}$$ in place of the squared sum, and the threshold is $Q^{3/4+\epsilon}$. The end portions lie between the cutting-line constraint and the corresponding extreme-level constraint, so they are boundary chords in convex wedges and have bounded mass. The other polygon arc is a bounded-mass half-plane arch. Fixing their cut ports and levels costs only a polynomial. For a fixed-source arch use its base line in place of the polygon’s first cutting line; the same decomposition applies. Finally every path of diameter at most $Q$ has $O(Q^2)$ vertices, so fixed polynomial length factors are harmless. Crossings throughout are at bond midpoints. ◻
 
 **Lemma 11.12** (Chord second moment). *For the middle-visiting chord ensemble summed over $H\le R\le2H$, $$\begin{equation}
-\label{R:alt:j:eq-cl1}
+\tag{79}
  \sum_{R,\ \mathrm{chords}}\rho^{\mathsf L}\mathsf L^2
        \le H^{53/12+o(1)}.
 \end{equation}$$*
 
 *Proof.* Use the regular hexagons $D_R$ in the finite input, summed over integers $H\le R\le2H$. Consider ordered chords that visit the middle region (some center within $R/10$ of the middle). Their mass is at most $H^{7/4+o(1)}$ by the boundary estimate. Their length sum is at least $H^{37/12-o(1)}$ by the imported bulk-visit lower bound (at least $R^{2+1/12-o(1)}$ per hexagon). Close chords with additional paths, using a small $\epsilon>0$ and polygons of diameter $\le Q=H^{1+6\epsilon}$. All pieces joined at ports below have disjoint center sets and weights just multiply. Fix endpoint side choices, finitely many possibilities.
 
-- If both endpoints are on the same side, join them by an independent arch in its exterior half-plane. By (R:alt:j:eq-br5) the confinement toll (total available factor) is at least $H^{-5/4-C\epsilon-o(1)}$. That side level has exactly two crossings in the polygon. For a given nonexceptional polygon up to translation and fixed $R$, there are at most $Q^{1/2+\epsilon}$ choices for the cut level, and $O(H)$ more for translation along it (place a port on the side); the pieces can then be read from the polygon up to bounded choices.
+- If both endpoints are on the same side, join them by an independent arch in its exterior half-plane. By (73) the confinement toll (total available factor) is at least $H^{-5/4-C\epsilon-o(1)}$. That side level has exactly two crossings in the polygon. For a given nonexceptional polygon up to translation and fixed $R$, there are at most $Q^{1/2+\epsilon}$ choices for the cut level, and $O(H)$ more for translation along it (place a port on the side); the pieces can then be read from the polygon up to bounded choices.
 
-- If the sides are nonparallel, denote their lines by $v=0$ (source side) and $u=0$ (destination side), signed oblique level coordinates chosen so the interior lies at $u<0,v>0$. These tessellation lines meet at a lattice vertex at distances $O(H)$ from the two endpoints $a,b$. Join $a$ into the exterior wedge $u<0,v<0$ to an exit port $c$ on $u=0$. Both possible wedge angles are covered by the confined other-ray bound after (R:alt:j:eq-br1); use radii $\le H^{1+\epsilon}$. Then join $c$ to $b$ in the half-plane $u>0$. By (R:alt:j:eq-br5) the joint toll is at least $H^{-3/2-C\epsilon-o(1)}$. Now $u=0$ has exactly two crossings, and in the arc in $u<0$ the level $v=0$ has exactly one. Thus the translation choices at each $R$ cost at most $Q^{1/2+\epsilon}Q^{3/4+\epsilon}$ for nonexceptional polygons; the two level placements determine the translation, and the three pieces are recovered from the cuts.
+- If the sides are nonparallel, denote their lines by $v=0$ (source side) and $u=0$ (destination side), signed oblique level coordinates chosen so the interior lies at $u<0,v>0$. These tessellation lines meet at a lattice vertex at distances $O(H)$ from the two endpoints $a,b$. Join $a$ into the exterior wedge $u<0,v<0$ to an exit port $c$ on $u=0$. Both possible wedge angles are covered by the confined other-ray bound after (69); use radii $\le H^{1+\epsilon}$. Then join $c$ to $b$ in the half-plane $u>0$. By (73) the joint toll is at least $H^{-3/2-C\epsilon-o(1)}$. Now $u=0$ has exactly two crossings, and in the arc in $u<0$ the level $v=0$ has exactly one. Thus the translation choices at each $R$ cost at most $Q^{1/2+\epsilon}Q^{3/4+\epsilon}$ for nonexceptional polygons; the two level placements determine the translation, and the three pieces are recovered from the cuts.
 
-- For opposite parallel sides orient the strip vertically in height, the chord a bridge from $a$ to $b$ of height $h=2R$. Use an independent second height-$h$ bridge, started to the right of $a$ at an integer gap in $[H^{1+2\epsilon},2H^{1+2\epsilon}]$, confined within radius $H^{1+\epsilon}$ of its start. This has mass $h^{-1/4+o(1)}$ by (R:alt:j:eq-br1) and the cap comparison, and is separate from the chord. Join the pairs of ends by arches below and above the strip using (R:alt:j:eq-br5). Including the gap choices, the toll is at least $H^{-7/4-C\epsilon-o(1)}$. Across all $R$, the two cut levels both have exact-two crossings, and determine $h$, hence $R$; thus multiplicity for a nonexceptional polygon is at most $C Q^{1+2\epsilon}H$, including translation along the source side. The original pieces and the gap are then read off up to bounded choices.
+- For opposite parallel sides orient the strip vertically in height, the chord a bridge from $a$ to $b$ of height $h=2R$. Use an independent second height-$h$ bridge, started to the right of $a$ at an integer gap in $[H^{1+2\epsilon},2H^{1+2\epsilon}]$, confined within radius $H^{1+\epsilon}$ of its start. This has mass $h^{-1/4+o(1)}$ by (69) and the cap comparison, and is separate from the chord. Join the pairs of ends by arches below and above the strip using (73). Including the gap choices, the toll is at least $H^{-7/4-C\epsilon-o(1)}$. Across all $R$, the two cut levels both have exact-two crossings, and determine $h$, hence $R$; thus multiplicity for a nonexceptional polygon is at most $C Q^{1+2\epsilon}H$, including translation along the source side. The original pieces and the gap are then read off up to bounded choices.
 
-In each case the number of inverse specifications even in the exceptional set is only polynomial (port assignments and translations in bounded ranges). Thus by (R:alt:j:polygon-input) and the observations above, counting polygon lengths squared (which majorize the chord lengths squared) costs $Q^{2/3+o(1)}$ times the stated multiplicities, plus negligible errors. To display the losses, suppress the already specified $O(\epsilon)+o(1)$ corrections. The leading exponents from the inverse toll and the inverse count (including the $R$ sum) are $$\begin{aligned}
+In each case the number of inverse specifications even in the exceptional set is only polynomial (port assignments and translations in bounded ranges). Thus by (68) and the observations above, counting polygon lengths squared (which majorize the chord lengths squared) costs $Q^{2/3+o(1)}$ times the stated multiplicities, plus negligible errors. To display the losses, suppress the already specified $O(\epsilon)+o(1)$ corrections. The leading exponents from the inverse toll and the inverse count (including the $R$ sum) are $$\begin{aligned}
 \text{same side:}&\quad \tfrac54+\tfrac52=\tfrac{15}4,\\
 \text{nonparallel sides:}&\quad \tfrac32+\tfrac94=\tfrac{15}4,\\
 \text{opposite sides:}&\quad \tfrac74+2=\tfrac{15}4.
-\end{aligned}$$ In the first two cases one sums over $R$; in the opposite-side case the two recovered cut levels already determine $R$. Including the polygon second-moment exponent gives $15/4+2/3=53/12$. Let $\epsilon\downarrow0$ to obtain (R:alt:j:eq-cl1). ◻
+\end{aligned}$$ In the first two cases one sums over $R$; in the opposite-side case the two recovered cut levels already determine $R$. Including the polygon second-moment exponent gives $15/4+2/3=53/12$. Let $\epsilon\downarrow0$ to obtain (79). ◻
 
 **Corollary 11.13** (Mass of long middle-visiting chords). *For every small fixed $\delta>0$, the middle-visiting chords with $\mathsf L\ge H^{4/3-\delta}$, summed over $H\le R\le2H$, have critical mass at least $H^{7/4-o(1)}$.*
 
@@ -1633,15 +1632,15 @@ We can now combine the finite moment estimate with the uniform folding bound. Th
 
 The exceptional sets remain negligible after these conversions because all inverse specifications cost only fixed powers of $Q$.
 
-*A long tilted bridge must contain a large block.* Under $\mathbb Q_z$, the geometric number of blocks exceeds $H^{3/4+4\epsilon}$ with superpolynomially small probability, because $1-I(z)=T^{-3/4+o(1)}$. Set larger lengths to zero and truncate at $n$. Their mean under $p_z$ is at most $n^{7/16+o(1)}$ by (R:alt:j:eq-br7). Exponential Markov at $1/n$ therefore bounds the probability of length at least $H^{4/3-\delta}$ with no block of length at least $n$ by an exponential whose exponent is at most $$-H^{4/3-\delta}/n
+*A long tilted bridge must contain a large block.* Under $\mathbb Q_z$, the geometric number of blocks exceeds $H^{3/4+4\epsilon}$ with superpolynomially small probability, because $1-I(z)=T^{-3/4+o(1)}$. Set larger lengths to zero and truncate at $n$. Their mean under $p_z$ is at most $n^{7/16+o(1)}$ by (75). Exponential Markov at $1/n$ therefore bounds the probability of length at least $H^{4/3-\delta}$ with no block of length at least $n$ by an exponential whose exponent is at most $$-H^{4/3-\delta}/n
        +CH^{3/4+4\epsilon}n^{-9/16+o(1)}.$$ The negative term is $-H^{\eta-\delta}$ and the positive term is $H^{9\eta/16+4\epsilon+o(1)}$. Choose $\delta+4\epsilon<7\eta/16$; the bound is then superpolynomially small. The same remains true with any fixed polynomial weight in the block count, by the geometric tail.
 
 If the bridge alternative above holds, its tilt costs a constant factor in the relevant height bin. Marking a large block bounds its long mass above by $B(z)^2u$ plus a negligible error. Thus it yields $u\ge H^{-3/4-O(\epsilon)-o(1)}$.
 
 In either arch alternative, fold the long arches. Their tilted mass is their original mass multiplied by $\rho z^{2k}$, where $c_1H\le k\le H^{1+2\epsilon}$. These extra factors are bounded below by a positive constant. Insert such a folded segment between two arbitrary ordinary bridges. Cutting at its endpoint renewals identifies the inserted segment, so the resulting weighted count is its folded mass times $B(z)^2$. It is bounded by the full tilted bridge mass with insertion $K$ and with total length at least $H^{4/3-\delta}$.
 
-Terms with no block of length at least $n$ are negligible by the preceding estimate, since $K$ is at most the cube of the block count plus one. In every remaining term, mark a large block $\xi$. The weight sum of the two ordinary exterior bridges is $B(z)^2$, and their conditional expected insertion is bounded by Lemma 11.10, uniformly in $\xi$. Dividing by $B(z)^2$ therefore bounds the folded mass by $$uH^{1/2+O(\epsilon)+o(1)}+\text{negligible}.$$ Its lower bound is $H^{-1/4-O(\epsilon)-o(1)}$. Thus every alternative gives $u\ge H^{-3/4-O(\epsilon)-o(1)}$. Let $\epsilon$ decrease to zero at fixed $\eta$, and then take $\eta$ arbitrarily small. Since $u$ is bounded above by the untilted tail, the upper bound in (R:alt:j:eq-br7) proves $$\begin{equation}
-\label{R:alt:j:eq-len}
+Terms with no block of length at least $n$ are negligible by the preceding estimate, since $K$ is at most the cube of the block count plus one. In every remaining term, mark a large block $\xi$. The weight sum of the two ordinary exterior bridges is $B(z)^2$, and their conditional expected insertion is bounded by Lemma 11.10, uniformly in $\xi$. Dividing by $B(z)^2$ therefore bounds the folded mass by $$uH^{1/2+O(\epsilon)+o(1)}+\text{negligible}.$$ Its lower bound is $H^{-1/4-O(\epsilon)-o(1)}$. Thus every alternative gives $u\ge H^{-3/4-O(\epsilon)-o(1)}$. Let $\epsilon$ decrease to zero at fixed $\eta$, and then take $\eta$ arbitrarily small. Since $u$ is bounded above by the untilted tail, the upper bound in (75) proves $$\begin{equation}
+\tag{80}
  \mathbb P_p(\mathsf L\ge n)=n^{-9/16+o(1)}.
 \end{equation}$$ The height and diameter assertions follow from Lemma 11.8 and $D\le C(\mathsf H+S)$.
 
@@ -1650,13 +1649,13 @@ Terms with no block of length at least $n$ are negligible by the preceding estim
  \sum_{i\le m}S_i\le m^{4/3+o(1)}.$$ For upper bounds, moments just below $9/16$ or $3/4$, subadditivity of these powers, Markov’s inequality and dyadic Borel–Cantelli suffice. Independent maxima and the matching lower tails give the lower bounds. Equivalently one may apply Lemma 2.6 to the resulting Laplace deficits. Within the next block, every vertex lies above the last completed height and within the sum of the spans and heights. Consecutive length sums have the same exponent, so if vertex $j$ is in block $m+1$, then $m=j^{9/16+o(1)}$. Hence $$|\gamma_j-\gamma_0|=j^{3/4+o(1)},\qquad
  \#\{j\ge1:|\gamma_j-\gamma_0|\le R\}=R^{4/3+o(1)}$$ almost surely. The second assertion follows by inverting the two eventual power bounds in the first.
 
-This infinite law is also the port-to-vertex fugacity prefix limit: Lemma [R:renew:halfplane] includes the final half-plane remainder, whose mass cancels from a prescribed-prefix probability. For this application, finiteness at each subcritical fugacity follows already from the connective-constant root bound of [DCS2012]; no stronger counting estimate or thermal spatial conclusion is required.
+This infinite law is also the port-to-vertex fugacity prefix limit: Lemma 6.1 includes the final half-plane remainder, whose mass cancels from a prescribed-prefix probability. For this application, finiteness at each subcritical fugacity follows already from the connective-constant root bound of [4]; no stronger counting estimate or thermal spatial conclusion is required.
 
 *Conditioning on an exact strip height.* Critical bridges of height $h$ are iid prefixes conditioned on hitting $h$, an event of probability $b_h=h^{-1/4+o(1)}$. We first show that this conditioning leaves at least $h^{3/4-\varepsilon}$ blocks with high probability. The arch identity makes $b_h$ decreasing, including $b_0=1$. Define the series with nonnegative coefficients $$C(z)=\sum_{h\ge1}(b_{h-1}-b_h)z^h,\qquad
  1-C(z)=(1-z)B(z).$$ Since $B=(1-I)^{-1}$, one has $(1-I)(1-C)=1-z$. Taking negative logarithms as formal series gives $$[z^h]\{-\log(1-I(z))\}\le [z^h]\{-\log(1-z)\}=\frac1h.$$ For any integer $m\ge1$, coefficient positivity consequently yields $$[z^h]\sum_{r=1}^{m}I(z)^r
  \le m[z^h]\{-\log(1-I(z))\}\le\frac mh.$$ Divide by $b_h$ and take $m=\lfloor h^{3/4-\varepsilon}\rfloor$.
 
-Given $\delta>0$, choose $\varepsilon>0$ sufficiently smaller than $\delta$. By (R:alt:j:eq-len), the probability that the first $m$ iid blocks all have length below $h^{4/3-\delta}$ is superpolynomially small; division by $b_h$ leaves it negligible. This proves the typical length lower bound. The strip first moment gives $$\mathbb E_h\mathsf L=\frac{m_B(h)}{b_h}\le h^{4/3+o(1)},$$ and Markov gives the typical upper bound. The typical lower bound also gives the matching lower mean. The bridge diameter is at least a constant times $h$, and the cap comparison, divided by $b_h$, makes diameter above $h^{1+\delta}$ negligible. In particular the length and mean assertions hold at every sufficiently large integer height, not merely along a subsequence.
+Given $\delta>0$, choose $\varepsilon>0$ sufficiently smaller than $\delta$. By (80), the probability that the first $m$ iid blocks all have length below $h^{4/3-\delta}$ is superpolynomially small; division by $b_h$ leaves it negligible. This proves the typical length lower bound. The strip first moment gives $$\mathbb E_h\mathsf L=\frac{m_B(h)}{b_h}\le h^{4/3+o(1)},$$ and Markov gives the typical upper bound. The typical lower bound also gives the matching lower mean. The bridge diameter is at least a constant times $h$, and the cap comparison, divided by $b_h$, makes diameter above $h^{1+\delta}$ negligible. In particular the length and mean assertions hold at every sufficiently large integer height, not merely along a subsequence.
 
 *Summing heights with a length tilt.* Under the bridge law with weight $\rho^{\mathsf L}e^{-\mathsf L/t}$, the number of blocks is geometric with termination parameter $$q_t=\mathbb E_p(1-e^{-\mathsf L/t})=t^{-9/16+o(1)}.$$ The upper bound follows by integrating the length tail, or comparing $1-e^{-x}$ with $\min(1,x)$; the lower bound follows from $p(\mathsf L\ge t)$. Conditional on the count, block shapes are independent with law proportional to $e^{-\mathsf L/t}p$. For each fixed small $\delta>0$, the count lies between $t^{9/16-\delta}$ and $t^{9/16+\delta}$ with probability tending to one. Removing the empty bridge changes none of these assertions.
 
@@ -1670,17 +1669,17 @@ The tilted block laws have uniformly bounded length moments at every power below
 Finite bridge moments and planar avoidance give another route to the infinite-path and thermal exponents. For the infinite path, a future renewal supplies a useful averaging device. For the thermal path, inserting a tall bridge separates the endpoints; the main issue is to control how many insertions can produce the same walk. We give the two transfers together because they use the same strip geometry, but their probability normalizations remain separate.
 
 We use the port convention of Proposition 2.2. For a strict bridge $\eta$, $L(\eta)$ counts visited vertices and its weight is $\rho^{L(\eta)}$. Set $B_0=1$ and let $B_h$ be the total weight of bridges of height $h\ge1$ from a fixed bottom port, with the terminal port free. Write $\beta=3/4$. The finite inputs are $$\begin{align}
- B_h&\asymp(1+h)^{\beta-1},\label{R:alt:g:strip}\\
+ B_h&\asymp(1+h)^{\beta-1},\tag{81}\\
  F_h:=\sum_{\eta:\,H(\eta)=h}\rho^{L(\eta)}L(\eta)
-   &\le h^{13/12+o(1)},\label{R:alt:g:first}\\
+   &\le h^{13/12+o(1)},\tag{82}\\
  \sum_{\substack{\eta:\,H(\eta)=h\\
                  \operatorname{lat}(\eta)>M}}
        \rho^{L(\eta)}&\le ChM^{-5/4}\qquad(M\ge C_1h).
-       \label{R:alt:g:localization}
-\end{align}$$ Here $\operatorname{lat}$ is the maximal horizontal distance from the source, up to an immaterial fixed change of lattice coordinates. The first estimate is [Strip2026, Theorem 1.1]; the second is [Nesting2026, Proposition 11.5]. The third is [Geometry2026, Lemma 4.1]. The first-length mass in (R:alt:g:first) is unnormalized: no division by $B_h$ has been made.
+       \tag{83}
+\end{align}$$ Here $\operatorname{lat}$ is the maximal horizontal distance from the source, up to an immaterial fixed change of lattice coordinates. The first estimate is [24, Theorem 1.1]; the second is [20, Proposition 11.5]. The third is [19, Lemma 4.1]. The first-length mass in (82) is unnormalized: no division by $B_h$ has been made.
 
-We also use three geometric results from [Geometry2026]. Lemma 5.1 there says that a critical renewal path, stopped at its first renewal above height $h$, contains at least $h^{4/3-\xi}$ vertices with probability $h^{-o(1)}$, for each fixed $\xi>0$. Proposition 3.1 there gives constants $C_0,C_1$ such that the critical mass of all vertex walks confined to a box of side $R$, from any specified vertex and with arbitrary endpoint and length, is at most $C_0(1+R)^{C_1}$. Finally, let $S_2(r)$ be the probability that two independent renewal paths from adjacent ports are disjoint through their respective first visits to height $r$. Corollary 6.6 there gives $$\begin{equation}
-\label{R:alt:g:avoidance}
+We also use three geometric results from [19]. Lemma 5.1 there says that a critical renewal path, stopped at its first renewal above height $h$, contains at least $h^{4/3-\xi}$ vertices with probability $h^{-o(1)}$, for each fixed $\xi>0$. Proposition 3.1 there gives constants $C_0,C_1$ such that the critical mass of all vertex walks confined to a box of side $R$, from any specified vertex and with arbitrary endpoint and length, is at most $C_0(1+R)^{C_1}$. Finally, let $S_2(r)$ be the probability that two independent renewal paths from adjacent ports are disjoint through their respective first visits to height $r$. Corollary 6.6 there gives $$\begin{equation}
+\tag{84}
  S_2(r)\le C_\varepsilon r^{-\beta+\varepsilon}
 \end{equation}$$ for every $\varepsilon>0$. These statements use critical weights and the renewal probability law; no thermal or uniform-length law is involved.
 
@@ -1695,8 +1694,8 @@ Let $S_0=0$ and $S_k=H_1+\cdots+H_k$ be the renewal heights under the iid irredu
        \ge1-O_\varepsilon(h^{-c_\varepsilon}).$$ Consequently, if $\omega_n$ is the $n$-th vertex of the infinite concatenation and its initial port is $o$, then almost surely $$|\omega_n-o|=n^{3/4+o(1)},\qquad
  \#\{n:|\omega_n-o|\le R\}=R^{4/3+o(1)}.$$*
 
-*Proof.* The factorization in Proposition 2.2 gives $\mathbb P\{m\text{ is a renewal height}\}=B_m$. If $I_j$ is the probability that one irreducible has height $j$, the same factorization and (R:alt:g:strip) give $$\sum_{j\ge x}I_j\le Cx^{-\beta}.$$ Indeed, $\sum_m B_me^{-m/x}\asymp x^\beta$, its reciprocal is $1-\sum_j I_je^{-j/x}$, and this deficit bounds $(1-e^{-1})\sum_{j\ge x}I_j$ from below. Decomposing according to the last renewal before $h$, for $x\ge2h$ we obtain $$\begin{equation}
-\label{R:alt:g:overshoot}
+*Proof.* The factorization in Proposition 2.2 gives $\mathbb P\{m\text{ is a renewal height}\}=B_m$. If $I_j$ is the probability that one irreducible has height $j$, the same factorization and (81) give $$\sum_{j\ge x}I_j\le Cx^{-\beta}.$$ Indeed, $\sum_m B_me^{-m/x}\asymp x^\beta$, its reciprocal is $1-\sum_j I_je^{-j/x}$, and this deficit bounds $(1-e^{-1})\sum_{j\ge x}I_j$ from below. Decomposing according to the last renewal before $h$, for $x\ge2h$ we obtain $$\begin{equation}
+\tag{85}
  \mathbb P\{S_{\tau_h}>x\}
    =\sum_{i=0}^{\lfloor h\rfloor} B_i
                         \sum_{j>x-i}I_j
@@ -1714,14 +1713,14 @@ For the upper bounds put $s=\lfloor h^{1+\delta}\rfloor$, where $\delta>0$ will 
 \end{align*}$$ The first inequality counts a subset of all renewal prefixes ending at heights at most $2s$. Their distribution is the unnormalized bridge measure, by the pathwise factorization; it does not require independence between the length and the height of one irreducible. Markov’s inequality now gives $$\mathbb P\{L(\Gamma_h)>h^{4/3+\varepsilon},\ u\le s\}
  \le h^{4\delta/3-\varepsilon+o(1)}.$$
 
-The same device controls horizontal excursions. If $\Gamma_h$ reaches horizontal distance $M=h^{1+\varepsilon}$, all its continuation prefixes do so. For $\delta<\varepsilon$, summing (R:alt:g:localization) over their possible heights gives $$D_s\,\mathbb P\{\operatorname{lat}(\Gamma_h)>M,\ u\le s\}
+The same device controls horizontal excursions. If $\Gamma_h$ reaches horizontal distance $M=h^{1+\varepsilon}$, all its continuation prefixes do so. For $\delta<\varepsilon$, summing (83) over their possible heights gives $$D_s\,\mathbb P\{\operatorname{lat}(\Gamma_h)>M,\ u\le s\}
  \le C\sum_{m\le2s}mM^{-5/4}\le Cs^2M^{-5/4}.$$ After division by $D_s$, this is at most $Ch^{-5(\varepsilon-\delta)/4}$. On $u\le s$ the vertical span is at most a fixed multiple of $s$. Taking $\delta=\varepsilon/4$, with a smaller slack first if necessary, proves the assertion.
 
 Apply Borel–Cantelli on dyadic values of $h$, simultaneously for a countable sequence of positive slacks tending to zero. For each fixed small $\eta>0$, eventually $$h^{4/3-\eta}\le L(\Gamma_h)\le h^{4/3+\eta},\qquad
  \operatorname{diam}(\Gamma_h)\le Ch^{1+\eta}$$ at every dyadic scale. A dyadic $h$ a fixed factor below $n^{1/(4/3+\eta)}$ has $L(\Gamma_h)<n$; every subsequent vertex lies above its terminal renewal line, whose height exceeds $h$. A dyadic $h$ a fixed factor above $n^{1/(4/3-\eta)}$ has $L(\Gamma_h)>n$. Hence, eventually, $$c_\eta n^{1/(4/3+\eta)}\le|\omega_n-o|
  \le C_\eta n^{(1+\eta)/(4/3-\eta)}.$$ Let $\eta\downarrow0$. The resulting pointwise bounds also show that all sufficiently early indices, up to $R^{4/3-o(1)}$, are in the ball, and all sufficiently late indices, beyond $R^{4/3+o(1)}$, are outside. This proves the visit-count assertion. ◻
 
-The fugacity interpretation of this same infinite law is supplied by Lemma [R:renew:halfplane]. For $0<x<\rho$, let $Z_{\mathrm{hp}}(x)$ be the normalizer of nonempty port-to-vertex half-plane walks with weight $x$ per visited vertex. To check the conventions here, a specified tuple of $j$ irreducibles of total vertex length $\ell$ followed by a nonempty path above its last seam has unnormalized mass $x^\ell Z_{\mathrm{hp}}(x)$. Its probability is exactly $x^\ell$. The tuple events are disjoint and their probabilities sum to $J(x)^j$, where $J(x)=\sum_\eta x^{L(\eta)}\uparrow1$ as $x\uparrow\rho$. Thus the complement has probability tending to zero and the tuple weights tend to their critical values. Taking $j\ge m$ determines the first $m$ visited vertices and proves local convergence, including vanishing probability of termination before the $m$-th vertex. No uniform finite-length local limit is used in this argument.
+The fugacity interpretation of this same infinite law is supplied by Lemma 6.1. For $0<x<\rho$, let $Z_{\mathrm{hp}}(x)$ be the normalizer of nonempty port-to-vertex half-plane walks with weight $x$ per visited vertex. To check the conventions here, a specified tuple of $j$ irreducibles of total vertex length $\ell$ followed by a nonempty path above its last seam has unnormalized mass $x^\ell Z_{\mathrm{hp}}(x)$. Its probability is exactly $x^\ell$. The tuple events are disjoint and their probabilities sum to $J(x)^j$, where $J(x)=\sum_\eta x^{L(\eta)}\uparrow1$ as $x\uparrow\rho$. Thus the complement has probability tending to zero and the tuple weights tend to their critical values. Taking $j\ge m$ determines the first $m$ visited vertices and proves local convergence, including vanishing probability of termination before the $m$-th vertex. No uniform finite-length local limit is used in this argument.
 
 ### Tall-bridge insertions and their multiplicities
 
@@ -1736,18 +1735,18 @@ Cutting the output at the two joining levels recovers the input and inserted bri
 **Figure 10:** One insertion, with joining levels $a<b$. Cutting at these levels and undoing the lower reflection recovers the input up to a bounded local record. The drawing suppresses the modifications at the ports.
 
 **Lemma 12.2** (Insertion multiplicities). *Suppose $h\to\infty$ and $h/H\to0$. Let $\mathcal A_D$ be the walks rooted at $o$ with diameter at most $h$. Every fixed integer $k\ge1$ satisfies $$\begin{equation}
-\label{R:alt:g:diameter-moment}
+\tag{86}
  \sum_\omega\rho^{\ell(\omega)}M_{\mathcal A_D}(\omega)^k
        \le C_k H^{C+o_k(1)}h^{k\beta}.
 \end{equation}$$ For fixed $K>0$, let $\mathcal A_E$ be the walks rooted at $o$ of length at most $H^K$ and absolute vertical endpoint difference at most $h$. Then $$\begin{equation}
-\label{R:alt:g:endpoint-moment}
+\tag{87}
  \sum_\omega\rho^{\ell(\omega)}M_{\mathcal A_E}(\omega)^k
  \le C_{k,K}H^{C_K+o_k(1)}
              \{h^\beta(H/h)^{2\beta-1}\}^{k}.
 \end{equation}$$ The sums run over outputs rooted at $o^*$. The exponents $C,C_K$ are independent of $k$.*
 
 *Proof.* Write $M=M_{\mathcal A}$ for either input class and expand $M^k$ into ordered $k$-tuples of representations of the same output. We first locate their seams. Let $z_0,z_f$ be the vertical coordinates of the output endpoints. Undoing the lower reflection sends the root to height $2a-z_0$, while removing the inserted height sends the other endpoint to $z_f-(b-a)$, up to bounded local changes. The original endpoint difference is therefore $z_0+z_f-a-b+O(1)$. Both input classes satisfy $$\begin{equation}
-\label{R:alt:g:seam-sum}
+\tag{88}
  |a+b-z_0-z_f|\le C_2h,\qquad H\le b-a\le2H.
 \end{equation}$$ All heights here are in row units, with fixed conversion factors absorbed in $C_2$.
 
@@ -1763,13 +1762,13 @@ For the remaining gaps, use heights $$s_1=t_1=0,\qquad
 
 ##### The diameter class.
 
-All its gap heights are $O(h)$: each lower seam is within $O(h)$ of the root height, and each upper seam is within $O(h)$ of the final height. Put the two gap heights in an original pair into dyadic bins of scales $\sigma,\tau\le Ch$, with scale one for absent or bounded gaps. The total bridge mass in a bin of scale $\sigma$ is at most $C\sigma^\beta$, by (R:alt:g:strip).
+All its gap heights are $O(h)$: each lower seam is within $O(h)$ of the root height, and each upper seam is within $O(h)$ of the final height. Put the two gap heights in an original pair into dyadic bins of scales $\sigma,\tau\le Ch$, with scale one for absent or bounded gaps. The total bridge mass in a bin of scale $\sigma$ is at most $C\sigma^\beta$, by (81).
 
-For two large gaps in an original pair, reverse and reflect the lower one from its upper endpoint. The two resulting pieces are initial portions of the input arms at its minimum and avoid one another after their common first vertex. Move one start to the adjacent port and pass through the neighboring upward triangle to the same first upper neighbor. If that triangle was already visited, strictness at the lower wall forces the visit immediately after the first upper neighbor; start there and delete the short initial segment. The other arm cannot use that triangle because it would also use the same upper neighbor. This recoding has bounded inverse ambiguity and preserves avoidance through first visits to height $q=c\min(\sigma,\tau)$, for a fixed small $c>0$. Thus it gives the adjacent-port event in (R:alt:g:avoidance).
+For two large gaps in an original pair, reverse and reflect the lower one from its upper endpoint. The two resulting pieces are initial portions of the input arms at its minimum and avoid one another after their common first vertex. Move one start to the adjacent port and pass through the neighboring upward triangle to the same first upper neighbor. If that triangle was already visited, strictness at the lower wall forces the visit immediately after the first upper neighbor; start there and delete the short initial segment. The other arm cannot use that triangle because it would also use the same upper neighbor. This recoding has bounded inverse ambiguity and preserves avoidance through first visits to height $q=c\min(\sigma,\tau)$, for a fixed small $c>0$. Thus it gives the adjacent-port event in (84).
 
 Expose each gap from its assigned end through its first renewal at or above $q$. If the exposed height is $u$, the remaining critical mass at terminal height $v$ is $B_{v-u}$, with $B_j=0$ for $j<0$. Uniformly in the exposed shape, $$\sum_{v\le C\sigma}B_{v-u}\le C\sigma^\beta.$$ The exposed strings have the independent renewal probability law. After integrating the completions, the paired integral is therefore at most $$C\sigma^\beta\tau^\beta\min(\sigma,\tau)^{-\beta}H^{o(1)}
  =C\max(\sigma,\tau)^\beta H^{o(1)}
- \le Ch^\beta H^{o(1)}.$$ If one gap is absent or bounded, the ordinary mass bound for the other proves the same estimate. Normalize every gap at its assigned test end and drop all other intersection restrictions. The pairs $(s_i,t_{\pi(i)})$ use disjoint gap variables, so their bounds multiply by Tonelli’s theorem. The $(1+\log H)^{O(k)}$ dyadic choices contribute $H^{o_k(1)}$. Together with the three leftover portions, this proves (R:alt:g:diameter-moment).
+ \le Ch^\beta H^{o(1)}.$$ If one gap is absent or bounded, the ordinary mass bound for the other proves the same estimate. Normalize every gap at its assigned test end and drop all other intersection restrictions. The pairs $(s_i,t_{\pi(i)})$ use disjoint gap variables, so their bounds multiply by Tonelli’s theorem. The $(1+\log H)^{O(k)}$ dyadic choices contribute $H^{o_k(1)}$. Together with the three leftover portions, this proves (86).
 
 ##### The endpoint class.
 
@@ -1785,14 +1784,14 @@ For a gap in a dyadic bin of scale $\sigma$, put $w_\sigma=\min(h,\sigma)$ and e
 
 Integrating all completion variables by rank pairs leaves one factor $w_\sigma^\beta$ per gap and at most $k$ factors $(H/h)^{2\beta-1}$. The remaining measure is the product of the independent stopped-string laws. Regroup them now by their original pairs $(s_i,t_{\pi(i)})$. Each avoidance test costs $\min(w_\sigma,w_\tau)^{-\beta}H^{o(1)}$, and hence each original pair contributes at most $$w_\sigma^\beta w_\tau^\beta
        \min(w_\sigma,w_\tau)^{-\beta}H^{o(1)}
- \le h^\beta H^{o(1)}.$$ Every string is used once. Multiplying these bounds, summing the dyadic bins, and restoring the polynomial cost of the three leftover portions proves (R:alt:g:endpoint-moment). ◻
+ \le h^\beta H^{o(1)}.$$ Every string is used once. Multiplying these bounds, summing the dyadic bins, and restoring the polynomial cost of the three leftover portions proves (87). ◻
 
 ### The thermal deduction
 
 Let $c_m$ count unrestricted $m$-edge walks from a fixed vertex, including the empty walk, and for $T>1$ set $$x_T=\rho e^{-1/T},\qquad
  Z_T=\sum_{m\ge0}c_mx_T^m,\qquad
- \mathbb P_T^{\mathrm{th}}(\gamma)=Z_T^{-1}x_T^{\ell(\gamma)}.$$ We also use the diameter clause of [Geometry2026, Theorem 1.1]: for every $\eta>0$, every finite $A>0$ and every integer $m\ge1$, the uniform law on $m$-edge walks satisfies $$\begin{equation}
-\label{R:alt:g:uniform-upper}
+ \mathbb P_T^{\mathrm{th}}(\gamma)=Z_T^{-1}x_T^{\ell(\gamma)}.$$ We also use the diameter clause of [19, Theorem 1.1]: for every $\eta>0$, every finite $A>0$ and every integer $m\ge1$, the uniform law on $m$-edge walks satisfies $$\begin{equation}
+\tag{89}
  \mathbb P_m\{\operatorname{diam}(\gamma)>m^{3/4+\eta}\}
        \le C_{\eta,A}m^{-A}.
 \end{equation}$$ This is an all-length upper bound; the thermal deduction does not require an all-length uniform endpoint lower bound.
@@ -1804,12 +1803,12 @@ Let $c_m$ count unrestricted $m$-edge walks from a fixed vertex, including the e
  \end{gathered}$$ in probability. Each statement means convergence within every fixed positive exponent slack.*
 
 *Proof.* Every $m$-edge walk lies in a box of side $O(m)$, so full-box susceptibility gives $c_m\rho^m\le C(1+m)^C$. In particular $Z_T$ is finite, $Z_T\ge1$, and for every $\xi>0$, $$\begin{equation}
-\label{R:alt:g:thermal-length-upper}
+\tag{90}
  \mathbb P_T^{\mathrm{th}}\{\ell(\gamma)>T^{1+\xi}\}
  \le\sum_{m>T^{1+\xi}}C(1+m)^Ce^{-m/T}=o(1).
 \end{equation}$$ We first prove the endpoint lower bound on lengths at most $T^2$. This restriction loses $o(1)$ probability and permits use of the second multiplicity estimate.
 
-Fix a small $\zeta>0$ and set $h=T^{3/4-\zeta}$, $H=T^{3/4-\zeta/2}$, rounding heights to integers. The critical mass of bridges of height in $[H,2H]$ is comparable to $H^\beta$. By (R:alt:g:localization), choosing the fixed confinement constant $C_*$ sufficiently large retains a fixed fraction with diameter at most $C_*H$. The mass of bridges in this height window with $L(\eta)>T$ is at most $T^{-1}H^{25/12+o(1)}$, by (R:alt:g:first). Its ratio to $H^\beta$ is $H^{4/3+o(1)}/T=o(1)$. On the remainder, $x_T^{L(\eta)}\ge e^{-1}\rho^{L(\eta)}$. Thus every input admits insertions of total $x_T$-mass at least $cH^\beta$.
+Fix a small $\zeta>0$ and set $h=T^{3/4-\zeta}$, $H=T^{3/4-\zeta/2}$, rounding heights to integers. The critical mass of bridges of height in $[H,2H]$ is comparable to $H^\beta$. By (83), choosing the fixed confinement constant $C_*$ sufficiently large retains a fixed fraction with diameter at most $C_*H$. The mass of bridges in this height window with $L(\eta)>T$ is at most $T^{-1}H^{25/12+o(1)}$, by (82). Its ratio to $H^\beta$ is $H^{4/3+o(1)}/T=o(1)$. On the remainder, $x_T^{L(\eta)}\ge e^{-1}\rho^{L(\eta)}$. Thus every input admits insertions of total $x_T$-mass at least $cH^\beta$.
 
 Let $\mathcal A$ consist of inputs of length at most $T^2$ whose absolute vertical endpoint difference is at most $h$, and let $V$ be their $x_T$-mass. Since $T^2\le H^K$ for a fixed sufficiently large $K$, Lemma 12.2 applies to $M_{\mathcal A}$. Put $$A_h=h^\beta(H/h)^{2\beta-1}\le H^\beta,
  \qquad Q=A_hH^\delta,$$ where $\delta>0$ will be chosen small after $\zeta$. For every fixed integer $k\ge1$, the lemma gives $$\begin{align*}
@@ -1821,65 +1820,65 @@ Let $\mathcal A$ consist of inputs of length at most $T^2$ whose absolute vertic
 \end{align*}$$ Choose $k$ so that $\delta(k-1)>C_K+\beta+1$, and then let $T\to\infty$. The last expression is $o(1)$. This order is possible because $C_K$ is independent of $k$.
 
 Sum all insertions of inputs in $\mathcal A$. For outputs with $M_{\mathcal A}\le Q$, there are at most $Q$ representations per output. Their unrestricted partition sum, rooted at $o^*$, equals $Z_T$ by the root symmetry established above. The preceding estimate handles the remaining outputs. Recoverability and the bounded weight factors therefore give $$\begin{equation}
-\label{R:alt:g:insertion-mass}
+\tag{91}
  cH^\beta V\le C A_hH^\delta Z_T+o(1).
 \end{equation}$$ Divide by $H^\beta Z_T$ and use $$\frac{A_h}{H^\beta}=(h/H)^{1-\beta}.$$ For sufficiently small $\delta$, the bound $V/Z_T\le C(h/H)^{1-\beta}H^\delta+o(1)$ tends to zero. Adding the discarded length tail proves that the absolute vertical endpoint difference exceeds $T^{3/4-\zeta}$ with probability tending to one. The Euclidean endpoint distance has the same lower exponent after absorbing the fixed row-spacing factor into the slack.
 
-It remains to obtain the diameter upper bound and the length lower bound. Conditioned on its length, the thermal law is uniform. Fix $\varepsilon>0$ and choose $\eta,\xi>0$ so that $$(1+\xi)(3/4+\eta)<3/4+\varepsilon.$$ For $m<T^{1/2}$ the diameter is deterministically at most $CT^{1/2}$. For $T^{1/2}\le m\le T^{1+\xi}$, the probability of violating $D\le T^{3/4+\varepsilon}$ is, by (R:alt:g:uniform-upper), at most $C_{\eta,A}T^{-A/2}$ under each conditional length law. The remaining lengths have probability $o(1)$ by (R:alt:g:thermal-length-upper). This proves the upper diameter exponent, and hence the upper endpoint exponent.
+It remains to obtain the diameter upper bound and the length lower bound. Conditioned on its length, the thermal law is uniform. Fix $\varepsilon>0$ and choose $\eta,\xi>0$ so that $$(1+\xi)(3/4+\eta)<3/4+\varepsilon.$$ For $m<T^{1/2}$ the diameter is deterministically at most $CT^{1/2}$. For $T^{1/2}\le m\le T^{1+\xi}$, the probability of violating $D\le T^{3/4+\varepsilon}$ is, by (89), at most $C_{\eta,A}T^{-A/2}$ under each conditional length law. The remaining lengths have probability $o(1)$ by (90). This proves the upper diameter exponent, and hence the upper endpoint exponent.
 
 For the lower length bound it suffices to take $0<\xi<1/2$. Choose $\eta,\zeta>0$ such that $$(1-\xi)(3/4+\eta)<3/4-\zeta,
- \qquad \zeta<1/4.$$ The typical endpoint lower bound excludes lengths $m<T^{1/2}$ deterministically. For $T^{1/2}\le m<T^{1-\xi}$, it forces $D>m^{3/4+\eta}$, up to a fixed factor absorbed by the strict exponent inequality. Equation (R:alt:g:uniform-upper) bounds the conditional probability of this event uniformly by $C_{\eta,A}T^{-A/2}=o(1)$. Thus $\ell\ge T^{1-\xi}$ with probability tending to one. Together with the length upper tail and $A\le D$, this proves all three claims. ◻
+ \qquad \zeta<1/4.$$ The typical endpoint lower bound excludes lengths $m<T^{1/2}$ deterministically. For $T^{1/2}\le m<T^{1-\xi}$, it forces $D>m^{3/4+\eta}$, up to a fixed factor absorbed by the strict exponent inequality. Equation (89) bounds the conditional probability of this event uniformly by $C_{\eta,A}T^{-A/2}=o(1)$. Thus $\ell\ge T^{1-\xi}$ with probability tending to one. Together with the length upper tail and $A\le D$, this proves all three claims. ◻
 
 ## References
 
-**[BeatonEtAl2014]** N. R. Beaton, M. Bousquet-Mélou, J. de Gier, H. Duminil-Copin and A. J. Guttmann. The critical fugacity for surface adsorption of self-avoiding walks on the honeycomb lattice is $1+\sqrt2$. *Communications in Mathematical Physics* **326** (2014), no. 3, 727–754. [doi:10.1007/s00220-014-1896-1](https://doi.org/10.1007/s00220-014-1896-1).
+**[1]** N. R. Beaton, M. Bousquet-Mélou, J. de Gier, H. Duminil-Copin and A. J. Guttmann. The critical fugacity for surface adsorption of self-avoiding walks on the honeycomb lattice is $1+\sqrt2$. *Communications in Mathematical Physics* **326** (2014), no. 3, 727–754. [doi:10.1007/s00220-014-1896-1](https://doi.org/10.1007/s00220-014-1896-1).
 
-**[BorgsChayesKingMadras2000]** C. Borgs, J. T. Chayes, C. King and N. Madras. Anisotropic self-avoiding walks. *Journal of Mathematical Physics* **41** (2000), 1321–1337. [doi:10.1063/1.533189](https://doi.org/10.1063/1.533189).
+**[2]** C. Borgs, J. T. Chayes, C. King and N. Madras. Anisotropic self-avoiding walks. *Journal of Mathematical Physics* **41** (2000), 1321–1337. [doi:10.1063/1.533189](https://doi.org/10.1063/1.533189).
 
-**[CaravennaDoney2019]** F. Caravenna and R. Doney. Local large deviations and the strong renewal theorem. *Electronic Journal of Probability* **24** (2019), paper 72, 1–48. [doi:10.1214/19-EJP319](https://doi.org/10.1214/19-EJP319).
+**[3]** F. Caravenna and R. Doney. Local large deviations and the strong renewal theorem. *Electronic Journal of Probability* **24** (2019), paper 72, 1–48. [doi:10.1214/19-EJP319](https://doi.org/10.1214/19-EJP319).
 
-**[DCS2012]** H. Duminil-Copin and S. Smirnov. The connective constant of the honeycomb lattice equals $\sqrt{2+\sqrt2}$. *Annals of Mathematics* **175** (2012), 1653–1665. [doi:10.4007/annals.2012.175.3.14](https://doi.org/10.4007/annals.2012.175.3.14).
+**[4]** H. Duminil-Copin and S. Smirnov. The connective constant of the honeycomb lattice equals $\sqrt{2+\sqrt2}$. *Annals of Mathematics* **175** (2012), 1653–1665. [doi:10.4007/annals.2012.175.3.14](https://doi.org/10.4007/annals.2012.175.3.14).
 
-**[Dyhr2011]** B. Dyhr, M. Gilbert, T. Kennedy, G. F. Lawler and S. Passon. The self-avoiding walk spanning a strip. *Journal of Statistical Physics* **144** (2011), 1–22. [doi:10.1007/s10955-011-0258-z](https://doi.org/10.1007/s10955-011-0258-z); [arXiv:1008.4321](https://arxiv.org/abs/1008.4321).
+**[5]** B. Dyhr, M. Gilbert, T. Kennedy, G. F. Lawler and S. Passon. The self-avoiding walk spanning a strip. *Journal of Statistical Physics* **144** (2011), 1–22. [doi:10.1007/s10955-011-0258-z](https://doi.org/10.1007/s10955-011-0258-z); [arXiv:1008.4321](https://arxiv.org/abs/1008.4321).
 
-**[GarsiaLamperti1962]** A. Garsia and J. Lamperti. A discrete renewal theorem with infinite mean. *Commentarii Mathematici Helvetici* **37** (1962), 221–234. [doi:10.1007/BF02566974](https://doi.org/10.1007/BF02566974).
+**[6]** A. Garsia and J. Lamperti. A discrete renewal theorem with infinite mean. *Commentarii Mathematici Helvetici* **37** (1962), 221–234. [doi:10.1007/BF02566974](https://doi.org/10.1007/BF02566974).
 
-**[HammersleyWelsh1962]** J. M. Hammersley and D. J. A. Welsh. Further results on the rate of convergence to the connective constant of the hypercubical lattice. *Quarterly Journal of Mathematics* **13** (1962), 108–110. [doi:10.1093/qmath/13.1.108](https://doi.org/10.1093/qmath/13.1.108).
+**[7]** J. M. Hammersley and D. J. A. Welsh. Further results on the rate of convergence to the connective constant of the hypercubical lattice. *Quarterly Journal of Mathematics* **13** (1962), 108–110. [doi:10.1093/qmath/13.1.108](https://doi.org/10.1093/qmath/13.1.108).
 
-**[Ioffe1998]** D. Ioffe. Ornstein–Zernike behaviour and analyticity of shapes for self-avoiding walks on $\mathbb Z^d$. *Markov Processes and Related Fields* **4** (1998), 323–350.
+**[8]** D. Ioffe. Ornstein–Zernike behaviour and analyticity of shapes for self-avoiding walks on $\mathbb Z^d$. *Markov Processes and Related Fields* **4** (1998), 323–350.
 
-**[IoffeVelenik2008]** D. Ioffe and Y. Velenik. Ballistic phase of self-interacting random walks. In *Analysis and Stochastics of Growth Processes and Interface Models*, Oxford University Press, 2008, 55–80. [doi:10.1093/acprof:oso/9780199239252.003.0003](https://doi.org/10.1093/acprof:oso/9780199239252.003.0003).
+**[9]** D. Ioffe and Y. Velenik. Ballistic phase of self-interacting random walks. In *Analysis and Stochastics of Growth Processes and Interface Models*, Oxford University Press, 2008, 55–80. [doi:10.1093/acprof:oso/9780199239252.003.0003](https://doi.org/10.1093/acprof:oso/9780199239252.003.0003).
 
-**[IoffeVelenik2010]** D. Ioffe and Y. Velenik. The statistical mechanics of stretched polymers. *Brazilian Journal of Probability and Statistics* **24** (2010), no. 2, 279–299. [doi:10.1214/09-BJPS031](https://doi.org/10.1214/09-BJPS031).
+**[10]** D. Ioffe and Y. Velenik. The statistical mechanics of stretched polymers. *Brazilian Journal of Probability and Statistics* **24** (2010), no. 2, 279–299. [doi:10.1214/09-BJPS031](https://doi.org/10.1214/09-BJPS031).
 
-**[Kesten1963]** H. Kesten. On the number of self-avoiding walks. *Journal of Mathematical Physics* **4** (1963), 960–969. [doi:10.1063/1.1704022](https://doi.org/10.1063/1.1704022).
+**[11]** H. Kesten. On the number of self-avoiding walks. *Journal of Mathematical Physics* **4** (1963), 960–969. [doi:10.1063/1.1704022](https://doi.org/10.1063/1.1704022).
 
-**[KrachunPanagiotis2026]** D. Krachun and C. Panagiotis. Quantitative sub-ballisticity of self-avoiding walk on the hexagonal lattice. *Annals of Probability* **54** (2026), no. 3, 1109–1125. [doi:10.1214/24-AOP1730](https://doi.org/10.1214/24-AOP1730); [arXiv:2310.17299](https://arxiv.org/abs/2310.17299).
+**[12]** D. Krachun and C. Panagiotis. Quantitative sub-ballisticity of self-avoiding walk on the hexagonal lattice. *Annals of Probability* **54** (2026), no. 3, 1109–1125. [doi:10.1214/24-AOP1730](https://doi.org/10.1214/24-AOP1730); [arXiv:2310.17299](https://arxiv.org/abs/2310.17299).
 
-**[LSW2004]** G. F. Lawler, O. Schramm and W. Werner. On the scaling limit of planar self-avoiding walk. In *Fractal Geometry and Applications: A Jubilee of Benoît Mandelbrot*, Part 2, Proceedings of Symposia in Pure Mathematics **72**, American Mathematical Society, 2004, 339–364. [arXiv:math/0204277](https://arxiv.org/abs/math/0204277).
+**[13]** G. F. Lawler, O. Schramm and W. Werner. On the scaling limit of planar self-avoiding walk. In *Fractal Geometry and Applications: A Jubilee of Benoît Mandelbrot*, Part 2, Proceedings of Symposia in Pure Mathematics **72**, American Mathematical Society, 2004, 339–364. [arXiv:math/0204277](https://arxiv.org/abs/math/0204277).
 
-**[MadrasSlade1993]** N. Madras and G. Slade. *The Self-Avoiding Walk*. Birkhäuser, 1993.
+**[14]** N. Madras and G. Slade. *The Self-Avoiding Walk*. Birkhäuser, 1993.
 
-**[Nienhuis1982]** B. Nienhuis. Exact critical point and critical exponents of $O(n)$ models in two dimensions. *Physical Review Letters* **49** (1982), no. 15, 1062–1065. [doi:10.1103/PhysRevLett.49.1062](https://doi.org/10.1103/PhysRevLett.49.1062).
+**[15]** B. Nienhuis. Exact critical point and critical exponents of $O(n)$ models in two dimensions. *Physical Review Letters* **49** (1982), no. 15, 1062–1065. [doi:10.1103/PhysRevLett.49.1062](https://doi.org/10.1103/PhysRevLett.49.1062).
 
-**[companionA]** OpenAI. Radial transfer estimates and polygon length laws for honeycomb walks. OpenAI Math Release preprint [OAI:Radial-transfer-estimates-and-polygon-length-laws-for-honeycomb-walks-September-26-2026](https://github.com/openai/math/blob/main/preprints/Radial-transfer-estimates-and-polygon-length-laws-for-honeycomb-walks-September-26-2026/main.pdf), 2026.
+**[16]** OpenAI. Radial transfer estimates and polygon length laws for honeycomb walks. OpenAI Math Release preprint [OAI:Radial-transfer-estimates-and-polygon-length-laws-for-honeycomb-walks-September-26-2026](https://github.com/openai/math/blob/main/preprints/Radial-transfer-estimates-and-polygon-length-laws-for-honeycomb-walks-September-26-2026/main.pdf), 2026.
 
-**[companionU]** OpenAI. Uniform marked-polygon estimates and sharp finite bridge moments. OpenAI Math Release preprint [OAI:Uniform-marked-polygon-estimates-and-sharp-finite-bridge-moments-September-26-2026](https://github.com/openai/math/blob/main/preprints/Uniform-marked-polygon-estimates-and-sharp-finite-bridge-moments-September-26-2026/main.pdf), 2026. Finite bridge theorem.
+**[17]** OpenAI. Uniform marked-polygon estimates and sharp finite bridge moments. OpenAI Math Release preprint [OAI:Uniform-marked-polygon-estimates-and-sharp-finite-bridge-moments-September-26-2026](https://github.com/openai/math/blob/main/preprints/Uniform-marked-polygon-estimates-and-sharp-finite-bridge-moments-September-26-2026/main.pdf), 2026. Finite bridge theorem.
 
-**[compL]** OpenAI. Cylinder amplitudes and logarithmic bridge-length windows on the honeycomb lattice. OpenAI Math Release preprint [OAI:Cylinder-amplitudes-and-logarithmic-bridge-length-windows-on-the-honeycomb-lattice-September-26-2026](https://github.com/openai/math/blob/main/preprints/Cylinder-amplitudes-and-logarithmic-bridge-length-windows-on-the-honeycomb-lattice-September-26-2026/main.pdf), 2026.
+**[18]** OpenAI. Cylinder amplitudes and logarithmic bridge-length windows on the honeycomb lattice. OpenAI Math Release preprint [OAI:Cylinder-amplitudes-and-logarithmic-bridge-length-windows-on-the-honeycomb-lattice-September-26-2026](https://github.com/openai/math/blob/main/preprints/Cylinder-amplitudes-and-logarithmic-bridge-length-windows-on-the-honeycomb-lattice-September-26-2026/main.pdf), 2026.
 
-**[Geometry2026]** OpenAI. Mass and covering exponents for fixed-length honeycomb walks. OpenAI Math Release preprint [OAI:Mass-and-covering-exponents-for-fixed-length-honeycomb-walks-September-26-2026](https://github.com/openai/math/blob/main/preprints/Mass-and-covering-exponents-for-fixed-length-honeycomb-walks-September-26-2026/main.pdf), 2026.
+**[19]** OpenAI. Mass and covering exponents for fixed-length honeycomb walks. OpenAI Math Release preprint [OAI:Mass-and-covering-exponents-for-fixed-length-honeycomb-walks-September-26-2026](https://github.com/openai/math/blob/main/preprints/Mass-and-covering-exponents-for-fixed-length-honeycomb-walks-September-26-2026/main.pdf), 2026.
 
-**[Nesting2026]** OpenAI. Cylinder loop weights and planar nesting. OpenAI Math Release preprint [OAI:Cylinder-loop-weights-and-planar-nesting-September-26-2026](https://github.com/openai/math/blob/main/preprints/Cylinder-loop-weights-and-planar-nesting-September-26-2026/main.pdf), 2026.
+**[20]** OpenAI. Cylinder loop weights and planar nesting. OpenAI Math Release preprint [OAI:Cylinder-loop-weights-and-planar-nesting-September-26-2026](https://github.com/openai/math/blob/main/preprints/Cylinder-loop-weights-and-planar-nesting-September-26-2026/main.pdf), 2026.
 
-**[RenewalDiskCompanion]** OpenAI. Disk transfer representations and confined bridge mass. OpenAI Math Release preprint [OAI:Disk-transfer-representations-and-confined-bridge-mass-September-26-2026](https://github.com/openai/math/blob/main/preprints/Disk-transfer-representations-and-confined-bridge-mass-September-26-2026/main.pdf), 2026.
+**[21]** OpenAI. Disk transfer representations and confined bridge mass. OpenAI Math Release preprint [OAI:Disk-transfer-representations-and-confined-bridge-mass-September-26-2026](https://github.com/openai/math/blob/main/preprints/Disk-transfer-representations-and-confined-bridge-mass-September-26-2026/main.pdf), 2026.
 
-**[RenewalSignedCompanion]** OpenAI. Signed cylinder propagation and marked polygons on the honeycomb lattice. OpenAI Math Release preprint [OAI:Signed-cylinder-propagation-and-marked-polygons-on-the-honeycomb-lattice-September-26-2026](https://github.com/openai/math/blob/main/preprints/Signed-cylinder-propagation-and-marked-polygons-on-the-honeycomb-lattice-September-26-2026/main.pdf), 2026.
+**[22]** OpenAI. Signed cylinder propagation and marked polygons on the honeycomb lattice. OpenAI Math Release preprint [OAI:Signed-cylinder-propagation-and-marked-polygons-on-the-honeycomb-lattice-September-26-2026](https://github.com/openai/math/blob/main/preprints/Signed-cylinder-propagation-and-marked-polygons-on-the-honeycomb-lattice-September-26-2026/main.pdf), 2026.
 
-**[RenewalVacuumCompanion]** OpenAI. Polynomial vacuum representations and bridge mass for honeycomb walks. OpenAI Math Release preprint [OAI:Polynomial-vacuum-representations-and-bridge-mass-for-honeycomb-walks-September-26-2026](https://github.com/openai/math/blob/main/preprints/Polynomial-vacuum-representations-and-bridge-mass-for-honeycomb-walks-September-26-2026/main.pdf), 2026.
+**[23]** OpenAI. Polynomial vacuum representations and bridge mass for honeycomb walks. OpenAI Math Release preprint [OAI:Polynomial-vacuum-representations-and-bridge-mass-for-honeycomb-walks-September-26-2026](https://github.com/openai/math/blob/main/preprints/Polynomial-vacuum-representations-and-bridge-mass-for-honeycomb-walks-September-26-2026/main.pdf), 2026.
 
-**[Strip2026]** OpenAI. Critical strip-crossing mass on the honeycomb lattice. OpenAI Math Release preprint [OAI:Critical-strip-crossing-mass-on-the-honeycomb-lattice-September-26-2026](https://github.com/openai/math/blob/main/preprints/Critical-strip-crossing-mass-on-the-honeycomb-lattice-September-26-2026/main.pdf), 2026.
+**[24]** OpenAI. Critical strip-crossing mass on the honeycomb lattice. OpenAI Math Release preprint [OAI:Critical-strip-crossing-mass-on-the-honeycomb-lattice-September-26-2026](https://github.com/openai/math/blob/main/preprints/Critical-strip-crossing-mass-on-the-honeycomb-lattice-September-26-2026/main.pdf), 2026.
 
-**[Pincus1976]** P. Pincus. Excluded volume effects and stretched polymer chains. *Macromolecules* **9** (1976), no. 3, 386–388. [doi:10.1021/ma60051a002](https://doi.org/10.1021/ma60051a002).
+**[25]** P. Pincus. Excluded volume effects and stretched polymer chains. *Macromolecules* **9** (1976), no. 3, 386–388. [doi:10.1021/ma60051a002](https://doi.org/10.1021/ma60051a002).
 
-**[Schilling2016]** R. L. Schilling. *An introduction to Lévy and Feller processes*. Lecture notes, 2016, version 2. [arXiv:1603.00251v2](https://arxiv.org/abs/1603.00251v2).
+**[26]** R. L. Schilling. *An introduction to Lévy and Feller processes*. Lecture notes, 2016, version 2. [arXiv:1603.00251v2](https://arxiv.org/abs/1603.00251v2).

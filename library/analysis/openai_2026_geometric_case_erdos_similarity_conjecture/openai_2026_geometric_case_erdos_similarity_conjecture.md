@@ -49,7 +49,7 @@ Finally, the construction may miss copies at a small closed set of centers. An o
 Fix $q\in(0,1)$ for the rest of the proof. For a measurable, $1$-periodic set $A\subseteq\mathbb R$, write $$\rho(A)=m(A\cap[0,1)).$$ We first restrict the dilation factor to $[1,2]$, while allowing every real center. The following is the main construction.
 
 **Proposition 2.1**. *For every $p\in(0,1)$, there is an open $1$-periodic set $H\subseteq\mathbb R$ with $\rho(H)\le6p$ such that $$\begin{equation}
-\label{eq:periodic-hitting}
+\tag{2.1}
  \text{for every }x\in\mathbb R\text{ and }t\in[1,2],
  \quad x+tq^n\in H\text{ for some integer }n\ge1.
 \end{equation}$$*
@@ -57,7 +57,7 @@ Fix $q\in(0,1)$ for the rest of the proof. For a measurable, $1$-periodic set $A
 Sections 3–5 prove this proposition. We give its global consequence now, so that the subsequent construction has a single normalized target. The summable measure budgets allow us to use both expanding and contracting copies of the periodic set.
 
 *Proof of Theorem 1.1, assuming Proposition 2.1.* For each $k\in\mathbb Z$, put $$p_k=\frac{\eta}{64}\,4^{-|k|}$$ and choose $H_k$ from Proposition 2.1 with $p=p_k$. Define $$\begin{equation}
-\label{eq:global-open}
+\tag{2.2}
  C=\bigcup_{k\in\mathbb Z}\bigl(2^kH_k\cup(-2^kH_k)\bigr),
  \qquad E_{q,\eta}=[0,1]\setminus C.
 \end{equation}$$ The set $C$ is open and symmetric under reflection, so $E_{q,\eta}$ is compact.
@@ -69,13 +69,13 @@ Each signed dilation $\pm2^kH_k$ is periodic with period $2^k$ and has measure $
  &=\frac{12\eta}{64}
    \left(\sum_{j\ge1}4^{-j}+1+\sum_{k\ge1}2^{-k}\right)
  =\frac{7\eta}{16}<\eta.
- \label{eq:global-measure}
+ \tag{2.3}
 \end{align}$$ It follows that $m(E_{q,\eta})>1-\eta$.
 
-For $s>0$, choose $k\in\mathbb Z$ and $t\in[1,2)$ with $s=2^kt$. Apply Equation (eq:periodic-hitting) to $H_k$ at the center $2^{-k}x$. For some $n\ge1$ it gives $$2^{-k}x+tq^n\in H_k,
+For $s>0$, choose $k\in\mathbb Z$ and $t\in[1,2)$ with $s=2^kt$. Apply Equation (2.1) to $H_k$ at the center $2^{-k}x$. For some $n\ge1$ it gives $$2^{-k}x+tq^n\in H_k,
  \qquad\text{hence}\qquad x+sq^n\in2^kH_k\subseteq C.$$ For $s<0$, apply the same conclusion to $-x$ and $-s>0$ and reflect. Thus every nontrivial affine copy of $G_q$ meets $C$ and is not contained in $E_{q,\eta}$. ◻
 
-The dyadic factors in Equation (eq:global-open) only normalize the dilation parameter. They do not change the index $n$ or require any algebraic relation between $2$ and $q$.
+The dyadic factors in Equation (2.2) only normalize the dilation parameter. They do not change the index $n$ or require any algebraic relation between $2$ and $q$.
 
 ## Grids, preorder windows, and stable centers
 
@@ -84,7 +84,7 @@ We now prepare the index windows used to find a hit at a normalized scale $t\in[
 For each integer $b\ge1$, put $$c=\frac{4}{1-q},\qquad
  N_b=2^{\lceil\log_2(cq^{-b})\rceil},\qquad
  \Gamma_b=N_b^{-1}\mathbb Z.$$ The periodic grid key of $z\in\mathbb R$ is $J_b(z)=\lfloor N_b\{z\}\rfloor$, where $\{z\}=z-\lfloor z\rfloor$. Thus the cells are closed on the left and open on the right, and a boundary point belongs to the cell on its right. We have $$\begin{equation}
-\label{eq:grid-size}
+\tag{3.1}
  cq^{-b}\le N_b<2cq^{-b}.
 \end{equation}$$ All $N_b$ are powers of two and are nondecreasing in $b$. Consequently, if $b'\ge b$, then $N_{b'}/N_b$ is an integer and $$J_b(z)=\left\lfloor\frac{J_{b'}(z)}{N_{b'}/N_b}\right\rfloor.$$ In particular, a finer key determines every coarser key. This nesting is the reason for retaining dyadic grids even when $q$ is not dyadic.
 
@@ -97,7 +97,7 @@ Assign an integer interval $W_e=[a_e,b_e]\cap\mathbb N$ to each edge, in preorde
 For $e=(P,i)$, let $b_e^*$ be the largest endpoint among $W_e$ and all windows in the subtree rooted at $P_i$. The recursive choice has the following useful consequence.
 
 **Lemma 3.1** (Span of an edge and its child subtree). *If $e=(P,i)$ leaves a vertex of height $h$, then $$\begin{equation}
-\label{eq:window-span}
+\tag{3.2}
  b_e^*-a_e+1\le2r_h.
 \end{equation}$$*
 
@@ -112,15 +112,15 @@ Figure 1 shows the block appearing in the proof. Thus the finest grid used anyw
 Call $x\in\mathbb R$ *stable* if, for every window $W_e$ other than the first, writing $b'$ for the endpoint of its immediate predecessor, $$(x,x+2q^{a_e}]\cap\Gamma_{b'}=\varnothing.$$ Let $\mathcal S$ be the set of stable centers. The left endpoint is excluded because a translation to the right need not leave a grid cell when it starts on that cell’s left boundary; the right endpoint is included because reaching the next boundary does change the key.
 
 **Lemma 3.2** (Stability and earlier keys). *The set $\mathcal S$ is measurable and $1$-periodic, and $$\rho(\mathbb R\setminus\mathcal S)\le4Kc\,q^{g+1}.$$ If $x\in\mathcal S$, $n\in W_e$, and $t\in[1,2]$, then every edge $f$ preceding $e$ in preorder satisfies $$\begin{equation}
-\label{eq:stable-keys}
+\tag{3.3}
  J_{b_f}(x+tq^n)=J_{b_f}(x).
 \end{equation}$$*
 
 *Proof.* For a fixed noninitial window, failure of its stability condition occurs on the union of intervals $$[\gamma-2q^{a_e},\gamma),\qquad \gamma\in\Gamma_{b'}.$$ This is a measurable periodic set of density at most $$2N_{b'}q^{a_e}
  \le4c\,q^{a_e-b'}
- =4c\,q^{g+1},$$ where we used (eq:grid-size) and $a_e=b'+g+1$. Summing over the at most $K-1$ noninitial windows proves the stated density bound.
+ =4c\,q^{g+1},$$ where we used (3.1) and $a_e=b'+g+1$. Summing over the at most $K-1$ noninitial windows proves the stated density bound.
 
-For the first window there are no earlier edges to consider. Otherwise, let $b'$ again be the endpoint of its predecessor, and suppose $x$ is stable. For $n\in W_e$ and $t\in[1,2]$, we have $0<tq^n\le2q^{a_e}$. Hence the segment from $x$ to $x+tq^n$ crosses no boundary of $\Gamma_{b'}$, with a possible boundary at $x$ itself assigned to the cell on its right. It follows that $J_{b'}(x+tq^n)=J_{b'}(x)$. Every preceding edge $f$ has $b_f\le b'$, so nesting gives (eq:stable-keys). ◻
+For the first window there are no earlier edges to consider. Otherwise, let $b'$ again be the endpoint of its predecessor, and suppose $x$ is stable. For $n\in W_e$ and $t\in[1,2]$, we have $0<tq^n\le2q^{a_e}$. Hence the segment from $x$ to $x+tq^n$ crosses no boundary of $\Gamma_{b'}$, with a possible boundary at $x$ itself assigned to the cell on its right. It follows that $J_{b'}(x+tq^n)=J_{b'}(x)$. Every preceding edge $f$ has $b_f\le b'$, so nesting gives (3.3). ◻
 
 ### Separating the test points
 
@@ -128,7 +128,7 @@ Earlier keys are now fixed at stable centers. At the resolution attached to the 
 
 **Lemma 3.3** (Separation within one window). *Fix an edge $e$, a center $x\in\mathbb R$, and a scale $t\in[1,2]$. The points $$\{x\}\ \cup\ \{x+tq^n:n\in W_e\}$$ have pairwise distinct keys under $J_{b_e}$. They also have pairwise distinct keys under every $J_b$ with $b\ge b_e$.*
 
-*Proof.* Write $b=b_e$. All the displayed points lie in $[x,x+2q^{n_0}]$, an interval of length at most $1/4$. Their pairwise distances on the circle $\mathbb R/\mathbb Z$ therefore equal their ordinary real distances. The distance from $x$ to any translated point is $tq^n\ge q^b$. For $n<n'$ in $W_e$, the distance between the two translated points is $$t(q^n-q^{n'})=tq^n(1-q^{n'-n})\ge(1-q)q^b.$$ On the other hand, (eq:grid-size) gives $$\frac1{N_b}\le\frac{q^b}{c}
+*Proof.* Write $b=b_e$. All the displayed points lie in $[x,x+2q^{n_0}]$, an interval of length at most $1/4$. Their pairwise distances on the circle $\mathbb R/\mathbb Z$ therefore equal their ordinary real distances. The distance from $x$ to any translated point is $tq^n\ge q^b$. For $n<n'$ in $W_e$, the distance between the two translated points is $$t(q^n-q^{n'})=tq^n(1-q^{n'-n})\ge(1-q)q^b.$$ On the other hand, (3.1) gives $$\frac1{N_b}\le\frac{q^b}{c}
  =\frac{(1-q)q^b}{4}<(1-q)q^b.$$ Two points with the same periodic key have circular distance less than the cell width $1/N_b$. Thus all the keys are distinct, including when one of the points is a boundary point. Distinctness persists at finer resolutions because a finer key determines its coarser key. ◻
 
 The random construction can consequently reuse all earlier decisions at a stable center while consulting distinct entries for the points in the current window. We next use this distinction to obtain independent opportunities for a hit.
@@ -142,26 +142,26 @@ Keep the tree, grids, and windows of Section 3, and fix $p\in(0,1)$. We constru
 For each edge $e=(P,i)$ with $i<M$, let $$S_e:\{0,\ldots,N_{b_e}-1\}\longrightarrow\{0,1\}$$ be a table of independent fair bits. Child $M$ is the default child and has no selector table. For each leaf $L$, let $b(L)$ be the window endpoint of its incoming edge, and let $$T_L:\{0,\ldots,N_{b(L)}-1\}\longrightarrow\{0,1\}$$ be a table of independent Bernoulli-$p$ bits. All entries of all selector tables $S_e$ and terminal tables $T_L$ are mutually independent. There are finitely many entries, so they define a finite product probability space $\Omega$, with probability $\mathbb P$ and expectation $\mathbb E$. Write $\mathcal A$ for the sigma-field generated by all entries of all selector tables.
 
 Given an outcome and $z\in\mathbb R$, route $z$ from the root as follows. At an internal vertex $P$, choose the first child $P_i$, $i<M$, whose selector satisfies $S_{(P,i)}(J_{b_{(P,i)}}(z))=1$. If all these values are zero, choose $P_M$. Let $L(z)$ denote the leaf reached and define $$\begin{equation}
- \label{eq:random-set}
+ \tag{4.1}
  B=\bigl\{z\in\mathbb R:
  T_{L(z)}(J_{b(L(z))}(z))=1\bigr\}.
 \end{equation}$$ Every key is periodic, and every grid is refined by the finest grid in the construction. Thus each realization of $B$ is $1$-periodic and is a union of finitely many half-open cells per period.
 
-**Lemma 4.1** (Mean density). *The random set $B$ in (eq:random-set) satisfies $\mathbb E\rho(B)=p$.*
+**Lemma 4.1** (Mean density). *The random set $B$ in (4.1) satisfies $\mathbb E\rho(B)=p$.*
 
 *Proof.* For fixed $z$, conditioning on $\mathcal A$ fixes its leaf and terminal address. The terminal entry at that address still has Bernoulli-$p$ law, so $\mathbb P(z\in B\mid\mathcal A)=p$. Integration over one period, interchanged with the finite weighted sum over $\Omega$, gives $$\mathbb E\rho(B)=\int_0^1\mathbb P(z\in B)\,dz=p.$$ ◻
 
 ### Exposing the center and routing local tests
 
 For a fixed center $x\in\mathbb R$, expose its addressed entry in *every* selector table, including tables outside its route. Write $$\begin{equation}
- \label{eq:center-exposure}
+ \tag{4.2}
  \mathcal F_x=
  \sigma\bigl(S_e(J_{b_e}(x)):e=(P,i),\ i<M\bigr)
  \subseteq\mathcal A.
 \end{equation}$$ An atom $\xi$ of $\mathcal F_x$ specifies all these entries and has positive probability. Their addresses are deterministic once $x$ is fixed. On every atom, the remaining selector entries are therefore independent fair bits, and all terminal entries retain their independent Bernoulli-$p$ laws.
 
 The exposure determines the entire route of $x$. If that route uses a default child, let $U$ be the first vertex where it does so. Before conditioning on $\mathcal F_x$, $$\begin{equation}
- \label{eq:no-default}
+ \tag{4.3}
  \mathbb P\bigl(\text{the route of \(x\) has no default choice}\bigr)
  =(1-2^{1-M})^d.
 \end{equation}$$ Indeed, reveal the entries along the route one vertex at a time. At the vertex reached, its $M-1$ selector entries are independent fair bits, since the preceding choices use only ancestor tables. The conditional probability of a default is $2^{-(M-1)}$. Multiplying the complementary conditional probabilities over the $d$ decisions proves the formula.
@@ -170,26 +170,26 @@ Now fix a stable center $x$ and an atom $\xi$ on which $U$ exists. Under this co
  y_n(t)=x+tq^n\quad(t\in[1,2]).$$ All $M-1$ selector values at $x$ on these edges are zero. The windows $W_{e_i}$ will provide $(M-1)r$ possible hits.
 
 For $i<M$, let $L_i(z)$ be the leaf reached by routing $z$ starting at the child $U_i$; if this child is a leaf, take $L_i(z)=U_i$. Define the local test $$\begin{equation}
- \label{eq:local-test}
+ \tag{4.4}
  Q_i(z)=S_{e_i}(J_{b_{e_i}}(z))\,
  T_{L_i(z)}(J_{b(L_i(z))}(z)).
 \end{equation}$$ It consults only the selector on $e_i$ and the tables in its child subtree. The next lemma makes a successful local test a hit in $B$.
 
 **Lemma 4.2** (Preservation of routing). *Fix a stable center $x$ and an atom $\xi$ of $\mathcal F_x$ on which the first default vertex $U$ exists. For every outcome in $\xi$, every $i<M$, every $n\in W_{e_i}$, and every $t\in[1,2]$, the route of $y_n(t)$ reaches $U$ and rejects its children $1,\ldots,i-1$. Consequently, $$\begin{equation}
- \label{eq:local-hit}
+ \tag{4.5}
  Q_i(y_n(t))=1\quad\Longrightarrow\quad y_n(t)\in B.
 \end{equation}$$*
 
-*Proof.* At each strict ancestor $P$ of $U$, let $a$ be the child index chosen by $x$. Since $U$ is its first default vertex, $a<M$. The decision at $P$ reads zeros at indices less than $a$ and one at $a$. All these edges precede $e_i$ in preorder, so their selector values at $y_n(t)$ equal those at $x$ by (eq:stable-keys). Applying this observation successively from the root shows that $y_n(t)$ reaches $U$. At $U$, every edge $(U,j)$ with $j<i$ also precedes $e_i$; its selector at $y_n(t)$ is therefore the exposed zero at $x$.
+*Proof.* At each strict ancestor $P$ of $U$, let $a$ be the child index chosen by $x$. Since $U$ is its first default vertex, $a<M$. The decision at $P$ reads zeros at indices less than $a$ and one at $a$. All these edges precede $e_i$ in preorder, so their selector values at $y_n(t)$ equal those at $x$ by (3.3). Applying this observation successively from the root shows that $y_n(t)$ reaches $U$. At $U$, every edge $(U,j)$ with $j<i$ also precedes $e_i$; its selector at $y_n(t)$ is therefore the exposed zero at $x$.
 
-If $Q_i(y_n(t))=1$, its selector on $e_i$ is one, so the actual route takes child $U_i$. Its continuation reaches the leaf $L_i(y_n(t))$, whose addressed terminal entry is one. This is exactly the membership condition (eq:random-set). ◻
+If $Q_i(y_n(t))=1$, its selector on $e_i$ is one, so the actual route takes child $U_i$. Its continuation reaches the leaf $L_i(y_n(t))$, whose addressed terminal entry is one. This is exactly the membership condition (4.1). ◻
 
 ### The exact failure probability at a fixed scale
 
 We now show that these tests are numerous enough to make a miss unlikely. Their routes may share selector entries, so we first fix all selectors and check that the resulting terminal addresses are distinct. This order of conditioning keeps the dependence of the leaves on the selectors explicit.
 
-**Lemma 4.3** (Independent tests). *Fix a stable center $x$ and an atom $\xi$ of $\mathcal F_x$ on which the first default vertex $U$ exists. Let $h$ be its height and $r=r_h$, and define $Q_i$ by (eq:local-test). For every fixed $t\in[1,2]$, $$\begin{equation}
- \label{eq:test-failure}
+**Lemma 4.3** (Independent tests). *Fix a stable center $x$ and an atom $\xi$ of $\mathcal F_x$ on which the first default vertex $U$ exists. Let $h$ be its height and $r=r_h$, and define $Q_i$ by (4.4). For every fixed $t\in[1,2]$, $$\begin{equation}
+ \tag{4.6}
  \mathbb P\left(
  Q_i(y_n(t))=0\text{ for all }i<M,\ n\in W_{e_i}
  \,\middle|\,\xi\right)
@@ -212,17 +212,17 @@ Consequently, for each realization of the selectors, the terminal entries at all
  =(1-p/2)^{(M-1)r}.
 \end{align*}$$ ◻
 
-The estimate holds for every center-exposure atom admitting a default and every scale fixed on that atom. Section 5 will use the child-subtree endpoints $b_{e_i}^*$ to select finitely many such scales representing all $t\in[1,2]$. Together with (eq:no-default) and Lemma 4.1, this will control misses while keeping the expected density small.
+The estimate holds for every center-exposure atom admitting a default and every scale fixed on that atom. Section 5 will use the child-subtree endpoints $b_{e_i}^*$ to select finitely many such scales representing all $t\in[1,2]$. Together with (4.3) and Lemma 4.1, this will control misses while keeping the expected density small.
 
 ## All normalized scales and all centers
 
 The independent tests of Section 4 control a fixed scale at a fixed stable center. We first make this estimate simultaneous over $t\in[1,2]$, using only the grids that determine the local tests. We then choose the construction parameters and cover the remaining centers by a small open set. The finite boundary-representative argument has precedents in (Chlebík 2015, proof of Theorem 15) and (Kolountzakis and Papageorgiou 2025, sec. 3.1).
 
 **Lemma 5.1** (Conditional control of all normalized scales). *Fix $p\in(0,1)$ and the construction parameters $M,d,g,r_0$ of Sections 3 and 4. Let $x\in\mathcal S$ be a stable center, and let $\xi$ be an atom of the center-exposure field $\mathcal F_x$ on which the route of $x$ uses a default edge. If its first default occurs at a vertex $U$ of height $h$, put $r=r_h$ and $$\begin{equation}
-\label{eq:scale-count}
+\tag{5.1}
  D_{M,q}(r)=4+2(M-1)r\bigl(1+2c q^{-2r}\bigr).
 \end{equation}$$ Then $$\begin{equation}
-\label{eq:conditional-scales}
+\tag{5.2}
  \mathbb P\!\left(
   \exists t\in[1,2]\ \forall n\in\mathcal N:\
   x+tq^n\notin B\ \middle|\ \xi
@@ -233,34 +233,34 @@ The independent tests of Section 4 control a fixed scale at a fixed stable cent
 *Proof.* On the atom $\xi$, the vertex $U$ and its outgoing edges $e_i=(U,i)$, $1\le i<M$, are fixed. Recall that $Q_i(z)$ tests the selector on $e_i$ and terminal membership after routing from $U_i$. Every table used by this test belongs to $e_i$ or the subtree below it. By nesting of the grids, for every realization of the tables, $Q_i(z)$ is determined by the single key $J_{b_{e_i}^*}(z)$.
 
 For each $i<M$ and $n\in W_{e_i}$, record the values of $t\in[1,2]$ for which $y_n(t)=x+tq^n$ lies on the lattice $\Gamma_{b_{e_i}^*}$. The segment traversed by $y_n$ has length $q^n$, so the number of recorded values is at most $$\begin{equation}
-\label{eq:local-boundaries}
+\tag{5.3}
  1+q^nN_{b_{e_i}^*}
  \le 1+2c q^{-2r}.
-\end{equation}$$ Here we used (eq:grid-size) and the block-span bound $b_{e_i}^*-a_{e_i}+1\le2r$ from Lemma 3.1.
+\end{equation}$$ Here we used (3.1) and the block-span bound $b_{e_i}^*-a_{e_i}+1\le2r$ from Lemma 3.1.
 
 Combine these lists, add $1$ and $2$, and retain the distinct values in increasing order. Let $\mathcal T_{x,\xi}$ consist of these values together with one midpoint between each consecutive pair. There are $(M-1)r$ pairs $(i,n)$, and hence $$|\mathcal T_{x,\xi}|\le D_{M,q}(r).$$ This set depends only on $x$, the deterministic windows and grids, and the vertex $U$ determined by $\xi$; it is fixed before any remaining table entries are revealed. For every realization of those entries, the entire vector $$\bigl(Q_i(y_n(t)):\ i<M,\ n\in W_{e_i}\bigr)$$ is constant on each open interval between consecutive recorded values. Every boundary value is represented separately, so the half-open cell convention causes no loss at a boundary or at an endpoint of $[1,2]$.
 
-If some $t$ misses $B$ at all indices in $\mathcal N$, Lemma 4.2 implies that all these local tests fail at $t$. They therefore also fail at some $t'\in\mathcal T_{x,\xi}$. Each such $t'$ is a fixed real number under the conditioning on $\xi$, so Lemma 4.3 applies to it. Taking a union bound and using (eq:test-failure) gives $$\mathbb P\!\left(
+If some $t$ misses $B$ at all indices in $\mathcal N$, Lemma 4.2 implies that all these local tests fail at $t$. They therefore also fail at some $t'\in\mathcal T_{x,\xi}$. Each such $t'$ is a fixed real number under the conditioning on $\xi$, so Lemma 4.3 applies to it. Taking a union bound and using (4.6) gives $$\mathbb P\!\left(
   \exists t\in[1,2]\ \forall n\in\mathcal N:\
   x+tq^n\notin B\ \middle|\ \xi
  \right)
- \le |\mathcal T_{x,\xi}|(1-p/2)^{(M-1)r},$$ which proves (eq:conditional-scales). ◻
+ \le |\mathcal T_{x,\xi}|(1-p/2)^{(M-1)r},$$ which proves (5.2). ◻
 
-The bound uses the last grid in each edge and descendant block. Its resolution is controlled by that edge’s window length through (eq:window-span). Using the finest grid of the whole construction would discard this control and would not give (eq:scale-count).
+The bound uses the last grid in each edge and descendant block. Its resolution is controlled by that edge’s window length through (3.2). Using the finest grid of the whole construction would discard this control and would not give (5.1).
 
 *Proof of Proposition 2.1.* Fix $p\in(0,1)$. We now specify the parameters that were left arbitrary in the preceding construction. Choose an integer $M\ge2$ such that $$\begin{equation}
-\label{eq:branching-choice}
+\tag{5.4}
  \alpha:=\frac{p(M-1)}2>2\log(1/q).
-\end{equation}$$ Next choose an integer $d\ge1$ satisfying $$(1-2^{1-M})^d<p.$$ For the resulting tree, let $K$ be its number of edges and choose an integer $g\ge1$ such that $$4Kc q^{g+1}<p.$$ Finally, by (eq:branching-choice), $$D_{M,q}(r)e^{-\alpha r}
+\end{equation}$$ Next choose an integer $d\ge1$ satisfying $$(1-2^{1-M})^d<p.$$ For the resulting tree, let $K$ be its number of edges and choose an integer $g\ge1$ such that $$4Kc q^{g+1}<p.$$ Finally, by (5.4), $$D_{M,q}(r)e^{-\alpha r}
  =O\!\left(r e^{-(\alpha-2\log(1/q))r}\right)
  \longrightarrow0.$$ Thus there is an integer $r_*\ge1$ such that $$\begin{equation}
-\label{eq:window-length-choice}
+\tag{5.5}
  D_{M,q}(r)e^{-p(M-1)r/2}<p
  \qquad\text{for every integer }r\ge r_*.
 \end{equation}$$ Construct the windows with $r_0=r_*$ and the chosen $M,d,g$, and form the random set $B$ of Section 4.
 
-Fix any stable center $x$. By (eq:no-default), the probability that its route has no default is less than $p$. On each atom of $\mathcal F_x$ for which a default occurs, Lemma 5.1 and (eq:window-length-choice) bound the conditional probability of a miss at some normalized scale by $p$, since every $r_h\ge r_*$. Summing over the center-exposure atoms yields $$\begin{equation}
-\label{eq:stable-miss}
+Fix any stable center $x$. By (4.3), the probability that its route has no default is less than $p$. On each atom of $\mathcal F_x$ for which a default occurs, Lemma 5.1 and (5.5) bound the conditional probability of a miss at some normalized scale by $p$, since every $r_h\ge r_*$. Summing over the center-exposure atoms yields $$\begin{equation}
+\tag{5.6}
  \mathbb P\!\left(
   \exists t\in[1,2]\ \forall n\in\mathcal N:\
   x+tq^n\notin B
@@ -269,13 +269,13 @@ Fix any stable center $x$. By (eq:no-default), the probability that its route h
 \end{equation}$$ The probability space is finite, so this event is measurable even though its definition quantifies over all $t\in[1,2]$.
 
 It remains to turn this estimate at each center into a set that works at every center. Open-neighborhood repair for null sequences is explicit in Tom (Tom 2015, Lemma 0.2); see also Chlebík (Chlebík 2015, sec. 3, final remark; Proposition 1(vi), (viii)). We implement it with open neighborhoods, which contain sufficiently late translated points because $tq^n\to0$. For each table outcome, enlarge the finitely many selected cells per period to an open periodic set $B^+\supseteq B$ with $$\rho(B^+)\le\rho(B)+p.$$ For that outcome define the set of centers still missed by the finite collection of indices: $$\begin{equation}
-\label{eq:exceptional-centers}
+\tag{5.7}
  R=\left\{x\in\mathbb R:\ \exists t\in[1,2]\ \forall n\in\mathcal N,
                    \ x+tq^n\notin B^+\right\}.
 \end{equation}$$ This is a closed periodic set. Indeed, on the circle $\mathbb R/\mathbb Z$ it is the projection of the closed set $$\left\{(x,t)\in(\mathbb R/\mathbb Z)\times[1,2]:
        x+tq^n\notin B^+\ \text{for all }n\in\mathcal N\right\}$$ in a compact product. In particular, its density is defined.
 
-Since $B\subseteq B^+$, membership of a fixed stable center in $R$ implies the event in (eq:stable-miss). Lemma 3.2 and the choice of $g$ give $\rho(\mathbb R\setminus\mathcal S)<p$. Integrating the probability bound over one period therefore gives $$\mathbb E\rho(R)
+Since $B\subseteq B^+$, membership of a fixed stable center in $R$ implies the event in (5.6). Lemma 3.2 and the choice of $g$ give $\rho(\mathbb R\setminus\mathcal S)<p$. Integrating the probability bound over one period therefore gives $$\mathbb E\rho(R)
  =\int_0^1\mathbb P(x\in R)\,dx
  \le2p\rho(\mathcal S)+\rho(\mathbb R\setminus\mathcal S)
  \le3p.$$ Also $\mathbb E\rho(B^+)\le2p$ by Lemma 4.1. Choose a table outcome for which $$\rho(B^+)+\rho(R)\le5p.$$ Outer regularity on the circle supplies an open periodic set $V\supseteq R$ with $\rho(V)\le\rho(R)+p$. Then $H=B^+\cup V$ is open and periodic, and $$\rho(H)\le\rho(B^+)+\rho(R)+p\le6p.$$

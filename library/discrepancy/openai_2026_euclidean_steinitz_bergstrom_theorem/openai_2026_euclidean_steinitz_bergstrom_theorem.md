@@ -61,20 +61,20 @@ We will encode the signed walk by one point in a convex body in a larger coeffic
 ### The two analytic inputs
 
 Let $D\subset\mathbb R^m$ be a nonempty bounded open convex set, and let $Q$ be a positive definite diagonal $m\times m$ matrix. Define its diagonal Dirichlet energy by $$\begin{equation}
-\label{eq:dirichlet-energy}
+\tag{1}
  \lambda_Q(D)=
  \inf_{0\ne g\in H^1_0(D)}
  \frac{\displaystyle\int_D\langle Q\nabla g,\nabla g\rangle\,dx}
       {\displaystyle\int_Dg^2\,dx}.
 \end{equation}$$ Here $H^1_0(D)$ is the closure of $C_c^\infty(D)$ in the Sobolev norm, and derivatives are weak derivatives. This normalization corresponds to Brownian motion with covariance rate $2Q$. Central symmetry will always mean symmetry about the origin. Fix $$\begin{equation}
-\label{eq:signing-constants}
+\tag{2}
  \kappa=\frac1{100},\qquad \delta=\frac14.
 \end{equation}$$
 
 Our first input turns small coordinate energies into signs while allowing a bounded shift at each step. The shifts may depend on previously assigned coordinates.
 
 **Proposition 2.1** (Signs with adaptive shifts). *Let $K\subset\mathbb R^m$ be nonempty, bounded, open, convex and centrally symmetric. Suppose that $$\begin{equation}
-\label{eq:all-diagonal-energy}
+\tag{3}
  \lambda_Q(K)\le\kappa^2\mathop{\mathrm{tr}}Q
  \quad\text{for every positive definite diagonal }Q.
 \end{equation}$$ Let $j_1,\ldots,j_s$ be distinct elements of $\{1,\ldots,m\}$, and let $q_i:\mathbb R^{i-1}\to[-\delta,\delta]$ be arbitrary functions, for $1\le i\le s$. There exist signs $\varepsilon_1,\ldots,\varepsilon_s$ such that the recursion $$x^{(0)}=0,\qquad
@@ -87,11 +87,11 @@ This is an existence statement; the choice of signs can depend on the whole body
 The second input supplies a body satisfying a uniform energy bound. Its linear maps retain a $d$-dimensional state and read one new coordinate at each step.
 
 **Proposition 2.2** (Energy of a filtered path body). *There are positive absolute constants $A_0,B_0,H_0$ with the following property. Let $d\ge1$ and $n\ge0$ be integers and put $m=d+n$. For $1\le t\le n$, let $C_t$ be an invertible real $d\times d$ matrix and let $b_t\in\mathbb R^d$ satisfy $$C_tC_t^T+b_tb_t^T=I_d.$$ Define linear maps $R_t:\mathbb R^m\to\mathbb R^d$ by $$\begin{equation}
-\label{eq:filter-recursion}
+\tag{4}
  R_0x=(x_1,\ldots,x_d),\qquad
  R_tx=C_tR_{t-1}x+b_tx_{d+t}\quad(1\le t\le n).
 \end{equation}$$ Then the bounded open convex centrally symmetric set $$\begin{equation}
-\label{eq:filtered-body}
+\tag{5}
  \mathcal D=
  \left\{x\in\mathbb R^m:
  \begin{array}{ll}
@@ -104,7 +104,7 @@ The second input supplies a body satisfying a uniform energy bound. Its linear m
 The constants are independent of the number of maps and of $Q$. This uniformity is essential: the application will use $n$ equal to the number of vectors. To compensate for the contractions, we will also impose linear constraints on the coefficients. The following estimate bounds their additional energy cost; we prove it after completing the construction.
 
 **Lemma 2.3** (Adding slabs). *Let $D\subset\mathbb R^m$ be bounded, nonempty, open, convex and centrally symmetric. Let $D_*>0$, $\delta>0$, and let $m_1,\ldots,m_n$ be real rows of length $m$. Set $$K=(2D_*D)\cap\bigcap_{i=1}^n\{x:|m_i x|<\delta\}.$$ For every positive definite diagonal $Q$, $$\begin{equation}
-\label{eq:slab-energy}
+\tag{6}
  \lambda_Q(K)
  \le D_*^{-2}\lambda_Q(D)
      +\pi^2\delta^{-2}\sum_{i=1}^n m_iQm_i^T.
@@ -119,16 +119,16 @@ We now prove the signed-prefix theorem from Propositions 2.1 and 2.2. Their pr
 ##### The symmetric contractions.
 
 For a positive absolute $\sigma<1$, to be chosen below, set $$\begin{equation}
-\label{eq:symmetric-filter}
+\tag{7}
  b_i=\sigma v_i,\qquad
  \eta_i=\frac1{1+\sqrt{1-\lVert b_i\rVert_2^2}},\qquad
  C_i=I-\eta_ib_ib_i^T.
 \end{equation}$$ On the span of $b_i$, the matrix $C_i$ has eigenvalue $\sqrt{1-\lVert b_i\rVert_2^2}$, and on its orthogonal complement it is the identity. This includes $b_i=0$, for which $\eta_i=1/2$ and $C_i=I$. Consequently $$C_i=(I-b_ib_i^T)^{1/2}=C_i^T\succ0,
  \qquad C_i^2+b_ib_i^T=I,
- \qquad \frac12\le\eta_i\le1.$$ Use these matrices in (eq:filter-recursion), and let $\mathcal D$ be the body in Proposition 2.2.
+ \qquad \frac12\le\eta_i\le1.$$ Use these matrices in (4), and let $\mathcal D$ be the body in Proposition 2.2.
 
 For $x\in\mathbb R^{d+n}$, let $x^0$ be obtained by setting its first $d$ coordinates to zero. Define row vectors $m_i$ by $$\begin{equation}
-\label{eq:predictor-rows}
+\tag{8}
  m_ix=\eta_i b_i^TR_{i-1}x^0.
 \end{equation}$$ Each row $m_i$ is supported only on the noise coordinates $d+1,\ldots,d+i-1$. In particular it is unaffected by any coordinate assigned at step $i$ or later.
 
@@ -136,7 +136,7 @@ For $x\in\mathbb R^{d+n}$, let $x^0$ be obtained by setting its first $d$ coordi
 
 Let $M$ be the matrix with rows $m_i$. We claim that every column of $M$ has squared Euclidean norm at most $\sigma^2$. Its initial $d$ columns are zero. For a noise coordinate $d+j$, follow its contribution to the state: $$r_j=b_j,\qquad r_i=C_ir_{i-1}\quad(j<i\le n).$$ The coefficient of that coordinate in $m_i$ is zero for $i\le j$, and is $\eta_i b_i^Tr_{i-1}$ for $i>j$. Symmetry of $C_i$ gives the exact loss identity $$\lVert r_{i-1}\rVert_2^2-\lVert r_i\rVert_2^2
  =(b_i^Tr_{i-1})^2.$$ Thus the losses telescope: $$\begin{equation}
-\label{eq:predictor-columns}
+\tag{9}
  \begin{aligned}
  \lVert Me_{d+j}\rVert_2^2
  &=\sum_{i=j+1}^n\eta_i^2(b_i^Tr_{i-1})^2\\
@@ -145,30 +145,30 @@ Let $M$ be the matrix with rows $m_i$. We claim that every column of $M$ has squ
  \le\lVert b_j\rVert_2^2\le\sigma^2.
  \end{aligned}
 \end{equation}$$ In particular, for every positive definite diagonal $Q$, $$\begin{equation}
-\label{eq:predictor-weighted-cost}
+\tag{10}
  \sum_{i=1}^n m_iQm_i^T
  =\sum_{j=1}^{d+n}Q_{jj}\lVert Me_j\rVert_2^2
  \le\sigma^2\mathop{\mathrm{tr}}Q.
 \end{equation}$$
 
 Choose an absolute dilation $D_*>0$ and define $$\begin{equation}
-\label{eq:application-body}
+\tag{11}
  K=(2D_*\mathcal D)\cap
    \{x:|m_ix|<\delta\text{ for }1\le i\le n\}.
-\end{equation}$$ This is a bounded open convex centrally symmetric set containing a neighborhood of zero. Lemma 2.3, Proposition 2.2, and (eq:predictor-weighted-cost) give $$\begin{equation}
-\label{eq:application-energy}
+\end{equation}$$ This is a bounded open convex centrally symmetric set containing a neighborhood of zero. Lemma 2.3, Proposition 2.2, and (10) give $$\begin{equation}
+\tag{12}
  \lambda_Q(K)
  \le\left(H_0D_*^{-2}+\pi^2\delta^{-2}\sigma^2\right)\mathop{\mathrm{tr}}Q.
 \end{equation}$$ We can therefore fix, once and for all, $$\begin{equation}
-\label{eq:absolute-parameters}
+\tag{13}
  D_*\ge\max\{1,\sqrt{2H_0}/\kappa\},\qquad
  \sigma=\min\{1/2,\kappa\delta/(\sqrt2\pi)\}.
-\end{equation}$$ The same body $K$ then satisfies (eq:all-diagonal-energy) for every positive definite diagonal $Q$. These choices are independent of $d$, $n$ and the vectors.
+\end{equation}$$ The same body $K$ then satisfies (3) for every positive definite diagonal $Q$. These choices are independent of $d$, $n$ and the vectors.
 
 ##### Choosing the coefficients.
 
 For $u\in\mathbb R$ write $\operatorname{clip}_\delta(u)=\max\{-\delta,\min\{u,\delta\}\}$. Apply Proposition 2.1 to the distinct axes $e_{d+1},\ldots,e_{d+n}$. At step $i$ prescribe the shift $$q_i=\operatorname{clip}_\delta(m_ix^{(i-1)}).$$ By the support of $m_i$, this is a function of the previously assigned coordinates, as required. The proposition supplies signs and a final point $x=x^{(n)}\in K$. Its first $d$ coordinates remain zero. Also, coordinates assigned before step $i$ never change afterward, so $$m_ix^{(i-1)}=m_ix.$$ The final membership $x\in K$ implies $|m_ix|<\delta$. Hence each shift was already within the permitted interval: clipping was inactive, and $$\begin{equation}
-\label{eq:unclipped-coordinates}
+\tag{14}
  x_{d+i}=m_ix+\varepsilon_i
  =\eta_i b_i^TR_{i-1}x+\varepsilon_i.
 \end{equation}$$ Here $x^0=x$ because the initial block is zero. Clipping is used only to make the application of Proposition 2.1 unconditional; causality and the final constraints subsequently remove it.
@@ -184,9 +184,9 @@ For this single final coefficient vector, $R_0x=0$ and $$\begin{align*}
    +b_t(\eta_tb_t^TR_{t-1}x+\varepsilon_t)\\
  &=R_{t-1}x+\varepsilon_tb_t.
 \end{align*}$$ Thus, simultaneously for every $0\le t\le n$, $$\begin{equation}
-\label{eq:feedback-cancellation}
+\tag{15}
  R_tx=\sum_{i=1}^t\varepsilon_ib_i.
-\end{equation}$$ Since $x\in2D_*\mathcal D$, all these states have norm less than $2D_*A_0\sqrt d$. Dividing (eq:feedback-cancellation) by $\sigma$ proves Theorem 1.1 with the absolute constant $C=2D_*A_0/\sigma$. ◻
+\end{equation}$$ Since $x\in2D_*\mathcal D$, all these states have norm less than $2D_*A_0\sqrt d$. Dividing (15) by $\sigma$ proves Theorem 1.1 with the absolute constant $C=2D_*A_0/\sigma$. ◻
 
 **Figure 1:** For the final coefficient vector, put $r=R_{t-1}x$. The predictor term in the incoming coordinate restores exactly the component removed by $C_t$, leaving the signed increment $\varepsilon_tb_t$.
 
@@ -195,7 +195,7 @@ For this single final coefficient vector, $R_0x=0$ and $$\begin{align*}
 We now prove Lemma 2.3, which bounded the cost of the predictor constraints. Brownian survival converts intersection with slabs into an event to which Gaussian correlation applies. The two Brownian facts below will also be used in the remaining analytic arguments.
 
 **Lemma 2.4** (Brownian survival rate). *Let $D\subset\mathbb R^m$ be bounded, nonempty, open and convex, and let $Q$ be positive definite and diagonal. If $W$ is Brownian motion with covariance rate $2Q$, started at $x\in D$, then $$\begin{equation}
-\label{eq:brownian-rate}
+\tag{16}
  \lim_{T\to\infty}-\frac1T
  \log\mathbb P_x\{W(s)\in D\text{ for all }0\le s\le T\}
  =\lambda_Q(D).
@@ -212,7 +212,7 @@ Write $\lambda=\lambda_Q(D)$. Compactness of $H_0^1(D)\hookrightarrow L^2(D)$ an
            \lVert P_{T-1}^D\mathbf 1_D\rVert_2\\
  &\le \lVert p_Q(1,x,\cdot)\rVert_2\,|D|^{1/2}
            e^{-(T-1)\lambda}.
-\end{align*}$$ Both prefactors are finite for the fixed $D,Q,x$. Taking logarithms and dividing by $T$ proves (eq:brownian-rate). Finally, a nonempty open convex set symmetric about $0$ contains $0$ as an interior point. ◻
+\end{align*}$$ Both prefactors are finite for the fixed $D,Q,x$. Taking logarithms and dividing by $T$ proves (16). Finally, a nonempty open convex set symmetric about $0$ contains $0$ as an interior point. ◻
 
 We will use the following path form of Gaussian correlation. Its finite-grid proof also records how closed constraints are handled.
 
@@ -231,7 +231,7 @@ We will use the following path form of Gaussian correlation. Its finite-grid pro
  \mathbb P_0\{|m_iW(s)|<\delta/2\text{ for all }0\le s\le T\}.
 \end{align*}$$ For a nonzero row $m_i$, the process $m_iW$ is one-dimensional Brownian motion with covariance rate $2c_i$, where $c_i=m_iQm_i^T>0$. The first Dirichlet eigenfunction of $-c_i\,d^2/dx^2$ on $(-\delta/2,\delta/2)$ is $\cos(\pi x/\delta)$, with eigenvalue $\pi^2c_i/\delta^2$. Lemma 2.4 gives the corresponding survival exponent. A zero row gives the identically zero process, so its probability is one and its cost is zero.
 
-Take negative logarithms, divide by $T$, and let $T\to\infty$. Lemma 2.4 applies to $K$ and $D_*D$, and the change of variables in the Rayleigh quotient gives $\lambda_Q(D_*D)=D_*^{-2}\lambda_Q(D)$. This proves (eq:slab-energy). The argument used only inclusions between closed and open events; it requires no assertion about equality of their survival rates. ◻
+Take negative logarithms, divide by $T$, and let $T\to\infty$. Lemma 2.4 applies to $K$ and $D_*D$, and the change of variables in the Rayleigh quotient gives $\lambda_Q(D_*D)=D_*^{-2}\lambda_Q(D)$. This proves (6). The argument used only inclusions between closed and open events; it requires no assertion about equality of their survival rates. ◻
 
 It remains to prove the two analytic inputs. We first construct the domain transformations behind Proposition 2.1, and then establish the uniform energy bound in Proposition 2.2.
 
@@ -244,7 +244,7 @@ Throughout this section, $$\kappa=\frac1{100},\qquad \delta=\frac14,\qquad \ell=
 ### One function for all coordinate energies
 
 We first record a useful boundary convention. If a bounded open convex domain $D\subset\mathbb R^m$ contains zero, then $$\begin{equation}
-\label{eq:zero-extension}
+\tag{17}
  H_0^1(D)=\{f|_D:f\in H^1(\mathbb R^m),\ f=0\text{ a.e. outside }D\},
 \end{equation}$$ where functions on the left are extended by zero. Indeed, for a function on the right, $f_r(x)=f(x/r)$ converges to $f$ in $H^1(\mathbb R^m)$ as $r\uparrow1$. For $r<1$ its support lies in the compact subset $r\overline D$ of $D$. Mollification with a sufficiently small radius therefore approximates $f_r$ by functions in $C_c^\infty(D)$. Conversely, zero extension preserves the $H^1$ norm on $C_c^\infty(D)$ and hence on its completion.
 
@@ -258,7 +258,7 @@ We first record a useful boundary convention. If a bounded open convex domain $D
 
 To see that $\mathcal A$ is closed, let $u^{(j)}\in\mathcal A$ converge to $u$, and choose corresponding $f_j\in\mathcal F$. Their $H^1$ norms are bounded. Since all supports lie in a fixed bounded set, weak $H^1$ compactness and compactness in $L^2$ give a subsequence converging weakly in $H^1$ and strongly in $L^2$ to a member $f$ of $\mathcal F$. Lower semicontinuity gives $E_i(f)\le u_i$ for every $i$.
 
-If $c=\kappa^2(1,\ldots,1)$ did not belong to $\mathcal A$, strict separation would give a nonzero $w\in\mathbb R^m$ with $$w\cdot c<\inf_{u\in\mathcal A}w\cdot u.$$ The upper-set property forces every $w_i$ to be nonnegative. For $\epsilon>0$ let $Q_\epsilon=\mathop{\mathrm{diag}}(w_i+\epsilon)$. By (eq:zero-extension), taking absolute values and normalizing does not change the Rayleigh infimum, so $$\inf_{u\in\mathcal A}w\cdot u
+If $c=\kappa^2(1,\ldots,1)$ did not belong to $\mathcal A$, strict separation would give a nonzero $w\in\mathbb R^m$ with $$w\cdot c<\inf_{u\in\mathcal A}w\cdot u.$$ The upper-set property forces every $w_i$ to be nonnegative. For $\epsilon>0$ let $Q_\epsilon=\mathop{\mathrm{diag}}(w_i+\epsilon)$. By (17), taking absolute values and normalizing does not change the Rayleigh infimum, so $$\inf_{u\in\mathcal A}w\cdot u
  =\inf_{f\in\mathcal F}\sum_iw_iE_i(f)
  \le\lambda_{Q_\epsilon}(K)
  \le\kappa^2\sum_i(w_i+\epsilon).$$ Letting $\epsilon\downarrow0$ contradicts separation. This argument also covers zero components of $w$. Thus $c\in\mathcal A$, as required. ◻
@@ -295,7 +295,7 @@ The next lemma is the geometric step in the signing construction. Its conclusion
 The section $D_1$ is the target because each of its points permits the required shifted signed step. Indeed, for any $y\in D_1$, write $I_y=(a,b_0)$. Its length exceeds two. Choose $c\in(a+1,b_0-1)$; then $$[c-1,c+1]\subset I_y,\qquad |c|<\ell-1=\frac32.$$ For $|q|\le\delta$, we have $|c-q|<7/4<2$. If $q\le c$, then $q+1$ lies in $[c-1,c+1]$; if $q\ge c$, then $q-1$ lies in that segment. Thus one of $q+1,q-1$ lies in the original open fiber, giving membership in $K$ itself. It remains to prove that $D_1$ is nonempty and has the same spectral bounds as $K$.
 
 Choose $f$ from Lemma 3.1, and define $$\Psi(y,s)=(2\ell)^{-1/2}f(y+se)\mathbf1_{(-\ell,\ell)}(s).$$ Translation invariance and Fubini give $$\begin{equation}
-\label{eq:lifted-energy}
+\tag{18}
  \|\Psi\|_2=1,\qquad
  \int|\partial_{y_i}\Psi|^2=\int|\partial_i f|^2\le\kappa^2.
 \end{equation}$$ Only derivatives in the horizontal variable $y$ will be used.
@@ -306,12 +306,12 @@ For nonnegative $a,b\in L^2(\mathbb R)$, the layer-cake formula gives $$\int ab
  =\int_0^\infty\!\int_0^\infty
        |\{a>u\}\cap\{b>v\}|\,du\,dv
  \le\int a^*b^*.$$ The intersection is bounded by the smaller of the two superlevel measures, and centered intervals attain that bound. Since rearrangement preserves the individual norms, $\|a^*-b^*\|_2\le\|a-b\|_2$. Applying this to the fibers at $y$ and $y+he_i$, then integrating over $y$, bounds the horizontal difference quotients of $\Psi^*$ by those of $\Psi$. Their weak limits yield $$\begin{equation}
-\label{eq:rearranged-energy}
+\tag{19}
  \int|\partial_{y_i}\Psi^*|^2\le\int|\partial_i f|^2\le\kappa^2.
-\end{equation}$$ Sobolev slicing and Fubini therefore imply that, for almost every $s$, $\Psi^*(\cdot,s)\in H^1(\mathbb R^m)$ and vanishes almost everywhere outside $D_{|s|}$. Each nonzero such slice belongs to $H_0^1(D_{|s|})$ by (eq:zero-extension).
+\end{equation}$$ Sobolev slicing and Fubini therefore imply that, for almost every $s$, $\Psi^*(\cdot,s)\in H^1(\mathbb R^m)$ and vanishes almost everywhere outside $D_{|s|}$. Each nonzero such slice belongs to $H_0^1(D_{|s|})$ by (17).
 
 We next show that the rearranged density puts enough mass at heights above one. Its mean absolute height is $$\begin{equation}
-\label{eq:mean-height}
+\tag{20}
  \begin{split}
  M&=\iint |s|\Psi^*(y,s)^2\,dy\,ds\\
  &=\frac1{8\ell}\int_{-\ell}^{\ell}\int_{-\ell}^{\ell}
@@ -320,8 +320,8 @@ We next show that the rearranged density puts enough mass at heights above one. 
 \end{equation}$$ Indeed, a centered interval of length $u$ has integral of $|s|$ equal to $u^2/4$. Apply this to the superlevel intervals of $\Psi^{*2}$ and use Tonelli; the factor $(2\ell)^{-1}$ in $\Psi^2$ gives the displayed normalization. For nonnegative translates $u,v$ of $f$, both of norm one, $$\int\min(u^2,v^2)
  =1-\tfrac12\|u^2-v^2\|_1
  \ge1-\|u-v\|_2.$$ Moreover, $$\|f(\cdot+re)-f(\cdot+r'e)\|_2
- \le |r-r'|\,\|\partial_e f\|_2\le2\ell\kappa.$$ It follows from (eq:mean-height) that $$\begin{equation}
-\label{eq:height-lower}
+ \le |r-r'|\,\|\partial_e f\|_2\le2\ell\kappa.$$ It follows from (20) that $$\begin{equation}
+\tag{21}
  M\ge\frac\ell2(1-2\ell\kappa)=\frac{19}{16}>1.
 \end{equation}$$ Under the probability density $\Psi^{*2}(y,s)$, we have $|s|<b$ almost surely; hence $M<b$. In particular, $D_1$ is nonempty.
 
@@ -352,16 +352,16 @@ The support of $R_{t-1}$ is contained in the initial block and the first $t-1$ n
  \qquad
  L_t:=R_tQR_t^\top
    =C_tL_{t-1}C_t^\top+Q_{d+t,d+t}b_tb_t^\top.
- \label{eq:speed-recursion}
+ \tag{22}
 \end{equation}$$ In particular $L_t$ is positive definite. Every $C_t$ is a contraction, since $C_tC_t^\top\preceq I_d$.
 
-Let $\ell_t$ be the trace lost in the contraction in (eq:speed-recursion), and let $g_t$ be the trace added afterward. Both are nonnegative. Since $\lVert b_t\rVert\le1$, $$\begin{equation}
+Let $\ell_t$ be the trace lost in the contraction in (22), and let $g_t$ be the trace added afterward. Both are nonnegative. Since $\lVert b_t\rVert\le1$, $$\begin{equation}
  \sum_{t=1}^n g_t\le\sum_{t=1}^n Q_{d+t,d+t},
  \qquad
  \sum_{t=1}^n\ell_t
    =\mathop{\mathrm{tr}}L_0+\sum_{t=1}^n g_t-\mathop{\mathrm{tr}}L_n
    \le\mathop{\mathrm{tr}}Q.
- \label{eq:trace-budgets}
+ \tag{23}
 \end{equation}$$ These two budgets are independent of the length of the sequence.
 
 Fix the following piecewise linear cutoff on $(0,\infty)$: $$f_0(x)=
@@ -380,17 +380,17 @@ Fix the following piecewise linear cutoff on $(0,\infty)$: $$f_0(x)=
  \qquad
  \phi(x)=\min\{x^{a-1},x^{-1}\}.
  \end{gathered}
- \label{eq:scalar-potentials}
+ \tag{24}
 \end{equation}$$ The potential $p$ will control changes of the cutoff between endpoint matrices, while $p_1$ will control gains accumulated through intervening contractions. The function $\phi$ measures the contribution of each spectral direction to the size of a scale. Matrix functions below are defined by spectral calculus.
 
 For each dyadic scale $\theta\in2^{\mathbb Z}$, set $$X_t=L_t/\theta,
  \qquad
  F_t^\theta=R_t^\top f_0(X_t)R_t,
  \qquad
- k_t(\theta)=\mathop{\mathrm{tr}}\phi(X_t).$$ Here $R_t$ is $d\times m$, $X_t$ is $d\times d$, and $F_t^\theta$ is $m\times m$. By (eq:speed-recursion), $R_t^\top$ is an isometry, so the lift preserves the localized state norm: $$\lVert F_t^\theta x\rVert
+ k_t(\theta)=\mathop{\mathrm{tr}}\phi(X_t).$$ Here $R_t$ is $d\times m$, $X_t$ is $d\times d$, and $F_t^\theta$ is $m\times m$. By (22), $R_t^\top$ is an isometry, so the lift preserves the localized state norm: $$\lVert F_t^\theta x\rVert
  =\lVert f_0(X_t)R_tx\rVert\qquad(x\in\mathbb R^m).$$ It also removes dependence on state coordinates: replacing $R_t$ by $OR_t$, with $O$ orthogonal, replaces $X_t$ by $OX_tO^\top$ and leaves $F_t^\theta$ unchanged. The notation $X_t$ always refers to the scale currently under consideration; at a fixed scale we also abbreviate $F_t=F_t^\theta$ and $k_t=k_t(\theta)$. The geometric decay of $\phi$ at zero and infinity gives $$\begin{equation}
  \sum_{\theta\in2^{\mathbb Z}}k_t(\theta)\le C d.
- \label{eq:scale-size}
+ \tag{25}
 \end{equation}$$ Indeed, for each positive eigenvalue $\lambda$ of $L_t$, the terms $\phi(\lambda/\theta)$ on either side of $\theta=\lambda$ form bounded geometric sums. On the support band of $f_0$, one has $\phi\ge1/4$. It follows that $$\begin{equation}
  \begin{gathered}
  \mathop{\mathrm{tr}}f_0(X_t)^2\le4k_t,
@@ -399,7 +399,7 @@ For each dyadic scale $\theta\in2^{\mathbb Z}$, set $$X_t=L_t/\theta,
  \qquad \lVert F_t\rVert_{\mathrm{op}}\le1,\\
  F_t\ne0\quad\Longrightarrow\quad k_t\ge\tfrac14.
  \end{gathered}
- \label{eq:cutoff-moments}
+ \tag{26}
 \end{equation}$$ Every eigenvalue of $L_t$ lies between the smallest and largest diagonal entries of $Q$. Consequently only finitely many scales have $F_t^\theta\ne0$ for some $t$, and every such scale satisfies $\theta\le2\lVert Q\rVert_{\mathrm{op}}$.
 
 We now assign an additive energy to intervals of sequence indices. Put $h=p+p_1$ and $\widehat X_i=C_iX_{i-1}C_i^\top$. Define $$\begin{equation}
@@ -409,7 +409,7 @@ We now assign an additive energy to intervals of sequence indices. Put $h=p+p_1$
    +\mathop{\mathrm{tr}}h(X_i)-\mathop{\mathrm{tr}}h(\widehat X_i)
  \right\},
  \qquad 0\le s\le t\le n.
- \label{eq:energy-definition}
+ \tag{27}
 \end{equation}$$ The ordered eigenvalues decrease under a contraction and increase under a positive semidefinite gain. Since $h$ is increasing, every trace difference in braces is nonnegative. In particular, $E_\theta$ is nonnegative and additive on adjacent index intervals.
 
 The derivatives of the two functions satisfy, uniformly for $x>0$, $$\sum_{\theta\in2^{\mathbb Z}}
@@ -417,7 +417,7 @@ The derivatives of the two functions satisfy, uniformly for $x>0$, $$\sum_{\thet
  \sum_{\theta\in2^{\mathbb Z}}\theta E_\theta(0,n)
    \le C\left(\sum_i\ell_i+\sum_i g_i\right)
    \le C\mathop{\mathrm{tr}}Q.
- \label{eq:scale-energy}
+ \tag{28}
 \end{equation}$$ The factor $\theta$ cancels the factor $1/\theta$ from differentiating $p(x/\theta)$ or $p_1(x/\theta)$.
 
 Here is the variation estimate to be used in the next section.
@@ -427,7 +427,7 @@ Here is the variation estimate to be used in the next section.
           (I_m+Q/\theta)^{1/2}\bigr\rVert_{\mathrm{HS}}^2
    \le C\bigl(1+k_t(\theta)\bigr)E^{1/a},
  \qquad a=\tfrac32.
- \label{eq:increment}
+ \tag{29}
 \end{equation}$$*
 
 We prove this in three steps. A scalar inequality first controls changes of spectral cutoffs. Exact matrix expansions then compare the two endpoints using the old part of the state and the accumulated new gains. Finally, a separate estimate bounds those accumulated gains by the additive energy, even through noncommuting contractions.
@@ -442,7 +442,7 @@ For $x,y>0$, define $$\mathcal J(x,y)=p(x)-p(y)
  \mathcal J(x,y)&\ge c(1+y)|f_0(x)-f_0(y)|^2,\\
  \frac yx\mathcal J(y,x)&\ge c(1+y)|f_0(x)-f_0(y)|^2.
  \end{split}
- \label{eq:scalar-comparison}
+ \tag{30}
 \end{equation}$$*
 
 *Proof.* The function $u\mapsto\log w(e^u)=\min\{au,-u\}$ is $a$-Lipschitz. Write $r=y/x$. For $r<1$, the two endpoint lower bounds give $$w(u)\ge
@@ -452,15 +452,15 @@ For $x,y>0$, define $$\mathcal J(x,y)=p(x)-p(y)
  \mathcal J(x,y)\ge\frac{w(x)+w(y)}2 B(r),
  \qquad
  B(r)=r-1-\frac{r^{a/2}-1}{a/2}.
- \label{eq:scalar-remainder}
+ \tag{31}
 \end{equation}$$ If $b=a/2=3/4$, then $B(1)=B'(1)=0$ and $B''(r)=(1-b)r^{b-2}>0$. Moreover $B(0+)=1/b-1>0$ and $B(r)/r\longrightarrow1$ at infinity. Thus, with an absolute positive constant, $$B(r)\ge c
  \begin{cases}
   1,&0<r\le\tfrac12,\\
   (r-1)^2,&\tfrac12\le r\le2,\\
   r,&r\ge2.
- \end{cases}$$ The function $rB(1/r)$ satisfies the same bounds, after changing $c$. Applying (eq:scalar-remainder) with the arguments reversed therefore gives these bounds for both left sides of (eq:scalar-comparison).
+ \end{cases}$$ The function $rB(1/r)$ satisfies the same bounds, after changing $c$. Applying (31) with the arguments reversed therefore gives these bounds for both left sides of (30).
 
-If $f_0(x)\ne f_0(y)$, at least one argument belongs to $[1/2,4]$. When $1/2\le r\le2$, both arguments lie in $[1/4,8]$, where $w$ is bounded below and $1+y$ is bounded above. The Lipschitz bound $|f_0(x)-f_0(y)|\le2x|r-1|$ applies. When $r\le1/2$, one $w$ value is bounded below and $y\le4$. When $r\ge2$, one $w$ value is again bounded below, and either $y\le4$ or $y=rx\le4r$. The preceding three bounds, together with $|f_0(x)-f_0(y)|\le1$, prove the result. If the cutoff values are equal, the right sides vanish and the result follows directly from (eq:scalar-remainder). ◻
+If $f_0(x)\ne f_0(y)$, at least one argument belongs to $[1/2,4]$. When $1/2\le r\le2$, both arguments lie in $[1/4,8]$, where $w$ is bounded below and $1+y$ is bounded above. The Lipschitz bound $|f_0(x)-f_0(y)|\le2x|r-1|$ applies. When $r\le1/2$, one $w$ value is bounded below and $y\le4$. When $r\ge2$, one $w$ value is again bounded below, and either $y\le4$ or $y=rx\le4r$. The preceding three bounds, together with $|f_0(x)-f_0(y)|\le1$, prove the result. If the cutoff values are equal, the right sides vanish and the result follows directly from (31). ◻
 
 ### Comparing the endpoints
 
@@ -474,7 +474,7 @@ Fix a scale and indices $s\le t$. Abbreviate $$Y=X_s,\qquad X=X_t,\qquad
    \mathop{\mathrm{tr}}\bigl(p(Y)-p(Z)\bigr)
    +\mathop{\mathrm{tr}}\bigl(p(X)-p(Z)\bigr)
  \right\}.
- \label{eq:endpoint-comparison}
+ \tag{32}
 \end{equation}$$*
 
 *Proof.* Let $P_s$ be the coordinate projection onto the initial block and the first $s$ new coordinates, and put $$Q_{\rm old}=P_s(Q/\theta)P_s,
@@ -485,14 +485,14 @@ Fix a scale and indices $s\le t$. Abbreviate $$Y=X_s,\qquad X=X_t,\qquad
  R_tQ_{\rm old}R_t^\top=Z,\\
  R_tQ_{\rm new}R_t^\top=V,\qquad F_sQ_{\rm new}=0.
  \end{gathered}
- \label{eq:old-new-support}
+ \tag{33}
 \end{equation}$$ We split the right weight into $I_m+Q_{\rm old}$ and $Q_{\rm new}$, and use the intermediate matrix $\widetilde F=R_t^\top f_0(Z)R_t$ for the first part.
 
 ##### The old state under contraction.
 
 Choose orthonormal eigenbases of $Z$ and $Y$, with eigenvalues $z_i$ and $y_j$. Let $m_{ij}$ be the squared entries of $\mathcal C$ in these bases. Its row and column sums are at most one; denote their deficits by $$d_i=1-\sum_jm_{ij},\qquad h_j=1-\sum_im_{ij}.$$ The matrix $n_{ij}=m_{ij}y_j/z_i$ has both row and column sums one. For rows this follows from $Z=\mathcal C Y\mathcal C^\top$; for columns it follows from the identity $$\mathcal C^\top Z^{-1}\mathcal C=Y^{-1},$$ which uses invertibility of $\mathcal C$.
 
-Expanding the weighted squared distance with (eq:old-new-support), its two diagonal terms are $\mathop{\mathrm{tr}}(f_0(Z)^2(I_d+Z))$ and $\mathop{\mathrm{tr}}(f_0(Y)^2(I_d+Y))$. The cross term, before multiplication by two, is $\sum_{ij}m_{ij}(1+y_j)f_0(z_i)f_0(y_j)$. Since $\sum_jm_{ij}y_j=z_i$, this gives the exact expansion $$\begin{equation}
+Expanding the weighted squared distance with (33), its two diagonal terms are $\mathop{\mathrm{tr}}(f_0(Z)^2(I_d+Z))$ and $\mathop{\mathrm{tr}}(f_0(Y)^2(I_d+Y))$. The cross term, before multiplication by two, is $\sum_{ij}m_{ij}(1+y_j)f_0(z_i)f_0(y_j)$. Since $\sum_jm_{ij}y_j=z_i$, this gives the exact expansion $$\begin{equation}
  \begin{split}
  &\bigl\lVert(\widetilde F-F_s)
                   (I_m+Q_{\rm old})^{1/2}\bigr\rVert_{\mathrm{HS}}^2\\
@@ -501,14 +501,14 @@ Expanding the weighted squared distance with (eq:old-new-support), its two diago
        +\sum_i d_i f_0(z_i)^2
        +\sum_j h_j(1+y_j)f_0(y_j)^2.
  \end{split}
- \label{eq:contraction-distance}
+ \tag{34}
 \end{equation}$$ Expanding $\mathcal J$ instead, the two stochastic sums of $n$ and the relation $n_{ij}z_i/y_j=m_{ij}$ yield $$\begin{equation}
  \mathop{\mathrm{tr}}\bigl(p(Y)-p(Z)\bigr)
   =\sum_{ij}n_{ij}\mathcal J(y_j,z_i)
     +\frac12\sum_i d_i w(z_i)
     +\frac12\sum_j h_j w(y_j).
- \label{eq:contraction-deficits}
-\end{equation}$$ The second inequality of Lemma 4.2 controls the double sum in (eq:contraction-distance). The remaining terms are controlled by the deficits in (eq:contraction-deficits), since both $f_0(u)^2$ and $(1+u)f_0(u)^2$ are bounded by an absolute multiple of $w(u)$. This proves the required bound for $\widetilde F-F_s$.
+ \tag{35}
+\end{equation}$$ The second inequality of Lemma 4.2 controls the double sum in (34). The remaining terms are controlled by the deficits in (35), since both $f_0(u)^2$ and $(1+u)f_0(u)^2$ are bounded by an absolute multiple of $w(u)$. This proves the required bound for $\widetilde F-F_s$.
 
 ##### The accumulated gain.
 
@@ -518,23 +518,23 @@ Now choose eigenbases of $X$ and $Z$, with eigenvalues $x_i$ and $z_j$, and let 
   =\sum_{ij}m_{ij}\mathcal J(x_i,z_j)
     +\frac12\sum_i d'_i w(x_i)
     +\frac12\sum_j h'_j w(z_j).
- \label{eq:gain-deficits}
-\end{equation}$$ The coisometry $R_tR_t^\top=I_d$ and (eq:old-new-support) show that $$\begin{align*}
+ \tag{36}
+\end{equation}$$ The coisometry $R_tR_t^\top=I_d$ and (33) show that $$\begin{align*}
  &\bigl\lVert(F_t-\widetilde F)
                    (I_m+Q_{\rm old})^{1/2}\bigr\rVert_{\mathrm{HS}}^2\\
  &\qquad=\bigl\lVert(f_0(X)-f_0(Z))(I_d+Z)^{1/2}
                            \bigr\rVert_{\mathrm{HS}}^2
    =\sum_{ij}m_{ij}(1+z_j)\bigl(f_0(x_i)-f_0(z_j)\bigr)^2.
-\end{align*}$$ The first inequality of Lemma 4.2 controls this by (eq:gain-deficits).
+\end{align*}$$ The first inequality of Lemma 4.2 controls this by (36).
 
-It remains to include the new-coordinate part of the right weight. By (eq:old-new-support), it is exactly $$\begin{equation}
+It remains to include the new-coordinate part of the right weight. By (33), it is exactly $$\begin{equation}
  \bigl\lVert(F_t-F_s)Q_{\rm new}^{1/2}\bigr\rVert_{\mathrm{HS}}^2
    =\mathop{\mathrm{tr}}\bigl(f_0(X)^2V\bigr)
    =\sum_i x_i d'_i f_0(x_i)^2.
- \label{eq:new-coordinate-distance}
-\end{equation}$$ Here $x_id'_i$ is the $i$th diagonal entry of $X-Z$ in the $X$-eigenbasis. The bound $u f_0(u)^2\le Cw(u)$ controls this term by the row deficits in (eq:gain-deficits). Finally apply the squared triangle inequality to $(F_t-\widetilde F)+(\widetilde F-F_s)$ with the old weight, and add (eq:new-coordinate-distance). This proves (eq:endpoint-comparison). ◻
+ \tag{37}
+\end{equation}$$ Here $x_id'_i$ is the $i$th diagonal entry of $X-Z$ in the $X$-eigenbasis. The bound $u f_0(u)^2\le Cw(u)$ controls this term by the row deficits in (36). Finally apply the squared triangle inequality to $(F_t-\widetilde F)+(\widetilde F-F_s)$ with the old weight, and add (37). This proves (32). ◻
 
-The endpoint comparison has accounted for all coordinate weights. Its remaining difficulty is that $p(X)-p(Z)$ describes a single accumulated gain, whereas the energy in (eq:energy-definition) records gains separated by contractions. The next estimate connects these two quantities.
+The endpoint comparison has accounted for all coordinate weights. Its remaining difficulty is that $p(X)-p(Z)$ describes a single accumulated gain, whereas the energy in (27) records gains separated by contractions. The next estimate connects these two quantities.
 
 ### Controlling the accumulated gain
 
@@ -542,7 +542,7 @@ The endpoint comparison has accounted for all coordinate weights. Its remaining 
  V\preceq q(I_d+X),
  \qquad
  \mathop{\mathrm{tr}}\bigl(p(X)-p(Z)\bigr)\le Cq\mathop{\mathrm{tr}}\phi(X).
- \label{eq:direct-gain}
+ \tag{38}
 \end{equation}$$*
 
 *Proof.* Follow the old and new parts separately through the interval $[s,t]$. Start with $(Z_*,V_*)=(Y,0)$. At each contraction, replace both matrices by their congruences under $C_i$. At each gain, add the positive semidefinite gain to $V_*$ only, interpolating linearly during this addition. At every stage $D=Z_*+V_*$ is the matrix in the original contraction-and-gain path; at the endpoint $(Z_*,V_*)=(Z,V)$.
@@ -562,43 +562,43 @@ Here $S$ is fixed and $\dot V_*\succeq0$. Introduce $$J=I_d+D=S+V_*,\qquad
  T=S^{-1/2}J^{1/2}.$$ Since $I_d-H=J^{-1/2}SJ^{-1/2}$ is positive definite, $$T^\top T=(I_d-H)^{-1}.$$ Write the polar decomposition as $T=U(I_d-H)^{-1/2}$, where $U$ is orthogonal. Then $$\begin{equation}
  A=THT^\top
    =U\bigl[H(I_d-H)^{-1}\bigr]U^\top.
- \label{eq:relative-spectrum}
+ \tag{39}
 \end{equation}$$ In particular, the eigenvalues of $A$ are $h/(1-h)$, where $h$ ranges over the eigenvalues of $H$.
 
 For a continuously differentiable scalar function $g$ on the spectral range of a differentiable symmetric matrix path $A(\xi)$, $\frac{d}{d\xi}\mathop{\mathrm{tr}}g(A)=\mathop{\mathrm{tr}}(g'(A)\dot A)$. One can verify this first for polynomials by cyclicity of the trace, then approximate $g'$ uniformly by polynomials and integrate along the path. Applied to $g(u)=u^a$, this gives $$\begin{equation}
  \dot G
    =a\mathop{\mathrm{tr}}\bigl(S^{-1/2}A^{a-1}S^{-1/2}\dot V_*\bigr).
- \label{eq:gain-derivative}
+ \tag{40}
 \end{equation}$$ This formula remains valid when $A$ is singular, because $u\mapsto u^a$ is continuously differentiable at zero for $a>1$. The coefficient in this trace has the exact conjugation identity $$\begin{align}
  J^{1/2}S^{-1/2}A^{a-1}S^{-1/2}J^{1/2}
    &=T^\top A^{a-1}T\notag\\
    &=H^{a-1}(I_d-H)^{-a}.
- \label{eq:gain-conjugation}
-\end{align}$$ The second equality follows from (eq:relative-spectrum) and the polar decomposition. The factors on its right commute because they are functions of $H$; no commutation of $Z_*$ and $V_*$ is assumed.
+ \tag{41}
+\end{align}$$ The second equality follows from (39) and the polar decomposition. The factors on its right commute because they are functions of $H$; no commutation of $Z_*$ and $V_*$ is assumed.
 
-As long as $G\le1$, every eigenvalue of $A$ is at most one, so (eq:relative-spectrum) gives $H\preceq I_d/2$. Since $a-1=1/2$, spectral calculus in $H$ then gives $$H^{a-1}(I_d-H)^{-a}\preceq2^aH^{1/2}.$$ Also $V_*\preceq D$, and hence $$H\preceq J^{-1/2}DJ^{-1/2}=D(I_d+D)^{-1}.$$ The square root preserves positive semidefinite order. One direct proof is the convergent integral formula $$M^{1/2}=\frac1\pi\int_0^\infty
+As long as $G\le1$, every eigenvalue of $A$ is at most one, so (39) gives $H\preceq I_d/2$. Since $a-1=1/2$, spectral calculus in $H$ then gives $$H^{a-1}(I_d-H)^{-a}\preceq2^aH^{1/2}.$$ Also $V_*\preceq D$, and hence $$H\preceq J^{-1/2}DJ^{-1/2}=D(I_d+D)^{-1}.$$ The square root preserves positive semidefinite order. One direct proof is the convergent integral formula $$M^{1/2}=\frac1\pi\int_0^\infty
        u^{-1/2}M(uI_d+M)^{-1}\,du,
-       \qquad M\succeq0:$$ the integrand preserves order because $M(uI_d+M)^{-1}=I_d-u(uI_d+M)^{-1}$ and inversion reverses order. It follows that $$H^{1/2}\preceq D^{1/2}(I_d+D)^{-1/2}.$$ Conjugating (eq:gain-conjugation) back by $J^{-1/2}$ yields $$S^{-1/2}A^{a-1}S^{-1/2}
-   \preceq2^aD^{1/2}(I_d+D)^{-3/2}=2^ap_1'(D).$$ Pair this inequality with $\dot V_*\succeq0$ in (eq:gain-derivative). Since $\dot D=\dot V_*$ during a gain, we obtain the conditional differential bound $$\begin{equation}
+       \qquad M\succeq0:$$ the integrand preserves order because $M(uI_d+M)^{-1}=I_d-u(uI_d+M)^{-1}$ and inversion reverses order. It follows that $$H^{1/2}\preceq D^{1/2}(I_d+D)^{-1/2}.$$ Conjugating (41) back by $J^{-1/2}$ yields $$S^{-1/2}A^{a-1}S^{-1/2}
+   \preceq2^aD^{1/2}(I_d+D)^{-3/2}=2^ap_1'(D).$$ Pair this inequality with $\dot V_*\succeq0$ in (40). Since $\dot D=\dot V_*$ during a gain, we obtain the conditional differential bound $$\begin{equation}
  \dot G\le c_a\mathop{\mathrm{tr}}\bigl(p_1'(D)\dot V_*\bigr)
        =c_a\frac{d}{d\xi}\mathop{\mathrm{tr}}p_1(D),
        \qquad G\le1.
- \label{eq:gain-differential-bound}
+ \tag{42}
 \end{equation}$$
 
 ##### Closing the bound.
 
-Initially $G=0$, and contractions cannot increase it. The sum of all increases of $\mathop{\mathrm{tr}}p_1(D)$ during gains is at most $E$, by (eq:energy-definition). If $G$ first reached one during a gain, integration of (eq:gain-differential-bound) up to that point would give $G\le c_aE\le1/16$, a contradiction. Thus the differential bound applies throughout, and $G\le c_aE$ at the endpoint. In particular, $$A\preceq qI_d,\qquad
+Initially $G=0$, and contractions cannot increase it. The sum of all increases of $\mathop{\mathrm{tr}}p_1(D)$ during gains is at most $E$, by (27). If $G$ first reached one during a gain, integration of (42) up to that point would give $G\le c_aE\le1/16$, a contradiction. Thus the differential bound applies throughout, and $G\le c_aE$ at the endpoint. In particular, $$A\preceq qI_d,\qquad
  V\preceq q(I_d+Z)\preceq q(I_d+X),\qquad
- q\le16^{-2/3}<\tfrac14.$$ If $E=0$, this already gives $V=0$ and the second conclusion in (eq:direct-gain). Suppose now that $q>0$.
+ q\le16^{-2/3}<\tfrac14.$$ If $E=0$, this already gives $V=0$ and the second conclusion in (38). Suppose now that $q>0$.
 
 The ordered eigenvalues of $X$ and $Z$ obey $$x_j\ge z_j\ge(1-q)x_j-q,$$ because $X-Z=V\preceq q(I_d+X)$. For a corresponding pair $x,z$, if $x\le4q\le1$, then $$p(x)-p(z)\le p(x)=\frac{x^a}{a}
-       \le\frac4a qx^{a-1}=\frac4a q\phi(x).$$ If $x>4q$, then $z\ge x/2$ and $x-z\le q(1+x)$. On $[x/2,x]$ we have $w(u)\le2^aw(x)$ and $u^{-1}\le2/x$, so $$p(x)-p(z)\le Cq(1+x^{-1})w(x)\le Cq\phi(x).$$ The last inequality holds for both $x\le1$ and $x\ge1$ directly from (eq:scalar-potentials). Summing over the eigenvalues proves the trace bound in (eq:direct-gain). ◻
+       \le\frac4a qx^{a-1}=\frac4a q\phi(x).$$ If $x>4q$, then $z\ge x/2$ and $x-z\le q(1+x)$. On $[x/2,x]$ we have $w(u)\le2^aw(x)$ and $u^{-1}\le2/x$, so $$p(x)-p(z)\le Cq(1+x^{-1})w(x)\le Cq\phi(x).$$ The last inequality holds for both $x\le1$ and $x\ge1$ directly from (24). Summing over the eigenvalues proves the trace bound in (38). ◻
 
-*Proof of Lemma 4.1.* The total variation of $\mathop{\mathrm{tr}}p$ along the separate contraction and gain steps from $s$ to $t$ is at most $E$. Therefore $$\bigl|\mathop{\mathrm{tr}}p(Y)-\mathop{\mathrm{tr}}p(X)\bigr|\le E.$$ Together with Lemma 4.4, this bounds the sum on the right of (eq:endpoint-comparison) by $$E+2\mathop{\mathrm{tr}}\bigl(p(X)-p(Z)\bigr)
-       \le E+CE^{1/a}k_t.$$ Since $0\le E\le e_0\le1$, we have $E\le E^{1/a}$. Lemma 4.3 now proves (eq:increment), including $E=0$. ◻
+*Proof of Lemma 4.1.* The total variation of $\mathop{\mathrm{tr}}p$ along the separate contraction and gain steps from $s$ to $t$ is at most $E$. Therefore $$\bigl|\mathop{\mathrm{tr}}p(Y)-\mathop{\mathrm{tr}}p(X)\bigr|\le E.$$ Together with Lemma 4.4, this bounds the sum on the right of (32) by $$E+2\mathop{\mathrm{tr}}\bigl(p(X)-p(Z)\bigr)
+       \le E+CE^{1/a}k_t.$$ Since $0\le E\le e_0\le1$, we have $E\le E^{1/a}$. Lemma 4.3 now proves (29), including $E=0$. ◻
 
-The two estimates needed for the probability argument are now in place. Equation (eq:scale-energy) bounds the sum of the energies over all spectral scales, while Lemma 4.1 turns a short interval in this energy into a small Gaussian increment. In particular, zero energy implies $F_t^\theta=F_s^\theta$ exactly, so repeated indices at zero distance will not increase the size of a covering in the next section.
+The two estimates needed for the probability argument are now in place. Equation (28) bounds the sum of the energies over all spectral scales, while Lemma 4.1 turns a short interval in this energy into a small Gaussian increment. In particular, zero energy implies $F_t^\theta=F_s^\theta$ exactly, so repeated indices at zero distance will not increase the size of a covering in the next section.
 
 ## Uniform Gaussian survival
 
@@ -614,7 +614,7 @@ Let $Q$ be a positive definite diagonal matrix on $\mathbb R^m$, and let $U(\tau
  =\inf_{0\ne h\in H_0^1(D)}
  \frac{\int_D\langle Q\nabla h,\nabla h\rangle\,d\gamma_m}
       {\int_D h^2\,d\gamma_m}.$$ For every $T>0$, $$\begin{equation}
-\label{eq:ou-comparison}
+\tag{43}
  \mathbb P\{U([0,T])\subset D\}
  \le e^{-T\lambda_Q^{\mathrm{OU}}(D)},
  \qquad
@@ -638,7 +638,7 @@ Fix the data of Proposition 2.2 and a positive diagonal $Q$. We use the matrice
  k_t=k_t(\theta)=\mathop{\mathrm{tr}}\phi(X_t).$$ In this subsection the dyadic scale $\theta$ is fixed. Recall that $a=3/2$ and that $E_\theta(s,t)$ is additive and nonnegative for $s\le t$. Put $h_t=E_\theta(0,t)$.
 
 **Lemma 5.2**. *There is an absolute $c_1$ with the following property. Let $\mathcal I\subset\{0,\ldots,n\}$ be an index set whose values $h_t$ lie in an interval of length at most $e_0$, where $e_0$ is the constant in Lemma 4.1. For every $u\ge0$, $$\begin{equation}
-\label{eq:epoch-prob}
+\tag{44}
  \mathbb P\left\{
    \lVert F_tU(\tau)\rVert\le c_1\sqrt{k_t}
    \text{ for every }t\in\mathcal I,
@@ -646,15 +646,15 @@ Fix the data of Proposition 2.2 and a positive diagonal $Q$. We use the matrice
  \right\}\ge\tfrac12.
 \end{equation}$$ The same conclusion holds on any shorter time interval.*
 
-*Proof.* We may omit indices with $F_t=0$. By (eq:cutoff-moments), every remaining index has $k_t\ge1/4$. Divide these indices into the classes $$\mathcal I_j=\{t\in\mathcal I:K_j\le k_t<2K_j\},
+*Proof.* We may omit indices with $F_t=0$. By (26), every remaining index has $k_t\ge1/4$. Divide these indices into the classes $$\mathcal I_j=\{t\in\mathcal I:K_j\le k_t<2K_j\},
  \qquad K_j=2^j/4,\qquad j=0,1,\ldots.$$ We first bound the expected supremum within one nonempty class, writing $k=K_j$.
 
-Stationarity, coisometry and (eq:cutoff-moments) give $$\begin{equation}
-\label{eq:vector-second-moment}
+Stationarity, coisometry and (26) give $$\begin{equation}
+\tag{45}
  \mathbb E\lVert F_tU(\tau)\rVert^2
  =\mathop{\mathrm{tr}}f_0(X_t)^2\le4k_t\le8k.
 \end{equation}$$ For two indices in the class, Lemma 4.1, with the indices put in chronological order, implies $$\begin{equation}
-\label{eq:index-increment}
+\tag{46}
  \mathbb E\lVert(F_t-F_s)U(\tau)\rVert^2
  \le Ck|h_t-h_s|^{1/a}.
 \end{equation}$$ Here we dropped the positive right weight in that lemma and used $1+k_t\le6k$. For time increments at a fixed index, $$\operatorname{Cov}(U(\tau)-U(\sigma))
@@ -662,39 +662,39 @@ Stationarity, coisometry and (eq:cutoff-moments) give $$\begin{equation}
  \mathbb E\lVert F_t(U(\tau)-U(\sigma))\rVert^2
  &\le2|\tau-\sigma|\mathop{\mathrm{tr}}(F_t^2Q)\notag\\
  &=2\theta|\tau-\sigma|\mathop{\mathrm{tr}}(X_tf_0(X_t)^2)
- \le Ck\theta|\tau-\sigma|.\label{eq:time-increment}
+ \le Ck\theta|\tau-\sigma|.\tag{47}
 \end{align}$$ This trace identity uses $R_tR_t^T=I$; it does not require $Q$ and $F_t$ to commute.
 
-We give the elementary chaining argument for the two parameters. Choose $H$ so that $h_t\in[H,H+e_0]$ for every index under consideration, and put $\alpha=(h_t-H)/e_0$ and $\beta=\theta(\tau-u)$ in $[0,1]$. Split a mixed increment into an index increment and a time increment. Equations (eq:index-increment) and (eq:time-increment) bound its second moment by $$Ck\bigl(|\alpha-\alpha'|^{1/a}+|\beta-\beta'|\bigr),$$ where $\alpha$ is the normalized energy coordinate; the constant absorbs $e_0\le1$. At depth $l$, divide both parameter intervals into dyadic cells of width $2^{-l}$ and choose a representative from each occupied product cell. There are at most $C4^l$ representatives. The increment from each representative to that of its parent cell is a centered Gaussian vector with second moment at most $$v_l=Ck2^{-l/a}.$$
+We give the elementary chaining argument for the two parameters. Choose $H$ so that $h_t\in[H,H+e_0]$ for every index under consideration, and put $\alpha=(h_t-H)/e_0$ and $\beta=\theta(\tau-u)$ in $[0,1]$. Split a mixed increment into an index increment and a time increment. Equations (46) and (47) bound its second moment by $$Ck\bigl(|\alpha-\alpha'|^{1/a}+|\beta-\beta'|\bigr),$$ where $\alpha$ is the normalized energy coordinate; the constant absorbs $e_0\le1$. At depth $l$, divide both parameter intervals into dyadic cells of width $2^{-l}$ and choose a representative from each occupied product cell. There are at most $C4^l$ representatives. The increment from each representative to that of its parent cell is a centered Gaussian vector with second moment at most $$v_l=Ck2^{-l/a}.$$
 
 For use here, if $G_1,\ldots,G_M$ are arbitrarily dependent centered Gaussian vectors and $\mathbb E\lVert G_i\rVert^2\le v$, then $$\begin{equation}
-\label{eq:gaussian-vector-max}
+\tag{48}
  \mathbb E\max_{i\le M}\lVert G_i\rVert
  \le2\sqrt{v(\log M+1/2)}.
 \end{equation}$$ Indeed, for $v>0$, diagonalizing the covariance of $G_i$ gives $\mathbb E e^{\lVert G_i\rVert^2/(4v)}\le e^{1/2}$, because its eigenvalues are nonnegative and sum to at most $v$. Bound the exponential of the maximum by the sum of the exponentials, then use Jensen’s inequality and Cauchy–Schwarz. The case $v=0$ is immediate.
 
-Apply (eq:gaussian-vector-max) to the increments at each depth. Starting with (eq:vector-second-moment) and summing the parent increments gives an absolute $C_0$ such that $$\begin{equation}
-\label{eq:class-mean}
+Apply (48) to the increments at each depth. Starting with (45) and summing the parent increments gives an absolute $C_0$ such that $$\begin{equation}
+\tag{49}
  \mathbb E\sup_{\substack{t\in\mathcal I_j\\
                          u\le\tau\le u+\theta^{-1}}}
           \lVert F_tU(\tau)\rVert
  \le C\sqrt k\left(1+\sum_{l\ge1}
           2^{-l/(2a)}(1+\sqrt l)\right)
  \le C_0\sqrt k.
-\end{equation}$$ To justify convergence of the representatives, note that there are only finitely many distinct energy values. If $h_t=h_s$, Lemma 4.1 gives $F_t=F_s$ exactly. At sufficiently fine depth a target index therefore has the same filter as its representative, and the representative times converge to its target time. Continuity of $U$ completes the passage to the supremum. Equivalently, one may first use finite time grids and then increase them to a dense set. Neither argument uses a lower bound on the positive gaps between energy values. In particular, the number of indices does not enter (eq:class-mean).
+\end{equation}$$ To justify convergence of the representatives, note that there are only finitely many distinct energy values. If $h_t=h_s$, Lemma 4.1 gives $F_t=F_s$ exactly. At sufficiently fine depth a target index therefore has the same filter as its representative, and the representative times converge to its target time. Continuity of $U$ completes the passage to the supremum. Equivalently, one may first use finite time grids and then increase them to a dense set. Neither argument uses a lower bound on the positive gaps between energy values. In particular, the number of indices does not enter (49).
 
-It remains to control all the $k$ classes at once. On a finite time grid the supremum $S_j$ in (eq:class-mean) is a maximum of Gaussian vector norms. Represent the joint Gaussian vectors as linear images of one standard Gaussian vector. Each corresponding linear map has norm at most one because its output covariance is $F_t^2\preceq I$, by (eq:cutoff-moments); consequently $S_j$ is a $1$-Lipschitz function of that standard Gaussian vector. Equivalently, it is a supremum of scalar Gaussian functionals, each with variance at most one.
+It remains to control all the $k$ classes at once. On a finite time grid the supremum $S_j$ in (49) is a maximum of Gaussian vector norms. Represent the joint Gaussian vectors as linear images of one standard Gaussian vector. Each corresponding linear map has norm at most one because its output covariance is $F_t^2\preceq I$, by (26); consequently $S_j$ is a $1$-Lipschitz function of that standard Gaussian vector. Equivalently, it is a supremum of scalar Gaussian functionals, each with variance at most one.
 
-Markov’s inequality and (eq:class-mean) give $\mathbb P\{S_j\le2C_0\sqrt{K_j}\}\ge1/2$. Borell’s Gaussian enlargement inequality (Borell 1975, Theorem 3.1), applied to this sublevel set, gives $$\mathbb P\{S_j>2C_0\sqrt{K_j}+r\}
+Markov’s inequality and (49) give $\mathbb P\{S_j\le2C_0\sqrt{K_j}\}\ge1/2$. Borell’s Gaussian enlargement inequality (Borell 1975, Theorem 3.1), applied to this sublevel set, gives $$\mathbb P\{S_j>2C_0\sqrt{K_j}+r\}
  \le1-\Phi(r)\le e^{-r^2/2},\qquad r\ge0,$$ where $\Phi$ is the standard normal distribution function. The same bound holds for the full time supremum by increasing dense grids and path continuity. Choose $c_1>2C_0$. The probability that any constraint in class $j$ exceeds $c_1\sqrt{k_t}$ is at most $$\exp\bigl(-(c_1-2C_0)^2K_j/2\bigr).$$ With $A=(c_1-2C_0)^2/8$, the sum of these bounds is at most $$\sum_{j\ge0}e^{-A2^j}
- \le\frac{e^{-A}}{1-e^{-A}}\le\tfrac12$$ once $c_1$ is an absolute constant large enough that $A\ge\log3$. This proves (eq:epoch-prob). Restricting the time interval can only increase its probability. ◻
+ \le\frac{e^{-A}}{1-e^{-A}}\le\tfrac12$$ once $c_1$ is an absolute constant large enough that $A\ge\log3$. This proves (44). Restricting the time interval can only increase its probability. ◻
 
 The two bounds in this proof have different roles: the trace of the covariance controls the expected vector norm, while its operator norm gives the absolute concentration parameter. This distinction is what allows the class failure probabilities to be summed without a factor depending on the dimension.
 
 ### Combining the constraints
 
 *Proof of Proposition 2.2.* Fix $d,n,Q$ and the entire recursion. Let $\Theta$ be the finite set of dyadic scales for which some $F_t^\theta$ is nonzero. If $q_{\min}$ and $q_{\max}$ are the smallest and largest diagonal entries of $Q$, then coisometry gives $q_{\min}I\preceq L_t\preceq q_{\max}I$, and the support of $f_0$ gives $$\begin{equation}
-\label{eq:used-scales}
+\tag{50}
  \Theta\subset[q_{\min}/4,2q_{\max}],
  \qquad \sum_{\theta\in\Theta}\theta\le4q_{\max}\le4\mathop{\mathrm{tr}}Q.
 \end{equation}$$ At each scale, partition the sequence indices by the half-open intervals $$[r e_0,(r+1)e_0),\qquad r=0,1,\ldots,$$ containing $E_\theta(0,t)$. These are the energy intervals to which Lemma 5.2 applies. There are at most $C(1+E_\theta(0,n))$ nonempty intervals, including any repetitions of an energy value in the same interval.
@@ -703,9 +703,9 @@ For each fixed $t$, the scale constraints control the original state norm. To se
  \sum_{\theta\in\Theta}\lVert F_t^\theta U(\tau)\rVert^2
  &=\sum_i |y_i|^2\sum_{\theta\in\Theta}
                    f_0(\lambda_i/\theta)^2
- \ge\lVert R_tU(\tau)\rVert^2.\label{eq:spectral-reconstruction}
-\end{align}$$ Thus all the scale constraints at a given time imply, by (eq:scale-size), $$\begin{equation}
-\label{eq:state-survival-bound}
+ \ge\lVert R_tU(\tau)\rVert^2.\tag{51}
+\end{align}$$ Thus all the scale constraints at a given time imply, by (25), $$\begin{equation}
+\tag{52}
  \lVert R_tU(\tau)\rVert^2
  \le c_1^2\sum_{\theta\in\Theta}k_t(\theta)
  \le c_1^2 C_\phi d
@@ -714,7 +714,7 @@ For each fixed $t$, the scale constraints control the original state norm. To se
 
 We also impose coordinate bounds. A stationary scalar Ornstein–Uhlenbeck process of rate $q>0$, restricted to an interval of length at most $1/q$, stays in $[-2,2]$ with probability at least an absolute $p_0>0$. By stationarity and time rescaling, it suffices to consider rate one on $[0,1]$. In distribution that process is $$e^{-s}\bigl(Z+B(e^{2s}-1)\bigr),\qquad 0\le s\le1,$$ where $Z$ is standard normal and $B$ is an independent standard Brownian motion. The event $|Z|\le1$ and $\sup_{r\le e^2-1}|B(r)|\le1$ has a fixed positive probability and implies the asserted bound.
 
-Choose absolute constants $$A_0>c_1\sqrt{C_\phi},\qquad B_0>2,$$ and let $\mathcal D$ be the domain in Proposition 2.2 with these constants. It is bounded, open, centrally symmetric and convex, and contains a neighborhood of zero. The closed constraints (eq:state-survival-bound) and $|U_j(\tau)|\le2$ lie strictly inside $\mathcal D$.
+Choose absolute constants $$A_0>c_1\sqrt{C_\phi},\qquad B_0>2,$$ and let $\mathcal D$ be the domain in Proposition 2.2 with these constants. It is bounded, open, centrally symmetric and convex, and contains a neighborhood of zero. The closed constraints (52) and $|U_j(\tau)|\le2$ lie strictly inside $\mathcal D$.
 
 For a fixed $T>0$, cover $[0,T]$ by at most $1+T\theta$ consecutive closed intervals of length at most $1/\theta$ at scale $\theta$. For every such interval and every nonempty energy interval impose the event in Lemma 5.2. Also cover $[0,T]$ by at most $1+TQ_{jj}$ intervals of length at most $1/Q_{jj}$ for coordinate $j$ and impose its box event. All these events are closed symmetric convex constraints on linear evaluations of the centered Gaussian path. There are finitely many events for this fixed input and $T$. Lemma 2.5 therefore multiplies their probability lower bounds. In particular, its finite-grid argument and the continuity of the paths apply even when some constraints are duplicates. The strict slack just chosen ensures that their intersection is an event of survival in the open domain $\mathcal D$.
 
@@ -723,12 +723,12 @@ It follows that $$\begin{align}
  &\le C\sum_{\theta\in\Theta}
        (1+T\theta)(1+E_\theta(0,n))
        +C\sum_{j=1}^m(1+TQ_{jj})\notag\\
- &\le A(Q,R,d,n)+C'T\mathop{\mathrm{tr}}Q.\label{eq:survival-rate-bound}
-\end{align}$$ Here (eq:scale-energy) and (eq:used-scales) bound the coefficient of $T$ by an absolute constant times $\mathop{\mathrm{tr}}Q$, and $$A(Q,R,d,n)
+ &\le A(Q,R,d,n)+C'T\mathop{\mathrm{tr}}Q.\tag{53}
+\end{align}$$ Here (28) and (50) bound the coefficient of $T$ by an absolute constant times $\mathop{\mathrm{tr}}Q$, and $$A(Q,R,d,n)
  =C\left[\sum_{\theta\in\Theta}(1+E_\theta(0,n))+m\right]<\infty.$$ This additive constant may depend on the input and on the smallest entry of $Q$; no uniform bound on it is required.
 
 By Lemma 5.1, $$\lambda_Q^{\mathrm{OU}}(\mathcal D)
- \le C'\mathop{\mathrm{tr}}Q+\frac{A(Q,R,d,n)}{T}.$$ Let $T$ tend to infinity while keeping the input fixed. This removes the additive constant, including the number of spectral scales. The second inequality in (eq:ou-comparison) now gives $$\lambda_Q(\mathcal D)\le(C'+1/2)\mathop{\mathrm{tr}}Q.$$ Thus $H_0=C'+1/2$ is absolute. The constants $A_0,B_0,H_0$ are independent of $d,n,Q$ and of the recursion, as required. ◻
+ \le C'\mathop{\mathrm{tr}}Q+\frac{A(Q,R,d,n)}{T}.$$ Let $T$ tend to infinity while keeping the input fixed. This removes the additive constant, including the number of spectral scales. The second inequality in (43) now gives $$\lambda_Q(\mathcal D)\le(C'+1/2)\mathop{\mathrm{tr}}Q.$$ Thus $H_0=C'+1/2$ is absolute. The constants $A_0,B_0,H_0$ are independent of $d,n,Q$ and of the recursion, as required. ◻
 
 ## Further consequences
 
@@ -749,8 +749,7 @@ The signed-prefix theorem gives bounds for other finite-dimensional norms and, t
 For the lower bounds, let $1\le p\le2$. The ordered standard basis $e_1,\ldots,e_d$ has final signed sum of norm $d^{1/p}$ for every signing. For the ordering problem, take $e_1,\ldots,e_d$ and $d$ copies of $w=-\tfrac1d(1,\ldots,1)$. This indexed family sums to zero and lies in the unit ball, since $\lVert w\rVert_p=d^{1/p-1}\le1$. If $d\ge2$, consider any permutation and its prefix just after the $k=\lfloor d/2\rfloor$-th basis vector. If $t$ copies of $w$ have appeared, put $a=t/d\in[0,1]$. The prefix sum $s$ has $k$ coordinates equal to $1-a$ and $d-k$ equal to $-a$. Since both $k$ and $d-k$ are at least $d/3$, convexity gives $$\lVert s\rVert_p^p
  =k(1-a)^p+(d-k)a^p
  \ge\frac d3\bigl((1-a)^p+a^p\bigr)
- \ge\frac d3\,2^{1-p}.$$ Thus $\lVert s\rVert_p\ge\tfrac12(2d/3)^{1/p}
-\ge\tfrac13d^{1/p}$, for every permutation. When $d=1$, the family is $(1,-1)$ and either permutation has a prefix of norm one. ◻
+ \ge\frac d3\,2^{1-p}.$$ Thus $\lVert s\rVert_p\ge\tfrac12(2d/3)^{1/p} \ge\tfrac13d^{1/p}$, for every permutation. When $d=1$, the family is $(1,-1)$ and either permutation has a prefix of norm one. ◻
 
 ### A colorful row-permutation consequence
 

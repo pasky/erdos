@@ -58,10 +58,10 @@ Section 4 uses the same coefficients at a maximal ideal above two, where the od
 We begin with the classical restriction that a circulant Hadamard order greater than one has the form $4u^2$ with $u$ odd. The descent below is a group-ring version of Turyn’s argument for the $2$-primary coefficients (Turyn 1965, Lemma 6 through Theorem 8 and its Corollary, pp. 334–336). We first isolate the cyclotomic divisibility fact that the descent uses.
 
 Let $H$ be a real circulant Hadamard matrix of order $n>1$, and represent its first row by $$h=\sum_{j=0}^{n-1}h_jX^j\in\mathbb Z[C_n].$$ The coefficient of $X^a$ in $hh^*$ is $\sum_j h_jh_{j-a}$, the inner product of row zero and row $a$. Consequently orthogonality is exactly $$\begin{equation}
-\label{eq:hadamard-norm}
+\tag{2.1}
  hh^*=n.
 \end{equation}$$ Augmentation gives $n=h(1)^2$, so $n$ is a square. The inner product of two distinct rows is a sum of $n$ signs and is zero, so $n$ is even. We may therefore write $$\begin{equation}
-\label{eq:initial-order}
+\tag{2.2}
  n=2^{2s}u^2,\qquad s\geq1,\quad u>0\ \text{odd}.
 \end{equation}$$ The remaining task is to prove $s=1$. A primitive character value of a projection of $h$ will force congruences between its coefficients. The following lemma makes that passage from a value to coefficients precise.
 
@@ -73,7 +73,7 @@ The coefficient rings in this lemma are localizations of cyclotomic integer ring
 
 *For $k\geq1$, let $\xi$ be a primitive $p^k$-th root, and put $$\Phi_{p^k}(X)=\sum_{j=0}^{p-1}X^{jp^{k-1}},
  \qquad D=(p-1)p^{k-1}.$$ The ring $A[\xi]$ is free over $A$ with basis $1,\xi,\ldots,\xi^{D-1}$. It is local with maximal ideal $(\xi-1)$, and $p$ is a unit times $(\xi-1)^D$. Every nonzero element is a unit times a power of $\xi-1$. Consequently its fraction field has an additive valuation $v$, normalized by $$v(p)=1,\qquad v(\xi-1)=1/D.$$ For every integer $\ell\geq0$ and $z\in A[\xi]$, $$\begin{equation}
-\label{eq:valuation-ideal}
+\tag{2.3}
  v(z)\geq\ell\quad\Longleftrightarrow\quad z\in p^\ell A[\xi],
 \end{equation}$$ where $v(0)=+\infty$. In particular, for $R(X)=\sum_{j=0}^{D-1}r_jX^j\in A[X]$, these conditions for $z=R(\xi)$ are equivalent to $r_j\in p^\ell A$ for every $j$.*
 
@@ -88,7 +88,7 @@ We now adjoin $\xi$. The polynomial $\Phi_{p^k}(1+Y)$ is monic of degree $D$, ha
 It follows that $A[\xi]\simeq A[X]/(\Phi_{p^k}(X))$, giving the asserted basis. Every maximal ideal of this finite $A$-algebra contracts to a maximal ideal of $A$. Indeed, the quotient by such a maximal ideal is a field finite as a module over the corresponding quotient domain of $A$. The adjugate-matrix argument for multiplication on a finite generating set makes every element of that field integral over the subdomain. Applying a monic relation to the inverse of a nonzero element of the subdomain puts that inverse in the subdomain. The subdomain is therefore a field.
 
 Write $\pi=\xi-1$ and $k_0=A/pA$. The reduction $$A[\xi]/pA[\xi]\simeq k_0[Y]/(Y^D)$$ has one maximal ideal. Thus $A[\xi]$ is local with maximal ideal $(p,\pi)$. The equation $\Phi_{p^k}(1+\pi)=0$ has the form $$\pi^D=-p\,u_\pi,\qquad
- u_\pi=1+\sum_{j=1}^{D-1}c_j\pi^j,\qquad c_j\in A,$$ with the sum empty when $D=1$. The element $u_\pi$ has residue one and is a unit. Hence the maximal ideal is $(\pi)$, and $p$ is a unit times $\pi^D$. The principal-ideal argument above now shows that every nonzero element of $A[\xi]$ is a unit times a power of $\pi$, giving the stated valuation. Since $p^\ell$ is a unit times $\pi^{\ell D}$, this description proves (eq:valuation-ideal). The coefficient assertion follows from uniqueness in the free $A$-basis. ◻
+ u_\pi=1+\sum_{j=1}^{D-1}c_j\pi^j,\qquad c_j\in A,$$ with the sum empty when $D=1$. The element $u_\pi$ has residue one and is a unit. Hence the maximal ideal is $(\pi)$, and $p$ is a unit times $\pi^D$. The principal-ideal argument above now shows that every nonzero element of $A[\xi]$ is a unit times a power of $\pi$, giving the stated valuation. Since $p^\ell$ is a unit times $\pi^{\ell D}$, this description proves (2.3). The coefficient assertion follows from uniqueness in the free $A$-basis. ◻
 
 ### Descent at the prime two
 
@@ -96,13 +96,13 @@ We apply the coefficient statement in Lemma 2.1 to the $2$-primary projection o
 
 **Proposition 2.2**. *If a real circulant Hadamard matrix has order $n>1$, then $n=4u^2$ for an odd positive integer $u$.*
 
-*Proof.* For the matrix under consideration, the row norm (eq:hadamard-norm) has already given $n=2^{2s}u^2$ as in (eq:initial-order). It remains to show $s=1$.
+*Proof.* For the matrix under consideration, the row norm (2.1) has already given $n=2^{2s}u^2$ as in (2.2). It remains to show $s=1$.
 
 Project $C_n$ onto $C_{2^{2s}}$. The image $T$ of $h$ has odd integer coefficients, each being a sum of $u^2$ signs, and $$TT^*=2^{2s}u^2.$$ Suppose $s\geq2$. We describe an operation starting with $$\begin{equation}
-\label{eq:two-step}
+\tag{2.4}
  T\in\mathbb Z[C_{2^k}],\qquad TT^*=2^{2t}u^2,
  \qquad k\geq1,\quad t\geq2,
-\end{equation}$$ where every coefficient of $T$ is odd. Use Lemma 2.1 with $A=\mathbb Z_{(2)}$ and a primitive $2^k$-th root $\xi$. Complex conjugation preserves $A[\xi]$ and sends $\xi-1$ to the associate $-\xi^{-1}(\xi-1)$. It therefore preserves the normalized valuation. Evaluating (eq:two-step) gives $$v(T(\xi))=t,\qquad T(\xi)\in 2^tA[\xi].$$
+\end{equation}$$ where every coefficient of $T$ is odd. Use Lemma 2.1 with $A=\mathbb Z_{(2)}$ and a primitive $2^k$-th root $\xi$. Complex conjugation preserves $A[\xi]$ and sends $\xi-1$ to the associate $-\xi^{-1}(\xi-1)$. It therefore preserves the normalized valuation. Evaluating (2.4) gives $$v(T(\xi))=t,\qquad T(\xi)\in 2^tA[\xi].$$
 
 Write $T=\sum_{j=0}^{2^k-1}t_jX^j$. Its remainder modulo $\Phi_{2^k}(X)=1+X^{2^{k-1}}$ is $$\sum_{j=0}^{2^{k-1}-1}(t_j-t_{j+2^{k-1}})X^j.$$ The coefficient statement in Lemma 2.1, with $\ell=t$, shows that every displayed difference belongs to $2^t\mathbb Z_{(2)}$. Each difference is an integer, so it is divisible by $2^t$ in $\mathbb Z$.
 
@@ -120,16 +120,16 @@ For the rest of the argument, fix an odd integer $u>1$, put $P=C_{u^2}$, and let
  \qquad
  x_S=\sum_{z\in P}x_z\chi_S(z)
  \quad\text{for }x=\sum_{z\in P}x_z z\in\mathbb Z[i][P].$$ All these values lie in the same ring $$\begin{equation}
-\label{eq:alternating-notation}
+\tag{3.1}
  B=\mathbb Z[i,\{\rho_p:p\in I\}],\qquad
  \varepsilon_S=(-1)^{|S|}.
 \end{equation}$$
 
 If $x\in\mathbb Z[i][P]$ satisfies $xx^*=u^2$, character evaluation gives $$\begin{equation}
-\label{eq:character-norm}
+\tag{3.2}
  x_S\overline{x_S}=u^2.
 \end{equation}$$ In particular every $x_S$ is nonzero, so we may form $$\begin{equation}
-\label{eq:delta}
+\tag{3.3}
  \Delta(x)=\prod_{S\subseteq I}x_S^{\varepsilon_S}\in\mathop{\mathrm{Frac}}(B).
 \end{equation}$$ This product combines comparisons between pairs of characters. When $I=\{p,q\}$, for example, $$\begin{aligned}
  \Delta(x)
@@ -173,28 +173,28 @@ On a common eigenvector, multiplication by any $b\in B$ acts as a scalar $\sigma
 
 For (ii), write the order as $p^a m$ with $p\nmid m$. If $m>1$, raising the root to the $p^a$-th power gives an element $\zeta$ of order $m$ and residue $1$. In a domain, $(\zeta-1)(1+\zeta+\cdots+\zeta^{m-1})=0$ then implies $$1+\zeta+\cdots+\zeta^{m-1}=0.$$ Its reduction says $m=0$ in the residue field, a contradiction. Thus $m=1$. ◻
 
-**Proposition 3.4**. *Suppose $x\in\mathbb Z[i][P]$ satisfies $xx^*=u^2$. Then the alternating product $\Delta(x)$ defined in (eq:delta) belongs to $B$ and is a root of unity. For each $p\in I$, its order is a power of $p$. In particular, its order is odd; if $u$ has at least two distinct prime divisors, then $\Delta(x)=1$.*
+**Proposition 3.4**. *Suppose $x\in\mathbb Z[i][P]$ satisfies $xx^*=u^2$. Then the alternating product $\Delta(x)$ defined in (3.3) belongs to $B$ and is a root of unity. For each $p\in I$, its order is a power of $p$. In particular, its order is odd; if $u$ has at least two distinct prime divisors, then $\Delta(x)=1$.*
 
 *Proof.* Fix $p\in I$ and a maximal ideal $\mathfrak m$ of $B$ containing $p$. Let $$A_0=\mathbb Z[i,\{\rho_q:q\in I\setminus\{p\}\}],\qquad
  \mathfrak m_0=\mathfrak m\cap A_0,\qquad A=(A_0)_{\mathfrak m_0}.$$ Put $$\eta=i\prod_{q\in I\setminus\{p\}}\rho_q,\qquad
  L=4\prod_{q\in I\setminus\{p\}}q,$$ with empty products equal to $1$. The root orders $4$ and $q\in I\setminus\{p\}$ are pairwise coprime, so $\eta$ is a primitive $L$-th root, $p\nmid L$, and each original root is a power of $\eta$. Thus $A_0=\mathbb Z[\eta]$ has the form required by Lemma 2.1. The ideal $\mathfrak m_0$ is maximal: it is prime and contains $p$, and $A_0/pA_0$ is a product of fields as in that lemma.
 
 Let $p^e$ be the order of the $p$-component, so $e=v_p(u^2)$. For $p\notin S$, evaluate every other component in $xx^*=u^2$ according to $\chi_S$, leaving the $p$-generator as a variable. This ring homomorphism produces two factors $F,K\in A_0[C_{p^e}]$ with $$FK=p^e b,\qquad b=u^2/p^e\in A^\times.$$ Both factors already have coefficients in $A_0$: in the image of $x^*$, Gaussian coefficients are conjugated and the evaluated roots are inverted, and these operations preserve $A_0$. After localization, Lemma 3.1 therefore applies to these two factors. It gives $$\begin{equation}
-\label{eq:edge-comparison}
+\tag{3.4}
  \frac{x_{S\cup\{p\}}}{x_S}\in A[\rho_p]^\times,
  \qquad
  \frac{x_{S\cup\{p\}}}{x_S}\equiv1\pmod{\rho_p-1}.
 \end{equation}$$
 
-Every denominator inverted in $A$ lies outside $\mathfrak m$, so the natural inclusion of $A[\rho_p]$ in $B_{\mathfrak m}$ is defined. In the residue field of $B_{\mathfrak m}$, characteristic $p$ gives $(\rho_p-1)^p=\rho_p^p-1=0$. Hence $\rho_p-1$ has residue zero, and the units in (eq:edge-comparison) retain residue $1$ in $B_{\mathfrak m}$. Pairing $S$ with $S\cup\{p\}$ yields the identity $$\begin{equation}
-\label{eq:pairing}
+Every denominator inverted in $A$ lies outside $\mathfrak m$, so the natural inclusion of $A[\rho_p]$ in $B_{\mathfrak m}$ is defined. In the residue field of $B_{\mathfrak m}$, characteristic $p$ gives $(\rho_p-1)^p=\rho_p^p-1=0$. Hence $\rho_p-1$ has residue zero, and the units in (3.4) retain residue $1$ in $B_{\mathfrak m}$. Pairing $S$ with $S\cup\{p\}$ yields the identity $$\begin{equation}
+\tag{3.5}
  \Delta(x)=\prod_{\substack{S\subseteq I\\p\notin S}}
  \left(\frac{x_S}{x_{S\cup\{p\}}}\right)^{\varepsilon_S}.
-\end{equation}$$ Thus $\Delta(x)$ is a unit of residue $1$ in $B_{\mathfrak m}$. The left side of (eq:pairing) is the same element when the pairing direction changes. Applying the argument for every $p\mid u$ and every maximal ideal over $p$ gives this local conclusion at all of those ideals.
+\end{equation}$$ Thus $\Delta(x)$ is a unit of residue $1$ in $B_{\mathfrak m}$. The left side of (3.5) is the same element when the pairing direction changes. Applying the argument for every $p\mid u$ and every maximal ideal over $p$ gives this local conclusion at all of those ideals.
 
-At a maximal ideal containing none of the prime divisors of $u$, the scalar $u^2$ is a unit. Equation (eq:character-norm) then makes every $x_S$ a unit there. Consequently $\Delta(x)$ belongs to $B_{\mathfrak m}$ for every maximal ideal $\mathfrak m$ of $B$. The intersection of these localizations inside $\mathop{\mathrm{Frac}}(B)$ is $B$. Indeed, if $z\notin B$, the ideal $$D_z=\{b\in B:bz\in B\}$$ is proper. A maximal ideal $\mathfrak m$ containing it cannot have $z\in B_{\mathfrak m}$: such membership would give $z=a/s$ with $s\notin\mathfrak m$, whereas $sz=a\in B$ puts $s$ in $D_z$. This proves $\Delta(x)\in B$.
+At a maximal ideal containing none of the prime divisors of $u$, the scalar $u^2$ is a unit. Equation (3.2) then makes every $x_S$ a unit there. Consequently $\Delta(x)$ belongs to $B_{\mathfrak m}$ for every maximal ideal $\mathfrak m$ of $B$. The intersection of these localizations inside $\mathop{\mathrm{Frac}}(B)$ is $B$. Indeed, if $z\notin B$, the ideal $$D_z=\{b\in B:bz\in B\}$$ is proper. A maximal ideal $\mathfrak m$ containing it cannot have $z\in B_{\mathfrak m}$: such membership would give $z=a/s$ with $s\notin\mathfrak m$, whereas $sz=a\in B$ puts $s$ in $D_z$. This proves $\Delta(x)\in B$.
 
-Every unital homomorphism $\sigma:B\to\mathbb C$ sends the root generators to roots of unity and commutes with complex conjugation on their integer polynomials. Applying it to (eq:character-norm) gives $|\sigma(x_S)|=u$. In particular these images are nonzero. Let $P_0$ and $Q_0$ be the products of the $x_S$ with $\varepsilon_S=1$ and $\varepsilon_S=-1$, respectively. Then $\Delta(x)=P_0/Q_0$, and the preceding nonvanishing gives $\sigma(Q_0)\ne0$. Applying $\sigma$ to $Q_0\Delta(x)=P_0$ in $B$ therefore evaluates the fraction in (eq:delta). Since $I\ne\varnothing$, $$\sum_{S\subseteq I}\varepsilon_S=(1-1)^{|I|}=0.$$ It follows that $|\sigma(\Delta(x))|=1$. Lemma 3.3(i) makes $\Delta(x)$ a root of unity.
+Every unital homomorphism $\sigma:B\to\mathbb C$ sends the root generators to roots of unity and commutes with complex conjugation on their integer polynomials. Applying it to (3.2) gives $|\sigma(x_S)|=u$. In particular these images are nonzero. Let $P_0$ and $Q_0$ be the products of the $x_S$ with $\varepsilon_S=1$ and $\varepsilon_S=-1$, respectively. Then $\Delta(x)=P_0/Q_0$, and the preceding nonvanishing gives $\sigma(Q_0)\ne0$. Applying $\sigma$ to $Q_0\Delta(x)=P_0$ in $B$ therefore evaluates the fraction in (3.3). Since $I\ne\varnothing$, $$\sum_{S\subseteq I}\varepsilon_S=(1-1)^{|I|}=0.$$ It follows that $|\sigma(\Delta(x))|=1$. Lemma 3.3(i) makes $\Delta(x)$ a root of unity.
 
 For each $p\in I$, there is a maximal ideal of $B$ containing $p$: the additive group of $B$ is free of positive finite rank, so $B/pB\ne0$. At that ideal $\Delta(x)$ has residue $1$, so Lemma 3.3(ii) makes its order a power of $p$. The assertions about odd order and two distinct prime divisors follow. ◻
 
@@ -213,7 +213,7 @@ Proposition 3.4 applies to every $x\in\mathbb Z[i][P]$ satisfying $xx^*=u^2$. W
 *Proof of Theorem 1.1.* The $1\times1$ matrix $(1)$ is an example, as is the circulant matrix with first row $(1,1,1,-1)$ at order four; its three nontrivial autocorrelations vanish.
 
 Suppose there were an example of another order. By Proposition 2.2, its order is $4u^2$ with $u>1$ odd. Write $P=C_{u^2}$ and use the coprime decomposition $C_{4u^2}=C_4\times P$. For a generator $Z$ of $C_4$, write the first-row element as $$h=H_0+ZH_1+Z^2H_2+Z^3H_3,\qquad H_j\in\mathbb Z[P].$$ This decomposition reindexes the coefficients of the row, so every coefficient of every $H_j$ is a sign. Turyn’s Lemma 8 (Turyn 1965, 337) studies the four coset counts under an additional hypothesis on the ideals generated by the three nonprincipal character values; here each $H_j$ records the signs at all elements of $P$. The normalized partial evaluations at $Z=1,-1,i$ are $$\begin{equation}
-\label{eq:three-elements}
+\tag{4.1}
  \begin{aligned}
  c&=\tfrac12h\vert_{Z=1}
    =\frac{H_0+H_1+H_2+H_3}{2},\\
@@ -223,7 +223,7 @@ Suppose there were an example of another order. By Proposition 2.2, its order i
    =\frac{H_0-H_2}{2}+i\frac{H_1-H_3}{2}.
  \end{aligned}
 \end{equation}$$ The fourth normalized evaluation, at $Z=-i$, is the coefficientwise conjugate of $g$. The coefficients of $c$ and $d$ are integers because their numerators are sums of four odd integers. The two half-differences in $g$ are integral as well. Hence $c,d\in\mathbb Z[P]$ and $g\in\mathbb Z[i][P]$. Evaluation at $Z=1,-1,i$ commutes with the involution, so $hh^*=4u^2$ gives $$\begin{equation}
-\label{eq:three-norms}
+\tag{4.2}
  xx^*=u^2\qquad(x=c,d,g).
 \end{equation}$$
 
@@ -233,47 +233,47 @@ Use the fixed notation $I,B,\chi_S,x_S,\varepsilon_S$ from Section 3, and set $
 Choose a maximal ideal $\mathfrak m$ of $B$ containing $2$, which exists because $B/2B\ne0$, and put $$O=B_{\mathfrak m},\qquad \mathfrak n=\mathfrak mB_{\mathfrak m},\qquad k=O/\mathfrak n.$$ All residues in the rest of the proof lie in this one field $k$. Every $c_S,d_S,g_S$ is a unit of $O$, since its product with its complex conjugate is the odd integer $u^2$. The image of $i$ in $k$ is $1$: in characteristic two, $(i-1)^2=0$, and $k$ is a field. Thus $2,1+i,1-i$ belong to $\mathfrak n$, and $2$ and $1+i$ are nonzero in the characteristic-zero domain $O$.
 
 For every $S\subseteq I$, define the local units $$\begin{equation}
-\label{eq:ratios}
+\tag{4.3}
  r_S=\frac{d_S}{c_S},\qquad w_S=\frac{g_S}{c_S}.
 \end{equation}$$ Expanding the alternating products gives $$\begin{equation}
-\label{eq:ratio-products}
+\tag{4.4}
  R=\prod_{S\subseteq I}r_S^{\varepsilon_S},\qquad
  W=\prod_{S\subseteq I}w_S^{\varepsilon_S}.
 \end{equation}$$ We now compare how these two families differ from $1$.
 
 Put $b=(H_1+H_3)/2\in\mathbb Z[P]$. Direct subtraction in $\mathbb Z[i][P]$ gives the two exact differences $$\begin{equation}
-\label{eq:raw-differences}
+\tag{4.5}
  d-c=-2b,\qquad
  g-c=(i-1)b-(H_2+iH_3).
 \end{equation}$$ The common sign coefficients control the last bracket. Let $J=\sum_{z\in P}z$. Each coefficient of $H_2+iH_3$ has the form $\alpha+i\beta$, with $\alpha,\beta\in\{-1,1\}$, and differs from $1+i$ by an element of $2\mathbb Z[i]$. Hence $$\begin{equation}
-\label{eq:binary}
+\tag{4.6}
  H_2+iH_3=(1+i)J+2U,\qquad U\in\mathbb Z[i][P].
-\end{equation}$$ The first difference in (eq:raw-differences) has a factor $2$. After substituting (eq:binary), the second has a factor $1+i$, because $i-1=i(1+i)$ and $2=(1+i)(1-i)$. Evaluating and dividing by the unit $c_S$ therefore gives the following integral first-order terms in $O$: $$\begin{align}
+\end{equation}$$ The first difference in (4.5) has a factor $2$. After substituting (4.6), the second has a factor $1+i$, because $i-1=i(1+i)$ and $2=(1+i)(1-i)$. Evaluating and dividing by the unit $c_S$ therefore gives the following integral first-order terms in $O$: $$\begin{align}
  L_{r,S}:=\frac{r_S-1}{2}
-   &=-\frac{b_S}{c_S},\label{eq:lr}\\
+   &=-\frac{b_S}{c_S},\tag{4.7}\\
  L_{w,S}:=\frac{w_S-1}{1+i}
    &=i\frac{b_S}{c_S}-\frac{J_S}{c_S}
-     -(1-i)\frac{U_S}{c_S}.\label{eq:lw}
+     -(1-i)\frac{U_S}{c_S}.\tag{4.8}
 \end{align}$$ The right sides establish the integrality of the two quotients. In particular $$r_S\in1+2O,\qquad w_S\in1+(1+i)O.$$ Adding the exact formulas makes the contribution of $b_S$ disappear after reduction: $$\begin{equation}
-\label{eq:sum-first-order}
+\tag{4.9}
  L_{r,S}+L_{w,S}
  =-\frac{J_S}{c_S}-(1-i)\frac{b_S+U_S}{c_S}
  \equiv\frac{J_S}{c_S}\pmod\mathfrak n.
 \end{equation}$$
 
 The displayed subgroup memberships give residue $1$ for every $r_S$ and $w_S$, and therefore for $R$ and $W$. The orders of $R$ and $W$ are odd, so Lemma 3.3(ii) in residue characteristic two gives the exact equalities $$\begin{equation}
-\label{eq:exact-products}
+\tag{4.10}
  R=W=1.
 \end{equation}$$ A related character comparison of Leung and Schmidt also forces a root of unity of odd order to equal one by reducing modulo two (Leung and Schmidt 2012, author manuscript, proof of Theorem 3.5, p. 10). Lemma 4.1 applies with $t=2$ and with $t=1+i$. For the two families it gives $$\lambda_2(r_S)=L_{r,S}\bmod\mathfrak n,\qquad
- \lambda_{1+i}(w_S)=L_{w,S}\bmod\mathfrak n.$$ Both maps take values in $k$, reducing their respective integral quotients modulo the same maximal ideal $\mathfrak n$. Apply them to the products in (eq:ratio-products), using (eq:exact-products); the homomorphism and inverse rules give $$\sum_{S\subseteq I}\varepsilon_S L_{r,S}\equiv0\pmod\mathfrak n,\qquad
- \sum_{S\subseteq I}\varepsilon_S L_{w,S}\equiv0\pmod\mathfrak n.$$ Adding these identities in $k$ and using (eq:sum-first-order) yields $$\begin{equation}
-\label{eq:last-sum}
+ \lambda_{1+i}(w_S)=L_{w,S}\bmod\mathfrak n.$$ Both maps take values in $k$, reducing their respective integral quotients modulo the same maximal ideal $\mathfrak n$. Apply them to the products in (4.4), using (4.10); the homomorphism and inverse rules give $$\sum_{S\subseteq I}\varepsilon_S L_{r,S}\equiv0\pmod\mathfrak n,\qquad
+ \sum_{S\subseteq I}\varepsilon_S L_{w,S}\equiv0\pmod\mathfrak n.$$ Adding these identities in $k$ and using (4.9) yields $$\begin{equation}
+\tag{4.11}
  \sum_{S\subseteq I}\varepsilon_S\frac{J_S}{c_S}\equiv0\pmod\mathfrak n.
 \end{equation}$$
 
-For $S\ne\varnothing$, the character $\chi_S$ is nontrivial. Choose $z\in P$ with $\chi_S(z)\ne1$. Since multiplication by $z$ permutes the summands of $J$, evaluation gives $(\chi_S(z)-1)J_S=0$ in the domain $B$, and hence $J_S=0$. For $S=\varnothing$, one has $J_{\varnothing}=|P|=u^2$ and $\varepsilon_{\varnothing}=1$. The sum in (eq:last-sum) is therefore the unit $u^2/c_{\varnothing}$ of $O$. Its residue cannot be zero. This contradiction excludes every order greater than four. ◻
+For $S\ne\varnothing$, the character $\chi_S$ is nontrivial. Choose $z\in P$ with $\chi_S(z)\ne1$. Since multiplication by $z$ permutes the summands of $J$, evaluation gives $(\chi_S(z)-1)J_S=0$ in the domain $B$, and hence $J_S=0$. For $S=\varnothing$, one has $J_{\varnothing}=|P|=u^2$ and $\varepsilon_{\varnothing}=1$. The sum in (4.11) is therefore the unit $u^2/c_{\varnothing}$ of $O$. Its residue cannot be zero. This contradiction excludes every order greater than four. ◻
 
-*Remark 4.2*. The hypothesis $u>1$ is used when the nonempty prime set $I$ produces odd torsion in Proposition 3.4. At order four, $I$ is empty and there is still one subset, $S=\varnothing$. For the example $(1,1,1,-1)$, one has $c=d=1$ and $g=i$, giving $R=1$ and $W=i$. Although $i$ has residue $1$ in characteristic two, its order is even, so the deduction (eq:exact-products) is unavailable.
+*Remark 4.2*. The hypothesis $u>1$ is used when the nonempty prime set $I$ produces odd torsion in Proposition 3.4. At order four, $I$ is empty and there is still one subset, $S=\varnothing$. For the example $(1,1,1,-1)$, one has $c=d=1$ and $g=i$, giving $R=1$ and $W=i$. Although $i$ has residue $1$ in characteristic two, its order is even, so the deduction (4.10) is unavailable.
 
 ## Barker sequences
 
@@ -282,13 +282,13 @@ We finish by proving the length classification stated in Corollary 1.2. The new
 *Proof of Corollary 1.2.* Suppose first that $a$ is a Barker sequence of even length $n>2$. Its periodic autocorrelation at a nontrivial shift is $$P_a(t)=\sum_{j=0}^{n-1}a_j a_{j+t\bmod n}
        =C_a(t)+C_a(n-t)\qquad(1\leq t<n).$$ The product of the $n$ sign summands in $P_a(t)$ is $(\prod_j a_j)^2=1$, so an even number of those summands are negative. Consequently $P_a(t)\equiv n\pmod4$. Also $C_a(t)\equiv n-t\pmod2$. For $t=2$, both $C_a(2)$ and $C_a(n-2)$ are even; the Barker bound makes them zero. Thus $P_a(2)=0$, and $4\mid n$. For every nontrivial shift, the Barker bounds give $|P_a(t)|\leq2$, while the congruence gives $P_a(t)\equiv0\pmod4$. Hence all these periodic autocorrelations vanish. The cyclic shifts of $a$ form a real circulant Hadamard matrix. This classical implication appears in Turyn and Storer (Turyn and Storer 1961, 395, footnote 2); see also (Turyn 1965, 330). Theorem 1.1 now forces $n=4$. The only possible even lengths are therefore $2$ and $4$.
 
-For odd $n>1$, Turyn and Storer proved nonexistence above length $13$ (Turyn and Storer 1961); the later proof of Schmidt and Willms (Schmidt and Willms 2016, Theorem 1) gives the exact list $n\in\{3,5,7,11,13\}$. Examples exist at every listed length. The following table uses the examples recorded in (Schmidt and Willms 2016, sec. 1). Here $+$ and $-$ denote $1$ and $-1$; direct substitution in $C_a(t)$ verifies the Barker property in each row. $$\begin{array}[b]{c|l@{\qquad}c|l}
+For odd $n>1$, Turyn and Storer proved nonexistence above length $13$ (Turyn and Storer 1961); the later proof of Schmidt and Willms (Schmidt and Willms 2016, Theorem 1) gives the exact list $n\in\{3,5,7,11,13\}$. Examples exist at every listed length. The following table uses the examples recorded in (Schmidt and Willms 2016, sec. 1). Here $+$ and $-$ denote $1$ and $-1$; direct substitution in $C_a(t)$ verifies the Barker property in each row. $$\begin{array}{c|lc|l}
  n & a & n & a\\ \hline
  2 & \texttt{++} & 7 & \texttt{+++{-}{-}+{-}}\\
  3 & \texttt{++-} & 11 & \texttt{+++{-}{-}{-}+{-}{-}+{-}}\\
  4 & \texttt{+++-} & 13 & \texttt{+++++{-}{-}++{-}+{-}+}\\
  5 & \texttt{+++-+} & &
-\end{array}\qedhere$$ ◻
+\end{array}$$ ◻
 
 If length one is admitted, it is also possible: there are no nontrivial shifts, so the Barker condition is vacuous.
 

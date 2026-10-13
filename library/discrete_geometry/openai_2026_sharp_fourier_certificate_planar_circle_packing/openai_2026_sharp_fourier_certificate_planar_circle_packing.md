@@ -18,7 +18,7 @@ The Fourier-analytic approach of Cohn and Elkies (Cohn and Elkies 2003) asks wh
 Throughout, the Fourier transform is $$\widehat f(\xi)=\int_{\mathbb R^2}f(x)e^{-2\pi i x\cdot\xi}\,\mathop{}\!\mathrm dx.$$ For real radial integrable functions it is real and radial. A Schwartz function is a smooth function whose derivatives decay faster than every inverse power of the radius; this regularity is stronger than the admissibility conditions in the Cohn–Elkies theorem.
 
 **Theorem 1.1** (Sharp Fourier certificate). *There is a real radial Schwartz function $f:\mathbb R^2\to\mathbb R$ such that $$\begin{equation}
-\label{intro:conditions}
+\tag{1.1}
   \widehat f(0)=1,\qquad f(0)=\frac{2}{\sqrt3},\qquad
   \widehat f(\xi)\ge0\quad(\xi\in\mathbb R^2),\qquad
   f(x)\le0\quad(|x|\ge1).
@@ -56,20 +56,20 @@ Section 2 develops the cardinal functions and their Fourier transforms. Section
 The construction uses a family of entire functions whose values and first derivatives can be prescribed at a periodic set of nodes. Multiplication by a fixed Gaussian turns these functions into radial Schwartz functions. Their Fourier transforms have strictly stronger Gaussian decay, which will make the coupled interpolation equations tractable.
 
 Set $$\begin{equation}
-\label{fourier:parameters}
+\tag{2.1}
  b=\frac{\sqrt3}{2},\qquad h=\frac25,\qquad B=b^{-2}=\frac43,
  \qquad s=b\left\lvert x\right\rvert^2.
 \end{equation}$$ The same coordinate, $s=b\left\lvert\xi\right\rvert^2$, is used on the Fourier side. To see the lattice geometry behind this choice, let $\Lambda$ have basis $$\begin{equation}
-\label{fourier:lattice}
+\tag{2.2}
  u=\frac{1}{\sqrt b}(1,0),\qquad
  v=\frac{1}{\sqrt b}(1/2,b).
 \end{equation}$$ This oriented basis has determinant one. If $\mathcal R$ is counterclockwise rotation through $90$ degrees, its dual basis is $-\mathcal R v,\mathcal R u$. Hence $\Lambda^*=\mathcal R\Lambda$: the lattice and its dual have the same shell radii. For $a=ju+kv$, with $j,k\in\mathbb Z$, the squared radius in the common coordinate is $$\begin{equation}
-\label{fourier:shell-coordinate}
+\tag{2.3}
  s_a:=b\left\lvert a\right\rvert^2=j^2+jk+k^2.
 \end{equation}$$
 
 We impose interpolation conditions at the positive nodes of a periodic set: $$\begin{equation}
-\label{fourier:nodes}
+\tag{2.4}
  A=\{0,1,3,4,7,9\},\qquad
  \mathcal N=(12\mathbb Z+A)\cap(0,\infty).
 \end{equation}$$ The set $\mathcal N$ contains every positive value of $j^2+jk+k^2$. Indeed, $j^2+jk+k^2\equiv(j-k)^2\pmod3$, so it is never $2\pmod3$. Modulo $4$, it is $0$ when $j,k$ are both even and is odd otherwise. Combining these restrictions gives precisely the six allowed residues in $A$. The inclusion is strict: $15\in\mathcal N$, but $j^2+jk+k^2=15$ would imply $(2j+k)^2\equiv2k^2\pmod5$. Since $2$ is not a square modulo $5$, this forces $5\mid k$ and then $5\mid j$, which would make $25$ divide $15$. Thus we require zeros at some nodes that are not lattice shell coordinates. This deliberate enlargement uses a periodic residue pattern with an elementary trigonometric vanishing function. Covering planar shell values by periodic sets also occurs in Sardari’s Fourier interpolation construction (Talebizadeh Sardari 2021, sec. 6.1); the Gaussian transformation and the coupled inversion needed here will be proved directly.
@@ -79,21 +79,21 @@ We impose interpolation conditions at the positive nodes of a periodic set: $$\b
 The values and first derivatives will be encoded by double-pole and simple-pole terms multiplied by a common vanishing factor. This is the same cardinal pattern that occurs in Gaussian Beurling–Selberg interpolation (Carneiro et al. 2013, formulas (1.2)–(1.3)). The nodes and simultaneous Fourier constraints here are different.
 
 For $-6\le j\le6$, put $t_j=j/6$, and define $$\begin{equation}
-\label{fourier:polynomial}
+\tag{2.5}
  P(s)=\prod_{a\in A}\left(2\sin\frac{\pi(s-a)}{12}\right)^2
      =\sum_{j=-6}^{6}P_j e^{i\pi t_js}.
 \end{equation}$$ Here $P_{-j}=\overline{P_j}$, and $$\begin{equation}
-\label{fourier:coefficients}
+\tag{2.6}
  (P_0,P_1,\ldots,P_6)
  =\left(5,-1+2ib,1+2ib,-2,-\frac12+ib,-1-2ib,1\right).
 \end{equation}$$ For example, with $w=e^{i\pi s/6}$ and $\rho=e^{i\pi/6}$, each factor is $$\left(2\sin\frac{\pi(s-a)}{12}\right)^2
- =-\rho^{-a}w^{-1}(w-\rho^a)^2.$$ The six minus signs cancel, and $\rho^{-\sum_{a\in A}a}=\rho^{-24}=1$. Thus the product in (fourier:polynomial) equals $$w^{-6}\prod_{a\in A}(w-\rho^a)^2.$$ Expanding this Laurent polynomial gives (fourier:coefficients).
+ =-\rho^{-a}w^{-1}(w-\rho^a)^2.$$ The six minus signs cancel, and $\rho^{-\sum_{a\in A}a}=\rho^{-24}=1$. Thus the product in (2.5) equals $$w^{-6}\prod_{a\in A}(w-\rho^a)^2.$$ Expanding this Laurent polynomial gives (2.6).
 
 Every zero $n\in12\mathbb Z+A$ of $P$ is double. Define $Q_n,D_n$ by $$\begin{equation}
-\label{fourier:node-expansion}
+\tag{2.7}
  P(n+u)=Q_nu^2\bigl(1+D_nu+O(u^2)\bigr).
 \end{equation}$$ If $a\in A$ is the residue of $n$ modulo $12$, then $$\begin{equation}
-\label{fourier:node-data}
+\tag{2.8}
  \begin{split}
  Q_n&=\left(\frac\pi6\right)^2
        \prod_{\substack{a'\in A\\a'\ne a}}
@@ -110,31 +110,31 @@ Every zero $n\in12\mathbb Z+A$ of $P$ is double. Define $Q_n,D_n$ by $$\begin{eq
  7&(2\pi^2/3)(2+\sqrt3)&-\pi(3-\sqrt3)/18\\
  9&(2\pi^2/3)(2+\sqrt3)&\pi(3-\sqrt3)/18
 \end{array}$$ The expansion follows by isolating the vanishing sine factor; logarithmic differentiation of the remaining factors gives $D_n$. The table then uses the elementary trigonometric values at multiples of $\pi/12$. In particular, $$\begin{equation}
-\label{fourier:node-bounds}
+\tag{2.9}
  Q_n>\frac74=1.75,\qquad \left\lvert D_n\right\rvert<\frac{53}{25}=2.12.
 \end{equation}$$ To check these inequalities with rational bounds, use $157/50<\pi<22/7$ and $\sqrt3<26/15$. The minimum of $Q_n$ is greater than $197192/112500>7/4$, and the maximum of $\left\lvert D_n\right\rvert$ is less than $286/135<53/25$.
 
 Let $C\in\mathbb R$, and let $(c_n,d_n)_{n\in\{0\}\cup\mathcal N}$ be a real coefficient list with $$\begin{equation}
-\label{fourier:list-norm}
+\tag{2.10}
  \left\lVert(c,d)\right\rVert_1
  :=\sum_{n\in\{0\}\cup\mathcal N}(\left\lvert c_n\right\rvert+\left\lvert d_n\right\rvert)<\infty.
 \end{equation}$$ Away from the nodes, define $$\begin{equation}
-\label{fourier:cardinal}
+\tag{2.11}
  p(s)=P(s)R(s),\qquad
  R(s)=C+\sum_{n\in\{0\}\cup\mathcal N}
        \left(\frac{c_n}{(s-n)^2}+\frac{d_n}{s-n}\right).
 \end{equation}$$ We next show that the apparent singularities are removable, with uniform control of the resulting entire function.
 
-**Lemma 2.1** (Finite-measure representation). *The function in (fourier:cardinal) extends to an entire function with the representation $$\begin{equation}
-\label{fourier:measure}
+**Lemma 2.1** (Finite-measure representation). *The function in (2.11) extends to an entire function with the representation $$\begin{equation}
+\tag{2.12}
  p(s)=\int_{-1}^{1}e^{i\pi ts}\,\mathop{}\!\mathrm d\mu(t),\qquad s\in\mathbb C,
 \end{equation}$$ where $\mu$ is a finite complex measure, supported in $[-1,1]$, with $\mu(-E)=\overline{\mu(E)}$ for Borel sets $E$. Its total variation satisfies $$\begin{equation}
-\label{fourier:variation}
+\tag{2.13}
  \left\lVert\mu\right\rVert_{\mathrm{TV}}
  \le25\left\lvert C\right\rvert+\frac{65\pi^2}{18}\sum_n\left\lvert c_n\right\rvert
                  +\frac{32\pi}{3}\sum_n\left\lvert d_n\right\rvert.
 \end{equation}$$ The atoms of $\mu$ have mass $CP_j$ at $t_j$, for $-6\le j\le6$. For real-axis evaluations, the remaining measure can be folded onto $[0,1]$: on $t_{j-1}<t<t_j$, its folded density is $\sum_n(c_nu_n(t)+d_nv_n(t))$, where $$\begin{equation}
-\label{fourier:folded}
+\tag{2.14}
  \begin{split}
  u_n(t)&=-2\pi^2e^{-i\pi tn}
               \sum_{l=j}^{6}(t_l-t)P_l e^{i\pi t_ln},\\
@@ -144,14 +144,14 @@ Let $C\in\mathbb R$, and let $(c_n,d_n)_{n\in\{0\}\cup\mathcal N}$ be a real coe
 \end{equation}$$ The folded atoms have masses $CP_0$ at $0$ and $2CP_j$ at $t_j$, $1\le j\le6$. Integrate against this folded measure and take the real part to obtain $p(s)$ for real $s$, or any of its real-axis derivatives.*
 
 *Proof.* Fix a node $n$ and write $u=s-n$. For real $\tau$, the identities $$\begin{equation}
-\label{fourier:division-identities}
+\tag{2.15}
  \begin{split}
  \frac{e^{i\pi\tau u}-1}{u}
    &=i\pi\int_0^\tau e^{i\pi tu}\,\mathop{}\!\mathrm dt,\\
  \frac{e^{i\pi\tau u}-1-i\pi\tau u}{u^2}
    &=-\pi^2\int_0^\tau(\tau-t)e^{i\pi tu}\,\mathop{}\!\mathrm dt
  \end{split}
-\end{equation}$$ hold for complex $u$, with the values at zero taken by continuity. When $\tau<0$, the integrals are oriented integrals. Inserting $\tau=t_l$ and multiplying by $P_le^{i\pi t_ln}$, the subtracted terms sum to zero because $P(n)=P'(n)=0$. On the positive interval $(t_{j-1},t_j)$, only frequencies with $l\ge j$ contribute. The resulting density for $P(s)/(s-n)^2$ is $u_n/2$, and that for $P(s)/(s-n)$ is $v_n/2$. The negative-frequency densities are their conjugate reflections, which proves (fourier:folded) and accounts for its factors of two.
+\end{equation}$$ hold for complex $u$, with the values at zero taken by continuity. When $\tau<0$, the integrals are oriented integrals. Inserting $\tau=t_l$ and multiplying by $P_le^{i\pi t_ln}$, the subtracted terms sum to zero because $P(n)=P'(n)=0$. On the positive interval $(t_{j-1},t_j)$, only frequencies with $l\ge j$ contribute. The resulting density for $P(s)/(s-n)^2$ is $u_n/2$, and that for $P(s)/(s-n)$ is $v_n/2$. The negative-frequency densities are their conjugate reflections, which proves (2.14) and accounts for its factors of two.
 
 All phase factors involving $n$ have modulus one on the real integration interval. Hence the measures for the two individual basis functions satisfy $$\begin{split}
  \int_0^1\left\lvert u_n(t)\right\rvert\,\mathop{}\!\mathrm dt
@@ -162,76 +162,75 @@ All phase factors involving $n$ have modulus one on the real integration interva
  \int_0^1\left\lvert v_n(t)\right\rvert\,\mathop{}\!\mathrm dt
  &\le2\pi\sum_{l=1}^{6}\left\lvert P_l\right\rvert t_l
  =\frac{32\pi}{3}.
- \end{split}$$ These are also bounds for the total variations of the full measures on $[-1,1]$. The atomic measure for $CP$ has total variation $\left\lvert C\right\rvert\sum_{j=-6}^{6}\left\lvert P_j\right\rvert=25\left\lvert C\right\rvert$. The coefficient summability therefore gives convergence of the sum of basis measures in total variation and proves (fourier:variation).
+ \end{split}$$ These are also bounds for the total variations of the full measures on $[-1,1]$. The atomic measure for $CP$ has total variation $\left\lvert C\right\rvert\sum_{j=-6}^{6}\left\lvert P_j\right\rvert=25\left\lvert C\right\rvert$. The coefficient summability therefore gives convergence of the sum of basis measures in total variation and proves (2.13).
 
-For any compact subset of $\mathbb C$, the integrand in (fourier:measure), and each of its derivatives with respect to $s$, is bounded uniformly in $t\in[-1,1]$. The integral is consequently entire, and the finite cardinal sums converge to it locally uniformly. Away from the nodes, the series in (fourier:cardinal) converges locally uniformly and has the same limit. Thus the integral supplies its entire extension. Conjugate symmetry of the measure makes that extension real on the real axis. ◻
+For any compact subset of $\mathbb C$, the integrand in (2.12), and each of its derivatives with respect to $s$, is bounded uniformly in $t\in[-1,1]$. The integral is consequently entire, and the finite cardinal sums converge to it locally uniformly. Away from the nodes, the series in (2.11) converges locally uniformly and has the same limit. Thus the integral supplies its entire extension. Conjugate symmetry of the measure makes that extension real on the real axis. ◻
 
 In particular, for every integer $k\ge0$, $$\begin{equation}
-\label{fourier:derivative-bound}
+\tag{2.16}
  \left\lvert p^{(k)}(s)\right\rvert\le\pi^k\left\lVert\mu\right\rVert_{\mathrm{TV}}
  \qquad(s\in\mathbb R).
-\end{equation}$$ The finite cardinal sums and their derivatives converge locally uniformly: the assertion for derivatives follows either directly from the measure bound or from Cauchy’s integral formula on a slightly larger compact set. Passing their node values and derivatives to the limit in (fourier:node-expansion) gives the cardinal identities $$\begin{equation}
-\label{fourier:node-values}
+\end{equation}$$ The finite cardinal sums and their derivatives converge locally uniformly: the assertion for derivatives follows either directly from the measure bound or from Cauchy’s integral formula on a slightly larger compact set. Passing their node values and derivatives to the limit in (2.7) gives the cardinal identities $$\begin{equation}
+\tag{2.17}
  p(n)=Q_nc_n,\qquad p'(n)=Q_n(d_n+D_nc_n)
  \qquad(n\in\{0\}\cup\mathcal N).
-\end{equation}$$ The other summands in (fourier:cardinal) vanish to second order at $n$, which explains why these identities involve only its own pair of coefficients.
+\end{equation}$$ The other summands in (2.11) vanish to second order at $n$, which explains why these identities involve only its own pair of coefficients.
 
 ### Fourier transformation
 
 For a cardinal function $p$, let $$q_p(x)=e^{-\pi hs}p(s),\qquad s=b\left\lvert x\right\rvert^2.$$ Define, for real $-1\le t\le1$, $$\begin{equation}
-\label{fourier:frequencies}
+\tag{2.18}
  \lambda(t)=\frac{i}{b(t+ih)},\qquad
  z(t)=-\frac{B}{t+ih}-ih,
 \end{equation}$$ and, using the measure from Lemma 2.1, put $$\begin{equation}
-\label{fourier:kernel}
+\tag{2.19}
  K_p(s)=\int_{-1}^{1}\lambda(t)e^{i\pi z(t)s}\,\mathop{}\!\mathrm d\mu(t).
 \end{equation}$$
 
 **Proposition 2.2** (Gaussian Fourier pairing). *The function $q_p$ is real, radial, and Schwartz on $\mathbb R^2$, and $$\widehat{q_p}(\xi)=e^{-\pi hs}K_p(s),\qquad s=b\left\lvert\xi\right\rvert^2.$$ The function $K_p$ is entire and real on the real axis. Moreover, $$\begin{equation}
-\label{fourier:damping}
+\tag{2.20}
  \operatorname{Im}z(t)
    =h\left(\frac{B}{t^2+h^2}-1\right)
    \ge\frac{26}{435}>0\qquad(-1\le t\le1).
 \end{equation}$$ Consequently every derivative of $K_p(s)$ decays exponentially as $s\to+\infty$.*
 
-*Proof.* By (fourier:measure), $$q_p(x)=\int_{-1}^{1}e^{-\pi b(h-it)\left\lvert x\right\rvert^2}\,\mathop{}\!\mathrm d\mu(t).$$ Every spatial derivative of the integrand is a polynomial in $x$, whose coefficients are bounded uniformly for $t\in[-1,1]$, times a Gaussian of modulus $e^{-\pi bh\left\lvert x\right\rvert^2}$. The finite variation of $\mu$ justifies differentiation under the integral and bounds every Schwartz seminorm. Reality follows from the real values of $p$ on the real axis, and radiality from the dependence on $\left\lvert x\right\rvert^2$.
+*Proof.* By (2.12), $$q_p(x)=\int_{-1}^{1}e^{-\pi b(h-it)\left\lvert x\right\rvert^2}\,\mathop{}\!\mathrm d\mu(t).$$ Every spatial derivative of the integrand is a polynomial in $x$, whose coefficients are bounded uniformly for $t\in[-1,1]$, times a Gaussian of modulus $e^{-\pi bh\left\lvert x\right\rvert^2}$. The finite variation of $\mu$ justifies differentiation under the integral and bounds every Schwartz seminorm. Reality follows from the real values of $p$ on the real axis, and radiality from the dependence on $\left\lvert x\right\rvert^2$.
 
 For $\operatorname{Re}a>0$, the two-dimensional Gaussian transform in our Fourier convention is $$\widehat{e^{-\pi a\left\lvert x\right\rvert^2}}(\xi)
    =a^{-1}e^{-\pi\left\lvert\xi\right\rvert^2/a}.$$ This follows from the one-dimensional Gaussian integral by taking products and analytically continuing in $a$ to the right half-plane. Apply this with $a=b(h-it)$. Fubini’s theorem applies because the integrands have a common integrable Gaussian majorant. We have $$a^{-1}=\lambda(t),\qquad
- -\frac{\pi\left\lvert\xi\right\rvert^2}{a}+\pi hs=i\pi z(t)s,$$ which gives (fourier:kernel) and the asserted Fourier transform. The curve $z([-1,1])$ is compact, so $K_p$ is entire by differentiation under its defining integral. Also, $$\lambda(-t)=\overline{\lambda(t)},\qquad
+ -\frac{\pi\left\lvert\xi\right\rvert^2}{a}+\pi hs=i\pi z(t)s,$$ which gives (2.19) and the asserted Fourier transform. The curve $z([-1,1])$ is compact, so $K_p$ is entire by differentiation under its defining integral. Also, $$\lambda(-t)=\overline{\lambda(t)},\qquad
  z(-t)=-\overline{z(t)}.$$ Thus the same folded measure and real-part convention as in Lemma 2.1 apply to $K_p$ and its real-axis derivatives.
 
-Finally, the imaginary part in (fourier:damping) is smallest at $\left\lvert t\right\rvert=1$, where its value is $26/435$. Differentiating (fourier:kernel) gives, for $s\ge0$, $$\left\lvert K_p^{(k)}(s)\right\rvert
+Finally, the imaginary part in (2.20) is smallest at $\left\lvert t\right\rvert=1$, where its value is $26/435$. Differentiating (2.19) gives, for $s\ge0$, $$\left\lvert K_p^{(k)}(s)\right\rvert
  \le\left\lVert\mu\right\rVert_{\mathrm{TV}}
      \max_{\left\lvert t\right\rvert\le1}\bigl(\left\lvert\lambda(t)\right\rvert\,
                               (\pi\left\lvert z(t)\right\rvert)^k\bigr)
      e^{-26\pi s/435}.$$ This proves the decay assertion. ◻
 
-No cardinal representation of $K_p$ is assumed. Only its entireness, its values and derivatives, and the estimates obtained from (fourier:kernel) will be used in the interpolation equations. In particular, the measure in that formula is supported on the real interval $[-1,1]$; later complex-disk estimates concern specified finite integrands, not an analytic continuation in the integration variable of an arbitrary $\ell^1$ density.
+No cardinal representation of $K_p$ is assumed. Only its entireness, its values and derivatives, and the estimates obtained from (2.19) will be used in the interpolation equations. In particular, the measure in that formula is supported on the real interval $[-1,1]$; later complex-disk estimates concern specified finite integrands, not an analytic continuation in the integration variable of an arbitrary $\ell^1$ density.
 
 *Remark 2.3* (A real-radius Hankel representation). For real $s\ge0$, the same transform has the representation $$\begin{equation}
-\label{fourier:hankel-formula}
+\tag{2.21}
  K_p(s)=e^{\pi hs}\frac{\pi}{b}\int_0^\infty
        e^{-\pi hu}p(u)
        J_0\!\left(\frac{2\pi\sqrt{us}}{b}\right)\,\mathop{}\!\mathrm du,
-\end{equation}$$ where $J_0(v)=(2\pi)^{-1}\int_0^{2\pi}e^{-iv\cos\theta}\,\mathop{}\!\mathrm d\theta$ for real $v$. To prove this, use polar coordinates in the Fourier integral for $q_p$, perform the angular integral, and put $u=b r^2$. The resulting radial integral is $\widehat q_p(\xi)=(\pi/b)\int_0^\infty e^{-\pi hu}p(u)
-J_0(2\pi\sqrt{us}/b)\,\mathop{}\!\mathrm du$, with $s=b\left\lvert\xi\right\rvert^2$. Absolute convergence follows from $\left\lvert p(u)\right\rvert\le\left\lVert\mu\right\rVert_{\mathrm{TV}}$ and $\left\lvert J_0(v)\right\rvert\le1$. Multiplication by $e^{\pi hs}$ gives (fourier:hankel-formula). This is an identity on the nonnegative real axis; it is not used as a numerical sign certificate below.
+\end{equation}$$ where $J_0(v)=(2\pi)^{-1}\int_0^{2\pi}e^{-iv\cos\theta}\,\mathop{}\!\mathrm d\theta$ for real $v$. To prove this, use polar coordinates in the Fourier integral for $q_p$, perform the angular integral, and put $u=b r^2$. The resulting radial integral is $\widehat q_p(\xi)=(\pi/b)\int_0^\infty e^{-\pi hu}p(u) J_0(2\pi\sqrt{us}/b)\,\mathop{}\!\mathrm du$, with $s=b\left\lvert\xi\right\rvert^2$. Absolute convergence follows from $\left\lvert p(u)\right\rvert\le\left\lVert\mu\right\rVert_{\mathrm{TV}}$ and $\left\lvert J_0(v)\right\rvert\le1$. Multiplication by $e^{\pi hs}$ gives (2.21). This is an identity on the nonnegative real axis; it is not used as a numerical sign certificate below.
 
 ### The coupled interpolation conditions
 
 We use two cardinal functions $p_1,p_2$, with coefficients $c_{i,n},d_{i,n},C_i$ for function index $i\in\{1,2\}$. Their coefficients at positive nodes will be determined later; fix $$\begin{equation}
-\label{fourier:fixed}
+\tag{2.22}
  (c_{1,0},d_{1,0},C_1)=(1,0.44,-0.013),\qquad
  (c_{2,0},d_{2,0},C_2)=(0,-0.368,0.017).
 \end{equation}$$ All terminating decimals in the construction denote exact rational numbers. Write $K_i=K_{p_i}$ and $H_i=p_i+K_{3-i}$. The associated pair is $$\begin{equation}
-\label{fourier:pair}
+\tag{2.23}
  F(x)=e^{-\pi hs}H_1(s),\qquad
  \widehat F(\xi)=e^{-\pi hs}H_2(s),
  \quad s=b\left\lvert x\right\rvert^2\ \text{or}\ b\left\lvert\xi\right\rvert^2,
-\end{equation}$$ respectively. Indeed, $F=q_{p_1}+\widehat{q_{p_2}}$, and Fourier inversion gives $\widehat F=\widehat{q_{p_1}}+q_{p_2}$, since the functions are even. Thus both functions in (fourier:pair) are real, radial, and Schwartz for every pair of admissible coefficient lists.
+\end{equation}$$ respectively. Indeed, $F=q_{p_1}+\widehat{q_{p_2}}$, and Fourier inversion gives $\widehat F=\widehat{q_{p_1}}+q_{p_2}$, since the functions are even. Thus both functions in (2.23) are real, radial, and Schwartz for every pair of admissible coefficient lists.
 
 The required interpolation conditions are $$\begin{equation}
-\label{fourier:interpolation}
+\tag{2.24}
  \begin{split}
  H_1(n)&=H_2(n)=0,\\
  H_2'(n)&=0,\qquad H_1'(n)=-Q_n\mathbf1_{\{n=1\}}
@@ -239,8 +238,8 @@ The required interpolation conditions are $$\begin{equation}
  \end{split}
 \end{equation}$$ Here primes denote derivatives with respect to $s$. They give zeros of order at least two for both functions at every positive node except that $H_1$ has a prescribed simple zero at $1$.
 
-**Lemma 2.4** (Coefficient form of the interpolation). *For two real $\ell^1$ coefficient lists, conditions (fourier:interpolation) are equivalent to $$\begin{equation}
-\label{fourier:coefficient-equations}
+**Lemma 2.4** (Coefficient form of the interpolation). *For two real $\ell^1$ coefficient lists, conditions (2.24) are equivalent to $$\begin{equation}
+\tag{2.25}
  \begin{split}
  c_{i,n}&=-\frac{K_{3-i}(n)}{Q_n},\\
  d_{i,n}&=\frac{D_nK_{3-i}(n)-K_{3-i}'(n)}{Q_n}
@@ -249,25 +248,25 @@ The required interpolation conditions are $$\begin{equation}
  \end{split}
 \end{equation}$$*
 
-*Proof.* By (fourier:node-values), $$H_i(n)=Q_nc_{i,n}+K_{3-i}(n),\qquad
- H_i'(n)=Q_n(d_{i,n}+D_nc_{i,n})+K_{3-i}'(n).$$ The first equation in (fourier:coefficient-equations) is therefore equivalent to $H_i(n)=0$. Substituting it into the second displayed identity gives the derivative condition in (fourier:interpolation) exactly when the second coefficient equation holds. Division by $Q_n$ is legitimate by (fourier:node-bounds). ◻
+*Proof.* By (2.17), $$H_i(n)=Q_nc_{i,n}+K_{3-i}(n),\qquad
+ H_i'(n)=Q_n(d_{i,n}+D_nc_{i,n})+K_{3-i}'(n).$$ The first equation in (2.25) is therefore equivalent to $H_i(n)=0$. Substituting it into the second displayed identity gives the derivative condition in (2.24) exactly when the second coefficient equation holds. Division by $Q_n$ is legitimate by (2.9). ◻
 
 ## Solving the interpolation equations
 
-The equations (fourier:coefficient-equations) couple two coefficient lists through the transformed part of the construction. We solve them on $\ell^1$, using the strict damping of the Fourier kernel to control every row beyond a fixed finite set.
+The equations (2.25) couple two coefficient lists through the transformed part of the construction. We solve them on $\ell^1$, using the strict damping of the Fourier kernel to control every row beyond a fixed finite set.
 
 Let $$X=\ell^1(\mathcal N;\mathbb R^2),\qquad
  \left\lVert x\right\rVert_1=\sum_{n\in\mathcal N}\bigl(\left\lvert c_n\right\rvert+\left\lvert d_n\right\rvert\bigr)
  \quad\text{for }x=((c_n,d_n))_{n\in\mathcal N}.$$ When writing matrices, we order all $c$ coordinates first and all $d$ coordinates second, with increasing nodes within each group. All operator norms below are the induced $\ell^1$ norms, equivalently the maximum absolute column sum for a finite matrix. A subscript specifying a set of nodes includes both coordinates at each node; a star denotes all positive nodes.
 
-For $x\in X$, let $p_x$ be the function (fourier:cardinal) with these positive-node coefficients and with $C=c_0=d_0=0$. Define the real linear operator $S$ by $$\begin{equation}
-\label{interpolation:S}
+For $x\in X$, let $p_x$ be the function (2.11) with these positive-node coefficients and with $C=c_0=d_0=0$. Define the real linear operator $S$ by $$\begin{equation}
+\tag{3.1}
  (Sx)_{c,n}=-\frac{K_{p_x}(n)}{Q_n},\qquad
  (Sx)_{d,n}=\frac{D_nK_{p_x}(n)-K_{p_x}'(n)}{Q_n}.
 \end{equation}$$ The bounds proved below show, in particular, that $S$ is a bounded operator on $X$.
 
 We use two successive decompositions of this operator. Set $$\begin{equation}
-\label{interpolation:node-blocks}
+\tag{3.2}
  J=\{1,3,4\},\qquad E=\mathcal N\cap[7,100],\qquad
  I_f=J\cup E=\mathcal N\cap[1,100],\qquad D=S_{J,J}.
 \end{equation}$$ A finite inverse handles the coordinates on $J$. A first Schur complement then incorporates $E$, using separate bounds for its rows through $16$ and beyond $16$; a second incorporates the infinite tail beyond $100$. The tail bounds apply to output rows uniformly over all input columns. The first output rows require a separate, larger bound even for columns indexed by large nodes.
@@ -291,7 +290,7 @@ We use the following rational upper and lower bounds. As throughout the construc
 At each endpoint $t_j=j/6$, $$\left\lvert\lambda(t_j)\right\rvert\le b_j^*,\qquad
  \left\lvert z(t_j)\right\rvert\le a_j^*,\qquad
  \operatorname{Im}z(t_j)\ge g_j.$$ On the interval $t_{j-1}\le t\le t_j$, the corresponding bounds are $$\begin{equation}
-\label{interpolation:piece-envelopes}
+\tag{3.3}
  \left\lvert\lambda(t)\right\rvert\le b_{j-1}^*,\quad
  \left\lvert z(t)\right\rvert\le a_{j-1}^*,\quad
  \operatorname{Im}z(t)\ge g_j+\beta_j(t_j-t),\quad
@@ -300,8 +299,8 @@ At each endpoint $t_j=j/6$, $$\left\lvert\lambda(t_j)\right\rvert\le b_j^*,\qqua
 
 Here are direct ways to verify these estimates. The identities $$\left\lvert\lambda(t)\right\rvert=\frac{1}{b\sqrt{t^2+h^2}},\qquad
  \left\lvert z(t)\right\rvert^2=h^2+\frac{B^2-2Bh^2}{t^2+h^2},\qquad
- \operatorname{Im}z(t)=h\left(\frac{B}{t^2+h^2}-1\right)$$ show that the first two quantities decrease on $[0,1]$. The nonnegative quantity $2hBt/(t^2+h^2)^2$, which is minus the derivative of $\operatorname{Im}z$, has its minimum on each of the six intervals at an endpoint. Its only interior critical point on the positive axis is a maximum. These observations give the first three bounds in (interpolation:piece-envelopes) by endpoint substitution. For the densities, $e^{i\pi t_l n}$ depends only on $n$ modulo $12$, whereas $\left\lvert e^{-i\pi tn}\right\rvert=1$ on the real interval. The norm of an affine function of $t$ is convex. Thus an upper bound for both folded densities on the $j$th interval is $$\begin{equation}
-\label{interpolation:density-check}
+ \operatorname{Im}z(t)=h\left(\frac{B}{t^2+h^2}-1\right)$$ show that the first two quantities decrease on $[0,1]$. The nonnegative quantity $2hBt/(t^2+h^2)^2$, which is minus the derivative of $\operatorname{Im}z$, has its minimum on each of the six intervals at an endpoint. Its only interior critical point on the positive axis is a maximum. These observations give the first three bounds in (3.3) by endpoint substitution. For the densities, $e^{i\pi t_l n}$ depends only on $n$ modulo $12$, whereas $\left\lvert e^{-i\pi tn}\right\rvert=1$ on the real interval. The norm of an affine function of $t$ is convex. Thus an upper bound for both folded densities on the $j$th interval is $$\begin{equation}
+\tag{3.4}
  2\max_{a\in A}\max\left\{
  \pi\left\lvert\sum_{l=j}^6P_le^{i\pi t_la}\right\rvert,\quad
  \pi^2\max_{u\in\{t_{j-1},t_j\}}
@@ -310,7 +309,7 @@ Here are direct ways to verify these estimates. The identities $$\left\lvert\lam
 \end{equation}$$ Substitution gives a value less than the displayed $M_j$ in every case. For the constant input $C=1$, the absolute folded atom masses are $$(m_0^*,\ldots,m_6^*)=(5,4,4,4,2,4,2).$$
 
 For $s\ge0$, set $$\begin{equation}
-\label{interpolation:L}
+\tag{3.5}
  \begin{aligned}
  L_j(s)&=b_{j-1}^*e^{-\pi g_js}
        \min\left\{\frac16,\frac{1}{\pi\beta_js}\right\}
@@ -318,16 +317,16 @@ For $s\ge0$, set $$\begin{equation}
  L_j^P(s)&=m_j^*b_j^*e^{-\pi g_js}
        &&(0\le j\le6).
  \end{aligned}
-\end{equation}$$ When $\beta_js=0$, the minimum in the first line is understood to be $1/6$. Integrating the exponential envelope in (interpolation:piece-envelopes) over a piece of length $1/6$ gives its factor $L_j(s)$. Differentiating the kernel contributes $(i\pi z(t))^\ell$. Consequently, for every integer $\ell\ge0$ and every input $p$ of the form (fourier:cardinal), $$\begin{equation}
-\label{interpolation:moment-bound}
+\end{equation}$$ When $\beta_js=0$, the minimum in the first line is understood to be $1/6$. Integrating the exponential envelope in (3.3) over a piece of length $1/6$ gives its factor $L_j(s)$. Differentiating the kernel contributes $(i\pi z(t))^\ell$. Consequently, for every integer $\ell\ge0$ and every input $p$ of the form (2.11), $$\begin{equation}
+\tag{3.6}
  \left\lvert K_p^{(\ell)}(s)\right\rvert
  \le w\sum_{j=1}^6 M_jL_j(s)(\pi a_{j-1}^*)^\ell
       +\left\lvert C\right\rvert\sum_{j=0}^6L_j^P(s)(\pi a_j^*)^\ell,
  \qquad s\ge0,
 \end{equation}$$ where $w=\sum_{n\in\{0\}\cup\mathcal N}(\left\lvert c_n\right\rvert+\left\lvert d_n\right\rvert)$. The argument applies first to finite lists and then to all such lists by the finite-measure representation and absolute summability.
 
-Both $Q_n$ and $D_n$ are $12$-periodic on the nodes. Moreover, $$L_j(n+12k)\le e^{-12k\pi g_j}L_j(n)\qquad(k\ge0),$$ because the minimum factor in (interpolation:L) is nonincreasing. For every real cutoff $x\ge0$, the value and derivative terms in (interpolation:S), together with (interpolation:moment-bound), therefore imply $$\begin{equation}
-\label{interpolation:row-envelope}
+Both $Q_n$ and $D_n$ are $12$-periodic on the nodes. Moreover, $$L_j(n+12k)\le e^{-12k\pi g_j}L_j(n)\qquad(k\ge0),$$ because the minimum factor in (3.5) is nonincreasing. For every real cutoff $x\ge0$, the value and derivative terms in (3.1), together with (3.6), therefore imply $$\begin{equation}
+\tag{3.7}
  \left\lVert S_{>x,*}\right\rVert
  \le
  \sum_{n\in\mathcal N\cap(x,x+12]}
@@ -336,35 +335,35 @@ Both $Q_n$ and $D_n$ are $12$-periodic on the nodes. Moreover, $$L_j(n+12k)\le e
  \frac{M_jL_j(n)}{1-e^{-12\pi g_j}}.
 \end{equation}$$ Here $>x$ means a strict inequality for the row node. This is a bound uniform over all input columns. It applies as well to a single input coefficient $c_0$ or $d_0$.
 
-For completeness, this estimate also justifies the operator definition on the whole space. Apply the bound first to one positive-node basis column, then sum with the absolute coefficients of a finitely supported list. The case $x=0$ bounds the resulting output norm by a constant times the input norm. Finite lists are dense in $X$, so this map has a unique bounded extension to $X$. The basis measures converge in total variation by Lemma 2.1; hence $K_{p_x}(n)$ and $K_{p_x}'(n)$ converge at each fixed node as the lists are truncated. The extended map therefore has exactly the coordinates in (interpolation:S), not merely the coordinates of an auxiliary matrix limit.
+For completeness, this estimate also justifies the operator definition on the whole space. Apply the bound first to one positive-node basis column, then sum with the absolute coefficients of a finitely supported list. The case $x=0$ bounds the resulting output norm by a constant times the input norm. Finite lists are dense in $X$, so this map has a unique bounded extension to $X$. The basis measures converge in total variation by Lemma 2.1; hence $K_{p_x}(n)$ and $K_{p_x}'(n)$ converge at each fixed node as the lists are truncated. The extended map therefore has exactly the coordinates in (3.1), not merely the coordinates of an auxiliary matrix limit.
 
-For $x=0,4,16,100$, respectively, the right side of (interpolation:row-envelope) is less than $$27.7,\qquad .272,\qquad .0145,\qquad 4.7\cdot10^{-10}.$$ We shall use the slightly weaker bounds $$\begin{equation}
-\label{interpolation:tails}
+For $x=0,4,16,100$, respectively, the right side of (3.7) is less than $$27.7,\qquad .272,\qquad .0145,\qquad 4.7\cdot10^{-10}.$$ We shall use the slightly weaker bounds $$\begin{equation}
+\tag{3.8}
  \left\lVert S_{>0,*}\right\rVert<28,\qquad
  \left\lVert S_{>4,*}\right\rVert<.28,\qquad
  \left\lVert S_{>16,*}\right\rVert<.015,\qquad
  \left\lVert S_{>100,*}\right\rVert<5\cdot10^{-10}.
-\end{equation}$$ For the input $C=1$, the analogue of (interpolation:row-envelope) replaces $M_jL_j$ by $L_j^P$, uses $a_j^*$ in place of $a_{j-1}^*$, and sums over $0\le j\le6$. For rows greater than $100$, it gives the bound $$\begin{equation}
-\label{interpolation:atom-tail}
+\end{equation}$$ For the input $C=1$, the analogue of (3.7) replaces $M_jL_j$ by $L_j^P$, uses $a_j^*$ in place of $a_{j-1}^*$, and sums over $0\le j\le6$. For rows greater than $100$, it gives the bound $$\begin{equation}
+\tag{3.9}
  \sum_{n\in\mathcal N,\ n>100}
  \left(\frac{\left\lvert K_P(n)\right\rvert}{Q_n}
  +\frac{\left\lvert D_nK_P(n)-K_P'(n)\right\rvert}{Q_n}\right)
  <3.2\cdot10^{-8}.
 \end{equation}$$ The scalar substitutions in these envelope estimates use only the explicit constants and the node data. Section A.6 records the finite scalar bounds and the precise coverage of their supplied verifier.
 
-*Remark 3.1* (Compactness of the interpolation operator). Let $P_M$ keep the output coordinates with node at most $M$. Then $P_MS$ has finite rank. The right side of (interpolation:row-envelope) tends to zero as $x\to\infty$: there are only six nodes in any period, the periodic $Q_n,D_n$ are uniformly bounded with $Q_n$ bounded away from zero, and every $L_j(n)$ contains the factor $e^{-\pi g_jn}$ with $g_j>0$. Thus $\left\lVert S-P_MS\right\rVert\to0$. The operator $S$ is a norm limit of finite-rank operators and is compact on $X$. This property describes the tail structure; the explicit inverse below is obtained independently from the quantitative block estimates.
+*Remark 3.1* (Compactness of the interpolation operator). Let $P_M$ keep the output coordinates with node at most $M$. Then $P_MS$ has finite rank. The right side of (3.7) tends to zero as $x\to\infty$: there are only six nodes in any period, the periodic $Q_n,D_n$ are uniformly bounded with $Q_n$ bounded away from zero, and every $L_j(n)$ contains the factor $e^{-\pi g_jn}$ with $g_j>0$. Thus $\left\lVert S-P_MS\right\rVert\to0$. The operator $S$ is a norm limit of finite-rank operators and is compact on $X$. This property describes the tail structure; the explicit inverse below is obtained independently from the quantitative block estimates.
 
 ### The finite certificates
 
-There are $51$ nodes in $I_f$ and hence $102$ scalar coordinates. The approximate lists $\widetilde x_1,\widetilde x_2$ are given by Table 2, with the indicated factor $10^{-10}$, and are zero at positive nodes beyond $100$. Append the fixed data (fourier:fixed) to obtain $\widetilde p_i$, and write $\widetilde K_i=K_{\widetilde p_i}$.
+There are $51$ nodes in $I_f$ and hence $102$ scalar coordinates. The approximate lists $\widetilde x_1,\widetilde x_2$ are given by Table 2, with the indicated factor $10^{-10}$, and are zero at positive nodes beyond $100$. Append the fixed data (2.22) to obtain $\widetilde p_i$, and write $\widetilde K_i=K_{\widetilde p_i}$.
 
 **Lemma 3.2** (Finite certificates). *For each $\eta\in\{1,-1\}$, the matrix $I-\eta D$ is invertible, and $$\begin{equation}
-\label{interpolation:finite-matrices}
+\tag{3.10}
  \left\lVert(I-\eta D)^{-1}\right\rVert<32,\qquad
  \left\lVert(I-\eta D)^{-1}S_{J,E}\right\rVert<3.7,\qquad
  \left\lVert S_{E\cap[7,16],J}\right\rVert<.09.
 \end{equation}$$ For $i=1,2$ and $n\in I_f$, the table satisfies $$\begin{equation}
-\label{interpolation:finite-residuals}
+\tag{3.11}
  \begin{split}
  \left\lvert\widetilde c_{i,n}+\frac{\widetilde K_{3-i}(n)}{Q_n}\right\rvert
  &<10^{-9},\\
@@ -374,14 +373,14 @@ There are $51$ nodes in $I_f$ and hence $102$ scalar coordinates. The approximat
  \end{split}
 \end{equation}$$ For each $i$, the norm of the tabulated list, including node zero, is less than $2.29$, and its norm on nodes greater than $40$ is less than $.00002$.*
 
-*Proof.* The primary interval calculation in Appendix A proves the exact bounds (cert:matrix-table), (cert:exterior-block), and (cert:residual-bounds), using the quadrature assertion of Lemma A.1 for the analytic moment remainder. The elementary argument in Section A.4 gives the matrix conclusions, and (cert:table-norms) gives the list norms. ◻
+*Proof.* The primary interval calculation in Appendix A proves the exact bounds (A.13), (A.14), and (A.15), using the quadrature assertion of Lemma A.1 for the analytic moment remainder. The elementary argument in Section A.4 gives the matrix conclusions, and (A.2) gives the list norms. ◻
 
 ### Inversion on the whole coefficient space
 
 We first prove an inverse bound that keeps finite and tail residuals separate.
 
 **Lemma 3.3**. *For each $\eta\in\{1,-1\}$, $I-\eta S$ has a bounded inverse on $X$. If $r=r_f+r_t$, with $r_f$ supported on $I_f$ and $r_t$ on $\mathcal N\cap(100,\infty)$, then $$\begin{equation}
-\label{interpolation:inverse-bound}
+\tag{3.12}
  \left\lVert(I-\eta S)^{-1}r\right\rVert_1
  \le91\left\lVert r_f\right\rVert_1+2540\left\lVert r_t\right\rVert_1.
 \end{equation}$$*
@@ -390,7 +389,7 @@ We first prove an inverse bound that keeps finite and tail residuals separate.
  \le\left\lVert S_{E\cap[7,16],J}\right\rVert+\left\lVert S_{E\cap(16,100],J}\right\rVert
  <.09+.015<.11.$$ Eliminating the $J$ coordinates from $(I-\eta S_{I_f,I_f})x_f=r_f$ leaves on $E$ the operator $$I-\eta S_{E,E}-LVU.$$ Its difference from the identity has norm less than $$\left\lVert S_{E,E}\right\rVert+\left\lVert L\right\rVert\left\lVert VU\right\rVert
  <.28+.11\cdot3.7=.687<1.$$ It is therefore invertible by a Neumann series. Solving this block and substituting into the $J$ equations yields an inverse $V_f$ for the whole finite compression, with $$\begin{equation}
-\label{interpolation:finite-inverse-bound}
+\tag{3.13}
  \begin{split}
  \left\lVert V_f\right\rVert
  &\le\max\left\{
@@ -401,36 +400,36 @@ We first prove an inverse bound that keeps finite and tail residuals separate.
 \end{equation}$$ Indeed, the two entries in the maximum bound the output norm arising from a unit input on $J$ and on $E$, respectively.
 
 Now write $X=X_f\oplus X_t$, where $X_t$ is the infinite tail space. The full equation $(I-\eta S)x=r$ is equivalent, after elimination of $x_f$, to $$\begin{equation}
-\label{interpolation:tail-schur}
+\tag{3.14}
  \bigl(I-\eta S_{t,t}-S_{t,f}V_fS_{f,t}\bigr)x_t
  =r_t+\eta S_{t,f}V_fr_f.
-\end{equation}$$ Put $\delta=5\cdot10^{-10}$. By (interpolation:tails), $$\left\lVert S_{t,t}\right\rVert<\delta,\qquad
+\end{equation}$$ Put $\delta=5\cdot10^{-10}$. By (3.8), $$\left\lVert S_{t,t}\right\rVert<\delta,\qquad
  \left\lVert S_{t,f}\right\rVert<\delta,\qquad
- \left\lVert S_{f,t}\right\rVert<28.$$ The operator subtracted from the identity in (interpolation:tail-schur) thus has norm less than $$\delta(1+90\cdot28)=2521\delta<1.$$ Its Neumann series converges in the bounded operators on $X_t$. Together with the finite inverse this proves invertibility on the full space $X$, without any passage to a limit of finite-section solutions. Quantitatively, $$\left\lVert x_t\right\rVert_1
+ \left\lVert S_{f,t}\right\rVert<28.$$ The operator subtracted from the identity in (3.14) thus has norm less than $$\delta(1+90\cdot28)=2521\delta<1.$$ Its Neumann series converges in the bounded operators on $X_t$. Together with the finite inverse this proves invertibility on the full space $X$, without any passage to a limit of finite-section solutions. Quantitatively, $$\left\lVert x_t\right\rVert_1
  \le\frac{\left\lVert r_t\right\rVert_1+90\delta\left\lVert r_f\right\rVert_1}{1-2521\delta},
  \qquad
- \left\lVert x_f\right\rVert_1\le90\left\lVert r_f\right\rVert_1+2520\left\lVert x_t\right\rVert_1.$$ Adding these inequalities gives coefficients less than $91$ and $2540$ for $\left\lVert r_f\right\rVert_1$ and $\left\lVert r_t\right\rVert_1$, respectively, which proves (interpolation:inverse-bound). ◻
+ \left\lVert x_f\right\rVert_1\le90\left\lVert r_f\right\rVert_1+2520\left\lVert x_t\right\rVert_1.$$ Adding these inequalities gives coefficients less than $91$ and $2540$ for $\left\lVert r_f\right\rVert_1$ and $\left\lVert r_t\right\rVert_1$, respectively, which proves (3.12). ◻
 
-**Proposition 3.4** (Exact interpolation and coefficient enclosure). *There are unique real lists $x_1,x_2\in X$ satisfying (fourier:coefficient-equations) with the fixed data (fourier:fixed). For each $i=1,2$, $$\begin{equation}
-\label{interpolation:coefficient-error}
+**Proposition 3.4** (Exact interpolation and coefficient enclosure). *There are unique real lists $x_1,x_2\in X$ satisfying (2.25) with the fixed data (2.22). For each $i=1,2$, $$\begin{equation}
+\tag{3.15}
  \sum_{n\in\mathcal N}
  \bigl(\left\lvert c_{i,n}-\widetilde c_{i,n}\right\rvert
        +\left\lvert d_{i,n}-\widetilde d_{i,n}\right\rvert\bigr)<.00003.
-\end{equation}$$ The norm of each exact list, including its node-zero coefficients, is less than $2.3$. The corresponding functions satisfy all the interpolation conditions (fourier:interpolation).*
+\end{equation}$$ The norm of each exact list, including its node-zero coefficients, is less than $2.3$. The corresponding functions satisfy all the interpolation conditions (2.24).*
 
 The uniqueness here is within the specified coefficient space, with the fixed node-zero data and constants. Triangular-shell values and first derivatives do not determine an arbitrary radial Schwartz function and its Fourier transform uniquely (Talebizadeh Sardari 2021, Theorem 1.7).
 
-*Proof.* Let $p_i^0$ denote (fourier:cardinal) with the fixed values $(C_i,c_{i,0},d_{i,0})$ and all positive-node coefficients zero. Let $e\in X$ have its $d_1$ coordinate equal to one and all other coordinates zero. Define $g_i\in X$ by $$(g_i)_{c,n}=-\frac{K_{p_{3-i}^0}(n)}{Q_n},\qquad
+*Proof.* Let $p_i^0$ denote (2.11) with the fixed values $(C_i,c_{i,0},d_{i,0})$ and all positive-node coefficients zero. Let $e\in X$ have its $d_1$ coordinate equal to one and all other coordinates zero. Define $g_i\in X$ by $$(g_i)_{c,n}=-\frac{K_{p_{3-i}^0}(n)}{Q_n},\qquad
  (g_i)_{d,n}=
  \frac{D_nK_{p_{3-i}^0}(n)-K_{p_{3-i}^0}'(n)}{Q_n}
  -\mathbf1_{\{i=1\}}e_{d,n}.$$ The estimates for the node-zero and constant columns show that these are summable lists. The equations to solve are precisely $$x_1-Sx_2=g_1,\qquad x_2-Sx_1=g_2.$$ Their sum is an equation for $I-S$, and their difference is an equation for $I+S$. Lemma 3.3 gives unique real solutions and hence unique $x_1,x_2$.
 
-It remains to locate these solutions relative to the table. Set $$\rho_i=\widetilde x_i-S\widetilde x_{3-i}-g_i.$$ There are $102$ scalar coordinates in $I_f$, so (interpolation:finite-residuals) gives $$\left\lVert(\rho_i)_f\right\rVert_1<1.1\cdot10^{-7}=:R_f.$$ On the tail, both the tabulated positive-node list and the vector $e$ vanish. The density-column estimate, now including node zero, and (interpolation:atom-tail) imply $$\left\lVert(\rho_i)_t\right\rVert_1
+It remains to locate these solutions relative to the table. Set $$\rho_i=\widetilde x_i-S\widetilde x_{3-i}-g_i.$$ There are $102$ scalar coordinates in $I_f$, so (3.11) gives $$\left\lVert(\rho_i)_f\right\rVert_1<1.1\cdot10^{-7}=:R_f.$$ On the tail, both the tabulated positive-node list and the vector $e$ vanish. The density-column estimate, now including node zero, and (3.9) imply $$\left\lVert(\rho_i)_t\right\rVert_1
  <2.29\cdot5\cdot10^{-10}+.017\cdot3.2\cdot10^{-8}=:R_t.$$ Here $2.29$ bounds the whole tabulated coefficient list, and $.017$ bounds both fixed constants in absolute value.
 
-The errors $x_i-\widetilde x_i$ are recovered by taking half the sum and half the difference of the solutions with residuals $-(\rho_1+\rho_2)$ and $-(\rho_1-\rho_2)$. Applying (interpolation:inverse-bound) to both gives, for each list, $$\left\lVert x_i-\widetilde x_i\right\rVert_1
+The errors $x_i-\widetilde x_i$ are recovered by taking half the sum and half the difference of the solutions with residuals $-(\rho_1+\rho_2)$ and $-(\rho_1-\rho_2)$. Applying (3.12) to both gives, for each list, $$\left\lVert x_i-\widetilde x_i\right\rVert_1
  \le2(91R_f+2540R_t)
- =.00002860012<.00003.$$ This proves (interpolation:coefficient-error). Since the fixed node-zero coefficients agree, the total exact coefficient norm is less than $2.29+.00003<2.3$. Finally, (fourier:coefficient-equations) is equivalent to (fourier:interpolation) by Lemma 2.4. ◻
+ =.00002860012<.00003.$$ This proves (3.15). Since the fixed node-zero coefficients agree, the total exact coefficient norm is less than $2.29+.00003<2.3$. Finally, (2.25) is equivalent to (2.24) by Lemma 2.4. ◻
 
 ## Global signs
 
@@ -448,7 +447,6 @@ Fix one of the specified triples $(i,m,y)$. For $s=m+u$ in its interval, we will
 (14,2.35) (0,1.2)(1,0)13.4 (13.6,1.05)$s$ (0,1.2) (1,1.2) (3,1.2) (4,1.2) (7,1.2) (9,1.2) (12,1.2) (13,1.2) (0,.65)(0,0)$0$ (1,.65)(0,0)$1$ (3,.65)(0,0)$3$ (4,.65)(0,0)$4$ (7,.65)(0,0)$7$ (9,.65)(0,0)$9$ (12,.65)(0,0)$12$ (13,.65)(0,0)$13$ (.5,1.05)(0,1).3 (2,1.05)(0,1).3 (3.5,1.05)(0,1).3 (5.5,1.05)(0,1).3 (8,1.05)(0,1).3 (10.5,1.05)(0,1).3 (12.5,1.05)(0,1).3 (4,1.8)(1,0)1.5 (4,1.65)(0,1).3 (5.5,1.65)(0,1).3 (6,1.8)(0,0)\[l\]one half-gap
 
 The tabulated function $\widetilde H_i$ approximates $H_i$ but need not reproduce its exact zero and slope at a node. We therefore compare the exact quotient with the Taylor series of $\widetilde H_i$ after deleting the terms of orders below $\nu$. Put $\Delta_i=H_i-\widetilde H_i$. Since $\widetilde H_i$ is entire and the lower derivatives of $H_i$ vanish, this Taylor series gives $$\begin{align}
-\label{signs:deleted-jets}
  &\frac{\sigma_i H_i(m+u)}{u^\nu}
  -\sigma_i\sum_{r=0}^{\infty}
        \frac{\widetilde H_i^{(r+\nu)}(m)}{(r+\nu)!}u^r
@@ -456,25 +454,25 @@ The tabulated function $\widetilde H_i$ approximates $H_i$ but need not reproduc
  &\hspace{1cm}=
  \frac{\sigma_i}{u^\nu}
  \left(\Delta_i(m+u)-
-       \sum_{j=0}^{\nu-1}\frac{\Delta_i^{(j)}(m)}{j!}u^j\right).
+       \sum_{j=0}^{\nu-1}\frac{\Delta_i^{(j)}(m)}{j!}u^j\right).\tag{4.1}
 \end{align}$$ For $\nu=0$, the sum on the second line is empty and the right-hand side is simply $\sigma_i\Delta_i(m+u)$. For $\nu>0$, Taylor’s integral remainder gives the exact identity $$\frac{\Delta_i(m+u)-\sum_{j=0}^{\nu-1}
              \Delta_i^{(j)}(m)u^j/j!}{u^\nu}
  =\frac{1}{(\nu-1)!}\int_0^1(1-t)^{\nu-1}
-                \Delta_i^{(\nu)}(m+tu)\,\mathop{}\!\mathrm dt.$$ It holds for either sign of $u$ and extends continuously to $u=0$. Since $m+tu$ stays in the same half-gap, the absolute value of the right-hand side of (signs:deleted-jets) is at most $$\begin{equation}
-\label{signs:coefficient-error}
+                \Delta_i^{(\nu)}(m+tu)\,\mathop{}\!\mathrm dt.$$ It holds for either sign of $u$ and extends continuously to $u=0$. Since $m+tu$ stays in the same half-gap, the absolute value of the right-hand side of (4.1) is at most $$\begin{equation}
+\tag{4.2}
   \frac{1}{\nu!}\sup_{s\in I_{m,y}}
        \left\lvert\Delta_i^{(\nu)}(s)\right\rvert.
 \end{equation}$$ The same bound applies at $u=0$ by continuity and for either orientation of the half-gap. Deleting the lower Taylor terms is essential here: dividing the raw table error by $u^\nu$ could be singular at the node.
 
-After writing $u=yv$, the first $29$ terms of the tabulated series in (signs:deleted-jets) form a polynomial of degree at most $28$ in $v$. We bound it on $[0,1]$ using the standard range enclosure by Bernstein coefficients (Titi and Garloff 2019, sec. 3), retaining its elementary proof below.
+After writing $u=yv$, the first $29$ terms of the tabulated series in (4.1) form a polynomial of degree at most $28$ in $v$. We bound it on $[0,1]$ using the standard range enclosure by Bernstein coefficients (Titi and Garloff 2019, sec. 3), retaining its elementary proof below.
 
 **Lemma 4.1** (Finite Bernstein certificate). *For every specified triple $(i,m,y)$, put $$\begin{equation}
-\label{signs:power-coefficients}
+\tag{4.3}
   T_r=\sigma_i y^r
        \frac{\widetilde H_i^{(r+\nu)}(m)}{(r+\nu)!},
   \qquad 0\le r\le28.
 \end{equation}$$ Then, for $0\le k\le28$, $$\begin{equation}
-\label{signs:bernstein-bound}
+\tag{4.4}
   B_k:=\sum_{r=0}^k
        \frac{\binom{k}{r}}{\binom{28}{r}}T_r
   >\begin{cases}
@@ -485,27 +483,27 @@ After writing $u=yv$, the first $29$ terms of the tabulated series in (signs:del
     \end{cases}
 \end{equation}$$*
 
-*Proof.* The primary interval calculation in Appendix A encloses the exact derivatives of the tabulated functions in (signs:power-coefficients), using the quadrature assertion of Lemma A.1 for the analytic moment remainder. Its exact grouped bounds (cert:bernstein-table) imply the stated thresholds. ◻
+*Proof.* The primary interval calculation in Appendix A encloses the exact derivatives of the tabulated functions in (4.3), using the quadrature assertion of Lemma A.1 for the analytic moment remainder. Its exact grouped bounds (A.16) imply the stated thresholds. ◻
 
 The relevance of this finite statement is the identity $$\begin{equation}
-\label{signs:bernstein-identity}
+\tag{4.5}
   \sum_{r=0}^{28}T_r v^r
   =\sum_{k=0}^{28} B_k\binom{28}{k}v^k(1-v)^{28-k}.
 \end{equation}$$ Indeed, for $0\le r\le k\le d=28$, the binomial identity $$\frac{\binom{k}{r}}{\binom{d}{r}}\binom{d}{k}
  =\binom{d-r}{k-r}$$ gives $$\sum_{k=r}^{d}\frac{\binom{k}{r}}{\binom{d}{r}}
        \binom{d}{k}v^k(1-v)^{d-k}
- =v^r\sum_{l=0}^{d-r}\binom{d-r}{l}v^l(1-v)^{d-r-l}=v^r.$$ Multiply by $T_r$, sum over $r$, and interchange the two finite sums to obtain (signs:bernstein-identity). For $0\le v\le1$, the basis functions on the right are nonnegative and sum to one. Hence the lower bounds in (signs:bernstein-bound) hold on the whole interval for the polynomial on the left. To obtain a lower bound for the exact quotient, it remains to control the coefficient error in (signs:coefficient-error) and the terms beyond degree $28$ in the tabulated series.
+ =v^r\sum_{l=0}^{d-r}\binom{d-r}{l}v^l(1-v)^{d-r-l}=v^r.$$ Multiply by $T_r$, sum over $r$, and interchange the two finite sums to obtain (4.5). For $0\le v\le1$, the basis functions on the right are nonnegative and sum to one. Hence the lower bounds in (4.4) hold on the whole interval for the polynomial on the left. To obtain a lower bound for the exact quotient, it remains to control the coefficient error in (4.2) and the terms beyond degree $28$ in the tabulated series.
 
 ### Bounds for the two errors
 
-The density bounds and (interpolation:moment-bound), together with the separate coefficient error bounds $\delta$ for the two functions, give, for $s\ge s_*\ge0$, $$\begin{equation}
-\label{signs:perturbation-envelope}
+The density bounds and (3.6), together with the separate coefficient error bounds $\delta$ for the two functions, give, for $s\ge s_*\ge0$, $$\begin{equation}
+\tag{4.6}
  \left\lvert\Delta_i^{(\nu)}(s)\right\rvert
  \le \delta\sum_{j=1}^6 M_j
        \left(\frac{(\pi t_j)^\nu}{6}
             +L_j(s_*)(\pi a_{j-1}^*)^\nu\right).
-\end{equation}$$ There are no atom contributions because the constants $C_i$ have not changed. Substitution of the envelopes proves the following uniform bounds for (signs:coefficient-error): $$\begin{equation}
-\label{signs:perturbation-caps}
+\end{equation}$$ There are no atom contributions because the constants $C_i$ have not changed. Substitution of the envelopes proves the following uniform bounds for (4.2): $$\begin{equation}
+\tag{4.7}
  \frac{1}{\nu!}\sup_{I_{m,y}}\left\lvert\Delta_i^{(\nu)}\right\rvert
  <\begin{cases}
     0.004,&m=0,\\
@@ -514,9 +512,8 @@ The density bounds and (interpolation:moment-bound), together with the separate 
    \end{cases}
 \end{equation}$$ Here one uses $s_*=0$ for $m=0$, $s_*=1/2$ for $m=1$ and both possible orders, and $s_*=2$ for $m\ge3$. For example the first bound is $\delta\sum_{j=1}^6(M_j/6+M_jL_j(0))<0.004$. All these are bounds on intervals, obtained from the derivative envelopes.
 
-It remains to truncate the infinite series in (signs:deleted-jets). Put $Y=\left\lvert y\right\rvert$ and $q=29+\nu$. The total variation of the direct spectral measure of either tabulated function is less than $80$, since $$2.29\sum_{j=1}^6\frac{M_j}{6}
+It remains to truncate the infinite series in (4.1). Put $Y=\left\lvert y\right\rvert$ and $q=29+\nu$. The total variation of the direct spectral measure of either tabulated function is less than $80$, since $$2.29\sum_{j=1}^6\frac{M_j}{6}
        +0.017\sum_{j=0}^6 m_j^*<80.$$ For the transformed part, use coefficient norm less than $2.3$ and $\left\lvert C_i\right\rvert\le0.017$. Expanding each spectral exponential at $m$ gives the following bound for the omitted quotient terms: $$\begin{align}
-\label{signs:taylor-bound}
  \mathcal E(m,Y,\nu)
  := {}&\frac{Y^{-\nu}}{q!}
        \frac{1}{1-\pi a_0^*Y/(q+1)}
@@ -525,17 +522,17 @@ It remains to truncate the infinite series in (signs:deleted-jets). Put $Y=\left
  &\qquad+2.3\sum_{j=1}^6
        M_jL_j(m)(\pi a_{j-1}^*Y)^q
        +0.017\sum_{j=0}^6
-       L_j^P(m)(\pi a_j^*Y)^q\Bigg).
-\end{align}$$ Indeed the first omitted exponential term has degree $q$ and subsequent absolute-value ratios are at most $\pi a_0^*Y/(q+1)<1$. After division by $u^\nu$, all powers still have degree at least $29$, so their maximum for $\left\lvert u\right\rvert\le Y$ is bounded by evaluating these absolute-value majorants at $Y$. This proves (signs:taylor-bound) also when $y<0$.
+       L_j^P(m)(\pi a_j^*Y)^q\Bigg).\tag{4.8}
+\end{align}$$ Indeed the first omitted exponential term has degree $q$ and subsequent absolute-value ratios are at most $\pi a_0^*Y/(q+1)<1$. After division by $u^\nu$, all powers still have degree at least $29$, so their maximum for $\left\lvert u\right\rvert\le Y$ is bounded by evaluating these absolute-value majorants at $Y$. This proves (4.8) also when $y<0$.
 
 The five representative substitutions are $$\begin{equation}
-\label{signs:taylor-representatives}
+\tag{4.9}
  (m,Y,\nu)=(0,\tfrac12,0),\ (1,1,1),\ (1,1,2),\ (3,1,2),\
            (4,\tfrac32,2).
-\end{equation}$$ In each case (signs:taylor-bound) is less than $0.001$. Increasing $m$ or decreasing $Y$ only decreases the bound. The first three cases handle centers $0$ and $1$, the fourth handles $m=3$, and the last handles every center $m\ge4$. Thus the truncation error is less than $0.001$ on every required half-gap.
+\end{equation}$$ In each case (4.8) is less than $0.001$. Increasing $m$ or decreasing $Y$ only decreases the bound. The first three cases handle centers $0$ and $1$, the fourth handles $m=3$, and the last handles every center $m\ge4$. Thus the truncation error is less than $0.001$ on every required half-gap.
 
-Combining (signs:bernstein-identity), (signs:deleted-jets), (signs:perturbation-caps), and (signs:taylor-bound), we obtain $$\begin{equation}
-\label{signs:finite-quotient}
+Combining (4.5), (4.1), (4.7), and (4.8), we obtain $$\begin{equation}
+\tag{4.10}
   \frac{\sigma_i H_i(s)}{(s-m)^\nu}
   >\begin{cases}
      0.735,&m=0,\\
@@ -549,7 +546,7 @@ Combining (signs:bernstein-identity), (signs:deleted-jets), (signs:perturbation-
 ### The unbounded region
 
 For $s\ge s_0:=41.5$, split the exact direct part as $$\begin{equation}
-\label{signs:tail-split}
+\tag{4.11}
  \begin{aligned}
  p_i(s)&=P(s)R_{i,0}(s)+p_{i,1}(s),\\
  R_{i,0}(s)&=C_i+
@@ -563,31 +560,30 @@ For $s\ge s_0:=41.5$, split the exact direct part as $$\begin{equation}
 \end{equation}$$ Here $p_{i,1}$ is the cardinal contribution from exact coefficients at nodes greater than $40$. The function $R_{i,0}$ uses the exact coefficients, whereas $\widetilde R_{i,0}$ uses the finite table; their constants and node-zero coefficients agree. All denominators in these two rational functions are at least $1.5$. Write the corresponding decomposition of the exact function as $$E_i:=p_{i,1}+K_{p_{3-i}},\qquad H_i=P R_{i,0}+E_i.$$ For each $s\ge s_0$, the final comparison will use a nearest node $m\ge43$. At such a node, the exact interpolation conditions and the double zero of $P$ make $E_i$ have zero value and slope; we verify this at the comparison step below. The useful scale for both terms is therefore $(s-m)^2$. We will bound $\sigma_iR_{i,0}$ below, bound $P(s)$ below by a multiple of $(s-m)^2$, and bound $|E_i(s)|$ above at the same scale through a uniform second-derivative estimate.
 
 We first show $$\begin{equation}
-\label{signs:rational-tail}
+\tag{4.12}
   \sigma_i R_{i,0}(s)>0.011\qquad(s\ge s_0,\ i=1,2).
 \end{equation}$$ For the tabulated coefficients put $u_n^*=\sigma_i\widetilde c_{i,n}$, $v_n^*=\sigma_i\widetilde d_{i,n}$, and $[w]_-:=\min\{w,0\}$. Using $$\frac{1}{s-n}=\frac1s+\frac{n}{s(s-n)}$$ and discarding positive terms gives the following lower bound for $\sigma_i\widetilde R_{i,0}(s)$, uniformly for $s\ge s_0$: $$\begin{equation}
-\label{signs:rational-lower-sum}
+\tag{4.13}
  \sigma_i C_i+
  \frac{[\sum_{n\le40}v_n^*]_-}{s_0}
  +\sum_{n\le40}
     \left(\frac{[u_n^*]_-}{(s_0-n)^2}
           +\frac{[v_n^*]_-n}{s_0(s_0-n)}\right),
-\end{equation}$$ where both sums include $n=0$. Each negative reciprocal term is smallest at $s=s_0$. The exact rational sums in (signs:rational-lower-sum) exceed $0.012$ for index $1$ and $0.016$ for index $2$. To pass to the exact rational part, use $s-n\ge1.5>1$ and the coefficient enclosure to obtain $$\begin{split}
+\end{equation}$$ where both sums include $n=0$. Each negative reciprocal term is smallest at $s=s_0$. The exact rational sums in (4.13) exceed $0.012$ for index $1$ and $0.016$ for index $2$. To pass to the exact rational part, use $s-n\ge1.5>1$ and the coefficient enclosure to obtain $$\begin{split}
  \left\lvert R_{i,0}(s)-\widetilde R_{i,0}(s)\right\rvert
  &\le\sum_{n\le40}\left(
    \frac{\left\lvert c_{i,n}-\widetilde c_{i,n}\right\rvert}{(s-n)^2}
   +\frac{\left\lvert d_{i,n}-\widetilde d_{i,n}\right\rvert}{s-n}\right)\\
  &<\frac{\delta}{s_0-40}=0.00002.
- \end{split}$$ The finite lower sums therefore imply the asserted exact bound (signs:rational-tail).
+ \end{split}$$ The finite lower sums therefore imply the asserted exact bound (4.12).
 
 The coefficient norm of the tabulated part with $n>40$ is less than $0.00002$ for either function. Hence the exact coefficient norm for $p_{i,1}$ is less than $0.00005$. The derivative envelopes imply $$\begin{align}
-\label{signs:tail-second-derivative}
  \sup_{s\ge s_0}\left\lvert E_i''(s)\right\rvert
  \le {}&0.00005\cdot77
        +2.3\sum_{j=1}^6 M_jL_j(s_0)(\pi a_{j-1}^*)^2
  \nonumber\\
        &+0.017\sum_{j=0}^6 L_j^P(s_0)(\pi a_j^*)^2
-       <0.006.
+       <0.006.\tag{4.14}
 \end{align}$$ For the direct part we used $\sum_{j=1}^6 M_j(\pi t_j)^2/6<77$; for the transformed part we used the all-node coefficient norm less than $2.3$ from Proposition 3.4.
 
 It remains to give the quadratic lower bound for $P$.
@@ -607,23 +603,23 @@ It remains to give the quadratic lower bound for $P$.
 
 The distances to the two ends of a gap agree at its midpoint, so this table supplies the endpoint value for both half-gaps. The smallest value is $12-8\sqrt2>0.68$: indeed $(283/200)^2>2$, so $\sqrt2<283/200$ and $12-8(283/200)=0.68$. The other three values are at least $1$. This proves the claim. ◻
 
-For any $s\ge41.5$, choose a nearest node $m\ge43$; at $s=41.5$, choose $43$ rather than the tied node $40$. Both $H_i$ and $P R_{i,0}$ vanish to order at least two at $m$, by (fourier:interpolation) and the absence of a pole of $R_{i,0}$ there. Thus $E_i=H_i-P R_{i,0}$ vanishes to order at least two at $m$. The segment between $s$ and $m$ lies in $[41.5,\infty)$, and (signs:tail-second-derivative) gives $$\left\lvert E_i(s)\right\rvert\le\frac{0.006}{2}(s-m)^2.$$ Using (signs:rational-tail) and Lemma 4.2, we obtain on the entire unbounded region $$\begin{equation}
-\label{signs:tail-margin}
+For any $s\ge41.5$, choose a nearest node $m\ge43$; at $s=41.5$, choose $43$ rather than the tied node $40$. Both $H_i$ and $P R_{i,0}$ vanish to order at least two at $m$, by (2.24) and the absence of a pole of $R_{i,0}$ there. Thus $E_i=H_i-P R_{i,0}$ vanishes to order at least two at $m$. The segment between $s$ and $m$ lies in $[41.5,\infty)$, and (4.14) gives $$\left\lvert E_i(s)\right\rvert\le\frac{0.006}{2}(s-m)^2.$$ Using (4.12) and Lemma 4.2, we obtain on the entire unbounded region $$\begin{equation}
+\tag{4.15}
  \sigma_iH_i(s)
  \ge\left(0.011\cdot0.68-\frac{0.006}{2}\right)(s-m)^2
  =0.00448(s-m)^2\ge0.
 \end{equation}$$
 
 **Proposition 4.3** (Global signs and zeros). *The exact functions have the zero sets $$\begin{equation}
-\label{signs:zero-sets}
+\tag{4.16}
  \{s\ge1:H_1(s)=0\}=\mathcal N,\qquad
  \{s\ge0:H_2(s)=0\}=\mathcal N,
 \end{equation}$$ and satisfy the strict inequalities $$H_1(s)<0\quad(s\ge1,\ s\notin\mathcal N),\qquad
  H_2(s)>0\quad(s\ge0,\ s\notin\mathcal N).$$ The zero of $H_1$ at $1$ is simple. Its zeros at $n\in\mathcal N$ with $n>1$, and the zeros of $H_2$ at every $n\in\mathcal N$, have order exactly two as zeros of the entire functions of $s$. Consequently $F(x)\le0$ when $b\left\lvert x\right\rvert^2\ge1$, and $\widehat F(\xi)\ge0$ for every $\xi\in\mathbb R^2$.*
 
-*Proof.* At every node $n\in\mathcal N$, the exact interpolation conditions give $H_1(n)=H_2(n)=0$. Away from the nodes, the quotient bounds (signs:finite-quotient) are strict on the finite region, and (signs:tail-margin) is strict on the remaining region. This proves (signs:zero-sets) and the asserted strict signs.
+*Proof.* At every node $n\in\mathcal N$, the exact interpolation conditions give $H_1(n)=H_2(n)=0$. Away from the nodes, the quotient bounds (4.10) are strict on the finite region, and (4.15) is strict on the remaining region. This proves (4.16) and the asserted strict signs.
 
-The interpolation slope $H_1'(1)=-Q_1\ne0$ makes its zero at $1$ simple. For $H_2$ at every node in $\mathcal N\cap[1,40]$, and for $H_1$ at those nodes greater than $1$, the chosen order is $\nu=2$. The endpoint value in (signs:finite-quotient) is then $\sigma_iH_i''(m)/2>0$, so the zero has order exactly two. For a node $m\in\mathcal N$ with $m\ge43$, take $u$ sufficiently small that $m$ remains the nearest node to $m+u$ and $m+u\ge41.5$. The exact value and first derivative at $m$ vanish, so (signs:tail-margin) yields $$\frac{\sigma_iH_i''(m)}2
+The interpolation slope $H_1'(1)=-Q_1\ne0$ makes its zero at $1$ simple. For $H_2$ at every node in $\mathcal N\cap[1,40]$, and for $H_1$ at those nodes greater than $1$, the chosen order is $\nu=2$. The endpoint value in (4.10) is then $\sigma_iH_i''(m)/2>0$, so the zero has order exactly two. For a node $m\in\mathcal N$ with $m\ge43$, take $u$ sufficiently small that $m$ remains the nearest node to $m+u$ and $m+u\ge41.5$. The exact value and first derivative at $m$ vanish, so (4.15) yields $$\frac{\sigma_iH_i''(m)}2
  =\lim_{u\to0}\frac{\sigma_iH_i(m+u)}{u^2}
  \ge0.00448>0.$$ These zeros also have order exactly two. Finally, the factors $e^{-\pi h s}$ in $F$ and $\widehat F$ are positive, which gives their non-strict sign inequalities. ◻
 
@@ -632,7 +628,7 @@ The interpolation slope $H_1'(1)=-Q_1\ne0$ makes its zero at $1$ simple. For $H_
 The prescribed first-shell derivative determines the remaining scalar normalization. Poisson summation first equates the values at the origin; its differentiated dilation identity then proves that their common value is positive, without estimating that value numerically.
 
 Let the exact coefficient lists be those of Proposition 3.4, and put $$G_i(s)=e^{-\pi hs}H_i(s),\qquad F(x)=G_1(b|x|^2).$$ Section 2 proves that $F$ is real, radial, and Schwartz, with $\widehat F(\xi)=G_2(b|\xi|^2)$. The interpolation conditions give $$\begin{equation}
-\label{normalization:jets}
+\tag{5.1}
  \begin{split}
  G_1(n)&=G_2(n)=0,\\
  G_2'(n)&=0,\qquad
@@ -643,42 +639,42 @@ Let the exact coefficient lists be those of Proposition 3.4, and put $$G_i(s)=e
 
 ### The dilation identity
 
-Use the lattice $\Lambda$ of covolume one and the shell coordinate $s_a$ from (fourier:lattice)–(fourier:shell-coordinate). Every positive $s_a$ lies in $\mathcal N$. Exactly six lattice vectors have $s_a=1$: from $4(j^2+jk+k^2)=(2j+k)^2+3k^2=4$, one obtains $$(j,k)=(1,0),\ (-1,0),\ (0,1),\ (0,-1),\ (1,-1),\ (-1,1).$$
+Use the lattice $\Lambda$ of covolume one and the shell coordinate $s_a$ from (2.2)–(2.3). Every positive $s_a$ lies in $\mathcal N$. Exactly six lattice vectors have $s_a=1$: from $4(j^2+jk+k^2)=(2j+k)^2+3k^2=4$, one obtains $$(j,k)=(1,0),\ (-1,0),\ (0,1),\ (0,-1),\ (1,-1),\ (-1,1).$$
 
 As shown in Section 2, $\Lambda^*=\mathcal R\Lambda$. Apply Poisson summation on $\Lambda$ to $F_t(x)=F(\sqrt t\,x)$, whose Fourier transform is $t^{-1}\widehat F(\xi/\sqrt t)$. Radiality makes the sums over $\Lambda^*$ and $\Lambda$ equal, and gives, for every $t>0$, $$\begin{equation}
-\label{normalization:poisson}
+\tag{5.2}
  \sum_{a\in\Lambda}G_1(ts_a)
  =\frac1t\sum_{a\in\Lambda}G_2(s_a/t).
 \end{equation}$$
 
-We will differentiate this identity twice. Here is the needed convergence justification. On a compact subinterval of $(0,\infty)$, each of the first two $t$ derivatives of $F(\sqrt t\,x)$ is a finite sum of spatial derivatives of $F$ multiplied by polynomials in $x$ and bounded functions of $t$. The same statement holds for $t^{-1}\widehat F(x/\sqrt t)$. The Schwartz bounds therefore imply, for every $M$, a common bound $C_M(1+|x|)^{-M}$ for these functions and their first two $t$ derivatives. The number of points of a fixed planar lattice in a radius-$R$ disk is $O(R^2)$, so $\sum_{a\in\Lambda}(1+|a|)^{-M}$ converges for $M>2$. Uniform convergence on compact $t$ intervals now permits both termwise differentiations of (normalization:poisson).
+We will differentiate this identity twice. Here is the needed convergence justification. On a compact subinterval of $(0,\infty)$, each of the first two $t$ derivatives of $F(\sqrt t\,x)$ is a finite sum of spatial derivatives of $F$ multiplied by polynomials in $x$ and bounded functions of $t$. The same statement holds for $t^{-1}\widehat F(x/\sqrt t)$. The Schwartz bounds therefore imply, for every $M$, a common bound $C_M(1+|x|)^{-M}$ for these functions and their first two $t$ derivatives. The number of points of a fixed planar lattice in a radius-$R$ disk is $O(R^2)$, so $\sum_{a\in\Lambda}(1+|a|)^{-M}$ converges for $M>2$. Uniform convergence on compact $t$ intervals now permits both termwise differentiations of (5.2).
 
 **Lemma 5.1** (Exact origin value). *The Fourier pair constructed above satisfies $$\begin{equation}
-\label{normalization:origin}
+\tag{5.3}
  F(0)=\widehat F(0)=6Q_1e^{-\pi h}>0.
 \end{equation}$$*
 
-*Proof.* At $t=1$, all nonzero summands in (normalization:poisson) vanish by (normalization:jets). Hence $G_1(0)=G_2(0)$. The derivative of its left side at $1$ is $$\sum_{a\in\Lambda}s_aG_1'(s_a)=-6Q_1e^{-\pi h},$$ because only the six vectors on the first shell contribute. On the right, $$\left.\frac{\mathop{}\!\mathrm d}{\mathop{}\!\mathrm dt}\left(t^{-1}G_2(s/t)\right)\right|_{t=1}
- =-G_2(s)-sG_2'(s).$$ For $s=s_a>0$, both terms vanish by the exact jets, while $s_a=0$ contributes $-G_2(0)$. Equality of the derivatives gives $G_2(0)=6Q_1e^{-\pi h}$. The positivity follows from $Q_1>0$ in (fourier:node-bounds). This calculation uses the Fourier pairing and the exact interpolation conditions, but not the global sign estimates. ◻
+*Proof.* At $t=1$, all nonzero summands in (5.2) vanish by (5.1). Hence $G_1(0)=G_2(0)$. The derivative of its left side at $1$ is $$\sum_{a\in\Lambda}s_aG_1'(s_a)=-6Q_1e^{-\pi h},$$ because only the six vectors on the first shell contribute. On the right, $$\left.\frac{\mathop{}\!\mathrm d}{\mathop{}\!\mathrm dt}\left(t^{-1}G_2(s/t)\right)\right|_{t=1}
+ =-G_2(s)-sG_2'(s).$$ For $s=s_a>0$, both terms vanish by the exact jets, while $s_a=0$ contributes $-G_2(0)$. Equality of the derivatives gives $G_2(0)=6Q_1e^{-\pi h}$. The positivity follows from $Q_1>0$ in (2.9). This calculation uses the Fourier pairing and the exact interpolation conditions, but not the global sign estimates. ◻
 
 ### The final dilation
 
 *Proof of Theorem 1.1.* Define $$\begin{equation}
-\label{normalization:scaling}
+\tag{5.4}
  f(x)=\frac{F(x/\sqrt b)}{bF(0)},\qquad
  \widehat f(\xi)=\frac{\widehat F(\sqrt b\,\xi)}{F(0)}.
-\end{equation}$$ The second identity is the two-dimensional Fourier scaling rule. Since $F(0)>0$, the dilation and normalization preserve real-valuedness, radiality, and Schwartz regularity. They give $\widehat f(0)=1$ and $f(0)=1/b=2/\sqrt3$. By Proposition 4.3 and the positive factor $e^{-\pi hs}$, $G_2(s)=e^{-\pi hs}H_2(s)\ge0$ for $s\ge0$ and $G_1(s)=e^{-\pi hs}H_1(s)\le0$ for $s\ge1$. Thus $\widehat f\ge0$ everywhere. If $|x|\ge1$, then $b|x/\sqrt b|^2=|x|^2\ge1$, so $f(x)\le0$. These are exactly the four assertions of (intro:conditions). ◻
+\end{equation}$$ The second identity is the two-dimensional Fourier scaling rule. Since $F(0)>0$, the dilation and normalization preserve real-valuedness, radiality, and Schwartz regularity. They give $\widehat f(0)=1$ and $f(0)=1/b=2/\sqrt3$. By Proposition 4.3 and the positive factor $e^{-\pi hs}$, $G_2(s)=e^{-\pi hs}H_2(s)\ge0$ for $s\ge0$ and $G_1(s)=e^{-\pi hs}H_1(s)\le0$ for $s\ge1$. Thus $\widehat f\ge0$ everywhere. If $|x|\ge1$, then $b|x/\sqrt b|^2=|x|^2\ge1$, so $f(x)\le0$. These are exactly the four assertions of (1.1). ◻
 
 The scaling also records the prescribed contact data in the final radial coordinates. Write $f_{\mathrm{rad}}(r)=f(r,0)$ and $\widehat f_{\mathrm{rad}}(\rho)=\widehat f(\rho,0)$ for $r,\rho\ge0$. Then $$f_{\mathrm{rad}}(r)=\frac{G_1(r^2)}{bF(0)},\qquad
  \widehat f_{\mathrm{rad}}(\rho)=\frac{G_2(b^2\rho^2)}{F(0)}.$$ Proposition 4.3 therefore gives the exact zero sets in the respective sign domains: $$\begin{equation}
-\label{normalization:zero-sets}
+\tag{5.5}
  \begin{aligned}
  \{r^2:r\ge1,\ f_{\mathrm{rad}}(r)=0\}&=\mathcal N,\\
  \{\rho^2:\rho\ge0,\ \widehat f_{\mathrm{rad}}(\rho)=0\}
    &=b^{-2}\mathcal N=\frac43\mathcal N.
  \end{aligned}
 \end{equation}$$ The physical zero at $r=1$ is simple, every other listed physical zero is exactly double, and every listed Fourier zero is exactly double. Indeed, the Gaussian and scalar factors do not vanish, while the changes of variable $s=r^2$ and $s=b^2\rho^2$ have nonzero derivatives at these positive radii, so they preserve the orders established for $H_1,H_2$. At the exclusion radius, the radial derivative is $$\begin{equation}
-\label{normalization:radial-slope}
+\tag{5.6}
  f_{\mathrm{rad}}'(1)
  =\frac{2G_1'(1)}{bF(0)}=-\frac{1}{3b}=-\frac{2}{3\sqrt3}.
 \end{equation}$$
@@ -698,7 +694,7 @@ The restriction of the physical zero set to integer squared radii also recovers 
 *Proof.* Write the center set as $\mathcal C=\bigcup_{j=1}^N(L+t_j)$, with the notation of the periodic packing argument above. Equality of its density with $\pi/(2\sqrt3)$ gives $N/V=f(0)/\widehat f(0)$. Thus both inequalities in the Poisson comparison are equalities. Absolute convergence permits us to write the defect in the physical inequality as $$0=Nf(0)-\mathcal S
  =\sum_{\substack{1\le j,k\le N,\ v\in L\\
                    v\ne0\ \text{or}\ j\ne k}}
-       -f(v+t_j-t_k).$$ Every summand is nonnegative, so every one is zero. Any difference of distinct centers occurs in this sum, and (normalization:zero-sets) therefore gives $$|x-y|^2\in\mathcal N\subset\mathbb Z
+       -f(v+t_j-t_k).$$ Every summand is nonnegative, so every one is zero. Any difference of distinct centers occurs in this sum, and (5.5) therefore gives $$|x-y|^2\in\mathcal N\subset\mathbb Z
  \qquad(x,y\in\mathcal C,\ x\ne y).$$ Only the physical zero set is used here.
 
 Translate one center to the origin and dilate by $\sqrt2$. Put $$L_0=\sqrt2\,L,\qquad
@@ -718,19 +714,19 @@ It remains to identify this lattice of Gram determinant $3$. Choose a shortest n
 The same dilation identity contains an additional relation among the exact curvatures. It is not needed for the construction or its sign proof. For $n\in\mathcal N$, let $r_\Lambda(n)=\#\{a\in\Lambda:s_a=n\}$, allowing the value zero for nodes that are not lattice radii; in particular, $r_\Lambda(1)=6$.
 
 **Proposition 5.3** (Second differentiated Poisson identity). *The exact pair satisfies the absolutely convergent identity $$\begin{equation}
-\label{normalization:curvature-identity}
+\tag{5.7}
  \sum_{n\in\mathcal N}r_\Lambda(n)n^2
        \bigl(G_1''(n)-G_2''(n)\bigr)=2G_2(0).
 \end{equation}$$ Using the global signs, it follows that $$\begin{equation}
-\label{normalization:curvature-inequality}
+\tag{5.8}
  H_1''(1)-H_2''(1)\ge2(1-\pi h)Q_1.
 \end{equation}$$*
 
-*Proof.* The convergence argument above permits a second differentiation of (normalization:poisson). At $t=1$, $$\left.\frac{\mathop{}\!\mathrm d^2}{\mathop{}\!\mathrm dt^2}\left(t^{-1}G_2(s/t)\right)\right|_{t=1}
- =2G_2(s)+4sG_2'(s)+s^2G_2''(s).$$ On the left the corresponding term is $s^2G_1''(s)$. At every positive node, the first two terms on the right vanish by (normalization:jets); at the origin they contribute $2G_2(0)$. Grouping the remaining absolutely convergent lattice sums by their squared radii proves (normalization:curvature-identity).
+*Proof.* The convergence argument above permits a second differentiation of (5.2). At $t=1$, $$\left.\frac{\mathop{}\!\mathrm d^2}{\mathop{}\!\mathrm dt^2}\left(t^{-1}G_2(s/t)\right)\right|_{t=1}
+ =2G_2(s)+4sG_2'(s)+s^2G_2''(s).$$ On the left the corresponding term is $s^2G_1''(s)$. At every positive node, the first two terms on the right vanish by (5.1); at the origin they contribute $2G_2(0)$. Grouping the remaining absolutely convergent lattice sums by their squared radii proves (5.7).
 
-For a positive node $n>1$, $G_1$ has a local maximum equal to zero and $G_2$ has a local minimum equal to zero, by Proposition 4.3 and $e^{-\pi hs}>0$. Therefore $G_1''(n)\le0\le G_2''(n)$. All terms in (normalization:curvature-identity) beyond the first shell are nonpositive. Since $r_\Lambda(1)=6$ and $G_2(0)=6Q_1e^{-\pi h}$, $$G_1''(1)-G_2''(1)\ge2Q_1e^{-\pi h}.$$ Finally, differentiating $G_i=e^{-\pi hs}H_i$ twice and inserting the exact value and slope at $1$ gives $$G_1''(1)-G_2''(1)
- =e^{-\pi h}\bigl(H_1''(1)-H_2''(1)+2\pi hQ_1\bigr).$$ This yields (normalization:curvature-inequality). Unlike the origin calculation, this last inequality is conditional on the global signs that were proved in Section 4. ◻
+For a positive node $n>1$, $G_1$ has a local maximum equal to zero and $G_2$ has a local minimum equal to zero, by Proposition 4.3 and $e^{-\pi hs}>0$. Therefore $G_1''(n)\le0\le G_2''(n)$. All terms in (5.7) beyond the first shell are nonpositive. Since $r_\Lambda(1)=6$ and $G_2(0)=6Q_1e^{-\pi h}$, $$G_1''(1)-G_2''(1)\ge2Q_1e^{-\pi h}.$$ Finally, differentiating $G_i=e^{-\pi hs}H_i$ twice and inserting the exact value and slope at $1$ gives $$G_1''(1)-G_2''(1)
+ =e^{-\pi h}\bigl(H_1''(1)-H_2''(1)+2\pi hQ_1\bigr).$$ This yields (5.8). Unlike the origin calculation, this last inequality is conditional on the global signs that were proved in Section 4. ◻
 
 ## Finite certificates
 
@@ -741,13 +737,13 @@ The primary calculation uses interval evaluation of the $N=256$ quadrature sums,
 ### Exact input lists and matrices
 
 Table 2 gives the coefficients at every node of $I_f=\mathcal N\cap[1,100]$. Its four coefficient columns are multiplied by $10^{10}$: an integer $a$ in the table means the coefficient $a\,10^{-10}$. At all nodes $n>100$ both approximate lists are zero. The data at zero and the constant terms are, exactly, $$\begin{equation}
-\label{cert:fixed-inputs}
+\tag{A.1}
  (\widetilde c_{1,0},\widetilde d_{1,0},C_1)
    =(1,.44,-.013),\qquad
  (\widetilde c_{2,0},\widetilde d_{2,0},C_2)
    =(0,-.368,.017).
 \end{equation}$$ The zero-node data are included in all evaluations of the tabulated functions. They are excluded when forming a column of the operator $S$. Direct integer addition gives $$\begin{equation}
-\label{cert:table-norms}
+\tag{A.2}
 \begin{aligned}
  \sum_{n\ge0}(|\widetilde c_{1,n}|+|\widetilde d_{1,n}|)
    &=2.2516666247<2.29,\\
@@ -774,50 +770,397 @@ Table 2 gives the coefficients at every node of $I_f=\mathcal N\cap[1,100]$. It
 </thead>
 <tbody>
 <tr>
-<td colspan="5" style="text-align: center;">Table  (continued)</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">-670689128</td>
+<td style="text-align: right;">-6398628799</td>
+<td style="text-align: right;">-250018302</td>
+<td style="text-align: right;">4107732082</td>
 </tr>
 <tr>
-<td style="text-align: right;"><span class="math inline">\(n\)</span></td>
-<td style="text-align: right;"><span class="math inline">\(10^{10}\widetilde c_{1,n}\)</span></td>
-<td style="text-align: right;"><span class="math inline">\(10^{10}\widetilde d_{1,n}\)</span></td>
-<td style="text-align: right;"><span class="math inline">\(10^{10}\widetilde c_{2,n}\)</span></td>
-<td style="text-align: right;"><span class="math inline">\(10^{10}\widetilde d_{2,n}\)</span></td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">93524468</td>
+<td style="text-align: right;">564897270</td>
+<td style="text-align: right;">-186215974</td>
+<td style="text-align: right;">-65204793</td>
 </tr>
 <tr>
-<td colspan="5" style="text-align: right;">Continued on the next page</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">-64146977</td>
+<td style="text-align: right;">121133118</td>
+<td style="text-align: right;">82882809</td>
+<td style="text-align: right;">-327822296</td>
 </tr>
 <tr>
-<td style="text-align: right;">1 &amp; -670689128 &amp; -6398628799 &amp; -250018302 &amp; 4107732082</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">-1358193</td>
+<td style="text-align: right;">-16329465</td>
+<td style="text-align: right;">1979670</td>
+<td style="text-align: right;">21637038</td>
+</tr>
+<tr>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">-2932910</td>
+<td style="text-align: right;">-940875</td>
+<td style="text-align: right;">3636920</td>
+<td style="text-align: right;">2145806</td>
+</tr>
+<tr>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">3646952</td>
+<td style="text-align: right;">-34846939</td>
+<td style="text-align: right;">-6005382</td>
+<td style="text-align: right;">34369042</td>
+</tr>
+<tr>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">3183411</td>
+<td style="text-align: right;">63030995</td>
+<td style="text-align: right;">-574123</td>
+<td style="text-align: right;">-75237042</td>
+</tr>
+<tr>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">11390977</td>
+<td style="text-align: right;">27049982</td>
+<td style="text-align: right;">-11312377</td>
+<td style="text-align: right;">-34985096</td>
+</tr>
+<tr>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">-5593246</td>
+<td style="text-align: right;">13405071</td>
+<td style="text-align: right;">5915710</td>
+<td style="text-align: right;">-10980954</td>
+</tr>
+<tr>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">54905</td>
+<td style="text-align: right;">-1515007</td>
+<td style="text-align: right;">-120136</td>
+<td style="text-align: right;">1498351</td>
+</tr>
+<tr>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">-210208</td>
+<td style="text-align: right;">-634307</td>
+<td style="text-align: right;">177992</td>
+<td style="text-align: right;">747946</td>
+</tr>
+<tr>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">976077</td>
+<td style="text-align: right;">-804949</td>
+<td style="text-align: right;">-1037705</td>
+<td style="text-align: right;">105643</td>
+</tr>
+<tr>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">-824472</td>
+<td style="text-align: right;">7003719</td>
+<td style="text-align: right;">1011732</td>
+<td style="text-align: right;">-6510015</td>
+</tr>
+<tr>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">611891</td>
+<td style="text-align: right;">4536095</td>
+<td style="text-align: right;">-428528</td>
+<td style="text-align: right;">-4440927</td>
+</tr>
+<tr>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">-472882</td>
+<td style="text-align: right;">-107613</td>
+<td style="text-align: right;">399655</td>
+<td style="text-align: right;">403751</td>
+</tr>
+<tr>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">30744</td>
+<td style="text-align: right;">-112653</td>
+<td style="text-align: right;">-31773</td>
+<td style="text-align: right;">90515</td>
+</tr>
+<tr>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">-4974</td>
+<td style="text-align: right;">-105568</td>
+<td style="text-align: right;">1240</td>
+<td style="text-align: right;">99081</td>
+</tr>
+<tr>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">128313</td>
+<td style="text-align: right;">246018</td>
+<td style="text-align: right;">-114876</td>
+<td style="text-align: right;">-267388</td>
+</tr>
+<tr>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">-176685</td>
+<td style="text-align: right;">505187</td>
+<td style="text-align: right;">166591</td>
+<td style="text-align: right;">-396209</td>
+</tr>
+<tr>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">-21638</td>
+<td style="text-align: right;">472037</td>
+<td style="text-align: right;">32128</td>
+<td style="text-align: right;">-402283</td>
+</tr>
+<tr>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">-18461</td>
+<td style="text-align: right;">-165597</td>
+<td style="text-align: right;">10836</td>
+<td style="text-align: right;">164974</td>
+</tr>
+<tr>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">4565</td>
+<td style="text-align: right;">-2296</td>
+<td style="text-align: right;">-4050</td>
+<td style="text-align: right;">547</td>
+</tr>
+<tr>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">1477</td>
+<td style="text-align: right;">-10734</td>
+<td style="text-align: right;">-1524</td>
+<td style="text-align: right;">8978</td>
+</tr>
+<tr>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">10748</td>
+<td style="text-align: right;">50050</td>
+<td style="text-align: right;">-8611</td>
+<td style="text-align: right;">-45048</td>
+</tr>
+<tr>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">-20506</td>
+<td style="text-align: right;">7495</td>
+<td style="text-align: right;">17354</td>
+<td style="text-align: right;">-266</td>
+</tr>
+<tr>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">-10361</td>
+<td style="text-align: right;">29035</td>
+<td style="text-align: right;">9641</td>
+<td style="text-align: right;">-21534</td>
+</tr>
+<tr>
+<td style="text-align: right;">52</td>
+<td style="text-align: right;">2121</td>
+<td style="text-align: right;">-26523</td>
+<td style="text-align: right;">-2269</td>
+<td style="text-align: right;">23159</td>
+</tr>
+<tr>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">425</td>
+<td style="text-align: right;">858</td>
+<td style="text-align: right;">-344</td>
+<td style="text-align: right;">-839</td>
+</tr>
+<tr>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">302</td>
+<td style="text-align: right;">-632</td>
+<td style="text-align: right;">-266</td>
+<td style="text-align: right;">463</td>
+</tr>
+<tr>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">382</td>
+<td style="text-align: right;">5658</td>
+<td style="text-align: right;">-231</td>
+<td style="text-align: right;">-4688</td>
+</tr>
+<tr>
+<td style="text-align: right;">61</td>
+<td style="text-align: right;">-1481</td>
+<td style="text-align: right;">-4320</td>
+<td style="text-align: right;">1140</td>
+<td style="text-align: right;">4098</td>
+</tr>
+<tr>
+<td style="text-align: right;">63</td>
+<td style="text-align: right;">-1494</td>
+<td style="text-align: right;">-352</td>
+<td style="text-align: right;">1265</td>
+<td style="text-align: right;">647</td>
+</tr>
+<tr>
+<td style="text-align: right;">64</td>
+<td style="text-align: right;">558</td>
+<td style="text-align: right;">-2609</td>
+<td style="text-align: right;">-491</td>
+<td style="text-align: right;">2114</td>
+</tr>
+<tr>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">169</td>
+<td style="text-align: right;">-14</td>
+<td style="text-align: right;">-145</td>
+</tr>
+<tr>
+<td style="text-align: right;">69</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">-28</td>
+<td style="text-align: right;">-18</td>
+</tr>
+<tr>
+<td style="text-align: right;">72</td>
+<td style="text-align: right;">-55</td>
+<td style="text-align: right;">394</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">-301</td>
+</tr>
+<tr>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">-21</td>
+<td style="text-align: right;">-805</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">685</td>
+</tr>
+<tr>
+<td style="text-align: right;">75</td>
+<td style="text-align: right;">-136</td>
+<td style="text-align: right;">-379</td>
+<td style="text-align: right;">108</td>
+<td style="text-align: right;">338</td>
+</tr>
+<tr>
+<td style="text-align: right;">76</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: right;">-144</td>
+<td style="text-align: right;">-58</td>
+<td style="text-align: right;">104</td>
+</tr>
+<tr>
+<td style="text-align: right;">79</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">-15</td>
+</tr>
+<tr>
+<td style="text-align: right;">81</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">-8</td>
+</tr>
+<tr>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">-13</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td style="text-align: right;">85</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">-87</td>
+<td style="text-align: right;">-11</td>
+<td style="text-align: right;">70</td>
+</tr>
+<tr>
+<td style="text-align: right;">87</td>
+<td style="text-align: right;">-6</td>
+<td style="text-align: right;">-60</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">49</td>
+</tr>
+<tr>
+<td style="text-align: right;">88</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">-4</td>
+<td style="text-align: right;">-5</td>
+</tr>
+<tr>
+<td style="text-align: right;">91</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1</td>
+</tr>
+<tr>
+<td style="text-align: right;">93</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-1</td>
+</tr>
+<tr>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">-4</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td style="text-align: right;">97</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">-6</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td style="text-align: right;">99</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-6</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-2</td>
 </tr>
 </tbody>
 </table>
 
 Write $J=\{1,3,4\}$ and $E=I_f\setminus J$. Matrix rows and columns on a node set always list all $c$ entries first and all $d$ entries second, with nodes increasing within each group. In particular the order on $J$ is $(c_1,c_3,c_4,d_1,d_3,d_4)$. The two rational matrices used to certify the small inverses are $$\begin{equation}
-\label{cert:Wplus}
+\tag{A.3}
  W_+=10^{-4}\begin{pmatrix}
- \input{data/W_plus.tex}
+ 4159 & 4452 & -2003 & -10467 & -2421 & -1683 \\
+ 2714 & 6573 & 1689 & 8258 & 104 & -335 \\
+ -4675 & 4785 & 7003 & -13100 & -1355 & -1163 \\
+ 36853 & -37142 & 27514 & 105973 & 1100 & 2012 \\
+ 57838 & -56941 & 36296 & 158623 & 29097 & 17293 \\
+ -4705 & 3589 & -3311 & -11932 & -2562 & 6919 \\
  \end{pmatrix},
 \end{equation}$$ $$\begin{equation}
-\label{cert:Wminus}
+\tag{A.4}
  W_-=10^{-4}\begin{pmatrix}
- \input{data/W_minus.tex}
+ 13265 & -1358 & -385 & -381 & 815 & -164 \\
+ 616 & 10426 & 686 & -484 & 182 & 775 \\
+ -146 & 4 & 9842 & 215 & 267 & 179 \\
+ -2761 & 2483 & -958 & 5174 & -328 & 206 \\
+ -615 & -861 & 730 & -1388 & 5619 & -4370 \\
+ 874 & 820 & 1148 & -431 & 905 & 11927 \\
  \end{pmatrix}.
 \end{equation}$$ These matrices are exact inputs. The $W$-based inverse argument below uses their products and column sums; it does not require a computed matrix inverse. We describe the supplied program’s additional inverse checks in Section A.3.
 
 ### Moments and the integration rule
 
 For a finite input $p=PR$ supported on nodes at most $100$, put $$\begin{equation}
-\label{cert:moments}
+\tag{A.5}
  U_{p,l}(m,y)=\frac{y^l p^{(l)}(m)}{l!},\qquad
  X_{p,l}(m,y)=\frac{y^l K_p^{(l)}(m)}{l!}.
 \end{equation}$$ The domain for the quadrature error estimate is stated explicitly in Lemma A.1.
 
 We use the first Fejér quadrature rule, whose cosine-sum weights are described in (Waldvogel 2006, sec. 2, formula (2.3)). Our weights are half the mass-two weights there, normalized to average over an interval; for even $N=256$ the terminal cosine term in that formula vanishes. We prove the exactness, positivity and error bound needed here. Set $N=256$, and for $0\le v<N$ define $$\begin{equation}
-\label{cert:rule}
+\tag{A.6}
 \begin{aligned}
  \alpha_v&=\frac{v+1/2}{N},\qquad
  o_v=\frac1N\left(1-2\sum_{a=1}^{127}
@@ -825,25 +1168,25 @@ We use the first Fejér quadrature rule, whose cosine-sum weights are described 
  \tau_{jv}&=\frac{2j-1+\cos(\pi\alpha_v)}{12}
        \qquad(1\le j\le6).
 \end{aligned}
-\end{equation}$$ Integration over $(t_{j-1},t_j)$ is replaced by evaluation at $\tau_{jv}$ with weights $o_v/6$. To check exactness, expand a polynomial in the Chebyshev basis $T_k(\cos\theta)=\cos(k\theta)$. Discrete cosine orthogonality at $\theta_v=\pi\alpha_v$ recovers its coefficients through degree $255$. The integral averages of this basis on $[-1,1]$ are zero at odd $k$ and $1/(1-k^2)$ at even $k$. These are exactly the coefficients in (cert:rule), so the rule is exact through degree $255$. Moreover, $$o_v\ge\frac1{256}\left(1-\sum_{a=1}^{127}\frac2{4a^2-1}\right)
+\end{equation}$$ Integration over $(t_{j-1},t_j)$ is replaced by evaluation at $\tau_{jv}$ with weights $o_v/6$. To check exactness, expand a polynomial in the Chebyshev basis $T_k(\cos\theta)=\cos(k\theta)$. Discrete cosine orthogonality at $\theta_v=\pi\alpha_v$ recovers its coefficients through degree $255$. The integral averages of this basis on $[-1,1]$ are zero at odd $k$ and $1/(1-k^2)$ at even $k$. These are exactly the coefficients in (A.6), so the rule is exact through degree $255$. Moreover, $$o_v\ge\frac1{256}\left(1-\sum_{a=1}^{127}\frac2{4a^2-1}\right)
      =\frac1{256\cdot255}>0,\qquad \sum_v o_v=1.$$ Thus the six pieces together have total weight one.
 
 For clarity, the complete density on piece $j$ used in this appendix is $$\begin{equation}
-\label{cert:density}
+\tag{A.7}
  f_j(t)=2\pi\sum_n e^{-i\pi tn}
  \left\{-\pi c_n\sum_{l=j}^6(t_l-t)P_l e^{i\pi t_ln}
        +i d_n\sum_{l=j}^6 P_l e^{i\pi t_ln}\right\}.
 \end{equation}$$ It includes node $0$ when that coefficient is part of the input. The folded atoms have masses $e_jCP_j$ at $t_j$, where $e_0=1$ and $e_j=2$ for $j>0$. The factors multiplying this density and these masses for $U$ and $X$, respectively, are $$\begin{equation}
-\label{cert:analytic-factors}
+\tag{A.8}
  e^{i\pi tm}\frac{(i\pi ty)^l}{l!},\qquad
  \lambda(t)e^{i\pi z(t)m}\frac{(i\pi z(t)y)^l}{l!}.
 \end{equation}$$ The real part is taken after summation.
 
-**Lemma A.1** (Quadrature moment error). *Let $p=PR$ have a real coefficient list supported in $\{0\}\cup I_f$, with $\|(c,d)\|_1\le3$, and let $C\in\mathbb R$ satisfy $|C|\le1$. Let $m,y\in\mathbb R$ and $l\in\{0,\ldots,30\}$ satisfy $0\le m\le100$ and $|y|\le3/2$. The quadrature rule (cert:rule), with exact evaluations at its nodes and at the atoms, has error less than $10^{-22}$ in each moment $U_{p,l}(m,y)$ and $X_{p,l}(m,y)$.*
+**Lemma A.1** (Quadrature moment error). *Let $p=PR$ have a real coefficient list supported in $\{0\}\cup I_f$, with $\|(c,d)\|_1\le3$, and let $C\in\mathbb R$ satisfy $|C|\le1$. Let $m,y\in\mathbb R$ and $l\in\{0,\ldots,30\}$ satisfy $0\le m\le100$ and $|y|\le3/2$. The quadrature rule (A.6), with exact evaluations at its nodes and at the atoms, has error less than $10^{-22}$ in each moment $U_{p,l}(m,y)$ and $X_{p,l}(m,y)$.*
 
 This domain contains all basis inputs and the two tabulated inputs used below.
 
-*Proof.* Put $\rho=1/6$, $c_j=(2j-1)/12$, $a_j=c_j+ih$, and $\Delta_j=|a_j|^2-\rho^2$. These last quantities increase from $\Delta_1=167/1200$ to $\Delta_6=389/400$, so the disk $|t-c_j|\le\rho$ does not contain the pole $-ih$. All factors in (cert:density) and (cert:analytic-factors) are analytic there. The reciprocal-disk calculation is exact: for $\zeta=1/(t+ih)$, $$|1-a_j\zeta|^2-\rho^2|\zeta|^2
+*Proof.* Put $\rho=1/6$, $c_j=(2j-1)/12$, $a_j=c_j+ih$, and $\Delta_j=|a_j|^2-\rho^2$. These last quantities increase from $\Delta_1=167/1200$ to $\Delta_6=389/400$, so the disk $|t-c_j|\le\rho$ does not contain the pole $-ih$. All factors in (A.7) and (A.8) are analytic there. The reciprocal-disk calculation is exact: for $\zeta=1/(t+ih)$, $$|1-a_j\zeta|^2-\rho^2|\zeta|^2
  =\Delta_j\left|\zeta-\frac{\overline a_j}{\Delta_j}\right|^2
    -\frac{\rho^2}{\Delta_j}.$$ Thus inversion maps the disk for $t+ih$ onto the disk with center $(c_j-ih)/\Delta_j$ and radius $\rho/\Delta_j$. In particular, $$|\zeta|\le\frac{|a_j|+\rho}{\Delta_j}
        =\frac1{|a_j|-\rho}.$$ The right side decreases with $c_j$, and $|a_1|=\sqrt{601}/60$. Consequently the following are analytic bounds on every disk: $$\begin{aligned}
@@ -854,24 +1197,24 @@ This domain contains all basis inputs and the two tabulated inputs used below.
  4.774(1.732)(24.515-10)=120.01826452>120,\\
  (5.912-.4)(24.515-10)=80.00668>80.
 \end{gathered}$$ The image disk for $z=-B\zeta-ih$ has center $-B(c_j-ih)/\Delta_j-ih$ and radius $B\rho/\Delta_j$. Its lowest imaginary part is therefore $B(h-\rho)/\Delta_j-h$. Since $h>\rho$, this decreases with $\Delta_j$, giving $$\begin{equation}
-\label{cert:disk-imaginary}
+\tag{A.9}
  \operatorname{Im}z(t)\ge
  B\frac{h-1/6}{c_j^2+h^2-(1/6)^2}-h
  \ge-\frac{1402}{17505}>-.081.
-\end{equation}$$ Since $\sum_{l=1}^6|P_l|=10$ and $|t_l-t|\le13/12$ for $l\ge j$, the analytic continuation of (cert:density) on this disk is bounded by $$3\max\{2\pi^2\cdot10\cdot13/12,\,2\pi\cdot10\}
+\end{equation}$$ Since $\sum_{l=1}^6|P_l|=10$ and $|t_l-t|\le13/12$ for $l\ge j$, the analytic continuation of (A.7) on this disk is bounded by $$3\max\{2\pi^2\cdot10\cdot13/12,\,2\pi\cdot10\}
        e^{100\pi/6}<1000e^{100\pi/6}.$$ Use $|a^l/l!|\le e^{|a|}$ for the divided powers. Including all factors, the direct and transformed integrands are bounded, respectively, by $$\begin{aligned}
  1000e^{200\pi/6+1.5\pi\cdot1.1}&<5.38\cdot10^{50},\\
  5000e^{100\pi/6+100\pi\cdot.081+1.5\pi\cdot6.2}
        &<1.51\cdot10^{50}.
 \end{aligned}$$ We may therefore use the common bound $M=10^{53}$. The real interval has half-length $1/12$, half the disk radius. Cauchy’s coefficient estimate bounds the tail of the Taylor polynomial of degree $255$ by $M\sum_{k=256}^{\infty}2^{-k}=M2^{-255}$. Exactness, positivity and total mass one for the integral and quadrature rule give discrepancy at most $$\begin{equation}
-\label{cert:quadrature-error}
+\tag{A.10}
  2^{-254}10^{53}<3.455\cdot10^{-24}<10^{-22}.
 \end{equation}$$ Atoms are evaluated separately and incur no quadrature error. ◻
 
 ### Interval evaluation
 
 For a finite input $p$ in the real finite-input domain of Lemma A.1 and a node row $m\in I_f$, form the two real numbers $$\begin{equation}
-\label{cert:pair}
+\tag{A.11}
  \mathcal S_m(p)=
  \left(-\frac{X_{p,0}(m,1)}{Q_m},\;
  \frac{D_mX_{p,0}(m,1)-X_{p,1}(m,1)}{Q_m}\right).
@@ -880,14 +1223,14 @@ For a finite input $p$ in the real finite-input domain of Lemma A.1 and a node 
 Let $D=S_{J,J}$ and $U=S_{J,E}$.
 
 For the Bernstein certificates, use exactly the triples $(i,m,y)$ and orders $\nu$ specified in Lemma 4.1; in particular $y$ is signed and no leftward interval at $m=1$ is used for index $1$. Express its power coefficients in terms of the moments as $$\begin{equation}
-\label{cert:power-from-moments}
+\tag{A.12}
  T_r=\sigma_i y^{-\nu}
  \left(U_{\widetilde p_i,r+\nu}(m,y)
              +X_{\widetilde p_{3-i},r+\nu}(m,y)\right).
-\end{equation}$$ The signed scaling is exact. Definition (cert:moments) gives $U_{p,l}(m,y)=y^lU_{p,l}(m,1)$ and the same identity for $X$. Therefore, for positive or negative $y$, $$T_r=\sigma_i y^r\left(U_{\widetilde p_i,r+\nu}(m,1)
+\end{equation}$$ The signed scaling is exact. Definition (A.5) gives $U_{p,l}(m,y)=y^lU_{p,l}(m,1)$ and the same identity for $X$. Therefore, for positive or negative $y$, $$T_r=\sigma_i y^r\left(U_{\widetilde p_i,r+\nu}(m,1)
                  +X_{\widetilde p_{3-i},r+\nu}(m,1)\right).$$ This is the identity used when the implementation caches unscaled moments at $y=1$; it does not discard the orientation of a half-gap.
 
-Equations (cert:rule), (cert:density), (cert:analytic-factors), (cert:pair), and (cert:power-from-moments) already specify all sums in the finite certificates below. The following pseudocode records their algebraic organization. A measure is a list of pairs $(t,g)$ in the order used by the supplied interval implementation: first the $6\cdot256$ quadrature pairs $(\tau_{jv},o_v f_j(\tau_{jv})/6)$, with $j=1,\ldots,6$ outermost and $v=0,\ldots,255$ innermost, and then the seven atom pairs $(t_j,e_jCP_j)$ for $j=0,\ldots,6$. The atom masses are zero for a basis input. The pseudocode is not a byte-for-byte execution trace. The supplied source fixes the detailed arithmetic and summation order for an actual interval run, including the factoring and caching described below.
+Equations (A.6), (A.7), (A.8), (A.11), and (A.12) already specify all sums in the finite certificates below. The following pseudocode records their algebraic organization. A measure is a list of pairs $(t,g)$ in the order used by the supplied interval implementation: first the $6\cdot256$ quadrature pairs $(\tau_{jv},o_v f_j(\tau_{jv})/6)$, with $j=1,\ldots,6$ outermost and $v=0,\ldots,255$ innermost, and then the seven atom pairs $(t_j,e_jCP_j)$ for $j=0,\ldots,6$. The atom masses are zero for a basis input. The pseudocode is not a byte-for-byte execution trace. The supplied source fixes the detailed arithmetic and summation order for an actual interval run, including the factoring and caching described below.
 
 ``` text
 Moments(measure, m, y, L):
@@ -932,21 +1275,21 @@ for (i,m,y,nu) in the prescribed half-gap cases:
 
 Here `stack` means all first entries followed by all second entries. The recurrence for $a$ equals $\binom{k}{r}/\binom{28}{r}$. `Measure` denotes this finite list and introduces no additional approximation. The fixed data at zero are used only for the two full table inputs. Reusing a measure means reusing its whole finite list.
 
-For the accompanying certified evaluation, every real or complex quantity in these sums is enclosed using interval arithmetic. The pair calculation forms the moments at $y=1$. For the Bernstein calculation, the implementation also forms and caches the unscaled moments at $y=1$, then uses the signed $y^r$ identity following (cert:power-from-moments). Each unscaled real moment enclosure is enlarged by $[-10^{-22},10^{-22}]$, as justified by Lemma A.1. Consequently the analytic-remainder contribution to the enclosure radius of a Bernstein coefficient is bounded by $$\begin{aligned}
+For the accompanying certified evaluation, every real or complex quantity in these sums is enclosed using interval arithmetic. The pair calculation forms the moments at $y=1$. For the Bernstein calculation, the implementation also forms and caches the unscaled moments at $y=1$, then uses the signed $y^r$ identity following (A.12). Each unscaled real moment enclosure is enlarged by $[-10^{-22},10^{-22}]$, as justified by Lemma A.1. Consequently the analytic-remainder contribution to the enclosure radius of a Bernstein coefficient is bounded by $$\begin{aligned}
  2\cdot10^{-22}\sum_{r=0}^k
    \frac{\binom{k}{r}}{\binom{28}{r}}|y|^r
  &\le2\cdot10^{-22}\sum_{r=0}^{28}(3/2)^r\\
  &=4\cdot10^{-22}\bigl((3/2)^{29}-1\bigr)<5.2\cdot10^{-17}.
 \end{aligned}$$ The last inequality is an exact rational comparison. It is not correct to regard $10^{-22}$ as an unamplified per-Bernstein error. Arb rounding and dependency effects can further widen the balls; all of them are propagated by the subsequent products, absolute values, column sums, and Bernstein combinations. An upper bound is accepted only when the complete enclosure lies strictly below the asserted rational bound, and a lower bound only when it lies strictly above. This procedure uses enclosures of the exact integrals, not a quadrature error inferred from observed numerical agreement.
 
-The ball-arithmetic inclusion methodology is described in (Johansson 2017). The supplied implementation uses Arb through python-flint at $192$ bits of precision; the citation does not by itself certify this local environment, its call domains, or a run. The entry point runs two verifiers in the same directory, and . Their output records, and , and the aggregate record are placed in its subdirectory. The first verifier checks the exact bounds in (cert:matrix-table), (cert:exterior-block), (cert:residual-bounds), and (cert:bernstein-table), as well as all 2436 individual Bernstein inequalities in Lemma 4.1. It also asserts four finite brackets: the two defect brackets, the exterior bracket, and the bracket for $(2,16,-1/2,28)$. All its comparisons and extrema use complete enclosures.
+The ball-arithmetic inclusion methodology is described in (Johansson 2017). The supplied implementation uses Arb through python-flint at $192$ bits of precision; the citation does not by itself certify this local environment, its call domains, or a run. The entry point runs two verifiers in the same directory, and . Their output records, and , and the aggregate record are placed in its subdirectory. The first verifier checks the exact bounds in (A.13), (A.14), (A.15), and (A.16), as well as all 2436 individual Bernstein inequalities in Lemma 4.1. It also asserts four finite brackets: the two defect brackets, the exterior bracket, and the bracket for $(2,16,-1/2,28)$. All its comparisons and extrema use complete enclosures.
 
 The mathematical $W$ argument in the next subsection uses only products and column sums. The supplied program also calls a certified inverse for $I-\eta D$ and tests its inverse and cross-product norms as additional checks; these calls are not needed for the $W$ deduction.
 
 ### Matrix and residual certificates
 
-The following are strict upper bounds for the indicated column norms. The last three columns use only columns whose node lies in the stated range. They refer to the exact operator entries in (cert:pair). $$\begin{equation}
-\label{cert:matrix-table}
+The following are strict upper bounds for the indicated column norms. The last three columns use only columns whose node lies in the stated range. They refer to the exact operator entries in (A.11). $$\begin{equation}
+\tag{A.13}
 \begin{array}{c|cc|ccc}
  \eta&
  \|W_\eta\|&
@@ -958,18 +1301,18 @@ The following are strict upper bounds for the indicated column norms. The last t
  -1&1.83&.001&.73&.32&.17
 \end{array}
 \end{equation}$$ The unmultiplied exterior block also satisfies $$\begin{equation}
-\label{cert:exterior-block}
+\tag{A.14}
  \|S_{E\cap[7,16],J}\|<.088.
 \end{equation}$$ The certified enclosure calculation described in Section A.3 proves these inequalities. For example, the two defect norms are enclosed respectively in $$\begin{gathered}
  [.00025422624910652544,\ .00025422624910652546],\\
  [.00042288165102553355,\ .00042288165102553357],
 \end{gathered}$$ and the exterior block norm is enclosed in $[.08688748182289641591,\ .08688748182289641592]$. These intervals are stated with rational endpoints rounded outwards.
 
-The three printed product ranges partition $E$, so $\|W_\eta U\|$ is the maximum of the three grouped product norms. The exact bounds in (cert:matrix-table) and (cert:exterior-block) give the primary matrix conclusion directly. Put $A_\eta=I-\eta D$. Since $\|I-W_\eta A_\eta\|<.001$, the finite square matrix $W_\eta A_\eta$ is invertible by a geometric series, hence so is $A_\eta$, and $$A_\eta^{-1}=(W_\eta A_\eta)^{-1}W_\eta.$$ It follows from (cert:matrix-table) that $$\|A_\eta^{-1}\|<\frac{30.84}{1-.001}<32,\qquad
- \|A_\eta^{-1}U\|<\frac{3.54}{1-.001}<3.7.$$ Equation (cert:exterior-block) gives the remaining bound $<.09$ in Lemma 3.2.
+The three printed product ranges partition $E$, so $\|W_\eta U\|$ is the maximum of the three grouped product norms. The exact bounds in (A.13) and (A.14) give the primary matrix conclusion directly. Put $A_\eta=I-\eta D$. Since $\|I-W_\eta A_\eta\|<.001$, the finite square matrix $W_\eta A_\eta$ is invertible by a geometric series, hence so is $A_\eta$, and $$A_\eta^{-1}=(W_\eta A_\eta)^{-1}W_\eta.$$ It follows from (A.13) that $$\|A_\eta^{-1}\|<\frac{30.84}{1-.001}<32,\qquad
+ \|A_\eta^{-1}U\|<\frac{3.54}{1-.001}<3.7.$$ Equation (A.14) gives the remaining bound $<.09$ in Lemma 3.2.
 
-For the two full tabulated inputs, including (cert:fixed-inputs), the residual certificate is $$\begin{equation}
-\label{cert:residual-bounds}
+For the two full tabulated inputs, including (A.1), the residual certificate is $$\begin{equation}
+\tag{A.15}
 \begin{aligned}
  \left|\widetilde c_{i,m}+\frac{X_{\widetilde p_{3-i},0}(m,1)}{Q_m}\right|
       &<3\cdot10^{-10},\\
@@ -979,12 +1322,12 @@ For the two full tabulated inputs, including (cert:fixed-inputs), the residual 
       &<3\cdot10^{-10}
        \qquad(i=1,2,\ m\in I_f).
 \end{aligned}
-\end{equation}$$ The primary evaluation in Section A.3 proves (cert:residual-bounds) for these exact residuals. Since $3\cdot10^{-10}<10^{-9}$, these inequalities, the preceding primary matrix conclusion, and (cert:table-norms) prove every finite assertion of Lemma 3.2.
+\end{equation}$$ The primary evaluation in Section A.3 proves (A.15) for these exact residuals. Since $3\cdot10^{-10}<10^{-9}$, these inequalities, the preceding primary matrix conclusion, and (A.2) prove every finite assertion of Lemma 3.2.
 
 ### Bernstein coefficient certificates
 
-Let $B_{i,m,y,k}$ denote the sum $B_k$ in (signs:bernstein-bound). Each entry below is a strict lower bound for every such sum in its row, for all $0\le k\le28$ and both half-gap directions when applicable. $$\begin{equation}
-\label{cert:bernstein-table}
+Let $B_{i,m,y,k}$ denote the sum $B_k$ in (4.4). Each entry below is a strict lower bound for every such sum in its row, for all $0\le k\le28$ and both half-gap directions when applicable. $$\begin{equation}
+\tag{A.16}
 \begin{array}{c|cc}
  m& i=1&i=2\\ \hline
  0&\text{---}&.762\\
@@ -999,14 +1342,14 @@ Let $B_{i,m,y,k}$ denote the sum $B_k$ in (signs:bernstein-bound). Each entry be
 \end{array}
 \end{equation}$$
 
-These bounds concern the exact derivatives of the tabulated functions, not derivatives rounded to satisfy interpolation identities. For example, the coefficient at $(i,m,y,k)=(2,16,-1/2,28)$ is enclosed in $$[.00951875955680,\ .00951875955684].$$ The primary evaluation in Section A.3 proves the grouped bounds (cert:bernstein-table) for the exact derivatives of the tabulated functions. Each printed lower bound is stronger than its corresponding threshold in (signs:bernstein-bound). Therefore these exact grouped bounds imply Lemma 4.1.
+These bounds concern the exact derivatives of the tabulated functions, not derivatives rounded to satisfy interpolation identities. For example, the coefficient at $(i,m,y,k)=(2,16,-1/2,28)$ is enclosed in $$[.00951875955680,\ .00951875955684].$$ The primary evaluation in Section A.3 proves the grouped bounds (A.16) for the exact derivatives of the tabulated functions. Each printed lower bound is stronger than its corresponding threshold in (4.4). Therefore these exact grouped bounds imply Lemma 4.1.
 
 ### Scalar envelope and sign bounds
 
-The remaining finite substitutions involve elementary real expressions. For the endpoint and density envelopes in (interpolation:piece-envelopes), it suffices to test the finitely many endpoints and residues specified there. The endpoint formulas for $|\lambda|$, $|z|$, and $\operatorname{Im}z$ use rational numbers and square roots. The density expressions additionally use sine and cosine at rational multiples of $\pi$. The endpoint tests are certified by the same elementary enclosures used above; their monotonicity and convexity extensions to whole intervals were proved in Section 3.
+The remaining finite substitutions involve elementary real expressions. For the endpoint and density envelopes in (3.3), it suffices to test the finitely many endpoints and residues specified there. The endpoint formulas for $|\lambda|$, $|z|$, and $\operatorname{Im}z$ use rational numbers and square roots. The density expressions additionally use sine and cosine at rational multiples of $\pi$. The endpoint tests are certified by the same elementary enclosures used above; their monotonicity and convexity extensions to whole intervals were proved in Section 3.
 
-For the row envelope in (interpolation:row-envelope), certified outward bounds are $$\begin{equation}
-\label{cert:row-substitutions}
+For the row envelope in (3.7), certified outward bounds are $$\begin{equation}
+\tag{A.17}
 \begin{array}{c|c}
  \text{row cut }x&\text{upper bound for the finite envelope sum}\\ \hline
  0&27.618723\\
@@ -1020,18 +1363,18 @@ For the sign proof, the following outward bounds record the relevant substitutio
 
 | Expression | Certified bound |
 |:---|---:|
-| (signs:rational-lower-sum), index $1$ | $>.01206834$ |
-| (signs:rational-lower-sum), index $2$ | $>.01656468$ |
+| (4.13), index $1$ | $>.01206834$ |
+| (4.13), index $2$ | $>.01656468$ |
 | $\sum_{j=1}^6 M_j(\pi t_j)^2/6$ | $<76.043$ |
-| Right side of (signs:tail-second-derivative) before its final comparison | $<.005303$ |
-| (signs:perturbation-envelope) divided by $\nu!$, $(s_*,\nu)=(0,0)$ | $<.003189$ |
+| Right side of (4.14) before its final comparison | $<.005303$ |
+| (4.6) divided by $\nu!$, $(s_*,\nu)=(0,0)$ | $<.003189$ |
 | Same expression, $(s_*,\nu)=(1/2,1)$ | $<.003736$ |
 | Same expression, $(s_*,\nu)=(1/2,2)$ | $<.009146$ |
 | Same expression, $(s_*,\nu)=(2,2)$ | $<.001796$ |
 | $2.29\sum_{j=1}^6M_j/6+.017\sum_{j=0}^6m_j^*$ | $<72.669$ |
 
-In the fourth row the expression means the explicit sum with $.00005\cdot77$, not the derivative supremum to its left. For the five cases of (signs:taylor-representatives), the corresponding bounds for $\mathcal E(m,Y,\nu)$ in (signs:taylor-bound) are $$\begin{equation}
-\label{cert:taylor-substitutions}
+In the fourth row the expression means the explicit sum with $.00005\cdot77$, not the derivative supremum to its left. For the five cases of (4.9), the corresponding bounds for $\mathcal E(m,Y,\nu)$ in (4.8) are $$\begin{equation}
+\tag{A.18}
 \begin{array}{c|c}
  (m,Y,\nu)&\text{upper bound}\\ \hline
  (0,1/2,0)&1.578\cdot10^{-10}\\
@@ -1054,20 +1397,20 @@ The fixed rational procedures below use rational arithmetic alone, with a comple
  p_*&=3.141592653589793238462643383279502884,\\
  b_*&=.866025403784438646763723170752936183,
  \end{aligned}$$ and retain $B=4/3$ and $h=2/5$ exactly. Both $|p_*-\pi|$ and $|b_*-b|$ are less than $10^{-36}$. For example, the identity $\pi/4=4\arctan(1/5)-\arctan(1/239)$ and alternating series through power $57$ certify the first assertion; comparing $(b_*\pm10^{-36})^2$ with $3/4$ certifies the second. Define $$[w]_{40}=10^{-40}\lfloor10^{40}w\rfloor$$ for real $w$, and apply it componentwise to complex numbers. Define an approximation $e_*(u)$ to $e^{i\pi u}$ by the following finite recursion: $$\begin{equation}
-\label{cert:estar}
+\tag{B.1}
  v_0=\left[\sum_{q=0}^{32}\frac{(ip_*u/1024)^q}{q!}\right]_{40},
  \qquad v_{a+1}=[v_a^2]_{40}\ (0\le a<10),\qquad e_*(u)=v_{10}.
 \end{equation}$$ Real and imaginary parts of $e_*(u)$ give the cosine and sine replacements when $u$ is real.
 
-**Lemma B.1** (Rounded exponential). *For every $u\in\mathbb Q(i)$ satisfying $\Re(ip_*u)\le0$ and $|p_*u|\le1000$, the recursion (cert:estar) satisfies $$|e_*(u)-e^{ip_*u}|<3.542\cdot10^{-34}<10^{-32}.$$*
+**Lemma B.1** (Rounded exponential). *For every $u\in\mathbb Q(i)$ satisfying $\Re(ip_*u)\le0$ and $|p_*u|\le1000$, the recursion (B.1) satisfies $$|e_*(u)-e^{ip_*u}|<3.542\cdot10^{-34}<10^{-32}.$$*
 
-*Proof.* The reduced argument has modulus less than one, so the Taylor remainder in the first step of (cert:estar) is less than $3/33!$. A componentwise floor contributes less than $2\cdot10^{-40}$ in complex absolute value. Each exact exponential subsequently squared has modulus at most one. Thus the recurrence $$e_0=3/33!+2\cdot10^{-40},\qquad
+*Proof.* The reduced argument has modulus less than one, so the Taylor remainder in the first step of (B.1) is less than $3/33!$. A componentwise floor contributes less than $2\cdot10^{-40}$ in complex absolute value. Each exact exponential subsequently squared has modulus at most one. Thus the recurrence $$e_0=3/33!+2\cdot10^{-40},\qquad
  e_{a+1}=2e_a+e_a^2+2\cdot10^{-40}$$ bounds the accumulated error. Exact rational evaluation gives $e_{10}<3.542\cdot10^{-34}$, as claimed. ◻
 
 ##### Positive exponential upper bounds.
 
 For $x\ge0$ and an integer $n\ge0$ with $x<n+2$, define $$\begin{equation}
-\label{ind:positive-exponential}
+\tag{B.2}
  \mathcal T_n(x)=\frac{x^{n+1}}{(n+1)!}\frac1{1-x/(n+2)},\qquad
  \mathcal E_n(x)=\sum_{k=0}^n\frac{x^k}{k!}+\mathcal T_n(x).
 \end{equation}$$ After the first omitted term, the ratio of each term to its predecessor is at most $x/(n+2)<1$, so $e^x\le\mathcal E_n(x)$. These are rational upper bounds when $x$ is rational. They will be used both in the fixed first-block check and in the arbitrary-refinement Taylor method.
@@ -1076,16 +1419,16 @@ For $x\ge0$ and an integer $n\ge0$ with $x<n+2$, define $$\begin{equation}
 
 We now apply the fixed primitives to the full $N=256$ rule, using rational coefficients and rational $C,m,y$ in the finite domain of Lemma A.1. After defining the rounded sums, we prove their uniform approximation error. No matrix, residual, or Bernstein values are asserted by that error theorem.
 
-In (cert:rule), replace each cosine $\cos(\pi u)$ by $\Re e_*(u)$, with $u=\alpha_v$ or $u=2a\alpha_v$ as appropriate, and then apply $[\ ]_{40}$ to the final weight $o_v$ only. Denote the results by $o_v^{\#},\tau_{jv}^{\#}$. In the displayed coefficient list for $P_l$, replace $b$ by $b_*$; call the resulting numbers $P_l^{\#}$. Evaluate (cert:density) by replacing $\pi$ by $p_*$, $P_l$ by $P_l^{\#}$, and every exponential by $e_*$, at the approximate point $t=\tau_{jv}^{\#}$. Call the resulting density $f_j^{\#}(t)$. For either these points or the exact atom points $t=t_j$, use $$\begin{equation}
-\label{cert:lambda-z-star}
+In (A.6), replace each cosine $\cos(\pi u)$ by $\Re e_*(u)$, with $u=\alpha_v$ or $u=2a\alpha_v$ as appropriate, and then apply $[\ ]_{40}$ to the final weight $o_v$ only. Denote the results by $o_v^{\#},\tau_{jv}^{\#}$. In the displayed coefficient list for $P_l$, replace $b$ by $b_*$; call the resulting numbers $P_l^{\#}$. Evaluate (A.7) by replacing $\pi$ by $p_*$, $P_l$ by $P_l^{\#}$, and every exponential by $e_*$, at the approximate point $t=\tau_{jv}^{\#}$. Call the resulting density $f_j^{\#}(t)$. For either these points or the exact atom points $t=t_j$, use $$\begin{equation}
+\tag{B.3}
  \lambda_*=[i/(b_*(t+ih))]_{40},\qquad
  z_*=[-B/(t+ih)-ih]_{40},
 \end{equation}$$ and set $$\begin{equation}
-\label{cert:rational-factors}
+\tag{B.4}
  E_l(t)=e_*(tm)\frac{(ip_*ty)^l}{l!},\qquad
  G_l(t)=\lambda_*e_*(z_*m)\frac{(ip_*z_*y)^l}{l!}.
 \end{equation}$$ The rational moment sums are therefore $$\begin{equation}
-\label{cert:rational-moment-sums}
+\tag{B.5}
 \begin{aligned}
  U_{p,l}^{\#}
  &=\Re\left\{\frac16\sum_{j=1}^6\sum_{v=0}^{255}
@@ -1101,7 +1444,7 @@ In (cert:rule), replace each cosine $\cos(\pi u)$ by $\Re e_*(u)$, with $u=\alp
 For the finite pseudocode in Section A.3, the rational prescription uses the same measure order: the $6\cdot256$ quadrature pairs followed by the seven atom pairs. Put $\#$ on the prescribed quantities and make exactly the replacements above; no other rounding is performed.
 
 **Lemma B.2** (Rational moment and node errors). *Let $p=PR$ have a rational coefficient list supported in $\{0\}\cup I_f$, with $\|(c,d)\|_1\le3$, and let $C\in\mathbb Q$ satisfy $|C|\le1$. Let $m,y\in\mathbb Q$ and $l\in\{0,\ldots,30\}$ satisfy $0\le m\le100$ and $|y|\le3/2$. The prescription in Section B.2 gives rational numbers $U_{p,l}^{\#}$ and $X_{p,l}^{\#}$ such that $$|U_{p,l}^{\#}-U_{p,l}|<10^{-14},\qquad
- |X_{p,l}^{\#}-X_{p,l}|<10^{-14}.$$ Separately, for every node $n\in12\mathbb Z+A$, using its residue $a\in A$ in (fourier:node-data), the prescribed rational values satisfy $$|Q_n^{\#}-Q_n|<10^{-25},\qquad |D_n^{\#}-D_n|<10^{-25}.$$*
+ |X_{p,l}^{\#}-X_{p,l}|<10^{-14}.$$ Separately, for every node $n\in12\mathbb Z+A$, using its residue $a\in A$ in (2.8), the prescribed rational values satisfy $$|Q_n^{\#}-Q_n|<10^{-25},\qquad |D_n^{\#}-D_n|<10^{-25}.$$*
 
 *Proof.* We verify the call hypotheses of Lemma B.1 before using its error bound, and then propagate the errors through the finite sums. The cosine calls defining the nodes and weights have real arguments $u=\alpha_v$ or $u=2a\alpha_v$, with $|u|<254$; hence $|p_*u|<3.142\cdot254<1000$ and $\Re(ip_*u)=0$. For real $u$, replacing $p_*$ by $\pi$ adds at most $|u|10^{-36}$. The telescoping coefficient sum in the weights is less than one, so $$\begin{aligned}
  |\tau_{jv}^{\#}-\tau_{jv}|
@@ -1121,7 +1464,7 @@ For real $t\in[0,1]$, the exact identities $$\begin{gathered}
  |z(t)|^2=h^2+\frac{B^2-2Bh^2}{t^2+h^2}\le\left(\frac{44}{15}\right)^2,\\
  \operatorname{Im}z(t)=h\left(\frac B{t^2+h^2}-1\right)
        \ge\frac{26}{435}>.0597
-\end{gathered}$$ use $B^2-2Bh^2=304/225>0$. They apply in particular at every rounded node before the floor in (cert:lambda-z-star). That floor lowers the imaginary part by less than $10^{-40}$ and changes the complex value by less than $2\cdot10^{-40}$. Thus $$\operatorname{Im}z_*\ge\frac{26}{435}-10^{-40}>0,
+\end{gathered}$$ use $B^2-2Bh^2=304/225>0$. They apply in particular at every rounded node before the floor in (B.3). That floor lowers the imaginary part by less than $10^{-40}$ and changes the complex value by less than $2\cdot10^{-40}$. Thus $$\operatorname{Im}z_*\ge\frac{26}{435}-10^{-40}>0,
  \qquad |z_*|<\frac{44}{15}+2\cdot10^{-40}<3.$$ For the exact transformed arguments, $100\pi|z(t)|<922$; for the rounded ones, $|p_*z_*m|<100(3.142)(3)<1000$ and $\Re(ip_*z_*m)=-p_*m\operatorname{Im}z_*\le0$. The exponential estimate already proved therefore applies to every transformed call as well.
 
 For a quadrature node write $t=\tau_{jv}$ and $t^{\#}=\tau_{jv}^{\#}$; at an atom put $t=t^{\#}=t_j$. Along the intervening real segment, $|t+ih|\ge h$ and $b,b_*>.86$. The derivative bounds for the reciprocal factors and the change of $b$ give $$\begin{aligned}
@@ -1138,11 +1481,11 @@ For a quadrature node write $t=\tau_{jv}$ and $t^{\#}=\tau_{jv}^{\#}$; at an ato
  +3(1.5\cdot10^6)(4\cdot10^{-27})
  +3(1.5\cdot10^{-22})<3\cdot10^{-20}.$$ The same bound applies to the direct factor.
 
-For completeness, the density estimate can be obtained without relying on cancellation. Its real exponential factors, including evaluation at a rounded node, have error less than $3.542\cdot10^{-34}+100(3.142(9\cdot10^{-34})+10^{-36})<3\cdot10^{-31}$. Let $A_n,B_n$ denote the inner sums in (cert:density) with and without the factor $t_l-t$, respectively, and put $\#$ on their replacements. On the common piece, $|t_l-t|,|t_l-t^{\#}|\le1$ for $l\ge j$. The displayed list for $P_l$ gives $\sum_{l=1}^6|P_l^{\#}-P_l|<7\cdot10^{-36}$ and $\sum_{l=1}^6|P_l^{\#}|<11$. Hence $|A_n^{\#}|,|B_n^{\#}|<22$ and $$\begin{aligned}
+For completeness, the density estimate can be obtained without relying on cancellation. Its real exponential factors, including evaluation at a rounded node, have error less than $3.542\cdot10^{-34}+100(3.142(9\cdot10^{-34})+10^{-36})<3\cdot10^{-31}$. Let $A_n,B_n$ denote the inner sums in (A.7) with and without the factor $t_l-t$, respectively, and put $\#$ on their replacements. On the common piece, $|t_l-t|,|t_l-t^{\#}|\le1$ for $l\ge j$. The displayed list for $P_l$ gives $\sum_{l=1}^6|P_l^{\#}-P_l|<7\cdot10^{-36}$ and $\sum_{l=1}^6|P_l^{\#}|<11$. Hence $|A_n^{\#}|,|B_n^{\#}|<22$ and $$\begin{aligned}
  |A_n^{\#}-A_n|,\ |B_n^{\#}-B_n|
  &<22(9\cdot10^{-34})+2(7\cdot10^{-36})\\
  &\quad+10(3\cdot10^{-31})<4\cdot10^{-30}.
-\end{aligned}$$ The bracket in (cert:density) has approximate magnitude at most $70(|c_n|+|d_n|)$ and error less than $1.3\cdot10^{-29}(|c_n|+|d_n|)$. Expanding the outer product once and using list norm at most three gives the pointwise bound $$\begin{aligned}
+\end{aligned}$$ The bracket in (A.7) has approximate magnitude at most $70(|c_n|+|d_n|)$ and error less than $1.3\cdot10^{-29}(|c_n|+|d_n|)$. Expanding the outer product once and using list norm at most three gives the pointwise bound $$\begin{aligned}
  |f_j^{\#}(t^{\#})-f_j(t)|
  &<2(10^{-36})(3)(2)(70)\\
  &\quad+2(3.142)(3)\bigl(70(3\cdot10^{-31})+1.3\cdot10^{-29}\bigr)\\
@@ -1162,18 +1505,18 @@ Finally, for the residue arguments the sine and cosine replacement errors are le
 
 We record stability estimates before applying any numerical margin. The first controls the two operator coordinates under errors in the moments and node constants. The second controls Bernstein sums from errors in the signed-$y$ moments.
 
-To propagate a moment radius, abbreviate $X_\ell=X_{p,\ell}(m,1)$ and write $\mathcal S_{m,c},\mathcal S_{m,d}$ for the two components of (cert:pair), with hats for their rational approximations. Suppose $|X_0|,|X_1|\le H$, $|D_m|\le d$, and rational approximations have errors at most $\epsilon,\epsilon,\eta_Q,\eta_D$ in $X_0,X_1,Q_m,D_m$, respectively. If both exact and approximate $Q_m$ exceed $q>0$, expanding the numerator and then the reciprocal in (cert:pair) gives $$\begin{equation}
-\label{ind:pair-stability}
+To propagate a moment radius, abbreviate $X_\ell=X_{p,\ell}(m,1)$ and write $\mathcal S_{m,c},\mathcal S_{m,d}$ for the two components of (A.11), with hats for their rational approximations. Suppose $|X_0|,|X_1|\le H$, $|D_m|\le d$, and rational approximations have errors at most $\epsilon,\epsilon,\eta_Q,\eta_D$ in $X_0,X_1,Q_m,D_m$, respectively. If both exact and approximate $Q_m$ exceed $q>0$, expanding the numerator and then the reciprocal in (A.11) gives $$\begin{equation}
+\tag{B.6}
  \max\{|\widehat{\mathcal S}_{m,c}-\mathcal S_{m,c}|,
         |\widehat{\mathcal S}_{m,d}-\mathcal S_{m,d}|\}
  \le \frac{(d+1+\eta_D)\epsilon+H\eta_D}{q}
        +\frac{(d+1)H\eta_Q}{q^2}.
-\end{equation}$$ For example, the perturbed second numerator differs by at most $(d+\eta_D)\epsilon+H\eta_D+\epsilon$, and the exact numerator is bounded by $(d+1)H$; this proves the inequality, which also dominates the first entry’s error. The Taylor budgets and the separated and common-kernel first-block estimates below use $q=7/4$ and $d=2.12$. The separate-rounding comparison uses $q=7/4$ and $d=4.3$. The rational lower bound $Q_m>197192/112500$ proved after (fourier:node-bounds) exceeds $7/4$ by $1268/450000$, so $\eta_Q\le10^{-25}$ also ensures that the approximate $Q_m$ exceeds $q$.
+\end{equation}$$ For example, the perturbed second numerator differs by at most $(d+\eta_D)\epsilon+H\eta_D+\epsilon$, and the exact numerator is bounded by $(d+1)H$; this proves the inequality, which also dominates the first entry’s error. The Taylor budgets and the separated and common-kernel first-block estimates below use $q=7/4$ and $d=2.12$. The separate-rounding comparison uses $q=7/4$ and $d=4.3$. The rational lower bound $Q_m>197192/112500$ proved after (2.9) exceeds $7/4$ by $1268/450000$, so $\eta_Q\le10^{-25}$ also ensures that the approximate $Q_m$ exceeds $q$.
 
 ##### Analytic pair-error allowance.
 
-For an input $p$ in the rational finite-input domain of Lemma B.2 and a row $m\in I_f$, define the rational version $\mathcal S_m^\#$ by using the quantities with superscript $\#$ throughout (cert:pair). We record the division estimate explicitly for both basis and full-table inputs. By (interpolation:piece-envelopes) and the atom masses there, the total variation of the folded measure for any input in the real finite-input domain of Lemma A.1 is at most $$3\sum_{j=1}^6\frac{M_j}{6}+\sum_{j=0}^6m_j^*=119.642<133.$$ On the real segment, $|\lambda|,|z|<3$ and $|e^{i\pi z m}|\le1$ for $m\ge0$. Thus, using $\pi<22/7$, $$|X_{p,0}(m,1)|<133(3)<400,\qquad
- |X_{p,1}(m,1)|<133(3)(3)(22/7)=3762<4000.$$ For this calculation abbreviate $X_j=X_{p,j}(m,1)$, $Q=Q_m$, and $D=D_m$. Write $\varepsilon=10^{-14}$ and $\delta=10^{-25}$. By Lemma B.2, the errors in $X_0,X_1$ are less than $\varepsilon$ and those in $Q,D$ are less than $\delta$. Equation (fourier:node-bounds) gives $Q>1.75$, $|D|<2.12$, and hence $Q^{\#}>1.7$. For $\mathcal A=DX_0-X_1$ and $\mathcal A^{\#}=D^{\#}X_0^{\#}-X_1^{\#}$, $$|\mathcal A|<4848,\qquad
+For an input $p$ in the rational finite-input domain of Lemma B.2 and a row $m\in I_f$, define the rational version $\mathcal S_m^\#$ by using the quantities with superscript $\#$ throughout (A.11). We record the division estimate explicitly for both basis and full-table inputs. By (3.3) and the atom masses there, the total variation of the folded measure for any input in the real finite-input domain of Lemma A.1 is at most $$3\sum_{j=1}^6\frac{M_j}{6}+\sum_{j=0}^6m_j^*=119.642<133.$$ On the real segment, $|\lambda|,|z|<3$ and $|e^{i\pi z m}|\le1$ for $m\ge0$. Thus, using $\pi<22/7$, $$|X_{p,0}(m,1)|<133(3)<400,\qquad
+ |X_{p,1}(m,1)|<133(3)(3)(22/7)=3762<4000.$$ For this calculation abbreviate $X_j=X_{p,j}(m,1)$, $Q=Q_m$, and $D=D_m$. Write $\varepsilon=10^{-14}$ and $\delta=10^{-25}$. By Lemma B.2, the errors in $X_0,X_1$ are less than $\varepsilon$ and those in $Q,D$ are less than $\delta$. Equation (2.9) gives $Q>1.75$, $|D|<2.12$, and hence $Q^{\#}>1.7$. For $\mathcal A=DX_0-X_1$ and $\mathcal A^{\#}=D^{\#}X_0^{\#}-X_1^{\#}$, $$|\mathcal A|<4848,\qquad
  |\mathcal A^{\#}-\mathcal A|<2.12\varepsilon+(400+\varepsilon)\delta+\varepsilon
              <3.121\cdot10^{-14}.$$ The two quotient differences are consequently bounded by $$\begin{aligned}
  \left|\frac{X_0^{\#}}{Q^{\#}}-\frac{X_0}{Q}\right|
@@ -1187,9 +1530,9 @@ For an input $p$ in the rational finite-input domain of Lemma B.2 and a row $m\
 
 #### Bernstein multipliers
 
-For every signed half-gap in Lemma 4.1, $y\ne0$ and $|y|^{-\nu}\le4$. Directly from (cert:moments), $$y^{-\nu}\bigl(U_{p,r+\nu}(m,y)+X_{q,r+\nu}(m,y)\bigr)
- =y^r\bigl(U_{p,r+\nu}(m,1)+X_{q,r+\nu}(m,1)\bigr).$$ This identity also holds for negative $y$ and gives exactly the power coefficients of (cert:power-from-moments); it does not replace their derivatives by interpolated jets. Two moment errors less than $10^{-14}$ give a $T_r$ error less than $8\cdot10^{-14}$. For fixed $0\le k\le28$, the rational recurrence $a_0=1$ and $a_r=a_{r-1}(k+1-r)/(29-r)$ satisfies $$\begin{equation}
-\label{ind:bernstein-multiplier}
+For every signed half-gap in Lemma 4.1, $y\ne0$ and $|y|^{-\nu}\le4$. Directly from (A.5), $$y^{-\nu}\bigl(U_{p,r+\nu}(m,y)+X_{q,r+\nu}(m,y)\bigr)
+ =y^r\bigl(U_{p,r+\nu}(m,1)+X_{q,r+\nu}(m,1)\bigr).$$ This identity also holds for negative $y$ and gives exactly the power coefficients of (A.12); it does not replace their derivatives by interpolated jets. Two moment errors less than $10^{-14}$ give a $T_r$ error less than $8\cdot10^{-14}$. For fixed $0\le k\le28$, the rational recurrence $a_0=1$ and $a_r=a_{r-1}(k+1-r)/(29-r)$ satisfies $$\begin{equation}
+\tag{B.7}
  a_r=\prod_{j=1}^r\frac{k+1-j}{29-j}
  =\frac{k!}{(k-r)!}\frac{(28-r)!}{28!}
  =\frac{\binom{k}{r}}{\binom{28}{r}}\qquad(0\le r\le k).
@@ -1197,17 +1540,17 @@ For every signed half-gap in Lemma 4.1, $y\ne0$ and $|y|^{-\nu}\le4$. Directly 
 
 ### An independent rational check of the first block
 
-The optional program checks the $6\times6$ block on $J=\{1,3,4\}$ by exact rational arithmetic. It uses the cosine rule (cert:rule) with $N=64$ and the sum over $1\le a\le31$, and otherwise the rounded exponential, kernels and basis densities specified above. There are no atom terms for these basis inputs. The following error bound makes this smaller check independent of the full Arb calculation.
+The optional program checks the $6\times6$ block on $J=\{1,3,4\}$ by exact rational arithmetic. It uses the cosine rule (A.6) with $N=64$ and the sum over $1\le a\le31$, and otherwise the rounded exponential, kernels and basis densities specified above. There are no atom terms for these basis inputs. The following error bound makes this smaller check independent of the full Arb calculation.
 
 **Lemma B.3**. *For each basis input $c_n=1$ or $d_n=1$, $n\in J$, with all other data zero, and each output node $m\in J$, the rational program computes both entries of $\mathcal S_m(p)$ with absolute error less than $10^{-12}$.*
 
 *Proof.* We separate quadrature error from rounding in the finite sum. Use the same complex disks of radius $1/6$ as in Lemma A.1. The basis density on any disk is bounded by $$D_0=2\pi^2\cdot10\cdot\frac{13}{12}e^{4\pi/6}.$$ This also bounds a simple-pole basis density. The bounds $|\lambda|<5$, $|z|<6.2$ and $\operatorname{Im}z>-.081$ proved there show that the transformed value and first-derivative integrands are bounded respectively by $$M_0=5D_0e^{4\pi\cdot.081}<24028,
- \qquad M_1=6.2\pi M_0<468015.$$ Use the rational upper bound $e^x\le\mathcal E_n(x)$ from (ind:positive-exponential). Put $\overline\pi=p_*+10^{-36}>\pi$. Here $x=743\overline\pi/750$ lies in $[0,4)$, so the formula applies with $n=40$. Using $M_0=(325/3)\pi^2e^{743\pi/750}$, the exact rational comparisons $$\frac{325}{3}\overline\pi^2 \mathcal E_{40}(743\overline\pi/750)<24028,
+ \qquad M_1=6.2\pi M_0<468015.$$ Use the rational upper bound $e^x\le\mathcal E_n(x)$ from (B.2). Put $\overline\pi=p_*+10^{-36}>\pi$. Here $x=743\overline\pi/750$ lies in $[0,4)$, so the formula applies with $n=40$. Using $M_0=(325/3)\pi^2e^{743\pi/750}$, the exact rational comparisons $$\frac{325}{3}\overline\pi^2 \mathcal E_{40}(743\overline\pi/750)<24028,
  \qquad
  \frac{31}{5}\overline\pi\,
  \frac{325}{3}\overline\pi^2 \mathcal E_{40}(743\overline\pi/750)<468015$$ prove the displayed bounds for $M_0,M_1$. Each comparison is a fraction inequality after clearing positive denominators; no rounded decimal evaluation of an exponential is used. Discrete cosine orthogonality now gives exactness through degree $63$. The weights sum to one and each is at least $1/(64\cdot63)>0$ by the same telescoping identity. Cauchy’s estimate on the half-radius real segments bounds the degree-$63$ Taylor tails by $M_i2^{-63}$. The integral and quadrature have total mass one, after combining all six pieces. Thus their discrepancies in the two moments are at most $$\epsilon_0=2^{-62}M_0<5.211\cdot10^{-15},\qquad
- \epsilon_1=2^{-62}M_1<1.015\cdot10^{-13}.$$ Using $Q_m>1.75$ and $|D_m|<2.12$, the quadrature error in either entry of (cert:pair) is consequently less than $$\begin{equation}
-\label{cert:rational-small-quadrature}
+ \epsilon_1=2^{-62}M_1<1.015\cdot10^{-13}.$$ Using $Q_m>1.75$ and $|D_m|<2.12$, the quadrature error in either entry of (A.11) is consequently less than $$\begin{equation}
+\tag{B.8}
  \frac{2.12\epsilon_0+\epsilon_1}{1.75}<6.432\cdot10^{-14}.
 \end{equation}$$
 
@@ -1215,15 +1558,15 @@ For completeness, two changes in the rational implementation require care in reu
 
 Second, with $N=64$, the sum of the absolute cosine coefficients in one weight is less than one. Including the final floor, the weight error is therefore at most $$\frac{2\cdot10^{-32}}N+10^{-40}
  <\frac{10^{-29}}N.$$ Summing the stronger first expression, rather than the relaxed bound on the right, gives the total weight error $$\begin{equation}
-\label{cert:rational-small-weight-total}
+\tag{B.9}
  N\left(\frac{2\cdot10^{-32}}N+10^{-40}\right)
  =2\cdot10^{-32}+64\cdot10^{-40}<3\cdot10^{-32}.
 \end{equation}$$ The node error is less than $2\cdot10^{-32}/12<2\cdot10^{-33}$. The exact nodes are at distance at least $1/98304$ from the endpoints of their own interval $[(j-1)/6,j/6]$, since $1-\cos(\pi/128)\ge2/128^2$. Thus the approximate nodes remain in their own intervals, in particular in $[0,1]$. Their transformed frequencies have positive imaginary part even after the floor, because $\operatorname{Im}z\ge26/435$ there. The real-segment estimates in the proof of Lemma B.2 also give $|z_*|<3$. Thus every transformed call has its argument in the closed left half-plane and satisfies $|p_*z_*m|<3.142(3)(4)<1000$.
 
 Here is a direct propagation bound for these smaller inputs. The real-segment estimates are $|\lambda|<3$, $|z|<3$, and basis-density modulus less than $214$. For one piece put $$A_n=\sum_{l=j}^6P_le^{i\pi t_ln},\qquad
- B_n=\sum_{l=j}^6t_lP_le^{i\pi t_ln}.$$ Their moduli are at most ten. Replacing $b$ and the real exponentials changes each sum by less than $3\cdot10^{-31}$; including the node movement changes $B_n-tA_n$ by less than $7\cdot10^{-31}$. The phase $e^{-i\pi tn}$ changes by less than $5\cdot10^{-32}$, since $n\le4$. Substitution in (fourier:folded) therefore gives a density error less than $3\cdot10^{-29}$. The derivatives of the rational kernels, using $b,b_*>4/5$ and $|t+ih|\ge2/5$, give errors less than $2\cdot10^{-32}$ in both $\lambda$ and $z$, including their floors. The first-difference formula for exponentials in the closed left half-plane, with $m\le4$, then bounds the errors in $$g_0(t)=\lambda(t)e^{i\pi mz(t)},\qquad
+ B_n=\sum_{l=j}^6t_lP_le^{i\pi t_ln}.$$ Their moduli are at most ten. Replacing $b$ and the real exponentials changes each sum by less than $3\cdot10^{-31}$; including the node movement changes $B_n-tA_n$ by less than $7\cdot10^{-31}$. The phase $e^{-i\pi tn}$ changes by less than $5\cdot10^{-32}$, since $n\le4$. Substitution in (2.14) therefore gives a density error less than $3\cdot10^{-29}$. The derivatives of the rational kernels, using $b,b_*>4/5$ and $|t+ih|\ge2/5$, give errors less than $2\cdot10^{-32}$ in both $\lambda$ and $z$, including their floors. The first-difference formula for exponentials in the closed left half-plane, with $m\le4$, then bounds the errors in $$g_0(t)=\lambda(t)e^{i\pi mz(t)},\qquad
  g_1(t)=g_0(t)i\pi z(t)$$ by $2\cdot10^{-30}$ and $3\cdot10^{-29}$, respectively. The exact factors have moduli below $3$ and $36$; their approximations have moduli below $4$ and $37$. Product differences bound each derivative-integrand error by $$3\cdot10^{-29}\cdot37+214\cdot3\cdot10^{-29}
- <8\cdot10^{-27};$$ the value-integrand bound is smaller. By (cert:rational-small-weight-total), the total absolute weight error is below $3\cdot10^{-32}$, and the approximate integrands have modulus below $10^4$. Hence each rounded moment differs from its exact finite quadrature moment by less than $10^{-26}$.
+ <8\cdot10^{-27};$$ the value-integrand bound is smaller. By (B.9), the total absolute weight error is below $3\cdot10^{-32}$, and the approximate integrands have modulus below $10^4$. Hence each rounded moment differs from its exact finite quadrature moment by less than $10^{-26}$.
 
 Finally, for residues $1,3,4$, the exact polynomial forms are $$\begin{gathered}
  Q_1=Q_3=\frac{4\pi^2}{3}(1-b),\qquad Q_4=\frac{\pi^2}{3},\\
@@ -1234,7 +1577,7 @@ Finally, for residues $1,3,4$, the exact polynomial forms are $$\begin{gathered}
  &<\max\{(4/3)(6.3+10),\,6.3/3\}10^{-36}<3\cdot10^{-35},\\
  |D_m^\#-D_m|
  &<\max\{(5+44/7)/18,\,29/9\}10^{-36}<4\cdot10^{-36}.
-\end{aligned}$$ The exact rational lower bound used after (ind:pair-stability) therefore shows that both denominators $Q_m,Q_m^\#$ exceed $7/4$. The moments have modulus below $10^4$, so the additional division and $D_m$ errors are less than $4\cdot10^{-31}$. Together with (cert:rational-small-quadrature), these bounds give an error less than $7\cdot10^{-14}<10^{-12}$ in either matrix entry, as asserted. ◻
+\end{aligned}$$ The exact rational lower bound used after (B.6) therefore shows that both denominators $Q_m,Q_m^\#$ exceed $7/4$. The moments have modulus below $10^4$, so the additional division and $D_m$ errors are less than $4\cdot10^{-31}$. Together with (B.8), these bounds give an error less than $7\cdot10^{-14}<10^{-12}$ in either matrix entry, as asserted. ◻
 
 If every entry of this $6\times6$ matrix has error below $\varepsilon=10^{-12}$, its induced column-norm error is below $6\varepsilon$. The program accordingly enlarges the computed defect norm by $\|W_\eta\|_1\,6\varepsilon$, then verifies that the result is below $.003$ and that the resulting inverse bound is below $32$. This is the same perturbation-of-identity argument as in Section A.4. It checks both small inverse certificates without asserting that the full $N=256$ rational prescription has been executed.
 
@@ -1250,32 +1593,32 @@ The preceding $N=64$ proof separates the value and derivative integrands. Two co
 #### A common kernel majorant
 
 The rational comparisons $$\begin{equation}
-\label{ind:small-exponentials}
+\tag{B.10}
  \mathcal E_{32}(44/21)<42/5,\qquad
  \mathcal E_{32}(891/875)<14/5
-\end{equation}$$ follow by clearing positive denominators in (ind:positive-exponential); both arguments are nonnegative and less than $34$. Since $4\pi/6<44/21$ and $4\pi(.081)<891/875$, the two basis densities on the complex disks satisfy $$\begin{aligned}
+\end{equation}$$ follow by clearing positive denominators in (B.2); both arguments are nonnegative and less than $34$. Since $4\pi/6<44/21$ and $4\pi(.081)<891/875$, the two basis densities on the complex disks satisfy $$\begin{aligned}
  |u_n(t)|&<2(22/7)^2(65/6)(42/5)=12584/7<1800,\\
  |v_n(t)|&<2(22/7)10(42/5)=3696/7<1800.
 \end{aligned}$$ The bounds $|\lambda|<5$, $|e^{i\pi zm}|<2.8$, and $\pi|z|<6.2\pi<20$ therefore bound both transformed integrands by $1800(5)(2.8)(20)=504000<10^6$. The positive degree-63 rule and the half-radius Cauchy estimate give, for each moment, $$\begin{equation}
-\label{ind:small-kernel-quadrature}
+\tag{B.11}
  |X_\ell-X_{\ell,\mathrm{quad}}|\le10^6 2^{-62}<2.17\cdot10^{-13}.
 \end{equation}$$ The factor two here compares the integral and quadrature averages; a direct Taylor average has only one tail, as in Lemma B.4.
 
-The rounding proof in Section B.4 applies to these same inputs and gives finite moment-rounding error below $10^{-26}$, hence below $10^{-14}$. It also gives $|X_0|,|X_1|<10^4$, $|\delta Q|<3\cdot10^{-35}$, $|\delta D|<4\cdot10^{-36}$, and both denominators above $7/4$. Thus the total moment allowance is $2.27\cdot10^{-13}$. In (ind:pair-stability), the additional $Q,D$ contribution is less than $$\frac{10^4(4\cdot10^{-36})+(4\cdot10^{-36})(2.27\cdot10^{-13})}{7/4}
+The rounding proof in Section B.4 applies to these same inputs and gives finite moment-rounding error below $10^{-26}$, hence below $10^{-14}$. It also gives $|X_0|,|X_1|<10^4$, $|\delta Q|<3\cdot10^{-35}$, $|\delta D|<4\cdot10^{-36}$, and both denominators above $7/4$. Thus the total moment allowance is $2.27\cdot10^{-13}$. In (B.6), the additional $Q,D$ contribution is less than $$\frac{10^4(4\cdot10^{-36})+(4\cdot10^{-36})(2.27\cdot10^{-13})}{7/4}
  +\frac{3.12\cdot10^4(3\cdot10^{-35})}{(7/4)^2}<4\cdot10^{-31}.$$ Consequently $$\begin{equation}
-\label{ind:small-kernel-entry}
+\tag{B.12}
  \frac{3.12(2.27\cdot10^{-13})}{1.75}+4\cdot10^{-31}
  <4.1\cdot10^{-13}<10^{-12}.
 \end{equation}$$
 
 #### A separate rounding majorant
 
-The weaker bounds $e^{4\pi/6}<9$ and $e^{4\pi(.081)}<3$ also follow from (ind:small-exponentials). They bound either basis density by $2500$; for the larger density, $2(22/7)^2(65/6)9<2500$. With the kernel bound $5$ and derivative factor $6.2\pi<20$, this gives the distinct common majorant $M=2500(5)(3)(20)=750000$. Its moment quadrature radius is $$\begin{equation}
-\label{ind:small-rounding-quadrature}
+The weaker bounds $e^{4\pi/6}<9$ and $e^{4\pi(.081)}<3$ also follow from (B.10). They bound either basis density by $2500$; for the larger density, $2(22/7)^2(65/6)9<2500$. With the kernel bound $5$ and derivative factor $6.2\pi<20$, this gives the distinct common majorant $M=2500(5)(3)(20)=750000$. Its moment quadrature radius is $$\begin{equation}
+\tag{B.13}
  \varepsilon_q=750000\,2^{-62}
  <1.626303258728257\cdot10^{-13}.
-\end{equation}$$ Using $|D_m|<4.3$ and $Q_m>7/4$, the pair quadrature error is less than $(5.3/(7/4))\varepsilon_q<4.926\cdot10^{-13}$. The same finite rounding allowance below $10^{-14}$ applies because the schedule and inputs have not changed. Substitution of the same polynomial $Q,D$ errors in (ind:pair-stability), now with $d=4.3$, bounds their additional contribution by $6\cdot10^{-31}$. Therefore $$\begin{equation}
-\label{ind:small-rounding-entry}
+\end{equation}$$ Using $|D_m|<4.3$ and $Q_m>7/4$, the pair quadrature error is less than $(5.3/(7/4))\varepsilon_q<4.926\cdot10^{-13}$. The same finite rounding allowance below $10^{-14}$ applies because the schedule and inputs have not changed. Substitution of the same polynomial $Q,D$ errors in (B.6), now with $d=4.3$, bounds their additional contribution by $6\cdot10^{-31}$. Therefore $$\begin{equation}
+\tag{B.14}
  \frac{5.3}{7/4}\bigl(750000\,2^{-62}+10^{-14}\bigr)
        +6\cdot10^{-31}<5.23\cdot10^{-13}<10^{-12}.
 \end{equation}$$
@@ -1284,114 +1627,112 @@ All three routes support the program’s $10^{-12}$ entry radius. They do not ex
 
 ### Rational-center Taylor integration
 
-For a finite input in the real moment domain of Lemma A.1, let $F^U_{j,\ell}$ and $F^X_{j,\ell}$ be the density (cert:density) multiplied by the respective factors in (cert:analytic-factors). The input is supported on nodes at most $100$, has coefficient-list norm at most $3$ and $|C|\le1$, and the parameters satisfy $0\le m\le100$, $|y|\le3/2$, and $\ell\in\{0,\ldots,30\}$. The coefficients, $C,m,y$ are rational when a rational enclosure is requested. The six centers and the two radii are $$\begin{equation}
-\label{ind:centers}
+For a finite input in the real moment domain of Lemma A.1, let $F^U_{j,\ell}$ and $F^X_{j,\ell}$ be the density (A.7) multiplied by the respective factors in (A.8). The input is supported on nodes at most $100$, has coefficient-list norm at most $3$ and $|C|\le1$, and the parameters satisfy $0\le m\le100$, $|y|\le3/2$, and $\ell\in\{0,\ldots,30\}$. The coefficients, $C,m,y$ are rational when a rational enclosure is requested. The six centers and the two radii are $$\begin{equation}
+\tag{B.15}
  c_j=\frac{2j-1}{12},\qquad R=\frac16,\qquad a=\frac1{12}
  \quad(1\le j\le6).
 \end{equation}$$ Each $F^U_{j,\ell}$ and $F^X_{j,\ell}$ is analytic on a neighborhood of $|t-c_j|\le R$: the input list is finite and the only rational-kernel pole, $-ih$, is outside that disk. This analytic assertion is made for finite inputs. An arbitrary $\ell^1$ list need not give a complex-frequency density analytic on these disks.
 
 **Lemma B.4** (Taylor averages with rational coefficient radii). *Suppose $F(c_j+x)=\sum_{k\ge0}A_kx^k$ is analytic on a neighborhood of $|x|\le R$ and $|F|\le M$ there. Let $D\ge0$ be an integer. For $0\le k\le D$, suppose $\widehat A_k\in\mathbb Q(i)$ and $e_k\in\mathbb Q_{\ge0}$ satisfy $|A_k-\widehat A_k|\le e_k$. Then $$\begin{align}
-\label{ind:taylor-average-error}
+\tag{B.16}
  \left|6\int_{t_{j-1}}^{t_j}F(t)\,\mathop{}\!\mathrm dt-
        \sum_{2r\le D}\widehat A_{2r}\frac{a^{2r}}{2r+1}\right|
  \le M2^{-D}+\sum_{2r\le D}e_{2r}\frac{a^{2r}}{2r+1}.
 \end{align}$$ If the final sum of radii is at most $\delta$ for each of the six pieces, their combined integral has error at most $M2^{-D}+\delta$. Discrete atoms are not included in this estimate and are to be enclosed separately.*
 
 *Proof.* Since $2a=1/6$, the expression $6\int F$ is the interval average. The average of $x^k$ on $[-a,a]$ is zero for odd $k$ and is $a^k/(k+1)$ for even $k$. Thus the degree-$D$ Taylor polynomial has the exact average $$\begin{equation}
-\label{ind:even-average}
+\tag{B.17}
  \sum_{2r\le D} A_{2r}\frac{a^{2r}}{2r+1}.
 \end{equation}$$ Cauchy’s estimate gives $|A_k|\le M R^{-k}$. Bounding the average of the absolute tail by its supremum on $[-a,a]$ gives the conservative bound $$M\sum_{k>D}(a/R)^k=M\sum_{k>D}2^{-k}=M2^{-D}.$$ Replacing the even coefficients adds the displayed weighted sum of their radii. Finally, each of the six integrals is $1/6$ times its average, so the six factors $1/6$ sum to one. Taking a real part cannot increase the error. Atoms have no integral tail of this kind. ◻
 
 Here are explicit rational operations for obtaining the coefficient enclosures in this lemma. Write $\mathcal B(a,r)=\{w\in\mathbb C:|w-a|\le r\}$, where $a\in\mathbb Q(i)$ and $r\in\mathbb Q_{\ge0}$, and put $\langle a\rangle_1=|\Re a|+|\Im a|$. The following enclosure operations use rational centers and radii: $$\begin{align}
-\label{ind:ball-operations}
  \mathcal B(a,r)+\mathcal B(b,s)&\subseteq\mathcal B(a+b,r+s),\nonumber\\
  \mathcal B(a,r)\mathcal B(b,s)&\subseteq
  \mathcal B\bigl(ab,\langle a\rangle_1s+\langle b\rangle_1r+rs\bigr),\nonumber\\
  \mathcal B(a,r)^{-1}&\subseteq\mathcal B(a^{-1},r/\ell_0^2)
- \quad\text{if }0<\ell_0\le |a|-r.
+ \quad\text{if }0<\ell_0\le |a|-r.\tag{B.18}
 \end{align}$$ In the last line $a^{-1}\in\mathbb Q(i)$, and the condition on a rational $\ell_0$ can be checked by squaring rational quantities. The bound follows from $|w^{-1}-a^{-1}|=|w-a|/(|w||a|)$. These operations allow repeated use of the same enclosure; possible dependence between its occurrences does not invalidate inclusion.
 
-Constant exponentials also admit arbitrarily small rational radii. Use the rational bounds $\mathcal T_n,\mathcal E_n$ from (ind:positive-exponential). If $w\in\mathcal B(w_0,r)$, choose rational $q\ge|w_0|$, for example $q=\langle w_0\rangle_1$, and nonnegative integers $n,s$ with $q<n+2$ and $q+r<s+2$. Then $$\begin{equation}
-\label{ind:constant-exponential}
+Constant exponentials also admit arbitrarily small rational radii. Use the rational bounds $\mathcal T_n,\mathcal E_n$ from (B.2). If $w\in\mathcal B(w_0,r)$, choose rational $q\ge|w_0|$, for example $q=\langle w_0\rangle_1$, and nonnegative integers $n,s$ with $q<n+2$ and $q+r<s+2$. Then $$\begin{equation}
+\tag{B.19}
  e^w\in\mathcal B\left(\sum_{k=0}^n\frac{w_0^k}{k!},
        \mathcal T_n(q)+r\mathcal E_s(q+r)\right).
-\end{equation}$$ Indeed, the first radius bounds the complex Taylor tail at $w_0$. The integral first-difference formula for $e^w$ bounds the change from $w_0$ to $w$ by $r e^{q+r}$, giving the second radius. Both preconditions in (ind:positive-exponential) are explicit; no estimate of a positive exponential by a truncated sum alone is being used. For bounded $q$, $\mathcal T_n(q)\to0$ as $n\to\infty$.
+\end{equation}$$ Indeed, the first radius bounds the complex Taylor tail at $w_0$. The integral first-difference formula for $e^w$ bounds the change from $w_0$ to $w$ by $r e^{q+r}$, giving the second radius. Both preconditions in (B.2) are explicit; no estimate of a positive exponential by a truncated sum alone is being used. For bounded $q$, $\mathcal T_n(q)\to0$ as $n\to\infty$.
 
 For clarity, the coefficient recurrences needed for the present integrands are as follows. If $a(x)=\sum a_kx^k$ and $b(x)=\sum b_kx^k$, multiplication is convolution, $$\begin{equation}
-\label{ind:convolution}
+\tag{B.20}
  (ab)_k=\sum_{v=0}^k a_v b_{k-v}.
 \end{equation}$$ If $a_v\in\mathcal B(\widehat a_v,e_v)$ and $b_v\in\mathcal B(\widehat b_v,f_v)$, a rational radius for the center $\sum_{v=0}^k\widehat a_v\widehat b_{k-v}$ is explicitly $$\sum_{v=0}^k\left(\langle\widehat a_v\rangle_1f_{k-v}
        +\langle\widehat b_{k-v}\rangle_1e_v+e_vf_{k-v}\right).$$ For a reciprocal series $q(x)=a(x)^{-1}$ with $a_0\ne0$, and for an exponential series $E(x)=e^{g(x)}$, the recurrences are $$\begin{align}
-\label{ind:reciprocal-exponential-recurrences}
  q_0&=a_0^{-1},&
  q_k&=-q_0\sum_{v=1}^k a_vq_{k-v}\quad(k\ge1),\nonumber\\
  E_0&=e^{g_0},&
- E_k&=\frac1k\sum_{v=1}^k v g_v E_{k-v}\quad(k\ge1).
-\end{align}$$ The second line follows by comparing coefficients in $E'=g'E$. Use (ind:constant-exponential) for $E_0$ and (ind:ball-operations) in these recurrences. Along with the displayed convolution radius, this specifies a rational radius for every coefficient, not merely a formal power series.
+ E_k&=\frac1k\sum_{v=1}^k v g_v E_{k-v}\quad(k\ge1).\tag{B.21}
+\end{align}$$ The second line follows by comparing coefficients in $E'=g'E$. Use (B.19) for $E_0$ and (B.18) in these recurrences. Along with the displayed convolution radius, this specifies a rational radius for every coefficient, not merely a formal power series.
 
 More particularly, $d_j=c_j+ih\in\mathbb Q(i)$ and $$\begin{equation}
-\label{ind:kernel-recurrences}
+\tag{B.22}
  r_0=d_j^{-1},\quad r_{k+1}=-r_k/d_j,\qquad
  \lambda_k=ir_k/b,\quad z_0=-Br_0-ih,\quad z_k=-Br_k\ (k\ge1)
 \end{equation}$$ are the coefficients of $(t+ih)^{-1}$, $\lambda(t)$, and $z(t)$ at $t=c_j+x$. The $r_k,z_k$ are rational complex numbers; an enclosure for $b^{-1}$ gives the radii for $\lambda_k$. On piece $j$, put $$L_{n,j}=\sum_{v=j}^6P_v e^{i\pi t_vn},\qquad
  H_{n,j}=\sum_{v=j}^6t_vP_v e^{i\pi t_vn}.$$ For $\Phi_n(x)=e^{-i\pi n(c_j+x)}$, use $\phi_{n,0}=e^{-i\pi nc_j}$ and $\phi_{n,k+1}=(-i\pi n)\phi_{n,k}/(k+1)$. The density is then the finite series expression $$\begin{equation}
-\label{ind:density-recurrence}
+\tag{B.23}
  f_j(c_j+x)=2\pi\sum_n\Phi_n(x)
    \left\{-\pi c_n\bigl(H_{n,j}-(c_j+x)L_{n,j}\bigr)+id_nL_{n,j}\right\}.
-\end{equation}$$ The constant exponentials in $L_{n,j},H_{n,j},\phi_{n,0}$ are enclosed by (ind:constant-exponential). For a series $v(x)$ equal to $c_j+x$ or $z(c_j+x)$, the divided powers obey $$\begin{equation}
-\label{ind:divided-power-recurrence}
+\end{equation}$$ The constant exponentials in $L_{n,j},H_{n,j},\phi_{n,0}$ are enclosed by (B.19). For a series $v(x)$ equal to $c_j+x$ or $z(c_j+x)$, the divided powers obey $$\begin{equation}
+\tag{B.24}
  V_0(x)=1,\qquad V_{\ell+1}(x)=
        \frac{V_\ell(x)\,i\pi y v(x)}{\ell+1}.
 \end{equation}$$ Finally apply the exponential recurrence to $g=i\pi m(c_j+x)$ or $g=i\pi m z(c_j+x)$, and multiply the resulting series by the density, the divided power, and, in the transformed case, $\lambda$. Truncating these recurrences after degree $D$ gives every coefficient through $D$ exactly at the level of formal series; omitted higher coefficients cannot enter a lower convolution coefficient.
 
-The seven possible atoms are handled separately. At $t_j$, enclose their masses $e_jCP_j$ and the appropriate factor in (cert:analytic-factors) by the same rational operations and constant exponential bound. If their respective centers and radii are $(a_j,r_j)$ and $(g_j,s_j)$, their product has radius $$\begin{equation}
-\label{ind:atom-radii}
+The seven possible atoms are handled separately. At $t_j$, enclose their masses $e_jCP_j$ and the appropriate factor in (A.8) by the same rational operations and constant exponential bound. If their respective centers and radii are $(a_j,r_j)$ and $(g_j,s_j)$, their product has radius $$\begin{equation}
+\tag{B.25}
  \eta_j=\langle a_j\rangle_1s_j+\langle g_j\rangle_1r_j+r_js_j.
 \end{equation}$$ The sum $\eta=\sum_{j=0}^6\eta_j$ is added to the six-piece error; there is no Taylor integration tail for an atom. When $C=0$, all these terms vanish.
 
-All of these radii can be refined effectively. Alternating rational arctangent sums in Machin’s identity enclose $\pi$ to arbitrarily small width, and rational bisection of the positive square root of $3/4$ does the same for $b$. The kernel denominators have $|c_j+ih|\ge h=2/5$, and $b>4/5$. Taking real and imaginary parts of the constant exponential enclosures also encloses cosine and sine with the same radius. The nonzero sine denominators in (fourier:node-data) have modulus greater than $1/4$. Consequently sufficiently refined enclosures certify fixed positive lower bounds for the moduli of all denominators used above or in computing $Q_m,D_m$, and separately a positive lower bound for $Q_m$ at pair division. For each fixed $D$ there are finitely many operations in (ind:convolution)–(ind:divided-power-recurrence). Their radius formulas tend to zero when their input radii tend to zero, while (ind:constant-exponential) has radius tending to zero by refining its input and increasing its two truncation orders. Thus one may refine the rational inputs and exponential orders, recompute the displayed rational radii, and stop when any prescribed finite collection of positive coefficient and atom budgets holds. The convergence just proved ensures that this rational stopping test terminates. This is a computability statement for each specified finite set of inputs, not a claim that any of its moment sums have been evaluated.
+All of these radii can be refined effectively. Alternating rational arctangent sums in Machin’s identity enclose $\pi$ to arbitrarily small width, and rational bisection of the positive square root of $3/4$ does the same for $b$. The kernel denominators have $|c_j+ih|\ge h=2/5$, and $b>4/5$. Taking real and imaginary parts of the constant exponential enclosures also encloses cosine and sine with the same radius. The nonzero sine denominators in (2.8) have modulus greater than $1/4$. Consequently sufficiently refined enclosures certify fixed positive lower bounds for the moduli of all denominators used above or in computing $Q_m,D_m$, and separately a positive lower bound for $Q_m$ at pair division. For each fixed $D$ there are finitely many operations in (B.20)–(B.24). Their radius formulas tend to zero when their input radii tend to zero, while (B.19) has radius tending to zero by refining its input and increasing its two truncation orders. Thus one may refine the rational inputs and exponential orders, recompute the displayed rational radii, and stop when any prescribed finite collection of positive coefficient and atom budgets holds. The convergence just proved ensures that this rational stopping test terminates. This is a computability statement for each specified finite set of inputs, not a claim that any of its moment sums have been evaluated.
 
 We next make sufficient budgets explicit. Put $h_D=\lfloor D/2\rfloor+1$. For rational $\delta>0$, the conditions $$\begin{equation}
-\label{ind:coefficient-budget}
+\tag{B.26}
  e_{j,2r}\le \frac{\delta(2r+1)12^{2r}}{h_D}
  \quad(0\le2r\le D)
-\end{equation}$$ on each piece and moment imply that the weighted coefficient-radius sum in (ind:taylor-average-error) is at most $\delta$.
+\end{equation}$$ on each piece and moment imply that the weighted coefficient-radius sum in (B.16) is at most $\delta$.
 
-We now combine these integration budgets with the pair estimate (ind:pair-stability) and the Bernstein estimate from Section B.3.1.
+We now combine these integration budgets with the pair estimate (B.6) and the Bernstein estimate from Section B.3.1.
 
 **Proposition B.5** (Two conditional Taylor budgets). *The following choices give sufficient rational error enclosures for the same finite quantities used in Appendix A.*
 
-*For a basis input at $n\in J=\{1,3,4\}$, a row $m\in J$, $y=1$, and $\ell=0,1$, take $D=63$, $h_D=32$, $M=10^6$, and $\delta=10^{-14}$ in (ind:coefficient-budget). There are no atoms. If $Q_m,D_m$ have rational errors at most $10^{-25}$, either entry of (cert:pair) has error less than $2.13\cdot10^{-13}<10^{-12}$.*
+*For a basis input at $n\in J=\{1,3,4\}$, a row $m\in J$, $y=1$, and $\ell=0,1$, take $D=63$, $h_D=32$, $M=10^6$, and $\delta=10^{-14}$ in (B.26). There are no atoms. If $Q_m,D_m$ have rational errors at most $10^{-25}$, either entry of (A.11) has error less than $2.13\cdot10^{-13}<10^{-12}$.*
 
-*For the full rational finite-input domain at the start of this subsection, take $D=255$, $h_D=128$, $M=10^{53}$, and $\delta=4\cdot10^{-15}$ in (ind:coefficient-budget), and require each of the seven atom-product radii in (ind:atom-radii) to be at most $4\cdot10^{-15}/7$. Each $U$ and $X$ moment then has error less than $10^{-14}$. For node rows $m\in I_f$, with rational $Q_m,D_m$ errors at most $10^{-25}$, either entry of (cert:pair) has error less than $1.8\cdot10^{-14}$.*
+*For the full rational finite-input domain at the start of this subsection, take $D=255$, $h_D=128$, $M=10^{53}$, and $\delta=4\cdot10^{-15}$ in (B.26), and require each of the seven atom-product radii in (B.25) to be at most $4\cdot10^{-15}/7$. Each $U$ and $X$ moment then has error less than $10^{-14}$. For node rows $m\in I_f$, with rational $Q_m,D_m$ errors at most $10^{-25}$, either entry of (A.11) has error less than $1.8\cdot10^{-14}$.*
 
-*Proof.* The first-block majorant $10^6$ is proved in Section B.5.1. Lemma B.4 gives $$\epsilon\le10^6 2^{-63}+10^{-14}<1.19\cdot10^{-13}.$$ On the real interval a basis density has modulus below $214$, $|\lambda|<3$, and $\pi|z|<10$; thus the two exact moments have modulus below $10^4$. Substitution of $H=10^4$, $q=7/4$, $d=2.12$, and $\eta_Q=\eta_D=10^{-25}$ in (ind:pair-stability) gives $$\frac{(3.12+10^{-25})1.19\cdot10^{-13}+10^4 10^{-25}}{7/4}
+*Proof.* The first-block majorant $10^6$ is proved in Section B.5.1. Lemma B.4 gives $$\epsilon\le10^6 2^{-63}+10^{-14}<1.19\cdot10^{-13}.$$ On the real interval a basis density has modulus below $214$, $|\lambda|<3$, and $\pi|z|<10$; thus the two exact moments have modulus below $10^4$. Substitution of $H=10^4$, $q=7/4$, $d=2.12$, and $\eta_Q=\eta_D=10^{-25}$ in (B.6) gives $$\frac{(3.12+10^{-25})1.19\cdot10^{-13}+10^4 10^{-25}}{7/4}
  +\frac{3.12\cdot10^4 10^{-25}}{(7/4)^2}<2.13\cdot10^{-13}.$$ The pointwise majorant $10^{53}$ for the full domain was proved in Lemma A.1. In the second case the total moment radius is at most $$10^{53}2^{-255}+8\cdot10^{-15}
- <1.728\cdot10^{-24}+8\cdot10^{-15}<10^{-14}.$$ For the value and first-derivative moments in (cert:pair), the real density is bounded by $1000$, the sum of seven atom moduli by $42$, and the two factors by $3$ and $30$. Hence both exact moments are bounded by $H=4\cdot10^4$. The right side of (ind:pair-stability) is then at most $$\frac{(3.12+10^{-25})10^{-14}+4\cdot10^4 10^{-25}}{7/4}
+ <1.728\cdot10^{-24}+8\cdot10^{-15}<10^{-14}.$$ For the value and first-derivative moments in (A.11), the real density is bounded by $1000$, the sum of seven atom moduli by $42$, and the two factors by $3$ and $30$. Hence both exact moments are bounded by $H=4\cdot10^4$. The right side of (B.6) is then at most $$\frac{(3.12+10^{-25})10^{-14}+4\cdot10^4 10^{-25}}{7/4}
  +\frac{3.12\cdot4\cdot10^4 10^{-25}}{(7/4)^2}<1.8\cdot10^{-14}.$$ All inequalities here are comparisons of the displayed rational bounds. The refinement argument above proves that their coefficient and atom budgets can be met for any prescribed finite set of these moments. ◻
 
-For a matrix with $r$ rows and entry error at most $\varepsilon$, the induced column-norm error is at most $r\varepsilon$, and multiplication by $W_\eta$ adds the factor $\|W_\eta\|_1$. In particular $r=6$ for the $J$ row block and $r=12$ for the rows on $E\cap[7,16]$. In a tabulated residual, the other summands in (cert:residual-bounds) are exact rationals, so its error is just the corresponding pair error. Finally, for the signed half-gaps of Lemma 4.1, the two moment errors below $10^{-14}$ give a power-coefficient error below $8\cdot10^{-14}$ and a Bernstein-coefficient error below $2.32\cdot10^{-12}$, as proved in Section B.3.1. These bounds specify the margins required in a Taylor-based comparison; they do not themselves assert the matrix, residual, or Bernstein values printed in Appendix A.
+For a matrix with $r$ rows and entry error at most $\varepsilon$, the induced column-norm error is at most $r\varepsilon$, and multiplication by $W_\eta$ adds the factor $\|W_\eta\|_1$. In particular $r=6$ for the $J$ row block and $r=12$ for the rows on $E\cap[7,16]$. In a tabulated residual, the other summands in (A.15) are exact rationals, so its error is just the corresponding pair error. Finally, for the signed half-gaps of Lemma 4.1, the two moment errors below $10^{-14}$ give a power-coefficient error below $8\cdot10^{-14}$ and a Bernstein-coefficient error below $2.32\cdot10^{-12}$, as proved in Section B.3.1. These bounds specify the margins required in a Taylor-based comparison; they do not themselves assert the matrix, residual, or Bernstein values printed in Appendix A.
 
 ### Direct node-Taylor representation
 
-There is also a local Taylor representation for the direct cardinal function that does not integrate its spectral density. It applies to the full $\ell^1$ class of (fourier:cardinal). Write $\mathcal N_0=\{0\}\cup\mathcal N$ and, for $m\in\mathcal N_0$, put $$\begin{equation}
-\label{ind:node-radius}
+There is also a local Taylor representation for the direct cardinal function that does not integrate its spectral density. It applies to the full $\ell^1$ class of (2.11). Write $\mathcal N_0=\{0\}\cup\mathcal N$ and, for $m\in\mathcal N_0$, put $$\begin{equation}
+\tag{B.27}
  \rho_m=\min_{\substack{n\in\mathcal N_0\\n\ne m}}|m-n|.
 \end{equation}$$ The consecutive gaps in one period of $\mathcal N_0$ are $1,2,1,3,2,3$. Thus the minimum exists and is positive: $\rho_m=1$ for $m=0$ and for residues $0,1,3,4$, while $\rho_m=2$ for residues $7,9$. This is a guaranteed radius to the nearest other node; it may be smaller than the analytic radius for a particular list whose corresponding coefficients vanish.
 
-**Proposition B.6**. *Let $p=PR$ have a real $\ell^1$ coefficient list as in (fourier:list-norm). Define $$\begin{equation}
-\label{ind:node-P-coefficients}
+**Proposition B.6**. *Let $p=PR$ have a real $\ell^1$ coefficient list as in (2.10). Define $$\begin{equation}
+\tag{B.28}
  A_k(m)=\frac{P^{(k)}(m)}{k!}
  =\frac1{k!}\sum_{v=-6}^6P_v(i\pi t_v)^k e^{i\pi t_vm}.
 \end{equation}$$ Then $A_0(m)=A_1(m)=0$. The regular series has coefficients $$\begin{equation}
-\label{ind:node-regular-coefficients}
+\tag{B.29}
  r_j(m)=C\mathbf1_{\{j=0\}}+
  (-1)^j\sum_{\substack{n\in\mathcal N_0\\n\ne m}}
  \left(\frac{(j+1)c_n}{(m-n)^{j+2}}
        +\frac{d_n}{(m-n)^{j+1}}\right),
 \end{equation}$$ and converges for $|u|<\rho_m$. For $0<|u|<\rho_m$, the Laurent expansion is $$R(m+u)=\frac{c_m}{u^2}+\frac{d_m}{u}
        +\sum_{j=0}^{\infty}r_j(m)u^j.$$ For every integer $\ell\ge0$ the direct derivative is therefore $$\begin{equation}
-\label{ind:node-derivatives}
+\tag{B.30}
  \frac{p^{(\ell)}(m)}{\ell!}
  =c_mA_{\ell+2}(m)+d_mA_{\ell+1}(m)
        +\sum_{k=2}^{\ell}A_k(m)r_{\ell-k}(m),
@@ -1404,11 +1745,11 @@ There is also a local Taylor representation for the direct cardinal function tha
  +\frac{\sum_{n\ne m}|d_n|}{\rho_m}\sum_{j\ge0}q^j
  =
  \frac{\sum_{n\ne m}|c_n|}{\rho_m^2(1-q)^2}
- +\frac{\sum_{n\ne m}|d_n|}{\rho_m(1-q)}<\infty.$$ This proves absolute uniform convergence on every smaller closed disk, permits exchanging the node and Taylor sums, and gives (ind:node-regular-coefficients). It also proves precisely why the nearest-other-node distance is a valid common radius.
+ +\frac{\sum_{n\ne m}|d_n|}{\rho_m(1-q)}<\infty.$$ This proves absolute uniform convergence on every smaller closed disk, permits exchanging the node and Taylor sums, and gives (B.29). It also proves precisely why the nearest-other-node distance is a valid common radius.
 
-The finite Fourier expansion (fourier:polynomial) gives (ind:node-P-coefficients), and the double zero of $P$ gives $A_0=A_1=0$. Multiply its entire Taylor series by the convergent Laurent series for $R$. The two principal terms are canceled by the double zero; collecting the coefficient of $u^\ell$ gives (ind:node-derivatives). In particular $A_2=Q_m$ and $A_3=Q_mD_m$, so the cases $\ell=0,1$ reproduce (fourier:node-values). ◻
+The finite Fourier expansion (2.5) gives (B.28), and the double zero of $P$ gives $A_0=A_1=0$. Multiply its entire Taylor series by the convergent Laurent series for $R$. The two principal terms are canceled by the double zero; collecting the coefficient of $u^\ell$ gives (B.30). In particular $A_2=Q_m$ and $A_3=Q_mD_m$, so the cases $\ell=0,1$ reproduce (2.17). ◻
 
-For finite rational input, the constants in this direct formula can be enclosed by the rational operations above. For an arbitrary $\ell^1$ input the formula is an exact convergence statement; a computable error for truncating its node sum additionally requires a bound for that list’s tail. It represents the direct function $p$ only. The transformed function $K_p$ still has the kernel representation (fourier:kernel), and this local identity neither places $K_p$ in the cardinal class nor replaces the exact-derivative certificates for the tabulated functions.
+For finite rational input, the constants in this direct formula can be enclosed by the rational operations above. For an arbitrary $\ell^1$ input the formula is an exact convergence statement; a computable error for truncating its node sum additionally requires a bound for that list’s tail. It represents the direct function $p$ only. The transformed function $K_p$ still has the kernel representation (2.19), and this local identity neither places $K_p$ in the cardinal class nor replaces the exact-derivative certificates for the tabulated functions.
 
 ## References
 
