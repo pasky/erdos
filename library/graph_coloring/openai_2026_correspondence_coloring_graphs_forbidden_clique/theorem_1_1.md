@@ -153,5 +153,5 @@ page, not stated in the manuscript and not verified here.
   triangle-free neighborhood; hence $f(n)\gg\sqrt{n\log n}$. The page already
   derives that bound from Corollary 2 of Joret, Micek, Reed and Smid,
   subject to the gap claim recorded on Problem 610; the companion's accepted
-  independence bound gives it as well. Nothing here bears on the open upper
-  bound. Unverified.
+  independence bound gives it as well, as the page records. Nothing here
+  bears on the open upper bound. Unverified.

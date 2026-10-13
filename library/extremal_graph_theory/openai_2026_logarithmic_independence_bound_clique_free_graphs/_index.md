@@ -274,10 +274,17 @@ release folder holds no `verification/` directory for this manuscript.
   (`propext`, `Classical.choice` and `Quot.sound` only), and what it settles
   is recorded on Problem 802's claim page.
 - [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]:
-  context. The page's lower bound comes from Shearer's 1995 Corollary 1 at
-  $r=4$ through the neighborhood argument; Proposition 6.1 is a claimed
-  maximum-degree bound of the same kind without the $\log\log$ factor. The
-  manuscript does not name this problem. Unverified here.
+  input. Theorem 1.1 at $r=4$, accepted on Problem 802's claim page, gives
+  $f(n)\gg\sqrt{n\log n}$ for the Erdős--Rogers function through the
+  neighborhood argument: a vertex of degree at least $\sqrt{n\log n}$ has a
+  triangle-free neighborhood, and otherwise the average degree is below that
+  bound and the independence bound applies. The problem page records the
+  deduction. It is the lower half of the pending
+  Morris--Sahasrabudhe--Verstraëte claim, reached without the
+  Joret--Micek--Reed--Smid theorem, and it leaves the upper bound open.
+  Proposition 6.1 would give the same bound directly from maximum degree. The
+  manuscript does not name this problem. The deduction is not formalized, and
+  this card's own reading of the manuscript is unverified.
 - [[extremal_graph_theory/ajtai_1981_turan_s_theorem_sparse_graphs/conjecture_3|Ajtai--Erdős--Komlós--Szemerédi, display (3)]]:
   the conjecture Theorem 1.1 claims to prove for every fixed $p=r\ge4$,
   with $c_r=1/(16D_r)$ in place of the paper's $c_p$; the manuscript cites

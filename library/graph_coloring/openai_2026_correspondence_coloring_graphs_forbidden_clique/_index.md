@@ -275,8 +275,6 @@ the page's status rests on its own acceptance evidence.
   companion's Theorem 1.1, recorded as accepted on Problem 802's claim page,
   gives the same bound by the same argument (maximum degree below $D$ forces
   average degree below $D$, and Turán's bound covers average degree below
-  $2$). Problem 620's page does not record that route; the companion's card
-  and its Proposition 6.1 page list Problem 620 for the same neighborhood
-  argument without drawing this conclusion. Neither result touches
-  the open upper bound $O(\sqrt{n\log n})$, the new part of the pending
-  claim, or determines the order of $f(n)$. Unverified.
+  $2$); Problem 620's page records that route. Neither result touches the open
+  upper bound $O(\sqrt{n\log n})$, the new part of the pending claim, or
+  determines the order of $f(n)$. Unverified.

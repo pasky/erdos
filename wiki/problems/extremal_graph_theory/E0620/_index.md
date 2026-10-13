@@ -93,7 +93,13 @@ more than they print. Corollary 2 of [JMRS21] yields $f(n)\ge c\sqrt{n\log n}$
 in one line, as the Current assessment records, so the gap they leave is of
 order $(\log n)^{1/2}$. This is subject to the unexamined claim of a gap in that
 paper's Theorem 1, recorded on
-[[problems/extremal_graph_theory/E0610/_index|Problem 610]].
+[[problems/extremal_graph_theory/E0610/_index|Problem 610]]. An accepted result
+gives the same bound without that theorem: Theorem 1.1 of [OAI26], accepted with
+formalized evidence on
+[[problems/extremal_graph_theory/E0802/claims/2026_09_25_openai|Problem 802's claim page]],
+yields $f(n)\ge c\sqrt{n\log n}$ through the neighborhood argument (Current
+assessment). That manuscript is unrefereed, and the two-line deduction from it
+is this page's own and is not formalized.
 
 **Source.** [erdosproblems.com/620](https://www.erdosproblems.com/620),
 accessed 2026-09-18: the problem page (labeled open, with the note that no
@@ -207,6 +213,15 @@ Problem #620, https://www.erdosproblems.com/620, accessed 2026-09-18.
   result page
   [[../library/extremal_graph_theory/joret_2021_tight_bounds_clique_chromatic_number/corollary_2|Corollary 2]].
   The ingredient the [MSV26] abstract names for its lower bound.
+- [OAI26] OpenAI, A logarithmic independence bound for clique-free graphs.
+  OpenAI Math Release preprint, 25 September 2026, at revision adc7f1241 of
+  the release repository; unrefereed, with no arXiv version. Theorem 1.1, p. 2.
+  Library home:
+  [[../library/extremal_graph_theory/openai_2026_logarithmic_independence_bound_clique_free_graphs/_index|openai_2026_logarithmic_independence_bound_clique_free_graphs]];
+  result page
+  [[../library/extremal_graph_theory/openai_2026_logarithmic_independence_bound_clique_free_graphs/theorem_1_1|Theorem 1.1]].
+  Accepted with formalized evidence on
+  [[problems/extremal_graph_theory/E0802/claims/2026_09_25_openai|Problem 802's claim page]].
 - [Er99] Erdős, Paul, A selection of problems and results in combinatorics.
   Combin. Probab. Comput. 8 (1999), 1--6. Site source key; not held.
 
@@ -385,6 +400,32 @@ superseded refereed bounds the site credits, those of [BoHi91], [Kr94] and
 [Wo13], have none: each is improved on its side by one of those two, and
 each is stated above with its library result page.
 
+**The lower bound through Problem 802.**
+[[../library/extremal_graph_theory/openai_2026_logarithmic_independence_bound_clique_free_graphs/theorem_1_1|Theorem 1.1]]
+of [OAI26] states that for each $r\ge4$ there is a constant $c_r>0$ such that
+every $K_r$-free graph on $n$ vertices with average degree $d\ge2$ has
+$\alpha(G)\ge c_rn\ln d/d$. It is accepted with formalized evidence on
+[[problems/extremal_graph_theory/E0802/claims/2026_09_25_openai|Problem 802's claim page]]:
+the release's Lean proof was built, its axioms checked and its statement
+audited there. The manuscript is unrefereed. With the neighborhood argument it
+gives $f(n)\ge c\sqrt{n\log n}$ (an authored deduction). Let $G$ be $K_4$-free
+on $n\ge31$ vertices and $D=\sqrt{n\ln n}$. A vertex of degree at least $D$
+has a triangle-free neighborhood, since a triangle there would form a $K_4$
+with that vertex. Otherwise every degree is below $D$, so the average degree
+$d$ is below $D$. If $d<2$, Turán's theorem gives
+$\alpha(G)\ge n/(d+1)>n/3\ge D$. If $2\le d<D$, Theorem 1.1 at $r=4$ gives
+$\alpha(G)\ge c_4n\ln d/d\ge c_4n\ln D/D$, because $\ln x/x$ increases up to
+$e$ and decreases after it and $\ln2/2=\ln4/4\ge\ln D/D$ for $D\ge4$; and
+$c_4n\ln D/D\ge\tfrac12c_4\sqrt{n\ln n}$, since $\ln D\ge\tfrac12\ln n$. An
+independent set spans no triangle, so $f(n)\ge\min\{1,c_4/2\}\sqrt{n\ln n}$
+for $n\ge31$. This is the argument of [DM14] and of [MuVe24]'s equation (1),
+with Theorem 1.1 in place of Shearer's Corollary 1. It reaches the bound that
+Corollary 2 of [JMRS21] gives in one line, without that paper's theorem and
+the gap claim recorded on Problem 610, and it is the lower half of the pending
+[MSV26] claim. It does not touch the upper bound, so the order of $f(n)$ is
+still open up to a factor of order $(\log n)^{1/2}$. The deduction is not
+formalized and not independently reviewed.
+
 **Claims (2026).** One claim postdates the refereed record and is the
 source of this page's derived standing; it is not accepted.
 
@@ -404,7 +445,8 @@ source of this page's derived standing; it is not accepted.
   so a largest color class spans no triangle and $f(n)\ge\sqrt{n\log n}/A$.
   No refereed paper prints this deduction, and it inherits the unexamined
   claim, recorded on Problem 610's page, of a gap in the proof of the theorem
-  behind the corollary; the new part of the claim is the upper bound. A
+  behind the corollary. The route through [OAI26] above reaches the same bound
+  without that theorem. The new part of the claim is the upper bound. A
   discussion comment of 7 September 2026 reports the preprint as a solution;
   the site's label is OPEN and the page carries no
   update note. The preprint is
@@ -462,7 +504,9 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [DRR14],
 **Remaining gaps.** (1) Refereed papers print bounds on $f(n)$ between
 $c\sqrt{n\log n/\log\log n}$ and $2^{300}\sqrt n\log n$; Corollary 2 of
 [JMRS21] gives $f(n)\ge c\sqrt{n\log n}$ in one line (subject to the gap
-claim recorded on Problem 610's page), so the open part is a factor
+claim recorded on Problem 610's page), and Theorem 1.1 of [OAI26] gives it
+without that theorem (an unrefereed manuscript accepted with formalized
+evidence; the deduction is not formalized), so the open part is a factor
 $(\log n)^{1/2}$. [MSV26] claims the matching upper bound $O(\sqrt{n\log n})$; what would
 settle the order is the refereed publication or documented independent
 acceptance of [MSV26], after which its theorem would be paged and its claim
@@ -522,6 +566,12 @@ one of the site's source keys, is not held.
   [[problems/extremal_graph_theory/E0620/claims/2013_08_21_dudek_mubayi|Dudek and Mubayi]],
   the best lower bound a refereed paper prints; Corollary 2 of [JMRS21]
   gives $f(n)\gg\sqrt{n\log n}$ in one line (Current assessment).
+- [[../library/extremal_graph_theory/openai_2026_logarithmic_independence_bound_clique_free_graphs/theorem_1_1|OpenAI, Theorem 1.1]]
+  (2026, unrefereed; accepted with formalized evidence on
+  [[problems/extremal_graph_theory/E0802/claims/2026_09_25_openai|Problem 802's claim page]]):
+  $\alpha\ge c_rn\ln d/d$ for $K_r$-free graphs of average degree $d\ge2$,
+  $r\ge4$; through the neighborhood argument, $f(n)\gg\sqrt{n\log n}$
+  without the Joret--Micek--Reed--Smid theorem (Current assessment).
 - [[problems/extremal_graph_theory/E0620/claims/2026_07_17_morris_sahasrabudhe_verstraete|Morris--Sahasrabudhe--Verstraëte 2026]]
   (claimed, unrefereed): $f(n)=\Theta(\sqrt{n\log n})$.
 - Related: [[problems/extremal_graph_theory/E0533/_index|Problem 533]] uses the
@@ -552,6 +602,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/extremal_graph_theory/mubayi_2024_order_erdos_rogers_functions/theorem_1|mubayi_2024_order_erdos_rogers_functions / theorem_1]]
 - [[../library/extremal_graph_theory/openai_2026_logarithmic_independence_bound_clique_free_graphs/_index|openai_2026_logarithmic_independence_bound_clique_free_graphs]]
 - [[../library/extremal_graph_theory/openai_2026_logarithmic_independence_bound_clique_free_graphs/proposition_6_1|openai_2026_logarithmic_independence_bound_clique_free_graphs / proposition_6_1]]
+- [[../library/extremal_graph_theory/openai_2026_logarithmic_independence_bound_clique_free_graphs/theorem_1_1|openai_2026_logarithmic_independence_bound_clique_free_graphs / theorem_1_1]]
 - [[../library/extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/_index|shearer_1995_independence_number_sparse_graphs]]
 - [[../library/extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_1|shearer_1995_independence_number_sparse_graphs / corollary_1]]
 - [[../library/extremal_graph_theory/wolfovitz_2013_k_4_free_graphs_without_large_induced_triangle_free_subgraphs/_index|wolfovitz_2013_k_4_free_graphs_without_large_induced_triangle_free_subgraphs]]
