@@ -311,8 +311,7 @@ mismatch once attached to this problem, does not mention the question
 disproof, refereed partial result or proof claim on either reading.
 
 - The site: problem page, discussion thread (22 items) and proof-claim
-  tab; formal-conjectures at the pinned commit; the community database
-  that day.
+  tab; formal-conjectures at the pinned commit; the community database.
 - The primary sources: [Er77c] pp. 68--69, [Er80] pp. 102--104 and [Er69]
   pp. 79 and 82.
 - Crossref: the record of [Di77] (DOI 10.1515/crll.1977.295.22; pages

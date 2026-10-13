@@ -51,9 +51,9 @@ strengthens.
 
 **Depends on.** Nothing in this wiki; the argument is self-contained.
 
-**Acceptance.** Refereed: Archiv der Mathematik. The Crossref record, as
-accessed, gives volume 25, issue 1, pp. 210--215, issued December 1974, and this
-page's date is the issue's nominal first day. Reviewed: the site's curator, T.
+**Acceptance.** Refereed: Archiv der Mathematik. The Crossref record gives
+volume 25, issue 1, pp. 210--215, issued December 1974, and this page's date is
+the issue's nominal first day. Reviewed: the site's curator, T.
 F. Bloom, independent of the author, labeled the problem proved and names this
 paper as the proof. Carmesin restates the theorem, without a range for $n$, in a
 refereed, open-access paper (J. Combin. Theory Ser. B 161 (2023), p. 22, paged

@@ -310,9 +310,9 @@ $n\le64$, the values $h(k)$ would have to exceed.
 above, which the routes below do not cover, none of them found an upper bound
 below $(k\log k)^2$, a lower bound beyond those above, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab;
-  formal-conjectures `970.lean` at the pinned commit; the community
-  database.
+- The site: problem page, discussion thread and proof-claim tab, accessed
+  2026-09-18; formal-conjectures `970.lean` at the pinned commit; the
+  community database.
 - arXiv: the API queries `all:Jacobsthal` (40 newest records; the only ones
   on the function are a 2023 polynomial analog and Jacobsthal-number
   papers) and `abs:"large gaps between primes" OR abs:"long gaps between

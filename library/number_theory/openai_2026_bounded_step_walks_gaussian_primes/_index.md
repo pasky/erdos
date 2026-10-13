@@ -263,7 +263,8 @@ only and no step was checked; nothing here is independently reviewed.
   times the number of windows, of order $M$, contradicting Lemma 8.1 for
   large $M$; $\mathcal P_D$ is $\mathcal P_M$ for one such $M$.
 - References (`references.tex`; pp. 28--29): fourteen items, listed under
-  Dependencies on the result pages. The Conrad notes are marked "accessed", one day after the manuscript's date.
+  Dependencies on the result pages. The Conrad notes are marked
+  "accessed 27 September 2026", one day after the manuscript's date.
 
 Nothing in the manuscript is described as numerical, computer-assisted or
 conditional; the only unproved inputs are the cited standard results, and the

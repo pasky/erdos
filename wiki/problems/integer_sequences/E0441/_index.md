@@ -121,14 +121,14 @@ https://www.erdosproblems.com/441, accessed 2026-09-18.
   [[../library/integer_sequences/chen_2007_sequences_bounded_l_c_m_each/_index|chen_2007_sequences_bounded_l_c_m_each]].
 - [Ch72b] Choi, S. L. G., The largest subset in $[1,n]$ whose integers have
   pairwise l.c.m. not exceeding $n$. Mathematika 19 (1972), no. 2,
-  221--230, DOI 10.1112/S0025579300005684 (Crossref record). The Theorem, printed p. 221:
-  $g(n)<(1+\lambda-\lambda^*)n^{1/2}+o(n^{1/2})$ with $\lambda$, $\lambda^*$
-  two explicit series and the paper's numerical values
+  221--230, DOI 10.1112/S0025579300005684 (Crossref record). The Theorem,
+  printed p. 221: $g(n)<(1+\lambda-\lambda^*)n^{1/2}+o(n^{1/2})$ with $\lambda$,
+  $\lambda^*$ two explicit series and the paper's numerical values
   $0.6368<\lambda-\lambda^*<0.6380$, the source of the bound $1.638\sqrt n$
   quoted by [Ch98], [Gu04] and [OEIS]; the estimate (6), printed p. 222,
-  $g(n)<(1+\lambda)n^{1/2}+o(n^{1/2})$ with $\lambda<0.87$. The
-  bound $1.43\sqrt n$ of its sequel (Acta Arith. 29 (1976), 105--111, not
-  read) is quoted from [Ch98], p. 71. Library home:
+  $g(n)<(1+\lambda)n^{1/2}+o(n^{1/2})$ with $\lambda<0.87$. The bound
+  $1.43\sqrt n$ of its sequel (Acta Arith. 29 (1976), 105--111, not read) is
+  quoted from [Ch98], p. 71. Library home:
   [[../library/integer_sequences/choi_1972_largest_subset_pairwise_l_c_m_not_exceeding_n/_index|choi_1972_largest_subset_pairwise_l_c_m_not_exceeding_n]].
 - [Er51b] Erdős, P., Problem. Mat. Lapok 2 (1951), 233 (the volume and page
   per [Ch98]'s reference [3]). Not read: the Rényi archive's bibliography

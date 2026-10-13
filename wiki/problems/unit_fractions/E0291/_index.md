@@ -291,10 +291,10 @@ manuscript.
 
 **Data and AI-assisted items (leads with provenance, not status).**
 
-- OEIS A110566 (F. Vrabec, 2005; revision 39, 17 May 2023): $a(n)=\mathrm{lcm}(1,\ldots,n)/\mathrm{den}(H_n)$, with a
-  table to $n=10000$, the comment that $a(n)$ is always odd, and a
-  conjecture (J. Song, 2022) that every odd number occurs; the table agrees
-  with an exact recomputation.
+- OEIS A110566 (F. Vrabec, 2005; revision 39, 17 May 2023):
+  $a(n)=\mathrm{lcm}(1,\ldots,n)/\mathrm{den}(H_n)$, with a table to $n=10000$,
+  the comment that $a(n)$ is always odd, and a conjecture (J. Song, 2022) that
+  every odd number occurs; the table agrees with an exact recomputation.
 - A public AI-generated working report on this problem
   (erdosproblemaday.com/report/291, "access/check date 2026-07-26", labeled
   PARTIAL) derives the leading-digit criterion, reports an

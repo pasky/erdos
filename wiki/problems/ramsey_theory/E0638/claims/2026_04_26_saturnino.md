@@ -90,5 +90,6 @@ the same evening, the version the source card cites, and the Lean project
 link on 27 April 2026. The Lean project is the GitHub repository linked
 above, pinned to its last commit of 27 April 2026 (its four commits all date
 from that day); the corpus has not built the Lean project. The note is
-hosted on a file-sharing site whose address embeds the poster's account name
-and is not printed here.
+hosted on a file-sharing site. The Submission note quotes the first
+version's address; the revised version's address embeds the poster's account
+name and is not printed here.

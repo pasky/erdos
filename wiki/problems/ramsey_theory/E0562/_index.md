@@ -121,10 +121,10 @@ https://www.erdosproblems.com/562, accessed 2026-09-17.
   known here through [BDHLW26].
 - [CFS10] Conlon, D., Fox, J. and Sudakov, B., Hypergraph Ramsey numbers.
   J. Amer. Math. Soc. 23 (2010), 247--266; arXiv:0808.3760 (abstract
-  accessed). Off-diagonal and three-color bounds; not held.
+  read). Off-diagonal and three-color bounds; not held.
 - [CFS13] Conlon, D., Fox, J. and Sudakov, B., An improved bound for the
   stepping-up lemma. Discrete Appl. Math. 161 (2013), 1191--1196;
-  arXiv:0907.0283 (abstract accessed). Not held.
+  arXiv:0907.0283 (abstract read). Not held.
 - [DoMu26] Dobák, D. and Mulrenin, E., Recursive upper bounds for the
   vertex online Ramsey game with applications to hypergraph Ramsey numbers.
   arXiv:2605.16607v1 (15 May 2026). Preprint; abstract only.

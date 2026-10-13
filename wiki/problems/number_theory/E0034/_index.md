@@ -314,8 +314,7 @@ the minimum beyond those above.
 - OEIS: A389241, A390187, A234813 (JSON records).
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Be24]
-beyond its abstract; the external document behind the proof claim. [He86]
-was not held on that date; the reference above cites it directly.
+beyond its abstract; the external document behind the proof claim.
 
 **Remaining gaps.** (1) Hegyvári's Theorem 1 is claims checked and its proof
 followed for structure; the deduction of a permutation with $(1/18+o(1))n^2$

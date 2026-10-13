@@ -258,8 +258,7 @@ published proof, a refereed quotation of Simonovits's theorem, a disproof, or
 a proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab; the
-  community database that day; the formal-conjectures listing at main that
-  day (no file 1019).
+  community database; the formal-conjectures listing at main (no file 1019).
 - The primary sources: [Er69c] pp. 13--17 (Satz 1 to Satz 5, Lemma 1, the
   pp. 16--17 passage and the reference list); [Er71] p. 102 and its
   reference list.

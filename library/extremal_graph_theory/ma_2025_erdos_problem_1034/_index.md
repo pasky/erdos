@@ -32,7 +32,7 @@ Jie Ma and Quanyu Tang, *On Erdős problem #1034*. A three-page note, hosted
 on the first author's page at <http://staff.ustc.edu.cn/~jiema/Erdos-1034.pdf>,
 the file the site's Problem 1034 page links ("see their note here"). The
 text carries no date, no arXiv identifier and no journal; its reference [1]
-cites the site "accessed", and the PDF metadata gives a creation
+cites the site "accessed 2025-10-20", and the PDF metadata gives a creation
 date of 21 October 2025. Affiliations on p. 3: School of Mathematical
 Sciences, University of Science and Technology of China, and Yau
 Mathematical Sciences Center, Tsinghua University (Ma); School of

@@ -172,8 +172,8 @@ on $2n$ vertices. Their proofs remain separate compilation tasks. No materially
 distinct accepted proof of the graph question was found in this bounded search
 or the discussion thread (accessed 2026-09-05).
 
-The Problem 622 page accessed records no formalized statement or
-solution. A bounded GitHub/web search found no corresponding public Lean
-artifact; no Lean build or formalization was performed.
+The site's Problem 622 page, accessed 2026-09-05, recorded no formalized
+statement or solution. A bounded GitHub/web search found no corresponding public
+Lean artifact; no Lean build or formalization was performed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0622/_index|Problem 622]].

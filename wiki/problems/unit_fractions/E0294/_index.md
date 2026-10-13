@@ -131,7 +131,7 @@ $N/((\log N)(\log\log N)^{3+o(1)})$ and $N/\log N$; nothing found narrows
 the window.
 
 **Search scope.** The site's problem, discussion and
-proof-claim pages as read; the community database record; the
+proof-claim pages; the community database record; the
 formal-conjectures directory listing; the arXiv listing for 2404.07113;
 the Oxford Academic article record; the Semantic Scholar citing-paper
 records for the paper (five records: arXiv:2607.04157, 2502.02200,

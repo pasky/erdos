@@ -132,8 +132,8 @@ accessed 2026-09-18.
   (the authors' preprint, without journal pagination).
 - [JKOP19] Javadi, R., Khoeini, F., Omidi, G. R. and Pokrovskiy, A., On the
   size-Ramsey number of cycles. Combin. Probab. Comput. 28 (2019), no. 6,
-  871--880, doi:10.1017/S0963548319000221 (Crossref record); arXiv:1701.07348v1 (25 January 2017). Theorem 1.1 and the
-  introduction, p. 2. Library home:
+  871--880, doi:10.1017/S0963548319000221 (Crossref record); arXiv:1701.07348v1
+  (25 January 2017). Theorem 1.1 and the introduction, p. 2. Library home:
   [[../library/ramsey_theory/javadi_2019_size_ramsey_number_cycles/_index|javadi_2019_size_ramsey_number_cycles]].
 - [DrPe22] Draganić, N. and Petrova, K., Size-Ramsey numbers of graphs with
   maximum degree three. arXiv:2207.05048v2 (19 September 2025); J. London Math.
@@ -166,12 +166,12 @@ accessed 2026-09-18.
   [[../library/discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|erdos_1982_my_favourite_problems_which_recently_have]].
 - [DuPr15] Dudek, A. and Prałat, P., An alternative proof of the linearity of
   the size-Ramsey number of paths. Combin. Probab. Comput. 24 (2015), 551--555;
-  arXiv:1405.1663 ($\hat r(P_n)<137n$). Not held; abstract accessed.
+  arXiv:1405.1663 ($\hat r(P_n)<137n$). Not held; abstract read.
   Their later bound $\hat r(P_n)\le74n$ for sufficiently large $n$ is quoted
   from [JKOP19], p. 2.
 - [BaDe19] Bal, D. and DeBiasio, L., New lower bounds on the size-Ramsey number
   of a path. arXiv:1909.06354 (Electron. J. Combin., per the citation index).
-  Not held; abstract accessed: every graph with at most
+  Not held; abstract read: every graph with at most
   $(3.75-o(1))n$ edges has a two-coloring with no monochromatic path of order
   $n$.
 

@@ -238,7 +238,7 @@ tab: one full-proof claim, credited to Yingzhe Yu and Kani Chen, submitted
 2026-09-13 15:48:40, with a summary of the strong-completeness argument,
 links to the proof and the formalization, and no comments, under the site's
 notice that a listing there does not vouch for the proof's correctness. The
-community database record (entry 354, copy): status open
+community database record (entry 354): status open
 (2025-08-31), formal status "unformalized" while "formalized: yes"
 (2025-09-05), no OEIS entry, tags number theory and complete sequences.
 

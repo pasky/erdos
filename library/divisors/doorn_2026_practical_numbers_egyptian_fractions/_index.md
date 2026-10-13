@@ -37,7 +37,7 @@ GitHub repository https://github.com/Woett/ChatGPT-s-note-on-Erdos18 (created
 2026-09-16T22:15Z, last pushed 2026-09-16T23:14Z, four commits all of that
 day, HEAD `56b455ae69`) and registered the same day (23:18:06, site clock) as
 a partial proof claim on the erdosproblems.com proof-claims tab of Problem 18.
-Not on arXiv(the author's arXiv listing was checked); not
+Not on arXiv (the author's arXiv listing was checked); not
 refereed; no journal or DOI.
 
 The copy read for this card is the repository's `Practical numbers and Egyptian

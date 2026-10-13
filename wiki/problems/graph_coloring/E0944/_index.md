@@ -29,11 +29,10 @@ Let $k\geq 4$ and $r\geq 1$. Must there exist a graph $G$ with chromatic number
 $k$ such that every vertex is critical, yet every critical set of edges has size
 $>r$?
 
-**Status.** Proved. This departs from the site's label OPEN (page fetched),
-whose notes say that the case $k=4$ is open even for $r=1$. The Lean proof of
-Kruer and Kohlmeyer answers the question for every $k\geq4$ and $r\geq1$.
-Conjectures.io certified it on 16 September 2026, and the site had not recorded
-it at that fetch. The standing derives from the
+**Status.** Proved. This departs from the site's label OPEN, whose notes say
+that the case $k=4$ is open even for $r=1$. The Lean proof of Kruer and
+Kohlmeyer answers the question for every $k\geq4$ and $r\geq1$. Conjectures.io
+certified it on 16 September 2026. The standing derives from the
 [[problems/graph_coloring/E0944/claims/2026_09_11_kruer_kohlmeyer|claim page]].
 
 **Source.** [erdosproblems.com/944](https://www.erdosproblems.com/944), accessed

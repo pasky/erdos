@@ -93,8 +93,8 @@ https://www.erdosproblems.com/615, accessed 2026-09-18.
   [[../library/ramsey_theory/erdos_1993_turan_ramsey_theorems_simple_asymptotically_extremal/_index|erdos_1993_turan_ramsey_theorems_simple_asymptotically_extremal]].
 - [Su03] Sudakov, B., A few remarks on Ramsey-Turán-type problems. J.
   Combin. Theory Ser. B 88 (2003), no. 1, 99--106 (received 21 August
-  2001), doi:10.1016/S0095-8956(02)00038-2 (Crossref record). Problem 1.1, p. 100; Theorem 3.1, p. 102; the $K_4$
-  corollary, p. 103. Library home:
+  2001), doi:10.1016/S0095-8956(02)00038-2 (Crossref record). Problem 1.1,
+  p. 100; Theorem 3.1, p. 102; the $K_4$ corollary, p. 103. Library home:
   [[../library/ramsey_theory/sudakov_2003_few_remarks_ramsey_turan_type_problems/_index|sudakov_2003_few_remarks_ramsey_turan_type_problems]].
 - [EHSS83] Erdős, P., Hajnal, A., Sós, V. T. and Szemerédi, E., More
   results on Ramsey-Turán type problems. Combinatorica 3 (1983), no. 1,

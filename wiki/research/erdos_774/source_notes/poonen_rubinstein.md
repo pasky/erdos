@@ -30,7 +30,7 @@ terms are supported on divisibility conditions through modulus (2520).
 Theorem 2 derives the corresponding formula for (R(n)) using Euler's
 formula.  The introduction also extracts a geometric classification: away
 from the center, at most seven diagonals can meet, and the maximum multiplicity
-is determined by the divisibility of (n) by (2,6) and (30), with the
+is determined by the divisibility of (n) by (2), (6) and (30), with the
 exceptions (n=6,12).
 
 Section 2 converts concurrence of three diagonals into the trigonometric

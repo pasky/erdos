@@ -175,7 +175,7 @@ the case $t=2$ to Problem 714), its one-comment discussion thread (4 September
   cited by the site and not held in the library; its claim page is
   [[problems/extremal_graph_theory/E1158/claims/2026_09_18_menezes|2026_09_18_menezes]].
 - [PoZa21] Pohoata, C. and Zakharov, D., Norm hypergraphs. arXiv:2101.00715
-  (3 January 2021; abstract accessed); [Mu26] Mubayi, D., Hypergraphs
+  (3 January 2021; abstract read); [Mu26] Mubayi, D., Hypergraphs
   without complete partite subgraphs. arXiv:2507.06390 (v2 14 July 2025);
   Combin. Probab. Comput. 35 (2026), 290--293, doi:10.1017/S0963548325100321
   (arXiv record); [CLY25] Chen, Q., Liu, H. and Ye, K.,

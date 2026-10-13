@@ -74,10 +74,12 @@ uniform choice of a remaining triangle and the removal of its three edges (the
 identity once no triangle remains), takes the terminal law to be $\binom n2$
 iterations of that step from the complete graph, and defines the normalized
 leave as the edge count divided by $n^{3/2}$ and the constant as
-$1/(2\sqrt2)$. All of this was read statically from the release's
-catalog; not built, replayed or audited for fidelity in this repository. A
-Lean file is not a proof of an Erdős problem, and no fidelity between the
-comparator statement and Theorem 1.1 is asserted here.
+$1/(2\sqrt2)$. This card read all of this statically from the release's
+catalog. The declaration was later built and its statement audited against the
+problem, as the
+[[../wiki/problems/extremal_graph_theory/E1155/claims/2026_09_25_openai|Problem 1155 claim page]]
+records; no fidelity between the comparator statement and Theorem 1.1 is
+asserted here.
 
 Companions: the manuscript is the only member of its family in the release,
 and it cites no other manuscript of the release.

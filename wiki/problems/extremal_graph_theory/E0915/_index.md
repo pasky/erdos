@@ -169,11 +169,11 @@ accessed 2026-09-19.
   as hard to find.
 - [Le72] Leonard, John L., On graphs with at most four line-disjoint paths
   connecting any two vertices. J. Combinatorial Theory Ser. B 13 (1972),
-  242--250, doi:10.1016/0095-8956(72)90059-7 (Crossref record). The definitions of a point and a line $r$-way, p. 243; the
-  definition of $l_r(n)$ with $l_r(n)=k_r(n)$ for $r=2,3,4$, p. 244; the
-  $J$-graphs, pp. 245--246; the Theorem, pp. 246--247; the conclusion
-  $l_5(2n)=5n-2$, $l_5(2n+1)=5n+1$ and the general formula with its open
-  question, p. 250. Library home:
+  242--250, doi:10.1016/0095-8956(72)90059-7 (Crossref record). The definitions
+  of a point and a line $r$-way, p. 243; the definition of $l_r(n)$ with
+  $l_r(n)=k_r(n)$ for $r=2,3,4$, p. 244; the $J$-graphs, pp. 245--246; the
+  Theorem, pp. 246--247; the conclusion $l_5(2n)=5n-2$, $l_5(2n+1)=5n+1$ and the
+  general formula with its open question, p. 250. Library home:
   [[../library/extremal_graph_theory/leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices/_index|leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices]];
   paged at
   [[../library/extremal_graph_theory/leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices/remark_p244|remark_p244]]
@@ -194,7 +194,8 @@ accessed 2026-09-19.
   and
   [[../library/extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/bound_p282|bound_p282]].
 - [Le73b] Leonard, John L., Graphs with 6-ways. Canadian J. Math. 25 (1973),
-  no. 4, 687--692, doi:10.4153/CJM-1973-069-x (Crossref record). The Theorem, p. 688. Library home:
+  no. 4, 687--692, doi:10.4153/CJM-1973-069-x (Crossref record). The Theorem,
+  p. 688. Library home:
   [[../library/extremal_graph_theory/leonard_1973_graphs_ways/_index|leonard_1973_graphs_ways]];
   paged at
   [[../library/extremal_graph_theory/leonard_1973_graphs_ways/theorem_p688|theorem_p688]].

@@ -160,8 +160,8 @@ https://www.erdosproblems.com/1135, accessed 2026-09-18.
   ([[../library/number_theory/simons_de_weger_2010_mcycles_bounds/theorem_3|theorem_3]]),
   which [He23] cites as its [12].
 - [OEIS] Sequences A006370 (the Collatz map) and A008908 (steps to reach
-  $1$), The On-Line Encyclopedia of Integer Sequences, JSON records; A006370 cites [Gu04] E16, the Lagarias volume
-  and [KrLa03].
+  $1$), The On-Line Encyclopedia of Integer Sequences, JSON records; A006370
+  cites [Gu04] E16, the Lagarias volume and [KrLa03].
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/1135.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/1135.lean)

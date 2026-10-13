@@ -32,7 +32,7 @@ as its analytic input.
 
 Scott D. Hughes, "Sums of distinct divisors of factorials," arXiv:2609.10902v1
 [math.NT], submitted 9 September 2026, 5 pages; an unrefereed preprint with no
-journal reference or journal DOI(its arXiv-issued DOI is
+journal reference or journal DOI (its arXiv-issued DOI is
 10.48550/arXiv.2609.10902). The address block at the end of the paper
 (p. 5) gives the author as an independent researcher; arXiv lists the paper
 under its nonexclusive-distribution license.

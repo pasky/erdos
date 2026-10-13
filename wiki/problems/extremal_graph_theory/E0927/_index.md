@@ -127,11 +127,11 @@ Bloom, Erdős Problem #927, https://www.erdosproblems.com/927, accessed
   and [Er71] display (1), are compared with the paper under Current
   assessment.
 - [Sp71] Spencer, J. H., On cliques in graphs. Israel J. Math. 9 (1971),
-  no. 4, 419--421, doi:10.1007/BF02771457 (Crossref record; the issue is dated February 1971; received August 12, 1970 and
-  in revised form November 26, 1970, footnote p. 419). The definitions, the
-  quoted estimates and question and the main bound, printed p. 419; the
-  construction, pp. 419--420; the two further cases and the closing bounds,
-  p. 421. Library home:
+  no. 4, 419--421, doi:10.1007/BF02771457 (Crossref record; the issue is dated
+  February 1971; received August 12, 1970 and in revised form November 26, 1970,
+  footnote p. 419). The definitions, the quoted estimates and question and the
+  main bound, printed p. 419; the construction, pp. 419--420; the two further
+  cases and the closing bounds, p. 421. Library home:
   [[../library/extremal_graph_theory/spencer_1971_cliques_graphs/_index|spencer_1971_cliques_graphs]];
   paged at
   [[../library/extremal_graph_theory/spencer_1971_cliques_graphs/main_bound_p419|main_bound_p419]].

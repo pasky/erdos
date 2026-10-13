@@ -75,16 +75,16 @@ alone.
 
 **Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
 PROVED and credits Kwan and Sudakov [KwSu21] with the proof in the problem's
-commentary (page accessed, as the problem page records). The commentary is the
-site's record cited here. Refereed: Transactions of the American Mathematical
-Society 372 (2019), 5571--5594, DOI 10.1090/tran/7729, published electronically
-on 7 December 2018 (the first page of the journal text). The authors later
-corrected an oversight in the proof concerning the definition of richness. The
-arXiv v4 of 7 September 2021 carries the correction, and its acknowledgment
-locates it in Section 3.1. The authors' publication list also records the
-correction. The correction is the authors' own and has not been audited in this
-corpus. Bounded searches for a correction, erratum or counterexample found no
-claim reversing the conclusion.
+commentary (page accessed 2026-09-04, as the problem page records). The
+commentary is the site's record cited here. Refereed: Transactions of the
+American Mathematical Society 372 (2019), 5571--5594, DOI 10.1090/tran/7729,
+published electronically on 7 December 2018 (the first page of the journal
+text). The authors later corrected an oversight in the proof concerning the
+definition of richness. The arXiv v4 of 7 September 2021 carries the correction,
+and its acknowledgment locates it in Section 3.1. The authors' publication list
+also records the correction. The correction is the authors' own and has not been
+audited in this corpus. Bounded searches for a correction, erratum or
+counterexample found no claim reversing the conclusion.
 
 **Read depth.** Claims checked on pp. 1, 2, 9, 20 and 21 of the arXiv v4
 (the definitions, the theorem, the deduction of the bound from Lemma 4.1 by

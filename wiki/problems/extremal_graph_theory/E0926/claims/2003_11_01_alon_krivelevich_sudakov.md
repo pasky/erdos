@@ -66,9 +66,9 @@ choice of the vertices $x_I^\alpha$), without invoking Lemma 2.1; it is
 independent of Füredi's set-system argument.
 
 **Acceptance.** Refereed publication in Combinatorics, Probability and
-Computing. The Crossref record, as accessed, gives volume 12, issue 5--6, pp.
-477--494, issued November 2003, and this page's date is that issue's nominal
-first day. The paper was published online on 3 December 2003. The site's
+Computing. The Crossref record gives volume 12, issue 5--6, pp. 477--494,
+issued November 2003, and this page's date is that issue's nominal first day.
+The paper was published online on 3 December 2003. The site's
 curator, Thomas Bloom, labeled the problem proved and credits the paper with the
 improvement to $\mathrm{ex}(n;H_k)\ll kn^{3/2}$. But the site's entry also
 carries thanks to Noga Alon, so the curator's credit is not listed as `reviewed`

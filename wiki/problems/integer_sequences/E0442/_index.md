@@ -158,9 +158,10 @@ $\mathbb E\gcd(\mathbf n,\mathbf m)\to\infty$ for two independent elements drawn
 with logarithmic weights (displays (4)--(8), pp. 2--3) and builds the set from
 squarefree numbers with a controlled number of prime factors across the scales
 $x_k=\exp\exp(k^2/C_0^2)$ (p. 5). Acceptance: the paper appeared in Integers 24
-(2024) as paper A100, a refereed journal (the volume listing accessed); the site accepts it. Read depth: claims checked for Theorem 1 and
-the p. 4 remark; the proof of Theorem 1 and the appendix's proof were not read.
-The simplest disproof is the paper's
+(2024) as paper A100, a refereed journal (the volume listing); the site accepts
+it. Read depth: claims checked for Theorem 1 and the p. 4 remark; the proof of
+Theorem 1 and the appendix's proof were not read. The simplest disproof is the
+paper's
 [[../library/integer_sequences/tao_2024_dense_sets_natural_numbers_unusually_large/remark_p4|remark on p. 4]]:
 for the squarefree numbers with exactly $k$ prime factors, a standard
 calculation from Mertens' theorem gives

@@ -362,7 +362,7 @@ of Woodall's theorem or a later result on the smallest $f(k)$.
   numbers of long cycles); none disputes the theorem.
 - The primary sources: [Er62e] pp. 227--229; [Er71] p. 98; [LiNi23]
   pp. 1--4 and 18; [Or61] pp. 315--321, [Bo71b] pp. 121--132 and [Wo72]
-  pp. 739--755 (these three accessed).
+  pp. 739--755.
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X, arXiv (the
 status-defining sources are pre-arXiv).

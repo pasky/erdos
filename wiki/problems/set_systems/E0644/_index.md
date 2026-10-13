@@ -67,7 +67,8 @@ For $r=7$ the bounds are those of Fon-Der-Flaass, Kostochka and Woodall,
 (1999), 277--284, whose $f(k,7,2)$ is this page's $f(k,7)$ (the identification
 is made on the
 [[../library/set_systems/fon_der_flaass_et_al_1999_transversals_uniform_hypergraphs_property_7_2/_index|source card]]).
-Their [[../library/set_systems/fon_der_flaass_et_al_1999_transversals_uniform_hypergraphs_property_7_2/theorem_1|Theorem 1]]
+Their
+[[../library/set_systems/fon_der_flaass_et_al_1999_transversals_uniform_hypergraphs_property_7_2/theorem_1|Theorem 1]]
 (p. 278) gives $f(4q,7)\ge3q+1$ for every $q\ge10$, and their
 [[../library/set_systems/fon_der_flaass_et_al_1999_transversals_uniform_hypergraphs_property_7_2/theorem_2|Theorem 2]]
 (p. 281) gives $f(k,7)\le\lceil7k/8\rceil$ for every $k\ge8$. Adding to each

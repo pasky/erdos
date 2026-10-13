@@ -125,7 +125,7 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
 - [Fi83] Fishburn, P. C., Balanced integer arrays: a matrix packing theorem.
   J. Combin. Theory Ser. A 34 (1983), no. 1, 98--101,
   doi:10.1016/0097-3165(83)90045-6 (Crossref record;
-  text). The site's key. Proposition 1, p. 98, with
+  text read). The site's key. Proposition 1, p. 98, with
   Graham's observation, p. 99: the degree sequences of $T_1,\ldots,T_n$
   pack into that of $K_n$ (Graham's conjecture), as [JKKO19] (p. 1) and
   [GuMa90] (p. 123) cite it; the note states no result on the conjecture
@@ -149,7 +149,7 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
 - [Bo83] Bollobás, Béla, Some remarks on packing trees. Discrete Math. 46
   (1983), no. 2, 203--204, doi:10.1016/0012-365X(83)90254-6 (Crossref and
   zbMATH records; the publisher's open-archive license dated 2013;
-  text). The Theorem, p. 203; the
+  text read). The Theorem, p. 203; the
   Erdős--Sós remark, p. 204. Library home:
   [[../library/extremal_graph_theory/bollobas_1983_some_remarks_packing_trees/_index|bollobas_1983_some_remarks_packing_trees]];
   paged at

@@ -56,7 +56,7 @@ question. The formal-conjectures file marks the variant open. A related refereed
 result concerns the two-way infinite variant. Shang, Li and Zhang construct an
 arrangement $(a_i)_{i\in\mathbb Z}$ of the positive integers with every
 $a_i+a_{i+1}$ prime, using Zhang's bounded gaps between primes (abstract
-accessed; the paper is not held). A two-way arrangement is not a sequence
+read; the paper is not held). A two-way arrangement is not a sequence
 $a_1,a_2,\ldots$, so it is a variant, not a claim on the question.
 
 **Source.** [erdosproblems.com/473](https://www.erdosproblems.com/473), accessed
@@ -75,10 +75,10 @@ Problem #473, https://www.erdosproblems.com/473.
 - [SLZ25] Shang, W., Li, B. and Zhang, S., An infinite version of prime
   circles. Graphs and Combinatorics 41 (2025), article 112, published online
   28 September 2025, DOI 10.1007/s00373-025-02976-9. Not held; abstract
-  accessed on the publisher's page.
+  read on the publisher's page.
 - [She26] She, Yue-Feng, Hamiltonicity in graphs defined by primes and
   primitive elements. arXiv:2609.19114, submitted 16 September 2026. Not
-  held; abstract accessed.
+  held; abstract read.
 
 **Formalization.** The file
 [`ErdosProblems/473.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d7b57b5247c0/FormalConjectures/ErdosProblems/473.lean)

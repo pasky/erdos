@@ -318,8 +318,7 @@ refereed determination of the order of $h(n)$, a refereed version of the
 2026 appendix, or an independent review of it.
 
 - The site: problem page, discussion thread and proof-claim tab; the
-  formal-conjectures file at the pinned commit; the community database as
-  of that date.
+  formal-conjectures file at the pinned commit; the community database.
 - arXiv: the abstract page of 2607.09474 (one version, 10 July 2026; the
   listing's comment says that ProofCouncil took part as System A in a
   challenge report, arXiv:2606.18119, not consulted) and its PDF; the API

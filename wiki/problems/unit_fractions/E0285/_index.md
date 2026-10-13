@@ -132,7 +132,7 @@ explicit error term $O(k\log\log k/\log k)$, whose order Martin shows cannot
 be lowered (display (9), p. 5). Acceptance evidence: the paper is published in
 Acta Arithmetica 95 (2000), no. 3, 231--260, a refereed journal (the arXiv
 listing's journal reference and the Crossref record for DOI
-10.4064/aa-95-3-231-260, both accessed); the author writes that the
+10.4064/aa-95-3-231-260); the author writes that the
 theorem "completely resolves Erdős and Graham's question" (p. 2), and the site
 accepts it. Proof coverage: the reduction of Theorem 2 to Propositions 5 and 6
 (pp. 4--5) is recorded on the theorem page; the proofs of Propositions 6--8

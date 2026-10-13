@@ -210,8 +210,8 @@ https://www.erdosproblems.com/464, accessed 2026-09-18.
   [[../library/irrationality/peres_2010_two_erdos_problems_lacunary_sequences_chromatic/_index|peres_2010_two_erdos_problems_lacunary_sequences_chromatic]].
 - [St25] Stefanescu, R., The dispersion of dilated lacunary sequences, with
   applications in multiplicative Diophantine approximation. Adv. Math. 461
-  (2025), 110062, doi:10.1016/j.aim.2024.110062 (Crossref record; the paper not read). A lead on the quantitative question,
-  named with its identifier.
+  (2025), 110062, doi:10.1016/j.aim.2024.110062 (Crossref record; the paper not
+  read). A lead on the quantitative question, named with its identifier.
 
 **Formalization.** The site's (LEAN) suffix is a catalog label. The file
 [`ErdosProblems/464.lean`](https://github.com/google-deepmind/formal-conjectures/blob/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems/464.lean)

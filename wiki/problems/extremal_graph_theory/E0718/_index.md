@@ -116,13 +116,13 @@ accessed 2026-09-19.
   smaller than 256"; whether it also states the theorem was not checked.
 - [KoSz96] Komlós, János and Szemerédi, Endre, Topological cliques in graphs.
   II. Combin. Probab. Comput. 5 (1996), no. 1, 79--90,
-  doi:10.1017/S096354830000184X (March 1996; Crossref record). Not held; its abstract, on the publisher's page, says
-  "This note contains a refinement of our paper [8], leading to an
-  alternative proof of a conjecture of Mader and of Erdős and Hajnal
-  recently proved by Bollobás and Thomason." [BT98]
-  (p. 883) says of it, as its reference [9], that Komlós and
-  Szemerédi completed the refinement of their own method very shortly after
-  [BT98] was written, "so obtaining an alternative proof of the conjecture".
+  doi:10.1017/S096354830000184X (March 1996; Crossref record). Not held; its
+  abstract, on the publisher's page, says "This note contains a refinement of
+  our paper [8], leading to an alternative proof of a conjecture of Mader and of
+  Erdős and Hajnal recently proved by Bollobás and Thomason." [BT98] (p. 883)
+  says of it, as its reference [9], that Komlós and Szemerédi completed the
+  refinement of their own method very shortly after [BT98] was written, "so
+  obtaining an alternative proof of the conjecture".
 - [Ma67] Mader, W., Homomorphieeigenschaften und mittlere Kantendichte von
   Graphen. Math. Ann. 174 (1967), no. 4, 265--268, doi:10.1007/BF01364272
   (Crossref record). The printed article has 4 pages,
