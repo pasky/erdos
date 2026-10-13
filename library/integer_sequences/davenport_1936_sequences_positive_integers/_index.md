@@ -44,13 +44,12 @@ The retained folder-name PDF is a five-page scan (printed pp. 147--151 are
 PDF pp. 1--5) whose optical text is noisy but legible. Read status: claims
 checked for Theorem 2 (Section 3, printed p. 150), the introduction's
 statement of it (p. 148) and the best-possible remark (p. 151), read clause
-by clause on the page images on 2026-09-18; the half-page proof of Theorem 2
-was read for its structure and not checked; Theorem 1 (Section 2, statement
-on printed p. 149, proof completed on p. 150): its statement and hypotheses
-were checked against the retained
-[reading copy](davenport_1936_sequences_positive_integers.md), a complete
-Markdown transcription whose three page-marker chunks hold printed p. 147,
-pp. 148--149 and pp. 150--151 respectively, and its proof mechanism was
+by clause on the page images; the half-page proof of Theorem 2 was read for its
+structure and not checked; Theorem 1 (Section 2, statement on printed p. 149,
+proof completed on p. 150): its statement and hypotheses were checked against
+the retained [reading copy](davenport_1936_sequences_positive_integers.md), a
+complete Markdown transcription whose three page-marker chunks hold printed p.
+147, pp. 148--149 and pp. 150--151 respectively, and its proof mechanism was
 traced through Lemmas 1 and 2 and both parts of the proof; no proof was
 independently verified. The scan's text layer carries no copyright or license
 line; the publisher's record labels the PDF download "Pobierz zgodnie z CC-BY",
@@ -121,7 +120,7 @@ p. 149, the closest classical positive theorem for unshifted multiples, and
 Lemma 1's divisor-upward hypothesis, which the problem's translated, delayed
 classes lose; the paper does not resolve the problem.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (Section 2): The set of multiples of a_1, a_2, ... has logarithmic
   density equal to A, and its lower natural density also equals A.

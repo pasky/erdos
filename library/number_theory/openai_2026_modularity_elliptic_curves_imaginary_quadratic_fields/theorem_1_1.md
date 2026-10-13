@@ -64,8 +64,8 @@ fields*, release folder
 `preprints/Modularity-of-elliptic-curves-over-imaginary-quadratic-fields-October-4-2026`;
 TeX file `build/sections/introduction.tex`, label `thm:main` (lines 17--43),
 PDF p. 1; the proof runs through Sections 3--9 and closes at the end of
-Section 9 (`build/sections/automorphy.tex` line 254, PDF p. 28). Read
-2026-10-12. Provenance and attestations are on
+Section 9 (`build/sections/automorphy.tex` line 254, PDF p. 28). Provenance and
+attestations are on
 [[number_theory/openai_2026_modularity_elliptic_curves_imaginary_quadratic_fields/_index|the card]].
 
 **Read depth.** Claims checked: the statement and the conventions of Section

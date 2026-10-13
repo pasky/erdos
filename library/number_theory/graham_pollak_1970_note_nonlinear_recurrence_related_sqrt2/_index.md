@@ -71,11 +71,10 @@ the two announced results, the Beatty observation and the Theorem (p. 143),
 the reduction to the shifted recurrence and the floor identities (1) and
 (1') (p. 144), the alternation step, the concise form with $\tau$ and its
 table, the two consequences for $m=1$ and the closing question (p. 145),
-each read clause by clause on the page images of PDF pp. 2--4 on
-2026-09-22. The proof of the Theorem (pp. 143--145, about a page) was read
-in full on the page images and its steps were followed; the induction it
-ends with is not written out in the paper. Nothing here is independently
-reviewed.
+each read clause by clause on the page images of PDF pp. 2--4. The proof of the
+Theorem (pp. 143--145, about a page) was read in full on the page images and its
+steps were followed; the induction it ends with is not written out in the paper.
+Nothing here is independently reviewed.
 
 ## Contents
 

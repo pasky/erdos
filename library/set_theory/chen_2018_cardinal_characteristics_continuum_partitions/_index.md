@@ -48,7 +48,7 @@ Source: <https://arxiv.org/abs/1801.00238>.
 
 **Bears on.** [[../wiki/problems/set_theory/E1171/_index|#1171]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 2.9: If kappa is regular and lambda = kappa^+ = d_kappa then lambda^2
   does not arrow (lambda*kappa, 4)^2; for kappa = omega this is omega_1^2 not

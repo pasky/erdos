@@ -53,7 +53,7 @@ obtained by aggregating the x_i with i in I.
 
 The copy read for this card, in its full text, is an author preprint dated
 December 18, 2014 that prints no copyright, license or arXiv line; no arXiv
-record exists for it (arXiv title search, read 2026-10-02), its download URL
+record was found for it (arXiv title search, read 2026-10-02), its download URL
 was not recorded, and its public postings were not consulted, so no host's
 terms could be checked; the term is unstated.
 

@@ -53,10 +53,11 @@ are preserved separately.
 **Compilation scope.** The four complete natural-language proof components are
 author-recorded. An independent review on 2026-09-05 is reported, but its report
 is not filed with this source and supplies no independent-review credit here. The
-[[additive_combinatorics/baumgartner_1975_partitioning_vector_spaces/_index|historical Baumgartner paper]] was obtained and inspected
-on 2026-09-06. It contains the related successive-selection method, but no
-explicit Sidon theorem; the historical source record preserves the remaining
-attribution qualification. The reported formal build has not been reproduced.
+[[additive_combinatorics/baumgartner_1975_partitioning_vector_spaces/_index|historical Baumgartner paper]]
+was obtained and inspected. It contains the related successive-selection method,
+but no explicit Sidon theorem; the historical source record preserves the
+remaining attribution qualification. The reported formal build has not been
+reproduced.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0198/_index|Problem 198]]: the diagonal, factorial and power-sequence
 constructions each give a Sidon set of positive integers meeting every infinite

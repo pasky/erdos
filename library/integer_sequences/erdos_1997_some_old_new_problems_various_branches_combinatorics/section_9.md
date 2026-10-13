@@ -61,8 +61,8 @@ is identified in the
 [[integer_sequences/erdos_1997_some_old_new_problems_various_branches_combinatorics/_index|source digest]].
 
 **Read depth.** Claims checked: the three paragraphs were read clause by
-clause on the page image on 2026-09-22. There is no proof in the source;
-the item states questions and cites the 1970 paper for the discussion.
+clause on the page image. There is no proof in the source; the item states
+questions and cites the 1970 paper for the discussion.
 
 ## Proof pointer
 

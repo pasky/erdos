@@ -14,9 +14,9 @@ updated: 2026-10-07T19:30:53Z
 **Source.** Fiz Pontiveros--Griffiths--Morris, Theorem 2.12, manuscript and
 PDF p. 14. The copy read for this page is arXiv:1302.6279v2.
 
-**Read depth.** Claims checked: the statement was read clause by clause on
-the page image of p. 14 (2026-10-07); its proof (Section 7, pp. 91--116,
-Propositions 7.1--7.2 with Theorem 6.9) was not read.
+**Read depth.** Claims checked: the statement was read clause by clause on the
+page image of p. 14; its proof (Section 7, pp. 91--116, Propositions 7.1--7.2
+with Theorem 6.9) was not read.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0165/_index|#165]] and
 [[../wiki/problems/extremal_graph_theory/E0619/_index|#619]].

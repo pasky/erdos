@@ -93,10 +93,10 @@ Together the two claim the sharp exponent for every fixed $s\ge5$.
 Read status: claims checked for Theorem 1.1 and Theorem 1.2 and for the
 statements of Lemmas 2.1--2.4, 7.1 and 7.2 and Proposition 7.3, read clause
 by clause in the TeX source (`sections/00-introduction.tex` lines 10--23 and
-114--123; `sections/01-foundations.tex`; `sections/06-conclusion.tex`) on
-2026-10-07, with the PDF pages checked against the text layer; the proofs,
-Sections 3--7, were read for their structure only and no step was checked;
-nothing here is independently reviewed.
+114--123; `sections/01-foundations.tex`; `sections/06-conclusion.tex`), with the
+PDF pages checked against the text layer; the proofs, Sections 3--7, were read
+for their structure only and no step was checked; nothing here is independently
+reviewed.
 
 ## Contents
 

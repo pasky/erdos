@@ -40,8 +40,8 @@ render of the three sentences. The artifact is identified in the
 [[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/_index|source digest]].
 
 **Read depth.** Claims checked: the three sentences were read clause by
-clause on the page images on 2026-09-18. A question and an unproved remark;
-nothing to check in the source.
+clause on the page images. A question and an unproved remark; nothing to check
+in the source.
 
 ## Proof pointer
 

@@ -38,13 +38,12 @@ p. 1, the proof on pp. 1--2, read on the page images. The edition is
 identified in the
 [[extremal_graph_theory/ma_2025_erdos_problem_1034/_index|source digest]].
 
-**Read depth.** Claims checked: the statement was read clause by clause on
-the page image on 2026-09-19; the proof was read and followed (the
-construction, the classification of triangles, displays (2.1)--(2.3), the
-interval for $c$, the choice of $s$, the minimization of $\Phi$) and not
-checked step by step. Nothing here is independently reviewed; the external
-Lean development that formalizes this construction was read as text on
-Problem 1034's page and not built.
+**Read depth.** Claims checked: the statement was read clause by clause on the
+page image; the proof was read and followed (the construction, the
+classification of triangles, displays (2.1)--(2.3), the interval for $c$, the
+choice of $s$, the minimization of $\Phi$) and not checked step by step. Nothing
+here is independently reviewed; the external Lean development that formalizes
+this construction was read as text on Problem 1034's page and not built.
 
 ## Proof pointer
 

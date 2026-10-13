@@ -21,8 +21,7 @@ identified on the
 
 **Read depth.** Claims checked: the statement and the proof (pp. 20--21)
 were read in full on the print, and the identity was checked numerically
-for $3\le k\le8$ on 2026-10-08. Nothing here is independently reviewed. A
-preprint.
+for $3\le k\le8$. Nothing here is independently reviewed. A preprint.
 
 ## Statement
 

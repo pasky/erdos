@@ -92,18 +92,18 @@ The copy read for this card is a 24-page scan of the Russian text (printed
 pp. 225-248; printed p. n is PDF p. n-224); received 15 January 1948 (p. 248).
 Read status: claims checked, on the page images, for the
 hypotheses and conclusions of Theorems 1-4 (pp. 234-235, 243 and 246-248; PDF
-pp. 10-11, 19 and 22-24) and for the standing notation of p. 226, and on
-2026-10-07 for the introduction and footnote of p. 225, the standing notation
-of pp. 225-226 and the exponent rho_0 of Lemma 4 (p. 228); no proof was
-checked; the other lemma descriptions above record an earlier reading that
-was not repeated. The statements of Theorems 1-4 were read again clause by
-clause on the page images on 2026-10-08 for the result pages, with the
-structure of the proofs of Theorem 1 (pp. 235-238) and Theorems 3 and 4
-(pp. 247-248); the depth of each is recorded on its page. No copyright or license line is printed on any of the 24
-pages, and the hosting site's terms of use state that its materials "are
-fully copyrighted by Steklov Mathematical Institute, Russian Academy of
-Sciences, and/or by other copyright holder" and that reproduction or
-republication "requires written permission of the copyright holder"
+pp. 10-11, 19 and 22-24) and for the standing notation of p. 226, and for the
+introduction and footnote of p. 225, the standing notation of pp. 225-226 and
+the exponent rho_0 of Lemma 4 (p. 228); no proof was checked; the other lemma
+descriptions above record an earlier reading that was not repeated. The
+statements of Theorems 1-4 were read again clause by clause on the page images
+for the result pages, with the structure of the proofs of Theorem 1 (pp.
+235-238) and Theorems 3 and 4 (pp. 247-248); the depth of each is recorded on
+its page. No copyright or license line is printed on any of the 24 pages, and
+the hosting site's terms of use state that its materials "are fully copyrighted
+by Steklov Mathematical Institute, Russian Academy of Sciences, and/or by other
+copyright holder" and that reproduction or republication "requires written
+permission of the copyright holder"
 (https://www.mathnet.ru/php/agreement.phtml?option_lang=eng, read 2026-10-02),
 every other right reserved.
 
@@ -117,7 +117,7 @@ problem page, and none addresses the two-prime question;
 [[number_theory/vinogradov_1948_estimate_trigonometric_sums_prime_numbers/theorem_3|theorem_3]],
 [[number_theory/vinogradov_1948_estimate_trigonometric_sums_prime_numbers/theorem_4|theorem_4]])
 
-**Results to transcribe.**
+**Results.**
 
 - [[number_theory/vinogradov_1948_estimate_trigonometric_sums_prime_numbers/theorem_1|Theorem 1]] (pp. 234-235): For S = sum_{p<=P} e^{2 pi i l f(p)} with
   f(x) = a_n x^n + ... + a_1 x real and n >= 10 the paper's constant, a

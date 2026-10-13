@@ -106,7 +106,7 @@ classify the 3-graphs in which every four vertices span exactly 0 or 2 edges
 and show $H_S$ over an equipartition extremal for $n\ge5$, a stricter local
 condition than the problem's.
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/frankl_1984_exact_result_graphs/theorem_1|Theorem 1]]
   (p. 324): Any 3-graph in which every 4 points span 0 or 2 edges

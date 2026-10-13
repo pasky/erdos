@@ -121,11 +121,11 @@ label was unchanged, the curator has not credited the result, and the one
 comment on the claim approves of the bound in passing and is not a review.
 The Lean development was not built or audited by this corpus.
 
-Dated search scope (2026-10-07): the site's problem page, discussion thread
-and proof-claims tab, the manuscript's abstract and main statements, the Lean
-repository's README, and the community database's entry (formal status
-unformalized); no other claim on the problem was found. Nothing on this page
-is independently reviewed.
+Search scope: the site's problem page, discussion thread and proof-claims tab,
+the manuscript's abstract and main statements, the Lean repository's README, and
+the community database's entry (formal status unformalized); on 2026-10-07 none
+of them recorded another claim on the problem. Nothing on this page is
+independently reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

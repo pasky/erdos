@@ -34,8 +34,8 @@ Theorem 3 on p. 131, its proof on pp. 131--132. The copy read is identified on
 the [[polynomials/erdos_1958_metric_properties_polynomials/_index|source card]].
 
 **Read depth.** Claims checked: the statement and the conjecture before it
-were read on the page image of p. 131 on 2026-10-08; the proof was read for
-structure, not checked. Nothing here is independently reviewed.
+were read on the page image of p. 131; the proof was read for structure, not
+checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

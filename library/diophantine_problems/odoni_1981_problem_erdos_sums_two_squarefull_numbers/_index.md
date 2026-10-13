@@ -46,7 +46,7 @@ article's.
 
 **Bears on.** [[../wiki/problems/diophantine_problems/E1081/_index|#1081]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For the set U of sums of two squarefull numbers there are a, beta,
   gamma > 0 with card(U ∩ [1,x]) > a x (log x)^{-1/2} exp(beta log log x / log

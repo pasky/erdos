@@ -54,7 +54,7 @@ solution's claim page.
 
 ## Current assessment
 
-The question, in the site's formulation accessed, asks whether a
+The question, in the site's formulation accessed 2026-09-04, asks whether a
 graph whose odd cycles have at most $k$ distinct lengths has chromatic number
 at most $2k+2$, with equality exactly when it contains $K_{2k+2}$. The answer
 is yes: the accepted claim is

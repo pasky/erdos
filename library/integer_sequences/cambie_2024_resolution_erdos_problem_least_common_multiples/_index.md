@@ -56,7 +56,7 @@ m >= n+k, for every large k and hence for infinitely many triples; the site's
 label PROVED (LEAN) rests on this preprint and on an external Lean
 formalization of it.
 
-**Results to transcribe.**
+**Results.**
 
 - [[integer_sequences/cambie_2024_resolution_erdos_problem_least_common_multiples/theorem_1|Theorem 1]]
   (p. 2): For every C >= 1 and all large k there exist 0 < x < y with y > x+k

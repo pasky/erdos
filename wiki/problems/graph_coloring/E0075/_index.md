@@ -82,8 +82,8 @@ over $m$-vertex subsets of the countable Specker graph by
 $O(m\log\log m/\log m)$, so no Specker graph answers it. The site's
 proof-claims tab lists no claim.
 
-Search scope, 2026-10-07: the site's page and remarks, its discussion thread
-(three comments of 12 April 2026) and proof-claims tab, the note itself, the
+Search scope: the site's page and remarks, its discussion thread (three
+comments of 12 April 2026) and proof-claims tab, the note itself, the
 [formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/75.lean)
 (`erdos_75`, tagged research open, with no formal proof) and the Gemini
 case-study paper. Erdős's prize offer in [Er95d] for a complete solution to all

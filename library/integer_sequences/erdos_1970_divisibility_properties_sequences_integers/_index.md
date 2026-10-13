@@ -74,7 +74,7 @@ examples and the two conjectures of p. 98),
 [[../wiki/problems/integer_sequences/E0013/_index|#13]] (conjecture (1) on p. 97 with the
 $[x/3]+1$ example on p. 98, in the distinct-terms reading)
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem: Every infinite set with property P (no member divides a sum of two
   members larger than itself) has density 0 (p. 98; result page

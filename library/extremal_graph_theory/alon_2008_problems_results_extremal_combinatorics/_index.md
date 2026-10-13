@@ -41,9 +41,9 @@ publisher's version is not the copy read; the term is unstated.
 Read status: claims checked for the definition of a $D$-balanced graph, the
 printed Erdős--Simonovits problem, the sentence "In this section we show that
 this is not true" and Proposition 2.1 (Section 2, p. 2), read clause by
-clause on the rendered page image on 2026-09-18; the proof of Proposition 2.1
-(pp. 2--4) was read for structure only and no step was checked; the other
-sections were not read and are not compiled.
+clause on the rendered page image; the proof of Proposition 2.1 (pp. 2--4) was
+read for structure only and no step was checked; the other sections were not
+read and are not compiled.
 
 Source: <https://web.math.princeton.edu/~nalon/PDFS/publications.html>.
 

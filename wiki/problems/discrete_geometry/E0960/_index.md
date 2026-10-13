@@ -70,11 +70,10 @@ theorem gives $f_{r,k}(n)\leq(1-\tfrac1{r-1})\tfrac{n^2}2+1$, so the order of
 $f_{r,k}(n)$ is $n^2$ for every fixed $r\geq3$ and $k\geq4$ and only the
 constant is open; the parameters $k\leq3$ and $r=2$ are degenerate, as
 Section 2.1 of [APSSV26b] states. The site points to
-[[problems/discrete_geometry/E0209/_index|Problem 209]] as related. A
-search on 2026-10-06 of the site's problem page and discussion thread, the
-arXiv record of [APSSV26b] and [Er84] (Period. Math. Hungar. 15 (1984),
-p. 102, through its library card) found no other claimed result on the
-problem.
+[[problems/discrete_geometry/E0209/_index|Problem 209]] as related. The
+search covered the site's problem page and discussion thread, the arXiv record
+of [APSSV26b] and [Er84] (Period. Math. Hungar. 15 (1984), p. 102, through its
+library card); on 2026-10-06 these held no other claimed result on the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

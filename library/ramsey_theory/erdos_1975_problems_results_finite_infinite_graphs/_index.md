@@ -244,7 +244,7 @@ the Faber--Lovász--Erdős conjecture in its set form, equivalent to the
 problem's statement by the observation on the result page;
 [[ramsey_theory/erdos_1975_problems_results_finite_infinite_graphs/conjecture_p191|conjecture_p191]]).
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/erdos_1975_problems_results_finite_infinite_graphs/conjecture_p183|Conjecture (p. 183)]]: the Erdős--Hajnal--Milner
   conjecture on graphs G(alpha), proved for alpha < omega_1^{omega+2}, the

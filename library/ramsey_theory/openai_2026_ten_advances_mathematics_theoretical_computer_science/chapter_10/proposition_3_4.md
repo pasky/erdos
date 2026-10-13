@@ -27,7 +27,7 @@ fractions ($64/48-1/48=63/48=21/16$).
 **Source.** OpenAI, *Ten Advances in Mathematics and Theoretical Computer
 Science*, technical report, August 6, 2026 version, Chapter 10; Proposition
 3.4 and its proof on printed pp. 240--241 (PDF pp. 244--245), the statement
-read on the page image of PDF p. 244 on 2026-09-18.
+read on the page image of PDF p. 244.
 
 **Read depth.** Claims checked for the statement; the proof (pp. 240--241)
 and the lemmas it uses (Lemma 3.1, p. 239; Lemmas 3.2--3.3, p. 240) were

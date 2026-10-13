@@ -52,7 +52,7 @@ for a finite graph of minimum degree at least three alone, with no
 
 ## Current assessment
 
-The question, in the site's formulation accessed, asks whether a
+The question, in the site's formulation accessed 2026-09-04, asks whether a
 graph of chromatic number four can have every two consecutive cycle lengths far
 apart, and whether it can when the girth is large. The standing is `solved`,
 `disproved`, through
@@ -70,8 +70,8 @@ labeled the problem DISPROVED (LEAN) and credits Bondy and Vince; the Lean
 qualification refers to a third-party development posted on the discussion
 thread in January 2026, not among the corpus's audited builds.
 
-Search scope, 2026-10-07: the site's problem page and discussion thread, the
-Crossref record of the paper, the paper's statements, the formal-conjectures
+Search scope: the site's problem page and discussion thread, the Crossref
+record of the paper, the paper's statements, the formal-conjectures
 statement file, the third-party Lean repository at its linked commit, and the
 lean-proofs and erdos-lean catalogs.
 <!-- BEGIN problem library links -->

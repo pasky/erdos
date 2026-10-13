@@ -92,7 +92,7 @@ p. 102, PDF p. 2) proves the path formula for t >= 5 and n > ct^2, Remark 1
 (pp. 102--103) announces the range n >= (5/2)t + c without proof, and the
 sentence before Theorem B records the cycle formula as unsettled for k >= 5.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem A (p. 102): For H* = {H-e : e an edge of H}, f(n,H) - ex(n,H*) =
   o(n^2) as n -> infinity, linking anti-Ramsey numbers to Turán numbers

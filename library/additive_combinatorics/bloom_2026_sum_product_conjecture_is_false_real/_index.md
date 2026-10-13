@@ -15,7 +15,8 @@ updated: 2026-10-07T20:53:40Z
 ***
 
 Thomas F Bloom, Will Sawin, Carl Schildkraut, Dmitrii Zhelezov, The sum-product
-conjecture is false for real numbers. arXiv:2605.28781 (2026).
+conjecture is false for real numbers. arXiv:2605.28781 (2026). The held PDF is
+arXiv:2605.28781v1 (27 May 2026).
 
 Local text: a Markdown reading copy sits beside the PDF. Source:
 <https://arxiv.org/abs/2605.28781>. The arXiv record

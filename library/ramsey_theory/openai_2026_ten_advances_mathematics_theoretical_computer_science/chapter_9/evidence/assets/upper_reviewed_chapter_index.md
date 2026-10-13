@@ -62,8 +62,8 @@ The proof uses the following source-owned results.
 
 These five complete reconstructions and their all-integer root-limit
 consequence passed independent review, with refutation-failed verdicts
-by Codex (GPT-6) and a passing contract and independence grade by a
-distinct Codex (GPT-6) grader. The
+by GPT-6 and a passing contract and independence grade by a
+distinct GPT-6 grader. The
 [[library/ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_9/evidence/verify/lower_bound_route_review|accepted review record]]
 retains the exact subjects, reasoning, checklists and grade. The current
 proof mathematics is unchanged from those subjects. The matrix and cover

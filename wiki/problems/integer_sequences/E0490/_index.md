@@ -91,8 +91,8 @@ Bloom, Erdős Problem #490, https://www.erdosproblems.com/490, accessed
 **References.**
 
 - [Sz76] Szemerédi, E., On a problem of P. Erdős. J. Number Theory 8
-  (1976), no. 3, 264--270, doi:10.1016/0022-314X(76)90003-2 (Crossref record
-  accessed, which lists the article under the publisher's open-access user
+  (1976), no. 3, 264--270, doi:10.1016/0022-314X(76)90003-2 (Crossref record,
+  which lists the article under the publisher's open-access user
   license since 2013); communicated by P. Erdős, received 2
   May 1972, revised 10 April 1973; 7 pages, open access at the DOI, whose
   file the PDF pages below index. The abstract and display (2), printed p.

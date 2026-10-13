@@ -99,7 +99,7 @@ $\Lambda\ge2$ when $1<\lambda<\Lambda/(\Lambda-1)$; Proposition 8 is the
 sufficient condition through which Theorem 1(a), (b) and the constructions
 for Theorems 2 and 3 are proved. Theorem 12 bears on no problem page.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1(a): For every lambda in (1,2) there is a lambda-lacunary sequence of
   positive integers whose finite reciprocal subset sums contain all rationals in

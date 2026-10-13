@@ -67,11 +67,10 @@ p. 402 = PDF p. 30 of the publisher's PDF, read on the page images
 
 **Read depth.** Claims checked: the definitions, Problem 1, Theorem 3, the
 diagonal remark and the concluding remarks were read clause by clause on the
-page images on 2026-09-22. The reduction of Theorem 3 to Lemma 14 (§ 3.1,
-pp. 384--386) and the sketch of the proof (§ 3, p. 384) were read in the
-text layer for structure only; the proof of assertion (†) (§§ 3.2--3.3,
-pp. 386--393) was not read and not checked. Nothing here is independently
-reviewed.
+page images. The reduction of Theorem 3 to Lemma 14 (§ 3.1, pp. 384--386) and
+the sketch of the proof (§ 3, p. 384) were read in the text layer for structure
+only; the proof of assertion (†) (§§ 3.2--3.3, pp. 386--393) was not read and
+not checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

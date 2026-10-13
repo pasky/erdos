@@ -47,10 +47,10 @@ identified in the
 [[ramsey_theory/owings_1974_e2494_sumset_within_set_or_complement/_index|source digest]].
 
 **Read depth.** Claims checked: the proposer line, the definition of $A+A$
-and the prove-or-disprove sentence were read clause by clause on the page
-image on 2026-09-22. The column prints the proposal only; no solution or
-comment on E 2494 accompanies it, and whether the Monthly later printed
-one was not established here.
+and the prove-or-disprove sentence were read clause by clause on the page image.
+The column prints the proposal only; no solution or comment on E 2494
+accompanies it, and whether the Monthly later printed one was not established
+here.
 
 ## Proof pointer
 

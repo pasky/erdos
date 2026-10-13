@@ -43,8 +43,8 @@ prints "© 1993 John Wiley & Sons, Inc.", every other right reserved.
 
 Read status: claims checked for the abstract (p. 151) and the introduction
 through the Theorem and the paragraph on Andersen (p. 152), read clause by
-clause on the page images on 2026-09-19; the reference list (p. 160) was read
-on the page image; the proof (pp. 153--159) was not read.
+clause on the page images; the reference list (p. 160) was read on the page
+image; the proof (pp. 153--159) was not read.
 
 ## Contents
 
@@ -106,8 +106,8 @@ Math. 108 (1992), 231--252 per the Crossref record), is filed as
 [[extremal_graph_theory/andersen_1992_strong_chromatic_index_cubic_graph_is_at_most_10/_index|andersen_1992_strong_chromatic_index_cubic_graph_is_at_most_10]];
 its Theorem 1, that a linear time algorithm gives every graph of maximum
 degree at most three a strong edge-coloring with at most ten colors, is on
-printed p. 250 (PDF p. 20), located here on the text layer of that page on
-2026-09-22 and paged on
+printed p. 250 (PDF p. 20), located here on the text layer of that page and
+paged on
 [[extremal_graph_theory/andersen_1992_strong_chromatic_index_cubic_graph_is_at_most_10/theorem_1|theorem_1]].
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]: the Theorem

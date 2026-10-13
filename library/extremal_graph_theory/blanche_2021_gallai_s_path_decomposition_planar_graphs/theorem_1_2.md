@@ -28,9 +28,8 @@ exceptions still meet $\lceil n/2\rceil$.
 
 **Source.** A. Blanché, M. Bonamy and N. Bonichon, *Gallai's path
 decomposition in planar graphs*, arXiv:2110.08870v2 (21 June 2022), 95 pp.;
-Theorem 1.2 on p. 1 (PDF p. 1), read on the page image. No journal version of
-the full paper was found (2026-09-18); the EuroComb 2021 extended abstract was
-not read for this page. The artifact is identified in the
+Theorem 1.2 on p. 1 (PDF p. 1), read on the page image. The EuroComb 2021
+extended abstract was not read for this page. The artifact is identified in the
 [[extremal_graph_theory/blanche_2021_gallai_s_path_decomposition_planar_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the paragraph before it

@@ -73,7 +73,7 @@ two-vertex case, matching the Conlon-Pohoata-Zakharov exponent for
 $r\le4$; the retained version is the arXiv preprint, and the journal
 version's corrigendum is not held.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.2 (Lason, 2010): If x_1^{d_1}...x_r^{d_r} is a maximal monomial of
   f, then f does not vanish on A_1 x ... x A_r whenever |A_i| >= d_i + 1; a

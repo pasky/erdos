@@ -41,7 +41,7 @@ Attribution license with no version or URL named
 
 **Bears on.** [[../wiki/problems/analysis/E0510/_index|#510]]
 
-**Results to transcribe.**
+**Results.**
 
 - Main bound (Section 0): For f a trigonometric polynomial with Fourier
   coefficients in {0,1}, f-hat(0)=0, f-hat(k)=f-hat(-k), and N = |Spec f|, one

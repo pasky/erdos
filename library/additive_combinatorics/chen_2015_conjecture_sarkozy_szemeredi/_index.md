@@ -50,7 +50,7 @@ which gives lim sup A(x)B(x)/x <= 1, and sharpens the affirmative answer of
 Sarkozy and Szemeredi to A(x)B(x) - x >= (min{A(x), B(x)})^M for every M > 1
 and all large x.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 0.2 (p. 48): For infinite additive complements A, B with lim sup
   A(x)B(x)/x <= 1 and any M > 1, A(x)B(x) - x >= (min{A(x),B(x)})^M for all

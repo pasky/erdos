@@ -167,7 +167,7 @@ $a_1=1$, and Brown's criterion then makes every natural number a subset sum;
 the `lean-proofs` file linked from Szemerédi and Vu's claim page proves
 exactly that reading and says so.
 
-**Search (dated).** 2026-10-07: the site's problem page, the Folkman source
+**Search scope.** The site's problem page, the Folkman source
 card, the Crossref and arXiv records of the Szemerédi--Vu paper and its
 Section 6 statements, the community database's entry, and the headers and
 main statements of the two Lean files; neither paper's proof is reviewed

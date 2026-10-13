@@ -276,9 +276,9 @@ against the trivial $S(k)\le k+1$ and the conjectured $S(k)\ge k^{1-o(1)}$
 $1/2$ and $1$ is untouched. Any progress on the exponent is progress on Problem
 687's second question, and conversely.
 
-**Search scope (2026-09-18 UTC).** None of the routes below found a lower
-bound with exponent above $1/2$, an upper bound below the inversion of
-(1.2), or a proof claim.
+**Search scope.** The routes below, as they stood on 2026-09-18, showed no
+lower bound with exponent above $1/2$, no upper bound below the inversion of
+(1.2) and no proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory and tree as of 2026-09-18 (no file); the

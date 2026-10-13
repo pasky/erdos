@@ -29,24 +29,43 @@ $$
 \sum_{n\in A}\frac{1}{n}.
 $$
 
+**Statement (precise).** Let $r\geq 2$ and suppose that
+$A\subseteq\{1,\ldots,N\}$ is such that, for any $m$, there are at most $r$
+solutions to $m=pa$ where $p$ is prime and $a\in A$. Give the best possible
+upper bound, for fixed $r$ and up to a constant factor depending only on $r$,
+for
+
+$$
+\sum_{n\in A}\frac{1}{n}.
+$$
+
+**Notes.** The site's "best possible upper bound" does not say whether the
+bound is wanted up to a constant factor or with its constant. The site cites
+[Er73] as its only source. Erdős's 1973 wording is the same hypothesis for a
+sequence $a_1<\cdots<a_k\le n$, with the conclusion (4.5),
+$\sum_{a_i\le n}1/a_i<c_1r\log n/\log\log n$ with an unspecified constant
+$c_1$, and the sentence "I do not know whether (4.5) can be improved"
+(printed p. 124). A bound with an unspecified constant is improved only by
+improving its order, so the source asks whether the order $\log n/\log\log n$
+for fixed $r$ is best possible; the change adds that reading, "for fixed $r$
+and up to a constant factor depending only on $r$". The formal-conjectures
+file reads the site's wording as the asymptotic size of the largest
+reciprocal sum over admissible sets, constant included (its main statement
+asks for a function to which that largest sum is asymptotically
+equivalent), and its maintainers judge the matching order
+$\Theta_r(\log N/\log\log N)$ not to answer it. Under the precise Statement,
+the pending claim on
+[[problems/integer_sequences/E0538/claims/2026_07_15_snyder|Snyder's claim page]]
+would answer the question with the order $\log N/\log\log N$; the asymptotic
+size with its constant, which the formal-conjectures file asks for, is a
+stronger variant that no claim answers, and the dependence of the bound on
+$r$ is a further question.
+
 **Formulation.** The site's wording of 2026-09-18 (the page shows no
 last-edited date). A solution of $m=pa$ is a pair $(p,a)$ with $p$ prime and
 $a\in A$; the hypothesis bounds, for every $m$, the number of such pairs by
-$r$. The question asks for the best upper bound on the reciprocal sum for
-each fixed $r$ as $N$ grows; the formal-conjectures file reads this as the
-asymptotic size of the largest reciprocal sum over admissible sets, constant
-included (its main statement asks for a function to which that largest sum
-is asymptotically equivalent), and its maintainers judge the matching order
-$\Theta_r(\log N/\log\log N)$ not to answer it. Erdős's 1973 wording is the
-same hypothesis for a sequence $a_1<\cdots<a_k\le n$, with the conclusion
-(4.5) below and the sentence "I do not know whether (4.5) can be improved".
-This page reads the question as that source does: whether the order of
-(4.5), $\log n/\log\log n$ for fixed $r$ with an unspecified constant, can
-be improved. The asymptotic size with its constant, which the
-formal-conjectures file asks for, is a stronger variant, and the dependence
-of the bound on $r$ is a further question. For $r=2$ the hypothesis is the
-one Ruzsa's construction satisfies on Problem 537. The site cites [Er73] as
-its only source.
+$r$. For $r=2$ the hypothesis is the one Ruzsa's construction satisfies on
+Problem 537.
 
 **Status.** The site labeled the problem OPEN (the page shows no last-edited
 date). The derived standing is claimed, answered. It departs from the site's
@@ -180,7 +199,7 @@ Nothing was built, the imported proofs are not assessed here, and no
 acceptance evidence beyond the claim and the collection's `research solved`
 tag was found. If the construction is right, the extremal reciprocal sum has
 order $\log N/\log\log N$ for every fixed $r$, and the question, read as
-its source reads it (Formulation), is answered; the constant that the
+its source reads it (the precise Statement), is answered; the constant that the
 formal-conjectures statement asks for and the dependence on $r$ stay open;
 the site's label and commentary do not record it, and the claim's thread
 held no comments on 2026-10-06.

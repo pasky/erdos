@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 1201, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-12T00:09:36Z
+updated: 2026-10-13T14:08:51Z
 ---
 
 # problems/primes/E1201/claims
@@ -19,7 +19,7 @@ precise Statement, and the claim is pending.
 [[problems/primes/E1201/claims/2026_05_01_chojecki|2026_05_01_chojecki]]: Under an unproven hypothesis (LPD), Chojecki's note claims natural density
 $\rho(1/\alpha)^h$ for the $n$ with no large prime factor in $[n,n+h)$. This
 gives the natural-density variant only for $\varepsilon<1/2$, and through it
-the precise Statement only in that range, which the unconditional claim
-already covers, so the standing is unchanged.
+the precise Statement only in that range; as a conditional claim it derives
+nothing for the problem's standing.
 
 ***

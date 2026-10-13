@@ -77,8 +77,8 @@ the entry was a typo and that they do not prove the problem, removing it from
 the report's revision of that day. No proof was posted, and the withdrawn
 listing gets no claim page.
 
-Dated search scope (2026-10-07): the site's problem page and discussion thread
-(24 comments, from 2025-12-19), the community database (status proved (Lean),
+Search scope: the site's problem page and discussion thread (24 comments on
+2026-10-07, from 2025-12-19 on), the community database (status proved (Lean),
 2026-05-11) and the
 [formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/330.lean)
 (tagged research solved, with its proof link). Not searched: arXiv, MathSciNet

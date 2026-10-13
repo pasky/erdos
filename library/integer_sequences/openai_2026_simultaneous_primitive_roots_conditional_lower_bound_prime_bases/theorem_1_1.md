@@ -149,8 +149,8 @@ for prime bases*, release folder
 `preprints/Simultaneous-primitive-roots-a-conditional-lower-bound-for-prime-bases-October-4-2026`;
 TeX file `build/sections/01-introduction.tex`, label `thm:main` (lines
 32--47), PDF p. 1; the proof is in `build/sections/02-reduction.tex` lines
-48--119 and closes at lines 113--119, PDF p. 3. Read 2026-10-12. Provenance
-and attestations are on
+48--119 and closes at lines 113--119, PDF p. 3. Provenance and attestations are
+on
 [[integer_sequences/openai_2026_simultaneous_primitive_roots_conditional_lower_bound_prime_bases/_index|the card]].
 
 **Read depth.** Claims checked: the statement, the definition of the order,

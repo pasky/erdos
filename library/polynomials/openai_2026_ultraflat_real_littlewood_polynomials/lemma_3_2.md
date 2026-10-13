@@ -38,8 +38,7 @@ any $n$ consecutive integers changes nothing.
 **Source.** OpenAI, *Ultraflat real Littlewood polynomials*, release folder
 `preprints/Ultraflat-real-Littlewood-polynomials-October-5-2026`; TeX
 `sections/rounding.tex` lines 25--41 (label `lem:complex-rounding`), PDF pp.
-4--5; proof p. 5 (`sections/rounding.tex` lines 43--115). Read
-2026-10-07.
+4--5; proof p. 5 (`sections/rounding.tex` lines 43--115).
 
 **Read depth.** Claims checked: the statement, and the statement of Lemma 3.1
 it rests on, were read clause by clause in the TeX source. The proof was read

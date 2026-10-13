@@ -49,7 +49,7 @@ Source: <https://matwbn.icm.edu.pl/ksiazki/aa/aa2/aa212.pdf>.
 
 **Bears on.** [[../wiki/problems/primes/E0233/_index|#233]]
 
-**Results to transcribe.**
+**Results.**
 
 - Conjecture (4): Heuristic conjecture from the probabilistic model: p_{n+1} -
   p_n = O((log p_n)^2).

@@ -39,7 +39,7 @@ by Theorem 3, p. 6).
 > irrationals for which the result fails." Prove or disprove these
 > statements.
 
-## Standing on 2026-09-17
+## Standing
 
 - The rational assertion: claimed proved for every positive rational, in
   this convention and in the distinct-denominator convention, by

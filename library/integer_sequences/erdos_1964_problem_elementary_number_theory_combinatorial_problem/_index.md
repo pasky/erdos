@@ -83,7 +83,7 @@ bounds and the sunflower remark (7); the paper cites as its origin its reference
 with pairwise the same least common multiple, the origin the site cites as
 [Er64, p. 646].
 
-**Results to transcribe.**
+**Results.**
 
 - theorem_p644: For every t and eps>0 there is n_0 with 2^{c_t log n/log log n}
   < f_t(n) < n^{3/4+eps} for all n > n_0(t,eps), where f_t(n) is the least l

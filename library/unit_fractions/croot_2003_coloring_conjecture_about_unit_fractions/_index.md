@@ -74,11 +74,10 @@ fractions with denominators at least $N$ that sum to $1$.
 ## Compiled scope
 
 Read status: claims checked for the Corollary and the Main Theorem, whose
-statements were read clause by clause on the rendered page images of
-pp. 545--546 on 2026-09-17; the reduction of the Main Theorem to
-Proposition 1 (pp. 546--548) was read for its structure. The proofs in
-Sections 2--6 (pp. 548--555) are unread. No proof is rewritten in full and
-none has been independently reviewed.
+statements were read clause by clause on the rendered page images of pp.
+545--546; the reduction of the Main Theorem to Proposition 1 (pp. 546--548) was
+read for its structure. The proofs in Sections 2--6 (pp. 548--555) are unread.
+No proof is rewritten in full and none has been independently reviewed.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0045/_index|#45]] and
 [[../wiki/problems/unit_fractions/E0046/_index|#46]] (the Corollary, with the elementary

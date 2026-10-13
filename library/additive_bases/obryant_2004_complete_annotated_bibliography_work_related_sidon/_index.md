@@ -6,7 +6,7 @@ desc: |
   literature.
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T15:50:52Z
+updated: 2026-10-13T14:08:55Z
 ---
 
 # additive_bases/obryant_2004_complete_annotated_bibliography_work_related_sidon
@@ -23,7 +23,7 @@ many authors use B_h^*[h!(g+1)-1] instead.
 
 [[additive_bases/obryant_2004_complete_annotated_bibliography_work_related_sidon/question_p17|question_p17]]: The first open question of the survey's Section 9 asks whether a bounded
 ordered representation function must vanish infinitely often, which the
-survey equates with Erdős's USD 500 question on additive bases.
+survey equates with a prize question of Erdős on additive bases.
 
 [[additive_bases/obryant_2004_complete_annotated_bibliography_work_related_sidon/theorem_5|theorem_5]]: The classical asymptotic sigma_2 = 1 as stated and proved in O'Bryant's
 survey: the largest Sidon subset of [n] has asymptotically sqrt(n)
@@ -122,8 +122,8 @@ corpus resolves to the same page of the arXiv v1.
 - [[../wiki/problems/additive_bases/E0028/_index|#28]]: for subsets of
   $\mathbb N$ and with the zeros of $\mathcal A^*$ counted at positive
   integers, the first question of §9 ([[additive_bases/obryant_2004_complete_annotated_bibliography_work_related_sidon/question_p17|Question, p. 17]])
-  answered yes is the problem's statement; the survey equates it with a USD
-  500 question of Erdős and records it as open.
+  answered yes is the problem's statement; the survey equates it with a prize
+  question of Erdős and records it as open.
 
 **Results.**
 

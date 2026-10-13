@@ -60,11 +60,11 @@ lower bound already has the right order and which is accepted on its refereed
 publication; the problem's standing derives from the accepted full claim. The
 constants are not determined and the question does not ask for them.
 
-Search scope, 2026-10-07: the site's page and discussion thread, the community
-database (teorth/erdosproblems), the lean-proofs and erdos-lean catalogs, the
-Justin Sun Prize awards repository, and Crossref. No further claim on the
-problem was found. Two third-party Lean formalizations are linked from the
-claim page; the corpus did not build them.
+Search scope: the site's page and discussion thread, the community database
+(teorth/erdosproblems), the lean-proofs and erdos-lean catalogs, the Justin Sun
+Prize awards repository, and Crossref; on 2026-10-07 none of them showed a
+further claim on the problem. Two third-party Lean formalizations are linked
+from the claim page; the corpus did not build them.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

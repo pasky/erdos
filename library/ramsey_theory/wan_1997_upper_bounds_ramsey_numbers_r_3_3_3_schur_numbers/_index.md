@@ -68,14 +68,12 @@ Read status: claims checked for the abstract and the definition of $r_n$
 (p. 119), the two earlier bounds of § 1 (pp. 119--120), Lemmas 2.1--2.3
 (p. 120), Theorem 2.4 (p. 121), the definition of $S_n$ with the printed
 values and the two classical bounds, Lemma 3.1 and Theorem 3.2 (p. 121),
-each read clause by clause on the page images of PDF pp. 1--3 on
-2026-09-22; p. 122
-(PDF p. 4) was read on the page image for the reference list. The proofs of
-Lemmas 2.2, 2.3 and 3.1 and of Theorems 2.4 and 3.2 (pp. 120--121, a
-paragraph or a display each) were read in full on the page images and their
-steps were followed, with the filing observations recorded below; the
-integer values $A_n-n!B_n$ for $n\le8$ were recomputed here. Nothing here
-is independently reviewed.
+each read clause by clause on the page images of PDF pp. 1--3; p. 122 (PDF p. 4)
+was read on the page image for the reference list. The proofs of Lemmas 2.2, 2.3
+and 3.1 and of Theorems 2.4 and 3.2 (pp. 120--121, a paragraph or a display
+each) were read in full on the page images and their steps were followed, with
+the filing observations recorded below; the integer values $A_n-n!B_n$ for
+$n\le8$ were recomputed here. Nothing here is independently reviewed.
 
 ## Contents
 

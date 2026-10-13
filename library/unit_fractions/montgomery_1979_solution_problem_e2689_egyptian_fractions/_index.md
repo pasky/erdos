@@ -62,11 +62,11 @@ other right reserved.
 Read status: claims checked for the whole E2689 item, the reprinted problem
 with its conditions (1) and (2), the solution's two sets and its closing
 sentence, and the note on Hickerson, each read clause by clause on the page
-image of PDF p. 2 (printed p. 224) on 2026-09-22; the cover sheet (PDF p. 1)
-was read on the page image for the citation. The item prints no argument
-beyond the two sets, so nothing was read for structure only. The two
-reciprocal sums were recomputed here in exact rational arithmetic and both
-equal 2; nothing here is independently reviewed.
+image of PDF p. 2 (printed p. 224); the cover sheet (PDF p. 1) was read on the
+page image for the citation. The item prints no argument beyond the two sets, so
+nothing was read for structure only. The two reciprocal sums were recomputed
+here in exact rational arithmetic and both equal 2; nothing here is
+independently reviewed.
 
 ## Contents
 

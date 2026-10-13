@@ -133,8 +133,8 @@ classification concerns $k=2$, outside the problem, and has no page. Guy [Gu04]
 records the Erdős–Obláth theorem in section D25 and the two-squares remark under
 D2.
 
-Search scope, 2026-10-07: the site's problem page, its discussion thread (no
-comments) and proof-claims list (none), the community database and the
+Search scope: the site's problem page, its discussion thread and proof-claims
+list (both empty on 2026-10-07), the community database and the
 formal-conjectures file; the library's card for [ErOb37] for the coprime
 results, and the monograph [ErGr80] at p. 77 for the source's account of
 them. The exact date on which Barfield's solution was found or first posted

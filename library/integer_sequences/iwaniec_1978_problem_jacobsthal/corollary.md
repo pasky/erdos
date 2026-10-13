@@ -79,11 +79,10 @@ displays). The edition read is identified in the
 [[integer_sequences/iwaniec_1978_problem_jacobsthal/_index|source digest]].
 
 **Read depth.** Claims checked: the Corollary, the Theorem, both
-definitions, display (1) and the questions were read clause by clause on
-the page images on 2026-09-22. The proof of the Theorem (pp. 228--230) was
-followed at the level of its displays and not checked; the step from the
-Theorem to the Corollary is the filing remark above. Nothing here is
-independently reviewed.
+definitions, display (1) and the questions were read clause by clause on the
+page images. The proof of the Theorem (pp. 228--230) was followed at the level
+of its displays and not checked; the step from the Theorem to the Corollary is
+the filing remark above. Nothing here is independently reviewed.
 
 ## Proof pointer
 

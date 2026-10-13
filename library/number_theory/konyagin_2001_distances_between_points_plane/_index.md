@@ -46,8 +46,8 @@ naming no open license, every other right reserved.
 
 Read status: claims checked for the definitions, the introduction's
 attributions and the Theorem (printed p. 630, PDF p. 1), read clause by
-clause on the page image on 2026-09-18; the proof (pp. 630--633) was read
-for its structure and not checked; nothing here is independently reviewed.
+clause on the page image; the proof (pp. 630--633) was read for its structure
+and not checked; nothing here is independently reviewed.
 
 Konyagin writes $\{x\}$ for the fractional part of the real number $x$ and
 $\|x\|$ for the distance from $x$ to the nearest integer, and $d(P,Q)$ for

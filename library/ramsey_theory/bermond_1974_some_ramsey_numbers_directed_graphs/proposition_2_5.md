@@ -48,13 +48,12 @@ $K_3^*$ and the congruences). The edition is identified in the
 
 **Read depth.** Claims checked: the statement, the definitions of p. 313
 and the definition and values of $\nu$ on p. 314 were read clause by clause
-on the page images on 2026-09-22, the passage of p. 316 on a
-higher-resolution rendering as well. The proof (one paragraph) was read in
-full on the page image and followed, together with the proof of Theorem 2.2
-(pp. 314--315) that supplies the upper bound. The two checks the printed
-proof leaves to the reader were carried out here by hand and are recorded
-below as filing checks, not review verdicts. Nothing here is independently
-reviewed.
+on the page images, the passage of p. 316 on a higher-resolution rendering as
+well. The proof (one paragraph) was read in full on the page image and followed,
+together with the proof of Theorem 2.2 (pp. 314--315) that supplies the upper
+bound. The two checks the printed proof leaves to the reader were carried out
+here by hand and are recorded below as filing checks, not review verdicts.
+Nothing here is independently reviewed.
 
 ## Proof pointer
 
@@ -100,11 +99,11 @@ p. 148, for the triangle-freeness of the 8-vertex complement, filed as
 the cited passage is Computation F on printed p. 148 (PDF p. 24), the
 cyclic graph on eight points with $i_1=1$, $i_2=4$, the octagon with
 antipodal points joined, "Clearly there are no triangles", read clause by
-clause on the page image on 2026-09-22; it is the graph $E_2$ above, and
-the folder has no result page for it. The triangle-freeness is also
-checked here directly. The note added in proof (p. 320) says the result is
-also in Harary and Hell, Generalised Ramsey theory for graphs V, The Ramsey
-number of a digraph, then to appear.
+clause on the page image; it is the graph $E_2$ above, and the folder has no
+result page for it. The triangle-freeness is also checked here directly. The
+note added in proof (p. 320) says the result is also in Harary and Hell,
+Generalised Ramsey theory for graphs V, The Ramsey number of a digraph, then to
+appear.
 
 ## Bears on
 

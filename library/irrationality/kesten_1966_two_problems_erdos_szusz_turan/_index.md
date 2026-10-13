@@ -56,7 +56,7 @@ Reading copy: [Markdown transcription](kesten_1966_two_problems_erdos_szusz_tura
 problem is the paper's Problem 1; Theorem 2 gives the existence of the limit for
 all A >= 0 and c >= 1 by an indicated proof, and leaves its value open.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: With m = m(N, xi) the largest n having q_n(xi) <= N, the measure of
   U(N, x, y, z) = {xi : q_m <= xN, q_{m(N,xi)+1} > yN, a'_{m(N,xi)+2} >= z}

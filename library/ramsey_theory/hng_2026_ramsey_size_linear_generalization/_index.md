@@ -79,7 +79,7 @@ unspecified constant $B_k$ and the vertex count $p$; it does not by itself
 determine the problem's edge-only coefficient $c_k$. Theorems 3 and 4 bear on
 no problem page of this corpus.
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/hng_2026_ramsey_size_linear_generalization/theorem_2|Theorem 2]]: for fixed $k\geq2$,
   $r(C_{2k+1},G)\leq2m(1+B_km^{-1/20})+p$ for no-isolate $G$ with $p$

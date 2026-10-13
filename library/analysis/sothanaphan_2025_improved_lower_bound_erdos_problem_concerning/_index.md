@@ -88,7 +88,7 @@ The held PDF is the arXiv v1 manuscript (watermark "arXiv:2512.14251v1
 
 **Bears on.** [[../wiki/problems/analysis/E1045/_index|#1045]]
 
-**Results to transcribe.**
+**Results.**
 
 - Proposition 1 (pp. 1--2): along even $n$,
   $\liminf\Delta_{\max}(n)/n^n\ge C=\exp(-I\pi^2/128)\approx1.0378$, and an

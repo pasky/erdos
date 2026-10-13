@@ -73,11 +73,11 @@ repository, which formalizes a variant of the second proof and is linked from
 that claim page. The file is third-party Lean that this corpus has not built,
 so neither claim lists `formalized` evidence.
 
-Search scope: on 2026-10-07 the site's problem page and thread, the community
-database (teorth/erdosproblems, `data/problems.yaml`), the formal-conjectures
-statement file, the Lean repository named above, the arXiv records and the
-publisher's record of the journal version were read; no further claim was
-found. Nothing remains open in the stated question.
+Search scope: the site's problem page and thread, the community database
+(teorth/erdosproblems, `data/problems.yaml`), the formal-conjectures statement
+file, the Lean repository named above, the arXiv records and the publisher's
+record of the journal version. On 2026-10-07 none of them held a further claim.
+Nothing remains open in the stated question.
 
 <!-- BEGIN problem library links -->
 

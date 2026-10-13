@@ -44,7 +44,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0688/_index|#688]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (Hough, 2015), p. 1: "In any covering system of the integers
   with distinct moduli, the minimum modulus is at most $10^{16}$."

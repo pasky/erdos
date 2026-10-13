@@ -72,7 +72,7 @@ nor a set with at least N^(1-c) elements up to N for every c > 0, and the
 Theorem says nothing about reciprocal sums, so it answers none of the
 problem's three questions.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem (main): There is an explicitly constructed S with Property P and
   counting function S(x) >> sqrt(x)/(sqrt(log x) (log log x)^2 (log log log

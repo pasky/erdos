@@ -64,11 +64,10 @@ identified in the
 [[extremal_graph_theory/kostochka_pyber_1988_small_topological_complete_subgraphs_dense_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the Theorem, the abstract, Erdős's question
-as the paper states it and the Notation were read clause by clause on the
-page image on 2026-09-22. The proof (p. 85) with Lemmas 1.1--1.4 and
-Observation 1.5 (p. 84) was read on the page images and followed step by
-step for its structure and its final count; no step was checked, and
-nothing here is independently reviewed.
+as the paper states it and the Notation were read clause by clause on the page
+image. The proof (p. 85) with Lemmas 1.1--1.4 and Observation 1.5 (p. 84) was
+read on the page images and followed step by step for its structure and its
+final count; no step was checked, and nothing here is independently reviewed.
 
 ## Proof pointer
 

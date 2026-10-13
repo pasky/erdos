@@ -59,7 +59,7 @@ not held. That paper is filed as
 whose card follows the lemmas' proofs; the four restatements, and the
 family $\mathcal S$ of the proof of Corollary 1, agree with Haxell's
 Lemmas 1--4 and definitions as printed (pp. 252--253 of Haxell's paper),
-compared on its page images on 2026-10-07.
+compared on its page images.
 
 ## Contents
 
@@ -114,9 +114,8 @@ compared on its page images on 2026-10-07.
 The whole four-page text at claims-checked depth, with the two proofs
 followed; the four lemmas of Haxell's paper on which Corollary 1 rests are
 restated in the preprint, their statements compared with Haxell's paper (not
-held) on 2026-10-07 and their proofs followed on that paper's card, not here. No
-acceptance evidence beyond the arXiv posting was found on 2026-09-19.
-Nothing here is independently reviewed.
+held) and their proofs followed on that paper's card, not here. Nothing here is
+independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0167/_index|#167]]: Corollary 1
 (p. 3, page image) is a claimed improvement of the general constant of the

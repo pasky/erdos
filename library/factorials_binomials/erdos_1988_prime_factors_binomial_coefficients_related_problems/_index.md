@@ -63,7 +63,7 @@ Source: <https://users.renyi.hu/~p_erdos/1988-26.pdf>.
 **Bears on.** [[../wiki/problems/factorials_binomials/E1093/_index|#1093]],
 [[../wiki/problems/factorials_binomials/E1094/_index|#1094]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: If a_1,...,a_k satisfies a_i <= k and the consecutive integer
   property, then {a_i} is a permutation of 1,...,k.

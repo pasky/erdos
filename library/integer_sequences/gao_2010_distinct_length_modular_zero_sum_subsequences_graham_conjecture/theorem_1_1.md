@@ -34,9 +34,9 @@ venue or date), whose pagination is used here; the journal text was not
 compared. Theorem 1.1 on p. 2, read in the text layer.
 
 **Read depth.** Claims checked: the statement, the conventions and the two
-examples were read clause by clause in the text layer (the card records
-the same for the 2026-09-17 reading). The proof (pp. 4--8) was read for
-structure only, not checked step by step.
+examples were read clause by clause in the text layer (the card records the
+same). The proof (pp. 4--8) was read for structure only, not checked step by
+step.
 
 ## Proof pointer
 

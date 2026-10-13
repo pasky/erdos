@@ -42,8 +42,7 @@ preprint, folder `The-circulant-Hadamard-conjecture-September-23-2026`;
 statement in `sections/introduction.tex`, lines 21--24 (label `thm:main`),
 PDF p. 1; proof in `sections/contradiction.tex`, lines 33--184, PDF
 pp. 11--13, resting on Sections 2 and 3 (`sections/reduction.tex`,
-`sections/local.tex`, `sections/products.tex`, PDF pp. 4--11). Read
-2026-10-07. The
+`sections/local.tex`, `sections/products.tex`, PDF pp. 4--11). The
 [[polynomials/openai_2026_circulant_hadamard_conjecture/_index|card]]
 records the provenance and the release's own attestations and Lean listing.
 

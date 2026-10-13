@@ -64,9 +64,9 @@ Page numbers here are those of the authors' manuscript described in the
 [[extremal_graph_theory/bollobas_2002_better_bounds_max_cut/_index|source digest]]
 (pp. 1-62): Theorem 1 on pp. 7-8, its proof on pp. 14-21.
 
-**Read depth.** Claims checked: the statement was read clause by clause on
-the manuscript's page images on 2026-10-08. The proof (pp. 14-21) was read
-for its structure; the outline below is the corpus's own.
+**Read depth.** Claims checked: the statement was read clause by clause on the
+manuscript's page images. The proof (pp. 14-21) was read for its structure; the
+outline below is the corpus's own.
 
 ## Proof pointer
 

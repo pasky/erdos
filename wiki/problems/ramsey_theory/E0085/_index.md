@@ -25,7 +25,7 @@ updated: 2026-10-08T02:16:54Z
 vertices with minimal degree $\geq f(n)$ contains a $C_4$. Is it true that, for
 all large $n$, $f(n+1)\geq f(n)$?
 
-**Formulation.** The site's wording (page last
+**Formulation.** The site's wording as accessed 2026-09-18 (page last
 edited 6 December 2025). $f(n)$ is the least minimum degree that
 forces a four-cycle on $n$ vertices. Erdős's own 1996 statement uses the
 complementary quantity $h(n)$, the largest minimum degree of a $C_4$-free

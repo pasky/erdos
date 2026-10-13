@@ -129,7 +129,8 @@ links that proof.
   character-nonresidue step of Korsky's argument, whose exponent rests on
   Pollack's Burgess-scale estimate, but no one has written that deduction, so
   the item is background here and gives no claim page.
-- **Status search.** The site's page and proof-claims tab the formal-conjectures catalog and the community database (which lists the
+- **Status search.** The site's page and proof-claims tab, the
+  formal-conjectures catalog and the community database (which lists the
   problem as formalized) are the sources of the claims above. No broader
   literature search is recorded.
 - **Proof coverage and review.** The $h(n)$ step of Zeng's argument, the

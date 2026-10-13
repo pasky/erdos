@@ -82,19 +82,18 @@ Read status: claims checked for the title page and abstract (p. 404),
 Theorem 1.1, Proposition 1.2, the remark deriving the Erdős--Heilbronn
 bound from it and Theorem 1.3 (p. 405), Theorem 3.2 (p. 410) and Theorem
 3.3 with its proof and the closing remark of § 3 (p. 411), each read clause
-by clause on the page images of PDF pp. 1, 2, 7 and 8 on 2026-09-22. The
-proof of Theorem 3.3 (p. 411, eight lines) was read in full on the page
-image and its arithmetic checked; the proofs of Theorem 2.1 (pp. 406--407),
-Lemma 3.1 (pp. 408--409), Proposition 1.2 (pp. 409--410) and Theorem 3.2
-(pp. 410--411) were read in the text layer for structure only; § 4 and § 5
-(pp. 411--416) and the references (pp. 416--417) were read in the text
-layer for their statements. On 2026-10-08 the whole article was read on the
-page images: Theorem 2.1 and its proof with Lemma 2.2 (pp. 406--407), the
-statement of Lemma 3.1 (p. 408), the restatement and proof of Proposition
-1.2 (pp. 409--410) and Theorem 3.2 with its proof and sharpness example
-(pp. 410--411) clause by clause for the statements and for structure in
-the proofs, and § 4, § 5 and the references for their statements. Nothing
-here is independently reviewed.
+by clause on the page images of PDF pp. 1, 2, 7 and 8. The proof of Theorem 3.3
+(p. 411, eight lines) was read in full on the page image and its arithmetic
+checked; the proofs of Theorem 2.1 (pp. 406--407), Lemma 3.1 (pp. 408--409),
+Proposition 1.2 (pp. 409--410) and Theorem 3.2 (pp. 410--411) were read in the
+text layer for structure only; § 4 and § 5 (pp. 411--416) and the references
+(pp. 416--417) were read in the text layer for their statements. The whole
+article was later read on the page images: Theorem 2.1 and its proof with Lemma
+2.2 (pp. 406--407), the statement of Lemma 3.1 (p. 408), the restatement and
+proof of Proposition 1.2 (pp. 409--410) and Theorem 3.2 with its proof and
+sharpness example (pp. 410--411) clause by clause for the statements and for
+structure in the proofs, and § 4, § 5 and the references for their statements.
+Nothing here is independently reviewed.
 
 ## Contents
 

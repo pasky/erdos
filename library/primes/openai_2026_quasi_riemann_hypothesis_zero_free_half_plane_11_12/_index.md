@@ -85,12 +85,12 @@ Read status: claims checked for
 and the statements of Propositions 3.1, 4.5, 5.1, 5.2 and 5.4 and Lemma 5.3,
 read clause by clause in the release's TeX source (`paper2.tex`, labels
 `thm:main`, `cor:primes-ap`, `thm:ms`, `prop:poisson-reduction`,
-`prop:canonical`, `prop:R`, `lem:cube-reduction`, `prop:transfer`) on
-2026-10-07; the proofs were read for their structure only and no step was
-checked; nothing here is independently reviewed. Corollary 1.2 has no proof in
-the manuscript (it is referred to a "standard explicit-formula argument"
-(p. 2) in Davenport), and the consequences listed after it in Section 1 are stated with
-citations and not proved there.
+`prop:canonical`, `prop:R`, `lem:cube-reduction`, `prop:transfer`); the proofs
+were read for their structure only and no step was checked; nothing here is
+independently reviewed. Corollary 1.2 has no proof in the manuscript (it is
+referred to a "standard explicit-formula argument" (p. 2) in Davenport), and the
+consequences listed after it in Section 1 are stated with citations and not
+proved there.
 
 ## Contents
 

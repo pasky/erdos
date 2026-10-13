@@ -114,7 +114,7 @@ requiring care when used as a proof from the printed text alone.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0036/_index|#36]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: The minimum overlap constant mu satisfies mu >= 0.379005, improving
   Moser's bound sqrt(4 - sqrt 15) = 0.356394 and nearly matching Haugland's

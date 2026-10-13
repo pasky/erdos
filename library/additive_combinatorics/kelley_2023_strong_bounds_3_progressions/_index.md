@@ -72,7 +72,7 @@ The arXiv record names arXiv's non-exclusive distribution license
 [[../wiki/problems/additive_combinatorics/E0160/_index|#160]],
 [[../wiki/problems/distance_problems/E0657/_index|#657]], [[../wiki/problems/ramsey_theory/E0721/_index|#721]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For some beta > 0, any A in {1,...,N} of density delta with no
   nontrivial 3-progression satisfies delta <= 2^{-Omega((log N)^beta)}.

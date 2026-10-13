@@ -56,12 +56,11 @@ Scholar and Crossref records). The published text was not
 obtained or compared, and the labels below are the preprint's. Read status:
 claims checked. Conjecture 1.3, Definition 1.4, Theorems 1.5 and 1.6 and
 Corollary 1.7 (pp. 3--4) were read clause by clause on the rendered page
-image of p. 4 and the text layer of pp. 3--4 on 2026-09-18, and the
-corollary's deduction (p. 19) was read. On 2026-10-08 the page images of
-pp. 1--23 were read: the statements of Section 1 (Conjecture 1.8,
-Theorems 1.9, 1.11, 1.12, Corollary 1.10) and Section 5 clause by clause,
-and the proofs of Sections 3 and 4 for structure only; nothing is verified.
-Result pages:
+image of p. 4 and the text layer of pp. 3--4, and the corollary's deduction
+(p. 19) was read. The page images of pp. 1--23 were read: the statements of
+Section 1 (Conjecture 1.8, Theorems 1.9, 1.11, 1.12, Corollary 1.10) and Section
+5 clause by clause, and the proofs of Sections 3 and 4 for structure only;
+nothing is verified. Result pages:
 [[unit_fractions/li_2025_conjecture_erdos_graham_about_sylvester_s/corollary_1_7|corollary_1_7]],
 [[unit_fractions/li_2025_conjecture_erdos_graham_about_sylvester_s/theorem_1_5|theorem_1_5]],
 [[unit_fractions/li_2025_conjecture_erdos_graham_about_sylvester_s/theorem_1_6|theorem_1_6]] and

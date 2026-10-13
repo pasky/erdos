@@ -51,9 +51,8 @@ right reserved.
 Read status: claims checked for Theorem 1.1 and Theorem 4.1, whose
 statements were read clause by clause (Theorem 1.1 in the text layer,
 Theorem 4.1 on the page image), and again on the page images of all eleven
-pages on 2026-10-08; their proofs were read but not verified; the problem
-page does not yet consume any statement from this source. The statements
-are on
+pages; their proofs were read but not verified; the problem page does not yet
+consume any statement from this source. The statements are on
 [[diophantine_problems/stewart_2008_cubic_thue_equations_many_solutions/theorem_1_1|theorem_1_1]]
 and
 [[diophantine_problems/stewart_2008_cubic_thue_equations_many_solutions/theorem_4_1|theorem_4_1]].
@@ -112,11 +111,11 @@ and
 ## Compiled scope
 
 The whole eleven-page paper was read in the text layer, with p. 7 also on
-the page image, and again on the page images of all eleven pages on
-2026-10-08. The statements of Theorems 1.1 and 4.1 were checked clause
-by clause; the proof of Theorem 4.1 was read but its pullback computations
-were not verified, and the quoted results of Silverman and of Stewart and
-Top were not checked. Nothing here is independently reviewed.
+the page image, and again on the page images of all eleven pages. The statements
+of Theorems 1.1 and 4.1 were checked clause by clause; the proof of Theorem 4.1
+was read but its pullback computations were not verified, and the quoted results
+of Silverman and of Stewart and Top were not checked. Nothing here is
+independently reviewed.
 
 **Bears on.** [[../wiki/problems/diophantine_problems/E0829/_index|#829]], as a lower
 bound for a related count:

@@ -54,8 +54,8 @@ artifact is identified in the
 [[ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/_index|source digest]].
 
 **Read depth.** Claims checked: the limit, (5) and (11) were read clause
-by clause on the page images on 2026-09-22. The paper prints no proof of
-the limit or of (5). Nothing here is independently reviewed.
+by clause on the page images. The paper prints no proof of the limit or of (5).
+Nothing here is independently reviewed.
 
 ## Proof pointer
 

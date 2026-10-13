@@ -44,7 +44,7 @@ Source: <https://arxiv.org/abs/2310.12891>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0944/_index|#944]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For every r in N there is k_0 such that for every k >= k_0 there
   exists a k-chromatic vertex-critical graph G with chi(G - R) = k for all R

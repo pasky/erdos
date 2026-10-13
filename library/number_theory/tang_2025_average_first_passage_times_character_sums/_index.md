@@ -58,7 +58,7 @@ the introduction's attestation that Elliott proved Erdős's display (80), the
 problem's statement; footnote 1, the site's earlier misstatement;
 [[number_theory/tang_2025_average_first_passage_times_character_sums/theorem_1_2|theorem_1_2]])
 
-**Results to transcribe.**
+**Results.**
 
 - [[number_theory/tang_2025_average_first_passage_times_character_sums/theorem_1_2|Theorem 1.2]]:
   For every eps > 0 there is c_eps in (0,infinity) with sum_{p <= x} f_eps(p)

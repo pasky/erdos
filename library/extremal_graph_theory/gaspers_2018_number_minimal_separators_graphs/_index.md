@@ -91,7 +91,7 @@ that fails as printed); p. 2 attests Fomin, Kratsch, Todinca and Villanger's
 $O(1.7087^n)$. The paper does not mention Erdős, Nešetřil or minimal
 cuts; the transfer to minimal cuts is through Bradač's sandwich sentence.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: sep(n) = O(rho^n n) with rho = (1+sqrt 5)/2, proved by counting
   [a,d]-separations.

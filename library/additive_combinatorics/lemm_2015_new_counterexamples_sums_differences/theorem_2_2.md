@@ -43,8 +43,7 @@ whose unique nonzero solution the paper gives as $p\approx0.21798$;
 Proposition 1.1 then gives the theorem.
 
 The paper prints no value of the ratio itself. A recomputation for this page
-(2026-10-08) found the root $p\approx0.2179774$ and, at it, the ratio
-$$
+found the root $p\approx0.2179774$ and, at it, the ratio $$
 \frac{4\psi(p)+\psi(1-4p)}{2\psi(2p)+\psi(1-4p)}\approx1.6122587,
 $$
 which is below $1.61226$, and a numerical search over all weights on these

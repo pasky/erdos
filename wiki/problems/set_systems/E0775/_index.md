@@ -85,8 +85,8 @@ the exact growth of $f(n,3)$ is open. The graph case is settled separately:
 Moon and Moser [MoMo65] and Spencer [Sp71] give $g(n,2)=n-\log_2 n+O(1)$ on
 the refereed pages linked above.
 
-**Search scope.** 2026-10-07: the site's problem page and its forum thread. No
-other claim on the problem was found.
+**Search scope.** The site's problem page and its forum thread; on 2026-10-07
+neither showed another claim on the problem.
 
 <!-- BEGIN problem library links -->
 

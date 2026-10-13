@@ -26,8 +26,9 @@ updated: 2026-10-08T14:06:00Z
 on $>n^{1/2}$ vertices then there is a set of $\leq n^{1/2}$ vertices containing
 $\gg n^{1/2}\log n$ edges.
 
-**Formulation.** The site's wording (the page shows no last-edited date).
-"$\gg n^{1/2}\log n$" asks for an absolute constant $c_0>0$ and at least
+**Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
+last-edited date). "$\gg n^{1/2}\log n$" asks for an absolute constant $c_0>0$
+and at least
 $c_0\sqrt n\log n$ edges for all large $n$; the base of the logarithm changes
 $c_0$ only. Alon's Theorem 1.2, the status-defining source, is stated with
 $\lfloor\sqrt n\rfloor$ in both places: its hypothesis is that the independence
@@ -267,9 +268,9 @@ Theorem 1.2 was read for structure only; the Ajtai--Komlós--Szemerédi bound it
 uses is read here at statement depth on its result page, its own proof read for
 structure only. (3) The journal text of [Al96b] was not compared with the
 preprint. (4) [Er79g] is cited from the archive's typescript, not the printed
-Congressus Numerantium text, and the page headed 8 is absent from it. (5) No
-citation scan of [Al96b] was possible on the search date; reopening condition: a
-later paper treating $f(m,n)$ near $m=\sqrt n$.
+Congressus Numerantium text, and the page headed 8 is absent from it. (5) The
+search could make no citation scan of [Al96b]; reopening condition: a later
+paper treating $f(m,n)$ near $m=\sqrt n$.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

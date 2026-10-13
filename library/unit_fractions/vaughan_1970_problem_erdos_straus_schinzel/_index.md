@@ -83,10 +83,10 @@ acknowledgment, Lemma 1 with its proof and equations (3)--(4) (p. 193),
 Lemma 2 with its proof, Lemma 3, the sieve inequality (5)--(6), Lemma 4
 and definitions (7)--(8) (p. 194), Lemmas 5--7 (p. 195) and the closing
 estimate with the reference list (p. 198), each read clause by clause on
-the page images of PDF pp. 1--3 and 6 on 2026-09-22; the proof of Lemma 7
-(pp. 195--197) and the Rankin argument (pp. 197--198) were read on the page
-images of PDF pp. 3--6 for structure only. Lemmas 1 and 2 were followed;
-no other proof was checked, and nothing here is independently reviewed.
+the page images of PDF pp. 1--3 and 6; the proof of Lemma 7 (pp. 195--197) and
+the Rankin argument (pp. 197--198) were read on the page images of PDF pp. 3--6
+for structure only. Lemmas 1 and 2 were followed; no other proof was checked,
+and nothing here is independently reviewed.
 
 ## Contents
 

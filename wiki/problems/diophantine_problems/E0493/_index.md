@@ -86,10 +86,10 @@ is recorded as the pending claim
 [[problems/diophantine_problems/E0493/claims/2025_12_27_alexeev|Alexeev 2025]];
 this repository has not built or audited that file.
 
-The status search of 7 October 2026 covered the site's problem page, its
-revision history and forum thread, the formal-conjectures file, the pinned
-Lean file's header, the community database and the 1961 survey's card. No
-other claim or dispute was found.
+The status search covered the site's problem page, its revision history and
+forum thread, the formal-conjectures file, the pinned Lean file's header, the
+community database and the 1961 survey's card. On 7 October 2026 none of these
+sources recorded another claim or dispute.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

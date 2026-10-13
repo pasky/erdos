@@ -46,7 +46,7 @@ Source:
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0418/_index|#418]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: The number of nonaliquot m <= x (those with no n satisfying
   sigma(n) - n = m) is at least (x/48)(1 + o(1)), an explicit form of Erdos's

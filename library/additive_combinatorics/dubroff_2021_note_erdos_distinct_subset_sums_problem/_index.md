@@ -44,11 +44,11 @@ of the arXiv v2 sits beside the PDF, which remains canonical. Read status:
 claims checked for Theorem 1 (p. 1), for the unnumbered bound a_n >= binom(n,
 floor(n/2)) stated on p. 1 and concluded on p. 2, and for Theorem 3 (Harper's
 inequality as quoted, p. 2, with the paper's definition of the vertex boundary),
-each read clause by clause on the page images with the text layer as an aid on
-2026-09-18; the two proofs on p. 2 were read through for their structure and are
-pointed to, not verified. Theorem 2 (Berry-Esseen, p. 1) is recorded below as
-quoted and is unread: it has no result page, and neither it nor Shevtsova's
-constant [10] was checked against its own literature. The statements are on
+each read clause by clause on the page images with the text layer as an aid; the
+two proofs on p. 2 were read through for their structure and are pointed to, not
+verified. Theorem 2 (Berry-Esseen, p. 1) is recorded below as quoted and is
+unread: it has no result page, and neither it nor Shevtsova's constant [10] was
+checked against its own literature. The statements are on
 [[additive_combinatorics/dubroff_2021_note_erdos_distinct_subset_sums_problem/theorem_1|theorem_1]],
 [[additive_combinatorics/dubroff_2021_note_erdos_distinct_subset_sums_problem/central_binomial_bound|central_binomial_bound]]
 and, second-hand for Harper's inequality,
@@ -225,7 +225,7 @@ here. [[../wiki/problems/number_theory/E0963/_index|#963]]: the upper bound for 
 competitor $d([N])$ derived above, which constrains one admissible
 competitor and does not bound $f(N)$ from below.
 
-**Results to transcribe.**
+**Results.**
 
 - [[additive_combinatorics/dubroff_2021_note_erdos_distinct_subset_sums_problem/theorem_1|Theorem 1]]
   (p. 1; proofs p. 2): If 0 < a_1 < ... < a_n are integers with all subset

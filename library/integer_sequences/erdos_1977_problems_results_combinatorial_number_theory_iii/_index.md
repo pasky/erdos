@@ -120,28 +120,26 @@ statements they make); the Section 6 passages of pp. 57-58 recorded above
 for #532, #948, #949, #1198 and #1199 were read on the page images of PDF
 pp. 15-16 (claims checked for the statements they make; the paper gives no
 proofs there); the Section 4 passage at the foot of p. 52 and the head of
-p. 53 (PDF pp. 10-11) recorded below for #12 and #13 was read on the page
-images on 2026-09-18 (claims checked; no proof is given); the pp. 70-71
-statements listed below were not re-read here. The p. 68 question with its
-continuation on p. 69 (PDF pp. 26-27) for #951, the p. 69 Gaussian-prime
-passage (PDF p. 27) for #952 and the permutation question at the foot of
-p. 71 (PDF p. 29) for #34 were read on the page images (claims
-checked for the statements they make; no proof is given). The non-averaging
-passage of p. 45 (PDF p. 3), display (3), for #186 and the Section 4
-passages at the head of p. 52 (PDF p. 10) for #876 and #350 were read on
-the page images on 2026-09-18 (claims checked for the statements they make;
-no proof is given). The Section 10 passages of pp. 70-71 (PDF pp. 28-29) for
+p. 53 (PDF pp. 10-11) recorded below for #12 and #13 was read on the page images
+(claims checked; no proof is given); the pp. 70-71 statements listed below were
+not re-read here. The p. 68 question with its continuation on p. 69 (PDF pp.
+26-27) for #951, the p. 69 Gaussian-prime passage (PDF p. 27) for #952 and the
+permutation question at the foot of p. 71 (PDF p. 29) for #34 were read on the
+page images (claims checked for the statements they make; no proof is given).
+The non-averaging passage of p. 45 (PDF p. 3), display (3), for #186 and the
+Section 4 passages at the head of p. 52 (PDF p. 10) for #876 and #350 were read
+on the page images (claims checked for the statements they make; no proof is
+given). The Section 10 passages of pp. 70-71 (PDF pp. 28-29) for
 #357, the infinite sequences with distinct consecutive sums, were read on the
-page images on 2026-09-18 (claims checked for the statements they make; no
-proof is given). The Section 7 passage of pp. 60-61 (PDF pp. 18-19) for #808
-was read on the page images (claims checked for the statements
-they make; no proof is given). No copyright or license line is printed on the
-scan's pages (p. 1 carries only the archive's typeset bibliographic header,
-with a handwritten annotation beside it); the Springer chapter page was not
-consulted, and the Crossref record for DOI 10.1007/bfb0063064 (read
-2026-10-02) names only Springer's text-and-data-mining terms
-(http://www.springer.com/tdm) and no Creative Commons license, every other
-right reserved.
+page images (claims checked for the statements they make; no proof is given).
+The Section 7 passage of pp. 60-61 (PDF pp. 18-19) for #808 was read on the page
+images (claims checked for the statements they make; no proof is given). No
+copyright or license line is printed on the scan's pages (p. 1 carries only the
+archive's typeset bibliographic header, with a handwritten annotation beside
+it); the Springer chapter page was not consulted, and the Crossref record for
+DOI 10.1007/bfb0063064 (read 2026-10-02) names only Springer's
+text-and-data-mining terms (http://www.springer.com/tdm) and no Creative Commons
+license, every other right reserved.
 
 Source: <https://users.renyi.hu/~p_erdos/1977-27.pdf>.
 
@@ -283,7 +281,7 @@ announced two-class proof, which its author had just told Erdős "may" have
 a gap, and Hindman's three-class decomposition with a class of density
 zero; the site's key is the 1980 survey)
 
-**Results to transcribe.**
+**Results.**
 
 - Graham-Rothschild conjecture (p. 57): For any two-class partition of the
   integers there is an infinite sequence with all finite sums

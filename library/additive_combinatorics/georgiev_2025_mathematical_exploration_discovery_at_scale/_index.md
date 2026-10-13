@@ -50,7 +50,7 @@ Source: <https://arxiv.org/abs/2511.02864>.
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0036/_index|#36]],
 [[../wiki/problems/additive_combinatorics/E1097/_index|#1097]]
 
-**Results to transcribe.**
+**Results.**
 
 - Problem 6.5 (minimum overlap constant): AlphaEvolve improves the upper bound
   on the minimum-overlap constant from Haugland's 0.3809268534330870 to

@@ -18,7 +18,8 @@ updated: 2026-10-05T05:52:35Z
 ***
 
 Peter Keevash, "A non-trivial bound for 3AP-intersecting families,"
-arXiv:2609.18870 (2026). The arXiv record (https://arxiv.org/abs/2609.18870,
+arXiv:2609.18870 (2026). The held PDF is arXiv:2609.18870v1 (16 September
+2026). The arXiv record (https://arxiv.org/abs/2609.18870,
 read 2026-10-02) names the Creative Commons Attribution 4.0 license.
 
 The paper calls a family $F\subseteq 2^{V(H)}$ *$H$-intersecting* when

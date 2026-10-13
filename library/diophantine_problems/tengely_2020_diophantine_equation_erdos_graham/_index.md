@@ -85,11 +85,11 @@ reserved.
 
 **Read status.** Claims checked: Theorems 2.1, 2.5, 2.8 and 3.5,
 Corollaries 2.9 and 3.6, Proposition 3.1 and Conjecture 3.7 with Remark 3.8
-were read clause by clause on the page images on 2026-10-08, for the result
-pages listed below. The solutions listed in Theorem 2.5 and the residue
-class of Proposition 3.1 were recomputed in exact arithmetic, as each page
-records; the paper's searches and greedy computations were not rerun, and
-the proofs were read but not checked step by step. The claim page
+were read clause by clause on the page images, for the result pages listed
+below. The solutions listed in Theorem 2.5 and the residue class of Proposition
+3.1 were recomputed in exact arithmetic, as each page records; the paper's
+searches and greedy computations were not rerun, and the proofs were read but
+not checked step by step. The claim page
 [[../wiki/problems/diophantine_problems/E0261/claims/2020_08_04_tengely_ulas_zygadlo|Tengely, Ulas and Zygadło 2020]]
 consumes Theorems 2.1, 2.5 and 3.5, Corollaries 2.9 and 3.6,
 Proposition 3.1 and Conjecture 3.7 with Remark 3.8.

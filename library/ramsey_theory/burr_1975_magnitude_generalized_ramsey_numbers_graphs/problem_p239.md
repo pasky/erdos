@@ -47,7 +47,7 @@ were not read.
 
 ## Proof pointer
 
-None; a question. The best bound known on 2026-09-18 is
+None; a question. The best bound known is
 [[ramsey_theory/tikhomirov_2024_remark_ramsey_number_hypercube/corollary_1_2|Corollary 1.2]]
 of Tikhomirov, $r(Q_n)\le2^{2n-cn+1}+2$ with $c=0.03656$ for large $n$. A
 preprint of the OpenAI mathematics release of 23 September 2026 claims the

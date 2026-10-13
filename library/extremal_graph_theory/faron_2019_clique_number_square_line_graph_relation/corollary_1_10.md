@@ -34,7 +34,7 @@ labels are the preprint's. The copy read is identified in the
 proof were read clause by clause on the page image; the proof
 is a five-line induction, followed here. Theorem 1.9, the one theorem it
 invokes, was read as a statement, and its proof (Section 3, pp. 5--9) on
-the page images for structure only on 2026-10-07.
+the page images for structure only.
 
 ## Proof pointer
 

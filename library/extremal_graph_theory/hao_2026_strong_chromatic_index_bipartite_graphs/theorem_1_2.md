@@ -32,9 +32,7 @@ statement.
 
 **Source.** Y. Hao, T. Yang and X. Yu, *Strong chromatic index of bipartite
 graphs*, arXiv:2606.23824v2 (23 July 2026); Theorem 1.2 on p. 2 of the
-retained preprint, read on the page image. A preprint with no refereed
-version or independent review found on 2026-09-19. The artifact is
-identified in the
+retained preprint, read on the page image. The artifact is identified in the
 [[extremal_graph_theory/hao_2026_strong_chromatic_index_bipartite_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the whole of pp. 1--2

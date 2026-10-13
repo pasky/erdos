@@ -64,7 +64,7 @@ on $n$ modulo $4$, the sharp form of the problem's estimate; the paper
 gives the $C_i$ no closed form, only shows them computable to any additive
 error (p. 2).
 
-**Results to transcribe.**
+**Results.**
 
 - [[additive_combinatorics/balogh_2018_sharp_bound_number_maximal_sum_free_subsets_integers/theorem_1_1|Theorem 1.1]]
   (p. 2): with constants C_1, ..., C_4, the number of maximal sum-free subsets

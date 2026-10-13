@@ -88,16 +88,15 @@ $F(N,t)$ and $G(N,t)$ with the recalled bound of Sárközy (pp. 249--250),
 Theorems 1--3 (pp. 250--251), the definitions of $H(N)$, $K(N)$ and $L(N)$
 with Theorems 4 and 5 (p. 251), the remarks on the $\log\log N$ gap and on
 $Q(N)$ (p. 252) and the closing § 9 with the references (p. 264), each read
-clause by clause on the page images of PDF pp. 1--4 and 16 on 2026-09-22.
-The proof of Theorem 4 (§ 7, pp. 258--261, PDF pp. 10--13) was read in
-full on the page images and its steps were followed (its count on p. 261
-has a slip, noted under § 7 below). The proofs of
-Theorems 1--3 (§§ 4--6, pp. 252--258) and of Theorem 5 (§ 8,
-pp. 261--264) were first read in the text layer for structure; on
-2026-10-08 the statements of Theorems 1--3 and 5 were read again clause by
-clause on the page images of PDF pp. 2--4, and their proofs were read on the
-page images of PDF pp. 4--10 and 13--16 and their outlines followed, not
-checked step by step. Nothing here is independently reviewed.
+clause by clause on the page images of PDF pp. 1--4 and 16. The proof of Theorem
+4 (§ 7, pp. 258--261, PDF pp. 10--13) was read in full on the page images and
+its steps were followed (its count on p. 261 has a slip, noted under § 7 below).
+The proofs of Theorems 1--3 (§§ 4--6, pp. 252--258) and of Theorem 5 (§ 8, pp.
+261--264) were first read in the text layer for structure; the statements of
+Theorems 1--3 and 5 were read again clause by clause on the page images of PDF
+pp. 2--4, and their proofs were read on the page images of PDF pp. 4--10 and
+13--16 and their outlines followed, not checked step by step. Nothing here is
+independently reviewed.
 
 ## Contents
 

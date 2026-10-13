@@ -58,12 +58,11 @@ on the page images. The edition is identified in the
 
 **Read depth.** Claims checked: the definitions, the § 4 lead-in, the
 statement and display (6) with its surrounding sentences were read clause
-by clause on the page images on 2026-09-22. The proof (pp. 26--27, with
-Figure 1) was read on the page images for structure only: the construction
-and the count were followed at the level of the paragraphs below, and the
-claim that every intermediate clique size occurs, the two extra-node cases
-and the omitted proof of (6) were not checked. Nothing here is independently
-reviewed.
+by clause on the page images. The proof (pp. 26--27, with Figure 1) was read on
+the page images for structure only: the construction and the count were followed
+at the level of the paragraphs below, and the claim that every intermediate
+clique size occurs, the two extra-node cases and the omitted proof of (6) were
+not checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 
@@ -97,8 +96,8 @@ method (the note, p. 233), and Spencer's 1971 paper (Israel J. Math. 9,
 419--421) removes the iterated-logarithm term. That paper is filed as
 [[extremal_graph_theory/spencer_1971_cliques_graphs/_index|spencer_1971_cliques_graphs]];
 its main bound, unlabeled, "for $N$ sufficiently large ($>33000$ will do)
-$g(N)\ge N-\log N-4$", is on printed p. 419 (PDF p. 1), located here on
-the text layer of that page on 2026-09-22 and paged on
+$g(N)\ge N-\log N-4$", is on printed p. 419 (PDF p. 1), located here on the text
+layer of that page and paged on
 [[extremal_graph_theory/spencer_1971_cliques_graphs/main_bound_p419|main_bound_p419]].
 
 ## Bears on

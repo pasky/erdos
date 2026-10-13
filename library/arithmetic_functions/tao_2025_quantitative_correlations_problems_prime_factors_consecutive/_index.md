@@ -94,7 +94,7 @@ asymptotic), [[../wiki/problems/irrationality/E0258/_index|#258]],
 [[../wiki/problems/irrationality/E0249/_index|#249]] (a mention: the $\omega$
 analog is settled and the paper says nothing about the $\phi$ series).
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (Erdős problem 248): there is $C>0$ such that for infinitely many
   $n$, $\omega(n+k)\leq\Omega(n+k)\leq Ck$ for all positive integers $k$;

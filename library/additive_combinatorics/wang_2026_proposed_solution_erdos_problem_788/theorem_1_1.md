@@ -34,11 +34,10 @@ along a subsequence. Equivalently, for each fixed $\varepsilon>0$ and all
 sufficiently large $n$, one can choose a single $B\subseteq J_n$ such that
 every $B$-admissible $C\subseteq I_n$ obeys $|B|+|C|\le n^{1/2+\varepsilon}$."
 
-This is a claim page. The statement was read; the proof was not assessed
-here, and no acceptance beyond the author's exists on 2026-09-18: the
-manuscript has no arXiv version, no journal record and no independent
-review found, and the site's Problem 788 page kept OPEN with a commentary
-that does not adopt it.
+This is a claim page. The statement was read; the proof was not assessed here.
+On 2026-09-18 the manuscript had no arXiv version and no journal record
+(Crossref bibliographic query), and the site's Problem 788 page kept OPEN with a
+commentary that does not adopt it.
 
 **Source.** S. Wang, *A Proposed Solution to Erdős Problem 788*, a 15-page
 manuscript in the author's public repository (the file `788/paper.pdf`,

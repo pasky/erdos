@@ -68,12 +68,12 @@ display reads $f(n)<\tfrac12n\log n+O(n)$ (the text layer prints "f(n) < *n
 log n + 0 (4,"); Gallai's graph is $K_{3,n-3}$ and its count $4(n-3)/3$ for
 $n\equiv0\pmod3$ was followed as printed (its second occurrence is misprinted
 "$4(n-3/)3$"). Read status for the passages
-problem 1017 consumes (2026-09-18): claims checked for Theorem 2 (printed
-p. 107 = PDF p. 2), Theorem 3 and Theorem 4 (p. 108 = PDF p. 3) and the
-Section 5 question (i) (pp. 109--110 = PDF pp. 4--5), read clause by clause
-on the page images; the proofs of Theorems 2 and 4 (pp. 107--109) were read
-for structure; Theorems 1 and 5 and Section 3 were not re-read. Both
-Theorem 2 and Theorem 4 are printed for order $n\ge2$. Theorem 4 is paged at
+problem 1017 consumes: claims checked for Theorem 2 (printed p. 107 = PDF p. 2),
+Theorem 3 and Theorem 4 (p. 108 = PDF p. 3) and the Section 5 question (i) (pp.
+109--110 = PDF pp. 4--5), read clause by clause on the page images; the proofs
+of Theorems 2 and 4 (pp. 107--109) were read for structure; Theorems 1 and 5 and
+Section 3 were not re-read. Both Theorem 2 and Theorem 4 are printed for order
+$n\ge2$. Theorem 4 is paged at
 [[extremal_graph_theory/erdos_1966_representation_graph_set_intersections/theorem_4|theorem_4]]
 and question (i) at
 [[extremal_graph_theory/erdos_1966_representation_graph_set_intersections/section_5_question_i|section_5_question_i]].
@@ -103,7 +103,7 @@ graph has $[n^2/4]+k$ edges; paged at
 and
 [[extremal_graph_theory/erdos_1966_representation_graph_set_intersections/section_5_question_i|section_5_question_i]].
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: Every graph on n vertices is the intersection graph of a family of
   n subsets of a set with [n^2/4] elements, and [n^2/4] is the smallest such

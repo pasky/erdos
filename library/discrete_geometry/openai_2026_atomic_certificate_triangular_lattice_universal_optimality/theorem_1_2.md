@@ -51,8 +51,7 @@ optimality*, release folder
 `An-atomic-certificate-for-triangular-lattice-universal-optimality-September-26-2026`,
 TeX file `main.tex`, label `thm:gaussian` (lines 95--110), PDF p. 2; the
 construction and proof occupy Sections 3--6 (pp. 9--28) with Appendix A
-(pp. 28--30), and the extension to $\alpha<1$ is Lemma 2.1 (p. 5). Read
-2026-10-07. The
+(pp. 28--30), and the extension to $\alpha<1$ is Lemma 2.1 (p. 5). The
 [[discrete_geometry/openai_2026_atomic_certificate_triangular_lattice_universal_optimality/_index|card]]
 records the provenance and the release's attestations.
 

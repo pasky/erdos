@@ -48,7 +48,7 @@ bounds for lim inf |S(N,A,c)|, Theorem III gives the limit for 0 < A <
 c/(1+c^2), and Theorem IV bounds |S(N,A,c)| below 1 for A > 10, c > 10; the
 paper leaves the existence of f(A,c) open outside the range of Theorem III.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem I: For A > 0 and c > 1, lim inf_{N to infinity} |S(N,A,c)| >=
   (3/pi^2)(1 - 1/c^2) min(1, 2A) (p. 120; Theorems I and II are printed with

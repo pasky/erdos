@@ -100,4 +100,4 @@ Bedert, Bucić, Kravitz, Montgomery and Müyesser's are preprints with no
 journal record on 2026-09-18, so two of the four links carry the preprint
 qualification. Not formalized: no Lean statement or proof of the problem
 existed in the catalog on 2026-09-18. Read depth: claims checked on the
-library result pages (2026-09-18); no proof in the chain checked.
+library result pages; no proof in the chain checked.

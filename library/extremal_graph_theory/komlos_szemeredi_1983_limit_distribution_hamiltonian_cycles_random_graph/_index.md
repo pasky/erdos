@@ -89,13 +89,13 @@ results, the Erdős--Rényi minimum-degree law and the inclusion
 $\mathrm{HC}_{n,k}\subset V^{(2)}_{n,k}$ (p. 55), Theorem 1, the equivalence
 remark on the two random models and the limit law for $V'_{n,k}$ (p. 56),
 Theorem 2, 0.2, 0.3 and Reformulation 1 (p. 57), each read clause by clause
-on the page images of PDF pp. 1--3 on 2026-09-22, with the displays checked
-on higher-resolution crops of the same pages. Reformulation 2 (p. 58) was
-read clause by clause on the page image of PDF p. 4 on 2026-10-08. The
-Remark (p. 58), the exceptional set of § 1 (pp. 58--59), the proof of § 2
-(pp. 59--62), § 3, § 4 and the references (pp. 62--63) were read on the page
-images of PDF pp. 4--9 for structure only, with the text layer as a locating
-aid. No proof step was checked, and nothing here is independently reviewed.
+on the page images of PDF pp. 1--3, with the displays checked on
+higher-resolution crops of the same pages. Reformulation 2 (p. 58) was read
+clause by clause on the page image of PDF p. 4. The Remark (p. 58), the
+exceptional set of § 1 (pp. 58--59), the proof of § 2 (pp. 59--62), § 3, § 4 and
+the references (pp. 62--63) were read on the page images of PDF pp. 4--9 for
+structure only, with the text layer as a locating aid. No proof step was
+checked, and nothing here is independently reviewed.
 
 ## Contents
 

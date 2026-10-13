@@ -63,7 +63,7 @@ TeX file `build/sections/02-reduction.tex`, label `hei:height` (lines
 232--248), PDF p. 9, with Corollary 2.5, label `hei:enlarge-exceptions`
 (lines 270--279), PDF p. 10; the proof occupies Section 4
 (`build/sections/04-height.tex`, PDF pp. 26--44) and closes at lines
-1299--1309, PDF p. 44. Read 2026-10-12. Provenance and attestations are on
+1299--1309, PDF p. 44. Provenance and attestations are on
 [[diophantine_problems/openai_2026_hilberts_tenth_problem_rational_numbers/_index|the card]].
 
 **Read depth.** Claims checked: the statement, the definition of the contact

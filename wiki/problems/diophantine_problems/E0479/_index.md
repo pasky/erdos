@@ -36,21 +36,19 @@ https://www.erdosproblems.com/479.
 
 ## Current assessment
 
-The assertion for every fixed integer $k\neq1$ remains open on the catalog
-snapshot accessed 2026-09-04 and the searches of 2026-09-05 and 2026-09-06.
-The 2026-09-05 searches covered the site page, Tang's note and a web
-search for a proof of the full congruence question, and a bibliographic
-search for the Graham–Lehmer–Lehmer publication; they found Tang's
-power-of-two family, no universal proof and no primary publication. The
-2026-09-06 searches covered a secondary report of Tang's note, OEIS A036236
-for the historical reference, and the site page. The site's commentary
-records the cases $k=2^i$ ($i\geq1$) and $k=-1$, which Erdős and Graham
-attribute to Graham, Lehmer and Lehmer, and credits Tang's note with a proof
-for $k=2^i$. Tang's note (Section 2.2) and forum comment of 2 December
-2025 list $k\in\{0,-1,-2\}\cup\{2^i:i\geq1\}$ as the values for which
-infinitely many $n$ are known, and call every other fixed $k$ open. The
-historical source and the manuscript discussed below have the narrower
-scopes stated here.
+The assertion for every fixed integer $k\neq1$ was open on the catalog
+snapshot accessed 2026-09-04. The searches covered the site page, Tang's note,
+a web search for a proof of the full congruence question and a bibliographic
+search for the Graham–Lehmer–Lehmer publication; on 2026-09-05 they showed
+Tang's power-of-two family, no universal proof and no primary publication. They
+also covered a secondary report of Tang's note and OEIS A036236 for the
+historical reference. The site's commentary records the cases $k=2^i$
+($i\geq1$) and $k=-1$, which Erdős and Graham attribute to Graham, Lehmer and
+Lehmer, and credits Tang's note with a proof for $k=2^i$. Tang's note (Section
+2.2) and forum comment of 2 December 2025 list
+$k\in\{0,-1,-2\}\cup\{2^i:i\geq1\}$ as the values for which infinitely many $n$
+are known, and call every other fixed $k$ open. The historical source and the
+manuscript discussed below have the narrower scopes stated here.
 
 Selected source statements and bounded applications are author-recorded;
 no independent review of them is recorded in this repository. This page

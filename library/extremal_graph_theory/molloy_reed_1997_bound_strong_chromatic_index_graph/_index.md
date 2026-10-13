@@ -84,12 +84,11 @@ paragraphs around it and the plan of the proof (p. 104), Talagrand's
 Inequality, Corollary 1, the notation and Lemmas 1 and 2 with the sentence
 deducing Theorem 1 from them (p. 105), the end of the proof of Lemma 2, § 4
 Remarks and references 1--3 (p. 108), each read clause by clause on the
-page images of PDF pp. 1--3 and 6 on 2026-09-22; references 4--11 (p. 109)
-were read on the page image of PDF p. 7. The proofs of Lemma 1 (pp.
-106--107) and Lemma 2 (pp. 107--108) were read on the page images of PDF
-pp. 4--6 for their structure; their estimates were not checked, and one
-numerical filing observation is recorded below. Nothing here is
-independently reviewed.
+page images of PDF pp. 1--3 and 6; references 4--11 (p. 109) were read on the
+page image of PDF p. 7. The proofs of Lemma 1 (pp. 106--107) and Lemma 2 (pp.
+107--108) were read on the page images of PDF pp. 4--6 for their structure;
+their estimates were not checked, and one numerical filing observation is
+recorded below. Nothing here is independently reviewed.
 
 ## Contents
 

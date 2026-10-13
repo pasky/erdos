@@ -39,9 +39,8 @@ and a heuristic scale $\exp(\Theta(k/\log k))$ for the truth (p. 1).
 **Source.** W. van Doorn and Q. Tang, *Consecutive integers free of certain
 prime factors*, arXiv:2606.19863v1 (18 June 2026; the only arXiv version on
 2026-09-18; no journal reference on arXiv and no Crossref record), 5 pp.;
-Theorem 1.1 on p. 1, read on the page image and in the text
-layer on 2026-09-18. The paper's declaration of AI usage (p. 2) is recorded
-on the source card.
+Theorem 1.1 on p. 1, read on the page image and in the text layer. The paper's
+declaration of AI usage (p. 2) is recorded on the source card.
 
 **Read depth.** Claims checked: the abstract, the definition of $n_k$, the
 choice of $\theta$ and the statement were read clause by clause on the page

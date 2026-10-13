@@ -37,8 +37,8 @@ Academia Sinica, Taiwan, and Stein at the Departamento de Ingeniería
 Matemática y Centro de Modelamiento Matemático, Universidad de Chile (the
 footnotes on p. 1, which also record that parts of the work were conceived
 at the Simons Laufer Mathematical Sciences Institute in spring 2025). The
-site's key [ReSt26] on the pages of Problems 548 and 557. A preprint: no
-journal record was found on 2026-10-07 (Crossref title query).
+site's key [ReSt26] on the pages of Problems 548 and 557. A preprint: a Crossref
+title query on 2026-10-07 returned no journal record.
 
 The copy read for this card is arXiv:2609.05417v2 (8 September 2026), 33
 letter-size pages with a clean text layer (arXiv's TeX build); page
@@ -50,11 +50,11 @@ the edition named here.
 Read status: claims checked for the abstract, Conjecture 1 and the
 paragraph of prior results (p. 1), Theorem 2, Theorem 3, the Ramsey
 paragraph with Corollary 4 and footnotes 1--2, and Section 1.1 (p. 2), read
-clause by clause on the page image of p. 2 and in the text layer of p. 1 on
-2026-10-07; the overview of the proof (Section 2, pp. 3--4) and the
-reference list (pp. 31--33) read in the text layer; the proof of Theorem 2
-(Sections 3--4, pp. 5--30) not read. The deduction of Corollary 4 from
-Theorem 2 (p. 2) was followed. Nothing here is independently reviewed.
+clause by clause on the page image of p. 2 and in the text layer of p. 1; the
+overview of the proof (Section 2, pp. 3--4) and the reference list (pp. 31--33)
+read in the text layer; the proof of Theorem 2 (Sections 3--4, pp. 5--30) not
+read. The deduction of Corollary 4 from Theorem 2 (p. 2) was followed. Nothing
+here is independently reviewed.
 
 ## Contents
 

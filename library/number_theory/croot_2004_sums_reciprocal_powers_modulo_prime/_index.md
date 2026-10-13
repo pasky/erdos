@@ -36,12 +36,11 @@ The copy read for this card is a
 six-page manuscript (Ghostscript 7.07 output with a text layer) headed with
 the title above, the Georgia Institute of Technology affiliation and the
 abstract, without an arXiv stamp or journal header; the locators below are
-its own page numbers 1--6. Its text is neither arXiv version (both compared
-by text extraction on 2026-10-07): it has v2's title, layout and Comments
-paragraph, but keeps v1's closing sentence of the abstract ("This extends a
-result of I. Shparlinski [5]"), v1's five references, the slip
-$x_1,\ldots,x_n$ in Theorem 2, and v1's $h$, the smallest integer above
-$\log(3k)/\log(1+\theta)$ (p. 4). v2 takes
+its own page numbers 1--6. Its text is neither arXiv version (both compared by
+text extraction): it has v2's title, layout and Comments paragraph, but keeps
+v1's closing sentence of the abstract ("This extends a result of I. Shparlinski
+[5]"), v1's five references, the slip $x_1,\ldots,x_n$ in Theorem 2, and v1's
+$h$, the smallest integer above $\log(3k)/\log(1+\theta)$ (p. 4). v2 takes
 $h=u^{2^{\lceil\log(3k)/\log(1+\theta)\rceil}}$, counts the terms of the
 elements of $S_n$ as $u^{2^n}$ where the manuscript has $u^{n+1}$, prints
 $x_1,\ldots,x_N$ and adds an example to the Comments and a sixth reference
@@ -54,8 +53,8 @@ URL is not recorded). The published version, Integers 4
 Zenodo (DOI 10.5281/zenodo.7642509, deposit dated 15 February 2023; both records
 read); its PDF ("Received: 5/24/04, Revised: 10/11/04, Accepted:
 10/21/04, Published: 11/1/04", p. 1) carries v2's text (compared by text
-extraction on 2026-10-07), so the manuscript predates the revision. No
-notice is printed in the manuscript. The arXiv abstract page of v2
+extraction), so the manuscript predates the revision. No notice is printed in
+the manuscript. The arXiv abstract page of v2
 (https://arxiv.org/abs/math/0403360v2, read 2026-10-02) links its "view
 license" to arXiv's assumed license
 (http://arxiv.org/licenses/assumed-1991-2003/), and the Zenodo record (read

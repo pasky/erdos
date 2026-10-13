@@ -89,7 +89,7 @@ reserved.
   [[number_theory/alexeev_2026_short_proofs_combinatorics_number_theory/theorem_4_2|Theorem 4.2]]
   as input.
 
-**Results to transcribe.**
+**Results.**
 
 - [[number_theory/alexeev_2026_short_proofs_combinatorics_number_theory/theorem_2_1|Theorem 2.1]]
   (p. 2): f(n) <= (24/(pi^2-6) + o(1))(log n)^2 <= 6.20219 (log n)^2 for n

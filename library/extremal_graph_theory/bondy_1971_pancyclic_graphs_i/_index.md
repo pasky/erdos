@@ -75,16 +75,16 @@ Read status: claims checked for the abstract and the definition of a
 pancyclic graph (p. 80), the Theorem (pp. 80 and 81, where it is printed
 twice), the Corollary (p. 83), Conjectures 1 and 2 with the footnote added
 in proof, and the extremal problem with its displayed bounds and the
-definition of $H(n)$ (p. 84), each read clause by clause on the page images
-of PDF pp. 1--5 on 2026-09-22; the introduction with Ore's condition (1)
-(p. 80), the acknowledgments and the reference list (p. 84) were read on the
-page images. The proof of the Theorem (pp. 81--83) was read in full on the
-page images and its structure followed: the pairing of chords, the degree
-sum (2), the parity argument, the equivalences (3) and (4) and the three
-cases on the shortest even chord length; the index arithmetic of the three
-cases was not checked. The proof of the Corollary (p. 83, one paragraph)
-was read in full on the page image and followed. The paper prints no
-argument for the bounds of p. 84. Nothing here is independently reviewed.
+definition of $H(n)$ (p. 84), each read clause by clause on the page images of
+PDF pp. 1--5; the introduction with Ore's condition (1) (p. 80), the
+acknowledgments and the reference list (p. 84) were read on the page images. The
+proof of the Theorem (pp. 81--83) was read in full on the page images and its
+structure followed: the pairing of chords, the degree sum (2), the parity
+argument, the equivalences (3) and (4) and the three cases on the shortest even
+chord length; the index arithmetic of the three cases was not checked. The proof
+of the Corollary (p. 83, one paragraph) was read in full on the page image and
+followed. The paper prints no argument for the bounds of p. 84. Nothing here is
+independently reviewed.
 
 ## Contents
 

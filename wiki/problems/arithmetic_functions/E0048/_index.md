@@ -97,9 +97,9 @@ claim page. They formalize that paper's argument and are not an independent
 proof. This corpus has not built, kernel-checked or audited either file, so
 no `formalized` evidence is listed.
 
-**Search scope and read depth.** Search scope, 2026-10-07: the site's
-problem page and its empty proof-claims thread; the community database's
-entry (2026-10-06); the digests of the two source cards; the arXiv record of
+**Search scope and read depth.** Search scope: the site's problem page and its
+proof-claims thread (empty on 2026-10-07); the community database's entry
+(2026-10-06); the digests of the two source cards; the arXiv record of
 [FLP10] and the Crossref records of its journal version, for dates; the
 formal-conjectures statement file and the headers, theorem statements and
 axiom lines of the two community Lean files. Proof coverage: none; neither

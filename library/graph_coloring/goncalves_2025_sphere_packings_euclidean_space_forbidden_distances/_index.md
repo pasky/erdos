@@ -49,7 +49,7 @@ Source: <https://arxiv.org/abs/2308.03925>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0706/_index|#706]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: Sphere packings in R^48 avoiding normalized center separations in
   (sqrt(4/3), sqrt(5/3)) have center density at most (3/2)^24, with periodic

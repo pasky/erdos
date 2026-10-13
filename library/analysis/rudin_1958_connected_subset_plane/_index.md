@@ -67,7 +67,7 @@ article.
 
 **Bears on.** [[../wiki/problems/analysis/E0910/_index|#910]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem (p. 15): If the continuum hypothesis holds, there is a non-degenerate
   connected subset M of the plane such that for every non-degenerate connected
@@ -93,4 +93,6 @@ proof scope.
 **Review record.** The [formulation
 review](evidence/verify/formulation_review.md) of 6 September 2026 checks the
 scope of Rudin's theorem on printed p. 15. No record reviews Rudin's
-construction.
+construction. On 2026-10-13 the label "Results to transcribe" above the results
+list was shortened to "Results"; the change touches no examined statement,
+proof, code or input.

@@ -81,7 +81,7 @@ Source: <https://arxiv.org/abs/0706.4099v1>.
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0804/_index|#804]],
 [[../wiki/problems/extremal_graph_theory/E0805/_index|#805]]
 
-**Results to transcribe.**
+**Results.**
 
 - Main corollary (q): For graphs in which every induced subgraph on log^3 n
   vertices has an independent set of size log n, the largest universally

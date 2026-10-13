@@ -74,12 +74,12 @@ https://www.erdosproblems.com/1156.
 
 ## Current assessment
 
-The standing judges the site's formulation, accessed and read as the Formulation
-states. Both of its questions are open. The known upper bounds are these.
-Bollobás [Bo88] proved that $\chi(G)\sim n/(2\log_2 n)$ with high probability.
-Shamir and Spencer [ShSp87] proved that $\chi(G)$ lies with high probability in
-an interval of length $\omega(n)\sqrt n$ about some $f(n)$, for any
-$\omega(n)\to\infty$. Alon improved the length to $\omega(n)\sqrt n/\log n$,
+The standing judges the site's formulation, accessed 2026-09-04 and read as the
+Formulation states. Both of its questions are open. The known upper bounds are
+these. Bollobás [Bo88] proved that $\chi(G)\sim n/(2\log_2 n)$ with high
+probability. Shamir and Spencer [ShSp87] proved that $\chi(G)$ lies with high
+probability in an interval of length $\omega(n)\sqrt n$ about some $f(n)$, for
+any $\omega(n)\to\infty$. Alon improved the length to $\omega(n)\sqrt n/\log n$,
 posed as Exercise 3 of Section 7.9 of Alon and Spencer [AlSp16]; Scott [Sc17]
 gives a proof
 ([[../library/graph_coloring/scott_2008_concentration_chromatic_number_random_graphs/_index|Scott 2008]]).

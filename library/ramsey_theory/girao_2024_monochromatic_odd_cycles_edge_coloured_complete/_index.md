@@ -82,7 +82,7 @@ Source: <https://arxiv.org/abs/2412.07708>.
   hosts $K_{(1+\delta)2^n}$ and at $K_{2^n+1}$ gives nothing better than the
   trivial bound $f(n)\le2^n+1$.
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/girao_2024_monochromatic_odd_cycles_edge_coloured_complete/theorem_1_2|Theorem 1.2]] (p. 1): For every epsilon > 0 there is q0 such that
   every q-coloring of the complete graph on 2^q+1 vertices with q > q0 has a

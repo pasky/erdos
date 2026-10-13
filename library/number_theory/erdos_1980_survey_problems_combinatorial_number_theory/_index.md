@@ -100,9 +100,9 @@ $\delta\log N$, one of the two growth rates the survey names. No proof or
 bound is given.
 
 Printed p. $n$ of the survey is PDF p. $n-88$ throughout (checked on pages
-91--93 and 102--113). The following passages were read on the page
-images on 2026-09-18, claims checked for the statements they make (the
-survey proves nothing here, so there is no proof to check):
+91--93 and 102--113). The following passages were read on the page images,
+claims checked for the statements they make (the survey proves nothing here, so
+there is no proof to check):
 
 - Printed p. 91 (PDF p. 3), for [[../wiki/problems/ramsey_theory/E0721/_index|#721]]:
   by analogy with Ramsey numbers, Erdős defines the van der Waerden number
@@ -529,7 +529,7 @@ bound as $n^{2/3}+\varepsilon$), the lower due to Abbott and the upper to Erdős
 and Straus, and Erdős asks for a proof that $\log A(n)/\log n$ converges to some
 $\alpha$, and for the value of $\alpha$; the site's key [Er80, p. 110])
 
-**Results to transcribe.**
+**Results.**
 
 - Cohen's progression problem (p. 93): For an increasing l(d), asks for a
   two-coloring-monochromatic progression of l(d) terms with difference d;

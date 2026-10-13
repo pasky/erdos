@@ -57,22 +57,22 @@ The copy read for this card is the archive's 9-page Acrobat Capture scan
 (printed p. $n$ is PDF p. $n-26$) whose text layer garbles the formulas. Read
 status: claims checked for display (15) on printed p. 30 and the
 direct-construction request and display (16) on p. 31 (PDF pp. 4--5), read
-clause by clause on the page images on 2026-09-18, and for the edge-coloring
-question on printed p. 33 (PDF p. 7), read clause by clause on the page image,
-for the independence-number question that follows it on the same page (re-read
-clause by clause on the page image for Problem 925) and for the Moon--Moser
-clique-sizes passage on printed p. 34 (PDF p. 8), read clause by clause on the
-page image for Problem 927, and for the Pósa--Lewin passage on circuits with
-diagonals that follows it on printed p. 34 (PDF p. 8), read clause by clause on
-the page image for Problem 767; the rest of the digest records an earlier
-reading that was not repeated. The scan prints at the head of its first page
-"REPRINTED FROM PROOF TECHNIQUES IN GRAPH THEORY © 1969 ACADEMIC PRESS INC. NEW
-YORK", a copyright notice that names no license; the hosting archive's site
-footer speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/,
-read 2026-10-02, prints "(C) 2005-2007 All rights reserved. All material on this
-site is for scientifics purposes only."); the 1969 Academic Press volume has no
-online edition or publisher page, so the publisher's page was not consulted and
-no Crossref license is recorded; by the printed notice the term is reserved.
+clause by clause on the page images, and for the edge-coloring question on
+printed p. 33 (PDF p. 7), read clause by clause on the page image, for the
+independence-number question that follows it on the same page (re-read clause by
+clause on the page image for Problem 925) and for the Moon--Moser clique-sizes
+passage on printed p. 34 (PDF p. 8), read clause by clause on the page image for
+Problem 927, and for the Pósa--Lewin passage on circuits with diagonals that
+follows it on printed p. 34 (PDF p. 8), read clause by clause on the page image
+for Problem 767; the rest of the digest records an earlier reading that was not
+repeated. The scan prints at the head of its first page "REPRINTED FROM PROOF
+TECHNIQUES IN GRAPH THEORY © 1969 ACADEMIC PRESS INC. NEW YORK", a copyright
+notice that names no license; the hosting archive's site footer speaks for the
+site, not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints
+"(C) 2005-2007 All rights reserved. All material on this site is for scientifics
+purposes only."); the 1969 Academic Press volume has no online edition or
+publisher page, so the publisher's page was not consulted and no Crossref
+license is recorded; by the printed notice the term is reserved.
 
 Source: <https://users.renyi.hu/~p_erdos/1969-13.pdf>.
 
@@ -80,9 +80,9 @@ Source: <https://users.renyi.hu/~p_erdos/1969-13.pdf>.
 display (15) and the request for "a direct construction" (below), the
 site's key for the problem.
 [[../wiki/problems/ramsey_theory/E0077/_index|#77]]: printed p. 31, display (16), the
-question in its inverse form $\lim_{n\to\infty}\min_{G_n}\max(K(G_n),I(G_n))/\log n$,
-"I cannot even prove that the limit in (16) exists"; a site key for the
-problem.
+question in its inverse form
+$\lim_{n\to\infty}\min_{G_n}\max(K(G_n),I(G_n))/\log n$, "I cannot even prove
+that the limit in (16) exists"; a site key for the problem.
 [[../wiki/problems/ramsey_theory/E0924/_index|#924]]: printed p. 33 (PDF p. 7), page image:
 "One final problem of Hajnal and myself: Is it true that for every $l\ge3$ and
 $k\ge2$ there is a graph $G$ not containing $K_{l+1}$ such that if we color its
@@ -105,19 +105,18 @@ the site's commentary says this paper "discussed the second order terms",
 and no passage on the problem's functions $g_k(n)$ or $u_l(n)$, or on
 sequences of integers with distinct products, was found in the
 nine-page scan: all nine pages (printed pp. 27--35) were read on the page
-images on 2026-09-18, Section 3, printed pp. 33--35 (PDF pp. 7--9), holding
-Turán's hypergraph problem, the $n^{3/2}$ extremal problems, the
-Moon--Moser clique sizes and Pósa's circuits, and the text layer of all
-nine pages was searched for sequences of integers, products and
-representations.
+images, Section 3, printed pp. 33--35 (PDF pp. 7--9), holding Turán's hypergraph
+problem, the $n^{3/2}$ extremal problems, the Moon--Moser clique sizes and
+Pósa's circuits, and the text layer of all nine pages was searched for sequences
+of integers, products and representations.
 [[../wiki/problems/extremal_graph_theory/E0767/_index|#767]]: printed p. 34 (PDF p. 8, page
-image), the last paragraph of Section 3, read clause by clause. After pointing to recent papers on extremal problems in graph
-theory (its [7, 11--13, 23]), Erdős records one question: Pósa's theorem
-that every graph on $n$ vertices with $2n-3$ edges has a cycle with a
-chord, and $2n-3$ is sharp, and then, quoted: "I had thought that every
-$G(n;kn-k^2+1)$ contains a circuit one vertex of which is the end point of
-at least $k-1$ diagonals. Using Pósa's idea I proved this for $k=3$ and
-$k=4$, but Lewin proved (oral communication) that in general the
+image), the last paragraph of Section 3, read clause by clause. After pointing
+to recent papers on extremal problems in graph theory (its [7, 11--13, 23]),
+Erdős records one question: Pósa's theorem that every graph on $n$ vertices with
+$2n-3$ edges has a cycle with a chord, and $2n-3$ is sharp, and then, quoted: "I
+had thought that every $G(n;kn-k^2+1)$ contains a circuit one vertex of which is
+the end point of at least $k-1$ diagonals. Using Pósa's idea I proved this for
+$k=3$ and $k=4$, but Lewin proved (oral communication) that in general the
 conjecture is incorrect. I do not have any plausible conjecture to replace
 my original one." The site's key Er69b and the source of its
 commentary on Lewin; the passage counts $k-1$ diagonals and states no
@@ -169,7 +168,7 @@ cliques in graphs, Israel J. Math. 4 (1966), and its [22] is Moon and
 Moser, Israel J. Math. 3 (1965), on printed p. 35 = PDF p. 9.) A passage
 the problem's owner requested.
 
-**Results to transcribe.**
+**Results.**
 
 - Inequality (2), p. 28 (Dirac): There is a 6-chromatic critical graph on 4n+2
   vertices with at least 4n^2 + 8n + 3 edges, from two disjoint odd circuits

@@ -18,9 +18,10 @@ isolated vertices, R(C_k, H) is at most (k-1)m+1 and hence at most km.
 ***
 
 Stijn Cambie and Andrea Freschi, *A General Bound on $R(C_k,H)$*.
-The copy read for this card is arXiv:2606.11174v1 (9 June 2026); no journal
-version was found on 9 September 2026, and the arXiv record listed only
-version one on 7 October 2026. The arXiv record (https://arxiv.org/abs/2606.11174, read 2026-10-02) names the Creative Commons Attribution 4.0 license.
+The copy read for this card is arXiv:2606.11174v1 (9 June 2026); the arXiv
+record listed only version one on 7 October 2026. The arXiv record
+(https://arxiv.org/abs/2606.11174, read 2026-10-02) names the Creative Commons
+Attribution 4.0 license.
 
 [[ramsey_theory/cambie_2026_general_bound_r_c_k_h/theorem_3|Theorem 3]], on physical and printed p. 1, proves that for every
 integer $k\geq 3$ and every graph $H$ with $m\geq 1$ edges and no isolated
@@ -67,7 +68,7 @@ Source: <https://arxiv.org/abs/2606.11174>.
 **Bears on.** [[../wiki/problems/ramsey_theory/E0569/_index|#569]];
 [[../wiki/problems/ramsey_theory/E0570/_index|#570]] (weaker context only)
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/cambie_2026_general_bound_r_c_k_h/theorem_3|Theorem 3]]: For every integer $k\geq 3$ and every graph $H$
   with $m\geq 1$ edges and no isolated vertices,

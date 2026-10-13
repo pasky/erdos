@@ -93,7 +93,7 @@ about what the problem is), its one-comment discussion thread (9 August
 `ErdosProblems/467.lean` on [its main
 branch](https://github.com/google-deepmind/formal-conjectures/tree/fe0601160638ba1feedc32858970070c326b7534/FormalConjectures/ErdosProblems)
 that day, and the site's indicator records no formalized statement. The
-community database (teorth/erdosproblems, as fetched) records the problem open
+community database (teorth/erdosproblems) records the problem open
 (last changed 31 August 2025), the statement not formalized, `formal_status`
 unformalized, no formal-proof URL and a comment that the statement is ambiguous.
 
@@ -134,7 +134,7 @@ disproof, partial result or proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory on its main branch (no file); the community
-  database as fetched.
+  database record.
 - arXiv: the API query
   `abs:"covering" AND abs:"residue classes" AND abs:"primes" AND abs:"two classes"`
   (no records); the API searches titles and abstracts only, so this zero is

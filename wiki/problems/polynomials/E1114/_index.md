@@ -120,8 +120,8 @@ corrected Statement; the claim page links it at its pinned commit. The
 corpus has not built or audited it, so no `formalized` evidence is listed.
 
 **Search scope and coverage.** Search scope: the site's problem page and its
-empty thread, the formal-conjectures tree and the lean-proofs file, as of
-2026-10-07. Coverage: the statements of Bálint 1960 and Lorch 1976, Bálint's
+thread (empty on 2026-10-07), the formal-conjectures tree and the lean-proofs
+file. Coverage: the statements of Bálint 1960 and Lorch 1976, Bálint's
 English summary and Lorch's account of Bálint's result were checked against
 the papers; the proofs are not compiled in this wiki.
 

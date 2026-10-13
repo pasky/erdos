@@ -15,7 +15,8 @@ updated: 2026-10-07T20:53:40Z
 ***
 
 Alexander Walker, Integer Sets of Large Harmonic Sum Which Avoid Long Arithmetic
-Progressions. arXiv:2203.06045 (2022).
+Progressions. arXiv:2203.06045 (2022). The held PDF is arXiv:2203.06045v2
+(4 September 2025).
 
 The Erdos-Turan conjecture on arithmetic progressions asks whether every integer
 set with divergent harmonic sum contains arbitrarily long progressions;
@@ -42,7 +43,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0169/_index|#169]]
 
-**Results to transcribe.**
+**Results.**
 
 - Lower bound for M_4: The 4-free Kempner set
   K({0,1,2,4,5,9,10,11,14,16,17,18,21,24,30,37,39,41,42,45,47},55)+1 has

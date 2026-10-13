@@ -34,9 +34,9 @@ is printed p. $398+n$ in both.
 
 Read status: claims checked. Theorems 2.1 and 2.2 with their corollaries,
 Theorem 3.1 and the conjecture on $A(n)-2p_n$ (p. 406) were read clause by
-clause on the text layer, and the p. 406 passage again on its page image on
-2026-10-07 (the text layer prints $\le$ and $\ge$ there as $<$ and $>$); the
-short proofs of section 2 were read but not checked.
+clause on the text layer, and the p. 406 passage again on its page image (the
+text layer prints $\le$ and $\ge$ there as $<$ and $>$); the short proofs of
+section 2 were read but not checked.
 
 ## Contents
 

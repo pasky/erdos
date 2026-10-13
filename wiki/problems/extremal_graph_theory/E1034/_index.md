@@ -171,7 +171,7 @@ made here); no bridging theorem in the collection's form is in the file. The
 repository's note `ErdosProblems/Erdos1034.md` lists copies for five
 toolchains (Lean v4.24.0 to v4.33.0). Nothing was built, audited or
 kernel-checked here, and no local credit is claimed. The community database
-(`data/problems.yaml` as fetched) lists `status`
+(`data/problems.yaml`) lists `status`
 "disproved (Lean)" as of its last update of 4 December 2025, `formal_status`
 Lean with no URL, the statement formalized since 5 August 2026 and no
 formal-proof field; the site's indicator reads "Formalised statement? Yes".

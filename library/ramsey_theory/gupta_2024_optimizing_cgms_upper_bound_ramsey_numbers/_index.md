@@ -36,18 +36,17 @@ August 2026). The arXiv listing carries no journal reference and a
 Crossref bibliographic query under the title returned no record (both read).
 
 The copy read for this card is arXiv:2407.19026v2 [math.CO] 29 Aug 2026, 24
-pages, with a text layer; printed page $=$ PDF page. Pages 1--3, 6, 20 and
-23 were read on rendered page images, pages 5, 7, 8 and 19 on
-2026-10-07, and pages 4 and 20--24 on 2026-10-08. The arXiv record names arXiv's non-exclusive distribution
-license (arXiv:2407.19026), every other right reserved.
+pages, with a text layer; printed page $=$ PDF page. Pages 1--8 and 19--24 were
+read on rendered page images. The arXiv record names arXiv's non-exclusive
+distribution license (arXiv:2407.19026), every other right reserved.
 
 Read status: claims checked for Theorem 1 and its error-term sentence
 (p. 2), the diagonal and off-diagonal displays on p. 3, the abstract's
 rounded bound (p. 1), Corollary 6 (p. 6), Remark 17, which closes Section
 4 (pp. 19--20), and the declaration on p. 3, read clause by clause on the
-page images, with Fact 8 (p. 8) added on 2026-10-07 and Theorem 5 (p. 5), Theorem 20
-(p. 21) and Corollary 21 (p. 22) on 2026-10-08; no proof was read
-beyond tracing which results the proof of Theorem 1 rests on.
+page images, with Fact 8 (p. 8), Theorem 5 (p. 5), Theorem 20 (p. 21) and
+Corollary 21 (p. 22) added; no proof was read beyond tracing which results the
+proof of Theorem 1 rests on.
 
 Version and provenance, in the paper's own statements (recorded, not
 judged). The paper says (p. 3) that its main results were obtained in
@@ -137,12 +136,10 @@ $\limsup R(k)^{1/k}\le3.7992\ldots$.
 
 ## Compiled scope
 
-Pages 1--3, 6, 20 and 23 were read on the page images, pages 5, 7, 8
-and 19 on 2026-10-07, and pages 4 and 20--24 on 2026-10-08; the proofs
-(Sections 2--5) were not read beyond
-tracing which results the proof of Theorem 1 rests on; the Lean repository
-was read as text at one commit and not built. Nothing here is independently
-reviewed.
+Pages 1--8 and 19--24 were read on the page images; the proofs (Sections 2--5)
+were not read beyond tracing which results the proof of Theorem 1 rests on; the
+Lean repository was read as text at one commit and not built. Nothing here is
+independently reviewed.
 
 Source: <https://arxiv.org/abs/2407.19026>.
 

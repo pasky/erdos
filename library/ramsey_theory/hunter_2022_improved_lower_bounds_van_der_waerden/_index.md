@@ -74,7 +74,7 @@ for the problem's diagonal number W(k) (w(k,k) in the paper's notation) only;
 the paper treats the off-diagonal w(3,k) and states no bound on the diagonal
 number.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: w(3,k) >= k^{b(k)} with b(k) = c log k / log log k; equivalently
   f(N) <= exp(C (log N)^{1/2}(log log N)^{1/2}).

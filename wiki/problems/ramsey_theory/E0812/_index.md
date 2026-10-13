@@ -31,7 +31,7 @@ $$
 R(n+1)-R(n) \gg n^2?
 $$
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
 last-edited date). $R(n)=R(n,n)$ is the diagonal Ramsey
 number, the least $N$ such that every red-blue coloring of the edges of
 $K_N$ contains a monochromatic $K_n$; the 1989 paper writes $r(m,n)$. The
@@ -103,7 +103,7 @@ answer(sorry) ↔ ∃ c > 0, ∀ᶠ n in atTop, (R (n + 1) : ℝ) / (R n : ℝ) 
 4 * (n : ℤ) - 8` under `category research solved` with a docstring attributing
 it to [BEFS89]; all three proofs are `sorry`. The variant encodes the site's
 figure $4n-8$, which is four below the paper's $4n-4$ (below), so it is a true
-but weakened form of the source's statement. The community database, lists the
+but weakened form of the source's statement. The community database lists the
 problem as open (entry last updated 31 August 2025), the statement formalized
 since 8 March 2026, and no formal proof. The corpus has not built these files.
 

@@ -15,7 +15,8 @@ updated: 2026-10-07T20:53:40Z
 ***
 
 Ethan Ackelsberg, Florian K. Richter, An inverse theorem for sumsets of sets of
-positive density in the integers. arXiv:2604.12864 (2026).
+positive density in the integers. arXiv:2604.12864 (2026). The held PDF is
+arXiv:2604.12864v1 (14 April 2026).
 
 The paper proves an inverse theorem (Theorem 1.4) for Kneser's sumset inequality
 in the integers: if A, B are subsets of N whose densities exist, with d(A) > 0,
@@ -45,7 +46,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0335/_index|#335]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.4: Inverse theorem for sumsets in the integers: if d(A) > 0,
   d(A)+d(B) < 1, B meets every residue class and d_N(A+B) = d(A)+d(B), then A

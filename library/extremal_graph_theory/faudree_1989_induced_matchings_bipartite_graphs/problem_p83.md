@@ -51,10 +51,9 @@ on printed p. 83 = PDF p. 1 of the scan, read on the page image (the
 text layer prints the fraction as "id"). The copy read is identified in the
 [[extremal_graph_theory/faudree_1989_induced_matchings_bipartite_graphs/_index|source digest]].
 
-**Read depth.** Claims checked: the passage was read clause by clause on
-the page image on 2026-09-19 and on a 300 dpi crop of its lower half. It
-states problems and a conjecture and proves nothing; the attributions are
-the paper's.
+**Read depth.** Claims checked: the passage was read clause by clause on the
+page image and on a 300 dpi crop of its lower half. It states problems and a
+conjecture and proves nothing; the attributions are the paper's.
 
 ## Proof pointer
 

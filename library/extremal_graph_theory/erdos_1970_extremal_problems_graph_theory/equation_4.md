@@ -48,7 +48,7 @@ the
 **Read depth.** Claims checked: display (4), display (2) and the sentences
 between them were read clause by clause on the page image. The derivation of
 the upper bound, application 4 on p. 388 (PDF p. 12), was read on the page
-image on 2026-10-07; the proof of Theorem 2 it uses was not read.
+image; the proof of Theorem 2 it uses was not read.
 
 ## Proof pointer
 

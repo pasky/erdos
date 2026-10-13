@@ -52,7 +52,7 @@ Source: <https://arxiv.org/abs/2606.07959>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0820/_index|#820]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: g_n = gcd(a^n-1, b^n-1) is a constant-coefficient integer linear
   recurrence if and only if a and b are multiplicatively dependent.

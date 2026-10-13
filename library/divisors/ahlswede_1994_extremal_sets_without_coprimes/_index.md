@@ -49,7 +49,7 @@ version the record does not name.
 
 **Bears on.** [[../wiki/problems/divisors/E0056/_index|#56]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For all s, n in N, f*(n,1,s) = |E*(n,1,s)|: among squarefree
   numbers the Erdos set is extremal for k = 1.

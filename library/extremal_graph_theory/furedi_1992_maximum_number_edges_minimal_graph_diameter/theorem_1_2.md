@@ -60,10 +60,9 @@ is identified in the
 
 **Read depth.** Claims checked: Conjecture 1.1, Theorem 1.2, the remark on
 $n_0$, the earlier bounds and the outline paragraph were read clause by
-clause on the page images on 2026-09-19, and Section 5's statements
-(pp. 11--12 = PDF pp. 12--13) as well. The proof (Sections 2--4,
-pp. 2--11) was read for structure only: Lemma 2.1, the Ruzsa--Szemerédi
-step and the outline.
+clause on the page images, and Section 5's statements (pp. 11--12 = PDF pp.
+12--13) as well. The proof (Sections 2--4, pp. 2--11) was read for structure
+only: Lemma 2.1, the Ruzsa--Szemerédi step and the outline.
 
 ## Proof pointer
 

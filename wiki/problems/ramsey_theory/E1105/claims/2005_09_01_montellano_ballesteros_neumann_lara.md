@@ -81,8 +81,8 @@ for $\mathrm{AR}(n,C_k)$ and the asymptotic it implies. The curator is
 independent of the authors. Refereed: Graphs and Combinatorics 21 (2005), no. 3,
 343--354, received April 2003, final version 26 March 2005. Its Crossref record
 dates the issue September 2005 without a day, so the page's day is a
-placeholder. The paper's citation record shows no dispute: 98 citing works per
-OpenAlex, and 27 Semantic Scholar records scanned by title on 2026-09-18. The
+placeholder. On 2026-09-18 the paper's citation record showed no dispute: 98
+citing works per OpenAlex, and 27 Semantic Scholar records read by title. The
 printed Corollary 1 has a minus sign between $\frac{p-2}2$ and $\frac1{p-1}$,
 where the abstract, the introduction and the formula have the plus sign. The
 result page records this misprint.

@@ -46,9 +46,8 @@ CLIQUE!3 IN GRAPHS") and many formulas. Read status: claims
 checked for the definitions, display (1), the definition of $H(n)$, the
 Theorem and the two remarks on sharpness (printed p. 233 = PDF p. 1) and
 for the closing sentence and the reference (p. 234 = PDF p. 2), read clause
-by clause on the page images on 2026-09-18; the construction and the proof
-of display (3) (pp. 233--234) were read for structure only. The Theorem is
-paged at
+by clause on the page images; the construction and the proof of display (3) (pp.
+233--234) were read for structure only. The Theorem is paged at
 [[extremal_graph_theory/erdos_1966_cliques_graphs/theorem|theorem]].
 Erdős's 1969 restatement of the same result (Problems and results in
 chromatic graph theory, p. 34) prints the lower bound as
@@ -69,7 +68,7 @@ $g(n)\ge n-\log_2n-H(n)-O(1)$ whose sharpness the problem conjectures, and
 display (1) on the same page quotes Moon and Moser's bounds; paged at
 [[extremal_graph_theory/erdos_1966_cliques_graphs/theorem|theorem]].
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/erdos_1966_cliques_graphs/theorem|Theorem]]
   (p. 233): g(n) >= n - log n - H(n) - O(1), where H(n) is the least k with

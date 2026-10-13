@@ -64,10 +64,9 @@ the
 
 **Read depth.** Claims checked: the definition, both statements, the
 introduction's form and the quoted upper bound were read clause by clause on
-the page images on 2026-09-22. The proof of Theorem 3.3 is a sketch of
-parameter choices, read on the page images for structure; its conditions
-were not verified, and the paper prints no constant. Nothing here is
-independently reviewed.
+the page images. The proof of Theorem 3.3 is a sketch of parameter choices, read
+on the page images for structure; its conditions were not verified, and the
+paper prints no constant. Nothing here is independently reviewed.
 
 ## Proof pointer
 

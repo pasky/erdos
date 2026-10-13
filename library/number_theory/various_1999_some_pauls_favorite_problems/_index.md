@@ -168,8 +168,7 @@ edge of the item's opening lines is cropped after "$B\subset A$". The item
 is on
 [[number_theory/various_1999_some_pauls_favorite_problems/problem_1_22|problem_1_22]].
 Read status: claims checked for item 1.22 (PDF pp. 3--4), read clause by
-clause on the page images on 2026-09-18; a 1999 statement that proves
-nothing.
+clause on the page images; a 1999 statement that proves nothing.
 
 The remaining entries have not been systematically mapped to the modern
 problem numbers or checked against later literature. No complete extraction

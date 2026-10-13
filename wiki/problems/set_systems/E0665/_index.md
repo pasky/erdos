@@ -105,12 +105,12 @@ so the claim decides nothing on its own and the standing is open with no full
 claim; the problem reduces to the existence of projective planes of
 non-prime-power order in the windows the embedding theorem names.
 
-Search scope, 2026-10-07: the site's problem page, discussion thread (one
-comment of 17 January 2026 on the trivial one-block design) and proof-claims
-tab (none), the community database entry (teorth/erdosproblems), the
-formal-conjectures statement file (research open, no formal proof), and the
-cards of [Er97f] and [ErLa82]. No claim on the problem beyond the
-conditional result was found.
+Search scope, with the changing sources as they stood on 2026-10-07: the
+site's problem page, discussion thread (one comment of 17 January 2026 on the
+trivial one-block design) and proof-claims tab (none), the community database
+entry (teorth/erdosproblems), the formal-conjectures statement file (research
+open, no formal proof), and the cards of [Er97f] and [ErLa82]. None of them
+showed a claim on the problem beyond the conditional result.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

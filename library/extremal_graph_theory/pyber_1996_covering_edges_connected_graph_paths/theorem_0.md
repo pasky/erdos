@@ -55,11 +55,10 @@ text layer garbles the floors). The edition read is identified in the
 
 **Read depth.** Claims checked: the statement, the Corollary it extends, the
 Example and the derivation sentence were read clause by clause on the page
-images on 2026-09-22. The derivation from Corollary 1.2 and Lovász's theorem
-(one sentence, p. 155) and the proof of Corollary 1.2 (three lines, p. 155)
-were read in full and followed; the proof of Lemma 1.1 (pp. 154--155) was
-read for structure only and not checked. Nothing here is independently
-reviewed.
+images. The derivation from Corollary 1.2 and Lovász's theorem (one sentence,
+p. 155) and the proof of Corollary 1.2 (three lines, p. 155) were read in full
+and followed; the proof of Lemma 1.1 (pp. 154--155) was read for structure only
+and not checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

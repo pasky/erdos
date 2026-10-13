@@ -85,21 +85,20 @@ on the scan; the publisher's article page
 Akadémiai Kiadó" and names no open access or Creative Commons license, every
 other right reserved.
 
-Read status: the whole paper was read on the page images of PDF pp. 1--6 on
-2026-09-22, the text layer serving only to locate passages. Claims checked
-for the definitions of an embedding, a Ramsey graph, a vertex-critical and a
-critical Ramsey graph, Conjecture 1, Theorem 1 and Theorem 2 (p. 295), the
-definition of 2.5-connectivity (p. 296), Lemma 1 (p. 296), the Corollary,
-the definitions of ideal, Ramsey and ordered classes and Theorem 3 (p. 297),
-the Remark and the Part B Theorem (p. 298), the Part C Theorem and
-Conjecture 2 (p. 299) and the definitions of remarks 4)--6) (pp. 299--300),
-each read clause by clause. The proofs of Lemma 1 (pp. 296--297), the
-Corollary (p. 297), Theorem 3 (pp. 297--298), the Part B Theorem
-(pp. 298--299) and the Part C Theorem (p. 299) were read on the page images
-for structure only and not checked. No proof is verified, and nothing here
-is independently reviewed. The problem page consumes no result of the paper;
-it records that the paper does not contain the statement the site credits
-to it.
+Read status: the whole paper was read on the page images of PDF pp. 1--6, the
+text layer serving only to locate passages. Claims checked for the definitions
+of an embedding, a Ramsey graph, a vertex-critical and a critical Ramsey graph,
+Conjecture 1, Theorem 1 and Theorem 2 (p. 295), the definition of
+2.5-connectivity (p. 296), Lemma 1 (p. 296), the Corollary, the definitions of
+ideal, Ramsey and ordered classes and Theorem 3 (p. 297), the Remark and the
+Part B Theorem (p. 298), the Part C Theorem and Conjecture 2 (p. 299) and the
+definitions of remarks 4)--6) (pp. 299--300), each read clause by clause. The
+proofs of Lemma 1 (pp. 296--297), the Corollary (p. 297), Theorem 3 (pp.
+297--298), the Part B Theorem (pp. 298--299) and the Part C Theorem (p. 299)
+were read on the page images for structure only and not checked. No proof is
+verified, and nothing here is independently reviewed. The problem page consumes
+no result of the paper; it records that the paper does not contain the statement
+the site credits to it.
 
 ## Contents
 

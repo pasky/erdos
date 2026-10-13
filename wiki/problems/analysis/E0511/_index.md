@@ -82,7 +82,7 @@ degree. The transfer from the closed sublevel sets of the sources to the
 site's open set is recorded on the claim pages.
 
 **Search and coverage.** The standing rests on the site page and its
-commentary as accessed and on the two papers [Po61] and [Hu25];
+commentary as accessed 2026-09-04 and on the two papers [Po61] and [Hu25];
 no wider literature search is recorded. The claim pages state both
 theorems as the papers print them; neither proof has been independently
 reviewed by this corpus, and the rescaling step that Pommerenke's proof

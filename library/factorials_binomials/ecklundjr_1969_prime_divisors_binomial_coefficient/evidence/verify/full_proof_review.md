@@ -62,6 +62,13 @@ operating-history material; it records no new verdict, and the first-person
 readings and judgments below belong to the historical reviewer, not to the
 filing author.
 
+Both computations in the report are historical checks. The author's replay
+script and its output, and the reviewer's exact-rational-interval checker and
+its output, are not retained in this repository (sections Frozen inputs and
+Numerical and finite verification below), so neither check can be rerun from
+the tree. Both ran on 2026-09-06 and read the review packet's copies of the
+pages and of the author's program as they stood that day.
+
 ## Retained report
 
 Reviewed at

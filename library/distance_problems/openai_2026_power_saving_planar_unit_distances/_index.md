@@ -91,9 +91,9 @@ Read status: claims checked for
 [[distance_problems/openai_2026_power_saving_planar_unit_distances/theorem_1_1|
 Theorem 1.1]], read clause by clause in the TeX source
 (`sections/00-introduction.tex`, lines 12--15 of the
-release's TeX bundle) on 2026-10-07, together with the statements of
-Proposition 2.4 (`sections/01-incidence.tex`, label `inc:piece`), Proposition
-4.4 (`sections/03-heights.tex`, label `ht:bounded`), Proposition 7.6
+release's TeX bundle), together with the statements of Proposition 2.4
+(`sections/01-incidence.tex`, label `inc:piece`), Proposition 4.4
+(`sections/03-heights.tex`, label `ht:bounded`), Proposition 7.6
 (`sections/06-extraction.tex`, label `ext:pairs`) and Proposition 8.1
 (`sections/07-algebra.tex`, label `alg:obstruction`); the proofs were read
 for their structure only and no step was checked; nothing here is

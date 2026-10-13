@@ -68,10 +68,10 @@ thesis result as settling $k=5$ and build their account of the question on it. A
 thesis is examined, not refereed in a journal. No journal publication of the
 result is known, so no `refereed` evidence is listed.
 
-**Dating and read depth.** The thesis is not held: the searches of
-2026-09-08 (title, author, catalog and web queries, including ProQuest and
-WorldCat, and the author's University of Colombo page) recovered its
-identity but no copy and no theorem page, and no URL for it is known to this
+**Dating and read depth.** The thesis is not held: title, author, catalog and
+web queries (including ProQuest and WorldCat, and the author's University of
+Colombo page) recovered its identity but, on 2026-09-08, no copy and no
+theorem page, and no URL for it is known to this
 corpus, so the links above are the site's page and the thread comment. The
 page is dated by the thesis year, with a placeholder day. Everything
 attributed to the thesis here is second-hand: the theorem numbers and the

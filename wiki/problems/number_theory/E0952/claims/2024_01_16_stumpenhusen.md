@@ -26,8 +26,7 @@ updated: 2026-10-08T01:29:59Z
 
 Johann Christian Stumpenhusen, *On the Gaussian Moat Problem*,
 arXiv:2401.08441 (v1 16 January 2024, 3 pages; v2 17 January 2024). This
-page rests on the arXiv record, accessed as the problem page
-records, not on the paper itself.
+page rests on the arXiv record, not on the paper itself.
 
 **The claim.** The answer to [[problems/number_theory/E0952/_index|Problem 952]]
 is no. The abstract states the problem as whether one can walk from the
@@ -41,7 +40,6 @@ equivalent, since finitely many steps join the origin to any Gaussian prime.
 
 **Standing.** Withdrawn by its author: version 2 of the arXiv record carries
 the comment "The width of the moat was not correctly computed". The claim
-was never accepted: the site's page, thread and label never mentioned it,
-and the search dated 2026-09-18 found no acceptance. The problem's standing
-is unaffected; the negative answer is proved by
+was never accepted: the site's page, thread and label never mentioned it. The
+problem's standing is unaffected; the negative answer is proved by
 [[problems/number_theory/E0952/claims/2026_09_26_openai|the accepted 2026 claim]].

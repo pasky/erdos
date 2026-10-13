@@ -48,7 +48,7 @@ site, not the article.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0360/_index|#360]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: There are positive constants c_1, c_2 with c_1 n^{1/3}/log^{4/3}
   n <= f(n) <= c_2 n^{1/3}(log log n)^{1/3}/log^{1/3} n for all n > 1, where

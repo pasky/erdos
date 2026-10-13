@@ -53,7 +53,7 @@ https://www.erdosproblems.com/446.
 
 ## Current assessment
 
-The question is the site's formulation, accessed and unchanged, in two parts:
+The question is the site's formulation, accessed 2026-09-04, in two parts:
 the growth rate of $\delta(n)$, the density of integers with a divisor in
 $(n,2n)$, and whether $\delta_1(n)$, the density of those with exactly one such
 divisor, is $o(\delta(n))$. Both parts are settled by Ford [Fo08]: the first by

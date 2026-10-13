@@ -84,7 +84,7 @@ containing a subdivision of $K_t$, the refereed statement of the problem's
 answer in this paper's words; the paper's reference [5] for it is the 1998
 European J. Combin. paper, not the site's key BoTh96.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: There is an absolute constant C with H(n) = max chi(G)/sigma(G)
   <= C n^{1/2}/log n for all n >= 2, proving the Erdos-Fajtlowicz conjecture (C

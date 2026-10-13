@@ -55,13 +55,13 @@ the problem, its statement of the conjecture and Theorem A (p. 833), Theorem
 B and the notation (p. 834), and § 2 with its definitions of a chain, a
 feasible chain and a strong feasible chain, Claims 2.1--2.7 and the Proof of
 Theorem B (pp. 835--836), each read clause by clause on the page images of
-PDF pp. 1--4 on 2026-09-22; the Proof of Theorem B (p. 836, one paragraph)
-was read in full and its counting reduction to Claims 2.5--2.7 was followed.
-§§ 3--4 (pp. 836--877), the six preliminary lemmas, Lemmas 4.1--4.16, the
-proofs of Claims 2.1--2.7 and Property A, were read in the text layer for
-structure only, and none of their case analyses was checked; the
-acknowledgment and the seven references (p. 877) were read in the text
-layer. Nothing here is independently reviewed.
+PDF pp. 1--4; the Proof of Theorem B (p. 836, one paragraph) was read in full
+and its counting reduction to Claims 2.5--2.7 was followed. §§ 3--4 (pp.
+836--877), the six preliminary lemmas, Lemmas 4.1--4.16, the proofs of Claims
+2.1--2.7 and Property A, were read in the text layer for structure only, and
+none of their case analyses was checked; the acknowledgment and the seven
+references (p. 877) were read in the text layer. Nothing here is independently
+reviewed.
 
 ## Contents
 

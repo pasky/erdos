@@ -112,11 +112,10 @@ Read status: claims checked for Problems 1-3 (pp. 280-281), Problem 2's
 following paragraph, Lemma 1 (p. 282), Theorems 1 and 2 (p. 283), Theorem 3
 (p. 285), Theorem 5 (p. 288), the definition of the (t)-property with Problem
 4 (p. 281) and the Note added in proof (p. 288), read clause by clause on the
-page images (Problems 1-3 on 2026-09-18, the rest on 2026-09-19); the proof
-of Theorem 1 (p. 283, from Lemmas 1 and 2) was followed and the proofs of
-Lemma 2, Theorem 2, Theorem 5 and Lemmas 3-4 were read for structure; the
-proof of Theorem 3 (pp. 285-286) and Theorem 4 (p. 286) were not checked.
-Nothing here is independently reviewed. Problem 620 consumes Problem 3;
+page images; the proof of Theorem 1 (p. 283, from Lemmas 1 and 2) was followed
+and the proofs of Lemma 2, Theorem 2, Theorem 5 and Lemmas 3-4 were read for
+structure; the proof of Theorem 3 (pp. 285-286) and Theorem 4 (p. 286) were not
+checked. Nothing here is independently reviewed. Problem 620 consumes Problem 3;
 Problems 151, 610 and 611 consume the results listed below.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0151/_index|#151]] (Problem 1,
@@ -161,7 +160,7 @@ this, we pose the following question";
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/problem_3|problem_3]],
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/problem_1|problem_1]]).
 
-**Results to transcribe.**
+**Results.**
 
 - Problem 3 (p. 281): "How large triangle-free induced subgraphs does a
   K_4-free graph G on n vertices contain?" (page

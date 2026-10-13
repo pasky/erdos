@@ -15,9 +15,9 @@ updated: 2026-10-05T05:52:35Z
 ***
 
 **Source type.** Lean 4 proof file published by a bounty-site result record;
-no PDF or write-up exists. As of 2026-09-27 the site's papers directory has no
-entry for it, `https://conjectures.io/papers/erdos272.pdf` returns HTTP 404,
-and the site's contribution index for `erdos-272-variants-szabo-strong` lists
+no PDF or write-up exists. On 2026-09-27 the site's papers directory had no
+entry for it, `https://conjectures.io/papers/erdos272.pdf` returned HTTP 404,
+and the site's contribution index for `erdos-272-variants-szabo-strong` listed
 no contributions.
 
 **Author.** JenW1N, the solver display name the site shows for the record. The
@@ -59,16 +59,14 @@ task's manifest permits the axioms `propext`, `Quot.sound` and
 in `namespace Bounty`.
 
 **Acceptance timeline.** From the record page and the results listing's record
-data, fetched 2026-09-28T02:36Z and 02:52Z: Lean verification
-`VERIFIED` at 2026-09-09T23:35:33Z; review `APPROVED`, reason code
-`REVIEW_APPROVED`, policy v2, decided 2026-09-11T20:38:25Z; certified
-2026-09-14T08:14:36Z; reward `REWARDED`, $13,177 at the day's rate,
-12334.9281 α locked at submission. The verification report shows a static scan
-(no imports, no axiom declarations, no `sorry`, no `native_decide`, no unsafe
-options), Challenge built, source type hash matches, Solution built,
-"Statement unchanged", "Only permitted axioms", "Lean kernel accepted", and
-the second kernel "Not run" ("the verdict rests on a single kernel
-implementation").
+data, fetched 2026-09-28T02:36Z and 02:52Z: Lean verification `VERIFIED` at
+2026-09-09T23:35:33Z; review `APPROVED`, reason code `REVIEW_APPROVED`, policy
+v2, decided 2026-09-11T20:38:25Z; certified 2026-09-14T08:14:36Z; reward
+`REWARDED`. The verification report shows a static scan (no imports, no axiom
+declarations, no `sorry`, no `native_decide`, no unsafe options), Challenge
+built, source type hash matches, Solution built, "Statement unchanged", "Only
+permitted axioms", "Lean kernel accepted", and the second kernel "Not run" ("the
+verdict rests on a single kernel implementation").
 
 **Review scope, quoted.** "The submission proves the Szabó strong variant of
 Erdős 272: t(N) = N²/2 + O(N) for distinct subsets of [1,N] whose pairwise

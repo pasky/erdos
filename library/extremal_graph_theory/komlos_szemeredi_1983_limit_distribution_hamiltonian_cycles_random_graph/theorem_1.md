@@ -83,11 +83,11 @@ artifact is identified in the
 [[extremal_graph_theory/komlos_szemeredi_1983_limit_distribution_hamiltonian_cycles_random_graph/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, the equivalence remark, the
-recalled Erdős--Rényi law and Reformulation 1 were read clause by clause on
-the page images of PDF pp. 1--3 on 2026-09-22, the displays on
-higher-resolution crops of the same pages. The proof (§ 1, pp. 58--59, and
-§ 2, pp. 59--62) was read on the page images for structure only and no step
-was checked. Nothing here is independently reviewed.
+recalled Erdős--Rényi law and Reformulation 1 were read clause by clause on the
+page images of PDF pp. 1--3, the displays on higher-resolution crops of the same
+pages. The proof (§ 1, pp. 58--59, and § 2, pp. 59--62) was read on the page
+images for structure only and no step was checked. Nothing here is independently
+reviewed.
 
 ## Proof pointer
 

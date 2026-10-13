@@ -84,9 +84,9 @@ no `refereed` evidence is listed. The same paper's bounds on how far one must
 go for the divisor count of a factorial to double bear on
 [[problems/arithmetic_functions/E0420/_index|Problem 420]].
 
-Search scope, 2026-10-07: the site's problem page, its discussion thread (one
-post, of 2026-01-31, announcing the Lean proof) and its proof-claims page,
-which lists no proof claim for the problem; the formal-conjectures statement
+Search scope: the site's problem page, its discussion thread (one post, of
+2026-01-31, announcing the Lean proof) and its proof-claims page, which listed
+no proof claim for the problem on 2026-10-07; the formal-conjectures statement
 file at the commit the Formalization field links; and the Lean file in
 Alexeev's repository at the commit the claim page links. Neither Lean file
 has been built here.

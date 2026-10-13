@@ -89,9 +89,8 @@ role in that reduction. Nothing here is independently reviewed.
 
 Pages 1 and 9 were read on the page images and pp. 1--2 and 9 in the text
 layer. Theorem 1 is recorded with a proof pointer on its page; no proof was
-checked, the constant $c$ is not made explicit by the paper, and the
-preprint has no journal acceptance or independent review found on
-2026-09-17.
+checked, and the constant $c$ is not made explicit by the paper. The paper is a
+preprint.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0327/_index|#327]]: Theorem 1 answers the
 page's second question ($a+b\nmid2ab$ forces $|A|=o(N)$?) in the negative,

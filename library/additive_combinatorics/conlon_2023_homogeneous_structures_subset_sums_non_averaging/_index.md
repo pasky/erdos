@@ -65,8 +65,6 @@ the earlier bounds (pp. 1--5); the proofs were not read, apart from the
 opening of Section 6 (pp. 31--32), read on the page images
 for the result page's proof pointer. Result page:
 [[additive_combinatorics/conlon_2023_homogeneous_structures_subset_sums_non_averaging/theorem_1_6|theorem_1_6]].
-The digest that stood here before 2026-09-18 was written from the abstract
-alone and named only problem 789.
 
 Source: <https://arxiv.org/abs/2311.01416>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2311.01416), every other right
@@ -93,7 +91,7 @@ site's cross-reference; it states no bound for that problem's $h(n)$
 (subsets whose subset sums determine the number of summands), which is a
 different function from the non-averaging $h(n)$ above.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.4 (p. 2): for $m\ge Cn^{1/k}$ elements of $[n]$ the subset sums
   contain a proper homogeneous $d$-dimensional GAP of size at least

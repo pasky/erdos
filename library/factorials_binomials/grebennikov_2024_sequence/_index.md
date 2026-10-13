@@ -44,7 +44,7 @@ Source: <https://arxiv.org/abs/2204.01153>.
 
 **Bears on.** [[../wiki/problems/factorials_binomials/E0478/_index|#478]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: |A(p)A(p)| >= p + O(p^{13/14}(log p)^{4/7}), where A(p) = {i! mod
   p}.

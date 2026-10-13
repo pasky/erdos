@@ -44,8 +44,8 @@ Ajtai, Komlós and Szemerédi, J. Combin. Theory Ser. A 29 (1980), 354--360
 (the lower bound on $r(n)$), filed as
 [[ramsey_theory/ajtai_1980_note_ramsey_numbers/_index|ajtai_1980_note_ramsey_numbers]],
 whose Theorem 3, "$R(3,x)<100x^2/\ln x$", is on printed p. 358 (PDF p. 5),
-read there clause by clause on the page image and located in the text layer
-on 2026-09-22, and paged with its rewriting as the lower bound on $r(n)$ on
+read there clause by clause on the page image and located in the text layer, and
+paged with its rewriting as the lower bound on $r(n)$ on
 [[ramsey_theory/ajtai_1980_note_ramsey_numbers/theorem_3|theorem_3]];
 and Erdős, Canad. J. Math. 13 (1961), 346--352 (the upper bound; filed as
 [[graph_coloring/erdos_1961_graph_theory_probability/_index|erdos_1961_graph_theory_probability]]).
@@ -66,9 +66,9 @@ image. The edition is identified in the
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/_index|source digest]].
 
 **Read depth.** Claims checked: the passage was read clause by clause on the
-page image on 2026-09-19. It poses a question and states known bounds with
-references; the bounds on $r(n)$ were not checked in [2] and [6] here (the
-1961 paper's card records the upper bound at its own depth).
+page image. It poses a question and states known bounds with references; the
+bounds on $r(n)$ were not checked in [2] and [6] here (the 1961 paper's card
+records the upper bound at its own depth).
 
 ## Proof pointer
 

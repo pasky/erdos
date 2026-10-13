@@ -21,7 +21,8 @@ The arXiv record (https://arxiv.org/abs/2604.19045, read 2026-10-02) names the
 Creative Commons Attribution 4.0 license.
 
 Tim Browning, Ritabrata Munshi, Victor Y. Wang, "Beyond the square-root barrier:
-cubic forms of Perazzo type," arXiv:2604.19045 (2026).
+cubic forms of Perazzo type," arXiv:2604.19045 (2026). The held PDF is
+arXiv:2604.19045v1 (21 April 2026).
 
 ## Overview
 

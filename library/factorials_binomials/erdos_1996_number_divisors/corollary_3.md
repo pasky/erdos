@@ -26,9 +26,9 @@ $K(n)$ is the least positive integer $K$ with $d((n+K)!)\ge2d(n!)$.
 **Corollary 3** (p. 9). "For all sufficiently large numbers $n$, we have
 $K(n)<n^{4/9}$."
 
-**Read depth.** Claims checked: the statement was read clause by clause on
-the page image on 2026-10-08, and the chain of inequalities on p. 9 was
-followed. Nothing here is independently reviewed.
+**Read depth.** Claims checked: the statement was read clause by clause on the
+page image, and the chain of inequalities on p. 9 was followed. Nothing here is
+independently reviewed.
 
 ## Proof sketch
 

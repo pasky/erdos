@@ -60,8 +60,7 @@ proves that every triangle-free $e$-edge graph has a bipartite subgraph with
 at least $e/2+c'e^{4/5}$ edges, and
 [[extremal_graph_theory/alon_1996_bipartite_subgraphs/proposition_3_2|Proposition 3.2]]
 constructs examples showing that the exponent $4/5$ is sharp. That theorem
-is the status-defining result for Problem 581, compiled on 2026-09-18 at
-claims-checked depth.
+is the status-defining result for Problem 581, compiled at claims-checked depth.
 
 That manuscript is the author's final version, byte-identical to
 <https://web.math.princeton.edu/~nalon/PDFS/bipartite3.pdf>. Published as

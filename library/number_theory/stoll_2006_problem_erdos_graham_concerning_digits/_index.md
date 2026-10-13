@@ -140,7 +140,7 @@ recurrence with $u_1=m$ produces for every integer $m\notin\{-1,0\}$; the
 paper does not classify every recurrence with this property, which is what
 the site's "open-ended" qualification records.
 
-**Results to transcribe.**
+**Results.**
 
 - [[number_theory/stoll_2006_problem_erdos_graham_concerning_digits/fact_1|Fact 1]]
   (p. 89): for $m=1$, $d_n=u_{2n+1}-2u_{2n-1}$ is the $n$th binary digit of

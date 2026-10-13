@@ -54,7 +54,7 @@ Source: <https://github.com/ShouqiaoW/erdos/tree/main/1038>.
 **Bears on.** [[../wiki/problems/polynomials/E0114/_index|#114]],
 [[../wiki/problems/analysis/E1038/_index|#1038]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (Main theorem): Lambda has a unique minimizer q_* on (0, q_s]; inf
   |E_f| = L = Lambda(q_*) with 1.834430475762661 < L < 1.834430475762662, not

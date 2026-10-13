@@ -75,15 +75,13 @@ and the lemmas of Sections 4, 6 and 7.
 
 ## Acceptance and provenance
 
-No refereed publication, independent review or acceptance by a named
-mathematician was found on 2026-09-17. The acknowledgments (p. 20) declare
-that OpenAI's ChatGPT was used "for ideation, formulation, proof exploration
-and refinement, narrowing the search space, programming, LaTeX formatting and
-other forms of orchestration", the author taking "full responsibility for the
-accuracy of the final contents". The author's proof claim on the problem's
-site (submitted 17 July 2026) links the paper and a Lean repository. These
-are recorded as the source's own provenance; nothing was checked or built
-here.
+The acknowledgments (p. 20) declare that OpenAI's ChatGPT was used "for
+ideation, formulation, proof exploration and refinement, narrowing the search
+space, programming, LaTeX formatting and other forms of orchestration", the
+author taking "full responsibility for the accuracy of the final contents". The
+author's proof claim on the problem's site (submitted 17 July 2026) links the
+paper and a Lean repository. These are recorded as the source's own provenance;
+nothing was checked or built here.
 
 ## Bears on
 

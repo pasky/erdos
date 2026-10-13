@@ -114,14 +114,13 @@ Corollary 2.10 and the remark on other numbers of repetitions
 (pp. 27--28), Theorem 2.11, the closing conjecture and the opening of § 3
 (p. 28), Theorem 4.2, Erdős's question and Theorem 4.3 with the
 acknowledgments (p. 31) and the reference list (p. 32), each read clause
-by clause on the page images of PDF pp. 1--5, 8--10 and 13--14 on
-2026-09-22. The proof of Theorem 2.4 (pp. 21--23) was read in full on the
-page images and its structure followed as a filing check; the proof of
-Theorem 2.9 (pp. 26--27) was read on the page images for structure only;
-Lemmas 2.5--2.7 with their proofs (pp. 23--26), § 3 (pp. 28--30) and
-Theorem 4.1 with its proof (p. 30) were read in the text layer for
-structure only, and none of their steps was checked. Nothing here is
-independently reviewed.
+by clause on the page images of PDF pp. 1--5, 8--10 and 13--14. The proof of
+Theorem 2.4 (pp. 21--23) was read in full on the page images and its structure
+followed as a filing check; the proof of Theorem 2.9 (pp. 26--27) was read on
+the page images for structure only; Lemmas 2.5--2.7 with their proofs (pp.
+23--26), § 3 (pp. 28--30) and Theorem 4.1 with its proof (p. 30) were read in
+the text layer for structure only, and none of their steps was checked. Nothing
+here is independently reviewed.
 
 ## Contents
 
@@ -258,8 +257,8 @@ and 4.3 are paged on
 and
 [[ramsey_theory/hindman_1979_partitions_sums_integers_repetition/theorem_4_3|theorem_4_3]]
 with the proof of Theorem 2.1 read clause by clause and those of Theorems
-2.11 and 4.3 read on 2026-10-08 for structure only; § 3 and Theorem 4.1
-are mapped from the text layer. Nothing here is independently reviewed.
+2.11 and 4.3 read for structure only; § 3 and Theorem 4.1 are mapped from the
+text layer. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E1199/_index|#1199]]: Theorem 2.4
 (printed p. 21 = PDF p. 3), "Let $f$ be any unbounded non-decreasing

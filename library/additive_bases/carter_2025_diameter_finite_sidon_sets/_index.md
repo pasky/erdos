@@ -17,7 +17,8 @@ updated: 2026-10-07T20:53:40Z
 Carter, D. and Hunter, Z. and O'Bryant, K., On the diameter of finite Sidon
 sets. Acta Math. Hungar. 175 (2025), no. 1, 108--126.
 DOI: 10.1007/s10474-024-01499-8. The copy read for this card is the arXiv
-version; page numbers below are that version's.
+version held here, arXiv:2310.20032v1 (30 October 2023); page numbers below
+are that version's.
 
 Writing b_infinity for the lim sup of (k^2 - diam(A_k))/k^{3/2} over
 minimum-diameter k-element Sidon sets, Singer's construction and Erdos-Turan
@@ -42,7 +43,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0030/_index|#30]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 3.3 (p. 12), the main theorem: b_infinity <= 1.96365: a k-element
   Sidon set has diameter at least k^2 - 1.96365 k^{3/2} - O(k), equivalently

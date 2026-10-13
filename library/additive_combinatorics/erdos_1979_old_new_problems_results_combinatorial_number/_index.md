@@ -254,7 +254,7 @@ $(1+o(1))\log x$ following from the prime number theorem),
 [[../wiki/problems/additive_combinatorics/E0201/_index|#201]] (printed p. 333, PDF p. 9, page image:
 Abbott, Liu and Riddell's $g_k(n)$ and whether $r_3(n)/g_3(n)\to1$)
 
-**Results to transcribe.**
+**Results.**
 
 - Section 2, W(n): Defines W(n) as the least N such that any 2-coloring of
   {1,...,N} contains a monochromatic n-term arithmetic progression, and records

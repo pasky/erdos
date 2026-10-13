@@ -45,7 +45,7 @@ Source: <http://matwbn.icm.edu.pl/ksiazki/aa/aa83/>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0821/_index|#821]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For y >= x^{0.2961} and x >= x_0 (x_0 may depend on a), the count
   of primes a<p<=x with P^+(p-a) <= y exceeds x/(log x)^{C_1} for an absolute

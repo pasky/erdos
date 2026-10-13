@@ -57,7 +57,7 @@ Source: <https://matwbn.icm.edu.pl/ksiazki/aa/aa84/aa8416.pdf>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0441/_index|#441]]
 
-**Results to transcribe.**
+**Results.**
 
 - [[integer_sequences/chen_1998_sequences_bounded_l_c_m_each/theorem|Theorem]]
   (p. 71): |A_x \ B_x| = o(sqrt(x)), hence |A_x| = |B_x| + o(sqrt(x)) =

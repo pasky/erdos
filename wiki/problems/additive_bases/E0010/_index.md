@@ -43,11 +43,11 @@ certified record, an accepted partial claim:
 The other is a second Lean proof of the same statement, listed on the forum:
 [[problems/additive_bases/E0010/claims/2026_08_06_daryxx|Daryxx 2026]].
 
-The search is dated 2026-09-28 UTC, with the community database as of
-2026-09-27. It covered erdosproblems.com (the page, last edited 11 April 2026
-and marked OPEN, the discuss and proof-claims forum threads, and the edit
-history). The proof-claims thread holds one partial claim of 2026-08-07. It also
-covered the community database (open, last update 2025-08-31), conjectures.io
+The search covered erdosproblems.com as accessed 2026-09-28 (the page, last
+edited 11 April 2026 and marked OPEN, the discuss and proof-claims forum
+threads, and the edit history); the proof-claims thread then held one partial
+claim, of 2026-08-07. It also covered the community database as of 2026-09-27
+(open, last update 2025-08-31), conjectures.io
 (the results listing, records `244ff2d0-399d-4e37-a307-4ff6f3cb3493` and
 `ce95887b-8b61-4a89-9069-9131a58906e0`, and the withdrawn problem page), the
 formal-conjectures commit history of `FormalConjectures/ErdosProblems/10.lean`,

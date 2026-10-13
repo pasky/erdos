@@ -24,7 +24,7 @@ of monochromatic subset sums. Mathematika 68 (2022), no. 4, 1292--1301, DOI
 2022).
 
 The copy read for this card is arXiv:2105.15195v3 (22 September 2022), nine
-self-paginated pages; the arXiv listing carries three versions and no journal
+self-paginated pages; the arXiv listing carried three versions and no journal
 reference (API record, 2026-09-18). The published text was not compared, so
 every locator below is a page of the preprint, not of the journal. The arXiv
 record names arXiv's non-exclusive distribution license (arXiv:2105.15195),
@@ -78,7 +78,7 @@ problem's quantity is c_2, determined as (2 + sqrt 3)/4 with the coloring by
 the parity of floor(log_{2+sqrt 3} log n) as the extremal partition; the
 history of the 1/2 and 3/4 figures on pp. 1 and 3)
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 2): c_r <= (1 - 1/(2b0))(1 + 1/(2 r b0 - r)) with b0 the
   unique root of b^r - 2rb + r - 1 above 1; tight for r = 2 with c_2 = (2+sqrt

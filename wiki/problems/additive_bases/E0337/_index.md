@@ -77,8 +77,8 @@ paper and the site's record. The statements of the 1985 paper are recorded on
 its source card; no proof is compiled or reviewed here, and Turjányi's note is
 not held in the library.
 
-**Search scope (2026-10-07).** The account above rests on the site's
-problem page and forum thread (one comment, 2025-12-10), the
+**Search scope.** The account above rests on the site's problem page
+and forum thread (its comment of 2025-12-10), the
 formal-conjectures statement file, the header and theorem statements of the
 linked Lean file, and the Ruzsa and Turjányi source card. Neither paper's
 proof is checked here, the Lean file is not built here, and no literature

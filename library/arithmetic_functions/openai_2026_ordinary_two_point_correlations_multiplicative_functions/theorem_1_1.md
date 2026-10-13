@@ -57,7 +57,7 @@ p. 3. The proof is Section 9 (`build/quantitative/08-affine.tex`, lines
 7--51, PDF pp. 43--44), from
 [[arithmetic_functions/openai_2026_ordinary_two_point_correlations_multiplicative_functions/proposition_2_1|Proposition 2.1]],
 whose proof closes in Section 8.4 (`build/quantitative/07-spectral.tex`, lines
-279--333, PDF pp. 42--43). Read 2026-10-12. Provenance and attestations are on
+279--333, PDF pp. 42--43). Provenance and attestations are on
 [[arithmetic_functions/openai_2026_ordinary_two_point_correlations_multiplicative_functions/_index|the card]].
 
 **Read depth.** Claims checked: the statement, the definition of $\lambda$ and

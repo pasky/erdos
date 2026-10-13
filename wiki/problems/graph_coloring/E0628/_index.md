@@ -60,7 +60,7 @@ proof.
 
 ## Current assessment
 
-The question, in the site's formulation accessed, asks whether a
+The question, in the site's formulation accessed 2026-09-04, asks whether a
 graph with chromatic number $k$ and no $K_k$ has, for every $a,b\ge 2$ with
 $a+b=k+1$, two disjoint subgraphs of chromatic numbers at least $a$ and at
 least $b$; the site calls such a graph $(a,b)$-splittable and the question
@@ -103,10 +103,9 @@ community database (teorth/erdosproblems) lists the problem as falsifiable
 and unformalized, with a formalized statement since 2026-08-03, which is that
 file.
 
-Search scope, 2026-10-07: the site's problem page (last edited 6 December
-2025, no proof claims filed) and discussion thread, the community database,
-the formal-conjectures statement file, Crossref and the references listed
-above.
+Search scope: the site's problem page (last edited 6 December 2025, no proof
+claims filed on 2026-10-07) and discussion thread, the community database, the
+formal-conjectures statement file, Crossref and the references listed above.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

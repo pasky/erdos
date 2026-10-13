@@ -30,8 +30,8 @@ printed journal version is not held and was not compared. Read status:
 claims checked for Theorem 1 (p. 3: as t tends to infinity, r(4,t) =
 Omega(t^3/log^4 t)) and for the surrounding bounds (1)--(2) on p. 2, read
 clause by clause in the text layer, and the introduction's sentences on
-Ajtai--Komlós--Szemerédi [1] and Shearer [50] (p. 2) on the page image on
-2026-09-18 for Problem 802; the proof (pp. 3--16) was not read.
+Ajtai--Komlós--Szemerédi [1] and Shearer [50] (p. 2) on the page image for
+Problem 802; the proof (pp. 3--16) was not read.
 
 The main theorem gives
 r(4,t) = Omega(t^3/log^4 t), which pins r(4,t) down to within a factor of order
@@ -68,7 +68,7 @@ the paper cites neither Alon's 1996 paper on locally sparse graphs nor
 Shearer's 1995 bound for $K_r$-free graphs.
 [[../wiki/problems/ramsey_theory/E0986/_index|#986]]
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/mattheus_2023_asymptotics_r_4_t/theorem_1|Theorem 1]]
   (p. 3): As t tends to infinity, r(4,t) = Omega(t^3/log^4 t).

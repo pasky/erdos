@@ -43,15 +43,14 @@ Combin. Probab. Comput. (2018), 21-43.
 (2018), no. 1, 21--43, DOI 10.1017/S0963548317000244 (published online 19
 July 2017; an extended abstract appeared in Electron. Notes Discrete Math.
 49 (2015), 277--284; Crossref records read). The copy read
-for this card is the arXiv preprint arXiv:1504.02583v1 (10 April 2015), 22 pages, so the
-locators and labels below are the preprint's; the journal text was not
-compared. Read status: claims checked for Theorem 1 (p. 1) and for
-Theorem 3 with Conjecture 2 (p. 2), read clause by clause on the page
-images on 2026-09-19, and again on 2026-10-08 with Lemma 4 (p. 3), Lemma 5
-(pp. 3--4) and Theorem 12 (p. 17); the proofs of Theorems 1 and 3 (pp. 4
-and 8), short deductions from Lemmas 4 and 5, were read on the page images,
-and the proofs of Lemmas 4 and 5 and of Theorem 12 were read for structure
-only, not verified. Result pages:
+for this card is the arXiv preprint arXiv:1504.02583v1 (10 April 2015), 22
+pages, so the locators and labels below are the preprint's; the journal text was
+not compared. Read status: claims checked for Theorem 1 (p. 1) and for Theorem 3
+with Conjecture 2 (p. 2), read clause by clause on the page images, a second
+time together with Lemma 4 (p. 3), Lemma 5 (pp. 3--4) and Theorem 12 (p. 17);
+the proofs of Theorems 1 and 3 (pp. 4 and 8), short deductions from Lemmas 4 and
+5, were read on the page images, and the proofs of Lemmas 4 and 5 and of Theorem
+12 were read for structure only, not verified. Result pages:
 [[extremal_graph_theory/bruhn_2018_stronger_bound_strong_chromatic_index/theorem_1|theorem_1]],
 [[extremal_graph_theory/bruhn_2018_stronger_bound_strong_chromatic_index/theorem_3|theorem_3]],
 [[extremal_graph_theory/bruhn_2018_stronger_bound_strong_chromatic_index/lemma_4|lemma_4]],
@@ -95,7 +94,7 @@ Theorem 3 (p. 2), the clique-number bound $1.74\Delta^2$ for $\Delta\ge400$,
 deduced from Lemma 4, and Conjecture 2, the clique form
 $\omega(L^2(G))\le\frac54\Delta^2(G)$ that the problem's conjecture implies.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 1): for graphs of sufficiently large maximum degree D, the
   strong chromatic index is at most 1.93 D^2.

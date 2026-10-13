@@ -45,7 +45,7 @@ Creative Commons Attribution license with no version named.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0410/_index|#410]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For alpha > alpha_0 and x > x_0(alpha), N_sigma(3,alpha,x) >
   x/log^2 x; in particular liminf_{n} sigma_3(n)/n < infinity, proving

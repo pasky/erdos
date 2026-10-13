@@ -212,9 +212,8 @@ explicit threshold $n_0$, a treatment of the small cases beyond the claim
 above, a disproof, or a further proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab; the
-  formal-conjectures directory listing as fetched that day (no file); the
-  community database as fetched that day; the site's reference text for
-  EFLS95.
+  formal-conjectures directory listing (no file); the community database; the
+  site's reference text for EFLS95.
 - The primary source: [Zh11] pp. 1--3, with the reference list (pp. 56--57)
   for [8] and [9].
 - arXiv API: `abs:Loebl AND abs:conjecture` sorted by date (15 records,

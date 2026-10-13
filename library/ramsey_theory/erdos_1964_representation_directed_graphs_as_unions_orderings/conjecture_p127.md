@@ -30,9 +30,9 @@ graphs as unions of orderings, Magyar Tud. Akad. Mat. Kutató Int. Közl. 9
 (1964), 125--132; printed p. 127 (PDF p. 3 of the Rényi scan),
 read on the rendered page image.
 
-**Read depth.** Claims checked: the passage was read clause by clause on
-the page image on 2026-09-18. There is nothing to prove; the passage states
-a conjecture and an undecided case.
+**Read depth.** Claims checked: the passage was read clause by clause on the
+page image. There is nothing to prove; the passage states a conjecture and an
+undecided case.
 
 ## Proof pointer
 

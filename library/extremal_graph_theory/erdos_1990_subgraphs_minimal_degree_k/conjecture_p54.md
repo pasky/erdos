@@ -60,9 +60,9 @@ p. 6), read on the page images. The edition is identified in the
 
 **Read depth.** Claims checked: the attribution sentence, the Conjecture,
 the two remarks of p. 57 and the Problems paragraph were read clause by
-clause on the page images on 2026-09-22. A conjecture has no proof to check;
-the $C^{k-1}$ argument (a paragraph) was read in full and followed. Nothing
-here is independently reviewed.
+clause on the page images. A conjecture has no proof to check; the $C^{k-1}$
+argument (a paragraph) was read in full and followed. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

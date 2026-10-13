@@ -106,7 +106,7 @@ $m/n$ as a sum of $k$ unit fractions with $m>k\ge3$, whose case $k=3$ is
 the setting of Schinzel's generalization in the problem's commentary. Proposition 1.4
 is a divisor-sum estimate used for Theorem 1.1.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: Average value of Type I and Type II solution counts: sum_{n<=N}
   f_I(n) and sum_{n<=N} f_II(n) are both of order N log^3 N.

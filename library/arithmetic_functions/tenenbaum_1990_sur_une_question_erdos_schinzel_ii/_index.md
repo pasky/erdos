@@ -87,7 +87,7 @@ $x>x_0(F)$. The extra factor is $x^{o(1)}$, so it gives neither a bound
 $x^{1+c}$ with fixed $c>0$ nor a bound of order $x^g$; Theorems 1 and 3
 enter only as its inputs.
 
-**Results to transcribe.**
+**Results.**
 
 - [[arithmetic_functions/tenenbaum_1990_sur_une_question_erdos_schinzel_ii/theorem_1|Theorem 1]]: uniform divisor-interval lower bound.
 - [[arithmetic_functions/tenenbaum_1990_sur_une_question_erdos_schinzel_ii/theorem_2|Theorem 2]]: general running-product lower bound with exact

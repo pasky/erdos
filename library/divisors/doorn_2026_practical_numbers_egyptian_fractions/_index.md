@@ -34,15 +34,16 @@ Problem 293.
 Wouter van Doorn and GPT-6 Astra Pro (the author line as printed), "Practical
 numbers and Egyptian fractions," 7 pages, posted 16 September 2026 in the
 GitHub repository https://github.com/Woett/ChatGPT-s-note-on-Erdos18 (created
-2026-09-16T22:15Z, last pushed 2026-09-16T23:14Z, four commits all of that
-day, HEAD `56b455ae69`) and registered the same day (23:18:06, site clock) as
-a partial proof claim on the erdosproblems.com proof-claims tab of Problem 18.
-Not on arXiv(the author's arXiv listing was checked); not
+2026-09-16T22:15Z, last pushed 2026-09-16T23:14Z, four commits, all of 16
+September 2026) and registered the same day (23:18:06, site clock) as a
+partial proof claim on the erdosproblems.com proof-claims tab of Problem 18.
+Not on arXiv (the author's arXiv listing was checked); not
 refereed; no journal or DOI.
 
 The copy read for this card is the repository's `Practical numbers and Egyptian
-fractions.pdf`, 403,557 bytes, downloaded from the repository's raw URL (an
-earlier fetch at 2026-09-28T02:37Z gave the same digest). Printed and PDF page
+fractions.pdf` at the commit that the claim pages of Problems 18, 293 and 304
+link, 403,557 bytes, downloaded from the repository's raw URL (an earlier fetch
+at 2026-09-28T02:37Z gave the same digest). Printed and PDF page
 numbers coincide (pp. 1–7). The repository's Lean file
 `ErdosProblem18&293&304.lean` (212,485 bytes, 4,333 lines, downloaded from its
 raw URL) was read as text and is not held; it was not built here. The TeX source

@@ -90,8 +90,8 @@ $n$ are very thin unconditionally, and a remark that $30$ is the largest $n$
 with $n-k$ never composite for every admissible $k$, by Bonse's inequality;
 none of these is a claim on the question, so none has a page.
 
-Search scope (2026-10-07): the site page, its thread, the arXiv record and
-the linked repositories.
+Search scope: the site page, its thread, the arXiv record and the linked
+repositories.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -113,7 +113,7 @@ $g_5(N)\asymp\log N$, $g_6(N)\asymp N^{1/2}$, the general upper bound and the
 $N^{1-\epsilon}$ lower bound, for the paper's $t_k$ with the $b_i$ not required
 in $A$; the lower-bound examples for $k=3$ and $k=5$ assume positive $b_i$.
 
-**Results to transcribe.**
+**Results.**
 
 - [[additive_combinatorics/choi_1975_additive_multiplicative_problems_number_theory/theorems_1_4|Theorems 1-4]]
   (pp. 37-42): For A of n+t integers in [1,2n], t_3 = 2, t_4 = Theta(1), t_5 =

@@ -78,7 +78,7 @@ Source:
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0976/_index|#976]] (conditional
 route to the degree-scale bound; both premises unproved).
 
-**Results to transcribe.**
+**Results.**
 
 - Lemma 2.1 (physical pp. 2--3): fixed-divisor reduction. For irreducible
   $f\in\mathbb Z[x]$ of degree $d\geq2$ with positive leading coefficient

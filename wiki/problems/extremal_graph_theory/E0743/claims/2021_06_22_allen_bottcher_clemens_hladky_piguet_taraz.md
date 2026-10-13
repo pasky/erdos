@@ -58,7 +58,7 @@ Allen, Böttcher, Clemens and Taraz (arXiv:1906.11558) as its Theorem 5 and
 uses Keevash's existence-of-designs results (Section 4 and Appendix A), so it
 is not self-contained.
 
-**Standing.** Claimed: the paper is a preprint, and its arXiv record, lists no
+**Standing.** Claimed: the paper is a preprint, and its arXiv record lists no
 journal reference, so it is not refereed. The site's curator credits the result
 in the problem's commentary, but the site labeled the problem FALSIFIABLE, an
 open problem, so the credit is no acceptance. The problem page records the

@@ -103,12 +103,11 @@ companion, alternate proof or consequence paper.
 
 Read status: claims checked for Theorem 1.1, Theorem 1.2 and Proposition 2.1,
 read clause by clause in the TeX source (`main.tex` lines 53--125 and
-`periodicity.tex` lines 8--51; PDF pp. 1--3) on 2026-10-07, together with the
-statements of Lemmas 3.1--3.3, 4.1--4.3, 5.1, 6.1, 8.1, Theorem 5.2 and
-Propositions 6.2 and 7.1 (`preliminaries.tex`, `geometry.tex`,
-`coverage-transfer.tex`, `schedule.tex`, `information.tex`); the proofs were
-read for their structure only and no step was checked; nothing here is
-independently reviewed.
+`periodicity.tex` lines 8--51; PDF pp. 1--3), together with the statements of
+Lemmas 3.1--3.3, 4.1--4.3, 5.1, 6.1, 8.1, Theorem 5.2 and Propositions 6.2 and
+7.1 (`preliminaries.tex`, `geometry.tex`, `coverage-transfer.tex`,
+`schedule.tex`, `information.tex`); the proofs were read for their structure
+only and no step was checked; nothing here is independently reviewed.
 
 ## Contents
 
@@ -264,7 +263,8 @@ independently reviewed.
   times the number of windows, of order $M$, contradicting Lemma 8.1 for
   large $M$; $\mathcal P_D$ is $\mathcal P_M$ for one such $M$.
 - References (`references.tex`; pp. 28--29): fourteen items, listed under
-  Dependencies on the result pages. The Conrad notes are marked "accessed", one day after the manuscript's date.
+  Dependencies on the result pages. The Conrad notes are marked
+  "accessed 27 September 2026", one day after the manuscript's date.
 
 Nothing in the manuscript is described as numerical, computer-assisted or
 conditional; the only unproved inputs are the cited standard results, and the

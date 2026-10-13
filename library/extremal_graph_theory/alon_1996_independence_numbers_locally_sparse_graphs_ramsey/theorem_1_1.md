@@ -47,8 +47,8 @@ the triangle-free theorem of [1].
 **Source.** N. Alon, *Independence numbers of locally sparse graphs and a
 Ramsey type problem*, author's preprint (8 pages, paginated 1--8), Theorem
 1.1 and the surrounding paragraphs on pp. 1--2, read on the rendered page
-images on 2026-09-18; the proof, Section 2, pp. 2--5. Published in Random
-Structures Algorithms 9 (1996), no. 3, 271--278, DOI
+images; the proof, Section 2, pp. 2--5. Published in Random Structures
+Algorithms 9 (1996), no. 3, 271--278, DOI
 `10.1002/(SICI)1098-2418(199610)9:3<271::AID-RSA1>3.0.CO;2-U`; the journal
 text was not compared, and the journal pagination is not in the preprint. The
 edition is identified in the

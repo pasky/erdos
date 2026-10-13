@@ -48,7 +48,7 @@ https://www.erdosproblems.com/135.
   distinct distances. arXiv:2409.01343 (2024).
 
 **Formalization.** No formal-conjectures statement is recorded; the site's
-page, lists none. A Lean proof of the disproof in Boris
+page lists none. A Lean proof of the disproof in Boris
 Alexeev's repository is linked at a pinned commit on the
 [[problems/distance_problems/E0135/claims/2024_09_02_tao|Tao claim page]];
 this corpus has not built or audited it.

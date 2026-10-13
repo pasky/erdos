@@ -100,9 +100,9 @@ Proposition 3.4 (`prop:finite-lower`, `odd-primes.tex` lines 516--526),
 Proposition 4.1 (`prop:nonvanishing`, `nonvanishing.tex` lines 7--14) and
 Proposition 7.1 (`prop:real-upper`, `certificate.tex` lines 7--16), the
 closing proof (`conclusion.tex` lines 3--16) and the paragraph on hyperbolic
-volumes (`conclusion.tex` lines 18--51), on 2026-10-12; the proofs were read
-for their structure only and no step was checked; no certificate was
-recomputed; nothing here is independently reviewed.
+volumes (`conclusion.tex` lines 18--51); the proofs were read for their
+structure only and no step was checked; no certificate was recomputed; nothing
+here is independently reviewed.
 
 ## Contents
 

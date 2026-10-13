@@ -50,7 +50,7 @@ Source: <https://doi.org/10.4064/aa-49-1-55-70>.
 
 **Bears on.** [[../wiki/problems/polynomials/E0485/_index|#485]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For K a field, f in K[x], l in N, f with T >= 2 terms and f^l with
   t terms, and char K = 0 or char K > l deg f: t >= l + 1 + (log 2)^{-1} log(1 +

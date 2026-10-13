@@ -62,7 +62,7 @@ sentence that the 2-coloring case "is unknown" (July 2024) and its
 reference to Hindman, Leader and Strauss for background; Theorem 1 is
 context only.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 2): "Let G be an abelian group not containing any elements
   of order 4. Then there is a countable colouring of G for which there do not

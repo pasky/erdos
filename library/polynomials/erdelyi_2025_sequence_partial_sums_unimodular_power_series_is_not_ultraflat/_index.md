@@ -15,8 +15,9 @@ updated: 2026-10-07T20:53:39Z
 
 ***
 
-Tamás Erdélyi, *The sequence of partial sums of a unimodular power series is
-not ultraflat*, arXiv:2504.19336 (2025), manuscript dated 23 April 2025.
+Tamás Erdélyi, *The sequence of partial sums of a unimodular power series is not
+ultraflat*, arXiv:2504.19336 (2025), manuscript dated 23 April 2025. The held
+file is arXiv:2504.19336v1 of 27 April 2025.
 
 The retained complete Markdown reading copy is a transcription of the five-page
 manuscript; it carries no page markers. The PDF is held locally. The source is

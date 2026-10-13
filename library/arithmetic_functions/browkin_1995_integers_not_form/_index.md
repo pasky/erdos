@@ -48,7 +48,7 @@ Source:
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0418/_index|#418]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem: None of the numbers 2^k · 509203 (k = 1, 2, ...) is of the form n -
   φ(n); hence infinitely many positive integers are not of this form, answering

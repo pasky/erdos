@@ -39,9 +39,8 @@ the Fifth Balkan Mathematical Congress, **Math. Balkanica 4 (1974),
 [1974-27](https://www.renyi.hu/~p_erdos/1974-27.pdf), which contains the
 six-page *Remarks* article, followed by the separate two-page *Problems*
 contribution on printed pages 203–204. It is therefore eight physical PDF
-pages. The present detailed extraction checks printed pages 199–200 (PDF
-pages 3–4), with source access and comparison on 5 September 2026, and the
-totient-value passage of printed page 201 (PDF page 5), read for
+pages. The present detailed extraction checks printed pages 199–200 (PDF pages
+3–4), and the totient-value passage of printed page 201 (PDF page 5), read for
 [[number_theory/erdos_1974_remarks_problems_number_theory/remark_p201|remark_p201]].
 No notice is printed in the file (printed pp. 197--198 and 203--204 read; p. 197
 carries only the header "MATHEMATICA BALCANICA 4.32 (1974) 197—202"); the

@@ -95,7 +95,7 @@ edge density, against the lower bound $\frac14$ the paper credits to
 Chung (p. 2); the negative answer to the problem rests on the
 quarter-density constructions, not on this bound.
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/baber_2012_turan_densities_hypercubes/theorem_3_1|Theorem 3.1]]
   (p. 8) and

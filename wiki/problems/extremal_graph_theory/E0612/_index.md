@@ -310,28 +310,27 @@ of part (ii) is accepted, in agreement with the site's label OPEN; read as the
 site words it, as one conjunction, it would already be disproved, as the Notes
 record.
 
-**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
-pages; the community database record; the formal-conjectures main branch
-as fetched 2026-09-17 (no file 612) and its issue 828 through the
+**Search scope.** The changing sources below as they stood on 2026-09-17:
+the problem, discussion and proof-claim pages; the community database record;
+the formal-conjectures main branch (no file 612) and its issue 828 through the
 GitHub API; the repository KitaKen1/erdos-612-lean through the GitHub API
 (metadata and head commit) and its README at the commit of 8 September 2026
-linked on the claim page; the arXiv API records for
-2009.02611 (v1 only, no journal reference), 2109.13887 (v1 only), 2502.08626
-(v1 only) and 2609.03346 (v1, 3 September 2026); the Crossref records for
-[CSS21], [CSS23], [CDS09] and [EPPT89] (bibliographic queries, which also
-returned the Electron. J. Combin. article behind the preprint's title) and
-a query for [CaJo25] (no journal record); the Semantic Scholar
-citation lists of [CSS21] (six records: [ChCh26], [CSS23], a 2025 survey of
-computer-assisted graph theory and three papers on $C_4$-free or
-edge-connectivity diameter bounds) and of [EPPT89] (the newest items concern
-oriented diameter and other parameters); an arXiv API search for abstracts on
-minimum degree, diameter and clique-free graphs (four records: [ChCh26],
-[CaJo25], one on oriented diameter, and the [CSS21] preprint); the
-primary sources [EPPT89], [CSS21], [CSS23] and [CaJo25] as stated above. Not
-searched: MathSciNet, zbMATH, Google Scholar, X. Consulted in part only:
-[ChCh26] (its abstract), the Lean files (the README and the reported
-`#print axioms` output), [CSS21] and [CSS23] (the preprints, not the
-published versions). [CDS09] is cited from the published article, its
+linked on the claim page; the arXiv API records for 2009.02611 (v1 only, no
+journal reference), 2109.13887 (v1 only), 2502.08626 (v1 only) and
+2609.03346 (v1, 3 September 2026); the Crossref records for [CSS21], [CSS23],
+[CDS09] and [EPPT89] (bibliographic queries, which also returned the Electron.
+J. Combin. article behind the preprint's title) and a query for [CaJo25] (no
+journal record); the Semantic Scholar citation lists of [CSS21] (six records:
+[ChCh26], [CSS23], a 2025 survey of computer-assisted graph theory and three
+papers on $C_4$-free or edge-connectivity diameter bounds) and of [EPPT89]
+(the newest items concern oriented diameter and other parameters); an arXiv
+API search for abstracts on minimum degree, diameter and clique-free graphs
+(four records: [ChCh26], [CaJo25], one on oriented diameter, and the [CSS21]
+preprint). Also the primary sources [EPPT89], [CSS21], [CSS23] and [CaJo25]
+as stated above. Not searched: MathSciNet, zbMATH, Google Scholar, X.
+Consulted in part only: [ChCh26] (its abstract), the Lean files (the README
+and the reported `#print axioms` output), [CSS21] and [CSS23] (the preprints,
+not the published versions). [CDS09] is cited from the published article, its
 Theorem 1 at statement depth, as the reference entry records.
 
 **Remaining gaps.** (1) The site does not state why the problem stays OPEN;

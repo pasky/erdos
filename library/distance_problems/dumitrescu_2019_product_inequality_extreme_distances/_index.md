@@ -53,7 +53,7 @@ Source:
 
 **Bears on.** [[../wiki/problems/distance_problems/E0957/_index|#957]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For n distinct planar points, s_min s_max <= (9/8)n^2 + O(n), where
   s_min and s_max are the multiplicities of the minimum and maximum distances.

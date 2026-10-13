@@ -59,12 +59,11 @@ the
 [[analysis/pommerenke_1961_metric_properties_complex_polynomials/_index|source digest]].
 
 **Read depth.** Claims checked: the problem as recalled, display (10),
-Lemma 6, Theorems 15 and 16 and the remark were read clause by clause on
-the page images on 2026-09-22; the proofs of Theorems 15 and 16 and of
-the remark (half a page together) were read in full and followed, Lemma 6
-and Szegő's determinant inequality being taken as printed. The proof of
-Lemma 6 (p. 113) was read for structure and not checked. Nothing here is
-independently reviewed.
+Lemma 6, Theorems 15 and 16 and the remark were read clause by clause on the
+page images; the proofs of Theorems 15 and 16 and of the remark (half a page
+together) were read in full and followed, Lemma 6 and Szegő's determinant
+inequality being taken as printed. The proof of Lemma 6 (p. 113) was read for
+structure and not checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

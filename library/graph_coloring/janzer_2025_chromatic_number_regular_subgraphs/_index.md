@@ -36,8 +36,8 @@ Two versions are held.
 
 - The primary, at the
   [folder-name path](janzer_2025_chromatic_number_regular_subgraphs.pdf),
-  is the publisher's PDF (Wiley), 9 pp., in which the Results to transcribe
-  below were read.
+  is the publisher's PDF (Wiley), 9 pp., in which the Results below were
+  read.
 - The secondary,
   [`janzer_2025_chromatic_number_regular_subgraphs_arxiv_v1.pdf`](janzer_2025_chromatic_number_regular_subgraphs_arxiv_v1.pdf),
   is arXiv:2410.02437v1, stamped "[math.CO] 3 Oct 2024" on p. 1, 6 pp.; the
@@ -80,7 +80,7 @@ answers Problem 641, the Erdos-Hajnal 1992 question stated on that page,
 negatively for every number k >= 2 of cycles. [[../wiki/problems/graph_coloring/E0074/_index|#74]]: the
 bearing is negative, as recorded above.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.2: For every k >= 4 there are n-vertex graphs with fractional
   chromatic number Omega(log log n / log log log n) and no k-regular subgraph.

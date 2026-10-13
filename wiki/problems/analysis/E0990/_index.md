@@ -84,8 +84,7 @@ page links were not built here.
 
 The thread holds an exposition of the construction and an earlier comment that
 the problem appeared open in October 2025; neither is a claim, so neither has a
-page. The search scope is the site page, its thread and the arXiv record, read
-on 2026-10-07.
+page. The search scope is the site page, its thread and the arXiv record.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

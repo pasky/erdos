@@ -84,8 +84,7 @@ credit and the journal publication, and
 journal publication alone. A thread comment of 4 July 2026 reports a chat
 transcript in which GPT-5.5 claims an improved bound, with no manuscript; it
 is not recorded as a claim. Neither proof has been reproduced or reviewed in
-this wiki. No dated literature search beyond the site's page and thread is
-recorded.
+this wiki. No literature search beyond the site's page and thread is recorded.
 
 ## Known Results
 

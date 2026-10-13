@@ -28,9 +28,8 @@ found (Crossref bibliographic query the same day), so the paper is an author
 preprint. Read status: claims checked. Problem 1, Definition 3,
 Proposition-Definition 4, Proposition 5 and Theorem 8 (pp. 1--3) were read
 clause by clause on the rendered page images of pp. 1 and 3 and the text layer
-of p. 2 on 2026-09-18, and rechecked on the page images of pp. 1--5 on
-2026-10-08; the proof (pp. 3--5) was read for structure only and is not
-verified. Result page:
+of p. 2, and rechecked on the page images of pp. 1--5; the proof (pp. 3--5) was
+read for structure only and is not verified. Result page:
 [[unit_fractions/kamio_2025_asymptotic_analysis_infinite_decompositions_unit_fraction/theorem_8|theorem_8]].
 The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2503.02317), every other right reserved.
@@ -65,7 +64,7 @@ Source: <https://arxiv.org/abs/2503.02317>.
   yes; recorded on
   [[unit_fractions/kamio_2025_asymptotic_analysis_infinite_decompositions_unit_fraction/theorem_8|theorem_8]].
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 8 (p. 3; on the theorem_8 page): For a positive integer n, if
   positive integers a_1 <= a_2 <= ... satisfy sum 1/a_i = 1/n and a_i differs from s_i(n) for

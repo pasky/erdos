@@ -31,8 +31,7 @@ counterexample known for larger $n$.
 **Source.** L. Boza, *Exact values and bounds for Ramsey numbers of $C_4$
 versus a star graph*, arXiv:2409.12770v2 (12 June 2026), 5 pages; Theorem
 10 and its proof on p. 4, Lemma 9 on p. 4, Remark 12 on p. 4, tables on
-pp. 3--4; read in the text layer of the retained PDF. A preprint: no journal
-record was found on 2026-09-17.
+pp. 3--4; read in the text layer of the retained PDF. A preprint.
 
 **Read depth.** Claims checked: the statement, the proof and Remark 12 were
 read clause by clause in the text layer. The computational verification

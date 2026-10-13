@@ -86,8 +86,8 @@ the Statement and [ErGr79]'s strict form is a variant that leaves it out; the
 beliefs about $W(n)$ in both texts concern the answer, not the question, and a
 later theorem about $c=1$ does not license a change.
 
-**Status.** Open, the site's label as accessed. No result settles the question.
-No full claim exists, and the standing derives from the claim pages.
+**Status.** Open, the site's label as accessed 2026-09-04. No result settles the
+question. No full claim exists, and the standing derives from the claim pages.
 
 The OpenAI release of 23 September 2026 gives the superexponential lower bound
 $W(k)>k^{k/100000}$ for all large $k$. It is recorded as a claimed partial

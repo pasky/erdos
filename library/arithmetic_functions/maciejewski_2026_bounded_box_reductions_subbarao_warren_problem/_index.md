@@ -52,7 +52,7 @@ Source: <https://arxiv.org/abs/2605.20475>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E1052/_index|#1052]]
 
-**Results to transcribe.**
+**Results.**
 
 - Proposition 1: Every prime divisor of a unitary perfect number is 3-Higgs.
   The paper's list of its rigorous results (§1) does not include it, and its

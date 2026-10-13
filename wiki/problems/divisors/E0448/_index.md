@@ -59,7 +59,7 @@ commit; neither file has been built here.
 
 ## Current assessment
 
-The question is the site's formulation, accessed: whether, for
+The question is the site's formulation, accessed 2026-09-04: whether, for
 every $\epsilon>0$, almost all $n$ satisfy $\tau^+(n)<\epsilon\tau(n)$, where
 $\tau^+(n)$ counts the dyadic intervals $[2^k,2^{k+1})$ holding a divisor of
 $n$. The answer is no.

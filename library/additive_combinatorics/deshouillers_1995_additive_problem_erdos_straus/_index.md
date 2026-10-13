@@ -67,13 +67,13 @@ Read status: claims checked for the abstract and the definition of
 admissibility (p. 33), the account of Erdős's and Straus's results, Theorem
 1, Theorem 2 with its remark on the constant $1.96$, Theorem 3 and the
 standing assumption $1.96\sqrt N\le\operatorname{card}\mathcal A\le2.31\sqrt N$
-(pp. 34--35), each read clause by clause on the page images of PDF pp. 1--3
-on 2026-09-22; the proof of Theorem 1 (Section 6, pp. 41--42) was read in
-full on the page images of PDF pp. 9--10 and its reduction to Theorem 2
-followed; Proposition 1 and its proof (p. 35) were read on the page image.
-Sections 2--5 (pp. 35--41: Propositions 2, 3.1--3.3 and 4 and the proof of
-Theorem 2) were read in the text layer for structure only, and none of their
-computations was checked. Nothing here is independently reviewed.
+(pp. 34--35), each read clause by clause on the page images of PDF pp. 1--3; the
+proof of Theorem 1 (Section 6, pp. 41--42) was read in full on the page images
+of PDF pp. 9--10 and its reduction to Theorem 2 followed; Proposition 1 and its
+proof (p. 35) were read on the page image. Sections 2--5 (pp. 35--41:
+Propositions 2, 3.1--3.3 and 4 and the proof of Theorem 2) were read in the text
+layer for structure only, and none of their computations was checked. Nothing
+here is independently reviewed.
 
 ## Contents
 

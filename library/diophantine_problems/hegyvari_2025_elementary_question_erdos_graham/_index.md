@@ -15,7 +15,7 @@ updated: 2026-10-07T20:53:39Z
 ***
 
 Norbert Hegyvári, An elementary question of Erdős and Graham. arXiv:2503.24201
-(2025).
+(2025). The held PDF is arXiv:2503.24201v1 (31 March 2025).
 
 For k >= 2 put A_k = {r(k-r) : 1 <= r <= k-1}. Erdos and Graham (1980) asked
 whether the number of common elements of A_n and A_m can be estimated and
@@ -39,7 +39,7 @@ public domain dedication.
 
 **Bears on.** [[../wiki/problems/diophantine_problems/E0443/_index|#443]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For m > n, |A_n cap A_m| <= tau_{m,n} = |{(M,N) : MN = m^2 - n^2,
   M+N < 2m, 0 < M <= N < M+2n}|, with equality when m is even and n odd.

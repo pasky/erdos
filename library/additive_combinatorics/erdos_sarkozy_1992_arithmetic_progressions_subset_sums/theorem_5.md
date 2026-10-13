@@ -66,10 +66,9 @@ the
 [[additive_combinatorics/erdos_sarkozy_1992_arithmetic_progressions_subset_sums/_index|source digest]].
 
 **Read depth.** Claims checked: the definition, the statement and the remarks
-were read clause by clause on the page images on 2026-10-08. The proof
-(pp. 261--264) was read on the page images and its steps followed; the
-Erdős--Moser bound it quotes was not checked here. Nothing here is
-independently reviewed.
+were read clause by clause on the page images. The proof (pp. 261--264) was read
+on the page images and its steps followed; the Erdős--Moser bound it quotes was
+not checked here. Nothing here is independently reviewed.
 
 ## Proof pointer
 

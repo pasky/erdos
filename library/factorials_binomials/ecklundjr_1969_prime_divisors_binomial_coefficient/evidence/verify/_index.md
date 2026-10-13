@@ -24,3 +24,8 @@ The [full-proof review](full_proof_review.md) passes the five complete
 components relative to Rosser--Schoenfeld (1)--(5) and Faulkner (F). The [final
 receipt](final_receipt.md) confirms the exact bytes after the twelve authorized
 substitutions.
+
+Edits to the filed record: on 2026-10-13 the full-proof review's wrapper was
+given a paragraph marking its replay and exact-interval checks historical,
+since their programs and outputs are not retained; the retained report, paths,
+scope, dates and verdict are unchanged.

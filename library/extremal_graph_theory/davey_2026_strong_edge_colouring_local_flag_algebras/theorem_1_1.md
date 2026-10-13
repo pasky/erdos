@@ -25,9 +25,8 @@ statement.
 
 **Source.** E. Davey, E. Hurley, R. de Joannis de Verclos, R. J. Kang and
 J. Volec, *Strong edge-colouring via local flag algebras*, arXiv:2607.17421v1
-(19 July 2026); Theorem 1.1 on p. 1 of the retained preprint, read on the
-page image. A preprint with no refereed version or independent review
-found on 2026-09-19. The artifact is identified in the
+(19 July 2026); Theorem 1.1 on p. 1 of the retained preprint, read on the page
+image. The artifact is identified in the
 [[extremal_graph_theory/davey_2026_strong_edge_colouring_local_flag_algebras/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the surrounding

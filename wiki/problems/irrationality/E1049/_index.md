@@ -57,8 +57,8 @@ with no review, extends the region to $\log b/\log a<\theta^*=0.40568\ldots$,
 which includes every power of $31/4$. No claim covers $t=3/2$ or any $a/b$ with
 $\log b/\log a\ge\theta^*$, and the problem is open.
 
-**Search scope.** 2026-10-07: erdosproblems.com (the page and the forum thread,
-whose only proof claim is the comment of 11 September 2026), the
+**Search scope.** erdosproblems.com (the page and the forum thread, whose only
+proof claim on 2026-10-07 was the comment of 11 September 2026), the
 formal-conjectures statement file, the Numdam record of Bundschuh and
 Väänänen's paper, and Crossref.
 <!-- BEGIN problem library links -->

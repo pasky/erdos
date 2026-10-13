@@ -66,16 +66,15 @@ and $f_{r,s}(n)$, their relation to the Ramsey numbers and Theorem 1
 Theorem 6 (p. 128), the general setting and Lemma 7 (p. 129), Lemma 8
 (p. 130), Theorem 9, Corollary 10, the closing paragraph and the reference
 list (p. 131), each read clause by clause on the page images of PDF
-pp. 1--3, 5--6 and 9--13 (printed pp. 119--121, 123--124 and 127--131) on
-2026-09-22. The proof of Theorem 1 (p. 120, one paragraph) and the proof of
-Theorem 6 (pp. 128--129, half a page) were read in full on the page images
-and followed; the proofs of Theorem 2 (pp. 121--122), Lemmas 3 and 4
-(pp. 123--127), Theorem 5 (pp. 127--128) and Lemmas 7 and 8 (pp. 129--131)
-were read for structure only, on the page images where listed above and
-otherwise in the text layer (printed pp. 122 and 125--126), and no estimate
-was checked. The passages of pp. 122 and 125--127 that the digest and the
-result pages cite were checked on the page images. Nothing
-here is independently reviewed.
+pp. 1--3, 5--6 and 9--13 (printed pp. 119--121, 123--124 and 127--131). The
+proof of Theorem 1 (p. 120, one paragraph) and the proof of Theorem 6 (pp.
+128--129, half a page) were read in full on the page images and followed; the
+proofs of Theorem 2 (pp. 121--122), Lemmas 3 and 4 (pp. 123--127), Theorem 5
+(pp. 127--128) and Lemmas 7 and 8 (pp. 129--131) were read for structure only,
+on the page images where listed above and otherwise in the text layer (printed
+pp. 122 and 125--126), and no estimate was checked. The passages of pp. 122 and
+125--127 that the digest and the result pages cite were checked on the page
+images. Nothing here is independently reviewed.
 
 ## Contents
 

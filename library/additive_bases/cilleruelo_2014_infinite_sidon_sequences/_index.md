@@ -53,7 +53,7 @@ Source: <https://arxiv.org/abs/1209.0326>.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: The explicit discrete-logarithm sequence A_{q,c} indexed by the
   primes is an infinite Sidon sequence for c = (3 - sqrt 5)/2, with A(x) =

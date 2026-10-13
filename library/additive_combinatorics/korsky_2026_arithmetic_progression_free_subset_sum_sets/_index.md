@@ -69,9 +69,8 @@ The retained folder-name PDF is arXiv:2606.24139v1 (23 June 2026, 15 pp.; dated
 June 22, 2026 in its header); no journal record was found (Crossref
 bibliographic query, 2026-09-18): a preprint. Read status: claims checked for
 the definitions, Theorems 1.1--1.3, Corollary 1.4, Proposition 4.1, Corollary
-4.2 and Remark 4.6 (pp. 1--3, 6, 8, text layer) on 2026-09-18; the proofs of
-Sections 4--6 were read for structure or for their statement labels only. Result
-pages:
+4.2 and Remark 4.6 (pp. 1--3, 6, 8, text layer); the proofs of Sections 4--6
+were read for structure or for their statement labels only. Result pages:
 [[additive_combinatorics/korsky_2026_arithmetic_progression_free_subset_sum_sets/theorem_1_1|theorem_1_1]],
 [[additive_combinatorics/korsky_2026_arithmetic_progression_free_subset_sum_sets/theorem_1_2|theorem_1_2]],
 [[additive_combinatorics/korsky_2026_arithmetic_progression_free_subset_sum_sets/theorem_1_3|theorem_1_3]]

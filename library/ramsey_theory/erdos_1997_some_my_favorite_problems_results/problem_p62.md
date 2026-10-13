@@ -72,10 +72,9 @@ pp. 77--78 of the eBook), read on the page images. The copy read
 is identified in the
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/_index|source digest]].
 
-**Read depth.** Claims checked: the passage was read clause by clause on
-the page images on 2026-09-22. The chapter prints no proofs and no
-references for the bounds it names. Nothing here is independently
-reviewed.
+**Read depth.** Claims checked: the passage was read clause by clause on the
+page images. The chapter prints no proofs and no references for the bounds it
+names. Nothing here is independently reviewed.
 
 ## Proof pointer
 

@@ -70,7 +70,7 @@ accessed 2026-09-17.
   time): the elements of $A$ to $10000$ (b-file by J. E. Schoenfield), the
   observations that no prime power lies in $A$ and that multiples of
   elements greater than $1$ lie in $A$, and a conjectured characterization
-  verified to $2\cdot10^5$; accessed.
+  verified to $2\cdot10^5$.
 
 **Formalization.** Statement in
 [`ErdosProblems/292.lean`](https://github.com/google-deepmind/formal-conjectures/blob/573d06b08947dbff577e453ab102fa2b39d8f759/FormalConjectures/ErdosProblems/292.lean)
@@ -96,7 +96,7 @@ relative size of $B=\mathbb N\setminus A$ up to $x$ and a description of $B$
 as the small multiples of prime powers. It adds van Doorn's remark that
 $2n\in A$ whenever $n\in A$ and $n>1$, since halving a representation and
 adding the term $\frac12$ gives another. The thread and the proof-claim tab
-are empty. The community database, recorded proved, not
+are empty. The community database recorded proved, not
 formalized, OEIS A092671; as of its last update, of 22 September 2026, it
 lists the statement as formalized (see Formalization).
 

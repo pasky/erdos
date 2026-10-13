@@ -102,7 +102,7 @@ unchanged", "Only permitted axioms" with `propext`, `Quot.sound` and
 run", so "the verdict rests on a single kernel implementation"); Conjectures
 review Approved, decided 15 September 2026, "REVIEW_APPROVED under
 submission-time policy v3" for the full locked bounty; Certified 16 September
-2026; Reward Paid ($6,805, 6369.8514 α). The review decision states that two
+2026; Reward Paid. The review decision states that two
 separately conducted agent assessments recommend approval, that the agents
 "used independent contexts in the same model family; no distinct-model
 consensus is claimed", that the review "relies on the successful hash-matched

@@ -11,12 +11,12 @@ authors:
 status: claimed
 claim: proved
 scope: partial
-submitted: null
+submitted: 2026-08-01
 links:
 - url: https://gist.github.com/flound1129/e986a2c564c3851b5e8203afd875d150/f72a1eba454efcc1674dfe69de335151c2a7eaa4#file-erdos-554-research-report-md
   kind: preprint
   date: 2026-08-01
-- url: https://www.erdosproblems.com/forum/thread/554
+- url: https://www.erdosproblems.com/forum/thread/554#post-8298
   kind: discussion
   date: 2026-08-01
 created: 2026-10-07T10:45:01Z
@@ -59,6 +59,16 @@ a coauthor of the upper-bound paper, that before that paper the best
 unconditional upper bounds had exponent $k^{k/2}$ for every $n$, so the
 comparison reached no $n$ at all. The problem page's own comparison
 reproduces this derivation.
+
+**Submission note.** Posted to the site's forum by Adam McKenna (account
+mysticflounder) on 1 August 2026:
+
+> According to claude (and adversarially audited by GPT 5.6), the recent work by
+> OpenAI (Ten advances in mathematics and theoretical computer science), reduces
+> this problem to the n=2 and n=3 finite cases.
+>
+> gist with more info:
+> https://gist.github.com/flound1129/e986a2c564c3851b5e8203afd875d150
 
 **Covers.** The problem's statement for every fixed $n\ge4$: the limit
 of $R_k(C_{2n+1})/R_k(K_3)$ as $k\to\infty$ is $0$. Not covered: $n=2$

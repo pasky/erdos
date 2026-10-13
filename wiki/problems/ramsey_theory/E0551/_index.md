@@ -29,7 +29,7 @@ $$
 
 for $k\geq n\geq 3$ (except when $n=k=3$).
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording as accessed 2026-09-17 (the page shows no
 last-edited date). $R(C_k,K_n)$ is the least $N$ such
 that every $2$-coloring of the edges of $K_N$ has a red cycle of length $k$
 or a blue $K_n$; equivalently, the least $N$ such that every $C_k$-free

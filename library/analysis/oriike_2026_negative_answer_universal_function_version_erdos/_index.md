@@ -66,7 +66,7 @@ infinity, and
 $\Psi(T)=T^\varepsilon$, works for every $f$. The note does not treat the
 first two questions.
 
-**Results to transcribe.**
+**Results.**
 
 - [[analysis/oriike_2026_negative_answer_universal_function_version_erdos/theorem_1|Theorem 1]]
   (p. 2): For every nondecreasing Φ with Φ(T) → ∞ there is a transcendental

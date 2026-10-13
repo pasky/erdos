@@ -64,10 +64,10 @@ the release.
 
 Read status: claims checked for Theorem 1.1 and Corollary 1.2, read clause by
 clause in the TeX source (`sections/introduction.tex`, labels `thm:main`,
-lines 9--21, and `cor:hausdorff`, lines 32--51) on 2026-10-07; the statements
-of the intermediate propositions named under Contents were read in their TeX
-files and the proofs were read for their structure only, no step was checked;
-nothing here is independently reviewed.
+lines 9--21, and `cor:hausdorff`, lines 32--51); the statements of the
+intermediate propositions named under Contents were read in their TeX files and
+the proofs were read for their structure only, no step was checked; nothing here
+is independently reviewed.
 
 ## Contents
 

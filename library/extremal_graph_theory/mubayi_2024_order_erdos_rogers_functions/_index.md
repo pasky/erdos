@@ -6,7 +6,7 @@ desc: |
   f_s(n) >> sqrt(n log n)/log log n that the paper prints.
 license: CC-BY-4.0
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-13T13:51:08Z
+updated: 2026-10-13T12:59:17Z
 ---
 
 # extremal_graph_theory/mubayi_2024_order_erdos_rogers_functions
@@ -78,7 +78,7 @@ Source: <https://arxiv.org/abs/2401.02548>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0620/_index|#620]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For each fixed s >= 3, f_s(n) = O(sqrt(n) log n); the proof gives
   f_s(n) <= 2^{100s} sqrt(n) log n for n >= 2, hence f_s(n) = n^{1/2+o(1)} when

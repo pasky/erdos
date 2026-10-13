@@ -67,10 +67,10 @@ Source: <https://arxiv.org/abs/2601.20743>.
 
 The copy read for this card is the 20-page
 [version-one manuscript](https://arxiv.org/pdf/2601.20743v1). The version and
-date were checked against the
-[arXiv record](https://arxiv.org/abs/2601.20743v1) on 17 September 2026.
-Printed and PDF page numbers agree. The arXiv record names arXiv's non-exclusive
-distribution license (arXiv:2601.20743), every other right reserved.
+date were checked against the [arXiv
+record](https://arxiv.org/abs/2601.20743v1). Printed and PDF page numbers agree.
+The arXiv record names arXiv's non-exclusive distribution license
+(arXiv:2601.20743), every other right reserved.
 
 ## Canonical results and proof routes
 

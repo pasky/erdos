@@ -68,10 +68,9 @@ display). The edition read is identified in the
 
 **Read depth.** Claims checked: the question, the sentence "we can prove
 that", the display and the definition of $H(n)$ were read clause by clause
-on the page image on 2026-09-22; the rest of p. 84 and pp. 80--83 were read
-on the page images to confirm that no proof or further reference to $p(n)$
-appears. There is no proof to follow. Nothing here is independently
-reviewed.
+on the page image; the rest of p. 84 and pp. 80--83 were read on the page images
+to confirm that no proof or further reference to $p(n)$ appears. There is no
+proof to follow. Nothing here is independently reviewed.
 
 ## Proof pointer
 

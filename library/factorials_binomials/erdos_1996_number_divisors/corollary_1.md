@@ -27,9 +27,9 @@ $m$ is a natural number."
 Here $d(m)$ is the number of positive divisors of $m$. In symbols, the set
 of limit points is $\{1\}\cup\{1+1/m:m\ge1\}$.
 
-**Read depth.** Claims checked: the statement was read clause by clause on
-the page image on 2026-10-08. The paper prints the corollary directly after
-Theorem 2 with no separate proof; the deduction below is written here.
+**Read depth.** Claims checked: the statement was read clause by clause on the
+page image. The paper prints the corollary directly after Theorem 2 with no
+separate proof; the deduction below is written here.
 
 ## Proof sketch
 

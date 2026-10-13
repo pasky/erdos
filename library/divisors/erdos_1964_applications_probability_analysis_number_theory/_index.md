@@ -75,7 +75,7 @@ and
 [[divisors/erdos_1964_applications_probability_analysis_number_theory/item_2|item 2]]
 (pp. 695--696: displays (8) and (9)).
 
-**Results to transcribe.**
+**Results.**
 
 - Divisor density announcement (pp. 695--696, displays (8) and (9) on p. 696):
   The density of integers having two divisors d_1 < d_2 < 2 d_1 is claimed to be

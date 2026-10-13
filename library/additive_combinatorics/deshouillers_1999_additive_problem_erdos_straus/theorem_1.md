@@ -106,7 +106,7 @@ DOI 10.1007/BF02762069), quoted as Theorem 2 here; the paper is
 filed as
 [[additive_combinatorics/deshouillers_1995_additive_problem_erdos_straus/_index|deshouillers_1995_additive_problem_erdos_straus]],
 and its Theorem 2 is on printed p. 34 (PDF p. 2), read there clause by
-clause on the page image on 2026-09-22 and paged on
+clause on the page image and paged on
 [[additive_combinatorics/deshouillers_1995_additive_problem_erdos_straus/theorem_2|theorem_2]];
 the quotation above matches it apart from "modulo $q$" for the original's
 "with difference $d$". Straus's block

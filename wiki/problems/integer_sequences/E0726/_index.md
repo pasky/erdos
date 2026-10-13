@@ -72,15 +72,16 @@ $n\to\infty$, the starred conjecture that [EGRS75] states after its inequality
 ([[../library/factorials_binomials/erdos_1975_prime_factors/_index|erdos_1975_prime_factors]]):
 the sum over primes $p\le n$ with $n=kp+r$, $p/2<r<p$, equals
 $(1/2+o(1))\log\log n$. The exact question is open, and the frontmatter status
-concerns that question. Search scope, 2026-09-27: erdosproblems.com (page,
-history, discussion thread with six comments, proof-claims thread with one claim
-and its two comments), the community database, conjectures.io (results listing,
-the record, its solution and problem pages, and the site's task and contribution
-repositories), the formal-conjectures file and its commit history, the DataCite
-metadata of the Zenodo preprint, arXiv (search "Erdős problem 726": no results),
-Semantic Scholar and Crossref (no relevant hits); X was not searched. A failure
-to find a proof does not by itself establish openness, so the scope is recorded
-and the outstanding claims are listed.
+concerns that question. Search scope, with the sources as they stood on
+2026-09-27: erdosproblems.com (page, history, discussion thread with six
+comments, proof-claims thread with one claim and its two comments), the
+community database, conjectures.io (results listing, the record, its solution
+and problem pages, and the site's task and contribution repositories), the
+formal-conjectures file and its commit history, the DataCite metadata of the
+Zenodo preprint, arXiv (search "Erdős problem 726": no results), Semantic
+Scholar and Crossref (no relevant hits); X was not searched. A failure to find a
+proof does not by itself establish openness, so the scope is recorded and the
+outstanding claims are listed.
 
 Outstanding claims, neither acceptance evidence, each with its claim page:
 (1) the Conjectures.io partial award of 13 August 2026, a refutation of a

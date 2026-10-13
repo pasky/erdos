@@ -35,8 +35,8 @@ Bolyai Soc. Math. Stud. 10 (2002), 185-246; Theorem 22 and its proof on
 p. 48 of the authors' manuscript described in the
 [[extremal_graph_theory/bollobas_2002_better_bounds_max_cut/_index|source digest]].
 
-**Read depth.** Claims checked: statement read clause by clause on the
-page image on 2026-10-08; the proof was read for its structure only.
+**Read depth.** Claims checked: statement read clause by clause on the page
+image; the proof was read for its structure only.
 
 ## Proof pointer
 

@@ -72,9 +72,9 @@ garbles the displays. The edition read is identified in the
 
 **Read depth.** Claims checked: the definition, the sentence on $r=k=2$,
 the displays (1)--(3) and the surrounding sentences were read clause by
-clause on the page image on 2026-09-22. There is no proof in the source:
-(1) is reported as proved "by the probability method" with no argument,
-and (2) and (3) are conjectures.
+clause on the page image. There is no proof in the source: (1) is reported as
+proved "by the probability method" with no argument, and (2) and (3) are
+conjectures.
 
 ## Proof pointer
 

@@ -95,11 +95,10 @@ artifact is identified in the
 
 **Read depth.** Claims checked: the statement, Definition 2.1, Definition
 2.3 and the partition note of p. 115 were read clause by clause on the page
-images on 2026-09-22. The proof (pp. 117--118) was read on the page images
-for its case structure, and its reductions to Lemmas 2.7, 2.11 and 2.13
-were followed; no case computation was checked, and the assertion that
-$\{J_0,J_1\}$ is a partition of $N$ was not checked. Nothing here is
-independently reviewed.
+images. The proof (pp. 117--118) was read on the page images for its case
+structure, and its reductions to Lemmas 2.7, 2.11 and 2.13 were followed; no
+case computation was checked, and the assertion that $\{J_0,J_1\}$ is a
+partition of $N$ was not checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

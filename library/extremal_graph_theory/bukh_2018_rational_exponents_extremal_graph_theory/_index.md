@@ -58,7 +58,7 @@ Source: <https://arxiv.org/abs/1506.06406>.
 realizes every rational exponent in (1,2) by a finite family, context for
 that problem's rationality question.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (p. 2): each rational r in (1,2) is the extremal exponent of
   some finite family H_r of graphs, ex(n, H_r) = Theta(n^r).

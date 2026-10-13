@@ -32,17 +32,17 @@ Jie Ma and Quanyu Tang, *On Erdős problem #1034*. A three-page note, hosted
 on the first author's page at <http://staff.ustc.edu.cn/~jiema/Erdos-1034.pdf>,
 the file the site's Problem 1034 page links ("see their note here"). The
 text carries no date, no arXiv identifier and no journal; its reference [1]
-cites the site "accessed", and the PDF metadata gives a creation
+cites the site "accessed 2025-10-20", and the PDF metadata gives a creation
 date of 21 October 2025. Affiliations on p. 3: School of Mathematical
 Sciences, University of Science and Technology of China, and Yau
 Mathematical Sciences Center, Tsinghua University (Ma); School of
 Mathematics and Statistics, Xi'an Jiaotong University (Tang). The site's
 thread records (20 October 2025) that an earlier version gave the constant
 $\sqrt2-1$ and that the note was updated to $2-\sqrt{5/2}$; the copy read for
-this card prints $2-\sqrt{5/2}$ throughout and is the updated version. No refereed
-publication, arXiv version or independent review of the note was found on
-2026-09-19 (Crossref bibliographic query for the title, OpenAlex title search
-and two arXiv author queries, all without a record).
+this card prints $2-\sqrt{5/2}$ throughout and is the updated version. A
+Crossref bibliographic query for the title, an OpenAlex title search and two
+arXiv author queries on 2026-09-19 returned no record of a refereed publication
+or an arXiv version of the note.
 
 The copy read for this card is that file,
 three letter-size pages with a complete text layer, read on the rendered page

@@ -49,8 +49,7 @@ release folder
 `preprints/Hilberts-tenth-problem-over-the-rational-numbers-October-6-2026`;
 TeX file `build/sections/07-consequences.tex`, label
 `thm:degree-normal-form` (lines 8--23), PDF p. 56; the proof follows at
-lines 25--108 and closes on PDF p. 57. Read 2026-10-12. Provenance and
-attestations are on
+lines 25--108 and closes on PDF p. 57. Provenance and attestations are on
 [[diophantine_problems/openai_2026_hilberts_tenth_problem_rational_numbers/_index|the card]].
 
 **Read depth.** Claims checked: the statement and its definitions were read

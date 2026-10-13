@@ -50,10 +50,9 @@ the eBook), read on the page image. The copy read is identified
 in the
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/_index|source digest]].
 
-**Read depth.** Claims checked: the passage was read clause by clause on
-the page image on 2026-09-22. The chapter prints no proof and no
-reference for the 1934 and 1938 bounds. Nothing here is independently
-reviewed.
+**Read depth.** Claims checked: the passage was read clause by clause on the
+page image. The chapter prints no proof and no reference for the 1934 and 1938
+bounds. Nothing here is independently reviewed.
 
 ## Proof pointer
 

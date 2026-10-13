@@ -78,9 +78,9 @@ p. 2), all read on the page images. The edition read is identified in the
 
 **Read depth.** Claims checked: the statements, the definitions of
 pp. 121--122 and the three paragraphs of § III were read clause by clause
-on the page images on 2026-09-22. The proofs of the Lemma and of the
-Theorem (a paragraph each) were read in full on the page images and
-followed. Nothing here is independently reviewed.
+on the page images. The proofs of the Lemma and of the Theorem (a paragraph
+each) were read in full on the page images and followed. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

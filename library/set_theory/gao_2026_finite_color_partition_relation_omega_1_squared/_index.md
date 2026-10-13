@@ -67,9 +67,9 @@ associated with the site has examined the proof. The site's claim entry
 attributed the work to Lezhe Gao with AI assistance (the tools it named were not
 recorded before its removal), and the deposit included an archive named
 `AI_interaction_logs.zip`, not fetched. The deposit's owner withdrew it from
-Zenodo on 2026-10-01 (the tombstone gives the reason
-"Retraction/Withdrawal of a record"), and on 2026-10-07 the site's proof-claims
-tab lists no proof claim for the problem;
+Zenodo on 2026-10-01 (the tombstone gives the reason "Retraction/Withdrawal of a
+record"), and on 2026-10-07 the site's proof-claims tab listed no proof claim
+for the problem;
 [[../wiki/problems/set_theory/E1171/claims/2026_09_05_gao|the claim page]]
 records the claim as withdrawn. A comment in the problem's discussion thread
 (06:50 on 5 September 2026) asked for the label "not disprovable" on the
@@ -112,12 +112,12 @@ conclusion through the finite Ramsey theorem, as recorded on Baumgartner's
 result page. The lemma is the only written form of that bridging step found.
 
 **Read status.** Proof verified for Lemma 2.1 and Theorem 3.1 in the
-reading-depth vocabulary: the complete four-page text was read on the text
-layer of that copy on 2026-09-27, and the induction
-of Lemma 2.1 and the deduction of Theorem 3.1 were followed step by step on
-their result pages and found correct. This is an author-recorded reading of the
-paper; the independent review recorded above covers the research
-reconstructions, not these result pages, and no verification tier is awarded.
+reading-depth vocabulary: the complete four-page text was read on the text layer
+of that copy, and the induction of Lemma 2.1 and the deduction of Theorem 3.1
+were followed step by step on their result pages and found correct. This is an
+author-recorded reading of the paper; the independent review recorded above
+covers the research reconstructions, not these result pages, and no verification
+tier is awarded.
 
 **Bears on.** [[../wiki/problems/set_theory/E1171/_index|#1171]], as a conditional proof
 under $\mathrm{MA}_{\aleph_1}$.

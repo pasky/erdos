@@ -47,9 +47,9 @@ release folder
 `preprints/The-weak-inhomogeneous-Duffin-Schaeffer-conjecture-September-25-2026`;
 TeX source `sections/introduction.tex`, label `thm:main`, lines 9--21; PDF
 p. 3 of 87. The proof occupies Sections 2--10 (PDF pp. 6--85) and closes in
-`sections/joins.tex` lines 787--853 (PDF pp. 84--85, ending on p. 85). Read
-on 2026-10-07. The card records the provenance and the release's own
-statements about how the manuscript was produced.
+`sections/joins.tex` lines 787--853 (PDF pp. 84--85, ending on p. 85). The card
+records the provenance and the release's own statements about how the manuscript
+was produced.
 
 **Read depth.** Claims checked: the statement, its hypotheses and the
 surrounding paragraph on the meaning of "weak" were read clause by clause in

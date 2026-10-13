@@ -16,10 +16,9 @@ updated: 2026-10-08T15:41:34Z
 (4 March 2025; the paper is dated 5 March 2025), 5 pages; Definition 3 and
 Problem 1 on p. 1, Proposition-Definition 4, Proposition 5 and Lemma 6 on
 p. 2, Lemma 7 on p. 3, proof pp. 3--5. Read on the rendered page images of
-pp. 1 and 3 and in the text layer of pp. 1--5 on 2026-09-18, and rechecked
-on the page images of pp. 1--5 on 2026-10-08. Author preprint: the arXiv listing
-carries no journal reference and no journal record was found (Crossref
-bibliographic query, 2026-09-18).
+pp. 1 and 3 and in the text layer of pp. 1--5, and rechecked on the page images
+of pp. 1--5. Author preprint: the arXiv listing carries no journal reference and
+no journal record was found (Crossref bibliographic query, 2026-09-18).
 
 ## Statement
 
@@ -92,9 +91,8 @@ Self-contained apart from Soundararajan's comparison proposition
 (arXiv:math/0502247, the paper's [Sou05]), reproduced as Lemma 7. Read
 depth: claims checked (Problem 1, Definition 3, Proposition-Definition 4,
 Proposition 5 and Theorem 8 read clause by clause on the page images of
-pp. 1 and 3 and the text layer of p. 2, rechecked on the page images of
-pp. 1--5 on 2026-10-08); the proof (pp. 3--5) read for
-structure; not verified.
+pp. 1 and 3 and the text layer of p. 2, rechecked on the page images of pp.
+1--5); the proof (pp. 3--5) read for structure; not verified.
 
 ## Bears on
 

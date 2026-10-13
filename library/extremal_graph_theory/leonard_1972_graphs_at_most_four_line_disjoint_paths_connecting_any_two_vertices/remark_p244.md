@@ -55,9 +55,9 @@ scan), read on the page images. The edition is identified in the
 [[extremal_graph_theory/leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices/_index|source digest]].
 
 **Read depth.** Claims checked: the passages quoted above were read clause
-by clause on the page images on 2026-09-22. The observation rests on the
-cited constructions for $k_r(n)$, $r=2,3,4$ (Bártfai [1], Bollobás [2]),
-which the paper does not reproduce; for $r=3$ the extremal graphs are on
+by clause on the page images. The observation rests on the cited constructions
+for $k_r(n)$, $r=2,3,4$ (Bártfai [1], Bollobás [2]), which the paper does not
+reproduce; for $r=3$ the extremal graphs are on
 [[extremal_graph_theory/bollobas_1962_grafelmeleti_szelsoertekekre_vonatkozo_problemakrol_extremal_problems/theorem_p144|Bollobás and Erdős 1962, theorem p. 144]]
 (filed), and for $r=4$ the paper's [2] is not held. The statement
 $l_5(n)<k_5(n)$ rests on the paper's own Theorem

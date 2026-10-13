@@ -57,7 +57,7 @@ functions*, release folder
 `preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026`;
 TeX file `build/introduction.tex`, label `cor:affine` (lines 81--89), PDF p. 4.
 The proof is in Section 18.2 (`build/qualitative/affine-corollaries.tex`, lines
-216--258, PDF p. 84). Read 2026-10-12. Provenance and attestations are on
+216--258, PDF p. 84). Provenance and attestations are on
 [[arithmetic_functions/openai_2026_ordinary_two_point_correlations_multiplicative_functions/_index|the card]].
 
 **Read depth.** Claims checked: the statement, and the statements of the Lemmas

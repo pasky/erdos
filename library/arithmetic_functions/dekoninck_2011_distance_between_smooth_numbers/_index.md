@@ -49,7 +49,7 @@ Source: <https://math.colgate.edu/~integers/vol11.html>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0372/_index|#372]]
 
-**Results to transcribe.**
+**Results.**
 
 - Heuristic (abstract; Theorem 5, assuming Hypothesis A): A heuristic
   argument gives sum_{n<=x} 1/delta(n) = (4 log 2 - 2 + o(1))x.

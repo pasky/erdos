@@ -221,8 +221,9 @@ Read status (author-recorded): claims checked for the stated partial theorem and
 for the cited $S$-part, short-interval, and prime-gap inputs against their
 papers; the exact checks of the orbit-content and Jacobi-discriminant formulas
 are not retained, and the exhaustive prime-gap computation was not rerun, so the
-proofs count as not verified. Accordingly this source establishes the stated
-partial theorem, not a complete solution of Problem 699.
+proofs count as not verified. Accordingly the card records the manuscript's
+stated partial theorem as claimed, not as verified, and not as a complete
+solution of Problem 699.
 
 **Source artifact.** The copy read for this card is the manuscript's ten-page
 PDF.

@@ -118,11 +118,11 @@ Theorem 2, concerns
 [[problems/factorials_binomials/E0400/_index|Problem 400]] and is not a result
 on this problem.
 
-Search scope, 2026-10-07: the site's problem page, its discussion thread and
-proof-claims list, the community database, the formal-conjectures statement
-file and the two Lean files in Alexeev's repository, and the library's card
-and digest for [So26] for the appendix. The site lists no proof claim for
-the problem.
+Search scope: the site's problem page, its discussion thread and proof-claims
+list, the community database, the formal-conjectures statement file and the
+two Lean files in Alexeev's repository, and the library's card and digest for
+[So26] for the appendix. The site listed no proof claim for the problem on
+2026-10-07.
 [[problems/factorials_binomials/E0729/_index|Problem 729]] is the less precise
 form of this question, and
 [[problems/factorials_binomials/E0728/_index|Problem 728]] the two-factorial
@@ -135,5 +135,6 @@ These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
 - [[../library/factorials_binomials/sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle/_index|sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle]]
+- [[../library/factorials_binomials/sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle/theorem_2|sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle / theorem_2]]
 
 <!-- END problem library links -->

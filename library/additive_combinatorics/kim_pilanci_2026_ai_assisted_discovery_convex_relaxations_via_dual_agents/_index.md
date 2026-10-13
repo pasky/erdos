@@ -21,7 +21,8 @@ The arXiv record (https://arxiv.org/abs/2606.31182, read 2026-10-02) names the
 Creative Commons Attribution 4.0 license.
 
 Sungyoon Kim, Mert Pilanci, "AI-Assisted Discovery of Convex Relaxations via
-Dual Agents," arXiv:2606.31182 (2026).
+Dual Agents," arXiv:2606.31182 (2026). The held PDF is arXiv:2606.31182v1 (30
+June 2026).
 
 ## Overview
 

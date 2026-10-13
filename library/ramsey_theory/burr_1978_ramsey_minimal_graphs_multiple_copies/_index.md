@@ -86,7 +86,7 @@ Theorem 1 proves the problem's formula in the case where all stars of $F_1$
 have one size and all stars of $F_2$ have one size. Theorem 5 and Corollaries 6--9
 bear on no problem page of this corpus.
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/burr_1978_ramsey_minimal_graphs_multiple_copies/theorem_1|Theorem 1]] (p. 188): r-hat(mK_{1,k}, nK_{1,l}) = (m+n-1)(k+l-1); the graphs attaining it
   are (m+n-1)K_{1,k+l-1}, plus tK_3 ∪ (m+n-t-1)K_{1,3} for 1 <= t <= m+n-1 when

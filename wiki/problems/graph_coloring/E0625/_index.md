@@ -41,7 +41,7 @@ random-graph meaning:
 the relevant probability tends to one under $G(n,1/2)$ as $n$ runs through
 all integers. A coupling of graphs across different orders is not specified.
 
-**Status.** SOLVED has been the site's label since 5 September 2026. That day
+**Status.** The site labeled the problem SOLVED from 5 September 2026. That day
 the curator changed it from OPEN and credited Petkov and GPT-5.6 in the
 commentary, and the page was last edited then. Two full proof claims are
 recorded, and neither is refereed.

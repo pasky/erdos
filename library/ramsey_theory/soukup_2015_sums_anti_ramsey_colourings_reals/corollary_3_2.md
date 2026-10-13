@@ -29,7 +29,7 @@ Hindman--Leader--Strauss result, which assumed CH.
 **Source.** D. T. Soukup and W. Weiss, *Sums and anti-Ramsey colourings of
 $\mathbb R$*, unpublished manuscript (PDF dated September 2015), Section 3,
 p. 4 (the statement follows the proof of Theorem 3.1); read in the text layer
-and on the rendered page on 2026-09-18.
+and on the rendered page.
 
 **Read depth.** Claims checked: the statement was read clause by clause. The
 derivation from Theorem 3.1 is by Lemma 2.1, whose proof (p. 2) was read for

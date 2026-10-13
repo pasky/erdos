@@ -55,8 +55,8 @@ problem page's [Le73], filed as
 (Periodica Mathematica Hungarica 3 (1973), 281--284); its announcement of
 the graph $G$ with 57 points and 141 edges and no 5-way, and that $k_5(n)$
 "cannot be given by a linear function of $n$ having coefficient $5/2$", the
-result p. 242 here reports, is on printed p. 281 (PDF p. 1), located here on
-the text layer of that page on 2026-09-22 and paged on
+result p. 242 here reports, is on printed p. 281 (PDF p. 1), located here on the
+text layer of that page and paged on
 [[extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/counterexample_p281|counterexample_p281]]
 and
 [[extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/bound_p282|bound_p282]].
@@ -82,11 +82,11 @@ $r=2,3,4$ (p. 244), the consequence $l_5(n)<k_5(n)$ and the lower bound
 from Figures 2 and 3 (pp. 245--246), the Lemma and the Theorem with its six
 parts (pp. 246--247), and the closing paragraphs with the general formula
 and the open question (p. 250), each read clause by clause on the page
-images of PDF pp. 1--6 and 9 on 2026-09-22; p. 250 (PDF p. 9) was also read
-on the page image for the reference list. The proof of the Theorem
-(pp. 247--250, an induction on $n$ with the six statements proved together)
-was read in the text layer for structure only, and none of its case
-analysis was checked. Nothing here is independently reviewed.
+images of PDF pp. 1--6 and 9; p. 250 (PDF p. 9) was also read on the page image
+for the reference list. The proof of the Theorem (pp. 247--250, an induction on
+$n$ with the six statements proved together) was read in the text layer for
+structure only, and none of its case analysis was checked. Nothing here is
+independently reviewed.
 
 ## Contents
 
@@ -214,8 +214,7 @@ examples it calls easy to construct and does not give, and asked as an
 open question for $r>5$, is the value the problem page records for
 Mader's Satz 1 (filed as
 [[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/_index|mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen]];
-Satz 1 on printed p. 223, PDF p. 1, located in the text layer on
-2026-09-22 and paged on
+Satz 1 on printed p. 223, PDF p. 1, located in the text layer and paged on
 [[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/satz_1|satz_1]]).
 
 **Results.**

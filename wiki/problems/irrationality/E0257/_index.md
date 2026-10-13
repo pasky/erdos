@@ -114,11 +114,11 @@ and Tao (Acta Math. Hungar. 175 (2025), 572--608, Theorem 2.5;
 [[../library/irrationality/kovac_2024_several_irrationality_problems_ahmes_series/_index|card]])
 disprove it for nonzero $|t_n|<C$ already at $A=\mathbb N$, and Kovač's
 thread comment of 2025-10-30 sketches a choice with $1\le t_n\le6$ over
-$A=\{n\ge100\}$ for which the sum is rational. Dated search scope: the site's
-page and remarks (2026-09-04), its discussion thread (posts through
-2026-09-11), the arXiv record of Tao and Teräväinen's preprint (2026-09-06)
-and the formal-conjectures file at its commit of 2026-09-23; no wider
-literature search is recorded, and no proof is checked here.
+$A=\{n\ge100\}$ for which the sum is rational. Search scope: the site's page and
+remarks (2026-09-04), its discussion thread (posts through 2026-09-11), the
+arXiv record of Tao and Teräväinen's preprint (2026-09-06) and the
+formal-conjectures file at its commit of 2026-09-23; no wider literature search
+is recorded, and no proof is checked here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

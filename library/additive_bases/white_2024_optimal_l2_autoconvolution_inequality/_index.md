@@ -47,7 +47,7 @@ Creative Commons Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: 0.574636066 <= mu_2^2 <= 0.574642912 for the infimum of the
   squared L2 norm of an autoconvolution of a density on [-1/2,1/2].

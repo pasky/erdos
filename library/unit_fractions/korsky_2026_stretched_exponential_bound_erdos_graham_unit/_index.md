@@ -75,12 +75,12 @@ Source: <https://arxiv.org/abs/2607.04157>.
 **Bears on.** [[../wiki/problems/unit_fractions/E0312/_index|#312]]:
 [[unit_fractions/korsky_2026_stretched_exponential_bound_erdos_graham_unit/theorem_1_1|Theorem 1.1]]
 is the best upper bound found for the deficit eps(A), as an unrefereed
-preprint claim with declared AI assistance; the site's page does not cite
-the paper (as of the refresh) and the exp(-cK) bound that
+preprint claim with declared AI assistance; the site's page, accessed
+2026-09-18, did not cite the paper, and the exp(-cK) bound that
 Erdos and Graham asked about remains open; display (1.4) is the barrier below
 which no uniform bound can go.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: There are absolute c > 0 and K_0 such that every finite multiset
   A with R(A) > K >= K_0 satisfies eps(A) <= exp(-c sqrt(K log K)).

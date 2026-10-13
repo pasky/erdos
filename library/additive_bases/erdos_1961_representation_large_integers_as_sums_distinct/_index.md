@@ -55,7 +55,7 @@ the Creative Commons Attribution license, with no version stated.
 **Bears on.** [[../wiki/problems/integer_sequences/E0254/_index|#254]],
 [[../wiki/problems/additive_bases/E0344/_index|#344]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem (p. 346): If A(x) > C x^{(sqrt 5 - 1)/2} for x > x_0 (or
   a_r < (r/C)^{2/(sqrt 5 - 1)} for r > r_0) with C a sufficiently large

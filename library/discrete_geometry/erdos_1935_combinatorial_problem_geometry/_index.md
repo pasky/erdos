@@ -66,7 +66,7 @@ Source: <https://users.renyi.hu/~p_erdos/1935-01.pdf>.
 of p. 466 gives $R(k)\le\binom{2k-2}{k-1}<4^k$, the classical upper end
 $\limsup R(k)^{1/k}\le4$ of Erdős's interval, lowered only in 2023.
 
-**Results to transcribe.**
+**Results.**
 
 - Main theorem: For every n there exists N(n) such that any set of at least N(n)
   points in the plane, no three collinear, contains n points forming a convex

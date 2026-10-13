@@ -60,7 +60,7 @@ Creative Commons Attribution 4.0 license.
 [[../wiki/problems/additive_combinatorics/E0160/_index|#160]],
 [[../wiki/problems/distance_problems/E0657/_index|#657]], [[../wiki/problems/ramsey_theory/E0721/_index|#721]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: A ⊆ {1,...,N} without non-trivial three-term progressions satisfies
   |A| <= exp(-c(log N)^{1/9})N; exponent 5/41 attainable with more work.

@@ -45,7 +45,7 @@ Source: <https://doi.org/10.4064/aa-30-3-225-227>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0455/_index|#455]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem: If q_1, q_2, ... are primes with non-decreasing positive consecutive
   differences, then liminf q_n / n^2 >= 1/S with S = sum

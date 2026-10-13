@@ -30,8 +30,7 @@ the non-negative integers.
 
 **Source.** J. E. Baumgartner, *Partitioning vector spaces*, J. Combin. Theory
 Ser. A **18** (1975), 231–233: the unnumbered Theorem on p. 231, proof on
-pp. 231–233, read 2026-09-06 and again 2026-10-08. The edition read is
-identified on the
+pp. 231–233, read twice. The edition read is identified on the
 [[additive_combinatorics/baumgartner_1975_partitioning_vector_spaces/_index|source card]].
 
 **Dependencies and scope.** This is a complete reconstruction of the published

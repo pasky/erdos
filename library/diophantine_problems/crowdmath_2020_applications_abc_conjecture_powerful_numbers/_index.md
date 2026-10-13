@@ -45,7 +45,7 @@ reserved.
 
 **Bears on.** [[../wiki/problems/diophantine_problems/E0936/_index|#936]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 2.1: Assuming abc, x+y=z holds for only finitely many triples of
   4-powerful numbers x, y, z with gcd(x,y)=1.

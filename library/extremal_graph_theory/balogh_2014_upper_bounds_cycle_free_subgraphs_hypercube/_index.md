@@ -55,7 +55,7 @@ the upper bound pi_Q(C_6) <= 0.3755 on the Turán density of C_6 in the
 hypercube; it does not bear on the negative answer, which rests on the
 colouring constructions recorded on that page.
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/balogh_2014_upper_bounds_cycle_free_subgraphs_hypercube/theorem_1|Theorem 1]]
   (p. 2): pi_Q(C_4) <= 0.6068, so a 4-cycle-free subgraph of Q_n has at most

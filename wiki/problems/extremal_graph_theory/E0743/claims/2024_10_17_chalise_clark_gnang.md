@@ -51,6 +51,6 @@ The claim was never accepted. The thread's comment of 28 February 2026 found
 no refereed version and no independent verification, a comment of 1 March
 2026 reported that people who had tried to verify the paper did not trust
 its arguments, and another of the same day reported a GPT-based check, as
-its poster names it, that flagged two major gaps; the search of 2026-09-19
-found no acceptance either, and the site's page, as of 2026-09-19, did not
-mention the claim. The problem's standing is unaffected.
+its poster names it, that flagged two major gaps. On 2026-09-19 the routes in
+the problem page's search scope showed no acceptance either, and the site's
+page did not mention the claim. The problem's standing is unaffected.

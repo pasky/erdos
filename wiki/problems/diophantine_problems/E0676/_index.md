@@ -53,9 +53,10 @@ https://www.erdosproblems.com/676.
 
 ## Current assessment
 
-Site formulation(last edit; problem page accessed, proof-claims tab 2026-10-06): is every sufficiently large integer
-of the form $ap^2+b$ with $p$ prime, $a\ge1$ and $0\le b<p$? The question
-was open on the site, and no claim page settles any part of it.
+Site formulation (last edit 2026-04-07; problem page accessed 2026-09-04,
+proof-claims tab 2026-10-06): is every sufficiently large integer of the form
+$ap^2+b$ with $p$ prime, $a\ge1$ and $0\le b<p$? The question was open on the
+site, and no claim page settles any part of it.
 
 The best known progress is the sieve bound that Erdős [Er79] and the site
 record. The sieve of Eratosthenes shows that almost all integers have the
@@ -77,7 +78,7 @@ which is of the form for no prime $p$; the claimant states that the original
 question remains open. A finite list of exceptions decides nothing about all
 sufficiently large integers.
 
-The only dated status search on record is the site record itself, its forum
+The only status search on record is the site record itself, its forum
 thread included (problem page accessed 2026-09-04, proof-claims tab
 2026-10-06); the literature beyond the site's three references is unassessed.
 <!-- BEGIN problem library links -->

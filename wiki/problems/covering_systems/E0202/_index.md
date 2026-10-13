@@ -115,12 +115,12 @@ draft of 30 April 2026 credited to GPT-5.5 Pro, which claims the same
 asymptotic by a spread-core route and is recorded on
 [[problems/covering_systems/E0202/claims/2026_04_30_chojecki|its claim page]].
 The
-site, labeled the problem solved with a Lean
-qualification and records a last edit of 28 May. Thus the mathematical
+site labeled the problem solved with a Lean
+qualification and recorded a last edit of 28 May. Thus the mathematical
 status rests on the primary proof and dated public verification
-evidence, beyond the site's status label. The targeted primary-source search through
-5 September 2026 found no later contradiction or stronger quantitative
-answer; it is not an exhaustive search of unpublished claims.
+evidence, beyond the site's status label. The targeted primary-source search
+found no later contradiction or stronger quantitative answer; it is not an
+exhaustive search of unpublished claims.
 
 ## Known results and proof route
 

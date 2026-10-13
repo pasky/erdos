@@ -47,8 +47,8 @@ Schelp, An extremal problem in generalized Ramsey theory, Ars Combin. 10
 (PDF pp. 2--3 of the Rényi scan), read on the rendered page images.
 
 **Read depth.** Claims checked: the table and the paragraph on p. 195 were
-read on the page images on 2026-10-08. The Ramsey numbers the paper takes
-from [6] and [8] were not checked; neither source is held.
+read on the page images. The Ramsey numbers the paper takes from [6] and [8]
+were not checked; neither source is held.
 
 ## Proof pointer
 

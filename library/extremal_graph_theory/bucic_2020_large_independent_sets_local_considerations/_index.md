@@ -60,10 +60,10 @@ growing-parameter case. No quantitative improvement for 804 or full source
 proof has been reconstructed or independently accepted here.
 
 Read status: claims checked for Theorem 1.3, Theorem 1.2, the definition of
-$\alpha_m$ and the Erdős--Hajnal sentence (p. 2, read clause by clause on
-the page image on 2026-09-18), and for the convention of p. 5 and Section
-4's Questions 4.1--4.3 and table (pp. 24--26, text layer); no proof was read.
-The journal version was not compared with the preprint. Result page:
+$\alpha_m$ and the Erdős--Hajnal sentence (p. 2, read clause by clause on the
+page image), and for the convention of p. 5 and Section 4's Questions 4.1--4.3
+and table (pp. 24--26, text layer); no proof was read. The journal version was
+not compared with the preprint. Result page:
 [[extremal_graph_theory/bucic_2020_large_independent_sets_local_considerations/theorem_1_3|theorem_1_3]].
 
 Source: <https://arxiv.org/abs/2007.03667v3>.

@@ -208,10 +208,10 @@ Read status: claims checked for Theorem 2 and the remarks; the proof read
 for its structure, not checked.
 
 For [[../wiki/problems/additive_combinatorics/E0787/_index|#787]], printed p. 187 (PDF page
-7, page image, 2026-09-18): the $\phi(n)$ passage, "Denote by $\phi(n)$ the
-largest integer so that if $a_1,a_2,\dots,a_n$ are $n$ distinct real numbers
-one can always find $\phi(n)$ of them $a_{i_1},\dots,a_{i_k}$, $k=\phi(n)$ so
-that $a_{i_j}+a_{i_l}\ne a_r$, $1\le j<l\le k$, $1\le r\le n$", with
+7, page image): the $\phi(n)$ passage, "Denote by $\phi(n)$ the largest integer
+so that if $a_1,a_2,\dots,a_n$ are $n$ distinct real numbers one can always find
+$\phi(n)$ of them $a_{i_1},\dots,a_{i_k}$, $k=\phi(n)$ so that
+$a_{i_j}+a_{i_l}\ne a_r$, $1\le j<l\le k$, $1\le r\le n$", with
 $\phi(n)\to\infty$ (Erdős and Moser), "a remark by Klarner implies that
 $\phi(n)>c\log n$", "We do not give proofs", the $3m$-number example giving
 $\phi(3m)\le m+2$, Selfridge's $\phi(n)<(1/4+\epsilon)n$ and "It seems likely
@@ -221,14 +221,13 @@ Read status: claims checked; the bounds are asserted without proof.
 
 For [[../wiki/problems/additive_combinatorics/E0790/_index|#790]] and
 [[../wiki/problems/additive_combinatorics/E0789/_index|#789]], printed p. 188 (PDF page 8,
-page image, 2026-09-18, the radicals and exponents at 300 dpi): the
-definitions of $g(n)$ and of $k(n)$ (written $h(n)$ from (31) on), display
-(29), "(30) $g(n)\ge\sqrt{(n/2)}$ and (31) $h(n)\ge n^{1/3}$", the
-one-sentence proof indications (the interval $(1/\sqrt{2n},\sqrt{2/n})$ for
-(30) and the interval of length $1/n^{2/3}$ about $1/n^{1/3}$ for (31)), "It
-is known that $h(n)<c_8n^{5/6}$ [5] and by complicated arguments we can show
-that $g(n)=o(n)$, very likely $g(n)<n^{1-c_9}$ for some $c_9>0$." The pages
-are
+page image, the radicals and exponents at 300 dpi): the definitions of $g(n)$
+and of $k(n)$ (written $h(n)$ from (31) on), display (29), "(30)
+$g(n)\ge\sqrt{(n/2)}$ and (31) $h(n)\ge n^{1/3}$", the one-sentence proof
+indications (the interval $(1/\sqrt{2n},\sqrt{2/n})$ for (30) and the interval
+of length $1/n^{2/3}$ about $1/n^{1/3}$ for (31)), "It is known that
+$h(n)<c_8n^{5/6}$ [5] and by complicated arguments we can show that $g(n)=o(n)$,
+very likely $g(n)<n^{1-c_9}$ for some $c_9>0$." The pages are
 [[additive_combinatorics/erdos_1965_extremal_problems_number_theory/inequality_30|inequality_30]]
 and
 [[additive_combinatorics/erdos_1965_extremal_problems_number_theory/inequality_31|inequality_31]].
@@ -275,13 +274,13 @@ question, the still sharper conjecture its second, and (12) names the
 extremal set. Read status: claims checked for (11), (12), (13), the sharper
 conjecture and Theorem 1; the proof read for its structure, not checked.
 
-**Reading and proof scope.** On 2026-09-09, complete PDF pages 1, 2 and 9
-(printed pp. 181, 182 and 189) were visually read for artifact identity,
-equations (3) and (4), the construction convention and the later Ruzsa report.
-A page-by-page transcription of the scan was subsequently read for this digest,
-and the #963 passage on printed p. 188 was checked against the scan's page image. The
-greedy base-three argument above was reconstructed; no other proof was reviewed.
-The unrelated survey results below retain their earlier compilation scope.
+**Reading and proof scope.** Complete PDF pages 1, 2 and 9 (printed pp. 181, 182
+and 189) were visually read for artifact identity, equations (3) and (4), the
+construction convention and the later Ruzsa report. A page-by-page transcription
+of the scan was subsequently read for this digest, and the #963 passage on
+printed p. 188 was checked against the scan's page image. The greedy base-three
+argument above was reconstructed; no other proof was reviewed. The unrelated
+survey results below retain their earlier compilation scope.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0483/_index|#483]],
 [[../wiki/problems/integer_sequences/E0441/_index|#441]],
@@ -314,7 +313,7 @@ asserts the lower bound $k(n)>\exp((\log n)^{1/2-\epsilon})$ without proof,
 printed p. 188 (PDF page 8), states the greedy bound $\lfloor\log_3 n\rfloor$
 and asks whether $\lfloor\log_2 n\rfloor$ is always attainable.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: A bound on F(k), the maximum number of representations of an
   integer as a subset sum of k distinct reals, weaker than the conjectured c 2^k

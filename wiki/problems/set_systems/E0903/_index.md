@@ -76,9 +76,9 @@ The site's commentary asks, more generally,
 which block counts a design on $n$ points can have, which the paper's Theorem
 1 answers for $v>v_0$ and all but an interval just above $n$.
 
-Search scope, 2026-10-07: the site's problem page and discussion thread and
-the formal-conjectures statement file. No claim other than the paper's was
-found.
+Search scope: the site's problem page and discussion thread and the
+formal-conjectures statement file; on 2026-10-07 none of them showed a claim
+other than the paper's.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

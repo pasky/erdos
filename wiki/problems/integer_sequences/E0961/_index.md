@@ -120,7 +120,7 @@ site's note that no finite computation can settle it; last edited 3 April
 - [OEIS] Sloane, N. J. A., Sequence A213253, The On-Line Encyclopedia of
   Integer Sequences (2012; entry last modified 28 June 2026, server time):
   $f(n)$ for $n\le268$ (b-file from Najman's paper, not consulted here);
-  JSON record accessed.
+  JSON record read.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/961.lean`](https://github.com/google-deepmind/formal-conjectures/blob/fe0601160638ba1feedc32858970070c326b7534/FormalConjectures/ErdosProblems/961.lean)
@@ -251,8 +251,8 @@ integers avoid the primes of $(k,2k)$; its cutoff is the interval $(k,2k)$,
 not "a prime $>k$", so it neither bounds nor is bounded by $f(k)$, and it
 is recorded on Problem 451, not as progress here.
 
-**Search scope (2026-09-18 UTC).** None of the routes below found a bound
-on $f(k)$ beyond those above, a copy of [Ju74] or [RaSh73], or a proof
+**Search scope.** The routes below, as they stood on 2026-09-18, showed no
+bound on $f(k)$ beyond those above, no copy of [Ju74] or [RaSh73] and no proof
 claim.
 
 - The site: problem page, discussion thread and proof-claim tab;

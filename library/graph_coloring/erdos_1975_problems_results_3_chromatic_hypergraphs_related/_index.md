@@ -73,7 +73,7 @@ Source: <https://users.renyi.hu/~p_erdos/1975-34.pdf>.
 [[../wiki/problems/graph_coloring/E0833/_index|#833]], [[../wiki/problems/graph_coloring/E0836/_index|#836]],
 [[../wiki/problems/set_systems/E0901/_index|#901]]
 
-**Results to transcribe.**
+**Results.**
 
 - Introduction bounds (p. 610): known bounds on the least number of edges of
   a 3-chromatic r-uniform hypergraph, (r/(r+2)) 2^{r-1} <= m_2(r) <= r^2 2^r;

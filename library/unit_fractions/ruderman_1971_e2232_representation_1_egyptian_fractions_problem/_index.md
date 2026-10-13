@@ -72,7 +72,7 @@ other right reserved.
 records, and does not decide whether the excess tends to infinity; the
 unproved remark of p. 303 states that divergence as the authors' belief.
 
-**Results to transcribe.**
+**Results.**
 
 - [[unit_fractions/ruderman_1971_e2232_representation_1_egyptian_fractions_problem/inequality_1|Inequality (1)]] (p. 302): There are constants c_1, c_2 with
   (e-1)n - c_2 < U_n < (e-1)n + c_1 n / log n.

@@ -83,9 +83,9 @@ The `reviewed` evidence is the documented acceptance by the catalog
 erdosproblems.com. Its page for the problem (the `discussion` link) carried the
 label SOLVED. Its curator, Thomas Bloom, credits Kesten and Sós with the proof
 that the limit exists, and notes that their argument gives no way to compute it.
-The page was accessed and shows no last-edited date. No independent check of the
-proof is recorded. The claim value is `proved` because the part it settles,
-whether the limit exists, is a yes-or-no question answered yes.
+The page shows no last-edited date. No independent check of the proof is
+recorded. The claim value is `proved` because the part it settles, whether the
+limit exists, is a yes-or-no question answered yes.
 
 **Formalization.** A third party formalized the result: `erdos_1001` in
 `src/latest/ErdosProblems/Erdos1001.lean` of Boris Alexeev's repository

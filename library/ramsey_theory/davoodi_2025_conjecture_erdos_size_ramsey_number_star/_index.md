@@ -76,7 +76,7 @@ Source: <https://amc-journal.eu/index.php/amc/article/view/3081>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0561/_index|#561]]
 
-**Results to transcribe.**
+**Results.**
 
 - Conjecture 1.2 (Burr, Erdos, Faudree, Rousseau, Schelp): For star forests F_1
   = union K_{1,n_i}, F_2 = union K_{1,m_j}, r-hat(F_1,F_2) = sum_{k=2}^{s+t} l_k

@@ -110,16 +110,16 @@ read for this card.
 
 Read status: claims checked for Theorem 1.1 and Proposition 2.1, together
 with the statements of Proposition 2.2, the four Inputs and the definitions
-they use, read clause by clause in the release's TeX source on 2026-10-12
-(under `build/sections/`: `01-introduction.tex` label `thm:main` at lines
-32--47; `02-reduction.tex` labels `prop:reservoir` at lines 11--28 and
-`prop:splitting` at lines 33--46; `03-splitting.tex` label `input:hecke` at
-lines 8--15; `04-marked-family.tex` lines 10--71 and 88--89 for the marked
-setup and label `input:marked` at lines 99--151; `05-prime-reservoir.tex` labels
-`input:block` at lines 11--63 and `input:density` at lines 65--78). The
-proofs (Section 2 for Theorem 1.1, Section 3 for Proposition 2.2, Sections
-4--5 for Proposition 2.1) were read for their structure only and no step was
-checked; nothing here is independently reviewed.
+they use, read clause by clause in the release's TeX source (under
+`build/sections/`: `01-introduction.tex` label `thm:main` at lines 32--47;
+`02-reduction.tex` labels `prop:reservoir` at lines 11--28 and `prop:splitting`
+at lines 33--46; `03-splitting.tex` label `input:hecke` at lines 8--15;
+`04-marked-family.tex` lines 10--71 and 88--89 for the marked setup and label
+`input:marked` at lines 99--151; `05-prime-reservoir.tex` labels `input:block`
+at lines 11--63 and `input:density` at lines 65--78). The proofs (Section 2 for
+Theorem 1.1, Section 3 for Proposition 2.2, Sections 4--5 for Proposition 2.1)
+were read for their structure only and no step was checked; nothing here is
+independently reviewed.
 
 ## Contents
 

@@ -106,10 +106,10 @@ Read status: claims checked for Theorem 1.1, Theorem 2.1, Theorem 4.1,
 Proposition 6.4 and Theorem 6.5, read clause by clause in the TeX source
 (`introduction.tex`, `upper-bound.tex` label `thm:upper`,
 `predictor-statement.tex` label `thm:predictor`, `compression-tree.tex`
-labels `prop:compression-stage` and `thm:stream`, `final-conversion.tex`)
-on 2026-10-07; the lemma statements of Sections 2, 3, 5--9 were read, and
-the proofs were read for their structure only and no step was checked;
-nothing here is independently reviewed.
+labels `prop:compression-stage` and `thm:stream`, `final-conversion.tex`); the
+lemma statements of Sections 2, 3, 5--9 were read, and the proofs were read for
+their structure only and no step was checked; nothing here is independently
+reviewed.
 
 ## Contents
 

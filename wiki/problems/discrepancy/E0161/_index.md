@@ -133,10 +133,9 @@ it is not recorded as a claim. Whether further jumps occur inside $(0,1/2)$
 for $t\ge4$ is open: there the order is known only between
 $(\log n)^{\epsilon}$ and, for $\alpha$ near $1/2$, $(\log n)^{1/(t-1)}$.
 
-**Scope.** The search of 2026-10-07 covered the site's page and thread, Erdős's
-chapter [Er90b] and the two Conlon--Fox--Sudakov papers; a later result on the
-jump at $0$ for $t=3$ or on the range $(0,1/2)$ for $t\ge4$ may exist
-unrecorded.
+**Scope.** The search covered the site's page and thread, Erdős's chapter
+[Er90b] and the two Conlon--Fox--Sudakov papers; a later result on the jump at
+$0$ for $t=3$ or on the range $(0,1/2)$ for $t\ge4$ may exist unrecorded.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

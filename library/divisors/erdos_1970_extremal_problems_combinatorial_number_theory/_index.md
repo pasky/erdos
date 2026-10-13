@@ -58,13 +58,12 @@ Source: <https://users.renyi.hu/~p_erdos/1970-21.pdf>.
 The copy read for this card
 is an eleven-page OmniPage scan (printed pp. 123--133 = PDF pp. 1--11)
 whose text layer garbles the displays; the statements of Section 1 below
-were read on the page images of pp. 124--125 on 2026-09-18. No notice is printed
-in the copy read (first two and last two pages read); the 1970 volume has no
-publisher page or DOI for this edition, so no publisher's page or Crossref
-record could be consulted; the hosting archive's site footer
-(https://users.renyi.hu/~p_erdos/), "(C) 2005-2007 All rights
-reserved. All material on this site is for scientifics purposes only.", speaks
-for the site, not the paper; the term is unstated.
+were read on the page images of pp. 124--125. No notice is printed in the copy
+read (first two and last two pages read); the 1970 volume has no publisher page
+or DOI for this edition, so no publisher's page or Crossref record could be
+consulted; the hosting archive's site footer (https://users.renyi.hu/~p_erdos/),
+"(C) 2005-2007 All rights reserved. All material on this site is for scientifics
+purposes only.", speaks for the site, not the paper; the term is unstated.
 
 Read status: claims checked for the definition of f(k, x) (p. 123),
 display (1), the definition of F(k, x), Theorem 1 and the deduction
@@ -128,7 +127,7 @@ $t>t_0$, asserts $d_t>1/(\log t)^{c_2}$ without proof, and asks in display
 its constants renamed
 ([[divisors/erdos_1970_extremal_problems_combinatorial_number_theory/theorem_p130|theorem_p130]]).
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 ([[divisors/erdos_1970_extremal_problems_combinatorial_number_theory/theorem_1|result page]]):
   The integers with three pairwise coprime divisors b1 < b2 < b3 < 2 b1

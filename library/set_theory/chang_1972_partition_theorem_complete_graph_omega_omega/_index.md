@@ -69,15 +69,14 @@ added-in-proof note (p. 397), the definitions of super form and of the
 relation $C_1\to C_2$ (p. 402), the assumptions $(\alpha)$ and $(\beta)$,
 the statement $H(n,Z)$, the reduction (1), the Normal Form, Super Form,
 Transitivity and Well-Foundedness Lemmas and the proof of the theorem from
-them (pp. 403--405), and the § 5 proof and the reference (p. 452), each
-read clause by clause on the page images of PDF pp. 1--2, 7--10 and 57 on
-2026-09-22. The proof of the theorem from the four lemmas (pp. 404--405,
-about a page) was read in full on the page images and its induction was
-followed at the level of the lemma statements; the preliminary definitions
-and the normal forms (pp. 397--402), § 1 Embeddings (pp. 405--423) and the
-proofs of the four lemmas (§§ 2--5, pp. 423--452) were read in the text
-layer for structure only, and none of their arguments was checked. Nothing
-here is independently reviewed.
+them (pp. 403--405), and the § 5 proof and the reference (p. 452), each read
+clause by clause on the page images of PDF pp. 1--2, 7--10 and 57. The proof of
+the theorem from the four lemmas (pp. 404--405, about a page) was read in full
+on the page images and its induction was followed at the level of the lemma
+statements; the preliminary definitions and the normal forms (pp. 397--402), § 1
+Embeddings (pp. 405--423) and the proofs of the four lemmas (§§ 2--5, pp.
+423--452) were read in the text layer for structure only, and none of their
+arguments was checked. Nothing here is independently reviewed.
 
 ## Contents
 

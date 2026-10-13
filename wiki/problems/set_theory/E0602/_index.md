@@ -92,10 +92,10 @@ that it was filed as a related finite criterion in the hope that it prompts
 work on the infinite version. A result that decides no instance of the
 question is not a claim under the schema, whatever kind its filing carries.
 
-**Search scope, 2026-10-07:** the site's problem page, commentary,
-discussion thread (one comment, post 5648 of 2026-04-20) and proof-claims
-page, with the Zenodo record of the claim. arXiv, Crossref, MathSciNet,
-zbMATH, Google Scholar and X were not searched.
+**Search scope:** the site's problem page, commentary, discussion thread (one
+comment by 2026-10-07, post 5648 of 2026-04-20) and proof-claims page, with the
+Zenodo record of the claim. arXiv, Crossref, MathSciNet, zbMATH, Google Scholar
+and X were not searched.
 
 **Remaining gaps.** (1) The mathematics of the question has not been
 assessed, and the literature on Property B for the stated families was not

@@ -40,7 +40,7 @@ serves only to locate the passage). The artifact is identified in the
 [[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/_index|source digest]].
 
 **Read depth.** Claims checked: the two sentences were read clause by clause
-on the page image on 2026-09-18. Conjectures; nothing to prove in the source.
+on the page image. Conjectures; nothing to prove in the source.
 
 ## Proof pointer
 

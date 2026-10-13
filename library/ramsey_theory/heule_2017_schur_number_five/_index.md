@@ -73,7 +73,7 @@ $R_1(3)=3$, $R_2(3)=6$, $R_3(3)=17$. With Exoo's $S(5)\ge160$ this gives
 Exoo's $R_5(3)\ge162$; the paper's new upper half $S(5)\le160$ gives no
 bound on the problem's $R(3;k)$, and the paper states none.
 
-**Results to transcribe.**
+**Results.**
 
 - Main result: S(5) = 160: the encoding of S(5) >= 161 is unsatisfiable,
   matching Exoo's lower bound S(5) >= 160

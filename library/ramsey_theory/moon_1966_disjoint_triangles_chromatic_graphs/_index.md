@@ -77,13 +77,13 @@ Read status: claims checked for the definitions (chromatic graph $G_n$,
 monochromatic triangle, disjoint triangles, $\mu(G_n)$), the facts A and B,
 and the Theorem with its displays (1) and (2), all on printed p. 259 (PDF
 p. 2), and for the closing remarks on the sharpness of (1) and on
-extensions, printed p. 261 (PDF p. 4), each read clause by clause on the
-page images on 2026-09-22; the reference list (p. 261) was read on the page
-image. The proof (pp. 259--261, PDF pp. 2--4) was read in full on the page
-images and its three steps were followed: the counting argument for (1),
-the case $n=8$ through Figures 1--4, and the reduction of the general case
-of (2) to $n=8$. The claims made about Figures 2--4 in the case $n=8$ were
-read as printed and not re-derived. Nothing here is independently reviewed.
+extensions, printed p. 261 (PDF p. 4), each read clause by clause on the page
+images; the reference list (p. 261) was read on the page image. The proof (pp.
+259--261, PDF pp. 2--4) was read in full on the page images and its three steps
+were followed: the counting argument for (1), the case $n=8$ through Figures
+1--4, and the reduction of the general case of (2) to $n=8$. The claims made
+about Figures 2--4 in the case $n=8$ were read as printed and not re-derived.
+Nothing here is independently reviewed.
 
 ## Contents
 

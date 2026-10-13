@@ -105,7 +105,7 @@ The copy read for this card is the chapter scan at the address above.
 [[../wiki/problems/irrationality/E0264/_index|#264]], [[../wiki/problems/irrationality/E0269/_index|#269]],
 [[../wiki/problems/irrationality/E1050/_index|#1050]], [[../wiki/problems/irrationality/E1051/_index|#1051]]
 
-**Results to transcribe.**
+**Results.**
 
 - Divisor series: sum_{n>=1} d(n)/t^n is irrational for every integer t>1 (Erdos
   1948, the paper's [1]); Chowla's conjecture that this holds for every rational

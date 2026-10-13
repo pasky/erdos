@@ -60,10 +60,10 @@ below, that $c(2k,\binom{2k-1}2)\ge 1-1/k>1/2$ for every $k\ge3$. The elementary
 arguments recorded below show three things. The bound is incompatible with the
 source's own conjecture for every $p\ge4$. It fails for odd $p\ge7$ as well. The
 printed inequality $H(n;p,\binom{p-1}2)\le cn^{1/2}$ is false for every $p\ge3$.
-No source found addresses strict monotonicity for any $p\ge4$. The search dated
-2026-09-18 UTC, whose scope the Current assessment records, found no proof,
-disproof, preprint or proof claim for the question. This is a bounded negative
-finding, not a certificate of openness.
+No source found addresses strict monotonicity for any $p\ge4$. The search whose
+scope the Current assessment records had found no proof, disproof, preprint or
+proof claim for the question on 2026-09-18. This is a bounded negative finding,
+not a certificate of openness.
 
 **Source.** [erdosproblems.com/667](https://www.erdosproblems.com/667),
 accessed 2026-09-18: the problem page (labeled OPEN, with the site's note

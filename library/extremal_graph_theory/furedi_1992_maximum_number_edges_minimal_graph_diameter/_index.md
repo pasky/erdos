@@ -112,7 +112,7 @@ minimal graph of diameter 2 with more than floor((n-1)^2/4) edges; Lemma 2.1
 (p. 2) is a counting step of the proof and bears on the problem only through
 it; the site's key Fu92.
 
-**Results to transcribe.**
+**Results.**
 
 - Conjecture 1.1 (Murty-Simon): A minimal graph of diameter 2 on n vertices has
   at most floor(n^2/4) edges, with equality iff it is K(floor(n/2), ceil(n/2)).

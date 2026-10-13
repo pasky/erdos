@@ -54,7 +54,7 @@ Source: <https://math.dartmouth.edu/~carlp/>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0416/_index|#416]]
 
-**Results to transcribe.**
+**Results.**
 
 - theorem: With C = 1/(2|log c_0|) = 0.81781465..., where c_0 = 0.54259859...
   solves F(c_0) = 1 for F(x) = sum_{n>=1} ((n+1)log(n+1) - n log n - 1) x^n, one

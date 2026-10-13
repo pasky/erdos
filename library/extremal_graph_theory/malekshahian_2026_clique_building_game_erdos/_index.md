@@ -43,7 +43,7 @@ Source: <https://arxiv.org/abs/2410.18304>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0778/_index|#778]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: The set of n for which Clique(n) is a Player 2 win has asymptotic
   density at least 3/4, proved by showing a Player 1 win at n forces Player 2

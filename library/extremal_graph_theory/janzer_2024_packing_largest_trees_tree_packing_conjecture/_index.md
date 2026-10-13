@@ -58,8 +58,8 @@ pack if the Erdős--Sós conjecture holds (as printed; read here as (sqrt 3/2) n
 
 Read status: claims checked for Conjecture 1.1 and the introduction's
 attributions (p. 1) and for Theorem 1.2 with its remarks (p. 2), read clause
-by clause on the page images on 2026-09-19; the proof (Sections 2--6) was
-not read beyond the sketch on p. 2. Result page:
+by clause on the page images; the proof (Sections 2--6) was not read beyond the
+sketch on p. 2. Result page:
 [[extremal_graph_theory/janzer_2024_packing_largest_trees_tree_packing_conjecture/theorem_1_2|theorem_1_2]].
 
 Source: <https://arxiv.org/abs/2403.10515>.
@@ -72,7 +72,7 @@ the problem's question as the paper poses it, indexing the trees from T_1
 and asking for a packing, which is equivalent to the problem's edge-disjoint
 union because the edge counts sum to n choose 2; the site's key JaMo24.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.2: There is epsilon > 0 such that for r = epsilon n, any trees
   T_{n-r+1}, ..., T_n with |T_i| = i pack into K_n.

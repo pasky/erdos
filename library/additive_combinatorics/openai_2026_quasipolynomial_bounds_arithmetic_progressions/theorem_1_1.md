@@ -44,8 +44,8 @@ release folder
 `preprints/Quasipolynomial-Bounds-for-Arithmetic-Progressions-September-23-2026`;
 TeX `sections/00-introduction.tex` lines 13--25 (label `ap:main`, displays
 `ap:density-bound` and `ap:threshold`), PDF p. 4; proof in
-`sections/08-iteration.tex` lines 402--440, PDF pp. 81--82. Read
-2026-10-07. The card records the provenance.
+`sections/08-iteration.tex` lines 402--440, PDF pp. 81--82. The card records the
+provenance.
 
 **Read depth.** Claims checked: the statement, the definition of $r_k(N)$,
 both displayed forms and the coloring consequence were read clause by clause

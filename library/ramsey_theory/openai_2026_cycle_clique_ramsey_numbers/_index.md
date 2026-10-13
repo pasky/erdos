@@ -88,11 +88,11 @@ Proposition 4.1, Lemma 5.3, Lemma 6.1, Proposition 8.4, Proposition 9.1, the
 inference rules of Section 9 (Lemmas 9.2--9.9) and Proposition 9.10, read
 clause by clause in the TeX source
 (the release's `main.tex` and
-`sections/01-introduction.tex` through `sections/10-implementation.tex`) on
-2026-10-07, with the PDF text layer for page numbers; the proofs were read for
-their structure only and no step was checked; the programs and data of the
-release's `verification/` folder were not read or run; nothing here is
-independently reviewed.
+`sections/01-introduction.tex` through `sections/10-implementation.tex`), with
+the PDF text layer for page numbers; the proofs were read for their structure
+only and no step was checked; the programs and data of the release's
+`verification/` folder were not read or run; nothing here is independently
+reviewed.
 
 ## Contents
 

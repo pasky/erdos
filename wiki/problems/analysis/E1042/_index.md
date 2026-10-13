@@ -104,8 +104,8 @@ own restatement of the problem allows; $C_n=n$ for every large $n$ is proved
 only above capacity $1$, under a regularity or connectedness condition. Erdős,
 Herzog and Piranian [EHP58] had shown that the closed unit disc, of capacity
 $1$, gives $n$ components for every $n$. The site's one thread comment corrects
-a spelling and claims nothing. Search scope, 2026-10-07: the site page, its
-thread and the arXiv and Crossref records.
+a spelling and claims nothing. Search scope: the site page, its thread and the
+arXiv and Crossref records.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

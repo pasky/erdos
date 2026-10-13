@@ -66,14 +66,13 @@ read off its own numbered entry.
 Source: <https://users.renyi.hu/~p_erdos/1961-22.pdf>.
 
 For [[../wiki/problems/ramsey_theory/E0483/_index|#483]], item 20 of Part I, printed
-pp. 232--233 (PDF pp. 12--13 of the archive's scan, read on the page
-images on 2026-09-18; the site cites p. 233), is the origin of the
-problem. Quoted: "SCHUR proved that if we split the integers $<en!$ into
-$n$ classes the equation $x+y=z$ is always solvable in integers of the same
-class. Denote by $f(n)$ the smallest integer with this property. It seems
-likely that $f(n)$ is very much less than $en!$, in fact it has been
-conjectured that $f(n)<c^n$ and $f(n)^{1/n}\to C$." The item then records
-Turán's unpublished result that any two-coloring of the integers
+pp. 232--233 (PDF pp. 12--13 of the archive's scan, read on the page images; the
+site cites p. 233), is the origin of the problem. Quoted: "SCHUR proved that if
+we split the integers $<en!$ into $n$ classes the equation $x+y=z$ is always
+solvable in integers of the same class. Denote by $f(n)$ the smallest integer
+with this property. It seems likely that $f(n)$ is very much less than $en!$, in
+fact it has been conjectured that $f(n)<c^n$ and $f(n)^{1/n}\to C$." The item
+then records Turán's unpublished result that any two-coloring of the integers
 $n<k\le5n+3$ has a solution of $x+y=z$ with $x\ne y$ in one color, that
 $5n+2$ in place of $5n+3$ does not suffice, and that the analogue for
 three classes was open. The references printed with
@@ -87,36 +86,34 @@ the site's question "is it true that $f(k)<c^k$" is the conjecture quoted here;
 claims checked for the passage, which states no result of its own.
 
 For [[../wiki/problems/integer_sequences/E0487/_index|#487]], the sentence closing item 26
-of Part I, printed p. 236 (PDF p. 16 of the archive's scan, read on the
-page image on 2026-09-18), before the item's references (Besicovitch 1934,
-Davenport--Erdős 1937 and 1951, Erdős 1948): after recording the
-Davenport--Erdős theorem that a sequence $a_1,a_2,\ldots$ of positive
-density contains an infinite subsequence $a_{i_k}$ ($1\le k<\infty$) with
-$a_{i_k}\mid a_{i_{k+1}}$, the item asks (quoted): "It is an open problem
-if three distinct $a$'s exist satisfying $[a_i,a_j]=a_l$." The question is
-stated as open, with no partial result; claims checked for the passage.
+of Part I, printed p. 236 (PDF p. 16 of the archive's scan, read on the page
+image), before the item's references (Besicovitch 1934, Davenport--Erdős 1937
+and 1951, Erdős 1948): after recording the Davenport--Erdős theorem that a
+sequence $a_1,a_2,\ldots$ of positive density contains an infinite subsequence
+$a_{i_k}$ ($1\le k<\infty$) with $a_{i_k}\mid a_{i_{k+1}}$, the item asks
+(quoted): "It is an open problem if three distinct $a$'s exist satisfying
+$[a_i,a_j]=a_l$." The question is stated as open, with no partial result; claims
+checked for the passage.
 
 For [[../wiki/problems/integer_sequences/E0488/_index|#488]], item 27 of Part I, printed
-p. 236 (PDF p. 16, page image, 2026-09-18), after the two-divisors density
-question: "Let $a_1<a_2<\cdots\le n$ be any sequence of integers,
-$b_1<b_2<\cdots$ the integers no one of which is a multiple of any $a$.
-$B(x)=\sum_{b_i\le x}1$. Is it true that for every $m>n$
-$\frac{B(m)}{m}<\frac{2B(n)}{n}$? (I.27.1)" The item adds that the
-constant 2 in (I.27.1) cannot be lowered, the example being a single
+p. 236 (PDF p. 16, page image), after the two-divisors density question: "Let
+$a_1<a_2<\cdots\le n$ be any sequence of integers, $b_1<b_2<\cdots$ the integers
+no one of which is a multiple of any $a$. $B(x)=\sum_{b_i\le x}1$. Is it true
+that for every $m>n$ $\frac{B(m)}{m}<\frac{2B(n)}{n}$? (I.27.1)" The item adds
+that the constant 2 in (I.27.1) cannot be lowered, the example being a single
 $a_1$ with $n=2a_1-1$ and $m=2a_1$. The sharpness example
 fits a count of the multiples of the $a$'s, not of the non-multiples the
 item defines; the problem page records both wordings.
 
 For [[../wiki/problems/integer_sequences/E0490/_index|#490]], item 29 of Part I, printed
-p. 237 (PDF p. 17, page image, 2026-09-18), after the bounds (I.29.1) for
-the number of integers not exceeding $n$ that are products of two integers
-not exceeding $n^{1/2}$: "Let $a_1<a_2<\cdots<a_x<\sqrt n$;
-$b_1<b_2<\cdots<b_y<\sqrt n$ be two sequences of integers so that all
-the products $a_ib_j$ are distinct. Is it then true that
-$xy<c\frac{n}{\log n}$?" The item adds that the bound, if true, would be
-best possible, taking the $a$'s to be the integers up to $\frac12n^{1/2}$
-and the $b$'s the primes in $(\frac12n^{1/2},n^{1/2})$. The item's
-references are Erdős's 1960 Leningrad paper (in Russian) and, "for a
+p. 237 (PDF p. 17, page image), after the bounds (I.29.1) for the number of
+integers not exceeding $n$ that are products of two integers not exceeding
+$n^{1/2}$: "Let $a_1<a_2<\cdots<a_x<\sqrt n$; $b_1<b_2<\cdots<b_y<\sqrt n$ be
+two sequences of integers so that all the products $a_ib_j$ are distinct. Is it
+then true that $xy<c\frac{n}{\log n}$?" The item adds that the bound, if true,
+would be best possible, taking the $a$'s to be the integers up to
+$\frac12n^{1/2}$ and the $b$'s the primes in $(\frac12n^{1/2},n^{1/2})$. The
+item's references are Erdős's 1960 Leningrad paper (in Russian) and, "for a
 weaker result", his 1955 Riveon Lematematika note (in Hebrew). Claims
 checked for the passage, which states no result of its own.
 
@@ -173,7 +170,7 @@ no result of its own.
 [[../wiki/problems/polynomials/E0521/_index|#521]],
 [[../wiki/problems/additive_combinatorics/E0785/_index|#785]]
 
-**Results to transcribe.**
+**Results.**
 
 - Problem I.1: Conjecture pi(x+y) <= pi(x) + pi(y); Landau proved it for x = y,
   x > x_0; known bounds pi(x+y)-pi(x) < cy/log y (Hardy--Littlewood, by Brun's

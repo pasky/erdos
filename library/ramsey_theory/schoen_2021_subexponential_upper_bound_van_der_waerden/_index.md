@@ -79,7 +79,7 @@ $W(k,k)\ge(k-1)2^{k-1}$ for $k-1$ prime (displayed on p. 2): the problem's
 bounds map as this paper records it; the paper's own theorem concerns
 $W(3,k)$.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 2): There are absolute constants C, c > 0 such that
   W(3,k) <= exp(C k^{1-c}) for every k.

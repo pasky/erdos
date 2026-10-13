@@ -60,9 +60,9 @@ Compositio Mathematica", every other right reserved.
 
 Read status: claims checked for item 4 of Part IV (printed p. 62 = PDF
 p. 11) and the added in proof (printed p. 63 = PDF p. 12), read clause by
-clause on the page images on 2026-09-18 for Problem 492; the other items
-are recorded from an earlier digest and were not re-read here; the paper
-states problems and proves nothing consumed here.
+clause on the page images for Problem 492; the other items are recorded from an
+earlier digest and were not re-read here; the paper states problems and proves
+nothing consumed here.
 
 Source: <https://users.renyi.hu/~p_erdos/Erdos.html>.
 
@@ -93,7 +93,7 @@ passage, which states no result of its own.
 [[../wiki/problems/analysis/E0996/_index|#996]], [[../wiki/problems/discrepancy/E0997/_index|#997]],
 [[../wiki/problems/irrationality/E0999/_index|#999]], [[../wiki/problems/irrationality/E1000/_index|#1000]]
 
-**Results to transcribe.**
+**Results.**
 
 - ±1 discrepancy problem: For any f: N -> {±1} and every c_1 there should exist
   d, m with |sum_{k<=m} f(kd)| > c_1, and perhaps even max_{dm<=n} |sum_{k<=m}

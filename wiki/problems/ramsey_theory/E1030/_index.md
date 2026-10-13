@@ -185,7 +185,7 @@ $R(k+1,k)/R(k,k)$ away from $1$, a proof that the ratio tends to $1$, or a
 proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab;
-  formal-conjectures at main; the community database, all that day.
+  formal-conjectures at main; the community database.
 - arXiv: the API queries `abs:"consecutive Ramsey numbers"` (no records)
   and `abs:"diagonal Ramsey" AND abs:"lower bound"` (thirteen records, none
   on the ratio); the abstract pages of 2507.12926 and 2605.28793.

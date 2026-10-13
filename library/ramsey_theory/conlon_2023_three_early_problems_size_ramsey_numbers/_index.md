@@ -67,7 +67,7 @@ Source: <https://arxiv.org/abs/2111.05420>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0560/_index|#560]]
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/conlon_2023_three_early_problems_size_ramsey_numbers/theorem_1_1|Theorem 1.1]] (p. 2): For all s <= t, r-hat(K_{s,t}) = Omega(s^{2-s/t} t 2^s),
   improving the Erdos-Rousseau lower bound Omega(s t 2^s) for t >= (1+delta)s.

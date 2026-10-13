@@ -48,7 +48,7 @@ http://creativecommons.org/licenses/by/4.0/: the Creative Commons Attribution
 
 **Bears on.** [[../wiki/problems/irrationality/E0247/_index|#247]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (Erdos, quoted): If a_n is increasing with a_n >= n^{1+eps} and
   limsup a_n^{2^{-n}} = infinity, the sequence is irrational.

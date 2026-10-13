@@ -112,7 +112,7 @@ weaker than either reading. The substance is the proof that Ulas's family
 consists of valid collections of positive integers. The corpus has not
 built or audited either file.
 
-**Search scope.** 2026-10-07: the site's problem page, commentary and
+**Search scope.** The site's problem page, commentary and
 discussion thread, with the Crossref record of [BeVL12], the e-periodica
 volume records of [Ul05] and [BaBe07], the publisher's record of Skałba's
 paper, and the repositories' commit records for dates. arXiv, MathSciNet,

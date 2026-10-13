@@ -88,12 +88,12 @@ statements of Proposition 2.1, Lemma 2.2, Proposition 3.1, Lemma 4.1,
 Proposition 4.2, Proposition 5.1 and Lemmas 5.2--5.4, read clause by clause in
 the TeX source (`main.tex`; `sections/01-introduction.tex`, labels `thm:main`
 and `cor:ratios`; `sections/02-counting.tex`; `sections/04-weights.tex`;
-`sections/05-cancellation.tex`; `sections/03-moments.tex`, which is the
-printed Section 5) on 2026-10-07; the proofs were read for their structure
-only and no step was checked; nothing here is independently reviewed. Page
-numbers below are those of the held PDF (19 pages); the PDF numbers its results
-by section, as Theorem 1.1 and Corollary 1.2, and the converter's rendering
-beside the PDF prints the same labels.
+`sections/05-cancellation.tex`; `sections/03-moments.tex`, which is the printed
+Section 5); the proofs were read for their structure only and no step was
+checked; nothing here is independently reviewed. Page numbers below are those of
+the held PDF (19 pages); the PDF numbers its results by section, as Theorem 1.1
+and Corollary 1.2, and the converter's rendering beside the PDF prints the same
+labels.
 
 ## Contents
 

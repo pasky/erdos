@@ -55,7 +55,7 @@ article is unverified.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0173/_index|#173]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem: There is no triangle T with p(T) <= 6; every T-forcing pair (S,F) has
   |S| >= 7.

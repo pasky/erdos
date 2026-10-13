@@ -178,7 +178,7 @@ complete bipartite are extremal; for $n\ge10$,
 (p. 44) gives the upper bound $\lfloor n^2/4\rfloor$ by Turán's theorem
 and a case analysis on a triangle of uncovered edges, and the complete
 bipartite coloring gives the lower bound. Acceptance evidence: refereed
-publication (the Crossref record, gives volume 90, issue
+publication (the Crossref record gives volume 90, issue
 1, January 2004); the acknowledgments (p. 53) credit Thomason and Scott with
 catching a mistake in an earlier draft, so the journal version is the one
 used. Read depth: claims checked for Theorem 1.1, the paragraph before

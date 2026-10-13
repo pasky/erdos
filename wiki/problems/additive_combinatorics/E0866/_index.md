@@ -4,8 +4,8 @@ title: Problem 866
 desc: |
   Estimates, for $k\ge3$, how far above $N$ the size of a subset of
   $\{1,\ldots,2N\}$ must be to force $k$ integers whose pairwise sums all lie in
-  the set. It is open; the threshold is $1$ for $k=3$, $3$ for $k=4$, and
-  bounded for $k=5$.
+  the set. An unrefereed 2026 preprint claims that the threshold is $1$ for
+  $k=3$, $3$ for $k=4$, and bounded for $k=5$.
 tags:
 - Number theory
 - Additive combinatorics
@@ -45,8 +45,9 @@ for the site's function (one $b_i$ may be non-positive) and $h_k(n)$ for
 the variant with $k$ distinct positive integers, with
 $g_k(n)\le h_k(n)\le g_{k+1}(n)$; the 1975 paper's $t_k$ is the site's
 $g_k(N)$ in intent but its lower-bound examples for $k=3$ and $k=5$ hold
-only for $h_k$ (below). For $k=4$ the two differ by one: $g_4(N)=3$ for $N\ge2$
-([vD26], Theorem 3) and $h_4(N)=4$ for $N\ge6$ ([vDE26], Theorem 3.2). The odd
+only for $h_k$ (below). For $k=4$ the two unrefereed 2026 preprints claim values
+that differ by one: $g_4(N)=3$ for $N\ge2$ ([vD26], Theorem 3) and $h_4(N)=4$
+for $N\ge6$ ([vDE26], Theorem 3.2). The odd
 numbers show $g_k(N)\ge0$. Erdős's restatements use other normalizations:
 [Er92c], p. 41, defines $g_k(n)$ for sets "not exceeding $n$" but prints the
 1975 values for sets in $[1,2n]$ ("$g_3(n)=n+2$, $g_4(n)=n+c$"), and [Er72],
@@ -67,12 +68,12 @@ the question are recorded on three claim pages:
 the standing derived from them is open. No proof claim exists on the site.
 
 The question asks for the order of $g_k(N)$, and no source determines it beyond
-the following. Van Doorn (2026, Theorems 1 and 3, an arXiv preprint) gives
-$g_3(N)=1$ for $N\ge3$ and $g_4(N)=3$ for $N\ge2$. Van Doorn (2026, Theorems 5
-and 8) also gives $4\le g_5(N)<1.2\cdot10^8$ for $N\ge3$. The 1975 statement
-$g_5(N)\asymp\log N$ holds only for the positive-integer variant $h_5$. Choi,
-Erdős and Szemerédi (1975, Theorem 4) give $g_6(N)\asymp N^{1/2}$, with both
-bounds valid for the site's $g_6$. For general $k$,
+the following. Van Doorn's unrefereed arXiv preprint (2026, Theorems 1 and 3)
+claims $g_3(N)=1$ for $N\ge3$ and $g_4(N)=3$ for $N\ge2$, and (Theorems 5 and 8)
+$4\le g_5(N)<1.2\cdot10^8$ for $N\ge3$; these are pending claims. The 1975
+statement $g_5(N)\asymp\log N$ holds only for the positive-integer variant
+$h_5$. Choi, Erdős and Szemerédi (1975, Theorem 4) give $g_6(N)\asymp N^{1/2}$,
+with both bounds valid for the site's $g_6$. For general $k$,
 $g_k(N)\le2^{k-1}N^{1-2^{1-k}}$ for large $N$ (1975, Theorem 5), and
 $g_k(N)<4N^{1-2^{2-k}}$ for large $N$ (van Doorn 2026, Theorem 9, stated with a
 sketch). Finally, $g_k(N)>N^{1-\epsilon}$ for all $k\ge k_0(\epsilon)$ and large
@@ -80,9 +81,10 @@ $N$ (1975, Theorem 6). For the variant $h_k$ with positive $b_i$, van Doorn and
 Erlbacher (2026, Theorem 3.2, an arXiv preprint) give $h_4(n)=4$ for $n\ge6$,
 which adds nothing for the site's $g_k$ (see the Current assessment).
 
-Still open are the value of $g_5$ (bounded, between $4$ and $1.2\cdot10^8$), the
-constants for $k=6$, the order of $g_k$ for every $k\ge7$, and the exponent for
-large $k$. This is a bounded negative finding, not a certificate of openness.
+Still open are the value of $g_5$ (claimed bounded, between $4$ and
+$1.2\cdot10^8$), the constants for $k=6$, the order of $g_k$ for every $k\ge7$,
+and the exponent for large $k$. This is a bounded negative finding, not a
+certificate of openness.
 
 **Source.** [erdosproblems.com/866](https://www.erdosproblems.com/866),
 accessed 2026-09-18: the problem page (labeled

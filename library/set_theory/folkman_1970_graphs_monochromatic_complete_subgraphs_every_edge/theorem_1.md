@@ -42,10 +42,10 @@ blue triangle."
 **Source.** J. Folkman, *Graphs with monochromatic complete subgraphs in every
 edge coloring*, SIAM J. Appl. Math. 18 (1970), no. 1, 19--24; definitions on
 printed p. 19 (PDF p. 2 of the JSTOR reprint), Theorem 1 on printed
-p. 20 (PDF p. 3), proof on pp. 21--23 (PDF pp. 4--6); read on the rendered
-page images on 2026-09-18. The paper was received 30 November 1967, presented
-at the Santa Barbara symposium of that year and published posthumously "as
-first submitted", with editorial footnotes.
+p. 20 (PDF p. 3), proof on pp. 21--23 (PDF pp. 4--6); read on the rendered page
+images. The paper was received 30 November 1967, presented at the Santa Barbara
+symposium of that year and published posthumously "as first submitted", with
+editorial footnotes.
 
 **Read depth.** Claims checked: the definitions and Theorem 1 were read clause
 by clause on the page images. The proof (Section 2.2, pp. 21--23) was read for

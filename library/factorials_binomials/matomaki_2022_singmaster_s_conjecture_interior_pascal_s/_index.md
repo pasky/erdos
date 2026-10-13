@@ -52,7 +52,7 @@ Source: <https://arxiv.org/abs/2106.03335>.
 **Bears on.** [[../wiki/problems/integer_sequences/E0726/_index|#726]],
 [[../wiki/problems/factorials_binomials/E0849/_index|#849]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.3: For 0 < eps < 1 and t large in terms of eps, binom(n,m) = t has
   at most two solutions with exp(log^{2/3+eps} n) <= m <= n/2 (hence at most

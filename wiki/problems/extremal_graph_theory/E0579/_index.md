@@ -285,11 +285,12 @@ that range. The sources read do not say whether the Bollobás--Erdős graphs of
 Problem 22, which have density $1/8$ and sublinear independence number,
 contain $K_{2,2,2}$.
 
-**Search scope.** These dated routes record the literature
-before the certified record; none found a proof, a disproof, a preprint on $K_{2,2,2}$ or a proof claim.
+**Search scope.** These routes record the literature before the certified
+record; none found a proof, a disproof, a preprint on $K_{2,2,2}$ or a proof
+claim.
 
 - The site: problem page, discussion thread and proof-claim tab; the
-  formal-conjectures file and the community database as fetched that day.
+  formal-conjectures file and the community database.
 - arXiv: the API searches `all:Ramsey AND all:Turan` (eight records, none on
   $K_{2,2,2}$), `all:octahedron AND all:Ramsey` (no record) and
   `abs:octahedron` (the 100 most recent of 435 records, none on

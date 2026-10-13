@@ -48,7 +48,7 @@ Source: <https://eudml.org/doc/204820>.
 
 **Bears on.** [[../wiki/problems/covering_systems/E0007/_index|#7]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: Proposition A (for every integer f with f(0) != 0, f(1) != -1, f
   not identically 1 there is an arithmetic progression N with x^v + f(x)

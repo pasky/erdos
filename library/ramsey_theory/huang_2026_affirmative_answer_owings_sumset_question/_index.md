@@ -44,10 +44,10 @@ Theorem 2.14 (p. 14) and the assertion of Section 5.3 (p. 35), each read
 clause by clause; the proofs (Sections 3--5 and Appendix A) were located
 and not read, and no step of the argument was checked. This card claims no
 correctness for the preprint's results; it records what the preprint
-states. The site's Problem 1199 page showed the label OPEN at the refresh
-of 2026-09-18T05:24Z, seven weeks after a thread comment of 1 August 2026
-reported the claim, and the community database (commit `3c68e941`, 9
-September 2026) records the problem open.
+states. The site's Problem 1199 page, accessed 2026-09-18, showed the label
+OPEN, seven weeks after a thread comment of 1 August 2026 reported the
+claim, and the community database's entry of 9 September 2026 records the
+problem open.
 
 ## Contents
 
@@ -116,11 +116,9 @@ The statements listed above were read; nothing else was. Theorem 1.1 is
 compiled as a claim page with the preprint's own proof pointer; Theorem 1.6
 and the Section 5 counterexamples are recorded here as statements only.
 The argument (topological dynamics and ultrafilters, per the abstract's key
-words and Section 2) was not read and is not reviewed here; it is the first
-candidate this compilation names for an independent whole-argument review
-should Problem 1199's status come to rest on it. No acceptance evidence
-exists beyond the arXiv posting: no refereed version, no
-site adoption, no independent review and no citing paper were found.
+words and Section 2) was not read and is not reviewed here. No acceptance
+evidence exists beyond the arXiv posting: no refereed version, no site
+adoption, no independent review and no citing paper were found.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E1199/_index|#1199]]: Theorem 1.1 is
 exactly the site's statement (two colors, $A+A$ with the doubles $2a$

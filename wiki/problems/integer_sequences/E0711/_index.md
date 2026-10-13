@@ -251,8 +251,8 @@ on published sources it lies between $n\log n/\log\log n$ and $n^{3/2}$.
   problem; a note, not a lead.
 - OEIS: the problem page marks a sequence as possible and lists none.
 
-**Search scope (2026-09-18 UTC).** None of the routes below found a proof
-of the first question, a refereed version of [Ko26] or [ChKo26], or a
+**Search scope.** The routes below, as they stood on 2026-09-18, showed no
+proof of the first question, no refereed version of [Ko26] or [ChKo26], and no
 published bound on $\max_mf(n,m)$ beyond Theorem 4.
 
 - The site: problem page, discussion thread and proof-claim tab; the

@@ -95,7 +95,7 @@ $1/(4\sqrt e)+\epsilon$. A comment of 2026-03-03 by the user my99n links
 the OEIS entry A062241 for the problem and a note, written with AI
 assistance, bounding that sequence by A045535, which is easier to compute.
 
-**Search scope (2026-10-07).** The account above rests on the site's problem
+**Search scope.** The account above rests on the site's problem
 page and forum thread, on Erdős's statements of the question in [Er76e],
 [Er82d] and [ErGr80], and on the publisher's record of Balog's paper. Balog's
 proof is not checked here, and no literature search beyond these sources is

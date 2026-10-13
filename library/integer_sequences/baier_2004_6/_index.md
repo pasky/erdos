@@ -50,7 +50,7 @@ Source: <https://math.colgate.edu/~integers/vol4.html>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0012/_index|#12]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem: For every eps>0, any P-set S of pairwise coprime integers satisfies
   A_S(N) < (3+eps)N^{2/3}(log N)^{-1} for infinitely many integers N (p. 2;

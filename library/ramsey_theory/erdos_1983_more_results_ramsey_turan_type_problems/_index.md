@@ -99,7 +99,7 @@ disproved; the site's upper bound delta_3(5) <= 1/12 stated first-hand
 without proof, eleven years before the origin paper the site cites, the
 1994 paper with Simonovits).
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 with Definitions 1.7, 1.9 and 1.12 (pp. 71-72): for l >= 3 and G
   in Arb(l), RT(n; G, o(n)) <= a_l n^2 (1+o(1)) (page

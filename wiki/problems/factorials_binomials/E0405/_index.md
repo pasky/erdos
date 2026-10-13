@@ -98,12 +98,12 @@ Liouville's theorem that for an odd prime $p$ the equation $(p-1)!+1=p^k$
 holds only for $p=3$ and $p=5$, and observe that no composite $n$ satisfies
 $(n-1)!+a^{n-1}=n^k$.
 
-Search scope, 2026-10-07: the site's problem page, discussion thread (no
-comments) and proof-claims page (none listed); the formal-conjectures
-statement file at the commit the Formalization field links; the Lean file in
-Alexeev's repository at the commit the claim pages link, neither built here;
-Le's paper through its publisher's record and the zbMATH reviews of it (Zbl
-0867.11020) and of Yu and Liu's paper (Zbl 0886.11018).
+Search scope: the site's problem page, discussion thread and proof-claims page
+(both empty on 2026-10-07); the formal-conjectures statement file at the commit
+the Formalization field links; the Lean file in Alexeev's repository at the
+commit the claim pages link, neither built here; Le's paper through its
+publisher's record and the zbMATH reviews of it (Zbl 0867.11020) and of Yu and
+Liu's paper (Zbl 0886.11018).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

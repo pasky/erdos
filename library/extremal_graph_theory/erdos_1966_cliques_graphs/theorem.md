@@ -73,7 +73,7 @@ Moon and Moser's method and their bounds (1) (their paper, Israel J. Math.
 [[extremal_graph_theory/moon_moser_1965_cliques_graphs/_index|moon_moser_1965_cliques_graphs]],
 its Theorem 3 on printed p. 25 (PDF p. 3) and its Theorem 4,
 $g(n)\le n-[\log n]$ for $n\ge4$, on printed p. 27 (PDF p. 5), both located
-here in the text layer of those pages on 2026-09-22 and paged on
+here in the text layer of those pages and paged on
 [[extremal_graph_theory/moon_moser_1965_cliques_graphs/theorem_3|theorem_3]]
 and
 [[extremal_graph_theory/moon_moser_1965_cliques_graphs/theorem_4|theorem_4]]).
@@ -88,5 +88,5 @@ and
   [[extremal_graph_theory/spencer_1971_cliques_graphs/_index|spencer_1971_cliques_graphs]];
   its main bound, "for $N$ sufficiently large ($>33000$ will do)
   $g(N)\ge N-\log N-4$", is on printed p. 419 (PDF p. 1), read there clause
-  by clause on the page image on 2026-09-22 and paged on
+  by clause on the page image and paged on
   [[extremal_graph_theory/spencer_1971_cliques_graphs/main_bound_p419|main_bound_p419]].

@@ -93,9 +93,8 @@ clause by clause in the TeX source (`main.tex`,
 `sections/introduction.tex` lines 18--28, `sections/spreading.tex`
 lines 24--73, `sections/packing.tex` lines 19--52, `sections/sampling.tex`
 lines 17--100, `sections/correction.tex` lines 20--64,
-`sections/rounding.tex` lines 12--43) on 2026-10-07; the proofs were read for
-their structure only and no step was checked; nothing here is independently
-reviewed.
+`sections/rounding.tex` lines 12--43); the proofs were read for their structure
+only and no step was checked; nothing here is independently reviewed.
 
 ## Contents
 

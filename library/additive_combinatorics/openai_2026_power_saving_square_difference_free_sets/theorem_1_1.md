@@ -57,7 +57,7 @@ TeX file `build/sections/introduction.tex`, label `thm:main` (lines 15--25), PDF
 p. 2, with the definitions at lines 4--12 and Remark 1.2 at lines 32--46 (p. 2);
 the proof closes in `build/sections/induction.tex`, where Theorem 9.2 (lines
 201--301, PDF pp. 46--47) is followed by the proof of Theorem 1.1 (lines
-303--318, PDF p. 47). Read 2026-10-12. Provenance and attestations are on
+303--318, PDF p. 47). Provenance and attestations are on
 [[additive_combinatorics/openai_2026_power_saving_square_difference_free_sets/_index|the card]].
 
 **Read depth.** Claims checked: the statement, the definitions it rests on,

@@ -54,7 +54,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E1070/_index|#1070]]
 
-**Results to transcribe.**
+**Results.**
 
 - Definition 1.1 (p. 2): For an LCA group G with Haar measure lambda, a
   function class F forming a subspace of the real-valued continuous functions

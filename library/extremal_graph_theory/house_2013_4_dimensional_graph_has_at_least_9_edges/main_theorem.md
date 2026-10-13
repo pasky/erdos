@@ -46,12 +46,11 @@ the
 
 **Read depth.** Claims checked: Definition 1, Problem 2, the answer
 paragraph and the closing paragraph were read clause by clause on the page
-images on 2026-09-22, with Proposition 3 (p. 1783), Proposition 9 and the
-candidate count (p. 1786). The proof (§§ 3--5, pp. 1784--1789) was followed
-as a route on the page images and the text layer; none of the 42 drawn
-unit-distance representations of Figs. 7, 10 and 11 was checked, and the
-count of candidates rests on the Atlas of Graphs, not held. Nothing here is
-independently reviewed.
+images, with Proposition 3 (p. 1783), Proposition 9 and the candidate count (p.
+1786). The proof (§§ 3--5, pp. 1784--1789) was followed as a route on the page
+images and the text layer; none of the 42 drawn unit-distance representations of
+Figs. 7, 10 and 11 was checked, and the count of candidates rests on the Atlas
+of Graphs, not held. Nothing here is independently reviewed.
 
 ## Proof pointer
 

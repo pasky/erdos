@@ -56,11 +56,12 @@ at a pinned commit; this corpus has not built or audited it.
 
 ## Current assessment
 
-The question is the site's formulation, accessed and unchanged: whether, for every $\epsilon>0$, almost all $n$ satisfy
-$r(n)<\epsilon\tau(n)$, where $r(n)$ counts the pairs of divisors
-$d_1<d_2<2d_1$ of $n$. The answer is no. The site credits Kevin Ford with the
-observation that $r(n)>K\tau(n)$ holds on a set of positive density for every
-$K$: a Cauchy-Schwarz inequality compares $r(n)$ with the dyadic divisor count
+The question is the site's formulation, accessed 2026-09-04: whether, for
+every $\epsilon>0$, almost all $n$ satisfy $r(n)<\epsilon\tau(n)$, where $r(n)$
+counts the pairs of divisors $d_1<d_2<2d_1$ of $n$. The answer is no. The site
+credits Kevin Ford with the observation that $r(n)>K\tau(n)$ holds on a set of
+positive density for every $K$: a Cauchy-Schwarz inequality compares $r(n)$
+with the dyadic divisor count
 $\tau^+(n)$ of [[problems/divisors/E0448/_index|Problem 448]], and for every
 $\alpha>0$ the integers with $\tau^+(n)\le\alpha\tau(n)$ contain a set of
 positive density. The claim page
@@ -78,5 +79,5 @@ formal-conjectures statement file for the problem existed on 2026-10-07, so
 the Lean development linked from the claim page stands alone; it has not been
 built or audited here, and the standing rests on the curator's documented
 acceptance. No refereed publication of the deduction is known here. The
-account rests on the site page, its discussion thread and the Lean file, read
-on 2026-10-07.
+account rests on the site page, its discussion thread and the Lean file as they
+stood on 2026-10-07.

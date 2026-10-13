@@ -52,8 +52,8 @@ gives the title, the author "OpenAI", the date September 25, 2026 and the
 citation block above. The PDF title page names "OpenAI" as author, and neither
 the PDF nor the TeX source prints any statement on the method of production or
 on human assistance. No refereed publication, no arXiv version and no
-independent review of the manuscript is recorded here as of the read date, and
-nothing on this card is independently reviewed.
+independent review of the manuscript is recorded here, and nothing on this card
+is independently reviewed.
 
 Formalization, as the release lists it: the release's Lean catalog file
 `lean/formalization.yaml` does not name this manuscript, but the release's own
@@ -74,10 +74,12 @@ uniform choice of a remaining triangle and the removal of its three edges (the
 identity once no triangle remains), takes the terminal law to be $\binom n2$
 iterations of that step from the complete graph, and defines the normalized
 leave as the edge count divided by $n^{3/2}$ and the constant as
-$1/(2\sqrt2)$. All of this was read statically from the release's
-catalog; not built, replayed or audited for fidelity in this repository. A
-Lean file is not a proof of an Erdős problem, and no fidelity between the
-comparator statement and Theorem 1.1 is asserted here.
+$1/(2\sqrt2)$. This card read all of this statically from the release's
+catalog. The declaration was later built and its statement audited against the
+problem, as the
+[[../wiki/problems/extremal_graph_theory/E1155/claims/2026_09_25_openai|Problem 1155 claim page]]
+records; no fidelity between the comparator statement and Theorem 1.1 is
+asserted here.
 
 Companions: the manuscript is the only member of its family in the release,
 and it cites no other manuscript of the release.
@@ -87,9 +89,9 @@ Proposition 2.2 (good prefix), Proposition 3.4 (product identities),
 Proposition 4.2 (unfolded probabilities), Lemma 5.1 (coupling) and
 Proposition 6.3 (collision bound), read clause by clause in the TeX source
 (`introduction.tex` lines 36--48; `prefix.tex` lines 52--84; `queries.tex`,
-`stability.tex`, `coupling.tex`, `witnesses.tex` at the labeled environments)
-on 2026-10-07; the proofs were read for their structure only and no step was
-checked; nothing here is independently reviewed.
+`stability.tex`, `coupling.tex`, `witnesses.tex` at the labeled environments);
+the proofs were read for their structure only and no step was checked; nothing
+here is independently reviewed.
 
 ## Contents
 

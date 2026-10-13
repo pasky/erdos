@@ -14,8 +14,7 @@ updated: 2026-10-07T12:43:12Z
 **Source.** Lemma 2.1, p. 2 of the deposit's manuscript (§2, "A general
 color-reduction lemma"); its proof occupies pp. 2--3. The paper calls the lemma standard and
 includes the proof for completeness. Standing: unrefereed; the proof was
-followed here step by step on 2026-09-27 (author-recorded, no independent
-review).
+followed here step by step (author-recorded, no independent review).
 
 ## Statement
 

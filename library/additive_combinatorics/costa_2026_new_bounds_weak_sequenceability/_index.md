@@ -42,11 +42,11 @@ The retained folder-name PDF is arXiv:2602.19989v1 (23 February 2026,
 9 pp.); no journal record was found (Crossref bibliographic query,
 2026-09-18): a preprint. Read status: claims checked for the definitions,
 Conjecture 1.1, Theorem 1.2 (the Bedert--Kravitz bound as restated),
-Theorem 1.3 and Theorem 1.4 (pp. 1--2, text layer) on 2026-09-18; the
-proofs were not read. Theorem 1.3's constant $c$ is existential ("There
-exists a constant $c>0$"), where the Bedert--Kravitz bound it improves,
-as Theorem 1.2 restates it for large enough primes $p$, holds for every
-$c>0$ (the abstract says "for some constant $c>0$"). Result page:
+Theorem 1.3 and Theorem 1.4 (pp. 1--2, text layer); the proofs were not read.
+Theorem 1.3's constant $c$ is existential ("There exists a constant $c>0$"),
+where the Bedert--Kravitz bound it improves, as Theorem 1.2 restates it for
+large enough primes $p$, holds for every $c>0$ (the abstract says "for some
+constant $c>0$"). Result page:
 [[additive_combinatorics/costa_2026_new_bounds_weak_sequenceability/theorem_1_3|theorem_1_3]].
 
 Source: <https://arxiv.org/abs/2602.19989>. The arXiv record
@@ -55,7 +55,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0475/_index|#475]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.3: There is c>0 such that, with p the least prime divisor of k,
   every A ⊆ Z_k \ {0} with |A| ≤ exp(c(log p)^{1/3}) is sequenceable.

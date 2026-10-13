@@ -109,7 +109,7 @@ clause as stated.
   (p. 299): $cn^{2-5\varepsilon}$ edges, cycles of length at most $6$ and
   adjacent edges on a common $C_4$, for $0<\varepsilon<1/2$.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For 0 < e < 1/2 there are constants c_1, c_2 with c_1 n^{2-3e} <=
   f_3(n,e) <= c_2 n^{2-3e}.

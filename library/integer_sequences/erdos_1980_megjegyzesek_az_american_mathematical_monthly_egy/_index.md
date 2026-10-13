@@ -89,7 +89,7 @@ Source: <https://users.renyi.hu/~p_erdos/1980-15.pdf>.
   does not close. Theorem III and the result of pp. 121--122 concern blocks
   of i > 4 and of 3 terms, context only.
 
-**Results to transcribe.**
+**Results.**
 
 - [[integer_sequences/erdos_1980_megjegyzesek_az_american_mathematical_monthly_egy/theorem_i|Theorem I]]
   (p. 121): limsup F(A,X,2)/X^{1/2} <= sum_{k>=1} (k^{1/2}-(k-1)^{1/2})/k, and

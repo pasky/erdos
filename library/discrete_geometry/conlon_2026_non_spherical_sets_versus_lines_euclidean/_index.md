@@ -43,7 +43,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0188/_index|#188]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For every finite non-spherical set X there is a natural number m
   with E^n not arrowing (X, l_m) for all n, verifying a conjecture of Conlon and

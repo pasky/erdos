@@ -44,7 +44,7 @@ coming from the Iwasawa decomposition.
 
 Source: <https://arxiv.org/abs/2303.14719>.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For k >= 2 and M_1, ..., M_k in GL_n(R), there are no nonzero
   v_1, ..., v_k with rationally dependent components and

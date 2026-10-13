@@ -80,7 +80,7 @@ and even if accepted it would settle only one of the two parts. The community
 database (teorth/erdosproblems) lists the problem as open and records no
 formalized statement. The site's proof-claim tab lists no claims.
 
-Search scope, 2026-10-07: the site's problem page (last edited 1 February
-2026) and discussion thread (six comments, no proof claims), the community
-database, the formal-conjectures repository and the reference listed above.
-No other claim on the problem was found.
+Search scope: the site's problem page (last edited 1 February 2026) and
+discussion thread (six comments and no proof claims on 2026-10-07), the
+community database, the formal-conjectures repository and the reference listed
+above. On that date none of them held another claim on the problem.

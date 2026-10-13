@@ -75,12 +75,12 @@ unstated.
 Read status: claims checked for the definitions of $C$ and $E$ and Theorem
 1 (p. 221), the connectedness criterion, Theorem 2 and Theorem 3 (p. 222),
 Theorem 4 (p. 223), the Remarks with their two examples (pp. 224--225) and
-the reference list (p. 225), each read clause by clause on the page images
-of PDF pp. 1--5 on 2026-09-22. The proofs of Theorems 1, 2 and 3 (a
-paragraph each, pp. 221--223) were read in full and their steps followed as
-far as the cited Pólya and Pólya--Szegö results, which are not held; the
-proof of Theorem 4 (pp. 223--224) was read in full and its inequalities
-(1)--(4) were not recomputed. Nothing here is independently reviewed.
+the reference list (p. 225), each read clause by clause on the page images of
+PDF pp. 1--5. The proofs of Theorems 1, 2 and 3 (a paragraph each, pp. 221--223)
+were read in full and their steps followed as far as the cited Pólya and
+Pólya--Szegö results, which are not held; the proof of Theorem 4 (pp. 223--224)
+was read in full and its inequalities (1)--(4) were not recomputed. Nothing here
+is independently reviewed.
 
 ## Contents
 

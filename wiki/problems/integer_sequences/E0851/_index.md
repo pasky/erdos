@@ -85,14 +85,13 @@ link.
 
 ## Current assessment
 
-**Scope.** Search scope, 2026-09-05 and 2026-10-07: the site's problem
-page, its thread of five comments, the statement file of formal-conjectures
-at the pinned commit, the top-level file of the Lean development it points
-at, and Romanoff's paper through its library card. Not part of that basis:
-Price's document; the proof coverage of the argument was not assessed here;
-the acceptance rests on Tao's confirmation and the curator's label, as the
-claim page records. No literature search beyond the site and the arXiv
-queries the claim page lists was made.
+**Scope.** Search scope: the site's problem page, its thread (five comments on
+2026-10-07), the statement file of formal-conjectures at the pinned commit, the
+top-level file of the Lean development it points at, and Romanoff's paper
+through its library card. Not part of that basis: Price's document; the proof
+coverage of the argument was not assessed here; the acceptance rests on Tao's
+confirmation and the curator's label, as the claim page records. No literature
+search beyond the site and the arXiv queries the claim page lists was made.
 
 **Claims.** One result is claimed from outside the project and accepted by
 the site:

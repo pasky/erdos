@@ -80,16 +80,15 @@ $f_{3,4}(n)$, the definition of $f_{r,s}(n)$, Theorem 1.1 and the review of
 previous results (p. 623), the account of Krivelevich, Warnke and the
 author's preprint, the display $\ln f_{3,4}(n)=0.5\ln n+O(\ln\ln n)$, the
 remark on the exponent, Theorem 1.2 and the paragraph deriving Theorem 1.1
-from it (p. 624), each read clause by clause on the page images of PDF
-pp. 1--2 on 2026-09-22; the derivation of Theorem 1.1 from Theorem 1.2 (one
-paragraph, p. 624) was read in full on the page image and followed. The
-outline of the proof (pp. 624--625), § 2 with the definition of the random
-graph $G$, Lemma 2.1, Claim 2.2, the definition of a nice set, Lemma 2.3 and
-Lemma 2.4 (pp. 625--629), § 3 with the definition of $G'$ and Lemma 3.1
-(pp. 629--630) and the reference list (p. 631) were read in full in the text
-layer; the statements of the lemmas are recorded from it, and their
-quotations were compared with the page images of PDF pp. 3--7 on 2026-10-07;
-the proofs were read for structure only and no estimate was checked.
+from it (p. 624), each read clause by clause on the page images of PDF pp. 1--2;
+the derivation of Theorem 1.1 from Theorem 1.2 (one paragraph, p. 624) was read
+in full on the page image and followed. The outline of the proof (pp. 624--625),
+§ 2 with the definition of the random graph $G$, Lemma 2.1, Claim 2.2, the
+definition of a nice set, Lemma 2.3 and Lemma 2.4 (pp. 625--629), § 3 with the
+definition of $G'$ and Lemma 3.1 (pp. 629--630) and the reference list (p. 631)
+were read in full in the text layer; the statements of the lemmas are recorded
+from it, and their quotations were compared with the page images of PDF pp.
+3--7; the proofs were read for structure only and no estimate was checked.
 Nothing here is independently reviewed.
 
 ## Contents

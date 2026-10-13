@@ -99,10 +99,9 @@ and the statements of Lemmas 2.1 and 2.4, Definition 2.3, Lemmas 3.1 and
 26--38, 75--86 and 92--97, `sections/extension.tex` lines 24--47 and 111--138,
 `sections/topology.tex` lines 28--34, 59--72 and 88--98,
 `sections/six-labels.tex` lines 10--24 and 44--57, `sections/ten-labels.tex`
-lines 8--13, 41--43, 73--76, 110--125 and 177--179 and
-`sections/conclusion.tex` lines 22--26) on 2026-10-07; the proofs were read
-for their structure only and no step was checked; nothing here is
-independently reviewed.
+lines 8--13, 41--43, 73--76, 110--125 and 177--179 and `sections/conclusion.tex`
+lines 22--26); the proofs were read for their structure only and no step was
+checked; nothing here is independently reviewed.
 
 ## Contents
 

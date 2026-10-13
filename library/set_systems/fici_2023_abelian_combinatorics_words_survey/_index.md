@@ -45,7 +45,7 @@ Source: <https://arxiv.org/abs/2207.09937>.
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0192/_index|#192]],
 [[../wiki/problems/set_systems/E0231/_index|#231]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 16: Optimal alphabet sizes for abelian avoidance: 4 letters suffice
   (and are needed) for abelian-square-free infinite words, 3 for

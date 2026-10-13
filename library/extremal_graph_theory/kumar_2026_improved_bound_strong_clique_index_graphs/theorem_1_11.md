@@ -46,8 +46,7 @@ of the held 2022 paper.
 **Source.** H. Kumar, B. Mohar and S. Pragada, *An improved bound for the
 strong clique index of graphs*, arXiv:2607.02698v1 (2 July 2026); Theorem
 1.11 on p. 4 of the retained preprint, read on the page image; the closing
-computation on p. 13, page image. A preprint with no refereed version or
-independent review found on 2026-09-19. The artifact is identified in the
+computation on p. 13, page image. The artifact is identified in the
 [[extremal_graph_theory/kumar_2026_improved_bound_strong_clique_index_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, the two paragraphs around

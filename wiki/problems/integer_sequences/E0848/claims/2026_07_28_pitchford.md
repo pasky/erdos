@@ -71,9 +71,9 @@ reported by the repository's own history, and the problem selection,
 research direction, mediation, repository maintenance and publication as
 Pitchford's. The human publisher is the claimant of this page, with the
 system named as the record names it. The repository's progress bundle is
-dated 27 July 2026, and its README records the site's problem page as
-accessed; the Zenodo publication of that day is the first
-posting found. The result predates the release of
+dated 27 July 2026, and its README records the site's problem page as accessed
+on 28 July 2026; the Zenodo publication of that day is the first posting found.
+The result predates the release of
 [[problems/integer_sequences/E0848/claims/2026_07_30_li|Li's full claim]]
 of 30 July 2026, which reaches the same value by a different route.
 

@@ -63,8 +63,7 @@ statement "was formalized in Lean by Baretto and van Doorn using Aristotle".
 This card records those sentences and claims no independent check of the
 argument. The site accepted the answer on 7 March 2026 with the label PROVED
 (LEAN); no refereed publication, arXiv version or written independent review
-of the note is known to the corpus (the problem page's search scope of
-2026-09-18). The note states no license.
+of the note is known to the corpus. The note states no license.
 
 Read status: claims checked for Theorem 2.1, Lemmas 2.2 and 2.3 and Remark
 2.4, read clause by clause on the page images of pp. 1--4; the proof of

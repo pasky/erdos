@@ -134,7 +134,7 @@ that follows the comment; the corpus has not built it. A thread comment is
 not a dated manuscript and the variant is not the question, so neither has
 a claim page.
 
-**Search scope (2026-10-07 UTC).** The site's problem page, its discussion
+**Search scope.** The site's problem page, its discussion
 thread and its proof-claim tab; the community database record; the
 formal-conjectures file at the revision linked above; the Crossref records
 of [BoLo90] and [TUZ20] and the arXiv listing of 2008.01501; the library

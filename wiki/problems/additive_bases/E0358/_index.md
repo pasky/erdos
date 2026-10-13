@@ -90,9 +90,9 @@ rejected
 Sothanaphan's with GPT-5.2 Thinking is withdrawn
 ([[problems/additive_bases/E0358/claims/2026_02_18_sothanaphan|claim page]]).
 
-Search scope, 2026-10-07: the site's problem page and discussion thread,
-Tao's manuscript of 2026-02-24, Crossref and arXiv for a published or
-posted version of it (none found).
+Search scope: the site's problem page and discussion thread, Tao's manuscript
+of 2026-02-24, and Crossref and arXiv, which listed no published or posted
+version of it on 2026-10-07.
 
 ## Known Results
 

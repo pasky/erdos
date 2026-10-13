@@ -42,7 +42,7 @@ Source: <https://math.colgate.edu/~integers/aa47/aa47.pdf>.
 
 **Bears on.** [[../wiki/problems/factorials_binomials/E0400/_index|#400]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For any fixed eta < 1/log 4 = 0.721..., a density-one set of m has
   (m+k)!/m! dividing C(2m,m) for all positive k <= eta log m.

@@ -57,14 +57,13 @@ edition read is identified in the
 [[extremal_graph_theory/george_khodkar_wallis_2016_minimal_pancyclicity/_index|source digest]].
 
 **Read depth.** Claims checked: the five quoted conclusions and the
-sentence citing Griffin's search were read clause by clause on the page
-images on 2026-09-22, with the chord vocabulary of p. 36. The nine-vertex
-segment-length argument (p. 38), the three-chord cycle-count table and the
-type ACC case analysis (pp. 39--40), and the cycle-length tables of the
-four-chord graph of Fig. 4.6 (p. 41) and the five-chord graph of Fig. 4.7
-(p. 42) were read in the text layer for structure only; no cycle list was
-checked and no figure was checked against its table. Nothing here is
-independently reviewed.
+sentence citing Griffin's search were read clause by clause on the page images,
+with the chord vocabulary of p. 36. The nine-vertex segment-length argument (p.
+38), the three-chord cycle-count table and the type ACC case analysis (pp.
+39--40), and the cycle-length tables of the four-chord graph of Fig. 4.6 (p. 41)
+and the five-chord graph of Fig. 4.7 (p. 42) were read in the text layer for
+structure only; no cycle list was checked and no figure was checked against its
+table. Nothing here is independently reviewed.
 
 ## Proof pointer
 

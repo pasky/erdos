@@ -75,7 +75,7 @@ leaves unproved, saying nothing on the second; the
 node system, answers neither question. The correction itself changes only
 lines of the proof.
 
-**Results to transcribe.**
+**Results.**
 
 - Errata table (p. 263): Seventeen read/instead-of corrections to lines on
   pages 74-88 of the 1980 paper, including the replacement passage for the

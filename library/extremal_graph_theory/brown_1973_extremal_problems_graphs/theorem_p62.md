@@ -56,7 +56,7 @@ $(k-3)/(k-2)\le(k-2)/(k-1)$ this graph has $k-1$ vertices spanning at least
 $k-2$ edges. Adding $x$ gives $k$ vertices spanning at least $k-2$ triples.
 The paper invokes the Section 2 result without writing out its value at
 these parameters; the comparison of the two fractions is a check made here,
-and the step was checked on 2026-10-08.
+and the step was checked.
 
 ## Dependencies
 

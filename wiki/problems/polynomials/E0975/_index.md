@@ -142,10 +142,10 @@ asymptotic is known for any irreducible $f$ of degree at least three, and
 Erdős wrote in 1952 that the asymptotic very likely holds for every degree
 but that he could not prove it.
 
-Search scope, 2026-10-06: the site's problem page (OPEN, last edited 27
-December 2025, no proof claims) and its four-comment discussion thread
-(September 2025 to June 2026); the community database lists the problem as
-open and as having a formal statement as of its last update; the
+Search scope, with the sources as they stood on 2026-10-06: the site's problem
+page (OPEN, last edited 27 December 2025, no proof claims) and its four-comment
+discussion thread (September 2025 to June 2026); the community database listed
+the problem as open and as having a formal statement as of its last update; the
 formal-conjectures statement file is described above.
 <!-- BEGIN problem library links -->
 

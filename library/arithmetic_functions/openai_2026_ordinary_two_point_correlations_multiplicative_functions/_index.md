@@ -153,9 +153,9 @@ and 12.2 (the two imported short-interval theorems), Theorem 5.4
 (nonbacktracking moment), Proposition 10.1 (divisor graph estimate),
 Proposition 11.4 (analytic centering), Theorem 13.3 (high trace), the Lemmas
 numbered 18.1--18.3 and Lemma 18.5, read clause by clause in the release's TeX
-source on 2026-10-12. The labels and lines are: in `build/introduction.tex`,
-`thm:q-affine` (lines 20--34), `eq:distance` (lines 51--55), `eq:unp` (lines
-58--61), `thm:elliott` (lines 64--72) and `cor:affine` (lines 81--89); in
+source. The labels and lines are: in `build/introduction.tex`, `thm:q-affine`
+(lines 20--34), `eq:distance` (lines 51--55), `eq:unp` (lines 58--61),
+`thm:elliott` (lines 64--72) and `cor:affine` (lines 81--89); in
 `build/quantitative/01-setup.tex`, `q:progression` (lines 7--18); in
 `build/quantitative/02-finite-law.tex`, `q:finite-law` (lines 24--41); in
 `build/quantitative/03-analytic.tex`, `q:MRT-short` (lines 127--138); in

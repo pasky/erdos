@@ -47,12 +47,10 @@ is arXiv:1804.03356v3 (31 July 2019; 47 pages; the arXiv comment reads
 pagination is used here; the journal text was not compared. Read status:
 claims checked for the definition of $M(A)$, Theorem 1.1 (Ruzsa's quoted
 bound, p. 1), Theorem 1.2 (p. 2) with its footnote 2 and the abstract's
-form, and Proposition 2.1 (p. 2), each read clause by clause in the text
-layer on 2026-09-18, and again with Proposition 2.7 (p. 6) on the page
-images on 2026-10-08, when the proof of Proposition 2.7 (p. 11) was read
-for its structure; the proofs of Section 3's lemmas and of Sections 4
-onwards were not checked. The
-statements are on
+form, and Proposition 2.1 (p. 2), each read clause by clause in the text layer,
+and again with Proposition 2.7 (p. 6) on the page images, when the proof of
+Proposition 2.7 (p. 11) was read for its structure; the proofs of Section 3's
+lemmas and of Sections 4 onwards were not checked. The statements are on
 [[additive_combinatorics/sanders_2021_erdos_moser_sum_free_set_problem/theorem_1_2|theorem_1_2]],
 [[additive_combinatorics/sanders_2021_erdos_moser_sum_free_set_problem/proposition_2_1|proposition_2_1]],
 [[additive_combinatorics/sanders_2021_erdos_moser_sum_free_set_problem/proposition_2_7|proposition_2_7]]
@@ -96,7 +94,7 @@ $g(n)\ll\exp(\sqrt{\log n})$, which read as the site words it claims
 more than Ruzsa's Theorem (proved for
 $e^{c\sqrt{\log n}}$ with $c>\sqrt{8\log2}$).
 
-**Results to transcribe.**
+**Results.**
 
 - [[additive_combinatorics/sanders_2021_erdos_moser_sum_free_set_problem/theorem_1_2|Theorem 1.2]]
   (p. 2): M(A) = log^(1 + Omega(1)) |A|, uniformly over finite sets A of

@@ -30,7 +30,7 @@ for all $k$).
 Is it true that there must exist a finite colouring of $\mathbb{N}$ with no
 monochromatic solutions to $a-b\in A$?
 
-**Formulation.** The site's wording as read (the page carries no
+**Formulation.** The site's wording as read on 2026-09-18 (the page carries no
 last-edited date). The question asks whether the graph on $\mathbb N$ in which
 $a$ and $b$ are adjacent when $|a-b|\in A$ has finite chromatic number; the
 site's commentary says the same for the Cayley graph on $\mathbb Z$. The
@@ -142,7 +142,7 @@ statement is recorded on that page.
 
 ## Current assessment
 
-**The question (site formulation as read).** The statement
+**The question (site formulation as read on 2026-09-18).** The statement
 above; PROVED, glossed by the site as solved in the affirmative. The commentary
 dates the question to 1987 on Katznelson's authority and restates it as the
 finiteness of the chromatic number of the Cayley graph on $\mathbb Z$ defined

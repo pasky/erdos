@@ -26,7 +26,7 @@ be sets of integers with $a_n/b_n\to 1$.
 If $A+B$ contains all sufficiently large positive integers then is it true that
 $\limsup 1_A\ast 1_B(n)=\infty$?
 
-**Formulation.** The site's wording as accessed. On this page
+**Formulation.** The site's wording as accessed 2026-09-04. On this page
 $1_A\ast 1_B(n)$ is read as the number of ordered pairs $(a,b)\in A\times B$
 with $a+b=n$, so the question asks whether, once every sufficiently large
 positive integer has such a representation, the representation count is

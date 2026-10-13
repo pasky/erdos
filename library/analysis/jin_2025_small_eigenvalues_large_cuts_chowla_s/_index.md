@@ -63,7 +63,7 @@ Source: <https://arxiv.org/abs/2509.03490>.
 
 **Bears on.** [[../wiki/problems/analysis/E0510/_index|#510]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.2 (p. 3): For gamma in (0, 1/10) and d sufficiently large, every
   graph of average degree d with |lambda_n| <= d^gamma contains a clique on at

@@ -61,12 +61,12 @@ the journal text was not compared. Read status: claims checked for
 Conjectures 1.1--1.2 and Theorems 1.3--1.4 (pp. 1--2), Definition 1.5 (p. 2),
 Theorems 1.6--1.7, Conjecture 1.8, Theorem 1.9 and Corollary 1.10 with its
 proof (p. 3) and Corollary 1.11 with the remarks after it (p. 4), read clause
-by clause on the page images on 2026-09-19, paged at
+by clause on the page images, paged at
 [[extremal_graph_theory/faron_2019_clique_number_square_line_graph_relation/corollary_1_10|corollary_1_10]]
 and
 [[extremal_graph_theory/faron_2019_clique_number_square_line_graph_relation/corollary_1_11|corollary_1_11]];
 Theorems 1.6, 1.7 and 1.9 (p. 3), Theorem 1.12 (p. 4) and Lemmas 4.1 and
-4.2 (p. 10), read clause by clause on the page images on 2026-10-08, paged at
+4.2 (p. 10), read clause by clause on the page images, paged at
 [[extremal_graph_theory/faron_2019_clique_number_square_line_graph_relation/theorem_1_6|theorem_1_6]],
 [[extremal_graph_theory/faron_2019_clique_number_square_line_graph_relation/theorem_1_7|theorem_1_7]],
 [[extremal_graph_theory/faron_2019_clique_number_square_line_graph_relation/theorem_1_9|theorem_1_9]]

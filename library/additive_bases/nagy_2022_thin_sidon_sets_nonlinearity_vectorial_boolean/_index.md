@@ -15,7 +15,8 @@ updated: 2026-10-07T20:53:39Z
 ***
 
 Gábor P. Nagy, Thin Sidon sets and the nonlinearity of vectorial Boolean
-functions. arXiv preprint (2022). arXiv:2212.05887. The arXiv record
+functions. arXiv preprint (2022). arXiv:2212.05887; the held PDF is
+arXiv:2212.05887v2 (22 December 2022). The arXiv record
 (https://arxiv.org/abs/2212.05887, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 
@@ -47,7 +48,7 @@ only. Problem 156 asks for a maximal Sidon set in {1,...,N} of size O(N^{1/3});
 the complete Sidon sets here lie in elementary abelian 2-groups and have size
 about sqrt(|A|), so they give no small maximal Sidon set of integers.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For every f, NL_v(f) >= 2^n - sqrt(delta_f) * 2^(n/2) - 1/2; for
   APN functions this gives NL_v(f) >= 2^n - sqrt(2) * 2^(n/2) - 1/2, improving

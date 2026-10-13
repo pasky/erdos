@@ -41,9 +41,9 @@ is identified on the
 [[diophantine_problems/borwein_1990_questions_erdos_graham_numbers_form_sum_g_n_2_g_n/_index|source card]].
 
 **Read depth.** Claims checked: the statement and (3.5) were read clause by
-clause on the page images on 2026-10-08, and the six listed values were
-recomputed here in exact rational arithmetic. The proof was read but not
-verified. Nothing here is independently reviewed.
+clause on the page images, and the six listed values were recomputed here in
+exact rational arithmetic. The proof was read but not verified. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

@@ -49,9 +49,9 @@ it on p. 4, read on the page image; published in Combinatorica 33 (2013),
 [[extremal_graph_theory/fox_2013_chromatic_number_clique_subdivisions_conjectures_hajos/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, the attribution sentences and the
-remark were read clause by clause on the page image of p. 4 on 2026-09-19. No
-proof is given in this paper; Bollobás and Thomason's proof was read on the page
-image of their paper on 2026-09-22, at filing depth (see the proof pointer).
+remark were read clause by clause on the page image of p. 4. No proof is given
+in this paper; Bollobás and Thomason's proof was read on the page image of their
+paper, at filing depth (see the proof pointer).
 
 ## Proof pointer
 

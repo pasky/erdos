@@ -58,7 +58,7 @@ Source: <https://arxiv.org/abs/2207.05048>.
 there is such a graph with only linearly many edges", the second-hand source
 for the path bound on that page.
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/draganic_2022_size_ramsey_numbers_graphs_maximum_degree/theorem_1_1|Theorem 1.1]]: Every n-vertex graph H with maximum degree 3 has size-Ramsey
   number r-hat(H) <= n^{3/2 + o(1)}.

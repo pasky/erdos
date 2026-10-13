@@ -69,10 +69,9 @@ artifact is identified in the
 
 **Read depth.** Claims checked: the three definitions, Theorem 2, Theorem
 3, Corollary 1, Corollary 2 and the remarks between them were read clause
-by clause on the page images on 2026-09-22. The proofs of Theorem 3 and
-Corollary 1 (§ 5, pp. 130--131) and of Theorem 2 (§ 6, pp. 131--132) were
-read in the text layer for structure only and not checked. Nothing here is
-independently reviewed.
+by clause on the page images. The proofs of Theorem 3 and Corollary 1 (§ 5, pp.
+130--131) and of Theorem 2 (§ 6, pp. 131--132) were read in the text layer for
+structure only and not checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

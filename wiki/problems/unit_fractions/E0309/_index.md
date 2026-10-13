@@ -153,7 +153,7 @@ Erdős Problem #309, https://www.erdosproblems.com/309, accessed 2026-09-18.
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [OEIS] Marcus, M., Sequence A217693, The On-Line Encyclopedia of Integer
   Sequences (2012; entry last modified 30 May 2026, server time): the number of
-  distinct integers among the subset sums of $\{1,1/2,\ldots,1/n\}$; accessed.
+  distinct integers among the subset sums of $\{1,1/2,\ldots,1/n\}$.
 
 **Formalization.** A statement file and an external Lean proof; no build or
 review of either is recorded in this corpus. The statement file was added on
@@ -163,7 +163,7 @@ states `erdos_309` (the answer is no: $F(N)$ is not $o(\log N)$) and
 `erdos_309.variants.asymptotic` ($F(N)/\log N\to1$), both `by sorry`, each
 carrying a `formal_proof` annotation pointing at
 [`src/latest/ErdosProblems/Erdos309.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos309.lean)
-in Boris Alexeev's `lean-proofs` collection(the pinned link). The site's page
+in Boris Alexeev's `lean-proofs` collection (the pinned link). The site's page
 shows the statement as formalized and links the statement file, and the
 community database records the problem as formalized since 19 September 2026.
 The Alexeev file is a development authored by OpenAI Codex (GPT-5.6 Sol),
@@ -290,7 +290,7 @@ order of bound, $\log N+\gamma-1-o(1)$, on its own page.
 
 **Formalization and the Lean label.** The site's (LEAN) suffix refers to
 the file `src/latest/ErdosProblems/Erdos309.lean` in Boris Alexeev's
-`lean-proofs` collection(the link pinned on the
+`lean-proofs` collection (the link pinned on the
 claim pages); its top file is recorded. Its header declares it a Lean
 formalization of a solution to Problem 309, names Hisashi Yokota, Ernest
 S. Croot III and Thomas Bloom (for the unit-fraction extraction theorem it

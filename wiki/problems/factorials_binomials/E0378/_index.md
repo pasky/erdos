@@ -79,8 +79,8 @@ records the derivation and the acceptance: a refereed paper, credited by the
 site's curator; no Lean proof is recorded. The same paper's Theorem 1 settles
 [[problems/factorials_binomials/E0175/_index|Problem 175]].
 
-Search scope, 2026-10-07: the site's problem page, its discussion thread and
-the community database; the site lists no proof claim for the problem.
+Search scope: the site's problem page, its discussion thread and the community
+database; the site listed no proof claim for the problem on 2026-10-07.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

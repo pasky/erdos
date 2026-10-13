@@ -45,10 +45,10 @@ the term is unstated.
 
 Read status: claims checked for the introduction's summary and its Edwards
 remark (p. 82), Theorem 1 (p. 82) and Theorem 2 (p. 83), read clause by
-clause on the page images on 2026-09-18; the proof of Theorem 1 (pp. 82--83)
-was read and followed, the proof of Theorem 2 (pp. 83--85) read for its
-structure and not checked; the reference list (p. 86) was read for [7] and
-[8]. Problem 1033 consumes Theorems 1 and 2, paged at
+clause on the page images; the proof of Theorem 1 (pp. 82--83) was read and
+followed, the proof of Theorem 2 (pp. 83--85) read for its structure and not
+checked; the reference list (p. 86) was read for [7] and [8]. Problem 1033
+consumes Theorems 1 and 2, paged at
 [[extremal_graph_theory/erdos_1985_note_size_chordal_subgraph/theorem_1|theorem_1]]
 and
 [[extremal_graph_theory/erdos_1985_note_size_chordal_subgraph/theorem_2|theorem_2]].
@@ -102,7 +102,7 @@ the site's attribution of the upper bound $2(\sqrt3-1)n+O(1)$ to this paper
 ("not made explicit") finds no construction in its six pages, which is
 recorded on the problem page.
 
-**Results to transcribe.**
+**Results.**
 
 - theorem_1 (p. 82, proof pp. 82--83): f(n,n) = [n^2/4] + 1: every graph on
   n vertices with [n^2/4]+1 edges has a chordal subgraph with at least n

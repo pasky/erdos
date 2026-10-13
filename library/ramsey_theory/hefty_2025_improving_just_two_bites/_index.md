@@ -36,9 +36,8 @@ Read status: claims checked for Theorems 1.2--1.3 and Conjecture 1.1 (read
 clause by clause on the page image of p. 2 and in the text layer of pp. 1--3;
 Theorem 1.3 re-read on the page image for problem 1011); the
 proof (Sections 2--4) was not read; Section 5 was read on the page images
-of pp. 14--15 on 2026-10-07 only for the statement of Theorem 5.1 and the
-paper's remark that its proof is only outlined, and the sketch was not
-checked.
+of pp. 14--15 only for the statement of Theorem 5.1 and the paper's remark that
+its proof is only outlined, and the sketch was not checked.
 
 The paper introduces a flexible two-step random construction (a 'two bite'
 replacement, p. 3, for the nibble in the second stage of the construction of
@@ -94,7 +93,7 @@ deduction is made on
 [[ramsey_theory/hefty_2025_improving_just_two_bites/theorem_1_3|theorem_1_3]],
 not in the paper or on the problem page).
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/hefty_2025_improving_just_two_bites/theorem_1_2|Theorem 1.2]]
   (p. 2): R(3,k) >= (1/2 + o(1)) k^2 / log k, improving the previous

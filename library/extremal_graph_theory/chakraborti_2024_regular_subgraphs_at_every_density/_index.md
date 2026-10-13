@@ -45,7 +45,7 @@ fraction 1/2 as "12"); the quoted Theorems 1.2 and 1.3 were read on the same
 page; the Erdős--Simonovits sentence, Lemma 1.14 and Theorem 1.15 of Section 1.1
 (pp. 3--4) were read clause by clause on the page images for
 Problem 1077; the proof of Theorem 1.4 (Section 3, pp. 9--11) was read for its
-structure on the page images on 2026-10-07, and no other proof was read.
+structure on the page images, and no other proof was read.
 
 Theorem 1.4 shows every n-vertex graph with average degree at least C r^2 log
 log n contains an r-regular subgraph, and Theorem 1.5 shows average degree at
@@ -97,7 +97,7 @@ of the printed $n^{1-\alpha}$ or the site's corrected $n^\alpha$, the regular
 analog the problem's thread names; the problem page cites it and does not
 consume it.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.4: Average degree at least C r^2 log log n forces an r-regular
   subgraph, for all r and n >= 3.

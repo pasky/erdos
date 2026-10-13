@@ -63,8 +63,8 @@ Lemma 2 (p. 4).
 ## Standing
 
 An unrefereed manuscript with a declared AI-assistance acknowledgment
-(proofreading, p. 9), read statically; no journal record was found on
-2026-09-18. Consumers state the theorem with this qualification.
+(proofreading, p. 9), read statically. Consumers state the theorem with this
+qualification.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0825/_index|#825]]:
 Theorem 1 is the paper's input to Corollary 5, which states an absolute $C$

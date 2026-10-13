@@ -106,7 +106,7 @@ Source: <https://arxiv.org/abs/2208.02874>.
   [[ramsey_theory/kwan_2022_anticoncentration_ramsey_graphs_proof_erdos_mckay/theorem_1_5|Theorem 1.5]] are further results
   the problem page cites as background.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (p. 2): For fixed C, η > 0 and n sufficiently large in terms of C
   and η, every C-Ramsey graph G on n vertices has, for each integer 0 <= x <=

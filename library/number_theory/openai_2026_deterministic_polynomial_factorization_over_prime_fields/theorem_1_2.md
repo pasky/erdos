@@ -45,8 +45,7 @@ Fields*, release folder
 `preprints/Deterministic-Polynomial-Factorization-over-Prime-Fields-October-4-2026`;
 TeX `sections/00-introduction.tex`, label `thm:reduction`; PDF p. 3. The
 proof is distributed over Sections 2--10 (pp. 6--44); Proposition 10.1
-(p. 41, `sections/09-complexity.tex`) is stated as completing it. Read
-2026-10-07.
+(p. 41, `sections/09-complexity.tex`) is stated as completing it.
 
 **Read depth.** Claims checked: the statement and the definitions it uses
 were read clause by clause in the TeX source and checked against the PDF

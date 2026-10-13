@@ -37,7 +37,9 @@ $$
 $$
 
 The paper is described on
-[[../library/primes/goldston_2009_primes_tuples_i/_index|its library card]].
+[[../library/primes/goldston_2009_primes_tuples_i/_index|its library card]],
+and the theorem on
+[[../library/primes/goldston_2009_primes_tuples_i/theorem_2|its result page]].
 Choosing a strictly increasing sequence $n_i$ along which the ratio tends to
 $0$, and using $\log p_n\sim\log n$, gives $(p_{n_i+1}-p_{n_i})/\log n_i\to0$:
 the case $C=0$ of [[problems/primes/E0005/_index|Problem 5]], answered yes. The

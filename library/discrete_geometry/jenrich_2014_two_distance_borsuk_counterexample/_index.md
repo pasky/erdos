@@ -27,9 +27,8 @@ so the five-point counting bound gives no counterexample in dimension 63.
 Thomas Jenrich, *A 64-dimensional two-distance counterexample to Borsuk's
 conjecture*, [arXiv:1308.0206v6](https://arxiv.org/abs/1308.0206v6),
 20 August 2014, 7 pages; first submitted 1 August 2013.
-The copy read for this card is the solo v6 manuscript. Its identity and
-version were checked on 2026-09-06.
-The arXiv record names arXiv's non-exclusive distribution license
+The copy read for this card is the solo v6 manuscript. Its identity and version
+were checked. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1308.0206), every other right reserved.
 
 ## Digest and source distinction

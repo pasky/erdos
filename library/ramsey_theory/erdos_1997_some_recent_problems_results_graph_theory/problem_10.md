@@ -35,10 +35,9 @@ the publisher's scan), read on the page image. The copy read is
 identified in the
 [[ramsey_theory/erdos_1997_some_recent_problems_results_graph_theory/_index|source digest]].
 
-**Read depth.** Claims checked: the passage was read clause by clause on
-the page image on 2026-09-22. The paper prints no proof, so the result's
-standing here is an attestation by one of its authors. Nothing is
-independently reviewed.
+**Read depth.** Claims checked: the passage was read clause by clause on the
+page image. The paper prints no proof, so the result's standing here is an
+attestation by one of its authors. Nothing is independently reviewed.
 
 ## Proof pointer
 

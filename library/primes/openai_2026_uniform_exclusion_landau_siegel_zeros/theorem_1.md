@@ -39,8 +39,8 @@ about complex zeros.
 Release preprint of 1 October 2026, release folder
 `preprints/Uniform-exclusion-of-Landau-Siegel-zeros-October-1-2026`; TeX
 source `paper.tex`, label `thm:main` with display `eq:main`, in Section 1
-(PDF p. 1); the proof occupies Sections 2--6 (PDF pp. 2--8). Read on
-2026-10-07 in the release's TeX source. The
+(PDF p. 1); the proof occupies Sections 2--6 (PDF pp. 2--8). Read in the
+release's TeX source. The
 [[primes/openai_2026_uniform_exclusion_landau_siegel_zeros/_index|card]]
 records the release's attestations and the Lean comparator statement the
 release lists for this theorem.

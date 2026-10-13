@@ -112,12 +112,12 @@ it optimal within several restricted classes. The AI systems are named as
 the posts and the write-up name them; no chat transcript is cited.
 
 **Standing.** Claimed. Neither the write-up's sketch nor the thread's
-constructions were checked here, and no paper or preprint beyond the
-write-up was found in the search of 2026-09-18 whose scope the problem page
-records; the site had not adopted the claim (its statement and commentary
-are unchanged since 3 April 2026, and its proof-claim tab is empty), and the
-community database records the problem as open. The thread's separate
-reports of 1 and 7 August 2026 (the account RealBelgian) that Fan's lower
-bound improves by flag algebra to about $1.45016$ and then to about
-$1.4525$, with a note to follow, are an improvement of a bound, not an
-answer to either question, and are recorded on the problem page as a lead.
+constructions were checked here, and on 2026-09-18 the routes in the problem
+page's search scope showed no paper or preprint beyond the write-up; the site
+had not adopted the claim (its statement and commentary are unchanged since 3
+April 2026, and its proof-claim tab is empty), and the community database
+records the problem as open. The thread's separate reports of 1 and 7 August
+2026 (the account RealBelgian) that Fan's lower bound improves by flag algebra
+to about $1.45016$ and then to about $1.4525$, with a note to follow, are an
+improvement of a bound, not an answer to either question, and are recorded on
+the problem page as a lead.

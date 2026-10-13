@@ -5,7 +5,7 @@ desc: |
   strong chromatic index bound of 1.772 times the squared maximum degree.
 license: CC-BY-4.0
 created: 2026-09-04T09:41:06Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-13T14:08:55Z
 ---
 
 # extremal_graph_theory/hurley_2022_improved_procedure_colouring_graphs_bounded_local_density
@@ -19,8 +19,8 @@ equivalent form exists.
 
 [[extremal_graph_theory/hurley_2022_improved_procedure_colouring_graphs_bounded_local_density/theorem_1_6|theorem_1_6]]: Hurley, de Joannis de Verclos and Kang's bound on the strong chromatic
 index, 1.772 times the squared maximum degree for all degrees at least
-some Δ_0, the best refereed general bound as of 2026, with the chain of
-earlier constants in the paper's ε-form.
+some Δ_0, the best refereed general bound, with the chain of earlier
+constants in the paper's ε-form.
 
 ***
 
@@ -74,7 +74,7 @@ $0.070$, $0.165$, $0.228$) and its sentence that the conjecture "has only
 been established for graphs of maximum degree at most 3"; Conjecture 1.4
 (p. 4), the exact question in a refereed text.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.2: For sigma-sparse graphs with Delta large, chi(G) <= (1 -
   (sigma/2 - sigma^{3/2}/6) + iota)Delta(G); the coefficient 1/2 is optimal as

@@ -30,8 +30,7 @@ inequality signs).
 
 **Read depth.** Claims checked: both parts, the range $n\ge4$ and the
 quantifiers on $\varepsilon$ and $n$ were read clause by clause on the page
-image on 2026-09-18. The proof (p. 198) was read for its structure and not
-checked.
+image. The proof (p. 198) was read for its structure and not checked.
 
 ## Proof pointer
 

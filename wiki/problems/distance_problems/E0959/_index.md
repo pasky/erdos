@@ -99,10 +99,10 @@ formalized on
 [[problems/distance_problems/E1085/claims/2026_09_23_openai|Problem 1085's claim page]]:
 $u(n)\leq Cn^{\beta}$ for every $n$, with absolute constants $C$ and
 $\beta<4/3$. So $M(n)\leq Cn^{\beta}$, the best upper bound recorded here, and
-no claim on this problem asserts a better one. Search scope,
-2026-10-06: the site's problem page, discussion thread and proof-claims tab,
-the arXiv and publisher records of [CDL25], the formal-conjectures file and
-the hosted Lean file; no release item or lead names the problem.
+no claim on this problem asserts a better one. Search scope: the site's problem
+page, discussion thread and proof-claims tab, the arXiv and publisher records
+of [CDL25], the formal-conjectures file and the hosted Lean file; on 2026-10-06
+no release item or lead named the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

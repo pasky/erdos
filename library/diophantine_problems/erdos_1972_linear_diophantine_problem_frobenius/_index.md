@@ -46,7 +46,7 @@ not the article's.
 
 **Bears on.** [[../wiki/problems/diophantine_problems/E0433/_index|#433]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For coprime 0<a_1<...<a_n, G(a_1,...,a_n) <= 2 a_{n-1} [a_n/n] -
   a_n; proved via Kneser's theorem applied to sumsets of residues mod a_n.

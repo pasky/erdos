@@ -48,13 +48,12 @@ OCR text layer garbles the mathematics). The artifact is identified in the
 [[additive_combinatorics/deshouillers_1995_additive_problem_erdos_straus/_index|source digest]].
 
 **Read depth.** Claims checked: the definition, the abstract, the account of
-the earlier bounds and Theorem 1 were read clause by clause on the page
-images on 2026-09-22. The proof (Section 6, pp. 41--42) was read in full on
-the page images and its reduction to Theorem 2 followed; the inequality
-$4dM+1\le d^2+(S-1)^2$ it ends with was checked here against its stated
-inputs $S\ge2\sqrt N+1$ and $dM\le N$. Theorem 2, which the proof uses, was
-checked at its statement only (its proof, Sections 1--5, read for structure).
-Nothing here is independently reviewed.
+the earlier bounds and Theorem 1 were read clause by clause on the page images.
+The proof (Section 6, pp. 41--42) was read in full on the page images and its
+reduction to Theorem 2 followed; the inequality $4dM+1\le d^2+(S-1)^2$ it ends
+with was checked here against its stated inputs $S\ge2\sqrt N+1$ and $dM\le N$.
+Theorem 2, which the proof uses, was checked at its statement only (its proof,
+Sections 1--5, read for structure). Nothing here is independently reviewed.
 
 ## Proof pointer
 

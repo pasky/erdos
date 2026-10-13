@@ -135,18 +135,17 @@ right reserved.
 
 Read status: claims checked for the passages the citing problems consume,
 each read clause by clause on the page images of PDF pp. 62, 65--66, 69,
-72--73 and 77--80 (printed pp. 47, 50--51, 54, 57--58 and 62--65) on
-2026-09-22: the title page (p. 47), the definition of $r_k(n)$ (p. 50), the
-$r_3(n)$ bounds and the two offers (p. 51), the Singer passage and the
-Sidon completion conjecture (p. 54), display (2.20) and its question
-(p. 57) with the offer (p. 58), the prime-gap passage with (2.21) and the
-Ricci sentence (p. 58), the Ramsey notation, (4.2), the limit offers, the
-constructive offer and the $r_2(3,n)$ bounds (p. 62), the $r_2(4,n)$ and
-$r_2(\ell,n)$ bounds, (4.3) with its discussion and (4.4) with the
-reciprocal-sum questions (pp. 63--64), (4.5) and (4.6) (p. 64) and the
-Geometry section through (5.3) (p. 65). The rest of the chapter
-(pp. 48--49, 52--53, 55--56, 59--61 and 66--67) was read in the text layer
-for its topics, offers and reference list, and the volume's title,
+72--73 and 77--80 (printed pp. 47, 50--51, 54, 57--58 and 62--65): the title
+page (p. 47), the definition of $r_k(n)$ (p. 50), the $r_3(n)$ bounds and the
+two offers (p. 51), the Singer passage and the Sidon completion conjecture (p.
+54), display (2.20) and its question (p. 57) with the offer (p. 58), the
+prime-gap passage with (2.21) and the Ricci sentence (p. 58), the Ramsey
+notation, (4.2), the limit offers, the constructive offer and the $r_2(3,n)$
+bounds (p. 62), the $r_2(4,n)$ and $r_2(\ell,n)$ bounds, (4.3) with its
+discussion and (4.4) with the reciprocal-sum questions (pp. 63--64), (4.5) and
+(4.6) (p. 64) and the Geometry section through (5.3) (p. 65). The rest of the
+chapter (pp. 48--49, 52--53, 55--56, 59--61 and 66--67) was read in the text
+layer for its topics, offers and reference list, and the volume's title,
 copyright and contents pages in the text layer for identification. The
 chapter is a problem survey and proves nothing: every result it reports
 (its own and others') is stated without proof, and nothing here is

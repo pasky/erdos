@@ -69,7 +69,7 @@ and has $\lvert B\rvert\le\lvert A\cap\{1,\ldots,N\}\rvert+n_0+1$, so the
 liminf in the problem is at least $4/\pi>1$. On the limsup it gives only the
 same lower bound $4/\pi$.
 
-**Results to transcribe.**
+**Results.**
 
 - [[additive_bases/habsieger_1995_additive_completion_polynomial_sets/theorem|Theorem]]
   (p. 131): For P of degree k >= 2 with nonnegative coefficients, B a set of

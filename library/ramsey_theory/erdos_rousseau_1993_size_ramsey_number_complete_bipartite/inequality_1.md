@@ -46,10 +46,9 @@ $b=3n2^n$ the printed (2) fails at every $n\le40$, its left side being about
 $2^{-n}n^2/2$ times $\binom bn$, while the same criterion with $a$ and $b$
 interchanged, $b\binom{\lfloor a/2\rfloor}n>(n-1)\binom an$, holds for every
 $6\le n\le200$ and fails for $n\le5$, which matches "(2) holds for all
-$n\ge6$" (an exact integer computation made here on 2026-09-22). Since
-$K_{a,b}=K_{b,a}$, the bound (1) is unaffected; the letters of (2) are read
-here as interchanged relative to the parameter sentence. The paper prints no
-argument for (2); the
+$n\ge6$" (an exact integer computation made here). Since $K_{a,b}=K_{b,a}$, the
+bound (1) is unaffected; the letters of (2) are read here as interchanged
+relative to the parameter sentence. The paper prints no argument for (2); the
 [[ramsey_theory/erdos_rousseau_1993_size_ramsey_number_complete_bipartite/_index|source digest]]
 records a pigeonhole reconstruction.
 
@@ -61,11 +60,11 @@ both displays. The copy read is identified in the
 [[ramsey_theory/erdos_rousseau_1993_size_ramsey_number_complete_bipartite/_index|source digest]].
 
 **Read depth.** Claims checked: the passage was read clause by clause on the
-page image on 2026-09-22, and the parameters were checked against (2) by the
-computation above. This is the paper's attestation of a bound it credits to
-[1]; the 1978 paper's own passage is paged at Section 8 with unnamed
-constants, and no source read prints a proof of (1) with the constant
-$\frac32$ beyond the criterion (2). Nothing here is independently reviewed.
+page image, and the parameters were checked against (2) by the computation
+above. This is the paper's attestation of a bound it credits to [1]; the 1978
+paper's own passage is paged at Section 8 with unnamed constants, and no source
+read prints a proof of (1) with the constant $\frac32$ beyond the criterion (2).
+Nothing here is independently reviewed.
 
 ## Proof pointer
 

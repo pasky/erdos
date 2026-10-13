@@ -16,8 +16,8 @@ updated: 2026-10-05T05:52:35Z
 
 E. Heath, C. Schwieder and S. Zerbib, *Generalized Ramsey numbers in the
 hypercube*, arXiv:2601.15451v1 [math.CO] 21 January 2026, 12 pages; a
-preprint (the arXiv API record of 2026-09-18 lists one version and no
-journal reference).
+preprint (the arXiv API record of 2026-09-18 listed one version and no journal
+reference).
 
 The retained
 [folder-name PDF](heath_2026_generalized_ramsey_numbers_hypercube.pdf) is that

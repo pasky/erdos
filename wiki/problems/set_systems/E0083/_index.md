@@ -73,20 +73,20 @@ through the parameter $r$ with $\frac1{r+1}\le\frac{m-2k+2t-2}{(t-1)(k-t+1)}<\fr
 the claim page states the same theorem as the paper prints it. The proofs
 are not compiled in the library, whose card records the statements only.
 
-Search scope, 2026-10-07: the site's page and discussion thread (three
-comments, of 3 December 2025, 22 December 2025 and 20 January 2026: a 1996
-photograph of Ahlswede and Khachatrian receiving Erdős's prize, a variant of
-Erdős and Sós on families with a forbidden intersection size with recent
-progress at arXiv:2512.17544, and an interview of Katona recalling the
-$t$-intersecting generalization as one they had hoped to solve; no proof
-claims); the community database (teorth/erdosproblems), which lists the
-problem as proved (Lean) as of its last update on 2026-08-24, without dating
-the change of state, and as formalized since 2026-09-19; and the
-formal-conjectures catalog, whose statement file `83.lean` is tagged research
-solved and cites as its formal proof the Lean file `Erdos83.lean` in Boris
-Alexeev's lean-proofs repository, which the claim page links at the commit the
-catalog cites. No other claim on the problem was
-found. The Lean file has not been built here, so the problem has no
+Search scope, with the changing sources as they stood on 2026-10-07: the
+site's page and discussion thread (three comments, of 3 December 2025, 22
+December 2025 and 20 January 2026: a 1996 photograph of Ahlswede and
+Khachatrian receiving Erdős's prize, a variant of Erdős and Sós on families
+with a forbidden intersection size with recent progress at arXiv:2512.17544,
+and an interview of Katona recalling the $t$-intersecting generalization as one
+they had hoped to solve; no proof claims); the community database
+(teorth/erdosproblems), which lists the problem as proved (Lean) as of its last
+update on 2026-08-24, without dating the change of state, and as formalized
+since 2026-09-19; and the formal-conjectures catalog, whose statement file
+`83.lean` is tagged research solved and cites as its formal proof the Lean file
+`Erdos83.lean` in Boris Alexeev's lean-proofs repository, which the claim page
+links at the commit the catalog cites. None of them showed another claim on
+the problem. The Lean file has not been built here, so the problem has no
 `formalized` evidence; the Erdős–Sós variant is a different question and is
 not assessed here.
 <!-- BEGIN problem library links -->

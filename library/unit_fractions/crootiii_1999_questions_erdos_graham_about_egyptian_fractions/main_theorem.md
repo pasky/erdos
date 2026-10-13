@@ -96,13 +96,12 @@ Yokota's theorem that $\{n:1\le n\le\log x-5\log\log x\}\subseteq N(x)$
 [6], J. Number Theory 72 (1998), 150), used for the integers below
 $\tau(x_0)$. The 1997 paper is filed as
 [[unit_fractions/yokota_1997_number_integers_representable_sum_unit_fractions_ii/_index|yokota_1997_number_integers_representable_sum_unit_fractions_ii]];
-its Theorem 1 is on printed p. 162 (PDF p. 1, located on the text layer on
-2026-09-22) and the initial-segment form, whose range Croot's introduction
-(p. 1) credits to the Corrigendum [6], "every positive integer $a$ is in
-$N(n)$ if $a\le\log n(1-\varepsilon(n))$ with
-$\varepsilon(n)\le5\log_2n/\log n$ for $n$ sufficiently large", opens the
-proof on printed p. 167 (PDF p. 6), read there clause by clause on the
-page image on 2026-09-22 and paged on
+its Theorem 1 is on printed p. 162 (PDF p. 1, located on the text layer) and the
+initial-segment form, whose range Croot's introduction (p. 1) credits to the
+Corrigendum [6], "every positive integer $a$ is in $N(n)$ if
+$a\le\log n(1-\varepsilon(n))$ with $\varepsilon(n)\le5\log_2n/\log n$ for $n$
+sufficiently large", opens the proof on printed p. 167 (PDF p. 6), read there
+clause by clause on the page image and paged on
 [[unit_fractions/yokota_1997_number_integers_representable_sum_unit_fractions_ii/theorem_1|theorem_1]].
 The 1998 Corrigendum was not read, so the theorem is known here as printed
 in 1997; the 1997 printed last step (p. 168) does not reach that range

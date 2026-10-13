@@ -76,7 +76,7 @@ status: claims checked for the lcm-triple passage with display (69) on printed
 pp. 228--229 (PDF pp. 34--35) and for the Erdős--Heilbronn passage with display
 (74) on printed p. 230 (PDF p. 36), and for the Jacobsthal passage with displays
 (29) and (30) on printed p. 208 (PDF p. 14), each read clause by clause on the
-page images on 2026-09-18, and for the Beatty passage on printed p. 210 (PDF p.
+page images, and for the Beatty passage on printed p. 210 (PDF p.
 16) and the definition of $f(\epsilon,p)$ with display (80) on printed p. 232
 (PDF p. 38), each read clause by clause on the page images (no proof is given
 for either); the rest of the digest records an earlier reading that was not
@@ -151,13 +151,12 @@ I expect that (80)
 $\sum_{p<x}f(\epsilon,p)=(1+o(1))c_\epsilon\frac{x}{\log x}$, but I do not
 see how to attack (80)."; the eventual-time threshold of the site's statement;
 the site's key [Er65b, p. 232].
-[[../wiki/problems/integer_sequences/E0968/_index|#968]]: printed p. 204 (PDF p. 10,
-page image, 2026-10-07), with u_k = p_k/k: "We easily show that the density
-of the integers k for which u_k > u_{k+1} is positive. We cannot show that
-the same holds for the k for which u_k < u_{k+1}."; the site's source for
-that problem.
+[[../wiki/problems/integer_sequences/E0968/_index|#968]]: printed p. 204 (PDF p.
+10, page image), with u_k = p_k/k: "We easily show that the density of the
+integers k for which u_k > u_{k+1} is positive. We cannot show that the same
+holds for the k for which u_k < u_{k+1}."; the site's source for that problem.
 
-**Results to transcribe.**
+**Results.**
 
 - Prime gaps, (13)-(14) and following discussion: d_n > c log n log log n/(log
   log log n)^2 infinitely often (Brun's method), improved by Rankin and

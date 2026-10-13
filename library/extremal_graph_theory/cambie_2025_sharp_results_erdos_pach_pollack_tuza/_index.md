@@ -59,7 +59,7 @@ sum to 216 over 31 layers, the printed ratio).
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0612/_index|#612]]
 
-**Results to transcribe.**
+**Results.**
 
 - f(delta) for small delta: f(4) = 4/7, f(5) = 5/11, f(6) = 14/37 exactly, for
   graphs with clique number at most 3.

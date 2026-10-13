@@ -54,7 +54,7 @@ reserved." speaks for the site, not the article.
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0195/_index|#195]],
 [[../wiki/problems/additive_combinatorics/E0196/_index|#196]]
 
-**Results to transcribe.**
+**Results.**
 
 - Fact 1: M(n) >= 2^{n-1} for all n >= 1, where M(n) counts permutations of
   [1,n] with no monotone three-term arithmetic progression; combined with M(16)

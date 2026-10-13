@@ -53,8 +53,8 @@ maximum size is $(1-4/\pi^2+o(1))N$.
 argument in its commentary without a date. The earliest record of it is the
 Alexeev--Mixon--Sawin preprint of 2 July 2025, which reproduces the
 reduction in its Subsection 1.1, names Desmond Weisenberg, and cites the
-site's page as retrieved; that retrieval date names this
-page as the latest date by which the argument was public.
+site's page as "retrieved July 1, 2025" (its reference [2]); that retrieval date
+names this page as the latest date by which the argument was public.
 
 **Acceptance.** Reviewed: the site's curator, Thomas Bloom, marked Problem 844
 proved and presents Weisenberg's argument as the proof, with

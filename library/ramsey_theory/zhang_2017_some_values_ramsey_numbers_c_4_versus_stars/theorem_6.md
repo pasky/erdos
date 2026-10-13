@@ -44,10 +44,10 @@ identified in the
 [[ramsey_theory/zhang_2017_some_values_ramsey_numbers_c_4_versus_stars/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the paragraph placing its
-values were read clause by clause on the page image of PDF p. 3 on
-2026-09-22. The proof (pp. 81--83), the construction and Propositions 1--5
-of § 2 (pp. 76--78) and Lemma 1 (p. 79) were read in the text layer for
-structure only and not checked. Nothing here is independently reviewed.
+values were read clause by clause on the page image of PDF p. 3. The proof (pp.
+81--83), the construction and Propositions 1--5 of § 2 (pp. 76--78) and Lemma 1
+(p. 79) were read in the text layer for structure only and not checked. Nothing
+here is independently reviewed.
 
 ## Proof pointer
 

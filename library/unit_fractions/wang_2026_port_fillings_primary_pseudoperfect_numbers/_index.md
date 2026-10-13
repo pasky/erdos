@@ -79,7 +79,7 @@ give the ninth and tenth known solutions (recomputed here);
 reduces infinitude to the unproved Hypothesis 19.2; the question of
 infinitely many solutions stays open, as the paper's Section 20 says.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 9.1: N9 = 5998279018951962402 is a primary pseudoperfect number with
   nine prime factors, arising from the port-primitive filling

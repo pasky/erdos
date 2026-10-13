@@ -27,16 +27,15 @@ arXiv:1002.0045 (v1 30 January 2010, the only arXiv version; no journal
 reference on the listing). Cited as [CFS12] on the problem pages.
 
 Two versions of the work were read for this card. The statements of Theorems 1.1, 1.2 and
-1.3 and of Lemma 2.5 were compared on the page images of both on 2026-09-22
-and are the same in both, word for word; the introduction's recalled
-results (Erdős--Hajnal, Kohayakawa--Prömel--Rödl, the bipartite bounds of
-Graham--Rödl--Ruciński, Conlon and Fox--Sudakov) and the concluding remarks
-were compared in the text layers and match apart from the wording changes
-listed below. The proofs (Sections 2--3) were not compared. Page numbers in
-the digest and the result page are the preprint's unless marked "printed";
-the page map below converts them. The arXiv record names arXiv's non-exclusive
-distribution license for the preprint (arXiv:1002.0045), every other right
-reserved. The published version prints
+1.3 and of Lemma 2.5 were compared on the page images of both and are the same
+in both, word for word; the introduction's recalled results (Erdős--Hajnal,
+Kohayakawa--Prömel--Rödl, the bipartite bounds of Graham--Rödl--Ruciński, Conlon
+and Fox--Sudakov) and the concluding remarks were compared in the text layers
+and match apart from the wording changes listed below. The proofs (Sections
+2--3) were not compared. Page numbers in the digest and the result page are the
+preprint's unless marked "printed"; the page map below converts them. The arXiv
+record names arXiv's non-exclusive distribution license for the preprint
+(arXiv:1002.0045), every other right reserved. The published version prints
 "0209–9683/112/$6.00 © 2012 János Bolyai Mathematical Society and
 Springer-Verlag" at the foot of its first page (printed p. 513), every other
 right reserved.
@@ -99,13 +98,12 @@ name (read in the reference lists of their preprints). It is not
 in this paper in either version.
 
 Read status: claims checked for Theorems 1.1, 1.2 and 1.3 (preprint pp.
-2--3) and Lemma 2.5 (p. 6), read clause by clause on the page images of
-the preprint on 2026-09-17, and again on the page images of the published
-version's pp. 513--516 (title page, introduction, the three theorems), 521
-(Lemma 2.5) and 532--533 (Section 4) on 2026-09-22; the rest of the
-published version (pp. 517--531 and 533--535) was read in the text layer
-for structure and for the search recorded above. No proof was read in
-either version.
+2--3) and Lemma 2.5 (p. 6), read clause by clause on the page images of the
+preprint, and again on the page images of the published version's pp. 513--516
+(title page, introduction, the three theorems), 521 (Lemma 2.5) and 532--533
+(Section 4); the rest of the published version (pp. 517--531 and 533--535) was
+read in the text layer for structure and for the search recorded above. No proof
+was read in either version.
 
 The paper attacks two classical questions with one method built on pseudo-random
 and bi-dense host graphs together with an embedding lemma (Lemma 2.5). Theorem

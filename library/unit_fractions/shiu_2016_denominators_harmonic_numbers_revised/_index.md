@@ -104,7 +104,7 @@ which answers the problem's existence question for $a=1$ and gives no
 $b(a)$ for other $a$. Van Doorn's 2024 paper cites this preprint for that
 case; v1 (11 July 2016) was not compared.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: c_n != c_{n-1} for all n > 1, and each of d_n > d_{n-1}, d_n =
   d_{n-1}, d_n < d_{n-1}, c_n > c_{n-1}, c_n < c_{n-1} holds infinitely often.

@@ -90,7 +90,7 @@ the abstract and introduction (pp. 1--2) state the
 problem as Erdős's 1967 question and record the earlier
 $(2\sqrt2+o(1))\sqrt{n/\log n}$ bound from Shearer's $R(3,t)$ estimate.
 
-**Results to transcribe.**
+**Results.**
 
 - [[graph_coloring/davies_2022_ramsey_problem_triangle_free_graphs/theorem_1|Theorem 1]]
   (p. 3 of the preprint): As n tends to infinity, every triangle-free graph

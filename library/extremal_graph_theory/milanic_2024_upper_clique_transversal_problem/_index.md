@@ -37,11 +37,11 @@ survey download set, 781,051 bytes. The arXiv record
 Attribution 4.0 license.
 
 Read status: claims checked for the title, authors, abstract and the first
-paragraph of the introduction (p. 1), read clause by clause on the page
-image on 2026-09-19; the definition of the problem, the results and the
-approach (pp. 2--3) read for structure in the text layer; nothing else
-read, and no statement is paged, because the consuming page cites the paper
-as adjacent literature and consumes none of its theorems.
+paragraph of the introduction (p. 1), read clause by clause on the page image;
+the definition of the problem, the results and the approach (pp. 2--3) read for
+structure in the text layer; nothing else read, and no statement is paged,
+because the consuming page cites the paper as adjacent literature and consumes
+none of its theorems.
 
 ## Contents
 

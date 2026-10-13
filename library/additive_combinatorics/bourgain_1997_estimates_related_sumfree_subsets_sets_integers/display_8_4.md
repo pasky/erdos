@@ -51,10 +51,10 @@ images. The artifact is identified in the
 [[additive_combinatorics/bourgain_1997_estimates_related_sumfree_subsets_sets_integers/_index|source digest]].
 
 **Read depth.** Claims checked: the definitions (8.1)--(8.2), the statement
-(8.4) and Lemma 8.5 were read clause by clause on the page image of p. 89 on
-2026-10-08. The construction on pp. 90--91 was read on the page images and
-its structure followed; its parameter bookkeeping was not checked. Nothing
-here is independently reviewed.
+(8.4) and Lemma 8.5 were read clause by clause on the page image of p. 89. The
+construction on pp. 90--91 was read on the page images and its structure
+followed; its parameter bookkeeping was not checked. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

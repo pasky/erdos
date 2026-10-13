@@ -49,9 +49,9 @@ Library home:
 [[number_theory/stanley_1980_weyl_groups_hard_lefschetz_theorem_sperner/_index|stanley_1980_weyl_groups_hard_lefschetz_theorem_sperner]].
 
 **Read depth.** Claims checked: the statement, the abstract's statement and
-the remark on [13, (12)] were read clause by clause on the page images and
-in the text layer on 2026-09-18. The proof was read for structure and not
-checked; nothing here is independently reviewed.
+the remark on [13, (12)] were read clause by clause on the page images and in
+the text layer. The proof was read for structure and not checked; nothing here
+is independently reviewed.
 
 ## Proof pointer
 

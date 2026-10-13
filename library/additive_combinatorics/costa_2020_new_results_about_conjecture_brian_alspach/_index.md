@@ -76,14 +76,13 @@ whose pagination is used here; the journal version is Arch. Math. (Basel)
 115 (2020), no. 5, 479--488, DOI 10.1007/s00013-020-01507-7 (published
 online 29 August 2020; Crossref record read), not held and not
 compared. Read status: claims checked for Conjectures 1.1 and 1.2,
-Proposition 4.2 and Corollaries 4.3--4.4 (pp. 1--2, 6--7, text layer) on
-2026-09-18; the coefficient computations were not replayed. Lemma 2.1,
-Propositions 2.2 and 2.3, Theorem 2.4, Corollary 2.5, Theorem 3.1, Corollary
-3.2 and Corollaries 4.3--4.4 were read clause by clause on the page images
-(pp. 1--7) on 2026-10-08, the proofs read but not checked step by step.
-The size-12 result is Proposition 4.2, "G-ADMS conjecture holds for subsets
-of size $k\le12$ of cyclic groups of prime order" (p. 6). Result pages are
-linked under Results below.
+Proposition 4.2 and Corollaries 4.3--4.4 (pp. 1--2, 6--7, text layer); the
+coefficient computations were not replayed. Lemma 2.1, Propositions 2.2 and 2.3,
+Theorem 2.4, Corollary 2.5, Theorem 3.1, Corollary 3.2 and Corollaries 4.3--4.4
+were read clause by clause on the page images (pp. 1--7), the proofs read but
+not checked step by step. The size-12 result is Proposition 4.2, "G-ADMS
+conjecture holds for subsets of size $k\le12$ of cyclic groups of prime order"
+(p. 6). Result pages are linked under Results below.
 
 Source: <https://arxiv.org/abs/2003.05939>. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2003.05939), every other right

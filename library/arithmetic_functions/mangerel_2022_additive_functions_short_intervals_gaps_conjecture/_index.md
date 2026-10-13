@@ -50,7 +50,7 @@ Source: <https://arxiv.org/abs/2108.12351>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E1122/_index|#1122]]
 
-**Results to transcribe.**
+**Results.**
 
 - theorem_1_1: For any additive function g and integers 10 <= h <= X/100, the
   average over n in (X/2, X] of the absolute difference between the

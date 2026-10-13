@@ -62,7 +62,7 @@ theorem, has a density-zero preimage under s, and its Omega form does the
 same for the Omega analogue. These are particular density-zero sets; the
 general assertion, the paper's Conjecture 1.1, is not settled here.
 
-**Results to transcribe.**
+**Results.**
 
 - [[arithmetic_functions/troupe_2015_number_prime_factors_values_sum_proper/theorem_1_3|Theorem 1.3]]
   (p. 1): For each fixed eps > 0, |omega(s(n)) - log log s(n)| < eps log log

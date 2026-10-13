@@ -50,7 +50,7 @@ proof and no variants.
 
 ## Current assessment
 
-The question is the site's formulation as accessed: whether some
+The question is the site's formulation as accessed 2026-09-04: whether some
 $c>0$ makes every measurable $A\subseteq\mathbb{R}^2$ of measure at least $c$
 contain the vertices of a triangle of area $1$. Erdős raised it in Real Anal.
 Exchange 4 (1978/79), pp. 122–123 ([Er78d]), again in 1981 (p. 30 of his
@@ -100,11 +100,11 @@ mathematics and the writing being their own. The thread also holds a
 discrete reformulation on grid points and computed extremal sets for small
 sizes, which are explorations and not results about the question.
 
-Status search as of 2026-10-07: the site's problem page and its thread, the
-formal-conjectures statement file (a research-open theorem with no proof and
-no variants at the commit linked under Formalization), the cited survey and
-chapters and the arXiv listing; the Bulj–Kovač preprint is the only paper
-found that states the problem and bears on the general case. The standing is
+Status search: the site's problem page and its thread, the formal-conjectures
+statement file (a research-open theorem with no proof and no variants at the
+commit linked under Formalization), the cited survey and chapters and the arXiv
+listing; on 2026-10-07 the Bulj–Kovač preprint was the only paper in them that
+states the problem and bears on the general case. The standing is
 open with claim none. No formalization and no independent proof review is
 recorded here.
 <!-- BEGIN problem library links -->

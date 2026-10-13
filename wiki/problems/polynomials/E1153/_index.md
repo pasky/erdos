@@ -93,7 +93,7 @@ Boris Alexeev's `lean-proofs` repository holds `Erdos1153.lean` (added
 2026-08-20), which declares itself a formalization of Tao's solution and proves
 the $\varepsilon$ form of the question; it is linked on
 [[problems/polynomials/E1153/claims/2026_03_23_tao|Tao 2026]], and this corpus
-has not built it. The site's proof-claims page, lists Ethan
+has not built it. The site's proof-claims page lists Ethan
 Yang using GPT-5.6 Sol, submitted 31 August 2026, with an
 [alternative proof claim](https://github.com/ethn-y/erdos-1153-lean/blob/main/PROOF.md)
 and a [Lean repository link](https://github.com/ethn-y/erdos-1153-lean). The

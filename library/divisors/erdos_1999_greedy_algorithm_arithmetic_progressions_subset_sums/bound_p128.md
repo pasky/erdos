@@ -67,10 +67,10 @@ the
 [[divisors/erdos_1999_greedy_algorithm_arithmetic_progressions_subset_sums/_index|source digest]].
 
 **Read depth.** Claims checked: the passage and the guess were read clause
-by clause on the page images on 2026-09-22. No argument for the bound is
-printed in the paper beyond the citations; the proof of Theorem 4 (§ 7,
-p. 132), which reuses the translate construction, was read in the text
-layer for structure only. Nothing here is independently reviewed.
+by clause on the page images. No argument for the bound is printed in the paper
+beyond the citations; the proof of Theorem 4 (§ 7, p. 132), which reuses the
+translate construction, was read in the text layer for structure only. Nothing
+here is independently reviewed.
 
 ## Proof pointer
 
@@ -87,7 +87,7 @@ Straus 1971 [25], not held. Bosznay 1989 [3], filed as
 [[additive_combinatorics/bosznay_1989_lower_estimation_non_averaging_sets/_index|bosznay_1989_lower_estimation_non_averaging_sets]];
 its Theorem, $f(n)>c_6n^{1/4}$ for some $c_6>0$ and all sufficiently large
 $n$, is on printed p. 155 (PDF p. 1), located here on the text layer of that
-page on 2026-09-22 and paged on
+page and paged on
 [[additive_combinatorics/bosznay_1989_lower_estimation_non_averaging_sets/theorem|theorem]].
 Erdős and Sárközy 1990 [8] for the upper bound $f(n)\ll\sqrt{n\log n}$ on
 non-averaging sets, not held and not used in the deduction.

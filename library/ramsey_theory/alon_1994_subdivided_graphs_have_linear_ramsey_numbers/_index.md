@@ -83,9 +83,9 @@ is its qualitative form;
 covers a subclass only.
 
 **Living verification.** Author source reading, awaiting independent review.
-The complete manuscript pp. 1--5 were visually inspected on 2026-09-09,
-including the proof and references. The Proposition 1.3 page retains a proof map and
-the checked external interface, not a complete rewritten proof. The external
+The complete manuscript pp. 1--5 were visually inspected, including the proof
+and references. The Proposition 1.3 page retains a proof map and the checked
+external interface, not a complete rewritten proof. The external
 Goddard--Kleitman theorem was claims checked in its own manuscript on p. 1;
 its proof was not read in this work. No independent proof-coverage or formal
 verification credit is asserted.

@@ -136,9 +136,9 @@ Read status: claims checked for Theorems 2.1, 2.7, 2.8, 3.3, 3.4, 4.3, 6.4,
 12.1 and 12.3 and the finite-input lists of Sections 5, 10, 11 and 12, read
 clause by clause in the TeX source (`main.tex` and the twelve section files
 under `sections/` of the release's TeX bundle, from `introduction.tex` to
-`geometric-transfers.tex`) on 2026-10-07, with theorem numbers and pages taken
-from the held PDF (98 pages); the proofs were read for their structure only
-and no step was checked; nothing here is independently reviewed.
+`geometric-transfers.tex`), with theorem numbers and pages taken from the held
+PDF (98 pages); the proofs were read for their structure only and no step was
+checked; nothing here is independently reviewed.
 
 ## Contents
 

@@ -46,9 +46,9 @@ p. 6 and its proof on pp. 6--7, page images. The journal's pagination and
 text were not compared. The artifact is identified in the
 [[extremal_graph_theory/fomin_2012_treewidth_computation_extremal_combinatorics/_index|source digest]].
 
-**Read depth.** Claims checked: the statement was read clause by clause on
-the page image on 2026-09-19; the proof (pp. 6--7) was read and followed,
-not checked line by line; the Main Lemma it uses (Lemma 1, p. 4) is paged at
+**Read depth.** Claims checked: the statement was read clause by clause on the
+page image; the proof (pp. 6--7) was read and followed, not checked line by
+line; the Main Lemma it uses (Lemma 1, p. 4) is paged at
 [[extremal_graph_theory/fomin_2012_treewidth_computation_extremal_combinatorics/lemma_1|lemma_1]].
 
 ## Proof pointer

@@ -33,8 +33,8 @@ Problem 4 on pp. 135--136. The copy read is identified on the
 [[polynomials/erdos_1958_metric_properties_polynomials/_index|source card]].
 
 **Read depth.** Claims checked: the problem and the sentence after it were
-read clause by clause on the page images of pp. 135--136 on 2026-10-08.
-Nothing here is independently reviewed.
+read clause by clause on the page images of pp. 135--136. Nothing here is
+independently reviewed.
 
 ## Dependencies
 

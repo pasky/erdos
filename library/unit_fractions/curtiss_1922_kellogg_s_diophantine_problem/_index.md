@@ -73,7 +73,7 @@ implies the case $x=1$, where the best sums of $n$ distinct unit fractions below
 $1$ are the greedy ones for every $n$ (the deduction above, which the paper
 does not state); it says nothing about other $x$.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem I: With 1/f_{n-1}(x) = 1 - 1/x_1 - ... - 1/x_{n-1}, the maximum
   finite value of f_{n-1}(x) over positive integers is u_n with u_1 = 1, u_{k+1}

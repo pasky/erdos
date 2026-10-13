@@ -88,7 +88,7 @@ Source: <https://arxiv.org/abs/0907.3492>.
   $k$ is $\sqrt{2p}+O(1)$. Composite $N$ is not treated. Theorem 5 bears on
   the problem only through Theorem 9.
 
-**Results to transcribe.**
+**Results.**
 
 - Main addition theorem ([[integer_sequences/balandraud_2012_addition_theorem_maximal_zero_sum_free_sets/theorem_5|Theorem 5]], p. 9): If p is an odd prime and A is a
   subset of Z/pZ with A intersect (-A) empty, then

@@ -44,7 +44,7 @@ the argument is claimed here.
 in the text layer of that edition. The first version (27 May 2026) was
 titled *Nearly tight exponents for off-diagonal Ramsey numbers* and proved
 only the exponent $s-2$; the third version carries the statement above. A
-preprint: no journal record was found on 2026-09-17.
+preprint.
 
 **Read depth.** Claims checked: the statement, the two surrounding
 paragraphs and the declaration on p. 4 were read clause by clause. The

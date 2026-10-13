@@ -30,13 +30,12 @@ publication. The arXiv record names arXiv's non-exclusive distribution license
 13 physical pages. The title, authors, and version are on physical p. 1. Theorem
 5 is on physical and printed p. 3; its proof is on pp. 10--12.
 
-Version check of 2026-09-17: the arXiv listing still shows only v1 (3
-August 2026, 13 pages) and no journal reference, and a Crossref
-bibliographic query found no publication record; the bound is that of an
-unrefereed preprint, and the page for Problem 554 carries that
-qualification. Read status: claims checked for Theorems 4 and 5 (p. 3, read
-clause by clause on the page image and in the text layer on 2026-09-17);
-the proofs (pp. 4--12) were not checked; the result page's proof pointer
+Version check of 2026-09-17: the arXiv listing showed only v1 (3 August 2026, 13
+pages) and no journal reference, and a Crossref bibliographic query found no
+publication record; the bound is that of an unrefereed preprint, and the page
+for Problem 554 carries that qualification. Read status: claims checked for
+Theorems 4 and 5 (p. 3, read clause by clause on the page image and in the text
+layer); the proofs (pp. 4--12) were not checked; the result page's proof pointer
 outlines Section 4 (pp. 10--12) from the page images.
 
 With the cycle length $2\ell+1$ fixed ($\ell\geq2$) and the number of
@@ -71,7 +70,7 @@ Source: <https://arxiv.org/abs/2608.01921>.
 nonresolving numerator bound, and [[../wiki/problems/ramsey_theory/E0609/_index|#609]] as
 non-transferring context.
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/huang_2026_new_upper_bound_ramsey_number_odd_cycles/theorem_5|Theorem 5]]: the displayed upper bound for each fixed
   $\ell\geq2$ and sufficiently large $k$; this directly bounds the numerator

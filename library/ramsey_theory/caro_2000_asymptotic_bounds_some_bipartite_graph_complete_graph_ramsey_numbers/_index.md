@@ -89,15 +89,14 @@ the recalled bound (1) and the remark on Szemerédi's bound (pp. 51--52), the
 function $f_m$ with its asymptotic (p. 52), Theorem 1 (p. 52), Theorem 2 and
 Corollary 3 (p. 53), Note 1 and Corollary 4 (p. 54), the opening of § 3
 (p. 54) and Theorem 5 with Note 2 (p. 55), each read clause by clause on
-the page images of PDF pp. 1--5 on 2026-09-22. The proofs of Theorem 2 and
-of Corollary 3 (i) (p. 53, a paragraph each) were read in full on the page
-image and their steps followed; the proofs of Corollary 3 (ii) and (iii)
-(pp. 53--54) and of Theorem 5 (pp. 55--56) were read for structure only;
-the estimates for $f_m$ on p. 52 were read and not checked. Page 56 (PDF
-p. 6: the end of the proof of Theorem 5, the closing remark and the eleven
-references) was read in the text layer and on the page image, which keeps
-the overline in the title of [9] that the text layer drops. Nothing here is
-independently reviewed.
+the page images of PDF pp. 1--5. The proofs of Theorem 2 and of Corollary 3 (i)
+(p. 53, a paragraph each) were read in full on the page image and their steps
+followed; the proofs of Corollary 3 (ii) and (iii) (pp. 53--54) and of Theorem 5
+(pp. 55--56) were read for structure only; the estimates for $f_m$ on p. 52 were
+read and not checked. Page 56 (PDF p. 6: the end of the proof of Theorem 5, the
+closing remark and the eleven references) was read in the text layer and on the
+page image, which keeps the overline in the title of [9] that the text layer
+drops. Nothing here is independently reviewed.
 
 ## Contents
 

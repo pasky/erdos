@@ -122,12 +122,11 @@ R(A)\ge(\log N)^{4/5+\varepsilon}
 $$
 
 Equivalently, $\lambda(N)\le(\log N)^{4/5+o(1)}$. This is the
-strongest exact-sum threshold identified in the recorded targeted searches
-through 2026-09-05 and 2026-09-17; Bloom's displayed upper bound above is
-historical.
-The later proof refines the same Fourier method, separating reciprocal
-mass from divisor incidence and using a sieve for exceptional primes.
-Its complete proof and dependencies live once in the
+strongest exact-sum threshold identified in the recorded targeted searches;
+Bloom's displayed upper bound above is historical. The later proof refines the
+same Fourier method, separating reciprocal mass from divisor incidence and using
+a sieve for exceptional primes. Its complete proof and dependencies live once in
+the
 [[unit_fractions/liu_2024_further_questions_regarding_unit_fractions/_index|Liu–Sawhney source folder]].
 
 That compilation uses arXiv:2404.07113v1 (10 April 2024). It preserves the

@@ -68,14 +68,13 @@ Theorem 2.1 and Lemmas 2.2--2.4 (pp. 248--249), the opening of § 3 and
 Theorems 3.1 and 3.2 (p. 249), Theorem 3.3 and the notation of § 3
 (p. 250), Lemma 3.9 and the proof of Theorem 3.3 (p. 253), and the
 conjecture, the four remarks of § 4 and the reference list (p. 254), each
-read clause by clause on the page images of PDF pp. 1--4, 7 and 8 on
-2026-09-22. The proofs of Lemmas 2.2, 2.3 and 2.4 (pp. 248--249, half a
-page in all, with Fig. 1) and the printed case $m=2$ of Lemma 3.9 (p. 253)
-were read in full on the page images and followed; that reading is a filing
-check, not a review. The rest of Section 3 (Lemmas 3.4--3.8 and the proofs
-of Theorems 3.1 and 3.2, pp. 250--252, PDF pp. 4--6) was read in the text
-layer for structure only, and none of it was checked. Nothing here is
-independently reviewed.
+read clause by clause on the page images of PDF pp. 1--4, 7 and 8. The proofs of
+Lemmas 2.2, 2.3 and 2.4 (pp. 248--249, half a page in all, with Fig. 1) and the
+printed case $m=2$ of Lemma 3.9 (p. 253) were read in full on the page images
+and followed; that reading is a filing check, not a review. The rest of Section
+3 (Lemmas 3.4--3.8 and the proofs of Theorems 3.1 and 3.2, pp. 250--252, PDF pp.
+4--6) was read in the text layer for structure only, and none of it was checked.
+Nothing here is independently reviewed.
 
 ## Contents
 

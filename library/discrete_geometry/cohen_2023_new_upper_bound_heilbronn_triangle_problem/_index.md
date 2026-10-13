@@ -15,7 +15,8 @@ updated: 2026-10-07T20:33:23Z
 ***
 
 Alex Cohen, Cosmin Pohoata, Dmitrii Zakharov, A new upper bound for the
-Heilbronn triangle problem. arXiv:2305.18253 (2023).
+Heilbronn triangle problem. arXiv:2305.18253 (2023). The held file is
+arXiv:2305.18253v1 of 29 May 2023.
 
 Theorem 1.1 proves that, for every sufficiently large n, among any n points in
 the unit square some three span a triangle of area at most n^{-8/7-1/2000}, the
@@ -42,7 +43,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0507/_index|#507]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For sufficiently large n, any n points in [0,1]^2 contain three
   forming a triangle of area at most n^{-8/7-1/2000}.

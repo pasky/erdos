@@ -35,9 +35,8 @@ Theorem 9 on p. 140, its proof on pp. 140--141. The copy read is identified on
 the [[polynomials/erdos_1958_metric_properties_polynomials/_index|source card]].
 
 **Read depth.** Claims checked: the statement and the definitions of
-$S(r,n)$ and $S(r)$ were read on the page images of pp. 139--140 on
-2026-10-08; the proof was read for structure, not checked. Nothing here is
-independently reviewed.
+$S(r,n)$ and $S(r)$ were read on the page images of pp. 139--140; the proof was
+read for structure, not checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

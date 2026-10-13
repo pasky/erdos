@@ -57,7 +57,7 @@ Creative Commons Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0242/_index|#242]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For each eps > 0 and all m >= m(eps) there is n >
   exp(m^{1/3-eps}) with m/n not a sum of 3 unit fractions.

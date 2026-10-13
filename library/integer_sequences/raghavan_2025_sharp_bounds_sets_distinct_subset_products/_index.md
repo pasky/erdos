@@ -43,13 +43,13 @@ paper appeared as Acta Math. Hungar. 177 (2025), no. 2, 363--377, DOI
 record and the arXiv listing's related DOI read). The journal
 text was not compared, so the locators below are those of v2. Read status:
 claims checked for Theorems 1.3, 1.4, 1.5 and 1.6, Example 1.1 and Question
-1.2, read clause by clause on the page images of pp. 1--2 on 2026-09-18;
-Section 1.1 (pp. 2--4), Theorem 2.7 (p. 7), the construction proving
-Theorem 1.4 (p. 12), and the outlines of the proofs of Theorem 2.7 (p. 11)
-and Theorem 1.6 (pp. 12--13) were read on the page images; the proofs
-(Sections 2--4 for Theorems 1.3 and 1.5, Section 5 for Theorems 1.4 and
-1.6) were not checked. Theorem 1.3's error term is O(N^{5/12}); the site's
-commentary on Problem 795 prints the weaker O(n^{5/12+o(1)}).
+1.2, read clause by clause on the page images of pp. 1--2; Section 1.1 (pp.
+2--4), Theorem 2.7 (p. 7), the construction proving Theorem 1.4 (p. 12), and the
+outlines of the proofs of Theorem 2.7 (p. 11) and Theorem 1.6 (pp. 12--13) were
+read on the page images; the proofs (Sections 2--4 for Theorems 1.3 and 1.5,
+Section 5 for Theorems 1.4 and 1.6) were not checked. Theorem 1.3's error term
+is O(N^{5/12}); the site's commentary on Problem 795 prints the weaker
+O(n^{5/12+o(1)}).
 
 Let f(N) be the largest size of a subset of [N] whose subsets all have distinct
 products. Erdos proved f(N) <= pi(N) + O(pi(N^{1/2})) and asked whether the
@@ -74,7 +74,7 @@ follows; Theorem 1.4 (p. 2) disproves the stronger conjecture of Erdős's
 1980 survey. Theorems 1.5 and 1.6 concern the squarefree variant, which the
 problem does not ask.
 
-**Results to transcribe.**
+**Results.**
 
 - [[integer_sequences/raghavan_2025_sharp_bounds_sets_distinct_subset_products/theorem_1_3|Theorem 1.3]]
   (p. 1): f(N) = pi(N) + pi(N^{1/2}) + O(N^{5/12}), answering Erdos's

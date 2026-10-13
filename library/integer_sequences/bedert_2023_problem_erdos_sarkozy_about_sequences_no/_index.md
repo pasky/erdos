@@ -65,7 +65,7 @@ Source: <https://arxiv.org/abs/2301.07065>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0013/_index|#13]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: There is an absolute constant C such that every A ⊆ [n] with
   property P satisfies |A| <= n/3 + C, resolving Erdős's prize problem (p. 2;

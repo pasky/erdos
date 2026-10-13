@@ -35,8 +35,8 @@ solution
 ([[problems/extremal_graph_theory/E0134/claims/2024_07_01_alon|claim page]]).
 The site's label carried a Lean suffix for the Aristotle formalization of Alon's
 theorem reported on the thread. That formalization is linked from the claim page
-and is not built or audited here. Search scope, 2026-10-07: the site's
-commentary and thread.
+and is not built or audited here. Search scope: the site's commentary and
+thread.
 
 **Source.** [erdosproblems.com/134](https://www.erdosproblems.com/134), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #134,

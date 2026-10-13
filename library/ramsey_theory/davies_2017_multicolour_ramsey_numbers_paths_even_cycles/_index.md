@@ -102,7 +102,7 @@ Page 2 also cites the exact values for two colors (with the misprint noted
 above) and for three colors and large $n$. Theorem 1 concerns paths and
 gives no bound on the cycle numbers.
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/davies_2017_multicolour_ramsey_numbers_paths_even_cycles/theorem_1|Theorem 1]]
   (p. 2): for $k\ge4$ and all $n\ge64k$,

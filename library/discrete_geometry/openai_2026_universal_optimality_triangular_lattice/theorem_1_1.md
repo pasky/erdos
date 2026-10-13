@@ -61,8 +61,7 @@ potential in the class.
 folder `Universal-optimality-of-the-triangular-lattice-September-23-2026`;
 TeX `sections/01-uniform-gaussian-theorem.tex`, environment
 `thm:universal` with the definitions above it (PDF pp. 1--2); the proof is
-completed in `sections/07-shifted-mixtures.tex` (PDF pp. 38--39). Read on
-2026-10-07. The card
+completed in `sections/07-shifted-mixtures.tex` (PDF pp. 38--39). The card
 [[discrete_geometry/openai_2026_universal_optimality_triangular_lattice/_index|records the provenance]]
 and the release's own attestations.
 

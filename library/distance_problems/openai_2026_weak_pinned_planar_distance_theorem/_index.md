@@ -58,8 +58,8 @@ issues". The manuscript's own README adds nothing about how it was produced: it
 gives the title, the author "OpenAI", the date September 23, 2026 and the
 citation block above. The PDF title page names "OpenAI" as author and prints no
 further statement on the method of production. No refereed publication, no
-arXiv version and no independent review of the manuscript is recorded here as
-of the read date, and nothing on this card is independently reviewed.
+arXiv version and no independent review of the manuscript is recorded here, and
+nothing on this card is independently reviewed.
 
 Formalization, as the release lists it: the release's Lean catalogue file
 `lean/formalization.yaml` names this manuscript among its sources and lists,
@@ -104,10 +104,10 @@ is an input to the other.
 
 Read status: claims checked for Theorem 1.1 and Corollary 1.2, read clause by
 clause in the TeX source (`sections/introduction.tex` lines 3--48, with the
-definitions of $D_x(P)$, the fiber size $k_P(x,y)$ and $F_n(s)$ at lines 3--28)
-on 2026-10-07; the proofs (`introduction.tex` lines 50--64 for the corollary,
-`extremal.tex` through `bounded.tex` for the theorem) were read for their
-structure only and no step was checked; nothing here is independently reviewed.
+definitions of $D_x(P)$, the fiber size $k_P(x,y)$ and $F_n(s)$ at lines 3--28);
+the proofs (`introduction.tex` lines 50--64 for the corollary, `extremal.tex`
+through `bounded.tex` for the theorem) were read for their structure only and no
+step was checked; nothing here is independently reviewed.
 
 ## Contents
 

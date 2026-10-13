@@ -88,7 +88,7 @@ page]]; this corpus has not built it.
 
 ## Current assessment
 
-The question, in the site's formulation accessed, asks whether an
+The question, in the site's formulation accessed 2026-09-04, asks whether an
 edge-disjoint union of $n$ copies of $K_n$ always has chromatic number $n$,
 the conjecture of Erdős, Faber and Lovász from 1972. The standing is open
 with no full claim, and every claim page is an accepted partial claim. The
@@ -130,8 +130,8 @@ has held a Lean 4 development of the large-$n$ theorem since 2026-08-26. It is
 linked from the claim page as a formalization of that result. This corpus has
 not built it, so it gives no `formalized` evidence.
 
-Search scope, 2026-10-07: the site's problem page (last edited 7 March 2026,
-no proof claims filed), the arXiv record of arXiv:2101.04698, the Crossref
+Search scope: the site's problem page (last edited 7 March 2026, no proof
+claims filed on 2026-10-07), the arXiv record of arXiv:2101.04698, the Crossref
 record and the journal's page of the Annals publication, the preprint's card,
 the arXiv records of arXiv:2010.05666 [Al21] and arXiv:1605.03374 [ArVa16],
 the zbMATH records Zbl 1224.05187 [RoSa07] and Zbl 1413.05098 [ArVa16], the

@@ -16,8 +16,9 @@ updated: 2026-10-07T20:33:23Z
 ***
 
 Frank Vallentin, Conic Optimization for Extremal Geometry. arXiv preprint
-(2025). arXiv:2510.06960. The arXiv record (https://arxiv.org/abs/2510.06960,
-read 2026-10-02) names the Creative Commons Attribution 4.0 license.
+(2025). arXiv:2510.06960. The held file is arXiv:2510.06960v1 of 8 October 2025.
+The arXiv record (https://arxiv.org/abs/2510.06960, read 2026-10-02) names the
+Creative Commons Attribution 4.0 license.
 
 This is a survey, not a new-results paper: it explains how conic optimization
 (linear, semidefinite and copositive/completely positive hierarchies) gives
@@ -48,7 +49,7 @@ Source: <https://arxiv.org/abs/2510.06960>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E1070/_index|#1070]]
 
-**Results to transcribe.**
+**Results.**
 
 - Section 5.4: Measurable one-avoiding sets: records Croft's lower bound 0.22936
   for the measurable independence density of G(R^2,{1}) and the 0.2470 upper

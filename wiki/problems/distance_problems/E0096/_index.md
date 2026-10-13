@@ -59,7 +59,7 @@ https://www.erdosproblems.com/96.
 
 - [Ag15] Aggarwal, Amol, On unit distances in a convex polygon. Discrete Math.
   (2015), 88-92.
-- [BrPa01] Brass , Peter and Pach, János, The maximum number of times the same
+- [BrPa01] Brass, Peter and Pach, János, The maximum number of times the same
   distance can occur among the vertices of a convex $n$-gon is $O(n\log n)$. J.
   Combin. Theory Ser. A (2001), 178-179.
 - [EdHa91] Edelsbrunner, Herbert and Hajnal, Péter, A lower bound on the number

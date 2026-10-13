@@ -30,9 +30,9 @@ polynomials*, J. Analyse Math. 6 (1958), 125--148, doi:10.1007/BF02790232;
 Theorem 6 and its proof on p. 135. The copy read is identified on the
 [[polynomials/erdos_1958_metric_properties_polynomials/_index|source card]].
 
-**Read depth.** Claims checked: the statement was read on the page image of
-p. 135 on 2026-10-08, and the proof was read and its steps followed, not
-independently checked. Nothing here is independently reviewed.
+**Read depth.** Claims checked: the statement was read on the page image of p.
+135, and the proof was read and its steps followed, not independently checked.
+Nothing here is independently reviewed.
 
 ## Proof pointer
 

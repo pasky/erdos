@@ -46,7 +46,7 @@ version the record does not name.
 
 **Bears on.** [[../wiki/problems/divisors/E0056/_index|#56]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For every k there is n(k) with f(n,k) = |E(n,k)| for all n > n(k),
   and the optimal set is unique.

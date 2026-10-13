@@ -60,10 +60,10 @@ https://www.erdosproblems.com/1177.
 
 ## Current assessment
 
-Search scope, 2026-10-06: the site's problem page, discussion thread and
-proof-claims tab, Li's arXiv preprint and the README of the claimant's
-repository, and the booklet's item 7.94. Not searched: arXiv beyond the
-preprint, zbMATH, MathSciNet and X. The proofs of the claimed resolution have
+Search scope: the site's problem page, discussion thread and proof-claims tab,
+Li's arXiv preprint and the README of the claimant's repository, and the
+booklet's item 7.94. Not searched: arXiv beyond the preprint, zbMATH, MathSciNet
+and X. The proofs of the claimed resolution have
 not been independently checked.
 
 **Claims.** One result is claimed from outside the project.

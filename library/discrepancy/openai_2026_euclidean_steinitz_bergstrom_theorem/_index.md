@@ -114,10 +114,10 @@ manuscript cites no other paper of the release.
 Read status: claims checked for Theorem 1.1, Theorem 1.2, Propositions 2.1
 and 2.2, Lemma 2.3, Corollary 6.1 and Corollary 6.2, read clause by clause in
 the TeX source (`introduction.tex` lines 10--20 and 35--45, `assembly.tex`
-lines 32--50, 60--87 and 95--108, `consequences.tex` lines 9--32 and 80--100)
-on 2026-10-07; the statements of Lemmas 2.4, 2.5, 3.1--3.3, 4.1--4.4, 5.1 and
-5.2 were read as statements only; the proofs were read for their structure
-only and no step was checked; nothing here is independently reviewed.
+lines 32--50, 60--87 and 95--108, `consequences.tex` lines 9--32 and 80--100);
+the statements of Lemmas 2.4, 2.5, 3.1--3.3, 4.1--4.4, 5.1 and 5.2 were read as
+statements only; the proofs were read for their structure only and no step was
+checked; nothing here is independently reviewed.
 
 ## Contents
 

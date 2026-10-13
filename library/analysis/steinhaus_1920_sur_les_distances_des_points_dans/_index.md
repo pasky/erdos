@@ -62,7 +62,7 @@ Source:
 
 **Bears on.** [[../wiki/problems/analysis/E0120/_index|#120]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theoreme I (p. 94): Every linear set of positive measure contains two
   distinct points a, b whose distance is rational; proved by a translation and

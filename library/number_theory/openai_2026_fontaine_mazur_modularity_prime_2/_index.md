@@ -110,11 +110,10 @@ source (`sections/introduction.tex` label `thm:main` at lines 20--30,
 `sections/preliminaries.tex` label `lem:solvable-reduction` at lines 146--152,
 `sections/patching.tex` label `thm:localized-propagation` at lines 23--38,
 `sections/connectedness.tex` label `thm:potential-promodularity` at lines
-11--24 and `sections/classicality.tex` label `lem:dense-Thorne-points` at
-lines 395--399) on 2026-10-12; the statements of most other numbered results
-were read, not clause by clause, for the account below; the proofs were read
-for their structure only and no step was checked; nothing here is
-independently reviewed.
+11--24 and `sections/classicality.tex` label `lem:dense-Thorne-points` at lines
+395--399); the statements of most other numbered results were read, not clause
+by clause, for the account below; the proofs were read for their structure only
+and no step was checked; nothing here is independently reviewed.
 
 ## Contents
 

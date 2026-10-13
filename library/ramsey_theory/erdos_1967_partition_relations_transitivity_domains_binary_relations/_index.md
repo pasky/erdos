@@ -30,15 +30,15 @@ relations*, J. London Math. Soc. 42 (1967), 624--633 (MR 36 #1335; Zbl
 Received 1 January 1966.
 
 The copy read for this card
-is the Rényi archive scan (Acrobat Capture, 10 pages; rendered and counted
-on 2026-09-18), printed pp. 624--633 = PDF pp. 1--10. Its text layer garbles
-the formulas, so the statements below were read on the rendered page images. No
-notice is printed in the scan; the publisher's article page could not be read on
-2026-10-02 (it returned HTTP 403), and the Crossref record for DOI
-10.1112/jlms/s1-42.1.624 (read 2026-10-02) names Wiley as publisher and lists
-only its text-and-data-mining license and its version-of-record terms and
-conditions (http://onlinelibrary.wiley.com/termsAndConditions#vor), the
-publisher's terms and no Creative Commons license, every other right reserved.
+is the Rényi archive scan (Acrobat Capture, 10 pages), printed pp. 624--633 =
+PDF pp. 1--10. Its text layer garbles the formulas, so the statements below were
+read on the rendered page images. No notice is printed in the scan; the
+publisher's article page could not be read on 2026-10-02 (it returned HTTP 403),
+and the Crossref record for DOI 10.1112/jlms/s1-42.1.624 (read 2026-10-02) names
+Wiley as publisher and lists only its text-and-data-mining license and its
+version-of-record terms and conditions
+(http://onlinelibrary.wiley.com/termsAndConditions#vor), the publisher's terms
+and no Creative Commons license, every other right reserved.
 
 Read status: claims checked for Theorem 1 with its finite characterization of
 $l_0(m,n)$ and the small values (printed p. 624), Theorem 2 with relations

@@ -4,7 +4,7 @@ title: "Question (p. 17): must a bounded A^* vanish infinitely often"
 desc: |
   The first open question of the survey's Section 9 asks whether a bounded
   ordered representation function must vanish infinitely often, which the
-  survey equates with Erdős's USD 500 question on additive bases.
+  survey equates with a prize question of Erdős on additive bases.
 created: 2026-10-08T15:50:52Z
 updated: 2026-10-08T15:50:52Z
 ---
@@ -25,7 +25,7 @@ infinitely often?"
 Here $\mathcal A^*(k)$ is the number of ordered pairs
 $(a_1,a_2)\in\mathcal A\times\mathcal A$ with $a_1+a_2=k$
 ([[additive_bases/obryant_2004_complete_annotated_bibliography_work_related_sidon/definition_1|Definition 1]]
-and p. 1). The survey states that the question is equivalent to a USD 500
+and p. 1). The survey states that the question is equivalent to a prize
 question of Erdős, its entry [43]: if every positive integer is a sum of two
 elements of $\mathcal B\subseteq\mathbb N$, so that $\mathcal B$ is a basis,
 must the number of such representations tend to infinity?

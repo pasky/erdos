@@ -33,9 +33,9 @@ printed p. 98 (PDF p. 2 of the publisher's scan), read on the page
 image (the scan has no text layer). The copy read is identified in the
 [[analysis/pommerenke_1961_metric_properties_complex_polynomials/_index|source digest]].
 
-**Read depth.** Claims checked: the passage was read clause by clause on
-the page image on 2026-09-22, and its estimate (three lines) was read in
-full and followed. Nothing here is independently reviewed.
+**Read depth.** Claims checked: the passage was read clause by clause on the
+page image, and its estimate (three lines) was read in full and followed.
+Nothing here is independently reviewed.
 
 ## Proof pointer
 

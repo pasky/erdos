@@ -44,8 +44,7 @@ functions*, release folder
 `preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026`;
 TeX file `build/qualitative/affine-corollaries.tex`, label
 `prop:affine-progression` (lines 181--194), PDF p. 84; the proof follows at
-lines 196--214, on the same page. Read 2026-10-12. Provenance and attestations
-are on
+lines 196--214, on the same page. Provenance and attestations are on
 [[arithmetic_functions/openai_2026_ordinary_two_point_correlations_multiplicative_functions/_index|the card]].
 
 **Read depth.** Claims checked: the statement, and the statements of the Lemmas

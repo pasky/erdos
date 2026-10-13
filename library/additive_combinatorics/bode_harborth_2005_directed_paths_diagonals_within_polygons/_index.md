@@ -76,13 +76,13 @@ sentence (p. 4), Theorem 1 with its proof and Theorem 2 with the odd-$n$
 permutation (p. 4), the deletion sentence and the setup of the even case
 (p. 5), the end of the proof of Theorem 2 and the closing remark (pp. 9--10)
 and the reference list (p. 10), each read clause by clause on the page
-images of PDF pp. 1--3, 7 and 8 on 2026-09-22. The induction of the even
-case (pp. 5--9) was read in the text layer for structure only; its base
-cases and its step are carried by Figs. 2 and 4--11, which were not checked.
-The two printed permutations (Theorem 1's zigzag for even $n$ and Theorem
-2's cycle for odd $n$) were checked while filing for $n\le16$ and odd
-$n\le39$ respectively; that is a check made while filing, not retained
-evidence and not a review verdict. Nothing here is independently reviewed.
+images of PDF pp. 1--3, 7 and 8. The induction of the even case (pp. 5--9) was
+read in the text layer for structure only; its base cases and its step are
+carried by Figs. 2 and 4--11, which were not checked. The two printed
+permutations (Theorem 1's zigzag for even $n$ and Theorem 2's cycle for odd $n$)
+were checked while filing for $n\le16$ and odd $n\le39$ respectively; that is a
+check made while filing, not retained evidence and not a review verdict. Nothing
+here is independently reviewed.
 
 ## Contents
 

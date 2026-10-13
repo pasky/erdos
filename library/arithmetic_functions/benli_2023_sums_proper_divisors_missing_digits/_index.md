@@ -60,7 +60,7 @@ residue classes modulo $g^k$. This is a proof pointer, not a complete proof.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0955/_index|#955]].
 
-**Results to transcribe.**
+**Results.**
 
 - [[arithmetic_functions/benli_2023_sums_proper_divisors_missing_digits/theorem_1_8|Theorem 1.8]]: the quantitative missing-digit preimage bound
   for $g\geq3$.

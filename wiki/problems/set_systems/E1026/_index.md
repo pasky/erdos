@@ -138,10 +138,10 @@ weighted Erdős–Szekeres bound, which the site calls implicit there. Steele's
 survey [St95], whose Section 12 reports the question without progress, is on the
 card
 [[../library/set_systems/steele_1995_variations_monotone_subsequence_theme_erdos_szekeres/_index|Steele 1995]].
-Neither claim is refereed; the acceptance is the curator's. Search scope,
-2026-10-06: the site's page (last edited 8 December 2025), its discussion thread
-(twenty-five comments) and proof-claim tab (no claim), the community database
-and formal-conjectures.
+Neither claim is refereed; the acceptance is the curator's. Search scope, with
+the sources as they stood on 2026-10-06: the site's page (last edited 8
+December 2025), its discussion thread (twenty-five comments) and proof-claim
+tab (no claim), the community database and formal-conjectures.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

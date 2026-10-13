@@ -36,9 +36,8 @@ factor.
 complete bipartite graphs*, arXiv:1401.6711v1 (27 January 2014; 4 pages),
 the only arXiv version; Theorem 2.1 and Lemma 2.2 on p. 1 and
 the proof of Theorem 2.1 on p. 2, read on the page images and in the text
-layer. No journal version of the note was found on 2026-09-18; the artifact
-and the refereed paper in which the site's thread says the result reappears
-are identified in the
+layer. The artifact and the refereed paper in which the site's thread says the
+result reappears are identified in the
 [[extremal_graph_theory/conlon_2014_large_subgraphs_without_complete_bipartite_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the theorem, the lemma and the definitions

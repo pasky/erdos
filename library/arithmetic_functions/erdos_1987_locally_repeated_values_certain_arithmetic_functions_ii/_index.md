@@ -71,7 +71,7 @@ Source: <https://www.renyi.hu/~p_erdos/1987-14.pdf>.
 **Bears on.** [[../wiki/problems/arithmetic_functions/E1003/_index|#1003]];
 [[../wiki/problems/arithmetic_functions/E1004/_index|#1004]] (context only).
 
-**Results to transcribe.**
+**Results.**
 
 - [[arithmetic_functions/erdos_1987_locally_repeated_values_certain_arithmetic_functions_ii/theorem_2|Theorem 2]]: the
   $x/\exp\{(\log x)^{1/3}\}$ upper bound for consecutive equal totients,

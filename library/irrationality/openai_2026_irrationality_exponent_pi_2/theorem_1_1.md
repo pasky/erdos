@@ -52,8 +52,8 @@ folder `preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026`;
 TeX file `build/main.tex`, label `thm:main` (lines 64--71), PDF p. 1, with
 the definition of $\mu$ at lines 50--56 and the remark at lines 73--78; the
 proof closes at the end of Section 4 (`build/sections/conclusion.tex`, lines
-55--156, PDF pp. 18--19). Read 2026-10-12. Provenance and attestations are
-on [[irrationality/openai_2026_irrationality_exponent_pi_2/_index|the card]].
+55--156, PDF pp. 18--19). Provenance and attestations are on
+[[irrationality/openai_2026_irrationality_exponent_pi_2/_index|the card]].
 
 **Read depth.** Claims checked: the statement, the definition and the remark
 were read clause by clause in the TeX source, as were the statements of

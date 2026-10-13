@@ -47,17 +47,17 @@ layer of p. 51 (PDF p. 32). The artifact is identified in the
 [[extremal_graph_theory/carmesin_2023_characterising_graphs_no_subdivision_wheel_bounded_diameter/_index|source digest]].
 
 **Read depth.** Claims checked: the two sentences were read clause by clause
-on the page image on 2026-09-19. The passage attests a theorem proved
-elsewhere, and Carmesin's paper proves nothing about it; Thomassen's
-Theorem was read at statement depth on the page image of printed p. 212
-(PDF p. 3) of the held copy on 2026-09-22, its proof not read here.
+on the page image. The passage attests a theorem proved elsewhere, and
+Carmesin's paper proves nothing about it; Thomassen's Theorem was read at
+statement depth on the page image of printed p. 212 (PDF p. 3) of the held copy,
+its proof not read here.
 
 ## Proof pointer
 
 None here; the proof is in Thomassen's 1974 paper, held and filed as
 [[extremal_graph_theory/thomassen_1974_minimal_condition_implying_special_k4_subdivision_graph/_index|thomassen_1974_minimal_condition_implying_special_k4_subdivision_graph]];
-its Theorem is on printed p. 212 (PDF p. 3), read there clause by clause on
-the page image on 2026-09-22 and paged on
+its Theorem is on printed p. 212 (PDF p. 3), read there clause by clause on the
+page image and paged on
 [[extremal_graph_theory/thomassen_1974_minimal_condition_implying_special_k4_subdivision_graph/theorem|theorem]],
 with the proof on printed pp. 212--215. The theorem
 strengthens Dirac's theorem of 1960 that $2n-2$ edges force a subdivision of

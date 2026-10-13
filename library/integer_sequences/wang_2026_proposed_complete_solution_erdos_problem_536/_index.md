@@ -39,8 +39,7 @@ finite-prime envelope is Proposition 3.1 in this version; a site comment of
 Standing: an unreviewed claim. It was submitted to the site's proof-claim
 tab for Problem 536 on 14 July 2026, where the tab labels it a partial
 proof claim; the site's label stayed OPEN and its commentary does not
-mention it; no arXiv version, refereed publication or independent review
-was found on 2026-09-18. The tab's submission declares that the claim was
+mention it. The tab's submission declares that the claim was
 produced using an AI model (GPT-5.6 Sol); the manuscript itself carries no
 statement about AI use. The file prints no notice of its own on pp. 1--2 or
 32--33; the repository holding
@@ -72,7 +71,7 @@ moving-prefix argument needs. External inputs are only standard prime-number
 estimates, Brun-Titchmarsh, and the polynomial-method cap-set bound, with finite
 checks in a companion Python verifier. The manuscript does not mention
 Problems 535 or 857 (its text was searched for their numbers and for gcd and
-sunflower wording on 2026-09-18).
+sunflower wording).
 
 Source: <https://github.com/ShouqiaoW/erdos/tree/main/536>.
 
@@ -80,7 +79,7 @@ Source: <https://github.com/ShouqiaoW/erdos/tree/main/536>.
 claims the answer $f(N)=o(N)$ to the site's question; recorded there as an
 unreviewed claim.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 ([[integer_sequences/wang_2026_proposed_complete_solution_erdos_problem_536/theorem_1_1|claim page]]):
   Claimed f(N) = o(N) for the largest subset of [N] with no three

@@ -76,7 +76,7 @@ records it. [[../wiki/problems/integer_sequences/E0961/_index|#961]]: adjacent c
 only; the prime-factor cutoff $(k,2k)$ differs from that problem's "a prime
 greater than $k$", so the theorem says nothing about its $f(k)$.
 
-**Results to transcribe.**
+**Results.**
 
 - [[integer_sequences/doorn_2026_consecutive_integers_free_certain_prime_factors/theorem_1_1|Theorem 1.1]]
   (p. 1): fix theta in (2/5, 3/5) such that (k, k + k^theta) contains

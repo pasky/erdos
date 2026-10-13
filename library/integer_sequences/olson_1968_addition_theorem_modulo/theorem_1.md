@@ -59,11 +59,11 @@ identified in the
 **Read depth.** Claims checked: the statement, the definition of $r$ and
 display (1), the recalled theorem and conjecture of Erdős and Heilbronn,
 the near-best-possible example and the statement of Theorem 2 with its
-displays (2)--(4) were read clause by clause on the page images of PDF
-pp. 1--2 on 2026-09-22. The proof of Theorem 1 (pp. 46--47) was read in
-full on the page images and its reduction to Theorem 2 was followed; the
-proof of Theorem 2 (pp. 47--52) was read in the text layer for structure
-only and not checked. Nothing here is independently reviewed.
+displays (2)--(4) were read clause by clause on the page images of PDF pp. 1--2.
+The proof of Theorem 1 (pp. 46--47) was read in full on the page images and its
+reduction to Theorem 2 was followed; the proof of Theorem 2 (pp. 47--52) was
+read in the text layer for structure only and not checked. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

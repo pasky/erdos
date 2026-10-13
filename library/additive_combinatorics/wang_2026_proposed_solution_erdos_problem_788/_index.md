@@ -64,8 +64,8 @@ compared 2026-09-18). No arXiv version and no journal record (Crossref
 bibliographic query, 2026-09-18); the site's proof-claim tab for Problem 788
 carries the author's full claim of 19 July 2026 and the site's label stayed
 OPEN. Read status: claims checked for the definitions, Theorem 1.1 and Remark
-1.2 (pp. 1--2, text layer, 2026-09-18), read as a claim; the proof was not
-assessed and no acceptance beyond the author's exists. The claim page is
+1.2 (pp. 1--2, text layer), read as a claim; the proof was not assessed and no
+acceptance beyond the author's exists. The claim page is
 [[additive_combinatorics/wang_2026_proposed_solution_erdos_problem_788/theorem_1_1|theorem_1_1]].
 The file prints no notice of its own on pp. 1--2 or 14--15; the repository
 holding it carries a LICENSE file that GitHub shows as "MIT license", the MIT
@@ -79,7 +79,7 @@ Source: <https://github.com/ShouqiaoW/erdos/tree/main/788>.
 (p. 2) is the tab's full proof claim of the conjectured exponent, recorded on
 the problem page as a lead with provenance, not as status.
 
-**Results to transcribe.**
+**Results.**
 
 - [[additive_combinatorics/wang_2026_proposed_solution_erdos_problem_788/theorem_1_1|Theorem 1.1]]
   (p. 2): Claimed c sqrt(n log n) <= f(n) <= n^(1/2 + C(log log n/log

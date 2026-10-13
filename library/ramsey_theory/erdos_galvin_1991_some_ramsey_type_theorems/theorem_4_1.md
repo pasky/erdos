@@ -54,10 +54,9 @@ Math. 87 (1991), no. 3, 261--269; the statement on printed pp. 267--268
 [[ramsey_theory/erdos_galvin_1991_some_ramsey_type_theorems/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, the definitions of p. 267
-and the two sentences framing the theorem were read clause by clause on
-the page images on 2026-09-22. The proof (half a page) was read in full on
-the page image and each of its four steps was followed. Nothing here is
-independently reviewed.
+and the two sentences framing the theorem were read clause by clause on the page
+images. The proof (half a page) was read in full on the page image and each of
+its four steps was followed. Nothing here is independently reviewed.
 
 ## Proof pointer
 

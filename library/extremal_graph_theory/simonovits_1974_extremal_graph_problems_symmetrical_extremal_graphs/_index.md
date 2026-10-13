@@ -110,19 +110,18 @@ thesis attribution and Theorem 2.2 (p. 356) with its display (6) and
 Theorem 2.3 (p. 357), Theorems 2.4 and 2.5 and Remark 2.6 (pp. 357--358), the
 Erdős--Gallai and Andrásfai bound (8), Erdős's Problem and Theorem 2.7 with
 display (9) (p. 358), and Remark 2.8 with display (10) (p. 359), each read
-clause by clause on the page images of PDF pp. 1 and 7--11 on 2026-09-22,
-displays (8)--(10) on 400 dpi crops; the reference list (p. 376, PDF p. 28)
-was read on the page image. Pages 350--354 (the introduction with Theorems A,
-B, 1, 2, 3 and Definitions 1.1--1.5), the rest of p. 359 and pp. 360--375
-(the proofs and the Appendix) were read in the text layer for structure only.
-The two consumed statements, Theorem 2.7 and Remark 2.8, are printed without
-proof, so no proof was read. On 2026-10-07 the Contents entries below were
-checked at statement level against the page images of every page, PDF
-pp. 1--28; the proofs were not checked. On 2026-10-08 the statements of
-Theorems 1.a, 1, 2 and 3 with Definitions 1.1, 1.3, 1.4, 1.5 and 1.7, and of
-Theorem 2.2 with displays (5) and (6), were read clause by clause on the
-page images of printed pp. 349--357, and § 3.6 was located on p. 367. Nothing
-here is independently reviewed.
+clause by clause on the page images of PDF pp. 1 and 7--11, displays (8)--(10)
+on 400 dpi crops; the reference list (p. 376, PDF p. 28) was read on the page
+image. Pages 350--354 (the introduction with Theorems A, B, 1, 2, 3 and
+Definitions 1.1--1.5), the rest of p. 359 and pp. 360--375 (the proofs and the
+Appendix) were read in the text layer for structure only. The two consumed
+statements, Theorem 2.7 and Remark 2.8, are printed without proof, so no proof
+was read. Later the Contents entries below were checked at statement level
+against the page images of every page, PDF pp. 1--28; the proofs were not
+checked. Then the statements of Theorems 1.a, 1, 2 and 3 with Definitions 1.1,
+1.3, 1.4, 1.5 and 1.7, and of Theorem 2.2 with displays (5) and (6), were read
+clause by clause on the page images of printed pp. 349--357, and § 3.6 was
+located on p. 367. Nothing here is independently reviewed.
 
 ## Contents
 

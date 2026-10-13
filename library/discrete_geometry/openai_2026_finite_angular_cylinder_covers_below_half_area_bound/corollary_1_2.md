@@ -45,9 +45,8 @@ bound*, release folder
 `preprints/Finite-angular-cylinder-covers-below-the-half-area-bound-September-27-2026`;
 TeX `sections/introduction.tex`, environment `cor:normalized-covering`
 (lines 50--57), proof lines 58--79; the relative area at
-`sections/history.tex`, `eq:relative-cost` (lines 22--27); PDF p. 2, proof
-on p. 3. Read
-2026-10-07. The card
+`sections/history.tex`, `eq:relative-cost` (lines 22--27); PDF p. 2, proof on
+p. 3. The card
 [[discrete_geometry/openai_2026_finite_angular_cylinder_covers_below_half_area_bound/_index|records the provenance and the release's attestations]].
 
 **Read depth.** Claims checked: the statement and the definition of

@@ -373,13 +373,15 @@ necessary, in these four cases:
   page that only points at a project uses the project URL; a pin that duplicates
   a retained lock-file copy names that copy by path.
 
-No other checksum or commit id is kept. A held source file carries no SHA-256
-line on its source card: Git LFS records the size and SHA-256 of every held PDF
-and every file over 1 MB in its pointer, and a smaller held file is identified
-by its path. An edition the repository does not hold is named by its
-bibliographic identifier, version, URL and retrieval date. Private run state
-that never reaches the default branch (working notes and receipts kept outside
-the clone) may name commits.
+No other checksum or commit id is kept, except where a verbatim copy prints one:
+a quotation of a source, an external URL, a transcription or retained copy of a
+third-party file, or a preserved snapshot of reviewed text. A held source file
+carries no SHA-256 line on its source card: Git LFS records the size and SHA-256
+of every held PDF and every file over 1 MB in its pointer, and a smaller held
+file is identified by its path. An edition the repository does not hold is named
+by its bibliographic identifier, version, URL and retrieval date. Private run
+state that never reaches the default branch (working notes and receipts kept
+outside the clone) may name commits.
 
 A record cites the root `AGENTS.md` by a section heading in quotes or by a
 binding convention's number with its short name (`AGENTS.md` section "Checks";

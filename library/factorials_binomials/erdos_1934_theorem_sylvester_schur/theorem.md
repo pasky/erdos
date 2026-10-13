@@ -30,8 +30,8 @@ divisible by a prime greater than $k$, the theorem is $f(k)\le k$.
 Soc. 9 (1934), no. 4, 282--288, DOI 10.1112/jlms/s1-9.4.282 (Crossref
 record read); the seven-page scan of the offprint
 (printed pp. 282--288 = PDF pp. 1--7); the statement on printed p. 282
-(PDF p. 1) and its binomial form and lemma on p. 283 (PDF p. 2), read on
-the page images on 2026-09-18 (the text layer garbles the displays).
+(PDF p. 1) and its binomial form and lemma on p. 283 (PDF p. 2), read on the
+page images (the text layer garbles the displays).
 
 **Read depth.** Claims checked: the statement, its binomial form and the
 lemma were read clause by clause on the page images. The proof (pp.

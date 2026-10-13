@@ -63,11 +63,10 @@ without losing the sums up to $n$), so equation (1) reads
 $g(n)^2\le(294/85+o(1))n$ and Yu's bound reads
 $g(n)^2\ge(1/0.4585-o(1))n$; the conversion is written on the problem
 page. Read status: claims checked for the definitions, equation (1) and the
-introduction's quoted bounds (p. 1, text layer) on 2026-09-18; equation (2)
-and Facts 1--3 (p. 2) read as statements; Theorem 1 (p. 3) and the
-consequence on pp. 4--5 checked clause by clause on the page images on
-2026-10-08, with the proof's covering steps (p. 4) followed and Facts 1--3
-not reproved. Result pages:
+introduction's quoted bounds (p. 1, text layer); equation (2) and Facts 1--3
+(p. 2) read as statements; Theorem 1 (p. 3) and the consequence on pp. 4--5
+checked clause by clause on the page images, with the proof's covering steps
+(p. 4) followed and Facts 1--3 not reproved. Result pages:
 [[additive_combinatorics/kohonen_2017_improved_lower_bound_finite_additive_2/equation_1|equation (1)]]
 (p. 1) and
 [[additive_combinatorics/kohonen_2017_improved_lower_bound_finite_additive_2/theorem_1|Theorem 1]]
@@ -87,7 +86,7 @@ also shows that g(n) ~ 2n^{1/2} fails, which earlier constructions had
 already shown. It does not determine the growth of g(n)^2/n. The paper does
 not mention the problem.
 
-**Results to transcribe.**
+**Results.**
 
 - Equation (1) (main result, p. 1; result page written): liminf_{k->infinity} n(k)/k^2 >= 85/294 > 0.2891,
   where n(k) is the maximal range of an additive 2-basis of size k.

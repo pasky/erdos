@@ -47,9 +47,9 @@ Read status: claims checked for the abstract (p. 129), the introduction's
 attribution and conjecture paragraph (pp. 129--130), Theorems 1--3 (pp.
 130--131), the definition of $C_5(D)$ and $f(D)$ with Theorem 4 (p. 131),
 and the concluding remarks and references (p. 135), read clause by clause
-on the page images on 2026-09-19; the proofs of Theorems 1--3 were read for
-structure, and the proof of Theorem 4 (pp. 131--135, a case analysis
-through the more technical result announced after Theorem 4) was not read.
+on the page images; the proofs of Theorems 1--3 were read for structure, and the
+proof of Theorem 4 (pp. 131--135, a case analysis through the more technical
+result announced after Theorem 4) was not read.
 
 ## Contents
 

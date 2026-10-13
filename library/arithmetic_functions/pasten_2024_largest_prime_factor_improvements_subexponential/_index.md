@@ -65,7 +65,7 @@ absolute $\kappa>0$. The paper does not state this case, and the bound does
 not determine how large the largest prime factor of $n(n+1)$ is. Theorems 1.1
 and 1.2 concern $n^2+1$ and give nothing for $n(n+1)$.
 
-**Results to transcribe.**
+**Results.**
 
 - [[arithmetic_functions/pasten_2024_largest_prime_factor_improvements_subexponential/theorem_1_1|Theorem 1.1]] (p. 1): there is $\kappa>0$ with
   $P(n^2+1)\ge\kappa(\log_2n)^2/\log_3n$ as $n$ grows, where $P$ is the

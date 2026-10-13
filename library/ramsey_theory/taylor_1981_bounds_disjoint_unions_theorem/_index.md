@@ -76,14 +76,13 @@ definitions of $S(r,k)$ and $U(r,k)$ (p. 340), the statements of Lemma 2.1
 Theorem 3.1 and Lemma 3.2 (p. 342), Lemma 3.3, the stack-height remark, the
 iterated exponential notation and Corollary 3.4 (p. 343), and the
 probabilistic remark and the reference list (p. 344), each read clause by
-clause on the page images of PDF pp. 1--6 (printed pp. 339--344) on
-2026-09-22. The proofs of Lemma 3.2 and Lemma 3.3 (pp. 342--343, a few
-displays each), the derivation of Theorem 3.1 from Lemma 3.3 and (7)
-(p. 343) and the proof of (7) (p. 342, one paragraph) were read in full on
-the page images and followed; the proofs of Lemma 2.1 (pp. 340--341) and
-Lemma 2.2 (pp. 341--342), on which every bound rests, were read on the page
-images for structure only, and their case checks (4) and (5) were not
-verified. Nothing here is independently reviewed.
+clause on the page images of PDF pp. 1--6 (printed pp. 339--344). The proofs of
+Lemma 3.2 and Lemma 3.3 (pp. 342--343, a few displays each), the derivation of
+Theorem 3.1 from Lemma 3.3 and (7) (p. 343) and the proof of (7) (p. 342, one
+paragraph) were read in full on the page images and followed; the proofs of
+Lemma 2.1 (pp. 340--341) and Lemma 2.2 (pp. 341--342), on which every bound
+rests, were read on the page images for structure only, and their case checks
+(4) and (5) were not verified. Nothing here is independently reviewed.
 
 ## Contents
 

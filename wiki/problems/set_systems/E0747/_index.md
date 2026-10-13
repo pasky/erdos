@@ -83,10 +83,9 @@ Hitting times for Shamir's problem, Trans. Amer. Math. Soc. 375 (2022), no. 1,
 627–668, and lies beyond the question. The formal-conjectures statement file
 records the answer with its proof left as `sorry`; no Lean proof is recorded.
 
-Search scope, 2026-10-07: the site's problem page, discussion thread and
-proof-claims page, the community database entry, the formal-conjectures
-problem listing, the arXiv and Crossref records of both papers, and the
-library cards.
+Search scope: the site's problem page, discussion thread and proof-claims
+page, the community database entry, the formal-conjectures problem listing,
+the arXiv and Crossref records of both papers, and the library cards.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

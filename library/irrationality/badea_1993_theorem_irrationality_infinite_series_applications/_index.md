@@ -50,7 +50,7 @@ Fibonacci number with x_1 = x_2 = 1) gives irrationality of sum 1/x_{n(k)}
 whenever n(k+1) >= 2n(k) - 1 for large k, which settles the case c >= 2; the
 case 1 < c < 2 is not treated.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 2.1: For convergent sum b_n/a_n, at least one of three situations
   holds, including irrationality of the series, relating (ir)rationality to

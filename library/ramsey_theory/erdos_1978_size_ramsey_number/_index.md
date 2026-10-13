@@ -82,7 +82,7 @@ the path question, asked there as whether lim hat-r(P_n)/n exists (and, if
 so, its value) and whether {P_n} is an o-sequence; the paper contains no
 question about cycles.
 
-**Results to transcribe.**
+**Results.**
 
 - Definition (p. 146): hat-r(G_1,G_2) = min |E(G)| over graphs G with G ->
   (G_1,G_2); with hat-R(G_1,G_2) = C(r(G_1,G_2),2), a sequence {G_n} is an

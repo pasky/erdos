@@ -49,7 +49,7 @@ Attribution 4.0 license.
 question in the negative; Theorem 9 and Hall's 1947 set are the stronger and
 the earlier disproofs).
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 8 (p. 3): No perfect difference set modulo v = p^2 + p + 1, for any
   prime p, contains the Sidon set {1, 2, 4, 8} (the first four Mian-Chowla

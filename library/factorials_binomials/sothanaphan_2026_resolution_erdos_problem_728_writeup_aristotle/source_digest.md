@@ -207,4 +207,10 @@ separately attributes the optimality investigation to work with ChatGPT.
 physical pp. 2 and 5–20 were inspected for Theorems 1–3, the method map,
 the E728/E729/E401 deductions, both corollaries, Proposition 1, and the provenance
 notes. This is a statement and provenance check; it does not establish a new proof
-review or a local formal verification.
+review or a local formal verification. Read status: claims checked for the
+consumed statements, Theorem 1 and Theorem 2 with its deductions for E728, E729
+and E401, read clause by clause on the page images; their proofs were not
+checked step by step. Each has its own result page,
+[[factorials_binomials/sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle/theorem_1|theorem_1]]
+and
+[[factorials_binomials/sothanaphan_2026_resolution_erdos_problem_728_writeup_aristotle/theorem_2|theorem_2]].

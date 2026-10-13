@@ -80,11 +80,11 @@ it does not address $k$ of order $n$, including the number of Latin squares,
 so the problem is open. No formalization beyond the author's Lean is
 recorded. Nothing was reconstructed in this corpus.
 
-Search scope, 2026-10-07: the site's problem page, discussion thread and
-proof-claims page, the community database entry,
-the formal-conjectures problem listing, the OEIS entry A001009, the arXiv
-record of arXiv:2608.01671 and the repository README it links, the Crossref
-records of [ErKa46], [Ya51] and [GoMc90], and the two library cards.
+Search scope: the site's problem page, discussion thread and proof-claims
+page, the community database entry, the formal-conjectures problem listing,
+the OEIS entry A001009, the arXiv record of arXiv:2608.01671 and the repository
+README it links, the Crossref records of [ErKa46], [Ya51] and [GoMc90], and the
+two library cards.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -34,9 +34,8 @@ Rényi scan), proof pp. 198--200, read on the rendered page image of p. 198
 
 **Read depth.** Claims checked: the statement and the first sentence of
 the proof were read clause by clause on the page image, and
-the closing sentence of the proof (p. 200) on 2026-10-07. The rest of the
-proof (pp. 199--200) was read on the text layer for orientation only and
-was not checked.
+the closing sentence of the proof (p. 200). The rest of the proof (pp. 199--200)
+was read on the text layer for orientation only and was not checked.
 
 ## Proof pointer
 
@@ -62,8 +61,7 @@ bounds for Ramsey functions, Discrete Math. 20 (1977), 69--76 (the paper's
 [[ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/_index|spencer_1977_asymptotic_lower_bounds_ramsey_functions]];
 its Theorem 2.1 is on printed p. 72 (PDF p. 4) and the local-lemma
 reduction (1) in its proof, the form this paper's p. 199 says it needs, on
-printed p. 73 (PDF p. 5), both located on the text layer on 2026-09-22 and
-paged on
+printed p. 73 (PDF p. 5), both located on the text layer and paged on
 [[ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/theorem_2_1|theorem_2_1]]).
 
 ## Bears on

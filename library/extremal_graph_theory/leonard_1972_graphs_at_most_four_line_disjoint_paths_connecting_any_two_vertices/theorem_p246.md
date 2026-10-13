@@ -112,12 +112,12 @@ paper's [5], not held).
   $1+10n'$ edges, $l_5(1+4n')=l_5(2\cdot2n'+1)=5\cdot2n'+1=1+n'\binom52$
   (an arithmetic check made here; the paper's range $n\ge3$ covers
   $n'\ge2$, and $n'=1$ is $l_5(5)=11$, noted above), so the edge-disjoint
-  form of the conjecture holds at $m=5$, as Mader's general theorem gives for every
-  $m$; that theorem is filed as
+  form of the conjecture holds at $m=5$, as Mader's general theorem gives for
+  every $m$; that theorem is filed as
   [[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/_index|mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen]],
   its Satz 1 on printed p. 223 (PDF p. 1) and its Korollar on printed
-  p. 226 (PDF p. 4), both located here on the text layer of those pages on
-  2026-09-22 and paged on
+  p. 226 (PDF p. 4), both located here on the text layer of those pages and
+  paged on
   [[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/satz_1|satz_1]]
   and
   [[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/korollar|korollar]];

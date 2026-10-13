@@ -34,16 +34,16 @@ no file of either is held. Pyber's is filed as
 [[extremal_graph_theory/pyber_1996_covering_edges_connected_graph_paths/_index|pyber_1996_covering_edges_connected_graph_paths]];
 its Theorem 0, "Suppose that each cycle of $G$ contains a vertex of odd
 degree. Then $G$ can be covered by $\le\lfloor n/2\rfloor$ edge-disjoint
-paths", is on printed p. 152 (PDF p. 1), located there in the text layer on
-2026-09-22 and paged on
+paths", is on printed p. 152 (PDF p. 1), located there in the text layer and
+paged on
 [[extremal_graph_theory/pyber_1996_covering_edges_connected_graph_paths/theorem_0|theorem_0]].
 Fan's is filed as
 [[extremal_graph_theory/fan_2005_path_decompositions_gallai_s_conjecture/_index|fan_2005_path_decompositions_gallai_s_conjecture]];
 its Corollary, "Let $G$ be a graph on $n$ vertices (not necessarily
 connected). If each block of the E-subgraph of $G$ is a triangle-free graph
 with maximum degree at most 3, then $G$ can be decomposed into
-$\lfloor n/2\rfloor$ paths", is on printed p. 125 (PDF p. 9), located there
-in the text layer on 2026-09-22 and paged on
+$\lfloor n/2\rfloor$ paths", is on printed p. 125 (PDF p. 9), located there in
+the text layer and paged on
 [[extremal_graph_theory/fan_2005_path_decompositions_gallai_s_conjecture/corollary|corollary]].
 
 **Source.** M. Bonamy and T. J. Perrett, *Gallai's path decomposition

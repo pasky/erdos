@@ -66,8 +66,8 @@ Proposition 3.1, including the final palette product, consecutive-parameter
 ceiling estimates, interpolation to all sufficiently large colour counts,
 and the finite remaining range. All five reconstructions and their
 all-integer root-limit consequence have independently accepted compilation
-coverage. Codex (GPT-6), in a fresh context distinct from the author,
-returned refutation-failed for each result; a distinct Codex (GPT-6) grader
+coverage. GPT-6, in a fresh context distinct from the author,
+returned refutation-failed for each result; a distinct GPT-6 grader
 passed the report contract and independence. The
 [[library/ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_9/evidence/verify/lower_bound_route_review|retained review and grade]]
 preserve the exact reviewed subjects, mathematical reasoning and scope

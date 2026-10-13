@@ -60,8 +60,9 @@ refereed journal paper credited by the site's curator. The exact order of
 $f(d)$ between the two bounds is not determined by the paper; the problem as
 posed does not ask for it.
 
-**Search scope.** 2026-10-07: the site's problem page and its discussion
-thread, and the sources cited above. No other claim on the problem was found.
+**Search scope.** The site's problem page and its discussion thread, and the
+sources cited above; on 2026-10-07 the site's pages showed no other claim on
+the problem.
 
 <!-- BEGIN problem library links -->
 

@@ -213,10 +213,9 @@ should be inferred from this source without a separate argument.
 printed pages were read, including the definitions, Lemma 1, Theorem 1,
 equations (1)--(5), the midpoint and Schinzel constructions, the heuristic
 qualification, and the finite computations. The cited results were not
-independently verified. On 2026-10-08 the statements of Theorem 1,
-Conjecture 1 and the finite computations were rechecked clause by clause on
-the page images of the copy named above; the publisher's edition was not
-compared. Result pages:
+independently verified. The statements of Theorem 1, Conjecture 1 and the finite
+computations were rechecked clause by clause on the page images of the copy
+named above; the publisher's edition was not compared. Result pages:
 [[integer_sequences/gordon_rodemich_1998_dense_admissible_sets/theorem_1|theorem_1]],
 [[integer_sequences/gordon_rodemich_1998_dense_admissible_sets/conjecture_1|conjecture_1]]
 and

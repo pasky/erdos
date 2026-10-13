@@ -121,7 +121,7 @@ https://www.erdosproblems.com/794, accessed 2026-09-18.
 
 **Formalization.** The site's "(Lean)" suffix is a catalog label. The file
 [`ErdosProblems/794.lean`](https://github.com/google-deepmind/formal-conjectures/blob/468a1438e567ae6dd1d733cfbecacdd3b33afaed/FormalConjectures/ErdosProblems/794.lean)
-of formal-conjectures,(the link is pinned to that revision),
+of formal-conjectures (the link is pinned to that revision)
 declares
 `erdos_794 : answer(False) ↔ ∀ n : ℕ, ∀ H : Finset (Finset (Fin (3 * n))), H.IsThreeUniform → n ^ 3 + 1 ≤ H.card → H.ContainsSubgraph 4 3 ∨ H.ContainsSubgraph 5 7`
 under `category research solved, AMS 5`, with proof `sorry` and a `formal_proof`

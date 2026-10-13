@@ -40,8 +40,8 @@ $$
 attaches to the pair of questions. The liminf question is answered yes, but the
 limsup part is unsettled, so the problem stays open.
 
-No source in the search of 2026-09-05, and nothing in the site's thread as of
-2026-10-07, determines the smallest limsup. The construction of van Doorn and
+No source compiled here, and nothing in the site's thread as of 2026-10-07,
+determines the smallest limsup. The construction of van Doorn and
 the thread's write-up of 2026-09-07 bound the infimum from above without
 determining it, and neither is a claim.
 

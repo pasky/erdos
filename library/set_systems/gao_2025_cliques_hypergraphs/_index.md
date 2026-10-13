@@ -15,7 +15,8 @@ updated: 2026-10-07T20:53:40Z
 
 ***
 
-Jun Gao, On cliques in hypergraphs. arXiv:2510.14804 (2025). The arXiv record
+Jun Gao, On cliques in hypergraphs. arXiv:2510.14804 (2025). The held PDF is
+arXiv:2510.14804v3 (31 October 2025). The arXiv record
 (https://arxiv.org/abs/2510.14804, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 
@@ -39,7 +40,7 @@ Source: <https://arxiv.org/abs/2510.14804>.
 
 **Bears on.** [[../wiki/problems/set_systems/E0775/_index|#775]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For any integers k >= 3 and C >= 0 there is N(k,C) such that
   every n-vertex k-uniform hypergraph with n >= N has at most n - C distinct

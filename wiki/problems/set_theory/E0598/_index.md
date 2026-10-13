@@ -98,8 +98,8 @@ is open with no claim.
 
 **Search scope.** The site's problem page, its discussion thread (eight
 comments) and proof-claims tab (none), MathOverflow question 511508, the
-erdosproblemaday ledger and the formal-conjectures statement file were
-read on 2026-10-07. arXiv, Crossref, MathSciNet, zbMATH and Google Scholar
+erdosproblemaday ledger and the formal-conjectures statement file, as they
+stood on 2026-10-07. arXiv, Crossref, MathSciNet, zbMATH and Google Scholar
 were not searched.
 <!-- BEGIN problem library links -->
 

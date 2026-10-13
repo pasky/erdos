@@ -328,7 +328,7 @@ $h(n)\ge\log_2n+\log_*n-O(1)$ or a proof that $h(n)-\log_2n\to\infty$.
   pancyclicity when each cycle contains $k$ chords, 2012 and 2016).
 - OEIS A105206 as stated above.
 - The primary sources: [Gr13] pp. 1--3 and [Er71] p. 101; [Bo71]
-  pp. 80--84 and [GKW16] Chapter 4, pp. 35--47 (both accessed).
+  pp. 80--84 and [GKW16] Chapter 4, pp. 35--47.
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Sh94],
 [AlKr25], the Jia 1996 paper and the Lai--Liu 2014 survey the thread names.

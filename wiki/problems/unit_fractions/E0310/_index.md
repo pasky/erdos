@@ -85,7 +85,7 @@ https://www.erdosproblems.com/310, accessed 2026-09-18.
 - [LiSa24] Liu, Y. P. and Sawhney, M., On further questions regarding unit
   fractions. arXiv:2404.07113v1 (10 April 2024); Int. Math. Res. Not. 2026,
   no. 2, rnaf382, DOI 10.1093/imrn/rnaf382, published online 14 January
-  2026 (Crossref record read). Proposition 1.4, p. 2; remarks,
+  2026 (Crossref record). Proposition 1.4, p. 2; remarks,
   p. 3; proof, p. 21. Library home:
   [[../library/unit_fractions/liu_2024_further_questions_regarding_unit_fractions/_index|liu_2024_further_questions_regarding_unit_fractions]];
   result page
@@ -93,7 +93,7 @@ https://www.erdosproblems.com/310, accessed 2026-09-18.
 - [Bl21] Bloom, T. F., On a density conjecture about unit fractions.
   arXiv:2112.03726 (v1 7 December 2021; v2 12 October 2023); J. Eur.
   Math. Soc. 27 (2025), no. 11, 4563--4589, DOI 10.4171/jems/1456
-  (Crossref record read). Theorem 2, p. 1; Proposition 1, p. 4.
+  (Crossref record). Theorem 2, p. 1; Proposition 1, p. 4.
   Library home:
   [[../library/unit_fractions/bloom_2021_density_conjecture_about_unit_fractions/_index|bloom_2021_density_conjecture_about_unit_fractions]];
   result pages
@@ -113,7 +113,7 @@ on 20 September 2026:(the link is pinned to that commit),
 states `erdos_310` with the answer True, under `category research solved`
 and `by sorry`, with a `formal_proof` annotation pointing at
 [`src/latest/ErdosProblems/Erdos310.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos310.lean)
-in Boris Alexeev's `lean-proofs` collection(the
+in Boris Alexeev's `lean-proofs` collection (the
 pinned link), and `erdos_310.variants.liu_sawhney`, the quantitative form of
 Proposition 1.4, `by sorry` with no pointer. The site's
 page shows the statement as formalized, and the community database records

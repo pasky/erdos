@@ -170,7 +170,7 @@ zero-sum set built from the same theorem is
 
 **Search scope.** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures
-tree(no file; none either); the arXiv
+tree (no file); the arXiv
 listing for math/9904181 (one version, no journal reference); the Crossref
 record of DOI 10.4064/aa99-2-1; the Semantic Scholar citation list of the
 published paper (eleven records: Martin 2000, Croot's own Sums of $k$ unit

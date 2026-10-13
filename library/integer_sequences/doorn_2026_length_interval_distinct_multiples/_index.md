@@ -70,7 +70,7 @@ quantitative form; the site's f(n,m) uses the open interval (m, m+f(n,m)),
 one more than the paper's half-open convention, and the difference is the
 same in both.
 
-**Results to transcribe.**
+**Results.**
 
 - [[integer_sequences/doorn_2026_length_interval_distinct_multiples/theorem_1|Theorem 1]]
   (p. 1): max_m f(n,m) - f(n,n) > 0.36 n log n / log log n for all

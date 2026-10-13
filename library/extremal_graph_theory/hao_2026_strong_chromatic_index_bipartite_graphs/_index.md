@@ -41,8 +41,8 @@ Attribution 4.0 license.
 
 Read status: claims checked for the abstract and the introduction's
 history paragraph (p. 1), the bipartite conjectures, Conjecture 1.1 and
-Theorem 1.2 with the biregular reduction (p. 2), read clause by clause on
-the page images on 2026-09-19, paged at
+Theorem 1.2 with the biregular reduction (p. 2), read clause by clause on the
+page images, paged at
 [[extremal_graph_theory/hao_2026_strong_chromatic_index_bipartite_graphs/theorem_1_2|theorem_1_2]];
 the reference list (p. 12) read in the text layer; the proof (Sections
 2--4, the extremal problem on biregular bipartite graphs in Sections 2--3
@@ -97,10 +97,9 @@ and the coloring step in Section 4) not read.
 
 ## Compiled scope
 
-Statements at claims-checked depth on the page images of pp. 1--2; the
-proof unread; no acceptance evidence beyond the arXiv posting exists on
-2026-09-19. Nothing here is independently reviewed. Davey's thesis [8] and
-the Faudree--Gyárfás--Schelp--Tuza 1990 paper [11] are not held.
+Statements at claims-checked depth on the page images of pp. 1--2; the proof
+unread. Nothing here is independently reviewed. Davey's thesis [8] and the
+Faudree--Gyárfás--Schelp--Tuza 1990 paper [11] are not held.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]: Theorem 1.2
 (p. 2, page image) is a preprint bound on the bipartite variant of the

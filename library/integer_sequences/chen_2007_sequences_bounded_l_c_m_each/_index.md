@@ -65,7 +65,7 @@ Source: <https://doi.org/10.4064/aa128-2-3>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0441/_index|#441]]
 
-**Results to transcribe.**
+**Results.**
 
 - [[integer_sequences/chen_2007_sequences_bounded_l_c_m_each/theorem_1|Theorem 1]]
   (p. 126): (i) R_1(x) = 0 for infinitely many x; (ii) R_1(x) >= loc x - 2 for

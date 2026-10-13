@@ -54,9 +54,8 @@ $3$ to $19$ and $n-17$ to $n$, so pancyclicity requires $n\le37$ (p. 1).
 
 **Source.** S. Griffin, *Minimal pancyclicity*, arXiv:1312.0274v1 (1 December
 2013; dated September 6, 2013 on p. 1; 6 pages), the only arXiv
-version; Table 1 on p. 2, read on the page image and in the text layer. A
-preprint: no journal version was found on 2026-09-18. The edition read is
-identified in the
+version; Table 1 on p. 2, read on the page image and in the text layer. The
+edition read is identified in the
 [[extremal_graph_theory/griffin_2013_minimal_pancyclicity/_index|source digest]].
 
 **Read depth.** Claims checked: the table and the two paragraphs describing

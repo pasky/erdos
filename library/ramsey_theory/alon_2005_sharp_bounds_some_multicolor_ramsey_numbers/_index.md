@@ -49,8 +49,8 @@ clause by clause on the page images; Lemma 3.1 (p. 6) was read as a
 statement; the opening of Section 2 (p. 3), p. 13 of the concluding remarks
 (pp. 12--13) and the references (pp. 13--15) were read in the text layer;
 Theorems 3.4 and 3.7 (pp. 9 and 11) are recorded from the introduction's
-displays (2) and (3), except that the statement of Theorem 3.7 was read on
-the page image of p. 11 on 2026-10-07; no proof was checked.
+displays (2) and (3), except that the statement of Theorem 3.7 was read on the
+page image of p. 11; no proof was checked.
 
 The paper gives a general technique for tight lower bounds on multicolor
 Ramsey numbers $r(H_1,\ldots,H_k,K_m)$ with $k\ge2$: random shifts of

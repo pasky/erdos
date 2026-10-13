@@ -59,8 +59,8 @@ Arguments*, release folder
 TeX file `build/sections/introduction.tex`, label `thm:main` (lines 19--29),
 PDF p. 1, with the definition at lines 10--17 and the remark at lines
 31--34; the proof closes at the end of Section 7
-(`build/sections/descent.tex`, lines 473--486, PDF p. 41). Read 2026-10-12.
-Provenance and attestations are on
+(`build/sections/descent.tex`, lines 473--486, PDF p. 41). Provenance and
+attestations are on
 [[additive_combinatorics/openai_2026_power_saving_polynomial_differences_prime_arguments/_index|the card]].
 
 **Read depth.** Claims checked: the statement, the definition of a

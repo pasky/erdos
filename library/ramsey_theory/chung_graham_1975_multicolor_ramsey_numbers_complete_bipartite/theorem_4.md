@@ -44,10 +44,9 @@ of the publisher scan), the end of the proof and (6$'$) on p. 168
 [[ramsey_theory/chung_graham_1975_multicolor_ramsey_numbers_complete_bipartite/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and (6$'$) were read clause
-by clause on the page images on 2026-09-22. The proof (pp. 167--168) was
-read in full on the page images and its steps were followed, except the
-"elementary calculations" the paper does not print. Nothing here is
-independently reviewed.
+by clause on the page images. The proof (pp. 167--168) was read in full on the
+page images and its steps were followed, except the "elementary calculations"
+the paper does not print. Nothing here is independently reviewed.
 
 ## Proof pointer
 

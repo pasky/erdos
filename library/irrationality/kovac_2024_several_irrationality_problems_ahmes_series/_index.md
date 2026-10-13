@@ -60,7 +60,7 @@ reserved.
 [[../wiki/problems/irrationality/E0265/_index|#265]], [[../wiki/problems/irrationality/E0266/_index|#266]],
 [[../wiki/problems/number_theory/E0268/_index|#268]]
 
-**Results to transcribe.**
+**Results.**
 
 - Proposition 2.1: Randomizing membership on an infinite set B with convergent
   reciprocal sum makes the resulting harmonic subseries sum irrational with

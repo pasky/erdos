@@ -180,7 +180,7 @@ two files exists, and none was checked. The thread's pin of 1 August 2026,
 an earlier commit of the repository (lines 18562--18603), no longer resolved
 at GitHub on 2026-09-18; the community database's URL and the collection's
 attribute pin the commit linked above. The corpus has not built, audited or
-kernel-checked the file, and no credit is claimed. The community database,
+kernel-checked the file, and no credit is claimed. The community database
 lists `status` "disproved (Lean)" as of its last update,
 dated 2 August 2026 (it does not record when the state changed),
 `formal_status` Lean with the URL above and the note "counterexample;

@@ -30,10 +30,10 @@ later correction is asserted.
 The copy read for this card is the 29-page
 [version-one manuscript](https://arxiv.org/pdf/2603.23456v1). Its header is
 PDF 1.7 and its size is 687642 bytes. The
-version and submission date were checked against the
-[arXiv record](https://arxiv.org/abs/2603.23456v1) on 17 September 2026. Printed
-and PDF page numbers agree. The arXiv record names arXiv's non-exclusive
-distribution license (arXiv:2603.23456), every other right reserved.
+version and submission date were checked against the [arXiv
+record](https://arxiv.org/abs/2603.23456v1). Printed and PDF page numbers agree.
+The arXiv record names arXiv's non-exclusive distribution license
+(arXiv:2603.23456), every other right reserved.
 
 [[irrationality/bell_2026_mahler_series_multiplicative_coefficients/theorem_1_3|Theorem 1.3]],
 p. 2, gives regularity and an explicit prime-power decomposition for

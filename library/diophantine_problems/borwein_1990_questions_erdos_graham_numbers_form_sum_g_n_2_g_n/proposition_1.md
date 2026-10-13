@@ -39,11 +39,10 @@ identified on the
 [[diophantine_problems/borwein_1990_questions_erdos_graham_numbers_form_sum_g_n_2_g_n/_index|source card]].
 
 **Read depth.** Claims checked: the statement, (2.13) and (2.14) were read
-clause by clause on the page images on 2026-10-08, and (2.13) was checked
-here in exact rational arithmetic for $2\le M\le6$. The count of terms and
-the case $M=2$ are this page's reading of (2.13). The uniqueness remark was
-read but its derivation not verified. Nothing here is independently
-reviewed.
+clause by clause on the page images, and (2.13) was checked here in exact
+rational arithmetic for $2\le M\le6$. The count of terms and the case $M=2$ are
+this page's reading of (2.13). The uniqueness remark was read but its derivation
+not verified. Nothing here is independently reviewed.
 
 ## Proof pointer
 

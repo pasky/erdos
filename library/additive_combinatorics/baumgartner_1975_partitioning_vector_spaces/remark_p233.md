@@ -32,12 +32,12 @@ arithmetic progression in at most two points."
 
 **Source and proof scope.** J. E. Baumgartner, *Partitioning vector spaces*,
 J. Combin. Theory Ser. A **18** (1975), 231–233: the unnumbered final theorem
-on p. 233, read 2026-09-06 and again 2026-10-08.
-The author says that a slight modification of the preceding proof yields this
-result but supplies no modified argument. This page records the source-stated
-result with an omitted proof; it is not a complete proof reconstruction.
-The [[additive_combinatorics/baumgartner_1975_partitioning_vector_spaces/main_theorem|preceding theorem and complete main proof]] are
-compiled separately, including their external basis and choice dependency.
+on p. 233, read twice. The author says that a slight modification of the
+preceding proof yields this result but supplies no modified argument. This page
+records the source-stated result with an omitted proof; it is not a complete
+proof reconstruction. The
+[[additive_combinatorics/baumgartner_1975_partitioning_vector_spaces/main_theorem|preceding theorem and complete main proof]]
+are compiled separately, including their external basis and choice dependency.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0199/_index|Problem 199]] through its
 $k=3$ instance; the extra fixed-length exclusion strengthens that instance.

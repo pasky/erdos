@@ -83,12 +83,11 @@ summary of the result (p. 252), the definitions of the types $(\mathscr B,i)$
 and the families $\mathscr B_1$, $\mathscr B_2$, $\mathscr B'$, $\mathscr S$
 and $\mathscr B_1'$ with their parameters $\gamma$, $\beta$ and $\delta$
 (pp. 252--253), Lemmas 1--4 (pp. 252--253), Theorem 5 and the closing remark
-(p. 254), each read clause by clause on the page images of PDF pp. 1--4 on
-2026-09-22. The proofs of Lemmas 1--4 and the displayed combination proving
-Theorem 5 (pp. 252--254) were read in full on the page images and each step
-was followed; the arithmetic of the combination was recomputed. The
-reference list (p. 254) was read on the page image. Nothing here is
-independently reviewed.
+(p. 254), each read clause by clause on the page images of PDF pp. 1--4. The
+proofs of Lemmas 1--4 and the displayed combination proving Theorem 5 (pp.
+252--254) were read in full on the page images and each step was followed; the
+arithmetic of the combination was recomputed. The reference list (p. 254) was
+read on the page image. Nothing here is independently reviewed.
 
 ## Contents
 

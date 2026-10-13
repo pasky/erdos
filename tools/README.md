@@ -65,10 +65,11 @@ evidence.
 ## Trusted local process supervision
 
 `tools.util.supervision` provides `Limits`, `fingerprint` and `run` as a
-namespaced, POSIX-only API for one reviewed trusted child. Owners supply an
-absolute executable, working directory, fresh output directory, STOP path,
-bounded identity set and expected report schema. The API does not discover or
-schedule mathematical jobs and is never invoked by the repository gate.
+namespaced, POSIX-only API for one reviewed trusted child. It is for supervising
+a trusted local checker under resource caps, and no command calls it. Owners
+supply an absolute executable, working directory, fresh output directory, STOP
+path, bounded identity set and expected report schema. The API does not discover
+or schedule mathematical jobs and is never invoked by the repository gate.
 
 `run` retains byte-capped stdout/stderr and an atomic JSON record, checks
 source/input fingerprints before and after execution, and requires a unique

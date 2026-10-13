@@ -36,9 +36,8 @@ $\frac43=1.3333\ldots$, and the conjecture is $\frac54$).
 
 **Source.** H. Kumar, B. Mohar and S. Pragada, *An improved bound for the
 strong clique index of graphs*, arXiv:2607.02698v1 (2 July 2026); Corollary
-1.7 on p. 3 of the retained preprint, read on the page image. A preprint
-with no refereed version or independent review found on 2026-09-19. The
-artifact is identified in the
+1.7 on p. 3 of the retained preprint, read on the page image. The artifact is
+identified in the
 [[extremal_graph_theory/kumar_2026_improved_bound_strong_clique_index_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, Theorem 1.6 and the paragraphs

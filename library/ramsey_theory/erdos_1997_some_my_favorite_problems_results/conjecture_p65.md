@@ -52,10 +52,9 @@ the eBook), read on the page image. The copy read is identified
 in the
 [[ramsey_theory/erdos_1997_some_my_favorite_problems_results/_index|source digest]].
 
-**Read depth.** Claims checked: the passage was read clause by clause on
-the page image on 2026-09-22. No proof is printed; the theorem's standing
-here is an attestation by the conjecture's author. Nothing is
-independently reviewed.
+**Read depth.** Claims checked: the passage was read clause by clause on the
+page image. No proof is printed; the theorem's standing here is an attestation
+by the conjecture's author. Nothing is independently reviewed.
 
 ## Proof pointer
 

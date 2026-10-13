@@ -61,7 +61,7 @@ numbers of the form $\sum g_n/2^{g_n}$*, Math. Comp. **54** (1990), no.
 11A63, 11D68, 11-04.
 
 The copy read for this card is a JSTOR PDF: a JSTOR cover sheet (PDF p. 1;
-stable URL <http://www.jstor.org/stable/2008700>, marked accessed)
+stable URL <http://www.jstor.org/stable/2008700>)
 followed by scans of the eighteen printed pages 377--394 (PDF p. $n$ is
 printed p. $n+375$). The scan carries an OCR text layer in which the
 displayed formulas are garbled; the prose statements are legible in it, and
@@ -76,8 +76,8 @@ platform's notice, every other right reserved.
 Read status: claims checked for Algorithm 1, Conjecture 1, Corollary 1,
 Proposition 1, Proposition 2 with Corollary 2, Proposition 3, Proposition 5,
 Proposition 6 and Proposition 8, whose statements were read clause by clause
-on the page images, again on 2026-10-08 for the result pages listed below;
-proofs were read but not verified. The problem page and the claim pages
+on the page images, again for the result pages listed below; proofs were read
+but not verified. The problem page and the claim pages
 [[../wiki/problems/diophantine_problems/E0261/claims/1990_01_01_borwein_loring|Borwein and Loring 1990]]
 and
 [[../wiki/problems/diophantine_problems/E0261/claims/1990_01_01_borwein_loring_conditional|its conditional companion]]

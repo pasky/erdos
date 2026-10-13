@@ -15,7 +15,8 @@ updated: 2026-10-07T20:53:39Z
 ***
 
 Ayla Gafni, Terence Tao, Rough numbers between consecutive primes. arXiv
-preprint (2025). arXiv:2508.06463. The arXiv record
+preprint (2025). arXiv:2508.06463; the held PDF is arXiv:2508.06463v1 (8
+August 2025). The arXiv record
 (https://arxiv.org/abs/2508.06463, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 
@@ -48,7 +49,7 @@ Source: <https://arxiv.org/abs/2508.06463>.
 [[../wiki/problems/primes/E0680/_index|#680]],
 [[../wiki/problems/primes/E0682/_index|#682]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: N(X), the number of gaps (p_n,p_{n+1}) with p_n in [X,2X]
   containing no m with p(m) >= p_{n+1}-p_n, satisfies N(X) << X/log^2 X; under

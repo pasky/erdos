@@ -36,9 +36,9 @@ there reads "53"; the page lies between pp. 57 and 59). The
 artifact is identified in the
 [[extremal_graph_theory/komlos_szemeredi_1983_limit_distribution_hamiltonian_cycles_random_graph/_index|source digest]].
 
-**Read depth.** Claims checked: the statement was read clause by clause on
-the page image of PDF p. 4 on 2026-10-08. No argument for the reformulation
-is printed (see below). Nothing here is independently reviewed.
+**Read depth.** Claims checked: the statement was read clause by clause on the
+page image of PDF p. 4. No argument for the reformulation is printed (see
+below). Nothing here is independently reviewed.
 
 ## Proof pointer
 

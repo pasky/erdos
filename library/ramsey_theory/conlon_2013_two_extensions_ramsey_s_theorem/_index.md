@@ -89,13 +89,13 @@ power $(\log_{(2s-1)}i)^\epsilon$; no proof of the general case is printed.
 Read status: claims checked for Theorem 1.1, the definitions of w(S), f(c) and
 f(n), the attributions to Rödl and the three-color remark (pp. 2--3) and for
 Conjecture 5.1 with the remarks around it (p. 15), read clause by clause on
-the page images on 2026-09-18, and for Theorem 1.2 with the attributions
-before it and the convention that logarithms are to base 2 (pp. 3--4), read
-on the page images; also claims checked, on the page images, for Lemmas 3.2
-and 3.3 (pp. 6--7), the restatement Theorem 4.1 (p. 13) and Theorem 5.1 with
-Section 5.2 (pp. 16--17); the proof of Theorem 1.1 (Section 3, pp. 5--9, with
-the lemma of Section 2), Theorem 1.2's proof (Section 4, pp. 10--14) and the
-sketches of Section 5 were not checked. Result pages:
+the page images, and for Theorem 1.2 with the attributions before it and the
+convention that logarithms are to base 2 (pp. 3--4), read on the page images;
+also claims checked, on the page images, for Lemmas 3.2 and 3.3 (pp. 6--7), the
+restatement Theorem 4.1 (p. 13) and Theorem 5.1 with Section 5.2 (pp. 16--17);
+the proof of Theorem 1.1 (Section 3, pp. 5--9, with the lemma of Section 2),
+Theorem 1.2's proof (Section 4, pp. 10--14) and the sketches of Section 5 were
+not checked. Result pages:
 [[ramsey_theory/conlon_2013_two_extensions_ramsey_s_theorem/theorem_1_1|Theorem 1.1]],
 [[ramsey_theory/conlon_2013_two_extensions_ramsey_s_theorem/theorem_1_2|Theorem 1.2]],
 [[ramsey_theory/conlon_2013_two_extensions_ramsey_s_theorem/lemma_3_2|Lemma 3.2]]

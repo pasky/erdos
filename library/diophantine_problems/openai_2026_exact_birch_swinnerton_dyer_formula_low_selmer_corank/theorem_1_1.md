@@ -72,7 +72,7 @@ TeX file `build/sections/01-introduction.tex`, label `thm:main` (lines
 47--62), with the normalizations at lines 12--45; PDF p. 3. The proof closes
 at the end of Section 10 (`build/sections/10-center.tex` lines 254--271, PDF
 p. 92). The label, lines and pages are the same in the October 3 version.
-Read 2026-10-12. Provenance and attestations are on
+Provenance and attestations are on
 [[diophantine_problems/openai_2026_exact_birch_swinnerton_dyer_formula_low_selmer_corank/_index|the card]].
 
 **Read depth.** Claims checked: the statement and its normalizations, the

@@ -60,7 +60,7 @@ Source: <https://arxiv.org/abs/0908.0429>.
 inverting Theorem 1.9 at l = 4 gives the larger Omega(t^{3/2}/log t); and the
 paper's remark that the conjecture R(C_4, K_t) = O(t^{2-eps}) was open in 2009)
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For strictly 2-balanced H the H-free process ends with minimum
   degree at least c n^(1-(v_H-2)/(e_H-1)) (log n)^(1/(e_H-1)) whp, so ex(n,H) =

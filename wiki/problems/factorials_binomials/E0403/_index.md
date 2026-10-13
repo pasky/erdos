@@ -107,9 +107,9 @@ dated 21 June 2026, refer to it (the database's separate formalized flag,
 dated 22 July 2026, marks the formal-conjectures statement), and no Lean file
 is built here.
 
-Search scope, 2026-10-07: the site's problem page, its discussion thread and
-proof-claims list, the community database, the formal-conjectures statement
-file and the Lean proof in its two repositories, and the monograph's p. 79
-and bibliography for the attribution and the dates.
+Search scope: the site's problem page, its discussion thread and proof-claims
+list, the community database, the formal-conjectures statement file and the
+Lean proof in its two repositories, and the monograph's p. 79 and bibliography
+for the attribution and the dates.
 [[problems/factorials_binomials/E0404/_index|Problem 404]] asks the
 companion question the site points to.

@@ -52,11 +52,10 @@ scatters it). The edition is identified in the
 
 **Read depth.** Claims checked: the statement, the definition of $G(n,m)$,
 Lemma 2 and the conventions of p. 265 were read clause by clause on the page
-images on 2026-09-22. The proof of Lemma 2 (p. 266, half a page) was read in
-full on the page image and its structure followed at filing depth; the
-one-sentence induction from Lemma 2 to Satz 2 was followed by the arithmetic
-below. None of the steps was checked. Nothing here is independently
-reviewed.
+images. The proof of Lemma 2 (p. 266, half a page) was read in full on the page
+image and its structure followed at filing depth; the one-sentence induction
+from Lemma 2 to Satz 2 was followed by the arithmetic below. None of the steps
+was checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

@@ -38,14 +38,13 @@ on pp. 6--7. Theorem 1.3 and the paper's explicit graph/additive distinction are
 on p. 3; its proof is on pp. 7--9. Lemma 2.1 is on p. 4, and Remark 2.2 is on
 p. 5.
 
-Version check of 2026-09-17: the arXiv listing still shows only v1 (14 May
+Version check of 2026-09-17: the arXiv listing showed only v1 (14 May
 2026) and no journal reference, and a Crossref bibliographic query found no
 publication record; the Ramsey bound of Remark 2.2 therefore rests on an
 unrefereed preprint, and the page for Problem 554 carries that
 qualification. Read status: claims checked for Remark 2.2 (p. 5, read clause
-by clause in the text layer, with the page image rendered, on 2026-09-17);
-the derivation it delegates to the Axenovich et al. argument was not
-checked.
+by clause in the text layer, with the page image rendered); the derivation it
+delegates to the Axenovich et al. argument was not checked.
 
 For $m,r\in\mathbb N$, let $S_m(r)$ be the least $N$ such that every
 $r$-coloring of $[N]$ contains a monochromatic solution of
@@ -90,7 +89,7 @@ direct but nonresolving numerator bound, and
 [[../wiki/problems/ramsey_theory/E0609/_index|#609]] through the additive results as
 non-transferring context.
 
-**Results to transcribe.**
+**Results.**
 
 - [[additive_combinatorics/miyazaki_2026_improved_ramsey_bounds_generalized_schur_equations/theorem_1_1|Theorem 1.1]]: for all $m,r\in\mathbb N$,
   $S_m(r)\leq(2m+1)^r(r!)^{1/m}+1$.

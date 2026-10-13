@@ -62,7 +62,7 @@ not $O(n)$, so the problem's linear bound fails for this family at maximum
 degree three; the theorem does not determine how large the size-Ramsey
 number of a graph of maximum degree three can be.
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/tikhomirov_2022_bounded_degree_graphs_large_size_ramsey/theorem_1_1|Theorem 1.1]] (p. 1): For every n >= 1 there is a graph G' on n vertices of maximum
   degree at most three with size-Ramsey number r-hat(G') >= cn exp(c sqrt(log

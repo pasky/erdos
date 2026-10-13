@@ -14,7 +14,7 @@ updated: 2026-10-07T20:33:23Z
 **Source.** Definition 19.1, Hypothesis 19.2, Lemmas 19.3--19.4 and Theorem
 19.5, Section 19, PDF pp. 17--18 of the retained arXiv:2605.21518v1 (18 May
 2026); Section 20 (Scope), p. 18. Read on the PDF pages in the text layer.
-Preprint with no journal record found on 2026-09-18.
+An unrefereed preprint.
 
 ## Statement
 

@@ -67,7 +67,7 @@ with the a_i restricted to nonzero residues; it leaves the small primes and
 sequences containing the residue 0, which the site's wording admits.
 Theorem 1 gives the case in which no residue occurs eta_0 p times or more.
 
-**Results to transcribe.**
+**Results.**
 
 - Main theorem (p. 123, unnumbered): Graham's conjecture holds for all
   sufficiently large primes p: if all nonempty zero 0-1 combinations of p

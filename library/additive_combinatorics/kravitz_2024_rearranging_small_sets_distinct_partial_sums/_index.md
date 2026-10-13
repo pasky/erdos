@@ -50,8 +50,8 @@ The copy read for this card is arXiv:2407.01835v2 (18 August 2024, 4 pp.),
 whose pagination is used here; no journal version was located (Crossref
 bibliographic query, 2026-09-18). Read status: claims checked for Theorem
 1.2, Theorem 1.3 and Lev's Theorem 2.1 (pp. 1--2, text layer), read clause
-by clause on 2026-09-18; the two half-page proofs (p. 2) were read in full
-and are not independently reviewed. Result pages:
+by clause; the two half-page proofs (p. 2) were read in full and are not
+independently reviewed. Result pages:
 [[additive_combinatorics/kravitz_2024_rearranging_small_sets_distinct_partial_sums/theorem_1_2|theorem_1_2]]
 and
 [[additive_combinatorics/kravitz_2024_rearranging_small_sets_distinct_partial_sums/theorem_1_3|theorem_1_3]].

@@ -15,7 +15,8 @@ updated: 2026-10-07T20:33:22Z
 ***
 
 Cheuk Fung (Joshua) Lau, On the Number of Prime Factors of Consecutive Integers.
-arXiv preprint (2026). arXiv:2604.15042. The arXiv record
+arXiv preprint (2026). arXiv:2604.15042; the held PDF is arXiv:2604.15042v2
+(24 June 2026). The arXiv record
 (https://arxiv.org/abs/2604.15042, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 
@@ -46,7 +47,7 @@ disprove it), [[../wiki/problems/arithmetic_functions/E0826/_index|#826]]
 (Corollary 1.2, a weak form),
 [[../wiki/problems/arithmetic_functions/E1203/_index|#1203]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: There is C > 0 such that for infinitely many n, omega(n+k) <=
   Omega(n+k) <= C log k for every integer k >= 2.

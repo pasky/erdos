@@ -225,9 +225,10 @@ variant rather than $S$.
   mathematical review and that the original unbounded $\varphi(n)$ lies
   outside the argument.
 - Mathematics Stack Exchange, answer by Erick Wong of 29 March 2015 to
-  question 1210886 (<https://math.stackexchange.com/a/1211557>,): $\sum_{n\ge1}(\phi(n)\bmod k)/k^n$
-  is irrational for every integer $k>2$, the base equal to the modulus; the
-  Cook note cites it as the antecedent of its residue result.
+  question 1210886 (<https://math.stackexchange.com/a/1211557>):
+  $\sum_{n\ge1}(\phi(n)\bmod k)/k^n$ is irrational for every integer $k>2$,
+  the base equal to the modulus; the Cook note cites it as the antecedent of
+  its residue result.
 
 **Search scope.** The status rests on the following routes; none found a
 proof, disproof, preprint or claim on the full series.

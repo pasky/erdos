@@ -80,10 +80,9 @@ states it, the survey paragraph with the triangle example, and Definition
 2.1 (p. 118), Definition 2.2 and Propositions 2.3--2.6 (p. 119), Lemma 3.5
 (pp. 121--122) and Lemma 3.6 (p. 122), Lemma 3.7 and Lemma 4.1
 (pp. 122--123), the Main theorem (p. 124) and the Corollary (p. 125), each
-read clause by clause on the page images of PDF pp. 1--3 and 6--9 (printed
-pp. 117--119 and 122--125) on 2026-09-22; the reference list (p. 125) was
-read on the page image. The
-derivation of the Corollary from Proposition 2.6 and the Main theorem (one
+read clause by clause on the page images of PDF pp. 1--3 and 6--9 (printed pp.
+117--119 and 122--125); the reference list (p. 125) was read on the page image.
+The derivation of the Corollary from Proposition 2.6 and the Main theorem (one
 sentence, p. 125) and the proofs of Propositions 2.4 and 2.5 (a paragraph
 each, p. 119) were read in full on the page images and followed. The proof
 of Proposition 2.6 (pp. 119--120), Definitions 3.1--3.2 and Lemmas 3.3--3.4
@@ -91,10 +90,10 @@ with the proof of Lemma 3.3 (pp. 120--121) were read in the text layer of
 PDF pp. 4--5 for structure only; the proofs of Lemmas 3.5--3.7 and 4.1
 (pp. 122--124) and of the Main theorem (pp. 124--125) were read on the page
 images for structure only, as summarized on the result pages, and none of
-their steps was checked. On 2026-10-07 every statement this card and its
-result pages make about the paper was checked again on the page images of
-PDF pp. 1--9, including the opening of Lemma 3.5 on p. 121. Nothing here is
-independently reviewed.
+their steps was checked. Every statement this card and its result pages make
+about the paper was later checked again on the page images of PDF pp. 1--9,
+including the opening of Lemma 3.5 on p. 121. Nothing here is independently
+reviewed.
 
 ## Contents
 

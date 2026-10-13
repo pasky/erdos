@@ -49,11 +49,11 @@ with Numdam's cover page; printed p. $n$ is PDF p. $n-139$), a scan with a
 partial text layer; the volume is Structure theory of set addition,
 Astérisque 258, Société mathématique de France (1999), the article on
 pp. 141--148 (Numdam record read: MR 1701192, Zbl 0979.11005;
-the article's own DOI is 10.24033/ast.442, per its Crossref record read). Read status: claims checked, on the page images (130 dpi) on
-2026-09-18, for the definition and the historical account on printed
-p. 141, Theorem 1, Theorem 2 and the uniqueness remark on printed p. 142;
-the proof (Sections 1--3, pp. 142--147) was read for its structure only and
-$N_0$ is not made explicit. Result page:
+the article's own DOI is 10.24033/ast.442, per its Crossref record read). Read
+status: claims checked, on the page images (130 dpi), for the definition and the
+historical account on printed p. 141, Theorem 1, Theorem 2 and the uniqueness
+remark on printed p. 142; the proof (Sections 1--3, pp. 142--147) was read for
+its structure only and $N_0$ is not made explicit. Result page:
 [[additive_combinatorics/deshouillers_1999_additive_problem_erdos_straus/theorem_1|theorem_1]]
 (Theorem 1 with Theorem 2 and the remark). The digest's statements agree
 with the page images; part 1, cited for Theorem 2 and the $(2+o(1))\sqrt N$
@@ -90,7 +90,7 @@ $f(n)\ge\lfloor\sqrt{4n+1}-1\rfloor$; admissibility is stronger than the
 problem's distinct-block-sums condition, so Theorem 1 does not bound $f(n)$;
 the limits are stated in the relation section below.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: There is an effectively computable N_0 such that for N >= N_0,
   every admissible A contained in [1,N] has Card A <= 2 sqrt(N+1/4) - 1.

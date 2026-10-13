@@ -42,9 +42,9 @@ identified on the
 [[polynomials/erdos_1958_metric_properties_polynomials/_index|source card]].
 
 **Read depth.** Claims checked: the problem and the note were read clause by
-clause on the page images of pp. 142 and 148 on 2026-10-08, the disk symbol
-in Problem 9 at high resolution. The construction was read, not checked.
-Nothing here is independently reviewed.
+clause on the page images of pp. 142 and 148, the disk symbol in Problem 9 at
+high resolution. The construction was read, not checked. Nothing here is
+independently reviewed.
 
 ## Dependencies
 

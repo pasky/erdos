@@ -101,7 +101,7 @@ against the page images of printed pp. 339--340. The scan read ends with the
 definition of $H$ on p. 340, so the density conclusions given above for p. 341
 were not checked against it; no full proof verification was undertaken.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (§5, pp. 339--340): for
   $E_i=M([2^i,2^{i+1}))$, one has

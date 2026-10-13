@@ -22,7 +22,7 @@ $$
 
 The series converges absolutely for $|z|<1$ because $\varphi(n)\le n$.
 The [[problems/irrationality/E0249/_index|problem page]] records the exact
-irrationality question and its dated partial status search; this page
+irrationality question and its partial status search; this page
 examines two specified sources, not a new comprehensive status search.
 The deductions below are author-recorded and unreviewed. They give no
 proof or disproof of the irrationality of $S$.

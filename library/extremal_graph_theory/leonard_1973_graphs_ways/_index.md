@@ -60,8 +60,7 @@ counterexample, is a different paper, filed as
 [[extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/_index|leonard_1973_conjecture_bollobas_erdos]];
 its announcement of the counterexample, "a graph $G$ having 57 points and
 141 edges (i.e., $m=5$, $n=14$), which contains no 5-way", is on printed
-p. 281 (PDF p. 1), located here on the text layer of that page on
-2026-09-22 and paged on
+p. 281 (PDF p. 1), located here on the text layer of that page and paged on
 [[extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/counterexample_p281|counterexample_p281]].
 The PDF's footer prints only "https://doi.org/10.4153/CJM-1973-069-x Published
 online by Cambridge University Press"; the publisher's article page
@@ -100,7 +99,7 @@ $\ell_m(n)\ge[m(n-1)/2]+1$, at the problem's parameters the problem's edge
 count (paged at
 [[extremal_graph_theory/leonard_1973_graphs_ways/construction_p687|construction_p687]]).
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem (1): Every graph on n vertices with 3n-2 edges contains a pair of
   vertices joined by a 6-way.

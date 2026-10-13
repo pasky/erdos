@@ -57,7 +57,7 @@ review of the manuscript was found, and an arXiv posting is not refereeing.
 
 The status-defining source is Theorem 1.1 of a five-page manuscript by Przemek
 Chojecki, *The second term for strongly 2-primitive sets*. It is hosted at
-ulam.ai (retrieved; its PDF metadata is dated 13 July 2026) and was posted as
+ulam.ai (its PDF metadata is dated 13 July 2026) and was posted as
 arXiv:2607.15306v1 on 14 July 2026. It proves
 $F(n)=\pi(n)+(\tfrac{27}{2}+o(1))n^{2/3}/(\log n)^2$. The upper bound tracks the
 constants in the four classes of Erdős's 1938 factorization argument. The lower
@@ -142,11 +142,11 @@ answer $c=27/2$ to GPT-5.6 Sol prompted by Chojecki, and declares the
 variant `erdos_793.variants.constant`, the limit $27/2$, under the same
 category with a `formal_proof` attribute naming the file
 `src/latest/ErdosProblems/Erdos793.lean` of Boris Alexeev's repository
-`plby/lean-proofs` at the commit the claim page links. That file, declares itself a formalization of the manuscript's
-result (informal authors GPT-5.6 Sol Ultra prompted by
-Chojecki, formal authors Aristotle and Wouter van Doorn, the prime number
-theorem dependency integrated from the PrimeNumberTheoremAnd project by a
-named contributor), proves `erdos_793` as
+`plby/lean-proofs` at the commit the claim page links. That file declares
+itself a formalization of the manuscript's result (informal authors GPT-5.6
+Sol Ultra prompted by Chojecki, formal authors Aristotle and Wouter van Doorn,
+the prime number theorem dependency integrated from the PrimeNumberTheoremAnd
+project by a named contributor), proves `erdos_793` as
 `second_order_asymptotic_of_PNT _root_.pi_alt` from an imported lower-bound
 module, and records in a comment that `#print axioms` lists `propext`,
 `Classical.choice` and `Quot.sound`; it is linked from the claim page and
@@ -332,11 +332,11 @@ in its snapshot of 2026-10-06.
   suggests the upper-bound constant $(k+1)^3/(2(k-1))$ for general $k$ and
   doubts it is sharp. None of these papers is held; they are recorded from
   the thread and their Crossref and arXiv records.
-- OEIS: the page as accessed marks a sequence as possible and names none.
+- OEIS: the site's page marks a sequence as possible and names none.
 
-**Search scope (2026-09-18 UTC).** None of the routes below found a
-refereed or arXiv version of the manuscript, an independent review, a
-dispute of the argument, or a second proof of the asymptotic.
+**Search scope.** The routes below, as they stood on 2026-09-18, showed no
+refereed or arXiv version of the manuscript, no independent review, no dispute
+of the argument and no second proof of the asymptotic.
 
 - The site: problem page, discussion thread and proof-claim tab as of
   that date; the formal-conjectures directory listing and full tree (no
@@ -356,7 +356,7 @@ dispute of the argument, or a second proof of the asymptotic.
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [CGS10],
 [Ch11], [PaSa16], [CLP22].
 
-**Search scope (2026-10-07 UTC).** The formal-conjectures file
+**Search scope (formalizations).** The formal-conjectures file
 `ErdosProblems/793.lean` and the file `Erdos793.lean` in
 `plby/lean-proofs` that its attribute names (Formalization above); the
 header, the axioms, the theorems `main` and `Lambda_limit` and the two

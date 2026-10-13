@@ -93,8 +93,8 @@ p. 4).
 **Local verification.** The copy read for this card is the arXiv v3 PDF, dated
 February 6, 2026. Rendered pages 1, 3–7, 9, 11–12, 15–19, 21–28, and 29–33 were inspected for the
 taxonomy, selected problem statements and results, and the disclosure. The digest
-records which statements are source-reported and which checks were local. On
-2026-10-08 pp. 9--39 were read on the print for the result pages listed below.
+records which statements are source-reported and which checks were local. Pages
+9--39 were read on the print for the result pages listed below.
 
 **Problem-link scope.** E652 and E1051 are classified as autonomous; E654 and
 E1040 as partial; E397, E659, E935, and E1089 as independent rediscoveries; and

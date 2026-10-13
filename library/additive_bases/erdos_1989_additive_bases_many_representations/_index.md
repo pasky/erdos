@@ -53,7 +53,7 @@ Creative Commons Attribution license, with no version stated.
 **Bears on.** [[../wiki/problems/additive_bases/E0868/_index|#868]],
 [[../wiki/problems/additive_bases/E0871/_index|#871]]
 
-**Results to transcribe.**
+**Results.**
 
 - Lemma 1: If |S_A(n) n S_A(u)| < (1/2)|S_A(n)| then n is in 2(A \ S_A(u)); i.e.
   deleting the solution set of u does not destroy n.

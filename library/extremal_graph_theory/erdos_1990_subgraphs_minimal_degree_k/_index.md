@@ -79,14 +79,14 @@ and generalized wheel and Theorem 1 (p. 53), the attribution of the $k=3$
 conjecture, the Conjecture, Theorem 2 and Lemma 3 (p. 54), the sharpness
 paragraph and Lemma 4 (p. 55), Lemma 5 (p. 56), the proof of Theorem 1, the
 $C^{k-1}$ example and the definition of $c(k,\varepsilon)$ (p. 57), and the
-Problems section with the references (p. 58), each read clause by clause on
-the page images of PDF pp. 1--6 on 2026-09-22; the whole paper was read on
-the page images. The proof of Lemma 3 (p. 54, a paragraph) and the proof of
-Theorem 1 (p. 57, a paragraph) were read in full and their reductions
-followed; the proof of Lemma 4 (p. 55, half a page) was read in full and its
-deletion algorithm followed, its closing arithmetic not rechecked; the proofs
-of Lemma 5 (pp. 56--57) and of Theorem 2 (p. 58) were read for structure
-only. Nothing here is independently reviewed.
+Problems section with the references (p. 58), each read clause by clause on the
+page images of PDF pp. 1--6; the whole paper was read on the page images. The
+proof of Lemma 3 (p. 54, a paragraph) and the proof of Theorem 1 (p. 57, a
+paragraph) were read in full and their reductions followed; the proof of Lemma 4
+(p. 55, half a page) was read in full and its deletion algorithm followed, its
+closing arithmetic not rechecked; the proofs of Lemma 5 (pp. 56--57) and of
+Theorem 2 (p. 58) were read for structure only. Nothing here is independently
+reviewed.
 
 ## Contents
 

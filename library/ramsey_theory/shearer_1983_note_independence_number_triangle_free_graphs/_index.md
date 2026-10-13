@@ -35,8 +35,8 @@ the site's AKS80, filed as
 [[ramsey_theory/ajtai_1980_note_ramsey_numbers/_index|ajtai_1980_note_ramsey_numbers]];
 the running head and title on printed p. 354 (PDF p. 1) match this entry,
 and its Theorem 2, the independence bound $\alpha(G)\ge0.01(n/t)\ln t$ that
-Theorem 1 here sharpens, is on printed p. 355 (PDF p. 2), both located on
-the text layer on 2026-09-22 and the theorem paged on
+Theorem 1 here sharpens, is on printed p. 355 (PDF p. 2), both located on the
+text layer and the theorem paged on
 [[ramsey_theory/ajtai_1980_note_ramsey_numbers/theorem_2|theorem_2]]);
 and Ajtai, Erdős, Komlós and Szemerédi, On
 Turán's theorem for sparse graphs, Combinatorica 1 (1981), 313--317 (the
@@ -64,14 +64,13 @@ and its proof (p. 83 to the top of p. 84), Remark 1 and Remark 2 (p. 84),
 the definition (3) of $F(d,T)$ and the two inequalities it satisfies
 (p. 84), the displayed bounds (5)--(8) and (12) (pp. 85--86), Remark 3
 (pp. 86--87), Remark 4 and the closing paragraph (p. 87), each read clause
-by clause on the page images of PDF pp. 1--5 on 2026-09-22; the reference
-list (p. 87) was read on the page image. The proof of Theorem 1 (one page)
-was read in full on the page images and followed: the differential equation
-(1), the sign claims on $f'$ and $f''$ and the averaging argument for (2)
-were checked here, the first two numerically at sample points. The
-derivations of (4)--(12) (pp. 84--86) were read on the page images for
-structure only, and none of their steps was checked. Nothing here is
-independently reviewed.
+by clause on the page images of PDF pp. 1--5; the reference list (p. 87) was
+read on the page image. The proof of Theorem 1 (one page) was read in full on
+the page images and followed: the differential equation (1), the sign claims on
+$f'$ and $f''$ and the averaging argument for (2) were checked here, the first
+two numerically at sample points. The derivations of (4)--(12) (pp. 84--86) were
+read on the page images for structure only, and none of their steps was checked.
+Nothing here is independently reviewed.
 
 ## Contents
 

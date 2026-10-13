@@ -167,8 +167,9 @@ $\min\{x_n-x_1\}=(e-1)n+o(n)$ fails for large $n$. The companion question,
 pair, passes to every $k$ by a splitting step recorded there.
 
 **Search scope.** The problem, discussion and proof-claim
-pages; the community database record; the formal-conjectures tree(no file when searched;
-`ErdosProblems/286.lean` was added 2026-09-20, see Formalization); the arXiv
+pages; the community database record; the formal-conjectures tree (no file
+when searched; `ErdosProblems/286.lean` was added 2026-09-20, see
+Formalization); the arXiv
 listing for math/9904181 (one version, no journal reference); the Crossref
 record of the Acta Arithmetica article; the Semantic Scholar citation list of
 the published paper (eleven records, none on the width question for every $k$);

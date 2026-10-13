@@ -37,9 +37,9 @@ identified in the
 [[ramsey_theory/reid_parker_1970_disproof_conjecture_erdos_moser_tournaments/_index|source digest]].
 
 **Read depth.** Claims checked: both statements were read clause by clause
-on the page image on 2026-09-22; the two proofs (a paragraph each) were
-read in full and followed. The printed proof of Corollary 1 carries a
-misprint recorded below. Nothing here is independently reviewed.
+on the page image; the two proofs (a paragraph each) were read in full and
+followed. The printed proof of Corollary 1 carries a misprint recorded below.
+Nothing here is independently reviewed.
 
 ## Proof pointer
 

@@ -49,7 +49,7 @@ at every prime (p. 1).
 `preprints/Fontaine-Mazur-modularity-at-the-prime-2-October-6-2026`; TeX file
 `build/sections/introduction.tex`, label `thm:main` (lines 20--30), PDF p. 1;
 the proof closes in Section 8.8 (`build/sections/classicality.tex`, lines
-707--758, PDF p. 67). Read 2026-10-12. Provenance and attestations are on
+707--758, PDF p. 67). Provenance and attestations are on
 [[number_theory/openai_2026_fontaine_mazur_modularity_prime_2/_index|the card]].
 
 **Read depth.** Claims checked: the statement, the definitions of odd and

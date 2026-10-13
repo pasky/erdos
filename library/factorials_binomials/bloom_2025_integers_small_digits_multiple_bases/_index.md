@@ -53,7 +53,7 @@ Source: <https://arxiv.org/abs/2509.02835>.
 
 **Bears on.** [[../wiki/problems/factorials_binomials/E0376/_index|#376]]
 
-**Results to transcribe.**
+**Results.**
 
 - Conjecture 1: For bases g_1,...,g_r with no common power and weights kappa_j
   in (0,1] satisfying sum_j log_{g_j}(g_j / ceil(kappa_j g_j)) < 1, there should

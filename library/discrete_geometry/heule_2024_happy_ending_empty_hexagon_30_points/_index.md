@@ -44,7 +44,7 @@ Source: <https://arxiv.org/abs/2403.00737>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0216/_index|#216]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: h(6) = 30: every set of 30 points in general position in the plane
   contains an empty hexagon (6-hole), and 29 points do not suffice.

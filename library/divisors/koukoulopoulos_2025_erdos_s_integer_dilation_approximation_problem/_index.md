@@ -56,7 +56,7 @@ Source: <https://arxiv.org/abs/2502.09539>.
 
 **Bears on.** [[../wiki/problems/divisors/E0143/_index|#143]]
 
-**Results to transcribe.**
+**Results.**
 
 - [[divisors/koukoulopoulos_2025_erdos_s_integer_dilation_approximation_problem/theorem_1|Theorem 1]]
   (p. 2): if A is discrete in R_{>0} with limsup (1/log x) sum_{alpha in A

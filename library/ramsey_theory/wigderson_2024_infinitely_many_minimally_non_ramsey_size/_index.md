@@ -80,7 +80,7 @@ Source: <https://arxiv.org/abs/2409.05931>.
 **Context only.** [[../wiki/problems/ramsey_theory/E0566/_index|#566]];
 [[../wiki/problems/ramsey_theory/E0568/_index|#568]].
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/wigderson_2024_infinitely_many_minimally_non_ramsey_size/theorem_1|Theorem 1]]: There exist infinitely many graphs $G$ that are not
   Ramsey size-linear while every proper subgraph of $G$ is.

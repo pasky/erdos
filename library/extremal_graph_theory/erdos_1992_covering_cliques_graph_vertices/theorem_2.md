@@ -39,8 +39,8 @@ the
 [[extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/_index|source digest]].
 
 **Read depth.** Claims checked: the statement was read clause by clause on the
-page image on 2026-09-19; the proof (pp. 283--284) was read for its structure
-and not checked. Nothing here is independently reviewed.
+page image; the proof (pp. 283--284) was read for its structure and not checked.
+Nothing here is independently reviewed.
 
 ## Proof pointer
 

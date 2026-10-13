@@ -79,12 +79,11 @@ Remark (p. 767), Theorem 10, Theorem 11 (p. 771), Klarner's Question,
 Theorem 12 and the opening of § 10 with the definitions of $T(x)$ and
 $C(x)$ (p. 772), and the closing paragraph on Erdős and the $3x+1$ problem
 (p. 775), each read clause by clause on the page images of PDF pp. 2, 5, 8,
-10, 15, 16, 20, 21 and 24 on 2026-09-22. The proofs of Theorem 3
-(pp. 760--761) and Theorem 6 (pp. 767--768) were read in full in the text
-layer and their steps followed at the level recorded on the result pages;
-the rest of the paper (§§ 2--3, 6, 8--10) was read in the text layer for
-structure only, and no computation was rerun. Nothing here is independently
-reviewed.
+10, 15, 16, 20, 21 and 24. The proofs of Theorem 3 (pp. 760--761) and Theorem 6
+(pp. 767--768) were read in full in the text layer and their steps followed at
+the level recorded on the result pages; the rest of the paper (§§ 2--3, 6,
+8--10) was read in the text layer for structure only, and no computation was
+rerun. Nothing here is independently reviewed.
 
 ## Contents
 

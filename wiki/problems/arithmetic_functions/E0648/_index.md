@@ -75,7 +75,7 @@ digests the paper, no proof step is transcribed or independently reviewed by
 this project, and the Lean development linked on the claim page is not built
 or audited by this corpus.
 
-**Status search (2026-10-07).** The site's page and thread, the arXiv record
+**Status search.** The site's page and thread, the arXiv record
 and the Crossref record of the journal version; no other database searched.
 <!-- BEGIN problem library links -->
 

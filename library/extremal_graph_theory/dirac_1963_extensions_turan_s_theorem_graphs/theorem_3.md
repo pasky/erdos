@@ -78,13 +78,13 @@ on the page images. The edition is identified in the
 [[extremal_graph_theory/dirac_1963_extensions_turan_s_theorem_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: Theorem 3, its footnote, the $\Delta(n,k)$
-contrast, Theorem 4 and Theorem 5 were read clause by clause on the page
-images on 2026-09-22, and the deduction of Theorem 3 from Theorem 2 and of
-Theorem 2 from Theorem 1 (p. 418) was read in full on the page image and
-followed, with the value of $d_k(k+q-1)$ recomputed here. The proof of (4)
-(p. 418) and the proofs of Theorems 4 and 5 (pp. 419--422) were read on the
-page images for structure only, and their case analyses were not checked.
-Nothing here is independently reviewed.
+contrast, Theorem 4 and Theorem 5 were read clause by clause on the page images,
+and the deduction of Theorem 3 from Theorem 2 and of Theorem 2 from Theorem 1
+(p. 418) was read in full on the page image and followed, with the value of
+$d_k(k+q-1)$ recomputed here. The proof of (4) (p. 418) and the proofs of
+Theorems 4 and 5 (pp. 419--422) were read on the page images for structure only,
+and their case analyses were not checked. Nothing here is independently
+reviewed.
 
 ## Proof pointer
 

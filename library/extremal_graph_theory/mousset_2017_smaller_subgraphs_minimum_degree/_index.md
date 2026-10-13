@@ -40,31 +40,30 @@ distribute the Work", and names no open license.
 with a complete text layer; the arXiv record lists this one
 version and no journal reference. Every locator on this card and on the
 result page is a preprint page unless marked as the journal's. The journal
-text (8 pages; submitted 17 July 2017, accepted 26 September 2017) was
-compared on 2026-10-07 for Theorem 1.3 and its proof only (page images of
-pp. 1--8), and it differs in substance. Its Theorem 1.3 (journal p. 2) has
-$8(k+1)^5$ where the preprint has $4(k+1)^5$. Its induction step (journal
-p. 2) deletes any nonempty set $A$ of at most $n-k-1$ vertices met by at
-most $(k-1)|A|$ edges, where the preprint deletes one vertex of degree at
-most $k-1$. Its Claim 2.2 (i) (journal p. 3), the preprint's Claim 2.3 (i),
-is restricted to good sets of at most $n-k-1$ vertices, and its proof treats
-the union of two overlapping good sets as "the only difficult case", using
-the assumption that step leaves: every nonempty set $A$ of at most $n-k-1$
-vertices meets at least $(k-1)|A|+1$ edges. The preprint calls (i) "easily
-proved by induction". Its edge count in the conflict graph (journal p. 6)
-gives an independent set of at least $|\mathcal F|/(2(k+1)^4)$ good sets
-where the preprint (p. 4) gives $|\mathcal C|/(k+1)^4$; that factor $2$ is
-where the constant doubles. The journal renumbers Definition 2.2, Claim 2.3
-and Lemma 2.1 as Definition 2.1, Claim 2.2 and Lemma 2.3, and remarks
+text (8 pages; submitted 17 July 2017, accepted 26 September 2017) was compared
+for Theorem 1.3 and its proof only (page images of pp. 1--8), and it differs in
+substance. Its Theorem 1.3 (journal p. 2) has $8(k+1)^5$ where the preprint has
+$4(k+1)^5$. Its induction step (journal p. 2) deletes any nonempty set $A$ of at
+most $n-k-1$ vertices met by at most $(k-1)|A|$ edges, where the preprint
+deletes one vertex of degree at most $k-1$. Its Claim 2.2 (i) (journal p. 3),
+the preprint's Claim 2.3 (i), is restricted to good sets of at most $n-k-1$
+vertices, and its proof treats the union of two overlapping good sets as "the
+only difficult case", using the assumption that step leaves: every nonempty set
+$A$ of at most $n-k-1$ vertices meets at least $(k-1)|A|+1$ edges. The preprint
+calls (i) "easily proved by induction". Its edge count in the conflict graph
+(journal p. 6) gives an independent set of at least $|\mathcal F|/(2(k+1)^4)$
+good sets where the preprint (p. 4) gives $|\mathcal C|/(k+1)^4$; that factor
+$2$ is where the constant doubles. The journal renumbers Definition 2.2, Claim
+2.3 and Lemma 2.1 as Definition 2.1, Claim 2.2 and Lemma 2.3, and remarks
 (journal p. 2) that Sauermann has since proved Conjecture 1.1. Result pages:
 [[extremal_graph_theory/mousset_2017_smaller_subgraphs_minimum_degree/conjecture_1_1|conjecture_1_1]]
 and
 [[extremal_graph_theory/mousset_2017_smaller_subgraphs_minimum_degree/theorem_1_3|theorem_1_3]].
 
 Read status: claims checked for Conjecture 1.1, Theorem 1.2 and the footnote
-(p. 1) and Theorem 1.3 and Lemma 2.1 (p. 2), read clause by clause on the
-page images on 2026-09-18; the proof of Theorem 1.3 (Section 2, pp. 2--6)
-was read for its structure and not checked step by step.
+(p. 1) and Theorem 1.3 and Lemma 2.1 (p. 2), read clause by clause on the page
+images; the proof of Theorem 1.3 (Section 2, pp. 2--6) was read for its
+structure and not checked step by step.
 
 With $t_k(n)=(k-1)(n-k+2)+\binom{k-2}2$, for $k\ge2$ every graph on
 $n\ge k+1$ vertices with $t_k(n)$ edges contains a subgraph of minimum degree

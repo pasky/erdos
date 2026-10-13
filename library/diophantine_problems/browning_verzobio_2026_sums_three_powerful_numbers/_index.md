@@ -21,7 +21,7 @@ The arXiv record (https://arxiv.org/abs/2608.24512, read 2026-10-02) names the
 Creative Commons Attribution 4.0 license.
 
 Tim Browning, Matteo Verzobio, "Sums of three powerful numbers,"
-arXiv:2608.24512 (2026).
+arXiv:2608.24512 (2026). The held PDF is arXiv:2608.24512v1 (25 August 2026).
 
 ## Overview
 

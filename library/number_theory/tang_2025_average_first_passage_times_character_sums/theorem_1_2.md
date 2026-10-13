@@ -47,8 +47,8 @@ first-passage formulation".
 
 **Source.** Q. Tang and H. Zhang, *Average first-passage times for
 character sums*, arXiv:2512.24631v2 (18 January 2026), 9 pages; Theorem 1.2
-on p. 2, the definitions on pp. 1--2, read on the page images. No journal
-version was found on 2026-09-18. The edition read is identified in the
+on p. 2, the definitions on pp. 1--2, read on the page images. A preprint.
+The edition read is identified in the
 [[number_theory/tang_2025_average_first_passage_times_character_sums/_index|source digest]].
 
 **Read depth.** Claims checked: the statement, the definitions, the remark

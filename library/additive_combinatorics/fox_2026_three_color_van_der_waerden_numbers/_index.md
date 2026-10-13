@@ -48,7 +48,7 @@ Source: <https://arxiv.org/abs/2606.02541>.
 (Theorem 1, the three-color analogue; the two-color question stays open),
 [[../wiki/problems/additive_combinatorics/E0190/_index|#190]] (Theorem 3)
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 2): For k sufficiently large, w(k;3) > 2^{k(log* k)/4}, so
   three-color van der Waerden numbers grow super-exponentially and

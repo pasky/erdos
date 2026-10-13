@@ -20,7 +20,8 @@ Diego Armentano, Leandro Bentancur, Federico Carrasco, Marcelo Fiori, Matías
 Valdés, Mauricio Velasco, "Characterization of Logarithmic Fekete Critical
 Configurations of at Most Six Points in All Dimensions," arXiv:2502.10152
 (2025). The arXiv record (https://arxiv.org/abs/2502.10152, read 2026-10-02)
-names the Creative Commons Attribution-ShareAlike 4.0 license.
+names the Creative Commons Attribution-ShareAlike 4.0 license. The held PDF is
+arXiv:2502.10152v3 (22 March 2026).
 
 **Markdown.** A complete reading copy sits beside the PDF.
 

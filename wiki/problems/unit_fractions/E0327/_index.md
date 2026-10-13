@@ -104,7 +104,7 @@ https://www.erdosproblems.com/327, accessed 2026-09-17.
 - [OEIS] Xie, Y., Sequence A384927, The On-Line Encyclopedia of Integer
   Sequences (2025; entry last modified 21 January 2026, server time):
   $f_1(n)$ for $n\le5000$ (b-file by S. Kesarwani), with a comment
-  conjecturing that $a(n)/n\to1/2$; accessed.
+  conjecturing that $a(n)/n\to1/2$.
 
 **Formalization.** None recorded. No file `ErdosProblems/327.lean` exists in
 google-deepmind/formal-conjectures (2026-10-07); the community database records the statement as not formalized and no formal proof.
@@ -235,11 +235,11 @@ $1/2$ and below the proved $25/28$; the second question's computed ratios
 to $N=1000$ stay above $0.69$ (forum, not in the OEIS). These finite values
 are consistent with every claim above and decide nothing.
 
-**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
+**Search scope.** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures
-directory as listed on 2026-09-17 (no file); the arXiv listings for
-2607.15419 (one version, no journal reference) and 2607.05823 (one
-version); the Semantic Scholar citation list for 2607.15419 (empty); arXiv
+directory as listed on 2026-09-17 (no file); the arXiv listings on that date
+for 2607.15419 (one version, no journal reference) and 2607.05823 (one
+version); the Semantic Scholar citation list for 2607.15419 (then empty); arXiv
 API searches for abstracts on unit fractions
 and averages (Sawin's preprint and one unrelated record), on harmonic
 triples (Sawin's preprint and unrelated records) and for "Erdős problem"
@@ -247,7 +247,7 @@ with unit fractions (none); the GitHub API for the head of
 `donalddellapietra/erdos-327-proof` and the commit of [Li26]'s certificate
 script; OEIS A384927; the primary sources [Sa26], [vD25], [ErGr80], [Li26],
 [DP26a] and [DP26b]. Not searched: MathSciNet, zbMATH,
-Google Scholar, X. Nothing found is refereed.
+Google Scholar, X. Nothing found was refereed on 2026-09-17.
 
 **Remaining gaps.** (1) The second question's negative answer is a
 preprint (Sawin) with a declared AI-assisted discovery step and no review;

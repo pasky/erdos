@@ -49,7 +49,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0156/_index|#156]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.11: Minimum complete 3-AP-free set sizes in vector spaces: sqrt(2/3)
   p^(2k-1) < a(3-AP, F_p^(4k-2)) <= p^(2k-1) when -2 is a non-square in F_p, and

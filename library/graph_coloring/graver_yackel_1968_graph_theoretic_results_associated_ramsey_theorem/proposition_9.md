@@ -52,11 +52,11 @@ is identified in the
 **Read depth.** Claims checked: the statement, the setup of the sequence
 $G(y)$ and the definitions of $H_1(y)$, $H_2(y)$, $K_i(y)$, $p_i(y)$ and
 $e_i(y)$, Lemma 9 and the proof of the proposition were read clause by
-clause on the page images on 2026-09-22. The proof of the proposition
-(one page) was read in full and followed; the proof of Lemma 9 (one page)
-was read on the page image and its estimates were not checked. Proposition
-6 and Remark 2, which the proofs invoke, were read in the text layer
-(pp. 140--141). Nothing here is independently reviewed.
+clause on the page images. The proof of the proposition (one page) was read in
+full and followed; the proof of Lemma 9 (one page) was read on the page image
+and its estimates were not checked. Proposition 6 and Remark 2, which the proofs
+invoke, were read in the text layer (pp. 140--141). Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

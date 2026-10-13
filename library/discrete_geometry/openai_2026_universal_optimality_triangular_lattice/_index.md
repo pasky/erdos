@@ -91,10 +91,10 @@ Lemma 6.2, Proposition 7.2 and Corollary 8.1, read clause by clause in the TeX
 source (`sections/01-uniform-gaussian-theorem.tex`,
 `sections/02-cardinal-fourier.tex`, `sections/06-gaussian-energy-transfer.tex`,
 `sections/07-shifted-mixtures.tex` and `sections/08-renormalized-jellium.tex`
-of the release's TeX bundle; PDF pp. 2, 6, 33--34, 37 and 41) on 2026-10-07;
-the proofs, Sections 2--5, Appendix B and the two arithmetic appendices A and
-C, were read for their structure only and no step was checked; nothing here is
-independently reviewed.
+of the release's TeX bundle; PDF pp. 2, 6, 33--34, 37 and 41); the proofs,
+Sections 2--5, Appendix B and the two arithmetic appendices A and C, were read
+for their structure only and no step was checked; nothing here is independently
+reviewed.
 
 ## Contents
 

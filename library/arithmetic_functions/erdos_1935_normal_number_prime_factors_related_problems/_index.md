@@ -47,7 +47,7 @@ Source: <https://users.renyi.hu/~p_erdos/1935-08.pdf>.
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0416/_index|#416]],
 [[../wiki/problems/arithmetic_functions/E0821/_index|#821]]
 
-**Results to transcribe.**
+**Results.**
 
 - Part 1 theorem: For the set M = {p-1 : p prime}, so N(n) ~ n/log n, the normal
   number of prime factors is B(n) = log log n.

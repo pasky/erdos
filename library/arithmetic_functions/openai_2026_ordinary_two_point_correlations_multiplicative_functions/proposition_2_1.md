@@ -39,8 +39,8 @@ functions*, release folder
 `preprints/Ordinary-two-point-correlations-of-multiplicative-functions-September-24-2026`;
 TeX file `build/quantitative/01-setup.tex`, label `q:progression` (lines
 7--18), PDF p. 7. The proof occupies Sections 2--8 and closes in Section 8.4
-(`build/quantitative/07-spectral.tex`, lines 279--333, PDF pp. 42--43). Read
-2026-10-12. Provenance and attestations are on
+(`build/quantitative/07-spectral.tex`, lines 279--333, PDF pp. 42--43).
+Provenance and attestations are on
 [[arithmetic_functions/openai_2026_ordinary_two_point_correlations_multiplicative_functions/_index|the card]].
 
 **Read depth.** Claims checked: the statement, and the statements of Lemma 3.1

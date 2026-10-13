@@ -44,9 +44,8 @@ mathematics release, folder
 TeX source `sections/01-introduction.tex`, label `thm:main` (PDF p. 1); the
 proof occupies `sections/02-reduction-and-notation.tex` through
 `sections/18-late-dynamics-and-its-transfer-problem.tex` (PDF pp. 10--165),
-closing in the paragraph "Conclusion of Theorem 1.1" (PDF p. 165). Read on
-2026-10-07 in the TeX source with the PDF text layer for page numbers. The
-card
+closing in the paragraph "Conclusion of Theorem 1.1" (PDF p. 165). Read in the
+TeX source with the PDF text layer for page numbers. The card
 [[ramsey_theory/openai_2026_hypercube_ramsey_number_has_linear_order/_index|openai_2026_hypercube_ramsey_number_has_linear_order]]
 records the release's provenance and formalization statements.
 

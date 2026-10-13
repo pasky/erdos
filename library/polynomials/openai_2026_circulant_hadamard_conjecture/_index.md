@@ -123,10 +123,9 @@ Proposition 3.4 and Lemma 4.1, read clause by clause in the TeX source
 (`sections/introduction.tex` lines 21--24 and 43--49,
 `sections/local.tex` lines 39--67, `sections/reduction.tex` lines 9--12,
 `sections/products.tex` lines 62--73, 139--149 and 189--195,
-`sections/contradiction.tex` lines 10--19) on 2026-10-07; the proofs were
-read for their structure only and no step was checked; nothing here is
-independently reviewed. Result numbers and pages follow the held PDF
-(15 pages), which is canonical.
+`sections/contradiction.tex` lines 10--19); the proofs were read for their
+structure only and no step was checked; nothing here is independently reviewed.
+Result numbers and pages follow the held PDF (15 pages), which is canonical.
 
 ## Contents
 

@@ -311,7 +311,7 @@ disputing either answer, a proof that $\sum1/a\le1+o(1)$, or a proof claim.
 
 - The site: problem page, discussion thread and proof-claim tab; the full
   directory listing and tree of formal-conjectures at the pinned commit (no
-  file for this problem on that date; the file added on
+  file for this problem at that commit; the file added on
   20 September 2026 is recorded under Formalization); the community
   database entry.
 - The Szeged repository record of [ScSz59] (title, authors, journal, volume

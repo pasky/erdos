@@ -47,7 +47,7 @@ article's.
 
 **Bears on.** [[../wiki/problems/diophantine_problems/E0942/_index|#942]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theoreme 1: There are infinitely many n such that (n^2,(n+1)^2) contains more
   than (9/20)(log n/log log n)^{1/3} powerful numbers.

@@ -12,8 +12,8 @@ updated: 2026-10-07T12:43:12Z
 ***
 
 **Source.** Theorem 3.1, p. 3 of the deposit's manuscript (§3, "The main
-theorem"); its proof occupies pp. 3--4. Standing: unrefereed; the deduction was followed
-here on 2026-09-27 (author-recorded, no independent review).
+theorem"); its proof occupies pp. 3--4. Standing: unrefereed; the deduction was
+followed here (author-recorded, no independent review).
 
 ## Statement
 

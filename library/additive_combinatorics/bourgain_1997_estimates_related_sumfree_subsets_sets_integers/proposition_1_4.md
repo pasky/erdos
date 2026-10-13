@@ -48,9 +48,9 @@ scan, read on the page images. The artifact is identified in the
 [[additive_combinatorics/bourgain_1997_estimates_related_sumfree_subsets_sets_integers/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and (1.5) were read clause by
-clause on the page image of p. 72 on 2026-10-08. The proof (§ 4, p. 77) was
-read on the page image and its structure followed; its inequalities were not
-checked. Nothing here is independently reviewed.
+clause on the page image of p. 72. The proof (§ 4, p. 77) was read on the page
+image and its structure followed; its inequalities were not checked. Nothing
+here is independently reviewed.
 
 ## Proof pointer
 

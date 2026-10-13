@@ -53,7 +53,7 @@ with an exponent depending only on the degree*, release folder
 TeX file `build/manuscript/sections/introduction.tex`, label `thm:main`
 (lines 14--26), PDF p. 2; the proof closes at the end of Section 7
 (`build/manuscript/sections/induction.tex`, lines 300--363, PDF pp. 45--46).
-Read 2026-10-12. Provenance and attestations are on
+Provenance and attestations are on
 [[additive_combinatorics/openai_2026_power_saving_intersective_polynomial_differences/_index|the card]].
 
 **Read depth.** Claims checked: the statement, the definitions and notation

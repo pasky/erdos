@@ -97,11 +97,11 @@ point. The claim is neither reviewed nor refereed, and its Lean development is
 not built in this repository. The derived standing is `claimed`, with claim
 value `proved`.
 
-Search scope (2026-10-07): the site page; its proof-claims tab, which is
-empty; its discussion thread of seven comments; the community database at
-teorth/erdosproblems, which lists the problem as open and unformalized; the
-formal-conjectures tree; the note at ulam.ai; the Lean folder at its pinned
-commit.
+Search scope, with the sources as they stood on 2026-10-07: the site page; its
+proof-claims tab, which was empty; its discussion thread of seven comments; the
+community database at teorth/erdosproblems, which listed the problem as open
+and unformalized; the formal-conjectures tree; the note at ulam.ai; the Lean
+folder at its pinned commit.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

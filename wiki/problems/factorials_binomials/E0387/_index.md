@@ -91,11 +91,11 @@ admits an $n$ with no divisor of $\binom nk$ in $(n-k,n]$, is problem B34 of
 $n/\gcd(n,k)$ divides $\binom nk$, and $n/\gcd(n,k)\geq n/k$. Faulkner [Fa66]
 gives a prime divisor at least the least prime above $2k$ when $n$ is at least
 that prime, apart from $\binom92$ and $\binom{10}3$. Erdős wrote in [Er78g] that
-he expected a negative answer. Search scope, 2026-10-07: the site's problem page
-and discussion thread, the arXiv record of the paper with its three versions,
-and the formal-conjectures file. The paper's proofs are not checked here, and
-this page takes [Er78g], [Fa66] and [Sc58] from the site's and the library
-card's reports of them.
+he expected a negative answer. Search scope: the site's problem page and
+discussion thread, the arXiv record of the paper (three versions on
+2026-10-07), and the formal-conjectures file. The paper's proofs are not
+checked here, and this page takes [Er78g], [Fa66] and [Sc58] from the site's
+and the library card's reports of them.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

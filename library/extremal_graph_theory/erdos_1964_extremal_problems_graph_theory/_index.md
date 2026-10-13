@@ -153,7 +153,7 @@ I can prove it for $k=3$ and $k=4$ also"
 ([[extremal_graph_theory/erdos_1964_extremal_problems_graph_theory/problem_p36|problem_p36]]);
 the paper counts $k-1$ diagonals where the site counts $k$ chords.
 
-**Results to transcribe.**
+**Results.**
 
 - eq_8_p33: For k>=3 there is eps_k>0 with f_1(n;k,k) > n^{1+eps_k} (the
   weaker result Erdős can prove in place of the conjectured (7)).

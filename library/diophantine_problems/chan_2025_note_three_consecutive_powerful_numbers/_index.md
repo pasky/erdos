@@ -40,7 +40,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/diophantine_problems/E0364/_index|#364]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: There are no primes p, q and positive integers x, y, z with x^3-1
   = p^3 y^2 and x^3+1 = q^3 z^2, so no three consecutive powerful numbers

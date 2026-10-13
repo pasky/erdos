@@ -79,15 +79,15 @@ commentary's $c=1/10$ remark must retain this qualification.
 
 Source: <https://users.renyi.hu/~p_erdos/1973-16.pdf>.
 
-**Reading and proof scope.** On 2026-09-09, complete printed/PDF pp. 1-5 were
-visually read for definitions, statements, proof ideas, signs and the
-construction's exponent and weak prime endpoint. Page 4 contains the whole
-Theorem 5 proof. The restored proof ideas do not award independent full-proof
-coverage; the later pages of the Theorem 6 proof were not read.
+**Reading and proof scope.** Complete printed/PDF pp. 1-5 were visually read for
+definitions, statements, proof ideas, signs and the construction's exponent and
+weak prime endpoint. Page 4 contains the whole Theorem 5 proof. The restored
+proof ideas do not award independent full-proof coverage; the later pages of the
+Theorem 6 proof were not read.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0786/_index|#786]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For any additive $f$ not identically zero,
   $G(x,c)<(1-\epsilon_f)x$ uniformly in $c$ for all sufficiently large $x$,

@@ -19,9 +19,9 @@ updated: 2026-10-07T20:33:23Z
 [Full paper in Markdown](ge_et_al_2026_all_simplices_exhibit_canonical_ramsey_property.md).
 
 Gennian Ge, Yang Shu, Zixiang Xu, Wenjun Yu, "All simplices exhibit canonical
-Ramsey property," arXiv:2607.11782 (2026). The arXiv record
-(https://arxiv.org/abs/2607.11782, read 2026-10-02) names the Creative Commons
-Attribution 4.0 license.
+Ramsey property," arXiv:2607.11782 (2026). The held file is arXiv:2607.11782v1
+of 13 July 2026. The arXiv record (https://arxiv.org/abs/2607.11782, read
+2026-10-02) names the Creative Commons Attribution 4.0 license.
 
 ## Overview
 

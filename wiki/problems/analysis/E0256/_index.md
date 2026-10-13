@@ -129,11 +129,11 @@ Tang [Ta26] proved $f(n)\ge2\sqrt n$ in a refereed paper. The improvement
 settles no instance of the problem, since it fixes neither the order of $f(n)$
 nor an answer to either question, so it has no claim page.
 
-Search scope, 2026-10-07: the site's page and commentary (last edited 20
-January 2026), the community database (the problem recorded as unformalized),
-the formal-conjectures catalog (no statement file for the problem) and the
-arXiv and Crossref records of Tang's paper. No proof claim is recorded for
-the problem. Remaining gaps: the order of $f(n)$, between $2\sqrt n$ and
+Search scope: the site's page and commentary (last edited 20 January 2026), the
+community database (which recorded the problem as unformalized on 2026-10-07),
+the formal-conjectures catalog (no statement file for the problem on that date)
+and the arXiv and Crossref records of Tang's paper. No proof claim is recorded
+for the problem. Remaining gaps: the order of $f(n)$, between $2\sqrt n$ and
 $\exp(C(\log n)^4)$; no proof has been compiled or independently reviewed by
 this corpus.
 <!-- BEGIN problem library links -->

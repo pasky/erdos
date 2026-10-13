@@ -15,7 +15,8 @@ updated: 2026-10-07T20:53:39Z
 ***
 
 Ji Ho Bae, A resolution of Erdős Problem #190 via Erdős-Lovász, BCT, and
-Baker-Harman-Pintz. arXiv:2604.20588 (2026).
+Baker-Harman-Pintz. arXiv:2604.20588 (2026). The held PDF is
+arXiv:2604.20588v1 (22 April 2026).
 
 Let H(k) be the least N such that every finite coloring of [N] contains a
 monochromatic or a rainbow k-term arithmetic progression. Theorem 1.1 asserts
@@ -46,7 +47,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0190/_index|#190]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For k >= k_0, H(k)^{1/k}/k >= (1/e - eps(k)) * k/log k with
   eps(k) = O(k^{-0.475} log k).

@@ -47,7 +47,7 @@ Creative Commons Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0589/_index|#589]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 2.1: alpha(n) <= n^{5/6+o(1)}: there are n-point planar sets with no
   four collinear in which every subset of size n^{5/6+o(1)} has a collinear

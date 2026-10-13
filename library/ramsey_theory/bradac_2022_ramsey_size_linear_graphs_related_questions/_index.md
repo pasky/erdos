@@ -102,7 +102,7 @@ Theorem 2 gives $R(G,K_n)=O(n^3)$ for each of $Q_3$, $K_{3,3}$ and $K_4^*$,
 which are connected with $e-v\le4$, and Section 6 (p. 15) proves the sharper
 $R(K_4^*,K_n)=O(n^{5/2})$; [[../wiki/problems/ramsey_theory/E0568/_index|#568]]
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/bradac_2022_ramsey_size_linear_graphs_related_questions/theorem_2|Theorem 2]]: If $H$ is connected and
   $e(H)-v(H)\leq 4$, then $R(H,K_n)=O(n^3)$.

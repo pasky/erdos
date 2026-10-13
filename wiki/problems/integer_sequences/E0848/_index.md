@@ -83,21 +83,20 @@ claim page. Nothing was built or audited here.
 ## Current assessment
 
 The Statement is read for every $N\ge1$, as the site's label, which leaves a
-finite check of the small sizes, reads it. Search scope, 2026-10-06 and
-2026-10-07: the site's problem page, commentary and proof-claim tab; the
-statement, remark and section outline of Sawhney's note, the 48-comment
-discussion thread, the comments on the proof-claim tab, the first page of
-Sothanaphan's note, the Zenodo record and README of Pitchford's repository and
-the release list of Li's repository. Not part of that basis: Sawhney's proof,
-Sothanaphan's proof, the two full claims' manuscripts and Li's Lean project; no
-literature search beyond the site was made. The question is settled for all
-sufficiently large $N$ by the accepted partial claim, which gives no explicit
-threshold, so what remains on the site's account is a finite check of the small
-sizes; the pending partial claim puts the threshold at $2.64\cdot10^{17}$, and
-the two pending full claims assert that check closed with the exact value
-$\lfloor(N+18)/25\rfloor$ for every $N\ge1$, by different routes. The answer to
-the question is yes if either full claim stands, and yes for all large $N$ on
-the accepted evidence.
+finite check of the small sizes, reads it. Search scope: the site's problem
+page, commentary and proof-claim tab; the statement, remark and section outline
+of Sawhney's note, the discussion thread (48 comments on 2026-10-07), the
+comments on the proof-claim tab, the first page of Sothanaphan's note, the
+Zenodo record and README of Pitchford's repository and the release list of Li's
+repository. Not part of that basis: Sawhney's proof, Sothanaphan's proof, the
+two full claims' manuscripts and Li's Lean project; no literature search beyond
+the site was made. The question is settled for all sufficiently large $N$ by the
+accepted partial claim, which gives no explicit threshold, so what remains on
+the site's account is a finite check of the small sizes; the pending partial
+claim puts the threshold at $2.64\cdot10^{17}$, and the two pending full claims
+assert that check closed with the exact value $\lfloor(N+18)/25\rfloor$ for
+every $N\ge1$, by different routes. The answer to the question is yes if either
+full claim stands, and yes for all large $N$ on the accepted evidence.
 
 **The thread (to 2026-10-07).** Oldest first: comments of 29 August 2025
 on the density bound (the accounts DesmondWeisenberg and Woett, improving

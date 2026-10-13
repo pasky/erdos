@@ -89,10 +89,10 @@ density, about $\exp(-(\log\log N)^2)$, being swallowed by the tail's
 polynomial error term. The implication therefore decides nothing, and the
 post gets no claim page.
 
-Search scope (2026-10-07): the site's page and discussion thread (six
-comments, 2025-10-19 to 2026-04-17), the formal-conjectures statement file at
-its 2026-09-18 commit, the lean-proofs file and its commit history, and the
-arXiv records of both preprints.
+Search scope: the site's page and discussion thread (six comments, 2025-10-19
+to 2026-04-17), the formal-conjectures statement file at its 2026-09-18 commit,
+the lean-proofs file and its commit history, and the arXiv records of both
+preprints.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

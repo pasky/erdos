@@ -82,7 +82,7 @@ sequence with n_{i+1}/n_i > c > 1 has finite distinct-reciprocal sums
 representing every rational in an interval, is the statement whose negation
 the problem asks about; the problem page records its status.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 158): For P prime, D(P) >= P ceil(log_2 P); the inequality is
   not strict.

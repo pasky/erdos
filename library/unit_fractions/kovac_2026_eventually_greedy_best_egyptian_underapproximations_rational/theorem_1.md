@@ -65,9 +65,8 @@ proof was not read here beyond this scheme.
 
 Claims checked (statement and definitions read clause by clause on PDF
 pp. 2--3); the proof is unread beyond the scheme of Section 2. Author
-preprint: no refereed acceptance and no independent review were found on
-2026-09-17, and the authors disclose that key proof steps originated from a
-language model. Consumers state the result as a preprint claim.
+preprint; the authors disclose that key proof steps originated from a language
+model. Consumers state the result as a preprint claim.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0206/_index|#206]] (the rational
 companion question, not the almost-all catalog question).

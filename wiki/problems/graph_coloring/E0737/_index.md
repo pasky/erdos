@@ -48,7 +48,7 @@ https://www.erdosproblems.com/737.
 
 ## Current assessment
 
-The question, in the site's formulation accessed, asks whether a
+The question, in the site's formulation accessed 2026-09-04, asks whether a
 graph of chromatic number $\aleph_1$ has an edge $e$ lying on a cycle of length
 $n$ for every sufficiently large $n$. The standing is `solved`, `proved`,
 through
@@ -68,12 +68,12 @@ of the Erdős–Hajnal problem list
 records the weaker statement as its Problem 46, proved independently by Erdős,
 Hajnal and Shelah and by Thomassen.
 
-Search scope, 2026-10-07: the site's problem page and discussion thread (one
-comment, of 30 September 2025, supplying the Thomassen reference),
-the Crossref record of Thomassen's paper, and the papers of Erdős (1981), of
-Erdős, Hajnal and Shelah, and of Komjáth (2025). Thomassen's paper is not
-held in the library; its statement follows the site's record and the paper's
-title. The community database records no formalization.
+Search scope: the site's problem page and discussion thread (one comment, of
+30 September 2025, supplying the Thomassen reference), the Crossref record of
+Thomassen's paper, and the papers of Erdős (1981), of Erdős, Hajnal and
+Shelah, and of Komjáth (2025). Thomassen's paper is not held in the library;
+its statement follows the site's record and the paper's title. The community
+database records no formalization.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

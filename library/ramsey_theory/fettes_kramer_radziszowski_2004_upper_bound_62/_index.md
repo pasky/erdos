@@ -81,15 +81,14 @@ in this paper.
 
 ## Reading and standing
 
-On 2026-09-10, the selected journal's complete page images were inspected
-for PDF pp. 1–8 and 20–23, corresponding to printed pp. 41–48 and 60–63.
-This covered source identity, definitions, historical routing, the finite
-statement and its dependency pointers. Theorem 5.6 on printed p. 61 was
-visually rechecked when filing this source. Printed pp. 49–59 / PDF
-pp. 9–19 were not viewed at that filing. Text extraction was not usable
-for the scanned opening pages; the page images controlled the reading.
-On 2026-09-21 the complete page images of printed pp. 41–48 and 54–63 /
-PDF pp. 1–8 and 14–23 were read for the
+The selected journal's complete page images were inspected for PDF pp. 1–8 and
+20–23, corresponding to printed pp. 41–48 and 60–63. This covered source
+identity, definitions, historical routing, the finite statement and its
+dependency pointers. Theorem 5.6 on printed p. 61 was visually rechecked when
+filing this source. Printed pp. 49–59 / PDF pp. 9–19 were not viewed at that
+filing. Text extraction was not usable for the scanned opening pages; the page
+images controlled the reading. The complete page images of printed pp. 41–48 and
+54–63 / PDF pp. 1–8 and 14–23 were later read for the
 [[ramsey_theory/fettes_kramer_radziszowski_2004_upper_bound_62/section_5_pipeline|Section 5 pipeline map]],
 which records the reported computation stage by stage at claims-checked
 depth: the seeds, the counts 533, 724, 129, 124, 454, 452, 512, 5, 8191

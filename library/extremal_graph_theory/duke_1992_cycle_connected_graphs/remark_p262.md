@@ -60,8 +60,8 @@ Rödl, Extremal problems for cycle-connected graphs, Congr. Numer. 83 (1991),
 147--151, which this paper does not cite and which is not held.
 
 **Read depth.** Claims checked: the passage and the Theorem were read clause
-by clause on the page image on 2026-09-22. No proof of either is printed, so
-none was checked. Nothing here is independently reviewed.
+by clause on the page image. No proof of either is printed, so none was checked.
+Nothing here is independently reviewed.
 
 ## Proof pointer
 

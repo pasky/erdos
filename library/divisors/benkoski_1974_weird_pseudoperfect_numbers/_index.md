@@ -51,13 +51,13 @@ The copy read for this card is a seven-page scan of the article (printed
 p. $n$ is PDF p. $n-616$) with an OCR text layer that garbles the displays;
 the journal record is Math. Comp. 28 (1974), no. 126, 617--623, DOI
 10.1090/S0025-5718-1974-0347726-9 (Crossref record read;
-received 28 June 1973). Read status: claims checked, on the page images
-(130 dpi) on 2026-09-18, for Theorem 1 (p. 617), the refinement
-$\sum1/a_i\le2-2^{1-n}$ with equality only for $a_i=2^{i-1}$ printed after
-its proof (p. 619), the recalled prize conjecture (p. 619) and Theorem
-2 with its closing remark (pp. 619--620); the proof of Theorem 1 and the
-outline of Theorem 2 were read for their structure only; the rest of the
-digest records an earlier reading that was not repeated. Result pages:
+received 28 June 1973). Read status: claims checked, on the page images (130
+dpi), for Theorem 1 (p. 617), the refinement $\sum1/a_i\le2-2^{1-n}$ with
+equality only for $a_i=2^{i-1}$ printed after its proof (p. 619), the recalled
+prize conjecture (p. 619) and Theorem 2 with its closing remark (pp. 619--620);
+the proof of Theorem 1 and the outline of Theorem 2 were read for their
+structure only; the rest of the digest records an earlier reading that was not
+repeated. Result pages:
 [[divisors/benkoski_1974_weird_pseudoperfect_numbers/theorem_1|theorem_1]]
 and
 [[divisors/benkoski_1974_weird_pseudoperfect_numbers/theorem_2|theorem_2]].
@@ -93,7 +93,7 @@ $\sum1/a_i<C$ for an absolute constant $C$, "It seems certain that
 $C<10$"; the English outline of Erdős's 1962 Theorem II behind the
 problem's reciprocal-sum question.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 617): If all 2^n subset sums of 1 <= a_1 < ... < a_n are
   distinct then sum 1/a_i < 2; hence an integer with property P has

@@ -17,7 +17,7 @@ updated: 2026-10-07T20:53:40Z
 
 Sarosh Adenwalla, A Generalisation of a Result on Monotone Arithmetic
 Progressions in Permutations of the Positive Integers. arXiv preprint (2023).
-arXiv:2302.09662.
+arXiv:2302.09662. The held PDF is arXiv:2302.09662v1 (19 February 2023).
 
 Proposition 1 shows that for every 3-permissible n (equivalently every power of
 two) the positive integers can be permuted so that no monotone 4-term arithmetic
@@ -42,7 +42,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0197/_index|#197]]
 
-**Results to transcribe.**
+**Results.**
 
 - Proposition 1: For every 3-permissible n there is a permutation of the
   positive integers avoiding monotone 4-term APs whose common difference is not

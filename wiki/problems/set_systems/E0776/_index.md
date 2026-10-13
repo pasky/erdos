@@ -113,10 +113,10 @@ recurrence, with finite certificates, a verifier, and Lean lemmas that import
 Thiim's development, produced with GPT-6 and Claude; it is a replication of
 part of the full claim, not a result of its own, and is noted on Thiim's page.
 
-**Search scope.** 2026-10-07: the site's problem page, its discussion thread
-of nine posts and its proof-claims list of two entries, the arXiv record of
-He and Tang's paper, and the formal-conjectures repository, which has no file
-for the problem.
+**Search scope.** The site's problem page, its discussion thread and its
+proof-claims list, the arXiv record of He and Tang's paper, and the
+formal-conjectures repository; on 2026-10-07 the thread held nine posts, the
+list two entries, and the repository no file for the problem.
 
 <!-- BEGIN problem library links -->
 

@@ -60,13 +60,13 @@ of Problem 793, from a manuscript whose author declares AI assistance.
 Przemek Chojecki, *The second term for strongly 2-primitive sets*. A
 five-page manuscript hosted at <https://www.ulam.ai/research/erdos793.pdf>
 (2026), also posted as arXiv:2607.15306 (one version, submitted 14 July
-2026, with the same title, author and abstract; abstract page read). The byline names Przemek Chojecki with the affiliation
-ulam.ai; the text carries no date, no arXiv identifier and no journal; the
-PDF metadata gives a creation date of 13 July 2026, and its reference [1]
-records the site's Problem 793 page as "accessed". The site's
-Problem 793 page accepted the manuscript as the resolution on 14 July 2026
-(the page's last edit) after a thread comment of 13 July 2026 by the author
-linked it.
+2026, with the same title, author and abstract; abstract page read). The byline
+names Przemek Chojecki with the affiliation ulam.ai; the text carries no date,
+no arXiv identifier and no journal; the PDF metadata gives a creation date of 13
+July 2026, and its reference [1] records the site's Problem 793 page as
+"accessed July 13, 2026". The site's Problem 793 page accepted the manuscript as
+the resolution on 14 July 2026 (the page's last edit) after a thread comment of
+13 July 2026 by the author linked it.
 
 The copy read for this card is the PDF at that URL, five A4 pages produced by
 pdfTeX with a complete text layer,

@@ -45,7 +45,7 @@ Source: <https://math.colgate.edu/~integers/vol23.html>.
 
 **Bears on.** [[../wiki/problems/primes/E0218/_index|#218]]
 
-**Results to transcribe.**
+**Results.**
 
 - Conjecture 1: For any c >= 0 and eps > 0, pi_c(x) = (c+1)^(-1) pi(x) + O(x
   (log x)^(-3/2+eps)), where pi_c(x) counts p_n <= x with d_(n+1)/d_n >= c and

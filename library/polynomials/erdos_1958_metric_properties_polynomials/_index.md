@@ -185,12 +185,12 @@ The copy read for this card is the Rényi Institute's Erdős archive scan
 (24 pages, printed pp. 125--148 = PDF pp. 1--24). Read status: claims checked.
 The statements of Theorems 1--12 with their corollaries, the definitions of
 Section 7, the Remark after Theorem 10, Problems 1--7, 9--14 and 16, and the
-note added in proof (p. 148) were read clause by clause on the page images on
-2026-10-08; Problems 8 and 15 were not checked. The proofs were read for
-structure, and the identity behind Theorem 10 was followed; no proof was
-independently verified. The scan carries no notice; the publisher's article
-page shows "© Hebrew University of Jerusalem" under "Reprints and permissions"
-as subscription content with no open access designation
+note added in proof (p. 148) were read clause by clause on the page images;
+Problems 8 and 15 were not checked. The proofs were read for structure, and the
+identity behind Theorem 10 was followed; no proof was independently verified.
+The scan carries no notice; the publisher's article page shows "© Hebrew
+University of Jerusalem" under "Reprints and permissions" as subscription
+content with no open access designation
 (https://link.springer.com/article/10.1007/BF02790232), every other right
 reserved.
 

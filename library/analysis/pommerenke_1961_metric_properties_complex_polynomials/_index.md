@@ -97,15 +97,14 @@ Read status: claims checked for every numbered statement of the paper,
 Theorems 1--16 and Lemmas 1--6, and for the unnumbered passages on
 Problem 7 (p. 98), on the minimum projection $b$ (p. 103), on the width
 and diameter of a continuum (p. 109) and on Problem 13 (p. 112), each read
-clause by clause on the page images of PDF pp. 1--19 (printed
-pp. 97--115) on 2026-09-22; the footnote, the section headings and the
-reference list were read on the same images. The proofs of Theorem 1,
-of the $z^n-r^n$ example, of Lemmas 1--3, of Theorems 4 and 7, of
-Theorem 14 and of Theorems 15--16 (a paragraph or a page each) were read
-in full and their steps followed; the proofs of Theorems 3, 5, 6, 9, 10,
-11, 12 and 13 and of Lemmas 4--6 were read for structure and not checked.
-Three filing observations are recorded in the contents below. Nothing here
-is independently reviewed.
+clause by clause on the page images of PDF pp. 1--19 (printed pp. 97--115); the
+footnote, the section headings and the reference list were read on the same
+images. The proofs of Theorem 1, of the $z^n-r^n$ example, of Lemmas 1--3, of
+Theorems 4 and 7, of Theorem 14 and of Theorems 15--16 (a paragraph or a page
+each) were read in full and their steps followed; the proofs of Theorems 3, 5,
+6, 9, 10, 11, 12 and 13 and of Lemmas 4--6 were read for structure and not
+checked. Three filing observations are recorded in the contents below. Nothing
+here is independently reviewed.
 
 ## Contents
 

@@ -112,14 +112,13 @@ and the $k(F)$ question, Theorem 1 and Theorem 2 with the Kostochka remark
 (p. 82), Theorem 3 with its remark on $c$, Proposition 1 and the paragraph
 after it, the definition of $d(n,F;k)$, Theorem 4, the definition of type
 I and Theorem 5 (p. 83), each read clause by clause on the page images of
-PDF pp. 1--3 on 2026-09-22, Theorems 2 and 3 on an enlarged crop; the
-proof of Theorem 5, the acknowledgment and reference [1] were read on the
-page image of PDF p. 7 and references [2]--[11] on the page image of PDF
-p. 8; the proofs of § 3.1 and § 3.2 (pp. 85--86) were read on the page
-images of PDF pp. 5--6 for their structure and their headings, and the
-proofs of Theorems 1 and 2 (pp. 83--85) and of Proposition 1 (pp. 86--87)
-were read in the text layer for structure only. No proof was checked, and
-nothing here is independently reviewed.
+PDF pp. 1--3, Theorems 2 and 3 on an enlarged crop; the proof of Theorem 5, the
+acknowledgment and reference [1] were read on the page image of PDF p. 7 and
+references [2]--[11] on the page image of PDF p. 8; the proofs of § 3.1 and §
+3.2 (pp. 85--86) were read on the page images of PDF pp. 5--6 for their
+structure and their headings, and the proofs of Theorems 1 and 2 (pp. 83--85)
+and of Proposition 1 (pp. 86--87) were read in the text layer for structure
+only. No proof was checked, and nothing here is independently reviewed.
 
 ## Contents
 
@@ -299,10 +298,10 @@ and
 [[ramsey_theory/erdos_tuza_1993_rainbow_subgraphs_edge_colorings_complete_graphs/theorem_3|theorem_3]].
 Theorem 1 (p. 82), Proposition 1, Theorem 4 and Theorem 5 (p. 83) and
 Problem 5 (p. 82), which the problem page also cites, have result pages
-of their own, their statements re-read clause by clause on the page images
-on 2026-10-08. Problems 2--4 are recorded as statements read on the page
-images; the proofs were read for structure only. The constant $c$ of
-Theorem 3 is not made explicit in the paper. Nothing here is independently reviewed.
+of their own, their statements re-read clause by clause on the page images.
+Problems 2--4 are recorded as statements read on the page images; the proofs
+were read for structure only. The constant $c$ of Theorem 3 is not made explicit
+in the paper. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0811/_index|#811]]: Problem 1 (printed
 p. 81, PDF p. 1), "Is $d(n,F)$ finite for every graph $F$ and every

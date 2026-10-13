@@ -33,10 +33,10 @@ Specialization made here for Problem 645: $k=4$, $r=2$ gives $c=1/3$, so
 some 2-coloring of $\mathbb N$ has no monochromatic four-term progression
 with $d\ge a/3$, and in particular none with $d>a$. The coloring the proof
 uses in this case colors $x$ by the parity of $i$ where $2^i\le x<2^{i+1}$.
-A check made here (2026-09-18) confirmed by computer that this coloring has
-no monochromatic four-term progression with $3d\ge a$ among progressions
-with last term at most $3000$; that is a spot check of the theorem's
-instance, not a review of its proof.
+A check made here confirmed by computer that this coloring has no monochromatic
+four-term progression with $3d\ge a$ among progressions with last term at most
+$3000$; that is a spot check of the theorem's instance, not a review of its
+proof.
 
 **Source.** T. C. Brown and B. M. Landman, *Monochromatic arithmetic
 progressions with large differences*, Bull. Austral. Math. Soc. 60 (1999),

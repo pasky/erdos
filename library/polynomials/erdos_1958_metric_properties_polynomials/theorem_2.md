@@ -36,8 +36,8 @@ Theorem 2 on p. 128, its proof on pp. 129--131. The copy read is identified on
 the [[polynomials/erdos_1958_metric_properties_polynomials/_index|source card]].
 
 **Read depth.** Claims checked: the statement and the remarks after it were
-read on the page image of p. 128 on 2026-10-08; the proof was read for
-structure, not checked. Nothing here is independently reviewed.
+read on the page image of p. 128; the proof was read for structure, not checked.
+Nothing here is independently reviewed.
 
 ## Proof pointer
 

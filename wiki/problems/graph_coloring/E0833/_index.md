@@ -71,8 +71,9 @@ page,
 a paper in a published proceedings volume, credited by the site's curator as
 the solution.
 
-**Search scope.** 2026-09-07: the site's problem page and its discussion
-thread, and the sources cited above. No other claim on the problem was found.
+**Search scope.** The site's problem page and its discussion thread, and the
+sources cited above; on 2026-09-07 the site's pages showed no other claim on
+the problem.
 
 **Remaining gaps.** The corpus has no result page with the full Erdős–Lovász
 proof, and the proof has not been independently reviewed. This is a

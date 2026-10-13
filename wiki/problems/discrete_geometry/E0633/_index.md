@@ -28,9 +28,9 @@ number of congruent triangles.
 arXiv:2604.03609v3. The accepted claim is
 [[problems/discrete_geometry/E0633/claims/2026_04_04_beeson_laczkovich_zhang|Beeson–Laczkovich–Zhang 2026]].
 The eight families in that theorem are exactly the triangles that admit a
-nonsquare tiling. All other triangles answer this question. The site page
-accessed records the solution, and the authors' primary paper supplies the
-argument.
+nonsquare tiling. All other triangles answer this question. The site page,
+accessed 2026-09-05, records the solution, and the authors' primary paper
+supplies the argument.
 
 **Source.** [erdosproblems.com/633](https://www.erdosproblems.com/633), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #633,

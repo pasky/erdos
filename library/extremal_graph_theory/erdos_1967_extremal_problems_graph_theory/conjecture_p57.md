@@ -53,8 +53,7 @@ the rendered page images. The edition read is identified in the
 [[extremal_graph_theory/erdos_1967_extremal_problems_graph_theory/_index|source digest]].
 
 **Read depth.** Claims checked: the sentences quoted above were read clause
-by clause on the page images on 2026-09-19. The paper gives no proof of any
-of them.
+by clause on the page images. The paper gives no proof of any of them.
 
 ## Proof pointer
 

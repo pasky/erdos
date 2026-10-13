@@ -118,8 +118,8 @@ Read status: claims checked for Theorem 1.1 and the definitions it rests on,
 and for the statements of Proposition 4.1, Lemma 4.2 and Lemma 5.2, read
 clause by clause in the TeX source (`sections/01_introduction.tex`, lines
 11--71; `sections/04_arch_formula.tex`, lines 46--57 and 177--181;
-`sections/05_positive_integral.tex`, lines 83--103) on 2026-10-07; the proofs
-in `sections/02_flux_transfers.tex` through `sections/06_hard_edge.tex` and
+`sections/05_positive_integral.tex`, lines 83--103); the proofs in
+`sections/02_flux_transfers.tex` through `sections/06_hard_edge.tex` and
 `sections/appendix_local.tex` were read for their structure only and no step
 was checked; nothing here is independently reviewed.
 

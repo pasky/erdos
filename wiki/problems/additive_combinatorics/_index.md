@@ -7,7 +7,7 @@ desc: |
   that force them (van der Waerden numbers), difference bases and perfect
   rulers, and sets with distinct subset sums.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-12T00:09:36Z
+updated: 2026-10-13T14:08:51Z
 ---
 
 # Sumsets and Arithmetic Progressions
@@ -253,8 +253,9 @@ Mrose).
 
 [[problems/additive_combinatorics/E0792/_index|E0792/]]: Estimates $f(n)$, the
 size of the largest sum-free subset (no solution to $a+b=c$) guaranteed inside
-any set of $n$ integers. The main term $n/3$ is settled, and the second-order
-term lies between $c\log\log n$ and $o(n)$.
+any set of $n$ integers. The main term $n/3$ is settled and the second-order
+term is $o(n)$; an unrefereed 2025 preprint claims that it is at least
+$c\log\log n$.
 
 [[problems/additive_combinatorics/E0806/_index|E0806/]]: Asks whether every set
 of at most $\sqrt n$ integers in $\{1,\ldots,n\}$ lies in $B+B$ for some $B$ of
@@ -292,8 +293,9 @@ proved in a 2026 preprint, developed with GPT-5.5 Pro, which the site accepted.
 
 [[problems/additive_combinatorics/E0866/_index|E0866/]]: Estimates, for $k\ge3$,
 how far above $N$ the size of a subset of $\{1,\ldots,2N\}$ must be to force $k$
-integers whose pairwise sums all lie in the set. It is open; the threshold is
-$1$ for $k=3$, $3$ for $k=4$, and bounded for $k=5$.
+integers whose pairwise sums all lie in the set. An unrefereed 2026 preprint
+claims that the threshold is $1$ for $k=3$, $3$ for $k=4$, and bounded for
+$k=5$.
 
 [[problems/additive_combinatorics/E0867/_index|E0867/]]: Asks whether a subset
 of $\{1,\ldots,N\}$ in which no sum of consecutive members lies in the set has

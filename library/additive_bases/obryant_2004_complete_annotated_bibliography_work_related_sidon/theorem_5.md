@@ -40,7 +40,7 @@ $r<n^{1/2}+n^{1/4}+1$.
 **Context on pp. 9--10.** Section 4.1 reports that the bounds
 $-n^{\alpha/2}<R(2,n)-\sqrt n<n^{1/4}+1$, the lower one for $n$ sufficiently
 large with $\alpha$ such that there is always a prime between $n-n^\alpha$ and
-$n$, date from 1941 with no progress since, and that Erdős offered USD 500 for
+$n$, date from 1941 with no progress since, and that Erdős offered a prize for
 deciding whether $R_2(2,n)-\sqrt n$ is unbounded. The survey attributes the
 upper bound to Erdős and Turán (its entry [5]), simplified in its entry [19],
 and the lower bound to Singer (entry [4]), simplified to the form proved here

@@ -15,7 +15,7 @@ updated: 2026-10-07T20:53:40Z
 ***
 
 Benjamin Bedert, Polynomial bounds for the Chowla Cosine Problem.
-arXiv:2509.05260 (2025).
+arXiv:2509.05260 (2025). The held PDF is arXiv:2509.05260v3 (24 July 2026).
 
 For a finite set A of n positive integers and f_A(x) = sum_{a in A} cos(ax),
 Theorem 1.1 proves min_x f_A(x) <= -n^{1/5-o(1)}, hence K(n) >> n^{1/5-o(1)},
@@ -42,7 +42,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/analysis/E0510/_index|#510]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: Every set A ⊂ N with |A| = n satisfies min_{x in [0,2pi]} sum_{a
   in A} cos(ax) <= -n^{1/5-o(1)}, so K(n) >> n^{1/5-o(1)}.

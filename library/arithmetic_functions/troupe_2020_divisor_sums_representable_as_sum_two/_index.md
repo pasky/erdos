@@ -59,7 +59,7 @@ of the sums of two squares, a density-zero set by Landau's theorem, has
 density zero; this is one case of the problem's assertion, and the paper
 treats no other target set.
 
-**Results to transcribe.**
+**Results.**
 
 - [[arithmetic_functions/troupe_2020_divisor_sums_representable_as_sum_two/theorem_1_2|Theorem 1.2]]
   (p. 1): B_s(x), the count of n <= x with s(n) a sum of two squares,

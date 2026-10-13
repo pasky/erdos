@@ -40,8 +40,8 @@ nontrivial zeros on $\Re s=1/2$" (p. 4).
 Re(s)>7/8*, release folder
 `preprints/The-Quasi-Riemann-Hypothesis-September-30-2026`; TeX file
 `paper.tex`, label `thm:main` (lines 106--110), PDF p. 4; the proof closes
-at the end of Section 20 (TeX lines 16455--16463, PDF p. 197). Read
-2026-10-07. Provenance and attestations are on
+at the end of Section 20 (TeX lines 16455--16463, PDF p. 197). Provenance and
+attestations are on
 [[primes/openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_7_8/_index|the card]].
 
 **Read depth.** Claims checked: the statement, the definitions it rests on,

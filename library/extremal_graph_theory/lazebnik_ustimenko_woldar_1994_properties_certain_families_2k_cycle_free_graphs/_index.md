@@ -76,13 +76,13 @@ Read status: claims checked for the abstract (p. 293), the definitions of
 magnitude, constant and magnitude extremality and the recalled bounds
 (p. 294), the paragraph on $r_2,r_3,r_5$ and the Theorem (p. 295), the
 construction of $\tilde G(t)$ and Lemma 1 (p. 295), Lemma 2 (p. 296) and the
-Corollary (p. 297), each read clause by clause on the page images of PDF
-pp. 1--5 on 2026-09-22. The proofs of Lemma 1 (p. 295), Lemma 2 (p. 296) and
-the Theorem (pp. 296--297) were read in full on the page images and their
-steps followed; the Corollary's proof is one sentence and was checked against
-Benson's counts on the Benson result pages. § 3, the note added in proof and
-the references (pp. 297--298, PDF pp. 5--6) were read on the page images.
-Nothing here is independently reviewed.
+Corollary (p. 297), each read clause by clause on the page images of PDF pp.
+1--5. The proofs of Lemma 1 (p. 295), Lemma 2 (p. 296) and the Theorem (pp.
+296--297) were read in full on the page images and their steps followed; the
+Corollary's proof is one sentence and was checked against Benson's counts on the
+Benson result pages. § 3, the note added in proof and the references (pp.
+297--298, PDF pp. 5--6) were read on the page images. Nothing here is
+independently reviewed.
 
 ## Contents
 

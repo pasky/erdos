@@ -39,9 +39,8 @@ Read status: claims checked for Problem 4 and the remarks around it
 sentences introducing them (printed p. 36), read clause by clause on the
 page images; Definition 3 (printed p. 37), Theorem 2'' (p. 39) and the
 Arboricity Theorem with the sentence on its proof (p. 40) were read as
-statements on the page images on 2026-10-07; Theorems 1, 2 and 2' are
-recorded from the earlier digest below and were not re-read; no proof was
-read.
+statements on the page images; Theorems 1, 2 and 2' are recorded from the
+earlier digest below and were not re-read; no proof was read.
 
 The paper studies RT(n,L_1,...,L_r,m), the maximum number of edges of an
 r-edge-colored graph on n vertices whose color ν contains no copy of L_ν and
@@ -79,7 +78,7 @@ the displays (7) and (8) on printed p. 36 (PDF p. 6, page image) quote the
 threshold it starts from, Szemerédi's RT(n,K_4,o(n)) <= n^2/8 + o(n^2) and
 the Bollobás-Erdős RT(n,K_4,o(n)) >= n^2/8 - o(n^2).
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For k_1,...,k_r ≥ 3 there is a fixed t and an asymptotically
   extremal sequence for RT(n,k_1,...,k_r,o(n)) whose vertex set splits into t

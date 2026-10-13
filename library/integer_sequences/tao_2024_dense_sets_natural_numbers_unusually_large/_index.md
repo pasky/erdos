@@ -93,7 +93,7 @@ Source: <https://arxiv.org/abs/2407.04226>.
   is at most $e^{C_0^2}$; this is the converse behind Theorem 1's optimality
   clause.
 
-**Results to transcribe.**
+**Results.**
 
 - [[integer_sequences/tao_2024_dense_sets_natural_numbers_unusually_large/theorem_1|Theorem 1]]
   (pp. 4-5): For any C_0 > 0 there is A with sum_{n in A, n<=x} 1/n =

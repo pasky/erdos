@@ -78,12 +78,12 @@ text layer garbles the displays). The edition read is identified in the
 [[extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: both statements were read clause by clause
-on the page images on 2026-09-22. The proof of Corollary 1 (one paragraph)
-was read in full and its reduction to Theorem 1 followed. The proof of
-Theorem 1 (pp. 270--271) and of Lemma 1 (pp. 269--270), on which it rests,
-were read for structure only and none of their leading-order estimates was
-checked. The Erdős--Rogers consequence above is the corpus's own two-line
-deduction and is not in the paper. Nothing here is independently reviewed.
+on the page images. The proof of Corollary 1 (one paragraph) was read in full
+and its reduction to Theorem 1 followed. The proof of Theorem 1 (pp. 270--271)
+and of Lemma 1 (pp. 269--270), on which it rests, were read for structure only
+and none of their leading-order estimates was checked. The Erdős--Rogers
+consequence above is the corpus's own two-line deduction and is not in the
+paper. Nothing here is independently reviewed.
 
 ## Proof pointer
 

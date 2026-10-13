@@ -49,7 +49,7 @@ Source: <https://github.com/ShouqiaoW/erdos/tree/main/1002>.
 
 **Bears on.** [[../wiki/problems/irrationality/E1002/_index|#1002]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (Main theorem): For every real c, Leb{alpha in (0,1) :
   S_N(alpha)/log N <= c} tends to 1/2 + arctan(2 pi c)/pi; equivalently S_N/log

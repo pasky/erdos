@@ -108,10 +108,11 @@ the argument to the explicit bound $a_k\le(k-1)(k+2)/2+n$ for every $k\ge0$.
 These bounds fix no sequence's growth, so they settle no instance and have no
 claim page; the thread comments are not a dated manuscript.
 
-Search scope, 2026-10-07: the site's page and commentary (last edited 20
-January 2026), the community database (the problem recorded as unformalized,
-with the OEIS entry A005487), the formal-conjectures catalog (no statement
-file for the problem) and the arXiv and Crossref records of Rolnick's paper.
+Search scope: the site's page and commentary (last edited 20 January 2026), the
+community database (which recorded the problem as unformalized, with the OEIS
+entry A005487, on 2026-10-07), the formal-conjectures catalog (no statement
+file for the problem on that date) and the arXiv and Crossref records of
+Rolnick's paper.
 No proof claim is recorded for the problem. Remaining gaps: an explicit
 description or the growth rate of $A(n)$ for any $n$ other than $3^m$ and
 $2\cdot3^m$, and a proof of the conjectured $k^2/\log k$ growth for any

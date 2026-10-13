@@ -26,8 +26,8 @@ authors' manuscript described in the
 [[extremal_graph_theory/bollobas_2002_better_bounds_max_cut/_index|source digest]],
 proof on p. 14. The paper introduces it as a remark.
 
-**Read depth.** Claims checked: statement and the two-line proof read on
-the page images on 2026-10-08.
+**Read depth.** Claims checked: statement and the two-line proof read on the
+page images.
 
 ## Proof pointer
 

@@ -56,7 +56,7 @@ its Satz 2, the bound $k(G)\ge2^{\binom{n-1}2-1}(n-1)e(G)$ (in Mader's
 letters, $e(G)$ the order and $k(G)$ the size) that forces a subdivision of
 the complete graph on $n$ vertices, the function $f(p)$ this paper credits
 to [11], is on printed p. 266 (PDF p. 2), read there clause by clause on the
-page image on 2026-09-22 and paged on
+page image and paged on
 [[extremal_graph_theory/mader_1967_homomorphieeigenschaften_und_mittlere_kantendichte_von_graphen/satz_2|satz_2]].
 The other six have no card here.
 
@@ -80,14 +80,13 @@ the earlier bounds (p. 883), the definitions of a linkable set and of a
 $(k,l)$-linked graph (p. 883) and of a minor (p. 884), Theorem 1 (p. 884),
 Lemma 3 (p. 885), Mader's connectivity theorem as cited, Theorem 4 and the
 closing paragraph (p. 886), each read clause by clause on the page images of
-PDF pp. 1--4 (printed pp. 883--886) on 2026-09-22; p. 887 (PDF p. 5) was
-read on the page image for the reference list, the dates and the address.
-The proof of Theorem 4 (p. 886, half a page) was read in full on the page
-image and its reduction to Mader's theorem, Lemma 3 and Theorem 1 was
-followed at filing depth; the proofs of Theorem 1 with Lemma 2
-(pp. 884--885) and of Lemma 3 (pp. 885--886) were read on the page images
-for structure only, and none of their steps was checked. Nothing here is
-independently reviewed.
+PDF pp. 1--4 (printed pp. 883--886); p. 887 (PDF p. 5) was read on the page
+image for the reference list, the dates and the address. The proof of Theorem 4
+(p. 886, half a page) was read in full on the page image and its reduction to
+Mader's theorem, Lemma 3 and Theorem 1 was followed at filing depth; the proofs
+of Theorem 1 with Lemma 2 (pp. 884--885) and of Lemma 3 (pp. 885--886) were read
+on the page images for structure only, and none of their steps was checked.
+Nothing here is independently reviewed.
 
 ## Contents
 

@@ -70,8 +70,8 @@ introduction, and the other statements follow the site's account and the
 publishers' records; the proof is not reconstructed in this repository and no
 independent review is recorded. Huber's paths, one for each exponent, settle no
 instance of the question and have no claim page. The status search covered the
-site, its forum thread and the community database on 2026-10-07; the thread
-holds no proof claim, and no other claim of the result was found.
+site, its forum thread and the community database; on 2026-10-07 the thread held
+no proof claim, and none of these sources recorded another claim of the result.
 
 ## Known Results
 

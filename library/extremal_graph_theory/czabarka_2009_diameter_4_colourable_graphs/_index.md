@@ -60,16 +60,15 @@ rights reserved." at the foot of its first page, every other right reserved.
 Read status: claims checked for the abstract (p. 1082), Conjecture 1 with
 its two parts and the $r=2$ construction (pp. 1082--1083), the paragraph
 stating what the paper proves (p. 1083), Lemma 1 and Theorem 1 (p. 1083),
-read clause by clause on the page images of PDF pp. 1--2 on 2026-09-22; the
-reduction of Theorem 1 to inequality (2) and the definitions of $g$, $f$,
-the distance layers $V_i$ and the color counts $\chi_i$ (pp. 1083--1084)
-were read on the page image of PDF p. 3, and the closing remark, the
-acknowledgements and the references (p. 1089) on the page image of PDF
-p. 8. The segment algorithm and the four segment types (pp. 1084--1085),
-the treatment of segments of types 1--4 (pp. 1086--1089) and the
-weighted-average estimate of Case 1 of type 3 (p. 1088) were read in the
-text layer for structure only. No proof was checked, and nothing here is
-independently reviewed.
+read clause by clause on the page images of PDF pp. 1--2; the reduction of
+Theorem 1 to inequality (2) and the definitions of $g$, $f$, the distance layers
+$V_i$ and the color counts $\chi_i$ (pp. 1083--1084) were read on the page image
+of PDF p. 3, and the closing remark, the acknowledgements and the references
+(p. 1089) on the page image of PDF p. 8. The segment algorithm and the four
+segment types (pp. 1084--1085), the treatment of segments of types 1--4 (pp.
+1086--1089) and the weighted-average estimate of Case 1 of type 3 (p. 1088) were
+read in the text layer for structure only. No proof was checked, and nothing
+here is independently reviewed.
 
 ## Contents
 

@@ -128,7 +128,7 @@ m >= n + k, the question whether the products of n + i and of m + i over
 1 <= i <= k can have the same prime factors for k > 2 and m >= n + k except
 finitely often, and the ratio alpha(m, n, k).
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For d_0(n) = prod a_i over the exponents of n, there are infinitely
   many n with m + d_0(m) <= n for all m < n; the density of such barriers is
@@ -163,8 +163,7 @@ finitely often, and the ratio alpha(m, n, k).
   asks for B(n) > C n^{1/2} for every C and n > n_0(C), expects
   B(n) > n^{1-eps}, and states that Rankin's method gives
   B(n) < cn (log log log n)^2/(log n . log log n . log log log log n), all as
-  printed on the page image (an earlier reading of this card printed the
-  wish as B(n) > C^{n}, which the page does not support).
+  printed on the page image.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

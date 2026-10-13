@@ -81,8 +81,10 @@ Theorem 3 and its named same-paper dependencies. The exact statement and
 opening definitions were independently reviewed on 6 September 2026; the
 [filed formulation review](evidence/verify/formulation_review.md) retains that
 report. That bounded review does not reconstruct the complete source proof or
-establish formal verification or additional publication acceptance. Primary
-reinspection: 6 September 2026 UTC.
+establish formal verification or additional publication acceptance. The primary
+source was reinspected. On 2026-10-13 the dates of the source reinspections were
+removed from this card and from the De Bruijn 1951 card; the change touches no
+examined statement, proof, code or input.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

@@ -74,13 +74,13 @@ and $t_r(n)$, the statement of Turán's theorem, Theorem 1 and the bound (1)
 proof, the algorithmic remark and the definition of the examples (p. 110), the
 statement of what the examples show, the sharpness estimate and the final
 sentence (p. 111), and both corrections of the erratum (printed p. 80 of
-volume 35, PDF p. 5), each read clause by clause on the page images of PDF
-pp. 1--3 and 5 on 2026-09-22; the acknowledgment and the reference list
-(p. 111) were read on the page image. The proof of Theorem 2 (p. 110, twelve
-lines with three displays) was read in full on the page image and followed. The
-straightforward computations behind the examples (p. 111) are not printed
-and were not reproduced here beyond the one case recorded below. Nothing here
-is independently reviewed.
+volume 35, PDF p. 5), each read clause by clause on the page images of PDF pp.
+1--3 and 5; the acknowledgment and the reference list (p. 111) were read on the
+page image. The proof of Theorem 2 (p. 110, twelve lines with three displays)
+was read in full on the page image and followed. The straightforward
+computations behind the examples (p. 111) are not printed and were not
+reproduced here beyond the one case recorded below. Nothing here is
+independently reviewed.
 
 ## Contents
 

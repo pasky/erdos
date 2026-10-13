@@ -71,12 +71,12 @@ and $\hat r(H)$, display (1), the criterion (2) and its parameters (p. 259),
 the announced bound and Lemma 1 (p. 260), Theorem 1 with its proof and
 closing note and the remark on the limits of the method (p. 261), and the
 sharpness remark for Lemma 1 and the references (p. 262), each read clause by
-clause on the page images of PDF pp. 1--4 on 2026-09-22; the whole note was
-read on the page images, the text layer serving only to locate passages. The
-proof of Theorem 1 (p. 261, one paragraph) was read in full and its displayed
-inequality was followed from Lemma 1. The proof of Lemma 1 (pp. 260--261) was
-read in full on the page images and its steps were followed, not checked; the
-paper prints no argument for (2). Nothing here is independently reviewed.
+clause on the page images of PDF pp. 1--4; the whole note was read on the page
+images, the text layer serving only to locate passages. The proof of Theorem 1
+(p. 261, one paragraph) was read in full and its displayed inequality was
+followed from Lemma 1. The proof of Lemma 1 (pp. 260--261) was read in full on
+the page images and its steps were followed, not checked; the paper prints no
+argument for (2). Nothing here is independently reviewed.
 
 ## Contents
 
@@ -96,13 +96,12 @@ paper prints no argument for (2). Nothing here is independently reviewed.
   $\binom bn$), while the same criterion with $a$ and $b$ interchanged,
   $b\binom{\lfloor a/2\rfloor}n>(n-1)\binom an$, holds for every
   $6\le n\le200$ and fails for $n\le5$, matching "holds for all $n\ge6$" (an
-  exact integer computation made here on 2026-09-22). Since
-  $K_{a,b}=K_{b,a}$ and $ab\le\frac32n^32^n$ either way, the bound (1) is
-  unaffected, and the letters of (2) are read here as interchanged relative
-  to the parameter sentence. The pigeonhole behind the interchanged (2), a
-  reconstruction made here and not printed: each of the $b$ vertices of one
-  side has $r$ red and $a-r$ blue neighbors on the other side, so it is
-  joined in one color to
+  exact integer computation made here). Since $K_{a,b}=K_{b,a}$ and
+  $ab\le\frac32n^32^n$ either way, the bound (1) is unaffected, and the letters
+  of (2) are read here as interchanged relative to the parameter sentence. The
+  pigeonhole behind the interchanged (2), a reconstruction made here and not
+  printed: each of the $b$ vertices of one side has $r$ red and $a-r$ blue
+  neighbors on the other side, so it is joined in one color to
   $\binom rn+\binom{a-r}n\ge2\binom{\lfloor a/2\rfloor}n$ colored
   $n$-subsets of that side, by convexity; there are $2\binom an$ colored
   $n$-subsets, so when (2) holds some colored $n$-subset is joined in its

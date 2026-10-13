@@ -62,8 +62,8 @@ quantitative bounds a + 0.54 log a < b(a) <= 4.374(a-1) for large a.
 Source: <https://arxiv.org/abs/2411.03073>.
 
 The copy read for this card is arXiv:2411.03073v2 (23 July 2025), 57 pages;
-v1 (5 November 2024) was not read and the two were not compared; no
-journal version was located on 2026-09-17. The paper's b(a) is the least b > a
+v1 (5 November 2024) was not read and the two were not compared. The paper's
+b(a) is the least b > a
 with v_{a,b} < v_{a,b-1}, the index at which the denominator drops; the
 site's b(a) for problem 290 and OEIS A375081 count the last index before the
 drop, one less. Read status: claims checked for Corollary 1, Theorem 2,
@@ -86,7 +86,7 @@ filed as
 record as open whether the reduced denominator of H_n equals L_n for
 infinitely many n, the first question of #291).
 
-**Results to transcribe.**
+**Results.**
 
 - Main theorem (Section 2): For every a there are infinitely many b > a with
   v_{a,b} < v_{a,b-1}, and b(a) < ca for an effective c depending only on {r_i};

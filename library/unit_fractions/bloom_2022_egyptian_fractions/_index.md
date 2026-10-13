@@ -70,7 +70,7 @@ recovers Vaughan's).
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0242/_index|#242]]
 
-**Results to transcribe.**
+**Results.**
 
 - Conjecture 1 (Erdos-Straus): For every n>=2 there are positive integers x,y,z
   with 4/n = 1/x + 1/y + 1/z.

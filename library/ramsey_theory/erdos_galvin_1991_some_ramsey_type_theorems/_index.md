@@ -103,15 +103,14 @@ and Theorem 3.3 (p. 266), the definitions of $\mathrm{FS}$ and
 $\mathrm{CFS}$, the statement of Hindman's theorem, Theorem 4.1, the
 sentence introducing Problem 4.2, Problem 4.2, the remark after it and
 Theorem 4.3 (pp. 267--268), each read clause by clause on the page images
-of PDF pp. 1--3 and 6--8 (printed pp. 261--263 and 266--268) on 2026-09-22;
-p. 269 (PDF p. 9) was read on the page image for the end of the proof of
-Theorem 4.3 and the reference list. The proofs of Theorem 4.1 (p. 268, half
-a page) and of Theorem 4.3 (pp. 268--269, a third of a page) were read in
-full on the page images and followed step by step; the proofs of Theorem
-2.3 (p. 263) and of Theorem 3.1 and Lemma 3.2 (p. 266) were read on the
-page images but not followed; the proof of Theorem 2.1 (pp. 263--265) and
-the proof of Theorem 3.3 (pp. 266--267) were read in the text layer for
-structure only. Nothing here is independently reviewed.
+of PDF pp. 1--3 and 6--8 (printed pp. 261--263 and 266--268); p. 269 (PDF p. 9)
+was read on the page image for the end of the proof of Theorem 4.3 and the
+reference list. The proofs of Theorem 4.1 (p. 268, half a page) and of Theorem
+4.3 (pp. 268--269, a third of a page) were read in full on the page images and
+followed step by step; the proofs of Theorem 2.3 (p. 263) and of Theorem 3.1 and
+Lemma 3.2 (p. 266) were read on the page images but not followed; the proof of
+Theorem 2.1 (pp. 263--265) and the proof of Theorem 3.3 (pp. 266--267) were read
+in the text layer for structure only. Nothing here is independently reviewed.
 
 ## Contents
 
@@ -247,10 +246,10 @@ consumes, with result pages for Theorem 4.1, Problem 4.2 and Theorem 4.3;
 the proofs of Theorems 4.1 and 4.3 were followed on the page images. The
 main results of § 2 and § 3 have result pages at statement depth: Theorem
 2.1, Corollary 2.2, Theorem 2.3, Theorem 3.1 and Theorem 3.3, their
-statements read clause by clause on the page images on 2026-10-08, the
-proofs of Theorems 2.3 and 3.3 followed there and the proof of Theorem 2.1
-read for its structure. Lemma 3.2 is recorded on the Theorem 3.3 page.
-Nothing here is independently reviewed.
+statements read clause by clause on the page images, the proofs of Theorems 2.3
+and 3.3 followed there and the proof of Theorem 2.1 read for its structure.
+Lemma 3.2 is recorded on the Theorem 3.3 page. Nothing here is independently
+reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0948/_index|#948]]: the problem is the
 paper's Problem 4.2 (printed p. 268, PDF p. 8): "Does there exist, for some

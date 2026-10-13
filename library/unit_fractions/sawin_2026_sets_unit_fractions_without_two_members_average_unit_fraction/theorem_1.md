@@ -27,8 +27,7 @@ multiplicity. The paper makes no effort to compute $c$ (p. 1).
 
 **Source.** W. Sawin, arXiv:2607.15419v1 (16 July 2026), Theorem 1 on p. 1,
 read on the page image and in the text layer of the retained PDF; the
-proof of Theorem 1 is the last paragraph of p. 9. Preprint: no journal
-version, no independent review and no citing work found on 2026-09-17.
+proof of Theorem 1 is the last paragraph of p. 9. Preprint.
 
 **Read depth.** Claims checked: the statement was read clause by clause on
 the page image of p. 1, and Lemmas 2 and 3 (p. 2) in the text layer. The

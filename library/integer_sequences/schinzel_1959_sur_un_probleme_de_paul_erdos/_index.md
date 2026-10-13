@@ -86,7 +86,7 @@ records that Erdős's 1973 survey cites the construction as showing its bound
 would be best possible apart from the exponent; the paper proves only the
 count o(n), and prints no rate).
 
-**Results to transcribe.**
+**Results.**
 
 - [[integer_sequences/schinzel_1959_sur_un_probleme_de_paul_erdos/theorem_1|Theorem 1]]
   (p. 222): For any sequence a_1 < ... < a_r <= n with [a_i, a_j] > n for all

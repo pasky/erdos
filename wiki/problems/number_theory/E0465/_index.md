@@ -92,7 +92,7 @@ thread and its empty proof-claims tab. Cite as: T. F. Bloom, Erdős Problem
   Russian). Mat. Zametki 69 (2001), no. 4, 630--633, DOI 10.4213/mzm691
   (received 21 September 2000, revised 5 October 2000); English translation:
   About distances between points on the plane, Math. Notes 69 (2001), no. 3--4,
-  578--581, DOI 10.1023/A:1010276601734 (records; the
+  578--581, DOI 10.1023/A:1010276601734 (Crossref records; the
   translation is not held). The Theorem, p. 630. Library home:
   [[../library/number_theory/konyagin_2001_distances_between_points_plane/_index|konyagin_2001_distances_between_points_plane]].
 - [Sa76] Sárközy, A., On distances near integers. I, II. Studia Sci. Math.
@@ -120,8 +120,8 @@ thread and its empty proof-claims tab. Cite as: T. F. Bloom, Erdős Problem
   reports the upper bound too. Library home:
   [[../library/integer_sequences/erdos_1972_extremal_problems_number_theory/_index|erdos_1972_extremal_problems_number_theory]].
 - [GoMo26] Goenka, R. and Moore, K., Point sets avoiding near-integer
-  distances. arXiv:2605.06621v1 (7 May 2026; abstract accessed). A lead on the higher-dimensional analog, named with its
-  identifier.
+  distances. arXiv:2605.06621v1 (7 May 2026; abstract read). A lead on the
+  higher-dimensional analog, named with its identifier.
 
 **Formalization.** None. No file `ErdosProblems/465.lean` exists in
 google-deepmind/formal-conjectures the site's page shows

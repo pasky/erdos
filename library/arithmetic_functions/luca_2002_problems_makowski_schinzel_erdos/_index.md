@@ -52,7 +52,7 @@ Source: <https://math.dartmouth.edu/~carlp/>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E1064/_index|#1064]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1(i): limsup_n sigma(phi(n))/(n log_2 n) = e^gamma, the maximal order
   of S(n) = sigma(phi(n))/n.

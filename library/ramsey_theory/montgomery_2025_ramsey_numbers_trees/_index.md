@@ -22,7 +22,7 @@ arXiv:2509.07934v1 (9 September 2025), 59 pages, 22 figures.
 
 The retained [folder-name PDF](montgomery_2025_ramsey_numbers_trees.pdf) is the
 arXiv preprint (dated September 10, 2025 on its first page), the only arXiv
-version; no journal record was found on 2026-09-17 (a Crossref query returns
+version; no journal record was found on 2026-09-17 (a Crossref query returned
 only the authors' separate 2025 paper on bounded-degree trees versus general
 graphs in J. Combin. Theory Ser. B 173). Locators are its own pages. Source URL
 recorded at import: <https://arxiv.org/abs/2509.07934>. The arXiv record

@@ -35,10 +35,10 @@ arXiv record names arXiv's non-exclusive distribution license
 
 Read status: claims checked for Conjectures 1--2 and Theorem 3 (pp. 1--2)
 and the introduction's account of the earlier cases, read clause by clause
-on the page images on 2026-09-18, and for Theorem 12 and its definitions in
-the concluding remarks (Section 3, p. 7), read on the page image on
-2026-10-08; the proof (Section 2, pp. 2--6) was not read. Theorem 3 is
-paged, with the two conjectures as the paper states them, at
+on the page images, and for Theorem 12 and its definitions in the concluding
+remarks (Section 3, p. 7), read on the page image; the proof (Section 2, pp.
+2--6) was not read. Theorem 3 is paged, with the two conjectures as the paper
+states them, at
 [[extremal_graph_theory/keevash_2020_brown_erdos_sos_conjecture_hypergraphs_large/theorem_3|theorem_3]],
 and Theorem 12 at [[extremal_graph_theory/keevash_2020_brown_erdos_sos_conjecture_hypergraphs_large/theorem_12|theorem_12]].
 
@@ -78,7 +78,7 @@ and r >= r_0(epsilon,t), with no ((r-2)k+t+1, k)-configuration; for t >= 3
 this is not the t-linear case of Conjecture 1, whose vertex count is
 (r-t)k+t+1.
 
-**Results to transcribe.**
+**Results.**
 
 - Conjecture 1 (Brown-Erdos-Sos, restated): For r > t >= 2 and k >= 3, an
   r-graph on n vertices in which no k edges span at most (r-t)k+t+1 vertices

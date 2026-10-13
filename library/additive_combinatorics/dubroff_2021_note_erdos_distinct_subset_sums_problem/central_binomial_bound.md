@@ -42,8 +42,8 @@ implies Theorem 1, as the paper's last line says.
 subset sums problem*, SIAM J. Discrete Math. (2021), 322--324. The retained
 PDF is arXiv:2006.12988v2 [math.CO] (20 July 2020; 3 pages; text layer),
 whose pagination is used here; the published version was not inspected. The
-p. 1 sentence and the p. 2 proof were read on page images with the text
-layer as an aid on 2026-09-18.
+p. 1 sentence and the p. 2 proof were read on page images with the text layer as
+an aid.
 
 **Read depth.** Claims checked: the p. 1 sentence and the concluding line of
 the second proof on p. 2 were read clause by clause on the page images. The

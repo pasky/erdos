@@ -18,9 +18,8 @@ updated: 2026-10-08T01:29:58Z
 ***
 
 Sungchul Lee, "Relative independence of Erdős problem #501," preprint
-(GitHub, June 2026), <https://github.com/lsngchl/Erdos-501>; the
-repository's README calls it a "Preprint draft". Not refereed; no arXiv
-record was found on 2026-09-27.
+(GitHub, June 2026), <https://github.com/lsngchl/Erdos-501>; the repository's
+README calls it a "Preprint draft". Not refereed.
 
 **Versions.** The copy read for this card is the repository's `main-v2.pdf`,
 the second version, 6 pages numbered 1–6,

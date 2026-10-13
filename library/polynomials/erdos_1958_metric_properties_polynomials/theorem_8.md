@@ -33,9 +33,9 @@ identified on the
 [[polynomials/erdos_1958_metric_properties_polynomials/_index|source card]].
 
 **Read depth.** Claims checked: the theorem and corollary were read on the
-page images of pp. 139--140 on 2026-10-08; the proof was read and its steps
-followed, not independently checked. The paper gives no separate proof of
-the corollary. Nothing here is independently reviewed.
+page images of pp. 139--140; the proof was read and its steps followed, not
+independently checked. The paper gives no separate proof of the corollary.
+Nothing here is independently reviewed.
 
 ## Proof pointer
 

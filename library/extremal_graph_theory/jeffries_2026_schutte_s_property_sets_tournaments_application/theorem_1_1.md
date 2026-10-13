@@ -60,9 +60,9 @@ consistent with the known values and neither printed range is refuted by
 $f(1)$, $f(2)$; the range the 1965 paper itself states is not known here.
 
 **Source.** J. Jeffries, *Schütte's property for sets of tournaments and an
-application to dice games*, arXiv:2604.08790v1 (9 April 2026; the arXiv API
-on 2026-09-19 lists no later version and no journal reference); pp. 1--2 of
-v1, read on the rendered page images. The edition is identified in the
+application to dice games*, arXiv:2604.08790v1 (9 April 2026; the arXiv API on
+2026-09-19 listed no later version and no journal reference); pp. 1--2 of v1,
+read on the rendered page images. The edition is identified in the
 [[extremal_graph_theory/jeffries_2026_schutte_s_property_sets_tournaments_application/_index|source digest]].
 
 **Read depth.** Claims checked: the definition, the theorem and the quoted

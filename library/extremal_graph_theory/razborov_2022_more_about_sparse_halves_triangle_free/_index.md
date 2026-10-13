@@ -45,7 +45,7 @@ Source: <https://arxiv.org/abs/2104.09406>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0128/_index|#128]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 3.2 (main theorem): For any triangle-free graph G, beta(G) <=
   27/1024, improving the previous bound 1/36.

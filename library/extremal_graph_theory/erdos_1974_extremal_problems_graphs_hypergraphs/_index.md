@@ -69,9 +69,8 @@ the introduction's Turán paragraph (pp. 75--76 = PDF pp. 1--2) and for the
 $r$-graph passages of pp. 80--81 = PDF pp. 6--7 (display (9) with its
 sentences, the sentence on $\lim f(n;G_3(4;3))/n^3$, displays (10)--(13) and
 the Theorem on $G_3(5;3)$ or $G_3(6;4)$), read clause by clause on the page
-images on 2026-09-18; the paper gives almost no proofs, and none was
-checked; the rest of the digest records an earlier reading that was not
-repeated here.
+images; the paper gives almost no proofs, and none was checked; the rest of the
+digest records an earlier reading that was not repeated here.
 
 Passages read for the problem pages that cite them. The introduction, p. 76,
 credits Turán's paper with beginning the systematic study of extremal questions
@@ -143,7 +142,7 @@ contains a subgraph $G_r(m;[cm^r])$ with $m=m(n)\to\infty$, after the
 sentence that $\varepsilon n^r$ edges already force a subgraph with at least
 $m^r/r^r$ edges; the site's [Er74c, p. 80] source
 
-**Results to transcribe.**
+**Results.**
 
 - Erdős-Stone-Simonovits (1): For G of chromatic number k, f(n;G)/binom(n,2) ->
   1 - 1/(k-1).

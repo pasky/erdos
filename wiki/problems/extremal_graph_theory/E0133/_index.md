@@ -75,8 +75,8 @@ conjectures $f(n)\sim\sqrt n$. One unreviewed proof claim of 2026-09-15 on the
 site's proof-claim tab asserts that the constant is $1$
 ([[problems/extremal_graph_theory/E0133/claims/2026_09_15_korsky|claim page]]).
 A Lean development attributed to Hanson and Seyffarth's result is linked from
-their claim page and is not built here. Search scope, 2026-10-07: the site's
-commentary, its comment thread (empty) and its proof-claim tab.
+their claim page and is not built here. Search scope: the site's commentary,
+its comment thread (empty on 2026-10-07) and its proof-claim tab.
 
 **Source.** [erdosproblems.com/133](https://www.erdosproblems.com/133), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #133,

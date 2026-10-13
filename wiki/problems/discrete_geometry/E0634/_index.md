@@ -155,7 +155,7 @@ load-bearing input of Harries's first manuscript (its Theorems 6 and 8), of
 Beeson's prime manuscript (Theorem 5(iii)) and of the branch completeness in
 Harries's second manuscript; each page records the issue.
 
-The dated search scope is the site's page export of 2026-09-04 and its
+The search scope is the site's page export of 2026-09-04 and its
 proof-claims thread through 6 October 2026, the arXiv records of the Beeson
 and Zhang preprints, the repositories of George, Harries and Bonfioli at the
 commits the claim pages pin, and the two library cards above; Soifer's book

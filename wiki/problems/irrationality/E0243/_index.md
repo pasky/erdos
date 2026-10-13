@@ -120,12 +120,12 @@ $a_{n+1}\ge a_n^2-a_n+1$ for all large $n$, and an improvement of the
 Erdős--Straus Theorem 3. Koizumi's Corollary 4 recovers the Badea and
 Erdős--Straus cases within the paper's framework.
 
-**Dated search scope (2026-10-07).** The site's page, its discussion
-thread (comments from 2025 to 11 September 2026, after which posting was
-suspended), its proof-claims tab (none registered) and the
-formal-conjectures statement file record no full claim and no dispute of the
-results above; no wider literature search was made. The site's label OPEN
-matches the derived standing: every claim is partial.
+**Search scope.** On 2026-10-07 the site's page, its discussion thread
+(comments from 2025 to 11 September 2026, after which posting was suspended),
+its proof-claims tab (none registered) and the formal-conjectures statement file
+recorded no full claim and no dispute of the results above; no wider literature
+search was made. The site's label OPEN matches the derived standing: every
+claim is partial.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

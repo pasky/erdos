@@ -74,7 +74,7 @@ $\omega_1,\omega_1^*\not\le\phi$ and for $\alpha<\omega_02$, the relation
 $\lambda\to(4,\alpha)^3$ for $\alpha<\omega_02$, which covers the problem
 for $\beta<\omega_02$ and $n\le4$ only.
 
-**Results to transcribe.**
+**Results.**
 
 - Highlighted open question (p. 428): "Is the relation
   $\lambda\rightarrow(\omega_0 2,\omega_0 2)^2$ true or false? Here, $\lambda$

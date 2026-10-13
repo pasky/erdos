@@ -76,7 +76,7 @@ Choi's $g(n)=O(n^{2/5+\varepsilon})$ to $O(n^{2/5}(\ln n)^{2/5})$ for the
 problem's $g(n)$, and p. 171 attests Choi's integer reduction and
 $g(n)\ge\ln n$; not a key of the site's page.
 
-**Results to transcribe.**
+**Results.**
 
 - Lemma 1: Komlos-Sulyok-Szemeredi: there is an absolute constant c > 0 such
   that every finite set A of positive integers contains a Sidon subset of size

@@ -48,7 +48,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0332/_index|#332]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (Ruzsa): Restated classical result: for S_i of positive upper
   density there is S with d(S) >= prod dbar(S_i), Delta_1(S) inside the

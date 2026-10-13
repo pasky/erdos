@@ -32,8 +32,8 @@ preprint, cited by four 2026 preprints on 2026-09-18 (Semantic Scholar).
 
 **Read depth.** Claims checked: Conjecture 1.1, Theorem 1.2, Theorem 1.3,
 Corollary 1.4 and the completion sentence were read clause by clause, and
-the statement was checked again against the print on 2026-10-08; the proof
-of Theorem 1.2 (Section 5, pp. 16--26) was not read.
+the statement was checked again against the print; the proof of Theorem 1.2
+(Section 5, pp. 16--26) was not read.
 
 ## Proof pointer
 
@@ -79,4 +79,4 @@ pp. 7--8); the earlier range results only for the completion sentence.
   and the large ranges of
   [[additive_combinatorics/bedert_2025_graham_s_rearrangement_conjecture_over/theorem_1_4|Bedert, Bucić, Kravitz, Montgomery and Müyesser]]
   covers every size for all sufficiently large primes, with no explicit
-  threshold on $p$; a preprint with no journal record on 2026-09-18.
+  threshold on $p$; a preprint.

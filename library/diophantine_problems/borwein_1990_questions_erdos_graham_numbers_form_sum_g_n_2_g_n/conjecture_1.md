@@ -45,9 +45,8 @@ copy read is identified on the
 [[diophantine_problems/borwein_1990_questions_erdos_graham_numbers_form_sum_g_n_2_g_n/_index|source card]].
 
 **Read depth.** Claims checked: the three conjectures and the paragraph
-after Conjecture 1 were read clause by clause on the page images on
-2026-10-08. The conjecture is open in the paper; nothing here is
-independently reviewed.
+after Conjecture 1 were read clause by clause on the page images. The conjecture
+is open in the paper; nothing here is independently reviewed.
 
 ## Proof pointer
 

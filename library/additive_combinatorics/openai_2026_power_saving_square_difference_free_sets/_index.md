@@ -122,10 +122,10 @@ lines 271--288), Lemma 5.2 (`lifts.tex` lines 68--91), Proposition 6.1
 Lemma 8.1 and Proposition 8.2 (`contraction.tex` lines 24--30 and 71--84),
 Proposition 9.1 and Theorem 9.2 (`induction.tex` lines 39--55 and 201--207),
 and the parameter choices they use (`tuples.tex` lines 14--23, `kernel.tex` line
-16, `transfer.tex` lines 41--50, `induction.tex` lines 217--222), on
-2026-10-12; the proofs, including the closing proof of Theorem 1.1
-(`induction.tex` lines 303--318), were read for their structure only and no
-step was checked; nothing here is independently reviewed.
+16, `transfer.tex` lines 41--50, `induction.tex` lines 217--222); the proofs,
+including the closing proof of Theorem 1.1 (`induction.tex` lines 303--318),
+were read for their structure only and no step was checked; nothing here is
+independently reviewed.
 
 ## Contents
 

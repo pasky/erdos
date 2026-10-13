@@ -61,10 +61,11 @@ refereed publication and the catalog's agreement. The complete
 natural-language chain is retained as author-recorded proof coverage. No
 independent review of the proof chain is filed; the acceptance evidence is the
 refereed publication and the catalog's credit. The Lean proof carries no
-formal-verification credit in this corpus. Status search of 2026-10-07: the
-site's page and remarks, its thread (two comments, an exposition of Lorentz's
-proof of 2025-11-22 and the announcement of the Lean proof of 2025-11-24, and
-no proof claim) and the formal-conjectures file; no other claim was found.
+formal-verification credit in this corpus. Status search: the site's page and
+remarks, its thread and the formal-conjectures file. On 2026-10-07 the thread
+held two comments, an exposition of Lorentz's proof of 2025-11-22 and the
+announcement of the Lean proof of 2025-11-24, and no proof claim, and none of
+these sources held another claim.
 
 ## Progress
 

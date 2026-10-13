@@ -60,12 +60,11 @@ and for the problem's residue $1$ the origin case is trivial, since $a=b=1$ lies
 in $(0,p^c)$, so the display settles no instance of the problem; the site's
 remark and Browning and Haynes credit Heath-Brown with the two-interval bound,
 which the claim page states in their form. Heath-Brown's article calls
-improving the
-exponent $3/4$ an open problem. The search scope is the site page, the two primary papers, Browning's publication list and a
-web literature search for a theorem below the exponent $3/4$, carried out on
-2026-09-05 and 2026-09-06; it found no such theorem and no proof claim.
-Noncoverage by a partial theorem alone does not establish that the remaining
-range is open, and no later search is recorded.
+improving the exponent $3/4$ an open problem. The search scope is the site page,
+the two primary papers, Browning's publication list and a web literature search
+for a theorem below the exponent $3/4$; on 2026-09-06 these sources showed no
+such theorem and no proof claim. Noncoverage by a partial theorem alone does not
+establish that the remaining range is open, and no later search is recorded.
 
 The proofs of the Heath-Brown estimate and of the Browning–Haynes criterion
 are not transcribed in the library; the claim page rests on the refereed

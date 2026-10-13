@@ -40,7 +40,7 @@ Creative Commons Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0033/_index|#33]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For S with S(x) ~ c_r x^{1/r} and any additive complement W of S,
   sum_{n<=N} f_{S,W}(n) - N >> N^{1-1/r}, the implied constant depending at

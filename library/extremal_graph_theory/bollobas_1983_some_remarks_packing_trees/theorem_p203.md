@@ -52,11 +52,10 @@ is identified in the
 [[extremal_graph_theory/bollobas_1983_some_remarks_packing_trees/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the remark were read clause
-by clause on the page images on 2026-09-22. The proof (one page) was read in
-full on the page images and followed, with the two filing observations
-below; the edge bound it cites from the author's monograph, Relation (0.5),
-was not checked against that book, which is not held. Nothing here is
-independently reviewed.
+by clause on the page images. The proof (one page) was read in full on the page
+images and followed, with the two filing observations below; the edge bound it
+cites from the author's monograph, Relation (0.5), was not checked against that
+book, which is not held. Nothing here is independently reviewed.
 
 ## Proof pointer
 

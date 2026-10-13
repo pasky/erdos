@@ -81,10 +81,10 @@ compilation whose symbolic route passed an independent review on 2026-09-07;
 its forty-two finite certificates are pending, so that compiled conclusion
 stays conditional and does not change this status. The two results are the
 problem's claim pages: Cambie's, accepted on the refereed publication and the
-site's decision of 2026-05-07, and Wang–Crapis's, claimed. Status search
-(2026-10-07): the site's page and the community database's entry for the
-problem, which records the status solved; the thread was accessed 2026-09-05;
-no literature database searched.
+site's decision of 2026-05-07, and Wang–Crapis's, claimed. Status search: the
+site's page and the community database's entry for the problem, which recorded
+the status solved on 2026-10-07; the thread was accessed 2026-09-05; no
+literature database searched.
 
 ## Progress
 

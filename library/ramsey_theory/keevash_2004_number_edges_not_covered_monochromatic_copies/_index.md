@@ -65,11 +65,10 @@ Read status: claims checked for the definition of f(n,H) (p. 41), Theorem
 1.1 and the Erdős--Rousseau--Schelp and Pyber paragraph before it (p. 42),
 Theorems 1.2, 1.3 and 1.5 and Corollary 1.4 (pp. 42--43), the small-$n$
 paragraph of Section 2 (p. 43) and Proposition 2.1 (p. 44), read clause by
-clause on the page images on 2026-09-18, and the concluding remarks with
-Problem 5.1 (pp. 52--53), read on the page images; the proofs of
-Proposition 2.1 (pp. 44--45) and of Theorems 1.2, 1.3 and 1.5 (Sections 3
-and 4, pp. 45--52) were read for their structure and not checked, and
-nothing here is independently reviewed.
+clause on the page images, and the concluding remarks with Problem 5.1 (pp.
+52--53), read on the page images; the proofs of Proposition 2.1 (pp. 44--45) and
+of Theorems 1.2, 1.3 and 1.5 (Sections 3 and 4, pp. 45--52) were read for their
+structure and not checked, and nothing here is independently reviewed.
 
 For a fixed graph H, f(n,H) is the maximum number of edges of a 2-edge-colored
 K_n lying in no monochromatic copy of H; the trivial lower bound
@@ -107,7 +106,7 @@ artifact named by the formal-conjectures entry formalizes. Theorem 1.2
 at t = 1 give the triangle value for large n only (Theorem 1.2 for
 n > e^{20^4}), a narrower range than Theorem 1.1.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (p. 42): f(n,K_3) = binom(n,2) for n <= 5, f(6,K_3) = 10, and
   f(n,K_3) = floor(n^2/4) for all n >= 7 (page

@@ -15,8 +15,9 @@ updated: 2026-10-07T20:53:40Z
 ***
 
 Ema Skottova, Raphael Steiner, Critical edge sets in vertex-critical graphs.
-arXiv:2508.08703 (2025). The arXiv record (https://arxiv.org/abs/2508.08703,
-read 2026-10-02) names the Creative Commons Attribution 4.0 license.
+arXiv:2508.08703 (2025). The held file is arXiv:2508.08703v1 of 12 August 2025.
+The arXiv record (https://arxiv.org/abs/2508.08703, read 2026-10-02) names the
+Creative Commons Attribution 4.0 license.
 
 For k >= 4 let f_k(n) be the largest r such that some k-vertex-critical graph on
 n vertices has no critical set of at most r edges (a (k,r)-graph); Erdos asked
@@ -40,7 +41,7 @@ Source: <https://arxiv.org/abs/2508.08703>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0944/_index|#944]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.2: For every fixed k >= 5, f_k(n) = Omega(n^{1/3}); in particular
   (k,r)-graphs exist for all r, answering Erdos's Problem 1.1 for k >= 5.

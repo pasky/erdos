@@ -44,7 +44,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0145/_index|#145]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 2): For 0 <= gamma < 3.75, the sum of (s_{k+1}-s_k)^gamma
   over x/2 < s_{k+1} <= x is asymptotic to B(gamma)x/2, hence the full moment

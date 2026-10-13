@@ -34,12 +34,11 @@ $\delta\log m$ question with its prize offer) and item 11 of Part I on
 p. 7 (the Ramsey $r$-complete definitions, displays (8) and (9) and the two
 offers), and for items 8 and 14 of Part II on pp. 11 and 13 (the conjecture
 (13) on edge-disjoint monochromatic triangles with its same-color
-companion, and the $C_4$ minimum-degree questions), read clause by clause
-on the page images on 2026-09-18, and for item 9 of Part I on p. 6 (display
-(7) and its questions), read on the page image; the rest of the
-digest records an earlier reading. The copy read for this card is the
-author's typescript, which prints no notice on its first two or last two
-pages, from the hosting issue page
+companion, and the $C_4$ minimum-degree questions), read clause by clause on the
+page images, and for item 9 of Part I on p. 6 (display (7) and its questions),
+read on the page image; the rest of the digest records an earlier reading. The
+copy read for this card is the author's typescript, which prints no notice on
+its first two or last two pages, from the hosting issue page
 (https://www.ime.usp.br/~yoshi/resenhas/, read 2026-10-02), which states no
 copyright, license or terms; the term is unstated.
 
@@ -215,7 +214,7 @@ absolute constant $c$ gives $f(m)>f(n)-c$ for every $m>n$; the same
 question can be asked with any other graph in place of $C_4$; the site's
 key Er95 for the problem)
 
-**Results to transcribe.**
+**Results.**
 
 - Item 11 of Part I, p. 7: the Ramsey $r$-complete and entirely Ramsey
   $r$-complete definitions; (8) an entirely Ramsey $2$-complete sequence with

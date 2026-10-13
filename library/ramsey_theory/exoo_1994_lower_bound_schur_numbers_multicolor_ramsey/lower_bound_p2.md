@@ -45,11 +45,10 @@ the page images.
 
 **Read depth.** Claims checked: the definitions and the two sentences
 quoted above were read clause by clause on the page images. The partition
-itself was recomputed here on 2026-09-18 from the text layer of p. 2: the
-five listed sets, closed under $i\mapsto161-i$, are pairwise disjoint,
-cover $\{1,\ldots,160\}$ (sizes 28, 28, 34, 32, 38), and each is sum-free
-with $i=j$ allowed. The two consequences attributed to [1], [2] and [3] were
-not checked.
+itself was recomputed here from the text layer of p. 2: the five listed sets,
+closed under $i\mapsto161-i$, are pairwise disjoint, cover $\{1,\ldots,160\}$
+(sizes 28, 28, 34, 32, 38), and each is sum-free with $i=j$ allowed. The two
+consequences attributed to [1], [2] and [3] were not checked.
 
 ## Proof pointer
 

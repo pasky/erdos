@@ -79,11 +79,11 @@ Read status: claims checked for Theorem 1.1, Theorems 2.1--2.2, Lemma 2.3,
 Proposition 2.4 and Corollary 10.1, read clause by clause in the TeX source
 (`sections/01-introduction.tex` label `thm:main`,
 `sections/02-reduction.tex` labels `thm:two-converse-input`,
-`thm:twist-density-input`, `lem:auxiliary-fields`,
-`prop:arithmetic-reduction`, `sections/10-sylvester-cube-sums.tex` label
-`cor:sylvester`) on 2026-10-07; the statements of the intermediate
-propositions of Sections 3--9 were read, and all proofs were read for their
-structure only; no step was checked; nothing here is independently reviewed.
+`thm:twist-density-input`, `lem:auxiliary-fields`, `prop:arithmetic-reduction`,
+`sections/10-sylvester-cube-sums.tex` label `cor:sylvester`); the statements of
+the intermediate propositions of Sections 3--9 were read, and all proofs were
+read for their structure only; no step was checked; nothing here is
+independently reviewed.
 
 ## Contents
 

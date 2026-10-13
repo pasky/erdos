@@ -148,9 +148,9 @@ claim the second part in full, so the frontmatter derives the standing claimed
 with claim answered: a no to the first question and a pending yes to the second.
 The results on ranges of the second question, the accepted segment, disc and
 capacity-above-one cases and the pending smooth capacity-one case, settle no
-part by themselves. Search scope, 2026-10-07: the site page, its thread and
-proof-claims tab, the arXiv and Crossref records of the papers named above, the
-claimants' repositories and the Jig record; no wider literature search was made.
+part by themselves. Search scope: the site page, its thread and proof-claims
+tab, the arXiv and Crossref records of the papers named above, the claimants'
+repositories and the Jig record; no wider literature search was made.
 Wang's preprint on Problem 1002, listed below as library material, is linked
 there as a technique note and claims nothing here.
 <!-- BEGIN problem library links -->

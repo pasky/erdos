@@ -44,7 +44,7 @@ Source: <https://arxiv.org/abs/2312.15333>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0061/_index|#61]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.2: P_5 satisfies the Erdos-Hajnal conjecture: there is c > 0 such
   that every n-vertex P_5-free graph has a clique or stable set of size at least

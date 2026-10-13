@@ -74,9 +74,9 @@ https://www.erdosproblems.com/357.
 No independent assessment of proof coverage is recorded. The frontmatter
 standing is derived from the four claim pages, two accepted partial claims with
 refereed upper bounds and two pending partial claims, so the problem is open.
-Search scope, 2026-10-07: the site's page, its discussion thread and its
-proof-claims tab, Lenthall-Cleary's repository and Pickhardt's manuscript; no
-literature search beyond the page's References was made here.
+Search scope: the site's page, its discussion thread and its proof-claims tab,
+Lenthall-Cleary's repository and Pickhardt's manuscript; no literature search
+beyond the page's References was made here.
 
 ## Known Results
 

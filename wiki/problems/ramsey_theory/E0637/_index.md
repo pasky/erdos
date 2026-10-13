@@ -25,7 +25,7 @@ updated: 2026-10-08T01:29:59Z
 graph or independent set on $\gg \log n$ vertices then $G$ contains an induced
 subgraph on $\gg n$ vertices which contains $\gg n^{1/2}$ distinct degrees.
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
 last-edited date). Read with constants: for every $C>0$
 there are $\alpha,\beta>0$ depending only on $C$ such that every graph $G$
 on $n$ vertices with no clique or independent set on more than $C\log n$
@@ -110,7 +110,7 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   published Theorem 1 also gives.
 
 **Formalization.** None found. No file for this problem exists in
-google-deepmind/formal-conjectures on its main branch(the
+google-deepmind/formal-conjectures on its main branch (the
 directory `FormalConjectures/ErdosProblems/` listed in full), and the
 community database records the problem proved (last
 changed 31 August 2025), not

@@ -78,10 +78,9 @@ is identified in the
 
 **Read depth.** Claims checked: Theorem 1.2, Claims 1 and 2, footnote 2,
 the attribution sentence and the $\rho\ge5$ paragraph were read clause by
-clause on the page images on 2026-09-22. The $\rho\ge5$ proof (one
-paragraph) was read in full and followed; the proof of Claims 1 and 2 for
-$\rho$ close to $1$ (p. 213) was read for structure and not checked.
-Nothing here is independently reviewed.
+clause on the page images. The $\rho\ge5$ proof (one paragraph) was read in full
+and followed; the proof of Claims 1 and 2 for $\rho$ close to $1$ (p. 213) was
+read for structure and not checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

@@ -16,7 +16,7 @@ updated: 2026-10-07T20:53:40Z
 
 Todd Cochrane, Andrew Granville, Junren Zheng, Mixed incomplete character sums
 of rational functions with smooth moduli. arXiv preprint (2026).
-arXiv:2601.10927.
+arXiv:2601.10927. The held PDF is arXiv:2601.10927v1 (16 January 2026).
 
 Graham and Ringrose proved power savings for incomplete character sums over
 intervals of length N = q^Delta when q is squarefree and q^xi-smooth, but their
@@ -42,7 +42,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: For fixed f, g in Q(x), not both constant, any character chi mod
   q with q in N(y), y = q^delta, coprime to an explicit modulus, and any

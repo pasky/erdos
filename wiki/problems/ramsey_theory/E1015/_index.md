@@ -31,7 +31,7 @@ remaining.
 Estimate $f(t)$. In particular, is it true that $f(t)^{1/t}\to 1$? Is it true
 that $f(t)\ll t$?
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
 last-edited date). The quantity depends on $n$ as well as $t$: the source, Burr,
 Erdős and Spencer (1975), writes $f(n,k)$ for the least number such that in any
 two-coloring of $K_n$ one can find vertex-disjoint monochromatic $K_k$, of

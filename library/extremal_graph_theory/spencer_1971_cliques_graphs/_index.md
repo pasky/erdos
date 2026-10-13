@@ -57,13 +57,12 @@ other right reserved.
 Read status: claims checked for the abstract, the definitions, the quoted
 estimates of Moon and Moser and Erdős, Erdős's question and the main bound
 (p. 419), and for the closing bounds of the three cases (p. 421), each read
-clause by clause on the page images of PDF pp. 1 and 3 on 2026-09-22. The
-construction (pp. 419--420) and the three-case argument (pp. 420--421) were
-read in full on the page images of PDF pp. 1--3; the vertex counts and the
-ranges of clique sizes were followed (the arithmetic is recorded below), and
-the parenthetical checks that each listed set is complete and maximal were
-read for structure only and not checked. Nothing here is independently
-reviewed.
+clause by clause on the page images of PDF pp. 1 and 3. The construction (pp.
+419--420) and the three-case argument (pp. 420--421) were read in full on the
+page images of PDF pp. 1--3; the vertex counts and the ranges of clique sizes
+were followed (the arithmetic is recorded below), and the parenthetical checks
+that each listed set is complete and maximal were read for structure only and
+not checked. Nothing here is independently reviewed.
 
 ## Contents
 

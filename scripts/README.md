@@ -37,11 +37,6 @@ repository root with their documented commands.
   configuration and every changed module in the claim's import closure for a
   comment-only edit, a renamed module in the closure being a reason whatever its
   content. Exit 0 when the clause holds.
-- `rename_status_values.py` renames the problem standing values in the
-  frontmatter of problem pages and claim pages, a problem's derived `status`
-  `accepted` to `solved` and the claim value `solved` to `answered`; it touches
-  no prose, writes nothing unless every page reads back, and supports
-  `--dry-run`.
 - `lean_comment_only.py` verifies that every changed `.lean` file between two
   revisions differs only in its comments, the mechanical-maintenance case of the
   coverage rule, with renames paired so a moved file is compared with its old

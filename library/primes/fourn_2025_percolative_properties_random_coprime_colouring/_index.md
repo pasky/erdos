@@ -16,7 +16,8 @@ updated: 2026-10-07T20:33:23Z
 ***
 
 Samuel Le Fourn, Mike Liu, Sébastien Martineau, Percolative properties of the
-random coprime colouring. arXiv preprint (2025). arXiv:2509.08452. The arXiv
+random coprime colouring. arXiv preprint (2025). arXiv:2509.08452; the held
+PDF is arXiv:2509.08452v1 (10 September 2025). The arXiv
 record (https://arxiv.org/abs/2509.08452, read 2026-10-02) names the Creative
 Commons Attribution 4.0 license.
 
@@ -47,7 +48,7 @@ Source: <https://arxiv.org/abs/2509.08452>.
 
 **Bears on.** [[../wiki/problems/primes/E1212/_index|#1212]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: For d >= 2 and Z^d with its nearest-neighbor graph, almost
   surely the white vertices form exactly one infinite cluster and every black

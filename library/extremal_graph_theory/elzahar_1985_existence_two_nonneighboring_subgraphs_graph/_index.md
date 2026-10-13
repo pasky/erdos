@@ -111,7 +111,7 @@ and
 [[extremal_graph_theory/elzahar_1985_existence_two_nonneighboring_subgraphs_graph/corollary_3|corollary_3]].
 Section 4 (Theorems 4--5, Corollaries 1--2) bears on no problem page.
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/elzahar_1985_existence_two_nonneighboring_subgraphs_graph/theorem_1|Theorem 1]]
   (p. 296): For r > n, f(r,n) <= 1 + (n-1)C(r-1,n) +

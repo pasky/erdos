@@ -90,10 +90,10 @@ sets. It is the third accepted full claim, recorded on
 accepted on the paper's refereed publication; the curator credits the result
 for the variant only, and this corpus has not built the Lean files.
 
-Search scope: on 2026-10-07 the site's problem page and thread, the community
-database (teorth/erdosproblems, `data/problems.yaml`), the formal-conjectures
-statement file and the Lean repository named above were read; no further
-claim on the stated question was found. Nothing remains open in the stated
+Search scope: the site's problem page and thread, the community database
+(teorth/erdosproblems, `data/problems.yaml`), the formal-conjectures statement
+file and the Lean repository named above. On 2026-10-07 none of them held a
+further claim on the stated question. Nothing remains open in the stated
 question.
 
 <!-- BEGIN problem library links -->

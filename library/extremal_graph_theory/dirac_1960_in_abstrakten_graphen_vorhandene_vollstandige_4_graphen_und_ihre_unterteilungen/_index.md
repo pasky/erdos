@@ -75,13 +75,13 @@ introduction and Satz 1 (p. 61), Remark 2 to Satz 4 with Figures 2--5 and
 Satz 5 (p. 67), Satz 6 with its proof and the best-possible sentence
 (p. 68), the Remark to Satz 12 with the paper's one conjecture (p. 75),
 and the closing remarks and reference list (p. 85), each read clause by
-clause on the page images of PDF pp. 1, 7, 8, 15 and 25 on 2026-09-22. The
-proof of Satz 6 (p. 68, one paragraph) was read in full on the page image
-and followed; the proof of Satz 5 (pp. 67--68) was read on the page image
-and in the text layer for its reduction to Satz 4. Sätze 2--4 and
-7--20, the Hilfssätze, the remarks and the examples (pp. 62--66, 68--74,
-76--85) were read in the text layer for structure only; no proof other than
-that of Satz 6 was checked. Nothing here is independently reviewed.
+clause on the page images of PDF pp. 1, 7, 8, 15 and 25. The proof of Satz 6 (p.
+68, one paragraph) was read in full on the page image and followed; the proof of
+Satz 5 (pp. 67--68) was read on the page image and in the text layer for its
+reduction to Satz 4. Sätze 2--4 and 7--20, the Hilfssätze, the remarks and the
+examples (pp. 62--66, 68--74, 76--85) were read in the text layer for structure
+only; no proof other than that of Satz 6 was checked. Nothing here is
+independently reviewed.
 
 ## Contents
 

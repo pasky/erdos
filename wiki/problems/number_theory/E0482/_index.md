@@ -117,8 +117,9 @@ Bloom, Erdős Problem #482, https://www.erdosproblems.com/482, accessed
   doi:10.4169/000298910x496732; arXiv:0902.4168 (submitted 24 February
   2009). Not held.
 - [OEIS] Sloane, N. J. A., Sequence A004539 (the binary expansion of
-  $\sqrt2$), The On-Line Encyclopedia of Integer Sequences (entry accessed; it lists the Graham--Pollak note among its links). The
-  Graham--Pollak sequence itself is A001521 (per [St05]).
+  $\sqrt2$), The On-Line Encyclopedia of Integer Sequences (the entry lists
+  the Graham--Pollak note among its links). The Graham--Pollak sequence itself
+  is A001521 (per [St05]).
 
 **Formalization.** Statements and third-party proofs; nothing built here.
 The file

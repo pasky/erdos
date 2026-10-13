@@ -104,8 +104,8 @@ deduction rests on the unrefereed Theorem 2.2, whose Lean this corpus has not
 built, and it is not a claim, since neither the release nor anyone else claims
 the problem.
 
-**Search scope (2026-10-06 and 2026-10-07).** The site's page and its
-proof-claims thread (empty), the formal-conjectures statement file and the
+**Search scope.** The site's page and its proof-claims thread (empty on
+2026-10-06), the formal-conjectures statement file and the
 OpenAI release at the pinned revision of its manuscript; no other literature
 search was made, and no proof was independently assessed.
 

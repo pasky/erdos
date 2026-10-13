@@ -29,9 +29,9 @@ authors' manuscript described in the
 [[extremal_graph_theory/bollobas_2002_better_bounds_max_cut/_index|source digest]],
 proof on p. 35.
 
-**Read depth.** Claims checked: statement read clause by clause on the
-page images on 2026-10-08. The proof is a two-line pointer and was read as
-such; Theorem 21, on which it rests, was read for its structure only.
+**Read depth.** Claims checked: statement read clause by clause on the page
+images. The proof is a two-line pointer and was read as such; Theorem 21, on
+which it rests, was read for its structure only.
 
 ## Proof pointer
 

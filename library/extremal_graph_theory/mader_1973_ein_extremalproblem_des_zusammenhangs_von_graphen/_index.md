@@ -95,16 +95,15 @@ Korollar with its proof (pp. 226--227), the definition of type $n$ (p. 227),
 the passage on the vertex-disjoint problem with its examples and their edge
 counts (pp. 228--229), Satz 2 with (X) and footnotes 3 and 4 (p. 229) and
 the closing remarks (p. 231), each read clause by clause on the page images
-of PDF pp. 1, 2, 4, 5, 6, 7 and 9 on 2026-09-22; p. 231 was read on the page
-image for the reference list, the address and the received date. The proof
-of Satz 1 (pp. 223--226) was read on the page images of PDF pp. 1--4 for
-structure (the induction on the number of vertices, the separating edge set
-$T$, the graphs $\bar G_\nu$ and $G'_\nu$, the assertion (A) and the cases
-I--III); the structural results (Z) and (Y) with their proofs (pp. 227--228)
-and the proofs of (X) and of Satz 2 (pp. 230--231) were read on the page
-images for structure only. None of the steps was checked. The edge counts of
-the examples of p. 229 were recomputed here (below). Nothing here is
-independently reviewed.
+of PDF pp. 1, 2, 4, 5, 6, 7 and 9; p. 231 was read on the page image for the
+reference list, the address and the received date. The proof of Satz 1 (pp.
+223--226) was read on the page images of PDF pp. 1--4 for structure (the
+induction on the number of vertices, the separating edge set $T$, the graphs
+$\bar G_\nu$ and $G'_\nu$, the assertion (A) and the cases I--III); the
+structural results (Z) and (Y) with their proofs (pp. 227--228) and the proofs
+of (X) and of Satz 2 (pp. 230--231) were read on the page images for structure
+only. None of the steps was checked. The edge counts of the examples of p. 229
+were recomputed here (below). Nothing here is independently reviewed.
 
 ## Contents
 

@@ -64,9 +64,9 @@ statement of the Gyárfás--Lehel conjecture with the two attested cases, the
 Theorem and the opening of its proof through the displayed relations (1) and
 (2) (p. 203), and the end of the proof, the Erdős--Sós remark and the
 reference list (p. 204), each read clause by clause on the page images of PDF
-pp. 1--2 on 2026-09-22. The proof (pp. 203--204, one page) was read in full
-on the page images and followed, with the two filing observations recorded
-below. Nothing here is independently reviewed.
+pp. 1--2. The proof (pp. 203--204, one page) was read in full on the page images
+and followed, with the two filing observations recorded below. Nothing here is
+independently reviewed.
 
 ## Contents
 

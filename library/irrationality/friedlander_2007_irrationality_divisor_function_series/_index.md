@@ -61,7 +61,7 @@ and k = 2 to Erdős and Kac [4], cited as Problem 4518, Amer. Math. Monthly 61
 settles the case k = 3 unconditionally, and Theorem 2 gives every k >= 4 only
 under the prime k-tuples conjecture.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: The series sum_{n>=1} sigma_3(n)/n! is irrational, unconditionally.
 - Theorem 2: The prime k-tuples conjecture (Conjecture 1, Dickson's form for

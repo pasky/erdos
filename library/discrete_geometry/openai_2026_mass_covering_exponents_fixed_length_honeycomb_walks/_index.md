@@ -116,12 +116,12 @@ are not held in this library.
 
 Read status: claims checked for Theorem 1.1 and Corollaries 1.2--1.4, read
 clause by clause in the TeX source (`sections/00_introduction.tex` lines
-17--61) on 2026-10-07, together with the statements of the imported inputs
-Theorems 2.2--2.6 and the tail bound (4) (`sections/01_inputs.tex`) and of
-the intermediate results Proposition 3.1, Proposition 4.10, Theorem 5.2,
-Theorem 6.2, Theorem 7.4, Theorem 8.1, Propositions 8.6--8.7 and Lemma 9.1;
-the proofs were read for their structure only and no step was checked;
-nothing here is independently reviewed.
+17--61), together with the statements of the imported inputs Theorems 2.2--2.6
+and the tail bound (4) (`sections/01_inputs.tex`) and of the intermediate
+results Proposition 3.1, Proposition 4.10, Theorem 5.2, Theorem 6.2, Theorem
+7.4, Theorem 8.1, Propositions 8.6--8.7 and Lemma 9.1; the proofs were read for
+their structure only and no step was checked; nothing here is independently
+reviewed.
 
 ## Contents
 

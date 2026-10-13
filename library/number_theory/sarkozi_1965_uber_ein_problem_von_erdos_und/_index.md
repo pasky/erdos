@@ -53,14 +53,13 @@ Source:
 three-page scan of two-page spreads without a text layer: PDF p. 1 shows
 printed p. 204 (the end of the preceding paper) and p. 205, PDF p. 2 printed
 pp. 206--207, and PDF p. 3 printed p. 208 and the first page of the following
-paper. Everything on this card was read on the page images (130 dpi renders)
-on 2026-09-18. The paper's maximum is over all real $t\ge0$
-($\max_{0\le t<+\infty}f(t)$), and the $a_i$ are arbitrary distinct positive
-reals; its reference [1] is Katona, "On a conjecture of Erdős, and a stronger
-form of Sperner's theorem", Magyar Tud. Akad. Mat. Kutató Int. Közl., "im
-Druck", cited both for the Erdős--Moser bound and for the theorem the Lemma
-modifies, and [2] is Sperner's 1928 paper. No notice is printed on the scan's
-first or last pages; the publisher's record
+paper. Everything on this card was read on the page images (130 dpi renders).
+The paper's maximum is over all real $t\ge0$ ($\max_{0\le t<+\infty}f(t)$), and
+the $a_i$ are arbitrary distinct positive reals; its reference [1] is Katona,
+"On a conjecture of Erdős, and a stronger form of Sperner's theorem", Magyar
+Tud. Akad. Mat. Kutató Int. Közl., "im Druck", cited both for the Erdős--Moser
+bound and for the theorem the Lemma modifies, and [2] is Sperner's 1928 paper.
+No notice is printed on the scan's first or last pages; the publisher's record
 (https://www.impan.pl/get/doi/10.4064/aa-11-2-205-208, read 2026-10-02) offers
 the PDF under the link "Pobierz zgodnie z CC-BY" ("Free download under CC-BY
 license" on the English site), a Creative Commons Attribution license whose
@@ -78,7 +77,7 @@ p. 205, PDF p. 1, page image: $\max_tf(t)<(1+\varepsilon)(8/\sqrt\pi)2^n/n^{3/2}
 for $n>n_0(\varepsilon)$, the first question's bound; the introduction's
 report of the Erdős--Moser bound with the factor $\log^{3/2}n$)
 
-**Results to transcribe.**
+**Results.**
 
 - Satz (p. 205): For every epsilon > 0 and n > n_0(epsilon), any distinct
   positive reals a_1 < ... < a_n satisfy max_t f(t) < (1 + epsilon)(8/sqrt(pi))

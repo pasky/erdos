@@ -42,7 +42,7 @@ Source: <https://arxiv.org/abs/2303.14722>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0706/_index|#706]]
 
-**Results to transcribe.**
+**Results.**
 
 - Main results (Fig. 1, Table 1): Enlarged islands of certainty for chi = 7 and
   9, new exact islands for chi = 8, 12, 13, and conjectured islands for chi =

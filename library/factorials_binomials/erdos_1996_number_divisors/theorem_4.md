@@ -29,9 +29,9 @@ Here, as in
 $S(n)$ is the sum of the prime factors of $n$ counted with multiplicity and
 $f(n)$ is the least number with $\sum_{i=1}^{f(n)}S(n+i)>n$.
 
-**Read depth.** Claims checked: the statement was read clause by clause on
-the page image on 2026-10-08, and the deduction from Lemma 3 on p. 8 was
-followed. Nothing here is independently reviewed.
+**Read depth.** Claims checked: the statement was read clause by clause on the
+page image, and the deduction from Lemma 3 on p. 8 was followed. Nothing here is
+independently reviewed.
 
 ## Proof sketch
 

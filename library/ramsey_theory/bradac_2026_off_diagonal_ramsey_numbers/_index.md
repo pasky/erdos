@@ -74,7 +74,7 @@ Source: <https://arxiv.org/abs/2605.28793>.
 **Bears on.** [[../wiki/problems/graph_coloring/E0920/_index|#920]],
 [[../wiki/problems/ramsey_theory/E0986/_index|#986]]
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/bradac_2026_off_diagonal_ramsey_numbers/theorem_1_1|Theorem 1.1]]
   (p. 2): For each s at least 3 there is c_s > 0 such that r(s,k) is at

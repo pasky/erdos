@@ -65,10 +65,10 @@ pages, the only version on the arXiv listing; no journal version was located
 preprint. Read status: claims checked for Theorem 1.1 and the compactness remark
 that follows it, read clause by clause on p. 3 in the text layer and on the
 rendered page; the proof was not read. Theorem 1.2 and the paragraph introducing
-it were read clause by clause on the page image of p. 4 on 2026-09-21 (claims
-checked; the proof was not read). The statements of Theorems 1.3 to 1.9 listed
-below were checked against the text layer, those of Theorems 1.6 and 1.7 also on
-the page image of p. 7; their proofs were not read. Result page:
+it were read clause by clause on the page image of p. 4 (claims checked; the
+proof was not read). The statements of Theorems 1.3 to 1.9 listed below were
+checked against the text layer, those of Theorems 1.6 and 1.7 also on the page
+image of p. 7; their proofs were not read. Result page:
 [[integer_sequences/conlon_2021_subset_sums_completeness_colorings/theorem_1_1|theorem_1_1]].
 The arXiv record (https://arxiv.org/abs/2104.14766, read 2026-10-02) names the
 Creative Commons Attribution 4.0 license.
@@ -92,7 +92,7 @@ gives that the squares are 2-Ramsey complete, the problem's question; the
 squares' completeness, the theorem's hypothesis, is Graham's criterion as
 printed on the same page applied to P(x) = x^2)
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (p. 3): There is a constant C such that for every integer r >= 2
   there is an r-Ramsey complete sequence A with |A cap [n]| <= C r log^2 n for

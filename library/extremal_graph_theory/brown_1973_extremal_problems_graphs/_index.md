@@ -53,9 +53,8 @@ Theorem of Section 4 with the remark after it (p. 59), read clause by clause
 on the page images; the proof (pp. 59--61) was read for structure only and
 no step was checked; the values of Section 2 (pp. 56--57), the question on
 p. 58 and the statements of Section 5 (p. 62) were read clause by clause on
-the page images on 2026-10-07, and the rest of Section 3 was not re-read.
-On 2026-10-08 the Section 5 argument (p. 62) was checked step by step. The
-Theorem is paged at
+the page images, and the rest of Section 3 was not re-read. The Section 5
+argument (p. 62) was checked step by step. The Theorem is paged at
 [[extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_section_4|theorem_section_4]], the p. 58 question at
 [[extremal_graph_theory/brown_1973_extremal_problems_graphs/question_p58|question_p58]], and the Section 5 bound and
 conjecture at [[extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_p62|theorem_p62]] and
@@ -114,7 +113,7 @@ where the exponent is $2$, gives the lower half $d_r(e)\ge(r-2)e+3$ of the
 problem's conjecture, a reading recorded on the result page, and for
 $r=e=3$ the p. 58 question asks whether $d_3(3)\le6$.
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_section_4|Theorem (Section 4)]],
   p. 59: For integers k > r and s > 1 there exists c_{k,s} > 0 with

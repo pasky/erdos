@@ -40,10 +40,9 @@ are identified in the
 [[ramsey_theory/gupta_2024_optimizing_cgms_upper_bound_ramsey_numbers/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the error-term sentence
-were read clause by clause on the page image. The proof was not read; on
-2026-10-07 the results it rests on were traced (pp. 8 and 19 on the page
-images, the steps between in the cited edition) to record the dependency
-below.
+were read clause by clause on the page image. The proof was not read; the
+results it rests on were traced (pp. 8 and 19 on the page images, the steps
+between in the cited edition) to record the dependency below.
 
 ## Proof pointer
 

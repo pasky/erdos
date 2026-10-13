@@ -90,10 +90,9 @@ Theorem 7.2, Corollary 7.3 and Theorem A.1, read clause by clause in the TeX
 source (`sections/01-introduction.tex` label `main:intro`;
 `sections/06-perturbation.tex` label `perturb:cyclic`;
 `sections/07-transfers.tex` labels `transfer:product`, `transfer:large-r`,
-`transfer:limits`; `sections/08-upper.tex` label `upper:finite`) on 2026-10-07;
-the proofs, and the statements of the lemmas of Sections 2 to 6, were read for
-their structure only and no step was checked; nothing here is independently
-reviewed.
+`transfer:limits`; `sections/08-upper.tex` label `upper:finite`); the proofs,
+and the statements of the lemmas of Sections 2 to 6, were read for their
+structure only and no step was checked; nothing here is independently reviewed.
 
 ## Contents
 

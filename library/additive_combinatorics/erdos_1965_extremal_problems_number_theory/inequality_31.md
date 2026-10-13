@@ -55,10 +55,9 @@ theory, J. Math. Sci. 1 (1966), 77--80.
 Choi's paper is filed as
 [[additive_combinatorics/choi_1974_extremal_problem_number_theory/_index|choi_1974_extremal_problem_number_theory]]
 (J. Number Theory 6 (1974), 105--111); its estimate (1) on printed p. 105
-(PDF p. 1), read clause by clause on the page image at 150 dpi on
-2026-09-22, is $h(n)\gg n^{1/3}(\log n)^{1/3}$ for sets of $n$ nonzero
-integers, cites this paper as [1] for its bound (2) $h(n)\gg n^{1/3}$, and
-is paged on
+(PDF p. 1), read clause by clause on the page image at 150 dpi, is
+$h(n)\gg n^{1/3}(\log n)^{1/3}$ for sets of $n$ nonzero integers, cites this
+paper as [1] for its bound (2) $h(n)\gg n^{1/3}$, and is paged on
 [[additive_combinatorics/choi_1974_extremal_problem_number_theory/estimate_1|estimate_1]];
 the Additions' exponent $1$ on the logarithm is not what Choi's paper
 prints.
@@ -67,8 +66,8 @@ prints.
 Pure Math. VIII (Theory of Numbers), Amer. Math. Soc. (1965), 181--189, DOI
 10.1090/pspum/008/0174539; printed p. 188 (PDF p. 8 of the eleven-page
 scan read for this page) and the Additions on printed p. 190 (PDF p. 10), read on
-the page images on 2026-09-18 (the exponents at 300 dpi); the site's key
-[Er65] for Problem 789.
+the page images (the exponents at 300 dpi); the site's key [Er65] for
+Problem 789.
 
 **Read depth.** Claims checked: the definition, (29), (31) and the
 surrounding sentences were read clause by clause on the page image. The

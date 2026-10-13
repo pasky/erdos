@@ -115,10 +115,10 @@ together with the statements of Lemma 2.1 (`lem:adjustment`,
 302--316, 368--386, 453--464 and 486--496), Lemmas 3.1--3.2
 (`build/sections/triangles.tex` lines 102--119 and 184--191), and Proposition
 4.1 and Lemmas 4.2--4.4 (`build/sections/rounds.tex` lines 85--102, 154--163,
-251--262 and 371--382), on 2026-10-12, with the PDF page map taken from the
-held PDF's text layer. The three-line proof of Corollary 1.2 was followed; all
-other proofs were read for their structure only and no step was checked.
-Nothing here is independently reviewed.
+251--262 and 371--382), with the PDF page map taken from the held PDF's text
+layer. The three-line proof of Corollary 1.2 was followed; all other proofs were
+read for their structure only and no step was checked. Nothing here is
+independently reviewed.
 
 ## Contents
 

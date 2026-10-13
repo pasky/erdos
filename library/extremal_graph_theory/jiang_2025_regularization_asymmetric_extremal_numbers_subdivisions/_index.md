@@ -97,12 +97,13 @@ precede it, read clause by clause on the rendered page image
 $d(G)/(12\log(2n/d(G)))$ agree with the print); the proof and the bipartite
 theorems were not read in that pass. Later the statements of Theorems 1.5--1.7
 (pp. 3--4), 5.7 and 5.10 (pp. 25--27) and the outline of Section 2 (pp. 4--8)
-were read on the page images to correct this digest; no proof was checked.
-On 2026-10-08 Definition 1.4 and Theorems 1.5--1.7 (pp. 3--4), the notation
-for asymmetric extremal numbers and subdivisions (pp. 2--3), and Theorems 5.7 and 5.10 with the remarks after
-them (pp. 25--27) were read clause by clause on the page images for their
-result pages (claims checked); their proofs were read for structure only.
-Paged at [[extremal_graph_theory/jiang_2025_regularization_asymmetric_extremal_numbers_subdivisions/theorem_1_3|theorem_1_3]],
+were read on the page images to correct this digest; no proof was checked. Then
+Definition 1.4 and Theorems 1.5--1.7 (pp. 3--4), the notation for asymmetric
+extremal numbers and subdivisions (pp. 2--3), and Theorems 5.7 and 5.10 with the
+remarks after them (pp. 25--27) were read clause by clause on the page images
+for their result pages (claims checked); their proofs were read for structure
+only. Paged at
+[[extremal_graph_theory/jiang_2025_regularization_asymmetric_extremal_numbers_subdivisions/theorem_1_3|theorem_1_3]],
 [[extremal_graph_theory/jiang_2025_regularization_asymmetric_extremal_numbers_subdivisions/theorem_1_5|theorem_1_5]],
 [[extremal_graph_theory/jiang_2025_regularization_asymmetric_extremal_numbers_subdivisions/theorem_1_6|theorem_1_6]],
 [[extremal_graph_theory/jiang_2025_regularization_asymmetric_extremal_numbers_subdivisions/theorem_1_7|theorem_1_7]],

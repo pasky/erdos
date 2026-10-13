@@ -79,13 +79,13 @@ The growth rate $z(n)\asymp n/\log n$ of
 [[../library/graph_coloring/gimbel_1986_three_extremal_problems_cochromatic_theory/_index|Gimbel 1986]]
 is not part of the question.
 
-Search scope, 2026-10-07: the site's page and discussion thread, the community
-database (teorth/erdosproblems), the lean-proofs and erdos-lean catalogs, the
-Justin Sun Prize awards repository, Crossref, Zenodo, and the web. No further
-claim on the problem was found. Three third-party Lean developments are linked
-from the claim pages: the corpus built and checked the lean-proofs development,
-which proves $z(12)=4$ and the values for $n\le19$, and did not build the two
-that prove the candidate value $z(20)=6$.
+Search scope: the site's page and discussion thread, the community database
+(teorth/erdosproblems), the lean-proofs and erdos-lean catalogs, the Justin Sun
+Prize awards repository, Crossref, Zenodo, and the web; on 2026-10-07 none of
+them showed a further claim on the problem. Three third-party Lean
+developments are linked from the claim pages: the corpus built and checked the
+lean-proofs development, which proves $z(12)=4$ and the values for $n\le19$,
+and did not build the two that prove the candidate value $z(20)=6$.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -11,7 +11,7 @@ status: claimed
 claim: proved
 scope: partial
 settles: [iii]
-submitted: null
+submitted: 2026-06-22
 links:
 - url: https://www.overleaf.com/read/gfvryqpshntx
   kind: preprint
@@ -55,6 +55,58 @@ post states that the work was done with Principia Math, a research harness
 its team is building, and that most of the final push was carried out by
 GPT-5.5 Pro, with help from other models, especially Claude Opus 4.8. The
 collaboration paper's account names the models as GPT-5.5 and Claude Opus 4.8.
+
+**Submission note.** Posted to the site's forum by Anton Shakov (account
+antonshakov, under the name principia_math) on 22 June 2026:
+
+> We have written a proposed resolution to the remaining limsup question in
+> Erdos Problem 1054.
+>
+> Let \(f(N)\) be the least positive integer \(m\) such that \(N\) is the sum of
+> the \(k\) smallest positive divisors of \(m\), for some \(k\geq 1\). We prove
+> that, for every fixed \(A\geq 1\), the set of \(N\) satisfying\[ f(N)>AN \]has
+> positive lower density. Consequently,\[
+> \limsup_{N\to\infty}\frac{f(N)}{N}=\infty. \]Here is the latex solution, as
+> well as the Lean formalization of our claim. The Lean file isolates two
+> classical analytic inputs that do not appear to be available in Mathlib: a
+> quantitative Mertens product estimate and an almost-all binary Goldbach
+> theorem. These are stated as explicit assumptions rather than formalized from
+> first principles.
+>
+> Note: we recently learned of jif's proof that every positive integer other
+> than \(2\) and \(5\) is representable. His argument handles a large finite
+> range by explicit computation and prime-window interval extension, and uses an
+> explicit consequence of Helfgott's ternary Goldbach theorem for the remaining
+> tail. Our current Lean formalization instead uses an almost-all binary
+> Goldbach estimate, since we were not aware of jif's argument when it was
+> written.
+>
+> This work was carried out using Principia Math, a frontier model harness &
+> open-source map of mathematics that my team and I are building. We're
+> currently in beta testing.
+>
+> Most of the final push was carried out by GPT-5.5 Pro, with assistance from
+> other frontier models, especially Claude Opus 4.8. We have tried to cite all
+> relevant prior work and would appreciate being told about any omissions.
+>
+> We're incredibly grateful to everyone who contributed to the solution of this
+> problem. It's been very fun to work on.
+
+Posted to the site's forum by Anton Shakov (account antonshakov, under the name
+principia_math) on 21 July 2026:
+
+> Some updates: we've fully formalized the remaining limsup question of Erdos
+> 1054, including the necessary bound from Merten's Third Theorem and the
+> almost-all Goldbach Theorem, which were still recorded as deep assumptions at
+> the time of our earlier comment. Many thanks to Woett and to the PNT+ project:
+> we built on their work in our formalization!
+>
+> A question for moderators: we're currently working on a collaboration to
+> produce a high-quality write-up of all parts of the solution. In the meantime,
+> should we submit a proof with our current write-up and its full formalization
+> so that the question gets marked as solved?
+>
+> Current write-up Formalization of write-up
 
 **Covers.** Part (iii) of [[problems/divisors/E1054/_index|Problem 1054]] as
 its Formulation reads it: $\limsup f(n)/n=\infty$. Parts (i) and (ii) are not

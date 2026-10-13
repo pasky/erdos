@@ -62,7 +62,7 @@ Source: <https://ford126.web.illinois.edu/papers-ann.html>.
 conjecture that for every c_4 < 1 infinitely many totients m have A(m) >=
 m^{c_4}, and cites the record then known, c_4 = 0.7039, of Baker and Harman)
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: V(x) = (x/log x) exp{C(log_3 x - log_4 x)^2 + D log_3 x -
   (D+1/2-2C) log_4 x + O(1)}, with C = 0.81781... and D = 2.17696...,

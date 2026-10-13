@@ -48,9 +48,9 @@ artifact is identified in the
 [[additive_combinatorics/erdos_freud_1984_disjoint_sets_differences/_index|source digest]].
 
 **Read depth.** Claims checked: the quoted question, the construction, the
-equivalence of (1) and (2) and the count were read clause by clause on the
-page images on 2026-10-07, and the verification was followed as below.
-Nothing here is independently reviewed.
+equivalence of (1) and (2) and the count were read clause by clause on the page
+images, and the verification was followed as below. Nothing here is
+independently reviewed.
 
 ## Proof
 

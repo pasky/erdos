@@ -174,8 +174,8 @@ quote it.
 
 ## Formalization and the Lean label
 
-The site labeled the problem PROVED (LEAN). The site's page carries that label
-and supplies no proof-claim record, exposition or link to a formal statement or
+The site labeled the problem PROVED (LEAN). The site's page carried that label
+and supplied no proof-claim record, exposition or link to a formal statement or
 proof. The community database (`teorth/erdosproblems`, `data/problems.yaml` at
 its revision of 2026-09-18) records `formal_status` Lean, last updated
 2026-08-24, and no formal-proof URL. The two files below are described at the

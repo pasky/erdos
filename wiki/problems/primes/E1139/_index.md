@@ -104,8 +104,7 @@ proof was claimed and the note has no claim page. A covering-reduction
 framework posted on 2026-04-29 isolates a sparse multi-covering statement as
 the open technical point and claims no proof.
 
-**Search scope (2026-10-07).** The site's problem page, its thread and its
-proof-claims tab, and the formal-conjectures statement file at the pinned
-commit; no literature survey of known results beyond them. Xu's Palomar
-registry entry and the development's repository at its pinned commit were
-also read.
+**Search scope.** The site's problem page, its thread and its proof-claims tab,
+and the formal-conjectures statement file at the pinned commit; no literature
+survey of known results beyond them. Xu's Palomar registry entry and the
+development's repository at its pinned commit were also read.

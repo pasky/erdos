@@ -78,15 +78,15 @@ graph is feasibly $3$-colorable. Since the triangle decomposition is
 nonempty, this gives $\chi(G)=3$ and in particular answers the site's “at most
 $3$” question affirmatively.
 
-**Evidence and search window.** Search scope, 2026-09-07: the site's problem
-page, discussion thread and proof-claims listing. The complete 1993
-proceedings volume containing Sachs's chapter is in the HUN-REN Rényi
-Institute's Bolyai Archive, whose whole-volume PDF has the source class on
-printed p. 347 (PDF p. 348) and the theorem and corollary on printed p. 348
-(PDF p. 349). The Fleischner–Stiebitz article is in the publisher's open
-archive, and its Theorem 1.1 is on printed p. 39. The
-Bérczi–Kobayashi Crossref record has a null abstract and provides
-bibliographic identity only. No later source search is recorded.
+**Evidence and search window.** Search scope: the site's problem page,
+discussion thread and proof-claims listing. The complete 1993 proceedings
+volume containing Sachs's chapter is in the HUN-REN Rényi Institute's Bolyai
+Archive, whose whole-volume PDF has the source class on printed p. 347 (PDF p.
+348) and the theorem and corollary on printed p. 348 (PDF p. 349). The
+Fleischner–Stiebitz article is in the publisher's open archive, and its Theorem
+1.1 is on printed p. 39. The Bérczi–Kobayashi Crossref record has a null
+abstract and provides bibliographic identity only. No other source search is
+recorded.
 
 **Proof and review coverage.** The site formulation was compared directly
 with the hypothesis of Fleischner and Stiebitz's Theorem 1.1 and with Sachs's

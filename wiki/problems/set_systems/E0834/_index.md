@@ -78,9 +78,9 @@ preprint with no journal record. The corpus's own review of Li's thirteen
 reconstructed proofs, recorded on the source card's evidence pages, is the
 project's review and gives no acceptance evidence.
 
-Search scope, 2026-10-07: the site's problem page and discussion thread, the
-community database (teorth/erdosproblems) and the formal-conjectures statement
-file. No claim other than Li's was found.
+Search scope: the site's problem page and discussion thread, the community
+database (teorth/erdosproblems) and the formal-conjectures statement file; on
+2026-10-07 none of them showed a claim other than Li's.
 
 ## Progress
 

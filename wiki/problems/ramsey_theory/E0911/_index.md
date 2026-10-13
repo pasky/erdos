@@ -161,8 +161,8 @@ dependence on the density, or a family of graphs of large density with
 $\hat R(G)=O(Ce)$. (2) The site's reference text carries only the key; the
 passage is located on the printed page the thread names and quoted above.
 (3) There is nothing to compile: no proof exists for the statement, and the
-page's account rests on the origin passage and the dated search. (4) There is
-no Lean statement of the problem.
+page's account rests on the origin passage and the search recorded above. (4)
+There is no Lean statement of the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

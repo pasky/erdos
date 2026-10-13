@@ -65,8 +65,8 @@ segments) and for Klein's lemma with its remark on p. 79 (PDF pp. 5--6), read
 clause by clause on the page images; the construction of the lemma on p. 80
 was read for structure. Section 1, printed pp. 74--77 (PDF pp. 1--4), was read
 on the page images (260 and 400 dpi renders; the exponents are small
-fractions that the text layer garbles) on 2026-09-18 for the A-sequence
-exponents, claims checked and proofs not checked: the introduction's
+fractions that the text layer garbles) for the A-sequence exponents, claims
+checked and proofs not checked: the introduction's
 $\pi(n)+O(n^{2/3}/(\log n)^2)$ and the first bound $\pi(n)+2n^{2/3}$
 (p. 74); Lemma I's $b$'s, the integers not exceeding $n^{2/3}$ and the primes
 of $(n^{2/3},n)$, and $d$'s, the integers not exceeding $n^{2/3}$, "so that
@@ -111,7 +111,7 @@ $\pi(n)+O(n^{2/3}/(\log n)^2)$ members up to $n$, with Lemmas I and II and
 the construction from triples of primes up to $n^{1/3}$ showing the error
 term best possible (pp. 76--77).
 
-**Results to transcribe.**
+**Results.**
 
 - Section 1 theorem: An A sequence (no member divides the product of two others)
   has fewer than pi(n) + O(n^{2/3}/(log n)^2) members up to n, and this error

@@ -52,15 +52,14 @@ publisher's article page
 "© Akadémiai Kiadó" under Rights and permissions and names no open access or
 Creative Commons license, every other right reserved.
 
-Read status: the whole paper was read on the page images of PDF pp. 1--3 on
-2026-09-22. Claims checked for the definition of a non-averaging set and of
-$f(n)$, the recalled bounds of Straus, Erdős and Straus and Abbott, and the
-Theorem (p. 155), read clause by clause on the page image. The proof
-(pp. 155--156, one page) was read in full on the page images and its steps
-were followed at filing; the convexity assertion (2) is printed with a
-one-clause justification and no further argument. The references and the
-received date (p. 157) were read on the page image. Nothing here is
-independently reviewed.
+Read status: the whole paper was read on the page images of PDF pp. 1--3. Claims
+checked for the definition of a non-averaging set and of $f(n)$, the recalled
+bounds of Straus, Erdős and Straus and Abbott, and the Theorem (p. 155), read
+clause by clause on the page image. The proof (pp. 155--156, one page) was read
+in full on the page images and its steps were followed at filing; the convexity
+assertion (2) is printed with a one-clause justification and no further
+argument. The references and the received date (p. 157) were read on the page
+image. Nothing here is independently reviewed.
 
 ## Contents
 

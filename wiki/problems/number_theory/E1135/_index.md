@@ -160,8 +160,8 @@ https://www.erdosproblems.com/1135, accessed 2026-09-18.
   ([[../library/number_theory/simons_de_weger_2010_mcycles_bounds/theorem_3|theorem_3]]),
   which [He23] cites as its [12].
 - [OEIS] Sequences A006370 (the Collatz map) and A008908 (steps to reach
-  $1$), The On-Line Encyclopedia of Integer Sequences, JSON records; A006370 cites [Gu04] E16, the Lagarias volume
-  and [KrLa03].
+  $1$), The On-Line Encyclopedia of Integer Sequences, JSON records; A006370
+  cites [Gu04] E16, the Lagarias volume and [KrLa03].
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/1135.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/1135.lean)
@@ -197,7 +197,7 @@ publicity from the site), a historical comment of 12 January 2026 (Erdős and
 Collatz both attended the 1950 International Congress at Harvard; a group
 photograph), and a third-party notice of 16 July 2026 (a company's prize for a
 proof, with a 2031 deadline); none is a mathematical source. The proof-claims
-tab is empty. The community database record, lists the problem as open as of its
+tab is empty. The community database record lists the problem as open as of its
 last update on 11 January 2026.
 
 **The Erdős connection (the account this page keeps).** Lagarias's 2010 survey

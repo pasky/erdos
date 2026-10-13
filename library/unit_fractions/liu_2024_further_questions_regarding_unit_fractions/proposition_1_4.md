@@ -25,10 +25,10 @@ The paper does not require $s/t$ to be in lowest terms.
 
 **Source.** Liu–Sawhney, arXiv:2404.07113v1, Proposition 1.4,
 p. 2; remarks p. 3; proof p. 21. Read depth: claims checked (the statement
-on p. 2 and the remarks on p. 3 were re-read clause by clause in the text
-layer on 2026-09-18 and agree with the statement above); the proof is not
-verified, and the coverage gap below stands. The published version (Int.
-Math. Res. Not. 2026, no. 2, rnaf382) was not compared.
+on p. 2 and the remarks on p. 3 were re-read clause by clause in the text layer
+and agree with the statement above); the proof is not verified, and the coverage
+gap below stands. The published version (Int. Math. Res. Not. 2026, no. 2,
+rnaf382) was not compared.
 
 ## Proof pointer and sketch
 

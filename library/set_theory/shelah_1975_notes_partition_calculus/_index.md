@@ -102,13 +102,12 @@ other right reserved.
 
 Read status: claims checked for §0 (pp. 1257--1258), for Theorem 1.2,
 Corollary 1.3 and the Remark after it (p. 1260), and for Conjecture 1A with
-its Remark (p. 1261), each read clause by clause on the page images of PDF
-pp. 1--2 and 4--5 on 2026-09-27; the statement of the Canonization Lemma 1.1
-(p. 1258) and the proofs of Lemma 1.1 (pp. 1258--1260) and of Theorem 1.2
-(p. 1260) were read on the page images for structure only, and no step was
-checked; the reference list (pp. 1275--1276) was read on the page images.
-Sections 2--4 (pp. 1261--1275) were not read beyond the summary in §0.
-Nothing here is independently reviewed.
+its Remark (p. 1261), each read clause by clause on the page images of PDF pp.
+1--2 and 4--5; the statement of the Canonization Lemma 1.1 (p. 1258) and the
+proofs of Lemma 1.1 (pp. 1258--1260) and of Theorem 1.2 (p. 1260) were read on
+the page images for structure only, and no step was checked; the reference list
+(pp. 1275--1276) was read on the page images. Sections 2--4 (pp. 1261--1275)
+were not read beyond the summary in §0. Nothing here is independently reviewed.
 
 ## Contents
 

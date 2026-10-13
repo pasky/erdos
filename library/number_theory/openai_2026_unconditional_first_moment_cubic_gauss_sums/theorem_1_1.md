@@ -76,8 +76,8 @@ release folder
 TeX file `build/paper.tex`, label `thm:main` (lines 64--72), PDF p. 1, with the
 definitions at lines 50--62, the weighted form (1.3) at lines 84--92 and the
 conversion and Remark 1.2 at lines 151--192 (PDF pp. 2--3); the proof closes in
-Section 7.5 (`build/sections/perron.tex` lines 412--543, PDF pp. 40--41). Read
-2026-10-12. Provenance and attestations are on
+Section 7.5 (`build/sections/perron.tex` lines 412--543, PDF pp. 40--41).
+Provenance and attestations are on
 [[number_theory/openai_2026_unconditional_first_moment_cubic_gauss_sums/_index|the card]].
 
 **Read depth.** Claims checked: the statement, the definitions (1.1) it rests

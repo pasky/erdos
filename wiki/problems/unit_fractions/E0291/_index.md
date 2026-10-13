@@ -101,7 +101,7 @@ Erdős Problem #291, https://www.erdosproblems.com/291, accessed 2026-09-18.
   [[../library/unit_fractions/doorn_2024_non_monotonicity_denominator_generalized_harmonic_sums/_index|doorn_2024_non_monotonicity_denominator_generalized_harmonic_sums]].
 - [OEIS] Vrabec, F., Sequence A110566, The On-Line Encyclopedia of Integer
   Sequences (2005; entry revision 39 of 17 May 2023): $a(n)=L_n/d_n=(a_n,L_n)$,
-  with a table to $n=10000$; accessed.
+  with a table to $n=10000$.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/291.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/291.lean)
@@ -291,10 +291,10 @@ manuscript.
 
 **Data and AI-assisted items (leads with provenance, not status).**
 
-- OEIS A110566 (F. Vrabec, 2005; revision 39, 17 May 2023): $a(n)=\mathrm{lcm}(1,\ldots,n)/\mathrm{den}(H_n)$, with a
-  table to $n=10000$, the comment that $a(n)$ is always odd, and a
-  conjecture (J. Song, 2022) that every odd number occurs; the table agrees
-  with an exact recomputation.
+- OEIS A110566 (F. Vrabec, 2005; revision 39, 17 May 2023):
+  $a(n)=\mathrm{lcm}(1,\ldots,n)/\mathrm{den}(H_n)$, with a table to $n=10000$,
+  the comment that $a(n)$ is always odd, and a conjecture (J. Song, 2022) that
+  every odd number occurs; the table agrees with an exact recomputation.
 - A public AI-generated working report on this problem
   (erdosproblemaday.com/report/291, "access/check date 2026-07-26", labeled
   PARTIAL) derives the leading-digit criterion, reports an

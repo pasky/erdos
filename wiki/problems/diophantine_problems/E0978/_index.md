@@ -180,8 +180,8 @@ March 2026) explain the exclusion of $k=2^l$ through Erdős's examples, note
 that Bunyakovsky's conjecture would make $n^4+2$ prime, hence squarefree,
 infinitely often, and correct the statement's wording.
 
-Search scope, 2026-10-07: the site's problem page, remarks, discussion thread
-and proof-claims tab (empty on 2026-10-06); the release manuscript, its
+Search scope: the site's problem page, remarks, discussion thread and
+proof-claims tab (empty on 2026-10-06); the release manuscript, its
 Lean catalog and the corpus's verification record; the arXiv records of the
 two preprints above; the formal-conjectures file at its revision of
 2026-09-18. Not searched: zbMATH, MathSciNet and X.

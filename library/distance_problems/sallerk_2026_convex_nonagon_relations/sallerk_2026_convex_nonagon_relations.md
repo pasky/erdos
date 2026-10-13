@@ -16,9 +16,8 @@ Account sallerk, [Erdős Problem 97 post 8669](https://www.erdosproblems.com/for
 31 August 2026, 19:37; the preserved record supplies no timezone.
 The text below is the complete selected post from a locally saved forum-thread
 copy.
-The complete selected post was read locally on 2026-09-09. The capture's
-retrieval date is not supplied. The source lists edits without individual
-edit timestamps.
+The complete selected post was read locally. The capture's retrieval date is not
+supplied. The source lists edits without individual edit timestamps.
 This is a pinned local version, not a claim about the current live page.
 The external repository and arXiv lead were not acquired or inspected.
 

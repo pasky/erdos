@@ -49,7 +49,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/analysis/E1042/_index|#1042]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 2.1(a): If 0 < c(K) < 1 then M(K) = limsup C_n(K)/n < 1.
 - Theorem 2.1(b): If c(K) in (1/2,1) and K is a Jordan domain closure or C^2

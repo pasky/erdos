@@ -99,9 +99,8 @@ and `cor:comparison`; `sections/labels.tex`, labels `lem:labels-marginal`,
 `prop:mixed`, `lem:labels-short`, `thm:labels-real-MR`,
 `thm:labels-complex-MRT`; `sections/distribution.tex`, label
 `lem:distribution-dickman` and the displays `eq:distribution-fixed` and
-`eq:distribution-upper-tail`) on 2026-10-07; the proofs in Sections 2--11 were
-read for their structure only and no step was checked; nothing here is
-independently reviewed.
+`eq:distribution-upper-tail`); the proofs in Sections 2--11 were read for their
+structure only and no step was checked; nothing here is independently reviewed.
 
 ## Contents
 

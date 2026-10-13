@@ -62,8 +62,8 @@ modifications), read clause by clause on the page image; the rest of the
 typescript was read on the page images for its structure and for the problem
 statements summarized in Contents, not clause by clause; the bipartite
 $C_6$ passage of item 3 on the page headed 7 (PDF p. 7) was read clause by
-clause on the page image on 2026-09-18 for Problem 1080. The paper is a
-problem paper; its one proof (item 7.V) is not checked here.
+clause on the page image for Problem 1080. The paper is a problem paper; its one
+proof (item 7.V) is not checked here.
 
 ## Contents
 

@@ -64,13 +64,12 @@ garbles the formulas). The artifact is identified in the
 [[number_theory/de_mathan_1980_numbers_contravening_condition_density_modulo_1/_index|source digest]].
 
 **Read depth.** Claims checked: the statement with conditions (1) and (2)
-and the two corollaries were read clause by clause on the page image of
-p. 237 on 2026-09-22, and the closing conclusion on the page image of
-p. 241. The proof of the first part (pp. 238--239) was read in full on the
-page images and its nested-interval construction was followed but not
-checked; Lemmas 1 and 2 and the dimension argument (pp. 239--241) were read
-on the page images for structure only. Nothing here is independently
-reviewed.
+and the two corollaries were read clause by clause on the page image of p. 237,
+and the closing conclusion on the page image of p. 241. The proof of the first
+part (pp. 238--239) was read in full on the page images and its nested-interval
+construction was followed but not checked; Lemmas 1 and 2 and the dimension
+argument (pp. 239--241) were read on the page images for structure only. Nothing
+here is independently reviewed.
 
 ## Proof pointer
 

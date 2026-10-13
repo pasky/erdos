@@ -81,12 +81,12 @@ answer is Komjáth's and Soukup and Weiss's, recorded on the problem page.
 
 Read status: claims checked for Definition 1.1, Theorem 3.2, the remark after
 its proof, Question 3.3, Theorem 4.4 and Corollary 4.5, read clause by clause
-in the text layer and, for pp. 9 and 11, on the rendered pages on 2026-09-18;
-Theorem 1.2, Theorem 2.8, Definition 2.6, Lemma 2.7, Question 2.9, Theorem 4.2
-and Corollary 4.3 were read clause by clause on the rendered pages; the proofs of
-Theorem 3.2 (pp. 9--11), of Theorem 2.5 and Lemma 2.7 (pp. 6--8) and of Theorem
-4.4 (pp. 13--16) were read for their structure and not checked step by step.
-Result pages:
+in the text layer and, for pp. 9 and 11, on the rendered pages; Theorem 1.2,
+Theorem 2.8, Definition 2.6, Lemma 2.7, Question 2.9, Theorem 4.2 and Corollary
+4.3 were read clause by clause on the rendered pages; the proofs of Theorem 3.2
+(pp. 9--11), of Theorem 2.5 and Lemma 2.7 (pp. 6--8) and of Theorem 4.4 (pp.
+13--16) were read for their structure and not checked step by step. Result
+pages:
 [[ramsey_theory/hindman_2017_pairwise_sums_colourings_reals/theorem_2_8|Theorem 2.8]],
 [[ramsey_theory/hindman_2017_pairwise_sums_colourings_reals/theorem_3_2|Theorem 3.2]],
 [[ramsey_theory/hindman_2017_pairwise_sums_colourings_reals/theorem_4_4|Theorem 4.4]],
@@ -102,7 +102,7 @@ from Theorem 4.4 (p. 13), gives with k = 2 a set of size continuum whose sums
 of two distinct elements share a color, for every 2-coloring whose classes have
 the property of Baire or are measurable.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.2 (p. 4): For k < m there is a finite coloring of R with no
   uncountable X having FS_k(X) union FS_m(X) monochromatic; its color classes

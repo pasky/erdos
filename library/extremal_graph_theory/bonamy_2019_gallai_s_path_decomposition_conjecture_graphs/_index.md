@@ -69,18 +69,18 @@ Ser. B 93 (2005), 117--125, a different paper from Fan's 2002 covering paper.
 Both quoted papers are filed here; no file of either is held. Pyber's 1996
 paper is filed as
 [[extremal_graph_theory/pyber_1996_covering_edges_connected_graph_paths/_index|pyber_1996_covering_edges_connected_graph_paths]];
-its Theorem 0, the forest case quoted here as Theorem 1.1, is on printed
-p. 152 (PDF p. 1), located there in the text layer on 2026-09-22 and paged on
+its Theorem 0, the forest case quoted here as Theorem 1.1, is on printed p. 152
+(PDF p. 1), located there in the text layer and paged on
 [[extremal_graph_theory/pyber_1996_covering_edges_connected_graph_paths/theorem_0|theorem_0]].
 Fan's 2005 paper is filed as
 [[extremal_graph_theory/fan_2005_path_decompositions_gallai_s_conjecture/_index|fan_2005_path_decompositions_gallai_s_conjecture]];
-its Corollary, the block case quoted here as Theorem 1.2, is on printed
-p. 125 (PDF p. 9), located there in the text layer on 2026-09-22 and paged on
+its Corollary, the block case quoted here as Theorem 1.2, is on printed p. 125
+(PDF p. 9), located there in the text layer and paged on
 [[extremal_graph_theory/fan_2005_path_decompositions_gallai_s_conjecture/corollary|corollary]].
 Lemma 3.1 (p. 3), the definition of a good decomposition (p. 2), Lemma 3.2
 (p. 10) and the closing proof of Theorem 1.3 (p. 10) were read clause by clause
-on the page images on 2026-10-08; the proofs of the two lemmas (Section 3,
-pp. 3--10) were read for structure only, not verified. Result pages:
+on the page images; the proofs of the two lemmas (Section 3, pp. 3--10) were
+read for structure only, not verified. Result pages:
 [[extremal_graph_theory/bonamy_2019_gallai_s_path_decomposition_conjecture_graphs/theorem_1_3|theorem_1_3]],
 [[extremal_graph_theory/bonamy_2019_gallai_s_path_decomposition_conjecture_graphs/question_1_1|question_1_1]],
 [[extremal_graph_theory/bonamy_2019_gallai_s_path_decomposition_conjecture_graphs/lemma_3_1|lemma_3_1]]
@@ -106,7 +106,7 @@ says nothing about path decompositions on its own. Paged at
 and
 [[extremal_graph_theory/bonamy_2019_gallai_s_path_decomposition_conjecture_graphs/lemma_3_2|lemma_3_2]].
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.3: Every connected graph G on n vertices with maximum degree at most
   5 admits a path decomposition into ceil(n/2) paths.

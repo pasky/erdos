@@ -65,11 +65,11 @@ $G^{(3)}(r;r-2)$ configurations, $r$ vertices spanned by $r-2$ triples, with
 $r=j+2$ and $k=g+2$; the cases $j=2,3$ ($r=4,5$) hold in every Steiner triple
 system.
 
-Search scope, 2026-10-07: the site's page and discussion thread (no comments
-and no proof claims), the community database (teorth/erdosproblems), the
-formal-conjectures catalog (a statement file added 2026-10-07, without a
-proof) and Crossref. No other claim on the problem was found, and no Lean
-proof of the theorem is recorded anywhere.
+Search scope, with the sources as they stood on 2026-10-07: the site's page
+and discussion thread (no comments and no proof claims), the community database
+(teorth/erdosproblems), the formal-conjectures catalog (a statement file added
+2026-10-07, without a proof) and Crossref. None of them showed another claim
+on the problem or recorded a Lean proof of the theorem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -92,13 +92,12 @@ quartics and power-free polynomial values).
 
 Read status: claims checked for Theorem 1.1, Corollary 1.2, Corollary 1.3 and
 Proposition 1.4, read clause by clause in the TeX source
-(`sections/01-introduction.tex`, lines 20--29, 113--120, 136--158 and
-197--206) on 2026-10-07, and for the statements of Proposition 2.1, Lemma
-2.3, Theorem 3.1 and Corollary 12.1 (`sections/02-sieve.tex` lines 10--29 and
-157--168, `sections/03-affine-counting.tex` lines 37--66,
-`sections/13-cyclotomic.tex` lines 17--31, same date); the proofs were read
-for their structure only and no step was checked; nothing here is
-independently reviewed.
+(`sections/01-introduction.tex`, lines 20--29, 113--120, 136--158 and 197--206),
+and for the statements of Proposition 2.1, Lemma 2.3, Theorem 3.1 and Corollary
+12.1 (`sections/02-sieve.tex` lines 10--29 and 157--168,
+`sections/03-affine-counting.tex` lines 37--66, `sections/13-cyclotomic.tex`
+lines 17--31, same date); the proofs were read for their structure only and no
+step was checked; nothing here is independently reviewed.
 
 ## Contents
 

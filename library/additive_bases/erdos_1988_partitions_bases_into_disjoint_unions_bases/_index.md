@@ -143,7 +143,7 @@ and
   partition into infinitely many disjoint asymptotic bases of order 2 when
   f(n)/log n -> infinity.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (pp. 2--3): For h >= 1, t >= 2 and S(n) subset of [A]^{<=h}
   pairwise disjoint with |S(n)| >= c log n for n >= n_0, c >

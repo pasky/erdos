@@ -291,9 +291,9 @@ site's expectation $C_\epsilon\le\epsilon^{-1-o(1)}$ is open; no source
 found addresses the order of $C_\epsilon$ between $\epsilon^{-1}$ and
 $\epsilon^{-2}$.
 
-**Search scope (2026-09-18 UTC).** None of the routes below found a dispute
-of the theorems, a bound on $C_\epsilon$ below order $\epsilon^{-2}$, or a
-Lean file for the problem.
+**Search scope.** The routes below, as they stood on 2026-09-18, showed no
+dispute of the theorems, no bound on $C_\epsilon$ below order $\epsilon^{-2}$
+and no Lean file for the problem.
 
 - The site: problem page, discussion thread and proof-claim tab; the full
   directory listing of formal-conjectures at the revision of that day (no

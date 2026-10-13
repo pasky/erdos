@@ -49,8 +49,8 @@ https://www.erdosproblems.com/586.
 (added 2026-09-20 and pinned to that commit), whose entry carries the category
 `research solved` and a `formal_proof` attribute pointing to
 `src/latest/ErdosProblems/Erdos586.lean` of Boris Alexeev's lean-proofs
-repository at a pinned commit (read; the site's page as accessed recorded no formalization). That file declares
-itself a formalization of the authors' theorem and is pinned on
+repository at a pinned commit (the site's page recorded no formalization). That
+file declares itself a formalization of the authors' theorem and is pinned on
 [[problems/covering_systems/E0586/claims/2018_11_08_balister_bollobas_morris_sahasrabudhe_tiba|the claim page]];
 nothing was built or audited here, and no local kernel credit is claimed.
 

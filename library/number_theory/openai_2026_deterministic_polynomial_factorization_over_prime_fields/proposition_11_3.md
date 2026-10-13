@@ -45,8 +45,7 @@ Fields*, release folder
 `preprints/Deterministic-Polynomial-Factorization-over-Prime-Fields-October-4-2026`;
 TeX `sections/10-analytic.tex`, labels `analytic:hecke` (Theorem 11.1),
 `analytic:explicit` (Lemma 11.2) and `analytic:auxiliary` (Proposition 11.3);
-PDF pp. 44--46. The TeX file is numbered 10 but prints as Section 11. Read
-2026-10-07.
+PDF pp. 44--46. The TeX file is numbered 10 but prints as Section 11.
 
 **Read depth.** Claims checked: the statements of Theorem 11.1, Lemma 11.2
 and Proposition 11.3 and the definition of an auxiliary prime were read clause

@@ -55,8 +55,8 @@ read on the page image. The edition read is identified in the
 
 **Read depth.** Claims checked: the definitions, condition (0.5) and the
 conclusion (0.6) were read clause by clause on the page image of p. 360, and
-displays (0.1)--(0.4) on the page image of p. 359, on 2026-09-18. The proof
-(§2, pp. 362--368) was read for structure only and no step was checked.
+displays (0.1)--(0.4) on the page image of p. 359. The proof (§2, pp. 362--368)
+was read for structure only and no step was checked.
 
 ## Proof pointer
 
@@ -79,7 +79,7 @@ results on connectedness and isolated points (their [1]).
 - [[../wiki/problems/extremal_graph_theory/E0746/_index|Problem 746]]: the perfect-matching
   theorem the site's commentary cites ("who proved that almost surely such a
   graph has a perfect matching (when $n$ is even)"). The paper states no
-  conjecture about Hamiltonian cycles: all ten pages were read for one on
-  the page images on 2026-09-18 and none was found; the conjecture the
-  problem asks about is attributed to this paper by the site and to "Rényi
-  and I" by Erdős's later problem papers.
+  conjecture about Hamiltonian cycles: all ten pages were read for one on the
+  page images and none was found; the conjecture the problem asks about is
+  attributed to this paper by the site and to "Rényi and I" by Erdős's later
+  problem papers.

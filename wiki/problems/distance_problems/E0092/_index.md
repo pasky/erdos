@@ -89,8 +89,8 @@ attestations rather than publication, acceptance, or formal-verification
 evidence; the acceptance evidence is the check Daniel Litt documents in Section
 6 of the companion manuscript, beside the curator's label, as the claim page
 records. The independent corpus reviews do not recursively prove the named
-outside theorems, and no Lean build or proof is claimed. No dated status-search
-scope is recorded on this page.
+outside theorems, and no Lean build or proof is claimed. No status-search scope
+is recorded on this page.
 
 ## Progress
 

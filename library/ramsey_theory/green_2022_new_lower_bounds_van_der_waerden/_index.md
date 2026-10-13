@@ -70,7 +70,7 @@ guess: context for the problem's diagonal number W(k) (w(k,k) in the paper's
 notation) only; the paper treats the off-diagonal w(3,k) and states no bound
 on the diagonal number.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: Some red/blue coloring of [N] has a 3-AP-free blue set and no
   red progression of length exp(C(log N)^{3/4}(log log N)^{1/4}); hence

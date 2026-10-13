@@ -88,12 +88,12 @@ existence of $\ell=\lim\log_2R(k,k)/k$, the limit of
 $\ell^2$. Both hypotheses are unproved, so the claim derives nothing for the
 standing.
 
-**Search scope (2026-10-07).** The site's page and its discussion thread, whose
-one post (19 December 2025) points to the note; the community database
-(teorth/erdosproblems: open, not formalized); formal-conjectures (no file for
-the problem); the arXiv record of the note (v1 of 18 December 2025, v2 of 4
-February 2026, no journal reference); and Crossref (no journal version of the
-note).
+**Search scope.** The site's page and its discussion thread, whose one post
+(19 December 2025) points to the note; and, as they stood on 2026-10-07, the
+community database (teorth/erdosproblems: open, not formalized),
+formal-conjectures (no file for the problem), the arXiv record of the note (v1
+of 18 December 2025, v2 of 4 February 2026, no journal reference) and Crossref
+(no journal version of the note).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

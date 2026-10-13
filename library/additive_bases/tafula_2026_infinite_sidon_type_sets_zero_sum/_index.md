@@ -39,8 +39,8 @@ names CC BY 4.0 (https://creativecommons.org/licenses/by/4.0) from 29 July
 The copy read for this card is arXiv:2607.20753v1 (22 July 2026), not the
 version-of-record PDF. The statement locators and existing reading coverage
 below concern that preprint. The publisher's HTML introduction
-and theorem statements were compared on 2026-09-10; the published PDF has
-not been visually checked here.
+and theorem statements were compared; the published PDF has not been visually
+checked here.
 
 For a zero-sum integer vector b with nonzero coordinates, let r_{A,b}(n) count
 h-tuples of pairwise distinct elements of A with b_1 x_1 + ... + b_h x_h = n.

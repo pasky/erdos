@@ -70,13 +70,12 @@ result), Theorem 1 with its conditions (1) and (2), Corollary 1 and
 Corollary 2 (p. 237), the note on refining the sequence and the opening of
 the proof, with its choice (3) of $n_0$ and of $\varepsilon$ (p. 238), the
 closing conclusion and the "Added in proof" (p. 241), each read clause by
-clause on the page images of PDF pp. 1, 2 and 5 on 2026-09-22; the reference
-list and the received date (p. 241) were read on the same page image. The
-proof of the first part of Theorem 1 (pp. 238--239) was read in full on the
-page images and its nested-interval construction was followed but not
-checked; Lemmas 1 and 2 and the proof of the Hausdorff-dimension part
-(pp. 239--241) were read on the page images for structure only. Nothing here
-is independently reviewed.
+clause on the page images of PDF pp. 1, 2 and 5; the reference list and the
+received date (p. 241) were read on the same page image. The proof of the first
+part of Theorem 1 (pp. 238--239) was read in full on the page images and its
+nested-interval construction was followed but not checked; Lemmas 1 and 2 and
+the proof of the Hausdorff-dimension part (pp. 239--241) were read on the page
+images for structure only. Nothing here is independently reviewed.
 
 ## Contents
 

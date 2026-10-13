@@ -293,7 +293,7 @@ in $j\le k$ stands for $t_k$; the statement carries the range $n>n_0(k)$ that
 the site's wording omits, and reports Frankl's proof, the site's source key
 Er82e for the problem.
 
-**Results to transcribe.**
+**Results.**
 
 - Section I.1, p. 61: Erdős-Mordell inequality: for a point P inside triangle
   ABC, PA + PB + PC ≥ 2(PX + PY + PZ) for the feet of the perpendiculars;

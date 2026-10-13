@@ -67,13 +67,12 @@ publisher's PDF, which has no text layer. The edition is identified in the
 
 **Read depth.** Claims checked: the statement, both remarks, the setting
 and the introduction's special case were read clause by clause on the page
-images on 2026-09-22. The proof (pp. 77--78, one page) was read in full on
-the page images and its reductions to Part (b) of Theorem I and to Lemmas
-3.1 and 3.2 were followed, including the arithmetic of the two cases below;
-Lemma 3.2 (pp. 75--77), Lemma 3.1 (p. 75) and Theorem I (pp. 58 and
-60--72) were read on the page images for structure only, as statements with
-their proofs' shape, and none of their steps was checked. Nothing here is
-independently reviewed.
+images. The proof (pp. 77--78, one page) was read in full on the page images and
+its reductions to Part (b) of Theorem I and to Lemmas 3.1 and 3.2 were followed,
+including the arithmetic of the two cases below; Lemma 3.2 (pp. 75--77), Lemma
+3.1 (p. 75) and Theorem I (pp. 58 and 60--72) were read on the page images for
+structure only, as statements with their proofs' shape, and none of their steps
+was checked. Nothing here is independently reviewed.
 
 ## Proof pointer
 

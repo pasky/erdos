@@ -137,12 +137,11 @@ other manuscript of the release is listed as a companion.
 
 Read status: claims checked for Theorem 1.1, Corollary 1.2 and Corollary 1.3,
 read clause by clause in the TeX source (`introduction.tex`, lines 16--24,
-64--70 and 102--117, labels `thm:main`, `cor:counting`, `cor:prescribed`) on
-2026-10-07, together with the statements of Proposition 2.1, Lemmas 2.2--2.3,
-Lemma 3.1, Lemmas 4.1--4.5, Lemma 6.1, Lemmas 7.1--7.2, Proposition 8.1 and
-Lemmas 8.2--8.4 that the proofs route through; the proofs were read for their
-structure only and no step was checked; nothing here is independently
-reviewed.
+64--70 and 102--117, labels `thm:main`, `cor:counting`, `cor:prescribed`),
+together with the statements of Proposition 2.1, Lemmas 2.2--2.3, Lemma 3.1,
+Lemmas 4.1--4.5, Lemma 6.1, Lemmas 7.1--7.2, Proposition 8.1 and Lemmas 8.2--8.4
+that the proofs route through; the proofs were read for their structure only and
+no step was checked; nothing here is independently reviewed.
 
 ## Contents
 

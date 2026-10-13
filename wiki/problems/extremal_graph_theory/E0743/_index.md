@@ -125,7 +125,7 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
 - [Fi83] Fishburn, P. C., Balanced integer arrays: a matrix packing theorem.
   J. Combin. Theory Ser. A 34 (1983), no. 1, 98--101,
   doi:10.1016/0097-3165(83)90045-6 (Crossref record;
-  text). The site's key. Proposition 1, p. 98, with
+  text read). The site's key. Proposition 1, p. 98, with
   Graham's observation, p. 99: the degree sequences of $T_1,\ldots,T_n$
   pack into that of $K_n$ (Graham's conjecture), as [JKKO19] (p. 1) and
   [GuMa90] (p. 123) cite it; the note states no result on the conjecture
@@ -135,7 +135,7 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
   [[../library/extremal_graph_theory/fishburn_1983_balanced_integer_arrays_matrix_packing_theorem/proposition_1|proposition_1]].
 - [Fi83b] Fishburn, P. C., Packing graphs with odd and even trees. J. Graph
   Theory 7 (1983), no. 3, 369--383, doi:10.1002/jgt.3190070309 (Crossref
-  record accessed, whose abstract ends "The conjectures are also
+  record, whose abstract ends "The conjectures are also
   valid for all trees when $n\le9$, so that the Gyárfás-Lehel conjecture
   holds for $n\le9$"). Not held; not a site key; the paper [JaMo24] and
   [GuMa90] cite for the $n\le9$ verification.
@@ -149,7 +149,7 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
 - [Bo83] Bollobás, Béla, Some remarks on packing trees. Discrete Math. 46
   (1983), no. 2, 203--204, doi:10.1016/0012-365X(83)90254-6 (Crossref and
   zbMATH records; the publisher's open-archive license dated 2013;
-  text). The Theorem, p. 203; the
+  text read). The Theorem, p. 203; the
   Erdős--Sós remark, p. 204. Library home:
   [[../library/extremal_graph_theory/bollobas_1983_some_remarks_packing_trees/_index|bollobas_1983_some_remarks_packing_trees]];
   paged at
@@ -308,7 +308,7 @@ recorded on this page.
   all $n$ by a polynomial method and a "complete labeling" reformulation;
   recorded as the withdrawn claim page
   [[problems/extremal_graph_theory/E0743/claims/2024_10_17_chalise_clark_gnang|Chalise, Clark and Gnang 2024]].
-  Its arXiv record, shows v3 of 1 September 2026 with the
+  Its arXiv record shows v3 of 1 September 2026 with the
   comment "Withdrawn due to an error in the proof of Lemma 3.10 (Composition
   Lemma), which was based on the argument in arXiv:2202.03178v2". The thread
   recorded the claim before the withdrawal: a comment of 28 February 2026

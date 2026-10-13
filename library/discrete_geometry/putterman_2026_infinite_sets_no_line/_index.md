@@ -44,7 +44,7 @@ Source: <https://arxiv.org/abs/2602.21275>.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0846/_index|#846]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: There is an infinite A in R^2 where every n-point subset has a
   subset of size at least n/2 with no 3 collinear, yet A is not a finite union

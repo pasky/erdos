@@ -17,7 +17,8 @@ updated: 2026-10-07T20:53:39Z
 
 Benjamin Bedert, "On unique sums in Abelian groups," arXiv:2303.15134 (2023).
 The arXiv record (https://arxiv.org/abs/2303.15134, read 2026-10-02) names the
-Creative Commons Attribution 4.0 license.
+Creative Commons Attribution 4.0 license. The held PDF is arXiv:2303.15134v2
+(19 September 2023).
 
 **Reading copy.** [Complete Markdown](bedert_2023_unique_sums_abelian_groups.md).
 

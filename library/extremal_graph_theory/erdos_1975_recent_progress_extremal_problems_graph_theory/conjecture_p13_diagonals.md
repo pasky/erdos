@@ -50,9 +50,9 @@ in the
 [[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/_index|source digest]].
 
 **Read depth.** Claims checked: the three paragraphs were read clause by
-clause on the page images on 2026-09-18. The paper proves nothing here: the
-value $r(k+2,k)$ is called easy, the extremal example is described, and the
-results of Pósa and Lewin are reported without argument.
+clause on the page images. The paper proves nothing here: the value $r(k+2,k)$
+is called easy, the extremal example is described, and the results of Pósa and
+Lewin are reported without argument.
 
 ## Proof pointer
 

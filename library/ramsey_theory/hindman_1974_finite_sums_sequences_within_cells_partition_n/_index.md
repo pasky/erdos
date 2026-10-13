@@ -82,16 +82,15 @@ notation line and Definition 2.1 (p. 1), Lemma 2.2, Definition 2.3 and
 Lemma 2.4 (p. 2), Lemma 2.12 and Theorem 3.1 with its proof (p. 9),
 Corollaries 3.2--3.5 (p. 10) and the closing remark and the reference list
 (p. 11), each read clause by clause on the page images of PDF pp. 1, 2, 9,
-10 and 11 on 2026-09-22. The proof of Theorem 3.1 (one paragraph, p. 9)
-was read in full on the page image and its reduction to Lemma 2.12 and the
-compactness of $\{0,1\}^N$ was followed; Lemmas 2.5--2.11 with their proofs
-(pp. 3--9) were read in the text layer for structure only, and none of
-their steps was checked. On 2026-10-08 the statements of Lemmas 2.5--2.11
-and Definition 2.7 and the proof of Corollary 3.3 were read on the page
-images of PDF pp. 3--8 and 10, and the summaries below were checked against
-them; the proofs of those lemmas remain unchecked. Lemma 2.2 is cited to
-the author's 1972 paper and not proved here. Nothing here is independently
-reviewed.
+10 and 11. The proof of Theorem 3.1 (one paragraph, p. 9) was read in full on
+the page image and its reduction to Lemma 2.12 and the compactness of
+$\{0,1\}^N$ was followed; Lemmas 2.5--2.11 with their proofs (pp. 3--9) were
+read in the text layer for structure only, and none of their steps was checked.
+The statements of Lemmas 2.5--2.11 and Definition 2.7 and the proof of Corollary
+3.3 were also read on the page images of PDF pp. 3--8 and 10, and the summaries
+below were checked against them; the proofs of those lemmas remain unchecked.
+Lemma 2.2 is cited to the author's 1972 paper and not proved here. Nothing here
+is independently reviewed.
 
 ## Contents
 

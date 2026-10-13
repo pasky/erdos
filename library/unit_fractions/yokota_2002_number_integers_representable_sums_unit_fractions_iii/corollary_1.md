@@ -90,10 +90,10 @@ the displays). The copy read is identified in the
 [[unit_fractions/yokota_2002_number_integers_representable_sums_unit_fractions_iii/_index|source digest]].
 
 **Read depth.** Claims checked: the corollary, its introductory sentence and
-the definitions it rests on were read clause by clause on the page images
-of PDF pp. 2--3 on 2026-09-22. The reduction to Theorem 1 is the paper's
-one sentence, quoted above; Theorem 1's proof was read for structure only.
-Nothing here is independently reviewed.
+the definitions it rests on were read clause by clause on the page images of PDF
+pp. 2--3. The reduction to Theorem 1 is the paper's one sentence, quoted above;
+Theorem 1's proof was read for structure only. Nothing here is independently
+reviewed.
 
 ## Proof pointer
 

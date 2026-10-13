@@ -84,7 +84,7 @@ Source: <https://users.renyi.hu/~p_erdos/1989-11.pdf>.
   following from it. The note also recalls
   Taylor's tower-of-threes upper bound.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem (unnumbered, p. 162): F(k) > 2^{ck^2/lg k} for the Folkman function
   F(k), the least n such that any 2-coloring of [n] has a k-set S with P(S)

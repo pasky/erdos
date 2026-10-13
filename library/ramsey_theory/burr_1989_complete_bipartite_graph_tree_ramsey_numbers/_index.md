@@ -45,17 +45,16 @@ the publisher's record, DOI 10.1016/S0167-5060(08)70452-7, gives pp.
 garbles formulas. Read status: claims checked for Theorem 1, Lemma 1.3,
 Theorem 2 and the Remark after Theorem 2 (read clause by clause on the page
 images of pp. 80, 81 and 84); the proofs of Theorems 1 and 2 were read only
-for their openings and not checked. On 2026-10-07 Theorem 3 (p. 85), the
-sharpness example after its proof (p. 88), the open questions of Section 4
-(pp. 88--89) and the steps of the proof of Theorem 1 that invoke Lemma 1.3
-(p. 83) were read as statements on the page images; no further proof was
-checked. On 2026-10-08 the statements of Theorems 1--3, Lemma 1.3, the
-Remark after Theorem 2, the sharpness example and Section 4 were reread
-clause by clause on the page images for their result pages; the proofs
-remain unchecked. The file prints "Annals of Discrete Mathematics 41 (1989) 79-90 ©
-Elsevier Science Publishers B.V. (North-Holland)" in the header of its first
-page (printed p. 79; the text layer prints the sign as "0"), every other right
-reserved.
+for their openings and not checked. Theorem 3 (p. 85), the sharpness example
+after its proof (p. 88), the open questions of Section 4 (pp. 88--89) and the
+steps of the proof of Theorem 1 that invoke Lemma 1.3 (p. 83) were read as
+statements on the page images; no further proof was checked. The statements of
+Theorems 1--3, Lemma 1.3, the Remark after Theorem 2, the sharpness example and
+Section 4 were reread clause by clause on the page images for their result
+pages; the proofs remain unchecked. The file prints "Annals of Discrete
+Mathematics 41 (1989) 79-90 © Elsevier Science Publishers B.V. (North-Holland)"
+in the header of its first page (printed p. 79; the text layer prints the sign
+as "0"), every other right reserved.
 
 For a tree T of order n with maximum degree Δ(T) = m, the paper investigates
 r(K_{a,a}, T) for a = 2 and a = 3. For a = 2 the problem is completely reduced
@@ -105,7 +104,7 @@ Source: <https://users.renyi.hu/~p_erdos/1989-32.pdf>.
   page of Problem 85 shows that problem equivalent to $f(k+1)>f(k)$ for all
   large $k$, the negation of that first part. The paper answers neither.
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/burr_1989_complete_bipartite_graph_tree_ramsey_numbers/theorem_1|Theorem 1]]
   (p. 81): For any tree T of order n with maximum degree m, r(C_4, T) = max(4,

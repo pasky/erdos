@@ -2,9 +2,9 @@
 name: problems
 desc: |
   One folder per Erdős problem, keyed by the letter E and its four-digit
-  number on erdosproblems.com, holding the problem page with the statement,
-  standing, known results and sources, and the claim pages recording the
-  results claimed about it.
+  number in the catalog at erdosproblems.com, presented at erdosproblems.ai,
+  holding the problem page with the statement, standing, known results and
+  sources, and the claim pages recording the results claimed about it.
 tags: []
 sources: []
 created: 2026-09-04T05:56:07Z

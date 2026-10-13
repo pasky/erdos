@@ -38,8 +38,8 @@ authors' manuscript described in the
 [[extremal_graph_theory/bollobas_2002_better_bounds_max_cut/_index|source digest]],
 proof on p. 50.
 
-**Read depth.** Claims checked: statement read clause by clause on the
-page images on 2026-10-08; the proof was read for its structure only.
+**Read depth.** Claims checked: statement read clause by clause on the page
+images; the proof was read for its structure only.
 
 ## Proof pointer
 

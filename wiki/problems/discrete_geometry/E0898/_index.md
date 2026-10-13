@@ -50,7 +50,7 @@ https://www.erdosproblems.com/898.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/898.lean),
 tagged `research solved` with a `sorry` proof and a `formal_proof` attribute
-naming a third-party Lean proof, at the `main` revision of 2026-09-18 read; the
+naming a third-party Lean proof, at the `main` revision of 2026-09-18; the
 claim page links that proof.
 
 ## Current assessment

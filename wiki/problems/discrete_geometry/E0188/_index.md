@@ -57,7 +57,7 @@ unit gaps. "With distance $1$" means a unit common difference, as the
 site's remarks explain.
 
 **Status.** Open. The site labeled the problem OPEN. The public sources compiled
-as of 2026-09-13 give
+here give
 
 $$
 6\leq K_*\leq6330.

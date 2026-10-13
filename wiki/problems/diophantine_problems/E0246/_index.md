@@ -118,7 +118,7 @@ Birch's result, written with the system Aristotle, and Birch's claim page
 links it at a commit of 2026-04-28. Nothing was built, kernel-checked or
 audited here.
 
-**Search scope, 2026-10-07.** The site's problem page, commentary,
+**Search scope.** The site's problem page, commentary,
 discussion thread and proof-claims page, with the Zenodo record of the
 pending claim, the Crossref record of [Bi59] and the repository's commit
 records for dates. arXiv, MathSciNet, zbMATH, Google Scholar and X were

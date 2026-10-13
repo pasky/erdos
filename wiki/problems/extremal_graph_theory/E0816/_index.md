@@ -256,9 +256,9 @@ no such pair (for $\ell=2$ [ChMa25] note, p. 14, that it is not unique);
 [AABPT26] states the asymptotic density $\frac12+o(1)$ for every fixed $\ell$.
 None was read beyond its abstract, and none bears on the statement.
 
-**Search scope (2026-09-18 UTC).** None of the routes below found a dispute
-of Theorem 2 or a proof claim, and none found a source stating the problem
-for $n=1$; the formal-conjectures statement file (added 2026-09-20) and the
+**Search scope.** On 2026-09-18 none of the routes below showed a dispute of
+Theorem 2 or a proof claim, and none showed a source stating the problem for
+$n=1$; the formal-conjectures statement file (added 2026-09-20) and the
 Lean development described under Formalization (commit of 15 September 2026)
 record the $n=1$ exception and state the problem for $n\ge2$.
 

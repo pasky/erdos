@@ -72,14 +72,14 @@ is the journal's twelve-page file (dvips and Ghostscript output) whose text
 layer is in a legacy Cyrillic encoding; printed p. $n$ is PDF p. $n-383$.
 The abstract, the introduction's first two pages with Theorems 1--3 (printed
 pp. 384--385; the introduction closes on p. 386) and the reference list
-(p. 395) were read on the page images (130 dpi renders)
-on 2026-09-18, with the formulas as the check. The introduction (p. 384)
-states the Erdős--Graham problem as the existence, for every $\varepsilon>0$,
-of $k(\varepsilon)$ such that for every sufficiently large prime $p$ and
-every integer $c$ some $k\le k(\varepsilon)$ pairwise distinct integers
-$1\le x_i\le p^\varepsilon$ satisfy $\sum_{i\le k}x_i^{-1}\equiv c\pmod p$
-(1), and attributes to Croot [2] (*On some questions of Erdős and Graham
-about Egyptian fractions*, Mathematika 46 (1999), 359--372, filed as
+(p. 395) were read on the page images (130 dpi renders), with the formulas as
+the check. The introduction (p. 384) states the Erdős--Graham problem as the
+existence, for every $\varepsilon>0$, of $k(\varepsilon)$ such that for every
+sufficiently large prime $p$ and every integer $c$ some $k\le k(\varepsilon)$
+pairwise distinct integers $1\le x_i\le p^\varepsilon$ satisfy
+$\sum_{i\le k}x_i^{-1}\equiv c\pmod p$ (1), and attributes to Croot [2] (*On
+some questions of Erdős and Graham about Egyptian fractions*, Mathematika 46
+(1999), 359--372, filed as
 [[unit_fractions/crootiii_1999_questions_erdos_graham_about_egyptian_fractions/_index|crootiii_1999_questions_erdos_graham_about_egyptian_fractions]])
 the choice of $k\le\log^{3+o(1)}p$ pairwise distinct numbers in
 $[1,p^\varepsilon]$ satisfying (1); to Shparlinski [3] (printed "Sparlinski";
@@ -107,9 +107,9 @@ Read status: claims checked for the abstract and Theorem 3 (printed
 pp. 384--385, PDF pp. 1--2) and for the introduction's attributions, read
 clause by clause on the page images; claims checked for Theorems 1 and 2
 (p. 385, restated pp. 388--389), Definition 1 (p. 385) and Lemma 4 (p. 391),
-read clause by clause on the page images on 2026-10-08; the proofs
-(Sections 2--3, pp. 386--394) were read for structure only and not checked.
-Nothing here is independently reviewed.
+read clause by clause on the page images; the proofs (Sections 2--3, pp.
+386--394) were read for structure only and not checked. Nothing here is
+independently reviewed.
 
 **Bears on.** [[../wiki/problems/number_theory/E1180/_index|#1180]] (Theorem 3, printed
 p. 385, PDF p. 2, page image: for every $\varepsilon>0$, every sufficiently
@@ -122,7 +122,7 @@ $\varepsilon$, every residue is a sum of $m$ inverses of integers in
 $[1,p^\varepsilon]$, repetition allowed, as the problem's wording allows; the
 introduction's attributions to Croot and Shparlinski)
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 385): If A, B are subsets of Z_p with B antisymmetric (B
   intersect (-B) empty) and |A||B| > p, then 8AB = Z_p. Paged as

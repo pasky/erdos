@@ -181,7 +181,7 @@ Erdős-Selfridge intervals, which give the site's
 f(k^2) <= 2k for #650 (pp. 147-148)
 ([[discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/divisor_matchings_p147|divisor_matchings_p147]]).
 
-**Results to transcribe.**
+**Results.**
 
 - empty_convex_polygons_p138 ([[discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/empty_convex_polygons_p138|result page]], p. 138):
   For n_k the least n such that every n planar points with no three collinear

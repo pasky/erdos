@@ -48,11 +48,11 @@ the definitions on printed p. 263 (PDF p. 3), read on the page image. The
 edition read is identified in the
 [[extremal_graph_theory/duke_1992_cycle_connected_graphs/_index|source digest]].
 
-**Read depth.** Claims checked: the paragraph was read clause by clause on
-the page image on 2026-09-22. It states no theorem, so nothing was checked
-beyond the reading. The two facts it recalls are the recalled bound (3) of
-p. 263 and the upper bound in (1) there, both first stated on p. 261 and read
-on the page images. Nothing here is independently reviewed.
+**Read depth.** Claims checked: the paragraph was read clause by clause on the
+page image. It states no theorem, so nothing was checked beyond the reading. The
+two facts it recalls are the recalled bound (3) of p. 263 and the upper bound in
+(1) there, both first stated on p. 261 and read on the page images. Nothing here
+is independently reviewed.
 
 ## Proof pointer
 

@@ -171,7 +171,7 @@ The searches covered the site's problem page, its formulation
 and discussion, the arXiv record and author announcement pages for CFMPP26,
 exact-title and solution searches, targeted X queries, and title, author,
 catalog, and web queries targeting ProQuest and WorldCat for [Ja99]. The
-site's page, as of that day, labeled the problem PROVED, listed no proof
+site's page, as accessed 2026-09-08, labeled the problem PROVED, listed no proof
 claim or current worker, and was last edited on 2026-01-16. The first
 author's post on the site's blog, "Problem 570 and its solution" (30 January
 2026), and its comments are linked and summarized on the CFMPP26 claim page.

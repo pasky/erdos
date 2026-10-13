@@ -47,7 +47,7 @@ Source: <https://arxiv.org/abs/2201.04499>.
 
 **Bears on.** [[../wiki/problems/graph_coloring/E0706/_index|#706]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 3.2: chi(G[1,b]) >= 7 for b > sqrt(2 - 2 sin(18 pi/325)); >= 8 for
   b > sqrt(2 + 2 sin(pi/38)); >= 9 for b > sqrt(2 + 2 sin(7 pi/45)); >= 10

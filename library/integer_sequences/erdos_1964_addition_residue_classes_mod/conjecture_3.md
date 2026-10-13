@@ -53,7 +53,7 @@ as
 its Theorem 1, "If $s>(4p-3)^{1/2}$, then $r=p$", with the abstract's "we
 verify a conjecture of P. Erdös and H. Heilbronn: every residue class is
 represented if $s>2p^{1/2}$", is on printed p. 45 (PDF p. 1), located here
-on the text layer of that page on 2026-09-22 and paged on
+on the text layer of that page and paged on
 [[integer_sequences/olson_1968_addition_theorem_modulo/theorem_1|theorem_1]].
 
 ## Dependencies

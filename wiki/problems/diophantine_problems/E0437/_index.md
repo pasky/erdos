@@ -71,10 +71,10 @@ states the theorem, the deduction and the acceptance: Theorem 1.2 is refereed,
 the deduction is not, and the site's curator labeled the problem proved and
 credits it.
 
-The sources behind this account, as of 7 October 2026, are the site's
-problem page and its empty forum thread, Tao's post, the arXiv record and
-the Crossref record of the paper, the formal-conjectures statement file and
-the header of the Lean file it cites. No other claim or dispute is recorded.
+The sources behind this account are the site's problem page and its forum
+thread (empty on 7 October 2026), Tao's post, the arXiv record and the Crossref
+record of the paper, the formal-conjectures statement file and the header of
+the Lean file it cites. No other claim or dispute is recorded.
 This repository has not reviewed the proof of Theorem 1.2 or Tao's
 derivation; the
 [[../library/diophantine_problems/bui_2024_problem_erdos_graham_granville_selfridge_integral/_index|source card]]

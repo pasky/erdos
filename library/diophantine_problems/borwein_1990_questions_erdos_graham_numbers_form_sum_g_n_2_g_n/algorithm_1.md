@@ -54,9 +54,8 @@ pp. 380--381. The copy read is identified on the
 [[diophantine_problems/borwein_1990_questions_erdos_graham_numbers_form_sum_g_n_2_g_n/_index|source card]].
 
 **Read depth.** Claims checked: the definition, [Q1], both algorithms and
-(2.1)--(2.3) were read clause by clause on the page images on 2026-10-08;
-the proofs were read but not verified. Nothing here is independently
-reviewed.
+(2.1)--(2.3) were read clause by clause on the page images; the proofs were read
+but not verified. Nothing here is independently reviewed.
 
 ## Proof pointer
 

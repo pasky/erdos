@@ -20,9 +20,11 @@ best-possible error term.
 ***
 
 Ernest S. Croot III, On unit fractions with denominators in short intervals.
-arXiv preprint (1999). arXiv:math/9904181. For
-the arXiv preprint, the arXiv record
-carries no license field, so arXiv's assumed license applies
+arXiv preprint (1999). arXiv:math/9904181. Published in Acta Arith. 99 (2001),
+no. 2, 99--114, the held edition, which the result page cites; the digest and
+the Results list keep the preprint's labels and pages, mapped under Editions.
+For the arXiv preprint, the arXiv record carries no license field, so arXiv's
+assumed license applies
 (arXiv:math/9904181), every other right reserved. The published version,
 `croot_1999_unit_fractions_denominators_short_intervals_acta_arith_2001.pdf`,
 prints no copyright or license line; the publisher's issue listing
@@ -56,15 +58,15 @@ best-possible error, the interval-endpoint dual of k(N).
 Source: <https://arxiv.org/abs/math/9904181>.
 
 Editions. Two versions of the work were read. The Main Theorem was compared on
-the page images of both on 2026-09-18 (preprint p. 1, published p. 100) and is
-the same statement in both; the other results were matched by label and
-statement on 2026-10-07 (label map below) but not otherwise compared, and the
-digest above and the result list below were written from the preprint.
+the page images of both (preprint p. 1, published p. 100) and is the same
+statement in both; the other results were matched by label and statement (label
+map below) but not otherwise compared, and the digest above and the result list
+below were written from the preprint.
 
-- The copy read for this card
-  is the arXiv preprint arXiv:math/9904181 named in the source line above,
+- The arXiv preprint arXiv:math/9904181 named in the source line above,
   stamped "arXiv:math/9904181v1 [math.NT] 30 Apr 1999", nineteen pages with
-  a text layer. It is the edition this card cites. Provenance: the
+  a text layer, from which the digest above and the result list below were
+  written, with its labels and pages; it is not held. Provenance: the
   arXiv listing in the source line above; the download date was not
   recorded; 201,302 bytes.
 - The
@@ -73,6 +75,7 @@ digest above and the result list below were written from the preprint.
   Acta Arith. 99 (2001), no. 2, 99--114 (head "ACTA ARITHMETICA XCIX.2 (2001)";
   received 11.6.1999; dedicated to the memory of Paul Erdős), is a sixteen-page
   publisher PDF with a clean text layer; physical PDF p. n is printed p. 98+n.
+  It is the held edition, and the result page cites its pages and labels.
   Its Main Theorem (p. 100) was read in the text layer: for any rational r > 0
   and all N > 1 there exist integers N < x_1 < ... < x_k <= (e^r + O_r(log log N
   / log N)) N with r = 1/x_1 + ... + 1/x_k, and the error term is best possible.
@@ -87,17 +90,20 @@ digest above and the result list below were written from the preprint.
   one Problem 284 uses, while Problem 286 keeps the monograph's width constant
   e-1 where the published second question has 1. Propositions 1 and 2 are stated
   on p. 103. Label map, preprint to published (read on the page images of both
-  versions on 2026-10-07): Lemma 3 (de Bruijn, p. 12) is Lemma 1 (p. 102); Lemma
-  2 (p. 4) is Lemma 4 (p. 106); Lemma 4 (p. 15) is Lemma 5 (p. 112); the
-  published Lemmas 2 and 3 (p. 102) are new; Lemma 1 and its Corollary (pp. 3-4)
-  are absent, the published Proposition 1 being proved through Proposition 2
-  (Section IV, pp. 107-110). The published Proposition 1 gives prime power
-  factors at most N^{1/5} with removed mass of order log log N / log N, and the
-  published Proposition 2 assumes log log log M / log M << A/B <= 1. Of this
-  version only the Main Theorem was read clause by clause, in the text layer and
-  on the page image of p. 100; the other results were matched to the preprint's
-  by label and statement only, and no proof was read. Provenance: downloaded in
-  September 2026; the URL was not recorded; 157,858 bytes.
+  versions): Lemma 3 (de Bruijn, p. 12) is Lemma 1 (p. 102); Lemma 2 (p. 4) is
+  Lemma 4 (p. 106); Lemma 4 (p. 15) is Lemma 5 (p. 112); the published Lemmas 2
+  and 3 (p. 102) are new; Lemma 1 and its Corollary (pp. 3-4) are absent, the
+  published Proposition 1 being proved through Proposition 2 (Section IV, pp.
+  107-110). The published Proposition 1 gives prime power factors at most
+  N^{1/5} with removed mass of order log log N / log N, and the published
+  Proposition 2 assumes log log log M / log M << A/B <= 1. Of this version the
+  Main Theorem was read clause by clause, in the text layer and on the page
+  image of p. 100, and the statements of Propositions 1 and 2 and Lemmas 1-5
+  and the structure of the proof (Sections III-VI, pp. 103-114) were read on
+  the page images for the result page's proof pointer; no proof was checked,
+  and the other results were matched to the preprint's by label and statement
+  only. Provenance: downloaded in September
+  2026; the URL was not recorded; 157,858 bytes.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0284/_index|#284]], whose question is
 the first Erdős--Graham question of the published introduction (p. 99),
@@ -112,7 +118,7 @@ infinitely-many-k qualification; [[../wiki/problems/unit_fractions/E0295/_index|
 derives the lower bound (1-1/e+o(1))N from the Main Theorem with r = 1
 (the construction the site credits to Adenwalla)
 
-**Results to transcribe.**
+**Results.**
 
 - Main Theorem: For any rational r > 0 and all N > 1 there are integers N < x_1
   < ... < x_k <= (e^r + O_r(log log N / log N)) N with 1/x_1 + ... + 1/x_k = r,
@@ -146,14 +152,15 @@ derives the lower bound (1-1/e+o(1))N from the Main Theorem with r = 1
 Read status: claims checked. The Main Theorem was read clause by clause in the
 text layer of the arXiv preprint (p. 1) and is paged as
 [[unit_fractions/croot_1999_unit_fractions_denominators_short_intervals/main_theorem|main_theorem]];
-on 2026-09-18 it was read again, with the introduction (pp. 99-100), on
-the page images of the published version for the #284, #286 and #319 rows;
-Propositions 1 and 2 and Lemmas 1-4 were read as statements for the proof
-pointer, and no proof was checked. For problem 295 the theorem bounds the
-interval containing the denominators of a representation of 1; the upper bound
-k(N) <= (e-1)N + O(N log log N / log N) it implies is weaker than the
-Erdős–Straus bound and leaves the divergence of k(N)-(e-1)N open.
+it was read again, with the introduction (pp. 99-100), on the page images of the
+published version for the #284, #286 and #319 rows; the published Propositions 1
+and 2 and Lemmas 1-5 were read as statements for the proof pointer, and no proof
+was checked. For problem 295 the theorem bounds the interval containing the
+denominators of a representation of 1; the upper bound k(N) <= (e-1)N + O(N log
+log N / log N) it implies is weaker than the Erdős–Straus bound and leaves the
+divergence of k(N)-(e-1)N open.
 
 Only the edition under an open license is held; the source's other editions are
-not, since no license on record permits their redistribution, and the card cites
-the edition it names above.
+not, since no license on record permits their redistribution. The result page
+cites the held edition and the Results list the preprint, as the Editions
+paragraph says.

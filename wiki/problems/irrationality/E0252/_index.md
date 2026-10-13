@@ -114,8 +114,8 @@ from a dated snapshot of that day). Cite as: T. F. Bloom, Erdős Problem
 **Formalization.** The statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/252.lean)
 is `theorem erdos_252 : answer(sorry) ↔ ∀ k ≥ 1, Irrational (erdos_252_sum k)`,
-tagged `research open` and proved by `sorry` at the `main` revision fetched and
-unchanged at the revision of 2026-10-06 linked here; the same file tags as
+tagged `research open` and proved by `sorry` at the revision of 2026-10-06
+linked here; the same file tags as
 `research solved` the variants `k_eq_zero` to `k_eq_four` (citing Erdős–Straus
 1971 and 1974, Erdős–Kac, Schlage-Puchta, Friedlander–Luca–Stoiciu and Pratt)
 and the conditional variants `schinzel` and `prime_tuples`, which take
@@ -225,7 +225,7 @@ structure under Progress is this compilation's reading of the Lean source, not a
 reviewed source-proof reconstruction. Novelty of the argument was not
 investigated.
 
-**Dated search scope (2026-09-17).** Checked: the site's problem page,
+**Search scope.** Checked, as they stood on 2026-09-17: the site's problem page,
 discussion thread (three comments, 2025-09-05 to 2026-04-14, none about the
 proof), proof-claims page (one claim, registered 2026-09-08 03:25:18 with
 zero comments) and history page; the community database

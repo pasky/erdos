@@ -82,8 +82,7 @@ release folder
 setup and statement in `sections/01_introduction.tex`, lines 11--71 (the
 theorem environment `thm:strip`, lines 54--65), PDF p. 2 (setup on pp. 1--2);
 the proof runs through Sections 2--6 and Appendix A and closes in
-`sections/06_hard_edge.tex`, lines 276--354 (PDF pp. 24--25). Read on
-2026-10-07. The card
+`sections/06_hard_edge.tex`, lines 276--354 (PDF pp. 24--25). The card
 [[discrete_geometry/openai_2026_critical_strip_crossing_mass_honeycomb_lattice/_index|records the provenance and attestations]].
 
 **Read depth.** Claims checked: the definitions, the four displayed relations,

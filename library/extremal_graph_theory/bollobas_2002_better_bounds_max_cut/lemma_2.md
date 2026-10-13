@@ -29,8 +29,8 @@ manuscript described in the
 [[extremal_graph_theory/bollobas_2002_better_bounds_max_cut/_index|source digest]],
 proof on pp. 8-9, an alternative ordering procedure on pp. 9-10.
 
-**Read depth.** Claims checked: statement read clause by clause on the
-page images on 2026-10-08; the proof on pp. 8-9 was read and followed.
+**Read depth.** Claims checked: statement read clause by clause on the page
+images; the proof on pp. 8-9 was read and followed.
 
 ## Proof pointer
 

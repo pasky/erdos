@@ -45,15 +45,13 @@ license line; no record stating terms for it was read, and the journal version
 was not the copy read; the term is unstated.
 
 Read status: claims checked for Theorem 1.1 and the introduction's history of
-the problem (pp. 1--2), read clause by clause on the rendered page images on
-2026-09-18; the statements of Lemma 2.1 (p. 4), Theorem 2.2 (pp. 5--6),
-Theorem 3.7 (p. 13) and Theorem 4.1 (p. 14) and the reference list (pp.
-19--20) were read on the page images; the proofs (Sections 2--4,
-pp. 3--19) were not read. The statements of Theorems 3.7 and 4.1 were read
-clause by clause on the page images on 2026-10-08, with the proofs of
-Theorem 3.7 (p. 13) and Theorem 4.1 (pp. 14--19) read only for the proof
-pointers, not checked. Problem
-1078 consumes Theorem 1.1, paged at
+the problem (pp. 1--2), read clause by clause on the rendered page images; the
+statements of Lemma 2.1 (p. 4), Theorem 2.2 (pp. 5--6), Theorem 3.7 (p. 13) and
+Theorem 4.1 (p. 14) and the reference list (pp. 19--20) were read on the page
+images; the proofs (Sections 2--4, pp. 3--19) were not read. The statements of
+Theorems 3.7 and 4.1 were read clause by clause on the page images, with the
+proofs of Theorem 3.7 (p. 13) and Theorem 4.1 (pp. 14--19) read only for the
+proof pointers, not checked. Problem 1078 consumes Theorem 1.1, paged at
 [[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_1_1|theorem_1_1]]; the two halves of its proof are paged at
 [[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_3_7|theorem_3_7]] and
 [[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_4_1|theorem_4_1]].
@@ -98,7 +96,7 @@ conjecture of [7]", the site's status-defining source, which is not held. Theore
 ([[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_3_7|theorem_3_7]], [[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_4_1|theorem_4_1]]) bear on the
 problem only as the two halves of the proof of Theorem 1.1.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1 (p. 2), paged at
   [[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_1_1|theorem_1_1]]: For every n >= 1 and odd r >= 2, Delta(r,n) = Delta(r-1,n) =

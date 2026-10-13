@@ -114,7 +114,7 @@ $c_3>0$, gives no fixed power gain; the p. 380 remark expects, without proof,
 exactly the problem's degree-scale bound $F_f(n)\gg n^d$, $d$ the degree
 of $f$.
 
-**Results to transcribe.**
+**Results.**
 
 - [[arithmetic_functions/erdos_1952_greatest_prime_factor/theorem|Theorem]]: the safe irreducible specialization of the bound proved in the paper,
   $P_x>x(\log x)^{c_2\log\log\log x}$.

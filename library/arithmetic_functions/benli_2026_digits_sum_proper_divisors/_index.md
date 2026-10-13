@@ -134,7 +134,7 @@ analog; neither establishes E955.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0955/_index|#955]].
 
-**Results to transcribe.**
+**Results.**
 
 - [[arithmetic_functions/benli_2026_digits_sum_proper_divisors/theorem_1_4|Theorem 1.4]]: the missing-digit preimage bound for every
   base $g\geq2$, with the binary case proved in Appendix A.

@@ -46,7 +46,7 @@ license CC BY 4.0." and "This journal is a member of Centre Mersenne." on p.
 
 **Bears on.** [[../wiki/problems/irrationality/E1002/_index|#1002]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.2: For any piecewise smooth f, almost every alpha and every x_0,
   S_N(f,alpha,x_0) with N uniform on {1,...,M} satisfies no distributional limit

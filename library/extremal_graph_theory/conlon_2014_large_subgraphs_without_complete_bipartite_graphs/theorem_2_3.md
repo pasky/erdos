@@ -34,9 +34,9 @@ and its proof on p. 2, read on the page image and in the text layer. The
 artifact is identified in the
 [[extremal_graph_theory/conlon_2014_large_subgraphs_without_complete_bipartite_graphs/_index|source digest]].
 
-**Read depth.** Claims checked: the statement was read clause by clause on
-the page image on 2026-09-18; the half-page proof was read and its two
-displays followed; not independently reviewed.
+**Read depth.** Claims checked: the statement was read clause by clause on the
+page image; the half-page proof was read and its two displays followed; not
+independently reviewed.
 
 ## Proof pointer
 

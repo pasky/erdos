@@ -55,8 +55,8 @@ identified in the
 [[extremal_graph_theory/bradac_2024_question_erdos_nesetril_about_minimal_cuts/_index|source digest]].
 
 **Read depth.** Claims checked: the definitions, the sandwich sentence,
-the proposition and display (1) were read clause by clause on the page
-images on 2026-09-19; the proof (six lines) was read and followed.
+the proposition and display (1) were read clause by clause on the page images;
+the proof (six lines) was read and followed.
 
 ## Proof pointer
 

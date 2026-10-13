@@ -47,7 +47,7 @@ Creative Commons Attribution license, with no version stated.
 
 **Bears on.** [[../wiki/problems/additive_bases/E1192/_index|#1192]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: If p_n, q_n tend to 0 and the convolution sum tends to lambda > 0,
   the number f(n) of representations n = v_k + mu_l is asymptotically Poisson

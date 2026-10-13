@@ -89,7 +89,7 @@ $\log l$ below the order $l^2/\log l$ known since 1995; the problem page
 cites this card for the bound and takes its statement from the
 introductions of the later lower-bound papers.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem: For fixed large A and all n > n_0 there is a triangle-free graph on n
   vertices with no independent set of size [A n^{1/2} log n].

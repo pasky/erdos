@@ -62,16 +62,15 @@ edition read is identified in the
 [[extremal_graph_theory/bollobas_hind_1991_graphs_without_large_triangle_free_subgraphs/_index|source digest]].
 
 **Read depth.** Claims checked: the four statements, the sentences
-introducing them and the closing paragraph were read clause by clause on
-the page images on 2026-09-22, as were the definitions of the random
-hypergraph spaces (p. 120), Lemma 3 and Lemma 4 with the derived-hypergraph
-construction (pp. 123--124) and Lemmas 7 and 8 (pp. 129--130). The proofs
-of Theorem 2 (pp. 121--122), Lemmas 3, 4, 7 and 8 (pp. 123--127 and
-129--131) and Theorems 5 and 9 (pp. 127--128 and 131) were read for
-structure only, on the page images where listed above and otherwise in the
-text layer, and no estimate was checked. The passages of pp. 122 and
-125--127 that the proof pointer and the Dependencies cite were checked on
-the page images on 2026-10-07. Nothing here is independently reviewed.
+introducing them and the closing paragraph were read clause by clause on the
+page images, as were the definitions of the random hypergraph spaces (p. 120),
+Lemma 3 and Lemma 4 with the derived-hypergraph construction (pp. 123--124) and
+Lemmas 7 and 8 (pp. 129--130). The proofs of Theorem 2 (pp. 121--122), Lemmas 3,
+4, 7 and 8 (pp. 123--127 and 129--131) and Theorems 5 and 9 (pp. 127--128
+and 131) were read for structure only, on the page images where listed above and
+otherwise in the text layer, and no estimate was checked. The passages of pp.
+122 and 125--127 that the proof pointer and the Dependencies cite were checked
+on the page images. Nothing here is independently reviewed.
 
 ## Proof pointer
 

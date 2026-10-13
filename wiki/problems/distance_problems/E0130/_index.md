@@ -96,8 +96,7 @@ linked below and the formal-conjectures statement file, which at
 [its revision of 18 September 2026](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/130.lean)
 marks the chromatic question `research solved` with the answer true and points
 its `formal_proof` attribute at Star Fleet Math's Lean development, an edit of 7
-August 2026; the search is, and no further literature search
-was made.
+August 2026. No further literature search was made.
 
 ## Proof claims
 

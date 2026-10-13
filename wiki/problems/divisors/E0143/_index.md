@@ -143,7 +143,7 @@ assertions as the page's parts, the two pending partial claims together settle
 both, so the derived standing is `claimed` with claim `answered`; it becomes
 `solved` only when both claims are accepted.
 
-**Scope of this assessment.** Search scope, 2026-10-07: the problem page and its
+**Scope of this assessment.** Search scope: the problem page and its
 proof-claims thread. This page rests on Apicella's theorem, construction outline
 and verification section, not on the rest of its manuscript, and its Lean
 project is not built here; for the Koukoulopoulos--Lamzouri--Lichtman paper it

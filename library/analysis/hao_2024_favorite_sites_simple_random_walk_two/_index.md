@@ -235,14 +235,14 @@ the deductions replacing them. These are compilation-supplied repairs,
 not author-issued errata or statements about the unavailable journal
 edition.
 
-**Literature check, 2026-09-05.** The arXiv history, publisher record,
-[Hao's institutional page](https://faculty.csu.edu.cn/haochenxu/en/index.htm),
-author-page searches, and web searches for later papers and indexed X
-announcements were checked. No later planar replacement or materially
-distinct accepted proof was located in this bounded search. Later work on asymmetric
-one-dimensional walks, rarely visited sites, and favorite edges has a
-different object or walk law. This is not an exhaustive absence claim.
-That search missed a Lean formalization of the answer to Problem 1165,
+**Literature check.** The arXiv history, publisher record, [Hao's institutional
+page](https://faculty.csu.edu.cn/haochenxu/en/index.htm), author-page searches,
+and web searches for later papers and indexed X announcements were checked. No
+later planar replacement or materially distinct accepted proof was located in
+this bounded search. Later work on asymmetric one-dimensional walks, rarely
+visited sites, and favorite edges has a different object or walk law. This is
+not an exhaustive absence claim. That search missed a Lean formalization of the
+answer to Problem 1165,
 [`Erdos1165.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos1165.lean)
 in Boris Alexeev's lean-proofs repository, added on 2026-08-22. It names
 this paper's authors as its informal authors and Codex and GPT-5.6 Sol

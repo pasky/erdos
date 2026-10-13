@@ -117,16 +117,15 @@ n^{3/2} (Problem 1028).
 Source: <https://users.renyi.hu/~p_erdos/1971-25.pdf>.
 
 Read status for item 6 (printed pp. 98--99, PDF pp. 2--3, read clause by
-clause on the page images on 2026-09-18): the paper defines $g(3,n)$ as the
-least number of vertices of a triangle-free graph with chromatic number
-$n$, prints (1) $c_1n^2\log n/\log\log n<g(3,n)<c_2n^2(\log n)^2$, asks for
-an improvement of (1) and for an asymptotic formula for $g(3,n)$, and asks
-whether $\lim_{n=\infty}g(3,n+1)/g(3,n)=1$; it then defines $f(l,n)$ as the
-least number of vertices forcing a graph to contain either a $K_l$ or $n$
-independent points, prints (2)
-$c_3n^2\log n/\log\log n<f(3,n)<c_4n^2(\log n)^2$, asks for an improvement
-of (2) and for an asymptotic formula for $f(l,n)$, and says of the ratio
-question, "I cannot even prove $\lim_{n=\infty}f(l,n+1)/f(l,n)=1$." The
+clause on the page images): the paper defines $g(3,n)$ as the least number of
+vertices of a triangle-free graph with chromatic number $n$, prints (1)
+$c_1n^2\log n/\log\log n<g(3,n)<c_2n^2(\log n)^2$, asks for an improvement of
+(1) and for an asymptotic formula for $g(3,n)$, and asks whether
+$\lim_{n=\infty}g(3,n+1)/g(3,n)=1$; it then defines $f(l,n)$ as the least number
+of vertices forcing a graph to contain either a $K_l$ or $n$ independent points,
+prints (2) $c_3n^2\log n/\log\log n<f(3,n)<c_4n^2(\log n)^2$, asks for an
+improvement of (2) and for an asymptotic formula for $f(l,n)$, and says of the
+ratio question, "I cannot even prove $\lim_{n=\infty}f(l,n+1)/f(l,n)=1$." The
 same page prints Yackel's (3) $f(n,n)<c_2\binom{2n}n/\sqrt n$ and Erdős's
 (4) $f(n,n)>2^{n/2}$, and asks for a proof that
 $\lim_{n=\infty}f(n,n)^{1/n}$ exists and for a nontrivial lower bound on
@@ -185,9 +184,10 @@ are paged at
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_15|item_15]].
 
 Read status for items 1, 3, 4, 5, 7, 10, 12 and 13: claims checked (printed
-pp. 97--102 = PDF pp. 1--6, read clause by clause on the page images, the displays of items 3, 10 and 13 also on 300 dpi crops; the
-text layer served only to locate the items). Each passage is paged, with
-the paper's wording, at its printed and PDF locator:
+pp. 97--102 = PDF pp. 1--6, read clause by clause on the page images, the
+displays of items 3, 10 and 13 also on 300 dpi crops; the text layer served only
+to locate the items). Each passage is paged, with the paper's wording, at its
+printed and PDF locator:
 [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_1|item_1]]
 (p. 97: the Tihany question whether every graph with $n$ edges has a
 rectangle-free subgraph with at least $cn^{3/4}$ edges, Folkman's
@@ -247,12 +247,11 @@ on Pósa's paper (printed with the pages 391--412, a misprint for 227--229),
 paper on saturated planar graphs, [24] the 1960 Erdős--Rényi evolution
 paper, and [34] the Israel J. Math. 2 paper on generalized graphs (printed
 with the year 1969). Item 9 (printed p. 100 = PDF p. 4) was read clause by
-clause on the page image and a 300 dpi crop on 2026-09-18 for the row below
-(claims checked). It recalls Moon's theorem [32] that for
-$n=3k+2\geqslant8$ every two-coloring of the edges of $K_n$ contains $k$
-vertex-disjoint triangles each with all edges of one color (different
-triangles may have different colors); defines $f(l)$ as the smallest
-integer such that every two-coloring of the edges of $K_n$ contains
+clause on the page image and a 300 dpi crop for the row below (claims checked).
+It recalls Moon's theorem [32] that for $n=3k+2\geqslant8$ every two-coloring of
+the edges of $K_n$ contains $k$ vertex-disjoint triangles each with all edges of
+one color (different triangles may have different colors); defines $f(l)$ as the
+smallest integer such that every two-coloring of the edges of $K_n$ contains
 $[n/l]-f(l)$ vertex-disjoint $K_l$'s each with all edges of one color; and
 states what is known and expected in one sentence: "Ramsey's theorem
 implies $f(l)<4^b$ [sic] but it seems certain that $f(l)^{1/l}\to1$ and perhaps
@@ -441,7 +440,7 @@ $n^{1+1/r}$ of $f(n;C_{2r})$ with the lower bound open for $r>2$.
 $(1+o(1))n^{3/2}/2\sqrt2$ edges in a graph of $n$ vertices with no triangle
 and no rectangle.
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_1|Problem 1]]
   (printed p. 97, PDF p. 1, page image): Asks for a C_4-free subgraph with

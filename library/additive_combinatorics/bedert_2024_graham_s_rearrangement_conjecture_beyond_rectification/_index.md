@@ -47,8 +47,8 @@ here; the journal version is Israel J. Math. 273 (2026), no. 1, 471--500,
 DOI 10.1007/s11856-025-2871-6 (published online 30 November 2025; Crossref
 record read), not held and not compared, so the paper is
 refereed. Read status: claims checked for Theorem 1.2 and the proof sketch
-of Section 1.2 (pp. 1--2, text layer) on 2026-09-18; the proof (Sections
-3--6) was not read. Result page:
+of Section 1.2 (pp. 1--2, text layer); the proof (Sections 3--6) was not read.
+Result page:
 [[additive_combinatorics/bedert_2024_graham_s_rearrangement_conjecture_beyond_rectification/theorem_1_2|theorem_1_2]].
 
 Source: <https://arxiv.org/abs/2409.07403>. The arXiv record
@@ -57,7 +57,7 @@ Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0475/_index|#475]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.2: For every c > 0 and large prime p, every subset A ⊆ F_p \ {0}
   with |A| <= e^{c(log p)^{1/4}} has a valid (indeed two-sided valid) ordering.

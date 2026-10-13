@@ -62,12 +62,12 @@ volume scan.
 
 Read status: claims checked for the solution of Problem 10 ("10. feladat"),
 whose text fixes the assertion proved (the problem's own wording is not
-printed on these pages; printed pp. 175--176 = scan pp. 177--178), read clause by
-clause on the page images on 2026-09-19 in this card's translation from the
-Hungarian; the half-page proof was read in full and its counting followed,
-not checked line by line. The write-up says of itself that it is a
-reformulation of Bártfai's solution ("A fenti megoldás a Bártfai Páltól
-származó megoldás átfogalmazása") and names seven further solvers. Paged at
+printed on these pages; printed pp. 175--176 = scan pp. 177--178), read clause
+by clause on the page images in this card's translation from the Hungarian; the
+half-page proof was read in full and its counting followed, not checked line by
+line. The write-up says of itself that it is a reformulation of Bártfai's
+solution ("A fenti megoldás a Bártfai Páltól származó megoldás átfogalmazása")
+and names seven further solvers. Paged at
 [[extremal_graph_theory/bartfai_1960_solution_problem_posed_erdos/solution_p175|solution_p175]].
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the site's key
@@ -85,7 +85,7 @@ at $m=3$ ($1+2n$ vertices, $1+3n$ edges), and the three-path conclusion is
 drawn from this proof in the 1962 Bollobás--Erdős paper (paged at
 [[extremal_graph_theory/bartfai_1960_solution_problem_posed_erdos/solution_p175|solution_p175]]).
 
-**Results to transcribe.**
+**Results.**
 
 - 10. feladat solution (pp. 175-176): Any loopless graph on 2n+1 vertices with
   at least 3n+1 edges contains a self-avoiding closed circuit with an even

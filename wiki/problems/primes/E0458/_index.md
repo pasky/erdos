@@ -58,6 +58,6 @@ it rests on the exhaustive gap search of Oliveira e Silva, Herzog and Pardi,
 Math. Comp. 83 (2014), and above that on the unrefereed distributed prime-gap
 search. As thread posts these have no claim page.
 
-Search scope (2026-10-07): the site's page and its three-comment thread
-(2025-08-19, 2026-04-27 and 2026-06-12) and the formal-conjectures statement
+Search scope: the site's page, its thread (three comments by 2026-10-07, of
+2025-08-19, 2026-04-27 and 2026-06-12) and the formal-conjectures statement
 file.

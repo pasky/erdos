@@ -106,7 +106,7 @@ graphs with large cliques; Theorem 1.2 (p. 2) says almost all clique sizes
 are excluded; Conjecture 1.3 (p. 2) predicts all q >= 4; Theorem 1.6 answers
 the variant Question 1.5 and is not a counterexample for the problem.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.4 (p. 2): For q >= 10 with q = 2 or 3 mod 4 and l = C(q,2), and
   every n = (l+1)^k, there is a completely balanced l-coloring of K_n with no

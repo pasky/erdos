@@ -50,7 +50,7 @@ the article's.
 **Bears on.** [[../wiki/problems/diophantine_problems/E0124/_index|#124]],
 [[../wiki/problems/diophantine_problems/E0125/_index|#125]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: If A consists of integers > 1 with lim sup A(n)/n > 0 and gcd A =
   1, then for every s there is a finite A' = A'_s subset of A with Pow(A';s)

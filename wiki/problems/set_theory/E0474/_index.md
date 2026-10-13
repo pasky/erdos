@@ -96,9 +96,9 @@ independent, which rests on the preprint's abstract and the thread and would
 remove the large cardinal. The relations the abstract states,
 $\aleph_l\to[\aleph_k]^2_{n,2}$ with $2^{\aleph_0}=\aleph_m$ and $k<l<m$, need
 $2^{\aleph_0}\ge\aleph_3$ once $k\ge1$, so they do not touch the $\aleph_2$
-question. The sources behind this account, as of 2026-10-07, are the site's
-problem page, discussion thread and proof-claims page and the arXiv record of
-the preprint. Nothing on this page is independently reviewed.
+question. The sources behind this account are the site's problem page,
+discussion thread and proof-claims page and the arXiv record of the preprint.
+Nothing on this page is independently reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

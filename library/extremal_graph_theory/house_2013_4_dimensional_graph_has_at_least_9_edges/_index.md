@@ -56,14 +56,14 @@ right reserved.
 Read status: claims checked for the abstract, Definition 1, Problem 2 with
 the paragraph answering it, and Proposition 3 (p. 1783), Proposition 9 and
 the candidate count of § 4 (p. 1786), and the closing paragraph of § 5
-(p. 1789), each read clause by clause on the page images of PDF pp. 1, 4 and
-7 on 2026-09-22; the figure pages 1787--1788 (PDF pp. 5--6; Figs. 7--10)
-were viewed on the page images for their labels and the count of drawings,
-and the text of pp. 1786--1789 describing the embeddings was read on the
-page images. Propositions 4 and 8, Corollary 5, Definition 6 and Example 7
-(pp. 1784--1786) were read in the text layer for structure only. The case
-analysis of § 5 was followed as a route; none of the drawn unit-distance
-representations was checked, and nothing here is independently reviewed.
+(p. 1789), each read clause by clause on the page images of PDF pp. 1, 4 and 7;
+the figure pages 1787--1788 (PDF pp. 5--6; Figs. 7--10) were viewed on the page
+images for their labels and the count of drawings, and the text of pp.
+1786--1789 describing the embeddings was read on the page images. Propositions 4
+and 8, Corollary 5, Definition 6 and Example 7 (pp. 1784--1786) were read in the
+text layer for structure only. The case analysis of § 5 was followed as a route;
+none of the drawn unit-distance representations was checked, and nothing here is
+independently reviewed.
 
 ## Contents
 

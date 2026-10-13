@@ -67,10 +67,9 @@ notation $SP$, $IP$, $SN$, $IN$, $SX$, $IX$ with the values for the
 example (pp. 100--101), Theorems 1--4 (pp. 101--102), the generalized
 construction $(*)$ (p. 102), the proof of Theorem 4 and the closing
 remarks (25)--(26) (pp. 108--109), each read clause by clause on the page
-images on 2026-10-07; the counterexample's verification and the proof of
-Theorem 4 were followed; the proofs of Theorems 1--3 (pp. 102--108) were
-read in the text layer for structure only. Nothing here is independently
-reviewed.
+images; the counterexample's verification and the proof of Theorem 4 were
+followed; the proofs of Theorems 1--3 (pp. 102--108) were read in the text layer
+for structure only. Nothing here is independently reviewed.
 
 ## Contents
 

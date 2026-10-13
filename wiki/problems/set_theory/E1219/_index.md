@@ -106,13 +106,13 @@ Komjáth's 2025 survey [Ko25b, p. 419] records it as the proof of Problem 3
 and the last remaining case of that discussion, a named expert's acceptance;
 erdosproblems.com marked the problem proved with no comments and no proof
 claims, and the community database marks it proved (informal) and
-unformalized, in an entry last updated 2026-09-12. Search scope 2026-09-27: erdosproblems.com (page, LaTeX
-source, revision history, discussion and proof-claim threads, bibliography
-entries), the community database, conjectures.io (results and problems
-pages; no item for this problem), the Shelah archive entry Sh:40, zbMATH,
-the formal-conjectures repository (no file for 1219 as of 2026-10-07), and
-arXiv abstract
-searches for partition relations at $\aleph_\omega$ (no matching entries).
+unformalized, in an entry last updated 2026-09-12. Search scope, with the
+sources as they stood on 2026-09-27: erdosproblems.com (page, LaTeX source,
+revision history, discussion and proof-claim threads, bibliography entries), the
+community database, conjectures.io (results and problems pages; no item for this
+problem), the Shelah archive entry Sh:40, zbMATH, the formal-conjectures
+repository (no file for 1219 as of 2026-10-07), and arXiv abstract searches for
+partition relations at $\aleph_\omega$ (no matching entries).
 The proofs of Theorem 1.2 and Corollary 1.3 are not independently verified
 by this project. Hajnal's stronger conjecture
 $\sum_k 2^{\aleph_{n_k}}\to(\aleph_\omega,4)^3$ [Sh75, Conjecture 1A,

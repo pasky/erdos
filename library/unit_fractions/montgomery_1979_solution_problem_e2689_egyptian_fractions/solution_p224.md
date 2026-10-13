@@ -61,11 +61,11 @@ in the
 [[unit_fractions/montgomery_1979_solution_problem_e2689_egyptian_fractions/_index|source digest]].
 
 **Read depth.** Claims checked: the reprinted problem, both sets, the
-closing sentence and the note on Hickerson were read clause by clause on
-the page image on 2026-09-22. The page prints no derivation of the sets.
-Both reciprocal sums were recomputed here in exact rational arithmetic and
-equal $2$; the check is the page's only content beyond the statement, and
-nothing here is independently reviewed.
+closing sentence and the note on Hickerson were read clause by clause on the
+page image. The page prints no derivation of the sets. Both reciprocal sums were
+recomputed here in exact rational arithmetic and equal $2$; the check is the
+page's only content beyond the statement, and nothing here is independently
+reviewed.
 
 ## Proof pointer
 

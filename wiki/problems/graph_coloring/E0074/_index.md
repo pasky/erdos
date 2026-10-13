@@ -91,8 +91,8 @@ $f(n)=\epsilon n$ with any fixed $\epsilon>0$; its page is pending, because
 the paper is not held and the statement rests on the site's attribution, which
 no publisher record states.
 
-Search scope, 2026-09-05: the site's problem page, discussion thread (no
-comments), proof exposition and proof claim (no comments); the pinned proof
+Search scope: the site's problem page, discussion thread, proof exposition and
+proof claim (thread and claim without comments on 2026-09-05); the pinned proof
 repository; the FrontierMath Erdős benchmark report; and the original
 publisher and author-archive records of the two references.
 

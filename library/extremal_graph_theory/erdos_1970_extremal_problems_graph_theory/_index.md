@@ -85,12 +85,11 @@ the digest writes as an equality of orders; the proofs of Theorems 1 and 2
 were not read; the rest of the digest records an earlier reading that was not
 repeated here. Claims checked also for Definition 1 and Theorem 1 with its
 Corollary (pp. 379--380 = PDF pp. 3--4) and for the two open problems closing
-the paper (pp. 388--389 = PDF pp. 12--13), read clause by clause on the
-rendered page images on 2026-09-18: the theorem prints
-$e(G^n)\ge n^{1+\alpha}$ and $e(G^m)\ge\frac25m^{1+\alpha}$ (the digest's
-constant agrees; the text layer's ">" is a misreading), and the second open
-problem prints $e(G^n)=[n\log n]$ with an equality sign; the proof of Theorem
-1 was not read.
+the paper (pp. 388--389 = PDF pp. 12--13), read clause by clause on the rendered
+page images: the theorem prints $e(G^n)\ge n^{1+\alpha}$ and
+$e(G^m)\ge\frac25m^{1+\alpha}$ (the digest's constant agrees; the text layer's
+">" is a misreading), and the second open problem prints $e(G^n)=[n\log n]$ with
+an equality sign; the proof of Theorem 1 was not read.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0576/_index|#576]]: display (5),
 f(n;C) <= O(n^{8/5}), the upper bound for the cube
@@ -126,7 +125,7 @@ the site's key [ErSi70, p. 388], and Theorem 1's exponent
 $\alpha(1-\alpha)/(1+\alpha)$ as the 1970 positive result; the paper's
 "$d$-regular" (Definition 1, pp. 379--380) is the site's $D$-balanced.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1: If e(G^n) >= n^{1+alpha} and d = 10 times 2^{1/alpha^2+1}, then G^n
   has a d-regular (almost-regular) subgraph G^m with e(G^m) >= (2/5) m^{1+alpha}

@@ -58,7 +58,7 @@ n, and attributes the linearity of the size Ramsey number of cycles to Haxell,
 Kohayakawa and Łuczak; Theorem 1.1 supplies explicit constants for the cycle
 question.
 
-**Results to transcribe.**
+**Results.**
 
 - [[ramsey_theory/javadi_2019_size_ramsey_number_cycles/theorem_1_1|Theorem 1.1]] (p. 2): For sufficiently large lengths with n_i >= 2 ceil(log(nc)) + 2,
   Rhat(C_{n_1},...,C_{n_t}) <= (ln c + 1)c^2 n with c = 82 x 35^{2^{t_o}-2} x

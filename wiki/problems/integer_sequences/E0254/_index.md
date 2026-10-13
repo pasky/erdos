@@ -83,10 +83,10 @@ solved and proved while the site's label was OPEN; Snyder's full claim is
 pending, and Cassels's accepted partial claim covers only the sets that meet his
 stronger hypotheses. The audited Lean theorem reaches the Statement through
 Fan's six-per-interval criterion; the five-per-interval Corollary 1.2 of the
-preprint's current version is not built. The dated search scope is the site's
-page, its discussion thread and its proof-claims tab with the comments under
-each claim, and the arXiv record of Fan's preprint (no journal reference), all
-read 2026-10-07; no search beyond these was made.
+preprint's current version is not built. The search scope is the site's page,
+its discussion thread and its proof-claims tab with the comments under each
+claim, and the arXiv record of Fan's preprint, which listed no journal reference
+on 2026-10-07; no search beyond these was made.
 
 ## Known Results
 

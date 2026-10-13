@@ -11,9 +11,9 @@ authors:
 status: claimed
 claim: disproved
 scope: full
-submitted: null
+submitted: 2026-04-26
 links:
-- url: https://www.erdosproblems.com/forum/thread/638
+- url: https://www.erdosproblems.com/forum/thread/638#post-5909
   kind: discussion
   date: 2026-04-26
 - url: https://github.com/woeowiegj/Erdos638/tree/06cfc3735d4415643196bb67440fbec71342b783
@@ -49,6 +49,13 @@ whose finite subgraphs all lie in the class has a triangle hypergraph of
 finite chromatic number, by the de Bruijn--Erdős compactness lemma or by
 finiteness.
 
+**Submission note.** Posted to the site's forum by Brian Saturnino (account
+InfiniteInsights) on 26 April 2026:
+
+> Hello, I would like to submit a potential solution to the problem.
+> https://pdfhost.io/v/kQ6nBNKNY8_Erdos_Problem_638 I have tried to get it
+> submitted through Aristotle AI. Everything appears to be fine. Thank you.
+
 **Scope.** Full: the class $S_{\mathrm{ord}}$ is closed under taking
 subgraphs and meets the hypothesis, so a correct proof answers no to the
 corrected Statement of
@@ -83,5 +90,6 @@ the same evening, the version the source card cites, and the Lean project
 link on 27 April 2026. The Lean project is the GitHub repository linked
 above, pinned to its last commit of 27 April 2026 (its four commits all date
 from that day); the corpus has not built the Lean project. The note is
-hosted on a file-sharing site whose address embeds the poster's account name
-and is not printed here.
+hosted on a file-sharing site. The Submission note quotes the first
+version's address; the revised version's address embeds the poster's account
+name and is not printed here.

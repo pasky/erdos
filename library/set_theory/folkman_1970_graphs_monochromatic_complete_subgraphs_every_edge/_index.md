@@ -82,9 +82,9 @@ The copy read for this card is a 7-page publisher reprint from JSTOR (PDF p. 1
 is the JSTOR cover page; printed p. $n$ is PDF p. $n-17$) with a text layer
 that garbles the Greek letters. Read status: claims checked for the definitions
 of p. 19, Theorem 1 and Theorem 2 (p. 20) and the Remarks of pp. 23--24, read
-clause by clause on the page images (PDF pp. 2--3 and 6--7) on 2026-09-18; the
-proofs of Theorems 1 and 2 (pp. 20--23) were read for their structure and not
-checked. Result pages:
+clause by clause on the page images (PDF pp. 2--3 and 6--7); the proofs of
+Theorems 1 and 2 (pp. 20--23) were read for their structure and not checked.
+Result pages:
 [[set_theory/folkman_1970_graphs_monochromatic_complete_subgraphs_every_edge/theorem_1|theorem_1]],
 [[set_theory/folkman_1970_graphs_monochromatic_complete_subgraphs_every_edge/theorem_2|theorem_2]],
 [[set_theory/folkman_1970_graphs_monochromatic_complete_subgraphs_every_edge/conjecture_p23|conjecture_p23]].
@@ -108,7 +108,7 @@ pp. 23--24, PDF pp. 6--7) state the case of k >= 3 colors as Folkman's
 conjecture, with his inequality as a bound asserted with no proof printed; the
 site's key [Fo70].
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 20): f(k1,k2) = max(k1,k2): there are graphs with clique number
   max(k1,k2) in which every red/blue edge coloring yields a red k1-clique or a

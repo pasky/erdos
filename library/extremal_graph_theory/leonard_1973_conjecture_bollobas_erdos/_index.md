@@ -77,13 +77,12 @@ announced results (p. 281), the framework $F$ with its separation argument
 (pp. 281--282), the constructions $F_1$, $F_2$, $F_3$ and $G$ (p. 282), the
 constructions $F_4$, $F_5$ and $F_6$ with the edge count (pp. 282--283), the
 closing suspicion and the Added in proof (p. 283) and the references
-(p. 284), each read clause by clause on the page images of PDF pp. 1--4 on
-2026-09-22; the figures were looked at on the page images, and their degree
-labels were not verified against the drawings. The point and edge counts of
-$F_1$, $F_3$, $G$, $F_4$ and $F_6$ were recomputed here from the printed
-construction (below); the absence of 5-ways, which the note rests on
-Menger's theorem and "Inspection of $F$", was not checked. Nothing here is
-independently reviewed.
+(p. 284), each read clause by clause on the page images of PDF pp. 1--4; the
+figures were looked at on the page images, and their degree labels were not
+verified against the drawings. The point and edge counts of $F_1$, $F_3$, $G$,
+$F_4$ and $F_6$ were recomputed here from the printed construction (below); the
+absence of 5-ways, which the note rests on Menger's theorem and "Inspection of
+$F$", was not checked. Nothing here is independently reviewed.
 
 ## Contents
 

@@ -69,7 +69,7 @@ $c>1/4$, as variants, research solved with `sorry` bodies and no
 
 ## Current assessment
 
-The question, in the site's formulation accessed read with $f$
+The question, in the site's formulation accessed 2026-09-04, read with $f$
 nonnegative as the Formulation records, asks whether for every $f(m)\to\infty$
 some graph of infinite chromatic number has, in every $m$-vertex subgraph, an
 independent set of size at least $m/2-f(m)$. The standing is `solved`, `proved`,
@@ -131,11 +131,10 @@ hypothesis is false. Applied rate by rate, the known positive case of Problem
 gives only the linear case settled in 1967. The note settles no new instance and
 has no claim page.
 
-Search scope, 2026-10-07: the site's problem page, discussion thread and
-proof-claims page, the note, the formal-conjectures statement file, the
-third-party Lean repositories at their linked commits, and the texts of
-[ErHa67b], [Er69b] and [EHS82]. The corpus holds no line-by-line check of the
-note's proof.
+Search scope: the site's problem page, discussion thread and proof-claims
+page, the note, the formal-conjectures statement file, the third-party Lean
+repositories at their linked commits, and the texts of [ErHa67b], [Er69b] and
+[EHS82]. The corpus holds no line-by-line check of the note's proof.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

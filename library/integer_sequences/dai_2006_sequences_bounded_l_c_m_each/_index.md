@@ -50,7 +50,7 @@ Source: <https://doi.org/10.4064/aa124-4-2>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0441/_index|#441]]
 
-**Results to transcribe.**
+**Results.**
 
 - [[integer_sequences/dai_2006_sequences_bounded_l_c_m_each/theorem|Theorem]]
   (pp. 315-316): For large x the maximum size of a set with all pairwise

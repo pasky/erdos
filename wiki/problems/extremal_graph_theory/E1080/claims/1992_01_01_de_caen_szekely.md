@@ -63,7 +63,7 @@ this wiki.
 **Acceptance.** Reviewed: the site's curator, T. F. Bloom, credits de Caen and
 Székely with the negative answer and states their bounds in the problem's
 commentary (erdosproblems.com/1080, page last edited 14 October 2025, accessed
-2026-09-18). The proof-claim tab is empty, and the dated search recorded on the
+2026-09-18). The proof-claim tab is empty, and the search recorded on the
 problem page found no dispute.
 
 Not counted as refereed: the chapter appears in an edited Bolyai Society

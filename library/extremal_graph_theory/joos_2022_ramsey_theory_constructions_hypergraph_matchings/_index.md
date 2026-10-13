@@ -43,7 +43,7 @@ Source: <https://arxiv.org/abs/2208.12563>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0136/_index|#136]]
 
-**Results to transcribe.**
+**Results.**
 
 - Equation (1): r(K_{n,n}, C_4, 3) = 2n/3 + o(n), answering a question of
   Axenovich, Furedi and Mubayi.

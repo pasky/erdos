@@ -36,8 +36,9 @@ k_epsilon(theta) >> sqrt(epsilon) (theta(1-theta))^{3/2} times
 ***
 
 Patrick Letendre, Divisors of an Integer in a Short Interval. arXiv preprint
-(2025). arXiv:2503.12146. The arXiv record names arXiv's non-exclusive
-distribution license (arXiv:2503.12146), every other right reserved.
+arXiv:2503.12146v1 (15 March 2025), the edition read. The arXiv record names
+arXiv's non-exclusive distribution license (arXiv:2503.12146), every other
+right reserved.
 
 The paper studies D_n(X,Y), the number of divisors d of n with X <= d <= X+Y
 (p. 1). It records as Conjecture 1 (p. 1) a conjecture it attributes to the

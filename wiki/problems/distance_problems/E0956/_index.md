@@ -82,7 +82,7 @@ hence $h(n)=\Theta(n^{4/3})$, recorded on
 together with Aristotle's partial Lean file and Linmiao Xu's Lean
 development of lower bounds, registered in the Palomar registry on 4 October
 2026. Neither claim is refereed or independently reviewed, so the standing
-is a pending full claim. Search scope, 2026-10-07: the site's problem page
-and discussion thread, the Oberwolfach report, the claimant's note and Lean
-file, the Lean repository and registry record, and the formal-conjectures
-catalog; no forum proof claim, release item or lead names the problem.
+is a pending full claim. Search scope: the site's problem page and discussion
+thread, the Oberwolfach report, the claimant's note and Lean file, the Lean
+repository and registry record, and the formal-conjectures catalog; on
+2026-10-07 no forum proof claim, release item or lead named the problem.

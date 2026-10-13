@@ -50,10 +50,10 @@ survey paragraph on the case $m=2$ and on Bermond and Larson--Mitchell
 (p. 2), Theorems 1.1--1.5 (pp. 3--4), Lemmas 2.3--2.4 (p. 5), Proposition
 3.4 (p. 9), Observations 4.1--4.2 (p. 10), Corollary 5.2 (p. 11), Theorem
 5.6 (p. 15), the Coda (p. 18) and Proposition 6.1 (p. 18), each read clause
-by clause in the text layer on 2026-09-18; p. 3 was read again on the page
-image for the range figure $2^{508}$ of the introduction, which the text
-layer prints as 2508. The proofs were not checked, and the two
-constructions of Section 4 were not verified.
+by clause in the text layer; p. 3 was read again on the page image for the range
+figure $2^{508}$ of the introduction, which the text layer prints as 2508. The
+proofs were not checked, and the two constructions of Section 4 were not
+verified.
 
 ## Contents
 

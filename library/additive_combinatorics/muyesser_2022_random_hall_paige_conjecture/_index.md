@@ -54,13 +54,13 @@ used here; the journal version is Invent. Math. 240 (2025), no. 3, 779--867, DOI
 read), not held and not compared, so the paper is refereed. Read status: claims
 checked for Theorem 1.1 (p. 3), the definitions of p. 51, Theorem 6.9 and
 Corollary 6.10 (p. 51), Theorem 6.12 (p. 52) and the opening of Lemma 6.22 (p.
-57), text layer, on 2026-09-18; the proofs were not read. On Problem 475 the
-paper does not state the subset case itself: Theorem 6.9, read in the division
-digraph, yields that every $S\subseteq\mathbb F_p\setminus\{0\}$ with
-$|S|\ge p-p^{1/2}+1$ has a valid ordering (a reading recorded on the result
-page), and Bedert, Bucić, Kravitz, Montgomery and Müyesser state the general
-form, for all finite groups and $|S|\ge N-N^{1-\gamma}$, as their Theorem 7.1,
-proved from Lemma 6.22 here. Result page:
+57), text layer; the proofs were not read. On Problem 475 the paper does not
+state the subset case itself: Theorem 6.9, read in the division digraph, yields
+that every $S\subseteq\mathbb F_p\setminus\{0\}$ with $|S|\ge p-p^{1/2}+1$ has a
+valid ordering (a reading recorded on the result page), and Bedert, Bucić,
+Kravitz, Montgomery and Müyesser state the general form, for all finite groups
+and $|S|\ge N-N^{1-\gamma}$, as their Theorem 7.1, proved from Lemma 6.22 here.
+Result page:
 [[additive_combinatorics/muyesser_2022_random_hall_paige_conjecture/theorem_6_9|theorem_6_9]].
 The arXiv record (https://arxiv.org/abs/2204.09666, read 2026-10-02) names the
 Creative Commons Attribution 4.0 license.
@@ -69,7 +69,7 @@ Source: <https://arxiv.org/abs/2204.09666>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0475/_index|#475]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.1: Main random Hall-Paige theorem: for p >= n^{-1/10^105} and
   p-random R^1, R^2, R^3 in a group G of order n, whp any equal-sized X, Y, Z

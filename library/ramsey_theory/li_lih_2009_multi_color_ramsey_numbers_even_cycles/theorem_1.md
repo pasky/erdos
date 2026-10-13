@@ -66,10 +66,10 @@ the displayed vectors and fractions). The edition read is identified in the
 
 **Read depth.** Claims checked: the definitions of $r_k(G)$ and $br_k(G)$,
 the bounds (1) and (2), Theorem 1, Lemma 1 and Lemma 5 were read clause by
-clause on the page images on 2026-09-22. The proofs of Lemmas 1--6
-(pp. 115--118) were read in full on the page images and their steps
-followed; that is a reading, not a review, and the bound (2) has no printed
-argument. Nothing here is independently reviewed.
+clause on the page images. The proofs of Lemmas 1--6 (pp. 115--118) were read in
+full on the page images and their steps followed; that is a reading, not a
+review, and the bound (2) has no printed argument. Nothing here is independently
+reviewed.
 
 ## Proof pointer
 
@@ -118,14 +118,14 @@ Prague printing of 1964) is filed as
 its assertion, given without proof, that every
 $\mathfrak G(n;[c_k'''n^{1+1/k}])$ contains a $C_{2k}$, so
 $ex(n;C_{2k})<c_k'''n^{1+1/k}$, is on printed p. 33 (PDF p. 5), read there
-clause by clause on the page image on 2026-09-22 and paged on
+clause by clause on the page image and paged on
 [[extremal_graph_theory/erdos_1964_extremal_problems_graph_theory/assertion_p33|assertion_p33]].
 Bondy and Simonovits 1974 (J. Combin. Theory Ser. B 16, 97--105) is filed as
 [[extremal_graph_theory/bondy_1974_cycles_even_length_graphs/_index|bondy_1974_cycles_even_length_graphs]];
 its Theorem 1, that $e(G^n)>100k\,n^{1+1/k}$ forces $C^{2l}\subset G^n$
 for every integer $l\in[k,kn^{1/k}]$, so $ex(n;C_{2k})\le100k\,n^{1+1/k}$,
-is on printed p. 98 (PDF p. 2), read there clause by clause on the page
-image on 2026-09-22 and paged on
+is on printed p. 98 (PDF p. 2), read there clause by clause on the page image
+and paged on
 [[extremal_graph_theory/bondy_1974_cycles_even_length_graphs/theorem_1|theorem_1]].
 The remaining outside dependencies: the Prime
 Number Theorem, for Lemma 5; the Vandermonde determinant, for Lemma 2. The

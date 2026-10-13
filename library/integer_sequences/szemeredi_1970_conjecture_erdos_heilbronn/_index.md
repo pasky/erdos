@@ -63,7 +63,7 @@ Source: <https://doi.org/10.4064/aa-17-3-227-229>.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0540/_index|#540]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem (p. 227): There exist c > 0 and n_0 such that for all n > n_0, every
   abelian group G of order n and every A within G with |A| >= c sqrt n satisfies

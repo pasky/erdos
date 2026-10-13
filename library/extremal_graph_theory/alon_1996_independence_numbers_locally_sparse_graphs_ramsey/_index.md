@@ -60,8 +60,8 @@ on the page images; the proofs of Theorem 1.2 (pp. 5-6) and Proposition 3.1
 of Theorem 1.1 (Section 2, pp. 2-5) was read for its structure and not checked
 step by step. For Problem 802, Theorem 1.1 and the introduction's two
 sentences on the Ajtai-Erdős-Komlós-Szemerédi bound and conjecture and on
-Shearer's improvement (p. 1) were re-read clause by clause on the page images
-of pp. 1-2 on 2026-09-18; Theorem 1.1 is paged at
+Shearer's improvement (p. 1) were re-read clause by clause on the page images of
+pp. 1-2; Theorem 1.1 is paged at
 [[extremal_graph_theory/alon_1996_independence_numbers_locally_sparse_graphs_ramsey/theorem_1_1|theorem_1_1]].
 
 Source: <https://web.math.princeton.edu/~nalon/PDFS/publications.html>.

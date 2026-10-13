@@ -46,7 +46,7 @@ page, and this corpus has not built it.
 
 ## Current assessment
 
-The question, in the site's formulation accessed, asks whether
+The question, in the site's formulation accessed 2026-09-04, asks whether
 integers $x,y\ge1$ with the same set of primes dividing $x^n-1$ and $y^n-1$
 for every $n\ge1$ must be equal. The answer is yes:
 [[problems/diophantine_problems/E1214/claims/1997_06_01_corralesrodriganez_schoof|Corrales-Rodrigáñez and Schoof 1997]],

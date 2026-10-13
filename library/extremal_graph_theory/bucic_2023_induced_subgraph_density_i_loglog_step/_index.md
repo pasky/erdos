@@ -57,7 +57,7 @@ result 1.3 gives every H-free graph G with |G| >= 2 a clique or stable set of
 size at least 2^{c sqrt(log |G| log log |G|)}, c = c(H) > 0, a bound weaker
 than the |G|^c the problem asks for; it does not answer the question for any H.
 
-**Results to transcribe.**
+**Results.**
 
 - [[extremal_graph_theory/bucic_2023_induced_subgraph_density_i_loglog_step/theorem_1_3|Result 1.3]]
   (p. 1): For every graph H there is c > 0 such that every H-free graph G

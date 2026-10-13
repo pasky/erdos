@@ -41,7 +41,7 @@ Commons Attribution 4.0 license.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0033/_index|#33]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 898): If B = {b_n} is an additive complement of the squares,
   then limsup_n ((pi^2/16)n^2 - b_n)/n >= pi/4, confirming the Chen-Fang

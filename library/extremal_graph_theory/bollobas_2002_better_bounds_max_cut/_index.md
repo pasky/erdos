@@ -166,9 +166,8 @@ $B_w(m)\leq B(m)$ (p. 4).
   ([[extremal_graph_theory/bollobas_2002_better_bounds_max_cut/lemma_28|Lemma 28]]).
 
 Read status: claims checked for every result paged here, each read clause
-by clause on the manuscript's page images on 2026-10-08; reading depth of
-the proofs is recorded on each page. Nothing here is independently
-reviewed.
+by clause on the manuscript's page images; reading depth of the proofs is
+recorded on each page. Nothing here is independently reviewed.
 
 ## Notes on the printed text
 

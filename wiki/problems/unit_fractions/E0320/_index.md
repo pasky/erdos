@@ -108,8 +108,7 @@ Problem #320, https://www.erdosproblems.com/320, accessed 2026-09-18.
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [OEIS] Layman, J. W., Sequence A072207, The On-Line Encyclopedia of Integer
   Sequences (2002; entry last modified 21 October 2025, server time): $S(N)$
-  for $N\le83$ (b-file by B. Dobbelaere), linking [BlEr75] and [BGMS25];
-  accessed.
+  for $N\le83$ (b-file by B. Dobbelaere), linking [BlEr75] and [BGMS25].
 - [YZL26] Young, R., Zhu, K. and Luo, Y., manuscript behind the Overleaf
   read link given on the site's proof-claim tab (claim submitted 15 July
   2026), which served no document to a request on 2026-09-18. Lean

@@ -93,10 +93,10 @@ term is unstated.
 Read status: claims checked for Proposition 1.1, Theorem 1.2, Question 2,
 Theorem 1.3, the Hegyvári remark of Section 1.5 with its display (10),
 Proposition 6.1 and Questions 3 and 4, read clause by clause in the text
-layer of the arXiv v5 and on the journal pages 414--417, 471 and 474 on
-2026-09-18; the half-page proof of Proposition 1.1 and the one-page proof of
-Proposition 6.1 were read for structure; the proofs of Theorems 1.2 and 1.3
-(Sections 2--5) were not read. Nothing here is independently reviewed.
+layer of the arXiv v5 and on the journal pages 414--417, 471 and 474; the
+half-page proof of Proposition 1.1 and the one-page proof of Proposition 6.1
+were read for structure; the proofs of Theorems 1.2 and 1.3 (Sections 2--5) were
+not read. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/number_theory/E0034/_index|#34]] (Proposition 1.1, arXiv
 p. 2, the permutation $1,n,2,n-1,\ldots$ with at least $n^2/4$ distinct
@@ -122,7 +122,7 @@ $f(n)$ is at most $k_{\max}(n)$ and the upper bound $(2/3+o(1))n$ applies to
 it while the lower bound need not; the problem page cites Hegyvári's paper as
 [He86])
 
-**Results to transcribe.**
+**Results.**
 
 - Proposition 1.1: For every n there is a permutation of [n] with at least n^2/4
   distinct consecutive sums, refuting Erdos's Question 1. Paged as

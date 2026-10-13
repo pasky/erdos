@@ -43,7 +43,7 @@ Source: <https://arxiv.org/abs/1703.02133>.
 
 **Bears on.** [[../wiki/problems/covering_systems/E0007/_index|#7]]
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1 (p. 1 of arXiv v2): "Every distinct covering system of
   congruences has a modulus divisible by either 2 or 3."

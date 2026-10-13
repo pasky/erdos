@@ -98,11 +98,11 @@ Observation answers the question in the site's wording no as well; the p. 2
 Conjecture is the no-forest form on which the site's own account rests, and
 the note assigns it no status.
 
-**Results to transcribe.**
+**Results.**
 
 - Observation, p. 1: the two-edge star and two-edge matching form a family
   with bounded joint extremal number and linear individual extremal numbers,
-  contradicting the unrestricted comparison. Compiled on 2026-09-18 as
+  contradicting the unrestricted comparison. Compiled as
   [[extremal_graph_theory/wigderson_2022_erdossimonovits_compactness_conjecture_needs_more_assumptions/observation_p1|observation_p1]]. Its printed proof was read for
   wording and scope; independent full-proof compilation review remains
   outstanding, including the precise external forest-bound interface if the

@@ -48,12 +48,12 @@ the archive's scan), the Canonization Lemma 1.1 on pp. 1258--1260 (PDF
 pp. 2--4), read on the page images. The artifact is identified in the
 [[set_theory/shelah_1975_notes_partition_calculus/_index|source digest]].
 
-**Read depth.** Claims checked: the statement was read clause by clause on
-the page image on 2026-09-27, together with the hypothesis actually used in
-the proof. The proof (half a page, p. 1260) and the statement and proof of
-Lemma 1.1 (pp. 1258--1260) were read on the page images for structure only;
-no step was checked, and the cited relations from [4] were not consulted.
-Nothing here is independently reviewed.
+**Read depth.** Claims checked: the statement was read clause by clause on the
+page image, together with the hypothesis actually used in the proof. The proof
+(half a page, p. 1260) and the statement and proof of Lemma 1.1 (pp. 1258--1260)
+were read on the page images for structure only; no step was checked, and the
+cited relations from [4] were not consulted. Nothing here is independently
+reviewed.
 
 ## Proof pointer
 

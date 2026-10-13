@@ -43,9 +43,8 @@ mathematics release, folder
 TeX source `sections/introduction.tex`, label `thm:main` (PDF p. 2); proof in
 `sections/distribution.tex` (PDF pp. 77--81, "Proof of Theorem 1.1" on p. 80),
 resting on Proposition 2.2 of `sections/labels.tex`, label `prop:mixed` (PDF
-p. 9), whose proof closes in `sections/conclusion.tex` (PDF p. 77). Read on
-2026-10-07 in the TeX source with the PDF text layer for page numbers. The
-card
+p. 9), whose proof closes in `sections/conclusion.tex` (PDF p. 77). Read in the
+TeX source with the PDF text layer for page numbers. The card
 [[arithmetic_functions/openai_2026_joint_dickman_law_consecutive_integers/_index|openai_2026_joint_dickman_law_consecutive_integers]]
 records the release's provenance and formalization statements.
 

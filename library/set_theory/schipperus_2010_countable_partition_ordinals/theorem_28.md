@@ -51,12 +51,12 @@ artifact is identified in the
 [[set_theory/schipperus_2010_countable_partition_ordinals/_index|source digest]].
 
 **Read depth.** Claims checked: the statement in its three printed forms,
-Definitions 1 and 2 and the $\beta=2$ remarks were read clause by clause on
-the page images on 2026-09-22. The proof (one paragraph, p. 1212) was read
-in full on the page image and its reduction to Theorem 27, Theorem 19,
-Theorem 21 and Lemma 26 was followed; those results and the machinery of
-Sections 2--10 (pp. 1197--1212) were read in the text layer for structure
-only and not checked. Nothing here is independently reviewed.
+Definitions 1 and 2 and the $\beta=2$ remarks were read clause by clause on the
+page images. The proof (one paragraph, p. 1212) was read in full on the page
+image and its reduction to Theorem 27, Theorem 19, Theorem 21 and Lemma 26 was
+followed; those results and the machinery of Sections 2--10 (pp. 1197--1212)
+were read in the text layer for structure only and not checked. Nothing here is
+independently reviewed.
 
 ## Proof pointer
 

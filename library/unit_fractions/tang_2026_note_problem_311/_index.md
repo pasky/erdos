@@ -112,8 +112,8 @@ condition, and the upper bound holds for both since the constructed $A$
 has reciprocal sum below $1$.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0311/_index|#311]]: Theorem 4.1 is the
-upper bound the site's commentary attributes to the author (as of the
-refresh), the only nontrivial upper bound for $\delta(N)$
+upper bound the site's commentary, accessed 2026-09-18, attributed to the
+author, the only nontrivial upper bound for $\delta(N)$
 recorded there; it lies far above the conjectured $e^{-(c+o(1))N}$ and the
 trivial lower bound $e^{-(1+o(1))N}$, and the note does not address the
 conjectured exponential rate.

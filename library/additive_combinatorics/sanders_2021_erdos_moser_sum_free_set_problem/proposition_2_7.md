@@ -44,9 +44,9 @@ identified in the
 [[additive_combinatorics/sanders_2021_erdos_moser_sum_free_set_problem/_index|source digest]].
 
 **Read depth.** Claims checked: the statement and the remarks on p. 6
-were read clause by clause on the page images on 2026-10-08. The proof on
-p. 11 was read for its structure; the proofs of Lemmas 3.2 and 3.4 and
-of Proposition 3.5 (Sections 5 to 9) were not checked.
+were read clause by clause on the page images. The proof on p. 11 was read for
+its structure; the proofs of Lemmas 3.2 and 3.4 and of Proposition 3.5 (Sections
+5 to 9) were not checked.
 
 ## Proof pointer
 

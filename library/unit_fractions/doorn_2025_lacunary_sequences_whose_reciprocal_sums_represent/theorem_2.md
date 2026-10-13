@@ -15,9 +15,8 @@ updated: 2026-10-07T16:02:03Z
 **Source.** Theorem 2, Section 1, pp. 2--3 of
 arXiv:2509.24971v3 (3 December 2025), 17 pages; Definition 2 on p. 2; proof
 in Section 5 (pp. 12--13) with Lemma 11 (p. 12). Read on the rendered page
-image of p. 2 and in the text layer of pp. 2--3 on 2026-09-18. Published in
-Acta Arith. 223 (2026), 275--295, DOI 10.4064/aa251001-13-1; not compared
-(see
+image of p. 2 and in the text layer of pp. 2--3. Published in Acta Arith. 223
+(2026), 275--295, DOI 10.4064/aa251001-13-1; not compared (see
 [[unit_fractions/doorn_2025_lacunary_sequences_whose_reciprocal_sums_represent/theorem_1|Theorem 1]]
 for the version record).
 

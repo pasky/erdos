@@ -62,12 +62,12 @@ every other right reserved.
 Read status: claims checked for the introduction's first two paragraphs with
 the Erdős dictum (p. 3), the prize sentence and the paragraph around it, the
 definition (2.1) of $T(n)$ and the first form of the $3x+1$ Conjecture
-(p. 4), each read clause by clause on the page images of PDF pp. 2--3 on
-2026-09-22; the cover sheet (PDF p. 1) and the references [27] (p. 21), [36]
-(p. 22) and [69] (p. 23) were read on the page images of PDF pp. 1 and
-20--22. Sections 2--4 (pp. 4--21) were read in the text layer for structure
-only: the theorem statements below are transcribed from that layer, no proof
-was checked, and nothing here is independently reviewed.
+(p. 4), each read clause by clause on the page images of PDF pp. 2--3; the cover
+sheet (PDF p. 1) and the references [27] (p. 21), [36] (p. 22) and [69] (p. 23)
+were read on the page images of PDF pp. 1 and 20--22. Sections 2--4 (pp. 4--21)
+were read in the text layer for structure only: the theorem statements below are
+transcribed from that layer, no proof was checked, and nothing here is
+independently reviewed.
 
 ## Contents
 

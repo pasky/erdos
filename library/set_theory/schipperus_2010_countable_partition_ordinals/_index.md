@@ -68,17 +68,17 @@ Darby and Larson (p. 1197), Theorem 27, Corollary 3 and Theorem 28 with
 its proof (p. 1212), Theorem 29, Definition 26 and Lemma 30 with its proof
 (p. 1213), Theorem 31 with its proof (p. 1214), Theorem 32 with its proof (pp.
 1214--1215), Theorem 33 with its proof, the closing remark, the
-acknowledgements and the reference list (p. 1215), each read clause by clause
-on the page images of PDF pp. 1--3 and 18--21 on 2026-09-22. The proof of
-Theorem 28 (one paragraph, p. 1212) was read in full on the page image and its
-reduction to Theorem 27, the dichotomy of Theorem 19, Theorem 21 and Lemma 26
-was followed; the pattern arguments proving Theorems 31--33 (pp. 1214--1215)
-were read in full on the page images and not checked. Sections 2--10 (pp.
-1197--1212), the nested and collapsible ladders, the tree representation
-$W_\beta$, good partitions, the game, the Ramsey dichotomy, the monochromatic
-set of type $\omega^{\omega^\beta}$ and the monochromatic triangle, were read
-in the text layer for structure only, and none of their steps was checked.
-Nothing here is independently reviewed.
+acknowledgements and the reference list (p. 1215), each read clause by clause on
+the page images of PDF pp. 1--3 and 18--21. The proof of Theorem 28 (one
+paragraph, p. 1212) was read in full on the page image and its reduction to
+Theorem 27, the dichotomy of Theorem 19, Theorem 21 and Lemma 26 was followed;
+the pattern arguments proving Theorems 31--33 (pp. 1214--1215) were read in full
+on the page images and not checked. Sections 2--10 (pp. 1197--1212), the nested
+and collapsible ladders, the tree representation $W_\beta$, good partitions, the
+game, the Ramsey dichotomy, the monochromatic set of type
+$\omega^{\omega^\beta}$ and the monochromatic triangle, were read in the text
+layer for structure only, and none of their steps was checked. Nothing here is
+independently reviewed.
 
 ## Contents
 

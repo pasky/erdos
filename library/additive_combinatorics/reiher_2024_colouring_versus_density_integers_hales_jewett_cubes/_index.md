@@ -23,8 +23,8 @@ pagination is used here; the journal version was not inspected. The arXiv record
 (https://arxiv.org/abs/2311.08556, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license. Read status: claims checked for Question 1.3, Theorem
 1.4 and the remark after it (p. 2), Theorem 1.5 (p. 3), and Definition 1.6 and
-Theorem 1.7 (p. 4), each read clause by clause on the page images on 2026-10-07;
-the proofs (Sections 2--4) were not read.
+Theorem 1.7 (p. 4), each read clause by clause on the page images; the proofs
+(Sections 2--4) were not read.
 
 The paper answers a question of Erdős, Nešetřil and Rödl (Question 1.3, also
 Croot-Lev Problem 3.10) affirmatively by separating the van der Waerden property
@@ -60,7 +60,7 @@ Theorem 1.7 with k = 3 by a generic projection to the plane, since the
 collinear triples of [3]^n correspond to three-term progressions; the
 deduction is sketched there, not carried out in either paper.
 
-**Results to transcribe.**
+**Results.**
 
 - Theorem 1.4: For every k >= 3 and mu in (0,(k-1)/k) there is X contained in N
   such that every finite coloring of X has a monochromatic k-term AP, but every

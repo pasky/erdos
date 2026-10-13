@@ -68,15 +68,14 @@ and Algorithms, Vol. 7, No. 3 (1995) © 1995 John Wiley & Sons, Inc. CCC
 
 Read status: claims checked for the abstract and the introduction (p. 269),
 Lemma 1 (p. 269), Theorem 1 (p. 270) and Corollaries 1 and 2 (p. 271),
-each read clause by clause on the page images of PDF pp. 1--3 on
-2026-09-22; the reference list and the received and accepted dates (p. 271)
-were read on the page image. The proofs of Corollaries 1 and 2 (p. 271, a
-paragraph each) were read in full on the page image and their reductions to
-Theorem 1 were followed. The proofs of Lemma 1 (pp. 269--270) and of
-Theorem 1 (pp. 270--271) were read on the page images for structure only:
-their displays were located and the shape of the argument was followed, but
-no leading-order estimate in them was checked. Nothing here is
-independently reviewed.
+each read clause by clause on the page images of PDF pp. 1--3; the reference
+list and the received and accepted dates (p. 271) were read on the page image.
+The proofs of Corollaries 1 and 2 (p. 271, a paragraph each) were read in full
+on the page image and their reductions to Theorem 1 were followed. The proofs of
+Lemma 1 (pp. 269--270) and of Theorem 1 (pp. 270--271) were read on the page
+images for structure only: their displays were located and the shape of the
+argument was followed, but no leading-order estimate in them was checked.
+Nothing here is independently reviewed.
 
 ## Contents
 
