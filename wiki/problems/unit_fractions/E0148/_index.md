@@ -284,7 +284,7 @@ and with OEIS A006585, which the site links together with A076393. A
 computation of finitely many values settles nothing in an estimate
 question, so it has no claim page.
 
-**Search scope.** The status rests on these dated routes; none
+**Search scope.** The status rests on these routes; none
 had found a proof of an asymptotic formula, an improved bound or a proof claim.
 The release's manuscript of 25 September 2026, recorded under Claims, postdates
 this search.

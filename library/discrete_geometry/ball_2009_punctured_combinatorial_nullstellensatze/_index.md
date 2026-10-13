@@ -53,11 +53,11 @@ corrects Corollary 4.2.
 
 The edition read is the **nine-page corrected author manuscript dated
 14 June 2011**, available from the [author's
-website](https://web.mat.upc.edu/simeon.michael.ball/puncturedvii.pdf). It
-includes the erratum's removal of the false exponent upper bounds in
-Corollary 4.2. All labels and page numbers on the result pages are this
-manuscript's unless marked otherwise. The manuscript, from the author's
-website, which states no terms, prints no notice; the term is unstated.
+website](https://web.mat.upc.edu/simeon.michael.ball/puncturedvii.pdf), accessed
+2026-09-05. It includes the erratum's removal of the false exponent upper bounds
+in Corollary 4.2. All labels and page numbers on the result pages are this
+manuscript's unless marked otherwise. The manuscript, from the author's website,
+which states no terms, prints no notice; the term is unstated.
 
 The earlier author manuscript, from the same website, is dated
 **21 January 2009** and has ten pages; it likewise prints no notice. Its
