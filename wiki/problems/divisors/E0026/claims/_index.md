@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 26, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T07:37:55Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-13T10:05:41Z
 ---
 
 # problems/divisors/E0026/claims
@@ -20,8 +20,8 @@ fails.
 and each of its shifted copies misses the divisors of a whole arithmetic
 progression. Erdős reported it in 1995, and others formalized it in Lean.
 
-[[problems/divisors/E0026/claims/2026_04_06_deepmind|2026_04_06_deepmind]]: A Lean proof by the DeepMind prover agent gives an increasing sequence with
-divergent reciprocal sum, none of whose shifts has multiples of lower density
-above $1/2$. It refutes Tenenbaum's variant and the question.
+[[problems/divisors/E0026/claims/2026_04_06_deepmind|2026_04_06_deepmind]]: Google DeepMind's AlphaProof Nexus gives an increasing sequence with divergent
+reciprocal sum none of whose shifts has multiples of density one, in Lean and
+in a refereed paper. It refutes Tenenbaum's variant and the question.
 
 ***

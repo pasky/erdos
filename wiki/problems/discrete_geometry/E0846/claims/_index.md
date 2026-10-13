@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 846, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-13T10:05:41Z
 ---
 
 # problems/discrete_geometry/E0846/claims
@@ -16,8 +16,9 @@ which every $n$ points contain $n/2$ with no three collinear, yet which is not
 a finite union of such sets. An internal OpenAI model produced the
 construction, and the curator credits the result.
 
-[[problems/discrete_geometry/E0846/claims/2026_02_25_deepmind|2026_02_25_deepmind]]: A Lean proof, found autonomously from the formal statement, shows that an
-infinite plane set can have dense collinear-free subsets without being a
-finite union of collinear-free sets. The site's curator credits it.
+[[problems/discrete_geometry/E0846/claims/2026_02_25_deepmind|2026_02_25_deepmind]]: A Lean proof, found autonomously from the formal statement by Google
+DeepMind's AlphaProof Nexus, shows that an infinite plane set can have dense
+collinear-free subsets without being a finite union of collinear-free sets.
+The site's curator credits it, and the paper reporting it is refereed.
 
 ***

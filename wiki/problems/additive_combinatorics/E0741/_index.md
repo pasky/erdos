@@ -36,7 +36,7 @@ positive upper density, which its commentary calls the reading most likely
 to capture the question, and the page's standing targets that reading. If
 positive density means that the density exists and is positive, the first
 question has the answer no (the counterexample on the
-[[problems/additive_combinatorics/E0741/claims/2026_03_31_firsching|DeepMind claim page]]);
+[[problems/additive_combinatorics/E0741/claims/2026_03_31_deepmind|DeepMind claim page]]);
 the formal-conjectures file under Formalization lists the lower-density
 reading as an open variant (`erdos_741.variants.lower`).
 
@@ -45,17 +45,19 @@ is a catalog label explained under Formalization. Both questions are answered
 yes. The first is answered under the upper-density reading of the Formulation.
 The second is answered by an explicit basis of order $2$ that no bipartition
 splits into two self-sumsets with bounded gaps. There are three claim pages. The
-first is the
-[[problems/additive_combinatorics/E0741/claims/2026_03_31_firsching|DeepMind prover agent's three Lean proofs]],
-posted on the site's thread by Moritz Firsching. It is a full claim, accepted on
-the site curator's credit. The second is the
+first is
+[[problems/additive_combinatorics/E0741/claims/2026_03_31_deepmind|Google DeepMind's three Lean proofs]],
+found by its AlphaProof Nexus system, which the thread calls a DeepMind prover
+agent, and posted on the site's thread by Moritz Firsching. It is a full claim,
+accepted on the site curator's credit and on the refereed publication of the
+paper that proves both answers, [TKS26]. The second is the
 [[problems/additive_combinatorics/E0741/claims/2026_03_31_alexeev_putterman_sawhney_sellke_valiant|Alexeev–Putterman–Sawhney–Sellke–Valiant basis]]
 from arXiv:2603.29961, which its authors attribute to an internal OpenAI model.
 It is a partial claim, for the second question only, accepted on the site
 curator's credit. The third is a
 [[problems/additive_combinatorics/E0741/claims/2026_04_24_chojecki|note of April 2026]]
-that reproves all three statements (claimed). No refereed publication records
-any of the answers.
+that reproves all three statements (claimed). [TKS26] is the only refereed
+publication of either answer.
 
 **Source.** [erdosproblems.com/741](https://www.erdosproblems.com/741), accessed
 2026-10-07 (page last edited 2 May 2026; empty
@@ -71,6 +73,11 @@ https://www.erdosproblems.com/741.
   [[../library/number_theory/alexeev_2026_short_proofs_combinatorics_number_theory/_index|alexeev_2026_short_proofs_combinatorics_number_theory]].
 - [Er94b] Erdős, Paul, Some problems in number theory, combinatorics and
   combinatorial geometry. Math. Pannon. (1994), 261-269.
+- [TKS26] G. Tsoukalas, A. Kovsharov, S. Shirobokov and eighteen further
+  authors, Advancing mathematics research with AI-driven formal proof search.
+  Science 394 (2026), 234--239; arXiv:2605.22763. Appendix B.4 proves both
+  answers. Library home:
+  [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search]].
 
 **Formalization.** The site's (LEAN) suffix is a catalog label. The
 statement is in
@@ -83,11 +90,15 @@ with $A\cup\{0\}$ as the basis of order $2$ (`parts.ii`, solved with answer
 true); the last two proofs are in Moritz Firsching's fork at its commit of
 2026-03-31. The development `src/latest/ErdosProblems/Erdos741.lean` of Boris
 Alexeev's lean-proofs repository (first added 2026-05-13) restates the three
-theorems. All are pinned on the
-[[problems/additive_combinatorics/E0741/claims/2026_03_31_firsching|DeepMind claim page]].
-The community database (teorth/erdosproblems, file commit of 2026-09-28)
-lists `status` "solved (Lean)" and `formal_status` Lean with a last update of
-2025-08-31, and `formalized` "yes" with a last update of 2026-01-06; these are
+theorems. DeepMind's results repository, at its commit of 2026-05-19, holds a
+Lean file for each part; the file that [TKS26] gives for the upper-density
+answer proves the exact-density answer instead, and for the second part
+[TKS26] links a file of Problem 12. All are pinned on the
+[[problems/additive_combinatorics/E0741/claims/2026_03_31_deepmind|DeepMind claim page]],
+which records both discrepancies. The community database (teorth/erdosproblems,
+file commit of 2026-09-28) lists `status` "solved (Lean)" and `formal_status`
+Lean with a last update of 2025-08-31, and `formalized` "yes" with a last
+update of 2026-01-06; these are
 the database's update fields and do not date the changes of state. This corpus
 has built none of these developments, so no `formalized` evidence is listed.
 
@@ -105,6 +116,9 @@ Not yet compiled.
 These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
+- [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search]]
+- [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_741_i|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search / erdos_741_i]]
+- [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_741_ii|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search / erdos_741_ii]]
 - [[../library/number_theory/alexeev_2026_short_proofs_combinatorics_number_theory/_index|alexeev_2026_short_proofs_combinatorics_number_theory]]
 - [[../library/number_theory/alexeev_2026_short_proofs_combinatorics_number_theory/theorem_3_1|alexeev_2026_short_proofs_combinatorics_number_theory / theorem_3_1]]
 

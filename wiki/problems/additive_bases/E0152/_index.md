@@ -24,10 +24,11 @@ updated: 2026-10-08T02:16:54Z
 large finite Sidon set then there are at least $M$ many $a\in A+A$ such that
 $a+1,a-1\not\in A+A$.
 
-**Status.** PROVED (LEAN). A Lean proof by the DeepMind prover agent, posted
-2026-04-03 and accepted by the site's curator on 2026-05-16, gives
-$\gg\lvert A\rvert^2$ such sums. The acceptance and the Lean qualifications are
-on the claim page below.
+**Status.** PROVED (LEAN). A Lean proof by the DeepMind prover agent, Google
+DeepMind's AlphaProof Nexus, posted 2026-04-03 and accepted by the site's
+curator on 2026-05-16, gives $\gg\lvert A\rvert^2$ such sums; the paper that
+reports it, published in Science in October 2026, proves the bound. The
+acceptance and the Lean qualifications are on the claim page below.
 
 **Source.** [erdosproblems.com/152](https://www.erdosproblems.com/152), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #152,
@@ -57,6 +58,20 @@ page]] records the Lean proof posted on 2026-04-03, which the site's curator
 accepted on 2026-05-16 after withdrawing their own remark that the 1994 methods
 of Erdős, Sárközy and Sós already gave the result. The question for
 truncations of infinite Sidon sets, raised in the site's remarks, is not
-addressed by it. Status search of 2026-10-07: the site's page and remarks,
-its five-comment thread, and the formal-conjectures file; no refereed
-write-up was found. The corpus holds no compiled or reviewed proof.
+addressed by it. Status search: the site's page and remarks, its
+five-comment thread, the formal-conjectures file, and the arXiv and Crossref
+records of the refereed write-up, Tsoukalas et al., Science 394 (2026),
+234--239, whose Appendix B.4 proves the bound
+([[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_152|Erdős #152]]).
+The corpus holds no compiled or reviewed proof.
+<!-- BEGIN problem library links -->
+
+## Linked library material
+
+These entries are derived from explicit links on library pages. They are
+navigation only and do not by themselves record mathematical progress.
+
+- [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search]]
+- [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_152|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search / erdos_152]]
+
+<!-- END problem library links -->

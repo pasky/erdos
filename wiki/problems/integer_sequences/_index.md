@@ -17,8 +17,8 @@ updated: 2026-10-13T11:00:13Z
 [[problems/integer_sequences/E0012/_index|E0012/]]: Asks how large an infinite
 set with no element dividing the sum of two larger elements can be, in terms of
 its counting function, its density and its reciprocal sum. The first two
-questions have claimed answers from 2026, and the reciprocal-sum question is
-open.
+questions are answered by a refereed construction of 2026, and the
+reciprocal-sum question is open.
 
 [[problems/integer_sequences/E0013/_index|E0013/]]: Asks whether a subset of
 $\{1,\ldots,N\}$ with no element dividing the sum of two larger elements has

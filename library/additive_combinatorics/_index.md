@@ -3,7 +3,7 @@ name: additive_combinatorics
 title: "Sumsets and Arithmetic Progressions"
 desc: "Sources filed under Sumsets and Arithmetic Progressions, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-13T10:06:04Z
 ---
 
 # Sumsets and Arithmetic Progressions
@@ -644,6 +644,10 @@ constructions slightly larger than their conjectured extremal family.
 
 [[additive_combinatorics/szemeredi_1975_sets_integers_containing_no_elements_arithmetic/_index|szemeredi_1975_sets_integers_containing_no_elements_arithmetic/]]: Proves the Erdős–Turán conjecture that a set of integers of positive upper
 density contains arithmetic progressions of every length.
+
+[[additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/]]: Google DeepMind's refereed AlphaProof Nexus paper: a Lean proof-search agent
+resolved nine Erdős problem statements of the 353 it attempted, and an
+appendix proves all nine informally. Cited; no file held.
 
 [[additive_combinatorics/vu_et_al_2007_mapping_incidences/_index|vu_et_al_2007_mapping_incidences/]]: Maps any finite part of a characteristic-zero integral domain to finite
 fields while preserving a prescribed finite set of algebraic incidences,

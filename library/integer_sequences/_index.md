@@ -631,6 +631,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/integer_sequences/E0131/_index|E0131]]
 - [[additive_combinatorics/ruzsa_1999_erdos_integers/_index|ruzsa_1999_erdos_integers]]
   - [[../wiki/problems/integer_sequences/E1146/_index|E1146]]
+- [[additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search]]
+  - [[../wiki/problems/integer_sequences/E0012/_index|E0012]]
 - [[analysis/bonami_revesz_saffari_2007_problemes_ouverts_theorie_analytique_polynomes_analyse_harmonique/_index|bonami_revesz_saffari_2007_problemes_ouverts_theorie_analytique_polynomes_analyse_harmonique]]
   - [[../wiki/problems/integer_sequences/E0774/_index|E0774]]
 - [[analysis/grow_whicher_1984_finite_unions_quasi_independent_sets/_index|grow_whicher_1984_finite_unions_quasi_independent_sets]]

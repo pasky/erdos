@@ -645,6 +645,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/discrete_geometry/E0193/_index|E0193]]
 - [[additive_combinatorics/reiher_2024_colouring_versus_density_integers_hales_jewett_cubes/_index|reiher_2024_colouring_versus_density_integers_hales_jewett_cubes]]
   - [[../wiki/problems/discrete_geometry/E0846/_index|E0846]]
+- [[additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search]]
+  - [[../wiki/problems/discrete_geometry/E0846/_index|E0846]]
 - [[analysis/janson_1998_new_versions_suen_correlation_inequality/_index|janson_1998_new_versions_suen_correlation_inequality]]
   - [[../wiki/problems/discrete_geometry/E0188/_index|E0188]]
 - [[distance_problems/blokhuis_1984_few_distance_sets/_index|blokhuis_1984_few_distance_sets]]

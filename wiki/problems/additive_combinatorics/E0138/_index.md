@@ -65,11 +65,12 @@ at its commit of 2026-10-06, linked, which states the question
 $W(k)^{1/k}\to\infty$ as `erdos_138` with `answer(sorry)` and a `sorry` body and
 no `formal_proof` attribute; two of its variants, $W(k+1)-W(k)\to\infty$ and
 $W(k)/2^k\to\infty$, are marked solved with `formal_proof` attributes pointing
-to Lean files outside the repository: a proof by the DeepMind prover agent
-(Tsoukalas et al., arXiv:2605.22763) in a fork of formal-conjectures, and a Lean
-proof derived from the Atlas proofs of facebookresearch/atlas-lean. Neither was
-built by this corpus, neither is a formalization of the accepted OpenAI claim
-under Claims, and each is linked from its claim page.
+to Lean files outside the repository: a proof by the DeepMind prover agent,
+AlphaProof Nexus (Tsoukalas et al., Science 2026; arXiv:2605.22763), in a fork
+of formal-conjectures, and a Lean proof derived from the Atlas proofs of
+facebookresearch/atlas-lean. Neither was built by this corpus, neither is a
+formalization of the accepted OpenAI claim under Claims, and each is linked
+from its claim page.
 
 **Claims.** Five results have claim pages. The OpenAI mathematics release of 23
 September 2026 proves $W_r(k)>k^{k\lfloor\log_2r\rfloor/100000}$ for every
@@ -77,16 +78,18 @@ $r\ge2$ and every $k$ above an absolute threshold, so $W(k)^{1/k}\to\infty$, the
 example question the problem names; the result is accepted as a partial claim on
 [[problems/additive_combinatorics/E0138/claims/2026_09_23_openai|its claim page]],
 on Lean declarations this corpus built and audited, and the open-ended request
-to improve the bounds stays open, with no upper bound touched. Four further
-results on the questions the site's entry records are claimed on their own
-pages: Campos, Fox and Schildkraut's lower bound $W(k)\ge(1-o(1))k2^{k-1}$,
-which also gives $W(k)/2^k\to\infty$
+to improve the bounds stays open, with no upper bound touched. Google
+DeepMind's $W(k+1)\ge W(k)+k$, found by its AlphaProof Nexus system, answers
+the difference question of [Er81] and is accepted as a partial claim on the
+refereed publication of the paper that reports it
+([[problems/additive_combinatorics/E0138/claims/2026_04_10_deepmind|claim page]];
+[[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_138_difference|library page]]).
+Three further results on the questions the site's entry records are claimed on
+their own pages: Campos, Fox and Schildkraut's lower bound
+$W(k)\ge(1-o(1))k2^{k-1}$, which also gives $W(k)/2^k\to\infty$
 ([[problems/additive_combinatorics/E0138/claims/2026_08_21_campos_fox_schildkraut|claim page]]);
 a Lean proof of $W(k)/2^k\to\infty$ in Meta's atlas-lean repository
 ([[problems/additive_combinatorics/E0138/claims/2026_08_28_meta|claim page]]);
-the DeepMind prover agent's $W(k+1)\ge W(k)+k$, which answers the difference
-question of [Er81]
-([[problems/additive_combinatorics/E0138/claims/2026_04_10_deepmind|claim page]]);
 and the notes that Nat Sothanaphan linked from the site's thread on 2026-04-10,
 written with GPT-5.4 Thinking, which refine the difference bound to
 $W_r(k+1)-W_r(k)\ge k+\min(k,F(r))+1$ for $r$ colors with an explicit
@@ -121,6 +124,8 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/additive_combinatorics/openai_2026_quantitative_superexponential_bounds_van_der_waerden_numbers/_index|openai_2026_quantitative_superexponential_bounds_van_der_waerden_numbers]]
 - [[../library/additive_combinatorics/openai_2026_quantitative_superexponential_bounds_van_der_waerden_numbers/corollary_7_3|openai_2026_quantitative_superexponential_bounds_van_der_waerden_numbers / corollary_7_3]]
 - [[../library/additive_combinatorics/openai_2026_quantitative_superexponential_bounds_van_der_waerden_numbers/theorem_1_1|openai_2026_quantitative_superexponential_bounds_van_der_waerden_numbers / theorem_1_1]]
+- [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search]]
+- [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_138_difference|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search / erdos_138_difference]]
 - [[../library/distance_problems/graham_1994_recent_trends_euclidean_ramsey_theory/_index|graham_1994_recent_trends_euclidean_ramsey_theory]]
 - [[../library/distance_problems/graham_1994_recent_trends_euclidean_ramsey_theory/conjecture_p127|graham_1994_recent_trends_euclidean_ramsey_theory / conjecture_p127]]
 - [[../library/ramsey_theory/beck_1980_remark_concerning_arithmetic_progressions/_index|beck_1980_remark_concerning_arithmetic_progressions]]
