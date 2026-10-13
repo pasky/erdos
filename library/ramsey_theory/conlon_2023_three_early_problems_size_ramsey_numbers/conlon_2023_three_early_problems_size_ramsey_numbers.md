@@ -708,7 +708,7 @@ We are grateful to Mehtaab Sawhney for suggesting the simplified proof of Lemma 
 - [7] D. Conlon, The Ramsey number of books, *Adv. Comb.* (2019), Paper No. 3, 12pp.
 - [8] D. Conlon, J. Fox, and B. Sudakov, Recent developments in graph Ramsey theory, in *Surveys in combinatorics 2015*, *London Math. Soc. Lecture Note Ser.*, vol. 424, Cambridge Univ. Press, Cambridge, 2015, 49–118.
 - [9] D. Conlon, J. Fox, and Y. Wigderson, Ramsey numbers of books and quasirandomness, *Combinatorica 42* (2022), 309–363.
-- [10] D. Conlon, J. Fox, and Y. Wigderson, Off-diagonal book Ramsey numbers, to appear in *Combin. Probab. Comput.* Preprint available at arXiv:2110.14483 \[math.CO\].
+- [10] D. Conlon, J. Fox, and Y. Wigderson, Off-diagonal book Ramsey numbers, to appear in *Combin. Probab. Comput.* Preprint available at arXiv:2110.14483 $$math.CO$$.
 - [11] D. Conlon and W. T. Gowers, Combinatorial theorems in sparse random sets, *Ann. of Math. 184* (2016), 367–454.
 
 [12] D. Conlon, R. Nenadov, and M. Trujić, The size-Ramsey number of cubic graphs, *Bull. London Math. Soc.* **54** (2022), 2135–2150.

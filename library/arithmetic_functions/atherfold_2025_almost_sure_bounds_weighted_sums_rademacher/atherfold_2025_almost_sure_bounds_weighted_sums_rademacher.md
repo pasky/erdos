@@ -126,15 +126,15 @@ $$
 M_f(x)\ll(\log\log(x))^{1/4+\epsilon}
 $$
 
-and for any \(V(x)\to\infty\), one can find arbitrarily large values of \(x\) such that
+and for any $V(x)\to\infty$, one can find arbitrarily large values of $x$ such that
 
 $$
 |M_f(x)|\geqslant\frac{(\log\log(x))^{1/4}}{V(x)}.
 $$
 
-However, this will not be an easy task, particularly in the lower bound since one will have to find a way to lower bound or discard the part of the sum where the \(n\) do not have a large prime factor (which as previously mentioned is rather difficult given the weight factor we have). Proving a lower bound with the restriction \(P(n)>\sqrt{x}\) should be doable by adapting the Harper’s large fluctuations result [Har23a]. Regardless, it appears that \(M_f(x)\) should diverge, with further evidence being provided by Aymone where he shows that \(M_f(x)\) has infinitely many sign changes [Aym24]. If one finds a divergent lower bound, then one could use it to prove a quantitative version of the result of Aymone. Another approach to this problem would be to implement the methods detailed in a recent paper of Klurman–Munsch–Lamzouri on sign changes in partial sums [KLM24].
+However, this will not be an easy task, particularly in the lower bound since one will have to find a way to lower bound or discard the part of the sum where the $n$ do not have a large prime factor (which as previously mentioned is rather difficult given the weight factor we have). Proving a lower bound with the restriction $P(n)>\sqrt{x}$ should be doable by adapting the Harper’s large fluctuations result [Har23a]. Regardless, it appears that $M_f(x)$ should diverge, with further evidence being provided by Aymone where he shows that $M_f(x)$ has infinitely many sign changes [Aym24]. If one finds a divergent lower bound, then one could use it to prove a quantitative version of the result of Aymone. Another approach to this problem would be to implement the methods detailed in a recent paper of Klurman–Munsch–Lamzouri on sign changes in partial sums [KLM24].
 
-Another motivation to study \(M_f(x)\) is its connection to forming large fluctuation bounds for unweighted sums of completely multiplicative Rademacher functions, which will be denoted by \(f^*(n)\). These are defined by setting \(f^*(p)\) as independent Rademacher random variables on primes \(p\) and defining \(f^*(n)\) completely multiplicatively. We then see that
+Another motivation to study $M_f(x)$ is its connection to forming large fluctuation bounds for unweighted sums of completely multiplicative Rademacher functions, which will be denoted by $f^*(n)$. These are defined by setting $f^*(p)$ as independent Rademacher random variables on primes $p$ and defining $f^*(n)$ completely multiplicatively. We then see that
 
 $$
 \sum_{n\leqslant x}f^*(n)=\sum_{ab^2\leqslant x}f^*(ab^2)=\sum_{a\leqslant x}f(a)\left(\sum_{b^2\leqslant x/a}1\right)=\sqrt{x}\sum_{a\leqslant x}\frac{f(a)}{\sqrt{a}}-\sum_{a\leqslant x}\left\{\sqrt{\frac{x}{a}}\right\}f(a). \tag{1.7}
@@ -146,9 +146,9 @@ $$
 \sum_{n\leqslant x}\frac{f^*(n)}{\sqrt{n}}=\sum_{ab^2\leqslant x}\frac{f^*(ab^2)}{b\sqrt{a}}=\sum_{b\leqslant\sqrt{x}}\frac{1}{b}\left(\sum_{a\leqslant x/b^2}\frac{f(a)}{\sqrt{a}}\right) \tag{1.8}
 $$
 
-where \(f(n)=f^*(n)\) when \(n\) is squarefree and is \(0\) otherwise. In particular, we can see that understanding the large fluctuations of \(\sum_{n\leqslant x}f^*(n)\) is intertwined with understanding the large fluctuations of \(M_f(x)\). The author does not know how one would attempt to handle the second sum because \(\{\sqrt{x/n}\}\) is known to have particularly difficult behaviour to control, on top of the fact it would break the multiplicative structure which current proofs use to study \(\sum_{n\leqslant x}f(n)\). While not as significant to understand, equation (1.8) is enough to provide an almost sure upper bound when combined with Theorem 1.
+where $f(n)=f^*(n)$ when $n$ is squarefree and is $0$ otherwise. In particular, we can see that understanding the large fluctuations of $\sum_{n\leqslant x}f^*(n)$ is intertwined with understanding the large fluctuations of $M_f(x)$. The author does not know how one would attempt to handle the second sum because $\{\sqrt{x/n}\}$ is known to have particularly difficult behaviour to control, on top of the fact it would break the multiplicative structure which current proofs use to study $\sum_{n\leqslant x}f(n)$. While not as significant to understand, equation (1.8) is enough to provide an almost sure upper bound when combined with Theorem 1.
 
-**Corollary 1.** Let \(\epsilon>0\). Then we have almost surely,
+**Corollary 1.** Let $\epsilon>0$. Then we have almost surely,
 
 $$
 \sum_{n\leqslant x}\frac{f^*(n)}{\sqrt{n}}\ll\log(x)(\log\log(x))^{3/4+\epsilon}.

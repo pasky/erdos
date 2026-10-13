@@ -317,7 +317,7 @@ $$
 $$
 
 The final assertion follows by discarding the nonnegative term $|E\setminus C(B_h)|$.
-\(\square\)
+$\square$
 
 ## 4. THE UPPER BOUND
 

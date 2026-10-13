@@ -182,7 +182,7 @@ Figure 1 separates the admission decision at an upper node from the later choic
 
 **Figure 1:** Admission and stopping have different roles. Only selected branches are drawn, with $q,q',u<p$. At the upper node, admission is the test $r_{dp}-x(v)\ge\mathcal H(x(v))$ for the prospective prime $v$. The omitted child $dpu$ does not belong to the included tree. The admitted child $dpq$ is shown as a member of a separately chosen, prefix-free set of lower stops; its descendants are replaced by its exact survivor count. Other included lower nodes continue to expand. The specific stop rule is given in Section 10.
 
-(154,98) (77,89)(0,0) (77,79)(0,-1)15 (81,71)(0,0)\[l\]$p$ (77,54)(0,0) (69,45)(-4,-1)43 (77,44)(0,-1)12 (85,45)(4,-1)43 (46,37)(0,0)$q$ (81,38)(0,0)\[l\]$q'$ (110,37)(0,0)$u$ (26,19)(0,0) (77,19)(0,0) (105,9.5)
+(154,98) (77,89)(0,0) (77,79)(0,-1)15 (81,71)(0,0)$$l$$$p$ (77,54)(0,0) (69,45)(-4,-1)43 (77,44)(0,-1)12 (85,45)(4,-1)43 (46,37)(0,0)$q$ (81,38)(0,0)$$l$$$q'$ (110,37)(0,0)$u$ (26,19)(0,0) (77,19)(0,0) (105,9.5)
 
 (46,19)
 

@@ -2846,7 +2846,7 @@ $$
 \lim_{s\to\infty}\frac{|W_{s,k,C}|}{N_s-H_s+1}=1. \tag{8.27}
 $$
 
-The sets \(W_{s,k,C}\) satisfy \(W_{s,k,1}\supseteq W_{s,k,2}\supseteq\ldots\), so it suffices to prove the claim for large \(C\). We will show that
+The sets $W_{s,k,C}$ satisfy $W_{s,k,1}\supseteq W_{s,k,2}\supseteq\ldots$, so it suffices to prove the claim for large $C$. We will show that
 
 $$
 W_{s,k,C}\supseteq
@@ -2854,7 +2854,7 @@ W_{s,k,C}\supseteq
 V_{s,w_1,\ldots,w_{d_k^*},C}
 $$
 
-for \(C\geq 4\) and \(s\) sufficiently large (depending on \(C\)), from which the claim the follows by applying (8.26). Fix \(n\in V_{s,w_1,\ldots,w_{d_k^*},C}\), and let \(\beta=\sum_{i=1}^{d_k^*}w_i\alpha_{k,i}\). We want to show (assuming \(s\) is sufficiently large) that either \(\|\beta\|_{\mathbb{T}}\leq\frac{1}{CH_s}\) or \(\|\beta\|_{\mathbb{T}}\geq\frac{C}{H_s}\). Suppose for contradiction that \(\frac{1}{CH_s}<\|\beta\|_{\mathbb{T}}<\frac{C}{H_s}\). Then
+for $C\geq 4$ and $s$ sufficiently large (depending on $C$), from which the claim the follows by applying (8.26). Fix $n\in V_{s,w_1,\ldots,w_{d_k^*},C}$, and let $\beta=\sum_{i=1}^{d_k^*}w_i\alpha_{k,i}$. We want to show (assuming $s$ is sufficiently large) that either $\|\beta\|_{\mathbb{T}}\leq\frac{1}{CH_s}$ or $\|\beta\|_{\mathbb{T}}\geq\frac{C}{H_s}$. Suppose for contradiction that $\frac{1}{CH_s}<\|\beta\|_{\mathbb{T}}<\frac{C}{H_s}$. Then
 
 $$
 \left|\frac{1}{C^2H_s}\sum_{h=1}^{C^2H_s}e(h\beta)\right|

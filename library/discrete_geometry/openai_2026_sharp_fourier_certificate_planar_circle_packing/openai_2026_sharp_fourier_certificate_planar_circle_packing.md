@@ -444,7 +444,7 @@ Fix one of the specified triples $(i,m,y)$. For $s=m+u$ in its interval, we will
 
 **Figure 1:** Interpolation nodes (dots) and adjacent gap midpoints (short marks) in the squared-radius coordinate. Each node-to-midpoint segment is a half-gap. The finite sign certificates control a Taylor quotient on each whole half-gap; a separate argument covers the remaining unbounded region.
 
-(14,2.35) (0,1.2)(1,0)13.4 (13.6,1.05)$s$ (0,1.2) (1,1.2) (3,1.2) (4,1.2) (7,1.2) (9,1.2) (12,1.2) (13,1.2) (0,.65)(0,0)$0$ (1,.65)(0,0)$1$ (3,.65)(0,0)$3$ (4,.65)(0,0)$4$ (7,.65)(0,0)$7$ (9,.65)(0,0)$9$ (12,.65)(0,0)$12$ (13,.65)(0,0)$13$ (.5,1.05)(0,1).3 (2,1.05)(0,1).3 (3.5,1.05)(0,1).3 (5.5,1.05)(0,1).3 (8,1.05)(0,1).3 (10.5,1.05)(0,1).3 (12.5,1.05)(0,1).3 (4,1.8)(1,0)1.5 (4,1.65)(0,1).3 (5.5,1.65)(0,1).3 (6,1.8)(0,0)\[l\]one half-gap
+(14,2.35) (0,1.2)(1,0)13.4 (13.6,1.05)$s$ (0,1.2) (1,1.2) (3,1.2) (4,1.2) (7,1.2) (9,1.2) (12,1.2) (13,1.2) (0,.65)(0,0)$0$ (1,.65)(0,0)$1$ (3,.65)(0,0)$3$ (4,.65)(0,0)$4$ (7,.65)(0,0)$7$ (9,.65)(0,0)$9$ (12,.65)(0,0)$12$ (13,.65)(0,0)$13$ (.5,1.05)(0,1).3 (2,1.05)(0,1).3 (3.5,1.05)(0,1).3 (5.5,1.05)(0,1).3 (8,1.05)(0,1).3 (10.5,1.05)(0,1).3 (12.5,1.05)(0,1).3 (4,1.8)(1,0)1.5 (4,1.65)(0,1).3 (5.5,1.65)(0,1).3 (6,1.8)(0,0)$$l$$one half-gap
 
 The tabulated function $\widetilde H_i$ approximates $H_i$ but need not reproduce its exact zero and slope at a node. We therefore compare the exact quotient with the Taylor series of $\widetilde H_i$ after deleting the terms of orders below $\nu$. Put $\Delta_i=H_i-\widetilde H_i$. Since $\widetilde H_i$ is entire and the lower derivatives of $H_i$ vanish, this Taylor series gives $$\begin{align}
  &\frac{\sigma_i H_i(m+u)}{u^\nu}
@@ -761,11 +761,11 @@ Table 2 gives the coefficients at every node of $I_f=\mathcal N\cap[1,100]$. It
 <table>
 <thead>
 <tr>
-<th style="text-align: right;"><span class="math inline">\(n\)</span></th>
-<th style="text-align: right;"><span class="math inline">\(10^{10}\widetilde c_{1,n}\)</span></th>
-<th style="text-align: right;"><span class="math inline">\(10^{10}\widetilde d_{1,n}\)</span></th>
-<th style="text-align: right;"><span class="math inline">\(10^{10}\widetilde c_{2,n}\)</span></th>
-<th style="text-align: right;"><span class="math inline">\(10^{10}\widetilde d_{2,n}\)</span></th>
+<th style="text-align: right;"><span class="math inline">$n$</span></th>
+<th style="text-align: right;"><span class="math inline">$10^{10}\widetilde c_{1,n}$</span></th>
+<th style="text-align: right;"><span class="math inline">$10^{10}\widetilde d_{1,n}$</span></th>
+<th style="text-align: right;"><span class="math inline">$10^{10}\widetilde c_{2,n}$</span></th>
+<th style="text-align: right;"><span class="math inline">$10^{10}\widetilde d_{2,n}$</span></th>
 </tr>
 </thead>
 <tbody>

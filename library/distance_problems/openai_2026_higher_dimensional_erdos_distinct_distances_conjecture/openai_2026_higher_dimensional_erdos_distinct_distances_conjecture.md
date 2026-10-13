@@ -2112,7 +2112,7 @@ Szemerédi, Endre, and William T. Trotter Jr. 1983. “Extremal Problems in Disc
 
 The Stacks Project Authors. 2026. *The Stacks Project*. <https://stacks.math.columbia.edu>.
 
-Tidor, Jonathan, Hung-Hsun Hans Yu, and Dmitrii Zakharov. 2026. *The Erdős Distinct Distances Problem in $\mathbb{R}^3$*. Preprint, arXiv:2608.14454v1 \[math.CO\]. <https://doi.org/10.48550/arXiv.2608.14454>.
+Tidor, Jonathan, Hung-Hsun Hans Yu, and Dmitrii Zakharov. 2026. *The Erdős Distinct Distances Problem in $\mathbb{R}^3$*. Preprint, arXiv:2608.14454v1 $$math.CO$$. <https://doi.org/10.48550/arXiv.2608.14454>.
 
 Walsh, Miguel N. 2020. “The Polynomial Method over Varieties.” *Inventiones Mathematicae* 222 (2): 469–512. <https://doi.org/10.1007/s00222-020-00975-6>.
 

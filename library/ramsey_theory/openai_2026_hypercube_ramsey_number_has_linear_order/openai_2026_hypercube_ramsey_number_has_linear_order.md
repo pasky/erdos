@@ -1285,7 +1285,7 @@ The factor $a_\xi$ is obtained by disintegrating this raw experiment. In particu
        +O(hs)+2\delta hs\log n
  <.003hs\log n.$$ The second denominator costs at most one further factor $\varepsilon_0^{-1}$.
 
-Let $q$ be the average coordinate marginal of this tuple posterior and $\mathcal H=\{y:Nq(y)>e^{.01s\log n}\}$. Then $|\mathcal H|/N\le e^{-.01s\log n}$, and the joint density cap implies $$\Pr(\text{at least \(h/2\) coordinates lie in }\mathcal H)
+Let $q$ be the average coordinate marginal of this tuple posterior and $\mathcal H=\{y:Nq(y)>e^{.01s\log n}\}$. Then $|\mathcal H|/N\le e^{-.01s\log n}$, and the joint density cap implies $$\Pr(\text{at least $h/2$ coordinates lie in }\mathcal H)
  \le 2^h e^{.003hs\log n}(|\mathcal H|/N)^{h/2}
  =o(1).$$ It follows that $q(\mathcal H)\le1/2+o(1)$. Delete $\mathcal H$ and normalize; the normalization factor is bounded by a constant. Denote this law by $p^0_{g,a}$, setting it to zero on invalid presentations.
 

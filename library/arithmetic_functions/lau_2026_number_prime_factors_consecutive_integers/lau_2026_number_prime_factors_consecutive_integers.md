@@ -1889,8 +1889,8 @@ w,&\text{if }K<k\leq x^{1/100}.
 \end{cases}
 $$
 
-Suppose \(k_{\ast}\) satisfies \(2 \leq k_{\ast} \leq K_{+}\), and let \(j\) be an integer satisfying \(1 \leq j \leq s \leq A\log k_{\ast}\),  
-\(a_1,\ldots,a_j \geq 2\) be integers and \(p_1,\ldots,p_j\) be prime numbers satisfying
+Suppose $k_{\ast}$ satisfies $2 \leq k_{\ast} \leq K_{+}$, and let $j$ be an integer satisfying $1 \leq j \leq s \leq A\log k_{\ast}$,  
+$a_1,\ldots,a_j \geq 2$ be integers and $p_1,\ldots,p_j$ be prime numbers satisfying
 
 $$
 w < p_1,\ldots,p_j \leq T.
@@ -1902,7 +1902,7 @@ $$
 \nu(n)=\mathbb{1}_{n\in[x,2x]}\mathbb{1}_{W\mid n}\prod_{k=1}^{K}\left(\sum_{\substack{(d,P(w))=1\\ d\mid n+k}}\mu(d)\widetilde{\eta}\left(\frac{\log d}{\log R_k}\right)\right)^2.
 $$
 
-and let \(P_{k_\ast}(d_\ast):=\sum_n\nu(n)\mathbb{1}_{d_\ast\mid n+k_\ast}\) and \(P_{k_\ast}(1):=\sum_n\nu(n)\). We define the random variable \(\mathbf{n}\) taking values in \([x,2x]\) by drawing \(n\) from \([x,2x]\) with probability density \(\nu(n)/P_{k_\ast}(1)\). Then,
+and let $P_{k_\ast}(d_\ast):=\sum_n\nu(n)\mathbb{1}_{d_\ast\mid n+k_\ast}$ and $P_{k_\ast}(1):=\sum_n\nu(n)$. We define the random variable $\mathbf{n}$ taking values in $[x,2x]$ by drawing $n$ from $[x,2x]$ with probability density $\nu(n)/P_{k_\ast}(1)$. Then,
 
 $$
 \mathbb{P}(p_1^{a_1}\cdots p_j^{a_j}\mid\mathbf{n}+k)=\frac{P_{k_\ast}(p_1^{a_1}\cdots p_j^{a_j})}{P_{k_\ast}(1)}=\frac{\mathbb{P}(p_1\cdots p_j\mid\mathbf{n}+k)}{p_1^{a_1-1}\cdots p_j^{a_j-1}}+O(x^{-0.1}).
@@ -1932,20 +1932,20 @@ $$
 \sum_n f(n)\nu(n)\ll\frac{x^{0.9}}{W\prod_{k=1}^{K}\log R_k}\left(c_0\frac{W}{\varphi(W)}\right)^K.
 $$
 
-Expanding \(\nu(n)\) and interchanging summations, the left-hand side becomes
+Expanding $\nu(n)$ and interchanging summations, the left-hand side becomes
 
 $$
 \sum_{\substack{d_1,\ldots,d_K\\ d'_1,\ldots,d'_K\\ (d_i,P(w))=(d'_i,P(w))=1\ \forall i}}\left(\prod_{k=1}^{K}\mu(d_k)\mu(d'_k)\widetilde{\eta}\left(\frac{\log d_k}{\log R_k}\right)\widetilde{\eta}\left(\frac{\log d'_k}{\log R_k}\right)\right)\sum_{n\in[x,2x]}f(n)\mathbb{1}_{W\mid n}\prod_{k=1}^{K}\mathbb{1}_{[d_k,d'_k]\mid n+k}.
 \tag{6.12}
 $$
 
-The product of indicator functions either vanishes identically, or restricts \(n\) to a residue class modulo
+The product of indicator functions either vanishes identically, or restricts $n$ to a residue class modulo
 
 $$
 q:=W\,\mathrm{lcm}\bigl([d_1,d'_1],\ldots,[d_K,d'_K]\bigr),
 $$
 
-with \(q\leq x^{0.7}\). We will show that the inner sum is \(O(1)\). For the sum to contribute non-trivially, note that \(d_k\) and \(d'_k\) are squarefree. For each \(1\leq k\leq K\), let \(I_k\subseteq\{1,\ldots,j\}\) be the maximal subset such that \(\prod_{i\in I_k}p_i\mid[d_k,d'_k]\), and let \(I:=\bigcup_{1\leq k\leq K}I_k\). Let \(P'=p_1^{a_1}\cdots p_j^{a_j}/\prod_{i\in I}p_i\), and note that
+with $q\leq x^{0.7}$. We will show that the inner sum is $O(1)$. For the sum to contribute non-trivially, note that $d_k$ and $d'_k$ are squarefree. For each $1\leq k\leq K$, let $I_k\subseteq\{1,\ldots,j\}$ be the maximal subset such that $\prod_{i\in I_k}p_i\mid[d_k,d'_k]$, and let $I:=\bigcup_{1\leq k\leq K}I_k$. Let $P'=p_1^{a_1}\cdots p_j^{a_j}/\prod_{i\in I}p_i$, and note that
 
 $$
 P'=\frac{p_1^{a_1-1}\cdots p_j^{a_j-1}}{\prod_{i\in I}p_i/p_1\cdots p_j}=p_1^{a_1-1}\cdots p_j^{a_j-1}\prod_{i\notin I}p_i.

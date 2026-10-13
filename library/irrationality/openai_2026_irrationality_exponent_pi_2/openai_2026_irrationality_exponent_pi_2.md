@@ -550,19 +550,19 @@ If $a\le1$, including the boundary $a=1$, then $|\sin n|\le1$ compares the serie
 
 ## References
 
-Alekseyev, Max A. 2011. *On Convergence of the Flint Hills Series*. arXiv:1104.5100v1 \[math.CA\]. <https://arxiv.org/abs/1104.5100v1>.
+Alekseyev, Max A. 2011. *On Convergence of the Flint Hills Series*. arXiv:1104.5100v1 $$math.CA$$. <https://arxiv.org/abs/1104.5100v1>.
 
-Bai, Yufei. 2026. *The Irrationality Measure of $\pi$ Is at Most $7.101862832357$*. arXiv:2609.11276v2 \[math.NT\]. <https://doi.org/10.48550/arXiv.2609.11276>.
+Bai, Yufei. 2026. *The Irrationality Measure of $\pi$ Is at Most $7.101862832357$*. arXiv:2609.11276v2 $$math.NT$$. <https://doi.org/10.48550/arXiv.2609.11276>.
 
-Carella, N. A. 2022. *Irrationality Measure of Pi*. arXiv:1902.08817v10 \[math.GM\]. <https://doi.org/10.48550/arXiv.1902.08817>.
+Carella, N. A. 2022. *Irrationality Measure of Pi*. arXiv:1902.08817v10 $$math.GM$$. <https://doi.org/10.48550/arXiv.1902.08817>.
 
 Chudnovsky, G. V. 1982. “Hermite–Padé Approximations to Exponential Functions and Elementary Estimates of the Measure of Irrationality of $\pi$.” In *The Riemann Problem, Complete Integrability and Arithmetic Applications*, edited by D. V. Chudnovsky and G. V. Chudnovsky, vol. 925. Lecture Notes in Mathematics. Springer. <https://doi.org/10.1007/BFb0093516>.
 
-Dan, Yuya. 2026. *Critical Convergence and Hausdorff Measures for Generalized Flint Hills Series*. arXiv:2609.12338v1 \[math.NT\]. <https://doi.org/10.48550/arXiv.2609.12338>.
+Dan, Yuya. 2026. *Critical Convergence and Hausdorff Measures for Generalized Flint Hills Series*. arXiv:2609.12338v1 $$math.NT$$. <https://doi.org/10.48550/arXiv.2609.12338>.
 
 Demailly, Jean-Pierre. 1992. “Singular Hermitian Metrics on Positive Line Bundles.” In *Complex Algebraic Varieties*, edited by Klaus Hulek, Thomas Peternell, Michael Schneider, and Frank-Olaf Schreyer, vol. 1507. Lecture Notes in Mathematics. Springer. <https://doi.org/10.1007/BFb0094512>.
 
-Farhi, Bakir. 2006. *Un Lemme de Roth Sur Les Groupes Algébriques Commutatifs*. arXiv:math/0603257v1 \[math.NT\]. <https://arxiv.org/abs/math/0603257v1>.
+Farhi, Bakir. 2006. *Un Lemme de Roth Sur Les Groupes Algébriques Commutatifs*. arXiv:math/0603257v1 $$math.NT$$. <https://arxiv.org/abs/math/0603257v1>.
 
 Hata, Masayoshi. 1993. “Rational Approximations to $\pi$ and Some Other Numbers.” *Acta Arithmetica* 63 (4): 335–49. <https://doi.org/10.4064/aa-63-4-335-349>.
 
@@ -572,17 +572,17 @@ Laurent, Michel. 2000. “Interpolation Determinants of Exponential Polynomials.
 
 Lazarsfeld, Robert. 2004. *Positivity in Algebraic Geometry I: Classical Setting: Line Bundles and Linear Series*. Vol. 48. Ergebnisse Der Mathematik Und Ihrer Grenzgebiete, 3. Folge. Springer-Verlag. <https://doi.org/10.1007/978-3-642-18808-4>.
 
-López Zapata, Carlos H. 2026. *A Continued-Fraction Criterion for the Flint Hills Series, and the Integer Sequences It Generates*. arXiv:2603.09719v5 \[math.GM\]. <https://doi.org/10.48550/arXiv.2603.09719>.
+López Zapata, Carlos H. 2026. *A Continued-Fraction Criterion for the Flint Hills Series, and the Integer Sequences It Generates*. arXiv:2603.09719v5 $$math.GM$$. <https://doi.org/10.48550/arXiv.2603.09719>.
 
 Mahler, Kurt. 1953. “On the Approximation of $\pi$.” *Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen, Series A* 56: 30–42. <https://ems.press/books/dms/252/4986>.
 
-Mantzakouras, Nikos, and Carlos López Zapata. 2025. *Diophantine FLINT-HILLS Series*. arXiv:2502.03474v2 \[math.GM\]. <https://doi.org/10.48550/arXiv.2502.03474>.
+Mantzakouras, Nikos, and Carlos López Zapata. 2025. *Diophantine FLINT-HILLS Series*. arXiv:2502.03474v2 $$math.GM$$. <https://doi.org/10.48550/arXiv.2502.03474>.
 
-Meiburg, Alex. 2022. *Bounds on Irrationality Measures and the Flint-Hills Series*. arXiv:2208.13356v1 \[math.NT\]. <https://arxiv.org/abs/2208.13356v1>.
+Meiburg, Alex. 2022. *Bounds on Irrationality Measures and the Flint-Hills Series*. arXiv:2208.13356v1 $$math.NT$$. <https://arxiv.org/abs/2208.13356v1>.
 
 Mignotte, Maurice. 1974. “Approximations Rationnelles de $\pi$ Et Quelques Autres Nombres.” In *Journées Arithmétiques (Grenoble, 1973)*. Bulletin de La Société Mathématique de France. Mémoire 37. Société mathématique de France. <https://doi.org/10.24033/msmf.139>.
 
-Mondal, Pinaki. 2021. *How Many Zeroes? Counting the Number of Solutions of Systems of Polynomials via Geometry at Infinity (Draft III)*. arXiv:1806.05346v5 \[math.AG\]. <https://arxiv.org/abs/1806.05346v5>.
+Mondal, Pinaki. 2021. *How Many Zeroes? Counting the Number of Solutions of Systems of Polynomials via Geometry at Infinity (Draft III)*. arXiv:1806.05346v5 $$math.AG$$. <https://arxiv.org/abs/1806.05346v5>.
 
 Philippon, Patrice. 1986. “Lemmes de zéros Dans Les Groupes Algébriques Commutatifs.” *Bulletin de La Société Mathématique de France* 114: 355–83. <https://doi.org/10.24033/bsmf.2060>.
 
@@ -598,6 +598,6 @@ Waldschmidt, Michel. 2004. “Open Diophantine Problems.” *Moscow Mathematical
 
 Zeilberger, Doron, and Wadim Zudilin. 2020. “The Irrationality Measure of $\pi$ Is at Most 7.103205334137….” *Moscow Journal of Combinatorics and Number Theory* 9 (4): 407–19. <https://doi.org/10.2140/moscow.2020.9.407>.
 
-Zudilin, Wadim. 2004. *An Essay on Irrationality Measures of $\pi$ and Other Logarithms*. arXiv:math/0404523 \[math.NT\]. <https://arxiv.org/abs/math/0404523>.
+Zudilin, Wadim. 2004. *An Essay on Irrationality Measures of $\pi$ and Other Logarithms*. arXiv:math/0404523 $$math.NT$$. <https://arxiv.org/abs/math/0404523>.
 
 [^1]: In the notation of (Carella 2022, Theorem 8.1, Equations (52) and (55)), let $C=p_{n+1}-\pi q_{n+1}-1/q_n$. The convergent estimate $\lvert p_{n+1}-\pi q_{n+1}\rvert<1/q_{n+2}<1/q_n$ gives $-2/q_n<C<0$. Thus $\sin C<0$ for large $n$, contrary to the positive lower bound in that argument. This objection concerns the displayed proof of the stronger assertion; it does not decide the exponent-two claim or the truth of the stronger conclusion.

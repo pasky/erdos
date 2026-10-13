@@ -684,9 +684,9 @@ $$
 = c'_q(S_{\mathcal{P}}f)^q,
 $$
 
-which proves the second inequality from clause (1) upon integration over \(t \in [0,1]\).
+which proves the second inequality from clause (1) upon integration over $t \in [0,1]$.
 
-To prove the first inequality in clause (1), we appeal to duality. Let \(q'\) be the dual exponent to \(q\) and take a trigonometric polynomial \(g\) such that \(\|g\|_{L^{q'}}=1\). By orthogonality and the triangle inequality,
+To prove the first inequality in clause (1), we appeal to duality. Let $q'$ be the dual exponent to $q$ and take a trigonometric polynomial $g$ such that $\|g\|_{L^{q'}}=1$. By orthogonality and the triangle inequality,
 
 $$
 |\langle f,g\rangle| \leq \int_0^1 \sum_{P\in\mathcal{P}} \left|\sum_{n\in P}\widehat{f}(n)e(nt)\right|\left|\sum_{n\in P}\widehat{g}(n)e(nt)\right|\,dt.
@@ -698,27 +698,27 @@ $$
 \langle S_{\mathcal{P}}f,S_{\mathcal{P}}g\rangle \leq \|S_{\mathcal{P}}f\|_{L^q}\|S_{\mathcal{P}}g\|_{L^{q'}} \leq C_{q'}\|S_{\mathcal{P}}f\|_{L^q},
 $$
 
-where in the last estimate we have applied Hölder’s inequality and the second inequality from clause (1) to \(g\).
+where in the last estimate we have applied Hölder’s inequality and the second inequality from clause (1) to $g$.
 
-\(\square\)
+$\square$
 
 Here we remark that, using the last part of the above proof, it will generally suffice to prove the second inequality from clause (1), whence the first can be derived from duality.
 
 The reason for introducing the multiplier formulation is that it is well-suited to iteration, allowing us to prove the following.
 
-LEMMA 5.5. *Let \(q \geq 1\) and suppose \(\mathcal{P}_1\) and \(\mathcal{P}_2\) are two partitions of \(\mathbb{Z}\) such that for any trigonometric polynomial \(f\),*
+LEMMA 5.5. *Let $q \geq 1$ and suppose $\mathcal{P}_1$ and $\mathcal{P}_2$ are two partitions of $\mathbb{Z}$ such that for any trigonometric polynomial $f$,*
 
 $$
 \|S_{\mathcal{P}_j}f\|_{L^q} \leq C_q(\mathcal{P}_j)\|f\|_{L^q}, \quad j=1,2.
 $$
 
-*Then if \(\mathcal{P}=\{P_1\cap P_2:P_1\in\mathcal{P}_1,P_2\in\mathcal{P}_2\}\), there is a constant \(C_q(\mathcal{P})\) such that*
+*Then if $\mathcal{P}=\{P_1\cap P_2:P_1\in\mathcal{P}_1,P_2\in\mathcal{P}_2\}$, there is a constant $C_q(\mathcal{P})$ such that*
 
 $$
 \|S_{\mathcal{P}}f\|_{L^q} \leq C_q(\mathcal{P})\|f\|_{L^q}.
 $$
 
-*Proof.* First, assume \(q \geq 2\). Let \(\varepsilon:\mathbb{Z}\to\{-1,1\}\) be a function which is constant on the parts of \(\mathcal{P}_2\), and suppose \(f\) is a trigonometric polynomial. By hypothesis and Lemma 5.4, there is a positive constant \(C\) such that
+*Proof.* First, assume $q \geq 2$. Let $\varepsilon:\mathbb{Z}\to\{-1,1\}$ be a function which is constant on the parts of $\mathcal{P}_2$, and suppose $f$ is a trigonometric polynomial. By hypothesis and Lemma 5.4, there is a positive constant $C$ such that
 
 $$
 \|f_\varepsilon\|_{L^q}\leq C\|f\|_{L^q},
@@ -736,7 +736,7 @@ $$
 (S_{\mathcal{P}_1}f_\varepsilon(t))^2=\sum_{P_1\in\mathcal{P}_1}\sum_{n,m\in P_1}\varepsilon(n)\varepsilon(m)\widehat{f}(n)\overline{\widehat{f}(m)}e((n-m)t),
 $$
 
-and taking expectation over \(\varepsilon\) yields
+and taking expectation over $\varepsilon$ yields
 
 $$
 \mathbb{E}_{\varepsilon}((S_{\mathcal{P}_1}f_\varepsilon(t))^2)=\sum_{P_1\in\mathcal{P}_1}\sum_{P_2,P'_2\in\mathcal{P}_2}\sum_{\substack{n,m\in P_1\\ n\in P_2,m\in P'_2}}\mathbb{E}_{\varepsilon}(\varepsilon(n)\varepsilon(m))\widehat{f}(n)\overline{\widehat{f}(m)}e((n-m)t).

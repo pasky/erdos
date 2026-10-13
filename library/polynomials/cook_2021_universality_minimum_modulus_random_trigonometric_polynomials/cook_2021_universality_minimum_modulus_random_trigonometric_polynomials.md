@@ -539,27 +539,27 @@ $$
 
 ### 3.2 Non-degeneracy of the covariance matrix
 
-As a first step towards controlling the distribution of \(S_n(\boldsymbol{t})\) we need to show that the random walk is genuinely \(4m\)-dimensional, which amounts to showing the covariance matrix \(W_{[-n,n]}^{\mathsf{T}}W_{[-n,n]}\) has smallest singular value of order \(n\). This is accomplished by the following lemma, under the (necessary) assumption that the points \(t_1,\ldots,t_m\) are spread.
+As a first step towards controlling the distribution of $S_n(\boldsymbol{t})$ we need to show that the random walk is genuinely $4m$-dimensional, which amounts to showing the covariance matrix $W_{[-n,n]}^{\mathsf{T}}W_{[-n,n]}$ has smallest singular value of order $n$. This is accomplished by the following lemma, under the (necessary) assumption that the points $t_1,\ldots,t_m$ are spread.
 
-**Lemma 3.6.** *Let \(J\subset[n]\) be an interval with \(|J|\gg n\). If \(\boldsymbol{t}=(t_1,\ldots,t_m)\in\mathbb{R}^m\) is \(\lambda\)-spread for some \(\lambda>0\), then*
+**Lemma 3.6.** *Let $J\subset[n]$ be an interval with $|J|\gg n$. If $\boldsymbol{t}=(t_1,\ldots,t_m)\in\mathbb{R}^m$ is $\lambda$-spread for some $\lambda>0$, then*
 
 $$
 \|W_J(\boldsymbol{t})u\|_2^2\gg_m\min(\lambda,1)^{6m-3}n
 $$
 
-*uniformly over unit vectors \(u\in S^{4m-1}\).*
+*uniformly over unit vectors $u\in S^{4m-1}$.*
 
-**Remark 3.7.** We note that for the case \(\xi_j\sim\mathcal{N}_{\mathbb{R}}(0,1)\), the above control on the covariance matrix is enough to deduce an optimal small ball estimate at all scales. For general distributions we need Theorem 3.1, the proof of which amounts to showing that for \(v\) of size \(n^{O(1)}\), the vector \(W_J(\boldsymbol{t})v\) avoid the *lattice* \(\mathbb{Z}^n\), rather than just the origin as above. The proof below can be read as a warmup to the more technical proof of Theorem 3.1, where a similar (but more complicated) differencing strategy is used.
+**Remark 3.7.** We note that for the case $\xi_j\sim\mathcal{N}_{\mathbb{R}}(0,1)$, the above control on the covariance matrix is enough to deduce an optimal small ball estimate at all scales. For general distributions we need Theorem 3.1, the proof of which amounts to showing that for $v$ of size $n^{O(1)}$, the vector $W_J(\boldsymbol{t})v$ avoid the *lattice* $\mathbb{Z}^n$, rather than just the origin as above. The proof below can be read as a warmup to the more technical proof of Theorem 3.1, where a similar (but more complicated) differencing strategy is used.
 
-**Remark 3.8.** We point out that if \(\lambda\) is growing with \(n\), it is not hard to show by computations similar to [KS99, Lemma 3.2] that \(\frac{1}{|J|}W_J(\boldsymbol{t})^{\mathsf{T}}W_J(\boldsymbol{t})\) asymptotically splits into \(m\) well-conditioned blocks. However, when \(\lambda\) is bounded or shrinking with \(n\) the covariance matrix becomes increasingly degenerate. We note that [KS99, Lemma 3.2] also contains estimates for the covariance matrix of the real and imaginary parts of \(P_n(t)\) at a single point \(t\) that is only \(n^{-1/2}\)-spread. In principle it should be possible to extend those arguments to the above setting with \(m>1\) and additional columns for \(P_n'\); however, this appears to involve technical case analysis, and in the end we do not think it would lead to a significantly shorter proof than the one given below.
+**Remark 3.8.** We point out that if $\lambda$ is growing with $n$, it is not hard to show by computations similar to [KS99, Lemma 3.2] that $\frac{1}{|J|}W_J(\boldsymbol{t})^{\mathsf{T}}W_J(\boldsymbol{t})$ asymptotically splits into $m$ well-conditioned blocks. However, when $\lambda$ is bounded or shrinking with $n$ the covariance matrix becomes increasingly degenerate. We note that [KS99, Lemma 3.2] also contains estimates for the covariance matrix of the real and imaginary parts of $P_n(t)$ at a single point $t$ that is only $n^{-1/2}$-spread. In principle it should be possible to extend those arguments to the above setting with $m>1$ and additional columns for $P_n'$; however, this appears to involve technical case analysis, and in the end we do not think it would lead to a significantly shorter proof than the one given below.
 
-*Proof of Lemma 3.6.* Without loss of generality we may assume \(\lambda\in(0,1)\). Fix a vector \(u=(u^1,u^2,u^3,u^4)\in S^{4m-1}\). The \(j\)th entry of \(W_J(\boldsymbol{t})u\) is
+*Proof of Lemma 3.6.* Without loss of generality we may assume $\lambda\in(0,1)$. Fix a vector $u=(u^1,u^2,u^3,u^4)\in S^{4m-1}$. The $j$th entry of $W_J(\boldsymbol{t})u$ is
 
 $$
 \langle\boldsymbol{w}_j,u\rangle=\sum_{r=1}^{m}u_r^1\sin(jt_r/n)+u_r^2(j/n)\cos(jt_r/n)+u_r^3\cos(jt_r/n)-u_r^4(j/n)\sin(jt_r/n).
 $$
 
-Substituting \(\cos(jt_r/n)=\frac{1}{2}(e_n(jt_r)+e_n(-jt_r))\) and \(\sin(jt_r/n)=-\frac{\sqrt{-1}}{2}(e_n(jt_r)-e_n(-jt_r))\), the above becomes
+Substituting $\cos(jt_r/n)=\frac{1}{2}(e_n(jt_r)+e_n(-jt_r))$ and $\sin(jt_r/n)=-\frac{\sqrt{-1}}{2}(e_n(jt_r)-e_n(-jt_r))$, the above becomes
 
 $$
 \begin{aligned}
@@ -752,7 +752,7 @@ $$
 \|Mv\|_2^2\geq\sum_{k=1}^{n_0}\|M_{k+P}v\|_2^2\gg_d n_0\lambda_0^{2d-2}\gg_d\lambda_0^{3d-3}n
 $$
 
-giving (3.4) as desired. \(\square\)
+giving (3.4) as desired. $\square$
 
 ## 4 Proof of Proposition 2.7
 

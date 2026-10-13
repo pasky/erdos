@@ -384,7 +384,7 @@ $$
 \lambda(I(\mathbf{x}))\geq\frac{1}{2\pi}\left(\frac{2\pi\ell}{p}-\frac{2}{\sqrt{K}}\right)-\lambda(\overline{J(\mathbf{x})})\geq\frac{\ell}{p}-\frac{1}{\sqrt{K}}.
 $$
 
-\(\blacksquare\)
+$\blacksquare$
 
 Fix a vertex $\mathbf{w}\in W$ and let $Z_{\mathbf{w}}$ be as in (7). As each domain $D_j$ has measure $\frac{1}{n}$, the above claim entails
 
@@ -679,7 +679,7 @@ In the second, again by the Pigeonhole Principle, some $h\in[p(q-1)+1,\ell]$ fal
 
 Due to (i) above, there exist two pairs of vertices $\boldsymbol{v}^{(1)},\boldsymbol{v}^{(2)}\in V_i\cap A$ and $\boldsymbol{u}^{(1)},\boldsymbol{u}^{(2)}\in V_{i^{\prime}}\cap A$ such that $|v_h^{(1)}-v_h^{(2)}|\geq 2-\mu$ and $|u_{h^{\prime}}^{(1)}-u_{h^{\prime}}^{(2)}|\geq 2-\mu$. At the same time, by (ii) and that $\boldsymbol{u}^{(\ell)}\boldsymbol{v}^{(\ell^{\prime})}\in E(G)$ whenever $\ell,\ell^{\prime}\in[2]$, we see that $|v_h^{(\ell)}-u_{h^{\prime}}^{(\ell^{\prime})}|\leq\sqrt{2}-\mu$ for $\ell,\ell^{\prime}\in[2]$. Therefore, we have four points $v_h^{(1)},v_h^{(2)},u_{h^{\prime}}^{(1)},u_{h^{\prime}}^{(2)}\in\mathsf{S}^{k}(\mathbb{R})$ which contradict Theorem 2.5.
 
-Thus the required sum is at most $pq+\ell-p(q-1)=\ell+p$. \(\square\)
+Thus the required sum is at most $pq+\ell-p(q-1)=\ell+p$. $\square$
 
 Let $x_i:=|L_i([\ell])|$ for each $i\in[q]$. By Lemmas 4.4 and 4.5, we have that
 

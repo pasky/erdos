@@ -520,19 +520,19 @@ $$
 \Pi(2^{\mathcal{R}}\times[1,\infty))=\frac{1}{Z_{\mathcal{R}}}\sum_{S\subseteq\mathcal{R}}\frac{1}{d(S)}=1.
 $$
 
-Fix \(S\subseteq\mathcal R\) and abbreviate \(G=G_\omega(S)\) and \(M=M_\omega(S)\). If \(G>0\), (4.7) permits us to write
+Fix $S\subseteq\mathcal R$ and abbreviate $G=G_\omega(S)$ and $M=M_\omega(S)$. If $G>0$, (4.7) permits us to write
 
 $$
 M=\frac{\theta_SG}{Z_{\mathcal R}},\qquad e^{-\zeta}\leq\theta_S\leq e^\zeta.
 $$
 
-If \(G=0\), then (4.7) gives \(M=0\), and the same formula holds after setting \(\theta_S=1\). Since \(0\leq\zeta\leq1\),
+If $G=0$, then (4.7) gives $M=0$, and the same formula holds after setting $\theta_S=1$. Since $0\leq\zeta\leq1$,
 
 $$
 |\theta_S-1|\leq e^\zeta-1\leq2\zeta.
 $$
 
-On the fibre \(S_\omega(c)=S\), one has \(D(c)\geq d(S)\) and, by (4.6), \(D(c)\leq e^{2\zeta}d(S)\). Consequently \(L_\omega(S,x)=0\) for \(x<d(S)\) and \(L_\omega(S,x)=M_\omega(S)\) for \(x\geq e^{2\zeta}d(S)\). On the latter region,
+On the fibre $S_\omega(c)=S$, one has $D(c)\geq d(S)$ and, by (4.6), $D(c)\leq e^{2\zeta}d(S)$. Consequently $L_\omega(S,x)=0$ for $x<d(S)$ and $L_\omega(S,x)=M_\omega(S)$ for $x\geq e^{2\zeta}d(S)$. On the latter region,
 
 $$
 \begin{aligned}
@@ -547,7 +547,7 @@ $$
 \tag{4.9}
 $$
 
-Here the last line uses \(\mathbb E_{\mu_{\mathcal R}}|G_\omega-1|\leq\varepsilon\) and \(\mathbb E_{\mu_{\mathcal R}}G_\omega=1\).
+Here the last line uses $\mathbb E_{\mu_{\mathcal R}}|G_\omega-1|\leq\varepsilon$ and $\mathbb E_{\mu_{\mathcal R}}G_\omega=1$.
 
 It remains to control the transition strip
 
@@ -555,7 +555,7 @@ $$
 \mathcal T:=\{(S,x):d(S)\leq x<e^{2\zeta}d(S)\}.
 $$
 
-Its \(\Pi\)-mass is exactly
+Its $\Pi$-mass is exactly
 
 $$
 \Pi(\mathcal T)=(1-e^{-2\zeta})\sum_{S\subseteq\mathcal R}\frac{1}{Z_{\mathcal R}d(S)}
@@ -576,14 +576,14 @@ $$
 \tag{4.11}
 $$
 
-The penultimate inequality follows from (4.2); the last uses \(e^\zeta\leq e<3\) and \(1-e^{-2\zeta}\leq2\zeta\). On \(\mathcal T\) the variation norm of the difference is at most the sum of the two masses, while below \(x=d(S)\) both measures vanish. Combining (4.9)–(4.11) yields
+The penultimate inequality follows from (4.2); the last uses $e^\zeta\leq e<3$ and $1-e^{-2\zeta}\leq2\zeta$. On $\mathcal T$ the variation norm of the difference is at most the sum of the two masses, while below $x=d(S)$ both measures vanish. Combining (4.9)–(4.11) yields
 
 $$
 \|\Lambda_\omega-\Pi\|_{\mathrm{var}}\leq\varepsilon+10\zeta.
 \tag{4.12}
 $$
 
-Put \(a_\Lambda:=\|\Lambda\|\). Every \(\Lambda_\omega\) has mass \(a_\Lambda\), and (4.5) gives \(e^{-\zeta}\leq a_\Lambda\leq1\). The word marginal \(\bar{\Lambda}_\omega\) of \(\bar{\Lambda}:=a_\Lambda^{-1}\Lambda\) is \(a_\Lambda^{-1}\Lambda_\omega\). Therefore
+Put $a_\Lambda:=\|\Lambda\|$. Every $\Lambda_\omega$ has mass $a_\Lambda$, and (4.5) gives $e^{-\zeta}\leq a_\Lambda\leq1$. The word marginal $\bar{\Lambda}_\omega$ of $\bar{\Lambda}:=a_\Lambda^{-1}\Lambda$ is $a_\Lambda^{-1}\Lambda_\omega$. Therefore
 
 $$
 \begin{aligned}
@@ -596,7 +596,7 @@ $$
 \tag{4.13}
 $$
 
-because \(1-a_\Lambda\leq1-e^{-\zeta}\leq\zeta\). Thus, uniformly in \(\omega\),
+because $1-a_\Lambda\leq1-e^{-\zeta}\leq\zeta$. Thus, uniformly in $\omega$,
 
 $$
 d_{\mathrm{TV}}(\bar{\Lambda}_\omega,\Pi)\leq\frac{\varepsilon+11\zeta}{2}.

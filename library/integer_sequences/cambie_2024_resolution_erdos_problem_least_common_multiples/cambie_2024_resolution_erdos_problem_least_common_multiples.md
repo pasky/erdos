@@ -164,7 +164,7 @@ $$
 \end{aligned}
 $$
 
-\(\square\)
+$\square$
 
 ## Acknowledgement
 

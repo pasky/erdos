@@ -559,55 +559,55 @@ $$
 \sum_j\log_{g_j}(10g_j/t_j)-1/2r<0.
 $$
 
-Summing over \(M=2^k\) for all \(k\geqslant 0\) implies that the number of \(n\) which are bad for any \(\vec{k}\in\Gamma\) is
+Summing over $M=2^k$ for all $k\geqslant 0$ implies that the number of $n$ which are bad for any $\vec{k}\in\Gamma$ is
 
 $$
 \ll (\log L)^{O(1)}(L/H)^{1/r}N
 $$
 
-as required. \(\square\)
+as required. $\square$
 
 ## 4. Separation
 
-In this section we study the following problem: given some \(\zeta_j,\theta_j\) can we bound the number of \(n\leqslant N\) such that
+In this section we study the following problem: given some $\zeta_j,\theta_j$ can we bound the number of $n\leqslant N$ such that
 
 $$
 \left\|\zeta_1\theta_1^{\left\{\frac{n}{\log_L g_1}\right\}}+\cdots+\zeta_r\theta_r^{\left\{\frac{n}{\log_L g_r}\right\}}\right\|\leqslant\epsilon?
 $$
 
-Suppose that we knew \(1,\frac{1}{\log_L g_1},\ldots,\frac{1}{\log_L g_r}\) to be linearly independent over \(\mathbb{Q}\). An application of the classical Weyl’s theorem then implies that the vectors
+Suppose that we knew $1,\frac{1}{\log_L g_1},\ldots,\frac{1}{\log_L g_r}$ to be linearly independent over $\mathbb{Q}$. An application of the classical Weyl’s theorem then implies that the vectors
 
 $$
 \left(\left\{\frac{n}{\log_L g_1}\right\},\ldots,\left\{\frac{n}{\log_L g_r}\right\}\right)
 $$
 
-are uniformly distributed in \([0,1)^r\) as \(n\to\infty\). In particular it suffices to bound, for some fixed parameter \(\delta\), the number of \(\delta\)-separated \(\vec{t}\in[0,1)^r\) such that
+are uniformly distributed in $[0,1)^r$ as $n\to\infty$. In particular it suffices to bound, for some fixed parameter $\delta$, the number of $\delta$-separated $\vec{t}\in[0,1)^r$ such that
 
 $$
 \left\|\zeta_1\theta_1^{t_1}+\cdots+\zeta_r\theta_r^{t_r}\right\|\leqslant\epsilon.
 $$
 
-By counting along 1-dimensional ‘slices’ this in turn can be reduced to the problem of bounding the number of \(t\in[0,1)\) such that
+By counting along 1-dimensional ‘slices’ this in turn can be reduced to the problem of bounding the number of $t\in[0,1)$ such that
 
 $$
 \left\|\zeta_1\theta_1^t+\cdots+\zeta_r\theta_r^t\right\|\leqslant\epsilon.
 $$
 
-(Note the coefficients \(\zeta_i\) may be differ as we vary over the 1-dimensional ‘slices’, and hence some reasonable uniformity in the dependence on \(\zeta_i\) is required.) Finally, we may give an upper bound on the number of such \(t\) by showing that in any large \(\delta\)-separated sequence of \(t\) there must be some value where \(\sum \zeta_j\theta_j^t\) is large, which in turn is proved by an elementary argument using induction on \(r\) and the mean value theorem.
+(Note the coefficients $\zeta_i$ may be differ as we vary over the 1-dimensional ‘slices’, and hence some reasonable uniformity in the dependence on $\zeta_i$ is required.) Finally, we may give an upper bound on the number of such $t$ by showing that in any large $\delta$-separated sequence of $t$ there must be some value where $\sum \zeta_j\theta_j^t$ is large, which in turn is proved by an elementary argument using induction on $r$ and the mean value theorem.
 
-There is, however, a complication in that it is not know how to prove that the \(\frac{1}{\log_L g_j}\) are linearly independent over \(\mathbb{Q}\) (although this is an immediate consequence of Schanuel’s conjecture). Surprisingly, however, this does not cause significant difficulties: we can simply take any possible linear dependencies into account, and apply the above argument to a maximal linearly independent subset of the \(\frac{1}{\log_L g_j}\), and apply Weyl’s theorem in a suitable lower-dimensional space.
+There is, however, a complication in that it is not know how to prove that the $\frac{1}{\log_L g_j}$ are linearly independent over $\mathbb{Q}$ (although this is an immediate consequence of Schanuel’s conjecture). Surprisingly, however, this does not cause significant difficulties: we can simply take any possible linear dependencies into account, and apply the above argument to a maximal linearly independent subset of the $\frac{1}{\log_L g_j}$, and apply Weyl’s theorem in a suitable lower-dimensional space.
 
 We will now put this plan into action. The first step is the following auxiliary lemma.
 
-**Lemma 1.** Let \(x_1,\ldots,x_r>0\) be distinct real numbers with associated \(c_1,\ldots,c_r\in\mathbb{R}\). If \(f(t)=\sum_{1\leqslant i\leqslant r}c_i x_i^t\) then for any \(0<v_1<\cdots<v_{2^{r-1}}<1\)
+**Lemma 1.** Let $x_1,\ldots,x_r>0$ be distinct real numbers with associated $c_1,\ldots,c_r\in\mathbb{R}$. If $f(t)=\sum_{1\leqslant i\leqslant r}c_i x_i^t$ then for any $0<v_1<\cdots<v_{2^{r-1}}<1$
 
 $$
 \max_{1\leqslant j\leqslant 2^{r-1}}\left\lvert f(v_j)\right\rvert\gg_{x_1,\ldots,x_r}\Delta^{r-1}\max_j\left\lvert c_j\right\rvert,
 $$
 
-where \(\Delta=\min\left\lvert v_{k+1}-v_k\right\rvert\).
+where $\Delta=\min\left\lvert v_{k+1}-v_k\right\rvert$.
 
-*Proof.* We use induction on \(r\). The case \(r=1\) is trivial. In general, suppose that \(r\geqslant 2\) and the statement holds for \(r-1\). Without loss of generality we can assume that \(\left\lvert c_1\right\rvert\leqslant\left\lvert c_i\right\rvert\) for all \(2\leqslant i\leqslant r\). Consider
+*Proof.* We use induction on $r$. The case $r=1$ is trivial. In general, suppose that $r\geqslant 2$ and the statement holds for $r-1$. Without loss of generality we can assume that $\left\lvert c_1\right\rvert\leqslant\left\lvert c_i\right\rvert$ for all $2\leqslant i\leqslant r$. Consider
 
 $$
 g(t)=x_1^{-t}f(t)=c_1+\sum_{2\leqslant k\leqslant r}c_k(x_k/x_1)^t.

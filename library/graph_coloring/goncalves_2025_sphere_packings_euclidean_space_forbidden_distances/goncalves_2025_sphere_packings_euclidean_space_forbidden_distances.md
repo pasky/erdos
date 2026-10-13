@@ -1483,7 +1483,7 @@ The authors thank João P. Ramos, Henry Cohn and Danlyo Radchenko for fruitful d
 
 **Conflict of interest** None.
 
-**Data availability statement** Ancillary files with code and data are available in the arXiv submission of this paper: arXiv:2308.03925 \[math.NT\].
+**Data availability statement** Ancillary files with code and data are available in the arXiv submission of this paper: arXiv:2308.03925 $$math.NT$$.
 
 ## References
 

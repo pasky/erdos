@@ -47,19 +47,19 @@ $$
 (3)\quad \sum_{k=1}^n (a_k^2+b_k^2)=An.
 $$
 
-Then there exists a \(c=c_A>0\) depending only on \(A\) for which \(\lim_{A\to0}c_A=0\) and
+Then there exists a $c=c_A>0$ depending only on $A$ for which $\lim_{A\to0}c_A=0$ and
 
 $$
 M>\frac{1+c_A}{\sqrt{2}}\left(\sum_{k=1}^n(a_k^2+b_k^2)\right)^{1/2}.
 $$
 
-At present I cannot even prove that (1) holds for \(b_k=0\) and \(a_k=0\), or \(\pm1\) (i.e. for the polynomials \(\sum\varepsilon_k\cos m_kx\)). For rational polynomials one would conjecture that
+At present I cannot even prove that (1) holds for $b_k=0$ and $a_k=0$, or $\pm1$ (i.e. for the polynomials $\sum\varepsilon_k\cos m_kx$). For rational polynomials one would conjecture that
 
 $$
 \max_{|z|=1}\left|\sum_{k=1}^n\varepsilon_k z^{m_k}\right|>(1+c_1)n^{1/2},\qquad |\varepsilon_k|=1, \tag{4}
 $$
 
-where \(c_1>0\) is an absolute constant, but I cannot even prove this for \(m_k=k\). In this direction D. Newman [2]\(^{(1)}\) proved certain preliminary results. His result implies \(n^{1/2}+c_1/n^{1/2}\) instead of (4). The analogon of (1) is of course false here as can be seen by the polynomial \(z\). The most that one could hope is that if \(\max_{1\leq k\leq n}|a_k|=1\) and \(\sum_{k=1}^n|a_k|^2=1+B\) (i.e. if the sum of the squares of the coefficients is appreciably greater than the largest coefficient), then
+where $c_1>0$ is an absolute constant, but I cannot even prove this for $m_k=k$. In this direction D. Newman [2]$^{(1)}$ proved certain preliminary results. His result implies $n^{1/2}+c_1/n^{1/2}$ instead of (4). The analogon of (1) is of course false here as can be seen by the polynomial $z$. The most that one could hope is that if $\max_{1\leq k\leq n}|a_k|=1$ and $\sum_{k=1}^n|a_k|^2=1+B$ (i.e. if the sum of the squares of the coefficients is appreciably greater than the largest coefficient), then
 
 $$
 \max_{|z|=1}\left|\sum_{k=1}^n a_kz^k\right|^\theta>(1+c_B)\left(\sum_{k=1}^n|a_k|^2\right)^{1/2}. \tag{5}
@@ -67,29 +67,29 @@ $$
 
 It seems likely that (5) holds.
 
-To prove our theorem we need three lemmas. Assume that \(f_n(\vartheta)\) is a trigonometric polynomial satisfying (2) for which
+To prove our theorem we need three lemmas. Assume that $f_n(\vartheta)$ is a trigonometric polynomial satisfying (2) for which
 
 $$
 \max_{0\leq\vartheta<2\pi}|f_n(\vartheta)|<\frac{1+\varepsilon}{\sqrt{2}}\left(\sum_{k=1}^n(a_k^2+b_k^2)\right)^{1/2}\quad(0<\varepsilon<1). \tag{6}
 $$
 
-LEMMA 1. Let \(f_n(\vartheta)\) satisfy (3) and (6). Then the measure of the set in \(\vartheta\) for which
+LEMMA 1. Let $f_n(\vartheta)$ satisfy (3) and (6). Then the measure of the set in $\vartheta$ for which
 
 $$
 |f_n(\vartheta)|<\frac{1-\varepsilon^{1/2}}{\sqrt{2}}\left(\sum_{k=1}^n(a_k^2+b_k^2)\right)^{1/2}=T \tag{7}
 $$
 
-is less than \(20\varepsilon^{1/2}\).
+is less than $20\varepsilon^{1/2}$.
 
 ---
 
-\((1)\) D. Newman proves in fact that if in (4) \(m_k=k\) and \(\varepsilon_k=\pm1\) then
+$(1)$ D. Newman proves in fact that if in (4) $m_k=k$ and $\varepsilon_k=\pm1$ then
 
 $$
 \int_{|z|=1}\left|\sum_{k=1}^n\varepsilon_kz^k\right|\,dz<\sqrt{n-c}.
 $$
 
-A slight modification of our proof would show that if \(f_n(\vartheta)\) satisfies (2) and (3) then
+A slight modification of our proof would show that if $f_n(\vartheta)$ satisfies (2) and (3) then
 
 $$
 \int_0^{2\pi}|f_n(\vartheta)|\,d\vartheta<(1-c'_A)n^{1/2}.

@@ -846,7 +846,7 @@ K_{=,=}
 \end{aligned}
 $$
 
-\(\square\)
+$\square$
 
 ## 5. Proof of Theorem 1.4
 

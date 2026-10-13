@@ -3778,7 +3778,7 @@ c/(2(p-1)), & p\in F_{\mathrm{hd}}\setminus F_{\mathrm{anc}}.
 \end{cases}
 $$
 
-The nonsmooth flexible point, the protected layer, and the initial active smooth point are all \(F_{\mathrm{hd}}\)-free. Hence the only head charge besides \(D'\) is the already combined base \(B_0\). From (4.23), its preserved form (5.16), (6.47), and (6.48), we have simultaneously
+The nonsmooth flexible point, the protected layer, and the initial active smooth point are all $F_{\mathrm{hd}}$-free. Hence the only head charge besides $D'$ is the already combined base $B_0$. From (4.23), its preserved form (5.16), (6.47), and (6.48), we have simultaneously
 
 $$
 \begin{aligned}
@@ -3789,13 +3789,13 @@ A_p^{\mathrm{act}}&=v_p(T)-v_p(D')-v_p(B_0)\\
 \tag{8.6}
 $$
 
-after the prescribed choice of \(\delta_*\) and then sufficiently large \(n\). Also \(A_p^{\mathrm{act}}\le v_p(T)\le C_WN\). Changing \(d\) uses only the zero-head pool just displayed, so it changes every one of these targets by zero (and, even without that choice, an \(O_W(N/L)\) change would be smaller than the fixed linear margin). Consequently
+after the prescribed choice of $\delta_*$ and then sufficiently large $n$. Also $A_p^{\mathrm{act}}\le v_p(T)\le C_WN$. Changing $d$ uses only the zero-head pool just displayed, so it changes every one of these targets by zero (and, even without that choice, an $O_W(N/L)$ change would be smaller than the fixed linear margin). Consequently
 
 $$
 \epsilon_WN\le A_p^{\mathrm{act}}\le C_WN \qquad (p\le W).
 $$
 
-Choose a fixed integer \(E_W\) so large that
+Choose a fixed integer $E_W$ so large that
 
 $$
 \frac{(A_p^{\mathrm{act}})_{p\le W}}{q^{\mathrm{act}}(d)}
@@ -3803,17 +3803,17 @@ $$
 \tag{8.7}
 $$
 
-with a fixed positive barycentric margin. The margin follows directly from (8.6), not from a limiting interiority assertion. Explicitly, the coefficient of \(E_W\mathbf e_p\) is \(A_p^{\mathrm{act}}/(E_Wq^{\mathrm{act}}(d))\), and the coefficient of 0 is one minus their sum.
+with a fixed positive barycentric margin. The margin follows directly from (8.6), not from a limiting interiority assertion. Explicitly, the coefficient of $E_W\mathbf e_p$ is $A_p^{\mathrm{act}}/(E_Wq^{\mathrm{act}}(d))$, and the coefficient of 0 is one minus their sum.
 
-The vertices in (8.7) are realized by exact valuation/coprimality patterns: the zero vertex is \(v_\ell(m)=0\) for every \(\ell\le W\), and the \(p\)-vertex is
+The vertices in (8.7) are realized by exact valuation/coprimality patterns: the zero vertex is $v_\ell(m)=0$ for every $\ell\le W$, and the $p$-vertex is
 
 $$
 v_p(m)=E_W,\qquad v_\ell(m)=0\qquad(\ell\le W,\ \ell\ne p).
 $$
 
-These are finite divisibility inclusion–exclusion cells, not residue classes. By Proposition 7.1, each such pattern has \(\Theta_W(n)\) \(y\)-smooth members in every fixed positive-length subinterval of \((n,2n]\).
+These are finite divisibility inclusion–exclusion cells, not residue classes. By Proposition 7.1, each such pattern has $\Theta_W(n)$ $y$-smooth members in every fixed positive-length subinterval of $(n,2n]$.
 
-Choose \(\eta_0>0\) so that
+Choose $\eta_0>0$ so that
 
 $$
 0<\mu-\eta_0<\mu+\eta_0<\log 2
@@ -3825,15 +3825,15 @@ $$
 1<a_-<b_-<e^{\mu-\eta_0},\qquad e^{\mu+\eta_0}<a_+<b_+<2.
 $$
 
-For every \(n\), define the scaled intervals
+For every $n$, define the scaled intervals
 
 $$
 I_-(n):=(a_-n,b_-n],\qquad I_+(n):=(a_+n,b_+n].
 $$
 
-Since \((2-b_+)n>Kh\) for all sufficiently large \(n\), one has \(I_+(n)\subset(n,2n-Kh]\); the corresponding containment for \(I_-(n)\) is immediate. In each head pattern reserve positive-density smooth subpools in both \(I_-(n)\) and \(I_+(n)\). Assign the barycentric masses from (8.7), subtracting exactly the mass assigned from the active zero-pattern stratum. Thus no new \(\Theta(N)\) mass is added. Split each pattern mass between its two physical subpools. The two logarithmic means lie on opposite sides of \(\mu\); hence a compact choice of the splitting coefficients makes the total active logarithm equal to (8.4) exactly. The \(O(L)\) error caused by rounding \(d_*\) is removed by changing one splitting coefficient by \(O(L/N)=o(1)\).
+Since $(2-b_+)n>Kh$ for all sufficiently large $n$, one has $I_+(n)\subset(n,2n-Kh]$; the corresponding containment for $I_-(n)$ is immediate. In each head pattern reserve positive-density smooth subpools in both $I_-(n)$ and $I_+(n)$. Assign the barycentric masses from (8.7), subtracting exactly the mass assigned from the active zero-pattern stratum. Thus no new $\Theta(N)$ mass is added. Split each pattern mass between its two physical subpools. The two logarithmic means lie on opposite sides of $\mu$; hence a compact choice of the splitting coefficients makes the total active logarithm equal to (8.4) exactly. The $O(L)$ error caused by rounding $d_*$ is removed by changing one splitting coefficient by $O(L/N)=o(1)$.
 
-Every assigned cell has \(\Theta_W(n)\) candidates and receives \(O_W(N)\) mass. Its individual weights are therefore \(O_W(1/L)\). The barycentric and physical splitting margins leave a positive-density zero-pattern active component with weights bounded below by a fixed multiple of \(1/L\). This component, rather than the frozen protected floor, supplies all covariance lower bounds below.
+Every assigned cell has $\Theta_W(n)$ candidates and receives $O_W(N)$ mass. Its individual weights are therefore $O_W(1/L)$. The barycentric and physical splitting margins leave a positive-density zero-pattern active component with weights bounded below by a fixed multiple of $1/L$. This component, rather than the frozen protected floor, supplies all covariance lower bounds below.
 
 The Stieltjes estimate $(7.61)$ also shows that the physical and head redistribution changes a marked valuation at $p > W$ by at most
 
@@ -3956,31 +3956,31 @@ $$
 
 Thus the integral part is Hilbert–Schmidt, the bilinear form (8.15) extends continuously from $\mathcal D$ to $\mathcal H$, and $A$ is the resulting bounded self-adjoint operator. Nonnegativity on the dense core passes to the extension. Since $A$ is an invertible multiplication operator plus a compact operator, it is Fredholm of index zero.
 
-If \(Af=0\), the integral equation and (8.11) give the explicit Cauchy–Schwarz bound
+If $Af=0$, the integral equation and (8.11) give the explicit Cauchy–Schwarz bound
 
 $$
 |f(s)|\leq \frac{1}{\min h}\left(\int_0^1 |K(s,t)|^2\frac{dt}{t}\right)^{1/2}\|f\|_{\mathcal H}\ll s\|f\|_{\mathcal H}
 $$
 
-for almost every \(s\). Here \(\min_{[0,1]}h>0\), since \(U-s\in[7/2,9/2]\). Change the representative on a null set so that this holds for every \(s\in(0,1]\). Then
+for almost every $s$. Here $\min_{[0,1]}h>0$, since $U-s\in[7/2,9/2]$. Change the representative on a null set so that this holds for every $s\in(0,1]$. Then
 
 $$
 \sum_{x\in\Pi}|f(x)|\ll\sum_{x\in\Pi}x=U \qquad \mathbb P_U\text{-almost surely}.
 $$
 
-The same bound makes all one- and two-point second-moment integrals finite. Truncating at \(x\geq\varepsilon\) and using dominated convergence extends (8.15) to this particular \(f\). Consequently
+The same bound makes all one- and two-point second-moment integrals finite. Truncating at $x\geq\varepsilon$ and using dominated convergence extends (8.15) to this particular $f$. Consequently
 
 $$
 \operatorname{Var}_U(S_f)=\langle f,Af\rangle_{\mathcal H}=0.
 $$
 
-Thus \(S_f\) is a genuine almost-sure constant: for some \(c\),
+Thus $S_f$ is a genuine almost-sure constant: for some $c$,
 
 $$
 Z_c(\pi):=\sum_{x\in\pi}f(x)-c=0 \quad\text{for }\mathbb P_U\text{-almost every }\pi.
 $$
 
-We spell out the Palm disintegration which turns this almost-sure statement into an additive identity. Campbell–Mecke, disintegrated with respect to the total mass, says for every nonnegative measurable \(\Phi\)
+We spell out the Palm disintegration which turns this almost-sure statement into an additive identity. Campbell–Mecke, disintegrated with respect to the total mass, says for every nonnegative measurable $\Phi$
 
 $$
 \mathbb E_U\sum_{r\in\Pi}\Phi(r,\Pi\setminus\{r\})=\frac{1}{\rho(U)}\int_0^1\rho(U-r)\mathbb E_{U-r}\Phi(r,\Pi)\frac{dr}{r}. \tag{8.16}
@@ -3990,7 +3990,7 @@ $$
 \mathbb E_U\sum_{\substack{r,s\in\Pi\\r\ne s}}\Phi(r,s,\Pi\setminus\{r,s\})=\frac{1}{\rho(U)}\int_0^1\int_0^1\rho(U-r-s)\mathbb E_{U-r-s}\Phi(r,s,\Pi)\frac{dr}{r}\frac{ds}{s}. \tag{8.17}
 $$
 
-Terms with a negative residual mass are interpreted as zero. These formulas follow first with all atoms at least \(\varepsilon\), where the sums are finite, and then by monotone convergence. Apply (8.17) to \((Z_c(\pi)+f(r)+f(s))^2\) and (8.16) to \((Z_c(\pi)+f(u))^2\). Their left sides vanish. Since \(\rho(U-r-s)>0\) for \(r+s\leq1\), we obtain, for almost every such pair \((r,s)\), under the *same* residual law \(\mathbb P_{U-r-s}\),
+Terms with a negative residual mass are interpreted as zero. These formulas follow first with all atoms at least $\varepsilon$, where the sums are finite, and then by monotone convergence. Apply (8.17) to $(Z_c(\pi)+f(r)+f(s))^2$ and (8.16) to $(Z_c(\pi)+f(u))^2$. Their left sides vanish. Since $\rho(U-r-s)>0$ for $r+s\leq1$, we obtain, for almost every such pair $(r,s)$, under the *same* residual law $\mathbb P_{U-r-s}$,
 
 $$
 \begin{aligned}
@@ -3999,13 +3999,13 @@ Z_c(\Pi)+f(r+s)&=0.
 \end{aligned}
 $$
 
-For the second equality we used the one-point formula at \(u=r+s\); the pullback of its null set under \((r,s)\mapsto r+s\) is null by Fubini. Subtraction gives \(f(r)+f(s)=f(r+s)\) for almost every \(r,s>0\) with \(r+s\leq1\). For completeness, the measurable local Cauchy step can be seen by convolution. On each compact interval \(I\Subset(0,1)\), choose \(\psi\in C_c^\infty(0,1-\sup I)\) with \(\int\psi=1\), and put
+For the second equality we used the one-point formula at $u=r+s$; the pullback of its null set under $(r,s)\mapsto r+s$ is null by Fubini. Subtraction gives $f(r)+f(s)=f(r+s)$ for almost every $r,s>0$ with $r+s\leq1$. For completeness, the measurable local Cauchy step can be seen by convolution. On each compact interval $I\Subset(0,1)$, choose $\psi\in C_c^\infty(0,1-\sup I)$ with $\int\psi=1$, and put
 
 $$
 F_0(x):=\int\{f(x+y)-f(y)\}\psi(y)\,dy.
 $$
 
-The bound \(f(t)=O(t)\) gives local integrability, so translation continuity in \(L^1_{\mathrm{loc}}\) makes \(F_0\) continuous. Fubini and the almost-everywhere Cauchy identity give \(F_0=f\) almost everywhere. If two compact intervals overlap, their continuous representatives agree almost everywhere on the overlap and hence, by continuity, agree everywhere there. They therefore glue to a continuous representative on \((0,1)\). The identity \(F_0(x+z)=F_0(x)+F_0(z)\) holds first almost everywhere and then everywhere on each compact subtriangle by continuity. A continuous local additive function is \(\lambda x\); the glued representative shows that the same \(\lambda\) applies on all overlapping intervals. Thus \(f(t)=\lambda t\) almost everywhere. Conversely this function is in the kernel because the conditioned sum is constant. Since zero is now an isolated eigenvalue of a Fredholm self-adjoint operator, (8.12) follows.
+The bound $f(t)=O(t)$ gives local integrability, so translation continuity in $L^1_{\mathrm{loc}}$ makes $F_0$ continuous. Fubini and the almost-everywhere Cauchy identity give $F_0=f$ almost everywhere. If two compact intervals overlap, their continuous representatives agree almost everywhere on the overlap and hence, by continuity, agree everywhere there. They therefore glue to a continuous representative on $(0,1)$. The identity $F_0(x+z)=F_0(x)+F_0(z)$ holds first almost everywhere and then everywhere on each compact subtriangle by continuity. A continuous local additive function is $\lambda x$; the glued representative shows that the same $\lambda$ applies on all overlapping intervals. Thus $f(t)=\lambda t$ almost everywhere. Conversely this function is in the kernel because the conditioned sum is constant. Since zero is now an isolated eigenvalue of a Fredholm self-adjoint operator, (8.12) follows.
 
 For completeness, put
 
@@ -5684,22 +5684,22 @@ $$
 +O_{B,W}(w^2/L)+O(w^2/W)+o_{n;B,W,\mathcal P}(w^2).
 $$
 
-Here the \(O(w^2/W)\) term is precisely the squarefree diagonal correction; it is retained rather than hidden in the little-oh term. At the low boundary,
+Here the $O(w^2/W)$ term is precisely the squarefree diagonal correction; it is retained rather than hidden in the little-oh term. At the low boundary,
 
 $$
 |c_{\mathcal{P}}^{(c)}(t_0)| \leq \alpha_0^{(c)} + t_0 + |q_0^{(c)}| = O(\alpha_0^{(c)} + t_0) = o_n(w).
 $$
 
-Consequently the low extension changes both the squared norm and the quadratic form by \(o_n(w^2)\), by the calculation in (8.32). Therefore (8.12), (8.94), and (8.92) give a fixed positive multiple of \(w^2\) before the following relative perturbations are subtracted. The finite nuisance Schur loss is, by (8.91) and (8.48),
+Consequently the low extension changes both the squared norm and the quadratic form by $o_n(w^2)$, by the calculation in (8.32). Therefore (8.12), (8.94), and (8.92) give a fixed positive multiple of $w^2$ before the following relative perturbations are subtracted. The finite nuisance Schur loss is, by (8.91) and (8.48),
 
 $$
 \operatorname{Cov}_{\xi}(Z,S_g-q^{\mathrm{reg}}\cdot\Omega)^T\Gamma_{\xi}^{-1}\operatorname{Cov}_{\xi}(Z,S_g-q^{\mathrm{reg}}\cdot\Omega)
 =O_{B,W}(w^2/L^2)+o_{n;B,W,\mathcal{P}}(w^2).
 $$
 
-Thus the continuum Poincaré gap is transferred at the relative \(w^2\) scale before the prime-power replacement is made. The upper bound in (8.77) follows directly from the unprojected score and (8.73).
+Thus the continuum Poincaré gap is transferred at the relative $w^2$ scale before the prime-power replacement is made. The upper bound in (8.77) follows directly from the unprojected score and (8.73).
 
-At the \(w^2\) scale every transfer is relative. From the marked squarefree errors and the coefficient bounds already proved,
+At the $w^2$ scale every transfer is relative. From the marked squarefree errors and the coefficient bounds already proved,
 
 $$
 \begin{aligned}
@@ -5710,29 +5710,29 @@ E_{\mathrm{disc}} &\leq \varepsilon_{W,\delta,\eta}(n)\left\{\left(\sum_p\frac{|
 \tag{8.96}
 $$
 
-where quantitative Mertens summation gives \(\varepsilon_{W,\delta,\eta}(n)\ll 1/\log L+\log L/L+e^{-c\sqrt L}\). The endpoint terms in the four-mark formula are included in this \(\varepsilon\); the cofactor margin \(n/y^4=n^{1/9}\) makes their total \(o_n(w^2)\) for the fixed mesh. For the nuisance block, (8.91), the gap \(\Gamma_\xi^{-1}=O_W(1)\), and the exact physical removal in (8.50) give
+where quantitative Mertens summation gives $\varepsilon_{W,\delta,\eta}(n)\ll 1/\log L+\log L/L+e^{-c\sqrt L}$. The endpoint terms in the four-mark formula are included in this $\varepsilon$; the cofactor margin $n/y^4=n^{1/9}$ makes their total $o_n(w^2)$ for the fixed mesh. For the nuisance block, (8.91), the gap $\Gamma_\xi^{-1}=O_W(1)$, and the exact physical removal in (8.50) give
 
 $$
 E_{\mathrm{head/phys}}=o_n(w^2).
 \tag{8.97}
 $$
 
-These displays include respectively the off-diagonal squarefree, squarefree-diagonal, discretization, and head/physical errors; none is being replaced by a generic additive \(o_n(1)\).
+These displays include respectively the off-diagonal squarefree, squarefree-diagonal, discretization, and head/physical errors; none is being replaced by a generic additive $o_n(1)$.
 
-It remains to justify the relative prime-power statement. Write \(I_p=1_{p\mid m}\) and \(J_p=v_p-I_p\). The product-weighted aggregate estimate (7.34), with its transposed and two-extra-power analogues, gives, for \(p\ne q\),
+It remains to justify the relative prime-power statement. Write $I_p=1_{p\mid m}$ and $J_p=v_p-I_p$. The product-weighted aggregate estimate (7.34), with its transposed and two-extra-power analogues, gives, for $p\ne q$,
 
 $$
 |\operatorname{Cov}(J_p,I_q)|\leq C_{\mathrm{pow}}\frac{t_pt_q}{p^2q}+\frac{\epsilon_{B,W}(n)}{p^2q}+O_{B,W}(L/n),
 $$
 
-with product-weighted analogues for the diagonal, transpose, and \(\operatorname{Cov}(J_p,J_q)\). Hence
+with product-weighted analogues for the diagonal, transpose, and $\operatorname{Cov}(J_p,J_q)$. Hence
 
 $$
 \left|\operatorname{Var}\left(\sum_p c_pv_p\right)-\operatorname{Var}\left(\sum_p c_pI_p\right)\right|
 \leq \frac{C_{\mathrm{rel}}(C_{\mathrm{cmp}})}{W}w^2+\epsilon_{B,W,C_{\mathrm{cmp}}}^{\mathrm{rel}}(n)w^2.
 $$
 
-This is (7.60), applied with (8.76). Together with the \(O(w^2/W)\) squarefree diagonal in (8.96) and (8.97), this proves (8.79). For clarity, the complete relative-error ledger is therefore
+This is (7.60), applied with (8.76). Together with the $O(w^2/W)$ squarefree diagonal in (8.96) and (8.97), this proves (8.79). For clarity, the complete relative-error ledger is therefore
 
 | contribution | bound |
 |---|---|

@@ -389,7 +389,7 @@ where we got the last inequality from the hypothesis of the theorem. $\blacksqua
 
 In the next two lemmas, $P_n(z)$ will denote a *random* polynomial defined by $P_n(z)=\prod_{j=1}^n(z-X_j)$, where $\{X_j\}$ is a sequence of of i.i.d. random variables.
 
-**Lemma 3.9.** (*Lower bound on first derivative*) Let \(L\) be a compact set with \(0<c(L)<1\). Let \(\nu\) be the equilibrium measure of \(L\). Consider a sequence of i.i.d. random variables \(\{X_i\}_{i=1}^{\infty}\) with law \(\nu\). Assume that for every \(1\leq p\leq 3\), there exists some positive constant \(C_p>0\), such that \(\mathbb{E}\left[\left|\log|z-X_1|\right|^p\right]<C_p\). Then for \(n\) large, there exists a constant \(C>0\), depending on \(L\) such that,
+**Lemma 3.9.** (*Lower bound on first derivative*) Let $L$ be a compact set with $0<c(L)<1$. Let $\nu$ be the equilibrium measure of $L$. Consider a sequence of i.i.d. random variables $\{X_i\}_{i=1}^{\infty}$ with law $\nu$. Assume that for every $1\leq p\leq 3$, there exists some positive constant $C_p>0$, such that $\mathbb{E}\left[\left|\log|z-X_1|\right|^p\right]<C_p$. Then for $n$ large, there exists a constant $C>0$, depending on $L$ such that,
 
 $$
 \mathbb{P}\left(\left|P_n'(X_1)\right|\geq(c(L))^{2n}\right)\geq 1-\frac{C}{\sqrt{n}}. \tag{21}
@@ -405,13 +405,13 @@ $$
 \end{aligned} \tag{22}
 $$
 
-By Frostman’s theorem (c.f. [16, Theorem-3.3.4]), \(\log|z-X_j|\) are i.i.d. random variables with mean \(\log(c(L))\) for \(\nu\) all most every \(z\in L\). Therefore adding and subtracting the mean in (22) we get,
+By Frostman’s theorem (c.f. [16, Theorem-3.3.4]), $\log|z-X_j|$ are i.i.d. random variables with mean $\log(c(L))$ for $\nu$ all most every $z\in L$. Therefore adding and subtracting the mean in (22) we get,
 
 $$
 \int_L\mathbb{P}\left(\sum_{j=2}^{n}\left(\log|z-X_j|-\mathbb{E}[\log|z-X_j|]\right)\geq 2n\log c(L)-(n-1)\log c(L)\right)d\nu(z). \tag{23}
 $$
 
-We estimate the integrand in (23) by applying the Berry–Esseen Theorem (3.6), to \(Y_j=\log|z-X_j|-\mathbb{E}[\log|z-X_j|]\) and arrive at
+We estimate the integrand in (23) by applying the Berry–Esseen Theorem (3.6), to $Y_j=\log|z-X_j|-\mathbb{E}[\log|z-X_j|]$ and arrive at
 
 $$
 \begin{aligned}
@@ -420,7 +420,7 @@ $$
 \end{aligned} \tag{24}
 $$
 
-where \(\sigma^2(z)=\mathbb{E}\left[(\log|z-X_j|)^2\right]\), \(\rho(z)=\mathbb{E}\left[\left|\log|z-X_j|\right|^3\right]\), and \(\Phi\) is the distribution function of the standard normal. As \(n\to\infty\) we have \(\frac{(n+1)\log c(L)}{\sqrt{n-1}\sigma(z)}\to-\infty\) since \(c(L)<1\), consequently \(\Phi\left(\frac{(n+1)\log c(L)}{\sqrt{n-1}\sigma(z)}\right)\to1\). From the hypothesis, we have uniform upper and lower bounds on \(\sigma^2(z)\) and \(\rho(z)\) using which we can bound the integrand in (24) as
+where $\sigma^2(z)=\mathbb{E}\left[(\log|z-X_j|)^2\right]$, $\rho(z)=\mathbb{E}\left[\left|\log|z-X_j|\right|^3\right]$, and $\Phi$ is the distribution function of the standard normal. As $n\to\infty$ we have $\frac{(n+1)\log c(L)}{\sqrt{n-1}\sigma(z)}\to-\infty$ since $c(L)<1$, consequently $\Phi\left(\frac{(n+1)\log c(L)}{\sqrt{n-1}\sigma(z)}\right)\to1$. From the hypothesis, we have uniform upper and lower bounds on $\sigma^2(z)$ and $\rho(z)$ using which we can bound the integrand in (24) as
 
 $$
 \Phi\left(\frac{(n+1)\log c(L)}{\sqrt{n-1}\sigma(z)}\right)-\frac{C\rho(z)}{\sigma^3(z)\sqrt{n-1}}\geq\left(1-\frac{C}{\sqrt{n}}\right). \tag{25}
@@ -432,9 +432,9 @@ $$
 \mathbb{P}\left(\left|P_n'(X_1)\right|\geq c(L)^{2n}\right)=\int_L\left(1-\frac{C}{\sqrt{n}}\right)d\nu(z)\geq1-\frac{C}{\sqrt{n}}.
 $$
 
-\(\blacksquare\)
+$\blacksquare$
 
-**Lemma 3.10.** (*Bound on higher derivatives*) Let \(\{X_i\}_{i=1}^{\infty}\) be a sequence of i.i.d. random variables with law \(\mu\), supported on the compact set \(K\). Let us define the event \(A:=\{|X_i-X_j|>\frac{1}{C_n};\forall i\neq j\}\) for some constant \(C_n>0\), then
+**Lemma 3.10.** (*Bound on higher derivatives*) Let $\{X_i\}_{i=1}^{\infty}$ be a sequence of i.i.d. random variables with law $\mu$, supported on the compact set $K$. Let us define the event $A:=\{|X_i-X_j|>\frac{1}{C_n};\forall i\neq j\}$ for some constant $C_n>0$, then
 
 $$
 \mathbb{E}\left[\frac{1}{k!}\left|\frac{P_n^{(k)}(X_1)}{P_n'(X_1)}\right|\Big|A\right]\leq\binom{n-1}{k-1}C_n^{k-1},\qquad k=2,\cdots,n-1. \tag{26}

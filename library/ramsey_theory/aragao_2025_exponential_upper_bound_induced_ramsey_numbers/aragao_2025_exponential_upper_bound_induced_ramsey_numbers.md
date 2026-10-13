@@ -336,27 +336,27 @@ $$
 
 where $\mathbf{s}_{\mathbf{H}}=(v(H_i))_{i\in[r]}$, and we have bounded $(\delta/8r)^{rk-t}N\geqslant\delta^{2rk}N$ for all $t\geq 0$ by $r\geq 2$ and our choice of $\delta=r^{-50}\leq 1/(8r)$.
 
-Now, with the goal of bounding each term in (17) by applying Lemma 2.8, fix \(W\subset V(G)\) with \(|W|\geqslant\delta^{2rk}N\) and \(\mathbf{H}=(H_i)_{i\in[r]}\), a collection of graphs, each with at most \(k\) vertices. Observe that letting \(G'=G[W]\), we have \(G'\sim\mathbb{G}(N',1/2)\) where \(N'=|W|\), and also that \(\mathbf{H}\) trivially satisfies
+Now, with the goal of bounding each term in (17) by applying Lemma 2.8, fix $W\subset V(G)$ with $|W|\geqslant\delta^{2rk}N$ and $\mathbf{H}=(H_i)_{i\in[r]}$, a collection of graphs, each with at most $k$ vertices. Observe that letting $G'=G[W]$, we have $G'\sim\mathbb{G}(N',1/2)$ where $N'=|W|$, and also that $\mathbf{H}$ trivially satisfies
 
 $$
 t=\sum_{i=1}^{r}v(H_i)\leq rk. \tag{18}
 $$
 
-The only assumption in Lemma 2.8 that remains to be checked is that \(N'\) satisfies (11), which it does because
+The only assumption in Lemma 2.8 that remains to be checked is that $N'$ satisfies (11), which it does because
 
 $$
 N'\geq\delta^{2rk}N\geq r^{-100rk}r^{5Crk}\geq r^{4Crk}\geq r^{C(k+t)}
 $$
 
-by our choice of \(N=r^{5Crk}\) in (12), the fixed values of \(\delta=r^{-50}\) and \(C=300\) in (10), and (18). Applying Lemma 2.8 to \(G'=G[W]\) and \(\mathbf{H}\), we conclude that
+by our choice of $N=r^{5Crk}$ in (12), the fixed values of $\delta=r^{-50}$ and $C=300$ in (10), and (18). Applying Lemma 2.8 to $G'=G[W]$ and $\mathbf{H}$, we conclude that
 
 $$
 \mathbb{P}\big(G[W]\in\mathcal{B}(\mathbf{H})\cap\mathcal{E}(\mathbf{s}_{\mathbf{H}})\big)\leq 2^{-\delta^2|W|^2}\leq 2^{-\delta^{5rk}N^2}, \tag{19}
 $$
 
-for all \(|W|\geqslant\delta^{2rk}N\). As \(W\) and \(\mathbf{H}\) were arbitrary, (19) holds for all terms in (17).
+for all $|W|\geqslant\delta^{2rk}N$. As $W$ and $\mathbf{H}$ were arbitrary, (19) holds for all terms in (17).
 
-Replacing (19) in (17), bounding the choices for \(\mathbf{H}\) by \(k^r2^{r\binom{k}{2}}\) and for \(W\subset V(G)\) by \(2^N\), we have
+Replacing (19) in (17), bounding the choices for $\mathbf{H}$ by $k^r2^{r\binom{k}{2}}$ and for $W\subset V(G)$ by $2^N$, we have
 
 $$
 \mathbb{P}\big(G\in\mathcal{B}(H;r)\big)\leq k^r2^{r\binom{k}{2}}2^N2^{-\delta^{5rk}N^2}\leq 2^{-\delta^{5rk}N^2/2}<1 \tag{20}
@@ -368,17 +368,17 @@ $$
 \frac{\delta^{5rk}N^2}{2}>N+rk+r\binom{k}{2}>0
 $$
 
-by our choice of \(N=r^{5Crk}\) and \(\delta=r^{-50}\). We have established (13) and completed the proof. \(\square\)
+by our choice of $N=r^{5Crk}$ and $\delta=r^{-50}$. We have established (13) and completed the proof. $\square$
 
-**Remark 2.10.** Observe that the bound in (20) is sufficiently small for us to take another union bound, this one over all graphs \(H\) with \(k\) vertices, for which there are at most \(2^{\binom{k}{2}}\) choices. The conclusion is that, with high probability, if \(G\sim\mathbb{G}(N,1/2)\), then \(G\xrightarrow[\;r\;]{\mathrm{ind}}H\) for all such \(H\).
+**Remark 2.10.** Observe that the bound in (20) is sufficiently small for us to take another union bound, this one over all graphs $H$ with $k$ vertices, for which there are at most $2^{\binom{k}{2}}$ choices. The conclusion is that, with high probability, if $G\sim\mathbb{G}(N,1/2)$, then $G\xrightarrow[\;r\;]{\mathrm{ind}}H$ for all such $H$.
 
 **2.3. Structure of the paper.** The bulk of the paper is concerned with proving Lemma 2.8. However, before we proceed to the proof of Lemma 2.8, we will need some tools.
 
-First, we will have two expository sections that contain many of the ideas that we use later, but in simpler settings. In Section 3, this simpler setting corresponds to showing that the probability that a vertex extends no copy of \(H_i^{-}\) in a fixed colour \(i\in[r]\) is exponentially small. This section shows how to map neighbourhoods that fail to extend a copy of \(H_i^{-}\) to independent sets in a certain hypergraph \(\mathcal{H}\), which will illustrate how the method of hypergraph containers can be applied to this problem. It is also where we explain how our induction hypothesis, the event \(\mathcal{E}(\mathbf{s})\), yields a supersaturation result for our application(s) of containers.
+First, we will have two expository sections that contain many of the ideas that we use later, but in simpler settings. In Section 3, this simpler setting corresponds to showing that the probability that a vertex extends no copy of $H_i^{-}$ in a fixed colour $i\in[r]$ is exponentially small. This section shows how to map neighbourhoods that fail to extend a copy of $H_i^{-}$ to independent sets in a certain hypergraph $\mathcal{H}$, which will illustrate how the method of hypergraph containers can be applied to this problem. It is also where we explain how our induction hypothesis, the event $\mathcal{E}(\mathbf{s})$, yields a supersaturation result for our application(s) of containers.
 
-In Section 4, we present the proof of a container theorem for “sets that are not \((p,R)\)-Janson” (see Theorem 4.1, and also Theorem 4.6, which implies it). While this result is not sufficiently strong to prove Lemma 2.8, its proof already presents the general argument that we will later adapt to prove Theorem 5.4, the container theorem that we do use in the proof of Lemma 2.8. We see that argument as a general method to reduce a problem about sets avoiding a global property to a simpler problem, where the sets only need to avoid a local property. In this particular instance, we deal with this local property by using a standard hypergraph container lemma (Theorem 3.4).
+In Section 4, we present the proof of a container theorem for “sets that are not $(p,R)$-Janson” (see Theorem 4.1, and also Theorem 4.6, which implies it). While this result is not sufficiently strong to prove Lemma 2.8, its proof already presents the general argument that we will later adapt to prove Theorem 5.4, the container theorem that we do use in the proof of Lemma 2.8. We see that argument as a general method to reduce a problem about sets avoiding a global property to a simpler problem, where the sets only need to avoid a local property. In this particular instance, we deal with this local property by using a standard hypergraph container lemma (Theorem 3.4).
 
-Section 5 contains the proof that if the hypergraph \(\mathfrak{I}_{H_i,G_i,G}[U]\) is \((p,R)\)-Janson, then adding a new vertex to \(U\) produces a \((p,R+1)\)-Janson hypergraph with probability \(1-\exp(-\gamma|U|)\) for some constant $\gamma=\gamma(r)>0$ that only depends on $r$. The proof of this statement mirrors the proof in Section 3, but replacing the hypergraph container lemma there by the (yet unproven) Theorem 5.4, the container theorem tailored to our application. We postpone the proof of Theorem 5.4 to the last section since it is the most technical part of the paper.
+Section 5 contains the proof that if the hypergraph $\mathfrak{I}_{H_i,G_i,G}[U]$ is $(p,R)$-Janson, then adding a new vertex to $U$ produces a $(p,R+1)$-Janson hypergraph with probability $1-\exp(-\gamma|U|)$ for some constant $\gamma=\gamma(r)>0$ that only depends on $r$. The proof of this statement mirrors the proof in Section 3, but replacing the hypergraph container lemma there by the (yet unproven) Theorem 5.4, the container theorem tailored to our application. We postpone the proof of Theorem 5.4 to the last section since it is the most technical part of the paper.
 
 In Section 6, we prove Lemma 2.8 in two stages. The first and easier stage uses a double counting argument to show that if $\mathfrak{J}_{H_i,G_i,G}[S]$ is roughly $(p,\delta pN/r)$-Janson for all subsets $S$ with $|S|\geqslant\delta^{2/3}N$, then $\mathfrak{J}_{H_i,G_i,G}$ is $(p,pN)$-Janson. The second stage proves Lemma 2.8 by induction on the Janson parameter of the family $\mathfrak{J}_{H_i,G_i,G}[U]$. To prove the inductive step, we use Lemma 5.1 to show that the probability one cannot increase this Janson parameter by adding a vertex to $U$ is very small. This is also the part where we take a union bound over colourings of $G[U]$, which ends up being somewhat technical because we must be careful with the randomness outside $G[U]$.
 

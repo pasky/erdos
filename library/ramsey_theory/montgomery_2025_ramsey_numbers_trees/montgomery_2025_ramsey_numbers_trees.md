@@ -1415,7 +1415,7 @@ $$
 \end{aligned}
 $$
 
-As required. If \(J\cap P_2\ne\emptyset\), then we have
+As required. If $J\cap P_2\ne\emptyset$, then we have
 
 $$
 \begin{aligned}
@@ -1425,36 +1425,36 @@ $$
 \end{aligned}
 $$
 
-Thus, by Lemma 2.9, we can embed \(L\) into \(U_1'\cup U_2\) to finish a copy of \(T\) in \(G\). \(\square\)
+Thus, by Lemma 2.9, we can embed $L$ into $U_1'\cup U_2$ to finish a copy of $T$ in $G$. $\square$
 
 ### 6.4 Case I.B.2: embedding trees in almost complete bipartite graphs
 
-In **Case I.B.2**, using the notations in Section 6.1, we want to embed a small subtree into \(G_{\text{red}}[U_1^+]\), before embedding the rest of \(T\) into \(G_{\text{red}}[U_1^+,U_2^+]\). To find this small subtree, we use the following result.
+In **Case I.B.2**, using the notations in Section 6.1, we want to embed a small subtree into $G_{\text{red}}[U_1^+]$, before embedding the rest of $T$ into $G_{\text{red}}[U_1^+,U_2^+]$. To find this small subtree, we use the following result.
 
-**Proposition 6.5.** Let \(n,m\in\mathbb{N}\) satisfy \(1\leq m\leq n/18\). Let \(T\) be an \(n\)-vertex tree with bipartition classes \(V_1\) and \(V_2\), where \(|V_2|\geq |V_1|/3\). Then, \(T\) contains a subtree \(T'\) with \(|T'|\leq 10^4m\), such that it contains at least \(m\) vertices in \(V_2\) and has at most 1 vertex in \(V_2\) with a neighbour outside of \(V(T')\) in \(T\).
+**Proposition 6.5.** Let $n,m\in\mathbb{N}$ satisfy $1\leq m\leq n/18$. Let $T$ be an $n$-vertex tree with bipartition classes $V_1$ and $V_2$, where $|V_2|\geq |V_1|/3$. Then, $T$ contains a subtree $T'$ with $|T'|\leq 10^4m$, such that it contains at least $m$ vertices in $V_2$ and has at most 1 vertex in $V_2$ with a neighbour outside of $V(T')$ in $T$.
 
-*Proof.* For any tree \(R\) on at least \(18m\) vertices, by repeated applications of Corollary 2.14, we can find subtrees \(R_1\) and \(R_2\) with a unique common vertex that decompose \(R\), such that \(6m\leq |R_1|\leq 18m\). Iterating this in the tree \(T\) to find a subtree with size between \(6m\) and \(18m\) at a time, we obtain a sequence \(T_1,\ldots,T_\ell\) of subtrees satisfying the following properties.
+*Proof.* For any tree $R$ on at least $18m$ vertices, by repeated applications of Corollary 2.14, we can find subtrees $R_1$ and $R_2$ with a unique common vertex that decompose $R$, such that $6m\leq |R_1|\leq 18m$. Iterating this in the tree $T$ to find a subtree with size between $6m$ and $18m$ at a time, we obtain a sequence $T_1,\ldots,T_\ell$ of subtrees satisfying the following properties.
 
-- \(E(T_1),\ldots,E(T_\ell)\) partition \(E(T)\).
-- For every \(j\in[\ell]\), \(6m\leq |T_j|\leq 18m\).
-- For every \(j\in[\ell]\), \(\bigcup_{i=1}^{j}T_i\) is a tree.
-- For every \(2\leq j\leq\ell\), \(T_j\) shares a unique vertex with \(\bigcup_{i=1}^{j-1}T_i\).
+- $E(T_1),\ldots,E(T_\ell)$ partition $E(T)$.
+- For every $j\in[\ell]$, $6m\leq |T_j|\leq 18m$.
+- For every $j\in[\ell]$, $\bigcup_{i=1}^{j}T_i$ is a tree.
+- For every $2\leq j\leq\ell$, $T_j$ shares a unique vertex with $\bigcup_{i=1}^{j-1}T_i$.
 
-Note that \(\ell\leq n/(6m-1)\). We claim that \(|V(T_i)\cap V_2|\geq m\) for at least \(\ell/100\) indices \(i\in[\ell]\). Indeed, if not, then there would be at most \(\ell m+(\ell/100)\cdot 18m<n/4\) vertices in \(V_2\), contradicting the assumption that \(|V_2|\geq |V_1|/3\). Let \(I=\{i\in[\ell]:|V(T_i)\cap V_2|\geq m\}\).
+Note that $\ell\leq n/(6m-1)$. We claim that $|V(T_i)\cap V_2|\geq m$ for at least $\ell/100$ indices $i\in[\ell]$. Indeed, if not, then there would be at most $\ell m+(\ell/100)\cdot 18m<n/4$ vertices in $V_2$, contradicting the assumption that $|V_2|\geq |V_1|/3$. Let $I=\{i\in[\ell]:|V(T_i)\cap V_2|\geq m\}$.
 
-Consider the auxiliary graph \(K\) with vertex set \([\ell]\), where for any \(i<j\) in \([\ell]\), \(ij\in E(K)\) if and only if \(i\) is the smallest index such that \(V(T_i)\cap V(T_j)\ne\emptyset\). Note that every \(1<j\leq\ell\) has a unique neighbour in \([j-1]\) in \(K\), so \(K\) is a tree and \(e(K)=\ell-1\). It follows that there exists \(i\in I\) with \(d_K(i)\leq 200\).
+Consider the auxiliary graph $K$ with vertex set $[\ell]$, where for any $i<j$ in $[\ell]$, $ij\in E(K)$ if and only if $i$ is the smallest index such that $V(T_i)\cap V(T_j)\ne\emptyset$. Note that every $1<j\leq\ell$ has a unique neighbour in $[j-1]$ in $K$, so $K$ is a tree and $e(K)=\ell-1$. It follows that there exists $i\in I$ with $d_K(i)\leq 200$.
 
-Let \(t_i\) be the unique vertex shared by \(T_i\) and \(\bigcup_{j<i}T_j\). Then, \(N_T(V(T_i)\setminus\{t_i\},\bigcup_{j>i}V(T_j))\leq 200\cdot 18m\). Let \(T'\) be the subtree of \(T\) induced by \(V(T_i)\) and \(N_T(V(T_i)\setminus\{t_i\},\bigcup_{j>i}V(T_j))\cap V_1\). Then \(|T'|\leq 10^4m\), \(|V(T')\cap V_2|\geq |V(T_i)\cap V_2|\geq m\), and every vertex in \(V(T')\cap V_2\), except possibly \(t_i\), has no neighbour in \(T\) outside of \(V(T')\). \(\square\)
+Let $t_i$ be the unique vertex shared by $T_i$ and $\bigcup_{j<i}T_j$. Then, $N_T(V(T_i)\setminus\{t_i\},\bigcup_{j>i}V(T_j))\leq 200\cdot 18m$. Let $T'$ be the subtree of $T$ induced by $V(T_i)$ and $N_T(V(T_i)\setminus\{t_i\},\bigcup_{j>i}V(T_j))\cap V_1$. Then $|T'|\leq 10^4m$, $|V(T')\cap V_2|\geq |V(T_i)\cap V_2|\geq m$, and every vertex in $V(T')\cap V_2$, except possibly $t_i$, has no neighbour in $T$ outside of $V(T')$. $\square$
 
 Using Proposition 6.5, we can now prove the main result used for **Case I.B.2**.
 
-**Lemma 6.6.** Let \(1/n\ll c\ll\mu\ll\beta\ll 1\), let \(0\leq D\leq\mu n\), and let \(|k|\leq\mu n\). Let \(T\) be any \(n\)-vertex tree with \(\Delta(T)\leq cn\) and bipartition classes \(V_1\) and \(V_2\) with sizes \(t_1\) and \(t_2\), respectively, that satisfy \(t_2\leq t_1\leq 2t_2+1\). Let \(G\) be a graph with a vertex partition \(U_1\cup U_2\) such that \(1.1t_1\leq |U_1|\leq 2n\), \(|U_2|=t_2-k-1\), and the following hold.
+**Lemma 6.6.** Let $1/n\ll c\ll\mu\ll\beta\ll 1$, let $0\leq D\leq\mu n$, and let $|k|\leq\mu n$. Let $T$ be any $n$-vertex tree with $\Delta(T)\leq cn$ and bipartition classes $V_1$ and $V_2$ with sizes $t_1$ and $t_2$, respectively, that satisfy $t_2\leq t_1\leq 2t_2+1$. Let $G$ be a graph with a vertex partition $U_1\cup U_2$ such that $1.1t_1\leq |U_1|\leq 2n$, $|U_2|=t_2-k-1$, and the following hold.
 
-- \(d_G(u,U_1)\geq\beta n\) for each \(u\in U_2\), and \(d_G(u,U_1)\geq |U_1|-\mu n\) for all but at most \(\mu n\) vertices \(u\in U_2\).
-- \(d_G(u,U_2)\geq |U_2|-D\) for all but at most \(10\mu n\) vertices \(u\in U_1\).
-- There exists \(X\subseteq U_1\) with \(|X|\leq 2\mu n\) such that \(d_G(u,U_2)\geq |U_2|-\mu n\) for each \(u\in U_1\setminus X\) and \(e(G[U_1\setminus X])\geq 10^7(k+D+1)n\).
+- $d_G(u,U_1)\geq\beta n$ for each $u\in U_2$, and $d_G(u,U_1)\geq |U_1|-\mu n$ for all but at most $\mu n$ vertices $u\in U_2$.
+- $d_G(u,U_2)\geq |U_2|-D$ for all but at most $10\mu n$ vertices $u\in U_1$.
+- There exists $X\subseteq U_1$ with $|X|\leq 2\mu n$ such that $d_G(u,U_2)\geq |U_2|-\mu n$ for each $u\in U_1\setminus X$ and $e(G[U_1\setminus X])\geq 10^7(k+D+1)n$.
 
-Then, \(G\) contains a copy of \(T\).
+Then, $G$ contains a copy of $T$.
 
 *Proof.* First observe that it suffices to prove this in the case when $k+D\geq -1$. Indeed, if $k+D<-1$, then let $k^{\prime}=-D-1$ and remove $-k-D-1$ vertices from $U_2$ to obtain $U_2^{\prime}$ with size $t_2-k^{\prime}-1$. Note that trivially $e(G[U_1\setminus X])\geq 10^7(k^{\prime}+D+1)n$, and all other assumptions still hold with $U_2^{\prime}$ and $k^{\prime}$ in place of $U_2$ and $k$, so $G$ contains a copy of $T$. Thus, we assume that $k+D\geq -1$ from now on.
 

@@ -491,7 +491,7 @@ $$
 \tag{2.5}
 $$
 
-The claim then follows from Equations (2.4) and (2.5). \(\square\)
+The claim then follows from Equations (2.4) and (2.5). $\square$
 
 We are now ready to conclude the proof of the theorem. By Claims 3 and 5,
 

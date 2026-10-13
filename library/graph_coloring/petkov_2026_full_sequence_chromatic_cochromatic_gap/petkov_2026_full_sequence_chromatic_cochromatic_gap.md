@@ -598,29 +598,29 @@ $$
 |\lambda_{n,S}(T)|+|\lambda_S(T)|\leq 2\Lambda.
 $$
 
-For \(n\geq n_{\mathrm{dual}}\), define the deterministic dual error
+For $n\geq n_{\mathrm{dual}}$, define the deterministic dual error
 
 $$
 \varepsilon_n^{\mathrm{dual}}:=\max_{S\in\{S_+,S_4\}}\sup_{T\in K_*}\left(\left|\mathcal{F}_{n,S}(T)-\mathcal{F}_S(T)\right|+\left|\lambda_{n,S}(T)-\lambda_S(T)\right|\right)
 $$
 
-and set it arbitrarily, say equal to zero, for \(n<n_{\mathrm{dual}}\). Then \(\varepsilon_n^{\mathrm{dual}}\to 0\).
+and set it arbitrarily, say equal to zero, for $n<n_{\mathrm{dual}}$. Then $\varepsilon_n^{\mathrm{dual}}\to 0$.
 
-For \(S_4\), both optimizers are unique; denote them by \(p_{n,i}(T)\) and \(p_i(T)\). Then
+For $S_4$, both optimizers are unique; denote them by $p_{n,i}(T)$ and $p_i(T)$. Then
 
 $$
 \sup_{T\in K_*}\max_{2\leq i\leq 5}|p_{n,i}(T)-p_i(T)|\longrightarrow 0. \tag{3.9b}
 $$
 
-Moreover, there are \(\eta_*>0\) and \(n_{\mathrm{int}}\in\mathbb{N}\) such that
+Moreover, there are $\eta_*>0$ and $n_{\mathrm{int}}\in\mathbb{N}$ such that
 
 $$
 p_{n,i}(T)\geq\eta_*\qquad(n\geq n_{\mathrm{int}},\ T\in K_*,\ 2\leq i\leq 5).
 $$
 
-All displayed bounds and eventuality thresholds are uniform over the induced phases \(\delta_n\), including sequences approaching either endpoint.
+All displayed bounds and eventuality thresholds are uniform over the induced phases $\delta_n$, including sequences approaching either endpoint.
 
-*Proof.* Put \(q:=\log 2\), \(L:=\log n\), and \(\ell:=\log\log n\). Dividing (3.2) by \(k=n/s\) and writing \(p_i=k_i/k\) gives
+*Proof.* Put $q:=\log 2$, $L:=\log n$, and $\ell:=\log\log n$. Dividing (3.2) by $k=n/s$ and writing $p_i=k_i/k$ gives
 
 $$
 \frac{L_S(n,n/s)}{n/s}=(s-1)L-s+1+\log s+
@@ -641,7 +641,7 @@ $$
 A_n:=-\log d_\alpha,\qquad B_n:=q\alpha-\frac{q}{2}+\log\alpha, \tag{3.11}
 $$
 
-and \(h_n\) is the curved score defined in (3.1a). Direct subtraction verifies the displayed identity also at \(i=-1\). Thus
+and $h_n$ is the curved score defined in (3.1a). Direct subtraction verifies the displayed identity also at $i=-1$. Thus
 
 $$
 h_n(i)=-\frac{q}{2}i^2+O(i^2/\alpha)\quad\text{for every fixed }i,\qquad h_n(i)\leq-\frac{q}{2}i^2\quad(i\geq -1). \tag{3.12}
@@ -657,21 +657,21 @@ $$
 \frac{2}{q}\leq T_0\leq 1+\frac{2}{q}, \tag{3.13}
 $$
 
-so it lies in the interior of \(K_*\). The same is true of every target in \(K_*\) relative to both supports.
+so it lies in the interior of $K_*$. The same is true of every target in $K_*$ relative to both supports.
 
-Choose \(\Lambda>0\) so that
+Choose $\Lambda>0$ so that
 
 $$
 M_S(-\Lambda)<\min K_*<\max K_*<M_S(\Lambda)\qquad(S=S_+,S_4).
 $$
 
-Such a choice exists because the limiting mean maps are strictly increasing and their endpoint limits bracket \(K_*\). For \(m=0,1,2\) and \(|\lambda|\leq\Lambda\), (3.12) gives the summable majorant
+Such a choice exists because the limiting mean maps are strictly increasing and their endpoint limits bracket $K_*$. For $m=0,1,2$ and $|\lambda|\leq\Lambda$, (3.12) gives the summable majorant
 
 $$
 |i|^m\exp\!\left(\Lambda|i|-\frac{q}{2}i^2\right).
 $$
 
-On every fixed finite set of indices, the weights converge by (3.12). The majorant makes the remaining Gaussian tail uniformly small, and the omitted tail beyond the finite cutoff \(\alpha-1\) is bounded by the same series. Consequently the zeroth, first, and second tilted moments converge uniformly on \([-\Lambda,\Lambda]\). In particular,
+On every fixed finite set of indices, the weights converge by (3.12). The majorant makes the remaining Gaussian tail uniformly small, and the omitted tail beyond the finite cutoff $\alpha-1$ is bounded by the same series. Consequently the zeroth, first, and second tilted moments converge uniformly on $[-\Lambda,\Lambda]$. In particular,
 
 $$
 Z_{n,S}\to Z_S,\qquad M_{n,S}\to M_S,\qquad M'_{n,S}\to M'_S
@@ -848,27 +848,27 @@ $$
 \tag{3.19}
 $$
 
-because \(s=(2/q)L+O_A(\ell)\), (3.18) holds, and \(\Psi_{n,S,c}(s)=O_A(\ell)\) throughout the corridor. This proves (3.7) and \(\varepsilon_{n,A}^{\mathrm{slope}}\to 0\) with one eventuality threshold for the complete phase. \(\square\)
+because $s=(2/q)L+O_A(\ell)$, (3.18) holds, and $\Psi_{n,S,c}(s)=O_A(\ell)$ throughout the corridor. This proves (3.7) and $\varepsilon_{n,A}^{\mathrm{slope}}\to 0$ with one eventuality threshold for the complete phase. $\square$
 
 ## 4. A UNIFORM LOWER LOCATION FOR $\chi$
 
-Let \(r_+(n)=r_{S_+,0}\) be the unrestricted-support corridor zero from Lemma 3.1, write \(L_+(n,k):=L_{S_+}(n,k)\), and put
+Let $r_+(n)=r_{S_+,0}$ be the unrestricted-support corridor zero from Lemma 3.1, write $L_+(n,k):=L_{S_+}(n,k)$, and put
 
 $$
 k_{\chi}^{-}:=\lfloor r_+(n)\rfloor-\lceil\log n\rceil.
 \tag{4.1}
 $$
 
-This is a deterministic integer. Since \(r_+(n)=\Theta(n/\log n)\) uniformly in the phase, one has \(1\leq k_{\chi}^{-}<n\) for all sufficiently large \(n\).
+This is a deterministic integer. Since $r_+(n)=\Theta(n/\log n)$ uniformly in the phase, one has $1\leq k_{\chi}^{-}<n$ for all sufficiently large $n$.
 
-For an integer profile \(\mathbf{k}=(k_i)_{-1\leq i\leq\alpha-1}\) feasible on \(n\) vertices, let \(X_{\mathbf{k}}\) be the number of unordered proper colorings having exactly \(k_i\) classes of size \(\alpha-i\). Direct enumeration gives
+For an integer profile $\mathbf{k}=(k_i)_{-1\leq i\leq\alpha-1}$ feasible on $n$ vertices, let $X_{\mathbf{k}}$ be the number of unordered proper colorings having exactly $k_i$ classes of size $\alpha-i$. Direct enumeration gives
 
 $$
 \mathbb{E}[X_{\mathbf{k}}]=\frac{n!}{\prod_i((\alpha-i)!)^{k_i}k_i!}2^{-\sum_i k_i\binom{\alpha-i}{2}}.
 \tag{4.2}
 $$
 
-For an integer \(k\), let \(\mathcal{K}_{n,k,\alpha+1}\) be the set of these profiles satisfying
+For an integer $k$, let $\mathcal{K}_{n,k,\alpha+1}$ be the set of these profiles satisfying
 
 $$
 \sum_i k_i=k,\qquad \sum_i(\alpha-i)k_i=n,
@@ -880,16 +880,16 @@ $$
 E_{n,k,\alpha+1}:=\sum_{\mathbf{k}\in\mathcal{K}_{n,k,\alpha+1}}\mathbb{E}[X_{\mathbf{k}}].
 $$
 
-Thus \(E_{n,k,\alpha+1}\) is the expected number of unordered proper colorings with exactly \(k\) nonempty parts, each of size at most \(\alpha+1\). When the feasible profile set is empty, we use the extended-real convention \(\log E_{n,k,\alpha+1}=-\infty\).
+Thus $E_{n,k,\alpha+1}$ is the expected number of unordered proper colorings with exactly $k$ nonempty parts, each of size at most $\alpha+1$. When the feasible profile set is empty, we use the extended-real convention $\log E_{n,k,\alpha+1}=-\infty$.
 
-**The profile sum.** There are \(\alpha+1=O(\log n)\) profile coordinates, and each coordinate lies between zero and \(n\). Hence
+**The profile sum.** There are $\alpha+1=O(\log n)$ profile coordinates, and each coordinate lies between zero and $n$. Hence
 
 $$
 |\mathcal{K}_{n,k,\alpha+1}|\leq(n+1)^{\alpha+1}=\exp\{O((\log n)^2)\}.
 \tag{4.3}
 $$
 
-uniformly in \(k\) and in the phase. Keep the class-size factorials inside \(d_{\alpha-i}\) exact, and put
+uniformly in $k$ and in the phase. Keep the class-size factorials inside $d_{\alpha-i}$ exact, and put
 
 $$
 R(m):=\log(m!)-(m\log m-m),\qquad R(0):=0.
@@ -907,7 +907,7 @@ $$
 \log\mathbb{E}[X_{\mathbf{k}}]\leq L_{\mathbf{k}}+O((\log n)^2).
 $$
 
-The error is uniform even when some \(k_i=0\): there are \(O(\log n)\) profile coordinates and \(|R(k_i)|=O(\log(n+1))\). For every \(k\) feasible for \(S_+^{(n)}\), maximizing over the feasible profile and then summing (4.3) yields
+The error is uniform even when some $k_i=0$: there are $O(\log n)$ profile coordinates and $|R(k_i)|=O(\log(n+1))$. For every $k$ feasible for $S_+^{(n)}$, maximizing over the feasible profile and then summing (4.3) yields
 
 $$
 \log E_{n,k,\alpha+1}\leq L_+(n,k)+O((\log n)^2).
@@ -3129,58 +3129,58 @@ $$
 
 Therefore every larger set also has density at least $1/4$.
 
-Let \(S_0\) be any vertex set of size at least \(n^{1/3}\). While \(|S_t|\geq u_0\), choose \(v_t\in S_t\) of maximum degree in \(H[S_t]\), define \(S_{t+1}:=N_H(v_t)\cap S_t\), and put \(s_t:=|S_t|\). Density at least \(1/4\) implies \(|N_H(v_t)\cap S_t|\geq(s_t-1)/4\). Hence
+Let $S_0$ be any vertex set of size at least $n^{1/3}$. While $|S_t|\geq u_0$, choose $v_t\in S_t$ of maximum degree in $H[S_t]$, define $S_{t+1}:=N_H(v_t)\cap S_t$, and put $s_t:=|S_t|$. Density at least $1/4$ implies $|N_H(v_t)\cap S_t|\geq(s_t-1)/4$. Hence
 
 $$
 s_{t+1}\geq(s_t-1)/4,\qquad s_t\geq 4^{-t}s_0-1/3. \tag{10.3a}
 $$
 
-The sets are nested and \(S_{t+1}\subseteq N_H(v_t)\). Thus, whenever \(j>t\),
+The sets are nested and $S_{t+1}\subseteq N_H(v_t)$. Thus, whenever $j>t$,
 
 $$
 v_j\in S_j\subseteq S_{t+1}\subseteq N_H(v_t).
 $$
 
-Every later choice is therefore adjacent in \(H\) to every earlier one, so the chosen vertices form a clique in \(H\). Since \(s_0\geq\lceil n^{1/3}\rceil\), for every \(0\leq t\leq\lfloor\log n/(13\log 4)\rfloor\), equation (10.3a) gives
+Every later choice is therefore adjacent in $H$ to every earlier one, so the chosen vertices form a clique in $H$. Since $s_0\geq\lceil n^{1/3}\rceil$, for every $0\leq t\leq\lfloor\log n/(13\log 4)\rfloor$, equation (10.3a) gives
 
 $$
 s_t\geq n^{1/3-1/13}-1/3=n^{10/39}-1/3\geq n^{1/4}
 $$
 
-for all sufficiently large \(n\). Thus the procedure constructs at least \(c\log n\) vertices for an absolute \(c>0\), and these vertices form an independent set in \(G_n\).
+for all sufficiently large $n$. Thus the procedure constructs at least $c\log n$ vertices for an absolute $c>0$, and these vertices form an independent set in $G_n$.
 
-For an arbitrary \(S\), repeatedly remove such independent sets and give each a new color until fewer than \(n^{1/3}\) vertices remain; color the rest singly. Every removed set has at least \(c\log n\) vertices, so the total number of colors is at most
+For an arbitrary $S$, repeatedly remove such independent sets and give each a new color until fewer than $n^{1/3}$ vertices remain; color the rest singly. Every removed set has at least $c\log n$ vertices, so the total number of colors is at most
 
 $$
 \frac{|S|}{c\log n}+n^{1/3}.
 $$
 
-After enlarging the absolute constant \(C_0\), this is (10.3), simultaneously for every \(S\). \(\square\)
+After enlarging the absolute constant $C_0$, this is (10.3), simultaneously for every $S$. $\square$
 
-**Lemma 10.2 (Amplification from a seed).** *There is an absolute constant \(C>0\) and a deterministic sequence \(\varepsilon_n^{\mathrm{left}}\geq 0\) with \(\varepsilon_n^{\mathrm{left}}\to 0\) such that the following holds. Suppose deterministic integers \(k_n\geq 0\) and deterministic reals \(\Lambda_n\geq 0\) satisfy, for all sufficiently large \(n\),*
+**Lemma 10.2 (Amplification from a seed).** *There is an absolute constant $C>0$ and a deterministic sequence $\varepsilon_n^{\mathrm{left}}\geq 0$ with $\varepsilon_n^{\mathrm{left}}\to 0$ such that the following holds. Suppose deterministic integers $k_n\geq 0$ and deterministic reals $\Lambda_n\geq 0$ satisfy, for all sufficiently large $n$,*
 
 $$
 \mathbb{P}\bigl(\zeta(G_n)\leq k_n\bigr)\geq e^{-\Lambda_n}. \tag{10.4}
 $$
 
-*For every deterministic choice \(r=r(n)>0\), with the same \(C\) and \(\varepsilon_n^{\mathrm{left}}\) independent of \(k_n,\Lambda_n,r\), the bound*
+*For every deterministic choice $r=r(n)>0$, with the same $C$ and $\varepsilon_n^{\mathrm{left}}$ independent of $k_n,\Lambda_n,r$, the bound*
 
 $$
 \mathbb{P}\left(\zeta(G_n)>k_n+C\left(\frac{\sqrt{n\Lambda_n}+\sqrt{nr}}{\log n}+n^{1/3}+1\right)\right)
 \leq e^{-r}+\varepsilon_n^{\mathrm{left}}. \tag{10.5}
 $$
 
-*holds at every sufficiently large \(n\) for which (10.4) holds.*
+*holds at every sufficiently large $n$ for which (10.4) holds.*
 
-*Proof.* Let \(\mathcal{G}_n\) be the simultaneous event in Lemma 10.1, and set \(\varepsilon_n^{\mathrm{left}}:=\mathbb{P}(\mathcal{G}_n^c)=o(1)\). This sequence is independent of \(k_n,\Lambda_n,\) and \(r\).
+*Proof.* Let $\mathcal{G}_n$ be the simultaneous event in Lemma 10.1, and set $\varepsilon_n^{\mathrm{left}}:=\mathbb{P}(\mathcal{G}_n^c)=o(1)$. This sequence is independent of $k_n,\Lambda_n,$ and $r$.
 
-For \(W\subseteq[n]\), let \(\zeta(W)=\zeta(G_n[W])\), with \(\zeta(\varnothing)=0\), and define
+For $W\subseteq[n]$, let $\zeta(W)=\zeta(G_n[W])$, with $\zeta(\varnothing)=0$, and define
 
 $$
 S_{k_n}=\max\{|W|:W\subseteq[n],\ \zeta(W)\leq k_n\}. \tag{10.6}
 $$
 
-Expose the random graph in \(n-1\) independent vertex blocks, where block \(v\) contains the edges from \(v\) to earlier vertices. Changing one block changes \(S_{k_n}\) by at most one. Indeed, after deleting the affected vertex, every feasible induced set loses at most one vertex, and the two graph configurations agree on all remaining edges. Thus a maximizer in either configuration yields a feasible set of size at least one less in the other configuration. Therefore (1.3) applies.
+Expose the random graph in $n-1$ independent vertex blocks, where block $v$ contains the edges from $v$ to earlier vertices. Changing one block changes $S_{k_n}$ by at most one. Indeed, after deleting the affected vertex, every feasible induced set loses at most one vertex, and the two graph configurations agree on all remaining edges. Thus a maximizer in either configuration yields a feasible set of size at least one less in the other configuration. Therefore (1.3) applies.
 
 Since $S_{k_n}=n$ exactly when $\zeta(G_n)\leq k_n$, (10.4) and the upper one-sided bounded-differences tail give
 

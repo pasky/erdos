@@ -4457,7 +4457,7 @@ $$
 \end{subarray}}g_{\mathbf b_1}\ll_K\frac{B^4}{(\log x)^{100K}}.
 $$
 
-Substituting this in then gives the final bound. \(\square\)
+Substituting this in then gives the final bound. $\square$
 
 Thus we see that it is sufficient to obtain a suitable bound for $g_{\mathbf b}$ on average over hypercubes in residue classes.
 
@@ -4480,7 +4480,7 @@ First we estimate the contribution from $\mathbf{1}_{\mathcal R}(\mathbf b)$. Si
 
 The contribution from $\widetilde{\mathbf{1}}_{\mathcal R}(\mathbf b)$ can be estimated by swapping the order of summation in the sieve sum and using the fact that $\mathbf b\in\mathbb Z\cap\mathcal C$ are equidistributed in suitable arithmetic progressions as in [14, Lemmas 9.5 and 9.6]. This gives a main term and a error term $O_K(B^4/(\log B)^{10K})$.
 
-The main term contributions from $\mathbf{1}_{\mathcal R}(\mathbf b)$ and $\widetilde{\mathbf{1}}_{\mathcal R}(\mathbf b)$ are the same apart from opposite signs and so cancel, giving the result. \(\square\)
+The main term contributions from $\mathbf{1}_{\mathcal R}(\mathbf b)$ and $\widetilde{\mathbf{1}}_{\mathcal R}(\mathbf b)$ are the same apart from opposite signs and so cancel, giving the result. $\square$
 
 Finally, we are able to complete our proof of Proposition 9.14.
 

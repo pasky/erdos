@@ -878,7 +878,7 @@ Set $z=x^{1/(2+\varepsilon)}$ to complete the proof, keeping in mind that $k=o((
 6. N. I. Klimov, *Combination of elementary and analytic methods in the theory of numbers*, Uspehi Mat. Nauk (N.S.) **13** (1958), no. 3 (81), 145–164. MR 0097372
 7. H. Maier, *Primes in short intervals*, Michigan Math. J. **32** (1985), no. 2, 221–225. MR 783576
 8. J. Maynard, *Small gaps between primes*, Ann. of Math. (2) **181** (2015), no. 1, 383–413. MR 3272929
-9. \(\rule{3em}{.4pt}\), *Dense clusters of primes in subsets*, Compos. Math. **152** (2016), no. 7, 1517–1554. MR 3530450
+9. $\rule{3em}{.4pt}$, *Dense clusters of primes in subsets*, Compos. Math. **152** (2016), no. 7, 1517–1554. MR 3530450
 10. H. L. Montgomery and K. Soundararajan, *Primes in short intervals*, Comm. Math. Phys. **252** (2004), no. 1-3, 589–617. MR 2104891
 11. B. C. Rennie and A. J. Dobson, *On Stirling numbers of the second kind*, J. Combinatorial Theory **7** (1969), 116–121. MR 241310
 12. Y. Zhang, *Bounded gaps between primes*, Ann. of Math. (2) **179** (2014), no. 3, 1121–1174. MR 3171761

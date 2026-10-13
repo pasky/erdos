@@ -200,7 +200,7 @@ $$
 
 which means that $N-ua_3\in\mathbb{Z}^{+}(a_1,a_2)$ by Proposition 4 and thus that $N\in\mathbb{Z}^{+}(a_1,a_2,a_3)$. This dispatches the case $n=3$.
 
-Assume now that \(n \geq 5\). Assume first that \(a_l = a_m\) for some \(l \neq m\). Put \(a = a_l = a_m\). By symmetry we can assume that \((a-b_l)(a-b_m) \geq b_l b_m\) (or else effect the change of variables \(b'_i = a_i-b_i\)). This implies that \(a-b_l-b_m \geq 0\). But then
+Assume now that $n \geq 5$. Assume first that $a_l = a_m$ for some $l \neq m$. Put $a = a_l = a_m$. By symmetry we can assume that $(a-b_l)(a-b_m) \geq b_l b_m$ (or else effect the change of variables $b'_i = a_i-b_i$). This implies that $a-b_l-b_m \geq 0$. But then
 
 $$
 \begin{aligned}
@@ -213,7 +213,7 @@ $$
 \end{aligned}
 $$
 
-Here the term \(b_l b_m\left(\prod_{\substack{i=1\\i\ne l,m}}^n b_i+\prod_{\substack{i=1\\i\ne l,m}}^n(a_i-b_i)\right)\) is in \(\mathbb{Z}^+(\{a_i:i\ne l,m\})\) by induction on \(n\) and the second term \(a(a-b_l-b_m)\prod_{\substack{i=1\\i\ne l,m}}^n(a_i-b_i)\) is a nonnegative multiple of \(a=a_l=a_m\). Therefore \(\prod_{i=1}^n b_i+\prod_{i=1}^n(a_i-b_i)\) is in \(\mathbb{Z}^+(a_1,\ldots,a_n)\). We can thus assume that \(a_i\ne a_j\) for all \(i,j\), and by symmetry that \(a_1<\cdots<a_n\).
+Here the term $b_l b_m\left(\prod_{\substack{i=1\\i\ne l,m}}^n b_i+\prod_{\substack{i=1\\i\ne l,m}}^n(a_i-b_i)\right)$ is in $\mathbb{Z}^+(\{a_i:i\ne l,m\})$ by induction on $n$ and the second term $a(a-b_l-b_m)\prod_{\substack{i=1\\i\ne l,m}}^n(a_i-b_i)$ is a nonnegative multiple of $a=a_l=a_m$. Therefore $\prod_{i=1}^n b_i+\prod_{i=1}^n(a_i-b_i)$ is in $\mathbb{Z}^+(a_1,\ldots,a_n)$. We can thus assume that $a_i\ne a_j$ for all $i,j$, and by symmetry that $a_1<\cdots<a_n$.
 
 Put
 
@@ -226,7 +226,7 @@ N &= X(a_n-b_n)+Yb_n.
 \end{aligned}
 $$
 
-Note that \(X-Y\equiv0\mod\beta\) as \(n\) is odd. Our job is to prove \(N\in\mathbb{Z}^+(a_1,\ldots,a_n)\). We can assume without loss of generality that \(X\geq Y\). If \(Y\geq a_1/\beta+\beta\) then we can write \(Y=m\beta+r\) for some \(m,r\geq0\) such that \(m\beta>a_1/\beta\), and we will have
+Note that $X-Y\equiv0\mod\beta$ as $n$ is odd. Our job is to prove $N\in\mathbb{Z}^+(a_1,\ldots,a_n)$. We can assume without loss of generality that $X\geq Y$. If $Y\geq a_1/\beta+\beta$ then we can write $Y=m\beta+r$ for some $m,r\geq0$ such that $m\beta>a_1/\beta$, and we will have
 
 $$
 \begin{aligned}
@@ -235,9 +235,9 @@ N &= Ya_n+(X-Y)(a_n-b_n)\\
 \end{aligned}
 $$
 
-where the quantity in brackets \(\{...\}\) is a multiple of \(\beta\) strictly greater than \(a_1a_{n-1}/\beta\), so is in \(\mathbb{Z}^+(a_1,\ldots,a_{n-1})\) by Proposition 4. But then \(N\in\mathbb{Z}^+(a_1,\ldots,a_n)\). So we can assume \(Y<a_1/\beta+\beta\).
+where the quantity in brackets $\{...\}$ is a multiple of $\beta$ strictly greater than $a_1a_{n-1}/\beta$, so is in $\mathbb{Z}^+(a_1,\ldots,a_{n-1})$ by Proposition 4. But then $N\in\mathbb{Z}^+(a_1,\ldots,a_n)$. So we can assume $Y<a_1/\beta+\beta$.
 
-Recall \(X-Y\equiv0\mod\beta\). If we assume that \(X-Y>a_1a_{n-1}/\beta-a_1-a_{n-1}\) then \(X-Y\in\mathbb{Z}^+(a_1,\ldots,a_{n-1})\) and \(N=(X-Y)(a_n-b_n)+Ya_n\in\mathbb{Z}^+(a_1,\ldots,a_n)\). We can therefore assume \(X-Y\leq a_1a_{n-1}/\beta-a_1-a_{n-1}\). We now have
+Recall $X-Y\equiv0\mod\beta$. If we assume that $X-Y>a_1a_{n-1}/\beta-a_1-a_{n-1}$ then $X-Y\in\mathbb{Z}^+(a_1,\ldots,a_{n-1})$ and $N=(X-Y)(a_n-b_n)+Ya_n\in\mathbb{Z}^+(a_1,\ldots,a_n)$. We can therefore assume $X-Y\leq a_1a_{n-1}/\beta-a_1-a_{n-1}$. We now have
 
 $$
 \begin{aligned}

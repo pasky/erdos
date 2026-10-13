@@ -2362,7 +2362,7 @@ If $\dim_{\mathbb{Q}}\sum_i m_i^{1/2}\mathbb{Q}=2$, then the multi-set $\{m_1^{1
 
 (2): If $m_i n_i=0$, then $D(\mathbf{m},\mathbf{n})=0$ implies $m_jn_j^2=m_kn_k^2$, and $\mathbf{m}\mathbf{n}\neq 0$ implies that the latter products are non-zero. Existence and uniqueness of $\mathbf{t}$ are clear.
 
-(3): If $m_i n_i=0$, then $m_jm_k=(t_j^2h)(t_k^2h)=(t_jt_kh)^2$ for some $t_jt_kh\neq 0$ by (2). If $m_i n_i\neq 0$, then $\mathbf{m}=\mathbf{t}^2h$ for some $t_it_jt_kh\neq 0$ by (1), and the claim follows in the same way. \(\square\)
+(3): If $m_i n_i=0$, then $m_jm_k=(t_j^2h)(t_k^2h)=(t_jt_kh)^2$ for some $t_jt_kh\neq 0$ by (2). If $m_i n_i\neq 0$, then $\mathbf{m}=\mathbf{t}^2h$ for some $t_it_jt_kh\neq 0$ by (1), and the claim follows in the same way. $\square$
 
 **Lemma 9.3.** Let $S=2\mathbb{Z}[\mathbf{x},\mathbf{y}]$. Given $(\mathbf{m},\mathbf{n})\in\mathbb{Z}^6$ with $D(\mathbf{m},\mathbf{n})=0$, let
 

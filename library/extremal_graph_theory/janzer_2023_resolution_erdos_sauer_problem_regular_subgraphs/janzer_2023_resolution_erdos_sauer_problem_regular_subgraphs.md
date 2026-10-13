@@ -201,13 +201,13 @@ $$
 \beta(v) = \sum_{u \in N_G(v)} \alpha(u).
 $$
 
-Note that for every \(v \in B\), we have \((s+1)r \leq \beta(v) \leq tr\), so there are at most \((t-s)r\) possible values for \(\beta(v)\). Hence, by the pigeonhole principle, there are some \(\gamma \geq (s+1)r\) and a subset \(\tilde{B} \subset B\) of size at least \(\frac{|B|}{(t-s)r}\) such that \(\beta(v) = \gamma\) for all \(v \in \tilde{B}\).
+Note that for every $v \in B$, we have $(s+1)r \leq \beta(v) \leq tr$, so there are at most $(t-s)r$ possible values for $\beta(v)$. Hence, by the pigeonhole principle, there are some $\gamma \geq (s+1)r$ and a subset $\tilde{B} \subset B$ of size at least $\frac{|B|}{(t-s)r}$ such that $\beta(v) = \gamma$ for all $v \in \tilde{B}$.
 
-Let \(A'\) be a random subset of \(A\) where each \(u \in A\) is kept independently with probability \(2^{\alpha(u)-t}\). Let \(B' = \{v \in \tilde{B} : N_G(v) \subset A'\}\). Let \(A''\) be the subset of \(A'\) consisting of those vertices \(u\) with \(|N_G(u) \cap B'| \leq 4r2^{\gamma-(r-1)t}\), and let \(B'' = \{v \in B' : N_G(v) \subset A''\}\). Let \(G' = G[A'' \cup B'']\). Then \(d_{G'}(u) \leq 4r2^{\gamma-(r-1)t}\) for all \(u \in A''\).
+Let $A'$ be a random subset of $A$ where each $u \in A$ is kept independently with probability $2^{\alpha(u)-t}$. Let $B' = \{v \in \tilde{B} : N_G(v) \subset A'\}$. Let $A''$ be the subset of $A'$ consisting of those vertices $u$ with $|N_G(u) \cap B'| \leq 4r2^{\gamma-(r-1)t}$, and let $B'' = \{v \in B' : N_G(v) \subset A''\}$. Let $G' = G[A'' \cup B'']$. Then $d_{G'}(u) \leq 4r2^{\gamma-(r-1)t}$ for all $u \in A''$.
 
-The following claim shows that we expect \(E(G[A' \cup B']) \setminus E(G')\) to be small.
+The following claim shows that we expect $E(G[A' \cup B']) \setminus E(G')$ to be small.
 
-**Claim.** *For any \(uv \in E(G[A \cup \tilde{B}])\) with \(u \in A\) and \(v \in \tilde{B}\),*
+**Claim.** *For any $uv \in E(G[A \cup \tilde{B}])$ with $u \in A$ and $v \in \tilde{B}$,*
 
 $$
 \mathbb{P}(u \in A', v \in B' \text{ and } |N_G(u) \cap B'| \geq 4r2^{\gamma-(r-1)t}) \leq \mathbb{P}(v \in B')/(2r).
@@ -223,7 +223,7 @@ $$
 \tag{4.1}
 $$
 
-We now bound the two sums separately. If some \(w \in N_G(u) \cap \tilde{B}\) satisfies \(N_G(w) \cap N_G(v) = \{u\}\), then
+We now bound the two sums separately. If some $w \in N_G(u) \cap \tilde{B}$ satisfies $N_G(w) \cap N_G(v) = \{u\}$, then
 
 $$
 \begin{aligned}
@@ -232,13 +232,13 @@ $$
 \end{aligned}
 $$
 
-Since \(d_G(u) \leq 2^{\alpha(u)}\), we have that
+Since $d_G(u) \leq 2^{\alpha(u)}$, we have that
 
 $$
 \sum_{\substack{w \in N_G(u) \cap \tilde{B}:\\ N_G(w) \cap N_G(v) = \{u\}}} \mathbb{P}(w \in B' \mid v \in B') \leq d_G(u)2^{\gamma-\alpha(u)-(r-1)t} \leq 2^{\gamma-(r-1)t}.
 $$
 
-As for the second sum, the number of \(w \in N_G(u) \cap \tilde{B}\) with \(N_G(w) \cap N_G(v) \neq \{u\}\) is at most \(r2^{rs-(r-1)t}\). Indeed, \(v\) has \(r\) neighbours in \(G\), so there are at most \(r\) ways to choose a vertex \(u' \in N_G(w) \cap N_G(v) \setminus \{u\}\), and, by assumption, any such \(u'\) has at most \(2^{rs-(r-1)t}\) common neighbours with \(u\). Now, using \(\gamma \geq (s+1)r\), we have \(2^{\gamma-(r-1)t} \geq 2^r2^{rs-(r-1)t} \geq r2^{rs-(r-1)t}\). This implies that
+As for the second sum, the number of $w \in N_G(u) \cap \tilde{B}$ with $N_G(w) \cap N_G(v) \neq \{u\}$ is at most $r2^{rs-(r-1)t}$. Indeed, $v$ has $r$ neighbours in $G$, so there are at most $r$ ways to choose a vertex $u' \in N_G(w) \cap N_G(v) \setminus \{u\}$, and, by assumption, any such $u'$ has at most $2^{rs-(r-1)t}$ common neighbours with $u$. Now, using $\gamma \geq (s+1)r$, we have $2^{\gamma-(r-1)t} \geq 2^r2^{rs-(r-1)t} \geq r2^{rs-(r-1)t}$. This implies that
 
 $$
 \sum_{\substack{w \in N_G(u) \cap \tilde{B}:\\ N_G(w) \cap N_G(v) \neq \{u\}}} \mathbb{P}(w \in B' \mid v \in B') \leq r2^{rs-(r-1)t} \leq 2^{\gamma-(r-1)t}.
