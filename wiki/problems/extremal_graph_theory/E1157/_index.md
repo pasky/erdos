@@ -7,7 +7,7 @@ desc: |
   conjecture is proved for $s=3$ and, in its linear form, for large uniformity,
   but open for $3$-graphs with $k=s+3$ and $s\ge4$. A 2026 preprint claims the
   asymptotics whenever $(rs-k)/(s-1)$ is an integer $t$ with $2\le t<r$, except
-  for $3$-graphs with even $s\ge4$.
+  for $3$-graphs with even $s$.
 tags:
 - Hypergraphs
 - Turán numbers
@@ -212,9 +212,15 @@ $\mathrm{ex}_r(n,\mathcal F)$ for all $r$, $k$ and $s$. A theorem that
 determines it, exactly or to first order, on a range of the parameters
 answers part of that question and is a partial claim here, as
 [[problems/extremal_graph_theory/E1157/claims/2026_09_29_chao_huang_liu|Chao, Huang and Liu's integer-exponent asymptotics]]
-are. Problems 716 and 1076 carry as claims the cases the site routes to them,
-such as the limits for 3-graphs at $k=s+2$ recorded below. The other earlier
-determinations for particular parameters, such as the graph values in
+are. Problems 716 and 1076 carry as claims the earlier results on the cases
+the site routes to them, such as the refereed limits for 3-graphs at $k=s+2$
+recorded below. The 2026 preprints on that case, the 3-graph part of [CHL26]
+and [BPSWZ26], are recorded on Problem 1076 as
+[[problems/set_systems/E1076/claims/2026_09_29_chao_huang_liu|Chao, Huang and Liu's]]
+and
+[[problems/set_systems/E1076/claims/2026_10_02_bodnar_pikhurko_sun_wang_zeng|Bodnár, Pikhurko, Sun, Wang and Zeng's]]
+claim pages, rejected there because they answer the site's wording. The other
+earlier determinations for particular parameters, such as the graph values in
 Sections 2--3 of [BES73], have no claim pages here (Remaining gaps).
 
 **The general lower bound.**
@@ -304,21 +310,25 @@ $2\le t<r$, one vertex below the conjecture's range, the order of
 $\mathrm{ex}_r(n,\mathcal F)$ is $n^t$ (Status above), and the question becomes
 the limit $\pi(r,t,s)=\lim_{n\to\infty}n^{-t}\mathrm{ex}_r(n,\mathcal F)$.
 [[problems/extremal_graph_theory/E1157/claims/2026_09_29_chao_huang_liu|Theorem 1.1 of [CHL26]]]
-(p. 2) states that for all $r>t\ge2$ and $s\ge2$ the limit exists and equals
-$2/(t!(2\binom rt-1))$ for odd $s$ and $1/(t!\binom rt)$ for even $s$ when
-$r\ge4$. Theorem 1.2 (p. 2) gives $\pi(3,2,s)>1/6$ for every even $s\ge4$, and
-Section 5 (p. 20) adds $\pi(3,2,s)\le1/5$. The paper's $f^{(r)}(n;s,k)$ has $s$
-vertices and $k$ edges, the site's $k$ and $s$. The even-$s$ value is the
-packing coefficient of a high-girth partial Steiner system. The odd-$s$ value
-is larger and comes from packing pairs of edges that meet in $t$ vertices,
-with their extra $t$-sets shared among many pairs. The paper cites as earlier
-values Rödl's case $s=2$ and Glock, Joos, Kim, Kühn, Lichev and Pikhurko's
-cases $s\in\{3,4\}$ for every $r>t\ge2$, and for 3-graphs the cases
-$2\le s\le7$; at $r=3$ its odd value $1/5$ agrees with the limits at $s=3$, $5$
-and $7$ below. Acceptance evidence: none, an unrefereed preprint (v1 of 29
-September 2026, the only version). Read depth: the statements checked, the
-proof of Theorem 2.3 and the closing count of Theorem 2.4 checked, and the
-rest read through or for structure, as the claim page states.
+(p. 2) states that for all $r>t\ge2$ and $s\ge2$ the limit equals
+$2/(t!(2\binom rt-1))$ for odd $s$, and $1/(t!\binom rt)$ for even $s$ when
+$r\ge4$. It does not cover $3$-graphs with even $s$, where the limit exists by
+Delcourt and Postle's theorem and $\pi(3,2,2)=1/6$ is Rödl's packing value;
+with that theorem it gives the existence of the limit for all $r>t\ge2$ and
+$s\ge2$ (p. 2). Theorem 1.2 (p. 2) gives $\pi(3,2,s)>1/6$ for every even
+$s\ge4$, and Section 5 (p. 20) adds $\pi(3,2,s)\le1/5$. The paper's
+$f^{(r)}(n;s,k)$ has $s$ vertices and $k$ edges, the site's $k$ and $s$. The
+even-$s$ value is the packing coefficient of a high-girth partial Steiner
+system. The odd-$s$ value is larger and comes from packing pairs of edges that
+meet in $t$ vertices, with their extra $t$-sets shared among many pairs. The
+paper cites as earlier values Rödl's case $s=2$ and Glock, Joos, Kim, Kühn,
+Lichev and Pikhurko's cases $s\in\{3,4\}$ for every $r>t\ge2$, and for
+3-graphs the cases $2\le s\le7$; at $r=3$ its odd value $1/5$ agrees with the
+limits at $s=3$, $5$ and $7$ below. Acceptance evidence: none, an unrefereed
+preprint (v1 of 29 September 2026, the only version). Read depth: the
+statements checked, the proof of Theorem 2.3 and the closing count of Theorem
+2.4 checked, and the rest read through or for structure, as the claim page
+states.
 
 **The quadratic regime (leads).** For $r=3$ and $k=s+2$, where [BES73] gives
 $\Theta(n^2)$, the question becomes the value
@@ -331,7 +341,7 @@ Kim, Kühn, Lichev and Pikhurko, arXiv:2209.14177,
 $f^{(3)}(n;6,4)=(\frac7{36}+o(1))n^2$), and $s=5$, $6$ and $7$ are due to
 Glock, Kim, Lichev, Pikhurko and Sun (arXiv:2403.04474). [CHL26] claims the
 limit $1/5$ for every odd $s$ (above), and Theorem 1.1 of [BPSWZ26] (p. 2)
-proves the value $1/5$ at $s=9$ independently, by a finite-field construction
+claims the value $1/5$ at $s=9$ independently, by a finite-field construction
 for the lower bound and computer-solved linear programs for the upper bound.
 For $s=8$, Pikhurko and Sun (arXiv:2506.01739) determine the limit for every
 uniformity at least 4 and give for 3-graphs only the lower bound $3/16$, which
@@ -413,8 +423,11 @@ the dense-linear results are recorded from abstracts, except [CHL26] and
 recorded above and not resolved with the site. (6) The integer-exponent
 asymptotics rest on the unrefereed preprint [CHL26]. (7) The earlier
 determinations for particular parameters outside the cases routed to
-Problems 716 and 1076, such as the graph values of [BES73] and the values at
-$s\le4$ for every $r>t\ge2$ that [CHL26] cites, have no claim pages here.
+Problems 716 and 1076 have no claim pages here: the graph values of [BES73],
+the values at $s\le4$ for every $r>t\ge2$ that [CHL26] cites, Glock, Kim,
+Lichev, Pikhurko and Sun's limits at $s=5$ and $s=7$ and Pikhurko and Sun's
+at $s=8$ for every uniformity $r\ge4$, and the linear case $t=1$, which
+[CHL26] (p. 2) calls elementary and completely understood.
 
 ## Known results
 
@@ -440,7 +453,7 @@ $s\le4$ for every $r>t\ge2$ that [CHL26] cites, have no claim pages here.
 - [[problems/extremal_graph_theory/E1157/claims/2026_09_29_chao_huang_liu|Chao--Huang--Liu, Theorems 1.1 and 1.2]]
   (2026 preprint, unrefereed): $\lim n^{-t}\mathrm{ex}_r(n,\mathcal F)$ at
   $k=(r-t)s+t$ for every $r>t\ge2$ and $s\ge2$, except $3$-graphs with even
-  $s\ge4$, where the limit lies in $(1/6,1/5]$.
+  $s$, where for $s\ge4$ it shows that the limit lies in $(1/6,1/5]$.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

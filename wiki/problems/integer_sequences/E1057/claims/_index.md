@@ -1,6 +1,6 @@
 ---
 name: problems/integer_sequences/E1057/claims
-desc: ...
+desc: The 1 claim page of Problem 1057, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-13T10:25:58Z

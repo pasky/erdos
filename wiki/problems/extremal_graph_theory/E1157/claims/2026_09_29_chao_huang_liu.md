@@ -5,8 +5,8 @@ desc: |
   An arXiv preprint of Chao, Huang and Liu claims the limit of
   $\mathrm{ex}_r(n,\mathcal F)/n^t$ whenever $k=(r-t)s+t$ with $r>t\ge2$, in
   closed form depending on the parity of $s$, except for $3$-graphs with even
-  $s\ge4$, where it shows that the limit exceeds $1/6$. This answers the problem
-  to first order on that family only.
+  $s$, where it shows for $s\ge4$ that the limit exceeds $1/6$. This answers the
+  problem to first order on that family only.
 authors:
 - Ting-Wei Chao
 - Xinqi Huang
@@ -20,7 +20,7 @@ links:
   kind: preprint
   date: 2026-09-29
 created: 2026-10-13T10:10:58Z
-updated: 2026-10-13T10:10:58Z
+updated: 2026-10-13T12:26:33Z
 ---
 
 ***
@@ -37,7 +37,7 @@ uses the site's letters. When $(rs-k)/(s-1)$ is an integer $t$ with
 $2\le t<r$, that is $k=(r-t)s+t$, the order of $\mathrm{ex}_r(n,\mathcal F)$ is
 $n^t$, and the paper asks for
 $\pi(r,t,s)=\lim_{n\to\infty}n^{-t}\mathrm{ex}_r(n,\mathcal F)$. Theorem 1.1
-(p. 2): for all $r>t\ge2$ and $s\ge2$ the limit exists and
+(p. 2): for all $r>t\ge2$ and $s\ge2$,
 
 $$
 \pi(r,t,s)=\frac{2}{t!\,\bigl(2\binom rt-1\bigr)}\ \text{for odd }s,\qquad
@@ -45,9 +45,14 @@ $$
 $$
 
 For $3$-graphs ($r=3$, $t=2$, $k=s+2$) this gives $\pi(3,2,s)=1/5$ for every
-odd $s$. Theorem 1.2 (p. 2): $\pi(3,2,s)>1/6$ for every even $s\ge4$. With
-Theorems 2.3 and 2.4 this gives $1/6<\pi(3,2,s)\le1/5$ (Section 5, p. 20), and
-Question 5.1 asks for the value at even $s\ge8$.
+odd $s$. The theorem does not cover $3$-graphs with even $s$. There the limit
+exists by Delcourt and Postle's theorem, which the paper cites, and
+$\pi(3,2,2)=1/6$ is Rödl's packing value; the paper notes (p. 2) that with
+Delcourt and Postle's theorem, Theorem 1.1 gives the existence of the limit
+for all $r>t\ge2$ and $s\ge2$. Theorem 1.2 (p. 2): $\pi(3,2,s)>1/6$ for
+every even $s\ge4$. With Theorems 2.3 and 2.4 this gives
+$1/6<\pi(3,2,s)\le1/5$ (Section 5, p. 20), and Question 5.1 asks for the
+value at even $s\ge8$.
 
 The upper bounds are in Section 2. Theorem 2.3 (p. 5) deletes at most
 $(s-1)^2\binom n{t-1}$ edges to destroy every small dense subgraph, which the
@@ -69,15 +74,15 @@ from the seven-edge configuration of that paper (Definition 3.19, Proposition
 3.20). The paper's statement of AI use (p. 5) says that the lower bounds were
 found without AI, that ChatGPT-5.6 served as a collaborative tool for the upper
 bounds and the manuscript, and that the authors verified all arguments. At
-$r=3$ the
-odd-$s$ value $1/5$ agrees with the refereed limits at $s=3$, $5$ and $7$ that
-[[problems/set_systems/E1076/_index|Problem 1076]] records.
+$r=3$ the odd-$s$ value $1/5$ agrees with the refereed limits at $s=3$, $5$
+and $7$ that [[problems/set_systems/E1076/_index|Problem 1076]] records.
 
 **Covers.** The first-order asymptotics of $\mathrm{ex}_r(n,\mathcal F)$ on the
 integer-exponent family $k=(r-t)s+t$ with $r>t\ge2$ and $s\ge2$, one vertex
 below the range $k\ge(r-t)s+t+1$ of the Brown–Erdős–Sós conjecture, except
-$3$-graphs with even $s\ge4$, where only $1/6<\pi(3,2,s)\le1/5$ is shown. The
-$3$-graph part, $k=s+2$, is the case the site routes to Problem 1076. Not
+$3$-graphs with even $s$: there the value at $s=2$ is Rödl's, and for even
+$s\ge4$ only $1/6<\pi(3,2,s)\le1/5$ is shown. The $3$-graph part, $k=s+2$, is
+the case the site routes to Problem 1076. Not
 covered: the exact values of $\mathrm{ex}_r(n,\mathcal F)$, every other triple
 $(r,k,s)$, the conjecture itself, and the linear case $t=1$, which the paper
 calls elementary and cites. The problem stays open.
@@ -96,7 +101,7 @@ problem's statement. The proof of Theorem 2.3 and the closing count of Theorem
 2.4 were checked here; the acyclicity arguments of Theorems 2.4 and 2.6, the
 random alteration of Lemmas 3.8 and 3.13 and the proof of Proposition 3.20 were
 read through but not checked. Independently, Bodnár, Pikhurko, Sun, Wang and
-Zeng (arXiv:2610.03323v1, 2 October 2026, Theorem 1.1) prove the single value
+Zeng (arXiv:2610.03323v1, 2 October 2026, Theorem 1.1) claim the single value
 $\pi(3,2,9)=1/5$ by another construction; that agreement is not review. The
 site's page for the problem was last edited on 24 January 2026, before the
 result, and no proof claim on the site records it; the site labeled the

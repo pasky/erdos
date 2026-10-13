@@ -12,14 +12,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T15:37:17Z
+updated: 2026-10-13T12:25:21Z
 ---
 
 # Problem 824
 
 [[problems/arithmetic_functions/_index|..]]
 
-[[problems/arithmetic_functions/E0824/claims/_index|claims/]]: The 0 claim pages of Problem 824, one per claimant's result; the problem's standing derives from them.
+[[problems/arithmetic_functions/E0824/claims/_index|claims/]]: The 1 claim page of Problem 824, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -47,8 +47,9 @@ so the claim has no claim page. The proof-claims thread had no comments when the
 site froze it on 6 October 2026.
 
 A conditional answer yes is claimed by Shisheng Li and Zhong Zhuang in a draft
-of 11 October 2026, registered with the Palomar registry the same day, on
-[[problems/arithmetic_functions/E0824/claims/2026_10_11_li_zhuang|Li and Zhuang 2026]].
+first posted on 7 October 2026 and registered, in its version of 11 October,
+with the Palomar registry, on
+[[problems/arithmetic_functions/E0824/claims/2026_10_07_li_zhuang|Li and Zhuang 2026]].
 Its Hypothesis $\mathrm{A}^+$ asks, for every fixed $0<\delta<1/4$, for
 $y^{1-o(1)}$ primes $p\le5y$ with $P^+(p+1)\le y^\delta$, where $P^+$ is the
 largest prime factor. Its Theorem 1.3, proved in Lean for natural $x$, derives

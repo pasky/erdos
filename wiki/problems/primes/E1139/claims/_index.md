@@ -1,6 +1,6 @@
 ---
 name: problems/primes/E1139/claims
-desc: The 1 claim page of Problem 1139, one per claimant's result; the problem's standing derives from them.
+desc: The 2 claim pages of Problem 1139, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z

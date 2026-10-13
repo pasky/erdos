@@ -6,7 +6,7 @@ desc: |
   and edge counts, cycles and girth, degree and subgraph-counting conditions,
   planarity, and structural questions such as the Erdos-Hajnal conjecture.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T11:00:13Z
+updated: 2026-10-13T12:25:21Z
 ---
 
 # Extremal and Structural Graph Theory
@@ -635,7 +635,7 @@ an $r$-graph on $n$ vertices can have with no $k$ vertices spanning $s$ edges,
 the Brown–Erdős–Sós problem. The associated conjecture is proved for $s=3$ and,
 in its linear form, for large uniformity, but open for $3$-graphs with $k=s+3$
 and $s\ge4$. A 2026 preprint claims the asymptotics whenever $(rs-k)/(s-1)$ is
-an integer $t$ with $2\le t<r$, except for $3$-graphs with even $s\ge4$.
+an integer $t$ with $2\le t<r$, except for $3$-graphs with even $s$.
 
 [[problems/extremal_graph_theory/E1158/_index|E1158/]]: Asks whether Erdős's
 1964 upper exponent for the Turán number of $K_t(r)$, the complete $t$-partite

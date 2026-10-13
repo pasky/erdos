@@ -40,11 +40,11 @@ part of the question: $f(n)\ge(\tfrac32-o(1))n$ is known, so the $O(n)$
 cannot be replaced by $n$, and the conjectured sharp constant is not fixed by
 the statement.
 
-**Status.** OPEN, the site's label (page last edited 1 April 2026; proof-claim
-tab read 2026-10-07). The derived standing of this page is solved, proved. The
-two differ because the standing rests on a theorem the label does not reflect.
-The site's page was last edited before any of the 2026 claims, and the
-release's theorem below is not on the site's proof-claim tab. Theorem 1.1 of
+**Status.** The site labeled the problem OPEN (page last edited 1 April
+2026). The derived standing of this page is solved, proved. The two differ
+because the standing rests on a theorem the label did not reflect. The site's
+page was last edited before any of the 2026 claims, and the release's theorem
+below was never on the site's proof-claim tab (read 2026-10-07). Theorem 1.1 of
 the OpenAI mathematics release's preprint of 24 September 2026 gives an
 absolute $C$ with $f(n)\le Cn$ for every $n$. It is recorded as accepted on
 [[problems/extremal_graph_theory/E0184/claims/2026_09_24_openai|its claim page]],

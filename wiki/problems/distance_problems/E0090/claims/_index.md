@@ -1,6 +1,6 @@
 ---
 name: problems/distance_problems/E0090/claims
-desc: The 5 claim pages of Problem 90, one per claimant's result; the problem's standing derives from them.
+desc: The 6 claim pages of Problem 90, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z

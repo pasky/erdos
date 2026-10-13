@@ -15,14 +15,14 @@ parts:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T14:38:26Z
+updated: 2026-10-13T12:25:21Z
 ---
 
 # Problem 704
 
 [[problems/discrete_geometry/_index|..]]
 
-[[problems/discrete_geometry/E0704/claims/_index|claims/]]: The 2 claim pages of Problem 704, one per claimant's result; the problem's standing derives from them.
+[[problems/discrete_geometry/E0704/claims/_index|claims/]]: The 3 claim pages of Problem 704, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -40,9 +40,8 @@ exist?
 
 **Status.** Open. The site labeled the problem OPEN (page last edited 10 April
 2026). Its proof-claims thread carried no claim when the site froze it on 6
-October 2026. The
-problem's three questions are listed as its parts. The accepted partial claims
-of
+October 2026. The problem's three questions are listed as its parts. The
+accepted partial claims of
 [[problems/discrete_geometry/E0704/claims/1981_12_01_frankl_wilson|Frankl and Wilson]]
 and
 [[problems/discrete_geometry/E0704/claims/2000_04_30_raigorodskii|Raigorodskii]]

@@ -1,10 +1,10 @@
 ---
 name: problems/unit_fractions/E0293/claims
-desc: The 3 claim pages of Problem 293, one per claimant's result; the problem's standing derives from them.
+desc: The 4 claim pages of Problem 293, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T08:47:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-13T12:25:21Z
 ---
 
 # problems/unit_fractions/E0293/claims
@@ -25,5 +25,10 @@ some $k$-term decomposition of $1$. So $v(k)$ exceeds that bound.
 $e^{e^{k/600}}\le v(k)\le1+k^{2^{k-1}}$ for large $k$, with the liminf and
 limsup of $\log\log v(k)/k$ between $\log2/257$ and $\log2$. It is accepted as
 a partial answer.
+
+[[problems/unit_fractions/E0293/claims/2026_10_10_van_doorn|2026_10_10_van_doorn]]: Wouter van Doorn's forum post of 10 October 2026 claims that his write-up on
+Problem 304, with a greedy start that never takes $1/b$, gives
+$v(k)>e^{e^{ck}}$ for some $c>0$. The write-up does not carry out this step,
+so the claim is a sketch; it is partial and pending.
 
 ***

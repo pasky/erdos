@@ -10,14 +10,14 @@ tags:
 status: claimed
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T10:25:58Z
+updated: 2026-10-13T12:25:21Z
 ---
 
 # Problem 1057
 
 [[problems/integer_sequences/_index|..]]
 
-[[problems/integer_sequences/E1057/claims/_index|claims/]]: ...
+[[problems/integer_sequences/E1057/claims/_index|claims/]]: The 1 claim page of Problem 1057, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -102,12 +102,15 @@ statement is the question above with the same quantity, limit and polarity
 records the file, its target and what it inlines]]). It follows the method of
 [AGP94], building Carmichael numbers from primes with smooth predecessors,
 and supplies both inputs in Lean: a zero-free half-plane
-$\operatorname{Re}s>23/24$ for all Dirichlet $L$-functions, taken from the
-OpenAI release's Lean formalization of its zero-free half-plane work, and a
-supply of primes with smooth predecessors, which the file proves itself; it
-names neither manuscript above. This corpus has neither built nor replayed
-the file, and no refereed publication or independent review exists, so the
-claim is pending.
+$\operatorname{Re}s>23/24$ for the nonprincipal Dirichlet $L$-functions,
+derived from the OpenAI release's Lean formalization of its zero-free
+half-plane work, and a supply of primes with smooth predecessors, which the
+file proves itself; it names neither manuscript above. The record was
+approved on 12 October 2026 but not certified when read on 13 October 2026
+(the corpus has so far recorded certified Conjectures.io records as
+`reviewed`), no refereed publication or review
+outside the bounty site exists, and this corpus has neither built nor
+replayed the file, so the claim is pending.
 
 <!-- BEGIN problem library links -->
 

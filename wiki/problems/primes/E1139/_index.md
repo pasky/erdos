@@ -10,14 +10,14 @@ tags:
 status: claimed
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:24:20Z
+updated: 2026-10-13T12:25:21Z
 ---
 
 # Problem 1139
 
 [[problems/primes/_index|..]]
 
-[[problems/primes/E1139/claims/_index|claims/]]: The 1 claim page of Problem 1139, one per claimant's result; the problem's standing derives from them.
+[[problems/primes/E1139/claims/_index|claims/]]: The 2 claim pages of Problem 1139, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -58,16 +58,15 @@ https://www.erdosproblems.com/1139.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04; thread accessed 2026-10-07)
-asks whether the gaps between consecutive integers with at most two prime
-factors exceed every constant multiple of $\log k$ infinitely often, $k$
-the index; the site states the problem without commentary. Price's claim is
-the only proof claim, and its page records the route (a Chinese-remainder
+The site's formulation (accessed 2026-09-04; thread accessed 2026-10-07) asks
+whether the gaps between consecutive integers with at most two prime factors
+exceed every constant multiple of $\log k$ infinitely often, $k$ the index; the
+site states the problem without commentary. Price's claim is the only entry on
+the site's proof-claims tab, and its page records the route (a Chinese-remainder
 modulus making $N+n$ have at least three prime factors for every offset
-$n\le Y$, with the Green--Tao theorem on linear equations in primes behind
-the covering) and its standing: a thread comment reports a screening check
-with no issues found, which is not a review, and the site did not accept
-it.
+$n\le Y$, with the Green--Tao theorem on linear equations in primes behind the
+covering) and its standing: a thread comment reports a screening check with no
+issues found, which is not a review, and the site did not accept it.
 
 Linmiao Xu's Lean development, registered in the Palomar registry on 6
 October 2026 and recorded on
@@ -81,9 +80,11 @@ development takes that asymptotic as a hypothesis, stated for the fixed
 systems of pairwise independent forms the proof uses. Green and Tao's Main
 Theorem (2010), unconditional since Green--Tao and Green--Tao--Ziegler
 (2012), proves such statements, so the claim page scopes the claim as full,
-resting on a published theorem; the match of the hypothesis to that theorem
-was checked here for the one-pattern systems and not clause by clause for
-the paired ones. Without the hypothesis the development proves that the
+resting on a published theorem. The match of the hypothesis to that theorem
+was checked here by reading the definitions for the one-pattern systems and
+by a second reading for the paired ones, with the Jacobian factor of the
+shared-target field checked by hand; these readings are the corpus's own,
+not a review. Without the hypothesis the development proves that the
 limsup is at least some $A>1$, by extending the double covering of
 [[problems/integer_sequences/E0689/_index|Problem 689]]. The registry's
 challenge comparison and axiom check cover only these unconditional
@@ -107,4 +108,4 @@ the open technical point and claims no proof.
 proof-claims tab, and the formal-conjectures statement file at the pinned
 commit; no literature survey of known results beyond them. Xu's Palomar
 registry entry and the development's repository at its pinned commit were
-read on 2026-10-13.
+also read.

@@ -1,6 +1,6 @@
 ---
 name: problems/discrete_geometry/E0704/claims
-desc: The 2 claim pages of Problem 704, one per claimant's result; the problem's standing derives from them.
+desc: The 3 claim pages of Problem 704, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T11:54:58Z

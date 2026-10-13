@@ -9,14 +9,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T13:36:53Z
+updated: 2026-10-13T12:25:21Z
 ---
 
 # Problem 120
 
 [[problems/analysis/_index|..]]
 
-[[problems/analysis/E0120/claims/_index|claims/]]: The 5 claim pages of Problem 120, one per claimant's result; the problem's standing derives from them.
+[[problems/analysis/E0120/claims/_index|claims/]]: The 6 claim pages of Problem 120, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -119,8 +119,7 @@ later over a gap in its Proposition 3.3; its
 [[problems/analysis/E0120/claims/2020_01_08_cruz_lai_pramanik|claim page]]
 records the claim and the withdrawal. Two arXiv preprints of 2026 that
 predate the release, both cited in its geometric manuscript, give further
-special cases. Mora
-Cuellar, Iosevich, Kulkarni, Rojas Aravena and Yavicoli
+special cases. Mora Cuellar, Iosevich, Kulkarni, Rojas Aravena and Yavicoli
 ([arXiv:2607.03584](https://arxiv.org/abs/2607.03584), 3 July 2026) state that
 for every infinite $A\subseteq\mathbb{R}$, every $a\ne0$ and every $0<|r|<1$
 neither $\{ar^n:n\ge1\}+A$ nor $\{ar^n:n\ge1\}-A$ is measure universal, and the

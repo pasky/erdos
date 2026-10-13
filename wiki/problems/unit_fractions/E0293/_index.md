@@ -11,14 +11,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-13T12:25:21Z
 ---
 
 # Problem 293
 
 [[problems/unit_fractions/_index|..]]
 
-[[problems/unit_fractions/E0293/claims/_index|claims/]]: The 3 claim pages of Problem 293, one per claimant's result; the problem's standing derives from them.
+[[problems/unit_fractions/E0293/claims/_index|claims/]]: The 4 claim pages of Problem 293, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -146,7 +146,7 @@ says "It is easy to see that $v(n)>cn!$ using results of Bleicher and
 Erdős" with all three papers cited, and adds that $v(n)$ "may" grow "more
 like $2^{2^{\sqrt n}}$ or $2^{2^{n(1-\varepsilon)}}$".
 
-**Claims.** Three claim pages, all partial, so the derived standing is open.
+**Claims.** Four claim pages, all partial, so the derived standing is open.
 The first,
 [[problems/unit_fractions/E0293/claims/2025_12_26_van_doorn_tang|van Doorn and Tang's Theorem 1.1 (26 December 2025)]],
 status accepted on `refereed` evidence, claim proved: $v(k)\ge e^{ck^2}$ for
@@ -165,7 +165,11 @@ unreviewed outside the repository and attributed by the release to an internal
 model. Its lower bound replaces the published $e^{ck^2}$ for large $k$, implies
 the claimed doubly exponential bound of the van Doorn note and the superseded
 $\exp(k^A)$ deduction below, and rules out the monograph's $2^{2^{\sqrt n}}$
-guess; its upper bound is weaker than the recorded one.
+guess; its upper bound is weaker than the recorded one. The fourth,
+[[problems/unit_fractions/E0293/claims/2026_10_10_van_doorn|van Doorn's forum claim of 10 October 2026]],
+status claimed, claim proved: $v(k)>e^{e^{ck}}$ for some $c>0$, stated as a
+consequence of his write-up on Problem 304 and a sketch (see Connection to
+Problem 304 below).
 
 **Bounds.** The known bounds are two-sided: $e^{e^{k/600}}\le v(k)\le
 c_0^{(2/5+o(1))2^k}$ for all large $k$, with $c_0=1.26408\ldots$ the Vardi
@@ -256,16 +260,17 @@ upper bounds for $N(b-1,b)$; conversely the authors write that if the
 conjecture $N(b)\ll\log\log b$ of Problem 304 holds, "it seems likely" that
 their method gives $v(k)\ge e^{e^{ck}}$. The first direction is a two-line
 argument; the second is a stated expectation that the release's Corollary 1.3
-realizes by its own route (the claim page above). Neither changes the
-status.
-Van Doorn's forum post of 10 October 2026 announcing the write-up recorded on
+realizes by its own route (the claim page above). Neither changes the status.
+Erdős's own proof of the lower bound $N(b-1,b)>\log\log b-1$
+([[../library/unit_fractions/erdos_1950_az_egyenlet_egesz_szamu_megoldasairol_diophantine/theorem_2|Theorem 2 of 1950]])
+already runs through the same link. Van Doorn's forum post of 10 October 2026
+announcing the write-up recorded on
 [[problems/unit_fractions/E0304/claims/2026_10_09_van_doorn|Problem 304's claim page]]
 states $v(k)>e^{e^{ck}}$ as a consequence of running its greedy start on
 $(b-1)/b$ without ever taking $1/b$, but the write-up itself proves only the
-bound for $N(b)$ and does not carry out this step.
-Erdős's own proof of the lower bound $N(b-1,b)>\log\log b-1$
-([[../library/unit_fractions/erdos_1950_az_egyenlet_egesz_szamu_megoldasairol_diophantine/theorem_2|Theorem 2 of 1950]])
-already runs through the same link.
+bound for $N(b)$ and does not carry out this step; the post's claim is
+recorded as pending on
+[[problems/unit_fractions/E0293/claims/2026_10_10_van_doorn|its claim page]].
 
 **Finite values (unreviewed leads).** No refereed source tabulates $v(k)$.
 Two AI-assisted computations are recorded here as leads with their own

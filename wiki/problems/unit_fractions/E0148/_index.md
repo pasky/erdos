@@ -10,14 +10,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-13T12:25:21Z
 ---
 
 # Problem 148
 
 [[problems/unit_fractions/_index|..]]
 
-[[problems/unit_fractions/E0148/claims/_index|claims/]]: The 3 claim pages of Problem 148, one per claimant's result; the problem's standing derives from them.
+[[problems/unit_fractions/E0148/claims/_index|claims/]]: The 4 claim pages of Problem 148, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -115,7 +115,7 @@ constant, attributed to Elsholtz and Planitzer [ElPl21]. The form
 $2^{c^{k/\log k}}$ is $\exp(\exp((\log c)\,k/\log k+\log\log2))$, the shape of
 Konyagin's bound; the upper bound's constant is discussed below.
 
-**Claims.** Three claim pages, each accepted, partial and proved:
+**Claims.** Four claim pages, each partial and proved; three are accepted:
 [[problems/unit_fractions/E0148/claims/2014_01_01_konyagin|Konyagin's lower
 bound]] and
 [[problems/unit_fractions/E0148/claims/2020_12_10_elsholtz_planitzer|Elsholtz
@@ -129,7 +129,10 @@ corpus's verification built, their axioms and the comparator challenge that pins
 them; the manuscript is unrefereed, unreviewed outside the repository and
 attributed by the release to an internal model. Its lower half replaces the
 lower bounds below for large $k$; its upper half adds nothing to
-Elsholtz–Planitzer.
+Elsholtz–Planitzer. The fourth,
+[[problems/unit_fractions/E0148/claims/2026_10_10_van_doorn|van Doorn's forum claim of 10 October 2026]],
+is pending: it states $F(k)>e^{e^{ck}}$ for some $c>0$ as a consequence of
+his write-up on Problem 304 and is a sketch (see Lower bound below).
 
 **Origin.** Printed p. 32 of the 1980 monograph defines $\mathcal X_n$ as the
 sets $\{x_1,\ldots,x_n\}$ with $\sum1/x_k=1$ and $0<x_1<\cdots<x_n$, says "it
@@ -187,9 +190,11 @@ $\log\log F(k)\ge ck$ for all large $k$, which exceeds every bound of this
 paragraph; the constant $c$ is not explicit. Van Doorn's forum post of 10
 October 2026 announcing the write-up recorded on
 [[problems/unit_fractions/E0304/claims/2026_10_09_van_doorn|Problem 304's claim page]]
-states $F(k)>e^{e^{ck}}$ as a consequence, through $v(k)>e^{e^{ck}}$ from a
-greedy start that never takes $1/b$, but the write-up itself proves only the
-bound for $N(b)$ of Problem 304 and does not carry out this step.
+states $F(k)>e^{e^{ck}}$ as a consequence, through Problem 293's
+$v(k)>e^{e^{ck}}$ from a greedy start that never takes $1/b$, but the
+write-up itself proves only the bound for $N(b)$ of Problem 304 and does not
+carry out this step; the post's claim is recorded as pending on
+[[problems/unit_fractions/E0148/claims/2026_10_10_van_doorn|its claim page]].
 
 **Upper bound.**
 [[../library/unit_fractions/elsholtz_2021_sums_four_more_unit_fractions_approximate/corollary_3|Elsholtz--Planitzer's

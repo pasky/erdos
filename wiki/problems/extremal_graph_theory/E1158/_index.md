@@ -349,7 +349,7 @@ $t\ge3$, a disproof, or a proof claim.
   paragraph records what each recorded on each date).
 - The primary sources, to the depth stated above: [Er64f] pp. 183--190 (all
   eight pages), [Va99] item 3.65, [CPZ21] pp. 1--3, [Go23] pp. 1--3 and
-  [Me26] in full (both versions, accessed 2026-10-13).
+  [Me26] in full (both versions).
 - Crossref: the records of [CPZ21] (doi:10.19086/da.28336), of [Go23]'s
   journal version and its corrigendum, and a bibliographic query for
   Gordeev's title.

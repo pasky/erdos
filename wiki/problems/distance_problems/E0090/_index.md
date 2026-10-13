@@ -10,14 +10,14 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-13T12:25:21Z
 ---
 
 # Problem 90
 
 [[problems/distance_problems/_index|..]]
 
-[[problems/distance_problems/E0090/claims/_index|claims/]]: The 5 claim pages of Problem 90, one per claimant's result; the problem's standing derives from them.
+[[problems/distance_problems/E0090/claims/_index|claims/]]: The 6 claim pages of Problem 90, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -125,6 +125,19 @@ unordered pairs changes only the constant. Its complete selected chain, exact
 numerical certificate, and transfer to this problem are author-recorded
 relative to the external results named on the linked lemma pages.
 
+Two distinct qualitative fixed-power records also prove the disproof. The
+original OpenAI report's
+[[../library/discrete_geometry/openai_2026_planar_point_sets_many_unit_distances/theorem_1_1|Theorem 1.1]]
+gives an absolute $\delta>0$ and infinitely many $n$ with
+$\nu(n)\geq n^{1+\delta}$. The later human companion's
+[[../library/discrete_geometry/alon_2026_remarks_disproof_unit_distance_conjecture/theorem_1_1_e90_e92|Theorem 1.1]]
+gives a sequence $P_i$ with $|P_i|\to\infty$ and at least
+$|P_i|^{1+\varepsilon}$ unordered unit pairs for a fixed $\varepsilon>0$. The
+original branch and its exact E90 transfer have an independent review at the
+limits stated on its result pages, retained as the
+[[../library/discrete_geometry/openai_2026_planar_point_sets_many_unit_distances/evidence/verify/full_review|full review]];
+the companion chain is author-recorded.
+
 The largest exponent claimed is $1.043171$, by Theorem 1.1 of Naslund's *An
 Exponent of 1.043 for the Unit Distance Problem* (8 October 2026), recorded on
 [[problems/distance_problems/E0090/claims/2026_10_08_naslund|Naslund's claim page]]:
@@ -140,19 +153,6 @@ zeta function of a field of degree $8192$, which is not proved in Lean. The
 paper's Table 1 lists the exponents claimed between Sawin's and its own, in
 preprints, online certificates and posts, the largest of them Naslund's
 unpublished $1.0358324$.
-
-Two distinct qualitative fixed-power records also prove the disproof. The
-original OpenAI report's
-[[../library/discrete_geometry/openai_2026_planar_point_sets_many_unit_distances/theorem_1_1|Theorem 1.1]]
-gives an absolute $\delta>0$ and infinitely many $n$ with
-$\nu(n)\geq n^{1+\delta}$. The later human companion's
-[[../library/discrete_geometry/alon_2026_remarks_disproof_unit_distance_conjecture/theorem_1_1_e90_e92|Theorem 1.1]]
-gives a sequence $P_i$ with $|P_i|\to\infty$ and at least
-$|P_i|^{1+\varepsilon}$ unordered unit pairs for a fixed $\varepsilon>0$. The
-original branch and its exact E90 transfer have an independent review at the
-limits stated on its result pages, retained as the
-[[../library/discrete_geometry/openai_2026_planar_point_sets_many_unit_distances/evidence/verify/full_review|full review]];
-the companion chain is author-recorded.
 
 The OpenAI report's statements about automated production, later
 AI-assisted verification and rewriting, external mathematician review, and

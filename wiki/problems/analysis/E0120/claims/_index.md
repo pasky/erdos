@@ -1,10 +1,10 @@
 ---
 name: problems/analysis/E0120/claims
-desc: The 5 claim pages of Problem 120, one per claimant's result; the problem's standing derives from them.
+desc: The 6 claim pages of Problem 120, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-13T10:25:58Z
+updated: 2026-10-13T12:25:21Z
 ---
 
 # problems/analysis/E0120/claims
@@ -40,7 +40,7 @@ pending, and only the ratio $q=1/2$ is formally verified.
 [[problems/analysis/E0120/claims/2026_10_08_jiang_xi|2026_10_08_jiang_xi]]: An arXiv preprint of Jiang and Xi claims that every sequence of positive
 reals tending to $0$ with $\liminf a_{n+1}/a_n>0$ is avoided by a compact
 subset of $[0,1]$ of measure arbitrarily close to $1$. This contains the
-release's geometric and dyadic cases; null sequences whose ratios tend to $0$
-are not covered.
+release's geometric and dyadic cases; null sequences whose terms, in
+decreasing order, have $\liminf a_{n+1}/a_n=0$ are not covered.
 
 ***
