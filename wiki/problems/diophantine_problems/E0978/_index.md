@@ -82,10 +82,16 @@ https://www.erdosproblems.com/978.
   (1967), 21-26.
 
 **Formalization.** Statement in
-[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/978.lean)
-(revision of 2026-09-18): the file states the three questions as
-`erdos_978.parts.i`, `erdos_978.parts.ii` and `erdos_978.parts.iii`, the first
-marked solved and the other two open, all without proof. It also holds three
+[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/978.lean)
+(revision of 2026-10-11): the file states the three questions as
+`erdos_978.parts.i`, `erdos_978.parts.ii` and `erdos_978.parts.iii`, all marked
+solved and all with `sorry` proofs. At the revision of 2026-09-18 the first was
+marked solved and the other two open, with no proof links. The revision of
+2026-10-11 marked `parts.ii` and `parts.iii` `research solved` with
+`answer(True)` and a `formal_proof` attribute linking the release's
+[`allDegrees`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/PowerFree/Main.lean#L144),
+the declaration this corpus built, at the revision pinned on the claim page;
+`parts.i` has no proof link. The file also holds three
 variants: `erdos_978.variants.sub_one`, Erdős 1953's infinitude of
 $(k-1)$-power-free values, and `erdos_978.variants.sub_two`, Browning's case of
 degree at least $9$ for the second question, both marked solved without proof;

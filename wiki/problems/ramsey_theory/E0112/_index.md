@@ -69,7 +69,12 @@ are the following. Erdős and Rado give $k(n,m)\le(2^{m-1}(n-1)^m+n-2)/(2n-3)$
 degree $m-1$ in $n$ with leading coefficient $2^{m-2}/(m-1)!$ (1997). For the
 oriented threshold, Ihringer, Rajendraprasad and Weinert (Discrete Math. 2021)
 give $k(n,3)\le n^2-n+3$, $k(n,3)=\Theta(n^2/\log n)$ and
-$k(n,m)\le2^{17m}n^{m-1}/(\log_2n)^{m-2}$.
+$k(n,m)\le2^{17m}n^{m-1}/(\log_2n)^{m-2}$. With the lower bound
+$k(n,m)\ge R(n,m)$ and the off-diagonal Ramsey lower bounds accepted on Problem
+986, the last bound gives $k(n,m)=n^{m-1+o(1)}$ for every fixed $m$, and, with
+the Lean-checked Ramsey bounds of the OpenAI release accepted there,
+$k(n,m)=n^{m-1}/(\log n)^{m-2+o(1)}$ for every fixed $m\ge5$; the Current
+assessment derives both.
 
 **Source.** [erdosproblems.com/112](https://www.erdosproblems.com/112),
 accessed 2026-09-18: the problem page (labeled OPEN,
@@ -291,16 +296,68 @@ independent set and $m$ the transitive tournament:
   $R(n,m)$; it has the same order $n^{m-1}$ as the Erdős--Rado bound and
   gains the factor $(\log_2n)^{m-2}$ at the cost of the constant $2^{17m}$.
 
-Lower bounds for $m\ge4$ beyond $k(n,m)\ge R(n,m)$ (the underlying graph of a
+**Lower bounds and the exponent of $n$.** No lower bound for $m\ge4$ beyond
+$k(n,m)\ge R(n,m)$ was found in the sources read (the underlying graph of a
 transitive tournament on $m$ vertices is $K_m$, so any orientation of a graph on
 $R(n,m)-1$ vertices with no $K_m$ and no $n$ independent vertices witnesses
 this; the site states the same inequality, and [LaMi97] Theorem 2.4, p. 247,
-records it from Harary and Hell 1974 together with $k(n,m)\le R(n,2^{m-1})$)
-were not found in the sources read. The problem "Determine $k(n,m)$" therefore
-stands at: the trivial columns $m\le2$ and the row $n=1$ known exactly, the
-column $m=3$ known up to a constant factor and exactly for $n\le5$, the column
-$n=2$ exactly for $m\le6$, and the general case bounded above by
-$2^{O(m)}n^{m-1}/(\log n)^{m-2}$ with no matching lower bound.
+records it from Harary and Hell 1974 together with $k(n,m)\le R(n,2^{m-1})$).
+That bound matches the upper bound up to a power of $\log n$, through the
+off-diagonal Ramsey lower bounds recorded on
+[[problems/ramsey_theory/E0986/_index|Problem 986]], which writes $R(s,k)$ with
+$s$ the clique and $k$ the independent set, so that $R(n,m)$ here is its
+$R(m,n)$. Bradač's
+[[../library/ramsey_theory/bradac_2026_off_diagonal_ramsey_numbers/theorem_1_1|Theorem 1.1]]
+(arXiv:2605.28793v3, p. 2) gives, for every $m\ge3$, a constant $c_m>0$ with
+$R(m,n)\ge c_mn^{m-1}/(\log n)^{2m-4}$ for all $n\ge2$. With [IRW21] Theorem
+5.6, for all $m\ge3$ and $n\ge2$,
+
+$$
+c_m\frac{n^{m-1}}{(\log n)^{2m-4}}\le k(n,m)\le
+2^{17m}\frac{n^{m-1}}{(\log_2n)^{m-2}},
+$$
+
+so $k(n,m)=n^{m-1+o(1)}$ as $n\to\infty$ for every fixed $m$. At $m=4$ the
+left side is also Mattheus and Verstraete's
+[[../library/ramsey_theory/mattheus_2023_asymptotics_r_4_t/theorem_1|Theorem 1]],
+$R(4,n)=\Omega(n^3/\log^4n)$ (Ann. of Math. 199 (2024); arXiv:2306.04007v5,
+p. 3), so $n^3/\log^4n\ll k(n,4)\ll n^3/\log^2n$ rests on refereed results
+alone. Both Ramsey results are accepted claims on Problem 986: Mattheus and
+Verstraete's
+([[problems/ramsey_theory/E0986/claims/2023_06_06_mattheus_verstraete|claim page]])
+is refereed, and Bradač's
+([[problems/ramsey_theory/E0986/claims/2026_06_16_bradac|claim page]]) is an
+unrefereed preprint accepted on the site curator's review. The two-line
+deduction is made here. A forum comment of 9 October 2026 by NicoV, on the
+site's blog post about the OpenAI release (thread blog:10, post 9332), named
+this problem among those the release's Ramsey manuscripts would bear on, and
+the curator replied (post 9337) that such consequences are immediate.
+
+**The power of the logarithm.** For $m=3$ it is $1$, by
+$k(n,3)=\Theta(n^2/\log n)$ above. For every fixed $m\ge5$ the two manuscripts
+of the OpenAI release of 24 September 2026, on
+[[../library/ramsey_theory/openai_2026_sharp_logarithmic_exponent_r_5_t/theorem_1_1|$r(5,t)$]]
+and for
+[[../library/ramsey_theory/openai_2026_sharp_logarithmic_exponents_fixed_off_diagonal_ramsey_numbers/theorem_1_1|every fixed $s\ge6$]],
+state $R(m,n)\ge n^{m-1}/(\log n)^{m-2+\varepsilon}$ for every
+$\varepsilon>0$ and all large $n$. With [IRW21] Theorem 5.6 this gives
+$k(n,m)=n^{m-1}/(\log n)^{m-2+o(1)}$, the power $m-2$ that $m=3$ has, where
+Bradač's bound leaves it between $m-2$ and $2m-4$. The manuscripts are
+unrefereed and have no independent review, and the site's curator lists them as
+a proof claim he has not checked (his blog post of 8 October 2026 on the
+release, thread blog:10, whose entry for Problem 986 was added on 9 October).
+Problem 986 accepts them as a partial claim
+([[problems/ramsey_theory/E0986/claims/2026_09_24_openai|claim page]]) on the
+corpus's build and audit of their two Lean declarations, which state these
+lower bounds for the true Ramsey number. Neither manuscript treats $m=4$, where
+the power of the logarithm lies between $2$ and $4$.
+
+The problem "Determine $k(n,m)$" therefore stands at: the trivial columns
+$m\le2$ and the row $n=1$ known exactly, the column $m=3$ known up to a constant
+factor and exactly for $n\le5$, the column $n=2$ exactly for $m\le6$, and every
+column $m\ge4$ known up to a factor polylogarithmic in $n$,
+$k(n,m)=n^{m-1+o(1)}$, the power of the logarithm being $m-2+o(1)$ for $m\ge5$
+on the formalized release claim and between $2$ and $4$ for $m=4$.
 
 **Ordinal side (context).** [IRW21] Theorem 1.4 restates the 1956 Theorem
 25 as $r(\omega m,n)=\omega\,r(I_m,L_n)$ and Theorem 1.5 (Baumgartner) as
@@ -348,6 +405,11 @@ for $k(n,m)$, a new exact value in a refereed source, or a proof claim.
 - Semantic Scholar: the one record citing [IRW21] (a 2018 paper on
   polarized partition relations for order types, Q. J. Math.), not on this
   problem.
+- For the Ramsey lower bounds: Problem 986's page, its claim pages for
+  Mattheus and Verstraete, Bradač and the OpenAI release, and the library
+  result pages linked above; the site's forum thread blog:10 (the curator's
+  post on the release and the posts of 9 October 2026); and the site's page
+  for this problem again on 2026-10-13, unchanged.
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [St59]. The 1956
 paper's Theorem 25 is unread, and [RePa70] was not read for this page either.
@@ -393,6 +455,12 @@ cross-checked against an independent tool; the per-case DRAT proofs were deleted
 after checking, their digests kept. (5) The identification of the site's
 "directed graph" with Erdős and Rado's binary relation, and its equivalence with
 the oriented convention, are checks made here, not statements of the sources.
+(6) The exponent $m-1$ for $m\ge5$, and the power of the logarithm there, rest
+on Ramsey lower bounds recorded at statement depth on Problem 986: Bradač's
+unrefereed preprint, accepted there on the site curator's review, and the
+OpenAI manuscripts, accepted on their Lean declarations with no review of the
+proofs; only the case $m=4$, Mattheus and Verstraete's, is refereed. The
+deduction from them to $k(n,m)$ is this page's.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

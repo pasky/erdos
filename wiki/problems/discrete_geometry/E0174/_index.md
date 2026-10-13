@@ -36,10 +36,18 @@ problem is recorded as solved. It is not a geometric description of the kind
 Graham or Leader, Russell and Walters conjectured (both of which the paper
 refutes, the first in Lean built here, the second as the release's own claim),
 and no procedure for deciding the criterion from numerical data is proved. The
-site's page (last edited 16 October 2025) kept the label OPEN and its curator
-has not commented on the classification or on Pálvölgyi's heptagon; the
-standing here would follow the curator's ruling if the curator reads
-'characterise' more narrowly.
+site labeled the problem OPEN, and its remarks, read 13 October 2026 (page last
+edited 16 October 2025), mention neither the classification nor Pálvölgyi's
+heptagon. The curator's post
+[Erdős problems in the OpenAI proofs](https://www.erdosproblems.com/forum/thread/blog:10)
+(8 October 2026; this problem added on 9 October) lists the classification as
+a claim; the post says that the curator has not yet looked seriously at the
+proofs or checked the Lean, and that it is not an endorsement. Its entry says
+that sphericity "was recently shown to not be sufficient", without naming a
+source, and that work in preparation by Pálvölgyi contains a proof that every
+finite transitive set is Ramsey; it does not say whether the criterion answers
+the question. The standing here would follow the curator's ruling if the
+curator reads 'characterise' more narrowly.
 
 **Formulation.** A copy is a congruent copy at the original scale, as Erdős,
 Graham, Montgomery, Rothschild, Spencer and Straus define it and as the claim
@@ -49,9 +57,9 @@ pages read it; allowing a change of scale would be a different question.
 site's proof-claims thread had no claim as of 6 October 2026. The standing in
 the frontmatter derives from the claim pages. It departs from the label because
 the classification of September 2026 postdates the site's last edit and is
-accepted here on its Lean proof. The site's remarks record neither result of
-September 2026, though Pálvölgyi announced the heptagon in the problem's
-discussion on 23 September 2026.
+accepted here on its Lean proof. The site's remarks, read 13 October 2026,
+record neither result of September 2026, though Pálvölgyi announced the
+heptagon in the problem's discussion on 23 September 2026.
 
 OpenAI's classification of 23 September 2026, recorded on
 [[problems/discrete_geometry/E0174/claims/2026_09_23_openai|its claim page]],
@@ -87,8 +95,8 @@ operations. The August 2026 pyramid papers describe the classification as
 unresolved at their date.
 
 **Source.** [T. F. Bloom, Erdős Problem #174](https://www.erdosproblems.com/174),
-accessed 5 September 2026; the page was last edited on 16 October 2025, so its
-progress list omits several later papers.
+accessed 5 September 2026 and again 13 October 2026; the page was last edited
+on 16 October 2025, so its progress list omits several later papers.
 
 **Formalization.** The classification is kernel-checked in the Lean
 development of OpenAI's release, pinned and described on
@@ -122,8 +130,10 @@ derivation-weighted version of the EGMRSS argument; that proof is unreviewed,
 and its
 [[problems/discrete_geometry/E0174/claims/2026_09_20_palvolgyi|claim page]]
 records it as claimed, with the author's attribution of the proof to ChatGPT.
-Neither result is in the site's remarks or in a journal; Pálvölgyi announced the
-heptagon in the site's discussion of the problem on 23 September 2026.
+Neither result is in the site's remarks (read 13 October 2026) or in a journal;
+Pálvölgyi announced the heptagon in the site's discussion of the problem on 23
+September 2026, and the curator's post of 8 October 2026 lists the
+classification as a claim the curator has not yet checked.
 
 **Search scope.** The search checked primary arXiv records, source manuscripts,
 publisher records and research-announcement leads beyond erdosproblems.com. The

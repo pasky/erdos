@@ -39,8 +39,10 @@ of length $N$ has maximum modulus at most $(1+\eta)\sqrt N$ on the circle. So no
 $c>0$ works. This corpus's verification built its Lean declaration
 `OAI.AsymptoticallyMinimalLittlewood.main` with only the three standard axioms
 and audited its statement. The corpus accepts it on
-[[problems/polynomials/E1150/claims/2026_09_23_openai|the claim page]]. No
-acknowledgment outside this repository is known.
+[[problems/polynomials/E1150/claims/2026_09_23_openai|the claim page]].
+Outside this repository the only acknowledgment known is a catalog label:
+formal-conjectures marked its statement solved on 2026-10-11, linking that
+declaration (see Formalization). No outside review is known.
 
 The site's commentary was written before the release. It restates the question
 as whether ultraflat polynomials with coefficients $\pm1$ exist. It notes that
@@ -71,9 +73,16 @@ accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1150,
 https://www.erdosproblems.com/1150.
 
 **Formalization.** Statement in
-[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1150.lean);
-the file states the problem without a proof and proves only
-the Parseval lower bound $\max\lvert P\rvert\ge\sqrt{n+1}$ for degree $n$. The
+[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/1150.lean)
+(revision of 2026-10-11); the file states the problem without a proof and
+proves only the Parseval lower bound $\max\lvert P\rvert\ge\sqrt{n+1}$ for
+degree $n$. The revision of 2026-10-11 changed `erdos_1150` from
+`research open` with `answer(sorry)` to `research solved` with `answer(False)`
+and a `formal_proof` attribute linking the release's
+[`main`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Analysis/Littlewood/Main.lean#L187)
+at the revision pinned on the claim page; the commit's notes say that the step
+from the declaration's length $N$ to the statement's degree $n$ is not in the
+linked proof, which is the bridge the claim page writes out. The
 release's declaration `OAI.AsymptoticallyMinimalLittlewood.main`, built and
 audited by this corpus's verification against the Statement above, is
 recorded on
@@ -86,8 +95,9 @@ circle against the declaration's pointwise bound.
 ## Current assessment
 
 **Disproved by the OpenAI release's construction of 2026-09-23, whose Lean
-declaration this corpus built and audited (2026-10-07); no acknowledgment
-outside this repository is known.** The question, as the site states it (page
+declaration this corpus built and audited (2026-10-07); outside this
+repository, only formal-conjectures' label of 2026-10-11 acknowledges it.** The
+question, as the site states it (page
 last edited 2026-01-23), asks for one $c>0$ such that every $\pm1$ polynomial of
 every large degree $n$ has maximum modulus above $(1+c)\sqrt n$ on the unit
 circle; the lower bound $\sqrt n$ is Parseval's identity, and the

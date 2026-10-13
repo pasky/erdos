@@ -31,8 +31,14 @@ release of 23 September 2026 answers the question yes. Its manuscript states
 $r_k(N)\le C_kN\exp(-c_k(\log N)^{\varepsilon_k})$ for every fixed $k\ge3$
 (Theorem 1.1) and sums that bound over dyadic intervals (Corollary 1.2). The
 release's Lean proves the yes answer from a weaker bound,
-$r_k(N)\le CN\exp(-c(\log\log N)^{1+\eta})$. This corpus built that declaration,
-checked its axioms and found it identical to the release's comparator challenge.
+$r_k(N)\le CN\exp(-c(\log\log N)^{1+\eta})$. The curator's post
+[Erdős problems in the OpenAI proofs](https://www.erdosproblems.com/forum/thread/blog:10)
+(8 October 2026) makes the same observation: the comparator challenge states
+only the reciprocal-sum question, and the Lean appears to prove only the weaker
+bound. The release's model file states that bound as its
+`QuantitativeDensityBound`, which matches the bound above. This corpus built
+the reciprocal-sum declaration, checked its axioms and found it identical to the
+release's comparator challenge.
 So the result is accepted on
 [[problems/additive_combinatorics/E0003/claims/2026_09_23_openai|its claim page]].
 Theorem 1.1's bound is not formalized. It is a claimed partial result on
@@ -78,12 +84,20 @@ https://www.erdosproblems.com/3.
   theorem. arXiv:2402.17995 (2024).
 
 **Formalization.** Statement in
-[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/3.lean)
-at its commit of 2026-10-06, which states the question as `erdos_3` with
-`answer(sorry)` and a `sorry` body and carries no `formal_proof` attribute;
-its five solved variants are the three-term case and the $r_k$ bounds of
-Kelley--Meka, Green--Tao, Gowers and Leng--Sah--Sawhney recorded in the
-Current assessment.
+[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/3.lean)
+at its commit of 2026-10-11, which states the question as `erdos_3` with a
+`sorry` body. Until that commit `erdos_3` had `answer(sorry)`, the category
+`research open` and no `formal_proof` attribute; the commit marked it
+`research solved` with `answer(True)` and a `formal_proof` attribute linking
+the release's
+[`OAI.Erdos3.manuscriptReciprocalProgressionTheorem`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Results/Conclusions.lean#L38),
+the declaration this corpus built, at the revision pinned on the claim page.
+That declaration states only the reciprocal-sum question, not Theorem 1.1's
+bound. The file's five solved variants are the three-term case and the $r_k$
+bounds of Kelley--Meka, Green--Tao, Gowers and Leng--Sah--Sawhney recorded in
+the Current assessment; since 2026-10-10 the three-term variant carries a
+conditional proof link, which derives it from the Kelley--Meka variant taken as
+a hypothesis.
 
 ## Current assessment
 
@@ -117,7 +131,8 @@ The formal-conjectures file records the three-term case and the four $r_k$
 bounds as its solved variants.
 
 Search scope: the site's page as accessed 2026-09-04 and 2026-10-06, its
-references, the formal-conjectures statement file at its commit of 2026-10-06,
+references, the curator's post on the release of 8 October 2026, the
+formal-conjectures statement file at its commits of 2026-10-06 and 2026-10-11,
 and the OpenAI release of 23 September 2026 at the revision pinned on the claim
 page.
 <!-- BEGIN problem library links -->

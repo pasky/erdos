@@ -99,12 +99,20 @@ Bloom, Erdős Problem #416, https://www.erdosproblems.com/416, accessed
   $\phi(n)$. Bull. Amer. Math. Soc. (1929), 832-836.
 
 **Formalization.** Statement in the file
-[`ErdosProblems/416.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/416.lean)
-of formal-conjectures as of its last change, 18 September 2026 (the same on
-`main` through 2026-10-07): `erdos_416.parts.i` (the doubling limit) and
-`erdos_416.parts.ii` (an asymptotic formula, with `answer(sorry)`), both marked
-`research open` and neither carrying a `formal_proof` attribute. The
-Conjectures.io proof closes `parts.i` exactly: line 64567 of the accepted file
+[`ErdosProblems/416.lean`](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/416.lean)
+of formal-conjectures as of its change of 11 October 2026:
+`erdos_416.parts.i` (the doubling limit) and `erdos_416.parts.ii` (an
+asymptotic formula, with `answer(sorry)`). Before that change both were marked
+`research open` and neither carried a `formal_proof` attribute. The change
+marked `parts.i` `research solved`, added the variant
+`erdos_416.variants.regularly_varying` ($V(cx)/V(x)\to c$ for every fixed
+$c>0$), also `research solved`, and gave both a `formal_proof` attribute
+linking the release's
+[`totient_asymptotic_formula`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/TotientAsymptotic/UnconditionalMain.lean#L12),
+the declaration this corpus built; the catalog's own proofs stay `sorry`.
+`parts.ii` stays `research open`, which the commit message says is deliberate,
+since the main term needs many auxiliary definitions. The Conjectures.io proof
+closes `parts.i` exactly: line 64567 of the accepted file
 is
 `theorem target : fcTypeOfName% "Erdos416.erdos_416.parts.i" := by exact Erdos416Proof.Simplified.doubling_limit`;
 `doubling_limit` (line 64526) states
@@ -140,7 +148,9 @@ kernel, Nanoda, was not run), and the review decision states that two
 language-model agent assessments of one model family recommended approval and
 that no fresh Lean replay, no complete axiom export and no line-by-line audit of
 the 64,775-line file was performed. No refereed publication, no arXiv preprint,
-no erdosproblems.com acceptance and no formal-conjectures agreement exist; the
+no erdosproblems.com acceptance and no formal-conjectures link to the file exist
+(the catalog's proof link for `parts.i`, added on 11 October 2026, points to the
+OpenAI release's theorem below); the
 erdosproblems.com maintainer posted the record as an unverified partial proof
 claim on 2026-09-27 with an explicit non-endorsement. The write-up
 ([[../library/arithmetic_functions/kruer_kohlmeyer_2026_doubling_law_distinct_totient_values/_index|Kruer and Kohlmeyer, 18 September 2026]])
@@ -162,7 +172,9 @@ shifted-prime collision control of Maier, Pomerance and Ford); its declaration
 verification with only `propext`, `Classical.choice` and `Quot.sound`, its
 comparator fingerprint checked, and its statement audited, so it is the
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai|second accepted partial claim]]
-on the first question (not reviewed outside, not refereed). On the second
+on the first question (not reviewed outside, not refereed; formal-conjectures
+has linked it as the formal proof of `parts.i` since 11 October 2026, a catalog
+label). On the second
 question the same theorem gives $V(x)\sim(x/\log x)\,G_mA(1;\theta)$: Ford's
 counting scale $xG_m/\log x$ times a positive bounded function of the phase
 $\theta(x)=\{(\log B-\log\log B)/\lambda\}$, $B=\log\log x$ (with $\rho$,
@@ -206,8 +218,9 @@ teorth/erdosproblems (`data/problems.yaml` entry 416: status open, last update
 (the result, solution, problem and how-it-works pages; the task bundle and
 contribution index in its GitHub repositories),
 google-deepmind/formal-conjectures at `main` (the catalog commits the site pins
-were unreachable), the arXiv API (queries on the doubling-limit terms and on the
-three author names, no hits), Zenodo (no record), a web search,
+were unreachable) and its `416.lean` at the commit of 2026-10-11, the arXiv API
+(queries on the doubling-limit terms and on the three author names, no hits),
+Zenodo (no record), a web search,
 erdosproblemaday.com (a 2026-07-28 automated working report labeled partial; not
 a source), and the OpenAI release repository at its pinned revision. Not
 searched: X, Discord (the site's channel is members-only), MathOverflow and

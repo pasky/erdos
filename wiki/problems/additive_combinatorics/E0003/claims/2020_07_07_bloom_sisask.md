@@ -59,6 +59,12 @@ case $k=3$ to Bloom and Sisask.
 reference. Not reviewed: the site's commentary (page last edited 4 April 2026)
 credits the case $k=3$ to [BlSi20], but the site's curator is a co-author of the
 paper, so that credit is not an independent review, and the site's label for the
-problem is OPEN. Not formalized: the formal-conjectures statement file lists the
-three-term case as a solved variant (`erdos_3.variants.three`) without a proof,
-and this corpus has built no Lean for it.
+problem was OPEN. Not formalized: the formal-conjectures statement file lists
+the three-term case as a solved variant (`erdos_3.variants.three`), and since
+10 October 2026 its attribute links a conditional formal proof
+([`3.lean` at its commit of 2026-10-11](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/3.lean)).
+The linked
+[Lean theorem](https://github.com/wilsonwu-ai/sundai-erdos-3/blob/8a58287a16558bf1e708eaa2d0f7cba4c86566a3/lean/Erdos3ThreeCase.lean#L96-L97)
+deduces the case from the catalog's Kelley--Meka variant taken as a hypothesis;
+its file says that it proves neither the Kelley--Meka nor the Bloom--Sisask
+bound. This corpus has built no Lean for the case.

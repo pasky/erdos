@@ -92,11 +92,16 @@ https://www.erdosproblems.com/968.
   Math. Sem. Univ. Hamburg 25 (1961/62), 251-256.
 
 **Formalization.** Statement in
-[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/968.lean),
-asking for positive lower density, tagged `research open` with a `sorry` body
-and no `formal_proof` attribute at the linked revision. The release's Lean proof
-of the corollary, built and checked in this corpus, is described on the claim
-page above.
+[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/968.lean)
+as `erdos_968`, asking for positive lower density, at the file's commit of
+2026-10-11. Until that commit it was tagged `research open` with
+`answer(sorry)`, a `sorry` body and no `formal_proof` attribute; the commit
+tagged it `research solved` with `answer(True)` and a `formal_proof` attribute
+linking the release's
+[`large_gaps_and_ratio_density`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/PrimeGaps/RatioCorollary.lean#L30)
+at the revision pinned on the claim page; the body stays `sorry`. That
+declaration is the release's Lean proof of the corollary, built and checked in
+this corpus and described on the claim page above.
 
 ## Progress
 

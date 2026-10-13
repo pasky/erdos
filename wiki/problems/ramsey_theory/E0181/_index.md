@@ -52,8 +52,9 @@ finding, not a certificate of openness. After that search, the OpenAI release's
 preprint of 23 September 2026 claimed the linear bound $R(Q_n)\le C2^n$ in full.
 The claim page
 [[problems/ramsey_theory/E0181/claims/2026_09_23_openai|OpenAI 2026]] records it
-as claimed, since it is unrefereed, unreviewed and has no Lean proof of the
-theorem.
+as claimed, since it is unrefereed and unreviewed, and the third-party Lean
+proof of the theorem that formal-conjectures links has not been built or
+audited here.
 
 **Source.** [erdosproblems.com/181](https://www.erdosproblems.com/181),
 accessed 2026-09-18: the problem page (OPEN, with the site's note that the
@@ -126,25 +127,39 @@ https://www.erdosproblems.com/181, accessed 2026-09-18.
   ([paper.pdf](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-hypercube-Ramsey-number-has-linear-order-September-23-2026/paper.pdf)
   at the release's pinned revision); not a site key; unrefereed; the
   release's Lean proves only its Lemma 2.1 and elementary bounds, not
-  Theorem 1.1. Claims checked for Theorem 1.1, Lemma 2.1 and the staging
-  statements of the proof; the proof read for structure only. Library home:
+  Theorem 1.1, and a third-party Lean proof of Theorem 1.1, not built here,
+  is recorded under Formalization. Claims checked for Theorem 1.1, Lemma
+  2.1 and the staging statements of the proof; the proof read for
+  structure only. Library home:
   [[../library/ramsey_theory/openai_2026_hypercube_ramsey_number_has_linear_order/_index|openai_2026_hypercube_ramsey_number_has_linear_order]];
   result page
   [[../library/ramsey_theory/openai_2026_hypercube_ramsey_number_has_linear_order/theorem_1_1|theorem_1_1]].
   Claim page:
   [[problems/ramsey_theory/E0181/claims/2026_09_23_openai|OpenAI 2026]].
 
-**Formalization.** Statement only. The file
+**Formalization.** A third-party Lean proof, not built or audited here. The
+file
 [`ErdosProblems/181.lean`](https://github.com/google-deepmind/formal-conjectures/blob/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems/181.lean)
 of formal-conjectures at the linked commit (the `main` head on 2026-09-18; 1,343
 bytes) declares `erdos_181 : ∃ C > (0 : ℝ), ∀ n : ℕ, (diagonalGraphRamsey
 (hypercube n) : ℝ) ≤ C * 2 ^ n` under `category research open`, with proof
 `sorry` and no `formal_proof` attribute; its docstring cites [Er93] and [Ti22].
-The community database (teorth/erdosproblems) lists the problem as open and its
-statement as formalized, with entries last updated 31 August 2025 and 7
-September 2026, and the formal status as unformalized; the site's indicator
-reads "Formalised statement? Yes" (it read "No"). Nothing was built or checked
-here.
+Its
+[revision of 11 October 2026](https://github.com/google-deepmind/formal-conjectures/blob/59f54ca88e52c610e200219b31bfecf242af5c2d/FormalConjectures/ErdosProblems/181.lean)
+moved the theorem to `research solved`, kept the statement and its `sorry`,
+added [OAI26] to the references, and linked as its formal proof the theorem of
+the same name and statement in Yao Xu's repository
+[`hypercube-ramsey-lean4`](https://github.com/cadamcat/hypercube-ramsey-lean4/tree/ad206e1bf8240c28b538dfe72f10364cbc1591da)
+at its tag v1.0.0 of 8 October 2026. The repository credits the theorem to
+[OAI26] and reports a build without `sorry` whose theorem uses only the three
+standard axioms, a kernel replay, and Comparator checks in which the Lean
+kernel and the independent checker nanoda accept the proof; the claim page
+[[problems/ramsey_theory/E0181/claims/2026_09_23_openai|OpenAI 2026]]
+describes it. The community database (teorth/erdosproblems) lists the problem
+as open and its statement as formalized, with entries last updated 31 August
+2025 and 7 September 2026, and the formal status as unformalized; the site's
+indicator reads "Formalised statement? Yes" (it read "No"). Nothing was built
+or checked here.
 
 ## Current assessment
 
@@ -254,12 +269,14 @@ would determine the order of $R(Q_n)$; the manuscript gives no value of $C$
 and does not decide whether $R(Q_n)/2^n$ converges. It is recorded on the
 claim page
 [[problems/ramsey_theory/E0181/claims/2026_09_23_openai|OpenAI 2026]]: a
-release preprint, unrefereed, with Lean for its Lemma 2.1 only and no
-independent review known as of 2026-10-07, carded at
+release preprint, unrefereed, with Lean in the release for its Lemma 2.1 only
+and no independent review known, carded at
 [[../library/ramsey_theory/openai_2026_hypercube_ramsey_number_has_linear_order/_index|openai_2026_hypercube_ramsey_number_has_linear_order]]
 with Theorem 1.1, Lemma 2.1 and the staging statements of its proof read
-at claims checked and the proof read for structure only. It postdates the
-search below and does not change the upper bound
+at claims checked and the proof read for structure only. A third-party Lean
+proof of Theorem 1.1, linked by formal-conjectures on 11 October 2026, is
+described on the claim page and has not been built or audited here. The
+preprint postdates the search below and does not change the upper bound
 recorded above until it is accepted.
 
 **Adjacent work that is not the problem.** [HSZ26] studies
@@ -308,6 +325,7 @@ the search.
 **Remaining gaps.** (1) The exponent gap between $n$ and $1.96344n$ is
 closed only by the unreviewed 2026 claim; what would settle it is a
 refereed version or a documented independent acceptance of that proof, a
+build here of the third-party Lean proof with an audit of its statement, a
 superlinear lower bound, or an independent improvement of the exponent.
 (2) [Er93],
 one of the site's two keys, has its problem 12 (p. 346) quoted above,
@@ -319,7 +337,8 @@ and of [OAI26]'s claimed proof of the linear bound the statements of
 Theorem 1.1, Lemma 2.1 and the staging results are read at claims checked
 and the proof for structure only; nothing is independently reviewed. (4)
 The journal text of [Ti22] was not compared with the arXiv v3.
-(5) The formal-conjectures file is a statement, not a proof.
+(5) The formal-conjectures file is a statement, not a proof; the third-party
+Lean proof it links has not been built or audited here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

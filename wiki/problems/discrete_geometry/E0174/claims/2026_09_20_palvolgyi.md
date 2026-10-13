@@ -71,11 +71,16 @@ whose criterion applies to every finite set.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** None documented. The manuscript is an arXiv preprint with no
-journal record known here. The site's statement and remarks for the problem do
-not mention it. The problem's proof-claims thread carried no claim as of 6
-October 2026. The author announced the result in the problem's discussion on the
-site on 23 September 2026. The announcement attributes the counterexample to
-ChatGPT 6 and links the exposition. Nothing here has reviewed the proof.
-OpenAI's preprint of 23 September 2026 cites this theorem as the disproof of the
-spherical conjecture. That is a dated uptake, not a review. The claim is
-therefore claimed.
+journal record known here. The site's statement and remarks for the problem,
+read 13 October 2026, do not mention it. The curator's post
+[Erdős problems in the OpenAI proofs](https://www.erdosproblems.com/forum/thread/blog:10)
+(8 October 2026; this problem added on 9 October) says that sphericity "was
+recently shown to not be sufficient", without naming a source, and mentions
+Pálvölgyi's work in preparation on transitive sets; it does not discuss this
+proof. The problem's proof-claims thread carried no claim as of 6 October 2026.
+The author announced the result in the problem's discussion on the site on 23
+September 2026. The announcement attributes the counterexample to ChatGPT 6 and
+links the exposition. Nothing here has reviewed the proof. OpenAI's preprint of
+23 September 2026 cites this theorem as the disproof of the spherical
+conjecture. That is a dated uptake, not a review. The claim is therefore
+claimed.

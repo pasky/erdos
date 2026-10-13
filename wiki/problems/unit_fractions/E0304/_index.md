@@ -194,9 +194,13 @@ formal-conjectures marks `upper_bound` `research open` and, since
 18 September 2026, annotates its lower-bound variant with the `formal_proof`
 recorded on
 [[problems/unit_fractions/E0304/claims/2026_09_01_thepriceisright|the Aristotle proof's page]];
-there is no Palomar entry; and on 2026-10-06 conjectures.io offered a live
-bounty, "Erdős problem 304 - upper bound", for the full $O(\log\log b)$
-statement with no attempt recorded. None of these records a proof or
+there is no Palomar entry; and conjectures.io, whose bounty "Erdős problem
+304 - upper bound" for the full $O(\log\log b)$ statement had no attempt
+recorded, withdrew it on 6 October 2026, closing it on its release owner's
+instruction of that day to accept the OpenAI release's resolution claim
+without an independent proof replay
+([closures notice](https://github.com/conjectures-io/conjectures-tasks/blob/78b724408bb5d5a0600441bcc4851273447e7d3c/tiers/tier-1/OWNER-ACCEPTED-CLOSURES-2026-10-06.md)).
+None of these records a proof or
 disproof of $N(b)\ll\log\log b$; the release manuscript of 25 September
 2026 is recorded under Claims.
 
