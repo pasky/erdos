@@ -22,10 +22,10 @@ Ivan Ermoshin, *The Largest Prime Factor of an Irreducible Cubic
 Polynomial*, arXiv:2602.03642v3, updated 12 June 2026.
 
 **Copy read.** The copy read for this card is the arXiv v3 PDF, which has 28
-physical pages. The exact reviewer download time is unknown. That copy
-establishes a preprint version, not journal publication or independent
-acceptance. The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:2602.03642), every other right reserved.
+physical pages. That copy establishes a preprint version, not journal
+publication or independent acceptance. The arXiv record names arXiv's
+non-exclusive distribution license (arXiv:2602.03642), every other right
+reserved.
 
 For an integer polynomial $f$, the paper defines
 
@@ -59,7 +59,7 @@ estimate to get $S_1=o(X)$ for $\delta\leq10^{-3}$ (p. 22), and Section 5
 proves $S_0\gg1$ through ideal and fundamental-domain counting (p. 27). This
 is a proof map only.
 
-Source: <https://arxiv.org/abs/2602.03642>.
+Source: <https://arxiv.org/abs/2602.03642v3>.
 
 **Read status.** Claims checked: the main theorem, the definition of
 $P(x,f)$ (p. 2) and Lemmas 2 and 3 were read on the page images of pp. 1--8,

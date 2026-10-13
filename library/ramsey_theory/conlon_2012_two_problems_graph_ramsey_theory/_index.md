@@ -40,21 +40,20 @@ record names arXiv's non-exclusive distribution license for the preprint
 Springer-Verlag" at the foot of its first page (printed p. 513), every other
 right reserved.
 
-- The preprint copy read for this card is stamped "arXiv:1002.0045v1
-  [math.CO] 30 Jan 2010", 18 pages with a text layer (the file's metadata names dvips and Ghostscript
-  9.22 and a 2018 creation date, so it is arXiv's regenerated PDF). It is
-  the canonical version for this card and the version whose page numbers
-  the result page uses. Provenance: the arXiv listing in the source line
-  below; the download date was not recorded and precedes this card's
-creation on 2026-09-04; 232,557 bytes. - The published version read for
-this card is the publisher's production PDF of Combinatorica 32 (2012),
-513--535: 23
-pages, printed pp. 513--535 = PDF pp. 1--23 (printed p. $n$ is PDF p. $n-512$),
-typeset from TeX (LaTeX with hyperref and Acrobat Distiller 9.4.2 per the file's
-metadata, created 16 December 2012), with a clean text layer that reads the
-prose and garbles only the stacked displays. Provenance: obtained from the
-publisher on 2026-09-22 as a DRM-free production PDF, from
-<https://doi.org/10.1007/s00493-012-2710-3>; 305,806 bytes.
+- The preprint copy read for this card is stamped "arXiv:1002.0045v1 [math.CO]
+  30 Jan 2010", 18 pages with a text layer (the file's metadata names dvips and
+  Ghostscript 9.22 and a 2018 creation date, so it is arXiv's regenerated PDF).
+  It is the canonical version for this card and the version whose page numbers
+  the result page uses. Provenance: the arXiv listing in the source line below;
+  232,557 bytes.
+- The published version read for this card is the publisher's production PDF of
+  Combinatorica 32 (2012), 513--535: 23 pages, printed pp. 513--535 = PDF pp.
+  1--23 (printed p. $n$ is PDF p. $n-512$), typeset from TeX (LaTeX with
+  hyperref and Acrobat Distiller 9.4.2 per the file's metadata, created 16
+  December 2012), with a clean text layer that reads the prose and garbles only
+  the stacked displays. Provenance: obtained from the publisher on 2026-09-22 as
+  a DRM-free production PDF, from <https://doi.org/10.1007/s00493-012-2710-3>;
+  305,806 bytes.
 
 Page map (preprint page, then printed page of the published version):
 title and abstract, p. 1 = p. 513; the Burr--Erdős problem and the bounds
@@ -164,7 +163,7 @@ Pages 1--3 and 6 of the preprint and printed pp. 513--516, 521 and
 proofs (Sections 2--3) were not read. Nothing here is independently
 reviewed.
 
-Source: <https://arxiv.org/abs/1002.0045>.
+Source: <https://arxiv.org/abs/1002.0045v1>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0565/_index|#565]]: Theorem 1.2 (printed
 p. 515, PDF p. 3 of the published version; preprint p. 3), "There exists a

@@ -55,7 +55,7 @@ minimal zero-sum subset. For problem 295 it is the closest modern result,
 giving 1 as a sum of 1/x_i with N < x_i <= (e + O(log log N / log N)) N with
 best-possible error, the interval-endpoint dual of k(N).
 
-Source: <https://arxiv.org/abs/math/9904181>.
+Source: <https://arxiv.org/abs/math/9904181v1>.
 
 Editions. Two versions of the work were read. The Main Theorem was compared on
 the page images of both (preprint p. 1, published p. 100) and is the same
@@ -63,12 +63,11 @@ statement in both; the other results were matched by label and statement (label
 map below) but not otherwise compared, and the digest above and the result list
 below were written from the preprint.
 
-- The arXiv preprint arXiv:math/9904181 named in the source line above,
-  stamped "arXiv:math/9904181v1 [math.NT] 30 Apr 1999", nineteen pages with
-  a text layer, from which the digest above and the result list below were
-  written, with its labels and pages; it is not held. Provenance: the
-  arXiv listing in the source line above; the download date was not
-  recorded; 201,302 bytes.
+- The arXiv preprint arXiv:math/9904181 named in the source line above, stamped
+  "arXiv:math/9904181v1 [math.NT] 30 Apr 1999", nineteen pages with a text
+  layer, from which the digest above and the result list below were written,
+  with its labels and pages; it is not held. Provenance: the arXiv listing in
+  the source line above; 201,302 bytes.
 - The
   [published version](croot_1999_unit_fractions_denominators_short_intervals_acta_arith_2001.pdf),
   Ernest S. Croot III, On unit fractions with denominators in short intervals,

@@ -29,10 +29,9 @@ Function*, arXiv:2606.23681v2. The visible arXiv watermark records the v2
 update as 12 August 2026; the manuscript footer is separately dated
 22 June 2026.
 
-**Copy read.** The copy read for this card is the arXiv v2 PDF, with 37
-physical and numbered pages; its retrieval time is unknown. The arXiv
-record names arXiv's non-exclusive distribution license (arXiv:2606.23681),
-every other right reserved.
+**Copy read.** The copy read for this card is the arXiv v2 PDF, with 37 physical
+and numbered pages. The arXiv record names arXiv's non-exclusive distribution
+license (arXiv:2606.23681), every other right reserved.
 
 For
 
@@ -68,7 +67,7 @@ For [[../wiki/problems/arithmetic_functions/E1003/_index|Problem 1003]], Corolla
 new upper bound and Theorem 1.4 explains the shifted decomposition from which
 it follows. Neither decides infinitude.
 
-Source: <https://arxiv.org/abs/2606.23681>.
+Source: <https://arxiv.org/abs/2606.23681v2>.
 
 **Bears on.** [[../wiki/problems/arithmetic_functions/E1003/_index|#1003]].
 

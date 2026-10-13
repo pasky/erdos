@@ -57,13 +57,12 @@ transition for the reverse Littlewood–Offord problem*. arXiv:2503.24202v1
 The copy read for this card is the arXiv v1 manuscript (watermark
 "arXiv:2503.24202v1 [math.CO] 31 Mar 2025" on p. 1), 32 physical pages whose
 printed numbers equal the PDF page numbers (435,852 bytes). Provenance:
-downloaded from <https://arxiv.org/abs/2503.24202> on 2026-09-05. A
-publication record in the survey download set of September 2026 lists the
-paper in the Journal of the London Mathematical Society (2026), DOI
-10.1112/jlms.70539; that version was not acquired and no version of record
-was compared, so every locator below is to arXiv v1. The arXiv record
-names arXiv's non-exclusive distribution license (arXiv:2503.24202), every other
-right reserved.
+downloaded from <https://arxiv.org/abs/2503.24202v1>. A publication record in
+the survey download set of September 2026 lists the paper in the Journal of the
+London Mathematical Society (2026), DOI 10.1112/jlms.70539; that version was not
+acquired and no version of record was compared, so every locator below is to
+arXiv v1. The arXiv record names arXiv's non-exclusive distribution license
+(arXiv:2503.24202), every other right reserved.
 
 Read status: claims checked for Theorems 1.4, 1.6, 1.7, 1.8, 1.13, 1.14
 and 1.15 on the page images; all 32 pages were read at filing. The proofs

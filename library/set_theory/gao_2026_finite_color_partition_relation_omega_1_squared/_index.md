@@ -35,15 +35,14 @@ on the problem page. Cited as [Ga26] on the problem page.
 
 The copy read for this card is the deposit's `Manuscript.pdf`, 4 pages numbered
 1--4. Provenance: fetched from
-<https://zenodo.org/records/22315957/files/Manuscript.pdf?download=1> on
-2026-09-27 (UTC), 244,055 bytes. The deposit also carries `Manuscript.tex`
-(6,508 bytes) and an archive `AI_interaction_logs.zip` (23.1 MB, not fetched).
-No notice is printed on the four pages; the deposit's Zenodo records
-(https://zenodo.org/records/22315956 and https://zenodo.org/records/22315957)
-returned HTTP 410 Gone on 2026-10-02, as did the API record the same day; the
-tombstone those pages serve (read 2026-10-07) says that the record's owner
-removed it on 2026-10-01 for "Retraction/Withdrawal of a record", and the
-DataCite record of the concept DOI
+<https://zenodo.org/records/22315957/files/Manuscript.pdf?download=1>, 244,055
+bytes. The deposit also carries `Manuscript.tex` (6,508 bytes) and an archive
+`AI_interaction_logs.zip` (23.1 MB, not fetched). No notice is printed on the
+four pages; the deposit's Zenodo records (https://zenodo.org/records/22315956
+and https://zenodo.org/records/22315957) returned HTTP 410 Gone on 2026-10-02,
+as did the API record the same day; the tombstone those pages serve (read
+2026-10-07) says that the record's owner removed it on 2026-10-01 for
+"Retraction/Withdrawal of a record", and the DataCite record of the concept DOI
 (https://api.datacite.org/dois/10.5281/zenodo.22315956, state findable, read
 2026-10-07) still names "Creative Commons Attribution 4.0 International" (SPDX
 cc-by-4.0), the license the deposit's record named when read on 2026-09-28; the
