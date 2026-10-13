@@ -48,9 +48,10 @@ The standing derives from the claim pages: the full claim
 preprint of 23 June 2026 submitted to the site's proof-claim tab on 17 July
 2026, where the tab records it as made using GPT-5.5 Pro, asserts that the
 asymptotic holds with $c=1/(2\sqrt{\log2})$, with a Lean 4 development the
-author says proves the main theorem. The site had not acted on it, no referee or
-named expert is recorded as having examined it, and nothing was built or audited
-here, so the claim is `claimed` and the problem's standing is claimed, proved.
+author says proves the main theorem. The site had not acted on it when the tab
+was accessed on 2026-10-06, no referee or named expert is recorded as having
+examined it, and nothing was built or audited here, so the claim is `claimed`
+and the problem's standing is claimed, proved.
 
 The site's commentary records Erdős's own bounds: a lower bound
 $\exp(-c\sqrt{\log N}\log\log N)$ for some $c>0$ and an upper bound

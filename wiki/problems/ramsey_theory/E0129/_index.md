@@ -98,7 +98,7 @@ Bloom, Erdős Problem #129, https://www.erdosproblems.com/129, accessed
   [[../library/integer_sequences/erdos_1997_some_old_new_problems_various_branches_combinatorics/section_2|Item 2]].
 - [ErGy97] Erdős, P. and Gyárfás, A., A variant of the classical Ramsey
   problem. Combinatorica 17 (1997), no. 4, 459--467, doi:10.1007/BF01195000
-  (Crossref record; received 15 September 1996). It is not the
+  (Crossref record, 2026-09-18; received 15 September 1996). It is not the
   site's [Er97b] and it does not state this problem (below).
 
 **Formalization.** None. formal-conjectures has no statement file for Problem

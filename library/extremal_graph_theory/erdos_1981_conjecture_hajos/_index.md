@@ -67,7 +67,7 @@ The copy read for this card is the Rényi archive's three-page scan
 whose text layer garbles the formulas;
 the statements were read on the rendered page images. The journal record:
 Combinatorica 1 (1981), no. 2, 141--143, doi:10.1007/BF02579269 (June 1981;
-Crossref record read); received 8 June 1979. No notice is printed
+Crossref record read on 2026-09-19); received 8 June 1979. No notice is printed
 in the scan; the publisher's article page
 (https://link.springer.com/article/10.1007/BF02579269, read 2026-10-02) shows "©
 Akadémiai Kiadó 1981" and names no license, every other right reserved.

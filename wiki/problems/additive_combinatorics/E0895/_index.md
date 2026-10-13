@@ -65,7 +65,7 @@ open variant. The site's page marks the statement as formalised.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above;
+**The question (site formulation, accessed 2026-09-04).** The statement above;
 PROVED, with the site recording the answer as yes. The site's commentary, in
 the corpus's words: the problem is one of Erdős and Hajnal; Barber verified
 with a SAT solver that the statement holds for all $n\ge18$ (a personal

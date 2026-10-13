@@ -108,7 +108,7 @@ Bloom, Erdős Problem #745, https://www.erdosproblems.com/745, accessed
   is second-hand as stated above.
 - [Er81] Erdős, P., On the combinatorial problems which I would most like to
   see solved. Combinatorica 1 (1981), no. 1, 25--42, doi:10.1007/BF02579174
-  (Crossref record); Part VIII, "Two Problems on Random
+  (Crossref record accessed 2026-09-19); Part VIII, "Two Problems on Random
   Graphs and Hypergraphs", p. 16 of the retyped copy, which has its own
   pagination. Library home:
   [[../library/set_systems/erdos_1981_combinatorial_problems_which_i_would_most/_index|erdos_1981_combinatorial_problems_which_i_would_most]].

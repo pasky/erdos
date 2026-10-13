@@ -152,7 +152,7 @@ Bloom, Erdős Problem #475, https://www.erdosproblems.com/475, accessed
   beyond the rectification barrier. arXiv:2409.07403v2 (7 January 2025,
   "Incorporates referee's suggestions"), 18 pp.; Israel J. Math. 273
   (2026), no. 1, 471--500, DOI 10.1007/s11856-025-2871-6 (published online
-  30 November 2025; Crossref record; not compared).
+  30 November 2025; Crossref record, 2026-09-18; not compared).
   Theorem 1.2, p. 1. Library home:
   [[../library/additive_combinatorics/bedert_2024_graham_s_rearrangement_conjecture_beyond_rectification/_index|bedert_2024_graham_s_rearrangement_conjecture_beyond_rectification]].
 - [CoDe26] Costa, S. and Della Fiore, S., New bounds for (weak)
@@ -173,7 +173,7 @@ Bloom, Erdős Problem #475, https://www.erdosproblems.com/475, accessed
   conjecture. arXiv:2204.09666v3 (25 February 2025, "final version, to
   appear in Inventiones Mathematicae"), 73 pp.; Invent. Math. 240 (2025),
   no. 3, 779--867, DOI 10.1007/s00222-025-01328-x (published online 5 March
-  2025; Crossref record; not compared). Theorem 1.1, p. 3;
+  2025; Crossref record, 2026-09-18; not compared). Theorem 1.1, p. 3;
   Theorem 6.9, p. 51. Library home:
   [[../library/additive_combinatorics/muyesser_2022_random_hall_paige_conjecture/_index|muyesser_2022_random_hall_paige_conjecture]].
 - [CoPe20] Costa, S. and Pellegrini, M. A., Some new results about a
@@ -187,7 +187,7 @@ Bloom, Erdős Problem #475, https://www.erdosproblems.com/475, accessed
   sums in cyclic groups: polynomial method and constructive approaches.
   arXiv:1809.02684v1 (7 September 2018), 18 pp.; J. Combin. Des. 27
   (2019), no. 6, 369--385, DOI 10.1002/jcd.21652 (published online 31
-  January 2019; Crossref record; not compared). Conjecture 1.1,
+  January 2019; Crossref record, 2026-09-18; not compared). Conjecture 1.1,
   p. 2; Theorem 2.2, p. 6; Theorem 4.3, p. 12; Theorem 4.6, p. 15 (arXiv
   pagination). Library home:
   [[../library/additive_combinatorics/hicks_2019_distinct_partial_sums_cyclic_groups_polynomial/_index|hicks_2019_distinct_partial_sums_cyclic_groups_polynomial]].

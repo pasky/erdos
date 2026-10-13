@@ -83,7 +83,7 @@ Bloom, Erdős Problem #350, https://www.erdosproblems.com/350, accessed
 
 - [BeEr74] Benkoski, S. J. and Erdős, P., On weird and pseudoperfect
   numbers. Math. Comp. 28 (1974), no. 126, 617--623,
-  doi:10.1090/S0025-5718-1974-0347726-9 (Crossref record).
+  doi:10.1090/S0025-5718-1974-0347726-9 (Crossref record, 2026-09-18).
   Theorem 1, p. 617, proof pp. 617--619, the refinement p. 619; Theorem 2,
   p. 619. Library home:
   [[../library/divisors/benkoski_1974_weird_pseudoperfect_numbers/_index|benkoski_1974_weird_pseudoperfect_numbers]];
@@ -93,7 +93,7 @@ Bloom, Erdős Problem #350, https://www.erdosproblems.com/350, accessed
   [[../library/divisors/benkoski_1974_weird_pseudoperfect_numbers/theorem_2|Theorem 2]].
 - [HSS77] Hanson, F., Steele, J. M. and Stenger, F., Distinct sums over
   subsets. Proc. Amer. Math. Soc. 66 (1977), no. 1, 179--180,
-  doi:10.1090/S0002-9939-1977-0447167-4 (Crossref record; its
+  doi:10.1090/S0002-9939-1977-0447167-4 (Crossref record, 2026-09-18; its
   deposited abstract reads "A finite set of integers with distinct
   subset sums has a precisely bounded Dirichlet series"). Not held. The
   statement is quoted from [ErGr80], p. 60, and the site.

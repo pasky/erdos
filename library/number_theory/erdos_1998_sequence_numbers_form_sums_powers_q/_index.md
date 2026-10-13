@@ -32,7 +32,7 @@ the m = 1 case of the implication Feng's Theorem 1.4 uses for Problem
 Paul Erdős, István Joó and Vilmos Komornik, *On the sequence of numbers of
 the form $\varepsilon_0+\varepsilon_1q+\ldots+\varepsilon_nq^n$,
 $\varepsilon_i\in\{0,1\}$*, Acta Arith. **83** (1998), no. 3, 201--210; DOI
-10.4064/aa-83-3-201-210 (the Crossref record). "Received on
+10.4064/aa-83-3-201-210 (the Crossref record, read 2026-09-18). "Received on
 14.5.1996 and in revised form on 14.7.1997" (p. 210). Cited by the 1996
 Erdős--Joó--Schnitzer paper as an IRMA Strasbourg preprint and by Feng
 (2016) as its reference [8]. The site's Problem 1096 page does not cite it;

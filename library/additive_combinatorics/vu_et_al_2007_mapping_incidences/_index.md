@@ -55,7 +55,7 @@ PDF page numbers, with a text layer. Provenance: downloaded from
 comments field says the paper was to appear in the Journal of the London
 Mathematical Society and that v2 dropped v1's Section 3 on the Erdős distance
 problem; the journal version, J. London Math. Soc. (2) 84 (2011), no. 2,
-433--445, DOI 10.1112/jlms/jdr017 (Crossref record read), was not
+433--445, DOI 10.1112/jlms/jdr017 (Crossref record read 2026-10-07), was not
 acquired and no version of record was compared. The locators below are the v2
 text's section headings and numbered statements (Sections 1--8, Theorems 2.1,
 2.3, 3.1 and 3.2, Lemma 5.4, Theorem 6.1, Lemma 7.1, Remark 7.2), with the

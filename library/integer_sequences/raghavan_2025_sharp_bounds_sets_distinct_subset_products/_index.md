@@ -40,7 +40,7 @@ The copy read for this card is arXiv:2501.02695v2 (26 February 2026, 13
 pages, with a clean text layer); v1 was submitted on 6 January 2025. The
 paper appeared as Acta Math. Hungar. 177 (2025), no. 2, 363--377, DOI
 10.1007/s10474-025-01578-4 (published online 25 December 2025; Crossref
-record and the arXiv listing's related DOI read). The journal
+record and the arXiv listing's related DOI read 2026-09-18). The journal
 text was not compared, so the locators below are those of v2. Read status:
 claims checked for Theorems 1.3, 1.4, 1.5 and 1.6, Example 1.1 and Question
 1.2, read clause by clause on the page images of pp. 1--2; Section 1.1 (pp.

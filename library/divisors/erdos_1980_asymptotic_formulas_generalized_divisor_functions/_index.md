@@ -78,8 +78,8 @@ paper's own theorems give only multiples Omega f_A(x).
 Source: <https://users.renyi.hu/~p_erdos/1980-40.pdf>. No notice is printed on
 the pages read (pp. 1--2 and 12--13 of the edition cited above); the paper has
 no DOI and so no Crossref record, and the publisher's journal page
-(akjournals.com) could not be read; the hosting archive's site
-footer (https://users.renyi.hu/~p_erdos/), "(C) 2005-2007 All
+(akjournals.com) could not be read on 2026-10-02; the hosting archive's site
+footer (https://users.renyi.hu/~p_erdos/, read 2026-10-02), "(C) 2005-2007 All
 rights reserved. All material on this site is for scientifics purposes only.",
 speaks for the site, not the paper; the term is unstated.
 

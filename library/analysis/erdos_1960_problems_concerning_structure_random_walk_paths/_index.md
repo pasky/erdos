@@ -64,13 +64,14 @@ walk paths*, Acta Mathematica Academiae Scientiarum Hungaricae **11**
 collection](https://users.renyi.hu/~p_erdos/1960-17.pdf). Printed p. 137 is PDF
 p. 1. No notice is printed on pp. 137--138 or 161--162; the hosting archive's
 site footer speaks for the site, not the paper
-(https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007 All rights reserved. All
-material on this site is for scientifics purposes only."); the Crossref record
-for DOI 10.1007/BF02020631 (read 2026-10-07) names Springer as publisher and
-lists only its text-and-data-mining terms entry (http://www.springer.com/tdm)
-and no Creative Commons license, every other right reserved; the publisher's
-article page (https://link.springer.com/article/10.1007/BF02020631) could not be
-read on 2026-10-07, returning a JavaScript client challenge.
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007 All rights
+reserved. All material on this site is for scientifics purposes only."); the
+Crossref record for DOI 10.1007/BF02020631 (read 2026-10-07) names Springer as
+publisher and lists only its text-and-data-mining terms entry
+(http://www.springer.com/tdm) and no Creative Commons license, every other right
+reserved; the publisher's article page
+(https://link.springer.com/article/10.1007/BF02020631) could not be read on
+2026-10-07, returning a JavaScript client challenge.
 
 ## Problem connection and complete input proofs
 

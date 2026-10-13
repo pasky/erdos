@@ -91,9 +91,9 @@ https://www.erdosproblems.com/283, accessed 2026-09-18.
 **References.**
 
 - [Gr63] Graham, R. L., A theorem on partitions. J. Austral. Math. Soc. 3
-  (1963), no. 4, 435--441, DOI 10.1017/S1446788700039045 (Crossref record).
-  Theorem 1 (p. 435), Theorem 3 (pp. 439--440) and the Remarks with conjecture
-  $2'$ (p. 441). Library home:
+  (1963), no. 4, 435--441, DOI 10.1017/S1446788700039045 (Crossref record
+  accessed 2026-09-18). Theorem 1 (p. 435), Theorem 3 (pp. 439--440) and the
+  Remarks with conjecture $2'$ (p. 441). Library home:
   [[../library/unit_fractions/graham_1963_theorem_partitions/_index|graham_1963_theorem_partitions]].
 - [Al19] Alekseyev, M. A., On partitions into squares of distinct integers
   whose reciprocals sum to 1. In: The Mathematics of Various Entertaining
@@ -142,7 +142,7 @@ https://www.erdosproblems.com/283, accessed 2026-09-18.
   (2026-09-18); the Drive file is the copy this page cites.
 - [OEIS] van Doorn, W., Sequence A380791, The On-Line Encyclopedia of
   Integer Sequences (2025): the number of positive rationals $x$ whose
-  threshold $k(x)$ equals $n$.
+  threshold $k(x)$ equals $n$; accessed 2026-09-18.
 
 **Formalization.** Statement only, with a pointer to an external proof. The
 file

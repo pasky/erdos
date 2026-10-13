@@ -28,7 +28,7 @@ for all sufficiently large n, answering Problem 518 for those n.
 Alexey Pokrovskiy, Leo Versteegen and Ella Williams, *A proof of a
 conjecture of Erdős and Gyárfás on monochromatic path covers*. J. Combin.
 Theory Ser. B 176 (2026), 551--560; DOI 10.1016/j.jctb.2025.10.007 (the
-Crossref record dates the issue January 2026 and the
+Crossref record, read 2026-09-18, dates the issue January 2026 and the
 record 29 October 2025). arXiv:2409.03623 [math.CO]; v1 posted 5 September
 2024, v2 posted 7 October 2025.
 

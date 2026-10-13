@@ -45,7 +45,7 @@ when 0 is not one of its accumulation points.
 
 Feng, De-Jun, On the topology of polynomials with bounded integer coefficients.
 J. Eur. Math. Soc. (JEMS) **18** (2016), no. 1, 181--193; DOI 10.4171/JEMS/587
-(the Crossref record dates the article 16 December 2015).
+(the Crossref record, read 2026-09-18, dates the article 16 December 2015).
 The site's key Fe16.
 
 The copy read for this card

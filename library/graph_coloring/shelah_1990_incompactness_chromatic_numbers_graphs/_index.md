@@ -47,17 +47,17 @@ most aleph_n has chromatic number at most aleph_n.
 
 Shelah, Saharon, Incompactness for chromatic numbers of graphs, in: A Tribute to
 Paul Erdős (A. Baker, B. Bollobás and A. Hajnal, eds.), Cambridge University
-Press (1990), 361--371, DOI 10.1017/CBO9780511983917.030 (Crossref record read).
-No notice is printed in the file (an image-only scan whose printed pp. 361 and
-370--371 carry no copyright or license line); the hosting archive's paper page
-(https://shelah.logic.at/papers/347/, read 2026-10-02) gives the edition, and
-the archive's legal notice (https://shelah.logic.at/impressum/, read 2026-10-02)
-states "Some documents on the site are copyrighted, and provided for 'fair use'
-in research. We do not own (and thus do not and cannot transfer or grant) any
-copyright to these documents" and that users agree "not to share and distribute
-the provided copyrighted material."; the publisher's book page for DOI
-10.1017/CBO9780511983917 (read 2026-10-02) shows no open access statement, every
-other right reserved.
+Press (1990), 361--371, DOI 10.1017/CBO9780511983917.030 (Crossref record read
+2026-10-07). No notice is printed in the file (an image-only scan whose printed
+pp. 361 and 370--371 carry no copyright or license line); the hosting archive's
+paper page (https://shelah.logic.at/papers/347/, read 2026-10-02) gives the
+edition, and the archive's legal notice (https://shelah.logic.at/impressum/,
+read 2026-10-02) states "Some documents on the site are copyrighted, and
+provided for 'fair use' in research. We do not own (and thus do not and cannot
+transfer or grant) any copyright to these documents" and that users agree "not
+to share and distribute the provided copyrighted material."; the publisher's
+book page for DOI 10.1017/CBO9780511983917 (read 2026-10-02) shows no open
+access statement, every other right reserved.
 
 Shelah shows that the singular cardinal compactness theorem, which holds for the
 coloring number, fails badly for the chromatic number. Theorem 1 (Section 1,

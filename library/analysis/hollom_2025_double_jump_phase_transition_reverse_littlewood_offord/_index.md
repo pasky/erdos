@@ -217,5 +217,5 @@ No file of this source is held. The edition read, arXiv v1, carries only
 arXiv's non-exclusive distribution license; the version of record, Journal
 of the London Mathematical Society 113 (2026), no. 5, e70539, is under
 CC BY 4.0 according to its Crossref record
-(<https://api.crossref.org/works/10.1112/jlms.70539>), but
+(<https://api.crossref.org/works/10.1112/jlms.70539>, read 2026-10-07), but
 it was not acquired, and the card cites the arXiv edition named above.

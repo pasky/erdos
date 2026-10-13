@@ -137,15 +137,16 @@ refereed proofs.
 
 Acceptance evidence: both proofs appeared in refereed journals and are
 reviewed in zbMATH without objection (Zbl 0843.11034 for [Du95]; Zbl
-0859.11047 and Zbl 0898.11031 for [Ne96] and [Ne96b]; zbMATH records). Nesterenko's theorem was the subject of the Bourbaki exposé of
-November 1996, of a chapter of Lecture Notes in Mathematics 1752 (Nesterenko
-and Philippon, eds., 2001, pp. 27--46, DOI 10.1007/3-540-44550-1_3; known by
-its metadata only, the library holds no copy), and Nesterenko received the
-1997 Ostrowski Prize (MacTutor's prize list, gives the
-citation "for his work on algebraic number theory"). Later refereed papers
-treat the irrationality as settled and sharpen it ([Zu02] p. 1151; [PV07] p.
-2; [SV09] p. 1); each also proves it independently and has its own accepted
-page, [[problems/irrationality/E0250/claims/2001_11_08_zudilin|Zudilin 2002]],
+0859.11047 and Zbl 0898.11031 for [Ne96] and [Ne96b]; zbMATH records read
+2026-09-17). Nesterenko's theorem was the subject of the Bourbaki exposé of
+November 1996, of a chapter of Lecture Notes in Mathematics 1752 (Nesterenko and
+Philippon, eds., 2001, pp. 27--46, DOI 10.1007/3-540-44550-1_3; known by its
+metadata only, the library holds no copy), and Nesterenko received the 1997
+Ostrowski Prize (MacTutor's prize list, gives the citation "for his work on
+algebraic number theory"). Later refereed papers treat the irrationality as
+settled and sharpen it ([Zu02] p. 1151; [PV07] p. 2; [SV09] p. 1); each also
+proves it independently and has its own accepted page,
+[[problems/irrationality/E0250/claims/2001_11_08_zudilin|Zudilin 2002]],
 [[problems/irrationality/E0250/claims/2006_04_13_postelmans_van_assche|Postelmans and Van Assche 2007]]
 and
 [[problems/irrationality/E0250/claims/2008_09_15_smet_van_assche|Smet and Van Assche 2009]].

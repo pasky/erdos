@@ -147,7 +147,7 @@ R_k(C_{2n})\ll k^{1+\frac1{n-1}}$, and credits Chung and Graham [ChGr75] with
 the lower bound $R_k(C_4)>k^2-k+1$ for $k-1$ a prime power and the upper bound
 $R_k(C_4)\le k^2+k+1$ for every $k$; it lists the problem as #24 in the Ramsey
 Theory section of the graphs collection. The site links OEIS A389313
-(<https://oeis.org/A389313>), which is the two-color
+(<https://oeis.org/A389313>, accessed 2026-09-17), which is the two-color
 sequence $a(n)=R(C_n,C_n)$, not a multicolor quantity. The thread has one
 comment (below). The community database record says open (last updated 31 August
 2025), unformalized.

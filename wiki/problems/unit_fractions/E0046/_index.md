@@ -121,8 +121,8 @@ statement formalized, no formal-proof URL.
 ([[../library/unit_fractions/croot_2003_coloring_conjecture_about_unit_fractions/corollary|result page]]),
 printed p. 545 of arXiv:math/0311421v1, which carries the Annals of
 Mathematics pagination 545--556 and the received date 16 May
-2001; the journal is refereed and the arXiv listing
-shows no later version. It states that there exists a constant $b$ such
+2001; the journal is refereed and the arXiv listing (checked 2026-09-17)
+showed no later version. It states that there exists a constant $b$ such
 that every partition of the integers in $[2,b^r]$ into $r$ classes has a
 class containing a subset with reciprocal sum one, with $b=e^{167000}$ for
 large $r$. Given a coloring of the integers with $r$ colors, its

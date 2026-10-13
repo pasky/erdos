@@ -33,7 +33,8 @@ numbers, uniform in 1 ≤ ℓ ≤ k, whose diagonal case is the 3.7992… bound.
 P. Gupta, N. Ndiaye, S. Norin and L. Wei, *Optimizing the CGMS upper bound
 on Ramsey numbers*. Preprint arXiv:2407.19026 (v1 26 July 2024; v2 29
 August 2026). The arXiv listing carries no journal reference and a
-Crossref bibliographic query under the title returned no record (both read).
+Crossref bibliographic query under the title returned no record (both read
+2026-09-18).
 
 The copy read for this card is arXiv:2407.19026v2 [math.CO] 29 Aug 2026, 24
 pages, with a text layer; printed page $=$ PDF page. Pages 1--8 and 19--24 were
@@ -60,7 +61,7 @@ model produced the present, shorter route from Theorem 14 to Theorem 1
 correctness", and that the same model was used for proofreading; and that
 an AI coding tool was used to formalize Theorem 1 and Corollary 6 in Lean
 4, at <https://github.com/snorin239/RamseyLean>. That repository was read
-statically at its head commit
+statically on 2026-09-18 at its head commit
 `90e87da214701dd6eb3d56a2c7121839d8269d14` (committed 2026-08-17T12:31:31Z;
 Lean and Mathlib pinned to v4.32.1). Its README and paper-to-Lean map name
 two public targets, `RamseyLean.main` for Theorem 1 (one error function

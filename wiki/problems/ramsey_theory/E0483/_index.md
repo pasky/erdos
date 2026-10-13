@@ -107,7 +107,7 @@ accessed 2026-09-18.
   (the journal's open-access file).
 - [XXC02] X. Xu, Z. Xie and Z. Chen, Upper bounds for Ramsey numbers $R_n(3)$
   and Schur numbers. Math. Econ. 19 (2002), 81--84. In Chinese; not held; no
-  Crossref record; quoted second-hand from Eliahou
+  Crossref record (query of 2026-09-18); quoted second-hand from Eliahou
   (2020) and from the site.
 - [AbHa72] H. Abbott and D. Hanson, A problem of Schur and its
   generalizations. Acta Arith. 20 (1972), no. 2, 175--187, DOI

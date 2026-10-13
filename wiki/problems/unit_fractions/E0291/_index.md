@@ -101,11 +101,11 @@ Erdős Problem #291, https://www.erdosproblems.com/291, accessed 2026-09-18.
   [[../library/unit_fractions/doorn_2024_non_monotonicity_denominator_generalized_harmonic_sums/_index|doorn_2024_non_monotonicity_denominator_generalized_harmonic_sums]].
 - [OEIS] Vrabec, F., Sequence A110566, The On-Line Encyclopedia of Integer
   Sequences (2005; entry revision 39 of 17 May 2023): $a(n)=L_n/d_n=(a_n,L_n)$,
-  with a table to $n=10000$.
+  with a table to $n=10000$; accessed 2026-09-18.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/291.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/291.lean)
-of formal-conjectures at the linked commit (main)
+of formal-conjectures at the linked commit (main on 2026-09-18)
 defines `L n` as the lcm of $1,\ldots,n$
 and `a n` as $\sum_{k\le n}L_n/k$ (with test lemmas for $n\le4$ proved by
 `decide`) and declares `erdos_291.parts.i : answer(sorry) ↔ {n | gcd (a n)
@@ -291,13 +291,13 @@ manuscript.
 
 **Data and AI-assisted items (leads with provenance, not status).**
 
-- OEIS A110566 (F. Vrabec, 2005; revision 39, 17 May 2023):
+- OEIS A110566 (F. Vrabec, 2005; revision 39, 17 May 2023; accessed 2026-09-18):
   $a(n)=\mathrm{lcm}(1,\ldots,n)/\mathrm{den}(H_n)$, with a table to $n=10000$,
   the comment that $a(n)$ is always odd, and a conjecture (J. Song, 2022) that
   every odd number occurs; the table agrees with an exact recomputation.
 - A public AI-generated working report on this problem
   (erdosproblemaday.com/report/291, "access/check date 2026-07-26", labeled
-  PARTIAL) derives the leading-digit criterion, reports an
+  PARTIAL, accessed 2026-09-18) derives the leading-digit criterion, reports an
   exact sieve computation of $G(N)=\#\{n\le N:(a_n,L_n)=1\}$ with
   $G(10^k)=7,37,145,2641,20128,138902,615233,10323214$ for $k=1,\ldots,8$
   and 409 maximal good intervals in $[1,10^8]$, and states that infinitude

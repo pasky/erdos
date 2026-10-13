@@ -104,7 +104,7 @@ https://www.erdosproblems.com/1009, accessed 2026-09-18.
   graphs. arXiv:2502.16683v2 (14 September 2025, "Updated with referees'
   suggestions");
   published in Combinatorica 45 (2025), no. 5, article 56,
-  doi:10.1007/s00493-025-00184-w (Crossref record; the journal
+  doi:10.1007/s00493-025-00184-w (Crossref record, 2026-10-07; the journal
   text is not compared). Its p. 10 is the passage used; the library's card
   is
   [[../library/extremal_graph_theory/balogh_2025_packing_edge_disjoint_cliques_graphs/_index|balogh_2025_packing_edge_disjoint_cliques_graphs]].
@@ -137,8 +137,8 @@ Erdős Problem 1009" and names E. Győri as informal author and Codex and
 GPT-5.6 Sol as formal authors, so it is recorded as a formalization link on
 Győri's claim page and not as a claim of its own; the page describes the
 file, which is not built in this corpus. The site's indicator says a
-formalized statement exists, and the community
-database records the problem proved, with its last update
+formalized statement exists (accessed 2026-10-07), and the community
+database, read 2026-10-06, records the problem proved, with its last update
 dated 31 October 2025, the statement formalized since 19 September 2026 and
 no formal proof.
 

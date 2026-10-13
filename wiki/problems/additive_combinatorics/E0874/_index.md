@@ -96,7 +96,7 @@ Erdős Problem #874, https://www.erdosproblems.com/874, accessed
   [[../library/additive_combinatorics/deshouillers_1999_additive_problem_erdos_straus/theorem_1|Theorem 1]].
 - [DeFr95] Deshouillers, J.-M. and Freiman, G. A., On an additive problem
   of Erdős and Straus, 1. Israel J. Math. 92 (1995), no. 1--3, 33--43,
-  doi:10.1007/BF02762069 (Crossref record read, issue dated
+  doi:10.1007/BF02762069 (Crossref record read 2026-09-18, issue dated
   February 1995; received March 11, 1993, revised March 22, 1994, per
   p. 33); not a site key. Theorem 1, the $(2+o(1))\sqrt N$ bound that
   first answered the asymptotic question, and Theorem 2, the structure
@@ -109,7 +109,7 @@ Erdős Problem #874, https://www.erdosproblems.com/874, accessed
   [[../library/additive_combinatorics/deshouillers_1995_additive_problem_erdos_straus/theorem_2|Theorem 2]].
 - [ENS91] Erdős, P., Nicolas, J.-L. and Sárközy, A., Sommes de
   sous-ensembles. Sém. Théor. Nombres Bordeaux (2) 3 (1991), no. 1, 55--72,
-  doi:10.5802/jtnb.42 (Numdam and Crossref records read).
+  doi:10.5802/jtnb.42 (Numdam and Crossref records read 2026-09-18).
   Théorème 1, Lemme 1 and Lemme 2, pp. 56--57; Section 5, p. 65. Library
   home:
   [[../library/additive_combinatorics/erdos_1991_sommes_de_sous_ensembles/_index|erdos_1991_sommes_de_sous_ensembles]];
@@ -119,7 +119,7 @@ Erdős Problem #874, https://www.erdosproblems.com/874, accessed
   and
   [[../library/additive_combinatorics/erdos_1991_sommes_de_sous_ensembles/theoreme_2|Théorème 2]].
 - [St66] Straus, E. G., On a problem in combinatorial number theory. J.
-  Math. Sci. 1 (1966), 77--80 (zbMATH record read; no DOI; no
+  Math. Sci. 1 (1966), 77--80 (zbMATH record read 2026-09-18; no DOI; no
   Crossref record). Not held. Its results are quoted from [ENS91], p. 56,
   and [DeFr99], p. 141.
 - [Er62c] Erdős, P., Számelméleti megjegyzések, III. Mat. Lapok 13 (1962),

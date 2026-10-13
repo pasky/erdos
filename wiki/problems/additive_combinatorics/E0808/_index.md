@@ -62,7 +62,7 @@ https://www.erdosproblems.com/808.
 
 - [ARS20] Alon, Noga and Ruzsa, Imre and Solymosi, József, Sums, products, and
   ratios along the edges of a graph. Publ. Mat. 64 (2020), 143-155,
-  doi:10.5565/publmat6412006 (Crossref record read),
+  doi:10.5565/publmat6412006 (Crossref record read 2026-10-07),
   arXiv:1802.06405 (18 February 2018).
 - [Er77c] Erdős, Paul, Problems and results on combinatorial number theory. III.
   Number theory day (Proc. Conf., Rockefeller Univ., New York, 1976) (1977),

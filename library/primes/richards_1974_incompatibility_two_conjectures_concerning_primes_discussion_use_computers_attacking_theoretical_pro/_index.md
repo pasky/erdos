@@ -43,8 +43,9 @@ the footer of its first page, every other right reserved.
 Ian Richards, "On the incompatibility of two conjectures concerning primes; a
 discussion of the use of computers in attacking a theoretical problem," Bulletin
 of the American Mathematical Society, 80(3), 419-439, 1974.
-https://doi.org/10.1090/s0002-9904-1974-13434-8 (Crossref record read, which
-gives the page range 419-439; the copy read ends on printed p. 438).
+https://doi.org/10.1090/s0002-9904-1974-13434-8 (Crossref record read on
+2026-10-07, which gives the page range 419-439; the copy read ends on printed p.
+438).
 
 **Bears on.** [[../wiki/problems/primes/E0855/_index|#855]]:
 [[primes/richards_1974_incompatibility_two_conjectures_concerning_primes_discussion_use_computers_attacking_theoretical_pro/corollary_1_10|Corollary 1.10]]

@@ -28,7 +28,7 @@ The copy read for this card
 is arXiv:2007.14824v1 (29 July 2020, dated 30 July 2020 on its title page, 9
 pages, the only arXiv version per the arXiv record read). The
 paper appeared in Proc. Amer. Math. Soc., doi:10.1090/proc/15487 (2021; the
-Crossref record, carries no volume or page range); the
+Crossref record, read on 2026-09-18, carries no volume or page range); the
 journal version was not compared, so its labels may differ. The
 arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2007.14824), every other right reserved.

@@ -35,7 +35,7 @@ multiples has asymptotic density 1.
 
 G. Tenenbaum, *On block Behrend sequences*, Math. Proc. Cambridge Philos.
 Soc. **120** (1996), no. 2, 355--367; DOI 10.1017/S0305004100074910 (the
-journal data were checked against Crossref).
+journal data were checked against Crossref on 2026-09-17).
 
 The copy read for this card is the
 author's TeX typescript, sixteen A4 pages with a usable text layer, headed

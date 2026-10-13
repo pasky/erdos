@@ -43,7 +43,7 @@ separate proof.
 
 J. Nešetřil and V. Rödl, *On a probabilistic graph-theoretical method*,
 Proc. Amer. Math. Soc. **72** (1978), no. 2, 417--421,
-doi:10.1090/S0002-9939-1978-0507350-7 (Crossref record read);
+doi:10.1090/S0002-9939-1978-0507350-7 (Crossref record read on 2026-10-07);
 received by the editors May 20, 1977, and in revised form January 6, 1978.
 
 The copy read for this card is the publisher's scan of the five journal pages

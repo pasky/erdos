@@ -24,7 +24,7 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Let $T_2,\ldots,T_n$ be a collection of trees such that $T_k$ has
 $k$ vertices. Can we always write $K_n$ as the edge disjoint union of the $T_k$?
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording, accessed 2026-09-19 (the page shows no
 last-edited date). This is the tree packing conjecture of
 Gyárfás (stated with Lehel in the 1976 Keszthely proceedings, published
 1978), for every $n\ge2$: since $\sum_{k=2}^n(k-1)=\binom n2$, a packing of
@@ -90,7 +90,7 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
 - [JKKO19] Joos, Felix and Kim, Jaehoon and Kühn, Daniela and Osthus, Deryk,
   Optimal packings of bounded degree trees. J. Eur. Math. Soc. 21 (2019),
   no. 12, 3573--3647, doi:10.4171/JEMS/909 (issued 5 August 2019; Crossref
-  record). Paged in arXiv:1606.03953v2 (13 March 2019,
+  record accessed 2026-09-19). Paged in arXiv:1606.03953v2 (13 March 2019,
   56 pp., "final version (December 2017)" per the arXiv record); Conjecture
   1.1, p. 1; Theorem 1.2, p. 2. The journal text is not held; the page
   numbers are the arXiv version's. Library home:
@@ -124,7 +124,7 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
   [[../library/extremal_graph_theory/guichard_1990_note_packing_complete_graphs_trees/verification_p124|verification_p124]].
 - [Fi83] Fishburn, P. C., Balanced integer arrays: a matrix packing theorem.
   J. Combin. Theory Ser. A 34 (1983), no. 1, 98--101,
-  doi:10.1016/0097-3165(83)90045-6 (Crossref record;
+  doi:10.1016/0097-3165(83)90045-6 (Crossref record accessed 2026-09-19;
   text read). The site's key. Proposition 1, p. 98, with
   Graham's observation, p. 99: the degree sequences of $T_1,\ldots,T_n$
   pack into that of $K_n$ (Graham's conjecture), as [JKKO19] (p. 1) and
@@ -135,7 +135,7 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
   [[../library/extremal_graph_theory/fishburn_1983_balanced_integer_arrays_matrix_packing_theorem/proposition_1|proposition_1]].
 - [Fi83b] Fishburn, P. C., Packing graphs with odd and even trees. J. Graph
   Theory 7 (1983), no. 3, 369--383, doi:10.1002/jgt.3190070309 (Crossref
-  record, whose abstract ends "The conjectures are also
+  record accessed 2026-09-19, whose abstract ends "The conjectures are also
   valid for all trees when $n\le9$, so that the Gyárfás-Lehel conjecture
   holds for $n\le9$"). Not held; not a site key; the paper [JaMo24] and
   [GuMa90] cite for the $n\le9$ verification.
@@ -147,8 +147,8 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
   trees stars, or all stars or paths) are quoted from the site and [JaMo24];
   [Bo83] (p. 203) attests the stars case.
 - [Bo83] Bollobás, Béla, Some remarks on packing trees. Discrete Math. 46
-  (1983), no. 2, 203--204, doi:10.1016/0012-365X(83)90254-6 (Crossref and
-  zbMATH records; the publisher's open-archive license dated 2013;
+  (1983), no. 2, 203--204, doi:10.1016/0012-365X(83)90254-6 (Crossref and zbMATH
+  records accessed 2026-09-19; the publisher's open-archive license dated 2013;
   text read). The Theorem, p. 203; the
   Erdős--Sós remark, p. 204. Library home:
   [[../library/extremal_graph_theory/bollobas_1983_some_remarks_packing_trees/_index|bollobas_1983_some_remarks_packing_trees]];
@@ -174,7 +174,7 @@ comment "tree packing conjecture".
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation accessed 2026-09-19).** The statement
 above; FALSIFIABLE, which the site defines as open but refutable by a finite
 counterexample; no last-edited date. The commentary, in this page's words:
 the site calls this Gyárfás's tree packing conjecture and lists the known
@@ -256,7 +256,8 @@ Conjecture 2 ([ABCHPT21], p. 3, "Gyárfás [11] formulated this conjecture in
   pp. 123--124).
 - Small $n$: every $n\le9$, by hand (Fishburn produced $\mathcal U_2$
   through $\mathcal U_7$ by hand and then verified $H_8\in\mathcal U_8$ and
-  $H_9\in\mathcal U_9$, per [GuMa90] p. 124; [Fi83b]: the Crossref abstract, ends "so that the Gyárfás-Lehel conjecture holds for
+  $H_9\in\mathcal U_9$, per [GuMa90] p. 124; [Fi83b]: the Crossref abstract,
+  accessed 2026-09-19, ends "so that the Gyárfás-Lehel conjecture holds for
   $n\le9$"; attested by [JaMo24] p. 1 and [GuMa90] p. 123), and, by
   computer, $n=10$ and $n=11$:
   [[../library/extremal_graph_theory/guichard_1990_note_packing_complete_graphs_trees/verification_p124|Guichard and Massman]]

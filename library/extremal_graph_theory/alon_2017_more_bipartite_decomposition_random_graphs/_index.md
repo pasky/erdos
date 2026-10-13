@@ -26,7 +26,7 @@ that the bound 2^{r+1} - 1 is attained.
 
 N. Alon, T. Bohman and H. Huang, *More on the bipartite decomposition of
 random graphs*, J. Graph Theory 84 (2017), no. 1, 45--52, DOI
-10.1002/jgt.22010 (Crossref record read; published online 22
+10.1002/jgt.22010 (Crossref record read 2026-09-18; published online 22
 February 2016). The site's key ABH17.
 
 **Edition read.** The copy read for this card is arXiv:1409.6165v1 (22 September 2014; the only version on arXiv, whose record

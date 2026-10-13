@@ -30,8 +30,9 @@ file, from the Google Drive link (file id `12f4eP2EJQO7tYGHXkFyPjNcjWfkvm1lF`)
 that the erdosproblems.com page attaches to the problem. The attribution to
 Glazer rests on the site's problem text, its proof-claims thread and the
 repository, not on the PDF. Provenance: fetched from
-<https://raw.githubusercontent.com/elliotglazer/erdos501/main/docs/paper/erdos501_random_profiles_rev10.pdf>,
-407,258 bytes; the Drive copy has the same size and hash. An earlier draft, rev09, was removed from the repository on
+<https://raw.githubusercontent.com/elliotglazer/erdos501/main/docs/paper/erdos501_random_profiles_rev10.pdf>
+on 2026-09-27, 407,258 bytes; the Drive copy fetched the same day has the same
+size and hash. An earlier draft, rev09, was removed from the repository on
 2026-08-17 and is not held. The file prints no copyright or license line on pp.
 1--2 or 7--8; the source repository carries a repository-wide LICENSE file and
 license badge naming the Apache License 2.0

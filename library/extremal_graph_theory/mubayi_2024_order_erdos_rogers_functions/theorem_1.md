@@ -47,7 +47,7 @@ $f_s(n)=O(\sqrt n(\log n)^{2(s+1)^2})$ (Dudek, Retter and Rödl).
 functions*, arXiv:2401.02548v2 (8 February 2024; title page dated February
 12, 2024), retained; published as *On the order of the classical Erdős–Rogers
 functions*, Bull. Lond. Math. Soc. 57 (2025), no. 2, 582--598,
-doi:10.1112/blms.13214 (Crossref record read; the journal text is
+doi:10.1112/blms.13214 (Crossref record read 2026-09-18; the journal text is
 not held). Theorem 1 and the surrounding paragraphs on p. 1 and Section 4 on
 p. 4 of the retained version, read on the page images. The artifact is
 identified in the

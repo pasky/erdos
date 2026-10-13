@@ -108,7 +108,7 @@ has not built. Boris Alexeev's `lean-proofs` repository holds an unconditional
 Lean proof of the answer, with Codex and GPT-5.6 Sol as formal authors and
 Bradač, Mattheus and Verstraëte as informal authors; the formal-conjectures
 catalog
-([920.lean](https://github.com/google-deepmind/formal-conjectures/blob/17d2cec2f5bec8eede237a146ac893375daf4faf/FormalConjectures/ErdosProblems/920.lean))
+([920.lean as of 18 September 2026](https://github.com/google-deepmind/formal-conjectures/blob/17d2cec2f5bec8eede237a146ac893375daf4faf/FormalConjectures/ErdosProblems/920.lean))
 cites it as the formal proof of its statement, but this corpus has not built it,
 so it gives no `formalized` evidence.
 

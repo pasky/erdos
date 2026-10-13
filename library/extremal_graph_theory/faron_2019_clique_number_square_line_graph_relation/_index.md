@@ -52,7 +52,7 @@ graph and its relation to maximum degree of the line graph. J. Graph Theory
 
 **Edition read.** The journal version is J. Graph Theory 92 (2019),
 no. 3, 261--274, DOI 10.1002/jgt.22452 (published online 30 January 2019;
-Crossref record read). The copy read for this card is the arXiv
+Crossref record read 2026-09-19). The copy read for this card is the arXiv
 preprint arXiv:1708.02264v1 (7 August 2017; its title page
 prints "September 24, 2018"), 11 pages, whose title ends "and its relation
 to Ore-degree" where the journal's ends "and its relation to maximum degree

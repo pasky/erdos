@@ -145,7 +145,7 @@ problem as formalized since 7 September 2026.
 
 ## Current assessment
 
-The site's formulation displays the value of $f(n;r,k)$
+The site's formulation (accessed 2026-09-04) displays the value of $f(n;r,k)$
 for every $r\ge3$ with no restriction on $n$; the standing judges the modified
 Statement above, the conjecture for $n\ge kr$. The site's label FALSIFIABLE
 records that a counterexample would be a finite object, an $r$-uniform

@@ -124,9 +124,9 @@ the final `erdos_548`. The principal definitions, count inequalities, and final
 statement were read against the PDF; this was not a line-by-line audit of every
 Lean tactic.
 
-The pinned public CI reported successful build and Comparator jobs when checked.
-The repository's [formalization
-metadata](https://github.com/tadamcz/erdos548/blob/3766491b9d9c9f00e05fde4eb004fe71af1452d1/formalization.yaml)
+The pinned public CI reported successful build and Comparator jobs when checked
+on 2026-09-05. The repository's
+[formalization metadata](https://github.com/tadamcz/erdos548/blob/3766491b9d9c9f00e05fde4eb004fe71af1452d1/formalization.yaml)
 reports verification using only `propext`, `Quot.sound`, and `Classical.choice`,
 and explicitly distinguishes this from independent refereeing. No Lean build or
 kernel replay was run for this compilation. `Challenge.lean` is deliberately an
@@ -167,7 +167,7 @@ verification or external refereeing is claimed.
 
 ## Source differences and remaining coverage
 
-The site's informal sketch, has slips that the PDF
+The site's informal sketch, accessed 2026-09-05, has slips that the PDF
 avoids: its tree-free reduction has the opposite containment wording, its
 fixed-root gluing display omits the zero-cut allowance, and its leaf-move
 description writes the reversal at the earlier cut. The compiled proof

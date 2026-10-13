@@ -49,7 +49,7 @@ identifying the two connectors of a graph H_i with those of a graph H_j.
 Narins, Lothar and Pokrovskiy, Alexey and Szabó, Tibor, Graphs without
 proper subgraphs of minimum degree 3 and short cycles. Combinatorica 37
 (2017), no. 3, 495--519, doi:10.1007/s00493-015-3310-9 (published online 10
-August 2016; Crossref record read; the site's reference text
+August 2016; Crossref record read on 2026-09-18; the site's reference text
 gives "Combinatorica (2017), 495--519"). Preprint arXiv:1408.5289 (v1, 22
 August 2014). The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1408.5289), every other right reserved.

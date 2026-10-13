@@ -32,7 +32,7 @@ six-way blow-up that refutes Turán's n^3/24 conjecture.
 
 Frankl, P. and Füredi, Z., An exact result for $3$-graphs. Discrete Math.
 50 (1984), 323--328, doi:10.1016/0012-365X(84)90058-X (the volume and DOI
-from the Crossref record). A "Communication",
+from the Crossref record, read on 2026-09-18). A "Communication",
 communicated by A. Hajnal, received 24 January 1984 (p. 323).
 
 The copy read for this card is a six-page scan of the journal article with the

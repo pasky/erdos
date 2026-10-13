@@ -46,7 +46,7 @@ cover", [8] being Gyárfás's survey, Discrete Math. 339 (2016), 1970--1977.
 **Source.** A. Pokrovskiy, L. Versteegen and E. Williams, *A proof of a
 conjecture of Erdős and Gyárfás on monochromatic path covers*, J. Combin.
 Theory Ser. B 176 (2026), 551--560, doi:10.1016/j.jctb.2025.10.007 (the
-Crossref record dates the issue January 2026 and the
+Crossref record, read 2026-09-18, dates the issue January 2026 and the
 record 29 October 2025); read in arXiv:2409.03623v2 (7 October
 2025, 8 pages), Theorem 1.3 and the remark on p. 2, the construction on
 p. 1, on the rendered page images and in the text layer. The journal text

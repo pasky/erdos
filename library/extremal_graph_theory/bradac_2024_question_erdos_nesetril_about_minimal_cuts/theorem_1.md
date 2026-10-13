@@ -40,7 +40,7 @@ gave a simpler proof of the upper bound.
 
 **Source.** D. Bradač, *On a question of Erdős and Nešetřil about minimal
 cuts in a graph*, J. Graph Theory 108 (2025), no. 4, 817--818, DOI
-10.1002/jgt.23207 (Crossref record read: issued 8 December 2024;
+10.1002/jgt.23207 (Crossref record read 2026-09-19: issued 8 December 2024;
 the acknowledgment, p. 2 of the copy read, thanks "the anonymous referee");
 read in arXiv:2409.02974v2 (23 June 2026, 3 pp.), which carries the note
 above and whose arXiv comment says the bounds "are superseded by earlier

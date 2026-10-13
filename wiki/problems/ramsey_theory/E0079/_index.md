@@ -105,7 +105,7 @@ Bloom, Erdős Problem #79, https://www.erdosproblems.com/79, accessed
 - [Wi24] Wigderson, Y., Infinitely many minimally non-Ramsey size-linear
   graphs. arXiv:2409.05931v2 (5 May 2025, the version cited; v1
   9 September 2024); European J. Combin. 128 (2025), 104175,
-  doi:10.1016/j.ejc.2025.104175 (Crossref record).
+  doi:10.1016/j.ejc.2025.104175 (Crossref record accessed 2026-09-18).
   Theorem 1 and Lemmas 2--3, p. 1; Lemma 4, the proof, the remark and Open
   problem 5, p. 2. Library home:
   [[../library/ramsey_theory/wigderson_2024_infinitely_many_minimally_non_ramsey_size/_index|wigderson_2024_infinitely_many_minimally_non_ramsey_size]].
@@ -128,7 +128,7 @@ of formal-conjectures (main) declares
 `erdos_79 : answer(True) ↔ ∀ (N : ℕ), ∃ (n : ℕ) (_ : N ≤ n) (G : SimpleGraph (Fin n)), ¬ G.IsRamseySizeLinear ∧ ∀ H : G.Subgraph, H < ⊤ → H.coe.IsRamseySizeLinear`
 under `category research solved`, with proof `sorry` and no `formal_proof`
 attribute; its docstring writes "all of its proper subgraphs" and credits
-[Wi24]. The community database records the problem
+[Wi24]. The community database (accessed 2026-09-18) records the problem
 proved (last changed 31 August 2025), the statement formalized since
 9 September 2026 and no formal proof; the site's "Formalised statement?"
 indicator read "No" and "Yes" on 2026-09-18. Nothing was
@@ -136,7 +136,7 @@ built here.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation accessed 2026-09-18).** The statement
 above; status PROVED; no last-edited date. The commentary attributes the
 question to Erdős, Faudree, Rousseau and Schelp [EFRS93], names $K_4$ as
 the only known example, and credits Wigderson [Wi24] with the proof that

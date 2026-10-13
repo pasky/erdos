@@ -34,7 +34,7 @@ $$
 f(k)=(1+o(1))\frac{e}{e-1}k?
 $$
 
-**Formulation.** The site's wording (page last
+**Formulation.** The site's wording as accessed 2026-09-17 (page last
 edited 1 October 2025). The denominators are distinct positive
 integers and $k\ge3$: one term represents $1$ only as $1/1$, and two
 distinct unit fractions never sum to $1$. So $f(k)$ is the least possible
@@ -77,7 +77,8 @@ Erdős Problem #285, https://www.erdosproblems.com/285, accessed 2026-09-17.
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [OEIS] Hoey, D., Sequence A030659, The On-Line Encyclopedia of Integer
   Sequences (1999; entry last modified 5 November 2025, server time): the
-  values $f(k)$ for $3\le k\le147$, with a b-file by T. Watanabe.
+  values $f(k)$ for $3\le k\le147$, with a b-file by T. Watanabe; accessed
+  2026-09-17.
 
 **Formalization.** The statement file
 [`ErdosProblems/285.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/285.lean)
@@ -132,7 +133,7 @@ explicit error term $O(k\log\log k/\log k)$, whose order Martin shows cannot
 be lowered (display (9), p. 5). Acceptance evidence: the paper is published in
 Acta Arithmetica 95 (2000), no. 3, 231--260, a refereed journal (the arXiv
 listing's journal reference and the Crossref record for DOI
-10.4064/aa-95-3-231-260); the author writes that the
+10.4064/aa-95-3-231-260, both accessed 2026-09-17); the author writes that the
 theorem "completely resolves Erdős and Graham's question" (p. 2), and the site
 accepts it. Proof coverage: the reduction of Theorem 2 to Propositions 5 and 6
 (pp. 4--5) is recorded on the theorem page; the proofs of Propositions 6--8

@@ -153,7 +153,8 @@ Erdős Problem #309, https://www.erdosproblems.com/309, accessed 2026-09-18.
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [OEIS] Marcus, M., Sequence A217693, The On-Line Encyclopedia of Integer
   Sequences (2012; entry last modified 30 May 2026, server time): the number of
-  distinct integers among the subset sums of $\{1,1/2,\ldots,1/n\}$.
+  distinct integers among the subset sums of $\{1,1/2,\ldots,1/n\}$; accessed
+  2026-09-18.
 
 **Formalization.** A statement file and an external Lean proof; no build or
 review of either is recorded in this corpus. The statement file was added on
@@ -200,7 +201,8 @@ updated to address it); 14 December 2025, that Croot's lower bound was
 improved by Yokota in [Yo02] (likewise addressed); and 23 July 2026, a
 typographical remark on the stray inequality sign in the Croot display,
 with the disclosure that GPT-5.5 was used to find the minor typographical
-mistakes. The community database (`data/problems.yaml`) records status "disproved (Lean)" and formal status Lean, with
+mistakes. The community database (`data/problems.yaml`, accessed
+2026-09-18) records status "disproved (Lean)" and formal status Lean, with
 a last update of 24 August 2026, statement not formalized, OEIS A217693,
 no formal-proof URL.
 
@@ -312,7 +314,7 @@ it is recorded, and no kernel credit is claimed. The formal-conjectures
 statement file is a `sorry` whose attribute points at this file; it is a
 statement, not a formalization, and is not linked from the claim pages.
 
-**Data lead, not status.** OEIS A217693 gives the
+**Data lead, not status.** OEIS A217693 (accessed 2026-09-18) gives the
 number of distinct integers among the subset sums of
 $\{1,1/2,\ldots,1/n\}$, which is $F(n)$: $1$ for $n\le5$, $2$ for
 $6\le n\le23$, $3$ for $24\le n\le64$ and $4$ from $n=65$ on through the

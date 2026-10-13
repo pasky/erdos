@@ -133,7 +133,8 @@ https://www.erdosproblems.com/554, accessed 2026-09-17.
   superexponential. arXiv:2608.02537 (v1 3 August 2026, 12 pages; v2 7
   September 2026, withdrawn, with the comment that v2 of arXiv:2608.02522,
   Locally bipartite subgraphs via multicolor Ramsey numbers, 28 pages, 7
-  September 2026, supersedes it). Not held; abstracts only (arXiv).
+  September 2026, supersedes it). Not held; abstracts only (arXiv, accessed
+  2026-10-07).
 - [My26] mysticflounder (forum user), Erdős Problem #554: odd-cycle Ramsey
   ratios versus triangles. Research report, 1 August 2026, revised 2 August
   2026; a GitHub gist in nine revisions, the last of 2 August 2026, linked

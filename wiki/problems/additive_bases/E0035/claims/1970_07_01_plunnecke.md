@@ -44,10 +44,10 @@ yes.
 **Acceptance.** Refereed: H. Plünnecke, Eine zahlentheoretische Anwendung der
 Graphentheorie, Journal für die reine und angewandte Mathematik 243 (1970),
 171–183. Reviewed: Thomas Bloom, the site's curator, records in the problem's
-remarks that the asked bound follows from Plünnecke's theorem, and labeled the
-problem proved. Jin's Theorem 2 of 2014 gives a later proof of
-the same bound by a different method. This repository holds a rewritten proof of
-it on
+remarks (page accessed 2026-10-07) that the asked bound follows from Plünnecke's
+theorem, and labeled the problem proved. Jin's Theorem 2 of 2014 gives a later
+proof of the same bound by a different method. This repository holds a rewritten
+proof of it on
 [[../library/additive_bases/jin_2014_density_versions_plunnecke_inequality/theorem_2|Jin's result page]].
 The original 1970 proof is cited, not compiled.
 

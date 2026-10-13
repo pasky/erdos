@@ -32,8 +32,8 @@ $$
 where $P_d$ ranges over all finite arithmetic progressions with common
 difference $d$.
 
-**Status.** Open. This is the site's label as accessed on 2026-09-04. On that
-date the problem's proof-claim tab was empty. No full claim
+**Status.** Open. This is the site's label as accessed on 2026-09-04. On
+2026-10-07 the problem's proof-claim tab was empty. No full claim
 exists, and the standing derives from the claim pages.
 
 The site's commentary records $h(d)\ll d!$ from Cantor, Erdős, Schreiber and

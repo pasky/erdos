@@ -31,7 +31,7 @@ below tn/(2t - 1), has an independent transversal of those classes.
 
 P. Haxell and T. Szabó, *Odd independent transversals are odd*, Combin.
 Probab. Comput. 15 (2006), no. 1--2, 193--211, DOI 10.1017/S0963548305007157
-(Crossref record read). The site's key HaSz06.
+(Crossref record read 2026-09-18). The site's key HaSz06.
 
 **Source and version.** The copy read for this card is the
 authors' preprint (20 pages on A4, paginated 1--20, with a text layer;

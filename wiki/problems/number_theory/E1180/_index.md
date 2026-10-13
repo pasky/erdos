@@ -152,9 +152,9 @@ follows Glibichuk's 2006 solution, and contains no `sorry`. The variants restate
 Shparlinski's and Glibichuk's bounds for sufficiently large primes, the trivial
 lower bound, and the open question whether $C_\epsilon\le\epsilon^{-1-o(1)}$.
 The community database records the problem formalized since 20 September 2026
-and the site's page lists a formalised statement. Neither file has been built or
-audited here; Glibichuk's claim page records the pinned link, and the standing
-rests on the papers.
+and the site's page lists a formalised statement (accessed 2026-10-07). Neither
+file has been built or audited here; Glibichuk's claim page records the pinned
+link, and the standing rests on the papers.
 
 ## Current assessment
 

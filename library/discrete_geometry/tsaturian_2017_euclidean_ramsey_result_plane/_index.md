@@ -50,7 +50,7 @@ version, downloaded from the journal.
 
 The earlier arXiv v2,
 [arXiv:1703.10723v2](https://arxiv.org/abs/1703.10723v2), dated 2017-04-04,
-also 9 pages, was also read. The arXiv version history checked
+also 9 pages, was also read. The arXiv version history checked on 2026-09-05
 still ended at v2. Its TeX diagram definitions were consulted to recover the
 lattice coordinates, then compared with the published figures. The published
 PDF supplies the canonical statements, numbering and page citations. The

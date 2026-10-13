@@ -180,7 +180,7 @@ $|B|=\lfloor\sqrt n\rfloor-1$ forces $\lfloor\sqrt n\rfloor$ paths. The proof
 Lemmas 3.2 and 3.3 (Lemma 3.2 rests on Lemma 3.1) and the bipartite path
 lemmas (Lemma 2.1 from [GyLe73], Lemmas 2.2--2.4); no review of it is
 recorded. Acceptance evidence: refereed publication in J. Combin. Theory Ser.
-B 176 (2026), 551--560 (the Crossref record, dates the
+B 176 (2026), 551--560 (the Crossref record, accessed 2026-09-18, dates the
 issue January 2026 and the record 29 October 2025); the text cited here is the
 arXiv v2 preprint, whose date precedes the record by three weeks, and no
 comparison with the journal text is recorded. Version: arXiv v1 of 5 September

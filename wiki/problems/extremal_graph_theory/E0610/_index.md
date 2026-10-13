@@ -145,7 +145,7 @@ Erdős Problem #610, https://www.erdosproblems.com/610, accessed 2026-09-19.
   text at `/bibs/Er94` gives "(1994),
   217-227. (MR 1319165)"; the volume and publisher from the graphs problem
   collection's bibliography). Not held: a 1994 volume chapter after the Rényi
-  archive's cutoff (the archive's index lists no paper
+  archive's cutoff (on 2026-09-19 the archive's index listed no paper
   after 1989), with no open copy identified. The graphs problem collection's
   page "CliqueTransversalUpperBound" attributes to it the
   question "Is it true that $\tau(G)<n-g(n)\sqrt n$ and $g(n)\to\infty$ as

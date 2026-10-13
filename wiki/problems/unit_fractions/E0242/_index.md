@@ -50,10 +50,10 @@ distinct unit fractions for every $b>4$, and Straus had verified this for
 $4<b<5000$.
 
 **Status.** Labeled falsifiable on the site: the label was FALSIFIABLE (page
-last edited 7 May 2026). The site explained this label as open but refutable by
-one finite counterexample. The standing derived from the claim pages is claimed,
-claim proved. Three dated manuscripts claim the whole conjecture: Alomari's
-preprint of February 2023
+last edited 7 May 2026, accessed 2026-09-18). The site explained this label as
+open but refutable by one finite counterexample. The standing derived from the
+claim pages is claimed, claim proved. Three dated manuscripts claim the whole
+conjecture: Alomari's preprint of February 2023
 ([[problems/unit_fractions/E0242/claims/2023_02_06_alomari|Alomari 2023]]),
 Dyachenko's arXiv preprint of 7 November 2025
 ([[problems/unit_fractions/E0242/claims/2025_11_07_dyachenko|Dyachenko 2025]])
@@ -436,7 +436,7 @@ that appear there.
 - arXiv leads (abstracts only, API search for "Erdős--Straus" in
   abstracts, 30 records): 2026 preprints on the conjecture by Jiang
   (2609.09204, counting Type I and II solutions, "We do not address the
-  Erdos-Straus conjecture itself"; its arXiv listing marks
+  Erdos-Straus conjecture itself"; on 2026-10-07 its arXiv listing marked
   the paper withdrawn), Dahan (2608.24035, sieve dimension and search depth
   for $n\equiv1\pmod{24}$), Bello-Hernández, Benito and Fernández (2606.10922,
   a divisor parametrization), Ventas (2605.04551, heuristic finiteness of

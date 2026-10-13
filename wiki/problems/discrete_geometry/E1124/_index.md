@@ -48,16 +48,17 @@ for it.
 
 ## Current assessment
 
-**Proved.** The site formulation above (the site's page, prints no last-edited date) is Tarski's circle-squaring problem: whether
-a square and a disk of the same area can be cut into finitely many pieces
-that are pairwise congruent. The site records that Erdős, in his Scottish
-Book problems [Er81b], called it a very beautiful problem and said he would
-have offered a prize for it had it been his own. The answer is yes.
-[[problems/discrete_geometry/E1124/claims/1990_02_01_laczkovich|Laczkovich]]
-(J. Reine Angew. Math. 1990, refereed; credited by the site's curator) proved
-it, with the pieces matched by translations alone; the proof uses the axiom
-of choice and its pieces need not be measurable. The standing derives from
-this accepted claim.
+**Proved.** The site formulation above (the site's page, accessed 2026-10-07,
+printed no last-edited date) is Tarski's circle-squaring problem: whether a
+square and a disk of the same area can be cut into finitely many pieces that are
+pairwise congruent. The site records that Erdős, in his Scottish Book problems
+[Er81b], called it a very beautiful problem and said he would have offered a
+prize for it had it been his own. The answer is yes.
+[[problems/discrete_geometry/E1124/claims/1990_02_01_laczkovich|Laczkovich]] (J.
+Reine Angew. Math. 1990, refereed; credited by the site's curator) proved it,
+with the pieces matched by translations alone; the proof uses the axiom of
+choice and its pieces need not be measurable. The standing derives from this
+accepted claim.
 
 The paged claim is the result the site's curator records; later proofs of the
 same answer with better pieces are cited here without pages of their own, the

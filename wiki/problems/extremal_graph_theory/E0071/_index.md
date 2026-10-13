@@ -43,7 +43,7 @@ accessed 2026-10-07.
 
 - [Bo77] Bollobás, Béla, Cycles modulo $k$. Bull. London Math. Soc. 9 (1977),
   no. 1, 97-98, doi:10.1112/blms/9.1.97 (received 24 March 1976, revised
-  9 July 1976; Crossref record). Not held; the
+  9 July 1976; Crossref record, accessed 2026-10-07). Not held; the
   publisher's online copy omits the second page, and a scan of both pages is
   linked from the site's forum thread.
 - [Er82e] Erdős, Paul, Some of my favourite problems which recently have been
@@ -69,7 +69,7 @@ or checked the proof and claims no kernel credit.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above;
+**The question (site formulation, accessed 2026-10-07).** The statement above;
 the site labeled it PROVED (LEAN). The formal-conjectures docstring says Erdős
 credits the conjecture to himself and Burr in [Er82e], that Bollobás [Bo77]
 proved it, and that the best dependence of $c(P)$ is unknown. The discussion

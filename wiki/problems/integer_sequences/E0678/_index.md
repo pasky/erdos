@@ -91,7 +91,7 @@ January 2026; header keys [Er79, p.67], [Er92e, p.47]; commentary citing
 
 **Formalization.** Statement only here. The file
 [`ErdosProblems/678.lean`](https://github.com/google-deepmind/formal-conjectures/blob/fe0601160638ba1feedc32858970070c326b7534/FormalConjectures/ErdosProblems/678.lean)
-of formal-conjectures (the commit the link pins) declares
+of formal-conjectures at main on 2026-09-18 (the commit the link pins), declares
 `erdos_678 : answer(True) ↔ ∀ᶠ k in atTop, {(m, n) | n + k ≤ m ∧ lcmInterval m (k + 1) < lcmInterval n k}.Nonempty`
 and the variants `erdos_678.variants.infinitely_many_triples`
 (`{(k, m, n) | 3 ≤ k ∧ n + k ≤ m ∧ lcmInterval m (k + 1) < lcmInterval n k}.Infinite`)

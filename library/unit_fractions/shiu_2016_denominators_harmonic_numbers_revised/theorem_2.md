@@ -13,9 +13,10 @@ updated: 2026-10-08T01:29:58Z
 
 **Source.** Theorem 2, Section 1, p. 2 of arXiv:1607.02863v2
 (30 July 2024), proof in Section 3, p. 4; read on the PDF pages in the text
-layer. Preprint, not published in a journal (arXiv listing checked). Notation: $H_n=c_n/d_n$ in lowest terms,
-$D_n=\mathrm{lcm}(1,\ldots,n)=d_nq_n$, and for an odd prime $p$,
-$E_p=\{n:1<n<p,\ p\mid c_n\}$ and $Q_p=\{n:p\mid q_n\}$.
+layer. Preprint, not published in a journal (arXiv listing checked 2026-09-18).
+Notation: $H_n=c_n/d_n$ in lowest terms, $D_n=\mathrm{lcm}(1,\ldots,n)=d_nq_n$,
+and for an odd prime $p$, $E_p=\{n:1<n<p,\ p\mid c_n\}$ and
+$Q_p=\{n:p\mid q_n\}$.
 
 ## Statement
 

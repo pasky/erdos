@@ -27,13 +27,13 @@ O(√(n/log n)) corollary behind Problem 610 is derived.
 
 Gwenaël Joret, Piotr Micek, Bruce Reed and Michiel Smid, *Tight bounds on the
 clique chromatic number*, Electronic Journal of Combinatorics 28 (2021), no. 3,
-Paper No. P3.51, 8 pp.; DOI 10.37236/9659 (the Crossref record, gives the
-publication date 10 September 2021 and lists no correction or update). The first
-page reads "Submitted: Jun 19, 2020; Accepted: Jul 21, 2021; Published: Sep 10,
-2021" and "Released under the CC BY-ND license (International 4.0)". The arXiv
-version is 2006.11353 (v1 19 June 2020, v2 25 August 2021; the arXiv record read
-carries the journal reference); it is not held and was not compared with the
-journal text.
+Paper No. P3.51, 8 pp.; DOI 10.37236/9659 (the Crossref record, read 2026-09-19,
+gives the publication date 10 September 2021 and lists no correction or update).
+The first page reads "Submitted: Jun 19, 2020; Accepted: Jul 21, 2021;
+Published: Sep 10, 2021" and "Released under the CC BY-ND license (International
+4.0)". The arXiv version is 2006.11353 (v1 19 June 2020, v2 25 August 2021; the
+arXiv record read carries the journal reference); it is not held and was not
+compared with the journal text.
 
 The copy read for this card is the journal's PDF, eight A4 pages with a
 complete text layer, 292,961 bytes, read on the rendered page images of pp.

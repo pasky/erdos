@@ -93,13 +93,14 @@ https://www.erdosproblems.com/289, accessed 2026-09-17.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/289.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/289.lean)
-of formal-conjectures at the linked commit (main) declares
+of formal-conjectures at the linked commit (main on 2026-09-17) declares
 `erdos_289 : answer(sorry) ↔ (∀ᶠ k : ℕ in atTop, ∃ I : Fin k → ℕ × ℕ, (∀ i, (I
 i).1 < (I i).2) ∧ (∀ i j, i ≠ j → (I i).2 + 1 < (I j).1 ∨ (I j).2 + 1 < (I
 i).1) ∧ ∑ i, ∑ n ∈ .Icc (I i).1 (I i).2, (n⁻¹ : ℚ) = 1)` under `category
 research open`, with proof `sorry`; its docstring explains the non-adjacency
 clause. This is the restricted form (the thread's comment of 18 December 2025
-had asked for the change from the unrestricted one). The community database records the statement as formalized since 31 August 2025
+had asked for the change from the unrestricted one). The community database
+(accessed 2026-09-17) records the statement as formalized since 31 August 2025
 and no formal proof. A commit of 7 October 2026 (pull request 6781, opened 1
 October 2026) changed the file's category to `research solved` with
 `answer(True)` and added a `formal_proof` attribute pointing to a complete

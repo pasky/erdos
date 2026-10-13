@@ -32,9 +32,9 @@ retained arXiv v1.
 
 L. Chahua and J. Gutiérrez, *On Tuza's conjecture in dense graphs*. Discrete
 Appl. Math. 377 (2025), 225--233, DOI 10.1016/j.dam.2025.06.049, as Problem
-167's page cites the journal record (Crossref record read); the authors are at
-the Departamento de Ciencia de la Computación, Universidad de Ingeniería y
-Tecnología (UTEC), Perú (p. 1). Not a site key for Problem 167.
+167's page cites the journal record (Crossref record read 2026-09-19); the
+authors are at the Departamento de Ciencia de la Computación, Universidad de
+Ingeniería y Tecnología (UTEC), Perú (p. 1). Not a site key for Problem 167.
 
 **Retained artifact.** The
 [folder-name PDF](chahua_2025_tuza_s_conjecture_dense_graphs.pdf) is the arXiv

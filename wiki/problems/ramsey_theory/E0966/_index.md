@@ -71,7 +71,7 @@ source key [Er75b]), its three-comment discussion thread (25 and 26 February
 
 - [Sp75] Spencer, J., Restricted Ramsey configurations. J. Combinatorial
   Theory Ser. A 19 (1975), no. 3, 278--286, doi:10.1016/0097-3165(75)90053-9
-  (the publisher's record, dates the issue November
+  (the publisher's record, accessed 2026-09-18, dates the issue November
   1975). Theorem 1, printed p. 279. Library home:
   [[../library/ramsey_theory/spencer_1975_restricted_ramsey_configurations/_index|spencer_1975_restricted_ramsey_configurations]].
 - [Er75b] Erdős, P., Problems and results in combinatorial number theory.
@@ -155,7 +155,7 @@ Theorem 6 (p. 285) refines the construction with $p>2k$ so that any two
 $k$-term progressions in the set meet in at most one point, which is the
 base-$q$ embedding with $q>2k$ of the thread's sketch. Acceptance: the
 paper appeared in J. Combinatorial Theory Ser. A 19 (1975), no. 3, 278--286
-(the publisher's record), a refereed journal; Erdős's
+(the publisher's record, accessed 2026-09-18), a refereed journal; Erdős's
 added-in-proof note attests the result, and Spencer's acknowledgment thanks
 Erdős "for his conjectures, theorems, and encouragement". The Semantic Scholar
 list of works citing the paper (28 records, 1979 to 2026, among them the

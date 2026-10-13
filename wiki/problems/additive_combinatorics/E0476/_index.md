@@ -124,8 +124,8 @@ Erdős Problem #476, https://www.erdosproblems.com/476, accessed
   [[../library/additive_combinatorics/dias_da_silva_hamidoune_1994_cyclic_spaces_grassmann_derivatives_additive_theory/theorem_4_1|theorem_4_1]].
 - [ANR95] Alon, N., Nathanson, M. B. and Ruzsa, I., Adding distinct
   congruence classes modulo a prime. Amer. Math. Monthly 102 (1995), no.
-  3, 250--255, DOI 10.1080/00029890.1995.11990565 (Crossref record); the
-  page numbers are those of the authors' version (7 pp.) on the first
+  3, 250--255, DOI 10.1080/00029890.1995.11990565 (Crossref record, 2026-09-18);
+  the page numbers are those of the authors' version (7 pp.) on the first
   author's publication list: Theorem 1 on p. 3, Theorem 2 and the sharpness
   example on p. 5. Library home:
   [[../library/additive_combinatorics/alon_1995_adding_distinct_congruence_classes_modulo_prime/_index|alon_1995_adding_distinct_congruence_classes_modulo_prime]].

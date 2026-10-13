@@ -40,7 +40,7 @@ Glibichuk, A. A., Combinatorial properties of sets of residues modulo a prime
 and the {E}rdős-{G}raham problem. Mat. Zametki (2006), 384--395. The journal
 record is Mat. Zametki 79 (2006), no. 3, 384--395, DOI 10.4213/mzm2708;
 English translation Math. Notes 79 (2006), no. 3--4, 356--365, DOI
-10.1007/s11006-006-0040-8 (both Crossref records read; the
+10.1007/s11006-006-0040-8 (both Crossref records read 2026-09-18; the
 translation was not read). Received 3 May 2005, revised version 26 September
 2005 (p. 395).
 

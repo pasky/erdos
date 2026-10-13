@@ -138,7 +138,7 @@ accessed 2026-09-18.
   Adjacent lead, recorded below.
 
 **Formalization.** None for this problem: no file `ErdosProblems/575.lean`
-exists in formal-conjectures (main; directory listing
+exists in formal-conjectures (main, fetched 2026-09-18; directory listing
 of 672 entries and the recursive tree checked), the site's indicator
 reads "Formalised statement? No", and the community database records the problem as disproved (last update 31 August 2025)
 and unformalized, with no formal proof. The external file

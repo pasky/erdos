@@ -113,12 +113,12 @@ https://www.erdosproblems.com/1015, accessed 2026-09-18.
 google-deepmind/formal-conjectures at the `main` revision of 2026-09-18 (the
 directory `FormalConjectures/ErdosProblems/` listed in full, 673 entries),
 the site's indicator records no formalized statement, and the community
-database lists the problem as solved as of its last
+database (accessed 2026-09-18) lists the problem as solved as of its last
 update, 10 September 2025, and not formalized, with no formal proof.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-18).** The statement
 above; SOLVED; no last-edited date shown. The commentary attributes the
 question to Moon [Mo66b], crediting [Mo66b] with $f(3)=4$ for $n\ge8$;
 supposes that Erdős meant to ask only for $n$ large in terms of $t$;

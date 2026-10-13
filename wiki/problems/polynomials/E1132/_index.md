@@ -104,10 +104,11 @@ https://www.erdosproblems.com/1132.
 - [Va99] Various, Some of Paul's favorite problems. Booklet produced for the
   conference "Paul Erdős and his mathematics", Budapest, July 1999 (1999).
 
-**Formalization.** No formal-conjectures statement file exists for the problem,
-and the site's page reports no formalized statement. The claimant's Zenodo
-record carries a Lean 4 archive said to formalize the claimed theorems, linked
-from the claim page; it is not built or audited in this repository.
+**Formalization.** On 2026-10-07 no formal-conjectures statement file existed
+for the problem, and the site's page reported no formalized statement. The
+claimant's Zenodo record carries a Lean 4 archive said to formalize the claimed
+theorems, linked from the claim page; it is not built or audited in this
+repository.
 
 ## Current assessment
 

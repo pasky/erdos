@@ -34,7 +34,7 @@ Theorem 1 with s equal to 2.
 R. Blecksmith, P. Erdős and J. L. Selfridge, *Cluster primes*, Amer. Math.
 Monthly **106** (1999), no. 1, 43--48; JSTOR stable URL
 <http://www.jstor.org/stable/2589585>; DOI 10.1080/00029890.1999.12005005
-(its Crossref record gives the same volume, issue and
+(its Crossref record, read on 2026-10-07, gives the same volume, issue and
 pages).
 
 The copy read for this card is the JSTOR PDF: a cover sheet with a text layer

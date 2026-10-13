@@ -46,7 +46,8 @@ The copy read for this card is arXiv:2509.24971v3 (3 December 2025), 17
 pages (v1 29 September 2025;
 the v3 comment says "minor changes to the exposition"). The paper is
 published as Acta Arith. 223 (2026), 275--295, DOI 10.4064/aa251001-13-1,
-online 15 April 2026 (the arXiv journal reference and the Crossref record), and its acknowledgments (p. 16) thank an anonymous
+online 15 April 2026 (the arXiv journal reference and the Crossref record,
+read 2026-09-18), and its acknowledgments (p. 16) thank an anonymous
 referee; the published text was not obtained or compared, and the locators
 below are the preprint's. Read status: claims checked. Definition 1 (p. 1),
 display (1.2) and Theorems 1 and 2 (pp. 2--3) were read clause by clause on

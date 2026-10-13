@@ -66,7 +66,7 @@ of its own.
 
 ## Current assessment
 
-The site's formulation is the Duffin-Schaeffer
+The site's formulation (accessed 2026-09-04) is the Duffin-Schaeffer
 conjecture of 1941: for almost all $\alpha$, infinitely many reduced
 fractions $p/q$ lie within $f(q)/q$ of $\alpha$ exactly when
 $\sum_q \phi(q) f(q)/q$ diverges. One wording defect: the site writes

@@ -50,7 +50,7 @@ The copy read for this card
 is arXiv:1506.03306v1 (10 June 2015, the only arXiv version), 11 pages with
 a clean text layer; the identity line above is the published version,
 Combinatorica 37 (2017), no. 6, 1113--1124, doi:10.1007/s00493-016-3500-0
-(published online 28 November 2016; Crossref record read; an
+(published online 28 November 2016; Crossref record read 2026-09-18; an
 extended abstract appeared in Electron. Notes Discrete Math. 61 (2017),
 557--560), whose text is not held and was not compared, so the labels here
 are the preprint's. Read status: claims checked for the abstract, the

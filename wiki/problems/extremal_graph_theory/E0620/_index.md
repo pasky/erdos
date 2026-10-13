@@ -25,7 +25,7 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** If $G$ is a graph on $n$ vertices without a $K_4$ then how large
 a triangle-free induced subgraph must $G$ contain?
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording, accessed 2026-09-18 (the page shows no
 last-edited date). Write $f(n)$ for the largest $m$ such that every
 $K_4$-free graph on $n$ vertices has $m$ vertices spanning no triangle; the
 question asks for the order of $f(n)$. This is the Erdős--Rogers function
@@ -233,7 +233,7 @@ formalized and without a formal proof.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-18).** The statement
 above, labeled open. The site's commentary traces the question to Erdős and
 Rogers [ErRo62], gives it its usual name, and records the history of bounds
 on $f(n)$ through [BoHi91], [Kr94] and [Wo13] to the two bounds that stand
@@ -448,7 +448,7 @@ source of this page's derived standing; it is not accepted.
   behind the corollary. The route through [OAI26] above reaches the same bound
   without that theorem. The new part of the claim is the upper bound. A
   discussion comment of 7 September 2026 reports the preprint as a solution;
-  the site's label was OPEN and the page carries no
+  the site's label was OPEN (accessed 2026-09-18) and the page carried no
   update note. The preprint is
   unrefereed (no journal reference on the arXiv record on 2026-10-07 and no
   Crossref record on 2026-09-18) and not held; no review or acceptance

@@ -33,7 +33,7 @@ Brown-Erdős-Sós problem*, arXiv:2301.07758v1 (18 January 2023, 8 pages), the
 retained file; the paper appeared as an extended abstract in the EuroComb
 2023 proceedings (doi:10.5817/cz.muni.eurocomb23-112, pp. 812--818) and in
 Israel J. Math. 267 (2025), no. 2, 717--728, doi:10.1007/s11856-025-2714-5
-(Crossref records), neither held or compared.
+(Crossref records, read on 2026-09-18), neither held or compared.
 Conjecture 1.1 on p. 2, read on the page image and in the text layer. The
 artifact is identified in the
 [[extremal_graph_theory/shapira_2023_new_approach_brown_erdos_sos_problem/_index|source digest]].

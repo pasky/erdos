@@ -22,14 +22,14 @@ and total sum are monochromatic; for n = 2 this is the set x, y, xy, x+y.
 M. Bowen, *Monochromatic products and sums in 2-colorings of $\mathbb{N}$*,
 arXiv:2205.12921; published in Advances in Mathematics **462** (2025), 110095,
 DOI [10.1016/j.aim.2024.110095](https://doi.org/10.1016/j.aim.2024.110095)
-(Crossref record read).
+(Crossref record read 17 September 2026).
 
 The retained
 [folder-name PDF](bowen_2022_monochromatic_products_sums_2_colorings_naturals.pdf)
 is arXiv:2205.12921v1, stamped "[math.CO] 25 May 2022" on p. 1 and dated May
-2022, 16 pages with a text layer; it is the only version on the arXiv listing.
-The published version was not compared, so its numbering may differ; labels and
-pages below are v1's. Provenance: retrieved from
+2022, 16 pages with a text layer; it was the only version on the arXiv listing
+on 17 September 2026. The published version was not compared, so its numbering
+may differ; labels and pages below are v1's. Provenance: retrieved from
 <https://arxiv.org/abs/2205.12921> into the repository's survey download set on
 5 September 2026; 347,431 bytes. The arXiv record
 (https://arxiv.org/abs/2205.12921, read 2026-10-02) names the Creative Commons

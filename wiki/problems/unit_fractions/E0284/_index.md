@@ -35,7 +35,7 @@ $$
 f(k)=(1+o(1))\frac{k}{e-1}?
 $$
 
-**Formulation.** The site's wording (the page shows
+**Formulation.** The site's wording, accessed 2026-09-18 (the page shows
 no last-edited stamp). The denominators are distinct
 positive integers and $k\ge3$: one term represents $1$ only as $1/1$, and
 two distinct unit fractions never sum to $1$. So $f(k)$ is the largest
@@ -106,7 +106,7 @@ evidence is listed and no local kernel credit is claimed.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-18).** The statement
 above; status PROVED; source key [ErGr80]. The commentary derives the
 upper bound $f(k)\le(1+o(1))\frac{k}{e-1}$ from
 $\sum_{u\le n\le eu}\frac1n=1+o(1)$, since $f(k)=u$ forces

@@ -85,7 +85,7 @@ Problem #317, https://www.erdosproblems.com/317, accessed 2026-09-18.
 
 **Formalization.** Statement only here. The file
 [`ErdosProblems/317.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/317.lean)
-of formal-conjectures at the pinned commit (main)
+of formal-conjectures at the pinned commit (main on 2026-09-18)
 declares `erdos_317 : answer(sorry) ↔ ∃
 c > 0, ∀ n ≥ 1, ∃ δ : Fin n → ℚ, range δ ⊆ {-1, 0, 1} ∧ 0 < |∑ δ k /
 (k+1)| ∧ |∑ δ k / (k+1)| < c / 2^n` (the first question) and

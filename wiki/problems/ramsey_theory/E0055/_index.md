@@ -117,12 +117,12 @@ adds the factor $r$ to Burr and Erdős's. A compactness remark on the same page
 makes the constructed sequence entirely $r$-Ramsey complete after adding the
 integers below a threshold $n(A)$. Acceptance evidence: the paper is arXiv v1 of
 30 April 2021, the only version on the listing, with no journal reference on
-arXiv and no Crossref record; the Semantic Scholar record lists eight citing
-works (on subset sums and knapsack algorithms, none
-disputing it); and the site's curator accepted it as the solution, labeling the
-problem SOLVED and crediting the paper in the commentary. The status therefore
-rests on an unrefereed preprint accepted by the site's curator, a reader
-independent of the authors; on that acceptance the claim page
+arXiv and no Crossref record on 2026-09-17; the Semantic Scholar record of the
+same date listed eight citing works (on subset sums and knapsack algorithms,
+none disputing it); and the site's curator accepted it as the solution, labeling
+the problem SOLVED and crediting the paper in the commentary. The status
+therefore rests on an unrefereed preprint accepted by the site's curator, a
+reader independent of the authors; on that acceptance the claim page
 [[problems/ramsey_theory/E0055/claims/2021_04_30_conlon_fox_pham|Conlon, Fox and Pham, Theorem 1.1]]
 records the result as accepted, with `reviewed` listed and no refereed version,
 and the frontmatter standing is derived from it. Read depth: the statement of

@@ -24,7 +24,7 @@ families, extending Fishburn's n ≤ 9.
 David R. Guichard and John D. Massman, *A note on packing complete graphs
 with trees*, J. Combin. Math. Combin. Comput. (JCMCC) 8 (1990), 123--126
 (Whitman College; "Research supported in part by an Abshire award from
-Whitman College"; zbMATH record 22649; no DOI and no
+Whitman College"; zbMATH record 22649, read on 2026-09-19; no DOI and no
 Crossref record). Not a site key: the erdosproblems.com page for Problem 743
 cites Fishburn's $n\le9$ and does not list this note; a thread comment of 27
 August 2026 named it.

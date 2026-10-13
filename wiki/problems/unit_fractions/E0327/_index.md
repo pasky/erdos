@@ -104,7 +104,7 @@ https://www.erdosproblems.com/327, accessed 2026-09-17.
 - [OEIS] Xie, Y., Sequence A384927, The On-Line Encyclopedia of Integer
   Sequences (2025; entry last modified 21 January 2026, server time):
   $f_1(n)$ for $n\le5000$ (b-file by S. Kesarwani), with a comment
-  conjecturing that $a(n)/n\to1/2$.
+  conjecturing that $a(n)/n\to1/2$; accessed 2026-09-17.
 
 **Formalization.** None recorded. No file `ErdosProblems/327.lean` exists in
 google-deepmind/formal-conjectures (2026-10-07); the community database records the statement as not formalized and no formal proof.
@@ -114,7 +114,7 @@ and is not built or audited here, so it gives no `formalized` evidence.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-17).** The statement
 above; OPEN; no last-edited date. The commentary states the unit-fraction
 connection, credits Wouter van Doorn with an elementary argument showing
 that every $A\subseteq\{1,\ldots,N\}$ with $|A|\ge(25/28+o(1))N$ contains

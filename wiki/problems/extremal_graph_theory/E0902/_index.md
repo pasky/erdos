@@ -77,7 +77,7 @@ https://www.erdosproblems.com/902, accessed 2026-09-19.
 **References.**
 
 - [Er63c] Erdős, P., On a problem in graph theory. Math. Gaz. 47 (1963),
-  220--223, doi:10.2307/3613396 (Crossref; issued
+  220--223, doi:10.2307/3613396 (Crossref, accessed 2026-09-19; issued
   October 1963). The definition, $f(1)=3$, $f(2)=7$, the guess
   $f(k)=2^{k+1}-1$ and inequalities (1), (2) and (2.1), p. 221; the
   seven-town example, p. 220. Library home:
@@ -88,11 +88,12 @@ https://www.erdosproblems.com/902, accessed 2026-09-19.
   and
   [[../library/extremal_graph_theory/erdos_1963_problem_graph_theory/inequality_2|inequality_2]].
 - [SzSz65] Szekeres, E. and Szekeres, G., On a problem of Schütte and Erdős.
-  Math. Gaz. 49 (1965), no. 369, 290--293, doi:10.2307/3612854 (Crossref; issued October 1965). Not held: the Cambridge Core
-  article page, offers an abstract and no PDF link. Its
+  Math. Gaz. 49 (1965), no. 369, 290--293, doi:10.2307/3612854 (Crossref,
+  accessed 2026-09-19; issued October 1965). Not held: the Cambridge Core
+  article page, accessed 2026-09-19, offered an abstract and no PDF link. Its
   bound and its value $f(3)=19$ are stated, without a range of $k$, in J. W.
-  Moon's zbMATH review (Zbl 0134.43502); the bound, the value and the
-  conjecture are also attested in [GrSp71], [Er82e] and [Je26].
+  Moon's zbMATH review (Zbl 0134.43502); the bound, the value and the conjecture
+  are also attested in [GrSp71], [Er82e] and [Je26].
 - [Er82e] Erdős, Paul, Some of my favourite problems which recently have
   been solved. Proceedings of the International Mathematical Conference
   (Singapore, 1981), North-Holland Math. Stud. 74 (1982), 59--79; §2, printed
@@ -100,7 +101,7 @@ https://www.erdosproblems.com/902, accessed 2026-09-19.
   [[../library/discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|erdos_1982_my_favourite_problems_which_recently_have]].
 - [GrSp71] Graham, R. L. and Spencer, J. H., A constructive solution to a
   tournament problem. Canad. Math. Bull. 14 (1971), no. 1, 45--48,
-  doi:10.4153/CMB-1971-007-1 (Crossref). Not a site
+  doi:10.4153/CMB-1971-007-1 (Crossref, accessed 2026-09-19). Not a site
   key; cited in the thread. The quoted bounds (1) and (2), the construction
   and the Theorem, p. 45; the concluding remarks, p. 47. Library home:
   [[../library/extremal_graph_theory/graham_1971_constructive_solution_tournament_problem/_index|graham_1971_constructive_solution_tournament_problem]];

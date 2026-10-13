@@ -24,7 +24,7 @@ needed.
 
 N. Alon, S. Friedland and G. Kalai, *Every 4-regular graph plus an edge
 contains a 3-regular subgraph*, J. Combin. Theory Ser. B **37** (1984), no. 1,
-92--93, doi:10.1016/0095-8956(84)90048-0 (Crossref record read;
+92--93, doi:10.1016/0095-8956(84)90048-0 (Crossref record read on 2026-09-18;
 the site's reference text gives "J. Combin. Theory Ser. B (1984), 92-93"). A
 Note, "Communicated by the Managing Editors" and "Received July 25, 1983"; the
 companion paper is the same authors' *Regular subgraphs of almost regular

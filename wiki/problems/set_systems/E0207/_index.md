@@ -53,7 +53,7 @@ no formal proof linked; no Lean proof of the theorem is recorded.
 
 ## Current assessment
 
-The site's formulation asks, for every $g\geq2$, for
+The site's formulation (accessed 2026-09-04) asks, for every $g\geq2$, for
 Steiner triple systems of every large admissible order in which any $j$
 triples span at least $j+3$ vertices for $2\leq j\leq g$. The answer is yes:
 [[problems/set_systems/E0207/claims/2022_01_12_kwan_sah_sawhney_simkin|Kwan, Sah, Sawhney and Simkin]]

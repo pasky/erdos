@@ -117,7 +117,7 @@ accessed 2026-09-18.
 - [FGKMT18] Ford, K., Green, B., Konyagin, S., Maynard, J. and Tao, T.,
   Long gaps between primes. J. Amer. Math. Soc. 31 (2018), no. 1, 65--105,
   DOI 10.1090/jams/876 (published online 23 February 2017, per the Crossref
-  record); arXiv:1412.5029v3 (14 July 2016, 40 pp.; the
+  record of 2026-09-18); arXiv:1412.5029v3 (14 July 2016, 40 pp.; the
   locators are the arXiv version's). Theorem 1, p. 2; Definition 1, Lemma
   1.1 and (1.2), p. 3; (1.3) and the upper bounds, p. 4. Library home:
   [[../library/integer_sequences/ford_2018_long_gaps_between_primes/_index|ford_2018_long_gaps_between_primes]];

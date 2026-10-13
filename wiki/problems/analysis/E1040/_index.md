@@ -79,7 +79,7 @@ The claimant-run Lean developments are described on the claim pages.
 
 ## Current assessment
 
-The site's formulation asks two things of $\mu(F)$, the
+The site's formulation (accessed 2026-09-04) asks two things of $\mu(F)$, the
 infimum of the area of $\{z:|f(z)|<1\}$ over monic $f$ with all zeros in a
 closed infinite $F\subseteq\mathbb C$: whether $\mu(F)$ is determined by the
 transfinite diameter of $F$, and in particular whether $\mu(F)=0$ whenever that

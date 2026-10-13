@@ -58,7 +58,7 @@ Current assessment. This corpus has not built or audited it.
 
 ## Current assessment
 
-The site's formulation asserts that an
+The site's formulation (accessed 2026-09-04) asserts that an
 $(a,b)$-choosable graph is $(am,bm)$-choosable for every integer $m\ge1$, the
 positive answer to an open question of Erdős, Rubin and Taylor [ERT80]. It is
 false: Theorem 2 of

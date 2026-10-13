@@ -127,13 +127,13 @@ T. F. Bloom, Erdős Problem #76, https://www.erdosproblems.com/76, accessed
 - [OEIS] Sequence A060407, The On-Line Encyclopedia of Integer Sequences,
   "Maximal number of pairwise edge-disjoint monochromatic $K_3$'s in a
   $K_n$ for any 2-coloring of the edges of $K_n$", values $0,0,0,1,2,2,3,4,6$
-  for $n=3,\ldots,11$, citing [EFGJL01].
+  for $n=3,\ldots,11$, citing [EFGJL01] (record accessed 2026-09-18).
 
 **Formalization.** None. No file for this problem exists in
 google-deepmind/formal-conjectures (main; the directory
 `FormalConjectures/ErdosProblems/` has 673 entries there), the site's indicator
 reads "Formalised statement? No", and the community database
-(teorth/erdosproblems) records the problem proved (record
+(teorth/erdosproblems, accessed 2026-09-18) records the problem proved (record
 dated 31 August 2025) and not formalized, with no formal proof.
 
 ## Current assessment
@@ -148,7 +148,8 @@ inside them, records the question as answered, yes, by Gruslys and Letzter
 [GrLe20], and adds a second question from [Er97d]: how many edge-disjoint
 monochromatic triangles one color alone (the better of the two) must
 supply, which the site expects to be at least $cn^2$ for some $c>1/24$. The
-proof-claim tab is empty. The OEIS entry the page links, A060407, gives the exact values of the maximum guaranteed number of
+proof-claim tab is empty. The OEIS entry the page links, A060407 (accessed
+2026-09-18), gives the exact values of the maximum guaranteed number of
 edge-disjoint monochromatic triangles for $3\le n\le11$:
 $0,0,0,1,2,2,3,4,6$, from [EFGJL01].
 
@@ -192,7 +193,7 @@ the stability companion: for every $\varepsilon>0$ there is $\delta>0$ such
 that, for every sufficiently large $n$, a $2$-coloring of $K_n$ without
 $n^2/12+\delta n^2$ edge-disjoint monochromatic triangles has a color class
 $\varepsilon n^2$-close to bipartite. Version and acceptance: the version
-cited is arXiv v2 of 14 August 2020; the arXiv record
+cited is arXiv v2 of 14 August 2020; the arXiv record (accessed 2026-09-18)
 carries no journal reference, a Crossref bibliographic query for the title
 found no record, and the three papers Semantic Scholar lists as citing it
 are the companion paper and two papers on tournament inversions, so no

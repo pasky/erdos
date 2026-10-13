@@ -91,7 +91,7 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   decomposition conjecture. arXiv:2211.07689 (v1 14 November 2022; v2 14
   November 2023, "Final version, accepted for publication");
   Adv. Math. 437 (2024), Paper No. 109434, doi:10.1016/j.aim.2023.109434
-  (Crossref record read; not held); extended abstract in
+  (Crossref record read 2026-09-18; not held); extended abstract in
   Proceedings of the 55th Annual ACM Symposium on Theory of Computing (STOC
   2023), 839--852, doi:10.1145/3564246.3585218. Conjecture 1, p. 1; Theorem
   2, p. 2; Lemma 26 and the proof of Theorem 2, pp. 23--24; the lower bound,
@@ -395,10 +395,10 @@ the construction is Bucić and Montgomery's reading of it. (4) The 1966
 upper bound is
 asserted, not proved, in the paper; the argument is recorded from [CFS14].
 (5) The formal-conjectures `covering` variant was labeled open at the
-commit read although Pyber's theorem answers it; the file at
-main labeled it solved as recorded above.
+commit read on 2026-09-18 although Pyber's theorem answers it; the file at
+main labeled it solved on 2026-10-07, as recorded above.
 
-**Proof claims on the site.** The site's proof-claim
+**Proof claims on the site (accessed 2026-10-07).** The site's proof-claim
 tab carries one claim, full: Ryan Coffey's paper and Lean formalization of
 2026-10-01, described under Resolution above and recorded on
 [[problems/extremal_graph_theory/E0184/claims/2026_10_01_coffey|its claim page]]

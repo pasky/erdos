@@ -48,7 +48,7 @@ n (log log n)^{3/2}/(log n)^{1/2}, answering the Bollobás–Erdős question.
 Fox, Jacob and Loh, Po-Shen and Zhao, Yufei, The critical window for the
 classical Ramsey-Turán problem. Combinatorica 35 (2015), no. 4, 435-476,
 doi:10.1007/s00493-014-3025-3 (published online 22 October 2014; Crossref
-record and the arXiv listing's journal reference read).
+record and the arXiv listing's journal reference read 2026-09-18).
 
 **Edition read.** The copy read for this card is arXiv:1208.3276v3 (23
 September 2014), 34 pages with a text layer; its

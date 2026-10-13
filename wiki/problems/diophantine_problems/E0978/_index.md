@@ -102,7 +102,7 @@ statement file, not a formalization of any solution.
 
 ## Current assessment
 
-The site's formulation asks three questions about an
+The site's formulation (accessed 2026-09-04) asks three questions about an
 irreducible $f\in\mathbb{Z}[x]$ of degree $k>2$ with positive leading
 coefficient, excluding $k=2^l$: whether the $n$ with $f(n)$ $(k-1)$-power-free
 have positive density; whether, for $k>3$ and $f$ without a fixed prime

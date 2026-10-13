@@ -109,7 +109,7 @@ Problem #302, https://www.erdosproblems.com/302, accessed 2026-09-17.
 
 **Formalization.** The file
 [`ErdosProblems/302.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/302.lean)
-of formal-conjectures at the linked commit (main)
+of formal-conjectures at the linked commit (main, fetched 2026-09-17)
 defines the extremal function through `NoUnitFractionTriple` and
 `IsMaxNoTripleCard` and declares `erdos_302.parts.i` (the limit of $f(N)/N$,
 `answer(sorry)`, `category research open`), `erdos_302.parts.ii` (that

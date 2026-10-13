@@ -79,7 +79,8 @@ T. F. Bloom, Erdős Problem #429, https://www.erdosproblems.com/429, accessed
 - [We24] Weisenberg, D., Sparse admissible sets and a problem of Erdős and
   Graham. Integers 24 (2024), Article A89, 4 pp., DOI
   10.5281/zenodo.13909172; arXiv:2405.12310 (v1 20 May 2024, v2 21 October
-  2024; the listing carries the journal reference and the DOI); Conjecture 1 and Theorem 1 on pp. 1--2. Library home:
+  2024; the listing, read 2026-09-18, carries the journal reference and the
+  DOI); Conjecture 1 and Theorem 1 on pp. 1--2. Library home:
   [[../library/integer_sequences/weisenberg_2024_sparse_admissible_sets_problem_erdos_graham/_index|weisenberg_2024_sparse_admissible_sets_problem_erdos_graham]];
   result page
   [[../library/integer_sequences/weisenberg_2024_sparse_admissible_sets_problem_erdos_graham/theorem_1|Theorem 1]].

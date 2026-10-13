@@ -24,7 +24,7 @@ The copy read for this card is arXiv:2210.05818v2 (22 July 2023; 4 pages;
 the arXiv record's comment reads "revised version, accepted in
 Combinatorica"). The paper appeared as
 Combinatorica 44 (2024), no. 1, 9-14, DOI 10.1007/s00493-023-00056-1
-(published online 21 August 2023; Crossref record read); the
+(published online 21 August 2023; Crossref record read 2026-09-17); the
 journal text is not held and was not compared with the arXiv version.
 Locators below are arXiv pages.
 

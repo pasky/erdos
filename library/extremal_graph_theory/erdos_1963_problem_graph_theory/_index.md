@@ -52,10 +52,10 @@ misreads the inequality signs (it renders the weak signs of (1) and (2) as
 strict ones and that of (2.1) as the letter G); the displays were read on the
 rendered page images, (1), (2) and (2.1) also on enlarged renderings, where the
 signs are the weak $\geqslant$ and $\leqslant$. The DOI is 10.2307/3613396 (the
-Crossref record, gives The Mathematical Gazette 47 (1963), 220--223, October
-1963). No notice is printed in the scan; the publisher's page for DOI
-10.2307/3613396 (read 2026-10-02) shows "Copyright © Mathematical Association
-1963" and names no license, every other right reserved.
+Crossref record, read 2026-09-19, gives The Mathematical Gazette 47 (1963),
+220--223, October 1963). No notice is printed in the scan; the publisher's page
+for DOI 10.2307/3613396 (read 2026-10-02) shows "Copyright © Mathematical
+Association 1963" and names no license, every other right reserved.
 
 Read status: claims checked for the definition of property $S_k$ and of
 $f(k)$, the values $f(1)=3$ and $f(2)=7$ with the 7-town example, the guess

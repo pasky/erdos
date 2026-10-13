@@ -32,7 +32,7 @@ shows sharpness for k, l ≥ 2.
 
 N. Alon, M. B. Nathanson and I. Ruzsa, *Adding distinct congruence classes
 modulo a prime*, Amer. Math. Monthly 102 (1995), no. 3, 250--255, DOI
-10.1080/00029890.1995.11990565 (Crossref record read).
+10.1080/00029890.1995.11990565 (Crossref record read 2026-09-18).
 
 The copy read for this card
 is the authors' version from the first author's publication list (seven

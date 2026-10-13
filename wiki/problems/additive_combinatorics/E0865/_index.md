@@ -98,7 +98,7 @@ https://www.erdosproblems.com/865, accessed 2026-09-18.
   [[../library/additive_combinatorics/cipollini_2026_sharp_5_8_bound_erdos_sos/theorem_1_1|Theorem 1.1]].
 - [CES75] Choi, S. L. G., Erdős, P. and Szemerédi, E., Some additive and
   multiplicative problems in number theory. Acta Arith. 27 (1975), 37--50,
-  DOI 10.4064/aa-27-1-37-50 (Crossref record read); Section 2,
+  DOI 10.4064/aa-27-1-37-50 (Crossref record read 2026-09-18); Section 2,
   Theorems 7 and 8, printed p. 46. Library home:
   [[../library/additive_combinatorics/choi_1975_additive_multiplicative_problems_number_theory/_index|choi_1975_additive_multiplicative_problems_number_theory]];
   result pages

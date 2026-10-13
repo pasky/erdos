@@ -23,7 +23,7 @@ the Erdős–Tuza question and to Problem 811 for the four-clique.
 F. C. Clemen and A. Z. Wagner, *A note on balanced edge-colorings avoiding
 rainbow cliques of size four*, Electron. J. Combin. **30** (2023), no. 3,
 Paper No. 3.17, 3 pp.; arXiv:2303.15476. The journal record (DOI
-10.37236/11965, published 11 August 2023; Crossref) gives
+10.37236/11965, published 11 August 2023; Crossref, read 2026-09-18) gives
 the title without "A note on".
 
 The retained

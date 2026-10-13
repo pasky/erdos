@@ -50,7 +50,7 @@ divisor-sum-collision sets u_i and v_i.
 The copy read for this card is a seven-page scan of the article (printed
 p. $n$ is PDF p. $n-616$) with an OCR text layer that garbles the displays;
 the journal record is Math. Comp. 28 (1974), no. 126, 617--623, DOI
-10.1090/S0025-5718-1974-0347726-9 (Crossref record read;
+10.1090/S0025-5718-1974-0347726-9 (Crossref record read 2026-09-18;
 received 28 June 1973). Read status: claims checked, on the page images (130
 dpi), for Theorem 1 (p. 617), the refinement $\sum1/a_i\le2-2^{1-n}$ with
 equality only for $a_i=2^{i-1}$ printed after its proof (p. 619), the recalled

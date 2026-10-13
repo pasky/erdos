@@ -54,10 +54,10 @@ unproved declarations. No Lean proof of the solution is recorded.
 
 ## Current assessment
 
-The site accepts the joint paper as the solution, and its proof-claims
-tab lists no claim. An April 2026 comment on its
-thread describes a strengthening in preliminary form; the precise
-statement is the paper's Theorem 3 in its later version.
+The site accepted the joint paper as the solution, and on 2026-09-05 its
+proof-claims tab listed no claim. An April 2026 comment on its thread describes
+a strengthening in preliminary form; the precise statement is the paper's
+Theorem 3 in its later version.
 
 Beyond the site, the arXiv version history and the authors' [publication
 list](https://www.michaelbeeson.com/research/papers/pubs.php) and [academic

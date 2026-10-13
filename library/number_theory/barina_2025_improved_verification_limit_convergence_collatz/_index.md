@@ -24,7 +24,7 @@ the current finite verification record for Problem 1135.
 David Barina, *Improved verification limit for the convergence of the
 Collatz conjecture*, J. Supercomput. **81** (2025), no. 7, Article 810, 14
 pp.; DOI 10.1007/s11227-025-07337-0. "Accepted: 21 April 2025" (p. 1);
-published online 2 May 2025 (the Crossref record); an
+published online 2 May 2025 (the Crossref record, read 2026-09-18); an
 open-access article ("© The Author(s) 2025"). Not cited by the site's
 Problem 1135 page.
 

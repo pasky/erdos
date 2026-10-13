@@ -216,8 +216,8 @@ show.
   The paper: "We give a negative answer to this question. In fact, Theorem
   1.1 below implies that $h(n,c)=n^{o(1)}$ for every fixed $c<1/4$." The
   previous upper bound was Alon and Trotter's $O(\sqrt n)$. Acceptance
-  evidence: refereed publication in Combinatorica (the Crossref record
-  gives volume 32, issue 6, December 2012); the
+  evidence: refereed publication in Combinatorica (the Crossref record,
+  accessed 2026-09-18, gives volume 32, issue 6, December 2012); the
   version cited is the preprint, not compared with the journal text. The
   result, its postings, its scope and its acceptance evidence are recorded
   on the claim page

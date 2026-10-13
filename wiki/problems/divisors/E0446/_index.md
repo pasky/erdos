@@ -53,11 +53,12 @@ https://www.erdosproblems.com/446.
 
 ## Current assessment
 
-The question is the site's formulation, accessed 2026-09-04, in two parts:
-the growth rate of $\delta(n)$, the density of integers with a divisor in
-$(n,2n)$, and whether $\delta_1(n)$, the density of those with exactly one such
-divisor, is $o(\delta(n))$. Both parts are settled by Ford [Fo08]: the first by
-the order of magnitude displayed on the claim page, the second in the negative.
+The question is the site's formulation, accessed 2026-09-04 and unchanged on
+2026-10-07, in two parts: the growth rate of $\delta(n)$, the density of
+integers with a divisor in $(n,2n)$, and whether $\delta_1(n)$, the density of
+those with exactly one such divisor, is $o(\delta(n))$. Both parts are settled
+by Ford [Fo08]: the first by the order of magnitude displayed on the claim page,
+the second in the negative.
 
 The first part has a long history. Besicovitch [Be34] showed
 $\liminf\delta(n)=0$, which gives a primitive set of positive upper density;

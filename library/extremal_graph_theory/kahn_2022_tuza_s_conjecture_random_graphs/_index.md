@@ -47,7 +47,7 @@ Structures Algorithms 61 (2022), no. 2, 235--249.
 
 **Edition read.** The journal version is Random Structures Algorithms
 61 (2022), no. 2, 235--249, DOI 10.1002/rsa.21057 (published online 13
-November 2021; Crossref record read). The copy read for
+November 2021; Crossref record read 2026-09-19). The copy read for
 this card is the arXiv preprint arXiv:2007.04351v2 (10 July 2020,
 "References updated"), 13 pages, so the locators below are the preprint's
 and the journal text was not compared. Read status: claims checked for Conjecture 1.1, the Haxell

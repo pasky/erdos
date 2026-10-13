@@ -22,7 +22,7 @@ the proof's structure.
 R. Morris, *Some recent results in Ramsey theory*, Proceedings of the
 International Congress of Mathematicians 2026, Vol. 2: Plenary Lectures,
 210--239; DOI 10.1137/25m1833369 (published online 13 July 2026; the
-Crossref record was read). Preprint arXiv:2601.05221 (v1 8
+Crossref record was read on 2026-09-17). Preprint arXiv:2601.05221 (v1 8
 January 2026, the only arXiv version; no journal reference on the listing).
 
 The retained [folder-name PDF](morris_2026_recent_results_ramsey_theory.pdf) is

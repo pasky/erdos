@@ -81,7 +81,7 @@ statement?" indicator reads "No".
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-18).** The statement
 above; status OPEN; no commentary. The thread has three comments of 22 and 23
 October 2025: a reader could not find the problem in the cited reference,
 then located it on the reference's page 78, among the additions at the end of

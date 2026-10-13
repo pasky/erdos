@@ -46,11 +46,12 @@ $p=n+2^{2^t}$ is prime with $t\ge v_2(n-1)$, then $2^{2^t}$ has odd
 multiplicative order $M$ modulo $p$, so an $L$ with $2^L\equiv1\pmod M$
 gives $p\mid n+2^{2^{t+L}}$, a larger multiple of $p$ (Lemma 3.3). The
 source is E. Barschkis, Erdős Problem #1209, a six-page note dated 15 April
-2026 in the repository linked above, at its head of 15 April 2026, with the elementary checks the problem page records. The author
+2026 in the repository linked above, at its head of 15 April 2026 (accessed
+2026-09-18), with the elementary checks the problem page records. The author
 writes in the thread that the ideas were explored with GPT Pro, the site's
 commentary credits the (iii.a) argument to the author and GPT, and the
-formal-conjectures docstring says the Lean file was written using ChatGPT;
-the claimant is the author, who published the note.
+formal-conjectures docstring says the Lean file was written using ChatGPT; the
+claimant is the author, who published the note.
 
 **Covers.** Questions (i), (ii) and (iii.a), each answered no, for every integer
 shift (the site's own construction, the curator's pending partial claim on

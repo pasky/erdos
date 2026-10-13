@@ -26,7 +26,7 @@ multilinear maps, which improves the deletion bound for every uniformity.
 D. Conlon, C. Pohoata and D. Zakharov, *Random multilinear maps and the Erdős
 box problem*, Discrete Analysis 2021:17, 8 pp., doi:10.19086/da.28336
 (received 19 November 2020, published 28 September 2021 per the article's
-title page; the Crossref record, dates the DOI 27
+title page; the Crossref record, read on 2026-09-18, dates the DOI 27
 September 2021). Discrete Analysis is a refereed journal.
 
 **Retained artifact.** The [folder-name

@@ -29,7 +29,8 @@ $(24\cdot3^{46})^{1/144}=1.4521\ldots$ (recomputed here). That count fails as
 printed (Proof pointer), so this preprint does not establish the theorem. The
 site and Bradač's note print $1.4457\le\alpha$ for this bound, the figure of the
 published J. Graph Theory version, whose abstract states $\omega(1.4457^n)$ (the
-abstract text of its Semantic Scholar record); that version was not read.
+abstract text of its Semantic Scholar record, read 2026-10-07); that version was
+not read.
 
 **Source.** S. Gaspers and S. Mackenzie, *On the number of minimal
 separators in graphs*, J. Graph Theory 87 (2018), no. 4, 653--659; read in

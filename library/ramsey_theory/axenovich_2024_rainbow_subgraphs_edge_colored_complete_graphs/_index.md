@@ -38,7 +38,7 @@ about the square root of ℓ by a Sidon-set argument.
 Axenovich, Maria and Clemen, Felix C., Rainbow subgraphs in edge-colored
 complete graphs: answering two questions by Erdős and Tuza. J. Graph Theory
 106 (2024), no. 1, 57--66, doi:10.1002/jgt.23063 (published online 12
-December 2023; Crossref record read).
+December 2023; Crossref record read 2026-09-18).
 
 **Retained artifact.** The
 [folder-name PDF](axenovich_2024_rainbow_subgraphs_edge_colored_complete_graphs.pdf)

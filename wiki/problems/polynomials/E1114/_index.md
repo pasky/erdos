@@ -80,7 +80,7 @@ commit and records the corpus's coverage of it.
 
 ## Current assessment
 
-**The question (site formulation).** That for a
+**The question (site formulation, accessed 2026-09-04).** That for a
 real polynomial whose zeros $a_0<\cdots<a_n$ are real and form an arithmetic
 progression, the gaps between consecutive zeros of the derivative increase
 from the midpoint of the zeros toward either endpoint. PROVED. The modified

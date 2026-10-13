@@ -27,7 +27,7 @@ number of cycles. Combin. Probab. Comput. 4 (1995), no. 3, 217-239.
 The copy read for this card is the authors' preprint (22 pages, AMS-TeX,
 no journal pagination) from Kohayakawa's publication page; the journal
 version is Combin. Probab. Comput. 4 (1995), no. 3, 217-239, DOI
-10.1017/S0963548300001619 (Crossref record read), not consulted.
+10.1017/S0963548300001619 (Crossref record read 2026-09-17), not consulted.
 Locators below are preprint pages. No notice is printed in the preprint (its
 first and last pages read in full); the preprint is from an author's
 publication page, which states no copyright, license or terms

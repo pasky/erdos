@@ -37,14 +37,14 @@ n, n + 2 a sum of two primes, so that every large even number lies within
 
 D. H. J. Polymath, *Variants of the Selberg sieve, and bounded intervals
 containing many primes*, Research in the Mathematical Sciences **1** (2014),
-Article 12, 83 pp., DOI 10.1186/s40687-014-0012-7 (Crossref record read: volume
-1, issue 1, article 12, December 2014). The arXiv version is arXiv:1407.4897 (v1
-18 July 2014 to v4 22 December 2014; the listing carries the journal reference).
-Two editions were read. The [folder-name
-PDF](polymath_2014_variants_selberg_sieve_bounded_intervals_containing.pdf) is
-the journal version, the canonical copy, and every page locator on this card is
-its. The second is arXiv v4 (80 pages; the stamp "arXiv:1407.4897v4 [math.NT] 22
-Dec 2014" on p. 1; a pdfTeX file dated 23 December 2014), the version read in
+Article 12, 83 pp., DOI 10.1186/s40687-014-0012-7 (Crossref record read
+2026-09-18: volume 1, issue 1, article 12, December 2014). The arXiv version is
+arXiv:1407.4897 (v1 18 July 2014 to v4 22 December 2014; the listing carries the
+journal reference). Two editions were read. The
+[folder-name PDF](polymath_2014_variants_selberg_sieve_bounded_intervals_containing.pdf)
+is the journal version, the canonical copy, and every page locator on this card
+is its. The second is arXiv v4 (80 pages; the stamp "arXiv:1407.4897v4 [math.NT]
+22 Dec 2014" on p. 1; a pdfTeX file dated 23 December 2014), the version read in
 full in a Markdown transcription; the transcription keeps its numbered sections,
 so a numbered locator such as "Sections 10.1--10.3" below is the arXiv
 numbering. The journal PDF and the arXiv version were not compared. The journal

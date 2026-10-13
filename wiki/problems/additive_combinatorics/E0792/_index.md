@@ -135,7 +135,7 @@ https://www.erdosproblems.com/792, accessed 2026-09-18.
   [[../library/additive_combinatorics/alon_1990_sum_free_subsets/proposition_1_1|Proposition 1.1]].
 - [Bo97] Bourgain, J., Estimates related to sumfree subsets of sets of
   integers. Israel J. Math. 97 (1997), no. 1, 71--92, DOI
-  10.1007/BF02774027 (Crossref record read). Proposition 1.3,
+  10.1007/BF02774027 (Crossref record read 2026-09-18). Proposition 1.3,
   printed p. 72; its proof, pp. 74--76, with the conclusion (3.24) for
   $|B|\ge3$ on p. 76. Not held. Library home:
   [[../library/additive_combinatorics/bourgain_1997_estimates_related_sumfree_subsets_sets_integers/_index|bourgain_1997_estimates_related_sumfree_subsets_sets_integers]];

@@ -22,7 +22,7 @@ constant 38.
 O. Janzer, A. Methuku, A. Milojević and B. Sudakov, *Power saving for the
 Brown-Erdős-Sós problem*, Discrete Analysis 2025:5, 16 pp.,
 doi:10.19086/da.138191 (received 26 November 2023, published 10 July 2025
-per the article's title page; the Crossref record was read).
+per the article's title page; the Crossref record was read on 2026-09-18).
 Discrete Analysis is a refereed journal.
 
 **Retained artifact.** The

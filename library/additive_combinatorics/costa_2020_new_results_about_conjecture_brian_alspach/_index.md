@@ -74,7 +74,7 @@ distinct partial sums.
 The copy read for this card is arXiv:2003.05939v2 (23 April 2020, 9 pp.),
 whose pagination is used here; the journal version is Arch. Math. (Basel)
 115 (2020), no. 5, 479--488, DOI 10.1007/s00013-020-01507-7 (published
-online 29 August 2020; Crossref record read), not held and not
+online 29 August 2020; Crossref record read 2026-09-18), not held and not
 compared. Read status: claims checked for Conjectures 1.1 and 1.2,
 Proposition 4.2 and Corollaries 4.3--4.4 (pp. 1--2, 6--7, text layer); the
 coefficient computations were not replayed. Lemma 2.1, Propositions 2.2 and 2.3,

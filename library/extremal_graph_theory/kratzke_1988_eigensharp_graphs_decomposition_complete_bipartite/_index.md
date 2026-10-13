@@ -65,10 +65,10 @@ with no zero eigenvalues is eigensharp, which makes C_5 * C_5 eigensharp.
 
 T. Kratzke, B. Reznick and D. West, *Eigensharp graphs: decomposition into
 complete bipartite subgraphs*, Trans. Amer. Math. Soc. 308 (1988), no. 2,
-637--653, DOI 10.1090/S0002-9947-1988-0929670-5 (Crossref record read; the same
-article carries the JSTOR DOI 10.2307/2001095); received by the editors January
-26, 1987; MR 929670. The site's key KRW88, whose reference text gives "(1988),
-637-653" with no volume.
+637--653, DOI 10.1090/S0002-9947-1988-0929670-5 (Crossref record read
+2026-09-18; the same article carries the JSTOR DOI 10.2307/2001095); received by
+the editors January 26, 1987; MR 929670. The site's key KRW88, whose reference
+text gives "(1988), 637-653" with no volume.
 
 The copy read for this card is the publisher's scan of the seventeen printed
 pages from the American

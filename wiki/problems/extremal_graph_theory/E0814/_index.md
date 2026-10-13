@@ -93,14 +93,13 @@ Erdős Problem #814, https://www.erdosproblems.com/814, accessed 2026-09-18.
 
 - [EFRS90] Erdős, P., Faudree, R. J., Rousseau, C. C. and Schelp, R. H.,
   Subgraphs of minimal degree $k$. Discrete Math. 85 (1990), no. 1, 53--58,
-  doi:10.1016/0012-365X(90)90162-B (as its Crossref record gives it; the
-  site's reference text gives "Discrete Math. (1990), 53-58"). The printed
-  article, pp. 53--58: Theorem 1 and the generalized wheel,
-  p. 53; the attribution of the $k=3$ case, the
-  Conjecture, Theorem 2 and Lemma 3, p. 54; the sharpness sentence and
-  Lemma 4, p. 55; Lemma 5, p. 56; the proof of Theorem 1 and the $C^{k-1}$
-  example, p. 57; the Problems section and the references, p. 58. Library
-  home:
+  doi:10.1016/0012-365X(90)90162-B (as its Crossref record of 2026-09-18 gives
+  it; the site's reference text gives "Discrete Math. (1990), 53-58"). The
+  printed article, pp. 53--58: Theorem 1 and the generalized wheel, p. 53; the
+  attribution of the $k=3$ case, the Conjecture, Theorem 2 and Lemma 3, p. 54;
+  the sharpness sentence and Lemma 4, p. 55; Lemma 5, p. 56; the proof of
+  Theorem 1 and the $C^{k-1}$ example, p. 57; the Problems section and the
+  references, p. 58. Library home:
   [[../library/extremal_graph_theory/erdos_1990_subgraphs_minimal_degree_k/_index|erdos_1990_subgraphs_minimal_degree_k]];
   paged at
   [[../library/extremal_graph_theory/erdos_1990_subgraphs_minimal_degree_k/theorem_1|theorem_1]],
@@ -127,22 +126,20 @@ Erdős Problem #814, https://www.erdosproblems.com/814, accessed 2026-09-18.
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
 - [MNS17] Mousset, F., Noever, A. and Škorić, N., Smaller subgraphs of minimum
   degree $k$. Electron. J. Combin. 24 (2017), no. 4, Paper 4.9, 8 pp.,
-  doi:10.37236/7167 (published 6 October 2017, as its Crossref
-  record gives it); arXiv:1703.00273 (v1, 1 March 2017, 6 pp.; the only
-  arXiv version, with no journal reference in the arXiv record). Conjecture
-  1.1 and Theorem 1.2, p. 1; Theorem 1.3, p. 2; Lemma 2.1, p. 2. Library
-  home:
+  doi:10.37236/7167 (published 6 October 2017, as its Crossref record of
+  2026-09-18 gives it); arXiv:1703.00273 (v1, 1 March 2017, 6 pp.; the only
+  arXiv version, with no journal reference in the arXiv record). Conjecture 1.1
+  and Theorem 1.2, p. 1; Theorem 1.3, p. 2; Lemma 2.1, p. 2. Library home:
   [[../library/extremal_graph_theory/mousset_2017_smaller_subgraphs_minimum_degree/_index|mousset_2017_smaller_subgraphs_minimum_degree]];
   paged at
   [[../library/extremal_graph_theory/mousset_2017_smaller_subgraphs_minimum_degree/theorem_1_3|theorem_1_3]].
 - [Sa19] Sauermann, L., A proof of a conjecture of Erdős, Faudree, Rousseau
   and Schelp on subgraphs of minimum degree $k$. J. Combin. Theory Ser. B 134
-  (2019), 36--75, doi:10.1016/j.jctb.2018.05.002 (as its Crossref
-  record gives it; the site's reference text gives "(2019), 36-75");
-  arXiv:1705.09979 (v1 28 May 2017; v2 26 June 2018, 34 pp.; no
-  journal reference in the arXiv record). Fact 1.1, p. 1; Conjecture 1.2,
-  Theorem 1.3 and the deduction, p. 2; the induced-subgraph remark, p. 3.
-  Library home:
+  (2019), 36--75, doi:10.1016/j.jctb.2018.05.002 (as its Crossref record of
+  2026-09-18 gives it; the site's reference text gives "(2019), 36-75");
+  arXiv:1705.09979 (v1 28 May 2017; v2 26 June 2018, 34 pp.; no journal
+  reference in the arXiv record). Fact 1.1, p. 1; Conjecture 1.2, Theorem 1.3
+  and the deduction, p. 2; the induced-subgraph remark, p. 3. Library home:
   [[../library/extremal_graph_theory/sauermann_2019_rousseau_schelp_subgraphs_minimum_degree/_index|sauermann_2019_rousseau_schelp_subgraphs_minimum_degree]];
   paged at
   [[../library/extremal_graph_theory/sauermann_2019_rousseau_schelp_subgraphs_minimum_degree/theorem_1_3|theorem_1_3]]
@@ -167,7 +164,7 @@ update on 31 August 2025 and as formalized since 21 September 2026, while its
 
 ## Current assessment
 
-**The question (site formulation).** The statement above;
+**The question (site formulation, accessed 2026-09-18).** The statement above;
 PROVED; no last-edited date; source keys [EFRS90], [Er91], [Er93, p. 344]. The
 commentary attributes the case $k=3$ to Erdős and Hajnal ([Er91]) and the
 general question to Erdős, Faudree, Rousseau and Schelp ([EFRS90]), credits

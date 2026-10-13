@@ -25,7 +25,7 @@ threshold of Keevash, Long and Skokan.
 
 V. Nikiforov, *The cycle-complete graph Ramsey numbers*, Combin. Probab.
 Comput. **14** (2005), no. 3, 349--370; DOI 10.1017/S096354830400642X (the
-Crossref record, dates the article 11 April 2005).
+Crossref record, read on 2026-09-17, dates the article 11 April 2005).
 Preprint arXiv:math/0404501v1 (27 April 2004; the only arXiv version on
 2026-09-17, whose abstract page carries the comment "23 pages, accepted in
 Comb. Prob. and Comp").

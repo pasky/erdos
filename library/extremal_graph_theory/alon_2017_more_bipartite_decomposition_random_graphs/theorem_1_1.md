@@ -45,10 +45,11 @@ of the theorem uses $\alpha(G)=(2+o(1))\log_2n$ whp (p. 4).
 
 **Source.** N. Alon, T. Bohman and H. Huang, *More on the bipartite
 decomposition of random graphs*, arXiv:1409.6165v1 (22 September 2014), 8
-pages; Theorem 1.1 and (1) on p. 2, read on the rendered page image; the proof of (1) in Section 2 (pp. 2--3) and of Theorem 1.1 in
-Section 3 (pp. 3--6). Published in J. Graph Theory 84 (2017), no. 1, 45--52,
-DOI 10.1002/jgt.22010 (Crossref record read); the journal text was
-not compared. The edition read is identified in the
+pages; Theorem 1.1 and (1) on p. 2, read on the rendered page image; the proof
+of (1) in Section 2 (pp. 2--3) and of Theorem 1.1 in Section 3 (pp. 3--6).
+Published in J. Graph Theory 84 (2017), no. 1, 45--52, DOI 10.1002/jgt.22010
+(Crossref record read 2026-09-18); the journal text was not compared. The
+edition read is identified in the
 [[extremal_graph_theory/alon_2017_more_bipartite_decomposition_random_graphs/_index|source digest]].
 
 **Read depth.** Claims checked: the definitions, the theorem and display (1)

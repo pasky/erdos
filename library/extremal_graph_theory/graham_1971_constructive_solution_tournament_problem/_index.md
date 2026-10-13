@@ -50,10 +50,11 @@ Source:
 
 The copy read for this card is the publisher's PDF (four pages, printed pp.
 45--48 = PDF pp. 1--4, a scan with a text layer that garbles the displays; DOI
-10.4153/CMB-1971-007-1, whose Crossref record, gives Canad. Math. Bull. 14
-(1971), no. 1, 45--48; received 12 June 1970); the displays and the concluding
-remarks were read on the rendered page images. The file prints only "Published
-online by Cambridge University Press"; the publisher's article page
+10.4153/CMB-1971-007-1, whose Crossref record, read 2026-09-19, gives Canad.
+Math. Bull. 14 (1971), no. 1, 45--48; received 12 June 1970); the displays and
+the concluding remarks were read on the rendered page images. The file prints
+only "Published online by Cambridge University Press"; the publisher's article
+page
 (https://www.cambridge.org/core/product/identifier/S0008439500057842/type/journal_article,
 read 2026-10-02) shows "Copyright © Canadian Mathematical Society 1971" behind a
 paywall and names no Open Access or Creative Commons license, every other right

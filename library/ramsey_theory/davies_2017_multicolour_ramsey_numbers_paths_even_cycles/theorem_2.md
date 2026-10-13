@@ -31,8 +31,8 @@ p. 1).
 paths and even cycles*, arXiv:1606.00762v3 (23 February 2017), the copy read for
 this page; Theorem 2 on printed and physical p. 2, read on the page image and in
 the text layer. Published as European J. Combin. 63 (2017), 124--133, DOI
-10.1016/j.ejc.2017.03.002 (Crossref record read); the journal text was not
-compared and these locators are the preprint's.
+10.1016/j.ejc.2017.03.002 (Crossref record read 2026-09-17); the journal text
+was not compared and these locators are the preprint's.
 
 **Read depth.** Claims checked: the statement was read clause by clause on
 the page image of p. 2, with the surrounding attributions. The deduction from

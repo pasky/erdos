@@ -51,7 +51,7 @@ theorem together with the site's upper-bound question in $\varepsilon$ form)
 and a workflow `erdos788-lean.yml` that rejects `sorry`, `admit`, `axiom` and
 `sorryAx` by a text search and builds the project; the GitHub API listed one
 run of the workflow (23 July 2026, at an earlier commit, conclusion success).
-Sixteen of the 44 Lean files were fetched at the head commit and
+Sixteen of the 44 Lean files were fetched at the head commit on 2026-09-18 and
 contain no `sorry`, `axiom` or `native_decide`; the rest were not read. All of
 this was read as text; nothing was built or kernel-checked here and no credit
 is claimed.

@@ -326,7 +326,7 @@ of $1$ are finite identities checked by exact arithmetic; the three 2026 claims
 are recorded at the level of their statements, abstracts, declarations and
 release metadata. No proof has been rewritten or independently reviewed.
 
-**Proof claims on the site.** The site's proof-claims
+**Proof claims on the site (accessed 2026-10-06).** The site's proof-claims
 tab carries one full proof claim, submitted 2026-09-29 by Shisheng Li, who
 names GPT-5.6-sol, GPT-6-astra and Claude Opus 5.5 as the systems used, with
 [Li26b] as the write-up and its repository as the formalization; its summary

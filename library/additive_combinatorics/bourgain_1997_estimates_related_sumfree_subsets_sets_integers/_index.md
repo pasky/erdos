@@ -44,7 +44,7 @@ version of the McGehee-Pigno-Smith L^1 estimate.
 J. Bourgain, *Estimates related to sumfree subsets of sets of integers*,
 Israel Journal of Mathematics **97** (1997), 71--92, DOI 10.1007/BF02774027
 (the running head prints "ISRAEL JOURNAL OF MATHEMATICS 97 (1997), 71--92";
-the DOI is the publisher's, from the Crossref record read, and is
+the DOI is the publisher's, from the Crossref record read 2026-09-18, and is
 not printed on the scan); the author at the Institute for Advanced Study;
 received March 7, 1995 (p. 71). Cited as [Bo97] on the problem page. Its four
 references (p. 92) are Alon and Kleitman, Sum-free subsets (1990), filed as

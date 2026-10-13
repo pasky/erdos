@@ -58,7 +58,8 @@ between 2 and 2.301368 and records the conjecture that the limit is 2.
 The copy read for this card is the Numdam file of the article (19 pages,
 with Numdam's cover page; printed p. $n$ is PDF p. $n-53$); the journal
 record is Journal de théorie des nombres de Bordeaux, Série 2, Tome 3
-(1991), no. 1, 55--72, DOI 10.5802/jtnb.42 (Crossref and Numdam records read; the manuscript was received 30 October 1990). Its text layer
+(1991), no. 1, 55--72, DOI 10.5802/jtnb.42 (Crossref and Numdam records read
+2026-09-18; the manuscript was received 30 October 1990). Its text layer
 carries the prose and drops the displays, which were read on the page
 images. Read status: claims checked, on the page images (130 dpi), for the
 definition of admissibility (printed p. 55), Straus's results (i), (ii) and the

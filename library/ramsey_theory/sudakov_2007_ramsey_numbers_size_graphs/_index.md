@@ -23,7 +23,7 @@ connected n-vertex graph with R(K_3,G) = 2n-1 has O(n^{3/2} log n) edges.
 Benny Sudakov, *Ramsey numbers and the size of graphs*, SIAM J. Discrete
 Math. **21** (2007), no. 4, 980--986, DOI
 [10.1137/060667360](https://doi.org/10.1137/060667360) (published online 12
-December 2007; the Crossref record, dates the print issue
+December 2007; the Crossref record, read 2026-10-07, dates the print issue
 January 2008); arXiv:0706.4102v1 (27 June 2007),
 <https://arxiv.org/abs/0706.4102>. Cited as [Su07] on the problem page. No
 license is recorded for either edition: neither the journal article nor the

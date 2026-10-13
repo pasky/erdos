@@ -61,7 +61,7 @@ file is not a formalization of a result.
 
 ## Current assessment
 
-The site's formulation asks whether some $k>2$ admits a
+The site's formulation (accessed 2026-09-04) asks whether some $k>2$ admits a
 coloring of the $k$-subsets of $\{1,\ldots,2k\}$ with $k+1$ colors in which
 every $(k+1)$-subset sees all $k+1$ colors on the $k$-subsets it contains.
 Two $k$-subsets of a $(k+1)$-set share $k-1$ elements, so such a coloring is

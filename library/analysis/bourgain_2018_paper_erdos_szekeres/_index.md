@@ -36,7 +36,7 @@ J. Bourgain and M.-C. Chang, *On a paper of Erdös and Szekeres* (the
 preprint's spelling), J. Anal. Math. **136** (2018), no. 1, 253--271; DOI
 10.1007/s11854-018-0060-9; arXiv:1509.08411 [math.NT]. The problem page
 cites the article as "J. Anal. Math. (2018), 253-271"; the volume and issue
-are from the Crossref record read (UTC).
+are from the Crossref record read 2026-09-17 (UTC).
 
 The copy read for this card is
 the arXiv preprint, version 2, stamped "arXiv:1509.08411v2 [math.NT] 12 Nov

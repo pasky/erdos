@@ -58,7 +58,7 @@ $\vartheta$) by changing $G$ to $G'$."
 
 **Source.** M. Ajtai, J. Komlós and E. Szemerédi, *The longest path in a
 random graph*, Combinatorica 1 (1981), no. 1, 1--12 (received 12 September
-1979; the Crossref record gives issue 1, March 1981);
+1979; the Crossref record, read 2026-09-19, gives issue 1, March 1981);
 printed pp. 2--3 = PDF pp. 3--4 of the repository copy of the
 version of record (a scan with an OCR text layer whose Greek letters are
 unreliable), read on the rendered page images. The artifact is identified

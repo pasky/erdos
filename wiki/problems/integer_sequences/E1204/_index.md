@@ -129,7 +129,7 @@ A008407, A023193, A135311), its one-comment discussion thread (5 September
   25 (1973/74), 375--391 (received 3 May 1973); the Theorem on p. 380 and
   Lemma 5 on p. 383. This is the paper the Polymath paper cites for the
   sieve of display (150); it is open access in the journal's digital
-  library.
+  library (accessed 2026-09-18).
   Library home:
   [[../library/primes/hensley_1974_primes_intervals/_index|hensley_1974_primes_intervals]];
   result page

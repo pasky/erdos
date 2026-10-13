@@ -24,7 +24,7 @@ conjecture on R(3,3,n) over R(3,n).
 
 N. Alon and V. Rödl, *Sharp bounds for some multicolor Ramsey numbers*,
 Combinatorica **25** (2005), no. 2, 125--141; DOI 10.1007/s00493-005-0011-9
-(the Crossref record, dates the issue March 2005).
+(the Crossref record, read on 2026-09-17, dates the issue March 2005).
 
 The copy read for this card is the authors' manuscript headed "Final Version"
 (15 pages, A4, from Alon's publication list), not the journal typesetting:

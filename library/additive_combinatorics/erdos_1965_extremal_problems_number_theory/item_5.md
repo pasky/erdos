@@ -32,9 +32,9 @@ the site's Problem 962 page prints as $\log k(n)\ge(\log n)^{1/2-o(1)}$.
 
 **Source.** P. Erdős, *Extremal problems in number theory*, Proc. Sympos. Pure
 Math. VIII (Theory of Numbers), Amer. Math. Soc. (1965), 181--189, DOI
-10.1090/pspum/008/0174539 (Crossref record read); printed p. 183 (PDF p. 3 of
-the eleven-page scan read for this page), read on the page image; a site key for
-Problem 962.
+10.1090/pspum/008/0174539 (Crossref record read 2026-09-18); printed p. 183 (PDF
+p. 3 of the eleven-page scan read for this page), read on the page image; a site
+key for Problem 962.
 
 **Read depth.** Claims checked: the passage was read clause by clause on
 the page image. The lower bound is asserted as "not hard to prove" without

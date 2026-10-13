@@ -72,8 +72,8 @@ behavior of random dense subsets, and a common regularity principle for the two
 constructions; they are questions, not results. The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2311.10087), every other right
 reserved. The paper appeared as Bull. London Math. Soc. 56 (2024), no. 8,
-2749-2759, DOI 10.1112/blms.13098 (Crossref record read); the journal text was
-not read, so its labels may differ.
+2749-2759, DOI 10.1112/blms.13098 (Crossref record read 2026-10-07); the journal
+text was not read, so its labels may differ.
 
 Source: <https://arxiv.org/abs/2311.10087>.
 

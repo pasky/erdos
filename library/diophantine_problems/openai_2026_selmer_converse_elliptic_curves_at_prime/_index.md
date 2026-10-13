@@ -228,7 +228,7 @@ group and $a(A_0)$ the order of vanishing of $L(A_0,s)$ at $s=1$.
   of Yin, of Burungale--Tian and of Burungale--He--Tian--Ye, and
   Burungale--Tian's Annals paper on the rank-zero converse for CM curves;
   two undated author-hosted items, the Halleck-Dubé draft and the
-  Castella--Liu--Wan addendum, were both accessed. The
+  Castella--Liu--Wan addendum, were both accessed 24 September 2026. The
   TeX `references.bib` holds 96 entries, with locator notes naming the
   versions consulted, 16 of them uncited, among them an
   Atobe--Gan--Ichino--Kaletha--Mínguez--Shin preprint that the PDF does not

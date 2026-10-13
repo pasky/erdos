@@ -28,7 +28,7 @@ Erdős, P., Some problems on number theory, Analytic and Elementary Number
 Theory (Marseille, 1983), Publ. Math. Orsay 86-1, Univ. Paris XI, Orsay,
 1986, 53--67 (MR 87i:11006; Zentralblatt 584.10002). The copy read for this
 card carries no journal header: the venue and the two review numbers are
-those of the hosting archive's list (entry 1986-15), the
+those of the hosting archive's list (entry 1986-15, read 2026-10-07), the
 zbMATH record Zbl 0584.10002 gives the same series, volume, pages and year,
 and a citing paper (van Doorn, Li and Tang, arXiv:2603.28636v1, reference
 [8]) names the same volume.

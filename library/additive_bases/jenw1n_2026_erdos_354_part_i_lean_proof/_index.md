@@ -90,7 +90,7 @@ which is `Erdos354.erdos_354.parts.i` of
 `FormalConjectures/ErdosProblems/354.lean` with `answer(sorry)` instantiated
 to `True`, at the pinned catalog commits `8432eac9` (record page) and
 `6a786f99` (task bundle), both with the same source type SHA-256. Neither pinned
-commit is reachable on GitHub; the catalog's default branch,
+commit is reachable on GitHub; the catalog's default branch, read 2026-09-28,
 prints the same statement and docstring. In the catalog, `FloorMultiples a γ n`
 is $\lfloor\gamma^na\rfloor\in\mathbb Z$, `interleave a b γ n` is
 `FloorMultiples a γ (n / 2)` for even $n$ and `FloorMultiples b γ (n / 2)` for

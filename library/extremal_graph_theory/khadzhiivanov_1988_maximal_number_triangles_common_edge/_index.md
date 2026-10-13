@@ -35,7 +35,7 @@ common edge), Годишник на Софийския университет "�
 = Annuaire de l'Université de Sofia "St. Kliment Ohridski", Faculté de
 Mathématiques et Informatique, Livre 1 -- Mathématiques, Tome 82 (1988),
 37--49; in Russian, with an English abstract on p. 37 and an English summary
-from p. 49. The zbMATH record lists it as God. Sofiĭ.
+from p. 49. The zbMATH record (read 2026-09-18) lists it as God. Sofiĭ.
 Univ., Fak. Mat. Inform. 82, 37--52 (1988) and gives the language as
 Bulgarian; the text on the page images is Russian, and the title page prints
 1988. The journal's article record

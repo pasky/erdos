@@ -73,7 +73,7 @@ matching lower bound.
 theorem.
 
 **Dating.** The page is dated 16 July 2003, the day the paper's Crossref
-record was created (the Crossref record gives that
+record was created (the Crossref record, accessed 2026-10-07, gives that
 creation date and no online date; OpenAlex gives the same day as the
 publication date). The journal posts an article online when it registers
 its DOI, and the journal's issue version, whose header reads "Journal of

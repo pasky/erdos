@@ -62,7 +62,7 @@ page before eight printed pages (printed p. $n$ is PDF p. $n+2$), with a
 clean text layer; the
 identity line above is the published version, J. Combin. Theory Ser. B 165
 (2024), 211--222, doi:10.1016/j.jctb.2023.11.004 (published March 2024;
-Crossref record read), whose text was not
+Crossref record read 2026-09-18), whose text was not
 compared, so the labels and locators here are the preprint's. Read status:
 claims checked for Problem 1.1, the attribution sentence, 1.2, 1.3 and 2.1
 (printed p. 1 = PDF p. 3) and for Conjecture 4.1, 4.2, 4.3 and the reference

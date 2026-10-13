@@ -66,7 +66,7 @@ linked from the claim page; see "Formalization and the Lean label" below.
 
 **The question (site formulation of 2026-09-04).** Whether infinitely many
 pairs $n,m$ satisfy $\phi(n)=\sigma(m)$. PROVED (LEAN). The site's
-commentary records that the answer is yes by
+commentary (accessed 2026-10-07) records that the answer is yes by
 Ford, Luca and Pomerance [FLP10], that their count of common values up to
 $x$ was improved by Garaev [Ga11], and that the question is B38 of Guy's
 collection [Gu04]; it also notes that infinitely many twin primes would

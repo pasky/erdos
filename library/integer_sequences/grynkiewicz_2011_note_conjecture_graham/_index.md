@@ -114,5 +114,5 @@ header says its own proof is closer to.
 
 No file of this source is held: the license on record for the preprint read
 does not permit its redistribution, and the card cites that edition. The
-Crossref record lists CC BY-NC-ND 3.0 for the journal
+Crossref record (read 2026-10-07) lists CC BY-NC-ND 3.0 for the journal
 version from 16 July 2013; that version was not read.

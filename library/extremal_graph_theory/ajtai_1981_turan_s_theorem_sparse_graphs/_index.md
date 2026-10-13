@@ -37,7 +37,7 @@ bound the site records for Problem 802.
 
 M. Ajtai, P. Erdős, J. Komlós and E. Szemerédi, *On Turán's theorem for
 sparse graphs*, Combinatorica 1 (1981), no. 4, 313--317, DOI
-10.1007/BF02579451 (Crossref record read); received 24 April 1981;
+10.1007/BF02579451 (Crossref record read 2026-09-18); received 24 April 1981;
 MR 83d:05052; Zbl 491.05038. The site's key AEKS81.
 
 **Copy read.** The copy read for this card is the Rényi

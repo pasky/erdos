@@ -120,13 +120,13 @@ submitted 2026-07-18 (seven comments) and a full claim submitted
   from the site.
 - [DEM99] Deshouillers, J.-M., Erdős, P. and Melfi, G., On a question about
   sum-free sequences. Discrete Math. 200 (1999), no. 1--3, 49--54,
-  doi:10.1016/S0012-365X(98)00322-7 (its Crossref record carries the
-  publisher's open-archive license dated 2013). Not held; its
-  construction is reported from the site and described by [LuSc00], p. 228,
-  as a perturbation of the cubes.
+  doi:10.1016/S0012-365X(98)00322-7 (its Crossref record, read 2026-09-18,
+  carries the publisher's open-archive license dated 2013). Not held; its
+  construction is reported from the site and described by [LuSc00], p. 228, as a
+  perturbation of the cubes.
 - [LuSc00] Łuczak, T. and Schoen, T., On the maximal density of sum-free
   sets. Acta Arith. 95 (2000), no. 3, 225--229, doi:10.4064/aa-95-3-225-229
-  (Crossref record read). Theorem 3, p. 226; Section 3,
+  (Crossref record read 2026-09-18). Theorem 3, p. 226; Section 3,
   pp. 227--229. Library home:
   [[../library/additive_combinatorics/luczak_2000_maximal_density_sum_free_sets/_index|luczak_2000_maximal_density_sum_free_sets]];
   result pages

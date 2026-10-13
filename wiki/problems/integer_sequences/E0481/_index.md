@@ -76,7 +76,8 @@ https://www.erdosproblems.com/481.
 
 - [Kl82] Klarner, David A., A sufficient condition for certain semigroups to be
   free. J. Algebra 74 (1982), 140--148, DOI 10.1016/0021-8693(82)90010-2
-  (Crossref record). Not held; its Theorem 1.1 is cited through [KoTa22].
+  (Crossref record, 2026-10-07). Not held; its Theorem 1.1 is cited through
+  [KoTa22].
 - [KoTa22] Kolpakov, Alexander and Talambutsa, Alexey, On free semigroups of
   affine maps on the real line. Proc. Amer. Math. Soc. 150 (2022), 2301--2307,
   DOI 10.1090/proc/15832; arXiv:2105.09387 (19 May 2021). Theorem 3 is the
@@ -90,7 +91,7 @@ https://www.erdosproblems.com/481.
 **Formalization.** The site's (Lean) suffix is a catalog label. The file
 [`ErdosProblems/481.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/481.lean)
 of formal-conjectures, pinned to the file's last change (2026-09-18;
-unchanged on main), declares `erdos_481` for
+unchanged on main on 2026-10-06), declares `erdos_481` for
 `a b : Fin r → ℕ` with `0 < a i` for all `i` and `1 < ∑ i, (1 : ℝ) / a i`,
 concluding `∃ k, ¬ ((T a b)^[k] [1]).Nodup`
 for the list map `T`, under `category research solved`, with proof `sorry` and

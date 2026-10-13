@@ -24,7 +24,7 @@ arXiv:2512.24631 (2025). The arXiv record names arXiv's non-exclusive
 distribution license (arXiv:2512.24631), every other right reserved.
 
 The copy read for this card is arXiv:2512.24631v2 (18 January 2026; 9
-pages). The arXiv listing read shows v1 (31 December 2025) and
+pages). The arXiv listing read on 2026-09-18 shows v1 (31 December 2025) and
 v2 ("added a reference and corrected several typos") and no journal
 reference; locators here are the preprint's. Read status: claims checked for
 Conjecture 1.1 with footnote 1 (p. 1), Theorem 1.2 with the remark that

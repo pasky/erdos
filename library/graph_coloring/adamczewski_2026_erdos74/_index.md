@@ -64,7 +64,8 @@ from which the exposition was not fetched, so it is not applied; the term is
 unstated.
 
 - The copy read for this card is the seven-page PDF fetched from
-  [Bloom's hosted copy](https://www.erdosproblems.com/static/74-proof.pdf); 305067 bytes.
+  [Bloom's hosted copy](https://www.erdosproblems.com/static/74-proof.pdf),
+  accessed 2026-09-05; 305067 bytes.
 - [Pinned proof repository](https://github.com/tadamcz/erdos74/tree/a626ecc2d09e3492630242ce6ab676f57fc9fbea),
   commit `a626ecc2d09e3492630242ce6ab676f57fc9fbea`.
 - T. Adamczewski and T. F. Bloom,

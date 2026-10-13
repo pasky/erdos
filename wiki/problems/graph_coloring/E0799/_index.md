@@ -66,7 +66,8 @@ $\chi_L(G(n,1/2))=(1+o(1))n/(2\log_2 n)$ almost surely, with the argument
 described in Alon's survey Restricted colorings of graphs (Surveys in
 Combinatorics, 1993). That result is $o(n)$ and answers the question, but the
 corpus knows it only through that report and has not carded the survey, so it
-stays outside the derivation. No other claim appears on the site's forum or in the sources cited above.
+stays outside the derivation. No other claim appears on the site's forum (read
+2026-10-07) or in the sources cited above.
 
 <!-- BEGIN problem library links -->
 

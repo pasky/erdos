@@ -138,7 +138,7 @@ six-point maximum $64(2\sqrt3-2)^{18}$ with a Lean proof that this corpus has
 not built. It is recorded as
 [[problems/analysis/E1045/claims/2026_09_11_coleski|a pending partial claim]].
 
-**Proof claim on the site.** The site's proof-claims
+**Proof claim on the site (accessed 2026-10-06).** The site's proof-claims
 tab carries a claim, filed as full, by Boyang Hu under the username Rogerhu
 (initial draft generated with GPT-6 Pro and a Lean development built with
 Astra, as the claim's notes say), submitted 2026-09-23 with a manuscript and

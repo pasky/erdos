@@ -110,11 +110,11 @@ Problem #791, https://www.erdosproblems.com/791, accessed 2026-09-18.
   pp. 130--131. Library home:
   [[../library/additive_combinatorics/erdos_1973_problems_results_combinatorial_number_theory/_index|erdos_1973_problems_results_combinatorial_number_theory]].
 - [Ro37] Rohrbach, H., Ein Beitrag zur additiven Zahlentheorie. Math. Z.
-  42 (1937), no. 1, 1--30, DOI 10.1007/BF01160061 (Crossref record read); received 9 April 1936. The problem and its inverse
-  formulation $n_2(k)$, printed p. 4; Satz 2 with (6)--(9) and Satz 3,
-  p. 5, and the proof of Satz 3, p. 6; the conjecture
-  $n_2(k)=k^2/4+O(k)$, p. 9; Satz 6, p. 11, and its Folgerung,
-  pp. 14--15; Satz 7 and inequality (47), p. 18. Library home:
+  42 (1937), no. 1, 1--30, DOI 10.1007/BF01160061 (Crossref record read
+  2026-09-18); received 9 April 1936. The problem and its inverse formulation
+  $n_2(k)$, printed p. 4; Satz 2 with (6)--(9) and Satz 3, p. 5, and the proof
+  of Satz 3, p. 6; the conjecture $n_2(k)=k^2/4+O(k)$, p. 9; Satz 6, p. 11, and
+  its Folgerung, pp. 14--15; Satz 7 and inequality (47), p. 18. Library home:
   [[../library/additive_combinatorics/rohrbach_1937_ein_beitrag_zur_additiven_zahlentheorie/_index|rohrbach_1937_ein_beitrag_zur_additiven_zahlentheorie]].
 - [Mr79] Mrose, A., Untere Schranken für die Reichweiten von Extremalbasen
   fester Ordnung. Abh. Math. Sem. Univ. Hamburg 48 (1979), no. 1, 118--124,
@@ -129,12 +129,12 @@ Problem #791, https://www.erdosproblems.com/791, accessed 2026-09-18.
   states it, p. 240; inequality (1), printed p. 241. Not cited by the site.
 - [Yu15] Yu, G., A new upper bound for finite additive $h$-bases. J.
   Number Theory 156 (2015), 95--104, DOI 10.1016/j.jnt.2015.04.007
-  (Crossref record read; the site's reference text gives no
+  (Crossref record read 2026-09-18; the site's reference text gives no
   volume). Not held; quoted from [Ko17], p. 1, and the site.
 - [Ko17] Kohonen, J., An improved lower bound for finite additive 2-bases.
   arXiv:1606.04770v2 (10 January 2017, "Author's final version"),
   6 pp.; J. Number Theory 174 (2017), 518--524, DOI 10.1016/j.jnt.2016.11.011
-  (Crossref record read; not compared). Equation (1) and the
+  (Crossref record read 2026-09-18; not compared). Equation (1) and the
   definitions, p. 1. Library home:
   [[../library/additive_combinatorics/kohonen_2017_improved_lower_bound_finite_additive_2/_index|kohonen_2017_improved_lower_bound_finite_additive_2]].
 - [OEIS] Sequence A066063 (J. W. Layman, 2001; revision 29, last modified

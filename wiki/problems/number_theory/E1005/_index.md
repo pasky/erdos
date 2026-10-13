@@ -98,13 +98,13 @@ accessed 2026-09-18.
 **References.**
 
 - [Er43] Erdős, P., A note on Farey series. Quart. J. Math. Oxford Ser. 14
-  (1943), 82--85, doi:10.1093/qmath/os-14.1.82 (Crossref record;
-  received 30 March 1943). The Theorem, p. 82; the thresholds
+  (1943), 82--85, doi:10.1093/qmath/os-14.1.82 (Crossref record,
+  2026-09-18; received 30 March 1943). The Theorem, p. 82; the thresholds
   $n>192k$ and $n>400k$, pp. 83--84 (the Rényi archive scan). Library home:
   [[../library/number_theory/erdos_1943_note_farey_series/_index|erdos_1943_note_farey_series]].
 - [Ma42] Mayer, A. E., A mean value theorem concerning Farey series. Quart.
   J. Math. Oxford Ser. 13 (1942), 48--57, doi:10.1093/qmath/os-13.1.48
-  (Crossref record). Not held (publisher paywall); not
+  (Crossref record, 2026-09-18). Not held (publisher paywall); not
   requested here. The site credits it with
   $f(n)\to\infty$; van Doorn (p. 1) credits it with $f(n)\ge3$ for $n\ge5$
   and attributes $f(n)\to\infty$ to Mayer's second 1942 paper, "On
@@ -136,7 +136,7 @@ accessed 2026-09-18.
 - [OEIS] van Doorn, W., Sequence A386893, "Minimal number of Farey fractions
   in between two fractions that are not similarly ordered", The On-Line
   Encyclopedia of Integer Sequences (created 9 September 2025; entry last
-  modified 12 September 2025, server time; accessed through its
+  modified 12 September 2025, server time; accessed 2026-09-18 through its
   JSON record), with the formula lines $a(n)<n/4+5$ and
   $a(n)\ge(n/12)(1-4/n^{1/3})$ and van Doorn's conjecture.
 

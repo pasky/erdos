@@ -81,12 +81,13 @@ https://www.erdosproblems.com/145.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/145.lean)
-(pinned at the file's last commit, of 2026-09-18), which tags `erdos_145`
-research open and its variants `le_two`, `le_three` and `lt_eleven_thirds`
-research solved, each citing the source the site credits (for `le_three` the
-site's [Ho73] key, the symposium paper, not the Canadian Journal paper on
-Hooley's claim page), every proof a `sorry` and no `formal_proof` attribute. The
-ranges are statements, not Lean proofs, and give no `formalized` evidence.
+(pinned at the commit of 2026-09-18, the file's last commit on 2026-10-07),
+which tags `erdos_145` research open and its variants `le_two`, `le_three` and
+`lt_eleven_thirds` research solved, each citing the source the site credits (for
+`le_three` the site's [Ho73] key, the symposium paper, not the Canadian Journal
+paper on Hooley's claim page), every proof a `sorry` and no `formal_proof`
+attribute. The ranges are statements, not Lean proofs, and give no `formalized`
+evidence.
 
 ## Current assessment
 

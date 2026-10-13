@@ -39,7 +39,7 @@ doi:10.1002/jgt.22179.
 
 **Edition read.** The journal version is J. Graph Theory 87 (2018),
 no. 4, 653--659, DOI 10.1002/jgt.22179 (published online 13 September 2017;
-Crossref record read; a conference version in Lecture Notes in
+Crossref record read 2026-09-19; a conference version in Lecture Notes in
 Computer Science (2016), 116--121). The
 copy read for this card is the
 arXiv preprint arXiv:1503.01203v2 (2 April 2015), 6 pages, so the locators

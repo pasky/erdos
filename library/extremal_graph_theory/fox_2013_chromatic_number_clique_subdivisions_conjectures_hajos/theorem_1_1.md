@@ -36,7 +36,8 @@ subdivisions, and the conjectures of Hajós and Erdős-Fajtlowicz*,
 arXiv:1107.1920v3 (14 February 2012), 14 pages; Theorem 1.1 on p. 2, read on
 the page image, with the deduction from Theorem 1.2 on pp. 3--4. Published
 in Combinatorica 33 (2013), no. 2, 181--197, doi:10.1007/s00493-013-2853-x
-(issued April 2013, online 14 June 2013; Crossref record read); the journal text was not compared. The artifact
+(issued April 2013, online 14 June 2013; Crossref record read on
+2026-09-19); the journal text was not compared. The artifact
 is identified in the
 [[extremal_graph_theory/fox_2013_chromatic_number_clique_subdivisions_conjectures_hajos/_index|source digest]].
 

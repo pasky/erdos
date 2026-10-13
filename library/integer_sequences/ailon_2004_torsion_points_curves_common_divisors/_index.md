@@ -50,7 +50,7 @@ bounded content of polynomial matrix powers minus the identity.
 divisors of $a^k-1$ and $b^k-1$*, Acta Arithmetica **113** (2004), no. 1, 31–38.
 [DOI: 10.4064/aa113-1-3](https://doi.org/10.4064/aa113-1-3). The [publisher's
 record](https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/113/1/83111/torsion-points-on-curves-and-common-divisors-of-a-k-1-and-b-k-1)
-confirms the authors, volume, pages and DOI.
+confirms the authors, volume, pages and DOI; accessed 2026-09-05.
 
 ## Source version
 

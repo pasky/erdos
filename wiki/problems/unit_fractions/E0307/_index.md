@@ -125,12 +125,12 @@ https://www.erdosproblems.com/307, accessed 2026-09-18.
   reciprocal sum is $-1$ at its own primes) and Julian Rosen's of 15
   January 2019 (two numbers with product $1$ sum to at least $2$, and the
   reciprocals of the first $58$ primes sum to less than $2$, so a solution
-  needs at least $59$ primes), accessed 2026-10-07. A lead
+  needs at least $59$ primes), accessed 2026-09-18 and 2026-10-07. A lead
   the discussion links, never a status source.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/307.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/307.lean)
-of formal-conjectures at the linked commit (main) declares
+of formal-conjectures at the linked commit (main, fetched 2026-09-18) declares
 `erdos_307 : answer(sorry) ↔ ∃ P Q : Finset ℕ, (∀ p ∈ P, p.Prime) ∧ (∀ q ∈ Q, q.Prime) ∧ 1 = (∑ p ∈ P, (p : ℚ)⁻¹) * (∑ q ∈ Q, (q : ℚ)⁻¹)`
 under `category research open` with proof `sorry`. The same file carries
 the variants `coprime` (the weakened version with pairwise coprime elements,

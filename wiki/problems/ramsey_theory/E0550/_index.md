@@ -211,7 +211,7 @@ was used "for ideation, formulation, proof exploration and refinement,
 narrowing the search space, programming, LaTeX formatting and other forms of
 orchestration", the author taking full responsibility; the site's proof-claim
 entry (submitted 17 July 2026) declares the claim as made using GPT-5.5 Pro.
-Acceptance evidence: none. No journal record (Crossref); no citing
+Acceptance evidence: none. No journal record (Crossref, 2026-09-17); no citing
 paper (Semantic Scholar); the site's last label, OPEN (LEAN), kept the
 informal status open. Version note: the text cited is v1
 (20 pages, complete); the arXiv listing shows v2 of 2 August 2026 (26 pages)

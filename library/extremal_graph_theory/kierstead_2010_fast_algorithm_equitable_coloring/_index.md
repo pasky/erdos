@@ -32,7 +32,7 @@ H. A. Kierstead, A. V. Kostochka, M. Mydlarz and E. Szemerédi, *A fast
 algorithm for equitable coloring*, Combinatorica **30** (2010), no. 2,
 217--224; DOI
 [10.1007/s00493-010-2483-5](https://doi.org/10.1007/s00493-010-2483-5)
-(the Crossref record, gives issue 2, March 2010, published
+(the Crossref record, read 2026-09-19, gives issue 2, March 2010, published
 online 17 September 2010); received 5 February 2008; MSC 05C15, 05C85. Not
 a site key: the site's source key for Problem 914 is Er67b, and its
 commentary cites CoHa63, HaSz70 and KiKo08; the two proofs, the 1970

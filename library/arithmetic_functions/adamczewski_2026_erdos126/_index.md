@@ -90,8 +90,8 @@ a line-by-line audit of every Lean tactic.
 
 The [pinned public
 CI](https://github.com/tadamcz/erdos126/actions/runs/33813859367) reported
-successful build and Comparator jobs when checked. The [formalization
-metadata](https://github.com/tadamcz/erdos126/blob/abd42394bc47d58440dd3db4c3bd1ffa19b403de/formalization.yaml)
+successful build and Comparator jobs when checked on 2026-09-05. The
+[formalization metadata](https://github.com/tadamcz/erdos126/blob/abd42394bc47d58440dd3db4c3bd1ffa19b403de/formalization.yaml)
 distinguishes the primary compared proof from the three alternate modules.
 Comparator checks the requested limit statement, using the primary
 `Erdos126_132usd_25h` module and its exponent $1/8$. It does not compare the

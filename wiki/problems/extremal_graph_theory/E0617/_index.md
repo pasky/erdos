@@ -139,7 +139,7 @@ problem; a uniform proof for infinitely many $r$ would be meaningful partial
 progress, while the target remains a proof for every $r$ or a rigorously
 verified counterexample.
 
-**Proof claims on the site.** The site's proof-claim
+**Proof claims on the site (accessed 2026-10-07).** The site's proof-claim
 tab carries seven claims, all partial and all for fixed values of $r$, posted
 between 18 and 31 July 2026: Sneiderman's four preprints for $r=5$, $r=6$,
 $r=7,8$ and $r=9$ (the library sources above), Silverstein's and Rose's

@@ -92,8 +92,9 @@ T. F. Bloom, Erdős Problem #965, https://www.erdosproblems.com/965, accessed
   [[../library/ramsey_theory/hindman_2017_pairwise_sums_colourings_reals/_index|hindman_2017_pairwise_sums_colourings_reals]].
 - [Ko16] Komjáth, P., A certain 2-coloring of the reals. Real Anal. Exchange
   41 (2016), no. 1, 227--231, doi:10.14321/realanalexch.41.1.0227 (the
-  publisher's record gives volume 41, issue 1, first page 227). Not held: no
-  open copy was found; no author copy was found. Quoted second-hand.
+  publisher's record, accessed 2026-09-18, gives volume 41, issue 1, first page
+  227). Not held: no open copy was found; no author copy was found. Quoted
+  second-hand.
 - [SoWe] Soukup, D. T. and Weiss, W., Sums and anti-Ramsey colourings of
   $\mathbb R$. Unpublished manuscript, 5 pages, PDF dated September 2015; no
   journal or arXiv record found. Theorem 3.1, p. 3; Corollary
@@ -183,7 +184,7 @@ this coloring, and Question 3.3 asks whether ZFC gives a finite coloring with
 no uncountable $X$ having $FS_2(X)$ monochromatic. Version: the locators are
 those of arXiv v1 (11 May 2015; the only arXiv version, whose listing carries
 no journal reference); the journal is Abh. Math. Semin. Univ. Hambg. 87
-(2017), no. 2, 275--287 (the publisher's record),
+(2017), no. 2, 275--287 (the publisher's record, accessed 2026-09-18),
 refereed, its text not compared.
 
 **The ZFC strand.** Komjáth's paper [Ko16] answers Question 3.3 for two colors;

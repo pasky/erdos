@@ -62,7 +62,7 @@ density argument for the $<$ form needs exponents above $1/\sqrt e$. The
 site's curator's remark that the problem was probably misstated is on the
 site; the nontrivial neighbors are Problems 369 and 928. No refereed source
 exists, and this corpus has built and audited neither Lean file. Sources
-checked: the site's page, its
+checked on 2026-10-07: the site's page, its
 revision history (one revision, of 2025-10-20, with the remark present), the
 discussion thread (three comments, 2025-10-17 to 2025-12-21), the
 formal-conjectures statement file at its 2026-09-18 commit and both Lean files

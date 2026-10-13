@@ -30,7 +30,7 @@ Erdős–Faudree–Sós conjecture.
 Bukh, Boris and Sudakov, Benny, Induced subgraphs of Ramsey graphs with many
 distinct degrees. J. Combin. Theory Ser. B 97 (2007), no. 4, 612-619, DOI
 10.1016/j.jctb.2006.09.006 (received 21 June 2006, available online 14
-November 2006; Crossref record read).
+November 2006; Crossref record read on 2026-09-18).
 
 **Edition read.** The copy read for this card is the publisher's version of
 the printed article (Elsevier typesetting, eight pages, printed pp. 612-619;

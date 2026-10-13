@@ -45,7 +45,7 @@ The copy read for this card is arXiv:2009.00528v1 [math.CO] of 1 September
 2020 (16 pages, complete text layer; printed and PDF pages agree), the only
 arXiv version on 2026-09-18. The published version is Int. Math. Res. Not.
 IMRN 2022, no. 13, 9663--9684, DOI 10.1093/imrn/rnaa396 (published online 8
-February 2021; Crossref record read); it was not compared, and its
+February 2021; Crossref record read 2026-09-18); it was not compared, and its
 abstract adds a sentence absent from v1 (that the o(1) error term is needed, by
 B. Janzer), so the two versions differ. The v1 text contains no statement about
 the Turán number ex(n;Q_k) of the hypercube or about K_{d,d}-free bipartite

@@ -30,7 +30,7 @@ updated: 2026-10-08T01:29:59Z
 
 Füredi and Seress, *Maximal triangle-free graphs with restrictions on the
 degrees*, J. Graph Theory 18 (1994), no. 1, 11--24, DOI
-10.1002/jgt.3190180103 (Crossref record read; the issue is dated
+10.1002/jgt.3190180103 (Crossref record read 2026-10-07; the issue is dated
 January 1994, and the page name carries the first of that month;
 [[../library/extremal_graph_theory/furedi_1994_maximal_triangle_free_graphs_restrictions_degrees/_index|card]]).
 

@@ -25,7 +25,7 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Let $f(m)$ be the maximal $k$ such that a triangle-free graph on
 $m$ edges must contain a bipartite graph with $k$ edges. Determine $f(m)$.
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording, accessed 2026-09-18 (the page shows no
 last-edited date). "Contain a bipartite graph with $k$
 edges" means a bipartite subgraph with at least $k$ edges (a subgraph of a
 bipartite subgraph is bipartite), so $f(m)$ is the minimum over

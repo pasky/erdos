@@ -31,7 +31,7 @@ of n.
 
 H. L. Abbott and B. Gardner, *An extremal problem in number theory*,
 Canad. Math. Bull. **10** (1967), no. 2, 173--177 (received November 17,
-1966); DOI 10.4153/CMB-1967-015-8 (Crossref record read). The
+1966); DOI 10.4153/CMB-1967-015-8 (Crossref record read 2026-09-18). The
 problem pages' entry [AbGa67] gives the journal, year and pages.
 
 The copy read for this card is the

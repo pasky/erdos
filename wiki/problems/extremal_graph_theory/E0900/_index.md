@@ -76,7 +76,7 @@ Problem #900, https://www.erdosproblems.com/900, accessed 2026-09-19.
 
 - [AKS81] Ajtai, Miklós and Komlós, János and Szemerédi, Endre, The longest
   path in a random graph. Combinatorica 1 (1981), no. 1, 1--12,
-  doi:10.1007/BF02579172 (Crossref; issued March 1981;
+  doi:10.1007/BF02579172 (Crossref, accessed 2026-09-19; issued March 1981;
   received 12 September 1979). Theorem 2, the Exponential rate, the Corollary
   and Remark 1, printed p. 2; Remark 2, pp. 2--3. Library home:
   [[../library/extremal_graph_theory/ajtai_1981_longest_path_random_graph/_index|ajtai_1981_longest_path_random_graph]];

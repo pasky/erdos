@@ -43,7 +43,7 @@ gaps between primes*, arXiv:1412.5029v3 (14 July 2016, 40 pp.);
 Theorem 1 on p. 2, read on the page image and in the text layer. Published
 in J. Amer. Math. Soc. 31 (2018), no. 1, 65--105, DOI 10.1090/jams/876
 (published online 23 February 2017; the Crossref record and the arXiv
-listing's journal reference were read); the journal text was
+listing's journal reference were read 2026-09-18); the journal text was
 not compared, so the locators are those of v3.
 
 **Read depth.** Claims checked: the statement and the historical paragraph

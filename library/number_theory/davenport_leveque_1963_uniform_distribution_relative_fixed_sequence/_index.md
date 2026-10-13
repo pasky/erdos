@@ -24,7 +24,7 @@ of LeVeque's question, Problem 492.
 
 H. Davenport and W. J. LeVeque, *Uniform distribution relative to a fixed
 sequence*, Michigan Math. J. 10 (1963), 315--319; DOI
-10.1307/mmj/1028998918 (Crossref record read, issued August
+10.1307/mmj/1028998918 (Crossref record read 2026-09-18, issued August
 1963). Received March 14, 1963. The site's key DaLe63 for Problem 492.
 
 **Copy read.** The copy read for this card

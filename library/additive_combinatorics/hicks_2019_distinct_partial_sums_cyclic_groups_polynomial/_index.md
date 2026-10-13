@@ -72,20 +72,19 @@ problem 475.
 The copy read for this card is arXiv:1809.02684v1 (7 September 2018,
 18 pp.), whose pagination is used here; the journal version is J. Combin.
 Des. 27 (2019), no. 6, 369--385, DOI 10.1002/jcd.21652 (published online
-31 January 2019; Crossref record read), not compared. Read status: claims checked for Conjectures 1.1, 1.2 and 1.4, Theorems
-2.2, 2.3, 3.1, 3.2, 4.3 and 4.6 and Lemmas 4.1 and 4.4 (pp. 2--3, 6, 8,
-12--13, 15, page images); the coefficient computation (Table 1), the degree
-count in the proof of Theorem 3.2 and the constructions behind Lemma 4.5 and
-Theorem 4.6 were not checked. For Problem 475 the theorems
-concern Alspach's conjecture (partial sums distinct and nonzero, total sum
-nonzero); the transfer to Graham's distinct-partial-sums statement uses the
-implication of Archdeacon, Dinitz, Mattern and Stinson quoted on p. 2,
-whose paper is not held, and the sizes $p-1$ and $p-2$ are Bode and
-Harborth's (p. 2; their paper is this paper's [9], p. 18, text layer),
-filed as
+31 January 2019; Crossref record read 2026-09-18), not compared. Read status:
+claims checked for Conjectures 1.1, 1.2 and 1.4, Theorems 2.2, 2.3, 3.1, 3.2,
+4.3 and 4.6 and Lemmas 4.1 and 4.4 (pp. 2--3, 6, 8, 12--13, 15, page images);
+the coefficient computation (Table 1), the degree count in the proof of Theorem
+3.2 and the constructions behind Lemma 4.5 and Theorem 4.6 were not checked. For
+Problem 475 the theorems concern Alspach's conjecture (partial sums distinct and
+nonzero, total sum nonzero); the transfer to Graham's distinct-partial-sums
+statement uses the implication of Archdeacon, Dinitz, Mattern and Stinson quoted
+on p. 2, whose paper is not held, and the sizes $p-1$ and $p-2$ are Bode and
+Harborth's (p. 2; their paper is this paper's [9], p. 18, text layer), filed as
 [[additive_combinatorics/bode_harborth_2005_directed_paths_diagonals_within_polygons/_index|bode_harborth_2005_directed_paths_diagonals_within_polygons]];
-their Theorem 1 ("Conjecture 1 is true for $t=n-1$") and Theorem 2
-("Conjecture 1 is true for $t=n-2$") are on printed p. 4 (PDF p. 2), paged on
+their Theorem 1 ("Conjecture 1 is true for $t=n-1$") and Theorem 2 ("Conjecture
+1 is true for $t=n-2$") are on printed p. 4 (PDF p. 2), paged on
 [[additive_combinatorics/bode_harborth_2005_directed_paths_diagonals_within_polygons/theorem_1|theorem_1]]
 and
 [[additive_combinatorics/bode_harborth_2005_directed_paths_diagonals_within_polygons/theorem_2|theorem_2]].

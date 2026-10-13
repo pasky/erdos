@@ -54,12 +54,12 @@ alone.
 
 **Acceptance.** Refereed: A. Khalfalah and E. Szemerédi, On the number of
 monochromatic solutions of $x+y=z^2$, Combin. Probab. Comput. 15 (2006), no.
-1--2, 213--227. It was published online 3 January 2006 (Crossref record), and
-this page is named by that date. Later refereed papers cite it. Sanders (Acta
-Math. Hungar. 161 (2020)) cites it as the answer to a question of Roth, Erdős,
-Sárközy and Sós. Green and Lindqvist (Canad. J. Math. 71 (2019)) cite it in a
-remark (p. 580) that states it without the condition $x\ne y$. These papers are
-filed as
+1--2, 213--227. It was published online 3 January 2006 (Crossref record read
+2026-09-18), and this page is named by that date. Later refereed papers cite it.
+Sanders (Acta Math. Hungar. 161 (2020)) cites it as the answer to a question of
+Roth, Erdős, Sárközy and Sós. Green and Lindqvist (Canad. J. Math. 71 (2019))
+cite it in a remark (p. 580) that states it without the condition $x\ne y$.
+These papers are filed as
 [[../library/ramsey_theory/sanders_2020_monochromatic_solutions_x_minus_y_z_squared/_index|Sanders 2020]]
 and
 [[../library/ramsey_theory/green_2019_monochromatic_solutions_x_plus_y_z_squared/_index|Green and Lindqvist 2019]].

@@ -98,7 +98,7 @@ F. Bloom, Erdős Problem #1216, https://www.erdosproblems.com/1216, accessed
   subtournaments. Graphs Combin. 10 (1994), no. 2--4, 367--376,
   doi:10.1007/BF02986687; [Sa98b] Sánchez-Flores, A., On tournaments free
   of large transitive subtournaments. Graphs Combin. 14 (1998), no. 2,
-  181--200, doi:10.1007/s003730050025 (Crossref records).
+  181--200, doi:10.1007/s003730050025 (Crossref records of 2026-09-18).
   Neither held; their theorems, $R(7)\le55$ in [Sa94] and $R(7)\le54$ in
   [Sa98b], are recorded from their zbMATH reviews (Zbl 0811.05029, Zbl
   0918.05058) on their claim pages, and attested in part by [IRW21], [NMH22]
@@ -133,7 +133,7 @@ F. Bloom, Erdős Problem #1216, https://www.erdosproblems.com/1216, accessed
   the library.
 - [NeLa94] Neumann-Lara, V., A short proof of a theorem of Reid and Parker
   on tournaments. Graphs Combin. 10 (1994), 363--366, doi:10.1007/BF02986686
-  (Crossref record). Not held; by its zbMATH review (Zbl
+  (Crossref record of 2026-09-18). Not held; by its zbMATH review (Zbl
   0811.05028) it gives a shorter proof of Reid and Parker's Corollary 1,
   recorded on its claim page.
 

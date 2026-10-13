@@ -39,7 +39,7 @@ computation shows it is exact
 **Source.** G. Exoo, *A lower bound for Schur numbers and multicolor Ramsey
 numbers of $K_3$*, Electron. J. Combin. 1 (1994), #R8, 3 pages (submitted
 13 September 1994, accepted 18 September 1994; DOI 10.37236/1188 per the
-Crossref record read); printed page equals PDF page. The
+Crossref record read 2026-09-18); printed page equals PDF page. The
 definitions on p. 1 and the partition and the bound on p. 2 were read on
 the page images.
 

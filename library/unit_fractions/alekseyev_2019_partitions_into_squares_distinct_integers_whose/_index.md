@@ -34,7 +34,8 @@ Alekseyev, Max A., On partitions into squares of distinct integers whose
 reciprocals sum to 1. (2019), 213--221.
 
 The copy read for this card is arXiv:1801.05928v2 (23 April 2018; v1 18
-January 2018), 7 pages, the latest version on the arXiv listing read. The citation's "(2019), 213--221" is the
+January 2018), 7 pages, the latest version on the arXiv listing read on
+2026-09-18. The citation's "(2019), 213--221" is the
 chapter in *The Mathematics of Various Entertaining Subjects, Volume 3: The
 Magic of Mathematics* (J. Beineke and J. Rosenhouse, eds.), Princeton
 University Press, 2019, pp. 213--221, DOI 10.2307/j.ctvd58spj.18, per the

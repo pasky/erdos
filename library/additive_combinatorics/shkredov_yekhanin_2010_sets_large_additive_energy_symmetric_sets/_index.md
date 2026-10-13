@@ -34,7 +34,7 @@ O(|A_1|...|A_(k-2)||A_k| sigma^(-1) log|A_(k-1)|).
 
 Ilya D. Shkredov and Sergey Yekhanin, "Sets with large additive energy and
 symmetric sets," J. Combin. Theory Ser. A 118 (2011), no. 3, 1086--1093, DOI
-10.1016/j.jcta.2010.11.001 (Crossref record read). The copy read for
+10.1016/j.jcta.2010.11.001 (Crossref record read 2026-10-07). The copy read for
 this card is arXiv:1004.2294v1 (14 April 2010, eight pages); the journal version
 was not compared, and the numbering below is the preprint's. The arXiv record
 names arXiv's non-exclusive distribution license (arXiv:1004.2294), every other

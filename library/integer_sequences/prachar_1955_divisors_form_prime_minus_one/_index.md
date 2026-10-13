@@ -50,7 +50,7 @@ prime-pair parametrization and the uniform weighted sieve sum.
 
 K. Prachar, *Über die Anzahl der Teiler einer natürlichen Zahl, welche die
 Form p−1 haben*, **Monatshefte für Mathematik 59 (1955), 91–97**,
-DOI 10.1007/BF01302992 (Crossref record read).
+DOI 10.1007/BF01302992 (Crossref record read 2026-10-07).
 The first printed page records receipt on 19 October 1954.
 
 ## Source and convention

@@ -35,7 +35,7 @@ The copy read for this card is arXiv:1412.5029v3 (14 July 2016, 40 pages;
 the arXiv stamp is on p. 1), with a complete text layer. The paper appeared
 in J. Amer. Math. Soc. 31 (2018), no. 1, 65--105 (published online 23
 February 2017; the Crossref record of DOI 10.1090/jams/876 and the arXiv
-listing's journal reference were read). The journal text was not
+listing's journal reference were read 2026-09-18). The journal text was not
 compared; the page numbers and labels below are the
 preprint's. Read status: claims checked for Definition 1, Lemma 1.1,
 displays (1.2) and (1.3), Theorem 1 and Corollary 1 (pp. 2--4), each read

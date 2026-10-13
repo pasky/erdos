@@ -55,7 +55,7 @@ https://www.erdosproblems.com/1207.
 
 ## Current assessment
 
-The site's formulation asks for estimates of $P_d(n)$,
+The site's formulation (accessed 2026-10-07) asks for estimates of $P_d(n)$,
 the size of an isosceles-free subset that every set of $n$ points in
 $\mathbb{R}^d$ is guaranteed to contain, and in particular whether
 $P_2(n)<n^{1-c}$ for some $c>0$. The site's label was OPEN.

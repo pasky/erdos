@@ -44,11 +44,11 @@ Provenance: retrieved from
 <https://users.renyi.hu/~p_erdos/1979-16.pdf> (HTTP 200, one request);
 544,596 bytes. The scan prints the journal's code line at the foot of
 p. 597, ending "© 1979, NYAS" (read on the page image; the text layer
-garbles it), and the Crossref record of the DOI, lists
+garbles it), and the Crossref record of the DOI, read 2026-10-07, lists
 the publisher's terms
 <http://onlinelibrary.wiley.com/termsAndConditions#vor> from 16 December
 2006; the hosting archive's site footer speaks for the site, not the paper,
-the archive root (https://users.renyi.hu/~p_erdos/)
+the archive root (https://users.renyi.hu/~p_erdos/, read 2026-10-02)
 printing "(C) 2005-2007 All rights reserved. All material on this site is
 for scientifics purposes only."; the publisher's page was not consulted.
 The term is reserved, from the copyright notice the scan prints.

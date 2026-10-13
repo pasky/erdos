@@ -62,7 +62,8 @@ https://www.erdosproblems.com/220.
   [[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]].
 - [MoVa86] Montgomery, H. L. and Vaughan, R. C., On the distribution of reduced
   residues. Ann. of Math. (2) 123 (1986), no. 2, 311-333; DOI
-  10.2307/1971274 (March 1986 issue per the Crossref record).
+  10.2307/1971274 (March 1986 issue per the Crossref record, accessed
+  2026-10-07).
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/28176f77e228fbe02df510c136d91df929435f58/FormalConjectures/ErdosProblems/220.lean),

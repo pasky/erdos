@@ -93,7 +93,7 @@ case; OEIS A140462 linked), its two-comment discussion thread (17 and 18 August
   (a re-typeset copy with its own pagination).
 - [Ra10] Razborov, Alexander A., On 3-hypergraphs with forbidden 4-vertex
   configurations. SIAM J. Discrete Math. 24 (2010), no. 3, 946--963,
-  doi:10.1137/090747476 (Crossref record read; the site's
+  doi:10.1137/090747476 (Crossref record read on 2026-09-18; the site's
   reference text gives "SIAM J. Discrete Math. (2010), 946-963"). Library
   home:
   [[../library/extremal_graph_theory/razborov_2010_3_hypergraphs_forbidden_4_vertex_configurations/_index|razborov_2010_3_hypergraphs_forbidden_4_vertex_configurations]]

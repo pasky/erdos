@@ -54,7 +54,7 @@ DOI: [10.1016/j.jctb.2018.12.003](https://doi.org/10.1016/j.jctb.2018.12.003).
 The copy read for this card is the 34-page
 arXiv:1605.09055v3 manuscript dated 12 August 2018, not the journal typesetting.
 Printed and PDF page numbers agree. The arXiv record and Ping Hu's publication
-list were checked; the published text was not compared with this
+list were checked on 2026-09-09; the published text was not compared with this
 manuscript. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1605.09055), every other right reserved.
 

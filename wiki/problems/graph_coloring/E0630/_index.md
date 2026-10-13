@@ -31,8 +31,8 @@ distinct colours.
 
 Does every planar bipartite graph $G$ have $\chi_L(G)\leq 3$?
 
-**Status.** Labeled proved on the site, with the label PROVED. The standing
-rests on
+**Status.** Labeled proved on the site, with the label PROVED (accessed
+2026-09-04). The standing rests on
 [[problems/graph_coloring/E0630/claims/1992_06_01_alon_tarsi|Alon and Tarsi's
 theorem]], accepted on its refereed publication and the curator's credit. A
 planar bipartite graph has an orientation of maximum outdegree at most $2$ in
@@ -68,7 +68,7 @@ evidence.
 
 ## Current assessment
 
-The site's formulation asks whether every planar
+The site's formulation (accessed 2026-09-04) asks whether every planar
 bipartite graph is $3$-choosable. The answer is yes:
 [[problems/graph_coloring/E0630/claims/1992_06_01_alon_tarsi|Alon and Tarsi
 1992]] prove it from their algebraic criterion, refereed in Combinatorica and

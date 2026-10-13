@@ -96,7 +96,7 @@ Neither development was built or audited by this project.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-10-07).** The
+**The question (site formulation, accessed 2026-09-04 and 2026-10-07).** The
 statement above; the site labeled it DISPROVED (LEAN). Its commentary says the
 answer is yes for non-bipartite $G$ (Erdős, Frankl and Rödl [EFR86]) and no for
 $G=C_6$, where Morris and Saxton [MoSa16] give at least

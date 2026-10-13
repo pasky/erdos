@@ -60,7 +60,8 @@ the page images of the journal's printing.
 The copy read for this card is the
 journal's seven-page scan (printed pp. 307--313; printed p. $n$ is PDF p.
 $n-306$; received by the editors 13 August 1974), read on rendered page
-images; the Crossref record (DOI 10.1090/S0002-9947-1975-0376594-1) gives Trans. Amer. Math. Soc. 212 (1975). Read status: claims
+images; the Crossref record (DOI 10.1090/S0002-9947-1975-0376594-1, read
+2026-09-18) gives Trans. Amer. Math. Soc. 212 (1975). Read status: claims
 checked for the definition and the Theorem (display (1.1), printed p. 307),
 the Lemma (printed p. 307) and the closing remark (printed p. 313), each read
 clause by clause on the page images; the proofs of the Lemma and of

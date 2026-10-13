@@ -34,9 +34,10 @@ vertices and applying Turán's theorem to the rest.
 B. Bollobás and V. Nikiforov, *The sum of degrees in cliques*, Electron. J.
 Combin. **12** (2005), no. 1, Note 21, 10 pp.; DOI
 [10.37236/1988](https://doi.org/10.37236/1988); published 7 November 2005 (the
-journal's article record and the Crossref record, both read). The Electronic
-Journal of Combinatorics is refereed and open access; the site's reference text
-reads "Electron. J. Combin. (2005), Note 21, 10". Preprint arXiv:math/0410218.
+journal's article record and the Crossref record, both read on 2026-09-18). The
+Electronic Journal of Combinatorics is refereed and open access; the site's
+reference text reads "Electron. J. Combin. (2005), Note 21, 10". Preprint
+arXiv:math/0410218.
 
 **Edition read.** The copy read for this card is arXiv:math/0410218v1 (stamped
 "[math.CO] 8 Oct 2004" on p. 1; the arXiv record read lists this

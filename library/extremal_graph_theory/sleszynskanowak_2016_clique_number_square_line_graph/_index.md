@@ -35,26 +35,26 @@ bound the author attributes to Molloy and Reed's book; read in the arXiv v2.
 Discrete Math. 339 (2016), no. 5, 1551--1556.
 
 **Edition read.** The journal version is Discrete Math. 339 (2016),
-no. 5, 1551--1556, DOI 10.1016/j.disc.2016.01.003 (Crossref record read). The copy read for this card
-is the arXiv preprint arXiv:1504.06585v2 (30 April 2015; the rendering's
-title page prints "June 28, 2021"), 9 pages, so the locators and labels
-below are the preprint's; the journal text was not compared. Theorems 5 and
-7 are each printed twice, announced on p. 2 and restated on pp. 5 and 7;
-the proof of Theorem 7 (p. 7) cites "Theorem 2" for the $1.5\Delta_G^2$
-bound, a misreference for Theorem 5; and Remark 1 (p. 2) states
-$\omega(L)=|E(H)|$ for a subgraph $H$ with pairwise edge distance at most 2
-without a maximality quantifier; all as printed. Read status: claims checked
-for Theorem 2 (p. 2), Theorem 5 (pp. 2 and 5), Theorem 7 (pp. 2 and 7) and
-Remark 1 (p. 2), read clause by clause on the page images, paged at
+no. 5, 1551--1556, DOI 10.1016/j.disc.2016.01.003 (Crossref record read
+2026-09-19). The copy read for this card is the arXiv preprint
+arXiv:1504.06585v2 (30 April 2015; the rendering's title page prints "June 28,
+2021"), 9 pages, so the locators and labels below are the preprint's; the
+journal text was not compared. Theorems 5 and 7 are each printed twice,
+announced on p. 2 and restated on pp. 5 and 7; the proof of Theorem 7 (p. 7)
+cites "Theorem 2" for the $1.5\Delta_G^2$ bound, a misreference for Theorem 5;
+and Remark 1 (p. 2) states $\omega(L)=|E(H)|$ for a subgraph $H$ with pairwise
+edge distance at most 2 without a maximality quantifier; all as printed. Read
+status: claims checked for Theorem 2 (p. 2), Theorem 5 (pp. 2 and 5), Theorem 7
+(pp. 2 and 7) and Remark 1 (p. 2), read clause by clause on the page images,
+paged at
 [[extremal_graph_theory/sleszynskanowak_2016_clique_number_square_line_graph/theorem_2|theorem_2]],
 [[extremal_graph_theory/sleszynskanowak_2016_clique_number_square_line_graph/theorem_5|theorem_5]]
 and
 [[extremal_graph_theory/sleszynskanowak_2016_clique_number_square_line_graph/theorem_7|theorem_7]];
 the proofs of Theorems 2 and 5 (pp. 3--6, with Lemma 3 on p. 4) read for
-structure only, and the fractional coloring bound used for Theorem 7 not
-checked against its source. The arXiv record names
-arXiv's non-exclusive distribution license (arXiv:1504.06585), every other right
-reserved.
+structure only, and the fractional coloring bound used for Theorem 7 not checked
+against its source. The arXiv record names arXiv's non-exclusive distribution
+license (arXiv:1504.06585), every other right reserved.
 
 The paper bounds the clique number omega(L) of the square L of the line graph of
 a graph G, a lower bound for the strong chromatic index. Theorem 5 proves

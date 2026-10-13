@@ -25,7 +25,8 @@ the base-2 logarithm of n vertices.
 
 Mousset, Frank and Noever, Andreas and Škorić, Nemanja, Smaller subgraphs
 of minimum degree $k$. Electron. J. Combin. 24 (2017), no. 4, Paper 4.9,
-8 pp., doi:10.37236/7167 (published 6 October 2017; Crossref record read; the site's reference text gives "Electron. J. Combin. (2017),
+8 pp., doi:10.37236/7167 (published 6 October 2017; Crossref record read on
+2026-09-18; the site's reference text gives "Electron. J. Combin. (2017),
 Paper No. 4.9, 8"). Preprint arXiv:1703.00273 (v1, 1 March 2017). The arXiv
 record names arXiv's non-exclusive distribution license (arXiv:1703.00273),
 every other right reserved. The journal PDF prints no license; the journal's

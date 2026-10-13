@@ -195,8 +195,8 @@ $r(s,k)\ge k^{s-1+o(1)}$ compared to the previous $r(s,k)\ge k^{s-2+o(1)}$"; the
 site's reference [Br26] pairs the v1 title with the arXiv identifier. Acceptance
 evidence: the site's curator, Thomas Bloom, labeled the problem PROVED (page
 last edited 21 June 2026) and credits the paper with the resolution, which the
-claim page records as `reviewed`. No journal record exists under either title
-(publisher bibliographic queries); Semantic Scholar lists three
+claim page records as `reviewed`. No journal record existed under either title
+(publisher bibliographic queries, 2026-09-17); Semantic Scholar lists three
 citing records (a 2026 paper on Erdős--Rogers problems, a paper on pathwidth and
 the paper of an autoformalization system), none a review or refutation. Read
 depth: claims checked for Theorem 1.1, the displays (1)--(2) and the declaration

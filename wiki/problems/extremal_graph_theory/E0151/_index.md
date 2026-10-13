@@ -317,7 +317,7 @@ the independence theorem behind it (Theorem 2) was followed for structure only.
 the lemmas read for structure; nothing is independently reviewed; there is no
 resolving proof to compile. (4) There is no Lean statement of the problem.
 
-**Proof claims on the site.** The site's proof-claim tab
+**Proof claims on the site.** The site's proof-claim tab (accessed 2026-10-07)
 carries one claim, partial: Daniel Veljjanoski's write-up of 2026-09-28, which
 asserts the inequality for every graph on at most 39 vertices by a
 minimum-counterexample reduction and a new Euler-circuit argument for the case

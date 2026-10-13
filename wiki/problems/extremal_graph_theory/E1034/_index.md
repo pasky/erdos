@@ -27,7 +27,7 @@ there be a triangle $T$ in $G$ and vertices $y_1,\ldots,y_t$, where
 $t>(\frac{1}{2}-o(1))n$, such that every vertex is joined to at least two
 vertices of $T$?
 
-**Formulation.** The site's wording (page last
+**Formulation.** The site's wording, accessed 2026-09-19T06:45Z (page last
 edited 28 October 2025). The clause "such that every vertex is
 joined to at least two vertices of $T$" is read as "every $y_i$ is joined
 ...", the reading of the resolving note's Conjecture 1.1 ("such that every

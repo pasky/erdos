@@ -32,7 +32,7 @@ triangles; the complete bipartite graph shows the bound is sharp.
 
 P. Erdős, A. W. Goodman, L. Pósa: The representation of a graph by set
 intersections, Canad. J. Math. 18 (1966), 106--112 (MR 32 #4034; Zentralblatt
-137,432); doi:10.4153/CJM-1966-014-3, per the Crossref record read.
+137,432); doi:10.4153/CJM-1966-014-3, per the Crossref record read 2026-10-07.
 
 The paper determines the least size of a ground set needed to represent an
 arbitrary graph as an intersection graph. Theorem 1 proves that every graph on n

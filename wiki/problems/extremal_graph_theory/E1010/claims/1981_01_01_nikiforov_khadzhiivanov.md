@@ -39,10 +39,10 @@ the site's citation.
 curator, Thomas Bloom, who labeled the problem PROVED and names this note as one
 of its two independent proofs. The community database agrees: it lists the
 problem as proved as of its last update, 10 September 2025. Nothing else is in
-hand. The note is not held. A Crossref bibliographic query returned nothing
-relevant, and no other online record was found. No text has been read and no
-referee record is known, so `refereed` is not listed. A 1988 single-author paper
-of Khadzhiivanov on the common-edge triangle problem of
+hand. The note is not held. A Crossref bibliographic query of 2026-09-18
+returned nothing relevant, and no other online record was found. No text has
+been read and no referee record is known, so `refereed` is not listed. A 1988
+single-author paper of Khadzhiivanov on the common-edge triangle problem of
 [[problems/extremal_graph_theory/E0905/_index|Problem 905]] was once associated
 with this problem, but it is not this note. Reopening condition: a copy of the
 note, after which its statement is paged and compared with the site's. The

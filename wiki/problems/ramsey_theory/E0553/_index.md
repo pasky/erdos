@@ -127,7 +127,7 @@ unformalized, with no formal-proof URL.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-17).** The statement
 above; status PROVED, the site's label for a problem solved in the
 affirmative; source key [ErSo80]. The commentary attributes the problem to
 Erdős and Sós and credits its solution to Alon and Rödl [AlRo05], adding

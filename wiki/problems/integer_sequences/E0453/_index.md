@@ -69,7 +69,7 @@ T. F. Bloom, Erdős Problem #453, https://www.erdosproblems.com/453, accessed
 **Formalization.** Statement only in the collection. The file
 [`ErdosProblems/453.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/453.lean)
 of google-deepmind/formal-conjectures, at its last change of 18 September
-2026 (linked at that commit), declares
+2026 (linked at that commit; accessed 2026-10-07), declares
 `erdos_453 : answer(False) ↔ EventuallyHasPrimeWitness` under
 `category research solved` with proof `sorry`, where
 `EventuallyHasPrimeWitness` is the statement with Mathlib's zero-based
@@ -78,9 +78,9 @@ primes, and carries a `formal_proof` attribute pointing at the file
 on its `main` branch, not a fixed commit: a versioned copy of the file
 linked, at a fixed commit, from the claim page
 [[problems/integer_sequences/E0453/claims/1979_01_01_pomerance|Pomerance's infinitely many good primes]].
-The community database (teorth/erdosproblems) lists the
+The community database (teorth/erdosproblems, accessed 2026-10-07) lists the
 problem as disproved (Lean) as of its last update on 31 January 2026, and the
-statement as formalized. Nothing was built or audited here,
+statement as formalized as of 6 July 2026. Nothing was built or audited here,
 and the Lean suffix is a catalog label.
 
 ## Progress

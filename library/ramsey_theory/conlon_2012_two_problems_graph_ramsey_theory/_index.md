@@ -21,7 +21,7 @@ D. Conlon, J. Fox and B. Sudakov, *On two problems in graph Ramsey theory*,
 Combinatorica 32 (2012), no. 5, 513--535; DOI 10.1007/s00493-012-2710-3
 (printed on p. 513 with the head "Combinatorica 32 (5) (2012) 513--535" and
 the imprint "Bolyai Society -- Springer-Verlag"; received January 29, 2010;
-published online 4 October 2012 per the Crossref record read;
+published online 4 October 2012 per the Crossref record read on 2026-09-17;
 Mathematics Subject Classification (2000) 05C55, 05D10). Preprint
 arXiv:1002.0045 (v1 30 January 2010, the only arXiv version; no journal
 reference on the listing). Cited as [CFS12] on the problem pages.

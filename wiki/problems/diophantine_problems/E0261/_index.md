@@ -72,16 +72,16 @@ https://www.erdosproblems.com/261.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/261.lean).
 The
-[file](https://github.com/google-deepmind/formal-conjectures/blob/a56710a57eddd13d972881bd9315b64e1b9a0502/FormalConjectures/ErdosProblems/261.lean)
-states the three questions as `erdos_261.parts.i` (tagged research solved),
-`erdos_261.parts.ii` and `erdos_261.parts.iii` (both research open), all with
-proof `sorry`; its variants state the Borwein--Loring identity and the property
-it gives (textbook), the check for $n\le10000$ (research solved, `sorry`) and
-Erdős's weakened two-representation question (research solved, with a
-`formal_proof` pointer to the outside Lean file recorded under Progress and
-known results). The community database records the statement as formalized since
-2 September 2026 and no formal proof. The corpus has not built any of these
-files.
+[file](https://github.com/google-deepmind/formal-conjectures/blob/a56710a57eddd13d972881bd9315b64e1b9a0502/FormalConjectures/ErdosProblems/261.lean),
+at the commit the link pins (main on 2026-10-07), states the three questions as
+`erdos_261.parts.i` (tagged research solved), `erdos_261.parts.ii` and
+`erdos_261.parts.iii` (both research open), all with proof `sorry`; its variants
+state the Borwein--Loring identity and the property it gives (textbook), the
+check for $n\le10000$ (research solved, `sorry`) and Erdős's weakened
+two-representation question (research solved, with a `formal_proof` pointer to
+the outside Lean file recorded under Progress and known results). The community
+database records the statement as formalized since 2 September 2026 and no
+formal proof. The corpus has not built any of these files.
 
 ## Current assessment
 

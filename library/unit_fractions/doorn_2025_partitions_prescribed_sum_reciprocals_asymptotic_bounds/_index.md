@@ -35,7 +35,7 @@ bounds. arXiv:2502.02200 (2025).
 
 The copy read for this card is arXiv:2502.02200v2 (23 July 2025; v1 4 February
 2025), 12 pages; the
-arXiv listing read carries no journal reference and no
+arXiv listing read on 2026-09-18 carried no journal reference and no
 journal record was found,
 so the paper is an author preprint. Read status: claims checked. The
 definitions of Section 1 (p. 1) and the statements of Theorems 1 (p. 2),

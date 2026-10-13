@@ -107,7 +107,7 @@ into a common large prime, so that additional simultaneous-divisibility input
 would be required for E0699.
 
 The journal record is J. London Math. Soc. s1-9 (1934), no. 4, 282--288,
-DOI 10.1112/jlms/s1-9.4.282 (Crossref). The copy read for
+DOI 10.1112/jlms/s1-9.4.282 (Crossref, read 2026-09-18). The copy read for
 this card is a seven-page scan of the offprint ("Extracted from the
 Journal of the London Mathematical Society, Vol. 9, Part 4"; printed
 pp. 282--288 = PDF pp. 1--7) whose text layer garbles the displays, so the

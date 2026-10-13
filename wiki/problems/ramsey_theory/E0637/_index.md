@@ -119,7 +119,7 @@ indicator reads "No".
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-18).** The statement
 above; PROVED; no last-edited date shown. The commentary attributes the
 problem to Erdős, Faudree and Sós, credits the proof to Bukh and Sudakov
 [BuSu07], and records the later theorem of Jenssen, Keevash, Long and

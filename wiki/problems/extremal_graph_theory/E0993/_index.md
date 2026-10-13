@@ -82,21 +82,21 @@ refutes it, and the sequence of a given forest is a finite computation. The
 label says nothing about whether such a forest exists, and the problem's
 standing is derived from the claim pages, not from the label.
 
-**Claims on the site.** Two claims, recorded on their
-claim pages and summarized in the Status paragraph. The partial claim
-of Fang, Lu, Nevo, Yao and Zheng
+**Claims on the site.** On 2026-10-06 the site carried two claims, recorded on
+their claim pages and summarized in the Status paragraph. The partial claim of
+Fang, Lu, Nevo, Yao and Zheng
 ([[problems/extremal_graph_theory/E0993/claims/2026_09_17_fang_lu_nevo_yao_zheng|claim page]])
 reaches every forest above an existential threshold and leaves the small
 forests, and so the conjecture itself, open; the full claim of Zhang and Li
 ([[problems/extremal_graph_theory/E0993/claims/2026_09_27_zhang_li|claim page]])
-covers every forest, in a manuscript whose authors said on 6 October 2026
-that they intend a shorter version. Neither has a referee or a named
-reviewer, and this corpus has built or reviewed none of their Lean
-developments; the Palomar registry's kernel replay of the registered
-formalization of the Zhang–Li revision (11 October 2026) is neither a build
-by this corpus nor a review. The developments are described as their READMEs
-and the registry's record state them. The site labeled the problem
-FALSIFIABLE (2026-10-06), and the page adopts neither claim.
+covers every forest, in a manuscript whose authors said on 6 October 2026 that
+they intend a shorter version. Neither has a referee or a named reviewer, and
+this corpus has built or reviewed none of their Lean developments; the Palomar
+registry's kernel replay of the registered formalization of the Zhang–Li
+revision (11 October 2026) is neither a build by this corpus nor a review. The
+developments are described as their READMEs and the registry's record state
+them. The site labeled the problem FALSIFIABLE (2026-10-06), and the page adopts
+neither claim.
 
 ## Known Results
 

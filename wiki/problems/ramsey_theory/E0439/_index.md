@@ -84,7 +84,7 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 
 - [KhSz06] Khalfalah, A. and Szemerédi, E., On the number of monochromatic
   solutions of $x+y=z^2$. Combin. Probab. Comput. 15 (2006), no. 1--2,
-  213--227; DOI 10.1017/S0963548305007169 (Crossref record).
+  213--227; DOI 10.1017/S0963548305007169 (Crossref record read 2026-09-18).
   Closed access, not held; the abstract is quoted below.
 - [ESS89] Erdős, P., Sárközy, A. and Sós, V. T., On a conjecture of Roth
   and some related problems. I. In Irregularities of Partitions, Springer
@@ -116,7 +116,7 @@ thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   (the card carries the row for this problem).
 - [Sa20] Sanders, T., On monochromatic solutions to $x-y=z^2$. Acta Math.
   Hungar. 161 (2020), no. 2, 550--556; DOI 10.1007/s10474-020-01079-6;
-  arXiv:2008.07297v1 (Crossref and arXiv records). Its
+  arXiv:2008.07297v1 (Crossref and arXiv records read 2026-09-18). Its
   introduction (p. 1 of the arXiv version) restates the Khalfalah--Szemerédi
   theorem for squares with distinct $x$, $y$. Library home:
   [[../library/ramsey_theory/sanders_2020_monochromatic_solutions_x_minus_y_z_squared/_index|sanders_2020_monochromatic_solutions_x_minus_y_z_squared]].

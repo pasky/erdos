@@ -123,7 +123,7 @@ Erdős Problem #689, https://www.erdosproblems.com/689, accessed 2026-09-18.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/689.lean`](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/689.lean)
-of formal-conjectures (the commit the link pins) declares
+of formal-conjectures (the commit the link pins, main on 2026-10-07) declares
 `erdos_689 : answer(sorry) ↔ ∀ᶠ n in .atTop, ∃ a : ℕ → ℕ, ∀ m ∈ Finset.Icc 1 n, 2 ≤ (Finset.Icc 1 n |>.filter fun p => p.Prime ∧ a p ≡ m [MOD p]).card`
 under `category research open`, with proof `sorry`, no variant and no
 `formal_proof` attribute, the declaration unchanged since 2026-09-18; its

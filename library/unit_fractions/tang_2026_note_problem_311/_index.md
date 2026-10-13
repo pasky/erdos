@@ -39,8 +39,8 @@ version-2 file. Its text layer drops the display-size absolute-value bars
 (Definition 2.2 and display (4.1)), so the statements below were checked on
 the page images. Provenance: retrieved (the
 repository's survey download set) from the GitHub repository above;
-379,583 bytes. The copy fetched from the repository's head commit
-`3378153d` (2026-01-15T03:34:48Z) has the same SHA-256, so the copy read is the
+379,583 bytes. The copy fetched on 2026-09-18 from the repository's head commit
+`3378153d` (2026-01-15T03:34:48Z) has the same SHA-256, so the copy read was the
 current one. The repository also holds the first version,
 `On_Erdős_Problem_311.pdf` (uploaded 12 January 2026), whose bound carries
 $(\log\log N)^4$ in place of $(\log\log N)^3$ according to the author's

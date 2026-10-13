@@ -43,10 +43,10 @@ Hunter's improvement of Green's.
 Source: <https://arxiv.org/abs/2111.01099>.
 
 The copy read for this card is the arXiv v3 of 21 August 2022 (24 pages,
-dated "August 23, 2022"; the arXiv listing read shows v1 of 1
+dated "August 23, 2022"; the arXiv listing read 2026-09-18 shows v1 of 1
 November 2021, v2 of 20 March 2022 and v3), not the Combinatorica version
 (42 (2022), suppl. 2, 1231--1252, DOI 10.1007/s00493-022-4925-2 per the
-Crossref record read); locators are preprint pages and the
+Crossref record read 2026-09-18); locators are preprint pages and the
 journal pagination is not used. The paper's convention is a blue 3-term or
 a red k-term progression; the site's Problem 721 exchanges the colors. Read
 status: claims checked for Theorem 1, Remark 1.1, the definitions and

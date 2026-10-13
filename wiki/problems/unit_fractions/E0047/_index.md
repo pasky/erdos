@@ -134,7 +134,7 @@ is below $\delta\log N$ once $N\ge N_0(\delta)$, so $R(A)>\delta\log N$
 implies the hypothesis and the question has the answer yes. Acceptance: the
 paper appeared in J. Eur. Math. Soc. 27 (2025), 4563--4589 (submitted 1
 February 2022, accepted 11 October 2023, online 11 July 2024, per the
-publisher's record), and its Appendix B reports a
+publisher's record of 2026-09-17), and its Appendix B reports a
 complete formal verification of the main results with Mehta. The library
 holds a complete rewritten proof of Theorem 3 through the explicit
 constant-$8$ variant of its Proposition 1 used by that formalization; the
@@ -146,8 +146,8 @@ for every $\varepsilon>0$ and $N$ large in terms of $\varepsilon$,
 $R(A)\ge(\log N)^{4/5+\varepsilon}$ forces a unit subsum. The paper
 appeared in Int. Math. Res. Not. 2026, no. 2, rnaf382 (received 28 October
 2025, accepted 23 December 2025, online 14 January 2026, per the publisher's
-record); the published text has not been compared, so the locators are v1
-locators. The rewritten proof in the library uses
+record of 2026-09-17); the published text has not been compared, so the
+locators are v1 locators. The rewritten proof in the library uses
 explicitly corrected forms of two of the paper's lemmas, recorded on its
 pages as compilation corrections, not as author errata.
 

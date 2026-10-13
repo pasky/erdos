@@ -74,7 +74,7 @@ corpus has not built or audited it.
 
 ## Current assessment
 
-The site's formulation asks whether every planar graph
+The site's formulation (accessed 2026-09-04) asks whether every planar graph
 has list chromatic number at most $5$ and whether $5$ is best possible. Both
 answers are yes.
 [[problems/graph_coloring/E0631/claims/1994_09_01_thomassen|Thomassen 1994]]

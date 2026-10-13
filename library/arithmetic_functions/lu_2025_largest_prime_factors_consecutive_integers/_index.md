@@ -22,8 +22,9 @@ for the reverse ordering, so that each ordering has lower density at least
 
 X. Lü and Z. Wang, *On the largest prime factors of consecutive integers*,
 Monatsh. Math. 206 (2025), no. 2, 403--418, doi:10.1007/s00605-024-02036-z
-(online 6 November 2024; volume, issue and DOI from the Crossref record).
-Preprint: HAL hal-01797939, v1 submitted 23 May 2018, v2 revised 19 August 2025.
+(online 6 November 2024; volume, issue and DOI from the Crossref record, read
+2026-10-07). Preprint: HAL hal-01797939, v1 submitted 23 May 2018, v2 revised
+19 August 2025.
 
 The copy read for this card is the HAL v1 preprint: a HAL cover sheet (physical PDF p. 1) followed by
 the thirteen-page manuscript dated January 31, 2018 (manuscript p. $n$ is

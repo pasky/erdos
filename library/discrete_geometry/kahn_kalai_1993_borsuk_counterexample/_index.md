@@ -54,7 +54,7 @@ the AMS's PDF of the published article, reached through the DOI and read; that P
 arXiv record carries no license field, so arXiv's assumed license applies
 (arXiv:math/9307229), every other right reserved.
 
-Source identity and the arXiv record were checked.
+Source identity and the arXiv record were checked on 2026-09-06.
 
 ## Digest
 

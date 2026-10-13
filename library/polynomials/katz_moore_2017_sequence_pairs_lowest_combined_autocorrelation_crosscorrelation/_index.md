@@ -52,7 +52,7 @@ reserved.
 Daniel J. Katz, Eli Moore, "Sequence Pairs with Lowest Combined Autocorrelation
 and Crosscorrelation," arXiv:1711.02229 (2017); published as IEEE Trans.
 Inform. Theory 68 (2022), no. 12, 8251–8267,
-https://doi.org/10.1109/TIT.2022.3187923 (Crossref record read).
+https://doi.org/10.1109/TIT.2022.3187923 (Crossref record read on 2026-10-07).
 
 **Bears on.**
 

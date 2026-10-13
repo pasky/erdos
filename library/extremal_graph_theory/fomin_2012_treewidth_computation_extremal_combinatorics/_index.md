@@ -42,21 +42,20 @@ Fomin, Fedor V. and Villanger, Yngve, Treewidth computation and extremal
 combinatorics. Combinatorica 32 (2012), no. 3, 289--308.
 
 **Edition read.** The journal version is Combinatorica 32 (2012),
-no. 3, 289--308, DOI 10.1007/s00493-012-2536-z (Crossref record read; a conference version appeared in Lecture Notes in Computer
-Science (2008), 210--221). The copy read for this card is the arXiv
-preprint arXiv:0803.1321v2 (5 May 2008), 14 pages, an
-extended-abstract text (p. 8: "The proof of the following lemma is
-postponed till the full version of this paper"), so the locators below are
-the preprint's and the journal text was not compared. Read status: claims checked, on the page images, for the definitions of
-minimal separators, full components and potential maximal cliques
-(Section 2, p. 3), for the Main Lemma (Lemma 1, p. 4) with its proof (p. 5),
-for Theorem 1 (p. 6) with its proof (pp. 6--7) read and followed, and for
-Theorems 2 to 5 (pp. 8, 8, 10, 11) with their supporting lemmas read in
-outline; each is paged below. Theorem 3 rests on Lemma 6 (p. 8), whose
-proof the preprint postpones, so this edition does not prove it in full.
-The arXiv record names arXiv's
-non-exclusive distribution license (arXiv:0803.1321), every other right
-reserved.
+no. 3, 289--308, DOI 10.1007/s00493-012-2536-z (Crossref record read 2026-09-19;
+a conference version appeared in Lecture Notes in Computer Science (2008),
+210--221). The copy read for this card is the arXiv preprint arXiv:0803.1321v2
+(5 May 2008), 14 pages, an extended-abstract text (p. 8: "The proof of the
+following lemma is postponed till the full version of this paper"), so the
+locators below are the preprint's and the journal text was not compared. Read
+status: claims checked, on the page images, for the definitions of minimal
+separators, full components and potential maximal cliques (Section 2, p. 3), for
+the Main Lemma (Lemma 1, p. 4) with its proof (p. 5), for Theorem 1 (p. 6) with
+its proof (pp. 6--7) read and followed, and for Theorems 2 to 5 (pp. 8, 8, 10,
+11) with their supporting lemmas read in outline; each is paged below. Theorem 3
+rests on Lemma 6 (p. 8), whose proof the preprint postpones, so this edition
+does not prove it in full. The arXiv record names arXiv's non-exclusive
+distribution license (arXiv:0803.1321), every other right reserved.
 
 The paper proves a combinatorial lemma: for a graph G and integers b, f >= 0,
 the number of vertex subsets S of size b+1 that induce a connected subgraph and

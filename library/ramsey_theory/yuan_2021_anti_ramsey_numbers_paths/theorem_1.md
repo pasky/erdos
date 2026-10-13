@@ -46,7 +46,8 @@ title; the arXiv listing gives "Anti-Ramsey numbers for paths"),
 arXiv:2102.00807v3 (9 February 2021; v1 1 February 2021), ten pages;
 Theorem 1 and the introduction on p. 1 (page image), Section 2 on p. 2
 (text layer). A preprint: the arXiv listing carries no journal reference,
-and a Crossref bibliographic query found no journal record (both read). The artifact is identified in the
+and a Crossref bibliographic query found no journal record (both read
+2026-09-18). The artifact is identified in the
 [[ramsey_theory/yuan_2021_anti_ramsey_numbers_paths/_index|source digest]].
 
 **Read depth.** Claims checked: the definitions, the statement, the two

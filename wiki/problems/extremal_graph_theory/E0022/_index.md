@@ -105,8 +105,9 @@ https://www.erdosproblems.com/22, accessed 2026-09-18.
   'Some of my favourite unsolved problems'".
 - [Cs25] Csaba, B., On the Ramsey-Turán problem for 4-cliques.
   arXiv:2503.00644v1 (1 March 2025), 12 pp.; SIAM J. Discrete Math. 39
-  (2025), no. 2, 1201--1212, doi:10.1137/23M1619794 (Crossref record read; the journal text is not held). Theorem 1.3, p. 2 of the
-  preprint. Context on the critical window; the preprint is filed as
+  (2025), no. 2, 1201--1212, doi:10.1137/23M1619794 (Crossref record read
+  2026-09-18; the journal text is not held). Theorem 1.3, p. 2 of the preprint.
+  Context on the critical window; the preprint is filed as
   [[../library/extremal_graph_theory/csaba_2025_ramsey_turan_problem_4_cliques/_index|csaba_2025_ramsey_turan_problem_4_cliques]].
 
 **Formalization.** The site's "(LEAN)" suffix is a catalog label. The file

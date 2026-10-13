@@ -54,7 +54,8 @@ distribution license (arXiv:1602.01750), every other right reserved.
 
 Christian Günther, Kai-Uwe Schmidt, "$L^q$ norms of Fekete and related
 polynomials," arXiv:1602.01750 (2016); published in Canad. J. Math. 69 (2017),
-no. 4, 807–825, https://doi.org/10.4153/CJM-2016-023-4 (Crossref record read).
+no. 4, 807–825, https://doi.org/10.4153/CJM-2016-023-4 (Crossref record read
+on 2026-10-07).
 
 **Bears on.**
 

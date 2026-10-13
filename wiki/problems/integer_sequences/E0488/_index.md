@@ -147,7 +147,7 @@ Bloom, Erdős Problem #488, https://www.erdosproblems.com/488, accessed
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/488.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/488.lean)
-of formal-conjectures, pinned to the commit fetched (then the
+of formal-conjectures, pinned to the commit fetched 2026-09-18 (then the
 head of main), declares
 `erdos_488 : answer(sorry) ↔ ∀ (A : Finset ℕ), A.Nonempty → 0 ∉ A → 1 ∉ A → letI B := {n ≥ 1 | ∃ a ∈ A, a ∣ n} ∀ᵉ (n : ℕ) (m > n), A.max ≤ n → ((Finset.Icc 1 m).filter (· ∈ B)).card / (m : ℚ) < 2 * ((Finset.Icc 1 n).filter (· ∈ B)).card / n`
 under `category research open`, with proof `sorry`; the hypotheses

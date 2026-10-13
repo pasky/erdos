@@ -19,7 +19,7 @@ p. 4 and in the text layer of pp. 1--6 and 19, and on the page images of pp.
 1--23. The arXiv journal reference points to Z. Li and Q. Tang, *Generalizing a
 conjecture of Erdős and Graham via best Egyptian underapproximations*, Acta
 Math. Hungar. 177 (2025), no. 1, 41--63, DOI 10.1007/s10474-025-01566-8,
-published online 13 October 2025 (the Crossref record), a
+published online 13 October 2025 (the Crossref record, read 2026-09-18), a
 separate paper on the conditional generalization that cites this preprint
 as its own reference item (see the source card); the published text was
 not compared, and the labels here are the preprint's.

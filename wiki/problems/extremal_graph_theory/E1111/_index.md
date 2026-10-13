@@ -96,7 +96,7 @@ Problem #1111, https://www.erdosproblems.com/1111, accessed 2026-09-18.
 
 - [ElEr85] El-Zahar, M. and Erdős, P., On the existence of two
   non-neighboring subgraphs in a graph. Combinatorica 5 (1985), no. 4,
-  295--300, doi:10.1007/BF02579243 (Crossref record read;
+  295--300, doi:10.1007/BF02579243 (Crossref record read 2026-09-18;
   received 13 October 1984, revised 15 January 1985). The question and the
   reduction, p. 295; Wagon's bound, the small values, Theorems 1--2, p. 296;
   the Mycielski remark and Corollary 3, p. 297. Library home:
@@ -118,8 +118,8 @@ Problem #1111, https://www.erdosproblems.com/1111, accessed 2026-09-18.
   [[../library/graph_coloring/erdos_1985_problems_results_chromatic_numbers_finite_infinite_graphs/problem_p206|problem_p206]].
 - [Wa80b] Wagon, S., A bound on the chromatic number of graphs without
   certain induced subgraphs. J. Combin. Theory Ser. B 29 (1980), no. 3,
-  345--346, doi:10.1016/0095-8956(80)90093-3 (the Crossref record
-  carries the publisher's open-archive license dated
+  345--346, doi:10.1016/0095-8956(80)90093-3 (the Crossref record, read
+  2026-09-18, carries the publisher's open-archive license dated
   2013-07-17); the publisher's open-archive file has 2 pages, printed
   pp. 345--346 = PDF pp. 1--2. The Theorem and its proof, p. 345, the proof
   ending on p. 346; the sharpness remarks, the $n\cdot K_2$ generalization

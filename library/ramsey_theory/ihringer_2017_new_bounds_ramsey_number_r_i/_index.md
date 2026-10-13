@@ -33,7 +33,7 @@ Problem 112, k(n,m) ≤ 2^{17m} n^{m−1} / (log_2 n)^{m−2}.
 
 Ferdinand Ihringer, Deepak Rajendraprasad and Thilo Weinert, *New bounds on
 the Ramsey number $r(I_m,L_n)$*, Discrete Math. 344 (2021), no. 3, 112268,
-DOI 10.1016/j.disc.2020.112268 (Crossref record read);
+DOI 10.1016/j.disc.2020.112268 (Crossref record read 2026-09-18);
 arXiv:1707.09556 (v1 29 July 2017; v3 8 April 2020, "incorporated many
 reviewer's comments").
 

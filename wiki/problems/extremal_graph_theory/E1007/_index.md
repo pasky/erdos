@@ -94,14 +94,14 @@ and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 - [ChNo16] Chaffee, Joe and Noble, Matt, Dimension 4 and dimension 5 graphs with
   minimum edge set. Australas. J. Combin. 64 (2016), no. 2, 327--333 (received
   14 January 2015, revised 19 July and 27 October 2015; the journal's volume
-  listing carries the article). Library home:
+  listing carried the article on 2026-09-18). Library home:
   [[../library/extremal_graph_theory/chaffee_2016_dimension_4_dimension_5_graphs_minimum/_index|chaffee_2016_dimension_4_dimension_5_graphs_minimum]].
   Lemma 3 and Theorem 6, p. 328; Theorem 7, p. 329; Theorems 10 and 11, pp.
   330--331.
 - [Ho13] House, Roger F., A 4-dimensional graph has at least 9 edges. Discrete
   Math. 313 (2013), no. 18, 1783--1789, doi:10.1016/j.disc.2013.05.005 (a Note;
   received 12 November 2012, accepted 9 May 2013, available online 4 June 2013,
-  per p. 1783; Crossref record; published September 2013; the record
+  per p. 1783; Crossref record, 2026-09-18; published September 2013; the record
   carries the publisher's open-access user license dated 28 September 2017, the
   open archive). Definition 1, Problem 2 and the answer, p. 1783; Proposition 9
   and the 43 candidate graphs, p. 1786; the closing statement, p. 1789 (in the
@@ -217,7 +217,7 @@ $K_{3,3}$ shows the minimum is attained; and
 ("The only dimension 4 graph with nine edges is $K_{3,3}$", for graphs without
 isolated vertices, as its proof's second sentence shows). Acceptance evidence:
 publication in a refereed journal (received 14 January 2015, revised twice,
-published in volume 64(2) of 2016; the journal's volume listing),
+published in volume 64(2) of 2016; the journal's volume listing, 2026-09-18),
 the site's label and commentary, and the external Lean proof described above,
 which is not built here. Read depth: claims checked for the three statements;
 the proof of Theorem 6 was followed but is not verified: [EHT65], the source

@@ -141,7 +141,7 @@ stronger conclusion, width $\sim k$, in its introduction "for infinitely many
 $k$" (p. 100), which rests on the construction using all but a vanishing
 proportion of the integers of the interval and has not been checked beyond the
 statement. Acceptance evidence: publication in Acta Arithmetica, a refereed
-journal (Crossref record for DOI 10.4064/aa99-2-1), and
+journal (Crossref record for DOI 10.4064/aa99-2-1, accessed 2026-09-18), and
 the site's acceptance. Proof coverage: the proof's structure is recorded from
 the preprint; it has not been verified, and the published proof has not been
 compared with the preprint's.

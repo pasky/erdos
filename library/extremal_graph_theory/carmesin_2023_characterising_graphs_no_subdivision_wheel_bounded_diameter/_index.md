@@ -27,7 +27,7 @@ hypothesis n at least 3 that the restatement omits.
 J. Carmesin, *Characterising graphs with no subdivision of a wheel of
 bounded diameter*, J. Combin. Theory Ser. B **161** (2023), 21--51; DOI
 [10.1016/j.jctb.2023.01.004](https://doi.org/10.1016/j.jctb.2023.01.004)
-(the Crossref record, gives volume 161, pp. 21--51, July
+(the Crossref record, read 2026-09-19, gives volume 161, pp. 21--51, July
 2023); received 20 November 2020; the article's first page says "This is an
 open access article under the CC BY license". Not a site key: the site's
 keys for Problem 916 are the 1967 seminar paper (Er67b), Dirac 1960 (Di60)

@@ -52,9 +52,9 @@ https://www.erdosproblems.com/744.
 
 **Formalization.** None. No file `ErdosProblems/744.lean` exists in
 google-deepmind/formal-conjectures at commit 0f7216d; the community database
-(teorth/erdosproblems, `data/problems.yaml`) lists the problem as not
-formalized, with formal status unformalized, as of its last update, 31 August
-2025.
+(teorth/erdosproblems, `data/problems.yaml`, read 2026-10-07) lists the problem
+as not formalized, with formal status unformalized, as of its last update, 31
+August 2025.
 
 ## Current assessment
 
@@ -79,7 +79,8 @@ $f_3(n)=1$, and the earlier upper bounds were Gallai's $f_4(n)\ll n^{1/2}$
 
 Search scope: the site's problem page and discussion thread and the
 Crossref record of the Rödl–Tuza paper. That paper is not held in the library;
-the exact value and the range of $n$ follow the site's record.
+the exact value and the range of $n$ follow the site's record (accessed
+2026-09-04).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

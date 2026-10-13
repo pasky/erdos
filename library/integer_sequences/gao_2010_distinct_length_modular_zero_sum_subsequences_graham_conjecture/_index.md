@@ -24,7 +24,7 @@ Problem 541's statement.
 W. Gao, Y. O. Hamidoune and G. Wang, *Distinct length modular zero-sum
 subsequences: a proof of Graham's conjecture*, J. Number Theory **130**
 (2010), no. 6, 1425--1431; DOI 10.1016/j.jnt.2009.11.012 (journal data
-from Crossref; the problem page's entry gives the journal,
+from Crossref, read 2026-09-17; the problem page's entry gives the journal,
 year and pages).
 
 The copy read for this card

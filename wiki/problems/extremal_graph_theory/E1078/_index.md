@@ -96,7 +96,7 @@ https://www.erdosproblems.com/1078, accessed 2026-09-18.
 
 - [BES75b] Bollobás, B., Erdős, P. and Szemerédi, E., On complete subgraphs
   of $r$-chromatic graphs. Discrete Math. 13 (1975), no. 2, 97--107,
-  doi:10.1016/0012-365X(75)90011-4 (Crossref record read; received
+  doi:10.1016/0012-365X(75)90011-4 (Crossref record read 2026-09-18; received
   7 November 1974). The abstract, p. 97; the Oxford conjecture, $f_r(n)$, the
   bounds on $c_r$ and the conjecture, p. 98; the constructions $F_4(n)$ and
   $F_r(n)$, pp. 104--105; Theorem 3.1 and Corollary 3.2, p. 105; Theorem 3.3,
@@ -110,11 +110,11 @@ https://www.erdosproblems.com/1078, accessed 2026-09-18.
   Comput. 10 (2001), no. 4, 345--347, doi:10.1017/S0963548301004758 (Crossref
   record read; published July 2001, online 2 October 2001 per the
   publisher's page). Not held: the DOI resolves to the publisher's article
-  page, which offers the article behind access and shows its abstract; no
-  open copy was located.
+  page, which offers the article behind access and shows its abstract
+  (accessed 2026-09-18); no open copy was located.
 - [HaSz06] Haxell, P. and Szabó, T., Odd independent transversals are odd.
   Combin. Probab. Comput. 15 (2006), no. 1--2, 193--211,
-  doi:10.1017/S0963548305007157 (Crossref record read). Theorem
+  doi:10.1017/S0963548305007157 (Crossref record read 2026-09-18). Theorem
   1.1 and the introduction's history, pp. 1--2 of the authors' preprint;
   Theorem 4.1, p. 14. Library home:
   [[../library/extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/_index|haxell_2006_odd_independent_transversals_are_odd]]

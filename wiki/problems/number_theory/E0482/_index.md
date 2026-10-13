@@ -91,7 +91,7 @@ Bloom, Erdős Problem #482, https://www.erdosproblems.com/482, accessed
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [GrPo70] Graham, R. L. and Pollak, H. O., Note on a nonlinear recurrence
   related to $\surd 2$. Math. Mag. 43 (1970), no. 3, 143--145,
-  doi:10.1080/0025570X.1970.11976029 (Crossref record).
+  doi:10.1080/0025570X.1970.11976029 (Crossref record accessed 2026-09-18).
   The Theorem and the announced identity, p. 143; the reduction to the
   shifted recurrence, p. 144; the concise closed form, the identity's
   derivation and the closing question, p. 145. Library home:
@@ -103,7 +103,7 @@ Bloom, Erdős Problem #482, https://www.erdosproblems.com/482, accessed
   [[../library/number_theory/stoll_2005_families_nonlinear_recurrences_related_digits/_index|stoll_2005_families_nonlinear_recurrences_related_digits]].
 - [St06] Stoll, Thomas, On a problem of Erdős and Graham concerning digits.
   Acta Arith. 125 (2006), no. 1, 89--100, doi:10.4064/aa125-1-8 (received 16
-  March 2006; Crossref record). Fact 1, p. 89; Theorem
+  March 2006; Crossref record accessed 2026-09-18). Fact 1, p. 89; Theorem
   3.1, p. 92; Theorems 3.3--3.4, pp. 93--94; Corollary 3.5, p. 94. Library
   home:
   [[../library/number_theory/stoll_2006_problem_erdos_graham_concerning_digits/_index|stoll_2006_problem_erdos_graham_concerning_digits]].
@@ -117,9 +117,9 @@ Bloom, Erdős Problem #482, https://www.erdosproblems.com/482, accessed
   doi:10.4169/000298910x496732; arXiv:0902.4168 (submitted 24 February
   2009). Not held.
 - [OEIS] Sloane, N. J. A., Sequence A004539 (the binary expansion of
-  $\sqrt2$), The On-Line Encyclopedia of Integer Sequences (the entry lists
-  the Graham--Pollak note among its links). The Graham--Pollak sequence itself
-  is A001521 (per [St05]).
+  $\sqrt2$), The On-Line Encyclopedia of Integer Sequences (the entry, accessed
+  2026-09-18, lists the Graham--Pollak note among its links). The Graham--Pollak
+  sequence itself is A001521 (per [St05]).
 
 **Formalization.** Statements and third-party proofs; nothing built here.
 The file

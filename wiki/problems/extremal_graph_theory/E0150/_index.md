@@ -165,7 +165,7 @@ variants `erdos_nesetril` (`answer(False) ↔ ∀ m : ℕ, maxMinimalCuts (3 * m
 `seymour`, `lower_bound` ($1.4457\le\alpha$) and `upper_bound`
 ($\alpha\le(1+\sqrt5)/2$) are `research solved` with proof `sorry`. The
 external file at the repository's head commit of 15 September 2026, the
-commit pinned in the claim page's link, has 1,298
+commit pinned in the claim page's link (accessed 2026-09-19), has 1,298
 lines and 65,707 bytes; it is headed
 `leanprover/lean4:v4.29.1 mathlib v4.29.1`, imports `Mathlib`, and carries
 the header block "Informal authors: Domagoj Bradač; Formal authors:

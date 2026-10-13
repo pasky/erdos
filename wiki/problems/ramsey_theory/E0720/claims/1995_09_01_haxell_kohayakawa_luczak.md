@@ -70,7 +70,7 @@ theorem.
 
 **Dating.** The page is dated by the issue month of the journal record
 (Combin. Probab. Comput. 4 (1995), no. 3, September 1995, per the Crossref
-record); the day in the page name is a placeholder.
+record, accessed 2026-10-07); the day in the page name is a placeholder.
 
 **Acceptance.** Refereed: Combin. Probab. Comput. 4 (1995), no. 3, 217--239.
 On 2026-09-18 Semantic Scholar listed roughly 95 citing records, none of them,

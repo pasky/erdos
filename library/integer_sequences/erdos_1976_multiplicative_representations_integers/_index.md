@@ -39,7 +39,7 @@ kl below c_1 x squared times (log log x) to the f(c) over log x.
 
 P. Erdős and A. Szemerédi, *On multiplicative representations of integers*.
 J. Austral. Math. Soc. Ser. A **21** (1976), no. 4, 418--427; DOI
-10.1017/S144678870001925X (Crossref record read); received 1
+10.1017/S144678870001925X (Crossref record read 2026-09-18); received 1
 December 1974; dedicated to George Szekeres on his 65th birthday.
 
 The copy read for this card

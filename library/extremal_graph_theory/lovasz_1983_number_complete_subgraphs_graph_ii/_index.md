@@ -40,7 +40,7 @@ Basel (1983), 459--495; doi:10.1007/978-3-0348-5438-2_41 (Crossref record
 read, which lists the chapter as a book chapter with no issue
 date beyond the year). The sequel to the authors' Aberdeen 1975 paper (Proc.
 Fifth British Combinatorial Conference, Congressus Numerantium XV (1976),
-431--441 per zbMATH, Zbl 0339.05115; the site's key
+431--441 per zbMATH, Zbl 0339.05115, read 2026-10-07; the site's key
 LoSi76, not held), which this chapter cites as its reference [5] with pages
 431--442. Not a reference key of the site; the discussion thread of Problem
 1010 names it as [LoSi83].

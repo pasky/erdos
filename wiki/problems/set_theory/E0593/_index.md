@@ -48,7 +48,7 @@ https://www.erdosproblems.com/593.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-04).** The statement
 above; OPEN. The site's commentary points to Erdős, Galvin and Hajnal
 [EGH75] for related problems and records Erdős's view that the graph case is
 settled: a graph of chromatic number at least $\aleph_1$ contains every

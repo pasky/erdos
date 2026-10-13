@@ -26,10 +26,11 @@ Erdős–Nešetřil conjecture and the value of h_2(D).
 
 F. R. K. Chung, A. Gyárfás, Z. Tuza and W. T. Trotter, *The maximum number of
 edges in $2K_2$-free graphs of bounded degree*, Discrete Math. 81 (1990), no. 2,
-129--135; DOI 10.1016/0012-365X(90)90144-7 (Crossref record read); received 19
-May 1987, revised 5 April 1988. The site's key CGTT90 on Problems 149 and 934
-prints "Discrete Math. (1990), 129--135" without the volume; Trotter's
-publication list titles it "The maximal number of edges in 2K_2-free graphs".
+129--135; DOI 10.1016/0012-365X(90)90144-7 (Crossref record read 2026-09-19);
+received 19 May 1987, revised 5 April 1988. The site's key CGTT90 on Problems
+149 and 934 prints "Discrete Math. (1990), 129--135" without the volume;
+Trotter's publication list titles it "The maximal number of edges in 2K_2-free
+graphs".
 
 **Edition read.** The copy read for this card is the author's copy from W. T.
 Trotter's publication page, item 69 of the list at <https://trotter.math.gatech.edu/papers/epubs.html>: a 7-page scan

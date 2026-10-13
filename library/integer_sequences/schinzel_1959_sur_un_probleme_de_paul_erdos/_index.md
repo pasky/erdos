@@ -34,7 +34,7 @@ Schinzel, A. and Szekeres, G., Sur un problème de M. Paul Erdős. Acta
 Sci. Math. (Szeged) (1959), 221-229.
 
 The paper is Acta Scientiarum Mathematicarum (Szeged) 20 (1959), 221--229
-(the Szeged repository record at the source URL; the paper
+(the Szeged repository record at the source URL, read 2026-09-18; the paper
 is dated "Reçu le 17 janvier 1959" on p. 229). The repository's PDF is a
 9-page scan of printed pp. 221--229, PDF p. $n$ being printed p. $220+n$,
 with a thin text layer; every statement below was read on the page images. Read status: claims checked for condition

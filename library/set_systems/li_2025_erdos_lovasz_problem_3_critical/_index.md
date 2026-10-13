@@ -96,7 +96,7 @@ verdicts are unaffected.
 copy read for this card is the complete
 arXiv v1 manuscript, 398459 bytes. Its metadata and all 16 rendered pages were
 checked directly. The arXiv record listed only v1 and no journal reference when
-checked. Searches by exact title, arXiv identifier, and
+checked on 2026-09-05 UTC. Searches by exact title, arXiv identifier, and
 theorem topic did not locate a later version, a publisher record, a later
 strengthening, or a materially different accepted proof. The Erdős Problems page
 adopted [Li25] as resolving the problem on 1 January 2026, but no peer-reviewed

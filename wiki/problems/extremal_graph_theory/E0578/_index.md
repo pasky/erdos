@@ -46,16 +46,17 @@ problem as proved. The claim page
 records the result as accepted on the refereed venue and the site's acceptance,
 and the frontmatter standing is derived from it. The paper is Combin. Probab.
 Comput. 9 (2000), no. 2, 125--148 (refereed). Its abstract, as deposited in the
-publisher's Crossref record, states that for a random graph $G_p$ on $2^d$
-vertices with edges selected independently with a fixed probability $p>1/4$, "as
-$d\to\infty$, $G_p$ almost surely has a spanning subgraph isomorphic to" the
-$d$-dimensional hypercube $Q_d$, answering a question of Bollobás. The article's
-text is not held (routes below). The theorem's number and page, its exact
-quantifiers and its proof were not read. This page rests on an abstract
-identified as such and on the site's acceptance. No source read here attests
-Riordan's theorem itself. Chung's survey, written before it, attests the
-conjecture and the earlier partial result of Alon and Füredi (edge density above
-$1/2$). The label is kept on that evidence, named for what it is.
+publisher's Crossref record (accessed 2026-09-18), states that for a random
+graph $G_p$ on $2^d$ vertices with edges selected independently with a fixed
+probability $p>1/4$, "as $d\to\infty$, $G_p$ almost surely has a spanning
+subgraph isomorphic to" the $d$-dimensional hypercube $Q_d$, answering a
+question of Bollobás. The article's text is not held (routes below). The
+theorem's number and page, its exact quantifiers and its proof were not read.
+This page rests on an abstract identified as such and on the site's acceptance.
+No source read here attests Riordan's theorem itself. Chung's survey, written
+before it, attests the conjecture and the earlier partial result of Alon and
+Füredi (edge density above $1/2$). The label is kept on that evidence, named for
+what it is.
 
 **Source.** [erdosproblems.com/578](https://www.erdosproblems.com/578),
 accessed 2026-09-18: the problem page (PROVED; no last-edited date), its
@@ -69,7 +70,7 @@ accessed 2026-09-18.
 
 - [Ri00] Riordan, Oliver, Spanning subgraphs of random graphs. Combin.
   Probab. Comput. 9 (2000), no. 2, 125--148; doi:10.1017/S0963548399004150
-  (published March 2000; Crossref record read, carrying the
+  (published March 2000; Crossref record read 2026-09-18, carrying the
   publisher's abstract quoted below). Not held: the article is behind a
   subscription and no preprint was found in the search; the
   publisher's abstract is the only text of the paper read.
@@ -87,19 +88,19 @@ accessed 2026-09-18.
   partial result for edge density above $1/2$, quoted from [Ch97].
 
 **Formalization.** No formal-conjectures statement: no file
-`ErdosProblems/578.lean` exists in formal-conjectures (main; the directory
-listing and the recursive tree were checked); the site's page shows the
-statement as not formalized, and the community database (teorth/erdosproblems,
-`data/problems.yaml`) records the problem as proved (last update 31
-August 2025), not formalized, no formal proof. Outside formal-conjectures, Boris
-Alexeev's public lean-proofs repository holds a Lean 4 development
-`Erdos578.lean`, added on 2026-08-17, that declares itself a formalization of a
-solution to this problem, names Riordan as its informal author and Codex and
-GPT-5.6 Sol as its formal authors; its theorem `erdos_578` states that the
-probability that the uniform random graph on $2^d$ labelled vertices contains a
-spanning $d$-cube tends to $1$, the $p=1/2$ statement. The claim page links it
-at a pinned revision; the corpus has not built or audited it, so it gives no
-`formalized` evidence.
+`ErdosProblems/578.lean` exists in formal-conjectures (main, fetched 2026-09-18;
+the directory listing and the recursive tree were checked); the site's page
+shows the statement as not formalized, and the community database
+(teorth/erdosproblems, `data/problems.yaml`) records the problem as proved (last
+update 31 August 2025), not formalized, no formal proof. Outside
+formal-conjectures, Boris Alexeev's public lean-proofs repository holds a Lean 4
+development `Erdos578.lean`, added on 2026-08-17, that declares itself a
+formalization of a solution to this problem, names Riordan as its informal
+author and Codex and GPT-5.6 Sol as its formal authors; its theorem `erdos_578`
+states that the probability that the uniform random graph on $2^d$ labelled
+vertices contains a spanning $d$-cube tends to $1$, the $p=1/2$ statement. The
+claim page links it at a pinned revision; the corpus has not built or audited
+it, so it gives no `formalized` evidence.
 
 ## Current assessment
 

@@ -33,7 +33,7 @@ $2p^2$ or $4p$, for a prime $p$, contains a cycle whose length is a power of
 $2$. The result is Mohsen Ghasemi and Rezvan Varmazyar, *On the
 Erdős--Gyárfás conjecture for some Cayley graphs*, Mat. Vesnik **73** (2021),
 no. 1, 37--42. The page name carries the publication year; the day is not
-recorded in any source read. Read depth: the zbMATH record
+recorded in any source read. Read depth (2026-10-07): the zbMATH record
 (Zbl 1474.05221) and its summary; the paper's text was not read. The thread
 comment of 6 December 2025 that the site's remark on
 [[problems/extremal_graph_theory/E0064/_index|Problem 64]] points to lists

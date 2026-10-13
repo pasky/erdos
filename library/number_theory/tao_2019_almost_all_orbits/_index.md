@@ -32,14 +32,13 @@ Collatz orbits of all positive N up to x.
 
 Terence Tao, *Almost All Orbits of the Collatz Map Attain Almost Bounded
 Values*, Forum Math. Pi **10** (2022), Paper No. e12, 56 pp.; DOI
-10.1017/fmp.2022.8 (published online 20 May 2022; the Crossref record). The copy
-read for this card is arXiv:1909.03562v7 [math.PR] (16 July 2026), 58 pages with
-a complete text layer; the arXiv record carries the journal reference above. The
-journal text was not compared; the locators below are the preprint's. The
-statement pages were read on the rendered page images of pp. 1--4 and 13--18.
-Source: PDF.
-The arXiv record names arXiv's non-exclusive distribution license
-(arXiv:1909.03562), every other right reserved.
+10.1017/fmp.2022.8 (published online 20 May 2022; the Crossref record, read
+2026-09-18). The copy read for this card is arXiv:1909.03562v7 [math.PR] (16
+July 2026), 58 pages with a complete text layer; the arXiv record carries the
+journal reference above. The journal text was not compared; the locators below
+are the preprint's. The statement pages were read on the rendered page images of
+pp. 1--4 and 13--18. Source: PDF. The arXiv record names arXiv's non-exclusive
+distribution license (arXiv:1909.03562), every other right reserved.
 
 Read status: claims checked for the abstract, Conjecture 1.1, the partial
 results paragraph, Theorem 1.3, Remark 1.4 and the Section 1.2 remark on

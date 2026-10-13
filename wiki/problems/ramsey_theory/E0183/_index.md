@@ -30,8 +30,8 @@ $$
 $$
 
 **Status.** Solved: the limit is $+\infty$. The site labeled the problem SOLVED
-(LEAN), and its page was last edited 1 September 2026. Its commentary credits
-the proof to an internal model at OpenAI, in the form
+(LEAN), and its page was last edited 1 September 2026. Its commentary (accessed
+2026-10-07) credits the proof to an internal model at OpenAI, in the form
 $R(3;k)\ge k^{(1/3-o(1))k}$ for all $k\ge2$. The site also hosts Rob Morris's
 seven-page exposition of the construction under its proof expositions. The
 source is OpenAI's August 6, 2026 version of
@@ -66,7 +66,7 @@ Cite as: T. F. Bloom, Erdős Problem #183, https://www.erdosproblems.com/183.
   page.
 - [Wh73] Whitehead, Jr., Earl Glen, The Ramsey number $N(3,\,3,\,3,\,3;\,2)$.
   Discrete Math. 4 (1973), no. 4, 389--396, DOI 10.1016/0012-365X(73)90174-X
-  (Crossref record). The site's text prints no volume.
+  (Crossref record accessed 2026-10-07). The site's text prints no volume.
 - [XXC02] Xu, Xiao Dong and Xie, Zheng and Chen, Zhi, Upper bounds for Ramsey
   numbers $R_n(3)$ and Schur numbers (in Chinese). Math. Econ. 19 (2002),
   no. 1, 81--84 (volume and issue from the bibliography of Radziszowski's

@@ -102,7 +102,7 @@ thanks Quanyu Tang and Wouter van Doorn. Cite as: T. F. Bloom, Erdős Problem
   authors' paper Generalizing a conjecture of Erdős and Graham via best
   Egyptian underapproximations, Acta Math. Hungar. 177 (2025), no. 1,
   41--63, DOI 10.1007/s10474-025-01566-8, online 13 October 2025 (Crossref
-  record). That paper is not held; its published abstract
+  record accessed 2026-10-07). That paper is not held; its published abstract
   says that the conjecture was resolved constructively by Kamio and
   independently by the authors and that the paper proves a generalization
   assuming the eventually-greedy claim (Theorem 1.6 there, Theorem 1.9 of
@@ -132,7 +132,8 @@ thanks Quanyu Tang and Wouter van Doorn. Cite as: T. F. Bloom, Erdős Problem
 - [OEIS] Sequence A000058, Sylvester's sequence $2,3,7,43,1807,\ldots$
   (N. J. A. Sloane), and Sequence A076393, the decimal expansion of the
   Vardi constant $1.2640847353\ldots$ (B. Cloitre, 2002), with the comment
-  that Vardi showed $\text{A000058}(n)=\lfloor c^{2^{n+1}}+1/2\rfloor$.
+  that Vardi showed $\text{A000058}(n)=\lfloor c^{2^{n+1}}+1/2\rfloor$; both
+  accessed 2026-09-18.
 
 **Formalization.** Statement here, with a pointer to an external proof.
 The file

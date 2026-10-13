@@ -39,7 +39,7 @@ same as the real-set function.
 
 **Source.** T. Sanders, *The Erdős--Moser sum-free set problem*, Canad. J.
 Math. 73 (2021), no. 1, 63--107, DOI 10.4153/S0008414X1900049X (published
-online 23 September 2019; Crossref record read). The copy read
+online 23 September 2019; Crossref record read 2026-09-18). The copy read
 for this page is arXiv:1804.03356v3 (31 July 2019, 47 pp., "Corrections and
 clarifications"), whose pagination is used here; the journal text was not
 compared. Theorem 1.2 on p. 2, read in the text layer.

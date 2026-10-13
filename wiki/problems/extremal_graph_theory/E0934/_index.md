@@ -148,7 +148,7 @@ https://www.erdosproblems.com/934, accessed 2026-09-19.
   [[../library/extremal_graph_theory/kumar_2026_improved_bound_strong_clique_index_graphs/theorem_1_11|theorem_1_11]].
 - [CvBK26] Cames van Batenburg, W. and Korsky, S., Asymptotically attaining
   the Moore bound. arXiv:2608.03965v1 (4 August 2026), "7+ε pages"; a
-  preprint; its arXiv record (abstract only).
+  preprint; its arXiv record (abstract only), accessed 2026-09-19.
 
 **Formalization.** None. formal-conjectures has no file `ErdosProblems/934.lean`
 at main the site's indicator reads "Formalised statement? No",

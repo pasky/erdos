@@ -61,7 +61,7 @@ numbers of the form $\sum g_n/2^{g_n}$*, Math. Comp. **54** (1990), no.
 11A63, 11D68, 11-04.
 
 The copy read for this card is a JSTOR PDF: a JSTOR cover sheet (PDF p. 1;
-stable URL <http://www.jstor.org/stable/2008700>)
+stable URL <http://www.jstor.org/stable/2008700>, marked accessed 23 May 2008)
 followed by scans of the eighteen printed pages 377--394 (PDF p. $n$ is
 printed p. $n+375$). The scan carries an OCR text layer in which the
 displayed formulas are garbled; the prose statements are legible in it, and

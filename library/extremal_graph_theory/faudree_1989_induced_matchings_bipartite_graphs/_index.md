@@ -31,7 +31,7 @@ whole edge set.
 
 R. J. Faudree, A. Gyárfás, R. H. Schelp and Zs. Tuza, *Induced matchings in
 bipartite graphs*, Discrete Math. 78 (1989), no. 1--2, 83--87; DOI
-10.1016/0012-365X(89)90163-5 (Crossref record read); received 2
+10.1016/0012-365X(89)90163-5 (Crossref record read 2026-09-19); received 2
 December 1987, revised 4 June 1988; "Dedicated to the memory of our friend
 Tory Parsons". The site's key FGST89 on Problem 149.
 

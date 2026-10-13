@@ -26,7 +26,7 @@ arXiv:1608.05705v1 (19 August 2016), the only version the arXiv listing
 shows with printed and physical pages 1--37 and a text
 layer; p. 2 was also read on the rendered page image. The journal identity is
 Adv. Math. 376 (2021), Paper No. 107444, DOI 10.1016/j.aim.2020.107444
-(Crossref record read). The labels and locators below are the
+(Crossref record read 2026-09-17). The labels and locators below are the
 preprint's; the journal edition was not read and no edition equivalence
 is asserted. The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:1608.05705), every other right reserved.

@@ -54,7 +54,7 @@ and the odd $n$ below the unnamed threshold.
 **Standing.** Claimed, not accepted. The site's curator, T. F. Bloom, credits
 Kohayakawa, Simonovits and Skokan in the problem's commentary with proving the
 conjecture for all sufficiently large odd $n$, on a page labeled DECIDABLE (last
-edited 8 February 2026), the site's state for a problem
+edited 8 February 2026, accessed 2026-09-17), the site's state for a problem
 resolved up to a finite check, which rests on exactly this theorem and the
 even-cycle theorem of Benevides and Skokan; that label does not mark the problem
 settled, so the credit is recorded here and is not `reviewed` evidence. Nothing

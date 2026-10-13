@@ -35,8 +35,8 @@ path with three edges.
 
 Kaizhe Chen and Jie Ma, A problem of Erdős and Hajnal on paths with equal-degree
 endpoints. J. Combin. Theory Ser. B 179 (2026), 1--18,
-doi:10.1016/j.jctb.2026.01.006 (issued July 2026; Crossref record read; the
-site's reference text gives "arXiv:2503.19569 (2025)"). Preprint
+doi:10.1016/j.jctb.2026.01.006 (issued July 2026; Crossref record read on
+2026-09-18; the site's reference text gives "arXiv:2503.19569 (2025)"). Preprint
 arXiv:2503.19569 (v1, 25 March 2025). The arXiv record names arXiv's
 non-exclusive distribution license (arXiv:2503.19569), every other right
 reserved.

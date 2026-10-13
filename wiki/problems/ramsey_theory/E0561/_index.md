@@ -132,8 +132,8 @@ $2\le k\le s+t$, to Győri and Schelp [GySc02]; and further special cases to
 Davoodi, Javadi, Kamranian and Raeisi [DJKR25], among them $s=1$, $s=2$ with
 $n_1=n_2$, all $n_i$ and $m_j$ odd, and all $n_i$ equal to one odd number
 with $m_1$ odd. The site lists the problem as number 30 of the Ramsey theory
-section of its graphs problem collection; one account carries both the
-site's working-on and looks-tractable reactions. Of
+section of its graphs problem collection; one account carried both the
+site's working-on and looks-tractable reactions (accessed 2026-10-06). Of
 the five comments (31 January to 6 August 2026), the three of 4 June and
 6 August 2026 are recorded under leads below, together with the two proof
 claims, which also have their claim pages; the comment of 31 January 2026

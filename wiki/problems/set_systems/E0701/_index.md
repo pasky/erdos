@@ -113,7 +113,7 @@ set, an undetermined answer and a `sorry` body.
 
 ## Current assessment
 
-The site's formulation is Chvátal's conjecture: a
+The site's formulation (accessed 2026-09-04) is Chvátal's conjecture: a
 family closed under subsets has an element whose star is at least as large as
 any intersecting subfamily. The modified Statement adds Chvátal's finite
 ground set, as the Notes record; it is the statement of Chvátal [Ch74], of

@@ -37,7 +37,7 @@ R(k) ≤ e^{−2^{−172}k} 4^k for every k ≥ 2^{220}.
 P. Balister, B. Bollobás, M. Campos, S. Griffiths, E. Hurley, R. Morris,
 J. Sahasrabudhe and M. Tiba, *Upper bounds for multicolour Ramsey
 numbers*, Journal of the American Mathematical Society 39 (2026), no. 3,
-765--780; DOI 10.1090/jams/1069 (Crossref record read; the same
+765--780; DOI 10.1090/jams/1069 (Crossref record read 2026-09-18; the same
 record is printed in the bibliography of Gupta, Ndiaye, Norin and Wei).
 Preprint arXiv:2410.17197 (v1 22 October 2024; v2 21 January 2026, "minor
 revision").

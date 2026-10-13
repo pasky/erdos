@@ -94,7 +94,7 @@ accessed 2026-09-18.
 - [BaLe13] Balogh, J. and Lenz, J., On the Ramsey-Turán numbers of graphs and
   hypergraphs. Israel J. Math. 194 (2013), no. 1, 45--68,
   doi:10.1007/s11856-012-0076-2 (published online 29 June 2012; Crossref
-  record and the arXiv listing's journal reference);
+  record and the arXiv listing's journal reference of 2026-09-18);
   arXiv:1109.4428v2 (22 September 2011); the journal text was not
   compared. The definitions, p. 2; Problems 1--2 and Theorem 3, p. 3;
   Corollary 4, Problem 5 and the display $1/64\le\theta_3(K_5)$, p. 4; the
@@ -103,8 +103,8 @@ accessed 2026-09-18.
 - [LRSS21] Liu, H., Reiher, C., Sharifzadeh, M. and Staden, K., Geometric
   constructions for Ramsey-Turán theory. arXiv:2103.10423v2 (18 August 2025,
   "to appear in JEMS"); Journal of the European Mathematical Society,
-  vol. 28, no. 1, 79--112, doi:10.4171/jems/1712 (Crossref record,
-  issued 20 October 2025; the journal text is not held).
+  vol. 28, no. 1, 79--112, doi:10.4171/jems/1712 (Crossref record of
+  2026-09-18, issued 20 October 2025; the journal text is not held).
   The definition of $\varrho_p(q)$, p. 2; the state of the art before the
   paper, p. 3; Theorem 1.1 and Corollary 1.2, p. 4; Theorem 1.4, p. 5;
   Problem C, p. 6. Library home:

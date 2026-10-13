@@ -61,13 +61,13 @@ to the copy read. An [undated author-hosted
 manuscript](https://www.cs.bme.hu/~geza/note.pdf) is a six-page author copy. Its
 six pages retain Theorem 1, Proposition 2 and the same heptagon/arc and density
 proof routes, with different typesetting, figures and page breaks. Both web
-copies were accessed. Result citations below refer to the published five-page
-version; the undated copy is not labeled a later correction. The published
-article prints "Copyright © 1994 by Academic Press, Inc. All rights of
-reproduction in any form reserved.", every other right reserved. No notice is
-printed in the author manuscript (first and last pages read as images), and the
-author's page hosting it (cs.bme.hu/~geza) could not be read; the term is
-unstated.
+copies were accessed September 5, 2026. Result citations below refer to the
+published five-page version; the undated copy is not labeled a later correction.
+The published article prints "Copyright © 1994 by Academic Press, Inc. All
+rights of reproduction in any form reserved.", every other right reserved. No
+notice is printed in the author manuscript (first and last pages read as
+images), and the author's page hosting it (cs.bme.hu/~geza) could not be read;
+the term is unstated.
 
 ## Eight-point obstruction
 

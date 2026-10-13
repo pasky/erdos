@@ -22,7 +22,7 @@ Harcos's choice of parameter gives 0.69368.
 
 A. Biró, *An upper estimate in Turán's pure power sum problem*, Indag.
 Math. (N.S.) **11** (2000), no. 4, 499--508; DOI
-10.1016/S0019-3577(00)80018-X (Crossref record read (UTC)).
+10.1016/S0019-3577(00)80018-X (Crossref record read 2026-09-17 (UTC)).
 Communicated by Prof. R. Tijdeman at the meeting of September 25, 2000;
 received July 2000; the issue head is dated December 18, 2000.
 

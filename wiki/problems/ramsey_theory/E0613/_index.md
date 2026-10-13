@@ -100,7 +100,7 @@ https://www.erdosproblems.com/613, accessed 2026-09-18.
   of order $2n+1$.
 - [MOS16] Miralaei, M., Omidi, G. R. and Shahsiah, M., Size Ramsey numbers of
   stars versus cliques. arXiv:1601.06599 (2016). Context on the clique
-  generalization (abstract only).
+  generalization (abstract only, accessed 2026-09-18).
 
 **Formalization.** The suffix (LEAN) of the site's label was a catalog label.
 The file

@@ -31,18 +31,18 @@ $$
 
 with $a\leq b =O_\alpha(1)$?
 
-**Formulation.** The site's wording (the page shows no last-edited stamp). For a
-fixed density $\alpha>0$ the question asks for a bound $B(\alpha)$ such that
-every $A\subseteq\{1,\ldots,N\}$ with $|A|\ge\alpha N$ contains a finite $S$
-whose reciprocal sum is a rational $a/b$ with $a\le b\le B(\alpha)$: a positive
-rational at most $1$ whose denominator is bounded in terms of $\alpha$ alone.
-The site does not say whether $a/b$ is in lowest terms; the source below does
-not require it. For $N$ below any fixed bound the question is trivial (take
-$S=\{n\}$ for any $n\in A$), so its content is for large $N$. The bound cannot
-be $b=1$ in general: for $\alpha<1-1/e$ the set of integers in
-$((1/e+\gamma)N,N]$ has density above $\alpha$ for small $\gamma$ and all
-of its subsums are below $1$, so none is an integer (checked on this page from Liu
-and Sawhney's remark after their Theorem 1.3).
+**Formulation.** The site's wording, accessed 2026-09-18 (the page showed no
+last-edited stamp). For a fixed density $\alpha>0$ the question asks for a bound
+$B(\alpha)$ such that every $A\subseteq\{1,\ldots,N\}$ with $|A|\ge\alpha N$
+contains a finite $S$ whose reciprocal sum is a rational $a/b$ with
+$a\le b\le B(\alpha)$: a positive rational at most $1$ whose denominator is
+bounded in terms of $\alpha$ alone. The site does not say whether $a/b$ is in
+lowest terms; the source below does not require it. For $N$ below any fixed
+bound the question is trivial (take $S=\{n\}$ for any $n\in A$), so its content
+is for large $N$. The bound cannot be $b=1$ in general: for $\alpha<1-1/e$ the
+set of integers in $((1/e+\gamma)N,N]$ has density above $\alpha$ for small
+$\gamma$ and all of its subsums are below $1$, so none is an integer (checked on
+this page from Liu and Sawhney's remark after their Theorem 1.3).
 
 **Status.** Proved. The site's label was PROVED (LEAN). The accepted claim is
 recorded on
@@ -85,7 +85,7 @@ https://www.erdosproblems.com/310, accessed 2026-09-18.
 - [LiSa24] Liu, Y. P. and Sawhney, M., On further questions regarding unit
   fractions. arXiv:2404.07113v1 (10 April 2024); Int. Math. Res. Not. 2026,
   no. 2, rnaf382, DOI 10.1093/imrn/rnaf382, published online 14 January
-  2026 (Crossref record). Proposition 1.4, p. 2; remarks,
+  2026 (Crossref record read 2026-09-18). Proposition 1.4, p. 2; remarks,
   p. 3; proof, p. 21. Library home:
   [[../library/unit_fractions/liu_2024_further_questions_regarding_unit_fractions/_index|liu_2024_further_questions_regarding_unit_fractions]];
   result page
@@ -93,7 +93,7 @@ https://www.erdosproblems.com/310, accessed 2026-09-18.
 - [Bl21] Bloom, T. F., On a density conjecture about unit fractions.
   arXiv:2112.03726 (v1 7 December 2021; v2 12 October 2023); J. Eur.
   Math. Soc. 27 (2025), no. 11, 4563--4589, DOI 10.4171/jems/1456
-  (Crossref record). Theorem 2, p. 1; Proposition 1, p. 4.
+  (Crossref record read 2026-09-18). Theorem 2, p. 1; Proposition 1, p. 4.
   Library home:
   [[../library/unit_fractions/bloom_2021_density_conjecture_about_unit_fractions/_index|bloom_2021_density_conjecture_about_unit_fractions]];
   result pages
@@ -175,7 +175,7 @@ have density $\gg\alpha$, reciprocal sum below $1$, and every nontrivial
 subsum has denominator at least $\exp(1/\alpha)$. Acceptance evidence: the
 paper is published in International Mathematics Research Notices 2026,
 no. 2, rnaf382 (published online 14 January 2026; the Crossref record
-read); the published text has not been compared with arXiv v1, so the
+read 2026-09-18); the published text has not been compared with arXiv v1, so the
 locators are v1 locators. Proof coverage: the result page records the proof
 (p. 21) as a pointer and sketch and lists four parameter discrepancies in
 the printed proof that are to be compared with the published version before

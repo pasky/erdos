@@ -23,7 +23,8 @@ Yuhi Kamio, Asymptotic Analysis of Infinite Decompositions of a Unit Fraction
 into Unit Fractions. arXiv:2503.02317 (2025).
 
 The copy read for this card is arXiv:2503.02317v1 (4 March 2025; the paper is
-dated 5 March 2025), 5 pages, the only version on the arXiv listing read; the listing carries no journal reference and no journal record was
+dated 5 March 2025), 5 pages, the only version on the arXiv listing read on
+2026-09-18; the listing carried no journal reference and no journal record was
 found (Crossref bibliographic query the same day), so the paper is an author
 preprint. Read status: claims checked. Problem 1, Definition 3,
 Proposition-Definition 4, Proposition 5 and Theorem 8 (pp. 1--3) were read

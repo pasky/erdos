@@ -154,7 +154,9 @@ describes that choice and links the original formalization.
 The pinned file contains no `sorry`, `admit` or axiom declaration. Its
 `#print axioms` comment reports only `propext`, `Classical.choice` and
 `Quot.sound`; that comment is a repository report, not output reproduced
-here. No successful public build record exists for the pinned commits. This corpus has not built the file or audited its tactics. The repository's later ports and the original gist are
+here. On 2026-09-05 no successful public build record existed for the pinned
+commits. This corpus has not built the file or audited its tactics. The
+repository's later ports and the original gist are
 separate identified artifacts; their shared final statement does not by
 itself establish proof equivalence. No local formal-verification claim is
 attached to the ordinary mathematical status above.

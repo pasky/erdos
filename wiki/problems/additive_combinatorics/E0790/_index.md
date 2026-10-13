@@ -105,7 +105,7 @@ https://www.erdosproblems.com/790, accessed 2026-09-18.
 
 - [CKS75] Choi, S. L. G., Komlós, J. and Szemerédi, E., On sum-free
   subsequences. Trans. Amer. Math. Soc. 212 (1975), 307--313, DOI
-  10.1090/S0002-9947-1975-0376594-1 (Crossref record);
+  10.1090/S0002-9947-1975-0376594-1 (Crossref record accessed 2026-09-18);
   the Theorem, display (1.1), printed p. 307; the closing remark, printed
   p. 313. Library home:
   [[../library/additive_combinatorics/choi_1975_sum_free_subsequences/_index|choi_1975_sum_free_subsequences]];

@@ -66,7 +66,7 @@ https://www.erdosproblems.com/1038.
 
 ## Current assessment
 
-The site's formulation asks for the infimum and the
+The site's formulation (accessed 2026-09-04) asks for the infimum and the
 supremum of the measure of $E_f=\{x\in\mathbb R:|f(x)|<1\}$ over nonconstant
 monic real polynomials with all roots in $[-1,1]$. The supremum is $2\sqrt2$,
 attained by $(x^2-1)^m$: Erdős, Herzog and Piranian [EHP58] proved that bound

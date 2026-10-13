@@ -48,7 +48,7 @@ a text-layer PDF whose last page records "Received 14 Jan 2015; revised 19
 July 2015, 27 Oct 2015". Source:
 <https://ajc.maths.uq.edu.au/?page=get_volumes&volume=64>, the journal's
 volume 64 listing, which carries the article at pp. 327--333 with its PDF
-(listing read). The Australasian Journal of Combinatorics is a
+(listing read 2026-09-18). The Australasian Journal of Combinatorics is a
 refereed open-access journal; the acceptance evidence for the theorems below
 is this publication. No notice is printed in the article, and the journal's
 volume listing, home page and about page (https://ajc.maths.uq.edu.au/about,

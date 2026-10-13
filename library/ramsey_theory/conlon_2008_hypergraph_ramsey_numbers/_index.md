@@ -41,7 +41,7 @@ Erdős's F^{(k)}(N, α) is at least a power of log N for every fixed α > 0.
 D. Conlon, J. Fox and B. Sudakov, *Hypergraph Ramsey numbers*.
 arXiv:0808.3760v1 (27 August 2008), 20 pages; published as J. Amer. Math.
 Soc. 23 (2010), no. 1, 247--266, DOI 10.1090/S0894-0347-09-00645-6
-(published online 18 August 2009; Crossref record read).
+(published online 18 August 2009; Crossref record read on 2026-09-18).
 
 **Edition read.** The copy read for this card is the arXiv v1 of 27 August
 2008 (the only arXiv version; abstract page <https://arxiv.org/abs/0808.3760>

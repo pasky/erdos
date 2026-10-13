@@ -113,7 +113,7 @@ Alexeev, Zachary Hunter, and Dustin Mixon. Cite as: T. F. Bloom, Erdős Problem
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/321.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/321.lean)
-of formal-conjectures at the linked commit (main) defines
+of formal-conjectures at the linked commit (main on 2026-09-18) defines
 `R (N : ℕ) : ℕ := sSup { #A | (A) (_ : A ⊆ Finset.Icc 1 N) (_ : Set.InjOn (fun (S : Finset ℕ) ↦ ∑ n ∈ S, (1 : ℚ) / n) A.powerset) }`
 and declares `erdos_321 (N : ℕ) : R N = answer(sorry)` with proof `sorry`
 under `category research open`, three asymptotic variants (`isTheta`,

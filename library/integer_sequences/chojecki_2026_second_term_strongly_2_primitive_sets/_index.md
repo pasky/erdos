@@ -176,9 +176,9 @@ which used only the primes up to $n^{1/3}$ and gave the constant $1/80$.
   `Woett/Miscellaneous` (head `40f6aae3`, 2026-08-05) concern the $k$-fold
   generalization claimed on the proof-claim tab. The second file's header and
   its two self-contained corollaries, `large_k_upper` and `large_k_lower`, were
-  read as text at its only commit `e80f01cb` (5 August 2026); the file declares
-  the prime number theorem and a Delcourt--Postle matching theorem as axioms.
-  The blueprint PDF remains unread.
+  read as text on 2026-10-07 at its only commit `e80f01cb` (5 August 2026); the
+  file declares the prime number theorem and a Delcourt--Postle matching theorem
+  as axioms. The blueprint PDF remains unread.
 
 Nothing was built, kernel-checked or audited here; the axiom the file
 declares is its own record, and no bridging statement between the file's

@@ -93,10 +93,11 @@ collection, posted 17 August 2026 and linked at its pinned commit on
 and Sawhney as informal authors and Codex and GPT-5.6 Sol as formal
 authors, and proves that the count is $\exp((\gamma_*+o(1))N)$, together
 with the base-two form of the rate and the bound $c_1<1$. The corpus has
-not built or audited it, so it gives no `formalized` evidence. The site shows no formalized statement, the
+not built or audited it, so it gives no `formalized` evidence. On 2026-09-05 the
+site showed no formalized statement, the
 [community database](https://github.com/teorth/erdosproblems/blob/7688a2b0fc70a4f68a897a7a6da7788681003888/data/problems.yaml)
-records the problem as informally solved and unformalized, and
-formal-conjectures has no file for Problem 297.
+recorded the problem as informally solved and unformalized, and
+formal-conjectures had no file for Problem 297.
 
 A search of the primary literature located the published
 Conlon article, Liu and Sawhney's publication record and Steinerberger's

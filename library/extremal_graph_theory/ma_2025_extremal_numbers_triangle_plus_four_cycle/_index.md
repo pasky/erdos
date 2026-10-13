@@ -28,7 +28,7 @@ Jie Ma and Tianchi Yang, *On extremal numbers of the triangle plus the
 four-cycle*, Forum of Mathematics, Sigma **13** (2025), e154, 1--7, DOI
 10.1017/fms.2025.10100; received 6 December 2022, revised 18 December 2024,
 accepted 13 August 2025 (p. 1); published online 23 September 2025 (Crossref
-record read). Forum of Mathematics, Sigma is a refereed journal.
+record read 2026-09-18). Forum of Mathematics, Sigma is a refereed journal.
 
 **Retained artifact.** The
 [folder-name PDF](ma_2025_extremal_numbers_triangle_plus_four_cycle.pdf) is

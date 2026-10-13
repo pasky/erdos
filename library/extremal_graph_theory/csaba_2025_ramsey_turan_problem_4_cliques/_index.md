@@ -18,7 +18,7 @@ updated: 2026-10-08T01:29:58Z
 
 Béla Csaba, *On the Ramsey-Turán problem for 4-cliques*, SIAM J. Discrete
 Math. **39** (2025), no. 2, 1201--1212, DOI 10.1137/23M1619794 (Crossref
-record read, as recorded on Problem 22's page; the journal text
+record read 2026-09-18, as recorded on Problem 22's page; the journal text
 is not held). SIAM Journal on Discrete Mathematics is a refereed journal.
 Not a source key of the site; Problem 22's page cites it as [Cs25].
 

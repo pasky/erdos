@@ -39,10 +39,10 @@ https://www.erdosproblems.com/1214.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/17d2cec2f5bec8eede237a146ac893375daf4faf/FormalConjectures/ErdosProblems/1214.lean)
-(read at the commit linked, the last to touch the file), tagged solved with a
-formal-proof link to a Lean file in Boris Alexeev's repository that declares
-itself a formalization of the paper's result; the file is linked from the claim
-page, and this corpus has not built it.
+(read 2026-10-07 at the commit linked, the last to touch the file), tagged
+solved with a formal-proof link to a Lean file in Boris Alexeev's repository
+that declares itself a formalization of the paper's result; the file is linked
+from the claim page, and this corpus has not built it.
 
 ## Current assessment
 

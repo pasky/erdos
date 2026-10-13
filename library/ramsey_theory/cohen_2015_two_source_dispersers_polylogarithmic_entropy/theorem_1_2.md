@@ -53,7 +53,7 @@ conference version appeared in STOC 2016 (Proceedings of the 48th Annual
 ACM Symposium on Theory of Computing, 278--284, DOI
 10.1145/2897518.2897530) and a journal version in SIAM J.
 Comput. 50 (2021), no. 3, STOC16-30--STOC16-67 (DOI 10.1137/16M1096219;
-Crossref records read); neither text was compared with the
+Crossref records read 2026-09-18); neither text was compared with the
 arXiv version. The artifact is identified in the
 [[ramsey_theory/cohen_2015_two_source_dispersers_polylogarithmic_entropy/_index|source digest]].
 

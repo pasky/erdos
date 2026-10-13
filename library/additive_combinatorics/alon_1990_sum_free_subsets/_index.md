@@ -44,8 +44,8 @@ such groups.
 
 N. Alon and D. J. Kleitman, *Sum-free subsets*, in: A Tribute to Paul Erdős (A.
 Baker, B. Bollobás and A. Hajnal, eds.), Cambridge University Press (1990),
-13--26, DOI 10.1017/CBO9780511983917.003 (Crossref record read). The site's key
-[AlKl90] for Problem 792.
+13--26, DOI 10.1017/CBO9780511983917.003 (Crossref record read 2026-09-18). The
+site's key [AlKl90] for Problem 792.
 
 The copy read for this card is a
 fifteen-page scan of the chapter (a cover leaf "Reprinted from A Tribute to

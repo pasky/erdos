@@ -25,7 +25,7 @@ updated: 2026-10-08T18:27:22Z
 deleting any edge increases the diameter of $G$. Is it true that $G$ has at most
 $n^2/4$ edges?
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording, accessed 2026-09-19 (the page showed no
 last-edited date). Such a graph is a minimal graph of diameter $2$ (Füredi's
 term) or a diameter-$2$-critical graph; since the number of edges is an
 integer, "at most $n^2/4$" is "at most $\lfloor n^2/4\rfloor$", the bound
@@ -83,7 +83,7 @@ Problem #742, https://www.erdosproblems.com/742, accessed 2026-09-19.
 
 - [Fu92] Füredi, Zoltán, The maximum number of edges in a minimal graph of
   diameter $2$. J. Graph Theory 16 (1992), no. 1, 81--98,
-  doi:10.1002/jgt.3190160110 (March 1992; Crossref record).
+  doi:10.1002/jgt.3190160110 (March 1992; Crossref record, 2026-09-19).
   Locators are the pages of IMA Preprint Series #408 (March 1988):
   Conjecture 1.1 and the earlier bounds, preprint p. 1; Theorem 1.2 and the
   remark on $n_0$, p. 2; Section 5, pp. 11--12. The journal text is not held
@@ -107,7 +107,7 @@ Problem #742, https://www.erdosproblems.com/742, accessed 2026-09-19.
   [[../library/extremal_graph_theory/caccetta_haggkvist_1979_diameter_critical_graphs/theorem_1|theorem_1]].
 - [Er81] Erdős, P., On the combinatorial problems which I would most like to
   see solved. Combinatorica 1 (1981), no. 1, 25--42, doi:10.1007/BF02579174
-  (Crossref record); p. 15 of the retyped copy, which has its
+  (Crossref record, 2026-09-19); p. 15 of the retyped copy, which has its
   own pagination, with the reference [67] on p. 20. Library home:
   [[../library/set_systems/erdos_1981_combinatorial_problems_which_i_would_most/_index|erdos_1981_combinatorial_problems_which_i_would_most]].
 - [Pl75] Plesník, J., Critical graphs of given diameter. Acta Fac. Rerum
@@ -165,7 +165,7 @@ its last update, 31 August 2025), the statement formalized since 29 June 2026,
 
 ## Current assessment
 
-**The question (site formulation).** The statement above;
+**The question (site formulation, accessed 2026-09-19).** The statement above;
 DECIDABLE, which the site defines as settled apart from a finite check; no
 last-edited date. The commentary, in this page's words: the site attributes
 the conjecture to Murty and Plesník, citing [CaHa79], while noting that Füredi

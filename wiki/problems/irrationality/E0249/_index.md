@@ -207,7 +207,7 @@ variant rather than $S$.
 - Site discussion, `williamwkcook`, 11 September 2026, pointing to two notes
   by W. Cook (written up with the AI system Astra, as the comment says), dated
   July 2026, in the GitHub repository `wcook04/plectis-erdos`: the short note
-  [*Erdős 249: binary totient series*,](https://github.com/wcook04/plectis-erdos/blob/605b2735ee308e1d1c621c81b8a363e1d4e05925/paper/249/erdos-249-binary-totient-series.pdf),
+  [*Erdős 249: binary totient series*](https://github.com/wcook04/plectis-erdos/blob/605b2735ee308e1d1c621c81b8a363e1d4e05925/paper/249/erdos-249-binary-totient-series.pdf),
   and a longer reasoning-surface note in the same folder. The short note
   claims that $\sum_{n\ge1}(\phi(n)\bmod m)/2^n$ is irrational for every
   $m\ge3$ (with the values $0$ for $m=1$ and $3/4$ for $m=2$), a

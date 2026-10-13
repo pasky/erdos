@@ -37,8 +37,8 @@ text layer, no arXiv identifier, no date and no journal. The year in this
 card's name is not
 printed in the note; it comes from the PDF's own creation stamp (31 July
 2025) and from the file's single GitHub commit (11 August 2025, "Add files
-via upload", read through the GitHub API). Provenance:
-the copy read was downloaded from
+via upload", read through the GitHub API on 2026-09-17). Provenance:
+the copy read was downloaded 2026-09-05 from
 <https://github.com/Woett/Mathematical-shorts/blob/main/Two-colouring%20and%20density%20lead%20to%20solutions%20to%20an%20equation%20in%20unit%20fractions.pdf>,
 206,817 bytes. No notice is printed in the note (pp. 1--4), and the source
 repository has no LICENSE file and states no license, its About reading "Some of

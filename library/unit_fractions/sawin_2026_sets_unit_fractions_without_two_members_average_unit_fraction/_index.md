@@ -22,7 +22,7 @@ Problem 327.
 
 W. Sawin, *Sets of unit fractions without two members whose average is a
 unit fraction*, arXiv:2607.15419v1 [math.NT], 16 July 2026, 9 pages. A
-preprint: the arXiv listing shows one version, no journal
+preprint: the arXiv listing (read 2026-09-17) showed one version, no journal
 reference and no publisher DOI, and no citing work was found on the search
 date.
 

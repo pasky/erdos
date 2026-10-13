@@ -18,7 +18,7 @@ P. Erdős: Some of my favourite problems which recently have been solved,
 Proceedings of the International Mathematical Conference, Singapore 1981
 (Singapore, 1981), North-Holland Math. Stud., 74 , pp. 59--79, North-Holland,
 Amsterdam-New York, 1982 MR 84f:10003; doi:10.1016/S0304-0208(08)70415-8
-(Crossref record read).
+(Crossref record read 2026-10-07).
 
 The copy read for this card is a 21-page OmniPage scan of the article
 (printed p. n is PDF p. n − 58) whose OCR text layer garbles the formulas;

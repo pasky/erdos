@@ -80,7 +80,7 @@ formal-proof URL.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-18).** The statement
 above; SOLVED, last edited 8 April 2026. The commentary, which is the
 status-defining source, recalls that Erdős called $F(x)\to\infty$ a
 "simple exercise", points to Problem 689 as the prime-modulus analogue,

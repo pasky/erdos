@@ -61,13 +61,14 @@ The copy read for this card
 is arXiv:2107.12288v2 (28 January 2022, dated 1 February 2022 on its first
 page, 13 pages with a clean text layer); the identity line above is the
 published version, SIAM J. Discrete Math. 36 (2022), no. 2, 1124--1134,
-doi:10.1137/21M1437573 (published online 28 April 2022; Crossref record read), whose text was not compared, so the locators
-here are the preprint's. Read status: claims checked for Theorem 1 and Table
-1 (p. 3 of the preprint, read clause by clause on the page image), and for
-Theorem 2 (p. 3) and Corollary 3 (p. 4), read clause by clause on the page
-images; the proofs of Theorem 2 and Corollary 3 (pp. 7--9, in Section 3, pp. 6--9) were
-read through for the proof pointers and not reviewed, and the proof of
-Theorem 1 was not read. The results are paged at
+doi:10.1137/21M1437573 (published online 28 April 2022; Crossref record read
+2026-09-18), whose text was not compared, so the locators here are the
+preprint's. Read status: claims checked for Theorem 1 and Table 1 (p. 3 of the
+preprint, read clause by clause on the page image), and for Theorem 2 (p. 3) and
+Corollary 3 (p. 4), read clause by clause on the page images; the proofs of
+Theorem 2 and Corollary 3 (pp. 7--9, in Section 3, pp. 6--9) were read through
+for the proof pointers and not reviewed, and the proof of Theorem 1 was not
+read. The results are paged at
 [[graph_coloring/davies_2022_ramsey_problem_triangle_free_graphs/theorem_1|theorem_1]],
 [[graph_coloring/davies_2022_ramsey_problem_triangle_free_graphs/theorem_2|theorem_2]]
 and

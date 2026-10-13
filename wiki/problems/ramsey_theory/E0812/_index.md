@@ -109,7 +109,7 @@ since 8 March 2026, and no formal proof. The corpus has not built these files.
 
 ## Current assessment
 
-**The question (site formulation).** The statement
+**The question (site formulation, accessed 2026-09-18).** The statement
 above; OPEN, marked as not resolvable by a finite computation; no prize
 and no last-edited date. The commentary credits Burr, Erdős, Faudree and
 Schelp [BEFS89] with $R(n+1)-R(n)\ge4n-8$ for every $n\ge2$ and notes that

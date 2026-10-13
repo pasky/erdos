@@ -86,7 +86,8 @@ Conlon--Lee, Lemmas 2.3 and 2.4, and Lemma 10 and Corollary 11 (p. 4) carry
 the light-edge count. The argument was not reconstructed line by line.
 The extraction records source statements and a proof pointer, not complete
 reconstruction, independent proof acceptance or formal verification. The
-publisher and arXiv records were checked. No code or Lean build was run.
+publisher and arXiv records were checked on 2026-09-09. No code or Lean build
+was run.
 
 Source:
 [EJC publication record](https://www.combinatorics.org/ojs/index.php/eljc/article/view/v26i3p3).

@@ -96,7 +96,7 @@ Problem #1008, https://www.erdosproblems.com/1008, accessed 2026-09-18.
   [[../library/extremal_graph_theory/conlon_2014_large_subgraphs_without_complete_bipartite_graphs/theorem_2_3|theorem_2_3]].
 - [CFS16] Conlon, D., Fox, J. and Sudakov, B., Short proofs of some extremal
   results II. J. Combin. Theory Ser. B 121 (2016), 173--196,
-  doi:10.1016/j.jctb.2016.03.005 (Crossref record);
+  doi:10.1016/j.jctb.2016.03.005 (Crossref record, 2026-09-18);
   arXiv:1507.00547. Not cited by the site; the thread's comment of 29 September
   2025 names its Theorem 3.1 as a published statement of the result. Locators
   are to the arXiv v2 (11 February 2016), and the journal text was not compared:
@@ -115,7 +115,7 @@ Problem #1008, https://www.erdosproblems.com/1008, accessed 2026-09-18.
 
 **Formalization.** The site's (LEAN) suffix is a catalog label. The file
 [`ErdosProblems/1008.lean`](https://github.com/google-deepmind/formal-conjectures/blob/468a1438e567ae6dd1d733cfbecacdd3b33afaed/FormalConjectures/ErdosProblems/1008.lean)
-of formal-conjectures (the link pins that commit) declares
+of formal-conjectures (the link pins that commit, main on 2026-09-18) declares
 `erdos_1008 : answer(True) ↔ ∃ c > (0 : ℝ), ∀ (V : Type) [Fintype V] (G : SimpleGraph V), ∃ H ≤ G, (cycleGraph 4).Free H ∧ c * (G.edgeSet.ncard : ℝ) ^ (2 / 3 : ℝ) ≤ (H.edgeSet.ncard : ℝ)`
 under `category research solved, AMS 5`, with proof `sorry` and a `formal_proof`
 attribute naming `src/v4.29.1/ErdosProblems/Erdos1008.lean` in the repository

@@ -35,7 +35,7 @@ as the site cites it (the report number was not checked); conference
 version in the Proceedings of the 48th Annual ACM Symposium on Theory of
 Computing (STOC 2016), 278--284, DOI 10.1145/2897518.2897530; journal
 version SIAM J. Comput. 50 (2021), no. 3, STOC16-30--STOC16-67, DOI
-10.1137/16M1096219 (both Crossref records read). Preprint
+10.1137/16M1096219 (both Crossref records read 2026-09-18). Preprint
 arXiv:1506.04428 (v1 14 June 2015, the only arXiv version).
 
 The copy read for this card carries the arXiv stamp 1506.04428v1 [math.CO]

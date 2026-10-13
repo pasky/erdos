@@ -119,7 +119,7 @@ and is recorded on the Remark 1 page as a discrepancy of form.
 - `plby/lean-proofs`, the repository named by the `formal_proof` attribute
   of the formal-conjectures file `1014.lean`: head of `main`
   `8822f7ddef30fadbd92e1c6ab4ed897af356af5e` (committer date
-  2026-09-15T20:59:44Z, read through the GitHub API).
+  2026-09-15T20:59:44Z, read 2026-09-18T02:10:55Z through the GitHub API).
   `src/v4.29.1/ErdosProblems/Erdos1014.lean` (148,292 bytes, 3,511 lines;
   last changed 2026-06-24) declares "a Lean formalization of a solution to
   Erdős Problem 1014", names the informal author as an internal model at
@@ -136,7 +136,8 @@ and is recorded on the Remark 1 page as a discrepancy of form.
   $C'(\log\ell)^A/\ell^c$ for the ratio minus one.
 - `maokami/ramsey-ratio-lean`: head of `main`
   `f44f24789d9ed422b6ac2bb3e69e523d311b40a0` (committer date
-  2026-04-29T07:23:46Z; repository created 2026-04-25; read), toolchain `leanprover/lean4:v4.28.0-rc1` with
+  2026-04-29T07:23:46Z; repository created 2026-04-25; read
+  2026-09-18T02:11:13Z), toolchain `leanprover/lean4:v4.28.0-rc1` with
   Mathlib at the matching tag. `RamseyRatio/Basic.lean` defines `ramsey k ℓ`
   as `sInf {N | HasRamseyProperty N k ℓ}`; `RamseyRatio/MainTheorem.lean`
   (849 lines, no `sorry`) proves

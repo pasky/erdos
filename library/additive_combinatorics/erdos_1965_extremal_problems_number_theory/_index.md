@@ -192,7 +192,7 @@ The statement is on
 [[additive_combinatorics/erdos_1965_extremal_problems_number_theory/item_5|item_5]].
 Claims checked for the passage. The journal record is Proc. Sympos. Pure
 Math. VIII (Theory of Numbers), 181--189, DOI 10.1090/pspum/008/0174539
-(Crossref).
+(Crossref, read 2026-09-18).
 
 For [[../wiki/problems/additive_combinatorics/E0792/_index|#792]], printed pp. 186--187
 (PDF pages 6--7, read on the page images, the indices of (27)

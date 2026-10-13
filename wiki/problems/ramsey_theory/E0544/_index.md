@@ -112,7 +112,8 @@ https://www.erdosproblems.com/544, accessed 2026-09-18.
   [[../library/ramsey_theory/shearer_1983_note_independence_number_triangle_free_graphs/_index|shearer_1983_note_independence_number_triangle_free_graphs]];
   paged at
   [[../library/ramsey_theory/shearer_1983_note_independence_number_triangle_free_graphs/theorem_1|theorem_1]].
-- OEIS [A000791](https://oeis.org/A000791), Ramsey numbers $R(3,n)$: the values $1,3,6,9,14,18,23,28,36$ for
+- OEIS [A000791](https://oeis.org/A000791), Ramsey numbers $R(3,n)$
+  (accessed 2026-09-18): the values $1,3,6,9,14,18,23,28,36$ for
   $n=1,\dots,9$, with the comment that $R(3,10)\in\{40,41,42\}$ and a later
   comment (April 2024) that Angeltveit's computer search (arXiv:2401.00392,
   an unrefereed preprint) claims $R(3,10)\le41$; the entry is this page's

@@ -100,7 +100,7 @@ https://www.erdosproblems.com/290, accessed 2026-09-17.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/290.lean`](https://github.com/google-deepmind/formal-conjectures/blob/40e7c98697de6f66b8cbdbf641749ab39ed9c152/FormalConjectures/ErdosProblems/290.lean)
-of formal-conjectures at the linked commit (main)
+of formal-conjectures at the linked commit (the head of main on 2026-09-17)
 declares
 `erdos_290 : answer(True) ↔ (∀ a : ℕ, 1 ≤ a → ∃ b : ℕ, a < b ∧ harmonicDen a (b + 1) < harmonicDen a b)`
 under `category research solved`, with proof `sorry`, and a `formal_proof`

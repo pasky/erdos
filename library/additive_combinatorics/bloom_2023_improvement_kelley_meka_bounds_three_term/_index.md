@@ -41,15 +41,15 @@ quantitative bounds cited for problems 139, 160, 657 and 721.
 Source: <https://arxiv.org/abs/2309.02353>.
 
 The retained folder-name PDF is the arXiv v1 of 5 September 2023 (nine pages),
-the only version (listing read); no journal version was found (a Crossref
-bibliographic query on 2026-09-18 returned the authors' separate exposition in
-Essential Number Theory 2 (2023), 15--44, not this note), so the paper is held
-as a preprint. For problem 721 the bearing is indirect: the note never mentions
-van der Waerden numbers (no occurrence of "Waerden" in its text layer); the
-site's upper bound W(3,k) << exp(O((log k)^9)) takes the exponent 9 as the
-reciprocal of Theorem 1's 1/9 through the density argument stated in Hunter's
-footnote 1 and Schoen's remark, a derivation written in no held source. Read
-status for problem 721: claims checked for Theorem 1 and its surrounding
+the only version (listing read 2026-09-18); no journal version was found (a
+Crossref bibliographic query on 2026-09-18 returned the authors' separate
+exposition in Essential Number Theory 2 (2023), 15--44, not this note), so the
+paper is held as a preprint. For problem 721 the bearing is indirect: the note
+never mentions van der Waerden numbers (no occurrence of "Waerden" in its text
+layer); the site's upper bound W(3,k) << exp(O((log k)^9)) takes the exponent 9
+as the reciprocal of Theorem 1's 1/9 through the density argument stated in
+Hunter's footnote 1 and Schoen's remark, a derivation written in no held source.
+Read status for problem 721: claims checked for Theorem 1 and its surrounding
 paragraph, read clause by clause on the page image of p. 1; the proof was not
 read. Result page:
 [[additive_combinatorics/bloom_2023_improvement_kelley_meka_bounds_three_term/theorem_1|theorem_1]].

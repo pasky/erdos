@@ -37,7 +37,7 @@ of log n; Corollary 2 is its case r = s − 1.
 
 Krivelevich, Michael, $K^s$-free graphs without large $K^r$-free subgraphs.
 Combin. Probab. Comput. 3 (1994), no. 3, 349-354,
-doi:10.1017/S0963548300001243 (Crossref record read).
+doi:10.1017/S0963548300001243 (Crossref record read 2026-09-18).
 
 The copy read for this card is the AMS-TeX typescript from the author's
 publications page, five pages

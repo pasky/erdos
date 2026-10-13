@@ -59,7 +59,7 @@ five-page published scan from the
 [Rényi archive](https://users.renyi.hu/~p_erdos/1945-04.pdf).
 The [source record](source_record.json) identifies the exact artifact and
 distinguishes the 1945 publication from its 2004 digital scan metadata.
-MathSciNet (MR0014608) and zbMATH (Zbl 0063.01270) give
+MathSciNet (MR0014608) and zbMATH (Zbl 0063.01270), read 2026-10-07, give
 the same journal, volume, year, pages and DOI. No notice is printed on
 pp. 898–902, and the publisher's article page could not be read on 2026-10-02
 (the Bulletin's article address redirected to the current volume); the
