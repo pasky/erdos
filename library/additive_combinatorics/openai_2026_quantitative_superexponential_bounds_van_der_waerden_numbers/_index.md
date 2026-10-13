@@ -34,6 +34,8 @@ License 2.0 at <https://github.com/openai/math> (revision adc7f1241), folder
 the held PDF, `paper.pdf` in the release, is retained as
 [openai_2026_quantitative_superexponential_bounds_van_der_waerden_numbers.pdf](openai_2026_quantitative_superexponential_bounds_van_der_waerden_numbers.pdf),
 and the release's TeX bundle in the same folder is the TeX source cited below.
+The license term was read in the release's root `LICENSE` file at that revision
+on 2026-10-13.
 
 ```bibtex
 @misc{OAI:Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026,

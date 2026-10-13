@@ -32,7 +32,8 @@ Release preprint, September 25, 2026. Released under the Apache License 2.0 at
 `preprints/A-Logarithmic-Independence-Bound-for-Clique-Free-Graphs-September-25-2026`;
 the held PDF, `paper.pdf` in the release, is retained as
 [openai_2026_logarithmic_independence_bound_clique_free_graphs.pdf](openai_2026_logarithmic_independence_bound_clique_free_graphs.pdf),
-and the release's TeX bundle sits in the same release folder.
+and the release's TeX bundle sits in the same release folder. The license term
+was read in the release's root `LICENSE` file at that revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:A-Logarithmic-Independence-Bound-for-Clique-Free-Graphs-September-25-2026,
@@ -274,10 +275,17 @@ release folder holds no `verification/` directory for this manuscript.
   (`propext`, `Classical.choice` and `Quot.sound` only), and what it settles
   is recorded on Problem 802's claim page.
 - [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]:
-  context. The page's lower bound comes from Shearer's 1995 Corollary 1 at
-  $r=4$ through the neighborhood argument; Proposition 6.1 is a claimed
-  maximum-degree bound of the same kind without the $\log\log$ factor. The
-  manuscript does not name this problem. Unverified here.
+  input. Theorem 1.1 at $r=4$, accepted on Problem 802's claim page, gives
+  $f(n)\gg\sqrt{n\log n}$ for the Erdős--Rogers function through the
+  neighborhood argument: a vertex of degree at least $\sqrt{n\log n}$ has a
+  triangle-free neighborhood, and otherwise the average degree is below that
+  bound and the independence bound applies. The problem page records the
+  deduction. It is the lower half of the pending
+  Morris--Sahasrabudhe--Verstraëte claim, reached without the
+  Joret--Micek--Reed--Smid theorem, and it leaves the upper bound open.
+  Proposition 6.1 would give the same bound directly from maximum degree. The
+  manuscript does not name this problem. The deduction is not formalized, and
+  this card's own reading of the manuscript is unverified.
 - [[extremal_graph_theory/ajtai_1981_turan_s_theorem_sparse_graphs/conjecture_3|Ajtai--Erdős--Komlós--Szemerédi, display (3)]]:
   the conjecture Theorem 1.1 claims to prove for every fixed $p=r\ge4$,
   with $c_r=1/(16D_r)$ in place of the paper's $c_p$; the manuscript cites
@@ -285,9 +293,10 @@ release folder holds no `verification/` directory for this manuscript.
 - [[extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_2|Shearer 1995, Corollary 2]]:
   the bound the manuscript names as the one it improves, by removing the
   $\log\log d$ denominator for average degree $d\ge2$ with an explicit
-  threshold in place of "large $d$". Claimed only; unverified here.
-  Shearer's corollary remains the best bound in the refereed record unless
-  and until the claim is accepted.
+  threshold in place of "large $d$". The improvement, Theorem 1.1, is
+  accepted with formalized evidence on Problem 802's claim page; the
+  manuscript is unrefereed, so Shearer's corollary remains the best bound in
+  the refereed record. This card's own reading is unverified.
 - [[extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_1|Shearer 1995, Corollary 1]]:
   Proposition 6.1 is the maximum-degree analogue, for real $\Delta\ge3$
   and all $n$, with $n\log\Delta/(4D_r\Delta)$ in place of

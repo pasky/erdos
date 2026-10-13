@@ -33,7 +33,8 @@ OpenAI, *The Quasi-Riemann Hypothesis*, OpenAI Math Release preprint, October 5,
 `paper2.pdf` in the release, is retained as
 [openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_11_12.pdf](openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_11_12.pdf),
 and the release's TeX bundle in that folder is the TeX source cited on this
-card.
+card. The license term was read in the release's root `LICENSE` file at that
+revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:The-Quasi-Riemann-Hypothesis-October-5-2026,

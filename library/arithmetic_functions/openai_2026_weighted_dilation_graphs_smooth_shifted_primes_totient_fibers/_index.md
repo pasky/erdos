@@ -36,7 +36,9 @@ License 2.0 at <https://github.com/openai/math> (revision adc7f1241), folder
 `preprints/Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026`;
 the held PDF, `paper.pdf` in the release, is retained as
 [openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers.pdf](openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers.pdf),
-and the release's TeX bundle sits beside `paper.pdf` in that folder.
+and the release's TeX bundle sits beside `paper.pdf` in that folder. The license
+term was read in the release's root `LICENSE` file at that revision on
+2026-10-13.
 
 ```bibtex
 @misc{OAI:Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026,

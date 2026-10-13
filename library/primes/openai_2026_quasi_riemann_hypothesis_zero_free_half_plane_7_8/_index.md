@@ -35,7 +35,8 @@ at <https://github.com/openai/math> (revision adc7f1241), folder
 `paper.pdf` in the release, is retained as
 [openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_7_8.pdf](openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_7_8.pdf),
 and the release's TeX bundle in that folder is the TeX source cited on this
-card.
+card. The license term was read in the release's root `LICENSE` file at that
+revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:The-Quasi-Riemann-Hypothesis-September-30-2026,

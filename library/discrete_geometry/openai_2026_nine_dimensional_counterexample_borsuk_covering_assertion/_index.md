@@ -31,7 +31,8 @@ License 2.0 at <https://github.com/openai/math> (revision adc7f1241), folder
 `preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026`;
 the held PDF, `paper.pdf` in the release, is retained as
 [openai_2026_nine_dimensional_counterexample_borsuk_covering_assertion.pdf](openai_2026_nine_dimensional_counterexample_borsuk_covering_assertion.pdf),
-and the release's TeX bundle sits in the same folder.
+and the release's TeX bundle sits in the same folder. The license term was read
+in the release's root `LICENSE` file at that revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026,

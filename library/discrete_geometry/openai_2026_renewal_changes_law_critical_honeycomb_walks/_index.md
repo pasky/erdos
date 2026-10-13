@@ -44,7 +44,8 @@ Release preprint, September 26, 2026. Released under the Apache License 2.0 at
 `preprints/Renewal-and-changes-of-law-for-critical-honeycomb-walks-September-26-2026`;
 the held PDF, `main.pdf` in the release, is retained as
 [openai_2026_renewal_changes_law_critical_honeycomb_walks.pdf](openai_2026_renewal_changes_law_critical_honeycomb_walks.pdf),
-and the release's TeX bundle sits in the same folder.
+and the release's TeX bundle sits in the same folder. The license term was read
+in the release's root `LICENSE` file at that revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:Renewal-and-changes-of-law-for-critical-honeycomb-walks-September-26-2026,

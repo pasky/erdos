@@ -36,7 +36,9 @@ License 2.0 at <https://github.com/openai/math> (revision adc7f1241), folder
 `preprints/Squarefree-values-of-quartics-and-power-free-values-of-polynomials-September-24-2026`;
 the held PDF, `manuscript.pdf` in the release, is retained as
 [openai_2026_squarefree_values_quartics_power_free_values_polynomials.pdf](openai_2026_squarefree_values_quartics_power_free_values_polynomials.pdf),
-and the release's TeX bundle sits beside `manuscript.pdf` in that folder.
+and the release's TeX bundle sits beside `manuscript.pdf` in that folder. The
+license term was read in the release's root `LICENSE` file at that revision on
+2026-10-13.
 
 ```bibtex
 @misc{OAI:Squarefree-values-of-quartics-and-power-free-values-of-polynomials-September-24-2026,

@@ -31,7 +31,8 @@ preprint, September 25, 2026. Released under the Apache License 2.0 at
 held PDF, `main.pdf` in the release, is retained as
 [openai_2026_positive_lower_density_large_prime_gaps.pdf](openai_2026_positive_lower_density_large_prime_gaps.pdf),
 and the release's TeX bundle in that folder is the TeX source cited on this
-card.
+card. The license term was read in the release's root `LICENSE` file at that
+revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:Positive-lower-density-of-large-prime-gaps-September-25-2026,

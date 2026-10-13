@@ -35,7 +35,8 @@ September 23, 2026. Released under the Apache License 2.0 at
 `paper.pdf` in the release, is retained as
 [openai_2026_circulant_hadamard_conjecture.pdf](openai_2026_circulant_hadamard_conjecture.pdf),
 and the release's TeX bundle in that folder is the TeX source cited on this
-card.
+card. The license term was read in the release's root `LICENSE` file at that
+revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:The-circulant-Hadamard-conjecture-September-23-2026,

@@ -30,7 +30,8 @@ preprint, September 23, 2026. Released under the Apache License 2.0 at
 `preprints/Universal-optimality-of-the-triangular-lattice-September-23-2026`;
 the held PDF, `paper.pdf` in the release, is retained as
 [openai_2026_universal_optimality_triangular_lattice.pdf](openai_2026_universal_optimality_triangular_lattice.pdf),
-and the release's TeX bundle sits in the same folder.
+and the release's TeX bundle sits in the same folder. The license term was read
+in the release's root `LICENSE` file at that revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:Universal-optimality-of-the-triangular-lattice-September-23-2026,

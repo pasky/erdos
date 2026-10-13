@@ -37,6 +37,8 @@ the held PDF,
 release, is retained as
 [openai_2026_asymptotic_formula_number_totients.pdf](openai_2026_asymptotic_formula_number_totients.pdf),
 and the release's TeX bundle in the same folder is the TeX source cited below.
+The license term was read in the release's root `LICENSE` file at that revision
+on 2026-10-13.
 
 ```bibtex
 @misc{OAI:An-asymptotic-formula-for-the-number-of-totients-September-25-2026,

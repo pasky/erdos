@@ -87,8 +87,12 @@ consumed in this section. None was checked here.
   Corollary 1 at $r=4$ fed through the neighborhood argument (a vertex of
   degree at least $D$ has a triangle-free neighborhood; otherwise a
   maximum-degree bound gives a large independent set). The manuscript
-  names neither the problem nor the function. Unverified here; the page's
-  status rests on acceptance evidence.
+  names neither the problem nor the function. The page records the
+  deduction through
+  [[extremal_graph_theory/openai_2026_logarithmic_independence_bound_clique_free_graphs/theorem_1_1|Theorem 1.1]],
+  the average-degree form accepted on Problem 802's claim page, which gives
+  $f(n)\gg\sqrt{n\log n}$; this proposition would give it directly.
+  Unverified here; the page's status rests on acceptance evidence.
 - [[extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_1|Shearer 1995, Corollary 1]]:
   the refereed maximum-degree bound $\alpha\ge c(r)n\ln d/(d\ln\ln d)$ for
   large $d$ that this proposition claims to improve by a $\ln\ln d$ factor,

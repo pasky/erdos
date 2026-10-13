@@ -34,7 +34,8 @@ preprint, September 25, 2026. Released under the Apache License 2.0 at
 `preprints/A-quadratic-bound-for-Jacobsthals-function-September-25-2026`; the
 held PDF, `paper.pdf` in the release, is retained as
 [openai_2026_quadratic_bound_jacobsthal_function.pdf](openai_2026_quadratic_bound_jacobsthal_function.pdf),
-and the release's TeX bundle sits in the same release folder.
+and the release's TeX bundle sits in the same release folder. The license term
+was read in the release's root `LICENSE` file at that revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:A-quadratic-bound-for-Jacobsthals-function-September-25-2026,

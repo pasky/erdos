@@ -35,7 +35,8 @@ September 26, 2026. Released under the Apache License 2.0 at
 `preprints/Bounded-Step-Walks-on-Gaussian-Primes-September-26-2026`; the held
 PDF, `paper.pdf` in the release, is retained as
 [openai_2026_bounded_step_walks_gaussian_primes.pdf](openai_2026_bounded_step_walks_gaussian_primes.pdf),
-and the release's TeX bundle sits in the same release folder.
+and the release's TeX bundle sits in the same release folder. The license term
+was read in the release's root `LICENSE` file at that revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:Bounded-Step-Walks-on-Gaussian-Primes-September-26-2026,

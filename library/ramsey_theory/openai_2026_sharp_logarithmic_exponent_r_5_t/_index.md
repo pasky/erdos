@@ -39,7 +39,8 @@ preprint, September 24, 2026. Released under the Apache License 2.0 at
 `preprints/The-Sharp-Logarithmic-Exponent-of-r-5-t-September-24-2026`; the held
 PDF, `paper.pdf` in the release, is retained as
 [openai_2026_sharp_logarithmic_exponent_r_5_t.pdf](openai_2026_sharp_logarithmic_exponent_r_5_t.pdf),
-and the release's TeX bundle sits in the same release folder.
+and the release's TeX bundle sits in the same release folder. The license term
+was read in the release's root `LICENSE` file at that revision on 2026-10-13.
 
 ```bibtex
 @misc{OAI:The-Sharp-Logarithmic-Exponent-of-r-5-t-September-24-2026,
