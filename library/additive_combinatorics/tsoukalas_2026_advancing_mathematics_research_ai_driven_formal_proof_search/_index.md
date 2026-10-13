@@ -6,7 +6,7 @@ desc: |
   appendix proves all nine informally. Cited; no file held.
 license: CC-BY-NC-ND-4.0
 created: 2026-10-13T10:06:04Z
-updated: 2026-10-13T10:06:04Z
+updated: 2026-10-13T11:56:24Z
 ---
 
 # additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search
@@ -52,6 +52,12 @@ theorem.
 
 ***
 
+# additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search
+
+# additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search
+
+# additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search
+
 George Tsoukalas, Anton Kovsharov, Sergey Shirobokov, Anja Surina, Moritz
 Firsching, Gergely Bérczi, Francisco J. R. Ruiz, Arun Suggala, Adam Zsolt
 Wagner, Eric Wieser, Lei Yu, Aja Huang, Miklós Z. Horváth, Andrew Ferraiuolo,
@@ -67,7 +73,8 @@ published one, as the DOI's Crossref record gives it; the preprint prints Edward
 Lockhart before Codrut Grosu.
 
 **Versions read.** The Science article and its supplementary text were not
-read: the publisher's site answered with HTTP 403. Checked against the
+read: the publisher's site answered with HTTP 403 on 13 October 2026. Checked
+against the
 published version are the Crossref record's title, author list, volume, issue,
 pages 234--239, date 2026-10-08 and abstract; the abstract reports the
 preprint's counts (nine of 353 open Erdős problems, 44 of 492 OEIS conjectures)
@@ -141,8 +148,11 @@ Each Lean file imports formal-conjectures' utilities and proves a theorem
 `target_theorem_0`, the formal-conjectures statement with its answer filled in,
 with the agent's work between `EVOLVE-BLOCK` markers. The target statements and
 the definitions they use were read in the files; nothing was built or audited
-here, so no kernel credit is claimed. The repository's
-`erdos_problems_attempted.txt` lists the statement names attempted.
+here, so no kernel credit is claimed. The repository's list of the statement
+names attempted,
+[`erdos_problems_attempted.txt`](https://github.com/google-deepmind/alphaproof-nexus-results/blob/science-submission/erdos_problems_attempted.txt),
+is not in the commit cited above: a later commit, `a1912f87` of 2026-05-20,
+added it, and it is cited here at the tag `science-submission`.
 
 ## Discrepancies in the paper and its repository
 
@@ -179,7 +189,8 @@ those that concern it.
    each exponent, which is what the stated consequence needs and what the Lean
    target states.
 6. **The attempted list omits five of the solved statements.**
-   `erdos_problems_attempted.txt` has 353 names, matching the count of B.2, but
+   `erdos_problems_attempted.txt`, at the tag `science-submission`, has 353
+   names, matching the count of B.2, but
    omits five of the nine statements proved: `erdos_12.parts.i`,
    `erdos_12.parts.ii`, `erdos_152`, `erdos_26.variants.tenenbaum` and
    `erdos_846`.

@@ -27,7 +27,7 @@ basis; the proof's Step 2 shows that $A\cup\{0\}$ is one.
 
 **Lean.** The repository's file for this result is
 [`erdos_741.parts.ii.lean`](https://github.com/google-deepmind/alphaproof-nexus-results/blob/42f344cfa9d57154f36e6b9bef1f71760a438c54/APNOutputs/ErdosProblems/erdos_741.parts.ii.lean)
-(657 lines), cited at the repository commit of 2026-05-13. Its
+(657 lines), cited at the repository commit of 2026-05-19. Its
 `target_theorem_0` proves
 `answer(True) ↔ ∃ A : Set ℕ, IsAddBasisOfOrder (A ∪ {0}) 2 ∧ ∀ A₁ A₂, A = A₁ ∪ A₂ → Disjoint A₁ A₂ → ¬(IsSyndetic (A₁ + A₁) ∧ IsSyndetic (A₂ + A₂))`,
 formal-conjectures' `erdos_741.parts.ii`. The file builds its set by a

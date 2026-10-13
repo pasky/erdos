@@ -19,9 +19,9 @@ the published version in Science was not read. Table 1 (p. 7) lists it as
 
 ## Statement
 
-**Theorem (ii), as proved** (pp. 32--34). For every $\varepsilon\in(0,1)$
-there is an infinite set $A$ of positive integers such that no three distinct
-elements $a,b,c\in A$ with $b,c>a$ satisfy $a\mid b+c$, and
+**Theorem (ii), as printed** (p. 32). There is an infinite set $A$ of
+positive integers such that no three distinct elements $a,b,c\in A$ with
+$b,c>a$ satisfy $a\mid b+c$, and such that for every $\varepsilon>0$
 
 $$
 \lvert A\cap\{1,\ldots,N\}\rvert\ge N^{1-\varepsilon}
@@ -31,20 +31,21 @@ for all sufficiently large $N$. Consequently no absolute constant $c>0$ makes
 every such set satisfy $|A\cap\{1,\ldots,N\}|<N^{1-c}$ for infinitely many
 $N$.
 
-**Discrepancy.** The paper prints Theorem (ii) (p. 32) with the set chosen
-before $\varepsilon$: one set $A$ with
-$|A\cap\{1,\ldots,N\}|\ge N^{1-\varepsilon}$ for every $\varepsilon>0$ and all
-large $N$. Its proof does not give that. The construction fixes the exponent
-first (the proof calls it $c$) and chooses an integer $m\ge2$ with
-$m>(2m+1)^{1-\varepsilon/2}$ (p. 33), so it gives one set for each exponent, as
-stated above. That form is what the theorem's "consequently" sentence needs and
-what the Lean target states. A single set with at least $N^{1-\varepsilon}$
-elements for every $\varepsilon$ does exist, by the sharpening recorded on the
-problem page, but this proof does not supply it.
+**As proved** (pp. 32--34). For every $\varepsilon\in(0,1)$ there is an
+infinite set $A$ with the same property and
+$|A\cap\{1,\ldots,N\}|\ge N^{1-\varepsilon}$ for all sufficiently large $N$:
+one set for each $\varepsilon$, not one set for every $\varepsilon$. The
+construction fixes the exponent first (the proof calls it $c$) and chooses an
+integer $m\ge2$ with $m>(2m+1)^{1-\varepsilon/2}$ (p. 33), so the printed
+order of the quantifiers is stronger than the proof. The proved form is what
+the theorem's "consequently" sentence needs and what the Lean target states. A
+single set with at least $N^{1-\varepsilon}$ elements for every $\varepsilon$
+does exist, by the sharpening recorded on the problem page, but this proof
+does not supply it.
 
 **Lean.** The paper links
 [`erdos_12.parts.ii.lean`](https://github.com/google-deepmind/alphaproof-nexus-results/blob/42f344cfa9d57154f36e6b9bef1f71760a438c54/APNOutputs/ErdosProblems/erdos_12.parts.ii.lean)
-(794 lines), cited at the repository commit of 2026-05-13. Its
+(794 lines), cited at the repository commit of 2026-05-19. Its
 `target_theorem_0` proves `answer(False)` for formal-conjectures'
 `erdos_12.parts.ii`, that is, it refutes the existence of some $c>0$ such that
 for every set `A` with `IsGood A` the set of $N$ with

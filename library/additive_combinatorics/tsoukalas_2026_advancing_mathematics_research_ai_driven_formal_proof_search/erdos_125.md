@@ -30,7 +30,7 @@ density $0$ as well, or it has positive upper density and so no density.
 
 **Lean.** The paper (p. 35) gives
 [`erdos_125.variants.positive_lower_density.lean`](https://github.com/google-deepmind/alphaproof-nexus-results/blob/42f344cfa9d57154f36e6b9bef1f71760a438c54/APNOutputs/ErdosProblems/erdos_125.variants.positive_lower_density.lean)
-(370 lines), cited at the repository commit of 2026-05-13, as the Lean proof.
+(370 lines), cited at the repository commit of 2026-05-19, as the Lean proof.
 Its `target_theorem_0` proves `answer(False) ↔ 0 < (A + B).lowerDensity`,
 formal-conjectures' `erdos_125.variants.positive_lower_density`, through the
 lemmas `A_B_gap`, `dirichlet_approx`, `scale_step`, `density_multi_scale` (for

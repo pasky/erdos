@@ -29,7 +29,7 @@ $\epsilon=1/2$.
 
 **Lean.** The paper (p. 42) gives
 [`erdos_846.lean`](https://github.com/google-deepmind/alphaproof-nexus-results/blob/42f344cfa9d57154f36e6b9bef1f71760a438c54/APNOutputs/ErdosProblems/erdos_846.lean)
-(923 lines), cited at the repository commit of 2026-05-13, as the Lean proof.
+(923 lines), cited at the repository commit of 2026-05-19, as the Lean proof.
 Its `target_theorem_0` proves
 `answer(False) ↔ ∀ᵉ (A : Set ℝ²) (ε > 0), A.Infinite → NonTrilinearFor A ε → WeaklyNonTrilinear A`,
 the statement `erdos_846` of formal-conjectures, whose `NonTrilinearFor A ε`

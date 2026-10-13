@@ -31,7 +31,7 @@ so $f(n)\ge(n^2-100n-16)/16$, and in particular $f(n)\to\infty$ (p. 42).
 
 **Lean.** The paper (p. 43) gives
 [`erdos_152.lean`](https://github.com/google-deepmind/alphaproof-nexus-results/blob/42f344cfa9d57154f36e6b9bef1f71760a438c54/APNOutputs/ErdosProblems/erdos_152.lean)
-(517 lines), cited at the repository commit of 2026-05-13, as the Lean proof.
+(517 lines), cited at the repository commit of 2026-05-19, as the Lean proof.
 It defines `f n` as the infimum, over Sidon sets `A ⊆ ℕ` with `A.ncard = n`, of
 the number of $s$ with $s-1\notin A+A$, $s\in A+A$ and $s+1\notin A+A$
 (natural-number subtraction), proves `f_lower_bound_div`,

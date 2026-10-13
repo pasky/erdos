@@ -136,7 +136,7 @@ negative.
 
 - `google-deepmind/alphaproof-nexus-results`,
   `APNOutputs/ErdosProblems/erdos_125.variants.positive_lower_density.lean`
-  (22,480 bytes, 370 lines; at the commit of 2026-05-13 pinned on the claim
+  (22,480 bytes, 370 lines; at the commit of 2026-05-19 pinned on the claim
   page, whose message is "Results for AlphaProof Nexus"; header
   "Copyright 2025 Google LLC"): defines the two digit sets as `A` and `B`, proves
   `lemma density_multi_scale (d : ℕ) : ∃ N > 0, (((Finset.Ico 0 N).filter (· ∈ A + B)).card : ℝ) ≤ ((11/12 : ℝ)^d) * (N : ℝ)`

@@ -35,7 +35,7 @@ bound holds for all large $N$, which is stronger.
 
 **Lean.** The paper links
 [`erdos_12.parts.i.lean`](https://github.com/google-deepmind/alphaproof-nexus-results/blob/42f344cfa9d57154f36e6b9bef1f71760a438c54/APNOutputs/ErdosProblems/erdos_12.parts.i.lean)
-(1,237 lines), cited at the repository commit of 2026-05-13. Its
+(1,237 lines), cited at the repository commit of 2026-05-19. Its
 `target_theorem_0` proves `answer(True)` for formal-conjectures'
 `erdos_12.parts.i`: some set `A` with `IsGood A` has
 `0 < liminf (|A ∩ [1,N]| / √N)`, where `IsGood A` says that `A` is infinite and

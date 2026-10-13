@@ -31,7 +31,7 @@ so $W(k+1)-W(k)\to\infty$ (pp. 35--36).
 
 **Lean.** The paper (p. 36) gives
 [`erdos_138.variants.difference.lean`](https://github.com/google-deepmind/alphaproof-nexus-results/blob/42f344cfa9d57154f36e6b9bef1f71760a438c54/APNOutputs/ErdosProblems/erdos_138.variants.difference.lean)
-(918 lines), cited at the repository commit of 2026-05-13, as the Lean proof.
+(918 lines), cited at the repository commit of 2026-05-19, as the Lean proof.
 Its `target_theorem_0` proves `answer(True)` for formal-conjectures'
 `erdos_138.variants.difference`, that `W (k + 1) - W k` tends to infinity,
 with `W` defined as the infimum of the $N$ whose two-colorings of
@@ -50,8 +50,8 @@ checked step by step; nothing here is independently reviewed.
 Start from a two-coloring of $\{1,\ldots,W(k)-1\}$ with no monochromatic
 $k$-term progression and add $k$ further integers one at a time, coloring each
 red unless that completes a red $(k+1)$-term progression and blue otherwise.
-Both colors are blocked only if a red and a blue $k$-term progression both end
-just before the new integer. Each contains a newly added integer, so both
+Both colors are blocked only if a red and a blue $k$-term progression both have
+the new integer as their next term. Each contains a newly added integer, so both
 common differences $d_R,d_B$ are at most $k-1$, and stepping back $d_B$ terms
 along the red one and $d_R$ terms along the blue one lands on the same positive
 integer, which would carry both colors (p. 36). The site's curator noted on the

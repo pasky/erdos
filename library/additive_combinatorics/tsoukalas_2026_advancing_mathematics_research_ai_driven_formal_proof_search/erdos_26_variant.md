@@ -42,7 +42,7 @@ it, which the paper says Ruzsa's simpler counterexample had already resolved
 **Discrepancy: the Lean file states a different bound.** The paper (p. 40)
 gives
 [`erdos_26.variants.tenenbaum.lean`](https://github.com/google-deepmind/alphaproof-nexus-results/blob/42f344cfa9d57154f36e6b9bef1f71760a438c54/APNOutputs/ErdosProblems/erdos_26.variants.tenenbaum.lean)
-(1,066 lines), cited at the repository commit of 2026-05-13, as the Lean proof.
+(1,066 lines), cited at the repository commit of 2026-05-19, as the Lean proof.
 Its `target_theorem_0` proves `answer(False)` for formal-conjectures'
 `erdos_26.variants.tenenbaum`, that every strictly increasing thick
 `A : ℕ → ℕ` has, for every $\varepsilon>0$, a shift `k` with

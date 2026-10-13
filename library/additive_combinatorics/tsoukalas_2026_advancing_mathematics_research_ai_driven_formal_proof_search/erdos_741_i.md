@@ -32,7 +32,7 @@ above.
 **Discrepancy: the linked Lean file proves the exact-density answer.** The
 paper (p. 37) gives
 [`erdos_741.parts.i.lean`](https://github.com/google-deepmind/alphaproof-nexus-results/blob/42f344cfa9d57154f36e6b9bef1f71760a438c54/APNOutputs/ErdosProblems/erdos_741.parts.i.lean)
-(1,504 lines), cited at the repository commit of 2026-05-13, as the Lean proof
+(1,504 lines), cited at the repository commit of 2026-05-19, as the Lean proof
 of the upper-density statement. The file does not prove it. Its
 `target_theorem_0` proves
 `answer(False) ↔ ∀ A : Set ℕ, HasPosDensity (A + A) → ∃ A₁ A₂, A = A₁ ∪ A₂ ∧ Disjoint A₁ A₂ ∧ HasPosDensity (A₁ + A₁) ∧ HasPosDensity (A₂ + A₂)`,

@@ -40,12 +40,12 @@ question has the answer no (the counterexample on the
 the formal-conjectures file under Formalization lists the lower-density
 reading as an open variant (`erdos_741.variants.lower`).
 
-**Status.** Proved. The site labeled the problem SOLVED (LEAN), and the suffix is
-a catalog label explained under Formalization. Both questions are answered yes.
-The first is answered under the upper-density reading of the Formulation. The
-second is answered by an explicit basis of order $2$ that no bipartition splits
-into two self-sumsets with bounded gaps. There are three claim pages. The first
-is
+**Status.** Proved. The site labeled the problem SOLVED (LEAN), and the suffix
+is a catalog label explained under Formalization. Both questions are answered
+yes. The first is answered under the upper-density reading of the Formulation.
+The second is answered by an explicit basis of order $2$ that no bipartition
+splits into two self-sumsets with bounded gaps. There are three claim pages. The
+first is
 [[problems/additive_combinatorics/E0741/claims/2026_03_31_deepmind|Google DeepMind's three Lean proofs]],
 found by its AlphaProof Nexus system, which the thread calls a DeepMind prover
 agent, and posted on the site's thread by Moritz Firsching. It is a full claim,
@@ -90,7 +90,7 @@ with $A\cup\{0\}$ as the basis of order $2$ (`parts.ii`, solved with answer
 true); the last two proofs are in Moritz Firsching's fork at its commit of
 2026-03-31. The development `src/latest/ErdosProblems/Erdos741.lean` of Boris
 Alexeev's lean-proofs repository (first added 2026-05-13) restates the three
-theorems. DeepMind's results repository, at its commit of 2026-05-13, holds a
+theorems. DeepMind's results repository, at its commit of 2026-05-19, holds a
 Lean file for each part; the file that [TKS26] gives for the upper-density
 answer proves the exact-density answer instead, and for the second part
 [TKS26] links a file of Problem 12. All are pinned on the

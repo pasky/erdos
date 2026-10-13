@@ -370,7 +370,7 @@ built or kernel-checked here, no statement-fidelity review exists, and the
 with the site's wording as stated under Formulation. The Lean files that
 [TKS26] links, `erdos_12.parts.i.lean` (1,237 lines) and
 `erdos_12.parts.ii.lean` (794 lines) in DeepMind's results repository, pinned
-on the claim page at its commit of 2026-05-13, prove the same two
+on the claim page at its commit of 2026-05-19, prove the same two
 formal-conjectures statements as `target_theorem_0` by different files; the
 first builds its set from congruence conditions alone, without the
 progression-free blocks the paper's prose describes. They were read statically,
