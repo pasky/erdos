@@ -65,8 +65,8 @@ question, which it calls related to the estimation of the divisor chains $H(n)$
 of Problem 696.
 
 Hall's paper is not held; no proof is compiled and no independent review is
-recorded, so the account rests on the publication record and the site's
-credit. A Lean formalization of Hall's theorem by Codex and
+recorded, so the account rests on the publication record and the site's credit
+(page accessed 2026-10-07). A Lean formalization of Hall's theorem by Codex and
 GPT-5.6 Sol, in Boris Alexeev's repository of Lean proofs, is linked on the
 claim page; it has not been built here.
 <!-- BEGIN problem library links -->

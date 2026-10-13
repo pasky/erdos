@@ -49,7 +49,7 @@ tree embeddings; the lower estimate constructs a random polynomial graph
 and controls how many embeddings can share a root tuple. See §2.2 for the
 balanced trees and §2.3 for the lower-bound proof. Only the statements and
 introductory explanation on pp. 2–3 were checked here, not those complete
-proofs. The current arXiv record still selects v2.
+proofs. On 2026-09-05 the arXiv record still selected v2.
 
 ## Kang–Kim–Liu: single graphs and the general lower input
 

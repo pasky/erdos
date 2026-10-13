@@ -38,7 +38,7 @@ bipartite graphs. arXiv:1401.6711 (2014). The site's reference key CFS14b.
 
 **Edition read.** The copy read for this card is arXiv:1401.6711v1 (27 January
 2014; 4 pages), the only arXiv version: the
-abstract page and the arXiv API record, list no later
+abstract page and the arXiv API record, read on 2026-09-18, list no later
 version and no journal reference. A text-layer PDF, whose pp. 1--3 were read
 on the rendered page images. No journal record of this note was found by a
 Crossref bibliographic query on 2026-09-18; the discussion thread of Problem

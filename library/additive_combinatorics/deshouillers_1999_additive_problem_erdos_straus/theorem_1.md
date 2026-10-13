@@ -68,11 +68,11 @@ the unique admissible subset of $[1,N]$ of largest size.
 
 **Source.** J.-M. Deshouillers and G. A. Freiman, *On an additive problem of
 Erdős and Straus, 2*, in Structure theory of set addition, Astérisque 258, Soc.
-Math. France (1999), 141–148 (the Numdam record, gives MR 1701192 and Zbl
-0979.11005; the article's own DOI is 10.24033/ast.442, per its Crossref record
-read 2026-10-07); the copy read is the Numdam file, 9 pages, printed p. $n$ on
-PDF p. $n-139$. The introduction and Theorems 1 and 2 with the remark on printed
-pp. 141–142 (PDF pp. 2–3), read on the page images.
+Math. France (1999), 141–148 (the Numdam record, read 2026-09-18, gives MR
+1701192 and Zbl 0979.11005; the article's own DOI is 10.24033/ast.442, per its
+Crossref record read 2026-10-07); the copy read is the Numdam file, 9 pages,
+printed p. $n$ on PDF p. $n-139$. The introduction and Theorems 1 and 2 with the
+remark on printed pp. 141–142 (PDF pp. 2–3), read on the page images.
 
 **Read depth.** Claims checked: the definition, the historical account,
 Theorem 1, Theorem 2 and the remark were read clause by clause on the page

@@ -95,7 +95,7 @@ https://www.erdosproblems.com/544, accessed 2026-09-18.
   Library home:
   [[../library/graph_coloring/graver_yackel_1968_graph_theoretic_results_associated_ramsey_theorem/corollary_4|Corollary 4]].
 - [OpenAI26] OpenAI, On the ratio of $R(k,\ell)$ and $R(k,\ell+1)$.
-  Three-page manuscript hosted at cdn.openai.com;
+  Three-page manuscript hosted at cdn.openai.com (retrieved 2026-09-18);
   Remark 1, p. 1; the proof is attributed by its abstract to an internal
   model at OpenAI. Library home:
   [[../library/ramsey_theory/openai_2026_ratio_consecutive_ramsey_numbers/remark_1|Remark 1]].
@@ -121,15 +121,16 @@ https://www.erdosproblems.com/544, accessed 2026-09-18.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/544.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/544.lean)
-of formal-conjectures (main) declares `erdos_544.parts.i : Tendsto (fun k : ℕ ↦
+of formal-conjectures (main, fetched 2026-09-18) declares
+`erdos_544.parts.i : Tendsto (fun k : ℕ ↦
 (SimpleGraph.classicalRamsey 3 (k + 1) : ℝ) - (SimpleGraph.classicalRamsey 3 k :
 ℝ)) atTop atTop` and `erdos_544.parts.ii : answer(sorry) ↔ (fun k : ℕ ↦
 (SimpleGraph.classicalRamsey 3 (k + 1) : ℝ) - (SimpleGraph.classicalRamsey 3 k :
 ℝ)) =o[atTop] (fun k : ℕ ↦ (k : ℝ))`, both under `category research open` with
-proof `sorry`. The community database records the problem open (record last
-updated 31 August 2025), the statement formalized since 9 September 2026, no
-formal proof and OEIS A000791; the site's indicator shows the statement as
-formalized. Nothing was built.
+proof `sorry`. The community database (fetched 2026-09-18) records the problem
+open (record last updated 31 August 2025), the statement formalized since 9
+September 2026, no formal proof and OEIS A000791; the site's indicator shows
+the statement as formalized (it did not on 2026-09-05). Nothing was built.
 
 ## Current assessment
 

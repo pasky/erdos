@@ -36,7 +36,7 @@ taken.
 The retained
 [folder-name PDF](gpt_5_5_pro_2026_totient_fibre_extremes.pdf) is that
 file, five pages with a complete text layer, read on the rendered page
-images. Provenance: retrieved from
+images. Provenance: retrieved 2026-09-05 from
 <https://github.com/Shashi456/erdos-formalizations/blob/main/Erdos/P694/proof.pdf>
 as part of the survey download set of September 2026; 223,768 bytes. No notice
 is printed in the file; the hosting repository's LICENSE file and its README

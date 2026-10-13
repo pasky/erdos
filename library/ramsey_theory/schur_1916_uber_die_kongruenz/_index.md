@@ -44,7 +44,7 @@ images. The text of p. 116 ends "Genügt nun das Schema ..." and p. 117
 begins "dieser Bedingung, so liefern ...", so the article is complete.
 Source: <https://gdz.sub.uni-goettingen.de/id/PPN37721857X_0025>.
 Provenance: PDF pp. 1--4 are the GDZ article download obtained on
-2026-09-04; PDF p. 5 was retrieved from
+2026-09-04; PDF p. 5 was retrieved 2026-09-19T01:40:00Z from
 <https://gdz.sub.uni-goettingen.de/content/PPN37721857X_0025/1000/0/00000124.jpg>
 (HTTP 200, one request; the page's identity and printed number from the
 volume's METS file, one request) and wrapped as a PDF page without

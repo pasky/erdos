@@ -50,7 +50,7 @@ the repository maintainer; it does not attribute the mathematical proof to
 Adamczewski. The site credits the proof to GPT-6 Astra.
 
 **Canonical source.** The
-five-page PDF was downloaded from
+five-page PDF was downloaded 2026-09-05 from
 [the site's proof link](https://www.erdosproblems.com/static/548copy.pdf). All
 five pages were inspected. It is a preliminary exposition, not a refereed
 publication. Bloom's

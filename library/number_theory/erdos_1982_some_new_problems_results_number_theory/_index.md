@@ -52,10 +52,11 @@ The copy read for this card
 is the Rényi archive's OmniPage scan of the typewritten proceedings text:
 twenty-five pages, printed pp. 50--74 = PDF pp. 1--25 (printed p. $n$ is
 PDF p. $n-49$; the first page carries no printed number), with a text layer
-that locates passages and garbles the displays. Provenance: retrieved from <https://users.renyi.hu/~p_erdos/1982-32.pdf>
-(HTTP 200, one request); 2,013,076 bytes. No notice is printed on the
-typewritten proceedings scan; the Crossref record for DOI 10.1007/BFb0097173
-(read 2026-10-02) names Springer Berlin Heidelberg as publisher and only its
+that locates passages and garbles the displays. Provenance: retrieved
+2026-09-18T05:52:34Z from <https://users.renyi.hu/~p_erdos/1982-32.pdf> (HTTP
+200, one request); 2,013,076 bytes. No notice is printed on the typewritten
+proceedings scan; the Crossref record for DOI 10.1007/BFb0097173 (read
+2026-10-02) names Springer Berlin Heidelberg as publisher and only its
 text-and-data-mining terms (http://www.springer.com/tdm), no open license, and
 the publisher's chapter page could not be read on 2026-10-02, every other right
 reserved.

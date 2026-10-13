@@ -106,21 +106,22 @@ accessed 2026-09-18.
 
 **Formalization.** Statement, with a linked outside proof. The file
 [`ErdosProblems/581.lean`](https://github.com/google-deepmind/formal-conjectures/blob/7ab1e69b6150ee9b133e43fac60533a2de8625f3/FormalConjectures/ErdosProblems/581.lean)
-of formal-conjectures (added 20 September 2026, the file's only revision; the link is pinned to it) defines `f m` as the supremum of
-the $k$ such that every triangle-free graph with $m$ edges has a bipartite
-subgraph with at least $k$ edges, and declares `erdos_581`, Alon's two-sided
-bound $m/2+c_1m^{4/5}\le f(m)\le m/2+c_2m^{4/5}$ for some $c_1,c_2>0$ and
-every $m$, under `category research solved` with proof `sorry`; its
-`formal_proof` attribute points to the file `Erdos581.lean` of the
-repository lean-proofs of Boris Alexeev, a declared formalization of Alon's
-result with explicit constants, recorded as a formalization link on
+of formal-conjectures (added 20 September 2026, the file's only revision on
+2026-10-07; the link is pinned to it) defines `f m` as the supremum of the $k$
+such that every triangle-free graph with $m$ edges has a bipartite subgraph with
+at least $k$ edges, and declares `erdos_581`, Alon's two-sided bound
+$m/2+c_1m^{4/5}\le f(m)\le m/2+c_2m^{4/5}$ for some $c_1,c_2>0$ and every $m$,
+under `category research solved` with proof `sorry`; its `formal_proof`
+attribute points to the file `Erdos581.lean` of the repository lean-proofs of
+Boris Alexeev, a declared formalization of Alon's result with explicit
+constants, recorded as a formalization link on
 [[problems/extremal_graph_theory/E0581/claims/1996_09_01_alon|Alon's claim page]].
-No `581.lean` existed when the directory was listed on 2026-09-18. The
-community database (teorth/erdosproblems) listed the problem as solved
-(record last updated 31 August 2025) and unformalized when fetched, and records the statement formalized since 20 September 2026;
-the site's indicator shows the statement as formalized and an OEIS sequence
-as possible. This corpus has not built either file, so the claim's evidence
-stays `reviewed` and `refereed`.
+No `581.lean` existed when the directory was listed on 2026-09-18. The community
+database (teorth/erdosproblems) listed the problem as solved (record last
+updated 31 August 2025) and unformalized when fetched on 2026-09-18, and records
+the statement formalized since 20 September 2026; the site's indicator shows the
+statement as formalized and an OEIS sequence as possible. This corpus has not
+built either file, so the claim's evidence stays `reviewed` and `refereed`.
 
 ## Current assessment
 
@@ -221,7 +222,7 @@ theorem, or a proof claim.
   random graphs and others; none on $f(m)$).
 - Crossref: the record of [Al96] by DOI.
 - The Rényi archive index, which lists [CEG79] as `1979-16.pdf`; the scan
-  fetched.
+  fetched 2026-09-19.
 
 Not searched: MathSciNet, zbMATH, Google Scholar, Semantic Scholar, X.
 Not held: [Er79], [Sh92], [PoTu94].

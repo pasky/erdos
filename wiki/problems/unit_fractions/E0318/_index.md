@@ -152,11 +152,11 @@ $1$ included, from $\pi^2<3.15^2$ and $\sum1/n^2=\pi^2/6$. On 18 September
 the file `Erdos318.lean` in Boris Alexeev's repository of Lean proofs (added
 16 August 2026; formal authors Codex and GPT-5.6 Sol), which proves those
 three statements and `parts.i` through the odd numbers with $2$; `parts.i` and
-`parts.ii` carry no attribute. That file is the pending page
+`parts.ii` carried no attribute on 2026-10-07. That file is the pending page
 [[problems/unit_fractions/E0318/claims/2026_08_16_alexeev|the Lean proof of the progression question]]
 and a formalization link on
 [[problems/unit_fractions/E0318/claims/1982_01_01_erdos|the Erdős page]]. The
-community database records the statement as formalized, the
+community database (read 2026-10-06) records the statement as formalized, the
 informal status solved, and the formal status Lean and the status "solved
 (Lean)", with last-update dates of 14 January 2026, 4 April 2026 and 16
 September 2026 for the three entries (dates of the entries' last updates, not
@@ -178,7 +178,7 @@ an observation that [Sa82] attributes to Erdős and that presumably postdates
 the monograph; [Sa82b] answers the arithmetic-progression question in the
 affirmative; both 1982 papers announce a proof for the squares other than $1$
 that was never published; and Larsen has proved that case. The proof-claim tab
-is empty. The community database record: solved, statement
+is empty. The community database record (read 2026-10-06): solved, statement
 formalized, formal status Lean and status "solved (Lean)", with the entries
 last updated on 4 April 2026, 14 January 2026 and 16 September 2026
 respectively, no OEIS entry.

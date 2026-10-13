@@ -92,5 +92,5 @@ correction to the stronger consecutive-even-lengths proof are in a note
 whose output is not recorded. Because the file names this paper's authors
 as the informal authors, it is a link on this page and not its own claim;
 this corpus has not built, audited or kernel-checked it, so it is no
-`formalized` evidence. The formal-conjectures repository holds no statement
-of the problem.
+`formalized` evidence. On 2026-10-07 the formal-conjectures repository held no
+statement of the problem.

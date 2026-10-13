@@ -107,13 +107,12 @@ Erdős Problem #611, https://www.erdosproblems.com/611, accessed 2026-09-19.
 - [Er94] Erdős, P., Problems and results on set systems and hypergraphs.
   Extremal problems for finite sets (Visegrád, 1991), Bolyai Soc. Math. Stud.
   3, János Bolyai Math. Soc., Budapest (1994), 217--227 (the site's reference
-  text at `/bibs/Er94` gives "(1994),
-  217-227. (MR 1319165)"; the volume and publisher from the graphs problem
-  collection's bibliography). Not held: a 1994 volume chapter after the Rényi
-  archive's cutoff (on 2026-09-19 the archive's index listed no paper
-  after 1989), with no open copy identified. The graphs problem collection's
-  page "SublinearCliqueTransversal" gives it as the source of
-  the first question.
+  text at `/bibs/Er94`, read 2026-09-19, gives "(1994), 217-227. (MR 1319165)";
+  the volume and publisher from the graphs problem collection's bibliography).
+  Not held: a 1994 volume chapter after the Rényi archive's cutoff (on
+  2026-09-19 the archive's index listed no paper after 1989), with no open copy
+  identified. The graphs problem collection's page "SublinearCliqueTransversal"
+  (read 2026-09-19) gives it as the source of the first question.
 - [Er99] Erdős, P., A selection of problems and results in combinatorics.
   Combin. Probab. Comput. 8 (1999), 1--6. Not held; no open copy identified.
 - [BoEr90] Bollobás, B., Erdős, P., Gallai, T. and Tuza, Zs., the theorem of

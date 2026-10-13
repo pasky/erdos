@@ -142,8 +142,10 @@ of formal-conjectures at the linked commit (main on 2026-09-18) declares
 under `category research open` with proof `sorry`, and the variant
 `erdos_306.variants.integer_three_primes` (every positive integer with three
 distinct prime factors per denominator; `category research solved`, proof
-`sorry`, no `formal_proof` attribute). The community database records the problem as open (31 August 2025), the statement as
-formalized since 31 August 2025, and no formal proof or formal-proof URL. The database keeps that record and adds a formal-status note:
+`sorry`, no `formal_proof` attribute). The community database (read 2026-09-18)
+records the problem as open (31 August 2025), the statement as formalized since
+31 August 2025, and no formal proof or formal-proof URL. On 2026-10-07 the
+database kept that record and added a formal-status note:
 a Lean formalization by Collin Yuanjie Ren, AI-assisted, of Watanabe's
 47-term decomposition of $1$, the instance $a/b=1$ and not the general
 rational question, with a pinned link to its README; it is a formalization

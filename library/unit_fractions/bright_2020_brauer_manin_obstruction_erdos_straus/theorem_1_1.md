@@ -29,7 +29,7 @@ obstruction to the existence of natural number solutions of the equation
 Theorem 1.1 on p. 1, read on the page image; the geometric setting in
 Section 1.2 (pp. 2--5). Published as Bull. Lond. Math. Soc. 52 (2020),
 no. 4, 746--761, DOI 10.1112/blms.12374 (the arXiv listing's DOI; Crossref
-record fetched); the published version was not compared.
+record fetched 2026-09-18); the published version was not compared.
 
 **Read depth.** Claims checked: the statement and the setting of
 Section 1.2 (pp. 2--5) were read clause by clause, pp. 1--4 on the page

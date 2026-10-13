@@ -99,7 +99,8 @@ this corpus's sense: the note's Lean file at the pinned commit proves
 `sorry` or `axiom` in its text and one `native_decide`, and the
 formal-conjectures statement file (linked from the problem page, not a
 formalization of this result) marks parts (i), (ii) and (iii.a)
-`research solved`, with a `formal_proof` attribute on (iii.a) only and,`sorry` bodies throughout (since 19 September 2026 the file proves
+`research solved`, with a `formal_proof` attribute on (iii.a) only and, on
+2026-09-18, `sorry` bodies throughout (since 19 September 2026 the file proves
 parts (i) and (ii) itself); the files were neither built nor audited for
 statement fidelity here. The same order argument is the official 2015 solution
 of ELMO Problem 4, which settles (iii.a) for every shift $n\ge2$

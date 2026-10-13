@@ -109,7 +109,7 @@ Problem #815, https://www.erdosproblems.com/815, accessed 2026-09-18.
 - [DKMMZ26] Di Braccio, F., Katsamaktsis, K., Ma, J., Malekshahian, A. and
   Zhao, Z., Leaf-to-leaf paths and cycles in degree-critical graphs.
   Combinatorica 46 (2026), article 11, doi:10.1007/s00493-026-00205-2 (the
-  journal reference on the arXiv record); arXiv:2504.11656
+  journal reference on the arXiv record, 2026-09-18); arXiv:2504.11656
   (v2, 4 March 2026, marked "Journal version", 24 pp.; on its card
   [[../library/extremal_graph_theory/dibraccio_2026_leaf_to_leaf_paths_cycles_degree_critical_graphs/_index|dibraccio_2026_leaf_to_leaf_paths_cycles_degree_critical_graphs]]).
   Theorem 1, p. 2; the account of
@@ -118,7 +118,7 @@ Problem #815, https://www.erdosproblems.com/815, accessed 2026-09-18.
 
 **Formalization.** None in the catalogs. No file `ErdosProblems/815.lean` exists
 in formal-conjectures (none on 2026-09-18 or 2026-10-07); the site's indicator
-read "Formalised statement? No"; and the community database
+read "Formalised statement? No" on 2026-09-18; and the community database
 (teorth/erdosproblems, `data/problems.yaml`, 2026-10-07) lists the problem as
 disproved and not formalized, with a last update of 31 August 2025. A Lean
 development in Boris Alexeev's repository `plby/lean-proofs` declares itself a

@@ -25,7 +25,7 @@ updated: 2026-10-08T01:29:59Z
 with probability $1/2$, then $G$ almost surely contains a copy of $Q_d$ (the
 $d$-dimensional hypercube with $2^d$ vertices and $d2^{d-1}$ many edges).
 
-**Formulation.** The site's wording (the page carries no
+**Formulation.** The site's wording, accessed 2026-09-18 (the page carried no
 last-edited date). $G$ is the binomial random graph
 $G(2^d,1/2)$; "almost surely" means with probability tending to $1$ as
 $d\to\infty$; since $Q_d$ has $2^d$ vertices, a copy of $Q_d$ in $G$ is a
@@ -75,7 +75,8 @@ accessed 2026-09-18.
   subscription and no preprint was found in the search; the
   publisher's abstract is the only text of the paper read.
 - [Er90c] Erdős, P., Some recent combinatorial problems. Technical Report,
-  University of Bielefeld (1990) (the site's reference text). Not held: not in the Rényi archive, which stops at 1989, and
+  University of Bielefeld (1990) (the site's reference text, read
+  2026-09-18). Not held: not in the Rényi archive, which stops at 1989, and
   no other copy was found; Chung's survey cites it as "Nov. 1990".
 - [Ch97] Chung, F. R. K., Open problems of Paul Erdős in graph theory. J.
   Graph Theory 25 (1997), 3--36; Problem (80), p. 21 of the author preprint.
@@ -91,11 +92,11 @@ accessed 2026-09-18.
 `ErdosProblems/578.lean` exists in formal-conjectures (main, fetched 2026-09-18;
 the directory listing and the recursive tree were checked); the site's page
 shows the statement as not formalized, and the community database
-(teorth/erdosproblems, `data/problems.yaml`) records the problem as proved (last
-update 31 August 2025), not formalized, no formal proof. Outside
-formal-conjectures, Boris Alexeev's public lean-proofs repository holds a Lean 4
-development `Erdos578.lean`, added on 2026-08-17, that declares itself a
-formalization of a solution to this problem, names Riordan as its informal
+(teorth/erdosproblems, `data/problems.yaml` fetched 2026-09-18) records the
+problem as proved (last update 31 August 2025), not formalized, no formal proof.
+Outside formal-conjectures, Boris Alexeev's public lean-proofs repository holds
+a Lean 4 development `Erdos578.lean`, added on 2026-08-17, that declares itself
+a formalization of a solution to this problem, names Riordan as its informal
 author and Codex and GPT-5.6 Sol as its formal authors; its theorem `erdos_578`
 states that the probability that the uniform random graph on $2^d$ labelled
 vertices contains a spanning $d$-cube tends to $1$, the $p=1/2$ statement. The
@@ -188,8 +189,8 @@ condition: a lawful copy, whose
 theorem would then be paged with its number, page, quantifiers and proof
 pointer, and this page's status support rewritten from it. (2) [Er90c], the
 site's source of the conjecture, is not held; the attribution is second-hand
-through [Ch97]. (3) [AlFu92] is not held. (4) There is no formal-conjectures
-statement of the problem; the external Lean proof of the
+through [Ch97]. (3) [AlFu92] is not held. (4) There was no formal-conjectures
+statement of the problem on 2026-09-18; the external Lean proof of the
 $p=1/2$ statement in Alexeev's repository (2026-08-17) is not built or
 audited by the corpus.
 

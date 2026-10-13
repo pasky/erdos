@@ -32,7 +32,7 @@ online 28 June 2016); preprint
 [arXiv:1606.02117](https://arxiv.org/abs/1606.02117).
 
 The copy read for this card is
-the arXiv version v1 (7 June 2016, the only arXiv version),
+the arXiv version v1 (7 June 2016, the only arXiv version on 2026-09-17),
 nine physical pages numbered 1--9: the arXiv:1606.02117v1 PDF
 (<https://arxiv.org/pdf/1606.02117v1>); 107,870
 bytes. The journal version was not obtained and has not been

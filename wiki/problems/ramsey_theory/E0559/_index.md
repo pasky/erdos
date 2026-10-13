@@ -167,8 +167,9 @@ many $n$), Tikhomirov's bound, the Friedman--Pippenger tree case and the
 Draganić--Petrova upper bound. The statement file is a statement, not a
 formalization, and adds no evidence; the third-party proof was not built
 by this corpus. The site's page records a formalized statement (linking
-that file), and the community database (teorth/erdosproblems) records the problem as
-disproved (last updated 31 August 2025) and formalized since 20 September 2026.
+that file), and the community database (teorth/erdosproblems, read 2026-10-06)
+records the problem as disproved (last updated 31 August 2025) and formalized
+since 20 September 2026.
 
 ## Current assessment
 
@@ -193,7 +194,7 @@ whether Erdős repeated it; a comment of 26 October 2025 (which says it
 asked ChatGPT and Gemini for sources) reports that Chung's survey attributes
 the problem to Beck and Erdős, with the 1990 volume Mathematics of Ramsey
 Theory as its reference. There are no proof claims.
-The community database record says disproved (31
+The community database record (read 2026-10-06) says disproved (31
 August 2025) and formalized (20 September 2026).
 
 **The disproof.**

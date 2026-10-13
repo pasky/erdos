@@ -129,11 +129,11 @@ T. F. Bloom, Erdős Problem #76, https://www.erdosproblems.com/76, accessed
   $K_n$ for any 2-coloring of the edges of $K_n$", values $0,0,0,1,2,2,3,4,6$
   for $n=3,\ldots,11$, citing [EFGJL01] (record accessed 2026-09-18).
 
-**Formalization.** None. No file for this problem exists in
-google-deepmind/formal-conjectures (main; the directory
-`FormalConjectures/ErdosProblems/` has 673 entries there), the site's indicator
-reads "Formalised statement? No", and the community database
-(teorth/erdosproblems, accessed 2026-09-18) records the problem proved (record
+**Formalization.** None. No file for this problem existed in
+google-deepmind/formal-conjectures (main on 2026-09-18; the directory
+`FormalConjectures/ErdosProblems/` had 673 entries there), the site's indicator
+read "Formalised statement? No", and the community database
+(teorth/erdosproblems, accessed 2026-09-18) recorded the problem proved (record
 dated 31 August 2025) and not formalized, with no formal proof.
 
 ## Current assessment

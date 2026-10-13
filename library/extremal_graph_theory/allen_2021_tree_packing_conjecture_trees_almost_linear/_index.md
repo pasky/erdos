@@ -41,8 +41,8 @@ read 2026-10-02) names the Creative Commons
 Attribution-NonCommercial-NoDerivatives 4.0 license.
 
 The copy read for this card is arXiv:2106.11720v2 (20 June 2022; dated June
-22, 2022 on its first page), 157 pp. The arXiv record read
-lists a v3 of 8 September 2026 (179 pages, "a number of improvements") and
+22, 2022 on its first page), 157 pp. The arXiv record read on 2026-09-19
+listed a v3 of 8 September 2026 (179 pages, "a number of improvements") and
 no journal reference; v3 was not compared, and the locators below are v2's
 pages.
 

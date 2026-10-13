@@ -77,4 +77,4 @@ whose formal authors' headers it keeps, and on Begué's schoenflies-lean
 development, and calls the work a formalization of a known theorem. The
 community database names this submission as the Lean proof behind its proved
 (Lean) status. The formal-conjectures project has no statement file for the
-problem.
+problem (checked 2026-10-07).

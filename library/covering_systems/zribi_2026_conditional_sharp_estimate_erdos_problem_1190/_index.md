@@ -32,7 +32,7 @@ September 2026; the problem page links a Google Drive copy at
 <https://drive.google.com/file/d/1QcMV27Haw0_jvH17X1H3yofy7D6j1LVQ/view>,
 and whether the copy read was downloaded from that address was not
 recorded. No other version is known here. No notice is printed in
-that PDF, no arXiv record for the note was found (query read), and
+that PDF, no arXiv record for the note was found (query read 2026-10-02), and
 the Google Drive copy the problem page links states no terms; the term is
 unstated.
 

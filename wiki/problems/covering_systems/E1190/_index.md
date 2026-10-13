@@ -150,12 +150,12 @@ does not identify a journal publication or referee acceptance.
 
 The dated [Problem 202 discussion](https://www.erdosproblems.com/202#comments)
 records the 14 May implementations and Nat Sothanaphan's confirmation of both
-formalizations, including the Park–Pham input. The [community
-ledger](https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems)
+formalizations, including the Park–Pham input. The
+[community ledger](https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems)
 records Ho's full solution and the 14 May formalization. The site's page,
-labeled this problem SOLVED (LEAN) and records a last edit of 28 May. These
-dated records supplement the primary proof; the solved answer to the modified
-Statement does not rest on the site label alone.
+accessed 5 September 2026, labeled this problem SOLVED (LEAN) and recorded a
+last edit of 28 May. These dated records supplement the primary proof; the
+solved answer to the modified Statement does not rest on the site label alone.
 
 Two other contemporary notes posted in the
 [Problem 1190 discussion](https://www.erdosproblems.com/1190#comments)

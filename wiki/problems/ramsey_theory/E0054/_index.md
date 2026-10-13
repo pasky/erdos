@@ -95,7 +95,7 @@ https://www.erdosproblems.com/54, accessed 2026-09-18.
 
 - [BuEr85] Burr, S. A. and Erdős, P., A Ramsey-type property in additive
   number theory. Glasgow Math. J. 27 (1985), 5--10; DOI
-  10.1017/S0017089500006029. Theorems 1 and 2
+  10.1017/S0017089500006029 (Crossref record, 2026-09-18). Theorems 1 and 2
   on printed p. 5, Theorems 1a, 2a and 1b on p. 6, Theorem 1c on p. 7.
   Library home:
   [[../library/ramsey_theory/burr_1985_ramsey_type_property_additive_number_theory/_index|burr_1985_ramsey_type_property_additive_number_theory]];

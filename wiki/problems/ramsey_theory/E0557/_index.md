@@ -91,7 +91,7 @@ Bloom, Erdős Problem #557, https://www.erdosproblems.com/557, accessed
 proved and formalized through the proof of #548, and the community database
 lists the state proved (Lean) as of its last update on 3 September 2026. The
 site records no formalized statement, and formal-conjectures has no file
-`ErdosProblems/557.lean` (main). The underlying sharp
+`ErdosProblems/557.lean` (main on 2026-10-07). The underlying sharp
 bound appears in the
 [pinned formal source](https://github.com/tadamcz/erdos548/blob/3766491b9d9c9f00e05fde4eb004fe71af1452d1/Erdos548/Resolutions/Erdos548_192usd_21h.lean)
 of that proof; no separate formalization or Comparator target for #557

@@ -56,7 +56,8 @@ The copy read for this card is
 the Rényi archive's OmniPage scan of the typeset proceedings pages: nine
 pages, printed pp. 146--154 = PDF pp. 1--9 (printed p. $n$ is PDF
 p. $n-145$; p. 154 carries references 5--10), with a text layer that
-locates passages and garbles the displays. Provenance: retrieved from <https://users.renyi.hu/~p_erdos/1989-12.pdf>
+locates passages and garbles the displays. Provenance: retrieved
+2026-09-19T01:40:27Z from <https://users.renyi.hu/~p_erdos/1989-12.pdf>
 (HTTP 200, one request); 713,839 bytes. No notice is printed on the scanned
 pages (the first and last page images were checked); the publisher's article
 page could not be read on 2026-10-02

@@ -48,8 +48,8 @@ and lists no proof claims.
 - [St24] S. Steinerberger, *On a Problem Involving Unit Fractions*,
   [arXiv:2403.17041v5](https://arxiv.org/abs/2403.17041v5) (2024).
 
-**Formalization.** The site shows no formalized statement,
-and formal-conjectures has no file for Problem 297. Boris Alexeev's
+**Formalization.** On 2026-09-05 the site showed no formalized statement,
+and formal-conjectures had no file for Problem 297. Boris Alexeev's
 `lean-proofs` collection holds a Lean 4 file that declares itself a
 formalization of Liu and Sawhney's solution, with Codex and GPT-5.6 Sol as
 formal authors; it is linked at its pinned commit on

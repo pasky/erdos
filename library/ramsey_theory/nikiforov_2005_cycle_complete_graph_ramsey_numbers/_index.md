@@ -39,7 +39,7 @@ differently (Keevash, Long and Skokan cite the closing conjecture as
 "Conjecture 2.14 in [40]", which is Conjecture 16 here), and the journal
 pagination 349--370 does not apply to the preprint. The paper writes
 $r(C_p,K_r)$ with $p$ the cycle length and $r$ the clique order; Problem
-551 writes $R(C_k,K_n)$. Provenance: retrieved (16:07 UTC) from
+551 writes $R(C_k,K_n)$. Provenance: retrieved from
 <https://arxiv.org/pdf/math/0404501v1>, 221,958 bytes. The arXiv record carries
 no license field, so arXiv's assumed license applies (arXiv:math/0404501), every
 other right reserved.

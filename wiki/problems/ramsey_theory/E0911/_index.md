@@ -75,7 +75,7 @@ Erdős Problem #911, https://www.erdosproblems.com/911, accessed 2026-09-18.
 **Formalization.** None found. No file for this problem exists in the
 directory `FormalConjectures/ErdosProblems/` of
 google-deepmind/formal-conjectures (main, 2026-09-18), and the community
-database records the problem open, not formalized, with
+database (fetched 2026-09-18) records the problem open, not formalized, with
 no formal proof (record last updated 31 August 2025). The site's "Formalised
 statement?" indicator reads "No".
 

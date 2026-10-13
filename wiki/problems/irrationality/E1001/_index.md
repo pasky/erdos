@@ -60,8 +60,8 @@ https://www.erdosproblems.com/1001.
 - [XiZa06] Xiong, Maosheng and Zaharescu, Alexandru, A problem of
   Erdős-Szüsz-Turán on Diophantine approximation. Acta Arith. (2006), 163-177.
 
-**Formalization.** The community database records the problem
-as unformalized, and the formal-conjectures catalog has no statement file for
+**Formalization.** On 2026-10-06 the community database recorded the problem
+as unformalized, and the formal-conjectures catalog had no statement file for
 it. A third-party Lean development exists: `Erdos1001.lean` in Boris Alexeev's
 repository, whose header names Kesten and Sós as informal authors and Codex and
 GPT-5.6 Sol as formal authors, proves that the limit exists for every $A>0$ and

@@ -41,11 +41,11 @@ SOLVED, its label for a resolution that is neither a proof nor a disproof,
 although the answer is yes; the label is the site's, and the claim value
 recorded on the claim page is proved.
 
-**Status.** Solved. The site's label was SOLVED. On 2026-10-07 the page printed
-no label, and the community database listed the problem as solved (Lean), with a
-last update of 16 September 2026. The answer is yes. Kostochka and Pyber
-(Combinatorica 8 (1988), no. 1, 83--86; refereed) state Erdős's question in
-their introduction and answer it with their Theorem (p. 83): "Every
+**Status.** Solved. The site's label was SOLVED on 2026-09-18. On 2026-10-07 the
+page printed no label, and the community database listed the problem as solved
+(Lean), with a last update of 16 September 2026. The answer is yes. Kostochka
+and Pyber (Combinatorica 8 (1988), no. 1, 83--86; refereed) state Erdős's
+question in their introduction and answer it with their Theorem (p. 83): "Every
 $G[n,4^{t^2}n^{1+\varepsilon}]$ contains a $TK_t$ of size at most
 $c(\varepsilon,t)\le7t^2\log t/\varepsilon$ for all $t\in\mathbb N$ and
 $\varepsilon>0$". Here $G[n,m]$ is a graph with $n$ vertices and $m$ edges, and
@@ -194,7 +194,7 @@ hand:
   This is the first result that guarantees a subdivided $K_t$ of bounded
   size." Its [5] is the 1971 list and [11] is [KoPy88]. The paper appeared
   in the Bulletin of the London Mathematical Society, a refereed journal
-  (the arXiv record's journal reference and DOI).
+  (the arXiv record's journal reference and DOI, 2026-09-18).
 - Jiang's sharpening, as [Ja21] p. 1 states it: with $\mathcal F_{t,k}$ the
   family of graphs obtained by replacing the edges of $K_t$ by internally
   vertex-disjoint paths of length at most $k$, "Jiang [9] proved that for

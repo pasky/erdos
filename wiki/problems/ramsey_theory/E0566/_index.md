@@ -128,22 +128,22 @@ as: T. F. Bloom, Erdős Problem #566, https://www.erdosproblems.com/566, accesse
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/566.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/566.lean)
-of formal-conjectures (main) declares `erdos_566 : answer(sorry) ↔ ∀ (p : ℕ) (G
-: SimpleGraph (Fin p)), (∀ S : Finset (Fin p), 2 ≤ S.card → (G.induce
-S).edgeSet.ncard ≤ 2 * S.card - 3) → G.IsRamseySizeLinear` under `category
-research open`, with proof `sorry`. It restricts the density condition to vertex
-sets of at least two elements, so it states the modified Statement and the
-degeneracy at $k=1$ does not arise (for two vertices the natural-number
-subtraction gives the bound $1$, which is automatic), and it counts the edges of
-induced subgraphs, which is equivalent to the statement's "any subgraph" since a
-subgraph on a vertex set has at most as many edges as the induced one. Until 9
-September 2026 (formal-conjectures pull request #5352, "fix: Ramsey size
-linear") the file's conclusion bounded the size Ramsey number `sizeRamsey G H`
-by $c\cdot e(H)$, and its docstring wrote $\hat r(G,H)\ll m$; the database's
-formalized date of 8 January 2026 refers to that statement, and the statement
-described above is the one that pull request put in its place. The community
-database records the statement as formalized since 8 January 2026 and no formal
-proof; the site's formalized-statement indicator reads yes.
+of formal-conjectures (main, fetched 2026-09-17T15:40Z) declares
+`erdos_566 : answer(sorry) ↔ ∀ (p : ℕ) (G : SimpleGraph (Fin p)), (∀ S : Finset (Fin p), 2 ≤ S.card → (G.induce S).edgeSet.ncard ≤ 2 * S.card - 3) → G.IsRamseySizeLinear`
+under `category research open`, with proof `sorry`. It restricts the density
+condition to vertex sets of at least two elements, so it states the modified
+Statement and the degeneracy at $k=1$ does not arise (for two vertices the
+natural-number subtraction gives the bound $1$, which is automatic), and it
+counts the edges of induced subgraphs, which is equivalent to the statement's
+"any subgraph" since a subgraph on a vertex set has at most as many edges as the
+induced one. Until 9 September 2026 (formal-conjectures pull request #5352,
+"fix: Ramsey size linear") the file's conclusion bounded the size Ramsey number
+`sizeRamsey G H` by $c\cdot e(H)$, and its docstring wrote $\hat r(G,H)\ll m$;
+the database's formalized date of 8 January 2026 refers to that statement, and
+the statement described above is the one that pull request put in its place. The
+community database (fetched 2026-09-17) records the statement as formalized
+since 8 January 2026 and no formal proof; the site's formalized-statement
+indicator reads yes.
 
 ## Current assessment
 

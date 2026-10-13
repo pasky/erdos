@@ -89,7 +89,7 @@ theorem `erdos_435` states, for $n\ne0$ not a prime power, that the value
 above is the greatest integer outside the set of nonnegative combinations,
 and a closing comment records the axioms `propext`, `Classical.choice` and
 `Quot.sound`. The formal-conjectures statement `erdos_435` (file added
-2026-08-03) is tagged `research solved` and carries a
+2026-08-03; main on 2026-10-07) is tagged `research solved` and carries a
 `formal_proof` link to this pinned file; the Lean suffix of the site's label
 refers to it. Nothing was built, replayed or audited here, so `formalized` is
 not listed.

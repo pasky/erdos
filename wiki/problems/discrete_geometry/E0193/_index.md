@@ -55,7 +55,7 @@ proof, which replaced their earlier formalization of the Hilbert-curve
 construction; both are linked at pinned commits from their claim pages. The
 site's Lean qualification and the `formal_proof` attribute of the
 [formal-conjectures
-file](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/193.lean),
+file](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/193.lean)
 point to that Gaussian-integer development, whose main theorem is
 `Hilbert193.erdos193_unconditional`; this corpus has not built it. No build,
 axiom audit, or statement-fidelity review of either external formalization is

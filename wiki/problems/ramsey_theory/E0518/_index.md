@@ -118,10 +118,11 @@ https://www.erdosproblems.com/518, accessed 2026-09-18.
 
 **Formalization.** None. No file for this problem exists in
 [google-deepmind/formal-conjectures](https://github.com/google-deepmind/formal-conjectures/tree/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems)
-(main; the directory `FormalConjectures/ErdosProblems/` listed in full, 673
-entries), the site's indicator shows no formalized statement, and the community
-database lists the problem as proved and not formalized, with no formal proof,
-as of its last update on 31 August 2025.
+(main, fetched 2026-09-18T10:41Z; the directory
+`FormalConjectures/ErdosProblems/` listed in full, 673 entries), the site's
+indicator shows no formalized statement, and the community database (fetched
+2026-09-18) lists the problem as proved and not formalized, with no formal
+proof, as of its last update on 31 August 2025.
 
 ## Current assessment
 

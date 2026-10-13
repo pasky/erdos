@@ -85,7 +85,8 @@ article "On the maximum diameter of $k$-colorable graphs", Electron. J. Combin.
 28 (2021), no. 3, P3.52, doi:10.37236/10382 (submitted 20 April 2021, accepted
 24 August 2021, published 10 September 2021; released under the CC BY-ND 4.0
 license, as its p. 1 states); 20 PDF pages whose printed numbers equal the PDF
-page numbers, a pdfTeX file with a text layer. Provenance: downloaded from
+page numbers, a pdfTeX file with a text layer. Provenance: downloaded on
+2026-09-22 from
 <https://www.combinatorics.org/ojs/index.php/eljc/article/download/v28i3p52/pdf>,
 the PDF link of the article page that doi:10.37236/10382 resolves to; 324,726
 bytes. Its abstract states the $k$-colorable bounds only:

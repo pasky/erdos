@@ -83,7 +83,8 @@ https://www.erdosproblems.com/310, accessed 2026-09-18.
 **References.**
 
 - [LiSa24] Liu, Y. P. and Sawhney, M., On further questions regarding unit
-  fractions. arXiv:2404.07113v1 (10 April 2024); Int. Math. Res. Not. 2026,
+  fractions. arXiv:2404.07113v1 (10 April 2024, the only version on the
+  arXiv listing of 2026-09-18); Int. Math. Res. Not. 2026,
   no. 2, rnaf382, DOI 10.1093/imrn/rnaf382, published online 14 January
   2026 (Crossref record read 2026-09-18). Proposition 1.4, p. 2; remarks,
   p. 3; proof, p. 21. Library home:
@@ -108,19 +109,19 @@ https://www.erdosproblems.com/310, accessed 2026-09-18.
 
 **Formalization.** A statement file and an external Lean proof; no build or
 review of either is recorded in this corpus. The statement file was added
-on 20 September 2026:(the link is pinned to that commit),
+on 20 September 2026 (the link is pinned to that commit):
 [`FormalConjectures/ErdosProblems/310.lean`](https://github.com/google-deepmind/formal-conjectures/blob/9c333fac16ecba3bfe65a7495a11849b3ba55747/FormalConjectures/ErdosProblems/310.lean)
 states `erdos_310` with the answer True, under `category research solved`
 and `by sorry`, with a `formal_proof` annotation pointing at
 [`src/latest/ErdosProblems/Erdos310.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos310.lean)
-in Boris Alexeev's `lean-proofs` collection (the
-pinned link), and `erdos_310.variants.liu_sawhney`, the quantitative form of
-Proposition 1.4, `by sorry` with no pointer. The site's
-page shows the statement as formalized, and the community database records
-the problem as formalized since 20 September 2026. The Alexeev file is a
-development authored by OpenAI Codex, described under Existing formalization
-below and recorded on its own claim page; no build of it is recorded, and no
-`formalized` evidence is listed.
+in Boris Alexeev's `lean-proofs` collection at its commit of 15 September 2026
+(the pinned link), and `erdos_310.variants.liu_sawhney`, the quantitative form
+of Proposition 1.4, `by sorry` with no pointer. On 2026-10-07 the site's page
+showed the statement as formalized, and the community database recorded the
+problem as formalized since 20 September 2026. The Alexeev file is a development
+authored by OpenAI Codex, described under Existing formalization below and
+recorded on its own claim page; no build of it is recorded, and no `formalized`
+evidence is listed.
 
 ## Current assessment
 
@@ -175,7 +176,8 @@ have density $\gg\alpha$, reciprocal sum below $1$, and every nontrivial
 subsum has denominator at least $\exp(1/\alpha)$. Acceptance evidence: the
 paper is published in International Mathematics Research Notices 2026,
 no. 2, rnaf382 (published online 14 January 2026; the Crossref record
-read 2026-09-18); the published text has not been compared with arXiv v1, so the
+read 2026-09-18); arXiv v1 was the only version the arXiv listing showed on
+2026-09-18, and the published text has not been compared with it, so the
 locators are v1 locators. Proof coverage: the result page records the proof
 (p. 21) as a pointer and sketch and lists four parameter discrepancies in
 the printed proof that are to be compared with the published version before

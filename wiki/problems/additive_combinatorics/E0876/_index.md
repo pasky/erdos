@@ -141,7 +141,7 @@ submitted 2026-07-18 (seven comments) and a full claim submitted
   [[../library/divisors/benkoski_1974_weird_pseudoperfect_numbers/theorem_2|Theorem 2]].
 - [Fa26] Fan, S., Strongly complete sets and a conjecture of Erdős.
   arXiv:2607.14071 (v1 15 July 2026; v5 16 September 2026; 35 pp.; arXiv
-  API record read). The preprint the tab's claim invokes for
+  API record read 2026-09-18). The preprint the tab's claim invokes for
   its Corollary 1.2 (the claim calls it a resolution of Problem 254); its
   own claim page is
   [[problems/integer_sequences/E0254/claims/2026_07_15_fan|Fan's claim on Problem 254]],

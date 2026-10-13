@@ -51,7 +51,7 @@ The copy read for this card is a
 fifteen-page scan of the chapter (a cover leaf "Reprinted from A Tribute to
 Paul Erdős ... Cambridge University Press 1990" followed by printed pp.
 13--26; printed p. $n$ is PDF p. $n-11$), image-only with no text layer,
-read on rendered page images. Provenance: retrieved
+read on rendered page images. Provenance: retrieved 2026-09-18T15:40:07Z
 from the first author's publication page,
 <https://web.math.princeton.edu/~nalon/PDFS/Publications2/Sum-free%20subsets.pdf>
 (HTTP 200, one request; the page lists the chapter with this link);

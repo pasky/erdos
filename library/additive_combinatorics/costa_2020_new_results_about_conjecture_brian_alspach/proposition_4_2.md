@@ -32,7 +32,7 @@ the copy read for this page, whose pagination is used here), Conjecture
 1.2 on p. 2, Proposition 4.2 on p. 6, read in the text layer. Journal
 version: Arch. Math. (Basel) 115 (2020), no. 5, 479--488, DOI
 10.1007/s00013-020-01507-7 (published online 29 August 2020; Crossref
-record read), not held and not compared.
+record read 2026-09-18), not held and not compared.
 
 **Read depth.** Claims checked: Conjectures 1.1 and 1.2, Proposition 4.2
 and Corollaries 4.3--4.4 were read clause by clause; the coefficient

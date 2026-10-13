@@ -48,7 +48,7 @@ The copy read for this card
 is the Rényi archive's OmniPage scan of the journal pages: eight pages,
 printed pp. 311--318 = PDF pp. 1--8 (printed p. $n$ is PDF p. $n-310$), with
 a text layer that locates passages and garbles the displays. Provenance:
-retrieved from
+retrieved 2026-09-19T01:40:15Z from
 <https://users.renyi.hu/~p_erdos/1985-15.pdf> (HTTP 200, one request);
 739,945 bytes. No notice is printed on the scanned journal pages; the article's
 own Springer Link page was not consulted, its Crossref record (DOI

@@ -132,10 +132,10 @@ $N$"; Section 5, $5M+2$ for $N=8M$). Three variants carry `sorry` bodies and no
 formal-proof attribute: `k2` (the folklore fact, `research solved`), `sos` (the
 Erdős--Sós conjecture with $f$ defined by `sInf`, `research open`) and
 `upper_bound` (the 1975 bound $(\tfrac23-\epsilon)N$, `research solved`). The
-community database (teorth/erdosproblems) lists the problem as "proved (Lean)"
-as of its last update on 2 July 2026, which does not date the change of state,
-the statement as formalized as of that field's last update on 14 February 2026,
-`formal_status` Lean and no formal-proof URL.
+community database (teorth/erdosproblems, read 2026-09-18) lists the problem as
+"proved (Lean)" as of its last update on 2 July 2026, which does not date the
+change of state, the statement as formalized as of that field's last update on
+14 February 2026, `formal_status` Lean and no formal-proof URL.
 
 ## Current assessment
 
@@ -249,19 +249,18 @@ Version note: the thread of 27 June 2026 describes an updated paper with
 the bound $\tfrac58N+6\tfrac38$ and the author's note of 30 June says the
 constant was being improved further; arXiv v1 of 28 June
 proves $\tfrac54H+6$ for even $N=2H$ ($\tfrac58N+6$, and $\tfrac58N+\tfrac{53}8$
-for odd $N$ through the embedding). Acceptance evidence: the site's label and commentary (2 July
-2026), and a confirmation on the thread of 27 June 2026 by Stijn Cambie
-(the account StijnC), a contributor the paper's acknowledgments thank for
-feedback and improvements, who reports reading a previous version in
-detail and checking the crucial points of the revision briefly; no
-refereed publication, no arXiv revision, no citing paper (the arXiv
-searches of the scope below find none) and no written review were found.
-Provenance, recorded not judged: the manuscript's footnote on p. 1 and its
-acknowledgments declare that the text was written by an AI
-model, GPT-5.5 Pro, from a proof developed by the author together with that
-model and that the Lean formalization was carried out with the prover
-Aristotle; the site's commentary credits Cipollini and GPT Pro; one human
-author is named.
+for odd $N$ through the embedding), and no later version existed on arXiv on
+2026-09-18. Acceptance evidence: the site's label and commentary (2 July 2026),
+and a confirmation on the thread of 27 June 2026 by Stijn Cambie (the account
+StijnC), a contributor the paper's acknowledgments thank for feedback and
+improvements, who reports reading a previous version in detail and checking the
+crucial points of the revision briefly; no refereed publication, no arXiv
+revision, no citing paper (the arXiv searches of the scope below find none) and
+no written review were found. Provenance, recorded not judged: the manuscript's
+footnote on p. 1 and its acknowledgments declare that the text was written by an
+AI model, GPT-5.5 Pro, from a proof developed by the author together with that
+model and that the Lean formalization was carried out with the prover Aristotle;
+the site's commentary credits Cipollini and GPT Pro; one human author is named.
 
 **The $k=2$ case and the general conjecture.** The site's folklore fact
 (any $N+2$ integers in $\{1,\ldots,2N\}$ contain distinct $a,b$ with

@@ -128,9 +128,10 @@ A}1/a\le2r(1+\log(N^2))$ and that some admissible `A` satisfies
 $\log(N+1)\le4+8192(\lfloor\log_2\lfloor\log_2N\rfloor\rfloor+1)\sum_{a\in
 A}1/a$; its docstring says this "pins the order (up to the one
 iterated-logarithm factor) but not the best possible upper bound asked for". The
-community database records the problem open (record last updated 31 August
-2025), the statement formalized since 7 August 2026 and no formal proof. The
-site's page marks the statement as formalized. Nothing was built.
+community database (fetched 2026-09-18) records the problem open (record last
+updated 31 August 2025), the statement formalized since 7 August 2026 and no
+formal proof. The site's page marks the statement as formalized. Nothing was
+built.
 
 ## Current assessment
 

@@ -91,8 +91,8 @@ https://www.erdosproblems.com/284, accessed 2026-09-18.
   [[problems/unit_fractions/E0285/_index|Problem 285]].
 
 **Formalization.** No statement file. The site's page records no
-formalized statement, formal-conjectures has no `ErdosProblems/284.lean`
-(none), and the community database (teorth/erdosproblems,
+formalized statement, formal-conjectures had no `ErdosProblems/284.lean`
+on 2026-10-07, and the community database (teorth/erdosproblems,
 `data/problems.yaml`) lists status proved as of its last update of the
 record, dated 31 August 2025, with formal status unformalized, statement
 not formalized and OEIS "possible". A public Lean 4 proof of the statement

@@ -35,13 +35,13 @@ Dimension 63". The copy read for this card is the v1 PDF. The
 arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2608.12561), every other right reserved.
 
-The [current arXiv record](https://arxiv.org/abs/2608.12561v2) is the withdrawn v2,
-dated 14 August 2026 at 00:39:52 UTC. Its comment says the submitter had found
-that the counterexample was already posted at Grinsztajn's repository and
-Nicholas Konz's page. The stated reason concerns prior posting; it does not
-identify a mathematical error. The record offers no v2 PDF. The retained v1 is
-historical content of this withdrawn submission, not a current unwithdrawn
-preprint.
+The [current arXiv record](https://arxiv.org/abs/2608.12561v2), checked
+2026-09-06, is the withdrawn v2, dated 14 August 2026 at 00:39:52 UTC. Its
+comment says the submitter had found that the counterexample was already posted
+at Grinsztajn's repository and Nicholas Konz's page. The stated reason concerns
+prior posting; it does not identify a mathematical error. The record offers no
+v2 PDF. The retained v1 is historical content of this withdrawn submission, not
+a current unwithdrawn preprint.
 
 ## Claim and provenance
 

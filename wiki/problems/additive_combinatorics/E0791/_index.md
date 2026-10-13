@@ -141,7 +141,7 @@ Problem #791, https://www.erdosproblems.com/791, accessed 2026-09-18.
   31 May 2026), "Size of the smallest subset $S$ of $T=\{0,1,2,\ldots,n\}$
   such that each element of $T$ is the sum of two elements of $S$":
   $1,2,2,3,3,4,4,4,4,5,\ldots$ for $n\ge0$, with the comment that
-  $\binom{a(n)+1}2\ge n+1$; JSON record read. Its links include
+  $\binom{a(n)+1}2\ge n+1$; JSON record read 2026-09-18. Its links include
   Nathanson, M. B., Problems in additive number theory, VII: The structure
   of additive $h$-bases for $n$, arXiv:2605.26425 (2026), not held.
 - [WZ26] Weltge, S. and Zyhalko, K., On the number of finite additive

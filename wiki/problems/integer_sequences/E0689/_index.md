@@ -127,9 +127,10 @@ of formal-conjectures (the commit the link pins, main on 2026-10-07) declares
 `erdos_689 : answer(sorry) ↔ ∀ᶠ n in .atTop, ∃ a : ℕ → ℕ, ∀ m ∈ Finset.Icc 1 n, 2 ≤ (Finset.Icc 1 n |>.filter fun p => p.Prime ∧ a p ≡ m [MOD p]).card`
 under `category research open`, with proof `sorry`, no variant and no
 `formal_proof` attribute, the declaration unchanged since 2026-09-18; its
-header cites the site and Green's Problem 45. The community database records
-the problem open (31 August 2025), the statement formalized since 31 August
-2025, `formal_status` unformalized and no formal-proof URL. Nothing was built.
+header cites the site and Green's Problem 45. The community database, read
+2026-09-18, records the problem open (31 August 2025), the statement formalized
+since 31 August 2025, `formal_status` unformalized and no formal-proof URL.
+Nothing was built.
 
 ## Current assessment
 

@@ -78,7 +78,8 @@ Bloom, Erdős Problem #1183, https://www.erdosproblems.com/1183, accessed
   Section 6, printed pp. 39--40. Library home:
   [[../library/extremal_graph_theory/erdos_1978_problems_results_combinatorial_analysis_combinatorial_number/_index|erdos_1978_problems_results_combinatorial_analysis_combinatorial_number]].
 - [Ho] Howorka, the author of the restricted-coloring bound $F(n)>n^c$
-  that [Er78] reports on p. 40 without a reference. Not identified.
+  that [Er78] reports on p. 40 without a reference. Not identified: a
+  Crossref author query on 2026-09-18 found no matching paper.
 - [Ch26] Chojecki, P., Monochromatic union-closed and lattice subfamilies of
   the Boolean lattice. Manuscript dated 18 March 2026, nine pages, hosted at
   https://www.ulam.ai/research/erdos1183.pdf (accessed 2026-09-18; 94,159
@@ -86,8 +87,8 @@ Bloom, Erdős Problem #1183, https://www.erdosproblems.com/1183, accessed
   its claim page below; not held in the library.
 
 **Formalization.** None found. No file for this problem exists in
-google-deepmind/formal-conjectures (main; the directory
-[`FormalConjectures/ErdosProblems/`](https://github.com/google-deepmind/formal-conjectures/tree/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems),
+google-deepmind/formal-conjectures (main, fetched 2026-09-18T10:41:20Z; the
+directory [`FormalConjectures/ErdosProblems/`](https://github.com/google-deepmind/formal-conjectures/tree/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems),
 673 entries, was listed in full), and the community database
 ([teorth/erdosproblems](https://github.com/teorth/erdosproblems/blob/5466d4a29b4971ce39df3a41e3b618d853d3ec3a/data/problems.yaml))
 records the problem open (last updated 7 March 2026), not formalized, with no

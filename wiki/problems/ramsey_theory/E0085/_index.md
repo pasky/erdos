@@ -134,7 +134,7 @@ https://www.erdosproblems.com/85, accessed 2026-09-18.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/85.lean`](https://github.com/google-deepmind/formal-conjectures/blob/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems/85.lean)
-of formal-conjectures (main) defines
+of formal-conjectures (main, fetched 2026-09-18T10:41Z) defines
 `f (n : ℕ) : ℕ := sInf {k : ℕ | ∀ (G : SimpleGraph (Fin n)), G.minDegree ≥ k → (cycleGraph 4) ⊑ G}`
 and declares
 `erdos_85 : answer(sorry) ↔ ∀ᶠ n in atTop, f n ≤ f (n + 1)`
@@ -142,7 +142,7 @@ under `category research open`, with proof `sorry`; a comment leaves the
 connection to the Ramsey number and the weaker version as to-do items. The
 definition places no lower bound on $n$ where the site says $n\ge4$; the
 eventual statement is unaffected. The community database
-(teorth/erdosproblems) records the problem open (its
+(teorth/erdosproblems, fetched 2026-09-18) records the problem open (its
 record last updated 14 March 2026) and the statement formalized since 21
 November 2025, with no formal proof. Nothing was built.
 

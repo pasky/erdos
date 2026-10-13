@@ -27,8 +27,9 @@ self-published, 2026. Distributed as
 `docs/paper/erdos501_random_profiles_rev10.pdf` in the author's repository
 <https://github.com/elliotglazer/erdos501> and, byte for byte the same
 file, from the Google Drive link (file id `12f4eP2EJQO7tYGHXkFyPjNcjWfkvm1lF`)
-that the erdosproblems.com page attaches to the problem. The attribution to
-Glazer rests on the site's problem text, its proof-claims thread and the
+that the erdosproblems.com page attaches to the problem. No journal version
+and no arXiv record were found on 2026-09-27. The attribution to Glazer
+rests on the site's problem text, its proof-claims thread and the
 repository, not on the PDF. Provenance: fetched from
 <https://raw.githubusercontent.com/elliotglazer/erdos501/main/docs/paper/erdos501_random_profiles_rev10.pdf>
 on 2026-09-27, 407,258 bytes; the Drive copy fetched the same day has the same

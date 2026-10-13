@@ -74,7 +74,7 @@ compilation verified the result's presence in *Graphs and set systems* rather
 than independently checking the contents of *On covering of graphs*.
 
 The copy read for this card is a complete scan of the published contribution,
-printed pp. 99–106. It was downloaded from a public scan of the
+printed pp. 99–106. It was downloaded on 2026-09-04 from a public scan of the
 1968 proceedings. The scan's title, author, printed pagination, and placement
 in the complete volume identify the source. No notice is printed in the scan
 (its pp. 1--2 and 7--8 carry no copyright or license line); the hosting

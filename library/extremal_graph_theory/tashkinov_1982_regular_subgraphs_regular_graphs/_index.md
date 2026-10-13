@@ -43,7 +43,7 @@ Math-Net.Ru's scan of the two printed pages 43--44 (PDF pp. 1--2; p. 44 also
 carries the opening of the next article of the issue), with an OCR text layer
 that garbles the mathematics. The statements below were read on the rendered
 page images, and the translations from the Russian are this card's.
-Provenance: retrieved from
+Provenance: retrieved on 2026-09-18 from
 <https://www.mathnet.ru/php/getFT.phtml?jrnid=dan&paperid=45417&what=fullt&option_lang=eng>,
 the full-text link of the record <https://www.mathnet.ru/eng/dan45417>;
 289,295 bytes. No copyright or license line is printed on the two pages (the "©"

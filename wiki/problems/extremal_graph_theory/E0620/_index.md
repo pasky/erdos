@@ -123,7 +123,7 @@ Problem #620, https://www.erdosproblems.com/620, accessed 2026-09-18.
   [[../library/extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/_index|erdos_1992_covering_cliques_graph_vertices]].
 - [Kr94] Krivelevich, M., $K^s$-free graphs without large $K^r$-free
   subgraphs. Combin. Probab. Comput. 3 (1994), no. 3, 349--354,
-  doi:10.1017/S0963548300001243. The copy
+  doi:10.1017/S0963548300001243 (Crossref record of 2026-09-18). The copy
   read is the author's typescript, paginated 1--5 (no file held); locators
   below are its pages. The definition and the Bollobás--Hind bounds, p. 1;
   $f_{3,4}(7)=4$ and Theorem 1, p. 2; Theorem 2 and Corollaries 1--2, p. 5.
@@ -133,10 +133,9 @@ Problem #620, https://www.erdosproblems.com/620, accessed 2026-09-18.
   functions. arXiv:2401.02548v2 (8 February 2024; title page dated February
   12, 2024), retained; published as "On the order of the classical
   Erdős–Rogers functions", Bull. Lond. Math. Soc. 57 (2025), no. 2,
-  582--598, doi:10.1112/blms.13214 (published online 20 December 2024; the
-  journal text is not held). Equation
-  (1), Theorem 1 and the constant $2^{100s}$, p. 1; Section 4, p. 4. Library
-  home:
+  582--598, doi:10.1112/blms.13214 (published online 20 December 2024; Crossref
+  record of 2026-09-18; the journal text is not held). Equation (1), Theorem 1
+  and the constant $2^{100s}$, p. 1; Section 4, p. 4. Library home:
   [[../library/extremal_graph_theory/mubayi_2024_order_erdos_rogers_functions/_index|mubayi_2024_order_erdos_rogers_functions]].
 - [Sh95] Shearer, J. B., On the independence number of sparse graphs. Random
   Structures Algorithms 7 (1995), no. 3, 269--271, doi:10.1002/rsa.3240070305
@@ -207,7 +206,7 @@ Problem #620, https://www.erdosproblems.com/620, accessed 2026-09-18.
   the source of this page's account. Claim, recorded below.
 - [JMRS21] Joret, G., Micek, P., Reed, B. and Smid, M., Tight bounds on the
   clique chromatic number. Electron. J. Combin. 28 (2021), no. 3, Paper
-  P3.51, doi:10.37236/9659. Not held;
+  P3.51, doi:10.37236/9659 (Crossref record of 2026-09-18). Not held;
   library card
   [[../library/extremal_graph_theory/joret_2021_tight_bounds_clique_chromatic_number/_index|joret_2021_tight_bounds_clique_chromatic_number]],
   result page

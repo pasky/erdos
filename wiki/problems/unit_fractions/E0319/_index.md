@@ -110,9 +110,9 @@ trivial bound answers it with $N$; and `erdos_319.variants.lb`, the lower
 bound $(1-1/e+o(1))N$ under `category research solved`, also with proof
 `sorry`, whose docstring credits Adenwalla and Croot [Cr01]. The formal set is
 the site's: subsets of $\{1,\ldots,N\}$ with a sign function and the two
-conditions. The file is a statement, not a proof, and no declaration carries
-a `formal_proof` attribute. The community database records a formalized
-statement and no formal proof.
+conditions. The file is a statement, not a proof, and on 2026-10-07 no
+declaration carried a `formal_proof` attribute. The community database
+(accessed 2026-10-06) records a formalized statement and no formal proof.
 
 ## Current assessment
 
@@ -126,7 +126,7 @@ integer $1$ as $+1$ gives a signed zero-sum set (written out under Known
 results). The commentary also notes that the formal-conjectures project has
 a Lean statement of the problem. The thread is empty; the proof-claim tab
 lists one claim (below). The community database (teorth/erdosproblems,
-`data/problems.yaml`) records open since 31 August 2025,
+`data/problems.yaml`, accessed 2026-10-06) records open since 31 August 2025,
 statement formalized, OEIS "possible", no formal proof.
 
 **Origin.** Printed p. 43 of the 1980 monograph (PDF p. 39 of the public

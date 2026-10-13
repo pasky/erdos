@@ -142,7 +142,9 @@ accessed 2026-09-18.
   [[../library/extremal_graph_theory/erdos_1970_extremal_problems_graph_theory/question_p388|question_p388]].
 - [JiLo25] Jiang, T. and Longbrake, S., Regularization and asymmetric
   extremal numbers of subdivisions. arXiv:2507.03261 (v1 4 July 2025; v2 16
-  July 2025, the version cited; 29 pp.). Theorem 1.3, p. 2. Library home:
+  July 2025, the version cited; 29 pp.); on 2026-09-18 the arXiv record carried
+  no journal reference and a Crossref bibliographic query for the title returned
+  no record. Theorem 1.3, p. 2. Library home:
   [[../library/extremal_graph_theory/jiang_2025_regularization_asymmetric_extremal_numbers_subdivisions/_index|jiang_2025_regularization_asymmetric_extremal_numbers_subdivisions]];
   paged at
   [[../library/extremal_graph_theory/jiang_2025_regularization_asymmetric_extremal_numbers_subdivisions/theorem_1_3|theorem_1_3]].

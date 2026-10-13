@@ -37,10 +37,10 @@ number and $r_k(H;K)$ for $r(H,\ldots,H,K)$ with $k$ copies of $H$; Problem 553
 writes $R(3,3,n)$ for $r(K_3,K_3,K_n)$ and $R(3,n)$ for $r(K_3,K_n)$. All
 logarithms are natural. That copy is the authors' manuscript headed "Final
 Version" from the author's site, which prints no notice; the version of record's
-publisher page (DOI 10.1007/s00493-005-0011-9) states "© János Bolyai
-Mathematical Society", offers the PDF behind a paywall and carries no Creative
-Commons or open-access statement, and does not govern that manuscript; the term
-is unstated.
+publisher page (DOI 10.1007/s00493-005-0011-9, read 2026-10-02) states "© János
+Bolyai Mathematical Society", offers the PDF behind a paywall and carries no
+Creative Commons or open-access statement, and does not govern that manuscript;
+the term is unstated.
 
 Read status: claims checked for Conjecture 1.1, the displays (1)--(3) (p.
 2), the notation $\tilde\Theta$ (p. 3), Theorem 3.2 with the two explicit

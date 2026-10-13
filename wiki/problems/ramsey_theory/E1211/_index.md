@@ -125,13 +125,13 @@ https://www.erdosproblems.com/1211, accessed 2026-09-18.
   thresholds and bounds. J. Amer. Math. Soc. 19 (2006), 119--169; its Theorem
   7.1 is the published alternative input named in Remark 5 of [CFP22]. Not held.
 
-**Formalization.** None found. No file `ErdosProblems/1211.lean` exists in
-google-deepmind/formal-conjectures (main; [the
+**Formalization.** None found. No file `ErdosProblems/1211.lean` existed in
+google-deepmind/formal-conjectures (main, fetched 2026-09-18T05:25Z; [the
 directory](https://github.com/google-deepmind/formal-conjectures/tree/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems)
-was listed in full). The community database (teorth/erdosproblems) records the
-problem solved (last updated 4 April 2026), not formalized, formal status
-unformalized, OEIS "possible" and no formal-proof URL. The site's "Formalised
-statement?" indicator reads "No".
+was listed in full). The community database (teorth/erdosproblems, fetched
+2026-09-18) records the problem solved (last updated 4 April 2026), not
+formalized, formal status unformalized, OEIS "possible" and no formal-proof URL.
+The site's "Formalised statement?" indicator reads "No".
 
 ## Current assessment
 

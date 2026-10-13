@@ -27,13 +27,13 @@ arXiv preprint (2023). arXiv:2301.07758.
 The retained
 [folder-name PDF](shapira_2023_new_approach_brown_erdos_sos_problem.pdf) is
 arXiv:2301.07758v1 (18 January 2023, 8 pages, the only arXiv version per the
-arXiv record read). The paper appeared as an extended abstract in the EuroComb
-2023 proceedings (doi:10.5817/cz.muni.eurocomb23-112, pp. 812--818) and in
-Israel J. Math. 267 (2025), no. 2, 717--728, doi:10.1007/s11856-025-2714-5
-(Crossref records, read on 2026-09-18); neither is held or compared, so their
-labels may differ from the preprint's. The arXiv record
-(https://arxiv.org/abs/2301.07758, read 2026-10-02) names the Creative Commons
-Attribution 4.0 license.
+arXiv record read on 2026-09-18). The paper appeared as an extended abstract in
+the EuroComb 2023 proceedings (doi:10.5817/cz.muni.eurocomb23-112, pp. 812--818)
+and in Israel J. Math. 267 (2025), no. 2, 717--728,
+doi:10.1007/s11856-025-2714-5 (Crossref records, read on 2026-09-18); neither is
+held or compared, so their labels may differ from the preprint's. The arXiv
+record (https://arxiv.org/abs/2301.07758, read 2026-10-02) names the Creative
+Commons Attribution 4.0 license.
 
 Read status: claims checked for Conjectures 1.1--1.3 and Theorem 1.4 with
 the remark after it (pp. 2--3), read clause by clause on the page images; the proof of Theorem 1.4 (Section 2, pp. 3--6) was read for

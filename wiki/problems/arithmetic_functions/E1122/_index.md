@@ -58,9 +58,10 @@ https://www.erdosproblems.com/1122.
 - [Ma22] Mangerel, Alexander P., Additive functions in short intervals, gaps and
   a conjecture of Erdős. Ramanujan J. (2022), 1023-1090.
 
-**Formalization.** None recorded: no formal-conjectures statement file exists
-for the problem and the community database lists no formal statement; the Lean
-development posted with the Gu claim is linked from its claim page.
+**Formalization.** None recorded: on 2026-10-07 no formal-conjectures statement
+file existed for the problem and the community database listed no formal
+statement; the Lean development posted with the Gu claim is linked from its
+claim page.
 
 ## Current assessment
 
@@ -89,11 +90,11 @@ yes. The site's commentary states that hypothesis as additive, which
 overstates the corollary; it credits the partial progress but labeled the
 problem OPEN, so no `reviewed` evidence is listed.
 
-**Lean coverage.** No formal-conjectures statement file exists for the problem
-and the community database lists no formal statement. The Lean development
-posted with the Gu claim derives the statement from four cited theorems taken as
-hypotheses; the corpus has not built or audited it, so no `formalized` evidence
-is listed.
+**Lean coverage.** On 2026-10-07 no formal-conjectures statement file existed
+for the problem and the community database listed no formal statement. The Lean
+development posted with the Gu claim derives the statement from four cited
+theorems taken as hypotheses; the corpus has not built or audited it, so no
+`formalized` evidence is listed.
 
 **Search scope.** The site's problem page (last edited 2026-04-01) and its
 proof-claims thread, as of 2026-10-06; the Zenodo record and archive of the

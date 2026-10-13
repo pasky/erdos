@@ -30,10 +30,11 @@ license is recorded for either edition: neither the journal article nor the
 arXiv record was read for its terms, so every right is treated as reserved.
 
 Read status: no page of the paper was read for this card. The theorem is
-recorded as the arXiv abstract states it (the arXiv API record), and the
-bibliographic data come from the Crossref record read the same day; theorem
-numbers, page locators, the proof and the paper's further results on the maximum
-of $R(K_s,G)$ over graphs with $m$ edges are not recorded here.
+recorded as the arXiv abstract states it (the arXiv API record, read
+2026-10-07), and the bibliographic data come from the Crossref record read the
+same day; theorem numbers, page locators, the proof and the paper's further
+results on the maximum of $R(K_s,G)$ over graphs with $m$ edges are not recorded
+here.
 
 The abstract: for two graphs $H$ and $G$, $r(H,G)$ is the least $n$ such
 that every red-blue coloring of the edges of $K_n$ contains a red copy of

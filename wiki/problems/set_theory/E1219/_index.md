@@ -74,10 +74,10 @@ Problem #1219, https://www.erdosproblems.com/1219.
   [[../library/set_theory/shelah_1975_notes_partition_calculus/corollary_1_3|corollary_1_3]]
   page.
 
-**Formalization.** None recorded. The site reports no
-formalized statement, the community database marks the problem
-unformalized, and conjectures.io lists no item for it; formal-conjectures
-has no statement file for 1219.
+**Formalization.** None recorded. On 2026-09-27 the site reported no
+formalized statement, the community database marked the problem
+unformalized, and conjectures.io listed no item for it; formal-conjectures
+had no statement file for 1219 on 2026-10-07.
 
 ## Current assessment
 

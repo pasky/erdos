@@ -99,7 +99,7 @@ statement? No" and "OEIS: Possible"), its five-comment discussion thread
 
 - [CES75] Choi, S. L. G., Erdős, P. and Szemerédi, E., Some additive and
   multiplicative problems in number theory. Acta Arith. 27 (1975), 37--50,
-  DOI 10.4064/aa-27-1-37-50; Section 1,
+  DOI 10.4064/aa-27-1-37-50 (Crossref record, 2026-09-18); Section 1,
   printed pp. 37--43. Library home:
   [[../library/additive_combinatorics/choi_1975_additive_multiplicative_problems_number_theory/_index|choi_1975_additive_multiplicative_problems_number_theory]];
   result pages
@@ -135,9 +135,9 @@ statement? No" and "OEIS: Possible"), its five-comment discussion thread
   [[../library/integer_sequences/erdos_1972_extremal_problems_number_theory/_index|erdos_1972_extremal_problems_number_theory]].
 
 **Formalization.** None: no file `ErdosProblems/866.lean` existed in
-google-deepmind/formal-conjectures and the site's
+google-deepmind/formal-conjectures on 2026-09-18, and the site's
 indicator reads "Formalised statement? No (create one)". The community
-database (teorth/erdosproblems) records the problem open
+database (teorth/erdosproblems, accessed 2026-09-18) records the problem open
 (last changed 31 August 2025), the statement not formalized and
 `formal_status` unformalized. The 2026 paper's own Lean file (its reference
 [5], linked from van Doorn's claim page) and the Lean development of the

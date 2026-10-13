@@ -121,8 +121,8 @@ Kesten's 1960 paper [Ke60] is the cited background: it treats the sum with
 the starting point averaged as a second variable and proves a Cauchy limit
 law there; its library card records the citation only. No refereed result
 settles the fixed-start question asked. The two claims recorded above are
-the answers offered on the site's proof-claims tab: Wang's,
-accepted here on its formal proof, and Kwon's, pending.
+the answers offered on the site's proof-claims tab (accessed 2026-10-07):
+Wang's, accepted here on its formal proof, and Kwon's, pending.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

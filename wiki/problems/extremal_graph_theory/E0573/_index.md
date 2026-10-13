@@ -126,9 +126,9 @@ https://www.erdosproblems.com/573, accessed 2026-09-18.
   $a(50)=175$ (the Hoffman--Singleton graph, unique) and $a(53)=181$.
 
 **Formalization.** None. No file `ErdosProblems/573.lean` exists in
-formal-conjectures (main; none on main on 2026-10-07); the
+formal-conjectures (main, fetched 2026-09-18; none on main on 2026-10-07); the
 site's page shows the statement as not formalized, and the community database
-(teorth/erdosproblems, `data/problems.yaml`) records the
+(teorth/erdosproblems, `data/problems.yaml` fetched 2026-09-18) records the
 problem as open (last update 31 August 2025), not formalized, no formal proof,
 and lists OEIS A006856.
 

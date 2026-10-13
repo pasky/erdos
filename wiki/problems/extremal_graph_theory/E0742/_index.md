@@ -159,7 +159,7 @@ in the collection's terms. The external file (196,156 bytes, 4,376 lines) is
 described under the Current assessment and, as a self-declared formalization
 of Füredi's theorem, linked from its claim page; this corpus has built none of
 it, and the collection's statement file is no formalization link. The
-community database records the problem decidable (as of
+community database (fetched 2026-09-19) records the problem decidable (as of
 its last update, 31 August 2025), the statement formalized since 29 June 2026,
 `formal_status` unformalized and no formal proof.
 

@@ -164,9 +164,10 @@ states `erdos_309` (the answer is no: $F(N)$ is not $o(\log N)$) and
 `erdos_309.variants.asymptotic` ($F(N)/\log N\to1$), both `by sorry`, each
 carrying a `formal_proof` annotation pointing at
 [`src/latest/ErdosProblems/Erdos309.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos309.lean)
-in Boris Alexeev's `lean-proofs` collection (the pinned link). The site's page
-shows the statement as formalized and links the statement file, and the
-community database records the problem as formalized since 19 September 2026.
+in Boris Alexeev's `lean-proofs` collection as it stood on 15 September 2026
+(the pinned link). On 2026-10-07 the site's page showed the statement as
+formalized and linked the statement file, and the community database recorded
+the problem as formalized since 19 September 2026.
 The Alexeev file is a development authored by OpenAI Codex (GPT-5.6 Sol),
 described under Formalization and the Lean label below; no build of it is
 recorded, and no `formalized` evidence is listed on any claim page.
@@ -292,8 +293,8 @@ order of bound, $\log N+\gamma-1-o(1)$, on its own page.
 
 **Formalization and the Lean label.** The site's (LEAN) suffix refers to
 the file `src/latest/ErdosProblems/Erdos309.lean` in Boris Alexeev's
-`lean-proofs` collection (the link pinned on the
-claim pages); its top file is recorded. Its header declares it a Lean
+`lean-proofs` collection as it stood on 15 September 2026 (the link pinned on
+the claim pages); its top file is recorded. Its header declares it a Lean
 formalization of a solution to Problem 309, names Hisashi Yokota, Ernest
 S. Croot III and Thomas Bloom (for the unit-fraction extraction theorem it
 uses) as informal authors and Codex, GPT-5.6 Sol (OpenAI Codex) as formal

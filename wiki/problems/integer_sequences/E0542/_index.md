@@ -151,8 +151,8 @@ accessed 2026-09-18.
 **Formalization.** Statement only. The file
 [`ErdosProblems/542.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f376614d5c06a639d6765ac5ac54ede4ab6b46e6/FormalConjectures/ErdosProblems/542.lean)
 of formal-conjectures, added on 20 September 2026 and revised on 22 September
-2026 to exclude $1$ from the sets (the revision linked, the latest change to the
-file), defines `IsLcmFree n A` ($A\subseteq[1,n]$ with
+2026 to exclude $1$ from the sets (the revision linked; on 2026-10-07 it was the
+latest change to the file), defines `IsLcmFree n A` ($A\subseteq[1,n]$ with
 $\operatorname{lcm}(a,b)>n$ for distinct $a,b\in A$) and `uncovered n A`, the
 integers $1\le m\le n$ divisible by no element of `A`, and states, under
 `category research solved` with `sorry` bodies: `erdos_542.parts.i`,

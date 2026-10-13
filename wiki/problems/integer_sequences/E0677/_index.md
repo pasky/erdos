@@ -114,10 +114,10 @@ under `category research open` with proof `sorry`, and checks the two known
 solutions of the general equation as
 `lcmInterval_eq_example1 : lcmInterval 4 3 = lcmInterval 13 2 ∧ lcmInterval 3 4 = lcmInterval 19 2`
 by `decide` under `category test`; a comment says the other statements of the
-source remain to be added. The community database records the problem open (last
-changed 31 August 2025), the statement formalized since 2 December 2025,
-`formal_status` unformalized, no formal proof and OEIS "possible". Nothing was
-built.
+source remain to be added. The community database, read 2026-09-18, records the
+problem open (last changed 31 August 2025), the statement formalized since 2
+December 2025, `formal_status` unformalized, no formal proof and OEIS
+"possible". Nothing was built.
 
 ## Current assessment
 

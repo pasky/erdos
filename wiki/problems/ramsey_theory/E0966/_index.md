@@ -95,10 +95,11 @@ coloring k` under `category research solved`, with proof `sorry` and a
 `formal_proof` attribute naming `src/v4.29.1/ErdosProblems/Erdos966.lean` in
 `plby/lean-proofs` on that repository's `main` branch, not a fixed commit; its
 docstring quotes Erdős's "Spencer has recently shown that such a sequence
-exists". The community database lists "proved (Lean)" and `formal_status` Lean
-as of their last update, of 25 February 2026, the statement formalized as of its
-last update, of 4 August 2026, and no formal-proof URL; the site's indicator
-reports a formalized statement. Nothing was built or kernel-checked here.
+exists". The community database (read 2026-09-18) lists "proved (Lean)" and
+`formal_status` Lean as of their last update, of 25 February 2026, the statement
+formalized as of its last update, of 4 August 2026, and no formal-proof URL; the
+site's indicator reports a formalized statement. Nothing was built or
+kernel-checked here.
 
 ## Current assessment
 
@@ -122,7 +123,7 @@ monochromatic line, which is a $k$-term progression, and an embedding in base
 $q$ for any $q>2k$ (a standard Freiman-isomorphism device) projects the example
 onto the integers; since Mathlib has the Hales--Jewett theorem, the comment
 adds, the formal proof is comparatively straightforward. The proof-claim tab is
-empty. The community database records "proved (Lean)".
+empty. The community database (read 2026-09-18) records "proved (Lean)".
 
 **The origin (Er75b, printed p. 306).**
 Chapter IV, item (i): "Is it true that for every $k$ and $r$ there is a

@@ -79,7 +79,7 @@ T. F. Bloom, Erdős Problem #249, https://www.erdosproblems.com/249, accessed
 **Formalization.** Statement only. The file
 [`ErdosProblems/249.lean`](https://github.com/google-deepmind/formal-conjectures/blob/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/ErdosProblems/249.lean)
 of formal-conjectures (pinned to the commit of 2026-07-16 that the link
-carries) declares
+carries, the file's latest revision on 2026-09-17) declares
 `erdos_249 : answer(sorry) ↔ Irrational (∑' n : ℕ, (φ n) / (2 ^ n))`
 under `category research open`, with proof `sorry`. Its sum over all
 natural numbers agrees with the sum over $n\ge1$ because Mathlib's
@@ -88,14 +88,14 @@ not built it.
 
 ## Current assessment
 
-**The question.** The site asks whether
+**The question.** On 2026-09-17 the site asked whether
 
 $$
 S=\sum_{n\ge1}\frac{\phi(n)}{2^n}
 $$
 
-is irrational, cites [ErGr80] p. 61 and [Er88c] p. 102, shows OPEN, lists
-no proof exposition and no proof claim, and links OEIS A256936, whose
+was irrational, cited [ErGr80] p. 61 and [Er88c] p. 102, showed OPEN, listed
+no proof exposition and no proof claim, and linked OEIS A256936, whose
 digits give $S=1.36763080198502235079\ldots$.
 The community database record and the formal-conjectures file both say
 open. The exact question is the base-2 series; the all-base statement and
@@ -225,10 +225,10 @@ variant rather than $S$.
   mathematical review and that the original unbounded $\varphi(n)$ lies
   outside the argument.
 - Mathematics Stack Exchange, answer by Erick Wong of 29 March 2015 to
-  question 1210886 (<https://math.stackexchange.com/a/1211557>):
-  $\sum_{n\ge1}(\phi(n)\bmod k)/k^n$ is irrational for every integer $k>2$,
-  the base equal to the modulus; the Cook note cites it as the antecedent of
-  its residue result.
+  question 1210886 (<https://math.stackexchange.com/a/1211557>, read
+  2026-09-17): $\sum_{n\ge1}(\phi(n)\bmod k)/k^n$ is irrational for every
+  integer $k>2$, the base equal to the modulus; the Cook note cites it as the
+  antecedent of its residue result.
 
 **Search scope.** The status rests on the following routes; none found a
 proof, disproof, preprint or claim on the full series.

@@ -101,7 +101,8 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
   Jan and Piguet, Diana and Taraz, Anusch, The tree packing conjecture for
   trees of almost linear maximum degree. arXiv:2106.11720 (v1 22 June 2021;
   v2 20 June 2022, 157 pp., the version paged here; v3 8 September 2026,
-  179 pp., not held); no journal reference in the arXiv record. Conjecture 2, p. 3; Theorems 5--8, p. 5 (v2). Library home:
+  179 pp., not held); no journal reference in the arXiv record read 2026-09-19.
+  Conjecture 2, p. 3; Theorems 5--8, p. 5 (v2). Library home:
   [[../library/extremal_graph_theory/allen_2021_tree_packing_conjecture_trees_almost_linear/_index|allen_2021_tree_packing_conjecture_trees_almost_linear]];
   paged at
   [[../library/extremal_graph_theory/allen_2021_tree_packing_conjecture_trees_almost_linear/theorem_6|theorem_6]].
@@ -157,20 +158,21 @@ Bloom, Erdős Problem #743, https://www.erdosproblems.com/743, accessed
 - [CCG24] Chalise, Parikshit and Clark, Antwan and Gnang, Edinah K., A Proof
   of the Tree Packing Conjecture. arXiv:2410.13840 (v1 17 October 2024; v2
   23 October 2024; v3 1 September 2026, withdrawn). A withdrawn claim, not a
-  source (arXiv record); recorded as the claim page
+  source (arXiv record read 2026-09-19); recorded as the claim page
   [[problems/extremal_graph_theory/E0743/claims/2024_10_17_chalise_clark_gnang|chalise_clark_gnang]].
 - [Er81] Erdős, P., On the combinatorial problems which I would most like to
   see solved. Combinatorica 1 (1981), no. 1, 25--42, doi:10.1007/BF02579174;
   p. 15 of the retyped copy, which has its own pagination. Library home:
   [[../library/set_systems/erdos_1981_combinatorial_problems_which_i_would_most/_index|erdos_1981_combinatorial_problems_which_i_would_most]].
 
-**Formalization.** None. No file `ErdosProblems/743.lean` exists in
-formal-conjectures neither in the directory `FormalConjectures/ErdosProblems/`
-(682 entries) nor elsewhere in the tree (1,751 entries); the site's page shows
-"Formalised statement? No (create one)"; the community database
-(teorth/erdosproblems, `data/problems.yaml`) records the problem falsifiable
-(last update 31 August 2025), unformalized, with no formalized statement and the
-comment "tree packing conjecture".
+**Formalization.** None. No file `ErdosProblems/743.lean` existed in
+formal-conjectures on 2026-09-19, neither in the directory
+`FormalConjectures/ErdosProblems/` (682 entries) nor elsewhere in the tree
+(1,751 entries); the site's page shows "Formalised statement? No (create one)";
+the community database (teorth/erdosproblems, `data/problems.yaml` read
+2026-09-19) records the problem falsifiable (last update 31 August 2025),
+unformalized, with no formalized statement and the comment "tree packing
+conjecture".
 
 ## Current assessment
 
@@ -215,9 +217,10 @@ Conjecture 2 ([ABCHPT21], p. 3, "Gyárfás [11] formulated this conjecture in
   perfect packing theorem for degenerate graphs with many leaves (its
   Theorem 5, Theorem 2 of Allen, Böttcher, Clemens and Taraz); the paper
   (p. 6) says the degree condition of Theorem 8 is optimal for quasirandom
-  hosts, which does not bound the degrees allowed in $K_n$. A preprint: a v3
-  of 8 September 2026 exists and was not compared; recorded with the
-  preprint qualification, not compiled as accepted.
+  hosts, which does not bound the degrees allowed in $K_n$. A preprint: no
+  journal record was found on 2026-09-19 (the arXiv record listed none), and a
+  v3 of 8 September 2026 exists and was not compared; recorded with the preprint
+  qualification, not compiled as accepted.
 - The largest $\varepsilon n$ trees, every $n$, no degree bound:
   [[../library/extremal_graph_theory/janzer_2024_packing_largest_trees_tree_packing_conjecture/theorem_1_2|Theorem 1.2]]
   of [JaMo24] (v2 p. 2): "There exists a constant $\varepsilon>0$ such that
@@ -309,7 +312,7 @@ recorded on this page.
   all $n$ by a polynomial method and a "complete labeling" reformulation;
   recorded as the withdrawn claim page
   [[problems/extremal_graph_theory/E0743/claims/2024_10_17_chalise_clark_gnang|Chalise, Clark and Gnang 2024]].
-  Its arXiv record shows v3 of 1 September 2026 with the
+  Its arXiv record, read 2026-09-19, showed v3 of 1 September 2026 with the
   comment "Withdrawn due to an error in the proof of Lemma 3.10 (Composition
   Lemma), which was based on the argument in arXiv:2202.03178v2". The thread
   recorded the claim before the withdrawal: a comment of 28 February 2026

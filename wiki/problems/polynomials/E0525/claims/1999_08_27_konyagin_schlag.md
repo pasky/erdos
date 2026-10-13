@@ -62,8 +62,8 @@ linked above.
 
 **Acceptance.** Refereed: the paper appeared in Transactions of the American
 Mathematical Society 351 (1999), no. 12, 4963–4980. Reviewed: in the problem's
-commentary, the site's curator, Thomas F. Bloom, records that the bound shows
-Konyagin's upper bound to be essentially best possible. Cook and Nguyen's
-refereed paper of 2021 records the bound in its introduction. No formal proof of
-this bound on its own is held or audited in this repository, so no `formalized`
-evidence is listed.
+commentary (accessed 2026-10-07), the site's curator, Thomas F. Bloom, records
+that the bound shows Konyagin's upper bound to be essentially best possible.
+Cook and Nguyen's refereed paper of 2021 records the bound in its introduction.
+No formal proof of this bound on its own is held or audited in this repository,
+so no `formalized` evidence is listed.

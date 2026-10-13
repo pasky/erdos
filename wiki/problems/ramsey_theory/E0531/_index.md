@@ -77,11 +77,12 @@ https://www.erdosproblems.com/531, accessed 2026-09-17.
   arXiv:1710.07500. Context only (infinite sumsets $X+X$ in colorings of the
   reals); no library home; abstract only.
 
-**Formalization.** None. No file `ErdosProblems/531.lean` exists in
+**Formalization.** None. No file `ErdosProblems/531.lean` existed in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/tree/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems)
-(`main`); the site's indicator shows no formalized statement, and the community
-database records the problem as open and unformalized with no formal-proof URL
-and an OEIS entry marked as possible.
+(`main`, fetched 2026-09-17); the site's indicator shows no formalized
+statement, and the community database (fetched 2026-09-17) records the problem
+as open and unformalized with no formal-proof URL and an OEIS entry marked as
+possible.
 
 ## Current assessment
 

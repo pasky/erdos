@@ -135,7 +135,7 @@ that the $25/28$ method generalizes easily, that a half-finished paper with
 Quanyu Tang should bring the constant below $0.8$, and that Wang's preprint is
 AI-generated and does not say so; and a suggestion to add the prime $7$ to
 Wang's divisor configuration. The proof-claim tab: one partial claim
-(below). The community database records open, not
+(below). The community database (fetched 2026-09-17) records open, not
 formalized, OEIS A390394.
 
 **Origin.** Printed p. 37 of the 1980 monograph, in a paragraph begun on

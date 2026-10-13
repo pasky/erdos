@@ -30,8 +30,8 @@ Does this process always terminate if $x$ has odd denominator and $A$ is the set
 of odd numbers? More generally, for which pairs $x$ and $A$ does this process
 terminate?
 
-**Formulation.** The site's wording (the page shows no
-last-edited date). The step "choose the minimal $n\in A$ such that
+**Formulation.** The site's wording, accessed 2026-09-18 (the page showed
+no last-edited date). The step "choose the minimal $n\in A$ such that
 $n\ge1/x$" does not by itself exclude a denominator already used:
 for $x=2/3$ and $A$ the odd numbers it picks $3$ twice (discussion comment
 of 7 July 2026), and the site's owner replied the same day that the
@@ -120,7 +120,8 @@ T. F. Bloom, Erdős Problem #282, https://www.erdosproblems.com/282, accessed
   [[../library/unit_fractions/pihko_2010_remarks_greedy_odd_egyptian_fraction_algorithm_ii/_index|pihko_2010_remarks_greedy_odd_egyptian_fraction_algorithm_ii]].
 - [LoMa23] Louwsma, J. and Martino, J., Rational numbers with odd greedy
   expansion of fixed length. arXiv:2309.07280v1 (13 September 2023), 21 pp.
-  Cited for its abstract. Library home:
+  Cited for its abstract; no journal record found (arXiv listing and Crossref
+  query of 2026-09-18). Library home:
   [[../library/unit_fractions/louwsma_martino_2023_rational_numbers_odd_greedy_expansion_fixed_length/_index|louwsma_martino_2023_rational_numbers_odd_greedy_expansion_fixed_length]].
 - [Ko25] Koizumi, J., Irrationality of the reciprocal sum of doubly
   exponential sequences. arXiv:2504.05933v1 (8 April 2025), 14 pp.;
@@ -134,7 +135,7 @@ T. F. Bloom, Erdős Problem #282, https://www.erdosproblems.com/282, accessed
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/282.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/282.lean)
-of formal-conjectures at the linked revision (main) defines
+of formal-conjectures at the linked revision (main on 2026-09-18) defines
 `greedyUnitFractionRem (A : Set ℕ) (x : ℚ) (t : ℕ) : ℚ`, the remainder after
 $t+1$ greedy steps, each step taking `sInf {n | n ∈ A ∧ 1 / x ≤ n}` and
 continuing with `A \ {n}` (a used denominator is not reused), and declares
@@ -146,7 +147,7 @@ proof `sorry`), `graham` (denominators in a residue class $a\bmod d$ under
 the gcd condition; `research open`) and `sq` (square denominators;
 `research open`), and three `category test` lemmas that are proved
 (`greedyUnitFractionRem_zero`, `greedyUnitFractionRem_one` and
-`greedyUnitFractionRem_sq_one`). The community database
+`greedyUnitFractionRem_sq_one`). The community database (read 2026-09-18)
 records the problem as open and the statement as formalized (last updates of
 31 August 2025 and 16 April 2026), no formal proof and no OEIS entry. The file
 was not built here.

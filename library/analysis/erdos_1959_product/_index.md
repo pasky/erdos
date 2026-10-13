@@ -64,8 +64,10 @@ minimal maximum modulus f(n).
 Source: <https://users.renyi.hu/~p_erdos/1959-17.pdf>. The file is an offprint
 ("Extrait des Publications de l'Institut Mathématique T. XIII, Beograd 1959")
 that prints no notice on pp. 1--2 or 6--7; the hosting archive's site footer
-speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007 All rights reserved. All material on this site is for
-scientifics purposes only."); the publisher's site could not be read (publications.mi.sanu.ac.rs refused the connection), and the card
+speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/, read
+2026-10-02: "(C) 2005-2007 All rights reserved. All material on this site is for
+scientifics purposes only."); the publisher's site could not be read on
+2026-10-02 (publications.mi.sanu.ac.rs refused the connection), and the card
 records no DOI, so no Crossref record was available; the term is unstated.
 
 **Bears on.** [[../wiki/problems/analysis/E0256/_index|#256]], which asks

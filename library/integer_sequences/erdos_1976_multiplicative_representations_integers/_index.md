@@ -46,7 +46,8 @@ The copy read for this card
 is the ten-page scan of the printed article from the Rényi Institute's
 Erdős archive (OmniPage text layer, which garbles most displays; printed
 p. $n$ is PDF p. $n-417$); the statements below were read on the rendered
-page images of pp. 418--427. Provenance: retrieved from <https://www.renyi.hu/~p_erdos/1976-24.pdf> (HTTP
+page images of pp. 418--427. Provenance: retrieved
+2026-09-18T06:01Z from <https://www.renyi.hu/~p_erdos/1976-24.pdf> (HTTP
 200, one request); 1,195,013 bytes. No copyright line is printed on the scan's
 pages; the journal's article page on Cambridge Core shows "Copyright ©
 Australian Mathematical Society 1976" and no Creative Commons statement

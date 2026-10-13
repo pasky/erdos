@@ -147,8 +147,8 @@ https://www.erdosproblems.com/283, accessed 2026-09-18.
 **Formalization.** Statement only, with a pointer to an external proof. The
 file
 [`ErdosProblems/283.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/283.lean)
-of formal-conjectures at the linked revision (main) declares
-`erdos_283 : answer(True) ↔ ∀ p : ℚ[X], Condition p` under
+of formal-conjectures at the linked revision (the head of main on 2026-09-18)
+declares `erdos_283 : answer(True) ↔ ∀ p : ℚ[X], Condition p` under
 `category research solved` with proof `sorry`, where `Condition p` says: if
 $p$ takes integer values at all integers, has positive leading coefficient
 and no $d\ge2$ divides $p(n)$ for all $n\ge1$, then for all sufficiently
@@ -160,7 +160,7 @@ page's `formalization` link pins. Seven variants, all `sorry`,
 record Graham's case, the rational-$\alpha$ form, Cassels's completeness
 statement, Burr's power case with repetitions, Alekseyev's threshold and
 van Doorn's families $p(x)=x+b$ ($1\le b\le5000$) and $p(x)=x^2+b$
-($1\le b\le800$). The community database records
+($1\le b\le800$). The community database (accessed 2026-09-18) records
 `formal_status` Lean, as of its last update of 10 May 2026, the statement as
 formalized, as of its last update of 6 November 2025, OEIS A380791 and no
 formal-proof URL. This corpus has built and audited none of these files; see

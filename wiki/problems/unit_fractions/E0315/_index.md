@@ -147,7 +147,7 @@ the site's statement, including the defective setup sentence, and the
 convention note; its `formal_proof` attribute points to the file
 [`Erdos315.lean`](https://github.com/plby/lean-proofs/blob/1d7b3f00780b85ed0462e79a1cd5650ee9055655/src/v4.29.1/ErdosProblems/Erdos315.lean)
 in Boris Alexeev's `lean-proofs` repository at the commit the attribute
-pins. The community database records `formal_status`
+pins. The community database, accessed 2026-09-18, records `formal_status`
 Lean (field last updated 31 January 2026), the statement formalized (field
 last updated 3 August 2026), OEIS A000058 and A076393, and no formal-proof
 URL. Nothing was built or audited here; see Formalization and the Lean

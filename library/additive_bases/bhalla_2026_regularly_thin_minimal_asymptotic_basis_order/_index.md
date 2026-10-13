@@ -52,7 +52,8 @@ Source:
 <https://drive.google.com/file/d/1VKaFmiMWWMW7NME-L47HVGSWOoBt9sug/view>. No
 notice is printed on the first or last two pages; the copy read for this card
 is the author's unpublished manuscript, shared by a Google Drive link
-(https://drive.google.com/file/d/1VKaFmiMWWMW7NME-L47HVGSWOoBt9sug/view) that states no terms, and no publisher page exists; the term is
+(https://drive.google.com/file/d/1VKaFmiMWWMW7NME-L47HVGSWOoBt9sug/view, read
+2026-10-02) that states no terms, and no publisher page exists; the term is
 unstated.
 
 **Bears on.** [[../wiki/problems/additive_bases/E0326/_index|#326]]: Theorem

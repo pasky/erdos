@@ -250,9 +250,9 @@ primes, also open and generally expected to fail; a positive answer to
 remark of 17 April 2026 on composite values of $a^{b^n}+c$ is a lead without
 an argument on the page.
 
-**Formalization and the Lean artifacts.** The collection's file was a statement
-file (all six proofs `sorry`); since 19 September 2026 it proves parts (i) and
-(ii) itself. The file its (iii.a) attribute names,
+**Formalization and the Lean artifacts.** On 2026-09-18 the collection's file
+was a statement file (all six proofs `sorry`); since 19 September 2026 it proves
+parts (i) and (ii) itself. The file its (iii.a) attribute names,
 `Problem1209/Formalization.lean` at the repository's head of 15 April 2026 (the
 file last changed the same day; 481 lines, 22,941 bytes), imports Mathlib, sets
 `maxHeartbeats 800000`, and proves `exists_prime_killing_shift`,

@@ -38,7 +38,7 @@ Probability and Algorithms, IMA Vol. Math. Appl., Springer, New York (1995),
 111--131, doi:10.1007/978-1-4612-0801-3_9. The copy read for this card is an
 image-only scan of the printed chapter (pp. 111--131); no notice is printed in
 it, and its rendered first and last pages carry no copyright line. The
-publisher's chapter page for DOI 10.1007/978-1-4612-0801-3_9
+publisher's chapter page for DOI 10.1007/978-1-4612-0801-3_9 (read 2026-10-02)
 states "© 1995 Springer Science+Business Media New York" and offers the chapter
 as subscription content with no Creative Commons or Open Access statement,
 every other right reserved.

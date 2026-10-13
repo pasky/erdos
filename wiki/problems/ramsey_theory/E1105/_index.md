@@ -74,13 +74,13 @@ cycle half rests on a refereed paper, and the path half on a preprint with no
 refereed version.
 
 Paths. The formula holds for all $n\ge k\ge5$ by Theorem 1 of Yuan
-(arXiv:2102.00807v3, 9 February 2021). This is a preprint, which the site's
-curator accepts. Under the label PROVED, the commentary credits Yuan with an
-announced proof of the formula over the whole range. The community database
-lists the problem as proved as of its last update, 1 February 2026. Before Yuan,
-Simonovits and Sós (Combinatorica 1984, refereed) proved the formula for paths
-on $2t+3+\epsilon_0\ge13$ vertices and $n>ct^2$. The proofs announced in 1975
-never appeared.
+(arXiv:2102.00807v3, 9 February 2021). This is a preprint with no journal record
+found on 2026-09-18, which the site's curator accepts. Under the label PROVED,
+the commentary credits Yuan with an announced proof of the formula over the
+whole range. The community database lists the problem as proved as of its last
+update, 1 February 2026. Before Yuan, Simonovits and Sós (Combinatorica 1984,
+refereed) proved the formula for paths on $2t+3+\epsilon_0\ge13$ vertices and
+$n>ct^2$. The proofs announced in 1975 never appeared.
 
 Cycles. The exact value is Theorem 5 of Montellano-Ballesteros and Neumann-Lara
 (Graphs Combin. 21 (2005), 343--354, refereed). For every $n\ge p\ge3$ it gives

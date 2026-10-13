@@ -102,7 +102,7 @@ https://www.erdosproblems.com/1009, accessed 2026-09-18.
   [[../library/extremal_graph_theory/blumenthal_2021_sharp_bounds_decomposing_graphs_edges_triangles/_index|blumenthal_2021_sharp_bounds_decomposing_graphs_edges_triangles]].
 - [BaWi25] Balogh, J. and Wigal, M. C., Packing edge disjoint cliques in
   graphs. arXiv:2502.16683v2 (14 September 2025, "Updated with referees'
-  suggestions");
+  suggestions"; no journal reference on the arXiv record on 2026-09-18);
   published in Combinatorica 45 (2025), no. 5, article 56,
   doi:10.1007/s00493-025-00184-w (Crossref record, 2026-10-07; the journal
   text is not compared). Its p. 10 is the passage used; the library's card

@@ -80,7 +80,8 @@ the statements of Theorems 2 and 3 with the digest's account of the proof of
 Theorem 2 (pp. 126--128) were checked against the page images; no
 proof is verified. No notice is printed in the scan (p. 124 carries the journal
 head and pp. 125--128 only page numbers); the hosting archive's site footer
-speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/, prints "(C) 2005-2007 All rights reserved. All material on this site
+speaks for the site, not the paper (https://users.renyi.hu/~p_erdos/, read
+2026-10-02, prints "(C) 2005-2007 All rights reserved. All material on this site
 is for scientifics purposes only."); the 1955 volume has no publisher page and
 the card gives no DOI, so the publisher's page was not consulted and no Crossref
 license is recorded; the term is unstated.

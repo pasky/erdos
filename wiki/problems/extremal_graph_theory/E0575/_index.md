@@ -140,7 +140,8 @@ accessed 2026-09-18.
 **Formalization.** None for this problem: no file `ErdosProblems/575.lean`
 exists in formal-conjectures (main, fetched 2026-09-18; directory listing
 of 672 entries and the recursive tree checked), the site's indicator
-reads "Formalised statement? No", and the community database records the problem as disproved (last update 31 August 2025)
+reads "Formalised statement? No", and the community database (fetched
+2026-09-18) records the problem as disproved (last update 31 August 2025)
 and unformalized, with no formal proof. The external file
 [`CompactnessAndDegeneracy.lean`](https://github.com/openai/ten-proofs/blob/94bc0feb6a9ff12c7d31d6de640a725c9d43d2b6/CompactnessAndDegeneracy.lean)
 of `openai/ten-proofs` (linked at the repository's head of 2026-09-18; the

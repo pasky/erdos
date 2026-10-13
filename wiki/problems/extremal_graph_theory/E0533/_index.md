@@ -343,11 +343,11 @@ and no `formal_proof` attribute, and the community database named no
 formal-proof URL, although a Lean disproof was already public: `Erdos533.lean`
 in plby/lean-proofs, first committed on 16 August 2026, got its author header on
 23 August 2026, the date of the community database's last update of its
-disproved (Lean) entry; formal-conjectures named it on 18 September 2026. The
-file at main names the plby/lean-proofs file by Codex and GPT-5.6 Sol, which
-formalizes the Liu--Reiher--Sharifzadeh--Staden construction; the corpus has not
-built it. The file's docstring cites the volume and the $1/12$ value as this
-page does.
+disproved (Lean) entry; formal-conjectures named it on 18 September 2026. On
+2026-10-07 the file at main named the plby/lean-proofs file by Codex and GPT-5.6
+Sol, which formalizes the Liu--Reiher--Sharifzadeh--Staden construction; the
+corpus has not built it. The file's docstring cites the volume and the $1/12$
+value as this page does.
 
 **Search scope.** None of the routes below found a dispute
 of Theorem 3 or of $\varrho_3(5)=1/6$, or a later change.

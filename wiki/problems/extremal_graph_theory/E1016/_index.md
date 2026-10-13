@@ -107,7 +107,8 @@ https://www.erdosproblems.com/1016, accessed 2026-10-07.
   the bounds are paged at
   [[../library/extremal_graph_theory/bondy_1971_pancyclic_graphs_i/claim_p84|claim_p84]].
 - [Gr13] S. Griffin, Minimal Pancyclicity. arXiv:1312.0274v1 (1 December 2013;
-  dated 6 September 2013 on its first page; 6 pages; the only arXiv version): a
+  dated 6 September 2013 on its first page; 6 pages; the only arXiv version,
+  with no journal reference and no Crossref record found on 2026-09-18): a
   preprint. Table 1 and Claim 1 with its proof, p. 2; Theorem 3 and
   Proposition 2, p. 3. Library home:
   [[../library/extremal_graph_theory/griffin_2013_minimal_pancyclicity/_index|griffin_2013_minimal_pancyclicity]];
@@ -119,7 +120,7 @@ https://www.erdosproblems.com/1016, accessed 2026-10-07.
   bipancyclic graphs. SpringerBriefs in Mathematics, Springer (2016),
   xii+108 pp., doi:10.1007/978-3-319-31951-3; its Chapter 4, "Minimal
   Pancyclicity", pp. 35--47, doi:10.1007/978-3-319-31951-3_4 (Crossref
-  record read). The site names its Section 4.5 as the earliest
+  record read 2026-09-18). The site names its Section 4.5 as the earliest
   proof in print of the upper bound. The values for $n\le37$, pp. 37--42;
   Theorems 18 and 19, pp. 46--47. Library home:
   [[../library/extremal_graph_theory/george_khodkar_wallis_2016_minimal_pancyclicity/_index|george_khodkar_wallis_2016_minimal_pancyclicity]];
@@ -143,7 +144,8 @@ https://www.erdosproblems.com/1016, accessed 2026-10-07.
   Context.
 - [OEIS] Sequence A105206, "Number of edges in a pancyclic graph on n+2
   vertices with the fewest possible edges", by J. C. George, W. D. Wallis
-  and A. Marr (2005; terms to $n=22$ added 2011), <https://oeis.org/A105206>.
+  and A. Marr (2005; terms to $n=22$ added 2011), <https://oeis.org/A105206>,
+  read 2026-09-18.
 
 **Formalization.** None in the catalogs: formal-conjectures had no file
 `ErdosProblems/1016.lean` on 2026-09-18 (the directory
@@ -276,7 +278,7 @@ pancyclic for $23\le n\le37$, "All of these values agree with [2]" (George,
 Marr and Wallis, a preprint). In the site's notation $h(n)=0$ for $n=3$,
 $1$ for $4\le n\le5$, $2$ for $6\le n\le8$, $3$ for $9\le n\le14$, $4$ for
 $15\le n\le24$ and $5$ for $25\le n\le37$; each satisfies
-$\log_2(n-1)-1\le h(n)\le\log_2n+1$. OEIS A105206 lists
+$\log_2(n-1)-1\le h(n)\le\log_2n+1$. OEIS A105206 (read 2026-09-18) lists
 $3,5,6,8,9,10,12,13,14,15,16,17,19,20,21,22,23,24,25,26$ with offset $3$,
 which are Griffin's $m(n)$ for $3\le n\le22$; the entry's name speaks of
 "$n+2$ vertices" while its offset and its example ("For $n=3$ the answer is

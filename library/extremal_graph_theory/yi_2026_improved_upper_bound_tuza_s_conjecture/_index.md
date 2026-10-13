@@ -27,7 +27,7 @@ edges and one red edge; the two-lemma induction followed here; unrefereed.
 
 L. Yi, *An improved upper bound for Tuza's conjecture via 2-colorable
 triangle families*, arXiv:2608.23010v1 [math.CO] (24 August 2026), 4 pages.
-A preprint: the arXiv record read by the consuming page lists
+A preprint: the arXiv record read by the consuming page on 2026-09-19 lists
 one version and no journal reference, and no refereed publication or
 independent review was found; the one citing record found is
 arXiv:2609.13831 (Wang, "A bound below 2.8 for Tuza's conjecture", not

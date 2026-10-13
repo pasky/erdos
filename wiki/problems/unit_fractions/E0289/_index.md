@@ -129,7 +129,7 @@ solution cannot all coincide; 22 September 2025, Kovač's argument for the
 unrestricted formulation and their doubt about the intended reading (below); 18
 December 2025, Kovač's request that the Lean statement adopt the
 non-overlapping, non-adjacent form. The community
-database records open, formalized statement, no OEIS
+database (accessed 2026-09-17) records open, formalized statement, no OEIS
 entry, no formal proof.
 
 **Origin.** Printed p. 34 of the 1980 monograph, with $\sum_{a,b}=\sum_{i=0}^{b-a}1/(a+i)$:

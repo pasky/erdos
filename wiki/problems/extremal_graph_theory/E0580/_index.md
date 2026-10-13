@@ -111,8 +111,8 @@ Problem #580, https://www.erdosproblems.com/580, accessed 2026-09-18.
 
 **Formalization.** None. No file `ErdosProblems/580.lean` existed in
 formal-conjectures (main as fetched 2026-09-18; directory listing of 672
-entries and the recursive tree); the site's indicator shows the statement as
-not formalized, and the community database lists the
+entries and the recursive tree); the site's indicator showed the statement as
+not formalized, and the community database (fetched 2026-09-18) listed the
 problem as decidable (record last updated 23 October 2025), unformalized,
 with no formal proof.
 

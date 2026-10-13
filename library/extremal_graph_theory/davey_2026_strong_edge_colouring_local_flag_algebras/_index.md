@@ -26,7 +26,7 @@ degree, claimed by a local flag algebra certificate; unrefereed.
 E. Davey, E. Hurley, R. de Joannis de Verclos, R. J. Kang and J. Volec,
 *Strong edge-colouring via local flag algebras*, arXiv:2607.17421v1 (19 July
 2026), 23 pages; the title page prints "July 21, 2026". A preprint: the
-arXiv record lists one version and no journal reference,
+arXiv record (read 2026-09-19) listed one version and no journal reference,
 and no refereed publication was found. Its framework is introduced in the
 companion preprint *Local flag algebras* (the same authors,
 arXiv:2607.12461v1, 14 July 2026), not held.

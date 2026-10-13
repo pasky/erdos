@@ -113,18 +113,21 @@ accessed 2026-09-18.
   and the discrepancy is recorded, not resolved.
 - [vD25b] W. van Doorn, Improved bounds for the Mayer-Erdős phenomenon on
   similarly ordered Farey fractions. arXiv:2509.00121v1 (28 August 2025), 9
-  pp. Theorem 1 and the Conjecture, p. 2; Theorem 2, p. 5. Library
+  pp.; the only version, no journal reference, no Crossref record
+  (2026-09-18). Theorem 1 and the Conjecture, p. 2; Theorem 2, p. 5. Library
   home:
   [[../library/number_theory/doorn_2025_improved_bounds_mayer_erdos_phenomenon_similarly/_index|doorn_2025_improved_bounds_mayer_erdos_phenomenon_similarly]].
 - [Ci26] Cipollini, R., Optimality of Wouter van Doorn's Upper Bound for the
-  Mayer--Erdős Farey Problem. arXiv:2607.23302v1 (25 July 2026), 16 pp.
+  Mayer--Erdős Farey Problem. arXiv:2607.23302v1 (25 July 2026), 16 pp.; the
+  only version, no journal reference, no Crossref record (2026-09-18).
   Theorem 1, p. 2; the contribution statement, p. 16. The key is identified
   with this
   paper by the page's own sentence and by the proof-claims tab's link to its
   arXiv identifier. Library home:
   [[../library/number_theory/cipollini_2026_optimality_van_doorn_upper_bound_mayer_erdos_farey/_index|cipollini_2026_optimality_van_doorn_upper_bound_mayer_erdos_farey]].
 - [WXZ26] Wang, Y., Xie, M. and Zhao, Z., An exact formula for Erdős'
-  problem 1005. arXiv:2608.15681v1 (16 August 2026), 9 pp. Theorems
+  problem 1005. arXiv:2608.15681v1 (16 August 2026), 9 pp.; the only
+  version, no journal reference, no Crossref record (2026-09-18). Theorems
   1.2 and 1.3, p. 1. A lead, not cited by the site's page; the first author's
   proof claim is on the site's tab. Library home:
   [[../library/number_theory/wang_2026_exact_formula_erdos_problem_1005/_index|wang_2026_exact_formula_erdos_problem_1005]].
@@ -143,22 +146,22 @@ accessed 2026-09-18.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/51e4df0f85943cadf29bec7c2e64e4f7aac9a04e/FormalConjectures/ErdosProblems/1005.lean),
 added on 19 September 2026 (no file existed on 2026-09-18), at that revision,
-its only one: the file defines `Erdos1005.f n` as the minimum, over pairs of
-Farey fractions of order $n$ that are not similarly ordered, of the number of
-Farey fractions strictly between them (the intervening-count convention; its
-docstring states the site's wording), `erdos_1005` asks whether $f(n)/n$
-converges to a positive constant with the answer True, and
+its only one on 2026-10-07: the file defines `Erdos1005.f n` as the minimum,
+over pairs of Farey fractions of order $n$ that are not similarly ordered, of
+the number of Farey fractions strictly between them (the intervening-count
+convention; its docstring states the site's wording), `erdos_1005` asks whether
+$f(n)/n$ converges to a positive constant with the answer True, and
 `erdos_1005.variants.constant` states the limit $1/4$, crediting Cipollini and
 GPT-5.5; both are tagged research solved and proved there by `sorry`, and the
 variant's `formal_proof` attribute points to the `Erdos1005.lean` file of Boris
 Alexeev's `lean-proofs` repository, a copy of the Woett development (described
 under "Formalization and the Lean developments" below and a `formalization` link
-on Cipollini's page). The community database (teorth/erdosproblems) records the
-problem solved, a state set on 1 September 2026 (open before; the status date
-field keeps 9 September 2025, the day the entry was created), and formalized
-since 19 September 2026, and the site's formalized-statement indicator read yes.
-None of the three Lean developments was built here, and nothing here is
-kernel-checked.
+on Cipollini's page). The community database (teorth/erdosproblems, fetched
+2026-10-06) records the problem solved, a state set on 1 September 2026 (open
+before; the status date field keeps 9 September 2025, the day the entry was
+created), and formalized since 19 September 2026, and the site's
+formalized-statement indicator read yes on 2026-10-07. None of the three Lean
+developments was built here, and nothing here is kernel-checked.
 
 ## Current assessment
 

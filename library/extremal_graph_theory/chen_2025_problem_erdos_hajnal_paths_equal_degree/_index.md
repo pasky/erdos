@@ -43,10 +43,11 @@ reserved.
 
 **Edition.** The copy read for this card is arXiv:2503.19569v1, stamped
 "[math.CO] 25 Mar 2025" on its first page, 15 pages with a complete text
-layer (the arXiv comment reads "15 pages"); the arXiv record lists this one version and no journal reference. The journal
-text was not compared, so whether the published version keeps
-the constant $600$ of Theorem 2 is unknown here; every locator on this card
-and on the result pages is a preprint page. Result pages:
+layer (the arXiv comment reads "15 pages"); the arXiv record (read 2026-09-18)
+listed this one version and no journal reference. The journal text was not
+compared, so whether the published version keeps the constant $600$ of Theorem 2
+is unknown here; every locator on this card and on the result pages is a
+preprint page. Result pages:
 [[extremal_graph_theory/chen_2025_problem_erdos_hajnal_paths_equal_degree/theorem_2|theorem_2]] (p. 2),
 [[extremal_graph_theory/chen_2025_problem_erdos_hajnal_paths_equal_degree/theorem_3|theorem_3]] (p. 2),
 [[extremal_graph_theory/chen_2025_problem_erdos_hajnal_paths_equal_degree/theorem_12|theorem_12]] (p. 13) and

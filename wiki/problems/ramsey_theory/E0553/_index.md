@@ -121,9 +121,10 @@ T. F. Bloom, Erdős Problem #553, https://www.erdosproblems.com/553, accessed
 **Formalization.** A Lean proof of the solution in Boris Alexeev's repository,
 naming Alon and Rödl as informal authors, is linked on the claim page; this
 corpus has not built it. No file `ErdosProblems/553.lean` exists in
-formal-conjectures (main); the site's page records no formalized statement, and
-the community database (teorth/erdosproblems) records the problem as proved and
-unformalized, with no formal-proof URL.
+formal-conjectures (main, read 2026-09-17); the site's page records no
+formalized statement, and the community database (teorth/erdosproblems, read
+2026-09-17) records the problem as proved and unformalized, with no formal-proof
+URL.
 
 ## Current assessment
 

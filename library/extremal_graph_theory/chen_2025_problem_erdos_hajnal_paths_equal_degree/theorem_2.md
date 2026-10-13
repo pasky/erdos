@@ -45,7 +45,7 @@ Theorem 2, the two remarks and Theorem 3 on p. 2 and Problem 1 on p. 1, read
 on the page images; the proof on pp. 2--11, Section 4 on pp. 13--15 and the
 references on p. 15 in the text layer. Published in J. Combin. Theory Ser. B
 179 (2026), 1--18, doi:10.1016/j.jctb.2026.01.006 (issued July 2026; Crossref
-record read); the journal text was not
+record read on 2026-09-18); the journal text was not
 compared, so whether the published constant is still $600$ is unknown here.
 The edition is identified in the
 [[extremal_graph_theory/chen_2025_problem_erdos_hajnal_paths_equal_degree/_index|source digest]].

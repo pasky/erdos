@@ -62,7 +62,7 @@ https://www.erdosproblems.com/90.
   certificates*, arXiv:2606.03419v5 [math.OC] (2026).
 - [Tori26] *Integral points on norm-one tori and the Erdős unit-distance
   exponent*, 13-page manuscript with no author line, hosted at
-  www-cdn.anthropic.com (2026).
+  www-cdn.anthropic.com, retrieved 2026-09-05 (2026).
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/90.lean).

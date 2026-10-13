@@ -26,7 +26,7 @@ $\epsilon$. Is there a graph on $n$ vertices with $\geq n^2/8$ many edges which
 contains no $K_4$ such that the largest independent set has size at most
 $\epsilon n$?
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording, accessed 2026-09-18 (the page showed no
 last-edited date). The question is: for every
 $\epsilon>0$ there is $n_0(\epsilon)$ such that for every $n\ge n_0$ some
 $K_4$-free graph on $n$ vertices has at least $n^2/8$ edges and independence
@@ -124,7 +124,8 @@ quantitative form, all `research solved` with proof `sorry`) and a trivial
 Zhao as informal authors and Codex and GPT-5.6 Sol as formal authors (the
 claim page pins the commit); the file at its commit of 2026-08-23 carried
 the same declarations and no `formal_proof` attribute, which the commits of
-2026-09-18 added. The community database (teorth/erdosproblems, and) lists `status` "proved (Lean)",
+2026-09-18 added. The community database (teorth/erdosproblems, accessed
+2026-09-18 and 2026-10-06) lists `status` "proved (Lean)",
 `formal_status` Lean with no URL, and the statement as formalized, as of last
 updates dated 23 August, 23 August and 20 June 2026, without recording when
 each state changed; the site's indicator reads "Formalised statement? Yes".

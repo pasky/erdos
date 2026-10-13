@@ -227,7 +227,7 @@ Stanley's result in the monograph's form, which the commenter finds wrong or at
 best vague, because a count over subsets of varying sizes is not preserved under
 translation, and points to the corollaries of Section 5 of Stanley's paper (the
 comment calls it Chapter 5) as the correct statements; the site marks the
-comment as addressed, and the commentary, names Stanley's set.
+comment as addressed, and the commentary, read 2026-09-18, names Stanley's set.
 There are no proof claims. The community database record, at its revision of
 2026-09-18, lists the status proved (Lean) as of its last update on 24 August
 2026, and the informal status proved as of its last update on 31 August 2025.

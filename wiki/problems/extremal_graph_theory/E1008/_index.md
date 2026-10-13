@@ -87,7 +87,8 @@ Problem #1008, https://www.erdosproblems.com/1008, accessed 2026-09-18.
 
 - [CFS14b] D. Conlon, J. Fox, and B. Sudakov, Large subgraphs without complete
   bipartite graphs. arXiv:1401.6711v1 (27 January 2014; 4 pages; the only
-  arXiv version, with no journal reference on arXiv). Theorem 2.1 and
+  arXiv version, with no journal reference on arXiv and no journal record
+  found by a Crossref bibliographic query on 2026-09-18). Theorem 2.1 and
   Lemma 2.2, p. 1; Theorem 2.3 and the Remarks, p. 2. Library home:
   [[../library/extremal_graph_theory/conlon_2014_large_subgraphs_without_complete_bipartite_graphs/_index|conlon_2014_large_subgraphs_without_complete_bipartite_graphs]];
   paged at
@@ -158,7 +159,7 @@ Conlon, Fox, Sudakov, Hunter and ChatGPT as informal authors and is recorded as
 a formalization link on their claim pages. The $\tfrac38$ proof is an
 independent proof and has its own pending claim page,
 [[problems/extremal_graph_theory/E1008/claims/2026_01_20_alexeev|2026_01_20_alexeev]].
-The community database lists `status` "proved (Lean)" and
+The community database (accessed 2026-09-18) lists `status` "proved (Lean)" and
 `formal_status` Lean as of its last update on 17 January 2026 (no URL), the
 statement formalized since 5 August 2026; the site's indicator says a formalized
 statement exists.
@@ -195,7 +196,7 @@ $m^{1/(r+1)}$ and $m^{r/(r+1)}$ has $m$ edges and no $K_{r,s}$-free subgraph
 with more than $sm^{r/(r+1)}$ edges; at $r=s=2$ the order $m^{2/3}$ is best
 possible. Acceptance evidence: the note is an arXiv preprint (v1 of 27
 January 2014, the only version; no journal reference on the abstract page or
-in the API record), so the
+in the API record; no Crossref record for its title on 2026-09-18), so the
 preprint qualification applies: the site accepted the result on 29 September
 2025 and labeled it PROVED, the community database records it, the argument
 is the standard deletion method and is reproduced independently in the

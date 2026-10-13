@@ -213,7 +213,7 @@ formal authors Aristotle and Boris Alexeev; the file is recorded as a
 formalization link on the Alon--Nathanson--Ruzsa claim page. The companion
 note `ErdosProblems/Erdos476.md` lists copies for five Mathlib versions. The
 file is third-party Lean that this corpus has not built, so it gives no
-`formalized` evidence. The community database lists the
+`formalized` evidence. The community database (accessed 2026-09-18) lists the
 problem as "proved (Lean)", as of its last update on 31 December 2025, with
 `formal_status` Lean, the statement formalized since 6 July 2026 and no
 formal-proof URL; the site's indicator reads "Formalised statement? Yes".

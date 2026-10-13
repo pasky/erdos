@@ -47,7 +47,7 @@ the matching near-optimal construction.
 The retained folder-name PDF is the publisher's file of the article (5
 pages; printed p. $n$ is PDF p. $n-224$); the journal record is Acta
 Arith. 95 (2000), no. 3, 225--229, DOI 10.4064/aa-95-3-225-229 (Crossref
-record read; received 6 July 1999, revised 19 April 2000). Read
+record read 2026-09-18; received 6 July 1999, revised 19 April 2000). Read
 status: claims checked, in the text layer and on the page images of PDF
 pp. 2 and 4, for the definitions, Theorems 1--3, Theorem 4
 (Sárközy's, quoted), the Section 3 construction with its counting

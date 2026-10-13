@@ -52,7 +52,7 @@ https://www.erdosproblems.com/356.
   (2015).
 
 **Formalization.** No statement in formal-conjectures (no `356.lean`, and the
-site lists no formalized statement). The file
+site listed no formalized statement, on 2026-10-07). The file
 `src/latest/ErdosProblems/Erdos356.lean` of `plby/lean-proofs` states
 `erdos_356`, the problem's existential statement (some $c>0$ works for all large
 $n$), whose proof supplies $c=1/300000$; the community database lists the formal

@@ -150,7 +150,7 @@ carries a `formal_proof` attribute naming theorem `not_erdos_803` of
 in Boris Alexeev's lean-proofs repository (informal author Noga Alon; formal
 authors Codex and GPT-5.6 Sol); the file also states Alon's bound and Janzer
 and Sudakov's bound as variants without proofs. The community database
-(teorth/erdosproblems, `data/problems.yaml`) lists the
+(teorth/erdosproblems, `data/problems.yaml`, read 2026-10-07) lists the
 problem as disproved (Lean), a status its file has carried since 26 September
 2026 (the entry's update date is 16 September 2026), through Collin Yuanjie
 Ren's package formalizing Alon's construction and both negative readings, and

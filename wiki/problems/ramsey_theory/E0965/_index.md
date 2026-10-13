@@ -97,7 +97,7 @@ T. F. Bloom, Erdős Problem #965, https://www.erdosproblems.com/965, accessed
   second-hand.
 - [SoWe] Soukup, D. T. and Weiss, W., Sums and anti-Ramsey colourings of
   $\mathbb R$. Unpublished manuscript, 5 pages, PDF dated September 2015; no
-  journal or arXiv record found. Theorem 3.1, p. 3; Corollary
+  journal or arXiv record found on 2026-09-18. Theorem 3.1, p. 3; Corollary
   3.2, p. 4. Library home:
   [[../library/ramsey_theory/soukup_2015_sums_anti_ramsey_colourings_reals/_index|soukup_2015_sums_anti_ramsey_colourings_reals]].
 - [ErHaRa65] Erdős, P., Hajnal, A. and Rado, R., Partition relations for

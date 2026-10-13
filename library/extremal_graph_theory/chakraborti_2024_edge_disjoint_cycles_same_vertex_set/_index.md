@@ -50,7 +50,7 @@ Source: <https://arxiv.org/abs/2404.07190>.
 
 **Edition.** The copy read for this card is arXiv:2404.07190v1, stamped
 "[math.CO] 10 Apr 2024" on p. 1, 34 pages with
-a text layer; the arXiv record lists no later version. The
+a text layer; the arXiv record lists no later version (read 2026-09-18). The
 paper appeared as Advances in Mathematics 469 (2025), Paper No. 110228,
 doi:10.1016/j.aim.2025.110228 (Crossref record read 2026-09-18: issued May
 2025, record created 3 April 2025; read again on 2026-10-07, the record names

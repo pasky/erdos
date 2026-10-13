@@ -71,7 +71,7 @@ the resolution on 14 July 2026 (the page's last edit) after a thread comment of
 The copy read for this card is the PDF at that URL, five A4 pages produced by
 pdfTeX with a complete text layer,
 read in the text layer and on the page images of pp. 1--5. Provenance:
-retrieved from the URL above (HTTP 200, one request);
+retrieved 2026-09-18T05:59Z from the URL above (HTTP 200, one request);
 287,546 bytes. That copy, retrieved from the hosting organization's site
 (https://www.ulam.ai/research/erdos793.pdf), carries no arXiv stamp and prints
 only the "ulam.ai" affiliation and no notice; the arXiv abstract page of the

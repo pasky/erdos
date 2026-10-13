@@ -14,9 +14,9 @@ updated: 2026-10-08T15:10:24Z
 **Selected source.** Sergey Norin and Yue Ru Sun, *Triangle-independent sets vs.
 cuts*, arXiv:1602.04370v1, submitted 13 February 2016. The copy read for this
 card is that fourteen-page v1 PDF; no file of it is held. The [current arXiv
-record](https://arxiv.org/abs/1602.04370), lists only v1. A fresh official v1
-download is byte-identical to the copy read. The internal PDF creation date in
-2021 is not evidence of a mathematical revision.
+record](https://arxiv.org/abs/1602.04370), checked 5 September 2026, listed
+only v1. A fresh official v1 download is byte-identical to the copy read. The
+internal PDF creation date in 2021 is not evidence of a mathematical revision.
 
 Norin's [institutional publication list](https://www.math.mcgill.ca/snorin/papers.html)
 also links this title to arXiv without journal metadata.

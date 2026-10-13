@@ -82,7 +82,7 @@ Erdős Problem #285, https://www.erdosproblems.com/285, accessed 2026-09-17.
 
 **Formalization.** The statement file
 [`ErdosProblems/285.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/285.lean)
-of formal-conjectures (the link is pinned to that
+of formal-conjectures (read 2026-09-17; the link is pinned to that
 revision) declares `erdos_285 : answer(True) ↔ ...` under
 `category research solved` with proof `sorry`, a docstring "Proved by
 Martin [Ma00]", a variant `erdos_285.variants.lb` for the trivial lower

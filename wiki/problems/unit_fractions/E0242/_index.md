@@ -171,7 +171,7 @@ of formal-conjectures at the linked revision (main) declares
 under `category research open` with proof `sorry`, and the variant
 `erdos_242.variants.schinzel_generalization` (for each $a>0$ and all
 sufficiently large $n$, the same with $a/n$; `research open`, `sorry`). The
-community database (`problems.yaml`) records the problem
+community database (`problems.yaml`, accessed 2026-09-18) records the problem
 as falsifiable (last update 28 September 2025), the statement as formalized
 since 31 August 2025, no formal proof, and the OEIS entries A073101,
 A075245--A075248 and A287116. The file was not built.
@@ -359,7 +359,7 @@ Erdős, asked in 1996, said $4$ is "the first interesting case".
 The counting papers count positive triples without distinctness ([ElTa13]
 p. 2; [ElPl20] nondecreasing tuples; [PoWe25] display (2.1); [MiDu25]
 p. 1); existence is unaffected (Formulation), and the counts differ from the
-distinct-ordered count by bounded factors. OEIS A073101
+distinct-ordered count by bounded factors. OEIS A073101 (accessed 2026-09-18)
 counts solutions with $0<x<y<z$ and begins $0,0,1,1,2,5,5,6,4,9$, consistent
 with the statement's $n>2$.
 
@@ -458,7 +458,7 @@ that appear there.
   $b\equiv3\pmod4$, all of which already have a prime factor $\equiv3\pmod4$
   or are even and so fall under the classical identities, and its density-one
   statement is weaker than Vaughan's bound.
-- OEIS: A073101 (solutions with $0<x<y<z$),
+- OEIS (accessed 2026-09-18): A073101 (solutions with $0<x<y<z$),
   A075245--A075247 (the solution with the largest $z$), A075248 (the count
   for $5/n$), A287116 (nonsquare integers not of the form $4M-d$ with
   $ab\mid M$ and $d\mid a+b$).

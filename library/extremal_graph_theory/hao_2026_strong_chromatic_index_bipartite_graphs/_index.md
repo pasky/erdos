@@ -23,7 +23,7 @@ Quinn Massey; unrefereed.
 
 Y. Hao, T. Yang and X. Yu, *Strong chromatic index of bipartite graphs*,
 arXiv:2606.23824v2 [math.CO] (23 July 2026), 12 pages. A preprint: the arXiv
-record read by the consuming page lists two versions and no
+record read by the consuming page on 2026-09-19 lists two versions and no
 journal reference, and no refereed publication or independent review was
 found. Its p. 1 footnote: "XY was partially supported by NSF Grant
 DMS--2348702"; the authors are at the School of Mathematics, Georgia

@@ -56,6 +56,6 @@ the SDP certificate of Section 7.1.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0149/_index|Problem 149]]: the best claimed
-  upper bound on $\mathrm{sq}(G)$ for large $\Delta$ improving the refereed $1.772\Delta^2$; a preprint result, recorded with
-  that qualification and without review here, still far from the
-  conjectured $\frac54\Delta^2$.
+  upper bound on $\mathrm{sq}(G)$ for large $\Delta$, improving the refereed
+  $1.772\Delta^2$; a preprint result, recorded with that qualification and
+  without review here, still far from the conjectured $\frac54\Delta^2$.

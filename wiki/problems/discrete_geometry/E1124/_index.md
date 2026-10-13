@@ -43,8 +43,8 @@ https://www.erdosproblems.com/1124.
   squaring. Ann. of Math. (2) 185 (2017), no. 2, 671-710; arXiv:1501.06122.
 
 **Formalization.** None recorded: the community database lists the problem
-as unformalized, and the formal-conjectures repository has no statement file
-for it.
+as unformalized, and the formal-conjectures repository had no statement file
+for it on 2026-10-07.
 
 ## Current assessment
 

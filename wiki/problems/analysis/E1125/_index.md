@@ -70,9 +70,9 @@ stated external input]]. The separately cited earlier papers and Laczkovich's
 1983 generalization mentioned in the source footnote have not been fully
 compiled here.
 
-The [problem and
-discussion](https://www.erdosproblems.com/forum/discuss/1125) pages attribute
-the solution to Laczkovich and display the label PROVED (LEAN). The [publisher
+On 2026-09-05 the [problem and
+discussion](https://www.erdosproblems.com/forum/discuss/1125) pages attributed
+the solution to Laczkovich and displayed the label PROVED (LEAN). The [publisher
 record](https://www.impan.pl/en/publishing-house/journals-and-series/colloquium-mathematicum/all/49/1/104558/on-kemperman-s-inequality-2f-x-f-x-h-f-x-2h)
 confirms the 1984 publication. The exact unrestricted question is answered by
 Theorem 1 and the author-recorded chain recorded here. Kemperman's earlier
@@ -80,8 +80,8 @@ theorem for measurable $f$ [Ke69], which Laczkovich's introduction records,
 is the accepted partial claim
 [[problems/analysis/E1125/claims/1969_01_01_kemperman|Kemperman 1969]].
 
-Bibliographic records, the public formal repositories and the linked
-original formalization, agree with this conclusion.
+On 2026-09-05 the bibliographic records, the public formal repositories and the
+linked original formalization agreed with this conclusion.
 The paper's separate subgroup question is recorded without a current status,
 and no exhaustive search of the later literature is claimed.
 

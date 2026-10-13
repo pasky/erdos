@@ -108,7 +108,7 @@ https://www.erdosproblems.com/1078, accessed 2026-09-18.
   [[../library/extremal_graph_theory/bollobas_1975_complete_subgraphs_chromatic_graphs/conjecture_p98|conjecture_p98]].
 - [Ha01] Haxell, P. E., A note on vertex list colouring. Combin. Probab.
   Comput. 10 (2001), no. 4, 345--347, doi:10.1017/S0963548301004758 (Crossref
-  record read; published July 2001, online 2 October 2001 per the
+  record read 2026-09-18; published July 2001, online 2 October 2001 per the
   publisher's page). Not held: the DOI resolves to the publisher's article
   page, which offers the article behind access and shows its abstract
   (accessed 2026-09-18); no open copy was located.

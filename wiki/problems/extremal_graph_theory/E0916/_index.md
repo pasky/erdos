@@ -134,12 +134,13 @@ accessed 2026-09-19.
 
 **Formalization.** None in the collection. No file `ErdosProblems/916.lean`
 was in formal-conjectures when its directory
-`FormalConjectures/ErdosProblems/` was listed (682 entries); the site's page
-shows "Formalised statement? No (create one)"; the community database
-(teorth/erdosproblems, `data/problems.yaml`, accessed 2026-09-19) records the
-problem proved (last update 31 August 2025), unformalized, with no formalized
-statement and no formal-proof field. An external Lean development the catalog
-does not cite is described under Leads and linked from Thomassen's claim page.
+`FormalConjectures/ErdosProblems/` was listed on 2026-09-19 (682 entries); the
+site's page shows "Formalised statement? No (create one)"; the community
+database (teorth/erdosproblems, `data/problems.yaml`, accessed 2026-09-19)
+records the problem proved (last update 31 August 2025), unformalized, with no
+formalized statement and no formal-proof field. An external Lean development the
+catalog does not cite is described under Leads and linked from Thomassen's claim
+page.
 
 ## Current assessment
 

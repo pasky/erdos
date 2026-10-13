@@ -43,10 +43,10 @@ Mathematics 28; MathSciNet (MR 860592) cites the Studies number and the PDF
 prints only the Annals header. DOI 10.1016/S0304-0208(08)73618-1 (the file's
 metadata title; not printed on the page). The problem page cites the paper
 in its entry for the site's key [Ko77], whose citation is the Russian paper
-Diskret. Analiz Vyp. 31 (1977), 17--56, 90; the site's own entry for [Ko77] cites that Russian paper alone (MR 543833);
-the paper's own reference 12 gives that Russian paper as "Metody Diskret.
-Analiz. 31 (1977) 17--56 (in Russian)" and its reference 11 is the 1976
-announcement filed as
+Diskret. Analiz Vyp. 31 (1977), 17--56, 90; the site's own entry for [Ko77]
+(read 2026-10-07) cited that Russian paper alone (MR 543833); the paper's own
+reference 12 gives that Russian paper as "Metody Diskret. Analiz. 31 (1977)
+17--56 (in Russian)" and its reference 11 is the 1976 announcement filed as
 [[extremal_graph_theory/korshunov_1976_solution_problem_erdos_renyi_hamiltonian_cycles/_index|korshunov_1976_solution_problem_erdos_renyi_hamiltonian_cycles]].
 Its reference 4 is the 1960 evolution paper
 [[extremal_graph_theory/erdos_1960_evolution_random_graphs/_index|erdos_1960_evolution_random_graphs]],

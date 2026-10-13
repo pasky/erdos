@@ -51,7 +51,7 @@ bound $f(n)\ge\sqrt{n-1}$ (a graph of diameter $2$ with every degree at most
 $d$ has at most $d^2+1$ vertices), this gives
 $\sqrt{n-1}\le f(n)\le(2/\sqrt3+o(1))\sqrt n$ for all large $n$: the order of
 growth of $f(n)$ is $\sqrt n$, and $f(n)/\sqrt n$ does not tend to infinity.
-The site's commentary states this bound; it is the smallest
+The site's commentary states this bound (read 2026-10-07); it is the smallest
 upper constant among the sources read, and the remark in Alon's note of 2 July
 2024 calls it a better upper estimate than Hanson and Seyffarth's. Section 6
 cites the earlier bound of

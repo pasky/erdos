@@ -36,7 +36,7 @@ $$
 g_3(n) \gg 3^n?
 $$
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording, accessed 2026-09-18 (the page showed no
 last-edited date). $\langle A\rangle$ includes the empty
 sum $0$; a $k$-term progression $\{x,x+d,\ldots,x+(k-1)d\}$ is non-trivial
 when $d\ne0$ (Korsky's "nonconstant"). For $k=3$, Proposition 4.1 of [Ko26]
@@ -70,8 +70,8 @@ $$
 
 where the lower bound is
 [[../library/additive_combinatorics/korsky_2026_arithmetic_progression_free_subset_sum_sets/theorem_1_1|Theorem 1.1]]
-of Korsky [Ko26] (arXiv:2606.24139v1, June 2026, a preprint), recorded as the
-claimed partial claim
+of Korsky [Ko26] (arXiv:2606.24139v1, June 2026, a preprint with no journal
+record on 2026-09-18), recorded as the claimed partial claim
 [[problems/additive_combinatorics/E0817/claims/2026_06_23_korsky|Korsky's bounds]].
 It sharpens Erdős and Sárközy's $g_3(n)\gg3^n/n^{O(1)}$. That form of the bound
 is the site's wording. The paper's Theorem 4 (p. 251) is about $K(N)$, and its
@@ -123,14 +123,16 @@ summarized under The 2026 claim below. Cite as: T. F. Bloom, Erdős Problem
   the site's key.
 - [ErSa92] Erdős, P. and Sárközy, A., Arithmetic progressions in subset
   sums. Discrete Math. 102 (1992), no. 3, 249--264, DOI
-  10.1016/0012-365x(92)90119-z; the publisher's open-archive scan is the
-  edition cited, by printed page. Definitions, p. 249 and p. 251; Theorem
-  4, p. 251; the remark on the $\log\log N$ gap, p. 252; the proof of
-  Theorem 4, pp. 258--261, with the interval argument on p. 261. The paper [Ko26] (its [10]) and [Co26]
-  (its [5]) cite it for the bound $g_3(n)\gg3^n/n^{O(1)}$. Library home:
+  10.1016/0012-365x(92)90119-z (Crossref record of 2026-09-18); the
+  publisher's open-archive scan is the edition cited, by printed page.
+  Definitions, p. 249 and p. 251; Theorem 4, p. 251; the remark on the
+  $\log\log N$ gap, p. 252; the proof of Theorem 4, pp. 258--261, with the
+  interval argument on p. 261. The paper [Ko26] (its [10]) and [Co26] (its [5])
+  cite it for the bound $g_3(n)\gg3^n/n^{O(1)}$. Library home:
   [[../library/additive_combinatorics/erdos_sarkozy_1992_arithmetic_progressions_subset_sums/_index|erdos_sarkozy_1992_arithmetic_progressions_subset_sums]].
 - [Ko26] Korsky, S., Arithmetic progression-free subset-sum sets.
-  arXiv:2606.24139v1 (23 June 2026), 15 pp. Theorems 1.1--1.2, p. 2;
+  arXiv:2606.24139v1 (23 June 2026), 15 pp.; no journal record
+  (Crossref, 2026-09-18). Theorems 1.1--1.2, p. 2;
   Theorem 1.3 and Corollary 1.4, p. 3; Proposition 4.1 and Corollary 4.2, p. 6; Remark 4.6,
   p. 8. Library home:
   [[../library/additive_combinatorics/korsky_2026_arithmetic_progression_free_subset_sum_sets/_index|korsky_2026_arithmetic_progression_free_subset_sum_sets]].

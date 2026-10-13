@@ -68,10 +68,10 @@ Problem #55, https://www.erdosproblems.com/55, accessed 2026-09-17.
   version, and no journal version found. Library home:
   [[../library/integer_sequences/conlon_2021_subset_sums_completeness_colorings/_index|conlon_2021_subset_sums_completeness_colorings]].
 
-**Formalization.** None. No file `ErdosProblems/55.lean` exists in
-formal-conjectures (`main`); the site's page says
-"Formalised statement? No", and the community database
-records the problem as solved and unformalized with no formal-proof URL.
+**Formalization.** None. No file `ErdosProblems/55.lean` existed in
+formal-conjectures (`main`, fetched 2026-09-17); the site's page said
+"Formalised statement? No", and the community database (fetched 2026-09-17)
+recorded the problem as solved and unformalized with no formal-proof URL.
 
 ## Current assessment
 

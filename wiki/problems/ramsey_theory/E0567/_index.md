@@ -179,7 +179,7 @@ only remains the standing of the catalog question.
 
 **Provenance of the proof file.**
 https://conjectures.io/results/145e01a5-a004-4b17-a9fa-7503a28ff052/solution/download,
-37,650 bytes.
+fetched 2026-09-27, 37,650 bytes.
 
 ## Current assessment
 

@@ -85,7 +85,7 @@ Erdős Problem #291, https://www.erdosproblems.com/291, accessed 2026-09-18.
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Sh16] Shiu, P., The denominators of harmonic numbers (Revised).
   arXiv:1607.02863v2 (30 July 2024; v1 of 11 July 2016), 8 pages; an
-  unrefereed preprint. Library home:
+  unrefereed preprint with no journal record on 2026-09-18. Library home:
   [[../library/unit_fractions/shiu_2016_denominators_harmonic_numbers_revised/_index|shiu_2016_denominators_harmonic_numbers_revised]];
   result pages for Theorem 1, Theorem 2 and the Conjecture.
 - [WuYa22] Wu, B.-L. and Yan, X.-H., On the denominators of harmonic
@@ -115,7 +115,7 @@ under `category research solved`, both with proof `sorry`, together with
 `sorry`-bodied variants for the leading-digit criterion, for Shiu's
 heuristic (order $x/\log x$; density zero) and for the Wu--Yan theorem with
 the independence hypothesis as an explicit argument. The community
-database (teorth/erdosproblems, `data/problems.yaml`)
+database (teorth/erdosproblems, `data/problems.yaml`, read 2026-09-18)
 records status open (31 August 2025), a
 formalized statement (24 June 2026), formal status unformalized and OEIS
 A110566. Van Doorn's external Lean file, which proves a generalization of

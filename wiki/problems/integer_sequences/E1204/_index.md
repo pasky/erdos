@@ -116,7 +116,7 @@ A008407, A023193, A135311), its one-comment discussion thread (5 September
   [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]].
 - [Po14c] Polymath, D. H. J., Variants of the Selberg sieve, and bounded
   intervals containing many primes. Res. Math. Sci. 1 (2014), Art. 12, 83 pp.,
-  DOI 10.1186/s40687-014-0012-7;
+  DOI 10.1186/s40687-014-0012-7 (Crossref record accessed 2026-09-18);
   arXiv:1407.4897 (v1 18 July 2014 to v4 22 December 2014, not held). The pages
   cited are the journal version's, whose sections carry no numbers; the site's
   "Section 10" is its section "Narrow admissible tuples" (pp. 76--81): the
@@ -142,7 +142,7 @@ A008407, A023193, A135311), its one-comment discussion thread (5 September
   sieve.
 - [El65] Elliott, P. D. T. A., On sequences of integers. Quart. J. Math.
   Oxford Ser. (2) 16 (1965), 35--45, DOI 10.1093/qmath/16.1.35. Not held:
-  the one request to the publisher's page returned HTTP 403
+  the one request to the publisher's page on 2026-09-18 returned HTTP 403
   with a challenge page. The lower bound is quoted from the site and the
   Polymath paper.
 - [OEIS] Sequence A008407 (T. Forbes, 1996; entry last modified 7 February

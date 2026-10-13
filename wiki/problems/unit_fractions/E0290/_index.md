@@ -260,7 +260,7 @@ the commit of 10 July 2026 that the claim page links. These are facts
 about the files' text: no build or audit is recorded and no kernel credit
 is claimed, so the 2024 claim page links the files as formalizations and
 lists no `formalized` evidence. The community database
-(teorth/erdosproblems) records `formal_status` Lean since
+(teorth/erdosproblems, accessed 2026-09-17) records `formal_status` Lean since
 14 January 2026 and no formal-proof URL.
 
 **Search scope.** None of the routes below found a

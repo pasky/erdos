@@ -204,14 +204,14 @@ https://www.erdosproblems.com/583, accessed 2026-09-18.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/583.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/583.lean)
-of formal-conjectures (main as fetched, the link pinned to
+of formal-conjectures (main as fetched 2026-09-18, the link pinned to
 that revision) declares `erdos_583` under `category
 research open` with proof `sorry`: for a finite connected simple graph $G$
 there is a decomposition of $G$ into subgraphs that are paths
 (`IsPathSubgraph`: the subgraph traced by a walk with no repeated vertex)
 with at most $\lceil|V|/2\rceil$ parts. The site's "Formalised statement?"
-indicator read "No" and "Yes" on 18 September 2026; the
-community database (teorth/erdosproblems) records the
+indicator read "No" on 5 September 2026 and "Yes" on 18 September 2026; the
+community database (teorth/erdosproblems, fetched 2026-09-18) records the
 problem falsifiable (31 August 2025), the statement formalized since 7
 September 2026 and no formal proof.
 

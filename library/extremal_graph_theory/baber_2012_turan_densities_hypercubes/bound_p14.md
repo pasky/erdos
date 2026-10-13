@@ -31,12 +31,12 @@ the text, not as a numbered theorem; the abstract announces it as "a new
 upper bound of 0.5615 for $\pi(K_4^3)$".
 
 **Source.** R. Baber, *Turán densities of hypercubes*, arXiv:1201.3587v2 (13
-November 2012, 18 pages; v1 17 January 2012; the arXiv record read says v2
-was "Revised to include a new bound for $\pi(K_4^3)$" and carries no journal
-reference), the copy read, whose title page is dated 4 November 2018 by its
-typesetting; the passage is on p. 14 of Section 5.1 (pp. 13–16), read on the
-page image and in the text layer. A preprint; no refereed version was found.
-The edition read is identified in the
+November 2012, 18 pages; v1 17 January 2012; the arXiv record read on 2026-09-18
+said v2 was "Revised to include a new bound for $\pi(K_4^3)$" and carried no
+journal reference), the copy read, whose title page is dated 4 November 2018 by
+its typesetting; the passage is on p. 14 of Section 5.1 (pp. 13–16), read on the
+page image and in the text layer. A preprint; no refereed version was found. The
+edition read is identified in the
 [[extremal_graph_theory/baber_2012_turan_densities_hypercubes/_index|source digest]].
 
 **Read depth.** Claims checked: the passage and the opening of Section

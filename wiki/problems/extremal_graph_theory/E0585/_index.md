@@ -70,9 +70,9 @@ accessed 2026-09-18.
 
 - [CJMM24] Chakraborti, D. and Janzer, O. and Methuku, A. and Montgomery, R.,
   Edge-disjoint cycles with the same vertex set. arXiv:2404.07190 (v1 10
-  April 2024, the version cited; the only arXiv version);
+  April 2024, the version cited; the only arXiv version on 2026-09-18);
   Adv. Math. 469 (2025), Paper No. 110228, doi:10.1016/j.aim.2025.110228
-  (not held, not compared). Problem 1 and
+  (Crossref record of 2026-09-18; not held, not compared). Problem 1 and
   Theorem 2, p. 2. Library home:
   [[../library/extremal_graph_theory/chakraborti_2024_edge_disjoint_cycles_same_vertex_set/_index|chakraborti_2024_edge_disjoint_cycles_same_vertex_set]].
 - [PRS95] Pyber, L. and Rödl, V. and Szemerédi, E., Dense graphs without
@@ -191,7 +191,7 @@ edge-disjoint cycles with the same vertex set. For $k=2$ the maximum asked
 for is below $c(2)\,n(\log n)^t$, the site's $n(\log n)^{O(1)}$; the exponent
 $t$ is existential in the statement and the introduction does not give its
 value. Acceptance evidence: the paper appeared in Advances in Mathematics
-469 (2025), 110228, a refereed journal; the
+469 (2025), 110228 (Crossref record of 2026-09-18), a refereed journal; the
 text cited is the arXiv v1 of 10 April 2024, the only arXiv version, and
 the journal text was not compared. The basis is the statement on p. 2; the
 proof (Sections 3--7, using sublinear expanders, absorption and a

@@ -45,7 +45,7 @@ header reads "Submitted: Aug 11, 2024; Accepted: May 4, 2025; Published: Jun 6,
 
 The copy read for this card
 is the journal's published PDF (10 pages, pdfTeX), read in its text layer;
-page references are the journal's. Provenance: retrieved
+page references are the journal's. Provenance: retrieved 2026-09-18T11:06:50Z
 from
 <https://www.combinatorics.org/ojs/index.php/eljc/article/download/v32i2p42/pdf>
 (HTTP 200, one request); 285,255 bytes. The file prints "© The authors. Released

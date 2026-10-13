@@ -135,7 +135,7 @@ Bloom, Erdős Problem #555, https://www.erdosproblems.com/555, accessed
 **Formalization.** None. No file `ErdosProblems/555.lean` exists in
 formal-conjectures (main; none on 2026-09-17 or 2026-10-07), the site's page
 records no formalized statement, and the community database
-(teorth/erdosproblems) records the problem as open and
+(teorth/erdosproblems, read 2026-10-06) records the problem as open and
 unformalized with no formal-proof URL; its OEIS field lists A389313.
 
 ## Current assessment

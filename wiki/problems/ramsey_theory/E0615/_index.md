@@ -138,7 +138,8 @@ Codex and GPT-5.6 Sol, with a pinned Lean 4 and Mathlib version; it imports a
 companion module `ErdosProblems.Erdos615.Erdos615Construction` that carries the
 construction and is unexamined here. The file contains no `sorry` and no `axiom`
 line, a fact about its text and not a check. The file is a formalization link on
-the Fox--Loh--Zhao claim page. The community database (teorth/erdosproblems) lists the status "disproved (Lean)" and the formal status
+the Fox--Loh--Zhao claim page. The community database (teorth/erdosproblems,
+fetched 2026-09-18) lists the status "disproved (Lean)" and the formal status
 Lean, with no URL, as of its last update of those fields on 23 August 2026, and
 the statement as formalized as of that field's last update on 20 June 2026.
 Neither file was built at these pinned commits, and no local kernel credit is
@@ -160,7 +161,7 @@ the negative, through their lower bound
 $\mathrm{rt}(n;4,ne^{-f(n)})\ge(1/8-o(1))n^2$ for every
 $f(n)=o(\sqrt{\log n/\log\log n})$; and it points to Problem 22 and to the
 entry in the graphs problem collection. The thread and the proof-claim tab
-are empty. The community database record says
+are empty. The community database record (fetched 2026-09-18) says
 disproved (Lean), formalized statement.
 
 **Origin.** [EHSSS93] poses the question as its

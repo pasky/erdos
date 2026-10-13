@@ -40,7 +40,7 @@ reference text reads "Electron. J. Combin. (2005), Note 21, 10". Preprint
 arXiv:math/0410218.
 
 **Edition read.** The copy read for this card is arXiv:math/0410218v1 (stamped
-"[math.CO] 8 Oct 2004" on p. 1; the arXiv record read lists this
+"[math.CO] 8 Oct 2004" on p. 1; the arXiv record read on 2026-09-18 lists this
 single version, "10 pages", and no journal reference or DOI), 10 letter-size
 pages with a complete text layer; its title page prints the compilation date
 October 28, 2018. Provenance: a download of September 2026 whose URL was not

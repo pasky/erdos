@@ -40,7 +40,7 @@ pages with their own pagination, no journal header; its reference list cites
 the Dias da Silva--Hamidoune paper as "to appear" in Bull. London Math. Soc.
 26, so the text predates that paper's 1994 printing), read in its text
 layer; page references below are to this version. The journal text was not
-compared. Provenance: retrieved from
+compared. Provenance: retrieved 2026-09-18T15:36:02Z from
 <https://www.tau.ac.il/~nogaa/PDFS/annr3.pdf> (HTTP 200, one request);
 158,902 bytes. That copy is the authors' version from the first author's
 publication list at tau.ac.il/~nogaa (read 2026-10-02), which states no terms,

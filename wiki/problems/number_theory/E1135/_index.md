@@ -173,10 +173,10 @@ commit), which defines `collatzStep n = if Even n then n / 2 else 3 * n + 1` and
 states `collatz_conjecture (n : ℕ) (hn : n > 0) : ∃ m, collatzStep^[m] n = 1`
 (`research open`, `sorry`): the standard map, whose question is equivalent to
 the page's by the map remark above. The community database
-(teorth/erdosproblems) lists the problem as open as of its last update on 11
-January 2026, the statement as formalized as of that field's last update on 13
-January 2026, no formal proof, a prize and the comment "Collatz conjecture". The
-corpus has not built the files.
+(teorth/erdosproblems, fetched 2026-09-18) lists the problem as open as of its
+last update on 11 January 2026, the statement as formalized as of that field's
+last update on 13 January 2026, no formal proof, a prize and the comment
+"Collatz conjecture". The corpus has not built the files.
 
 ## Current assessment
 
@@ -197,8 +197,8 @@ publicity from the site), a historical comment of 12 January 2026 (Erdős and
 Collatz both attended the 1950 International Congress at Harvard; a group
 photograph), and a third-party notice of 16 July 2026 (a company's prize for a
 proof, with a 2031 deadline); none is a mathematical source. The proof-claims
-tab is empty. The community database record lists the problem as open as of its
-last update on 11 January 2026.
+tab is empty. The community database record, fetched 2026-09-18, lists the
+problem as open as of its last update on 11 January 2026.
 
 **The Erdős connection (the account this page keeps).** Lagarias's 2010 survey
 prints: "We also note that Paul Erdős said, in conversation, about its

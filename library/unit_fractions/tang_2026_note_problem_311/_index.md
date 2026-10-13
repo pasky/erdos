@@ -37,8 +37,8 @@ nothing); it is an unrefereed author note with no independent review found.
 The copy read for this card is the
 version-2 file. Its text layer drops the display-size absolute-value bars
 (Definition 2.2 and display (4.1)), so the statements below were checked on
-the page images. Provenance: retrieved (the
-repository's survey download set) from the GitHub repository above;
+the page images. Provenance: retrieved from the GitHub repository above into
+the repository's survey download set;
 379,583 bytes. The copy fetched on 2026-09-18 from the repository's head commit
 `3378153d` (2026-01-15T03:34:48Z) has the same SHA-256, so the copy read was the
 current one. The repository also holds the first version,

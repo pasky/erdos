@@ -101,8 +101,9 @@ site gives no guarantee of the claim's correctness and states that nobody
 associated with it has examined any part. The claim page
 [[problems/polynomials/E1153/claims/2026_08_31_yang|Yang 2026]] pins the
 repository's only commit (2026-08-31) and records the repository's own
-description of its theorem target, toolchain and expected axioms; no reproduction of the build or the axiom report and no audit of the
-statement is recorded. The claim is unreviewed, with no formal coverage.
+description of its theorem target, toolchain and expected axioms; no
+reproduction of the build or the axiom report and no audit of the statement is
+recorded. The claim is unreviewed, with no formal coverage.
 
 ## Current assessment
 
@@ -160,7 +161,7 @@ The
 source-statement and transfer record]] supplies the complete bounded deduction.
 Tao’s own proof is not compiled in this corpus. The v3 PDF read for the
 source card has the arXiv date 22 April 2026; its separate title-page author
-date is 23 April. The arXiv API response read identifies
+date is 23 April. The arXiv API response read on 6 September 2026 identifies
 v3 and does not establish journal acceptance.
 
 The

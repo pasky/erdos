@@ -127,9 +127,9 @@ every $r$ through Steiner triple systems, which its poster presents as a
 construction produced by GPT-5.2 and which, as a thread post, gets no claim
 page; and the curator's reply the same day that this is the construction
 already discussed in the remarks and that the curator has no further idea what
-was intended. The proof-claim tab is empty. The community database record says
-open (31 August 2025), not formalized, with a comment that the statement is
-ambiguous.
+was intended. The proof-claim tab is empty. The community database record, read
+2026-09-18, says open (31 August 2025), not formalized, with a comment that the
+statement is ambiguous.
 
 **The origin, located.** The site's key [Er97b] is Erdős's Discrete Mathematics
 problem paper of 1997 (Discrete Math. 165/166 (1997),

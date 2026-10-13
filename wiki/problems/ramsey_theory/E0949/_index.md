@@ -85,7 +85,7 @@ under `category research open`, with proof `sorry`, and the variant
 under `category research solved`, proved inside the file (lines 44 to 113, no
 `sorry`), a proof carried by the collection file itself and recorded on
 [[problems/ramsey_theory/E0949/claims/2026_01_06_deepmind|its claim page]].
-The community database records the problem open, the
+The community database (accessed 2026-09-18) records the problem open, the
 statement formalized, `formal_status` unformalized and no formal proof
 (record last updated 31 August 2025); the site's indicator reports a
 formalized statement. The corpus has not built the file.

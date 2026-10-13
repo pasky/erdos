@@ -34,8 +34,9 @@ the open set at a critical level, not by itself Problem 1047's closed set.
 A. W. Goodman, *On the convexity of the level curves of a polynomial*,
 Proc. Amer. Math. Soc. **17** (1966), no. 2, 358--361; DOI
 10.1090/S0002-9939-1966-0188408-3 (volume, issue and DOI from the Crossref
-record; the page heads show only "1966" and "April"). Presented to the
-Society January 24, 1966; received by the editors August 12, 1965.
+record read 2026-09-17 (UTC); the page heads show only "1966" and "April").
+Presented to the Society January 24, 1966; received by the editors August 12,
+1965.
 
 The copy read for this card is a publisher scan of the four printed pages
 358--361 with a machine text layer (scan p. $n$ is printed p. $357+n$),

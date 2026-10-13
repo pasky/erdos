@@ -251,7 +251,7 @@ Problem #149, https://www.erdosproblems.com/149, accessed 2026-09-19.
 **Formalization.** None. No file `ErdosProblems/149.lean` existed in
 formal-conjectures on 2026-09-19 or on 2026-10-07, the site's indicator
 records no formalized statement, and the community database
-(teorth/erdosproblems, `data/problems.yaml`) records the
+(teorth/erdosproblems, `data/problems.yaml`, read 2026-10-07) records the
 problem as open and unformalized, with no formal-proof field.
 
 ## Current assessment

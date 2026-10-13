@@ -88,7 +88,7 @@ Erdős Problem #874, https://www.erdosproblems.com/874, accessed
 
 - [DeFr99] Deshouillers, J.-M. and Freiman, G. A., On an additive problem
   of Erdős and Straus, 2. In: Structure theory of set addition, Astérisque
-  258, Soc. Math. France (1999), 141--148 (Numdam record read:
+  258, Soc. Math. France (1999), 141--148 (Numdam record read 2026-09-18:
   MR 1701192, Zbl 0979.11005; Crossref DOI 10.24033/ast.442). Theorem 1
   and the remark, p. 142. Library home:
   [[../library/additive_combinatorics/deshouillers_1999_additive_problem_erdos_straus/_index|deshouillers_1999_additive_problem_erdos_straus]];
@@ -133,9 +133,9 @@ Erdős Problem #874, https://www.erdosproblems.com/874, accessed
   (1998), 169--180. Not held; the site's second key.
 
 **Formalization.** None. No file `ErdosProblems/874.lean` existed in
-google-deepmind/formal-conjectures and the site's indicator reads "Formalised
-statement? No". The community database records the problem proved (31 August
-2025), not formalized, no formal proof, OEIS possible.
+google-deepmind/formal-conjectures on 2026-09-18, and the site's indicator read
+"Formalised statement? No". The community database (read 2026-09-18) records the
+problem proved (31 August 2025), not formalized, no formal proof, OEIS possible.
 
 ## Current assessment
 

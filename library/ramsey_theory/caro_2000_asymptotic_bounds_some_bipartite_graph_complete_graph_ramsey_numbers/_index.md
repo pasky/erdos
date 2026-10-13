@@ -75,7 +75,7 @@ from TeX (DVIPSONE and Acrobat Distiller 3.02 per the file's metadata,
 created 16 May 2000), with a text layer that reads the prose cleanly and
 garbles the displays (inequality signs come out as digits, fractions and
 radicals are flattened).
-Provenance: the copy read was obtained from the publisher's
+Provenance: the copy read was obtained on 2026-09-22 from the publisher's
 open archive, as the article PDF served from
 <https://www.sciencedirect.com/science/article/pii/S0012365X99003994>, the
 page the DOI <https://doi.org/10.1016/S0012-365X(99)00399-4> resolves to;

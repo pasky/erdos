@@ -99,8 +99,9 @@ example, and points to Problem 25 of Ben Green's open problems list as a
 refinement. The one comment in the thread (15 April 2026) reports that Aristotle
 autoformalized a solution from the referenced paper, with the site's note that
 the page was updated to address it; the proof-claim tab is empty. The community
-database lists the problem as proved (Lean) as of its last update on 15 April
-2026 and the statement as formalized with no formal-proof URL.
+database (fetched 2026-09-17) lists the problem as proved (Lean) as of its last
+update on 15 April 2026 and the statement as formalized as of 3 August 2026,
+with no formal-proof URL.
 
 **Origin.** Item 16 of Erdős's 1961 survey (p. 230):
 "Roth conjectured that there exists an absolute constant $c$ so that to every

@@ -28,13 +28,13 @@ Discrete Analysis is a refereed journal.
 **Retained artifact.** The
 [folder-name PDF](janzer_2025_power_saving_brown_erdos_sos_problem.pdf) is the
 journal's typeset article as posted to arXiv: arXiv:2311.12765v2 (9 July 2025;
-v1 21 November 2023; the arXiv record read gives the journal reference "Discrete
-Analysis, 2025:5, 16 pp"), 16 pages with a text layer and the running foot
-"Discrete Analysis, 2025:5, 16pp." on every page; printed and PDF pages agree.
-Provenance: retained from the repository's survey download set of September 2026
-(the download URL was not recorded; the file carries the arXiv stamp); 325,673
-bytes. The arXiv record (https://arxiv.org/abs/2311.12765, read 2026-10-02)
-names the Creative Commons Attribution 4.0 license.
+v1 21 November 2023; the arXiv record read on 2026-09-18 gives the journal
+reference "Discrete Analysis, 2025:5, 16 pp"), 16 pages with a text layer and
+the running foot "Discrete Analysis, 2025:5, 16pp." on every page; printed and
+PDF pages agree. Provenance: retained from the repository's survey download set
+of September 2026 (the download URL was not recorded; the file carries the arXiv
+stamp); 325,673 bytes. The arXiv record (https://arxiv.org/abs/2311.12765, read
+2026-10-02) names the Creative Commons Attribution 4.0 license.
 
 Read status: claims checked for Theorem 1.3 (p. 3), Conjecture 1.1 and
 Theorem 1.2 (p. 2) and the introduction's account of the earlier bounds

@@ -98,10 +98,10 @@ for the list map `T`, under `category research solved`, with proof `sorry` and
 no `formal_proof` attribute; its docstring repeats the site's commentary. The
 community database (pinned copy of 2026-09-18) lists the problem as proved
 with the Lean marker and `formal_status` Lean, as of its last update on 1
-December 2025, the statement as formalized and no
-formal-proof URL; the site's indicator records a formalized statement. Two
-Lean proofs are on record, neither in formal-conjectures or the community
-database: the web-editor formalization
+December 2025, the statement as formalized as of its last update on 4 August
+2026, and no formal-proof URL; the site's indicator records a formalized
+statement. Two Lean proofs are on record, neither in formal-conjectures or the
+community database: the web-editor formalization
 linked from the thread comment of 1 December 2025, carried in the link itself
 and not retained here, and the file
 [`ErdosProblems/Erdos481.lean`](https://github.com/plby/lean-proofs/blob/edf311c2916704f817e2af8af186315835c5a9c4/src/latest/ErdosProblems/Erdos481.lean)

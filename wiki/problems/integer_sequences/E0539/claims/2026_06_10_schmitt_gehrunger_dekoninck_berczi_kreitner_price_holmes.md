@@ -133,14 +133,14 @@ and a pointer to the paper in the public GitHub repository
 `eth-sri/proof-council`, which also holds the authors' Lean development; the
 announcement names GPT 5.5 Pro as the main driver of the system, and the thread
 post says the exact order is left open within a subexponential factor. The arXiv
-version followed on 10 July 2026 and is the only version. The authors record
-that Bollobás and Leader announced a negative answer to the $n^{2/3}$ question
-in seminar abstracts of 2009 and 2012, that they know of no written account, and
-that they make no priority claim over that announcement. A thread reply of 11
-June 2026 reported a screening check that found no issue in the informal proof
-and raised two reservations: the Lean development proves only the exponent
-limit, not the bound with $\exp(C\sqrt{\log n})$, and the unpublished
-Bollobás--Leader announcement is a risk to novelty.
+version followed on 10 July 2026 and was the only version on 2026-10-07. The
+authors record that Bollobás and Leader announced a negative answer to the
+$n^{2/3}$ question in seminar abstracts of 2009 and 2012, that they know of no
+written account, and that they make no priority claim over that announcement. A
+thread reply of 11 June 2026 reported a screening check that found no issue in
+the informal proof and raised two reservations: the Lean development proves only
+the exponent limit, not the bound with $\exp(C\sqrt{\log n})$, and the
+unpublished Bollobás--Leader announcement is a risk to novelty.
 
 **Formalization.** By the authors' own account (Section A.2, p. 15), their
 Lean development, created by Codex with GPT-5.5 (xhigh) in the paper's

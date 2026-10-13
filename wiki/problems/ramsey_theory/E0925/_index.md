@@ -99,7 +99,7 @@ https://www.erdosproblems.com/925, accessed 2026-09-18.
   Problem 553's account and not read.
 
 **Formalization.** None. No file `ErdosProblems/925.lean` was in
-formal-conjectures when its directory was listed (673 entries);
+formal-conjectures when its directory was listed on 2026-09-18 (673 entries);
 the site's indicator reports no formalized statement, and the community
 database (teorth/erdosproblems, accessed 2026-09-18) records the problem
 disproved and unformalized (record last updated 31 August 2025).

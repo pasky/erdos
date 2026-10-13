@@ -142,10 +142,10 @@ reviewed in zbMATH without objection (Zbl 0843.11034 for [Du95]; Zbl
 November 1996, of a chapter of Lecture Notes in Mathematics 1752 (Nesterenko and
 Philippon, eds., 2001, pp. 27--46, DOI 10.1007/3-540-44550-1_3; known by its
 metadata only, the library holds no copy), and Nesterenko received the 1997
-Ostrowski Prize (MacTutor's prize list, gives the citation "for his work on
-algebraic number theory"). Later refereed papers treat the irrationality as
-settled and sharpen it ([Zu02] p. 1151; [PV07] p. 2; [SV09] p. 1); each also
-proves it independently and has its own accepted page,
+Ostrowski Prize (MacTutor's prize list, read 2026-09-17, gives the citation
+"for his work on algebraic number theory"). Later refereed papers treat the
+irrationality as settled and sharpen it ([Zu02] p. 1151; [PV07] p. 2; [SV09]
+p. 1); each also proves it independently and has its own accepted page,
 [[problems/irrationality/E0250/claims/2001_11_08_zudilin|Zudilin 2002]],
 [[problems/irrationality/E0250/claims/2006_04_13_postelmans_van_assche|Postelmans and Van Assche 2007]]
 and
@@ -284,8 +284,9 @@ the $\omega$ case conditionally.
 - The site's badge "PROVED (LEAN)" is the `formal_status: Lean` field of
   entry 250 in `data/problems.yaml` of the community database
   teorth/erdosproblems (`status: proved (Lean)`, `last_update: 2026-08-23`,
-  no URL). It was set by the database's pull request #385, "Formalize
-  solutions to 40 problems with existing statements", merged 2026-08-24.
+  no URL; read 2026-09-17). It was set by the database's pull request #385,
+  "Formalize solutions to 40 problems with existing statements", merged
+  2026-08-24.
 - The proof it refers to is in Boris Alexeev's repository
   [plby/lean-proofs, at its revision of 2026-09-15](https://github.com/plby/lean-proofs/tree/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems):
   `src/latest/ErdosProblems/Erdos250.lean` and thirteen files under

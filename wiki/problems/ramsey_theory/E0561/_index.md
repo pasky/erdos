@@ -114,10 +114,10 @@ https://www.erdosproblems.com/561, accessed 2026-09-17.
   multicolor uniform value $\hat r(a_1K_{1,b_1},\dots,a_tK_{1,b_t})=(\sum a_s-t+1)(\sum b_s-t+1)$
   is quoted from [FLN26] Theorem 1.4.
 
-**Formalization.** None found. No file for this problem exists in
-google-deepmind/formal-conjectures (the full directory
-`FormalConjectures/ErdosProblems/` holds none), and the community database
-(teorth/erdosproblems) records the problem as open (last
+**Formalization.** None found. No file for this problem existed in
+google-deepmind/formal-conjectures on 2026-09-17 (the full directory
+`FormalConjectures/ErdosProblems/` held none), and the community database
+(teorth/erdosproblems, read 2026-09-17) records the problem as open (last
 updated 31 August 2025), not formalized, with no formal proof. The site's
 "Formalised statement?" indicator reads "No".
 
@@ -141,7 +141,7 @@ says that Davoodi, Javadi, Kamranian and Raeisi had partly resolved the
 conjecture, which is the content of [DJKR25] as recorded below, and the
 comment of 2 February 2026 reports that the site's link to [DJKR25] failed
 to load, which bears only on the site's citations. The community database
-record says open (31 August 2025) and not formalized.
+record (read 2026-09-17) says open (31 August 2025) and not formalized.
 
 **Origin.** [BEFRS78], printed pp. 187, 188 and 194. Its
 [[../library/ramsey_theory/burr_1978_ramsey_minimal_graphs_multiple_copies/conjecture_p194|conjecture]]

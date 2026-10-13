@@ -281,7 +281,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. [JoRa70], [GWW98] and
 [Ts05] are known here by their records, and [Va98] by pp. 276--277.
 
 **Remaining gaps.** (1) The question is settled negatively by the accepted
-claim; the site's label was OPEN, and no refereed
+claim; the site's label was OPEN on 2026-09-18, and no refereed
 publication or review independent of the release is recorded. The bound $B_D$
 of [OAI26] is not explicit, so the size of the largest component for a given
 step length remains undetermined. (2) [JoRa70], [GWW98] and [Ts05] are known

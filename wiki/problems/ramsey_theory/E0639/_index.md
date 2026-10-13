@@ -128,14 +128,14 @@ https://www.erdosproblems.com/639, accessed 2026-09-18.
 
 **Formalization.** Statement in
 [`ErdosProblems/639.lean`](https://github.com/google-deepmind/formal-conjectures/blob/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems/639.lean)
-of formal-conjectures, linked at the head of main which
+of formal-conjectures, linked at the head of main on 2026-09-18, which
 declares
 `erdos_639 : answer(True) ↔ ∀ᶠ (n : ℕ) in atTop, ∀ C : Sym2 (Fin n) → Fin 2, {e : Sym2 (Fin n) | ¬e.IsDiag ∧ ∀ x y : Fin n, e = s(x, y) → ¬∃ z, z ≠ x ∧ z ≠ y ∧ C s(x, z) = C e ∧ C s(y, z) = C e}.ncard ≤ n ^ 2 / 4`
 under `category research solved`, with proof `sorry` and a `formal_proof`
 attribute naming an external Lean 4 file at a fixed commit. The statement
 is the modified Statement: "for all sufficiently large $n$", with
 `n ^ 2 / 4` in natural-number division, that is, $\lfloor n^2/4\rfloor$.
-The community database lists the state
+The community database (fetched 2026-09-18) lists the state
 `proved (Lean)` as of its last update on 6 May 2026, the statement
 formalized since 22 July 2026, and no formal-proof URL. Nothing was built
 here; see "The (Lean) label" below.

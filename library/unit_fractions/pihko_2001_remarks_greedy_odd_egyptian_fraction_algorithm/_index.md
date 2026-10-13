@@ -55,7 +55,7 @@ Provenance: obtained from the repository's survey download set of September
 recorded; 2,199,253 bytes. No copyright line is printed on the scanned pages
 (pp. 221 and 227 read); the journal's issue page that lists the article shows
 the footer "Copyright © 2010 The Fibonacci Association. All rights reserved."
-(https://www.fq.math.ca/39-3.html), and the publisher's host
+(https://www.fq.math.ca/39-3.html, read 2026-10-02), and the publisher's host
 returned HTTP 403 on 2026-10-02, every other right reserved.
 
 Read status: claims checked. Open Problem 1.1, the definition of the

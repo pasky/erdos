@@ -65,7 +65,7 @@ $$
 
 with Mathlib's `schnirelmannDensity`. The file entered the repository on
 2026-08-17, and formal-conjectures cites this commit in the `formal_proof`
-attribute of its `Erdos35.erdos_35`; the site's
+attribute of its `Erdos35.erdos_35` (file fetched 2026-10-07); the site's
 PROVED (LEAN) label, in place by 2026-09-04, rests on this development, which
 formal-conjectures has cited since 2026-09-19. This corpus has built neither
 the development nor its axioms, and has not checked that its definition of an

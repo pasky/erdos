@@ -151,7 +151,7 @@ https://www.erdosproblems.com/934, accessed 2026-09-19.
   preprint; its arXiv record (abstract only), accessed 2026-09-19.
 
 **Formalization.** None. formal-conjectures has no file `ErdosProblems/934.lean`
-at main the site's indicator reads "Formalised statement? No",
+(main on 2026-10-07), the site's indicator reads "Formalised statement? No",
 and the community database (teorth/erdosproblems, `data/problems.yaml` as of
 2026-09-19) lists the problem as open, unformalized and with no formal-proof
 field as of its last update, dated 31 August 2025. A thread post of 17 August

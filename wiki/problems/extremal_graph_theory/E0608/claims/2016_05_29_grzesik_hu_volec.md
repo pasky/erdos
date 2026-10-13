@@ -86,10 +86,10 @@ site's curator, Thomas Bloom, then adopted the negative answer in the problem's
 commentary, crediting Füredi and Maleki as described by this paper and recording
 the sharp constant (page last edited 25 October 2025, as of 2026-10-07). The
 thread records that the site was updated in response. The community database
-lists the problem as disproved (last update 25 October 2025). It also lists its
-status as "disproved (Lean)" (last update 29 July 2026), on the strength of the
-Lean development described below. That development is not `formalized` evidence
-here.
+(read 2026-10-07) lists the problem as disproved (last update 25 October 2025).
+It also lists its status as "disproved (Lean)" (last update 29 July 2026), on
+the strength of the Lean development described below. That development is not
+`formalized` evidence here.
 
 **Depends on.** Nothing in this wiki.
 

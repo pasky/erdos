@@ -109,7 +109,7 @@ records the announcement and, on 14 May 2026, the proof implementation
 and Nat Sothanaphan's confirmation of both this formalization and that
 of Problem 1190, including formalization of the Park–Pham input. The
 [community ledger](https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems/d72b7cfd7f262c39936a8e2303d5f258369258f8)
-(last revision, data) also records the full solution and
+(last revision, data dated 30 June 2026) also records the full solution and
 the 14 May formalization, and lists as a candidate full solution the ULAM
 draft of 30 April 2026 credited to GPT-5.5 Pro, which claims the same
 asymptotic by a spread-core route and is recorded on

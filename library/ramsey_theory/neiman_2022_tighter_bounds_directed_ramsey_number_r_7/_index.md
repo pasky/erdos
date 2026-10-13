@@ -34,7 +34,7 @@ values R(2) = 2, R(3) = 4, R(4) = 8, R(5) = 14, R(6) = 28.
 D. Neiman, J. Mackey and M. J. H. Heule, *Tighter bounds on directed Ramsey
 number $R(7)$*, Graphs Combin. 38 (2022), no. 5, Paper No. 156, DOI
 10.1007/s00373-022-02560-5 (published online 9 September 2022; Crossref
-record read); arXiv:2011.00683 (v1 2 November 2020, v2 18 May
+record read 2026-09-18); arXiv:2011.00683 (v1 2 November 2020, v2 18 May
 2022).
 
 The copy read for this card
@@ -42,7 +42,7 @@ is the authors' accepted manuscript deposited in the NSF Public Access
 Repository (Springer "Noname manuscript" template, 17 pages, PDF created 24
 January 2023; supported by NSF grant CCF-2006363 per its declarations), read
 in its text layer; page references are to the manuscript. The journal text
-was not compared. Provenance: retrieved
+was not compared. Provenance: retrieved 2026-09-18T11:06:39Z
 from <https://par.nsf.gov/servlets/purl/10392661> (HTTP 200, one request);
 523,230 bytes. That manuscript prints
 no copyright or license line on its first two or last two pages; the repository

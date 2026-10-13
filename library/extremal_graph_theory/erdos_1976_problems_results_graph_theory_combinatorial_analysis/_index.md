@@ -28,8 +28,8 @@ he knew of no results.
 P. Erdős, *Problems and results in graph theory and combinatorial analysis*,
 Proceedings of the Fifth British Combinatorial Conference (Univ. Aberdeen,
 Aberdeen, 1975), Congressus Numerantium XV, Utilitas Math., Winnipeg (1976),
-169--192; MR 409246. The site's reference key Er76b (its reference text read).
-The author's address on p. 169 is "University of Cambridge".
+169--192; MR 409246. The site's reference key Er76b (its reference text read
+on 2026-09-18). The author's address on p. 169 is "University of Cambridge".
 
 **Copy read.** The copy read for this card is the Rényi archive's scan
 `1976-36.pdf`: 24 pages, an image scan of the

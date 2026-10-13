@@ -137,8 +137,8 @@ Bloom, Erdős Problem #186, https://www.erdosproblems.com/186, accessed
   (1970), 405--411: the origin papers as Erdős's surveys cite them; not
   held, and not among the site's keys.
 - [OEIS] A389784, the maximum size of a non-averaging subset of
-  $\{1,\ldots,n\}$ (terms to $n=74$, added October 2025, with the comment
-  that up to $n=74$ some maximum set contains $n$).
+  $\{1,\ldots,n\}$ (read 2026-09-18: terms to $n=74$, added October 2025,
+  with the comment that up to $n=74$ some maximum set contains $n$).
 
 **Formalization.** None: no statement file in
 google-deepmind/formal-conjectures (default branch, 2026-10-07); the site

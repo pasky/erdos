@@ -33,7 +33,7 @@ updated: 2026-10-08T01:30:44Z
 
 Haviv and Levy, *Symmetric complete sum-free sets in cyclic groups*, Israel J.
 Math. 227 (2018), no. 2, 931--956, DOI 10.1007/s11856-018-1754-5 (Crossref
-record read); arXiv:1703.04118, first version 2017-03-12, the
+record read 2026-10-07); arXiv:1703.04118, first version 2017-03-12, the
 claim's date; an extended abstract appeared in Electron. Notes Discrete Math.
 61 (2017), 585--591
 ([[../library/extremal_graph_theory/haviv_2018_symmetric_complete_sum_free_sets_cyclic/_index|card]]).

@@ -128,7 +128,7 @@ OPEN (LEAN) is recorded here with no dated snapshot.
 **Formalization.** A formal-conjectures statement, which since 18 September
 2026 links a formal proof of Li's claimed theorem (below). The file
 [`ErdosProblems/550.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/550.lean)
-of formal-conjectures (main) declares
+of formal-conjectures (main, fetched 2026-09-17) declares
 `erdos_550 : ∀ (k : ℕ) (hk : 2 ≤ k) (m : Fin k → ℕ) (hm : Monotone m) (hm_pos : ∀ i, 0 < m i), ∀ᶠ n : ℕ in atTop, ∀ (T : SimpleGraph (Fin n)), T.IsTree → SimpleGraph.graphRamsey T (SimpleGraph.completeMultipartiteGraph (fun i ↦ Fin (m i))) ≤ (k - 1) * (SimpleGraph.graphRamsey T (completeBipartiteGraph (Fin (m ⟨0, _⟩)) (Fin (m ⟨1, _⟩))) - 1) + m ⟨0, _⟩`
 (the two index proofs abbreviated) under `category research open`, with
 proof `sorry`: the class sizes are fixed before $n$ grows, $\chi(G)$ is
@@ -138,10 +138,11 @@ formalized since 9 September 2026 and open, with no formal proof until 18
 September 2026 (below). The author's own Lean repository is a formalization
 link on the Li claim page. Nothing was built or checked here.
 
-The community database records `formal_status` Lean (pull request 413, merged
-2026-09-18) with the formal-proof link `ericlisg/erdos550-lean` at its head of 2
-August 2026. Since 18 September 2026 the [formal-conjectures
-file](https://github.com/google-deepmind/formal-conjectures/blob/b8efdd3dbdf7aababb31f9c8db6bf346e2a70c7e/FormalConjectures/ErdosProblems/550.lean)
+On 2026-10-05 the community database recorded `formal_status` Lean
+(pull request 413, merged 2026-09-18) with the formal-proof link
+`ericlisg/erdos550-lean` at its head of 2 August 2026. Since 18 September
+2026 the
+[formal-conjectures file](https://github.com/google-deepmind/formal-conjectures/blob/b8efdd3dbdf7aababb31f9c8db6bf346e2a70c7e/FormalConjectures/ErdosProblems/550.lean)
 is tagged `research solved`, cites Li 2026, and has its `formal_proof` pointing
 to a port of Li's formalization in Boris Alexeev's repository
 (`Erdos550/Main.lean`); the pull request (6080) reports a rebuild with the

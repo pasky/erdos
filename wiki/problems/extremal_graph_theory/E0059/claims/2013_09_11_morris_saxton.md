@@ -99,8 +99,9 @@ footnote 10 says needs $c<0.0007$; so it proves the proposition's
 statement, not their exact count. The single-file copy in
 Jayyhk/erdos-lean (`problems/59/Erdos59.lean`, 9,108 lines, added 2026-08-31
 with the plby file as its recorded source) closes with a comment reporting
-the axioms `propext`, `Classical.choice` and `Quot.sound`. Neither file is
-named by formal-conjectures, which has no file for Problem 59 at `main`; the community database records the
+the axioms `propext`, `Classical.choice` and `Quot.sound`. Neither file was
+named by formal-conjectures, which had no file for Problem 59 at `main` on
+2026-10-07; the community database (accessed 2026-10-06) records the
 problem as "disproved (Lean)" with `formal_status` Lean, its last update
 dated 2026-08-24, and names no artifact. Nothing was built, replayed or
 audited by this project, the fidelity of the Lean statement to the site's

@@ -121,7 +121,7 @@ https://www.erdosproblems.com/293, accessed 2026-09-17.
 **Formalization.** No formal-conjectures statement: no file
 `ErdosProblems/293.lean` existed on 2026-09-17, and the pull request of 4
 October 2026 that would add one formalizes the setting only and says it is not
-a solution. The community database (fetched 2026-10-06)
+a solution. The community database (fetched 2026-09-17 and 2026-10-06)
 records the problem as unformalized with no formal-proof URL, and the site's
 status label carried no Lean suffix. The release's Lean proof of the partial
 result, Corollary 1.3, built and audited by the corpus's verification, is

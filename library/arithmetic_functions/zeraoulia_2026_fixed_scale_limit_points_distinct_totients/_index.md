@@ -23,7 +23,7 @@ repository https://github.com/rafikmath15/fixed-scale-totient-limit-points
 (created 2026-07-29; CC BY 4.0 by its metadata) and listed in the
 erdosproblems.com proof-claims thread for Problem 416 as a partial proof claim
 posted 2026-07-29, which names a language-model system as used. Provenance:
-retrieved from
+retrieved 2026-09-28T03:08:55Z from
 <https://raw.githubusercontent.com/rafikmath15/fixed-scale-totient-limit-points/main/Zeraoulia_Fixed_Scale_Limit_Points_Final.pdf>
 (HTTP 200, one request; the bytes equal those of a first retrieval on
 2026-09-27); 441,376 bytes; PDF metadata Author "Rafik Zeraoulia", created

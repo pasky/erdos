@@ -53,9 +53,9 @@ including simultaneous replacement and finite termination.
 P. Erdős, *On a lemma of Littlewood and Offord*, Bulletin of the American
 Mathematical Society 51 (1945), no. 12, 898–902; DOI
 10.1090/S0002-9904-1945-08454-7 (volume, issue and DOI from the Crossref
-record; the page heads show only "1945" and "December"). The article
-records receipt on 28 March 1945. The copy read for this card is the
-five-page published scan from the
+record read 2026-10-07 (UTC); the page heads show only "1945" and
+"December"). The article records receipt on 28 March 1945. The copy read for
+this card is the five-page published scan from the
 [Rényi archive](https://users.renyi.hu/~p_erdos/1945-04.pdf).
 The [source record](source_record.json) identifies the exact artifact and
 distinguishes the 1945 publication from its 2004 digital scan metadata.

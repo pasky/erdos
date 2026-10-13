@@ -75,7 +75,7 @@ https://www.erdosproblems.com/177.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above;
+**The question (site formulation, accessed 2026-09-04).** The statement above;
 OPEN, with no last-edited date shown. The commentary, in this page's words:
 Cantor, Erdős, Schreiber and Straus [Er66] proved that $h(d)\ll d!$ is
 attainable; van der Waerden's theorem implies $h(d)\to\infty$; Beck [Be17]

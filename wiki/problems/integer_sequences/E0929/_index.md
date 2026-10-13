@@ -147,12 +147,13 @@ accessed 2026-09-18.
   held (closed access; no request made).
 
 **Formalization.** None in formal-conjectures: no file `ErdosProblems/929.lean`
-exists in google-deepmind/formal-conjectures (main when the directory
-`FormalConjectures/ErdosProblems/` had 673 entries and the recursive tree 1,740
-entries, none of them this file), and the site's indicator shows no formalized
-statement. The community database (teorth/erdosproblems) records the problem
-open (its record last updated 31 August 2025), the statement not formalized,
-`formal_status` unformalized, no formal-proof URL and OEIS "possible".
+existed in google-deepmind/formal-conjectures (main on 2026-09-18, when the
+directory `FormalConjectures/ErdosProblems/` had 673 entries and the recursive
+tree 1,740 entries, none of them this file), and the site's indicator showed no
+formalized statement. The community database (teorth/erdosproblems, read
+2026-09-18) records the problem open (its record last updated 31 August 2025),
+the statement not formalized, `formal_status` unformalized, no formal-proof URL
+and OEIS "possible".
 
 ## Current assessment
 

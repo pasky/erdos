@@ -146,10 +146,10 @@ of formal-conjectures at the commit that was main on 2026-09-18 declares
 c} = 3 ∧ a.lcm b = b.lcm c ∧ b.lcm c = a.lcm c` under `category research open`,
 with proof `sorry` and a comment that the statements from the site's additional
 material remain to be added; no `formal_proof` attribute. This is the density
-form of the question. The community database lists the problem open as of its
-last update on 31 August 2025, the statement formalized since 12 November 2025
-and no formal proof. The site's page marks the statement as formalized. Nothing
-was built.
+form of the question. The community database, read 2026-09-18, lists the problem
+open as of its last update on 31 August 2025, the statement formalized since
+12 November 2025 and no formal proof. The site's page marks the statement as
+formalized. Nothing was built.
 
 ## Current assessment
 

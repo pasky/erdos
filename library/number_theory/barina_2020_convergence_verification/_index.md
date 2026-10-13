@@ -30,10 +30,10 @@ compared; the locators below are the postprint's pages. The statement pages were
 read on the rendered page images of pp. 6--7. Source: PDF. That postprint comes
 from the Brno University of Technology repository, for which no hosting
 statement is recorded, and it prints no notice; the publisher's page for the
-version of record (DOI 10.1007/s11227-020-03368-x) shows "© Springer
-Science+Business Media, LLC, part of Springer Nature 2020" and no Creative
-Commons or Open Access statement, which governs the article as published and not
-this postprint; the term is unstated.
+version of record (DOI 10.1007/s11227-020-03368-x, read 2026-10-02) shows "©
+Springer Science+Business Media, LLC, part of Springer Nature 2020" and no
+Creative Commons or Open Access statement, which governs the article as
+published and not this postprint; the term is unstated.
 
 Read status: claims checked for the abstract, the introduction's definition
 of the map and its status sentences, and the verification statement of

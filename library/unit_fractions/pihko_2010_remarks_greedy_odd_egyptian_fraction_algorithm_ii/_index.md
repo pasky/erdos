@@ -45,7 +45,7 @@ Provenance: obtained from the repository's survey download set of September
 bytes. No copyright line is printed on the pages (pp. 202 and 208 read); the
 journal's issue page that lists the article shows the footer "Copyright © 2010
 The Fibonacci Association. All rights reserved."
-(https://www.fq.math.ca/48-3.html), and the publisher's DOI
+(https://www.fq.math.ca/48-3.html, read 2026-10-02), and the publisher's DOI
 page, which had returned HTTP 403, was not retried, every other right reserved.
 
 Read status: claims checked. The abstract, the introduction's statement of

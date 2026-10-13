@@ -68,8 +68,8 @@ The site thanks Desmond Weisenberg. Cite as: T. F. Bloom, Erdős Problem
   28, Université de Genève (1980), printed p. 40. Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Wa26] Wang, H., Port fillings for primary pseudoperfect numbers.
-  arXiv:2605.21518v1 (18 May 2026), 23 pages; an unrefereed preprint.
-  Library home:
+  arXiv:2605.21518v1 (18 May 2026), 23 pages; the only version, no journal
+  record on 2026-09-18; an unrefereed preprint. Library home:
   [[../library/unit_fractions/wang_2026_port_fillings_primary_pseudoperfect_numbers/_index|wang_2026_port_fillings_primary_pseudoperfect_numbers]];
   result pages for Theorems 9.1, 11.1 and 19.5.
 - [BJM00] Butske, W., Jaje, L. M. and Mayernik, D. R., On the equation

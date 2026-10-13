@@ -26,8 +26,8 @@ updated: 2026-10-08T02:16:54Z
 directed graph) on $f(n)$ vertices such that every set of $n$ vertices is
 dominated by at least one other vertex. Estimate $f(n)$.
 
-**Formulation.** The site's wording (the page carries no
-last-edited date). A vertex dominates a set when it
+**Formulation.** The site's wording, accessed 2026-09-19 (the page carried
+no last-edited date). A vertex dominates a set when it
 sends an edge to every member of the set; "another vertex" is one outside
 the set. The literature writes $k$ for the site's $n$: a tournament has
 Schütte's property $S_k$ if every $k$ vertices have a common dominator, and
@@ -108,9 +108,9 @@ https://www.erdosproblems.com/902, accessed 2026-09-19.
   paged at
   [[../library/extremal_graph_theory/graham_1971_constructive_solution_tournament_problem/theorem_p45|theorem_p45]].
 - [Je26] Jeffries, Joel, Schütte's property for sets of tournaments and an
-  application to dice games. arXiv:2604.08790v1 (9 April 2026; arXiv lists no later version and no journal reference). A preprint;
-  not a site key. Theorem 1.1, p. 1; the survey sentences, p. 2. Library
-  home:
+  application to dice games. arXiv:2604.08790v1 (9 April 2026; on 2026-09-19
+  arXiv listed no later version and no journal reference). A preprint; not a
+  site key. Theorem 1.1, p. 1; the survey sentences, p. 2. Library home:
   [[../library/extremal_graph_theory/jeffries_2026_schutte_s_property_sets_tournaments_application/_index|jeffries_2026_schutte_s_property_sets_tournaments_application]];
   paged at
   [[../library/extremal_graph_theory/jeffries_2026_schutte_s_property_sets_tournaments_application/theorem_1_1|theorem_1_1]].
@@ -213,10 +213,10 @@ The proof-claim tab is empty. The community database record says open.
   rotational tournament with $S_4$). [Je26], p. 2, reports third-hand that
   "Fisher showed computationally that $P_{67}$, $P_{331}$, and $P_{1163}$ are
   the smallest $S_4$, $S_5$, and $S_6$ Paley tournaments respectively", which is
-  OEIS A362137's sequence (1, 3, 7, 19, 67, 331, 1163 from $n=0$; the entry
-  says that its terms from 67 on are the smallest Paley examples and "only the
-  smallest sizes of the known solutions"); these are upper bounds
-  for $f(4)$, $f(5)$, $f(6)$, not values.
+  OEIS A362137's sequence (1, 3, 7, 19, 67, 331, 1163 from $n=0$; the entry,
+  read 2026-09-19, says that its terms from 67 on are the smallest Paley
+  examples and "only the smallest sizes of the known solutions"); these are
+  upper bounds for $f(4)$, $f(5)$, $f(6)$, not values.
 - The conjecture. [Je26], p. 2: Szekeres and Szekeres "conjectured that
   their lower bound is the true value for $f(k)$", that is
   $f(k)=(k+2)2^{k-1}-1$, consistent with $f(2)=7$ and $f(3)=19$ but refuted

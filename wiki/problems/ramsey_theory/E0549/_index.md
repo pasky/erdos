@@ -128,17 +128,16 @@ Erdős Problem #549, https://www.erdosproblems.com/549, accessed 2026-09-17.
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/549.lean`](https://github.com/google-deepmind/formal-conjectures/blob/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems/549.lean)
-of formal-conjectures (main) declares `erdos_549 : answer(False) ↔ ∀ (k : ℕ) (hk
-: 2 ≤ k) (T : SimpleGraph (Fin k ⊕ Fin (2 * k))), T.IsTree → (∀ x₁ x₂, ¬ T.Adj
-(Sum.inl x₁) (Sum.inl x₂)) → (∀ y₁ y₂, ¬ T.Adj (Sum.inr y₁) (Sum.inr y₂)) →
-SimpleGraph.diagonalGraphRamsey T = 4 * k - 1` under `category research solved`,
-with proof `sorry`: the universal statement over all $k\ge2$ and all trees with
-the given bipartition, whose negation is the disproof. The site shows the
-statement as formalized; the community database records it formalized since 9
-September 2026, disproved, with no formal proof. A Lean disproof at $k=16$ in
-Boris Alexeev's repository, naming Norin, Sun and Zhao as informal authors, is
-linked on their claim page; this corpus has not built it. Nothing was built or
-checked here.
+of formal-conjectures (main, fetched 2026-09-17) declares
+`erdos_549 : answer(False) ↔ ∀ (k : ℕ) (hk : 2 ≤ k) (T : SimpleGraph (Fin k ⊕ Fin (2 * k))), T.IsTree → (∀ x₁ x₂, ¬ T.Adj (Sum.inl x₁) (Sum.inl x₂)) → (∀ y₁ y₂, ¬ T.Adj (Sum.inr y₁) (Sum.inr y₂)) → SimpleGraph.diagonalGraphRamsey T = 4 * k - 1`
+under `category research solved`, with proof `sorry`: the universal statement
+over all $k\ge2$ and all trees with the given bipartition, whose negation is
+the disproof. The site shows the statement as formalized; the community
+database (accessed 2026-09-17) records it formalized since 9 September 2026,
+disproved, with no formal proof. A Lean disproof at $k=16$ in Boris
+Alexeev's repository, naming Norin, Sun and Zhao as informal authors, is
+linked on their claim page; this corpus has not built it. Nothing was
+built or checked here.
 
 ## Current assessment
 

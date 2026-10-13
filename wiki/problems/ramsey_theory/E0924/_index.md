@@ -101,11 +101,11 @@ https://www.erdosproblems.com/924, accessed 2026-09-18.
   [ErHa67]. Not held.
 
 **Formalization.** None. No file `ErdosProblems/924.lean` was in
-formal-conjectures when its directory on `main` was listed (672 entries). The
-community database records the problem proved (its record last updated 31
-August 2025), not formalized,
-`formal_status` unformalized and no formal proof; the site's indicator reads
-"Formalised statement? No".
+formal-conjectures when its directory on `main` was listed on 2026-09-18 (672
+entries). The community database, read 2026-09-18, records the problem proved
+(its record last updated 31 August 2025), not formalized, `formal_status`
+unformalized and no formal proof; the site's indicator reads "Formalised
+statement? No".
 
 ## Current assessment
 

@@ -264,7 +264,7 @@ that the displayed set cannot be dense in $[0,1]$ since $\|x\|\le1/2$, cites de
 Mathan's phrasing in terms of density mod $1$ and Erdős's 1982 announcement,
 reports the formalization described above, and proposes rewording the problem
 as density modulo $1$. The proof-claim tab is empty. The community database
-record lists the problem as proved (Lean) as of its last
+record (read 2026-09-18) lists the problem as proved (Lean) as of its last
 update on 21 June 2026.
 
 **Erdős's statements.** [Er82e], printed p. 63:

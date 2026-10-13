@@ -106,7 +106,7 @@ Zaharescu]] carries; it therefore states existence together with an explicit
 formula, more than the paper proves, and refers for the mathematical proof to a
 write-up `tex/1001.tex` in the repository. A side theorem, `erdos_1001_sparse`,
 gives the value $12A\log c/\pi^2$ for $A<c/(1+c^2)$. The file contains no
-`sorry`. The community database records the problem as
+`sorry`. On 2026-10-06 the community database recorded the problem as
 unformalized. No build or axiom audit of the development is recorded in this
 repository, so the claim lists no `formalized` evidence.
 

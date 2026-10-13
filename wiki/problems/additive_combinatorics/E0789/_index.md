@@ -27,7 +27,7 @@ such that if $a_1+\cdots+a_r=b_1+\cdots+b_s$ with $a_i,b_i\in B$ then $r=s$.
 
 Estimate $h(n)$.
 
-**Formulation.** The site's wording (the page shows no
+**Formulation.** The site's wording, accessed 2026-09-18 (the page showed no
 last-edited date). The condition on $B$ is Straus's
 admissibility: two sums of distinct elements of $B$ with different numbers
 of summands never coincide (Erdős 1962, condition (1'); Erdős, Nicolas and
@@ -102,7 +102,8 @@ F. Bloom, Erdős Problem #789, https://www.erdosproblems.com/789, accessed
   result page
   [[../library/additive_combinatorics/erdos_1962_szamelmeleti_megjegyzesek/theorem_iv|Theorem IV]].
 - [St66] Straus, E. G., On a problem in combinatorial number theory. J. Math.
-  Sci. 1 (1966), 77--80 (the zbMATH record gives this citation; no DOI). Not
+  Sci. 1 (1966), 77--80 (the zbMATH record gives this citation; no DOI; a
+  Crossref bibliographic query on 2026-09-18 returned no record). Not
   held. Its Theorems 2 and 4 are quoted, with a proof of the second from the
   first, in [ENS91], pp. 56--57, and its results are reported in [DeFr99],
   p. 141.

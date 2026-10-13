@@ -88,8 +88,8 @@ database](https://github.com/teorth/erdosproblems/blob/3c68e941162f81d650fc886ee
 
 ## Current assessment
 
-**The question.** The site states the problem as above, showed
-OPEN, cites [ErGr80] and [ErSt71b], and records the bounds
+**The question.** On 2026-09-17 the site stated the problem as above, showed
+OPEN, cited [ErGr80] and [ErSt71b], and recorded the bounds
 $-c<k(N)-(e-1)N\ll N/\log N$. Printed p. 35 of the monograph
 ([[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|Erdős–Graham 1980]])
 defines $U_n=\min\{k:\{x_1,\ldots,x_k\}\in\mathcal X,\ x_1\ge n\}$, says "It

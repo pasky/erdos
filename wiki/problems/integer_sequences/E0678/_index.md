@@ -104,7 +104,7 @@ of 1 August 2026, the version the claim page links; four `category test`
 lemmas check the referee's examples $M(96,7)>M(104,8)$, $M(132,7)>M(139,8)$
 and Cambie's $M(52,7)>M(62,8)$, $M(36,8)>M(47,9)$ by `decide` (the last
 lemma's docstring prints $M(48,9)$ where its statement, correctly, has
-$47$; recomputed here). The community database records
+$47$; recomputed here). The community database, read 2026-09-18, records
 the problem as proved since 7 January 2026, `formal_status` Lean, the
 statement formalized since 31 August 2025, no formal-proof URL and OEIS
 "possible". The site's "(Lean)" suffix is a catalog label; the external

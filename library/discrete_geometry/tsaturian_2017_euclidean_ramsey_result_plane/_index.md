@@ -46,7 +46,7 @@ Journal of Combinatorics 24**(4) (2017), #P4.35, 9 pages, [DOI
 10.37236/7148](https://doi.org/10.37236/7148). The [publisher's
 record](https://www.combinatorics.org/ojs/index.php/eljc/article/view/v24i4p35)
 dates publication to 2017-11-24. The copy read for this card is the published
-version, downloaded from the journal.
+version, downloaded from the journal on 2026-09-05.
 
 The earlier arXiv v2,
 [arXiv:1703.10723v2](https://arxiv.org/abs/1703.10723v2), dated 2017-04-04,

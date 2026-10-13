@@ -148,7 +148,7 @@ category and attribute, pointing to
 [`Sixty.lean`](https://github.com/ElVec1o/erdos307/blob/080164a8db2eeb20f65c362894ec93f12448609a/lean/Erdos307/Sixty.lean)
 at the linked commit, dated 2 July 2026, whose docstring says the proof rests on a `native_decide`
 search). No build or review of the external files is recorded, and no
-kernel credit follows. The community database records
+kernel credit follows. The community database (fetched 2026-09-18) records
 the problem as verifiable (9 September 2025), the statement as formalized
 since 31 August 2025, no formal proof and no OEIS entry.
 

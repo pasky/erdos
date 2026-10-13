@@ -125,7 +125,7 @@ Problem #320, https://www.erdosproblems.com/320, accessed 2026-09-18.
 
 **Formalization.** None in formal-conjectures: the repository had no
 `ErdosProblems/320.lean` on 2026-09-18 and has none on 2026-10-07; the site's
-formalised-statement flag reads no; the community database
+formalised-statement flag reads no; the community database (read 2026-10-06)
 records the problem unformalized, status solved as of the status entry's last
 update on 31 August 2025, OEIS A072207 and no formal-proof URL. Two external
 Lean developments are linked from the proof-claim tab, at pinned commits on

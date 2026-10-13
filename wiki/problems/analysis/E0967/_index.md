@@ -69,7 +69,7 @@ audit]]. The review records are kept under the source's
 records]]. Erdős--Ingham's external Tauberian proof is contextual here and is not
 reconstructed in the corpus.
 
-The arXiv record lists only v1 and no journal reference; this
+The arXiv record, read 2026-10-07, lists only v1 and no journal reference; this
 does not establish peer-review acceptance. The site's thread carries no further
 claim on the exact question: a comment of 18 July 2026, in which the poster
 credits the observation to Claude Opus, argues that Schanuel's conjecture would

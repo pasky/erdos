@@ -31,7 +31,7 @@ error term has an asymptotic constant [4]; this is also Erdős Problem 793
 convention of its reference [2], in which $b$ and $c$ must be distinct.
 
 **Source.** P. Chojecki, *The second term for strongly 2-primitive sets*,
-five-page manuscript hosted at ulam.ai (retrieved; PDF metadata
+five-page manuscript hosted at ulam.ai (retrieved 2026-09-18; PDF metadata
 dated 13 July 2026); Theorem 1.1 on p. 1, read on the page image and in the
 text layer; the proof is Propositions 2.4 (p. 3) and 3.4 (p. 5). The byline
 footnote (p. 1) declares AI assistance "in exploring the argument and in

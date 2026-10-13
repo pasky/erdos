@@ -30,7 +30,7 @@ sequence*, Michigan Math. J. 10 (1963), 315--319; DOI
 **Copy read.** The copy read for this card
 is the journal's scan of the five printed pages (pp. 315--319; PDF p. $n$
 is printed p. $314+n$), image-only with no text layer, read on the rendered
-page images. Provenance: retrieved from the journal's
+page images. Provenance: retrieved 2026-09-18T15:14:10Z from the journal's
 open back file on Project Euclid,
 <https://projecteuclid.org/journalArticle/Download?urlid=10.1307%2Fmmj%2F1028998918>
 (HTTP 200, `application/pdf`, one request); 269,908 bytes. No notice is printed

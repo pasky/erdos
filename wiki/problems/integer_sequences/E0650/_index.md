@@ -82,7 +82,7 @@ https://www.erdosproblems.com/650, accessed 2026-09-18.
 
 - [VLT26] van Doorn, W., Li, Y. and Tang, Q., Optimal bounds for an Erdős
   problem on matching integers to distinct multiples. arXiv:2603.28636v1
-  (30 March 2026; the only version; no journal
+  (30 March 2026; the only version on 2026-09-18; no journal
   reference), 8 pages; Theorem 2.1 and Remark 2.2, pp. 2--3; Theorem 3.1,
   p. 4; Theorem 4.1, p. 5; Section 5, p. 7. Library home:
   [[../library/primes/doorn_2026_optimal_bounds_erdos_problem_matching_integers/_index|doorn_2026_optimal_bounds_erdos_problem_matching_integers]];
@@ -135,13 +135,14 @@ under `category research solved` with proof `sorry` and a `formal_proof`
 attribute naming `ErdosProblem650.lean` in the repository `Woett/Lean-files` on
 its `main` branch; the variants `erdos_650.variants.erdos_suranyi` ($\sqrt m\le
 f(m)$) and `erdos_650.variants.erdos_selfridge` ($f(m^2)\le2m$) are `research
-solved` with `sorry` and no attribute. The community database lists the problem
-as "solved (Lean)" with a last update of 6 March 2026, `formal_status` Lean, the
-statement as formalized with a last update of 4 August 2026, no formal-proof URL
-and OEIS A027434; those dates are when the entries were last updated, not
-necessarily when the states changed. The (LEAN) suffix of the site's label was a
-catalog label; the external file it refers to is described under "Formalization
-and the Lean label" below, and this corpus has not built it.
+solved` with `sorry` and no attribute. The community database, accessed
+2026-09-18, lists the problem as "solved (Lean)" with a last update of 6 March
+2026, `formal_status` Lean, the statement as formalized with a last update of 4
+August 2026, no formal-proof URL and OEIS A027434; those dates are when the
+entries were last updated, not necessarily when the states changed. The (LEAN)
+suffix of the site's label was a catalog label; the external file it refers to
+is described under "Formalization and the Lean label" below, and this corpus has
+not built it.
 
 ## Current assessment
 

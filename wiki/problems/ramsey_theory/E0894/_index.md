@@ -155,7 +155,7 @@ colors by the position of $n\theta$ modulo $1$), so that the solution of
 Problem 464 answers the question yes; and it names Peres and Schlag's
 coloring with at most $\ll\epsilon^{-1}\log(1/\epsilon)$ colors as the best
 known quantitative bound. There are no comments and no proof claims. The
-community database record says proved.
+community database record (read 2026-09-18) says proved.
 
 **The status-defining theorem (p. 2).**
 [[../library/irrationality/peres_2010_two_erdos_problems_lacunary_sequences_chromatic/theorem_1_1|Theorem 1.1]]

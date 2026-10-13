@@ -133,10 +133,10 @@ https://www.erdosproblems.com/560, accessed 2026-09-17.
   $\hat r(K_{s,t})=(e/2+o(1))s^2t2^s$ for $t$ sufficiently large in terms of
   $s$, which does not cover the diagonal.
 
-**Formalization.** None found. The directory
+**Formalization.** None found. On 2026-09-17 the directory
 `FormalConjectures/ErdosProblems/` of google-deepmind/formal-conjectures at
-main holds no file for this problem, and the community database
-(teorth/erdosproblems) records the problem as open (last updated 31 August
+main held no file for this problem, and the community database
+(teorth/erdosproblems) recorded the problem as open (last updated 31 August
 2025), not formalized, with no formal proof. The site's "Formalised
 statement?" indicator reads "No".
 
@@ -154,8 +154,8 @@ $\hat R(K_{s,t})\asymp s^2t2^s$ once $t\gg s\log s$, and with the conjecture
 that the latter order holds for every $s\le t$, so that
 $\hat R(K_{n,n})\asymp n^32^n$ on the diagonal. The site lists the problem
 as number 29 of the Ramsey theory section of its graphs problem collection.
-There are no comments and no proof claims. The community database record
-says open (31 August 2025) and not formalized.
+There are no comments and no proof claims. The community database record,
+read 2026-09-17, says open (31 August 2025) and not formalized.
 
 **Origin.** [EFRS78b], printed pp. 145, 146, 150, 154, 160 and 161. The
 paper defines

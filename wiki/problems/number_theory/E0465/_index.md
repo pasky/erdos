@@ -123,8 +123,8 @@ thread and its empty proof-claims tab. Cite as: T. F. Bloom, Erdős Problem
   distances. arXiv:2605.06621v1 (7 May 2026; abstract read). A lead on the
   higher-dimensional analog, named with its identifier.
 
-**Formalization.** None. No file `ErdosProblems/465.lean` exists in
-google-deepmind/formal-conjectures the site's page shows
+**Formalization.** None. No file `ErdosProblems/465.lean` existed in
+google-deepmind/formal-conjectures on 2026-10-07, the site's page shows
 "Formalised statement? No (create one)", and the community database
 (teorth/erdosproblems, as of 2026-09-18) lists the problem as `proved`, as of
 its last update on 31 August 2025, and unformalized, with no formal-proof URL.

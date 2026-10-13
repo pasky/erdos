@@ -35,7 +35,7 @@ reserved.
 **Edition read.** The copy read for this card is arXiv:1705.09979v2, stamped
 "[math.CO] 26 Jun 2018" and dated June 28, 2018 on its title page, 34 pages
 with a complete text layer, the arXiv comment reading "34 pages, minor
-revisions"; the arXiv record lists no journal reference.
+revisions"; the arXiv record (read 2026-09-18) lists no journal reference.
 The journal text was not compared; every locator on this
 card and on the result pages is a preprint page. Result pages:
 [[extremal_graph_theory/sauermann_2019_rousseau_schelp_subgraphs_minimum_degree/theorem_1_3|theorem_1_3]]

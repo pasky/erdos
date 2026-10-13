@@ -44,7 +44,7 @@ The site cites only the chapter (key ChGr84) for Problem 480.
 **Edition.** The copy read for this card is the first author's
 publication-page copy, a one-page scan of the printed page (Acrobat 4.05 scan
 plug-in, 2001), image-only, 67,112 bytes, read on the rendered page image;
-it was retrieved from
+it was retrieved 2026-09-18T15:22:51Z from
 <https://fanchung.ucsd.edu/mypaps/fanpap/55oiodors_a.PDF> (HTTP 200,
 `application/pdf`, one request).
 The journal's copy in PubMed Central was not served to scripted requests on

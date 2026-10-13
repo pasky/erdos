@@ -65,10 +65,11 @@ creator Elsevier, created 14 October 2008, PDF/A-1b per its metadata),
 with a text layer that reads the prose and the theorem statements cleanly,
 writes the double subscripts $b_{im}$ as "bi m", and garbles the displayed
 column vectors, the Vandermonde matrix and the fractions of the proofs.
-Provenance: the copy was obtained from the publisher's open archive, a
-free copy at
+Provenance: the copy was obtained on 2026-09-22 from the publisher's open
+archive, a free copy at
 <https://www.sciencedirect.com/science/article/pii/S0195669808000619/pdfft>,
-downloaded in a browser after a scripted request had answered HTTP 403 (that request carried a wrong article identifier), the DOI
+downloaded in a browser after a scripted request had answered HTTP 403 (that
+request carried a wrong article identifier), the DOI
 <https://doi.org/10.1016/j.ejc.2008.02.008> resolving to the same article;
 344,732 bytes. No other version is known here. The file prints "© 2008 Elsevier
 Ltd. All rights reserved." on its first page (printed p. 114), every other right

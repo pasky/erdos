@@ -99,8 +99,9 @@ case; OEIS A140462 linked), its two-comment discussion thread (17 and 18 August
   [[../library/extremal_graph_theory/razborov_2010_3_hypergraphs_forbidden_4_vertex_configurations/_index|razborov_2010_3_hypergraphs_forbidden_4_vertex_configurations]]
   (the author's preprint of 15 December 2008; the journal text is not held).
 - [Ba12] Baber, Rahil, Turán densities of hypercubes. arXiv:1201.3587v2 (13
-  November 2012; v1 17 January 2012); Section 5.1, p. 14. A preprint.
-  Library home:
+  November 2012; v1 17 January 2012); Section 5.1, p. 14. A preprint: no
+  journal reference on arXiv and no Crossref record on 2026-09-18. Library
+  home:
   [[../library/extremal_graph_theory/baber_2012_turan_densities_hypercubes/_index|baber_2012_turan_densities_hypercubes]].
 - [GGTW25] Georgiev, B., Gómez-Serrano, J., Tao, T. and Wagner, A. Z.,
   Mathematical exploration and discovery at scale. arXiv:2511.02864 (v3 22

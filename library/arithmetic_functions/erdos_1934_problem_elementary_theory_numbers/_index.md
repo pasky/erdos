@@ -38,7 +38,7 @@ scan; the publisher's page for DOI 10.1080/00029890.1934.11987659 could not be
 read on 2026-10-02 (HTTP 403), the Crossref record names no license, and the
 hosting archive's site notice "(C) 2005-2007 All rights reserved. All material
 on this site is for scientifics purposes only."
-(https://users.renyi.hu/~p_erdos/) speaks for the site, not the
+(https://users.renyi.hu/~p_erdos/, read 2026-10-02) speaks for the site, not the
 paper; the term is unstated.
 
 Grünwald and Lázár asked orally whether an infinite set of positive integers can

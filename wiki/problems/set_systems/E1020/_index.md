@@ -210,7 +210,7 @@ claim every fixed uniformity $r$ for $k-1\ge s_0(r)$ and $n\ge(r+1)(k-1)$.
 The site's proof-claims tab carries one partial claim,
 [[problems/set_systems/E1020/claims/2026_09_13_babanskyy|Babanskyy 2026]]
 (13 September 2026), claiming the case $r=4$ for every $k\ge2$ and
-$n\ge4k$ by developing the finite-board method; the
+$n\ge4k$ by developing the finite-board method; on 2026-10-06 the
 manuscript was not refereed, the forum entry had no comments and no outside
 reviewer had endorsed it. Every pending claim is partial, so the problem's
 derived standing is open. No literature search beyond these records is

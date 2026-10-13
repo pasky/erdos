@@ -58,11 +58,12 @@ the 1992 card), so the site's $N/(r+1)$ is taken as the intended reading.
 $C$ with $|A|\le N/3+C$ for every $N$ and every $A\subseteq\{1,\ldots,N\}$ with
 property P. Theorem 2 gives $|A|\le\lceil N/3\rceil$ for all sufficiently
 large $N$, which is sharp for the set $\{\lfloor2N/3\rfloor+1,\ldots,N\}$. The
-status-defining source is an arXiv preprint (v1, 17 January 2023). Thomas Bloom,
-the site's curator, accepted it as the resolution, and named Bedert's paper in
-the commentary as the proof that the answer is yes. The formal-conjectures
-collection marks the statement `research solved`. An outside Lean proof of the
-$N/3+C$ statement, not built here, is linked from the claim page. The claim page
+status-defining source is an arXiv preprint (v1, 17 January 2023) for which no
+journal record was found on 2026-09-18. Thomas Bloom, the site's curator,
+accepted it as the resolution, and named Bedert's paper in the commentary as the
+proof that the answer is yes. The formal-conjectures collection marks the
+statement `research solved`. An outside Lean proof of the $N/3+C$ statement, not
+built here, is linked from the claim page. The claim page
 [[problems/integer_sequences/E0013/claims/2023_01_17_bedert|Bedert 2023]]
 records the acceptance with this preprint qualification. The site's (LEAN)
 suffix is a catalog label, explained under Formalization and the Lean label
@@ -191,8 +192,11 @@ proof is a case analysis on $|A\cap(\tfrac23n,n]|$ across three regimes
 (pp. 4--43). Acceptance evidence: the site's label and commentary (the
 page was edited to PROVED before 8 April 2026); the formal-conjectures
 entry `research solved`; an external Lean proof of the $N/3+C$ statement
-(below). Read depth: claims checked for Definition 1 and Theorems 1--2;
-the 40-page proof was not read.
+(below). Not found on 2026-09-18: a journal record (arXiv listed none;
+Crossref bibliographic query; zbMATH Open, which listed the preprint only), a
+citing paper (Semantic Scholar returned none), or any dispute. Read depth:
+claims checked for Definition 1 and Theorems 1--2; the 40-page proof was not
+read.
 
 **Formalization and the Lean label.** The site's (LEAN) suffix is a
 catalog label. The formal-conjectures file at the pinned commit is a

@@ -124,11 +124,12 @@ with $\log_kN\ge k$, and `variants.upper`,
 $R(N)\le\frac1{\log2}\log_rN\frac{N}{\log N}\prod_{i=3}^r\log_iN$ for $r\ge1$
 with $\log_iN\ge1$ for all $i\le2r$. The file's categories were not updated
 for the site's July 2026 resolution, and no declaration carries a
-`formal_proof` attribute. The community database records the statement as formalized, with 6 October 2025 as that
+`formal_proof` attribute (main on 2026-10-07). The community database (read
+2026-10-06) records the statement as formalized, with 6 October 2025 as that
 entry's last-update date, formal status unformalized, status solved as of the
-status entry's last update on 31 August 2025, OEIS A384927 and A391592.
-Nothing in the file has been built by this corpus, and the site's label
-carried no Lean suffix.
+status entry's last update on 31 August 2025, OEIS A384927 and A391592. Nothing
+in the file has been built by this corpus, and the site's label carried no Lean
+suffix.
 
 ## Current assessment
 

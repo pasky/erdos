@@ -36,10 +36,10 @@ indicator of the set $S_i$ that keeps the union in Property P.
 **Source.** C. Elsholtz and S. Planitzer, *On Erdős and Sárközy's
 sequences with Property P*, Monatsh. Math. 182 (2017), no. 3, 565--575,
 DOI 10.1007/s00605-016-0995-9 (published online 18 October 2016; Crossref
-record read). The copy read for this page is arXiv:1609.07935v1 (26
-September 2016, 8 pp.), whose pagination is used here; the journal text
-was not compared. The Theorem on p. 1 and the construction on p. 2, read
-in the text layer and on the page images.
+record read 2026-09-18). The copy read for this page is arXiv:1609.07935v1 (26
+September 2016, 8 pp.), whose pagination is used here; the journal text was not
+compared. The Theorem on p. 1 and the construction on p. 2, read in the text
+layer and on the page images.
 
 **Read depth.** Claims checked: the definition, the Theorem, displays
 (1)--(2) and the statements of Lemmas 1 and 2 were read clause by clause in

@@ -113,9 +113,9 @@ https://www.erdosproblems.com/80, accessed 2026-09-18.
   [[../library/ramsey_theory/fox_2012_problem_erdos_rothschild_edges_triangles/_index|fox_2012_problem_erdos_rothschild_edges_triangles]].
 - [KhNi79] Khadzhiivanov, N. G. and Nikiforov, S. V., Solution of a problem
   of P. Erdős about the maximum number of triangles with a common edge in a
-  graph. C. R. Acad. Bulgare Sci. 32 (1979), 1315--1318. Not held; the bound
-  $n/6$ is cited by [FoLo12] p. 2 and Potechin p. 2 and proved in full in
-  the first author's 1988 account [Kh88].
+  graph. C. R. Acad. Bulgare Sci. 32 (1979), 1315--1318. Not held (no Crossref
+  record found on 2026-09-18); the bound $n/6$ is cited by [FoLo12] p. 2 and
+  Potechin p. 2 and proved in full in the first author's 1988 account [Kh88].
 - [Kh88] Khadzhiivanov, N., On the maximal number of triangles with a
   common edge (in Russian). Annuaire Univ. Sofia, Fac. Math. Inform. 82
   (1988), 37--49; Corollary 3, p. 45, with Theorem 1, p. 40, Theorem 2,

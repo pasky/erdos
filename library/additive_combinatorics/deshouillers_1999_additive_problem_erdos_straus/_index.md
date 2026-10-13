@@ -48,7 +48,7 @@ The copy read for this card is the Numdam file of the article (9 pages,
 with Numdam's cover page; printed p. $n$ is PDF p. $n-139$), a scan with a
 partial text layer; the volume is Structure theory of set addition,
 Astérisque 258, Société mathématique de France (1999), the article on
-pp. 141--148 (Numdam record read: MR 1701192, Zbl 0979.11005;
+pp. 141--148 (Numdam record read 2026-09-18: MR 1701192, Zbl 0979.11005;
 the article's own DOI is 10.24033/ast.442, per its Crossref record read
 2026-10-07). Read status: claims checked, on the page images (130 dpi), for the
 definition and the historical account on printed p. 141, Theorem 1, Theorem 2

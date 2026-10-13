@@ -38,7 +38,7 @@ distribute the Work", and names no open license.
 
 **Edition read.** The copy read for this card is arXiv:1703.00273v1, stamped
 "[math.CO] 1 Mar 2017" and dated March 2, 2017 on its first page, 6 pages
-with a complete text layer; the arXiv record lists this one
+with a complete text layer; the arXiv record (read 2026-09-18) lists this one
 version and no journal reference. Every locator on this card and on the
 result page is a preprint page unless marked as the journal's. The journal
 text (8 pages; submitted 17 July 2017, accepted 26 September 2017) was compared

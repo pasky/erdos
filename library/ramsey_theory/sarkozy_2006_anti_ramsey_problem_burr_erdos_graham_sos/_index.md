@@ -25,7 +25,7 @@ says the four-cycle case, Problem 810, stays open.
 G. N. Sárközy and S. Selkow, *On an anti-Ramsey problem of Burr, Erdős,
 Graham, and T. Sós*, J. Graph Theory **52** (2006), 147--156; DOI
 10.1002/jgt.20148 (no. 2; published online 25 January 2006 per the Crossref
-record read, whose abstract is the preprint's abstract up to small
+record read 2026-09-18, whose abstract is the preprint's abstract up to small
 changes of wording and states the result informally, not in the form of
 Theorem 4).
 

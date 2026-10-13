@@ -28,7 +28,7 @@ segment.
 
 What is the smallest number of edges in a graph with dimension $4$?
 
-**Formulation.** The site's wording (the page carries
+**Formulation.** The site's wording, accessed 2026-09-18 (the page carries
 no last-edited date). An embedding places the vertices at
 distinct points of $\mathbb R^n$ with every pair of adjacent vertices at
 Euclidean distance exactly $1$; non-adjacent pairs are unconstrained. This is
@@ -176,11 +176,11 @@ theorem names Theorem 7 of Chaffee and Noble; linked from
 [[problems/extremal_graph_theory/E1007/claims/2016_02_01_chaffee_noble|their claim page]]),
 and on 2026-09-27 the variants `dimension_five` and
 `dimension_five_extremal` gained attributes naming Dishah3241/Erdos1007Dim5;
-the four statements themselves keep proof `sorry` at main. The community database (teorth/erdosproblems, 2026-09-18)
-lists `status` "solved (Lean)" and `formal_status` Lean with no URL, each as
-of its last update on 19 January 2026, and the statement as formalized as of
-its last update on 5 August 2026; the site's indicator says a formalized
-statement exists.
+the four statements themselves kept proof `sorry` at main on 2026-10-07. The
+community database (teorth/erdosproblems, 2026-09-18) lists `status` "solved
+(Lean)" and `formal_status` Lean with no URL, each as of its last update on 19
+January 2026, and the statement as formalized as of its last update on 5 August
+2026; the site's indicator says a formalized statement exists.
 
 ## Current assessment
 

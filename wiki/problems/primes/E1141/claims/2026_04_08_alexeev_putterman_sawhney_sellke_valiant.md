@@ -82,7 +82,8 @@ that computation suggests $1722$ is the largest $1$-good $n$.
 
 **Reviewed.** The site's curator, Thomas Bloom, marked Problem 1141 disproved
 and credits the resolution to the internal OpenAI model of this paper in the
-site's commentary (last edited 9 April 2026). The claim has no refereed
+site's commentary (last edited 9 April 2026). On 2026-10-07 the arXiv record
+listed one version and no journal reference, so the claim has no refereed
 evidence.
 
 **Formalizations.** Four Lean files declare themselves formalizations of this

@@ -34,7 +34,7 @@ paper is ErSi82 (Problems 573 and 575).
 
 **Copy read.** The copy read for this card is the Rényi Institute archive copy
 (`1982-02.pdf`), a 14-page scan with an OCR text layer
-(printed p. $n$ is PDF p. $n-274$). Provenance: retrieved
+(printed p. $n$ is PDF p. $n-274$). Provenance: retrieved 2026-09-18T05:48Z
 from <https://users.renyi.hu/~p_erdos/1982-02.pdf> (HTTP 200, one request);
 2,020,298 bytes. The statements below were read on the rendered page images (130
 dpi); the OCR layer served only to locate them. The paper writes $C^t$ for the

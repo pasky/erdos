@@ -68,8 +68,8 @@ Erdős Problem #294, https://www.erdosproblems.com/294, accessed 2026-09-17.
   2026. Theorem 1.6. Library home:
   [[../library/unit_fractions/liu_2024_further_questions_regarding_unit_fractions/_index|liu_2024_further_questions_regarding_unit_fractions]].
 
-**Formalization.** No formal-conjectures statement: formal-conjectures has
-no `ErdosProblems/294.lean`, and the community database
+**Formalization.** No formal-conjectures statement: formal-conjectures had
+no `ErdosProblems/294.lean` on 2026-10-06, and the community database
 records the problem as unformalized. The external collection
 `plby/lean-proofs` holds, since 17 August 2026, a file declaring itself a
 formalization of a solution, with Liu and Sawhney as informal authors and
@@ -91,7 +91,7 @@ t(N)\ll\frac{N}{\log N}.
 $$
 
 The thread and the proof-claim tab are empty. The community database record
-(teorth/erdosproblems) says proved, unformalized.
+(teorth/erdosproblems, fetched 2026-09-17) says proved, unformalized.
 
 **Status support.** The status-defining source is
 [[../library/unit_fractions/liu_2024_further_questions_regarding_unit_fractions/theorem_1_6|Liu and Sawhney's Theorem 1.6]],
@@ -131,7 +131,7 @@ $N/((\log N)(\log\log N)^{3+o(1)})$ and $N/\log N$; nothing found narrows
 the window.
 
 **Search scope.** The site's problem, discussion and
-proof-claim pages; the community database record; the
+proof-claim pages as read on 2026-09-17; the community database record; the
 formal-conjectures directory listing; the arXiv listing for 2404.07113;
 the Oxford Academic article record; the Semantic Scholar citing-paper
 records for the paper (five records: arXiv:2607.04157, 2502.02200,

@@ -114,8 +114,8 @@ case of $1$ by an elementary argument it sketches. The one comment in the thread
 (20 June 2026) says that Graham's article "Paul Erdős and Egyptian fractions"
 records a prize offered for this problem and paid to Croot; that is a remark
 about the prize, dated 20 June 2026 and unverified. The proof-claim tab is
-empty. The community database record (teorth/erdosproblems) says proved (Lean),
-statement formalized, no formal-proof URL.
+empty. The community database record (teorth/erdosproblems, fetched 2026-09-17)
+says proved (Lean), statement formalized, no formal-proof URL.
 
 **Status support.** The status-defining source is Croot's Corollary
 ([[../library/unit_fractions/croot_2003_coloring_conjecture_about_unit_fractions/corollary|result page]]),

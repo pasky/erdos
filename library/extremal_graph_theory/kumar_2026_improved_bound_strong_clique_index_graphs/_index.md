@@ -36,7 +36,7 @@ unrefereed.
 
 H. Kumar, B. Mohar and S. Pragada, *An improved bound for the strong clique
 index of graphs*, arXiv:2607.02698v1 [math.CO] (2 July 2026), 15 pages. A
-preprint: the arXiv record read by the consuming pages lists
+preprint: the arXiv record read by the consuming pages on 2026-09-19 lists
 one version and no journal reference, and no refereed publication or
 independent review was found; the one citing record found is
 arXiv:2608.03965 (Cames van Batenburg and Korsky, not held).

@@ -74,7 +74,8 @@ The copy read for this card is the publisher's scan of the seventeen printed
 pages from the American
 Mathematical Society's free back file, with an OCR text layer that garbles the
 Greek letters and some symbols (the abstract's $\tau(G)$ reads "r(G)" in the
-text layer); printed p. $n$ is PDF p. $n-636$. Provenance: retrieved from
+text layer); printed p. $n$ is PDF p. $n-636$. Provenance: retrieved
+2026-09-18T15:44:32Z from
 <https://www.ams.org/journals/tran/1988-308-02/S0002-9947-1988-0929670-5/S0002-9947-1988-0929670-5.pdf>
 (HTTP 200, one request); 2,031,145 bytes. The file prints "©1988 American
 Mathematical Society 0002-9947/88 $1.00 + $.25 per page", every other right

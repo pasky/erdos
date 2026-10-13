@@ -150,11 +150,11 @@ https://www.erdosproblems.com/1033, accessed 2026-09-18.
 **Formalization.** None. No file `ErdosProblems/1033.lean` existed in
 formal-conjectures at main on 2026-09-18 (the directory
 `FormalConjectures/ErdosProblems/`, 673 entries, and the recursive tree, 1,742
-entries, were listed in full), and none exists; the page of 2026-09-18 shows
-"Formalised statement? No (create one)"; the community database
-(teorth/erdosproblems, `data/problems.yaml`, fetched 2026-10-06)
-records the problem as open (last update 12 December 2025), unformalized, with
-no formalized statement and an OEIS entry marked "possible".
+entries, were listed in full), and none existed on 2026-10-07; the page of
+2026-09-18 shows "Formalised statement? No (create one)"; the community database
+(teorth/erdosproblems, `data/problems.yaml`, fetched 2026-10-06) records the
+problem as open (last update 12 December 2025), unformalized, with no formalized
+statement and an OEIS entry marked "possible".
 
 ## Current assessment
 

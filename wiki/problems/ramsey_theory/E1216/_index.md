@@ -138,8 +138,8 @@ F. Bloom, Erdős Problem #1216, https://www.erdosproblems.com/1216, accessed
   recorded on its claim page.
 
 **Formalization.** None found. No file for this problem exists in
-google-deepmind/formal-conjectures (main; [the directory
-`FormalConjectures/ErdosProblems/`](https://github.com/google-deepmind/formal-conjectures/tree/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems),
+google-deepmind/formal-conjectures (main, fetched 2026-09-18T10:41:20Z;
+[the directory `FormalConjectures/ErdosProblems/`](https://github.com/google-deepmind/formal-conjectures/tree/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems),
 673 entries, was listed in full), and the community database
 ([teorth/erdosproblems](https://github.com/teorth/erdosproblems/blob/5466d4a29b4971ce39df3a41e3b618d853d3ec3a/data/problems.yaml))
 records the problem disproved (last updated 21 April 2026), not formalized (4

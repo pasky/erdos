@@ -97,9 +97,10 @@ repository `lean-proofs`, which declares itself a formalization of Lee's
 solution and is recorded as a formalization link on
 [[problems/ramsey_theory/E0163/claims/2015_05_18_lee|Lee's claim page]]. The
 corpus has not built either file. The community database
-(teorth/erdosproblems) records the problem proved (13 September 2025), the
-statement formalized since 9 September 2026 and the formal status unformalized;
-the site's indicator reads "Formalised statement? Yes" (it read "No").
+(teorth/erdosproblems, fetched 2026-09-18) records the problem proved
+(13 September 2025), the statement formalized since 9 September 2026 and the
+formal status unformalized; the site's indicator reads
+"Formalised statement? Yes" (it read "No" on 2026-09-05).
 
 ## Current assessment
 
@@ -115,7 +116,7 @@ collection and points to Problem 800. The thread has two comments (24 August
 2025, the expectation that the true bound is $\exp(O(d))n$ with the
 chromatic-number form of Lee's bound; 21 January 2026, a reference-key typo
 since fixed on the site) and the proof-claim tab is empty. The community
-database record says proved (13 September 2025),
+database record (fetched 2026-09-18) says proved (13 September 2025),
 formalized statement.
 
 **Origin.** [BuEr75], cited from the Rényi archive scan. The

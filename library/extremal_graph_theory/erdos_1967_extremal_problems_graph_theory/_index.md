@@ -59,7 +59,7 @@ p. $n-53$; the printed volume is not held and the correspondence was not
 compared with it, so the printed page numbers below rest on that range
 alone. The copy's text layer is unusable (its glyphs carry no readable
 character codes), so every statement recorded here was read on the rendered
-page images (130 dpi). Provenance: retrieved from
+page images (130 dpi). Provenance: retrieved 2026-09-19T06:52:57Z from
 <https://users.renyi.hu/~p_erdos/1967-05.pdf> (HTTP 200, one request; the
 archive's Last-Modified header says 15 April 2007); 138,940 bytes. No notice is
 printed in the file (the text layer's copyright-sign characters are mis-mapped

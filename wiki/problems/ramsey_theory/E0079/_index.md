@@ -124,14 +124,14 @@ Bloom, Erdős Problem #79, https://www.erdosproblems.com/79, accessed
 
 **Formalization.** Statement only. The file
 [`ErdosProblems/79.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/79.lean)
-of formal-conjectures (main) declares
+of formal-conjectures (main on 2026-09-18) declares
 `erdos_79 : answer(True) ↔ ∀ (N : ℕ), ∃ (n : ℕ) (_ : N ≤ n) (G : SimpleGraph (Fin n)), ¬ G.IsRamseySizeLinear ∧ ∀ H : G.Subgraph, H < ⊤ → H.coe.IsRamseySizeLinear`
 under `category research solved`, with proof `sorry` and no `formal_proof`
 attribute; its docstring writes "all of its proper subgraphs" and credits
 [Wi24]. The community database (accessed 2026-09-18) records the problem
 proved (last changed 31 August 2025), the statement formalized since
 9 September 2026 and no formal proof; the site's "Formalised statement?"
-indicator read "No" and "Yes" on 2026-09-18. Nothing was
+indicator read "No" on 2026-09-05 and "Yes" on 2026-09-18. Nothing was
 built here.
 
 ## Current assessment

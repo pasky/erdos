@@ -46,7 +46,7 @@ https://www.erdosproblems.com/633, accessed 2026-09-05.
   47-50.
 
 **Formalization.** The [formal-conjectures
-statement](https://github.com/google-deepmind/formal-conjectures/blob/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/ErdosProblems/633.lean),
+statement](https://github.com/google-deepmind/formal-conjectures/blob/c252a41054125b5fd9c8356e2137cd9b55337657/FormalConjectures/ErdosProblems/633.lean)
 defines congruent tilings by triangles with disjoint interiors. Its `erdos_633`
 declaration has an unspecified answer and `sorry`; it does not formalize the
 eight-family solution. The same file's historical auxiliary results also contain

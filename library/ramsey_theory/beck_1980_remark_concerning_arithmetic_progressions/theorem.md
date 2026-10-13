@@ -55,7 +55,7 @@ absolute optimality claim.
 **Source.** J. Beck, *A remark concerning arithmetic progressions*, J.
 Combin. Theory Ser. A 29 (1980), no. 3, 376--379, DOI
 10.1016/0097-3165(80)90035-7 (received May 21, 1980; the Crossref record
-read). The copy read is the publisher's four-page
+read 2026-09-18). The copy read is the publisher's four-page
 scan (printed p. $n$ is PDF p. $n-375$) whose text layer garbles the
 symbols; every statement here was read on the page images, the theorem and
 Lemma 3 at 300 dpi.

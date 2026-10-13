@@ -57,7 +57,7 @@ August 2014). The arXiv record names arXiv's non-exclusive distribution license
 **Edition read.** The copy read for this card is arXiv:1408.5289v1, stamped
 "[math.CO] 22 Aug 2014" and dated August 25, 2014 on its first page, 22 pages
 with a complete text layer (the arXiv comment reads "22 pages, 14 figures");
-the arXiv record lists this one version and no journal
+the arXiv record (read 2026-09-18) lists this one version and no journal
 reference. The journal text was not compared; every locator
 on this card and on the result pages is a preprint page. Result pages:
 [[extremal_graph_theory/narins_2017_graphs_without_proper_subgraphs_minimum_degree/theorem_1_2|theorem_1_2]],

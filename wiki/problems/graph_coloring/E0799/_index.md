@@ -43,8 +43,8 @@ https://www.erdosproblems.com/799.
 - [Al92] Alon, Noga, Choice numbers of graphs: a probabilistic approach. Combin.
   Probab. Comput. (1992), 107-114.
 
-**Formalization.** The formal-conjectures project has no statement file for
-Problem 799; the $o(n)$ statement has a third-party Lean
+**Formalization.** The formal-conjectures project had no statement file for
+Problem 799 on 2026-10-07; the $o(n)$ statement has a third-party Lean
 proof, linked from the claim page of Alon, Krivelevich and Sudakov below,
 which this corpus has not built.
 

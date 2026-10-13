@@ -89,12 +89,12 @@ https://www.erdosproblems.com/667, accessed 2026-09-18.
 google-deepmind/formal-conjectures (main; none of the 673 entries of the
 directory
 [`FormalConjectures/ErdosProblems/`](https://github.com/google-deepmind/formal-conjectures/tree/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems)
-is for this problem), and the community database (teorth/erdosproblems) lists
-the problem as open, as of its last update of that field on 31 August 2025, not
-formalized, with no formal proof. The site's "Formalised statement?" indicator
-reads "No". On 2026-10-07 the main branch of formal-conjectures had no
-`667.lean`, and Boris Alexeev's lean-proofs (`src/latest/ErdosProblems/`) had no
-file for the problem.
+is for this problem), and the community database (teorth/erdosproblems, fetched
+2026-09-18) lists the problem as open, as of its last update of that field on 31
+August 2025, not formalized, with no formal proof. The site's "Formalised
+statement?" indicator reads "No". On 2026-10-07 the main branch of
+formal-conjectures had no `667.lean`, and Boris Alexeev's lean-proofs
+(`src/latest/ErdosProblems/`) had no file for the problem.
 
 ## Current assessment
 

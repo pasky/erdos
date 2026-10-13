@@ -67,7 +67,7 @@ license (arXiv:1503.05858), every other right reserved.
 Christian Günther, Kai-Uwe Schmidt, "Merit factors of polynomials derived from
 difference sets," arXiv:1503.05858 (2015); published as J. Combin. Theory Ser.
 A 145 (2017), 340–363, https://doi.org/10.1016/j.jcta.2016.08.006 (Crossref
-record read).
+record read on 2026-10-07).
 
 **Bears on.** [[../wiki/problems/polynomials/E1150/_index|Problem 1150]]:
 background only. Every family the paper treats has a finite positive limiting

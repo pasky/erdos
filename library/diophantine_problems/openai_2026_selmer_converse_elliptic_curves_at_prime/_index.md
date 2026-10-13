@@ -218,7 +218,7 @@ group and $a(A_0)$ the order of vanishing of $L(A_0,s)$ at $s=1$.
   large positive characteristic to characteristic zero by the
   Cluckers--Hales--Loeser transfer principle. It is written against an
   undated author-hosted draft (Halleck-Dubé, *The Weighted Fundamental Lemma
-  for Non-Split Groups*, cited by section and
+  for Non-Split Groups*, retrieved 24 September 2026, cited by section and
   theorem numbers) and Ngô's fundamental lemma paper. The introduction
   calls the appendix "a separate normalized global measure comparison"
   (p. 6); the text does not say whether any step of the main proof depends on it, and

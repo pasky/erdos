@@ -64,9 +64,9 @@ has a monochromatic odd cycle of length at most $m$, and declares `erdos_609`,
 the assertion that $f$ has the growth order of an unspecified function
 (`answer(sorry)`), under `category research open` with proof `sorry`. It carries
 no `formal_proof` attribute, so it records no formal proof. The file was added
-on 9 September 2026; the site's indicator reads "Formalised statement? Yes", and
-the community database lists the statement as formalized since 9 September 2026
-with formal status unformalized.
+on 9 September 2026; on 2026-10-06 the site's indicator read
+"Formalised statement? Yes", and the community database listed the statement as
+formalized since 9 September 2026 with formal status unformalized.
 
 ## Current assessment
 

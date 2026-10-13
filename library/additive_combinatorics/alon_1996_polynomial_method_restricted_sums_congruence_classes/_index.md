@@ -71,12 +71,13 @@ Acrobat Distiller 2.0 and a creation date of 16 April 1996; each page
 carries the typesetter's file line in its footer), with a text layer that
 reads the prose cleanly and drops or substitutes the mathematical symbols
 (inequality signs vanish, minus signs come out as ampersands, $\ne$ as a
-brace, summation limits scatter). Provenance: read free of charge from the publisher's open archive, the DOI
-<https://doi.org/10.1006/jnth.1996.0029> resolving to the article's PDF on
-the publisher's site (PII S0022314X96900293); 366,904 bytes. That copy
-prints "Copyright © 1996 by Academic Press, Inc. All rights of reproduction
-in any form reserved." in the footer of its first page (printed p. 404),
-every other right reserved.
+brace, summation limits scatter). Provenance: read free of charge on 2026-09-22
+from the publisher's open archive, the DOI
+<https://doi.org/10.1006/jnth.1996.0029> resolving to the article's PDF on the
+publisher's site (PII S0022314X96900293); 366,904 bytes. That copy prints
+"Copyright © 1996 by Academic Press, Inc. All rights of reproduction in any form
+reserved." in the footer of its first page (printed p. 404), every other right
+reserved.
 
 Read status: claims checked for the title page and abstract (p. 404),
 Theorem 1.1, Proposition 1.2, the remark deriving the Erdős--Heilbronn

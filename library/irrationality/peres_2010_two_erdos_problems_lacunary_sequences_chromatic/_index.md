@@ -25,7 +25,7 @@ the logarithm.
 Peres, Yuval and Schlag, Wilhelm, Two Erdős problems on lacunary sequences:
 chromatic number and Diophantine approximation. Bull. Lond. Math. Soc. **42**
 (2010), no. 2, 295--300; DOI 10.1112/blms/bdp126 (Crossref record, issued
-April 2010). The site's key PeSc10.
+April 2010, read 2026-09-18). The site's key PeSc10.
 
 The copy read for this card
 is arXiv:0706.0223v1 (1 June 2007), the only arXiv version (abstract page

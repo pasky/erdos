@@ -37,7 +37,7 @@ https://www.erdosproblems.com/909.
 - [AnKe67] [[../library/analysis/anderson_1967_example_dimension_theory/_index|Anderson, R. D. and Keisler, J. E., An example in dimension theory]].
   Proc. Amer. Math. Soc. 18 (1967), no. 4, 709--713, DOI
   10.1090/S0002-9939-1967-0215288-0; the article is served free by the
-  publisher.
+  publisher (read 2026-10-07).
 
 **Formalization.** No statement file for the problem exists in
 formal-conjectures (none on `main` on 2026-10-07; the site's indicator reads
