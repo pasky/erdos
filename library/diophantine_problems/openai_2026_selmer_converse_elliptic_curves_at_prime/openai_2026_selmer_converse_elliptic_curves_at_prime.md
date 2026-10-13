@@ -1527,7 +1527,7 @@ By hypothesis $\Phi_{k((t))}$ vanishes identically for every finite residue fiel
 
 **[13]** Christophe Breuil, Brian Conrad, Fred Diamond, and Richard Taylor. On the modularity of elliptic curves over $\mathbf Q$: wild $3$-adic exercises. *Journal of the American Mathematical Society*, 14(4):843–939, 2001. doi: 10.1090/S0894-0347-01-00370-8. URL <https://www.ams.org/jams/2001-14-04/S0894-0347-01-00370-8/S0894-0347-01-00370-8.pdf>.
 
-**[14]** Ashay Burungale and Ye Tian. A proof of Sylvester’s conjecture, 2026a. URL <https://arxiv.org/abs/2609.14893v1>. Preprint, version 1, 14 September 2026; Theorems 1.1 and 1.2, Corollary 1.3, and Section 1.2.2.
+**[14]** Ashay Burungale and Ye Tian. A proof of Sylvester’s conjecture, 2026. URL <https://arxiv.org/abs/2609.14893v1>. Preprint, version 1, 14 September 2026; Theorems 1.1 and 1.2, Corollary 1.3, and Section 1.2.2.
 
 **[15]** Ashay Burungale, Francesc Castella, Christopher Skinner, and Ye Tian. $p^\infty$-Selmer groups and rational points on CM elliptic curves. *Annales mathématiques du Québec*, 46(2):325–346, 2022. doi: 10.1007/s40316-022-00203-y. URL <https://web.math.ucsb.edu/~castella/CM-Q.pdf>. Theorem A, p. 2 of the author version; includes its Hecke-character conductor hypothesis.
 
@@ -1535,7 +1535,7 @@ By hypothesis $\Phi_{k((t))}$ vanishes identically for every finite residue fiel
 
 **[17]** Ashay Burungale, Wei He, Ye Tian, and Xiangdong Ye. Mod $\ell$ non-vanishing of self-dual Hecke $L$-values over CM fields and applications, 2026. URL <https://arxiv.org/abs/2508.19706v2>. Version 2, 13 March 2026; Theorem 1.1, Lemma 4.12 and Corollary 4.20.
 
-**[18]** Ashay A. Burungale and Ye Tian. A rank zero $p$-converse to a theorem of Gross–Zagier, Kolyvagin and Rubin. *Annals of Mathematics*, 203(1):1–13, 2026b. doi: 10.4007/annals.2026.203.1.1. URL <https://annals.math.princeton.edu/2026/203-1/p01>. Theorem 1.1; arXiv version 2 dated 11 October 2025.
+**[18]** Ashay A. Burungale and Ye Tian. A rank zero $p$-converse to a theorem of Gross–Zagier, Kolyvagin and Rubin. *Annals of Mathematics*, 203(1):1–13, 2026. doi: 10.4007/annals.2026.203.1.1. URL <https://annals.math.princeton.edu/2026/203-1/p01>. Theorem 1.1; arXiv version 2 dated 11 October 2025.
 
 **[19]** Ashay A. Burungale, Christopher Skinner, Ye Tian, and Xin Wan. Zeta elements for elliptic curves and applications, 2024. URL <https://arxiv.org/abs/2409.01350v2>. arXiv:2409.01350v2, 11 September 2024.
 
@@ -1547,9 +1547,9 @@ By hypothesis $\Phi_{k((t))}$ vanishes identically for every finite residue fiel
 
 **[23]** Francesc Castella, Zheng Liu, and Xin Wan. Addendum to: Iwasawa–Greenberg main conjecture for nonordinary modular forms and Eisenstein congruences on $\mathrm{GU}(3,1)$. Author-hosted addendum. URL <https://web.math.ucsb.edu/~castella/CLW-addendum.pdf>. Undated in the inspected text; 6 pp.; accessed 24 September 2026.
 
-**[24]** Francesc Castella, Giada Grossi, Jaehoon Lee, and Christopher Skinner. On the anticyclotomic Iwasawa theory of rational elliptic curves at Eisenstein primes. *Inventiones Mathematicae*, 227(2):517–580, 2022a. doi: 10.1007/s00222-021-01072-y. URL <https://arxiv.org/abs/2008.02571v2>. Theorem E, also Theorem 5.2.1; arXiv version 2 dated 14 September 2021.
+**[24]** Francesc Castella, Giada Grossi, Jaehoon Lee, and Christopher Skinner. On the anticyclotomic Iwasawa theory of rational elliptic curves at Eisenstein primes. *Inventiones Mathematicae*, 227(2):517–580, 2022. doi: 10.1007/s00222-021-01072-y. URL <https://arxiv.org/abs/2008.02571v2>. Theorem E, also Theorem 5.2.1; arXiv version 2 dated 14 September 2021.
 
-**[25]** Francesc Castella, Zheng Liu, and Xin Wan. Iwasawa–Greenberg main conjecture for nonordinary modular forms and Eisenstein congruences on $\mathrm{GU}(3,1)$. *Forum of Mathematics, Sigma*, 10:e110, 2022b. doi: 10.1017/fms.2022.95. URL <https://web.math.ucsb.edu/~castella/CLW-print.pdf>. Article e110, 90 pp.; theorem locators follow the published version.
+**[25]** Francesc Castella, Zheng Liu, and Xin Wan. Iwasawa–Greenberg main conjecture for nonordinary modular forms and Eisenstein congruences on $\mathrm{GU}(3,1)$. *Forum of Mathematics, Sigma*, 10:e110, 2022. doi: 10.1017/fms.2022.95. URL <https://web.math.ucsb.edu/~castella/CLW-print.pdf>. Article e110, 90 pp.; theorem locators follow the published version.
 
 **[26]** Pierre-Henri Chaudouard and Gérard Laumon. Le lemme fondamental pondéré. II. énoncés cohomologiques. *Annals of Mathematics*, 176(3):1647–1781, 2012. doi: 10.4007/annals.2012.176.3.6. URL <https://annals.math.princeton.edu/wp-content/uploads/annals-v176-n3-p06-p.pdf>.
 
@@ -1595,9 +1595,9 @@ By hypothesis $\Phi_{k((t))}$ vanishes identically for every finite residue fiel
 
 **[47]** Nicholas M. Katz. Serre–Tate local moduli. In Jean Giraud, Luc Illusie, and Michel Raynaud, editors, *Surfaces Algébriques: Séminaire de Géométrie Algébrique d’Orsay 1976–78*, volume 868 of *Lecture Notes in Mathematics*, pages 138–202. Springer, Berlin–Heidelberg, 1981. doi: 10.1007/BFb0090648. URL <https://web.math.princeton.edu/~nmk/old/serretatelocmod.pdf>. Theorem 2.1(1), (2), (4), pp. 148–149; relevant construction on pp. 149–150.
 
-**[48]** Timo Keller and Mulun Yin. $p$-converse theorems for elliptic curves of potentially good ordinary reduction at Eisenstein primes, 2024a. URL <https://arxiv.org/abs/2410.23241v1>. arXiv:2410.23241v1, 30 October 2024; Conjecture A and Theorem B.
+**[48]** Timo Keller and Mulun Yin. $p$-converse theorems for elliptic curves of potentially good ordinary reduction at Eisenstein primes, 2024. URL <https://arxiv.org/abs/2410.23241v1>. arXiv:2410.23241v1, 30 October 2024; Conjecture A and Theorem B.
 
-**[49]** Timo Keller and Mulun Yin. On the anticyclotomic Iwasawa theory of newforms at Eisenstein primes of semistable reduction, 2024b. URL <https://arxiv.org/abs/2402.12781v2>. Version 2, 30 October 2024; Theorem E, Theorem 4.1.1 and Corollary 5.2.2.
+**[49]** Timo Keller and Mulun Yin. On the anticyclotomic Iwasawa theory of newforms at Eisenstein primes of semistable reduction, 2024. URL <https://arxiv.org/abs/2402.12781v2>. Version 2, 30 October 2024; Theorem E, Theorem 4.1.1 and Corollary 5.2.2.
 
 **[50]** V. A. Kolyvagin. Euler systems. In Pierre Cartier, Luc Illusie, Nicholas M. Katz, Gérard Laumon, Yuri I. Manin, and Kenneth A. Ribet, editors, *The Grothendieck Festschrift, Volume II*, volume 87 of *Progress in Mathematics*, pages 435–483. Birkhäuser, Boston, 1990. URL <https://link.springer.com/chapter/10.1007/978-0-8176-4575-5_11>. Linked chapter is the 2007 reprint.
 
@@ -1653,9 +1653,9 @@ By hypothesis $\Phi_{k((t))}$ vanishes identically for every finite residue fiel
 
 **[76]** Shunsuke Yamana. On the Siegel–Weil formula: The case of singular forms. *Compositio Mathematica*, 147(4):1003–1021, 2011. doi: 10.1112/S0010437X11005379. URL <https://doi.org/10.1112/S0010437X11005379>.
 
-**[77]** Hongbo Yin. A proof of the $4,7$ cases of Sylvester’s conjecture on cube sums, 2026a. URL <https://arxiv.org/abs/2605.25917v3>. Preprint, version 3, 4 June 2026; Theorem 1.1.
+**[77]** Hongbo Yin. A proof of the $4,7$ cases of Sylvester’s conjecture on cube sums, 2026. URL <https://arxiv.org/abs/2605.25917v3>. Preprint, version 3, 4 June 2026; Theorem 1.1.
 
-**[78]** Hongbo Yin. Gross–Zagier formula for the $4,7$ cases of Sylvester’s conjecture, 2026b. URL <https://arxiv.org/abs/2607.01744v1>. Preprint, version 1, 2 July 2026; Theorem 1.1.
+**[78]** Hongbo Yin. Gross–Zagier formula for the $4,7$ cases of Sylvester’s conjecture, 2026. URL <https://arxiv.org/abs/2607.01744v1>. Preprint, version 1, 2 July 2026; Theorem 1.1.
 
 **[79]** A. V. Zelevinsky. Induced representations of reductive $p$-adic groups. II. on irreducible representations of $\mathrm{GL}(n)$. *Annales scientifiques de l’École Normale Supérieure*, 13(2):165–210, 1980. doi: 10.24033/asens.1379. URL <https://www.numdam.org/item/ASENS_1980_4_13_2_165_0/>.
 

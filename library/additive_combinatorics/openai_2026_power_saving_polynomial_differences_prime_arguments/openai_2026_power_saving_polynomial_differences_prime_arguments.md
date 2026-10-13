@@ -1042,7 +1042,7 @@ For the remaining pairs, induct on the integer $N$, simultaneously for all $l\ge
 
 **[8]** Ben Green and Mehtaab Sawhney. New bounds for the Furstenberg–Sárközy theorem. [arXiv:2411.17448v2](https://arxiv.org/abs/2411.17448v2), 2025. URL <https://arxiv.org/abs/2411.17448v2>. Version 2, January 10, 2025.
 
-**[9]** Hamed Hatami. Graph norms and Sidorenko’s conjecture. *Israel Journal of Mathematics*, 175:125–150, 2010. doi: 10.1007/s11856-010-0005-1. URL <https://doi.org/10.1007/s11856-010-0005-1>. Also [arXiv:](https://arxiv.org/abs/0806.0047).
+**[9]** Hamed Hatami. Graph norms and Sidorenko’s conjecture. *Israel Journal of Mathematics*, 175:125–150, 2010. doi: 10.1007/s11856-010-0005-1. URL <https://doi.org/10.1007/s11856-010-0005-1>. Also [arXiv:0806.0047](https://arxiv.org/abs/0806.0047).
 
 **[10]** T. Kamae and M. Mendès France. Van der Corput’s difference theorem. *Israel Journal of Mathematics*, 31(3–4):335–342, 1978. doi: 10.1007/BF02761498. URL <https://doi.org/10.1007/BF02761498>.
 
@@ -1052,11 +1052,11 @@ For the remaining pairs, induct on the integer $N$, simultaneously for all $l\ge
 
 **[13]** Jason Lucier. Difference sets and shifted primes. *Acta Mathematica Hungarica*, 120(1–2):79–102, 2008. doi: 10.1007/s10474-007-7107-1.
 
-**[14]** OpenAI. A power saving for intersective polynomial differences with an exponent depending only on the degree. OpenAI Math Release preprint [OAI:A-power-saving-for-intersective-polynomial-differences-with-an-exponent-depending-only-on-the-degree-October-5-2026](https://github.com/openai/math/blob/main/preprints/A-power-saving-for-intersective-polynomial-differences-with-an-exponent-depending-only-on-the-degree-October-5-2026/power-saving-intersective-polynomial-differences.pdf), 2026a.
+**[14]** OpenAI. A power saving for intersective polynomial differences with an exponent depending only on the degree. OpenAI Math Release preprint [OAI:A-power-saving-for-intersective-polynomial-differences-with-an-exponent-depending-only-on-the-degree-October-5-2026](https://github.com/openai/math/blob/main/preprints/A-power-saving-for-intersective-polynomial-differences-with-an-exponent-depending-only-on-the-degree-October-5-2026/power-saving-intersective-polynomial-differences.pdf), 2026.
 
-**[15]** OpenAI. A power saving for square-difference-free sets. OpenAI Math Release preprint [OAI:A-power-saving-for-square-difference-free-sets-September-24-2026](https://github.com/openai/math/blob/main/preprints/A-power-saving-for-square-difference-free-sets-September-24-2026/paper.pdf), 2026b.
+**[15]** OpenAI. A power saving for square-difference-free sets. OpenAI Math Release preprint [OAI:A-power-saving-for-square-difference-free-sets-September-24-2026](https://github.com/openai/math/blob/main/preprints/A-power-saving-for-square-difference-free-sets-September-24-2026/paper.pdf), 2026.
 
-**[16]** OpenAI. The Quasi-Riemann Hypothesis: A Zero-Free Half-Plane $\mathrm{Re}(s)>7/8$. OpenAI Math Release preprint [OAI:The-Quasi-Riemann-Hypothesis-September-30-2026](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf), 2026c.
+**[16]** OpenAI. The Quasi-Riemann Hypothesis: A Zero-Free Half-Plane $\mathrm{Re}(s)>7/8$. OpenAI Math Release preprint [OAI:The-Quasi-Riemann-Hypothesis-September-30-2026](https://github.com/openai/math/blob/main/preprints/The-Quasi-Riemann-Hypothesis-September-30-2026/paper.pdf), 2026.
 
 **[17]** J. Pintz, W. L. Steiger, and E. Szemerédi. On sets of natural numbers whose difference set contains no squares. *Journal of the London Mathematical Society*, 37(2):219–231, 1988. doi: 10.1112/jlms/s2-37.2.219. URL <https://doi.org/10.1112/jlms/s2-37.2.219>.
 
@@ -1066,9 +1066,9 @@ For the remaining pairs, induct on the integer $N$, simultaneously for all $l\ge
 
 **[20]** Imre Z. Ruzsa and Tom Sanders. Difference sets and the primes. *Acta Arithmetica*, 131(3):281–301, 2008. doi: 10.4064/aa131-3-5.
 
-**[21]** A. Sárközy. On difference sets of sequences of integers. I. *Acta Mathematica Academiae Scientiarum Hungaricae*, 31(1–2):125–149, 1978a. doi: 10.1007/BF01896079. URL <https://doi.org/10.1007/BF01896079>.
+**[21]** A. Sárközy. On difference sets of sequences of integers. I. *Acta Mathematica Academiae Scientiarum Hungaricae*, 31(1–2):125–149, 1978. doi: 10.1007/BF01896079. URL <https://doi.org/10.1007/BF01896079>.
 
-**[22]** A. Sárközy. On difference sets of sequences of integers. III. *Acta Mathematica Academiae Scientiarum Hungaricae*, 31(3–4):355–386, 1978b.
+**[22]** A. Sárközy. On difference sets of sequences of integers. III. *Acta Mathematica Academiae Scientiarum Hungaricae*, 31(3–4):355–386, 1978.
 
 **[23]** Jesse Thorner and Asif Zaman. An explicit version of Bombieri’s log-free density estimate and Sárközy’s theorem for shifted primes. *Forum Mathematicum*, 36(4):1059–1080, 2024. doi: 10.1515/forum-2023-0091.
 

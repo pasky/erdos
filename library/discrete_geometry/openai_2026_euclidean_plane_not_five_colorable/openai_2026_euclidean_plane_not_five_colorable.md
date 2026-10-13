@@ -1330,11 +1330,11 @@ Every interval $(a,b)$ lies in $(0,4)$ and avoids one. The polynomial factors ar
 
 ## References
 
-**[1]** B. Bekka, P. de la Harpe, and A. Valette. *Kazhdan’s Property (T)*, volume 11 of *New Mathematical Monographs*. Cambridge University Press, 2008. doi: 10.1017/CBO9780511542749. URL <https://ncatlab.org/nlab/files/BekkaHarpeValetteOnKashdanPropertyT.pdf>. Theorem locators refer to the author manuscript dated February 23, 2007.
+**[1]** B. Bekka, P. de la Harpe, and A. Valette. *Kazhdan’s Property (T)*, volume 11 of *New Mathematical Monographs*. Cambridge University Press, 2008. doi: [`10.1017/CBO9780511542749`](https://doi.org/10.1017/CBO9780511542749). URL <https://ncatlab.org/nlab/files/BekkaHarpeValetteOnKashdanPropertyT.pdf>. Theorem locators refer to the author manuscript dated February 23, 2007.
 
 **[2]** T. Bourgeat, M. Heinrich, P. Melotti, and J.-M. Robert. A probabilistic Hadwiger–Nelson problem, 2015. URL <https://arxiv.org/abs/1501.02441v1>.
 
-**[3]** M. M. Crum. On positive-definite functions. *Proceedings of the London Mathematical Society*, 6(4):548–560, 1956. doi: 10.1112/plms/s3-6.4.548.
+**[3]** M. M. Crum. On positive-definite functions. *Proceedings of the London Mathematical Society*, 6(4):548–560, 1956. doi: [`10.1112/plms/s3-6.4.548`](https://doi.org/10.1112/plms/s3-6.4.548).
 
 **[4]** N. G. de Bruijn and P. Erdős. A colour problem for infinite graphs and a problem in the theory of relations. *Indagationes Mathematicae*, 13:371–373, 1951. URL <https://users.renyi.hu/~p_erdos/1951-01.pdf>.
 
@@ -1342,15 +1342,15 @@ Every interval $(a,b)$ lies in $(0,4)$ and avoids one. The polynomial factors ar
 
 **[6]** B. Deroin, V. Kleptsyn, and A. Navas. On the question of ergodicity for minimal group actions on the circle, 2008. URL <https://arxiv.org/abs/0806.1974v1>. <https://arxiv.org/abs/0806.1974v1>.
 
-**[7]** G. Exoo and D. Ismailescu. The chromatic number of the plane is at least 5: A new proof. *Discrete & Computational Geometry*, 64:216–226, 2020. doi: 10.1007/s00454-019-00058-1. URL <https://arxiv.org/abs/1805.00157v1>.
+**[7]** G. Exoo and D. Ismailescu. The chromatic number of the plane is at least 5: A new proof. *Discrete & Computational Geometry*, 64:216–226, 2020. doi: [`10.1007/s00454-019-00058-1`](https://doi.org/10.1007/s00454-019-00058-1). URL <https://arxiv.org/abs/1805.00157v1>.
 
-**[8]** K. J. Falconer. The realization of distances in measurable subsets covering $\mathbb{R}^n$. *Journal of Combinatorial Theory, Series A*, 31(2):184–189, 1981. doi: 10.1016/0097-3165(81)90014-5.
+**[8]** K. J. Falconer. The realization of distances in measurable subsets covering $\mathbb{R}^n$. *Journal of Combinatorial Theory, Series A*, 31(2):184–189, 1981. doi: [`10.1016/0097-3165(81)90014-5`](https://doi.org/10.1016/0097-3165(81)90014-5).
 
-**[9]** E. Følner. On groups with full Banach mean value. *Mathematica Scandinavica*, 3:243–254, 1955. doi: 10.7146/math.scand.a-10442.
+**[9]** E. Følner. On groups with full Banach mean value. *Mathematica Scandinavica*, 3:243–254, 1955. doi: [`10.7146/math.scand.a-10442`](https://doi.org/10.7146/math.scand.a-10442).
 
-**[10]** H. Furstenberg. Ergodic behavior of diagonal measures and a theorem of Szemerédi on arithmetic progressions. *Journal d’Analyse Mathématique*, 31:204–256, 1977. doi: 10.1007/BF02813304.
+**[10]** H. Furstenberg. Ergodic behavior of diagonal measures and a theorem of Szemerédi on arithmetic progressions. *Journal d’Analyse Mathématique*, 31:204–256, 1977. doi: [`10.1007/BF02813304`](https://doi.org/10.1007/BF02813304).
 
-**[11]** T. Gneiting and Z. Sasvári. The characterization problem for isotropic covariance functions. *Mathematical Geology*, 31(1):105–111, 1999. doi: 10.1023/A:1007597415185.
+**[11]** T. Gneiting and Z. Sasvári. The characterization problem for isotropic covariance functions. *Mathematical Geology*, 31(1):105–111, 1999. doi: [`10.1023/A:1007597415185`](https://doi.org/10.1023/A:1007597415185).
 
 **[12]** H. Gwyn and J. Stavrianos. A finite graph approach to the probabilistic Hadwiger–Nelson problem. *Geombinatorics*, 32(1):5–28, 2022. URL <https://arxiv.org/abs/2008.07987v1>. Definition and theorem locators refer to arXiv version 1, August 18, 2020.
 
@@ -1360,19 +1360,19 @@ Every interval $(a,b)$ lies in $(0,4)$ and avoids one. The polynomial factors ar
 
 **[15]** M. J. H. Heule. Computing small unit-distance graphs with chromatic number 5. *Geombinatorics*, 28(1):32–50, 2018. URL <https://arxiv.org/abs/1805.12181>.
 
-**[16]** A. Jamneshan. An uncountable Furstenberg–Zimmer structure theory. *Ergodic Theory and Dynamical Systems*, 43(7):2404–2436, 2023. doi: 10.1017/etds.2022.43.
+**[16]** A. Jamneshan. An uncountable Furstenberg–Zimmer structure theory. *Ergodic Theory and Dynamical Systems*, 43(7):2404–2436, 2023. doi: [`10.1017/etds.2022.43`](https://doi.org/10.1017/etds.2022.43).
 
-**[17]** A. Jamneshan. An uncountable Furstenberg–Zimmer structure theory—Corrigendum. *Ergodic Theory and Dynamical Systems*, 46(1):211–217, 2026. doi: 10.1017/etds.2025.10214.
+**[17]** A. Jamneshan. An uncountable Furstenberg–Zimmer structure theory—Corrigendum. *Ergodic Theory and Dynamical Systems*, 46(1):211–217, 2026. doi: [`10.1017/etds.2025.10214`](https://doi.org/10.1017/etds.2025.10214).
 
 **[18]** M. Matolcsi, I. Z. Ruzsa, D. Varga, and P. Zsámboki. The fractional chromatic number of the plane is at least 4, 2025. URL <https://arxiv.org/abs/2311.10069v4>. Version 4, March 27, 2025; first submitted November 16, 2023.
 
-**[19]** L. Moser and W. Moser. Solution to problem 10. *Canadian Mathematical Bulletin*, 4(2):187–189, 1961. doi: 10.1017/S0008439500025765. Within the journal’s Solutions section, pp. 187–194.
+**[19]** L. Moser and W. Moser. Solution to problem 10. *Canadian Mathematical Bulletin*, 4(2):187–189, 1961. doi: [`10.1017/S0008439500025765`](https://doi.org/10.1017/S0008439500025765). Within the journal’s Solutions section, pp. 187–194.
 
-**[20]** J. Parts. The chromatic number of the plane is at least 5—a human-verifiable proof. *Geombinatorics*, 30(2):77–102, 2020a. URL <https://arxiv.org/abs/2010.12661>.
+**[20]** J. Parts. The chromatic number of the plane is at least 5—a human-verifiable proof. *Geombinatorics*, 30(2):77–102, 2020. URL <https://arxiv.org/abs/2010.12661>.
 
-**[21]** J. Parts. Graph minimization, focusing on the example of 5-chromatic unit-distance graphs in the plane. *Geombinatorics*, 29(4):137–166, 2020b. URL <https://arxiv.org/abs/2010.12665v2>.
+**[21]** J. Parts. Graph minimization, focusing on the example of 5-chromatic unit-distance graphs in the plane. *Geombinatorics*, 29(4):137–166, 2020. URL <https://arxiv.org/abs/2010.12665v2>.
 
-**[22]** M. S. Payne. Unit distance graphs with ambiguous chromatic number. *The Electronic Journal of Combinatorics*, 16(1):N31, 2009. doi: 10.37236/269.
+**[22]** M. S. Payne. Unit distance graphs with ambiguous chromatic number. *The Electronic Journal of Combinatorics*, 16(1):N31, 2009. doi: [`10.37236/269`](https://doi.org/10.37236/269).
 
 **[23]** J. $f(n)$. Reed. The Hadwiger–Nelson problem: Formal verification of the 7-color chromatic number of the plane via toroidal projection and the irrationality of $2\pi$. [Public manuscript, May 14 version](https://github.com/AEjonanonymous/Hadwiger-Nelson/blob/97210989cd34e0f884f2635f8cfb9822b33388ad/The%20Hadwiger-Nelson%20Problem%20-%20Formal%20Verification%20of%20the%207-Color%20Chromatic%20Number%20of%20the%20Plane%20via%20Toroidal%20Projection%20and%20the%20Irrationality%20of%202%CF%80.pdf), 2026. Public manuscript version present May 14, 2026.
 
@@ -1382,18 +1382,18 @@ Every interval $(a,b)$ lies in $(0,4)$ and avoids one. The polynomial factors ar
 
 **[26]** T. Tao. 254A, lecture 9: Ergodicity, 2008. URL <https://terrytao.wordpress.com/2008/02/04/254a-lecture-9-ergodicity/>. February 4; Theorem 4 and Remark 5.
 
-**[27]** S. P. Townsend. Every 5-coloured map in the plane contains a monochrome unit. *Journal of Combinatorial Theory, Series A*, 30(1):114–115, 1981. doi: 10.1016/0097-3165(81)90046-7. URL <https://www.jennysteve.net/MapColouring/1981note.pdf>.
+**[27]** S. P. Townsend. Every 5-coloured map in the plane contains a monochrome unit. *Journal of Combinatorial Theory, Series A*, 30(1):114–115, 1981. doi: [`10.1016/0097-3165(81)90046-7`](https://doi.org/10.1016/0097-3165(81)90046-7). URL <https://www.jennysteve.net/MapColouring/1981note.pdf>.
 
 **[28]** S. P. Townsend. Colouring the plane with no monochrome units. *Geombinatorics*, 14(4):184–193, 2005. URL <https://www.jennysteve.net/MapColouring/2005paper.pdf>.
 
-**[29]** J. von Neumann. Zur allgemeinen Theorie des Masses. *Fundamenta Mathematicae*, 13:73–116, 1929. doi: 10.4064/fm-13-1-73-116.
+**[29]** J. von Neumann. Zur allgemeinen Theorie des Masses. *Fundamenta Mathematicae*, 13:73–116, 1929. doi: [`10.4064/fm-13-1-73-116`](https://doi.org/10.4064/fm-13-1-73-116).
 
 **[30]** V. Voronov. The chromatic number of the plane with an interval of forbidden distances is at least 7, 2025. URL <https://arxiv.org/abs/2304.10163v3>. Version 3, submitted April 13, 2025; first version April 20, 2023.
 
-**[31]** D. R. Woodall. Distances realized by sets covering the plane. *Journal of Combinatorial Theory, Series A*, 14(2):187–200, 1973. doi: 10.1016/0097-3165(73)90020-4.
+**[31]** D. R. Woodall. Distances realized by sets covering the plane. *Journal of Combinatorial Theory, Series A*, 14(2):187–200, 1973. doi: [`10.1016/0097-3165(73)90020-4`](https://doi.org/10.1016/0097-3165(73)90020-4).
 
-**[32]** R. J. Zimmer. Ergodic actions with generalized discrete spectrum. *Illinois Journal of Mathematics*, 20(4):555–588, 1976a. doi: 10.1215/ijm/1256049648.
+**[32]** R. J. Zimmer. Ergodic actions with generalized discrete spectrum. *Illinois Journal of Mathematics*, 20(4):555–588, 1976. doi: [`10.1215/ijm/1256049648`](https://doi.org/10.1215/ijm/1256049648).
 
-**[33]** R. J. Zimmer. Extensions of ergodic group actions. *Illinois Journal of Mathematics*, 20(3):373–409, 1976b. doi: 10.1215/ijm/1256049780.
+**[33]** R. J. Zimmer. Extensions of ergodic group actions. *Illinois Journal of Mathematics*, 20(3):373–409, 1976. doi: [`10.1215/ijm/1256049780`](https://doi.org/10.1215/ijm/1256049780).
 
 [^1]: The May 14, 2026 manuscript of Reed [23] announces $\chi(\mathbb R^2)=7$ through a circle-density argument. Its proposed strict bound of $\pi/3$ on the angular measure of a unit-independent subset of the unit circle fails for the half-open arc $\{e^{it}:0\le t<\pi/3\}$: this arc has angular measure $\pi/3$ and contains no unit pair. The displayed formal theorem assumes that density bound as a hypothesis, so the argument does not establish the announced equality.

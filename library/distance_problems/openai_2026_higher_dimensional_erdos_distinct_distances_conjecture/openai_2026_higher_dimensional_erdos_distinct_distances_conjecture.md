@@ -1472,7 +1472,7 @@ For $h=0$, an irreducible variety containing an $s_0$-flat must equal that flat,
 
 The proof first obtains approximate equations and regular defining equations (Theorem A.2 and Lemma A.5), then recovers controlled families of actual rulings (Lemma A.6). Proposition A.7 bounds their degree and identifies the maximal-isotropic exception. Section A.5 closes the resulting finite system of inequalities with constants independent of $A$.
 
-We normalize the number of flats contained in a variety by its degree, following Walsh’s concentration parameters [28, Section 1.1, definition of Dm]. The controlled-ruling strategy and the isotropic exception are closely related to the three-dimensional rigid-motion analysis of Tidor, Yu, and Zakharov [26, Sections 5–6]. Here the ruling geometry is that of evaluation flats of alternating forms in arbitrary fixed dimension; the required degree bound and exceptional-family classification are proved in full below.
+We normalize the number of flats contained in a variety by its degree, following Walsh’s concentration parameters [28, Section 1.1, definition of $\mathcal D_m$]. The controlled-ruling strategy and the isotropic exception are closely related to the three-dimensional rigid-motion analysis of Tidor, Yu, and Zakharov [26, Sections 5–6]. Here the ruling geometry is that of evaluation flats of alternating forms in arbitrary fixed dimension; the required degree bound and exceptional-family classification are proved in full below.
 
 ### Approximate complete intersections
 

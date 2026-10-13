@@ -655,7 +655,7 @@ In both the CM and non-CM cases, the finite factors also agree if one uses the W
 
 **[15]** Henri Darmon, *Modularity of fibres in rigid local systems*, Annals of Mathematics **149** (1999), no. 3, 1079–1086.
 
-**[16]** to3em, *Rigid local systems, Hilbert modular forms, and Fermat’s last theorem*, Duke Mathematical Journal **102** (2000), no. 3, 413–449.
+**[16]** ———, *Rigid local systems, Hilbert modular forms, and Fermat’s last theorem*, Duke Mathematical Journal **102** (2000), no. 3, 413–449.
 
 **[17]** Henri Darmon and Jean-François Mestre, *Courbes hyperelliptiques à multiplications réelles et une construction de Shih*, Canadian Mathematical Bulletin **43** (2000), no. 3, 304–311.
 
@@ -679,7 +679,7 @@ In both the CM and non-CM cases, the finite factors also agree if one uses the W
 
 **[27]** Robert P. Langlands, *Problems in the theory of automorphic forms*, Lectures in Modern Analysis and Applications III (C. T. Taam, ed.), Lecture Notes in Mathematics, vol. 170, Springer, Berlin, 1970, pp. 18–61.
 
-**[28]** to3em, *Base change for $\operatorname{GL}(2)$*, Annals of Mathematics Studies, vol. 96, Princeton University Press, Princeton, NJ, 1980.
+**[28]** ———, *Base change for $\operatorname{GL}(2)$*, Annals of Mathematics Studies, vol. 96, Princeton University Press, Princeton, NJ, 1980.
 
 **[29]** Jean-François Mestre, *Familles de courbes hyperelliptiques à multiplications réelles*, Arithmetic Algebraic Geometry (Texel, 1989), Progress in Mathematics, vol. 89, Birkhäuser Boston, Boston, MA, 1991, pp. 193–208.
 
@@ -687,7 +687,7 @@ In both the CM and non-CM cases, the finite factors also agree if one uses the W
 
 **[31]** Jean-Pierre Serre, *Propriétés galoisiennes des points d’ordre fini des courbes elliptiques*, Inventiones Mathematicae **15** (1972), 259–331.
 
-**[32]** to3em, *Topics in Galois theory*, 2 ed., Research Notes in Mathematics, vol. 1, A K Peters, Wellesley, MA, 2008, With notes by Henri Darmon.
+**[32]** ———, *Topics in Galois theory*, 2 ed., Research Notes in Mathematics, vol. 1, A K Peters, Wellesley, MA, 2008, With notes by Henri Darmon.
 
 **[33]** Goro Shimura and Yutaka Taniyama, *Complex multiplication of abelian varieties and its applications to number theory*, Publications of the Mathematical Society of Japan, vol. 6, Mathematical Society of Japan, Tokyo, 1961.
 
@@ -697,7 +697,7 @@ In both the CM and non-CM cases, the finite factors also agree if one uses the W
 
 **[36]** Richard Taylor, *$l$-adic representations associated to modular forms over imaginary quadratic fields. II*, Inventiones Mathematicae **116** (1994), 619–643.
 
-**[37]** to3em, *Remarks on a conjecture of Fontaine and Mazur*, Journal of the Institute of Mathematics of Jussieu **1** (2002), no. 1, 125–143.
+**[37]** ———, *Remarks on a conjecture of Fontaine and Mazur*, Journal of the Institute of Mathematics of Jussieu **1** (2002), no. 1, 125–143.
 
 **[38]** Richard Taylor and Andrew Wiles, *Ring-theoretic properties of certain Hecke algebras*, Annals of Mathematics **141** (1995), no. 3, 553–572.
 

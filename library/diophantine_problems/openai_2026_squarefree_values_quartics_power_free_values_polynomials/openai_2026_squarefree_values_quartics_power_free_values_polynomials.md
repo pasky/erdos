@@ -661,7 +661,7 @@ Suppose $\deg S=e\ge3$. A general linear projection to an affine plane, with coo
 
 ##### A quadric $a$-image.
 
-Suppose $\deg S=2$. The degree of an irreducible projective variety is at least its codimension in its linear span plus one [5, Introduction, equation (∗)]. Applying this to the projective closure shows that $S$ spans an affine three-space $A$ and is a quadratic hypersurface there: a surface spanning only an affine plane would equal that plane and have degree one.
+Suppose $\deg S=2$. The degree of an irreducible projective variety is at least its codimension in its linear span plus one [5, Introduction, equation $(*)$]. Applying this to the projective closure shows that $S$ spans an affine three-space $A$ and is a quadratic hypersurface there: a surface spanning only an affine plane would equal that plane and have degree one.
 
 The span $A$ is rational in the first-block rational coordinates. Its direction is a rational hyperplane in $K$. The nondegeneracy of the trace pairing writes its equation as $\operatorname{Tr}_{K/\mathbb Q}(\gamma\alpha)=0$ for some $\gamma\in K\setminus\{0\}$. Write $\ell_i$ for the linear part of $a_i$ on $A$. The equation of this direction space is therefore $$\sum_{i=1}^4\sigma_i(\gamma)\ell_i=0,$$ with all four coefficients nonzero. In the projective plane of this direction space, the four lines $\ell_i=0$ have no triple intersection. Their six pair intersections are therefore distinct.
 

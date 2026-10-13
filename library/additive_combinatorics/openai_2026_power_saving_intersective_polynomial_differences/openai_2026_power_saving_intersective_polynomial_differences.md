@@ -1033,9 +1033,9 @@ Now let $N\ge M$ and let $A\subseteq[N]$ satisfy the avoidance condition of the 
 
 **[Ara24]** Nuno Arala. A maximal extension of the Bloom–Maynard bound for sets without square differences. *Functiones et Approximatio Commentarii Mathematici*, 71(2):271–296, 2024. [doi:10.7169/facm/2158](https://doi.org/10.7169/facm/2158). Preprint (title uses “with no square differences”): [arXiv:2303.03345v1](https://arxiv.org/abs/2303.03345v1), March 6, 2023.
 
-**[BM22]** Thomas F. Bloom and James Maynard. A new upper bound for sets with no square differences. *Compositio Mathematica*, 158(8):1777–1798, 2022. [doi:10.1112/S0010437X22007679](https://doi.org/10.1112/S0010437X22007679); [arXiv:](https://arxiv.org/abs/2011.13266).
+**[BM22]** Thomas F. Bloom and James Maynard. A new upper bound for sets with no square differences. *Compositio Mathematica*, 158(8):1777–1798, 2022. [doi:10.1112/S0010437X22007679](https://doi.org/10.1112/S0010437X22007679); [arXiv:2011.13266](https://arxiv.org/abs/2011.13266).
 
-**[CL17]** David Conlon and Joonkyung Lee. Finite reflection groups and graph norms. *Advances in Mathematics*, 315:130–165, 2017. [doi:10.1016/j.aim.2017.05.009](https://doi.org/10.1016/j.aim.2017.05.009); [arXiv:](https://arxiv.org/abs/1611.05784).
+**[CL17]** David Conlon and Joonkyung Lee. Finite reflection groups and graph norms. *Advances in Mathematics*, 315:130–165, 2017. [doi:10.1016/j.aim.2017.05.009](https://doi.org/10.1016/j.aim.2017.05.009); [arXiv:1611.05784](https://arxiv.org/abs/1611.05784).
 
 **[FILS78]** Jürg Fröhlich, Robert B. Israel, Elliott H. Lieb, and Barry Simon. Phase transitions and reflection positivity. I. general theory and long range lattice models. *Communications in Mathematical Physics*, 62(1):1–34, 1978. [doi:10.1007/BF01940327](https://doi.org/10.1007/BF01940327).
 
@@ -1043,7 +1043,7 @@ Now let $N\ge M$ and let $A\subseteq[N]$ satisfy the avoidance condition of the 
 
 **[GS25]** Ben Green and Mehtaab Sawhney. New bounds for the Furstenberg–Sárközy theorem. [arXiv:2411.17448v2](https://arxiv.org/abs/2411.17448v2), 2025. Version 2, January 10, 2025.
 
-**[Hat10]** Hamed Hatami. Graph norms and Sidorenko’s conjecture. *Israel Journal of Mathematics*, 175:125–150, 2010. [doi:10.1007/s11856-010-0005-1](https://doi.org/10.1007/s11856-010-0005-1); [arXiv:](https://arxiv.org/abs/0806.0047).
+**[Hat10]** Hamed Hatami. Graph norms and Sidorenko’s conjecture. *Israel Journal of Mathematics*, 175:125–150, 2010. [doi:10.1007/s11856-010-0005-1](https://doi.org/10.1007/s11856-010-0005-1); [arXiv:0806.0047](https://arxiv.org/abs/0806.0047).
 
 **[KMF78]** T. Kamae and M. Mendès France. Van der Corput’s difference theorem. *Israel Journal of Mathematics*, 31(3–4):335–342, 1978. [doi:10.1007/BF02761498](https://doi.org/10.1007/BF02761498).
 
