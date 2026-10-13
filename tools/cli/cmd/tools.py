@@ -108,7 +108,7 @@ def gate(app: typer.Typer) -> typer.Typer:
     settled_help = (
         'Fail the problem claims leg on a problem whose provisional standing,'
         ' other than open with claim none, rests on no claim page, instead of'
-        ' counting it as transition debt.'
+        " counting it in the leg's detail (the release mode)."
     )
     settled = typer.Option(False, '--settled', help=settled_help)
 
@@ -462,8 +462,8 @@ def problem_claims(app: typer.Typer) -> typer.Typer:
     # settled flag
     settled_help = (
         'Fail on a problem whose provisional standing, other than open with'
-        ' claim none, rests on no claim page, instead of counting it as'
-        ' transition debt.'
+        ' claim none, rests on no claim page, instead of counting it in the'
+        " check's detail (the release mode)."
     )
     settled = typer.Option(False, '--settled', help=settled_help)
     # write flag
@@ -492,8 +492,8 @@ def problem_claims(app: typer.Typer) -> typer.Typer:
         an accepted claim resting on an unaccepted page, or a recorded status
         and claim that the claim pages do not derive. A problem with no claim
         page keeps its provisional standing and, unless that standing is open
-        with claim none, is counted as transition debt; with ``--settled`` it is
-        a finding. With ``--write``, each problem with
+        with claim none, is counted in the check's detail; with ``--settled``,
+        the release mode, it is a finding. With ``--write``, each problem with
         claim pages gets the derived status and claim written into its two
         frontmatter lines before the check. With ``--problem E####``
         (repeatable) only the named problem folders are written and checked,

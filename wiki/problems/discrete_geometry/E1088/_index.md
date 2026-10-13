@@ -10,14 +10,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-13T14:15:22Z
 ---
 
 # Problem 1088
 
 [[problems/discrete_geometry/_index|..]]
 
-[[problems/discrete_geometry/E1088/claims/_index|claims/]]: The 4 claim pages of Problem 1088, one per claimant's result; the problem's standing derives from them.
+[[problems/discrete_geometry/E1088/claims/_index|claims/]]: The 5 claim pages of Problem 1088, one per claimant's result; the problem's standing derives from them.
 
 ***
 

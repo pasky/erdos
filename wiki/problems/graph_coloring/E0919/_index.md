@@ -90,7 +90,7 @@ question open; `q2` has no claim page. So the problem is open, and the site
 labeled it OPEN.
 
 **Search scope.** The site's problem page, discussion thread and proof-claim
-tab as accessed 2026-09-06 (no comments, no proof claims); the held sources
+tab as accessed 2026-09-05 (no comments, no proof claims); the held sources
 [Er69b] and Shelah's 2012 paper on incompactness of the chromatic number
 ([[../library/graph_coloring/shelah_2012_incompactness_chromatic_number_graphs/_index|source card]]),
 which does not treat order types and answers neither question; and the claim

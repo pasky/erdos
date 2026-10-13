@@ -11,14 +11,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T13:29:21Z
+updated: 2026-10-13T14:15:22Z
 ---
 
 # Problem 1208
 
 [[problems/distance_problems/_index|..]]
 
-[[problems/distance_problems/E1208/claims/_index|claims/]]: ...
+[[problems/distance_problems/E1208/claims/_index|claims/]]: The 2 claim pages of Problem 1208, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -79,13 +79,14 @@ June 2026
 ([[problems/distance_problems/E1208/claims/2026_06_14_lee|claim page]]) and
 the joint preprint [LPZ26] of 6 July 2026
 ([[problems/distance_problems/E1208/claims/2026_07_06_lee_pohoata_zhu|claim page]])
-each give $F_2(n)\ll n^{1/2-\delta}$ for an absolute $\delta>0$, by different
-number-field constructions; the site's remarks credit [LPZ26], which says
-that Lee's manuscript came first. Neither is refereed or formalized, and their
-proofs were not checked here. A thread comment of 13 June 2026 reports that
-Clemen, Führer and Roche-Newton (arXiv:2606.05841) prove $F_2(n)\gg n^{1/3}$;
-that preprint was not read here. So the exponent of $F_2(n)$ lies between
-$1/3$ and $1/2$, and below $1/2$ if the pending claims stand.
+each give $F_2(n)\ll n^{1/2-\delta}$ for an absolute $\delta>0$, by closely
+related number-field constructions; the site's remarks credit [LPZ26], which
+says that Lee's manuscript came first. Neither is refereed or formalized, and
+their proofs were not checked here. A thread comment of 13 June 2026 reports
+that Clemen, Führer and Roche-Newton (arXiv:2606.05841) prove
+$F_2(n)\gg n^{1/3}$; that preprint was not read here. So the exponent of
+$F_2(n)$ lies between $1/3$ and $1/2$, and below $1/2$ if the pending claims
+stand.
 
 **Higher dimensions.** For $d\ge3$ the site's remarks record Thiele's
 $F_d(n)\gg n^{1/(3d-2)}$ [Th95], improved by [CFGHUZ15] to

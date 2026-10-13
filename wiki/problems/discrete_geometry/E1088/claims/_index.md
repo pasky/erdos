@@ -1,6 +1,6 @@
 ---
 name: problems/discrete_geometry/E1088/claims
-desc: The 4 claim pages of Problem 1088, one per claimant's result; the problem's standing derives from them.
+desc: The 5 claim pages of Problem 1088, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T20:00:46Z
