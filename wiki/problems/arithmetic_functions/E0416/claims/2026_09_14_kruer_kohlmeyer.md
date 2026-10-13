@@ -110,6 +110,6 @@ the file's addition in July 2025 until 11 October 2026, when the catalog marked
 it `research solved` with a `formal_proof` link to the OpenAI release's theorem,
 not to this file
 ([`416.lean` at that commit](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/416.lean)).
-A second, independent formal
-proof of the same limit, for every real scale $c>0$, is the OpenAI release's
+A second, independent formal proof of the same limit, for every real scale
+$c>0$, is the OpenAI release's
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai|accepted partial claim]].

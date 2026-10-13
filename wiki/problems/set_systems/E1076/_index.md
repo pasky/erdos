@@ -203,10 +203,12 @@ $3/16$
 ([[problems/set_systems/E1076/claims/2025_06_02_pikhurko_sun|Pikhurko and Sun]],
 Eur. J. Combin. 135 (2026), 104364), so under this wording the answer is no for
 every $k$ from $5$ to $10$. Two preprints of 2026 carry the refutation to every
-$k\ge5$. Both study $f^{(3)}(n;s,j)$, the most edges of a $3$-graph on $n$
+$k\ge5$. Both write $f^{(3)}(n;s,j)$ for the most edges of a $3$-graph on $n$
 vertices with no $j$ edges on at most $s$ vertices (they write $k$ for $j$, a
-letter this page keeps for the site's $k$), so that
-$\mathrm{ex}_3(n,\mathcal F_k)=f^{(3)}(n;k,k-2)$, and the limit of
+letter this page keeps for the site's $k$). Their $f^{(3)}$ is the extremal
+number itself, one less than the Brown–Erdős–Sós function of the same name
+above, so in their notation $\mathrm{ex}_3(n,\mathcal F_k)=f^{(3)}(n;k,k-2)$;
+the shift by one does not change any limit below. Both study the limit of
 $n^{-2}f^{(3)}(n;j+2,j)$, which Delcourt and Postle proved exists: [CHL26]
 writes it $\pi(3,2,j)$ and [BPSWZ26] writes it $\pi(j)$. The site's $k$ is
 therefore $j+2$, of the same parity as $j$. Theorem 1.1 of

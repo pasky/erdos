@@ -66,9 +66,9 @@ derives. That evidence is refereed publication and the curator's credit.
 **Source.** [erdosproblems.com/206](https://www.erdosproblems.com/206),
 accessed 2026-09-17: the problem page
 (DISPROVED (LEAN); no last-edited date shown), its five-comment discussion
-thread and its empty proof-claim tab. The site cites [ErGr80, p. 31]. Cite
-as: T. F. Bloom, Erdős Problem #206, https://www.erdosproblems.com/206,
-accessed 2026-09-17.
+thread and its empty proof-claim tab; the problem page was read again on
+2026-10-13. The site cites [ErGr80, p. 31]. Cite as: T. F. Bloom, Erdős
+Problem #206, https://www.erdosproblems.com/206, accessed 2026-09-17.
 
 **References.**
 
@@ -255,11 +255,16 @@ claimed. The community database (teorth/erdosproblems)
 lists `formal_status` Lean, as of its entry's last update on 28 April 2026,
 and no formal-proof URL.
 
-**Search scope.** None of the routes below found a refereed source changing the answer above, a published version
-of the rational claim, or an explicit non-example.
+**Search scope.** None of the routes below found a refereed source changing
+the answer above, a published version of the rational claim, or a refereed
+explicit non-example.
 
-- The site: problem page, discussion thread and proof-claim tab (empty);
-  formal-conjectures at the pinned commit; the community database file.
+- The site: problem page, discussion thread and proof-claim tab (empty), and
+  the problem page again on 2026-10-13; formal-conjectures at the pinned
+  commit; the community database file.
+- Shi's preprint [Sh26]: its Zenodo record (version 1.0.0, 10 October 2026)
+  with the PDF and its source files, and its Palomar registry record
+  (PALOMAR-2026-10-11-000014, version 1) with the repository commit it pins.
 - arXiv abstract pages for 2406.07218 (v1 11 June 2024, v2 13 June 2024, v3
   26 September 2024; no journal reference), 2607.28387 (v1 30 July 2026,
   v2 4 August 2026), 2306.12564 (v1 19 June 2023, v2 20 January 2024) and

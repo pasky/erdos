@@ -146,12 +146,13 @@ over finite subsets of $\mathbb{N}$ including $0$, and it asks that the sum
 and the product of every nonempty subset share one color. Its
 [revision of 11 October 2026](https://github.com/google-deepmind/formal-conjectures/blob/1c53184677d233a8f95ab6e9e13d135281dbfa0f/FormalConjectures/ErdosProblems/172.lean)
 moved the theorem to `research solved` with `answer(True)`, kept the
-statement and its `sorry`, and linked as its formal proof a file of Yao Xu's
-repository
+right-hand side of the equivalence and the `sorry` proof, added the OpenAI
+preprint below to its references, and linked as its formal proof a file of
+Yao Xu's repository
 [`hindman-sums-products-lean4`](https://github.com/cadamcat/hindman-sums-products-lean4/tree/3064cac5f9133a968482886ab1c7a1d69c16207f)
 that derives this right-hand side from the repository's theorem, the problem
 for every size and every finite coloring, with positive elements. The
-repository credits the theorem to the OpenAI preprint below and reports a
+repository credits the theorem to the same preprint and reports a
 build without `sorry` whose theorem uses only the three standard axioms, a
 kernel replay, and Comparator checks in which the Lean kernel and the
 independent checker nanoda accept the proof; the claim page

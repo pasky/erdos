@@ -85,6 +85,8 @@ standing. The problem page's Notes credit the result.
 
 **Acceptance.** None documented. The paper is an arXiv preprint, read in its
 first version (29 September 2026, 22 pages): the abstract, Theorems 1.1 and 1.2
-(p. 2), the proof of Theorem 1.2 (Subsection 3.2) and the concluding remarks
-(Section 5). The site does not cite it on this problem, and its curator makes no
-statement about it. The proof is unreviewed, and no formalization is known.
+(p. 2), the AI-usage paragraph (p. 5), the statements of Lemmas 3.4 and 3.5 and
+Theorem 3.6 (p. 12), the proof of Theorem 1.2 (Subsection 3.2) and the
+concluding remarks (Section 5). The site does not cite it on this problem, and
+its curator makes no statement about it. The proof is unreviewed, and no
+formalization is known.

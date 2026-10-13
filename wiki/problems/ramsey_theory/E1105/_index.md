@@ -170,11 +170,13 @@ same `antiRamseyNum` definition as formal-conjectures at the linked commit;
 the registry's check of 12 October 2026 ran it through two kernels. Boris
 Alexeev's repository plby/lean-proofs proves both parts in
 [`Erdos1105.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos1105.lean),
-first posted on 23 August 2026, over its own definition of
-$\mathrm{AR}(n,G)$, which likewise counts surjective colorings of the edges
-of $K_n$ with no rainbow copy; it was written before formal-conjectures
-corrected its `antiRamseyNum` on 14 September 2026 (PR #5829). Neither proof
-was posted to the site's thread. The claim pages of the
+over its own definition of $\mathrm{AR}(n,G)$, which likewise counts surjective
+colorings of the edges of $K_n$ with no rainbow copy. The file was first posted
+on 15 August 2026 as a disproof of formal-conjectures' statements under their
+definition of the time, which also colored the diagonal pairs; its proofs were
+posted on 23 August 2026, before formal-conjectures corrected its
+`antiRamseyNum` on 14 September 2026 (PR #5829). Neither proof was posted to
+the site's thread. The claim pages of the
 [[problems/ramsey_theory/E1105/claims/2005_09_01_montellano_ballesteros_neumann_lara|cycle half]]
 and the
 [[problems/ramsey_theory/E1105/claims/2021_02_01_yuan|path half]]

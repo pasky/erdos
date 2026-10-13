@@ -343,9 +343,12 @@ state $R(m,n)\ge n^{m-1}/(\log n)^{m-2+\varepsilon}$ for every
 $\varepsilon>0$ and all large $n$. With [IRW21] Theorem 5.6 this gives
 $k(n,m)=n^{m-1}/(\log n)^{m-2+o(1)}$, the power $m-2$ that $m=3$ has, where
 Bradač's bound leaves it between $m-2$ and $2m-4$. The manuscripts are
-unrefereed and have no independent review, and the site's curator lists them as
-a proof claim he has not checked (his blog post of 8 October 2026 on the
-release, thread blog:10, whose entry for Problem 986 was added on 9 October).
+unrefereed and have no independent review. The site's curator lists their
+result, $R(s,t)=t^{s-1}/(\log t)^{s-2+o(1)}$ for every $s\ge5$, as a claim in
+the blog post of 8 October 2026 on the release (thread blog:10), whose entry
+for Problem 986, added on 9 October, links the manuscript for $s\ge6$ and its
+comparator challenge; the post says that the curator has not yet looked
+seriously at the proofs or checked the Lean, and that it is not an endorsement.
 Problem 986 accepts them as a partial claim
 ([[problems/ramsey_theory/E0986/claims/2026_09_24_openai|claim page]]) on the
 corpus's build and audit of their two Lean declarations, which state these
@@ -409,7 +412,9 @@ for $k(n,m)$, a new exact value in a refereed source, or a proof claim.
   Mattheus and Verstraete, Bradač and the OpenAI release, and the library
   result pages linked above; the site's forum thread blog:10 (the curator's
   post on the release and the posts of 9 October 2026); and the site's page
-  for this problem again on 2026-10-13, unchanged.
+  for this problem again on 2026-10-13, with its statement and remarks
+  unchanged since 2026-09-18, no label shown and the one thread comment of 22
+  September 2026.
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [St59]. The 1956
 paper's Theorem 25 is unread, and [RePa70] was not read for this page either.

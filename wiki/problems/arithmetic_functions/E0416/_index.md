@@ -150,9 +150,9 @@ that no fresh Lean replay, no complete axiom export and no line-by-line audit of
 the 64,775-line file was performed. No refereed publication, no arXiv preprint,
 no erdosproblems.com acceptance and no formal-conjectures link to the file exist
 (the catalog's proof link for `parts.i`, added on 11 October 2026, points to the
-OpenAI release's theorem below); the
-erdosproblems.com maintainer posted the record as an unverified partial proof
-claim on 2026-09-27 with an explicit non-endorsement. The write-up
+OpenAI release's theorem below); the erdosproblems.com maintainer posted the
+record as an unverified partial proof claim on 2026-09-27 with an explicit
+non-endorsement. The write-up
 ([[../library/arithmetic_functions/kruer_kohlmeyer_2026_doubling_law_distinct_totient_values/_index|Kruer and Kohlmeyer, 18 September 2026]])
 is a working exposition, prepared with language-model assistance from the
 accepted file, that proves in prose only the finite counting inequality, the
@@ -174,12 +174,11 @@ comparator fingerprint checked, and its statement audited, so it is the
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai|second accepted partial claim]]
 on the first question (not reviewed outside, not refereed; formal-conjectures
 has linked it as the formal proof of `parts.i` since 11 October 2026, a catalog
-label). On the second
-question the same theorem gives $V(x)\sim(x/\log x)\,G_mA(1;\theta)$: Ford's
-counting scale $xG_m/\log x$ times a positive bounded function of the phase
-$\theta(x)=\{(\log B-\log\log B)/\lambda\}$, $B=\log\log x$ (with $\rho$,
-$\lambda=\log(1/\rho)\approx0.6114$ and the manuscript's constant
-$\gamma\approx0.3235$, not Euler's constant, defined on
+label). On the second question the same theorem gives $V(x)\sim(x/\log
+x)\,G_mA(1;\theta)$: Ford's counting scale $xG_m/\log x$ times a positive
+bounded function of the phase $\theta(x)=\{(\log B-\log\log B)/\lambda\}$,
+$B=\log\log x$ (with $\rho$, $\lambda=\log(1/\rho)\approx0.6114$ and the
+manuscript's constant $\gamma\approx0.3235$, not Euler's constant, defined on
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai_formula|the claim page]]),
 defined without reference to $V$ as the uniform limit of finite
 inclusion–exclusion sums over bounded prime data. Settled by it: Ford's
@@ -220,16 +219,16 @@ contribution index in its GitHub repositories),
 google-deepmind/formal-conjectures at `main` (the catalog commits the site pins
 were unreachable) and its `416.lean` at the commit of 2026-10-11, the arXiv API
 (queries on the doubling-limit terms and on the three author names, no hits),
-Zenodo (no record), a web search,
-erdosproblemaday.com (a 2026-07-28 automated working report labeled partial; not
-a source), and the OpenAI release repository at its pinned revision. Not
-searched: X, Discord (the site's channel is members-only), MathOverflow and
-journal databases. The write-up's prose deduction, with Proposition 4.1 labeled
-as its imported Lean-only premise, and the preprint's unconditional
-cluster-interval argument are reconstructed, author-recorded and changing
-nothing here, in [[research/erdos_416/_index|the Problem 416 research folder]];
-those reconstructions are superseded as routes by the release's theorem, which
-proves the general-scale law outright.
+Zenodo (no record), a web search, erdosproblemaday.com (a 2026-07-28 automated
+working report labeled partial; not a source), and the OpenAI release repository
+at its pinned revision. Not searched: X, Discord (the site's channel is
+members-only), MathOverflow and journal databases. The write-up's prose
+deduction, with Proposition 4.1 labeled as its imported Lean-only premise, and
+the preprint's unconditional cluster-interval argument are reconstructed,
+author-recorded and changing nothing here, in
+[[research/erdos_416/_index|the Problem 416 research folder]]; those
+reconstructions are superseded as routes by the release's theorem, which proves
+the general-scale law outright.
 
 ## Progress
 

@@ -89,21 +89,23 @@ result page records this misprint.
 
 **Formalization.** Two outside Lean developments, linked above, prove the
 cycle half's asymptotic for every $k\ge3$; neither proves Theorem 5's exact
-value beyond $k=3$. Linmiao Xu's development, registered in the Palomar
-registry as PALOMAR-2026-10-13-000006 on 13 October 2026 and pinned at its
-registered commit of 11 October 2026, proves the formal-conjectures
+value for every $n$ beyond $k=3$. Linmiao Xu's development, registered in the
+Palomar registry as PALOMAR-2026-10-13-000006 on 13 October 2026 and pinned at
+its registered commit of 11 October 2026, proves the formal-conjectures
 declaration `erdos_1105.parts.i`, the triangle value
 $\mathrm{AR}(n,C_3)=n-1$, and, for all $n\ge k\ge3$,
 $\lfloor\frac n{k-1}\rfloor(\binom{k-1}2+1)-1\le\mathrm{AR}(n,C_k)\le
-(\frac{k-2}2+\frac1{k-1})n-1$. Its record names this paper and Chapter 3 of
+(\frac{k-2}2+\frac1{k-1})n-1$. When $k-1$ divides $n$ both bounds equal
+$\frac n{k-1}(\binom{k-1}2+1)-1=\mathbf E(n,k)-1$, so in that case it proves
+Theorem 5's exact value. Its record names this paper and Chapter 3 of
 Jongook Choi's 2011 Iowa State dissertation as adapted sources, and its upper
 bound follows Choi's argument through private colors and weak anticyclic
 block decompositions. The registry ran the proof through two kernels and
 records a model review by GPT-6 Sol through Codex with a neutral outcome,
 which is not an independent review. `Erdos1105.lean` of Boris Alexeev's
-repository plby/lean-proofs, first posted on 23 August 2026 and pinned at
-the commit of 15 September 2026, proves the same asymptotic through a
-private-color linear upper bound, over its own definition of
+repository plby/lean-proofs, a file whose proofs were posted on 23 August 2026,
+pinned at the commit of 15 September 2026, proves the same asymptotic through
+a private-color linear upper bound, over its own definition of
 $\mathrm{AR}(n,G)$; the repository's source list credits the informal
 argument to GPT-5.6 Sol and the formal proof to Codex and GPT-5.6 Sol, and
 its notes cite no published source for the cycle argument. Both prove the

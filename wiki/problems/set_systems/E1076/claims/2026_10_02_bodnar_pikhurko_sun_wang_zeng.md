@@ -53,8 +53,12 @@ $h+2$ vertices for $3\le h\le8$ and every nine edges span at least twelve
 (Lemma 3.3), fed to the packing theorem of Glock, Joos, Kim, Kühn, Lichev and
 Pikhurko (the paper's Theorem 3.1). The matching upper bound comes from linear
 programs that a computer generates and solves, with the code and certificates
-in the arXiv ancillary folder. The paper says the result was obtained
-independently of
+in the arXiv ancillary folder. The paper's declaration of generative AI use
+(p. 13) says that the authors used ChatGPT to help with the finite case
+analysis behind the construction, including a Python program it generated for
+the vertex counts in the proof of Lemma 3.3, and that generative AI wrote some
+routine parts of the SageMath code for the upper bound. The paper says the
+result was obtained independently of
 [[problems/set_systems/E1076/claims/2026_09_29_chao_huang_liu|Chao, Huang and Liu]],
 whose Theorem 1.1 contains it. Its Theorem 1.2, $\pi(8)\le5053/26544$, is an
 upper bound at $k=10$ and refutes nothing; with the lower bound $3/16$ on
@@ -72,7 +76,7 @@ The problem page's Notes credit the result.
 
 **Acceptance.** None documented. The paper is an arXiv preprint, read in its
 first version (2 October 2026): the abstract, the introduction with Theorems
-1.1 and 1.2 (pp. 1--3) and the lower-bound proof of Section 3. The site does
-not cite it on this problem, and its curator makes no statement about it. The
-proof is unreviewed, the computer certificates were not run here, and no
-formalization is known.
+1.1 and 1.2 (pp. 1--3), the lower-bound proof of Section 3 and the declaration
+of generative AI use (p. 13). The site does not cite it on this problem, and
+its curator makes no statement about it. The proof is unreviewed, the computer
+certificates were not run here, and no formalization is known.

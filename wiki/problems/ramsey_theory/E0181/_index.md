@@ -147,8 +147,9 @@ bytes) declares `erdos_181 : ∃ C > (0 : ℝ), ∀ n : ℕ, (diagonalGraphRamse
 Its
 [revision of 11 October 2026](https://github.com/google-deepmind/formal-conjectures/blob/59f54ca88e52c610e200219b31bfecf242af5c2d/FormalConjectures/ErdosProblems/181.lean)
 moved the theorem to `research solved`, kept the statement and its `sorry`,
-added [OAI26] to the references, and linked as its formal proof the theorem of
-the same name and statement in Yao Xu's repository
+added the release's manuscript ([OAI26] here) to the references under the key
+[OpenAI26], and linked as its formal proof the theorem of the same name and
+statement in Yao Xu's repository
 [`hypercube-ramsey-lean4`](https://github.com/cadamcat/hypercube-ramsey-lean4/tree/ad206e1bf8240c28b538dfe72f10364cbc1591da)
 at its tag v1.0.0 of 8 October 2026. The repository credits the theorem to
 [OAI26] and reports a build without `sorry` whose theorem uses only the three

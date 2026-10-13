@@ -38,8 +38,7 @@ only the reciprocal-sum question, and the Lean appears to prove only the weaker
 bound. The release's model file states that bound as its
 `QuantitativeDensityBound`, which matches the bound above. This corpus built
 the reciprocal-sum declaration, checked its axioms and found it identical to the
-release's comparator challenge.
-So the result is accepted on
+release's comparator challenge. So the result is accepted on
 [[problems/additive_combinatorics/E0003/claims/2026_09_23_openai|its claim page]].
 Theorem 1.1's bound is not formalized. It is a claimed partial result on
 [[problems/additive_combinatorics/E0142/claims/2026_09_23_openai|Problem 142's claim page]].
@@ -132,9 +131,10 @@ bounds as its solved variants.
 
 Search scope: the site's page as accessed 2026-09-04 and 2026-10-06, its
 references, the curator's post on the release of 8 October 2026, the
-formal-conjectures statement file at its commits of 2026-10-06 and 2026-10-11,
-and the OpenAI release of 23 September 2026 at the revision pinned on the claim
-page.
+formal-conjectures statement file as it stood on 2026-10-06 (last changed on
+2026-09-27) and at its commits of 2026-10-10, which added the conditional proof
+link, and 2026-10-11, and the OpenAI release of 23 September 2026 at the
+revision pinned on the claim page.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

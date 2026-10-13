@@ -100,14 +100,20 @@ bound as `research solved` variants whose proofs are `sorry`. Since that
 commit the lower-bound variant `erdos_304.variants.lower_1950` carries a
 `formal_proof` annotation pointing to the Lean proof by Harmonic's Aristotle
 prover recorded on
-[[problems/unit_fractions/E0304/claims/2026_09_01_thepriceisright|its claim page]],
-while `upper_bound` stays `research open`. The definitions match the site's
-$N(a,b)$ and $N(b)$. The site's note that the problem is formalized in Lean
-refers to this statement file; it is not a proof, and neither it nor the
-annotated proof is built or audited here. On 2026-09-17 the community
-database recorded a formalized statement and no formal proof. The release's
-formalization of Theorem 1.1, built and audited here, is recorded on the
-claim page linked under Status.
+[[problems/unit_fractions/E0304/claims/2026_09_01_thepriceisright|its claim page]].
+The definitions match the site's $N(a,b)$ and $N(b)$. The site's note that the
+problem is formalized in Lean refers to this statement file; it is not a
+proof, and neither it nor the annotated proof is built or audited here. On
+2026-09-17 the community database recorded a formalized statement and no
+formal proof. The release's formalization of Theorem 1.1, built and audited
+here, is recorded on the claim page linked under Status. The file's
+[revision of 11 October 2026](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/304.lean)
+moved `upper_bound` to `research solved` with `answer(True)`, kept its `sorry`
+proof, cited the release's manuscript and added a `formal_proof` attribute
+linking the release's
+[`OAI.ShortEgyptian.main`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/ShortEgyptian/Main.lean#L33),
+the second development of the theorem that the claim page describes and that
+was not built here; the link is a catalog label, not acceptance evidence.
 
 ## Current assessment
 
@@ -189,10 +195,11 @@ Claims implies it.
 2025), one comment and no proof claim; the van Doorn claim above is posted on
 the proof-claims tab of Problem 18 (submitted 2026-09-16; as of 2026-10-05
 no comments, not accepted, not on arXiv, and no commits to its repository
-after 16 September 2026); the community database says open;
-formal-conjectures marks `upper_bound` `research open` and, since
-18 September 2026, annotates its lower-bound variant with the `formal_proof`
-recorded on
+after 16 September 2026); the community database says open; formal-conjectures
+marked `upper_bound` `research open` until 11 October 2026 and then
+`research solved`, with a `formal_proof` link to the release's Lean (see
+Formalization), and since 18 September 2026 annotates its lower-bound variant
+with the `formal_proof` recorded on
 [[problems/unit_fractions/E0304/claims/2026_09_01_thepriceisright|the Aristotle proof's page]];
 there is no Palomar entry; and conjectures.io, whose bounty "Erdős problem
 304 - upper bound" for the full $O(\log\log b)$ statement had no attempt
@@ -200,9 +207,9 @@ recorded, withdrew it on 6 October 2026, closing it on its release owner's
 instruction of that day to accept the OpenAI release's resolution claim
 without an independent proof replay
 ([closures notice](https://github.com/conjectures-io/conjectures-tasks/blob/78b724408bb5d5a0600441bcc4851273447e7d3c/tiers/tier-1/OWNER-ACCEPTED-CLOSURES-2026-10-06.md)).
-None of these records a proof or
-disproof of $N(b)\ll\log\log b$; the release manuscript of 25 September
-2026 is recorded under Claims.
+Apart from formal-conjectures' catalog link to the release's Lean, none of
+these records a proof or disproof of $N(b)\ll\log\log b$; the release
+manuscript of 25 September 2026 is recorded under Claims.
 
 - Lower bounds: Theorem 2 gives $N(b)\ge N(b-1,b)>\log\log b-1$ and the
   average bound
@@ -248,12 +255,12 @@ being $n=42$. A public report of 26 July 2026 by Patrick White with Claude
 equality at seven values, labels itself partial, and says the uniform question
 is open; the computation is not verified here.
 
-**Search scope.** Routes; none found a proof or disproof
-of $N(b)\ll\log\log b$.
+**Search scope.** Routes; none found a proof or disproof of
+$N(b)\ll\log\log b$ other than the release's, recorded under Claims.
 
 - The site's three pages; the community database (open; formalized
   statement; no proof URL); formal-conjectures `304.lean` at the pinned
-  commit.
+  commit and, on 2026-10-13, at its revision of 11 October 2026.
 - arXiv: the abstract page of 2512.22083; API metadata searches for
   `"Egyptian fractions" AND "number of terms"` (two records), `"unit
   fractions" AND denominators AND distinct` (eleven) and a sweep of

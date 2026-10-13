@@ -132,8 +132,9 @@ and its
 records it as claimed, with the author's attribution of the proof to ChatGPT.
 Neither result is in the site's remarks (read 13 October 2026) or in a journal;
 Pálvölgyi announced the heptagon in the site's discussion of the problem on 23
-September 2026, and the curator's post of 8 October 2026 lists the
-classification as a claim the curator has not yet checked.
+September 2026, and the curator's post of 8 October 2026, to which this
+problem's entry was added on 9 October, lists the classification as a claim
+the curator has not yet checked.
 
 **Search scope.** The search checked primary arXiv records, source manuscripts,
 publisher records and research-announcement leads beyond erdosproblems.com. The

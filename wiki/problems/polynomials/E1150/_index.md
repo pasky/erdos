@@ -40,9 +40,17 @@ $c>0$ works. This corpus's verification built its Lean declaration
 `OAI.AsymptoticallyMinimalLittlewood.main` with only the three standard axioms
 and audited its statement. The corpus accepts it on
 [[problems/polynomials/E1150/claims/2026_09_23_openai|the claim page]].
-Outside this repository the only acknowledgment known is a catalog label:
-formal-conjectures marked its statement solved on 2026-10-11, linking that
-declaration (see Formalization). No outside review is known.
+Outside this repository two acknowledgments are known, neither a review. The
+curator's post
+[Erdős problems in the OpenAI proofs](https://www.erdosproblems.com/forum/thread/blog:10)
+(8 October 2026) lists the problem among the release's claims, states the
+claimed upper bound $(1+\epsilon)\sqrt N$ and says that the proof has been
+formalized, linking that declaration's comparator challenge and, as the PDF,
+the release's manuscript of 5 October 2026 on ultraflat polynomials; the post
+says that the curator has not yet looked seriously at the proofs or checked the
+Lean, and that it is not an endorsement. The formal-conjectures catalog marked
+its statement solved on 2026-10-11, linking that declaration (see
+Formalization), a catalog label. No outside review is known.
 
 The site's commentary was written before the release. It restates the question
 as whether ultraflat polynomials with coefficients $\pm1$ exist. It notes that
@@ -95,23 +103,24 @@ circle against the declaration's pointwise bound.
 ## Current assessment
 
 **Disproved by the OpenAI release's construction of 2026-09-23, whose Lean
-declaration this corpus built and audited (2026-10-07); outside this
-repository, only formal-conjectures' label of 2026-10-11 acknowledges it.** The
-question, as the site states it (page
-last edited 2026-01-23), asks for one $c>0$ such that every $\pm1$ polynomial of
-every large degree $n$ has maximum modulus above $(1+c)\sqrt n$ on the unit
-circle; the lower bound $\sqrt n$ is Parseval's identity, and the
-complex-coefficient relative, where Kahane's ultraflat polynomials give the
-answer no, is [[problems/polynomials/E0230/_index|Problem 230]]. The
-release's Theorem 1.1 answers no for real signs: the minimal normalized
-maximum $m_N$ tends to $1$ through all lengths. The accepted claim page
-records the bridge from length $N$ to degree $N-1$, the declaration, the
-build with axioms `propext`, `Classical.choice` and `Quot.sound` only, the
-comparator pin and the fidelity audit; the evidence is `formalized` alone,
-since nobody outside the repository has reviewed or refereed the result and
-the site listed the problem OPEN with an empty proof-claims tab. What the result trusts is Lean's kernel and the consistency of
-Mathlib; what it does not give is a lower bound on the circle, as the
-manuscript's remark after Theorem 1.1 says, nor a convergence rate or a
+declaration this corpus built and audited (2026-10-07); outside this repository,
+the curator's post of 2026-10-08 lists it as a formalized claim without
+endorsing it, and formal-conjectures labeled it solved on 2026-10-11.** The
+question, as the site states it (page last edited 2026-01-23), asks for one
+$c>0$ such that every $\pm1$ polynomial of every large degree $n$ has maximum
+modulus above $(1+c)\sqrt n$ on the unit circle; the lower bound $\sqrt n$ is
+Parseval's identity, and the complex-coefficient relative, where Kahane's
+ultraflat polynomials give the answer no, is
+[[problems/polynomials/E0230/_index|Problem 230]]. The release's Theorem 1.1
+answers no for real signs: the minimal normalized maximum $m_N$ tends to $1$
+through all lengths. The accepted claim page records the bridge from length $N$
+to degree $N-1$, the declaration, the build with axioms `propext`,
+`Classical.choice` and `Quot.sound` only, the comparator pin and the fidelity
+audit; the evidence is `formalized` alone, since nobody outside the repository
+has reviewed or refereed the result and the site listed the problem OPEN with an
+empty proof-claims tab. What the result trusts is Lean's kernel and the
+consistency of Mathlib; what it does not give is a lower bound on the circle, as
+the manuscript's remark after Theorem 1.1 says, nor a convergence rate or a
 signing algorithm, as the release's family document says.
 
 What remains is quantitative. The release's manuscript notes that Erdélyi's
