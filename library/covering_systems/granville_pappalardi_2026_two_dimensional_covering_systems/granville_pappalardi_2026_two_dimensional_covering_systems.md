@@ -114,7 +114,7 @@ $$
 
 (vi) How about $a^m+b^n$? If $a+b$ is even then $a^m+b^n$ is even, and so composite, for all $m,n\geqslant 1$. If $a+b$ is odd then Keqin Liu (in email correspondence) notes that if $m\equiv n\equiv0\pmod{\phi(Q)}$ for any given integer $Q$, then $a^m+b^n\equiv1+1\equiv2\pmod Q$ as $(Q,ab)=1$ and therefore $(a^m+b^n,Q)=(a^m+b^n,2,Q)=1$. This implies that there can be no integer $Q$ for which $(a^m+b^n,Q)>1$ for all $m,n\geqslant 1$.
 
-[^5]: Though we do not have an efficient way to determine whether such a $Q$ exists for given integers $a$ and $b.
+[^5]: Though we do not have an efficient way to determine whether such a $Q$ exists for given integers $a$ and $b$.
 
 [^6]: The $S$-unit theorem also implies that $51^{m/2}-8^n=\pm1$ for only finitely many pairs of integers $(m,n)$.
 

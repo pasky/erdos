@@ -529,7 +529,7 @@ From (1.7) we have $n\gg\log t$, hence $\log_2^{1-\varepsilon'}t\ll\log^{1-\vare
 
 $m\ge n/\exp(C\log^{1-\varepsilon'}n)\ge n^{9/10}$ (shrinking $\varepsilon'$ slightly if necessary) if $t$ is sufficiently large depending on $\varepsilon'$. The result now follows from Corollary 2.3.
 
-\hfill$\square$
+$\square$
 
 It remains to establish Proposition 1.9. This will be the objective of the next two sections of the paper.
 

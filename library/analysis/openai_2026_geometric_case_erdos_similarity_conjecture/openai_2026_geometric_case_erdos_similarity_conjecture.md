@@ -162,7 +162,7 @@ For a fixed center $x\in\mathbb R$, expose its addressed entry in *every* select
 
 The exposure determines the entire route of $x$. If that route uses a default child, let $U$ be the first vertex where it does so. Before conditioning on $\mathcal F_x$, $$\begin{equation}
  \tag{4.3}
- \mathbb P\bigl(\text{the route of \(x\) has no default choice}\bigr)
+ \mathbb P\bigl(\text{the route of $x$ has no default choice}\bigr)
  =(1-2^{1-M})^d.
 \end{equation}$$ Indeed, reveal the entries along the route one vertex at a time. At the vertex reached, its $M-1$ selector entries are independent fair bits, since the preceding choices use only ancestor tables. The conditional probability of a default is $2^{-(M-1)}$. Multiplying the complementary conditional probabilities over the $d$ decisions proves the formula.
 

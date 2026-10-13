@@ -510,7 +510,7 @@ $$D_j:=A_{j,r_0}\beta_j^{r_0},\qquad \xi_j:=\frac{\beta_j^M}{R^M}.$$
 
 Then $|\xi_j|=1$ for every $j$, and $\xi_i\ne\xi_j$ for $i\ne j$: indeed, if $\xi_i=\xi_j$, then
 
-$$\left(\frac{\beta_i}{\beta_j}\right)^M=1,$$$
+$$\left(\frac{\beta_i}{\beta_j}\right)^M=1,$$
 
 so $\beta_i/\beta_j$ is a root of unity, contradicting the choice of representatives.
 
@@ -574,7 +574,7 @@ $$
 |u_n|\geq C\rho^n.
 $$
 
-This proves the lemma. \hfill$\square$
+This proves the lemma. $\square$
 
 We can now combine Granville’s structure theorem with the Bugeaud–Corvaja–Zannier bound to obtain the desired rigidity statement for common LDS factors.
 
@@ -761,7 +761,7 @@ since $p\nmid L_p$. ∎
 
 **Remark 5.3 (The $2$-adic valuation).** The analogue of Proposition 5.2 at $p=2$ requires a separate case distinction.
 
-(a) If at least one of $a,b$ is even, then $v_2(g_n)=0$ for every $n\geq 1.
+(a) If at least one of $a,b$ is even, then $v_2(g_n)=0$ for every $n\geq 1$.
 
 (b) If both $a$ and $b$ are odd, then
 
@@ -1003,7 +1003,7 @@ $$
 ur\equiv\pm v\pmod{\ell}.
 $$
 
-\hfill$\square$
+$\square$
 
 Combining the previous two statements yields a finite certificate for the badness of a prime index.
 

@@ -623,7 +623,7 @@ We would like to thank Zach Hunter, Teng Liu, and Aleksa Milojević for carefull
 
 19. Knox, F., D. Kühn, and D. Osthus. “Edge-disjoint Hamilton cycles in random graphs.” *Random Struct. Algorithms* **46** (2015): 397–445. <https://doi.org/10.1002/rsa.20510>.
 
-20. Komlós, J., G. N. Sárközy, and E. Szemerédi. “On the square of a Hamiltonian cycle in dense graphs.” *Random Struct. Algorithms* **9** (1996): 193–211. <https://doi.org/10.1002/(SICI)1098-2418(199608/09)9:1/2\((\)193::AID-RSA12\()\)3.0.CO;2-P>.
+20. Komlós, J., G. N. Sárközy, and E. Szemerédi. “On the square of a Hamiltonian cycle in dense graphs.” *Random Struct. Algorithms* **9** (1996): 193–211. <https://doi.org/10.1002/(SICI)1098-2418(199608/09)9:1/2$($193::AID-RSA12$)$3.0.CO;2-P>.
 
 21. Komlós, J., G. N. Sárközy, and E. Szemerédi. “Proof of the Seymour conjecture for large graphs.” *Ann. Combin.* **2** (1998): 43–60. <https://doi.org/10.1007/BF01626028>.
 

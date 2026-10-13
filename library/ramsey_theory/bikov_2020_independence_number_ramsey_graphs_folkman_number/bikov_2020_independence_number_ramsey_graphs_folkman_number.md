@@ -3,14 +3,14 @@ Volume **77(1)** (2020), Pages 35–50
 
 # On the independence number of $(3, 3)$-Ramsey graphs and the Folkman number $F_e(3, 3; 4)$
 
-ALEKSANDAR BIKOV$^{*}$ \quad NEDYALKO NENOV
+ALEKSANDAR BIKOV$^{*}$, NEDYALKO NENOV
 
 *Faculty of Mathematics and Informatics*  
 *Sofia University “St. Kliment Ohridski”*  
 *5, James Bourchier Blvd.*  
 *1164 Sofia, Bulgaria*  
 
-asbikov@fmi.uni-sofia.bg \quad nenov@fmi.uni-sofia.bg
+asbikov@fmi.uni-sofia.bg, nenov@fmi.uni-sofia.bg
 
 ## Abstract
 

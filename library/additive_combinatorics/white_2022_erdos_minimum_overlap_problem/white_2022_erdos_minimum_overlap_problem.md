@@ -420,10 +420,10 @@ $$
 \text{Input: }&N,R,L=2/N\\
 \text{Variables: }&\Omega,w_{1},\ldots,w_{N}\\
 \text{Minimize: }&\Omega\\
-\text{Subject to: }&0\leq w_{j}\leq\Omega;\quad 1\leq j\leq N, \tag{4.1}\\
-&\sum_{j=1}^{N}w_{j}=N/4, \tag{4.2}\\
-&\sum_{j=1}^{N}\alpha_{j,2m}^{-}w_{j}\leq 0;\quad 1\leq m\leq R, \tag{4.3}\\
-&L^{3}\sum_{j=1}^{N}(j-1)^{2}w_{j}\leq 1/3. \tag{4.4}
+\text{Subject to: }&0\leq w_{j}\leq\Omega;\quad 1\leq j\leq N, \qquad (4.1)\\
+&\sum_{j=1}^{N}w_{j}=N/4, \qquad (4.2)\\
+&\sum_{j=1}^{N}\alpha_{j,2m}^{-}w_{j}\leq 0;\quad 1\leq m\leq R, \qquad (4.3)\\
+&L^{3}\sum_{j=1}^{N}(j-1)^{2}w_{j}\leq 1/3. \qquad (4.4)
 \end{aligned}
 $$
 

@@ -84,7 +84,7 @@ We use the following asymptotic notation throughout the paper:
 
 - We use $Y=o(Z)$ as $X\to\infty$ to denote the estimate $|Y|\leq c(X)Z$ for some function $c(X)$ of a parameter $X$ that goes to zero as $X\to\infty$ (holding all other parameters fixed). We use $Y\sim Z$ to denote the estimate $Y=(1+o(1))Z$ as $X\to\infty$.
 
-We use $\mathbbm{1}_{A}$ to denote the indicator function of a set $A$, thus $\mathbbm{1}_{A}(n)=1$ if $n\in A$ and $\mathbbm{1}_{A}(n)=0$ otherwise.
+We use $\mathbb{1}_{A}$ to denote the indicator function of a set $A$, thus $\mathbb{1}_{A}(n)=1$ if $n\in A$ and $\mathbb{1}_{A}(n)=0$ otherwise.
 
 All sums and products over the variable $p$ are understood to be over primes.
 
@@ -109,19 +109,19 @@ $$
 where $\gamma$ is the Euler–Mascheroni constant. Then one has the first moment estimate
 
 $$
-\frac{1}{X}\int_X^{2X}\sum_{x<n\leq x+H}\mathbbm{1}_{\mathcal{R}(z)}(n)\,dx=R+O\left(\frac{1}{\log^2 X}\right) \tag{2.2}
+\frac{1}{X}\int_X^{2X}\sum_{x<n\leq x+H}\mathbb{1}_{\mathcal{R}(z)}(n)\,dx=R+O\left(\frac{1}{\log^2 X}\right) \tag{2.2}
 $$
 
 and the second moment estimate
 
 $$
-\frac{1}{X}\int_X^{2X}\left|\sum_{x<n\leq x+H}\mathbbm{1}_{\mathcal{R}(z)}(n)\right|^2\,dx=R^2+O(R). \tag{2.3}
+\frac{1}{X}\int_X^{2X}\left|\sum_{x<n\leq x+H}\mathbb{1}_{\mathcal{R}(z)}(n)\right|^2\,dx=R^2+O(R). \tag{2.3}
 $$
 
 In particular, we have
 
 $$
-\frac{1}{X}\int_X^{2X}\left|\sum_{x<n\leq x+H}\mathbbm{1}_{\mathcal{R}(z)}(n)-R\right|^2\,dx\ll R. \tag{2.4}
+\frac{1}{X}\int_X^{2X}\left|\sum_{x<n\leq x+H}\mathbb{1}_{\mathcal{R}(z)}(n)-R\right|^2\,dx\ll R. \tag{2.4}
 $$
 
 Informally, (2.4) asserts that most intervals $[x,x+H]$ with $x\in[X,2X]$ contain approximately $R$ elements of $\mathcal{R}(z)$.
@@ -130,16 +130,16 @@ Informally, (2.4) asserts that most intervals $[x,x+H]$ with $x\in[X,2X]$ contai
 
 $$
 \begin{aligned}
-\frac{1}{X}\int_X^{2X}\sum_{x<n\leq x+H}\mathbbm{1}_{\mathcal{R}(z)}(n)\,dx
-&=\frac{1}{X}\sum_{X\leq n\leq 2X+H}\mathbbm{1}_{\mathcal{R}(z)}(n)\int_{[X,2X]\cap[n-H,n)}1\,dx\\
-&=\frac{H}{X}\sum_{X\leq n\leq 2X}\mathbbm{1}_{\mathcal{R}(z)}(n)+O\left(\frac{H^2}{X}\right).
+\frac{1}{X}\int_X^{2X}\sum_{x<n\leq x+H}\mathbb{1}_{\mathcal{R}(z)}(n)\,dx
+&=\frac{1}{X}\sum_{X\leq n\leq 2X+H}\mathbb{1}_{\mathcal{R}(z)}(n)\int_{[X,2X]\cap[n-H,n)}1\,dx\\
+&=\frac{H}{X}\sum_{X\leq n\leq 2X}\mathbb{1}_{\mathcal{R}(z)}(n)+O\left(\frac{H^2}{X}\right).
 \end{aligned}
 $$
 
 From Buchstab’s theorem [19, Theorem 7.11] we have
 
 $$
-\sum_{n<X}\mathbbm{1}_{\mathcal{R}(z)}(n)=\frac{\omega(u)X}{\log z}-\frac{z}{\log z}+O\left(\frac{X}{\log^2 X}\right)
+\sum_{n<X}\mathbb{1}_{\mathcal{R}(z)}(n)=\frac{\omega(u)X}{\log z}-\frac{z}{\log z}+O\left(\frac{X}{\log^2 X}\right)
 $$
 
 where $u:=\log X/\log z=\log^{1-\beta}X$ and $\omega$ is the Buchstab function. Using the de Bruijn asymptotics [2]
@@ -151,19 +151,19 @@ $$
 where $\Gamma$ denotes the Gamma function, one then easily concludes that
 
 $$
-\sum_{n<X}\mathbbm{1}_{\mathcal{R}(z)}(n)=\frac{e^{-\gamma}X}{\log z}+O\left(\frac{X}{\log^2 X}\right)
+\sum_{n<X}\mathbb{1}_{\mathcal{R}(z)}(n)=\frac{e^{-\gamma}X}{\log z}+O\left(\frac{X}{\log^2 X}\right)
 $$
 
 and a similar computation (with a very slightly different value of $u$) gives
 
 $$
-\sum_{n\leq 2X}\mathbbm{1}_{\mathcal{R}(z)}(n)=\frac{2e^{-\gamma}X}{\log z}+O\left(\frac{X}{\log^2 X}\right)
+\sum_{n\leq 2X}\mathbb{1}_{\mathcal{R}(z)}(n)=\frac{2e^{-\gamma}X}{\log z}+O\left(\frac{X}{\log^2 X}\right)
 $$
 
 and hence
 
 $$
-\sum_{X\leq n\leq 2X}\mathbbm{1}_{\mathcal{R}(z)}(n)=\frac{e^{-\gamma}X}{\log z}+O\left(\frac{X}{\log^2 X}\right).
+\sum_{X\leq n\leq 2X}\mathbb{1}_{\mathcal{R}(z)}(n)=\frac{e^{-\gamma}X}{\log z}+O\left(\frac{X}{\log^2 X}\right).
 $$
 
 Inserting this back into the previous estimates, we obtain (2.2) after a brief calculation.
@@ -172,18 +172,18 @@ Now we turn to the second moment estimate (2.3). We expand
 
 $$
 \begin{aligned}
-&\frac{1}{X}\int_X^{2X}\left(\sum_{x\leq n\leq x+H}\mathbbm{1}_{\mathcal{R}(z)}(n)\right)^2\,dx\\
-&=\frac{1}{X}\int_X^{2X}\sum_{x\leq n\leq x+H}\sum_{x\leq m\leq x+H}\mathbbm{1}_{\mathcal{R}(z)}(n)\mathbbm{1}_{\mathcal{R}(z)}(m)\,dx\\
-&=\frac{1}{X}\int_X^{2X}\sum_{x\leq n\leq x+H}\mathbbm{1}_{\mathcal{R}(z)}(n)\,dx+\frac{2}{X}\int_X^{2X}\sum_{1\leq h\leq H}\sum_{x\leq n\leq x+H-h}\mathbbm{1}_{\mathcal{R}(z)}(n)\mathbbm{1}_{\mathcal{R}(z)}(n+h)\,dx\\
-&=O(R)+\frac{2}{X}\sum_{1\leq h\leq H}\sum_{X\leq n\leq 2X+H-h}\mathbbm{1}_{\mathcal{R}(z)}(n)\mathbbm{1}_{\mathcal{R}(z)}(n+h)\int_{[X,2X]\cap[n-H+h,n]}1\,dx\\
-&=\frac{2}{X}\sum_{1\leq h\leq H}(H-h)\sum_{X\leq n\leq 2X}\mathbbm{1}_{\mathcal{R}(z)}(n)\mathbbm{1}_{\mathcal{R}(z)}(n+h)+O(R)
+&\frac{1}{X}\int_X^{2X}\left(\sum_{x\leq n\leq x+H}\mathbb{1}_{\mathcal{R}(z)}(n)\right)^2\,dx\\
+&=\frac{1}{X}\int_X^{2X}\sum_{x\leq n\leq x+H}\sum_{x\leq m\leq x+H}\mathbb{1}_{\mathcal{R}(z)}(n)\mathbb{1}_{\mathcal{R}(z)}(m)\,dx\\
+&=\frac{1}{X}\int_X^{2X}\sum_{x\leq n\leq x+H}\mathbb{1}_{\mathcal{R}(z)}(n)\,dx+\frac{2}{X}\int_X^{2X}\sum_{1\leq h\leq H}\sum_{x\leq n\leq x+H-h}\mathbb{1}_{\mathcal{R}(z)}(n)\mathbb{1}_{\mathcal{R}(z)}(n+h)\,dx\\
+&=O(R)+\frac{2}{X}\sum_{1\leq h\leq H}\sum_{X\leq n\leq 2X+H-h}\mathbb{1}_{\mathcal{R}(z)}(n)\mathbb{1}_{\mathcal{R}(z)}(n+h)\int_{[X,2X]\cap[n-H+h,n]}1\,dx\\
+&=\frac{2}{X}\sum_{1\leq h\leq H}(H-h)\sum_{X\leq n\leq 2X}\mathbb{1}_{\mathcal{R}(z)}(n)\mathbb{1}_{\mathcal{R}(z)}(n+h)+O(R)
 \end{aligned}
 $$
 
 where we have used (2.2) to control the diagonal terms; some error terms are generated at the boundary $n=X+O(H)$ or $n=2X+O(H)$ of the interval $[X,2X]$, but their contribution easily seen to be negligible compared to the existing error term $O(R)$ (they are of size $O(\frac{H^2}{X})$, which is far smaller). Setting
 
 $$
-S_h\coloneqq\frac{1}{X}\sum_{X\leq n\leq 2X}\mathbbm{1}_{\mathcal{R}(z)}(n)\mathbbm{1}_{\mathcal{R}(z)}(n+h),
+S_h\coloneqq\frac{1}{X}\sum_{X\leq n\leq 2X}\mathbb{1}_{\mathcal{R}(z)}(n)\mathbb{1}_{\mathcal{R}(z)}(n+h),
 $$
 
 we can then rewrite the left-hand side of (2.3) as
@@ -343,8 +343,8 @@ We are now ready to prove the weak version of Theorem 1.1. Let $X$ be large, and
 
 $$
 \begin{aligned}
-|E(X)|&=\frac{1}{R^2}\int_{E(X)}\left|\sum_{x<n\leq x+H}\mathbbm{1}_{\mathcal{R}(z)}(n)-R\right|^2\,dx\\
-&\leq\frac{1}{R^2}\int_X^{2X}\left|\sum_{x<n\leq x+H}\mathbbm{1}_{\mathcal{R}(z)}(n)-R\right|^2\,dx\\
+|E(X)|&=\frac{1}{R^2}\int_{E(X)}\left|\sum_{x<n\leq x+H}\mathbb{1}_{\mathcal{R}(z)}(n)-R\right|^2\,dx\\
+&\leq\frac{1}{R^2}\int_X^{2X}\left|\sum_{x<n\leq x+H}\mathbb{1}_{\mathcal{R}(z)}(n)-R\right|^2\,dx\\
 &\ll\frac{X}{R}.
 \end{aligned}
 \tag{2.13}
@@ -405,7 +405,7 @@ We now improve (1.4) to (1.5). The main idea here is to control higher moments b
 **Lemma 3.1 (Higher moment estimates).** _Let $\beta$, $\alpha$, $X$, $H$, $z$, $\mathcal{R}(z)$, $R$ be as in Lemma 2.1. Let $K$ be a fixed natural number; we allow implied constants to depend on $K$. Then_
 
 $$
-\frac{1}{X}\int_X^{2X}\left(\sum_{x<n\leq x+H}\mathbbm{1}_{\mathcal{R}(z)}(n)-R'\right)^K\,dx\ll H^{K/2+o(1)} \tag{3.1}
+\frac{1}{X}\int_X^{2X}\left(\sum_{x<n\leq x+H}\mathbb{1}_{\mathcal{R}(z)}(n)-R'\right)^K\,dx\ll H^{K/2+o(1)} \tag{3.1}
 $$
 
 where $R'$ is the slight modification of $R$ defined by
@@ -420,8 +420,8 @@ Let us assume this lemma for the moment and see how it establishes (1.5). Let $K
 
 $$
 \begin{aligned}
-|E(X)|&=\frac{1}{(R')^K}\int_{E(X)}\left|\sum_{x<n\leq x+H}\mathbbm{1}_{\mathcal{R}(z)}(n)-R'\right|^K\,dx\\
-&\leq\frac{1}{(R')^K}\int_X^{2X}\left|\sum_{x<n\leq x+H}\mathbbm{1}_{\mathcal{R}(z)}(n)-R'\right|^K\,dx\\
+|E(X)|&=\frac{1}{(R')^K}\int_{E(X)}\left|\sum_{x<n\leq x+H}\mathbb{1}_{\mathcal{R}(z)}(n)-R'\right|^K\,dx\\
+&\leq\frac{1}{(R')^K}\int_X^{2X}\left|\sum_{x<n\leq x+H}\mathbb{1}_{\mathcal{R}(z)}(n)-R'\right|^K\,dx\\
 &\ll\frac{XH^{K/2+o(1)}}{R^K}.
 \end{aligned}
 $$
@@ -445,7 +445,7 @@ It remains to establish Lemma 3.1. The cases $K=0,1,2$ are already covered by Le
 We introduce the von Mangoldt-like function
 
 $$
-\Lambda^{(z)}(n):=\frac{H}{R'}\mathbbm{1}_{\mathcal{R}(z)}(n) \tag{3.3}
+\Lambda^{(z)}(n):=\frac{H}{R'}\mathbb{1}_{\mathcal{R}(z)}(n) \tag{3.3}
 $$
 
 and its normalized variant
@@ -538,7 +538,7 @@ From (3.3), this is
 
 $$
 \left(\frac{H}{R^{\prime}}\right)^{|\mathcal{J}|}
-\sum_{X\leq n\leq 2X}\prod_{i\in\mathcal{J}}\mathbbm{1}_{\mathcal{R}(z)}(n+d_i)
+\sum_{X\leq n\leq 2X}\prod_{i\in\mathcal{J}}\mathbb{1}_{\mathcal{R}(z)}(n+d_i)
 $$
 
 where $|\mathcal{J}|$ denotes the cardinality of $\mathcal{J}$. Invoking the Rosser–Iwaniec sieve [9, Theorem 6.9] as in the previous section, we can express this as[^5]
@@ -698,7 +698,7 @@ $$
 
 By repeating the proof of Lemma 3.1, one can show that
 
-$$\frac{1}{X}\int_X^{2X}\left(\sum_{x<n\leq x+H}\mathbbm{1}_{\mathcal{R}(z)}(n)-R'\right)^6\,dx\ll H^{3+o(1)};$$
+$$\frac{1}{X}\int_X^{2X}\left(\sum_{x<n\leq x+H}\mathbb{1}_{\mathcal{R}(z)}(n)-R'\right)^6\,dx\ll H^{3+o(1)};$$
 
 the condition $h\leq\log^{1/100}X$ ensures that the contribution of the errors from the Rosser–Iwaniec sieve are negligible[^6], and the choice $z=H^{10}$ also ensures that the error terms arising from truncating the singular series using (3.10) are also negligible for this sixth moment calculation. We conclude that
 

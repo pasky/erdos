@@ -972,15 +972,15 @@ For $\kappa=2$ take $d=10$ and $\lambda_2=0$. For $\kappa=1$ take $d=8$ and $\la
 <table>
 <thead>
 <tr>
-<th style="text-align: center;"><span class="math inline">\(\kappa\)</span></th>
-<th style="text-align: center;"><span class="math inline">\(u\)</span></th>
+<th style="text-align: center;"><span class="math inline">$\kappa$</span></th>
+<th style="text-align: center;"><span class="math inline">$u$</span></th>
 <th colspan="5" style="text-align: center;">finite coefficients</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(p\)</span></td>
+<td style="text-align: center;"><span class="math inline">$p$</span></td>
 <td style="text-align: right;">45559127</td>
 <td style="text-align: right;">-50750856</td>
 <td style="text-align: right;">-6578767</td>
@@ -998,7 +998,7 @@ For $\kappa=2$ take $d=10$ and $\lambda_2=0$. For $\kappa=1$ take $d=8$ and $\la
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(v\)</span></td>
+<td style="text-align: center;"><span class="math inline">$v$</span></td>
 <td style="text-align: right;">-23910158</td>
 <td style="text-align: right;">21152432</td>
 <td style="text-align: right;">-2885110</td>
@@ -1020,15 +1020,15 @@ For $\kappa=2$ take $d=10$ and $\lambda_2=0$. For $\kappa=1$ take $d=8$ and $\la
 <table>
 <thead>
 <tr>
-<th style="text-align: center;"><span class="math inline">\(\kappa\)</span></th>
-<th style="text-align: center;"><span class="math inline">\(u\)</span></th>
+<th style="text-align: center;"><span class="math inline">$\kappa$</span></th>
+<th style="text-align: center;"><span class="math inline">$u$</span></th>
 <th colspan="4" style="text-align: center;">finite coefficients</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(p\)</span></td>
+<td style="text-align: center;"><span class="math inline">$p$</span></td>
 <td style="text-align: right;">11913521</td>
 <td style="text-align: right;">-79993701</td>
 <td style="text-align: right;">-21956443</td>
@@ -1044,7 +1044,7 @@ For $\kappa=2$ take $d=10$ and $\lambda_2=0$. For $\kappa=1$ take $d=8$ and $\la
 </tr>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(v\)</span></td>
+<td style="text-align: center;"><span class="math inline">$v$</span></td>
 <td style="text-align: right;">-89913025</td>
 <td style="text-align: right;">52874280</td>
 <td style="text-align: right;">45168341</td>
@@ -1149,15 +1149,15 @@ The following integers $m$ specify disjoint open brackets $(m,m+2)/10^{10}$ for 
 <table>
 <thead>
 <tr>
-<th style="text-align: center;"><span class="math inline">\(\kappa\)</span></th>
+<th style="text-align: center;"><span class="math inline">$\kappa$</span></th>
 <th style="text-align: center;">function</th>
-<th colspan="3" style="text-align: center;"><span class="math inline">\(m\)</span></th>
+<th colspan="3" style="text-align: center;"><span class="math inline">$m$</span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">-9601109148</td>
 <td style="text-align: right;">-8942317572</td>
 <td style="text-align: right;">-7608305633</td>
@@ -1199,7 +1199,7 @@ The following integers $m$ specify disjoint open brackets $(m,m+2)/10^{10}$ for 
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">176402802</td>
 <td style="text-align: right;">330649406</td>
 <td style="text-align: right;">764952882</td>
@@ -1234,7 +1234,7 @@ The following integers $m$ specify disjoint open brackets $(m,m+2)/10^{10}$ for 
 </tr>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">-9917299785</td>
 <td style="text-align: right;">-2259572153</td>
 <td style="text-align: right;">2543808026</td>
@@ -1248,7 +1248,7 @@ The following integers $m$ specify disjoint open brackets $(m,m+2)/10^{10}$ for 
 </tr>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">532669786</td>
 <td style="text-align: right;">2504239325</td>
 <td style="text-align: right;">5701738806</td>
@@ -1292,9 +1292,9 @@ For transparency, Table 2 gives all fifty point-value upper bounds. Its argumen
 <table>
 <thead>
 <tr>
-<th style="text-align: center;"><span class="math inline">\(\kappa\)</span></th>
+<th style="text-align: center;"><span class="math inline">$\kappa$</span></th>
 <th style="text-align: center;">function</th>
-<th style="text-align: right;"><span class="math inline">\(10^{10}x\)</span></th>
+<th style="text-align: right;"><span class="math inline">$10^{10}x$</span></th>
 <th style="text-align: right;">type</th>
 <th style="text-align: right;">upper bound</th>
 </tr>
@@ -1302,350 +1302,350 @@ For transparency, Table 2 gives all fifty point-value upper bounds. Its argumen
 <tbody>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">-9601109148</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984034048775</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">-8942317572</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984375363807</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">-7608305633</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984034052640</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">-6503394794</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984105522615</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">-5185864065</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984034053414</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">-4015634158</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984092061375</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">-3108806646</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984034037901</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">-2067921826</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984364031075</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">-1589849496</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984034038450</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">1531948062</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984033385315</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">2072448179</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984776982913</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">3208186484</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984034026898</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">4381119427</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984264010107</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">5851354199</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984034029391</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">7269030693</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984245044505</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">8390277402</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984034016294</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">9332614564</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984567630027</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">9709786219</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-0.984033926884</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">-10000000000</td>
 <td style="text-align: right;">P</td>
 <td style="text-align: right;">-0.986727371546</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">176402802</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.608946411646</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">330649406</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.609949505120</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">764952882</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.608960295828</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">1227250753</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.609094597854</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">2149465998</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.608960426500</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">3048189112</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.608992193672</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">4322699096</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.608960428486</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">5564757994</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.608979509517</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">6801929373</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.608960430478</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">8031988371</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.608990548812</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">8877037851</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.608960429811</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">9577761832</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.609055802895</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">9838463999</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.608960412835</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">9972727815</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.609694899071</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">9992037196</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.608958123669</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">2500000000</td>
 <td style="text-align: right;">P</td>
 <td style="text-align: right;">-1.608973617030</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">5000000000</td>
 <td style="text-align: right;">P</td>
 <td style="text-align: right;">-1.608971701898</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">7500000000</td>
 <td style="text-align: right;">P</td>
 <td style="text-align: right;">-1.608976908052</td>
 </tr>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">-9917299785</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-2.778491531574</td>
 </tr>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">-2259572153</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.324666731948</td>
 </tr>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">2543808026</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.324655807046</td>
 </tr>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">4437270259</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.352236629957</td>
 </tr>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">6348298970</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.324666329425</td>
 </tr>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">-10000000000</td>
 <td style="text-align: right;">P</td>
 <td style="text-align: right;">-2.775818077526</td>
 </tr>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">-5000000000</td>
 <td style="text-align: right;">P</td>
 <td style="text-align: right;">-1.544057819905</td>
 </tr>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(X\)</span></td>
+<td style="text-align: center;"><span class="math inline">$X$</span></td>
 <td style="text-align: right;">5000000000</td>
 <td style="text-align: right;">P</td>
 <td style="text-align: right;">-1.347557680876</td>
 </tr>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">532669786</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.428286151250</td>
 </tr>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">2504239325</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.515602647362</td>
 </tr>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">5701738806</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.428335732372</td>
 </tr>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">7966939383</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.465686164672</td>
 </tr>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;"><span class="math inline">\(Y\)</span></td>
+<td style="text-align: center;"><span class="math inline">$Y$</span></td>
 <td style="text-align: right;">9454490138</td>
 <td style="text-align: right;">B</td>
 <td style="text-align: right;">-1.428335358167</td>

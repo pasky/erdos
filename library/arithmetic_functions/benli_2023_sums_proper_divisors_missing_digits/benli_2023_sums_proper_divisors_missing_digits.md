@@ -105,7 +105,7 @@ $$
 G\ast H(n):=\sum_{ab=n}G(a)H(b),
 $$
 
-for any positive integer $n.
+for any positive integer $n$.
 
 For two real functions $F$ and $G$ where $G$ is a nonnegative valued function, we say that $F(x)=O(G(x))$ if there exists a positive constant $C$ and a real number $x_0$ such that $|F(x)|\leq C|G(x)|$ for all $x\geq x_0$ and $F(x)=o(G(x))$ as $x\to a$ if
 
@@ -533,7 +533,7 @@ $$
 \#\mathcal{W}_{s,\mathcal{D}}(x)=\#s^{-1}(\mathcal{W}_{\mathcal{D}})(x)\ll x\exp(-(\log_2 x)^\gamma)
 $$
 
-as desired. \hfill$\square$
+as desired. $\square$
 
 ## 5. Some remarks on a lower bound on $\#\mathcal{W}_{s,\mathcal{D}}(x)$
 

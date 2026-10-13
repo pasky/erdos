@@ -207,13 +207,13 @@ $$
 *Proof.* Recalling the definitions of $\alpha_k$ and $B_k$, and using the union bound, we obtain
 
 $$
-\alpha_k(x)=\frac{1}{|S_k|}\sum_{y\in S_k}\mathbbm{1}\big[(x,y)\in B_k\big]\leqslant\frac{1}{|S_k|}\sum_{y\in S_k}\sum_{A\in\mathcal{A}_k}\mathbbm{1}\big[(x,y)\in A\big]
+\alpha_k(x)=\frac{1}{|S_k|}\sum_{y\in S_k}\mathbb{1}\big[(x,y)\in B_k\big]\leqslant\frac{1}{|S_k|}\sum_{y\in S_k}\sum_{A\in\mathcal{A}_k}\mathbb{1}\big[(x,y)\in A\big]
 $$
 
 for each $x\in Q_{k-1}$, and therefore
 
 $$
-\alpha_k(x)\leqslant\frac{1}{|S_k|}\sum_{A\in\mathcal{A}_k}\mathbbm{1}\big[x\in A^{[k-1]}\big],
+\alpha_k(x)\leqslant\frac{1}{|S_k|}\sum_{A\in\mathcal{A}_k}\mathbb{1}\big[x\in A^{[k-1]}\big],
 $$
 
 since for each $x\in Q_{k-1}$ and $A\in\mathcal{A}_k$, there exists $y\in S_k$ with $(x,y)\in A$ if and only if $x\in A^{[k-1]}$, and moreover such a $y$ (if it exists) is unique, since $k\in F(A)$. It follows that

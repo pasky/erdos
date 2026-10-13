@@ -225,7 +225,7 @@ $$
 We can write the error term as
 
 $$
-\Err(w;P,L)=\left(\frac{M_P(w\times w)}{|P|}\frac{M_L(w\times 1)}{|L|}w^{-3}\right)^{1/2}. \tag{3.2}
+\operatorname{Err}(w;P,L)=\left(\frac{M_P(w\times w)}{|P|}\frac{M_L(w\times 1)}{|L|}w^{-3}\right)^{1/2}. \tag{3.2}
 $$
 
 The definition of smoothed incidences is specially designed to accommodate the factor of $10$ in (3.1): for example, in order to replace $w/10$ with $w/8$, you would have to change the smoothing function $\eta$ in (2.4). Now we state some variations on the bound (3.1). For any $K>1$, if $10^j\leqslant K<10^{j+1}$, then
@@ -234,19 +234,19 @@ $$
 B(w/10^{j+1})\lesssim B(w/K)\lesssim B(w/10^j).
 $$
 
-Using the inequality $\Err(w/10^j)\leqslant 10^{3j/2}\Err(w)$, we can geometrically sum to obtain
+Using the inequality $\operatorname{Err}(w/10^j)\leqslant 10^{3j/2}\operatorname{Err}(w)$, we can geometrically sum to obtain
 
 $$
-B(w)-K^{3/2}\Err(w)\lesssim B(w/K)\lesssim B(w)+K^{3/2}\Err(w). \tag{3.3}
+B(w)-K^{3/2}\operatorname{Err}(w)\lesssim B(w/K)\lesssim B(w)+K^{3/2}\operatorname{Err}(w). \tag{3.3}
 $$
 
 To compare the number of incidences at two far apart scales $w_f<w_i$ (think of $w_i\sim|P|^{-0.1}$ and $w_f\sim|P|^{-2/3}$), we sum the errors at several intermediate scales to get the estimate
 
 $$
-B(w_f)-\Err\lesssim B(w_f)\lesssim B(w_i)+\Err,\qquad \Err=\log\left(2+\frac{w_i}{w_f}\right)\sup_{w_f<w<w_i}\Err(w). \tag{3.4}
+B(w_f)-\operatorname{Err}\lesssim B(w_f)\lesssim B(w_i)+\operatorname{Err},\qquad \operatorname{Err}=\log\left(2+\frac{w_i}{w_f}\right)\sup_{w_f<w<w_i}\operatorname{Err}(w). \tag{3.4}
 $$
 
-In order to run the inductive step we need $\Err(w)\lll 1$ for all $w_f<w<w_i$. The error is small if the point set and line set are not too concentrated. On one extreme, if the points and lines are as well spaced as possible, then $M_P(w\times w)\sim\max\{1,w^2|P|\}$ and $M_L(w\times 1)\sim\max\{1,w^2|L|\}$. Usually such a bound is too much to ask for. The Frostman regularity condition is a natural way of controlling how much points and lines are concentrated, it says that for some $0<\alpha_P,\alpha_L\leqslant 2$,
+In order to run the inductive step we need $\operatorname{Err}(w)\lll 1$ for all $w_f<w<w_i$. The error is small if the point set and line set are not too concentrated. On one extreme, if the points and lines are as well spaced as possible, then $M_P(w\times w)\sim\max\{1,w^2|P|\}$ and $M_L(w\times 1)\sim\max\{1,w^2|L|\}$. Usually such a bound is too much to ask for. The Frostman regularity condition is a natural way of controlling how much points and lines are concentrated, it says that for some $0<\alpha_P,\alpha_L\leqslant 2$,
 
 $$
 M_P(w\times w)\lesssim\max\{1,w^{\alpha_P}|P|\},\quad M_L(w\times 1)\lesssim\max\{1,w^{\alpha_L}|L|\}.
@@ -254,7 +254,7 @@ $$
 
 This condition is a discrete analogue of $P$ being an $\alpha_P$-dimensional set and $L$ being an $\alpha_L$-dimensional set. In order to run the inductive step, we need $\alpha_P+\alpha_L>3$.
 
-For small enough $w$, we expect $M_P(w\times w)\sim M_L(w\times 1)\sim 1$. In this case $\Err(w)=(|P||L|)^{-1/2}w^{-3/2}$, which is controlled if $w\gtrsim(|P||L|)^{-1/3}$. So the smallest length scale reachable by the high-low method is $w_f=(|P||L|)^{-1/3}$. There is an example behind this barrier.
+For small enough $w$, we expect $M_P(w\times w)\sim M_L(w\times 1)\sim 1$. In this case $\operatorname{Err}(w)=(|P||L|)^{-1/2}w^{-3/2}$, which is controlled if $w\gtrsim(|P||L|)^{-1/3}$. So the smallest length scale reachable by the high-low method is $w_f=(|P||L|)^{-1/3}$. There is an example behind this barrier.
 
 **Szemerédi-Trotter obstruction.** The sharp example for the high-low inequality is the same as the sharp example for the Szemerédi-Trotter theorem [24]. Let
 
@@ -277,10 +277,10 @@ $$
 The two terms in the maximum agree when $w=n^{-2/3}$, which is the smallest distance between a line and a point off the line. We have
 
 $$
-M_P(w\times w)\sim\max\{1,w^2|P|\},\quad M_L(w\times 1)\sim\max\{1,w^2|L|\},\quad\text{and}\quad \Err(w)\sim\max\{w^{1/2},n^{-1}w^{-3/2}\}.
+M_P(w\times w)\sim\max\{1,w^2|P|\},\quad M_L(w\times 1)\sim\max\{1,w^2|L|\},\quad\text{and}\quad \operatorname{Err}(w)\sim\max\{w^{1/2},n^{-1}w^{-3/2}\}.
 $$
 
-This means that $\Err(w)\lll 1$ holds as long as $w\ggg n^{-2/3}$, and the high-low estimate (3.1) shows that
+This means that $\operatorname{Err}(w)\lll 1$ holds as long as $w\ggg n^{-2/3}$, and the high-low estimate (3.1) shows that
 
 $$
 B(w;P,L)\sim 1\text{ for all }w\gtrsim n^{-2/3}
@@ -320,7 +320,7 @@ $$
 \langle f_w,g\rangle=w^{-1}\#\{(p,\ell)\in P\times L : d(p,\ell)\leqslant w/2\}.
 $$
 
-We are ready to give a smoothed definition of incidences. Let $\chi:\mathbb{R}^{2}\to\mathbb{R}_{\geqslant 0}$ be a fixed radially symmetric bump function with $\int\chi=1$ and $\supp\chi\subset B_{1/50}$. Let $\chi_w(x)=w^{-2}\chi(w^{-1}x)$. We define the smoothed version of incidences by convolving $f_w$ with $\chi_w * \chi_{w/10}$,
+We are ready to give a smoothed definition of incidences. Let $\chi:\mathbb{R}^{2}\to\mathbb{R}_{\geqslant 0}$ be a fixed radially symmetric bump function with $\int\chi=1$ and $\operatorname{supp}\chi\subset B_{1/50}$. Let $\chi_w(x)=w^{-2}\chi(w^{-1}x)$. We define the smoothed version of incidences by convolving $f_w$ with $\chi_w * \chi_{w/10}$,
 
 $$
 I(w;P,L):=w\,\langle\chi_w*\chi_{w/10}*f_w,g\rangle. \tag{3.5}
@@ -332,7 +332,7 @@ $$
 \eta(t)=\int_{-1/2}^{1/2}\int_{-\infty}^{\infty}(\chi*\chi_{1/10})(t+r,s)\,ds\,dr.
 $$
 
-Notice that $\eta|_{[-1/2+1/10,1/2-1/10]}=1$ and $\supp\eta\subset[-1/2-1/10,1/2+1/10]$. Because $\chi$ was chosen radially symmetric, we see that
+Notice that $\eta|_{[-1/2+1/10,1/2-1/10]}=1$ and $\operatorname{supp}\eta\subset[-1/2-1/10,1/2+1/10]$. Because $\chi$ was chosen radially symmetric, we see that
 
 $$
 I(w;P,L)=\sum_{(p,\ell)\in P\times L}\eta(w^{-1}d(p,\ell))
@@ -374,7 +374,7 @@ $$
 \end{aligned}
 $$
 
-We expand the $L^2$ norm as a sum of truncated inner products. Let $\psi:\mathbb{R}^{2}\to[0,1]$ be a fixed smooth bump function with $\psi|_{[-2,2]^{2}}=1$ and $\supp\psi\subset[-3,3]^{2}$. We have
+We expand the $L^2$ norm as a sum of truncated inner products. Let $\psi:\mathbb{R}^{2}\to[0,1]$ be a fixed smooth bump function with $\psi|_{[-2,2]^{2}}=1$ and $\operatorname{supp}\psi\subset[-3,3]^{2}$. We have
 
 $$
 \left\|\sum_{\ell\in L}\Phi_\ell\right\|_{L^{2}([-2,2]^{2})}^{2}\leqslant\sum_{\ell_1,\ell_2}\left|\int\Phi_{\ell_1}(x)\Phi_{\ell_2}(x)\,\psi(x)dx\right|
@@ -827,7 +827,7 @@ We use the high-low method to lower bound $B(w_f)$ and get a contradiction. Reca
 
 We use our bounds on $M_P$, $M_L$ to estimate the high-low error:
 
-$$\Err(v)\lesssim\sqrt{\frac{\max\{1,v^2\Delta^{-1}\}}{|P|}\frac{(v/w_f)^2}{|L|}v^{-3}}. \tag{6.3}$$
+$$\operatorname{Err}(v)\lesssim\sqrt{\frac{\max\{1,v^2\Delta^{-1}\}}{|P|}\frac{(v/w_f)^2}{|L|}v^{-3}}. \tag{6.3}$$
 
 [^2]: This observation goes back to Schmidt, he used it to prove the estimate (2.3) from Section 2.
 
@@ -836,7 +836,7 @@ Note that the right hand side of (6.3) is a convex function on the logarithmic s
 By the assumption that $|L|>C|P|$, there exist lines $\ell,\ell'\in L$ which intersect in a point of $P$. The points spanning these lines create a triangle of area at most $u^2$. So we have $u^2\geqslant\Delta$ and since $w_fu=\Delta$ we get $w_f^2\leqslant\Delta$. We conclude
 
 $$
-\Err(w_f)\lesssim\sqrt{\frac{1}{|P||L|}u^3\Delta^{-3}}<\frac{\kappa}{C|\log\Delta|},
+\operatorname{Err}(w_f)\lesssim\sqrt{\frac{1}{|P||L|}u^3\Delta^{-3}}<\frac{\kappa}{C|\log\Delta|},
 $$
 
 where we used the assumption that $\Delta$ does not satisfy (6.1).
@@ -850,10 +850,10 @@ $$
 and get
 
 $$
-\Err(w)\lesssim\sqrt{\frac{\max\{u,w\}w\Delta^{-1}}{|P|}\frac{(w/w_f)^2}{|L|}w^{-3}}=\sqrt{\frac{1}{|P||L|}\max\{u,w\}u^2\Delta^{-3}}<\frac{\kappa}{C|\log\Delta|},
+\operatorname{Err}(w)\lesssim\sqrt{\frac{\max\{u,w\}w\Delta^{-1}}{|P|}\frac{(w/w_f)^2}{|L|}w^{-3}}=\sqrt{\frac{1}{|P||L|}\max\{u,w\}u^2\Delta^{-3}}<\frac{\kappa}{C|\log\Delta|},
 $$
 
-where in the last inequality we used the assumption on $\Delta$. By convexity of the right hand side of (6.3), we conclude that $\Err(v)<\frac{\kappa}{C|\log\Delta|}$ for all $v\in[w_f,w]$. So using (3.4), we conclude that $B(w_f)\gtrsim B(w)-\kappa/10=9\kappa/10$ which contradicts the lower bound (6.2). Thus, our initial assumption on $\Delta$ is false and $P$ must contain a triangle of area less than $\Delta$ given by (6.1). $\Box$
+where in the last inequality we used the assumption on $\Delta$. By convexity of the right hand side of (6.3), we conclude that $\operatorname{Err}(v)<\frac{\kappa}{C|\log\Delta|}$ for all $v\in[w_f,w]$. So using (3.4), we conclude that $B(w_f)\gtrsim B(w)-\kappa/10=9\kappa/10$ which contradicts the lower bound (6.2). Thus, our initial assumption on $\Delta$ is false and $P$ must contain a triangle of area less than $\Delta$ given by (6.1). $\Box$
 
 ### 6.2 $s$-regular subsets relative to a rectangle
 
@@ -1639,7 +1639,7 @@ $$
 
 *Here, $G|_{x}=\{y\in Y:(x,y)\in G\}$ is the restriction. We say that $G$ witnesses thin tubes.*
 
-To prove Theorem 4.2 from Theorem A.1 we have to convert between measures satisfying the Frostman condition at all scales and a discrete set of points satisfying the Frostman condition down to scale $\delta$. Theorem A.1 estimates the dimension of radial projections of $Y$ onto points in $X$, but this easily implies a direction set estimate. In what follows $\Area(\cdot)$ is the Lebesgue measure.
+To prove Theorem 4.2 from Theorem A.1 we have to convert between measures satisfying the Frostman condition at all scales and a discrete set of points satisfying the Frostman condition down to scale $\delta$. Theorem A.1 estimates the dimension of radial projections of $Y$ onto points in $X$, but this easily implies a direction set estimate. In what follows $\operatorname{Area}(\cdot)$ is the Lebesgue measure.
 
 *Proof of Theorem 4.2 from Theorem A.1.* Let $0 < s < 1$, $\sigma < s$, and $C,w > 0$ be given. Let $\tau=\tau(\varepsilon,\sigma,s)>0$ be as in Theorem A.1. Let $P \subset [0,1]^2$ be a set of points such that
 
@@ -1659,16 +1659,16 @@ for all $w$-tubes $T$, $w>2\delta$.
 By (A.4), there exist two $1/20C$-squares $Q_1$, $Q_2$ that each have $\geqslant (1/400C^2)|P|$ points of $P$ and which are $1/20C$-separated. Let $P_1=P\cap Q_1$ and $P_2=P\cap Q_2$, and set
 
 $$
-\mu=\frac{1}{|P_1|}\sum_{p\in P_1}\frac{1}{\Area(B_p)}1_{B_p},\quad \nu=\frac{1}{|P_2|}\sum_{p\in P_2}\frac{1}{\Area(B_p)}1_{B_p},\quad B_p=B(p,\delta/100).
+\mu=\frac{1}{|P_1|}\sum_{p\in P_1}\frac{1}{\operatorname{Area}(B_p)}1_{B_p},\quad \nu=\frac{1}{|P_2|}\sum_{p\in P_2}\frac{1}{\operatorname{Area}(B_p)}1_{B_p},\quad B_p=B(p,\delta/100).
 $$
 
-Let $X=\supp(\mu)$, $Y=\supp(\nu)$. Notice that $\mu,\nu$ satisfy the Frostman condition (A.1) with a constant $\tilde{C}\lesssim C$, they are $1/\tilde{C}$ separated, and they satisfy (A.3) at scale $w/2$.
+Let $X=\operatorname{supp}(\mu)$, $Y=\operatorname{supp}(\nu)$. Notice that $\mu,\nu$ satisfy the Frostman condition (A.1) with a constant $\tilde{C}\lesssim C$, they are $1/\tilde{C}$ separated, and they satisfy (A.3) at scale $w/2$.
 
 We apply theorem Theorem A.1 with $\varepsilon=1/2$. Let $G\subset X\times Y$ be the Borel set witnessing thin tubes, with $(\mu\times\nu)(G)\geqslant 1/2$. Let
 
 $$
 \begin{aligned}
-\tilde{G}&=\Bigl\{(p_1,p_2)\in P_1\times P_2:\Area(G\cap(B_{p_1}\times B_{p_2}))\geqslant\frac{1}{4}\Area(B_{p_1})\Area(B_{p_2})\Bigr\},\\
+\tilde{G}&=\Bigl\{(p_1,p_2)\in P_1\times P_2:\operatorname{Area}(G\cap(B_{p_1}\times B_{p_2}))\geqslant\frac{1}{4}\operatorname{Area}(B_{p_1})\operatorname{Area}(B_{p_2})\Bigr\},\\
 L&=\{\ell_{p_1,p_2}:(p_1,p_2)\in\tilde{G}\}.
 \end{aligned}
 $$
@@ -1677,7 +1677,7 @@ We have
 
 $$
 \begin{aligned}
-(\mu\times\nu)(G)&=\frac{1}{|P_1||P_2|}\sum_{(p_1,p_2)\in P_1\times P_2}\frac{1}{\Area(B_{p_1})\Area(B_{p_2})}\Area(G\cap(B_{p_1}\times B_{p_2}))\\
+(\mu\times\nu)(G)&=\frac{1}{|P_1||P_2|}\sum_{(p_1,p_2)\in P_1\times P_2}\frac{1}{\operatorname{Area}(B_{p_1})\operatorname{Area}(B_{p_2})}\operatorname{Area}(G\cap(B_{p_1}\times B_{p_2}))\\
 &\leqslant\frac{|L|}{|P_1||P_2|}+\frac{1}{4}.
 \end{aligned}
 $$
@@ -1687,16 +1687,16 @@ Using the lower bound $(\mu\times\nu)(G)\geqslant 1/2$, we get $|L|\geqslant\fra
 Let $p_1\in P_1$ and let $T$ be an $r$-tube containing $p_1$ with $r>\delta$. We prove an estimate for $|\tilde{G}|_{p_1}\cap T|$. Let $2T$ be the $2r$-tube with the same central line. For any $x\in[0,1]^2$, we have $\nu(2T\cap G|_x)\lesssim Kr^\sigma$. Integrating,
 
 $$
-\frac{1}{\Area(B_{p_1})}\int_{x\in B_{p_1}}\nu(2T\cap G|_x)\,dx\lesssim Kr^\sigma
+\frac{1}{\operatorname{Area}(B_{p_1})}\int_{x\in B_{p_1}}\nu(2T\cap G|_x)\,dx\lesssim Kr^\sigma
 $$
 
 as well. We expand this integral using Fubini’s theorem,
 
 $$
 \begin{aligned}
-\frac{1}{\Area(B_{p_1})}\int_{x\in B_{p_1}}\nu(2T\cap G|_x)\,dx&=\frac{1}{\Area(B_{p_1})}\int_{x\in B_{p_1}}\frac{1}{|P_2|}\sum_{p_2\in P_2}\frac{1}{\Area(B_{p_2})}\Area(B_{p_2}\cap 2T\cap G|_x)\,dx\\
-&\geqslant\frac{1}{\Area(B_{p_1})}\int_{x\in B_{p_1}}\frac{1}{|P_2|}\sum_{p_2\in P_2\cap T}\frac{1}{\Area(B_{p_2})}\Area(B_{p_2}\cap G|_x)\,dx\\
-&=\frac{1}{\Area(B_{p_1})\Area(B_{p_2})|P_2|}\sum_{p_2\in P_2\cap T}\Area(G\cap(B_{p_1}\times B_{p_2}))\\
+\frac{1}{\operatorname{Area}(B_{p_1})}\int_{x\in B_{p_1}}\nu(2T\cap G|_x)\,dx&=\frac{1}{\operatorname{Area}(B_{p_1})}\int_{x\in B_{p_1}}\frac{1}{|P_2|}\sum_{p_2\in P_2}\frac{1}{\operatorname{Area}(B_{p_2})}\operatorname{Area}(B_{p_2}\cap 2T\cap G|_x)\,dx\\
+&\geqslant\frac{1}{\operatorname{Area}(B_{p_1})}\int_{x\in B_{p_1}}\frac{1}{|P_2|}\sum_{p_2\in P_2\cap T}\frac{1}{\operatorname{Area}(B_{p_2})}\operatorname{Area}(B_{p_2}\cap G|_x)\,dx\\
+&=\frac{1}{\operatorname{Area}(B_{p_1})\operatorname{Area}(B_{p_2})|P_2|}\sum_{p_2\in P_2\cap T}\operatorname{Area}(G\cap(B_{p_1}\times B_{p_2}))\\
 &\geqslant\frac{1}{4|P_2|}\,|\tilde{G}|_{p_1}\cap T|,
 \end{aligned}
 $$

@@ -242,7 +242,7 @@ $$
 \left(\binom{\gamma\cdot 2^k\cdot n^{2k}/(|\mathcal{L}|\cdot t^k\log(n/t))}{r}\right)\cdot|\mathcal{L}|\geq\left(\binom{2^{-2k}t\cdot\gamma}{k}\right)\cdot\frac{2^{3k}n^{2k}}{t^{k+1}\cdot\log(n/t)}\geq\frac{\gamma^k\cdot n^{2k}}{k!\cdot 2^{3k^2}\cdot t\cdot\log n}.
 $$
 
-\hfill$\square$
+$\square$
 
 ## 5 The container method on $[n]^3$: Proof of Theorem 2.1
 

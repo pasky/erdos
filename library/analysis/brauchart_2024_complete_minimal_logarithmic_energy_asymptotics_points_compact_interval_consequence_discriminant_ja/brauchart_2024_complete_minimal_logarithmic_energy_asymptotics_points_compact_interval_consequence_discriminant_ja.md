@@ -101,7 +101,7 @@ $$
 $$
 
 The quantity $\log(1/T_n^2)$ can be interpreted as the potential energy of the point charges at  
-$x_1, \ldots, x_n$ in an external field exerted by the charge $p$ at $x = 1$ and the charge $q$ at $x =  
+$x_1, \ldots, x_n$ in an external field exerted by the charge $p$ at $x = 1$ and the charge $q$ at $x =$  
 $-1$, where the ’points’ interact according to a logarithmic potential. We shall call such  
 minimal potential energy points **elliptic Fekete points** in order to distinguish them from  
 the Fekete points defined previously. Stieltjes showed that the points $x_1^{(n)}, \ldots, x_n^{(n)}$  

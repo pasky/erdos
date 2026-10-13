@@ -266,7 +266,7 @@ $$
 where [[figure: blue circle joined by a black edge to a red circle]] has one blue and one red labelled vertex joined by a black edge (a blue-red edge whose red endpoint lies on the $f$-side neighbourhood) and [[figure: black circle joined by a black edge to a green circle]] has one black and one green vertex. With $D(\sigma)$ the sum of size-4 local $\sigma$-flags whose two unlabelled vertices form a black edge connected to the labelled positions and at least one of them is on the $f$-side (black or red), the bipartite objective is
 
 $$
-O:=\bigl\llbracket D([[figure: a black edge joining two open circles, left black-outlined and right red-outlined]])\cdot\bigl(\mathrm{ext}_{1}^{[[figure: a black edge joining two open circles, left black-outlined and right red-outlined]]}\bigr)^{n-4}\bigr\rrbracket+\bigl\llbracket D([[figure: a black edge joining two open circles, left blue-outlined and right red-outlined]])\cdot\bigl(\mathrm{ext}_{1}^{[[figure: a black edge joining two open circles, left blue-outlined and right red-outlined]]}\bigr)^{n-4}\bigr\rrbracket+\bigl\llbracket D([[figure: a black edge joining two open circles, left black-outlined and right green-outlined]])\cdot\bigl(\mathrm{ext}_{1}^{[[figure: a black edge joining two open circles, left black-outlined and right green-outlined]]}\bigr)^{n-4}\bigr\rrbracket\in\mathcal{L}_{5}^{\emptyset}.
+O:=\llbracket D([[figure: a black edge joining two open circles, left black-outlined and right red-outlined]])\cdot\bigl(\mathrm{ext}_{1}^{[[figure: a black edge joining two open circles, left black-outlined and right red-outlined]]}\bigr)^{n-4}\rrbracket+\llbracket D([[figure: a black edge joining two open circles, left blue-outlined and right red-outlined]])\cdot\bigl(\mathrm{ext}_{1}^{[[figure: a black edge joining two open circles, left blue-outlined and right red-outlined]]}\bigr)^{n-4}\rrbracket+\llbracket D([[figure: a black edge joining two open circles, left black-outlined and right green-outlined]])\cdot\bigl(\mathrm{ext}_{1}^{[[figure: a black edge joining two open circles, left black-outlined and right green-outlined]]}\bigr)^{n-4}\rrbracket\in\mathcal{L}_{5}^{\emptyset}.
 $$
 
 The bipartite analogue of the combinatorial bridge identity is
@@ -388,7 +388,7 @@ The certificate $\mathfrak{C}_{\mathrm{gen}}$ comprises:
 
 - the 39 block local types $\sigma_b$ and inner sizes $m_b$ with $2m_b-|\sigma_b|=5$ (which forces $|\sigma_b|$ odd: one block with $(|\sigma_b|,m_b)=(1,3)$ and 38 with $(3,4)$); for each block, an inner basis $(\mathrm{basis}^{(b)}_p)_{p\leq d_b}$ of size $d_b$ ranging from 1 up to 55, an integer matrix $Y_b\in\mathbb{Z}^{d_b\times d_b}$, an integer lower-triangular factor $L_b$, a pivot vector $D_b\in\mathbb{Z}^{d_b}_{>0}$, a per-block Tikhonov shift $\lambda_b\in\{1/10^{11},1/10^{12}\}$ and a per-block integer denominator $s_b>0$;
 
-- the linear residual data $(\alpha_e,\beta_\sigma)$ (coefficients of the extension-difference and black-vertex-count constraints lifted to size 5), and the minimum degree constraint coefficient $\delta$ scaling the relation $\phi(\llbracket(D^{\prime}(\sigma_1)-2(2-\eta)(\mathrm{ext}_1^{\sigma_1})^2)\cdot(\mathrm{ext}_1^{\sigma_1})\rrbracket)\geq 0;
+- the linear residual data $(\alpha_e,\beta_\sigma)$ (coefficients of the extension-difference and black-vertex-count constraints lifted to size 5), and the minimum degree constraint coefficient $\delta$ scaling the relation $\phi(\llbracket(D^{\prime}(\sigma_1)-2(2-\eta)(\mathrm{ext}_1^{\sigma_1})^2)\cdot(\mathrm{ext}_1^{\sigma_1})\rrbracket)\geq 0$;
 
 - slack budget $\Lambda_{\mathrm{gen}}:=2\times 10^{23}$.
 
@@ -433,7 +433,7 @@ To make the data concrete we describe block 0. Its local type $\sigma_0$ is the 
 The block-0 Tikhonov shift is $\lambda_0=1/10^{12}$, the denominator $s_0$ is an integer with $\log_{10}s_0\in[600,700]$, and the integer entries of $Y_0$ range over $|Y_0[p,q]|\leq 10^{22}$ across the $53\times53$ matrix. The LDL identity $L_0\operatorname{diag}(D_0)L_0^\top=s_0(Y_0+\lambda_0I_{53})$ holds entry-wise, with $D_0$ a strictly positive integer vector of 53 pivots. The resulting cone element
 
 $$
-\mathrm{csBlock}_0=\left\llbracket\sum_{k=0}^{52}\frac{D_0[k]}{s_0}\,\mathrm{col}^{(0)}_k\cdot\mathrm{col}^{(0)}_k\right\rrbracket\in\mathcal{C}_{\mathrm{sem}}^\emptyset
+\mathrm{csBlock}_0=\left[\!\!\left[\sum_{k=0}^{52}\frac{D_0[k]}{s_0}\,\mathrm{col}^{(0)}_k\cdot\mathrm{col}^{(0)}_k\right]\!\!\right]\in\mathcal{C}_{\mathrm{sem}}^\emptyset
 $$
 
 is one of the 39 $\mathrm{csBlock}$ summands of (4). The remaining 38 blocks are structurally identical, differing only in local type, inner dimension, and the entries of $L_b,D_b,Y_b$.
@@ -481,7 +481,7 @@ $$
 \frac{2\,|E_O(G'_k)|}{\binom{\Delta(G'_k)}{2}^{2}}=\sum_{j=1}^{17{,}950}O^{(j)}\,\rho(F_j;G'_k)+o(1)\quad\text{as }\Delta(G'_k)\to\infty,
 $$
 
-*where $\rho(F_j;G'_k)$ is the local density of the size-5 basis flag $F_j$ (Section 2) and $O^{(j)}=-\mathrm{target}_{j}/\mathrm{L}\geq 0.*
+*where $\rho(F_j;G'_k)$ is the local density of the size-5 basis flag $F_j$ (Section 2) and $O^{(j)}=-\mathrm{target}_{j}/\mathrm{L}\geq 0$.*
 
 *Proof.* Each unordered pair $\{e,e^{\prime}\}$ counted by $|E_{O}(G^{\prime}_{k})|$, together with its connecting incident edge and that edge’s free endpoint, determines the vertex set of an induced size-5 $(2,2)$-coloured subgraph of $G^{\prime}_{k}$; conversely each such subgraph arises from a bounded number of pairs. Grouping by the isomorphism class $j$ of the induced flag, converting the induced counts to the local densities $\rho(F_j;G^{\prime}_{k})$ of Section 2, and collecting the $\binom{\Delta}{k}\sim\Delta^k/k!$ asymptotics (a $1+O(1/\Delta(G^{\prime}_{k}))$ error per summand into the $o(1)$), the objective density $\rho(O;G^{\prime}_{k})=2\,|E_{O}(G^{\prime}_{k})|/\binom{\Delta(G^{\prime}_{k})}{2}^{2}$ of Section 4 equals $\sum_j O^{(j)}\,\rho(F_j;G^{\prime}_{k})+o(1)$, the basis expansion of $O$. Since $\mathrm{target}_{j}\leq 0$, every $O^{(j)}\geq 0$ and both sides are non-negative; the substitution orients the cone identity into the standard form $\lambda\emptyset-O\in\mathcal{C}_{\mathrm{sem}}^{\emptyset}$ of Section 2. $\square$
 
@@ -668,7 +668,7 @@ $$
 
 *where $C_1,C_2$ depend only on $p,k,\delta$; in particular this probability is $1-o(1)$.*
 
-*Proof.* By the previous subsection, the degree-bad event has probability at most $C_1/(n_A n_B)$ and the codegree-bad event at most $C_2/(n_A n_B)$ (as pairs sharing an endpoint contribute $0$). The bounded aspect ratio hypothesis gives $n_A n_B\geq(n^*)^2$, so a union bound over the two bad events leaves failure probability at most $(C_1+C_2)/(n^*)^2$, which tends to $0$. $\hfill\square$
+*Proof.* By the previous subsection, the degree-bad event has probability at most $C_1/(n_A n_B)$ and the codegree-bad event at most $C_2/(n_A n_B)$ (as pairs sharing an endpoint contribute $0$). The bounded aspect ratio hypothesis gives $n_A n_B\geq(n^*)^2$, so a union bound over the two bad events leaves failure probability at most $(C_1+C_2)/(n^*)^2$, which tends to $0$. $\square$
 
 The constant $k$ and the bounded aspect ratio are both essential to the Kim–Vu step underlying $C_1,C_2$: the deviation scale $a_d\sqrt{\mathcal{E}\,\mathcal{E}'}\,\lambda^d$ is of order $(n^*)^{2k-3}\,\mathrm{polylog}(n^*)$ — since $\mathcal{E}=\Theta((n^*)^{2k-2})$ and $\mathcal{E}'=O((n^*)^{2k-4})$ — whereas $\delta\mu_D=\Theta((n^*)^{2k-2})$, so the tail closes with margin $\Theta(\mathrm{polylog}(n^*)/n^*)\to 0$. With $k$ growing or the aspect ratio unbounded this margin is lost.
 

@@ -218,7 +218,7 @@ Let $(A_n)_{n\geqslant 1}$ be sequence of events. Recall that $\limsup_{n\to+\in
 
 **Lemma 3.5.** *(Borel-Cantelli’s First Lemma).* *Let $(A_n)_{n\geqslant 1}$ be sequence of events. Assuming that $\sum_{n=1}^{+\infty}\mathbb{P}[A_n]<+\infty$ then $\mathbb{P}[\limsup_{n\to+\infty}A_n]=0$.*
 
-*Proof.* See theorem 18.1 in [8]. \hfill$\square$
+*Proof.* See theorem 18.1 in [8]. $\square$
 
 **Lemma 3.6.** *Let $b_0,b_1,\ldots,b_n$ be any complex numbers. We have*
 
@@ -228,31 +228,31 @@ $$\int_0^1\left|b_0+\sum_{k=1}^{n}{\rm e}^{i2\pi k\vartheta}b_k\right|\,{\rm d}\
 
 $$\int_0^1\left|b_0+\sum_{k=1}^{n}{\rm e}^{i2\pi k\vartheta}b_k\right|\,{\rm d}\vartheta\geqslant\left|\int_0^1\left(b_0+\sum_{k=1}^{n}{\rm e}^{i2\pi k\vartheta}b_k\right)\,{\rm d}\vartheta\right|=|b_0|.$$
 
-\hfill$\square$
+$\square$
 
 **Lemma 3.7.** *Suppose that the real sequence of random variables and $\sigma$-algebras $\{(Z_n,\mathcal{F}_n)\}_{n\geqslant 0}$ is a supermartingale. Then, for every $n,m$ integers such that $n\geqslant m$, we have*
 
 $$\mathbb{E}[Z_n\mid\mathcal{F}_m]\leqslant Z_m.$$
 
-*Proof.* See theorem 10.2.1 in [8]. \hfill$\square$
+*Proof.* See theorem 10.2.1 in [8]. $\square$
 
 **Lemma 3.8.** *(Doob’s inequality).* *Let $a>0$. Suppose that the real sequence of random variables and $\sigma$-algebras $\{(Z_n,\mathcal{F}_n)\}_{n\geqslant 0}$ is a nonnegative submartingale (resp. super-martingale). Then*
 
 $$\mathbb{P}\left[\max_{0\leqslant j\leqslant n}Z_j>a\right]\leqslant\frac{\mathbb{E}[Z_n]}{a}\left(\text{resp. }\mathbb{P}\left[\max_{0\leqslant j\leqslant n}Z_j>a\right]\leqslant\frac{\mathbb{E}[Z_0]}{a}\right).$$
 
-*Proof.* See theorem 9.1 in [8]. \hfill$\square$
+*Proof.* See theorem 9.1 in [8]. $\square$
 
 **Lemma 3.9.** *(Doob’s $L^r$-inequality).* *Let $r>1$. Suppose that the sequence of real random variables and $\sigma$-algebras $\{(Z_n,\mathcal{F}_n)\}_{0\leqslant n\leqslant N}$ is nonnegative submartingale bounded in $L^r$. Then*
 
 $$\mathbb{E}\left[\left(\max_{0\leqslant n\leqslant N}Z_n\right)^r\right]\leqslant\left(\frac{r}{r-1}\right)^r\max_{0\leqslant n\leqslant N}\mathbb{E}[Z_n^r].$$
 
-*Proof.* See theorem 9.4 in [8]. \hfill$\square$
+*Proof.* See theorem 9.4 in [8]. $\square$
 
 **Lemma 3.10.** *Let $a\geqslant 1$. For any integer $n\geqslant 1$, let $G_1,\ldots,G_n$ be an independent real Gaussian random variables, each having mean $0$ and variance between $\frac{1}{20}$ and $20$. Then*
 
 $$\mathbb{P}\left[\sum_{m=1}^{k}G_m\leqslant a+2\log k+O(1)\text{ for all }k\leqslant n\right]\asymp\min\left\{1,\frac{a}{\sqrt{n}}\right\}.$$
 
-*Proof.* This is Probability Result 1 in [11]. \hfill$\square$
+*Proof.* This is Probability Result 1 in [11]. $\square$
 
 ### 3.3 New Tools.
 
@@ -1291,7 +1291,7 @@ $$
 \sum_{\ell\geqslant 1}2^{\frac{K}{2}\frac{\log\ell}{\log 2}+\frac{1}{c_0}\ell^K+K\ell^{K-1}-r'(\ell-1)^K-\ell^K}.
 $$
 
-Thus, the sum $\sum_{\ell\geqslant 1}\mathbb{P}^{(2)}_{\ell}$ converges. \hfill$\square$
+Thus, the sum $\sum_{\ell\geqslant 1}\mathbb{P}^{(2)}_{\ell}$ converges. $\square$
 
 ### 7.7 Convergence of $\sum_{\ell\geqslant 1}\mathbb{P}[\mathcal{B}^{(1)}_{\ell}]$
 

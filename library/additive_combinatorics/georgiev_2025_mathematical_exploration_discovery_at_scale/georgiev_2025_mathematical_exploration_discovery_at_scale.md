@@ -150,81 +150,81 @@ Contents 9
 7. Classical inequalities 27  
 8. The Ovals problem 29
 
-9. Sendov’s conjecture and its variants \hfill 30
+9. Sendov’s conjecture and its variants 30
 
-10. Crouzeix’s conjecture \hfill 34
+10. Crouzeix’s conjecture 34
 
-11. Sidorenko’s conjecture \hfill 35
+11. Sidorenko’s conjecture 35
 
-12. The prime number theorem \hfill 35
+12. The prime number theorem 35
 
-13. Flat polynomials and Golay’s merit factor conjecture \hfill 36
+13. Flat polynomials and Golay’s merit factor conjecture 36
 
-14. Blocks Stacking \hfill 38
+14. Blocks Stacking 38
 
-15. The arithmetic Kakeya conjecture \hfill 41
+15. The arithmetic Kakeya conjecture 41
 
-16. Furstenberg–Sárközy theorem \hfill 41
+16. Furstenberg–Sárközy theorem 41
 
-17. Spherical designs \hfill 42
+17. Spherical designs 42
 
-18. The Thomson and Tammes problems \hfill 44
+18. The Thomson and Tammes problems 44
 
-19. Packing problems \hfill 46
+19. Packing problems 46
 
-20. The Turán number of the tetrahedron \hfill 48
+20. The Turán number of the tetrahedron 48
 
-21. Factoring $N!$ into $N$ numbers \hfill 49
+21. Factoring $N!$ into $N$ numbers 49
 
-22. Beat the average game \hfill 50
+22. Beat the average game 50
 
-23. Erdős discrepancy problem \hfill 51
+23. Erdős discrepancy problem 51
 
-24. Points on sphere maximizing the volume \hfill 51
+24. Points on sphere maximizing the volume 51
 
-25. Sums and differences problems \hfill 52
+25. Sums and differences problems 52
 
-26. Sum-product problems \hfill 53
+26. Sum-product problems 53
 
-27. Triangle density in graphs \hfill 54
+27. Triangle density in graphs 54
 
-28. Matrix multiplications and AM-GM inequalities \hfill 55
+28. Matrix multiplications and AM-GM inequalities 55
 
-29. Heilbronn problems \hfill 56
+29. Heilbronn problems 56
 
-30. Max to min ratios \hfill 57
+30. Max to min ratios 57
 
-31. Erdős–Gyárfás conjecture \hfill 58
+31. Erdős–Gyárfás conjecture 58
 
-32. Erdős squarefree problem \hfill 58
+32. Erdős squarefree problem 58
 
-33. Equidistant points in convex polygons \hfill 59
+33. Equidistant points in convex polygons 59
 
-34. Pairwise touching cylinders \hfill 59
+34. Pairwise touching cylinders 59
 
-35. Erdős squares in a square problem \hfill 60
+35. Erdős squares in a square problem 60
 
-36. Good asymptotic constructions of Szemerédi–Trotter \hfill 60
+36. Good asymptotic constructions of Szemerédi–Trotter 60
 
-37. Rudin problem for polynomials \hfill 61
+37. Rudin problem for polynomials 61
 
-38. Erdős–Szekeres Happy Ending problem \hfill 62
+38. Erdős–Szekeres Happy Ending problem 62
 
-39. Subsets of the grid with no isosceles triangles \hfill 63
+39. Subsets of the grid with no isosceles triangles 63
 
-40. The “no 5 on a sphere” problem \hfill 63
+40. The “no 5 on a sphere” problem 63
 
-41. The Ring Loading Problem \hfill 64
+41. The Ring Loading Problem 64
 
-42. Moving sofa problem \hfill 65
+42. Moving sofa problem 65
 
-43. International Mathematical Olympiad (IMO) 2025: Problem 6 \hfill 66
+43. International Mathematical Olympiad (IMO) 2025: Problem 6 66
 
-44. Bonus: Letting AlphaEvolve write code that can call LLMs \hfill 69
+44. Bonus: Letting AlphaEvolve write code that can call LLMs 69
 
-44.1. The function guessing game \hfill 69
+44.1. The function guessing game 69
 
-44.2. Smullyan-type logic puzzles \hfill 70
+44.2. Smullyan-type logic puzzles 70
 
 1. **Finite field Kakeya and Nikodym sets.**
 
@@ -1205,18 +1205,17 @@ Using our *generalizer mode* after one or two iterations AlphaEvolve produced th
 
     Once all $x_k$ are determined, we need to find the optimal value for $P$.
     The constraints on $P$ are:
-    *   $P + x_k > 0$ for all $k$. This implies $P > \max_{k} (-x_k)$.
+    *   P + x_k > 0 for all $k$. This implies $P > \max_{k} (-x_k)$.
     Let $P_{lower_bound} = \max(0.0, \max_k (-x_k))$.
     *   $n \cdot (P - 0.5) + \sum_{k=0}^{n-1} x_k < 0.0 - n \cdot \text{FLOAT_TOLERANCE} / 2$
+    (to satisfy the strict inequality).
+    This implies $P < 0.5 - \left(\sum_{k=0}^{n-1} x_k\right) / n - \text{FLOAT_TOLERANCE} / 2$.
+    Let $P_{upper_bound_target} = 0.5 - \left(\sum_{k=0}^{n-1} x_k\right) / n$.
 
-(to satisfy the strict inequality).
-This implies $P < 0.5 - \left(\sum_{k=0}^{n-1} x_k\right) / n - \text{FLOAT_TOLERANCE} / 2$.
-Let $P_{upper_bound_target} = 0.5 - \left(\sum_{k=0}^{n-1} x_k\right) / n$.
-
-To maximize $P$, we choose $P = P_{upper_bound_target} - \delta$, where $\delta$ is a small
-positive value chosen to satisfy the strict inequality
-(sum_all_avg < 0.0 - FLOAT_TOLERANCE). By setting sum_all_avg = -2 * FLOAT_TOLERANCE, we
-ensure this condition is met. Thus, we pick $\delta = 2 \cdot \text{FLOAT_TOLERANCE}$.
+    To maximize $P$, we choose $P = P_{upper_bound_target} - \delta$, where $\delta$ is a small
+    positive value chosen to satisfy the strict inequality
+    (sum_all_avg < 0.0 - FLOAT_TOLERANCE). By setting sum_all_avg = -2 * FLOAT_TOLERANCE, we
+    ensure this condition is met. Thus, we pick $\delta = 2 \cdot \text{FLOAT_TOLERANCE}$.
 
 The corresponding AlphaEvolve suggestion is:
 

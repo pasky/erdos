@@ -28,7 +28,7 @@ $^{*}$ A preliminary version appeared in the proceedings of the 49th Internation
 
 In this paper, we initiate the study of the “upper” version of this graph invariant, the *upper clique transversal number*, denoted by $\tau_c^+(G)$ and defined as the maximum size of a minimal clique transversal, where a clique transversal in a graph $G$ is said to be *minimal* if it does not contain any other clique transversal. The corresponding decision problem is defined as follows.
 
-\textsc{Upper Clique Transversal (UCT)}
+Upper Clique Transversal (UCT)
 
 *Input:* A graph $G$ and an integer $k$.
 
@@ -38,7 +38,7 @@ Our study contributes to the literature on upper variants of graph minimization 
 
 ### Our results
 
-We provide a first set of results on the algorithmic complexity of \textsc{Upper Clique Transversal}. Since clique transversals have been mostly studied in the class of chordal graphs and related classes, we also find it natural to first focus on this interesting graph class and its subclasses. In this respect, we provide an NP-completeness result as well as two very different linear-time algorithms. We show that UCT is NP-complete in the class of chordal graphs, but solvable in linear time in the classes of split graphs and proper interval graphs. Note that the result for split graphs is in contrast with the aforementioned NP-hardness result for computing the clique transversal number in the same class of graphs [21]. In addition, we provide NP-completeness proofs for three more subclasses of the class of perfect graphs, namely for chordal bipartite graphs, cubic planar bipartite graphs, and line graphs of bipartite graphs. We also show that UCT is solvable in linear time in the class of cographs and in polynomial time in any class of graphs with bounded cliquewidth.
+We provide a first set of results on the algorithmic complexity of Upper Clique Transversal. Since clique transversals have been mostly studied in the class of chordal graphs and related classes, we also find it natural to first focus on this interesting graph class and its subclasses. In this respect, we provide an NP-completeness result as well as two very different linear-time algorithms. We show that UCT is NP-complete in the class of chordal graphs, but solvable in linear time in the classes of split graphs and proper interval graphs. Note that the result for split graphs is in contrast with the aforementioned NP-hardness result for computing the clique transversal number in the same class of graphs [21]. In addition, we provide NP-completeness proofs for three more subclasses of the class of perfect graphs, namely for chordal bipartite graphs, cubic planar bipartite graphs, and line graphs of bipartite graphs. We also show that UCT is solvable in linear time in the class of cographs and in polynomial time in any class of graphs with bounded cliquewidth.
 
 The diagram in Figure 1 summarizes the relationships between various graph classes studied in this paper and indicates some boundaries of tractability of the UCT problem. We define those graph classes in the corresponding later sections in the paper. For further background and references on graph classes, we refer to [18].
 
@@ -52,7 +52,7 @@ We identify and make use of a number of connections between the upper clique tra
 
 Since the upper vertex cover number of a graph $G$ plus the independent domination number of $G$ equals the order of $G$, there is also a connection with the independent dominating set problem. Let us note that, along with a linear-time algorithm for computing a minimum independent set in a tree [11], the above observations suffice to justify the polynomial-time solvability of the upper clique transversal problem on trees, as indicated in Figure 1. They are also instrumental in the NP-completeness proofs for the classes of chordal bipartite graphs and cubic planar bipartite graphs.
 
-The NP-completeness proofs for the classes of chordal graphs and line graphs of bipartite graphs are based on a reduction from \textsc{Spanning Star Forest}, the problem of computing a spanning subgraph with as many edges as possible that consists of disjoint stars; this problem, in turn, is known to be closely related to the dominating set problem.
+The NP-completeness proofs for the classes of chordal graphs and line graphs of bipartite graphs are based on a reduction from Spanning Star Forest, the problem of computing a spanning subgraph with as many edges as possible that consists of disjoint stars; this problem, in turn, is known to be closely related to the dominating set problem.
 
 The linear-time algorithm for computing the upper clique transversal number of proper interval graphs relies on a linear-time algorithm for the maximum induced matching problem in bipartite permutation graphs due to Chang [22]. More precisely, we prove that the upper clique transversal number of a given graph cannot exceed the maximum size of an induced matching of a derived bipartite graph, the *vertex-clique incidence graph*, and show, using new insights on the properties of the matching computed by Chang’s algorithm, that for proper interval graphs, the two quantities are the same.
 
@@ -178,7 +178,7 @@ Since $S'$ is a minimal clique transversal of $G'$, for each edge $e\in E$ exact
 
 ## 4 A linear-time algorithm for UCT in split graphs
 
-A *split graph* is a graph that has a *split partition*, that is, a partition of its vertex set into a clique and an independent set. We denote a split partition of a split graph $G$ as $(K,I)$ where $K$ is a clique, $I$ is an independent set, $K\cap I=\emptyset$, and $K\cup I=V(G)$. We may assume without loss of generality that $I$ is a maximal independent set. Indeed, if this is not the case, then $K contains a vertex $v$ that has no neighbors in $I$, and $(K \setminus \{v\}, I \cup \{v\})$ is a split partition of $G$ such that $I \cup \{v\}$ is a maximal independent set. In what follows, we repeatedly use the structure of maximal cliques of split graphs. If $G$ is a split graph with a split partition $(K,I)$, then the maximal cliques of $G$ are as follows: the closed neighborhoods $N[v]$, for all $v \in I$, and the clique $K$, provided that it is a maximal clique, that is, every vertex in $I$ has a non-neighbor in $K$.
+A *split graph* is a graph that has a *split partition*, that is, a partition of its vertex set into a clique and an independent set. We denote a split partition of a split graph $G$ as $(K,I)$ where $K$ is a clique, $I$ is an independent set, $K\cap I=\emptyset$, and $K\cup I=V(G)$. We may assume without loss of generality that $I$ is a maximal independent set. Indeed, if this is not the case, then $K$ contains a vertex $v$ that has no neighbors in $I$, and $(K \setminus \{v\}, I \cup \{v\})$ is a split partition of $G$ such that $I \cup \{v\}$ is a maximal independent set. In what follows, we repeatedly use the structure of maximal cliques of split graphs. If $G$ is a split graph with a split partition $(K,I)$, then the maximal cliques of $G$ are as follows: the closed neighborhoods $N[v]$, for all $v \in I$, and the clique $K$, provided that it is a maximal clique, that is, every vertex in $I$ has a non-neighbor in $K$.
 
 Given a graph $G$ and a set of vertices $S \subseteq V(G)$, we denote by $N(S)$ the set of all vertices in $V(G) \setminus S$ that have a neighbor in $S$. Moreover, given a vertex $v \in S$, an $S$-private neighbor of $v$ is any vertex $w \in N(S)$ such that $N(w) \cap S = \{v\}$. The following proposition characterizes minimal clique transversals of split graphs.
 
@@ -220,7 +220,7 @@ Let $w$ be the unique vertex in $K^{\prime}$. Since Condition (ii) from Proposit
 
 Since $I$ is a maximal independent set and $K$ is nonempty, we have $\delta_G(I,K)\geq 1$. Thus, $\tau_c^+(G)\leq\alpha(G)$. Suppose that $K$ is not a maximal clique in $G$. Then $I$ is a minimal clique transversal in $G$ and therefore $\tau_c^+(G)\geq|I|=\alpha(G)\geq\tau_c^+(G)$. Hence equalities must hold throughout and $I$ is a maximum minimal clique transversal. Finally, suppose that $K$ is a maximal clique in $G$. Then every minimal clique transversal $S$ in $G$ satisfies $S \cap K \neq \emptyset$. In this case, the above analysis shows that for every vertex $v \in K$ with the smallest number of neighbors in $I$, the set $\{v\} \cup (I \setminus N(v))$ is a maximum minimal clique transversal in $G$. $\square$
 
-**Corollary 4.3.** *\textsc{Upper Clique Transversal} can be solved in linear time in the class of split graphs.*
+**Corollary 4.3.** *Upper Clique Transversal can be solved in linear time in the class of split graphs.*
 
 *Proof.* Let $G=(V,E)$ be a given split graph. Hammer and Simeone showed that split graphs can be characterized by their degree sequences; furthermore, that characterization yields a linear-time algorithm to compute a split partition $(K,I)$ of $G$ (see [44]). If there exists a vertex in $K$ that is not adjacent to $I$, then we move it to $I$. Thus, in linear time we can compute a split partition $(K,I)$ of $G$ such that $I$ is a maximal independent set. Clearly, $K$ is a maximal clique if and only if no vertex in $I$ is adjacent to all vertices of $G$. If $K$ is not a maximal clique, then the algorithm simply returns $I$. If $K$ is a maximal clique, then the algorithm first computes, for each vertex $v \in K$, the number of neighbors of $v$ in $I$. For a vertex $v \in K$ with the smallest number of neighbors in $I$, the set $\{v\} \cup (I \setminus N(v))$ is returned. $\square$
 
@@ -230,7 +230,7 @@ Since $I$ is a maximal independent set and $K$ is nonempty, we have $\delta_G(I,
 
 A graph $G=(V,E)$ is an *interval graph* if it has an *interval representation*, that is, if its vertices can be put in a one-to-one correspondence with a family $(I_v : v \in V)$ of closed intervals on the real line such that two distinct vertices $u$ and $v$ are adjacent if and only if the corresponding intervals $I_u$ and $I_v$ intersect. If $G$ has a *proper interval representation*, that is, an interval representation in which no interval contains another, then $G$ is said to be a *proper interval graph*.
 
-Our approach towards a linear-time algorithm for *\textsc{Upper Clique Transversal}* in the class of proper interval graphs is based on a relation between clique transversals in $G$ and induced matchings in the so-called vertex-clique incidence graph of $G$. This relation is valid for arbitrary graphs.
+Our approach towards a linear-time algorithm for *Upper Clique Transversal* in the class of proper interval graphs is based on a relation between clique transversals in $G$ and induced matchings in the so-called vertex-clique incidence graph of $G$. This relation is valid for arbitrary graphs.
 
 ### 5.1 UCT via induced matchings in the vertex-clique incidence graph
 
@@ -369,7 +369,7 @@ The following result is a consequence of Theorem 3.7 and the fact that every pro
 
 We now have everything ready to prove the announced result.
 
-**Theorem 5.12.** *\textsc{Upper Clique Transversal} can be solved in linear time in the class of proper interval graphs.*
+**Theorem 5.12.** *Upper Clique Transversal can be solved in linear time in the class of proper interval graphs.*
 
 *Proof.* The algorithm proceeds in three steps. In the first step, we compute from the input graph $G=(V,E)$ its vertex-clique incidence graph $B_G$, with parts $X=V$ and $Y=\mathcal{C}_G$. By Theorem 5.8, the graph $B_G$ is a bipartite permutation graph. In the second step of the algorithm, we compute a maximum induced matching $M$ of $B_G$, using Theorem 5.10. Finally, the algorithm returns the set of $M$-saturated vertices in $X$. The pseudocode is given as Algorithm 2.
 
@@ -438,11 +438,11 @@ For any positive integer $k$, many NP-hard decision and optimization problems on
 
 The recursive structure of cographs implies that cographs have cliquewidth at most 2. Thus, the next theorem is a generalization of Theorem 6.1.
 
-**Theorem 7.1.** *For every positive integer $k$, \textsc{Upper Clique Transversal} can be solved in linear time in the class of graphs of cliquewidth at most $k$ if the input graph is given with a $k$-expression.*
+**Theorem 7.1.** *For every positive integer $k$, Upper Clique Transversal can be solved in linear time in the class of graphs of cliquewidth at most $k$ if the input graph is given with a $k$-expression.*
 
-*Proof.* It suffices to show that \textsc{Upper Clique Transversal} can be defined in $\mathrm{MSO}_1$, as the theorem will then follow from the result of Courcelle, Makowsky, and Rotics ([28, Theorem 4]).
+*Proof.* It suffices to show that Upper Clique Transversal can be defined in $\mathrm{MSO}_1$, as the theorem will then follow from the result of Courcelle, Makowsky, and Rotics ([28, Theorem 4]).
 
-To show that \textsc{Upper Clique Transversal} can be defined in $\mathrm{MSO}_1$, we construct a fixed $\mathrm{MSO}_1$-formula $\varphi$ such that for any graph $G$ and a set $X\subseteq V(G)$, $(G,X)\models\varphi$ if and only if $X$ is a minimal clique transversal in $G$. The graph $G$ is represented with the universe $V$ (the set of vertices), with one variable per vertex, and the binary adjacency relation $E$. Set variables are represented with capital letters, and the membership relation $v\in X$ is written as a unary relation $X(v)$. The formula $\varphi$ is composed from the following simpler formulas, as follows.
+To show that Upper Clique Transversal can be defined in $\mathrm{MSO}_1$, we construct a fixed $\mathrm{MSO}_1$-formula $\varphi$ such that for any graph $G$ and a set $X\subseteq V(G)$, $(G,X)\models\varphi$ if and only if $X$ is a minimal clique transversal in $G$. The graph $G$ is represented with the universe $V$ (the set of vertices), with one variable per vertex, and the binary adjacency relation $E$. Set variables are represented with capital letters, and the membership relation $v\in X$ is written as a unary relation $X(v)$. The formula $\varphi$ is composed from the following simpler formulas, as follows.
 
 - First, we have a formula $\varphi_1$ such that $(G,X)\models\varphi_1$ if and only if $X$ is a clique in $G$, that is, any two distinct vertices in $X$ are adjacent. In formulae:
 
@@ -466,13 +466,13 @@ $$
 \varphi(G,X)\equiv\varphi_3(G,X)\wedge(\forall x)(X(x)\Rightarrow(\neg\varphi_3(G,X\setminus\{x\})))\,.
 $$
 
-This completes the proof. \hfill $\square$
+This completes the proof. $\square$
 
-Since every problem that can be defined in $\mathrm{MSO}_1$ can also be expressed in the more general logic $\mathrm{MSO}_2$ (where one can quantify over sets of vertices as well as sets of edges), a result by Arnborg, Lagergren, and Seese [5] applies, stating that in any class of graphs with bounded treewidth, any optimization problem expressible in $\mathrm{MSO}_2$ can be solved in linear time. The result assumes that the graph is equipped with a tree decomposition of bounded width; however, as shown by Bodlaender [12], such a tree decomposition can be computed in linear time. Therefore, \textsc{Upper Clique Transversal} can be solved in linear time in any class of graphs with bounded treewidth (which is not surprising, given Theorem 7.1 and the fact that bounded treewidth implies bounded cliquewidth).
+Since every problem that can be defined in $\mathrm{MSO}_1$ can also be expressed in the more general logic $\mathrm{MSO}_2$ (where one can quantify over sets of vertices as well as sets of edges), a result by Arnborg, Lagergren, and Seese [5] applies, stating that in any class of graphs with bounded treewidth, any optimization problem expressible in $\mathrm{MSO}_2$ can be solved in linear time. The result assumes that the graph is equipped with a tree decomposition of bounded width; however, as shown by Bodlaender [12], such a tree decomposition can be computed in linear time. Therefore, Upper Clique Transversal can be solved in linear time in any class of graphs with bounded treewidth (which is not surprising, given Theorem 7.1 and the fact that bounded treewidth implies bounded cliquewidth).
 
 ## 8 Conclusion
 
-We performed a systematic study of the complexity of \textsc{Upper Clique Transversal} in various graph classes, showing, on the one hand, NP-completeness of the problem in the classes of chordal graphs, chordal bipartite graphs, and line graphs of bipartite graphs, and, on the other hand, linear-time solvability in the classes of split graphs and proper interval graphs.
+We performed a systematic study of the complexity of Upper Clique Transversal in various graph classes, showing, on the one hand, NP-completeness of the problem in the classes of chordal graphs, chordal bipartite graphs, and line graphs of bipartite graphs, and, on the other hand, linear-time solvability in the classes of split graphs and proper interval graphs.
 
 Our work leaves open several questions.
 
@@ -480,9 +480,9 @@ Our work leaves open several questions.
 
 UCT can be solved in polynomial time in classes of graphs with bounded cliquewidth. It is an interesting question whether similar results can be derived for other width parameters generalizing treewidth, such as tree-independence number [32, 76], mim-width [73], their common generalization sim-width [50], and twin-width [13]. Our NP-completeness result for UCT in chordal graphs (Theorem 3.8) implies that UCT is NP-hard for graphs with tree-independence number at most one (see [32]) and consequently for graphs with sim-width at most one (see [66, Lemma 5]). Similarly, the NP-completeness result for UCT in bipartite planar graphs (Theorem 3.3) implies that UCT is NP-hard for graphs with twin-width at most 6 (see [47]). However, the question regarding the complexity of UCT for graph classes with bounded mim-width remains open, even in the following special case.
 
-**Question 2.** *What is the complexity of \textsc{Upper Clique Transversal} in the class of interval graphs?*
+**Question 2.** *What is the complexity of Upper Clique Transversal in the class of interval graphs?*
 
-Let us note, however, that due to the connection with \textsc{Independent Dominating Set} (cf. the proof of Theorem 3.3) and known algorithmic results for graphs of bounded mim-width (see [8, 20]), UCT is polynomial-time solvable in any class of triangle-free graphs in which mim-width is bounded and quickly computable, for example, for circular convex graphs (see [15]).
+Let us note, however, that due to the connection with Independent Dominating Set (cf. the proof of Theorem 3.3) and known algorithmic results for graphs of bounded mim-width (see [8, 20]), UCT is polynomial-time solvable in any class of triangle-free graphs in which mim-width is bounded and quickly computable, for example, for circular convex graphs (see [15]).
 
 By Corollary 5.2, the upper clique transversal number of any graph $G$ is bounded from above by the induced matching number of its vertex-clique incidence graph $B_G$. Theorem 5.13 shows that this upper bound is attained with equality if $G$ is a proper interval graph. This motivates the following.
 
@@ -496,7 +496,7 @@ The upper clique transversal number is a trivial upper bound for the clique tran
 
 The focus of our paper was on classical complexity, in the sense that the aim was to understand which restrictions on the input graphs result in polynomially solvable cases. It would be natural to explore the complexity of the UCT problem also in terms of other measures, for example with respect to parameterized complexity and approximability. Regarding parameterized complexity, Theorem 7.1 leads to an FPT algorithm for the UCT problem when parameterized by the cliquewidth of the graph. It may be interesting to study the question with respect to other parameters, including the upper clique transversal number.
 
-**Question 5.** *What is the parameterized complexity of \textsc{Upper Clique Transversal} with respect to its natural parameterization?*
+**Question 5.** *What is the parameterized complexity of Upper Clique Transversal with respect to its natural parameterization?*
 
 Using hypergraph techniques, it can be shown that the problem is in XP, see [17].
 

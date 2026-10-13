@@ -294,7 +294,7 @@ $$
 d\gg k\exp\left(-(2+o(1))\sqrt{\frac{\log k}{\log\log k}}\right),
 $$
 
-which is the desired estimate. \hfill $\square$
+which is the desired estimate. $\square$
 
 ## 3. A SIEVE-THEORETIC PARTITION
 
@@ -803,7 +803,7 @@ $$
 \gcd(t,s)=1\end{subarray}}|\widehat{x}(t)|^2\geq 0.
 $$
 
-\hfill $\square$
+$\square$
 
 *Proof of Proposition 2.2.* Fix $i\in\mathcal{I}$. Let us consider the following expression:
 

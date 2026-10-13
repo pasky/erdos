@@ -190,7 +190,7 @@ $$
 
 So $S_1$ is a 1-spanning subset of $[N]$ if and only if $(3^{\lfloor \log_3 N \rfloor + 1} - 1)/2 \geq N$, that is, if and only if $\{\log_3 N\} < 1 - \log_3 2$. In particular, (ii) implies (i).
 
-Now if (i) holds, then we claim that $S_1$ is in fact *minimum* 1-spanning for $[N]$. Indeed, any 1-spanning subset $S$ of $[N]$ must satisfy $N \leq $(3^{|S|} - 1)/2$, since to cover $[N]$ with $[-1,1]$-combinations of $S$ we only use the combinations with positive value. Hence $|S| \geq \log_3(2N+1) > \log_3 N \geq \lfloor \log_3 N\rfloor$, so indeed $|S| \geq \lfloor \log_3 N\rfloor + 1 = |S_1|$. Finally, note that $S_1$ is dissociated, so by Lemma 3.2 it is maximal dissociated in $[N]$. We have thus shown that (ii) holds. $\blacksquare$
+Now if (i) holds, then we claim that $S_1$ is in fact *minimum* 1-spanning for $[N]$. Indeed, any 1-spanning subset $S$ of $[N]$ must satisfy $N \leq (3^{|S|} - 1)/2$, since to cover $[N]$ with $[-1,1]$-combinations of $S$ we only use the combinations with positive value. Hence $|S| \geq \log_3(2N+1) > \log_3 N \geq \lfloor \log_3 N\rfloor$, so indeed $|S| \geq \lfloor \log_3 N\rfloor + 1 = |S_1|$. Finally, note that $S_1$ is dissociated, so by Lemma 3.2 it is maximal dissociated in $[N]$. We have thus shown that (ii) holds. $\blacksquare$
 
 We now treat the second case.
 

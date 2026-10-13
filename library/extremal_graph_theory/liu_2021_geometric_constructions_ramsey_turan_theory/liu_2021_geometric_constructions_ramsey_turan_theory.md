@@ -229,31 +229,31 @@ $$
 0<1/k\ll\varepsilon\ll1/K\ll1/p,\qquad \mu:=\varepsilon/\sqrt{2k},\qquad \text{and}\qquad n\geq\left(\frac{4C_{2.4}}{\mu}\right)^{2k},\tag{4}
 $$
 
-where $C_{2.4}$ is the constant obtained from Lemma 2.4. Using the isometry $\varphi$ in (3) and Lemma 2.4, we can partition $\mathsf{S}^{k-1}(\mathbb{C})$ into $n$ domains $D_1,\ldots,D_n$ with equal measure and diameter at most $\frac{\mu}{4}$. Next, for all $i\in[n]$, choose two arbitrary points $\mathbold{w}_i,\mathbold{z}_i\in D_i$, and let $W:=\{\mathbold{w}_1,\ldots,\mathbold{w}_n\}$ and $Z:=\{\mathbold{z}_1,\ldots,\mathbold{z}_n\}$. Set $\rho:=\cos(2\pi/p)+i\sin(2\pi/p)$ to be the primitive $p$-th root of unity. Note that $\mathbold{w}\mapsto\rho\mathbold{w}$ rotates $\mathsf{S}^{k-1}(\mathbb{C})$. The edge set of $G$ is defined as follows (see also Figure 2).
+where $C_{2.4}$ is the constant obtained from Lemma 2.4. Using the isometry $\varphi$ in (3) and Lemma 2.4, we can partition $\mathsf{S}^{k-1}(\mathbb{C})$ into $n$ domains $D_1,\ldots,D_n$ with equal measure and diameter at most $\frac{\mu}{4}$. Next, for all $i\in[n]$, choose two arbitrary points $\boldsymbol{w}_i,\boldsymbol{z}_i\in D_i$, and let $W:=\{\boldsymbol{w}_1,\ldots,\boldsymbol{w}_n\}$ and $Z:=\{\boldsymbol{z}_1,\ldots,\boldsymbol{z}_n\}$. Set $\rho:=\cos(2\pi/p)+i\sin(2\pi/p)$ to be the primitive $p$-th root of unity. Note that $\boldsymbol{w}\mapsto\rho\boldsymbol{w}$ rotates $\mathsf{S}^{k-1}(\mathbb{C})$. The edge set of $G$ is defined as follows (see also Figure 2).
 
-**B1** Two vertices $\mathbold{w},\mathbold{w}'\in W$ form an edge if and only if there exists $h\in[p-1]$ such that
+**B1** Two vertices $\boldsymbol{w},\boldsymbol{w}'\in W$ form an edge if and only if there exists $h\in[p-1]$ such that
 
 $$
-\left|\mathbold{w}-\rho^h\mathbold{w}'\right|\leq\sqrt{\mu}.
+\left|\boldsymbol{w}-\rho^h\boldsymbol{w}'\right|\leq\sqrt{\mu}.
 $$
 
-Define $E(G[Z])$ similarly. For such a pair, we say $\mathbold{w}$ is an $h$-rotation of $\mathbold{w}'$.
+Define $E(G[Z])$ similarly. For such a pair, we say $\boldsymbol{w}$ is an $h$-rotation of $\boldsymbol{w}'$.
 
-**B2** A cross pair $(\mathbold{w}_i,\mathbold{z}_j)\in W\times Z$ forms an edge if and only if the following hold.
+**B2** A cross pair $(\boldsymbol{w}_i,\boldsymbol{z}_j)\in W\times Z$ forms an edge if and only if the following hold.
 
 (i) For all $h\in\mathbb{Z}_p$,
 
 $$
-\left|\operatorname{Im}\left(\rho^h\langle\mathbold{w}_i,\mathbold{z}_j\rangle\right)\right|\geq K\mu.
+\left|\operatorname{Im}\left(\rho^h\langle\boldsymbol{w}_i,\boldsymbol{z}_j\rangle\right)\right|\geq K\mu.
 $$
 
 (ii) There exists $\alpha\in\left[0,\frac{2\pi\ell}{p}\right]$ such that
 
 $$
-e^{-i\alpha}\langle\mathbold{w}_i,\mathbold{z}_j\rangle\in[0,1].
+e^{-i\alpha}\langle\boldsymbol{w}_i,\boldsymbol{z}_j\rangle\in[0,1].
 $$
 
-**Figure 2:** An illustration of the position of $\langle\mathbold{w}_{i},\mathbold{z}_{j}\rangle$ for $p=3$. The pink stripes are the ones excluded in **B2(i)**; while the dark regions correspond to **B2(ii)**.
+**Figure 2:** An illustration of the position of $\langle\boldsymbol{w}_{i},\boldsymbol{z}_{j}\rangle$ for $p=3$. The pink stripes are the ones excluded in **B2(i)**; while the dark regions correspond to **B2(ii)**.
 
 [[figure: Unit circle in the complex plane with real and imaginary axes, marked points $\rho$, $\rho^2$, and $1$, pink excluded stripes, and dark shaded regions.]]
 
@@ -261,7 +261,7 @@ $$
 
 In this subsection, using isoperimetry and concentration of measure, we shall derive that the inner graphs $G[W], G[Z]$ are $K_{p+1}$-free graphs (Lemma 3.1) with sublinear $p$-independence number (Lemma 3.2) and zero edge density (Lemma 3.4), thus verifying **A1** and **A2**.
 
-**Lemma 3.1.** Let $\mathbold{w}_{i},\mathbold{w}_{j},\mathbold{w}_{t}\in W$ span a triangle in $G$. If $\mathbold{w}_{i},\mathbold{w}_{j}$ are an $h_{i}$- and $h_{j}$-rotation of $\mathbold{w}_{t}$ respectively, then $\mathbold{w}_{i}$ is an $(h_{i}-h_{j})$-rotation of $\mathbold{w}_{j}$ and $h_{i}\neq h_{j}$.
+**Lemma 3.1.** Let $\boldsymbol{w}_{i},\boldsymbol{w}_{j},\boldsymbol{w}_{t}\in W$ span a triangle in $G$. If $\boldsymbol{w}_{i},\boldsymbol{w}_{j}$ are an $h_{i}$- and $h_{j}$-rotation of $\boldsymbol{w}_{t}$ respectively, then $\boldsymbol{w}_{i}$ is an $(h_{i}-h_{j})$-rotation of $\boldsymbol{w}_{j}$ and $h_{i}\neq h_{j}$.
 
 Consequently, $G[W]$ is $K_{p+1}$-free. The same holds for $Z$.
 
@@ -269,15 +269,15 @@ Consequently, $G[W]$ is $K_{p+1}$-free. The same holds for $Z$.
 
 $$|1-\rho^{m}|^{2}=2-2\cos\left(2\pi m/p\right)\geq 2-2\cos\left(2\pi/p\right)=4\sin^{2}\left(\pi/p\right)\geq\left(4/p\right)^{2}, \tag{5}$$
 
-as $\sin x\geq\frac{2x}{\pi}$ for all $x\in[0,\frac{\pi}{2}]$ by concavity. By **B1**, there is $h\in[p-1]$ such that $\mathbold{w}_{i}$ is an $h$-rotation of $\mathbold{w}_{j}$. Recall that vertices of $G$, viewed as points in $\mathsf{S}^{k-1}(\mathbb{C})$, all have modulus 1. So
+as $\sin x\geq\frac{2x}{\pi}$ for all $x\in[0,\frac{\pi}{2}]$ by concavity. By **B1**, there is $h\in[p-1]$ such that $\boldsymbol{w}_{i}$ is an $h$-rotation of $\boldsymbol{w}_{j}$. Recall that vertices of $G$, viewed as points in $\mathsf{S}^{k-1}(\mathbb{C})$, all have modulus 1. So
 
-$$\begin{aligned}|1-\rho^{h_{i}-h_{j}-h}|&=|\rho^{h}\mathbold{w}_{j}-\rho^{h_{i}-h_{j}}\mathbold{w}_{j}|\\
-&\leq|\mathbold{w}_{i}-\rho^{h}\mathbold{w}_{j}|+|\mathbold{w}_{i}-\rho^{h_{i}}\mathbold{w}_{t}|+|\rho^{h_{i}}\mathbold{w}_{t}-\rho^{h_{i}-h_{j}}\mathbold{w}_{j}|\\
-&=|\mathbold{w}_{i}-\rho^{h}\mathbold{w}_{j}|+|\mathbold{w}_{i}-\rho^{h_{i}}\mathbold{w}_{t}|+|\mathbold{w}_{j}-\rho^{h_{j}}\mathbold{w}_{t}|\leq 3\sqrt{\mu},\end{aligned}$$
+$$\begin{aligned}|1-\rho^{h_{i}-h_{j}-h}|&=|\rho^{h}\boldsymbol{w}_{j}-\rho^{h_{i}-h_{j}}\boldsymbol{w}_{j}|\\
+&\leq|\boldsymbol{w}_{i}-\rho^{h}\boldsymbol{w}_{j}|+|\boldsymbol{w}_{i}-\rho^{h_{i}}\boldsymbol{w}_{t}|+|\rho^{h_{i}}\boldsymbol{w}_{t}-\rho^{h_{i}-h_{j}}\boldsymbol{w}_{j}|\\
+&=|\boldsymbol{w}_{i}-\rho^{h}\boldsymbol{w}_{j}|+|\boldsymbol{w}_{i}-\rho^{h_{i}}\boldsymbol{w}_{t}|+|\boldsymbol{w}_{j}-\rho^{h_{j}}\boldsymbol{w}_{t}|\leq 3\sqrt{\mu},\end{aligned}$$
 
 which together with (4) and (5) implies $h=h_{i}-h_{j}$. Since $h\neq 0$, we have that $h_{i}\neq h_{j}$.
 
-Suppose that $\mathbold{w}_{0},\mathbold{w}_{1},\ldots,\mathbold{w}_{p}$ span a clique in $G[W]$. Then by **B1** there are $h_{1},\ldots,h_{p}\in[p-1]$ such that $\mathbold{w}_{i}$ is an $h_{i}$-rotation of $\mathbold{w}_{0}$ for all $i\in[p]$. By the Pigeonhole Principle, there are distinct $i,j\in[p]$ such that $h_{i}=h_{j}$, contradicting the first part. $\square$
+Suppose that $\boldsymbol{w}_{0},\boldsymbol{w}_{1},\ldots,\boldsymbol{w}_{p}$ span a clique in $G[W]$. Then by **B1** there are $h_{1},\ldots,h_{p}\in[p-1]$ such that $\boldsymbol{w}_{i}$ is an $h_{i}$-rotation of $\boldsymbol{w}_{0}$ for all $i\in[p]$. By the Pigeonhole Principle, there are distinct $i,j\in[p]$ such that $h_{i}=h_{j}$, contradicting the first part. $\square$
 
 **Lemma 3.2.** Every set $X\subseteq W$ with $|X|\geq pe^{-\mu k/40}\cdot|W|$ contains a copy of $K_{p}$. In particular,
 
@@ -285,49 +285,49 @@ $$\alpha_{p}(G)\leq 2pe^{-\mu k/40}n.$$
 
 For its proof, we need the following consequence of concentration of measure.
 
-**Lemma 3.3.** Let $p\geq 2$ be an integer, $\nu\leq\min\{\frac{16}{p^{2}},1\}$ and $A\subseteq\mathsf{S}^{k-1}(\mathbb{C})$ with $\lambda(A)\geq pe^{-\nu k/32}$. Then there are distinct points $\mathbold{a}_{0},\ldots,\mathbold{a}_{p-1}\in A$ such that, for all $h,m\in\mathbb{Z}_{p}$,
+**Lemma 3.3.** Let $p\geq 2$ be an integer, $\nu\leq\min\{\frac{16}{p^{2}},1\}$ and $A\subseteq\mathsf{S}^{k-1}(\mathbb{C})$ with $\lambda(A)\geq pe^{-\nu k/32}$. Then there are distinct points $\boldsymbol{a}_{0},\ldots,\boldsymbol{a}_{p-1}\in A$ such that, for all $h,m\in\mathbb{Z}_{p}$,
 
-$$\bigl|\rho^{h}\mathbold{a}_{h}-\rho^{m}\mathbold{a}_{m}\bigr|<\sqrt{\nu}.$$
+$$\bigl|\rho^{h}\boldsymbol{a}_{h}-\rho^{m}\boldsymbol{a}_{m}\bigr|<\sqrt{\nu}.$$
 
 *Proof.* For all $h\in[p-1]$, define
 
 $$
-A_h:=\left\{\mathbold{a}\in A:\ \forall\mathbold{a}'\in A,\ \left|\mathbold{a}+\rho^h\mathbold{a}'\right|<2-\nu/16\right\}.
+A_h:=\left\{\boldsymbol{a}\in A:\ \forall\boldsymbol{a}'\in A,\ \left|\boldsymbol{a}+\rho^h\boldsymbol{a}'\right|<2-\nu/16\right\}.
 $$
 
-Note that $\lambda(A_h)\leq e^{-\nu k/32}$ as otherwise, the sets $A_h$ and $-\rho^h A$ violate Lemma 2.3. Therefore, $A\neq A_1\cup\cdots\cup A_{p-1}$, and we can pick a point $\mathbold{a}_0\in A\setminus(A_1\cup\cdots\cup A_{p-1})$.
+Note that $\lambda(A_h)\leq e^{-\nu k/32}$ as otherwise, the sets $A_h$ and $-\rho^h A$ violate Lemma 2.3. Therefore, $A\neq A_1\cup\cdots\cup A_{p-1}$, and we can pick a point $\boldsymbol{a}_0\in A\setminus(A_1\cup\cdots\cup A_{p-1})$.
 
-For all $h\in[p-1]$, since $\mathbold{a}_0\notin A_h$, there exists a point $\mathbold{a}_h\in A$ with $\left|\mathbold{a}_0+\rho^h\mathbold{a}_h\right|\geq 2-\nu/16$. We claim that $\left|\mathbold{a}_0-\rho^h\mathbold{a}_h\right|<\sqrt{\nu}/2$, for all $h\in\mathbb{Z}_p$. The inequality is trivial for $h=0$. For $h\in[p-1]$, it follows from the parallelogram law:
+For all $h\in[p-1]$, since $\boldsymbol{a}_0\notin A_h$, there exists a point $\boldsymbol{a}_h\in A$ with $\left|\boldsymbol{a}_0+\rho^h\boldsymbol{a}_h\right|\geq 2-\nu/16$. We claim that $\left|\boldsymbol{a}_0-\rho^h\boldsymbol{a}_h\right|<\sqrt{\nu}/2$, for all $h\in\mathbb{Z}_p$. The inequality is trivial for $h=0$. For $h\in[p-1]$, it follows from the parallelogram law:
 
 $$
-\left|\mathbold{a}_0-\rho^h\mathbold{a}_h\right|^2=2\left(\left|\mathbold{a}_0\right|^2+\left|\rho^h\mathbold{a}_h\right|^2\right)-\left|\mathbold{a}_0+\rho^h\mathbold{a}_h\right|^2\leq 4-(2-\nu/16)^2<\nu/4.
+\left|\boldsymbol{a}_0-\rho^h\boldsymbol{a}_h\right|^2=2\left(\left|\boldsymbol{a}_0\right|^2+\left|\rho^h\boldsymbol{a}_h\right|^2\right)-\left|\boldsymbol{a}_0+\rho^h\boldsymbol{a}_h\right|^2\leq 4-(2-\nu/16)^2<\nu/4.
 $$
 
 Thus, for all $h,m\in\mathbb{Z}_p$, by the triangle inequality, we obtain
 
 $$
-\left|\rho^h\mathbold{a}_h-\rho^m\mathbold{a}_m\right|\leq\left|\rho^h\mathbold{a}_h-\mathbold{a}_0\right|+\left|\mathbold{a}_0-\rho^m\mathbold{a}_m\right|<\sqrt{\nu}. \tag{6}
+\left|\rho^h\boldsymbol{a}_h-\rho^m\boldsymbol{a}_m\right|\leq\left|\rho^h\boldsymbol{a}_h-\boldsymbol{a}_0\right|+\left|\boldsymbol{a}_0-\rho^m\boldsymbol{a}_m\right|<\sqrt{\nu}. \tag{6}
 $$
 
-We are left to show that all points $\mathbold{a}_0,\ldots,\mathbold{a}_{p-1}$ are distinct. Suppose to the contrary that for some distinct $h,m\in\mathbb{Z}_p$, $\mathbold{a}_h=\mathbold{a}_m$. Then, as in (5),
+We are left to show that all points $\boldsymbol{a}_0,\ldots,\boldsymbol{a}_{p-1}$ are distinct. Suppose to the contrary that for some distinct $h,m\in\mathbb{Z}_p$, $\boldsymbol{a}_h=\boldsymbol{a}_m$. Then, as in (5),
 
 $$
-\left|\rho^h\mathbold{a}_h-\rho^m\mathbold{a}_m\right|=\left|\rho^h-\rho^m\right|=\left|\rho^{h-m}-1\right|\geq 4/p\geq\sqrt{\nu},
+\left|\rho^h\boldsymbol{a}_h-\rho^m\boldsymbol{a}_m\right|=\left|\rho^h-\rho^m\right|=\left|\rho^{h-m}-1\right|\geq 4/p\geq\sqrt{\nu},
 $$
 
 a contradiction to (6). $\square$
 
 We are now ready to prove Lemma 3.2.
 
-*Proof of Lemma 3.2.* Let $X\subseteq W$ with $|X|\geq pe^{-\mu k/40}\cdot|W|$ and let $A:=\bigcup\{D_i:\mathbold{w}_i\in X\}$; then $\lambda(A)=|X|/|W|\geq pe^{-\mu k/40}$. By Lemma 3.3, there exist distinct $\mathbold{a}_0,\ldots,\mathbold{a}_{p-1}\in A$ such that $\left|\rho^h\mathbold{a}_h-\rho^m\mathbold{a}_m\right|\leq\sqrt{4\mu/5}$ for all $h,m\in\mathbb{Z}_p$. For each $h\in\mathbb{Z}_p$, let $\mathbold{x}_h\in X$ be the vertex lying in the same domain $D_i$ as $\mathbold{a}_h$, i.e. $\left|\mathbold{x}_h-\mathbold{a}_h\right|\leq\mu/4$.
+*Proof of Lemma 3.2.* Let $X\subseteq W$ with $|X|\geq pe^{-\mu k/40}\cdot|W|$ and let $A:=\bigcup\{D_i:\boldsymbol{w}_i\in X\}$; then $\lambda(A)=|X|/|W|\geq pe^{-\mu k/40}$. By Lemma 3.3, there exist distinct $\boldsymbol{a}_0,\ldots,\boldsymbol{a}_{p-1}\in A$ such that $\left|\rho^h\boldsymbol{a}_h-\rho^m\boldsymbol{a}_m\right|\leq\sqrt{4\mu/5}$ for all $h,m\in\mathbb{Z}_p$. For each $h\in\mathbb{Z}_p$, let $\boldsymbol{x}_h\in X$ be the vertex lying in the same domain $D_i$ as $\boldsymbol{a}_h$, i.e. $\left|\boldsymbol{x}_h-\boldsymbol{a}_h\right|\leq\mu/4$.
 
 Now, for distinct integers $h,m\in\mathbb{Z}_p$, by triangle inequality and (4), we get
 
 $$
-\left|\mathbold{x}_h-\rho^{m-h}\mathbold{x}_m\right|=\left|\rho^h\mathbold{x}_h-\rho^m\mathbold{x}_m\right|\leq\left|\rho^h\mathbold{x}_h-\rho^h\mathbold{a}_h\right|+\left|\rho^h\mathbold{a}_h-\rho^m\mathbold{a}_m\right|+\left|\rho^m\mathbold{a}_m-\rho^m\mathbold{x}_m\right|\leq\sqrt{\mu}.
+\left|\boldsymbol{x}_h-\rho^{m-h}\boldsymbol{x}_m\right|=\left|\rho^h\boldsymbol{x}_h-\rho^m\boldsymbol{x}_m\right|\leq\left|\rho^h\boldsymbol{x}_h-\rho^h\boldsymbol{a}_h\right|+\left|\rho^h\boldsymbol{a}_h-\rho^m\boldsymbol{a}_m\right|+\left|\rho^m\boldsymbol{a}_m-\rho^m\boldsymbol{x}_m\right|\leq\sqrt{\mu}.
 $$
 
-Thus $\mathbold{x}_h\mathbold{x}_m\in E(G[W])$ and $\mathbold{x}_0,\ldots,\mathbold{x}_{p-1}$ induce a copy of $K_p$, finishing the proof. $\square$
+Thus $\boldsymbol{x}_h\boldsymbol{x}_m\in E(G[W])$ and $\boldsymbol{x}_0,\ldots,\boldsymbol{x}_{p-1}$ induce a copy of $K_p$, finishing the proof. $\square$
 
 The fact that the inner graphs $G[W],G[Z]$ have zero edge density follows already from their being $K_{p+1}$-free and having sublinear $p$-independence number, as then their maximum degree is at most $\alpha_p(G[W])=e^{-\Theta(\sqrt{k})}n$ by Lemma 3.2. We can in fact give a tighter bound via a direct estimation.
 
@@ -384,7 +384,7 @@ $$
 \lambda(I(\mathbf{x}))\geq\frac{1}{2\pi}\left(\frac{2\pi\ell}{p}-\frac{2}{\sqrt{K}}\right)-\lambda(\overline{J(\mathbf{x})})\geq\frac{\ell}{p}-\frac{1}{\sqrt{K}}.
 $$
 
-\(\blacksquare\)
+$\blacksquare$
 
 Fix a vertex $\mathbf{w}\in W$ and let $Z_{\mathbf{w}}$ be as in (7). As each domain $D_j$ has measure $\frac{1}{n}$, the above claim entails
 
@@ -446,19 +446,19 @@ $$
 \operatorname{Im}\langle\boldsymbol{x},\boldsymbol{y}-\rho^m\boldsymbol{y}'\rangle\leq|\langle\boldsymbol{x},\boldsymbol{y}-\rho^m\boldsymbol{y}'\rangle|\leq|\boldsymbol{x}||\boldsymbol{y}-\rho^m\boldsymbol{y}'|\leq\mu. \tag{8}
 $$
 
-On the other hand, **B2(ii)** implies that $0\leq\arg\langle\mathbold{x}_i,\mathbold{y}\rangle,\arg\langle\mathbold{x}_i,\mathbold{y}'\rangle\leq\frac{2\pi\ell}{p}$. So
+On the other hand, **B2(ii)** implies that $0\leq\arg\langle\boldsymbol{x}_i,\boldsymbol{y}\rangle,\arg\langle\boldsymbol{x}_i,\boldsymbol{y}'\rangle\leq\frac{2\pi\ell}{p}$. So
 
 $$
-0\leq\arg(-\rho^{-m}\langle\mathbold{x}_i,\mathbold{y}'\rangle)\leq 2\pi\left(\frac{\ell}{p}+\frac{p/2-m}{p}\right)\leq\pi
+0\leq\arg(-\rho^{-m}\langle\boldsymbol{x}_i,\boldsymbol{y}'\rangle)\leq 2\pi\left(\frac{\ell}{p}+\frac{p/2-m}{p}\right)\leq\pi
 $$
 
-since $\ell\leq m$. So the imaginary parts of $\langle\mathbold{x}_i,\mathbold{y}\rangle,-\rho^{-m}\langle\mathbold{x}_i,\mathbold{y}'\rangle$ are positive, and **B2(i)** yields
+since $\ell\leq m$. So the imaginary parts of $\langle\boldsymbol{x}_i,\boldsymbol{y}\rangle,-\rho^{-m}\langle\boldsymbol{x}_i,\boldsymbol{y}'\rangle$ are positive, and **B2(i)** yields
 
 $$
-\operatorname{Im}\langle\mathbold{x}_i,\mathbold{y}\rangle,\operatorname{Im}(-\rho^{-m}\langle\mathbold{x}_i,\mathbold{y}'\rangle)\geq K\mu\quad\text{for all }i\in[3],
+\operatorname{Im}\langle\boldsymbol{x}_i,\boldsymbol{y}\rangle,\operatorname{Im}(-\rho^{-m}\langle\boldsymbol{x}_i,\boldsymbol{y}'\rangle)\geq K\mu\quad\text{for all }i\in[3],
 $$
 
-whence $\operatorname{Im}\langle\mathbold{x},\mathbold{y}-\rho^{m}\mathbold{y}'\rangle\geq 2K\mu$. This contradiction to (8) concludes the proof of **A4**.
+whence $\operatorname{Im}\langle\boldsymbol{x},\boldsymbol{y}-\rho^{m}\boldsymbol{y}'\rangle\geq 2K\mu$. This contradiction to (8) concludes the proof of **A4**.
 
 ## 4 Multipartite Bollobás-Erdős graph
 
@@ -510,41 +510,41 @@ $$
 V(\mathcal{B}):=P^\ell\subseteq\prod_{h\in[\ell]}S_h.
 $$
 
-We write each vertex $\mathbold{v}\in P^\ell$ as $\mathbold{v}=(v_1,\ldots,v_\ell)$, where $v_h\in S_h$ is the projection of $\mathbold{v}$ on $S_h$. Then
+We write each vertex $\boldsymbol{v}\in P^\ell$ as $\boldsymbol{v}=(v_1,\ldots,v_\ell)$, where $v_h\in S_h$ is the projection of $\boldsymbol{v}$ on $S_h$. Then
 
 $$
 \begin{aligned}
-\{\mathbold{v}^{(1)},\ldots,\mathbold{v}^{(r)}\}\in E(\mathcal{B})\Longleftrightarrow\ &\text{for all }h\in[\ell]\text{ and }i,j\in[r],\text{ whenever }b^{(i)}b^{(j)}\in E(Q_h),\\
+\{\boldsymbol{v}^{(1)},\ldots,\boldsymbol{v}^{(r)}\}\in E(\mathcal{B})\Longleftrightarrow\ &\text{for all }h\in[\ell]\text{ and }i,j\in[r],\text{ whenever }b^{(i)}b^{(j)}\in E(Q_h),\\
 &\text{we have }\bigl|v_h^{(i)}-v_h^{(j)}\bigr|\geq 2-\mu.
 \end{aligned}\tag{11}
 $$
 
-In other words, the projections of $\mathbold{v}^{(i)}$ and $\mathbold{v}^{(j)}$ onto $S_h$ are almost antipodal. Note that the definition depends on the labelling of the vertices within the hyperedge.
+In other words, the projections of $\boldsymbol{v}^{(i)}$ and $\boldsymbol{v}^{(j)}$ onto $S_h$ are almost antipodal. Note that the definition depends on the labelling of the vertices within the hyperedge.
 
 **Step 3:** $\mathcal{B}'$. To construct the hypergraph $\mathcal{B}'$, we apply a theorem of Balogh and Lenz [5, Theorem 16]. Rather than state the theorem in its fully generality, we only state its conclusion when applied to $\mathcal{B}$ (with their $(\gamma,t)$ being our $(\zeta,t^{1/\ell})$ here):
 
-There exist $t\in\mathbb{N}$ and an $r$-uniform hypergraph $\mathcal{B}'$ such that the following holds. Given $v\in P$, let $R(v)$ be a set of $t^{1/\ell}$ distinct points from the same domain $D_i$ as $v$ which are arbitrarily close to $v$. We say that $\mathbold{u}=(u_1,\ldots,u_\ell)$ *corresponds* to $\mathbold{v}\in V(\mathcal{B})$ if $u_h\in R(v_h)$ for all $h\in[\ell]$. Then
+There exist $t\in\mathbb{N}$ and an $r$-uniform hypergraph $\mathcal{B}'$ such that the following holds. Given $v\in P$, let $R(v)$ be a set of $t^{1/\ell}$ distinct points from the same domain $D_i$ as $v$ which are arbitrarily close to $v$. We say that $\boldsymbol{u}=(u_1,\ldots,u_\ell)$ *corresponds* to $\boldsymbol{v}\in V(\mathcal{B})$ if $u_h\in R(v_h)$ for all $h\in[\ell]$. Then
 
 $$
-V(\mathcal{B}'):=\{\mathbold{u}:\mathbold{u}\text{ corresponds to some }\mathbold{v}\in V(\mathcal{B})\}\subseteq\prod_{h\in[\ell]}S_h\quad\text{(so }|V(\mathcal{B}')|=m^\ell t\text{)},
+V(\mathcal{B}'):=\{\boldsymbol{u}:\boldsymbol{u}\text{ corresponds to some }\boldsymbol{v}\in V(\mathcal{B})\}\subseteq\prod_{h\in[\ell]}S_h\quad\text{(so }|V(\mathcal{B}')|=m^\ell t\text{)},
 $$
 
 and $\mathcal{B}'$ satisfies the following:
 
-- Fix an arbitrary edge $\{\mathbold{v}^{(1)},\ldots,\mathbold{v}^{(r)}\}\in E(\mathcal{B})$. For all $i\in[r]$, let $U_i$ be a set of at least $\zeta t$ vertices of $\mathcal{B}'$ corresponding to $\mathbold{v}^{(i)}$. Then the hypergraph $\mathcal{B}'$ contains at least one hyperedge with exactly one vertex in each $U_i$.
+- Fix an arbitrary edge $\{\boldsymbol{v}^{(1)},\ldots,\boldsymbol{v}^{(r)}\}\in E(\mathcal{B})$. For all $i\in[r]$, let $U_i$ be a set of at least $\zeta t$ vertices of $\mathcal{B}'$ corresponding to $\boldsymbol{v}^{(i)}$. Then the hypergraph $\mathcal{B}'$ contains at least one hyperedge with exactly one vertex in each $U_i$.
 
 - There is no subhypergraph $\mathcal{B}''\subseteq\mathcal{B}'$ with $|V(\mathcal{B}'')|\leq r^3$, $|E(\mathcal{B}'')|\geq 1$ and $|V(\mathcal{B}'')|+(1+\zeta-r)(|E(\mathcal{B}'')|-1)<r$. (Informally, all subhypergraphs of $\mathcal{B}'$ are sparse.)
 
 We remark that the proof of [5, Theorem 16] uses an idea of Rödl [31]. Essentially, the claimed hypergraph is obtained by first blowing up the original one, then taking a random subhypergraph of it and finally using a first moment deletion method to get rid of small configurations.
 
-Note that $\mathcal{B}'$ has the same geometric properties as $\mathcal{B}$ in the sense that every hyperedge $\{\mathbold{v}^{(1)},\ldots,\mathbold{v}^{(r)}\}\in E(\mathcal{B}')$ maintains the property on the right-hand side of (11).
+Note that $\mathcal{B}'$ has the same geometric properties as $\mathcal{B}$ in the sense that every hyperedge $\{\boldsymbol{v}^{(1)},\ldots,\boldsymbol{v}^{(r)}\}\in E(\mathcal{B}')$ maintains the property on the right-hand side of (11).
 
 **Step 4:** $B(\ell)$. The high dimensional Borsuk graph $B(\ell)$ is defined to be the *shadow graph* of $\mathcal{B}'$, that is,
 
 $$
 \begin{aligned}
 V(B(\ell))&:=V(\mathcal{B}')\quad\text{and}\\
-\mathbold{u}\mathbold{v}\in E(B(\ell))&\Longleftrightarrow\{\mathbold{u},\mathbold{v}\}\text{ is contained in some hyperedge of }\mathcal{B}'.
+\boldsymbol{u}\boldsymbol{v}\in E(B(\ell))&\Longleftrightarrow\{\boldsymbol{u},\boldsymbol{v}\}\text{ is contained in some hyperedge of }\mathcal{B}'.
 \end{aligned}
 $$
 
@@ -570,17 +570,17 @@ $$
 V(G):=V_1\cup\ldots\cup V_q\qquad\text{where}\qquad G[V_i]\text{ is a copy of }B(\ell)\text{ for all }i\in[q].
 $$
 
-For cross edges, recall that each vertex $\mathbold{v}=(v_1,\ldots,v_\ell)\in V(G)$ is a length-$\ell$ vector where $v_h\in S_h$, for all $h\in[\ell]$. The adjacencies of pairs of vertices in $G$ between partite classes are determined by the distances of their projections onto certain blocks of coordinates. The relevant blocks for each pair $(V_i,V_{i'})$, $\{i,i'\}\in\binom{[q]}{2}$, come from an edge-colouring, as follows. Let $\chi$ be a proper $(q-1)$-edge colouring of the $q$-clique on $\{V_1,\ldots,V_q\}$, with colours $\{1,\ldots,q-1\}$ (so each colour class is a perfect matching, and $\chi$ exists since $q$ is even). For brevity, let $c_{ij}:=\chi(V_iV_j)$ for all $\{i,j\}\in\binom{[q]}{2}$.
+For cross edges, recall that each vertex $\boldsymbol{v}=(v_1,\ldots,v_\ell)\in V(G)$ is a length-$\ell$ vector where $v_h\in S_h$, for all $h\in[\ell]$. The adjacencies of pairs of vertices in $G$ between partite classes are determined by the distances of their projections onto certain blocks of coordinates. The relevant blocks for each pair $(V_i,V_{i'})$, $\{i,i'\}\in\binom{[q]}{2}$, come from an edge-colouring, as follows. Let $\chi$ be a proper $(q-1)$-edge colouring of the $q$-clique on $\{V_1,\ldots,V_q\}$, with colours $\{1,\ldots,q-1\}$ (so each colour class is a perfect matching, and $\chi$ exists since $q$ is even). For brevity, let $c_{ij}:=\chi(V_iV_j)$ for all $\{i,j\}\in\binom{[q]}{2}$.
 
 For $h,h'\in[\ell]$ and $\{i,i'\}\in\binom{[q]}{2}$, we say that coordinates $(h,h')$ are $(i,i')$-related if there exist $j\in[q]\setminus\{i,i'\}$ and $s\in[p]$ such that
 
 - either $(h,h')=((c_{ij}-1)p+s,(c_{i'j}-1)p+s)$,
 - or $h=h'>p(q-1)$.
 
-Finally, given $\mathbold{u}\in V_i$ and $\mathbold{v}\in V_{i'}$, we define
+Finally, given $\boldsymbol{u}\in V_i$ and $\boldsymbol{v}\in V_{i'}$, we define
 
 $$
-\mathbold{u}\mathbold{v}\in E(G[V_i,V_{i'}])\quad\Longleftrightarrow\quad |u_h-v_{h'}|\leq\sqrt{2}-\mu\text{ whenever }(h,h')\text{ are }(i,i')\text{-related}.
+\boldsymbol{u}\boldsymbol{v}\in E(G[V_i,V_{i'}])\quad\Longleftrightarrow\quad |u_h-v_{h'}|\leq\sqrt{2}-\mu\text{ whenever }(h,h')\text{ are }(i,i')\text{-related}.
 $$
 
 Informally, the projection $u_h$ is in the hemisphere centred at $v_{h'}$, and vice versa.
@@ -626,7 +626,7 @@ In this subsection, we verify C4. We will use the following simple fact about th
 
 *Proof.* Let $T:=\bigcup_{h\in I}Q_h$. If $bb^{\prime}\notin E(Q_h)$, then $b_h=b^{\prime}_h$. So the set $\{b:b_h=1\text{ for all }h\in I\}$ is an independent set in $T$ of size $2^{\ell-|I|}$. On the other hand, choose an arbitrary subset $X\subseteq V(T)$ with $|X|\geq2^{\ell-|I|}+1$. Then there are vertices $bb^{\prime}\in X$ which differ at some coordinate $h\in I$, and so $bb^{\prime}\in E(T)$.
 
-\hfill$\square$
+$\square$
 
 **Definition 4.3.** A coordinate $h\in[\ell]$ is *lengthy* for a vertex subset $A\subseteq V(B(\ell))$ if there exist two vertices $\boldsymbol{v},\boldsymbol{v}^{\prime}\in A$ with $|v_h-v^{\prime}_h|\geq2-\mu$ (i.e. whose projections onto $S_h$ are almost antipodal).
 
@@ -648,7 +648,7 @@ $$
 
 finishing the proof of the lemma.
 
-\hfill$\square$
+$\square$
 
 To bound the clique number of $G$, we need one last lemma bounding the number of lengthy coordinates for $V_i\cap A$, for all $i\in[q]$.
 
@@ -677,9 +677,9 @@ To see this, in the first case, by the Pigeonhole Principle, there are distinct 
 
 In the second, again by the Pigeonhole Principle, some $h\in[p(q-1)+1,\ell]$ falls in $L_i([\ell])$ and $L_{i^{\prime}}([\ell])$ for some distinct $i,i^{\prime}$. It remains to recall that for any $h$ in this interval, $(h,h)$ is $(i,i^{\prime})$-related for any distinct $i,i^{\prime}$.
 
-Due to (i) above, there exist two pairs of vertices $\mathbold{v}^{(1)},\mathbold{v}^{(2)}\in V_i\cap A$ and $\mathbold{u}^{(1)},\mathbold{u}^{(2)}\in V_{i^{\prime}}\cap A$ such that $|v_h^{(1)}-v_h^{(2)}|\geq 2-\mu$ and $|u_{h^{\prime}}^{(1)}-u_{h^{\prime}}^{(2)}|\geq 2-\mu$. At the same time, by (ii) and that $\mathbold{u}^{(\ell)}\mathbold{v}^{(\ell^{\prime})}\in E(G)$ whenever $\ell,\ell^{\prime}\in[2]$, we see that $|v_h^{(\ell)}-u_{h^{\prime}}^{(\ell^{\prime})}|\leq\sqrt{2}-\mu$ for $\ell,\ell^{\prime}\in[2]$. Therefore, we have four points $v_h^{(1)},v_h^{(2)},u_{h^{\prime}}^{(1)},u_{h^{\prime}}^{(2)}\in\mathsf{S}^{k}(\mathbb{R})$ which contradict Theorem 2.5.
+Due to (i) above, there exist two pairs of vertices $\boldsymbol{v}^{(1)},\boldsymbol{v}^{(2)}\in V_i\cap A$ and $\boldsymbol{u}^{(1)},\boldsymbol{u}^{(2)}\in V_{i^{\prime}}\cap A$ such that $|v_h^{(1)}-v_h^{(2)}|\geq 2-\mu$ and $|u_{h^{\prime}}^{(1)}-u_{h^{\prime}}^{(2)}|\geq 2-\mu$. At the same time, by (ii) and that $\boldsymbol{u}^{(\ell)}\boldsymbol{v}^{(\ell^{\prime})}\in E(G)$ whenever $\ell,\ell^{\prime}\in[2]$, we see that $|v_h^{(\ell)}-u_{h^{\prime}}^{(\ell^{\prime})}|\leq\sqrt{2}-\mu$ for $\ell,\ell^{\prime}\in[2]$. Therefore, we have four points $v_h^{(1)},v_h^{(2)},u_{h^{\prime}}^{(1)},u_{h^{\prime}}^{(2)}\in\mathsf{S}^{k}(\mathbb{R})$ which contradict Theorem 2.5.
 
-Thus the required sum is at most $pq+\ell-p(q-1)=\ell+p$. \(\square\)
+Thus the required sum is at most $pq+\ell-p(q-1)=\ell+p$. $\square$
 
 Let $x_i:=|L_i([\ell])|$ for each $i\in[q]$. By Lemmas 4.4 and 4.5, we have that
 
@@ -942,7 +942,7 @@ $$
 p|K^{\prime}|-\tilde{w}(K^{\prime})=p|K^{\prime}|-\tilde{w}(K)+\gamma_K(y)-\gamma_{K\setminus\{y\}}(x)>p|K|-\tilde{w}(K),
 $$
 
-a contradiction to $K$ being herculean. \hfill $\square$
+a contradiction to $K$ being herculean. $\square$
 
 We are now ready to prove the final upper bound. Recall that
 
@@ -972,7 +972,7 @@ $$
 To see this, observe first that for each $y\in V$, by Proposition 5.11(ii),
 
 $$
-\sum_{x\in K}\tilde{w}(x,y)=\gamma_K(y)+p\cdot\mathbbm{1}_{\{y\in K\}}\geq p.
+\sum_{x\in K}\tilde{w}(x,y)=\gamma_K(y)+p\cdot\mathbb{1}_{\{y\in K\}}\geq p.
 $$
 
 Consequently,

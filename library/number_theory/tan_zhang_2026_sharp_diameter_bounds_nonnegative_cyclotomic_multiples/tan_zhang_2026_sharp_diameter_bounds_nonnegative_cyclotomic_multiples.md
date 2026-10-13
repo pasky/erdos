@@ -30,7 +30,7 @@ is such a multiple. Steinberger conjectured that it is the unique monic multiple
 
 For a nonzero polynomial $F(X)=\sum_j c_jX^j$, write
 
-$$\supp F=\{j:c_j\ne 0\},\qquad D(F)=\max\supp F-\min\supp F.$$
+$$\operatorname{supp} F=\{j:c_j\ne 0\},\qquad D(F)=\max\operatorname{supp} F-\min\operatorname{supp} F.$$
 
 Our main result proves this conjecture in the translation-invariant form that will be useful for integer tilings.
 
@@ -60,11 +60,11 @@ $$\begin{aligned}\text{(T1)}&|A|=\prod_{u\in S_A}\Phi_u(1),\\
 \text{(T2)}&\Phi_{u_1\cdots u_k}\mid A(X)\quad\text{if }u_1,\ldots,u_k\in S_A\text{ are powers of distinct primes}.
 \end{aligned}$$
 
-They imply that $A$ tiles $\mathbb{Z}$ with period $M=\lcm(S_A)$ [1, Theorem A]. Since (T2) gives $\Phi_M\mid A(X)$, Theorem 1.1 implies the following result.
+They imply that $A$ tiles $\mathbb{Z}$ with period $M=\operatorname{lcm}(S_A)$ [1, Theorem A]. Since (T2) gives $\Phi_M\mid A(X)$, Theorem 1.1 implies the following result.
 
-**Corollary 1.2.** *Let $A\subset\mathbb{Z}$ be finite with $|A|\geq 2$, and suppose that $A$ satisfies (T1) and (T2). Set $M=\lcm(S_A)$, and let $p$ be the least prime divisor of $|A|$. Then*
+**Corollary 1.2.** *Let $A\subset\mathbb{Z}$ be finite with $|A|\geq 2$, and suppose that $A$ satisfies (T1) and (T2). Set $M=\operatorname{lcm}(S_A)$, and let $p$ be the least prime divisor of $|A|$. Then*
 
-$$\diam(A)\geq\frac{p-1}{p}M. \tag{1.6}$$
+$$\operatorname{diam}(A)\geq\frac{p-1}{p}M. \tag{1.6}$$
 
 *Equality holds precisely when, for some $n\geq 1$ and $b\in\mathbb{Z}$,*
 
@@ -243,7 +243,7 @@ At equality, the zero–one coefficients give $A=b+\{0,M/p,\ldots,(p-1)M/p\}$, s
 In particular, if $M$ has at least two distinct prime divisors, the integer-valued bound is strict:
 
 $$
-\diam(A)\geq\frac{p-1}{p}M+1. \tag{4.1}
+\operatorname{diam}(A)\geq\frac{p-1}{p}M+1. \tag{4.1}
 $$
 
 ### 4.1 The canonical period
@@ -251,13 +251,13 @@ $$
 Let $\mathcal{P}(A)$ denote the smallest positive period among all tilings of $\mathbb{Z}$ by translates of $A$. Under (T1) and (T2),
 
 $$
-\mathcal{P}(A)=\lcm(S_A)=M. \tag{4.2}
+\mathcal{P}(A)=\operatorname{lcm}(S_A)=M. \tag{4.2}
 $$
 
 This follows from the construction and the period observation of Coven and Meyerowitz [1, Theorem A and remarks after Lemma 2.1]. For completeness, suppose $A\oplus B=\mathbb{Z}/K\mathbb{Z}$ is a tiling modulo $K$, with finite representatives $B$. Then $A(1)B(1)=K$, and every $\Phi_u$ with $u\mid K$, $u>1$, divides $A(X)B(X)$. The product of the prime-power factors among these has value $K$ at $1$. If some $q^e\in S_A$ did not divide $K$, including the additional distinct factor $\Phi_{q^e}$ would force $qK$ to divide $A(1)B(1)=K$, a contradiction. Hence $M\mid K$. The construction supplies a tiling with period $M$, proving (4.2). Consequently Corollary 1.2 yields
 
 $$
-\mathcal{P}(A)\leq\frac{p}{p-1}\diam(A).
+\mathcal{P}(A)\leq\frac{p}{p-1}\operatorname{diam}(A).
 $$
 
 **Example 4.1 (The need for mixed divisibility).** The zero–one polynomial
@@ -266,7 +266,7 @@ $$
 A(X)=(1+X^3+X^6)(1+X^5+X^{10}+X^{15}+X^{20})=\Phi_9(X)\Phi_{25}(X)
 $$
 
-has $S_A=\{9,25\}$, $|A|=15$, and $M=225$, but $\diam(A)=26<150$. It satisfies (T1) and fails (T2). This is a concrete instance of the unrestricted counterexamples discussed in [4, Section 4]; it explains why the definition of $M$ alone does not imply the diameter bound.
+has $S_A=\{9,25\}$, $|A|=15$, and $M=225$, but $\operatorname{diam}(A)=26<150$. It satisfies (T1) and fails (T2). This is a concrete instance of the unrestricted counterexamples discussed in [4, Section 4]; it explains why the definition of $M$ alone does not imply the diameter bound.
 
 ### 4.2 A refinement from the prime-power divisor sets
 
@@ -352,7 +352,7 @@ so the refinement also exceeds the direct degree estimate. Here $\varphi$ denote
 
 The sine polynomial also controls how far a nearly extremal measure can lie from the regular polygon in Lemma 2.1. For $V\subset\mathbb{T}$, let $d_{\mathbb{T}}(\theta,V)$ be the shortest angular distance from $\theta$ to $V$.
 
-**Proposition 5.1.** *Let $r\geq 2$, and let $\mu$ be a probability measure satisfying $\widehat{\mu}(k)=0$ for $1\leq k<r$. Suppose that $\supp\mu\subset[-\alpha,\alpha]$, where $\alpha_*=\pi-\pi/r\leq\alpha\leq\pi$. Set*
+**Proposition 5.1.** *Let $r\geq 2$, and let $\mu$ be a probability measure satisfying $\widehat{\mu}(k)=0$ for $1\leq k<r$. Suppose that $\operatorname{supp}\mu\subset[-\alpha,\alpha]$, where $\alpha_*=\pi-\pi/r\leq\alpha\leq\pi$. Set*
 
 $$V_r=\left\{-\alpha_*+\frac{2\pi j}{r}:0\leq j<r\right\}\pmod{2\pi}.$$
 
@@ -394,7 +394,7 @@ $$
 d_N(a,\mathcal G)=\min_{g\in\mathcal G,\,m\in\mathbb Z}|a-g+mN|.
 $$
 
-**Corollary 5.2.** *Under the hypotheses of Theorem 1.1, write $F(X)=\sum_a c_aX^a$, $b=\min\supp F$, and*
+**Corollary 5.2.** *Under the hypotheses of Theorem 1.1, write $F(X)=\sum_a c_aX^a$, $b=\min\operatorname{supp} F$, and*
 
 $$
 D(F)=\frac{p-1}{p}N+\Delta\leq N.

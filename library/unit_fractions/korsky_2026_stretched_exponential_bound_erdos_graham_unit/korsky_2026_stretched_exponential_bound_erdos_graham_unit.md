@@ -456,7 +456,7 @@ $$
 
 for an absolute $c>0$. Since $x=\log(1/\varepsilon(A))$, we obtain $\varepsilon(A)=\mathrm{e}^{-x}\leq \mathrm{e}^{-c\sqrt{K\log K}}$, proving Theorem 1.1.
 
-## A \quad Proof of the Activation Package
+## A Proof of the Activation Package
 
 All constants in this appendix are positive and absolute unless explicitly stated otherwise. Whenever a result in this appendix has a parameter $x$, the local standing notation is
 

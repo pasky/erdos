@@ -347,7 +347,7 @@ $$
 
 However, by using again the statement of Conjecture 2 for the nonsingular $(n-1)\times(n-1)$ submatrix (whose rows are $a'_2,\ldots,a'_n$), we would obtain a counterexample to the Alon-Jaeger-Tarsi conjecture with a smaller dimension than $n$. This contradicts our original choice of $n$ as the minimal dimension for a counterexample.
 
-This contradiction finishes the proof of Theorem 1. \(\square\)
+This contradiction finishes the proof of Theorem 1. $\square$
 
 ## 4. ACKNOWLEDGEMENTS
 

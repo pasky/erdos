@@ -36,9 +36,9 @@ If $c\geq1$ and $c/(1+c^2)\leq\alpha\leq\min(1/2,1/c)$, then
 $$
 \begin{aligned}
 (3)\qquad \lim_{m\to\infty}\mu(S(m,\alpha,c))
-&=\frac{12\alpha}{\pi^2}\log c-\frac{12}{\pi^2}\left(\alpha c+\frac{\alpha}{c}-\alpha\beta-\frac{\alpha}{\beta}\\
+&=\frac{12\alpha}{\pi^2}\log c-\frac{12}{\pi^2}\Biggl(\alpha c+\frac{\alpha}{c}-\alpha\beta-\frac{\alpha}{\beta}\\
 &\qquad+\alpha\left(\frac{1}{\beta}-\beta\right)\log\frac{c}{\beta}
--\frac{1}{2}\left(\log\frac{c}{\beta}\right)^2\right),
+-\frac{1}{2}\left(\log\frac{c}{\beta}\right)^2\Biggr),
 \end{aligned}
 $$
 
@@ -244,7 +244,7 @@ $$
 \frac{a_s q_i - a_i q_s}{q_s q_i} \leq \frac{a_{i+k}}{q_{i+k}} - \frac{a_i}{q_i}.
 $$
 
-Here $a_s q_i - a_i q_s \geq 1$ and $q_i \leq Q$, hence $1/(Qq_s) \leq 2\alpha/m^2$, and so $q_s \geq $m^2/(2\alpha Q)$. Thus for any $i<s\leq i+k$,
+Here $a_s q_i - a_i q_s \geq 1$ and $q_i \leq Q$, hence $1/(Qq_s) \leq 2\alpha/m^2$, and so $q_s \geq m^2/(2\alpha Q)$. Thus for any $i<s\leq i+k$,
 
 $$
 v_Q(\gamma_s)=\left[\frac{Q+q_{s-1}}{q_s}\right]\leq\frac{Q+Q}{m^2/(2\alpha Q)}\leq4\alpha c^2.
@@ -673,7 +673,7 @@ Choose $\delta=1/3$ and let $m\to\infty$. Since $\lim_{m\to\infty}m/Q=1/c$, we i
 
 $$
 \begin{aligned}
-\lim_{m\to\infty}\mu'_{j_1,\ldots,j_r}^{k_1,\ldots,k_{j_r}}
+\lim_{m\to\infty}{\mu'}_{j_1,\ldots,j_r}^{k_1,\ldots,k_{j_r}}
 &=\lim_{m\to\infty}
 \sum_{\substack{i\\
 (q_i/Q,q_{i+1}/Q)\in\mathcal{H}_{k_1,\ldots,k_{j_r}}^{j_1,\ldots,j_r}(m/Q)\\

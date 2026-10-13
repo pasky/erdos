@@ -7,7 +7,7 @@ BOON SUAN HO
 Erdős asked whether every $n$-point set in Euclidean space whose $\binom{n}{2}$ pairwise distances are mutually at least $1$ apart must have diameter at least $(1+o(1))n^2$. We disprove this statement by constructing for every prime power $q$ a set $\mathcal{X}_q\subset\mathbb{R}^{q^2+q}$ of $n=q+1$ points such that all pairwise distances in $\mathcal{X}_q$ are mutually at least $1$ apart, while
 
 $$
-\diam(\mathcal{X}_q)\leq\left(1-\frac{1}{\pi^2}+o(1)\right)n^2.
+\operatorname{diam}(\mathcal{X}_q)\leq\left(1-\frac{1}{\pi^2}+o(1)\right)n^2.
 $$
 
 The proof is fully formalized in Lean 4.
@@ -17,7 +17,7 @@ The proof is fully formalized in Lean 4.
 In a chapter of unsolved problems, Erdős asked for lower bounds on the diameter of an $n$-point set in Euclidean space when all pairwise distances are separated from one another by at least $1$ [3, Problem 20] (see also [1, Problem 670]), and conjectured that
 
 $$
-\diam(\mathcal{C})\geq(1+o(1))n^2, \tag{1}
+\operatorname{diam}(\mathcal{C})\geq(1+o(1))n^2, \tag{1}
 $$
 
 where the bound is independent of the dimension. He also gave a proof in dimension 1.
@@ -41,7 +41,7 @@ $$
 *for every two distinct pairs $\{x,y\}\neq\{x^{\prime},y^{\prime}\}$ from $\mathcal{X}_n$, while*
 
 $$
-\diam(\mathcal{X}_n)\leq(c_*+o(1))n^2.
+\operatorname{diam}(\mathcal{X}_n)\leq(c_*+o(1))n^2.
 $$
 
 The construction is explicit. Let $q$ be a prime power and put
@@ -270,7 +270,7 @@ $$\lambda_{m}\coloneqq\frac{1}{d_{N}-d_{N-1}},\qquad\mathcal{X}_{m}\coloneqq\lam
 
 By Corollary 7, every two distinct distances in $\mathcal{X}_{m}$ differ by at least $1$. Thus $\mathcal{X}_{m}$ satisfies (2), and
 
-$$\diam(\mathcal{X}_{m})=\lambda_{m}d_{N}=\frac{d_{N}}{d_{N}-d_{N-1}}. \tag{10}$$
+$$\operatorname{diam}(\mathcal{X}_{m})=\lambda_{m}d_{N}=\frac{d_{N}}{d_{N}-d_{N-1}}. \tag{10}$$
 
 ## 4. Asymptotic diameter
 
@@ -278,7 +278,7 @@ We now evaluate (10).
 
 **Proposition 8.** *Let $m=q^{2}+q+1$ and $n=q+1$, with $q$ a prime power. Then*
 
-$$\diam(\mathcal{X}_{m})=\left(1-\frac{1}{\pi^{2}}+o(1)\right)m=\left(1-\frac{1}{\pi^{2}}+o(1)\right)n^{2}.$$
+$$\operatorname{diam}(\mathcal{X}_{m})=\left(1-\frac{1}{\pi^{2}}+o(1)\right)m=\left(1-\frac{1}{\pi^{2}}+o(1)\right)n^{2}.$$
 
 *Proof.* Set
 
@@ -290,7 +290,7 @@ $$d_{N}-d_{N-1}=G(\theta_{N})-G(\theta_{N-1})=\frac{2\pi}{m}G^{\prime}(\xi_{m})$
 
 for some $\xi_{m}\in(\theta_{N-1},\theta_{N})$. Since $\xi_{m}\to\pi$ and $\theta_{N}\to\pi$, equation (10) yields
 
-$$\frac{\diam(\mathcal{X}_{m})}{m}=\frac{G(\theta_{N})}{2\pi G^{\prime}(\xi_{m})}\longrightarrow\frac{G(\pi)}{2\pi G^{\prime}(\pi^{-})},$$
+$$\frac{\operatorname{diam}(\mathcal{X}_{m})}{m}=\frac{G(\theta_{N})}{2\pi G^{\prime}(\xi_{m})}\longrightarrow\frac{G(\pi)}{2\pi G^{\prime}(\pi^{-})},$$
 
 where $G^{\prime}(\pi^{-})\coloneqq\lim_{x\to\pi^{-}}G^{\prime}(x)$. Now
 
@@ -312,7 +312,7 @@ Since $m=n^{2}-n+1$, the same asymptotic constant holds with $m$ replaced by $n^
 
 **Remark 9.** Our construction shows that Erdős’s conjectured lower bound cannot hold uniformly in the ambient dimension. It remains open whether, for each fixed $d\geq 2$, every $n$-point set in $\mathbb{R}^{d}$ whose pairwise distances are mutually at least 1 apart must satisfy
 
-$$\diam(\mathcal{C})\geq(1+o_d(1))n^{2}.$$
+$$\operatorname{diam}(\mathcal{C})\geq(1+o_d(1))n^{2}.$$
 
 **Remark 10.** More generally, replacing $c_1=7/8$ by $1-\varepsilon$ and keeping $c_j=1/j^2$ for odd $j\geq 3$, the same construction yields
 

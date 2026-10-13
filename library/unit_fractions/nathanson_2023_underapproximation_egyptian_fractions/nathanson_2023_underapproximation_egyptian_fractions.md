@@ -80,7 +80,7 @@ $$
 \sum_{j=1}^{i+1}\frac{1}{a_j}<\theta\leq\sum_{j=1}^{i}\frac{1}{a_j}+\frac{1}{a_{i+1}-1}.
 $$
 
-We call $(a_i)_{i=1}^{\infty}$ the *infinite greedy underapproximation sequence* of $\theta$ and $(a_i)_{i=1}^{n}$ the *n-term greedy underapproximation sequence* of $\theta$. The rational number $\sum_{i=1}^{n}1/a_i$ is the *n-term greedy underapproximation* of $\theta.
+We call $(a_i)_{i=1}^{\infty}$ the *infinite greedy underapproximation sequence* of $\theta$ and $(a_i)_{i=1}^{n}$ the *n-term greedy underapproximation sequence* of $\theta$. The rational number $\sum_{i=1}^{n}1/a_i$ is the *n-term greedy underapproximation* of $\theta$.
 
 Let $i\geq 1$. Inequality (2) implies that
 
@@ -211,7 +211,7 @@ $$
 \end{aligned}
 $$
 
-This completes the proof. \hfill$\square$
+This completes the proof. $\square$
 
 **Corollary 1.** *Sylvester’s sequence is the infinite greedy underapproximation sequence for $\theta=1$.*
 

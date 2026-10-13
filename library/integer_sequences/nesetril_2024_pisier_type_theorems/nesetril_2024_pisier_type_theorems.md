@@ -413,7 +413,7 @@ Since $h(h - 2)!h! > h((h - 1)!)^2$ for $h \geq 2$, we obtain that $F$ is a part
 It remains to show that $\biguplus_{r=1}^{h} A_{f_r} = \biguplus_{s=h+1}^{2h} A_{f_s}$. Since $k/2 = (h!)^2$, there exists an order preserving bijection $\varphi : [h!]^2 \rightarrow [k/2]$, where $[h!]^2$ is ordered lexicographically. Note that
 
 $$
-A_{f_r} \cap (\mathbb{N} \times \{\varphi(i, j)\}) = \left[ \min V(f_{ij}^{r}), \max(V(f_{ij}^{r})) \times \{\varphi(i, j)\}
+A_{f_r} \cap (\mathbb{N} \times \{\varphi(i, j)\}) = \Bigl[ \min V(f_{ij}^{r}), \max(V(f_{ij}^{r})\Bigr) \times \{\varphi(i, j)\}
 $$
 
 for every $1 \leq r \leq 2h$. Therefore,
@@ -421,9 +421,9 @@ for every $1 \leq r \leq 2h$. Therefore,
 $$
 \begin{aligned}
 \biguplus_{r=1}^{h} A_{f_r}
-&= \bigcup_{1 \leq i,j \leq h!} \biguplus_{r=1}^{h} \left[ \min V(f_{ij}^{r}), \max(V(f_{ij}^{r})) \times \{\varphi(i, j)\} \\
-&= \bigcup_{1 \leq i,j \leq h!} \bigcup_{q=1}^{t} \left[ \min V(C_{ij}^{(q)}), \max(V(C_{ij}^{(q)})) \times \{\varphi(i, j)\} \\
-&= \bigcup_{1 \leq i,j \leq h!} \biguplus_{s=h+1}^{2h} \left[ \min V(f_{ij}^{s}), \max(V(f_{ij}^{s})) \times \{\varphi(i, j)\} = \biguplus_{s=1}^{h} A_{f_s}
+&= \bigcup_{1 \leq i,j \leq h!} \biguplus_{r=1}^{h} \Bigl[ \min V(f_{ij}^{r}), \max(V(f_{ij}^{r})\Bigr) \times \{\varphi(i, j)\} \\
+&= \bigcup_{1 \leq i,j \leq h!} \bigcup_{q=1}^{t} \Bigl[ \min V(C_{ij}^{(q)}), \max(V(C_{ij}^{(q)})\Bigr) \times \{\varphi(i, j)\} \\
+&= \bigcup_{1 \leq i,j \leq h!} \biguplus_{s=h+1}^{2h} \Bigl[ \min V(f_{ij}^{s}), \max(V(f_{ij}^{s})\Bigr) \times \{\varphi(i, j)\} = \biguplus_{s=1}^{h} A_{f_s}
 \end{aligned}
 $$
 

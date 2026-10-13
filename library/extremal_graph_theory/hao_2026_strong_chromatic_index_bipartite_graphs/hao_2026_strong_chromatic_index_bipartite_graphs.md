@@ -206,7 +206,7 @@ $$\begin{aligned}
 \sum_{c\in A_2}d_1(c)d_2(c)(\Delta_B-1)&=\sum_{c\in A_2}d_1(c)(\Delta_A-d_1(c))(\Delta_B-1)\\
 &=(\Delta_B-1)\Delta_A\sum_{c\in A_2}d_1(c)-(\Delta_B-1)\sum_{c\in A_2}d_1(c)^2\\
 &\geq\Delta_A(\Delta_B-1)S_{A,1}-\Delta_BS_{A,2}\\
-&=\gamma\Delta_A^2\Delta_B^2-\Delta_BS_{A,2}+o(\Delta_A^2\Delta_B^2)\quad(\mbox{by }(2.1)).
+&=\gamma\Delta_A^2\Delta_B^2-\Delta_BS_{A,2}+o(\Delta_A^2\Delta_B^2)\quad(\text{by }(2.1)).
 \end{aligned}$$
 
 Similarly, $c\in B_2$ implies $d\in A_2$, $b\in A_1$, and $a\in B$, and the number of ordered paths $abcd$ in $\mathcal{B}_1(H)$ with $c\in B_2$ is at least $\gamma\Delta_A^2\Delta_B^2-\Delta_AS_{B,2}+o(\Delta_A^2\Delta_B^2)$. Hence,
@@ -450,6 +450,6 @@ We would like to thank Ross Kang for bringing reference [8] to our attention and
 
 [18] A. Steger and M.-L. Yu, *On induced matchings*, Discrete Mathematics **120** (1993), 291–295.
 
-\textsc{School of Mathematics, Georgia Institute of Technology, Atlanta, GA 30332}
+School of Mathematics, Georgia Institute of Technology, Atlanta, GA 30332
 
 *Email address:* \texttt{yhao98@gatech.edu, tyang439@gatech.edu, yu@math.gatech.edu}

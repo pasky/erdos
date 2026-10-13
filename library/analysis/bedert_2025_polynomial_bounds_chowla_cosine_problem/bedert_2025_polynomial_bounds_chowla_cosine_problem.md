@@ -167,7 +167,7 @@ $$
 \#\{(b_1,b_2)\in B^2:b_1-b_2\in A\}\geqslant\frac{|B|^2}{K}-K|B|,
 $$
 
-which yields the desired result since $|B|\geqslant 2K^2$. \hfill$\square$
+which yields the desired result since $|B|\geqslant 2K^2$. $\square$
 
 We have taken the following lemma from Ruzsa’s paper, though very similar results already appear in those of Roth and Bourgain. We shall prove a more general version of this lemma in Lemma 4.4.
 
@@ -620,7 +620,7 @@ $$
 
 *Proof of Claim 6.4.* This can be seen from (26) as follows, upon recalling that $s_1=1$ while $|s_j|<\frac{1}{1000}$ for $2\leqslant j\leqslant k$. From the definitions (27), it is clear that the three terms $2\cdot 1_{A^{(1)}}(m),-i\cdot 1_{A^{(1)}}(m-t)$ and $i\cdot 1_{A^{(1)}}(m+t)$ in (26) coming from $A^{(1)}$ contribute precisely the claimed ‘main term’ to $\lambda_m$ in (28) depending on whether $m$ lies in $\pm B_t^{(1)},\pm C_t^{(1)},D_t^{(1)}$ or $E_t$. Each $\varepsilon_m$ accounts for the contribution from the sets $A^{(j)},j\in[2,k]$ and so is a sum of at most three terms of the form $2s_j,is_{j'},-is_{j''}$ with $j,j',j''\in[2,k]$, which each have size at most $2/1000$. Hence, each $\varepsilon_m$ certainly has size at most $1/100$.
 
-\hfill$\square$
+$\square$
 
 Define the real numbers $\rho_m,\sigma_m$ by $\rho_m-i\sigma_m:=\lambda_m^3$ for all $m\in\mathbb{Z}$. We now prove a generalised version of Proposition 5.2.
 
@@ -792,8 +792,8 @@ $$
 
 $$
 \begin{aligned}
-\hat{1}_{B^{\prime}_{t}}+\hat{1}_{-B^{\prime}_{t}}&=R_{1}+R_{2} \tag{33}\\
-\hat{1}_{B^{\prime}_{t}}-\hat{1}_{-B^{\prime}_{t}}&=S_{1}+S_{2}, \tag{34}
+\hat{1}_{B^{\prime}_{t}}+\hat{1}_{-B^{\prime}_{t}}&=R_{1}+R_{2} \qquad (33)\\
+\hat{1}_{B^{\prime}_{t}}-\hat{1}_{-B^{\prime}_{t}}&=S_{1}+S_{2}, \qquad (34)
 \end{aligned}
 $$
 
@@ -1022,7 +1022,7 @@ $$
 \widehat{\psi_t}(m)\leqslant 4+\frac{1}{\sqrt{2}},\qquad|\widehat{\phi_t}(m)|\leqslant 4+2\sqrt{2}.
 $$
 
-\hfill$\square$
+$\square$
 
 Now note that by this Lemma 7.2, the inequality (38) has a function $\phi_t$ on the left-hand side whose Fourier coefficients on $B_t$ have size at least $4+\sqrt{2}$, which is strictly larger than any Fourier coefficient of the function $\psi_t$ on the right-hand side. This puts us in a very similar position as in Section 5, where a crucial inequality with similar features was obtained in Proposition 5.2. In Section 5, our approach proceeded by applying Proposition 5.4. This would work here too, but to prove the following quantitatively better result we use a slightly modified version of that argument, using the stronger input from Lemma 7.1.
 

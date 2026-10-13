@@ -287,7 +287,7 @@ $$
 -\frac{i}{2\pi n}\sum_{\substack{d\mid n\\d\leq N}}d.
 $$
 
-Combining this with Lemma 2.1 and (2.5) yields exactly the coefficient of $S_N-\frac{1}{2}\psi(N\alpha)$. Negative coefficients are conjugate, and both sides have mean zero. \hfill$\square$
+Combining this with Lemma 2.1 and (2.5) yields exactly the coefficient of $S_N-\frac{1}{2}\psi(N\alpha)$. Negative coefficients are conjugate, and both sides have mean zero. $\square$
 
 ### 2.3 Nearest cell versus full periodization
 
@@ -1666,14 +1666,14 @@ $$
 \tag{3.66}
 $$
 
-For \(p\ne p'\), the projected estimate (3.49) and Lemmas 2.6 and 2.5 bound the inner sum by
+For $p\ne p'$, the projected estimate (3.49) and Lemmas 2.6 and 2.5 bound the inner sum by
 
 $$
 O_{J,\chi}\bigl(\sigma_1(p)\sigma_1(p')H^{-J}\bigr).
 \tag{3.67}
 $$
 
-For \(p=p'\), every retained \(n\) satisfies \(|n-\ell Np|/p^2\gg H\). Subdivide into the periods used in (3.63) and take a Schwartz exponent larger than \(J+1\). The remaining supremum sum is bounded by
+For $p=p'$, every retained $n$ satisfies $|n-\ell Np|/p^2\gg H$. Subdivide into the periods used in (3.63) and take a Schwartz exponent larger than $J+1$. The remaining supremum sum is bounded by
 
 $$
 p\int_{|x|\gg H}(1+|x|)^{-J-2}\,dx+O(H^{-J-2})\ll_J pH^{-J}.
@@ -1688,13 +1688,13 @@ $$
 \tag{3.68}
 $$
 
-After applying the outside weights in (3.66), the diagonal contribution is \(O_{J,\chi}(H^{-J})\), because
+After applying the outside weights in (3.66), the diagonal contribution is $O_{J,\chi}(H^{-J})$, because
 
 $$
 \sum_{p\asymp Q}\frac{\varphi(p)}{p^2}\ll 1.
 $$
 
-The off-diagonal contribution from (3.67) is \(O_{J,\chi}((\log\log(3Q))^2H^{-J})\). We have therefore proved, including both projection-boundary jumps, that for every \(J\),
+The off-diagonal contribution from (3.67) is $O_{J,\chi}((\log\log(3Q))^2H^{-J})$. We have therefore proved, including both projection-boundary jumps, that for every $J$,
 
 $$
 \left\|(1-\Pi_{\ell,Q})B_{\ell,Q}\right\|_2^2
@@ -1703,7 +1703,7 @@ $$
 \tag{3.69}
 $$
 
-The carrier annuli have bounded overlap as \(Q\) ranges dyadically: for each integer frequency \(n\), at most a fixed number of dyadic values of \(Q\) can satisfy \(n\in I_{\ell,Q}\), since those values have ratio at most 6. Therefore
+The carrier annuli have bounded overlap as $Q$ ranges dyadically: for each integer frequency $n$, at most a fixed number of dyadic values of $Q$ can satisfy $n\in I_{\ell,Q}$, since those values have ratio at most 6. Therefore
 
 $$
 \left\|\sum_Q\Pi_{\ell,Q}B_{\ell,Q}\right\|_2^2
@@ -1712,7 +1712,7 @@ $$
 \tag{3.70}
 $$
 
-For \(Q\le Q_0\), the sum of (3.65) over dyadic \(Q\) is \(O_\chi(L)\): the constant terms contribute \(O(L)\), while
+For $Q\le Q_0$, the sum of (3.65) over dyadic $Q$ is $O_\chi(L)$: the constant terms contribute $O(L)$, while
 
 $$
 \sum_{Q\le Q_0}(\log\log(3Q))^2\frac{Q}{|\ell|N}=o(1).
@@ -1724,27 +1724,27 @@ $$
 \sum_{Q\le Q_0}\left\|(1-\Pi_{\ell,Q})B_{\ell,Q}\right\|_2=o(1)
 $$
 
-on choosing \(J\) large. Bounded overlap of the projected annuli in (3.70) therefore gives
+on choosing $J$ large. Bounded overlap of the projected annuli in (3.70) therefore gives
 
 $$
 \left\|\sum_{Q\le Q_0}B_{\ell,Q}\right\|_2^2\ll_\chi L.
 \tag{3.71}
 $$
 
-There are \(O(\log L)\) blocks above \(Q_0\). Each has squared norm \(O_\chi((\log L)^2)\), so the triangle inequality gives
+There are $O(\log L)$ blocks above $Q_0$. Each has squared norm $O_\chi((\log L)^2)$, so the triangle inequality gives
 
 $$
 \sup_{\ell\ne 0}\sum_n|B_\ell(n)|^2
 \ll_\chi L+(\log L)^4=o(L^2).
 $$
 
-Minkowski, \(\sum_{\ell\ne 0}|v_\ell|<\infty\), and (3.59) prove
+Minkowski, $\sum_{\ell\ne 0}|v_\ell|<\infty$, and (3.59) prove
 
 $$
 \|Z_N^\chi\|_2^2\ll_\chi L+(\log L)^4=o(L^2).
 $$
 
-Together with (3.43), the same holds for \(Y_N^\chi\).
+Together with (3.43), the same holds for $Y_N^\chi$.
 
 Finally remove the smoothing. The difference between $Y_N^\chi$ and the sharp sum in (3.40) is supported on
 

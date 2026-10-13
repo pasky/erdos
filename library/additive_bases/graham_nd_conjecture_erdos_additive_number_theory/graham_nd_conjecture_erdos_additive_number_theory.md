@@ -211,7 +211,7 @@ Hence $s_{n+k}\leq ta^{n+k}<3$. This is impossible however since $k\geq3$ and $s
 
 $$s_{n+k}\geq s_{n+3}\geq2s_{n+2}-1=8s_n-5\geq3$$
 
-(since by Lemma 7 we cannot have $d_{n+2}\leq-2$ and $d_{n+k}=1) and case (i) is completed.
+(since by Lemma 7 we cannot have $d_{n+2}\leq-2$ and $d_{n+k}=1$) and case (i) is completed.
 
 (ii) If $d_{n+1}\leq-1$ then by (1') we have
 

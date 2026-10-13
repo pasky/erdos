@@ -872,6 +872,6 @@ REFERENCES
 
 [Sa2] B. Saffari, *Some polynomial extremal problems which emerged in the twentieth century*, in Twentieth Century Harmonic Analysis – A Celebration, James S. Byrnes (Ed.) (2001), Kluwer Academic Publishers, Dordrecht, 201–233.
 
-\textsc{Department of Mathematics, Texas A\&M University, College Station, Texas 77843, College Station, Texas 77843}
+Department of Mathematics, Texas A\&M University, College Station, Texas 77843, College Station, Texas 77843
 
 *E-mail address:* \texttt{terderlyi@math.tamu.edu}

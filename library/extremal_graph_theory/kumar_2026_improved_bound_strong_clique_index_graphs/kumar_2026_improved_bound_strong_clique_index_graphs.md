@@ -391,7 +391,7 @@ Let $O_4$ be the Odd graph[^1] $KG(7,3)$, i.e., $V(O_4)$ is the set of 3-subsets
 
 [^1]: See Odd Graph at Wolfram MathWorld
 
-**Lemma 3.1.** *We have $\diam(L(O_{4}))\leq 3$. Equivalently, $L(O_{4})^{3}$ is a complete graph.*
+**Lemma 3.1.** *We have $\operatorname{diam}(L(O_{4}))\leq 3$. Equivalently, $L(O_{4})^{3}$ is a complete graph.*
 
 *Proof.* Let $AB$ and $CD$ be two distinct edges of $O_{4}$. By the definition of $O_{4}$, the sets $A$ and $B$ are disjoint $3$-subsets of $\{1,\ldots,7\}$, and so $|A\cup B|=6$. Similarly, $|C\cup D|=6$. Hence
 
@@ -417,7 +417,7 @@ Now, fix an element $\infty\in\Omega$. Let $W$ denote the subgraph of the Witt g
 
 It is known that $W$ is a distance regular graph of order $506$, degree $15$, size $3795$ and diameter $3$. We observe the following.
 
-**Lemma 3.2.** *We have $\diam(L(W))\leq 3$, i.e., $L(W)^{3}$ is a complete graph.*
+**Lemma 3.2.** *We have $\operatorname{diam}(L(W))\leq 3$, i.e., $L(W)^{3}$ is a complete graph.*
 
 *Proof.* Let $AB,CD\in E(W)$ be two distinct edges of $W$. Thus
 
@@ -541,16 +541,14 @@ It is possible for $\alpha\in\mathrm{PG}(2,q)$ to lie in $\alpha^\perp$ and so $
 
 *(iii) $\operatorname{diam}(L(G[H,q]))\leq 3$.*
 
-*Proof.* Consider a vertex $(u,\alpha)\in V(G[H,q])$. The vertex $u$ has degree $\Delta(H)$ in $H$. For each neighbour $v$ of $u$ in $H, the possible second coordinates $\beta$ are precisely the points of the line $\alpha^\perp$, of which there are $q+1$. Therefore, every vertex $(u,\alpha)$ of $G[H,q]$ has degree $\Delta(H)(q+1)$. This proves
-
-*(i).*
+*Proof.* Consider a vertex $(u,\alpha)\in V(G[H,q])$. The vertex $u$ has degree $\Delta(H)$ in $H$. For each neighbour $v$ of $u$ in $H$, the possible second coordinates $\beta$ are precisely the points of the line $\alpha^\perp$, of which there are $q+1$. Therefore, every vertex $(u,\alpha)$ of $G[H,q]$ has degree $\Delta(H)(q+1)$. This proves $(i)$.
 
 To see $(ii)$, observe that
 
 $$
 \begin{aligned}
 |E(G[H,q])|&=\frac{1}{2}\cdot |V(G[H,q])|\cdot \Delta(G[H,q])\\
-&=\frac{1}{2}\cdot |V(H)|\cdot |\PG(2,q)|\cdot \Delta(H)\cdot(q+1)\\
+&=\frac{1}{2}\cdot |V(H)|\cdot |\operatorname{PG}(2,q)|\cdot \Delta(H)\cdot(q+1)\\
 &=|E(H)|\cdot(q+1)\cdot(q^2+q+1).
 \end{aligned}
 $$
@@ -561,7 +559,7 @@ $$
 e=\{(u,a),(v,b)\}\quad\text{and}\quad f=\{(z,c),(w,d)\}
 $$
 
-be two distinct edges of $G[H,q]$. Then $uv$ and $zw$ are edges of $H$. Since $\diam(L(H))\leq 3$, there exist endpoints $r\in\{u,v\}$ and $s\in\{z,w\}$ such that either $r=s$ or there is a common neighbour of $r$ and $s$ in $H$.
+be two distinct edges of $G[H,q]$. Then $uv$ and $zw$ are edges of $H$. Since $\operatorname{diam}(L(H))\leq 3$, there exist endpoints $r\in\{u,v\}$ and $s\in\{z,w\}$ such that either $r=s$ or there is a common neighbour of $r$ and $s$ in $H$.
 
 Let $\alpha$ denote the projective point such that $(r,\alpha)$ is an endpoint of $e$, and let $\beta$ denote the projective point such that $(s,\beta)$ is an endpoint of $f$. Since the two projective lines $\alpha^\perp$ and $\beta^\perp$ meet, choose
 
@@ -575,9 +573,9 @@ $$
 (r,\alpha)\sim(p,\gamma)\sim(s,\beta).
 $$
 
-Thus, some endpoint of $e$ is at distance at most 2 from some endpoint of $f$ in $G[H,q]$. Consequently, the two edges $e$ and $f$ have distance at most 3 in the line graph $L(G[H,q])$. Since $e$ and $f$ were arbitrary, we conclude that $\diam L(G[H,q])\leq 3$. $\square$
+Thus, some endpoint of $e$ is at distance at most 2 from some endpoint of $f$ in $G[H,q]$. Consequently, the two edges $e$ and $f$ have distance at most 3 in the line graph $L(G[H,q])$. Since $e$ and $f$ were arbitrary, we conclude that $\operatorname{diam} L(G[H,q])\leq 3$. $\square$
 
-**Lemma 3.4.** *Let $H$ be a $\Delta(H)$-regular graph with $\diam(L(H))\leq 3$. Then*
+**Lemma 3.4.** *Let $H$ be a $\Delta(H)$-regular graph with $\operatorname{diam}(L(H))\leq 3$. Then*
 
 $$
 \liminf_{\Delta\to\infty}\frac{h_3(\Delta)}{\Delta^3}\geq\frac{|E(H)|}{\Delta(H)^3}.
@@ -671,11 +669,11 @@ We acknowledge the use of AI tools during the ideation phase. We declare that th
 339(5):1551–1556, 2016. \textsuperscript{2}
 
 Hitesh Kumar, Email: `hitesh.kumar.math@gmail.com`, `hitesh_kumar@sfu.ca`  
-\textsc{Department of Mathematics, Simon Fraser University, Burnaby, Canada}
+Department of Mathematics, Simon Fraser University, Burnaby, Canada
 
 Bojan Mohar, Email: `mohar@sfu.ca`  
-\textsc{Department of Mathematics, Simon Fraser University, Burnaby, Canada}  
-\textsc{On leave from FMF, Department of Mathematics, University of Ljubljana.}
+Department of Mathematics, Simon Fraser University, Burnaby, Canada  
+On leave from FMF, Department of Mathematics, University of Ljubljana.
 
 Shivaramakrishna Pragada, Email: `shivaramakrishna_pragada@sfu.ca`, `shivaramkratos@gmail.com`  
-\textsc{Department of Mathematics, Simon Fraser University, Burnaby, Canada}
+Department of Mathematics, Simon Fraser University, Burnaby, Canada

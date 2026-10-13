@@ -276,7 +276,7 @@ where $\omega_i$ is a primitive $p_i$th root, $\varepsilon_i$ is an arbitrary ro
 
 Our Theorem 5 improves a similar result of Mann ([7], Theorem 1). We can also readily deduce the following
 
-**COROLLARY.** *A minimal vanishing sum of length $l$ and reduced exponent $r* has
+**COROLLARY.** *A minimal vanishing sum of length $l$ and reduced exponent $r$ has*
 
 $$
 r = O\{\exp(C(l\log l)^{1/2})\}

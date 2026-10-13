@@ -70,7 +70,7 @@ $$
 \delta := \frac{1}{2}\limsup_{n\to\infty}\frac{A(n)}{n}.
 $$
 
-By Szemerédi’s theorem [S], there is an integer $R = R(\delta,s)$ such that any subset of $R$ consecutive integers with cardinality at least $\delta R$ contains an arithmetic progression of length $2^s$. By (i), there exist infinitely many $m$ so that the interval $[m,m+R]$ contains at least $\delta R$ elements of $A' := A \setminus (A_0 \cup B)$. Select an infinite sequence of such disjoint intervals with left-hand endpoints $m_1 < m_2 < \cdots$. Set $A_j := A' \cap [m_j,m_j+R]$. Thus, each $A_j satisfies $|A_j| \geq \delta R$ and consequently, $A_j$ contains an arithmetic progression  
+By Szemerédi’s theorem [S], there is an integer $R = R(\delta,s)$ such that any subset of $R$ consecutive integers with cardinality at least $\delta R$ contains an arithmetic progression of length $2^s$. By (i), there exist infinitely many $m$ so that the interval $[m,m+R]$ contains at least $\delta R$ elements of $A' := A \setminus (A_0 \cup B)$. Select an infinite sequence of such disjoint intervals with left-hand endpoints $m_1 < m_2 < \cdots$. Set $A_j := A' \cap [m_j,m_j+R]$. Thus, each $A_j$ satisfies $|A_j| \geq \delta R$ and consequently, $A_j$ contains an arithmetic progression  
 $a_j + kd_j,\quad 0 \leq k \leq 2^s - 1.$
 
 **CLAIM 2.** For each $s$ it is possible to partition

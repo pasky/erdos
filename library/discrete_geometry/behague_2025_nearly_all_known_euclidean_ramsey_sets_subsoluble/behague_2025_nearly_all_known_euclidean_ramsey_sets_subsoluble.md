@@ -340,7 +340,7 @@ In this section, we prove that isosceles trapezia are subsoluble. This proof is 
 
 *Proof.* Let $ABCD$ be an isosceles trapezium such that the edges $AD$ and $BC$ are parallel, and the edges $AB$ and $CD$ are the same length. Note that all isosceles trapezia are cyclic quadrilaterals. Let $\mathcal{C}$ be the circle circumscribing $ABCD$ with centre $O$.
 
-*Claim 1.* Suppose angle $\angle AOB$ is equal to $2\pi/k$ for some integer $k$. Then there exists a finite set $Y\subseteq\mathcal{C}$ containing the vertices $A,B,C,D$ such that there is a soluble transitive group action on $Y.
+*Claim 1.* Suppose angle $\angle AOB$ is equal to $2\pi/k$ for some integer $k$. Then there exists a finite set $Y\subseteq\mathcal{C}$ containing the vertices $A,B,C,D$ such that there is a soluble transitive group action on $Y$.
 
 *Proof of Claim.* Since $\angle AOB$ is equal to $2\pi/k$ for some integer $k$, there exists a regular $k$-gon $X\subseteq\mathcal{C}$ containing $A$ and $B$. Reflect $X$ in the perpendicular bisector of $AD$ to get a regular $k$-gon $X'$ containing $C$ and $D$. Note that the perpendicular bisector of $AD$ passes through $O$ and so $X'\subseteq\mathcal{C}$. Let $Y=X\cup X'$. Clearly by construction $Y$ contains $A,B,C,D$.
 

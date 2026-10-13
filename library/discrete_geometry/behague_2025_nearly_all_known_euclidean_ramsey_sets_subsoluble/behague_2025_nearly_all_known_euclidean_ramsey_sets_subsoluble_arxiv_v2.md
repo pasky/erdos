@@ -264,7 +264,7 @@ $$
 \frac{|Aut(X)||Q|}{|T_h||X|} = \frac{120\cdot 8}{24\cdot 20}=2
 $$
 
-and so the conditions of Lemma 4.2 are satisfied with $H = Aut(X)$, $G = T_h$ and $O_1 = Q$ and $q = 5$. \hfill $\square$
+and so the conditions of Lemma 4.2 are satisfied with $H = Aut(X)$, $G = T_h$ and $O_1 = Q$ and $q = 5$. $\square$
 
 Now we will prove the key lemma.
 

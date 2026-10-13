@@ -247,14 +247,14 @@ Oliver Roche-Newton and Audie Warren were partially supported by the Austrian Sc
 
 [13] Sophie Stevens and Audie Warren. On sum sets and convex functions. *Electron. J. Combin.*, 29(2):Paper No. 2.18, 19, 2022.
 
-\textsc{Oliver Roche-Newton, Institute for Algebra, Johannes Kepler University Linz, Linz, Austria.}
+Oliver Roche-Newton, Institute for Algebra, Johannes Kepler University Linz, Linz, Austria.
 
 *Email address:* \texttt{o.roche-newton@gmail.com}
 
-\textsc{Carl Schildkraut, Department of Mathematics, Stanford University, Stanford, USA.}
+Carl Schildkraut, Department of Mathematics, Stanford University, Stanford, USA.
 
 *Email address:* \texttt{carlsch@stanford.edu}
 
-\textsc{Audie Warren, Johann Radon Institute for Computational and Applied Mathematics, Linz, Austria.}
+Audie Warren, Johann Radon Institute for Computational and Applied Mathematics, Linz, Austria.
 
 *Email address:* \texttt{audie.warren@oeaw.ac.at}

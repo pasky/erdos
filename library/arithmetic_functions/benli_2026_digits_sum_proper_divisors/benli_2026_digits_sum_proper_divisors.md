@@ -196,8 +196,8 @@ Davenport [4] has shown that for each fixed $u\geq 0$, the density of $n$ with $
 
 $$
 \begin{aligned}
-\limsup_{x\to\infty}\frac{1}{x}\left(&\#\left\{n\leq x:\frac{s(n)}{n}>\frac{1}{g}(\log k)^{\log g}\right\}\right.\\
-&\left.+\#\left\{n\leq x:\frac{s(n)}{n}<\frac{g}{(\log k)^{\log g}}\right\}\right)
+\limsup_{x\to\infty}\frac{1}{x}\Biggl(&\#\left\{n\leq x:\frac{s(n)}{n}>\frac{1}{g}(\log k)^{\log g}\right\}\\
+&+\#\left\{n\leq x:\frac{s(n)}{n}<\frac{g}{(\log k)^{\log g}}\right\}\Biggr)
 \leq(1-D(M))+D(1/M).
 \end{aligned}
 $$
@@ -243,7 +243,7 @@ I_L&:=[L\cdot g^{m-k},(L+1)\cdot g^{m-k})\\
 \end{aligned}
 $$
 
-We fix $r$, $m$, and $L$, and count the number of corresponding $n$. It is convenient to sort these $n$ into residue classes modulo $M=\prod_{p\leq z}p^z$, where $z=g^{10k}$. By the Prime Number Theorem, $M\leq 3^{z^2}=x^{o(1)}, where the last equality comes from our restriction on the size of $k$. Let $n'\in(0,M]$ be the least positive representative of $n\pmod M$ and $n_z$ be the $z$-smooth part of $n'$. Excluding the $o(x)$ exceptional values of $n$ described in Lemma 2.3 above, we have
+We fix $r$, $m$, and $L$, and count the number of corresponding $n$. It is convenient to sort these $n$ into residue classes modulo $M=\prod_{p\leq z}p^z$, where $z=g^{10k}$. By the Prime Number Theorem, $M\leq 3^{z^2}=x^{o(1)}$, where the last equality comes from our restriction on the size of $k$. Let $n'\in(0,M]$ be the least positive representative of $n\pmod M$ and $n_z$ be the $z$-smooth part of $n'$. Excluding the $o(x)$ exceptional values of $n$ described in Lemma 2.3 above, we have
 
 $$
 \frac{s(n)}{n}\leq\frac{s(n_z)}{n_z}\left(1+\frac{n_z}{s(n_z)}z^{-1/2}\right)\leq s(n_z)(1+kz^{-1/2}).
@@ -550,7 +550,7 @@ $$
 
 Since $B$ can be taken arbitrarily large, $T(N)=o(1)$. This completes the proof of Theorem 3.5.
 
-\hfill$\square$
+$\square$
 
 *Remark.* An important step in the proof of Theorem 1.2 is to apply Halász’s Theorem (Proposition 3.3) to prove that the functions $g_{\alpha,k}: n\mapsto \sigma(n)^{i\alpha}(n/\sigma(n))^k$ have logarithmic mean $0$ when $\alpha\in\mathbb R\setminus\{0\}$. This approach does not work in case of natural means because the functions $g_{\alpha,k}$ are $n^{i\alpha}$-pretentious in the sense of [8].
 

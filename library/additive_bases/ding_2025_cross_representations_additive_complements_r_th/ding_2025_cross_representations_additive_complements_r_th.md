@@ -959,7 +959,7 @@ $$
 \limsup_{N\to\infty}\frac{\mathcal{W}(N)}{\sqrt{N}}\leq\frac{4}{\pi}.
 $$
 
-Together with (1.1), this gives $\mathcal{W}(N)\sim\frac{4}{\pi}\sqrt{N}$, which is equivalent to $w_n\sim\frac{\pi^2}{16}n^2$. \hfill$\square$
+Together with (1.1), this gives $\mathcal{W}(N)\sim\frac{4}{\pi}\sqrt{N}$, which is equivalent to $w_n\sim\frac{\pi^2}{16}n^2$. $\square$
 
 ## Acknowledgments
 

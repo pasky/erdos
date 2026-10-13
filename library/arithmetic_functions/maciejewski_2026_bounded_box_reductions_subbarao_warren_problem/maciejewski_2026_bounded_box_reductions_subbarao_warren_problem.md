@@ -55,7 +55,7 @@ The headline computational bound is therefore $|H_{\mathrm{even}}\cap[2,40000]|\
 Decompose $n=2^a\prod_i p_i^{e_i}$ with $p_i$ odd. Multiplicativity of $\sigma^{*}$ with $\sigma^{*}(2^a)=2^a+1$ and $\sigma^{*}(p^e)=p^e+1$ makes the defining equation $\sigma^{*}(n)=2n$ the full balance
 
 $$
-\tag{(\ast)}
+\tag{$\ast$}
 (2^a+1)\prod_i(p_i^{e_i}+1)=2^{a+1}\prod_i p_i^{e_i}.
 $$
 
@@ -231,7 +231,7 @@ Theorem 8 reduces Conjecture 7 to the prime case: *prove that only finitely many
 
 *Proof.* By Proposition 5, any $m=2k\in H_{\mathrm{even}}$ with $k$ odd and $k\leq 600$ requires $k$ to be Higgs-cubefree. Of the $300$ odd $k$ in $[1,600]$, exactly $246$ are Higgs-cubefree; the other $54$ are structurally excluded from $H_{\mathrm{even}}$ without any factoring required.
 
-For each of the $246$ Higgs-cubefree candidates, we factor $2^m+1$ (local Pollard $\rho/p-1$ for small $m$, FactorDB [9] for larger $m) and recursively verify the 3-Higgs status of every listed prime factor. Of the $246$ candidates:
+For each of the $246$ Higgs-cubefree candidates, we factor $2^m+1$ (local Pollard $\rho/p-1$ for small $m$, FactorDB [9] for larger $m$) and recursively verify the 3-Higgs status of every listed prime factor. Of the $246$ candidates:
 
 - $10$ values of $m$ have every prime factor of $2^m+1$ 3-Higgs; these are exactly the elements listed in the theorem statement.
 - $236$ values of $m$ each contain at least one verified non-3-Higgs prime factor (witness digit sizes ranging from $3$ to $85$).

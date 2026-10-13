@@ -567,7 +567,7 @@ $$
 \tau_{j+1}^{\mathcal{A}}(A_{i-j},A_{i-j+1},\ldots,A_i)\leq\tau_{j+1}^{\mathcal{A}}(B,A_{i-j},\ldots,A_{i-1}).
 $$
 
-This is exactly the domination excluded by the induction hypothesis at level $j+1$. \hfill$\square$
+This is exactly the domination excluded by the induction hypothesis at level $j+1$. $\square$
 
 For $i\in[p]$, define
 
@@ -715,7 +715,7 @@ $$
 C(p,r)\geq q-p+1.
 $$
 
-This finishes the proof of Theorem 17. \hfill $\square$
+This finishes the proof of Theorem 17. $\square$
 
 *Remark 18.* The recursive history construction makes sense for every integer $p\geq 2$. In the present proof, primality is used twice: in Theorem 14, and in the fact that every nonconstant $p$-tuple has a free orbit under cyclic shift. The group-theoretic argument below requires only these prime-order cases, since a finite solvable group has a composition series with cyclic factors of prime order.
 

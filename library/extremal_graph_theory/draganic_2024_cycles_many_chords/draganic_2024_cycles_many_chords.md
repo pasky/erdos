@@ -25,7 +25,7 @@ In 1996, Chen, Erdős and Staton [4] also considered the following natural quest
 
 **Overview of the proof.** Initially, we undertake a process of cleaning the graph, i.e. finding a subgraph that is nearly regular (with a constant factor difference between the minimum and maximum degrees), good expansion properties, and a sufficiently high average degree. Subsequently, we investigate a random walk of an appropriate length $\ell$ within this subgraph. We consider two critical events: firstly, we analyze the probability that the random walk is self-avoiding, meaning that it does not revisit any of the previously visited vertices. Secondly, we assess what is the likelihood of the set of vertices visited by the random walk to span at least $\ell$ chords. While the occurrence of the first event is characterized by an exponentially small probability $q$, we carefully establish that the second event still holds with probability more than $1-q$. Crucially, for bounding the probability for the first event we use the fact that the obtained graph has good expansion properties. For the second event, directly applying standard concentration inequalities does not yield a strong enough bound on the required probability. To remedy the situation, we prove an edge-decomposition result in almost-regular graphs, which combined with concentration inequalities produces the required bound.
 
-**Notation.** We use standard graph theoretic notation throughout the paper. In particular, for a graph $G$, we denote by $d(G)$ its average degree, and by $\delta(G)$, $\Delta(G)$ its minimum degree and maximum degree, respectively. By $e(G)$, we denote the number of edges of $G$, and for $S\subseteq V(G)$, by $e_G(S)$ we denote the number of edges induced by $S$. For two disjoint sets $A,B\subseteq V(G)$, $e_G(A,B)$ is the number of edges of $G$ which are incident to both $A$ and $B$. We omit the subscripts if it is clear from the context which graph we refer to. Given an event $E$ in a probability space, we denote by $\mathbbm{1}_E$ the indicator random variable of $E$, which is equal to 1 when $E$ holds, and 0 otherwise.
+**Notation.** We use standard graph theoretic notation throughout the paper. In particular, for a graph $G$, we denote by $d(G)$ its average degree, and by $\delta(G)$, $\Delta(G)$ its minimum degree and maximum degree, respectively. By $e(G)$, we denote the number of edges of $G$, and for $S\subseteq V(G)$, by $e_G(S)$ we denote the number of edges induced by $S$. For two disjoint sets $A,B\subseteq V(G)$, $e_G(A,B)$ is the number of edges of $G$ which are incident to both $A$ and $B$. We omit the subscripts if it is clear from the context which graph we refer to. Given an event $E$ in a probability space, we denote by $\mathbb{1}_E$ the indicator random variable of $E$, which is equal to 1 when $E$ holds, and 0 otherwise.
 
 ## 2 Preliminaries
 
@@ -77,7 +77,7 @@ Let $G$ be a connected graph on the vertex set $[n]$. Consider a random walk on 
 
 **Lemma 2.7** (Lemma 5.2 in [9]). Let $G$ be a connected $n$-vertex bipartite graph, with the bipartition $\{X,Y\}$ with $m$ edges. Let $M=D(G)A(G)$ and $N=N(G)$. Then for every $v,u\in V(G)$ and integer $k\geq 1$, we have
 
-$$\left|(M^{k})_{v,u}-\frac{d(u)}{2m}\left(1+(-1)^{k+\mathbbm{1}_{v\in X}+\mathbbm{1}_{u\in X}}\right)\right|\leq\sqrt{\frac{d(u)}{d(v)}}\cdot\big(\lambda_2(N)\big)^{k}.$$
+$$\left|(M^{k})_{v,u}-\frac{d(u)}{2m}\left(1+(-1)^{k+\mathbb{1}_{v\in X}+\mathbb{1}_{u\in X}}\right)\right|\leq\sqrt{\frac{d(u)}{d(v)}}\cdot\big(\lambda_2(N)\big)^{k}.$$
 
 Note that Lemma 2.7 says that when $k$ is even and both $v,u$ are in the same part or when $k$ is odd and $v,u$ are in different parts then $\left|(M^k)_{v,u}-\frac{d(u)}{m}\right|\leq\sqrt{\frac{d(u)}{d(v)}}\cdot\big(\lambda_2(N)\big)^k$. Also observe that when $k$ is even and $v$ and $u$ are in different parts or when $k$ is odd and $v$ and $u$ are in the same part then $(M^k)_{v,u}=0$.
 
@@ -104,7 +104,7 @@ Combining Lemma 2.10 and Theorem 2.9, we obtain that if $G$ is a $K$-almost-regu
 **Corollary 2.11.** Let $\lambda>0$, $K\geq 1$, and let $G$ be a bipartite graph on $n$ vertices which is a $K$-almost-regular $\lambda$-expander. Let $\{X,Y\}$ be the bipartition of $G$ with $m$ edges and no isolated vertices. Let $M=D(G)A(G)$ and $N=N(G)$. Then for every $v,u\in V(G)$ and integer $k\geq 1$, the probability $(M^k)_{v,u}$ that a random walk starting at vertex $v$ ends in $u$ after $k$ steps satisfies
 
 $$
-\left|(M^k)_{v,u}-\frac{d(u)}{2m}\left(1+(-1)^{k+\mathbbm{1}_{v\in X}+\mathbbm{1}_{u\in X}}\right)\right|\leq\sqrt{K}\cdot\left(1-\frac{1}{8}\left(\frac{\lambda}{K}\right)^2\right)^k.
+\left|(M^k)_{v,u}-\frac{d(u)}{2m}\left(1+(-1)^{k+\mathbb{1}_{v\in X}+\mathbb{1}_{u\in X}}\right)\right|\leq\sqrt{K}\cdot\left(1-\frac{1}{8}\left(\frac{\lambda}{K}\right)^2\right)^k.
 $$
 
 We shall utilize the following definition of *mixing time* in bipartite graphs.
@@ -112,7 +112,7 @@ We shall utilize the following definition of *mixing time* in bipartite graphs.
 **Definition 2.12** (Mixing time). Let $G$ be a bipartite graph on $n$ vertices. Let $\{X,Y\}$ be the bipartition of $G$ with $m$ edges and no isolated vertices. We say that $G$ has *mixing time* $k$ if for every $u,v\in G$, the probability $(M^k)_{v,u}$ that a random walk starting at vertex $v$ ends in $u$ after $k$ steps satisfies
 
 $$
-\left|(M^k)_{v,u}-\frac{d(u)}{2m}\left(1+(-1)^{k+\mathbbm{1}_{v\in X}+\mathbbm{1}_{u\in X}}\right)\right|\leq\frac{1}{n^2}.
+\left|(M^k)_{v,u}-\frac{d(u)}{2m}\left(1+(-1)^{k+\mathbb{1}_{v\in X}+\mathbb{1}_{u\in X}}\right)\right|\leq\frac{1}{n^2}.
 $$
 
 The following is a corollary of the previous statements and succinctly summarizes a few pertinent properties of mixing time that are essential for our proofs.
@@ -231,7 +231,7 @@ $$2^{m_i}\cdot e^{-\frac{dpm_i}{2\cdot 10^7}}\leq e^{\frac{dpm_i}{10^8}}\cdot e^
 
 where we used that $m_i\leq\frac{dpm_i}{10^8}$, since $p\geq 10^8/d$. $\square$
 
-By a simple union bound and since $pn\geq 10^{16}\log n$, we then have that with probability at least $1-ne^{-\frac{pn}{10^{13}}}\geq 1-e^{-\frac{pn}{10^{14}}}$ the following holds: for every star-forest $F_i$, more than half of its stars each have at least $\frac{dp}{10^7}$ leaves in $R_1(k)$. Suppose this event occurs. Then for each $F_i$, let $A_i$ denote the set of vertices in $F_i$ which are the roots of stars with more than $\frac{dp}{10^7}$ leaves in $R_1(k)$. Then, we have $\sum_i|A_i|\geq\frac{1}{2}\cdot\frac{d}{10}\cdot\frac{n}{10^5d}\geq\frac{n}{10^7}$ and so, by Lemma 3.4, with probability at least $1-e^{-\frac{pn}{10^7}}$ we have that $left|R_2(k)\cap\bigcup_i A_i\right|\geq\frac{pn}{10^7}$. Hence, by the choice of vertices in $\bigcup_i A_i$ we have $e(R_1(k),R_2(k))\geq\left|R_2(k)\cap\bigcup_i A_i\right|\cdot\frac{dp}{10^7}\geq\frac{dp^2n}{10^{14}}$ with probability at least $(1-e^{-\frac{pn}{10^{14}}})(1-e^{-\frac{pn}{10^7}})\geq 1-e^{-\frac{np}{10^{15}}}=1-e^{-\frac{t}{10^{24}k}}$ as required. $\square$
+By a simple union bound and since $pn\geq 10^{16}\log n$, we then have that with probability at least $1-ne^{-\frac{pn}{10^{13}}}\geq 1-e^{-\frac{pn}{10^{14}}}$ the following holds: for every star-forest $F_i$, more than half of its stars each have at least $\frac{dp}{10^7}$ leaves in $R_1(k)$. Suppose this event occurs. Then for each $F_i$, let $A_i$ denote the set of vertices in $F_i$ which are the roots of stars with more than $\frac{dp}{10^7}$ leaves in $R_1(k)$. Then, we have $\sum_i|A_i|\geq\frac{1}{2}\cdot\frac{d}{10}\cdot\frac{n}{10^5d}\geq\frac{n}{10^7}$ and so, by Lemma 3.4, with probability at least $1-e^{-\frac{pn}{10^7}}$ we have that $\left|R_2(k)\cap\bigcup_i A_i\right|\geq\frac{pn}{10^7}$. Hence, by the choice of vertices in $\bigcup_i A_i$ we have $e(R_1(k),R_2(k))\geq\left|R_2(k)\cap\bigcup_i A_i\right|\cdot\frac{dp}{10^7}\geq\frac{dp^2n}{10^{14}}$ with probability at least $(1-e^{-\frac{pn}{10^{14}}})(1-e^{-\frac{pn}{10^7}})\geq 1-e^{-\frac{np}{10^{15}}}=1-e^{-\frac{t}{10^{24}k}}$ as required. $\square$
 
 ### 3.4 Self-avoiding walks in expanders
 
@@ -265,7 +265,7 @@ $$
 \sum_{v\in[n]}\mathbf{P}\left[\overline{E_A^v}\right]\leq\sum_{v\in[n]}\sum_{t=1}^{k}Q_t^v(A)=\sum_{v\in[n]}\sum_{t=1}^{k}\sum_{a\in A}Q_t^v(\{a\})\leq\sum_{t=1}^{k}\sum_{a\in A}\sum_{v\in[n]}100Q_t^a(\{v\})=100k|A|.
 $$
 
-This immediately implies the claim as $\sum_{v\in[n]}\mathbf{P}\left[\overline{E_A^v}\right]\geq\beta|B|$ by the definition of $B$. \hfill $\square$
+This immediately implies the claim as $\sum_{v\in[n]}\mathbf{P}\left[\overline{E_A^v}\right]\geq\beta|B|$ by the definition of $B$. $\square$
 
 The following claim gives the probability that a random walk of length $k$ is self-avoiding and additionally avoids a fixed set of $k$ vertices.
 
@@ -277,7 +277,7 @@ $$
 \prod_{i=0}^{k-1}\left(\frac{d(X_i^v)-|S|-i}{d(X_i^v)}\right)\geq\left(1-\frac{2k}{\delta(G)}\right)^k\geq 1-\frac{200k^2}{\Delta(G)}.
 $$
 
-\hfill $\square$
+$\square$
 
 Now, for every $v\in V(G)$ and every set $A\subseteq V(G)$ define
 

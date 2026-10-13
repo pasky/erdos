@@ -89,7 +89,7 @@ $$
 f(z)\to A=\prod_{p=1}^{\infty}\frac{1-(3/4)^{2^{2p-1}}}{1-(3/4)^{2^{2p}}}
 $$
 
-as $z\to\infty outside the union of the discs
+as $z\to\infty$ outside the union of the discs
 
 $$
 C_n=\{z:|z-16(-1)^n r_n/7|<25r_n/14\}.
@@ -291,7 +291,7 @@ $$
 (11) \quad n(4s_n) \geq t_n / (32 \pi K).
 $$
 
-We see easily that $f(z) / z \to \infty$ as $z \to \infty$ outside the union of the discs $C_n: |z + r_n| < r_n / 12$. If $n$ is large then $n(r_n / 2, a) = n(r_n / 2, 0) < 2 t_{n-1}$ for $|a| < r_n$. Because $M(r_n, f) < \min_{|z|=r_n^2} |f(z)|, we have $n(r_n, a) \leq n(r_n^2, 0) < 2 t_n$ for every $a \in \Sigma$. Therefore
+We see easily that $f(z) / z \to \infty$ as $z \to \infty$ outside the union of the discs $C_n: |z + r_n| < r_n / 12$. If $n$ is large then $n(r_n / 2, a) = n(r_n / 2, 0) < 2 t_{n-1}$ for $|a| < r_n$. Because $M(r_n, f) < \min_{|z|=r_n^2} |f(z)|$, we have $n(r_n, a) \leq n(r_n^2, 0) < 2 t_n$ for every $a \in \Sigma$. Therefore
 
 $$
 (12)\qquad A(r_n / 2) < 2 t_{n-1} + 8 t_n / r_n < 3 t_{n-1}

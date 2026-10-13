@@ -190,7 +190,7 @@ $$
 - Given real numbers $a<b$, let
 
 $$
-\llbracket a,b\rrbracket:=[a,b]\cap\mathbb{Z},\qquad\text{and}\qquad\llparenthesis a,b\rrparenthesis:=(a,b)\cap\mathbb{Z}.
+\llbracket a,b\rrbracket:=[a,b]\cap\mathbb{Z},\qquad\text{and}\qquad(\mkern-4mu\vert a,b\vert\mkern-4mu):=(a,b)\cap\mathbb{Z}.
 $$
 
 - Subscripts are given to Vinogradov and Big O symbols when the implied constant in the expression is dependent on some given parameters, e.g., $f(x)\ll_a g(x)$ means that the implied constant in the Vinogradov symbol depends on a given parameter $a$.
@@ -342,7 +342,7 @@ This provides the necessary context for the following classical transference the
 **Proposition 3.2.** *Let $L_1(\bm{x}),\ldots,L_N(\bm{x})$ be $N\in\mathbb{N}$ homogeneous linear forms in an integral variable $\bm{x}\in\mathbb{Z}^{M}$, where $M\in\mathbb{N}$. Given $C,X>0$, if:*
 
 $$
-\max_{1\leq i\leq N}\|L_i(\bm{x})\|\geq C\quad\quad\forall\;\bm{x}\in(-X,X)^M\setminus\{\bm{0}\},
+\max_{1\leq i\leq N}\|L_i(\bm{x})\|\geq C\quad\quad\forall\;\bm{x}\in(\mkern-4mu\vert -X,X\vert\mkern-4mu)^M\setminus\{\bm{0}\},
 $$
 
 then for all $\bm{\alpha}\in[0,1)^N$, there exists an $\bm{x}\in\mathbb{Z}^M$ such that
@@ -368,7 +368,7 @@ This has the following consequence in the special case $N=d$, $M=1$.
 **Lemma 3.3.** Let $\delta>0$, $S\in\mathbb{N}$, and let $\bm{u}\in\mathbb{S}^{d}$ such that $\|\bm{u}\|_\infty=|u_{d+1}|$. If
 
 $$
-\max_{1\leq i\leq d}\|mu_i/u_{d+1}\|\geq S^{-1/d}\qquad\forall\,m\in\llparenthesis-\delta^{-1}S^{1-1/d},\delta^{-1}S^{1-1/d}\rrparenthesis\setminus\{0\},
+\max_{1\leq i\leq d}\|mu_i/u_{d+1}\|\geq S^{-1/d}\qquad\forall\,m\in(\mkern-4mu\vert -\delta^{-1}S^{1-1/d},\delta^{-1}S^{1-1/d}\vert\mkern-4mu)\setminus\{0\},
 \tag{3.2}
 $$
 
@@ -383,7 +383,7 @@ is $\delta$-dense in $[0,1)^{d+1}$.
 *Proof.* By Lemma 3.1, it suffices to show, given the hypotheses, that $\Sigma_S(\bm{u})$ is $\delta$-dense in $[0,1)^d$. Proposition 3.2 implies that if, given $C,X>0$,
 
 $$
-\max_{1\leq i\leq d}\|mu_i/u_{d+1}\|\geq C\qquad\forall\,m\in\llparenthesis-X,X\rrparenthesis\setminus\{0\},
+\max_{1\leq i\leq d}\|mu_i/u_{d+1}\|\geq C\qquad\forall\,m\in(\mkern-4mu\vert -X,X\vert\mkern-4mu)\setminus\{0\},
 \tag{3.3}
 $$
 
@@ -399,7 +399,7 @@ $$
 h=\lfloor X^{-1}C^{-d}\rfloor.
 $$
 
-By Dirichlet’s theorem, there exists an $m\in\llbracket 1,X\rrparenthesis$ such that
+By Dirichlet’s theorem, there exists an $m\in\llbracket 1,X\vert\mkern-4mu)$ such that
 
 $$
 \max_{1\leq i\leq d}\|mu_i/u_{d+1}\|\leq X^{-1/d}.
@@ -516,7 +516,7 @@ $$
 \sin\varphi<\frac{d+1}{\|\bm{q}\|_\infty S^{1/d}},\tag{3.7}
 $$
 
-Inequalities (3.5) and (3.7) establish the proposition. \hfill$\square$
+Inequalities (3.5) and (3.7) establish the proposition. $\square$
 
 ## 4 The Metrical Theory
 
@@ -530,7 +530,7 @@ where $\psi$ denotes the projective distance, as defined in (1.3). Call $[\bm{v}
 
 **Lemma 4.1.** *Given $\eta\in(0,1)$, the sphere $\mathbb{S}^{d}$ may be covered by $O_d(\eta^{-d})$ bi-spherical caps with radius $\eta$.*
 
-*Proof.* Follows from Theorem 6.8.1 of [6]. \hfill$\square$
+*Proof.* Follows from Theorem 6.8.1 of [6]. $\square$
 
 Define the projective Lipschitz constant of an $M\in\mathrm{GL}_{d+1}(\mathbb{R})$ by
 
@@ -600,7 +600,7 @@ $$
 \psi([\bm{b}],[R_iM_i\bm{q}_i])\ll_{d,M_1,\ldots,M_k}\frac{J_{\mathbb{P}^d(\mathbb{R})}(M_i)}{\|\bm{q}_i\|_\infty f(2^{-l})^{1/d}}\ll_{d,M_1,\ldots,M_k}\frac{1}{\|\bm{q}_i\|_\infty f(2^{-l})^{1/d}}\cdotp \tag{4.3}
 $$
 
-Inequalities $(4.1)$ and $(4.3)$ then establish the proposition. \hfill $\square$
+Inequalities $(4.1)$ and $(4.3)$ then establish the proposition. $\square$
 
 Recalling the assumptions in Theorem $1.2$, let $M_1,\ldots,M_k\in\mathrm{GL}_{d+1}(\mathbb{R})$ be fixed, and set $\mu_k$ to be the $k$-th product of the Haar (probability) measure $\mu$ on $\mathrm{SO}(d+1)$. For $\bm{b}\in\mathbb{S}^d$, $\bm{q}_1,\ldots,\bm{q}_k\in\mathbb{Z}^{d+1}$ and $\eta_1,\ldots,\eta_k\in(0,1)$, set
 

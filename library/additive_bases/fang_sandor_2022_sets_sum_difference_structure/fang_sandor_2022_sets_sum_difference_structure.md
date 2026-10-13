@@ -69,7 +69,7 @@ Based on Theorem 1.1, we naturally posed the following problem for further resea
 
 **Theorem 1.3.** If $r_{A,B}(n)=1$ for every nonnegative integer $n$, then $d_{A,B}(n)=1$ for every integer $n$.
 
-We could deduce from Theorem 1.3 that, if $A$ and $B$ are infinite additive complements and $d_{A,B}(n)\leqslant 1$ for every integer $n, then $r_{A,B}(n)=1$ for every nonnegative integer $n$, otherwise $r_{A,B}(n)\geqslant 2$ for some $n$, that is $n=a+b=a'+b'$. Hence $a-b'=a'-b$, which is impossible. We posed another problem similar to Problem 1.2:
+We could deduce from Theorem 1.3 that, if $A$ and $B$ are infinite additive complements and $d_{A,B}(n)\leqslant 1$ for every integer $n$, then $r_{A,B}(n)=1$ for every nonnegative integer $n$, otherwise $r_{A,B}(n)\geqslant 2$ for some $n$, that is $n=a+b=a'+b'$. Hence $a-b'=a'-b$, which is impossible. We posed another problem similar to Problem 1.2:
 
 **Problem 1.4.** *Is it true that if $A$ and $B$ are infinite additive complements and not of the form (1.2), then $d_{A,B}(n)\geqslant 2$ for infinitely many integer $n$?*
 
@@ -104,7 +104,7 @@ Before the proof of *Necessity*, we first prove the following preliminary lemma.
 
 *Case 1.* $n\in C$, $n\notin D$. Then $\lfloor\frac{n}{m}\rfloor m$, $\lfloor\frac{n}{m}\rfloor m+1,\cdots,n-1\notin C$. It follows from $r_{C,D}(\lfloor\frac{n}{m}\rfloor m)=1$ that there exists an integer $d$ with $0<d<\lfloor\frac{n}{m}\rfloor m$, $m|d$ and $d\in D$ such that $\lfloor\frac{n}{m}\rfloor m-d\in C$. Since
 
-$$m|\lfloor\frac{n}{m}\rfloor m-d\hspace{8.53581pt}\mbox{and}\hspace{8.53581pt}\lfloor\frac{n}{m}\rfloor m-d<\lfloor\frac{n}{m}\rfloor m,$$
+$$m|\lfloor\frac{n}{m}\rfloor m-d\hspace{8.53581pt}\text{and}\hspace{8.53581pt}\lfloor\frac{n}{m}\rfloor m-d<\lfloor\frac{n}{m}\rfloor m,$$
 
 so $n-d\in C$. Hence $n=(n-d)+d=n+0$, where $n-d,n\in C$ and $0,d\in D$, then $r_{C,D}(n)\geqslant 2$, a contradiction.
 
@@ -116,15 +116,15 @@ Subcase 2.2. $\lfloor\frac{n}{m}\rfloor m\notin D$. It follows from $r_{C,D}(\lf
 
 Subsubcase 2.2.1. $d>0$. Hence $c<\lfloor\frac{n}{m}\rfloor m$ and $m|c$. So $c+n-\lfloor\frac{n}{m}\rfloor m\in C$. Then $n=0+n=(c+n-\lfloor\frac{n}{m}\rfloor m)+d$, where $0,c+n-\lfloor\frac{n}{m}\rfloor m\in C$ and $n,d\in D$, so $r_{C,D}(n)\geqslant 2$, a contradiction.
 
-Subsubcase 2.2.2. $d=0$. Then $\lfloor\frac{n}{m}\rfloor m\in C$. Hence $\lfloor\frac{n}{m}\rfloor m,\lfloor\frac{n}{m}\rfloor m+1,\cdots,n-1\in C$. It follows that
+Subcase 2.2.2. $d=0$. Then $\lfloor\frac{n}{m}\rfloor m\in C$. Hence $\lfloor\frac{n}{m}\rfloor m,\lfloor\frac{n}{m}\rfloor m+1,\cdots,n-1\in C$. It follows that
 
-$$n+m-1=(m-1)+n=(n-1)+m,\hspace{8.53581pt}\mbox{where}\hspace{8.53581pt}m-1,n-1\in C\hspace{5.69054pt}\mbox{and}\hspace{5.69054pt}n,m\in D,$$
+$$n+m-1=(m-1)+n=(n-1)+m,\hspace{8.53581pt}\text{where}\hspace{8.53581pt}m-1,n-1\in C\hspace{5.69054pt}\text{and}\hspace{5.69054pt}n,m\in D,$$
 
 so $r_{C,D}(n-m-1)\geqslant 2$, a contradiction.
 
 *Case 3.* $n\notin C$, $n\notin D$. Then $\lfloor\frac{n}{m}\rfloor m$, $\lfloor\frac{n}{m}\rfloor m+1,\cdots,n-1\in C$. If $n=c+d$, then $0<d\leqslant\lfloor\frac{n}{m}\rfloor m$, so $d\geqslant m$ and $c<n$. Then $\lfloor\frac{c}{m}\rfloor m\in C$. It follows that
 
-$$\lfloor\frac{n}{m}\rfloor m=\lfloor\frac{n}{m}\rfloor m+0=\lfloor\frac{c}{m}\rfloor m+d,\hspace{8.53581pt}\mbox{where}\hspace{8.53581pt}\lfloor\frac{n}{m}\rfloor m,\lfloor\frac{c}{m}\rfloor m\in C\hspace{5.69054pt}\mbox{and}\hspace{5.69054pt}d,0\in D,$$
+$$\lfloor\frac{n}{m}\rfloor m=\lfloor\frac{n}{m}\rfloor m+0=\lfloor\frac{c}{m}\rfloor m+d,\hspace{8.53581pt}\text{where}\hspace{8.53581pt}\lfloor\frac{n}{m}\rfloor m,\lfloor\frac{c}{m}\rfloor m\in C\hspace{5.69054pt}\text{and}\hspace{5.69054pt}d,0\in D,$$
 
 so $r_{C,D}(\lfloor\frac{n}{m}\rfloor m)\geqslant 2$, a contradiction.
 
@@ -167,8 +167,8 @@ This completes the proof of Theorem 1.1.
 
 $$
 \begin{aligned}
-A_k-B_k={}&\left[-(m_2-1)m_1-(m_4-1)m_1m_2m_3-\cdots-(m_{2k}-1)m_1m_2\cdots m_{2k-1},\\
-&\qquad (m_1-1)+(m_3-1)m_1m_2+\cdots+(m_{2k-1}-1)m_1m_2\cdots m_{2k-2}\right].\tag{2.2}
+A_k-B_k={}&[-(m_2-1)m_1-(m_4-1)m_1m_2m_3-\cdots-(m_{2k}-1)m_1m_2\cdots m_{2k-1},\\
+&\qquad (m_1-1)+(m_3-1)m_1m_2+\cdots+(m_{2k-1}-1)m_1m_2\cdots m_{2k-2}].\tag{2.2}
 \end{aligned}
 $$
 

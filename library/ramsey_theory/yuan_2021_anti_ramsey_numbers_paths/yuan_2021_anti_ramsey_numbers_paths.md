@@ -120,13 +120,13 @@ $$
 \mathcal{C}^*=\bigcap_{L'_n\in\mathcal{L}_n^*}\{c(e):e\in T(L'_n[C_1])\}.
 $$
 
-Then each edge of $K_n$ between $X$ and $Y$ is colored by a color in $\mathcal{C}^*$. Otherwise, as the above argument (for some $L'_n\in\mathcal{L}_n^*$), there is a representing graph containing a component with size $s_1+1$, a contradiction. In particular, we show that $\mathcal{C}^*$ is not empty. Hence, it follows from Lemma 9 that the pair $(c,K_n[C_1])$ is a good coloring with a representing graph $L_n^1[C_1]$ and a set of cut edges $X_1\subseteq T(L_n^1[C_1])$ such that $\mathcal{C}^*\subseteq c(X_1)$. Let $P^1$ be a longest path in $L_n^1[C_1]-X_1$ on $k_1$ vertices. Without loss of generality, let $\widetilde{C}_1$ be the component of $L_n^1[C_1]-X_1$ containing a copy of $P_{k_1}$. Assume $L_n^1-X_1-V(\widetilde{C}_1)$ contains a path $\widetilde{P}^1$ on $k-k_1$ vertices. Since each edge between $P^1$ and $\widetilde{P}^1$ are colored by $c(X_1)$, $K_n$ contains a rainbow copy of $P_k$, a contradiction. Thus $L_n^1-X_1-V(\widetilde{C}_1)$ is $P_{k-k_1}$-free. If $(k-1)/2\leq k_1\leq k-3, then since the number of components of $L^{1}_{n}-X_{1}$ is at least $|c(X_{1})|+2$, by Lemma 4, we have $e(L^{1}_{n})\leq ar(n,k)$, a contradiction to (1). If $k_{1}=k-2$, then $L^{1}_{n}-X_{1}-V(\widetilde{C}_{1})$ is an independent set. In this case we can consider $K_{n}[C_{1}]$ since it contains $ar(n,k)+1$ colors. Suppose that $k_{1}<(k-1)/2$. Then we consider the subgraph $G_{2}$ of $G_{1}=K_{n}$ obtained by deleting $V(C_{1})$ and the edges colored by $c(E(C_{1}))$. Then as the previous argument, by Lemma 9, the pair $(c,G_{2}[C_{2}])$ is a good coloring with a representing graph $L^{2}_{n}[C_{2}]$ and a set of cut edges $X_{2}\subseteq T(L^{2}_{n}[C_{2}])$. Let $\widetilde{C}_{2}$ be the component of $L^{2}_{n}[C_{2}]-X_{2}$ containing a longest path $P^{2}$ on $k_{2}$ vertices. If $(k-1)/2\leq k_{2}\leq k-3$, then by Lemma 4, we have $e(L^{2}_{n})\leq ar(n,k)$, a contradiction (other components of $L^{2}_{n}-X_{1}-X_{2}$ do not contain a path on $k-k_{2}$ vertices). If $k_{1}=k-2$, then $L^{1}_{n}-X_{1}-X_{2}-V(\widetilde{C}_{2})$ is an independent set. Hence we can consider $K_{n}[C_{1}\cup C_{2}]$ since $K_{n}[C_{1}\cup C_{2}]$ contains $ar(n,k)+1$ colors. Suppose that $k_{2}<(k-1)/2$. We may go on this procedure and obtain $X_{\ell}$ such that $L^{\ell}_{n}[C_{\ell}]-X_{\ell}$ ($X_{\ell}$ can be an empty set) contains a longest path $P^{\ell}$ on $k_{\ell}<(k-1)/2$ vertices or $k-2$ vertices. If $P^{\ell}$ has less than $(k-1)/2$ vertices then each component of $L_{n}-\bigcup_{i=1}^{\ell}X_{i}$ dose not contain a path on at least $(k-1)/2$ vertices, where $L_{n}=\bigcup_{i=1}^{\ell}L^{i}_{n}[C_{i}]$. Moreover, the number of components of $L_{n}-\bigcup_{i=1}^{\ell}X_{i}$ is $\sum_{i=1}^{\ell}(c(X_{i})+1)$. Thus, since $\lceil(k-1)/2\rceil-1\leq k-3$, by Lemma 4, we have $e(L_{n})\leq ar(n,k)$, a contradiction to (1). If $P^{\ell}$ has $k-2$ vertices, then each of $C_{i}$ is a tree for $1\leq i\leq\ell-1$. Let $x_{1}x_{2}$ be a pendent edge of $C_{1}$, where $x_{1}$ is a leaf of $C_{1}$. If there is an edge color by $c(x_{1}x_{2})$ between $V(C_{1})\setminus\{x_{1}\}$ and $L_{n}-V(C_{1})$, then $K_{n}-\{x_{1}\}$ contains $ar(n,k)+1$ colors. Thus we may consider the graph $K_{n}-\{x_{1}\}$. Hence the edges between $V(C_{1})\setminus\{x_{1}\}$ and $L_{n}-V(C_{1})$ are not colored by $c(x_{1}x_{2})$. In particular, the edges between $x_{2}$ and $L_{n}-V(C_{1})$ are not colored by $c(x_{1}x_{2})$. Thus there is a path on $k$ vertices containing the edge $x_{1}x_{2}$, a contradiction. The proof of the claim is complete. $\blacksquare$
+Then each edge of $K_n$ between $X$ and $Y$ is colored by a color in $\mathcal{C}^*$. Otherwise, as the above argument (for some $L'_n\in\mathcal{L}_n^*$), there is a representing graph containing a component with size $s_1+1$, a contradiction. In particular, we show that $\mathcal{C}^*$ is not empty. Hence, it follows from Lemma 9 that the pair $(c,K_n[C_1])$ is a good coloring with a representing graph $L_n^1[C_1]$ and a set of cut edges $X_1\subseteq T(L_n^1[C_1])$ such that $\mathcal{C}^*\subseteq c(X_1)$. Let $P^1$ be a longest path in $L_n^1[C_1]-X_1$ on $k_1$ vertices. Without loss of generality, let $\widetilde{C}_1$ be the component of $L_n^1[C_1]-X_1$ containing a copy of $P_{k_1}$. Assume $L_n^1-X_1-V(\widetilde{C}_1)$ contains a path $\widetilde{P}^1$ on $k-k_1$ vertices. Since each edge between $P^1$ and $\widetilde{P}^1$ are colored by $c(X_1)$, $K_n$ contains a rainbow copy of $P_k$, a contradiction. Thus $L_n^1-X_1-V(\widetilde{C}_1)$ is $P_{k-k_1}$-free. If $(k-1)/2\leq k_1\leq k-3$, then since the number of components of $L^{1}_{n}-X_{1}$ is at least $|c(X_{1})|+2$, by Lemma 4, we have $e(L^{1}_{n})\leq ar(n,k)$, a contradiction to (1). If $k_{1}=k-2$, then $L^{1}_{n}-X_{1}-V(\widetilde{C}_{1})$ is an independent set. In this case we can consider $K_{n}[C_{1}]$ since it contains $ar(n,k)+1$ colors. Suppose that $k_{1}<(k-1)/2$. Then we consider the subgraph $G_{2}$ of $G_{1}=K_{n}$ obtained by deleting $V(C_{1})$ and the edges colored by $c(E(C_{1}))$. Then as the previous argument, by Lemma 9, the pair $(c,G_{2}[C_{2}])$ is a good coloring with a representing graph $L^{2}_{n}[C_{2}]$ and a set of cut edges $X_{2}\subseteq T(L^{2}_{n}[C_{2}])$. Let $\widetilde{C}_{2}$ be the component of $L^{2}_{n}[C_{2}]-X_{2}$ containing a longest path $P^{2}$ on $k_{2}$ vertices. If $(k-1)/2\leq k_{2}\leq k-3$, then by Lemma 4, we have $e(L^{2}_{n})\leq ar(n,k)$, a contradiction (other components of $L^{2}_{n}-X_{1}-X_{2}$ do not contain a path on $k-k_{2}$ vertices). If $k_{1}=k-2$, then $L^{1}_{n}-X_{1}-X_{2}-V(\widetilde{C}_{2})$ is an independent set. Hence we can consider $K_{n}[C_{1}\cup C_{2}]$ since $K_{n}[C_{1}\cup C_{2}]$ contains $ar(n,k)+1$ colors. Suppose that $k_{2}<(k-1)/2$. We may go on this procedure and obtain $X_{\ell}$ such that $L^{\ell}_{n}[C_{\ell}]-X_{\ell}$ ($X_{\ell}$ can be an empty set) contains a longest path $P^{\ell}$ on $k_{\ell}<(k-1)/2$ vertices or $k-2$ vertices. If $P^{\ell}$ has less than $(k-1)/2$ vertices then each component of $L_{n}-\bigcup_{i=1}^{\ell}X_{i}$ dose not contain a path on at least $(k-1)/2$ vertices, where $L_{n}=\bigcup_{i=1}^{\ell}L^{i}_{n}[C_{i}]$. Moreover, the number of components of $L_{n}-\bigcup_{i=1}^{\ell}X_{i}$ is $\sum_{i=1}^{\ell}(c(X_{i})+1)$. Thus, since $\lceil(k-1)/2\rceil-1\leq k-3$, by Lemma 4, we have $e(L_{n})\leq ar(n,k)$, a contradiction to (1). If $P^{\ell}$ has $k-2$ vertices, then each of $C_{i}$ is a tree for $1\leq i\leq\ell-1$. Let $x_{1}x_{2}$ be a pendent edge of $C_{1}$, where $x_{1}$ is a leaf of $C_{1}$. If there is an edge color by $c(x_{1}x_{2})$ between $V(C_{1})\setminus\{x_{1}\}$ and $L_{n}-V(C_{1})$, then $K_{n}-\{x_{1}\}$ contains $ar(n,k)+1$ colors. Thus we may consider the graph $K_{n}-\{x_{1}\}$. Hence the edges between $V(C_{1})\setminus\{x_{1}\}$ and $L_{n}-V(C_{1})$ are not colored by $c(x_{1}x_{2})$. In particular, the edges between $x_{2}$ and $L_{n}-V(C_{1})$ are not colored by $c(x_{1}x_{2})$. Thus there is a path on $k$ vertices containing the edge $x_{1}x_{2}$, a contradiction. The proof of the claim is complete. $\blacksquare$
 
 By the claim, $L_{n}$ is a connected graph. We divide the proof basing on the parity of $k$.
 
 **Case 1.** $k$ is odd, i.e., $k=2\ell+1$.
 
-For $k=5,7$, we have $ar(n,k)+1>\mbox{ex}_{\mbox{con}}(n,P_{k})$. Hence $L_{n}$ contains a copy of $P_{k}$, a contradiction. Let $k\geq 9$, i.e., $\ell\geq 4$. Note that $ar(n,k)+1>\max\{h(n,k-1,2),h(n,k-1,\ell-1)\}$. By Corollary 5 and (1), each connected representing subgraph of $K_{n}$ is a subgraph of $H(n,k-1,1)$.
+For $k=5,7$, we have $ar(n,k)+1>\text{ex}_{\text{con}}(n,P_{k})$. Hence $L_{n}$ contains a copy of $P_{k}$, a contradiction. Let $k\geq 9$, i.e., $\ell\geq 4$. Note that $ar(n,k)+1>\max\{h(n,k-1,2),h(n,k-1,\ell-1)\}$. By Corollary 5 and (1), each connected representing subgraph of $K_{n}$ is a subgraph of $H(n,k-1,1)$.
 
 Let $A\cup B\cup C$ be the partition of $H(n,k-1,1)$ in definition. Thus, since $L_{n}$ is connected, each vertex in $B$ has degree one in $L_{n}$. Basic calculation shows that if $n>(5\ell-1)/2>(5\ell^{2}-11\ell)/(2\ell-4)$, then $ar(n,k)+1>h(n,k-1,1)$, a contradiction. Hence, we can assume $n\leq(5\ell-1)/2$. By (1), there are at most $n-2\ell-1\leq(5\ell-1)/2-2\ell<2\ell-4$ non-edges of $L_{n}$ inside $A\cup C$. Let $L^{\ast}_{n}$ be the representing graph obtained from $L_{n}$ by adding an edge $e$ inside $B$ and deleting the edge of $L_{n}$ colored by $c(e)$. Thus $L^{\ast}_{n}$ contains at most $n-k+1$ with degree one and hence $L^{\ast}_{n}$ is not a subgraph of $H(n,k-1,1)$, a contradiction when $L^{\ast}_{n}$ is connected. Suppose that $L^{\ast}_{n}$ is not connected. Then $L^{\ast}_{n}$ contains a unique isolated vertex, say $x$. Let $L^{\ast}_{n-1}=L^{\ast}_{n}-\{x\}$. Then we have $e(L^{\ast}_{n-1})\geq ar(n,k)+1\geq ar(n-1,k)+1$. Go on the previous arguments repeatedly we can finally get a contradiction. The proof of Case 1 is complete.
 
@@ -188,23 +188,23 @@ For $(b)$, let $A\cup B\cup C$ be the partition of $H(n,k-1,\ell)$ in definition
 
 ## A Proof of Lemma 4
 
-**Proof.** The proof of Lemma 4 bases on Theorems 2 and 3 and some basic calculations. Let $k_{1}\geq k_{2}\geq 3$ and $t\geq 1$. Let $n_{0}\geq k_{1}-1$, $n_{1}\geq n_{2}\geq\ldots\geq n_{t}\geq 1$ and $n=\sum_{i=0}^{t}n_{i}\geq k_{1}+k_{2}-1\geq 5$. Since $\mbox{ex}_{\mbox{con}}(n_{i},P_{k_{1}})\leq n_{i}-1$ for $k_{1}\leq 4$ and $n_{i}\geq k_{1}$, the lemma holds easily for $k_{1}\leq 4$. Hence, we may suppose that $k_{1}\geq 5$.
+**Proof.** The proof of Lemma 4 bases on Theorems 2 and 3 and some basic calculations. Let $k_{1}\geq k_{2}\geq 3$ and $t\geq 1$. Let $n_{0}\geq k_{1}-1$, $n_{1}\geq n_{2}\geq\ldots\geq n_{t}\geq 1$ and $n=\sum_{i=0}^{t}n_{i}\geq k_{1}+k_{2}-1\geq 5$. Since $\text{ex}_{\text{con}}(n_{i},P_{k_{1}})\leq n_{i}-1$ for $k_{1}\leq 4$ and $n_{i}\geq k_{1}$, the lemma holds easily for $k_{1}\leq 4$. Hence, we may suppose that $k_{1}\geq 5$.
 
-**Claim.** Let $m=s(k-1)+r$ with $s\geq 0$, $k\geq 2$ and $1\leq r\leq k-1$. Let $m_{1}\geq m_{2}\geq\ldots\geq m_{t}\geq 1$ and $m=\sum_{i=1}^{t}m_{i}$. Then $\sum_{i=1}^{t}\mbox{ex}(m_{i},P_{k})+t-1\leq\mbox{ex}(m,P_{k})+s$.
+**Claim.** Let $m=s(k-1)+r$ with $s\geq 0$, $k\geq 2$ and $1\leq r\leq k-1$. Let $m_{1}\geq m_{2}\geq\ldots\geq m_{t}\geq 1$ and $m=\sum_{i=1}^{t}m_{i}$. Then $\sum_{i=1}^{t}\text{ex}(m_{i},P_{k})+t-1\leq\text{ex}(m,P_{k})+s$.
 
-**Proof.** Clearly, we have $\sum_{i=1}^{t}\mbox{ex}(m_{i},P_{k})\leq\mbox{ex}(m,P_{k}).$ Thus the claim holds trivially for $t-1\leq s$. Now suppose that $t-1>s$. Then we have $1\leq m_{t}\leq m_{t-1}\leq k-2$. Note that $\mbox{ex}(n,P_{k})={n\choose 2}$ for $n\leq k-1$. By Theorem 2, we have $\mbox{ex}(m_{t-1},P_{k})+\mbox{ex}(m_{t},P_{k})+1={m_{t-1}\choose 2}+{m_{t}\choose 2}+1\leq\mbox{ex}(m_{t-1}+m_{t},P_{k})$. Thus we have
+**Proof.** Clearly, we have $\sum_{i=1}^{t}\text{ex}(m_{i},P_{k})\leq\text{ex}(m,P_{k}).$ Thus the claim holds trivially for $t-1\leq s$. Now suppose that $t-1>s$. Then we have $1\leq m_{t}\leq m_{t-1}\leq k-2$. Note that $\text{ex}(n,P_{k})={n\choose 2}$ for $n\leq k-1$. By Theorem 2, we have $\text{ex}(m_{t-1},P_{k})+\text{ex}(m_{t},P_{k})+1={m_{t-1}\choose 2}+{m_{t}\choose 2}+1\leq\text{ex}(m_{t-1}+m_{t},P_{k})$. Thus we have
 
-$$\sum_{i=1}^{t}\mbox{ex}(m_{i},P_{k})+t-1\leq\sum_{i=1}^{t-2}\mbox{ex}(m_{i},P_{k})+\mbox{ex}(m_{t-1}+m_{t},P_{k})+t-2.$$
+$$\sum_{i=1}^{t}\text{ex}(m_{i},P_{k})+t-1\leq\sum_{i=1}^{t-2}\text{ex}(m_{i},P_{k})+\text{ex}(m_{t-1}+m_{t},P_{k})+t-2.$$
 
 If $t-2\leq s$, then we are done. Suppose that $t-2>s$. Repeating the above argument $t-s-2$ times (reorder $m_{1},m_{2},\ldots,m_{t-2},m_{t-1}+m_{t}$), we have
 
-$$\sum_{i=1}^{t}\mbox{ex}(m_{i},P_{k})+t-1\leq\sum_{i=1}^{s}\mbox{ex}(m^{\prime}_{i},P_{k})+\mbox{ex}\left(\sum_{i=s+1}^{s+2}m^{\prime}_{i},P_{k}\right)+s\leq\mbox{ex}(m,P_{k})+s,$$
+$$\sum_{i=1}^{t}\text{ex}(m_{i},P_{k})+t-1\leq\sum_{i=1}^{s}\text{ex}(m^{\prime}_{i},P_{k})+\text{ex}\left(\sum_{i=s+1}^{s+2}m^{\prime}_{i},P_{k}\right)+s\leq\text{ex}(m,P_{k})+s,$$
 
 where $1\leq m^{\prime}_{s+1}\leq m^{\prime}_{s+2}\leq k-2$ and $\sum_{i=1}^{s+2}m^{\prime}_{i}=m$. The proof of the claim is complete. $\blacksquare$
 
 Let $n-n_{0}=s^{\prime}(k_{2}-1)+r^{\prime}$ with $1\leq r^{\prime}\leq k_{2}-1$. By the claim, we have
 
-$$\mbox{ex}_{\mbox{con}}(n_{0},P_{k_{1}})+\sum_{i=1}^{t}\mbox{ex}_{\mbox{con}}(n_{i},P_{k_{2}})+t-1\leq\mbox{ex}_{\mbox{con}}(n_{0},P_{k_{1}})+\mbox{ex}(n-n_{0},P_{k_{2}})+s^{\prime}.$$
+$$\text{ex}_{\text{con}}(n_{0},P_{k_{1}})+\sum_{i=1}^{t}\text{ex}_{\text{con}}(n_{i},P_{k_{2}})+t-1\leq\text{ex}_{\text{con}}(n_{0},P_{k_{1}})+\text{ex}(n-n_{0},P_{k_{2}})+s^{\prime}.$$
 
 Let $s_1=\lfloor (k_1-2)/2\rfloor$. Since $k_2\geq 3$, we have $s_1\leq \ell-1$. We will finish our proof in the following two cases.
 
@@ -212,49 +212,49 @@ Let $s_1=\lfloor (k_1-2)/2\rfloor$. Since $k_2\geq 3$, we have $s_1\leq \ell-1$.
 
 Let $k_1+k_2-1=k=2\ell+1$. Basic calculation shows that $ar(n,k)=h(k,k-1,1)-1$ for $n\leq (5\ell-2)/2$ and $ar(n,k)=h(n,k-1,\ell-1)$ for $n\geq (5\ell-2)/2$. Let $n\leq\lfloor(5\ell-2)/2\rfloor$. We divide the proof into the following three subcases:
 
-(a.1) $\mbox{ex}_{\mbox{con}}(n_0,P_{k_1})=\binom{k_1-1}{2}$, i.e, $n_0=k_1-1$. By Theorem 2 and a detailed calculation, we have
+(a.1) $\text{ex}_{\text{con}}(n_0,P_{k_1})=\binom{k_1-1}{2}$, i.e, $n_0=k_1-1$. By Theorem 2 and a detailed calculation, we have
 
 $$
 \begin{aligned}
-\mbox{ex}_{\mbox{con}}(n_0,P_{k_1})+\mbox{ex}(n-n_0,P_{k_2})+s'
-&=\binom{k_1-1}{2}+\mbox{ex}(n-k_1+1,P_{k_2})+s'\\
-&\leq\binom{k_1-1}{2}+\mbox{ex}\left(\left\lfloor\frac{5\ell-2}{2}\right\rfloor-k_1+1,P_{k_2}\right)+s'\\
+\text{ex}_{\text{con}}(n_0,P_{k_1})+\text{ex}(n-n_0,P_{k_2})+s'
+&=\binom{k_1-1}{2}+\text{ex}(n-k_1+1,P_{k_2})+s'\\
+&\leq\binom{k_1-1}{2}+\text{ex}\left(\left\lfloor\frac{5\ell-2}{2}\right\rfloor-k_1+1,P_{k_2}\right)+s'\\
 &\leq\binom{k_1+k_2-3}{2}+1=h(k,k-1,1)-1.
 \end{aligned}
 $$
 
-(a.2) $\mbox{ex}_{\mbox{con}}(n_0,P_{k_1})=h(n_0,k_1,1)$. By $k_1\geq 5$, calculations in [1] show that if $k_1$ is even, then $k_1\leq n_0\leq (5k_1-10)/4$ and if $k_1$ is odd, then $k_1\leq n_0\leq (5k_1-7)/4$. Hence, we have
+(a.2) $\text{ex}_{\text{con}}(n_0,P_{k_1})=h(n_0,k_1,1)$. By $k_1\geq 5$, calculations in [1] show that if $k_1$ is even, then $k_1\leq n_0\leq (5k_1-10)/4$ and if $k_1$ is odd, then $k_1\leq n_0\leq (5k_1-7)/4$. Hence, we have
 
 $$
 \begin{aligned}
-\mbox{ex}_{\mbox{con}}(n_0,P_{k_1})+\mbox{ex}(n-n_0,P_{k_2})+s'
-&=\binom{k_1-2}{2}+(n_0-k_1+2)+\mbox{ex}(n-n_0,P_{k_2})+s'\\
-&<\binom{k_1-1}{2}+\mbox{ex}(n-k_1+1,P_{k_2})+s'\\
+\text{ex}_{\text{con}}(n_0,P_{k_1})+\text{ex}(n-n_0,P_{k_2})+s'
+&=\binom{k_1-2}{2}+(n_0-k_1+2)+\text{ex}(n-n_0,P_{k_2})+s'\\
+&<\binom{k_1-1}{2}+\text{ex}(n-k_1+1,P_{k_2})+s'\\
 &<\binom{k_1+k_2-3}{2}+1=h(k,k-1,1)-1,
 \end{aligned}
 $$
 
 where the last strict inequality holds similarly as before.
 
-(a.3) $\mbox{ex}_{\mbox{con}}(n_0,P_{k_1})=h(n_0,k_1,s_1)$, i.e, $n_0\geq (5k_1-10)/4$ for even $k_1$ and $n_0\geq (5k_1-7)/4$ for odd $k_1$. Let $i_1=1$ when $k_1$ is odd and $i_1=0$ when $k_1$ is even. Then
+(a.3) $\text{ex}_{\text{con}}(n_0,P_{k_1})=h(n_0,k_1,s_1)$, i.e, $n_0\geq (5k_1-10)/4$ for even $k_1$ and $n_0\geq (5k_1-7)/4$ for odd $k_1$. Let $i_1=1$ when $k_1$ is odd and $i_1=0$ when $k_1$ is even. Then
 
 $$
 \begin{aligned}
-\mbox{ex}_{\mbox{con}}(n_0,P_{k_1})+\mbox{ex}(n-n_0,P_{k_2})+s'
-&\leq\binom{s_1}{2}+s_1(n_0-s_1)+i_1+\mbox{ex}\left(\frac{5\ell-2}{2}-n_0,P_{k_2}\right)+s'\\
+\text{ex}_{\text{con}}(n_0,P_{k_1})+\text{ex}(n-n_0,P_{k_2})+s'
+&\leq\binom{s_1}{2}+s_1(n_0-s_1)+i_1+\text{ex}\left(\frac{5\ell-2}{2}-n_0,P_{k_2}\right)+s'\\
 &<h\left(\frac{5\ell-2}{2},k-1,\ell-1\right)=h(k,k-1,1)-1,
 \end{aligned}
 $$
 
 where the strict inequality holds by Theorem 2 and a detailed calculation. Thus the lemma holds for $n\leq (5\ell-2)/2$ in Case 1.
 
-Now we may assume that $n\geq\lceil(5\ell-2)/2\rceil$. Note that $\mbox{ex}(n',P_{k_2})+s'_1-\mbox{ex}(n'-1,P_{k_2})-s'_2\leq k_2-2\leq \ell-1$, where $s'_1=\lceil n'/(k_2-1)\rceil-1$ and $s'_2=\lceil(n'-1)/(k_2-1)\rceil-1$. We divide the proof into the following three subcases:
+Now we may assume that $n\geq\lceil(5\ell-2)/2\rceil$. Note that $\text{ex}(n',P_{k_2})+s'_1-\text{ex}(n'-1,P_{k_2})-s'_2\leq k_2-2\leq \ell-1$, where $s'_1=\lceil n'/(k_2-1)\rceil-1$ and $s'_2=\lceil(n'-1)/(k_2-1)\rceil-1$. We divide the proof into the following three subcases:
 
-(b.1) $\mbox{ex}_{\mbox{con}}(n_0,P_{k_1})=\binom{k_1-1}{2}$, i.e, $n_0=k_1-1$. Then
+(b.1) $\text{ex}_{\text{con}}(n_0,P_{k_1})=\binom{k_1-1}{2}$, i.e, $n_0=k_1-1$. Then
 
 $$
 \begin{aligned}
-\mbox{ex}_{\mbox{con}}(n_0,P_{k_1})+\mbox{ex}(n-n_0,P_{k_2})+s'
+\text{ex}_{\text{con}}(n_0,P_{k_1})+\text{ex}(n-n_0,P_{k_2})+s'
 &=\binom{k_1-1}{2}+s'\binom{k_2-1}{2}+\binom{r'}{2}+s'\\
 &<h(n,k-1,\ell-1),
 \end{aligned}
@@ -262,11 +262,11 @@ $$
 
 where the strict inequality holds by $n\geq\lceil(5\ell-2)/2\rceil$.
 
-(b.2) $\mbox{ex}_{\mbox{con}}(n_0,P_{k_1})=h(n_0,k_1,1)$, i.e, $n_0\leq (5k_1-10)/4$ for even $k_1$ and $n_0\leq (5k_1-7)/4$ for odd $k_1$. Then
+(b.2) $\text{ex}_{\text{con}}(n_0,P_{k_1})=h(n_0,k_1,1)$, i.e, $n_0\leq (5k_1-10)/4$ for even $k_1$ and $n_0\leq (5k_1-7)/4$ for odd $k_1$. Then
 
 $$
 \begin{aligned}
-\mbox{ex}_{\mbox{con}}(n_0,P_{k_1})+\mbox{ex}(n-n_0,P_{k_2})+s'
+\text{ex}_{\text{con}}(n_0,P_{k_1})+\text{ex}(n-n_0,P_{k_2})+s'
 &=\binom{k_1-2}{2}+(n_0-k_1+2)+s'\binom{k_2-1}{2}+\binom{r'}{2}+s'\\
 &<h(n,k-1,\ell-1),
 \end{aligned}
@@ -335,24 +335,24 @@ $$
 
 where the strict inequality holds by $n\geq\lceil(5\ell+2)/2\rceil$.
 
-(b.2) $\mbox{ex}_{\mbox{con}}(n_0, P_{k_1}) = h(n_0, k_1, 1)$, i.e, $n_0 \leq (5k_1 - 10)/4$ for even $k_1$ and $n_0 \leq (5k_1 - 7)/4$ for odd $k_1$. Then
+(b.2) $\text{ex}_{\text{con}}(n_0, P_{k_1}) = h(n_0, k_1, 1)$, i.e, $n_0 \leq (5k_1 - 10)/4$ for even $k_1$ and $n_0 \leq (5k_1 - 7)/4$ for odd $k_1$. Then
 
 $$
 \begin{aligned}
-\mbox{ex}_{\mbox{con}}(n_0, P_{k_1})+\mbox{ex}(n-n_0, P_{k_2})+s'
-&=\binom{k_1-2}{2}+(n_0-k_1+2)+\mbox{ex}(n-n_0, P_{k_2})+s'\\
+\text{ex}_{\text{con}}(n_0, P_{k_1})+\text{ex}(n-n_0, P_{k_2})+s'
+&=\binom{k_1-2}{2}+(n_0-k_1+2)+\text{ex}(n-n_0, P_{k_2})+s'\\
 &<\binom{\ell-1}{2}+(\ell-1)(n-\ell+1)+1=h(n,k-1,\ell-1)-1,
 \end{aligned}
 $$
 
 where the strict inequality holds by $n \geq \lceil(5\ell+2)/2\rceil$.
 
-(b.3) $\mbox{ex}_{\mbox{con}}(n_0, P_{k_1}) = h(n_0, k_1, s_1)$, i.e, $n_0 \geq (5k_1 - 10)/4$ for even $k_1$ and $n_0 \geq (5k_1 - 7)/4$ for odd $k_1$. Let $i_1=1$ when $k_1$ is odd and $i_1=0$ when $k_1$ is even. Recall that $s_1 \leq \ell-1$, we have
+(b.3) $\text{ex}_{\text{con}}(n_0, P_{k_1}) = h(n_0, k_1, s_1)$, i.e, $n_0 \geq (5k_1 - 10)/4$ for even $k_1$ and $n_0 \geq (5k_1 - 7)/4$ for odd $k_1$. Let $i_1=1$ when $k_1$ is odd and $i_1=0$ when $k_1$ is even. Recall that $s_1 \leq \ell-1$, we have
 
 $$
 \begin{aligned}
-\mbox{ex}_{\mbox{con}}(n_0, P_{k_1})+\mbox{ex}(n-n_0, P_{k_2})+s'
-&=\binom{s_1}{2}+s_1(n_0-s_1)+i_1+\mbox{ex}(n-n_0, P_{k_2})+s'\\
+\text{ex}_{\text{con}}(n_0, P_{k_1})+\text{ex}(n-n_0, P_{k_2})+s'
+&=\binom{s_1}{2}+s_1(n_0-s_1)+i_1+\text{ex}(n-n_0, P_{k_2})+s'\\
 &<\binom{\ell-1}{2}+(\ell-1)(n-\ell+1)+1=h(n,k-1,\ell-1)-1,
 \end{aligned}
 $$

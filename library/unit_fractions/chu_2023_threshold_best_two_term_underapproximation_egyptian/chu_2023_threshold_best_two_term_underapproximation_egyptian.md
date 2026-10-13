@@ -412,8 +412,8 @@ where
 
 $$
 v=\begin{cases}
-1&\mbox{ if }2\nmid q,\\
-2&\mbox{ if }2\mid q.
+1&\text{ if }2\nmid q,\\
+2&\text{ if }2\mid q.
 \end{cases}
 $$
 
@@ -487,7 +487,7 @@ Replacing $(q+3)/p$ by $a_{1}$, we obtain
 
 $$\left\lfloor\frac{qa_{1}(a_{1}+s)}{s(q+3)+3a_{1}}\right\rfloor\leqslant\frac{a_{1}(a_{1}+s)(qa_{1}+v)}{sqa_{1}+sv+3a_{1}(a_{1}+s)}-1. \tag{2.12}$$
 
-If $(p,q)=(8,61)$, then $a_1=8$, $v=1$, and (2.12) cannot hold due to Lemma 2.7 and the fact that $s\leqslant 7$. Supposing that $(p,q)\neq(8,61)$, we check that Lemma 2.6 can be applied. We have $q>p\geqslant 4$, so $q\geqslant 5$. Clearly, $a_1\geqslant 2$ and $1\leqslant s\leqslant a_1-1$. Furthermore, $(q+3)/u=p\geqslant 4$. Finally, we need to check that $(q,u)\notin\{(17,2),(61,8)\}$. If $(q,u)=(17,2)$, then $p=(q+3)/u=10$; however, $(p,q)\neq(10,17)$ by hypothesis. If $(q,u)=(61,8)$, then $p=(q+3)/u=8$; however, $(p,q)\neq(8,61)$ by our supposition. Therefore, Lemma 2.6 states that (2.12) does not hold. Hence, there are no integers $2\leqslant x_1\leqslant x_2$ such that $(x_1,x_2)\neq(a_1,a_2)$ and (2.1) holds. This completes our proof. \hfill $\Box$
+If $(p,q)=(8,61)$, then $a_1=8$, $v=1$, and (2.12) cannot hold due to Lemma 2.7 and the fact that $s\leqslant 7$. Supposing that $(p,q)\neq(8,61)$, we check that Lemma 2.6 can be applied. We have $q>p\geqslant 4$, so $q\geqslant 5$. Clearly, $a_1\geqslant 2$ and $1\leqslant s\leqslant a_1-1$. Furthermore, $(q+3)/u=p\geqslant 4$. Finally, we need to check that $(q,u)\notin\{(17,2),(61,8)\}$. If $(q,u)=(17,2)$, then $p=(q+3)/u=10$; however, $(p,q)\neq(10,17)$ by hypothesis. If $(q,u)=(61,8)$, then $p=(q+3)/u=8$; however, $(p,q)\neq(8,61)$ by our supposition. Therefore, Lemma 2.6 states that (2.12) does not hold. Hence, there are no integers $2\leqslant x_1\leqslant x_2$ such that $(x_1,x_2)\neq(a_1,a_2)$ and (2.1) holds. This completes our proof. $\square$
 
 ## 3. THE BEST TWO-TERM UNDERAPPROXIMATION WHEN $\Upsilon(p,q)\geqslant 4$
 
@@ -691,7 +691,7 @@ $$
 0\ <\ \frac{2s^{2}+18s+4j+43}{8j+5}\ <\ 1.
 $$
 
-Furthermore, \textsc{Mathematica} computes $x-(2s^{2}+18s+4j+43)/(8j+5)=$
+Furthermore, Mathematica computes $x-(2s^{2}+18s+4j+43)/(8j+5)=$
 
 $$
 959+3600j+3200j^{2}+382s+1440js+1280j^{2}s+38s^{2}+144js^{2}+128j^{2}s^{2}\in\mathbb{N}.
@@ -714,7 +714,7 @@ $$
 \end{aligned}
 $$
 
-\textsc{Mathematica} simplifies the above inequality to
+Mathematica simplifies the above inequality to
 
 $$
 (64s+320)j^{2}-(64s^{3}+896s^{2}+4088s+6048)j-(32s^{3}+448s^{2}+2061s+3108)\ <\ 0.
@@ -820,11 +820,11 @@ $$
 \frac{1}{Na_m^2-a_m}>\frac{1}{a_{m+1}},
 $$
 
-which gives i). \hfill$\square$
+which gives i). $\square$
 
 **Corollary 4.1.** *Let the sequence $(c_n)_{n=1}^{\infty}$ be such that $c_1\geqslant 2$ and $c_{n+1}\geqslant c_n^3-c_n+1$. Fix $N\in\mathbb{N}$ and let $m_N$ be the smallest $m$ such that $c_m\geqslant N$. Then $\theta:=\sum_{n=1}^{\infty}1/c_n$ has the property that whenever $m\geqslant m_N$, we have $1/a_m=N/b_m$. (Since $(c_n)_{n=1}^{\infty}$ is strictly increasing, it follows that $m_N\leqslant N$.)*
 
-*Proof.* Use Theorem 1.5. \hfill$\square$
+*Proof.* Use Theorem 1.5. $\square$
 
 Before proving Proposition 1.6 and giving examples to show its optimality, we make a remark about the following theorem by Nathanson.
 
@@ -1010,7 +1010,7 @@ $$
 \left\lfloor\frac{q(q+2)}{2p}\right\rfloor+\frac{1}{2}=\frac{q(q+2)}{2p},
 $$
 
-which is true, because $q$ is odd. \hfill$\square$
+which is true, because $q$ is odd. $\square$
 
 **Example 5.1.** The sequence $(a_n)_n$ in Theorem 1.9 and Proposition 1.10 has the nice property that for sufficiently large $n$, $a_n-1$ is divisible by all $a_i$ for $i\leqslant n-1$. This is not true in general. Consider $\theta=9/28$. The first $9$ terms of $\mathcal{G}(9/28)$ are
 
@@ -1052,7 +1052,7 @@ we must have $a_n=x_n$ for all $1\leqslant n\leqslant m$.
 
 Base case: when $m=1$, the greedy algorithm guarantees that if $1/x_1<p/q$, then $1/x_1\leqslant 1/a_1$. Hence, $1/x_1=1/a_1$ and so, $a_1=x_1$.
 
-Inductive hypothesis: suppose that there exists $d\geqslant 1$ such that the claim is true whenever $m\leqslant d.
+Inductive hypothesis: suppose that there exists $d\geqslant 1$ such that the claim is true whenever $m\leqslant d$.
 
 Let us consider $m=d+1$. Assume that
 
@@ -1124,7 +1124,7 @@ $$
 \sum_{n=1}^{s-1}\frac{1}{a_n}=\sum_{n=1}^{d+1}\frac{1}{a_n}-\sum_{n=s}^{d+1}\frac{1}{a_n}<\sum_{n=1}^{d+1}\frac{1}{x_n}-\sum_{n=s}^{d+1}\frac{1}{x_n}=\sum_{n=1}^{s-1}\frac{1}{x_n}. \tag{5.9}
 $$
 
-The inductive hypothesis guarantees that $a_n=x_n$ for all $1\leqslant n\leqslant s-1$, which is absurd due to the strict inequality in (5.9). This contradiction shows that $s=d+1$, and in this case, we already show that $a_n=x_n$ for all $1\leqslant n\leqslant d+1. $ \square$
+The inductive hypothesis guarantees that $a_n=x_n$ for all $1\leqslant n\leqslant s-1$, which is absurd due to the strict inequality in (5.9). This contradiction shows that $s=d+1$, and in this case, we already show that $a_n=x_n$ for all $1\leqslant n\leqslant d+1$. $\square$
 
 **Remark 5.4.** A nice problem for future investigation is whether it is true that when $\Upsilon(p,q)\in\{2,3\}$, $\mathcal{G}$ always gives the best $m$-term underapproximation for any $m\geqslant 3$. Theorems 1.11 and 1.12 give a positive answer for the case $\Upsilon(p,q)=1$ and the case $\Upsilon(p,q)=2$ and $q$ is odd, respectively. Similar to the proof of Theorem 1.11, the proof of Theorem 1.12 employs the key Inequality (5.7), resulting from the formula given in Proposition 1.10. This formula is different from (1.6), where $q$ is divided by $\Upsilon(p,q)$. To prove the best $m$-term underapproximation for the case $\Upsilon(p,q)=2$ and $q$ is even, we need to overcome this distinction.
 
@@ -1215,7 +1215,7 @@ Case 2: $j=1$ and $k=8$. The same argument as in Case 1 gives $u^2\leqslant 9u+3
 
 Case 3: $j = 1$ and $k = 10$. The same argument as the two above cases gives $2u^2 \leqslant 9u + 3$. Hence, $u \in \{2,3,4\}$. Only $u = 2$ gives an integer value for $\ell$ in (6.2). It follows that $q = uk - 3 = 17$. However, $(q,u) \neq (17,2)$ by our hypothesis.
 
-We have completed the proof. \hfill $\square$
+We have completed the proof. $\square$
 
 *Proof of Lemma 2.6.* Thanks to Lemma 6.1, we can exclude the case $(s,v) = (1,3)$ from consideration. Fix $u \geqslant 2$. We prove (2.9) for all $q$ in the set $\{ku - 3 : k \geqslant 4\}$. Choose $k \geqslant 4$ and replace $q = ku - 3$ in (2.9). The left side of (2.9) becomes
 

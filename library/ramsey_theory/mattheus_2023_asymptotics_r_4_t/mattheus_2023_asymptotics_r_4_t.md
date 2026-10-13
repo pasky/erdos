@@ -30,7 +30,7 @@ Ramsey Theory is an area of mathematics underpinned by the philosophy that in an
 
 †E-mail: jacques@ucsd.edu. Research supported by the National Science Foundation FRG Award DMS-1952786.
 
-The classical expository example is the statement that amongst any six people, there will be at least three people who all know each other, or at least three people who all do not know each other. In general, for integers $s,t \geq 2$, the \emph{Ramsey number} $r(s,t)$ denotes the minimum $n$ such that every $n$-vertex graph contains either a clique of order $s$ or an independent set of size $t$, and the afore-mentioned example is equivalent to the statement $r(3,3) \leq 6$. The quantities $r(s,t)$ are the cornerstone of Ramsey Theory, and have been studied for many decades; their existence is proved by Ramsey’s Theorem [46] – see also the book by Graham, Rothschild, Solymosi and Spencer [23]. The quantities $r(t,t)$ are sometimes referred to as \emph{diagonal Ramsey Numbers} – see Campos, Griffiths, Morris, Sahasrabudhe [12] for a recent major breakthrough – whereas $r(s,t)$ for fixed $s$ and $t \to \infty$ are referred to as \emph{off-diagonal Ramsey numbers}. The focus of this paper is on off-diagonal Ramsey numbers.
+The classical expository example is the statement that amongst any six people, there will be at least three people who all know each other, or at least three people who all do not know each other. In general, for integers $s,t \geq 2$, the *Ramsey number* $r(s,t)$ denotes the minimum $n$ such that every $n$-vertex graph contains either a clique of order $s$ or an independent set of size $t$, and the afore-mentioned example is equivalent to the statement $r(3,3) \leq 6$. The quantities $r(s,t)$ are the cornerstone of Ramsey Theory, and have been studied for many decades; their existence is proved by Ramsey’s Theorem [46] – see also the book by Graham, Rothschild, Solymosi and Spencer [23]. The quantities $r(t,t)$ are sometimes referred to as *diagonal Ramsey Numbers* – see Campos, Griffiths, Morris, Sahasrabudhe [12] for a recent major breakthrough – whereas $r(s,t)$ for fixed $s$ and $t \to \infty$ are referred to as *off-diagonal Ramsey numbers*. The focus of this paper is on off-diagonal Ramsey numbers.
 
 The original upper bounds on off-diagonal Ramsey numbers were given by Erdős and Szekeres [20] in 1935. They showed that for all fixed $s \geq 3$ and $t \to \infty$ we have $r(s,t) = O(t^{s-1})$. Ajtai, Komlós and Szemerédi [1] established the first improvement to this upper bound on $r(s,t)$ by analyzing a randomized greedy algorithm for producing large independent sets. Bohman and Keevash [8] proved a lower bound by analyzing the random $K_s$-free graph process, improving on earlier results of Spencer [52,53]. These bounds are as follows: for $s \geq 3$, there exists a constants $c_1(s),c_2(s)>0$ such that the off-diagonal Ramsey numbers satisfy
 
@@ -219,8 +219,8 @@ In words, $e(\mathcal{U})$ is the number of edges in cliques in $\mathcal{U}$, a
 
 $$
 \begin{aligned}
-v(\mathcal{L})&\leq 2|X|, \tag{5}\\
-v(\mathcal{S}\sqcup\mathcal{M})&\geq(q-1)|X|-q^{3}-1. \tag{6}
+v(\mathcal{L})&\leq 2|X|, \qquad (5)\\
+v(\mathcal{S}\sqcup\mathcal{M})&\geq(q-1)|X|-q^{3}-1. \qquad (6)
 \end{aligned}
 $$
 
@@ -242,7 +242,7 @@ $$
 |\mathcal{L}|^{2}>\frac{v(\mathcal{L})^{2}}{2k}>\frac{(\sqrt{2k}|\mathcal{L}|)^{2}}{2k}=|\mathcal{L}|^{2},
 $$
 
-a contradiction. We conclude $v(\mathcal{L})\leq 2k$. \hfill$\blacksquare$
+a contradiction. We conclude $v(\mathcal{L})\leq 2k$. $\blacksquare$
 
 **Proof of Lemma 1.** By (6), either $v(\mathcal{S})\geq\frac{1}{2}[(q-1)m-q^{3}-1]$ or $v(\mathcal{M})\geq\frac{1}{2}[(q-1)m-q^{3}-1]$. We consider each of these cases separately, in order to prove (3) and (4) respectively.
 
@@ -387,7 +387,7 @@ $$
 \end{aligned}
 $$
 
-as $q\geq 2^{40}$ easily implies $q\geq 1024\log^3 n$. \hfill$\blacksquare$
+as $q\geq 2^{40}$ easily implies $q\geq 1024\log^3 n$. $\blacksquare$
 
 ### 3.2 Proof of Theorem 3
 
@@ -486,7 +486,7 @@ $$
 C_k^t\cdot\left(\frac{sr}{t}\right)^{(k-1)t}\cdot\left(\frac{rt^2}{\log^7t}\right)^{-(k-2)t}\leq C_k^t\cdot r^t\cdot t^{-2(k-2)t}\cdot(\log t)^{(6k-13)t}
 $$
 
-for some constant $C_k>0$. If $\delta_k<1/C_k$, then the choice of $r$ ensures this quantity is less than 1. Consequently, there exists a graph $G(k)$ with $rT$ vertices that is the union of $k-1 copies of $K_4$-free graphs and $G(k)$ has no independent set of size $t$. Consequently, for each $k\geq 3$, there exists $\gamma_k>0$ such that
+for some constant $C_k>0$. If $\delta_k<1/C_k$, then the choice of $r$ ensures this quantity is less than 1. Consequently, there exists a graph $G(k)$ with $rT$ vertices that is the union of $k-1$ copies of $K_4$-free graphs and $G(k)$ has no independent set of size $t$. Consequently, for each $k\geq 3$, there exists $\gamma_k>0$ such that
 
 $$
 r_k(4;t)>rT\geq\gamma_k\frac{t^{2k-1}}{(\log t)^{6(k-1)}}.

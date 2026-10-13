@@ -165,7 +165,7 @@ We prove the following Theorem which implies both Theorems 1.4 and 1.6 quickly, 
 
 *Proof of Theorem 3.3.* By Lemma 2.2 it is sufficient to find such a coloring for $k=1$. By Lemma 3.2 the coloring defined in (1) has the desired properties. $\square$
 
-See Figure 2 for an illustration of the coloring used for proving Theorem 3.3 when $k=2$ and $\ell=15.
+See Figure 2 for an illustration of the coloring used for proving Theorem 3.3 when $k=2$ and $\ell=15$.
 
 *Proof of Theorem 1.4.* Theorem 1.4 simply follows from Theorem 3.3 by observing that $\ell=\binom{q}{2}$ is odd for $q\equiv 2$ or $3\mod 4$, and $q\geq m=\left\lfloor\sqrt{\binom{q}{2}}+\frac{7}{2}\right\rfloor$ for $q\geq 10$. By Theorem 3.3 there exists a completely balanced coloring of $K_n$ with $\ell$ colors without a rainbow $K_m$. Since $q\geq m$ this coloring does not contain a rainbow $K_q$. $\square$
 

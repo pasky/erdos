@@ -23,20 +23,20 @@ almost everywhere; the case $p=2$ answers Erdős Problem \#995. We also include 
 
 ## Contents
 
-Notation \hfill 2  
-1. Introduction \hfill 2  
-1.1. Main results \hfill 3  
-1.2. Roadmap and architecture \hfill 5  
-2. Dyadic spikes \hfill 7  
-3. Blocks and local trials \hfill 9  
-4. The master construction \hfill 12  
-5. Fourier tails and the endpoint construction \hfill 17  
-6. Consequences for Fourier-tail problems \hfill 20  
-7. Large partial sums in finite $L^p$ \hfill 21  
-8. A bounded dyadic hitting-set construction \hfill 24  
-9. Further questions \hfill 26  
-Acknowledgements \hfill 26  
-References \hfill 27
+Notation 2  
+1. Introduction 2  
+1.1. Main results 3  
+1.2. Roadmap and architecture 5  
+2. Dyadic spikes 7  
+3. Blocks and local trials 9  
+4. The master construction 12  
+5. Fourier tails and the endpoint construction 17  
+6. Consequences for Fourier-tail problems 20  
+7. Large partial sums in finite $L^p$ 21  
+8. A bounded dyadic hitting-set construction 24  
+9. Further questions 26  
+Acknowledgements 26  
+References 27
 
 *2020 Mathematics Subject Classification.* Primary 42A55; Secondary 42A16, 42A61, 37A30, 60F15.
 
@@ -698,7 +698,7 @@ $$
 1+P_{k,t+1}=1+P_{k,t}+\ell_{k,t}\leq C_\eta(1+P_{k,t})
 $$
 
-for a constant $C_\eta$ depending only on $\eta$. Iterating gives (4.16). \hfill$\square$
+for a constant $C_\eta$ depending only on $\eta$. Iterating gives (4.16). $\square$
 
 For each trial let $\mathcal{E}_{k,t}$ denote the local good event from Definition 3.4, formed with the block $F_k$ and the trial $(M_{k,t},\ell_{k,t})$.
 
@@ -722,7 +722,7 @@ $$
 [U_k+M_{k,t}+hD_k+1,\,U_k+M_{k,t}+hD_k+d_k],\qquad \ell_{k,t}+1\leq h\leq L_k+1.
 $$
 
-The initial condition (4.10) places the first such window of stage $k$ beyond all windows used in earlier stages. The recursion (4.11) places all windows of trial $t+1$ beyond all windows of trial $t$. Hence all good-trial events depend on disjoint binary digit coordinates, and are independent. The lower bound (4.17) is exactly Lemma 3.5. The estimate (4.18) follows from independence and $1-u\leq e^{-u}$. \hfill$\square$
+The initial condition (4.10) places the first such window of stage $k$ beyond all windows used in earlier stages. The recursion (4.11) places all windows of trial $t+1$ beyond all windows of trial $t$. Hence all good-trial events depend on disjoint binary digit coordinates, and are independent. The lower bound (4.17) is exactly Lemma 3.5. The estimate (4.18) follows from independence and $1-u\leq e^{-u}$. $\square$
 
 **Proposition 4.3 (Master principle).** *Assume that stages are constructed as above and that*
 

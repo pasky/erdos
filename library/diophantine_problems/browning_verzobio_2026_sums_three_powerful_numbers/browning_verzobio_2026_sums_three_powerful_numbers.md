@@ -70,10 +70,10 @@ $$
 \frac{1}{p}+\frac{1}{q}+\frac{1}{r}<1. \tag{1.2}
 $$
 
-As explained by Abramovich and Várilly-Alvarado [1, Conjecture 1.2], it follows from conjectures of Campana that the corresponding Campana points are not Zariski dense in $\mathbb{P}^{1}$ in this case, so that $N(B)=O_{p,q,r}(1)$. This prediction is also consistent with the $abc$ conjecture: if $(a,b,c)$ is a solution counted by $N(B)$, note that $\rad(abc)\leqslant a^{1/p}b^{1/q}c^{1/r}\leqslant c^{1/p+1/q+1/r}$. But then
+As explained by Abramovich and Várilly-Alvarado [1, Conjecture 1.2], it follows from conjectures of Campana that the corresponding Campana points are not Zariski dense in $\mathbb{P}^{1}$ in this case, so that $N(B)=O_{p,q,r}(1)$. This prediction is also consistent with the $abc$ conjecture: if $(a,b,c)$ is a solution counted by $N(B)$, note that $\operatorname{rad}(abc)\leqslant a^{1/p}b^{1/q}c^{1/r}\leqslant c^{1/p+1/q+1/r}$. But then
 
 $$
-c\ll_{\varepsilon}\rad(abc)^{1+\varepsilon}\leqslant c^{(1/p+1/q+1/r)(1+\varepsilon)},
+c\ll_{\varepsilon}\operatorname{rad}(abc)^{1+\varepsilon}\leqslant c^{(1/p+1/q+1/r)(1+\varepsilon)},
 $$
 
 for any $\varepsilon>0$. Since $(1/p+1/q+1/r)(1+\varepsilon)<1$ whenever (1.2) holds, if $\varepsilon>0$ is taken to be small enough, this bounds $c$.
@@ -312,10 +312,10 @@ We now show that the assumption $\max\{p,q\}\leqslant 4d^2$ is not necessary whe
 We now apply Lemma 2.7 to $a_1t^p+a_2(ut+v)^q-h(t)^\ell=0$. The three polynomials are pairwise coprime. (The factors $t$ and $ut+v$ are coprime because $v\neq 0$.) Thus the Mason–Stothers theorem gives
 
 $$
-\max\{p,q,\ell\deg h\}\leqslant\deg\rad(t^p(ut+v)^qh^\ell)-1.
+\max\{p,q,\ell\deg h\}\leqslant\deg\operatorname{rad}(t^p(ut+v)^qh^\ell)-1.
 $$
 
-Since $\deg\rad(t^p(ut+v)^qh^\ell)\leqslant 2+\deg h$, we obtain $\max\{p,q,\ell\deg h\}\leqslant\deg h+1$. Because $\ell\geqslant 2$, this implies $\deg h\leqslant 1$. Since $p,q\geqslant 2$, we must have $p=q=2$, $\ell=2$, and $\deg h=1$. It remains to rule out this last possibility. If $p=q=2$, then $a_1t^2+a_2(ut+v)^2$ must be a square in $\overline{\mathbb{Q}}(t)$ for $F(T)$ to be reducible. Its discriminant is $-4a_1a_2v^2$, which is nonzero, so $a_1t^2+a_2(ut+v)^2$ cannot be a square. It now follows from Lemma 2.5 that $F(T)$ is irreducible in $K[T]$. \hfill$\square$
+Since $\deg\operatorname{rad}(t^p(ut+v)^qh^\ell)\leqslant 2+\deg h$, we obtain $\max\{p,q,\ell\deg h\}\leqslant\deg h+1$. Because $\ell\geqslant 2$, this implies $\deg h\leqslant 1$. Since $p,q\geqslant 2$, we must have $p=q=2$, $\ell=2$, and $\deg h=1$. It remains to rule out this last possibility. If $p=q=2$, then $a_1t^2+a_2(ut+v)^2$ must be a square in $\overline{\mathbb{Q}}(t)$ for $F(T)$ to be reducible. Its discriminant is $-4a_1a_2v^2$, which is nonzero, so $a_1t^2+a_2(ut+v)^2$ cannot be a square. It now follows from Lemma 2.5 that $F(T)$ is irreducible in $K[T]$. $\square$
 
 Assume now $d=2$. We say that $c(x,y)=0$ is an ellipse, hyperbola, or parabola according to whether the discriminant of the quadratic part of $c(x,y)$ is negative, positive, or zero, respectively.
 
@@ -327,7 +327,7 @@ $$
 Ac(x,y)=aU(x,y)^2+bV(x,y)^2-e.
 $$
 
-Moreover the map $(x,y)\mapsto(U(x,y),V(x,y))$ is injective, with an image that lies in a box of side length $B^{O_D(1)}$. We may now apply Lemma 2.3 to deduce that $\#S(X,Y,Z,f,c)=O_{\varepsilon,D}(B^\varepsilon)$. \hfill$\square$
+Moreover the map $(x,y)\mapsto(U(x,y),V(x,y))$ is injective, with an image that lies in a box of side length $B^{O_D(1)}$. We may now apply Lemma 2.3 to deduce that $\#S(X,Y,Z,f,c)=O_{\varepsilon,D}(B^\varepsilon)$. $\square$
 
 We may proceed under the assumption that $c(x,y)=0$ defines a parabola. In this case, points on $c(x,y)=0$ can be parametrized by $(x,y)=(\gamma_1(t),\gamma_2(t))$ with $\gamma_1,\gamma_2\in\overline{\mathbb{Q}}[t]$ such that $\max\{\deg(\gamma_1),\deg(\gamma_2)\}=2$. In this case we have $K=\overline{\mathbb{Q}}(C)=\overline{\mathbb{Q}}(t)$.
 

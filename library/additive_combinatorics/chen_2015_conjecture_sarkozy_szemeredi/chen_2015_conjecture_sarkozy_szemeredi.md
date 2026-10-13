@@ -199,7 +199,7 @@ $$
 \min\{A(x),B(x)\}=A(x)
 $$
 
-for all sufficiently large $x.
+for all sufficiently large $x$.
 
 If (2.1) does not hold, then
 

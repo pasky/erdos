@@ -383,7 +383,7 @@ Earlier existential formulas make related valuation information accessible on re
  \quad\Longrightarrow\quad
  v_{\mathfrak p}(x/y^2)>0
  \qquad
- \text{for every nonarchimedean prime \(\mathfrak p\) inert in \(L/K\)}.$$ They also permit a fixed finite union of such inert-prime sets (Demeyer and Van Geel 2006, Theorem 14 and Corollary 15 in the author version). Cornelissen and Zahidi use related odd-valuation predicates in their elliptic-divisibility approach (Cornelissen and Zahidi 2007, sec. 3.3 and 3.11). The existential definitions of Demeyer and Van Geel control the chosen inert primes. Proposition 2.8 instead supplies the stated one-sided restriction outside a fixed finite exceptional set.
+ \text{for every nonarchimedean prime $\mathfrak p$ inert in $L/K$}.$$ They also permit a fixed finite union of such inert-prime sets (Demeyer and Van Geel 2006, Theorem 14 and Corollary 15 in the author version). Cornelissen and Zahidi use related odd-valuation predicates in their elliptic-divisibility approach (Cornelissen and Zahidi 2007, sec. 3.3 and 3.11). The existential definitions of Demeyer and Van Geel control the chosen inert primes. Proposition 2.8 instead supplies the stated one-sided restriction outside a fixed finite exceptional set.
 
 We first define a formula from finite multiplier lists and prove the pole restriction. We then choose the lists once and for all and prove integer completeness by realizing the same square class on two elliptic curves.
 

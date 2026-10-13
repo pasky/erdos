@@ -317,7 +317,7 @@ Suppose, now, we have a blue **B-situation** in $R$: a vertex $j$ with blue edge
 
 Therefore, we can assume that $I_C\cap V(M)$ covers at most $(t_1-t_2)^{+}$ vertices, so $I_C\setminus V(M)$ covers at least $(n+t_2)^{-}-2t_2^{-}-(t_1-t_2)^{+}=t_2^{-}$ vertices. If almost all edges between a subset $I\subset I_A\cup I_B$ and $I_C\setminus V(M)$ are red, with $I\cup(I_C\setminus V(M))$ covering $n^{-}$ vertices in $G$, then we have a red **C-situation**. Unfortunately, the maximality of $M$ only immediately gives that almost all edges between $(I_A\cup I_B)\setminus V(M)$ and $I_C\setminus V(M)$ are red, and they might cover only $(n+t_2)^{-}-2(t_1-t_2)^{+}=(4t_2-t_1)^{-}$ vertices together, which could be as small as $2t_2^{-}$ if $t_1\approx 2t_2$.
 
-To combat this, we exploit the maximality of the matching $M$ in a more sophisticated way using what we call a ‘cascading argument’ (see Lemma 5.10). Note that any blue edge between some $c\in I_C\setminus V(M)$ and $(I_A\cup I_B)\cap V(M)$ would allow us to exchange that edge into the matching $M$ to create a matching $M'$ that has the same intersection with $I_A\cup I_B$ as $M$, but whose intersection with $I_C$ includes $c$ and omits some vertex $c'\in I_C\cap V(M)$. The maximality of $M$ then implies the edges between $c'$ and $(I_A\cup I_B)\setminus V(M) are mostly red. Iterating such an argument will eventually allow us to find two large subsets $X$ and $Y$ with $(I_A\cup I_B)\setminus V(M)\subset X\subset I_A\cup I_B$ and $I_C\setminus V(M)\subset Y\subset I_C$, such that the edges between $X$ and $Y$ are mostly red, $X$ and $Y$ both cover at least $t_2^{-}$ vertices in $G$, and $X\cup Y$ cover at least $n^{-}$ vertices in $G$. This gives a red **C-situation**.
+To combat this, we exploit the maximality of the matching $M$ in a more sophisticated way using what we call a ‘cascading argument’ (see Lemma 5.10). Note that any blue edge between some $c\in I_C\setminus V(M)$ and $(I_A\cup I_B)\cap V(M)$ would allow us to exchange that edge into the matching $M$ to create a matching $M'$ that has the same intersection with $I_A\cup I_B$ as $M$, but whose intersection with $I_C$ includes $c$ and omits some vertex $c'\in I_C\cap V(M)$. The maximality of $M$ then implies the edges between $c'$ and $(I_A\cup I_B)\setminus V(M)$ are mostly red. Iterating such an argument will eventually allow us to find two large subsets $X$ and $Y$ with $(I_A\cup I_B)\setminus V(M)\subset X\subset I_A\cup I_B$ and $I_C\setminus V(M)\subset Y\subset I_C$, such that the edges between $X$ and $Y$ are mostly red, $X$ and $Y$ both cover at least $t_2^{-}$ vertices in $G$, and $X\cup Y$ cover at least $n^{-}$ vertices in $G$. This gives a red **C-situation**.
 
 **Stage 3**
 
@@ -1242,7 +1242,7 @@ Let us first partition the vertices outside of $U_1\cup U_2$. For some $\beta$ w
 
 A first approach to proving Theorem 2.3 would be to embed $T$ into $G_{\mathrm{blue}}[U_1^+]$ if $|U_1^+|\geq n$, and into $G_{\mathrm{red}}[U_1^+,U_2^+]$ if $|U_2^+|\geq t_2$. We will be able to do this when the tree has many, say $n/100$, vertex-disjoint bare paths with length 5, which we call **Case I.A**. This is split into **Case I.A.1** and **Case I.A.2** depending on whether $k\geq 0$. To embed such a tree $T$, we first remove many suitable bare paths with length 4, so that the remaining forest $T^{\prime}$ can be embedded greedily. Then, we find a collection of vertex-disjoint paths with length 2 in $G$ that will form the middle parts of the missing paths, and make sure that they cover all the low degree vertices in $G$ if necessary. Finally, we attach these length 2 paths to the image of $T^{\prime}$ to complete a copy of $T$ by verifying the appropriate Hall’s matching conditions. These proofs are carried out in Section 6.2.
 
-If $T$ does not have $n/100$ vertex-disjoint bare paths with length 5, we call this **Case I.B**. Note that by Lemma 2.11, $T$ must then have at least $n/20$ leaves. Unlike in **Case I.A** above where no spare vertex is required to embed $T$, it follows from a famous example of Komlós, Sárközy and Szemerédi [23] that we cannot necessarily embed $T$ into $G_{\mathrm{blue}}[U_1^+]$ even if $|U_1^+|\geq n$, or into $G_{\mathrm{red}}[U_1^+,U_2^+]$ even if $|U_2^+|\geq t_2$. For example, in our setting, it is easy to create an $n$-vertex tree $T$ with $\Delta(T)\leq cn$ in which there is a set $W$ of at most $2/c$ vertices such that every edge of the tree contains a vertex in $W$. Thus, $G_{\mathrm{blue}}[U_1^+]$ can only contain a blue copy of $T$ if it has a set $W^{\prime}$ with size at most $2/c$ for which at most $k=|U_1^+|-n$ vertices in $U_1^+\setminus W^{\prime}$ have no blue neighbour in $W^{\prime}$. An appropriate red sparse binomial random graph placed on $U_1^+$ can destroy this property, even when $|U_1^+|=n+\Theta_c(n)$, while having maximum degree at most $cn (see [23] for a more detailed example). Thus, whether we embed the tree in red or blue will depend not only on $k$, but also on the number of edges in $G_{\mathrm{red}}[U_1^+]$ and $G_{\mathrm{blue}}[U_1^+,U_2^+]$.
+If $T$ does not have $n/100$ vertex-disjoint bare paths with length 5, we call this **Case I.B**. Note that by Lemma 2.11, $T$ must then have at least $n/20$ leaves. Unlike in **Case I.A** above where no spare vertex is required to embed $T$, it follows from a famous example of Komlós, Sárközy and Szemerédi [23] that we cannot necessarily embed $T$ into $G_{\mathrm{blue}}[U_1^+]$ even if $|U_1^+|\geq n$, or into $G_{\mathrm{red}}[U_1^+,U_2^+]$ even if $|U_2^+|\geq t_2$. For example, in our setting, it is easy to create an $n$-vertex tree $T$ with $\Delta(T)\leq cn$ in which there is a set $W$ of at most $2/c$ vertices such that every edge of the tree contains a vertex in $W$. Thus, $G_{\mathrm{blue}}[U_1^+]$ can only contain a blue copy of $T$ if it has a set $W^{\prime}$ with size at most $2/c$ for which at most $k=|U_1^+|-n$ vertices in $U_1^+\setminus W^{\prime}$ have no blue neighbour in $W^{\prime}$. An appropriate red sparse binomial random graph placed on $U_1^+$ can destroy this property, even when $|U_1^+|=n+\Theta_c(n)$, while having maximum degree at most $cn$ (see [23] for a more detailed example). Thus, whether we embed the tree in red or blue will depend not only on $k$, but also on the number of edges in $G_{\mathrm{red}}[U_1^+]$ and $G_{\mathrm{blue}}[U_1^+,U_2^+]$.
 
 We divide **Case I.B** (where $T$ has many leaves) into two further subcases, using a parameter $D$, which is defined to be the $30\mu n$-th biggest value of $d_{\mathrm{blue}}(u,U_2^+)$ across all $u\in U_1^+$. The hope is that this could allow us to embed $D$ leaves of the tree $T$ using the edges in $G_{\mathrm{blue}}[U_1^+,U_2^+]$, thus creating more space to embed the rest of the tree into $G_{\mathrm{blue}}[U_1^+]$. With this reasoning, one might expect that if $k+D\geq 0$, then as $|U_1^+|+D=n+k+D\geq n$, we will be able to embed the tree in blue. However, an example similar to the one mentioned above from [23] shows that simply requiring $k+D\geq 0$ is not enough, as comparatively few red edges in $G[U_1^+]$ can spoil this embedding attempt in blue. However, in Section 6.3, we will show that we can embed the tree in blue as long as $G[U_1^+]$ has at most $10^7(k+D+1)n$ red edges, which we call **Case I.B.1**.
 
@@ -1363,7 +1363,7 @@ $$
 \mathbb{P}(v\text{ is bad})\leq\sum_{j=1}^{j^*}\mathbb{P}(v\text{ is }j\text{-bad})\leq\sum_{j=1}^{j^*}\left(\frac{m_v}{10^{10}n}\right)^{(j^*-j+1)}\leq\frac{m_v}{10^8n},
 $$
 
-as required. \hfill$\square$
+as required. $\square$
 
 By Claim 6.4, we have
 
@@ -1415,7 +1415,7 @@ $$
 \end{aligned}
 $$
 
-As required. If \(J\cap P_2\ne\emptyset\), then we have
+As required. If $J\cap P_2\ne\emptyset$, then we have
 
 $$
 \begin{aligned}
@@ -1425,36 +1425,36 @@ $$
 \end{aligned}
 $$
 
-Thus, by Lemma 2.9, we can embed \(L\) into \(U_1'\cup U_2\) to finish a copy of \(T\) in \(G\). \(\square\)
+Thus, by Lemma 2.9, we can embed $L$ into $U_1'\cup U_2$ to finish a copy of $T$ in $G$. $\square$
 
 ### 6.4 Case I.B.2: embedding trees in almost complete bipartite graphs
 
-In **Case I.B.2**, using the notations in Section 6.1, we want to embed a small subtree into \(G_{\text{red}}[U_1^+]\), before embedding the rest of \(T\) into \(G_{\text{red}}[U_1^+,U_2^+]\). To find this small subtree, we use the following result.
+In **Case I.B.2**, using the notations in Section 6.1, we want to embed a small subtree into $G_{\text{red}}[U_1^+]$, before embedding the rest of $T$ into $G_{\text{red}}[U_1^+,U_2^+]$. To find this small subtree, we use the following result.
 
-**Proposition 6.5.** Let \(n,m\in\mathbb{N}\) satisfy \(1\leq m\leq n/18\). Let \(T\) be an \(n\)-vertex tree with bipartition classes \(V_1\) and \(V_2\), where \(|V_2|\geq |V_1|/3\). Then, \(T\) contains a subtree \(T'\) with \(|T'|\leq 10^4m\), such that it contains at least \(m\) vertices in \(V_2\) and has at most 1 vertex in \(V_2\) with a neighbour outside of \(V(T')\) in \(T\).
+**Proposition 6.5.** Let $n,m\in\mathbb{N}$ satisfy $1\leq m\leq n/18$. Let $T$ be an $n$-vertex tree with bipartition classes $V_1$ and $V_2$, where $|V_2|\geq |V_1|/3$. Then, $T$ contains a subtree $T'$ with $|T'|\leq 10^4m$, such that it contains at least $m$ vertices in $V_2$ and has at most 1 vertex in $V_2$ with a neighbour outside of $V(T')$ in $T$.
 
-*Proof.* For any tree \(R\) on at least \(18m\) vertices, by repeated applications of Corollary 2.14, we can find subtrees \(R_1\) and \(R_2\) with a unique common vertex that decompose \(R\), such that \(6m\leq |R_1|\leq 18m\). Iterating this in the tree \(T\) to find a subtree with size between \(6m\) and \(18m\) at a time, we obtain a sequence \(T_1,\ldots,T_\ell\) of subtrees satisfying the following properties.
+*Proof.* For any tree $R$ on at least $18m$ vertices, by repeated applications of Corollary 2.14, we can find subtrees $R_1$ and $R_2$ with a unique common vertex that decompose $R$, such that $6m\leq |R_1|\leq 18m$. Iterating this in the tree $T$ to find a subtree with size between $6m$ and $18m$ at a time, we obtain a sequence $T_1,\ldots,T_\ell$ of subtrees satisfying the following properties.
 
-- \(E(T_1),\ldots,E(T_\ell)\) partition \(E(T)\).
-- For every \(j\in[\ell]\), \(6m\leq |T_j|\leq 18m\).
-- For every \(j\in[\ell]\), \(\bigcup_{i=1}^{j}T_i\) is a tree.
-- For every \(2\leq j\leq\ell\), \(T_j\) shares a unique vertex with \(\bigcup_{i=1}^{j-1}T_i\).
+- $E(T_1),\ldots,E(T_\ell)$ partition $E(T)$.
+- For every $j\in[\ell]$, $6m\leq |T_j|\leq 18m$.
+- For every $j\in[\ell]$, $\bigcup_{i=1}^{j}T_i$ is a tree.
+- For every $2\leq j\leq\ell$, $T_j$ shares a unique vertex with $\bigcup_{i=1}^{j-1}T_i$.
 
-Note that \(\ell\leq n/(6m-1)\). We claim that \(|V(T_i)\cap V_2|\geq m\) for at least \(\ell/100\) indices \(i\in[\ell]\). Indeed, if not, then there would be at most \(\ell m+(\ell/100)\cdot 18m<n/4\) vertices in \(V_2\), contradicting the assumption that \(|V_2|\geq |V_1|/3\). Let \(I=\{i\in[\ell]:|V(T_i)\cap V_2|\geq m\}\).
+Note that $\ell\leq n/(6m-1)$. We claim that $|V(T_i)\cap V_2|\geq m$ for at least $\ell/100$ indices $i\in[\ell]$. Indeed, if not, then there would be at most $\ell m+(\ell/100)\cdot 18m<n/4$ vertices in $V_2$, contradicting the assumption that $|V_2|\geq |V_1|/3$. Let $I=\{i\in[\ell]:|V(T_i)\cap V_2|\geq m\}$.
 
-Consider the auxiliary graph \(K\) with vertex set \([\ell]\), where for any \(i<j\) in \([\ell]\), \(ij\in E(K)\) if and only if \(i\) is the smallest index such that \(V(T_i)\cap V(T_j)\ne\emptyset\). Note that every \(1<j\leq\ell\) has a unique neighbour in \([j-1]\) in \(K\), so \(K\) is a tree and \(e(K)=\ell-1\). It follows that there exists \(i\in I\) with \(d_K(i)\leq 200\).
+Consider the auxiliary graph $K$ with vertex set $[\ell]$, where for any $i<j$ in $[\ell]$, $ij\in E(K)$ if and only if $i$ is the smallest index such that $V(T_i)\cap V(T_j)\ne\emptyset$. Note that every $1<j\leq\ell$ has a unique neighbour in $[j-1]$ in $K$, so $K$ is a tree and $e(K)=\ell-1$. It follows that there exists $i\in I$ with $d_K(i)\leq 200$.
 
-Let \(t_i\) be the unique vertex shared by \(T_i\) and \(\bigcup_{j<i}T_j\). Then, \(N_T(V(T_i)\setminus\{t_i\},\bigcup_{j>i}V(T_j))\leq 200\cdot 18m\). Let \(T'\) be the subtree of \(T\) induced by \(V(T_i)\) and \(N_T(V(T_i)\setminus\{t_i\},\bigcup_{j>i}V(T_j))\cap V_1\). Then \(|T'|\leq 10^4m\), \(|V(T')\cap V_2|\geq |V(T_i)\cap V_2|\geq m\), and every vertex in \(V(T')\cap V_2\), except possibly \(t_i\), has no neighbour in \(T\) outside of \(V(T')\). \(\square\)
+Let $t_i$ be the unique vertex shared by $T_i$ and $\bigcup_{j<i}T_j$. Then, $N_T(V(T_i)\setminus\{t_i\},\bigcup_{j>i}V(T_j))\leq 200\cdot 18m$. Let $T'$ be the subtree of $T$ induced by $V(T_i)$ and $N_T(V(T_i)\setminus\{t_i\},\bigcup_{j>i}V(T_j))\cap V_1$. Then $|T'|\leq 10^4m$, $|V(T')\cap V_2|\geq |V(T_i)\cap V_2|\geq m$, and every vertex in $V(T')\cap V_2$, except possibly $t_i$, has no neighbour in $T$ outside of $V(T')$. $\square$
 
 Using Proposition 6.5, we can now prove the main result used for **Case I.B.2**.
 
-**Lemma 6.6.** Let \(1/n\ll c\ll\mu\ll\beta\ll 1\), let \(0\leq D\leq\mu n\), and let \(|k|\leq\mu n\). Let \(T\) be any \(n\)-vertex tree with \(\Delta(T)\leq cn\) and bipartition classes \(V_1\) and \(V_2\) with sizes \(t_1\) and \(t_2\), respectively, that satisfy \(t_2\leq t_1\leq 2t_2+1\). Let \(G\) be a graph with a vertex partition \(U_1\cup U_2\) such that \(1.1t_1\leq |U_1|\leq 2n\), \(|U_2|=t_2-k-1\), and the following hold.
+**Lemma 6.6.** Let $1/n\ll c\ll\mu\ll\beta\ll 1$, let $0\leq D\leq\mu n$, and let $|k|\leq\mu n$. Let $T$ be any $n$-vertex tree with $\Delta(T)\leq cn$ and bipartition classes $V_1$ and $V_2$ with sizes $t_1$ and $t_2$, respectively, that satisfy $t_2\leq t_1\leq 2t_2+1$. Let $G$ be a graph with a vertex partition $U_1\cup U_2$ such that $1.1t_1\leq |U_1|\leq 2n$, $|U_2|=t_2-k-1$, and the following hold.
 
-- \(d_G(u,U_1)\geq\beta n\) for each \(u\in U_2\), and \(d_G(u,U_1)\geq |U_1|-\mu n\) for all but at most \(\mu n\) vertices \(u\in U_2\).
-- \(d_G(u,U_2)\geq |U_2|-D\) for all but at most \(10\mu n\) vertices \(u\in U_1\).
-- There exists \(X\subseteq U_1\) with \(|X|\leq 2\mu n\) such that \(d_G(u,U_2)\geq |U_2|-\mu n\) for each \(u\in U_1\setminus X\) and \(e(G[U_1\setminus X])\geq 10^7(k+D+1)n\).
+- $d_G(u,U_1)\geq\beta n$ for each $u\in U_2$, and $d_G(u,U_1)\geq |U_1|-\mu n$ for all but at most $\mu n$ vertices $u\in U_2$.
+- $d_G(u,U_2)\geq |U_2|-D$ for all but at most $10\mu n$ vertices $u\in U_1$.
+- There exists $X\subseteq U_1$ with $|X|\leq 2\mu n$ such that $d_G(u,U_2)\geq |U_2|-\mu n$ for each $u\in U_1\setminus X$ and $e(G[U_1\setminus X])\geq 10^7(k+D+1)n$.
 
-Then, \(G\) contains a copy of \(T\).
+Then, $G$ contains a copy of $T$.
 
 *Proof.* First observe that it suffices to prove this in the case when $k+D\geq -1$. Indeed, if $k+D<-1$, then let $k^{\prime}=-D-1$ and remove $-k-D-1$ vertices from $U_2$ to obtain $U_2^{\prime}$ with size $t_2-k^{\prime}-1$. Note that trivially $e(G[U_1\setminus X])\geq 10^7(k^{\prime}+D+1)n$, and all other assumptions still hold with $U_2^{\prime}$ and $k^{\prime}$ in place of $U_2$ and $k$, so $G$ contains a copy of $T$. Thus, we assume that $k+D\geq -1$ from now on.
 

@@ -204,7 +204,7 @@ If $N=3$, then $Q$ has at most one edge and $q_Q(\mathbf z)\leq z_1z_2z_3\leq 1/
 
 $$q_Q(\mathbf z)\leq\frac{x^2}{4}(1-x)\leq\frac{1}{27}.$$
 
-This contradiction proves the lemma. \hfill$\square$
+This contradiction proves the lemma. $\square$
 
 Let
 

@@ -1919,7 +1919,7 @@ $$
 =\frac{1}{x}\sum_{\substack{n\leq x\\Q(n)\leq p_0}}1,
 $$
 
-where $Q(n)$ denotes the largest prime divisor of $n, we have by a well-known result (see [3]),
+where $Q(n)$ denotes the largest prime divisor of $n$, we have by a well-known result (see [3]),
 
 $$
 \frac{1}{x}\sum_{n\leq x}f_0(n)

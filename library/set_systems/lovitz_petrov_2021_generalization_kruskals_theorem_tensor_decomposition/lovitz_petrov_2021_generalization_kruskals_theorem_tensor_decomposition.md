@@ -22,47 +22,47 @@ $^*$emails: benjamin.lovitz@gmail.com, f.v.petrov@spbu.ru
 
 # Contents
 
-**1 Introduction** \hfill **3**  
-1.1 Kruskal’s theorem, and a generalization \dotfill 3  
-1.2 A splitting theorem for product tensors \dotfill 5  
-1.3 Further applications of the splitting theorem to tensor decompositions \dotfill 6  
+**1 Introduction** **3**  
+1.1 Kruskal’s theorem, and a generalization . . . 3  
+1.2 A splitting theorem for product tensors . . . 5  
+1.3 Further applications of the splitting theorem to tensor decompositions . . . 6  
 
-**2 Acknowledgments** \hfill **8**  
+**2 Acknowledgments** **8**  
 
-**3 Mathematical preliminaries** \hfill **8**  
+**3 Mathematical preliminaries** **8**  
 
-**4 Proving the splitting theorem** \hfill **10**  
+**4 Proving the splitting theorem** **10**  
 
-**5 Using our splitting theorem to generalize Kruskal’s theorem** \hfill **13**  
+**5 Using our splitting theorem to generalize Kruskal’s theorem** **13**  
 
-**6 The inequality appearing in our splitting theorem cannot be weakened** \hfill **15**  
+**6 The inequality appearing in our splitting theorem cannot be weakened** **15**  
 
 **7 Interpolating between our generalization of Kruskal’s theorem and an offshoot**  
-**of our splitting theorem** \hfill **16**  
-7.1 Low-rank tensors in the span of a set of product tensors \dotfill 18  
-7.1.1 $s = 1$ case of Theorem 15 \dotfill 19  
-7.1.2 $s = n - 1$ case of Theorem 15 \dotfill 21  
-7.2 Uniqueness results for non-rank decompositions \dotfill 22  
-7.2.1 $s = 1$ case of Theorem 22 \dotfill 25  
-7.2.2 Modifying Theorem 22 to apply to reducible pairs of decompositions \hfill 26  
-7.2.3 $s = n - 1$ case of Theorem 27 \dotfill 26  
+**of our splitting theorem** **16**  
+7.1 Low-rank tensors in the span of a set of product tensors . . . 18  
+7.1.1 $s = 1$ case of Theorem 15 . . . 19  
+7.1.2 $s = n - 1$ case of Theorem 15 . . . 21  
+7.2 Uniqueness results for non-rank decompositions . . . 22  
+7.2.1 $s = 1$ case of Theorem 22 . . . 25  
+7.2.2 Modifying Theorem 22 to apply to reducible pairs of decompositions 26  
+7.2.3 $s = n - 1$ case of Theorem 27 . . . 26  
 
-**8 A lower bound on tensor rank** \hfill **26**  
-8.1 Our tensor rank lower bound is sharp \dotfill 31  
+**8 A lower bound on tensor rank** **26**  
+8.1 Our tensor rank lower bound is sharp . . . 31  
 
-**9 A uniqueness result for non-Waring rank decompositions** \hfill **32**  
-9.1 The inequality appearing in our uniqueness result is sharp \dotfill 35  
-9.2 Applications of non-rank uniqueness results \dotfill 36  
+**9 A uniqueness result for non-Waring rank decompositions** **32**  
+9.1 The inequality appearing in our uniqueness result is sharp . . . 35  
+9.2 Applications of non-rank uniqueness results . . . 36  
 
 **10 Comparing our generalization of Kruskal’s theorem to the uniqueness criteria**  
-**of Domanov, De Lathauwer, and Sørensen** \hfill **37**  
-10.1 Uniqueness below the k-rank threshold of DLS \dotfill 37  
-10.2 Extending several uniqueness criteria of DLS \dotfill 38  
-10.2.1 Conditions U, H, C, and S \dotfill 38  
-10.2.2 Synthesizing the uniqueness criteria of DLS \dotfill 40  
-10.3 Conjectural generalization of all uniqueness criteria of DLS \dotfill 43  
+**of Domanov, De Lathauwer, and Sørensen** **37**  
+10.1 Uniqueness below the k-rank threshold of DLS . . . 37  
+10.2 Extending several uniqueness criteria of DLS . . . 38  
+10.2.1 Conditions U, H, C, and S . . . 38  
+10.2.2 Synthesizing the uniqueness criteria of DLS . . . 40  
+10.3 Conjectural generalization of all uniqueness criteria of DLS . . . 43  
 
-**11 Appendix** \hfill **43**
+**11 Appendix** **43**
 
 # 1 Introduction
 

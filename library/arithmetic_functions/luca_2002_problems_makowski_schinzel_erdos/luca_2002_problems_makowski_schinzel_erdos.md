@@ -251,7 +251,7 @@ $$
 (28)\quad P(m-\phi(m))\equiv-\phi(m)\pmod p.
 $$
 
-Notice that $p$ does not divide $m-\phi(m)$. Indeed, if $p\mid(m-\phi(m))$, then congruence (28) implies that $p\mid\phi(m)$, therefore $p\mid m$, which contradicts the fact that $p\nmid n$. Let $a_m$ be the integer in the interval $[0,p-1]$ given by $a_m\equiv-\phi(m)(m-\phi(m))^{-1}\pmod p$. Congruence (28) implies that $P\equiv a_m $(\bmod p)$. From (23) we deduce that $m\leq x^{1-\eta}$. Thus, summing up first over all the possible values of $P(n)$ when $m$ is fixed, we get
+Notice that $p$ does not divide $m-\phi(m)$. Indeed, if $p\mid(m-\phi(m))$, then congruence (28) implies that $p\mid\phi(m)$, therefore $p\mid m$, which contradicts the fact that $p\nmid n$. Let $a_m$ be the integer in the interval $[0,p-1]$ given by $a_m\equiv-\phi(m)(m-\phi(m))^{-1}\pmod p$. Congruence (28) implies that $P\equiv a_m\pmod p$. From (23) we deduce that $m\leq x^{1-\eta}$. Thus, summing up first over all the possible values of $P(n)$ when $m$ is fixed, we get
 
 $$(29)\quad \sum_{\substack{n\ne 0\pmod p\\ n\equiv\phi(n)\pmod p\\ n\in A}}1\leq \sum_{1\leq m\leq x^{1-\eta}}\sum_{\substack{1\leq P\leq x/m\\ P\equiv a_m\pmod p}}1=\sum_{1\leq m\leq x^{1-\eta}}\pi\left(\frac{x}{m},a_m,p\right).$$
 
@@ -662,7 +662,7 @@ $$
 therefore $\alpha\geq 3/4$, contradicting again the result of Mąkowski and Schinzel. Thus, $a>2$, therefore $\phi(a)>1$. We next show that
 
 $$
-\text{(75)}\quad \alpha=\min\left(\frac{\sigma(\phi(a)d)}{ad}\mathrel{\left|}d\text{ an even squarefree divisor of }\phi(a)\right.\right).
+\text{(75)}\quad \alpha=\min\left(\frac{\sigma(\phi(a)d)}{ad}\;\middle|\;d\text{ an even squarefree divisor of }\phi(a)\right).
 $$
 
 To see why $\alpha$ is at least what is claimed by formula (75), let $p$ be a large prime and write

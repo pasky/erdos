@@ -94,10 +94,10 @@ $$
 
 $$
 \begin{aligned}
-SX(A,B)&=\limsup_{s\to\infty}\max\left\{
+SX(A,B)&=\limsup_{s\to\infty}\max\{
 \frac{m_1m_3\cdots m_{2s-1}}{\sqrt{(m_1-1)+(m_3-1)m_1m_2+\cdots+(m_{2s-1}-1)m_1m_2\cdots m_{2s-2}}},\\
 &\qquad\frac{m_2m_4\cdots m_{2s}}{\sqrt{(m_2-1)m_1+(m_4-1)m_1m_2m_3+\cdots+(m_{2s}-1)m_1m_2\cdots m_{2s-1}}}
-\right\}.
+\}.
 \end{aligned}
 $$
 
@@ -339,7 +339,7 @@ $$
 &\frac{1}{m_{2s-1}^2}\frac{1}{m_{2s-3}^2}\frac{1}{m_{2s-5}^2}\frac{1}{m_{2s-6}}\left(1-\frac{1}{m_{2s-7}}\right)\frac{m_{2s-6}}{m_{2s-7}}\frac{m_{2s-8}}{m_{2s-9}}\cdots\frac{m_2}{m_1}+\cdots+\\
 &\frac{1}{m_{2s-1}^2}\frac{1}{m_{2s-3}^2}\cdots\frac{1}{m_{2s-(2k-1)}^2}\frac{1}{m_{2s-2k}}\left(1-\frac{1}{m_{2s-(2k+1)}}\right)\frac{m_{2s-2k}}{m_{2s-(2k+1)}}\frac{m_{2s-(2k+2)}}{m_{2s-(2k+3)}}\cdots\frac{m_2}{m_1}+\cdots\biggr),\\
 \liminf_{s\to\infty}\biggl(&
-\left((1-\frac{1}{m_{2s}})\frac{m_{2s-1}}{m_{2s}}\frac{m_{2s-3}}{m_{2s-2}}\cdots\frac{m_1}{m_2}+\\
+\left(1-\frac{1}{m_{2s}}\right)\frac{m_{2s-1}}{m_{2s}}\frac{m_{2s-3}}{m_{2s-2}}\cdots\frac{m_1}{m_2}+\\
 &\frac{1}{m_{2s}^2}\left(1-\frac{1}{m_{2s-2}}\right)\frac{m_{2s-3}}{m_{2s-2}}\frac{m_{2s-5}}{m_{2s-4}}\cdots\frac{m_1}{m_2}\\
 &+\frac{1}{m_{2s}^2}\frac{1}{m_{2s-2}^2}\left(1-\frac{1}{m_{2s-4}}\right)\frac{m_{2s-5}}{m_{2s-4}}\frac{m_{2s-7}}{m_{2s-6}}\cdots\frac{m_1}{m_2}\\
 &+\frac{1}{m_{2s}^2}\frac{1}{m_{2s-2}^2}\frac{1}{m_{2s-4}^2}\left(1-\frac{1}{m_{2s-6}}\right)\frac{m_{2s-7}}{m_{2s-6}}\frac{m_{2s-9}}{m_{2s-8}}\cdots\frac{m_1}{m_2}+\cdots+\\
@@ -423,7 +423,7 @@ $$
 
 If $x>0$ and $y>0$, then $\min\{x,y\}\leqslant\sqrt{xy}$ and we are done.
 
-This completes the proof of Theorem 1.6. \hfill$\Box$
+This completes the proof of Theorem 1.6. $\Box$
 
 ## REFERENCES
 

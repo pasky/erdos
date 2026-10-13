@@ -239,7 +239,7 @@ $$
 y_j\notin A_{y_i}\qquad\text{and}\qquad y_i\notin A_{y_j}.
 $$
 
-Thus $\{y_j:j<\omega\}$ witnesses $\operatorname{Free}_\omega(\mathcal A)$. \hfill$\square$
+Thus $\{y_j:j<\omega\}$ witnesses $\operatorname{Free}_\omega(\mathcal A)$. $\square$
 
 The remainder of the paper is devoted solely to the second line of $(1.1)$.
 

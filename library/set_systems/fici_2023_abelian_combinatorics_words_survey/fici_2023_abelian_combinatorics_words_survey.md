@@ -15,50 +15,50 @@ We survey known results and open problems in abelian combinatorics on words. Abe
 2 **Preliminaries** 3
 
 3 **Abelian complexity** 6  
-3.1 Abelian complexity and periodicity \dotfill 6  
-3.2 Abelian complexity of some families of words \dotfill 7  
-3.3 Abelian pattern complexity \dotfill 8
+3.1 Abelian complexity and periodicity . . . 6  
+3.2 Abelian complexity of some families of words . . . 7  
+3.3 Abelian pattern complexity . . . 8
 
 4 **Abelian repetitions** 9  
-4.1 Abelian complexity and abelian powers \dotfill 9  
-4.2 Abelian critical exponent \dotfill 10  
-4.3 Abelian square factors \dotfill 10  
-4.4 Abelian antipowers \dotfill 12
+4.1 Abelian complexity and abelian powers . . . 9  
+4.2 Abelian critical exponent . . . 10  
+4.3 Abelian square factors . . . 10  
+4.4 Abelian antipowers . . . 12
 
 5 **Abelian avoidability** 12  
-5.1 Avoidability of abelian powers \dotfill 12  
-5.2 Avoiding fractional abelian repetitions and other generalizations of abelian powers \dotfill 15  
-5.3 Abelian pattern avoidance \dotfill 16
+5.1 Avoidability of abelian powers . . . 12  
+5.2 Avoiding fractional abelian repetitions and other generalizations of abelian powers . . . 15  
+5.3 Abelian pattern avoidance . . . 16
 
 6 **Abelian periods and borders** 16  
-6.1 Abelian versions of classical periodicity theorems \dotfill 17  
-6.2 Abelian primitive words \dotfill 19  
-6.3 Abelian borders \dotfill 19
+6.1 Abelian versions of classical periodicity theorems . . . 17  
+6.2 Abelian primitive words . . . 19  
+6.3 Abelian borders . . . 19
 
 *The second author has been supported by Russian Foundation of Basic Research (grant 20-01-00488).
 
 **7 Abelian properties of Sturmian words** 21  
-7.1 Abelian powers in Sturmian words \dotfill 22  
-7.2 Abelian critical exponent of Sturmian words \dotfill 23  
-7.3 Abelian periods of factors of Sturmian words \dotfill 24  
-7.4 Abelian returns \dotfill 25  
-7.5 Minimal abelian squares \dotfill 25  
+7.1 Abelian powers in Sturmian words . . . 22  
+7.2 Abelian critical exponent of Sturmian words . . . 23  
+7.3 Abelian periods of factors of Sturmian words . . . 24  
+7.4 Abelian returns . . . 25  
+7.5 Minimal abelian squares . . . 25  
 
 **8 Modifications of abelian equivalence** 26  
-8.1 $k$-abelian equivalence \dotfill 26  
-    8.1.1 Avoidance \dotfill 27  
-    8.1.2 Complexity \dotfill 27  
-    8.1.3 $k$-abelian classes \dotfill 28  
-8.2 Weak abelian equivalence \dotfill 29  
-8.3 $k$-binomial equivalence \dotfill 30  
-8.4 Additive powers \dotfill 32  
+8.1 $k$-abelian equivalence . . . 26  
+    8.1.1 Avoidance . . . 27  
+    8.1.2 Complexity . . . 27  
+    8.1.3 $k$-abelian classes . . . 28  
+8.2 Weak abelian equivalence . . . 29  
+8.3 $k$-binomial equivalence . . . 30  
+8.4 Additive powers . . . 32  
 
 **9 Miscellanea** 33  
-9.1 Abelian subshifts \dotfill 33  
-    9.1.1 On abelian subshifts of binary words \dotfill 34  
-    9.1.2 On abelian subshifts of generalizations of Sturmian words to nonbinary alphabets \dotfill 34  
-9.2 Rich words and abelian equivalence \dotfill 35  
-9.3 Abelian saturated words \dotfill 35  
+9.1 Abelian subshifts . . . 33  
+    9.1.1 On abelian subshifts of binary words . . . 34  
+    9.1.2 On abelian subshifts of generalizations of Sturmian words to nonbinary alphabets . . . 34  
+9.2 Rich words and abelian equivalence . . . 35  
+9.3 Abelian saturated words . . . 35  
 
 **10 Acknowledgments** 36  
 
@@ -94,7 +94,7 @@ Let $w$ be a $k$-power. Then its prefix $u$ of length $|w|/k$ is called *a root*
 
 We say that a nonempty word $v$ is a *border* of a word $w \ne v$ if $w=vu=u'v$ for some words $u,u'$. It follows from the definition that $v$ is a border of $w$ if and only if $|w|-|v|$ is a period of $w$ of length $\leq |w|$.
 
-A nonempty word $w=w_1w_2\cdots w_n$, $w_i\in\Sigma_d$, is a *palindrome* if it coincides with its *reversal* $w^R=w_nw_{n-1}\cdots w_1$. The empty word is also assumed to be a palindrome. The set $\Pal(w)$ of palindromic factors of $w$ has cardinality $|\Pal(w)|\leq |w|+1$; $w$ is called *rich* if the equality holds.
+A nonempty word $w=w_1w_2\cdots w_n$, $w_i\in\Sigma_d$, is a *palindrome* if it coincides with its *reversal* $w^R=w_nw_{n-1}\cdots w_1$. The empty word is also assumed to be a palindrome. The set $\operatorname{Pal}(w)$ of palindromic factors of $w$ has cardinality $|\operatorname{Pal}(w)|\leq |w|+1$; $w$ is called *rich* if the equality holds.
 
 An *infinite word* (or *right-infinite word*) over $\Sigma_d$ is a non-ending concatenation of letters from $\Sigma_d$. An infinite word is called *purely periodic* if it has a period, i.e., it can be written as $v^\omega$ for some finite word $v$ (the notation $u^\omega$ stands for $uuu\cdots$); *ultimately periodic* if it has a purely periodic infinite suffix, i.e., it can be written as $uv^\omega$ for some finite words $u,v$; or *aperiodic* otherwise, i.e., if it is not ultimately periodic.
 
@@ -106,7 +106,7 @@ A substitution is *uniform* if all the images have the same length and *primitiv
 
 More generally, given two alphabets $\Sigma$ and $\Delta$, a *morphism* between $\Sigma^*$ and $\Delta^*$ is a map $h$ such that for every $u,v\in\Sigma^*$, one has $h(uv)=h(u)h(v)$. A morphism can be specified by giving the list of images of letters in $\Sigma$. A morphism is *non-erasing* if the images of all letters are nonempty. Notice that a substitution is therefore a non-erasing endomorphism.
 
-Given an infinite word $x$ over $\Sigma_d$, the *factor complexity* of $x$ is the integer function $p_x(n)=|\Fact(x)\cap\Sigma_d^n|$ counting the number of distinct factors of length $n$ of $x$, for each $n\geq 0$.
+Given an infinite word $x$ over $\Sigma_d$, the *factor complexity* of $x$ is the integer function $p_x(n)=|\operatorname{Fact}(x)\cap\Sigma_d^n|$ counting the number of distinct factors of length $n$ of $x$, for each $n\geq 0$.
 
 An infinite word is aperiodic if and only if its factor complexity is unbounded. In particular, a classical result of Morse and Hedlund [104] is that the factor complexity of an aperiodic word $x$ verifies $p_x(n)\geq n+1$ for every $n$. An aperiodic word with minimal factor complexity $p_x(n)=n+1$ for every $n$ is called a *Sturmian word*. A famous example of Sturmian word is the *Fibonacci word*
 
@@ -124,7 +124,7 @@ $$
 
 for all $u\in\Sigma_d^*$ and $a\in\Sigma_d$. For example, $\psi(0110)=0101001010$.
 
-The definition of $\psi$ can be extended to infinite words over $\Sigma_d$, $d\geq 2$, as follows: $\psi(u)=\lim_{n\to\infty}\psi(\mbox{Pref}_n(u))$, i.e., $\psi(u)$ is the infinite word having $\psi(\mbox{Pref}_n(u))$ as its prefix for every $n\in\mathbb{N}$. Let $u$ be an infinite word over the alphabet $\Sigma_d$ such that every letter occurs infinitely often in $u$. The word $x=\psi(u)$ is then called a *characteristic (or standard) Arnoux–Rauzy word* and $u$ is called the *directive sequence* of $x$. An infinite word $x$ is called an Arnoux–Rauzy word if it has the same set of factors of a (unique) characteristic Arnoux–Rauzy word. For $d=2$, this gives an equivalent definition of Sturmian words [42]. An example of characteristic Arnoux–Rauzy word is given by the *Tribonacci word*
+The definition of $\psi$ can be extended to infinite words over $\Sigma_d$, $d\geq 2$, as follows: $\psi(u)=\lim_{n\to\infty}\psi(\operatorname{Pref}_n(u))$, i.e., $\psi(u)$ is the infinite word having $\psi(\operatorname{Pref}_n(u))$ as its prefix for every $n\in\mathbb{N}$. Let $u$ be an infinite word over the alphabet $\Sigma_d$ such that every letter occurs infinitely often in $u$. The word $x=\psi(u)$ is then called a *characteristic (or standard) Arnoux–Rauzy word* and $u$ is called the *directive sequence* of $x$. An infinite word $x$ is called an Arnoux–Rauzy word if it has the same set of factors of a (unique) characteristic Arnoux–Rauzy word. For $d=2$, this gives an equivalent definition of Sturmian words [42]. An example of characteristic Arnoux–Rauzy word is given by the *Tribonacci word*
 
 $$\textit{tr}=010201001020101020100\cdots$$
 
@@ -146,7 +146,7 @@ which, contrarily to the Fibonacci and the Thue–Morse words, cannot be obtaine
 
 More generally, one can construct an infinite (actually, uncountable) family of words, called *paperfolding words*, by alternating the replacements of the occurrences of $?$ with $v_0^\omega$ and $v_1^\omega$, where $v_0=0?1?$ and $v_1=1?0?$, according to a binary directive sequence.
 
-We will need a symbolic dynamical notion of the subshift generated by an infinite word. A *subshift* $X\subseteq\Sigma_d^\mathbb{N}$, $X\neq\emptyset$, is a closed set (with respect to the product topology of $\Sigma_d^\mathbb{N}$) and is invariant under the shift operator $\sigma$, defined by $\sigma(a_0a_1a_2\cdots)=a_1a_2\cdots$, that is, $\sigma(X)\subseteq X$. We call $\Sigma_d^\mathbb{N}$ the *full shift* over $\Sigma_d$. A subshift $X\subseteq\Sigma_d^\mathbb{N}$ is called *minimal* if $X$ does not contain any proper subshifts. For a subshift $X\subseteq\Sigma_d^\mathbb{N}$ we let $\Fact(X)=\bigcup_{y\in X}\Fact(y)$. Let $x\in\Sigma_d^\mathbb{N}$. We let $\Omega_x$ denote the *shift orbit closure* of $x$, that is, the set $\{y\in\Sigma_d^\mathbb{N}\colon\Fact(y)\subseteq\Fact(x)\}$. Thus, $\Fact(\Omega_x)=\Fact(x)$ for an infinite word $x\in\Sigma_d^\mathbb{N}$. It is known that $\Omega_x$ is minimal if and only if $x$ is uniformly recurrent. See [94] for more on the topic.
+We will need a symbolic dynamical notion of the subshift generated by an infinite word. A *subshift* $X\subseteq\Sigma_d^\mathbb{N}$, $X\neq\emptyset$, is a closed set (with respect to the product topology of $\Sigma_d^\mathbb{N}$) and is invariant under the shift operator $\sigma$, defined by $\sigma(a_0a_1a_2\cdots)=a_1a_2\cdots$, that is, $\sigma(X)\subseteq X$. We call $\Sigma_d^\mathbb{N}$ the *full shift* over $\Sigma_d$. A subshift $X\subseteq\Sigma_d^\mathbb{N}$ is called *minimal* if $X$ does not contain any proper subshifts. For a subshift $X\subseteq\Sigma_d^\mathbb{N}$ we let $\operatorname{Fact}(X)=\bigcup_{y\in X}\operatorname{Fact}(y)$. Let $x\in\Sigma_d^\mathbb{N}$. We let $\Omega_x$ denote the *shift orbit closure* of $x$, that is, the set $\{y\in\Sigma_d^\mathbb{N}\colon\operatorname{Fact}(y)\subseteq\operatorname{Fact}(x)\}$. Thus, $\operatorname{Fact}(\Omega_x)=\operatorname{Fact}(x)$ for an infinite word $x\in\Sigma_d^\mathbb{N}$. It is known that $\Omega_x$ is minimal if and only if $x$ is uniformly recurrent. See [94] for more on the topic.
 
 Given a word $w$ over $\Sigma_d$, we let $|w|_i$ denote the number of occurrences of the letter $i$ of $\Sigma_d$ in $w$. The *Parikh vector* (also called *composition vector* or *abelianization*) of the word $w$ is the vector $\mathcal{P}(w)=(|w|_0,|w|_1,\ldots,|w|_{d-1})$, counting the occurrences of the letters of $\Sigma_d$ in $w$.
 
@@ -164,7 +164,7 @@ In this section, we discuss abelian modifications of the classical notion of fac
 
 The *abelian complexity* of the word $x$ over $\Sigma_d$ is the integer function
 
-$$a_x(n)=\left|(\Fact(x)\cap\Sigma_d^n)/\sim_{ab}\right|,$$
+$$a_x(n)=\left|(\operatorname{Fact}(x)\cap\Sigma_d^n)/\sim_{ab}\right|,$$
 
 where $\sim_{ab}$ is the abelian equivalence, i.e., $a_x$ is the function that counts the number of distinct Parikh vectors of factors of length $n$ of $x$, for every $n\geq 0$.
 
@@ -174,7 +174,7 @@ On the other hand, there exist aperiodic words with bounded abelian complexity. 
 
 **Lemma 1.** *If there exists $n>0$ such that $a_x(n)=1$, then $x$ is purely periodic. More precisely, the smallest period of $x$ is the least such $n$.*
 
-*Proof.* Let $n$ be the least integer such that $a_x(n)=1$, that is, all the factors of $x$ of length $n$ have the same Parikh vector. In particular, the prefix $x_1x_2\cdots x_n$ of length $n$ of $x$ has the same Parikh vector as the factor $x_2x_3\cdots x_{n+1}$. This implies that $x_{n+1}=x_1$. Analogously, one deduces that $x_{n+2}=x_2$ and so on. We therefore have that $x$ has period $n$. \hfill$\square$
+*Proof.* Let $n$ be the least integer such that $a_x(n)=1$, that is, all the factors of $x$ of length $n$ have the same Parikh vector. In particular, the prefix $x_1x_2\cdots x_n$ of length $n$ of $x$ has the same Parikh vector as the factor $x_2x_3\cdots x_{n+1}$. This implies that $x_{n+1}=x_1$. Analogously, one deduces that $x_{n+2}=x_2$ and so on. We therefore have that $x$ has period $n$. $\square$
 
 The maximal abelian complexity is realized, for example, by words with full factor complexity, like, e.g., the *binary Champernowne word* $0\,1\,10\,11\,100\,101\,110\,111\cdots$ obtained by concatenating the binary expansions of the natural numbers in the natural order (with zero represented by $0$). We have:
 
@@ -184,7 +184,7 @@ $$1\leq a_x(n)\leq\binom{n+d-1}{d-1}.$$
 
 *In particular, the abelian complexity is bounded by $O(n^d)$.*
 
-*Proof.* The maximum value of the abelian complexity of a word over $\Sigma_d$ is the maximum number of ways of writing $n$ as the sum of $d$ nonnegative integers. This well-known number is called the number of compositions of $n$ into $d$ parts and its value is given by the binomial coefficient $\binom{n+d-1}{d-1}$. \hfill$\square$
+*Proof.* The maximum value of the abelian complexity of a word over $\Sigma_d$ is the maximum number of ways of writing $n$ as the sum of $d$ nonnegative integers. This well-known number is called the number of compositions of $n$ into $d$ parts and its value is given by the binomial coefficient $\binom{n+d-1}{d-1}$. $\square$
 
 However, there exist infinite binary words having maximal abelian complexity but linear factor complexity. For example, take the alphabet $\Delta=\{a,b,c\}$ and let $f$ and $g$ be the morphisms defined by $f(a)=abc$, $f(b)=bbb$, $f(c)=ccc$, $g(a)=0=g(c)$ and $g(b)=1$. Let $x$ be the fixed point of $f$ beginning in $a$. Then the image of $x$ under $g$ is the word
 
@@ -196,7 +196,7 @@ The word $x'$ has maximal abelian complexity but linear factor complexity.
 
 *The balance function of $w$ is the function*
 
-$$B_w(n)=\max_{a\in\Sigma_d}\ \ \max_{u,v\in\Fact(w)\cap\Sigma_d^n}\bigl||u|_a-|v|_a\bigr|.$$
+$$B_w(n)=\max_{a\in\Sigma_d}\ \ \max_{u,v\in\operatorname{Fact}(w)\cap\Sigma_d^n}\bigl||u|_a-|v|_a\bigr|.$$
 
 *Clearly, a word is $C$-balanced if and only if its balance function is bounded by $C$.*
 
@@ -354,19 +354,19 @@ If one considers only abelian squares that are not abelian equivalent, then it c
 
 For other open problems on abelian squares the reader is referenced to [141].
 
-The largest number of distinct abelian square factors in an infinite word has also been studied. We need some notation. Given a finite or infinite word $w$, we let $\AS_{n}(w)$ denote the number of distinct abelian-square factors of $w$ of length $n$. Of course, $\AS_{n}(w)=0$ if $n$ is odd, so this quantity is significant only for even values of $n$. Furthermore, for a finite word $w$ of length $n$, we let $\AS(w)=\sum_{m\leq n}\AS_{m}(w)$ denote the total number of distinct abelian-square factors, of all lengths, in $w$.
+The largest number of distinct abelian square factors in an infinite word has also been studied. We need some notation. Given a finite or infinite word $w$, we let $\operatorname{AS}_{n}(w)$ denote the number of distinct abelian-square factors of $w$ of length $n$. Of course, $\operatorname{AS}_{n}(w)=0$ if $n$ is odd, so this quantity is significant only for even values of $n$. Furthermore, for a finite word $w$ of length $n$, we let $\operatorname{AS}(w)=\sum_{m\leq n}\operatorname{AS}_{m}(w)$ denote the total number of distinct abelian-square factors, of all lengths, in $w$.
 
 **Definition 4.** An infinite word $w$ is *abelian-square-rich* if there exists a positive constant $C$ such that for every $n$ one has
 
 $$
-\frac{1}{p_{w}(n)}\sum_{v\in\Fact(w)\cap\Sigma^{n}}\AS(v)\geq Cn^{2}.
+\frac{1}{p_{w}(n)}\sum_{v\in\operatorname{Fact}(w)\cap\Sigma^{n}}\operatorname{AS}(v)\geq Cn^{2}.
 $$
 
 Christodoulakis et al. [31] proved that a binary word of length $n$ contains $\Theta(n\sqrt{n})$ distinct abelian-square factors on average; hence a random infinite binary word is almost surely not abelian-square-rich.
 
 In an abelian-square-rich word the number of distinct abelian squares contained in any factor is, on average, quadratic in the length of the factor. A stronger condition is that every factor contains a quadratic number of distinct abelian squares:
 
-**Definition 5.** An infinite word $w$ is uniformly abelian-square-rich if there exists a positive constant $C$ such that $\AS(v)\geq C|v|^{2}$ for all $v\in\Fact(w)$.
+**Definition 5.** An infinite word $w$ is uniformly abelian-square-rich if there exists a positive constant $C$ such that $\operatorname{AS}(v)\geq C|v|^{2}$ for all $v\in\operatorname{Fact}(w)$.
 
 Clearly, if a word is uniformly abelian-square-rich, then it is also abelian-square-rich, but the converse is not always true. However, in the case of linearly recurrent words, the two definitions are equivalent. Moreover, a uniformly abelian-square-rich word is always $\beta$-free for some $\beta$ [57]. Examples of uniformly abelian-square-rich words are the Thue–Morse word and the Fibonacci word.
 
@@ -550,7 +550,7 @@ This kind of factor can be regarded as a fractional abelian power of exponent $\
 
 There are several other natural generalizations of the notion of a fractional power to the abelian case. For two Parikh vectors $\mathcal{P}(u)$ and $\mathcal{P}(v)$, we write $\mathcal{P}(u)\subseteq\mathcal{P}(v)$ if $\mathcal{P}(u)$ is component-wise smaller than or equal to $\mathcal{P}(v)$. A word $uv$ is called an *abelian inclusion* if $\mathcal{P}(u)\subseteq\mathcal{P}(v)$. Consider a word of the form $w=w_1\cdots w_m v$, where $w_1\sim_{ab}\cdots\sim_{ab}w_m$, and $\mathcal{P}(v)\subseteq\mathcal{P}(w_1)$ (hence $\mathcal{P}(v)\subseteq\mathcal{P}(w_i)$ for every $i$). A word of this form can be considered as a fractional abelian repetition of exponent $m+\frac{|v|}{|w_1|}$.
 
-In [137], three versions of the notion of fractional abelian repetition are considered: in a weak form, i.e., without additional restrictions; in a strong form, i.e., with a requirement that $\Pref_{|v|}(w_1)\sim_{ab}v$; and in a semi-strong form, i.e., with a requirement that $\mathcal{P}(v)\subseteq\bigvee_{i=1}^{m}\mathcal{P}(\Pref_{|v|}(w_i))$, where $\bigvee$ is the operation of taking the maximum componentwise. The authors found lower and upper bounds for abelian repetition thresholds, some of which are conjectured to be tight.
+In [137], three versions of the notion of fractional abelian repetition are considered: in a weak form, i.e., without additional restrictions; in a strong form, i.e., with a requirement that $\operatorname{Pref}_{|v|}(w_1)\sim_{ab}v$; and in a semi-strong form, i.e., with a requirement that $\mathcal{P}(v)\subseteq\bigvee_{i=1}^{m}\mathcal{P}(\operatorname{Pref}_{|v|}(w_i))$, where $\bigvee$ is the operation of taking the maximum componentwise. The authors found lower and upper bounds for abelian repetition thresholds, some of which are conjectured to be tight.
 
 In [7], the authors considered avoiding abelian inclusions. For two words $u$ and $v$, we say that $v$ *majorizes* $u$ if for each letter $a\in\Sigma$, $|u|_a\leq|v|_a$, i.e., if $\mathcal{P}(u)\subseteq\mathcal{P}(v)$. Let us fix a function $f(l):\mathbb{N}\to\mathbb{R}$ and call a word $w=uv$ an $f(l)$-inclusion if $v$ majorizes $u$ and $|v|\leq|u|+f(|u|)$. As usual, we say that a word avoids $f(l)$-inclusions if none of its factors is an $f(l)$-inclusion.
 
@@ -653,7 +653,7 @@ We now discuss abelian versions of another classical periodicity result, a centr
 
 A similar result holds for powers to the left of each position, although in this case a square is not enough to guarantee periodicity, but the threshold is given by the golden ratio:
 
-**Theorem 34 ([102]).** A right-infinite word $x$ is ultimately periodic if and only if there exists $n_0$ such that for every $n\geq n_0$ the word $\Pref_n(x)$ has a $\varphi^2$-suffix, where $\varphi=(1+\sqrt{5})/2$.
+**Theorem 34 ([102]).** A right-infinite word $x$ is ultimately periodic if and only if there exists $n_0$ such that for every $n\geq n_0$ the word $\operatorname{Pref}_n(x)$ has a $\varphi^2$-suffix, where $\varphi=(1+\sqrt{5})/2$.
 
 This bound is optimal; an example of an aperiodic word with $(\varphi^2-\varepsilon)$-suffix at each position is given by the Fibonacci word.
 
@@ -990,7 +990,7 @@ Similarly to Theorem 19 in the abelian case, the following has been shown:
 
 #### 8.1.2 Complexity
 
-Given an infinite word $x$, we consider the associated complexity function $p_x^{(k)}=\left|(\Fact(x)\cap\Sigma_d^n)/\sim_k\right|$, which counts the number of $k$-abelian equivalence classes of factors of $x$ of length $n$.
+Given an infinite word $x$, we consider the associated complexity function $p_x^{(k)}=\left|(\operatorname{Fact}(x)\cap\Sigma_d^n)/\sim_k\right|$, which counts the number of $k$-abelian equivalence classes of factors of $x$ of length $n$.
 
 **Theorem 66.** *[82] Let $k$ be a positive integer and $x$ an aperiodic word. The following conditions are equivalent:*
 
@@ -1219,21 +1219,21 @@ However, the size of the alphabet to avoid additive cubes considered in the prev
 
 $$
 h_{add}:\left\{
-\begin{array}{rcl@{\qquad\qquad}rcl}
+\begin{array}{rclrcl}
 \begin{pmatrix}0\\0\end{pmatrix}&\to&
 \begin{pmatrix}0\\0\end{pmatrix}\begin{pmatrix}2\\1\end{pmatrix}\begin{pmatrix}2\\0\end{pmatrix}
 &
-\begin{pmatrix}1\\1\end{pmatrix}&\to&
+\qquad\qquad\begin{pmatrix}1\\1\end{pmatrix}&\to&
 \begin{pmatrix}0\\0\end{pmatrix}\begin{pmatrix}0\\1\end{pmatrix}\begin{pmatrix}1\\0\end{pmatrix}\\
 \begin{pmatrix}2\\1\end{pmatrix}&\to&
 \begin{pmatrix}1\\1\end{pmatrix}\begin{pmatrix}0\\1\end{pmatrix}\begin{pmatrix}1\\0\end{pmatrix}
 &
-\begin{pmatrix}0\\1\end{pmatrix}&\to&
+\qquad\qquad\begin{pmatrix}0\\1\end{pmatrix}&\to&
 \begin{pmatrix}1\\1\end{pmatrix}\begin{pmatrix}0\\1\end{pmatrix}\begin{pmatrix}2\\1\end{pmatrix}\\
 \begin{pmatrix}2\\0\end{pmatrix}&\to&
 \begin{pmatrix}0\\0\end{pmatrix}\begin{pmatrix}1\\0\end{pmatrix}\begin{pmatrix}2\\0\end{pmatrix}
 &
-\begin{pmatrix}1\\0\end{pmatrix}&\to&
+\qquad\qquad\begin{pmatrix}1\\0\end{pmatrix}&\to&
 \begin{pmatrix}1\\1\end{pmatrix}\begin{pmatrix}2\\1\end{pmatrix}\begin{pmatrix}2\\0\end{pmatrix}
 \end{array}
 \right.

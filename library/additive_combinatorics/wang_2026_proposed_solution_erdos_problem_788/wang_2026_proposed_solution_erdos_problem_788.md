@@ -458,7 +458,7 @@ $$
 Q = \max\{2,\ell,\lceil\sqrt{m}\rceil\}.
 $$
 
-Bertrand's postulate gives $q<2Q$ [10]. Choose an $\ell$-set $X \subseteq \mathbb{F}_q$ and use the universe $X \times \mathbb{F}_q. There are $q^2 \geq m$ affine functions $x \mapsto ax+b$; select any $m$ distinct ones and associate to $(a,b)$ its graph
+Bertrand's postulate gives $q<2Q$ [10]. Choose an $\ell$-set $X \subseteq \mathbb{F}_q$ and use the universe $X \times \mathbb{F}_q$. There are $q^2 \geq m$ affine functions $x \mapsto ax+b$; select any $m$ distinct ones and associate to $(a,b)$ its graph
 
 $$
 S_{a,b} = \{(x, ax+b) : x \in X\}.

@@ -24,7 +24,7 @@ Our plan is to show that each integer $r$, $1<r\leq k$, occurs exactly once as o
 
 Let $S=n+1,\ldots,n+k$ be a sequence where $n+i=a_i b_i$, $a_i\leq k$, and all prime factors of $b_i$ are greater than $k$.
 
-Consider first an integer $r$ such that $k/2<r\leq k$. In any sequence of $k$ consecutive integers, there are one or two multiples of $r$. Suppose there were two such multiples of $r$ in $S$. Then one of these would be divisible by $2r$, so $2r would divide one of the $a$'s, which is impossible since $2r>k$. Thus exactly one of the elements of $S$ is a multiple of $r$. Let $n+j=rq$. Then $r=a_j$, and $q=b_j$.
+Consider first an integer $r$ such that $k/2<r\leq k$. In any sequence of $k$ consecutive integers, there are one or two multiples of $r$. Suppose there were two such multiples of $r$ in $S$. Then one of these would be divisible by $2r$, so $2r$ would divide one of the $a$'s, which is impossible since $2r>k$. Thus exactly one of the elements of $S$ is a multiple of $r$. Let $n+j=rq$. Then $r=a_j$, and $q=b_j$.
 
 In the general case, consider integers $r$ and $s$ such that $k/(s+1)<r\leq k/s$ where $s\leq k/2$. In any sequence of $k$ consecutive integers there are $s$ or $s+1$ consecutive multiples of $r$. Suppose there were $s+1$ such multiples in $S$. Then one of these and its corresponding $a$ would be divisible by $(s+1)r$. But $(s+1)r>k$ so this $a$ would be greater than $k$ which violates property (i). Thus there are exactly $s$ elements of $S$ which are multiples of $r$.
 

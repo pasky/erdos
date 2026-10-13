@@ -70,11 +70,7 @@ The classical geometry-of-numbers antecedent is Minkowski’s second theorem on 
 
 **Lemma 2.3** (Covolumes of integral planes). *Let $y\in\mathbb Z^3$ be primitive, meaning that its coordinates have greatest common divisor one. Then $L_y=\mathbb Z^3\cap y^\perp$ has determinant $|y|$. More generally, if $\Lambda\subseteq\mathbb Z^3$ is a full-rank lattice of index $I$ and $y\cdot\Lambda=g\mathbb Z$ with $g>0$, then $$\det(\Lambda\cap y^\perp)=\frac{I|y|}{g}.$$*
 
-*Proof.* Choose $u\in\Lambda$ with $y\cdot u=g$. The map $v\mathrel{%
-  \BeginAccSupp{method=hex,unicode,ActualText=21A6}%
-  \OriginalMapsto\EndAccSupp{}}y\cdot v/g$ maps $\Lambda$ onto $\mathbb Z$, has kernel $\Lambda\cap y^\perp$, and splits by $1\mathrel{%
-  \BeginAccSupp{method=hex,unicode,ActualText=21A6}%
-  \OriginalMapsto\EndAccSupp{}}u$. Hence a basis of the kernel together with $u$ is a basis of $\Lambda$. The height of $u$ above $y^\perp$ is $g/|y|$, which proves the formula. For $\Lambda=\mathbb Z^3$, primitivity gives $g=1$. ◻
+*Proof.* Choose $u\in\Lambda$ with $y\cdot u=g$. The map $v\mapsto y\cdot v/g$ maps $\Lambda$ onto $\mathbb Z$, has kernel $\Lambda\cap y^\perp$, and splits by $1\mapsto u$. Hence a basis of the kernel together with $u$ is a basis of $\Lambda$. The height of $u$ above $y^\perp$ is $g/|y|$, which proves the formula. For $\Lambda=\mathbb Z^3$, primitivity gives $g=1$. ◻
 
 We next count matrices with unequal column bounds. The difficult case occurs when the third-column radius reaches only one direction of its integral plane; we count those planes through their shortest vectors.
 
@@ -101,9 +97,7 @@ For each of these normals, all eligible third columns lie on the line of a short
 
 *Proof.* Let $V$ be the matrix whose rows are the successive shortest vectors $v_1,v_2,v_3$, and let $\Lambda_0$ be their integer span. By Lemma 2.1, $$m=[\Lambda:\Lambda_0]=\frac{|\det V|}{I}\le3^{3/2}.$$ Since the finite group $\Lambda/\Lambda_0$ has order $m$, each $u\in\Lambda$ has coordinates in $m^{-1}\mathbb Z$ relative to this basis. If $u=\sum_j\alpha_jv_j$ and $|u|\le X$, Cramer’s rule gives $$|\alpha_j|
  \le\frac{X\prod_{i\ne j}\lambda_i}{|\det V|}
- \le 3^{3/2}\frac{X}{\lambda_j}.$$ Thus the map $A\mathrel{%
-  \BeginAccSupp{method=hex,unicode,ActualText=21A6}%
-  \OriginalMapsto\EndAccSupp{}}Q=mAV^{-1}$ is injective and takes the matrices under consideration to integral matrices. Their common determinant is $m^3t/\det V\ne0$. If this number is not an integer, there are no such matrices; otherwise Lemma 2.4 applies.
+ \le 3^{3/2}\frac{X}{\lambda_j}.$$ Thus the map $A\mapsto Q=mAV^{-1}$ is injective and takes the matrices under consideration to integral matrices. Their common determinant is $m^3t/\det V\ne0$. If this number is not an integer, there are no such matrices; otherwise Lemma 2.4 applies.
 
 The $j$th column of $Q$ has length at most $R_j=C_0X/\lambda_j$, where $C_0$ is an absolute constant chosen sufficiently large. These radii satisfy $R_1\ge R_2\ge R_3\ge1$. Moreover, integrality of $\Lambda$ gives $\lambda_j\ge1$, and Lemma 2.1 gives $$R_j\le C_0X,\qquad
  R_1R_2R_3=\frac{C_0^3X^3}{\lambda_1\lambda_2\lambda_3}
@@ -119,13 +113,9 @@ Fix $$\begin{equation}
 \tag{3.1}
  d=41,\qquad M=\binom{4d-1}{d},\qquad
  T=\binom{M}{3},\qquad k=T^2+1.
-\end{equation}$$ Let $r$ be an odd prime. We recall the elementary finite-field facts needed here; see (Lidl and Niederreiter 1994, chap. 2) for background. In a splitting field over $\mathbb F_r$, the roots of $X^{r^d}-X$ form a field: the Frobenius identity shows closure under addition, subtraction and multiplication, and nonzero roots are closed under inversion. The derivative is $-1$, so there are exactly $r^d$ distinct roots. This field, denoted $K=\mathbb F_{r^d}$, consequently has dimension $d$ over $\mathbb F_r$. Its automorphism $t\mathrel{%
-  \BeginAccSupp{method=hex,unicode,ActualText=21A6}%
-  \OriginalMapsto\EndAccSupp{}}t^r$ has $d$th power equal to the identity, and its fixed elements are exactly the $r$ roots of $X^r-X$, namely $\mathbb F_r$. For $t\in K$, the product $\prod_{j=0}^{d-1}t^{r^j}$ is therefore fixed by Frobenius and belongs to $\mathbb F_r$; it is nonzero if $t\ne0$. Choose an $\mathbb F_r$-basis $\beta_1,\ldots,\beta_d$ of $K$. For a group $X=(X_{i\nu})_{1\le i\le3,\,1\le\nu\le d}$ of $3d$ variables, define $$Z(X)=\left(\sum_{\nu=1}^d\beta_\nu X_{1\nu},
+\end{equation}$$ Let $r$ be an odd prime. We recall the elementary finite-field facts needed here; see (Lidl and Niederreiter 1994, chap. 2) for background. In a splitting field over $\mathbb F_r$, the roots of $X^{r^d}-X$ form a field: the Frobenius identity shows closure under addition, subtraction and multiplication, and nonzero roots are closed under inversion. The derivative is $-1$, so there are exactly $r^d$ distinct roots. This field, denoted $K=\mathbb F_{r^d}$, consequently has dimension $d$ over $\mathbb F_r$. Its automorphism $t\mapsto t^r$ has $d$th power equal to the identity, and its fixed elements are exactly the $r$ roots of $X^r-X$, namely $\mathbb F_r$. For $t\in K$, the product $\prod_{j=0}^{d-1}t^{r^j}$ is therefore fixed by Frobenius and belongs to $\mathbb F_r$; it is nonzero if $t\ne0$. Choose an $\mathbb F_r$-basis $\beta_1,\ldots,\beta_d$ of $K$. For a group $X=(X_{i\nu})_{1\le i\le3,\,1\le\nu\le d}$ of $3d$ variables, define $$Z(X)=\left(\sum_{\nu=1}^d\beta_\nu X_{1\nu},
              \sum_{\nu=1}^d\beta_\nu X_{2\nu},
-             \sum_{\nu=1}^d\beta_\nu X_{3\nu}\right)^{\mathsf T}.$$ For three disjoint variable groups $X^{(1)},X^{(2)},X^{(3)}$, put $$\mathcal D=\det\bigl(Z(X^{(1)}),Z(X^{(2)}),Z(X^{(3)})\bigr).$$ Let $\sigma$ act on this polynomial ring by applying $c\mathrel{%
-  \BeginAccSupp{method=hex,unicode,ActualText=21A6}%
-  \OriginalMapsto\EndAccSupp{}}c^r$ to coefficients in $K$ and fixing every variable. Define $$\begin{equation}
+             \sum_{\nu=1}^d\beta_\nu X_{3\nu}\right)^{\mathsf T}.$$ For three disjoint variable groups $X^{(1)},X^{(2)},X^{(3)}$, put $$\mathcal D=\det\bigl(Z(X^{(1)}),Z(X^{(2)}),Z(X^{(3)})\bigr).$$ Let $\sigma$ act on this polynomial ring by applying $c\mapsto c^r$ to coefficients in $K$ and fixing every variable. Define $$\begin{equation}
 \tag{3.2}
  \mathcal N(X^{(1)},X^{(2)},X^{(3)})
    =\prod_{j=0}^{d-1}\sigma^j(\mathcal D).
@@ -248,9 +238,7 @@ For every unit $u\in R_h^\times$ with $u\equiv1\pmod{h/E}$, the matrix $\operato
 The determinant map from $\mathcal G$ onto $R_h^\times$ has kernel $\operatorname{SL}_3(R_h)$. Applying the orbit–stabilizer formula in these two groups gives the exact identity $$\frac{|\mathcal O_C|}{|\mathcal G C|}
  =\frac{|\det\mathcal H|}{|R_h^\times|}.$$ Reduction modulo $B$ shows that $$|\mathcal G|
  =h^9(1-B^{-1})(1-B^{-2})(1-B^{-3})
- \geq\frac{21}{64}h^9.$$ Together with (4.3) and (4.4), this proves (4.2), for example with $c_0=21/64$. Every fiber of the map $G\mathrel{%
-  \BeginAccSupp{method=hex,unicode,ActualText=21A6}%
-  \OriginalMapsto\EndAccSupp{}}GC$ is a coset of its stabilizer, which proves uniformity. The assertions about row spans and determinants follow directly from invertibility and $\det G=1$. ◻
+ \geq\frac{21}{64}h^9.$$ Together with (4.3) and (4.4), this proves (4.2), for example with $c_0=21/64$. Every fiber of the map $G\mapsto GC$ is a coset of its stabilizer, which proves uniformity. The assertions about row spans and determinants follow directly from invertibility and $\det G=1$. ◻
 
 We next estimate the smaller divisor $D$ for digit columns. Only the independence and number of digit choices matter here; their prescribed residues may be arbitrary functions of the labels.
 
@@ -351,9 +339,7 @@ For an integer $3\times3$ matrix $A$, define $$\begin{equation}
  \end{aligned}
 \end{equation}$$ If $W(A)>0$, no column of $A\bmod q$ is zero, and its columns are either affinely independent or include two equal columns. For an affinely independent triple with $W(A)>0$, there is no nonzero $x\in\mathbb Z^3$ with $|x|\le H$ and $Ax=0\bmod q$.*
 
-*Proof.* First replace the allowed shift by an unconditional uniform $a\in\mathbb F_q^3$. Under this replacement the map $v\mathrel{%
-  \BeginAccSupp{method=hex,unicode,ActualText=21A6}%
-  \OriginalMapsto\EndAccSupp{}}G_qv+G_qa$ is uniform in the affine group: conditional on $G_q$, its translation $G_qa$ is uniform. Conditioning back on $a\in\mathcal A$ increases the probability of any event by at most two, by Lemma 5.2.
+*Proof.* First replace the allowed shift by an unconditional uniform $a\in\mathbb F_q^3$. Under this replacement the map $v\mapsto G_qv+G_qa$ is uniform in the affine group: conditional on $G_q$, its translation $G_qa$ is uniform. Conditioning back on $a\in\mathcal A$ increases the probability of any event by at most two, by Lemma 5.2.
 
 The affine group acts transitively on the ordered affinely independent triples in $\mathbb F_q^3$, whose number is $$q^3(q^3-1)(q^3-q).$$ There are $s(s-1)(s-2)$ such triples in $S$. Therefore, for an affinely independent triple of columns, $$W(A)\le
  2\frac{q^9}{s^3}
@@ -512,9 +498,7 @@ If $W(A)>0$ and the columns of $A\bmod q$ are affinely independent, Lemma 5.2 e
 
 ##### An equal pair with an additional equation.
 
-Every other matrix of positive weight has two equal columns modulo $q$. Fix one pair $i<j$ with this property, and put $\delta=\mathbf e_i-\mathbf e_j$, where the $\mathbf e_i$ are the standard basis vectors. Summing over the three pairs only changes the implied constant. First suppose that $\bar x\notin\mathbb F_q\delta$. The functional $v\mathrel{%
-  \BeginAccSupp{method=hex,unicode,ActualText=21A6}%
-  \OriginalMapsto\EndAccSupp{}}v\cdot\delta$ is nonzero on $\Pi_x$: the annihilator of $\Pi_x$ is precisely $\mathbb F_q\bar x$. By Lemma 7.2, the rows of $A$ therefore belong to the index-$q$ sublattice $$\{v\in\Lambda_x:v_i=v_j\pmod q\}.$$ There are $O(R^3)$ integral $x$ in any shell. Using (7.6) with $m=q$, the pointwise bound $g(x)^3\le Ih^2$, and $W(A)\ll(q^3/s)^2$, the contribution is at most $$\begin{equation}
+Every other matrix of positive weight has two equal columns modulo $q$. Fix one pair $i<j$ with this property, and put $\delta=\mathbf e_i-\mathbf e_j$, where the $\mathbf e_i$ are the standard basis vectors. Summing over the three pairs only changes the implied constant. First suppose that $\bar x\notin\mathbb F_q\delta$. The functional $v\mapsto v\cdot\delta$ is nonzero on $\Pi_x$: the annihilator of $\Pi_x$ is precisely $\mathbb F_q\bar x$. By Lemma 7.2, the rows of $A$ therefore belong to the index-$q$ sublattice $$\{v\in\Lambda_x:v_i=v_j\pmod q\}.$$ There are $O(R^3)$ integral $x$ in any shell. Using (7.6) with $m=q$, the pointwise bound $g(x)^3\le Ih^2$, and $W(A)\ll(q^3/s)^2$, the contribution is at most $$\begin{equation}
 \tag{7.8}
  \ll \frac{N^6}{I^2}\,h^2q^{-3}(q^3/s)^2
  \ll \frac{N^6}{I^2}\,\frac{h^{26}}q

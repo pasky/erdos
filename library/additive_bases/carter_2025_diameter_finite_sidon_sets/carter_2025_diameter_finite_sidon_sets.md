@@ -16,10 +16,10 @@ $$
 
 except for the trivial types $a=b, c=d$ and $a=c, b=d$. These sets are also called Babcock sequences [Bab53; JP76], Golomb rulers [Gar72; RD17] and $B_{2}$ sets [Sid32; ET41]. All intervals in this paper are intervals of integers; for example, $[1,4)=\{1,2,3\}$.
 
-The first question asked by Sidon was to bound $k=|\mathcal{A}|$, subject to the constraints that $\mathcal{A}$ is a Sidon set contained in $[0,n)$ [Sid32]; we set $R(n)$ to be the maximum cardinality of a Sidon set contained in $[0,n)$. Equivalently, one can ask for a bound on $\diam(\mathcal{A}):=\max\mathcal{A}-\min\mathcal{A}$ in terms of $k$. In 1938, Singer constructed Sidon sets with $k=q+1$ elements, where $q$ is any prime power, and diameter less than $k^{2}-k$ [Sin38]. In 1941, Erdős and Turán proved an inequality that implies that the diameter of a $k$-element Sidon set must be at least $k^{2}-2k^{3/2}-O(k)$; equivalently, $R(n)\leq n^{1/2}+n^{1/4}+O(1)$ [ET41] (though in their paper the constant on $k^{3/2}$ or $n^{1/4}$ was not given explicitly). We define
+The first question asked by Sidon was to bound $k=|\mathcal{A}|$, subject to the constraints that $\mathcal{A}$ is a Sidon set contained in $[0,n)$ [Sid32]; we set $R(n)$ to be the maximum cardinality of a Sidon set contained in $[0,n)$. Equivalently, one can ask for a bound on $\operatorname{diam}(\mathcal{A}):=\max\mathcal{A}-\min\mathcal{A}$ in terms of $k$. In 1938, Singer constructed Sidon sets with $k=q+1$ elements, where $q$ is any prime power, and diameter less than $k^{2}-k$ [Sin38]. In 1941, Erdős and Turán proved an inequality that implies that the diameter of a $k$-element Sidon set must be at least $k^{2}-2k^{3/2}-O(k)$; equivalently, $R(n)\leq n^{1/2}+n^{1/4}+O(1)$ [ET41] (though in their paper the constant on $k^{3/2}$ or $n^{1/4}$ was not given explicitly). We define
 
 $$
-b_{\infty}:=\limsup_{k\to\infty}\frac{k^{2}-\diam(\mathcal{A}_{k})}{k^{3/2}}
+b_{\infty}:=\limsup_{k\to\infty}\frac{k^{2}-\operatorname{diam}(\mathcal{A}_{k})}{k^{3/2}}
 $$
 
 $^{*}$Princeton University, email: dc65@princeton.edu  
@@ -45,7 +45,7 @@ using a simplified version of the main result.
 
 Finally, in Section 4, we consider $g$-thin Sidon sets (also called $g$-Golomb rulers [CMT15]): a set $\mathcal{A}$ is a $g$-thin Sidon set if for each $x\neq 0$ there are at most $g$ pairs $(a,b)\in\mathcal{A}^{2}$ with $x=a-b$. In [BFR23], Balogh–Füredi–Roy note that their method also gives an improved bound on the diameter of $g$-thin Sidon sets, but they didn’t make the improvement explicit. Our method gives the bound that if $\mathcal{A}$ is a $g$-thin Sidon set, then
 
-$$\diam(\mathcal{A})\geq\frac{1}{g}k^{2}-\frac{2-\varepsilon}{g}k^{3/2}-O(k)$$
+$$\operatorname{diam}(\mathcal{A})\geq\frac{1}{g}k^{2}-\frac{2-\varepsilon}{g}k^{3/2}-O(k)$$
 
 with $\varepsilon\geq\frac{1}{50g^{2}}$. Here, the constant $1/50$ is not optimized.
 
@@ -55,15 +55,15 @@ Two inequalities are used in the original Erdős–Turán proof. One can name th
 
 **Theorem 1.1 (ETSSE [OBr22]).** Let $\mathcal{A}$ be a finite Sidon set and $T$ be a positive integer. Then
 
-$$\diam(\mathcal{A})=\frac{|\mathcal{A}|^{2}T^{2}}{T(T+|\mathcal{A}|-1)-(2S(\mathcal{A},T)+V(\mathcal{A},T))}-T$$
+$$\operatorname{diam}(\mathcal{A})=\frac{|\mathcal{A}|^{2}T^{2}}{T(T+|\mathcal{A}|-1)-(2S(\mathcal{A},T)+V(\mathcal{A},T))}-T$$
 
 where we define $A_i^{(T)}=|\mathcal{A}\cap[i-T,i)|$,
 
 $$
-S(\mathcal{A},T)=\sum_{\begin{subarray}{c}r=1\\r\not\in\mathcal{A}-\mathcal{A}\end{subarray}}^{T-1}(T-r),\qquad\text{and}\qquad V(\mathcal{A},T)=\sum_{i=\min(\mathcal{A})+1}^{T+\max(\mathcal{A})}\left(A_i^{(T)}-\frac{|\mathcal{A}|T}{T+\diam(\mathcal{A})}\right)^2.
+S(\mathcal{A},T)=\sum_{\begin{subarray}{c}r=1\\r\not\in\mathcal{A}-\mathcal{A}\end{subarray}}^{T-1}(T-r),\qquad\text{and}\qquad V(\mathcal{A},T)=\sum_{i=\min(\mathcal{A})+1}^{T+\max(\mathcal{A})}\left(A_i^{(T)}-\frac{|\mathcal{A}|T}{T+\operatorname{diam}(\mathcal{A})}\right)^2.
 $$
 
-In Section 4, we generalize this result to $g$-thin Sidon sets. The trivial bounds $S(\mathcal{A},T)\geq 0,V(\mathcal{A},T)\geq 0$, and setting $T=\lceil k^{3/2}\rceil$ allow one to quickly get $\diam(\mathcal{A})\geq k^2-2k^{3/2}-O(k)$, as is done explicitly in [OBr22]; this is not fundamentally different from the 1941 work [ET41].
+In Section 4, we generalize this result to $g$-thin Sidon sets. The trivial bounds $S(\mathcal{A},T)\geq 0,V(\mathcal{A},T)\geq 0$, and setting $T=\lceil k^{3/2}\rceil$ allow one to quickly get $\operatorname{diam}(\mathcal{A})\geq k^2-2k^{3/2}-O(k)$, as is done explicitly in [OBr22]; this is not fundamentally different from the 1941 work [ET41].
 
 Using the dataset of Rokicki and Dogon [RD17], it seems that $S$ is usually much smaller than $V$ for optimal Sidon sets, and that about half of the value of $V$ comes from the first and last $T$ values of $i$, i.e., near the two ends of the Sidon set (see [OBr22] for a detailed analysis). In this work, we focus all attention to bounding $V$ near the ends of the Sidon set, and dismiss $S$ by using the trivial bound $S(\mathcal{A},T)\geq 0$. Additionally, we will always set $T$ to be some constant times $k^{3/2}$, and the bounds on $V(\mathcal{A},T)$ obtained are of the form $V(\mathcal{A},T)\geq vk^{5/2}-O(k^2)$ for some $v$. With this in mind, we simplify the ETSSE to the following:
 
@@ -77,7 +77,7 @@ $$
 
 $$
 \begin{aligned}
-\diam(\mathcal{A})&\geq\frac{\tau^2k^5+O(k^{7/2})}{\tau^2k^3+(\tau-v)k^{5/2}+O(k^2)}-\tau k^{3/2}-O(1)\\
+\operatorname{diam}(\mathcal{A})&\geq\frac{\tau^2k^5+O(k^{7/2})}{\tau^2k^3+(\tau-v)k^{5/2}+O(k^2)}-\tau k^{3/2}-O(1)\\
 &=k^2-\left(\frac{1}{\tau}-\frac{v}{\tau^2}\right)k^{3/2}-\tau k^{3/2}-O(k)
 \end{aligned}
 $$
@@ -86,9 +86,9 @@ and the result follows by taking the limit as $k\to\infty$. $\square$
 
 The bounds we obtain on $b_\infty$ do not come from considering a single value of $T$. Indeed, for any particular value of $T$, one can construct a sequence of $\mathcal{A}$ with $k\to\infty$ so that the best possible value of $v$ in the corollary above is 0. Instead, we come up with multiple bounds on $v$ for different window sizes $T$, so that if a bound on $v$ is poor for one value of $T$, a different $T$ gives a good bound on $v$.
 
-Many results about finite Sidon sets are presented by bounding $R(n)$ rather than $\diam(\mathcal{A})$. The following proposition is a simple calculation and shows how to convert between the two forms:
+Many results about finite Sidon sets are presented by bounding $R(n)$ rather than $\operatorname{diam}(\mathcal{A})$. The following proposition is a simple calculation and shows how to convert between the two forms:
 
-**Proposition 1.3.** We have $R(n)\leq n^{1/2}+\frac{c}{2}n^{1/4}+O(1)$ if and only if $\diam(\mathcal{A})\geq k^2-ck^{3/2}-O(k)$ for all Sidon sets $\mathcal{A}$ with $|\mathcal{A}|=k$. Also, $R(n)\leq n^{1/2}+\frac{c}{2}n^{1/4}+o(n^{1/4})$ is equivalent to $\diam(\mathcal{A})\geq k^2-ck^{3/2}-o(k^{3/2})$. $\square$
+**Proposition 1.3.** We have $R(n)\leq n^{1/2}+\frac{c}{2}n^{1/4}+O(1)$ if and only if $\operatorname{diam}(\mathcal{A})\geq k^2-ck^{3/2}-O(k)$ for all Sidon sets $\mathcal{A}$ with $|\mathcal{A}|=k$. Also, $R(n)\leq n^{1/2}+\frac{c}{2}n^{1/4}+o(n^{1/4})$ is equivalent to $\operatorname{diam}(\mathcal{A})\geq k^2-ck^{3/2}-o(k^{3/2})$. $\square$
 
 Erdős asked if $R(n)=n^{1/2}+o(n^{1/4})$. By the above proposition, this is equivalent to proving that $b_{\infty}=0$, which by a slight modification to Corollary 1.2 could be done if one was able to prove
 
@@ -105,7 +105,7 @@ The goal in this section is to show:
 **Theorem 2.1.** *Let $\mathcal{A}$ be a finite Sidon set with $k$ elements. Then*
 
 $$
-\diam(\mathcal{A})\geq k^2-1.99058k^{3/2}-O(k).
+\operatorname{diam}(\mathcal{A})\geq k^2-1.99058k^{3/2}-O(k).
 $$
 
 The proof will demonstrate most of the main ideas in the later computer-assisted bound $b_{\infty}\geq 1.96365$.
@@ -113,17 +113,17 @@ The proof will demonstrate most of the main ideas in the later computer-assisted
 *Proof.* We may assume $\mathcal{A}$ is a Sidon set with $k$ elements and minimum possible diameter. Fix a constant $\tau>0$ (to be chosen later) and define $T:=\lceil\tau k^{3/2}\rceil$. Also define
 
 $$
-\overline{A}:=\frac{kT}{T+\diam(\mathcal{A})},
+\overline{A}:=\frac{kT}{T+\operatorname{diam}(\mathcal{A})},
 $$
 
-and recall the definition $A_i^{(T)}=|\mathcal{A}\cap[i-T,i)|$ from the statement of Theorem 1.1. Note $\overline{A}\sim\tau k^{1/2}$ since $\diam(\mathcal{A})\sim k^2$.
+and recall the definition $A_i^{(T)}=|\mathcal{A}\cap[i-T,i)|$ from the statement of Theorem 1.1. Note $\overline{A}\sim\tau k^{1/2}$ since $\operatorname{diam}(\mathcal{A})\sim k^2$.
 
-By the ETSSE, if we show that $A_i^{(T)}$ has a large total squared deviation from $\overline{A}$, we obtain a lower bound on $V(\mathcal{A},T)$, which gives us a lower bound on $\diam(\mathcal{A})$. The lower bound on the deviation will come from analyzing the ends of the Sidon set, essentially using the observation that $A_{\min(\mathcal{A})}^{(T)}=A_{\max(\mathcal{A})+T+1}^{(T)}=0\ll\overline{A}$ so $A_i^{(T)}$ deviates greatly from $\overline{A}$ for $i$ near $\min(\mathcal{A})$ and $\max(\mathcal{A})+T$.
+By the ETSSE, if we show that $A_i^{(T)}$ has a large total squared deviation from $\overline{A}$, we obtain a lower bound on $V(\mathcal{A},T)$, which gives us a lower bound on $\operatorname{diam}(\mathcal{A})$. The lower bound on the deviation will come from analyzing the ends of the Sidon set, essentially using the observation that $A_{\min(\mathcal{A})}^{(T)}=A_{\max(\mathcal{A})+T+1}^{(T)}=0\ll\overline{A}$ so $A_i^{(T)}$ deviates greatly from $\overline{A}$ for $i$ near $\min(\mathcal{A})$ and $\max(\mathcal{A})+T$.
 
 The key insight is that if there were only a small deviation between $A_i^{(T)}$ and $\overline{A}$ for $i$ near the ends of $\mathcal{A}$, we learn some information about the distribution of elements of $\mathcal{A}$: near the ends, there must first be a very high density of elements in order for $A_i^{(T)}$ to increase quickly to get close to $\overline{A}$, followed by a very low-density region to not overshoot $\overline{A}$ too much. This can be exploited by considering a second window size $T'<T$. In particular, there must be a large deviation between $A_i^{(T')}$ and
 
 $$
-\overline{A}':=\frac{kT'}{T'+\diam(\mathcal{A})}
+\overline{A}':=\frac{kT'}{T'+\operatorname{diam}(\mathcal{A})}
 $$
 
 for many values of $i$ because $A_i^{(T')}$ will be significantly less than $\overline{A}'$ in the low-density region.
@@ -157,7 +157,7 @@ $$
 b_{\infty}\leq\tau+\frac{1}{\tau}-\tau(w_1(\alpha_1-1)^2+(2-w_2)(\alpha_2-1)^2).\tag{1}
 $$
 
-The best bound we can obtain on $\diam(\mathcal{A})$ using (1) is by setting $\tau=1$, and we get $\diam(\mathcal{A})\geq k^2-2k^{3/2}+O(k)$ since $u_1,v_1\geq 0$ and $u_2,v_2\leq 1$. But if we are near this extreme case of $u_1,v_1,u_2,v_2$, that means that $A_i^{(T)}$ rockets up to $\alpha_1\overline{A}$ quickly and then stays below $\alpha_2\overline{A}$ the next $(u_2-u_1)T$ steps. This means there are at most $(\alpha_2-\alpha_1)\overline{A}$ elements of $\mathcal{A}$ in a range of width $(u_2-u_1)T$. By considering a second window size $T'<T$, we will see that $A_i^{(T')}$ is far below $\overline{A}'$ for many values of $i$.
+The best bound we can obtain on $\operatorname{diam}(\mathcal{A})$ using (1) is by setting $\tau=1$, and we get $\operatorname{diam}(\mathcal{A})\geq k^2-2k^{3/2}+O(k)$ since $u_1,v_1\geq 0$ and $u_2,v_2\leq 1$. But if we are near this extreme case of $u_1,v_1,u_2,v_2$, that means that $A_i^{(T)}$ rockets up to $\alpha_1\overline{A}$ quickly and then stays below $\alpha_2\overline{A}$ the next $(u_2-u_1)T$ steps. This means there are at most $(\alpha_2-\alpha_1)\overline{A}$ elements of $\mathcal{A}$ in a range of width $(u_2-u_1)T$. By considering a second window size $T'<T$, we will see that $A_i^{(T')}$ is far below $\overline{A}'$ for many values of $i$.
 
 Specifically, suppose $T'=\lceil cT\rceil$ where $0<c<1$. Define $(x)_+ := \max\{0,x\}$. Suppose $u_2-u_1>c$. Then for $i$ from $\min(\mathcal{A})+u_1T+T'+1$ to $\min(\mathcal{A})+u_2T$, we have $A_i^{(T')}\leq(\alpha_2-\alpha_1)\overline{A}$; choosing $c$ carefully, this is less than $\overline{A}'$.
 
@@ -185,7 +185,7 @@ $$
 b_\infty \leq c\tau+\frac{1}{c\tau}-\frac{\tau}{c^2}\bigl((w_2-w_1-2c)(c-(\alpha_2-\alpha_1))_+^2+w_1(c-\alpha_1)_+^2\bigr). \tag{2}
 $$
 
-It remains to choose parameters $\tau,\alpha_1,\alpha_2,$ and $c$, and then show that for any choice of $0\leq w_1\leq w_2\leq 2$, either (1) or (2) gives $\diam(\mathcal{A})\geq k^2-1.99058k^{3/2}+O(k)$. We choose the following parameters:
+It remains to choose parameters $\tau,\alpha_1,\alpha_2,$ and $c$, and then show that for any choice of $0\leq w_1\leq w_2\leq 2$, either (1) or (2) gives $\operatorname{diam}(\mathcal{A})\geq k^2-1.99058k^{3/2}+O(k)$. We choose the following parameters:
 
 $$
 \begin{aligned}
@@ -234,7 +234,7 @@ $$
 
 In other words, let $m=\frac{\min(\mathcal{A})+\max(\mathcal{A})}{2}$ be the midpoint of $\mathcal{A}$; then $B_i^{(T)}$ counts the number of elements of $\mathcal{A}$ in $[i-T,i)$ plus the number in the reflection of $[i-T,i)$ about $m$ (which is $(2m-i,2-i+T]=[\min(\mathcal{A})+\max(\mathcal{A})+1-i,\min(\mathcal{A})+\max(\mathcal{A})+T+1-i)$, all divided by 2, effectively “averaging” the two ends of $\mathcal{A}$.
 
-Fix levels $0<\alpha_1<\alpha_2<\cdots<\alpha_K$ for some $K$. Also fix $\tau>0$ and let $T\coloneqq\lceil\tau k^{3/2}\rceil$ and $\overline{A}\coloneqq\frac{kT}{T+\diam(\mathcal{A})}$ as before. For $1\leq j\leq K$, let $0\leq w_j\leq 1$ be such that $\min(\mathcal{A})+w_jT$ is the minimum value of $i\in[\min(\mathcal{A}),\min(\mathcal{A})+T]$ such that $B_i^{(T)}\geq\alpha_j\overline{A}$, or $w_j=1$ if there is no such $i$. Also define $w_0=\alpha_0\coloneqq 0$, $w_{K+1}\coloneqq 1$, and $\alpha_{K+1}\coloneqq\infty$. We sometimes write $\alpha=(\alpha_0,\alpha_1,\ldots,\alpha_{K+1})$ and $w=(w_0,w_1,\ldots,w_{K+1})$. See Figure 1 for a visual representation of the relationship between $\alpha$ and $w$.
+Fix levels $0<\alpha_1<\alpha_2<\cdots<\alpha_K$ for some $K$. Also fix $\tau>0$ and let $T\coloneqq\lceil\tau k^{3/2}\rceil$ and $\overline{A}\coloneqq\frac{kT}{T+\operatorname{diam}(\mathcal{A})}$ as before. For $1\leq j\leq K$, let $0\leq w_j\leq 1$ be such that $\min(\mathcal{A})+w_jT$ is the minimum value of $i\in[\min(\mathcal{A}),\min(\mathcal{A})+T]$ such that $B_i^{(T)}\geq\alpha_j\overline{A}$, or $w_j=1$ if there is no such $i$. Also define $w_0=\alpha_0\coloneqq 0$, $w_{K+1}\coloneqq 1$, and $\alpha_{K+1}\coloneqq\infty$. We sometimes write $\alpha=(\alpha_0,\alpha_1,\ldots,\alpha_{K+1})$ and $w=(w_0,w_1,\ldots,w_{K+1})$. See Figure 1 for a visual representation of the relationship between $\alpha$ and $w$.
 
 Figure 1: A visual guide to the parameters with $K=3$ assuming $\min(\mathcal{A})=0$.
 
@@ -244,7 +244,7 @@ Notice a slight difference in how the cutoffs $w$ are scaled compared to the pro
 
 Here is the generalization of the first bound appearing in the proof of Theorem 2.1:
 
-**Lemma 3.1.** Let $\mathcal{A}$ be a finite Sidon set with $k$ elements. With the $\tau$, $\alpha$, and $w$ defined above, we have $\diam(\mathcal{A})\geq k^2-bk^{3/2}-O(k)$ where
+**Lemma 3.1.** Let $\mathcal{A}$ be a finite Sidon set with $k$ elements. With the $\tau$, $\alpha$, and $w$ defined above, we have $\operatorname{diam}(\mathcal{A})\geq k^2-bk^{3/2}-O(k)$ where
 
 $$
 b\leq\tau+\frac{1}{\tau}-2\tau\sum_{j=0}^{K}(w_{j+1}-w_j)\min_{\alpha_j\leq z\leq\alpha_{j+1}}(z-1)^2.
@@ -288,7 +288,7 @@ This gives the desired bound after applying Corollary 1.2. $\square$
 
 Notice that if $K=2$ and $\alpha_1<1<\alpha_2$, the bound in this lemma exactly matches the first bound obtained in the proof of Theorem 2.1. Now let us generalize the second bound.
 
-Fix $c>0$ and define $T^{\prime}\coloneqq\lceil cT\rceil$ and $\overline{A}^{\prime}\coloneqq\frac{kT^{\prime}}{T^{\prime}+\diam(\mathcal{A})}=c\overline{A}+O(1)$ as before. Consider some $i\in[\min(\mathcal{A})+1,\min(\mathcal{A})+T]$, and let us attempt to bound $B_i^{(T^{\prime})}$ away from $\overline{A}^{\prime}$. For each $i$, let $x_i$ be the smallest value of $j$ so that that $\min(\mathcal{A}) + w_jT + 1 \geq i - T'$ and let $y_i$ be the largest value of $j$ so that $\min(\mathcal{A}) + w_jT < i$. This means that the entire window $[i - T',i)$ lies inside $I = W_{x_i-1} \cup W_{x_i+1} \cup \cdots \cup W_{y_i}$, adopting the definition of $W_j$ from the proof of Lemma 3.1. But we know there are only at most $2(\alpha_{y_i} - \alpha_{x_i-1})\overline{A}$ elements of $\mathcal{A}$ in $I$ plus the mirror of $I$ about the midpoint of $\mathcal{A}$, so
+Fix $c>0$ and define $T^{\prime}\coloneqq\lceil cT\rceil$ and $\overline{A}^{\prime}\coloneqq\frac{kT^{\prime}}{T^{\prime}+\operatorname{diam}(\mathcal{A})}=c\overline{A}+O(1)$ as before. Consider some $i\in[\min(\mathcal{A})+1,\min(\mathcal{A})+T]$, and let us attempt to bound $B_i^{(T^{\prime})}$ away from $\overline{A}^{\prime}$. For each $i$, let $x_i$ be the smallest value of $j$ so that that $\min(\mathcal{A}) + w_jT + 1 \geq i - T'$ and let $y_i$ be the largest value of $j$ so that $\min(\mathcal{A}) + w_jT < i$. This means that the entire window $[i - T',i)$ lies inside $I = W_{x_i-1} \cup W_{x_i+1} \cup \cdots \cup W_{y_i}$, adopting the definition of $W_j$ from the proof of Lemma 3.1. But we know there are only at most $2(\alpha_{y_i} - \alpha_{x_i-1})\overline{A}$ elements of $\mathcal{A}$ in $I$ plus the mirror of $I$ about the midpoint of $\mathcal{A}$, so
 
 $$
 B_i^{(T')} \leq (\alpha_{y_i} - \alpha_{x_i-1})\overline{A} + O(1)
@@ -326,7 +326,7 @@ Order the elements of $P$ as $p_0 < p_1 < \cdots < p_L$, so each $p_j$ either co
 
 For each $1 \leq j \leq L$, define $\zeta_j$ and $\eta_j$ so that for $i \in [\min(\mathcal{A}) + 1 + p_{j-1}T,\min(\mathcal{A}) + p_jT]$, $\zeta_j = x_i$ and $\eta_j = y_i$. We write $q,r,p,\zeta,\eta$ to mean $(q_0,\ldots,q_G)$, $(r_0,\ldots,r_H)$, $(p_0,\ldots,p_L)$, $(\zeta_1,\ldots,\zeta_L)$, and $(\eta_1,\ldots,\eta_L)$, respectively. Here is the generalization of the second bound:
 
-**Lemma 3.2.** Let $\mathcal{A}$ be a finite Sidon set with $k$ elements. With the previous definitions of $\tau,c,\alpha,p,\zeta,\eta$, we have $\diam(\mathcal{A}) \geq k^2 - bk^{3/2} - O(k)$ where
+**Lemma 3.2.** Let $\mathcal{A}$ be a finite Sidon set with $k$ elements. With the previous definitions of $\tau,c,\alpha,p,\zeta,\eta$, we have $\operatorname{diam}(\mathcal{A}) \geq k^2 - bk^{3/2} - O(k)$ where
 
 $$
 b \leq c\tau + \frac{1}{c\tau} - 2\frac{\tau}{c^2}\sum_{j=1}^{L}(p_j-p_{j-1})\min_{\alpha_{\eta_j-1}-\alpha_{\zeta_j}\leq z\leq\alpha_{\eta_j}-\alpha_{\zeta_j-1}}(z-c)^2.
@@ -409,18 +409,18 @@ If we employ more than two windows, we are to combine the bound from Lemma 3.1 w
 
 Putting it all together, we have:
 
-**Theorem 3.3.** *If $\mathcal{A}$ is a Sidon set with $k$ elements, then $\diam(\mathcal{A})\leq k^{2}-1.96365k^{3/2}-O(k)$.*
+**Theorem 3.3.** *If $\mathcal{A}$ is a Sidon set with $k$ elements, then $\operatorname{diam}(\mathcal{A})\leq k^{2}-1.96365k^{3/2}-O(k)$.*
 
 *Proof.* We choose $K=6$ and employ four windows in total, using one instance of Lemma 3.1 and three instances of Lemma 3.2. Here are the parameters:
 
 $$
-\begin{array}{rcl@{\qquad}rcl}
-\tau & = & 1.12733 & \alpha_{1} & = & 0.70749\\
-& & & \alpha_{2} & = & 0.78822\\
-c_{1} & = & 0.66461 & \alpha_{3} & = & 0.87175\\
-c_{2} & = & 0.67780 & \alpha_{4} & = & 1.12464\\
-c_{3} & = & 0.71884 & \alpha_{5} & = & 1.18020\\
-& & & \alpha_{6} & = & 1.24610
+\begin{array}{rclrcl}
+\tau & = & 1.12733 & \qquad\alpha_{1} & = & 0.70749\\
+& & & \qquad\alpha_{2} & = & 0.78822\\
+c_{1} & = & 0.66461 & \qquad\alpha_{3} & = & 0.87175\\
+c_{2} & = & 0.67780 & \qquad\alpha_{4} & = & 1.12464\\
+c_{3} & = & 0.71884 & \qquad\alpha_{5} & = & 1.18020\\
+& & & \qquad\alpha_{6} & = & 1.24610
 \end{array}
 $$
 
@@ -465,8 +465,8 @@ $$
 \begin{aligned}
 \sum_{i=1}^{a_k+T}\binom{A_i}{2}
 &=\sum_{s=0}^{g}\sum_{r\in D_s}s(T-r)\\
-&=\sum_{s=0}^{g}\sum_{r=1}^{T-1}(g+(s-g))(T-r)\mathbbm{1}_{r\in D_s}\\
-&=\sum_{r=1}^{T-1}\sum_{s=0}^{g}g(T-r)\mathbbm{1}_{r\in D_s}-\sum_{s=0}^{g-1}\sum_{r\in D_s}(g-s)(T-r)\\
+&=\sum_{s=0}^{g}\sum_{r=1}^{T-1}(g+(s-g))(T-r)\mathbb{1}_{r\in D_s}\\
+&=\sum_{r=1}^{T-1}\sum_{s=0}^{g}g(T-r)\mathbb{1}_{r\in D_s}-\sum_{s=0}^{g-1}\sum_{r\in D_s}(g-s)(T-r)\\
 &=g\binom{T}{2}-\sum_{s=0}^{g-1}\sum_{r\in D_s}(g-s)(T-r)\\
 &=g\binom{T}{2}-S_g(\mathcal{A},T).
 \end{aligned}
@@ -476,13 +476,13 @@ Comparing the two expressions for $\sum\binom{A_i}{2}$ yields the claimed equali
 
 Recall that Lemmas 3.1 and 3.2 were proved by finding a lower bound on $V(\mathcal{A},T)$. Additionally, the proofs of these lemmas never used the fact that $\mathcal{A}$ was a Sidon set to obtain the bound on $V(\mathcal{A},T)$; the Sidon set property was only used to apply Theorem 1.1. Since the definition of $V(\mathcal{A},T)$ is the same in Theorem 4.1 as it was in Theorem 1.1, the definitions of $w_j$, $p_j$, $\zeta_j$, and $\eta_j$ in Section 3 still make sense in the $g$-thin case, and Lemmas 3.1 and 3.2 generalize immediately to the following:
 
-**Lemma 4.2.** Let $\mathcal{A}$ be a finite $g$-thin Sidon set with $k$ elements. Fix constants $\tau$ and $0=\alpha_0<\alpha_1<\cdots<\alpha_K<\alpha_{K+1}=\infty$. Define $w$ as in Section 3. We have $\diam(\mathcal{A})\geq k^2/g-bk^{3/2}-O(k)$ where
+**Lemma 4.2.** Let $\mathcal{A}$ be a finite $g$-thin Sidon set with $k$ elements. Fix constants $\tau$ and $0=\alpha_0<\alpha_1<\cdots<\alpha_K<\alpha_{K+1}=\infty$. Define $w$ as in Section 3. We have $\operatorname{diam}(\mathcal{A})\geq k^2/g-bk^{3/2}-O(k)$ where
 
 $$
 b\leq\tau+\frac{1}{\tau g^2}-2\frac{\tau}{g^2}\sum_{j=0}^{K}(w_{j+1}-w_j)\min_{\alpha_j\leq z\leq\alpha_{j+1}}(z-1)^2.
 $$
 
-**Lemma 4.3.** Let $\mathcal{A}$ be a finite $g$-thin Sidon set with $k$ elements. Fix constants $\tau$, $c$, and $0=\alpha_0<\alpha_1<\cdots<\alpha_K<\alpha_{K+1}=\infty$. Define $p$, $L$, $\zeta$, and $\eta$ as in Section 3. We have $\diam(\mathcal{A})\geq k^2/g-bk^{3/2}-O(k)$ where
+**Lemma 4.3.** Let $\mathcal{A}$ be a finite $g$-thin Sidon set with $k$ elements. Fix constants $\tau$, $c$, and $0=\alpha_0<\alpha_1<\cdots<\alpha_K<\alpha_{K+1}=\infty$. Define $p$, $L$, $\zeta$, and $\eta$ as in Section 3. We have $\operatorname{diam}(\mathcal{A})\geq k^2/g-bk^{3/2}-O(k)$ where
 
 $$
 b\leq c\tau+\frac{1}{c\tau g^2}-2\frac{\tau}{c^2g^2}\sum_{j=1}^{L}(p_j-p_{j-1})\min_{\alpha_{\eta_j-1}-\alpha_{\zeta_j}\leq z\leq\alpha_{\eta_j}-\alpha_{\zeta_j-1}}(z-c)^2.
@@ -493,7 +493,7 @@ In these bounds, the error term $O(k)$ is for fixed $g$ and $k\to\infty$.
 Similarly to the case of 1-thin Sidon sets, let $\mathcal{A}_k^{(g)}$ be a $g$-thin Sidon set with $k$ elements and the minimum possible diameter, and define
 
 $$
-b_{\infty}^{(g)}\coloneqq\limsup_{k\to\infty}\frac{k^2-\diam(\mathcal{A}_k^{(g)})}{k^{3/2}}.
+b_{\infty}^{(g)}\coloneqq\limsup_{k\to\infty}\frac{k^2-\operatorname{diam}(\mathcal{A}_k^{(g)})}{k^{3/2}}.
 $$
 
 For fixed $g$, one can choose parameters $\tau$, $\alpha$, etc. and apply Lemmas 4.2 and 4.3 to find an upper bound on $b_{\infty}^{(g)}$. Sadly, it seems that locally optimal parameters for a particular $g$ are not related in any simple way to locally optimal parameters for other $g$. Still, we can prove the following:
@@ -519,7 +519,7 @@ c&=25g^{2}\varepsilon=\frac{100g^{2}-7g-89}{2(50g^{2}-49)}.
 \end{aligned}
 $$
 
-Note $c<1$ since $g\geq 2$; also $c>\alpha_{1}$. From Lemma 4.2, we know $\diam(\mathcal{A})\geq k^{2}/g-bk^{3/2}+O(k)$ where
+Note $c<1$ since $g\geq 2$; also $c>\alpha_{1}$. From Lemma 4.2, we know $\operatorname{diam}(\mathcal{A})\geq k^{2}/g-bk^{3/2}+O(k)$ where
 
 $$
 b\leq\frac{2}{g}-\frac{2}{25g^{3}}(1+w_{1}-w_{2}).

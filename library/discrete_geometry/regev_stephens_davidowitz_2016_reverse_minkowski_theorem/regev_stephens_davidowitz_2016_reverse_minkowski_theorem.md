@@ -1,6 +1,6 @@
 # A Reverse Minkowski Theorem
 
-Oded Regev$^{*\dagger}$ \qquad Noah Stephens-Davidowitz$^{\ddagger\S}$
+Oded Regev$^{*\dagger}$, Noah Stephens-Davidowitz$^{\ddagger\S}$
 
 noahsd@gmail.com
 
@@ -1402,7 +1402,7 @@ $$
 f_{\mathcal{L},s}(A) := \rho_s(e^{A/2}\mathcal{L}) = \sum_{\mathbf{y} \in \mathcal{L}} e^{-\pi\mathbf{y}^T e^A\mathbf{y}/s^2},
 $$
 
-where $X \subset \mathbb{R}^{n \times n}$ is the linear space of all symmetric matrices with zero trace. Notice that as $A$ ranges over $X$, $e^{A/2} := I_n + \sum_{i=1}^{\infty}(A/2)^i/i!$ ranges over all determinant-one positive-definite matrices. In particular, $e^{A/2}\mathcal{L}$ ranges over all lattices of fixed determinant, up to orthogonal transformations. (To see this, notice that any $\mathcal{L}'$ of the same determinant as $\mathcal{L}$ can be written as $\mathcal{L}' = T\mathcal{L}$ for some matrix $T$ of determinant one. Then, up to an orthogonal transformation, $\mathcal{L}' equals $V^T D V \mathcal{L}$ where $T = UDV$ is the singular value decomposition of $T$. Finally, notice that $V^T D V$ is a determinant-one positive-definite matrix.) See [Ter16, Section 1.1.3] for a more in-depth treatment of the space of determinant-one matrices.
+where $X \subset \mathbb{R}^{n \times n}$ is the linear space of all symmetric matrices with zero trace. Notice that as $A$ ranges over $X$, $e^{A/2} := I_n + \sum_{i=1}^{\infty}(A/2)^i/i!$ ranges over all determinant-one positive-definite matrices. In particular, $e^{A/2}\mathcal{L}$ ranges over all lattices of fixed determinant, up to orthogonal transformations. (To see this, notice that any $\mathcal{L}'$ of the same determinant as $\mathcal{L}$ can be written as $\mathcal{L}' = T\mathcal{L}$ for some matrix $T$ of determinant one. Then, up to an orthogonal transformation, $\mathcal{L}'$ equals $V^T D V \mathcal{L}$ where $T = UDV$ is the singular value decomposition of $T$. Finally, notice that $V^T D V$ is a determinant-one positive-definite matrix.) See [Ter16, Section 1.1.3] for a more in-depth treatment of the space of determinant-one matrices.
 
 Recall that the *Laplacian* of a twice differentiable function $g : X \rightarrow \mathbb{R}$ is given by
 

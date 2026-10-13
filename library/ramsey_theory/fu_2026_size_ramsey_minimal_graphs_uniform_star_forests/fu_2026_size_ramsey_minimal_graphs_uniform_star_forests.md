@@ -83,7 +83,7 @@ $$
 G-\{v\}\rightarrow(a_1K_{1,b_1},\ldots,a_{s-1}K_{1,b_{s-1}},(a_s-1)K_{1,b_s},a_{s+1}K_{1,b_{s+1}},\ldots,a_tK_{1,b_t}).
 $$
 
-*Proof:* Otherwise, there is a $t$-coloring of $E(G-\{v\})$ such that there is no monochromatic copy of $a_jK_{1,b_j}$ in color $j$ for each $j\in[t]\backslash\{s\}$ and no monochromatic copy of $(a_s-1)K_{1,b_s}$ in color $s$. Under this coloring of $G-\{v\}$, color all edges adjacent to $v$ by color $s$. To create a monochromatic copy of $a_sK_{1,b_s}$ in color $s, we need at least two vertices that are not in $G-\{v\}$. Consequently, $G\not\rightarrow(a_1K_{1,b_1},a_2K_{1,b_2},\ldots,a_tK_{1,b_t})$. This is a contradiction. $\Box$
+*Proof:* Otherwise, there is a $t$-coloring of $E(G-\{v\})$ such that there is no monochromatic copy of $a_jK_{1,b_j}$ in color $j$ for each $j\in[t]\backslash\{s\}$ and no monochromatic copy of $(a_s-1)K_{1,b_s}$ in color $s$. Under this coloring of $G-\{v\}$, color all edges adjacent to $v$ by color $s$. To create a monochromatic copy of $a_sK_{1,b_s}$ in color $s$, we need at least two vertices that are not in $G-\{v\}$. Consequently, $G\not\rightarrow(a_1K_{1,b_1},a_2K_{1,b_2},\ldots,a_tK_{1,b_t})$. This is a contradiction. $\Box$
 
 For convenience to describe the coloring in Section 3, we need the following facts.
 
@@ -257,7 +257,7 @@ In both cases, there are $a-t-i-j=a-t-2$ uncolored edges since $i+j=2$. Thus, $G
 
 **Case 1.3.** There are three components of $H_1$ such that each of them contains at least one vertex of $N_G(v)$.
 
-Denote the vertex set of these components by $C_1,C_2$ and $C_3$, respectively. Moreover, let $C=C_1\cup C_2\cup C_3$. Note that $H_1[C_1]\neq K_4,H_1[C_2]\neq K_4$ and $H_1[C_3]\neq K_4$ since $\Delta(G)=3$. Thus, $H_1-C=(c-i)K_3\bigsqcup(a-t-c-j)K_{1,3}$ or $H_1-C=(c-i)K_3\bigsqcup c'K_4\bigsqcup(a$t-c-2c'-j)K_{1,3}$ if $a_1=2$, where $i$ and $j$ are nonnegative integers such that $i+j=3$.
+Denote the vertex set of these components by $C_1,C_2$ and $C_3$, respectively. Moreover, let $C=C_1\cup C_2\cup C_3$. Note that $H_1[C_1]\neq K_4,H_1[C_2]\neq K_4$ and $H_1[C_3]\neq K_4$ since $\Delta(G)=3$. Thus, $H_1-C=(c-i)K_3\bigsqcup(a-t-c-j)K_{1,3}$ or $H_1-C=(c-i)K_3\bigsqcup c'K_4\bigsqcup(a-t-c-2c'-j)K_{1,3}$ if $a_1=2$, where $i$ and $j$ are nonnegative integers such that $i+j=3$.
 
 Moreover, $G[N_G[v]\cup C]$ is one of the graphs in Figure 10.
 

@@ -161,8 +161,8 @@ $$
 $$
 \begin{aligned}
 (1.30)\quad \Delta_z(x,z^y) &\geq S(x,y;\omega)\\
-&\geq \frac{x}{\log x}\exp\left\{K+\frac{y}{L}\left(\log_2 y-\log_2\left(\frac{3y}{L}\right)+1-\gamma\right)-\frac{y}{2}\left(\frac{\log L}{L}\right)^2\\
-&\quad-\frac{y\log L}{L^2}\left(\log_2 y-\log_2\left(\frac{3y}{L}\right)-\gamma\right)+O_{\beta,\delta}\left(\frac{y}{L^2}+\frac{y}{L\log y}\right)\right\}.
+&\geq \frac{x}{\log x}\exp\biggl\{K+\frac{y}{L}\left(\log_2 y-\log_2\left(\frac{3y}{L}\right)+1-\gamma\right)-\frac{y}{2}\left(\frac{\log L}{L}\right)^2\\
+&\quad-\frac{y\log L}{L^2}\left(\log_2 y-\log_2\left(\frac{3y}{L}\right)-\gamma\right)+O_{\beta,\delta}\left(\frac{y}{L^2}+\frac{y}{L\log y}\right)\biggr\}.
 \end{aligned}
 $$
 
@@ -202,7 +202,7 @@ $$
 (1.35)\quad S^*(x,y;\omega) \leq \Delta_z^*(x,z^y) \leq S^*(x,y;\Omega)\quad\text{for }x\geq 1,\ y>0,\ z>1.
 $$
 
-Now when $y \leq (2-\varepsilon)\log_2 x$ for some fixed $\varepsilon > 0$, the sizes of $S(x,y;\omega)$, $S(x,y;\Omega)$, $S^*(x,y;\omega)$, and $S^*(x,y;\Omega)$ are known with some precision and are all essentially the same. For these facts, see [14, Theorem 9.2], [15], [18, Section 6], [19, Section 3 and Theorem 4.27], [7, Proposition 3], and [5, p. 148]. Thus we can get quite good estimates for $\Delta_z(x,z^y)$ and $\Delta_z^*(x,z^y)$ from (1.34) and (1.35) when $y \leq (2-\varepsilon)\log_2 x$; see in particular [18, Theorem 1.20], [19, pp. 15–16]. This method fails, however, when $y \geq (2+\varepsilon)\log_2 x and $y$ is not too large, for then $S(x,y;\Omega)$ and $S^*(x,y;\Omega)$ are significantly larger than $S(x,y;\omega)$ and $S^*(x,y;\omega)$ (see [25, p. 87], [20, Theorem 1.14 and p. 37], [17], and [4]). For $y \ll \log_2 x$, a new approach was recently found by Balazard, Nicolas, Pomerance, and Tenenbaum [5], who obtained a general theorem which leads to a complicated asymptotic formula for $\Delta_z^*(x,z^y)$. With some effort, this formula can be obtained from their Théorème 2 by taking $z > 1$, $f(n) = (\log z)^{-1}\log d_z(n)$, and $\lambda = y/\log_2 x$. We shall not state the asymptotic formula here but merely note the following simpler corollary which is not given explicitly in [5]: if $z$, $\varepsilon$, $\lambda_1$, $x$, $y$ are real with $z > 1$, $\varepsilon > 0$, $\lambda_1 > 1$, $x \geq c_{11}(\varepsilon,\lambda_1,z)$, and
+Now when $y \leq (2-\varepsilon)\log_2 x$ for some fixed $\varepsilon > 0$, the sizes of $S(x,y;\omega)$, $S(x,y;\Omega)$, $S^*(x,y;\omega)$, and $S^*(x,y;\Omega)$ are known with some precision and are all essentially the same. For these facts, see [14, Theorem 9.2], [15], [18, Section 6], [19, Section 3 and Theorem 4.27], [7, Proposition 3], and [5, p. 148]. Thus we can get quite good estimates for $\Delta_z(x,z^y)$ and $\Delta_z^*(x,z^y)$ from (1.34) and (1.35) when $y \leq (2-\varepsilon)\log_2 x$; see in particular [18, Theorem 1.20], [19, pp. 15–16]. This method fails, however, when $y \geq (2+\varepsilon)\log_2 x$ and $y$ is not too large, for then $S(x,y;\Omega)$ and $S^*(x,y;\Omega)$ are significantly larger than $S(x,y;\omega)$ and $S^*(x,y;\omega)$ (see [25, p. 87], [20, Theorem 1.14 and p. 37], [17], and [4]). For $y \ll \log_2 x$, a new approach was recently found by Balazard, Nicolas, Pomerance, and Tenenbaum [5], who obtained a general theorem which leads to a complicated asymptotic formula for $\Delta_z^*(x,z^y)$. With some effort, this formula can be obtained from their Théorème 2 by taking $z > 1$, $f(n) = (\log z)^{-1}\log d_z(n)$, and $\lambda = y/\log_2 x$. We shall not state the asymptotic formula here but merely note the following simpler corollary which is not given explicitly in [5]: if $z$, $\varepsilon$, $\lambda_1$, $x$, $y$ are real with $z > 1$, $\varepsilon > 0$, $\lambda_1 > 1$, $x \geq c_{11}(\varepsilon,\lambda_1,z)$, and
 
 $$
 \tag{1.36}

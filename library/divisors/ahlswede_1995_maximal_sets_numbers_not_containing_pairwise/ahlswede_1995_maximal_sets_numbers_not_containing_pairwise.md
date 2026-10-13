@@ -315,10 +315,10 @@ which $dM(A)$ exists.
 
 Here we have the following
 
-**CONJECTURES.** The set of multiples $M(A)$ of any left compressed set $A  
-$(in the sense of Definition 2) possesses asymptotic density. We conjecture  
+**CONJECTURES.** The set of multiples $M(A)$ of any left compressed set $A$  
+(in the sense of Definition 2) possesses asymptotic density. We conjecture  
 this even for left compressed sets in the sense of Definition 1. Moreover, we  
-think that even a stronger statement is true: For any left compressed set $A  
+think that even a stronger statement is true: For any left compressed set $A$  
 in the sense of Definitions 1 or 2, $dA$ exists.
 
 **4. Proof of Theorem 1A.** We remind the reader of the abbrevia-  
@@ -1090,7 +1090,7 @@ $$
 
 because
 
-$$\gamma=1+\frac{k}{k_0-k},\quad S=\left|\bigcup_{j=1}^{k} S_j\right|+\left|\bigcup_{j=k+1}^{k_0} S_j\right|+\left|\bigcup_{j\geq k_0+1} S_j\right|,$$$
+$$\gamma=1+\frac{k}{k_0-k},\quad S=\left|\bigcup_{j=1}^{k} S_j\right|+\left|\bigcup_{j=k+1}^{k_0} S_j\right|+\left|\bigcup_{j\geq k_0+1} S_j\right|,$$
 
 and
 
@@ -1169,4 +1169,4 @@ POSTFACH 100 131
 33501 BIELEFELD, GERMANY
 
 *Received on 26.8.1994*  
-*and in revised form on 15.11.1994* \hfill (2659)
+*and in revised form on 15.11.1994* (2659)

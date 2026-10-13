@@ -158,13 +158,13 @@ Fix a basis $\mathbf{g}_1,\ldots,\mathbf{g}_{|X|-d}$ of $\ker T\leq\mathbb{F}^{X
 
 $$
 K=
-\bordermatrix{
- &x_1&x_2&\cdots&x_{|X|}\cr
-\mathbf{g}_1&(\mathbf{g}_1)_{x_1}&(\mathbf{g}_1)_{x_2}&\cdots&(\mathbf{g}_1)_{x_{|X|}}\cr
-\mathbf{g}_2&(\mathbf{g}_2)_{x_1}&(\mathbf{g}_2)_{x_2}&\cdots&(\mathbf{g}_2)_{x_{|X|}}\cr
-\vdots&\vdots&\vdots&\ddots&\vdots\cr
-\mathbf{g}_{|X|-d}&(\mathbf{g}_{|X|-d})_{x_1}&(\mathbf{g}_{|X|-d})_{x_2}&\cdots&(\mathbf{g}_{|X|-d})_{x_{|X|}}\cr
-}
+\begin{array}{c}\mathbf{g}_1\\ \mathbf{g}_2\\ \vdots\\ \mathbf{g}_{|X|-d}\end{array}\!\!
+\begin{pmatrix}
+\smash{\overset{\textstyle x_1}{(\mathbf{g}_1)_{x_1}\rule{0pt}{1.4em}}}&\smash{\overset{\textstyle x_2}{(\mathbf{g}_1)_{x_2}\rule{0pt}{1.4em}}}&\cdots&\smash{\overset{\textstyle x_{|X|}}{(\mathbf{g}_1)_{x_{|X|}}\rule{0pt}{1.4em}}}\\
+(\mathbf{g}_2)_{x_1}&(\mathbf{g}_2)_{x_2}&\cdots&(\mathbf{g}_2)_{x_{|X|}}\\
+\vdots&\vdots&\ddots&\vdots\\
+(\mathbf{g}_{|X|-d})_{x_1}&(\mathbf{g}_{|X|-d})_{x_2}&\cdots&(\mathbf{g}_{|X|-d})_{x_{|X|}}
+\end{pmatrix}\rule{0pt}{4.4em}
 $$
 
 for any enumeration $x_1,\ldots,x_{|X|}$ of $X$. Column $x$ of $K$ is the vector

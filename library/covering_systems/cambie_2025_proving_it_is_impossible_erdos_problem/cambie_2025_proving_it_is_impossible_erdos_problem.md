@@ -62,7 +62,7 @@ Let $P$ be a set of primes of $n=r-1$ very large primes $p_i$ such that the weig
 
 Let $\varepsilon$ be the minimum among all differences of the form $\sum_{i\in I}w_i-\sum_{i\in J}w_i$ for disjoint (not both empty) sets $I,J\subset[n]:=\{1,2,\ldots,n\}$. Since prime factorisations are unique, we deduce from $\exp(\sum_{i\in I}w_i)\neq\exp(\sum_{i\in J}w_i)$ that $\varepsilon>0$.
 
-Order the weights as $w_1\geq w_2\geq w_3\geq\ldots\geq w_n$. Let $x>\frac{4n}{\varepsilon}$ and $c=\lcm\{\lfloor w_ix\rfloor\mid 1\leq i\leq\lfloor\frac{n}{2}\rfloor\}$.
+Order the weights as $w_1\geq w_2\geq w_3\geq\ldots\geq w_n$. Let $x>\frac{4n}{\varepsilon}$ and $c=\operatorname{lcm}\{\lfloor w_ix\rfloor\mid 1\leq i\leq\lfloor\frac{n}{2}\rfloor\}$.
 
 We now choose $a_i=c\lfloor w_ix\rfloor$ for $1\leq i\leq\lfloor\frac{n}{2}\rfloor$ and $a_i=c\lfloor w_ix\rfloor+1$ for $\lceil\frac{n+1}{2}\rceil\leq i\leq n$.
 

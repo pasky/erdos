@@ -170,14 +170,14 @@ $$
 For each $|Z|$-tuple $(n_z)$ in $T(y)$, we define its support-size as follows
 
 $$
-\supp((n_z)_{z\in Z})\vcentcolon=\left|\{z\in Z:n_z\neq 0\}\right| \tag{7}
+\operatorname{supp}((n_z)_{z\in Z})\vcentcolon=\left|\{z\in Z:n_z\neq 0\}\right| \tag{7}
 $$
 
-counted with multiplicity if $Z$ is a multiset. We begin by noting that the set $T(y)$ is non-empty because $y=\sum_{z\in Z}\varepsilon_z(y)z$ by (4) and $\sum_z\varepsilon_z(y)=a(y)$ by (5) so $(\varepsilon_z(y))_{z\in Z}\in T(y)$. Hence, we can consider an element $(k_z(y))_{z\in Z}\in T(y)$ with minimal support-size $\supp((k_z(y))_{z\in Z})$. Let $K=K(y)=\{z\in Z:k_z(y)\neq 0\}$ be its support, so $K$ is a multisubset of $Z$ and we obtain the following information about $K$.
+counted with multiplicity if $Z$ is a multiset. We begin by noting that the set $T(y)$ is non-empty because $y=\sum_{z\in Z}\varepsilon_z(y)z$ by (4) and $\sum_z\varepsilon_z(y)=a(y)$ by (5) so $(\varepsilon_z(y))_{z\in Z}\in T(y)$. Hence, we can consider an element $(k_z(y))_{z\in Z}\in T(y)$ with minimal support-size $\operatorname{supp}((k_z(y))_{z\in Z})$. Let $K=K(y)=\{z\in Z:k_z(y)\neq 0\}$ be its support, so $K$ is a multisubset of $Z$ and we obtain the following information about $K$.
 
-**Lemma 4.** Let $y\in\Sigma(Z)$ and let $(k_z)_{z\in Z}\in T(y)$ be chosen to minimise $\supp((k_z)_{z\in Z})$ over all elements of $T(y)$. Then $K=\{z\in Z:k_z\neq 0\}$ is a dissociated subset of $Z$.
+**Lemma 4.** Let $y\in\Sigma(Z)$ and let $(k_z)_{z\in Z}\in T(y)$ be chosen to minimise $\operatorname{supp}((k_z)_{z\in Z})$ over all elements of $T(y)$. Then $K=\{z\in Z:k_z\neq 0\}$ is a dissociated subset of $Z$.
 
-*Proof.* Suppose for a contradiction that the multiset $K$ is not dissociated. Hence there exist distinct multisubsets $K_1,K_2$ of $K$ so that $\sum_{z\in K_1}z=\sum_{z\in K_2}z$. We may further assume that $K_1$ and $K_2$ are disjoint as removing common elements in $K_1\cap K_2 from both multisets does not change that both multisets have equal sum. Also assume that $|K_1|\geqslant |K_2|$ and define $k^-=\min_{z\in K_1} k_z$. Then we can write
+*Proof.* Suppose for a contradiction that the multiset $K$ is not dissociated. Hence there exist distinct multisubsets $K_1,K_2$ of $K$ so that $\sum_{z\in K_1}z=\sum_{z\in K_2}z$. We may further assume that $K_1$ and $K_2$ are disjoint as removing common elements in $K_1\cap K_2$ from both multisets does not change that both multisets have equal sum. Also assume that $|K_1|\geqslant |K_2|$ and define $k^-=\min_{z\in K_1} k_z$. Then we can write
 
 $$
 \begin{aligned}
@@ -215,7 +215,7 @@ $$
 \end{aligned}
 $$
 
-using that $|K_1|\geqslant |K_2|$. Hence, $(k'_z)_{z\in Z}\in T(y)$. Our final task to obtain the required contradiction is to show that $\supp((k'_z))<\supp((k_z))$. This is clear from (9) however as we defined $k^-=\min_{z\in K_1} k_z$. We have obtained the required contradiction as $(k_z)$ was chosen to minimise $\supp((k_z))$ over all sequences in $T(y)$. Hence, $K$ must be dissociated. $\square$
+using that $|K_1|\geqslant |K_2|$. Hence, $(k'_z)_{z\in Z}\in T(y)$. Our final task to obtain the required contradiction is to show that $\operatorname{supp}((k'_z))<\operatorname{supp}((k_z))$. This is clear from (9) however as we defined $k^-=\min_{z\in K_1} k_z$. We have obtained the required contradiction as $(k_z)$ was chosen to minimise $\operatorname{supp}((k_z))$ over all sequences in $T(y)$. Hence, $K$ must be dissociated. $\square$
 
 We continue with the proof of Proposition 1. By Lemma 4, every $y\in\Sigma(Z)$ can be written as
 
@@ -490,7 +490,7 @@ Assuming this proposition for the moment, we can put everything together and com
 
 $$|A|\geqslant\frac{K(A+g)}{2(2+\log_2 K(A+g))}\cdot\log_2 p(G) \tag{21}$$
 
-for some element $g\in G. As $A\subset G$ does not have a unique sum, neither does the translated set $A+g$. By Proposition 5, we then get that
+for some element $g\in G$. As $A\subset G$ does not have a unique sum, neither does the translated set $A+g$. By Proposition 5, we then get that
 
 $$K(A+g)\geqslant\omega_1(p(G)).$$
 
@@ -554,11 +554,11 @@ $$
 
 where here we used the weak bound $|A|\geqslant\log_2 p(G)$ which by Corollary 4 holds even for balanced sets. We deduce that $K(A)\gg\sqrt{\log\log\log p}$ as desired. $\square$
 
-To complete the proof, it now only remains to prove Proposition 6. So far, we have not yet used that $A$ has no unique sum but only the much weaker assumption that $A is balanced. As we saw, the conclusion of Proposition 5 fails completely for a general balanced set, even if most sums are not unique. So our proof of Proposition 6 here must inevitably use that $A$ has no unique sum. This will make the proof somewhat technical, but this seems unavoidable at this stage. We begin with a useful lemma.
+To complete the proof, it now only remains to prove Proposition 6. So far, we have not yet used that $A$ has no unique sum but only the much weaker assumption that $A$ is balanced. As we saw, the conclusion of Proposition 5 fails completely for a general balanced set, even if most sums are not unique. So our proof of Proposition 6 here must inevitably use that $A$ has no unique sum. This will make the proof somewhat technical, but this seems unavoidable at this stage. We begin with a useful lemma.
 
 **Lemma 6.** *Let $G$ be a finite Abelian group and let $S \subset G$ have size at most $\log_2 p(G)$. Then we can assign an element $s_X \in X$ to each non-empty subset $X \subset S$ such that the following holds. Let $X,Y \subset S$ be non-empty subsets, then the only solution to $x+y=s_X+s_Y$ with $x \in X$ and $y \in Y$ is the trivial solution $(x,y)=(s_X,s_Y)$.*
 
-*Proof.* $S$ is rectifiable by Lemma 2 and let $\phi:S\to S'\subset\mathbf{N}$ be a Freiman isomorphism to a subset of $\mathbf{N}$. Let $X \subset S$ be non-empty. We claim that the choice $s_X=\phi^{-1}(\max \phi(X))$ works. Let $X,Y \subset S$ be non-empty. As $\phi$ is a Freiman isomorphism, it is enough to show that the only solution $(x,y)\in\phi(X)\times\phi(Y)$ to $x+y=\max\phi(X)+\max\phi(Y)$ is the trivial one. This is clear since $x+y\leqslant\max\phi(X)+\max\phi(Y)$ is an inequality in the integers, where equality only holds if $(x,y)=(\max\phi(X),\max\phi(Y))$. \hfill $\square$
+*Proof.* $S$ is rectifiable by Lemma 2 and let $\phi:S\to S'\subset\mathbf{N}$ be a Freiman isomorphism to a subset of $\mathbf{N}$. Let $X \subset S$ be non-empty. We claim that the choice $s_X=\phi^{-1}(\max \phi(X))$ works. Let $X,Y \subset S$ be non-empty. As $\phi$ is a Freiman isomorphism, it is enough to show that the only solution $(x,y)\in\phi(X)\times\phi(Y)$ to $x+y=\max\phi(X)+\max\phi(Y)$ is the trivial one. This is clear since $x+y\leqslant\max\phi(X)+\max\phi(Y)$ is an inequality in the integers, where equality only holds if $(x,y)=(\max\phi(X),\max\phi(Y))$. $\square$
 
 We are now ready to begin the proof of Proposition 6.
 
@@ -657,7 +657,7 @@ for $i=1,\dots,C_1+|D|+1$, where $e_i,e_i',s_i,s_i'$ exist by definition of $B^{
 
 $$s_{d_i}=s_d,\ s_{d_i'}=s_{d'},\ s_i=s,\ s_i'=s' \tag{38}$$
 
-for all $i. Clearly there are at most $|D|$ of these indices $i$ for which $e_i=e_i'$, so suppose without loss of generality that $e_i\neq e_i'$ for $i=1,\dots,C_1+1$. We will apply Lemma 8 with $P_i=\{d_i,d_i'\}$ and $Q_i=\{e_i,e_i'\}$ for $i=1,\dots,C_1+1$ and we first show that the condition $P_i\cap Q_i=\emptyset$ is satisfied. Indeed, if $d_i=e_i$ for a contradiction (the other cases when $P_i\cap Q_i\ne\emptyset$ can be handled similarly), then (36) would imply that $d'_i+(s_{d_1}+s_{d'_1}-s_1-s'_1)=e'_i$. In other words, $d'_1+v=e'_1$ for some $v\in 2S-2S$ and note that $v\ne 0$ as else $d'_1=e'_1$ but, as $d_1=e_1$, this would contradict (37). However, the existence of a non-zero $v\in 2S-2S$ so that $d'_1+v\in D$ means precisely that $d'_1\in B^{(1)}(D)$ and this is impossible because we removed $B^{(1)}(D)$ from $D$ to obtain $G^{(1)}(D)$. Lemma 8 therefore gives distinct $i,j$ such that $P_i\cap Q_j=\emptyset=P_j\cap Q_i$ and without loss of generality, let $i=1,j=2$. Plugging (38) in (29) then gives
+for all $i$. Clearly there are at most $|D|$ of these indices $i$ for which $e_i=e_i'$, so suppose without loss of generality that $e_i\neq e_i'$ for $i=1,\dots,C_1+1$. We will apply Lemma 8 with $P_i=\{d_i,d_i'\}$ and $Q_i=\{e_i,e_i'\}$ for $i=1,\dots,C_1+1$ and we first show that the condition $P_i\cap Q_i=\emptyset$ is satisfied. Indeed, if $d_i=e_i$ for a contradiction (the other cases when $P_i\cap Q_i\ne\emptyset$ can be handled similarly), then (36) would imply that $d'_i+(s_{d_1}+s_{d'_1}-s_1-s'_1)=e'_i$. In other words, $d'_1+v=e'_1$ for some $v\in 2S-2S$ and note that $v\ne 0$ as else $d'_1=e'_1$ but, as $d_1=e_1$, this would contradict (37). However, the existence of a non-zero $v\in 2S-2S$ so that $d'_1+v\in D$ means precisely that $d'_1\in B^{(1)}(D)$ and this is impossible because we removed $B^{(1)}(D)$ from $D$ to obtain $G^{(1)}(D)$. Lemma 8 therefore gives distinct $i,j$ such that $P_i\cap Q_j=\emptyset=P_j\cap Q_i$ and without loss of generality, let $i=1,j=2$. Plugging (38) in (29) then gives
 
 [^3]: To show that $\{d_1,e_2\},\{d_2,e_1\}$ are subsets of $D$ as opposed to multisubsets, we used the skew Two Families Theorem. For this application, a very simple direct argument would have sufficed, but we will make similar applications of the Two Families Theorem later and hence try to do this in a consistent manner.
 
@@ -727,7 +727,7 @@ $$
 \end{aligned}
 $$
 
-so that $|\mathcal{N}|\geqslant\frac{|D|^2}{6|A|}$ as desired. \hfill$\square$
+so that $|\mathcal{N}|\geqslant\frac{|D|^2}{6|A|}$ as desired. $\square$
 
 Next, we show that for at least half the elements $a\in\mathcal{N}$, there are many unordered pairs in $N(a)$ that intersect in a common element. Let us define
 

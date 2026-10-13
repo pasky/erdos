@@ -766,7 +766,7 @@ Using the trivial result $\sum_x\delta_{A,B}(x)=\left\lvert A\right\rvert\left\l
 
 $$E_s(A,B)\lesssim\left(\left\lvert A\right\rvert\left\lvert B\right\rvert^2\right)^{\frac{s-1}{2}}\left(\left\lvert A\right\rvert\left\lvert B\right\rvert\right)^{\frac{3-s}{2}}=\left\lvert A\right\rvert\left\lvert B\right\rvert^{\frac{s+1}{2}}.$$
 
-\hfill$\square$
+$\square$
 
 **Notation 3.3.** *For the rest of this section, for any set $A\subset\mathbb{R}$, we let*
 
@@ -1022,7 +1022,7 @@ $$
 E_s(A_0,B)\lesssim\lvert B\rvert^{\frac{1+s}{2}}\lvert A\rvert^{\frac{1}{2}\cdot(57-55s)}\lvert\Pi\rvert^{\frac{35}{4}(s-1)}\lvert A+A\rvert^{12(s-1)}.
 $$
 
-\hfill$\square$
+$\square$
 
 **Remark 3.6.** *We now stop using the notation $A_\lambda=A\cap\left(\frac{A}{\lambda}\right)$, and instead reserve subscripts for enumeration of sets.*
 

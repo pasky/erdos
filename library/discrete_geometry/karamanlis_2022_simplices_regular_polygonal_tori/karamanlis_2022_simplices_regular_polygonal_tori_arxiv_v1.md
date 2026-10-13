@@ -160,11 +160,11 @@ $$
 \left|\lVert f(x)-f(x')\rVert^2-|y(x)-y(x')|^2\right|\leq\frac{\pi n_0^2}{n}<\frac{\delta}{2}\tag{3.4}
 $$
 
-By (3.3) and (3.4) the proof is completed. \(\square\)
+By (3.3) and (3.4) the proof is completed. $\square$
 
 **Proposition 3.6.** *For every* $\delta>0$ *and every finite set* $X\subset\mathbb{R}^k$ *there exists* $m\in\mathbb{N}$ *and* $r>0$ *such that* $X$ *is* $\delta$-*embeddable into an* $(m,r)$-*regular polygonal torus* $T^k_{m,r}$.
 
-*Proof.* Let $X\subset\mathbb{R}^k$ and $\delta>0$. Let $\pi_i:\mathbb{R}^k\to\mathbb{R}$, $i\in[k]$ be the canonical projections. By Lemma 3.5, we may choose a common pair $(m,r)\in\mathbb{N}\times\mathbb{R}$ such that for every $i\in[k]$ there exists a $\delta/k$-embedding $f_i:\pi_i(X)\to T_{m,r}$. It is easy to see that the mapping $f:X\to\mathbb{R}^{2k}$ defined by $f(x)=(f_1(\pi_1(x)),\ldots,f_k(\pi_k(x))$ is a $\delta$-embedding of $X$ into $T^k_{m,r}$. \(\square\)
+*Proof.* Let $X\subset\mathbb{R}^k$ and $\delta>0$. Let $\pi_i:\mathbb{R}^k\to\mathbb{R}$, $i\in[k]$ be the canonical projections. By Lemma 3.5, we may choose a common pair $(m,r)\in\mathbb{N}\times\mathbb{R}$ such that for every $i\in[k]$ there exists a $\delta/k$-embedding $f_i:\pi_i(X)\to T_{m,r}$. It is easy to see that the mapping $f:X\to\mathbb{R}^{2k}$ defined by $f(x)=(f_1(\pi_1(x)),\ldots,f_k(\pi_k(x))$ is a $\delta$-embedding of $X$ into $T^k_{m,r}$. $\square$
 
 ### 3.3. Regular expansions of finite sets embed into a regular polygonal torus
 
@@ -201,7 +201,7 @@ $$
 \end{aligned}
 $$
 
-Therefore, $Y$ embeds into the $m$-regular polygonal torus $T$ and the proof is completed. \hfill$\square$
+Therefore, $Y$ embeds into the $m$-regular polygonal torus $T$ and the proof is completed. $\square$
 
 ## References
 

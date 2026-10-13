@@ -96,7 +96,7 @@ et2^s\frac{\binom{s^2}{s}}{\binom{2s^2}{s}}
 \geq et\exp\left(-2\sum_{i=1}^{s-1}\frac{i}{s^2}\right)\geq t
 $$
 
-times, yielding a red $K_{s,t}$, where we used the inequality $1-x\geq e^{-2x}$, valid for $x\in[0,\frac{1}{2}]$. \hfill$\square$
+times, yielding a red $K_{s,t}$, where we used the inequality $1-x\geq e^{-2x}$, valid for $x\in[0,\frac{1}{2}]$. $\square$
 
 By being a little more careful in the proof of Proposition 2.1, one can improve the bound by a factor of $8+o(1)$ to $\hat{r}(K_{s,t})\leq(e/2+o(1))s^2t2^s$, where the $o(1)$ term tends to 0 as $s\to\infty$. This can be done by picking $A$ of order $s^2/2$, $B$ of order $(e+o(1))t2^s$, using both red and blue stars out of vertices of $B$ and applying convexity, though we also need to be a little more careful with the inequalities. This stronger upper bound is also present in [16] and it follows from [28, Theorem 4.6] that it is asymptotically tight, i.e., that
 
@@ -124,7 +124,7 @@ $$
 
 where we may start the sum at $i=s$ as $i$ is the maximum index on an $s$-set of vertices and we use our assumptions that $t\geq s+2$ and $s\geq 2$ to evaluate the integral. In the final inequality, we use the bounds $\frac{s-1}{t-s-1}\leq s\leq 2^s\leq 2^t$ and $\frac{s}{s-1}\leq 2$, which hold since $t\geq s+2$ and $s\geq 2$.
 
-Now, suppose we color the edges of $G$ uniformly at random. Each copy of $K_{s,t}$ is monochromatic with probability $2^{1-st}$, so the expected number of monochromatic $K_{s,t}$ is at most $2(8e^2q/(st2^s))^t$. If we plug in $q=st2^s/100$, we find that the expected number of monochromatic $K_{s,t}$ is less than 1, which yields the desired result. \hfill$\square$
+Now, suppose we color the edges of $G$ uniformly at random. Each copy of $K_{s,t}$ is monochromatic with probability $2^{1-st}$, so the expected number of monochromatic $K_{s,t}$ is at most $2(8e^2q/(st2^s))^t$. If we plug in $q=st2^s/100$, we find that the expected number of monochromatic $K_{s,t}$ is less than 1, which yields the desired result. $\square$
 
 Note that in the upper bound argument, the worst case happens when all vertices in $B$ are incident with the same number of red and blue edges. However, in the lower bound argument, we colored all the edges uniformly at random, meaning that, for any given $b\in B$, the number of edges incident to $b$ that are colored red is binomially distributed. Usually, the difference between a binomial distribution and a hypergeometric distribution (where we condition on having equally many red and blue edges) is fairly minor, but it can have a significant effect when coloring, for instance, a complete bipartite graph between vertex sets $A$ and $B$ where $A$ is small. This suggests using a slightly different procedure for the lower bound, where we randomly color the edges from low-degree to high-degree vertices hypergeometrically rather than uniformly. This intuition is indeed at the heart of our proof of Theorem 1.1, although the actual coloring we use is somewhat more complicated: roughly speaking, we first dyadically partition according to degree and then use independent hypergeometric variables for each dyadic interval.
 
@@ -382,7 +382,7 @@ since $s \leq k \leq 2^k$. This shows that for every choice of $Q$ the expected 
 Next, we deal with blue books, so let $Q$ be a potential spine of a blue book. Since each $V_i$ is colored monochromatically in red, $Q$ contains at most one vertex from each $V_i$. Let $R=\{0\leq i\leq s: V_i\cap Q\neq\varnothing\}$ be the set of $i$ such that $Q$ contains a vertex from $V_i$ and let $r=\lvert R\rvert$. Then all the pages of a blue book whose spine is $Q$ must lie in $U\cup\bigcup_{j\notin R}V_j$. Since $r\leq s+1<k$, at least one vertex of $Q$ must be in $U$, so the number of common neighbors of $Q$ in $U$ is at most $D_s$. Each of these common neighbors forms a blue extension of $Q$ with probability $2^{r-k}\prod_{i\in R}(1-p_i)$. Additionally, for $j\notin R$, the probability that a common neighbor of $Q$ in $V_j$ yields a blue extension of $Q$ equals $(1-p_j)^{k-r}$. Therefore,
 
 $$
-\mathbb{E}[\ext(Q)]\leq D_s2^{r-k}\prod_{i\in R}(1-p_i)+\sum_{j\notin R}(1-p_j)^{k-r}\lvert V_j\rvert=\frac{n}{20}\prod_{i\in R}(2-2p_i)+\frac{n}{10}\sum_{j\notin R}(1-p_j)^{k-r}. \tag{3}
+\mathbb{E}[\operatorname{ext}(Q)]\leq D_s2^{r-k}\prod_{i\in R}(1-p_i)+\sum_{j\notin R}(1-p_j)^{k-r}\lvert V_j\rvert=\frac{n}{20}\prod_{i\in R}(2-2p_i)+\frac{n}{10}\sum_{j\notin R}(1-p_j)^{k-r}. \tag{3}
 $$
 
 By definition, we see that $0\leq p_i\leq\frac{1}{2}$ for all $i$. Moreover, for $j\geq 1$, we have that
@@ -424,10 +424,10 @@ $$
 Thus, the first term in (3) is at most $\frac{e^{1/3}}{10}n<\frac{n}{5}$. Plugging all this into (3), we conclude that for every choice of a potential blue spine $Q$,
 
 $$
-\mathbb{E}[\ext(Q)]\leq\frac{n}{5}+\frac{n}{5}\leq\frac{n}{2}.
+\mathbb{E}[\operatorname{ext}(Q)]\leq\frac{n}{5}+\frac{n}{5}\leq\frac{n}{2}.
 $$
 
-Thus, for every $k$-tuple $Q$ of vertices, the expected number of pages in a monochromatic book whose spine is $Q$ is at most $n/2$. The random variable $\ext(Q)$ can be expressed as the sum of independent $\{0,1\}$-valued random variables. Therefore, Lemma 3.1 implies that, for any fixed $Q$, we have $\pr(\ext(Q)\geq n)\leq e^{-n/6}$. Recalling that the number of vertices in $G$ is $N\leq 2q$, we see that the total number of choices for $Q$ is at most
+Thus, for every $k$-tuple $Q$ of vertices, the expected number of pages in a monochromatic book whose spine is $Q$ is at most $n/2$. The random variable $\operatorname{ext}(Q)$ can be expressed as the sum of independent $\{0,1\}$-valued random variables. Therefore, Lemma 3.1 implies that, for any fixed $Q$, we have $\Pr(\operatorname{ext}(Q)\geq n)\leq e^{-n/6}$. Recalling that the number of vertices in $G$ is $N\leq 2q$, we see that the total number of choices for $Q$ is at most
 
 $$
 \binom{N}{k}\leq N^{k}\leq(k2^{k}n^{2})^{k}\leq\exp(k^{2}+2k\ln n),
@@ -444,7 +444,7 @@ since $\sqrt{n}>16k$. Therefore, taking a union bound over all choices of $Q$, w
 By being slightly more careful in the proof of Theorem 3.3, we can show that the bound already holds when $n\geq Ck\log k$ for an appropriate constant $C$. To accomplish this, we count the expected number of $k$-cliques $Q$ in $G$ that extend to a monochromatic $B_{n}^{(k)}$ as
 
 $$
-\sum_{Q}\pr(Q\text{ is monochromatic})\pr(\ext(Q)\geq n\mid Q\text{ is monochromatic}).
+\sum_{Q}\Pr(Q\text{ is monochromatic})\Pr(\operatorname{ext}(Q)\geq n\mid Q\text{ is monochromatic}).
 $$
 
 We then split this sum according to how many vertices of $Q$ are in $U$. Indeed, if we let $t$ be the number of vertices in $Q\cap U$, then Lovász’s version of the Kruskal–Katona theorem [27, Exercise 13.31] tells us that, provided $t\geq 2$, the number of ways of choosing the $t$ vertices of $Q$ in $U$ is at most $(2q)^{t/2}/t!$. By using this bound and carefully estimating the probability that $Q$ is monochromatic, one can obtain the claimed result.
@@ -468,7 +468,7 @@ To complement the regularity lemma, we have the following consequence of the cou
 **Lemma 3.5.** Fix $k\geq 2$ and let $\varepsilon,\delta\in(0,\frac{1}{2})$ be parameters with $\varepsilon\leq\delta^{3k^2}$. Let $X$ be a set of vertices in a graph $G$ and suppose that $X$ is $\varepsilon$-regular with edge density at least $\delta$. Then $X$ contains at least one $K_k$. Moreover, if $Q$ is a randomly chosen copy of $K_k$ in $X$, then, for any $u\in V(G)$,
 
 $$
-\pr(u\text{ extends }Q)\geq d(u,X)^k-\delta.
+\Pr(u\text{ extends }Q)\geq d(u,X)^k-\delta.
 $$
 
 The final tool we need concerns good configurations, which we now define.
@@ -563,11 +563,11 @@ In summary, each part $V_j$ for $1\leq j\leq j^*$ has exactly $n$ vertices and e
 
 To prove the upper bound on $\hat{r}(S_n^{(k)})$, we need to recollect some facts about random graphs. We use $G(N,p)$ to denote the Erdős–Rényi random graph with $N$ vertices where each edge is chosen independently with probability $p$, saying that an event happens *with high probability (w.h.p.)* if the probability it holds in $G(N,p)$ tends to $1$ as $N$ tends to $\infty$.
 
-The first result we need is a version of Turán’s theorem relative to random graphs. This is a well-studied topic, culminating in works by Conlon–Gowers [11] and Schacht [31], who determined the threshold for Turán’s theorem to hold in this setting (see also [1, 30] for subsequent proofs using the method of hypergraph containers). However, we only need a rather weak version, so the following earlier result of Szabó and Vu [32], with explicit bounds on the error probability, more than suffices for our purposes. For a graph $G$, we use $\ex(G,K_k)$ to denote the maximum number of edges in a $K_k$-free subgraph of $G$.
+The first result we need is a version of Turán’s theorem relative to random graphs. This is a well-studied topic, culminating in works by Conlon–Gowers [11] and Schacht [31], who determined the threshold for Turán’s theorem to hold in this setting (see also [1, 30] for subsequent proofs using the method of hypergraph containers). However, we only need a rather weak version, so the following earlier result of Szabó and Vu [32], with explicit bounds on the error probability, more than suffices for our purposes. For a graph $G$, we use $\operatorname{ex}(G,K_k)$ to denote the maximum number of edges in a $K_k$-free subgraph of $G$.
 
 **Theorem 4.3 ([32, Theorem 1.2]).** *For every $k\geq 4$ and $\varepsilon>0$, there exist constants $C,c>0$ such that the following holds for all sufficiently large $N$. If $p\geq CN^{-2/(2k-3)}$ and $G\sim G(N,p)$, then*
 
-$$\pr\left(\ex(G,K_k)\leq\left(1-\frac{1}{k-1}+\varepsilon\right)p\binom{N}{2}\right)\geq 1-2^{-cpN^2}.$$
+$$\Pr\left(\operatorname{ex}(G,K_k)\leq\left(1-\frac{1}{k-1}+\varepsilon\right)p\binom{N}{2}\right)\geq 1-2^{-cpN^2}.$$
 
 The following lemma records the facts about $G(N,p)$ used in our proof of the upper bound on $\hat{r}(S_n^{(k)})$. We use the notation $x=y\pm z$ to mean that $x$ lies in the interval $[y-z,y+z]$. Recall too that $d(X,Y)$ denotes the edge density between vertex sets $X,Y$.
 

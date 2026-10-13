@@ -104,7 +104,7 @@ $$
 
 Let $a_1,a_2\in A_1$ be such that $a_1\geq a_2+d$ and $a_1\equiv a_2\pmod{d}$. Then $a_2\in\{a_1+d,a_1+2d,a_1+3d,\ldots\}\subseteq\mathcal{P}'(A)$. $\blacksquare$
 
-**3. Dense sum-free sets.** We conclude the note with an example of a sum-free set $A$ such that for each $n$ large enough we have $A(n)\geq $n^{1/2}\log^{-1/2-\varepsilon} n$, where $\varepsilon>0$ can be chosen arbitrarily small. In our con-  
+**3. Dense sum-free sets.** We conclude the note with an example of a sum-free set $A$ such that for each $n$ large enough we have $A(n)\geq n^{1/2}\log^{-1/2-\varepsilon} n$, where $\varepsilon>0$ can be chosen arbitrarily small. In our con-  
 struction we use a method of Deshoulliers, Erdős and Melfi [1] who showed  
 that one can slightly “perturb” the set of all cubes to get a sum-free set. We  
 remark that the fact that this approach can be used to build dense sum-free  

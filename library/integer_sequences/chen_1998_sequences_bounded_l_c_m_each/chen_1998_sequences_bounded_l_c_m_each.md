@@ -74,7 +74,7 @@ where $|\theta| \leq 1$ and $\gg$ depends only on $M$ and $c_0$. From this we ob
 
 *Note.* $a_i$ and $b_i$ may depend on $x$, $c_0$, $c_1$ and $c_2$. $x_0(M, c_0)$ can be effectively computed. For a stronger result one should use Brun's sieve. Here the conclusion is sufficient for the present paper.
 
-**LEMMA 2.** *Let $c_i$ ($3 \leq i \leq 6$) be nonnegative real numbers with $c_4 > c_3$. Let $D$ and $M$ be integers with $|D| \leq c_5 x^{c_6}$ and with each prime factor of $D* *exceeding*
+**LEMMA 2.** *Let $c_i$ ($3 \leq i \leq 6$) be nonnegative real numbers with $c_4 > c_3$. Let $D$ and $M$ be integers with $|D| \leq c_5 x^{c_6}$ and with each prime factor of $D$ exceeding*
 
 $$
 \frac{1}{6\log M}\log x.
@@ -527,7 +527,7 @@ $$\sum_{i=1}^{t+1} k_i^{(v)} - \sum_{i=1}^t n_{ij}^{(v)} \geq 0.$$
 
 By Lemma 4 there exist nonnegative integers $n_{(t+1)j}^{(v)}$ ($1 \leq j \leq n; v = 0, 1$) such that
 
-$$n_{(t+1)j}^{(v)} \leq \sum_{i=1}^{t+1} k_i^{(v)} - \sum_{i=1}^t n_{ij}^{(v)}, \quad j = 1, \ldots, n,$$$
+$$n_{(t+1)j}^{(v)} \leq \sum_{i=1}^{t+1} k_i^{(v)} - \sum_{i=1}^t n_{ij}^{(v)}, \quad j = 1, \ldots, n,$$
 
 and
 
@@ -837,8 +837,8 @@ That is,
 
 $$
 \begin{aligned}
-f(t)={}&\sum_{-T\leq i\leq t}\left(\sum_{-T\leq j\leq -1}|A_{ij}\setminus A_{(i-1)j}|q^j(q-1)\\
-&+\frac{1}{2}\sum_{0\leq j\leq L-1}|A_{ij}\setminus A_{(i-1)j}|(q-1)(q^j-q^{-j-1})\right)+\varepsilon_t(1-q^{-1}),
+f(t)={}&\sum_{-T\leq i\leq t}\Biggl(\sum_{-T\leq j\leq -1}|A_{ij}\setminus A_{(i-1)j}|q^j(q-1)\\
+&+\frac{1}{2}\sum_{0\leq j\leq L-1}|A_{ij}\setminus A_{(i-1)j}|(q-1)(q^j-q^{-j-1})\Biggr)+\varepsilon_t(1-q^{-1}),
 \end{aligned}
 $$
 
@@ -1005,7 +1005,7 @@ f(t)&\geq\min\left\{2q^t-q^{-t+1}q^{2t},\,2\left(q^t-\frac{1}{2}\right)-q^{-t+1}
 \end{aligned}
 $$
 
-The last three inequalities hold for all sufficiently large $L$. If $q^t-1<[q^t]< $q^t - 1/2$ and $q^t \geq 2$ (i.e. $t \geq 2L$), then
+The last three inequalities hold for all sufficiently large $L$. If $q^t-1<[q^t]<q^t - 1/2$ and $q^t \geq 2$ (i.e. $t \geq 2L$), then
 
 $$\begin{aligned}
 \delta(t) &=

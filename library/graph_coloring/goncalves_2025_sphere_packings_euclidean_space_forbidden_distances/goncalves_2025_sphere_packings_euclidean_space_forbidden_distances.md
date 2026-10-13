@@ -6,21 +6,21 @@ ABSTRACT. We study the sphere packing problem in Euclidean space where we impose
 
 ## CONTENTS
 
-1. Introduction \hfill 2  
-1.1. Motivation \hfill 2  
-1.2. Main results \hfill 3  
-2. Further main results \hfill 6  
-2.1. One-dimensional sphere packings \hfill 11  
-3. Generalities \hfill 12  
-3.1. Proof of Theorem 3. \hfill 16  
-4. One-dimensional packings and dominos \hfill 18  
-5. Proof of Theorem 6 \hfill 22  
-6. Constructions via modular forms \hfill 24  
-7. Proof of Theorem 1 \hfill 31  
-8. Proof of Theorem 4 \hfill 32  
-9. Proof of Theorems 2 and 5 \hfill 38  
-Acknowledgements \hfill 39  
-References \hfill 39
+1. Introduction 2  
+1.1. Motivation 2  
+1.2. Main results 3  
+2. Further main results 6  
+2.1. One-dimensional sphere packings 11  
+3. Generalities 12  
+3.1. Proof of Theorem 3. 16  
+4. One-dimensional packings and dominos 18  
+5. Proof of Theorem 6 22  
+6. Constructions via modular forms 24  
+7. Proof of Theorem 1 31  
+8. Proof of Theorem 4 32  
+9. Proof of Theorems 2 and 5 38  
+Acknowledgements 39  
+References 39
 
 ## 1. Introduction
 
@@ -876,7 +876,7 @@ $$
 
 where in the first equality, we have applied condition (d) and that $\Lambda$ is closed by $\lambda\to-1/\lambda$, in the second equality, we used the change of variables $z\to-1/z$, and in the last, we have applied condition (c).
 
-\hfill$\square$
+$\square$
 
 **Remark 2.** *It is straightforward to show that if we strengthen condition (a) to*
 
@@ -1086,7 +1086,7 @@ $$
 \end{aligned}
 $$
 
-This proves item (4). \hfill $\square$
+This proves item (4). $\square$
 
 ## 7. Proof of Theorem 1
 

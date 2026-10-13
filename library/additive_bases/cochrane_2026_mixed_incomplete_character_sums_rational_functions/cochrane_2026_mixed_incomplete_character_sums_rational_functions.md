@@ -509,7 +509,7 @@ $$
 \frac{1}{p^m}\sum_{\substack{n\\(\bmod p^m)}}\chi(f(n))e\left(\frac{g(n)}{p^m}\right)=e\left(\frac{g(0)}{p^m}\right)\cdot\frac{1}{p^\ell}\sum_{\substack{n\\(\bmod p^\ell)}}\psi(f(n)).
 $$
 
-If $\ell=1$ then we can apply Proposition 3 unless $f(x)\equiv cF(x)^r\pmod p$. Since $p\nmid\Delta(f)$ we deduce that this only happens when $f(x)=cF(x)^r$ where $r_\psi=r_\chi$. For $\ell\geq 2$ our bound then follows, as above, from Corollary 5. \hfill$\square$
+If $\ell=1$ then we can apply Proposition 3 unless $f(x)\equiv cF(x)^r\pmod p$. Since $p\nmid\Delta(f)$ we deduce that this only happens when $f(x)=cF(x)^r$ where $r_\psi=r_\chi$. For $\ell\geq 2$ our bound then follows, as above, from Corollary 5. $\square$
 
 ## 5. The application in practice
 
@@ -527,8 +527,7 @@ g^{+}_{\left[\begin{array}{c}h_{1,0},\ldots,h_{\ell,0}\\
 h_{1,1},\ldots,h_{\ell,1}\end{array}\right]}(t)=\sum_{j_1,\ldots,j_\ell\in\{0,1\}}\sigma(\mathbf{j})\cdot g(t+h_{1,j_1}q_1+\cdots+h_{\ell,j_\ell}q_\ell),
 $$
 
-with $\sigma(\mathbf{j})=(-1)^{j_1+\cdots+j_\ell}$. We wish to apply Theorem 2 and Corollary 5 with $f=f^*$ and $g=g^+$ (and with $g=g^++b$ for an arbitrary constant $b$). By definition, the leading coefficient of $f^{*}_{\left[\begin{array}{c}h_{1,0},\ldots,h_{k,0}\\
-h_{1,1},\ldots,h_{k,1}\end{array}\right]}(t)$ will be 1 for all $k\geq 1$.
+with $\sigma(\mathbf{j})=(-1)^{j_1+\cdots+j_\ell}$. We wish to apply Theorem 2 and Corollary 5 with $f=f^*$ and $g=g^+$ (and with $g=g^++b$ for an arbitrary constant $b$). By definition, the leading coefficient of $f^{*}_{\left[\begin{array}{c}h_{1,0},\ldots,h_{k,0}\\ h_{1,1},\ldots,h_{k,1}\end{array}\right]}(t)$ will be 1 for all $k\geq 1$.
 
 **5.1. The $p$-divisibility of the rational function differences.** This is the key new result in this article.
 
@@ -900,7 +899,7 @@ $$
 |\mathbb{E}_q(a)|^2\leq\frac{2(M+1)^2r^2}{N^2}+\frac{2}{M}+\frac{2}{M^2}\sum_{1\leq i\neq j\leq M}\mathbb{E}_Q(A_{(ir,jr)}),
 $$
 
-so that (9) holds. \hfill $\square$
+so that (9) holds. $\square$
 
 ### 6.2. Iterating the first bound.
 
@@ -1172,7 +1171,7 @@ $$
 \left|\frac{1}{N}\sum_{n\in I}\chi(f(n))e\left(\frac{g(n)}{q}\right)\right|\ll kN^{-\frac{\epsilon}{2^k}}+(Q^*)^{-\frac{1}{2^k\cdot 12D}}\ll (Q^*)^{-\eta} \tag{12}
 $$
 
-since $kN^{-\frac{\epsilon}{2^k}}<N^{\eta-\frac{\epsilon}{2^k}}<N^{-\eta}<(Q^*)^{-\eta}$ as $Q^*<Q<N$. \hfill$\square$
+since $kN^{-\frac{\epsilon}{2^k}}<N^{\eta-\frac{\epsilon}{2^k}}<N^{-\eta}<(Q^*)^{-\eta}$ as $Q^*<Q<N$. $\square$
 
 With this established we can prove our main theorem:
 
@@ -1395,15 +1394,15 @@ Amer. Math. Soc. **4** (1991), 793–835.
 
 [18] P. Xi and J. Zheng, *On the Brun–Titchmarsh theorem. I*, arXiv:2404.01003 [math.NT].
 
-\textsc{Dept. of Mathematics, Kansas State University, Manhattan, KS 66506}  
-\emph{Email address:} \texttt{cochrane@math.ksu.edu}
+Dept of Mathematics, Kansas State University, Manhattan, KS 66506  
+*Email address*: `cochrane@math.ksu.edu`
 
-\textsc{Département de Mathématiques et Statistique, Université de Montréal, CP 6128}  
-\textsc{Succ Centre-Ville, Montréal, QC H3C 3J7, Canada.}  
-\emph{Email address:} \texttt{and.granville@gmail.com}
+Départment de Mathématiques et Statistique, Université de Montréal, CP 6128  
+succ Centre-Ville, Montréal, QC H3C 3J7, Canada.  
+*Email address*: `and.granville@gmail.com`
 
-\textsc{Junren Zheng, School of Mathematics and Statistics, Xi’an Jiaotong University,}  
-\textsc{Xi’an, China, Xi’an, 710049, P. R. China and Département de Mathématiques et Statis-}  
-\textsc{tique, Université de Montréal, CP 6128 Succ Centre-Ville, Montréal, QC H3C 3J7,}  
-\textsc{Canada.}  
-\emph{Email address:} \texttt{junrenzheng03@gmail.com}
+Junren Zheng, School of Mathematics and Statistics, Xi’an Jiaotong University,  
+Xi’an, China, Xi’an, 710049, P. R. China and Départment de Mathématiques et Statis-  
+tique, Université de Montréal, CP 6128 succ Centre-Ville, Montréal, QC H3C 3J7,  
+Canada.  
+*Email address*: `junrenzheng03@gmail.com`

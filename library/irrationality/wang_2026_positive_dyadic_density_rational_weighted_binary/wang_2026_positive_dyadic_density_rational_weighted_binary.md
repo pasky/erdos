@@ -328,7 +328,7 @@ $$
 O_Q\!\left(L^2\frac{X}{R_X}|I_j|\right)=o(X|I_j|)\qquad(R_X=X^{1/2+\rho_Q}).
 $$
 
-Restrictions of this aggregate set to subcollections of cells use the same owner, and the same convention applies to local verifier exceptions. By Definition C.1, the first failed predicate is either a named stopped class or a restriction of an aggregate owner. Output-map forgetful steps range over finitely many $Q$-dependent residues; the resulting finite multiplicities are the recorded output-map constants, and the dirty-return envelope is assigned once to the Return class. The descent in Theorem 6.4 uses the one-step recurrence twice and has a fixed output list. Hence it takes only a fixed finite union of admissible families, absorbed by enlarging $\eta_X$ by a constant factor. \hfill$\square$
+Restrictions of this aggregate set to subcollections of cells use the same owner, and the same convention applies to local verifier exceptions. By Definition C.1, the first failed predicate is either a named stopped class or a restriction of an aggregate owner. Output-map forgetful steps range over finitely many $Q$-dependent residues; the resulting finite multiplicities are the recorded output-map constants, and the dirty-return envelope is assigned once to the Return class. The descent in Theorem 6.4 uses the one-step recurrence twice and has a fixed output list. Hence it takes only a fixed finite union of admissible families, absorbed by enlarging $\eta_X$ by a constant factor. $\square$
 
 **Proposition 4.4** (Starred area stability). *For every active $s,j,Y$,*
 
@@ -341,7 +341,7 @@ $$
 
 *Proof.* The star keeps the fixed endpoint, carry, and threshold margins through the old/new split. Removing those margins changes only the collar families listed in Proposition 4.3. On the complement of those collars the starred and unstarred event fibres, weights, and threshold coordinates are identical, so the difference is exactly the mass of an admissible family, proving (4.6b).
 
-The proof of Theorem 6.1 is fibrewise up to the final summation. Running it on starred fibres only postpones deletion of the same fixed collars; on the common interior the stopping labels, output maps, TRT traces, and local selectors are functions of the same event states. If any record changes, the event lies in the starred-margin row of Definition 4.2. The two active recurrence applications in the final descent are therefore absorbed by Proposition 4.3 into one $o(rX|I_0|)$ term. \hfill$\square$
+The proof of Theorem 6.1 is fibrewise up to the final summation. Running it on starred fibres only postpones deletion of the same fixed collars; on the common interior the stopping labels, output maps, TRT traces, and local selectors are functions of the same event states. If any record changes, the event lies in the starred-margin row of Definition 4.2. The two active recurrence applications in the final descent are therefore absorbed by Proposition 4.3 into one $o(rX|I_0|)$ term. $\square$
 
 For the final descent use the constants fixed above. With
 
@@ -584,7 +584,7 @@ $$
 
 with the explicit dirty-return envelope kept in the Return term. This displayed inequality is only the finite-forgetting part of the ledger. CleanCNL has already been handled by the aggregate entropy estimate above; it is not a refined-to-coarse multiplicity bound. The classwise checks are Lemmas B.35–B.42, with Lemma B.40 recording the separate CleanCNL aggregate estimate. Consequently Progress/Endpoint and bounded terminal outputs enter the fixed low/paid/old-height protocol of Definition B.50, with variation-drop and aggregate pieces removed before that routing is applied, and CleanCNL is already part of the exponential tail.
 
-*Same-threshold feedback.* Feedback can occur only among Return, Run, and Tower, and these successors are handled by the same-threshold compression. Theorem B.88 follows the live same-threshold successor on the fixed $T$-event set; each live step removes a pivot atom from the remaining trace, so live chains are finite pointwise in $T$. Non-live successors either land in one of the terminal output classes just described or cross below $T+Y$, in which case they contribute to $\operatorname{VarDrop}_{s,j}(Y)$. Endpoint collars and progress leakage are included in $\operatorname{OldRes}_{s,j}(Y)$. Summing the disjoint pieces gives the recurrence. \hfill$\square$
+*Same-threshold feedback.* Feedback can occur only among Return, Run, and Tower, and these successors are handled by the same-threshold compression. Theorem B.88 follows the live same-threshold successor on the fixed $T$-event set; each live step removes a pivot atom from the remaining trace, so live chains are finite pointwise in $T$. Non-live successors either land in one of the terminal output classes just described or cross below $T+Y$, in which case they contribute to $\operatorname{VarDrop}_{s,j}(Y)$. Endpoint collars and progress leakage are included in $\operatorname{OldRes}_{s,j}(Y)$. Summing the disjoint pieces gives the recurrence. $\square$
 
 **Corollary 6.2 (Starred one-step recurrence).** *Under the hypotheses of Theorem 6.1, the same recurrence holds with $\mathcal{A}^{*}_{s,j}(Y)$ on the left:*
 
@@ -598,7 +598,7 @@ $$
 
 *The output terms are the same terms as in (6.1); only the single admissible collar error changes.*
 
-*Proof.* By Proposition 4.4, $\mathcal{A}^{*}_{s,j}(Y)\leq\mathcal{A}_{s,j}(Y)+o(sX|I_j|)$. Apply Theorem 6.1 to the unstarred area. The classwise part of Proposition 4.4 identifies the output maps on the common interior and assigns any changed stopping or output record to the starred-margin row of Definition 4.2. The new collar contribution is admissible by Proposition 4.3, so it is absorbed into the displayed $o(sX|I_j|)$ term. \hfill$\square$
+*Proof.* By Proposition 4.4, $\mathcal{A}^{*}_{s,j}(Y)\leq\mathcal{A}_{s,j}(Y)+o(sX|I_j|)$. Apply Theorem 6.1 to the unstarred area. The classwise part of Proposition 4.4 identifies the output maps on the common interior and assigns any changed stopping or output record to the starred-margin row of Definition 4.2. The new collar contribution is admissible by Proposition 4.3, so it is absorbed into the displayed $o(sX|I_j|)$ term. $\square$
 
 **Proposition 6.3 (Compressed Return–Run–Tower budget).** *For every active $s,j,Y$, the Return, Run, and Tower terms in (6.1) satisfy the joint bound*
 
@@ -1239,7 +1239,7 @@ $$
 
 for some integer $a$. In lowest terms write $M_w/D=a'/q$. Since $q\mid g$, the denominator $q$ is odd and $q\leq g\leq Qp$. If $q=1$, then the purely periodic binary expansion is all zero or all one. Since $w$ is nonzero and primitive, this leaves only the all-one word of primitive period $p=1$, whose density is one.
 
-Assume now $q>1$ and put $d=\operatorname{ord}_q(2)$. The purely periodic binary expansion of $a'/q$ has period $d$. But $M_w/D$ is exactly $0.\overline{w}_2$. If $d<p$, then $w$ repeats with period $d$, contrary to the primitivity of $w. Hence $d=p$. Applying Lemma A.14 with $C=Q$ gives at least $(p+1)/(2Q)$ ones in the period, and therefore
+Assume now $q>1$ and put $d=\operatorname{ord}_q(2)$. The purely periodic binary expansion of $a'/q$ has period $d$. But $M_w/D$ is exactly $0.\overline{w}_2$. If $d<p$, then $w$ repeats with period $d$, contrary to the primitivity of $w$. Hence $d=p$. Applying Lemma A.14 with $C=Q$ gives at least $(p+1)/(2Q)$ ones in the period, and therefore
 
 $$
 \operatorname{dens}(w)\geq\frac{p+1}{2Qp}\geq\frac{1}{3Q}.
@@ -1362,7 +1362,7 @@ $$
 B=L+C_Q\log p+C_Q.
 $$
 
-For $C_Q$ large enough, (A.3) gives distance $<2^{-(p-B)}$ on the circle. Choose the representative of $\nu/q$ whose circular distance to $M_w/D$ is minimal. If the interval between the two points crosses 0, the first binary cylinders are adjacent at the cut; otherwise the two points lie in the same ordinary binary interval of length $2^{-(p-B)}. In the same-cylinder case the first $p-B$ digits agree. In the adjacent-cylinder case the two binary words have the form
+For $C_Q$ large enough, (A.3) gives distance $<2^{-(p-B)}$ on the circle. Choose the representative of $\nu/q$ whose circular distance to $M_w/D$ is minimal. If the interval between the two points crosses 0, the first binary cylinders are adjacent at the cut; otherwise the two points lie in the same ordinary binary interval of length $2^{-(p-B)}$. In the same-cylinder case the first $p-B$ digits agree. In the adjacent-cylinder case the two binary words have the form
 
 $$
 \xi011\cdots1,\qquad \xi100\cdots0
@@ -1651,7 +1651,7 @@ All minima use the stopping order of Definition B.11. Thus Endpoint, Progress, D
 **Definition B.14 (Primitive stopping predicates).** *After the old fibre has been removed and the shell-tagged weight has been charged, a residual-tagged state $\omega=(b,T,\zeta)\in\mathscr{E}^{\rm new}_{s,j}(T,Y)$ carries the actual start, threshold, endpoint/carry quotients, side label, visible $m$-strip transcript, height multipliers, and the ordered visible list $\mathcal{V}(\omega)$. For $e\in\mathcal{V}(\omega)$ the raw coordinates are
 
 $$
-\begin{array}{@{}rcl@{}}
+\begin{array}{rcl}
 \eta_e(\omega)&\in&\mathcal{R}_Q\quad\text{endpoint/carry residue and collar flag},\\
 \gamma_e(\omega)&\in&\mathcal{G}_Q\cup\{\dagger\}\quad\text{condensation vertex, or outside symbol},\\
 J_e(\omega),\,N_{J_e}(\omega),\,o_e(\omega)&&\text{owned endpoint block, raw hit count, and earliest owner},\\
@@ -2121,7 +2121,7 @@ $$
 C_Q^M2^{-cY}\leq 2^{-c'Y}.
 $$
 
-Thus the surviving clean CNL contribution is part of the same exponential tail as the shell-paid branches. The estimate uses the weighted path sum; it never uses a pointwise output multiplicity of size $2^{-cY}$. \hfill$\square$
+Thus the surviving clean CNL contribution is part of the same exponential tail as the shell-paid branches. The estimate uses the weighted path sum; it never uses a pointwise output multiplicity of size $2^{-cY}$. $\square$
 
 We turn from the CleanCNL entropy estimate to the ordinary terminal outputs. Here an output map means an exact refined push-forward followed by finite coarse forgetting. CleanCNL has already been paid by the Kraft-weighted estimate above; the classwise lemmas below only check the finite reconstruction needed for the ordinary terminal carriers.
 
@@ -3502,7 +3502,7 @@ $$
 h_\lambda\frac{b_\lambda}{c_\lambda}\leq\frac{31}{1536}
 $$
 
-by Definition C.36, so (C.4b) with $\alpha=31/1536$ gives the normalized safe-cone estimate. \hfill$\square$
+by Definition C.36, so (C.4b) with $\alpha=31/1536$ gives the normalized safe-cone estimate. $\square$
 
 **Definition C.38** (Off-pin recurrent row classifier). After the refined vertex has recorded terminal label, endpoint quotient, carry quotient, side label, primitive-period class, and stopping key, the off-pin recurrent row is read by the following finite ordered classifier. A *high-exit trigger* means that the row has at least two exit phases and fails the safe exposure inequality:
 
@@ -3534,7 +3534,7 @@ $$
 
 *This contribution is included in the $X|I_j|$ ambient-support term of Proposition C.49.*
 
-*Proof.* The high-exit predicate is read only after DensePack, Return, Run, Tower, Endpoint/Progress, fixed-pin, denominator-seven, and OldRes have already been separated. What remains is a disjoint refinement of the same post-stopping start–threshold event space used for off-pin exposure. Forgetting the recurrent cell label maps this subcollection into $[X,2X]\times I_j$, with only the global endpoint/carry/tie collars removed. Hence its mass is bounded by the ambient support bound $X|I_j|+o(X|I_j|)$. \hfill$\square$
+*Proof.* The high-exit predicate is read only after DensePack, Return, Run, Tower, Endpoint/Progress, fixed-pin, denominator-seven, and OldRes have already been separated. What remains is a disjoint refinement of the same post-stopping start–threshold event space used for off-pin exposure. Forgetting the recurrent cell label maps this subcollection into $[X,2X]\times I_j$, with only the global endpoint/carry/tie collars removed. Hence its mass is bounded by the ambient support bound $X|I_j|+o(X|I_j|)$. $\square$
 
 **Lemma C.40** (Non-exit-light cells delete or are safe). *Let $\lambda$ be a post-collar off-pin recurrent cell whose primitive transfer has not been assigned to the bounded-period carrier. If its exit-phase count is not $b_\lambda=1$, then either an earlier terminal class or verifier dispatch selects the cell, or*
 
@@ -3542,7 +3542,7 @@ $$
 1536h_\lambda b_\lambda\leq31c_\lambda,\qquad h_\lambda=\left\lfloor\frac{r+c_\lambda}{c_\lambda}\right\rfloor.
 $$
 
-*Proof.* Definition C.38 is exhaustive. The zero-exit, bounded-period, and earlier terminal/verifier rows are separated first. If $b_\lambda\geq2$, failure of the safe inequality is assigned to the high-exit ambient carrier of Lemma C.39. Hence a surviving non-safe row outside that carrier must be exit-light. \hfill$\square$
+*Proof.* Definition C.38 is exhaustive. The zero-exit, bounded-period, and earlier terminal/verifier rows are separated first. If $b_\lambda\geq2$, failure of the safe inequality is assigned to the high-exit ambient carrier of Lemma C.39. Hence a surviving non-safe row outside that carrier must be exit-light. $\square$
 
 **Definition C.41** (Unsafe exit-light long-cycle set). The unsafe off-pin set $\mathfrak{C}_{\rm unsafe}^{\rm offpin}$ consists of post-stopping off-pin recurrent cells remaining after bounded-period outputs and non-exit-light rows are separated, with
 
@@ -3554,7 +3554,7 @@ The phrase post-stopping includes separation of endpoint/carry collars, DensePac
 
 **Lemma C.42** (Safe complement is the unsafe set). *After the bounded-period carrier and earlier terminal classes or verifier dispatches are separated, every off-pin recurrent cell outside the safe exposure cone belongs to $\mathfrak{C}_{\rm unsafe}^{\rm offpin}$.*
 
-*Proof.* After bounded-period and terminal or verifier rows are separated, Lemma C.40 leaves only $b_\lambda=1$. Short exit-light rows are in the bounded-period class, so $c_\lambda\geq64$; outside the safe cone is then exactly (C.10c). \hfill$\square$
+*Proof.* After bounded-period and terminal or verifier rows are separated, Lemma C.40 leaves only $b_\lambda=1$. Short exit-light rows are in the bounded-period class, so $c_\lambda\geq64$; outside the safe cone is then exactly (C.10c). $\square$
 
 **Lemma C.43** (Unsafe exposure forces sublinear period). *If $c\geq64$ and*
 
@@ -3576,7 +3576,7 @@ $$
 31c^2<1536r+1536c.
 $$
 
-For $c\geq64$, $1536c\leq24c^2$. Hence $7c^2<1536r$, and $1536/7<220$. Thus $c<\sqrt{220(\kappa L+1)}$ in the active regime. The constants $P_{\rm bdd}$ and $C_Q$ are fixed before $L\to\infty$, so $\sqrt{220(\kappa L+1)}\leq P_{\rm bdd}L+C_Q$ for all sufficiently large active scales. The finitely many smaller scales are part of the initial-scale collar already excluded from the stopping recurrence. \hfill$\square$
+For $c\geq64$, $1536c\leq24c^2$. Hence $7c^2<1536r$, and $1536/7<220$. Thus $c<\sqrt{220(\kappa L+1)}$ in the active regime. The constants $P_{\rm bdd}$ and $C_Q$ are fixed before $L\to\infty$, so $\sqrt{220(\kappa L+1)}\leq P_{\rm bdd}L+C_Q$ for all sufficiently large active scales. The finitely many smaller scales are part of the initial-scale collar already excluded from the stopping recurrence. $\square$
 
 **Definition C.44** (Bounded-period gate). For a refined recurrent row $\lambda$, let $p_\lambda$ be the primitive period of its labelled transfer transcript after terminal label, endpoint quotient, carry quotient, side label, and threshold layer have been fixed. The bounded-period carrier is the union of all rows with
 
@@ -3720,7 +3720,7 @@ d(a)=
 \end{cases} \tag{C.5b}
 $$
 
-*Proof.* The retained fixed row is a period-one transition in the refined terminal-labelled graph. Its visible block has first gap $g$ and returns to the same refined state. Between a hit and its translated successor there is no intermediate hit; otherwise the first intermediate hit would give a smaller visible gap and hence a run, shorter-period, or off-pin witness before fixed-pin retention. Thus the actual spatial coordinate advances through the phases of the word $10^{g-1}$, and after $g$ steps returns to the hit phase. The argument uses the actual start translation in the carry row, not a digit reading from the fractional orbit $(R_n/Q)\bmod 1$.\hfill$\square$
+*Proof.* The retained fixed row is a period-one transition in the refined terminal-labelled graph. Its visible block has first gap $g$ and returns to the same refined state. Between a hit and its translated successor there is no intermediate hit; otherwise the first intermediate hit would give a smaller visible gap and hence a run, shorter-period, or off-pin witness before fixed-pin retention. Thus the actual spatial coordinate advances through the phases of the word $10^{g-1}$, and after $g$ steps returns to the hit phase. The argument uses the actual start translation in the carry row, not a digit reading from the fractional orbit $(R_n/Q)\bmod 1$. $\square$
 
 **Lemma C.56** (Actual fixed successor transcribes the row). *For every retained deep fixed-pin branch with datum $g$, choose a hit-phase origin $x_0$ inside the complete clean lap. Consecutive interior sites satisfy*
 
@@ -3730,7 +3730,7 @@ $$
 
 *with $d(a)$ as in Lemma C.55. Equivalently, the hit sites inside the retained clean interval are $x_0+\ell g$.*
 
-*Proof.* The row has passed the complete clean fixed-persistence gate, so every interior successor is the literal successor of the same event row. Lemma C.55 gives the phase update and emitted digit on one period. Since the source and target refined states coincide and all earlier stops have been removed, the same row repeats until the endpoint collar. Iteration gives (C.5c).\hfill$\square$
+*Proof.* The row has passed the complete clean fixed-persistence gate, so every interior successor is the literal successor of the same event row. Lemma C.55 gives the phase update and emitted digit on one period. Since the source and target refined states coincide and all earlier stops have been removed, the same row repeats until the endpoint collar. Iteration gives (C.5c). $\square$
 
 **Lemma C.57** (Fixed-pin row is periodic). *A clean fixed-pin datum with gap $g$ realizes, on its clean interior, a translate of the periodic word $10^{g-1}$. If it persists past the rational-separation length, then $g\leq 3Q$.*
 
@@ -3748,7 +3748,7 @@ $$
 
 cut by the two endpoint collars. This conclusion is read from the actual integer successor $x\mapsto x+g$ in the fixed-pin row. It does not use the fractional orbit $(R_n/Q)\bmod 1$ as a digit tail; that orbit only records the carry congruence and would lose the information that the next hit is the translated actual start.
 
-The word is nonzero because the phase $a=0$ appears once in every complete lap. Its primitive period $p(g)$ divides $g$, since the $g$-step translation returns to the same refined state and the same phase. Finally, Lemma C.53 has already excluded retained fixed rows with $g>3Q$: a larger formal fixed row either stops first and is selected by an earlier class, or persists to the rational-separation length and contradicts the periodic-density floor. Therefore every persistent clean fixed-pin datum has nonzero primitive period $p(g)\leq g\leq 3Q$.\hfill$\square$
+The word is nonzero because the phase $a=0$ appears once in every complete lap. Its primitive period $p(g)$ divides $g$, since the $g$-step translation returns to the same refined state and the same phase. Finally, Lemma C.53 has already excluded retained fixed rows with $g>3Q$: a larger formal fixed row either stops first and is selected by an earlier class, or persists to the rational-separation length and contradicts the periodic-density floor. Therefore every persistent clean fixed-pin datum has nonzero primitive period $p(g)\leq g\leq 3Q$. $\square$
 
 **Definition C.58** (Normalized denominator-seven residue). *After the local dyadic shift used by the value-axis pin, a denominator-seven row has a nonzero residue*
 
@@ -3788,7 +3788,7 @@ $$
 $$
 
 Multiplying by a local dyadic shift only changes the bounded endpoint collar and cyclically shifts the displayed word.  
-Each nonzero period block contains at least one digit equal to one. \hfill$\square$
+Each nonzero period block contains at least one digit equal to one. $\square$
 
 **Definition C.60** (Cycle-persistent and exit-active sevenths). After the endpoint, dirty, run, tower, and shorter-period stopping outputs have been removed, each remaining denominator-seven row is read along its active window, outside the fixed endpoint/carry collar. If the normalized residue stays on the same denominator-seven orbit throughout that window, the row is placed in $\mathfrak{B}^{\rm per}_{7}$. Otherwise the first unpaid actual exit from that orbit is part of the retained event state, and the row is placed in $\mathfrak{B}^{\rm ex}_{7}$. This gives the disjoint split
 
@@ -3811,7 +3811,7 @@ The split is made before the ordinary fixed-pin retained fibre is formed. Both p
 
 For (ii), if the child remained in the same denominator-seven orbit, no actual exit would have occurred at $\tau$. If the child entered a retained fixed-pin orbit, Lemma C.57 would make it a nonzero periodic row of period at most $3Q$, and Lemma C.64 would remove it by the sparse-shell density gate. Earlier terminal classes were separated before $\mathfrak{B}^{\rm ex}_{7}$ was formed.
 
-For (iii), the residual branch is assigned at the first actual exit, not by motion inside the period-three cycle. Dirty, Return, Run, Tower, DensePack, endpoint, and progress outputs are earlier stopping classes. The only remaining interior first-exit labels are the class-one aligned label and the four pin-free off-pin labels $0, 3, 4, 5$. \hfill$\square$
+For (iii), the residual branch is assigned at the first actual exit, not by motion inside the period-three cycle. Dirty, Return, Run, Tower, DensePack, endpoint, and progress outputs are earlier stopping classes. The only remaining interior first-exit labels are the class-one aligned label and the four pin-free off-pin labels $0, 3, 4, 5$. $\square$
 
 **Lemma C.62 (Seventh exit floor).** *Let $\operatorname{Mass}(\mathfrak{B}^{\rm ex}_{7})$ be the event mass of the exit-active denominator-seven fibre after higher-priority terminal classes and endpoint/carry collars are removed. If $\mathfrak{B}^{\rm ex}_{7}$ is nonempty, then for some label $\ell\in\{1,0,3,4,5\}$ the selected event mass satisfies*
 
@@ -4005,25 +4005,25 @@ where $B=[a,a+2^v]$, $m=a+2^{v-1}$, $C_a,C_m,C_b$ are the three boundary carry s
 
 **Lemma C.76** (Nonzero rows are formal atoms). *Every row of $\Omega^{\ne 0}_v$ canonically determines a nonzero atom of depth $v$, preserving row mass, midpoint, child restrictions, boundary quotient, and stopping key. Conversely, every nonzero atom arising from the class-one accounting is represented by a unique row of $\Omega^{\ne 0}_v$.*
 
-*Proof.* The forward map records the fields in Definition C.75; these are coordinates of $\Omega^{\rm cl1}_v$, so mass is preserved. Conversely, the parent block, midpoint, child restrictions, boundary carries, and stopping key reconstruct the retained class-one row. The nonzero condition is precisely $\Delta_B\ne 0$, the fibre $\Omega^{\ne 0}_v$. \hfill$\square$
+*Proof.* The forward map records the fields in Definition C.75; these are coordinates of $\Omega^{\rm cl1}_v$, so mass is preserved. Conversely, the parent block, midpoint, child restrictions, boundary carries, and stopping key reconstruct the retained class-one row. The nonzero condition is precisely $\Delta_B\ne 0$, the fibre $\Omega^{\ne 0}_v$. $\square$
 
 **Lemma C.77** (Positive excess is supported on nonzero rows). *After subtracting $\Omega^{\rm pre}_v$ and $\mathcal{E}^{\rm cl1}_{\rm coll}$ on the event set (C.12), any positive retained class-one excess is supported on $\Omega^{\ne 0}_v$.*
 
-*Proof.* After the pre-class-one and collar fibres in (C.12) are subtracted, only $\Omega^0_v$ and $\Omega^{\ne 0}_v$ remain. On $\Omega^0_v$, Lemma C.74 gives $R^{\rm cl1}=w_1(0)=0$. Hence positive retained excess can only lie on $\Omega^{\ne 0}_v$. \hfill$\square$
+*Proof.* After the pre-class-one and collar fibres in (C.12) are subtracted, only $\Omega^0_v$ and $\Omega^{\ne 0}_v$ remain. On $\Omega^0_v$, Lemma C.74 gives $R^{\rm cl1}=w_1(0)=0$. Hence positive retained excess can only lie on $\Omega^{\ne 0}_v$. $\square$
 
 **Lemma C.78** (Cap failure exposes a formal atom). *If the deep class-one aligned cap fails after the shallow gate, the single collar/tie set, and all pre-class-one terminal payments have been subtracted on the event set (C.12), then the nonzero atom set has positive mass.*
 
-*Proof.* The failed cap leaves a positive retained class-one excess on the same row partition. By Lemma C.77, this excess is supported on $\Omega^{\ne 0}_v$. Lemma C.76 maps that fibre bijectively and mass-preservingly to nonzero atoms. Hence the atom set has positive mass. \hfill$\square$
+*Proof.* The failed cap leaves a positive retained class-one excess on the same row partition. By Lemma C.77, this excess is supported on $\Omega^{\ne 0}_v$. Lemma C.76 maps that fibre bijectively and mass-preservingly to nonzero atoms. Hence the atom set has positive mass. $\square$
 
 The rest of the argument is a minimal-depth descent. A nonzero atom cannot be minimal: the only obstruction to passing to a child is a terminal or bad-midpoint event, and both are visible to the parent selector before class-one retention.
 
 **Lemma C.79** (Class-one stopping heredity). *Let $J$ be one of the two midpoint children of a retained class-one parent row. Every pre-class-one terminal event visible in the restricted row on $J$ is also visible as a pre-class-one terminal candidate for the parent, with the same class stage and no later parent stopping key. Hence a retained parent cannot contain a child that has already been removed by a pre-class-one terminal class. If a child has nonzero class-one boundary label and no such terminal class, then the child is a retained nonzero class-one row of the next smaller depth.*
 
-*Proof.* Restriction to $J$ deletes outside coordinates but does not change any pre-class-one terminal witness supported in $J$. Such a witness is therefore also present in the parent candidate set, with parent key no later than the child key. A retained parent cannot contain such a child. If no terminal class appears, the child inherits the clean aligned row at depth $v-1$; a nonzero child boundary label then lies in the retained nonzero fibre at that depth. \hfill$\square$
+*Proof.* Restriction to $J$ deletes outside coordinates but does not change any pre-class-one terminal witness supported in $J$. Such a witness is therefore also present in the parent candidate set, with parent key no later than the child key. A retained parent cannot contain such a child. If no terminal class appears, the child inherits the clean aligned row at depth $v-1$; a nonzero child boundary label then lies in the retained nonzero fibre at that depth. $\square$
 
 **Lemma C.80** (Bad midpoint states are parent-terminal). *If the midpoint state of a class-one parent row is dirty, reset, collar-supported, threshold-tied, endpoint/progress, or already assigned to a pre-class-one terminal class, then the parent row lies in $\Omega^{\rm pre}_v$ or in the single collar/tie set $\mathcal{E}^{\rm cl1}_{\rm coll}$. In particular no such row is retained in $\Omega^{\ne 0}_v$.*
 
-*Proof.* The midpoint is a cut state of the parent row. Any dirty/reset, threshold-tie, endpoint/progress, collar, or terminal-class witness at that cut is visible to the parent selector and is selected no later than the class-one retention test. Thus the row is pre-class-one or in the aggregate collar, not retained nonzero. \hfill$\square$
+*Proof.* The midpoint is a cut state of the parent row. Any dirty/reset, threshold-tie, endpoint/progress, collar, or terminal-class witness at that cut is visible to the parent selector and is selected no later than the class-one retention test. Thus the row is pre-class-one or in the aggregate collar, not retained nonzero. $\square$
 
 **Lemma C.81** (Nonzero rows descend). *If a retained class-one midpoint row has $\Delta_B \ne 0$, then at least one child has nonzero boundary difference. Applying the child selector, such a child is either a pre-class-one terminal class or a retained nonzero class-one row of smaller depth; for a retained parent the terminal alternative is excluded by Lemma C.79.*
 

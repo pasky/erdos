@@ -1,7 +1,7 @@
 # A Question of Erdős and Graham on Egyptian Fractions
 
-David Conlon$^{*}$ \quad Jacob Fox$^{†}$ \quad Xiaoyu He$^{‡}$ \quad Dhruv Mubayi$^{§}$  
-Huy Tuan Pham$^{¶}$ \quad Andrew Suk$^{‖}$ \quad Jacques Verstraëte$^{**}$
+David Conlon$^{*}$  Jacob Fox$^{\dagger}$  Xiaoyu He$^{\ddagger}$  Dhruv Mubayi$^{§}$  
+Huy Tuan Pham$^{¶}$  Andrew Suk$^{\|}$  Jacques Verstraëte$^{**}$
 
 *Received 25 April 2024; Published 19 December 2025*
 
@@ -16,11 +16,11 @@ The study of Egyptian fractions, that is, sums of reciprocals of distinct positi
 In this paper, we will be concerned with a problem raised by Erdős and Graham [8, Page 36] in 1980 (see also [3, Problem 297]): how many ways are there to write $1$ as a sum of distinct unit fractions with denominator at most $n$? In 2017, this problem was partially addressed by several users, including Lucia, RaphaelB4 and js21, in response to a MathOverflow post [11] by Mikhail Tikhomirov. They showed
 
 $^{*}$Supported by NSF Awards DMS-2054452 and DMS-2348859.  
-$^{†}$Supported by NSF Awards DMS-2154129 and DMS-2452737.  
-$^{‡}$Supported by NSF Award DMS-2103154.  
+$^{\dagger}$Supported by NSF Awards DMS-2154129 and DMS-2452737.  
+$^{\ddagger}$Supported by NSF Award DMS-2103154.  
 $^{§}$Supported by NSF Awards DMS-1952767 and DMS-2153576.  
 $^{¶}$Supported by a Clay Research Fellowship and a Stanford Science Fellowship.  
-$^{‖}$Supported by an NSF CAREER Award and NSF Awards DMS-1952786 and DMS-2246847.  
+$^{\|}$Supported by an NSF CAREER Award and NSF Awards DMS-1952786 and DMS-2246847.  
 $^{**}$Supported by NSF Awards DMS-1800332 and DMS-2347832.
 
 that there is an explicit constant $c\approx 0.91117$ such that the number of such Egyptian fractions is at most $2^{(1+o_n(1))cn}$. This already answered one particular question of Erdős and Graham, who asked whether the answer was $2^{n-o(n)}$. Here we solve Erdős and Graham’s problem more precisely by showing that the count is equal to $2^{(1+o_n(1))cn}$ for the same $c\approx 0.91117$.

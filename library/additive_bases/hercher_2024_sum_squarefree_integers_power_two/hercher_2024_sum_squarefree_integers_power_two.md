@@ -310,7 +310,7 @@ Consequently, Erdős’ Conjecture is now numerical verified to a significant gr
 
 The computations were performed on a desktop PC with an Intel i9 CPU of the 11th generation and a Geforce RTX 3070 GPU from NVIDIA. The entire computation required approximately 120 hours.
 
-During this process, we gathered a wealth of data, which led us to identify the smallest odd integers $n$ for which $n-2^k$ is not squarefree for all $1\leq k\leq m with $m \leq 12$. These values are presented in Table 3 as well as in the OEIS sequence A377587.
+During this process, we gathered a wealth of data, which led us to identify the smallest odd integers $n$ for which $n-2^k$ is not squarefree for all $1\leq k\leq m$ with $m \leq 12$. These values are presented in Table 3 as well as in the OEIS sequence A377587.
 
 | $m$ | smallest odd $n$ |
 |---:|---:|

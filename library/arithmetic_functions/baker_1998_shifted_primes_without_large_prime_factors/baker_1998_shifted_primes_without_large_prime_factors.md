@@ -38,7 +38,7 @@ $$
 \lim_{i\to\infty}\frac{\log m_{i+1}}{\log m_i}=1.
 $$
 
-**COROLLARY 2 (Alford, Granville and Pomerance).** The number of Carmichael numbers $\leq x$ is $\geq x^{(5-5\beta)/12}$ for large $x.
+**COROLLARY 2 (Alford, Granville and Pomerance).** The number of Carmichael numbers $\leq x$ is $\geq x^{(5-5\beta)/12}$ for large $x$.
 
 ---
 

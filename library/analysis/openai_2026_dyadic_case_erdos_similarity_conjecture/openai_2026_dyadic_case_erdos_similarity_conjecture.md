@@ -162,7 +162,7 @@ For a fixed center $x\in\mathbb R$, expose one entry from every selector table, 
 
 The exposed values determine the full path of $x$. When that path chooses a default child, let $U$ denote its first internal node at which this happens. Thus the existence and identity of $U$ are determined by $\mathcal F_x$. The next estimate concerns the original product law, before an atom of $\mathcal F_x$ is fixed.
 
-**Lemma 4.1** (A default choice on the center path). *For every fixed $x\in\mathbb R$, $$\mathbb P\bigl(\text{the path of \(x\) never chooses child \(M\)}\bigr)
+**Lemma 4.1** (A default choice on the center path). *For every fixed $x\in\mathbb R$, $$\mathbb P\bigl(\text{the path of $x$ never chooses child $M$}\bigr)
  =
  (1-2^{1-M})^d<p.$$*
 
