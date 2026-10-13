@@ -9,12 +9,15 @@ desc: |
   Y(x) = j(P(x)) - 1.
 license: Apache-2.0
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-08T01:50:26Z
+updated: 2026-10-13T05:32:28Z
 ---
 
 # integer_sequences/openai_2026_quadratic_bound_jacobsthal_function
 
 [[integer_sequences/_index|..]]
+
+[[integer_sequences/openai_2026_quadratic_bound_jacobsthal_function/evidence/_index|evidence/]]: Retains the review of the deduction that carries the release's Lean bound
+on Jacobsthal's function to Problem 687's covering function.
 
 [[integer_sequences/openai_2026_quadratic_bound_jacobsthal_function/theorem_1_1|theorem_1_1]]: The manuscript's claimed uniform bound for Jacobsthal's function over
 integers with at most k distinct prime factors, deduced from the survivor
@@ -57,8 +60,9 @@ human assistance or review. The manuscript names no author other than OpenAI
 and carries no arXiv identifier or journal. These are the source's own
 historical attestations and not this corpus's review: no refereed
 publication, arXiv version or independent review of the manuscript is
-recorded here and nothing on this card is independently
-reviewed.
+recorded here and none of this card's result pages is independently
+reviewed. The review filed under `evidence/` checks a deduction from the
+release's Lean bound for Problem 687, not the manuscript.
 
 Formalization, as the release lists it. The release's `lean/formalization.yaml`
 lists this manuscript among its sources and, in its status section, the main
@@ -290,12 +294,17 @@ reviewed.
   $k(\log k)^2\log_3k/\log_2k$ and this bound, and the manuscript says so.
   The claim is unverified here; the page's status rests on its acceptance
   evidence.
-- [[../wiki/problems/integer_sequences/E0687/_index|Problem 687]]: context.
-  The manuscript bounds $h(k)$, which relates to the problem's $Y(x)$
-  through $Y(x)=j(P(x))-1$ (Ford, Green, Konyagin, Maynard and Tao), where
-  $P(x)$ is the product of the primes up to $x$. The manuscript does not
-  state a bound for $Y$ or name this problem; the page's status rests on its
-  acceptance evidence.
+- [[../wiki/problems/integer_sequences/E0687/_index|Problem 687]]: answer to
+  the first displayed question through the formal bound. The manuscript
+  bounds $h(k)$, which relates to the problem's $Y(x)$ through
+  $Y(x)=j(P(x))-1$ (Ford, Green, Konyagin, Maynard and Tao), where $P(x)$ is
+  the product of the primes up to $x$. With $\omega(P(x))=\pi(x)$ and
+  Chebyshev's bound, the declaration `erdos_970_quadratic` gives
+  $Y(x)\ll x^2/(\log x)^2=o(x^2)$, a deduction checked in the
+  [[integer_sequences/openai_2026_quadratic_bound_jacobsthal_function/evidence/verify/covering_bound_review|filed review]]
+  and accepted on the problem's claim page as a partial claim. The
+  manuscript does not state a bound for $Y$ or name this problem; the page's
+  status rests on its acceptance evidence.
 - [[../wiki/problems/integer_sequences/E0929/_index|Problem 929]]: context.
   The problem's $S(k)$ is tied to the same covering quantity $Y(x)$; the
   manuscript does not name this problem, and the page's status rests on its

@@ -4,8 +4,9 @@ title: Problem 687
 desc: |
   Asks for the order of the longest initial interval that one residue class for
   each prime $p\le x$ can cover, the covering form of Jacobsthal's function. It
-  is open, between $x\log x$ times iterated logarithms and Iwaniec's bound
-  $x^2$.
+  is open: an accepted partial claim gives $Y(x)\ll x^2/(\log x)^2$, so
+  $Y(x)=o(x^2)$, and the order lies between $x\log x$ times iterated
+  logarithms and that bound.
 tags:
 - Number theory
 status: open
@@ -47,38 +48,57 @@ inverse function is the $S(k)$ of
 [[problems/integer_sequences/E0929/_index|Problem 929]], whose displayed question
 is therefore the second question here (an observation made here; the site
 does not cross-reference the two pages). Three questions: the estimate, to
-which the label OPEN attaches, and the two displayed upper-bound questions,
-both open.
+which the label OPEN attaches and which stays open; the first displayed
+question, $Y(x)=o(x^2)$, answered yes by the accepted partial claim recorded
+under Status; and the second, $Y(x)\ll x^{1+o(1)}$, open.
 
-**Status.** Open. No source proving $Y(x)=o(x^2)$, or any upper bound below
-Iwaniec's $Y(x)\ll x^2$, was found in the search whose scope the Current
-assessment records. This is a bounded negative finding, not a certificate of
-openness.
+**Status.** Open. The label attaches to the estimate, which stays open, as
+does the second displayed question, $Y(x)\ll x^{1+o(1)}$: the exponent $2$ is
+not lowered. The first displayed question, $Y(x)=o(x^2)$, is answered yes by
+the accepted partial claim of 25 September 2026
+([[problems/integer_sequences/E0687/claims/2026_09_25_openai|its claim page]]).
+Apart from that claim, the search whose scope the Current assessment records
+found no upper bound below Iwaniec's $Y(x)\ll x^2$; this is a bounded negative
+finding, not a certificate of openness.
 
-Since that search, the OpenAI mathematics release of 25 September 2026 claims
-$h(k)\ll k^2/(\log\log3k)^2$ for Jacobsthal's function. Its Theorem 1.2 states
-the covering form directly, $Y(z)<z^2/(\log z)^2$ for large $z$, without naming
-$Y(x)$ or this problem. If it stands, this is a yes to the first displayed
-question. The manuscript is unreviewed, and the Lean declaration the corpus
-built and audited concerns $h(k)$ alone. So it is a pending partial claim on
-[[problems/integer_sequences/E0687/claims/2026_09_25_openai|its claim page]],
-and the standing stays open.
+The OpenAI mathematics release of 25 September 2026 proves in Lean the
+declaration `erdos_970_quadratic`, $h(k)\le Ck^2$ for every $k\ge1$ with one
+absolute $C>0$, for Jacobsthal's function $h$; this corpus built,
+axiom-checked and audited it for
+[[problems/integer_sequences/E0970/_index|Problem 970]]. With display (1.3) of
+[FGKMT18], $Y(x)=j(P(x))-1$, the count $\omega(P(x))=\pi(x)$ and Chebyshev's
+$\pi(x)\ll x/\log x$, it gives, for every $x\ge2$,
 
-The upper bound in hand is $Y(x)\ll x^2$. It is the Corollary of [Iw78], p. 226,
-$C(r)\ll r^2\log^2r$ for the longest run of consecutive integers each divisible
-by one of $r$ arbitrary primes, taken at $r=\pi(x)$. It is attested in this form
-by the introduction of [FGKMT18], and in the inverse form $B(n)>c\sqrt n$ by
-[Er79d] p. 79. The lower bound in hand is $Y(x)\gg x\log x\log_3x/\log_2x$,
-display (1.2) of [FGKMT18] (J. Amer. Math. Soc. 2018, refereed, cited from the
-arXiv version). It improves Rankin's $x\log x\log_3x/(\log_2x)^2$. Since 31
-August 2026 the site has given an account of a further improvement,
-$Y(x)\gg x\log x/\log_3x$, attributed to GPT 5.6 Pro (the name the site gives)
-prompted by a forum contributor. It is supported by a proof claim and a
-maintainer's exposition on the site's Problem 4 page. It is recorded here as the
-site's account, not as a refereed result. The conjectured truth is
-$Y(x)\ll x(\log x)^{2+o(1)}$ (Maier and Pomerance, as attested by [FGKMT18]).
-Erdős expected $B(n)>n^{1-\varepsilon}$. Erdős's offer in [Er80] p. 106 is a
-prize "for clearing up of this problem", and the site lists a prize.
+$$
+Y(x)=j(P(x))-1\le h(\pi(x))-1<C\,\pi(x)^2\ll\frac{x^2}{(\log x)^2},
+$$
+
+a saving of $(\log x)^2$ over Iwaniec's bound. The step from $h$ to $Y$ is
+authored, not formalized; Plasma AI reviewed it on 2026-10-12, and the claim
+page records the acceptance. The constant is not explicit. The manuscript's
+Theorem 1.2 states the covering form directly with constant 1,
+$Y(z)<z^2/(\log z)^2$ for large $z$, without naming $Y(x)$ or this problem;
+that form is unreviewed. Theorem 1.2 and the Lean bound are one argument, not
+two independent sources. In the inverse form under Formulation the answer reads
+$B(n)/\sqrt n\to\infty$, a yes to Erdős's request in [Er79d] p. 79 for
+$B(n)>Cn^{1/2}$ for every $C$ and all large $n$.
+
+The refereed upper bound is $Y(x)\ll x^2$. It is the Corollary of [Iw78],
+p. 226, $C(r)\ll r^2\log^2r$ for the longest run of consecutive integers each
+divisible by one of $r$ arbitrary primes, taken at $r=\pi(x)$. It is attested
+in this form by the introduction of [FGKMT18], and in the inverse form
+$B(n)>c\sqrt n$ by [Er79d] p. 79. The lower bound in hand is
+$Y(x)\gg x\log x\log_3x/\log_2x$, display (1.2) of [FGKMT18] (J. Amer. Math.
+Soc. 2018, refereed, cited from the arXiv version). It improves Rankin's
+$x\log x\log_3x/(\log_2x)^2$. Since 31 August 2026 the site has given an account
+of a further improvement, $Y(x)\gg x\log x/\log_3x$, attributed to GPT 5.6 Pro
+(the name the site gives) prompted by a forum contributor. It is supported by a
+proof claim and a maintainer's exposition on the site's Problem 4 page. It is
+recorded here as the site's account, not as a refereed result. The conjectured
+truth is $Y(x)\ll x(\log x)^{2+o(1)}$ (Maier and Pomerance, as attested by
+[FGKMT18]). Erdős expected $B(n)>n^{1-\varepsilon}$. Erdős's offer in [Er80]
+p. 106 is a prize "for clearing up of this problem", and the site lists a
+prize.
 
 **Source.** [erdosproblems.com/687](https://www.erdosproblems.com/687), accessed
 2026-09-18: the problem page (OPEN, with the site's note that no finite
@@ -217,7 +237,9 @@ cannot be reduced". The bound is attested by [FGKMT18] p. 4 ("The best upper
 bound known is $Y(x)\ll x^2$, which comes from Iwaniec's work [26] on
 Jacobsthal's function"), by [Er79d] p. 79 in the inverse form $B(n)>c\sqrt n$,
 and by [Gr26] Problem 46 ("The best upper bound is $y\ll x^2$, due to
-Iwaniec"); the search found nothing better. The conjectured order: [FGKMT18]
+Iwaniec"); the search found nothing better in the literature, and the
+accepted partial claim recorded under Status lowers it to $x^2/(\log x)^2$
+with an unspecified constant. The conjectured order: [FGKMT18]
 p. 4 attests the Maier--Pomerance conjecture $Y(x)\ll x(\log x)^{2+o(1)}$ and
 remarks that it "places a serious (albeit conjectural) upper bound on how
 large gaps between primes we can hope to find via lower bounds for $Y(x)$: a
@@ -301,17 +323,17 @@ and a manuscript, an abridged reasoning transcript and a repository linked;
 whether it yields a bound for $Y(x)$ is not determined on this page.
 
 **Bounds map.** From refereed and attested sources,
-$x\log x\log_3x/\log_2x\ll Y(x)\ll x^2$; the site's account raises the lower
-bound to $x\log x/\log_3x$; the conjectured truth is $x(\log x)^{2+o(1)}$
-(Maier--Pomerance) and Erdős expected $Y(x)\ll x^{1+o(1)}$. Both displayed
-questions live in the gap between $x\log x$ times iterated logarithms and
-$x^2$; no refereed or reviewed source lowers the exponent $2$. The pending
-claim of 25 September 2026 (the
-[[problems/integer_sequences/E0687/claims/2026_09_25_openai|claim page]])
-would lower the upper bound to $x^2/(\log x)^2$ and so answer the first
-displayed question; it leaves the exponent $2$ in place and the second question
-open. The OEIS entries the site links: A048670, the Jacobsthal function at the
-product of the first $n$ primes, that is $Y(p_n)+1$, with values
+$x\log x\log_3x/\log_2x\ll Y(x)\ll x^2$; the accepted partial claim of 25
+September 2026 (the
+[[problems/integer_sequences/E0687/claims/2026_09_25_openai|claim page]]) lowers
+the upper bound to $x^2/(\log x)^2$ with an unspecified constant and so answers
+the first displayed question; the site's account raises the lower bound to
+$x\log x/\log_3x$; the conjectured truth is $x(\log x)^{2+o(1)}$
+(Maier--Pomerance) and Erdős expected $Y(x)\ll x^{1+o(1)}$. The second displayed
+question lives in the gap between $x\log x$ times iterated logarithms and
+$x^2/(\log x)^2$; no refereed or reviewed source lowers the exponent $2$. The
+OEIS entries the site links: A048670, the Jacobsthal function at the product of
+the first $n$ primes, that is $Y(p_n)+1$, with values
 $2,4,6,10,14,22,26,34,\ldots$ tabulated for $n\le64$ and comments recording
 Pintz's constant $2e^\gamma+o(1)$ for the Rankin form, the [FGKMT18] bound and
 Iwaniec's $a(n)\ll n^2(\log n)^2$; and A058989, the largest number of
@@ -352,23 +374,26 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Er96b],
 [Ra38], the Maier--Pomerance paper behind the conjecture, and the 31
 comments on the Problem 4 claim.
 
-**Remaining gaps.** (1) The upper bound rests on the Corollary of [Iw78] and
-on the one-line passage from $C(\pi(x))$ to $Y(x)$ made on its result page;
-the proof of the Theorem is checked only at the level of its displays, and
-its Lemma 2 is quoted by the paper from the author's 1971 paper, which is
-not held. (2) The best lower bound is the site's account of an AI-generated
-argument whose manuscript is not checked here; a refereed version or an
-independent review is the reopening condition for its standing. (3) [Er96b]
-is not held; its passage is unknown here. (4) The Maier--Pomerance
-conjecture is recorded only as attested by [FGKMT18]. (5) Proofs are
-compiled at statement level; the proof of (1.2) is not checked here. (6) The
-release claim of 25 September 2026 states the covering form in its Theorem 1.2,
-$Y(z)<z^2/(\log z)^2$ for large $z$; it does not name $Y(x)$ or this problem.
-The corpus's verification built and audited the release's quadratic declaration
-`erdos_970_quadratic` for Problem 970; the release's survivor theorem for one
-class per prime is an interior declaration, not audited. A refereed version, an
-independent review, or a formal statement of the covering form is the condition
-for moving it beyond `claimed`.
+**Remaining gaps.** (1) The refereed upper bound rests on the Corollary of
+[Iw78] and on the one-line passage from $C(\pi(x))$ to $Y(x)$ made on its result
+page; the proof of the Theorem is checked only at the level of its displays, and
+its Lemma 2 is quoted by the paper from the author's 1971 paper, which is not
+held. (2) The best lower bound is the site's account of an AI-generated argument
+whose manuscript is not checked here; a refereed version or an independent
+review is the reopening condition for its standing. (3) [Er96b] is not held; its
+passage is unknown here. (4) The Maier--Pomerance conjecture is recorded only as
+attested by [FGKMT18]. (5) Proofs are compiled at statement level; the proof of
+(1.2) is not checked here. (6) The accepted answer to the first displayed
+question rests on the release's Lean declaration `erdos_970_quadratic`, built
+and audited for Problem 970, and on an authored step from $h$ to $Y$
+([FGKMT18]'s (1.3), $\omega(P(x))=\pi(x)$ and Chebyshev's bound) that Plasma AI
+reviewed and that is not formalized; its constant is not explicit. The
+manuscript's constant-1 form $Y(z)<z^2/(\log z)^2$ (its Theorem 1.2, whose
+survivor form in the release's tree is an interior declaration, not audited) and
+the sharper declaration `erdos_970_iterated_log`, which would give
+$Y(x)\ll x^2/((\log x)^2(\log\log x)^2)$, are not accepted here; a refereed
+version, an independent review of the manuscript, or an audited formal statement
+would be needed for either.
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -389,6 +414,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/integer_sequences/iwaniec_1978_problem_jacobsthal/corollary|iwaniec_1978_problem_jacobsthal / corollary]]
 - [[../library/integer_sequences/iwaniec_1978_problem_jacobsthal/theorem|iwaniec_1978_problem_jacobsthal / theorem]]
 - [[../library/integer_sequences/openai_2026_quadratic_bound_jacobsthal_function/_index|openai_2026_quadratic_bound_jacobsthal_function]]
+- [[../library/integer_sequences/openai_2026_quadratic_bound_jacobsthal_function/evidence/verify/_index|openai_2026_quadratic_bound_jacobsthal_function / evidence/verify/_index]]
 - [[../library/integer_sequences/openai_2026_quadratic_bound_jacobsthal_function/theorem_1_1|openai_2026_quadratic_bound_jacobsthal_function / theorem_1_1]]
 - [[../library/integer_sequences/openai_2026_quadratic_bound_jacobsthal_function/theorem_1_2|openai_2026_quadratic_bound_jacobsthal_function / theorem_1_2]]
 - [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]]
