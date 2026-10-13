@@ -61,7 +61,7 @@ The upper bound is the Theorem of Ruzsa's 2005 paper (Ramanujan J., refereed;
 [[problems/additive_combinatorics/E0787/claims/2005_03_01_ruzsa|its claim page]]):
 $l(n)\ll e^{c\sqrt{\log n}}$ for every $c>\sqrt{8\log2}$ over sets of positive
 integers. It comes from a construction from dilated lattice balls that Sanders
-describes as Behrend's. Three bounds lie between them. The first is Klarner's
+describes as Behrend's. Three earlier bounds are weaker. The first is Klarner's
 $\gg\log n$ (Erdős 1965, stated without proof). The second is Choi's
 $\ll n^{2/5+o(1)}$ (1971, not held, attested by Erdős 1973 and the later papers;
 [[problems/additive_combinatorics/E0787/claims/1971_12_01_choi|its claim page]]).
