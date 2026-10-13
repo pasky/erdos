@@ -18,6 +18,15 @@ $a_p\bmod p$, one for each prime $p\le x$, cover
 $[y]=\{1,\ldots,\lfloor y\rfloor\}$) and $P(x)$ the product of the primes
 less than or equal to $x$:
 
+Definition 1 has a second sentence: "Equivalently, $Y(x)$ is the largest
+integer $m$ so that there are $m$ consecutive integers coprime to $P(x)$".
+The page image of p. 3 prints it so, so the slip is the paper's and not the
+text layer's. What is meant is $m$ consecutive integers none of which is
+coprime to $P(x)$, as
+[[integer_sequences/ford_2018_long_gaps_between_primes/equation_1_2|the page of (1.2)]],
+which quotes both sentences, records. The first sentence and the gloss of
+p. 4 quoted below are the operative ones, and this page uses only them.
+
 **Lemma 1.1** (p. 3). $G(P(x)+Y(x)+x)\ge Y(x)$, where $G(X)$ is the largest
 gap between consecutive primes less than $X$.
 

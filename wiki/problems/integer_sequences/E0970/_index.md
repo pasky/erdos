@@ -62,7 +62,8 @@ for one absolute $C$. This corpus built it, axiom-checked it and audited it
 against the formulation above on 2026-10-07. That check is the claim's only
 acceptance evidence. The manuscript claims the sharper
 $h(k)\ll k^2/(\log\log 3k)^2$. The release proves it in a separate declaration,
-`erdos_970_iterated_log`, which this corpus has not axiom-checked or accepted.
+`erdos_970_iterated_log`, whose axioms this corpus checked on 2026-10-07 but
+which it has not accepted.
 The manuscript has no refereed version and no outside review known here.
 Jacobsthal's conjecture $h(k)\ll k^2$ was already "hopeless at present" for
 Erdős in 1965.
@@ -312,10 +313,10 @@ quoted by the paper from the author's 1971 paper, which is not held. The
 accepted bound $h(k)\le Ck^2$ rests on the Lean kernel, Mathlib and the
 statement audit recorded on the claim page; the manuscript's claimed saving by
 $(\log\log 3k)^2$ rests on its prose proof, read for structure only, and on a
-release declaration not axiom-checked here; no outside review or refereed
-version exists. (2) The site's displayed lower bound is weaker than the
-source-supported bounds by a factor of $\log k$ against (29) and
-$\log k\cdot\log_2k$ against the derived bound; recorded as a
+release declaration whose axioms were checked here but which is not accepted;
+no outside review or refereed version exists. (2) The site's displayed lower
+bound is weaker than the source-supported bounds by a factor of $\log k$
+against (29) and $\log k\cdot\log_2k$ against the derived bound; recorded as a
 site-versus-source note, not resolved with the site. (3) Neither side of
 Erdős's (29) is proved in the lecture, and the [FGKMT18] proof was not read;
 the lower bound here rests on that paper's refereed statement and a one-line

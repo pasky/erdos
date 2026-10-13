@@ -7,7 +7,7 @@ desc: |
   asking for their density, counting function, gaps or growth, including
   covering-congruence and sieve questions.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-12T00:09:36Z
+updated: 2026-10-13T05:32:07Z
 ---
 
 # Sequences and Densities of Integers
@@ -314,8 +314,9 @@ with the ratio exceeding any constant.
 
 [[problems/integer_sequences/E0687/_index|E0687/]]: Asks for the order of the
 longest initial interval that one residue class for each prime $p\le x$ can
-cover, the covering form of Jacobsthal's function. It is open, between $x\log x$
-times iterated logarithms and Iwaniec's bound $x^2$.
+cover, the covering form of Jacobsthal's function. It is open: an accepted
+partial claim gives $Y(x)\ll x^2/(\log x)^2$, so $Y(x)=o(x^2)$, and the order
+lies between $x\log x$ times iterated logarithms and that bound.
 
 [[problems/integer_sequences/E0688/_index|E0688/]]: Asks for the largest
 $\epsilon_n$ such that one residue class for each prime $p$ with
