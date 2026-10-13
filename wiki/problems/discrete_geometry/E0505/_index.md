@@ -139,7 +139,7 @@ separate from the standing:
   external inputs; the review is retained with the source as the
   [[../library/discrete_geometry/kahn_kalai_1993_borsuk_counterexample/evidence/verify/theorem_1_review|Theorem
   1 review]]. Since the review, this page's frontmatter description was
-  reworded; this touches no examined statement, proof, code or input.
+  reworded; it touches no examined statement, proof, code or input.
 - [[../library/discrete_geometry/kahn_kalai_1993_borsuk_counterexample/remark_1]]:
   statement of both published finite-dimension assertions.
 - [[../library/discrete_geometry/jenrich_brouwer_2014_borsuk_counterexample/theorem_1]]:

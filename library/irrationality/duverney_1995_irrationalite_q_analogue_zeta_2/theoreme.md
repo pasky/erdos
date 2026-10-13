@@ -177,7 +177,7 @@ checked. The reviewed text is the copy
 `evidence/assets/reviewed_pages/theoreme.md`, which the repository does
 not hold. Since the review, only the `desc` field, this Verification section,
 the `updated` field and the page range of the Bundschuh and Väänänen paper
-under Remarks have changed; this touches no examined statement, proof, code or
+under Remarks have changed; it touches no examined statement, proof, code or
 input. The result is relied on for the status of
 Problem 250 as a refereed publication (Zbl 0843.11034), the first published
 proof that $\sum_{n\ge1}\sigma(n)/2^n$ is irrational, independently of

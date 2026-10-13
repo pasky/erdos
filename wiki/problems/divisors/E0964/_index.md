@@ -85,7 +85,7 @@ The divisor-ratio review, grade and source reading filed with the Eberhard
 source read this page as it stood on 2026-09-10T20:31:59Z. Since the review,
 the frontmatter status value was changed and the Status field and one Known
 Results line were reworded, with the affirmative answer and Eberhard's theorem
-as its source unchanged; this touches no examined statement, proof, code or
+as its source unchanged; it touches no examined statement, proof, code or
 input.
 
 ## Progress

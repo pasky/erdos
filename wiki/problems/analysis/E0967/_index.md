@@ -69,7 +69,7 @@ audit]]. The review records are kept under the source's
 records]]. Erdős--Ingham's external Tauberian proof is contextual here and is not
 reconstructed in the corpus. Since the review, this page's frontmatter
 description, its Status paragraph and the sentence on the arXiv record below
-were reworded; this touches no examined statement, proof, code or input.
+were reworded; it touches no examined statement, proof, code or input.
 
 The arXiv record lists only v1 and no journal reference; this
 does not establish peer-review acceptance. The site's thread carries no further

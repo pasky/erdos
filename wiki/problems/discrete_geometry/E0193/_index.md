@@ -88,7 +88,7 @@ reconstruction]] has passed an independent whole-proof review. The
 checks every essential deduction against the v1 PDF and the exact catalog
 consequence. It certifies no claim that all sixteen possible steps occur and
 no formal verification. Since the review, this page's frontmatter description
-and Status paragraph were reworded; this touches no examined statement, proof,
+and Status paragraph were reworded; it touches no examined statement, proof,
 code or input.
 
 Thomas Bloom explicitly agreed that the result should be marked solved in

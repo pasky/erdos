@@ -251,7 +251,7 @@ a later rewording. The displayed problem Statement is unchanged;
 the modified Statement and its Notes immediately below it record the required
 actual-degree convention. This record gives no formal-verification or new
 acceptance credit. Since the reviews, this page's frontmatter description and
-Status paragraph were reworded and two of its sentences lightly edited; this
+Status paragraph were reworded and two of its sentences lightly edited; it
 touches no examined statement, proof, code or input.
 <!-- BEGIN problem library links -->
 

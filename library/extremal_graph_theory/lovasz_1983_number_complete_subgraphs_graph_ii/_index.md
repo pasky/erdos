@@ -63,14 +63,13 @@ to [5] (p. 460 = PDF p. 2), the convention on $p$, $d$ and $n$ and Theorems
 1--2 as statements (p. 461 = PDF p. 3), Definitions 1--2 and Theorem 3
 (p. 462 = PDF p. 4), the Conjecture and Theorem 4 (p. 463 = PDF p. 5) and
 the first sentence of p. 464 (PDF p. 6), read clause by clause on the page
-images; the derivation of Theorem 4 from Theorem 3 (p. 463) was read for
-structure. Later the statements above were checked again on the page images, and
-the rest of Section 1 (pp. 464--465), Sections 2--4 (pp. 465--470, the
-preliminaries and the proofs of Theorems 1--2) and the opening of Section 5 (p.
-471, step (A) and the start of step (B)) were read for structure; the rest of
-the proof of Theorem 3 (pp. 471--495 = PDF pp. 13--37, ending "The proof of
-Theorem 3 is complete") was not read, its extent located by its section heading
-on the page images; the reference list (p. 495) was read on the page image.
+images; the derivation of Theorem 4 from Theorem 3 (p. 463), the rest of
+Section 1 (pp. 464--465), Sections 2--4 (pp. 465--470, the preliminaries and
+the proofs of Theorems 1--2) and the opening of Section 5 (p. 471, step (A)
+and the start of step (B)) were read for structure; the rest of the proof of
+Theorem 3 (pp. 471--495 = PDF pp. 13--37, ending "The proof of Theorem 3 is
+complete") was not read, its extent located by its section heading on the page
+images; the reference list (p. 495) was read on the page image.
 Theorems 1--4 are paged at
 [[extremal_graph_theory/lovasz_1983_number_complete_subgraphs_graph_ii/theorem_1|theorem_1]],
 [[extremal_graph_theory/lovasz_1983_number_complete_subgraphs_graph_ii/theorem_2|theorem_2]],

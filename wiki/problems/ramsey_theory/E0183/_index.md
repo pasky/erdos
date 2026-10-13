@@ -177,7 +177,7 @@ The lower-route review examined this page as it stood on 2026-09-09, and the
 upper-route review and grade as it stood on 2026-09-10. Since the reviews,
 the References, the frontmatter description, the Status paragraph and the
 Known Results sentences that cite [He77], [KaSt68], [LaMa88] and [Wa97] at
-statement depth were added or rewritten; this touches no examined statement,
+statement depth were added or rewritten; it touches no examined statement,
 proof, code or input.
 
 ## Progress

@@ -169,7 +169,7 @@ the native report rendition passed fidelity review and hand-check before it
 was filed.
 The statement, conventions and elementary proof are unchanged from the
 reviewed subject. Since the review, the next paragraph's sentence on the
-visual page inspection was reworded; this touches no examined statement, proof,
+visual page inspection was reworded; it touches no examined statement, proof,
 code or input. The finite theorem remains claims-checked only. Its
 computational proof, Theorem 3.2, Propositions 5.1–5.5, the two reported
 programs and Kramer's manuscript remain outside local proof coverage.

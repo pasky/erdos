@@ -218,7 +218,7 @@ proof coverage relative to (E), not proved here, and to (T2). The reviewed
 text is the copy `evidence/assets/reviewed_pages/lemme.md`, which the
 repository does not hold. Since the review, only the `desc` field, this
 Verification section, the `updated` field and the reading-depth label of (T2)
-under Premises have changed; this touches no examined statement, proof, code
+under Premises have changed; it touches no examined statement, proof, code
 or input.
 
 **Bears on.** [[../wiki/problems/irrationality/E0250/_index|#250]], through the

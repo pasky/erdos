@@ -184,6 +184,5 @@ held).
   and the case $r=0$ to
   [[extremal_graph_theory/ore_1961_arc_coverings_graphs/theorem_4_3|Ore 1961, Theorem 4.3]].
   The second bound, with the elementary comparison above, covers the range
-  $k+3\le n\le2k+2$, for which the problem page also records a forum
-  argument, so the problem's implication holds for every $n\ge1$; that
-  comparison is made here, not in the paper.
+  $k+3\le n\le2k+2$, so the problem's implication holds for every $n\ge1$;
+  that comparison is made here, not in the paper.

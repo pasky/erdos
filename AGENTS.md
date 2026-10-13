@@ -204,13 +204,14 @@ evidence" states the numbering and citation guarantee.
     needs one, and to remove the names of people, agents, sessions and tool
     harnesses, keeping their paths, scope, dates and verdict. Private run state
     that never reaches the default branch may name commits.
-10. **No change logs.** Correct a page in place: never record what it used to
-    say, when it changed or who changed it, since git holds that history. A date
-    enters the repository only as a fact in its own right: when a review
-    examined or accepted something, when a Lean clean check ran, a snapshot of
-    an outside source, or an outside event such as a publication. A filed review
-    whose subject has since changed may say so, without a date.
-    `docs/anatomy.md` states the rule.
+10. **No change logs.** Prose carries no change logs. Correct a page in place:
+    never record what it used to say, when it changed or who changed it, since
+    git holds that history. A date enters prose only as a fact in its own right:
+    when a review examined or accepted something, when a Lean clean check or
+    carry-forward check ran, a snapshot of an outside source, or an outside
+    event such as a publication. A filed review whose subject has since changed
+    may say so on the owning page, without a date. `docs/anatomy.md` states the
+    rule.
 
 ## Erdos-specific
 

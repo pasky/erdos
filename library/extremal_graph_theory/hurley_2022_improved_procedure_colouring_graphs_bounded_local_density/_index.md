@@ -42,8 +42,9 @@ by clause on the page image, paged at
 and
 [[extremal_graph_theory/hurley_2022_improved_procedure_colouring_graphs_bounded_local_density/theorem_1_6|theorem_1_6]];
 the proof of Theorem 1.6 (Subsection 3.1) read for structure; the other results
-are the import's reading. The arXiv record (https://arxiv.org/abs/2007.07874,
-read 2026-10-02) names the Creative Commons Attribution 4.0 license.
+are summarized without a clause-by-clause check. The arXiv record
+(https://arxiv.org/abs/2007.07874, read 2026-10-02) names the Creative Commons
+Attribution 4.0 license.
 
 The authors study the chromatic number of sigma-sparse graphs, those in which
 every neighborhood spans at most (1-sigma) binom(Delta,2) edges. Theorem 1.2

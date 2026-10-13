@@ -131,7 +131,7 @@ Kesten's full necessity proof, which is reconstructed on the theorem page only
 for the anchored case. No literature search is recorded. The two outside Lean
 developments named under Formalization have not been built or audited in this
 corpus. Since the review, this page's frontmatter description and Status
-paragraph were reworded; this touches no examined statement, proof, code or
+paragraph were reworded; it touches no examined statement, proof, code or
 input.
 
 The claim pages record two positions. The

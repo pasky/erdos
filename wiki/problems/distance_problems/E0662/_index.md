@@ -204,7 +204,7 @@ are stated separately below.
    review]] filed with the source retains the report. They do not bear on the
    Statement's fixed-threshold count or certify any fixed-threshold variant.
    Since the review, this page's frontmatter description and Status paragraph
-   were reworded; this touches no examined statement, proof, code or input.
+   were reworded; it touches no examined statement, proof, code or input.
    [Csizmadia's publisher abstract](https://www.sciencedirect.com/science/article/pii/S0012365X98001162)
    reports refinements depending on the ratio of the two smallest distances.
    Only its abstract is cited; its theorems and proofs are not compiled.

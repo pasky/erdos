@@ -130,7 +130,7 @@ current-status search is recorded on this page.
 The transfer review read this page's frontmatter status and Status paragraph as
 they stood on 2026-09-15. Since the review, the frontmatter has taken the
 claims schema without a change of meaning, and its description, the Status
-paragraph, the Formalization field and this assessment were reworded; this
+paragraph, the Formalization field and this assessment were reworded; it
 touches no examined statement, proof, code or input, and the standing, the Tao
 source, the statement and the transfer below are unchanged.
 

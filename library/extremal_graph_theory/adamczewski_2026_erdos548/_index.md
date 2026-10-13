@@ -151,7 +151,7 @@ three problem pages among them, carried sentences stating that
 the reconstruction had passed independent review. Neither review is the public
 formal verification, and neither constitutes external expert refereeing of the
 preliminary source. Since the fresh review, the tree Ramsey corollary's
-remarks on star sharpness were extended and reworded; this touches no examined
+remarks on star sharpness were extended and reworded; it touches no examined
 statement, proof, code or input.
 
 That six-page review does not cover the later two-tree corollary or its

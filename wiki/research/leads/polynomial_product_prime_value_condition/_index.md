@@ -168,9 +168,7 @@ are applied and mapped in the
 That review covers the reconstruction of the note's argument against the
 retained PDF. It does not bear on whether Hypothesis 3.1 or the
 Bateman--Horn conjecture is true, changes no problem status, and gives the
-lead itself no accepted whole-proof coverage. Since the review, two of this
-lead's sentences pointing to the reconstruction pages were reworded; this
-touches no examined statement, proof, code or input.
+lead itself no accepted whole-proof coverage.
 
 The manuscript is unchanged. Its positive-input convention and omitted
 lower endpoint are explicitly handled in the retained account. This

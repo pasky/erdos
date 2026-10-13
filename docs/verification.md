@@ -173,7 +173,7 @@ and the reviewer has ruled.
 The report identifies who reviewed what: the exact statement or section,
 convention, proof and code paths, required inputs, and the UTC date of the
 examination, or the path of a preserved snapshot. Every path a record names
-resolves in an ordinary clone, unless the owning page records when it was
+resolves in an ordinary clone, unless the owning page records that it was
 removed. Private branches and temporary files are not the evidence citation.
 
 A record names its subject by repository-relative path and the UTC date of the
@@ -244,51 +244,63 @@ index page lists these edits, and no statement, check or verdict changed.
 
 <!-- end swap note -->
 
+The library's two cards for Pollack, Pomerance and Treviño's "Sets of
+monotonicity for Euler's totient function" became one card,
+`library/primes/pollack_et_al_2013_sets_monotonicity_euler_totient_function/`.
+In the filed verification records under `evidence/**/verify/` the links to the
+removed card,
+`library/arithmetic_functions/pollack_2013_sets_monotonicity_euler_s_totient_function/`,
+and to its result pages were updated in place to the kept card and its pages,
+and the records' index page lists each such link. The records' other mentions of
+the two cards stay as written, as history. No statement, check or verdict
+changed.
+
 A later change to examined text in a named file is disclosed in the same change
 on the owning page's standing, saying whether it touches the examined statement,
 proof, code or inputs; the standing thus says whether the current text is the
 examined text. Mechanical maintenance (a path move, a separator or whitespace
-change, an identity edit convention 9 allows, a change touching only Markdown,
-license texts or attribution records under `lean/`, or an edit to a `.lean` file
-that changes only its comments) needs no standing note and leaves the record in
-force. A substantive change is read under "Grading and claim standing" below,
-which says when a correction leaves an acceptance in force. A tier-2 warrant is
-bound to the Lean tree that its dated non-author clean gate checked, keyed to
-the build inputs under `lean/`: everything there that is not Markdown, a license
-text or an attribution record, that is, the Lean sources, the Lake configuration
-and manifest (`lakefile.toml`, `lake-manifest.json`), the toolchain pin
-(`lean-toolchain`), `lean/Manifest.json`, the gate scripts under `lean/scripts/`
-and the tree's ignore file. The carry-forward rule: the warrant carries forward
-over any later change to the build inputs, with no fresh non-author clean gate,
-when two things hold on the new tree: (a) the ordinary gate passes, build, axiom
-audit and self-test stamp; and (b) the claim's statement is unchanged in
-meaning, that is, its statement declaration, every definition it reaches, its
-row in `lean/Manifest.json` and the card's `statement:` field are all unchanged.
-The row is compared field by field over every field both rows carry except
-`module`, since a module path move is mechanical maintenance; a field present on
-only one side is a schema addition, such as `compiler` or `surface`, and is not
-a change, and `--check` on each tree guarantees that each manifest is complete
-under the current schema. A change that alters any of those ends coverage of the
-new tree until the claim is re-graded. Promotion to tier 2 still needs the
-fidelity review, the grade and the non-author clean gate; only the carry-forward
-over later edits is governed here, and it overrides a record's own wording, as
-do the two special cases it contains: a change touching only Markdown, license
-texts or attribution records under `lean/`, which neither the build nor the
-audit reads, and an edit to a `.lean` file that changes only its comments,
-verified by comparing the file with its comments stripped
-(`scripts/lean_comment_only.py`). Clause (b) is checked mechanically by four
-conditions: (1) the claim's committed row on the new tree, its `surface` field
-included, equals its row on the bound tree over that field set; (2) `--check`
-passes on the new tree, so the committed row is the live one (this belongs to
-clause (a): `--check` compares a tree's manifest only with a fresh render of the
-same tree and never sees the bound tree); (3) the card's `statement:` field is
-unchanged; and (4) no pin changed, the pins being the toolchain in
-`lean-toolchain` and the dependency revisions in `lake-manifest.json`, since the
-closure stops at the Mathlib boundary. The `surface` field, written by
-`lake exe audit --emit` and compared by `--check`, digests the statement's
-definitional closure within the corpus (every definition the statement reaches,
-a theorem by its type alone, Mathlib's boundary recorded by name and type and
-not expanded; `lean/Audit/Surface.lean`).
+change, an identity edit convention 9 allows, a corpus-wide wording pass that
+changes no statement, proof, code, input or verdict, a change touching only
+Markdown, license texts or attribution records under `lean/`, or an edit to a
+`.lean` file that changes only its comments) needs no standing note and leaves
+the record in force. A substantive change is read under "Grading and claim
+standing" below, which says when a correction leaves an acceptance in force. A
+tier-2 warrant is bound to the Lean tree that its dated non-author clean gate
+checked, keyed to the build inputs under `lean/`: everything there that is not
+Markdown, a license text or an attribution record, that is, the Lean sources,
+the Lake configuration and manifest (`lakefile.toml`, `lake-manifest.json`), the
+toolchain pin (`lean-toolchain`), `lean/Manifest.json`, the gate scripts under
+`lean/scripts/` and the tree's ignore file. The carry-forward rule: the warrant
+carries forward over any later change to the build inputs, with no fresh
+non-author clean gate, when two things hold on the new tree: (a) the ordinary
+gate passes, build, axiom audit and self-test stamp; and (b) the claim's
+statement is unchanged in meaning, that is, its statement declaration, every
+definition it reaches, its row in `lean/Manifest.json` and the card's
+`statement:` field are all unchanged. The row is compared field by field over
+every field both rows carry except `module`, since a module path move is
+mechanical maintenance; a field present on only one side is a schema addition,
+such as `compiler` or `surface`, and is not a change, and `--check` on each tree
+guarantees that each manifest is complete under the current schema. A change
+that alters any of those ends coverage of the new tree until the claim is
+re-graded. Promotion to tier 2 still needs the fidelity review, the grade and
+the non-author clean gate; only the carry-forward over later edits is governed
+here, and it overrides a record's own wording, as do the two special cases it
+contains: a change touching only Markdown, license texts or attribution records
+under `lean/`, which neither the build nor the audit reads, and an edit to a
+`.lean` file that changes only its comments, verified by comparing the file with
+its comments stripped (`scripts/lean_comment_only.py`). Clause (b) is checked
+mechanically by four conditions: (1) the claim's committed row on the new tree,
+its `surface` field included, equals its row on the bound tree over that field
+set; (2) `--check` passes on the new tree, so the committed row is the live one
+(this belongs to clause (a): `--check` compares a tree's manifest only with a
+fresh render of the same tree and never sees the bound tree); (3) the card's
+`statement:` field is unchanged; and (4) no pin changed, the pins being the
+toolchain in `lean-toolchain` and the dependency revisions in
+`lake-manifest.json`, since the closure stops at the Mathlib boundary. The
+`surface` field, written by `lake exe audit --emit` and compared by `--check`,
+digests the statement's definitional closure within the corpus (every definition
+the statement reaches, a theorem by its type alone, Mathlib's boundary recorded
+by name and type and not expanded; `lean/Audit/Surface.lean`).
 `scripts/claim_carry_forward.py <L-id> <bound-revision> [<head>]` computes
 conditions (1), (3) and (4) between two trees without Lean, and condition (2),
 `--check`, is the gate's part, where `<bound-revision>` is

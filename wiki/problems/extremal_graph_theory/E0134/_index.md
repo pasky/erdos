@@ -78,7 +78,7 @@ implication for this problem were reviewed on 2026-09-05; the
 3.2 review]] filed with the source retains the report, which is this
 project's own proof coverage and not acceptance evidence. The reported Lean
 file is not built here. Since the review, this page's frontmatter description
-and Status paragraph were reworded; this touches no examined statement, proof,
+and Status paragraph were reworded; it touches no examined statement, proof,
 code or input.
 
 ## Progress

@@ -277,10 +277,10 @@ conjecture and Theorem 1; the proof read for its structure, not checked.
 **Reading and proof scope.** Complete PDF pages 1, 2 and 9 (printed pp. 181, 182
 and 189) were visually read for artifact identity, equations (3) and (4), the
 construction convention and the later Ruzsa report. A page-by-page transcription
-of the scan was subsequently read for this digest, and the #963 passage on
-printed p. 188 was checked against the scan's page image. The greedy base-three
-argument above was reconstructed; no other proof was reviewed. The unrelated
-survey results below retain their earlier compilation scope.
+of the scan was read for this digest, and the #963 passage on printed p. 188 was
+checked against the scan's page image. The greedy base-three argument above was
+reconstructed; no other proof was reviewed. The survey results below that bear
+on other problems are recorded as statements only.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0483/_index|#483]],
 [[../wiki/problems/integer_sequences/E0441/_index|#441]],

@@ -147,7 +147,7 @@ are filed under the source digest above. This does not establish the seed or
 the whole main-theorem proof and adds no phase-coefficient, status, tier or
 kernel claim. Since the review, this page's frontmatter description was
 reworded and the Current verification paragraph of the main-theorem page was
-revised to record the theorem's acceptance on E625 and the site's label; this
+revised to record the theorem's acceptance on E625 and the site's label; it
 touches no examined statement, proof, code or input.
 
 The separate

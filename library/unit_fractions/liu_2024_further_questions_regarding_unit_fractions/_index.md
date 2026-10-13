@@ -146,11 +146,12 @@ The simpler Fourier argument of Proposition 3.2 is used for the counting
 and denominator results, where the ambient set can be chosen; the main
 Proposition 5.2 is designed for arbitrary input sets. For counting,
 [[unit_fractions/liu_2024_further_questions_regarding_unit_fractions/proposition_3_2|the actual-period, sixth-power form of Proposition 3.2]]
-and [[unit_fractions/liu_2024_further_questions_regarding_unit_fractions/lemma_3_3|Lemma 3.3]] have complete rewritten proofs.
-The full proof of Lemma 4.1 and the later denominator applications remain
-to be compiled at their exact target and parameter scopes. Earlier
-alternative methods and later refinements must be checked there before
-calling any of their bounds current best.
+and
+[[unit_fractions/liu_2024_further_questions_regarding_unit_fractions/lemma_3_3|Lemma 3.3]]
+have complete rewritten proofs. The full proof of Lemma 4.1 and the later
+denominator applications remain to be compiled at their exact target and
+parameter scopes. Earlier alternative methods and later refinements must be
+checked there before calling any of their bounds current best.
 
 ## Proof coverage and source concerns
 
@@ -161,7 +162,7 @@ Local typesetting corrections are explicit, including Lemma 6.1's
 missing minus sign, Lemma 6.2's unbound lowercase $n$, and the Fourier
 Taylor coefficient in Fact 2.5 and Lemma 3.1.
 
-The complete main proof now uses explicitly justified forms of its
+The complete main proof uses explicitly justified forms of its
 inputs. The literal multiplicity-counting statement in
 [[unit_fractions/liu_2024_further_questions_regarding_unit_fractions/lemma_2_2|Lemma 2.2]]
 is false; that page records a counterargument and a separately proved

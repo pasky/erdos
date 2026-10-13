@@ -43,7 +43,7 @@ bounds; it located no exact-target resolution. This is a bounded currentness
 check, not a proof of openness.
 
 A complete own-words reconstruction of Theorem 3, its balanced specialization
-and every essential local step is now supplied on the linked source result
+and every essential local step is supplied on the linked source result
 pages. It includes explicit overlap, rotation-convention and regulus repairs,
 and precisely stated external Guth--Katz premises. Its living verification
 record is **Verified at the stated scope** after independent source-based
@@ -55,7 +55,7 @@ relative to its external counting premise, whose proof remains uncompiled.
 Theorem 4's separate unbalanced proof remains uncompiled in this account. These
 additions do not change the status of the little-o question. Since the review,
 this page's frontmatter description and the literature-check paragraph above
-were reworded; this touches no examined statement, proof, code or input.
+were reworded; it touches no examined statement, proof, code or input.
 
 ## Progress
 
