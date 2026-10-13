@@ -55,7 +55,7 @@ and its outputs were aggregated into families. The manuscript's own README
 adds nothing beyond the title, the author line "OpenAI", the date and the
 citation block above; the PDF names no human author and carries no statement
 on human assistance. No refereed publication, arXiv version or independent
-review of the manuscript is recorded here and nothing on
+review of the manuscript is recorded here, and nothing on
 this card is independently reviewed.
 
 Formalization, read statically from the release's catalogue; not built,

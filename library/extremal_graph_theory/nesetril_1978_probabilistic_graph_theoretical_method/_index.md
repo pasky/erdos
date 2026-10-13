@@ -111,8 +111,8 @@ and
 
 ## Compiled scope
 
-All five pages were read in the text layer for the statements above and
-re-read on the rendered page images; no proof was checked.
+All five pages were read in the text layer and on the rendered page images for
+the statements above; no proof was checked.
 Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1006/_index|#1006]]: with $s=5$,

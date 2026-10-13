@@ -49,7 +49,7 @@ subdivisions and of $\mathcal F_{t,k}$, Mader's theorem, the
 Kostochka--Pyber sentence, Jiang's theorem with the two-way comparison and
 Theorem 1.1 (p. 1), and Conjectures 1.2--1.3 and Theorems 1.4--1.7 with the
 tightness remarks (p. 2), read clause by clause in the text layer and, for
-p. 1, on the page image; Theorems 1.6 and 1.7 were read again clause by
+p. 1, on the page image; Theorems 1.6 and 1.7 were read clause by
 clause on the page image of p. 2, with the reduction of Section 2 (pp. 3--5)
 read in outline; Sections 3 and 4 (pp. 5--11) were not read; the reference list
 (p. 11) was read in full.

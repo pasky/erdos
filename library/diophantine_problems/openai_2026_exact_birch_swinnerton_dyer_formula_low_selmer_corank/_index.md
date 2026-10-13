@@ -65,7 +65,7 @@ says nothing about authorship or assistance. The title page names OpenAI as
 the sole author, and the TeX source carries no statement on how the
 manuscript was produced. These are the source's own statements, recorded as
 attestations and not as this corpus's review. No refereed publication, arXiv
-version or independent review of the manuscript is recorded here and nothing
+version or independent review of the manuscript is recorded here, and nothing
 on this card is independently reviewed.
 
 **Formalization.** The release lists no formalization of this manuscript: its

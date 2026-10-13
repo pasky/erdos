@@ -41,13 +41,13 @@ Erdős–Selfridge theorem and its best-possibility statement (p. 60), the
 Lemma (p. 61), the weaker theorem for intervals of length at least $3p_1$
 (p. 62) and the question on $f(u)$ (pp. 62--63); the proof on pp. 60--62 was
 read for its structure and not checked step by step. The rest of the paper
-is recorded from the digest below without a re-read. No notice is printed on the
-scan's first or last pages; the hosting archive's site footer speaks for the
-site, not the paper (https://users.renyi.hu/~p_erdos/, read: "(C)
-2005-2007 All rights reserved. All material on this site is for scientifics
-purposes only."); the Orsay volume has no publisher page or DOI for this
-edition, so no publisher's page was consulted and no Crossref license is
-recorded; the term is unstated.
+is recorded from the digest below and was not checked against the page images.
+No notice is printed on the scan's first or last pages; the hosting archive's
+site footer speaks for the site, not the paper
+(https://users.renyi.hu/~p_erdos/, read: "(C) 2005-2007 All rights reserved. All
+material on this site is for scientifics purposes only."); the Orsay volume has
+no publisher page or DOI for this edition, so no publisher's page was consulted
+and no Crossref license is recorded; the term is unstated.
 
 A fifteen-page problem paper, mostly on prime numbers and divisor functions,
 opening with Erdős's conjecture that d(n)=d(n+1) infinitely often and Claudia

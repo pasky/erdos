@@ -79,7 +79,7 @@ Source: <https://users.renyi.hu/~p_erdos/1983-09.pdf>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0615/_index|#615]]: background, not
 status. Displays (1.5) and (1.6) on printed p. 71 (PDF p. 3, page image,
-re-read clause by clause), RT(n, 4, o(n)) = (n^2/8)(1+o(1))
+read clause by clause), RT(n, 4, o(n)) = (n^2/8)(1+o(1))
 ("[10] gives the upper estimate and [1] the counterexample") and
 RT(n, 2k, o(n)) = (1/2)((3k−5)/(3k−2)) n^2 (1+o(1)) for k >= 2, fix the
 threshold n^2/8 that the problem's question starts from; the paper does not

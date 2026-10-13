@@ -80,7 +80,7 @@ pp. 56--57); for the question whether every $G(n;2n-2)$ contains a cycle
 plus a further point adjacent to three of its points, with its relation to
 Dirac's theorem (copy p. 4 = printed p. 57); for Dirac's $2n-2$ theorem as
 the copy states it, with its hypothesis $n\ge4$ (copy p. 3); and, read
-again clause by clause on the page image for the rows on
+clause by clause on the page image for the rows on
 Problems 905 and 80 below, for the sentence on copy p. 3 (printed p. 56)
 giving a constant $c\le1/3$ for which every $G(2n;n^2+1)$ has a line in at
 least $[cn]$ triangles, with the two sentences before it on Rademacher's

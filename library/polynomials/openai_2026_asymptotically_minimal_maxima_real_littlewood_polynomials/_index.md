@@ -61,7 +61,7 @@ three-torus diffeomorphism with simple Lebesgue spectrum) for a different
 realization of its spectral consequence. These are the source's own provenance
 attestations, recorded as history and not as this corpus's review. No refereed
 publication, arXiv version or independent review of the manuscript is recorded
-here and nothing on this card is independently reviewed.
+here, and nothing on this card is independently reviewed.
 
 Formalization, as the release lists it: the release's Lean catalogue
 (`lean/formalization.yaml`) names this manuscript and pairs it with one

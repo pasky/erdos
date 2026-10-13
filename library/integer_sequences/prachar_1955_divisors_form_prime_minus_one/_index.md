@@ -61,14 +61,14 @@ download: one archive cover followed by the seven printed pages 91–97. The
 record](https://gdz.sub.uni-goettingen.de/id/PPN362162050_0059?tify=%7B%22view%22:%22info%22,%22pages%22:%5B99%5D%7D)
 and [article
 PDF](https://gdz.sub.uni-goettingen.de/download/pdf/PPN362162050_0059/LOG_0012.pdf)
-were accessed. All eight physical pages were rendered and visually read for the
-full reconstruction; no OCR was used. The file prints on its prepended archive
-terms sheet (p. 1) the digitizer's notice that the library "provides access to
-digitized documents strictly for noncommercial educational, research and private
-purposes" and that "Publication and/or broadcast in any form (including
-electronic) requires prior written permission from the Goettingen State- and
-University Library"; the article pages print no copyright line, every other
-right reserved.
+were accessed 5 September 2026. All eight physical pages were rendered and
+visually read for the full reconstruction; no OCR was used. The file prints on
+its prepended archive terms sheet (p. 1) the digitizer's notice that the library
+"provides access to digitized documents strictly for noncommercial educational,
+research and private purposes" and that "Publication and/or broadcast in any
+form (including electronic) requires prior written permission from the
+Goettingen State- and University Library"; the article pages print no copyright
+line, every other right reserved.
 
 The source defines
 

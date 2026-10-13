@@ -55,7 +55,7 @@ in the release adds nothing beyond the title, the author line "OpenAI", the date
 and the citation block; the title page names no person. These sentences are
 recorded here as the source's historical attestations of its own provenance, not
 as this corpus's review. No refereed publication, no arXiv version and no
-independent review of the manuscript is recorded here and nothing on this card
+independent review of the manuscript is recorded here, and nothing on this card
 is independently reviewed.
 
 Formalization, as the release lists it. The release's Lean documentation page

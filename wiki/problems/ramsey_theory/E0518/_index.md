@@ -194,7 +194,7 @@ of [ChCh26] (p. 2): "For every positive integer $n$, the vertex set of every
 red--blue edge-colored $K_n$ can be covered by at most $\sqrt n$ monochromatic
 paths, all of the same color", by a minimal counterexample argument (Section
 3, pp. 3--13; no review of it is recorded). Provenance: arXiv v1 of 24 July
-2026, with no journal reference; submitted to
+2026, the only version on 2026-09-18, with no journal reference; submitted to
 the site's proof-claims tab on 2026-07-29 by a site user, with no comments;
 the site's label and commentary do not mention it; no citing paper was found
 in the search recorded below. An author's proof claim in an unrefereed

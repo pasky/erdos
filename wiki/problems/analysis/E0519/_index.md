@@ -62,8 +62,8 @@ solved with its proof left open and points to a [Lean
 proof](https://github.com/plby/lean-proofs/blob/f2462b2803ffb68bc22653db85065b7166b91283/src/v4.29.1/ErdosProblems/Erdos519.lean)
 of Atkinson's bound $1/6$ in Boris Alexeev's lean-proofs repository (Lean
 4.29.1 with Mathlib), which the statement file cites at that repository's main
-branch and which is linked here pinned to the revision of 24 June 2026, the
-latest to change the file as of 2026-10-07, whose header names Atkinson as the
+branch and which is linked here pinned to the revision of 24 June 2026, on
+2026-10-07 the latest to change the file, whose header names Atkinson as the
 informal author and Aristotle and John Jennings as the formal authors; the
 forum thread links the same autoformalization as a gist of 19 April 2026.
 Neither has been built or audited in this repository; the Atkinson claim page

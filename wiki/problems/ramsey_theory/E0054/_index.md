@@ -202,8 +202,8 @@ long interval of subset sums inside any subset of size $C\log x$, concatenated
 over the dyadic intervals. Acceptance evidence: the site's curator labeled the
 problem SOLVED and credits the resolution to the paper in the commentary (28
 October 2025), a documented acceptance by a reader independent of the authors;
-the arXiv listing shows v1 only and no journal reference, and a Crossref
-bibliographic query for the title returns no journal record;
+on 2026-09-18 the arXiv listing showed v1 only and no journal reference, and a
+Crossref bibliographic query for the title returned no journal record;
 the authors' refereed paper [CFP22] (Mathematika, 2022) uses Theorem 6.1 of the
 preprint as its Theorem 3, which shows reliance by the authors, not review by
 others. On the curator's acceptance the claim page

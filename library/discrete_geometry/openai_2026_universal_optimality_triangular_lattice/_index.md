@@ -53,7 +53,7 @@ Verification section describes two finite checkers held in the release's
 "OpenAI" and carries the date September 23, 2026. These are the source's own
 statements, recorded here as attestations and not as this corpus's review. No
 refereed publication, arXiv version or independent review of the manuscript
-is recorded here and nothing on this card is independently
+is recorded here, and nothing on this card is independently
 reviewed.
 
 The release's Lean catalogue (`lean/formalization.yaml`) does not name this

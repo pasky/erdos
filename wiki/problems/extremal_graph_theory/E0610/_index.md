@@ -40,7 +40,7 @@ $$
 
 for some absolute constant $c>0$?
 
-**Formulation.** The site's wording as of 2026-09-19 (page last edited 28
+**Formulation.** The site's wording as accessed 2026-09-19 (page last edited 28
 May 2026). The definition is the 1992 paper's: a clique
 is an inclusion-maximal complete subgraph with at least two vertices, so
 isolated vertices are not cliques (p. 279), and $\tau(G)$ is its
@@ -183,7 +183,7 @@ lists `status` "proved (Lean)" as of its record's last update of 7 June 2026,
 The development behind the label is the file `erdos610.lean` at
 https://www.ulam.ai/research/erdos610.lean, linked from the thread's 21 April
 2026 post, which describes it as a formalization in Lean by Aristotle with
-external references left as sorries (as of 2026-09-19: 336 lines, `import
+external references left as sorries (read 2026-09-19: 336 lines, `import
 Mathlib`). Its header says "This file formalizes the paper resolving Erdős
 Problem #610, showing that `T(n) = n - Θ(√(n log n))`"; it defines
 `IsMaxClique2`, `IsCliqueTransversal` and `IsCliqueColoring`, proves
@@ -348,7 +348,7 @@ site's label and commentary had been unchanged since 28 May 2026.
 correction or retraction of [JMRS21], a published response to the gap claim,
 a second proof of the corollary, or a change of the site's label.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- The site: problem page, discussion thread and proof-claim tab, accessed
   2026-09-19; the formal-conjectures repository (main, 2026-09-19; no file
   610); the
   community database; the site's reference text for [Er94] (`/bibs/Er94`).
@@ -361,7 +361,7 @@ a second proof of the corollary, or a change of the site's label.
   2607.16118 (one version) and 1701.09133 (two versions).
 - The note and the Lean file at ulam.ai, as linked from the thread.
 - The graphs problem collection (mathweb.ucsd.edu/~erdosproblems, the pages
-  "CliqueTransversal" and "CliqueTransversalUpperBound", as of 2026-09-19):
+  "CliqueTransversal" and "CliqueTransversalUpperBound", read 2026-09-19):
   both state the 1992 bound as "the best current bound", the second
   attributing the $g(n)\sqrt n$ question to [Er94].
 - arXiv API: `all:"clique transversal"` sorted by date (six records, 2016

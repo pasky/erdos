@@ -61,7 +61,7 @@ carries only the title, author line "OpenAI", the date and the citation block,
 and adds no statement about human assistance or verification. The manuscript
 names no author beyond "OpenAI", carries no arXiv identifier and no journal.
 No refereed publication, arXiv version or independent review of the manuscript
-is recorded here and nothing on this card is independently
+is recorded here, and nothing on this card is independently
 reviewed.
 
 The release's Lean catalog (`lean/formalization.yaml`) lists no

@@ -185,7 +185,7 @@ trees is explicit) fed through the paper's Theorem 2.4, which turns the
 Ramsey problem for double stars into a degree condition; the proof was read
 for structure only. Acceptance
 evidence: the paper is an arXiv preprint with no journal version (arXiv
-listing; Crossref bibliographic query); its lower bound is
+listing; Crossref bibliographic query, 2026-09-17); its lower bound is
 restated and used in the refereed [DuSt24] (pp. 2--3: "the results from [8]
 yield that $R(S(2m,m))\ge4.2m+o(m)$") and the paper is cited by three further
 Discrete Mathematics papers on double stars (2022, 2024, 2026) in its

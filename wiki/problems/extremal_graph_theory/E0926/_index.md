@@ -115,7 +115,7 @@ statement? Yes".
 
 ## Current assessment
 
-**The question (site formulation of 2026-10-07).** The statement above;
+**The question (site formulation).** The statement above;
 PROVED; last edited 5 October 2025; source keys [Er69b], [Er71, p. 103],
 [Er74c, p. 79], [Er93, p. 334]. The commentary, in this page's words: the
 lower bound of order $n^{3/2}$ is trivial, since $H_k$ contains a 4-cycle for

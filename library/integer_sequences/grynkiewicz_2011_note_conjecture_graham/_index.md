@@ -37,7 +37,7 @@ the stamp reads "arXiv:0903.3200v1 [math.CO] 18 Mar 2009"): eleven typeset
 pages with a full text layer, PDF pp. 1--11 = the preprint's pp. 1--11. The
 journal's pagination (1336--1344) is not attached to its pages, and the
 journal text was not compared, so the theorem and lemma labels below are
-the preprint's. Provenance: retrieved from
+the preprint's. Provenance: retrieved 2026-09-19T01:40:05Z from
 <https://arxiv.org/pdf/0903.3200> (HTTP 200, one request); 169,600 bytes. The
 arXiv record names arXiv's non-exclusive distribution license (arXiv:0903.3200),
 every other right reserved.

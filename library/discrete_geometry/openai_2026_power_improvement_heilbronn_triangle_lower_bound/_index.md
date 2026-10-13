@@ -53,7 +53,7 @@ The paper names no author beyond "OpenAI", no arXiv identifier and no
 journal; its PDF metadata carries the title and the author "OpenAI" and no
 creation date (the TeX source suppresses the date fields). No refereed
 publication, arXiv version or independent review of the manuscript is
-recorded here and nothing on this card is independently
+recorded here, and nothing on this card is independently
 reviewed.
 
 Formalization, as the release lists it: the release's catalogue

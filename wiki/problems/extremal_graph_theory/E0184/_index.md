@@ -400,13 +400,13 @@ asserted, not proved, in the paper; the argument is recorded from [CFS14].
 commit read on 2026-09-18 although Pyber's theorem answers it; the file at
 main labeled it solved on 2026-10-07, as recorded above.
 
-**Proof claims on the site (accessed 2026-10-07).** The site's proof-claim
-tab carries one claim, full: Ryan Coffey's paper and Lean formalization of
+**Proof claims on the site.** The site's proof-claim tab (accessed 2026-10-07)
+carries one claim, full: Ryan Coffey's paper and Lean formalization of
 2026-10-01, described under Resolution above and recorded on
 [[problems/extremal_graph_theory/E0184/claims/2026_10_01_coffey|its claim page]]
-as claimed. The release's theorem is not on the site's tab. The site labeled
-the problem OPEN (page last edited 1 April 2026); this page's standing is
-derived from the claim pages, not from the label.
+as claimed. The release's theorem is not on the site's tab. The site labeled the
+problem OPEN (page last edited 1 April 2026); this page's standing is derived
+from the claim pages, not from the label.
 
 ## Known results
 

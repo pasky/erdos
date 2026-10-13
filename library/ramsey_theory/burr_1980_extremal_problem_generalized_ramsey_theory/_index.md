@@ -55,7 +55,7 @@ Read status: claims checked for the definitions of $m$-good, $f(m,n)$ and
 $g(m,n)$ (printed p. 193), Table I (p. 194), the constructions for $n=5,6$ (p.
 195), Theorem 1 and Theorem 2 (p. 198), Theorem 3 (p. 202) and the Section 5
 Question (p. 202), each read clause by clause on the page image; Lemmas 1.1--1.3
-were re-read as statements; the proofs were not checked.
+were read as statements; the proofs were not checked.
 
 **Notation.** A connected graph $G$ of order $n$ is $m$-good if
 $r(K_m,G)=(m-1)(n-1)+1$, the value of Chvátal's theorem for trees, and

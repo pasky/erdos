@@ -53,7 +53,7 @@ README adds nothing beyond the title, author "OpenAI", the date and the
 citation block; the TeX source carries no statement on AI use or human
 assistance. The title page names no individual author. No refereed
 publication, arXiv version or independent review of the manuscript is
-recorded here and nothing on this card is independently
+recorded here, and nothing on this card is independently
 reviewed.
 
 The release's Lean catalog (`lean/formalization.yaml`) lists no

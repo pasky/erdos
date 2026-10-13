@@ -31,7 +31,7 @@ Read status: claims checked for the size Ramsey passage of Section 3 (p. 70),
 the two "last minute" problems of p. 78 and, read on the page image, the
 weighted-clique passage of p. 78 (display (3), the definition (4) of F(n),
 Rödl's bounds and the three-color remark), the Burr--Erdős conjecture (1) of p.
-78 re-read clause by clause on the page image for Problem 163, the
+78 read clause by clause on the page image for Problem 163, the
 Hamiltonian random-graph passage of Chapter III, §1 (printed p. 69 = PDF p. 11)
 and the de Mathan--Pollington passage of Chapter II, §1 (printed p. 63 = PDF p.
 5), both read clause by clause on the page images, and the
@@ -41,7 +41,7 @@ and the Bollobás--Erdős triangle passage of Chapter III, §5 (printed p. 71 = 
 p. 13), read clause by clause on the page image for Problems 80, 905 and 1033,
 the longest-path passage of §1 (printed p. 69 = PDF p. 11) and the Schütte
 passage of §2 (printed p. 70 = PDF p. 12), both read clause by clause on the
-page images for Problems 900 and 902, and the §5 passage of p. 71 re-read on the
+page images for Problems 900 and 902, and the §5 passage of p. 71 read on the
 page image for Problem 1034; the statements of the other items are unread; the
 paper proves nothing, so there is no proof to check.
 
@@ -273,8 +273,8 @@ statement of the problem with the bounds of his 1963 paper and his
 attestation of the two Szekeres results;
 [[../wiki/problems/extremal_graph_theory/E1034/_index|#1034]]: Chapter III, §5,
 printed p. 71 (PDF p. 13, page image), the Bollobás--Erdős passage quoted
-under Problem 905, re-read: it states the conjecture that every $G(n;[\frac{n^2}4]+1)$ has
-an edge in at least $\frac n6$ triangles, the degree-sum conjecture (1) and
+under Problem 905: it states the conjecture that every $G(n;[\frac{n^2}4]+1)$
+has an edge in at least $\frac n6$ triangles, the degree-sum conjecture (1) and
 Edwards's proof of it; it does not state the problem's stronger question (a
 triangle with more than $(\frac12-o(1))n$ vertices each joined to two of its
 vertices), which the site attributes to Erdős and Faudree in a 1993

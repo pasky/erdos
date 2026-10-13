@@ -43,7 +43,8 @@ review was located.
 
 The copy read for this card is the arXiv v2 file
 (<https://arxiv.org/abs/2607.28387v2>, 433,491 bytes). The arXiv record names
-arXiv's non-exclusive distribution license (arXiv:2607.28387), every other right reserved.
+arXiv's non-exclusive distribution license (arXiv:2607.28387), every other right
+reserved.
 
 **Read status.** Claims checked for Theorem 1, Example 2, Corollary 3 and
 Theorem 4 (statements and definitions read clause by clause on PDF

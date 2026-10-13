@@ -37,7 +37,7 @@ journal version was not consulted; the term is unstated.
 Read status: claims checked for Theorem 10 and Corollary 11 (read clause by
 clause on the page image of p. 11) and for the introduction (pp. 1-3, page
 images), with the attribution sentence of p. 3 and reference [6] (p. 21)
-re-read on the page images; no proof checked.
+read on the page images; no proof checked.
 
 The authors prove that the induced r-size-Ramsey number of a cycle is linear:
 r_e^{ind}(C_l, r) <= c_r l with c_r depending only on the number r of colors.

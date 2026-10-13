@@ -152,7 +152,7 @@ derives the lower bound (1-1/e+o(1))N from the Main Theorem with r = 1
 Read status: claims checked. The Main Theorem was read clause by clause in the
 text layer of the arXiv preprint (p. 1) and is paged as
 [[unit_fractions/croot_1999_unit_fractions_denominators_short_intervals/main_theorem|main_theorem]];
-it was read again, with the introduction (pp. 99-100), on the page images of the
+it and the introduction (pp. 99-100) were read on the page images of the
 published version for the #284, #286 and #319 rows; the published Propositions 1
 and 2 and Lemmas 1-5 were read as statements for the proof pointer, and no proof
 was checked. For problem 295 the theorem bounds the interval containing the

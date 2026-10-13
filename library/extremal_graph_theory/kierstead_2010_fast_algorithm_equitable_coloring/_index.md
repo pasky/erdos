@@ -109,7 +109,7 @@ statements only. Nothing here is independently reviewed.
 ## Compiled scope
 
 Printed p. 217 was read on the page image and pp. 218--224 in the text
-layer; pp. 221--223 were read again on the printed pages for Theorem 4.
+layer; pp. 221--223 were also read on the printed pages for Theorem 4.
 Theorems 1 and 4 are at claims-checked depth; their proofs in Sections 2
 and 3 are read for structure and not checked. Nothing here is independently reviewed.
 

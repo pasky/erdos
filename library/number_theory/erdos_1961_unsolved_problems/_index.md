@@ -136,7 +136,8 @@ without a bound or a conjectured value. Claims checked for the passage,
 which states no result of its own.
 
 For [[../wiki/problems/number_theory/E0492/_index|#492]], item 31 of Part I, printed
-p. 238 (PDF p. 18 of the archive's scan, read on the page image), the site's source key Er61 for the problem: "31) The following
+p. 238 (PDF p. 18 of the archive's scan, read on the page image), the site's
+source key Er61 for the problem: "31) The following
 problem is due to W. LE VEQUE: Let $a_1<a_2<\ldots$ be an infinite sequence
 tending to infinity satisfying $a_{i+1}/a_i\to1$. Let $a_i\le x_n<a_{i+1}$,
 put $y_n=\frac{x_n-a_i}{a_{i+1}-a_i}$, $0\le y_n<1$. We say that the

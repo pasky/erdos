@@ -129,8 +129,9 @@ F. Bloom, Erdős Problem #1216, https://www.erdosproblems.com/1216, accessed
   directed Ramsey problem. arXiv:1401.6823 (v1 27 January 2014; v3 21
   January 2016, 17 pp.); Theorem 4.2 and the introduction's survey, cited
   from the author-hosted revised copy (14 pp., linked from the site's thread;
-  fetched 2026-09-18, 285,814 bytes). The copy thanks a referee. Not held in
-  the library.
+  fetched 2026-09-18, 285,814 bytes). No journal record was found in
+  Crossref on 2026-09-18 (two bibliographic queries); the copy thanks a
+  referee. Not held in the library.
 - [NeLa94] Neumann-Lara, V., A short proof of a theorem of Reid and Parker
   on tournaments. Graphs Combin. 10 (1994), 363--366, doi:10.1007/BF02986686
   (Crossref record of 2026-09-18). Not held; by its zbMATH review (Zbl

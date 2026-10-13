@@ -43,8 +43,8 @@ question as printed, and that question sets the standing. Erdős expects in
 question that the site places in section B16 of Guy's collection [Gu04] as well.
 
 **Status.** Verifiable, the site's label (VERIFIABLE; page last edited 16 July
-2026, accessed 2026-10-07). The site explained this label as open but provable
-by a finite example. No claim settles the question. The site's proof-claims tab
+2026). The site explained this label as open but provable by a finite example.
+No claim settles the question. The site's proof-claims tab (accessed 2026-10-07)
 carries one partial proof claim: Xeff's bound on any solution under Baker's
 explicit abc conjecture. It decides nothing and gets no claim page. The Current
 assessment records it with the reason.

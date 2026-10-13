@@ -38,7 +38,7 @@ file, three pages with a complete text layer, read on the rendered page images
 and in the text layer. Provenance: retrieved 2026-09-18T02:09:55Z from the
 URL above (HTTP 200, one request); 74,985 bytes. No notice is printed on any of
 the file's three pages, and the publisher's terms-of-use page
-(https://openai.com/policies/terms-of-use/) could not be read
+(https://openai.com/policies/terms-of-use/) could not be read on 2026-10-02
 (HTTP 403); the term is unstated.
 
 Attribution as the manuscript states it: the abstract ends "The proof is due

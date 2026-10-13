@@ -109,7 +109,8 @@ accessed 2026-09-17.
   [[../library/ramsey_theory/erdos_1975_strong_embeddings_graphs_into_colored_graphs/_index|erdos_1975_strong_embeddings_graphs_into_colored_graphs]].
 - [De75] Deuber, W., Generalizations of Ramsey's theorem. Infinite and
   finite sets (Colloq., Keszthely, 1973), Vol. I, Colloq. Math. Soc. János
-  Bolyai 10, North-Holland (1975), 323--332. Not held. Cited as [EHP75] and [ACDFM25] cite it.
+  Bolyai 10, North-Holland (1975), 323--332. Not held. Cited as [EHP75] and
+  [ACDFM25] cite it.
 - [Ro73] Rödl, V., The dimension of a graph and generalized Ramsey theorems.
   Thesis, Charles University, Prague (1973). Not held: no record was found in
   zbMATH Open on 2026-09-17. The site credits it with the existence of $R^*(G)$

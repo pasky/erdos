@@ -51,10 +51,10 @@ concerning “Factorisatio Numerorum”*, *Journal of Number Theory* **17** (198
 no. 1, 1–28, [DOI
 10.1016/0022-314X(83)90002-1](https://doi.org/10.1016/0022-314X(83)90002-1). The
 copy read for this card is the published PDF from [Pomerance's author
-archive](https://math.dartmouth.edu/~carlp/PDF/paper39.pdf). It prints
-"Copyright © 1983 by Academic Press, Inc. All rights of reproduction in any form
-reserved." on its first page (read on the page image), every other right
-reserved.
+archive](https://math.dartmouth.edu/~carlp/PDF/paper39.pdf), retrieved on
+2026-09-05. It prints "Copyright © 1983 by Academic Press, Inc. All rights of
+reproduction in any form reserved." on its first page (read on the page image),
+every other right reserved.
 
 The paper distinguishes unordered factorizations into factors larger than 1
 ($f(n)$), factorizations into distinct factors ($f_0(n)$), and the Piltz

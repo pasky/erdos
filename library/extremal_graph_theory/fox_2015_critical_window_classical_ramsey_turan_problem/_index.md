@@ -63,7 +63,7 @@ page images; the proofs were not read, beyond locating their parts for the
 proof pointers on the result pages (the proofs of Theorems 1.6 and 1.5 on
 pp. 19-20, of Theorem 1.8 on p. 25, of Theorem 1.10 on p. 28, of Theorem
 1.9 on p. 30 and of Theorem 1.7 on p. 31, on the page images). Problem 1.4
-(p. 3) and Theorem 1.10 with the paragraph before it (p. 4) were re-read
+(p. 3) and Theorem 1.10 with the paragraph before it (p. 4) were read
 clause by clause on the page images for Problem 615.
 
 For the Ramsey-Turan number RT(n,K4,m), the paper resolves the critical window

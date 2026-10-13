@@ -105,7 +105,7 @@ Schelp, notes that $q=1$ is exactly the classical Ramsey problem, so that for
 example $1/(p-1)\le c(p,1)\le2/(p+1)$, calls $c(p,q)=1$ at $q=\binom{p-1}2+1$
 easy, and credits the four authors with $c(p,\binom{p-1}2)\le1/2$. The thread
 has one comment (18 April 2026), recorded below. The proof-claim tab is empty.
-The community database record says open.
+The community database record (fetched 2026-09-18) said open.
 
 **Origin.** [Er97f], Problem 13, printed pp. 3--4, in the corpus's words
 except where marked. For a graph $G$ of

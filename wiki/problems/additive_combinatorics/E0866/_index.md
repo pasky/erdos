@@ -108,7 +108,8 @@ statement? No" and "OEIS: Possible"), its five-comment discussion thread
   [[../library/additive_combinatorics/choi_1975_additive_multiplicative_problems_number_theory/theorem_6|Theorem 6]].
 - [vD26] van Doorn, W., The cardinality of a set containing the pairwise
   sums of a fixed number of integers. arXiv:2605.00040v1 (28 April 2026),
-  14 pp. A preprint whose Section 2 declares AI usage.
+  14 pp.; on 2026-09-18 the only arXiv version, with no journal reference
+  and no Crossref record. A preprint whose Section 2 declares AI usage.
   Theorems 1--2, p. 3; Theorem 3, p. 4; Theorems 4--5, p. 5; Theorem 8,
   p. 8; Theorem 9, p. 12. Library home:
   [[../library/additive_combinatorics/doorn_2026_cardinality_set_containing_pairwise_sums_fixed/_index|doorn_2026_cardinality_set_containing_pairwise_sums_fixed]];

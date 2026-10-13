@@ -53,7 +53,7 @@ Source: <https://arxiv.org/abs/2404.07190>.
 a text layer; the arXiv record lists no later version (read 2026-09-18). The
 paper appeared as Advances in Mathematics 469 (2025), Paper No. 110228,
 doi:10.1016/j.aim.2025.110228 (Crossref record read 2026-09-18: issued May
-2025, record created 3 April 2025; read again on 2026-10-07, the record names
+2025, record created 3 April 2025; read on 2026-10-07, the record names
 a CC BY 4.0 license for the version of record from 20 March 2025); the journal
 version was not compared, and the locators below are the preprint's. The
 digest's citation year 2024 follows the version read. Logarithms are with base 2

@@ -75,7 +75,7 @@ This is source reading and specialization, not independent acceptance of
 complete source-proof compilations. Bell--Smertnig's imported automatic
 sequence classification, reduction/lifting theorem, rational multiplicative
 sequence classification, and Mahler-denominator criterion remain external
-premises at their source standing. Their original proofs were not reread.
+premises at their source standing. Their original proofs were not read here.
 
 ## The exact Mahler consequence
 

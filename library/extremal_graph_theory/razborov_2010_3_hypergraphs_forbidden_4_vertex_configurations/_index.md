@@ -42,7 +42,7 @@ describes the published version rather than that preprint, so it was not
 consulted; the term is unstated.
 
 Read status: claims checked for Theorem 1 (p. 3) and for the numerical
-remark that follows it, re-read on the page image; the proof
+remark that follows it, read on the page image; the proof
 (Section 3, pp. 11--13) was not read. Theorem 1 and the remark are paged at
 [[extremal_graph_theory/razborov_2010_3_hypergraphs_forbidden_4_vertex_configurations/theorem_1|theorem_1]],
 which [[../wiki/problems/extremal_graph_theory/E0500/_index|#500]] consumes.

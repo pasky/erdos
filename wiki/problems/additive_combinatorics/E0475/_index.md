@@ -387,10 +387,10 @@ random subset sums ([PhSa26]); absorption and a regularity decomposition
 of Cayley graphs ([BBKMM25]); the random Hall--Paige theorem through
 sorting networks ([MuPo25]). Acceptance evidence: [BeKr24], [MuPo25],
 [CoPe20] and [HOS19] are refereed; [PhSa26], [BBKMM25] and [CoDe26] are
-preprints, [PhSa26] cited by four 2026
+preprints (no journal records on 2026-09-18), [PhSa26] cited by four 2026
 preprints and [BBKMM25] by none in the citation index consulted; the site
 records the chain in its commentary (5 March 2026) under a label that
-leaves the problem open, which is not acceptance. Under the preprint
+left the problem open, which is not acceptance. Under the preprint
 qualification the completion for large $p$ is source-supported but not
 refereed in two of its four links.
 

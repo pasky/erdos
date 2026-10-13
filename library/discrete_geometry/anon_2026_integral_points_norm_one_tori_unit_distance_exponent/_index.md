@@ -32,7 +32,8 @@ pages. Its embedded metadata records a creation date of 26 May 2026
 <https://www-cdn.anthropic.com/files/4zrzovbb/website/ca35f196125c899a5ad11f011080202a652aef02.pdf>,
 a content-delivery address of the hosting organization. The slug's "anon"
 records the absence of an author line, not an author's choice. No notice is
-printed; the hosting organization's legal page (https://www.anthropic.com/legal) links privacy, acceptable-use, terms-of-service and
+printed; the hosting organization's legal page (https://www.anthropic.com/legal,
+read 2026-10-02) links privacy, acceptable-use, terms-of-service and
 supported-countries policies, none of which states ownership or licensing of
 documents published on the site; the term is unstated.
 

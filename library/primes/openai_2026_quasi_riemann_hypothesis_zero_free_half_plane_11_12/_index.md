@@ -62,7 +62,7 @@ and prints no personal names, no acknowledgments and no further statement on how
 it was produced. These are the source's statements about its own provenance,
 recorded here as attestations and not as this corpus's review. No refereed
 publication, arXiv version or independent review of the manuscript is recorded
-here and nothing on this card is independently reviewed.
+here, and nothing on this card is independently reviewed.
 
 The release's Lean catalog (`lean/formalization.yaml`) does not name this
 manuscript; the family's formalization is recorded on the companion card

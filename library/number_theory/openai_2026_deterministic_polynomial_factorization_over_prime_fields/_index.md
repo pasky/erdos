@@ -65,7 +65,7 @@ date October 4, 2026 and the citation block above; it adds no statement about
 human assistance or verification. The manuscript itself names no author beyond
 "OpenAI", carries no arXiv identifier and no journal, and dates itself October
 4, 2026. No refereed publication, arXiv version or independent review of the
-manuscript is recorded here and nothing on this card is
+manuscript is recorded here, and nothing on this card is
 independently reviewed.
 
 The release's Lean catalog (`lean/formalization.yaml`) lists no

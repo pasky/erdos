@@ -117,7 +117,7 @@ edges; that is the site's definition, the other color's share being the
 complement. The community database, read 2026-09-18, records the problem
 open (last changed 31 August 2025), the statement formalized since 9
 September 2026, and no formal proof; the site's formalized-statement
-indicator read yes.
+indicator read yes on 2026-09-18.
 
 ## Current assessment
 

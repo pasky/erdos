@@ -53,8 +53,8 @@ Theorem of Section 4 with the remark after it (p. 59), read clause by clause
 on the page images; the proof (pp. 59--61) was read for structure only and
 no step was checked; the values of Section 2 (pp. 56--57), the question on
 p. 58 and the statements of Section 5 (p. 62) were read clause by clause on
-the page images, and the rest of Section 3 was not re-read. The Section 5
-argument (p. 62) was checked step by step. The Theorem is paged at
+the page images, and the rest of Section 3 was not read clause by clause. The
+Section 5 argument (p. 62) was checked step by step. The Theorem is paged at
 [[extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_section_4|theorem_section_4]], the p. 58 question at
 [[extremal_graph_theory/brown_1973_extremal_problems_graphs/question_p58|question_p58]], and the Section 5 bound and
 conjecture at [[extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_p62|theorem_p62]] and

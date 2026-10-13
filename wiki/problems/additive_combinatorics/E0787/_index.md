@@ -252,12 +252,12 @@ $c<1$. The site's display $(\log n)^{1+1/68+o(1)}$ is its rendering of the range
 $c<1/68$. Neither proof is reviewed in this corpus. [Be25] had one arXiv version
 and no journal record on 2026-09-18 (Crossref bibliographic query). The v2 of
 [Be25], of 2 October 2026, is accepted by Int. Math. Res. Not. and had no
-journal record on 2026-10-07. [Zh26], an unrefereed preprint of September 2026,
-reruns Beker's density-increment argument with the outcomes of its
-graph-counting step kept apart, each charged its own density gain and rank cost.
-Its Theorem 1.1 (p. 3) lowers the leading power of $k$ in Beker's finite-group
-bound from $k^{68}$ to $k^{36}$, and its Theorem 1.3 (p. 3) is Beker's Theorem
-1.2 for every $c<1/36$
+journal record on 2026-10-07; no citing record was found (Semantic Scholar,
+2026-09-18). [Zh26], an unrefereed preprint of September 2026, reruns Beker's
+density-increment argument with the outcomes of its graph-counting step kept
+apart, each charged its own density gain and rank cost. Its Theorem 1.1 (p. 3)
+lowers the leading power of $k$ in Beker's finite-group bound from $k^{68}$ to
+$k^{36}$, and its Theorem 1.3 (p. 3) is Beker's Theorem 1.2 for every $c<1/36$
 ([[problems/additive_combinatorics/E0787/claims/2026_09_25_zhi|its claim page]]).
 Its proof is not reviewed in this corpus either. The lower bound of record
 therefore rests on the refereed [Sa21], with [Be25] as a second proof under the

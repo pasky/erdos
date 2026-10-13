@@ -50,7 +50,7 @@ after its proof (p. 88), the open questions of Section 4 (pp. 88--89) and the
 steps of the proof of Theorem 1 that invoke Lemma 1.3 (p. 83) were read as
 statements on the page images; no further proof was checked. The statements of
 Theorems 1--3, Lemma 1.3, the Remark after Theorem 2, the sharpness example and
-Section 4 were reread clause by clause on the page images for their result
+Section 4 were read clause by clause on the page images for their result
 pages; the proofs remain unchecked. The file prints "Annals of Discrete
 Mathematics 41 (1989) 79-90 © Elsevier Science Publishers B.V. (North-Holland)"
 in the header of its first page (printed p. 79; the text layer prints the sign

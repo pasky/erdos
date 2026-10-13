@@ -80,7 +80,7 @@ inside $R$ to cover adjacent roots: balance and internal incident density
 are unchanged, and avoidance of the smaller rooted power gives a lower
 bound for avoidance of the original one. These statements and that
 explanation were checked against pp. 4–5. The imported lower proof itself
-was not reread in full.
+was not read in full.
 
 This establishes an earlier source for the general rooted lower-bound
 framework. The present

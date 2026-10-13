@@ -66,7 +66,7 @@ derives. That evidence is refereed publication and the curator's credit.
 **Source.** [erdosproblems.com/206](https://www.erdosproblems.com/206),
 accessed 2026-09-17: the problem page
 (DISPROVED (LEAN); no last-edited date shown), its five-comment discussion
-thread and its empty proof-claim tab; the problem page was read again on
+thread and its empty proof-claim tab; the problem page was also accessed
 2026-10-13. The site cites [ErGr80, p. 31]. Cite as: T. F. Bloom, Erdős
 Problem #206, https://www.erdosproblems.com/206, accessed 2026-09-17.
 

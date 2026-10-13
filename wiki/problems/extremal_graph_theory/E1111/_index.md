@@ -130,7 +130,7 @@ Problem #1111, https://www.erdosproblems.com/1111, accessed 2026-09-18.
 - [NSS24] Nguyen, T., Scott, A. and Seymour, P., On a problem of El-Zahar
   and Erdős. J. Combin. Theory Ser. B 165 (2024), 211--222,
   doi:10.1016/j.jctb.2023.11.004 (published March 2024; Crossref record
-  read); arXiv:2303.13449v1 (23 March 2023, "February 6, 2023;
+  read 2026-09-18); arXiv:2303.13449v1 (23 March 2023, "February 6, 2023;
   revised March 24, 2023", a title page and an abstract page before 8
   printed pages, not held; the only arXiv version). Problem 1.1 and results
   1.2--1.3, printed p. 1 = PDF p. 3; Conjecture 4.1 and the references,

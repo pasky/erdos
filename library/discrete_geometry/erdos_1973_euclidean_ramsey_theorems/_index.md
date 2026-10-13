@@ -96,13 +96,13 @@ and [DOI](https://doi.org/10.1016/0097-3165(73)90011-3).
 ## Source and scope
 
 The copy read for this card is the published scan from the [Rényi
-archive](https://users.renyi.hu/~p_erdos/1973-08.pdf), with 23 physical pages
-matching printed pp. 341–363. The paper was received on 5 November 1972; this is
-distinct from publication in May 1973. The scan's later scanning metadata is not
-a mathematical revision date. The [source record](source_record.json) records
-this edition. The scan prints "Copyright © 1973 by Academic Press, Inc. All
-rights of reproduction in any form reserved" on its first page, every other
-right reserved.
+archive](https://users.renyi.hu/~p_erdos/1973-08.pdf), retrieved on 5 September
+2026, with 23 physical pages matching printed pp. 341–363. The paper was
+received on 5 November 1972; this is distinct from publication in May 1973. The
+scan's later scanning metadata is not a mathematical revision date. The
+[source record](source_record.json) records this edition. The scan prints
+"Copyright © 1973 by Academic Press, Inc. All rights of reproduction in any form
+reserved" on its first page, every other right reserved.
 
 The proof pages reconstruct the source's geometric, affine, field and
 product arguments, with their prerequisites and compressed steps expanded.

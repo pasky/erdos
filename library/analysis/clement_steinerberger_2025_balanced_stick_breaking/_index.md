@@ -28,9 +28,10 @@ arXiv:2511.14637v1 (18 November 2025), math.CO, 12 pages. Unrefereed; no
 journal reference on arXiv and no published version found (Crossref,
 2026-09-27). Suggested key [ClSt25].
 
-**Edition read.** The copy read for this card is arXiv v1, retrieved from <https://arxiv.org/pdf/2511.14637v1>; 409,063 bytes. The text
-layer was read. The arXiv record names arXiv's non-exclusive distribution
-license (arXiv:2511.14637), every other right reserved.
+**Edition read.** The copy read for this card is arXiv v1, retrieved from
+<https://arxiv.org/pdf/2511.14637v1>; 409,063 bytes. The text layer was read.
+The arXiv record names arXiv's non-exclusive distribution license
+(arXiv:2511.14637), every other right reserved.
 
 **Read status.** Claims checked for Theorem 2 and Theorem 3 (p. 2), read
 clause by clause; the proofs (Section 2 for the van der Corput sequence,

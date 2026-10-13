@@ -143,5 +143,5 @@ most $N_0$, with $c$ an absolute constant not made explicit.
 
 No file of this source is held: no license on record permits redistribution
 of the edition read, and the card cites that edition. The Crossref record
-lists CC BY 4.0 for the journal version, an edition not
-read here.
+(read 2026-10-07) lists CC BY 4.0 for the journal version, an edition not read
+here.

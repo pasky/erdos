@@ -59,13 +59,13 @@ status: claims checked for display (15) on printed p. 30 and the
 direct-construction request and display (16) on p. 31 (PDF pp. 4--5), read
 clause by clause on the page images, and for the edge-coloring question on
 printed p. 33 (PDF p. 7), read clause by clause on the page image, for the
-independence-number question that follows it on the same page (re-read clause by
+independence-number question that follows it on the same page (read clause by
 clause on the page image for Problem 925) and for the Moon--Moser clique-sizes
 passage on printed p. 34 (PDF p. 8), read clause by clause on the page image for
 Problem 927, and for the Pósa--Lewin passage on circuits with diagonals that
 follows it on printed p. 34 (PDF p. 8), read clause by clause on the page image
-for Problem 767; the rest of the digest records an earlier reading that was not
-repeated. The scan prints at the head of its first page "REPRINTED FROM PROOF
+for Problem 767; the rest of the digest was not read clause by clause. The scan
+prints at the head of its first page "REPRINTED FROM PROOF
 TECHNIQUES IN GRAPH THEORY © 1969 ACADEMIC PRESS INC. NEW YORK", a copyright
 notice that names no license; the hosting archive's site footer speaks for the
 site, not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02, prints

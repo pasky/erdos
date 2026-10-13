@@ -74,7 +74,7 @@ p. 46 were not checked. Problem 905 consumes the p. 44 passage and Corollary
 and
 [[extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/corollary_3|corollary_3]];
 Problem 1034 consumes Corollary 3 as the book bound behind its lower bound
-(Corollary 3 and Theorem 2 read again on the page images).
+(Corollary 3 and Theorem 2 read on the page images).
 
 ## Contents
 
@@ -209,7 +209,7 @@ every edge on a triangle and $\hat t=n/9$, an equality case of Theorem 1, shows 
 $f_{2/9}(n)\le n/9$ for $9\mid n$
 ([[extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/corollary_3|corollary_3]]).
 [[../wiki/problems/extremal_graph_theory/E1034/_index|#1034]]: Corollary 3 (p. 45 = PDF
-p. 9, page image, read again), $\hat t>n/6$ whenever
+p. 9, page image), $\hat t>n/6$ whenever
 $e>[n^2/4]$, is the "classical result on the existence of a book of size
 $n/6$" that the Ma--Tang note and the site combine with the disproving
 construction to bound the general threshold $h(n)$ from below: an edge on more

@@ -85,7 +85,7 @@ numerical case bounds (3.9)--(3.23) were not recomputed. §§ 4--7 (pp. 77--88)
 and p. 91 of § 8 were read in the text layer for structure only, except Remark 1
 of § 7 (p. 88), read on the page image, and no proof there was checked. The
 statements of Propositions 1.4 and 1.7, (1.5), (1.6), Lemma 6.27 (p. 86) and §
-8's (8.1)--(8.4) with Lemma 8.5 were read again clause by clause on the page
+8's (8.1)--(8.4) with Lemma 8.5 were read clause by clause on the page
 images, and § 4 (p. 77), § 7 (pp. 87--88) and § 8 (pp. 89--91) were read on the
 page images for structure; their inequalities were not checked. Nothing here is
 independently reviewed.

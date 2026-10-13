@@ -40,8 +40,8 @@ of a page number, the line "PROC. 9TH S-E CONF. COMBINATORICS, GRAPH THEORY, AND
 COMPUTING, pp. 29-40"; PDF page $n$ is printed page $28+n$, the printed number
 standing at the foot of each later page). The text layer serves for orientation
 only. Printed pp. 29--36 and 39--40 were read on rendered page images for the
-statements below that carry page numbers, on the dates the read status gives;
-the rest of the digest comes from an earlier reading and was not re-read here.
+statements below that carry page numbers; the rest of the digest was not
+checked against the page images.
 No notice is printed in the scan; the hosting archive's site footer speaks for
 the site, not the paper (https://users.renyi.hu/~p_erdos/, read 2026-10-02,
 prints "(C) 2005-2007 All rights reserved. All material on this site is for
@@ -65,7 +65,8 @@ page images (the Section 6 heading on printed p. 35 was read the same way), and
 for Theorem 1 of Section 6 (printed p. 36 = PDF p. 8), read clause by clause on
 the page image, and for the Section 3 passage on the longest path of almost all
 graphs $G(n;[Cn])$ (printed p. 32 = PDF p. 4), read clause by clause on the page
-image; the remaining statements are recorded from the digest without a re-read.
+image; the remaining statements are recorded from the digest and were not
+checked against the page images.
 The paper proves only the two theorems of Section 6; its problems and
 conjectures carry no proofs.
 
@@ -192,7 +193,7 @@ difference is not resolved here.
 ## Compiled scope
 
 Printed pp. 29--36 and 39--40 were read on the page images for the statements
-the read status names; pp. 37--38 were not re-read for this card. No proof was
+the read status names; pp. 37--38 were not read on the page images. No proof was
 checked and nothing here is independently reviewed.
 
 Source: <https://users.renyi.hu/~p_erdos/1978-36.pdf>.

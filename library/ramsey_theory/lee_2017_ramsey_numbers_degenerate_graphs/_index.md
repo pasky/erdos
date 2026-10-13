@@ -87,9 +87,9 @@ context for problem 181.
   $r(H)\le2^{d2^{cr}}|V(H)|$ for every $d$-degenerate $H$ of chromatic
   number $r$ with $|V(H)|\ge2^{d^22^{cr}}$; "This solves a conjecture of
   Burr and Erdős from 1973."
-- Introduction (p. 2, not re-read here): the definition of degeneracy, the
-  Burr--Erdős conjecture and the history through Kostochka--Rödl,
-  Kostochka--Sudakov and Fox--Sudakov.
+- Introduction (p. 2, from the digest, not checked): the definition of
+  degeneracy, the Burr--Erdős conjecture and the history through
+  Kostochka--Rödl, Kostochka--Sudakov and Fox--Sudakov.
 - [[ramsey_theory/lee_2017_ramsey_numbers_degenerate_graphs/theorem_1_1|Theorem 1.1]]
   (p. 3): the universality statement with the threshold
   $n\ge2^{d^22^{cr}}$ and the host on at least $2^{d2^{cr}}n$ vertices;

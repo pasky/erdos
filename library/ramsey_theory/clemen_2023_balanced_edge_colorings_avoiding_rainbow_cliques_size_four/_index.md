@@ -65,7 +65,7 @@ verified.
   p. 1), a balanced $\ell$-coloring of $K_n$ with no rainbow $K_q$ lifts to
   one of $K_{n^k}$ for every $k$, so the theorem reduces to $k=1$. Page:
   [[ramsey_theory/clemen_2023_balanced_edge_colorings_avoiding_rainbow_cliques_size_four/theorem_1_2|theorem_1_2]]
-  (the statement re-read on the page image of p. 1).
+  (the statement read on the page image of p. 1).
 - Figure 1 (p. 2): the adjacency matrix of a $6$-coloring of $K_{13}$ found
   by computer search, in which every vertex sees every color exactly twice
   and, by the authors' check of the $715$ copies of $K_4$, none is rainbow.

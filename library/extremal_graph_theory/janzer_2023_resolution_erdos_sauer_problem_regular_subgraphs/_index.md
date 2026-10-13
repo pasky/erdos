@@ -74,7 +74,7 @@ Read status: claims checked for Theorems 1.2 and 6.3, read clause by clause
 in the journal PDF's text layer (pp. 2 and 11) with the square roots of
 Section 6 confirmed on the page image, and for the quoted Theorems 1.1 and
 6.2; no proof was read. Theorems 6.1, 6.2 and 6.3 and the paragraph
-introducing them were re-read clause by clause on the page image of p. 11:
+introducing them were read clause by clause on the page image of p. 11:
 Theorem 6.1 prints $\frac25m^{1+\alpha}$, and Theorem 6.2 prints "$72m\sqrt{\log
 m}+18\log(64K)+324$" as the digest quotes it (Alon's Proposition 2.1 gives the
 last two terms a factor $m$; recorded on the result page, not resolved).
@@ -154,7 +154,8 @@ gives the near-matching positive bound
 $\varepsilon m\sqrt{\log m}/(\log\log m)^{3/2}$, with
 $\varepsilon=\varepsilon(m_0)$ for subgraphs on $m\ge m_0$ vertices.
 [[../wiki/problems/extremal_graph_theory/E0585/_index|#585]]: Theorem 1.1 (p. 2 of the
-journal PDF, Pyber--Rödl--Szemerédi, quoted; re-read on the page image) gives, for every $n$, an $n$-vertex graph with at least
+journal PDF, Pyber--Rödl--Szemerédi, quoted; read on the page image) gives,
+for every $n$, an $n$-vertex graph with at least
 $cn\log\log n$ edges and no $k$-regular subgraph for any $k\ge3$; two
 edge-disjoint cycles on the same vertex set form a $4$-regular subgraph, so
 these graphs contain no such pair, which is the problem's lower bound

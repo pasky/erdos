@@ -73,7 +73,7 @@ Read status: claims checked for Theorem 4 and the question it addresses
   proof applies the degree form of the Regularity Lemma (Lemma 1, p. 4) and
   reduces the general case to an induced $P_4$ in $L$. Page:
   [[ramsey_theory/sarkozy_2006_anti_ramsey_problem_burr_erdos_graham_sos/theorem_4|theorem_4]]
-  (the statement re-read on the page image of p. 3).
+  (the statement read on the page image of p. 3).
 
 ## Compiled scope
 

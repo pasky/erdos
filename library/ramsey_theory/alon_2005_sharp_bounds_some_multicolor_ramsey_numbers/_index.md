@@ -140,7 +140,7 @@ $r(K_3,K_3,K_m)=\tilde\Theta(m^3)$ and $r(K_3,K_m)=\Theta(m^2/\log m)$
 give a ratio of order $m$ up to polylogarithmic factors.
 [[../wiki/problems/ramsey_theory/E0925/_index|#925]]: the paper never states the problem;
 its lower-bound construction inside the proof of Theorem 3.2 (p. 7, page
-image, re-read clause by clause) at $k=2$ is what disproves
+image, read clause by clause) at $k=2$ is what disproves
 it. For $n=2^{3f}$ with $3\nmid f$, an $r$-blow-up, $r=n^{k/3-2/3}(\log
 n)^{2-\delta}$, of Alon's triangle-free $(n,d,\lambda)$-graph
 ($d=(\frac14+o(1))n^{2/3}$, $\lambda=(9+o(1))n^{1/3}$) is triangle-free
