@@ -37,9 +37,9 @@ formulation of the statement, and the
 identifies the exact-edge seven-cycle formulation with the at-least-edge one.
 
 The development is the corpus's port of the author's standalone project,
-whose publication files are retained under
-[`evidence/assets/publication/`](evidence/assets/publication/README.md):
-194 modules under
+<https://github.com/plasma-ai/erdos-809> at commit `ed2155f` of 25 September
+2026 (UTC), whose Lean files are unchanged through `f2ad237` of 8 October 2026.
+The port has 194 modules under
 `Erdos.Library.Problem809`, the seven-cycle chain under `SevenCycle/`, the
 Bucić–Chen–Ma modules under `BucicChenMa/`, the upper-bound construction
 under `UpperBound/`, and the statement, main-term, threshold-arithmetic,
