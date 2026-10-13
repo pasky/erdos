@@ -1246,7 +1246,7 @@ $$
 h(\chi_j(f)\bar{\chi}_k(f))
 $$
 
-never exists if $j\neq k.
+never exists if $j\neq k$.
 
 (10.11) LEMMA. If $f$ is deconcentrated, then
 
@@ -1254,7 +1254,7 @@ $$
 \frac{N(f,g,x)}{x}\longrightarrow0
 $$
 
-uniformly in $g$ when $x\to\infty.
+uniformly in $g$ when $x\to\infty$.
 
 Proof. We distinguish two cases according the previous lemma. Suppose first that $\chi$ is a character for which there exists
 
@@ -1564,7 +1564,7 @@ $$
 S_n\geq\bar d(f_n,g)\to\frac{1}{2},
 $$
 
-so by (13.3) $S_n\geq 1/2$ for all $n.
+so by (13.3) $S_n\geq 1/2$ for all $n$.
 
 Regard first the case that $f$ assumes not only the values $e$ and $g$.
 

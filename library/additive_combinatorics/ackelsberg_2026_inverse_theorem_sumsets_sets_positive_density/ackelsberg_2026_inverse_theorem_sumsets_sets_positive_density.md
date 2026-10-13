@@ -2240,7 +2240,7 @@ $$
 After replacing $(\mathbf{N},\mathbf{K}^{+},\mathbf{K}^{-})$ by a subsequence if necessary, there exist sequences $\mathbf{H}^{+}=(H_s^{+})_{s\in\mathbb{N}}$ and $\mathbf{H}^{-}=(H_s^{-})_{s\in\mathbb{N}}$ with
 
 $$
-\mathbf{K}^{-}\prec\mathbf{H}^{-}\prec\mathbf{H}^{+}\preceq\mathbf{K}^{+}
+\mathbf{K}^{-}\preceq\mathbf{H}^{-}\prec\mathbf{H}^{+}\preceq\mathbf{K}^{+}
 $$
 
 such that for all $\mathbf{H}=(H_s)_{s\in\mathbb{N}}$ with $\mathbf{H}^{-}\prec\mathbf{H}\prec\mathbf{H}^{+}$ and all $k\in\mathbb{N}$ the pair $(\mathbb{N},\mathbf{H})$ is a $U^1$ good scale for $f_k$.
