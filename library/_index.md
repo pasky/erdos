@@ -76,8 +76,9 @@ are written in the corpus's own words: the statement restated with its
 hypotheses intact, the proof pointed to or sketched here, a quotation kept
 short, attributed and used only where the exact wording matters. The source's
 text lives only in the PDF and in a transcription beside it. The source is the
-PDF under the folder's name when one exists; a markdown transcription may sit
-beside it as `author_year_slug.md`. When no PDF exists — a web page, a forum
+PDF under the folder's name when one exists, with its markdown transcription
+beside it as `author_year_slug.md`, a reading aid, unless the card's
+`transcription` key records why not. When no PDF exists — a web page, a forum
 answer — that markdown file is the source itself and records the URL. Where a
 PDF exists it is canonical: result pages cite it by page and theorem number, and
 when a transcription disagrees with it, the PDF wins. Held PDFs and files over
@@ -110,5 +111,6 @@ provenance text says where each term was read -- the notice the file prints,
 quoted as printed; the publisher's or repository's record, with its URL and the
 date it was read; or an archive's own license file -- infers nothing beyond it,
 and claims no redistribution right the record does not establish. `erdos
-license-audit` checks the key against the held files and the arXiv records
+license-audit` checks the key against the held files and the arXiv records,
+and each held PDF for its transcription or the reason its card records
 (`docs/tools.md` "License audit contract").

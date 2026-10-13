@@ -455,6 +455,19 @@ disputed. Digests and Bears-on rows follow the same rule. The held PDF, and a
 transcription kept beside it as a reading aid, are the only files that carry the
 source's text.
 
+Every short work the library holds under an open license has its full
+transcription beside its PDF, the markdown file of the PDF's stem
+(`author_year_slug.md`). Three cases may go without one, and the card says which
+in a sentence and in its `transcription` key: `book` for a whole book, `terms`
+for a work whose holding terms forbid a full copy, and `unreadable` for a source
+the converter cannot read. The key is a scalar for a card holding one PDF and,
+like `license`, maps each untranscribed PDF's file name to its reason for a card
+holding several. Where the holding policy admits only open licenses, a work not
+under an open license has no transcription, since the library holds no file of
+it; where a repository holds works under the terms their cards record, a
+transcription shares its PDF's term. The license audit checks each held PDF for
+its transcription or a reason ([[tools]] "License audit contract").
+
 Each source digest in `library/` carries a **read status** identifying which
 statements the corpus consumes and at what depth: **unread** means the consumed
 statements have not been checked against the primary text; **claims checked**
@@ -779,8 +792,9 @@ wording (...), not the corrected Statement" otherwise.
 - **One folder per source.** `library/<subject>/author_year_slug/` holds the
   source, an `_index.md` — the source card — whose desc is the catalog entry and
   whose body is the digest, and one page per extracted result. The source is the
-  PDF under the folder's name when one exists; a markdown transcription may sit
-  beside it as `author_year_slug.md`. When no PDF exists — a web page, a forum
+  PDF under the folder's name when one exists, with its markdown transcription
+  beside it as `author_year_slug.md` unless the card's `transcription` key
+  records why not ("Library cards"). When no PDF exists — a web page, a forum
   answer — that markdown file is the source itself and records the URL.
 - **Conversion sidecars sit beside the PDF.** An arXiv source may carry
   `.arxiv/` (the record of the arXiv version held), `.tex/` and `.html/` (its

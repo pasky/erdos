@@ -19,8 +19,9 @@ conversion sidecars carrying the work's text under the card's terms when no
 file is held. A scalar term covers one held file, a mapping from file name to
 term several, each term an SPDX license identifier, a Creative Commons license
 named without a version, ``reserved`` or ``unstated``, and the term of each PDF
-with an arXiv record agrees with the license the record names. It writes
-nothing and gates nothing either.
+with an arXiv record agrees with the license the record names. Each held PDF
+also has its transcription beside it, or the card's ``transcription`` key
+records why not. It writes nothing; the gate's ``library licenses`` leg runs it.
 """
 
 from __future__ import annotations
@@ -46,6 +47,7 @@ __all__ = [
     'REVIEW_STATUSES',
     'CLOSED_OUTCOMES',
     'LICENSE_REFS',
+    'TRANSCRIPTION_REASONS',
     'audit_lead_pages',
     'audit_library_licenses',
 ]
@@ -65,6 +67,10 @@ LICENSE_REFS = (
     'LicenseRef-CC-BY-NC-SA',
     'LicenseRef-CC-BY-NC-ND',
 )
+#: the reasons a card may record for a held PDF without its transcription: a
+#: whole book, holding terms that forbid a full copy, a source the converter
+#: cannot read
+TRANSCRIPTION_REASONS = ('book', 'terms', 'unreadable')
 
 # the folder whose direct children's indexes are lead pages
 _LEADS_DIR = 'leads'
@@ -74,6 +80,8 @@ _INDEX = '_index.md'
 # carrying no term; every other file there is held and carries one
 _PAGE_SUFFIX = '.md'
 _RECORD_SUFFIXES = ('.json', '.json.gz')
+# the held files whose full transcription sits beside them, under the same stem
+_PDF_SUFFIX = '.pdf'
 # the folder of arXiv records inside a card folder, one per held PDF
 _ARXIV_DIR = '.arxiv'
 # the conversion sidecars inside a card folder, carrying the work's text under
@@ -189,6 +197,13 @@ def audit_library_licenses(
     mapping, or frontmatter that is missing or invalid (a duplicate key
     included), which ends that card's checks. A ``license`` on a card holding
     no file is allowed: the term a card read stays when its file is not held.
+    Each held PDF has its transcription, the markdown file of its stem, unless
+    the card's ``transcription`` key records a reason from
+    ``TRANSCRIPTION_REASONS``: a scalar for a card holding one PDF, a mapping
+    from file name to reason in byte order for several. A held PDF with
+    neither, a reason for a PDF that has its transcription or that the card
+    does not hold, a reason outside the vocabulary and a key of the wrong
+    shape are findings too.
     The notes name each ``reserved`` term whose arXiv record maps differently
     and a missing library; the count summary ends them. Nothing is written.
 
@@ -279,6 +294,18 @@ def audit_library_licenses(
         )
         findings.extend(f'{where}: {issue}' for issue in issues)
         notes.extend(f'{where}: {remark}' for remark in remarks)
+        # each held PDF's transcription beside it, or the reason the card records
+        pdfs = [name for name in held if name.endswith(_PDF_SUFFIX)]
+        transcribed = {
+            name
+            for name in pdfs
+            if (copy := f'{name.removesuffix(_PDF_SUFFIX)}{_PAGE_SUFFIX}') in names
+            and _transcription(root / folder / copy)
+        }
+        findings.extend(
+            f'{where}: {issue}'
+            for issue in _transcription_issues(metadata, pdfs, transcribed)
+        )
     notes.append(
         f'license-audit: {len(cards)} cards, {held_count} held files,'
         f' {len(findings)} findings, {len(notes)} notes'
@@ -510,6 +537,66 @@ def _license_issues(
                 f' record ({mapped})'
             )
     return issues, remarks
+
+
+def _transcription_issues(
+    metadata: dict[str, Any],
+    pdfs: list[str],
+    transcribed: set[str],
+) -> list[str]:
+    """Return one issue per defect in a card's transcriptions and their reasons.
+
+    ``pdfs`` names the card's held PDFs in byte order and ``transcribed`` those
+    with their transcription beside them; the ``transcription`` key records a
+    reason for each of the others.
+    """
+    issues: list[str] = []
+    value = metadata.get('transcription')
+    # its shape: a scalar reason for a card holding one PDF, a mapping from file
+    # name to reason for several, the keys in byte order; an empty key is a
+    # reason like any other
+    if 'transcription' not in metadata:
+        reasons: dict[str, Any] = {}
+    elif isinstance(value, dict):
+        if len(pdfs) == 1:
+            issues.append(
+                f'transcription must be a scalar reason (holds only {pdfs[0]})'
+            )
+        reasons = {f'{key}': reason for key, reason in value.items()}
+        if list(reasons) != sorted(reasons):
+            issues.append('transcription keys must be in byte order')
+    elif len(pdfs) == 1:
+        reasons = {pdfs[0]: value}
+    elif not pdfs:
+        issues.append('transcription reason recorded, but the card holds no PDF')
+        reasons = {}
+    else:
+        issues.append(
+            'transcription must map each untranscribed PDF to its reason'
+            f' (holds {", ".join(pdfs)})'
+        )
+        reasons = {}
+    # each reason, for a held PDF without its transcription, from the vocabulary
+    words = ', '.join(TRANSCRIPTION_REASONS)
+    for name, reason in reasons.items():
+        at = f' for {name}' if isinstance(value, dict) else ''
+        if name not in pdfs:
+            issues.append(f'transcription reason for {name}, which is not a held PDF')
+        elif name in transcribed:
+            issues.append(
+                f'transcription reason for {name}, which has its transcription'
+            )
+        if reason not in TRANSCRIPTION_REASONS:
+            issues.append(f'transcription reason {reason!r}{at} is not one of {words}')
+    # each held PDF: its transcription, or a reason
+    for name in pdfs:
+        if name not in transcribed and name not in reasons:
+            copy = f'{name.removesuffix(_PDF_SUFFIX)}{_PAGE_SUFFIX}'
+            issues.append(
+                f'held PDF {name} has neither its transcription {copy} nor a'
+                ' transcription reason'
+            )
+    return issues
 
 
 def _valid_term(term: Any) -> bool:

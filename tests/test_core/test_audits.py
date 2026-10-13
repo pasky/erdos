@@ -9,7 +9,11 @@ from typing import Optional
 
 import pytest
 
-from tools.core.audits import audit_lead_pages, audit_library_licenses
+from tools.core.audits import (
+    TRANSCRIPTION_REASONS,
+    audit_lead_pages,
+    audit_library_licenses,
+)
 
 from .._helpers import run_git, write_page
 
@@ -33,6 +37,11 @@ __all__ = [
     'test_every_file_but_the_pages_and_records_is_held',
     'test_a_transcription_is_held_when_its_file_is_not',
     'test_sidecars_beside_no_held_file_are_held_under_the_card_terms',
+    'test_each_transcription_reason_passes',
+    'test_transcriptions_and_reasons_of_each_shape_pass',
+    'test_each_transcription_defect_is_one_finding',
+    'test_only_a_page_without_frontmatter_transcribes_a_pdf',
+    'test_a_pdf_below_the_card_folder_needs_no_transcription',
     'test_card_depth_selects_the_cards',
     'test_missing_library_is_a_note',
     'test_audit_requires_a_math_root_inside_a_checkout',
@@ -50,6 +59,12 @@ _CARD = f'library/{_FIRST}/_index.md'
 _PDF = 'first.pdf'
 _TARBALL = 'first.tar.gz'
 _TWO = (_PDF, _TARBALL)
+_SECOND_PDF = 'second.pdf'
+_PDFS = (_PDF, _SECOND_PDF)
+
+#: a license over the two held PDFs, and the text of a transcription
+_PDF_TERMS = ('license:', f'  {_PDF}: MIT', f'  {_SECOND_PDF}: MIT')
+_TEXT = ('The paper.',)
 
 #: a mapping over the two held files, in byte order
 _MAPPING = ('license:', f'  {_PDF}: CC-BY-4.0', f'  {_TARBALL}: MIT')
@@ -416,6 +431,7 @@ def test_the_holding_policy_admits_only_open_terms_on_held_files(
     # a card holding no file keeps the term it read, whatever the policy
     _card(repository, _FIRST, f'license: {term}')
     (repository / 'library' / _FIRST / _PDF).unlink()
+    (repository / 'library' / _FIRST / 'first.md').unlink()
     assert audit_library_licenses(repository, open_only=True)[0] == []
 
 
@@ -827,6 +843,244 @@ def test_sidecars_beside_no_held_file_are_held_under_the_card_terms(
     assert findings == [f'{_CARD}: {message}' for message in messages]
 
 
+@pytest.mark.parametrize(argnames='reason', argvalues=TRANSCRIPTION_REASONS)
+def test_each_transcription_reason_passes(
+    repository: pathlib.Path, reason: str
+) -> None:
+    """Test that each reason excuses a held PDF from its transcription."""
+    _card(
+        repository,
+        _FIRST,
+        'license: MIT',
+        f'transcription: {reason}',
+        files=(_PDF,),
+        transcribe=False,
+    )
+    assert audit_library_licenses(repository) == (
+        [],
+        ['license-audit: 1 cards, 1 held files, 0 findings, 0 notes'],
+    )
+
+
+@pytest.mark.parametrize(
+    argnames=('lines', 'transcribed'),
+    argvalues=[
+        ((), _PDFS),
+        (('transcription:', f'  {_PDF}: book', f'  {_SECOND_PDF}: terms'), ()),
+        (('transcription:', f'  {_SECOND_PDF}: unreadable'), (_PDF,)),
+    ],
+    ids=['every transcription', 'every reason', 'one of each'],
+)
+def test_transcriptions_and_reasons_of_each_shape_pass(
+    repository: pathlib.Path,
+    lines: tuple[str, ...],
+    transcribed: tuple[str, ...],
+) -> None:
+    """Test that a card holding several PDFs maps each one without its transcription to a reason."""
+    _card(repository, _FIRST, *_PDF_TERMS, *lines, files=_PDFS, transcribe=False)
+    for name in transcribed:
+        write_page(
+            repository / 'library' / _FIRST / name.replace('.pdf', '.md'), *_TEXT
+        )
+    assert audit_library_licenses(repository) == (
+        [],
+        ['license-audit: 1 cards, 2 held files, 0 findings, 0 notes'],
+    )
+
+
+@pytest.mark.parametrize(
+    argnames=('files', 'lines', 'transcribed', 'message'),
+    argvalues=[
+        # a held PDF needs its transcription or a reason
+        (
+            (_PDF,),
+            ('license: MIT',),
+            (),
+            f'held PDF {_PDF} has neither its transcription first.md nor a'
+            ' transcription reason',
+        ),
+        (
+            _PDFS,
+            (*_PDF_TERMS, 'transcription:', f'  {_PDF}: book'),
+            (),
+            f'held PDF {_SECOND_PDF} has neither its transcription second.md nor a'
+            ' transcription reason',
+        ),
+        # a reason fits only a held PDF without its transcription
+        (
+            (_PDF,),
+            ('license: MIT', 'transcription: book'),
+            (_PDF,),
+            f'transcription reason for {_PDF}, which has its transcription',
+        ),
+        (
+            _PDFS,
+            (*_PDF_TERMS, 'transcription:', '  other.pdf: book'),
+            _PDFS,
+            'transcription reason for other.pdf, which is not a held PDF',
+        ),
+        (
+            (),
+            ('transcription: book',),
+            (),
+            'transcription reason recorded, but the card holds no PDF',
+        ),
+        # the reason, from the vocabulary
+        (
+            (_PDF,),
+            ('license: MIT', 'transcription: missing'),
+            (),
+            "transcription reason 'missing' is not one of book, terms, unreadable",
+        ),
+        # the shape, a scalar for one PDF and a mapping in byte order for several
+        (
+            (_PDF,),
+            ('license: MIT', 'transcription:', f'  {_PDF}: book'),
+            (),
+            f'transcription must be a scalar reason (holds only {_PDF})',
+        ),
+        (
+            _PDFS,
+            (*_PDF_TERMS, 'transcription: book'),
+            _PDFS,
+            f'transcription must map each untranscribed PDF to its reason'
+            f' (holds {_PDF}, {_SECOND_PDF})',
+        ),
+        (
+            _PDFS,
+            (
+                *_PDF_TERMS,
+                'transcription:',
+                f'  {_SECOND_PDF}: book',
+                f'  {_PDF}: book',
+            ),
+            (),
+            'transcription keys must be in byte order',
+        ),
+        # an empty key, a key naming a held file that is no PDF, and the mapping
+        # forms of the reason checks
+        (
+            (_PDF,),
+            ('license: MIT', 'transcription:'),
+            (),
+            'transcription reason None is not one of book, terms, unreadable',
+        ),
+        (
+            (_PDF, _TARBALL, _SECOND_PDF),
+            (
+                'license:',
+                f'  {_PDF}: MIT',
+                f'  {_TARBALL}: MIT',
+                f'  {_SECOND_PDF}: MIT',
+                'transcription:',
+                f'  {_TARBALL}: book',
+            ),
+            _PDFS,
+            f'transcription reason for {_TARBALL}, which is not a held PDF',
+        ),
+        (
+            _PDFS,
+            (
+                *_PDF_TERMS,
+                'transcription:',
+                f'  {_PDF}: book',
+                f'  {_SECOND_PDF}: missing',
+            ),
+            (),
+            f"transcription reason 'missing' for {_SECOND_PDF} is not one of book, terms,"
+            ' unreadable',
+        ),
+        (
+            _PDFS,
+            (
+                *_PDF_TERMS,
+                'transcription:',
+                f'  {_PDF}: book',
+                f'  {_SECOND_PDF}: terms',
+            ),
+            (_PDF,),
+            f'transcription reason for {_PDF}, which has its transcription',
+        ),
+    ],
+    ids=[
+        'neither',
+        'unmapped',
+        'transcribed',
+        'not held',
+        'no PDF',
+        'unknown reason',
+        'mapping for one',
+        'scalar for several',
+        'byte order',
+        'empty',
+        'held, not a PDF',
+        'mapped unknown reason',
+        'mapped transcribed',
+    ],
+)
+def test_each_transcription_defect_is_one_finding(
+    repository: pathlib.Path,
+    files: tuple[str, ...],
+    lines: tuple[str, ...],
+    transcribed: tuple[str, ...],
+    message: str,
+) -> None:
+    """Test that each defect of a card's transcriptions is exactly one finding naming its card."""
+    _card(repository, _FIRST, *lines, files=files, transcribe=False)
+    for name in transcribed:
+        write_page(
+            repository / 'library' / _FIRST / name.replace('.pdf', '.md'), *_TEXT
+        )
+    assert audit_library_licenses(repository) == (
+        [f'{_CARD}: {message}'],
+        [f'license-audit: 1 cards, {len(files)} held files, 1 findings, 0 notes'],
+    )
+
+
+@pytest.mark.parametrize(
+    argnames=('text', 'transcribes'),
+    argvalues=[
+        (_TEXT, True),
+        (('---', '', 'A NOTE', '---', '', 'The paper.'), True),
+        (('---', 'name: first', '---', '', '# first'), False),
+    ],
+    ids=['text', 'opening rule', 'page'],
+)
+def test_only_a_page_without_frontmatter_transcribes_a_pdf(
+    repository: pathlib.Path, text: tuple[str, ...], transcribes: bool
+) -> None:
+    """Test that the markdown file of a PDF's stem transcribes it unless it opens with frontmatter."""
+    _card(repository, _FIRST, 'license: MIT', files=(_PDF,), transcribe=False)
+    write_page(repository / 'library' / _FIRST / 'first.md', *text)
+    findings = (
+        []
+        if transcribes
+        else [
+            f'{_CARD}: held PDF {_PDF} has neither its transcription first.md nor a'
+            ' transcription reason'
+        ]
+    )
+    assert audit_library_licenses(repository) == (
+        findings,
+        [f'license-audit: 1 cards, 1 held files, {len(findings)} findings, 0 notes'],
+    )
+
+
+def test_a_pdf_below_the_card_folder_needs_no_transcription(
+    repository: pathlib.Path,
+) -> None:
+    """Test that a PDF in a subfolder of a card, an evidence asset or a sidecar, needs none."""
+    _card(repository, _FIRST, 'license: MIT', files=(_PDF,))
+    folder = repository / 'library' / _FIRST
+    for sub in ('evidence', '.tex'):
+        (folder / sub).mkdir()
+        (folder / sub / 'figure.pdf').write_bytes(b'')
+    assert audit_library_licenses(repository) == (
+        [],
+        ['license-audit: 1 cards, 1 held files, 0 findings, 0 notes'],
+    )
+
+
 def test_card_depth_selects_the_cards(repository: pathlib.Path) -> None:
     """Test that the card depth picks the indexes audited and the files they hold."""
     library = repository / 'library'
@@ -902,16 +1156,20 @@ def _card(
     folder: str,
     *lines: str,
     files: tuple[str, ...] = (),
+    transcribe: bool = True,
 ) -> pathlib.Path:
     """Write a card under the library from its frontmatter lines, with empty files beside it.
 
     The card is named as the wiki names it, so its frontmatter is a mapping
-    even when ``lines`` is empty.
+    even when ``lines`` is empty. Each PDF among ``files`` has its
+    transcription beside it unless ``transcribe`` is false.
     """
     home = root / 'library' / folder
     home.mkdir(parents=True, exist_ok=True)
     for name in files:
         (home / name).write_bytes(b'')
+        if transcribe and name.endswith('.pdf'):
+            write_page(home / f'{name.removesuffix(".pdf")}.md', *_TEXT)
     return write_page(
         home / '_index.md', '---', f'name: library/{folder}', *lines, '---', '', '***'
     )

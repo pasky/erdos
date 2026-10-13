@@ -276,9 +276,9 @@ and vocabulary under [[research]] "Lead pages".
 ### License audit contract
 
 `erdos license-audit [--path <repo root>]` audits the library cards' `license`
-terms against the third-party files they hold and the holding policy;
-`library/_index.md` states what a card records. The gate's `library licenses`
-leg runs the same audit.
+terms against the third-party files they hold and the holding policy, and each
+held PDF's transcription; `library/_index.md` states what a card records. The
+gate's `library licenses` leg runs the same audit.
 
 - **Cards.** The `_index.md` exactly `LIBRARY_CARD_DEPTH` folders
   (`tools/constants.py`, 2 here: `library/<subject>/<slug>/_index.md`) below
@@ -312,6 +312,15 @@ leg runs the same audit.
   with a NonCommercial or NoDerivatives element, in SPDX or `LicenseRef-CC-*`
   spelling, are not open; every other term of the vocabulary is. The constant is
   `False` in a repository that records terms without enforcing the policy yet.
+- **Transcriptions.** Each held `<stem>.pdf` has its transcription `<stem>.md`
+  beside it, a markdown file without frontmatter, unless the card's
+  `transcription` key records why not: `book` (a whole book), `terms` (holding
+  terms that forbid a full copy) or `unreadable` (a source the converter cannot
+  read), `TRANSCRIPTION_REASONS` in `tools/core/audits.py`. The key is absent
+  when every held PDF has its transcription, a scalar reason when the card holds
+  one PDF, and a mapping from each untranscribed PDF's file name to its reason,
+  keys in byte order, when it holds several. Other held files need no
+  transcription; [[anatomy]] "Library cards" states the rule.
 - **Vocabulary.** An SPDX license identifier as the SPDX list spells it, a
   single identifier with no space, `+` or parenthesis
   (`packaging.licenses.canonicalize_license_expression(term) == term`); a
@@ -338,7 +347,11 @@ leg runs the same audit.
   ones named) or are out of byte order; a term outside the vocabulary; a held
   file, or the sidecars beside none, under a term that is not an open license,
   under the holding policy; the term of a PDF disagreeing with its arXiv record;
-  a record URL with no mapping; frontmatter missing or invalid, a duplicate key
+  a record URL with no mapping; a held PDF with neither its transcription nor a
+  transcription reason; a reason for a PDF that has its transcription, for a
+  file that is not a held PDF or on a card holding no PDF; a reason outside the
+  vocabulary; a `transcription` mapping for one PDF, a scalar for several, or
+  keys out of byte order; frontmatter missing or invalid, a duplicate key
   included, which ends that card's checks.
 - **Output.** Streams follow the convention above. Each finding prints on its
   own line on stdout as `<path>: <message>`; the notes and the summary

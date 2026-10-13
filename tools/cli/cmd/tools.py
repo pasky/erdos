@@ -417,15 +417,19 @@ def license_audit(app: typer.Typer) -> typer.Typer:
         markdown pages and `.json` records, a transcription whose file
         is not held, and the conversion sidecars beside no held file):
         held files or sidecars without a `license`, a mapping for one
-        held file or a scalar for several, mapping keys that do not name exactly the held files
-        in byte order, a term outside the vocabulary (an SPDX license
-        identifier, an unversioned Creative Commons `LicenseRef-CC-*`
-        term, `reserved` or `unstated`), a held file or sidecar under a
-        term that is not an open license when the holding policy is
-        enforced, the term of a PDF disagreeing with its arXiv record, a record naming a license URL with no
-        mapping, or frontmatter that is missing or invalid. `reserved`
-        terms whose arXiv record maps differently are notes, as is a
-        missing `library/`. Nothing is written.
+        held file or a scalar for several, mapping keys that do not
+        name exactly the held files in byte order, a term outside the
+        vocabulary (an SPDX license identifier, an unversioned Creative
+        Commons `LicenseRef-CC-*` term, `reserved` or `unstated`), a
+        held file or sidecar under a term that is not an open license
+        when the holding policy is enforced, the term of a PDF
+        disagreeing with its arXiv record, a record naming a license URL
+        with no mapping, a held PDF with neither its transcription
+        (`<stem>.md` beside it) nor a reason in the card's
+        `transcription` key (`book`, `terms` or `unreadable`), a reason
+        that does not fit, or frontmatter that is missing or invalid.
+        `reserved` terms whose arXiv record maps differently are notes,
+        as is a missing `library/`. Nothing is written.
 
         The gate's `library licenses` leg runs the same audit; no hook
         or merge step runs this command. Scripts should branch on the
