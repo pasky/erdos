@@ -245,8 +245,8 @@ uv run --no-sync erdos reflint --path .
 `erdos reflint` reads every Markdown page of the repository -- among the tracked
 and non-ignored untracked files, outside the dot-folders, the retained copies
 under `evidence/` and the canonical conversion beside a library PDF -- and
-prints one line per defect: one of the ten conventions page names retired on
-2026-10-05 (listed in `docs/tools.md` "Repository gate") existing at the top of
+prints one line per defect: one of the ten conventions page names retired at the
+folder swap (listed in `docs/tools.md` "Repository gate") existing at the top of
 the mathematics root `wiki/` as a file or a symlink, or named as `wiki/<stem>`
 in any form outside the dated note's mapping table in `docs/verification.md`, an
 unclosed marker of that table, an inline Markdown link or link reference

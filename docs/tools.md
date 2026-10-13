@@ -161,15 +161,14 @@ exit 1 as "failures reported" and keeps going.
 - **Declarations.** The runner reads one optional `# evidence:` line among the
   leading comment lines, after any shebang and before the docstring: `full`
   (runs only in the full run), `manual` (never started; its page states the
-  procedure), `historical <YYYY-MM-DD>` (never started; listed with the date of
-  the text it read), `lean` (runs only with `--lean`), `entry` (enrolls a
-  program not named `main.py`) and `args <argv>` (the documented full-check
-  arguments, where `{output}` names a private output directory the runner
-  supplies). An unknown word, two mode words, `historical` without its date, a
-  second line, or a declaration on a program that is neither `main.py` nor
-  `entry` fails the program without running it. Whether a program takes
-  `--quick` or `--stop-file` is read from its source: the flag as a string
-  literal, or for `--quick` a call of `evidence_parser(...)` without
+  procedure), `historical` (never started; its page dates the text it read),
+  `lean` (runs only with `--lean`), `entry` (enrolls a program not named
+  `main.py`) and `args <argv>` (the documented full-check arguments, where
+  `{output}` names a private output directory the runner supplies). An unknown
+  word, two mode words, a second line, or a declaration on a program that is
+  neither `main.py` nor `entry` fails the program without running it. Whether a
+  program takes `--quick` or `--stop-file` is read from its source: the flag as
+  a string literal, or for `--quick` a call of `evidence_parser(...)` without
   `quick=False`.
 - **Modes.** The full run (the default) starts every entry point not declared
   `manual` or `historical` with its declared arguments and no time limit.

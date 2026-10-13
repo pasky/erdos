@@ -192,7 +192,7 @@ named by path. Filed records, preserved snapshots included, may be edited in
 place to remove the names of people, agents, sessions and tool harnesses, and
 any commit id or hash this page does not allow. A removed commit is replaced by
 its UTC date where a sentence needs one, and the paths, scope, dates and verdict
-are kept. The record's index page lists each such edit with its date.
+are kept. The record's index page lists each such edit.
 
 On 2026-10-05 the library moved from `erdos/library/` to `library/` at the
 repository root, and the mathematics wiki root `erdos/` was renamed `math/`. On
@@ -326,12 +326,12 @@ the standing does not yet carry; after the reset the dates and the standing are
 the record, and the reset commit counts as no change only when the squashed tree
 equals the default branch's tree before it.
 
-Records filed before the identity rule of 2026-10-02 named commit, tree and blob
-identities; the identity sweep restates each as its UTC date, removes own-file
-digests and renames commit-named files and folders, with verdicts, scope and
-line ranges unchanged and paths unchanged apart from those renames, and adds no
-per-record note except where a record's own text would otherwise become false.
-Later in-place edits are listed on the record's index page.
+Records filed before the identity rule named commit, tree and blob identities;
+the identity sweep restates each as its UTC date, removes own-file digests and
+renames commit-named files and folders, with verdicts, scope and line ranges
+unchanged and paths unchanged apart from those renames, and adds no per-record
+note except where a record's own text would otherwise become false. Later
+in-place edits are listed on the record's index page.
 
 A checksum or a commit id appears in tracked content only where it is absolutely
 necessary, in these four cases:
@@ -384,8 +384,8 @@ be supported by a new assessment; editing an old report to imply that it
 reviewed the correction is not allowed. Mechanical path maintenance may make a
 retained report or leg runnable after reorganization, provided the mathematical
 checks and subject remain unchanged and the record's index page lists the
-transformation with its date. Every input a retained check needs to rerun stays
-in the tree, or the check is marked historical, naming the date of the text it
+transformation. Every input a retained check needs to rerun stays in the tree,
+or the check is marked historical and its page names the date of the text it
 read.
 
 The durable record contains the mathematical reasoning, verdict, dependency
@@ -850,10 +850,9 @@ assessment of its actual subject; never rewrite it to suggest that it reviewed a
 later repair. A filed report may otherwise be edited: paths maintained, commit
 ids and per-file hashes removed, names of people, agents, sessions and tool
 harnesses removed, wording clarified, as long as its paths, scope, dates and
-verdict are preserved and its index page lists each edit with its date. A
-changed check is a new independent record, or the old record is explicitly
-retired. A new location, reformatted text, or repeated use does not supply a new
-verdict.
+verdict are preserved and its index page lists each edit. A changed check is a
+new independent record, or the old record is explicitly retired. A new location,
+reformatted text, or repeated use does not supply a new verdict.
 
 Use **refutation-failed** when a proof survives the commissioned attacks under
 the full contract, **refuted-as-stated** for a disproof of the frozen statement,
