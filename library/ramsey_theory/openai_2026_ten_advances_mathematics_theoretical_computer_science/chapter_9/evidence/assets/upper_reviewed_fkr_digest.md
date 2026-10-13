@@ -5,7 +5,7 @@ desc: |
   States the published four-colour triangle Ramsey bound of 62, retained
   as an external premise with statement-checked coverage only.
 created: 2026-09-10T08:18:30Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-09-10T08:18:30Z
 ---
 
 # An Upper Bound of 62 on the Classical Ramsey Number R(3,3,3,3)
@@ -25,7 +25,8 @@ Ars Combinatoria 72 (2004), 41–63.
 
 - Canonical journal PDF,
   from the
-  [publisher's journal scan](https://combinatorialpress.com/article/ars/Volume%20072/volume-72-paper-5.pdf); 23 PDF pages, 1,196,189 bytes.
+  [publisher's journal scan](https://combinatorialpress.com/article/ars/Volume%20072/volume-72-paper-5.pdf),
+  accessed 2026-09-10; 23 PDF pages, 1,196,189 bytes.
 - SHA-256:
   <removed: the digest of the held PDF, which Git LFS records>.
 - The

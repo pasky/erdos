@@ -36,7 +36,7 @@ statement is unknown even for sums of three cubes. Finally, they record that
 Heath-Brown [He88] proves every large integer is a sum of at most three
 $2$-powerful numbers
 ([[problems/diophantine_problems/E0941/_index|Problem 941]]). The site's
-proof-claims tab carried one partial claim, filed 2026-09-06.
+proof-claims tab carried one partial claim, filed 2026-09-06, as of 2026-10-06.
 
 **Source.** [erdosproblems.com/940](https://www.erdosproblems.com/940), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #940,

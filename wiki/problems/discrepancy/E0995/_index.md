@@ -37,10 +37,10 @@ $$
 
 **Status.** Labeled OPEN on erdosproblems.com. The site's commentary records
 Erdős's bounds and does not name a later result. No claim had been filed on the
-site's proof-claims tab. One pending partial claim answers the example question
-in the negative. It is Boon Suan Ho's preprint of 20 April 2026,
-[[problems/discrepancy/E0995/claims/2026_04_20_ho|Ho 2026]], announced in the
-problem's thread on 21 April 2026.
+site's proof-claims tab as of 2026-10-07. One pending partial claim answers the
+example question in the negative. It is Boon Suan Ho's preprint of 20 April
+2026, [[problems/discrepancy/E0995/claims/2026_04_20_ho|Ho 2026]], announced in
+the problem's thread on 21 April 2026.
 
 **Source.** [erdosproblems.com/995](https://www.erdosproblems.com/995), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #995,

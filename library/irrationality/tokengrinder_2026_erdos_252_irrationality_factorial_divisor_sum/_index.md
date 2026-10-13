@@ -48,10 +48,11 @@ attribution of the proof to an AI system is quoted on the source record.
 bytes. The tracked files are retained unedited under
 `evidence/assets/upstream/`, with the upstream's own `SHA256SUMS` (15 entries,
 verified at filing), its `LICENSE` and its disclaimed exposition `PROOF.pdf`;
-they are the reviewed bytes and are not edited. A converter repair had taken
-`PROOF.pdf` for a library source and overwritten `PROOF.md` with a conversion
-of it; the file was restored to its received bytes, verified against
-`SHA256SUMS`, and the conversion's records were removed. Toolchain pins: Lean
+they are the reviewed bytes and are not edited. A converter repair of
+2026-09-30 had taken `PROOF.pdf` for a library source and overwritten
+`PROOF.md` with a conversion of it; on 2026-10-03 the file was restored to its
+received bytes, verified against `SHA256SUMS`, and the conversion's records
+were removed. Toolchain pins: Lean
 `leanprover/lean4:v4.33.1`; Mathlib
 `0df444a360eaa60ab8c11dca51a86af692955474`, the commit tagged `v4.33.1`;
 `fixedToolchain: true` in `lake-manifest.json`. The upstream `main` was still at

@@ -163,9 +163,9 @@ to isomorphism and each has a finite Ramsey number, so
 $c(d)=\max\bigl(2^{d2^{c(d+1)}},\max_{|V(H)|<n_0(d)}R(H)/|V(H)|\bigr)$
 gives $R(H)\le c(d)\,n$ for all $d$-degenerate $H$, which is $R(H)\ll_dn$.
 The theorem's threshold $n\ge2^{d^22^{cr}}$ is part of its hypothesis.
-Acceptance evidence: the Annals is refereed; the Crossref record places the
-article in volume 185, issue 3, 1 May 2017; the version cited is the arXiv
-v2 and the journal text was not compared.
+Acceptance evidence: the Annals is refereed; the Crossref record (read
+2026-09-18) places the article in volume 185, issue 3, 1 May 2017; the version
+cited is the arXiv v2 and the journal text was not compared.
 Read depth: claims checked for Theorem 1.1 and the two remarks after it
 (p. 3), Theorem 1.3 with the hypercube remark (p. 4) and Section 7's
 "Related problems" (p. 32); no proof was read.

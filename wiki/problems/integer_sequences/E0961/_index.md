@@ -233,7 +233,7 @@ course no real evidence that (4) is true"; that $f(k)$ can be determined in
 finitely many steps by a theorem of Pólya and Störmer, but no effective bound is
 known; that he cannot prove $f$ is nondecreasing; and the values $f(2)=2$,
 $f(3)=f(4)=3$, $f(5)=f(6)=4$, "It seems likely that $f(7)=f(8)=f(9)=f(10)=4$,
-but $f(13)\ge6$". The OEIS entry A213253 (not recomputed
+but $f(13)\ge6$". The OEIS entry A213253 (accessed 2026-09-18; not recomputed
 here) lists $f(n)=1,2,3,3,4,4,4,4,4,4,4,4,6,6,\ldots$ for $n=1,2,\ldots$, which
 agrees with these values and guesses, and records the heuristic that $f(n)$
 should be of order $(\log n)^2$.

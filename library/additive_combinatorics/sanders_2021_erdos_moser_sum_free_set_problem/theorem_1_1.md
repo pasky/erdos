@@ -43,7 +43,7 @@ Math. 73 (2021), no. 1, 63--107, DOI 10.4153/S0008414X1900049X; the
 copy read for this page is arXiv:1804.03356v3 (31 July 2019), p. 1, read in the
 text layer. The quoted theorem's own source, I. Z. Ruzsa, *Sum-avoiding
 subsets*, Ramanujan J. 9 (2005), no. 1--2, 77--82, DOI 10.1007/s11139-005-0826-4
-(Crossref record read), is filed as
+(Crossref record read 2026-09-18), is filed as
 [[additive_combinatorics/ruzsa_2005_sum_avoiding_subsets/_index|ruzsa_2005_sum_avoiding_subsets]],
 the Theorem on printed p. 77 (PDF p. 1 of the publisher's PDF).
 

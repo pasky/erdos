@@ -295,8 +295,10 @@ theorems for sets with small $L^1$ norm of $\hat1_A$, a dense model and the
 distribution of $A$ modulo small primes (the paper's overview, pp. 3--5; the
 proof, Sections 4--9, is not checked in this corpus). Acceptance evidence for
 [Be25b]: the site's commentary calls it the best lower bound known; three
-2025--2026 preprints cite it (Semantic Scholar), none a review. The bound is
-therefore recorded with the preprint qualification, as a pending partial claim on
+2025--2026 preprints cited it (Semantic Scholar, 2026-09-18), none a review;
+there was no journal record (Crossref bibliographic query, 2026-09-18) and one
+arXiv version. The bound is therefore recorded with the preprint qualification,
+as a pending partial claim on
 [[problems/additive_combinatorics/E0792/claims/2025_02_12_bedert|its claim page]].
 
 **The upper bound.**

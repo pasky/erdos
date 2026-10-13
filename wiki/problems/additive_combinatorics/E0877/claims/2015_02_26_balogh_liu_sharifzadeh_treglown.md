@@ -60,12 +60,12 @@ sharpens the same authors' exponent $1/4$ on
 **Depends on.** No wiki page; the claim rests on the cited paper.
 
 **Acceptance.** Refereed: the paper is a research article in the Journal of the
-European Mathematical Society. Its Crossref record (read) gives volume 20, issue
-8, published 4 June 2018. The text cited is arXiv:1502.07605v2 of 11 May 2018.
-Its comment says the paper is to appear in that journal. The journal text was
-not compared. The page is named by the first arXiv version, submitted 26
-February 2015 (arXiv listing read). Reviewed: the site's curator, Thomas Bloom,
-marked the problem proved on erdosproblems.com and credits the four authors with
-this asymptotic, whose constant is determined by the residue of $n$ modulo $4$.
-Read status: the statement was checked and the proof is unread. No further
-evidence is listed.
+European Mathematical Society. Its Crossref record (read 2026-09-18) gives
+volume 20, issue 8, published 4 June 2018. The text cited is arXiv:1502.07605v2
+of 11 May 2018. Its comment says the paper is to appear in that journal. The
+journal text was not compared. The page is named by the first arXiv version,
+submitted 26 February 2015 (arXiv listing read 2026-10-07). Reviewed: the site's
+curator, Thomas Bloom, marked the problem proved on erdosproblems.com and
+credits the four authors with this asymptotic, whose constant is determined by
+the residue of $n$ modulo $4$. Read status: the statement was checked and the
+proof is unread. No further evidence is listed.

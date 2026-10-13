@@ -70,7 +70,7 @@ read for structure only.
   numbers up to the limit of $2^{71}$ (which is equal to $2048\times2^{60}$).
   This is the moment when the length of a non-trivial cycle rises to
   $355\,504\,839\,929$ [12]." Table 10, the project timeline: started
-  2019-09-04; all numbers below $2^{68}$ verified; below
+  2019-09-04; all numbers below $2^{68}$ verified 2020-05-07; below
   $2^{69}$ 2021-12-10; below $2^{70}$ 2023-07-09; below $1.5\times2^{70}$
   2023-11-03; below $2^{71}$ 2025-01-15. Five new path records (OEIS
   A006884) found during the verification (pp. 12--13);

@@ -25,9 +25,9 @@ non-exclusive distribution license (arXiv:2403.10515), every other right
 reserved.
 
 The copy read for this card is arXiv:2403.10515v2 (9 April 2026; dated April 13,
-2026 on its first page), 34 pp., which the arXiv record read calls "Version
-accepted for publication" without naming a journal; the published version was
-not compared, and the locators below are v2's pages.
+2026 on its first page), 34 pp., which the arXiv record read on 2026-09-19 calls
+"Version accepted for publication" without naming a journal; the published
+version was not compared, and the locators below are v2's pages.
 
 Theorem 1.2 shows there is a constant epsilon > 0 such that, with r = epsilon n,
 any trees T_{n-r+1}, ..., T_n with |T_i| = i pack into K_n; that is, the

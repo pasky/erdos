@@ -37,26 +37,27 @@ monotone four-term progression.
 
 The status-defining source is a Lean proof certified by the bounty site
 Conjectures.io (record `e73b95f7-1d1b-42b5-a442-c07077741d73`). The bounty
-site's Lean kernel verified the proof, and its review approved it on 11
-September 2026. The bounty site certified the proof and paid the bounty on 14
-September 2026. The statement the bounty site attacked is the formal-conjectures
-statement `Erdos196.erdos_196`, at the catalog commit it pinned, with its open
-answer fixed to true. It says that every bijection $f:\mathbb{N}\to\mathbb{N}$
-has four strictly increasing indices whose images form a four-term arithmetic
-progression in one of the two directions. This matches the wording above clause
-for clause. A bijection of $\mathbb{N}$ is a permutation. The decreasing-index
-case $i>j>k>l$ is the increasing-index case read backward, which the reversed
-direction covers. Four distinct indices under a bijection exclude the constant
-progression. That Lean's $\mathbb{N}$ contains $0$ is immaterial, since shifting
-indices and values by one carries permutations to permutations and preserves
-progressions in both directions. The accepted file proves the negation of that
-statement from an explicit bijection with no monotone four-term progression. The
-pinned catalog revision is not public, so the statement was compared with the
-catalog's default-branch file. Agreement at the pin rests on the bounty site's
-statement-hash check. The bounty site's review compared the proof with the
-earlier literature. It found that, under its policy, unresolved provenance
-questions alone do not deny the reward. It called its approval a decision on
-eligibility for the bounty, not a guarantee of originality.
+site's Lean kernel verified the proof on 9 September 2026, and its review
+approved it on 11 September 2026. The bounty site certified the proof and paid
+the bounty on 14 September 2026. The statement the bounty site attacked is the
+formal-conjectures statement `Erdos196.erdos_196`, at the catalog commit it
+pinned, with its open answer fixed to true. It says that every bijection
+$f:\mathbb{N}\to\mathbb{N}$ has four strictly increasing indices whose images
+form a four-term arithmetic progression in one of the two directions. This
+matches the wording above clause for clause. A bijection of $\mathbb{N}$ is a
+permutation. The decreasing-index case $i>j>k>l$ is the increasing-index case
+read backward, which the reversed direction covers. Four distinct indices under
+a bijection exclude the constant progression. That Lean's $\mathbb{N}$ contains
+$0$ is immaterial, since shifting indices and values by one carries permutations
+to permutations and preserves progressions in both directions. The accepted file
+proves the negation of that statement from an explicit bijection with no
+monotone four-term progression. The pinned catalog revision is not public, so
+the statement was compared with the catalog's default-branch file. Agreement at
+the pin rests on the bounty site's statement-hash check. The bounty site's
+review compared the proof with the earlier literature. It found that, under its
+policy, unresolved provenance questions alone do not deny the reward. It called
+its approval a decision on eligibility for the bounty, not a guarantee of
+originality.
 
 A second construction answering the question no is Ho's arXiv preprint of 11
 September 2026, with a Lean formalization by its author. It is recorded as a

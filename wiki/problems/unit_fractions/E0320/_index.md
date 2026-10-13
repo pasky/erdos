@@ -326,13 +326,13 @@ claim were found.
 
 **Remaining gaps.** (1) The upper half of the order of magnitude rests on a
 site-accepted proof, obtained with an AI system, whose manuscript sits behind a
-read link that served no document and whose Lean file covers finite steps only;
-the site's exposition is the readable account. A refereed publication or an
-independent review would strengthen the standing. (2) The Kominers--Neu
-asymptotic and its formalization modulo four axioms are unverified here and
-unaccepted by the site. (3) The refereed bounds are compiled as statements; no
-proof was checked. (4) The published text of [BGMS25] was not compared with the
-arXiv preprint.
+read link that served no document on 2026-09-18 and whose Lean file covers
+finite steps only; the site's exposition is the readable account. A refereed
+publication or an independent review would strengthen the standing. (2) The
+Kominers--Neu asymptotic and its formalization modulo four axioms are unverified
+here and unaccepted by the site. (3) The refereed bounds are compiled as
+statements; no proof was checked. (4) The published text of [BGMS25] was not
+compared with the arXiv preprint.
 
 ## Progress and known results
 

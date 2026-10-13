@@ -42,7 +42,7 @@ partition, which the paper cites (p. 2: "$S(5)\ge160$ (Exoo 1994)").
 November 2017), nine pages without printed page numbers; locators are PDF
 pages. Published as Proceedings of the AAAI Conference on Artificial
 Intelligence 32 (2018), DOI 10.1609/aaai.v32i1.12209 (the Crossref record
-and the arXiv listing's "accepted by AAAI 2018"); the
+and the arXiv listing's "accepted by AAAI 2018", read 2026-09-18); the
 published version was not read, so nothing here cites its pagination.
 
 **Read depth.** Claims checked: the abstract, the contributions list,

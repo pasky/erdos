@@ -36,10 +36,10 @@ The standing derived here rests on the claim pages. A Lean proof submitted to
 the bounty site Conjectures.io under the username JenW1N proves that
 $\lim f(n)/n$ exists and is irrational
 ([[problems/integer_sequences/E1062/claims/2026_09_21_jenw1n|claim page]],
-accepted). The site's Lean kernel verified it. It was approved in review on 22
-September 2026 and certified on 23 September 2026, and its bounty was paid. This
-answers the second question yes. It answers the first in asymptotic form:
-$f(n)=(l+o(1))\,n$ with $l$ irrational.
+accepted). The site's Lean kernel verified it on 21 September 2026. It was
+approved in review on 22 September 2026 and certified on 23 September 2026, and
+its bounty was paid. This answers the second question yes. It answers the first
+in asymptotic form: $f(n)=(l+o(1))\,n$ with $l$ irrational.
 
 The site's one proof-claim entry was registered on 27 September 2026 by the
 curator, Thomas Bloom. It attributes to conjectures.io a proof that the limit
@@ -96,7 +96,7 @@ The standing is solved on the qualifications the Status field states. The
 status-defining source is the Lean proof accepted by the bounty site
 Conjectures.io
 ([[problems/integer_sequences/E1062/claims/2026_09_21_jenw1n|claim page]]),
-kernel-verified on 21 September 2026, approved in review
+kernel-verified on 21 September 2026, approved in review on 22 September 2026
 and certified on 23 September 2026 with its bounty paid; the site's
 certification is the outside review, and the problem's standing rests on nothing
 else. The reviewed target answers the first question in asymptotic form only;

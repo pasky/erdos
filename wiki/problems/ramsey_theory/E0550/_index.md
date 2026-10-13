@@ -223,10 +223,10 @@ here.
 - Proof-claim tab: one full-proof claim by the author (17 July 2026), with the
   arXiv link and an external link "to formalisation" pointing at the GitHub
   repository `ericlisg/erdos550-lean` (created 2 August 2026 and last pushed
-  the same day; described by its owner as a full
-  unconditional Lean 4 formalization of the problem; repository metadata; no file examined, nothing built). The
-  community database recorded no formal-proof URL; it added one on 2026-09-18
-  (above).
+  the same day; described by its owner as a full unconditional Lean 4
+  formalization of the problem; repository metadata as of 2026-09-17; no file
+  examined, nothing built). As of 2026-09-17 the community database recorded no
+  formal-proof URL; it added one on 2026-09-18 (above).
 - Discussion, 23 June 2026: a comment reports that the paper claims to
   resolve the problem; another cites the acknowledgment and describes the
   paper as another affirmative result written almost entirely by AI; the

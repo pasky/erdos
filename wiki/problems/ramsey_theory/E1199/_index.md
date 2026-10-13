@@ -321,7 +321,7 @@ builds a coloring with a thick color class and applies Hindman's
 admissible-partition theorem (Corollary 2.10 of [Hi79]). No step of the argument
 has been checked for this corpus; the preprint was posted 19 July 2026 (v1) and
 revised to v3 on 29 July 2026 with the comment "we resolve the weighted form of
-Owings's sumset question completely". Acceptance evidence:
+Owings's sumset question completely". Acceptance evidence as of 2026-09-18:
 none. No journal record (a Crossref bibliographic query for the title found
 none), no citing paper (Semantic Scholar's citation list is empty), no site
 adoption (label OPEN; the thread's report of 1 August 2026 unanswered), no

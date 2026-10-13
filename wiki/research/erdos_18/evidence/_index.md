@@ -23,7 +23,7 @@ focused records that carry no tier.
 The folder holds the review records of
 [[research/erdos_18/_index|the Problem 18 research folder]] under
 [[research/erdos_18/evidence/verify/_index|verify/]]: ten independent
-focused reviews of the reconstruction pages and one
+focused reviews of the reconstruction pages as of 2026-09-28T05:03:27Z and one
 distinct grade of the ten reports. No executable evidence is required: every
 page is an algebraic or analytic reconstruction checked by hand against the held
 PDFs, which sit under their library source cards,

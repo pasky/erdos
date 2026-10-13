@@ -130,7 +130,8 @@ case are formalized in the author's public development
 (Lean `v4.34.0-rc1` over Mathlib; seven targets in `Challenge.lean`
 importing Mathlib only: `erdos501_closed_infinite`, `erdos501_closed_size3`,
 `erdos501_hechler_of_CH`, `erdos501_not_refutable`, `erdos501_not_provable`,
-`erdos501_independent`, `erdos501_sentence_faithful`; axiom audit: `propext`, `Classical.choice`, `Quot.sound` only; comparator
+`erdos501_independent`, `erdos501_sentence_faithful`; axiom audit of
+2026-08-19: `propext`, `Classical.choice`, `Quot.sound` only; comparator
 acceptance recorded 2026-08-19; CI green at the head of 2026-08-19, the
 commit the claim pages link). The formal
 ZFC is Flypitch's axiomatization; the sentence renders outer measure $<1$
@@ -203,7 +204,7 @@ authoritative (the curator set the database status to independent on 2026-09-07,
 so the label read INDEPENDENT from then until 2026-09-18); (c) the public Lean 4
 development github.com/elliotglazer/erdos501 (Apache-2.0, created 2026-08-17,
 head of 2026-08-19, the commit the claim pages link) states seven comparator
-targets over Mathlib only, its axiom audit lists only `propext`,
+targets over Mathlib only, its axiom audit of 2026-08-19 lists only `propext`,
 `Classical.choice` and `Quot.sound` for all seven, its status file records
 comparator acceptance of both configurations on 2026-08-19, and its last five
 GitHub Actions runs conclude with success. The Lean statement

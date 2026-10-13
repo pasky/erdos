@@ -181,11 +181,11 @@ August 2025), the statement formalized (the file was added on 9 September 2026),
 and no formal proof. Three external formal artifacts concern the upper bounds,
 not the statement: the Lean 4 repository named by [GNNW24] for its Theorem 1 and
 Corollary 6
-([RamseyLean](https://github.com/snorin239/RamseyLean/tree/90e87da214701dd6eb3d56a2c7121839d8269d14);
-its own claims are recorded on the [GNNW24] card); the Isabelle formalization of
-[CGMS23] reported in [Pa25] (abstract only); and the Lean 4 formalization that
-[LuWa26]'s arXiv comment names for its claim (not examined); none of the three
-was built here.
+([RamseyLean](https://github.com/snorin239/RamseyLean/tree/90e87da214701dd6eb3d56a2c7121839d8269d14),
+as of 17 August 2026; its own claims are recorded on the [GNNW24] card); the
+Isabelle formalization of [CGMS23] reported in [Pa25] (abstract only); and the
+Lean 4 formalization that [LuWa26]'s arXiv comment names for its claim (not
+examined); none of the three was built here.
 
 ## Current assessment
 

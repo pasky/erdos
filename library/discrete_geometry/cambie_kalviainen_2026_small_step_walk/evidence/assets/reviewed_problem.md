@@ -6,14 +6,14 @@ desc: |
   steps from a finite set must contain three collinear points.
 status: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-07T21:11:03Z
 ---
 
 # Problem 193
 
 ***
 
-**Statement (catalogue).** Let
+**Statement (catalogue, accessed 2026-09-08).** Let
 $S\subseteq \mathbb{Z}^3$ be a finite set and let
 $A=\{a_1,a_2,\ldots,\}\subset \mathbb{Z}^3$ be an infinite $S$-walk, so that
 $a_{i+1}-a_i\in S$ for all $i$. Must $A$ contain three collinear points?
@@ -77,7 +77,7 @@ review and community acceptance as pending in its original-theorem paragraph;
 that wording conflicts with Bloom's dated acceptance and is retained as a
 provenance qualification.
 
-The status search checked the live catalogue, versioned arXiv
+The status search on 2026-09-08 checked the live catalogue, versioned arXiv
 paper, exact proof-claim discussion, author project site and homepage, and
 targeted searches by title, identifier, author names and on X. Both pages of
 the v1 PDF were visually read. No journal acceptance or additional named

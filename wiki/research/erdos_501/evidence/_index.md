@@ -22,7 +22,7 @@ updated: 2026-10-08T01:30:39Z
 The folder holds the review records of
 [[research/erdos_501/_index|the Problem 501 research folder]] under
 [[research/erdos_501/evidence/verify/_index|verify/]]: independent focused
-reviews of each reconstruction page and one distinct
+reviews of each reconstruction page as of 2026-09-28T05:03:27Z and one distinct
 grade of those reviews. No executable mathematical evidence is required for
 these reconstructions, which are read against the PDFs held by their library
 source cards,

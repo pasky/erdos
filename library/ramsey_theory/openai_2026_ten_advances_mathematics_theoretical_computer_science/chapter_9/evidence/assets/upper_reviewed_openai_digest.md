@@ -5,7 +5,7 @@ desc: |
   Records OpenAI's 2026 report, with Chapter 9's complete construction of a
   superexponential lower bound for multicolour triangle Ramsey numbers.
 created: 2026-09-09T01:21:03Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-09-09T01:21:03Z
 ---
 
 # Ten Advances in Mathematics and Theoretical Computer Science
@@ -25,7 +25,8 @@ August 6, 2026. Chapter 9, *Super-exponential lower bounds for
 $R(3,\ldots,3)$*, occupies printed pp. 229-235, PDF pages 233-239.
 
 - Canonical local PDF,
-  from [OpenAI's hosted report](https://cdn.openai.com/pdf/ten-proofs-oai.pdf); 253 pages, 2,487,031 bytes.
+  from [OpenAI's hosted report](https://cdn.openai.com/pdf/ten-proofs-oai.pdf),
+  accessed 2026-09-08; 253 pages, 2,487,031 bytes.
 - SHA-256:
   <removed: the digest of the held PDF, which Git LFS records>.
 - The abstract-page footnote identifies the August 6 revision and links the

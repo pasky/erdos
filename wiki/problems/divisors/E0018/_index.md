@@ -165,7 +165,8 @@ page-level standing stays open because the first and third questions are not
 settled.
 
 **Part (a): claims, not adopted.** Two proof claims, both answering only the
-first question and neither accepted (the site heads both as proof claims). (i) Price, 24 July 2026 (made with GPT-5.6 Sol Pro, as the claim
+first question and neither accepted (the site headed both as proof claims on
+2026-10-07). (i) Price, 24 July 2026 (made with GPT-5.6 Sol Pro, as the claim
 states): $h(n)\ll(\log\log n)^2$ for infinitely many practical $n$; the
 write-up sits behind an Overleaf read link whose text this corpus does not
 have; per the comment of 6 August 2026 the argument rests on Bourgain's
@@ -252,7 +253,7 @@ cited bounds only.
   all sufficiently large $n$
   ([[../library/divisors/jenw1n_2026_lean_proof_erdos_problem_18b/target|the accepted target]]);
   a Lean proof accepted by Conjectures.io (record `e93a2766-…`, solver
-  handle JenW1N, kernel-verified, review approved 16
+  handle JenW1N, kernel-verified 16 September 2026, review approved 16
   September, certified 17 September 2026, bounty paid; axioms `propext`,
   `Quot.sound`, `Classical.choice`; a single kernel; no write-up; not built
   by this corpus). Scope: the second question only; claim page

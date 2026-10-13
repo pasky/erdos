@@ -34,8 +34,8 @@ quoted here second-hand; Schoen's paper is not held.
 
 **Source.** S. Baier, *A note on P-sets*, Integers 4 (2004), #A13, 6 pp.
 (received 3 October 2003, accepted 26 September 2004, published 8 October 2004,
-per the paper's header; listed on the journal's volume 4 page); the Theorem on
-p. 2 of the retained journal PDF, read in the text layer.
+per the paper's header; listed on the journal's volume 4 page, read 2026-09-18);
+the Theorem on p. 2 of the retained journal PDF, read in the text layer.
 
 **Read depth.** Claims checked: the definition, the Theorem and the
 introduction's attributions were read clause by clause in the text layer.

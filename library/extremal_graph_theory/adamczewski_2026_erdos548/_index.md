@@ -146,7 +146,7 @@ grade](evidence/verify/proof_chain_review_grade_fresh.md) records PASS for the
 report contract and PASS for independence. The earlier [proof-chain
 review](evidence/verify/proof_chain_review.md) of 2026-09-05 is retained with
 its `lemma_1.md` repair, but its acceptance was voided on 2026-09-18 for
-material exposure: its reviewed bytes this card and
+material exposure: its reviewed bytes as of 2026-09-10T05:35:49Z, this card and
 the three problem pages among them, carried sentences stating that the
 reconstruction had passed independent review. Neither review is the public
 formal verification, and neither constitutes external expert refereeing of the

@@ -5,7 +5,7 @@ desc: |
   Records the exact published R(3,3,3,3) at most 62 statement as an
   external premise; its computational proof is not locally reviewed.
 created: 2026-09-10T08:18:30Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-09-10T08:18:30Z
 ---
 
 ***
@@ -25,7 +25,7 @@ Theorem 5.6, printed p. 61 / PDF p. 21 of the retained publisher journal
 version, Ars Combinatoria 72, 41–63. Its wording is “There does not exist
 a good 4-coloring of $K_{62}$.” The source's definition of good is the
 absence of a monochromatic triangle. The exact statement and complete
-page image were visually checked.
+page image were visually checked on 2026-09-10.
 
 The proof invokes Theorem 3.2 and Propositions 5.1–5.5 together with the
 reported final computation. These dependencies and the computational

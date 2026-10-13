@@ -34,10 +34,11 @@ retained manuscript version. The arXiv record (https://arxiv.org/abs/2212.03381,
 read 2026-10-02) names the Creative Commons Attribution 4.0 license.
 
 The [publisher record](https://ems.press/journals/jems/articles/14298551),
-reports acceptance on 12 October 2023 and online publication on 31 January 2025.
-Its PDF download requires a subscription; the version-of-record theorem text and
-its relationship to v1 have not been checked. Publication metadata does not
-establish that the two versions have identical statements, proofs, or labels.
+accessed 9 September 2026, reports acceptance on 12 October 2023 and online
+publication on 31 January 2025. Its PDF download requires a subscription; the
+version-of-record theorem text and its relationship to v1 have not been checked.
+Publication metadata does not establish that the two versions have identical
+statements, proofs, or labels.
 
 [[arithmetic_functions/dartyge_maynard_2025_largest_prime_factor_quartic_polynomial_values_cyclic_dihedral/theorem_1_1|Theorem 1.1]]
 on v1 p. 3 states that for each monic irreducible quartic

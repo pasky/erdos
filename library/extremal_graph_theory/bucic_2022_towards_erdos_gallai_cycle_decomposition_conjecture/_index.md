@@ -52,9 +52,9 @@ Source: <https://arxiv.org/abs/2211.07689>.
 
 **Edition.** The copy read for this card is arXiv:2211.07689v2, stamped
 "[math.CO] 14 Nov 2023" on p. 1 and described in the arXiv record as "Final
-version, accepted for publication" (record read), 26 pages with a text layer;
-the digest's citation year 2022 is the year of v1. The paper appeared as
-Advances in Mathematics 437 (2024), Paper No. 109434,
+version, accepted for publication" (record read 2026-09-18), 26 pages with a
+text layer; the digest's citation year 2022 is the year of v1. The paper
+appeared as Advances in Mathematics 437 (2024), Paper No. 109434,
 doi:10.1016/j.aim.2023.109434 (Crossref record read: issued February 2024,
 record created 1 December 2023), after an extended abstract in the Proceedings
 of the 55th Annual ACM Symposium on Theory of Computing (STOC 2023), pp.

@@ -15,12 +15,14 @@ September 1, 2026; arXiv records submission at 18:37:21 UTC that day.
 
 ## Source artifact and reading coverage
 
-The canonical local artifact is cambie_kalviainen_2026_small_step_walk.pdf, the
-two-page v1 PDF. Its SHA-256 was checked against the live versioned PDF. Printed
-and PDF page numbers coincide. Both pages were visually inspected from rendered
-images, including Theorem 1, equations (1)–(5), the full proof, attribution, and
-references. The HTML version was a reading aid; the PDF controls the formulas
-and version.
+The canonical local artifact is
+cambie_kalviainen_2026_small_step_walk.pdf,
+the two-page v1 PDF. Its SHA-256 was checked against the live versioned PDF
+on 2026-09-08. Printed
+and PDF page numbers coincide. Both pages were visually inspected from
+rendered images, including Theorem 1, equations (1)–(5), the full proof,
+attribution, and references. The HTML version was a reading aid; the PDF
+controls the formulas and version.
 
 The source's single theorem is retained as
 [[library/discrete_geometry/cambie_kalviainen_2026_small_step_walk/theorem_1|Theorem
